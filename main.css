@@ -1,0 +1,227 @@
+::-webkit-scrollbar {
+	color: #aba499;
+	background-color: #202324;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #454a4d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #575e62;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background-color: #484e51;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: #181a1b;
+}
+
+*, a {
+	color: #fff;
+	scrollbar-color: #454a4d #202324;
+}
+
+body {
+	font: 20px/23px Homenaje, Impact, sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-width: 440px;
+	height: 100vh;
+	cursor: pointer;
+	text-align: center;
+	background: #000 url(images/cathedral.jpg) no-repeat;
+	background-size: cover;
+	background-position: center bottom -90px;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body > * {
+	-webkit-tap-highlight-color: initial;
+}
+
+@media (any-pointer: fine) {
+	body {
+		cursor: default;
+	}
+}
+
+body > * {
+	flex-shrink: 0;
+}
+
+::selection {
+	background: #fbb406;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	margin: 0;
+}
+
+#header {
+	font-size: 32px;
+	line-height: 1;
+	margin-bottom: 10px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+}
+
+#header, #summaryContainer {
+	background-color: rgba(0, 0, 0, 0.2);
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#header > * {
+	margin: 0 auto;
+	text-shadow: 2px 2px 8px rgb(1 1 1 / 100%);
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#header h1 {
+	font-size: 140%;
+}
+
+#header h2 {
+	font-size: 80%;
+}
+
+@media (max-width: 532px) {
+	#header h1 {
+		font-size: 8.3vw;
+	}
+	#header h2 {
+		font-size: 4.8vw;
+	}
+}
+
+@media (max-width: 440px) {
+	#header h1 {
+		font-size: 114%;
+	}
+	#header h2 {
+		font-size: 66%;
+	}
+}
+
+#skillTree {
+	display: flex;
+	margin: 0 auto 10px;
+	user-select: none;
+	flex-grow: 9999;
+	justify-content: center;
+}
+
+.hidden, .hidden * {
+	visibility: hidden!important;
+	pointer-events: none;
+}
+
+#classSelectContainer, #extraButtons {
+	display: flex;
+	margin-bottom: 10px;
+	user-select: none;
+	justify-content: center;
+}
+
+#classSelectContainer > *, #extraButtons > * {
+	margin: 0 2.5px;
+}
+
+select, option, button {
+	height: 26px;
+	padding: 0 6px;
+	cursor: pointer;
+	border: 1px solid #fff;
+	background-color: #000;
+}
+
+select {
+	padding: 0 18px 0 4px;
+	background: #000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik04NzUuNywxNzkuOEw1MDAsNTc3LjlMMTI0LjMsMTc5LjhMMTAsMzAxbDQ5MCw1MTkuMkw5OTAsMzAxTDg3NS43LDE3OS44eiIvPjwvc3ZnPg==") no-repeat right 4px center;
+	background-size: 8px;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+:disabled {
+	cursor: not-allowed;
+}
+
+button:active {
+	background-color: #333;
+}
+
+#summaryContainer {
+	margin-top: auto;
+	padding: 10px 10px 0;
+	border-top: 2px solid #fff;
+	flex-grow: 1;
+}
+
+#summaryContainer * {
+	line-height: 1.1;
+	max-width: 840px;
+	margin: auto;
+}
+
+#summarySpacer {
+	clear: both;
+	height: 20px;
+}
+
+#summaryContainer .skillText {
+	clear: both;
+	text-align: left;
+	border-top: 1px solid #fff;
+}
+
+#summaryContainer strong {
+	font-size: 24px;
+	font-weight: normal;
+	display: block;
+	float: left;
+	clear: left;
+	width: 200px;
+	margin-top: 2.5px;
+	text-align: right;
+}
+
+#summaryContainer .descriptionText {
+	margin: 5px 0 5px 210px;
+	text-align: justify;
+}
+
+#footer {
+	font-size: 12px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	text-transform: uppercase;
+}
+
+#footer a:hover {
+	color: #f0f;
+}
+
+.stamp {
+	font-size: 50%;
+	position: absolute;
+	display: inline-block;
+	overflow: visible;
+	width: 0;
+	height: 0;
+	margin: 0.5em 0 0 0.3em;
+	transform: rotate(12deg);
+}
+
+@media (max-width: 700px) {
+	.stamp {
+		display: none;
+	}
+}

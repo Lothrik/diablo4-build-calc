@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Plan your Diablo 4 character using this build calculator!">
+	<title>Diablo 4 Build Calculator</title>
+	<!--<link href="favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+	<link href="favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+	<link href="favicon.ico" rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48">-->
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Homenaje" rel="stylesheet" type="text/css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.0.4/pixi.min.js"></script>
+</head>
+<body>
+	<div id="header">
+		<h1><a href="#" target="_blank">Diablo IV Build Calculator</a><div class="stamp">&nbsp;[WIP]</div></h1>
+		<h2 class="hidden">Level <span id="charLevel">1</span> <span id="className">None</span><span id="renownLevel"></span></h2>
+	</div>
+	<div id="skillTree"></div>
+	<div id="classSelectContainer">
+		<select id="classSelector">
+			<option value="none">None</option>
+			<option value="barbarian">Barbarian</option>
+			<option value="druid">Druid</option>
+			<option value="necromancer">Necromancer</option>
+			<option value="rogue">Rogue</option>
+			<option value="sorceress">Sorceress</option>
+		</select>
+	</div>
+	<div id="extraButtons">
+		<button id="resetButton" type="button">Reset</button>
+		<button id="debugButton" type="button">Enable Debugging</button>
+		<button id="saveButton" type="button">Save</button>
+		<button id="reloadButton" type="button">Reload</button>
+		<button id="shareButton" type="button">Share URL</button>
+	</div>
+	<div id="summaryContainer">
+		<div id="summarySpacer" class="disabled"></div>
+		<h2 id="skillSummaryHeader"></h2>
+		<div id="skillSummaryContainer"></div>
+		<div id="footer">Diablo IV &copy; 2023 <a href="https://diablo4.blizzard.com">Blizzard Entertainment</a>. Website by <a href="https://discord.gg/rdiablo">Lothrik (MaXiMiUS)#1560</a>. <a href="https://github.com/lothrik/diablo4-build-calc">Source Code</a>.</div>
+	</div>
+	<script src="main.js" type="module"></script>
+</body>
+</html>
