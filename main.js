@@ -881,6 +881,8 @@ function rebuildCanvas() {
 
 	pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
 
+	pixiJS.stage.pivot.x = 0;
+	pixiJS.stage.pivot.y = 0;
 	pixiJS.stage.scale.x = 1;
 	pixiJS.stage.scale.y = 1;
 
