@@ -684,7 +684,24 @@ function drawTooltip(curNode) {
 		nodeDesc += "\nx: " + debugX + "\ny: " + debugY;
 	}
 
-	const tooltipText = new PIXI.Text(curNode.nodeName + ":\n" + nodeDesc, {
+	const tooltipText1 = new PIXI.Text(curNode.nodeName, {
+		align: "left",
+		breakWords: true,
+		cacheAsBitmap: true,
+		fill: 0xFFFFFF,
+		fontFamily: "Homenaje, Impact, sans-serif",
+		fontSize: 36 * 4,
+		fontVariant: "small-caps",
+		fontWeight: "bold",
+		width: tooltipWidth * 4,
+		wordWrap: true,
+		wordWrapWidth: 480 * 4,
+	});
+	tooltipText1.scaleMode = PIXI.SCALE_MODES.LINEAR;
+	tooltipText1.scale.set(0.25);
+	tooltipText1.anchor.set(0);
+
+	const tooltipText2 = new PIXI.Text("\n" + nodeDesc, {
 		align: "center",
 		breakWords: true,
 		cacheAsBitmap: true,
@@ -695,19 +712,20 @@ function drawTooltip(curNode) {
 		wordWrap: true,
 		wordWrapWidth: 480 * 4,
 	});
-	tooltipText.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	tooltipText.scale.set(0.25);
-	tooltipText.anchor.set(0);
+	tooltipText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
+	tooltipText2.scale.set(0.25);
+	tooltipText2.anchor.set(0);
+	tooltipText2.position.y = 18;
 
 	const tooltipBackground = PIXI.Sprite.from("images/tooltip.png");
-	tooltipBackground.width = tooltipText.width + 20;
-	tooltipBackground.height = tooltipText.height + 20;
+	tooltipBackground.width = Math.max(tooltipText1.width, tooltipText2.width) + 20;
+	tooltipBackground.height = tooltipText1.height + tooltipText2.height + 3;
 	tooltipBackground.anchor.set(10 / tooltipBackground.width, 10 / tooltipBackground.height);
 
 	const tooltipBorder = new PIXI.Graphics();
 	tooltipBorder.pivot.x = 10;
 	tooltipBorder.pivot.y = 10;
-	tooltipBorder.lineStyle(lineStyleThinSquare);
+	tooltipBorder.lineStyle(lineStyleThickSquare);
 	tooltipBorder.moveTo(0, 0);
 	tooltipBorder.lineTo(tooltipBackground.width, 0);
 	tooltipBorder.moveTo(tooltipBackground.width, 0);
@@ -716,6 +734,11 @@ function drawTooltip(curNode) {
 	tooltipBorder.lineTo(0, tooltipBackground.height);
 	tooltipBorder.moveTo(0, tooltipBackground.height);
 	tooltipBorder.lineTo(0, 0);
+	
+	const tooltipSeperator = new PIXI.Graphics();
+	tooltipSeperator.lineStyle(lineStyleThinSquare);
+	tooltipSeperator.moveTo(0, tooltipText1.height + 12);
+	tooltipSeperator.lineTo(tooltipBackground.width - 20, tooltipText1.height + 12);
 
 	const tooltip = new PIXI.Container();
 	tooltip.zIndex = 2;
@@ -733,7 +756,7 @@ function drawTooltip(curNode) {
 	}
 	tooltip.position.x = curNode.x + nodeWidth / 2 + 20 / (1 / tooltip.scale.x);
 	tooltip.position.y = curNode.y - nodeHeight / 2 + 10 / (1 / tooltip.scale.y);
-	tooltip.addChild(tooltipBackground, tooltipText, tooltipBorder);
+	tooltip.addChild(tooltipBackground, tooltipText1, tooltipText2, tooltipBorder, tooltipSeperator);
 
 	pixiTooltip = pixiJS.stage.addChild(tooltip);
 	pixiTooltip.nodeIndex = curNode.nodeIndex;
