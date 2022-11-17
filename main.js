@@ -105,8 +105,8 @@ var debugMode = false;
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
 	this.geometry.graphicsData.forEach(data => {
-		if (width != null && width != data.lineStyle.width) {
-			data.lineStyle.width = width;
+		if (alpha != null && alpha != data.lineStyle.alpha) {
+			data.lineStyle.alpha = alpha;
 			styleChanged = true;
 		}
 		if (cap != null && cap != data.lineStyle.cap) {
@@ -117,8 +117,8 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 			data.lineStyle.color = color;
 			styleChanged = true;
 		}
-		if (alpha != null && alpha != data.lineStyle.alpha) {
-			data.lineStyle.alpha = alpha;
+		if (width != null && width != data.lineStyle.width) {
+			data.lineStyle.width = width;
 			styleChanged = true;
 		}
 		if (native != null && native != data.lineStyle.native) {
@@ -163,6 +163,8 @@ function handleSkillTree(event) {
 		newScale = Math.round((pixiJS.stage.scale.x - 0.05) * 100) / 100;
 	}
 	if (newScale >= 0.5 && newScale <= 2) {
+		pixiJS.stage.pivot.x = Math.round(event.pageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.pageX / newScale);
+		pixiJS.stage.pivot.y = Math.round(event.pageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.pageY / newScale);
 		pixiJS.stage.scale.x = newScale;
 		pixiJS.stage.scale.y = newScale;
 		if (pixiTooltip) {
