@@ -154,7 +154,7 @@ function handleSkillTreeZoom(event) {
 	}
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
 		let newScale = 0;
-		if (!hasTouchEvents) {
+		if (event.type == "wheel") {
 			if (event.originalEvent.deltaY < 0) {
 				newScale = Math.round((pixiJS.stage.scale.x + 0.05) * 100) / 100;
 			} else if (event.originalEvent.deltaY > 0) {
@@ -164,7 +164,7 @@ function handleSkillTreeZoom(event) {
 			newScale = Math.hypot(event.originalEvent.touches[0].pageX - event.originalEvent.touches[1].pageX, event.originalEvent.touches[0].pageY - event.originalEvent.touches[1].pageY) / initialTouchDistance;
 		}
 		if (newScale >= 0.5 && newScale <= 2) {
-			if (event.type == "wheel") {
+			if (!hasTouchEvents) {
 				pixiJS.stage.pivot.x = Math.round(event.pageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.pageX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.pageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.pageY / newScale);
 			}
