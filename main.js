@@ -102,7 +102,6 @@ var pixiDragging;
 
 var debugMode = false;
 
-var hasTouchEvents = false;
 var isTouching = false;
 var initialTouchDistance = 0;
 
@@ -137,15 +136,12 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 
 // event handlers
 const classString = "#classSelector option:selected";
-function handleDocumentTouch(event) {
-	hasTouchEvents = true;
-}
 function handleSkillTreeZoom(event) {
 	switch (event.type) {
 		case "touchstart":
 			if (event.originalEvent.touches.length == 2) {
 				isTouching = true;
-				initialTouchDistance = Math.hypot(event.originalEvent.touches[0].pageX - event.originalEvent.touches[1].pageX, event.originalEvent.touches[0].pageY - event.originalEvent.touches[1].pageY);
+				initialTouchDistance = Math.hypot(event.originalEvent.touches[0].clientX - event.originalEvent.touches[1].clientX, event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY);
 			}
 			break;
 		case "touchend":
@@ -161,12 +157,12 @@ function handleSkillTreeZoom(event) {
 				newScale = Math.round((pixiJS.stage.scale.x - 0.05) * 100) / 100;
 			}
 		} else {
-			newScale = Math.hypot(event.originalEvent.touches[0].pageX - event.originalEvent.touches[1].pageX, event.originalEvent.touches[0].pageY - event.originalEvent.touches[1].pageY) / initialTouchDistance;
+			newScale = Math.hypot(event.originalEvent.touches[0].clientX - event.originalEvent.touches[1].clientX, event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY) / initialTouchDistance;
 		}
 		if (newScale >= 0.5 && newScale <= 2) {
-			if (!hasTouchEvents) {
-				pixiJS.stage.pivot.x = Math.round(event.pageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.pageX / newScale);
-				pixiJS.stage.pivot.y = Math.round(event.pageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.pageY / newScale);
+			if (event.type == "wheel") {
+				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
+				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
 			}
 			pixiJS.stage.scale.x = newScale;
 			pixiJS.stage.scale.y = newScale;
@@ -957,7 +953,6 @@ function resizeCanvas() {
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
-	$(document).on("touchstart", handleDocumentTouch);
 	$("#resetButton").on("click", handleResetButton);
 	$("#debugButton").on("click", handleDebugButton);
 	$("#saveButton").on("click", handleSaveButton);
