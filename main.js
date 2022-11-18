@@ -669,8 +669,11 @@ function drawAllNodes() {
 	}
 }
 function drawTooltip(curNode) {
+	const stageScaleX = pixiJS.stage.scale.x;
+	const stageScaleY = pixiJS.stage.scale.y;
+
 	// skip tooltip redraw if we already have the correct one displayed
-	if (pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex) return;
+	if (pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.stageScaleX == stageScaleX) return;
 
 	eraseTooltip();
 
@@ -706,15 +709,15 @@ function drawTooltip(curNode) {
 		cacheAsBitmap: true,
 		fill: 0xFFFFFF,
 		fontFamily: "Homenaje, Impact, sans-serif",
-		fontSize: 36 * 4,
+		fontSize: 36 * 2,
 		fontVariant: "small-caps",
 		fontWeight: "bold",
-		width: tooltipWidth * 4,
+		width: tooltipWidth * 2,
 		wordWrap: true,
-		wordWrapWidth: 480 * 4,
+		wordWrapWidth: 480 * 2, // inexplicably cannot exceed 1065 pixels on mobile
 	});
 	tooltipText1.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	tooltipText1.scale.set(0.25);
+	tooltipText1.scale.set(0.5);
 	tooltipText1.anchor.set(0);
 
 	const tooltipText2 = new PIXI.Text("\n" + nodeDesc, {
@@ -723,13 +726,13 @@ function drawTooltip(curNode) {
 		cacheAsBitmap: true,
 		fill: 0xFFFFFF,
 		fontFamily: "Homenaje, Impact, sans-serif",
-		fontSize: 36 * 4,
-		width: tooltipWidth * 4,
+		fontSize: 36 * 2,
+		width: tooltipWidth * 2,
 		wordWrap: true,
-		wordWrapWidth: 480 * 4,
+		wordWrapWidth: 480 * 2, // inexplicably cannot exceed 1065 pixels on mobile
 	});
 	tooltipText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	tooltipText2.scale.set(0.25);
+	tooltipText2.scale.set(0.5);
 	tooltipText2.anchor.set(0);
 	tooltipText2.position.y = 18;
 
@@ -760,14 +763,12 @@ function drawTooltip(curNode) {
 
 	const tooltip = new PIXI.Container();
 	tooltip.zIndex = 2;
-	const xScale = pixiJS.stage.scale.x;
-	const yScale = pixiJS.stage.scale.y;
-	if (xScale < tooltipScalingFloor) {
-		tooltip.scale.x = tooltipScalingFloor / xScale;
-		tooltip.scale.y = tooltipScalingFloor / yScale;
-	} else if (xScale > tooltipScalingCeiling) {
-		tooltip.scale.x = tooltipScalingCeiling / xScale;
-		tooltip.scale.y = tooltipScalingCeiling / yScale;
+	if (stageScaleX < tooltipScalingFloor) {
+		tooltip.scale.x = tooltipScalingFloor / stageScaleX;
+		tooltip.scale.y = tooltipScalingFloor / stageScaleY;
+	} else if (stageScaleX > tooltipScalingCeiling) {
+		tooltip.scale.x = tooltipScalingCeiling / stageScaleX;
+		tooltip.scale.y = tooltipScalingCeiling / stageScaleY;
 	} else {
 		tooltip.scale.x = 1;
 		tooltip.scale.y = 1;
@@ -778,6 +779,8 @@ function drawTooltip(curNode) {
 
 	pixiTooltip = pixiJS.stage.addChild(tooltip);
 	pixiTooltip.nodeIndex = curNode.nodeIndex;
+	pixiTooltip.stageScaleX = stageScaleX;
+	//pixiTooltip.stageScaleY = stageScaleY; // unused
 }
 function eraseTooltip() {
 	if (pixiTooltip) {
