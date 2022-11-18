@@ -102,6 +102,8 @@ var pixiDragging;
 
 var debugMode = false;
 
+var initialTouchDistanceance = 0;
+
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
 	this.geometry.graphicsData.forEach(data => {
@@ -155,25 +157,44 @@ function handleButtonState(event) {
 		$("#shareButton").prop("disabled", false);
 	}
 }
-function handleSkillTree(event) {
-	let newScale = 0;
-	if (event.originalEvent.deltaY < 0) {
-		newScale = Math.round((pixiJS.stage.scale.x + 0.05) * 100) / 100;
-	} else if (event.originalEvent.deltaY > 0) {
-		newScale = Math.round((pixiJS.stage.scale.x - 0.05) * 100) / 100;
+function handleSkillTreeZoom(event) {
+	let isTouching = false;
+	switch (event.type) {
+		case "touchstart":
+			if (event.originalEvent.touches.length == 2) {
+				initialTouchDistance = Math.hypot(event.originalEvent.touches[0].pageX - event.originalEvent.touches[1].pageX, event.originalEvent.touches[0].pageY - event.originalEvent.touches[1].pageY);
+				isTouching = true;
+			}
+			break;
+		case "touchend":
+			isTouching = false;
+			break;
 	}
-	if (newScale >= 0.5 && newScale <= 2) {
-		pixiJS.stage.pivot.x = Math.round(event.pageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.pageX / newScale);
-		pixiJS.stage.pivot.y = Math.round(event.pageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.pageY / newScale);
-		pixiJS.stage.scale.x = newScale;
-		pixiJS.stage.scale.y = newScale;
-		if (pixiTooltip) {
-			drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
+	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
+		let newScale = 0;
+		if (event.type == "wheel") {
+			if (event.originalEvent.deltaY < 0) {
+				newScale = Math.round((pixiJS.stage.scale.x + 0.05) * 100) / 100;
+			} else if (event.originalEvent.deltaY > 0) {
+				newScale = Math.round((pixiJS.stage.scale.x - 0.05) * 100) / 100;
+			}
+		} else {
+			newScale = Math.hypot(event.originalEvent.touches[0].pageX - event.originalEvent.touches[1].pageX, event.originalEvent.touches[0].pageY - event.originalEvent.touches[1].pageY) / initialTouchDistance;
 		}
-		if (preventConnectorScaling) {
-			drawAllConnectors();
+		if (newScale >= 0.5 && newScale <= 2) {
+			pixiJS.stage.pivot.x = Math.round(event.pageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.pageX / newScale);
+			pixiJS.stage.pivot.y = Math.round(event.pageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.pageY / newScale);
+			pixiJS.stage.scale.x = newScale;
+			pixiJS.stage.scale.y = newScale;
+			if (pixiTooltip) {
+				drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
+			}
+			if (preventConnectorScaling) {
+				drawAllConnectors();
+			}
 		}
 	}
+	event.preventDefault();
 }
 function handleClassSelection(event) {
 	let newClass = $(classString);
@@ -617,11 +638,16 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		.on("mousemove", onDragMove)
 		.on("touchmove", onDragMove)
 		.on("mouseover", onMouseOver)
-		.on("mouseout", onMouseOut);
+		.on("mouseout", onMouseOut)
+		.on("tap", onMouseOver);
 
 	if (groupName != undefined) {
-		plusContainer.on("click", () => handlePlusButton(node));
-		minusContainer.on("click", () => handleMinusButton(node));
+		plusContainer
+			.on("click", () => handlePlusButton(node))
+			.on("tap", () => handlePlusButton(node));
+		minusContainer
+			.on("click", () => handleMinusButton(node))
+			.on("tap", () => handleMinusButton(node));
 	}
 
 	pixiNodes.push(pixiJS.stage.addChild(node));
@@ -656,6 +682,9 @@ function drawAllNodes() {
 	}
 }
 function drawTooltip(curNode) {
+	// skip tooltip redraw if we already have the correct one displayed
+	if (pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex) return;
+
 	eraseTooltip();
 
 	let nodeDesc = curNode.nodeData.get("description");
@@ -734,7 +763,7 @@ function drawTooltip(curNode) {
 	tooltipBorder.lineTo(0, tooltipBackground.height);
 	tooltipBorder.moveTo(0, tooltipBackground.height);
 	tooltipBorder.lineTo(0, 0);
-	
+
 	const tooltipSeperator = new PIXI.Graphics();
 	tooltipSeperator.lineStyle(lineStyleThinSquare);
 	tooltipSeperator.moveTo(0, tooltipText1.height + 12);
@@ -947,7 +976,7 @@ $(document).ready(function() {
 	$("#shareButton").on("click", handleShareButton);
 	$("#classSelector, #extraButtons").on("keydown mouseenter mouseleave", handleButtonState);
 	$("#classSelector").on("change", handleClassSelection);
-	$("#skillTree").on("wheel", handleSkillTree);
+	$("#skillTree").on("wheel touchstart touchend touchmove", handleSkillTreeZoom);
 	$("#skillTree").on("contextmenu", onContextMenu);
 	$("#skillTree").append(pixiJS.view);
 	$(window).on("resize", resizeCanvas);

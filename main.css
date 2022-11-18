@@ -28,7 +28,7 @@ body {
 	font: 20px/23px Homenaje, Impact, sans-serif;
 	display: flex;
 	flex-direction: column;
-	min-width: 440px;
+	min-width: 390px;
 	height: 100vh;
 	cursor: pointer;
 	text-align: center;
@@ -203,6 +203,12 @@ button:active {
 	margin-bottom: 5px;
 	padding-top: 15px;
 	text-transform: uppercase;
+}
+
+@media (max-width: 440px) {
+	#footer {
+		font-size: 2.72vw;
+	}
 }
 
 #footer a:hover {
