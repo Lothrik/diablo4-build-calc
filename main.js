@@ -103,7 +103,11 @@ var pixiDragging;
 var debugMode = false;
 
 var isTouching = false;
-var initialTouchDistance = 0;
+var initialScale;
+var initialTouchDistance;
+
+var previousWidth = 0;
+var previousHeight = 0;
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
@@ -141,7 +145,10 @@ function handleSkillTreeZoom(event) {
 		case "touchstart":
 			if (event.originalEvent.touches.length == 2) {
 				isTouching = true;
-				initialTouchDistance = Math.hypot(event.originalEvent.touches[0].clientX - event.originalEvent.touches[1].clientX, event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY);
+				initialScale = pixiJS.stage.scale.x;
+				initialTouchDistance = Math.hypot(
+					event.originalEvent.touches[0].clientX - event.originalEvent.touches[1].clientX,
+					event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY);
 			}
 			break;
 		case "touchend":
@@ -157,12 +164,20 @@ function handleSkillTreeZoom(event) {
 				newScale = Math.round((pixiJS.stage.scale.x - 0.05) * 100) / 100;
 			}
 		} else {
-			newScale = Math.hypot(event.originalEvent.touches[0].clientX - event.originalEvent.touches[1].clientX, event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY) / initialTouchDistance;
+			newScale = Math.hypot(
+				event.originalEvent.touches[0].clientX - event.originalEvent.touches[1].clientX,
+				event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY)
+				* initialScale / initialTouchDistance;
 		}
 		if (newScale >= 0.5 && newScale <= 2) {
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
+			} else {
+				const averageX = (event.originalEvent.touches[0].clientX + event.originalEvent.touches[1].clientX) / 2;
+				const averageY = (event.originalEvent.touches[0].clientY + event.originalEvent.touches[1].clientY) / 2;
+				pixiJS.stage.pivot.x = Math.round(averageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - averageX / newScale);
+				pixiJS.stage.pivot.y = Math.round(averageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - averageY / newScale);
 			}
 			pixiJS.stage.scale.x = newScale;
 			pixiJS.stage.scale.y = newScale;
@@ -174,7 +189,6 @@ function handleSkillTreeZoom(event) {
 			}
 		}
 	}
-	event.preventDefault();
 }
 function handleClassSelection(event) {
 	let newClass = $(classString);
@@ -295,13 +309,15 @@ function onDragMove(event, dragOverride) {
 	}
 }
 function onDragAllMove(event) {
-	if (pixiDragging == pixiBackground) {
-		for (let i = 0; i < pixiJS.stage.children.length; i++) {
-			pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.startX - pixiDragging.startX + event.global.x / pixiJS.stage.scale.x;
-			pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.startY - pixiDragging.startY + event.global.y / pixiJS.stage.scale.y;
+	if (!isTouching) {
+		if (pixiDragging == pixiBackground) {
+			for (let i = 0; i < pixiJS.stage.children.length; i++) {
+				pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.startX - pixiDragging.startX + event.global.x / pixiJS.stage.scale.x;
+				pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.startY - pixiDragging.startY + event.global.y / pixiJS.stage.scale.y;
+			}
+		} else if (pixiDragging) {
+			return onDragMove(event, true);
 		}
-	} else if (pixiDragging) {
-		return onDragMove(event, true);
 	}
 }
 function onMouseOver(event) {
@@ -940,21 +956,26 @@ function rebuildCanvas() {
 	$("#renownLevel").text("");
 }
 function resizeCanvas() {
-	const parent = pixiJS.view.parentNode;
+	if (document.body.offsetHeight != previousHeight || document.body.offsetWidth != previousWidth) {
+		previousWidth = document.body.offsetWidth;
+		previousHeight = document.body.offsetHeight;
 
-	const oldWidth = pixiJS.renderer.width;
-	const oldHeight = pixiJS.renderer.height;
+		const parent = pixiJS.view.parentNode;
 
-	pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
+		const oldWidth = pixiJS.renderer.width;
+		const oldHeight = pixiJS.renderer.height;
 
-	const newWidth = Math.floor(Math.max(Math.min(document.body.clientWidth, maxCanvasWidth), minCanvasWidth));
-	const newHeight = Math.floor(Math.max(Math.min($("#skillTree").height(), maxCanvasHeight), minCanvasHeight));
+		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
 
-	pixiJS.renderer.resize(newWidth, newHeight);
+		const newWidth = Math.floor(Math.max(Math.min(document.body.clientWidth, maxCanvasWidth), minCanvasWidth));
+		const newHeight = Math.floor(Math.max(Math.min($("#skillTree").height(), maxCanvasHeight), minCanvasHeight));
 
-	for (let i = 0; i < pixiJS.stage.children.length; i++) {
-		pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth / 2 + newWidth / 2;
-		pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight / 2 + newHeight / 2;
+		pixiJS.renderer.resize(newWidth, newHeight);
+
+		for (let i = 0; i < pixiJS.stage.children.length; i++) {
+			pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth / 2 + newWidth / 2;
+			pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight / 2 + newHeight / 2;
+		}
 	}
 }
 
