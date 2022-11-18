@@ -102,7 +102,7 @@ var pixiDragging;
 
 var debugMode = false;
 
-var initialTouchDistanceance = 0;
+var initialTouchDistance = 0;
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
