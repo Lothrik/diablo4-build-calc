@@ -570,10 +570,12 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		minusContainer.addChild(nodeText4);
 	}
 
-	const nodeBackground = PIXI.Sprite.from("images/node.png");
-	nodeBackground.anchor.set(0.5);
-	nodeBackground.width = nodeWidth;
-	nodeBackground.height = nodeHeight;
+	const nodeBackground = new PIXI.Graphics();
+	nodeBackground.beginFill(0);
+	nodeBackground.drawRect(0, 0, nodeWidth, nodeHeight);
+	nodeBackground.alpha = 0.5;
+	nodeBackground.pivot.x = nodeWidth / 2;
+	nodeBackground.pivot.y = nodeHeight / 2;
 
 	const nodeBorder = new PIXI.Graphics();
 	nodeBorder.pivot.x = nodeWidth / 2;
@@ -731,14 +733,14 @@ function drawTooltip(curNode) {
 	tooltipText2.anchor.set(0);
 	tooltipText2.position.y = 18;
 
-	const tooltipBackground = PIXI.Sprite.from("images/tooltip.png");
-	tooltipBackground.width = Math.max(tooltipText1.width, tooltipText2.width) + 20;
-	tooltipBackground.height = tooltipText1.height + tooltipText2.height + 3;
-	tooltipBackground.anchor.set(10 / tooltipBackground.width, 10 / tooltipBackground.height);
+	const tooltipBackground = new PIXI.Graphics();
+	tooltipBackground.beginFill(0);
+	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 3);
+	tooltipBackground.alpha = 0.5;
+	tooltipBackground.pivot.x = 10;
+	tooltipBackground.pivot.y = 10;
 
 	const tooltipBorder = new PIXI.Graphics();
-	tooltipBorder.pivot.x = 10;
-	tooltipBorder.pivot.y = 10;
 	tooltipBorder.lineStyle(lineStyleThickSquare);
 	tooltipBorder.moveTo(0, 0);
 	tooltipBorder.lineTo(tooltipBackground.width, 0);
@@ -748,6 +750,8 @@ function drawTooltip(curNode) {
 	tooltipBorder.lineTo(0, tooltipBackground.height);
 	tooltipBorder.moveTo(0, tooltipBackground.height);
 	tooltipBorder.lineTo(0, 0);
+	tooltipBorder.pivot.x = 10;
+	tooltipBorder.pivot.y = 10;
 
 	const tooltipSeperator = new PIXI.Graphics();
 	tooltipSeperator.lineStyle(lineStyleThinSquare);
