@@ -689,7 +689,7 @@ function drawTooltip(curNode) {
 	const stageScaleY = pixiJS.stage.scale.y;
 
 	// skip tooltip redraw if we already have the correct one displayed
-	if (pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.stageScaleX == stageScaleX) return;
+	if (!debugMode && pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.stageScaleX == stageScaleX) return;
 
 	eraseTooltip();
 
