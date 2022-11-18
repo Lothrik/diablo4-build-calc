@@ -124,7 +124,7 @@ h1, h2, h3 {
 
 @media (max-width: 384px) {
 	button {
-		font-size: 5.1vw!important;
+		font-size: 5vw!important;
 	}
 }
 

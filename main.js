@@ -136,28 +136,6 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 
 // event handlers
 const classString = "#classSelector option:selected";
-function handleDocumentInput(event) {
-	switch (event.type) {
-		case "keydown":
-			switch (event.keyCode) {
-				case 9: // tab key
-					handleButtonState();
-					break;
-			}
-			break;
-	}
-}
-function handleButtonState(event) {
-	if (event && event.type == "mouseleave") {
-		$(this).children().prop("disabled", false);
-	} else {
-		$("#resetButton").prop("disabled", $(classString).val() == "none");
-		$("#debugButton").prop("disabled", false);
-		$("#saveButton").prop("disabled", $(classString).val() == "none");
-		$("#reloadButton").prop("disabled", window.location.href.split("#")[1] == undefined);
-		$("#shareButton").prop("disabled", false);
-	}
-}
 function handleSkillTreeZoom(event) {
 	switch (event.type) {
 		case "touchstart":
@@ -223,21 +201,26 @@ function handleDebugButton(event) {
 	}
 }
 function handleSaveButton(event) {
-	let nodeData = {
-		className: $(classString).val(),
-	};
-	pixiNodes.forEach(curNode => {
-		if (curNode.groupName != undefined) {
-			const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-			if (allocatedPoints > 0) {
-				nodeData[curNode.nodeName] = curNode.nodeData.get("allocatedPoints");
+	const className = $(classString).val();
+	if (className == "none") {
+		window.location.replace(window.location.href.split("#")[0]);
+	} else {
+		let nodeData = {
+			className: className,
+		};
+		pixiNodes.forEach(curNode => {
+			if (curNode.groupName != undefined) {
+				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+				if (allocatedPoints > 0) {
+					nodeData[curNode.nodeName] = curNode.nodeData.get("allocatedPoints");
+				}
 			}
-		}
-	});
-	const jsonData = JSON.stringify(nodeData);
-	const compressedData = LZString.compressToEncodedURIComponent(jsonData);
-	const newURL = window.location.href.split("#")[0] + "#" + compressedData;
-	window.location.replace(newURL);
+		});
+		const jsonData = JSON.stringify(nodeData);
+		const compressedData = LZString.compressToEncodedURIComponent(jsonData);
+		const newURL = window.location.href.split("#")[0] + "#" + compressedData;
+		window.location.replace(newURL);
+	}
 }
 function handleReloadButton() {
 	const urlData = window.location.href.split("#");
@@ -970,13 +953,11 @@ function resizeCanvas() {
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
-	$(document).on("keydown", handleDocumentInput);
 	$("#resetButton").on("click", handleResetButton);
 	$("#debugButton").on("click", handleDebugButton);
 	$("#saveButton").on("click", handleSaveButton);
 	$("#reloadButton").on("click", handleReloadButton);
 	$("#shareButton").on("click", handleShareButton);
-	$("#classSelector, #extraButtons").on("keydown mouseenter mouseleave", handleButtonState);
 	$("#classSelector").on("change", handleClassSelection);
 	$("#skillTree").on("wheel touchstart touchend touchmove", handleSkillTreeZoom);
 	$("#skillTree").on("contextmenu", onContextMenu);
