@@ -940,6 +940,8 @@ function rebuildCanvas() {
 	pixiConnectors = [];
 
 	pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
+	previousWidth = minCanvasWidth;
+	previousHeight = minCanvasHeight;
 
 	pixiJS.stage.pivot.x = 0;
 	pixiJS.stage.pivot.y = 0;
