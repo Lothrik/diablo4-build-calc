@@ -102,6 +102,7 @@ var pixiDragging;
 
 var debugMode = false;
 
+var isTouching = false;
 var initialTouchDistance = 0;
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
@@ -158,12 +159,11 @@ function handleButtonState(event) {
 	}
 }
 function handleSkillTreeZoom(event) {
-	let isTouching = false;
 	switch (event.type) {
 		case "touchstart":
 			if (event.originalEvent.touches.length == 2) {
-				initialTouchDistance = Math.hypot(event.originalEvent.touches[0].pageX - event.originalEvent.touches[1].pageX, event.originalEvent.touches[0].pageY - event.originalEvent.touches[1].pageY);
 				isTouching = true;
+				initialTouchDistance = Math.hypot(event.originalEvent.touches[0].pageX - event.originalEvent.touches[1].pageX, event.originalEvent.touches[0].pageY - event.originalEvent.touches[1].pageY);
 			}
 			break;
 		case "touchend":
@@ -182,8 +182,10 @@ function handleSkillTreeZoom(event) {
 			newScale = Math.hypot(event.originalEvent.touches[0].pageX - event.originalEvent.touches[1].pageX, event.originalEvent.touches[0].pageY - event.originalEvent.touches[1].pageY) / initialTouchDistance;
 		}
 		if (newScale >= 0.5 && newScale <= 2) {
-			pixiJS.stage.pivot.x = Math.round(event.pageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.pageX / newScale);
-			pixiJS.stage.pivot.y = Math.round(event.pageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.pageY / newScale);
+			if (event.type == "wheel") {
+				pixiJS.stage.pivot.x = Math.round(event.pageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.pageX / newScale);
+				pixiJS.stage.pivot.y = Math.round(event.pageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.pageY / newScale);
+			}
 			pixiJS.stage.scale.x = newScale;
 			pixiJS.stage.scale.y = newScale;
 			if (pixiTooltip) {
