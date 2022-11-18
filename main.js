@@ -102,6 +102,7 @@ var pixiDragging;
 
 var debugMode = false;
 
+var hasTouchEvents = false;
 var isTouching = false;
 var initialTouchDistance = 0;
 
@@ -136,6 +137,9 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 
 // event handlers
 const classString = "#classSelector option:selected";
+function handleDocumentTouch(event) {
+	hasTouchEvents = true;
+}
 function handleSkillTreeZoom(event) {
 	switch (event.type) {
 		case "touchstart":
@@ -150,7 +154,7 @@ function handleSkillTreeZoom(event) {
 	}
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
 		let newScale = 0;
-		if (event.type == "wheel") {
+		if (!hasTouchEvents) {
 			if (event.originalEvent.deltaY < 0) {
 				newScale = Math.round((pixiJS.stage.scale.x + 0.05) * 100) / 100;
 			} else if (event.originalEvent.deltaY > 0) {
@@ -953,6 +957,7 @@ function resizeCanvas() {
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
+	$(document).on("touchstart", handleDocumentTouch);
 	$("#resetButton").on("click", handleResetButton);
 	$("#debugButton").on("click", handleDebugButton);
 	$("#saveButton").on("click", handleSaveButton);
