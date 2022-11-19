@@ -71,8 +71,9 @@ h1, h2, h3 {
 }
 
 #header, #summaryContainer {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.5);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	z-index: 1;
 }
 
 #header > * {
@@ -100,7 +101,6 @@ h1, h2, h3 {
 
 #skillTree {
 	display: flex;
-	margin: 0 auto 10px;
 	user-select: none;
 	flex-grow: 9999;
 	justify-content: center;
@@ -113,7 +113,7 @@ h1, h2, h3 {
 
 #classSelectContainer, #extraButtons {
 	display: flex;
-	margin-bottom: 10px;
+	margin: 0 auto 10px;
 	user-select: none;
 	justify-content: center;
 }

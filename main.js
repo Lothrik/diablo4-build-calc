@@ -275,6 +275,9 @@ function handleShareButton() {
 function onContextMenu(event) {
 	event.preventDefault();
 }
+function clearTextSelect(event) {
+	window.getSelection()?.removeAllRanges();
+}
 function onDragStart(event) {
 	if (!debugMode) return onDragAllStart(event);
 	pixiDragging = this;
@@ -965,6 +968,10 @@ function rebuildCanvas() {
 }
 function resizeCanvas() {
 	if (document.body.offsetHeight != previousHeight || document.body.offsetWidth != previousWidth) {
+		const offsetTop = $("#header").outerHeight(true);
+		const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
+
 		previousWidth = document.body.offsetWidth;
 		previousHeight = document.body.offsetHeight;
 
@@ -997,6 +1004,7 @@ $(document).ready(function() {
 	$("#classSelector").on("change", handleClassSelection);
 	$("#skillTree").on("wheel touchstart touchend touchmove", handleSkillTreeZoom);
 	$("#skillTree").on("contextmenu", onContextMenu);
+	$("#skillTree").on("mousemove touchmove", clearTextSelect);
 	$("#skillTree").append(pixiJS.view);
 	$(window).on("resize", resizeCanvas);
 	handleReloadButton();
