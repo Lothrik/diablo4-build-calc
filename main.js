@@ -80,7 +80,7 @@ const lineStyleThinButt = { cap: PIXI.LINE_CAP.BUTT, color: 0xFFFFFF, native: tr
 const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: 0xFFFFFF, native: false, width: 4 };
 const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: 0xFFFFFF, native: false, width: 4 };
 
-const fontFamily = "Homenaje, Impact, sans-serif";
+const fontFamily = $("body").css("fontFamily");
 
 // pixiJS application helper
 PIXI.settings.RESOLUTION = devicePixelRatio;
@@ -603,7 +603,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	const nodeBackground = new PIXI.Graphics();
 	nodeBackground.beginFill(0);
 	nodeBackground.drawRect(0, 0, nodeWidth, nodeHeight);
-	nodeBackground.alpha = 0.5;
+	nodeBackground.alpha = 0.6;
 	nodeBackground.pivot.x = nodeWidth / 2;
 	nodeBackground.pivot.y = nodeHeight / 2;
 
@@ -771,7 +771,7 @@ function drawTooltip(curNode) {
 	const tooltipBackground = new PIXI.Graphics();
 	tooltipBackground.beginFill(0);
 	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 3);
-	tooltipBackground.alpha = 0.75;
+	tooltipBackground.alpha = 0.8;
 	tooltipBackground.pivot.x = 10;
 	tooltipBackground.pivot.y = 10;
 
