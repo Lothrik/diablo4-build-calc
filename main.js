@@ -192,16 +192,18 @@ function handleSkillTreeZoom(event) {
 }
 function handleClassSelection(event) {
 	let newClass = $(classString);
-	$("#header h2").removeClass("hidden");
-	if (newClass.val() == "none") {
-		$("#className").text("None");
-		$("#header h2").addClass("hidden");
-		$("#resetButton").prop("disabled", true);
-	} else {
-		$("#className").text(newClass.text());
-		$("#resetButton").prop("disabled", false);
+	if (newClass.text() != $("#className").text()) {
+		$("#header h2").removeClass("hidden");
+		if (newClass.val() == "none") {
+			$("#className").text("None");
+			$("#header h2").addClass("hidden");
+			$("#resetButton").prop("disabled", true);
+		} else {
+			$("#className").text(newClass.text());
+			$("#resetButton").prop("disabled", false);
+		}
+		rebuildCanvas();
 	}
-	rebuildCanvas();
 }
 function handleResetButton(event) {
 	rebuildCanvas();
