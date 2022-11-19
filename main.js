@@ -771,7 +771,7 @@ function drawTooltip(curNode) {
 	const tooltipBackground = new PIXI.Graphics();
 	tooltipBackground.beginFill(0);
 	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 3);
-	tooltipBackground.alpha = 0.8;
+	tooltipBackground.alpha = 0.9;
 	tooltipBackground.pivot.x = 10;
 	tooltipBackground.pivot.y = 10;
 
