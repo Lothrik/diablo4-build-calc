@@ -250,9 +250,10 @@ function handleReloadButton() {
 			for (const [savedName, savedPoints] of Object.entries(nodeData)) {
 				const curNode = pixiNodes.find(pixiNode => pixiNode.nodeName == savedName);
 
+				const unusedPoints = getUnusedPoints(false);
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 				const maxPoints = curNode.nodeData.get("maxPoints");
-				const newPoints = Math.max(Math.min(savedPoints, maxPoints), 0);
+				const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
 
 				pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 				updateNodePoints(curNode, newPoints);
@@ -338,7 +339,7 @@ function getNodePosition(curNode) {
 		return [x, y];
 	}
 }
-function getRemainingPoints(paragonPoints = false) {
+function getUnusedPoints(paragonPoints = false) {
 	if (paragonPoints) {
 		// 1 paragon point gained at level 50, then 2 per level from 51-100 inclusive (level total: 201); plus 20 from renown (final total: 221)
 		const maxParagonPoints = 221;
@@ -352,14 +353,14 @@ function getRemainingPoints(paragonPoints = false) {
 	}
 }
 function updateCharacterLevel() {
-	const remainingPoints = getRemainingPoints(false);
+	const unusedPoints = getUnusedPoints(false);
 	let charLevel = 1;
 	let renownLevel = 0;
-	if (remainingPoints >= 15) {
-		charLevel = 64 - remainingPoints;
+	if (unusedPoints >= 15) {
+		charLevel = 64 - unusedPoints;
 	} else {
 		charLevel = 50;
-		renownLevel = 15 - remainingPoints;
+		renownLevel = 15 - unusedPoints;
 	}
 	$("#charLevel").text(charLevel);
 	$("#renownLevel").text(renownLevel > 0 ? " (Renown " + renownLevel + ")" : "");
@@ -395,7 +396,7 @@ function updateNodePoints(curNode, newPoints) {
 	}
 }
 function handlePlusButton(curNode) {
-	if (getRemainingPoints(false) <= 0) return;
+	if (getUnusedPoints(false) <= 0) return;
 
 	let validConnection = false;
 	const nodeConnections = curNode.nodeData.get("connections");
