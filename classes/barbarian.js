@@ -17,6 +17,18 @@ barbarian["Trunk Data"] = {
 		x: -600,
 		y: 2300,
 	},
+	["Brawling"]: {
+		connections: [ "Defensive" ],
+		requiredPoints: 9,
+		x: -600,
+		y: 3400,
+	},
+	["Weapon Mastery"]: {
+		connections: [ "Brawling" ],
+		requiredPoints: 13,
+		x: 500,
+		y: 3400,
+	},
 };
 
 barbarian["Basic"] = {
@@ -167,7 +179,7 @@ barbarian["Core"] = {
 	},
 	["Hammer of the Ancients — Modifier 3"]: {
 		connections: [ "Hammer of the Ancients — Modifier 1" ],
-		description: "Gain Berserking for {#} seconds when hitting x or more enemies with Hammer of the Ancients.",
+		description: "Gain Berserking for {#} seconds when hitting {#} or more enemies with Hammer of the Ancients.",
 		maxPoints: 1,
 		x: -300,
 		y: -450,
@@ -430,28 +442,175 @@ barbarian["Defensive"] = {
 
 barbarian["Brawling"] = {
 	["War Cry"]: {
+		connections: [ "Brawling" ],
 		description: "Bellow a mighty war cry, granting you and nearby allies deal {#}% increased damage for 8 seconds.",
+		x: -150,
+		y: -150,
+	},
+	["War Cry — Modifier 1"]: {
+		connections: [ "War Cry" ],
+		description: "War Cry grants you Berserking for {#} seconds.",
+		maxPoints: 1,
+		x: -300,
+		y: -300,
+	},
+	["War Cry — Modifier 2"]: {
+		connections: [ "War Cry — Modifier 1" ],
+		description: "If at least {#} enemies are nearby when War Cry is cast, its damage bonus is increased by {#}%.",
+		maxPoints: 1,
+		x: -450,
+		y: -300,
+	},
+	["War Cry — Modifier 3"]: {
+		connections: [ "War Cry — Modifier 1" ],
+		description: "War Cry grants {#} Fortify.",
+		maxPoints: 1,
+		x: -300,
+		y: -450,
 	},
 	["Kick"]: {
+		connections: [ "Brawling" ],
 		description: "Throw a powerful kick that deals {#}% damage and knocks back enemies in front of you. Enemies who are knocked back into terrain take an additional {#}% damage and are stunned for 3 seconds.",
+		x: 150,
+		y: -150,
+	},
+	["Kick — Modifier 1"]: {
+		connections: [ "Kick" ],
+		description: "Kick makes enemies it damages Vulnerable for {#} seconds.",
+		maxPoints: 1,
+		x: 300,
+		y: -300,
+	},
+	["Kick — Modifier 2"]: {
+		connections: [ "Kick — Modifier 1" ],
+		description: "If Kick damages an enemy, it consumes all of your Fury and deals an additional {#} damage per {#} Fury spent. Kick no longer Knocks Back enemies.",
+		maxPoints: 1,
+		x: 450,
+		y: -300,
+	},
+	["Kick — Modifier 3"]: {
+		connections: [ "Kick — Modifier 1" ],
+		description: "Kicked enemies deal {#} damage to enemies they collide with while being Knocked Back. Enemies damaged this way are Knocked Down for {#} seconds.",
+		maxPoints: 1,
+		x: 300,
+		y: -450,
 	},
 	["Leap"]: {
+		connections: [ "Brawling" ],
 		description: "Leap forward and then slam down, dealing {#}% damage and knocking back nearby enemies on impact.",
+		x: 150,
+		y: 150,
+	},
+	["Leap — Modifier 1"]: {
+		connections: [ "Leap" ],
+		description: "If Leap doesn't damage any enemies, its Cooldown is reduced by {#} seconds.",
+		maxPoints: 1,
+		x: 300,
+		y: 300,
+	},
+	["Leap — Modifier 2"]: {
+		connections: [ "Leap — Modifier 1" ],
+		description: "Enemies damaged by Leap are Slowed by {#}% for {#} seconds.",
+		maxPoints: 1,
+		x: 450,
+		y: 300,
+	},
+	["Leap — Modifier 3"]: {
+		connections: [ "Leap — Modifier 1" ],
+		description: "If Leap damages at least one enemy, gain {#} Fury.",
+		maxPoints: 1,
+		x: 300,
+		y: 450,
+	},
+	["Aggressive Resistance"]: {
+		connections: [ "Brawling" ],
+		description: "Shout skill durations are increased by {#}%.",
+		maxPoints: 3,
+		x: 0,
+		y: 350,
+	},
+	["Battle Frenzy"]: {
+		connections: [ "Aggressive Resistance" ],
+		description: "When a Brawling Skill damages at least one enemy, gain Berserking for {#} seconds.",
+		maxPoints: 3,
+		x: -100,
+		y: 500,
+	},
+	["Momentum"]: {
+		connections: [ "Aggressive Resistance" ],
+		description: "While Berserking, Fury Generation is increased by {#}%.",
+		maxPoints: 3,
+		x: 100,
+		y: 500,
 	},
 	["Charge"]: {
+		connections: [ "Brawling" ],
 		description: "Become Unstoppable and rush forward, pushing enemies with you then swinging through them for {#}% damage and knocking them back.",
+		x: -150,
+		y: 150,
+	},
+	["Charge — Modifier 1"]: {
+		connections: [ "Charge" ],
+		description: "Enemies who are Knocked Back into terrain by Charge take {#} damage and are Stunned for {#} seconds.",
+		maxPoints: 1,
+		x: -300,
+		y: 300,
+	},
+	["Charge — Modifier 2"]: {
+		connections: [ "Charge — Modifier 1" ],
+		description: "Reduce Charge's Cooldown by {#} seconds.",
+		maxPoints: 1,
+		x: -450,
+		y: 300,
+	},
+	["Charge — Modifier 3"]: {
+		connections: [ "Charge — Modifier 1" ],
+		description: "Damaging enemies with Charge makes them Vulnerable for {#} seconds.",
+		maxPoints: 1,
+		x: -300,
+		y: 450,
+	},
+	["Booming Voice"]: {
+		connections: [ "Brawling" ],
+		description: "Shout skill durations are increased by {#}%.",
+		maxPoints: 3,
+		x: -350,
+		y: 0,
+	},
+	["Raid Leader"]: {
+		connections: [ "Booming Voice" ],
+		description: "Your Shouts also Heal allies for {#} Life per second.",
+		maxPoints: 3,
+		x: -500,
+		y: -100,
+	},
+	["Guttural Yell"]: {
+		connections: [ "Booming Voice" ],
+		description: "Your Shout Skills cause enemies to deal {#}% less damage for {#} seconds.",
+		maxPoints: 3,
+		x: -500,
+		y: 100,
 	},
 };
 
 barbarian["Weapon Mastery"] = {
 	["Death Blow"]: {
+		connections: [ "Weapon Mastery" ],
 		description: "Attempt a killing strike, dealing {#}% damage to enemies in front of you. If this kills an enemy, the cooldown is reset.",
+		x: -150,
+		y: -150,
 	},
 	["Rupture"]: {
+		connections: [ "Weapon Mastery" ],
 		description: "Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, damaging enemies for their total bleeding amount and removing all bleeding damage from them.",
+		x: 150,
+		y: -150,
 	},
 	["Steel Grasp"]: {
+		connections: [ "Weapon Mastery" ],
 		description: "Throw out a trio of chains that deal {#}% damage and pull in enemies.",
+		x: 150,
+		y: 150,
 	},
 };
 
