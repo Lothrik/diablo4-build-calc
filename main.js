@@ -977,6 +977,9 @@ function rebuildCanvas() {
 	pixiNodes = [];
 	pixiConnectors = [];
 
+	pixiTooltip = null;
+	pixiDragging = null;
+
 	pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
 	previousWidth = minCanvasWidth;
 	previousHeight = minCanvasHeight;
