@@ -80,6 +80,8 @@ const lineStyleThinButt = { cap: PIXI.LINE_CAP.BUTT, color: 0xFFFFFF, native: tr
 const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: 0xFFFFFF, native: false, width: 4 };
 const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: 0xFFFFFF, native: false, width: 4 };
 
+const fontFamily = "Homenaje, Impact, sans-serif";
+
 // pixiJS application helper
 PIXI.settings.RESOLUTION = devicePixelRatio;
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
@@ -531,7 +533,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		align: "center",
 		cacheAsBitmap: true,
 		fill: 0xFFFFFF,
-		fontFamily: "Homenaje, Impact, sans-serif",
+		fontFamily: fontFamily,
 		fontSize: nameFontSize * 4,
 		fontVariant: "small-caps",
 		width: nodeWidth * 4,
@@ -548,7 +550,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			align: "right",
 			cacheAsBitmap: true,
 			fill: 0xFFFFFF,
-			fontFamily: "Homenaje, Impact, sans-serif",
+			fontFamily: fontFamily,
 			fontSize: 24 * 4,
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
@@ -563,7 +565,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			align: "right",
 			cacheAsBitmap: true,
 			fill: 0xFFFFFF,
-			fontFamily: "Homenaje, Impact, sans-serif",
+			fontFamily: fontFamily,
 			fontSize: 48 * 4,
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
@@ -578,7 +580,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			align: "left",
 			cacheAsBitmap: true,
 			fill: 0xFFFFFF,
-			fontFamily: "Homenaje, Impact, sans-serif",
+			fontFamily: fontFamily,
 			fontSize: 48 * 4,
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
@@ -738,7 +740,7 @@ function drawTooltip(curNode) {
 		breakWords: true,
 		cacheAsBitmap: true,
 		fill: 0xFFFFFF,
-		fontFamily: "Homenaje, Impact, sans-serif",
+		fontFamily: fontFamily,
 		fontSize: 36 * 2,
 		fontVariant: "small-caps",
 		fontWeight: "bold",
@@ -755,7 +757,7 @@ function drawTooltip(curNode) {
 		breakWords: true,
 		cacheAsBitmap: true,
 		fill: 0xFFFFFF,
-		fontFamily: "Homenaje, Impact, sans-serif",
+		fontFamily: fontFamily,
 		fontSize: 36 * 2,
 		width: clampedWidth * 2,
 		wordWrap: true,
@@ -825,14 +827,14 @@ function repositionTooltip() {
 	if (!pixiTooltip) return;
 
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = ($("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true));
+	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
 	const minX = 10 + 8 / pixiJS.stage.scale.x;
 	const minY = offsetTop + 4 + 4 / pixiJS.stage.scale.y;
 
-	const maxX = pixiJS.renderer.width - 4 - (pixiTooltip.width) * pixiJS.stage.scale.x;
+	const maxX = pixiJS.renderer.width - 4 - pixiTooltip.width * pixiJS.stage.scale.x;
 	const maxY = pixiJS.renderer.height - offsetBottom + 10 - (pixiTooltip.height + 8) * pixiJS.stage.scale.y;
 
 	const globalX = globalPosition.x + nodeWidth * pixiJS.stage.scale.x / 2 + 20 * pixiTooltip.scale.x;
