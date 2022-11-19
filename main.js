@@ -328,12 +328,15 @@ function onDragAllMove(event) {
 			return onDragMove(event, true);
 		}
 	}
+	if (pixiTooltip) {
+		repositionTooltip();
+	}
 }
 function onMouseOver(event) {
 	drawTooltip(this);
 }
 function onMouseOut(event) {
-	eraseTooltip();
+	if (!pixiDragging) eraseTooltip();
 }
 function getNodePosition(curNode) {
 	if (curNode.groupName == undefined) {
@@ -764,7 +767,7 @@ function drawTooltip(curNode) {
 	const tooltipBackground = new PIXI.Graphics();
 	tooltipBackground.beginFill(0);
 	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 3);
-	tooltipBackground.alpha = 0.5;
+	tooltipBackground.alpha = 0.75;
 	tooltipBackground.pivot.x = 10;
 	tooltipBackground.pivot.y = 10;
 
@@ -788,6 +791,7 @@ function drawTooltip(curNode) {
 
 	const tooltip = new PIXI.Container();
 	tooltip.zIndex = 2;
+
 	if (stageScaleX < tooltipScalingFloor) {
 		tooltip.scale.x = tooltipScalingFloor / stageScaleX;
 		tooltip.scale.y = tooltipScalingFloor / stageScaleY;
@@ -798,19 +802,44 @@ function drawTooltip(curNode) {
 		tooltip.scale.x = 1;
 		tooltip.scale.y = 1;
 	}
-	tooltip.position.x = curNode.x + nodeWidth / 2 + 20 / (1 / tooltip.scale.x);
-	tooltip.position.y = curNode.y - nodeHeight / 2 + 10 / (1 / tooltip.scale.y);
+
 	tooltip.addChild(tooltipBackground, tooltipText1, tooltipText2, tooltipBorder, tooltipSeperator);
 
 	pixiTooltip = pixiJS.stage.addChild(tooltip);
+
 	pixiTooltip.nodeIndex = curNode.nodeIndex;
 	pixiTooltip.stageScaleX = stageScaleX;
 	//pixiTooltip.stageScaleY = stageScaleY; // unused
+
+	repositionTooltip();
 }
 function eraseTooltip() {
 	if (pixiTooltip) {
 		pixiTooltip.destroy(true);
 		pixiTooltip = null;
+	}
+}
+function repositionTooltip() {
+	const offsetTop = $("#header").outerHeight(true);
+	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+
+	const anchorX = pixiNodes[pixiTooltip.nodeIndex].x + nodeWidth / 2 + 20 / (1 / pixiTooltip.scale.x);
+	const anchorY = pixiNodes[pixiTooltip.nodeIndex].y - nodeHeight / 2 + 10 / (1 / pixiTooltip.scale.y);
+
+	if (anchorX > pixiJS.renderer.width - pixiTooltip.width + 6) {
+		pixiTooltip.position.x = pixiJS.renderer.width - pixiTooltip.width + 6;
+	} else if (anchorX < 18) {
+		pixiTooltip.position.x = 18;
+	} else {
+		pixiTooltip.position.x = anchorX;
+	}
+
+	if (anchorY > pixiJS.renderer.height - pixiTooltip.height - offsetBottom + 3) {
+		pixiTooltip.position.y = pixiJS.renderer.height - pixiTooltip.height - offsetBottom + 3;
+	} else if (anchorY < offsetTop + 12) {
+		pixiTooltip.position.y = offsetTop + 12;
+	} else {
+		pixiTooltip.position.y = anchorY;
 	}
 }
 function drawConnector(startNode, endNode) {
