@@ -249,16 +249,19 @@ function handleReloadButton() {
 		function finishLoading() {
 			delete nodeData.className;
 
-			for (const [savedName, savedPoints] of Object.entries(nodeData)) {
-				const curNode = pixiNodes.find(pixiNode => pixiNode.nodeName == savedName);
+			for (const curNode of pixiNodes) {
+				if (curNode.groupName != undefined) {
+					const savedPoints = nodeData[curNode.nodeName] == undefined ? 0 : nodeData[curNode.nodeName];
 
-				const unusedPoints = getUnusedPoints(false);
-				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-				const maxPoints = curNode.nodeData.get("maxPoints");
-				const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
+					const unusedPoints = getUnusedPoints(false);
+					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+					const maxPoints = curNode.nodeData.get("maxPoints");
 
-				pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
-				updateNodePoints(curNode, newPoints);
+					const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
+
+					pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+					updateNodePoints(curNode, newPoints);
+				}
 			}
 			updateCharacterLevel();
 		}
