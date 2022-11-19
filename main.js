@@ -820,27 +820,27 @@ function eraseTooltip() {
 	}
 }
 function repositionTooltip() {
+	if (!pixiTooltip) return;
+
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+	const offsetBottom = ($("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true));
 
-	const anchorX = pixiNodes[pixiTooltip.nodeIndex].x + nodeWidth / 2 + 20 / (1 / pixiTooltip.scale.x);
-	const anchorY = pixiNodes[pixiTooltip.nodeIndex].y - nodeHeight / 2 + 10 / (1 / pixiTooltip.scale.y);
+	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
-	if (anchorX > pixiJS.renderer.width - pixiTooltip.width + 6) {
-		pixiTooltip.position.x = pixiJS.renderer.width - pixiTooltip.width + 6;
-	} else if (anchorX < 18) {
-		pixiTooltip.position.x = 18;
-	} else {
-		pixiTooltip.position.x = anchorX;
-	}
+	const minX = 10 + 4 / pixiJS.stage.scale.x;
+	const minY = offsetTop + 4 + 4 / pixiJS.stage.scale.y;
 
-	if (anchorY > pixiJS.renderer.height - pixiTooltip.height - offsetBottom + 3) {
-		pixiTooltip.position.y = pixiJS.renderer.height - pixiTooltip.height - offsetBottom + 3;
-	} else if (anchorY < offsetTop + 12) {
-		pixiTooltip.position.y = offsetTop + 12;
-	} else {
-		pixiTooltip.position.y = anchorY;
-	}
+	const maxX = pixiJS.renderer.width + 14 - (pixiTooltip.width + 8) * pixiJS.stage.scale.x;
+	const maxY = pixiJS.renderer.height - offsetBottom + 10 - (pixiTooltip.height + 8) * pixiJS.stage.scale.y;
+
+	const globalX = globalPosition.x + nodeWidth * pixiJS.stage.scale.x / 2 + 20 * pixiTooltip.scale.x;
+	const globalY = globalPosition.y - nodeHeight * pixiJS.stage.scale.y / 2 + 10 * pixiTooltip.scale.y;
+
+	const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
+	const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
+
+	pixiTooltip.position.x = pixiNodes[pixiTooltip.nodeIndex].x + diffX / pixiJS.stage.scale.x + nodeWidth / 2 + 20 * pixiTooltip.scale.x;
+	pixiTooltip.position.y = pixiNodes[pixiTooltip.nodeIndex].y + diffY / pixiJS.stage.scale.y - nodeHeight / 2 + 10 * pixiTooltip.scale.y;
 }
 function drawConnector(startNode, endNode) {
 	const connector = new PIXI.Graphics();
