@@ -68,7 +68,7 @@ const minCanvasHeight = 0;
 const maxCanvasHeight = 65535;
 const nodeWidth = 100;
 const nodeHeight = 100;
-const tooltipWidth = 400;
+const tooltipWidth = 480;
 const tooltipHeight = 200;
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
@@ -731,6 +731,8 @@ function drawTooltip(curNode) {
 		nodeDesc += "\nx: " + debugX + "\ny: " + debugY;
 	}
 
+	const clampedWidth = Math.min($("#skillTree").width(), tooltipWidth);
+
 	const tooltipText1 = new PIXI.Text(curNode.nodeName, {
 		align: "left",
 		breakWords: true,
@@ -740,9 +742,9 @@ function drawTooltip(curNode) {
 		fontSize: 36 * 2,
 		fontVariant: "small-caps",
 		fontWeight: "bold",
-		width: tooltipWidth * 2,
+		width: clampedWidth * 2,
 		wordWrap: true,
-		wordWrapWidth: 480 * 2, // inexplicably cannot exceed 1065 pixels on mobile
+		wordWrapWidth: clampedWidth * 2, // inexplicably cannot exceed 1065 pixels on mobile
 	});
 	tooltipText1.scaleMode = PIXI.SCALE_MODES.LINEAR;
 	tooltipText1.scale.set(0.5);
@@ -755,9 +757,9 @@ function drawTooltip(curNode) {
 		fill: 0xFFFFFF,
 		fontFamily: "Homenaje, Impact, sans-serif",
 		fontSize: 36 * 2,
-		width: tooltipWidth * 2,
+		width: clampedWidth * 2,
 		wordWrap: true,
-		wordWrapWidth: 480 * 2, // inexplicably cannot exceed 1065 pixels on mobile
+		wordWrapWidth: clampedWidth * 2, // inexplicably cannot exceed 1065 pixels on mobile
 	});
 	tooltipText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
 	tooltipText2.scale.set(0.5);
