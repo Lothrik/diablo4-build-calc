@@ -827,10 +827,10 @@ function repositionTooltip() {
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
-	const minX = 10 + 4 / pixiJS.stage.scale.x;
+	const minX = 10 + 8 / pixiJS.stage.scale.x;
 	const minY = offsetTop + 4 + 4 / pixiJS.stage.scale.y;
 
-	const maxX = pixiJS.renderer.width + 14 - (pixiTooltip.width + 8) * pixiJS.stage.scale.x;
+	const maxX = pixiJS.renderer.width - 4 - (pixiTooltip.width) * pixiJS.stage.scale.x;
 	const maxY = pixiJS.renderer.height - offsetBottom + 10 - (pixiTooltip.height + 8) * pixiJS.stage.scale.y;
 
 	const globalX = globalPosition.x + nodeWidth * pixiJS.stage.scale.x / 2 + 20 * pixiTooltip.scale.x;
