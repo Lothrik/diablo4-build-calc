@@ -928,7 +928,11 @@ function drawConnector(startNode, endNode) {
 	const connector = new PIXI.Graphics();
 	connector.zIndex = -1;
 
-	const connectorPair = startNode.nodeName < endNode.nodeName ? endNode.nodeName + " / " + startNode.nodeName : startNode.nodeName + " / " + endNode.nodeName;
+	if (startNode.groupName != undefined && endNode.groupName != undefined && startNode.groupName != endNode.groupName) {
+		return;
+	}
+
+	const connectorPair = startNode.nodeName < endNode.nodeName ? [endNode.nodeName, startNode.nodeName].join(" / ") : [startNode.nodeName, endNode.nodeName].join(" / ");
 	if (pixiConnectorPairs[connectorPair]) {
 		return;
 	} else {
