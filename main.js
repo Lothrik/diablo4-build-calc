@@ -242,7 +242,8 @@ function handleSaveButton(event) {
 			if (curNode.groupName != undefined) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 				if (allocatedPoints > 0) {
-					nodeData[curNode.nodeName] = curNode.nodeData.get("allocatedPoints");
+					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
+					nodeData[fullNodeName] = curNode.nodeData.get("allocatedPoints");
 				}
 			}
 		});
@@ -265,7 +266,8 @@ function handleReloadButton() {
 
 			for (const curNode of pixiNodes) {
 				if (curNode.groupName != undefined) {
-					const savedPoints = nodeData[curNode.nodeName] == undefined ? 0 : nodeData[curNode.nodeName];
+					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
+					const savedPoints = nodeData[fullNodeName] == undefined ? 0 : nodeData[fullNodeName];
 
 					const unusedPoints = getUnusedPoints(false);
 					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
