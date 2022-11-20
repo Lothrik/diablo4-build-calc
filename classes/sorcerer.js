@@ -45,6 +45,7 @@ sorcerer["Trunk Data"] = {
 
 sorcerer["Basic"] = {
 	["Frost Bolt"]: {
+		id: 0,
 		connections: [ "Basic", "Enhanced Frost Bolt", ],
 		description: `{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Throw a bolt of frost at an enemy, dealing {c_yellow}{payload:IMPACT}{/c} damage and {c_white}Chilling{/c} them for {c_yellow}{SF_4}%{/c}.`,
@@ -53,6 +54,7 @@ sorcerer["Basic"] = {
 		y: -169.61499999999978,
 	},
 	["Enhanced Frost Bolt"]: {
+		id: 1,
 		connections: [ "Frost Bolt", "Flickering Frost Bolt", "Glinting Frost Bolt", ],
 		description: `Frost Bolt has a {c_yellow}[{SF_7} * 100]%{/c} chance to explode on {c_white}Chilled{/c} targets, hitting nearby enemies. Chance increased to {c_yellow}100%{/c} against {c_white}Frozen{/c} targets.`,
 		maxPoints: 1,
@@ -60,6 +62,7 @@ sorcerer["Basic"] = {
 		y: -301.90999999999985,
 	},
 	["Flickering Frost Bolt"]: {
+		id: 2,
 		connections: [ "Enhanced Frost Bolt", ],
 		description: `Frost Bolt makes {c_white}Frozen{/c} enemies {c_white}Vulnerable{/c} for {c_yellow}{SF_9}{/c} seconds.`,
 		maxPoints: 1,
@@ -67,6 +70,7 @@ sorcerer["Basic"] = {
 		y: -329.8299999999999,
 	},
 	["Glinting Frost Bolt"]: {
+		id: 3,
 		connections: [ "Enhanced Frost Bolt", ],
 		description: `Frost Bolt generates {c_yellow}{SF_10}{/c} Mana when hitting {c_white}Chilled{/c} or {c_white}Frozen{/c} enemies.`,
 		maxPoints: 1,
@@ -74,6 +78,7 @@ sorcerer["Basic"] = {
 		y: -453.32499999999936,
 	},
 	["Spark"]: {
+		id: 4,
 		connections: [ "Basic", "Enhanced Spark", ],
 		description: `{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Launch a bolt of lightning that shocks an enemy {c_yellow}{SF_2}{/c} times, dealing {c_yellow}{payload:PAYLOAD_PROJECTILE}{/c} damage each hit.`,
@@ -82,6 +87,7 @@ sorcerer["Basic"] = {
 		y: 167.01000000000022,
 	},
 	["Enhanced Spark"]: {
+		id: 5,
 		connections: [ "Spark", "Flickering Spark", "Glinting Spark", ],
 		description: `Each time Spark hits, it has a {c_yellow}[{SF_6} * 100]%{/c} chance to hit up to {c_yellow}{SF_7}{/c} additional enemies, dealing {c_yellow}{payload:PAYLOAD_FORK_1}{/c} damage. If there are no other enemies to hit, Spark instead deals {c_yellow}[{SF_8} * 100]%{/c} increased damage to its primary target.`,
 		maxPoints: 1,
@@ -89,6 +95,7 @@ sorcerer["Basic"] = {
 		y: 312.77,
 	},
 	["Flickering Spark"]: {
+		id: 6,
 		connections: [ "Enhanced Spark", ],
 		description: `Each time Spark hits an enemy it has a {c_yellow}[{SF_14} * 100]%{/c} chance to spawn a {c_white}Crackling Energy{/c}.`,
 		maxPoints: 1,
@@ -96,6 +103,7 @@ sorcerer["Basic"] = {
 		y: 359.9500000000003,
 	},
 	["Glinting Spark"]: {
+		id: 7,
 		connections: [ "Enhanced Spark", ],
 		description: `Spark grants {c_yellow}[{SF_15}*100]%{/c} increased Critical Strike Chance per cast for {c_yellow}{SF_16}{/c} seconds, up to {c_yellow}[{SF_17}*100]%{/c}.`,
 		maxPoints: 1,
@@ -103,6 +111,7 @@ sorcerer["Basic"] = {
 		y: 459.9550000000004,
 	},
 	["Arc Lash"]: {
+		id: 8,
 		connections: [ "Basic", "Enhanced Arc Lash", ],
 		description: `{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Unleash arcing lightning that shocks enemies in front of you for {c_yellow}{payload:DAMAGE}{/c}. Every {c_yellow}{SF_10}{/c} times Arc Lash swipes, it Stuns all enemies hit for {c_yellow}{buffduration:STUN}{/c} seconds.`,
@@ -111,6 +120,7 @@ sorcerer["Basic"] = {
 		y: 169.14000000000033,
 	},
 	["Enhanced Arc Lash"]: {
+		id: 9,
 		connections: [ "Arc Lash", "Glinting Arc Lash", "Flickering Arc Lash", ],
 		description: `If Arc Lash's initial swipe Critically Strikes, it swipes an additional time.`,
 		maxPoints: 1,
@@ -118,6 +128,7 @@ sorcerer["Basic"] = {
 		y: 320.83500000000004,
 	},
 	["Glinting Arc Lash"]: {
+		id: 10,
 		connections: [ "Enhanced Arc Lash", ],
 		description: `Hitting a Stunned enemy with Arc Lash reduces your cooldowns by {c_yellow}[{SF_13}|2|]{/c} seconds.`,
 		maxPoints: 1,
@@ -125,6 +136,7 @@ sorcerer["Basic"] = {
 		y: 464.81500000000005,
 	},
 	["Flickering Arc Lash"]: {
+		id: 11,
 		connections: [ "Enhanced Arc Lash", ],
 		description: `Gain {c_yellow}[{SF_7}*100]%{/c} Movement Speed for {c_yellow}{SF_8}{/c} seconds per enemy hit with Arc Lash, up to {c_yellow}[{SF_9}*100]%{/c}.`,
 		maxPoints: 1,
@@ -132,6 +144,7 @@ sorcerer["Basic"] = {
 		y: 352.72500000000036,
 	},
 	["Fire Bolt"]: {
+		id: 12,
 		connections: [ "Basic", "Enhanced Fire Bolt", ],
 		description: `{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
 {/if}Hurl a flaming bolt, dealing {c_yellow}{payload:DAMAGE}{/c} damage and Burning for {c_yellow}{dot:BURNING}{/c} over {c_yellow}{buffduration:BURNING}{/c} seconds.`,
@@ -140,6 +153,7 @@ sorcerer["Basic"] = {
 		y: -168.95999999999958,
 	},
 	["Enhanced Fire Bolt"]: {
+		id: 13,
 		connections: [ "Fire Bolt", "Glinting Fire Bolt", "Flickering Fire Bolt", ],
 		description: `Fire Bolt pierces Burning enemies.`,
 		maxPoints: 1,
@@ -147,6 +161,7 @@ sorcerer["Basic"] = {
 		y: -314.18499999999995,
 	},
 	["Glinting Fire Bolt"]: {
+		id: 14,
 		connections: [ "Enhanced Fire Bolt", ],
 		description: `Critical Strikes with Fire Bolt increase the Burning damage the target takes by {c_yellow}x[{SF_11} * 100]%{/c} for {c_yellow}{buffduration:UPGRADEB_CRIT_DAMAGE}{/c} seconds.`,
 		maxPoints: 1,
@@ -154,6 +169,7 @@ sorcerer["Basic"] = {
 		y: -349.63499999999976,
 	},
 	["Flickering Fire Bolt"]: {
+		id: 15,
 		connections: [ "Enhanced Fire Bolt", ],
 		description: `Fire Bolt generates {c_yellow}{SF_9}{/c} Mana when hitting a Burning enemy.`,
 		maxPoints: 1,
@@ -164,6 +180,7 @@ sorcerer["Basic"] = {
 
 sorcerer["Core"] = {
 	["Charged Bolts"]: {
+		id: 16,
 		connections: [ "Core", "Enhanced Charged Bolt", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -173,6 +190,7 @@ sorcerer["Core"] = {
 		y: 194.84500000000025,
 	},
 	["Enhanced Charged Bolt"]: {
+		id: 17,
 		connections: [ "Charged Bolts", "Greater Charged Bolts", "Destructive Charged Bolts", ],
 		description: `Charged Bolts gains an extra projectile.`,
 		maxPoints: 1,
@@ -180,6 +198,7 @@ sorcerer["Core"] = {
 		y: 327.09500000000025,
 	},
 	["Greater Charged Bolts"]: {
+		id: 18,
 		connections: [ "Enhanced Charged Bolt", ],
 		description: `Charged Bolts deals {c_yellow}x[{SF_27}*100]%{/c} increased damage to Stunned enemies.`,
 		maxPoints: 3,
@@ -187,6 +206,7 @@ sorcerer["Core"] = {
 		y: 470.3000000000002,
 	},
 	["Destructive Charged Bolts"]: {
+		id: 19,
 		connections: [ "Enhanced Charged Bolt", ],
 		description: `Hitting an enemy at least {c_yellow}{SF_31}{/c} times with Charged Bolts in a single cast reduces their damage dealt by {c_yellow}[{SF_32}*100]%{/c} for {c_yellow}{SF_33}{/c} seconds.`,
 		maxPoints: 3,
@@ -194,6 +214,7 @@ sorcerer["Core"] = {
 		y: 354.41499999999996,
 	},
 	["Frozen Orb"]: {
+		id: 20,
 		connections: [ "Core", "Enhanced Frozen Orb", ],
 		description: `{c_gold}Mana Cost:{/c} {c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -203,6 +224,7 @@ sorcerer["Core"] = {
 		y: -213.18499999999995,
 	},
 	["Enhanced Frozen Orb"]: {
+		id: 21,
 		connections: [ "Destructive Frozen Orb", "Greater Frozen Orb", "Frozen Orb", ],
 		description: `When cast above {c_yellow}{SF_28}{/c} Mana, Frozen Orb's explosion damage is increased by {c_yellow}x[{SF_29}*100]%{/c}.`,
 		maxPoints: 1,
@@ -210,6 +232,7 @@ sorcerer["Core"] = {
 		y: -344.71000000000004,
 	},
 	["Destructive Frozen Orb"]: {
+		id: 22,
 		connections: [ "Enhanced Frozen Orb", ],
 		description: `Frozen Orb's explosion restores {c_yellow}{SF_23}{/c} Mana when hitting a {c_white}Frozen{/c} enemy.`,
 		maxPoints: 1,
@@ -217,6 +240,7 @@ sorcerer["Core"] = {
 		y: -409.7249999999999,
 	},
 	["Greater Frozen Orb"]: {
+		id: 23,
 		connections: [ "Enhanced Frozen Orb", ],
 		description: `Frozen Orb's explosion has a {c_yellow}[{SF_31} * 100]%{/c} chance to make all enemies hit {c_white}Vulnerable{/c} for {c_yellow}{SF_32}{/c} seconds.`,
 		maxPoints: 1,
@@ -224,6 +248,7 @@ sorcerer["Core"] = {
 		y: -496.77999999999975,
 	},
 	["Incinerate"]: {
+		id: 24,
 		connections: [ "Core", "Enhanced Incinerate", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}[{Resource Cost}*5] per second{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:39}%{/c}
@@ -233,6 +258,7 @@ sorcerer["Core"] = {
 		y: -36.914999999999964,
 	},
 	["Enhanced Incinerate"]: {
+		id: 25,
 		connections: [ "Incinerate", "Destructive Incinerate", "Greater Incinerate", ],
 		description: `While Channeling Incinerate, you take {c_yellow}[{SF_28} * 100]%{/c} less damage from Close enemies.`,
 		maxPoints: 1,
@@ -240,6 +266,7 @@ sorcerer["Core"] = {
 		y: -63.054999999999836,
 	},
 	["Destructive Incinerate"]: {
+		id: 26,
 		connections: [ "Enhanced Incinerate", ],
 		description: `While Channeling Incinerate, you burn nearby enemies for {c_yellow}[{SF_29} * 100]%{/c} of the damage per second.`,
 		maxPoints: 1,
@@ -247,6 +274,7 @@ sorcerer["Core"] = {
 		y: -164.3449999999998,
 	},
 	["Greater Incinerate"]: {
+		id: 27,
 		connections: [ "Enhanced Incinerate", ],
 		description: `Incinerate now starts at full power, but its Channeling cost is increased by {c_yellow}[{SF_36}*100]%{/c}.`,
 		maxPoints: 1,
@@ -254,6 +282,7 @@ sorcerer["Core"] = {
 		y: -21.029999999999745,
 	},
 	["Fireball"]: {
+		id: 28,
 		connections: [ "Core", "Enhanced Fireball", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -263,6 +292,7 @@ sorcerer["Core"] = {
 		y: -214.91499999999996,
 	},
 	["Enhanced Fireball"]: {
+		id: 29,
 		connections: [ "Fireball", "Greater Fireball", "Destructive Fireball", ],
 		description: `Fireball costs {c_yellow}{SF_17}{/c} less Mana.`,
 		maxPoints: 1,
@@ -270,6 +300,7 @@ sorcerer["Core"] = {
 		y: -351.8649999999998,
 	},
 	["Greater Fireball"]: {
+		id: 30,
 		connections: [ "Enhanced Fireball", ],
 		description: `When you cast Fireball while {c_white}Healthy{/c}, it has a {c_yellow}[{SF_25}*100]%{/c} increased radius and deals {c_yellow}x[{SF_26}*100]%{/c} increased Critical Strike Damage.`,
 		maxPoints: 1,
@@ -277,6 +308,7 @@ sorcerer["Core"] = {
 		y: -496.53999999999996,
 	},
 	["Destructive Fireball"]: {
+		id: 31,
 		connections: [ "Enhanced Fireball", ],
 		description: `Fireball deals {c_yellow}x[{SF_21} * 100]%{/c} increased damage to the first enemy hit by its explosion.`,
 		maxPoints: 1,
@@ -284,6 +316,7 @@ sorcerer["Core"] = {
 		y: -422.0250000000001,
 	},
 	["Chain Lightning"]: {
+		id: 32,
 		connections: [ "Core", "Enhanced Chain Lightning", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -293,6 +326,7 @@ sorcerer["Core"] = {
 		y: 258.3299999999999,
 	},
 	["Enhanced Chain Lightning"]: {
+		id: 33,
 		connections: [ "Chain Lightning", "Greater Chain Lightning", "Destructive Chain Lightning", ],
 		description: `Chain Lightning bounces to {c_yellow}{SF_9}{/c} additional enemy.`,
 		maxPoints: 1,
@@ -300,6 +334,7 @@ sorcerer["Core"] = {
 		y: 443.24000000000024,
 	},
 	["Greater Chain Lightning"]: {
+		id: 34,
 		connections: [ "Enhanced Chain Lightning", ],
 		description: `Chain Lightning deals {c_yellow}x[{SF_10}*100]%{/c} increased damage per enemy hit.`,
 		maxPoints: 1,
@@ -307,6 +342,7 @@ sorcerer["Core"] = {
 		y: 558.9650000000001,
 	},
 	["Destructive Chain Lightning"]: {
+		id: 35,
 		connections: [ "Enhanced Chain Lightning", ],
 		description: `When Chain Lightning Critically Strikes, it has a {c_yellow}[{SF_11} * 100]%{/c} chance to spawn a {c_white}Crackling Energy{/c}.`,
 		maxPoints: 1,
@@ -314,6 +350,7 @@ sorcerer["Core"] = {
 		y: 571.73,
 	},
 	["Ice Shards"]: {
+		id: 36,
 		connections: [ "Core", "Enhanced Ice Shards", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -323,6 +360,7 @@ sorcerer["Core"] = {
 		y: -11.404999999999745,
 	},
 	["Enhanced Ice Shards"]: {
+		id: 37,
 		connections: [ "Ice Shards", "Greater Ice Shards", "Destructive Ice Shards", ],
 		description: `Ice Shards have a {c_yellow}[{SF_18}*100]%{/c} chance to ricochet to another enemy.`,
 		maxPoints: 1,
@@ -330,6 +368,7 @@ sorcerer["Core"] = {
 		y: -24.404999999999745,
 	},
 	["Greater Ice Shards"]: {
+		id: 38,
 		connections: [ "Enhanced Ice Shards", ],
 		description: `While you have a {c_white}Barrier{/c} active, Ice Shards treats enemies as if they were {c_white}Frozen{/c}.`,
 		maxPoints: 1,
@@ -337,6 +376,7 @@ sorcerer["Core"] = {
 		y: -88.375,
 	},
 	["Destructive Ice Shards"]: {
+		id: 39,
 		connections: [ "Enhanced Ice Shards", ],
 		description: `Hitting an enemy with {c_yellow}{SF_16}{/c} Ice Shards in a single cast makes them {c_white}Vulnerable{/c} for {c_yellow}{SF_17}{/c} seconds.`,
 		maxPoints: 1,
@@ -344,6 +384,7 @@ sorcerer["Core"] = {
 		y: 29.110000000000127,
 	},
 	["Devastation"]: {
+		id: 40,
 		connections: [ "Core", "Elemental Dominance", ],
 		description: `Deal {c_yellow}x[{SF_2} * 100]%{/c} increased damage to {c_white}Healthy{/c} enemies.`,
 		maxPoints: 3,
@@ -351,6 +392,7 @@ sorcerer["Core"] = {
 		y: 206.85500000000002,
 	},
 	["Elemental Dominance"]: {
+		id: 41,
 		connections: [ "Devastation", ],
 		description: `Your damage increases over time, up to a maximum of {c_yellow}[{SF_3}*sLevel]%{/c} after {c_yellow}{SF_1}{/c} seconds. Casting a Skill resets this effect.`,
 		maxPoints: 3,
@@ -358,6 +400,7 @@ sorcerer["Core"] = {
 		y: 328.4500000000003,
 	},
 	["Potent Warding"]: {
+		id: 42,
 		connections: [ "Core", ],
 		description: `Your non-Physical Damage and Resistances are increased by {c_yellow}[{SF_1} *100]%{/c}.`,
 		maxPoints: 3,
@@ -368,6 +411,7 @@ sorcerer["Core"] = {
 
 sorcerer["Defensive"] = {
 	["Flame Shield"]: {
+		id: 43,
 		connections: [ "Defensive", "Enhanced Flame Shield", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
@@ -379,6 +423,7 @@ While Flame Shield is active, you are {c_white}Immune{/c}.`,
 		y: -228.05500000000006,
 	},
 	["Enhanced Flame Shield"]: {
+		id: 44,
 		connections: [ "Flame Shield", "Mystical Flame Shield", "Shimmering Flame Shield", ],
 		description: `Flame Shield grants {c_yellow}[{SF_13} * 100]%{/c} Movement Speed while active.`,
 		maxPoints: 1,
@@ -386,6 +431,7 @@ While Flame Shield is active, you are {c_white}Immune{/c}.`,
 		y: -402.10000000000014,
 	},
 	["Mystical Flame Shield"]: {
+		id: 45,
 		connections: [ "Enhanced Flame Shield", ],
 		description: `Enemies continue Burning for {c_yellow}{SF_14}{/c} additional seconds after being hit by Flame Shield.`,
 		maxPoints: 1,
@@ -393,6 +439,7 @@ While Flame Shield is active, you are {c_white}Immune{/c}.`,
 		y: -516.065,
 	},
 	["Shimmering Flame Shield"]: {
+		id: 46,
 		connections: [ "Enhanced Flame Shield", ],
 		description: `Flame Shield makes enemies {c_white}Vulnerable{/c} for {c_yellow}{SF_15}{/c} seconds.`,
 		maxPoints: 1,
@@ -400,6 +447,7 @@ While Flame Shield is active, you are {c_white}Immune{/c}.`,
 		y: -521.7900000000002,
 	},
 	["Frost Nova"]: {
+		id: 47,
 		connections: [ "Defensive", "Enhanced Frost Nova", ],
 		description: `{if:SF_18}{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c} seconds
 {/if}{if:SF_19}{c_gold}Charges:{/c} {c_green}{SF_2}{/c}
@@ -410,6 +458,7 @@ While Flame Shield is active, you are {c_white}Immune{/c}.`,
 		y: 2.209999999999809,
 	},
 	["Enhanced Frost Nova"]: {
+		id: 48,
 		connections: [ "Frost Nova", "Mystical Frost Nova", "Shimmering Frost Nova", ],
 		description: `Frost Nova's radius is increased by {c_yellow}[{SF_15} * 100]%{/c}.`,
 		maxPoints: 1,
@@ -417,6 +466,7 @@ While Flame Shield is active, you are {c_white}Immune{/c}.`,
 		y: 0.6999999999998181,
 	},
 	["Mystical Frost Nova"]: {
+		id: 49,
 		connections: [ "Enhanced Frost Nova", ],
 		description: `Frost Nova's {c_white}Freeze{/c} duration is increased by {c_yellow}[{SF_12}*100]%{/c} when hitting {c_yellow}{SF_13}{/c} or more enemies.`,
 		maxPoints: 1,
@@ -424,6 +474,7 @@ While Flame Shield is active, you are {c_white}Immune{/c}.`,
 		y: -59.03500000000008,
 	},
 	["Shimmering Frost Nova"]: {
+		id: 50,
 		connections: [ "Enhanced Frost Nova", ],
 		description: `Frost Nova generates {c_yellow}{SF_10}{/c} Mana per enemy hit.`,
 		maxPoints: 1,
@@ -431,6 +482,7 @@ While Flame Shield is active, you are {c_white}Immune{/c}.`,
 		y: 72.44499999999994,
 	},
 	["Ice Armor"]: {
+		id: 51,
 		connections: [ "Defensive", "Enhanced Ice Armor", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c}
 A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_BARRIER}{/c} seconds, absorbing {c_yellow}{shield:ICE_BARRIER}{/c} damage. While {c_white}Ice Armor{/c} is active, {c_yellow}[{SF_8}*100]%{/c} of your Cold Damage dealt is added to its {c_white}Barrier{/c}.`,
@@ -439,6 +491,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: 202.875,
 	},
 	["Enhanced Ice Armor"]: {
+		id: 52,
 		connections: [ "Ice Armor", "Shimmering Ice Armor", "Mystical Ice Armor", ],
 		description: `While Ice Armor is active, your Mana Regeneration is increased by {c_yellow}[{SF_10} * 100]%{/c}.`,
 		maxPoints: 1,
@@ -446,6 +499,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: 358.16999999999985,
 	},
 	["Shimmering Ice Armor"]: {
+		id: 53,
 		connections: [ "Enhanced Ice Armor", ],
 		description: `Enemies that hit you while Ice Armor is active have a {c_yellow}[{SF_12}*100]%{/c} chance to be {c_white}Frozen{/c} for {c_yellow}{buffduration:FREEZE}{/c} seconds.`,
 		maxPoints: 1,
@@ -453,6 +507,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: 414.3399999999999,
 	},
 	["Mystical Ice Armor"]: {
+		id: 54,
 		connections: [ "Enhanced Ice Armor", ],
 		description: `While Ice Armor’s {c_white}Barrier{/c} is at or above its original amount, you deal {c_yellow}x[{SF_9}*100]%{/c} increased damage.`,
 		maxPoints: 1,
@@ -460,6 +515,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: 493.19499999999994,
 	},
 	["Teleport"]: {
+		id: 55,
 		connections: [ "Defensive", "Enhanced Teleport", ],
 		description: `{if:SF_10}{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}{else}{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}{/if}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -469,6 +525,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: 141.66499999999996,
 	},
 	["Enhanced Teleport"]: {
+		id: 56,
 		connections: [ "Teleport", "Mystical Teleport", "Shimmering Teleport", ],
 		description: `After Teleporting, take {c_yellow}[{SF_12}*100]%{/c} less damage for {c_yellow}{SF_13}{/c} seconds.`,
 		maxPoints: 1,
@@ -476,6 +533,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: 258.0899999999999,
 	},
 	["Mystical Teleport"]: {
+		id: 57,
 		connections: [ "Enhanced Teleport", ],
 		description: `For {c_yellow}{buffduration:BUFF_CRACKLING_ENERGY}{/c} seconds after Teleporting, Crackling Energy deals {c_yellow}x[{SF_25} * 100]%{/c} more damage.`,
 		maxPoints: 1,
@@ -483,6 +541,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: 263.4899999999998,
 	},
 	["Shimmering Teleport"]: {
+		id: 58,
 		connections: [ "Enhanced Teleport", ],
 		description: `Teleport’s cooldown is decreased by {c_yellow}[{SF_17}|1|]{/c} seconds per enemy hit, up to {c_yellow}{SF_18}{/c} seconds.`,
 		maxPoints: 1,
@@ -490,6 +549,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: 378.7299999999999,
 	},
 	["Elemental Attunement"]: {
+		id: 59,
 		connections: [ "Defensive", ],
 		description: `Elemental Critical Strikes reduce the cooldown of your {c_white}Defensive{/c} Skills by {c_yellow}[{SF_1}*100]%{/c}. This effect cannot occur more than once every {c_yellow}{SF_2}{/c} seconds.`,
 		maxPoints: 3,
@@ -497,6 +557,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 		y: -268.4150000000002,
 	},
 	["Glass Cannon"]: {
+		id: 60,
 		connections: [ "Defensive", ],
 		description: `You deal {c_yellow}x[{SF_0}*100]%{/c} increased damage, but take {c_yellow}[{SF_1}*100]%{/c} more damage.`,
 		maxPoints: 3,
@@ -507,6 +568,7 @@ A {c_white}Barrier{/c} of ice forms around you for {c_yellow}{buffduration:ICE_B
 
 sorcerer["Conjuration"] = {
 	["Hydra"]: {
+		id: 61,
 		connections: [ "Conjuration", "Enhanced Hydra", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}
@@ -516,6 +578,7 @@ sorcerer["Conjuration"] = {
 		y: -182.79999999999995,
 	},
 	["Enhanced Hydra"]: {
+		id: 62,
 		connections: [ "Hydra", "Invoked Hydra", "Summoned Hydra", ],
 		description: `Hydras last for an additional {c_yellow}{SF_15}{/c} seconds.`,
 		maxPoints: 1,
@@ -523,6 +586,7 @@ sorcerer["Conjuration"] = {
 		y: -308.0999999999999,
 	},
 	["Invoked Hydra"]: {
+		id: 63,
 		connections: [ "Enhanced Hydra", ],
 		description: `After you Critically Strike, Hydras gain {c_yellow}[{SF_13}*100]%{/c} Attack Speed for {c_yellow}{buffduration:MOD_ATTACK_SPEED_BONUS}{/c} seconds.`,
 		maxPoints: 1,
@@ -530,6 +594,7 @@ sorcerer["Conjuration"] = {
 		y: -347.1099999999999,
 	},
 	["Summoned Hydra"]: {
+		id: 64,
 		connections: [ "Enhanced Hydra", ],
 		description: `Hydra also Burns enemies for an additional {c_yellow}[{SF_11}*100]%{/c} of its base damage dealt over {c_yellow}{buffduration:MOD_BURN}{/c} seconds.`,
 		maxPoints: 1,
@@ -537,6 +602,7 @@ sorcerer["Conjuration"] = {
 		y: -447.7850000000001,
 	},
 	["Ice Blades"]: {
+		id: 65,
 		connections: [ "Conjuration", "Enhanced Ice Blades", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:16}%{/c}
@@ -546,6 +612,7 @@ sorcerer["Conjuration"] = {
 		y: -171.32999999999993,
 	},
 	["Enhanced Ice Blades"]: {
+		id: 66,
 		connections: [ "Ice Blades", "Summoned Ice Blades", "Invoked Ice Blades", ],
 		description: `Ice Blades has a {c_yellow}[{SF_13} * 100]%{/c} increased chance to make enemies {c_white}Vulnerable{/c}.`,
 		maxPoints: 1,
@@ -553,6 +620,7 @@ sorcerer["Conjuration"] = {
 		y: -287.95000000000005,
 	},
 	["Summoned Ice Blades"]: {
+		id: 67,
 		connections: [ "Enhanced Ice Blades", ],
 		description: `Every time Ice Blades hits a {c_white}Vulnerable{/c} enemy, it gains {c_yellow}[{SF_9} * 100]%{/c} Attack Speed, up to {c_yellow}[{SF_9} * {SF_10} * 100]%{/c}.`,
 		maxPoints: 1,
@@ -560,6 +628,7 @@ sorcerer["Conjuration"] = {
 		y: -333.80500000000006,
 	},
 	["Invoked Ice Blades"]: {
+		id: 68,
 		connections: [ "Enhanced Ice Blades", ],
 		description: `Killing a {c_white}Vulnerable{/c} enemy increases your active Ice Blades' duration by {c_yellow}{SF_15}{/c} second.`,
 		maxPoints: 1,
@@ -567,6 +636,7 @@ sorcerer["Conjuration"] = {
 		y: -424.7349999999999,
 	},
 	["Lightning Spear"]: {
+		id: 69,
 		connections: [ "Conjuration", "Enhanced Lightning Spear", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
@@ -576,6 +646,7 @@ sorcerer["Conjuration"] = {
 		y: 249.82999999999993,
 	},
 	["Enhanced Lightning Spear"]: {
+		id: 70,
 		connections: [ "Lightning Spear", "Summoned Lightning Spear", "Invoked Lightning Spear", ],
 		description: `Lightning Spear has a {c_yellow}[{SF_11}*100]%{/c} increased chance to critically strike against Stunned enemies.`,
 		maxPoints: 1,
@@ -583,6 +654,7 @@ sorcerer["Conjuration"] = {
 		y: 439.99,
 	},
 	["Summoned Lightning Spear"]: {
+		id: 71,
 		connections: [ "Enhanced Lightning Spear", ],
 		description: `Collecting {c_white}Crackling Energy{/c} reduces the cooldown of Lightning Spear by {c_yellow}[{SF_9}|1|]{/c} seconds.`,
 		maxPoints: 1,
@@ -590,6 +662,7 @@ sorcerer["Conjuration"] = {
 		y: 583.565,
 	},
 	["Invoked Lightning Spear"]: {
+		id: 72,
 		connections: [ "Enhanced Lightning Spear", ],
 		description: `After critically striking, Lightning Spear has a {c_yellow}[{SF_10} * 100]%{/c} increased stacking critical strike chance for its duration.`,
 		maxPoints: 1,
@@ -597,6 +670,7 @@ sorcerer["Conjuration"] = {
 		y: 584.88,
 	},
 	["Conjuration Mastery"]: {
+		id: 73,
 		connections: [ "Conjuration", ],
 		description: `While you have an active {c_white}Conjuration{/c} Skill, you deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage.`,
 		maxPoints: 3,
@@ -604,6 +678,7 @@ sorcerer["Conjuration"] = {
 		y: 235.40499999999997,
 	},
 	["Precision Magic"]: {
+		id: 74,
 		connections: [ "Conjuration", ],
 		description: `Your Lucky Hit Chance is increased by up to {c_yellow}[{SF_0} * 100]%{/c}.`,
 		maxPoints: 3,
@@ -611,6 +686,7 @@ sorcerer["Conjuration"] = {
 		y: -340.5450000000001,
 	},
 	["Align the Elements"]: {
+		id: 75,
 		connections: [ "Conjuration", "Mana Shield", "Protection", ],
 		description: `You gain {c_yellow}{SF_0}%{/c} Damage Reduction against Elites for each second you don't take damage from any of these sources, up to {c_yellow}{SF_1}%{/c}.`,
 		maxPoints: 3,
@@ -618,6 +694,7 @@ sorcerer["Conjuration"] = {
 		y: 0.8350000000000364,
 	},
 	["Mana Shield"]: {
+		id: 76,
 		connections: [ "Align the Elements", ],
 		description: `Every time you spend {c_yellow}{SF_0}{/c} Mana, you gain {c_yellow}[{SF_1} * 100]%{/c} Damage Reduction for {c_yellow}{SF_2}{/c} seconds.`,
 		maxPoints: 3,
@@ -625,6 +702,7 @@ sorcerer["Conjuration"] = {
 		y: -101.02999999999997,
 	},
 	["Protection"]: {
+		id: 77,
 		connections: [ "Align the Elements", ],
 		description: `Using a cooldown grants {c_yellow}[{SF_0} * 100]%{/c} of your maximum Life as a {c_white}Barrier{/c} for {c_yellow}{buffduration:BUFF_BARRIER}{/c} seconds.`,
 		maxPoints: 3,
@@ -635,6 +713,7 @@ sorcerer["Conjuration"] = {
 
 sorcerer["Mastery"] = {
 	["Meteor"]: {
+		id: 78,
 		connections: [ "Mastery", "Enhanced Meteor", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:27}%{/c}
@@ -644,6 +723,7 @@ sorcerer["Mastery"] = {
 		y: 119.21945,
 	},
 	["Enhanced Meteor"]: {
+		id: 79,
 		connections: [ "Meteor", "Mage's Meteor", "Wizard's Meteor", ],
 		description: `If Meteor hits {c_yellow}{SF_16}{/c} or more enemies, there is a {c_yellow}[{SF_24}*100]%{/c} chance an additional Meteor falls on the same location.`,
 		maxPoints: 1,
@@ -651,6 +731,7 @@ sorcerer["Mastery"] = {
 		y: 205.71395,
 	},
 	["Mage's Meteor"]: {
+		id: 80,
 		connections: [ "Enhanced Meteor", ],
 		description: `Meteor falls {c_yellow}[{SF_17}*100]%{/c} faster and costs {c_yellow}{SF_18}{/c} less Mana.`,
 		maxPoints: 1,
@@ -658,6 +739,7 @@ sorcerer["Mastery"] = {
 		y: 314.15794999999997,
 	},
 	["Wizard's Meteor"]: {
+		id: 81,
 		connections: [ "Enhanced Meteor", ],
 		description: `Meteor’s impact Immobilizes enemies for {c_yellow}{buffduration:IMMOBILIZE}{/c} seconds.`,
 		maxPoints: 1,
@@ -665,6 +747,7 @@ sorcerer["Mastery"] = {
 		y: 212.95895,
 	},
 	["Blizzard"]: {
+		id: 82,
 		connections: [ "Mastery", "Enhanced Blizzard", ],
 		description: `{c_gold}Mana Cost:{/c} {c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:22}%{/c}
@@ -674,6 +757,7 @@ sorcerer["Mastery"] = {
 		y: -218.78955,
 	},
 	["Enhanced Blizzard"]: {
+		id: 83,
 		connections: [ "Blizzard", "Mage's Blizzard", "Wizard's Blizzard", ],
 		description: `Blizzard’s duration is increased by {c_yellow}{SF_13}{/c} seconds.`,
 		maxPoints: 1,
@@ -681,6 +765,7 @@ sorcerer["Mastery"] = {
 		y: -379.78455,
 	},
 	["Mage's Blizzard"]: {
+		id: 84,
 		connections: [ "Enhanced Blizzard", ],
 		description: `Every second an enemy is in Blizzard, they take {c_yellow}x[{SF_14} * 100|1|]%{/c} increased damage from you, up to {c_yellow}x[{SF_15} * 100]%{/c}.`,
 		maxPoints: 1,
@@ -688,6 +773,7 @@ sorcerer["Mastery"] = {
 		y: -498.58855000000005,
 	},
 	["Wizard's Blizzard"]: {
+		id: 85,
 		connections: [ "Enhanced Blizzard", ],
 		description: `While you have an active Blizzard, your {c_white}Core{/c} Skills cost {c_yellow}[{SF_16} * 100]%{/c} less Mana.`,
 		maxPoints: 1,
@@ -695,6 +781,7 @@ sorcerer["Mastery"] = {
 		y: -504.27355,
 	},
 	["Ball Lightning"]: {
+		id: 86,
 		connections: [ "Mastery", "Enhanced Ball Lightning", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -704,6 +791,7 @@ sorcerer["Mastery"] = {
 		y: 2.0399499999999993,
 	},
 	["Enhanced Ball Lightning"]: {
+		id: 87,
 		connections: [ "Ball Lightning", "Wizard's Ball Lightning", "Mage's Ball Lightning", ],
 		description: `Ball Lightning deals damage {c_yellow}[{SF_11}*100]%{/c} more frequently.`,
 		maxPoints: 1,
@@ -711,6 +799,7 @@ sorcerer["Mastery"] = {
 		y: 0.48499999999999943,
 	},
 	["Wizard's Ball Lightning"]: {
+		id: 88,
 		connections: [ "Enhanced Ball Lightning", ],
 		description: `If an enemy is hit at least {c_yellow}{SF_12}{/c} times by a cast of Ball Lightning, a {c_white}Crackling Energy{/c} is formed.`,
 		maxPoints: 1,
@@ -718,6 +807,7 @@ sorcerer["Mastery"] = {
 		y: -58.65965,
 	},
 	["Mage's Ball Lightning"]: {
+		id: 89,
 		connections: [ "Enhanced Ball Lightning", ],
 		description: `Each time Ball Lightning hits an enemy, it deals {c_yellow}x[{SF_9}*100]%{/c} increased damage, up to {c_yellow}x[{SF_10}*100]%{/c}.`,
 		maxPoints: 1,
@@ -725,6 +815,7 @@ sorcerer["Mastery"] = {
 		y: 63.21445,
 	},
 	["Inner Flames"]: {
+		id: 90,
 		connections: [ "Mastery", "Soulfire", "Devouring Flames", ],
 		description: `Your {c_white}Pyromancy{/c} Skills deal {c_yellow}x[{SF_1}*100]%{/c} increased damage after you haven't taken damage for {c_yellow}{SF_0}{/c} seconds.`,
 		maxPoints: 1,
@@ -732,6 +823,7 @@ sorcerer["Mastery"] = {
 		y: 316.58344999999997,
 	},
 	["Soulfire"]: {
+		id: 91,
 		connections: [ "Inner Flames", ],
 		description: `{c_white}Fireball{/c} and {c_white}Meteor{/c} have an {c_yellow}[{SF_0|1|}* 100]%{/c} increased chance to Critically Strike per enemy hit.`,
 		maxPoints: 3,
@@ -739,6 +831,7 @@ sorcerer["Mastery"] = {
 		y: 524.50095,
 	},
 	["Devouring Flames"]: {
+		id: 92,
 		connections: [ "Inner Flames", ],
 		description: `Your {c_white}Pyromancy{/c} Skills deal {c_yellow}x[{SF_0} * 100]%{/c} increased direct damage for each source of Burning on an enemy, up to {c_yellow}x[{SF_0} * {SF_1} * 100]%{/c}.`,
 		maxPoints: 1,
@@ -746,6 +839,7 @@ sorcerer["Mastery"] = {
 		y: 474.57894999999996,
 	},
 	["Regenerative Conduit"]: {
+		id: 93,
 		connections: [ "Mastery", "Static Discharge", "Shocking Impact", ],
 		description: `{c_white}Crackling Energy{/c} restores {c_yellow}{SF_0}{/c} Mana upon pickup.`,
 		maxPoints: 3,
@@ -753,6 +847,7 @@ sorcerer["Mastery"] = {
 		y: 219.62895,
 	},
 	["Static Discharge"]: {
+		id: 94,
 		connections: [ "Regenerative Conduit", ],
 		description: `{c_gold}Lucky Hit:{/c} Critical Strikes with {c_white}Shock{/c} Skills have a {c_yellow}[{SF_0} *100]%{/c} chance to form a {c_white}Crackling Energy{/c}.`,
 		maxPoints: 3,
@@ -760,6 +855,7 @@ sorcerer["Mastery"] = {
 		y: 402.77194999999995,
 	},
 	["Shocking Impact"]: {
+		id: 95,
 		connections: [ "Regenerative Conduit", ],
 		description: `Every time you Stun an enemy you deal {c_yellow}{payload:LIGHTNING_PAYLOAD}{/c} Lightning Damage to them.`,
 		maxPoints: 3,
@@ -767,6 +863,7 @@ sorcerer["Mastery"] = {
 		y: 288.74794999999995,
 	},
 	["Icy Veil"]: {
+		id: 96,
 		connections: [ "Mastery", "Hoarfrost", "Cold Front", ],
 		description: `Your {c_white}Barriers{/c} have a {c_yellow}[{SF_0} * 100]%{/c} increased duration.`,
 		maxPoints: 3,
@@ -774,6 +871,7 @@ sorcerer["Mastery"] = {
 		y: -241.53355,
 	},
 	["Hoarfrost"]: {
+		id: 97,
 		connections: [ "Icy Veil", ],
 		description: `You deal more damage to enemies the more {c_white}Chilled{/c} they are, up to {c_yellow}x[{SF_0} * 100]%{/c} while they are {c_white}Frozen{/c}.`,
 		maxPoints: 3,
@@ -781,6 +879,7 @@ sorcerer["Mastery"] = {
 		y: -423.90055,
 	},
 	["Cold Front"]: {
+		id: 98,
 		connections: [ "Icy Veil", ],
 		description: `While you have a {c_white}Barrier{/c} active, you apply {c_yellow}[{SF_0} * 100]%{/c} more {c_white}Chill{/c}.`,
 		maxPoints: 3,
@@ -788,6 +887,7 @@ sorcerer["Mastery"] = {
 		y: -313.91055,
 	},
 	["Firewall"]: {
+		id: 99,
 		connections: [ "Mastery", "Enhanced Firewall", ],
 		description: `{c_gold}Mana Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}
@@ -797,6 +897,7 @@ sorcerer["Mastery"] = {
 		y: 231.79595,
 	},
 	["Enhanced Firewall"]: {
+		id: 100,
 		connections: [ "Firewall", "Wizard's Firewall", "Mage's Firewall", ],
 		description: `Enemies that stand in Firewall for at least {c_yellow}{SF_14}{/c} seconds take {c_yellow}x[{SF_15}*100]%{/c} increased Burning damage from all sources.`,
 		maxPoints: 1,
@@ -804,6 +905,7 @@ sorcerer["Mastery"] = {
 		y: 388.57194999999996,
 	},
 	["Wizard's Firewall"]: {
+		id: 101,
 		connections: [ "Enhanced Firewall", ],
 		description: `You deal {c_yellow}x[{SF_17}*100]%{/c} increased damage per active Firewall.`,
 		maxPoints: 1,
@@ -811,6 +913,7 @@ sorcerer["Mastery"] = {
 		y: 493.62095,
 	},
 	["Mage's Firewall"]: {
+		id: 102,
 		connections: [ "Enhanced Firewall", ],
 		description: `Each enemy standing in Firewall increases your Mana Regeneration by {c_yellow}[{SF_16}*100]%{/c}.`,
 		maxPoints: 1,
@@ -821,6 +924,7 @@ sorcerer["Mastery"] = {
 
 sorcerer["Ultimate"] = {
 	["Inferno"]: {
+		id: 103,
 		connections: [ "Ultimate", "Prime Inferno", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}[{Combat Effect Chance}*2]%{/c}
@@ -830,6 +934,7 @@ sorcerer["Ultimate"] = {
 		y: -144.18580000000003,
 	},
 	["Prime Inferno"]: {
+		id: 104,
 		connections: [ "Inferno", "Supreme Inferno", ],
 		description: `Enemies inside of Inferno's final explosion are Immobilized for {c_yellow}{buffduration:IMMOBILIZE}{/c} seconds.`,
 		maxPoints: 1,
@@ -837,6 +942,7 @@ sorcerer["Ultimate"] = {
 		y: -293.3353,
 	},
 	["Supreme Inferno"]: {
+		id: 105,
 		connections: [ "Prime Inferno", ],
 		description: `Killing a Burning enemy reduces Inferno's cooldown by {c_yellow}{SF_14}{/c} second.`,
 		maxPoints: 1,
@@ -844,6 +950,7 @@ sorcerer["Ultimate"] = {
 		y: -324.0783,
 	},
 	["Unstable Currents"]: {
+		id: 106,
 		connections: [ "Ultimate", "Prime Unstable Currents", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} seconds. Whenever you cast a {c_white}Lightning{/c} Skill, another random non-Basic {c_white}Lightning{/c} Skill is also cast.`,
@@ -852,6 +959,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 150.59570000000002,
 	},
 	["Prime Unstable Currents"]: {
+		id: 107,
 		connections: [ "Unstable Currents", "Supreme Unstable Currents", ],
 		description: `Unstable Currents increases Attack Speed by {c_yellow}[{SF_1} * 100]%{/c} while active.`,
 		maxPoints: 1,
@@ -859,6 +967,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 247.6427,
 	},
 	["Supreme Unstable Currents"]: {
+		id: 108,
 		connections: [ "Prime Unstable Currents", ],
 		description: `While Unstable Currents is active, collecting {c_white}Crackling Energy{/c} increases its duration by {c_yellow}[{SF_4}|2|]{/c} seconds.`,
 		maxPoints: 1,
@@ -866,6 +975,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 372.1352,
 	},
 	["Deep Freeze"]: {
+		id: 109,
 		connections: [ "Ultimate", "Prime Deep Freeze", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -875,6 +985,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: -140.2508,
 	},
 	["Prime Deep Freeze"]: {
+		id: 110,
 		connections: [ "Deep Freeze", "Supreme Deep Freeze", ],
 		description: `Gain {c_yellow}[{SF_14}*100]%{/c} of your Life as a {c_white}Barrier{/c} for {c_yellow}{SF_15}{/c} seconds for each enemy shattered by Deep Freeze.`,
 		maxPoints: 1,
@@ -882,6 +993,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: -256.4198,
 	},
 	["Supreme Deep Freeze"]: {
+		id: 111,
 		connections: [ "Prime Deep Freeze", ],
 		description: `When Deep Freeze ends, your active cooldowns are reduced by {c_yellow}[{SF_16} * 100]%{/c}.`,
 		maxPoints: 1,
@@ -889,6 +1001,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: -259.8198,
 	},
 	["Frostbite"]: {
+		id: 112,
 		connections: [ "Ultimate", "Permafrost", "Icy Touch", ],
 		description: `You deal {c_yellow}x[{SF_0} * 100]%{/c} more damage to {c_white}Frozen{/c} or {c_white}Vulnerable{/c} enemies, and {c_yellow}x[{SF_1} * 100]%{/c} more damage to enemies who are both {c_white}Frozen{/c} and {c_white}Vulnerable{/c}.`,
 		maxPoints: 3,
@@ -896,6 +1009,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: -295.4413,
 	},
 	["Permafrost"]: {
+		id: 113,
 		connections: [ "Frostbite", "Snap Freeze", ],
 		description: `{c_white}Frost{/c} Skills deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage to Elites.`,
 		maxPoints: 3,
@@ -903,6 +1017,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: -443.1773,
 	},
 	["Snap Freeze"]: {
+		id: 114,
 		connections: [ "Permafrost", "Icy Touch", ],
 		description: `{c_gold}Lucky Hit:{/c} {c_white}Frost{/c} Skills have up to a {c_yellow}{SF_0}%{/c} chance to instantly {c_white}Freeze{/c}.`,
 		maxPoints: 3,
@@ -910,6 +1025,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: -586.7988,
 	},
 	["Icy Touch"]: {
+		id: 115,
 		connections: [ "Frostbite", "Snap Freeze", ],
 		description: `You deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage to {c_white}Vulnerable{/c} enemies.`,
 		maxPoints: 3,
@@ -917,6 +1033,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: -439.9178,
 	},
 	["Coursing Currents"]: {
+		id: 116,
 		connections: [ "Ultimate", "Electrocution", "Conduction", ],
 		description: `Hitting enemies with {c_white}Shock{/c} Skills increases your Critical Strike Chance by {c_yellow}[{SF_1} * 100]%{/c}. Resets upon getting a Critical Strike.`,
 		maxPoints: 3,
@@ -924,6 +1041,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 281.3837,
 	},
 	["Electrocution"]: {
+		id: 117,
 		connections: [ "Coursing Currents", "Convulsions", ],
 		description: `Enemies deal {c_yellow}[{SF_0}*100]%{/c} less damage for {c_yellow}{buffduration:BUFF_DAMAGE_PENALITY}{/c} seconds after being Critically Struck by your {c_white}Shock{/c} Skills.`,
 		maxPoints: 3,
@@ -931,6 +1049,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 429.5872,
 	},
 	["Convulsions"]: {
+		id: 118,
 		connections: [ "Conduction", "Electrocution", ],
 		description: `{c_gold}Lucky Hit:{/c} {c_white}Shock{/c} Skills have up to a {c_yellow}[{SF_0}]%{/c} chance to Stun enemies for {c_yellow}{SF_1}{/c} seconds.`,
 		maxPoints: 3,
@@ -938,6 +1057,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 587.3611999999999,
 	},
 	["Conduction"]: {
+		id: 119,
 		connections: [ "Coursing Currents", "Convulsions", ],
 		description: `Critical Strikes with {c_white}Shock{/c} Skills increase your Attack Speed by {c_yellow}[{SF_0} * 100]%{/c} for {c_yellow}{SF_1}{/c} seconds.`,
 		maxPoints: 3,
@@ -945,6 +1065,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 431.62719999999996,
 	},
 	["Immolated Flesh"]: {
+		id: 120,
 		connections: [ "Ultimate", "Endless Pyre", "Fiery Surge", ],
 		description: `Burning enemies deal {c_yellow}[{SF_0}*100|1|]%{/c} reduced damage.`,
 		maxPoints: 3,
@@ -952,6 +1073,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 0.6455000000000002,
 	},
 	["Endless Pyre"]: {
+		id: 121,
 		connections: [ "Pyromania", "Immolated Flesh", ],
 		description: `Burning effects last {c_yellow}[{SF_0}*100]%{/c} longer.`,
 		maxPoints: 3,
@@ -959,6 +1081,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 75.9572,
 	},
 	["Pyromania"]: {
+		id: 122,
 		connections: [ "Fiery Surge", "Endless Pyre", ],
 		description: `You deal {c_yellow}x[{SF_0} * 100]%{/c} increased Critical Strike Damage per nearby Burning enemy, up to {c_yellow}x[{SF_2} * 100]%{/c}.`,
 		maxPoints: 3,
@@ -966,6 +1089,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 0.014499999999999957,
 	},
 	["Fiery Surge"]: {
+		id: 123,
 		connections: [ "Pyromania", "Immolated Flesh", ],
 		description: `Killing a Burning enemy grants {c_yellow}[{SF_0} * 100]%{/c} Attack Speed for {c_yellow}{buffduration:ATTACK_SPEED_BONUS}{/c} seconds.`,
 		maxPoints: 3,
@@ -976,6 +1100,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 
 sorcerer["Capstone"] = {
 	["Shatter"]: {
+		id: 124,
 		connections: [ "Capstone", ],
 		description: `After {c_white}Freeze{/c} expires, enemies explode for {c_yellow}[{SF_0} * 100]%{/c} of the damage you dealt to them while {c_white}Frozen{/c}.`,
 		maxPoints: 1,
@@ -983,6 +1108,7 @@ sorcerer["Capstone"] = {
 		y: 368.8950000000001,
 	},
 	["Icefall"]: {
+		id: 125,
 		connections: [ "Capstone", ],
 		description: `{c_gold}Lucky Hit:{/c} Your {c_white}Frost{/c} Skills have up to a {c_yellow}[{SF_0} * 100]%{/c} chance to make your next {c_white}Ice Shards{/c}, {c_white}Frozen Orb{/c}, or {c_white}Blizzard{/c} consume no Mana and deal {c_yellow}x[{SF_1} * 100]%{/if}{/c} more damage. Chance is doubled against {c_white}Vulnerable{/c} enemies.`,
 		maxPoints: 1,
@@ -990,6 +1116,7 @@ sorcerer["Capstone"] = {
 		y: 368.3850000000001,
 	},
 	["Warmth"]: {
+		id: 126,
 		connections: [ "Capstone", ],
 		description: `{c_gold}Lucky Hit:{/c} Up to a {c_yellow}{SF_1}%{/c} chance to gain {c_yellow}{SF_0}{/c} Mana per source of Burning on the enemy.`,
 		maxPoints: 1,
@@ -997,6 +1124,7 @@ sorcerer["Capstone"] = {
 		y: 369.69500000000005,
 	},
 	["Esu's Ferocity"]: {
+		id: 127,
 		connections: [ "Capstone", ],
 		description: `You deal {c_yellow}x[{SF_1}*100]%{/c} increased Burning damage to enemies over {c_yellow}[{SF_2}*100]%{/c} Life and {c_yellow}x[{SF_0}*100]%{/c} increased {c_white}Pyromancy{/c} Skill Direct Damage to enemies under {c_yellow}[{SF_2}*100]%{/c} Life.`,
 		maxPoints: 1,
@@ -1004,6 +1132,7 @@ sorcerer["Capstone"] = {
 		y: 371.41999999999996,
 	},
 	["Overflowing Energy"]: {
+		id: 128,
 		connections: [ "Capstone", ],
 		description: `{c_white}Crackling Energy{/c} hits {c_yellow}{SF_0}{/c} additional enemy. Each time {c_white}Crackling Energy{/c} hits an enemy, your {c_white}Shock{/c} Skill cooldowns are reduced by {c_yellow}[{SF_1}|1|]{/c} seconds, increased to {c_yellow}[{SF_2}|2|]{/c} seconds against Elites.`,
 		maxPoints: 1,
@@ -1011,6 +1140,7 @@ sorcerer["Capstone"] = {
 		y: 364.7099999999999,
 	},
 	["Vyr's Mastery"]: {
+		id: 129,
 		connections: [ "Capstone", ],
 		description: `Close enemies take {c_yellow}x[{SF_1}*100]%{/c} more damage from your {c_white}Shock{/c} Skills and deal {c_yellow}x[{SF_3} * 100]%{/c} less damage to you.`,
 		maxPoints: 1,

@@ -45,6 +45,7 @@ druid["Trunk Data"] = {
 
 druid["Basic"] = {
 	["Earthspike"]: {
+		id: 0,
 		connections: [ "Basic", "Enhanced Earthspike", ],
 		description: `{if:SF_15}{c_gold}Cooldown:{/c_gold} {c_green}[{SF_16}|1|]{/c} seconds
 {/if}{c_gold}Generate Spirit:{/c_gold} {c_green}{SF_5}{/c_green}
@@ -55,6 +56,7 @@ druid["Basic"] = {
 		y: -67.625,
 	},
 	["Enhanced Earthspike"]: {
+		id: 1,
 		connections: [ "Earthspike", "Wild Earthspike", "Fierce Earthspike", ],
 		description: `{c_white}Earth Spike{/c} has an {c_yellow}[{SF_11}*100]%{/c} chance to Stun for {c_yellow}[{buffduration:MOD_RANK_STUN}|1|]{/c} seconds.`,
 		maxPoints: 1,
@@ -62,6 +64,7 @@ druid["Basic"] = {
 		y: -139.94000000000005,
 	},
 	["Wild Earthspike"]: {
+		id: 2,
 		connections: [ "Enhanced Earthspike", ],
 		description: `{c_white}Earthspike{/c} generates {c_yellow}{SF_4}{/c} additional Spirit.`,
 		maxPoints: 1,
@@ -69,6 +72,7 @@ druid["Basic"] = {
 		y: -293.3000000000002,
 	},
 	["Fierce Earthspike"]: {
+		id: 3,
 		connections: [ "Enhanced Earthspike", ],
 		description: `{c_white}Fortify{/c} for {c_yellow}{fortified:MOD_A_FORTIFY}{/c} whenever {c_white}Earth Spike{/c} damages enemies who are Stunned, Immobilized, or Knocked Back.`,
 		maxPoints: 1,
@@ -76,6 +80,7 @@ druid["Basic"] = {
 		y: -145.73500000000013,
 	},
 	["Maul"]: {
+		id: 4,
 		connections: [ "Basic", "Enhanced Maul", ],
 		description: `{c_gold}Generate Spirit:{/c_gold} {c_green}{SF_0}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -85,6 +90,7 @@ druid["Basic"] = {
 		y: 151.4449999999997,
 	},
 	["Enhanced Maul"]: {
+		id: 5,
 		connections: [ "Maul", "Wild Maul", "Fierce Maul", ],
 		description: `If an enemy is hit by {c_white}Maul{/c}, then {c_white}Fortify{/c} for {fortified:FORTIFY_CASTER}.`,
 		maxPoints: 1,
@@ -92,6 +98,7 @@ druid["Basic"] = {
 		y: 282.48,
 	},
 	["Wild Maul"]: {
+		id: 6,
 		connections: [ "Enhanced Maul", ],
 		description: `{c_white}Maul{/c} slows enemies by {c_yellow}[{SF_6}*100]%{/c} for {c_yellow}{buffduration:MOD_B_SLOW}{/c} seconds.`,
 		maxPoints: 1,
@@ -99,6 +106,7 @@ druid["Basic"] = {
 		y: 318.2999999999997,
 	},
 	["Fierce Maul"]: {
+		id: 7,
 		connections: [ "Enhanced Maul", ],
 		description: `While {c_white}Healthy{/c}, {c_white}Maul{/c} grants {c_yellow}{SF_4}{/c} additional Spirit.`,
 		maxPoints: 1,
@@ -106,6 +114,7 @@ druid["Basic"] = {
 		y: 450.0450000000001,
 	},
 	["Wind Shear"]: {
+		id: 8,
 		connections: [ "Basic", "Enhanced Wind Shear", ],
 		description: `{c_gold}Generate Spirit:{/c_gold} {c_green}{SF_5}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -115,6 +124,7 @@ druid["Basic"] = {
 		y: -199.93499999999995,
 	},
 	["Enhanced Wind Shear"]: {
+		id: 9,
 		connections: [ "Wind Shear", "Fierce Wind Shear", "Wild Wind Shear", ],
 		description: `{c_white}Wind Shear{/c} has a {c_yellow}[{SF_18}*100]%{/c} chance to make enemies {c_white}Vulnerable{/c} for {c_yellow}{SF_17}{/c} seconds.`,
 		maxPoints: 1,
@@ -122,6 +132,7 @@ druid["Basic"] = {
 		y: -368.3699999999999,
 	},
 	["Fierce Wind Shear"]: {
+		id: 10,
 		connections: [ "Enhanced Wind Shear", ],
 		description: `Each enemy hit by {c_white}Wind Shear{/c} increases your movement speed by {c_yellow}[{SF_6} * 100]%{/c} for {c_yellow}{buffduration:BUFF_MOVE_SPEED}{/c} seconds, up to {c_yellow}[{SF_6} * {SF_8} * 100]%{/c}.`,
 		maxPoints: 1,
@@ -129,6 +140,7 @@ druid["Basic"] = {
 		y: -500.7850000000003,
 	},
 	["Wild Wind Shear"]: {
+		id: 11,
 		connections: [ "Enhanced Wind Shear", ],
 		description: `{c_white}Wind Shear{/c} grants {c_yellow}{SF_4}{/c} additional Spirit for each enemy hit beyond the first.`,
 		maxPoints: 1,
@@ -136,6 +148,7 @@ druid["Basic"] = {
 		y: -501.09000000000015,
 	},
 	["Storm Strike"]: {
+		id: 12,
 		connections: [ "Basic", "Enhanced Storm Strike", ],
 		description: `{c_gold}Generate Spirit:{/c_gold} {c_green}{SF_2}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -145,6 +158,7 @@ druid["Basic"] = {
 		y: -68.24000000000024,
 	},
 	["Enhanced Storm Strike"]: {
+		id: 13,
 		connections: [ "Storm Strike", "Fierce Storm Strike", "Wild Storm Strike", ],
 		description: `Dealing damage with {c_white}Storm Strike{/c} reduces your damage taken by {c_yellow}[{SF_9}*100]%{/c} for {c_yellow}{buffduration:DAMAGE_REDUCTION}{/c} seconds.`,
 		maxPoints: 1,
@@ -152,6 +166,7 @@ druid["Basic"] = {
 		y: -141.81500000000005,
 	},
 	["Fierce Storm Strike"]: {
+		id: 14,
 		connections: [ "Enhanced Storm Strike", ],
 		description: `{c_white}Storm Strike{/c} has a {c_yellow}[{SF_12} * 100]%{/c} chance to make enemies {c_white}Vulnerable{/c} for {c_yellow}{SF_13}{/c} seconds.`,
 		maxPoints: 1,
@@ -159,6 +174,7 @@ druid["Basic"] = {
 		y: -296.2750000000001,
 	},
 	["Wild Storm Strike"]: {
+		id: 15,
 		connections: [ "Enhanced Storm Strike", ],
 		description: `{c_white}Storm Strike{/c} has a {c_yellow}[{SF_10}*100]%{/c} chance to {c_white}Immobilize{/c} all enemies hit for {c_yellow}[{buffduration:IMMOBILIZE}|1|]{/c} seconds.`,
 		maxPoints: 1,
@@ -166,6 +182,7 @@ druid["Basic"] = {
 		y: -150.99000000000024,
 	},
 	["Claw"]: {
+		id: 16,
 		connections: [ "Basic", "Enhanced Claw", ],
 		description: `{c_gold}Generate Spirit:{/c_gold} {c_green}{SF_3}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -175,6 +192,7 @@ druid["Basic"] = {
 		y: 154.92000000000007,
 	},
 	["Enhanced Claw"]: {
+		id: 17,
 		connections: [ "Claw", "Fierce Claw", "Wild Claw", ],
 		description: `{c_white}Claw's{/c} Attack Speed is increased by {c_yellow}+[{SF_12}*100]%{/c}.`,
 		maxPoints: 1,
@@ -182,6 +200,7 @@ druid["Basic"] = {
 		y: 288.63499999999976,
 	},
 	["Fierce Claw"]: {
+		id: 18,
 		connections: [ "Enhanced Claw", ],
 		description: `{c_white}Claw{/c} poisons enemies for {c_yellow}{dot:POISON_DOT}{/c} over {c_white}{buffduration:POISON_DOT}{/c} seconds.`,
 		maxPoints: 1,
@@ -189,6 +208,7 @@ druid["Basic"] = {
 		y: 458.0799999999999,
 	},
 	["Wild Claw"]: {
+		id: 19,
 		connections: [ "Enhanced Claw", ],
 		description: `{c_white}Claw{/c} has an additional {c_yellow}+[{SF_9}*100]%{/c} Critical Strike Chance and deals {c_yellow}x[{SF_10}*100]%{/c} increased Critical Strike Damage.`,
 		maxPoints: 1,
@@ -199,6 +219,7 @@ druid["Basic"] = {
 
 druid["Spirit"] = {
 	["Landslide"]: {
+		id: 20,
 		connections: [ "Spirit", "Enhanced Landslide", ],
 		description: `{c_gold}Spirit Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -208,6 +229,7 @@ druid["Spirit"] = {
 		y: -166.78999999999996,
 	},
 	["Enhanced Landslide"]: {
+		id: 21,
 		connections: [ "Landslide", "Raging Landslide", "Primal Landslide", ],
 		description: `Enemies hit by all {c_yellow}3{/c} {c_white}Landslide{/c} pillars have a {c_yellow}[{SF_9}*100]%{/c} chance to be Immobilized for {c_yellow}{buffduration:IMMOBILIZE}{/c} seconds by the final hit.`,
 		maxPoints: 1,
@@ -215,6 +237,7 @@ druid["Spirit"] = {
 		y: -322.47000000000025,
 	},
 	["Raging Landslide"]: {
+		id: 22,
 		connections: [ "Enhanced Landslide", ],
 		description: `For {c_yellow}{buffduration:SKILL_RANK_COST_REDUCTION}{/c} seconds after {c_white}Landslide{/c} is cast, the Spirit cost is reduced by {c_yellow}{SF_11}{/c}.`,
 		maxPoints: 1,
@@ -222,6 +245,7 @@ druid["Spirit"] = {
 		y: -483.31500000000005,
 	},
 	["Primal Landslide"]: {
+		id: 23,
 		connections: [ "Enhanced Landslide", ],
 		description: `{c_white}Landslide{/c} has a {c_yellow}[{SF_8}*100]%{/c} increased Critical Strike Chance and deals {c_yellow}x[{SF_7}*100]%{/c} increased Critical Strike Damage against enemies who are Stunned, Immobilized or Knocked Back.`,
 		maxPoints: 1,
@@ -229,6 +253,7 @@ druid["Spirit"] = {
 		y: -360.80999999999995,
 	},
 	["Pulverize"]: {
+		id: 24,
 		connections: [ "Spirit", "Enhanced Pulverize", ],
 		description: `{c_gold}Spirit Cost:{/c_gold} {c_green}{Resource Cost}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -238,6 +263,7 @@ druid["Spirit"] = {
 		y: 43.95499999999993,
 	},
 	["Enhanced Pulverize"]: {
+		id: 25,
 		connections: [ "Pulverize", "Primal Pulverize", "Raging Pulverize", ],
 		description: `{c_white}Pulverize{/c} deals {c_yellow}x[{SF_13}*100]%{/c} increased bonus damage when hitting {c_yellow}{SF_14}{/c} or more enemies.`,
 		maxPoints: 1,
@@ -245,6 +271,7 @@ druid["Spirit"] = {
 		y: 76.73000000000002,
 	},
 	["Primal Pulverize"]: {
+		id: 26,
 		connections: [ "Enhanced Pulverize", ],
 		description: `Enemies hit with {c_white}Pulverize{/c} deal {c_yellow}[{SF_10}*100]%{/c} reduced damage for {c_yellow}{buffduration:MOD_DAMAGE_REDUCTION}{/c} seconds.`,
 		maxPoints: 1,
@@ -252,6 +279,7 @@ druid["Spirit"] = {
 		y: 214.0999999999999,
 	},
 	["Raging Pulverize"]: {
+		id: 27,
 		connections: [ "Enhanced Pulverize", ],
 		description: `{c_white}Pulverize{/c} has a {c_yellow}[{SF_11}*100]%{/c} chance to Immobilize all enemies hit for {c_yellow}{buffduration:IMMOBILIZE}{/c} seconds.`,
 		maxPoints: 1,
@@ -259,6 +287,7 @@ druid["Spirit"] = {
 		y: 59.664999999999964,
 	},
 	["Tornado"]: {
+		id: 28,
 		connections: [ "Spirit", "Enhanced Tornado", ],
 		description: `{c_gold}Spirit Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -268,6 +297,7 @@ druid["Spirit"] = {
 		y: -173.9050000000002,
 	},
 	["Enhanced Tornado"]: {
+		id: 29,
 		connections: [ "Tornado", "Raging Tornado", "Primal Tornado", ],
 		description: `Each time you cast {c_white}Tornado{/c}, you have a {c_yellow}[{SF_17}*100]%{/c} chance to spawn an additional {c_white}Tornado{/c}.`,
 		maxPoints: 1,
@@ -275,6 +305,7 @@ druid["Spirit"] = {
 		y: -314.8000000000002,
 	},
 	["Raging Tornado"]: {
+		id: 30,
 		connections: [ "Enhanced Tornado", ],
 		description: `Each time an enemy is damaged by a {c_white}Tornado{/c}, they take {c_yellow}x[{SF_19}*100]%{/c} increased damage from {c_white}Tornado{/c} for {c_yellow}{buffduration:MOD_STACKING_BONUS_DAMAGE_TAKEN}{/c} seconds, stacking up to {c_yellow}x[{SF_19} * {SF_20} * 100]%{/c} increased damage.`,
 		maxPoints: 1,
@@ -282,6 +313,7 @@ druid["Spirit"] = {
 		y: -473.3900000000003,
 	},
 	["Primal Tornado"]: {
+		id: 31,
 		connections: [ "Enhanced Tornado", ],
 		description: `Enemies damaged by {c_white}Tornado{/c} are Slowed by {c_yellow}[{SF_22}*100]%{/c} for {c_yellow}{buffduration:RANK_SLOW}{/c} seconds, stacking up to {c_yellow}[{SF_22}*{SF_23}*100]%{/c}.`,
 		maxPoints: 1,
@@ -289,6 +321,7 @@ druid["Spirit"] = {
 		y: -357,
 	},
 	["Wild Impulses"]: {
+		id: 32,
 		connections: [ "Spirit", ],
 		description: `Your {c_white}Core{/c} skills cost {c_yellow}[{SF_0} * 100]%{/c} more Spirit but deal {c_yellow}x[{SF_1} * 100]%{/c} increased damage.`,
 		maxPoints: 3,
@@ -296,6 +329,7 @@ druid["Spirit"] = {
 		y: -147.59000000000015,
 	},
 	["Shred"]: {
+		id: 33,
 		connections: [ "Spirit", "Enhanced Shred", ],
 		description: `{c_gold}Spirit Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -305,6 +339,7 @@ druid["Spirit"] = {
 		y: 225.17000000000007,
 	},
 	["Enhanced Shred"]: {
+		id: 34,
 		connections: [ "Shred", "Primal Shred", "Raging Shred", ],
 		description: `Each slash with {c_white}Shred{/c} heals you for {c_yellow}[{SF_8}*100]%{/c} of your maximum Life when it deals damage.`,
 		maxPoints: 1,
@@ -312,6 +347,7 @@ druid["Spirit"] = {
 		y: 395.0799999999999,
 	},
 	["Primal Shred"]: {
+		id: 35,
 		connections: [ "Enhanced Shred", ],
 		description: `{c_white}Shred{/c} deals {c_yellow}x[{SF_5}*100]%{/c} increased damage to {c_white}Injured{/c} enemies.`,
 		maxPoints: 1,
@@ -319,6 +355,7 @@ druid["Spirit"] = {
 		y: 569.6049999999998,
 	},
 	["Raging Shred"]: {
+		id: 36,
 		connections: [ "Enhanced Shred", ],
 		description: `{c_white}Shred{/c} has an additional {c_yellow}+[{SF_7}*100]%{/c} Critical Strike Chance against Poisoned enemies.`,
 		maxPoints: 1,
@@ -326,6 +363,7 @@ druid["Spirit"] = {
 		y: 543.5099999999998,
 	},
 	["Lightning Storm"]: {
+		id: 37,
 		connections: [ "Spirit", "Enhanced Lightning Storm", ],
 		description: `{c_gold}Spirit Cost:{/c} {c_green}{Resource Cost} per strike{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -335,6 +373,7 @@ druid["Spirit"] = {
 		y: -0.3200000000001637,
 	},
 	["Enhanced Lightning Storm"]: {
+		id: 38,
 		connections: [ "Lightning Storm", "Primal Lightning Storm", "Raging Lightning Storm", ],
 		description: `The size of your {c_white}Lightning Storm{/c} is preserved for {c_yellow}{SF_10}{/c} seconds after channeling.`,
 		maxPoints: 1,
@@ -342,6 +381,7 @@ druid["Spirit"] = {
 		y: 1.3099999999999454,
 	},
 	["Primal Lightning Storm"]: {
+		id: 39,
 		connections: [ "Enhanced Lightning Storm", ],
 		description: `{c_white}Lightning Storm{/c} has a {c_yellow}[{SF_8}*100]%{/c} chance to {c_white}Immobilize{/c} enemies hit for {c_yellow}{buffduration:IMMOBILIZE}{/c} seconds.`,
 		maxPoints: 1,
@@ -349,6 +389,7 @@ druid["Spirit"] = {
 		y: -87.42500000000018,
 	},
 	["Raging Lightning Storm"]: {
+		id: 40,
 		connections: [ "Enhanced Lightning Storm", ],
 		description: `{c_white}Lightning Storm{/c} gains {c_yellow}1{/c} additional lightning strike.`,
 		maxPoints: 1,
@@ -356,6 +397,7 @@ druid["Spirit"] = {
 		y: 97.7199999999998,
 	},
 	["Abundance"]: {
+		id: 41,
 		connections: [ "Spirit", "Heart of the Wild", ],
 		description: `{c_white}Basic{/c} skills generate {c_yellow}[{SF_1}*100]%{/c} more Spirit.`,
 		maxPoints: 3,
@@ -363,6 +405,7 @@ druid["Spirit"] = {
 		y: 264.4699999999998,
 	},
 	["Heart of the Wild"]: {
+		id: 42,
 		connections: [ "Abundance", ],
 		description: `Maximum Spirit is increased by {c_yellow}{SF_0}{/c}.`,
 		maxPoints: 3,
@@ -373,6 +416,7 @@ druid["Spirit"] = {
 
 druid["Defensive"] = {
 	["Earthen Bulwark"]: {
+		id: 43,
 		connections: [ "Defensive", "Enhanced Earthen Bulwark", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -382,6 +426,7 @@ druid["Defensive"] = {
 		y: -166.00499999999988,
 	},
 	["Enhanced Earthen Bulwark"]: {
+		id: 44,
 		connections: [ "Earthen Bulwark", "Innate Earthen Bulwark", "Preserving Earthen Bulwark", ],
 		description: `{c_white}Earthen Bulwark{/c} makes you {c_white}Unstoppable{/c} while active.`,
 		maxPoints: 1,
@@ -389,6 +434,7 @@ druid["Defensive"] = {
 		y: -283.5799999999999,
 	},
 	["Innate Earthen Bulwark"]: {
+		id: 45,
 		connections: [ "Enhanced Earthen Bulwark", ],
 		description: `Upon expiration, {c_white}Earthen Bulwark{/c} shatters, dealing {c_yellow}[{SF_2} * 100]%{/c} of the remaining shield amount to nearby enemies.`,
 		maxPoints: 1,
@@ -396,6 +442,7 @@ druid["Defensive"] = {
 		y: -302.4100000000001,
 	},
 	["Preserving Earthen Bulwark"]: {
+		id: 46,
 		connections: [ "Enhanced Earthen Bulwark", ],
 		description: `Casting {c_white}Earthen Bulwark{/c} grants {c_yellow}{fortified:MOD_FORTIFY}{/c} {c_white}Fortify{/c}.`,
 		maxPoints: 1,
@@ -403,6 +450,7 @@ druid["Defensive"] = {
 		y: -438.69499999999994,
 	},
 	["Debilitating Roar"]: {
+		id: 47,
 		connections: [ "Defensive", "Enhanced Debilitating Roar", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of nearby enemies by {c_yellow}[{SF_2} * 100]%{/c} for {c_yellow}{buffduration:BUFF_DAMAGE_DEALT_REDUCTION}{/c} seconds.`,
@@ -411,6 +459,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of ne
 		y: 169.8900000000001,
 	},
 	["Enhanced Debilitating Roar"]: {
+		id: 48,
 		connections: [ "Debilitating Roar", "Preserving Debilitating Roar", "Innate Debilitating Roar", ],
 		description: `{c_white}Debilitating Roar{/c} also {c_white}Fortifies{/c} you for {c_yellow}{fortified:MOD_FORTIFY}{/c}.`,
 		maxPoints: 1,
@@ -418,6 +467,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of ne
 		y: 279.69000000000005,
 	},
 	["Preserving Debilitating Roar"]: {
+		id: 49,
 		connections: [ "Enhanced Debilitating Roar", ],
 		description: `{c_white}Debilitating Roar{/c} also heals you for {c_yellow}[{SF_8}*100]%{/c} of your maximum Life each second for its duration.`,
 		maxPoints: 1,
@@ -425,6 +475,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of ne
 		y: 443.5,
 	},
 	["Innate Debilitating Roar"]: {
+		id: 50,
 		connections: [ "Enhanced Debilitating Roar", ],
 		description: `{c_white}Debilitating Roar{/c} also slows enemies by {c_yellow}[{SF_9}*100]%{/c} for its duration.`,
 		maxPoints: 1,
@@ -432,6 +483,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of ne
 		y: 307.47500000000014,
 	},
 	["Ancestral Fortitude"]: {
+		id: 51,
 		connections: [ "Defensive", "Vigilance", ],
 		description: `Increase your non-physical resistances by {c_yellow}[{SF_1} * 100]%{/c}.`,
 		maxPoints: 3,
@@ -439,6 +491,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of ne
 		y: 1.025000000000091,
 	},
 	["Vigilance"]: {
+		id: 52,
 		connections: [ "Ancestral Fortitude", ],
 		description: `You take {c_yellow}[{SF_0} * 100]%{/c} reduced damage for {c_yellow}{buffduration:DAMAGE_REDUCTION}{/c} seconds after using a {c_white}Defensive{/c} skill.`,
 		maxPoints: 3,
@@ -446,6 +499,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of ne
 		y: 0.39000000000010004,
 	},
 	["Blood Howl"]: {
+		id: 53,
 		connections: [ "Defensive", "Enhanced Blood Howl", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}{if:Mod.GrantSpirit}
 {c_gold}Generate Spirit:{/c_gold} {c_green}{SF_2}{/c_green}{/if}
@@ -455,6 +509,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 		y: 234.28999999999996,
 	},
 	["Enhanced Blood Howl"]: {
+		id: 54,
 		connections: [ "Blood Howl", "Innate Blood Howl", "Preserving Blood Howl", ],
 		description: `Kills reduce the cooldown of {c_white}Blood Howl{/c} by {c_yellow}{SF_5}{/c} second.`,
 		maxPoints: 1,
@@ -462,6 +517,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 		y: 400.21000000000004,
 	},
 	["Innate Blood Howl"]: {
+		id: 55,
 		connections: [ "Enhanced Blood Howl", ],
 		description: `{c_white}Blood Howl{/c} also generates {c_yellow}{SF_2}{/c} Spirit.`,
 		maxPoints: 1,
@@ -469,6 +525,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 		y: 545.905,
 	},
 	["Preserving Blood Howl"]: {
+		id: 56,
 		connections: [ "Enhanced Blood Howl", ],
 		description: `{c_white}Blood Howl{/c} also increases your Attack Speed by {c_yellow}[{SF_3}*100]%{/c} for {c_yellow}{buffduration:MOD_ATTACK_SPEED_BONUS}{/c} seconds.`,
 		maxPoints: 1,
@@ -476,6 +533,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 		y: 542.49,
 	},
 	["Cyclone Armor"]: {
+		id: 57,
 		connections: [ "Defensive", "Enhanced Cyclone Armor", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -487,6 +545,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 		y: -265.385,
 	},
 	["Enhanced Cyclone Armor"]: {
+		id: 58,
 		connections: [ "Cyclone Armor", "Preserving Cyclone Armor", "Innate Cyclone Armor", ],
 		description: `Enemies who are Knocked Back by {c_white}Cyclone Armor{/c} are also Slowed by {c_yellow}[{SF_8}*100]%{/c} for {c_yellow}{buffduration:MOD_SLOW}{/c} seconds.`,
 		maxPoints: 1,
@@ -494,6 +553,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 		y: -425.5350000000001,
 	},
 	["Preserving Cyclone Armor"]: {
+		id: 59,
 		connections: [ "Enhanced Cyclone Armor", ],
 		description: `Every {c_yellow}{SF_6}{/c} seconds, {c_white}Cyclone Armor{/c} intensifies, reducing the next instance of non-Physical damage by an additional {c_yellow}[{SF_5}*100]%{/c}.`,
 		maxPoints: 1,
@@ -501,6 +561,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 		y: -576.3799999999999,
 	},
 	["Innate Cyclone Armor"]: {
+		id: 60,
 		connections: [ "Enhanced Cyclone Armor", ],
 		description: `Enemies Knocked Back by {c_white}Cyclone Armor{/c} become {c_white}Vulnerable{/c} for {c_yellow}2{/c} seconds.`,
 		maxPoints: 1,
@@ -508,6 +569,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 		y: -573.4949999999999,
 	},
 	["Predatory Instinct"]: {
+		id: 61,
 		connections: [ "Defensive", ],
 		description: `Critical Strike Chance against nearby enemies is increased by {c_yellow}[{Script Formula 1} * 100]%{/c}.`,
 		maxPoints: 3,
@@ -518,6 +580,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_yellow}[{SF_0} * 100
 
 druid["Companion"] = {
 	["Ravens"]: {
+		id: 62,
 		connections: [ "Companion", "Enhanced Ravens", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
@@ -529,6 +592,7 @@ druid["Companion"] = {
 		y: 231.06999999999994,
 	},
 	["Enhanced Ravens"]: {
+		id: 63,
 		connections: [ "Ravens", "Brutal Ravens", "Ferocious Ravens", ],
 		description: `{c_gold}Passive:{/c} Ravens fly above you and periodically attack your enemies for {c_yellow}{payload:TOOLTIP_DAMAGE}{/c} damage every {c_yellow}{SF_2}{/c} seconds.`,
 		maxPoints: 1,
@@ -536,6 +600,7 @@ druid["Companion"] = {
 		y: 380.99,
 	},
 	["Brutal Ravens"]: {
+		id: 64,
 		connections: [ "Enhanced Ravens", ],
 		description: `{c_yellow}{SF_14}{/c} additional {c_white}Ravens{/c} appear when they periodically attack enemies.`,
 		maxPoints: 1,
@@ -543,6 +608,7 @@ druid["Companion"] = {
 		y: 549.535,
 	},
 	["Ferocious Ravens"]: {
+		id: 65,
 		connections: [ "Enhanced Ravens", ],
 		description: `Enemies inside the swarm of {c_white}Ravens{/c} when it is activated become {c_white}Vulnerable{/c} for {c_yellow}{SF_11}{/c} seconds.`,
 		maxPoints: 1,
@@ -550,6 +616,7 @@ druid["Companion"] = {
 		y: 548.405,
 	},
 	["Call of the Wild"]: {
+		id: 66,
 		connections: [ "Companion", ],
 		description: `You deal {c_yellow}x[{SF_1}  * 100]%{/c} increased critical strike damage against your {c_white}Wolves'{/c} focus target.
 
@@ -561,6 +628,7 @@ druid["Companion"] = {
 		y: 313.155,
 	},
 	["Vine Creeper"]: {
+		id: 67,
 		connections: [ "Companion", "Enhanced Vine Creeper", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:19}%{/c}
@@ -572,6 +640,7 @@ druid["Companion"] = {
 		y: -233.40499999999997,
 	},
 	["Enhanced Vine Creeper"]: {
+		id: 68,
 		connections: [ "Vine Creeper", "Ferocious Vine Creeper", "Brutal Vine Creeper", ],
 		description: `{c_white}Vine Creeper's{/c} Immobilize duration is increased by {c_yellow}{SF_13}{/c} second.`,
 		maxPoints: 1,
@@ -579,6 +648,7 @@ druid["Companion"] = {
 		y: -382.875,
 	},
 	["Ferocious Vine Creeper"]: {
+		id: 69,
 		connections: [ "Enhanced Vine Creeper", ],
 		description: `{c_white}Vine Creeper's{/c} active poison duration is increased by {c_yellow}{SF_14}{/c} seconds.`,
 		maxPoints: 1,
@@ -586,6 +656,7 @@ druid["Companion"] = {
 		y: -563.9649999999999,
 	},
 	["Brutal Vine Creeper"]: {
+		id: 70,
 		connections: [ "Enhanced Vine Creeper", ],
 		description: `Your chance to Critically Strike is increased by {c_yellow}+[{SF_16}*100]%{/c} against enemies strangled by {c_white}Vine Creeper{/c}.`,
 		maxPoints: 1,
@@ -593,6 +664,7 @@ druid["Companion"] = {
 		y: -566.0699999999999,
 	},
 	["Wolves"]: {
+		id: 71,
 		connections: [ "Companion", "Enhanced Wolf Pack", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:16}%{/c}
@@ -604,6 +676,7 @@ druid["Companion"] = {
 		y: 1.8550000000000182,
 	},
 	["Enhanced Wolf Pack"]: {
+		id: 72,
 		connections: [ "Wolves", "Ferocious Wolf Pack", "Brutal Wolf Pack", ],
 		description: `{c_white}Wolves{/c} deal {c_yellow}x[{SF_13}*100]%{/c} increased damage to Immobilized, Stunned, Slowed, or poisoned enemies.`,
 		maxPoints: 1,
@@ -611,6 +684,7 @@ druid["Companion"] = {
 		y: 2.5850000000000364,
 	},
 	["Ferocious Wolf Pack"]: {
+		id: 73,
 		connections: [ "Enhanced Wolf Pack", ],
 		description: `You deal {c_yellow}x[{SF_12}*100]%{/c} increased damage to your {c_white}Wolves'{/c} focus target.`,
 		maxPoints: 1,
@@ -618,6 +692,7 @@ druid["Companion"] = {
 		y: -73.50499999999988,
 	},
 	["Brutal Wolf Pack"]: {
+		id: 74,
 		connections: [ "Enhanced Wolf Pack", ],
 		description: `Your {c_white}Wolves'{/c} first attack against a focused enemy makes them {c_white}Vulnerable{/c} for {c_yellow}{SF_11}{/c} seconds.`,
 		maxPoints: 1,
@@ -625,6 +700,7 @@ druid["Companion"] = {
 		y: 73.83999999999992,
 	},
 	["Nature's Reach"]: {
+		id: 75,
 		connections: [ "Companion", ],
 		description: `Deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage to Distant enemies.  Double this bonus if they are also Slowed, Stunned, Immobilized, or Knocked Back.`,
 		maxPoints: 3,
@@ -632,6 +708,7 @@ druid["Companion"] = {
 		y: -263.4200000000001,
 	},
 	["Clarity"]: {
+		id: 76,
 		connections: [ "Companion", ],
 		description: `Gain {c_yellow}{SF_0}{/c} Spirit when transforming into Human form.`,
 		maxPoints: 3,
@@ -642,6 +719,7 @@ druid["Companion"] = {
 
 druid["Wrath"] = {
 	["Lycanthropic Speed"]: {
+		id: 77,
 		connections: [ "Wrath", "Toxic Claws", "Neurotoxin", ],
 		description: `While in Werewolf form, your Movement Speed is increased by {c_yellow}[{SF_2} * 100]%{/c}.
 
@@ -651,6 +729,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_SPEED_TEMP}{/c} seconds aft
 		y: 143.57000000000002,
 	},
 	["Toxic Claws"]: {
+		id: 78,
 		connections: [ "Lycanthropic Speed", ],
 		description: `Critical strikes with {c_white}Werewolf{/c} skills deal {c_yellow}[{SF_0} * 100]%{/c} of their base damage as Poison damage over {buffduration:DEBUFF_POISON} seconds.`,
 		maxPoints: 3,
@@ -658,6 +737,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_SPEED_TEMP}{/c} seconds aft
 		y: 123.16,
 	},
 	["Neurotoxin"]: {
+		id: 79,
 		connections: [ "Lycanthropic Speed", ],
 		description: `Poisoned enemies are slowed by {c_yellow}[{SF_0}*100]%{/c}.`,
 		maxPoints: 3,
@@ -665,6 +745,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_SPEED_TEMP}{/c} seconds aft
 		y: 274.21000000000004,
 	},
 	["Elemental Exposure"]: {
+		id: 80,
 		connections: [ "Wrath", "Charged Atmosphere", "Endless Tempest", ],
 		description: `{c_gold}Lucky Hit:{/c} Your {c_white}Storm{/c} skills have up to a {c_yellow}{SF_0}%{/c} chance to make enemies {c_white}Vulnerable{/c} for {c_yellow}[{SF_1}|1|]{/c} seconds.`,
 		maxPoints: 3,
@@ -672,6 +753,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_SPEED_TEMP}{/c} seconds aft
 		y: -294.5745,
 	},
 	["Charged Atmosphere"]: {
+		id: 81,
 		connections: [ "Elemental Exposure", "Electric Shock", "Bad Omen", ],
 		description: `Every {c_yellow}{SF_0}{/c} seconds, a {c_white}Lightning Strike{/c} hits a nearby enemy dealing {c_yellow}{payload:DAMAGE_TOOLTIP}{/c} damage.`,
 		maxPoints: 3,
@@ -679,6 +761,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_SPEED_TEMP}{/c} seconds aft
 		y: -377.84950000000003,
 	},
 	["Electric Shock"]: {
+		id: 82,
 		connections: [ "Charged Atmosphere", "Bad Omen", ],
 		description: `{c_gold}Lucky Hit:{/c} Dealing Lightning damage to enemies has a {c_yellow}{SF_1}%{/c} chance to Immobilize them for {c_yellow}{buffduration:BUFF_IMMOBILIZE}{/c} seconds.
 
@@ -688,6 +771,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		y: -645.395,
 	},
 	["Bad Omen"]: {
+		id: 83,
 		connections: [ "Charged Atmosphere", "Electric Shock", "Endless Tempest", ],
 		description: `{c_gold}Lucky Hit:{/c} Up to a {c_yellow}{SF_0}%{/c} chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a {c_white}Lightning Strike{/c} also hits dealing {c_yellow}{payload:DAMAGE_TOOLTIP_ONLY}{/c} damage.`,
 		maxPoints: 3,
@@ -695,6 +779,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		y: -698.5695,
 	},
 	["Endless Tempest"]: {
+		id: 84,
 		connections: [ "Elemental Exposure", "Bad Omen", ],
 		description: `Increase the duration of {c_white}Hurricane{/c} and {c_white}Cataclysm{/c} by {c_yellow}[{SF_1} * 100]%{/c}.`,
 		maxPoints: 3,
@@ -702,6 +787,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		y: -509.6595,
 	},
 	["Boulder"]: {
+		id: 85,
 		connections: [ "Wrath", "Enhanced Boulder", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -711,6 +797,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		y: -81.88499999999999,
 	},
 	["Enhanced Boulder"]: {
+		id: 86,
 		connections: [ "Boulder", "Natural Boulder", "Savage Boulder", ],
 		description: `Enemies are slowed by {c_yellow}[{SF_22}*100]%{/c} for {c_yellow}{buffduration:BUFF_MOD_SLOW}{/c} seconds after being hit with {c_white}Boulder{/c}.`,
 		maxPoints: 1,
@@ -718,6 +805,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		y: -150.56015,
 	},
 	["Natural Boulder"]: {
+		id: 87,
 		connections: [ "Enhanced Boulder", ],
 		description: `Your {c_white}Basic{/c} skills grant {c_yellow}[{SF_18}*100]%{/c} bonus Spirit while damaging enemies who are Knocked Back by {c_white}Boulder{/c}.`,
 		maxPoints: 1,
@@ -725,6 +813,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		y: -302.4095,
 	},
 	["Savage Boulder"]: {
+		id: 88,
 		connections: [ "Enhanced Boulder", ],
 		description: `The first enemy damaged by {c_white}Boulder{/c} is made {c_white}Vulnerable{/c} for {c_yellow}{SF_19}{/c} seconds.`,
 		maxPoints: 1,
@@ -732,6 +821,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		y: -135.355,
 	},
 	["Trample"]: {
+		id: 89,
 		connections: [ "Wrath", "Enhanced Trample", ],
 		description: `{if:Mod.Spirit}{c_gold}Generates Spirit:{/c} {c_green}{SF_11}{/c}
 {/if}{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
@@ -744,6 +834,7 @@ Enemies who are Knocked Back into terrain take an additional {c_yellow}{payload:
 		y: 180.73999999999998,
 	},
 	["Enhanced Trample"]: {
+		id: 90,
 		connections: [ "Trample", "Natural Trample", "Savage Trample", ],
 		description: `You are {c_white}Unstoppable{/c} during {c_white}Trample{/c}.`,
 		maxPoints: 1,
@@ -751,6 +842,7 @@ Enemies who are Knocked Back into terrain take an additional {c_yellow}{payload:
 		y: 312.29549999999995,
 	},
 	["Natural Trample"]: {
+		id: 91,
 		connections: [ "Enhanced Trample", ],
 		description: `Casting {c_white}Trample{/c} grants {c_yellow}{fortified:MOD_FORTIFY}{/c} {c_white}Fortify{/c}.`,
 		maxPoints: 1,
@@ -758,6 +850,7 @@ Enemies who are Knocked Back into terrain take an additional {c_yellow}{payload:
 		y: 380.89549999999997,
 	},
 	["Savage Trample"]: {
+		id: 92,
 		connections: [ "Enhanced Trample", ],
 		description: `Casting {c_white}Trample{/c} grants {c_yellow}{SF_11}{/c} Spirit.`,
 		maxPoints: 1,
@@ -765,6 +858,7 @@ Enemies who are Knocked Back into terrain take an additional {c_yellow}{payload:
 		y: 471.43049999999994,
 	},
 	["Crushing Earth"]: {
+		id: 93,
 		connections: [ "Wrath", "Safeguard", "Stone Guard", ],
 		description: `{c_white}Earth{/c} skills deal {c_yellow}x[{SF_1} * 100]%{/c} increased damage to Slowed, Stunned, Immobilized or Knocked Back enemies.`,
 		maxPoints: 3,
@@ -772,6 +866,7 @@ Enemies who are Knocked Back into terrain take an additional {c_yellow}{payload:
 		y: 97.48999999999998,
 	},
 	["Safeguard"]: {
+		id: 94,
 		connections: [ "Crushing Earth", ],
 		description: `Critical Strikes with {c_white}Earth{/c} skills {c_white}Fortifies{/c} you for {c_yellow}{fortified:PAYLOAD_FORTIFY}{/c}.`,
 		maxPoints: 3,
@@ -779,6 +874,7 @@ Enemies who are Knocked Back into terrain take an additional {c_yellow}{payload:
 		y: 275.51,
 	},
 	["Stone Guard"]: {
+		id: 95,
 		connections: [ "Crushing Earth", ],
 		description: `While {c_white}Fortified{/c} over [{SF_1}*100]% of your maximum Life, your {c_white}Earth{/c} skills deal  {c_yellow}x[{SF_0} * 100]%{/c} increased damage.`,
 		maxPoints: 3,
@@ -786,6 +882,7 @@ Enemies who are Knocked Back into terrain take an additional {c_yellow}{payload:
 		y: 79.22999999999999,
 	},
 	["Iron Fur"]: {
+		id: 96,
 		connections: [ "Wrath", "Mending", "Provocation", ],
 		description: `While in Werebear form, damage reduction is increased by {c_yellow}[{SF_2} * 100]%{/c}.
 
@@ -795,6 +892,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_MITIGATION_TEMP}{/c} second
 		y: 358.05549999999994,
 	},
 	["Mending"]: {
+		id: 97,
 		connections: [ "Iron Fur", ],
 		description: `While in Werebear form, you receive {c_yellow}[{SF_0} * 100]%{/c} additional healing from all sources.`,
 		maxPoints: 3,
@@ -802,6 +900,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_MITIGATION_TEMP}{/c} second
 		y: 556.8505,
 	},
 	["Provocation"]: {
+		id: 98,
 		connections: [ "Iron Fur", ],
 		description: `Your next {c_white}Werebear{/c} skill every {c_yellow}{SF_0}{/c} seconds is guaranteed to {c_white}Overpower{/c}.`,
 		maxPoints: 3,
@@ -809,6 +908,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_MITIGATION_TEMP}{/c} second
 		y: 567.9205,
 	},
 	["Hurricane"]: {
+		id: 99,
 		connections: [ "Wrath", "Enhanced Hurricane", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
@@ -818,6 +918,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_MITIGATION_TEMP}{/c} second
 		y: -268.023,
 	},
 	["Enhanced Hurricane"]: {
+		id: 100,
 		connections: [ "Hurricane", "Natural Hurricane", "Savage Hurricane", ],
 		description: `Enemies who are damaged by {c_white}Hurricane{/c} are Slowed by {c_yellow}[{SF_12}*100]%{/c} for {c_yellow}{buffduration:MOD_SLOW}{/c} seconds.`,
 		maxPoints: 1,
@@ -825,6 +926,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_MITIGATION_TEMP}{/c} second
 		y: -454.76800000000003,
 	},
 	["Natural Hurricane"]: {
+		id: 101,
 		connections: [ "Enhanced Hurricane", ],
 		description: `{c_white}Hurricane{/c} has a {c_yellow}[{SF_9} * 100]%{/c} chance to make enemies {c_white}Vulnerable{/c} for {c_yellow}{SF_10}{/c} seconds.`,
 		maxPoints: 1,
@@ -832,6 +934,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_MITIGATION_TEMP}{/c} second
 		y: -639.983,
 	},
 	["Savage Hurricane"]: {
+		id: 102,
 		connections: [ "Enhanced Hurricane", ],
 		description: `Enemies who are in {c_white}Hurricane's{/c} radius have their damage reduced by {c_yellow}[{SF_11}*100]%{/c}.`,
 		maxPoints: 1,
@@ -839,6 +942,7 @@ This bonus persists for {c_yellow}{buffduration:BUFF_MITIGATION_TEMP}{/c} second
 		y: -597.1129999999999,
 	},
 	["Rabies"]: {
+		id: 103,
 		connections: [ "Wrath", "Enhanced Rabies", ],
 		description: `{if:SF_13}{c_gold}Recharge:{/c_gold} {c_green}[{Recharge Time}|1|]{/c} seconds{else}{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green}{/if}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
@@ -850,6 +954,7 @@ Infected enemies spread {c_white}Rabies{/c} to other nearby targets.`,
 		y: 186.69500000000002,
 	},
 	["Enhanced Rabies"]: {
+		id: 104,
 		connections: [ "Rabies", "Natural Rabies", "Savage Rabies", ],
 		description: `Once {c_white}Rabies{/c} infects {c_yellow}{SF_14}{/c} targets, it deals {c_yellow}x[{SF_15}*100]%{/c} increased Poison damage against all targets.`,
 		maxPoints: 1,
@@ -857,6 +962,7 @@ Infected enemies spread {c_white}Rabies{/c} to other nearby targets.`,
 		y: 333.44049999999993,
 	},
 	["Natural Rabies"]: {
+		id: 105,
 		connections: [ "Enhanced Rabies", ],
 		description: `The initial bite of {c_white}Rabies{/c} heals you for {c_yellow}[{SF_3}*100]%{/c} of your maximum Life.`,
 		maxPoints: 1,
@@ -864,6 +970,7 @@ Infected enemies spread {c_white}Rabies{/c} to other nearby targets.`,
 		y: 515.5554999999999,
 	},
 	["Savage Rabies"]: {
+		id: 106,
 		connections: [ "Enhanced Rabies", ],
 		description: `The initial bite of {c_white}Rabies{/c} deals {c_yellow}x[{SF_4}*100]%{/c} increased damage against enemies who are Immobilized or Stunned.`,
 		maxPoints: 1,
@@ -874,6 +981,7 @@ Infected enemies spread {c_white}Rabies{/c} to other nearby targets.`,
 
 druid["Ultimate"] = {
 	["Grizzly Rage"]: {
+		id: 107,
 		connections: [ "Ultimate", "Prime Grizzly Rage", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 Shapeshift into {if:Mod.Upgrade1}an {c_white}Unstoppable{/c}{else}a{/if} Dire Werebear for {c_yellow}{buffduration:BUFF_MAIN_BEAR}{/c} seconds gaining {c_yellow}x[{SF_10}*100]%{/c} bonus damage and {c_yellow}x[{SF_11}*100]%{/c} damage reduction{/if}. Damage bonus is increased by {c_yellow}+[{SF_15}*100]%{/c} each second while in this form.
@@ -886,6 +994,7 @@ Casting {c_white}Grizzly Rage{/c} causes nearby enemies to take {c_yellow}{paylo
 		y: 63.60499999999996,
 	},
 	["Prime Grizzly Rage"]: {
+		id: 108,
 		connections: [ "Supreme Grizzly Rage", "Grizzly Rage", ],
 		description: `You are {c_white}Unstoppable{/c} while {c_white}Grizzly Rage{/c} is active.`,
 		maxPoints: 1,
@@ -893,6 +1002,7 @@ Casting {c_white}Grizzly Rage{/c} causes nearby enemies to take {c_yellow}{paylo
 		y: 96.38,
 	},
 	["Supreme Grizzly Rage"]: {
+		id: 109,
 		connections: [ "Prime Grizzly Rage", ],
 		description: `Gain {c_yellow}{fortified:MOD_2_FORTIFY_PER_SECOND}{/c} {c_white}Fortified{/c} Life per second while {c_white}Grizzly Rage{/c} is active.`,
 		maxPoints: 1,
@@ -900,6 +1010,7 @@ Casting {c_white}Grizzly Rage{/c} causes nearby enemies to take {c_yellow}{paylo
 		y: 266.63,
 	},
 	["Petrify"]: {
+		id: 110,
 		connections: [ "Ultimate", "Prime Petrify", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRIFIED}{/c} seconds. You deal {c_yellow}x[{SF_2}*100]%{/c} increased Critical Strike Damage to Petrified enemies.`,
@@ -908,6 +1019,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -196.23237,
 	},
 	["Prime Petrify"]: {
+		id: 111,
 		connections: [ "Supreme Petrify", "Petrify", ],
 		description: `{c_white}Petrify's{/c} duration is increased by {c_yellow}{SF_6}{/c} second.`,
 		maxPoints: 1,
@@ -915,6 +1027,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -377.6595,
 	},
 	["Supreme Petrify"]: {
+		id: 112,
 		connections: [ "Prime Petrify", ],
 		description: `Killing a {c_white}Petrified{/c} enemy grants {c_yellow}{SF_5}{/c} Spirit.`,
 		maxPoints: 1,
@@ -922,6 +1035,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -520.9795,
 	},
 	["Defensive Posture"]: {
+		id: 113,
 		connections: [ "Ultimate", "Thick Hide", "Nature's Resolve", ],
 		description: `Increases the amount of {c_white}Fortify{/c} you gain from all sources by {c_yellow}[{SF_0} * 100]%{/c}.`,
 		maxPoints: 3,
@@ -929,6 +1043,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -116.35500000000002,
 	},
 	["Thick Hide"]: {
+		id: 114,
 		connections: [ "Unrestrained", "Defensive Posture", ],
 		description: `Whenever you are Stunned, Immobilized, or Knocked Down, {c_white}Fortify{/c} for {c_yellow}{fortified:PAYLOAD_FORTIFY}{/c}.`,
 		maxPoints: 3,
@@ -936,6 +1051,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -322.6245,
 	},
 	["Unrestrained"]: {
+		id: 115,
 		connections: [ "Thick Hide", "Nature's Resolve", ],
 		description: `Reduce the duration of control impairing effects by {c_yellow}[{SF_0} * 100]%{/c}.  Triple this effect while you are {c_white}Fortified{/c} for over {c_yellow}[{SF_2}*100]%{/c} of your maximum Life.`,
 		maxPoints: 3,
@@ -943,6 +1059,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -229.58735000000001,
 	},
 	["Nature's Resolve"]: {
+		id: 116,
 		connections: [ "Unrestrained", "Defensive Posture", ],
 		description: `{c_yellow}[{SF_0}*100]%{/c} chance when struck to Fortify you for {c_yellow}{Fortified:FORTIFY_HEALTH}{/c}.`,
 		maxPoints: 3,
@@ -950,6 +1067,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -13.340000000000003,
 	},
 	["Quickshift"]: {
+		id: 117,
 		connections: [ "Ultimate", "Natural Fortitude", "Heightened Senses", ],
 		description: `When a {c_white}Shapeshifting{/c} skill transforms you into a different form, it deals {c_yellow}x[{SF_1} * 100]%{/c} increased damage.`,
 		maxPoints: 3,
@@ -957,6 +1075,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: 287.59,
 	},
 	["Natural Fortitude"]: {
+		id: 118,
 		connections: [ "Quickshift", ],
 		description: `Shapeshifting {c_white}Fortifies{/c} you for {c_yellow}{fortified:FORTIFY_CASTER}{/c}.`,
 		maxPoints: 3,
@@ -964,6 +1083,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: 457.65749999999997,
 	},
 	["Heightened Senses"]: {
+		id: 119,
 		connections: [ "Quickshift", ],
 		description: `Upon shapeshifting into a Werewolf or Werebear, gain {c_yellow}[{SF_0} * 100]%{/c} damage reduction against Elites for {c_yellow}{buffduration:BUFF_DAMAGE_REDUCTION}{/c} seconds.`,
 		maxPoints: 3,
@@ -971,6 +1091,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: 366.08750000000003,
 	},
 	["Lacerate"]: {
+		id: 120,
 		connections: [ "Ultimate", "Prime Lacerate", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}[{Combat Effect Chance}]%{/c}
@@ -980,6 +1101,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: 234.91499999999996,
 	},
 	["Prime Lacerate"]: {
+		id: 121,
 		connections: [ "Supreme Lacerate", "Lacerate", ],
 		description: `Each time {c_white}Lacerate{/c} deals a Critical Strike, heal for {c_yellow}[{SF_14}*100]%{/c} of your maximum Life.`,
 		maxPoints: 1,
@@ -987,6 +1109,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: 412.83250000000004,
 	},
 	["Supreme Lacerate"]: {
+		id: 122,
 		connections: [ "Prime Lacerate", ],
 		description: `{c_white}Lacerate's{/c} final strike deals {c_yellow}x[{SF_15}*100]%{/c} increased damage.`,
 		maxPoints: 1,
@@ -994,6 +1117,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: 540.7825,
 	},
 	["Cataclysm"]: {
+		id: 123,
 		connections: [ "Ultimate", "Prime Cataclysm", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:28}%{/c}
@@ -1003,6 +1127,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -109.56000000000002,
 	},
 	["Prime Cataclysm"]: {
+		id: 124,
 		connections: [ "Supreme Cataclysm", "Cataclysm", ],
 		description: `{c_white}Cataclysm's{/c} duration is increased by {c_yellow}{SF_23}{/c} seconds.`,
 		maxPoints: 1,
@@ -1010,6 +1135,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -256.89250000000004,
 	},
 	["Supreme Cataclysm"]: {
+		id: 125,
 		connections: [ "Prime Cataclysm", ],
 		description: `Lightning strikes from {c_white}Cataclysm{/c} make enemies {c_white}Vulnerable{/c} for {c_yellow}2{/c} seconds.`,
 		maxPoints: 1,
@@ -1017,6 +1143,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -418.923,
 	},
 	["Defiance"]: {
+		id: 126,
 		connections: [ "Ultimate", "Circle of Life", "Natural Disaster", ],
 		description: `{c_white}Nature Magic{/c} skills deal {c_yellow}x[{SF_0}*100]%{/c} increased damage to Elites.`,
 		maxPoints: 3,
@@ -1024,6 +1151,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -290.3105,
 	},
 	["Circle of Life"]: {
+		id: 127,
 		connections: [ "Defiance", "Resonance", ],
 		description: `{c_white}Nature Magic{/c} skills that consume Spirit restore {c_yellow}[{Script Formula 1} * 100]%{/c} of your maximum Life.`,
 		maxPoints: 3,
@@ -1031,6 +1159,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -446.596,
 	},
 	["Resonance"]: {
+		id: 128,
 		connections: [ "Natural Disaster", "Circle of Life", ],
 		description: `{c_white}Nature Magic{/c} skills deal {c_yellow}x[{SF_1} * 100]%{/c} increased damage. Triple this bonus if an {c_white}Earth{/c} skill is the next skill cast after a {c_white}Storm{/c} skill, or a  {c_white}Storm{/c} skill is the next skill cast after an  {c_white}Earth{/c} skill.`,
 		maxPoints: 3,
@@ -1038,6 +1167,7 @@ Petrify all nearby enemies, Stunning them for {c_yellow}{buffduration:BUFF_PETRI
 		y: -653.792,
 	},
 	["Natural Disaster"]: {
+		id: 129,
 		connections: [ "Defiance", "Resonance", ],
 		description: `Your {c_white}Earth{/c} skills deal {c_yellow}x[{SF_1}*100]%{/c} increased damage to {c_white}Vulnerable{/c} enemies.
 
@@ -1050,6 +1180,7 @@ Your {c_white}Storm{/c} skills deal {c_yellow}x[{SF_4}*100]%{/c} increased damag
 
 druid["Capstone"] = {
 	["Nature's Fury"]: {
+		id: 130,
 		connections: [ "Capstone", ],
 		description: `Casting an {c_white}Earth{/c} skill has a {c_yellow}{SF_0}%{/c} chance to trigger a free {c_white}Storm{/c} skill of the same category. 
 
@@ -1059,6 +1190,7 @@ In addition, casting a {c_white}Storm{/c} skill has a {c_yellow}{SF_0}%{/c} chan
 		y: 367.52,
 	},
 	["Earthen Might"]: {
+		id: 131,
 		connections: [ "Capstone", ],
 		description: `{c_gold}Lucky Hit:{/c} Damaging enemies with {c_white}Earth{/c} skills has up to a {c_yellow}{SF_0}%{/c} chance to grant Earthen Might.
 
@@ -1070,6 +1202,7 @@ Earthen Might restores all of your Spirit & grants you {c_yellow}[{SF_1} * 100]%
 		y: 368.0049999999999,
 	},
 	["Lupine Ferocity"]: {
+		id: 132,
 		connections: [ "Capstone", ],
 		description: `Every 6th {c_white}Werewolf{/c} skill hit Critically Strikes and deals {c_yellow}x[{SF_0}*100]%{/c} increased damage.`,
 		maxPoints: 1,
@@ -1077,6 +1210,7 @@ Earthen Might restores all of your Spirit & grants you {c_yellow}[{SF_1} * 100]%
 		y: 366.4549999999999,
 	},
 	["Bestial Rampage"]: {
+		id: 133,
 		connections: [ "Capstone", ],
 		description: `After being a Werewolf for {c_yellow}{buffduration:TIMER_WOLF}{/c} seconds, gain {c_yellow}[{SF_1} * 100]%{/c} Attack Speed for {c_yellow}{buffduration:BUFF_ATTACK_SPEED}{/c} seconds. 
 
@@ -1086,6 +1220,7 @@ After being a Werebear for {c_yellow}{buffduration:TIMER_BEAR}{/c} seconds, deal
 		y: 365.8499999999999,
 	},
 	["Perfect Storm"]: {
+		id: 134,
 		connections: [ "Capstone", ],
 		description: `Your {c_white}Storm{/c} skills grant {c_yellow}{SF_4}{/c} Spirit and deal {c_yellow}x[{SF_1} * 100]%{/c} increased damage when damaging a {c_white}Vulnerable{/c}, immobilized or slowed enemy.`,
 		maxPoints: 1,
@@ -1093,6 +1228,7 @@ After being a Werebear for {c_yellow}{buffduration:TIMER_BEAR}{/c} seconds, deal
 		y: 367.865,
 	},
 	["Ursine Strength"]: {
+		id: 135,
 		connections: [ "Capstone", ],
 		description: `Gain {c_yellow}[{SF_0} * 100]%{/c} additional maximum Life while in Werebear form and for {c_yellow}{buffduration:BONUS_MAX_HEALTH}{/c} seconds after leaving Werebear form.
 
