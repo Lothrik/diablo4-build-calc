@@ -753,24 +753,21 @@ function drawAllNodes() {
 }
 function sanitizeNodeDescription(descriptionText) {
 	let sanitizedText = descriptionText
-		.replace(/{c_[^}]*}/g, "")				// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
-		.replace(/{\/c_[^}]*}/g, "")			// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
+		.replace(/{c_.+?}/g, "")				// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
+		.replace(/{\/c_.+?}/g, "")				// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
 		.replace(/{\/c}/g, "")					// `{/c}`, exact.
-		.replace(/{if:[^}]*}/g, "")				// `{if:ADVANCED_TOOLTIP}`, and similar.
+		.replace(/{if:.+?}/g, "")				// `{if:ADVANCED_TOOLTIP}`, and similar.
 		.replace(/{\/if}/g, "")					// `{/if}`, exact.
 		.replace(/sLevel/g, "")					// `sLevel`, exact.
 		.replace(/4second\.:/g, "")				// `4second.:`, exact.
-		.replace(/ *\[ */g, "")					// `[`, including any nearby whitespace.
 		.replace(/ *\* */g, "")					// `*`, including any nearby whitespace.
 		.replace(/ *\| */g, "")					// `|`, including any nearby whitespace.
-		.replace(/SF_?/g, "")					// `SF_`, with or without the underscore.
-		.replace(/[0-9]+\]/g, "")				// `100]`, etc.
 		.replace(/{else}/g, "\n")				// Replace `{else}` with a newline.
-		.replace(/ *{[^}]+ *}/g, "{#}")			// Replace anything inside curly brackets with {#}.
-		.replace(/{[^}]*}{[^}]*}/g, "{#}")		// Replace {#}{#} with {#}.
-		.replace(/([^x+ ]+){#}/g, "$1 {#}")		// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of {#}.
-		.replace(/{#}([a-zA-Z]+)/g, "{#} $1")	// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of {#}.
-		.replace(/([a-zA-Z]+)%/g, "$1 {#}%");	// If a letter is directly adjacent to a `%` symbol, a script formula value was pruned erronously -- so add it back.
+		.replace(/ *{.+?} */g, "{#}")			// Replace anything inside curly brackets with {#}.
+		.replace(/ *\[.+?\] */g, "{#}")			// Replace anything inside square brackets with {#}.
+		.replace(/{.+?}{.+?}/g, "{#}")			// Replace {#}{#} with {#}.
+		.replace(/([^x+ ]+?){#}/g, "$1 {#}")	// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of {#}.
+		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1");	// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of {#}.
 
 	return sanitizedText;
 }
