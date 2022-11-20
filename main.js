@@ -730,7 +730,9 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/ *{[^}]+ *}/g, "{#}")			// Replace anything inside curly brackets with {#}.
 		.replace(/{[^}]*}{[^}]*}/g, "{#}")		// Replace {#}{#} with {#}.
 		.replace(/([^x+ ]+){#}/g, "$1 {#}")		// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of {#}.
-		.replace(/{#}([a-zA-Z]+)/g, "{#} $1");	// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of {#}.
+		.replace(/{#}([a-zA-Z]+)/g, "{#} $1")	// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of {#}.
+		.replace(/([a-zA-Z]+)%/g, "$1 {#}%");	// If a letter is directly adjacent to a `%` symbol, a script formula value was pruned erronously -- so add it back.
+
 	return sanitizedText;
 }
 function drawTooltip(curNode) {
