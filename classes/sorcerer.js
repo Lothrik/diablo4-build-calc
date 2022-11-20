@@ -821,7 +821,7 @@ sorcerer["Mastery"] = {
 
 sorcerer["Ultimate"] = {
 	["Inferno"]: {
-		connections: [ "Ultimate", "Upgrade 1", ],
+		connections: [ "Ultimate", "Prime Inferno", ],
 		description: `{c_gold}Cooldown: {/c}{c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}[{Combat Effect Chance}*2]%{/c}
 {/if}Ignite a roaring inferno that pulses in and out of the target area, Burning enemies for {c_yellow}{payload:TOOLTIP_TOTAL_DAMAGE}{/c} damage over {c_yellow}{SF_5}{/c} seconds, and then explodes, dealing {c_yellow}{payload:FINAL_EXPLOSION_DAMAGE}{/c} damage to enemies on the outer edge.`,
@@ -830,7 +830,7 @@ sorcerer["Ultimate"] = {
 		y: -144.18580000000003,
 	},
 	["Prime Inferno"]: {
-		connections: [ "Inferno", "Upgrade 2", ],
+		connections: [ "Inferno", "Supreme Inferno", ],
 		description: `Enemies inside of Inferno's final explosion are Immobilized for {c_yellow}{buffduration:IMMOBILIZE}{/c} seconds.`,
 		maxPoints: 1,
 		x: 490.79999999999995,
@@ -852,7 +852,7 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		y: 150.59570000000002,
 	},
 	["Prime Unstable Currents"]: {
-		connections: [ "Unstable Currents", ],
+		connections: [ "Unstable Currents", "Supreme Unstable Currents", ],
 		description: `Unstable Currents increases Attack Speed by {c_yellow}[{SF_1} * 100]%{/c} while active.`,
 		maxPoints: 1,
 		x: 558.53,
