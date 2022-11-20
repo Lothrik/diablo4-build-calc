@@ -255,7 +255,7 @@ function handleSaveButton(event) {
 }
 function handleReloadButton() {
 	const urlData = window.location.href.split("#");
-	if (urlData[1] != undefined) {
+	if (urlData[1] != undefined && urlData[1].length > 0) {
 		const jsonData = LZString.decompressFromEncodedURIComponent(urlData[1]);
 		const nodeData = JSON.parse(jsonData);
 
