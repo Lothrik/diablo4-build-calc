@@ -183,7 +183,7 @@ function handleSkillTreeZoom(event) {
 				event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY)
 				* initialScale / initialTouchDistance;
 		}
-		if (newScale >= 0.5 && newScale <= 2) {
+		if (newScale >= (1 / 3) && newScale <= 2) {
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
