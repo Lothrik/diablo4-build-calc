@@ -726,6 +726,7 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/ *\| */g, "")					// `|`, including any nearby whitespace.
 		.replace(/SF_?/g, "")					// `SF_`, with or without the underscore.
 		.replace(/[0-9]+\]/g, "")				// `100]`, etc.
+		.replace(/{else}/g, "\n")				// Replace `{else}` with a newline.
 		.replace(/ *{[^}]+ *}/g, "{#}")			// Replace anything inside curly brackets with {#}.
 		.replace(/{[^}]*}{[^}]*}/g, "{#}")		// Replace {#}{#} with {#}.
 		.replace(/([^x+ ]+){#}/g, "$1 {#}")		// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of {#}.
