@@ -2,7 +2,7 @@ import { barbarian } from "./classes/barbarian.js";
 import { druid } from "./classes/druid.js";
 import { necromancer } from "./classes/necromancer.js";
 import { rogue } from "./classes/rogue.js";
-import { sorceress } from "./classes/sorceress.js";
+import { sorcerer } from "./classes/sorcerer.js";
 
 // splitMulti allows String.prototype.split to process multiple delimiters at once
 function splitMulti(str, tokens) {
@@ -62,7 +62,7 @@ function rgba2hex (rgba) {
 }
 
 // construct a nested map of all class data
-const classObj = { barbarian, druid, necromancer, rogue, sorceress };
+const classObj = { barbarian, druid, necromancer, rogue, sorcerer };
 var classMap = new Map();
 populateMap(classMap, classObj, Object.keys(classObj));
 
