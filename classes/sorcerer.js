@@ -829,15 +829,15 @@ sorcerer["Ultimate"] = {
 		x: 318.105,
 		y: -144.18580000000003,
 	},
-	["Upgrade 1"]: {
+	["Prime Inferno"]: {
 		connections: [ "Inferno", "Upgrade 2", ],
 		description: `Enemies inside of Inferno's final explosion are Immobilized for {c_yellow}{buffduration:IMMOBILIZE}{/c} seconds.`,
 		maxPoints: 1,
 		x: 490.79999999999995,
 		y: -293.3353,
 	},
-	["Upgrade 2"]: {
-		connections: [ "Upgrade 1", ],
+	["Supreme Inferno"]: {
+		connections: [ "Prime Inferno", ],
 		description: `Killing a Burning enemy reduces Inferno's cooldown by {c_yellow}{SF_14}{/c} second.`,
 		maxPoints: 1,
 		x: 792.4950000000001,
