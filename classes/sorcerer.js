@@ -858,8 +858,8 @@ Lightning surges within you for {c_yellow}{buffduration:CURRENTS_ACTIVE}{/c} sec
 		x: 558.53,
 		y: 247.6427,
 	},
-	["Prime Unstable Currents"]: {
-		connections: [ "Ultimate", ],
+	["Supreme Unstable Currents"]: {
+		connections: [ "Prime Unstable Currents", ],
 		description: `While Unstable Currents is active, collecting {c_white}Crackling Energy{/c} increases its duration by {c_yellow}[{SF_4}|2|]{/c} seconds.`,
 		maxPoints: 3,
 		x: 615.31,
