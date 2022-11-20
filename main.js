@@ -93,7 +93,6 @@ const lineStyleThinButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native:
 const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 4 };
 const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: false, width: 4 };
 
-
 // pixiJS application helper
 PIXI.settings.RESOLUTION = devicePixelRatio;
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
@@ -109,6 +108,7 @@ const pixiJS = new PIXI.Application({
 var pixiAllocatedPoints = new Map();
 var pixiNodes = [];
 var pixiConnectors = [];
+var pixiConnectorPairs = [];
 
 var pixiBackground;
 var pixiTooltip;
@@ -392,16 +392,42 @@ function updateCharacterLevel() {
 	$("#charLevel").text(charLevel);
 	$("#renownLevel").text(renownLevel > 0 ? " (Renown " + renownLevel + ")" : "");
 }
+function updateGroupConnector(groupConnector) {
+	const requiredPointsStart = groupConnector.startNode.nodeData.get("requiredPoints");
+	const requiredPointsEnd = groupConnector.endNode.nodeData.get("requiredPoints");
+	const validConnection = requiredPointsStart <= getAllocatedSkillPoints(groupConnector.startNode.nodeName) && requiredPointsEnd <= getAllocatedSkillPoints(groupConnector.endNode.nodeName);
+	if (validConnection) {
+		groupConnector.updateLineStyle(lineStyleThickButt);
+	} else {
+		groupConnector.updateLineStyle(lineStyleThinButt);
+	}
+}
 function updateNodePoints(curNode, newPoints) {
+	if (curNode.nodeData.get("allocatedPoints") == 0 && newPoints == 0) return;
+
 	curNode.nodeData.set("allocatedPoints", newPoints);
 	curNode.children[2].text = newPoints + "/" + curNode.nodeData.get("maxPoints");
 
 	if (newPoints > 0) {
 		curNode.children[5].updateLineStyle(lineStyleThickSquare);
-		pixiConnectors.find(connector => connector.nodeName == curNode.nodeName).updateLineStyle(lineStyleThickButt);
+		pixiConnectors.filter(connector => {
+			if (connector.startNode.groupName == undefined && connector.endNode.groupName == undefined) {
+				updateGroupConnector(connector);
+			} else if ((connector.startNode == curNode || connector.endNode == curNode)
+				&& (connector.startNode.groupName == undefined || connector.startNode.nodeData.get("allocatedPoints") > 0)
+				&& (connector.endNode.groupName == undefined || connector.endNode.nodeData.get("allocatedPoints") > 0)) {
+				connector.updateLineStyle(lineStyleThickButt);
+			}
+		});
 	} else {
 		curNode.children[5].updateLineStyle(lineStyleThinSquare);
-		pixiConnectors.find(connector => connector.nodeName == curNode.nodeName).updateLineStyle(lineStyleThinButt);
+		pixiConnectors.filter(connector => {
+			if (connector.startNode.groupName == undefined && connector.endNode.groupName == undefined) {
+				updateGroupConnector(connector);
+			} else if (connector.startNode == curNode || connector.endNode == curNode) {
+				connector.updateLineStyle(lineStyleThinButt);
+			}
+		});
 	}
 
 	const className = $(classString).val();
@@ -494,31 +520,44 @@ function getAllocatedSkillPoints(groupName) {
 
 	return points;
 }
+const MAX_RECURSION_DEPTH = 2;
+function recursivePathValidation(startNode, recursionDepth = 0) {
+	for (const pixiNode of pixiNodes) {
+		if (pixiNode.nodeName == startNode) {
+			if (pixiNode.groupName == undefined) {
+				return pixiNode.nodeData.get("requiredPoints") <= getAllocatedSkillPoints(pixiNode.nodeName);
+			} else if (pixiNode.nodeData.get("allocatedPoints") > 0) {
+				if (recursionDepth < MAX_RECURSION_DEPTH) {
+					const nodeConnections = pixiNode.nodeData.get("connections");
+					if (nodeConnections != undefined) {
+						for (const connectedNode of nodeConnections.values()) {
+							if (recursivePathValidation(connectedNode, recursionDepth + 1)) {
+								return true;
+							}
+						}
+					}
+				}
+			}
+			return false;
+		}
+	}
+	return false;
+}
 function validateAllDependentNodes() {
-	for (const childNode of pixiNodes) {
-		const nodeConnections = childNode.nodeData.get("connections");
+	for (const pixiNode of pixiNodes) {
+		const nodeConnections = pixiNode.nodeData.get("connections");
 		if (nodeConnections != undefined) {
 			let validConnection = false;
 			for (const connectedNode of nodeConnections.values()) {
-				for (const parentNode of pixiNodes) {
-					if (parentNode.nodeName == connectedNode) {
-						if (parentNode.groupName == undefined) {
-							const requiredPoints = parentNode.nodeData.get("requiredPoints");
-							validConnection = requiredPoints <= getAllocatedSkillPoints(parentNode.nodeName);
-						} else {
-							validConnection = parentNode.nodeData.get("allocatedPoints") > 0;
-						}
-						break;
-					}
-				}
+				validConnection = recursivePathValidation(connectedNode);
 				if (validConnection) break;
 			}
 			if (!validConnection) {
-				const allocatedPoints = childNode.nodeData.get("allocatedPoints");
-				const maxPoints = childNode.nodeData.get("maxPoints");
+				const allocatedPoints = pixiNode.nodeData.get("allocatedPoints");
+				const maxPoints = pixiNode.nodeData.get("maxPoints");
 
-				pixiAllocatedPoints.set(childNode.groupName, pixiAllocatedPoints.get(childNode.groupName) - allocatedPoints);
-				updateNodePoints(childNode, 0);
+				pixiAllocatedPoints.set(pixiNode.groupName, pixiAllocatedPoints.get(pixiNode.groupName) - allocatedPoints);
+				updateNodePoints(pixiNode, 0);
 			}
 		}
 	}
@@ -889,20 +928,17 @@ function drawConnector(startNode, endNode) {
 	const connector = new PIXI.Graphics();
 	connector.zIndex = -1;
 
-	if (startNode.groupName == undefined) {
-		const requiredPoints = startNode.nodeData.get("requiredPoints");
-		const validConnection = requiredPoints <= getAllocatedSkillPoints(startNode.nodeName);
-		if (validConnection) {
-			connector.lineStyle(lineStyleThickButt);
-		} else {
-			connector.lineStyle(lineStyleThinButt);
-		}
+	const connectorPair = startNode.nodeName < endNode.nodeName ? endNode.nodeName + " / " + startNode.nodeName : startNode.nodeName + " / " + endNode.nodeName;
+	if (pixiConnectorPairs[connectorPair]) {
+		return;
 	} else {
-		if (startNode.nodeData.get("allocatedPoints") > 0) {
-			connector.lineStyle(lineStyleThickButt);
-		} else {
-			connector.lineStyle(lineStyleThinButt);
-		}
+		pixiConnectorPairs[connectorPair] = true;
+	}
+
+	if (startNode.nodeData.get("allocatedPoints") > 0) {
+		connector.lineStyle(lineStyleThickButt);
+	} else {
+		connector.lineStyle(lineStyleThinButt);
 	}
 
 	let startX = startNode.x;
@@ -939,7 +975,8 @@ function drawConnector(startNode, endNode) {
 	connector.moveTo(newStartX, newStartY);
 	connector.lineTo(newEndX, newEndY);
 
-	connector.nodeName = startNode.nodeName;
+	connector.startNode = startNode;
+	connector.endNode = endNode;
 
 	pixiConnectors.push(pixiJS.stage.addChild(connector));
 }
@@ -1019,6 +1056,7 @@ function rebuildCanvas() {
 	pixiAllocatedPoints = new Map();
 	pixiNodes = [];
 	pixiConnectors = [];
+	pixiConnectorPairs = [];
 
 	pixiTooltip = null;
 	pixiDragging = null;

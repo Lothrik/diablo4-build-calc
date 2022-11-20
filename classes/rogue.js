@@ -45,7 +45,7 @@ rogue["Trunk Data"] = {
 
 rogue["Basic"] = {
 	["Blade Shift"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Blade Shift", ],
 		description: `{if:SF_11}{c_gold}Generate Combo Point:{/c} {c_green}{SF_10}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Stab your victim for {c_yellow}{payload:IMPACT}{/c} damage and use their vitality to shift, allowing you to move freely through enemies for {c_yellow}{buffduration:MOVE_FREELY}{/c} seconds.`,
@@ -54,7 +54,7 @@ rogue["Basic"] = {
 		y: -99.39000000000033,
 	},
 	["Enhanced Blade Shift"]: {
-		connections: [ "Blade Shift", ],
+		connections: [ "Fundamental Blade Shift", "Blade Shift", "Primary Blade Shift", ],
 		description: `Gain {c_yellow}+[{SF_8}*100]%{/c} Movement Speed while {c_white}Blade Shift{/c} is active.`,
 		maxPoints: 3,
 		x: -689.420725,
@@ -75,7 +75,7 @@ rogue["Basic"] = {
 		y: -206.2800000000002,
 	},
 	["Invigorating Strike"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Invigorating Strike", ],
 		description: `{if:SF_11}{c_gold}Generate Combo Point:{/c} {c_green}{SF_10}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Melee attack an enemy, dealing {c_yellow}{payload:IMPACT}{/c} damage and increasing Energy Regeneration by {c_yellow}x[{SF_4}*100]%{/c} for {c_yellow}{buffduration:ENERGY_REGEN}{/c} seconds.`,
@@ -84,7 +84,7 @@ rogue["Basic"] = {
 		y: 145.91999999999962,
 	},
 	["Enhanced Invigorating Strike"]: {
-		connections: [ "Invigorating Strike", ],
+		connections: [ "Invigorating Strike", "Fundamental Invigorating Strike", "Primary Invigorating Strike", ],
 		description: `Damaging a Crowd Controlled enemy with {c_white}Invigorating Strike's{/c} increases its Energy Regeneration bonus by {c_yellow}+[{SF_6}*100]%{/c}.`,
 		maxPoints: 3,
 		x: -600.260725,
@@ -105,7 +105,7 @@ rogue["Basic"] = {
 		y: 461.2449999999999,
 	},
 	["Puncture"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Puncture", ],
 		description: `{if:SF_13}{c_gold}Generate Combo Point:{/c} {c_green}1{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Throw your blades, dealing {c_yellow}{payload:IMPACT}{/c} damage and Slowing enemies by {c_yellow}[{SF_15}*100]%{/c} for {c_yellow}{buffduration:SLOW}{/c} seconds.`,
@@ -114,7 +114,7 @@ rogue["Basic"] = {
 		y: -213.01500000000033,
 	},
 	["Enhanced Puncture"]: {
-		connections: [ "Puncture", ],
+		connections: [ "Puncture", "Fundamental Puncture", "Primary Puncture", ],
 		description: `Gain {c_yellow}{SF_9}{/c} Energy when {c_white}Puncture{/c} damages a Crowd Controlled enemy.`,
 		maxPoints: 3,
 		x: -1.778135,
@@ -135,7 +135,7 @@ rogue["Basic"] = {
 		y: -552.125,
 	},
 	["Heartseeker"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Heartseeker", ],
 		description: `{if:SF_16}{c_gold}Generate Combo Point:{/c} {c_green}{SF_15}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Fire an arrow that seeks an enemy, dealing {c_yellow}{payload:IMPACT}{/c} damage and increasing your Critical Strike Chance against them by {c_yellow}+[{SF_9}*100]%{/c} for {c_yellow}{buffduration:AMPLIFY_CRIT_CHANCE}{/c} seconds, up to {c_yellow}+[{SF_9}*{SF_10}*100]%{/c}.`,
@@ -144,7 +144,7 @@ rogue["Basic"] = {
 		y: -97.05999999999995,
 	},
 	["Enhanced Heartseeker"]: {
-		connections: [ "Heartseeker", ],
+		connections: [ "Heartseeker", "Fundamental Heartseeker", "Primary Heartseeker", ],
 		description: `When {c_white}Heartseeker{/c} Critically Strikes, gain {c_yellow}+[{SF_22}*100]%{/c} Attack Speed for {c_yellow}{SF_23}{/c} seconds. Double this amount if the enemy is {c_white}Vulnerable{/c}.`,
 		maxPoints: 3,
 		x: 681.9392750000001,
@@ -165,7 +165,7 @@ rogue["Basic"] = {
 		y: -207.1550000000002,
 	},
 	["Forceful Arrow"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Forceful Arrow", ],
 		description: `{if:SF_12}{c_gold}Generate Combo Point:{/c} {c_green}{SF_10}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Fire a powerful arrow at an enemy, dealing {c_yellow}{payload:IMPACT}{/c} damage and making them {c_white}Vulnerable{/c} for {c_yellow}{SF_15}{/c} seconds.`,
@@ -174,7 +174,7 @@ rogue["Basic"] = {
 		y: 143.40999999999985,
 	},
 	["Enhanced Forceful Arrow"]: {
-		connections: [ "Forceful Arrow", ],
+		connections: [ "Forceful Arrow", "Fundamental Forceful Arrow", "Primary Forceful Arrow", ],
 		description: `{c_white}Forceful Arrow{/c} makes the enemy {c_white}Vulnerable{/c} for {c_yellow}{SF_17}{/c} seconds instead if they are nearby.`,
 		maxPoints: 3,
 		x: 590.964275,
@@ -198,7 +198,7 @@ rogue["Basic"] = {
 
 rogue["Core"] = {
 	["Twisting Blades"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Twisting Blades", ],
 		description: `{c_gold}Energy Cost:{/c_gold} {c_green}{Resource Cost}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Impale an enemy on your blades, dealing {c_yellow}{payload:IMPACT}{/c} damage and making them take {c_yellow}x[{SF_18}*100]%{/c} increased damage while impaled. After {c_yellow}{buffduration:RETURN_TIMER}{/c} seconds the blades return to you, piercing enemies for {c_yellow}{payload:RETURN_HIT}{/c} damage.{if:SF_13}
@@ -212,7 +212,7 @@ Combo Points increase damage and grant a movement speed bonus:
 		y: -196.26999999999998,
 	},
 	["Enhanced Twisting Blades"]: {
-		connections: [ "Twisting Blades", ],
+		connections: [ "Twisting Blades", "Advanced Twisting Blades", "Improved Twisting Blades", ],
 		description: `{c_white}Twisting Blades{/c} deals {c_yellow}x[{SF_14}*100]%{/c} increased damage per enemy it passes through when returning, up to {c_yellow}x[{SF_14}*{SF_15}*100]%{/c}.`,
 		maxPoints: 3,
 		x: -404.24431,
@@ -233,7 +233,7 @@ Combo Points increase damage and grant a movement speed bonus:
 		y: -510.9200000000001,
 	},
 	["Flurry"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Flurry", ],
 		description: `{c_gold}Energy Cost:{/c_gold} {c_green}{Resource Cost}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Unleash a flurry of stabs and slashes, dealing {c_yellow}{payload:DAMAGE_TOOLTIP}{/c} damage to enemies in front of you.{if:SF_12}
@@ -247,7 +247,7 @@ Combo Points increase damage and grant a {c_yellow}+[{SF_10}*100]%{/c} Attack Sp
 		y: 48,
 	},
 	["Enhanced Flurry"]: {
-		connections: [ "Flurry", ],
+		connections: [ "Flurry", "Improved Flurry", "Advanced Flurry", ],
 		description: `Increase {c_white}Flurry's{/c} radius by {c_yellow}x[{SF_7}*100]%{/c}.`,
 		maxPoints: 3,
 		x: -715.51981,
@@ -268,7 +268,7 @@ Combo Points increase damage and grant a {c_yellow}+[{SF_10}*100]%{/c} Attack Sp
 		y: 227.51,
 	},
 	["Penetrating Shot"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Penetrating Shot", ],
 		description: `{c_gold}Energy Cost:{/c} {c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Fire an arrow that pierces through all enemies in a line, dealing {c_yellow}{payload:IMPACT}{/c} damage.{if:SF_12}
@@ -282,7 +282,7 @@ Combo Points increase damage and grant a chance to knock down:
 		y: 228,
 	},
 	["Enhanced Penetrating Shot"]: {
-		connections: [ "Penetrating Shot", ],
+		connections: [ "Penetrating Shot", "Advanced Penetrating Shot", "Improved Penetrating Shot", ],
 		description: `{c_white}Penetrating Shot{/c} deals {c_yellow}x[{SF_6}*100]%{/c} increased damage per enemy it pierces.`,
 		maxPoints: 3,
 		x: 3.778555,
@@ -303,7 +303,7 @@ Combo Points increase damage and grant a chance to knock down:
 		y: 550.185,
 	},
 	["Rapid Fire"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Rapid Fire", ],
 		description: `{c_gold}Energy Cost:{/c_gold} {c_green}{Resource Cost}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Rapidly fire {c_yellow}{SF_5}{/c} arrows, each dealing {c_yellow}{payload:IMPACT}{/c} damage.{if:SF_14}
@@ -317,7 +317,7 @@ Combo Points increase damage and arrows fired:
 		y: -0.03999999999996362,
 	},
 	["Enhanced Rapid Fire"]: {
-		connections: [ "Rapid Fire", ],
+		connections: [ "Rapid Fire", "Advanced Rapid Fire", "Improved Rapid Fire", ],
 		description: `Each subsequent arrow from {c_white}Rapid Fire{/c} has {c_yellow}+[{SF_19}*100]%{/c} increased Critical Strike Chance.`,
 		maxPoints: 3,
 		x: 783.72019,
@@ -338,7 +338,7 @@ Combo Points increase damage and arrows fired:
 		y: -80.86000000000013,
 	},
 	["Barrage"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Barrage", ],
 		description: `{c_gold}Energy Cost:{/c_gold} {c_green}{Resource Cost}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Unleash a barrage of {c_yellow}{SF_5}{/c} arrows that expands outwards, each dealing {c_yellow}{payload:IMPACT}{/c} damage. Each arrow has a {c_yellow}[{SF_33}*100]%{/c} chance to ricochet off an enemy up to {c_yellow}{SF_30}{/c} time. Ricochets deal {c_yellow}[{SF_31}*100 ]%{/c} of the arrow's base damage.{if:SF_14}
@@ -352,7 +352,7 @@ Combo Points increase damage and arrows fired:
 		y: -190.5050000000001,
 	},
 	["Enhanced Barrage"]: {
-		connections: [ "Barrage", ],
+		connections: [ "Barrage", "Advanced Barrage", "Improved Barrage", ],
 		description: `{c_white}Barrage's{/c} ricochet chance is increased to {c_yellow}100%{/c} for arrows that damage a {c_white}Vulnerable{/c} enemy or Critically Strike any enemy.`,
 		maxPoints: 3,
 		x: 415.26419000000004,
@@ -373,7 +373,7 @@ Combo Points increase damage and arrows fired:
 		y: -512.5349999999999,
 	},
 	["Sturdy"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Siphoning Strikes", ],
 		description: `You gain {c_yellow}x[{SF_0}*100]%{/c} Close Damage Reduction.`,
 		maxPoints: 3,
 		x: -629.02481,
@@ -397,7 +397,7 @@ Combo Points increase damage and arrows fired:
 
 rogue["Agility"] = {
 	["Shadow Step"]: {
-		connections: [ "Agility", ],
+		connections: [ "Agility", "Enhanced Shadow Step", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Become {c_white}Unstoppable{/c} and quickly move through the shadows to stab your victim from behind for {c_yellow}{payload:MELEE_PAYLOAD}{/c} damage. Gain {c_yellow}[{SF_5}*100]%{/c} increased Movement Speed for {c_yellow}{SF_6}{/c} seconds afterwards.`,
@@ -406,7 +406,7 @@ rogue["Agility"] = {
 		y: -250.75,
 	},
 	["Enhanced Shadow Step"]: {
-		connections: [ "Shadow Step", ],
+		connections: [ "Shadow Step", "Methodical Shadow Step", "Disciplined Shadow Step", ],
 		description: `Damaging an enemy with {c_white}Shadow Step{/c} increases your Critical Strike Chance against them by {c_yellow}+[{SF_14}*100]%{/c} for {c_yellow}{buffduration:AMPLIFY_CRIT_CHANCE}{/c} seconds.`,
 		maxPoints: 3,
 		x: 3.4149999999999636,
@@ -427,7 +427,7 @@ rogue["Agility"] = {
 		y: -567.315,
 	},
 	["Dash"]: {
-		connections: [ "Agility", ],
+		connections: [ "Agility", "Enhanced Dash", ],
 		description: `{c_gold}Charges:{/c} {c_green}{SF_22}{/c}
 {c_gold}Charge Cooldown:{/c} {c_green}[{Recharge Time}|1|]{/c_green} seconds 
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -437,7 +437,7 @@ rogue["Agility"] = {
 		y: 1.75,
 	},
 	["Enhanced Dash"]: {
-		connections: [ "Dash", ],
+		connections: [ "Dash", "Methodical Dash", "Disciplined Dash", ],
 		description: `Enemies damaged by {c_white}Dash{/c} take {c_yellow}x[{SF_20}*100]%{/c} increased Critical Strike Damage for {c_yellow}{buffduration:BONUS_CRIT_DAMAGE}{/c} seconds.`,
 		maxPoints: 3,
 		x: -785.1149999999998,
@@ -476,7 +476,7 @@ rogue["Agility"] = {
 		y: 255.70500000000004,
 	},
 	["Caltrops"]: {
-		connections: [ "Agility", ],
+		connections: [ "Agility", "Enhanced Caltrops", ],
 		description: `{c_gold}Energy Cost:{/c_gold} {c_green}{Resource Cost}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Leap backwards and throw caltrops on the ground, dealing {c_yellow}{payload:IMPACT}{/c} damage and slowing enemies by {c_yellow}[{SF_1}*100]%{/c}.  Lasts {c_yellow}{SF_0}{/c} seconds.`,
@@ -485,7 +485,7 @@ rogue["Agility"] = {
 		y: 235.5200000000001,
 	},
 	["Enhanced Caltrops"]: {
-		connections: [ "Caltrops", ],
+		connections: [ "Caltrops", "Methodical Caltrops", "Disciplined Caltrops", ],
 		description: `Enemies take {c_yellow}x[{SF_14} * 100]%{/c} increased damage from all sources each second they're in {c_white}Caltrops{/c}.`,
 		maxPoints: 3,
 		x: 3.375,
@@ -506,7 +506,7 @@ rogue["Agility"] = {
 		y: 588.8835,
 	},
 	["Rugged"]: {
-		connections: [ "Agility", ],
+		connections: [ "Agility", "Reactive Defense", ],
 		description: `Gain {c_yellow}x[{SF_0}*100]%{/c} Damage Reduction against Damage Over Time effects.`,
 		maxPoints: 3,
 		x: 572.705,
@@ -523,7 +523,7 @@ rogue["Agility"] = {
 
 rogue["Subterfuge"] = {
 	["Dark Shroud"]: {
-		connections: [ "Subterfuge", ],
+		connections: [ "Subterfuge", "Enhanced Dark Shroud", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 Surround yourself with up to {c_yellow}{SF_0}{/c} protective shadows. Gain {c_yellow}+[{SF_1} * 100|1|]%{/c} Damage Reduction per active shadow. Each time you take direct damage, that damage is reduced and a shadow is consumed.`,
 		maxPoints: 5,
@@ -531,7 +531,7 @@ Surround yourself with up to {c_yellow}{SF_0}{/c} protective shadows. Gain {c_ye
 		y: -129.2750000000001,
 	},
 	["Enhanced Dark Shroud"]: {
-		connections: [ "Dark Shroud", ],
+		connections: [ "Dark Shroud", "Subverting Dark Shroud", "Countering Dark Shroud", ],
 		description: `{c_white}Dark Shroud's{/c} shadows have a {c_yellow}[{SF_3} * 100]%{/c} chance to not be consumed.`,
 		maxPoints: 3,
 		x: -656.6600000000001,
@@ -552,7 +552,7 @@ Surround yourself with up to {c_yellow}{SF_0}{/c} protective shadows. Gain {c_ye
 		y: -253.80500000000006,
 	},
 	["Blinding Smoke"]: {
-		connections: [ "Subterfuge", ],
+		connections: [ "Subterfuge", "Enhanced Blinding Smoke", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 Throw a smoky concoction at enemies that {c_white}Dazes{/c} them for {c_yellow}{buffduration:SMOKE_BLINDNESS}{/c} seconds.`,
 		maxPoints: 5,
@@ -560,7 +560,7 @@ Throw a smoky concoction at enemies that {c_white}Dazes{/c} them for {c_yellow}{
 		y: -197.59500000000003,
 	},
 	["Enhanced Blinding Smoke"]: {
-		connections: [ "Blinding Smoke", ],
+		connections: [ "Blinding Smoke", "Subverting Blinding Smoke", "Countering Blinding Smoke", ],
 		description: `Enemies affected by {c_white}Blinding Smoke{/c} take {c_yellow}x[{SF_6}*100]%{/c} increased damage.`,
 		maxPoints: 3,
 		x: -7.545000000000073,
@@ -588,7 +588,7 @@ Throw a smoky concoction at enemies that {c_white}Dazes{/c} them for {c_yellow}{
 		y: -242.9000000000001,
 	},
 	["Exploit"]: {
-		connections: [ "Subterfuge", ],
+		connections: [ "Subterfuge", "Malice", ],
 		description: `You deal {c_yellow}x[{SF_0}*100]%{/c} increased damage to {c_white}Healthy{/c} and {c_white}Injured{/c} enemies.`,
 		maxPoints: 3,
 		x: 471.72,
@@ -602,7 +602,7 @@ Throw a smoky concoction at enemies that {c_white}Dazes{/c} them for {c_yellow}{
 		y: 371.03999999999996,
 	},
 	["Poison Trap"]: {
-		connections: [ "Subterfuge", ],
+		connections: [ "Subterfuge", "Enhanced Poison Trap", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:1}%{/c}
 {/if}Place a trap that arms after {c_yellow}{buffduration:ARMING}{/c} seconds. It activates when an enemy moves near, applying {c_yellow}{payload:TOOLTIP_DAMAGE}{/c} Poisoning damage over {c_yellow}{SF_2}{/c} seconds to enemies in the area.`,
@@ -611,7 +611,7 @@ Throw a smoky concoction at enemies that {c_white}Dazes{/c} them for {c_yellow}{
 		y: 1.099999999999909,
 	},
 	["Enhanced Poison Trap"]: {
-		connections: [ "Poison Trap", ],
+		connections: [ "Poison Trap", "Countering Poison Trap", "Subverting Poison Trap", ],
 		description: `{c_white}Poison Trap{/c} Immobilizes enemies for {c_yellow}{buffduration:IMMOBILIZE}{/c} seconds when it activates.`,
 		maxPoints: 3,
 		x: 804.3050000000001,
@@ -632,7 +632,7 @@ Throw a smoky concoction at enemies that {c_white}Dazes{/c} them for {c_yellow}{
 		y: -86.24500000000012,
 	},
 	["Stealth"]: {
-		connections: [ "Subterfuge", ],
+		connections: [ "Subterfuge", "Enhanced Stealth", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c} seconds
 Cloak yourself with shadows to hide from enemies for {c_yellow}{buffduration:STEALTH}{/c} seconds. Attacks during {c_white}Stealth{/c} break {c_white}Stealth{/c} and deal {c_yellow}x[{SF_2} * 100]%{/c} more damage.
 
@@ -642,7 +642,7 @@ You are {c_white}Unstoppable{/c} and can move through enemies freely while in {c
 		y: 148.3599999999999,
 	},
 	["Enhanced Stealth"]: {
-		connections: [ "Stealth", ],
+		connections: [ "Stealth", "Countering Stealth", "Subverting Stealth", ],
 		description: `You gain {c_yellow}[SF_7]{/c} Energy when you enter {c_white}Stealth{/c}.`,
 		maxPoints: 3,
 		x: -618.815,
@@ -666,7 +666,7 @@ You are {c_white}Unstoppable{/c} and can move through enemies freely while in {c
 
 rogue["Imbuements"] = {
 	["Deadly Venom"]: {
-		connections: [ "Imbuements", ],
+		connections: [ "Imbuements", "Alchemical Advantage", "Debilitating Toxins", ],
 		description: `You deal {c_yellow}x[{SF_0}*100]%{/c} increased Poisoning damage.`,
 		maxPoints: 3,
 		x: -677.6850000000001,
@@ -687,7 +687,7 @@ rogue["Imbuements"] = {
 		y: 84.10499999999999,
 	},
 	["Imbue Weapon: Poison"]: {
-		connections: [ "Imbuements", ],
+		connections: [ "Imbuements", "Enhanced Imbue Weapon: Poison", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
 {/if}Imbue your weapons with lethal poison. Your next {c_yellow}{SF_0}{/c} non-{c_white}Basic{/c} {c_white}Melee{/c} or {c_white}Ranged{/c} Skills deal Poison damage and apply up to {c_yellow}{dot:POISON_DOT}{/c} Poisoning damage over {c_yellow}{buffduration:POISON_DOT}{/c} seconds.`,
@@ -696,7 +696,7 @@ rogue["Imbuements"] = {
 		y: -173.17380000000003,
 	},
 	["Enhanced Imbue Weapon: Poison"]: {
-		connections: [ "Imbue Weapon: Poison", ],
+		connections: [ "Imbue Weapon: Poison", "Mixed Imbue Weapon: Poison", "Blended Imbue Weapon: Poison", ],
 		description: `{c_white}Poison Imbue’s{/c} Poisoning Duration is increased by {c_yellow}{SF_3}{/c} second.`,
 		maxPoints: 3,
 		x: -430.12,
@@ -717,7 +717,7 @@ rogue["Imbuements"] = {
 		y: -423.1095,
 	},
 	["Shadow Crash"]: {
-		connections: [ "Imbuements", ],
+		connections: [ "Imbuements", "Consuming Shadows", ],
 		description: `{c_gold}Lucky Hit:{/c} Shadow damage has up to a {c_yellow}{SF_0}%{/c} chance to Stun for {c_yellow}{buffduration:STUN}{/c} seconds.`,
 		maxPoints: 3,
 		x: 707,
@@ -731,7 +731,7 @@ rogue["Imbuements"] = {
 		y: -198.0455,
 	},
 	["Imbue Weapon: Shadow"]: {
-		connections: [ "Imbuements", ],
+		connections: [ "Imbuements", "Enhanced Imbue Weapon: Shadow", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Imbue your weapons with festering shadows. Your next {c_yellow}{SF_0}{/c} non-{c_white}Basic{/c} {c_white}Melee{/c} or {c_white}Ranged{/c} Skills deal Shadow damage and infect enemies such that they explode for up to {c_yellow}{payload:TOOLTIP_DAMAGE}{/c} damage on death. Direct damage to infected enemies deals an additional {c_yellow}{payload:TOOLTIP_SHADOW_DAMAGE}{/c} Shadow damage.`,
@@ -740,7 +740,7 @@ rogue["Imbuements"] = {
 		y: -173.6438,
 	},
 	["Enhanced Imbue Weapon: Shadow"]: {
-		connections: [ "Imbue Weapon: Shadow", ],
+		connections: [ "Imbue Weapon: Shadow", "Mixed Imbue Weapon: Shadow", "Blended Imbue Weapon: Shadow", ],
 		description: `{c_gold}Lucky Hit:{/c} Critically Striking an enemy infected by {c_white}Shadow Imbue{/c} has up to a {c_yellow}[{SF_19} * 100]%{/c} chance to create a mini explosion, dealing {c_yellow}{payload:MOD_MINI_EXPLOSION}{/c} Shadow damage to them and nearby enemies.`,
 		maxPoints: 3,
 		x: 390.51,
@@ -761,21 +761,21 @@ rogue["Imbuements"] = {
 		y: -419.38100000000003,
 	},
 	["Potency"]: {
-		connections: [ "Imbuements", ],
+		connections: [ "Imbuements", "Rapid Imbuement", "Precision Imbuement", ],
 		description: `Your {c_white}Imbuement{/c} Skill effects are {c_yellow}x[{SF_0}*100]%{/c} stronger.`,
 		maxPoints: 3,
 		x: -3.615000000000009,
 		y: 295.1635,
 	},
 	["Rapid Imbuement"]: {
-		connections: [ "Potency", ],
+		connections: [ "Potency", "Trick Attacks", ],
 		description: `The Cooldowns of your {c_white}Imbuement{/c} Skills are reduced by {c_yellow}x[{SF_0} * 100]%{/c}.`,
 		maxPoints: 3,
 		x: -184.115,
 		y: 448.62449999999995,
 	},
 	["Trick Attacks"]: {
-		connections: [ "Rapid Imbuement", ],
+		connections: [ "Rapid Imbuement", "Precision Imbuement", ],
 		description: `{c_gold}Lucky Hit:{/c} Up to a {c_yellow}{SF_0}%{/c} chance to apply a random equipped {c_white}Imbuement{/c} Skill effect when dealing direct damage.`,
 		maxPoints: 3,
 		x: -2.4650000000001455,
@@ -789,7 +789,7 @@ rogue["Imbuements"] = {
 		y: 446.6695,
 	},
 	["Imbue Weapon: Cold"]: {
-		connections: [ "Imbuements", ],
+		connections: [ "Imbuements", "Enhanced Imbue Weapon: Cold", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 Imbue your weapons with frigid energies. Your next {c_yellow}{SF_0}{/c} non-{c_white}Basic{/c} {c_white}Melee{/c} or {c_white}Ranged{/c} Skills deal Cold damage and {c_white}Chill{/c} enemies for up to {c_yellow}[SF_1]%{/c}. {c_white}Cold Imbued{/c} skills deal {c_yellow}x[{SF_20}*100]%{/c} damage to Crowd Controlled enemies.`,
 		maxPoints: 5,
@@ -797,7 +797,7 @@ Imbue your weapons with frigid energies. Your next {c_yellow}{SF_0}{/c} non-{c_w
 		y: 139.10399999999998,
 	},
 	["Enhanced Imbue Weapon: Cold"]: {
-		connections: [ "Imbue Weapon: Cold", ],
+		connections: [ "Imbue Weapon: Cold", "Mixed Imbue Weapon: Cold", "Blended Imbue Weapon: Cold", ],
 		description: `{c_gold}Lucky Hit:{/c} {c_white}Cold Imbued{/c} Skills have up to a {c_yellow}[{SF_21}*100]%{/c} chance to make enemies {c_white}Vulnerable{/c} for {c_yellow}{SF_22}{/c} seconds.`,
 		maxPoints: 3,
 		x: 554.5899999999999,
@@ -818,7 +818,7 @@ Imbue your weapons with frigid energies. Your next {c_yellow}{SF_0}{/c} non-{c_w
 		y: 284.24399999999997,
 	},
 	["Frigid Finesse"]: {
-		connections: [ "Imbuements", ],
+		connections: [ "Imbuements", "Chilling Weight", ],
 		description: `You deal {c_yellow}x[{SF_0}*100]%{/c} increased damage to {c_white}Chilled{/c} enemies. This bonus increases to {c_yellow}x[{SF_1}*100]%{/c} against {c_white}Frozen{/c} enemies.`,
 		maxPoints: 3,
 		x: 704.565,
@@ -835,7 +835,7 @@ Imbue your weapons with frigid energies. Your next {c_yellow}{SF_0}{/c} non-{c_w
 
 rogue["Ultimate"] = {
 	["Innervation"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Second Wind", "Alchemist's Fortune", ],
 		description: `{c_gold}Lucky Hit:{/c} Up to a {c_yellow}{SF_0}%{/c} chance to gain {c_yellow}{SF_1}{/c} Energy.`,
 		maxPoints: 3,
 		x: -220.03515,
@@ -856,7 +856,7 @@ rogue["Ultimate"] = {
 		y: 466.2550000000001,
 	},
 	["Shadow Clone"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Prime Shadow Clone", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 Your shadow mimicks your actions for {c_yellow}{buffduration:CLONE_MIMIC}{/c} seconds.
 The shadow deals {c_yellow}[{SF_1}*100]%{/c} of your damage.`,
@@ -865,7 +865,7 @@ The shadow deals {c_yellow}[{SF_1}*100]%{/c} of your damage.`,
 		y: -219.38,
 	},
 	["Prime Shadow Clone"]: {
-		connections: [ "Shadow Clone", ],
+		connections: [ "Shadow Clone", "Supreme Shadow Clone", ],
 		description: `You are {c_white}Unstoppable{/c} while your {c_white}Shadow Clone{/c} is active.`,
 		maxPoints: 3,
 		x: -167.64365,
@@ -886,7 +886,7 @@ The shadow deals {c_yellow}[{SF_1}*100]%{/c} of your damage.`,
 		y: -70.89499999999998,
 	},
 	["Death Trap"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Prime Death Trap", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Place a trap that arms after {c_yellow}{buffduration:ARMING}{/c} seconds. It activates when an enemy moves near, dealing {c_yellow}{payload:TOOLTIP_DAMAGE}{/c} damage to enemies in the area.`,
@@ -895,7 +895,7 @@ The shadow deals {c_yellow}[{SF_1}*100]%{/c} of your damage.`,
 		y: 127.97000000000003,
 	},
 	["Prime Death Trap"]: {
-		connections: [ "Death Trap", ],
+		connections: [ "Death Trap", "Supreme Death Trap", ],
 		description: `Enemies are Pulled into {c_white}Death Trap{/c} when it activates.`,
 		maxPoints: 3,
 		x: -780.25315,
@@ -916,7 +916,7 @@ The shadow deals {c_yellow}[{SF_1}*100]%{/c} of your damage.`,
 		y: -254.42999999999995,
 	},
 	["Rain of Arrows"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Prime Rain of Arrows", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:7}%{/c}
 {/if}Arrows rain down over a large area {c_yellow}{SF_18}{/c} times, each wave dealing {c_yellow}{payload:TOOLTIP_DAMAGE}{/c} damage.`,
@@ -925,7 +925,7 @@ The shadow deals {c_yellow}[{SF_1}*100]%{/c} of your damage.`,
 		y: 45.049999999999955,
 	},
 	["Prime Rain of Arrows"]: {
-		connections: [ "Rain of Arrows", ],
+		connections: [ "Rain of Arrows", "Supreme Rain of Arrows", ],
 		description: `{c_white}Imbuement{/c} Skill effects applied by {c_white}Rain of Arrows{/c} are {c_yellow}x[{SF_9}*100]%{/c} stronger.`,
 		maxPoints: 3,
 		x: 848.37685,
@@ -939,7 +939,7 @@ The shadow deals {c_yellow}[{SF_1}*100]%{/c} of your damage.`,
 		y: 235.52999999999997,
 	},
 	["Adrenaline Rush"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Impetus", "Haste", ],
 		description: `While moving, you gain {c_yellow}x[{SF_0} * 100]%{/c} increased Energy Regeneration.`,
 		maxPoints: 3,
 		x: 361.86635,

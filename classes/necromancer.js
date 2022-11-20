@@ -45,7 +45,7 @@ necromancer["Trunk Data"] = {
 
 necromancer["Basic"] = {
 	["Decompose"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Decompose", ],
 		description: `{c_gold}Generate Essence:{/c_gold} {c_green}{SF_5}{/c_green} per second
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
 {/if}Tear the flesh from an enemy, dealing {c_yellow}{dot:DECOMPOSING}{/c} damage per second and forming a usable Corpse with the flesh every {c_yellow}[{SF_1}|1|]{/c} seconds.`,
@@ -54,7 +54,7 @@ necromancer["Basic"] = {
 		y: -154.39000000000033,
 	},
 	["Enhanced Decompose"]: {
-		connections: [ "Decompose", ],
+		connections: [ "Decompose", "Acolyte's Decompose", "Initiate's Decompose", ],
 		description: `If an enemy dies while being Decomposed, you gain {c_yellow}{SF_7}{/c} Essence.`,
 		maxPoints: 3,
 		x: -535.502035,
@@ -75,7 +75,7 @@ necromancer["Basic"] = {
 		y: -437.84500000000025,
 	},
 	["Reap"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Reap", ],
 		description: `{c_gold}Generate Essence:{/c_gold} {c_green}{SF_2}{/c_green} per enemy hit
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Sweep an ethereal scythe in front of you, dealing {c_yellow}{payload:DAMAGE}{/c} damage. Hitting an enemy with Reap increases your Damage Reduction by {c_yellow}[{SF_8}*100]%{/c} for {c_yellow}{buffduration:DAMAGE_REDUCTION}{/c} seconds.`,
@@ -84,7 +84,7 @@ necromancer["Basic"] = {
 		y: 154.4699999999998,
 	},
 	["Enhanced Reap"]: {
-		connections: [ "Reap", ],
+		connections: [ "Reap", "Initiate's Reap", "Acolyte's Reap", ],
 		description: `If an enemy hit by Reap dies within {c_yellow}{SF_4}{/c} seconds, you gain {c_yellow}[{SF_5} * 100]%{/c} Attack Speed for {c_yellow}{SF_15}{/c} seconds.`,
 		maxPoints: 3,
 		x: -519.257035,
@@ -105,7 +105,7 @@ necromancer["Basic"] = {
 		y: 454.96000000000004,
 	},
 	["Hemorrhage"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Hemorrhage", ],
 		description: `{c_gold}Generate Essence:{/c_gold} {c_green}{SF_6}{/c_green}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Burst an enemy's blood, dealing {c_yellow}{payload:DAMAGE}{/c} damage. Hemorrhage has a {c_yellow}[{SF_5}*100]%{/c} chance to form a {c_white}Blood Orb{/c}.`,
@@ -114,7 +114,7 @@ necromancer["Basic"] = {
 		y: -153.6800000000003,
 	},
 	["Enhanced Hemorrhage"]: {
-		connections: [ "Hemorrhage", ],
+		connections: [ "Hemorrhage", "Acolyte's Hemorrhage", "Initiate's Hemorrhage", ],
 		description: `After picking up a {c_white}Blood Orb{/c}, your next Hemorrhage also hits nearby enemies and grants {c_yellow}{SF_10}{/c} additional Essence per enemy hit.`,
 		maxPoints: 3,
 		x: 515.387965,
@@ -135,7 +135,7 @@ necromancer["Basic"] = {
 		y: -434.4350000000004,
 	},
 	["Bone Splinters"]: {
-		connections: [ "Basic", ],
+		connections: [ "Basic", "Enhanced Bone Splinters", ],
 		description: `{c_gold}Generate Essence:{/c} {c_green}{SF_5}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Fire {c_yellow}3{/c} bone splinters, dealing {c_yellow}{payload:DAMAGE}{/c} damage each. Each subsequent time an enemy is hit by the same cast of Bone Splinters, you gain {c_yellow}{SF_4}{/c} Essence.`,
@@ -144,7 +144,7 @@ necromancer["Basic"] = {
 		y: 153.41999999999962,
 	},
 	["Enhanced Bone Splinters"]: {
-		connections: [ "Bone Splinters", ],
+		connections: [ "Bone Splinters", "Acolyte's Bone Splinters", "Initiate's Bone Splinters", ],
 		description: `Bone Splinters has a {c_yellow}[{SF_10} * 100]%{/c} chance to fire {c_yellow}{SF_8}{/c} additional projectile if cast while you have {c_yellow}{SF_15}{/c} or more Essence.`,
 		maxPoints: 3,
 		x: 502.277965,
@@ -168,7 +168,7 @@ necromancer["Basic"] = {
 
 necromancer["Core"] = {
 	["Blight"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Blight", ],
 		description: `{c_gold}Essence Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:21}%{/c}
 {/if}Unleash concentrated blight that deals {c_yellow}{payload:DAMAGE}{/c} damage and leaves behind a defiled area, dealing {c_yellow}{dot:TOOLTIP_DOT}{/c} damage over {c_yellow}{buffduration:TOOLTIP_DOT}{/c} seconds.`,
@@ -177,7 +177,7 @@ necromancer["Core"] = {
 		y: -184.93499999999995,
 	},
 	["Enhanced Blight"]: {
-		connections: [ "Blight", ],
+		connections: [ "Blight", "Paranormal Blight", "Supernatural Blight", ],
 		description: `Blight Slows enemies by {c_yellow}[{SF_15}*100]%{/c}.`,
 		maxPoints: 3,
 		x: -450.97445000000005,
@@ -198,7 +198,7 @@ necromancer["Core"] = {
 		y: -551.2750000000001,
 	},
 	["Sever"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Sever", ],
 		description: `{c_gold}Essence Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}A spectre of you charges forward and attacks with its scythe for {c_yellow}{payload:DAMAGE}{/c} damage.`,
@@ -207,7 +207,7 @@ necromancer["Core"] = {
 		y: 0.15499999999974534,
 	},
 	["Enhanced Sever"]: {
-		connections: [ "Sever", ],
+		connections: [ "Sever", "Paranormal Sever", "Supernatural Sever", ],
 		description: `Sever damages enemies along its path for {c_yellow}[{SF_16} * 100]%{/c} of its damage.`,
 		maxPoints: 3,
 		x: -768.37945,
@@ -228,7 +228,7 @@ necromancer["Core"] = {
 		y: 97.61999999999989,
 	},
 	["Blood Surge"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Blood Surge", ],
 		description: `{c_gold}Essence Cost: {/c}{c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Draw blood from enemies, dealing {c_yellow}{payload:OUTER_DAMAGE}{/c} damage, and expel a blood nova, dealing {c_yellow}{payload:INNER_DAMAGE}{/c} damage. Blood Surge's nova damage is increased by {c_yellow}x[{SF_1} * 100]%{/c} per enemy drained, up to {c_yellow}x[SF_6 * 100]%{/c}.`,
@@ -237,7 +237,7 @@ necromancer["Core"] = {
 		y: -185.1600000000003,
 	},
 	["Enhanced Blood Surge"]: {
-		connections: [ "Blood Surge", ],
+		connections: [ "Blood Surge", "Supernatural Blood Surge", "Paranormal Blood Surge", ],
 		description: `Blood Surge heals you for {c_yellow}[{SF_12}*100]%{/c} of your maximum Life per each enemy drained, up to {c_yellow}[{SF_11}*100]%{/c}.`,
 		maxPoints: 3,
 		x: 458.77104999999995,
@@ -258,7 +258,7 @@ necromancer["Core"] = {
 		y: -552.2800000000002,
 	},
 	["Blood Lance"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Blood Lance", ],
 		description: `{c_gold}Essence Cost:{/c} {c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Throw a blood lance that lingers in an enemy for {c_yellow}{buffduration:LANCED}{/c} second, dealing {c_yellow}{payload:DAMAGE}{/c} damage to the enemy and all other lanced enemies.`,
@@ -267,7 +267,7 @@ necromancer["Core"] = {
 		y: 38.460000000000036,
 	},
 	["Enhanced Blood Lance"]: {
-		connections: [ "Blood Lance", ],
+		connections: [ "Blood Lance", "Supernatural Blood Lance", "Paranormal Blood Lance", ],
 		description: `Blood Lance Pierces through enemies who are currently lanced, dealing {c_yellow}[{SF_14} * 100]%{/c} reduced damage to subsequent enemies after the first.`,
 		maxPoints: 3,
 		x: 726.71055,
@@ -288,7 +288,7 @@ necromancer["Core"] = {
 		y: 24.710000000000036,
 	},
 	["Bone Spear"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Enhanced Bone Spear", ],
 		description: `{c_gold}Essence Cost:{/c} {c_green}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Conjure a bone spear from the ground, dealing {c_yellow}{payload:DAMAGE}{/c} damage and Piercing through enemies.`,
@@ -297,7 +297,7 @@ necromancer["Core"] = {
 		y: 204.58500000000004,
 	},
 	["Enhanced Bone Spear"]: {
-		connections: [ "Bone Spear", ],
+		connections: [ "Bone Spear", "Paranormal Bone Spear", "Supernatural Bone Spear", ],
 		description: `Bone Spear breaks into shards when it is destroyed, dealing {c_yellow}{payload:BONE_SHARD}{/c} damage each.`,
 		maxPoints: 3,
 		x: -106.37644999999999,
@@ -318,7 +318,7 @@ necromancer["Core"] = {
 		y: 547.4699999999998,
 	},
 	["Unliving Energy"]: {
-		connections: [ "Core", ],
+		connections: [ "Core", "Imperfectly Balanced", ],
 		description: `Your maximum Essence is increased by {c_yellow}{SF_0}{/c}.`,
 		maxPoints: 3,
 		x: 527.72555,
@@ -344,7 +344,7 @@ This chance is doubled against bosses.`,
 
 necromancer["Macabre"] = {
 	["Corpse Explosion"]: {
-		connections: [ "Macabre", ],
+		connections: [ "Macabre", "Enhanced Corpse Explosion", ],
 		description: `{if:SF_10}{c_gold}Essence Cost:{/c} {c_green}{Resource Cost}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}
 {/if}{if:Mod.Miasma}Release a vile miasma from a Corpse, dealing {c_yellow}{dot:MIASMA_DOT_TOOLTIP}{/c} Shadow Damage over {c_yellow}{buffduration:MIASMA_DOT_TOOLTIP}{/c} seconds.{else}Detonate a Corpse, dealing {c_yellow}{payload:DAMAGE}{/c} damage to nearby enemies.{/if}`,
@@ -353,7 +353,7 @@ necromancer["Macabre"] = {
 		y: 0.11000000000012733,
 	},
 	["Enhanced Corpse Explosion"]: {
-		connections: [ "Corpse Explosion", ],
+		connections: [ "Corpse Explosion", "Abhorrent Corpse Explosion", "Horrid Corpse Explosion", ],
 		description: `Corpse Explosion's radius is increased by {c_yellow}[{SF_1}*100]%{/c}.`,
 		maxPoints: 3,
 		x: -756.6925000000001,
@@ -374,7 +374,7 @@ necromancer["Macabre"] = {
 		y: 101.125,
 	},
 	["Grim Harvest"]: {
-		connections: [ "Macabre", ],
+		connections: [ "Macabre", "Fueled by Death", ],
 		description: `Consuming a Corpse generates {c_yellow}{SF_0}{/c} Essence.`,
 		maxPoints: 3,
 		x: -370.21500000000003,
@@ -395,7 +395,7 @@ necromancer["Macabre"] = {
 		y: -138.06500000000005,
 	},
 	["Blood Mist"]: {
-		connections: [ "Macabre", ],
+		connections: [ "Macabre", "Enhanced Blood Mist", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:14}%{/c}
 {/if}Disperse into a bloody mist, becoming {c_white}Immune{/c} for {c_yellow}{buffduration:MISTFORM}{/c} seconds. Your Movement Speed is reduced by {c_yellow}[{SF_6}*100]%{/c} and you periodically deal {c_yellow}{payload:LEECH_DAMAGE}{/c} damage to enemies, healing for {c_yellow}[{SF_3} * 100]%{/c} of the damage dealt.`,
@@ -404,7 +404,7 @@ necromancer["Macabre"] = {
 		y: -196.5999999999999,
 	},
 	["Enhanced Blood Mist"]: {
-		connections: [ "Blood Mist", ],
+		connections: [ "Blood Mist", "Ghastly Blood Mist", "Dreadful Blood Mist", ],
 		description: `Blood Mist's Movement Speed penalty is reduced to {c_yellow}[{SF_13} * 100]%{/c}.`,
 		maxPoints: 3,
 		x: 141.2449999999999,
@@ -425,7 +425,7 @@ necromancer["Macabre"] = {
 		y: -496.6700000000001,
 	},
 	["Bone Prison"]: {
-		connections: [ "Macabre", ],
+		connections: [ "Macabre", "Enhanced Bone Prison", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 Unearth a prison of bone with {c_yellow}{pet_health:BoneWall}{/c} Life that surrounds the target area for {c_yellow}{buffduration:WALL_TRACKER}{/c} seconds.`,
 		maxPoints: 5,
@@ -433,7 +433,7 @@ Unearth a prison of bone with {c_yellow}{pet_health:BoneWall}{/c} Life that surr
 		y: 145.28500000000008,
 	},
 	["Enhanced Bone Prison"]: {
-		connections: [ "Bone Prison", ],
+		connections: [ "Bone Prison", "Ghastly Bone Prison", "Dreadful Bone Prison", ],
 		description: `Gain {c_yellow}{SF_3}{/c} Essence each time an enemy hits your Bone Prison.`,
 		maxPoints: 3,
 		x: 497.52499999999986,
@@ -464,7 +464,7 @@ Unearth a prison of bone with {c_yellow}{pet_health:BoneWall}{/c} Life that surr
 
 necromancer["Corruption"] = {
 	["Iron Maiden"]: {
-		connections: [ "Corruption", ],
+		connections: [ "Corruption", "Enhanced Iron Maiden", ],
 		description: `{c_gold}Essence Cost: {/c}{c_green}{Resource Cost}{/c}
 Curse the target area. Enemies afflicted by Iron Maiden take {c_yellow}{payload:CURSE_DAMAGE}{/c} damage each time they deal direct damage. Lasts {c_yellow}{buffduration:IRONMAIDEN_CURSE}{/c} seconds.`,
 		maxPoints: 5,
@@ -472,7 +472,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {c_yellow}{payload:
 		y: 165.28999999999996,
 	},
 	["Enhanced Iron Maiden"]: {
-		connections: [ "Iron Maiden", ],
+		connections: [ "Iron Maiden", "Horrid Iron Maiden", "Abhorrent Iron Maiden", ],
 		description: `Iron Maiden no longer costs Essence. Instead, gain {c_yellow}{SF_6}{/c} Essence for each enemy Cursed. Does not work with enemies who are already cursed with Iron Maiden.`,
 		maxPoints: 3,
 		x: -561.73,
@@ -507,7 +507,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {c_yellow}{payload:
 		y: 431.69449999999995,
 	},
 	["Decrepify"]: {
-		connections: [ "Corruption", ],
+		connections: [ "Corruption", "Enhanced Decrepify", ],
 		description: `{c_gold}Essence Cost: {/c}{c_green}{Resource Cost}{/c}
 Curse the target area. Enemies afflicted by Decrepify are Slowed by {c_yellow}[{SF_3}*100]%{/c} and deal {c_yellow}[{SF_4}*100]%{/c} less damage for {c_yellow}{buffduration:DECREPIFY_CURSE}{/c} seconds.`,
 		maxPoints: 5,
@@ -515,7 +515,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {c_yellow}[{
 		y: 166.38,
 	},
 	["Enhanced Decrepify"]: {
-		connections: [ "Decrepify", ],
+		connections: [ "Decrepify", "Abhorrent Decrepify", "Horrid Decrepify", ],
 		description: `{c_gold}Lucky Hit:{/c} Enemies hit while afflicted with Decrepify have up to a {c_yellow}[{SF_5}*100]%{/c} chance to be Stunned for {c_yellow}{buffduration:MOD_STUN}{/c} seconds.`,
 		maxPoints: 3,
 		x: 558.24,
@@ -553,7 +553,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {c_yellow}[{
 
 necromancer["Summoning"] = {
 	["Corpse Tendrils"]: {
-		connections: [ "Summoning", ],
+		connections: [ "Summoning", "Enhanced Corpse Tendrils", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Veins burst out of a Corpse, pulling in enemies, Stunning them for {c_yellow}{buffduration:STUN}{/c} seconds, and dealing {c_yellow}{payload:DAMAGE}{/c} damage to them.`,
@@ -562,7 +562,7 @@ necromancer["Summoning"] = {
 		y: -136.85000000000002,
 	},
 	["Enhanced Corpse Tendrils"]: {
-		connections: [ "Corpse Tendrils", ],
+		connections: [ "Corpse Tendrils", "Horrid Corpse Tendrils", "Abhorrent Corpse Tendrils", ],
 		description: `Enemies who are in range of Corpse Tendrils are Slowed by {c_yellow}[{SF_10}*100]%{/c} before being pulled.`,
 		maxPoints: 3,
 		x: 561.44,
@@ -583,21 +583,21 @@ necromancer["Summoning"] = {
 		y: -412.30500000000006,
 	},
 	["Reaper's Pursuit"]: {
-		connections: [ "Summoning", ],
+		connections: [ "Summoning", "Gloom", "Crippling Darkness", ],
 		description: `Damaging enemies with {c_white}Darkness{/c} Skills increases your Movement Speed by {c_yellow}{SF_1}%{/c} for {c_yellow}{buffduration:MOVEMENT_INCREASE}{/c} seconds.`,
 		maxPoints: 3,
 		x: -547.81,
 		y: -169.615,
 	},
 	["Gloom"]: {
-		connections: [ "Reaper's Pursuit", ],
+		connections: [ "Reaper's Pursuit", "Terror", ],
 		description: `When you damage enemies with {c_white}Darkness{/c} Skills, they take {c_yellow}x[{SF_0} * 100]%{/c} increased Shadow Damage for {c_yellow}{buffduration:INCOMING_SHADOW_DAMAGE_INCREASE}{/c} seconds, stacking up to {c_yellow}{SF_1}{/c} times.`,
 		maxPoints: 3,
 		x: -721.6699999999998,
 		y: -369.5050000000001,
 	},
 	["Terror"]: {
-		connections: [ "Gloom", ],
+		connections: [ "Gloom", "Crippling Darkness", ],
 		description: `{c_white}Darkness{/c} Skills deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage against Immobilized, Slowed, or Stunned enemies. This also applies to Shadow Damage dealt by your Minions.`,
 		maxPoints: 3,
 		x: -1150.9850000000001,
@@ -611,35 +611,42 @@ necromancer["Summoning"] = {
 		y: -181.13,
 	},
 	["Blood Begets Blood"]: {
-		connections: [ "Summoning", ],
+		connections: [ "Summoning", "Coalesced Blood", "Tides of Blood", ],
 		description: `While below {c_yellow}50%{/c} Life, you receive {c_yellow}[{SF_0} * 100]%{/c} more healing from all sources.`,
 		maxPoints: 3,
 		x: 5.820000000000164,
 		y: -372.43499999999995,
 	},
 	["Coalesced Blood"]: {
-		connections: [ "Blood Begets Blood", ],
+		connections: [ "Transfusion", "Blood Begets Blood", ],
 		description: `Blood Orbs heal you for {c_yellow}[{SF_0} * 100]%{/c} more.`,
 		maxPoints: 3,
 		x: 188.08500000000004,
 		y: -545.375,
 	},
 	["Transfusion"]: {
-		connections: [ "Coalesced Blood", ],
+		connections: [ "Coalesced Blood", "Tides of Blood", ],
 		description: `{c_white}Blood Orbs{/c} also heal your Minions for {c_yellow}[{SF_0} * 100]%{/c} of the amount.`,
 		maxPoints: 3,
 		x: 188.10500000000002,
 		y: -740.47,
 	},
 	["Tides of Blood"]: {
-		connections: [ "Transfusion", "Blood Begets Blood", ],
+		connections: [ "Drain Vitality", "Transfusion", "Blood Begets Blood", ],
 		description: `Your {c_white}Blood{/c} Skills deal {c_yellow}x[{SF_0}*100]%{/c} increased {c_white}Overpower{/c} damage. This bonus is doubled while you are {c_white}Healthy{/c}.`,
 		maxPoints: 3,
 		x: -186.05499999999984,
 		y: -545.1100000000001,
 	},
+	["Drain Vitality"]: {
+		connections: [ "Tides of Blood", ],
+		description: `{c_gold}Lucky Hit:{/c} Hitting enemies with {c_white}Blood{/c} Skills has up to a {c_yellow}{SF_1}%{/c} chance to {c_white}Fortify{/c} you for {c_yellow}{Fortified:FORTIFY_CASTER}{/c}.`,
+		maxPoints: 3,
+		x: -187.66999999999985,
+		y: -741.395,
+	},
 	["Bone Spirit"]: {
-		connections: [ "Summoning", ],
+		connections: [ "Summoning", "Enhanced Bone Spirit", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {c_gold}Essence Cost:{/c} {c_green}All Remaining Essence{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
@@ -649,7 +656,7 @@ necromancer["Summoning"] = {
 		y: 195.1049999999999,
 	},
 	["Enhanced Bone Spirit"]: {
-		connections: [ "Bone Spirit", ],
+		connections: [ "Bone Spirit", "Ghastly Bone Spirit", "Dreadful Bone Spirit", ],
 		description: `If Bone Spirit Critically Strikes, its cooldown is reduced by {c_yellow}{SF_15}{/c} seconds.  This effect can only happen once per cast.`,
 		maxPoints: 3,
 		x: -165.81999999999994,
@@ -670,21 +677,21 @@ necromancer["Summoning"] = {
 		y: 502.13949999999994,
 	},
 	["Serration"]: {
-		connections: [ "Summoning", ],
+		connections: [ "Summoning", "Rapid Ossification", "Compound Fracture", ],
 		description: `Your {c_white}Bone{/c} Skills have a {c_yellow}[{SF_0} *100 |1|]%{/c} increased Critical Strike Chance for each {c_yellow}10{/c} Essence you have upon cast.`,
 		maxPoints: 3,
 		x: -557.22,
 		y: 93.02499999999998,
 	},
 	["Rapid Ossification"]: {
-		connections: [ "Serration", ],
+		connections: [ "Serration", "Evulsion", ],
 		description: `Every {c_yellow}{SF_1}{/c} Essence you spend reduces the cooldowns of your {c_white}Bone{/c} Skills by {c_yellow}[{SF_0}|1|]{/c} seconds.`,
 		maxPoints: 3,
 		x: -958.7550000000001,
 		y: 74.63999999999999,
 	},
 	["Evulsion"]: {
-		connections: [ "Rapid Ossification", ],
+		connections: [ "Compound Fracture", "Rapid Ossification", ],
 		description: `Your {c_white}Bone{/c} Skills deal {c_yellow}x[{SF_0} * 100]%{/c} increased Critical Strike Damage to {c_white}Vulnerable{/c} enemies.`,
 		maxPoints: 3,
 		x: -1226.0299999999997,
@@ -708,21 +715,21 @@ necromancer["Summoning"] = {
 
 necromancer["Ultimate"] = {
 	["Bonded in Essence"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Death's Defense", ],
 		description: `Your Minions gain {c_yellow}[{SF_0} * 100]%{/c} of your Resistances.`,
 		maxPoints: 3,
 		x: -244.0326,
 		y: 245.36850000000004,
 	},
 	["Death's Defense"]: {
-		connections: [ "Bonded in Essence", ],
+		connections: [ "Bonded in Essence", "Hellbent Commander", ],
 		description: `Your Minions can't lose more than {c_yellow}[{SF_0}*100]%{/c} of their maximum Life from a single damage instance.`,
 		maxPoints: 3,
 		x: -685.0350999999999,
 		y: 319.58349999999996,
 	},
 	["Hellbent Commander"]: {
-		connections: [ "Death's Defense", ],
+		connections: [ "Inspiring Command", "Death's Defense", ],
 		description: `Your Minions deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage while you are near them.`,
 		maxPoints: 3,
 		x: -496.6551,
@@ -736,7 +743,7 @@ necromancer["Ultimate"] = {
 		y: 125.48649999999998,
 	},
 	["Army of the Dead"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Prime Army of the Dead", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:22}%{/c}
 {/if}Call forth the deep buried dead. Volatile undead emerge over the next {c_yellow}{buffduration:RAISE_ARMY}{/c} seconds that explode near enemies, dealing {c_yellow}{payload:EXPLOSION_DAMAGE}{/c} damage.`,
@@ -745,7 +752,7 @@ necromancer["Ultimate"] = {
 		y: -101.33449999999999,
 	},
 	["Prime Army of the Dead"]: {
-		connections: [ "Army of the Dead", ],
+		connections: [ "Army of the Dead", "Supreme Army of the Dead", ],
 		description: `When Army of the Dead's Skeletons explode, they have a {c_yellow}[SF_16*100]%{/c} chance to leave behind a Corpse.`,
 		maxPoints: 3,
 		x: -761.5751,
@@ -759,7 +766,7 @@ necromancer["Ultimate"] = {
 		y: -69.65449999999998,
 	},
 	["Blood Wave"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Prime Blood Wave", ],
 		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat Effect Chance}%{/c}
 {/if}Conjure a tidal wave of blood that deals {c_yellow}{payload:DAMAGE}{/c} damage and knocks enemies back.`,
@@ -768,7 +775,7 @@ necromancer["Ultimate"] = {
 		y: -165.59550000000002,
 	},
 	["Prime Blood Wave"]: {
-		connections: [ "Blood Wave", ],
+		connections: [ "Blood Wave", "Supreme Blood Wave", ],
 		description: `Blood Wave Slows enemies by {c_yellow}[SF_7*100]%{/c} for {c_yellow}{buffduration:BUFF_SLOW}{/c} seconds.`,
 		maxPoints: 3,
 		x: 464.8824,
@@ -782,7 +789,7 @@ necromancer["Ultimate"] = {
 		y: -299.367,
 	},
 	["Stand Alone"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Memento Mori", ],
 		description: `Increases Damage Reduction by {c_yellow}[{SF_0} * 100]%{/c}, reduced by {c_yellow}[{SF_1} * 100]%{/c} for each active Minion.`,
 		maxPoints: 3,
 		x: 686.7299,
@@ -796,7 +803,7 @@ necromancer["Ultimate"] = {
 		y: -0.9549999999999841,
 	},
 	["Bone Storm"]: {
-		connections: [ "Ultimate", ],
+		connections: [ "Ultimate", "Prime Bone Storm", ],
 		description: `{c_gold}Cooldown:{/c} {c_green}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
 {/if}A swirling storm of bones surrounds you and your Golem, dealing {c_yellow}{payload:TOOLTIP_DAMAGE}{/c} to nearby enemies over {c_yellow}{buffduration:BONESTORM}{/c} seconds.`,
@@ -805,7 +812,7 @@ necromancer["Ultimate"] = {
 		y: 168.1635,
 	},
 	["Prime Bone Storm"]: {
-		connections: [ "Bone Storm", ],
+		connections: [ "Bone Storm", "Supreme Bone Storm", ],
 		description: `Your Damage Reduction is increased by {c_yellow}[{SF_13}*100]%{/c} while Bone Storm is active.`,
 		maxPoints: 3,
 		x: 477.6729,
