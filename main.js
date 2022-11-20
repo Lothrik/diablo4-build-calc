@@ -56,6 +56,11 @@ function populateMap(map, object, keys) {
 	return populateMap(map, object, keys);
 }
 
+// rgba2hex converts a `rgba(255, 255, 255, 1)` string into an equivalent hex string: `0xffffffff`
+function rgba2hex (rgba) {
+	return `0x${rgba.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+\.{0,1}\d*))?\)$/).slice(1).map((n, i) => (i == 3 ? Math.round(parseFloat(n) * 255) : parseFloat(n)).toString(16).padStart(2, "0").replace("NaN", "")).join("")}`;
+}
+
 // construct a nested map of all class data
 const classObj = { barbarian, druid, necromancer, rogue, sorceress };
 var classMap = new Map();
@@ -75,12 +80,19 @@ const preventConnectorScaling = false; // this improves non-native connector qua
 const tooltipScalingFloor = 0.75;
 const tooltipScalingCeiling = 1.25;
 
-const lineStyleThinSquare = { cap: PIXI.LINE_CAP.SQUARE, color: 0xFFFFFF, native: true, width: 1 };
-const lineStyleThinButt = { cap: PIXI.LINE_CAP.BUTT, color: 0xFFFFFF, native: true, width: 1 };
-const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: 0xFFFFFF, native: false, width: 4 };
-const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: 0xFFFFFF, native: false, width: 4 };
-
 const fontFamily = $("body").css("fontFamily");
+const textColor = Number(rgba2hex($("*").css("color")));
+const backgroundColorRGB = $("#header").css("background-color");
+const backgroundColorHEX = rgba2hex(backgroundColorRGB);
+const backgroundColor = backgroundColorHEX.slice(0, 8);
+const backgroundOpacity = Number(backgroundColorRGB.replace(/^.*, (.+)\)/, "$1"));
+const borderColor = Number(rgba2hex($("#header").css("border-color")));
+
+const lineStyleThinSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
+const lineStyleThinButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
+const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 4 };
+const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: false, width: 4 };
+
 
 // pixiJS application helper
 PIXI.settings.RESOLUTION = devicePixelRatio;
@@ -532,7 +544,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	const nodeText = new PIXI.Text(displayName, {
 		align: "center",
 		cacheAsBitmap: true,
-		fill: 0xFFFFFF,
+		fill: textColor,
 		fontFamily: fontFamily,
 		fontSize: nameFontSize * 4,
 		fontVariant: "small-caps",
@@ -549,7 +561,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
 			align: "right",
 			cacheAsBitmap: true,
-			fill: 0xFFFFFF,
+			fill: textColor,
 			fontFamily: fontFamily,
 			fontSize: 24 * 4,
 			fontVariant: "small-caps",
@@ -564,7 +576,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		const nodeText3 = new PIXI.Text("+", {
 			align: "right",
 			cacheAsBitmap: true,
-			fill: 0xFFFFFF,
+			fill: textColor,
 			fontFamily: fontFamily,
 			fontSize: 48 * 4,
 			fontVariant: "small-caps",
@@ -579,7 +591,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		nodeText4 = new PIXI.Text("–", {
 			align: "left",
 			cacheAsBitmap: true,
-			fill: 0xFFFFFF,
+			fill: textColor,
 			fontFamily: fontFamily,
 			fontSize: 48 * 4,
 			fontVariant: "small-caps",
@@ -601,9 +613,9 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	}
 
 	const nodeBackground = new PIXI.Graphics();
-	nodeBackground.beginFill(0);
+	nodeBackground.beginFill(backgroundColor);
 	nodeBackground.drawRect(0, 0, nodeWidth, nodeHeight);
-	nodeBackground.alpha = 0.6;
+	nodeBackground.alpha = backgroundOpacity * 2 / 3;
 	nodeBackground.pivot.x = nodeWidth / 2;
 	nodeBackground.pivot.y = nodeHeight / 2;
 
@@ -739,7 +751,7 @@ function drawTooltip(curNode) {
 		align: "left",
 		breakWords: true,
 		cacheAsBitmap: true,
-		fill: 0xFFFFFF,
+		fill: textColor,
 		fontFamily: fontFamily,
 		fontSize: 36 * 2,
 		fontVariant: "small-caps",
@@ -756,7 +768,7 @@ function drawTooltip(curNode) {
 		align: "center",
 		breakWords: true,
 		cacheAsBitmap: true,
-		fill: 0xFFFFFF,
+		fill: textColor,
 		fontFamily: fontFamily,
 		fontSize: 36 * 2,
 		width: clampedWidth * 2,
@@ -769,9 +781,9 @@ function drawTooltip(curNode) {
 	tooltipText2.position.y = 18;
 
 	const tooltipBackground = new PIXI.Graphics();
-	tooltipBackground.beginFill(0);
+	tooltipBackground.beginFill(backgroundColor);
 	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 3);
-	tooltipBackground.alpha = 0.9;
+	tooltipBackground.alpha = backgroundOpacity;
 	tooltipBackground.pivot.x = 10;
 	tooltipBackground.pivot.y = 10;
 

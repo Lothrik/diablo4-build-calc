@@ -67,13 +67,18 @@ h1, h2, h3 {
 	margin-bottom: 10px;
 	padding: 10px 0;
 	text-transform: uppercase;
-	border-bottom: 2px solid #fff;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+#header, #summaryContainer, select, option, button {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-color: #fff;
+	z-index: 1;
 }
 
 #header, #summaryContainer {
-	background-color: rgba(0, 0, 0, 0.9);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	z-index: 1;
 }
 
 #header > * {
@@ -132,13 +137,15 @@ select, option, button {
 	height: 26px;
 	padding: 0 6px;
 	cursor: pointer;
-	border: 1px solid #fff;
-	background-color: #000;
+	border-width: 1px;
+	border-style: solid;
 }
 
 select {
 	padding: 0 18px 0 4px;
-	background: #000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik04NzUuNywxNzkuOEw1MDAsNTc3LjlMMTI0LjMsMTc5LjhMMTAsMzAxbDQ5MCw1MTkuMkw5OTAsMzAxTDg3NS43LDE3OS44eiIvPjwvc3ZnPg==") no-repeat right 4px center;
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik04NzUuNywxNzkuOEw1MDAsNTc3LjlMMTI0LjMsMTc5LjhMMTAsMzAxbDQ5MCw1MTkuMkw5OTAsMzAxTDg3NS43LDE3OS44eiIvPjwvc3ZnPg==");
+	background-repeat: no-repeat;
+	background-position: right 4px center;
 	background-size: 8px;
 	-webkit-appearance: none;
 	appearance: none;
@@ -155,7 +162,8 @@ button:active {
 #summaryContainer {
 	margin-top: auto;
 	padding: 10px 10px 0;
-	border-top: 2px solid #fff;
+	border-top-style: solid;
+	border-top-width: 2px;
 	flex-grow: 1;
 }
 
