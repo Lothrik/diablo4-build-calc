@@ -41,7 +41,8 @@ druid["Trunk Data"] = {
 		x: 8.196247,
 		y: 4695.885,
 	},
-},
+};
+
 druid["Basic"] = {
 	["Earthspike"]: {
 		connections: [ "Basic", ],

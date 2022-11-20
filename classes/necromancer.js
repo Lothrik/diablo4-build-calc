@@ -6,16 +6,17 @@ necromancer["Trunk Data"] = {
 		x: 0,
 		y: 0,
 	},
-	["Capstone"]: {
-		requiredPoints: 33,
-		x: -11.709585,
-		y: 4933.965,
-	},
 	["Core"]: {
 		connections: [ "Macabre" ],
 		requiredPoints: 2,
 		x: -2.3525850000000004,
 		y: 1135.79,
+	},
+	["Macabre"]: {
+		connections: [ "Corruption" ],
+		requiredPoints: 6,
+		x: 1240.932965,
+		y: 2069.72,
 	},
 	["Corruption"]: {
 		connections: [ "Summoning" ],
@@ -35,13 +36,13 @@ necromancer["Trunk Data"] = {
 		x: -9.556935,
 		y: 4138.1565,
 	},
-	["Macabre"]: {
-		connections: [ "Corruption" ],
-		requiredPoints: 6,
-		x: 1240.932965,
-		y: 2069.72,
+	["Capstone"]: {
+		requiredPoints: 33,
+		x: -11.709585,
+		y: 4933.965,
 	},
-},
+};
+
 necromancer["Basic"] = {
 	["Decompose"]: {
 		connections: [ "Basic", ],
@@ -162,39 +163,6 @@ necromancer["Basic"] = {
 		maxPoints: 3,
 		x: 843.397965,
 		y: 320.75499999999965,
-	},
-};
-
-necromancer["Capstone"] = {
-	["Ossified Essence"]: {
-		connections: [ "Capstone", ],
-		description: `Your {c_white}Bone{/c} Skills deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage for each point of Essence you have above {c_yellow}[SF_1]{/c} upon cast.`,
-		maxPoints: 1,
-		x: 563.34255,
-		y: 304.92999999999984,
-	},
-	["Shadowblight"]: {
-		connections: [ "Capstone", ],
-		description: `Shadow Damage infects enemies with {c_white}Shadowblight{/c} for {c_yellow}{buffduration:DEBUFF_SHADOWBLIGHT_COUNTER}{/c} seconds.
-
-Every {c_yellow}{SF_2}th{/c} time an enemy receives Shadow Damage from you or your Minions while they are affected by {c_white}Shadowblight{/c}, they burst for {c_yellow}{payload:BURST_DAMAGE}{/c} Shadow Damage.`,
-		maxPoints: 1,
-		x: -187.53795,
-		y: 305.4849999999999,
-	},
-	["Rathma's Vigor"]: {
-		connections: [ "Capstone", ],
-		description: `Increase your maximum Life by {c_yellow}[{SF_0} * 100]%{/c}. While {c_white}Healthy{/c}, you deal {c_yellow}x[{SF_1} *100]%{/c} increased damage.`,
-		maxPoints: 1,
-		x: 187.54755,
-		y: 305.92499999999995,
-	},
-	["Strength in Numbers"]: {
-		connections: [ "Capstone", ],
-		description: `While you have at least {c_yellow}{SF_0}{/c} Minions, they gain {c_yellow}[{SF_1} * 100]%{/c} Attack Speed.`,
-		maxPoints: 1,
-		x: -563.26245,
-		y: 305.8699999999999,
 	},
 };
 
@@ -371,6 +339,126 @@ This chance is doubled against bosses.`,
 		maxPoints: 3,
 		x: -417.86745,
 		y: 186.8199999999997,
+	},
+};
+
+necromancer["Macabre"] = {
+	["Corpse Explosion"]: {
+		connections: [ "Macabre", ],
+		description: `{if:SF_10}{c_gold}Essence Cost:{/c} {c_green}{Resource Cost}{/c}
+{/if}{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}
+{/if}{if:Mod.Miasma}Release a vile miasma from a Corpse, dealing {c_yellow}{dot:MIASMA_DOT_TOOLTIP}{/c} Shadow Damage over {c_yellow}{buffduration:MIASMA_DOT_TOOLTIP}{/c} seconds.{else}Detonate a Corpse, dealing {c_yellow}{payload:DAMAGE}{/c} damage to nearby enemies.{/if}`,
+		maxPoints: 5,
+		x: -385,
+		y: 0.11000000000012733,
+	},
+	["Enhanced Corpse Explosion"]: {
+		connections: [ "Corpse Explosion", ],
+		description: `Corpse Explosion's radius is increased by {c_yellow}[{SF_1}*100]%{/c}.`,
+		maxPoints: 3,
+		x: -756.6925000000001,
+		y: -0.9100000000000819,
+	},
+	["Abhorrent Corpse Explosion"]: {
+		connections: [ "Enhanced Corpse Explosion", ],
+		description: `Instead of exploding, Corpse Explosion releases a vile miasma dealing {c_yellow}{dot:MIASMA_DOT_TOOLTIP}{/c} Shadow Damage over {c_yellow}{SF_12}{/c} seconds.`,
+		maxPoints: 3,
+		x: -1048.7350000000001,
+		y: -100.36500000000001,
+	},
+	["Horrid Corpse Explosion"]: {
+		connections: [ "Enhanced Corpse Explosion", ],
+		description: `Corpse Explosion deals {c_yellow}x[{SF_15}*100]%{/c} increased damage to enemies that are Slowed, Stunned or Vulnerable.`,
+		maxPoints: 3,
+		x: -1046.3755,
+		y: 101.125,
+	},
+	["Grim Harvest"]: {
+		connections: [ "Macabre", ],
+		description: `Consuming a Corpse generates {c_yellow}{SF_0}{/c} Essence.`,
+		maxPoints: 3,
+		x: -370.21500000000003,
+		y: 233.46499999999992,
+	},
+	["Fueled by Death"]: {
+		connections: [ "Grim Harvest", ],
+		description: `You deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage for {c_yellow}{buffduration:DAMAGE_BONUS}{/c} seconds after consuming a Corpse.`,
+		maxPoints: 3,
+		x: -632.315,
+		y: 401.9950000000001,
+	},
+	["Necrotic Carapace"]: {
+		connections: [ "Macabre", ],
+		description: `When a Corpse is formed from your Skills or your Minions, {c_white}Fortify{/c} for {c_yellow}{fortified:PAYLOAD_FORTIFY}{/c}.`,
+		maxPoints: 3,
+		x: 755.135,
+		y: -138.06500000000005,
+	},
+	["Blood Mist"]: {
+		connections: [ "Macabre", ],
+		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
+{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:14}%{/c}
+{/if}Disperse into a bloody mist, becoming {c_white}Immune{/c} for {c_yellow}{buffduration:MISTFORM}{/c} seconds. Your Movement Speed is reduced by {c_yellow}[{SF_6}*100]%{/c} and you periodically deal {c_yellow}{payload:LEECH_DAMAGE}{/c} damage to enemies, healing for {c_yellow}[{SF_3} * 100]%{/c} of the damage dealt.`,
+		maxPoints: 5,
+		x: 79.30999999999995,
+		y: -196.5999999999999,
+	},
+	["Enhanced Blood Mist"]: {
+		connections: [ "Blood Mist", ],
+		description: `Blood Mist's Movement Speed penalty is reduced to {c_yellow}[{SF_13} * 100]%{/c}.`,
+		maxPoints: 3,
+		x: 141.2449999999999,
+		y: -354.2399999999998,
+	},
+	["Ghastly Blood Mist"]: {
+		connections: [ "Enhanced Blood Mist", ],
+		description: `Blood Mist leaves behind a Corpse every {c_yellow}{SF_10}{/c} second.`,
+		maxPoints: 3,
+		x: 118.75999999999999,
+		y: -537.4949999999999,
+	},
+	["Dreadful Blood Mist"]: {
+		connections: [ "Enhanced Blood Mist", ],
+		description: `Blood Mist {c_white}Fortifies{/c} you for {c_yellow}{Fortified:FORTIFY_HEALTH}{/c} each time it hits an enemy.`,
+		maxPoints: 3,
+		x: 394.43000000000006,
+		y: -496.6700000000001,
+	},
+	["Bone Prison"]: {
+		connections: [ "Macabre", ],
+		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
+Unearth a prison of bone with {c_yellow}{pet_health:BoneWall}{/c} Life that surrounds the target area for {c_yellow}{buffduration:WALL_TRACKER}{/c} seconds.`,
+		maxPoints: 5,
+		x: 271.9100000000001,
+		y: 145.28500000000008,
+	},
+	["Enhanced Bone Prison"]: {
+		connections: [ "Bone Prison", ],
+		description: `Gain {c_yellow}{SF_3}{/c} Essence each time an enemy hits your Bone Prison.`,
+		maxPoints: 3,
+		x: 497.52499999999986,
+		y: 268.625,
+	},
+	["Ghastly Bone Prison"]: {
+		connections: [ "Enhanced Bone Prison", ],
+		description: `Enemies inside of Bone Prison are {c_white}Vulnerable{/c}.`,
+		maxPoints: 3,
+		x: 605.5049999999999,
+		y: 435.6100000000001,
+	},
+	["Dreadful Bone Prison"]: {
+		connections: [ "Enhanced Bone Prison", ],
+		description: `Fortify for {c_yellow}{fortified:MODB_FORTIFY}{/c} for each enemy trapped by Bone Prison.`,
+		maxPoints: 3,
+		x: 834.0449999999998,
+		y: 309.03,
+	},
+	["Skeletal Warrior Mastery"]: {
+		connections: [ "Macabre", ],
+		description: `Increase the damage and Life of your Skeletal Warriors by {c_yellow}[{SF_0} * 100]%{/c} .`,
+		maxPoints: 3,
+		x: 755.3399999999999,
+		y: 67.23500000000013,
 	},
 };
 
@@ -739,123 +827,36 @@ necromancer["Ultimate"] = {
 	},
 };
 
-necromancer["Macabre"] = {
-	["Corpse Explosion"]: {
-		connections: [ "Macabre", ],
-		description: `{if:SF_10}{c_gold}Essence Cost:{/c} {c_green}{Resource Cost}{/c}
-{/if}{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}
-{/if}{if:Mod.Miasma}Release a vile miasma from a Corpse, dealing {c_yellow}{dot:MIASMA_DOT_TOOLTIP}{/c} Shadow Damage over {c_yellow}{buffduration:MIASMA_DOT_TOOLTIP}{/c} seconds.{else}Detonate a Corpse, dealing {c_yellow}{payload:DAMAGE}{/c} damage to nearby enemies.{/if}`,
-		maxPoints: 5,
-		x: -385,
-		y: 0.11000000000012733,
+necromancer["Capstone"] = {
+	["Ossified Essence"]: {
+		connections: [ "Capstone", ],
+		description: `Your {c_white}Bone{/c} Skills deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage for each point of Essence you have above {c_yellow}[SF_1]{/c} upon cast.`,
+		maxPoints: 1,
+		x: 563.34255,
+		y: 304.92999999999984,
 	},
-	["Enhanced Corpse Explosion"]: {
-		connections: [ "Corpse Explosion", ],
-		description: `Corpse Explosion's radius is increased by {c_yellow}[{SF_1}*100]%{/c}.`,
-		maxPoints: 3,
-		x: -756.6925000000001,
-		y: -0.9100000000000819,
+	["Shadowblight"]: {
+		connections: [ "Capstone", ],
+		description: `Shadow Damage infects enemies with {c_white}Shadowblight{/c} for {c_yellow}{buffduration:DEBUFF_SHADOWBLIGHT_COUNTER}{/c} seconds.
+
+Every {c_yellow}{SF_2}th{/c} time an enemy receives Shadow Damage from you or your Minions while they are affected by {c_white}Shadowblight{/c}, they burst for {c_yellow}{payload:BURST_DAMAGE}{/c} Shadow Damage.`,
+		maxPoints: 1,
+		x: -187.53795,
+		y: 305.4849999999999,
 	},
-	["Abhorrent Corpse Explosion"]: {
-		connections: [ "Enhanced Corpse Explosion", ],
-		description: `Instead of exploding, Corpse Explosion releases a vile miasma dealing {c_yellow}{dot:MIASMA_DOT_TOOLTIP}{/c} Shadow Damage over {c_yellow}{SF_12}{/c} seconds.`,
-		maxPoints: 3,
-		x: -1048.7350000000001,
-		y: -100.36500000000001,
+	["Rathma's Vigor"]: {
+		connections: [ "Capstone", ],
+		description: `Increase your maximum Life by {c_yellow}[{SF_0} * 100]%{/c}. While {c_white}Healthy{/c}, you deal {c_yellow}x[{SF_1} *100]%{/c} increased damage.`,
+		maxPoints: 1,
+		x: 187.54755,
+		y: 305.92499999999995,
 	},
-	["Horrid Corpse Explosion"]: {
-		connections: [ "Enhanced Corpse Explosion", ],
-		description: `Corpse Explosion deals {c_yellow}x[{SF_15}*100]%{/c} increased damage to enemies that are Slowed, Stunned or Vulnerable.`,
-		maxPoints: 3,
-		x: -1046.3755,
-		y: 101.125,
-	},
-	["Grim Harvest"]: {
-		connections: [ "Macabre", ],
-		description: `Consuming a Corpse generates {c_yellow}{SF_0}{/c} Essence.`,
-		maxPoints: 3,
-		x: -370.21500000000003,
-		y: 233.46499999999992,
-	},
-	["Fueled by Death"]: {
-		connections: [ "Grim Harvest", ],
-		description: `You deal {c_yellow}x[{SF_0} * 100]%{/c} increased damage for {c_yellow}{buffduration:DAMAGE_BONUS}{/c} seconds after consuming a Corpse.`,
-		maxPoints: 3,
-		x: -632.315,
-		y: 401.9950000000001,
-	},
-	["Necrotic Carapace"]: {
-		connections: [ "Macabre", ],
-		description: `When a Corpse is formed from your Skills or your Minions, {c_white}Fortify{/c} for {c_yellow}{fortified:PAYLOAD_FORTIFY}{/c}.`,
-		maxPoints: 3,
-		x: 755.135,
-		y: -138.06500000000005,
-	},
-	["Blood Mist"]: {
-		connections: [ "Macabre", ],
-		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
-{if:ADVANCED_TOOLTIP}{c_gold}Lucky Hit Chance: {/c}{c_green}{Combat_Effect_Chance_Script_Formula_Override:14}%{/c}
-{/if}Disperse into a bloody mist, becoming {c_white}Immune{/c} for {c_yellow}{buffduration:MISTFORM}{/c} seconds. Your Movement Speed is reduced by {c_yellow}[{SF_6}*100]%{/c} and you periodically deal {c_yellow}{payload:LEECH_DAMAGE}{/c} damage to enemies, healing for {c_yellow}[{SF_3} * 100]%{/c} of the damage dealt.`,
-		maxPoints: 5,
-		x: 79.30999999999995,
-		y: -196.5999999999999,
-	},
-	["Enhanced Blood Mist"]: {
-		connections: [ "Blood Mist", ],
-		description: `Blood Mist's Movement Speed penalty is reduced to {c_yellow}[{SF_13} * 100]%{/c}.`,
-		maxPoints: 3,
-		x: 141.2449999999999,
-		y: -354.2399999999998,
-	},
-	["Ghastly Blood Mist"]: {
-		connections: [ "Enhanced Blood Mist", ],
-		description: `Blood Mist leaves behind a Corpse every {c_yellow}{SF_10}{/c} second.`,
-		maxPoints: 3,
-		x: 118.75999999999999,
-		y: -537.4949999999999,
-	},
-	["Dreadful Blood Mist"]: {
-		connections: [ "Enhanced Blood Mist", ],
-		description: `Blood Mist {c_white}Fortifies{/c} you for {c_yellow}{Fortified:FORTIFY_HEALTH}{/c} each time it hits an enemy.`,
-		maxPoints: 3,
-		x: 394.43000000000006,
-		y: -496.6700000000001,
-	},
-	["Bone Prison"]: {
-		connections: [ "Macabre", ],
-		description: `{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}|1|]{/c_green} seconds
-Unearth a prison of bone with {c_yellow}{pet_health:BoneWall}{/c} Life that surrounds the target area for {c_yellow}{buffduration:WALL_TRACKER}{/c} seconds.`,
-		maxPoints: 5,
-		x: 271.9100000000001,
-		y: 145.28500000000008,
-	},
-	["Enhanced Bone Prison"]: {
-		connections: [ "Bone Prison", ],
-		description: `Gain {c_yellow}{SF_3}{/c} Essence each time an enemy hits your Bone Prison.`,
-		maxPoints: 3,
-		x: 497.52499999999986,
-		y: 268.625,
-	},
-	["Ghastly Bone Prison"]: {
-		connections: [ "Enhanced Bone Prison", ],
-		description: `Enemies inside of Bone Prison are {c_white}Vulnerable{/c}.`,
-		maxPoints: 3,
-		x: 605.5049999999999,
-		y: 435.6100000000001,
-	},
-	["Dreadful Bone Prison"]: {
-		connections: [ "Enhanced Bone Prison", ],
-		description: `Fortify for {c_yellow}{fortified:MODB_FORTIFY}{/c} for each enemy trapped by Bone Prison.`,
-		maxPoints: 3,
-		x: 834.0449999999998,
-		y: 309.03,
-	},
-	["Skeletal Warrior Mastery"]: {
-		connections: [ "Macabre", ],
-		description: `Increase the damage and Life of your Skeletal Warriors by {c_yellow}[{SF_0} * 100]%{/c} .`,
-		maxPoints: 3,
-		x: 755.3399999999999,
-		y: 67.23500000000013,
+	["Strength in Numbers"]: {
+		connections: [ "Capstone", ],
+		description: `While you have at least {c_yellow}{SF_0}{/c} Minions, they gain {c_yellow}[{SF_1} * 100]%{/c} Attack Speed.`,
+		maxPoints: 1,
+		x: -563.26245,
+		y: 305.8699999999999,
 	},
 };
 
