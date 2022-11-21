@@ -90,8 +90,8 @@ const borderColor = Number(rgba2hex($("#header").css("border-color")));
 
 const lineStyleThinSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
 const lineStyleThinButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
-const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 4 };
-const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: false, width: 4 };
+const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
+const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: false, width: 8 };
 
 // pixiJS application helper
 PIXI.settings.RESOLUTION = devicePixelRatio;
@@ -411,6 +411,10 @@ function updateNodePoints(curNode, newPoints) {
 	curNode.children[2].text = newPoints + "/" + curNode.nodeData.get("maxPoints");
 
 	if (newPoints > 0) {
+		curNode.children[1].style.fontWeight = "bold";
+		curNode.children[2].style.fontWeight = "bold";
+		curNode.children[3].children[0].style.fontWeight = "bold";
+		curNode.children[4].children[0].style.fontWeight = "bold";
 		curNode.children[5].updateLineStyle(lineStyleThickSquare);
 		pixiConnectors.filter(connector => {
 			if (connector.startNode.groupName == undefined && connector.endNode.groupName == undefined) {
@@ -422,6 +426,10 @@ function updateNodePoints(curNode, newPoints) {
 			}
 		});
 	} else {
+		curNode.children[1].style.fontWeight = "normal";
+		curNode.children[2].style.fontWeight = "normal";
+		curNode.children[3].children[0].style.fontWeight = "normal";
+		curNode.children[4].children[0].style.fontWeight = "normal";
 		curNode.children[5].updateLineStyle(lineStyleThinSquare);
 		pixiConnectors.filter(connector => {
 			if (connector.startNode.groupName == undefined && connector.endNode.groupName == undefined) {
@@ -441,9 +449,11 @@ function updateNodePoints(curNode, newPoints) {
 			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
 			const trunkConnector = pixiConnectors.find(connector => connector.nodeName == groupNode.nodeName);
 			if (validConnection) {
+				groupNode.children[1].style.fontWeight = "bold";
 				groupNode.children[2].updateLineStyle(lineStyleThickSquare);
 				if (trunkConnector != undefined) trunkConnector.updateLineStyle(lineStyleThickButt);
 			} else {
+				groupNode.children[1].style.fontWeight = "normal";
 				groupNode.children[2].updateLineStyle(lineStyleThinSquare);
 				if (trunkConnector != undefined) trunkConnector.updateLineStyle(lineStyleThinButt);
 			}
@@ -606,15 +616,15 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 24 * 4,
+			fontSize: 20 * 4,
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
 		});
 		nodeText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
 		nodeText2.scale.set(0.25);
 		nodeText2.anchor.set(0.5);
-		nodeText2.x = (nodeWidth - nodeText2.width) / 2 - 3;
-		nodeText2.y = (nodeText2.height - nodeHeight) / 2;
+		nodeText2.x = (nodeWidth - nodeText2.width) / 2 - 5;
+		nodeText2.y = (nodeText2.height - nodeHeight) / 2 + 2;
 
 		const nodeText3 = new PIXI.Text("+", {
 			align: "right",
@@ -628,8 +638,8 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		nodeText3.scaleMode =  PIXI.SCALE_MODES.LINEAR;
 		nodeText3.scale.set(0.25);
 		nodeText3.anchor.set(0.5);
-		nodeText3.x = (nodeWidth - nodeText3.width) / 2 + 2;
-		nodeText3.y = (nodeHeight - nodeText3.height) / 2 + 6;
+		nodeText3.x = (nodeWidth - nodeText3.width) / 2;
+		nodeText3.y = (nodeHeight - nodeText3.height) / 2 + 4;
 
 		nodeText4 = new PIXI.Text("–", {
 			align: "left",
@@ -643,8 +653,8 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		nodeText4.scaleMode =  PIXI.SCALE_MODES.LINEAR;
 		nodeText4.scale.set(0.25);
 		nodeText4.anchor.set(0.5);
-		nodeText4.x = (nodeText4.width - nodeWidth) / 2 + 2;
-		nodeText4.y = (nodeHeight - nodeText4.height) / 2 + 2;
+		nodeText4.x = (nodeText4.width - nodeWidth) / 2 + 4;
+		nodeText4.y = (nodeHeight - nodeText4.height) / 2;
 
 		plusContainer = new PIXI.Container();
 		plusContainer.interactive = true;
@@ -679,10 +689,10 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	nodeBorder.moveTo(0, nodeHeight);
 	nodeBorder.lineTo(0, 0);
 	if (groupName != undefined) {
-		nodeBorder.moveTo(nodeWidth - nodeText2.width - 6, 0);
-		nodeBorder.lineTo(nodeWidth - nodeText2.width - 6, nodeText2.height + 2);
-		nodeBorder.moveTo(nodeWidth - nodeText2.width - 6, nodeText2.height + 2);
-		nodeBorder.lineTo(nodeWidth, nodeText2.height + 2);
+		nodeBorder.moveTo(nodeWidth - nodeText2.width - 10, 0);
+		nodeBorder.lineTo(nodeWidth - nodeText2.width - 10, nodeText2.height + 6);
+		nodeBorder.moveTo(nodeWidth - nodeText2.width - 10, nodeText2.height + 6);
+		nodeBorder.lineTo(nodeWidth, nodeText2.height + 6);
 	}
 
 	const node = new PIXI.Container();
