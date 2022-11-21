@@ -183,7 +183,7 @@ function handleSkillTreeZoom(event) {
 				event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY)
 				* initialScale / initialTouchDistance;
 		}
-		if (newScale >= (1 / 3) && newScale <= 2) {
+		if (newScale >= 0.25 && newScale <= 2) {
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
@@ -616,7 +616,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 20 * 4,
+			fontSize: 24 * 4,
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
 		});
@@ -688,12 +688,6 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	nodeBorder.lineTo(0, nodeHeight);
 	nodeBorder.moveTo(0, nodeHeight);
 	nodeBorder.lineTo(0, 0);
-	if (groupName != undefined) {
-		nodeBorder.moveTo(nodeWidth - nodeText2.width - 10, 0);
-		nodeBorder.lineTo(nodeWidth - nodeText2.width - 10, nodeText2.height + 6);
-		nodeBorder.moveTo(nodeWidth - nodeText2.width - 10, nodeText2.height + 6);
-		nodeBorder.lineTo(nodeWidth, nodeText2.height + 6);
-	}
 
 	const node = new PIXI.Container();
 	node.interactive = true;
