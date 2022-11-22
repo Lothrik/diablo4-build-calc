@@ -224,11 +224,7 @@ function handleResetButton(event) {
 }
 function handleDebugButton(event) {
 	debugMode = !debugMode;
-	if (debugMode) {
-		$("#debugButton").text("Disable Debugging");
-	} else {
-		$("#debugButton").text("Enable Debugging");
-	}
+	$("#debugButton").text(debugMode ? "Disable Debugging" : "Enable Debugging");
 }
 function handleSaveButton(event) {
 	const className = $(classString).val();
@@ -988,6 +984,7 @@ function drawConnector(startNode, endNode) {
 	pixiConnectors.push(pixiJS.stage.addChild(connector));
 }
 function drawAllConnectors() {
+	pixiConnectorPairs = [];
 	for (let i = pixiConnectors.length; i > 0; i--) {
 		pixiConnectors.pop().destroy(true);
 	}
