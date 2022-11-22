@@ -390,14 +390,26 @@ function updateCharacterLevel() {
 	$("#charLevel").text(charLevel);
 	$("#renownLevel").text(renownLevel > 0 ? " (Renown " + renownLevel + ")" : "");
 }
-function updateGroupConnector(groupConnector) {
-	const requiredPointsStart = groupConnector.startNode.nodeData.get("requiredPoints");
-	const requiredPointsEnd = groupConnector.endNode.nodeData.get("requiredPoints");
-	const validConnection = requiredPointsStart <= getAllocatedSkillPoints(groupConnector.startNode.nodeName) && requiredPointsEnd <= getAllocatedSkillPoints(groupConnector.endNode.nodeName);
-	if (validConnection) {
-		groupConnector.updateLineStyle(lineStyleThickButt);
+function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
+	const startPoints = startNode.nodeData.get("allocatedPoints") || 0;
+	const endPoints = endNode.nodeData.get("allocatedPoints") || 0;
+	if (startNode.groupName == undefined && endNode.groupName == undefined) {
+		const requiredPointsStart = startNode.nodeData.get("requiredPoints");
+		const requiredPointsEnd = endNode.nodeData.get("requiredPoints");
+		const validConnection = requiredPointsStart <= getAllocatedSkillPoints(startNode.nodeName) && requiredPointsEnd <= getAllocatedSkillPoints(endNode.nodeName);
+		if (validConnection) {
+			nodeConnector.lineStyle(lineStyleThickButt);
+			nodeConnector.updateLineStyle(lineStyleThickButt);
+		} else {
+			nodeConnector.lineStyle(lineStyleThinButt);
+			nodeConnector.updateLineStyle(lineStyleThinButt);
+		}
+	} else if ((startNode.groupName == undefined && endPoints > 0) || (endNode.groupName == undefined && startPoints > 0) || (startPoints > 0 && endPoints > 0)) {
+		nodeConnector.lineStyle(lineStyleThickButt);
+		nodeConnector.updateLineStyle(lineStyleThickButt);
 	} else {
-		groupConnector.updateLineStyle(lineStyleThinButt);
+		nodeConnector.lineStyle(lineStyleThinButt);
+		nodeConnector.updateLineStyle(lineStyleThinButt);
 	}
 }
 function updateNodePoints(curNode, newPoints) {
@@ -412,28 +424,12 @@ function updateNodePoints(curNode, newPoints) {
 		curNode.children[3].children[0].style.fontWeight = "bold";
 		curNode.children[4].children[0].style.fontWeight = "bold";
 		curNode.children[5].updateLineStyle(lineStyleThickSquare);
-		pixiConnectors.filter(connector => {
-			if (connector.startNode.groupName == undefined && connector.endNode.groupName == undefined) {
-				updateGroupConnector(connector);
-			} else if ((connector.startNode == curNode || connector.endNode == curNode)
-				&& (connector.startNode.groupName == undefined || connector.startNode.nodeData.get("allocatedPoints") > 0)
-				&& (connector.endNode.groupName == undefined || connector.endNode.nodeData.get("allocatedPoints") > 0)) {
-				connector.updateLineStyle(lineStyleThickButt);
-			}
-		});
 	} else {
 		curNode.children[1].style.fontWeight = "normal";
 		curNode.children[2].style.fontWeight = "normal";
 		curNode.children[3].children[0].style.fontWeight = "normal";
 		curNode.children[4].children[0].style.fontWeight = "normal";
 		curNode.children[5].updateLineStyle(lineStyleThinSquare);
-		pixiConnectors.filter(connector => {
-			if (connector.startNode.groupName == undefined && connector.endNode.groupName == undefined) {
-				updateGroupConnector(connector);
-			} else if (connector.startNode == curNode || connector.endNode == curNode) {
-				connector.updateLineStyle(lineStyleThinButt);
-			}
-		});
 	}
 
 	const className = $(classString).val();
@@ -443,18 +439,17 @@ function updateNodePoints(curNode, newPoints) {
 		pixiNodes.filter(pixiNode => trunkData.has(pixiNode.nodeName)).forEach(groupNode => {
 			const requiredPoints = groupNode.nodeData.get("requiredPoints");
 			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
-			const trunkConnector = pixiConnectors.find(connector => connector.nodeName == groupNode.nodeName);
 			if (validConnection) {
 				groupNode.children[1].style.fontWeight = "bold";
 				groupNode.children[2].updateLineStyle(lineStyleThickSquare);
-				if (trunkConnector != undefined) trunkConnector.updateLineStyle(lineStyleThickButt);
 			} else {
 				groupNode.children[1].style.fontWeight = "normal";
 				groupNode.children[2].updateLineStyle(lineStyleThinSquare);
-				if (trunkConnector != undefined) trunkConnector.updateLineStyle(lineStyleThinButt);
 			}
 		});
 	}
+
+	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
 }
 function handlePlusButton(curNode) {
 	if (getUnusedPoints(false) <= 0) return;
@@ -938,11 +933,7 @@ function drawConnector(startNode, endNode) {
 		pixiConnectorPairs[connectorPair] = true;
 	}
 
-	if (startNode.nodeData.get("allocatedPoints") > 0) {
-		connector.lineStyle(lineStyleThickButt);
-	} else {
-		connector.lineStyle(lineStyleThinButt);
-	}
+	updateConnectorLineStyle(connector, startNode, endNode);
 
 	let startX = startNode.x;
 	let startY = startNode.y;
