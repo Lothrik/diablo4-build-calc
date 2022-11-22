@@ -1,7 +1,9 @@
 import { nodeHistory } from "./nodehistory.js";
 
+const buildNumber = 36023;
+
 var skillJSON = "";
-$.getJSON("tree.json", null, successData => { skillJSON = fixJSON(successData); });
+$.getJSON("tree/build-" + buildNumber + ".json", null, successData => { skillJSON = fixJSON(successData); });
 
 const scaleRatio = 0.5;
 
@@ -120,28 +122,30 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode, 
 }
 
 function fixJSON(skillJSON) {
-	$("#debugOutput").html("Successfully loaded `tree.json`.");
+	$("#debugOutput").html("Successfully loaded `tree/build-" + buildNumber + ".json`.");
 	skillJSON.forEach((classData, classIndex) => {
 		$("#debugOutput").html($("#debugOutput").html() + "\nProcessing node data for class `" + classData["ClassName"] + "`:");
 		classData["Nodes"].forEach(nodeData => {
-			if (nodeData["SkillName"] == "Prime Unstable Currents" && nodeData["Id"] == 619) {
-				$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Unstable Currents`.");
-				nodeData["SkillName"] = "Supreme Unstable Currents";
-			} else if (nodeData["SkillName"] == "Upgrade 1" && nodeData["Id"] == 617) {
-				$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Prime Inferno`.");
-				nodeData["SkillName"] = "Prime Inferno";
-			} else if (nodeData["SkillName"] == "Upgrade 2" && nodeData["Id"] == 620) {
-				$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Inferno`.");
-				nodeData["SkillName"] = "Supreme Inferno";
-			}
-			if (nodeData["SkillName"]) {
-				const namedConnectionList = namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, "");
-				const unmodifiedName = nodeData["SkillName"].split(" ").slice(1).join(" ");
-				if (unmodifiedName.length > 0
-					&& namedConnectionList.includes(unmodifiedName)
-					&& nodeData["Reward"]["dwMaxTalentRanks"] == 3) {
-					$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
-					nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+			if (buildNumber == 36023) {
+				if (nodeData["SkillName"] == "Prime Unstable Currents" && nodeData["Id"] == 619) {
+					$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Unstable Currents`.");
+					nodeData["SkillName"] = "Supreme Unstable Currents";
+				} else if (nodeData["SkillName"] == "Upgrade 1" && nodeData["Id"] == 617) {
+					$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Prime Inferno`.");
+					nodeData["SkillName"] = "Prime Inferno";
+				} else if (nodeData["SkillName"] == "Upgrade 2" && nodeData["Id"] == 620) {
+					$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Inferno`.");
+					nodeData["SkillName"] = "Supreme Inferno";
+				}
+				if (nodeData["SkillName"]) {
+					const namedConnectionList = namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, "");
+					const unmodifiedName = nodeData["SkillName"].split(" ").slice(1).join(" ");
+					if (unmodifiedName.length > 0
+						&& namedConnectionList.includes(unmodifiedName)
+						&& nodeData["Reward"]["dwMaxTalentRanks"] == 3) {
+						$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
+						nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+					}
 				}
 			}
 		});
