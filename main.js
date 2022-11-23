@@ -120,8 +120,8 @@ var isTouching = false;
 var initialScale;
 var initialTouchDistance;
 
-var previousWidth = 0;
-var previousHeight = 0;
+var oldWidth = 0;
+var oldHeight = 0;
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
@@ -915,7 +915,7 @@ function repositionTooltip() {
 	if (!pixiTooltip) return;
 
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + Math.min($("#summaryContainer").outerHeight(true), 50);
+	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
@@ -1089,27 +1089,22 @@ function rebuildCanvas() {
 	$("#renownLevel").text("");
 }
 function resizeCanvas() {
-	const [currentWidth, currentHeight] = [document.body.offsetWidth, document.body.offsetHeight];
-	if (currentWidth != previousWidth || currentHeight != previousHeight) {
-		[previousWidth, previousHeight] = [currentWidth, currentHeight];
-
+	let [newWidth, newHeight] = [document.documentElement.clientWidth, document.documentElement.clientHeight];
+	if (oldWidth != newWidth || oldHeight != newHeight) {
 		const offsetTop = $("#header").outerHeight(true);
 		const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
 		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
 
-		const oldWidth = pixiJS.renderer.width;
-		const oldHeight = pixiJS.renderer.height;
-
 		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
-		pixiJS.renderer.resize(document.body.offsetWidth, document.body.offsetHeight);
-
-		const newWidth = pixiJS.renderer.width;
-		const newHeight = pixiJS.renderer.height;
+		[newWidth, newHeight] = [document.documentElement.clientWidth, document.documentElement.clientHeight];
+		pixiJS.renderer.resize(newWidth, newHeight);
 
 		for (let i = 0; i < pixiJS.stage.children.length; i++) {
 			pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth / 2 + newWidth / 2;
 			pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight / 2 + newHeight / 2;
 		}
+
+		[oldWidth, oldHeight] = [newWidth, newHeight];
 	}
 }
 
