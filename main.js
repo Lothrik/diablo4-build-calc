@@ -93,18 +93,6 @@ const lineStyleThinButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native:
 const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
 const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: false, width: 8 };
 
-// pixiJS application helper
-PIXI.settings.RESOLUTION = devicePixelRatio;
-PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
-
-const pixiJS = new PIXI.Application({
-	antialias: false,
-	autoDensity: true,
-	backgroundAlpha: 0,
-	height: minCanvasHeight,
-	width: minCanvasWidth,
-});
-
 var pixiAllocatedPoints = new Map();
 var pixiNodes = [];
 var pixiConnectors = [];
@@ -122,6 +110,18 @@ var initialTouchDistance;
 
 var oldWidth = 0;
 var oldHeight = 0;
+
+PIXI.settings.RESOLUTION = devicePixelRatio;
+PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
+
+// pixiJS application helper
+const pixiJS = new PIXI.Application({
+	antialias: false,
+	autoDensity: true,
+	backgroundAlpha: 0,
+	height: minCanvasHeight,
+	width: minCanvasWidth,
+});
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
@@ -285,8 +285,6 @@ function handleReloadButton() {
 function handleShareButton() {
 	navigator.clipboard.writeText(window.location.href);
 }
-
-// pixiJS magic
 function onContextMenu(event) {
 	event.preventDefault();
 }
