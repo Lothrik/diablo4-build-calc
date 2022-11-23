@@ -211,13 +211,14 @@ function handleClassSelection(event) {
 	if (newClass.text() != $("#className").text()) {
 		if (newClass.val() == "none") {
 			$("#className").text("None");
-			$("#groupSelector, #header h2").addClass("hidden");
+			$("#header h2").addClass("hidden");
 			$("#groupSelector, #resetButton").prop("disabled", true);
-			$("#groupSelector").empty().addClass("hidden");
+			$("#groupSelector").empty().addClass("disabled");
 		} else {
 			$("#className").text(newClass.text());
-			$("#groupSelector, #header h2").removeClass("hidden");
+			$("#header h2").removeClass("hidden");
 			$("#groupSelector, #resetButton").prop("disabled", false);
+			$("#groupSelector").removeClass("disabled");
 		}
 		rebuildCanvas();
 	}
