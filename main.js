@@ -120,7 +120,8 @@ var isTouching = false;
 var initialScale;
 var initialTouchDistance;
 
-var previousSummaryHeight = 0;
+var previousWidth = 0;
+var previousHeight = 0;
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
@@ -816,11 +817,7 @@ function drawTooltip(curNode) {
 		$("#tooltipSummaryContainer").addClass("disabled");
 	}
 
-	const newSummaryHeight = $("#summaryContainer").outerHeight(true);
-	if (previousSummaryHeight != newSummaryHeight) {
-		resizeCanvas();
-		previousSummaryHeight = newSummaryHeight;
-	}
+	resizeCanvas();
 
 	if (document.body.clientWidth < 800) {
 		return;
@@ -1092,22 +1089,27 @@ function rebuildCanvas() {
 	$("#renownLevel").text("");
 }
 function resizeCanvas() {
-	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + Math.min($("#summaryContainer").outerHeight(true), 50);
-	$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
+	const [currentWidth, currentHeight] = [document.body.offsetWidth, document.body.offsetHeight];
+	if (currentWidth != previousWidth || currentHeight != previousHeight) {
+		[previousWidth, previousHeight] = [currentWidth, currentHeight];
 
-	const oldWidth = pixiJS.renderer.width;
-	const oldHeight = pixiJS.renderer.height;
+		const offsetTop = $("#header").outerHeight(true);
+		const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
 
-	pixiJS.renderer.resize(document.body.clientWidth, document.body.clientHeight);
-	pixiJS.renderer.resize(document.body.clientWidth, document.body.clientHeight); // resize twice to avoid creating a horizontal scrollbar
+		const oldWidth = pixiJS.renderer.width;
+		const oldHeight = pixiJS.renderer.height;
 
-	const newWidth = document.body.clientWidth;
-	const newHeight = document.body.clientHeight;
+		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
+		pixiJS.renderer.resize(document.body.offsetWidth, document.body.offsetHeight);
 
-	for (let i = 0; i < pixiJS.stage.children.length; i++) {
-		pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth / 2 + newWidth / 2;
-		pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight / 2 + newHeight / 2;
+		const newWidth = document.body.clientWidth;
+		const newHeight = document.body.clientHeight;
+
+		for (let i = 0; i < pixiJS.stage.children.length; i++) {
+			pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth / 2 + newWidth / 2;
+			pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight / 2 + newHeight / 2;
+		}
 	}
 }
 
