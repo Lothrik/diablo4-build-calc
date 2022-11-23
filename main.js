@@ -533,7 +533,7 @@ function getAllocatedSkillPoints(groupName) {
 
 	return points;
 }
-const MAX_RECURSION_DEPTH = 2;
+const MAX_RECURSION_DEPTH = 3;
 function recursivePathValidation(startNode, recursionDepth = 0) {
 	for (const pixiNode of pixiNodes) {
 		if (pixiNode.nodeName == startNode) {
