@@ -1103,8 +1103,8 @@ function resizeCanvas() {
 		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
 		pixiJS.renderer.resize(document.body.offsetWidth, document.body.offsetHeight);
 
-		const newWidth = document.body.clientWidth;
-		const newHeight = document.body.clientHeight;
+		const newWidth = pixiJS.renderer.width;
+		const newHeight = pixiJS.renderer.height;
 
 		for (let i = 0; i < pixiJS.stage.children.length; i++) {
 			pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth / 2 + newWidth / 2;
