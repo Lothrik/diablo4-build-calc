@@ -111,8 +111,17 @@ h1, h2, h3 {
 	justify-content: center;
 }
 
+.visible, .visible * {
+	visibility: visible!important;
+}
+
 .hidden, .hidden * {
 	visibility: hidden!important;
+	pointer-events: none;
+}
+
+.disabled, .disabled * {
+	display: none!important;
 	pointer-events: none;
 }
 
@@ -173,31 +182,17 @@ button:active {
 	margin: auto;
 }
 
+#tooltipSummaryHeader {
+	font-variant: small-caps;
+	border-bottom: 1px solid #fff;
+	text-align: left;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
 #summarySpacer {
 	clear: both;
 	height: 20px;
-}
-
-#summaryContainer .skillText {
-	clear: both;
-	text-align: left;
-	border-top: 1px solid #fff;
-}
-
-#summaryContainer strong {
-	font-size: 24px;
-	font-weight: normal;
-	display: block;
-	float: left;
-	clear: left;
-	width: 200px;
-	margin-top: 2.5px;
-	text-align: right;
-}
-
-#summaryContainer .descriptionText {
-	margin: 5px 0 5px 210px;
-	text-align: justify;
 }
 
 #footer {

@@ -120,8 +120,7 @@ var isTouching = false;
 var initialScale;
 var initialTouchDistance;
 
-var previousWidth = 0;
-var previousHeight = 0;
+var previousSummaryHeight = 0;
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
@@ -203,6 +202,7 @@ function handleSkillTreeZoom(event) {
 			}
 		}
 	}
+	event.preventDefault();
 }
 function handleClassSelection(event) {
 	let newClass = $(classString);
@@ -805,7 +805,26 @@ function drawTooltip(curNode) {
 		nodeDesc += "\nx: " + debugX + "\ny: " + debugY;
 	}
 
-	const clampedWidth = Math.min($("#skillTree").width(), tooltipWidth);
+	$("#tooltipSummaryHeader").text(curNode.nodeName);
+	$("#tooltipSummaryContainer").text(nodeDesc);
+
+	if (document.body.clientWidth < 800) {
+		$("#tooltipSummaryHeader").removeClass("disabled");
+		$("#tooltipSummaryContainer").removeClass("disabled");
+	} else {
+		$("#tooltipSummaryHeader").addClass("disabled");
+		$("#tooltipSummaryContainer").addClass("disabled");
+	}
+
+	const newSummaryHeight = $("#summaryContainer").outerHeight(true);
+	if (previousSummaryHeight != newSummaryHeight) {
+		resizeCanvas();
+		previousSummaryHeight = newSummaryHeight;
+	}
+
+	if (document.body.clientWidth < 800) {
+		return;
+	}
 
 	const tooltipText1 = new PIXI.Text(curNode.nodeName, {
 		align: "left",
@@ -813,15 +832,15 @@ function drawTooltip(curNode) {
 		cacheAsBitmap: true,
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: 36 * 2,
+		fontSize: 36 * 4,
 		fontVariant: "small-caps",
 		fontWeight: "bold",
-		width: clampedWidth * 2,
+		width: tooltipWidth * 4,
 		wordWrap: true,
-		wordWrapWidth: clampedWidth * 2, // inexplicably cannot exceed 1065 pixels on mobile
+		wordWrapWidth: tooltipWidth * 4,
 	});
 	tooltipText1.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	tooltipText1.scale.set(0.5);
+	tooltipText1.scale.set(0.25);
 	tooltipText1.anchor.set(0);
 
 	const tooltipText2 = new PIXI.Text("\n" + nodeDesc, {
@@ -830,13 +849,13 @@ function drawTooltip(curNode) {
 		cacheAsBitmap: true,
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: 36 * 2,
-		width: clampedWidth * 2,
+		fontSize: 36 * 4,
+		width: tooltipWidth * 4,
 		wordWrap: true,
-		wordWrapWidth: clampedWidth * 2, // inexplicably cannot exceed 1065 pixels on mobile
+		wordWrapWidth: tooltipWidth * 4,
 	});
 	tooltipText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	tooltipText2.scale.set(0.5);
+	tooltipText2.scale.set(0.25);
 	tooltipText2.anchor.set(0);
 	tooltipText2.position.y = 18;
 
@@ -899,7 +918,7 @@ function repositionTooltip() {
 	if (!pixiTooltip) return;
 
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + Math.min($("#summaryContainer").outerHeight(true), 50);
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
@@ -1057,8 +1076,6 @@ function rebuildCanvas() {
 	pixiDragging = null;
 
 	pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
-	previousWidth = minCanvasWidth;
-	previousHeight = minCanvasHeight;
 
 	pixiJS.stage.pivot.x = 0;
 	pixiJS.stage.pivot.y = 0;
@@ -1075,30 +1092,22 @@ function rebuildCanvas() {
 	$("#renownLevel").text("");
 }
 function resizeCanvas() {
-	if (document.body.offsetHeight != previousHeight || document.body.offsetWidth != previousWidth) {
-		const offsetTop = $("#header").outerHeight(true);
-		const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
-		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
+	const offsetTop = $("#header").outerHeight(true);
+	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + Math.min($("#summaryContainer").outerHeight(true), 50);
+	$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
 
-		previousWidth = document.body.offsetWidth;
-		previousHeight = document.body.offsetHeight;
+	const oldWidth = pixiJS.renderer.width;
+	const oldHeight = pixiJS.renderer.height;
 
-		const parent = pixiJS.view.parentNode;
+	pixiJS.renderer.resize(document.body.clientWidth, document.body.clientHeight);
+	pixiJS.renderer.resize(document.body.clientWidth, document.body.clientHeight); // resize twice to avoid creating a horizontal scrollbar
 
-		const oldWidth = pixiJS.renderer.width;
-		const oldHeight = pixiJS.renderer.height;
+	const newWidth = document.body.clientWidth;
+	const newHeight = document.body.clientHeight;
 
-		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
-
-		const newWidth = Math.floor(Math.max(Math.min(document.body.clientWidth, maxCanvasWidth), minCanvasWidth));
-		const newHeight = Math.floor(Math.max(Math.min($("#skillTree").height(), maxCanvasHeight), minCanvasHeight));
-
-		pixiJS.renderer.resize(newWidth, newHeight);
-
-		for (let i = 0; i < pixiJS.stage.children.length; i++) {
-			pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth / 2 + newWidth / 2;
-			pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight / 2 + newHeight / 2;
-		}
+	for (let i = 0; i < pixiJS.stage.children.length; i++) {
+		pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth / 2 + newWidth / 2;
+		pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight / 2 + newHeight / 2;
 	}
 }
 
