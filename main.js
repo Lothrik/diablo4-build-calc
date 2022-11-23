@@ -154,6 +154,7 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 
 // event handlers
 const classString = "#classSelector option:selected";
+const groupString = "#groupSelector option:selected";
 function handleSkillTreeZoom(event) {
 	switch (event.type) {
 		case "touchstart":
@@ -206,18 +207,27 @@ function handleSkillTreeZoom(event) {
 	event.preventDefault();
 }
 function handleClassSelection(event) {
-	let newClass = $(classString);
+	const newClass = $(classString);
 	if (newClass.text() != $("#className").text()) {
-		$("#header h2").removeClass("hidden");
 		if (newClass.val() == "none") {
 			$("#className").text("None");
-			$("#header h2").addClass("hidden");
-			$("#resetButton").prop("disabled", true);
+			$("#groupSelector, #header h2").addClass("hidden");
+			$("#groupSelector, #resetButton").prop("disabled", true);
+			$("#groupSelector").empty().addClass("hidden");
 		} else {
 			$("#className").text(newClass.text());
-			$("#resetButton").prop("disabled", false);
+			$("#groupSelector, #header h2").removeClass("hidden");
+			$("#groupSelector, #resetButton").prop("disabled", false);
 		}
 		rebuildCanvas();
+	}
+}
+function handleGroupSelection(event) {
+	const newGroupName = $(groupString).text();
+	const newGroupNode = pixiNodes.find(pixiNode => pixiNode.nodeName == newGroupName);
+	if (newGroupNode != undefined) {
+		pixiJS.stage.pivot.x = newGroupNode.x - oldWidth / pixiJS.stage.scale.x / 2;
+		pixiJS.stage.pivot.y = newGroupNode.y - oldHeight / pixiJS.stage.scale.y / 2;
 	}
 }
 function handleResetButton(event) {
@@ -723,9 +733,11 @@ function drawAllNodes() {
 	const classData = classMap.get(className);
 	if (classData != undefined) {
 		const trunkData = classData.get("Trunk Data");
+		$("#groupSelector").empty();
 		for (const [groupName, groupData] of classData) {
 			const branchData = trunkData.get(groupName);
 			if (branchData != undefined) {
+				$("#groupSelector").append(`<option value="${groupName.replace(/\s/g, "").toLowerCase()}">${groupName}</option>`);
 				// special logic for group node
 				const groupNode = new Map();
 				groupNode.set("description", "Spend {requiredPoints} additional skill points to unlock.");
@@ -913,7 +925,7 @@ function repositionTooltip() {
 	if (!pixiTooltip) return;
 
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+	const offsetBottom = $("#selectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
@@ -1069,8 +1081,9 @@ function rebuildCanvas() {
 
 	pixiTooltip = null;
 	pixiDragging = null;
-
-	pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
+	
+	oldWidth = 0;
+	oldHeight = 0;
 
 	pixiJS.stage.pivot.x = 0;
 	pixiJS.stage.pivot.y = 0;
@@ -1084,13 +1097,13 @@ function rebuildCanvas() {
 	resizeCanvas();
 
 	$("#charLevel").text("1");
-	$("#renownLevel").text("");
+	$("#renownLevel").empty();
 }
 function resizeCanvas() {
 	let [newWidth, newHeight] = [document.documentElement.clientWidth, document.documentElement.clientHeight];
 	if (oldWidth != newWidth || oldHeight != newHeight) {
 		const offsetTop = $("#header").outerHeight(true);
-		const offsetBottom = $("#classSelectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+		const offsetBottom = $("#selectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
 		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
 
 		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
@@ -1114,6 +1127,7 @@ $(document).ready(function() {
 	$("#reloadButton").on("click", handleReloadButton);
 	$("#shareButton").on("click", handleShareButton);
 	$("#classSelector").on("change", handleClassSelection);
+	$("#groupSelector").on("change", handleGroupSelection);
 	$("#skillTree").on("wheel touchstart touchend touchmove", handleSkillTreeZoom);
 	$("#skillTree").on("contextmenu", onContextMenu);
 	$("#skillTree").on("mousemove touchmove", clearTextSelect);

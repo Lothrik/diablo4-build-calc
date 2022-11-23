@@ -126,14 +126,14 @@ h1, h2, h3 {
 	pointer-events: none;
 }
 
-#classSelectContainer, #extraButtons {
+#selectContainer, #extraButtons {
 	display: flex;
 	margin: 0 auto 10px;
 	user-select: none;
 	justify-content: center;
 }
 
-#classSelectContainer > *, #extraButtons > * {
+#selectContainer > *, #extraButtons > * {
 	margin: 0 2.5px;
 }
 
