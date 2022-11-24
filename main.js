@@ -213,12 +213,13 @@ function handleClassSelection(event) {
 			$("#className").text("None");
 			$("#header h2").addClass("hidden");
 			$("#groupSelector, #resetButton").prop("disabled", true);
-			$("#groupSelector").empty().addClass("disabled");
+			$("#groupSelector, #searchInput").addClass("disabled");
+			$("#groupSelector").empty();
 		} else {
 			$("#className").text(newClass.text());
 			$("#header h2").removeClass("hidden");
 			$("#groupSelector, #resetButton").prop("disabled", false);
-			$("#groupSelector").removeClass("disabled");
+			$("#groupSelector, #searchInput").removeClass("disabled");
 		}
 		rebuildCanvas();
 	}
@@ -229,6 +230,30 @@ function handleGroupSelection(event) {
 	if (newGroupNode != undefined) {
 		pixiJS.stage.pivot.x = newGroupNode.x - oldWidth / pixiJS.stage.scale.x / 2;
 		pixiJS.stage.pivot.y = newGroupNode.y - oldHeight / pixiJS.stage.scale.y / 2;
+	}
+}
+function handleSearchInput(event) {
+	const newSearchText = $("#searchInput").val();
+	if (newSearchText.length > 2) {
+		// search `nodeName` for `newSearchText`
+		const newSearchNode = pixiNodes.find(pixiNode => pixiNode.nodeName.toLowerCase().includes(newSearchText.toLowerCase()));
+		if (newSearchNode != undefined) {
+			pixiJS.stage.pivot.x = newSearchNode.x - oldWidth / pixiJS.stage.scale.x / 2;
+			pixiJS.stage.pivot.y = newSearchNode.y - oldHeight / pixiJS.stage.scale.y / 2;
+			$("#searchInput").val("");
+		} else {
+			// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
+			const newSearchDesc = pixiNodes.find(pixiNode => {
+				const nodeDesc = pixiNode.nodeData.get("description");
+				if (!nodeDesc || nodeDesc.length == 0) return false;
+				return nodeDesc.toLowerCase().includes(newSearchText.toLowerCase());
+			});
+			if (newSearchDesc != undefined) {
+				pixiJS.stage.pivot.x = newSearchDesc.x - oldWidth / pixiJS.stage.scale.x / 2;
+				pixiJS.stage.pivot.y = newSearchDesc.y - oldHeight / pixiJS.stage.scale.y / 2;
+				$("#searchInput").val("");
+			}
+		}
 	}
 }
 function handleResetButton(event) {
@@ -300,7 +325,7 @@ function onContextMenu(event) {
 	event.preventDefault();
 }
 function clearTextSelect(event) {
-	window.getSelection()?.removeAllRanges();
+	if (document.activeElement != $("#searchInput")[0]) window.getSelection()?.removeAllRanges();
 }
 function onDragStart(event) {
 	if (!debugMode) return onDragAllStart(event);
@@ -1129,6 +1154,7 @@ $(document).ready(function() {
 	$("#shareButton").on("click", handleShareButton);
 	$("#classSelector").on("change", handleClassSelection);
 	$("#groupSelector").on("change", handleGroupSelection);
+	$("#searchInput").on("change", handleSearchInput);
 	$("#skillTree").on("wheel touchstart touchend touchmove", handleSkillTreeZoom);
 	$("#skillTree").on("contextmenu", onContextMenu);
 	$("#skillTree").on("mousemove touchmove", clearTextSelect);

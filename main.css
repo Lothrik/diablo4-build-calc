@@ -71,7 +71,7 @@ h1, h2, h3 {
 	border-bottom-width: 2px;
 }
 
-#header, #summaryContainer, select, option, button {
+#header, #summaryContainer, select, input, option, button {
 	background-color: #000;
 	border-color: #fff;
 	z-index: 1;
@@ -159,6 +159,13 @@ select {
 	background-size: 8px;
 	-webkit-appearance: none;
 	appearance: none;
+}
+
+input {
+	height: 22px;
+	width: 100px;
+	border-width: 1px;
+	border-style: solid;
 }
 
 :disabled {
