@@ -517,7 +517,7 @@ let nodeHistory = {
 		"Basic: Glinting Fire Bolt": 14,
 		"Basic: Flickering Fire Bolt": 15,
 		"Core: Charged Bolts": 16,
-		"Core: Enhanced Charged Bolt": 17,
+		"Core: Enhanced Charged Bolts": 17,
 		"Core: Greater Charged Bolts": 18,
 		"Core: Destructive Charged Bolts": 19,
 		"Core: Frozen Orb": 20,
