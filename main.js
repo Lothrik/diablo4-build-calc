@@ -232,27 +232,68 @@ function handleGroupSelection(event) {
 		pixiJS.stage.pivot.y = newGroupNode.y - oldHeight / pixiJS.stage.scale.y / 2;
 	}
 }
+var oldSearchIdx = 0;
+var oldSearchText = "";
 function handleSearchInput(event) {
 	const newSearchText = $("#searchInput").val();
-	if (newSearchText.length > 2) {
+	if (newSearchText.length > 2 && (oldSearchText != newSearchText || event.keyCode == 13 || event.type == "tap")) {
+		let firstMatch = null;
+		let newSearchIdx = 0;
 		// search `nodeName` for `newSearchText`
-		const newSearchNode = pixiNodes.find(pixiNode => pixiNode.nodeName.toLowerCase().includes(newSearchText.toLowerCase()));
+		const newSearchNode = pixiNodes.find(pixiNode => {
+			if (pixiNode.nodeName.toLowerCase().includes(newSearchText.toLowerCase())) {
+				if (firstMatch == null) firstMatch = pixiNode;
+				if (oldSearchText == newSearchText) {
+					if (oldSearchIdx >= newSearchIdx) {
+						newSearchIdx++;
+					} else {
+						oldSearchIdx = newSearchIdx;
+						return true;
+					}
+				} else {
+					return true;
+				}
+			}
+			return false;
+		});
 		if (newSearchNode != undefined) {
 			pixiJS.stage.pivot.x = newSearchNode.x - oldWidth / pixiJS.stage.scale.x / 2;
 			pixiJS.stage.pivot.y = newSearchNode.y - oldHeight / pixiJS.stage.scale.y / 2;
-			$("#searchInput").val("");
 		} else {
 			// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
 			const newSearchDesc = pixiNodes.find(pixiNode => {
 				const nodeDesc = pixiNode.nodeData.get("description");
 				if (!nodeDesc || nodeDesc.length == 0) return false;
-				return nodeDesc.toLowerCase().includes(newSearchText.toLowerCase());
+				if (nodeDesc.toLowerCase().includes(newSearchText.toLowerCase())) {
+					if (firstMatch == null) firstMatch = pixiNode;
+					if (oldSearchText == newSearchText) {
+						if (oldSearchIdx >= newSearchIdx) {
+							newSearchIdx++;
+						} else {
+							oldSearchIdx = newSearchIdx;
+							return true;
+						}
+					} else {
+						return true;
+					}
+				}
+				return false;
 			});
 			if (newSearchDesc != undefined) {
 				pixiJS.stage.pivot.x = newSearchDesc.x - oldWidth / pixiJS.stage.scale.x / 2;
 				pixiJS.stage.pivot.y = newSearchDesc.y - oldHeight / pixiJS.stage.scale.y / 2;
-				$("#searchInput").val("");
+			} else {
+				oldSearchIdx = 0;
 			}
+			if (firstMatch != null) {
+				pixiJS.stage.pivot.x = firstMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
+				pixiJS.stage.pivot.y = firstMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
+				oldSearchIdx = 0;
+			}
+		}
+		if (oldSearchText != newSearchText) {
+			oldSearchIdx = 0;
+			oldSearchText = newSearchText;
 		}
 	}
 }
@@ -1154,7 +1195,8 @@ $(document).ready(function() {
 	$("#shareButton").on("click", handleShareButton);
 	$("#classSelector").on("change", handleClassSelection);
 	$("#groupSelector").on("change", handleGroupSelection);
-	$("#searchInput").on("change", handleSearchInput);
+	$("#searchInput").on("keyup", handleSearchInput);
+	$("#searchInput").on("tap", handleSearchInput);
 	$("#skillTree").on("wheel touchstart touchend touchmove", handleSkillTreeZoom);
 	$("#skillTree").on("contextmenu", onContextMenu);
 	$("#skillTree").on("mousemove touchmove", clearTextSelect);
