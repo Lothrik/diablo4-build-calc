@@ -236,13 +236,13 @@ function handleGroupSelection(event) {
 var oldSearchIdx = 0;
 var oldSearchText = "";
 function handleSearchInput(event) {
+	let newSearchIdx = 0;
 	const newSearchText = $("#searchInput").val();
 	if (newSearchText.length > 2 && (oldSearchText != newSearchText || event.keyCode == 13 || event.type == "click")) {
-		let newSearchIdx = 0;
 		let firstMatch;
 		let firstMatchIdx = 0;
-		// search `nodeName` for `newSearchText`
-		const newSearchNode = pixiNodes.find(pixiNode => {
+		const nodeMatch = pixiNodes.find(pixiNode => {
+			// search `nodeName` for `newSearchText`
 			if (pixiNode.nodeName.toLowerCase().includes(newSearchText.toLowerCase())) {
 				if (firstMatch == undefined) {
 					firstMatch = pixiNode;
@@ -258,15 +258,8 @@ function handleSearchInput(event) {
 				} else {
 					return true;
 				}
-			}
-			return false;
-		});
-		if (newSearchNode != undefined) {
-			pixiJS.stage.pivot.x = newSearchNode.x - oldWidth / pixiJS.stage.scale.x / 2;
-			pixiJS.stage.pivot.y = newSearchNode.y - oldHeight / pixiJS.stage.scale.y / 2;
-		} else {
-			// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
-			const newSearchDesc = pixiNodes.find(pixiNode => {
+			} else {
+				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
 				const nodeDesc = pixiNode.nodeData.get("description");
 				if (!nodeDesc || nodeDesc.length == 0) return false;
 				if (nodeDesc.toLowerCase().includes(newSearchText.toLowerCase())) {
@@ -285,20 +278,22 @@ function handleSearchInput(event) {
 						return true;
 					}
 				}
-				return false;
-			});
-			if (newSearchDesc != undefined) {
-				pixiJS.stage.pivot.x = newSearchDesc.x - oldWidth / pixiJS.stage.scale.x / 2;
-				pixiJS.stage.pivot.y = newSearchDesc.y - oldHeight / pixiJS.stage.scale.y / 2;
-			} else if (firstMatch != undefined) {
-				pixiJS.stage.pivot.x = firstMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
-				pixiJS.stage.pivot.y = firstMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
-				oldSearchIdx = firstMatchIdx;
 			}
+			return false;
+		});
+		if (nodeMatch != undefined) {
+			pixiJS.stage.pivot.x = nodeMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
+			pixiJS.stage.pivot.y = nodeMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
+			drawTooltip(nodeMatch);
+		} else if (firstMatch != undefined) {
+			pixiJS.stage.pivot.x = firstMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
+			pixiJS.stage.pivot.y = firstMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
+			drawTooltip(firstMatch);
+			oldSearchIdx = firstMatchIdx;
 		}
 		if (oldSearchText != newSearchText) {
-			oldSearchText = newSearchText;
 			oldSearchIdx = 0;
+			oldSearchText = newSearchText;
 		}
 	}
 }
