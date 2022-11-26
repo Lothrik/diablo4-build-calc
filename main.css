@@ -112,6 +112,7 @@ h1, h2, h3 {
 
 #skillTree {
 	display: flex;
+	min-height: 420px;
 	user-select: none;
 	flex-grow: 9999;
 	justify-content: center;
