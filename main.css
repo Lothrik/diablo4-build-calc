@@ -99,9 +99,15 @@ h1, h2, h3 {
 	font-size: 80%;
 }
 
-@media (max-width: 452px) {
+@media (max-width: 452px) and (min-width: 360px)  {
 	#header {
 		font-size: 7.1vw;
+	}
+}
+
+@media (max-width: 360px)  {
+	#header {
+		font-size: 25.56px;
 	}
 }
 
@@ -126,20 +132,26 @@ h1, h2, h3 {
 	pointer-events: none;
 }
 
-#selectContainer, #extraButtons {
+#extraButtons1, #extraButtons2 {
 	display: flex;
 	margin: 0 auto 10px;
 	user-select: none;
 	justify-content: center;
 }
 
-#selectContainer > *, #extraButtons > * {
+#extraButtons1 > *, #extraButtons2 > * {
 	margin: 0 2.5px;
 }
 
-@media (max-width: 384px) {
+@media (max-width: 384px) and (min-width: 360px) {
 	button {
 		font-size: 5vw!important;
+	}
+}
+
+@media (max-width: 360px) {
+	button {
+		font-size: 18px!important;
 	}
 }
 
@@ -161,9 +173,9 @@ select {
 	appearance: none;
 }
 
-input {
+#searchInput {
 	height: 22px;
-	width: 100px;
+	width: 92px;
 	border-width: 1px;
 	border-style: solid;
 }

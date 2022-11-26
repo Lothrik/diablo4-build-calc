@@ -213,13 +213,14 @@ function handleClassSelection(event) {
 			$("#className").text("None");
 			$("#header h2").addClass("hidden");
 			$("#groupSelector, #resetButton").prop("disabled", true);
-			$("#groupSelector, #searchInput").addClass("disabled");
+			$("#groupSelector, #searchInput, #searchButton").addClass("disabled");
 			$("#groupSelector").empty();
+			$("#searchInput").removeAttr("style");
 		} else {
 			$("#className").text(newClass.text());
 			$("#header h2").removeClass("hidden");
 			$("#groupSelector, #resetButton").prop("disabled", false);
-			$("#groupSelector, #searchInput").removeClass("disabled");
+			$("#groupSelector, #searchInput, #searchButton").removeClass("disabled");
 		}
 		rebuildCanvas();
 	}
@@ -236,7 +237,7 @@ var oldSearchIdx = 0;
 var oldSearchText = "";
 function handleSearchInput(event) {
 	const newSearchText = $("#searchInput").val();
-	if (newSearchText.length > 2 && (oldSearchText != newSearchText || event.keyCode == 13 || event.type == "tap")) {
+	if (newSearchText.length > 2 && (oldSearchText != newSearchText || event.keyCode == 13 || event.type == "click")) {
 		let firstMatch = null;
 		let newSearchIdx = 0;
 		// search `nodeName` for `newSearchText`
@@ -822,6 +823,7 @@ function drawAllNodes() {
 				}
 			}
 		}
+		resizeSearchInput();
 	}
 }
 function sanitizeNodeDescription(descriptionText) {
@@ -990,7 +992,7 @@ function repositionTooltip() {
 	if (!pixiTooltip) return;
 
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#selectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+	const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#summaryContainer").outerHeight(true);
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
@@ -1146,7 +1148,7 @@ function rebuildCanvas() {
 
 	pixiTooltip = null;
 	pixiDragging = null;
-	
+
 	oldWidth = 0;
 	oldHeight = 0;
 
@@ -1168,7 +1170,7 @@ function resizeCanvas() {
 	let [newWidth, newHeight] = [document.documentElement.clientWidth, document.documentElement.clientHeight];
 	if (oldWidth != newWidth || oldHeight != newHeight) {
 		const offsetTop = $("#header").outerHeight(true);
-		const offsetBottom = $("#selectContainer").outerHeight(true) + $("#extraButtons").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+		const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#summaryContainer").outerHeight(true);
 		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
 
 		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
@@ -1181,7 +1183,13 @@ function resizeCanvas() {
 		}
 
 		[oldWidth, oldHeight] = [newWidth, newHeight];
+
+		resizeSearchInput();
 	}
+}
+function resizeSearchInput() {
+	const targetWidth = $("#extraButtons2").innerWidth() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 11;
+	$("#searchInput").width(targetWidth);
 }
 
 // finalize the page once DOM has loaded
@@ -1194,7 +1202,7 @@ $(document).ready(function() {
 	$("#classSelector").on("change", handleClassSelection);
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup", handleSearchInput);
-	$("#searchInput").on("tap", handleSearchInput);
+	$("#searchButton").on("click", handleSearchInput);
 	$("#skillTree").on("wheel touchstart touchend touchmove", handleSkillTreeZoom);
 	$("#skillTree").on("contextmenu", onContextMenu);
 	$("#skillTree").on("mousemove touchmove", clearTextSelect);
