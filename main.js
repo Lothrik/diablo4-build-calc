@@ -997,14 +997,18 @@ function repositionTooltip() {
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
-	const minX = 10 + 8 / pixiJS.stage.scale.x;
-	const minY = offsetTop + 4 + 4 / pixiJS.stage.scale.y;
+	const borderWidth = 8;
+	const marginSize = 10;
+	const xOffsetFix = 2;
 
-	const maxX = pixiJS.renderer.width - 4 - pixiTooltip.width * pixiJS.stage.scale.x;
-	const maxY = pixiJS.renderer.height - offsetBottom + 10 - (pixiTooltip.height + 8) * pixiJS.stage.scale.y;
+	const minX = marginSize - xOffsetFix;
+	const minY = offsetTop + marginSize;
 
-	const globalX = globalPosition.x + nodeWidth * pixiJS.stage.scale.x / 2 + 20 * pixiTooltip.scale.x;
-	const globalY = globalPosition.y - nodeHeight * pixiJS.stage.scale.y / 2 + 10 * pixiTooltip.scale.y;
+	const maxX = pixiJS.renderer.width - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
+	const maxY = pixiJS.renderer.height - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
+
+	const globalX = globalPosition.x + (nodeWidth + borderWidth) * pixiJS.stage.scale.x / 2;
+	const globalY = globalPosition.y - (nodeHeight + borderWidth) * pixiJS.stage.scale.y / 2;
 
 	const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
 	const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
