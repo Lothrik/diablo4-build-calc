@@ -282,8 +282,6 @@ function handleSearchInput(event) {
 			if (newSearchDesc != undefined) {
 				pixiJS.stage.pivot.x = newSearchDesc.x - oldWidth / pixiJS.stage.scale.x / 2;
 				pixiJS.stage.pivot.y = newSearchDesc.y - oldHeight / pixiJS.stage.scale.y / 2;
-			} else {
-				oldSearchIdx = 0;
 			}
 			if (firstMatch != null) {
 				pixiJS.stage.pivot.x = firstMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
