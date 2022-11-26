@@ -238,12 +238,16 @@ var oldSearchText = "";
 function handleSearchInput(event) {
 	const newSearchText = $("#searchInput").val();
 	if (newSearchText.length > 2 && (oldSearchText != newSearchText || event.keyCode == 13 || event.type == "click")) {
-		let firstMatch = null;
 		let newSearchIdx = 0;
+		let firstMatch;
+		let firstMatchIdx = 0;
 		// search `nodeName` for `newSearchText`
 		const newSearchNode = pixiNodes.find(pixiNode => {
 			if (pixiNode.nodeName.toLowerCase().includes(newSearchText.toLowerCase())) {
-				if (firstMatch == null) firstMatch = pixiNode;
+				if (firstMatch == undefined) {
+					firstMatch = pixiNode;
+					firstMatchIdx = newSearchIdx;
+				}
 				if (oldSearchText == newSearchText) {
 					if (oldSearchIdx >= newSearchIdx) {
 						newSearchIdx++;
@@ -266,7 +270,10 @@ function handleSearchInput(event) {
 				const nodeDesc = pixiNode.nodeData.get("description");
 				if (!nodeDesc || nodeDesc.length == 0) return false;
 				if (nodeDesc.toLowerCase().includes(newSearchText.toLowerCase())) {
-					if (firstMatch == null) firstMatch = pixiNode;
+					if (firstMatch == undefined) {
+						firstMatch = pixiNode;
+						firstMatchIdx = newSearchIdx;
+					}
 					if (oldSearchText == newSearchText) {
 						if (oldSearchIdx >= newSearchIdx) {
 							newSearchIdx++;
@@ -283,16 +290,15 @@ function handleSearchInput(event) {
 			if (newSearchDesc != undefined) {
 				pixiJS.stage.pivot.x = newSearchDesc.x - oldWidth / pixiJS.stage.scale.x / 2;
 				pixiJS.stage.pivot.y = newSearchDesc.y - oldHeight / pixiJS.stage.scale.y / 2;
-			}
-			if (firstMatch != null) {
+			} else if (firstMatch != undefined) {
 				pixiJS.stage.pivot.x = firstMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
 				pixiJS.stage.pivot.y = firstMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
-				oldSearchIdx = 0;
+				oldSearchIdx = firstMatchIdx;
 			}
 		}
 		if (oldSearchText != newSearchText) {
-			oldSearchIdx = 0;
 			oldSearchText = newSearchText;
+			oldSearchIdx = 0;
 		}
 	}
 }
