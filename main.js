@@ -297,6 +297,10 @@ function handleSearchInput(event) {
 		}
 	}
 }
+function resizeSearchInput() {
+	const targetWidth = $("#extraButtons2").innerWidth() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 5;
+	$("#searchInput").outerWidth(targetWidth);
+}
 function handleResetButton(event) {
 	rebuildCanvas();
 }
@@ -1191,10 +1195,6 @@ function resizeCanvas() {
 
 		resizeSearchInput();
 	}
-}
-function resizeSearchInput() {
-	const targetWidth = $("#extraButtons2").innerWidth() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 11;
-	$("#searchInput").width(targetWidth);
 }
 
 // finalize the page once DOM has loaded

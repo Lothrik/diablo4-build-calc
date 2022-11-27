@@ -155,7 +155,8 @@ h1, h2, h3 {
 	}
 }
 
-select, option, button {
+select, input, option, button {
+	box-sizing: border-box;
 	height: 26px;
 	padding: 0 6px;
 	cursor: pointer;
@@ -171,13 +172,6 @@ select {
 	background-size: 8px;
 	-webkit-appearance: none;
 	appearance: none;
-}
-
-#searchInput {
-	height: 22px;
-	width: 92px;
-	border-width: 1px;
-	border-style: solid;
 }
 
 :disabled {
