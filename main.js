@@ -343,7 +343,9 @@ function handleReloadButton() {
 		function finishLoading() {
 			delete nodeData.className;
 
-			for (const curNode of pixiNodes) {
+			// loop pixiNodes in reverse so any nodes near the end of the skill tree are deallocated first (where necessary), to avoid running out of unused points early
+			for (let i = pixiNodes.length - 1; i >= 0; i--) {
+				const curNode = pixiNodes[i];
 				if (curNode.groupName != undefined) {
 					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
 					const uniqueNodeId = Number(curNode.nodeData.get("id"));
