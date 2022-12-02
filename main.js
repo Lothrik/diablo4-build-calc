@@ -833,21 +833,22 @@ function drawAllNodes() {
 }
 function sanitizeNodeDescription(descriptionText) {
 	let sanitizedText = descriptionText
-		.replace(/{c_.+?}/g, "")				// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
-		.replace(/{\/c_.+?}/g, "")				// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
-		.replace(/{\/c}/g, "")					// `{/c}`, exact.
-		.replace(/{if:.+?}/g, "")				// `{if:ADVANCED_TOOLTIP}`, and similar.
-		.replace(/{\/if}/g, "")					// `{/if}`, exact.
-		.replace(/sLevel/g, "")					// `sLevel`, exact.
-		.replace(/4second\.:/g, "")				// `4second.:`, exact.
-		.replace(/ *\* */g, "")					// `*`, including any nearby whitespace.
-		.replace(/ *\| */g, "")					// `|`, including any nearby whitespace.
-		.replace(/{else}/g, "\n")				// Replace `{else}` with a newline.
-		.replace(/ *{.+?} */g, "{#}")			// Replace anything inside curly brackets with {#}.
-		.replace(/ *\[.+?\] */g, "{#}")			// Replace anything inside square brackets with {#}.
-		.replace(/{.+?}{.+?}/g, "{#}")			// Replace {#}{#} with {#}.
-		.replace(/([^x+ ]+?){#}/g, "$1 {#}")	// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of {#}.
-		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1");	// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of {#}.
+		.replace(/{c_.+?}/g, "")					// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
+		.replace(/{\/c_.+?}/g, "")					// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
+		.replace(/{\/c}/g, "")						// `{/c}`, exact.
+		.replace(/{if:.+?}/g, "")					// `{if:ADVANCED_TOOLTIP}`, and similar.
+		.replace(/{\/if}/g, "")						// `{/if}`, exact.
+		.replace(/sLevel/g, "")						// `sLevel`, exact.
+		.replace(/4second\.:/g, "")					// `4second.:`, exact.
+		.replace(/ *\* */g, "")						// `*`, including any nearby whitespace.
+		.replace(/ *\| */g, "")						// `|`, including any nearby whitespace.
+		.replace(/{else}/g, "\n")					// Replace `{else}` with a newline.
+		.replace(/ *{.+?} */g, "{#}")				// Replace anything inside curly brackets with {#}.
+		.replace(/ *\[.+?\] */g, "{#}")				// Replace anything inside square brackets with {#}.
+		.replace(/{.+?}{.+?}/g, "{#}")				// Replace {#}{#} with {#}.
+		.replace(/([^x+ ]+?){#}/g, "$1 {#}")		// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of {#}.
+		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1")		// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of {#}.
+		.replace(/{#} +(st|nd|rd|th)/g, "{#}th");	// Remove any whitespace between {#} and (`st`, `nd`, `rd`, or `th`).
 
 	return sanitizedText;
 }
