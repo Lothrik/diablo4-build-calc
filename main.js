@@ -342,10 +342,22 @@ function handleReloadButton() {
 
 		function finishLoading() {
 			delete nodeData.className;
+			function compareNodes(firstNode, secondNode) {
+				if (firstNode.groupName != undefined && secondNode.groupName != undefined) {
+					const firstFullNodeName = firstNode.groupName + ": " + firstNode.nodeName;
+					const firstUniqueNodeId = Number(firstNode.nodeData.get("id"));
+					const firstSavedPoints = nodeData[firstUniqueNodeId] == undefined ? (nodeData[firstFullNodeName] == undefined ? 0 : nodeData[firstFullNodeName]) : nodeData[firstUniqueNodeId];
 
-			// loop pixiNodes in reverse so any nodes near the end of the skill tree are deallocated first (where necessary), to avoid running out of unused points early
-			for (let i = pixiNodes.length - 1; i >= 0; i--) {
-				const curNode = pixiNodes[i];
+					const secondFullNodeName = secondNode.groupName + ": " + secondNode.nodeName;
+					const secondUniqueNodeId = Number(secondNode.nodeData.get("id"));
+					const secondSavedPoints = nodeData[secondUniqueNodeId] == undefined ? (nodeData[secondFullNodeName] == undefined ? 0 : nodeData[secondFullNodeName]) : nodeData[secondUniqueNodeId];
+					
+					if (firstSavedPoints > secondSavedPoints) return 1;
+					else if (firstSavedPoints < secondSavedPoints) return -1;
+				}
+				return 0;
+			}
+			function processNode(curNode) {
 				if (curNode.groupName != undefined) {
 					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
 					const uniqueNodeId = Number(curNode.nodeData.get("id"));
@@ -361,6 +373,9 @@ function handleReloadButton() {
 					updateNodePoints(curNode, newPoints);
 				}
 			}
+			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
+			const sortedNodes = [...pixiNodes].sort(compareNodes);
+			for (const curNode of sortedNodes) processNode(curNode);
 			updateCharacterLevel();
 		}
 	}
