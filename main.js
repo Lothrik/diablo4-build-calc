@@ -82,16 +82,17 @@ const tooltipScalingCeiling = 1.25;
 
 const fontFamily = $("body").css("fontFamily");
 const textColor = Number(rgba2hex($("*").css("color")));
-const backgroundColorRGB = $("#header").css("background-color");
-const backgroundColorHEX = rgba2hex(backgroundColorRGB);
-const backgroundColor = backgroundColorHEX.slice(0, 8);
-const backgroundOpacity = Number(backgroundColorRGB.replace(/^.*, (.+)\)/, "$1"));
-const borderColor = Number(rgba2hex($("#header").css("border-color")));
+const backgroundColorHEX = rgba2hex($("#header").css("background-color"));
+const backgroundColor = backgroundColorHEX.length == 8 ? Number(backgroundColorHEX) : backgroundColorHEX >>> 8;
+const backgroundOpacity = backgroundColorHEX.length == 8 ? 1 : (backgroundColorHEX & 0xFF) / 255;
+const borderColorHEX = rgba2hex($("#header").css("border-color"));
+const borderColor = borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
+const borderOpacity = borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
 
-const lineStyleThinSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
-const lineStyleThinButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
-const lineStyleThickSquare = { cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
-const lineStyleThickButt = { cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: false, width: 8 };
+const lineStyleThinSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
+const lineStyleThinButt = { alpha: borderOpacity, cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
+const lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
+const lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: Number(0xff0000), native: false, width: 8 };
 
 var pixiAllocatedPoints = new Map();
 var pixiNodes = [];
@@ -351,7 +352,7 @@ function handleReloadButton() {
 					const secondFullNodeName = secondNode.groupName + ": " + secondNode.nodeName;
 					const secondUniqueNodeId = Number(secondNode.nodeData.get("id"));
 					const secondSavedPoints = nodeData[secondUniqueNodeId] == undefined ? (nodeData[secondFullNodeName] == undefined ? 0 : nodeData[secondFullNodeName]) : nodeData[secondUniqueNodeId];
-					
+
 					if (firstSavedPoints > secondSavedPoints) return 1;
 					else if (firstSavedPoints < secondSavedPoints) return -1;
 				}
@@ -449,6 +450,7 @@ function onMouseOver(event) {
 function onMouseOut(event) {
 	if (!pixiDragging) eraseTooltip();
 }
+// returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
 function getNodePosition(curNode) {
 	if (curNode.groupName == undefined) {
 		const x = Math.round(curNode.position.x - pixiBackground.position.x - maxCanvasWidth);
