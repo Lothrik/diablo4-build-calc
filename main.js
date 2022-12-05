@@ -546,8 +546,8 @@ function canAllocate(curNode) {
 		}
 	}
 	const baseSkill = curNode.nodeData.get("baseSkill");
-	if (baseSkill != undefined) {
-		const upgradePrefixes = ["Enhanced"];
+	const upgradePrefixes = ["Enhanced"];
+	if (baseSkill != undefined && !upgradePrefixes.some(upgradePrefix => curNode.nodeName.indexOf(upgradePrefix) != -1)) {
 		return pixiNodes.find(pixiNode => {
 			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
 			if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
