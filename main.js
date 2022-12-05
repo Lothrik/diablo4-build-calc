@@ -884,6 +884,8 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/{.+?}{.+?}/g, "{#}")							// Replace {#}{#} with {#}.
 		.replace(/([^x+ ]+?){#}/g, "$1 {#}")					// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of {#}.
 		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1")					// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of {#}.
+		.replace(/\( *{/g, "({")								// Remove any whitespace between `(` and `{`.
+		.replace(/} *\)/g, "})")								// Remove any whitespace between `}` and `)`.
 		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ");				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
 
 	return sanitizedText;
