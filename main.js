@@ -878,6 +878,7 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/ *\* */g, "")									// `*`, including any nearby whitespace.
 		.replace(/ *\| */g, "")									// `|`, including any nearby whitespace.
 		.replace(/ \./g, ".")									// Replace ` .` with `.`.
+		.replace(/%\]/g, "]%")									// Replace `%]` with `]%`.
 		.replace(/{else}/g, "\n")								// Replace `{else}` with a newline.
 		.replace(/ *{.+?} */g, "{#}")							// Replace anything inside curly brackets with {#}.
 		.replace(/ *\[.+?\] */g, "{#}")							// Replace anything inside square brackets with {#}.
