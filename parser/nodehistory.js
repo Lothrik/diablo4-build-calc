@@ -261,7 +261,10 @@ let nodeHistory = {
 		"Capstone: Lupine Ferocity": 132,
 		"Capstone: Bestial Rampage": 133,
 		"Capstone: Perfect Storm": 134,
-		"Capstone: Ursine Strength": 135
+		"Capstone: Ursine Strength": 135,
+		"Spirit: Predatory Instinct": 136,
+		"Spirit: Iron Fur": 137,
+		"Spirit: Digitigrade Gait": 138
 	},
 	"Necromancer": {
 		"Basic: Decompose": 0,
@@ -372,7 +375,8 @@ let nodeHistory = {
 		"Capstone: Ossified Essence": 105,
 		"Capstone: Shadowblight": 106,
 		"Capstone: Rathma's Vigor": 107,
-		"Capstone: Strength in Numbers": 108
+		"Capstone: Strength in Numbers": 108,
+		"Summoning: Spiked Armor": 109
 	},
 	"Rogue": {
 		"Basic: Blade Shift": 0,
@@ -497,7 +501,24 @@ let nodeHistory = {
 		"Capstone: Close Quarters Combat": 119,
 		"Capstone: Victimize": 120,
 		"Capstone: Exposure": 121,
-		"Capstone: Precision": 122
+		"Capstone: Precision": 122,
+		"Subterfuge: Smoke Grenade": 123,
+		"Subterfuge: Enhanced Smoke Grenade": 124,
+		"Subterfuge: Subverting Smoke Grenade": 125,
+		"Subterfuge: Countering Smoke Grenade": 126,
+		"Subterfuge: Concealment": 127,
+		"Imbuements: Poison Imbuement": 128,
+		"Imbuements: Enhanced Poison Imbuement": 129,
+		"Imbuements: Mixed Poison Imbuement": 130,
+		"Imbuements: Blended Poison Imbuement": 131,
+		"Imbuements: Shadow Imbuement": 132,
+		"Imbuements: Enhanced Shadow Imbuement": 133,
+		"Imbuements: Mixed Shadow Imbuement": 134,
+		"Imbuements: Blended Shadow Imbuement": 135,
+		"Imbuements: Cold Imbuement": 136,
+		"Imbuements: Enhanced Cold Imbuement": 137,
+		"Imbuements: Mixed Cold Imbuement": 138,
+		"Imbuements: Blended Cold Imbuement": 139
 	},
 	"Sorcerer": {
 		"Basic: Frost Bolt": 0,

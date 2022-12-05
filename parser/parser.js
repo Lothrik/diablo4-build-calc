@@ -1,6 +1,6 @@
 import { nodeHistory } from "./nodehistory.js";
 
-const buildNumber = 36023;
+const buildNumber = 36331;
 
 var skillJSON = "";
 $.getJSON("tree/build-" + buildNumber + ".json", null, successData => {
@@ -128,7 +128,7 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode) 
 
 function fixJSON(classData, curNode, rootNodeName) {
 	const nodeData = classData["Nodes"][curNode];
-	if (buildNumber == 36023) {
+	if (buildNumber == 36023 || buildNumber == 36331) {
 		if (nodeData["SkillName"] == "Prime Unstable Currents" && nodeData["Id"] == 619) {
 			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Unstable Currents`.");
 			nodeData["SkillName"] = "Supreme Unstable Currents";
@@ -178,7 +178,7 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 				if (!classProcessed[className]) fixJSON(classData, connectedNode, rootNodeName);
 				output += '	["' + classData["Nodes"][connectedNode]["SkillName"] + '"]: {\n';
 				output += "		connections: " + namedConnections(classData["Nodes"][connectedNode]["Connections"], classData["Nodes"][connectedNode]["SkillName"], classData, rootNodeName) + ",\n";
-				output += "		description: `" + classData["Nodes"][connectedNode]["SkillDesc"] + "`,\n";
+				output += "		description: `" + classData["Nodes"][connectedNode]["SkillDesc"].trim() + "`,\n";
 				let nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + classData["Nodes"][connectedNode]["SkillName"]];
 				if (nodeHistoricalId != undefined) {
 					output += "		id: " + nodeHistoricalId + ",\n";
