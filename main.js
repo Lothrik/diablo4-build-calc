@@ -540,18 +540,16 @@ function canAllocate(curNode) {
 			if (!pixiNode.nodeData.get("description").includes("Cooldown")) return false;
 			return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
 		}) == undefined;
-	} else {
-		const baseSkill = curNode.nodeData.get("baseSkill");
-		const upgradeType = curNode.nodeData.get("upgradeType");
-		const exclusiveTypes = ["UpgradeA", "UpgradeB", "01", "02"];
-		if (exclusiveTypes.includes(upgradeType)) {
-			return pixiNodes.find(pixiNode => {
-				if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
-				if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
-				if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
-				return exclusiveTypes.includes(pixiNode.nodeData.get("upgradeType"));
-			}) == undefined;
-		}
+	}
+	const baseSkill = curNode.nodeData.get("baseSkill");
+	if (baseSkill != undefined) {
+		const upgradePrefixes = ["Enhanced"];
+		return pixiNodes.find(pixiNode => {
+			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
+			if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
+			if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
+			return !upgradePrefixes.some(upgradePrefix => pixiNode.nodeName.indexOf(upgradePrefix) != -1);
+		}) == undefined;
 	}
 	return true;
 }

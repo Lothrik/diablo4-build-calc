@@ -195,10 +195,6 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					output += "		id: " + nodeHistoryLength + ",\n";
 				}
 				output += "		maxPoints: " + classData["Nodes"][connectedNode]["Reward"]["dwMaxTalentRanks"] + ",\n";
-				if (baseSkillName != undefined) {
-					const upgradeType = classData["Nodes"][connectedNode]["Reward"]["tHeader"]["szName"].split("_").pop();
-					output += '		upgradeType: "' + upgradeType + '",\n';
-				}
 				output += "		x: " + parseFloat(((classData["Nodes"][connectedNode]["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
 				output += "		y: " + parseFloat(((classData["Nodes"][connectedNode]["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
 				output += "	},\n";
