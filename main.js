@@ -357,40 +357,36 @@ function handleReloadButton() {
 		function finishLoading() {
 			delete nodeData.className;
 			function compareNodes(firstNode, secondNode) {
-				if (firstNode.groupName != undefined && secondNode.groupName != undefined) {
-					const firstFullNodeName = firstNode.groupName + ": " + firstNode.nodeName;
-					const firstUniqueNodeId = Number(firstNode.nodeData.get("id"));
-					const firstSavedPoints = nodeData[firstUniqueNodeId] == undefined ? (nodeData[firstFullNodeName] == undefined ? 0 : nodeData[firstFullNodeName]) : nodeData[firstUniqueNodeId];
+				const firstFullNodeName = firstNode.groupName + ": " + firstNode.nodeName;
+				const firstUniqueNodeId = Number(firstNode.nodeData.get("id"));
+				const firstSavedPoints = nodeData[firstUniqueNodeId] == undefined ? (nodeData[firstFullNodeName] == undefined ? 0 : nodeData[firstFullNodeName]) : nodeData[firstUniqueNodeId];
 
-					const secondFullNodeName = secondNode.groupName + ": " + secondNode.nodeName;
-					const secondUniqueNodeId = Number(secondNode.nodeData.get("id"));
-					const secondSavedPoints = nodeData[secondUniqueNodeId] == undefined ? (nodeData[secondFullNodeName] == undefined ? 0 : nodeData[secondFullNodeName]) : nodeData[secondUniqueNodeId];
+				const secondFullNodeName = secondNode.groupName + ": " + secondNode.nodeName;
+				const secondUniqueNodeId = Number(secondNode.nodeData.get("id"));
+				const secondSavedPoints = nodeData[secondUniqueNodeId] == undefined ? (nodeData[secondFullNodeName] == undefined ? 0 : nodeData[secondFullNodeName]) : nodeData[secondUniqueNodeId];
 
-					if (firstSavedPoints > secondSavedPoints) return 1;
-					else if (firstSavedPoints < secondSavedPoints) return -1;
-				}
-				return 0;
+				return firstSavedPoints - secondSavedPoints;
 			}
 			function processNode(curNode) {
 				if (curNode.groupName != undefined) {
 					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
 					const uniqueNodeId = Number(curNode.nodeData.get("id"));
 					const savedPoints = nodeData[uniqueNodeId] == undefined ? (nodeData[fullNodeName] == undefined ? 0 : nodeData[fullNodeName]) : nodeData[uniqueNodeId];
-
+					console.log("processing: " + curNode.nodeName + " with: " + savedPoints);
 					const unusedPoints = getUnusedPoints(false);
 					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 					const maxPoints = curNode.nodeData.get("maxPoints");
 
 					const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
 
-					if (newPoints == 0 || canAllocate(curNode)) {
+					if (newPoints < allocatedPoints || canAllocate(curNode)) {
 						pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 						updateNodePoints(curNode, newPoints);
 					}
 				}
 			}
 			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
-			const sortedNodes = [...pixiNodes].sort(compareNodes);
+			const sortedNodes = [...pixiNodes].filter(pixiNode => pixiNode.groupName != undefined).sort(compareNodes);
 			for (const curNode of sortedNodes) processNode(curNode);
 			updateCharacterLevel();
 		}
