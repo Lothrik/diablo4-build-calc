@@ -383,8 +383,10 @@ function handleReloadButton() {
 
 					const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
 
-					pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
-					updateNodePoints(curNode, newPoints);
+					if (newPoints == 0 || canAllocate(curNode)) {
+						pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+						updateNodePoints(curNode, newPoints);
+					}
 				}
 			}
 			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
@@ -524,6 +526,35 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 		nodeConnector.updateLineStyle(lineStyleThinButt);
 	}
 }
+function canAllocate(curNode) {
+	if (curNode.groupName == "Capstone") {
+		return pixiNodes.find(pixiNode => {
+			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
+			if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
+			return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
+		}) == undefined;
+	} else if (curNode.groupName == "Ultimate" && curNode.nodeData.get("description").includes("Cooldown")) {
+		return pixiNodes.find(pixiNode => {
+			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
+			if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
+			if (!pixiNode.nodeData.get("description").includes("Cooldown")) return false;
+			return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
+		}) == undefined;
+	} else {
+		const baseSkill = curNode.nodeData.get("baseSkill");
+		const upgradeType = curNode.nodeData.get("upgradeType");
+		const exclusiveTypes = ["UpgradeA", "UpgradeB", "01", "02"];
+		if (exclusiveTypes.includes(upgradeType)) {
+			return pixiNodes.find(pixiNode => {
+				if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
+				if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
+				if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
+				return exclusiveTypes.includes(pixiNode.nodeData.get("upgradeType"));
+			}) == undefined;
+		}
+	}
+	return true;
+}
 function updateNodePoints(curNode, newPoints) {
 	if (curNode.nodeData.get("allocatedPoints") == 0 && newPoints == 0) return;
 
@@ -564,7 +595,7 @@ function updateNodePoints(curNode, newPoints) {
 	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
 }
 function handlePlusButton(curNode) {
-	if (getUnusedPoints(false) <= 0) return;
+	if (getUnusedPoints(false) <= 0 || !canAllocate(curNode)) return;
 
 	let validConnection = false;
 	const nodeConnections = curNode.nodeData.get("connections");

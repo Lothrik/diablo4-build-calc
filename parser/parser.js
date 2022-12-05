@@ -157,12 +157,15 @@ function fixJSON(classData, curNode, rootNodeName) {
 			let unmodifiedNameSpecial = null;
 			if (unmodifiedName == "Wolf Pack") {
 				unmodifiedNameSpecial = "Wolves";
+			} else if (unmodifiedName == "Stealth") {
+				unmodifiedNameSpecial = "Concealment";
 			}
-			if (unmodifiedName.length > 0
-				&& (chainedConnectionList.indexOf(unmodifiedName) != -1 || (unmodifiedNameSpecial != null && chainedConnectionList.indexOf(unmodifiedNameSpecial) != -1))
-				&& nodeData["Reward"]["dwMaxTalentRanks"] == 3) {
-				$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
-				nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+			if (unmodifiedName.length > 0 && (chainedConnectionList.indexOf(unmodifiedName) != -1 || (unmodifiedNameSpecial != null && chainedConnectionList.indexOf(unmodifiedNameSpecial) != -1))) {
+				if (nodeData["Reward"]["dwMaxTalentRanks"] == 3) {
+					$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
+					nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+				}
+				nodeData["baseSkillName"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
 			}
 		}
 	}
@@ -177,9 +180,13 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 				mappedIDs[classData["Nodes"][connectedNode]["Id"]] = true;
 				if (!classProcessed[className]) fixJSON(classData, connectedNode, rootNodeName);
 				output += '	["' + classData["Nodes"][connectedNode]["SkillName"] + '"]: {\n';
+				const baseSkillName = classData["Nodes"][connectedNode]["baseSkillName"];
+				if (baseSkillName != undefined) {
+					output += '		baseSkill: "' + baseSkillName + '",\n';
+				}
 				output += "		connections: " + namedConnections(classData["Nodes"][connectedNode]["Connections"], classData["Nodes"][connectedNode]["SkillName"], classData, rootNodeName) + ",\n";
 				output += "		description: `" + classData["Nodes"][connectedNode]["SkillDesc"].trim() + "`,\n";
-				let nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + classData["Nodes"][connectedNode]["SkillName"]];
+				const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + classData["Nodes"][connectedNode]["SkillName"]];
 				if (nodeHistoricalId != undefined) {
 					output += "		id: " + nodeHistoricalId + ",\n";
 				} else {
@@ -188,6 +195,10 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					output += "		id: " + nodeHistoryLength + ",\n";
 				}
 				output += "		maxPoints: " + classData["Nodes"][connectedNode]["Reward"]["dwMaxTalentRanks"] + ",\n";
+				if (baseSkillName != undefined) {
+					const upgradeType = classData["Nodes"][connectedNode]["Reward"]["tHeader"]["szName"].split("_").pop();
+					output += '		upgradeType: "' + upgradeType + '",\n';
+				}
 				output += "		x: " + parseFloat(((classData["Nodes"][connectedNode]["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
 				output += "		y: " + parseFloat(((classData["Nodes"][connectedNode]["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
 				output += "	},\n";
