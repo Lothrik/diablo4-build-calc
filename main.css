@@ -119,6 +119,7 @@ h1, h2, h3 {
 	height: 25px;
 	line-height: 25px;
 	margin: 0 0 -25px calc(100% - 40px);
+	user-select: none;
 	width: 40px;
 	z-index: 1;
 }

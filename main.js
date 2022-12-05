@@ -168,6 +168,7 @@ function handleColorInput(event) {
 }
 function handleColorButton(event) {
 	$("#colorInput").click();
+	event.preventDefault();
 }
 function handleSkillTreeZoom(event) {
 	switch (event.type) {
@@ -315,14 +316,14 @@ function resizeSearchInput() {
 	const targetWidth = $("#extraButtons2").innerWidth() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 5;
 	$("#searchInput").outerWidth(targetWidth);
 }
-function handleResetButton(event) {
+function handleResetButton() {
 	rebuildCanvas();
 }
-function handleDebugButton(event) {
+function handleDebugButton() {
 	debugMode = !debugMode;
 	$("#debugButton").text(debugMode ? "Disable Debugging" : "Enable Debugging");
 }
-function handleSaveButton(event) {
+function handleSaveButton() {
 	const className = $(classString).val();
 	if (className == "none") {
 		window.location.replace(window.location.href.split("#")[0]);
