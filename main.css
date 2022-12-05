@@ -110,6 +110,23 @@ h1, h2, h3 {
 	}
 }
 
+#colorInput {
+	height: 25px;
+	margin: 0 0 -25px calc(100% - 40px);
+	visibility: hidden;
+	width: 40px;
+}
+
+#colorButton {
+	font-size: 40px;
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: -25px;
+	overflow: visible;
+	text-align: right;
+	z-index: 1;
+}
+
 #skillTree {
 	display: flex;
 	min-height: 420px;

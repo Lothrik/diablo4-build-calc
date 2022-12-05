@@ -88,11 +88,13 @@ const backgroundOpacity = backgroundColorHEX.length == 8 ? 1 : (backgroundColorH
 const borderColorHEX = rgba2hex($("#header").css("border-color"));
 const borderColor = borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
 const borderOpacity = borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
+const connectorColorDefault = "ff0000";
+var connectorColor = Number("0x" + (readCookie("connectorColor").length > 0 ? readCookie("connectorColor") : connectorColorDefault));
 
 const lineStyleThinSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
 const lineStyleThinButt = { alpha: borderOpacity, cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
 const lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
-const lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: Number(0xff0000), native: false, width: 8 };
+var lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: connectorColor, native: false, width: 8 };
 
 var pixiAllocatedPoints = new Map();
 var pixiNodes = [];
@@ -156,6 +158,17 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 // event handlers
 const classString = "#classSelector option:selected";
 const groupString = "#groupSelector option:selected";
+function handleColorInput(event) {
+	writeCookie("connectorColor", $("#colorInput").val().slice(1));
+
+	connectorColor = Number(readCookie("connectorColor").length > 0 ? "0x" + readCookie("connectorColor") : 0xff0000);
+	lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: connectorColor, native: false, width: 8 };
+
+	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
+}
+function handleColorButton(event) {
+	$("#colorInput").click();
+}
 function handleSkillTreeZoom(event) {
 	switch (event.type) {
 		case "touchstart":
@@ -725,7 +738,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
 		});
-		nodeText3.scaleMode =  PIXI.SCALE_MODES.LINEAR;
+		nodeText3.scaleMode = PIXI.SCALE_MODES.LINEAR;
 		nodeText3.scale.set(0.25);
 		nodeText3.anchor.set(0.5);
 		nodeText3.x = (nodeWidth - nodeText3.width) / 2;
@@ -740,7 +753,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
 		});
-		nodeText4.scaleMode =  PIXI.SCALE_MODES.LINEAR;
+		nodeText4.scaleMode = PIXI.SCALE_MODES.LINEAR;
 		nodeText4.scale.set(0.25);
 		nodeText4.anchor.set(0.5);
 		nodeText4.x = (nodeText4.width - nodeWidth) / 2 + 4;
@@ -1216,9 +1229,26 @@ function resizeCanvas() {
 		resizeSearchInput();
 	}
 }
+function readCookie(name) {
+	const value = `; ${document.cookie}`;
+	const parts = value.split(`; ${name}=`);
+	if (parts.length == 2) {
+		return parts.pop().split(';').shift();
+	}
+	return "";
+}
+function writeCookie(name, value) {
+	let date = new Date();
+	date.setFullYear(date.getFullYear() + 1);
+	const expires = "expires=" + date.toUTCString();
+	document.cookie = name + "=" + value + "; " + expires + "; path=/";
+}
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
+	$("#colorInput").val("#" + (readCookie("connectorColor").length > 0 ? readCookie("connectorColor") : connectorColorDefault));
+	$("#colorInput").on("change", handleColorInput);
+	$("#colorButton").on("click", handleColorButton);
 	$("#resetButton").on("click", handleResetButton);
 	$("#debugButton").on("click", handleDebugButton);
 	$("#saveButton").on("click", handleSaveButton);
