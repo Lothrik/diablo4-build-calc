@@ -88,13 +88,13 @@ const backgroundOpacity = backgroundColorHEX.length == 8 ? 1 : (backgroundColorH
 const borderColorHEX = rgba2hex($("#header").css("border-color"));
 const borderColor = borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
 const borderOpacity = borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
-const connectorColorDefault = "ff0000";
-var connectorColor = Number("0x" + (readCookie("connectorColor").length > 0 ? readCookie("connectorColor") : connectorColorDefault));
+const activeConnectorColorDefault = "ff0000";
+var activeConnectorColor = Number("0x" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeConnectorColorDefault));
 
 const lineStyleThinSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
 const lineStyleThinButt = { alpha: borderOpacity, cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
 const lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
-var lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: connectorColor, native: false, width: 8 };
+var lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
 
 var pixiAllocatedPoints = new Map();
 var pixiNodes = [];
@@ -159,10 +159,10 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 const classString = "#classSelector option:selected";
 const groupString = "#groupSelector option:selected";
 function handleColorInput(event) {
-	writeCookie("connectorColor", $("#colorInput").val().slice(1));
+	writeCookie("activeConnectorColor", $("#colorInput").val().slice(1));
 
-	connectorColor = Number(readCookie("connectorColor").length > 0 ? "0x" + readCookie("connectorColor") : 0xff0000);
-	lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: connectorColor, native: false, width: 8 };
+	activeConnectorColor = Number(readCookie("activeConnectorColor").length > 0 ? "0x" + readCookie("activeConnectorColor") : 0xff0000);
+	lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
 
 	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
 }
@@ -1252,7 +1252,7 @@ function writeCookie(name, value) {
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
-	$("#colorInput").val("#" + (readCookie("connectorColor").length > 0 ? readCookie("connectorColor") : connectorColorDefault));
+	$("#colorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeConnectorColorDefault));
 	$("#colorInput").on("change", handleColorInput);
 	$("#colorButton").on("click", handleColorButton);
 	$("#resetButton").on("click", handleResetButton);
