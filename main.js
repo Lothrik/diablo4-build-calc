@@ -533,13 +533,17 @@ function canAllocate(curNode) {
 			if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
 			return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
 		}) == undefined;
-	} else if (curNode.groupName == "Ultimate" && curNode.nodeData.get("description").includes("Cooldown")) {
-		return pixiNodes.find(pixiNode => {
-			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
-			if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
-			if (!pixiNode.nodeData.get("description").includes("Cooldown")) return false;
-			return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
-		}) == undefined;
+	} else if (curNode.groupName == "Ultimate") {
+		if (curNode.nodeData.get("description").includes("Cooldown")) {
+			return pixiNodes.find(pixiNode => {
+				if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
+				if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
+				if (!pixiNode.nodeData.get("description").includes("Cooldown")) return false;
+				return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
+			}) == undefined;
+		} else {
+			return true;
+		}
 	}
 	const baseSkill = curNode.nodeData.get("baseSkill");
 	if (baseSkill != undefined) {
