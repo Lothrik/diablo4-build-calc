@@ -372,7 +372,7 @@ function handleReloadButton() {
 					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
 					const uniqueNodeId = Number(curNode.nodeData.get("id"));
 					const savedPoints = nodeData[uniqueNodeId] == undefined ? (nodeData[fullNodeName] == undefined ? 0 : nodeData[fullNodeName]) : nodeData[uniqueNodeId];
-					console.log("processing: " + curNode.nodeName + " with: " + savedPoints);
+
 					const unusedPoints = getUnusedPoints(false);
 					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 					const maxPoints = curNode.nodeData.get("maxPoints");
