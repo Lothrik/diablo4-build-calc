@@ -870,7 +870,7 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/{\/c}/g, "")									// `{/c}`, exact.
 		.replace(/{\/?u}/g, "")									// `{u}` and `{/u}`.
 		.replace(/{icon.+?}/g, "")								// `{icon:bullet}`, and similar.
-		.replace(/{if:Mod\.Upgrade.+?}.+?({else}|{\/if})/g, "")	// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
+		.replace(/{if:Mod.+?}.+?({else}|{\/if})/g, "")			// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
 		.replace(/{if:.+?}/g, "")								// `{if:ADVANCED_TOOLTIP}`, and similar.
 		.replace(/{\/if}/g, "")									// `{/if}`, exact.
 		.replace(/sLevel/g, "")									// `sLevel`, exact.
