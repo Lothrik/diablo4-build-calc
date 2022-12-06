@@ -259,7 +259,7 @@ function handleSearchInput(event) {
 		let firstMatchIdx = 0;
 		const nodeMatch = pixiNodes.find(pixiNode => {
 			// search `nodeHeader` for `newSearchText`
-			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined ? ` (${pixiNode.damageType})` : "");
+			const nodeHeader = pixiNode.nodeName + ((pixiNode.damageType != undefined && !curNode.nodeName.includes(node.damageType)) ? ` (${pixiNode.damageType})` : "");
 			if (nodeHeader.toLowerCase().includes(newSearchText.toLowerCase())) {
 				if (firstMatch == undefined) {
 					firstMatch = pixiNode;
@@ -992,7 +992,7 @@ function drawTooltip(curNode) {
 		nodeDesc += "\nx: " + debugX + "\ny: " + debugY;
 	}
 
-	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined ? ` (${curNode.damageType})` : "");
+	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 
 	$("#tooltipSummaryHeader").text(nodeHeader);
 	$("#tooltipSummaryContainer").html(nodeDesc.replace(/\n/g, "<br>"));
