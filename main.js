@@ -792,10 +792,12 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		nodeText4.y = (nodeHeight - nodeText4.height) / 2;
 
 		plusContainer = new PIXI.Container();
+		plusContainer.cursor = "pointer";
 		plusContainer.interactive = true;
 		plusContainer.addChild(nodeText3);
 
 		minusContainer = new PIXI.Container();
+		minusContainer.cursor = "pointer";
 		minusContainer.interactive = true;
 		minusContainer.addChild(nodeText4);
 	}
