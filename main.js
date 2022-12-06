@@ -277,8 +277,8 @@ function handleSearchInput(event) {
 				}
 			} else {
 				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
-				const nodeDesc = pixiNode.nodeData.get("description");
-				if (!nodeDesc || nodeDesc.length == 0) return false;
+				const nodeDesc = pixiNode.nodeDesc;
+				if (nodeDesc == undefined || nodeDesc.length == 0) return false;
 				if (nodeDesc.toLowerCase().includes(newSearchText.toLowerCase())) {
 					if (firstMatch == undefined) {
 						firstMatch = pixiNode;
@@ -866,6 +866,11 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			break;
 	}
 
+	node.nodeDesc = nodeData.get("description");
+	if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && nodeData.get("requiredPoints") == undefined) {
+		node.nodeDesc = sanitizeNodeDescription(node.nodeDesc);
+	}
+
 	node
 		.on("mousedown", onDragStart)
 		.on("touchstart", onDragStart)
@@ -959,8 +964,8 @@ function drawTooltip(curNode) {
 
 	eraseTooltip();
 
-	let nodeDesc = curNode.nodeData.get("description");
-	if (!nodeDesc || nodeDesc.length == 0) return;
+	let nodeDesc = curNode.nodeDesc;
+	if (nodeDesc == undefined || nodeDesc.length == 0) return;
 
 	const requiredPoints = curNode.nodeData.get("requiredPoints");
 	if (requiredPoints != undefined) {
@@ -978,8 +983,6 @@ function drawTooltip(curNode) {
 		} else {
 			return;
 		}
-	} else {
-		nodeDesc = sanitizeNodeDescription(nodeDesc);
 	}
 
 	if (debugMode) {
