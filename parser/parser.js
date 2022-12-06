@@ -6,6 +6,8 @@ var skillJSON = "";
 $.getJSON("tree/build-" + buildNumber + ".json", null, successData => {
 	skillJSON = successData;
 	$("#debugOutput").html("Successfully loaded `tree/build-" + buildNumber + ".json`.");
+	// call runParser once after loading so fixJSON affects node connections recursively
+	runParser(false);
 });
 
 const scaleRatio = 0.5;
@@ -107,6 +109,7 @@ const rootNodeNamesSorted = {
 }
 
 let classProcessed = [];
+let fixedJSON = false;
 
 function namedConnections(rawConnections, currentNode, classData, fallbackNode) {
 	let namedConnections = "";
@@ -258,27 +261,32 @@ function runParser(downloadMode) {
 			});
 		}
 		formattedData += "export { " + classNameLower + " };";
-		if (downloadMode) {
-			let downloadElement = document.createElement("a");
-			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedData);
-			downloadElement.download = classNameLower + ".js";
-			downloadElement.click();
-		} else {
-			console.log(formattedData);
+		if (fixedJSON) {
+			if (downloadMode) {
+				let downloadElement = document.createElement("a");
+				downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedData);
+				downloadElement.download = classNameLower + ".js";
+				downloadElement.click();
+			} else {
+				console.log(formattedData);
+			}
 		}
 		classProcessed[className] = true;
 	});
-	let formattedNodeHistory = "let nodeHistory = ";
-	formattedNodeHistory += JSON.stringify(nodeHistory, null, "\t");
-	formattedNodeHistory += "\n\nexport { nodeHistory };";
-	if (downloadMode) {
-		let downloadElement = document.createElement("a");
-		downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedNodeHistory);
-		downloadElement.download = "nodehistory.js";
-		downloadElement.click();
-	} else {
-		console.log(formattedNodeHistory);
+	if (fixedJSON) {
+		let formattedNodeHistory = "let nodeHistory = ";
+		formattedNodeHistory += JSON.stringify(nodeHistory, null, "\t");
+		formattedNodeHistory += "\n\nexport { nodeHistory };";
+		if (downloadMode) {
+			let downloadElement = document.createElement("a");
+			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedNodeHistory);
+			downloadElement.download = "nodehistory.js";
+			downloadElement.click();
+		} else {
+			console.log(formattedNodeHistory);
+		}
 	}
+	fixedJSON = true;
 }
 
 $("#parseToFile").on("click", () => { runParser(true); });
