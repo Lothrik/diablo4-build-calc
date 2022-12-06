@@ -990,7 +990,7 @@ function drawTooltip(curNode) {
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined ? ` (${curNode.damageType})` : "");
 
 	$("#tooltipSummaryHeader").text(nodeHeader);
-	$("#tooltipSummaryContainer").text(nodeDesc);
+	$("#tooltipSummaryContainer").text(nodeDesc.replace(/\n/g, "<br>"));
 
 	if (document.body.clientWidth < 800) {
 		$("#tooltipSummaryHeader").removeClass("disabled");
