@@ -259,7 +259,7 @@ function handleSearchInput(event) {
 		let firstMatchIdx = 0;
 		const nodeMatch = pixiNodes.find(pixiNode => {
 			// search `nodeHeader` for `newSearchText`
-			const nodeHeader = pixiNode.nodeName + ((pixiNode.damageType != undefined && !pixiNode.nodeName.includes(pixiNode.damageType)) ? ` (${pixiNode.damageType})` : "");
+			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !pixiNode.nodeName.includes(pixiNode.damageType) ? ` (${pixiNode.damageType})` : "");
 			if (nodeHeader.toLowerCase().includes(newSearchText.toLowerCase())) {
 				if (firstMatch == undefined) {
 					firstMatch = pixiNode;
