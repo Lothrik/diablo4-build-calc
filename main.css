@@ -216,10 +216,6 @@ button:active {
 	padding-bottom: 5px;
 }
 
-#tooltipSummaryContainer {
-	text-align: center;
-}
-
 #summarySpacer {
 	clear: both;
 	height: 20px;
