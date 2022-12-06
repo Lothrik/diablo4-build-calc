@@ -186,6 +186,10 @@ select {
 	appearance: none;
 }
 
+input {
+	cursor: text;
+}
+
 :disabled {
 	cursor: not-allowed;
 }
