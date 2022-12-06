@@ -46,6 +46,7 @@ druid["Trunk Data"] = {
 druid["Basic"] = {
 	["Earthspike"]: {
 		connections: [ "Basic", "Enhanced Earthspike" ],
+		damageType: 0,
 		description: `{if:SF_15}{c_label}Cooldown:{/c_label} {c_resource}[{SF_16}|1|]{/c} seconds
 {/if}{c_label}Generate Spirit:{/c_label} {c_resource}{SF_5}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
@@ -84,6 +85,7 @@ druid["Basic"] = {
 	},
 	["Maul"]: {
 		connections: [ "Basic", "Enhanced Maul" ],
+		damageType: 0,
 		description: `{c_label}Generate Spirit:{/c_label} {c_resource}{SF_0}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Shapeshift into a Werebear and maul enemies in front of you, dealing {c_number}{payload:MELEE_PAYLOAD}{/c} damage.`,
@@ -121,6 +123,7 @@ druid["Basic"] = {
 	},
 	["Wind Shear"]: {
 		connections: [ "Basic", "Enhanced Wind Shear" ],
+		damageType: 0,
 		description: `{c_label}Generate Spirit:{/c_label} {c_resource}{SF_5}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Conjure a piercing blade of wind, dealing {c_number}{Payload:DAMAGE}{/c} damage.`,
@@ -158,6 +161,7 @@ druid["Basic"] = {
 	},
 	["Storm Strike"]: {
 		connections: [ "Basic", "Enhanced Storm Strike" ],
+		damageType: 2,
 		description: `{c_label}Generate Spirit:{/c_label} {c_resource}{SF_2}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Electricity gathers around your weapon, dealing {c_number}{payload:MELEE_DAMAGE}{/c} damage to your target and chaining to up to {c_number}{SF_3}{/c} surrounding enemies, dealing {c_number}[SF_4 *100|%|]{/c} less damage each time it chains.
@@ -197,6 +201,7 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 	},
 	["Claw"]: {
 		connections: [ "Basic", "Enhanced Claw" ],
+		damageType: 0,
 		description: `{c_label}Generate Spirit:{/c_label} {c_resource}{SF_3}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Shapeshift into a Werewolf and claw at an enemy for {c_number}{payload:MELEE_DAMAGE}{/c} damage.`,
@@ -237,6 +242,7 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 druid["Spirit"] = {
 	["Landslide"]: {
 		connections: [ "Spirit", "Enhanced Landslide" ],
+		damageType: 0,
 		description: `{c_label}Spirit Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Crush enemies between {c_number}3{/c} pillars of earth, dealing up to {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage.`,
@@ -274,6 +280,7 @@ druid["Spirit"] = {
 	},
 	["Pulverize"]: {
 		connections: [ "Spirit", "Enhanced Pulverize" ],
+		damageType: 0,
 		description: `{c_label}Spirit Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Shapeshift into a Werebear and slam the ground, dealing {c_number}{payload:DAMAGE}{/c} damage to surrounding enemies.`,
@@ -311,6 +318,7 @@ druid["Spirit"] = {
 	},
 	["Tornado"]: {
 		connections: [ "Spirit", "Enhanced Tornado" ],
+		damageType: 0,
 		description: `{c_label}Spirit Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Conjure a swirling tornado that deals {c_number}{PAYLOAD:TOOLTIP_DAMAGE}{/c} damage.`,
@@ -348,6 +356,7 @@ druid["Spirit"] = {
 	},
 	["Shred"]: {
 		connections: [ "Spirit", "Enhanced Shred" ],
+		damageType: 0,
 		description: `{c_label}Spirit Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Shapeshift into a Werewolf and perform a 3-combo attack.
@@ -391,6 +400,7 @@ druid["Spirit"] = {
 	},
 	["Lightning Storm"]: {
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
+		damageType: 2,
 		description: `{c_label}Spirit Cost:{/c} {c_resource}{Resource Cost} per strike{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Conjure a growing lightning storm that deals {c_number}{payload:DAMAGE}{/c} damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {c_number}[{SF_16}+1]{/c}.`,
@@ -609,6 +619,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 	},
 	["Cyclone Armor"]: {
 		connections: [ "Defensive", "Enhanced Cyclone Armor" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}{c_label}Passive:{/c} Powerful winds surround you, granting {c_number}[{SF_0}*100|1%|]{/c} non-Physical damage reduction.  
@@ -651,6 +662,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 druid["Companion"] = {
 	["Ravens"]: {
 		connections: [ "Companion", "Enhanced Ravens" ],
+		damageType: 0,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
 {/if}{if:Mod.PassiveAttacks}
@@ -702,6 +714,7 @@ druid["Companion"] = {
 	},
 	["Vine Creeper"]: {
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
+		damageType: 4,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:19}%{/c}
 {/if}{c_label}Passive:{/c} A vine creeper periodically emerges from the ground every {c_number}{SF_0}{/c} seconds and poisons an enemy in the area for {c_number}{dot:TOOLTIP_PET_POISON}{/c} damage over {c_number}{buffduration:TOOLTIP_PET_POISON}{/c} seconds.
@@ -741,6 +754,7 @@ druid["Companion"] = {
 	},
 	["Wolves"]: {
 		connections: [ "Companion", "Enhanced Wolf Pack" ],
+		damageType: 0,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:16}%{/c}
 {/if}{c_label}Passive:{/c} Summon {c_number}{SF_0}{/c} wolf companions that bite enemies for {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage.
@@ -807,6 +821,7 @@ druid["Wrath"] = {
 	},
 	["Charged Atmosphere"]: {
 		connections: [ "Elemental Exposure", "Electric Shock", "Bad Omen" ],
+		damageType: 2,
 		description: `Every {c_number}{SF_0}{/c} seconds, a {c_important}Lightning Strike{/c} hits a Nearby enemy dealing {c_number}{payload:DAMAGE_TOOLTIP}{/c} damage.`,
 		id: 81,
 		maxPoints: 3,
@@ -825,6 +840,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Bad Omen"]: {
 		connections: [ "Charged Atmosphere", "Electric Shock", "Endless Tempest" ],
+		damageType: 2,
 		description: `{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a {c_important}Lightning Strike{/c} also hits dealing {c_number}{payload:DAMAGE_TOOLTIP_ONLY}{/c} damage.`,
 		id: 83,
 		maxPoints: 3,
@@ -841,6 +857,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Boulder"]: {
 		connections: [ "Wrath", "Enhanced Boulder" ],
+		damageType: 0,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {c_number}{payload:IMPACT}{/c} damage with each hit.`,
@@ -878,6 +895,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Trample"]: {
 		connections: [ "Wrath", "Enhanced Trample" ],
+		damageType: 0,
 		description: `{if:Mod.Spirit}{c_label}Generates Spirit:{/c} {c_resource}{SF_11}{/c}
 {/if}{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
@@ -942,6 +960,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	},
 	["Hurricane"]: {
 		connections: [ "Wrath", "Enhanced Hurricane" ],
+		damageType: 0,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
 {/if}Form a hurricane around you that deals {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage to surrounding enemies over {c_number}{SF_4}{/c} seconds.`,
@@ -979,6 +998,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	},
 	["Rabies"]: {
 		connections: [ "Wrath", "Enhanced Rabies" ],
+		damageType: 4,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
 {/if}Shapeshift into a Werewolf and perform an infectious bite on the target dealing {c_number}{PAYLOAD:INITIAL_DAMAGE}{/c} damage, and an additional {c_number}{dot:BUFF_OHNORABIES}{/c} damage over {c_number}{buffduration:BUFF_OHNORABIES}{/c} seconds. 
@@ -1167,6 +1187,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Lacerate"]: {
 		connections: [ "Ultimate", "Prime Lacerate" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}|%|]{/c}
 {/if}Shapeshift into a Werewolf, become {c_important}Immune{/c} and quickly dash {c_number}{SF_6}{/c} times between enemies in the area dealing up to {c_number}{PAYLOAD:TOOLTIP_DAMAGE}{/c} damage.`,
@@ -1195,6 +1216,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Cataclysm"]: {
 		connections: [ "Ultimate", "Prime Cataclysm" ],
+		damageType: 2,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:28}%{/c}
 {/if}A massive storm follows you for {c_number}{buffduration:TORNADO_SPAWNING}{/c} seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing {c_number}{payload:LIGHTNING_STRIKE}{/c} damage.`,

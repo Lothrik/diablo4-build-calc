@@ -46,6 +46,7 @@ sorcerer["Trunk Data"] = {
 sorcerer["Basic"] = {
 	["Frost Bolt"]: {
 		connections: [ "Basic", "Enhanced Frost Bolt" ],
+		damageType: 3,
 		description: `{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Throw a bolt of frost at an enemy, dealing {c_number}{payload:IMPACT}{/c} damage and {c_important}Chilling{/c} them for {c_number}{SF_4}%{/c}.`,
 		id: 0,
@@ -82,6 +83,7 @@ sorcerer["Basic"] = {
 	},
 	["Spark"]: {
 		connections: [ "Basic", "Enhanced Spark" ],
+		damageType: 2,
 		description: `{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Launch a bolt of lightning that shocks an enemy {c_number}{SF_2}{/c} times, dealing {c_number}{payload:PAYLOAD_PROJECTILE}{/c} damage each hit.`,
 		id: 4,
@@ -118,6 +120,7 @@ sorcerer["Basic"] = {
 	},
 	["Arc Lash"]: {
 		connections: [ "Basic", "Enhanced Arc Lash" ],
+		damageType: 2,
 		description: `{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Unleash arcing lightning that shocks enemies in front of you for {c_number}{payload:DAMAGE}{/c}. Every {c_number}{SF_10}{/c} times Arc Lash swipes, it Stuns all enemies hit for {c_number}{buffduration:STUN}{/c} seconds.`,
 		id: 8,
@@ -154,6 +157,7 @@ sorcerer["Basic"] = {
 	},
 	["Fire Bolt"]: {
 		connections: [ "Basic", "Enhanced Fire Bolt" ],
+		damageType: 1,
 		description: `{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
 {/if}Hurl a flaming bolt, dealing {c_number}{payload:DAMAGE}{/c} damage and Burning for {c_number}{dot:BURNING}{/c} over {c_number}{buffduration:BURNING}{/c} seconds.`,
 		id: 12,
@@ -193,6 +197,7 @@ sorcerer["Basic"] = {
 sorcerer["Core"] = {
 	["Charged Bolts"]: {
 		connections: [ "Core", "Enhanced Charged Bolts" ],
+		damageType: 2,
 		description: `{c_label}Mana Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Release {SF_4} bolts of lightning that course along the ground in an erratic pattern, dealing {c_number}{payload:PAYLOAD_PROJECTILE}{/c} each.`,
@@ -230,6 +235,7 @@ sorcerer["Core"] = {
 	},
 	["Frozen Orb"]: {
 		connections: [ "Core", "Enhanced Frozen Orb" ],
+		damageType: 3,
 		description: `{c_label}Mana Cost:{/c} {c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Unleash an orb that {c_important}Chills{/c} for {c_number}{SF_2}%{/c} and expels piercing shards dealing a total of {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage. Upon expiration, Frozen Orb explodes, dealing {c_number}{payload:FROSTBOLT_DAMAGE}{/c} damage and {c_important}Chilling{/c} enemies for {c_number}{SF_9}%{/c}.`,
@@ -267,6 +273,7 @@ sorcerer["Core"] = {
 	},
 	["Incinerate"]: {
 		connections: [ "Core", "Enhanced Incinerate" ],
+		damageType: 1,
 		description: `{c_label}Mana Cost: {/c}{c_resource}[{Resource Cost}*5] per second{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:39}%{/c}
 {/if}Channel a beam of fire, Burning enemies for {c_number}{payload:TOOLTIP_ONLY_DAMAGE}{/c}. Damage increases by {c_number}{payload:TOOLTIP_RAMP_DAMAGE}{/c} per second, up to {c_number}{payload:TOOLTIP_MAX_DAMAGE}{/c}.`,
@@ -304,6 +311,7 @@ sorcerer["Core"] = {
 	},
 	["Fireball"]: {
 		connections: [ "Core", "Enhanced Fireball" ],
+		damageType: 1,
 		description: `{c_label}Mana Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Hurl an exploding ball of fire, dealing {c_number}{payload:PAYLOAD_PROJECTILE}{/c} damage to surrounding enemies.`,
@@ -341,6 +349,7 @@ sorcerer["Core"] = {
 	},
 	["Chain Lightning"]: {
 		connections: [ "Core", "Enhanced Chain Lightning" ],
+		damageType: 2,
 		description: `{c_label}Mana Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Unleash a stream of lightning that deals {c_number}{payload:DAMAGE}{/c} damage and chains between Nearby enemies and you up to {c_number}{SF_2}{/c} times, prioritizing enemies.`,
@@ -378,6 +387,7 @@ sorcerer["Core"] = {
 	},
 	["Ice Shards"]: {
 		connections: [ "Core", "Enhanced Ice Shards" ],
+		damageType: 3,
 		description: `{c_label}Mana Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Launch {c_number}{SF_3}{/c} shards that deal {c_number}{payload:IMPACT_DAMAGE_NORMAL}{/c} damage each. Deals {c_number}x[{SF_2} * 100|%|]{/c} increased damage to {c_important}Frozen{/c} enemies.`,
@@ -442,6 +452,7 @@ sorcerer["Core"] = {
 sorcerer["Defensive"] = {
 	["Flame Shield"]: {
 		connections: [ "Defensive", "Enhanced Flame Shield" ],
+		damageType: 1,
 		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
 {/if}Engulf yourself in flames for {c_number}{buffduration:FLAMESHIELD_BUFF}{/c} seconds, Burning surrounding enemies for {c_number}{payload:AOE_DAMAGE}{/c} per second.
@@ -555,6 +566,7 @@ A {c_important}Barrier{/c} of ice forms around you for {c_number}{buffduration:I
 	},
 	["Teleport"]: {
 		connections: [ "Defensive", "Enhanced Teleport" ],
+		damageType: 2,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Transform into lightning, becoming {c_important}Unstoppable{/c} and surging to the target location dealing {c_number}{payload:TELEPORT_DAMAGE_PAYLOAD}{/c} damage around you upon arrival.`,
@@ -611,6 +623,7 @@ A {c_important}Barrier{/c} of ice forms around you for {c_number}{buffduration:I
 sorcerer["Conjuration"] = {
 	["Hydra"]: {
 		connections: [ "Conjuration", "Enhanced Hydra" ],
+		damageType: 1,
 		description: `{c_label}Mana Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}
 {/if}Summon a {SF_3} headed hydra for {c_number}[{SF_0}|1|]{/c} seconds. Each head spits fire at a Nearby enemy, dealing {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage.`,
@@ -648,6 +661,7 @@ sorcerer["Conjuration"] = {
 	},
 	["Ice Blades"]: {
 		connections: [ "Conjuration", "Enhanced Ice Blades" ],
+		damageType: 3,
 		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:16}%{/c}
 {/if}Conjure ice blades for {c_number}[{SF_0}|1|]{/c} seconds that rapidly slashes enemies for {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage and has a {c_number}[{SF_11} * 100|%|]{/c} chance to make them {c_important}Vulnerable{/c} for {c_number}{SF_3}{/c} seconds.`,
@@ -685,6 +699,7 @@ sorcerer["Conjuration"] = {
 	},
 	["Lightning Spear"]: {
 		connections: [ "Conjuration", "Enhanced Lightning Spear" ],
+		damageType: 2,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
 {/if}Conjure a crackling spear of lightning that seeks out enemies for [{SF_2}|1|] seconds, dealing {c_number}{payload:IMPACT_DAMAGE}{/c} per hit.`,
@@ -765,6 +780,7 @@ sorcerer["Conjuration"] = {
 sorcerer["Mastery"] = {
 	["Meteor"]: {
 		connections: [ "Mastery", "Enhanced Meteor" ],
+		damageType: 1,
 		description: `{c_label}Mana Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:27}%{/c}
 {/if}Summon a meteor that strikes the target location, dealing {c_number}{payload:IMPACT_DAMAGE}{/c} damage and Burning the ground for {c_number}{payload:TOOLTIP_BURN_DAMAGE}{/c} damage over {SF_4} seconds.`,
@@ -802,6 +818,7 @@ sorcerer["Mastery"] = {
 	},
 	["Blizzard"]: {
 		connections: [ "Mastery", "Enhanced Blizzard" ],
+		damageType: 3,
 		description: `{c_label}Mana Cost:{/c} {c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:22}%{/c}
 {/if}Summon a frigid blizzard that deals {c_number}{dot:TOOLTIP_BLIZZARD_DOT}{/c} damage and continuously {c_important}Chills{/c} enemies for {c_number}{SF_9}%{/c} over {c_number}{SF_4}{/c} seconds.`,
@@ -839,6 +856,7 @@ sorcerer["Mastery"] = {
 	},
 	["Ball Lightning"]: {
 		connections: [ "Mastery", "Enhanced Ball Lightning" ],
+		damageType: 2,
 		description: `{c_label}Mana Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Conjure a ball of lightning that slowly moves forward, continually zapping enemies for {c_number}{payload:BALL_AOE}{/c} damage`,
@@ -916,6 +934,7 @@ sorcerer["Mastery"] = {
 	},
 	["Shocking Impact"]: {
 		connections: [ "Regenerative Conduit" ],
+		damageType: 0,
 		description: `Every time you Stun an enemy you deal {c_number}{payload:LIGHTNING_PAYLOAD}{/c} Lightning Damage to them.`,
 		id: 95,
 		maxPoints: 3,
@@ -948,6 +967,7 @@ sorcerer["Mastery"] = {
 	},
 	["Firewall"]: {
 		connections: [ "Mastery", "Enhanced Firewall" ],
+		damageType: 1,
 		description: `{c_label}Mana Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}
 {/if}Create a wall of flames that Burns enemies for {c_number}{dot:TOOLTIP_BURNING}{/c} over {c_number}{SF_0}{/c} seconds.`,
@@ -988,6 +1008,7 @@ sorcerer["Mastery"] = {
 sorcerer["Ultimate"] = {
 	["Inferno"]: {
 		connections: [ "Ultimate", "Prime Inferno" ],
+		damageType: 1,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}*2|%|]{/c}
 {/if}Ignite a roaring inferno that pulses in and out of the target area, Burning enemies for {c_number}{payload:TOOLTIP_TOTAL_DAMAGE}{/c} damage over {c_number}{SF_5}{/c} seconds, and then explodes, dealing {c_number}{payload:FINAL_EXPLOSION_DAMAGE}{/c} damage to enemies on the outer edge.`,
@@ -1043,6 +1064,7 @@ Lightning surges within you for {c_number}{buffduration:CURRENTS_ACTIVE}{/c} sec
 	},
 	["Deep Freeze"]: {
 		connections: [ "Prime Deep Freeze", "Ultimate" ],
+		damageType: 3,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Encase yourself in ice, becoming {c_important}Immune{/c} for {c_number}{buffduration:BUFF_IMMUNE}{/c} seconds, continually {c_important}Chilling{/c} enemies for {c_number}{SF_6}%{/c}. When Deep Freeze ends, {c_important}Frozen{/c} enemies shatter for {c_number}{payload:FROZEN_DAMAGE}{/c}. Casting Deep Freeze again ends the effect early.`,

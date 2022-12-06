@@ -46,6 +46,7 @@ rogue["Trunk Data"] = {
 rogue["Basic"] = {
 	["Blade Shift"]: {
 		connections: [ "Enhanced Blade Shift", "Basic" ],
+		damageType: 0,
 		description: `{if:SF_11}{c_label}Generate Combo Point:{/c} {c_resource}{SF_10}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Quickly stab your victim for {c_number}{payload:IMPACT}{/c} damage and shift, allowing you to move freely through enemies for {c_number}{buffduration:MOVE_FREELY}{/c} seconds.`,
@@ -83,6 +84,7 @@ rogue["Basic"] = {
 	},
 	["Invigorating Strike"]: {
 		connections: [ "Enhanced Invigorating Strike", "Basic" ],
+		damageType: 0,
 		description: `{if:SF_11}{c_label}Generate Combo Point:{/c} {c_resource}{SF_10}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Melee attack an enemy, dealing {c_number}{payload:IMPACT}{/c} damage and increasing Energy Regeneration by {c_number}x[{SF_4}*100|%|]{/c} for {c_number}{buffduration:ENERGY_REGEN}{/c} seconds.`,
@@ -120,6 +122,7 @@ rogue["Basic"] = {
 	},
 	["Puncture"]: {
 		connections: [ "Enhanced Puncture", "Basic" ],
+		damageType: 0,
 		description: `{if:SF_13}{c_label}Generate Combo Point:{/c} {c_resource}1{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Throw blades a short distance, dealing {c_number}{payload:IMPACT}{/c} damage. Every {c_number}{SF_20}rd{/c} cast Slows enemies by {c_number}[{SF_15}*100|%|]{/c} for {c_number}{buffduration:SLOW}{/c} seconds. Critical Strikes will always Slow.`,
@@ -157,6 +160,7 @@ rogue["Basic"] = {
 	},
 	["Heartseeker"]: {
 		connections: [ "Enhanced Heartseeker", "Basic" ],
+		damageType: 0,
 		description: `{if:SF_16}{c_label}Generate Combo Point:{/c} {c_resource}{SF_15}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Fire an arrow that seeks an enemy, dealing {c_number}{payload:IMPACT}{/c} damage and increasing your Critical Strike Chance against them by {c_number}+[{SF_9}*100|%|]{/c} for {c_number}{buffduration:AMPLIFY_CRIT_CHANCE}{/c} seconds, up to {c_number}+[{SF_9}*{SF_10}*100|%|]{/c}.`,
@@ -194,6 +198,7 @@ rogue["Basic"] = {
 	},
 	["Forceful Arrow"]: {
 		connections: [ "Enhanced Forceful Arrow", "Basic" ],
+		damageType: 0,
 		description: `{if:SF_12}{c_label}Generate Combo Point:{/c} {c_resource}{SF_10}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Fire a powerful arrow at an enemy, dealing {c_number}{payload:IMPACT}{/c} damage. Every {c_number}3rd{/c} cast makes the enemy {c_important}{u}Vulnerable{/u}{/c} for {c_number}{SF_15}{/c} seconds.`,
@@ -234,6 +239,7 @@ rogue["Basic"] = {
 rogue["Core"] = {
 	["Twisting Blades"]: {
 		connections: [ "Enhanced Twisting Blades", "Core" ],
+		damageType: 0,
 		description: `{c_label}Energy Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}|%|]{/c}
 {/if}Impale an enemy with your blades, dealing {c_number}{payload:IMPACT}{/c} damage and making them take {c_number}x[{SF_18}*100|%|]{/c} increased damage while impaled. After {c_number}{buffduration:RETURN_TIMER}{/c} seconds the blades return to you, piercing enemies for {c_number}{payload:RETURN_HIT}{/c} damage.{if:SF_13}
@@ -276,6 +282,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 	},
 	["Flurry"]: {
 		connections: [ "Enhanced Flurry", "Core" ],
+		damageType: 0,
 		description: `{c_label}Energy Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Unleash a flurry of stabs and slashes, dealing {c_number}{payload:DAMAGE_TOOLTIP}{/c} damage to enemies in front of you.{if:SF_12}
@@ -318,6 +325,7 @@ Combo Points increase damage and grant a {c_number}+[{SF_10}*100|%|]{/c} Attack 
 	},
 	["Penetrating Shot"]: {
 		connections: [ "Enhanced Penetrating Shot", "Core" ],
+		damageType: 0,
 		description: `{c_label}Energy Cost:{/c} {c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Fire an arrow that pierces through all enemies in a line, dealing {c_number}{payload:IMPACT}{/c} damage.{if:SF_12}
@@ -360,6 +368,7 @@ Combo Points increase damage and grant a chance to Knock Down for {c_number}{buf
 	},
 	["Rapid Fire"]: {
 		connections: [ "Enhanced Rapid Fire", "Core" ],
+		damageType: 0,
 		description: `{c_label}Energy Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Rapidly fire {c_number}{SF_5}{/c} arrows, each dealing {c_number}{payload:IMPACT}{/c} damage.{if:SF_14}
@@ -402,6 +411,7 @@ Combo Points increase damage and arrows fired:
 	},
 	["Barrage"]: {
 		connections: [ "Enhanced Barrage", "Core" ],
+		damageType: 0,
 		description: `{c_label}Energy Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}|%|]{/c}
 {/if}Unleash a barrage of {c_number}{SF_5}{/c} arrows that expands outwards, each dealing {c_number}{payload:IMPACT}{/c} damage. Each arrow has a {c_number}[{SF_33}*100|%|]{/c} chance to ricochet off an enemy up to {c_number}{SF_30}{/c} time. Ricochets deal {c_number}[{SF_31}*100|%|]{/c} of the arrow's base damage.{if:SF_14}
@@ -471,6 +481,7 @@ Combo Points increase damage and arrows fired:
 rogue["Agility"] = {
 	["Shadow Step"]: {
 		connections: [ "Enhanced Shadow Step", "Agility" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Become {c_important}{u}Unstoppable{/u}{/c} and quickly move through the shadows to stab your victim from behind for {c_number}{payload:MELEE_PAYLOAD}{/c} damage. Gain {c_number}[{SF_5}*100|%|]{/c} increased Movement Speed for {c_number}{SF_6}{/c} seconds afterwards.`,
@@ -508,6 +519,7 @@ rogue["Agility"] = {
 	},
 	["Dash"]: {
 		connections: [ "Enhanced Dash", "Agility" ],
+		damageType: 0,
 		description: `{c_label}Charges:{/c} {c_resource}{SF_22}{/c}
 {c_label}Charge Cooldown:{/c} {c_resource}[{Recharge Time}|1|]{/c_resource} seconds 
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
@@ -566,6 +578,7 @@ rogue["Agility"] = {
 	},
 	["Caltrops"]: {
 		connections: [ "Enhanced Caltrops", "Agility" ],
+		damageType: 0,
 		description: `{c_label}Charges:{/c} {c_resource}{SF_9}{/c}
 {c_label}Charge Cooldown:{/c} {c_resource}[{Recharge Time}|1|]{/c_resource} seconds 
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
@@ -719,6 +732,7 @@ Throw a smoky concoction at enemies that {c_important}{u}Dazes{/u}{/c} them for 
 	},
 	["Poison Trap"]: {
 		connections: [ "Enhanced Poison Trap", "Subterfuge" ],
+		damageType: 4,
 		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:1}%{/c}
 {/if}Place a trap that arms after {c_number}{buffduration:ARMING}{/c} seconds. It activates when an enemy moves within range, applying {c_number}{payload:TOOLTIP_DAMAGE}{/c} Poisoning damage over {c_number}{SF_2}{/c} seconds to enemies in the area.`,
@@ -821,6 +835,7 @@ rogue["Imbuements"] = {
 	},
 	["Poison Imbuement"]: {
 		connections: [ "Enhanced Poison Imbuement", "Imbuements" ],
+		damageType: 4,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
 {/if}Imbue your weapons with lethal poison. Your next {c_number}{SF_0}{/c} {c_important}Imbueable{/c} Skills deal Poison damage and apply up to {c_number}{dot:POISON_DOT}{/c} Poisoning damage over {c_number}{buffduration:POISON_DOT}{/c} seconds.`,
@@ -874,6 +889,7 @@ rogue["Imbuements"] = {
 	},
 	["Shadow Imbuement"]: {
 		connections: [ "Enhanced Shadow Imbuement", "Imbuements" ],
+		damageType: 5,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Imbue your weapons with festering shadows. Your next {c_number}{SF_0}{/c} {c_important}Imbueable{/c} Skills deal Shadow damage and infect enemies such that they explode for up to {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage on death. Direct damage to infected enemies deals an additional {c_number}{payload:TOOLTIP_SHADOW_DAMAGE}{/c} Shadow damage.`,
@@ -1058,6 +1074,7 @@ The shadow deals {c_number}[{SF_1}*100|%|]{/c} of your damage.`,
 	},
 	["Death Trap"]: {
 		connections: [ "Prime Death Trap", "Ultimate" ],
+		damageType: 5,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Place a trap that arms after {c_number}{buffduration:ARMING}{/c} seconds. It activates when an enemy moves within range, dealing {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage to enemies in the area.`,
@@ -1094,6 +1111,7 @@ The shadow deals {c_number}[{SF_1}*100|%|]{/c} of your damage.`,
 	},
 	["Rain of Arrows"]: {
 		connections: [ "Prime Rain of Arrows", "Ultimate" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:7}%{/c}
 {/if}Arrows rain down over a large area {c_number}{SF_18}{/c} times, each wave dealing {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage.`,
@@ -1183,6 +1201,7 @@ While both Attack Speed bonuses are active, you gain:
 	},
 	["Exposure"]: {
 		connections: [ "Capstone" ],
+		damageType: 0,
 		description: `{c_label}Lucky Hit:{/c} Dealing direct damage to an enemy affected by a {c_important}Trap{/c} Skill has up to a {c_number}{SF_0}%{/c} chance to reduce the active Cooldowns of your {c_important}Trap{/c} Skills by {c_number}[{SF_2}*100|%|]{/c} and drop a cluster of {c_important}Stun Grenades{/c} that explode and deal {c_number}{payload:TOOLTIP_DAMAGE}{/c} total Physical damage and Stun enemies for {c_number}[{SF_5}|2|]{/c} seconds.`,
 		id: 121,
 		maxPoints: 1,

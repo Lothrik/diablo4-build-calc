@@ -46,6 +46,7 @@ barbarian["Trunk Data"] = {
 barbarian["Basic"] = {
 	["Bash"]: {
 		connections: [ "Basic", "Enhanced Bash" ],
+		damageType: 0,
 		description: `{c_label}Generate Fury:{/c_label} {c_resource}{Script Formula 0}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Bash the enemy with your weapon, dealing {c_number}{payload:MELEE_PAYLOAD}{/c} damage. After bashing enemies {c_number}[{SF_2} - 1]{/c} times, your next {c_important}Bash{/c} will Stun for {c_number}{buffduration:STUN}{/c} seconds, this increases to {c_number}[{SF_9}]{/c} seconds if using a Two-Handed weapon.`,
@@ -83,6 +84,7 @@ barbarian["Basic"] = {
 	},
 	["Lunging Strike"]: {
 		connections: [ "Basic", "Enhanced Lunging Strike" ],
+		damageType: 0,
 		description: `{c_label}Generate Fury:{/c_label} {c_resource}{SF_3}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Lunge forward and strike an enemy for {c_number}{payload:DAMAGE}{/c} damage.`,
@@ -120,6 +122,7 @@ barbarian["Basic"] = {
 	},
 	["Frenzy"]: {
 		connections: [ "Basic", "Enhanced Frenzy" ],
+		damageType: 0,
 		description: `{c_label}Generate Fury:{/c_label} {c_resource}{SF_0}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Unleash a rapid flurry of blows, dealing {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage with each pair of hits. 
@@ -159,6 +162,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by {c_number}+[{SF_1}*100
 	},
 	["Flay"]: {
 		connections: [ "Basic", "Enhanced Flay" ],
+		damageType: 0,
 		description: `{c_label}Generate Fury:{/c_label} {c_resource}{SF_2}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:14}%{/c}
 {/if}Flay the enemy, dealing {c_number}{payload:DAMAGE}{/c} damage. Inflicts {c_number}{dot:BLEEDING}{/c} Bleeding damage over {c_number}{buffduration:BLEEDING}{/c} seconds.`,
@@ -199,6 +203,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by {c_number}+[{SF_1}*100
 barbarian["Core"] = {
 	["Hammer of the Ancients"]: {
 		connections: [ "Core", "Enhanced Hammer of the Ancients" ],
+		damageType: 0,
 		description: `{c_label}Fury Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Slam your hammer down with the fury of the Ancients, dealing {c_number}{payload:DAMAGE}{/c} damage to a concentrated area.`,
@@ -236,6 +241,7 @@ barbarian["Core"] = {
 	},
 	["Upheaval"]: {
 		connections: [ "Core", "Enhanced Upheaval" ],
+		damageType: 0,
 		description: `{c_label}Fury Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Tear into the ground with your weapon and fling debris forward, dealing {c_number}{payload:SLAM_DAMAGE}{/c} damage.`,
@@ -273,6 +279,7 @@ barbarian["Core"] = {
 	},
 	["Double Swing"]: {
 		connections: [ "Core", "Enhanced Double Swing" ],
+		damageType: 0,
 		description: `{c_label}Fury Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Sweep your weapons from opposite directions, dealing {c_number}{payload:DAMAGE}{/c} damage with each weapon. Enemies caught in the center are damaged by both.`,
@@ -318,6 +325,7 @@ barbarian["Core"] = {
 	},
 	["Rend"]: {
 		connections: [ "Core", "Enhanced Rend" ],
+		damageType: 0,
 		description: `{c_label}Fury Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:15}%{/c}
 {/if}Cleave enemies in front of you, dealing {c_number}{payload:MELEE_PAYLOAD}{/c} damage and inflicting {c_number}{dot:BLEEDING}{/c} Bleeding damage over {c_number}{buffduration:BLEEDING}{/c} seconds.`,
@@ -355,6 +363,7 @@ barbarian["Core"] = {
 	},
 	["Whirlwind"]: {
 		connections: [ "Core", "Enhanced Whirlwind" ],
+		damageType: 0,
 		description: `{c_label}Fury Cost:{/c_label} {c_resource}{Resource Cost} per second{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Rapidly attack surrounding enemies for {c_number}{payload:DAMAGE}{/c} damage.`,
@@ -491,6 +500,7 @@ Steel yourself, gaining a Barrier that absorbs {c_number}[{SF_0}*100|%|]{/c} of 
 	},
 	["Ground Stomp"]: {
 		connections: [ "Defensive", "Enhanced Ground Stomp" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Smash the ground, dealing {c_number}{payload:STOMP}{/c} damage and Stunning surrounding enemies for {c_number}{buffduration:STUN}{/c_number} seconds.`,
@@ -583,6 +593,7 @@ Bellow a rallying cry, granting allies {c_number}+[{SF_4}*100|%|]{/c} increased 
 barbarian["Brawling"] = {
 	["Charge"]: {
 		connections: [ "Brawling", "Enhanced Charge" ],
+		damageType: 0,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Become {c_important}Unstoppable{/c} and rush forward, pushing enemies with you then swinging through them for {c_number}{payload:SWING}{/c} damage and Knocking them Back.`,
@@ -680,6 +691,7 @@ Bellow a mighty war cry. You and Nearby allies deal {c_number}x[{SF_1}*100|%|]{/
 	},
 	["Leap"]: {
 		connections: [ "Brawling", "Enhanced Leap" ],
+		damageType: 0,
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Leap forward and then slam down, dealing {c_number}{payload:LANDING}{/c} damage and Knocking Back surrounding enemies on impact.`,
@@ -717,6 +729,7 @@ Bellow a mighty war cry. You and Nearby allies deal {c_number}x[{SF_1}*100|%|]{/
 	},
 	["Kick"]: {
 		connections: [ "Enhanced Kick", "Brawling" ],
+		damageType: 0,
 		description: `{c_label}Charges:{/c} {c_resource}{SF_4}{/c}
 {c_label}Charge Cooldown:{/c_label} {c_resource}[{Recharge Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
@@ -798,6 +811,7 @@ Bellow a mighty war cry. You and Nearby allies deal {c_number}x[{SF_1}*100|%|]{/
 barbarian["Weapon Mastery"] = {
 	["Steel Grasp"]: {
 		connections: [ "Weapon Mastery", "Enhanced Steel Grasp" ],
+		damageType: 0,
 		description: `{c_label}Charges:{/c} {c_resource}{SF_9}{/c}
 {c_label}Charge Cooldown:{/c_label} {c_resource}[{Recharge Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
@@ -860,6 +874,7 @@ barbarian["Weapon Mastery"] = {
 	},
 	["Death Blow"]: {
 		connections: [ "Weapon Mastery", "Enhanced Death Blow" ],
+		damageType: 0,
 		description: `{if:SF_8}{c_label}Charges:{/c} {c_resource}{SF_10}{/c}
 {c_label}Charge Cooldown:{/c_label} {c_resource}[{Recharge Time}|1|]{/c} seconds
 {/if}{if:SF_9}{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
@@ -933,6 +948,7 @@ barbarian["Weapon Mastery"] = {
 	},
 	["Rupture"]: {
 		connections: [ "Enhanced Rupture", "Weapon Mastery" ],
+		damageType: 0,
 		description: `{if:SF_13}{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c} seconds
 {/if}{if:SF_14}{c_label}Charges:{/c} {c_resource}{SF_15}{/c}
 {c_label}Charge Cooldown:{/c_label} {c_resource}[{Recharge Time}|1|]{/c} seconds
@@ -991,6 +1007,7 @@ barbarian["Weapon Mastery"] = {
 barbarian["Ultimate"] = {
 	["Call of the Ancients"]: {
 		connections: [ "Ultimate", "Prime Call of the Ancients" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Call upon 3 Ancients to aid you in battle for {c_number}{SF_0}{/c} seconds.
@@ -1029,6 +1046,7 @@ Madawc upheaves the ground, dealing {c_number}{payload:UPHEAVAL_TOOLTIP}{/c} dam
 	},
 	["Iron Maelstrom"]: {
 		connections: [ "Ultimate", "Prime Iron Maelstrom" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:14}%{/c}
 {/if}Activate to attach a chain to your Two-Handed Bludgeoning weapon and slam the ground, dealing {c_number}{payload:DAMAGE}{/c} damage and Stunning them for {c_number}{buffduration:STUN}{/c} seconds.
@@ -1164,6 +1182,7 @@ barbarian["Capstone"] = {
 	},
 	["Gushing Wounds"]: {
 		connections: [ "Capstone" ],
+		damageType: 0,
 		description: `Killing a Bleeding enemy creates an explosion that inflicts {c_number}{dot:BLEEDING}{/c} Bleeding damage over {c_number}{SF_3}{/c} seconds.`,
 		id: 121,
 		maxPoints: 1,

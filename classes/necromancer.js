@@ -46,6 +46,7 @@ necromancer["Trunk Data"] = {
 necromancer["Basic"] = {
 	["Decompose"]: {
 		connections: [ "Enhanced Decompose", "Basic" ],
+		damageType: 5,
 		description: `{c_label}Generate Essence:{/c_label} {c_resource}{SF_5}{/c_resource} per second
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:17}%{/c}
 {/if}Tear the flesh from an enemy, dealing {c_number}{dot:DECOMPOSING}{/c} damage per second and forming a usable Corpse with the flesh every {c_number}[{SF_1}|1|]{/c} seconds.`,
@@ -83,6 +84,7 @@ necromancer["Basic"] = {
 	},
 	["Reap"]: {
 		connections: [ "Enhanced Reap", "Basic" ],
+		damageType: 5,
 		description: `{c_label}Generate Essence:{/c_label} {c_resource}{SF_2}{/c_resource} per enemy hit
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Sweep an ethereal scythe in front of you, dealing {c_number}{payload:DAMAGE}{/c} damage. Hitting an enemy with Reap increases your Damage Reduction by {c_number}[{SF_8}*100|%|]{/c} for {c_number}{buffduration:DAMAGE_REDUCTION}{/c} seconds.`,
@@ -120,6 +122,7 @@ necromancer["Basic"] = {
 	},
 	["Hemorrhage"]: {
 		connections: [ "Enhanced Hemorrhage", "Basic" ],
+		damageType: 0,
 		description: `{c_label}Generate Essence:{/c_label} {c_resource}{SF_6}{/c_resource}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Burst an enemy's blood, dealing {c_number}{payload:DAMAGE}{/c} damage. Hemorrhage has a {c_number}[{SF_5}*100|%|]{/c} chance to form a {c_important}Blood Orb{/c}.`,
@@ -157,6 +160,7 @@ necromancer["Basic"] = {
 	},
 	["Bone Splinters"]: {
 		connections: [ "Enhanced Bone Splinters", "Basic" ],
+		damageType: 0,
 		description: `{c_label}Generate Essence:{/c} {c_resource}{SF_5}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Fire {c_number}3{/c} bone splinters, dealing {c_number}{payload:DAMAGE}{/c} damage each. Each subsequent time an enemy is hit by the same cast of Bone Splinters, you gain {c_number}{SF_4}{/c} Essence.`,
@@ -197,6 +201,7 @@ necromancer["Basic"] = {
 necromancer["Core"] = {
 	["Blight"]: {
 		connections: [ "Enhanced Blight", "Core" ],
+		damageType: 5,
 		description: `{c_label}Essence Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:21}%{/c}
 {/if}Unleash concentrated blight that deals {c_number}{payload:DAMAGE}{/c} damage and leaves behind a defiled area, dealing {c_number}{dot:TOOLTIP_DOT}{/c} damage over {c_number}{buffduration:TOOLTIP_DOT}{/c} seconds.`,
@@ -234,6 +239,7 @@ necromancer["Core"] = {
 	},
 	["Sever"]: {
 		connections: [ "Enhanced Sever", "Core" ],
+		damageType: 5,
 		description: `{c_label}Essence Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}A specter of you charges forward and attacks with its scythe for {c_number}{payload:DAMAGE_OUT}{/c} damage then returns to you and attacks again for {c_number}{payload:DAMAGE_RETURN}{/c} damage.`,
@@ -271,6 +277,7 @@ necromancer["Core"] = {
 	},
 	["Blood Surge"]: {
 		connections: [ "Enhanced Blood Surge", "Core" ],
+		damageType: 0,
 		description: `{c_label}Essence Cost: {/c}{c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Draw blood from enemies, dealing {c_number}{payload:OUTER_DAMAGE}{/c} damage, and expel a blood nova, dealing {c_number}{payload:INNER_DAMAGE}{/c} damage. Blood Surge's nova damage is increased by {c_number}x[{SF_1} * 100|%|]{/c} per enemy drained, up to {c_number}x[SF_6 * 100|%|]{/c}.`,
@@ -308,6 +315,7 @@ necromancer["Core"] = {
 	},
 	["Blood Lance"]: {
 		connections: [ "Enhanced Blood Lance", "Core" ],
+		damageType: 0,
 		description: `{c_label}Essence Cost:{/c} {c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Throw a blood lance that lingers in an enemy for {c_number}{buffduration:LANCED}{/c} seconds, dealing {c_number}{payload:DAMAGE}{/c} damage to the enemy and all other lanced enemies.`,
@@ -345,6 +353,7 @@ necromancer["Core"] = {
 	},
 	["Bone Spear"]: {
 		connections: [ "Enhanced Bone Spear", "Core" ],
+		damageType: 0,
 		description: `{c_label}Essence Cost:{/c} {c_resource}{Resource Cost}{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Conjure a bone spear from the ground, dealing {c_number}{payload:DAMAGE}{/c} damage and Piercing through enemies.`,
@@ -411,6 +420,7 @@ This chance is doubled against bosses.`,
 necromancer["Macabre"] = {
 	["Corpse Explosion"]: {
 		connections: [ "Enhanced Corpse Explosion", "Macabre" ],
+		damageType: 0,
 		description: `{if:SF_10}{c_label}Essence Cost:{/c} {c_resource}{Resource Cost}{/c}
 {/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}
 {/if}{if:Mod.Miasma}Release a vile miasma from a Corpse, dealing {c_number}{dot:MIASMA_DOT_TOOLTIP}{/c} Shadow Damage over {c_number}{buffduration:MIASMA_DOT_TOOLTIP}{/c} seconds.{else}Detonate a Corpse, dealing {c_number}{payload:DAMAGE}{/c} damage to surrounding enemies.{/if}`,
@@ -472,6 +482,7 @@ necromancer["Macabre"] = {
 	},
 	["Blood Mist"]: {
 		connections: [ "Enhanced Blood Mist", "Macabre" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:14}%{/c}
 {/if}Disperse into a bloody mist, becoming {c_important}Immune{/c} for {c_number}{buffduration:MISTFORM}{/c} seconds. Your Movement Speed is reduced by {c_number}[{SF_6}*100|%|]{/c} and you periodically deal {c_number}{payload:LEECH_DAMAGE}{/c} damage to enemies, healing for {c_number}[{SF_3} * 100|%|]{/c} of the damage dealt.`,
@@ -556,6 +567,7 @@ Unearth a prison of bone with {c_number}{pet_health:BoneWall}{/c} Life that surr
 necromancer["Corruption"] = {
 	["Iron Maiden"]: {
 		connections: [ "Enhanced Iron Maiden", "Corruption" ],
+		damageType: 0,
 		description: `{c_label}Essence Cost: {/c}{c_resource}{Resource Cost}{/c}
 Curse the target area. Enemies afflicted by Iron Maiden take {c_number}{payload:CURSE_DAMAGE}{/c} damage each time they deal direct damage. Lasts {c_number}{buffduration:IRONMAIDEN_CURSE}{/c} seconds.`,
 		id: 55,
@@ -663,6 +675,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {c_number}[{
 necromancer["Summoning"] = {
 	["Corpse Tendrils"]: {
 		connections: [ "Enhanced Corpse Tendrils", "Summoning" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Veins burst out of a Corpse, pulling in enemies, Stunning them for {c_number}{buffduration:STUN}{/c} seconds, and dealing {c_number}{payload:DAMAGE}{/c} damage to them. Does not consume the Corpse.`,
@@ -772,6 +785,7 @@ necromancer["Summoning"] = {
 	},
 	["Bone Spirit"]: {
 		connections: [ "Enhanced Bone Spirit", "Summoning" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {c_label}Essence Cost:{/c} {c_resource}All Remaining Essence{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
@@ -885,6 +899,7 @@ necromancer["Ultimate"] = {
 	},
 	["Army of the Dead"]: {
 		connections: [ "Prime Army of the Dead", "Ultimate" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:22}%{/c}
 {/if}Call forth the deep buried dead. Volatile undead emerge over the next {c_number}{buffduration:RAISE_ARMY}{/c} seconds that explode when around enemies, dealing {c_number}{payload:EXPLOSION_DAMAGE}{/c} damage.`,
@@ -913,6 +928,7 @@ necromancer["Ultimate"] = {
 	},
 	["Blood Wave"]: {
 		connections: [ "Prime Blood Wave", "Ultimate" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Conjure a tidal wave of blood that deals {c_number}{payload:DAMAGE}{/c} damage and knocks enemies back.`,
@@ -957,6 +973,7 @@ necromancer["Ultimate"] = {
 	},
 	["Bone Storm"]: {
 		connections: [ "Prime Bone Storm", "Ultimate" ],
+		damageType: 0,
 		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
 {/if}A swirling storm of bones appears around you and your Golem, dealing {c_number}{payload:TOOLTIP_DAMAGE}{/c} to surrounding enemies over {c_number}{buffduration:BONESTORM}{/c} seconds.`,
@@ -1004,6 +1021,7 @@ necromancer["Capstone"] = {
 	},
 	["Shadowblight"]: {
 		connections: [ "Capstone" ],
+		damageType: 5,
 		description: `Shadow Damage infects enemies with {c_important}Shadowblight{/c} for {c_number}{buffduration:DEBUFF_SHADOWBLIGHT_COUNTER}{/c} seconds.
 
 Every {c_number}{SF_2}th{/c} time an enemy receives Shadow Damage from you or your Minions while they are affected by {c_important}Shadowblight{/c}, they take additional  {c_number}{payload:BURST_DAMAGE}{/c} Shadow Damage.`,

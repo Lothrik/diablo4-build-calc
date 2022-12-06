@@ -176,29 +176,34 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 	let output = "";
 	if (recursionDepth < MAX_RECURSION_DEPTH) {
 		connectionData.forEach((connectedNode, connectedIndex) => {
-			if (!mappedIDs[classData["Nodes"][connectedNode]["Id"]]) {
-				mappedIDs[classData["Nodes"][connectedNode]["Id"]] = true;
+			const nodeData = classData["Nodes"][connectedNode];
+			if (!mappedIDs[nodeData["Id"]]) {
+				mappedIDs[nodeData["Id"]] = true;
 				if (!classProcessed[className]) fixJSON(classData, connectedNode, rootNodeName);
-				output += '	["' + classData["Nodes"][connectedNode]["SkillName"] + '"]: {\n';
-				const baseSkillName = classData["Nodes"][connectedNode]["baseSkillName"];
+				output += '	["' + nodeData["SkillName"] + '"]: {\n';
+				const baseSkillName = nodeData["baseSkillName"];
 				if (baseSkillName != undefined) {
 					output += '		baseSkill: "' + baseSkillName + '",\n';
 				}
-				output += "		connections: " + namedConnections(classData["Nodes"][connectedNode]["Connections"], classData["Nodes"][connectedNode]["SkillName"], classData, rootNodeName) + ",\n";
-				output += "		description: `" + classData["Nodes"][connectedNode]["SkillDesc"].trim() + "`,\n";
-				const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + classData["Nodes"][connectedNode]["SkillName"]];
+				output += "		connections: " + namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, rootNodeName) + ",\n";
+				// output damage type for any non-modifier skill nodes, as long as they have a hit or DoT payload
+				if (baseSkillName == undefined && /{payload:.+?}|{dot:.+?}/i.test(nodeData["SkillDesc"]) && nodeData["DamageType"] >= 0) {
+					output += "		damageType: " + nodeData["DamageType"] + ",\n";
+				}
+				output += "		description: `" + nodeData["SkillDesc"].trim() + "`,\n";
+				const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]];
 				if (nodeHistoricalId != undefined) {
 					output += "		id: " + nodeHistoricalId + ",\n";
 				} else {
 					const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
-					nodeHistory[className][rootNodeName + ": " + classData["Nodes"][connectedNode]["SkillName"]] = nodeHistoryLength;
+					nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]] = nodeHistoryLength;
 					output += "		id: " + nodeHistoryLength + ",\n";
 				}
-				output += "		maxPoints: " + classData["Nodes"][connectedNode]["Reward"]["dwMaxTalentRanks"] + ",\n";
-				output += "		x: " + parseFloat(((classData["Nodes"][connectedNode]["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
-				output += "		y: " + parseFloat(((classData["Nodes"][connectedNode]["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
+				output += "		maxPoints: " + nodeData["Reward"]["dwMaxTalentRanks"] + ",\n";
+				output += "		x: " + parseFloat(((nodeData["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
+				output += "		y: " + parseFloat(((nodeData["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
 				output += "	},\n";
-				output += recursiveSkillTreeScan(classData["Nodes"][connectedNode]["Connections"], classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth + 1);
+				output += recursiveSkillTreeScan(nodeData["Connections"], classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth + 1);
 			}
 		});
 	}

@@ -81,6 +81,7 @@ const tooltipScalingFloor = 0.75;
 const tooltipScalingCeiling = 1.25;
 
 const fontFamily = $("body").css("fontFamily");
+const fontFamilyOverride = fontFamily.includes("Homenaje") ? fontFamily : "Homenaje, " + fontFamily;
 const textColor = Number(rgba2hex($("*").css("color")));
 const backgroundColorHEX = rgba2hex($("#header").css("background-color"));
 const backgroundColor = backgroundColorHEX.length == 8 ? Number(backgroundColorHEX) : backgroundColorHEX >>> 8;
@@ -257,8 +258,9 @@ function handleSearchInput(event) {
 		let firstMatch;
 		let firstMatchIdx = 0;
 		const nodeMatch = pixiNodes.find(pixiNode => {
-			// search `nodeName` for `newSearchText`
-			if (pixiNode.nodeName.toLowerCase().includes(newSearchText.toLowerCase())) {
+			// search `nodeHeader` for `newSearchText`
+			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined ? ` (${pixiNode.damageType})` : "");
+			if (nodeHeader.toLowerCase().includes(newSearchText.toLowerCase())) {
 				if (firstMatch == undefined) {
 					firstMatch = pixiNode;
 					firstMatchIdx = newSearchIdx;
@@ -763,7 +765,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			align: "right",
 			cacheAsBitmap: true,
 			fill: textColor,
-			fontFamily: fontFamily,
+			fontFamily: fontFamilyOverride,
 			fontSize: 48 * 4,
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
@@ -778,7 +780,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			align: "left",
 			cacheAsBitmap: true,
 			fill: textColor,
-			fontFamily: fontFamily,
+			fontFamily: fontFamilyOverride,
 			fontSize: 48 * 4,
 			fontVariant: "small-caps",
 			width: nodeWidth * 4,
@@ -835,6 +837,33 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
 		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
+	}
+
+	switch (nodeData.get("damageType")) {
+		case -1:
+		case undefined:
+			break;
+		case 0:
+			node.damageType = "Physical";
+			break;
+		case 1:
+			node.damageType = "Fire";
+			break;
+		case 2:
+			node.damageType = "Lightning";
+			break;
+		case 3:
+			node.damageType = "Cold";
+			break;
+		case 4:
+			node.damageType = "Poison";
+			break;
+		case 5:
+			node.damageType = "Shadow";
+			break;
+		default:
+			node.damageType = "Unknown";
+			break;
 	}
 
 	node
@@ -900,7 +929,7 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/{\/c}/g, "")									// `{/c}`, exact.
 		.replace(/{\/?u}/g, "")									// `{u}` and `{/u}`.
 		.replace(/{icon.+?}/g, "")								// `{icon:bullet}`, and similar.
-		.replace(/{if:Mod.+?}.+?({else}|{\/if})/g, "")			// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
+		.replace(/{if:Mod.+?}(.|\n)+?({else}|{\/if})/g, "")		// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
 		.replace(/{if:.+?}/g, "")								// `{if:ADVANCED_TOOLTIP}`, and similar.
 		.replace(/{\/if}/g, "")									// `{/if}`, exact.
 		.replace(/sLevel/g, "")									// `sLevel`, exact.
@@ -958,7 +987,9 @@ function drawTooltip(curNode) {
 		nodeDesc += "\nx: " + debugX + "\ny: " + debugY;
 	}
 
-	$("#tooltipSummaryHeader").text(curNode.nodeName);
+	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined ? ` (${curNode.damageType})` : "");
+
+	$("#tooltipSummaryHeader").text(nodeHeader);
 	$("#tooltipSummaryContainer").text(nodeDesc);
 
 	if (document.body.clientWidth < 800) {
@@ -975,7 +1006,7 @@ function drawTooltip(curNode) {
 		return;
 	}
 
-	const tooltipText1 = new PIXI.Text(curNode.nodeName, {
+	const tooltipText1 = new PIXI.Text(nodeHeader, {
 		align: "left",
 		breakWords: true,
 		cacheAsBitmap: true,
