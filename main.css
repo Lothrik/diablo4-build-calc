@@ -110,11 +110,11 @@ h1, h2, h3 {
 	}
 }
 
-#colorInput {
+#colorConnectorInput, #colorNodeInput {
 	visibility: hidden;
 }
 
-#colorInput, #colorButton {
+#colorConnectorInput, #colorNodeInput, #colorButton {
 	cursor: pointer;
 	height: 25px;
 	margin: 0 0 -25px calc(100% - 40px);

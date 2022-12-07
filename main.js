@@ -89,12 +89,14 @@ const backgroundOpacity = backgroundColorHEX.length == 8 ? 1 : (backgroundColorH
 const borderColorHEX = rgba2hex($("#header").css("border-color"));
 const borderColor = borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
 const borderOpacity = borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
-const activeConnectorColorDefault = "ff0000";
-var activeConnectorColor = Number("0x" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeConnectorColorDefault));
+const activeColorDefault = "ffffff";
+var activeConnectorColor = Number("0x" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
+var activeNodeColor = Number("0x" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
 
 const lineStyleThinSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
 const lineStyleThinButt = { alpha: borderOpacity, cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
-const lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
+const lineStyleThickSquareTooltip = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
+var lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: activeNodeColor, native: false, width: 8 };
 var lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
 
 var pixiAllocatedPoints = new Map();
@@ -159,17 +161,50 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 // event handlers
 const classString = "#classSelector option:selected";
 const groupString = "#groupSelector option:selected";
-function handleColorInput(event) {
-	writeCookie("activeConnectorColor", $("#colorInput").val().slice(1));
+var colorButtonState = 0;
+function handleBodyClick(event) {
+	if (colorButtonState == 1) {
+		$("#colorNodeInput").click();
+		colorButtonState = 0;
+	}
+}
+function handleConnectorColorInput(event) {
+	writeCookie("activeConnectorColor", $("#colorConnectorInput").val().slice(1));
 
-	activeConnectorColor = Number(readCookie("activeConnectorColor").length > 0 ? "0x" + readCookie("activeConnectorColor") : 0xff0000);
+	activeConnectorColor = Number("0x" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
 	lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
 
 	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
 }
+function handleNodeColorInput(event) {
+	writeCookie("activeNodeColor", $("#colorNodeInput").val().slice(1));
+
+	activeNodeColor = Number("0x" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
+	lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: activeNodeColor, native: false, width: 8 };
+
+	pixiNodes.forEach(curNode => {
+		if (curNode.groupName != undefined) {
+			const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+			if (allocatedPoints > 0) curNode.children[5].updateLineStyle(lineStyleThickSquare);
+		}
+	});
+
+	const className = $(classString).val();
+	const classData = classMap.get(className);
+	if (classData != undefined) {
+		const trunkData = classData.get("Trunk Data");
+		pixiNodes.filter(pixiNode => trunkData.has(pixiNode.nodeName)).forEach(groupNode => {
+			const requiredPoints = groupNode.nodeData.get("requiredPoints");
+			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
+			if (validConnection) groupNode.children[2].updateLineStyle(lineStyleThickSquare);
+		});
+	}
+}
 function handleColorButton(event) {
-	$("#colorInput").click();
-	event.preventDefault();
+	if (colorButtonState == 0) {
+		$("#colorConnectorInput").click();
+		colorButtonState = 1;
+	}
 }
 function handleSkillTreeZoom(event) {
 	switch (event.type) {
@@ -1052,7 +1087,7 @@ function drawTooltip(curNode) {
 	tooltipBackground.pivot.y = 10;
 
 	const tooltipBorder = new PIXI.Graphics();
-	tooltipBorder.lineStyle(lineStyleThickSquare);
+	tooltipBorder.lineStyle(lineStyleThickSquareTooltip);
 	tooltipBorder.moveTo(0, 0);
 	tooltipBorder.lineTo(tooltipBackground.width, 0);
 	tooltipBorder.moveTo(tooltipBackground.width, 0);
@@ -1319,8 +1354,11 @@ function writeCookie(name, value) {
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
-	$("#colorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeConnectorColorDefault));
-	$("#colorInput").on("change", handleColorInput);
+	$("body :not(#colorConnectorInput, #colorNodeInput)").on("click", handleBodyClick);
+	$("#colorConnectorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
+	$("#colorConnectorInput").on("change", handleConnectorColorInput);
+	$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
+	$("#colorNodeInput").on("change", handleNodeColorInput);
 	$("#colorButton").on("click", handleColorButton);
 	$("#resetButton").on("click", handleResetButton);
 	$("#debugButton").on("click", handleDebugButton);
