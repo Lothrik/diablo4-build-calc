@@ -166,6 +166,7 @@ function handleBodyClick(event) {
 	if (colorButtonState == 1) {
 		$("#colorNodeInput").click();
 		colorButtonState = 0;
+		event.preventDefault();
 	}
 }
 function handleConnectorColorInput(event) {
