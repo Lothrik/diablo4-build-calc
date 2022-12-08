@@ -1030,15 +1030,13 @@ function drawTooltip(curNode) {
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 
-	$("#tooltipSummaryHeader").text(nodeHeader);
-	$("#tooltipSummaryContainer").html(nodeDesc.replace(/\n/g, "<br>"));
+	$("#tooltipHeader").text(nodeHeader);
+	$("#tooltipContainer").html(nodeDesc.replace(/\n/g, "<br>"));
 
 	if (document.body.clientWidth < 800) {
-		$("#tooltipSummaryHeader").removeClass("disabled");
-		$("#tooltipSummaryContainer").removeClass("disabled");
+		$("#tooltipHeader, #tooltipContainer, #tooltipSpacer").removeClass("disabled");
 	} else {
-		$("#tooltipSummaryHeader").addClass("disabled");
-		$("#tooltipSummaryContainer").addClass("disabled");
+		$("#tooltipHeader, #tooltipContainer, #tooltipSpacer").addClass("disabled");
 	}
 
 	resizeCanvas();
@@ -1139,7 +1137,7 @@ function repositionTooltip() {
 	if (!pixiTooltip) return;
 
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+	const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
@@ -1321,7 +1319,7 @@ function resizeCanvas() {
 	let [newWidth, newHeight] = [document.documentElement.clientWidth, document.documentElement.clientHeight];
 	if (oldWidth != newWidth || oldHeight != newHeight) {
 		const offsetTop = $("#header").outerHeight(true);
-		const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#summaryContainer").outerHeight(true);
+		const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
 		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
 
 		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);

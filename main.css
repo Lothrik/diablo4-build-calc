@@ -70,13 +70,13 @@ h1, h2, h3 {
 	border-bottom-width: 2px;
 }
 
-#header, #summaryContainer, select, input, option, button {
+#header, #footer, select, input, option, button {
 	background-color: #000;
 	border-color: #fff;
 	z-index: 1;
 }
 
-#header, #summaryContainer {
+#header, #footer {
 	background-color: rgba(0, 0, 0, 0.8);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -199,21 +199,21 @@ button:active {
 	background-color: #333;
 }
 
-#summaryContainer {
+#footer {
 	margin-top: auto;
-	padding: 10px 10px 0;
+	padding: 10px 10px 5px 10px;
 	border-top-style: solid;
 	border-top-width: 2px;
 	flex-grow: 1;
 }
 
-#summaryContainer * {
+#footer * {
 	line-height: 1.1;
 	max-width: 840px;
 	margin: auto;
 }
 
-#tooltipSummaryHeader {
+#tooltipHeader {
 	font-variant: small-caps;
 	border-bottom: 1px solid #fff;
 	text-align: left;
@@ -221,25 +221,23 @@ button:active {
 	padding-bottom: 5px;
 }
 
-#summarySpacer {
+#tooltipSpacer {
 	clear: both;
 	height: 20px;
 }
 
-#footer {
+#footerText {
 	font-size: 12px;
-	margin-bottom: 5px;
-	padding-top: 15px;
 	text-transform: uppercase;
 }
 
 @media (max-width: 440px) {
-	#footer {
+	#footerText {
 		font-size: 2.7vw;
 	}
 }
 
-#footer a:hover {
+#footerText a:hover {
 	color: #f0f;
 }
 
@@ -254,7 +252,7 @@ button:active {
 	transform: rotate(12deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 	.stamp {
 		display: none;
 	}
