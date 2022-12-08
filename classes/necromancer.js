@@ -904,7 +904,7 @@ necromancer["Ultimate"] = {
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:22}%{/c}
 {/if}Call forth the deep buried dead. Volatile undead emerge over the next {c_number}{buffduration:RAISE_ARMY}{/c} seconds that explode when around enemies, dealing {c_number}{payload:EXPLOSION_DAMAGE}{/c} damage.`,
 		id: 93,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: -412.909,
 		y: -101.334,
 	},
@@ -933,7 +933,7 @@ necromancer["Ultimate"] = {
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Conjure a tidal wave of blood that deals {c_number}{payload:DAMAGE}{/c} damage and knocks enemies back.`,
 		id: 96,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: 308.891,
 		y: -165.596,
 	},
@@ -978,7 +978,7 @@ necromancer["Ultimate"] = {
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
 {/if}A swirling storm of bones appears around you and your Golem, dealing {c_number}{payload:TOOLTIP_DAMAGE}{/c} to surrounding enemies over {c_number}{buffduration:BONESTORM}{/c} seconds.`,
 		id: 101,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: 310.324,
 		y: 168.163,
 	},

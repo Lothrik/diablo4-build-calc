@@ -1013,7 +1013,7 @@ sorcerer["Ultimate"] = {
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}*2|%|]{/c}
 {/if}Ignite a roaring inferno that pulses in and out of the target area, Burning enemies for {c_number}{payload:TOOLTIP_TOTAL_DAMAGE}{/c} damage over {c_number}{SF_5}{/c} seconds, and then explodes, dealing {c_number}{payload:FINAL_EXPLOSION_DAMAGE}{/c} damage to enemies on the outer edge.`,
 		id: 103,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: 318.105,
 		y: -144.186,
 	},
@@ -1040,7 +1040,7 @@ sorcerer["Ultimate"] = {
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 Lightning surges within you for {c_number}{buffduration:CURRENTS_ACTIVE}{/c} seconds. Whenever you cast a {c_important}Lightning{/c} Skill, another random non-Basic {c_important}Lightning{/c} Skill is also cast.`,
 		id: 106,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: 314.75,
 		y: 150.596,
 	},
@@ -1069,7 +1069,7 @@ Lightning surges within you for {c_number}{buffduration:CURRENTS_ACTIVE}{/c} sec
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Encase yourself in ice, becoming {c_important}Immune{/c} for {c_number}{buffduration:BUFF_IMMUNE}{/c} seconds, continually {c_important}Chilling{/c} enemies for {c_number}{SF_6}%{/c}. When Deep Freeze ends, {c_important}Frozen{/c} enemies shatter for {c_number}{payload:FROZEN_DAMAGE}{/c}. Casting Deep Freeze again ends the effect early.`,
 		id: 109,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: -295.855,
 		y: -140.251,
 	},

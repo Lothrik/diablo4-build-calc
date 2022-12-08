@@ -1018,7 +1018,7 @@ Talic spins in a whirlwind rapidly attacking enemies for {c_number}{payload:WHIR
 
 Madawc upheaves the ground, dealing {c_number}{payload:UPHEAVAL_TOOLTIP}{/c} damage.`,
 		id: 103,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: -51.582,
 		y: -242.094,
 	},
@@ -1055,7 +1055,7 @@ Reactivate a second time to attach a chain to your Two-Handed Slashing weapon an
 
 Reactivate a final time to attach a chain to your Dual Wield weapons and swing them around you, dealing {c_number}{payload:TOOLTIP_DAMAGE_DUALWIELDING}{/c} damage per hit.`,
 		id: 106,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: -409.819,
 		y: -8.495,
 	},
@@ -1091,7 +1091,7 @@ Reactivate a final time to attach a chain to your Dual Wield weapons and swing t
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
 {/if}Gain {c_important}Berserking{/c} and {c_important}Unstoppable{/c} for {c_number}{SF_13}{/c} seconds.  For the next {c_number}{buffduration:BUFF_MAIN}{/c} seconds, dealing direct damage with {c_important}Basic{/c} Skills grants {c_important}Berserking{/c} for {c_number}{SF_12}{/c} seconds.`,
 		id: 110,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: 293.361,
 		y: 168.865,
 	},

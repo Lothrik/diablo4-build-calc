@@ -1080,7 +1080,7 @@ Kills extend the duration by {c_number}{SF_16}{/c} second up to {c_number}+{SF_1
 
 Casting {c_important}Grizzly Rage{/c} causes enemies in the area to take {c_number}{payload:TOOLTIP_MOD_CAST_IMPACT}{/c} damage and be Slowed by {c_number}[{SF_8}*100|%|]{/c} for {c_number}{buffduration:CAST_SLOW}{/c} seconds.{/if}`,
 		id: 107,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: 430.055,
 		y: 63.605,
 	},
@@ -1107,7 +1107,7 @@ Casting {c_important}Grizzly Rage{/c} causes enemies in the area to take {c_numb
 		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
 Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRIFIED}{/c} seconds. You deal {c_number}x[{SF_2}*100|%|]{/c} increased Critical Strike Damage to Petrified enemies.`,
 		id: 110,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: 209.315,
 		y: -196.232,
 	},
@@ -1192,7 +1192,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}|%|]{/c}
 {/if}Shapeshift into a Werewolf, become {c_important}Immune{/c} and quickly dash {c_number}{SF_6}{/c} times between enemies in the area dealing up to {c_number}{PAYLOAD:TOOLTIP_DAMAGE}{/c} damage.`,
 		id: 120,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: -5.075,
 		y: 234.915,
 	},
@@ -1221,7 +1221,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 {if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:28}%{/c}
 {/if}A massive storm follows you for {c_number}{buffduration:TORNADO_SPAWNING}{/c} seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing {c_number}{payload:LIGHTNING_STRIKE}{/c} damage.`,
 		id: 123,
-		maxPoints: 5,
+		maxPoints: 1,
 		x: -397.415,
 		y: -109.56,
 	},

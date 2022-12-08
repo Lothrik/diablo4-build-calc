@@ -146,29 +146,35 @@ function fixJSON(classData, curNode, rootNodeName) {
 			nodeData["SkillName"] = "Enhanced Charged Bolts";
 		}
 		if (nodeData["SkillName"] != undefined) {
-			const namedConnectionList = JSON.parse(namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, rootNodeName));
-			let chainedConnectionList = namedConnectionList;
-			namedConnectionList.forEach(namedConnection => {
-				classData["Nodes"].filter(chainedData => {
-					if (chainedData["SkillName"] == namedConnection) {
-						chainedConnectionList.push(...JSON.parse(namedConnections(chainedData["Connections"], chainedData["SkillName"], classData, rootNodeName)));
-					}
+			// ultimate skills don't have ranks
+			if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["SkillDesc"]) && nodeData["Reward"]["dwMaxTalentRanks"] == 5) {
+				$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
+				nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+			} else {
+				const namedConnectionList = JSON.parse(namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, rootNodeName));
+				let chainedConnectionList = namedConnectionList;
+				namedConnectionList.forEach(namedConnection => {
+					classData["Nodes"].filter(chainedData => {
+						if (chainedData["SkillName"] == namedConnection) {
+							chainedConnectionList.push(...JSON.parse(namedConnections(chainedData["Connections"], chainedData["SkillName"], classData, rootNodeName)));
+						}
+					});
 				});
-			});
-			chainedConnectionList = [...new Set(chainedConnectionList)];
-			const unmodifiedName = nodeData["SkillName"].split(" ").slice(1).join(" ");
-			let unmodifiedNameSpecial = null;
-			if (unmodifiedName == "Wolf Pack") {
-				unmodifiedNameSpecial = "Wolves";
-			} else if (unmodifiedName == "Stealth") {
-				unmodifiedNameSpecial = "Concealment";
-			}
-			if (unmodifiedName.length > 0 && (chainedConnectionList.indexOf(unmodifiedName) != -1 || (unmodifiedNameSpecial != null && chainedConnectionList.indexOf(unmodifiedNameSpecial) != -1))) {
-				if (nodeData["Reward"]["dwMaxTalentRanks"] == 3) {
-					$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
-					nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+				chainedConnectionList = [...new Set(chainedConnectionList)];
+				const unmodifiedName = nodeData["SkillName"].split(" ").slice(1).join(" ");
+				let unmodifiedNameSpecial = null;
+				if (unmodifiedName == "Wolf Pack") {
+					unmodifiedNameSpecial = "Wolves";
+				} else if (unmodifiedName == "Stealth") {
+					unmodifiedNameSpecial = "Concealment";
 				}
-				nodeData["baseSkillName"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
+				if (unmodifiedName.length > 0 && (chainedConnectionList.indexOf(unmodifiedName) != -1 || (unmodifiedNameSpecial != null && chainedConnectionList.indexOf(unmodifiedNameSpecial) != -1))) {
+					if (nodeData["Reward"]["dwMaxTalentRanks"] == 3) {
+						$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
+						nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+					}
+					nodeData["baseSkillName"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
+				}
 			}
 		}
 	}
