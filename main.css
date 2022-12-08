@@ -201,7 +201,7 @@ button:active {
 
 #footer {
 	margin-top: auto;
-	padding: 10px 10px 5px 10px;
+	padding: 10px 10px 5px;
 	border-top-style: solid;
 	border-top-width: 2px;
 	flex-grow: 1;
@@ -221,9 +221,9 @@ button:active {
 	padding-bottom: 5px;
 }
 
-#tooltipSpacer {
+.footerSpacer {
 	clear: both;
-	height: 20px;
+	height: 10px;
 }
 
 #footerText {

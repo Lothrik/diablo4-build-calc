@@ -1034,9 +1034,9 @@ function drawTooltip(curNode) {
 	$("#tooltipContainer").html(nodeDesc.replace(/\n/g, "<br>"));
 
 	if (document.body.clientWidth < 800) {
-		$("#tooltipHeader, #tooltipContainer, #tooltipSpacer").removeClass("disabled");
+		$("#tooltipHeader, #tooltipContainer, .footerSpacer").removeClass("disabled");
 	} else {
-		$("#tooltipHeader, #tooltipContainer, #tooltipSpacer").addClass("disabled");
+		$("#tooltipHeader, #tooltipContainer, .footerSpacer").addClass("disabled");
 	}
 
 	resizeCanvas();
