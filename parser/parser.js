@@ -164,6 +164,10 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode) 
 function fixJSON(classData, curNode, rootNodeName) {
 	const nodeData = classData["Nodes"][curNode];
 	if (buildNumber == 36023 || buildNumber == 36331) {
+		if (nodeData["SkillName"] != nodeData["SkillName"].trim()) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `" + nodeData["SkillName"].trim() + "`.");
+			nodeData["SkillName"] = nodeData["SkillName"].trim();
+		}
 		// `Supreme Unstable Currents` was incorrectly assigned the duplicate name `Prime Unstable Currents` in 36023, causing a naming collision.
 		if (nodeData["SkillName"] == "Prime Unstable Currents" && nodeData["Id"] == 619) {
 			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Unstable Currents`.");

@@ -2,518 +2,518 @@ let nodeValues = {
 	"Barbarian": {
 		"Basic": {
 			"Bash": [
+				"10",
 				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"31",
+				"4",
+				"1.25",
+				"2"
 			],
 			"Enhanced Bash": [
-				"",
+				"5",
 				""
 			],
 			"Battle Bash": [
-				"",
-				""
+				"3",
+				"4"
 			],
 			"Combat Bash": [
-				""
+				"4"
 			],
 			"Lunging Strike": [
+				"9",
 				"",
-				"",
-				""
+				"31"
 			],
 			"Enhanced Lunging Strike": [
-				"",
-				"",
+				"30",
+				"2",
 				""
 			],
 			"Combat Lunging Strike": [
-				""
+				"1.5"
 			],
 			"Battle Lunging Strike": [
-				"",
-				""
+				"21",
+				"5"
 			],
 			"Frenzy": [
+				"5",
 				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"21",
+				"20",
+				"3",
+				"60"
 			],
 			"Enhanced Frenzy": [
-				""
+				"60"
 			],
 			"Battle Frenzy": [
-				""
+				"5"
 			],
 			"Combat Frenzy": [
-				""
+				"8"
 			],
 			"Flay": [
+				"9",
 				"",
-				"",
-				"",
-				"",
-				""
+				"5",
+				"38",
+				"5"
 			],
 			"Enhanced Flay": [
-				"",
-				""
+				"10",
+				"3"
 			],
 			"Battle Flay": [
-				""
+				"10"
 			],
 			"Combat Flay": [
-				"",
-				"",
-				"",
-				""
+				"1",
+				"4",
+				"3",
+				"5"
 			]
 		},
 		"Core": {
 			"Hammer of the Ancients": [
+				"35",
 				"",
-				"",
-				""
+				"59"
 			],
 			"Enhanced Hammer of the Ancients": [
-				"",
-				"",
-				""
+				"3",
+				"5",
+				"10"
 			],
 			"Violent Hammer of the Ancients": [
-				"",
-				""
+				"30",
+				"2.5"
 			],
 			"Furious Hammer of the Ancients": [
-				""
+				"1"
 			],
 			"Upheaval": [
+				"40",
 				"",
-				"",
-				""
+				"73"
 			],
 			"Enhanced Upheaval": [
-				"",
-				""
+				"20",
+				"2.5"
 			],
 			"Violent Upheaval": [
-				"",
-				"",
-				"",
-				""
+				"2",
+				"2",
+				"3",
+				"4"
 			],
 			"Furious Upheaval": [
-				"",
-				""
+				"8",
+				"10"
 			],
 			"Double Swing": [
+				"25",
 				"",
-				"",
-				""
+				"38"
 			],
 			"Enhanced Double Swing": [
-				""
+				"25"
 			],
 			"Furious Double Swing": [
-				""
+				"2"
 			],
 			"Violent Double Swing": [
-				""
+				"1"
 			],
 			"Pressure Point": [
-				""
+				"{10/20/30}"
 			],
 			"Rend": [
+				"35",
 				"",
-				"",
-				"",
-				"",
-				""
+				"13",
+				"101",
+				"5"
 			],
 			"Enhanced Rend": [
-				""
+				"2"
 			],
 			"Violent Rend": [
-				""
+				"12"
 			],
 			"Furious Rend": [
-				"",
-				""
+				"4",
+				"20"
 			],
 			"Whirlwind": [
+				"20",
 				"",
-				"",
-				""
+				"12"
 			],
 			"Enhanced Whirlwind": [
-				"",
-				""
+				"1",
+				"3"
 			],
 			"Furious Whirlwind": [
-				"",
-				""
+				"26",
+				"5"
 			],
 			"Violent Whirlwind": [
-				"",
-				""
+				"2",
+				"30"
 			],
 			"Endless Fury": [
-				""
+				"{5/10/15}"
 			]
 		},
 		"Defensive": {
 			"Challenging Shout": [
-				"",
-				"",
-				""
+				"25.0",
+				"40",
+				"8"
 			],
 			"Enhanced Challenging Shout": [
-				""
+				"20"
 			],
 			"Strategic Challenging Shout": [
-				""
+				"50"
 			],
 			"Tactical Challenging Shout": [
-				""
+				"3"
 			],
 			"Iron Skin": [
-				"",
-				"",
-				""
+				"14.0",
+				"50",
+				"5"
 			],
 			"Enhanced Iron Skin": [
-				""
+				"10"
 			],
 			"Tactical Iron Skin": [
-				""
+				"10"
 			],
 			"Strategic Iron Skin": [
+				"9",
 				"",
-				"",
-				""
+				"50"
 			],
 			"Outburst": [
-				"",
-				"",
-				""
+				"{2/4/6}",
+				"2",
+				"2"
 			],
 			"Tough as Nails": [
-				""
+				"{20/40/60}"
 			],
 			"Ground Stomp": [
+				"16.0",
 				"",
-				"",
-				"",
-				""
+				"10",
+				"3"
 			],
 			"Enhanced Ground Stomp": [
-				""
+				"1"
 			],
 			"Tactical Ground Stomp": [
-				""
+				"25"
 			],
 			"Strategic Ground Stomp": [
-				""
+				"1"
 			],
 			"Rallying Cry": [
-				"",
-				"",
-				"",
-				""
+				"25.0",
+				"30",
+				"50",
+				"6"
 			],
 			"Strategic Rallying Cry": [
+				"10",
 				"",
-				"",
-				"",
+				"2",
 				""
 			],
 			"Tactical Rallying Cry": [
-				"",
-				""
+				"25",
+				"50"
 			],
-			"Imposing Presence ": [
-				""
+			"Imposing Presence": [
+				"{5/10/15}"
 			],
 			"Martial Vigor": [
-				""
+				"{4/8/12}"
 			]
 		},
 		"Brawling": {
 			"Charge": [
+				"17.0",
 				"",
-				"",
-				""
+				"26"
 			],
 			"Enhanced Charge": [
-				"",
-				""
+				"16",
+				"3"
 			],
 			"Power Charge": [
-				""
+				"3"
 			],
 			"Mighty Charge": [
-				""
+				"2"
 			],
 			"War Cry": [
-				"",
-				"",
-				""
+				"25.0",
+				"15",
+				"8"
 			],
 			"Enhanced War Cry": [
-				""
+				"3"
 			],
 			"Power War Cry": [
-				"",
-				""
+				"4",
+				"15"
 			],
 			"Mighty War Cry": [
-				"",
+				"28",
 				""
 			],
 			"Booming Voice": [
-				""
-			],
-			"Raid Leader ": [
-				""
+				"{10/20/30}"
 			],
 			"Guttural Yell": [
-				"",
-				""
+				"{8/16/24}",
+				"5"
 			],
 			"Leap": [
+				"17.0",
 				"",
-				"",
-				""
+				"34"
 			],
 			"Enhanced Leap": [
-				""
+				"4"
 			],
 			"Mighty Leap": [
-				"",
-				""
+				"50",
+				"5"
 			],
 			"Power Leap": [
-				""
+				"40"
 			],
 			"Kick": [
+				"2",
+				"17.0",
 				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"19",
+				"57",
+				"3"
 			],
 			"Enhanced Kick": [
-				""
+				"4"
 			],
 			"Mighty Kick": [
-				"",
-				""
+				"54",
+				"2"
 			],
 			"Power Kick": [
-				"",
-				""
+				"21",
+				"10"
 			],
 			"Aggressive Resistance": [
-				""
+				"{4/8/12}"
 			],
 			"Prolific Fury": [
-				""
+				"{6/12/18}"
 			],
 			"Battle Frenzy": [
-				""
+				"{1/2/3}"
 			],
 			"Swiftness": [
-				""
+				"{4/8/12}"
 			],
 			"Quick Impulses": [
-				""
+				"{6/12/18}"
+			],
+			"Raid Leader": [
+				"{1/2/3}"
 			]
 		},
 		"Weapon Mastery": {
 			"Steel Grasp": [
+				"2",
+				"11.0",
 				"",
-				"",
-				"",
-				""
+				"24"
 			],
 			"Enhanced Steel Grasp": [
-				""
+				"2.5"
 			],
 			"Warrior's Steel Grasp": [
-				""
+				"1"
 			],
 			"Fighter's Steel Grasp": [
-				""
+				"2"
 			],
 			"Thick Skin": [
-				"",
-				""
-			],
-			"Counteroffensive ": [
-				"",
+				"{0.4/0.7/1.1}",
 				""
 			],
 			"Defensive Posture": [
-				""
+				"{3/6/9}"
 			],
 			"Death Blow": [
 				"",
 				"",
+				"15.0",
 				"",
-				"",
-				""
+				"126"
 			],
 			"Enhanced Death Blow": [
-				""
+				"100"
 			],
 			"Warrior's Death Blow": [
-				""
+				"3"
 			],
 			"Fighter's Death Blow": [
-				""
+				"20"
 			],
 			"Pit Fighter": [
-				"",
-				""
+				"{3/6/9}",
+				"{2/4/6}"
 			],
 			"Slaying Strike": [
-				""
+				"{8/15/23}"
 			],
 			"Expose Vulnerability": [
-				""
+				"{1.5/3/4.5}"
 			],
 			"No Mercy": [
-				""
+				"{5/9/13}"
 			],
 			"Rupture": [
+				"15.0",
 				"",
 				"",
 				"",
-				"",
-				""
+				"14"
 			],
 			"Enhanced Rupture": [
-				"",
-				""
+				"20",
+				"8"
 			],
 			"Fighter's Rupture": [
-				""
+				"15"
 			],
 			"Warrior's Rupture": [
-				"",
-				""
+				"20",
+				"4"
 			],
 			"Hamstring": [
-				""
+				"{10/20/30}"
 			],
 			"Cut to the Bone": [
-				""
+				"{6/12/18}"
+			],
+			"Counteroffensive": [
+				"50",
+				"{5/10/15}"
 			]
 		},
 		"Ultimate": {
 			"Call of the Ancients": [
+				"50.0",
 				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"6",
+				"80",
+				"30",
+				"50",
+				"150"
 			],
 			"Prime Call of the Ancients": [
-				"",
-				""
+				"10",
+				"10"
 			],
 			"Supreme Call of the Ancients": [
-				"",
-				"",
-				"",
-				""
+				"50",
+				"1",
+				"30",
+				"3"
 			],
 			"Iron Maelstrom": [
+				"60.0",
 				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"63",
+				"2",
+				"21",
+				"126",
+				"5",
+				"34"
 			],
 			"Prime Iron Maelstrom": [
-				"",
-				""
+				"10",
+				"20"
 			],
 			"Supreme Iron Maelstrom": [
-				""
+				"1"
 			],
 			"Duelist": [
-				""
+				"{3/6/9}"
 			],
 			"Wrath of the Berserker": [
+				"60.0",
 				"",
-				"",
-				"",
-				"",
-				""
+				"5",
+				"10",
+				"5"
 			],
 			"Supreme Wrath of the Berserker": [
-				"",
-				""
+				"50",
+				"25"
 			],
 			"Prime Wrath of the Berserker": [
-				"",
-				""
+				"20",
+				"30"
 			],
 			"Tempered Fury": [
-				""
+				"{3/6/9}"
 			],
 			"Invigorating Fury": [
-				"",
-				""
+				"{2/4/6}",
+				"100"
 			],
 			"Furious Impulse": [
-				""
+				"{2/4/6}"
 			],
 			"Wallop": [
-				""
+				"{5/10/15}"
 			],
 			"Brute Force": [
-				""
+				"{15/30/45}"
 			],
 			"Heavy Handed": [
-				""
+				"{5/10/15}"
 			],
 			"Concussion": [
-				"",
-				"",
-				""
+				"{10/20/30}",
+				"3",
+				"{15/30/45}"
 			]
 		},
 		"Capstone": {
 			"Unconstrained": [
-				"",
-				""
+				"5",
+				"25"
 			],
 			"Gushing Wounds": [
-				"",
-				""
+				"12",
+				"5"
 			],
 			"Unbridled Rage": [
-				"",
-				""
+				"135",
+				"100"
 			],
 			"Walking Arsenal": [
-				"",
-				"",
-				""
+				"10",
+				"6",
+				"15"
 			]
 		}
 	},
@@ -1520,7 +1520,7 @@ let nodeValues = {
 	"Rogue": {
 		"Basic": {
 			"Blade Shift": [
-				"",
+				"1",
 				"",
 				"19",
 				"3"
@@ -1538,7 +1538,7 @@ let nodeValues = {
 				"20"
 			],
 			"Invigorating Strike": [
-				"",
+				"1",
 				"",
 				"29",
 				"20",
@@ -1573,7 +1573,7 @@ let nodeValues = {
 				"3"
 			],
 			"Heartseeker": [
-				"",
+				"1",
 				"",
 				"28",
 				"3",
@@ -1593,7 +1593,7 @@ let nodeValues = {
 				"30"
 			],
 			"Forceful Arrow": [
-				"",
+				"1",
 				"",
 				"25",
 				"2"
@@ -1752,7 +1752,7 @@ let nodeValues = {
 			],
 			"Dash": [
 				"2",
-				"10",
+				"10.0",
 				"",
 				"47"
 			],
@@ -1781,7 +1781,7 @@ let nodeValues = {
 			],
 			"Caltrops": [
 				"2",
-				"12",
+				"12.0",
 				"",
 				"38",
 				"50",
