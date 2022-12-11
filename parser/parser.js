@@ -1,5 +1,6 @@
-import { nodeHistory } from "./nodehistory.js";
-import { nodeValues } from "./nodevalues.js";
+import { nodeHistory } from "./node-history.js";
+import { nodeValues } from "./node-values.js";
+import { sorcererEnchants } from "./sorcerer-enchants.js";
 
 const buildNumber = 36331;
 
@@ -14,98 +15,98 @@ $.getJSON("tree/build-" + buildNumber + ".json", null, successData => {
 const scaleRatio = 0.5;
 
 const rootNodeNames = {
-	["Barbarian"]: {
-		[0]: "Ultimate",
-		[1]: "Weapon Mastery",
-		[2]: "Brawling",
-		[3]: "Defensive",
-		[4]: "Core",
-		[5]: "Basic",
-		[6]: "Capstone"
+	"Barbarian": {
+		0: "Ultimate",
+		1: "Weapon Mastery",
+		2: "Brawling",
+		3: "Defensive",
+		4: "Core",
+		5: "Basic",
+		6: "Capstone"
 	},
-	["Druid"]: {
-		[0]: "Basic",
-		[1]: "Spirit",
-		[2]: "Defensive",
-		[3]: "Companion",
-		[4]: "Wrath",
-		[5]: "Ultimate",
-		[6]: "Capstone"
+	"Druid": {
+		0: "Basic",
+		1: "Spirit",
+		2: "Defensive",
+		3: "Companion",
+		4: "Wrath",
+		5: "Ultimate",
+		6: "Capstone"
 	},
-	["Necromancer"]: {
-		[0]: "Basic",
-		[1]: "Capstone",
-		[2]: "Core",
-		[3]: "Corruption",
-		[4]: "Summoning",
-		[5]: "Ultimate",
-		[6]: "Macabre"
+	"Necromancer": {
+		0: "Basic",
+		1: "Capstone",
+		2: "Core",
+		3: "Corruption",
+		4: "Summoning",
+		5: "Ultimate",
+		6: "Macabre"
 	},
-	["Rogue"]: {
-		[0]: "Capstone",
-		[1]: "Imbuements",
-		[2]: "Agility",
-		[3]: "Core",
-		[4]: "Basic",
-		[5]: "Ultimate",
-		[6]: "Subterfuge"
+	"Rogue": {
+		0: "Capstone",
+		1: "Imbuements",
+		2: "Agility",
+		3: "Core",
+		4: "Basic",
+		5: "Ultimate",
+		6: "Subterfuge"
 	},
-	["Sorcerer"]: {
-		[0]: "Conjuration",
-		[1]: "Ultimate",
-		[2]: "Mastery",
-		[3]: "Basic",
-		[4]: "Capstone",
-		[5]: "Defensive",
-		[6]: "Core"
+	"Sorcerer": {
+		0: "Conjuration",
+		1: "Ultimate",
+		2: "Mastery",
+		3: "Basic",
+		4: "Capstone",
+		5: "Defensive",
+		6: "Core"
 	},
 }
 
 const rootNodeNamesSorted = {
-	["Barbarian"]: {
-		[0]: "Basic",
-		[1]: "Core",
-		[2]: "Defensive",
-		[3]: "Brawling",
-		[4]: "Weapon Mastery",
-		[5]: "Ultimate",
-		[6]: "Capstone"
+	"Barbarian": {
+		0: "Basic",
+		1: "Core",
+		2: "Defensive",
+		3: "Brawling",
+		4: "Weapon Mastery",
+		5: "Ultimate",
+		6: "Capstone"
 	},
-	["Druid"]: {
-		[0]: "Basic",
-		[1]: "Spirit",
-		[2]: "Defensive",
-		[3]: "Companion",
-		[4]: "Wrath",
-		[5]: "Ultimate",
-		[6]: "Capstone"
+	"Druid": {
+		0: "Basic",
+		1: "Spirit",
+		2: "Defensive",
+		3: "Companion",
+		4: "Wrath",
+		5: "Ultimate",
+		6: "Capstone"
 	},
-	["Necromancer"]: {
-		[0]: "Basic",
-		[1]: "Core",
-		[2]: "Macabre",
-		[3]: "Corruption",
-		[4]: "Summoning",
-		[5]: "Ultimate",
-		[6]: "Capstone",
+	"Necromancer": {
+		0: "Basic",
+		1: "Core",
+		2: "Macabre",
+		3: "Corruption",
+		4: "Summoning",
+		5: "Ultimate",
+		6: "Capstone",
 	},
-	["Rogue"]: {
-		[0]: "Basic",
-		[1]: "Core",
-		[2]: "Agility",
-		[3]: "Subterfuge",
-		[4]: "Imbuements",
-		[5]: "Ultimate",
-		[6]: "Capstone",
+	"Rogue": {
+		0: "Basic",
+		1: "Core",
+		2: "Agility",
+		3: "Subterfuge",
+		4: "Imbuements",
+		5: "Ultimate",
+		6: "Capstone",
 	},
-	["Sorcerer"]: {
-		[0]: "Basic",
-		[1]: "Core",
-		[2]: "Defensive",
-		[3]: "Conjuration",
-		[4]: "Mastery",
-		[5]: "Ultimate",
-		[6]: "Capstone",
+	"Sorcerer": {
+		0: "Basic",
+		1: "Core",
+		2: "Defensive",
+		3: "Conjuration",
+		4: "Mastery",
+		5: "Ultimate",
+		6: "Capstone",
 	},
 }
 
@@ -242,7 +243,7 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 			if (!mappedIDs[nodeData["Id"]]) {
 				mappedIDs[nodeData["Id"]] = true;
 				if (!classProcessed[className]) fixJSON(classData, connectedNode, rootNodeName);
-				output += '	["' + nodeData["SkillName"] + '"]: {\n';
+				output += '	"' + nodeData["SkillName"] + '": {\n';
 				const baseSkillName = nodeData["baseSkillName"];
 				if (baseSkillName != undefined) {
 					output += '		baseSkill: "' + baseSkillName + '",\n';
@@ -253,7 +254,16 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					output += "		damageType: " + nodeData["DamageType"] + ",\n";
 				}
 				const sanitizedDescription = sanitizeNodeDescription(nodeData["SkillDesc"]);
-				output += "		description: `" + sanitizedDescription + "`,\n";
+				if (className == "Sorcerer" && sorcererEnchants[rootNodeName] != undefined) {
+					const extraDescription = sorcererEnchants[rootNodeName][nodeData["SkillName"]];
+					if (extraDescription != undefined && extraDescription.length > 0) {
+						output += "		description: `" + sanitizedDescription + "\n\n— Enchantment Effect —\n" + extraDescription + "`,\n";
+					} else {
+						output += "		description: `" + sanitizedDescription + "`,\n";
+					}
+				} else {
+					output += "		description: `" + sanitizedDescription + "`,\n";
+				}
 				const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]];
 				if (nodeHistoricalId != undefined) {
 					output += "		id: " + nodeHistoricalId + ",\n";
@@ -307,7 +317,7 @@ function runParser(downloadMode) {
 			rootNodes.forEach((rootNode, rootIndex) => {
 				const rootNodeName = rootNodeNames[className][rootIndex];
 				if (rootNodeName == rootNodeNamesSorted[className][i]) {
-					formattedData += '	["' + rootNodeName + '"]: {\n';
+					formattedData += '	"' + rootNodeName + '": {\n';
 					const nextRootNode = rootNodeNamesSorted[className][i + 1];
 					if (nextRootNode && nextRootNode.length != undefined) {
 						formattedData += '		connections: [ "' + nextRootNode + '" ],\n';
@@ -356,7 +366,7 @@ function runParser(downloadMode) {
 		if (downloadMode) {
 			let downloadElement = document.createElement("a");
 			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedNodeHistory);
-			downloadElement.download = "nodehistory.js";
+			downloadElement.download = "node-history.js";
 			downloadElement.click();
 		} else {
 			console.log(formattedNodeHistory);
@@ -367,7 +377,7 @@ function runParser(downloadMode) {
 		if (downloadMode) {
 			let downloadElement = document.createElement("a");
 			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedNodeValues);
-			downloadElement.download = "nodevalues.js";
+			downloadElement.download = "node-values.js";
 			downloadElement.click();
 		} else {
 			console.log(formattedNodeValues);

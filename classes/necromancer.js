@@ -1,42 +1,42 @@
 let necromancer = {};
 
 necromancer["Trunk Data"] = {
-	["Basic"]: {
+	"Basic": {
 		connections: [ "Core" ],
 		x: 0,
 		y: 0,
 	},
-	["Core"]: {
+	"Core": {
 		connections: [ "Macabre" ],
 		requiredPoints: 2,
 		x: -2.353,
 		y: 1135.79,
 	},
-	["Macabre"]: {
+	"Macabre": {
 		connections: [ "Corruption" ],
 		requiredPoints: 6,
 		x: 1240.933,
 		y: 2069.72,
 	},
-	["Corruption"]: {
+	"Corruption": {
 		connections: [ "Summoning" ],
 		requiredPoints: 11,
 		x: 1241.038,
 		y: 3005.145,
 	},
-	["Summoning"]: {
+	"Summoning": {
 		connections: [ "Ultimate" ],
 		requiredPoints: 16,
 		x: -1135.477,
 		y: 3007.775,
 	},
-	["Ultimate"]: {
+	"Ultimate": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: -9.557,
 		y: 4138.157,
 	},
-	["Capstone"]: {
+	"Capstone": {
 		requiredPoints: 33,
 		x: -11.71,
 		y: 4933.965,
@@ -44,7 +44,7 @@ necromancer["Trunk Data"] = {
 };
 
 necromancer["Basic"] = {
-	["Decompose"]: {
+	"Decompose": {
 		connections: [ "Enhanced Decompose", "Basic" ],
 		damageType: 5,
 		description: `Generate Essence: {#} per second
@@ -56,7 +56,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		x: -302.458,
 		y: -154.39,
 	},
-	["Enhanced Decompose"]: {
+	"Enhanced Decompose": {
 		baseSkill: "Decompose",
 		connections: [ "Decompose", "Acolyte's Decompose", "Initiate's Decompose" ],
 		description: `If an enemy dies while being Decomposed, you gain {#} Essence.`,
@@ -66,7 +66,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		x: -535.502,
 		y: -276.92,
 	},
-	["Acolyte's Decompose"]: {
+	"Acolyte's Decompose": {
 		baseSkill: "Decompose",
 		connections: [ "Enhanced Decompose" ],
 		description: `You and your Minions deal x{#}% increased damage to enemies who are being Decomposed.`,
@@ -76,7 +76,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		x: -852.607,
 		y: -322.1,
 	},
-	["Initiate's Decompose"]: {
+	"Initiate's Decompose": {
 		baseSkill: "Decompose",
 		connections: [ "Enhanced Decompose" ],
 		description: `Decompose Slows enemies by {#}%.`,
@@ -86,7 +86,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		x: -629.022,
 		y: -437.845,
 	},
-	["Reap"]: {
+	"Reap": {
 		connections: [ "Enhanced Reap", "Basic" ],
 		damageType: 5,
 		description: `Generate Essence: {#} per enemy hit
@@ -98,7 +98,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		x: -276.92,
 		y: 154.47,
 	},
-	["Enhanced Reap"]: {
+	"Enhanced Reap": {
 		baseSkill: "Reap",
 		connections: [ "Reap", "Initiate's Reap", "Acolyte's Reap" ],
 		description: `If an enemy hit by Reap dies within {#} seconds, you gain {#}% Attack Speed for {#} seconds.`,
@@ -108,7 +108,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		x: -519.257,
 		y: 283.565,
 	},
-	["Initiate's Reap"]: {
+	"Initiate's Reap": {
 		baseSkill: "Reap",
 		connections: [ "Enhanced Reap" ],
 		description: `Reap instantly executes non-Bosses below {#}% Life.`,
@@ -118,7 +118,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		x: -850.547,
 		y: 324,
 	},
-	["Acolyte's Reap"]: {
+	"Acolyte's Reap": {
 		baseSkill: "Reap",
 		connections: [ "Enhanced Reap" ],
 		description: `Reap forms a Corpse under the first enemy hit. Can only occur every {#} seconds.`,
@@ -128,7 +128,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		x: -599.482,
 		y: 454.96,
 	},
-	["Hemorrhage"]: {
+	"Hemorrhage": {
 		connections: [ "Enhanced Hemorrhage", "Basic" ],
 		damageType: 0,
 		description: `Generate Essence: {#}
@@ -140,7 +140,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		x: 279.313,
 		y: -153.68,
 	},
-	["Enhanced Hemorrhage"]: {
+	"Enhanced Hemorrhage": {
 		baseSkill: "Hemorrhage",
 		connections: [ "Hemorrhage", "Acolyte's Hemorrhage", "Initiate's Hemorrhage" ],
 		description: `After picking up a Blood Orb, your next Hemorrhage also deals damage to enemies around your target and grants {#} additional Essence per enemy hit.`,
@@ -150,7 +150,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		x: 515.388,
 		y: -269.005,
 	},
-	["Acolyte's Hemorrhage"]: {
+	"Acolyte's Hemorrhage": {
 		baseSkill: "Hemorrhage",
 		connections: [ "Enhanced Hemorrhage" ],
 		description: `Hemorrhage gains an additional {#}% Attack Speed while Healthy.`,
@@ -160,7 +160,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		x: 848.648,
 		y: -316.2,
 	},
-	["Initiate's Hemorrhage"]: {
+	"Initiate's Hemorrhage": {
 		baseSkill: "Hemorrhage",
 		connections: [ "Enhanced Hemorrhage" ],
 		description: `Hemorrhage grants {#}% Base Life ({#}) as Fortify each time it hits an enemy, and has a {#}% chance per enemy hit to Fortify you for {#}% Base Life ({#}).`,
@@ -170,7 +170,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		x: 618.878,
 		y: -434.435,
 	},
-	["Bone Splinters"]: {
+	"Bone Splinters": {
 		connections: [ "Enhanced Bone Splinters", "Basic" ],
 		damageType: 0,
 		description: `Generate Essence: {#}
@@ -182,7 +182,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 		x: 267.113,
 		y: 153.42,
 	},
-	["Enhanced Bone Splinters"]: {
+	"Enhanced Bone Splinters": {
 		baseSkill: "Bone Splinters",
 		connections: [ "Bone Splinters", "Acolyte's Bone Splinters", "Initiate's Bone Splinters" ],
 		description: `Bone Splinters has a {#}% chance to fire {#} additional projectile if cast while you have {#} or more Essence.`,
@@ -192,7 +192,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 		x: 502.278,
 		y: 282.14,
 	},
-	["Acolyte's Bone Splinters"]: {
+	"Acolyte's Bone Splinters": {
 		baseSkill: "Bone Splinters",
 		connections: [ "Enhanced Bone Splinters" ],
 		description: `Hitting the same enemy at least {#} times with the same cast of Bone Splinters grants {#}% Critical Strike Chance for {#} seconds.`,
@@ -202,7 +202,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 		x: 598.598,
 		y: 454.575,
 	},
-	["Initiate's Bone Splinters"]: {
+	"Initiate's Bone Splinters": {
 		baseSkill: "Bone Splinters",
 		connections: [ "Enhanced Bone Splinters" ],
 		description: `Bone Splinters has a {#}% chance per hit to make enemies Vulnerable for {#} seconds.`,
@@ -215,7 +215,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 };
 
 necromancer["Core"] = {
-	["Blight"]: {
+	"Blight": {
 		connections: [ "Enhanced Blight", "Core" ],
 		damageType: 5,
 		description: `Essence Cost: {#}
@@ -227,7 +227,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		x: -224.532,
 		y: -184.935,
 	},
-	["Enhanced Blight"]: {
+	"Enhanced Blight": {
 		baseSkill: "Blight",
 		connections: [ "Blight", "Paranormal Blight", "Supernatural Blight" ],
 		description: `Blight Slows enemies by {#}%.`,
@@ -237,7 +237,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		x: -450.974,
 		y: -361.8,
 	},
-	["Paranormal Blight"]: {
+	"Paranormal Blight": {
 		baseSkill: "Blight",
 		connections: [ "Enhanced Blight" ],
 		description: `Blight has a {#}% chance to Immobilize enemies for {#} seconds on impact.`,
@@ -247,7 +247,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		x: -815.994,
 		y: -416.965,
 	},
-	["Supernatural Blight"]: {
+	"Supernatural Blight": {
 		baseSkill: "Blight",
 		connections: [ "Enhanced Blight" ],
 		description: `You and your Minions deal x{#}% increased damage to enemies within Blight.`,
@@ -257,7 +257,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		x: -489.679,
 		y: -551.275,
 	},
-	["Sever"]: {
+	"Sever": {
 		connections: [ "Enhanced Sever", "Core" ],
 		damageType: 5,
 		description: `Essence Cost: {#}
@@ -269,7 +269,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		x: -411.075,
 		y: 0.155,
 	},
-	["Enhanced Sever"]: {
+	"Enhanced Sever": {
 		baseSkill: "Sever",
 		connections: [ "Sever", "Paranormal Sever", "Supernatural Sever" ],
 		description: `Sever damages enemies along its path for {#}% of its damage.`,
@@ -279,7 +279,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		x: -768.379,
 		y: 0.325,
 	},
-	["Paranormal Sever"]: {
+	"Paranormal Sever": {
 		baseSkill: "Sever",
 		connections: [ "Enhanced Sever" ],
 		description: `Every 4th cast of Sever makes enemies Vulnerable for {#} seconds.`,
@@ -289,7 +289,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		x: -1102.254,
 		y: -100.28,
 	},
-	["Supernatural Sever"]: {
+	"Supernatural Sever": {
 		baseSkill: "Sever",
 		connections: [ "Enhanced Sever" ],
 		description: `Sever deals x{#}% increased damage for each Minion you have upon cast.`,
@@ -299,7 +299,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		x: -1100.739,
 		y: 97.62,
 	},
-	["Blood Surge"]: {
+	"Blood Surge": {
 		connections: [ "Enhanced Blood Surge", "Core" ],
 		damageType: 0,
 		description: `Essence Cost: {#}
@@ -311,7 +311,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		x: 230.535,
 		y: -185.16,
 	},
-	["Enhanced Blood Surge"]: {
+	"Enhanced Blood Surge": {
 		baseSkill: "Blood Surge",
 		connections: [ "Blood Surge", "Supernatural Blood Surge", "Paranormal Blood Surge" ],
 		description: `Blood Surge heals you for {#}% of your maximum Life when drawing blood from enemies. If {#} or more enemies are drawn from, then heal for an additional {#}% of your maximum Life.`,
@@ -321,7 +321,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		x: 458.771,
 		y: -363.255,
 	},
-	["Supernatural Blood Surge"]: {
+	"Supernatural Blood Surge": {
 		baseSkill: "Blood Surge",
 		connections: [ "Enhanced Blood Surge" ],
 		description: `Each time an enemy is hit by Blood Surge's nova, you are Fortified for {#}% Base Life ({#}). While you are Fortified for over {#}% of your Maximum Life, Blood Surge deals {#}% increased damage.`,
@@ -331,7 +331,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		x: 811.856,
 		y: -414.23,
 	},
-	["Paranormal Blood Surge"]: {
+	"Paranormal Blood Surge": {
 		baseSkill: "Blood Surge",
 		connections: [ "Enhanced Blood Surge" ],
 		description: `If an enemy is damaged by Blood Surge's nova while you are Healthy, then gain 1 stack of Overwhelming Blood. When you have 5 stacks of Overwhelming Blood, your next Blood Surge Overpowers.`,
@@ -340,7 +340,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		x: 499.171,
 		y: -552.28,
 	},
-	["Blood Lance"]: {
+	"Blood Lance": {
 		connections: [ "Enhanced Blood Lance", "Core" ],
 		damageType: 0,
 		description: `Essence Cost: {#}
@@ -352,7 +352,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		x: 380.122,
 		y: 38.46,
 	},
-	["Enhanced Blood Lance"]: {
+	"Enhanced Blood Lance": {
 		baseSkill: "Blood Lance",
 		connections: [ "Blood Lance", "Supernatural Blood Lance", "Paranormal Blood Lance" ],
 		description: `Blood Lance Pierces through enemies who are currently lanced, dealing {#}% reduced damage to subsequent enemies after the first.`,
@@ -362,7 +362,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		x: 726.711,
 		y: 65.695,
 	},
-	["Supernatural Blood Lance"]: {
+	"Supernatural Blood Lance": {
 		baseSkill: "Blood Lance",
 		connections: [ "Enhanced Blood Lance" ],
 		description: `After casting Blood Lance {#} times, your next cast of Blood Lance is guaranteed to Overpower and spawns a Blood Orb under the first enemy hit.`,
@@ -372,7 +372,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		x: 985.341,
 		y: 189.005,
 	},
-	["Paranormal Blood Lance"]: {
+	"Paranormal Blood Lance": {
 		baseSkill: "Blood Lance",
 		connections: [ "Enhanced Blood Lance" ],
 		description: `While at least {#} enemies or a Boss are affected by Blood Lance, you gain {#}% Attack Speed and Blood Lance's Essence cost is reduced by {#}.`,
@@ -382,7 +382,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		x: 1055.921,
 		y: 24.71,
 	},
-	["Bone Spear"]: {
+	"Bone Spear": {
 		connections: [ "Enhanced Bone Spear", "Core" ],
 		damageType: 0,
 		description: `Essence Cost: {#}
@@ -394,7 +394,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		x: -53.082,
 		y: 204.585,
 	},
-	["Enhanced Bone Spear"]: {
+	"Enhanced Bone Spear": {
 		baseSkill: "Bone Spear",
 		connections: [ "Bone Spear", "Paranormal Bone Spear", "Supernatural Bone Spear" ],
 		description: `Bone Spear breaks into {#} shards when it is destroyed, dealing {#}% damage each.`,
@@ -404,7 +404,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		x: -106.376,
 		y: 383.87,
 	},
-	["Paranormal Bone Spear"]: {
+	"Paranormal Bone Spear": {
 		baseSkill: "Bone Spear",
 		connections: [ "Enhanced Bone Spear" ],
 		description: `Bone Spear has a {#}% increased Critical Strike Chance. If Bone Spear's primary projectile Critically Strikes, it fires {#} additional bone shards upon being destroyed.`,
@@ -414,7 +414,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		x: -340.216,
 		y: 524.725,
 	},
-	["Supernatural Bone Spear"]: {
+	"Supernatural Bone Spear": {
 		baseSkill: "Bone Spear",
 		connections: [ "Enhanced Bone Spear" ],
 		description: `Bone Spear makes the first enemy hit Vulnerable for {#} seconds.`,
@@ -424,7 +424,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		x: -15.686,
 		y: 547.47,
 	},
-	["Unliving Energy"]: {
+	"Unliving Energy": {
 		connections: [ "Core", "Imperfectly Balanced" ],
 		description: `Your maximum Essence is increased by {#}.`,
 		id: 36,
@@ -433,7 +433,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		x: 527.726,
 		y: -113.765,
 	},
-	["Imperfectly Balanced"]: {
+	"Imperfectly Balanced": {
 		connections: [ "Unliving Energy" ],
 		description: `Your Core Skills cost {#}% more Essence, but deal x{#}% increased damage.`,
 		id: 37,
@@ -442,7 +442,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		x: 889.681,
 		y: -190.74,
 	},
-	["Reconstitution"]: {
+	"Reconstitution": {
 		connections: [ "Core" ],
 		description: `Lucky Hit: Your damage has up to a {#}% chance to create a corpse at the target's location. 
 
@@ -456,7 +456,7 @@ This chance is doubled against bosses.`,
 };
 
 necromancer["Macabre"] = {
-	["Corpse Explosion"]: {
+	"Corpse Explosion": {
 		connections: [ "Enhanced Corpse Explosion", "Macabre" ],
 		damageType: 0,
 		description: `Essence Cost: {#}
@@ -468,7 +468,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		x: -385,
 		y: 0.11,
 	},
-	["Enhanced Corpse Explosion"]: {
+	"Enhanced Corpse Explosion": {
 		baseSkill: "Corpse Explosion",
 		connections: [ "Corpse Explosion", "Abhorrent Corpse Explosion", "Horrid Corpse Explosion" ],
 		description: `Corpse Explosion's radius is increased by {#}%.`,
@@ -478,7 +478,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		x: -756.693,
 		y: -0.91,
 	},
-	["Abhorrent Corpse Explosion"]: {
+	"Abhorrent Corpse Explosion": {
 		baseSkill: "Corpse Explosion",
 		connections: [ "Enhanced Corpse Explosion" ],
 		description: `Instead of exploding, Corpse Explosion releases a vile miasma dealing {#}% Shadow Damage over {#} seconds.`,
@@ -488,7 +488,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		x: -1048.735,
 		y: -100.365,
 	},
-	["Horrid Corpse Explosion"]: {
+	"Horrid Corpse Explosion": {
 		baseSkill: "Corpse Explosion",
 		connections: [ "Enhanced Corpse Explosion" ],
 		description: `Corpse Explosion deals x{#}% increased damage to enemies that are Slowed, Stunned or Vulnerable.`,
@@ -498,7 +498,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		x: -1046.376,
 		y: 101.125,
 	},
-	["Grim Harvest"]: {
+	"Grim Harvest": {
 		connections: [ "Fueled by Death", "Macabre" ],
 		description: `Consuming a Corpse generates {#} Essence.`,
 		id: 43,
@@ -507,7 +507,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		x: -370.215,
 		y: 233.465,
 	},
-	["Fueled by Death"]: {
+	"Fueled by Death": {
 		connections: [ "Grim Harvest" ],
 		description: `You deal x{#}% increased damage for {#} seconds after consuming a Corpse.`,
 		id: 44,
@@ -516,7 +516,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		x: -632.315,
 		y: 401.995,
 	},
-	["Necrotic Carapace"]: {
+	"Necrotic Carapace": {
 		connections: [ "Macabre" ],
 		description: `When a Corpse is formed from your Skills or your Minions, Fortify for {#}% Base Life ({#}).`,
 		id: 45,
@@ -525,7 +525,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		x: 755.135,
 		y: -138.065,
 	},
-	["Blood Mist"]: {
+	"Blood Mist": {
 		connections: [ "Enhanced Blood Mist", "Macabre" ],
 		damageType: 0,
 		description: `Cooldown: {#} seconds
@@ -537,7 +537,7 @@ Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Spee
 		x: 79.31,
 		y: -196.6,
 	},
-	["Enhanced Blood Mist"]: {
+	"Enhanced Blood Mist": {
 		baseSkill: "Blood Mist",
 		connections: [ "Blood Mist", "Ghastly Blood Mist", "Dreadful Blood Mist" ],
 		description: `Blood Mist's Movement Speed penalty is reduced to {#}%.`,
@@ -547,7 +547,7 @@ Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Spee
 		x: 141.245,
 		y: -354.24,
 	},
-	["Ghastly Blood Mist"]: {
+	"Ghastly Blood Mist": {
 		baseSkill: "Blood Mist",
 		connections: [ "Enhanced Blood Mist" ],
 		description: `Blood Mist leaves behind a Corpse every {#} second.`,
@@ -557,7 +557,7 @@ Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Spee
 		x: 118.76,
 		y: -537.495,
 	},
-	["Dreadful Blood Mist"]: {
+	"Dreadful Blood Mist": {
 		baseSkill: "Blood Mist",
 		connections: [ "Enhanced Blood Mist" ],
 		description: `Blood Mist Fortifies you for {#}% Base Life ({#}) each time it hits an enemy.`,
@@ -567,7 +567,7 @@ Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Spee
 		x: 394.43,
 		y: -496.67,
 	},
-	["Bone Prison"]: {
+	"Bone Prison": {
 		connections: [ "Enhanced Bone Prison", "Macabre" ],
 		description: `Cooldown: {#} seconds
 Unearth a prison of bone with {#} Life that surrounds the target area for {#} seconds.`,
@@ -577,7 +577,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		x: 271.91,
 		y: 145.285,
 	},
-	["Enhanced Bone Prison"]: {
+	"Enhanced Bone Prison": {
 		baseSkill: "Bone Prison",
 		connections: [ "Bone Prison", "Ghastly Bone Prison", "Dreadful Bone Prison" ],
 		description: `Gain {#} Essence each time an enemy hits your Bone Prison.`,
@@ -587,7 +587,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		x: 497.525,
 		y: 268.625,
 	},
-	["Ghastly Bone Prison"]: {
+	"Ghastly Bone Prison": {
 		baseSkill: "Bone Prison",
 		connections: [ "Enhanced Bone Prison" ],
 		description: `Enemies inside of Bone Prison are Vulnerable.`,
@@ -596,7 +596,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		x: 605.505,
 		y: 435.61,
 	},
-	["Dreadful Bone Prison"]: {
+	"Dreadful Bone Prison": {
 		baseSkill: "Bone Prison",
 		connections: [ "Enhanced Bone Prison" ],
 		description: `Fortify for {#}% Base Life ({#}) for each enemy trapped by Bone Prison.`,
@@ -606,7 +606,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		x: 834.045,
 		y: 309.03,
 	},
-	["Skeletal Warrior Mastery"]: {
+	"Skeletal Warrior Mastery": {
 		connections: [ "Macabre" ],
 		description: `Increase the damage and Life of your Skeletal Warriors by {#}%.`,
 		id: 54,
@@ -618,7 +618,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 };
 
 necromancer["Corruption"] = {
-	["Iron Maiden"]: {
+	"Iron Maiden": {
 		connections: [ "Enhanced Iron Maiden", "Corruption" ],
 		damageType: 0,
 		description: `Essence Cost: {#}
@@ -629,7 +629,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		x: -312.7,
 		y: 165.29,
 	},
-	["Enhanced Iron Maiden"]: {
+	"Enhanced Iron Maiden": {
 		baseSkill: "Iron Maiden",
 		connections: [ "Iron Maiden", "Horrid Iron Maiden", "Abhorrent Iron Maiden" ],
 		description: `Iron Maiden no longer costs Essence. Instead, gain {#} Essence for each enemy Cursed. Does not work with enemies who are already cursed with Iron Maiden.`,
@@ -639,7 +639,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		x: -561.73,
 		y: 297.35,
 	},
-	["Horrid Iron Maiden"]: {
+	"Horrid Iron Maiden": {
 		baseSkill: "Iron Maiden",
 		connections: [ "Enhanced Iron Maiden" ],
 		description: `When at least {#} enemies are afflicted by Iron Maiden, its damage is increased by x{#}%.`,
@@ -649,7 +649,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		x: -941.446,
 		y: 368.383,
 	},
-	["Abhorrent Iron Maiden"]: {
+	"Abhorrent Iron Maiden": {
 		baseSkill: "Iron Maiden",
 		connections: [ "Enhanced Iron Maiden" ],
 		description: `Heal for {#}% of your maximum Life when an enemy dies while afflicted with Iron Maiden.`,
@@ -659,7 +659,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		x: -686.755,
 		y: 495.878,
 	},
-	["Skeletal Mage Mastery"]: {
+	"Skeletal Mage Mastery": {
 		connections: [ "Corruption" ],
 		description: `Increase the damage and Life of your Skeletal Mages by {#}%.`,
 		id: 59,
@@ -668,7 +668,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		x: 810.22,
 		y: 0.575,
 	},
-	["Amplify Damage"]: {
+	"Amplify Damage": {
 		connections: [ "Corruption" ],
 		description: `You deal x{#}% increased damage to Cursed enemies.`,
 		id: 60,
@@ -677,7 +677,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		x: 3.12,
 		y: 431.694,
 	},
-	["Decrepify"]: {
+	"Decrepify": {
 		connections: [ "Enhanced Decrepify", "Corruption" ],
 		description: `Essence Cost: {#}
 Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and deal {#}% less damage for {#} seconds.`,
@@ -687,7 +687,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		x: 313.525,
 		y: 166.38,
 	},
-	["Enhanced Decrepify"]: {
+	"Enhanced Decrepify": {
 		baseSkill: "Decrepify",
 		connections: [ "Decrepify", "Abhorrent Decrepify", "Horrid Decrepify" ],
 		description: `Lucky Hit: Enemies hit while afflicted with Decrepify have up to a {#}% chance to be Stunned for {#} seconds.`,
@@ -697,7 +697,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		x: 558.24,
 		y: 299.96,
 	},
-	["Abhorrent Decrepify"]: {
+	"Abhorrent Decrepify": {
 		baseSkill: "Decrepify",
 		connections: [ "Enhanced Decrepify" ],
 		description: `Lucky Hit: Enemies hit while afflicted with Decrepify have up to a {#}% chance to reduce your active cooldowns by {#} seconds.`,
@@ -707,7 +707,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		x: 687.2,
 		y: 499.062,
 	},
-	["Horrid Decrepify"]: {
+	"Horrid Decrepify": {
 		baseSkill: "Decrepify",
 		connections: [ "Enhanced Decrepify" ],
 		description: `When you or your Minions hit an enemy afflicted with Decrepify below {#}% Life, they are instantly killed. Does not work on Bosses.`,
@@ -717,7 +717,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		x: 935.27,
 		y: 363.898,
 	},
-	["Death's Embrace"]: {
+	"Death's Embrace": {
 		connections: [ "Corruption" ],
 		description: `Close enemies take x{#}% more damage from you and deal {#}% less damage to you.`,
 		id: 65,
@@ -726,7 +726,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		x: -434.44,
 		y: -269.59,
 	},
-	["Death's Reach"]: {
+	"Death's Reach": {
 		connections: [ "Corruption" ],
 		description: `You deal x{#}% increased damage to Distant enemies.`,
 		id: 66,
@@ -738,7 +738,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 };
 
 necromancer["Summoning"] = {
-	["Corpse Tendrils"]: {
+	"Corpse Tendrils": {
 		connections: [ "Enhanced Corpse Tendrils", "Summoning" ],
 		damageType: 0,
 		description: `Cooldown: {#}
@@ -750,7 +750,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: 303.62,
 		y: -136.85,
 	},
-	["Enhanced Corpse Tendrils"]: {
+	"Enhanced Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
 		connections: [ "Corpse Tendrils", "Horrid Corpse Tendrils", "Abhorrent Corpse Tendrils" ],
 		description: `Enemies who are in range of Corpse Tendrils are Slowed by {#}% before being pulled.`,
@@ -760,7 +760,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: 561.44,
 		y: -250.575,
 	},
-	["Horrid Corpse Tendrils"]: {
+	"Horrid Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
 		connections: [ "Enhanced Corpse Tendrils" ],
 		description: `Enemies Stunned by Corpse Tendrils take x{#}% more damage from Corpse Explosion.`,
@@ -770,7 +770,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: 872.848,
 		y: -267.56,
 	},
-	["Abhorrent Corpse Tendrils"]: {
+	"Abhorrent Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
 		connections: [ "Enhanced Corpse Tendrils" ],
 		description: `Enemies slain while Stunned by Corpse Tendrils have a {#}% chance to drop a Blood Orb.`,
@@ -780,7 +780,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: 649.155,
 		y: -412.305,
 	},
-	["Reaper's Pursuit"]: {
+	"Reaper's Pursuit": {
 		connections: [ "Gloom", "Crippling Darkness", "Summoning" ],
 		description: `Damaging enemies with Darkness Skills increases your Movement Speed by {#}% for {#} seconds.`,
 		id: 71,
@@ -789,7 +789,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: -547.81,
 		y: -169.615,
 	},
-	["Gloom"]: {
+	"Gloom": {
 		connections: [ "Reaper's Pursuit", "Terror" ],
 		description: `When you damage enemies with Darkness Skills, they take x{#}% increased Shadow Damage for {#} seconds, stacking up to {#} times.`,
 		id: 72,
@@ -798,7 +798,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: -721.67,
 		y: -369.505,
 	},
-	["Terror"]: {
+	"Terror": {
 		connections: [ "Gloom", "Crippling Darkness" ],
 		description: `Darkness Skills deal x{#}% increased damage against Immobilized, Slowed, or Stunned enemies. This also applies to Shadow Damage dealt by your Minions.`,
 		id: 73,
@@ -807,7 +807,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: -1150.985,
 		y: -388.355,
 	},
-	["Crippling Darkness"]: {
+	"Crippling Darkness": {
 		connections: [ "Reaper's Pursuit", "Terror" ],
 		description: `Lucky Hit: Darkness Skills have up to a {#}% chance to Stun for {#} seconds.`,
 		id: 74,
@@ -816,7 +816,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: -1003.06,
 		y: -181.13,
 	},
-	["Blood Begets Blood"]: {
+	"Blood Begets Blood": {
 		connections: [ "Coalesced Blood", "Tides of Blood", "Summoning" ],
 		description: `While below 50% Life, you receive {#}% more healing from all sources.`,
 		id: 75,
@@ -825,7 +825,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: 5.82,
 		y: -372.435,
 	},
-	["Coalesced Blood"]: {
+	"Coalesced Blood": {
 		connections: [ "Transfusion", "Blood Begets Blood" ],
 		description: `After being Healthy for {#} seconds, your next Blood skill Overpowers.`,
 		id: 76,
@@ -834,7 +834,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: 188.085,
 		y: -545.375,
 	},
-	["Transfusion"]: {
+	"Transfusion": {
 		connections: [ "Coalesced Blood", "Tides of Blood" ],
 		description: `Blood Orbs also heal your Minions for {#}% of the amount.`,
 		id: 77,
@@ -843,7 +843,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: 188.105,
 		y: -740.47,
 	},
-	["Tides of Blood"]: {
+	"Tides of Blood": {
 		connections: [ "Drain Vitality", "Transfusion", "Blood Begets Blood" ],
 		description: `Your Blood Skills deal x{#}% increased Overpower damage. This bonus is doubled while you are Healthy.`,
 		id: 78,
@@ -852,7 +852,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: -186.055,
 		y: -545.11,
 	},
-	["Drain Vitality"]: {
+	"Drain Vitality": {
 		connections: [ "Tides of Blood" ],
 		description: `Lucky Hit: Hitting enemies with Blood Skills has up to a {#}% chance to Fortify you for {#}% Base Life ({#}).`,
 		id: 79,
@@ -861,7 +861,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		x: -187.67,
 		y: -741.395,
 	},
-	["Bone Spirit"]: {
+	"Bone Spirit": {
 		connections: [ "Enhanced Bone Spirit", "Summoning" ],
 		damageType: 0,
 		description: `Cooldown: {#} seconds
@@ -874,7 +874,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		x: -81.99,
 		y: 195.105,
 	},
-	["Enhanced Bone Spirit"]: {
+	"Enhanced Bone Spirit": {
 		baseSkill: "Bone Spirit",
 		connections: [ "Bone Spirit", "Ghastly Bone Spirit", "Dreadful Bone Spirit" ],
 		description: `If Bone Spirit Critically Strikes, its cooldown is reduced by {#} seconds.  This effect can only happen once per cast.`,
@@ -884,7 +884,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		x: -165.82,
 		y: 378.073,
 	},
-	["Ghastly Bone Spirit"]: {
+	"Ghastly Bone Spirit": {
 		baseSkill: "Bone Spirit",
 		connections: [ "Enhanced Bone Spirit" ],
 		description: `Bone Spirit has an additional {#}% Critical Strike Chance.`,
@@ -894,7 +894,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		x: -109.19,
 		y: 542.62,
 	},
-	["Dreadful Bone Spirit"]: {
+	"Dreadful Bone Spirit": {
 		baseSkill: "Bone Spirit",
 		connections: [ "Enhanced Bone Spirit" ],
 		description: `After Bone Spirit hits an enemy, you generate {#} Essence over the next {#} seconds.`,
@@ -904,7 +904,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		x: -417.01,
 		y: 502.139,
 	},
-	["Serration"]: {
+	"Serration": {
 		connections: [ "Rapid Ossification", "Compound Fracture", "Summoning" ],
 		description: `Your Bone Skills have a {#}% increased Critical Strike Chance for each 10 Essence you have upon cast.`,
 		id: 84,
@@ -913,7 +913,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		x: -557.22,
 		y: 93.025,
 	},
-	["Rapid Ossification"]: {
+	"Rapid Ossification": {
 		connections: [ "Serration", "Evulsion" ],
 		description: `Every {#} Essence you spend reduces the cooldowns of your Bone Skills by {#} seconds.`,
 		id: 85,
@@ -922,7 +922,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		x: -958.755,
 		y: 74.64,
 	},
-	["Evulsion"]: {
+	"Evulsion": {
 		connections: [ "Compound Fracture", "Rapid Ossification" ],
 		description: `Your Bone Skills deal x{#}% increased Critical Strike Damage to Vulnerable enemies.`,
 		id: 86,
@@ -931,7 +931,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		x: -1226.03,
 		y: 232.795,
 	},
-	["Compound Fracture"]: {
+	"Compound Fracture": {
 		connections: [ "Serration", "Evulsion" ],
 		description: `After Critically Striking {#} times with Bone Skills, your Bone Skills deal x{#}% increased damage for {#} seconds.`,
 		id: 87,
@@ -940,7 +940,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		x: -809.63,
 		y: 254.365,
 	},
-	["Spiked Armor"]: {
+	"Spiked Armor": {
 		connections: [ "Summoning" ],
 		description: `Gain {#} Thorns.`,
 		id: 109,
@@ -952,7 +952,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 };
 
 necromancer["Ultimate"] = {
-	["Bonded in Essence"]: {
+	"Bonded in Essence": {
 		connections: [ "Death's Defense", "Ultimate" ],
 		description: `Your Minions gain {#}% of your Resistances.`,
 		id: 89,
@@ -961,7 +961,7 @@ necromancer["Ultimate"] = {
 		x: -244.033,
 		y: 245.369,
 	},
-	["Death's Defense"]: {
+	"Death's Defense": {
 		connections: [ "Bonded in Essence", "Hellbent Commander" ],
 		description: `Your Minions can't lose more than {#}% of their maximum Life from a single damage instance.`,
 		id: 90,
@@ -970,7 +970,7 @@ necromancer["Ultimate"] = {
 		x: -685.035,
 		y: 319.583,
 	},
-	["Hellbent Commander"]: {
+	"Hellbent Commander": {
 		connections: [ "Inspiring Command", "Ultimate", "Death's Defense" ],
 		description: `Your Minions deal x{#}% increased damage while you are Close to them.`,
 		id: 91,
@@ -979,7 +979,7 @@ necromancer["Ultimate"] = {
 		x: -496.655,
 		y: 100.921,
 	},
-	["Inspiring Command"]: {
+	"Inspiring Command": {
 		connections: [ "Hellbent Commander" ],
 		description: `After you have been Healthy for at least {#} seconds, you and your Minions gain {#}% Attack Speed.`,
 		id: 92,
@@ -988,7 +988,7 @@ necromancer["Ultimate"] = {
 		x: -949.115,
 		y: 125.486,
 	},
-	["Army of the Dead"]: {
+	"Army of the Dead": {
 		connections: [ "Prime Army of the Dead", "Ultimate" ],
 		damageType: 0,
 		description: `Cooldown: {#} seconds
@@ -1000,7 +1000,7 @@ Call forth the deep buried dead. Volatile undead emerge over the next {#} second
 		x: -412.909,
 		y: -101.334,
 	},
-	["Prime Army of the Dead"]: {
+	"Prime Army of the Dead": {
 		baseSkill: "Army of the Dead",
 		connections: [ "Army of the Dead", "Supreme Army of the Dead" ],
 		description: `When Army of the Dead's Skeletons explode, they have a {#}% chance to leave behind a Corpse.`,
@@ -1010,7 +1010,7 @@ Call forth the deep buried dead. Volatile undead emerge over the next {#} second
 		x: -761.575,
 		y: -190.081,
 	},
-	["Supreme Army of the Dead"]: {
+	"Supreme Army of the Dead": {
 		baseSkill: "Army of the Dead",
 		connections: [ "Prime Army of the Dead" ],
 		description: `Army of the Dead also raises your Skeletal Warriors and Skeletal Mages.`,
@@ -1019,7 +1019,7 @@ Call forth the deep buried dead. Volatile undead emerge over the next {#} second
 		x: -1035.045,
 		y: -69.654,
 	},
-	["Blood Wave"]: {
+	"Blood Wave": {
 		connections: [ "Prime Blood Wave", "Ultimate" ],
 		damageType: 0,
 		description: `Cooldown: {#} seconds
@@ -1031,7 +1031,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		x: 308.891,
 		y: -165.596,
 	},
-	["Prime Blood Wave"]: {
+	"Prime Blood Wave": {
 		baseSkill: "Blood Wave",
 		connections: [ "Blood Wave", "Supreme Blood Wave" ],
 		description: `Blood Wave Slows enemies by {#}% for {#} seconds.`,
@@ -1041,7 +1041,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		x: 464.882,
 		y: -324.303,
 	},
-	["Supreme Blood Wave"]: {
+	"Supreme Blood Wave": {
 		baseSkill: "Blood Wave",
 		connections: [ "Prime Blood Wave" ],
 		description: `Blood Wave leaves behind 3 Blood Orbs as it travels.`,
@@ -1050,7 +1050,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		x: 817.735,
 		y: -299.367,
 	},
-	["Stand Alone"]: {
+	"Stand Alone": {
 		connections: [ "Memento Mori", "Ultimate" ],
 		description: `Increases Damage Reduction by {#}%, reduced by {#}% for each active Minion.`,
 		id: 99,
@@ -1059,7 +1059,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		x: 686.73,
 		y: -0.375,
 	},
-	["Memento Mori"]: {
+	"Memento Mori": {
 		connections: [ "Stand Alone" ],
 		description: `Sacrificing both Skeletal Warriors and Skeletal Mages increases their Sacrifice bonuses by {#}%.`,
 		id: 100,
@@ -1068,7 +1068,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		x: 1059.535,
 		y: -0.955,
 	},
-	["Bone Storm"]: {
+	"Bone Storm": {
 		connections: [ "Prime Bone Storm", "Ultimate" ],
 		damageType: 0,
 		description: `Cooldown: {#}
@@ -1080,7 +1080,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 		x: 310.324,
 		y: 168.163,
 	},
-	["Prime Bone Storm"]: {
+	"Prime Bone Storm": {
 		baseSkill: "Bone Storm",
 		connections: [ "Bone Storm", "Supreme Bone Storm" ],
 		description: `Your Damage Reduction is increased by {#}% while Bone Storm is active.`,
@@ -1090,7 +1090,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 		x: 477.673,
 		y: 330.114,
 	},
-	["Supreme Bone Storm"]: {
+	"Supreme Bone Storm": {
 		baseSkill: "Bone Storm",
 		connections: [ "Prime Bone Storm" ],
 		description: `While Bone Storm is active, you consume nearby Corpses. Each Corpse consumed adds {#} seconds to Bonestorm's duration, up to {#} seconds.`,
@@ -1100,7 +1100,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 		x: 815.48,
 		y: 299.433,
 	},
-	["Golem Mastery"]: {
+	"Golem Mastery": {
 		connections: [ "Ultimate" ],
 		description: `Increase the damage and Life of your Golem by {#}%.`,
 		id: 104,
@@ -1112,7 +1112,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 };
 
 necromancer["Capstone"] = {
-	["Ossified Essence"]: {
+	"Ossified Essence": {
 		connections: [ "Capstone" ],
 		description: `Your Bone Skills deal x{#}% increased damage for each point of Essence you have above {#} upon cast.`,
 		id: 105,
@@ -1121,7 +1121,7 @@ necromancer["Capstone"] = {
 		x: 563.343,
 		y: 304.93,
 	},
-	["Shadowblight"]: {
+	"Shadowblight": {
 		connections: [ "Capstone" ],
 		damageType: 5,
 		description: `Shadow Damage infects enemies with Shadowblight for {#} seconds.
@@ -1133,7 +1133,7 @@ Every {#}th time an enemy receives Shadow Damage from you or your Minions while 
 		x: -187.538,
 		y: 305.485,
 	},
-	["Rathma's Vigor"]: {
+	"Rathma's Vigor": {
 		connections: [ "Capstone" ],
 		description: `Increase your maximum Life by {#}%. While Healthy, you deal x{#}% increased damage.`,
 		id: 107,
@@ -1142,7 +1142,7 @@ Every {#}th time an enemy receives Shadow Damage from you or your Minions while 
 		x: 187.548,
 		y: 305.925,
 	},
-	["Strength in Numbers"]: {
+	"Strength in Numbers": {
 		connections: [ "Capstone" ],
 		description: `While you have at least {#} Minions, they gain {#}% Attack Speed.`,
 		id: 108,
