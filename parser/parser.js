@@ -252,8 +252,8 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 				if (baseSkillName == undefined && /{payload:.+?}|{dot:.+?}/i.test(nodeData["SkillDesc"]) && nodeData["DamageType"] >= 0) {
 					output += "		damageType: " + nodeData["DamageType"] + ",\n";
 				}
-				nodeData["SkillDesc"] = sanitizeNodeDescription(nodeData["SkillDesc"]);
-				output += "		description: `" + nodeData["SkillDesc"] + "`,\n";
+				const sanitizedDescription = sanitizeNodeDescription(nodeData["SkillDesc"]);
+				output += "		description: `" + sanitizedDescription + "`,\n";
 				const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]];
 				if (nodeHistoricalId != undefined) {
 					output += "		id: " + nodeHistoricalId + ",\n";
@@ -265,7 +265,7 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 				output += "		maxPoints: " + nodeData["Reward"]["dwMaxTalentRanks"] + ",\n";
 				if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
 				if (nodeValues[className][rootNodeName][nodeData["SkillName"]] == undefined) nodeValues[className][rootNodeName][nodeData["SkillName"]] = [];
-				const descLength = (nodeData["SkillDesc"].match(/{#}/g) || []).length;
+				const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
 				const savedValues = nodeValues[className][rootNodeName][nodeData["SkillName"]];
 				if (descLength > savedValues.length) {
 					savedValues.push(...Array(descLength - savedValues.length).fill(""));

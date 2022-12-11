@@ -46,6 +46,7 @@ sorcerer["Trunk Data"] = {
 sorcerer["Basic"] = {
 	["Frost Bolt"]: {
 		connections: [ "Basic", "Enhanced Frost Bolt" ],
+		damageType: 3,
 		description: `Lucky Hit Chance: {#}%
 Throw a bolt of frost at an enemy, dealing {#}% damage and Chilling them for {#}%.`,
 		id: 0,
@@ -86,6 +87,7 @@ Throw a bolt of frost at an enemy, dealing {#}% damage and Chilling them for {#}
 	},
 	["Spark"]: {
 		connections: [ "Basic", "Enhanced Spark" ],
+		damageType: 2,
 		description: `Lucky Hit Chance: {#}%
 Launch a bolt of lightning that shocks an enemy {#} times, dealing {#}% damage each hit.`,
 		id: 4,
@@ -126,6 +128,7 @@ Launch a bolt of lightning that shocks an enemy {#} times, dealing {#}% damage e
 	},
 	["Arc Lash"]: {
 		connections: [ "Basic", "Enhanced Arc Lash" ],
+		damageType: 2,
 		description: `Lucky Hit Chance: {#}%
 Unleash arcing lightning that shocks enemies in front of you for {#}%. Every {#} times Arc Lash swipes, it Stuns all enemies hit for {#} seconds.`,
 		id: 8,
@@ -165,6 +168,7 @@ Unleash arcing lightning that shocks enemies in front of you for {#}%. Every {#}
 	},
 	["Fire Bolt"]: {
 		connections: [ "Basic", "Enhanced Fire Bolt" ],
+		damageType: 1,
 		description: `Lucky Hit Chance: {#}%
 Hurl a flaming bolt, dealing {#}% damage and Burning for {#}% over {#} seconds.`,
 		id: 12,
@@ -207,6 +211,7 @@ Hurl a flaming bolt, dealing {#}% damage and Burning for {#}% over {#} seconds.`
 sorcerer["Core"] = {
 	["Charged Bolts"]: {
 		connections: [ "Core", "Enhanced Charged Bolts" ],
+		damageType: 2,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Release {#} bolts of lightning that course along the ground in an erratic pattern, dealing {#}% each.`,
@@ -247,6 +252,7 @@ Release {#} bolts of lightning that course along the ground in an erratic patter
 	},
 	["Frozen Orb"]: {
 		connections: [ "Core", "Enhanced Frozen Orb" ],
+		damageType: 3,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Unleash an orb that Chills for {#}% and expels piercing shards dealing a total of {#}% damage. Upon expiration, Frozen Orb explodes, dealing {#}% damage and Chilling enemies for {#}%.`,
@@ -288,6 +294,7 @@ Unleash an orb that Chills for {#}% and expels piercing shards dealing a total o
 	},
 	["Incinerate"]: {
 		connections: [ "Core", "Enhanced Incinerate" ],
+		damageType: 1,
 		description: `Mana Cost: {#} per second
 Lucky Hit Chance: {#}%
 Channel a beam of fire, Burning enemies for {#}%. Damage increases by {#}% per second, up to {#}%.`,
@@ -329,6 +336,7 @@ Channel a beam of fire, Burning enemies for {#}%. Damage increases by {#}% per s
 	},
 	["Fireball"]: {
 		connections: [ "Core", "Enhanced Fireball" ],
+		damageType: 1,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Hurl an exploding ball of fire, dealing {#}% damage to surrounding enemies.`,
@@ -370,6 +378,7 @@ Hurl an exploding ball of fire, dealing {#}% damage to surrounding enemies.`,
 	},
 	["Chain Lightning"]: {
 		connections: [ "Core", "Enhanced Chain Lightning" ],
+		damageType: 2,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Unleash a stream of lightning that deals {#}% damage and chains between Nearby enemies and you up to {#} times, prioritizing enemies.`,
@@ -411,6 +420,7 @@ Unleash a stream of lightning that deals {#}% damage and chains between Nearby e
 	},
 	["Ice Shards"]: {
 		connections: [ "Core", "Enhanced Ice Shards" ],
+		damageType: 3,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Launch {#} shards that deal {#}% damage each. Deals x{#}% increased damage to Frozen enemies.`,
@@ -481,6 +491,7 @@ Launch {#} shards that deal {#}% damage each. Deals x{#}% increased damage to Fr
 sorcerer["Defensive"] = {
 	["Flame Shield"]: {
 		connections: [ "Defensive", "Enhanced Flame Shield" ],
+		damageType: 1,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Engulf yourself in flames for {#} seconds, Burning surrounding enemies for {#}% per second.
@@ -606,6 +617,7 @@ A Barrier of ice forms around you for {#} seconds, absorbing {#}% of your Base L
 	},
 	["Teleport"]: {
 		connections: [ "Defensive", "Enhanced Teleport" ],
+		damageType: 2,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Transform into lightning, becoming Unstoppable and surging to the target location dealing {#}% damage around you upon arrival.`,
@@ -668,6 +680,7 @@ Transform into lightning, becoming Unstoppable and surging to the target locatio
 sorcerer["Conjuration"] = {
 	["Hydra"]: {
 		connections: [ "Conjuration", "Enhanced Hydra" ],
+		damageType: 1,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Summon a {#} headed hydra for {#} seconds. Each head spits fire at a Nearby enemy, dealing {#}% damage.`,
@@ -709,6 +722,7 @@ Summon a {#} headed hydra for {#} seconds. Each head spits fire at a Nearby enem
 	},
 	["Ice Blades"]: {
 		connections: [ "Conjuration", "Enhanced Ice Blades" ],
+		damageType: 3,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Conjure ice blades for {#} seconds that rapidly slashes enemies for {#}% damage and has a {#}% chance to make them Vulnerable for {#} seconds.`,
@@ -750,6 +764,7 @@ Conjure ice blades for {#} seconds that rapidly slashes enemies for {#}% damage 
 	},
 	["Lightning Spear"]: {
 		connections: [ "Conjuration", "Enhanced Lightning Spear" ],
+		damageType: 2,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Conjure a crackling spear of lightning that seeks out enemies for {#} seconds, dealing {#}% per hit.`,
@@ -839,6 +854,7 @@ Conjure a crackling spear of lightning that seeks out enemies for {#} seconds, d
 sorcerer["Mastery"] = {
 	["Meteor"]: {
 		connections: [ "Mastery", "Enhanced Meteor" ],
+		damageType: 1,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Summon a meteor that strikes the target location, dealing {#}% damage and Burning the ground for {#}% damage over {#} seconds.`,
@@ -880,6 +896,7 @@ Summon a meteor that strikes the target location, dealing {#}% damage and Burnin
 	},
 	["Blizzard"]: {
 		connections: [ "Mastery", "Enhanced Blizzard" ],
+		damageType: 3,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Summon a frigid blizzard that deals {#}% damage and continuously Chills enemies for {#}% over {#} seconds.`,
@@ -921,6 +938,7 @@ Summon a frigid blizzard that deals {#}% damage and continuously Chills enemies 
 	},
 	["Ball Lightning"]: {
 		connections: [ "Mastery", "Enhanced Ball Lightning" ],
+		damageType: 2,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Conjure a ball of lightning that slowly moves forward, continually zapping enemies for {#}% damage`,
@@ -1007,6 +1025,7 @@ Conjure a ball of lightning that slowly moves forward, continually zapping enemi
 	},
 	["Shocking Impact"]: {
 		connections: [ "Regenerative Conduit" ],
+		damageType: 0,
 		description: `Every time you Stun an enemy you deal {#}% Lightning Damage to them.`,
 		id: 95,
 		maxPoints: 3,
@@ -1043,6 +1062,7 @@ Conjure a ball of lightning that slowly moves forward, continually zapping enemi
 	},
 	["Firewall"]: {
 		connections: [ "Mastery", "Enhanced Firewall" ],
+		damageType: 1,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Create a wall of flames that Burns enemies for {#}% over {#} seconds.`,
@@ -1087,6 +1107,7 @@ Create a wall of flames that Burns enemies for {#}% over {#} seconds.`,
 sorcerer["Ultimate"] = {
 	["Inferno"]: {
 		connections: [ "Ultimate", "Prime Inferno" ],
+		damageType: 1,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Ignite a roaring inferno that pulses in and out of the target area, Burning enemies for {#}% damage over {#} seconds, and then explodes, dealing {#}% damage to enemies on the outer edge.`,
@@ -1148,6 +1169,7 @@ Lightning surges within you for {#} seconds. Whenever you cast a Lightning Skill
 	},
 	["Deep Freeze"]: {
 		connections: [ "Prime Deep Freeze", "Ultimate" ],
+		damageType: 3,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling enemies for {#}%. When Deep Freeze ends, Frozen enemies shatter for {#}%. Casting Deep Freeze again ends the effect early.`,

@@ -46,6 +46,7 @@ necromancer["Trunk Data"] = {
 necromancer["Basic"] = {
 	["Decompose"]: {
 		connections: [ "Enhanced Decompose", "Basic" ],
+		damageType: 5,
 		description: `Generate Essence: {#} per second
 Lucky Hit Chance: {#}%
 Tear the flesh from an enemy, dealing {#}% damage per second and forming a usable Corpse with the flesh every {#} seconds.`,
@@ -87,6 +88,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 	},
 	["Reap"]: {
 		connections: [ "Enhanced Reap", "Basic" ],
+		damageType: 5,
 		description: `Generate Essence: {#} per enemy hit
 Lucky Hit Chance: {#}%
 Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy with Reap increases your Damage Reduction by {#}% for {#} seconds.`,
@@ -128,6 +130,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 	},
 	["Hemorrhage"]: {
 		connections: [ "Enhanced Hemorrhage", "Basic" ],
+		damageType: 0,
 		description: `Generate Essence: {#}
 Lucky Hit Chance: {#}%
 Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to form a Blood Orb.`,
@@ -169,6 +172,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 	},
 	["Bone Splinters"]: {
 		connections: [ "Enhanced Bone Splinters", "Basic" ],
+		damageType: 0,
 		description: `Generate Essence: {#}
 Lucky Hit Chance: {#}%
 Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy is hit by the same cast of Bone Splinters, you gain {#} Essence.`,
@@ -213,6 +217,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 necromancer["Core"] = {
 	["Blight"]: {
 		connections: [ "Enhanced Blight", "Core" ],
+		damageType: 5,
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Unleash concentrated blight that deals {#}% damage and leaves behind a defiled area, dealing {#}% damage over {#} seconds.`,
@@ -254,6 +259,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 	},
 	["Sever"]: {
 		connections: [ "Enhanced Sever", "Core" ],
+		damageType: 5,
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 A specter of you charges forward and attacks with its scythe for {#}% damage then returns to you and attacks again for {#}% damage.`,
@@ -295,6 +301,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 	},
 	["Blood Surge"]: {
 		connections: [ "Enhanced Blood Surge", "Core" ],
+		damageType: 0,
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#}% damage. Blood Surge's nova damage is increased by x{#}% per enemy drained, up to x{#}%.`,
@@ -335,6 +342,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 	},
 	["Blood Lance"]: {
 		connections: [ "Enhanced Blood Lance", "Core" ],
+		damageType: 0,
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damage to the enemy and all other lanced enemies.`,
@@ -376,6 +384,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 	},
 	["Bone Spear"]: {
 		connections: [ "Enhanced Bone Spear", "Core" ],
+		damageType: 0,
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Conjure a bone spear from the ground, dealing {#}% damage and Piercing through enemies.`,
@@ -449,6 +458,7 @@ This chance is doubled against bosses.`,
 necromancer["Macabre"] = {
 	["Corpse Explosion"]: {
 		connections: [ "Enhanced Corpse Explosion", "Macabre" ],
+		damageType: 0,
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
@@ -517,6 +527,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 	},
 	["Blood Mist"]: {
 		connections: [ "Enhanced Blood Mist", "Macabre" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Speed is reduced by {#}% and you periodically deal {#}% damage to enemies, healing for {#}% of the damage dealt.`,
@@ -609,6 +620,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 necromancer["Corruption"] = {
 	["Iron Maiden"]: {
 		connections: [ "Enhanced Iron Maiden", "Corruption" ],
+		damageType: 0,
 		description: `Essence Cost: {#}
 Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each time they deal direct damage. Lasts {#} seconds.`,
 		id: 55,
@@ -728,6 +740,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 necromancer["Summoning"] = {
 	["Corpse Tendrils"]: {
 		connections: [ "Enhanced Corpse Tendrils", "Summoning" ],
+		damageType: 0,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, and dealing {#}% damage to them. Does not consume the Corpse.`,
@@ -850,6 +863,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 	},
 	["Bone Spirit"]: {
 		connections: [ "Enhanced Bone Spirit", "Summoning" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Essence Cost: All Remaining Essence
 Lucky Hit Chance: {#}%
@@ -976,6 +990,7 @@ necromancer["Ultimate"] = {
 	},
 	["Army of the Dead"]: {
 		connections: [ "Prime Army of the Dead", "Ultimate" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Call forth the deep buried dead. Volatile undead emerge over the next {#} seconds that explode when around enemies, dealing {#}% damage.`,
@@ -1006,6 +1021,7 @@ Call forth the deep buried dead. Volatile undead emerge over the next {#} second
 	},
 	["Blood Wave"]: {
 		connections: [ "Prime Blood Wave", "Ultimate" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
@@ -1054,6 +1070,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 	},
 	["Bone Storm"]: {
 		connections: [ "Prime Bone Storm", "Ultimate" ],
+		damageType: 0,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 A swirling storm of bones appears around you and your Golem, dealing {#}% to surrounding enemies over {#} seconds.`,
@@ -1106,6 +1123,7 @@ necromancer["Capstone"] = {
 	},
 	["Shadowblight"]: {
 		connections: [ "Capstone" ],
+		damageType: 5,
 		description: `Shadow Damage infects enemies with Shadowblight for {#} seconds.
 
 Every {#}th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional {#}% Shadow Damage.`,

@@ -46,6 +46,7 @@ rogue["Trunk Data"] = {
 rogue["Basic"] = {
 	["Blade Shift"]: {
 		connections: [ "Enhanced Blade Shift", "Basic" ],
+		damageType: 0,
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
 Quickly stab your victim for {#}% damage and shift, allowing you to move freely through enemies for {#} seconds.`,
@@ -87,6 +88,7 @@ Quickly stab your victim for {#}% damage and shift, allowing you to move freely 
 	},
 	["Invigorating Strike"]: {
 		connections: [ "Enhanced Invigorating Strike", "Basic" ],
+		damageType: 0,
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
 Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by x{#}% for {#} seconds.`,
@@ -128,6 +130,7 @@ Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by
 	},
 	["Puncture"]: {
 		connections: [ "Enhanced Puncture", "Basic" ],
+		damageType: 0,
 		description: `Generate Combo Point: 1
 Lucky Hit Chance: {#}%
 Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemies by {#}% for {#} seconds. Critical Strikes will always Slow.`,
@@ -169,6 +172,7 @@ Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemi
 	},
 	["Heartseeker"]: {
 		connections: [ "Enhanced Heartseeker", "Basic" ],
+		damageType: 0,
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
 Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Critical Strike Chance against them by +{#}% for {#} seconds, up to +{#}%.`,
@@ -210,6 +214,7 @@ Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Criti
 	},
 	["Forceful Arrow"]: {
 		connections: [ "Enhanced Forceful Arrow", "Basic" ],
+		damageType: 0,
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
 Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the enemy Vulnerable for {#} seconds.`,
@@ -253,6 +258,7 @@ Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the
 rogue["Core"] = {
 	["Twisting Blades"]: {
 		connections: [ "Enhanced Twisting Blades", "Core" ],
+		damageType: 0,
 		description: `Energy Cost: {#}
 Lucky Hit Chance: {#}%
 Impale an enemy with your blades, dealing {#}% damage and making them take x{#}% increased damage while impaled. After {#} seconds the blades return to you, piercing enemies for {#}% damage.
@@ -298,6 +304,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 	},
 	["Flurry"]: {
 		connections: [ "Enhanced Flurry", "Core" ],
+		damageType: 0,
 		description: `Energy Cost: {#}
 Lucky Hit Chance: {#}%
 Unleash a flurry of stabs and slashes, dealing {#}% damage to enemies in front of you.
@@ -344,6 +351,7 @@ Combo Points increase damage and grant a +{#}% Attack Speed bonus:
 	},
 	["Penetrating Shot"]: {
 		connections: [ "Enhanced Penetrating Shot", "Core" ],
+		damageType: 0,
 		description: `Energy Cost: {#}
 Lucky Hit Chance: {#}%
 Fire an arrow that pierces through all enemies in a line, dealing {#}% damage.
@@ -390,6 +398,7 @@ Combo Points increase damage and grant a chance to Knock Down for {#} seconds:
 	},
 	["Rapid Fire"]: {
 		connections: [ "Enhanced Rapid Fire", "Core" ],
+		damageType: 0,
 		description: `Energy Cost: {#}
 Lucky Hit Chance: {#}%
 Rapidly fire {#} arrows, each dealing {#}% damage.
@@ -436,6 +445,7 @@ Combo Points increase damage and arrows fired:
 	},
 	["Barrage"]: {
 		connections: [ "Enhanced Barrage", "Core" ],
+		damageType: 0,
 		description: `Energy Cost: {#}
 Lucky Hit Chance: {#}%
 Unleash a barrage of {#} arrows that expands outwards, each dealing {#}% damage. Each arrow has a {#}% chance to ricochet off an enemy up to {#} time. Ricochets deal {#}% of the arrow's base damage.
@@ -511,6 +521,7 @@ Combo Points increase damage and arrows fired:
 rogue["Agility"] = {
 	["Shadow Step"]: {
 		connections: [ "Enhanced Shadow Step", "Agility" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Become Unstoppable and quickly move through the shadows to stab your victim from behind for {#}% damage. Gain {#}% increased Movement Speed for {#} seconds afterwards.`,
@@ -552,6 +563,7 @@ Become Unstoppable and quickly move through the shadows to stab your victim from
 	},
 	["Dash"]: {
 		connections: [ "Enhanced Dash", "Agility" ],
+		damageType: 0,
 		description: `Charges: {#}
 Charge Cooldown: {#} seconds 
 Lucky Hit Chance: {#}%
@@ -616,6 +628,7 @@ Dash forward and slash enemies for {#}% damage.`,
 	},
 	["Caltrops"]: {
 		connections: [ "Enhanced Caltrops", "Agility" ],
+		damageType: 0,
 		description: `Charges: {#}
 Charge Cooldown: {#} seconds 
 Lucky Hit Chance: {#}%
@@ -786,6 +799,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 	},
 	["Poison Trap"]: {
 		connections: [ "Enhanced Poison Trap", "Subterfuge" ],
+		damageType: 4,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, applying {#}% Poisoning damage over {#} seconds to enemies in the area.`,
@@ -898,6 +912,7 @@ rogue["Imbuements"] = {
 	},
 	["Poison Imbuement"]: {
 		connections: [ "Enhanced Poison Imbuement", "Imbuements" ],
+		damageType: 4,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poison damage and apply up to {#}% Poisoning damage over {#} seconds.`,
@@ -957,6 +972,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 	},
 	["Shadow Imbuement"]: {
 		connections: [ "Enhanced Shadow Imbuement", "Imbuements" ],
+		damageType: 5,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal Shadow damage and infect enemies such that they explode for up to {#}% damage on death. Direct damage to infected enemies deals an additional {#}% Shadow damage.`,
@@ -1160,6 +1176,7 @@ The shadow deals {#}% of your damage.`,
 	},
 	["Death Trap"]: {
 		connections: [ "Prime Death Trap", "Ultimate" ],
+		damageType: 5,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing {#}% damage to enemies in the area.`,
@@ -1199,6 +1216,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 	},
 	["Rain of Arrows"]: {
 		connections: [ "Prime Rain of Arrows", "Ultimate" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
@@ -1297,6 +1315,7 @@ While both Attack Speed bonuses are active, you gain:
 	},
 	["Exposure"]: {
 		connections: [ "Capstone" ],
+		damageType: 0,
 		description: `Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a {#}% chance to reduce the active Cooldowns of your Trap Skills by {#}% and drop a cluster of Stun Grenades that explode and deal {#}% total Physical damage and Stun enemies for {#} seconds.`,
 		id: 121,
 		maxPoints: 1,

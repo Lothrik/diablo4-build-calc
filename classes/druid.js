@@ -46,6 +46,7 @@ druid["Trunk Data"] = {
 druid["Basic"] = {
 	["Earthspike"]: {
 		connections: [ "Basic", "Enhanced Earthspike" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Generate Spirit: {#}
 Lucky Hit Chance: {#}%
@@ -87,6 +88,7 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 	},
 	["Maul"]: {
 		connections: [ "Basic", "Enhanced Maul" ],
+		damageType: 0,
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage.`,
@@ -128,6 +130,7 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 	},
 	["Wind Shear"]: {
 		connections: [ "Basic", "Enhanced Wind Shear" ],
+		damageType: 0,
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
 Conjure a piercing blade of wind, dealing {#} damage.`,
@@ -169,6 +172,7 @@ Conjure a piercing blade of wind, dealing {#} damage.`,
 	},
 	["Storm Strike"]: {
 		connections: [ "Basic", "Enhanced Storm Strike" ],
+		damageType: 2,
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
 Electricity gathers around your weapon, dealing {#}% damage to your target and chaining to up to {#} surrounding enemies, dealing {#}% less damage each time it chains.
@@ -212,6 +216,7 @@ Dealing damage with Storm Strike reduces your damage taken by {#}% for {#} secon
 	},
 	["Claw"]: {
 		connections: [ "Basic", "Enhanced Claw" ],
+		damageType: 0,
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
@@ -256,6 +261,7 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 druid["Spirit"] = {
 	["Landslide"]: {
 		connections: [ "Spirit", "Enhanced Landslide" ],
+		damageType: 0,
 		description: `Spirit Cost: {#}
 Lucky Hit Chance: {#}%
 Crush enemies between 3 pillars of earth, dealing up to {#}% damage.`,
@@ -297,6 +303,7 @@ Crush enemies between 3 pillars of earth, dealing up to {#}% damage.`,
 	},
 	["Pulverize"]: {
 		connections: [ "Spirit", "Enhanced Pulverize" ],
+		damageType: 0,
 		description: `Spirit Cost: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surrounding enemies.`,
@@ -338,6 +345,7 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 	},
 	["Tornado"]: {
 		connections: [ "Spirit", "Enhanced Tornado" ],
+		damageType: 0,
 		description: `Spirit Cost: {#}
 Lucky Hit Chance: {#}%
 Conjure a swirling tornado that deals {#} damage.`,
@@ -379,6 +387,7 @@ Conjure a swirling tornado that deals {#} damage.`,
 	},
 	["Shred"]: {
 		connections: [ "Spirit", "Enhanced Shred" ],
+		damageType: 0,
 		description: `Spirit Cost: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and perform a 3-combo attack.
@@ -426,6 +435,7 @@ Shred's 1st and 2nd attack gain a {#}% increased Critical Strike Chance bonus.`,
 	},
 	["Lightning Storm"]: {
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
+		damageType: 2,
 		description: `Spirit Cost: {#} per strike
 Lucky Hit Chance: {#}%
 Conjure a growing lightning storm that deals {#}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.`,
@@ -666,6 +676,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 	},
 	["Cyclone Armor"]: {
 		connections: [ "Defensive", "Enhanced Cyclone Armor" ],
+		damageType: 0,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Passive: Powerful winds surround you, granting {#}% non-Physical damage reduction.  
@@ -711,6 +722,7 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 druid["Companion"] = {
 	["Ravens"]: {
 		connections: [ "Companion", "Enhanced Ravens" ],
+		damageType: 0,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 
@@ -767,6 +779,7 @@ Vine Creeper's poison duration is increased by {#}%.`,
 	},
 	["Vine Creeper"]: {
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
+		damageType: 4,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Passive: A vine creeper periodically emerges from the ground every {#} seconds and poisons an enemy in the area for {#}% damage over {#} seconds.
@@ -810,6 +823,7 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 	},
 	["Wolves"]: {
 		connections: [ "Companion", "Enhanced Wolf Pack" ],
+		damageType: 0,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Passive: Summon {#} wolf companions that bite enemies for {#}% damage.
@@ -883,6 +897,7 @@ druid["Wrath"] = {
 	},
 	["Charged Atmosphere"]: {
 		connections: [ "Elemental Exposure", "Electric Shock", "Bad Omen" ],
+		damageType: 2,
 		description: `Every {#} seconds, a Lightning Strike hits a Nearby enemy dealing {#}% damage.`,
 		id: 81,
 		maxPoints: 3,
@@ -903,6 +918,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Bad Omen"]: {
 		connections: [ "Charged Atmosphere", "Electric Shock", "Endless Tempest" ],
+		damageType: 2,
 		description: `Lucky Hit: Up to a {#}% chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a Lightning Strike also hits dealing {#}% damage.`,
 		id: 83,
 		maxPoints: 3,
@@ -921,6 +937,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Boulder"]: {
 		connections: [ "Wrath", "Enhanced Boulder" ],
+		damageType: 0,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#}% damage with each hit.`,
@@ -962,6 +979,7 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 	},
 	["Trample"]: {
 		connections: [ "Wrath", "Enhanced Trample" ],
+		damageType: 0,
 		description: `Generates Spirit: {#}
 Cooldown: {#}
 Lucky Hit Chance: {#}%
@@ -1032,6 +1050,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 	},
 	["Hurricane"]: {
 		connections: [ "Wrath", "Enhanced Hurricane" ],
+		damageType: 0,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Form a hurricane around you that deals {#}% damage to surrounding enemies over {#} seconds.`,
@@ -1073,6 +1092,7 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 	},
 	["Rabies"]: {
 		connections: [ "Wrath", "Enhanced Rabies" ],
+		damageType: 4,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and perform an infectious bite on the target dealing {#} damage, and an additional {#}% damage over {#} seconds. 
@@ -1281,6 +1301,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 	},
 	["Lacerate"]: {
 		connections: [ "Ultimate", "Prime Lacerate" ],
+		damageType: 0,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf, become Immune and quickly dash {#} times between enemies in the area dealing up to {#} damage.`,
@@ -1312,6 +1333,7 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 	},
 	["Cataclysm"]: {
 		connections: [ "Ultimate", "Prime Cataclysm" ],
+		damageType: 2,
 		description: `Cooldown: {#}
 Lucky Hit Chance: {#}%
 A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing {#}% damage.`,

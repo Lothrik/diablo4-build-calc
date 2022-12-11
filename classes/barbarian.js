@@ -46,6 +46,7 @@ barbarian["Trunk Data"] = {
 barbarian["Basic"] = {
 	["Bash"]: {
 		connections: [ "Basic", "Enhanced Bash" ],
+		damageType: 0,
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
 Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} times, your next Bash will Stun for {#} seconds, this increases to {#} seconds if using a Two-Handed weapon.`,
@@ -87,6 +88,7 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 	},
 	["Lunging Strike"]: {
 		connections: [ "Basic", "Enhanced Lunging Strike" ],
+		damageType: 0,
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
 Lunge forward and strike an enemy for {#}% damage.`,
@@ -128,6 +130,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 	},
 	["Frenzy"]: {
 		connections: [ "Basic", "Enhanced Frenzy" ],
+		damageType: 0,
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
 Unleash a rapid flurry of blows, dealing {#}% damage with each pair of hits. 
@@ -171,6 +174,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds,
 	},
 	["Flay"]: {
 		connections: [ "Basic", "Enhanced Flay" ],
+		damageType: 0,
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
 Flay the enemy, dealing {#}% damage. Inflicts {#}% Bleeding damage over {#} seconds.`,
@@ -215,6 +219,7 @@ Flay the enemy, dealing {#}% damage. Inflicts {#}% Bleeding damage over {#} seco
 barbarian["Core"] = {
 	["Hammer of the Ancients"]: {
 		connections: [ "Core", "Enhanced Hammer of the Ancients" ],
+		damageType: 0,
 		description: `Fury Cost: {#}
 Lucky Hit Chance: {#}%
 Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a concentrated area.`,
@@ -256,6 +261,7 @@ Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a co
 	},
 	["Upheaval"]: {
 		connections: [ "Core", "Enhanced Upheaval" ],
+		damageType: 0,
 		description: `Fury Cost: {#}
 Lucky Hit Chance: {#}%
 Tear into the ground with your weapon and fling debris forward, dealing {#}% damage.`,
@@ -297,6 +303,7 @@ Tear into the ground with your weapon and fling debris forward, dealing {#}% dam
 	},
 	["Double Swing"]: {
 		connections: [ "Core", "Enhanced Double Swing" ],
+		damageType: 0,
 		description: `Fury Cost: {#}
 Lucky Hit Chance: {#}%
 Sweep your weapons from opposite directions, dealing {#}% damage with each weapon. Enemies caught in the center are damaged by both.`,
@@ -347,6 +354,7 @@ Sweep your weapons from opposite directions, dealing {#}% damage with each weapo
 	},
 	["Rend"]: {
 		connections: [ "Core", "Enhanced Rend" ],
+		damageType: 0,
 		description: `Fury Cost: {#}
 Lucky Hit Chance: {#}%
 Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding damage over {#} seconds.`,
@@ -388,6 +396,7 @@ Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding
 	},
 	["Whirlwind"]: {
 		connections: [ "Core", "Enhanced Whirlwind" ],
+		damageType: 0,
 		description: `Fury Cost: {#} per second
 Lucky Hit Chance: {#}%
 Rapidly attack surrounding enemies for {#}% damage.`,
@@ -539,6 +548,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 	},
 	["Ground Stomp"]: {
 		connections: [ "Defensive", "Enhanced Ground Stomp" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} seconds.`,
@@ -640,6 +650,7 @@ Bellow a rallying cry, granting allies +{#}% increased Movement Speed, and x{#}%
 barbarian["Brawling"] = {
 	["Charge"]: {
 		connections: [ "Brawling", "Enhanced Charge" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Become Unstoppable and rush forward, pushing enemies with you then swinging through them for {#}% damage and Knocking them Back.`,
@@ -748,6 +759,7 @@ Bellow a mighty war cry. You and Nearby allies deal x{#}% increased damage for {
 	},
 	["Leap"]: {
 		connections: [ "Brawling", "Enhanced Leap" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Leap forward and then slam down, dealing {#}% damage and Knocking Back surrounding enemies on impact.`,
@@ -789,6 +801,7 @@ Leap forward and then slam down, dealing {#}% damage and Knocking Back surroundi
 	},
 	["Kick"]: {
 		connections: [ "Enhanced Kick", "Brawling" ],
+		damageType: 0,
 		description: `Charges: {#}
 Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
@@ -879,6 +892,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 barbarian["Weapon Mastery"] = {
 	["Steel Grasp"]: {
 		connections: [ "Weapon Mastery", "Enhanced Steel Grasp" ],
+		damageType: 0,
 		description: `Charges: {#}
 Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
@@ -948,6 +962,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 	},
 	["Death Blow"]: {
 		connections: [ "Weapon Mastery", "Enhanced Death Blow" ],
+		damageType: 0,
 		description: `Charges: {#}
 Charge Cooldown: {#} seconds
 Cooldown: {#} seconds
@@ -1029,6 +1044,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 	},
 	["Rupture"]: {
 		connections: [ "Enhanced Rupture", "Weapon Mastery" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Charges: {#}
 Charge Cooldown: {#} seconds
@@ -1093,6 +1109,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 barbarian["Ultimate"] = {
 	["Call of the Ancients"]: {
 		connections: [ "Ultimate", "Prime Call of the Ancients" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Call upon 3 Ancients to aid you in battle for {#} seconds.
@@ -1134,6 +1151,7 @@ Madawc: {#}% chance to Stun enemies for {#} seconds when using his Upheaval.`,
 	},
 	["Iron Maelstrom"]: {
 		connections: [ "Ultimate", "Prime Iron Maelstrom" ],
+		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Activate to attach a chain to your Two-Handed Bludgeoning weapon and slam the ground, dealing {#}% damage and Stunning them for {#} seconds.
@@ -1284,6 +1302,7 @@ barbarian["Capstone"] = {
 	},
 	["Gushing Wounds"]: {
 		connections: [ "Capstone" ],
+		damageType: 0,
 		description: `Killing a Bleeding enemy creates an explosion that inflicts {#}% Bleeding damage over {#} seconds.`,
 		id: 121,
 		maxPoints: 1,
