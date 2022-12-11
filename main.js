@@ -660,6 +660,7 @@ function handlePlusButton(curNode) {
 		pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) + 1);
 		updateNodePoints(curNode, newPoints);
 		updateCharacterLevel();
+		drawTooltip(curNode, newPoints > 1);
 	}
 }
 function handleMinusButton(curNode) {
@@ -690,6 +691,7 @@ function handleMinusButton(curNode) {
 		updateNodePoints(curNode, newPoints);
 		validateAllDependentNodes();
 		updateCharacterLevel();
+		drawTooltip(curNode, allocatedPoints > 1);
 	}
 }
 // returns the number of allocated skill points in every node leading up to (but not including) groupName
@@ -907,6 +909,16 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	node.nodeDesc = nodeData.get("description");
 	if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && nodeData.get("requiredPoints") == undefined) {
 		node.nodeDesc = sanitizeNodeDescription(node.nodeDesc);
+		const nodeValues = node.nodeData.get("values");
+		if (nodeValues != undefined) {
+			nodeValues.forEach(nodeValue => {
+				if (nodeValue.length > 0){
+					node.nodeDesc = node.nodeDesc.replace(/{#}/, nodeValue);
+				} else {
+					node.nodeDesc = node.nodeDesc.replace(/{#}/, "#");
+				}
+			});
+		}
 	}
 
 	node
@@ -982,23 +994,24 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/ \./g, ".")									// Replace ` .` with `.`.
 		.replace(/%\]/g, "]%")									// Replace `%]` with `]%`.
 		.replace(/{else}/g, "\n")								// Replace `{else}` with a newline.
-		.replace(/ *{.+?} */g, "{#}")							// Replace anything inside curly brackets with {#}.
-		.replace(/ *\[.+?\] */g, "{#}")							// Replace anything inside square brackets with {#}.
-		.replace(/{.+?}{.+?}/g, "{#}")							// Replace {#}{#} with {#}.
-		.replace(/([^x+ ]+?){#}/g, "$1 {#}")					// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of {#}.
-		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1")					// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of {#}.
+		.replace(/{(dot|payload):.+?}/g, "{#}%")				// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
+		.replace(/ *{.+?} */g, "{#}")							// Replace anything inside curly brackets with `{#}`.
+		.replace(/ *\[.+?\] */g, "{#}")							// Replace anything inside square brackets with `{#}`.
+		.replace(/{.+?}{.+?}/g, "{#}")							// Replace `{#}{#}` with `{#}`.
+		.replace(/([^x+ ]+?){#}/g, "$1 {#}")					// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of `{#}`.
+		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1")					// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
 		.replace(/\( *{/g, "({")								// Remove any whitespace between `(` and `{`.
 		.replace(/} *\)/g, "})")								// Remove any whitespace between `}` and `)`.
 		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ");				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
 
 	return sanitizedText;
 }
-function drawTooltip(curNode) {
+function drawTooltip(curNode, forceDraw) {
 	const stageScaleX = pixiJS.stage.scale.x;
 	const stageScaleY = pixiJS.stage.scale.y;
 
 	// skip tooltip redraw if we already have the correct one displayed
-	if (!debugMode && pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.stageScaleX == stageScaleX) return;
+	if (!forceDraw && !debugMode && pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.stageScaleX == stageScaleX) return;
 
 	eraseTooltip();
 
@@ -1021,6 +1034,12 @@ function drawTooltip(curNode) {
 		} else {
 			return;
 		}
+	} else {
+		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+		nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
+			const captureSplit = captureString.split("/");
+			return captureSplit[allocatedPoints > 0 ? Math.min(allocatedPoints, captureSplit.length) - 1 : 0];
+		});
 	}
 
 	if (debugMode) {

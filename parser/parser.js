@@ -1,4 +1,5 @@
 import { nodeHistory } from "./nodehistory.js";
+import { nodeValues } from "./nodevalues.js";
 
 const buildNumber = 36331;
 
@@ -111,6 +112,37 @@ const rootNodeNamesSorted = {
 let classProcessed = [];
 let fixedJSON = false;
 
+// copied from ../main.js
+function sanitizeNodeDescription(descriptionText) {
+	let sanitizedText = descriptionText
+		.replace(/{c_.+?}/g, "")								// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
+		.replace(/{\/c_.+?}/g, "")								// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
+		.replace(/{\/c}/g, "")									// `{/c}`, exact.
+		.replace(/{\/?u}/g, "")									// `{u}` and `{/u}`.
+		.replace(/{icon.+?}/g, "")								// `{icon:bullet}`, and similar.
+		.replace(/{if:Mod.+?}(.|\n)+?({else}|{\/if})/g, "")		// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
+		.replace(/{if:.+?}/g, "")								// `{if:ADVANCED_TOOLTIP}`, and similar.
+		.replace(/{\/if}/g, "")									// `{/if}`, exact.
+		.replace(/sLevel/g, "")									// `sLevel`, exact.
+		.replace(/4second\.:/g, "")								// `4second.:`, exact.
+		.replace(/ *\* */g, "")									// `*`, including any nearby whitespace.
+		.replace(/ *\| */g, "")									// `|`, including any nearby whitespace.
+		.replace(/ \./g, ".")									// Replace ` .` with `.`.
+		.replace(/%\]/g, "]%")									// Replace `%]` with `]%`.
+		.replace(/{else}/g, "\n")								// Replace `{else}` with a newline.
+		.replace(/{(dot|payload):.+?}/g, "{#}%")				// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
+		.replace(/ *{.+?} */g, "{#}")							// Replace anything inside curly brackets with `{#}`.
+		.replace(/ *\[.+?\] */g, "{#}")							// Replace anything inside square brackets with `{#}`.
+		.replace(/{.+?}{.+?}/g, "{#}")							// Replace `{#}{#}` with `{#}`.
+		.replace(/([^x+ ]+?){#}/g, "$1 {#}")					// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of `{#}`.
+		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1")					// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
+		.replace(/\( *{/g, "({")								// Remove any whitespace between `(` and `{`.
+		.replace(/} *\)/g, "})")								// Remove any whitespace between `}` and `)`.
+		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ");				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
+
+	return sanitizedText;
+}
+
 function namedConnections(rawConnections, currentNode, classData, fallbackNode) {
 	let namedConnections = "";
 	rawConnections.forEach(connectedNode => {
@@ -132,18 +164,35 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode) 
 function fixJSON(classData, curNode, rootNodeName) {
 	const nodeData = classData["Nodes"][curNode];
 	if (buildNumber == 36023 || buildNumber == 36331) {
+		// `Supreme Unstable Currents` was incorrectly assigned the duplicate name `Prime Unstable Currents` in 36023, causing a naming collision.
 		if (nodeData["SkillName"] == "Prime Unstable Currents" && nodeData["Id"] == 619) {
 			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Unstable Currents`.");
 			nodeData["SkillName"] = "Supreme Unstable Currents";
+		// `Prime Inferno` was incorrectly assigned the name `Upgrade 1` in 36023.
 		} else if (nodeData["SkillName"] == "Upgrade 1" && nodeData["Id"] == 617) {
 			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Prime Inferno`.");
 			nodeData["SkillName"] = "Prime Inferno";
+		// `Supreme Inferno` was incorrectly assigned the name `Upgrade 2` in 36023.
 		} else if (nodeData["SkillName"] == "Upgrade 2" && nodeData["Id"] == 620) {
 			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Inferno`.");
 			nodeData["SkillName"] = "Supreme Inferno";
+		// `Enhanced Charged Bolts` was incorrectly assigned the name `Enhanced Charged Bolt` in 36023.
 		} else if (nodeData["SkillName"] == "Enhanced Charged Bolt" && nodeData["Id"] == 731) {
 			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Charged Bolts`.");
 			nodeData["SkillName"] = "Enhanced Charged Bolts";
+		// `Stealth` was renamed to `Concealment` in 36331, but its modifier nodes were not renamed at the same time.
+		} else if (nodeData["SkillName"] == "Stealth" && nodeData["Id"] == 245) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Concealment`.");
+			nodeData["SkillName"] = "Concealment";
+		} else if (nodeData["SkillName"] == "Enhanced Stealth" && nodeData["Id"] == 374) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Concealment`.");
+			nodeData["SkillName"] = "Enhanced Concealment";
+		} else if (nodeData["SkillName"] == "Countering Stealth" && nodeData["Id"] == 246) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Countering Concealment`.");
+			nodeData["SkillName"] = "Countering Concealment";
+		} else if (nodeData["SkillName"] == "Subverting Stealth" && nodeData["Id"] == 247) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Subverting Concealment`.");
+			nodeData["SkillName"] = "Subverting Concealment";
 		}
 		if (nodeData["SkillName"] != undefined) {
 			// ultimate skills don't have ranks
@@ -209,6 +258,23 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					output += "		id: " + nodeHistoryLength + ",\n";
 				}
 				output += "		maxPoints: " + nodeData["Reward"]["dwMaxTalentRanks"] + ",\n";
+				if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
+				if (nodeValues[className][rootNodeName][nodeData["SkillName"]] == undefined) nodeValues[className][rootNodeName][nodeData["SkillName"]] = [];
+				const sanitizedDescription = sanitizeNodeDescription(nodeData["SkillDesc"]);
+				const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
+				const savedValues = nodeValues[className][rootNodeName][nodeData["SkillName"]];
+				if (descLength > savedValues.length) {
+					savedValues.push(...Array(descLength - savedValues.length).fill(""));
+				} else {
+					savedValues.length = descLength;
+				}
+				if (savedValues.length > 1) {
+					output += `		values: [ "${savedValues.join('", "')}" ],\n`
+				} else if (savedValues.length > 0) {
+					output += `		values: [ "${savedValues[0]}" ],\n`;
+				} else {
+					delete nodeValues[className][rootNodeName][nodeData["SkillName"]];
+				}
 				output += "		x: " + parseFloat(((nodeData["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
 				output += "		y: " + parseFloat(((nodeData["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
 				output += "	},\n";
@@ -290,6 +356,17 @@ function runParser(downloadMode) {
 			downloadElement.click();
 		} else {
 			console.log(formattedNodeHistory);
+		}
+		let formattedNodeValues = "let nodeValues = ";
+		formattedNodeValues += JSON.stringify(nodeValues, null, "\t");
+		formattedNodeValues += "\n\nexport { nodeValues };";
+		if (downloadMode) {
+			let downloadElement = document.createElement("a");
+			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedNodeValues);
+			downloadElement.download = "nodevalues.js";
+			downloadElement.click();
+		} else {
+			console.log(formattedNodeValues);
 		}
 	}
 	fixedJSON = true;

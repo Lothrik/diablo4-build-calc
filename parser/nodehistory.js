@@ -518,7 +518,10 @@ let nodeHistory = {
 		"Imbuements: Cold Imbuement": 136,
 		"Imbuements: Enhanced Cold Imbuement": 137,
 		"Imbuements: Mixed Cold Imbuement": 138,
-		"Imbuements: Blended Cold Imbuement": 139
+		"Imbuements: Blended Cold Imbuement": 139,
+		"Subterfuge: Enhanced Concealment": 140,
+		"Subterfuge: Countering Concealment": 141,
+		"Subterfuge: Subverting Concealment": 142
 	},
 	"Sorcerer": {
 		"Basic: Frost Bolt": 0,
