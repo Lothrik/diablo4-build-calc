@@ -139,6 +139,7 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/\( *{/g, "({")								// Remove any whitespace between `(` and `{`.
 		.replace(/} *\)/g, "})")								// Remove any whitespace between `}` and `)`.
 		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ")				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
+		.replace(/(Cooldown: {#})(\r?\n)/g, "$1 seconds$2")		// Add ` seconds` after `Cooldown: {#}` if not already present.
 		.trim();
 
 	return sanitizedText;

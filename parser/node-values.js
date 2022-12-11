@@ -2057,523 +2057,523 @@ let nodeValues = {
 		"Basic": {
 			"Frost Bolt": [
 				"",
-				"",
-				""
+				"35",
+				"15"
 			],
 			"Enhanced Frost Bolt": [
-				""
+				"15"
 			],
 			"Flickering Frost Bolt": [
-				""
+				"3"
 			],
 			"Glinting Frost Bolt": [
-				""
+				"4"
 			],
 			"Spark": [
 				"",
-				"",
-				""
+				"4",
+				"8"
 			],
 			"Enhanced Spark": [
-				"",
-				"",
-				"",
-				""
+				"20",
+				"3",
+				"6",
+				"20"
 			],
 			"Flickering Spark": [
-				""
+				"3"
 			],
 			"Glinting Spark": [
-				"",
-				"",
-				""
+				"2",
+				"3",
+				"10"
 			],
 			"Arc Lash": [
 				"",
-				"",
-				"",
-				""
+				"42",
+				"10",
+				"2"
 			],
 			"Glinting Arc Lash": [
-				""
+				"0.25"
 			],
 			"Flickering Arc Lash": [
-				"",
-				"",
-				""
+				"6",
+				"5",
+				"18"
 			],
 			"Fire Bolt": [
 				"",
-				"",
-				"",
-				""
+				"10",
+				"40",
+				"8"
 			],
 			"Glinting Fire Bolt": [
-				"",
-				""
+				"20",
+				"4"
 			],
 			"Flickering Fire Bolt": [
-				""
+				"2"
 			]
 		},
 		"Core": {
 			"Charged Bolts": [
+				"40",
 				"",
-				"",
-				"",
-				""
+				"5",
+				"15"
 			],
 			"Greater Charged Bolts": [
-				""
+				"25"
 			],
 			"Destructive Charged Bolts": [
-				"",
-				"",
-				""
+				"5",
+				"20",
+				"3"
 			],
 			"Frozen Orb": [
+				"40",
 				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"34",
+				"32",
+				"29",
+				"9"
 			],
 			"Enhanced Frozen Orb": [
-				"",
-				""
+				"50",
+				"30"
 			],
 			"Destructive Frozen Orb": [
-				""
+				"5"
 			],
 			"Greater Frozen Orb": [
-				"",
-				""
+				"25",
+				"2"
 			],
 			"Incinerate": [
+				"20",
 				"",
-				"",
-				"",
-				"",
-				""
+				"36",
+				"18",
+				"71"
 			],
 			"Enhanced Incinerate": [
-				""
+				"30"
 			],
 			"Destructive Incinerate": [
-				""
+				"15"
 			],
 			"Greater Incinerate": [
-				""
+				"80"
 			],
 			"Fireball": [
+				"50",
 				"",
-				"",
-				""
+				"60"
 			],
 			"Enhanced Fireball": [
-				""
+				"10"
 			],
 			"Greater Fireball": [
-				"",
-				""
+				"50",
+				"20"
 			],
 			"Destructive Fireball": [
-				""
+				"20"
 			],
 			"Chain Lightning": [
+				"35",
 				"",
-				"",
-				"",
-				""
+				"42",
+				"4"
 			],
 			"Enhanced Chain Lightning": [
-				""
+				"1"
 			],
 			"Greater Chain Lightning": [
-				""
+				"5"
 			],
 			"Destructive Chain Lightning": [
-				""
+				"25"
 			],
 			"Ice Shards": [
+				"30",
 				"",
-				"",
-				"",
-				"",
-				""
+				"5",
+				"25",
+				"25"
 			],
 			"Enhanced Ice Shards": [
-				""
+				"15"
 			],
 			"Destructive Ice Shards": [
-				"",
-				""
+				"5",
+				"2"
 			],
 			"Devastation": [
-				""
+				"{8/15/23}"
 			],
 			"Elemental Dominance": [
-				"",
-				""
+				"{8/16/24}",
+				"3"
 			],
 			"Potent Warding": [
-				""
+				"{2/4/6}"
 			]
 		},
 		"Defensive": {
 			"Flame Shield": [
+				"19.6",
 				"",
-				"",
-				"",
-				""
+				"2",
+				"7"
 			],
 			"Enhanced Flame Shield": [
-				""
+				"25"
 			],
 			"Mystical Flame Shield": [
-				""
+				"3"
 			],
 			"Shimmering Flame Shield": [
-				""
+				"4"
 			],
 			"Frost Nova": [
+				"14.7",
 				"",
 				"",
-				"",
-				""
+				"2"
 			],
 			"Enhanced Frost Nova": [
-				""
+				"25"
 			],
 			"Mystical Frost Nova": [
-				"",
-				""
+				"20",
+				"3"
 			],
 			"Shimmering Frost Nova": [
-				""
+				"4"
 			],
 			"Ice Armor": [
+				"19.6",
+				"6",
+				"30",
 				"",
-				"",
-				"",
-				"",
-				""
+				"10"
 			],
 			"Enhanced Ice Armor": [
-				""
+				"25"
 			],
 			"Shimmering Ice Armor": [
-				"",
-				""
+				"15",
+				"3"
 			],
 			"Mystical Ice Armor": [
-				""
+				"30"
 			],
 			"Teleport": [
+				"10.8",
 				"",
-				"",
-				""
+				"25"
 			],
 			"Enhanced Teleport": [
-				"",
-				""
+				"30",
+				"5"
 			],
 			"Mystical Teleport": [
-				"",
-				""
+				"4",
+				"40"
 			],
 			"Shimmering Teleport": [
-				"",
-				""
+				"0.5",
+				"3"
 			],
 			"Elemental Attunement": [
-				"",
-				""
+				"{3/6/9}",
+				"10"
 			],
 			"Glass Cannon": [
-				"",
-				""
+				"{6/12/18}",
+				"{3/6/9}"
 			]
 		},
 		"Conjuration": {
 			"Hydra": [
+				"20",
 				"",
-				"",
-				"",
-				"",
-				""
+				"3",
+				"8.0",
+				"30"
 			],
 			"Enhanced Hydra": [
-				""
+				"4"
 			],
 			"Invoked Hydra": [
-				"",
-				""
+				"15",
+				"3"
 			],
 			"Summoned Hydra": [
-				"",
-				""
+				"12",
+				"6"
 			],
 			"Ice Blades": [
+				"11.8",
 				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"6.0",
+				"31",
+				"20",
+				"2"
 			],
 			"Enhanced Ice Blades": [
-				""
+				"10"
 			],
 			"Summoned Ice Blades": [
-				"",
-				""
+				"25",
+				"100"
 			],
 			"Invoked Ice Blades": [
-				""
+				"1"
 			],
 			"Lightning Spear": [
+				"19.6",
 				"",
-				"",
-				"",
-				""
+				"6.0",
+				"15"
 			],
 			"Enhanced Lightning Spear": [
-				""
+				"10"
 			],
 			"Summoned Lightning Spear": [
-				""
+				"0.5"
 			],
 			"Invoked Lightning Spear": [
-				""
+				"5"
 			],
 			"Conjuration Mastery": [
-				""
+				"{2/4/6}"
 			],
 			"Precision Magic": [
-				""
+				"{5/10/15}"
 			],
 			"Align the Elements": [
-				"",
-				""
+				"{5/10/15}",
+				"50"
 			],
 			"Mana Shield": [
-				"",
-				"",
-				""
+				"100",
+				"{5/10/15}",
+				"5"
 			],
 			"Protection": [
+				"{10/20/30}",
 				"",
-				"",
-				""
+				"5"
 			]
 		},
 		"Mastery": {
 			"Meteor": [
+				"40",
 				"",
-				"",
-				"",
-				"",
-				""
+				"50",
+				"35",
+				"3"
 			],
 			"Enhanced Meteor": [
-				"",
-				""
+				"3",
+				"30"
 			],
 			"Mage's Meteor": [
-				"",
-				""
+				"30",
+				"6"
 			],
 			"Wizard's Meteor": [
-				""
+				"2"
 			],
 			"Blizzard": [
+				"40",
 				"",
-				"",
-				"",
-				"",
-				""
+				"120",
+				"18",
+				"6"
 			],
 			"Enhanced Blizzard": [
-				""
+				"2"
 			],
 			"Mage's Blizzard": [
-				"",
-				""
+				"2.5",
+				"20"
 			],
 			"Wizard's Blizzard": [
-				""
+				"10"
 			],
 			"Ball Lightning": [
+				"50",
 				"",
-				"",
-				""
+				"15"
 			],
 			"Enhanced Ball Lightning": [
-				""
+				"30"
 			],
 			"Wizard's Ball Lightning": [
-				""
+				"4"
 			],
 			"Mage's Ball Lightning": [
-				"",
-				""
+				"2",
+				"30"
 			],
 			"Inner Flames": [
-				"",
-				""
+				"{8/16/24}",
+				"3"
 			],
 			"Soulfire": [
-				""
+				"{1.5/3/4.5}"
 			],
 			"Devouring Flames": [
-				"",
-				""
+				"{1/2/3}",
+				"{4/16/36}"
 			],
 			"Regenerative Conduit": [
-				""
+				"{4/8/12}"
 			],
 			"Static Discharge": [
-				""
+				"{5/10/15}"
 			],
 			"Shocking Impact": [
-				""
+				"{15/30/45}"
 			],
 			"Icy Veil": [
-				""
+				"{5/10/15}"
 			],
 			"Hoarfrost": [
-				""
+				"{6/12/18}"
 			],
 			"Cold Front": [
-				""
+				"{8/16/24}"
 			],
 			"Firewall": [
+				"30",
 				"",
-				"",
-				"",
-				""
+				"160",
+				"8"
 			],
 			"Enhanced Firewall": [
-				"",
-				""
+				"2",
+				"25"
 			],
 			"Wizard's Firewall": [
-				""
+				"5"
 			],
 			"Mage's Firewall": [
-				""
+				"5"
 			]
 		},
 		"Ultimate": {
 			"Inferno": [
+				"44.1",
 				"",
-				"",
-				"",
-				"",
-				""
+				"295",
+				"8",
+				"50"
 			],
 			"Prime Inferno": [
-				""
+				"4"
 			],
 			"Supreme Inferno": [
-				""
+				"1"
 			],
 			"Unstable Currents": [
-				"",
-				""
+				"68.6",
+				"10"
 			],
 			"Prime Unstable Currents": [
-				""
+				"25"
 			],
 			"Supreme Unstable Currents": [
-				""
+				"0.25"
 			],
 			"Deep Freeze": [
+				"58.8",
 				"",
-				"",
-				"",
-				"",
-				""
+				"4",
+				"20",
+				"200"
 			],
 			"Prime Deep Freeze": [
+				"5",
 				"",
-				"",
-				""
+				"6"
 			],
 			"Supreme Deep Freeze": [
-				""
+				"50"
 			],
 			"Frostbite": [
-				"",
-				""
+				"{3/6/9}",
+				"{6/12/18}"
 			],
 			"Permafrost": [
-				""
+				"{5/10/15}"
 			],
 			"Snap Freeze": [
-				""
+				"{3/6/9}"
 			],
 			"Icy Touch": [
-				""
+				"{4/8/12}"
 			],
 			"Coursing Currents": [
-				""
+				"{1/2/3}"
 			],
 			"Electrocution": [
-				"",
-				""
+				"{5/10/15}",
+				"5"
 			],
 			"Convulsions": [
-				"",
-				""
+				"{3/6/9}",
+				"2"
 			],
 			"Conduction": [
-				"",
-				""
+				"{5/10/15}",
+				"2"
 			],
 			"Immolated Flesh": [
-				""
+				"{4.5/9/13.5}"
 			],
 			"Endless Pyre": [
-				""
+				"{6/12/18}"
 			],
 			"Pyromania": [
-				"",
-				""
+				"{3/6/9}",
+				"50"
 			],
 			"Fiery Surge": [
-				"",
-				""
+				"{3/6/9}",
+				"3"
 			]
 		},
 		"Capstone": {
 			"Shatter": [
-				""
+				"25"
 			],
 			"Icefall": [
-				"",
-				""
+				"10",
+				"40"
 			],
 			"Warmth": [
-				"",
-				""
+				"50",
+				"1"
 			],
 			"Esu's Ferocity": [
-				"",
-				"",
-				"",
-				""
+				"25",
+				"50",
+				"25",
+				"50"
 			],
 			"Overflowing Energy": [
-				"",
-				"",
-				""
+				"1",
+				"0.1",
+				"0.25"
 			],
 			"Vyr's Mastery": [
-				"",
-				""
+				"10",
+				"20"
 			]
 		}
 	}

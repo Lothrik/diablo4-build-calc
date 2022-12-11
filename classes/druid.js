@@ -537,7 +537,7 @@ This bonus persists for {#} seconds after leaving Werewolf form.`,
 druid["Defensive"] = {
 	"Earthen Bulwark": {
 		connections: [ "Defensive", "Enhanced Earthen Bulwark" ],
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your Base Life ({#}) in damage.`,
 		id: 43,
@@ -577,7 +577,7 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 	},
 	"Debilitating Roar": {
 		connections: [ "Defensive", "Enhanced Debilitating Roar" ],
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Nearby enemies by {#}% for {#} seconds.`,
 		id: 47,
 		maxPoints: 5,
@@ -635,7 +635,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 	},
 	"Blood Howl": {
 		connections: [ "Defensive", "Enhanced Blood Howl" ],
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Generate Spirit: {#}
 Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		id: 53,
@@ -677,7 +677,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 	"Cyclone Armor": {
 		connections: [ "Defensive", "Enhanced Cyclone Armor" ],
 		damageType: 0,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Passive: Powerful winds surround you, granting {#}% non-Physical damage reduction.  
 
@@ -723,7 +723,7 @@ druid["Companion"] = {
 	"Ravens": {
 		connections: [ "Companion", "Enhanced Ravens" ],
 		damageType: 0,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 
 Passive: {#} Ravens fly above you and periodically attack your enemies for {#}% damage every {#} seconds.
@@ -780,7 +780,7 @@ Vine Creeper's poison duration is increased by {#}%.`,
 	"Vine Creeper": {
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
 		damageType: 4,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Passive: A vine creeper periodically emerges from the ground every {#} seconds and poisons an enemy in the area for {#}% damage over {#} seconds.
 
@@ -824,7 +824,7 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 	"Wolves": {
 		connections: [ "Companion", "Enhanced Wolf Pack" ],
 		damageType: 0,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Passive: Summon {#} wolf companions that bite enemies for {#}% damage.
 
@@ -938,7 +938,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	"Boulder": {
 		connections: [ "Wrath", "Enhanced Boulder" ],
 		damageType: 0,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#}% damage with each hit.`,
 		id: 85,
@@ -981,7 +981,7 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 		connections: [ "Wrath", "Enhanced Trample" ],
 		damageType: 0,
 		description: `Generates Spirit: {#}
-Cooldown: {#}
+Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Shapeshift into a Werebear and charge forward, dealing {#}% damage and Knocking Back enemies.
 
@@ -1051,7 +1051,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 	"Hurricane": {
 		connections: [ "Wrath", "Enhanced Hurricane" ],
 		damageType: 0,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Form a hurricane around you that deals {#}% damage to surrounding enemies over {#} seconds.`,
 		id: 99,
@@ -1093,7 +1093,7 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 	"Rabies": {
 		connections: [ "Wrath", "Enhanced Rabies" ],
 		damageType: 4,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and perform an infectious bite on the target dealing {#} damage, and an additional {#}% damage over {#} seconds. 
 
@@ -1175,7 +1175,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 druid["Ultimate"] = {
 	"Grizzly Rage": {
 		connections: [ "Ultimate", "Prime Grizzly Rage" ],
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Shapeshift into a Dire Werebear for {#} seconds gaining x{#}% bonus damage and x{#}% damage reduction. Damage bonus is increased by +{#}% each second while in this form.
 
 Kills extend the duration by {#} second up to +{#} additional seconds.
@@ -1208,7 +1208,7 @@ Casting Grizzly Rage causes enemies in the area to take {#}% damage and be Slowe
 	},
 	"Petrify": {
 		connections: [ "Ultimate", "Prime Petrify" ],
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increased Critical Strike Damage to Petrified enemies.`,
 		id: 110,
 		maxPoints: 1,
@@ -1302,7 +1302,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 	"Lacerate": {
 		connections: [ "Ultimate", "Prime Lacerate" ],
 		damageType: 0,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf, become Immune and quickly dash {#} times between enemies in the area dealing up to {#} damage.`,
 		id: 120,
@@ -1334,7 +1334,7 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 	"Cataclysm": {
 		connections: [ "Ultimate", "Prime Cataclysm" ],
 		damageType: 2,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing {#}% damage.`,
 		id: 123,

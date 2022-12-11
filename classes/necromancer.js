@@ -741,7 +741,7 @@ necromancer["Summoning"] = {
 	"Corpse Tendrils": {
 		connections: [ "Enhanced Corpse Tendrils", "Summoning" ],
 		damageType: 0,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, and dealing {#}% damage to them. Does not consume the Corpse.`,
 		id: 67,
@@ -1071,7 +1071,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 	"Bone Storm": {
 		connections: [ "Prime Bone Storm", "Ultimate" ],
 		damageType: 0,
-		description: `Cooldown: {#}
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 A swirling storm of bones appears around you and your Golem, dealing {#}% to surrounding enemies over {#} seconds.`,
 		id: 101,
