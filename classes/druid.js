@@ -46,11 +46,10 @@ druid["Trunk Data"] = {
 druid["Basic"] = {
 	["Earthspike"]: {
 		connections: [ "Basic", "Enhanced Earthspike" ],
-		damageType: 0,
-		description: `{if:SF_15}{c_label}Cooldown:{/c_label} {c_resource}[{SF_16}|1|]{/c} seconds
-{/if}{c_label}Generate Spirit:{/c_label} {c_resource}{SF_5}{/c_resource}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Sunder the earth, impaling the first enemy hit for {c_number}{payload:DAMAGE}{/c} damage.`,
+		description: `Cooldown: {#} seconds
+Generate Spirit: {#}
+Lucky Hit Chance: {#}%
+Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 		id: 0,
 		maxPoints: 5,
 		values: [ "", "", "", "" ],
@@ -60,7 +59,7 @@ druid["Basic"] = {
 	["Enhanced Earthspike"]: {
 		baseSkill: "Earthspike",
 		connections: [ "Earthspike", "Wild Earthspike", "Fierce Earthspike" ],
-		description: `{c_important}Earthspike{/c} has an {c_number}[{SF_11}*100|%|]{/c} chance to Stun for {c_number}[{buffduration:MOD_RANK_STUN}|1|]{/c} seconds.`,
+		description: `Earthspike has an {#}% chance to Stun for {#} seconds.`,
 		id: 1,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -70,7 +69,7 @@ druid["Basic"] = {
 	["Wild Earthspike"]: {
 		baseSkill: "Earthspike",
 		connections: [ "Enhanced Earthspike" ],
-		description: `Summon a second {c_important}Earthspike{/c} when hitting an Immobilized or Stunned enemy.`,
+		description: `Summon a second Earthspike when hitting an Immobilized or Stunned enemy.`,
 		id: 2,
 		maxPoints: 1,
 		x: -804.45,
@@ -79,7 +78,7 @@ druid["Basic"] = {
 	["Fierce Earthspike"]: {
 		baseSkill: "Earthspike",
 		connections: [ "Enhanced Earthspike" ],
-		description: `{c_important}Fortify{/c} for {c_number}[{SF_13}*100|%|]{/c} of your Base Life {c_number}({fortified:MOD_A_FORTIFY}){/c} whenever {c_important}Earth Spike{/c} damages enemies who are Stunned, Immobilized, or Knocked Back.`,
+		description: `Fortify for {#}% of your Base Life ({#}) whenever Earth Spike damages enemies who are Stunned, Immobilized, or Knocked Back.`,
 		id: 3,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -88,10 +87,9 @@ druid["Basic"] = {
 	},
 	["Maul"]: {
 		connections: [ "Basic", "Enhanced Maul" ],
-		damageType: 0,
-		description: `{c_label}Generate Spirit:{/c_label} {c_resource}{SF_0}{/c_resource}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Shapeshift into a Werebear and maul enemies in front of you, dealing {c_number}{payload:MELEE_PAYLOAD}{/c} damage.`,
+		description: `Generate Spirit: {#}
+Lucky Hit Chance: {#}%
+Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage.`,
 		id: 4,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -101,7 +99,7 @@ druid["Basic"] = {
 	["Enhanced Maul"]: {
 		baseSkill: "Maul",
 		connections: [ "Maul", "Wild Maul", "Fierce Maul" ],
-		description: `If an enemy is hit by {c_important}Maul{/c}, then {c_important}Fortify{/c} for {c_number}[{SF_2}*100|%|]{/c} Base Life {c_number}({fortified:FORTIFY_CASTER}){/c}.`,
+		description: `If an enemy is hit by Maul, then Fortify for {#}% Base Life ({#}).`,
 		id: 5,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -111,7 +109,7 @@ druid["Basic"] = {
 	["Wild Maul"]: {
 		baseSkill: "Maul",
 		connections: [ "Enhanced Maul" ],
-		description: `{c_important}Maul{/c} has a {c_number}[{SF_6}*100|%|]{/c} chance to Knock Down enemies for {c_number}{buffduration:MOD_B_KNOCKDOWN}{/c} seconds.`,
+		description: `Maul has a {#}% chance to Knock Down enemies for {#} seconds.`,
 		id: 6,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -121,7 +119,7 @@ druid["Basic"] = {
 	["Fierce Maul"]: {
 		baseSkill: "Maul",
 		connections: [ "Enhanced Maul" ],
-		description: `Increases the range and radius of {c_important}Maul{/c} by {c_number}[SF_3 *100|%|]{/c}.`,
+		description: `Increases the range and radius of Maul by {#}%.`,
 		id: 7,
 		maxPoints: 1,
 		values: [ "" ],
@@ -130,10 +128,9 @@ druid["Basic"] = {
 	},
 	["Wind Shear"]: {
 		connections: [ "Basic", "Enhanced Wind Shear" ],
-		damageType: 0,
-		description: `{c_label}Generate Spirit:{/c_label} {c_resource}{SF_5}{/c_resource}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Conjure a piercing blade of wind, dealing {c_number}{Payload:DAMAGE}{/c} damage.`,
+		description: `Generate Spirit: {#}
+Lucky Hit Chance: {#}%
+Conjure a piercing blade of wind, dealing {#} damage.`,
 		id: 8,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -143,7 +140,7 @@ druid["Basic"] = {
 	["Enhanced Wind Shear"]: {
 		baseSkill: "Wind Shear",
 		connections: [ "Wind Shear", "Fierce Wind Shear", "Wild Wind Shear" ],
-		description: `{c_important}Wind Shear{/c} has a {c_number}[{SF_18}*100|%|]{/c} chance to make enemies {c_important}{u}Vulnerable{/u}{/c} for {c_number}{SF_17}{/c} seconds.`,
+		description: `Wind Shear has a {#}% chance to make enemies Vulnerable for {#} seconds.`,
 		id: 9,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -153,7 +150,7 @@ druid["Basic"] = {
 	["Fierce Wind Shear"]: {
 		baseSkill: "Wind Shear",
 		connections: [ "Enhanced Wind Shear" ],
-		description: `Each enemy hit by {c_important}Wind Shear{/c} increases your movement speed by {c_number}[{SF_6} * 100|%|]{/c} for {c_number}{buffduration:BUFF_MOVE_SPEED}{/c} seconds, up to {c_number}[{SF_6} * {SF_8} * 100|%|]{/c}.`,
+		description: `Each enemy hit by Wind Shear increases your movement speed by {#}% for {#} seconds, up to {#}%.`,
 		id: 10,
 		maxPoints: 1,
 		values: [ "", "", "" ],
@@ -163,7 +160,7 @@ druid["Basic"] = {
 	["Wild Wind Shear"]: {
 		baseSkill: "Wind Shear",
 		connections: [ "Enhanced Wind Shear" ],
-		description: `{c_important}Wind Shear{/c} grants {c_number}{SF_4}{/c} additional Spirit for each enemy hit beyond the first.`,
+		description: `Wind Shear grants {#} additional Spirit for each enemy hit beyond the first.`,
 		id: 11,
 		maxPoints: 1,
 		values: [ "" ],
@@ -172,12 +169,11 @@ druid["Basic"] = {
 	},
 	["Storm Strike"]: {
 		connections: [ "Basic", "Enhanced Storm Strike" ],
-		damageType: 2,
-		description: `{c_label}Generate Spirit:{/c_label} {c_resource}{SF_2}{/c_resource}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Electricity gathers around your weapon, dealing {c_number}{payload:MELEE_DAMAGE}{/c} damage to your target and chaining to up to {c_number}{SF_3}{/c} surrounding enemies, dealing {c_number}[SF_4 *100|%|]{/c} less damage each time it chains.
+		description: `Generate Spirit: {#}
+Lucky Hit Chance: {#}%
+Electricity gathers around your weapon, dealing {#}% damage to your target and chaining to up to {#} surrounding enemies, dealing {#}% less damage each time it chains.
 
-Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {c_number}[{SF_9}*100|%|]{/c} for {c_number}{buffduration:DAMAGE_REDUCTION}{/c} seconds.`,
+Dealing damage with Storm Strike reduces your damage taken by {#}% for {#} seconds.`,
 		id: 12,
 		maxPoints: 5,
 		values: [ "", "", "", "", "", "", "" ],
@@ -187,7 +183,7 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 	["Enhanced Storm Strike"]: {
 		baseSkill: "Storm Strike",
 		connections: [ "Storm Strike", "Fierce Storm Strike", "Wild Storm Strike" ],
-		description: `{c_important}Storm Strike{/c} has a {c_number}[{SF_10}*100|%|]{/c} chance to Immobilize all enemies hit for {c_number}[{buffduration:IMMOBILIZE}|1|]{/c} seconds.`,
+		description: `Storm Strike has a {#}% chance to Immobilize all enemies hit for {#} seconds.`,
 		id: 13,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -197,7 +193,7 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 	["Fierce Storm Strike"]: {
 		baseSkill: "Storm Strike",
 		connections: [ "Enhanced Storm Strike" ],
-		description: `{c_important}Storm Strike{/c} has a {c_number}[{SF_12} * 100|%|]{/c} chance to make enemies {c_important}{u}Vulnerable{/u}{/c} for {c_number}{SF_13}{/c} seconds.`,
+		description: `Storm Strike has a {#}% chance to make enemies Vulnerable for {#} seconds.`,
 		id: 14,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -207,7 +203,7 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 	["Wild Storm Strike"]: {
 		baseSkill: "Storm Strike",
 		connections: [ "Enhanced Storm Strike" ],
-		description: `{c_important}Storm Strike{/c} chains to {c_number}[SF_7]{/c} additional targets.`,
+		description: `Storm Strike chains to {#} additional targets.`,
 		id: 15,
 		maxPoints: 1,
 		values: [ "" ],
@@ -216,10 +212,9 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 	},
 	["Claw"]: {
 		connections: [ "Basic", "Enhanced Claw" ],
-		damageType: 0,
-		description: `{c_label}Generate Spirit:{/c_label} {c_resource}{SF_3}{/c_resource}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Shapeshift into a Werewolf and claw at an enemy for {c_number}{payload:MELEE_DAMAGE}{/c} damage.`,
+		description: `Generate Spirit: {#}
+Lucky Hit Chance: {#}%
+Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 		id: 16,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -229,7 +224,7 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 	["Enhanced Claw"]: {
 		baseSkill: "Claw",
 		connections: [ "Claw", "Fierce Claw", "Wild Claw" ],
-		description: `{c_important}Claw's{/c} Attack Speed is increased by {c_number}+[{SF_12}*100|%|]{/c}.`,
+		description: `Claw's Attack Speed is increased by +{#}%.`,
 		id: 17,
 		maxPoints: 1,
 		values: [ "" ],
@@ -239,7 +234,7 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 	["Fierce Claw"]: {
 		baseSkill: "Claw",
 		connections: [ "Enhanced Claw" ],
-		description: `{c_important}Claw{/c} poisons enemies for {c_number}{dot:POISON_DOT}{/c} over {c_important}{buffduration:POISON_DOT}{/c} seconds.`,
+		description: `Claw poisons enemies for {#}% over {#} seconds.`,
 		id: 18,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -249,7 +244,7 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 	["Wild Claw"]: {
 		baseSkill: "Claw",
 		connections: [ "Enhanced Claw" ],
-		description: `{c_important}Claw{/c} has an additional {c_number}+[{SF_9}*100|%|]{/c} Critical Strike Chance and deals {c_number}x[{SF_10}*100|%|]{/c} increased Critical Strike Damage.`,
+		description: `Claw has an additional +{#}% Critical Strike Chance and deals x{#}% increased Critical Strike Damage.`,
 		id: 19,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -261,10 +256,9 @@ Dealing damage with {c_important}Storm Strike{/c} reduces your damage taken by {
 druid["Spirit"] = {
 	["Landslide"]: {
 		connections: [ "Spirit", "Enhanced Landslide" ],
-		damageType: 0,
-		description: `{c_label}Spirit Cost: {/c}{c_resource}{Resource Cost}{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Crush enemies between {c_number}3{/c} pillars of earth, dealing up to {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage.`,
+		description: `Spirit Cost: {#}
+Lucky Hit Chance: {#}%
+Crush enemies between 3 pillars of earth, dealing up to {#}% damage.`,
 		id: 20,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -274,7 +268,7 @@ druid["Spirit"] = {
 	["Enhanced Landslide"]: {
 		baseSkill: "Landslide",
 		connections: [ "Landslide", "Raging Landslide", "Primal Landslide" ],
-		description: `Enemies hit by all {c_number}3{/c} {c_important}Landslide{/c} pillars have a {c_number}[{SF_9}*100|%|]{/c} chance to be Immobilized for {c_number}{buffduration:IMMOBILIZE}{/c} seconds by the final hit.`,
+		description: `Enemies hit by all 3 Landslide pillars have a {#}% chance to be Immobilized for {#} seconds by the final hit.`,
 		id: 21,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -284,7 +278,7 @@ druid["Spirit"] = {
 	["Raging Landslide"]: {
 		baseSkill: "Landslide",
 		connections: [ "Enhanced Landslide" ],
-		description: `For {c_number}{buffduration:SKILL_RANK_COST_REDUCTION}{/c} seconds after {c_important}Landslide{/c} is cast, the Spirit cost is reduced by {c_number}{SF_11}{/c}.`,
+		description: `For {#} seconds after Landslide is cast, the Spirit cost is reduced by {#}.`,
 		id: 22,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -294,7 +288,7 @@ druid["Spirit"] = {
 	["Primal Landslide"]: {
 		baseSkill: "Landslide",
 		connections: [ "Enhanced Landslide" ],
-		description: `{c_important}Landslide{/c} has a {c_number}[{SF_8}*100|%|]{/c} increased Critical Strike Chance and deals {c_number}x[{SF_7}*100|%|]{/c} increased Critical Strike Damage against enemies who are Stunned, Immobilized or Knocked Back.`,
+		description: `Landslide has a {#}% increased Critical Strike Chance and deals x{#}% increased Critical Strike Damage against enemies who are Stunned, Immobilized or Knocked Back.`,
 		id: 23,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -303,10 +297,9 @@ druid["Spirit"] = {
 	},
 	["Pulverize"]: {
 		connections: [ "Spirit", "Enhanced Pulverize" ],
-		damageType: 0,
-		description: `{c_label}Spirit Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Shapeshift into a Werebear and slam the ground, dealing {c_number}{payload:DAMAGE}{/c} damage to surrounding enemies.`,
+		description: `Spirit Cost: {#}
+Lucky Hit Chance: {#}%
+Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surrounding enemies.`,
 		id: 24,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -316,7 +309,7 @@ druid["Spirit"] = {
 	["Enhanced Pulverize"]: {
 		baseSkill: "Pulverize",
 		connections: [ "Pulverize", "Primal Pulverize", "Raging Pulverize" ],
-		description: `{c_important}Pulverize{/c} deals {c_number}x[{SF_13}*100|%|]{/c} increased bonus damage when hitting {c_number}{SF_14}{/c} or more enemies.`,
+		description: `Pulverize deals x{#}% increased bonus damage when hitting {#} or more enemies.`,
 		id: 25,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -326,7 +319,7 @@ druid["Spirit"] = {
 	["Primal Pulverize"]: {
 		baseSkill: "Pulverize",
 		connections: [ "Enhanced Pulverize" ],
-		description: `Enemies hit with {c_important}Pulverize{/c} deal {c_number}[{SF_10}*100|%|]{/c} reduced damage for {c_number}{buffduration:MOD_DAMAGE_REDUCTION}{/c} seconds.`,
+		description: `Enemies hit with Pulverize deal {#}% reduced damage for {#} seconds.`,
 		id: 26,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -336,7 +329,7 @@ druid["Spirit"] = {
 	["Raging Pulverize"]: {
 		baseSkill: "Pulverize",
 		connections: [ "Enhanced Pulverize" ],
-		description: `{c_important}Pulverize{/c} has a {c_number}[{SF_11}*100|%|]{/c} chance to Immobilize all enemies hit for {c_number}{buffduration:IMMOBILIZE}{/c} seconds.`,
+		description: `Pulverize has a {#}% chance to Immobilize all enemies hit for {#} seconds.`,
 		id: 27,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -345,10 +338,9 @@ druid["Spirit"] = {
 	},
 	["Tornado"]: {
 		connections: [ "Spirit", "Enhanced Tornado" ],
-		damageType: 0,
-		description: `{c_label}Spirit Cost: {/c}{c_resource}{Resource Cost}{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Conjure a swirling tornado that deals {c_number}{PAYLOAD:TOOLTIP_DAMAGE}{/c} damage.`,
+		description: `Spirit Cost: {#}
+Lucky Hit Chance: {#}%
+Conjure a swirling tornado that deals {#} damage.`,
 		id: 28,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -358,7 +350,7 @@ druid["Spirit"] = {
 	["Enhanced Tornado"]: {
 		baseSkill: "Tornado",
 		connections: [ "Tornado", "Raging Tornado", "Primal Tornado" ],
-		description: `Each time you cast {c_important}Tornado{/c}, you have a {c_number}[{SF_17}*100|%|]{/c} chance to spawn an additional {c_important}Tornado{/c}.`,
+		description: `Each time you cast Tornado, you have a {#}% chance to spawn an additional Tornado.`,
 		id: 29,
 		maxPoints: 1,
 		values: [ "" ],
@@ -368,7 +360,7 @@ druid["Spirit"] = {
 	["Raging Tornado"]: {
 		baseSkill: "Tornado",
 		connections: [ "Enhanced Tornado" ],
-		description: `Each time an enemy is damaged by a {c_important}Tornado{/c}, they take {c_number}x[{SF_19}*100|%|]{/c} increased damage from {c_important}Tornado{/c} for {c_number}{buffduration:MOD_STACKING_BONUS_DAMAGE_TAKEN}{/c} seconds, stacking up to {c_number}x[{SF_19} * {SF_20} * 100|%|]{/c} increased damage.`,
+		description: `Each time an enemy is damaged by a Tornado, they take x{#}% increased damage from Tornado for {#} seconds, stacking up to x{#}% increased damage.`,
 		id: 30,
 		maxPoints: 1,
 		values: [ "", "", "" ],
@@ -378,7 +370,7 @@ druid["Spirit"] = {
 	["Primal Tornado"]: {
 		baseSkill: "Tornado",
 		connections: [ "Enhanced Tornado" ],
-		description: `Enemies damaged by {c_important}Tornado{/c} are Slowed by {c_number}[{SF_22}*100|%|]{/c} for {c_number}{buffduration:RANK_SLOW}{/c} seconds, stacking up to {c_number}[{SF_22}*{SF_23}*100|%|]{/c}.`,
+		description: `Enemies damaged by Tornado are Slowed by {#}% for {#} seconds, stacking up to {#}%.`,
 		id: 31,
 		maxPoints: 1,
 		values: [ "", "", "" ],
@@ -387,16 +379,15 @@ druid["Spirit"] = {
 	},
 	["Shred"]: {
 		connections: [ "Spirit", "Enhanced Shred" ],
-		damageType: 0,
-		description: `{c_label}Spirit Cost: {/c}{c_resource}{Resource Cost}{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Shapeshift into a Werewolf and perform a 3-combo attack.
+		description: `Spirit Cost: {#}
+Lucky Hit Chance: {#}%
+Shapeshift into a Werewolf and perform a 3-combo attack.
 
-{icon:bullet}{c_important}1st Attack:{/c} Dash towards the target and deal {c_number}{payload:ATTACK_ONE}{/c} damage.
-{icon:bullet}{c_important}2nd Attack:{/c} {if:Mod.UpgradeA}Dash towards the target and deal {else}Deal {/if}{c_number}{payload:ATTACK_TWO}{/c} damage.
-{icon:bullet}{c_important}3rd Attack:{/c} Perform a larger finishing move dealing {c_number}{payload:ATTACK_THREE}{/c} damage {if:Mod.UpgradeB}and applying a potent poison dealing an additional {c_number}{dot:MOD_B_POISONDOT}{/c} damage over {c_number}{SF_7}{/c} seconds.{else}.{/if}{if:Mod.UpgradeA}
+1st Attack: Dash towards the target and deal {#}% damage.
+2nd Attack: Deal {#}% damage.
+3rd Attack: Perform a larger finishing move dealing {#}% damage.
 
-{c_important}Shred's{/c} 1st and 2nd attack gain a {c_number}[{SF_5}*100]%{/c} increased Critical Strike Chance bonus.{/if}`,
+Shred's 1st and 2nd attack gain a {#}% increased Critical Strike Chance bonus.`,
 		id: 33,
 		maxPoints: 5,
 		values: [ "", "", "", "", "", "" ],
@@ -406,7 +397,7 @@ druid["Spirit"] = {
 	["Enhanced Shred"]: {
 		baseSkill: "Shred",
 		connections: [ "Shred", "Raging Shred", "Primal Shred" ],
-		description: `{c_important}Shred{/c} gains {c_number}[{SF_16}*100|%|]{/c} attack speed and heals for {c_number}[{SF_8}*100|%|]{/c} of your maximum Life if an enemy is struck.`,
+		description: `Shred gains {#}% attack speed and heals for {#}% of your maximum Life if an enemy is struck.`,
 		id: 34,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -416,7 +407,7 @@ druid["Spirit"] = {
 	["Raging Shred"]: {
 		baseSkill: "Shred",
 		connections: [ "Enhanced Shred" ],
-		description: `{c_important}Shred's{/c} third combo attack is larger and applies a potent poison to enemies hit dealing an additional {c_number}{dot:MOD_B_POISONDOT}{/c} damage over {c_number}{SF_7}{/c} seconds.`,
+		description: `Shred's third combo attack is larger and applies a potent poison to enemies hit dealing an additional {#}% damage over {#} seconds.`,
 		id: 36,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -426,7 +417,7 @@ druid["Spirit"] = {
 	["Primal Shred"]: {
 		baseSkill: "Shred",
 		connections: [ "Enhanced Shred" ],
-		description: `{c_important}Shred's{/c} second combo attack also performs a dash. In addition, {c_important}Shred's{/c} Critical Strike Chance is increased by {c_number}+[{SF_5}*100]%{/c} for the first two combo attacks.`,
+		description: `Shred's second combo attack also performs a dash. In addition, Shred's Critical Strike Chance is increased by +{#}% for the first two combo attacks.`,
 		id: 35,
 		maxPoints: 1,
 		values: [ "" ],
@@ -435,10 +426,9 @@ druid["Spirit"] = {
 	},
 	["Lightning Storm"]: {
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
-		damageType: 2,
-		description: `{c_label}Spirit Cost:{/c} {c_resource}{Resource Cost} per strike{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Conjure a growing lightning storm that deals {c_number}{payload:DAMAGE}{/c} damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {c_number}[{SF_16}+1]{/c}.`,
+		description: `Spirit Cost: {#} per strike
+Lucky Hit Chance: {#}%
+Conjure a growing lightning storm that deals {#}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.`,
 		id: 37,
 		maxPoints: 5,
 		values: [ "", "", "", "" ],
@@ -448,7 +438,7 @@ druid["Spirit"] = {
 	["Enhanced Lightning Storm"]: {
 		baseSkill: "Lightning Storm",
 		connections: [ "Lightning Storm", "Primal Lightning Storm", "Raging Lightning Storm" ],
-		description: `The size of your {c_important}Lightning Storm{/c} is preserved for {c_number}{SF_10}{/c} seconds after channeling.`,
+		description: `The size of your Lightning Storm is preserved for {#} seconds after channeling.`,
 		id: 38,
 		maxPoints: 1,
 		values: [ "" ],
@@ -458,7 +448,7 @@ druid["Spirit"] = {
 	["Primal Lightning Storm"]: {
 		baseSkill: "Lightning Storm",
 		connections: [ "Enhanced Lightning Storm" ],
-		description: `{c_important}Lightning Storm{/c} has a {c_number}[{SF_8}*100|%|]{/c} chance to {c_important}Immobilize{/c} enemies hit for {c_number}{buffduration:IMMOBILIZE}{/c} seconds.`,
+		description: `Lightning Storm has a {#}% chance to Immobilize enemies hit for {#} seconds.`,
 		id: 39,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -468,7 +458,7 @@ druid["Spirit"] = {
 	["Raging Lightning Storm"]: {
 		baseSkill: "Lightning Storm",
 		connections: [ "Enhanced Lightning Storm" ],
-		description: `{c_important}Lightning Storm{/c} gains {c_number}1{/c} additional lightning strike.`,
+		description: `Lightning Storm gains 1 additional lightning strike.`,
 		id: 40,
 		maxPoints: 1,
 		x: 980.359,
@@ -476,7 +466,7 @@ druid["Spirit"] = {
 	},
 	["Heart of the Wild"]: {
 		connections: [ "Spirit", "Wild Impulses", "Abundance" ],
-		description: `Maximum Spirit is increased by {c_number}{SF_0}{/c}.`,
+		description: `Maximum Spirit is increased by {#}.`,
 		id: 42,
 		maxPoints: 3,
 		values: [ "" ],
@@ -485,7 +475,7 @@ druid["Spirit"] = {
 	},
 	["Wild Impulses"]: {
 		connections: [ "Heart of the Wild" ],
-		description: `Your {c_important}Core{/c} skills cost {c_number}x[{SF_0} * 100|%|]{/c} more Spirit but deal {c_number}x[{SF_1} * 100|%|]{/c} increased damage.`,
+		description: `Your Core skills cost x{#}% more Spirit but deal x{#}% increased damage.`,
 		id: 32,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -494,7 +484,7 @@ druid["Spirit"] = {
 	},
 	["Abundance"]: {
 		connections: [ "Heart of the Wild" ],
-		description: `{c_important}Basic{/c} skills generate {c_number}[{SF_1}*100|%|]{/c} more Spirit.`,
+		description: `Basic skills generate {#}% more Spirit.`,
 		id: 41,
 		maxPoints: 3,
 		values: [ "" ],
@@ -503,7 +493,7 @@ druid["Spirit"] = {
 	},
 	["Predatory Instinct"]: {
 		connections: [ "Spirit", "Iron Fur", "Digitigrade Gait" ],
-		description: `Critical Strike Chance against Close enemies is increased by {c_number}[{SF_1} * 100|%|]{/c}.`,
+		description: `Critical Strike Chance against Close enemies is increased by {#}%.`,
 		id: 136,
 		maxPoints: 3,
 		values: [ "" ],
@@ -512,9 +502,9 @@ druid["Spirit"] = {
 	},
 	["Iron Fur"]: {
 		connections: [ "Predatory Instinct" ],
-		description: `While in Werebear form, damage reduction is increased by {c_number}[{SF_2} * 100|%|]{/c}.
+		description: `While in Werebear form, damage reduction is increased by {#}%.
 
-This bonus persists for {c_number}{buffduration:BUFF_MITIGATION_TEMP}{/c} seconds after leaving Werebear form.`,
+This bonus persists for {#} seconds after leaving Werebear form.`,
 		id: 137,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -523,9 +513,9 @@ This bonus persists for {c_number}{buffduration:BUFF_MITIGATION_TEMP}{/c} second
 	},
 	["Digitigrade Gait"]: {
 		connections: [ "Predatory Instinct" ],
-		description: `While in Werewolf form, your Movement Speed is increased by {c_number}[{SF_2} * 100|%|]{/c}.
+		description: `While in Werewolf form, your Movement Speed is increased by {#}%.
 
-This bonus persists for {c_number}{buffduration:BUFF_SPEED_TEMP}{/c} seconds after leaving Werewolf form.`,
+This bonus persists for {#} seconds after leaving Werewolf form.`,
 		id: 138,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -537,9 +527,9 @@ This bonus persists for {c_number}{buffduration:BUFF_SPEED_TEMP}{/c} seconds aft
 druid["Defensive"] = {
 	["Earthen Bulwark"]: {
 		connections: [ "Defensive", "Enhanced Earthen Bulwark" ],
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Rocks surround you for {c_number}{buffduration:BUFF_SHIELD}{/c} seconds, granting a {c_important}Barrier{/c} that absorbs {c_number}[{SF_1}*100|%|]{/c} of your Base Life {c_number}({shield:BUFF_SHIELD}){/c} in damage.`,
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your Base Life ({#}) in damage.`,
 		id: 43,
 		maxPoints: 5,
 		values: [ "", "", "", "", "" ],
@@ -549,7 +539,7 @@ druid["Defensive"] = {
 	["Enhanced Earthen Bulwark"]: {
 		baseSkill: "Earthen Bulwark",
 		connections: [ "Earthen Bulwark", "Innate Earthen Bulwark", "Preserving Earthen Bulwark" ],
-		description: `{c_important}Earthen Bulwark{/c} makes you {c_important}Unstoppable{/c} while active.`,
+		description: `Earthen Bulwark makes you Unstoppable while active.`,
 		id: 44,
 		maxPoints: 1,
 		x: -614.835,
@@ -558,7 +548,7 @@ druid["Defensive"] = {
 	["Innate Earthen Bulwark"]: {
 		baseSkill: "Earthen Bulwark",
 		connections: [ "Enhanced Earthen Bulwark" ],
-		description: `Upon expiration, {c_important}Earthen Bulwark{/c} shatters, dealing {c_number}[{SF_2} * 100|%|]{/c} of the remaining {c_important}Barrier{/c} amount to surrounding enemies.`,
+		description: `Upon expiration, Earthen Bulwark shatters, dealing {#}% of the remaining Barrier amount to surrounding enemies.`,
 		id: 45,
 		maxPoints: 1,
 		values: [ "" ],
@@ -568,7 +558,7 @@ druid["Defensive"] = {
 	["Preserving Earthen Bulwark"]: {
 		baseSkill: "Earthen Bulwark",
 		connections: [ "Enhanced Earthen Bulwark" ],
-		description: `Casting {c_important}Earthen Bulwark{/c} grants {c_number}[{SF_10}*100|%|]{/c} Base Life {c_number}({fortified:MOD_FORTIFY}){/c} as {c_important}Fortify{/c}.`,
+		description: `Casting Earthen Bulwark grants {#}% Base Life ({#}) as Fortify.`,
 		id: 46,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -577,8 +567,8 @@ druid["Defensive"] = {
 	},
 	["Debilitating Roar"]: {
 		connections: [ "Defensive", "Enhanced Debilitating Roar" ],
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Nearby enemies by {c_number}[{SF_2} * 100|%|]{/c} for {c_number}{buffduration:BUFF_DAMAGE_DEALT_REDUCTION}{/c} seconds.`,
+		description: `Cooldown: {#}
+Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Nearby enemies by {#}% for {#} seconds.`,
 		id: 47,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -588,7 +578,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 	["Enhanced Debilitating Roar"]: {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Debilitating Roar", "Preserving Debilitating Roar", "Innate Debilitating Roar" ],
-		description: `{c_important}Debilitating Roar{/c} also {c_important}Fortifies{/c} you for {c_number}[{SF_10}*100|%|]{/c} Base Life {c_number}({fortified:MOD_FORTIFY}){/c}.`,
+		description: `Debilitating Roar also Fortifies you for {#}% Base Life ({#}).`,
 		id: 48,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -598,7 +588,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 	["Preserving Debilitating Roar"]: {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Enhanced Debilitating Roar" ],
-		description: `{c_important}Debilitating Roar{/c} also heals you for {c_number}[{SF_8}*100|%|]{/c} of your maximum Life each second for its duration.`,
+		description: `Debilitating Roar also heals you for {#}% of your maximum Life each second for its duration.`,
 		id: 49,
 		maxPoints: 1,
 		values: [ "" ],
@@ -608,7 +598,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 	["Innate Debilitating Roar"]: {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Enhanced Debilitating Roar" ],
-		description: `{c_important}Debilitating Roar{/c} also slows enemies by {c_number}[{SF_9}*100|%|]{/c} for its duration.`,
+		description: `Debilitating Roar also slows enemies by {#}% for its duration.`,
 		id: 50,
 		maxPoints: 1,
 		values: [ "" ],
@@ -617,7 +607,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 	},
 	["Ancestral Fortitude"]: {
 		connections: [ "Defensive", "Vigilance" ],
-		description: `Increase your non-physical resistances by {c_number}[{SF_1} * 100|%|]{/c}.`,
+		description: `Increase your non-physical resistances by {#}%.`,
 		id: 51,
 		maxPoints: 3,
 		values: [ "" ],
@@ -626,7 +616,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 	},
 	["Vigilance"]: {
 		connections: [ "Ancestral Fortitude" ],
-		description: `You take {c_number}[{SF_0} * 100|%|]{/c} reduced damage for {c_number}{buffduration:DAMAGE_REDUCTION}{/c} seconds after using a {c_important}Defensive{/c} skill.`,
+		description: `You take {#}% reduced damage for {#} seconds after using a Defensive skill.`,
 		id: 52,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -635,9 +625,9 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 	},
 	["Blood Howl"]: {
 		connections: [ "Defensive", "Enhanced Blood Howl" ],
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}{if:Mod.GrantSpirit}
-{c_label}Generate Spirit:{/c_label} {c_resource}{SF_2}{/c_resource}{/if}
-Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100|1%|]{/c} Life.`,
+		description: `Cooldown: {#}
+Generate Spirit: {#}
+Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		id: 53,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -647,7 +637,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 	["Enhanced Blood Howl"]: {
 		baseSkill: "Blood Howl",
 		connections: [ "Blood Howl", "Innate Blood Howl", "Preserving Blood Howl" ],
-		description: `Kills reduce the cooldown of {c_important}Blood Howl{/c} by {c_number}{SF_5}{/c} second.`,
+		description: `Kills reduce the cooldown of Blood Howl by {#} second.`,
 		id: 54,
 		maxPoints: 1,
 		values: [ "" ],
@@ -657,7 +647,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 	["Innate Blood Howl"]: {
 		baseSkill: "Blood Howl",
 		connections: [ "Enhanced Blood Howl" ],
-		description: `{c_important}Blood Howl{/c} also generates {c_number}{SF_2}{/c} Spirit.`,
+		description: `Blood Howl also generates {#} Spirit.`,
 		id: 55,
 		maxPoints: 1,
 		values: [ "" ],
@@ -667,7 +657,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 	["Preserving Blood Howl"]: {
 		baseSkill: "Blood Howl",
 		connections: [ "Enhanced Blood Howl" ],
-		description: `{c_important}Blood Howl{/c} also increases your Attack Speed by {c_number}[{SF_3}*100|%|]{/c} for {c_number}{buffduration:MOD_ATTACK_SPEED_BONUS}{/c} seconds.`,
+		description: `Blood Howl also increases your Attack Speed by {#}% for {#} seconds.`,
 		id: 56,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -676,12 +666,11 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 	},
 	["Cyclone Armor"]: {
 		connections: [ "Defensive", "Enhanced Cyclone Armor" ],
-		damageType: 0,
-		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}{c_label}Passive:{/c} Powerful winds surround you, granting {c_number}[{SF_0}*100|1%|]{/c} non-Physical damage reduction.  
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+Passive: Powerful winds surround you, granting {#}% non-Physical damage reduction.  
 
-{c_label}Active:{/c} The winds rapidly expand, Knocking Back enemies and dealing {c_number}{payload:KNOCKBACK}{/c} damage.`,
+Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.`,
 		id: 57,
 		maxPoints: 5,
 		values: [ "", "", "", "" ],
@@ -691,7 +680,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 	["Enhanced Cyclone Armor"]: {
 		baseSkill: "Cyclone Armor",
 		connections: [ "Cyclone Armor", "Preserving Cyclone Armor", "Innate Cyclone Armor" ],
-		description: `Enemies who are Knocked Back by {c_important}Cyclone Armor{/c} are also Slowed by {c_number}[{SF_8}*100|%|]{/c} for {c_number}{buffduration:MOD_SLOW}{/c} seconds.`,
+		description: `Enemies who are Knocked Back by Cyclone Armor are also Slowed by {#}% for {#} seconds.`,
 		id: 58,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -701,7 +690,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 	["Preserving Cyclone Armor"]: {
 		baseSkill: "Cyclone Armor",
 		connections: [ "Enhanced Cyclone Armor" ],
-		description: `Every {c_number}{SF_6}{/c} seconds, {c_important}Cyclone Armor{/c} intensifies, reducing the next instance of non-Physical damage by an additional {c_number}[{SF_5}*100|%|]{/c}.`,
+		description: `Every {#} seconds, Cyclone Armor intensifies, reducing the next instance of non-Physical damage by an additional {#}%.`,
 		id: 59,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -711,7 +700,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 	["Innate Cyclone Armor"]: {
 		baseSkill: "Cyclone Armor",
 		connections: [ "Enhanced Cyclone Armor" ],
-		description: `Enemies Knocked Back by {c_important}Cyclone Armor{/c} become {c_important}Vulnerable{/c} for {c_number}2{/c} seconds.`,
+		description: `Enemies Knocked Back by Cyclone Armor become Vulnerable for 2 seconds.`,
 		id: 60,
 		maxPoints: 1,
 		x: 126.12,
@@ -722,12 +711,11 @@ Shapeshift into a Werewolf and howl furiously, restoring {c_number}[{SF_0} * 100
 druid["Companion"] = {
 	["Ravens"]: {
 		connections: [ "Companion", "Enhanced Ravens" ],
-		damageType: 0,
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
-{/if}{if:Mod.PassiveAttacks}
-{c_label}Passive:{/c} {c_number}{SF_1}{/c} Raven{if:SF_21}s{/if} fly above you and periodically attack your enemies for {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage every {c_number}{SF_2}{/c} seconds.
-{/if}{c_label}Active{/c}: The target area is swarmed with ravens, dealing {c_number}{payload:POOL_TOOLTIP_DAMAGE}{/c} damage over {c_number}{SF_4}{/c} seconds.`,
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+
+Passive: {#} Ravens fly above you and periodically attack your enemies for {#}% damage every {#} seconds.
+Active: The target area is swarmed with ravens, dealing {#}% damage over {#} seconds.`,
 		id: 62,
 		maxPoints: 5,
 		values: [ "", "", "", "", "", "", "" ],
@@ -737,7 +725,7 @@ druid["Companion"] = {
 	["Enhanced Ravens"]: {
 		baseSkill: "Ravens",
 		connections: [ "Ravens", "Brutal Ravens", "Ferocious Ravens" ],
-		description: `{c_label}Passive:{/c} Ravens fly above you and periodically attack your enemies for {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage every {c_number}{SF_2}{/c} seconds.`,
+		description: `Passive: Ravens fly above you and periodically attack your enemies for {#}% damage every {#} seconds.`,
 		id: 63,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -747,7 +735,7 @@ druid["Companion"] = {
 	["Brutal Ravens"]: {
 		baseSkill: "Ravens",
 		connections: [ "Enhanced Ravens" ],
-		description: `{c_number}{SF_14}{/c} additional {c_important}Ravens{/c} appear when they periodically attack enemies.`,
+		description: `{#} additional Ravens appear when they periodically attack enemies.`,
 		id: 64,
 		maxPoints: 1,
 		values: [ "" ],
@@ -757,7 +745,7 @@ druid["Companion"] = {
 	["Ferocious Ravens"]: {
 		baseSkill: "Ravens",
 		connections: [ "Enhanced Ravens" ],
-		description: `Enemies inside the swarm of {c_important}Ravens{/c} when it is activated become {c_important}Vulnerable{/c} for {c_number}{SF_11}{/c} seconds.`,
+		description: `Enemies inside the swarm of Ravens when it is activated become Vulnerable for {#} seconds.`,
 		id: 65,
 		maxPoints: 1,
 		values: [ "" ],
@@ -766,11 +754,11 @@ druid["Companion"] = {
 	},
 	["Call of the Wild"]: {
 		connections: [ "Companion" ],
-		description: `You deal {c_number}x[{SF_1}  * 100|%|]{/c} increased Critical Strike Damage against your {c_important}Wolves'{/c} focus target.
+		description: `You deal x{#}% increased Critical Strike Damage against your Wolves' focus target.
 
-{c_important}Raven{/c} attacks deal {c_number}x[{SF_7} * 100|%|]{/c} increased damage to {c_important}Vulnerable{/c} enemies.
+Raven attacks deal x{#}% increased damage to Vulnerable enemies.
 
-{c_important}Vine Creeper's{/c} poison duration is increased by {c_number}[{SF_5} * 100|%|]{/c}.`,
+Vine Creeper's poison duration is increased by {#}%.`,
 		id: 66,
 		maxPoints: 3,
 		values: [ "", "", "" ],
@@ -779,12 +767,11 @@ druid["Companion"] = {
 	},
 	["Vine Creeper"]: {
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
-		damageType: 4,
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:19}%{/c}
-{/if}{c_label}Passive:{/c} A vine creeper periodically emerges from the ground every {c_number}{SF_0}{/c} seconds and poisons an enemy in the area for {c_number}{dot:TOOLTIP_PET_POISON}{/c} damage over {c_number}{buffduration:TOOLTIP_PET_POISON}{/c} seconds.
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+Passive: A vine creeper periodically emerges from the ground every {#} seconds and poisons an enemy in the area for {#}% damage over {#} seconds.
 
-{c_label}Active:{/c} Vines strangle all surrounding enemies, Immobilizing them for {c_number}{buffduration:BUFF_STRANGLE}{/c} seconds and poisoning them for {c_number}{dot:ACTIVE_POISON}{/c} damage over {c_number}{buffduration:ACTIVE_POISON}{/c} seconds.`,
+Active: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.`,
 		id: 67,
 		maxPoints: 5,
 		values: [ "", "", "", "", "", "", "", "" ],
@@ -794,7 +781,7 @@ druid["Companion"] = {
 	["Enhanced Vine Creeper"]: {
 		baseSkill: "Vine Creeper",
 		connections: [ "Vine Creeper", "Ferocious Vine Creeper", "Brutal Vine Creeper" ],
-		description: `{c_important}Vine Creeper's{/c} Immobilize duration is increased by {c_number}{SF_13}{/c} second.`,
+		description: `Vine Creeper's Immobilize duration is increased by {#} second.`,
 		id: 68,
 		maxPoints: 1,
 		values: [ "" ],
@@ -804,7 +791,7 @@ druid["Companion"] = {
 	["Ferocious Vine Creeper"]: {
 		baseSkill: "Vine Creeper",
 		connections: [ "Enhanced Vine Creeper" ],
-		description: `{c_important}Vine Creeper's{/c} active poison duration is increased by {c_number}{SF_14}{/c} seconds.`,
+		description: `Vine Creeper's active poison duration is increased by {#} seconds.`,
 		id: 69,
 		maxPoints: 1,
 		values: [ "" ],
@@ -814,7 +801,7 @@ druid["Companion"] = {
 	["Brutal Vine Creeper"]: {
 		baseSkill: "Vine Creeper",
 		connections: [ "Enhanced Vine Creeper" ],
-		description: `Your chance to Critically Strike is increased by {c_number}+[{SF_16}*100|%|]{/c} against enemies strangled by {c_important}Vine Creeper{/c}.`,
+		description: `Your chance to Critically Strike is increased by +{#}% against enemies strangled by Vine Creeper.`,
 		id: 70,
 		maxPoints: 1,
 		values: [ "" ],
@@ -823,12 +810,11 @@ druid["Companion"] = {
 	},
 	["Wolves"]: {
 		connections: [ "Companion", "Enhanced Wolf Pack" ],
-		damageType: 0,
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:16}%{/c}
-{/if}{c_label}Passive:{/c} Summon {c_number}{SF_0}{/c} wolf companions that bite enemies for {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage.
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+Passive: Summon {#} wolf companions that bite enemies for {#}% damage.
 
-{c_label}Active{/c}: Direct the wolves to focus an enemy, leaping to them and striking for {c_number}{payload:TOOLTIP_DAMAGE_LEAP}{/c} damage.`,
+Active: Direct the wolves to focus an enemy, leaping to them and striking for {#}% damage.`,
 		id: 71,
 		maxPoints: 5,
 		values: [ "", "", "", "", "" ],
@@ -838,7 +824,7 @@ druid["Companion"] = {
 	["Enhanced Wolf Pack"]: {
 		baseSkill: "Wolves",
 		connections: [ "Wolves", "Ferocious Wolf Pack", "Brutal Wolf Pack" ],
-		description: `{c_important}Wolves{/c} deal {c_number}x[{SF_13}*100|%|]{/c} increased damage to Immobilized, Stunned, Slowed, or poisoned enemies.`,
+		description: `Wolves deal x{#}% increased damage to Immobilized, Stunned, Slowed, or poisoned enemies.`,
 		id: 72,
 		maxPoints: 1,
 		values: [ "" ],
@@ -848,7 +834,7 @@ druid["Companion"] = {
 	["Ferocious Wolf Pack"]: {
 		baseSkill: "Wolves",
 		connections: [ "Enhanced Wolf Pack" ],
-		description: `You deal {c_number}x[{SF_12}*100|%|]{/c} increased damage to your {c_important}Wolves'{/c} focus target.`,
+		description: `You deal x{#}% increased damage to your Wolves' focus target.`,
 		id: 73,
 		maxPoints: 1,
 		values: [ "" ],
@@ -858,7 +844,7 @@ druid["Companion"] = {
 	["Brutal Wolf Pack"]: {
 		baseSkill: "Wolves",
 		connections: [ "Enhanced Wolf Pack" ],
-		description: `Your {c_important}Wolves'{/c} first attack against a focused enemy makes them {c_important}Vulnerable{/c} for {c_number}{SF_11}{/c} seconds.`,
+		description: `Your Wolves' first attack against a focused enemy makes them Vulnerable for {#} seconds.`,
 		id: 74,
 		maxPoints: 1,
 		values: [ "" ],
@@ -867,7 +853,7 @@ druid["Companion"] = {
 	},
 	["Nature's Reach"]: {
 		connections: [ "Companion" ],
-		description: `Deal {c_number}x[{SF_0} * 100|%|]{/c} increased damage to Distant enemies.  Double this bonus if they are also Slowed, Stunned, Immobilized, or Knocked Back.`,
+		description: `Deal x{#}% increased damage to Distant enemies.  Double this bonus if they are also Slowed, Stunned, Immobilized, or Knocked Back.`,
 		id: 75,
 		maxPoints: 3,
 		values: [ "" ],
@@ -876,7 +862,7 @@ druid["Companion"] = {
 	},
 	["Clarity"]: {
 		connections: [ "Companion" ],
-		description: `Gain {c_number}{SF_0}{/c} Spirit when transforming into Human form.`,
+		description: `Gain {#} Spirit when transforming into Human form.`,
 		id: 76,
 		maxPoints: 3,
 		values: [ "" ],
@@ -888,7 +874,7 @@ druid["Companion"] = {
 druid["Wrath"] = {
 	["Elemental Exposure"]: {
 		connections: [ "Charged Atmosphere", "Wrath", "Endless Tempest" ],
-		description: `{c_label}Lucky Hit:{/c} Your {c_important}Storm{/c} skills have up to a {c_number}{SF_0}%{/c} chance to make enemies {c_important}Vulnerable{/c} for {c_number}[{SF_1}|1|]{/c} seconds.`,
+		description: `Lucky Hit: Your Storm skills have up to a {#}% chance to make enemies Vulnerable for {#} seconds.`,
 		id: 80,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -897,8 +883,7 @@ druid["Wrath"] = {
 	},
 	["Charged Atmosphere"]: {
 		connections: [ "Elemental Exposure", "Electric Shock", "Bad Omen" ],
-		damageType: 2,
-		description: `Every {c_number}{SF_0}{/c} seconds, a {c_important}Lightning Strike{/c} hits a Nearby enemy dealing {c_number}{payload:DAMAGE_TOOLTIP}{/c} damage.`,
+		description: `Every {#} seconds, a Lightning Strike hits a Nearby enemy dealing {#}% damage.`,
 		id: 81,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -907,9 +892,9 @@ druid["Wrath"] = {
 	},
 	["Electric Shock"]: {
 		connections: [ "Charged Atmosphere", "Bad Omen" ],
-		description: `{c_label}Lucky Hit:{/c} Dealing Lightning damage to enemies has a {c_number}{SF_1}%{/c} chance to Immobilize them for {c_number}{buffduration:BUFF_IMMOBILIZE}{/c} seconds.
+		description: `Lucky Hit: Dealing Lightning damage to enemies has a {#}% chance to Immobilize them for {#} seconds.
 
-If the target is already Immobilized, the Lightning damage dealt to them is increased by {c_number}x[{SF_3} * 100|%|]{/c} instead.`,
+If the target is already Immobilized, the Lightning damage dealt to them is increased by x{#}% instead.`,
 		id: 82,
 		maxPoints: 3,
 		values: [ "", "", "" ],
@@ -918,8 +903,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Bad Omen"]: {
 		connections: [ "Charged Atmosphere", "Electric Shock", "Endless Tempest" ],
-		damageType: 2,
-		description: `{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a {c_important}Lightning Strike{/c} also hits dealing {c_number}{payload:DAMAGE_TOOLTIP_ONLY}{/c} damage.`,
+		description: `Lucky Hit: Up to a {#}% chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a Lightning Strike also hits dealing {#}% damage.`,
 		id: 83,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -928,7 +912,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Endless Tempest"]: {
 		connections: [ "Elemental Exposure", "Bad Omen" ],
-		description: `Increase the duration of {c_important}Hurricane{/c} and {c_important}Cataclysm{/c} by {c_number}[{SF_1} * 100|%|]{/c}.`,
+		description: `Increase the duration of Hurricane and Cataclysm by {#}%.`,
 		id: 84,
 		maxPoints: 3,
 		values: [ "" ],
@@ -937,10 +921,9 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Boulder"]: {
 		connections: [ "Wrath", "Enhanced Boulder" ],
-		damageType: 0,
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {c_number}{payload:IMPACT}{/c} damage with each hit.`,
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#}% damage with each hit.`,
 		id: 85,
 		maxPoints: 5,
 		values: [ "", "", "" ],
@@ -950,7 +933,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	["Enhanced Boulder"]: {
 		baseSkill: "Boulder",
 		connections: [ "Boulder", "Natural Boulder", "Savage Boulder" ],
-		description: `Enemies are slowed by {c_number}[{SF_22}*100|%|]{/c} for {c_number}{buffduration:BUFF_MOD_SLOW}{/c} seconds after being hit with {c_important}Boulder{/c}.`,
+		description: `Enemies are slowed by {#}% for {#} seconds after being hit with Boulder.`,
 		id: 86,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -960,7 +943,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	["Natural Boulder"]: {
 		baseSkill: "Boulder",
 		connections: [ "Enhanced Boulder" ],
-		description: `Your {c_important}Basic{/c} skills grant {c_number}[{SF_18}*100|%|]{/c} bonus Spirit while damaging enemies who are Knocked Back by {c_important}Boulder{/c}.`,
+		description: `Your Basic skills grant {#}% bonus Spirit while damaging enemies who are Knocked Back by Boulder.`,
 		id: 87,
 		maxPoints: 1,
 		values: [ "" ],
@@ -970,7 +953,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	["Savage Boulder"]: {
 		baseSkill: "Boulder",
 		connections: [ "Enhanced Boulder" ],
-		description: `The first enemy damaged by {c_important}Boulder{/c} is made {c_important}Vulnerable{/c} for {c_number}{SF_19}{/c} seconds.`,
+		description: `The first enemy damaged by Boulder is made Vulnerable for {#} seconds.`,
 		id: 88,
 		maxPoints: 1,
 		values: [ "" ],
@@ -979,13 +962,12 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	["Trample"]: {
 		connections: [ "Wrath", "Enhanced Trample" ],
-		damageType: 0,
-		description: `{if:Mod.Spirit}{c_label}Generates Spirit:{/c} {c_resource}{SF_11}{/c}
-{/if}{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}
-{/if}Shapeshift into a Werebear and charge forward, dealing {c_number}{payload:PAYLOAD_DAMAGE}{/c} damage and Knocking Back enemies.
+		description: `Generates Spirit: {#}
+Cooldown: {#}
+Lucky Hit Chance: {#}%
+Shapeshift into a Werebear and charge forward, dealing {#}% damage and Knocking Back enemies.
 
-Enemies who are Knocked Back into terrain take an additional {c_number}{payload:TERRAIN_IMPACT_DAMAGE}{/c} damage and are stunned for {c_number}{buffduration:TERRAIN_IMPACT}{/c} seconds.`,
+Enemies who are Knocked Back into terrain take an additional {#}% damage and are stunned for {#} seconds.`,
 		id: 89,
 		maxPoints: 5,
 		values: [ "", "", "", "", "", "" ],
@@ -995,7 +977,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	["Enhanced Trample"]: {
 		baseSkill: "Trample",
 		connections: [ "Trample", "Natural Trample", "Savage Trample" ],
-		description: `You are {c_important}Unstoppable{/c} during {c_important}Trample{/c}.`,
+		description: `You are Unstoppable during Trample.`,
 		id: 90,
 		maxPoints: 1,
 		x: -483,
@@ -1004,7 +986,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	["Natural Trample"]: {
 		baseSkill: "Trample",
 		connections: [ "Enhanced Trample" ],
-		description: `Casting {c_important}Trample{/c} grants {c_number}[{SF_10}*100|%|]{/c} Base Life {c_number}({fortified:MOD_FORTIFY}){/c} as {c_important}Fortify{/c}.`,
+		description: `Casting Trample grants {#}% Base Life ({#}) as Fortify.`,
 		id: 91,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -1014,7 +996,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	["Savage Trample"]: {
 		baseSkill: "Trample",
 		connections: [ "Enhanced Trample" ],
-		description: `Casting {c_important}Trample{/c} grants {c_number}{SF_11}{/c} Spirit.`,
+		description: `Casting Trample grants {#} Spirit.`,
 		id: 92,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1023,7 +1005,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	},
 	["Crushing Earth"]: {
 		connections: [ "Wrath", "Safeguard", "Stone Guard" ],
-		description: `{c_important}Earth{/c} skills deal {c_number}x[{SF_1} * 100|%|]{/c} increased damage to Slowed, Stunned, Immobilized or Knocked Back enemies.`,
+		description: `Earth skills deal x{#}% increased damage to Slowed, Stunned, Immobilized or Knocked Back enemies.`,
 		id: 93,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1032,7 +1014,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	},
 	["Safeguard"]: {
 		connections: [ "Crushing Earth" ],
-		description: `Critical Strikes with {c_important}Earth{/c} skills {c_important}Fortify{/c} you for {c_number}[{SF_0}*100|%|]{/c} Base Life {c_number}({fortified:PAYLOAD_FORTIFY}){/c}.`,
+		description: `Critical Strikes with Earth skills Fortify you for {#}% Base Life ({#}).`,
 		id: 94,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1041,7 +1023,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	},
 	["Stone Guard"]: {
 		connections: [ "Crushing Earth" ],
-		description: `While {c_important}Fortified{/c} over [{SF_1}*100|%|] of your Maximum Life, your {c_important}Earth{/c} skills deal  {c_number}x[{SF_0} * 100|%|]{/c} increased damage.`,
+		description: `While Fortified over {#}% of your Maximum Life, your Earth skills deal  x{#}% increased damage.`,
 		id: 95,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1050,10 +1032,9 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	},
 	["Hurricane"]: {
 		connections: [ "Wrath", "Enhanced Hurricane" ],
-		damageType: 0,
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
-{/if}Form a hurricane around you that deals {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage to surrounding enemies over {c_number}{SF_4}{/c} seconds.`,
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+Form a hurricane around you that deals {#}% damage to surrounding enemies over {#} seconds.`,
 		id: 99,
 		maxPoints: 5,
 		values: [ "", "", "", "" ],
@@ -1063,7 +1044,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	["Enhanced Hurricane"]: {
 		baseSkill: "Hurricane",
 		connections: [ "Hurricane", "Natural Hurricane", "Savage Hurricane" ],
-		description: `Enemies who are damaged by {c_important}Hurricane{/c} are Slowed by {c_number}[{SF_12}*100|%|]{/c} for {c_number}{buffduration:MOD_SLOW}{/c} seconds.`,
+		description: `Enemies who are damaged by Hurricane are Slowed by {#}% for {#} seconds.`,
 		id: 100,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -1073,7 +1054,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	["Natural Hurricane"]: {
 		baseSkill: "Hurricane",
 		connections: [ "Enhanced Hurricane" ],
-		description: `{c_important}Hurricane{/c} has a {c_number}[{SF_9} * 100|%|]{/c} chance to make enemies {c_important}Vulnerable{/c} for {c_number}{SF_10}{/c} seconds.`,
+		description: `Hurricane has a {#}% chance to make enemies Vulnerable for {#} seconds.`,
 		id: 101,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -1083,7 +1064,7 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	["Savage Hurricane"]: {
 		baseSkill: "Hurricane",
 		connections: [ "Enhanced Hurricane" ],
-		description: `Enemies who are in {c_important}Hurricane's{/c} radius have their damage reduced by {c_number}[{SF_11}*100|%|]{/c}.`,
+		description: `Enemies who are in Hurricane's radius have their damage reduced by {#}%.`,
 		id: 102,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1092,12 +1073,11 @@ Enemies who are Knocked Back into terrain take an additional {c_number}{payload:
 	},
 	["Rabies"]: {
 		connections: [ "Wrath", "Enhanced Rabies" ],
-		damageType: 4,
-		description: `{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:18}%{/c}
-{/if}Shapeshift into a Werewolf and perform an infectious bite on the target dealing {c_number}{PAYLOAD:INITIAL_DAMAGE}{/c} damage, and an additional {c_number}{dot:BUFF_OHNORABIES}{/c} damage over {c_number}{buffduration:BUFF_OHNORABIES}{/c} seconds. 
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+Shapeshift into a Werewolf and perform an infectious bite on the target dealing {#} damage, and an additional {#}% damage over {#} seconds. 
 
-Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
+Infected enemies spread Rabies to other surrounding targets.`,
 		id: 103,
 		maxPoints: 5,
 		values: [ "", "", "", "", "" ],
@@ -1107,7 +1087,7 @@ Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
 	["Enhanced Rabies"]: {
 		baseSkill: "Rabies",
 		connections: [ "Rabies", "Natural Rabies", "Savage Rabies" ],
-		description: `Once {c_important}Rabies{/c} infects {c_number}{SF_14}{/c} targets, it deals {c_number}x[{SF_15}*100|%|]{/c} increased Poison damage against all targets.`,
+		description: `Once Rabies infects {#} targets, it deals x{#}% increased Poison damage against all targets.`,
 		id: 104,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -1117,7 +1097,7 @@ Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
 	["Natural Rabies"]: {
 		baseSkill: "Rabies",
 		connections: [ "Enhanced Rabies" ],
-		description: `The initial bite of {c_important}Rabies{/c} heals you for {c_number}[{SF_3}*100|%|]{/c} of your maximum Life.`,
+		description: `The initial bite of Rabies heals you for {#}% of your maximum Life.`,
 		id: 105,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1127,7 +1107,7 @@ Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
 	["Savage Rabies"]: {
 		baseSkill: "Rabies",
 		connections: [ "Enhanced Rabies" ],
-		description: `The initial bite of {c_important}Rabies{/c} deals {c_number}x[{SF_4}*100|%|]{/c} increased damage against enemies who are Immobilized or Stunned.`,
+		description: `The initial bite of Rabies deals x{#}% increased damage against enemies who are Immobilized or Stunned.`,
 		id: 106,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1136,7 +1116,7 @@ Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
 	},
 	["Mending"]: {
 		connections: [ "Wrath", "Provocation" ],
-		description: `While in Werebear form, you receive {c_number}[{SF_0} * 100|%|]{/c} additional healing from all sources.`,
+		description: `While in Werebear form, you receive {#}% additional healing from all sources.`,
 		id: 97,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1145,7 +1125,7 @@ Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
 	},
 	["Provocation"]: {
 		connections: [ "Mending" ],
-		description: `Your next {c_important}Werebear{/c} skill every {c_number}{SF_0}{/c} seconds is guaranteed to {c_important}Overpower{/c}.`,
+		description: `Your next Werebear skill every {#} seconds is guaranteed to Overpower.`,
 		id: 98,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1154,7 +1134,7 @@ Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
 	},
 	["Toxic Claws"]: {
 		connections: [ "Wrath", "Neurotoxin" ],
-		description: `Critical strikes with {c_important}Werewolf{/c} skills deal {c_number}[{SF_0} * 100|%|]{/c} of their base damage as Poison damage over {buffduration:DEBUFF_POISON} seconds.`,
+		description: `Critical strikes with Werewolf skills deal {#}% of their base damage as Poison damage over {#} seconds.`,
 		id: 78,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1163,7 +1143,7 @@ Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
 	},
 	["Neurotoxin"]: {
 		connections: [ "Toxic Claws" ],
-		description: `Poisoned enemies are slowed by {c_number}[{SF_0}*100|%|]{/c}.`,
+		description: `Poisoned enemies are slowed by {#}%.`,
 		id: 79,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1175,12 +1155,12 @@ Infected enemies spread {c_important}Rabies{/c} to other surrounding targets.`,
 druid["Ultimate"] = {
 	["Grizzly Rage"]: {
 		connections: [ "Ultimate", "Prime Grizzly Rage" ],
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-Shapeshift into {if:Mod.Upgrade1}an {c_important}Unstoppable{/c}{else}a{/if} Dire Werebear for {c_number}{buffduration:BUFF_MAIN_BEAR}{/c} seconds gaining {c_number}x[{SF_10}*100|%|]{/c} bonus damage and {c_number}x[{SF_11}*100|%|]{/c} damage reduction{/if}. Damage bonus is increased by {c_number}+[{SF_15}*100|%|]{/c} each second while in this form.
+		description: `Cooldown: {#}
+Shapeshift into a Dire Werebear for {#} seconds gaining x{#}% bonus damage and x{#}% damage reduction. Damage bonus is increased by +{#}% each second while in this form.
 
-Kills extend the duration by {c_number}{SF_16}{/c} second up to {c_number}+{SF_17}{/c} additional seconds.{if:Mod.DELETEME}
+Kills extend the duration by {#} second up to +{#} additional seconds.
 
-Casting {c_important}Grizzly Rage{/c} causes enemies in the area to take {c_number}{payload:TOOLTIP_MOD_CAST_IMPACT}{/c} damage and be Slowed by {c_number}[{SF_8}*100|%|]{/c} for {c_number}{buffduration:CAST_SLOW}{/c} seconds.{/if}`,
+Casting Grizzly Rage causes enemies in the area to take {#}% damage and be Slowed by {#}% for {#} seconds.`,
 		id: 107,
 		maxPoints: 1,
 		values: [ "", "", "", "", "", "", "", "", "", "" ],
@@ -1190,7 +1170,7 @@ Casting {c_important}Grizzly Rage{/c} causes enemies in the area to take {c_numb
 	["Prime Grizzly Rage"]: {
 		baseSkill: "Grizzly Rage",
 		connections: [ "Supreme Grizzly Rage", "Grizzly Rage" ],
-		description: `You are {c_important}Unstoppable{/c} while {c_important}Grizzly Rage{/c} is active.`,
+		description: `You are Unstoppable while Grizzly Rage is active.`,
 		id: 108,
 		maxPoints: 1,
 		x: 819.815,
@@ -1199,7 +1179,7 @@ Casting {c_important}Grizzly Rage{/c} causes enemies in the area to take {c_numb
 	["Supreme Grizzly Rage"]: {
 		baseSkill: "Grizzly Rage",
 		connections: [ "Prime Grizzly Rage" ],
-		description: `Gain {c_number}[{SF_2}*100|%|]{/c} Base Life {c_number}({fortified:MOD_2_FORTIFY_PER_SECOND}){/c} as {c_important}Fortify{/c} per second while {c_important}Grizzly Rage{/c} is active.`,
+		description: `Gain {#}% Base Life ({#}) as Fortify per second while Grizzly Rage is active.`,
 		id: 109,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -1208,8 +1188,8 @@ Casting {c_important}Grizzly Rage{/c} causes enemies in the area to take {c_numb
 	},
 	["Petrify"]: {
 		connections: [ "Ultimate", "Prime Petrify" ],
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRIFIED}{/c} seconds. You deal {c_number}x[{SF_2}*100|%|]{/c} increased Critical Strike Damage to Petrified enemies.`,
+		description: `Cooldown: {#}
+Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increased Critical Strike Damage to Petrified enemies.`,
 		id: 110,
 		maxPoints: 1,
 		values: [ "", "", "" ],
@@ -1219,7 +1199,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	["Prime Petrify"]: {
 		baseSkill: "Petrify",
 		connections: [ "Supreme Petrify", "Petrify" ],
-		description: `{c_important}Petrify's{/c} duration is increased by {c_number}{SF_6}{/c} second.`,
+		description: `Petrify's duration is increased by {#} second.`,
 		id: 111,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1229,7 +1209,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	["Supreme Petrify"]: {
 		baseSkill: "Petrify",
 		connections: [ "Prime Petrify" ],
-		description: `Killing a {c_important}Petrified{/c} enemy grants {c_number}{SF_5}{/c} Spirit.`,
+		description: `Killing a Petrified enemy grants {#} Spirit.`,
 		id: 112,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1238,7 +1218,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Defensive Posture"]: {
 		connections: [ "Ultimate", "Thick Hide", "Nature's Resolve" ],
-		description: `Increases the amount of {c_important}Fortify{/c} you gain from all sources by {c_number}[{SF_0} * 100|%|]{/c}.`,
+		description: `Increases the amount of Fortify you gain from all sources by {#}%.`,
 		id: 113,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1247,7 +1227,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Thick Hide"]: {
 		connections: [ "Unrestrained", "Defensive Posture" ],
-		description: `Whenever you are Stunned, Immobilized, or Knocked Down, {c_important}Fortify{/c} for {c_number}[{SF_0}*100|%|]{/c} Base Life {c_number}({fortified:PAYLOAD_FORTIFY}){/c}.`,
+		description: `Whenever you are Stunned, Immobilized, or Knocked Down, Fortify for {#}% Base Life ({#}).`,
 		id: 114,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1256,7 +1236,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Unrestrained"]: {
 		connections: [ "Thick Hide", "Nature's Resolve" ],
-		description: `Reduce the duration of control impairing effects by {c_number}[{SF_0} * 100|%|]{/c}.  Triple this effect while you are {c_important}Fortified{/c} for over {c_number}[{SF_2}*100|%|]{/c} of your maximum Life.`,
+		description: `Reduce the duration of control impairing effects by {#}%.  Triple this effect while you are Fortified for over {#}% of your maximum Life.`,
 		id: 115,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1265,7 +1245,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Nature's Resolve"]: {
 		connections: [ "Unrestrained", "Defensive Posture" ],
-		description: `{c_number}[{SF_0}*100|%|]{/c} chance when struck to {c_important}Fortify{/c} you for {c_number}[{SF_1}*100|%|]{/c} Base Life {c_number}({Fortified:FORTIFY_HEALTH}){/c}.`,
+		description: `{#}% chance when struck to Fortify you for {#}% Base Life ({#}).`,
 		id: 116,
 		maxPoints: 3,
 		values: [ "", "", "" ],
@@ -1274,7 +1254,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Quickshift"]: {
 		connections: [ "Ultimate", "Natural Fortitude", "Heightened Senses" ],
-		description: `When a {c_important}Shapeshifting{/c} skill transforms you into a different form, it deals {c_number}x[{SF_1} * 100|%|]{/c} increased damage.`,
+		description: `When a Shapeshifting skill transforms you into a different form, it deals x{#}% increased damage.`,
 		id: 117,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1283,7 +1263,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Natural Fortitude"]: {
 		connections: [ "Quickshift" ],
-		description: `Shapeshifting {c_important}Fortifies{/c} you for {c_number}[{SF_1}*100|%|]{/c} Base Life {c_number}({fortified:FORTIFY_CASTER}){/c}.`,
+		description: `Shapeshifting Fortifies you for {#}% Base Life ({#}).`,
 		id: 118,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1292,7 +1272,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Heightened Senses"]: {
 		connections: [ "Quickshift" ],
-		description: `Upon shapeshifting into a Werewolf or Werebear, gain {c_number}[{SF_0} * 100|%|]{/c} damage reduction against Elites for {c_number}{buffduration:BUFF_DAMAGE_REDUCTION}{/c} seconds.`,
+		description: `Upon shapeshifting into a Werewolf or Werebear, gain {#}% damage reduction against Elites for {#} seconds.`,
 		id: 119,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1301,10 +1281,9 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Lacerate"]: {
 		connections: [ "Ultimate", "Prime Lacerate" ],
-		damageType: 0,
-		description: `{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}|%|]{/c}
-{/if}Shapeshift into a Werewolf, become {c_important}Immune{/c} and quickly dash {c_number}{SF_6}{/c} times between enemies in the area dealing up to {c_number}{PAYLOAD:TOOLTIP_DAMAGE}{/c} damage.`,
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+Shapeshift into a Werewolf, become Immune and quickly dash {#} times between enemies in the area dealing up to {#} damage.`,
 		id: 120,
 		maxPoints: 1,
 		values: [ "", "", "", "" ],
@@ -1314,7 +1293,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	["Prime Lacerate"]: {
 		baseSkill: "Lacerate",
 		connections: [ "Supreme Lacerate", "Lacerate" ],
-		description: `Each time {c_important}Lacerate{/c} deals a Critical Strike, heal for {c_number}[{SF_14}*100|%|]{/c} of your maximum Life.`,
+		description: `Each time Lacerate deals a Critical Strike, heal for {#}% of your maximum Life.`,
 		id: 121,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1324,7 +1303,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	["Supreme Lacerate"]: {
 		baseSkill: "Lacerate",
 		connections: [ "Prime Lacerate" ],
-		description: `{c_important}Lacerate's{/c} final strike deals {c_number}x[{SF_15}*100|%|]{/c} increased damage.`,
+		description: `Lacerate's final strike deals x{#}% increased damage.`,
 		id: 122,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1333,10 +1312,9 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Cataclysm"]: {
 		connections: [ "Ultimate", "Prime Cataclysm" ],
-		damageType: 2,
-		description: `{c_label}Cooldown: {/c}{c_resource}[{Cooldown Time}|1|]{/c}
-{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:28}%{/c}
-{/if}A massive storm follows you for {c_number}{buffduration:TORNADO_SPAWNING}{/c} seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing {c_number}{payload:LIGHTNING_STRIKE}{/c} damage.`,
+		description: `Cooldown: {#}
+Lucky Hit Chance: {#}%
+A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing {#}% damage.`,
 		id: 123,
 		maxPoints: 1,
 		values: [ "", "", "", "" ],
@@ -1346,7 +1324,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	["Prime Cataclysm"]: {
 		baseSkill: "Cataclysm",
 		connections: [ "Supreme Cataclysm", "Cataclysm" ],
-		description: `{c_important}Cataclysm's{/c} duration is increased by {c_number}{SF_23}{/c} seconds.`,
+		description: `Cataclysm's duration is increased by {#} seconds.`,
 		id: 124,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1356,7 +1334,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	["Supreme Cataclysm"]: {
 		baseSkill: "Cataclysm",
 		connections: [ "Prime Cataclysm" ],
-		description: `Lightning strikes from {c_important}Cataclysm{/c} make enemies {c_important}Vulnerable{/c} for {c_number}2{/c} seconds.`,
+		description: `Lightning strikes from Cataclysm make enemies Vulnerable for 2 seconds.`,
 		id: 125,
 		maxPoints: 1,
 		x: -819.245,
@@ -1364,7 +1342,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Defiance"]: {
 		connections: [ "Ultimate", "Circle of Life", "Natural Disaster" ],
-		description: `{c_important}Nature Magic{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to Elites.`,
+		description: `Nature Magic skills deal x{#}% increased damage to Elites.`,
 		id: 126,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1373,7 +1351,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Circle of Life"]: {
 		connections: [ "Defiance", "Resonance" ],
-		description: `{c_important}Nature Magic{/c} skills that consume Spirit restore {c_number}[{SF_1} * 100|%|]{/c} of your maximum Life.`,
+		description: `Nature Magic skills that consume Spirit restore {#}% of your maximum Life.`,
 		id: 127,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1382,7 +1360,7 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Resonance"]: {
 		connections: [ "Natural Disaster", "Circle of Life" ],
-		description: `{c_important}Nature Magic{/c} skills deal {c_number}x[{SF_1} * 100|%|]{/c} increased damage. Triple this bonus if an {c_important}Earth{/c} skill is the next skill cast after a {c_important}Storm{/c} skill, or a  {c_important}Storm{/c} skill is the next skill cast after an  {c_important}Earth{/c} skill.`,
+		description: `Nature Magic skills deal x{#}% increased damage. Triple this bonus if an Earth skill is the next skill cast after a Storm skill, or a  Storm skill is the next skill cast after an  Earth skill.`,
 		id: 128,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1391,9 +1369,9 @@ Petrify all Nearby enemies, Stunning them for {c_number}{buffduration:BUFF_PETRI
 	},
 	["Natural Disaster"]: {
 		connections: [ "Defiance", "Resonance" ],
-		description: `Your {c_important}Earth{/c} skills deal {c_number}x[{SF_1}*100|%|]{/c} increased damage to {c_important}Vulnerable{/c} enemies.
+		description: `Your Earth skills deal x{#}% increased damage to Vulnerable enemies.
 
-Your {c_important}Storm{/c} skills deal {c_number}x[{SF_4}*100|%|]{/c} increased damage to enemies that are Stunned, Immobilized, or Knocked Back.`,
+Your Storm skills deal x{#}% increased damage to enemies that are Stunned, Immobilized, or Knocked Back.`,
 		id: 129,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1405,9 +1383,9 @@ Your {c_important}Storm{/c} skills deal {c_number}x[{SF_4}*100|%|]{/c} increased
 druid["Capstone"] = {
 	["Nature's Fury"]: {
 		connections: [ "Capstone" ],
-		description: `Casting an {c_important}Earth{/c} skill has a {c_number}{SF_0}%{/c} chance to trigger a free {c_important}Storm{/c} skill of the same category. 
+		description: `Casting an Earth skill has a {#}% chance to trigger a free Storm skill of the same category. 
 
-In addition, casting a {c_important}Storm{/c} skill has a {c_number}{SF_0}%{/c} chance to trigger a free {c_important}Earth{/c} skill of the same category.`,
+In addition, casting a Storm skill has a {#}% chance to trigger a free Earth skill of the same category.`,
 		id: 130,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -1416,11 +1394,11 @@ In addition, casting a {c_important}Storm{/c} skill has a {c_number}{SF_0}%{/c} 
 	},
 	["Earthen Might"]: {
 		connections: [ "Capstone" ],
-		description: `{c_label}Lucky Hit:{/c} Damaging enemies with {c_important}Earth{/c} skills has up to a {c_number}{SF_0}%{/c} chance to grant Earthen Might.
+		description: `Lucky Hit: Damaging enemies with Earth skills has up to a {#}% chance to grant Earthen Might.
 
-This chance is increased by {c_number}{SF_3}%{/c} for Critical Strikes, and is further increased by {c_number}{SF_4}%{/c} if the target is Stunned, Immobilized, or Knocked Back. 
+This chance is increased by {#}% for Critical Strikes, and is further increased by {#}% if the target is Stunned, Immobilized, or Knocked Back. 
 
-Earthen Might restores all of your Spirit & grants you {c_number}[{SF_1} * 100|%|]{/c} Critical Strike Chance for {c_number}{buffduration:CRIT_CHANCE_BONUS}{/c} seconds.`,
+Earthen Might restores all of your Spirit & grants you {#}% Critical Strike Chance for {#} seconds.`,
 		id: 131,
 		maxPoints: 1,
 		values: [ "", "", "", "", "" ],
@@ -1429,7 +1407,7 @@ Earthen Might restores all of your Spirit & grants you {c_number}[{SF_1} * 100|%
 	},
 	["Lupine Ferocity"]: {
 		connections: [ "Capstone" ],
-		description: `Every 6th {c_important}Werewolf{/c} skill hit Critically Strikes and deals {c_number}x[{SF_0}*100|%|]{/c} increased damage.`,
+		description: `Every 6th Werewolf skill hit Critically Strikes and deals x{#}% increased damage.`,
 		id: 132,
 		maxPoints: 1,
 		values: [ "" ],
@@ -1438,9 +1416,9 @@ Earthen Might restores all of your Spirit & grants you {c_number}[{SF_1} * 100|%
 	},
 	["Bestial Rampage"]: {
 		connections: [ "Capstone" ],
-		description: `After being a Werewolf for {c_number}{buffduration:TIMER_WOLF}{/c} seconds, gain {c_number}[{SF_1} * 100|%|]{/c} Attack Speed for {c_number}{buffduration:BUFF_ATTACK_SPEED}{/c} seconds. 
+		description: `After being a Werewolf for {#} seconds, gain {#}% Attack Speed for {#} seconds. 
 
-After being a Werebear for {c_number}{buffduration:TIMER_BEAR}{/c} seconds, deal {c_number}x[{SF_2} * 100|%|]{/c} increased damage for {c_number}{buffduration:BUFF_ATTACK_DAMAGE}{/c} seconds.`,
+After being a Werebear for {#} seconds, deal x{#}% increased damage for {#} seconds.`,
 		id: 133,
 		maxPoints: 1,
 		values: [ "", "", "", "", "", "" ],
@@ -1449,7 +1427,7 @@ After being a Werebear for {c_number}{buffduration:TIMER_BEAR}{/c} seconds, deal
 	},
 	["Perfect Storm"]: {
 		connections: [ "Capstone" ],
-		description: `Your {c_important}Storm{/c} skills grant {c_number}{SF_4}{/c} Spirit and deal {c_number}x[{SF_1} * 100|%|]{/c} increased damage when damaging a {c_important}Vulnerable{/c}, immobilized or slowed enemy.`,
+		description: `Your Storm skills grant {#} Spirit and deal x{#}% increased damage when damaging a Vulnerable, immobilized or slowed enemy.`,
 		id: 134,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -1458,9 +1436,9 @@ After being a Werebear for {c_number}{buffduration:TIMER_BEAR}{/c} seconds, deal
 	},
 	["Ursine Strength"]: {
 		connections: [ "Capstone" ],
-		description: `Gain {c_number}[{SF_0} * 100|%|]{/c} additional maximum Life while in Werebear form and for {c_number}{buffduration:BONUS_MAX_HEALTH}{/c} seconds after leaving Werebear form.
+		description: `Gain {#}% additional maximum Life while in Werebear form and for {#} seconds after leaving Werebear form.
 
-While {c_important}Healthy{/c}, deal {c_number}x[{SF_1} * 100|%|]{/c} increased damage.`,
+While Healthy, deal x{#}% increased damage.`,
 		id: 135,
 		maxPoints: 1,
 		values: [ "", "", "" ],

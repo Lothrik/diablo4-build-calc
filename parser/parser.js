@@ -112,7 +112,6 @@ const rootNodeNamesSorted = {
 let classProcessed = [];
 let fixedJSON = false;
 
-// copied from ../main.js
 function sanitizeNodeDescription(descriptionText) {
 	let sanitizedText = descriptionText
 		.replace(/{c_.+?}/g, "")								// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
@@ -138,7 +137,8 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1")					// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
 		.replace(/\( *{/g, "({")								// Remove any whitespace between `(` and `{`.
 		.replace(/} *\)/g, "})")								// Remove any whitespace between `}` and `)`.
-		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ");				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
+		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ")				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
+		.trim();
 
 	return sanitizedText;
 }
@@ -252,7 +252,8 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 				if (baseSkillName == undefined && /{payload:.+?}|{dot:.+?}/i.test(nodeData["SkillDesc"]) && nodeData["DamageType"] >= 0) {
 					output += "		damageType: " + nodeData["DamageType"] + ",\n";
 				}
-				output += "		description: `" + nodeData["SkillDesc"].trim() + "`,\n";
+				nodeData["SkillDesc"] = sanitizeNodeDescription(nodeData["SkillDesc"]);
+				output += "		description: `" + nodeData["SkillDesc"] + "`,\n";
 				const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]];
 				if (nodeHistoricalId != undefined) {
 					output += "		id: " + nodeHistoricalId + ",\n";
@@ -264,8 +265,7 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 				output += "		maxPoints: " + nodeData["Reward"]["dwMaxTalentRanks"] + ",\n";
 				if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
 				if (nodeValues[className][rootNodeName][nodeData["SkillName"]] == undefined) nodeValues[className][rootNodeName][nodeData["SkillName"]] = [];
-				const sanitizedDescription = sanitizeNodeDescription(nodeData["SkillDesc"]);
-				const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
+				const descLength = (nodeData["SkillDesc"].match(/{#}/g) || []).length;
 				const savedValues = nodeValues[className][rootNodeName][nodeData["SkillName"]];
 				if (descLength > savedValues.length) {
 					savedValues.push(...Array(descLength - savedValues.length).fill(""));

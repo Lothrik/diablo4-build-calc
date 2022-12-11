@@ -908,7 +908,6 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 
 	node.nodeDesc = nodeData.get("description");
 	if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && nodeData.get("requiredPoints") == undefined) {
-		node.nodeDesc = sanitizeNodeDescription(node.nodeDesc);
 		const nodeValues = node.nodeData.get("values");
 		if (nodeValues != undefined) {
 			nodeValues.forEach(nodeValue => {
@@ -976,35 +975,6 @@ function drawAllNodes() {
 		}
 		resizeSearchInput();
 	}
-}
-function sanitizeNodeDescription(descriptionText) {
-	let sanitizedText = descriptionText
-		.replace(/{c_.+?}/g, "")								// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
-		.replace(/{\/c_.+?}/g, "")								// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
-		.replace(/{\/c}/g, "")									// `{/c}`, exact.
-		.replace(/{\/?u}/g, "")									// `{u}` and `{/u}`.
-		.replace(/{icon.+?}/g, "")								// `{icon:bullet}`, and similar.
-		.replace(/{if:Mod.+?}(.|\n)+?({else}|{\/if})/g, "")		// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
-		.replace(/{if:.+?}/g, "")								// `{if:ADVANCED_TOOLTIP}`, and similar.
-		.replace(/{\/if}/g, "")									// `{/if}`, exact.
-		.replace(/sLevel/g, "")									// `sLevel`, exact.
-		.replace(/4second\.:/g, "")								// `4second.:`, exact.
-		.replace(/ *\* */g, "")									// `*`, including any nearby whitespace.
-		.replace(/ *\| */g, "")									// `|`, including any nearby whitespace.
-		.replace(/ \./g, ".")									// Replace ` .` with `.`.
-		.replace(/%\]/g, "]%")									// Replace `%]` with `]%`.
-		.replace(/{else}/g, "\n")								// Replace `{else}` with a newline.
-		.replace(/{(dot|payload):.+?}/g, "{#}%")				// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
-		.replace(/ *{.+?} */g, "{#}")							// Replace anything inside curly brackets with `{#}`.
-		.replace(/ *\[.+?\] */g, "{#}")							// Replace anything inside square brackets with `{#}`.
-		.replace(/{.+?}{.+?}/g, "{#}")							// Replace `{#}{#}` with `{#}`.
-		.replace(/([^x+ ]+?){#}/g, "$1 {#}")					// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of `{#}`.
-		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1")					// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
-		.replace(/\( *{/g, "({")								// Remove any whitespace between `(` and `{`.
-		.replace(/} *\)/g, "})")								// Remove any whitespace between `}` and `)`.
-		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ");				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
-
-	return sanitizedText;
 }
 function drawTooltip(curNode, forceDraw) {
 	const stageScaleX = pixiJS.stage.scale.x;
