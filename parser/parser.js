@@ -115,22 +115,22 @@ let fixedJSON = false;
 
 function sanitizeNodeDescription(descriptionText) {
 	let sanitizedText = descriptionText
-		.replace(/{c_.+?}/g, "")								// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
-		.replace(/{\/c_.+?}/g, "")								// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
-		.replace(/{\/c}/g, "")									// `{/c}`, exact.
-		.replace(/{\/?u}/g, "")									// `{u}` and `{/u}`.
-		.replace(/{icon.+?}/g, "")								// `{icon:bullet}`, and similar.
-		.replace(/{if:Mod.+?}(.|\n)+?({else}|{\/if})/g, "")		// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
-		.replace(/{if:.+?}/g, "")								// `{if:ADVANCED_TOOLTIP}`, and similar.
-		.replace(/{\/if}/g, "")									// `{/if}`, exact.
+		.replace(/{c_.+?}/gi, "")								// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
+		.replace(/{\/c_.+?}/gi, "")								// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
+		.replace(/{\/c}/gi, "")									// `{/c}`, exact.
+		.replace(/{\/?u}/gi, "")								// `{u}` and `{/u}`.
+		.replace(/{icon.+?}/gi, "")								// `{icon:bullet}`, and similar.
+		.replace(/{if:mod.+?}(.|\n)+?({else}|{\/if})/gi, "")	// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
+		.replace(/{if:.+?}/gi, "")								// `{if:ADVANCED_TOOLTIP}`, and similar.
+		.replace(/{\/if}/gi, "")								// `{/if}`, exact.
 		.replace(/sLevel/g, "")									// `sLevel`, exact.
 		.replace(/4second\.:/g, "")								// `4second.:`, exact.
 		.replace(/ *\* */g, "")									// `*`, including any nearby whitespace.
 		.replace(/ *\| */g, "")									// `|`, including any nearby whitespace.
 		.replace(/ \./g, ".")									// Replace ` .` with `.`.
 		.replace(/%\]/g, "]%")									// Replace `%]` with `]%`.
-		.replace(/{else}/g, "\n")								// Replace `{else}` with a newline.
-		.replace(/{(dot|payload):.+?}/g, "{#}%")				// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
+		.replace(/{else}/gi, "\n")								// Replace `{else}` with a newline.
+		.replace(/{(dot|payload):.+?}/gi, "{#}%")				// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
 		.replace(/ *{.+?} */g, "{#}")							// Replace anything inside curly brackets with `{#}`.
 		.replace(/ *\[.+?\] */g, "{#}")							// Replace anything inside square brackets with `{#}`.
 		.replace(/{.+?}{.+?}/g, "{#}")							// Replace `{#}{#}` with `{#}`.
@@ -139,7 +139,10 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/\( *{/g, "({")								// Remove any whitespace between `(` and `{`.
 		.replace(/} *\)/g, "})")								// Remove any whitespace between `}` and `)`.
 		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ")				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
-		.replace(/(Cooldown: {#})(\r?\n)/g, "$1 seconds$2")		// Add ` seconds` after `Cooldown: {#}` if not already present.
+																// Add ` damage` between `poisons enemies for {#}` and ` over` if not already present.
+		.replace(/(bleeds|bleeding|burns|burning|zaps|zapping|poisons|poisoning)( surrounding)?( enemies for {#}%?)( over)/gi, "$1$2$3 damage$4")
+		.replace(/({#})( damage)/gi, "$1%$2")					// Add `%` between `{#}` and ` damage` if not already present.
+		.replace(/(cooldown: {#})(\r?\n)/gi, "$1 seconds$2")	// Add ` seconds` after `Cooldown: {#}` if not already present.
 		.trim();
 
 	return sanitizedText;
@@ -186,6 +189,19 @@ function fixJSON(classData, curNode, rootNodeName) {
 		} else if (nodeData["SkillName"] == "Enhanced Charged Bolt" && nodeData["Id"] == 731) {
 			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Charged Bolts`.");
 			nodeData["SkillName"] = "Enhanced Charged Bolts";
+		// `Wolf Pack` was renamed to `Wolves` in 36023, but its modifier nodes were not renamed at the same time.
+		} else if (nodeData["SkillName"] == "Wolf Pack" && nodeData["Id"] == 459) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Wolves`.");
+			nodeData["SkillName"] = "Wolves";
+		} else if (nodeData["SkillName"] == "Enhanced Wolf Pack" && nodeData["Id"] == 509) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Wolves`.");
+			nodeData["SkillName"] = "Enhanced Wolves";
+		} else if (nodeData["SkillName"] == "Ferocious Wolf Pack" && nodeData["Id"] == 388) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Ferocious Wolves`.");
+			nodeData["SkillName"] = "Ferocious Wolves";
+		} else if (nodeData["SkillName"] == "Brutal Wolf Pack" && nodeData["Id"] == 389) {
+			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Brutal Wolves`.");
+			nodeData["SkillName"] = "Brutal Wolves";
 		// `Stealth` was renamed to `Concealment` in 36331, but its modifier nodes were not renamed at the same time.
 		} else if (nodeData["SkillName"] == "Stealth" && nodeData["Id"] == 245) {
 			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Concealment`.");

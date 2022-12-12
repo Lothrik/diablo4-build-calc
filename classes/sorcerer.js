@@ -1125,7 +1125,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		damageType: 1,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Create a wall of flames that Burns enemies for {#}% over {#} seconds.
+Create a wall of flames that Burns enemies for {#}% damage over {#} seconds.
 
 — Enchantment Effect —
 Lucky Hit: Direct damage has up to a 15% chance to spawn a Firewall for 3 seconds.`,

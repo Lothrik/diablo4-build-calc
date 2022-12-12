@@ -419,7 +419,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 	"Furious Whirlwind": {
 		baseSkill: "Whirlwind",
 		connections: [ "Enhanced Whirlwind" ],
-		description: `While using a Slashing weapon, Whirlwind also inflicts {#} Bleeding damage over {#} seconds.`,
+		description: `While using a Slashing weapon, Whirlwind also inflicts {#}% Bleeding damage over {#} seconds.`,
 		id: 35,
 		maxPoints: 1,
 		values: [ "26", "5" ],

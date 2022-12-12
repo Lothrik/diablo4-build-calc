@@ -521,143 +521,143 @@ let nodeValues = {
 		"Basic": {
 			"Earthspike": [
 				"",
+				"8",
 				"",
-				"",
-				""
+				"16.8"
 			],
 			"Enhanced Earthspike": [
-				"",
-				""
+				"10",
+				"2.5"
 			],
 			"Fierce Earthspike": [
-				"",
+				"0.96",
 				""
 			],
 			"Maul": [
+				"11",
 				"",
-				"",
-				""
+				"21"
 			],
 			"Enhanced Maul": [
-				"",
+				"0.64",
 				""
 			],
 			"Wild Maul": [
-				"",
-				""
+				"15",
+				"2"
 			],
 			"Fierce Maul": [
-				""
+				"4"
 			],
 			"Wind Shear": [
+				"12",
 				"",
-				"",
-				""
+				"17.85"
 			],
 			"Enhanced Wind Shear": [
-				"",
-				""
+				"35",
+				"4"
 			],
 			"Fierce Wind Shear": [
-				"",
-				"",
-				""
+				"5",
+				"3",
+				"20"
 			],
 			"Wild Wind Shear": [
 				""
 			],
 			"Storm Strike": [
+				"15",
+				"",
+				"27.34",
 				"",
 				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"25",
+				"3"
 			],
 			"Enhanced Storm Strike": [
 				"",
 				""
 			],
 			"Fierce Storm Strike": [
-				"",
-				""
+				"50",
+				"3"
 			],
 			"Wild Storm Strike": [
 				""
 			],
 			"Claw": [
+				"9",
 				"",
-				"",
-				""
+				"21"
 			],
 			"Enhanced Claw": [
-				""
+				"10"
 			],
 			"Fierce Claw": [
-				"",
-				""
+				"10.5",
+				"3"
 			],
 			"Wild Claw": [
-				"",
-				""
+				"10",
+				"15"
 			]
 		},
 		"Spirit": {
 			"Landslide": [
+				"29",
 				"",
-				"",
-				""
+				"78.75"
 			],
 			"Enhanced Landslide": [
-				"",
-				""
+				"25",
+				"3"
 			],
 			"Raging Landslide": [
-				"",
-				""
+				"2",
+				"10"
 			],
 			"Primal Landslide": [
-				"",
-				""
+				"10",
+				"30"
 			],
 			"Pulverize": [
+				"34",
 				"",
-				"",
-				""
+				"52.5"
 			],
 			"Enhanced Pulverize": [
-				"",
-				""
+				"20",
+				"2"
 			],
 			"Primal Pulverize": [
-				"",
-				""
+				"15",
+				"4"
 			],
 			"Raging Pulverize": [
-				"",
-				""
+				"20",
+				"3"
 			],
 			"Tornado": [
+				"38",
 				"",
-				"",
-				""
+				"105"
 			],
 			"Enhanced Tornado": [
-				""
+				"20"
 			],
 			"Raging Tornado": [
-				"",
-				"",
-				""
+				"5",
+				"3",
+				"15"
 			],
 			"Primal Tornado": [
-				"",
-				"",
+				"8",
+				"3",
 				""
 			],
 			"Shred": [
-				"",
+				"34",
 				"",
 				"",
 				"",
@@ -666,7 +666,7 @@ let nodeValues = {
 			],
 			"Enhanced Shred": [
 				"",
-				""
+				"2"
 			],
 			"Raging Shred": [
 				"",
@@ -676,69 +676,69 @@ let nodeValues = {
 				""
 			],
 			"Lightning Storm": [
+				"14",
 				"",
-				"",
-				"",
-				""
+				"26.25",
+				"5"
 			],
 			"Enhanced Lightning Storm": [
-				""
+				"4"
 			],
 			"Primal Lightning Storm": [
-				"",
-				""
+				"8",
+				"3"
 			],
 			"Heart of the Wild": [
-				""
+				"{3/6/9}"
 			],
 			"Wild Impulses": [
-				"",
-				""
+				"{5/10/15}",
+				"{10/20/30}"
 			],
 			"Abundance": [
-				""
+				"{5/10/15}"
 			],
 			"Predatory Instinct": [
-				""
+				"{3/6/9}"
 			],
 			"Iron Fur": [
-				"",
-				""
+				"{3/6/9}",
+				"3"
 			],
 			"Digitigrade Gait": [
-				"",
-				""
+				"{4/8/12}",
+				"3"
 			]
 		},
 		"Defensive": {
 			"Earthen Bulwark": [
+				"16.0",
 				"",
-				"",
-				"",
-				"",
+				"3",
+				"10",
 				""
 			],
 			"Innate Earthen Bulwark": [
-				""
+				"300"
 			],
 			"Preserving Earthen Bulwark": [
-				"",
+				"7.2",
 				""
 			],
 			"Debilitating Roar": [
-				"",
-				"",
-				""
+				"22.0",
+				"50",
+				"4"
 			],
 			"Enhanced Debilitating Roar": [
-				"",
+				"8.8",
 				""
 			],
 			"Preserving Debilitating Roar": [
-				""
+				"4"
 			],
 			"Innate Debilitating Roar": [
-				""
+				"40"
 			],
 			"Ancestral Fortitude": [
 				""
@@ -748,333 +748,333 @@ let nodeValues = {
 				""
 			],
 			"Blood Howl": [
-				"",
+				"15.0",
 				"",
 				""
 			],
 			"Enhanced Blood Howl": [
-				""
+				"1"
 			],
 			"Innate Blood Howl": [
-				""
+				"20"
 			],
 			"Preserving Blood Howl": [
-				"",
-				""
+				"15",
+				"4"
 			],
 			"Cyclone Armor": [
 				"",
 				"",
-				"",
-				""
+				"20",
+				"15.75"
 			],
 			"Enhanced Cyclone Armor": [
-				"",
-				""
+				"40",
+				"3"
 			],
 			"Preserving Cyclone Armor": [
-				"",
-				""
+				"10",
+				"40"
 			]
 		},
 		"Companion": {
 			"Ravens": [
+				"25.0",
 				"",
 				"",
 				"",
 				"",
-				"",
-				"",
-				""
+				"89.25",
+				"6"
 			],
 			"Enhanced Ravens": [
-				"",
-				""
+				"13.85",
+				"5"
 			],
 			"Brutal Ravens": [
-				""
+				"2"
 			],
 			"Ferocious Ravens": [
-				""
+				"3"
 			],
 			"Call of the Wild": [
-				"",
-				"",
-				""
+				"{8/16/24}",
+				"{8/16/24}",
+				"{8/16/24}"
 			],
 			"Vine Creeper": [
+				"20.0",
 				"",
-				"",
-				"",
-				"",
-				"",
-				"",
+				"7",
+				"37.8",
+				"6",
+				"2",
 				"",
 				""
 			],
 			"Enhanced Vine Creeper": [
-				""
+				"1"
 			],
 			"Ferocious Vine Creeper": [
-				""
+				"3"
 			],
 			"Brutal Vine Creeper": [
-				""
+				"20"
 			],
 			"Wolves": [
+				"14.0",
 				"",
-				"",
-				"",
-				"",
-				""
+				"2",
+				"18.19",
+				"36.75"
 			],
-			"Enhanced Wolf Pack": [
-				""
+			"Enhanced Wolves": [
+				"20"
 			],
-			"Ferocious Wolf Pack": [
-				""
+			"Ferocious Wolves": [
+				"10"
 			],
-			"Brutal Wolf Pack": [
-				""
+			"Brutal Wolves": [
+				"2"
 			],
 			"Nature's Reach": [
-				""
+				"{3/6/9}"
 			],
 			"Clarity": [
-				""
+				"{2/4/6}"
 			]
 		},
 		"Wrath": {
 			"Elemental Exposure": [
-				"",
-				""
+				"{20/40/60}",
+				"1"
 			],
 			"Charged Atmosphere": [
-				"",
-				""
+				"{18/13.5/10}",
+				"47.25"
 			],
 			"Electric Shock": [
-				"",
-				"",
+				"{5/10/15}",
+				"3",
 				""
 			],
 			"Bad Omen": [
-				"",
-				""
+				"{10/20/30}",
+				"57.25"
 			],
 			"Endless Tempest": [
-				""
+				"{5/10/15}"
 			],
 			"Boulder": [
+				"10.0",
 				"",
-				"",
-				""
+				"34.65"
 			],
 			"Enhanced Boulder": [
-				"",
-				""
+				"30",
+				"2"
 			],
 			"Natural Boulder": [
-				""
+				"75"
 			],
 			"Savage Boulder": [
-				""
+				"3"
 			],
 			"Trample": [
 				"",
+				"14.0",
 				"",
-				"",
-				"",
-				"",
-				""
+				"26.25",
+				"47.25",
+				"3"
 			],
 			"Natural Trample": [
-				"",
+				"6",
 				""
 			],
 			"Savage Trample": [
-				""
+				"20"
 			],
 			"Crushing Earth": [
-				""
+				"{5/10/15}"
 			],
 			"Safeguard": [
-				"",
+				"0.88",
 				""
 			],
 			"Stone Guard": [
-				"",
-				""
+				"50",
+				"{4/8/12}"
 			],
 			"Hurricane": [
+				"20.0",
 				"",
-				"",
-				"",
-				""
+				"102.37",
+				"8"
 			],
 			"Enhanced Hurricane": [
-				"",
-				""
+				"25",
+				"2"
 			],
 			"Natural Hurricane": [
-				"",
-				""
+				"15",
+				"3"
 			],
 			"Savage Hurricane": [
-				""
+				"20"
 			],
 			"Rabies": [
+				"12.0",
 				"",
-				"",
-				"",
-				"",
-				""
+				"24.4",
+				"55.65",
+				"6"
 			],
 			"Enhanced Rabies": [
-				"",
-				""
+				"4",
+				"30"
 			],
 			"Natural Rabies": [
-				""
+				"10"
 			],
 			"Savage Rabies": [
-				""
+				"100"
 			],
 			"Mending": [
-				""
+				"{5/10/15}"
 			],
 			"Provocation": [
-				""
+				"30"
 			],
 			"Toxic Claws": [
-				"",
-				""
+				"{8/16/24}",
+				"4"
 			],
 			"Neurotoxin": [
-				""
+				"{8/16/24}"
 			]
 		},
 		"Ultimate": {
 			"Grizzly Rage": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
+				"60.0",
+				"10",
+				"20",
+				"20",
+				"3",
+				"1",
+				"10",
 				"",
 				"",
 				""
 			],
 			"Supreme Grizzly Rage": [
-				"",
+				"3.2",
 				""
 			],
 			"Petrify": [
-				"",
-				"",
-				""
+				"60.0",
+				"3",
+				"25"
 			],
 			"Prime Petrify": [
-				""
+				"1"
 			],
 			"Supreme Petrify": [
-				""
+				"25"
 			],
 			"Defensive Posture": [
-				""
+				"{3/6/9}"
 			],
 			"Thick Hide": [
-				"",
+				"2.56",
 				""
 			],
 			"Unrestrained": [
-				"",
-				""
+				"{3/6/9}",
+				"20"
 			],
 			"Nature's Resolve": [
-				"",
-				"",
+				"{5/10/15}",
+				"1.76",
 				""
 			],
 			"Quickshift": [
-				""
+				"{5/10/15}"
 			],
 			"Natural Fortitude": [
-				"",
+				"{0.56/1.12/1.68}",
 				""
 			],
 			"Heightened Senses": [
-				"",
-				""
+				"{4/8/12}",
+				"3"
 			],
 			"Lacerate": [
+				"50.0",
 				"",
-				"",
-				"",
-				""
+				"10",
+				"420.20"
 			],
 			"Prime Lacerate": [
-				""
+				"3"
 			],
 			"Supreme Lacerate": [
-				""
+				"200"
 			],
 			"Cataclysm": [
+				"80.0",
 				"",
-				"",
-				"",
-				""
+				"8",
+				"54.6"
 			],
 			"Prime Cataclysm": [
-				""
+				"2"
 			],
 			"Defiance": [
-				""
+				"{4/8/12}"
 			],
 			"Circle of Life": [
-				""
+				"{1/2/3}"
 			],
 			"Resonance": [
-				""
+				"{2/4/6}"
 			],
 			"Natural Disaster": [
-				"",
-				""
+				"{4/8/12}",
+				"{4/8/12}"
 			]
 		},
 		"Capstone": {
 			"Nature's Fury": [
-				"",
-				""
+				"20",
+				"20"
 			],
 			"Earthen Might": [
-				"",
-				"",
-				"",
-				"",
-				""
+				"5",
+				"10",
+				"10",
+				"100",
+				"5"
 			],
 			"Lupine Ferocity": [
-				""
+				"60"
 			],
 			"Bestial Rampage": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"2.5",
+				"20",
+				"15",
+				"2.5",
+				"20",
+				"15"
 			],
 			"Perfect Storm": [
-				"",
-				""
+				"2",
+				"20"
 			],
 			"Ursine Strength": [
-				"",
-				"",
-				""
+				"20",
+				"3",
+				"20"
 			]
 		}
 	},

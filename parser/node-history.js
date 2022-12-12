@@ -264,7 +264,10 @@ let nodeHistory = {
 		"Capstone: Ursine Strength": 135,
 		"Spirit: Predatory Instinct": 136,
 		"Spirit: Iron Fur": 137,
-		"Spirit: Digitigrade Gait": 138
+		"Spirit: Digitigrade Gait": 138,
+		"Companion: Enhanced Wolves": 139,
+		"Companion: Ferocious Wolves": 140,
+		"Companion: Brutal Wolves": 141
 	},
 	"Necromancer": {
 		"Basic: Decompose": 0,

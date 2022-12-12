@@ -867,7 +867,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		description: `Cooldown: {#} seconds
 Essence Cost: All Remaining Essence
 Lucky Hit Chance: {#}%
-Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {#} damage to the target and all surrounding enemies. Damage is increased by {#}% for each point of Essence spent casting Bone Spirit.`,
+Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {#}% damage to the target and all surrounding enemies. Damage is increased by {#}% for each point of Essence spent casting Bone Spirit.`,
 		id: 80,
 		maxPoints: 5,
 		values: [ "12.0", "", "80", "3" ],
