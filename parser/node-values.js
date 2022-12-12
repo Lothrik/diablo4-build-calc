@@ -1081,95 +1081,95 @@ let nodeValues = {
 	"Necromancer": {
 		"Basic": {
 			"Decompose": [
+				"7",
 				"",
-				"",
-				"",
-				""
+				"30",
+				"2.5"
 			],
 			"Enhanced Decompose": [
-				""
+				"10"
 			],
 			"Acolyte's Decompose": [
-				""
+				"10"
 			],
 			"Initiate's Decompose": [
-				""
+				"30"
 			],
 			"Reap": [
+				"4",
 				"",
-				"",
-				"",
-				"",
-				""
+				"12",
+				"15",
+				"2"
 			],
 			"Enhanced Reap": [
-				"",
-				"",
-				""
+				"2",
+				"30",
+				"3"
 			],
 			"Initiate's Reap": [
-				""
+				"5"
 			],
 			"Acolyte's Reap": [
-				""
+				"5"
 			],
 			"Hemorrhage": [
+				"7",
 				"",
-				"",
-				"",
-				""
+				"25",
+				"20"
 			],
 			"Enhanced Hemorrhage": [
-				""
+				"2"
 			],
 			"Acolyte's Hemorrhage": [
-				""
+				"20"
 			],
 			"Initiate's Hemorrhage": [
+				"0.64",
 				"",
-				"",
-				"",
-				"",
+				"1.5",
+				"100",
 				""
 			],
 			"Bone Splinters": [
+				"5",
 				"",
-				"",
-				"",
-				""
+				"22.5",
+				"1"
 			],
 			"Enhanced Bone Splinters": [
-				"",
-				"",
-				""
+				"30",
+				"2",
+				"50"
 			],
 			"Acolyte's Bone Splinters": [
-				"",
-				"",
-				""
+				"3",
+				"8",
+				"4"
 			],
 			"Initiate's Bone Splinters": [
-				"",
-				""
+				"20",
+				"2"
 			]
 		},
 		"Core": {
 			"Blight": [
+				"25",
 				"",
-				"",
-				"",
-				"",
-				""
+				"30",
+				"80",
+				"6"
 			],
 			"Enhanced Blight": [
-				""
+				"25"
 			],
 			"Paranormal Blight": [
-				"",
-				""
+				"10",
+				"2"
 			],
 			"Supernatural Blight": [
-				""
+				"10"
 			],
 			"Sever": [
 				"",
@@ -1189,13 +1189,13 @@ let nodeValues = {
 			"Blood Surge": [
 				"",
 				"",
-				"",
-				"",
-				"",
-				""
+				"20",
+				"50",
+				"10",
+				"50"
 			],
 			"Enhanced Blood Surge": [
-				"",
+				"1",
 				"",
 				""
 			],
@@ -1206,314 +1206,314 @@ let nodeValues = {
 				""
 			],
 			"Blood Lance": [
+				"25",
 				"",
-				"",
-				"",
-				""
+				"3",
+				"45"
 			],
 			"Enhanced Blood Lance": [
-				""
+				"15"
 			],
 			"Supernatural Blood Lance": [
 				""
 			],
 			"Paranormal Blood Lance": [
-				"",
-				"",
-				""
+				"2",
+				"10",
+				"1"
 			],
 			"Bone Spear": [
+				"25",
 				"",
-				"",
-				""
+				"85"
 			],
 			"Enhanced Bone Spear": [
 				"",
-				""
+				"10"
 			],
 			"Paranormal Bone Spear": [
 				"",
 				""
 			],
 			"Supernatural Bone Spear": [
-				""
+				"3"
 			],
 			"Unliving Energy": [
-				""
+				"{3/6/9}"
 			],
 			"Imperfectly Balanced": [
-				"",
-				""
+				"{5/10/15}",
+				"{10/20/30}"
 			],
 			"Reconstitution": [
-				""
+				"{4/8/12}"
 			]
 		},
 		"Macabre": {
 			"Corpse Explosion": [
 				"",
 				"",
-				""
+				"75"
 			],
 			"Enhanced Corpse Explosion": [
-				""
+				"15"
 			],
 			"Abhorrent Corpse Explosion": [
-				"",
-				""
+				"110",
+				"6"
 			],
 			"Horrid Corpse Explosion": [
-				""
+				"15"
 			],
 			"Grim Harvest": [
-				""
+				"{3/6/9}"
 			],
 			"Fueled by Death": [
-				"",
-				""
+				"{4/8/12}",
+				"4"
 			],
 			"Necrotic Carapace": [
-				"",
+				"{0.8/1.6/2.4}",
 				""
 			],
 			"Blood Mist": [
 				"",
 				"",
-				"",
-				"",
-				"",
-				""
+				"3",
+				"50",
+				"1.75",
+				"100"
 			],
 			"Enhanced Blood Mist": [
-				""
+				"20"
 			],
 			"Ghastly Blood Mist": [
-				""
+				"1"
 			],
 			"Dreadful Blood Mist": [
-				"",
+				"0.2",
 				""
 			],
 			"Bone Prison": [
-				"",
-				"",
-				""
+				"20.0",
+				"12",
+				"6"
 			],
 			"Enhanced Bone Prison": [
-				""
+				"3"
 			],
 			"Dreadful Bone Prison": [
-				"",
+				"1.5",
 				""
 			],
 			"Skeletal Warrior Mastery": [
-				""
+				"{15/30/45}"
 			]
 		},
 		"Corruption": {
 			"Iron Maiden": [
-				"",
-				"",
-				""
+				"10",
+				"10",
+				"10"
 			],
 			"Enhanced Iron Maiden": [
-				""
+				"5"
 			],
 			"Horrid Iron Maiden": [
-				"",
-				""
+				"3",
+				"15"
 			],
 			"Abhorrent Iron Maiden": [
-				""
+				"5"
 			],
 			"Skeletal Mage Mastery": [
-				""
+				"{15/30/45}"
 			],
 			"Amplify Damage": [
-				""
+				"{3/6/9}"
 			],
 			"Decrepify": [
-				"",
-				"",
-				"",
-				""
+				"10",
+				"50",
+				"25",
+				"10"
 			],
 			"Enhanced Decrepify": [
-				"",
-				""
+				"10",
+				"2"
 			],
 			"Abhorrent Decrepify": [
-				"",
-				""
+				"15",
+				"1.5"
 			],
 			"Horrid Decrepify": [
-				""
+				"10"
 			],
 			"Death's Embrace": [
-				"",
-				""
+				"{2/4/6}",
+				"{3/6/9}"
 			],
 			"Death's Reach": [
-				""
+				"{4/8/12}"
 			]
 		},
 		"Summoning": {
 			"Corpse Tendrils": [
+				"11.0",
 				"",
-				"",
-				"",
-				""
+				"3",
+				"20"
 			],
 			"Enhanced Corpse Tendrils": [
-				""
+				"50"
 			],
 			"Horrid Corpse Tendrils": [
-				""
+				"25"
 			],
 			"Abhorrent Corpse Tendrils": [
-				""
+				"40"
 			],
 			"Reaper's Pursuit": [
-				"",
-				""
+				"{5/10/15}",
+				"3"
 			],
 			"Gloom": [
-				"",
-				"",
-				""
+				"{2/4/6}",
+				"2",
+				"3"
 			],
 			"Terror": [
-				""
+				"{5/10/15}"
 			],
 			"Crippling Darkness": [
-				"",
-				""
+				"{15/30/45}",
+				"1"
 			],
 			"Blood Begets Blood": [
-				""
+				"{10/20/30}"
 			],
 			"Coalesced Blood": [
-				""
+				"{15/30/45}"
 			],
 			"Transfusion": [
-				""
+				"{15/30/45}"
 			],
 			"Tides of Blood": [
-				""
+				"{5/10/15}"
 			],
 			"Drain Vitality": [
-				"",
-				"",
+				"{25/50/75}",
+				"1",
 				""
 			],
 			"Bone Spirit": [
+				"12.0",
 				"",
-				"",
-				"",
-				""
+				"80",
+				"3"
 			],
 			"Enhanced Bone Spirit": [
-				""
+				"6"
 			],
 			"Ghastly Bone Spirit": [
-				""
+				"10"
 			],
 			"Dreadful Bone Spirit": [
-				"",
-				""
+				"30",
+				"4"
 			],
 			"Serration": [
-				""
+				"{0.5/1/1.5}"
 			],
 			"Rapid Ossification": [
-				"",
-				""
+				"100",
+				"{0.5/1/1.5}"
 			],
 			"Evulsion": [
-				""
+				"{6/12/18}"
 			],
 			"Compound Fracture": [
-				"",
-				"",
-				""
+				"10",
+				"{6/12/18}",
+				"5"
 			],
 			"Spiked Armor": [
-				""
+				"{3/6/9}"
 			]
 		},
 		"Ultimate": {
 			"Bonded in Essence": [
-				""
+				"{15/30/45}"
 			],
 			"Death's Defense": [
-				""
+				"{50/35/20}"
 			],
 			"Hellbent Commander": [
-				""
+				"{10/20/30}"
 			],
 			"Inspiring Command": [
-				"",
-				""
+				"4",
+				"{4/8/12}"
 			],
 			"Army of the Dead": [
+				"90.0",
 				"",
-				"",
-				"",
-				""
+				"7",
+				"30"
 			],
 			"Prime Army of the Dead": [
-				""
+				"15"
 			],
 			"Blood Wave": [
+				"50.0",
 				"",
-				"",
-				""
+				"90"
 			],
 			"Prime Blood Wave": [
-				"",
-				""
+				"50",
+				"4"
 			],
 			"Stand Alone": [
-				"",
-				""
+				"{6/12/18}",
+				"2"
 			],
 			"Memento Mori": [
-				""
+				"{20/40/60}"
 			],
 			"Bone Storm": [
+				"60.0",
 				"",
-				"",
-				"",
-				""
+				"180",
+				"10"
 			],
 			"Prime Bone Storm": [
-				""
+				"15"
 			],
 			"Supreme Bone Storm": [
-				"",
-				""
+				"2",
+				"10"
 			],
 			"Golem Mastery": [
-				""
+				"{15/30/45}"
 			]
 		},
 		"Capstone": {
 			"Ossified Essence": [
-				"",
-				""
+				"1",
+				"50"
 			],
 			"Shadowblight": [
-				"",
-				"",
-				""
+				"2",
+				"10",
+				"20"
 			],
 			"Rathma's Vigor": [
-				"",
-				""
+				"10",
+				"25"
 			],
 			"Strength in Numbers": [
-				"",
-				""
+				"7",
+				"20"
 			]
 		}
 	},
