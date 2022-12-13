@@ -56,7 +56,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Chill for 30%.`,
 		maxPoints: 5,
 		values: [ "", "35", "15" ],
 		x: -314.79,
-		y: -169.615,
+		y: -169.615
 	},
 	"Enhanced Frost Bolt": {
 		baseSkill: "Frost Bolt",
@@ -66,7 +66,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Chill for 30%.`,
 		maxPoints: 1,
 		values: [ "15" ],
 		x: -553.367,
-		y: -301.91,
+		y: -301.91
 	},
 	"Flickering Frost Bolt": {
 		baseSkill: "Frost Bolt",
@@ -76,7 +76,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Chill for 30%.`,
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -859.027,
-		y: -329.83,
+		y: -329.83
 	},
 	"Glinting Frost Bolt": {
 		baseSkill: "Frost Bolt",
@@ -86,7 +86,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Chill for 30%.`,
 		maxPoints: 1,
 		values: [ "4" ],
 		x: -653.422,
-		y: -453.325,
+		y: -453.325
 	},
 	"Spark": {
 		connections: [ "Basic", "Enhanced Spark" ],
@@ -100,7 +100,7 @@ Killing an enemy has a 10% chance to form a Crackling Energy.`,
 		maxPoints: 5,
 		values: [ "", "4", "8" ],
 		x: -294.368,
-		y: 167.01,
+		y: 167.01
 	},
 	"Enhanced Spark": {
 		baseSkill: "Spark",
@@ -110,7 +110,7 @@ Killing an enemy has a 10% chance to form a Crackling Energy.`,
 		maxPoints: 1,
 		values: [ "20", "3", "6", "20" ],
 		x: -544.167,
-		y: 312.77,
+		y: 312.77
 	},
 	"Flickering Spark": {
 		baseSkill: "Spark",
@@ -120,7 +120,7 @@ Killing an enemy has a 10% chance to form a Crackling Energy.`,
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -804.317,
-		y: 359.95,
+		y: 359.95
 	},
 	"Glinting Spark": {
 		baseSkill: "Spark",
@@ -130,7 +130,7 @@ Killing an enemy has a 10% chance to form a Crackling Energy.`,
 		maxPoints: 1,
 		values: [ "2", "3", "10" ],
 		x: -605.717,
-		y: 459.955,
+		y: 459.955
 	},
 	"Arc Lash": {
 		connections: [ "Basic", "Enhanced Arc Lash" ],
@@ -144,7 +144,7 @@ Whenever you are hit, there is a 20% chance the attacker is Stunned for 1 second
 		maxPoints: 5,
 		values: [ "", "42", "10", "2" ],
 		x: 309.665,
-		y: 169.14,
+		y: 169.14
 	},
 	"Enhanced Arc Lash": {
 		baseSkill: "Arc Lash",
@@ -153,7 +153,7 @@ Whenever you are hit, there is a 20% chance the attacker is Stunned for 1 second
 		id: 9,
 		maxPoints: 1,
 		x: 571.208,
-		y: 320.835,
+		y: 320.835
 	},
 	"Glinting Arc Lash": {
 		baseSkill: "Arc Lash",
@@ -163,7 +163,7 @@ Whenever you are hit, there is a 20% chance the attacker is Stunned for 1 second
 		maxPoints: 1,
 		values: [ "0.25" ],
 		x: 647.288,
-		y: 464.815,
+		y: 464.815
 	},
 	"Flickering Arc Lash": {
 		baseSkill: "Arc Lash",
@@ -173,7 +173,7 @@ Whenever you are hit, there is a 20% chance the attacker is Stunned for 1 second
 		maxPoints: 1,
 		values: [ "6", "5", "18" ],
 		x: 871.328,
-		y: 352.725,
+		y: 352.725
 	},
 	"Fire Bolt": {
 		connections: [ "Basic", "Enhanced Fire Bolt" ],
@@ -187,7 +187,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for 23% ov
 		maxPoints: 5,
 		values: [ "", "10", "40", "8" ],
 		x: 309.424,
-		y: -168.96,
+		y: -168.96
 	},
 	"Enhanced Fire Bolt": {
 		baseSkill: "Fire Bolt",
@@ -196,7 +196,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for 23% ov
 		id: 13,
 		maxPoints: 1,
 		x: 547.598,
-		y: -314.185,
+		y: -314.185
 	},
 	"Glinting Fire Bolt": {
 		baseSkill: "Fire Bolt",
@@ -206,7 +206,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for 23% ov
 		maxPoints: 1,
 		values: [ "20", "4" ],
 		x: 820.993,
-		y: -349.635,
+		y: -349.635
 	},
 	"Flickering Fire Bolt": {
 		baseSkill: "Fire Bolt",
@@ -216,7 +216,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for 23% ov
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 638.958,
-		y: -457.985,
+		y: -457.985
 	},
 };
 
@@ -234,7 +234,7 @@ Whenever you are hit, there is a 40% chance to release 5 Charged Bolts.`,
 		maxPoints: 5,
 		values: [ "40", "", "5", "15" ],
 		x: 356.997,
-		y: 194.845,
+		y: 194.845
 	},
 	"Enhanced Charged Bolts": {
 		baseSkill: "Charged Bolts",
@@ -243,7 +243,7 @@ Whenever you are hit, there is a 40% chance to release 5 Charged Bolts.`,
 		id: 17,
 		maxPoints: 1,
 		x: 596.883,
-		y: 327.095,
+		y: 327.095
 	},
 	"Greater Charged Bolts": {
 		baseSkill: "Charged Bolts",
@@ -253,7 +253,7 @@ Whenever you are hit, there is a 40% chance to release 5 Charged Bolts.`,
 		maxPoints: 1,
 		values: [ "25" ],
 		x: 671.203,
-		y: 470.3,
+		y: 470.3
 	},
 	"Destructive Charged Bolts": {
 		baseSkill: "Charged Bolts",
@@ -263,7 +263,7 @@ Whenever you are hit, there is a 40% chance to release 5 Charged Bolts.`,
 		maxPoints: 1,
 		values: [ "5", "20", "3" ],
 		x: 866.973,
-		y: 354.415,
+		y: 354.415
 	},
 	"Frozen Orb": {
 		connections: [ "Core", "Enhanced Frozen Orb" ],
@@ -278,7 +278,7 @@ Whenever you cast a non-Basic Skill, you have a 20% chance to launch a Frozen Or
 		maxPoints: 5,
 		values: [ "40", "", "34", "32", "29", "9" ],
 		x: -276.076,
-		y: -213.185,
+		y: -213.185
 	},
 	"Enhanced Frozen Orb": {
 		baseSkill: "Frozen Orb",
@@ -288,7 +288,7 @@ Whenever you cast a non-Basic Skill, you have a 20% chance to launch a Frozen Or
 		maxPoints: 1,
 		values: [ "50", "30" ],
 		x: -451.149,
-		y: -344.71,
+		y: -344.71
 	},
 	"Destructive Frozen Orb": {
 		baseSkill: "Frozen Orb",
@@ -298,7 +298,7 @@ Whenever you cast a non-Basic Skill, you have a 20% chance to launch a Frozen Or
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -706.237,
-		y: -409.725,
+		y: -409.725
 	},
 	"Greater Frozen Orb": {
 		baseSkill: "Frozen Orb",
@@ -308,7 +308,7 @@ Whenever you cast a non-Basic Skill, you have a 20% chance to launch a Frozen Or
 		maxPoints: 1,
 		values: [ "25", "2" ],
 		x: -492.592,
-		y: -496.78,
+		y: -496.78
 	},
 	"Incinerate": {
 		connections: [ "Core", "Enhanced Incinerate" ],
@@ -323,7 +323,7 @@ Lucky Hit: Direct damage has up to a 8% chance to spawn a rotating Incinerate be
 		maxPoints: 5,
 		values: [ "20", "", "36", "18", "71" ],
 		x: 465.318,
-		y: -36.915,
+		y: -36.915
 	},
 	"Enhanced Incinerate": {
 		baseSkill: "Incinerate",
@@ -333,7 +333,7 @@ Lucky Hit: Direct damage has up to a 8% chance to spawn a rotating Incinerate be
 		maxPoints: 1,
 		values: [ "30" ],
 		x: 757.168,
-		y: -63.055,
+		y: -63.055
 	},
 	"Destructive Incinerate": {
 		baseSkill: "Incinerate",
@@ -343,7 +343,7 @@ Lucky Hit: Direct damage has up to a 8% chance to spawn a rotating Incinerate be
 		maxPoints: 1,
 		values: [ "15" ],
 		x: 967.483,
-		y: -164.345,
+		y: -164.345
 	},
 	"Greater Incinerate": {
 		baseSkill: "Incinerate",
@@ -353,7 +353,7 @@ Lucky Hit: Direct damage has up to a 8% chance to spawn a rotating Incinerate be
 		maxPoints: 1,
 		values: [ "80" ],
 		x: 1011.948,
-		y: -21.03,
+		y: -21.03
 	},
 	"Fireball": {
 		connections: [ "Core", "Enhanced Fireball" ],
@@ -368,7 +368,7 @@ When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 		maxPoints: 5,
 		values: [ "50", "", "60" ],
 		x: 227.451,
-		y: -214.915,
+		y: -214.915
 	},
 	"Enhanced Fireball": {
 		baseSkill: "Fireball",
@@ -378,7 +378,7 @@ When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 403.019,
-		y: -351.865,
+		y: -351.865
 	},
 	"Greater Fireball": {
 		baseSkill: "Fireball",
@@ -388,7 +388,7 @@ When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 		maxPoints: 1,
 		values: [ "50", "20" ],
 		x: 408.298,
-		y: -496.54,
+		y: -496.54
 	},
 	"Destructive Fireball": {
 		baseSkill: "Fireball",
@@ -398,7 +398,7 @@ When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 652.668,
-		y: -422.025,
+		y: -422.025
 	},
 	"Chain Lightning": {
 		connections: [ "Core", "Enhanced Chain Lightning" ],
@@ -413,7 +413,7 @@ Chain Lightning forms automatically after spending 100 Mana.`,
 		maxPoints: 5,
 		values: [ "35", "", "42", "4" ],
 		x: 6.471,
-		y: 258.33,
+		y: 258.33
 	},
 	"Enhanced Chain Lightning": {
 		baseSkill: "Chain Lightning",
@@ -423,7 +423,7 @@ Chain Lightning forms automatically after spending 100 Mana.`,
 		maxPoints: 1,
 		values: [ "1" ],
 		x: 12.326,
-		y: 443.24,
+		y: 443.24
 	},
 	"Greater Chain Lightning": {
 		baseSkill: "Chain Lightning",
@@ -433,7 +433,7 @@ Chain Lightning forms automatically after spending 100 Mana.`,
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -165.373,
-		y: 558.965,
+		y: 558.965
 	},
 	"Destructive Chain Lightning": {
 		baseSkill: "Chain Lightning",
@@ -443,7 +443,7 @@ Chain Lightning forms automatically after spending 100 Mana.`,
 		maxPoints: 1,
 		values: [ "25" ],
 		x: 189.963,
-		y: 571.73,
+		y: 571.73
 	},
 	"Ice Shards": {
 		connections: [ "Core", "Enhanced Ice Shards" ],
@@ -458,7 +458,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		maxPoints: 5,
 		values: [ "30", "", "5", "25", "25" ],
 		x: -408.65,
-		y: -11.405,
+		y: -11.405
 	},
 	"Enhanced Ice Shards": {
 		baseSkill: "Ice Shards",
@@ -468,7 +468,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		maxPoints: 1,
 		values: [ "15" ],
 		x: -703.372,
-		y: -24.405,
+		y: -24.405
 	},
 	"Greater Ice Shards": {
 		baseSkill: "Ice Shards",
@@ -477,7 +477,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		id: 38,
 		maxPoints: 1,
 		x: -945.282,
-		y: -88.375,
+		y: -88.375
 	},
 	"Destructive Ice Shards": {
 		baseSkill: "Ice Shards",
@@ -487,7 +487,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		maxPoints: 1,
 		values: [ "5", "2" ],
 		x: -953.972,
-		y: 29.11,
+		y: 29.11
 	},
 	"Devastation": {
 		connections: [ "Core", "Elemental Dominance" ],
@@ -496,7 +496,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		maxPoints: 3,
 		values: [ "{8/15/23}" ],
 		x: -507.657,
-		y: 206.855,
+		y: 206.855
 	},
 	"Elemental Dominance": {
 		connections: [ "Devastation" ],
@@ -505,7 +505,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		maxPoints: 3,
 		values: [ "{8/16/24}", "3" ],
 		x: -802.882,
-		y: 328.45,
+		y: 328.45
 	},
 	"Potent Warding": {
 		connections: [ "Core" ],
@@ -514,7 +514,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		maxPoints: 3,
 		values: [ "{2/4/6}" ],
 		x: 745.643,
-		y: 149.76,
+		y: 149.76
 	},
 };
 
@@ -534,7 +534,7 @@ Flame Shield automatically activates when you take fatal damage. It takes 120 se
 		maxPoints: 5,
 		values: [ "19.6", "", "2", "7" ],
 		x: -37.995,
-		y: -228.055,
+		y: -228.055
 	},
 	"Enhanced Flame Shield": {
 		baseSkill: "Flame Shield",
@@ -544,7 +544,7 @@ Flame Shield automatically activates when you take fatal damage. It takes 120 se
 		maxPoints: 1,
 		values: [ "25" ],
 		x: -78.675,
-		y: -402.1,
+		y: -402.1
 	},
 	"Mystical Flame Shield": {
 		baseSkill: "Flame Shield",
@@ -554,7 +554,7 @@ Flame Shield automatically activates when you take fatal damage. It takes 120 se
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -218.94,
-		y: -516.065,
+		y: -516.065
 	},
 	"Shimmering Flame Shield": {
 		baseSkill: "Flame Shield",
@@ -564,7 +564,7 @@ Flame Shield automatically activates when you take fatal damage. It takes 120 se
 		maxPoints: 1,
 		values: [ "4" ],
 		x: 26.33,
-		y: -521.79,
+		y: -521.79
 	},
 	"Frost Nova": {
 		connections: [ "Defensive", "Enhanced Frost Nova" ],
@@ -579,7 +579,7 @@ Lucky Hit: Critical Strikes have up to a 30% chance to make your active Conjurat
 		maxPoints: 5,
 		values: [ "14.7", "", "", "2" ],
 		x: -429.64,
-		y: 2.21,
+		y: 2.21
 	},
 	"Enhanced Frost Nova": {
 		baseSkill: "Frost Nova",
@@ -589,7 +589,7 @@ Lucky Hit: Critical Strikes have up to a 30% chance to make your active Conjurat
 		maxPoints: 1,
 		values: [ "25" ],
 		x: -732.36,
-		y: 0.7,
+		y: 0.7
 	},
 	"Mystical Frost Nova": {
 		baseSkill: "Frost Nova",
@@ -599,7 +599,7 @@ Lucky Hit: Critical Strikes have up to a 30% chance to make your active Conjurat
 		maxPoints: 1,
 		values: [ "20", "3" ],
 		x: -961.06,
-		y: -59.035,
+		y: -59.035
 	},
 	"Shimmering Frost Nova": {
 		baseSkill: "Frost Nova",
@@ -609,7 +609,7 @@ Lucky Hit: Critical Strikes have up to a 30% chance to make your active Conjurat
 		maxPoints: 1,
 		values: [ "4" ],
 		x: -958.045,
-		y: 72.445,
+		y: 72.445
 	},
 	"Ice Armor": {
 		connections: [ "Defensive", "Enhanced Ice Armor" ],
@@ -622,7 +622,7 @@ Upon getting hit, you have a 5% chance to apply Ice Armor.`,
 		maxPoints: 5,
 		values: [ "19.6", "6", "30", "", "10" ],
 		x: -253.36,
-		y: 202.875,
+		y: 202.875
 	},
 	"Enhanced Ice Armor": {
 		baseSkill: "Ice Armor",
@@ -632,7 +632,7 @@ Upon getting hit, you have a 5% chance to apply Ice Armor.`,
 		maxPoints: 1,
 		values: [ "25" ],
 		x: -426.975,
-		y: 358.17,
+		y: 358.17
 	},
 	"Shimmering Ice Armor": {
 		baseSkill: "Ice Armor",
@@ -642,7 +642,7 @@ Upon getting hit, you have a 5% chance to apply Ice Armor.`,
 		maxPoints: 1,
 		values: [ "15", "3" ],
 		x: -661.015,
-		y: 414.34,
+		y: 414.34
 	},
 	"Mystical Ice Armor": {
 		baseSkill: "Ice Armor",
@@ -652,7 +652,7 @@ Upon getting hit, you have a 5% chance to apply Ice Armor.`,
 		maxPoints: 1,
 		values: [ "30" ],
 		x: -444.135,
-		y: 493.195,
+		y: 493.195
 	},
 	"Teleport": {
 		connections: [ "Defensive", "Enhanced Teleport" ],
@@ -667,7 +667,7 @@ Evade is replaced with Teleport on a 17.0 second cooldown.`,
 		maxPoints: 5,
 		values: [ "10.8", "", "25" ],
 		x: 375.285,
-		y: 141.665,
+		y: 141.665
 	},
 	"Enhanced Teleport": {
 		baseSkill: "Teleport",
@@ -677,7 +677,7 @@ Evade is replaced with Teleport on a 17.0 second cooldown.`,
 		maxPoints: 1,
 		values: [ "30", "5" ],
 		x: 662.025,
-		y: 258.09,
+		y: 258.09
 	},
 	"Mystical Teleport": {
 		baseSkill: "Teleport",
@@ -687,7 +687,7 @@ Evade is replaced with Teleport on a 17.0 second cooldown.`,
 		maxPoints: 1,
 		values: [ "4", "40" ],
 		x: 933.15,
-		y: 263.49,
+		y: 263.49
 	},
 	"Shimmering Teleport": {
 		baseSkill: "Teleport",
@@ -697,7 +697,7 @@ Evade is replaced with Teleport on a 17.0 second cooldown.`,
 		maxPoints: 1,
 		values: [ "0.5", "3" ],
 		x: 805.699,
-		y: 378.73,
+		y: 378.73
 	},
 	"Elemental Attunement": {
 		connections: [ "Defensive" ],
@@ -706,7 +706,7 @@ Evade is replaced with Teleport on a 17.0 second cooldown.`,
 		maxPoints: 3,
 		values: [ "{3/6/9}", "10" ],
 		x: -543.765,
-		y: -268.415,
+		y: -268.415
 	},
 	"Glass Cannon": {
 		connections: [ "Defensive" ],
@@ -715,7 +715,7 @@ Evade is replaced with Teleport on a 17.0 second cooldown.`,
 		maxPoints: 3,
 		values: [ "{6/12/18}", "{3/6/9}" ],
 		x: 148.49,
-		y: 365.61,
+		y: 365.61
 	},
 };
 
@@ -733,7 +733,7 @@ When a Burning enemy is killed, a Hydra head spawns from its corpse for 3 second
 		maxPoints: 5,
 		values: [ "20", "", "3", "8.0", "30" ],
 		x: 376.215,
-		y: -182.8,
+		y: -182.8
 	},
 	"Enhanced Hydra": {
 		baseSkill: "Hydra",
@@ -743,7 +743,7 @@ When a Burning enemy is killed, a Hydra head spawns from its corpse for 3 second
 		maxPoints: 1,
 		values: [ "4" ],
 		x: 619.795,
-		y: -308.1,
+		y: -308.1
 	},
 	"Invoked Hydra": {
 		baseSkill: "Hydra",
@@ -753,7 +753,7 @@ When a Burning enemy is killed, a Hydra head spawns from its corpse for 3 second
 		maxPoints: 1,
 		values: [ "15", "3" ],
 		x: 896.09,
-		y: -347.11,
+		y: -347.11
 	},
 	"Summoned Hydra": {
 		baseSkill: "Hydra",
@@ -763,7 +763,7 @@ When a Burning enemy is killed, a Hydra head spawns from its corpse for 3 second
 		maxPoints: 1,
 		values: [ "12", "6" ],
 		x: 698.625,
-		y: -447.785,
+		y: -447.785
 	},
 	"Ice Blades": {
 		connections: [ "Conjuration", "Enhanced Ice Blades" ],
@@ -778,7 +778,7 @@ Killing an enemy has a 10% chance to conjure Ice Blades.`,
 		maxPoints: 5,
 		values: [ "11.8", "", "6.0", "31", "20", "2" ],
 		x: -392.77,
-		y: -171.33,
+		y: -171.33
 	},
 	"Enhanced Ice Blades": {
 		baseSkill: "Ice Blades",
@@ -788,7 +788,7 @@ Killing an enemy has a 10% chance to conjure Ice Blades.`,
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -649.14,
-		y: -287.95,
+		y: -287.95
 	},
 	"Summoned Ice Blades": {
 		baseSkill: "Ice Blades",
@@ -798,7 +798,7 @@ Killing an enemy has a 10% chance to conjure Ice Blades.`,
 		maxPoints: 1,
 		values: [ "25", "100" ],
 		x: -899.299,
-		y: -333.805,
+		y: -333.805
 	},
 	"Invoked Ice Blades": {
 		baseSkill: "Ice Blades",
@@ -808,7 +808,7 @@ Killing an enemy has a 10% chance to conjure Ice Blades.`,
 		maxPoints: 1,
 		values: [ "1" ],
 		x: -719.095,
-		y: -424.735,
+		y: -424.735
 	},
 	"Lightning Spear": {
 		connections: [ "Conjuration", "Enhanced Lightning Spear" ],
@@ -823,7 +823,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 5,
 		values: [ "19.6", "", "6.0", "15" ],
 		x: 3.935,
-		y: 249.83,
+		y: 249.83
 	},
 	"Enhanced Lightning Spear": {
 		baseSkill: "Lightning Spear",
@@ -833,7 +833,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 5.03,
-		y: 439.99,
+		y: 439.99
 	},
 	"Summoned Lightning Spear": {
 		baseSkill: "Lightning Spear",
@@ -843,7 +843,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 1,
 		values: [ "0.5" ],
 		x: -127.075,
-		y: 583.565,
+		y: 583.565
 	},
 	"Invoked Lightning Spear": {
 		baseSkill: "Lightning Spear",
@@ -853,7 +853,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 1,
 		values: [ "5" ],
 		x: 157.525,
-		y: 584.88,
+		y: 584.88
 	},
 	"Conjuration Mastery": {
 		connections: [ "Conjuration" ],
@@ -862,7 +862,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 3,
 		values: [ "{2/4/6}" ],
 		x: 459.155,
-		y: 235.405,
+		y: 235.405
 	},
 	"Precision Magic": {
 		connections: [ "Conjuration" ],
@@ -871,7 +871,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 4.345,
-		y: -340.545,
+		y: -340.545
 	},
 	"Align the Elements": {
 		connections: [ "Mana Shield", "Conjuration", "Protection" ],
@@ -880,7 +880,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "50" ],
 		x: 691.315,
-		y: 0.835,
+		y: 0.835
 	},
 	"Mana Shield": {
 		connections: [ "Align the Elements" ],
@@ -889,7 +889,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 3,
 		values: [ "100", "{5/10/15}", "5" ],
 		x: 998.925,
-		y: -101.03,
+		y: -101.03
 	},
 	"Protection": {
 		connections: [ "Align the Elements" ],
@@ -898,7 +898,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		maxPoints: 3,
 		values: [ "{10/20/30}", "", "5" ],
 		x: 1006.32,
-		y: 99.545,
+		y: 99.545
 	},
 };
 
@@ -916,7 +916,7 @@ Every time an enemy takes Burning damage, there's a 3% chance a Meteor falls on 
 		maxPoints: 5,
 		values: [ "40", "", "50", "35", "3" ],
 		x: 380.18,
-		y: 119.219,
+		y: 119.219
 	},
 	"Enhanced Meteor": {
 		baseSkill: "Meteor",
@@ -926,7 +926,7 @@ Every time an enemy takes Burning damage, there's a 3% chance a Meteor falls on 
 		maxPoints: 1,
 		values: [ "3", "30" ],
 		x: 661.115,
-		y: 205.714,
+		y: 205.714
 	},
 	"Mage's Meteor": {
 		baseSkill: "Meteor",
@@ -936,7 +936,7 @@ Every time an enemy takes Burning damage, there's a 3% chance a Meteor falls on 
 		maxPoints: 1,
 		values: [ "30", "6" ],
 		x: 781.195,
-		y: 314.158,
+		y: 314.158
 	},
 	"Wizard's Meteor": {
 		baseSkill: "Meteor",
@@ -946,7 +946,7 @@ Every time an enemy takes Burning damage, there's a 3% chance a Meteor falls on 
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 913.144,
-		y: 212.959,
+		y: 212.959
 	},
 	"Blizzard": {
 		connections: [ "Mastery", "Enhanced Blizzard" ],
@@ -961,7 +961,7 @@ Every 15 seconds, a Blizzard forms over you and follows you for 4 seconds.`,
 		maxPoints: 5,
 		values: [ "40", "", "120", "18", "6" ],
 		x: -3.215,
-		y: -218.79,
+		y: -218.79
 	},
 	"Enhanced Blizzard": {
 		baseSkill: "Blizzard",
@@ -971,7 +971,7 @@ Every 15 seconds, a Blizzard forms over you and follows you for 4 seconds.`,
 		maxPoints: 1,
 		values: [ "2" ],
 		x: -1.79,
-		y: -379.785,
+		y: -379.785
 	},
 	"Mage's Blizzard": {
 		baseSkill: "Blizzard",
@@ -981,7 +981,7 @@ Every 15 seconds, a Blizzard forms over you and follows you for 4 seconds.`,
 		maxPoints: 1,
 		values: [ "2.5", "20" ],
 		x: -133.77,
-		y: -498.589,
+		y: -498.589
 	},
 	"Wizard's Blizzard": {
 		baseSkill: "Blizzard",
@@ -991,7 +991,7 @@ Every 15 seconds, a Blizzard forms over you and follows you for 4 seconds.`,
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 131.4,
-		y: -504.274,
+		y: -504.274
 	},
 	"Ball Lightning": {
 		connections: [ "Mastery", "Enhanced Ball Lightning" ],
@@ -1006,7 +1006,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 5,
 		values: [ "50", "", "15" ],
 		x: -399.365,
-		y: 2.04,
+		y: 2.04
 	},
 	"Enhanced Ball Lightning": {
 		baseSkill: "Ball Lightning",
@@ -1016,7 +1016,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 1,
 		values: [ "30" ],
 		x: -735.725,
-		y: 0.485,
+		y: 0.485
 	},
 	"Wizard's Ball Lightning": {
 		baseSkill: "Ball Lightning",
@@ -1026,7 +1026,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 1,
 		values: [ "4" ],
 		x: -945.255,
-		y: -58.66,
+		y: -58.66
 	},
 	"Mage's Ball Lightning": {
 		baseSkill: "Ball Lightning",
@@ -1036,7 +1036,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 1,
 		values: [ "2", "30" ],
 		x: -940.325,
-		y: 63.214,
+		y: 63.214
 	},
 	"Inner Flames": {
 		connections: [ "Mastery", "Soulfire", "Devouring Flames" ],
@@ -1045,7 +1045,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{8/16/24}", "3" ],
 		x: 255.625,
-		y: 316.583,
+		y: 316.583
 	},
 	"Soulfire": {
 		connections: [ "Inner Flames" ],
@@ -1054,7 +1054,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{1.5/3/4.5}" ],
 		x: 277.195,
-		y: 524.501,
+		y: 524.501
 	},
 	"Devouring Flames": {
 		connections: [ "Inner Flames" ],
@@ -1063,7 +1063,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{1/2/3}", "{4/16/36}" ],
 		x: 532.345,
-		y: 474.579,
+		y: 474.579
 	},
 	"Regenerative Conduit": {
 		connections: [ "Static Discharge", "Shocking Impact", "Mastery" ],
@@ -1072,7 +1072,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: -546.19,
-		y: 219.629,
+		y: 219.629
 	},
 	"Static Discharge": {
 		connections: [ "Regenerative Conduit" ],
@@ -1081,7 +1081,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -747.6,
-		y: 402.772,
+		y: 402.772
 	},
 	"Shocking Impact": {
 		connections: [ "Regenerative Conduit" ],
@@ -1091,7 +1091,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
 		x: -937.78,
-		y: 288.748,
+		y: 288.748
 	},
 	"Icy Veil": {
 		connections: [ "Mastery", "Hoarfrost", "Cold Front" ],
@@ -1100,7 +1100,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -512.78,
-		y: -241.534,
+		y: -241.534
 	},
 	"Hoarfrost": {
 		connections: [ "Icy Veil" ],
@@ -1109,7 +1109,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
 		x: -674.6,
-		y: -423.901,
+		y: -423.901
 	},
 	"Cold Front": {
 		connections: [ "Icy Veil" ],
@@ -1118,7 +1118,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		maxPoints: 3,
 		values: [ "{8/16/24}" ],
 		x: -857.805,
-		y: -313.911,
+		y: -313.911
 	},
 	"Firewall": {
 		connections: [ "Mastery", "Enhanced Firewall" ],
@@ -1133,7 +1133,7 @@ Lucky Hit: Direct damage has up to a 15% chance to spawn a Firewall for 3 second
 		maxPoints: 5,
 		values: [ "30", "", "160", "8" ],
 		x: -104.505,
-		y: 231.796,
+		y: 231.796
 	},
 	"Enhanced Firewall": {
 		baseSkill: "Firewall",
@@ -1143,7 +1143,7 @@ Lucky Hit: Direct damage has up to a 15% chance to spawn a Firewall for 3 second
 		maxPoints: 1,
 		values: [ "2", "25" ],
 		x: -191.11,
-		y: 388.572,
+		y: 388.572
 	},
 	"Wizard's Firewall": {
 		baseSkill: "Firewall",
@@ -1153,7 +1153,7 @@ Lucky Hit: Direct damage has up to a 15% chance to spawn a Firewall for 3 second
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -371.865,
-		y: 493.621,
+		y: 493.621
 	},
 	"Mage's Firewall": {
 		baseSkill: "Firewall",
@@ -1163,7 +1163,7 @@ Lucky Hit: Direct damage has up to a 15% chance to spawn a Firewall for 3 second
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -133.4,
-		y: 525.176,
+		y: 525.176
 	},
 };
 
@@ -1178,7 +1178,7 @@ Ignite a roaring inferno that pulses in and out of the target area, Burning enem
 		maxPoints: 1,
 		values: [ "44.1", "", "295", "8", "50" ],
 		x: 318.105,
-		y: -144.186,
+		y: -144.186
 	},
 	"Prime Inferno": {
 		baseSkill: "Inferno",
@@ -1188,7 +1188,7 @@ Ignite a roaring inferno that pulses in and out of the target area, Burning enem
 		maxPoints: 1,
 		values: [ "4" ],
 		x: 490.8,
-		y: -293.335,
+		y: -293.335
 	},
 	"Supreme Inferno": {
 		baseSkill: "Inferno",
@@ -1198,7 +1198,7 @@ Ignite a roaring inferno that pulses in and out of the target area, Burning enem
 		maxPoints: 1,
 		values: [ "1" ],
 		x: 792.495,
-		y: -324.078,
+		y: -324.078
 	},
 	"Unstable Currents": {
 		connections: [ "Prime Unstable Currents", "Ultimate" ],
@@ -1208,7 +1208,7 @@ Lightning surges within you for {#} seconds. Whenever you cast a Lightning Skill
 		maxPoints: 1,
 		values: [ "68.6", "10" ],
 		x: 314.75,
-		y: 150.596,
+		y: 150.596
 	},
 	"Prime Unstable Currents": {
 		baseSkill: "Unstable Currents",
@@ -1218,7 +1218,7 @@ Lightning surges within you for {#} seconds. Whenever you cast a Lightning Skill
 		maxPoints: 1,
 		values: [ "25" ],
 		x: 558.53,
-		y: 247.643,
+		y: 247.643
 	},
 	"Supreme Unstable Currents": {
 		baseSkill: "Unstable Currents",
@@ -1228,7 +1228,7 @@ Lightning surges within you for {#} seconds. Whenever you cast a Lightning Skill
 		maxPoints: 1,
 		values: [ "0.25" ],
 		x: 615.31,
-		y: 372.135,
+		y: 372.135
 	},
 	"Deep Freeze": {
 		connections: [ "Prime Deep Freeze", "Ultimate" ],
@@ -1240,7 +1240,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 1,
 		values: [ "58.8", "", "4", "20", "200" ],
 		x: -295.855,
-		y: -140.251,
+		y: -140.251
 	},
 	"Prime Deep Freeze": {
 		baseSkill: "Deep Freeze",
@@ -1250,7 +1250,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 1,
 		values: [ "5", "", "6" ],
 		x: -507.53,
-		y: -256.42,
+		y: -256.42
 	},
 	"Supreme Deep Freeze": {
 		baseSkill: "Deep Freeze",
@@ -1260,7 +1260,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 1,
 		values: [ "50" ],
 		x: -799.664,
-		y: -259.82,
+		y: -259.82
 	},
 	"Frostbite": {
 		connections: [ "Permafrost", "Ultimate", "Icy Touch" ],
@@ -1269,7 +1269,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{3/6/9}", "{6/12/18}" ],
 		x: -0.71,
-		y: -295.441,
+		y: -295.441
 	},
 	"Permafrost": {
 		connections: [ "Frostbite", "Snap Freeze" ],
@@ -1278,7 +1278,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -146.565,
-		y: -443.177,
+		y: -443.177
 	},
 	"Snap Freeze": {
 		connections: [ "Permafrost", "Icy Touch" ],
@@ -1287,7 +1287,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: -1.96,
-		y: -586.799,
+		y: -586.799
 	},
 	"Icy Touch": {
 		connections: [ "Frostbite", "Snap Freeze" ],
@@ -1296,7 +1296,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: 135.1,
-		y: -439.918,
+		y: -439.918
 	},
 	"Coursing Currents": {
 		connections: [ "Electrocution", "Conduction", "Ultimate" ],
@@ -1305,7 +1305,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{1/2/3}" ],
 		x: 14.79,
-		y: 281.384,
+		y: 281.384
 	},
 	"Electrocution": {
 		connections: [ "Coursing Currents", "Convulsions" ],
@@ -1314,7 +1314,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{5/10/15}", "5" ],
 		x: 174.065,
-		y: 429.587,
+		y: 429.587
 	},
 	"Convulsions": {
 		connections: [ "Conduction", "Electrocution" ],
@@ -1323,7 +1323,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{3/6/9}", "2" ],
 		x: 24.29,
-		y: 587.361,
+		y: 587.361
 	},
 	"Conduction": {
 		connections: [ "Coursing Currents", "Convulsions" ],
@@ -1332,7 +1332,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{5/10/15}", "2" ],
 		x: -125.19,
-		y: 431.627,
+		y: 431.627
 	},
 	"Immolated Flesh": {
 		connections: [ "Endless Pyre", "Fiery Surge", "Ultimate" ],
@@ -1341,7 +1341,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{4.5/9/13.5}" ],
 		x: 566.69,
-		y: 0.646,
+		y: 0.646
 	},
 	"Endless Pyre": {
 		connections: [ "Pyromania", "Immolated Flesh" ],
@@ -1350,7 +1350,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
 		x: 832.9,
-		y: 75.957,
+		y: 75.957
 	},
 	"Pyromania": {
 		connections: [ "Fiery Surge", "Endless Pyre" ],
@@ -1359,7 +1359,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{3/6/9}", "50" ],
 		x: 1088.14,
-		y: 0.014,
+		y: 0.014
 	},
 	"Fiery Surge": {
 		connections: [ "Pyromania", "Immolated Flesh" ],
@@ -1368,7 +1368,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 		maxPoints: 3,
 		values: [ "{3/6/9}", "3" ],
 		x: 822.8,
-		y: -87.71,
+		y: -87.71
 	},
 };
 
@@ -1380,7 +1380,7 @@ sorcerer["Capstone"] = {
 		maxPoints: 1,
 		values: [ "25" ],
 		x: -562.921,
-		y: 368.895,
+		y: 368.895
 	},
 	"Icefall": {
 		connections: [ "Capstone" ],
@@ -1389,7 +1389,7 @@ sorcerer["Capstone"] = {
 		maxPoints: 1,
 		values: [ "10", "40" ],
 		x: -917.155,
-		y: 368.385,
+		y: 368.385
 	},
 	"Warmth": {
 		connections: [ "Capstone" ],
@@ -1398,7 +1398,7 @@ sorcerer["Capstone"] = {
 		maxPoints: 1,
 		values: [ "50", "1" ],
 		x: 498.261,
-		y: 369.695,
+		y: 369.695
 	},
 	"Esu's Ferocity": {
 		connections: [ "Capstone" ],
@@ -1407,7 +1407,7 @@ sorcerer["Capstone"] = {
 		maxPoints: 1,
 		values: [ "25", "50", "25", "50" ],
 		x: 880.17,
-		y: 371.42,
+		y: 371.42
 	},
 	"Overflowing Energy": {
 		connections: [ "Capstone" ],
@@ -1416,7 +1416,7 @@ sorcerer["Capstone"] = {
 		maxPoints: 1,
 		values: [ "1", "0.1", "0.25" ],
 		x: -200.689,
-		y: 364.71,
+		y: 364.71
 	},
 	"Vyr's Mastery": {
 		connections: [ "Capstone" ],
@@ -1425,7 +1425,7 @@ sorcerer["Capstone"] = {
 		maxPoints: 1,
 		values: [ "10", "20" ],
 		x: 150.695,
-		y: 368.055,
+		y: 368.055
 	},
 };
 

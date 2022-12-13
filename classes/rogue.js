@@ -54,7 +54,7 @@ Quickly stab your victim for {#}% damage and shift, allowing you to move freely 
 		maxPoints: 5,
 		values: [ "1", "", "19", "3" ],
 		x: -366.017,
-		y: -99.39,
+		y: -99.39
 	},
 	"Enhanced Blade Shift": {
 		baseSkill: "Blade Shift",
@@ -64,7 +64,7 @@ Quickly stab your victim for {#}% damage and shift, allowing you to move freely 
 		maxPoints: 1,
 		values: [ "5", "20" ],
 		x: -689.421,
-		y: -194.4,
+		y: -194.4
 	},
 	"Fundamental Blade Shift": {
 		baseSkill: "Blade Shift",
@@ -74,7 +74,7 @@ Quickly stab your victim for {#}% damage and shift, allowing you to move freely 
 		maxPoints: 1,
 		values: [ "5", "2" ],
 		x: -888.151,
-		y: -351.975,
+		y: -351.975
 	},
 	"Primary Blade Shift": {
 		baseSkill: "Blade Shift",
@@ -84,7 +84,7 @@ Quickly stab your victim for {#}% damage and shift, allowing you to move freely 
 		maxPoints: 1,
 		values: [ "15", "20" ],
 		x: -1080.741,
-		y: -206.28,
+		y: -206.28
 	},
 	"Invigorating Strike": {
 		connections: [ "Enhanced Invigorating Strike", "Basic" ],
@@ -96,7 +96,7 @@ Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by
 		maxPoints: 5,
 		values: [ "1", "", "29", "20", "3" ],
 		x: -316.36,
-		y: 145.92,
+		y: 145.92
 	},
 	"Enhanced Invigorating Strike": {
 		baseSkill: "Invigorating Strike",
@@ -106,7 +106,7 @@ Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by
 		maxPoints: 1,
 		values: [ "30" ],
 		x: -600.261,
-		y: 266.575,
+		y: 266.575
 	},
 	"Primary Invigorating Strike": {
 		baseSkill: "Invigorating Strike",
@@ -116,7 +116,7 @@ Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by
 		maxPoints: 1,
 		values: [ "8", "16" ],
 		x: -968.641,
-		y: 324.89,
+		y: 324.89
 	},
 	"Fundamental Invigorating Strike": {
 		baseSkill: "Invigorating Strike",
@@ -126,7 +126,7 @@ Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by
 		maxPoints: 1,
 		values: [ "50", "3" ],
 		x: -720.381,
-		y: 461.245,
+		y: 461.245
 	},
 	"Puncture": {
 		connections: [ "Enhanced Puncture", "Basic" ],
@@ -138,7 +138,7 @@ Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemi
 		maxPoints: 5,
 		values: [ "", "27", "3", "20", "2" ],
 		x: -0.181,
-		y: -213.015,
+		y: -213.015
 	},
 	"Enhanced Puncture": {
 		baseSkill: "Puncture",
@@ -148,7 +148,7 @@ Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemi
 		maxPoints: 1,
 		values: [ "2" ],
 		x: -1.778,
-		y: -381.34,
+		y: -381.34
 	},
 	"Fundamental Puncture": {
 		baseSkill: "Puncture",
@@ -158,7 +158,7 @@ Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemi
 		maxPoints: 1,
 		values: [ "35", "2" ],
 		x: 138.174,
-		y: -551.08,
+		y: -551.08
 	},
 	"Primary Puncture": {
 		baseSkill: "Puncture",
@@ -168,7 +168,7 @@ Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemi
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -152.237,
-		y: -552.125,
+		y: -552.125
 	},
 	"Heartseeker": {
 		connections: [ "Enhanced Heartseeker", "Basic" ],
@@ -180,7 +180,7 @@ Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Criti
 		maxPoints: 5,
 		values: [ "1", "", "28", "3", "4", "15" ],
 		x: 373.738,
-		y: -97.06,
+		y: -97.06
 	},
 	"Enhanced Heartseeker": {
 		baseSkill: "Heartseeker",
@@ -190,7 +190,7 @@ Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Criti
 		maxPoints: 1,
 		values: [ "8", "4" ],
 		x: 681.939,
-		y: -189.45,
+		y: -189.45
 	},
 	"Fundamental Heartseeker": {
 		baseSkill: "Heartseeker",
@@ -200,7 +200,7 @@ Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Criti
 		maxPoints: 1,
 		values: [ "5", "4", "25" ],
 		x: 845.544,
-		y: -356.895,
+		y: -356.895
 	},
 	"Primary Heartseeker": {
 		baseSkill: "Heartseeker",
@@ -210,7 +210,7 @@ Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Criti
 		maxPoints: 1,
 		values: [ "30" ],
 		x: 1040.879,
-		y: -207.155,
+		y: -207.155
 	},
 	"Forceful Arrow": {
 		connections: [ "Enhanced Forceful Arrow", "Basic" ],
@@ -222,7 +222,7 @@ Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the
 		maxPoints: 5,
 		values: [ "1", "", "25", "2" ],
 		x: 315.613,
-		y: 143.41,
+		y: 143.41
 	},
 	"Enhanced Forceful Arrow": {
 		baseSkill: "Forceful Arrow",
@@ -232,7 +232,7 @@ Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the
 		maxPoints: 1,
 		values: [ "15" ],
 		x: 590.964,
-		y: 263.79,
+		y: 263.79
 	},
 	"Fundamental Forceful Arrow": {
 		baseSkill: "Forceful Arrow",
@@ -242,7 +242,7 @@ Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the
 		maxPoints: 1,
 		values: [ "1.5" ],
 		x: 718.164,
-		y: 462.015,
+		y: 462.015
 	},
 	"Primary Forceful Arrow": {
 		baseSkill: "Forceful Arrow",
@@ -251,7 +251,7 @@ Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the
 		id: 19,
 		maxPoints: 1,
 		x: 951.604,
-		y: 324.58,
+		y: 324.58
 	},
 };
 
@@ -271,7 +271,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 		maxPoints: 5,
 		values: [ "30", "", "57", "8", "1.5", "74", "", "", "", "", "", "" ],
 		x: -249.907,
-		y: -196.27,
+		y: -196.27
 	},
 	"Enhanced Twisting Blades": {
 		baseSkill: "Twisting Blades",
@@ -281,7 +281,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 		maxPoints: 1,
 		values: [ "30" ],
 		x: -404.244,
-		y: -347.93,
+		y: -347.93
 	},
 	"Advanced Twisting Blades": {
 		baseSkill: "Twisting Blades",
@@ -291,7 +291,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 		maxPoints: 1,
 		values: [ "10", "5", "30" ],
 		x: -728.365,
-		y: -416.245,
+		y: -416.245
 	},
 	"Improved Twisting Blades": {
 		baseSkill: "Twisting Blades",
@@ -300,7 +300,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 		id: 23,
 		maxPoints: 1,
 		x: -439.554,
-		y: -510.92,
+		y: -510.92
 	},
 	"Flurry": {
 		connections: [ "Enhanced Flurry", "Core" ],
@@ -317,7 +317,7 @@ Combo Points increase damage and grant a +{#}% Attack Speed bonus:
 		maxPoints: 5,
 		values: [ "25", "", "76", "", "", "", "", "", "", "" ],
 		x: -383.598,
-		y: 48,
+		y: 48
 	},
 	"Enhanced Flurry": {
 		baseSkill: "Flurry",
@@ -327,7 +327,7 @@ Combo Points increase damage and grant a +{#}% Attack Speed bonus:
 		maxPoints: 1,
 		values: [ "1", "12" ],
 		x: -715.52,
-		y: 91.45,
+		y: 91.45
 	},
 	"Improved Flurry": {
 		baseSkill: "Flurry",
@@ -337,7 +337,7 @@ Combo Points increase damage and grant a +{#}% Attack Speed bonus:
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -1062.775,
-		y: 63.965,
+		y: 63.965
 	},
 	"Advanced Flurry": {
 		baseSkill: "Flurry",
@@ -347,7 +347,7 @@ Combo Points increase damage and grant a +{#}% Attack Speed bonus:
 		maxPoints: 1,
 		values: [ "2.5" ],
 		x: -963.405,
-		y: 227.51,
+		y: 227.51
 	},
 	"Penetrating Shot": {
 		connections: [ "Enhanced Penetrating Shot", "Core" ],
@@ -364,7 +364,7 @@ Combo Points increase damage and grant a chance to Knock Down for {#} seconds:
 		maxPoints: 5,
 		values: [ "35", "", "89", "", "", "", "", "", "", "" ],
 		x: 2.441,
-		y: 228,
+		y: 228
 	},
 	"Enhanced Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
@@ -374,7 +374,7 @@ Combo Points increase damage and grant a chance to Knock Down for {#} seconds:
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 3.779,
-		y: 395.89,
+		y: 395.89
 	},
 	"Advanced Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
@@ -384,7 +384,7 @@ Combo Points increase damage and grant a chance to Knock Down for {#} seconds:
 		maxPoints: 1,
 		values: [ "50", "3", "1.5" ],
 		x: -148.25,
-		y: 548.025,
+		y: 548.025
 	},
 	"Improved Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
@@ -394,7 +394,7 @@ Combo Points increase damage and grant a chance to Knock Down for {#} seconds:
 		maxPoints: 1,
 		values: [ "3", "20" ],
 		x: 170.702,
-		y: 550.185,
+		y: 550.185
 	},
 	"Rapid Fire": {
 		connections: [ "Enhanced Rapid Fire", "Core" ],
@@ -411,7 +411,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 5,
 		values: [ "25", "", "5", "20", "", "", "", "", "", "" ],
 		x: 435.38,
-		y: -0.04,
+		y: -0.04
 	},
 	"Enhanced Rapid Fire": {
 		baseSkill: "Rapid Fire",
@@ -421,7 +421,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 1,
 		values: [ "5", "25", "5" ],
 		x: 783.72,
-		y: -0.2,
+		y: -0.2
 	},
 	"Advanced Rapid Fire": {
 		baseSkill: "Rapid Fire",
@@ -431,7 +431,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 1,
 		values: [ "30", "3" ],
 		x: 1135.51,
-		y: 81.74,
+		y: 81.74
 	},
 	"Improved Rapid Fire": {
 		baseSkill: "Rapid Fire",
@@ -441,7 +441,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 1,
 		values: [ "15" ],
 		x: 1129.825,
-		y: -80.86,
+		y: -80.86
 	},
 	"Barrage": {
 		connections: [ "Enhanced Barrage", "Core" ],
@@ -458,7 +458,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 5,
 		values: [ "30", "", "5", "26", "20", "1", "40", "", "", "", "", "", "" ],
 		x: 233.866,
-		y: -190.505,
+		y: -190.505
 	},
 	"Enhanced Barrage": {
 		baseSkill: "Barrage",
@@ -467,7 +467,7 @@ Combo Points increase damage and arrows fired:
 		id: 37,
 		maxPoints: 1,
 		x: 415.264,
-		y: -343.385,
+		y: -343.385
 	},
 	"Advanced Barrage": {
 		baseSkill: "Barrage",
@@ -477,7 +477,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 1,
 		values: [ "4", "20" ],
 		x: 733.885,
-		y: -425.085,
+		y: -425.085
 	},
 	"Improved Barrage": {
 		baseSkill: "Barrage",
@@ -487,7 +487,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 436.453,
-		y: -512.535,
+		y: -512.535
 	},
 	"Sturdy": {
 		connections: [ "Core", "Siphoning Strikes" ],
@@ -496,7 +496,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: -629.025,
-		y: -114.855,
+		y: -114.855
 	},
 	"Siphoning Strikes": {
 		connections: [ "Sturdy" ],
@@ -505,7 +505,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 3,
 		values: [ "{1/2/3}" ],
 		x: -1016.41,
-		y: -186.075,
+		y: -186.075
 	},
 	"Stutter Step": {
 		connections: [ "Core" ],
@@ -514,7 +514,7 @@ Combo Points increase damage and arrows fired:
 		maxPoints: 3,
 		values: [ "{5/10/15}", "4" ],
 		x: 429.879,
-		y: 223.895,
+		y: 223.895
 	},
 };
 
@@ -529,7 +529,7 @@ Become Unstoppable and quickly move through the shadows to stab your victim from
 		maxPoints: 5,
 		values: [ "9.0", "", "91", "50", "2" ],
 		x: 4.215,
-		y: -250.75,
+		y: -250.75
 	},
 	"Enhanced Shadow Step": {
 		baseSkill: "Shadow Step",
@@ -539,7 +539,7 @@ Become Unstoppable and quickly move through the shadows to stab your victim from
 		maxPoints: 1,
 		values: [ "8", "3" ],
 		x: 3.415,
-		y: -425.265,
+		y: -425.265
 	},
 	"Methodical Shadow Step": {
 		baseSkill: "Shadow Step",
@@ -549,7 +549,7 @@ Become Unstoppable and quickly move through the shadows to stab your victim from
 		maxPoints: 1,
 		values: [ "2" ],
 		x: -151.635,
-		y: -562.315,
+		y: -562.315
 	},
 	"Disciplined Shadow Step": {
 		baseSkill: "Shadow Step",
@@ -559,7 +559,7 @@ Become Unstoppable and quickly move through the shadows to stab your victim from
 		maxPoints: 1,
 		values: [ "3", "4" ],
 		x: 156.445,
-		y: -567.315,
+		y: -567.315
 	},
 	"Dash": {
 		connections: [ "Enhanced Dash", "Agility" ],
@@ -572,7 +572,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		maxPoints: 5,
 		values: [ "2", "10.0", "", "47" ],
 		x: -440.17,
-		y: 1.75,
+		y: 1.75
 	},
 	"Enhanced Dash": {
 		baseSkill: "Dash",
@@ -582,7 +582,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "20", "5" ],
 		x: -785.115,
-		y: 1.5,
+		y: 1.5
 	},
 	"Methodical Dash": {
 		baseSkill: "Dash",
@@ -592,7 +592,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "0.5", "3" ],
 		x: -1124.97,
-		y: 75.74,
+		y: 75.74
 	},
 	"Disciplined Dash": {
 		baseSkill: "Dash",
@@ -602,7 +602,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "30", "3", "2" ],
 		x: -1127.27,
-		y: -88.195,
+		y: -88.195
 	},
 	"Weapon Mastery": {
 		connections: [ "Agility" ],
@@ -615,7 +615,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "{3/6/9}", "{4/8/12}", "{5/10/15}" ],
 		x: -564.855,
-		y: -257.695,
+		y: -257.695
 	},
 	"Concussive": {
 		connections: [ "Agility" ],
@@ -624,7 +624,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "3" ],
 		x: -567.73,
-		y: 255.705,
+		y: 255.705
 	},
 	"Caltrops": {
 		connections: [ "Enhanced Caltrops", "Agility" ],
@@ -637,7 +637,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 		maxPoints: 5,
 		values: [ "2", "12.0", "", "38", "50", "6" ],
 		x: -0.93,
-		y: 235.52,
+		y: 235.52
 	},
 	"Enhanced Caltrops": {
 		baseSkill: "Caltrops",
@@ -647,7 +647,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 		maxPoints: 1,
 		values: [ "3" ],
 		x: 3.375,
-		y: 412.295,
+		y: 412.295
 	},
 	"Methodical Caltrops": {
 		baseSkill: "Caltrops",
@@ -657,7 +657,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 		maxPoints: 1,
 		values: [ "20" ],
 		x: -148.98,
-		y: 587.832,
+		y: 587.832
 	},
 	"Disciplined Caltrops": {
 		baseSkill: "Caltrops",
@@ -667,7 +667,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 		maxPoints: 1,
 		values: [ "5" ],
 		x: 175.28,
-		y: 588.884,
+		y: 588.884
 	},
 	"Rugged": {
 		connections: [ "Agility", "Reactive Defense" ],
@@ -676,7 +676,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 572.705,
-		y: 256.37,
+		y: 256.37
 	},
 	"Reactive Defense": {
 		connections: [ "Rugged" ],
@@ -685,7 +685,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 		maxPoints: 3,
 		values: [ "{4.5/9/13.5}" ],
 		x: 851.645,
-		y: 376.865,
+		y: 376.865
 	},
 };
 
@@ -698,7 +698,7 @@ Surround yourself with up to {#} protective shadows. Gain +{#}% Damage Reduction
 		maxPoints: 5,
 		values: [ "20.0", "5", "8.0" ],
 		x: -370.825,
-		y: -129.275,
+		y: -129.275
 	},
 	"Enhanced Dark Shroud": {
 		baseSkill: "Dark Shroud",
@@ -708,7 +708,7 @@ Surround yourself with up to {#} protective shadows. Gain +{#}% Damage Reduction
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -656.66,
-		y: -232.23,
+		y: -232.23
 	},
 	"Subverting Dark Shroud": {
 		baseSkill: "Dark Shroud",
@@ -718,7 +718,7 @@ Surround yourself with up to {#} protective shadows. Gain +{#}% Damage Reduction
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -809.69,
-		y: -406.165,
+		y: -406.165
 	},
 	"Countering Dark Shroud": {
 		baseSkill: "Dark Shroud",
@@ -728,7 +728,7 @@ Surround yourself with up to {#} protective shadows. Gain +{#}% Damage Reduction
 		maxPoints: 1,
 		values: [ "2", "10" ],
 		x: -1027.384,
-		y: -253.805,
+		y: -253.805
 	},
 	"Smoke Grenade": {
 		connections: [ "Enhanced Smoke Grenade", "Subterfuge" ],
@@ -738,7 +738,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		maxPoints: 5,
 		values: [ "15.0", "4" ],
 		x: -4.755,
-		y: -197.595,
+		y: -197.595
 	},
 	"Enhanced Smoke Grenade": {
 		baseSkill: "Smoke Grenade",
@@ -748,7 +748,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		maxPoints: 1,
 		values: [ "15" ],
 		x: -7.545,
-		y: -376.035,
+		y: -376.035
 	},
 	"Subverting Smoke Grenade": {
 		baseSkill: "Smoke Grenade",
@@ -758,7 +758,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		maxPoints: 1,
 		values: [ "20" ],
 		x: -186.285,
-		y: -564.435,
+		y: -564.435
 	},
 	"Countering Smoke Grenade": {
 		baseSkill: "Smoke Grenade",
@@ -768,7 +768,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		maxPoints: 1,
 		values: [ "25", "1", "2" ],
 		x: 187.08,
-		y: -565.1,
+		y: -565.1
 	},
 	"Agile": {
 		connections: [ "Subterfuge" ],
@@ -777,7 +777,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		maxPoints: 3,
 		values: [ "{3/6/9}", "2" ],
 		x: 480.215,
-		y: -242.9,
+		y: -242.9
 	},
 	"Exploit": {
 		connections: [ "Subterfuge", "Malice" ],
@@ -786,7 +786,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
 		x: 471.72,
-		y: 246.245,
+		y: 246.245
 	},
 	"Malice": {
 		connections: [ "Exploit" ],
@@ -795,7 +795,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: 735.645,
-		y: 371.04,
+		y: 371.04
 	},
 	"Poison Trap": {
 		connections: [ "Enhanced Poison Trap", "Subterfuge" ],
@@ -807,7 +807,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		maxPoints: 5,
 		values: [ "10.0", "", "1.25", "435", "9" ],
 		x: 456.495,
-		y: 1.1,
+		y: 1.1
 	},
 	"Enhanced Poison Trap": {
 		baseSkill: "Poison Trap",
@@ -817,7 +817,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 804.305,
-		y: 1.625,
+		y: 1.625
 	},
 	"Countering Poison Trap": {
 		baseSkill: "Poison Trap",
@@ -827,7 +827,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 1092.46,
-		y: 65.025,
+		y: 65.025
 	},
 	"Subverting Poison Trap": {
 		baseSkill: "Poison Trap",
@@ -837,7 +837,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 1084.135,
-		y: -86.245,
+		y: -86.245
 	},
 	"Concealment": {
 		connections: [ "Enhanced Concealment", "Subterfuge" ],
@@ -849,7 +849,7 @@ Using an attack Skill during Concealment will break Concealment.`,
 		maxPoints: 5,
 		values: [ "20.0", "4", "25" ],
 		x: -343.91,
-		y: 148.36,
+		y: 148.36
 	},
 	"Enhanced Concealment": {
 		baseSkill: "Concealment",
@@ -859,7 +859,7 @@ Using an attack Skill during Concealment will break Concealment.`,
 		maxPoints: 1,
 		values: [ "40" ],
 		x: -618.815,
-		y: 247.23,
+		y: 247.23
 	},
 	"Countering Concealment": {
 		baseSkill: "Concealment",
@@ -868,7 +868,7 @@ Using an attack Skill during Concealment will break Concealment.`,
 		id: 141,
 		maxPoints: 1,
 		x: -974.974,
-		y: 310.71,
+		y: 310.71
 	},
 	"Subverting Concealment": {
 		baseSkill: "Concealment",
@@ -878,7 +878,7 @@ Using an attack Skill during Concealment will break Concealment.`,
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -774.595,
-		y: 429.055,
+		y: 429.055
 	},
 };
 
@@ -890,7 +890,7 @@ rogue["Imbuements"] = {
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: -677.685,
-		y: 0.849,
+		y: 0.849
 	},
 	"Alchemical Advantage": {
 		connections: [ "Deadly Venom" ],
@@ -899,7 +899,7 @@ rogue["Imbuements"] = {
 		maxPoints: 3,
 		values: [ "{1/2/3}", "15" ],
 		x: -1003.199,
-		y: -84.462,
+		y: -84.462
 	},
 	"Debilitating Toxins": {
 		connections: [ "Deadly Venom" ],
@@ -908,7 +908,7 @@ rogue["Imbuements"] = {
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -997.049,
-		y: 84.105,
+		y: 84.105
 	},
 	"Poison Imbuement": {
 		connections: [ "Enhanced Poison Imbuement", "Imbuements" ],
@@ -920,7 +920,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 		maxPoints: 5,
 		values: [ "9.0", "", "2", "105", "5" ],
 		x: -230.87,
-		y: -173.174,
+		y: -173.174
 	},
 	"Enhanced Poison Imbuement": {
 		baseSkill: "Poison Imbuement",
@@ -930,7 +930,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 		maxPoints: 1,
 		values: [ "1" ],
 		x: -430.12,
-		y: -326.753,
+		y: -326.753
 	},
 	"Mixed Poison Imbuement": {
 		baseSkill: "Poison Imbuement",
@@ -940,7 +940,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 		maxPoints: 1,
 		values: [ "30" ],
 		x: -478.5,
-		y: -527.447,
+		y: -527.447
 	},
 	"Blended Poison Imbuement": {
 		baseSkill: "Poison Imbuement",
@@ -950,7 +950,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 		maxPoints: 1,
 		values: [ "30" ],
 		x: -758.755,
-		y: -423.11,
+		y: -423.11
 	},
 	"Shadow Crash": {
 		connections: [ "Consuming Shadows", "Imbuements" ],
@@ -959,7 +959,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 		maxPoints: 3,
 		values: [ "10", "{0.5/1/1.5}" ],
 		x: 707,
-		y: -120.229,
+		y: -120.229
 	},
 	"Consuming Shadows": {
 		connections: [ "Shadow Crash" ],
@@ -968,7 +968,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
 		x: 1083.045,
-		y: -198.046,
+		y: -198.046
 	},
 	"Shadow Imbuement": {
 		connections: [ "Enhanced Shadow Imbuement", "Imbuements" ],
@@ -980,7 +980,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 		maxPoints: 5,
 		values: [ "9.0", "", "2", "39", "4" ],
 		x: 218.89,
-		y: -173.644,
+		y: -173.644
 	},
 	"Enhanced Shadow Imbuement": {
 		baseSkill: "Shadow Imbuement",
@@ -990,7 +990,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 		maxPoints: 1,
 		values: [ "30", "14" ],
 		x: 390.51,
-		y: -324.321,
+		y: -324.321
 	},
 	"Mixed Shadow Imbuement": {
 		baseSkill: "Shadow Imbuement",
@@ -1000,7 +1000,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 		maxPoints: 1,
 		values: [ "12", "8" ],
 		x: 459.19,
-		y: -522.303,
+		y: -522.303
 	},
 	"Blended Shadow Imbuement": {
 		baseSkill: "Shadow Imbuement",
@@ -1009,7 +1009,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 		id: 135,
 		maxPoints: 1,
 		x: 734.355,
-		y: -419.381,
+		y: -419.381
 	},
 	"Potency": {
 		connections: [ "Rapid Imbuement", "Imbuements", "Precision Imbuement" ],
@@ -1018,7 +1018,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
 		x: -3.615,
-		y: 295.163,
+		y: 295.163
 	},
 	"Rapid Imbuement": {
 		connections: [ "Potency", "Trick Attacks" ],
@@ -1027,7 +1027,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -184.115,
-		y: 448.624,
+		y: 448.624
 	},
 	"Trick Attacks": {
 		connections: [ "Rapid Imbuement", "Precision Imbuement" ],
@@ -1036,7 +1036,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -2.465,
-		y: 600.38,
+		y: 600.38
 	},
 	"Precision Imbuement": {
 		connections: [ "Potency", "Trick Attacks" ],
@@ -1045,7 +1045,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 159.45,
-		y: 446.67,
+		y: 446.67
 	},
 	"Cold Imbuement": {
 		connections: [ "Enhanced Cold Imbuement", "Imbuements" ],
@@ -1055,7 +1055,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 		maxPoints: 5,
 		values: [ "9.0", "2", "50", "15" ],
 		x: 308.365,
-		y: 139.104,
+		y: 139.104
 	},
 	"Enhanced Cold Imbuement": {
 		baseSkill: "Cold Imbuement",
@@ -1065,7 +1065,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 		maxPoints: 1,
 		values: [ "30", "3" ],
 		x: 554.59,
-		y: 259.627,
+		y: 259.627
 	},
 	"Mixed Cold Imbuement": {
 		baseSkill: "Cold Imbuement",
@@ -1075,7 +1075,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 		maxPoints: 1,
 		values: [ "30" ],
 		x: 644.64,
-		y: 422.055,
+		y: 422.055
 	},
 	"Blended Cold Imbuement": {
 		baseSkill: "Cold Imbuement",
@@ -1085,7 +1085,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 		maxPoints: 1,
 		values: [ "20", "3" ],
 		x: 869.38,
-		y: 284.244,
+		y: 284.244
 	},
 	"Frigid Finesse": {
 		connections: [ "Chilling Weight", "Imbuements" ],
@@ -1094,7 +1094,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 		maxPoints: 3,
 		values: [ "{5/10/15}", "{10/20/30}" ],
 		x: 704.565,
-		y: 26.567,
+		y: 26.567
 	},
 	"Chilling Weight": {
 		connections: [ "Frigid Finesse" ],
@@ -1103,7 +1103,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
 		x: 1107.46,
-		y: 45.936,
+		y: 45.936
 	},
 };
 
@@ -1115,7 +1115,7 @@ rogue["Ultimate"] = {
 		maxPoints: 3,
 		values: [ "{10/20/30}", "8" ],
 		x: -220.035,
-		y: 292.515,
+		y: 292.515
 	},
 	"Second Wind": {
 		connections: [ "Innervation" ],
@@ -1124,7 +1124,7 @@ rogue["Ultimate"] = {
 		maxPoints: 3,
 		values: [ "100", "{5/10/15}", "5" ],
 		x: -560.018,
-		y: 365.58,
+		y: 365.58
 	},
 	"Alchemist's Fortune": {
 		connections: [ "Innervation" ],
@@ -1133,7 +1133,7 @@ rogue["Ultimate"] = {
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -230.402,
-		y: 466.255,
+		y: 466.255
 	},
 	"Shadow Clone": {
 		connections: [ "Prime Shadow Clone", "Ultimate" ],
@@ -1144,7 +1144,7 @@ The shadow deals {#}% of your damage.`,
 		maxPoints: 1,
 		values: [ "60.0", "15", "60" ],
 		x: -3.973,
-		y: -219.38,
+		y: -219.38
 	},
 	"Prime Shadow Clone": {
 		baseSkill: "Shadow Clone",
@@ -1154,7 +1154,7 @@ The shadow deals {#}% of your damage.`,
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -167.644,
-		y: -390.21,
+		y: -390.21
 	},
 	"Supreme Shadow Clone": {
 		baseSkill: "Shadow Clone",
@@ -1163,7 +1163,7 @@ The shadow deals {#}% of your damage.`,
 		id: 106,
 		maxPoints: 1,
 		x: 46.146,
-		y: -540.832,
+		y: -540.832
 	},
 	"Aftermath": {
 		connections: [ "Ultimate" ],
@@ -1172,7 +1172,7 @@ The shadow deals {#}% of your damage.`,
 		maxPoints: 3,
 		values: [ "{25/50/75}" ],
 		x: -641.788,
-		y: -70.895,
+		y: -70.895
 	},
 	"Death Trap": {
 		connections: [ "Prime Death Trap", "Ultimate" ],
@@ -1184,7 +1184,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		maxPoints: 1,
 		values: [ "45.0", "", "1.25", "316" ],
 		x: -380.217,
-		y: 127.97,
+		y: 127.97
 	},
 	"Prime Death Trap": {
 		baseSkill: "Death Trap",
@@ -1193,7 +1193,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		id: 109,
 		maxPoints: 1,
 		x: -780.253,
-		y: 70.7,
+		y: 70.7
 	},
 	"Supreme Death Trap": {
 		baseSkill: "Death Trap",
@@ -1203,7 +1203,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -1056.268,
-		y: 203.775,
+		y: 203.775
 	},
 	"Trap Mastery": {
 		connections: [ "Ultimate" ],
@@ -1212,7 +1212,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		maxPoints: 3,
 		values: [ "{4/8/12}", "4" ],
 		x: -430.499,
-		y: -254.43,
+		y: -254.43
 	},
 	"Rain of Arrows": {
 		connections: [ "Prime Rain of Arrows", "Ultimate" ],
@@ -1224,7 +1224,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		maxPoints: 1,
 		values: [ "60.0", "", "2", "126" ],
 		x: 462.258,
-		y: 45.05,
+		y: 45.05
 	},
 	"Prime Rain of Arrows": {
 		baseSkill: "Rain of Arrows",
@@ -1234,7 +1234,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 848.377,
-		y: 93.275,
+		y: 93.275
 	},
 	"Supreme Rain of Arrows": {
 		baseSkill: "Rain of Arrows",
@@ -1244,7 +1244,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		maxPoints: 1,
 		values: [ "3" ],
 		x: 1021.102,
-		y: 235.53,
+		y: 235.53
 	},
 	"Adrenaline Rush": {
 		connections: [ "Impetus", "Haste", "Ultimate" ],
@@ -1253,7 +1253,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 361.866,
-		y: 285.235,
+		y: 285.235
 	},
 	"Impetus": {
 		connections: [ "Adrenaline Rush" ],
@@ -1262,7 +1262,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		maxPoints: 3,
 		values: [ "15", "{7/14/21}" ],
 		x: 382.893,
-		y: 470.05,
+		y: 470.05
 	},
 	"Haste": {
 		connections: [ "Adrenaline Rush" ],
@@ -1271,7 +1271,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		maxPoints: 3,
 		values: [ "50", "{5/10/15}", "50", "{5/10/15}" ],
 		x: 700.747,
-		y: 367.135,
+		y: 367.135
 	},
 };
 
@@ -1290,7 +1290,7 @@ While at {#} stacks of Momentum you gain:
 		maxPoints: 1,
 		values: [ "8", "3", "20", "30", "15" ],
 		x: -744.098,
-		y: 297.065,
+		y: 297.065
 	},
 	"Close Quarters Combat": {
 		connections: [ "Capstone" ],
@@ -1302,7 +1302,7 @@ While both Attack Speed bonuses are active, you gain:
 		maxPoints: 1,
 		values: [ "5", "8", "75", "10", "15" ],
 		x: -366.255,
-		y: 296.375,
+		y: 296.375
 	},
 	"Victimize": {
 		connections: [ "Capstone" ],
@@ -1311,7 +1311,7 @@ While both Attack Speed bonuses are active, you gain:
 		maxPoints: 1,
 		values: [ "30", "23" ],
 		x: 380.665,
-		y: 296.475,
+		y: 296.475
 	},
 	"Exposure": {
 		connections: [ "Capstone" ],
@@ -1321,7 +1321,7 @@ While both Attack Speed bonuses are active, you gain:
 		maxPoints: 1,
 		values: [ "35", "25", "40", "0.25" ],
 		x: 756.707,
-		y: 296.195,
+		y: 296.195
 	},
 	"Precision": {
 		connections: [ "Capstone" ],
@@ -1332,7 +1332,7 @@ When you reach maximum Precision, your next Ranged Skill is a guaranteed Critica
 		maxPoints: 1,
 		values: [ "4", "20", "40" ],
 		x: 6.915,
-		y: 296.525,
+		y: 296.525
 	},
 };
 

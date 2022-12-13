@@ -49,7 +49,7 @@ function populateMap(map, object, keys) {
 	let key = keys.shift();
 	let value = object[key];
 
-	if (typeof value == "object") value = populateMap(new Map(), value, Object.keys(value));
+	if (typeof value === "object" && value !== null) value = populateMap(new Map(), value, Object.keys(value));
 
 	map.set(key, value);
 
@@ -186,7 +186,7 @@ function handleNodeColorInput(event) {
 	pixiNodes.forEach(curNode => {
 		if (curNode.groupName != undefined) {
 			const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-			if (allocatedPoints > 0) curNode.children[5].updateLineStyle(lineStyleThickSquare);
+			if (allocatedPoints > 0) curNode.children[curNode.children.length > 3 ? 5 : 2].updateLineStyle(lineStyleThickSquare);
 		}
 	});
 
@@ -373,9 +373,9 @@ function handleSaveButton() {
 			if (curNode.groupName != undefined) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 				if (allocatedPoints > 0) {
-					//const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
-					const uniqueNodeId = Number(curNode.nodeData.get("id"));
-					nodeData[uniqueNodeId] = curNode.nodeData.get("allocatedPoints");
+					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
+					const uniqueNodeId = curNode.nodeData.get("id");
+					nodeData[uniqueNodeId == undefined ? fullNodeName : uniqueNodeId] = curNode.nodeData.get("allocatedPoints");
 				}
 			}
 		});
@@ -397,11 +397,11 @@ function handleReloadButton() {
 			delete nodeData.className;
 			function compareNodes(firstNode, secondNode) {
 				const firstFullNodeName = firstNode.groupName + ": " + firstNode.nodeName;
-				const firstUniqueNodeId = Number(firstNode.nodeData.get("id"));
+				const firstUniqueNodeId = firstNode.nodeData.get("id");
 				const firstSavedPoints = nodeData[firstUniqueNodeId] == undefined ? (nodeData[firstFullNodeName] == undefined ? 0 : nodeData[firstFullNodeName]) : nodeData[firstUniqueNodeId];
 
 				const secondFullNodeName = secondNode.groupName + ": " + secondNode.nodeName;
-				const secondUniqueNodeId = Number(secondNode.nodeData.get("id"));
+				const secondUniqueNodeId = secondNode.nodeData.get("id");
 				const secondSavedPoints = nodeData[secondUniqueNodeId] == undefined ? (nodeData[secondFullNodeName] == undefined ? 0 : nodeData[secondFullNodeName]) : nodeData[secondUniqueNodeId];
 
 				return firstSavedPoints - secondSavedPoints;
@@ -409,7 +409,7 @@ function handleReloadButton() {
 			function processNode(curNode) {
 				if (curNode.groupName != undefined) {
 					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
-					const uniqueNodeId = Number(curNode.nodeData.get("id"));
+					const uniqueNodeId = curNode.nodeData.get("id");
 					const savedPoints = nodeData[uniqueNodeId] == undefined ? (nodeData[fullNodeName] == undefined ? 0 : nodeData[fullNodeName]) : nodeData[uniqueNodeId];
 
 					const unusedPoints = getUnusedPoints(false);
@@ -419,7 +419,7 @@ function handleReloadButton() {
 					const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
 
 					if (newPoints < allocatedPoints || canAllocate(curNode)) {
-						pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+						if (curNode.groupName != "Book of the Dead") pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 						updateNodePoints(curNode, newPoints);
 					}
 				}
@@ -562,7 +562,9 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	}
 }
 function canAllocate(curNode) {
-	if (curNode.groupName == "Capstone") {
+	if (curNode.groupName == "Book of the Dead") {
+		return true;
+	} else if (curNode.groupName == "Capstone") {
 		return pixiNodes.find(pixiNode => {
 			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
 			if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
@@ -593,105 +595,155 @@ function canAllocate(curNode) {
 	return true;
 }
 function updateNodePoints(curNode, newPoints) {
-	if (curNode.nodeData.get("allocatedPoints") == 0 && newPoints == 0) return;
+	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+	if (allocatedPoints == 0 && newPoints == 0) return;
 
-	curNode.nodeData.set("allocatedPoints", newPoints);
-	curNode.children[2].text = newPoints + "/" + curNode.nodeData.get("maxPoints");
-
-	if (newPoints > 0) {
+	const maxPoints = curNode.nodeData.get("maxPoints");
+	if (maxPoints == 0) {
 		curNode.children[1].style.fontWeight = "bold";
-		curNode.children[2].style.fontWeight = "bold";
-		curNode.children[3].children[0].style.fontWeight = "bold";
-		curNode.children[4].children[0].style.fontWeight = "bold";
-		curNode.children[5].updateLineStyle(lineStyleThickSquare);
 	} else {
-		curNode.children[1].style.fontWeight = "normal";
-		curNode.children[2].style.fontWeight = "normal";
-		curNode.children[3].children[0].style.fontWeight = "normal";
-		curNode.children[4].children[0].style.fontWeight = "normal";
-		curNode.children[5].updateLineStyle(lineStyleThinSquare);
-	}
+		curNode.nodeData.set("allocatedPoints", newPoints);
+		curNode.children[2].text = newPoints + "/" + maxPoints;
 
-	const className = $(classString).val();
-	const classData = classMap.get(className);
-	if (classData != undefined) {
-		const trunkData = classData.get("Trunk Data");
-		pixiNodes.filter(pixiNode => trunkData.has(pixiNode.nodeName)).forEach(groupNode => {
-			const requiredPoints = groupNode.nodeData.get("requiredPoints");
-			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
-			if (validConnection) {
-				groupNode.children[1].style.fontWeight = "bold";
-				groupNode.children[2].updateLineStyle(lineStyleThickSquare);
+		if (newPoints > 0) {
+			curNode.children[1].style.fontWeight = "bold";
+			if (curNode.children.length > 3) {
+				curNode.children[2].style.fontWeight = "bold";
+				curNode.children[3].children[0].style.fontWeight = "bold";
+				curNode.children[4].children[0].style.fontWeight = "bold";
+				curNode.children[5].updateLineStyle(lineStyleThickSquare);
 			} else {
-				groupNode.children[1].style.fontWeight = "normal";
-				groupNode.children[2].updateLineStyle(lineStyleThinSquare);
+				curNode.children[2].updateLineStyle(lineStyleThickSquare);
 			}
-		});
+		} else {
+			curNode.children[1].style.fontWeight = "normal";
+			if (curNode.children.length > 3) {
+				curNode.children[2].style.fontWeight = "normal";
+				curNode.children[3].children[0].style.fontWeight = "normal";
+				curNode.children[4].children[0].style.fontWeight = "normal";
+				curNode.children[5].updateLineStyle(lineStyleThinSquare);
+			} else {
+				curNode.children[2].updateLineStyle(lineStyleThinSquare);
+			}
+		}
+
+		const className = $(classString).val();
+		const classData = classMap.get(className);
+		if (classData != undefined) {
+			const trunkData = classData.get("Trunk Data");
+			pixiNodes.filter(pixiNode => trunkData.has(pixiNode.nodeName)).forEach(groupNode => {
+				const requiredPoints = groupNode.nodeData.get("requiredPoints");
+				const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
+				if (validConnection) {
+					groupNode.children[1].style.fontWeight = "bold";
+					groupNode.children[2].updateLineStyle(lineStyleThickSquare);
+				} else {
+					groupNode.children[1].style.fontWeight = "normal";
+					groupNode.children[2].updateLineStyle(lineStyleThinSquare);
+				}
+			});
+		}
 	}
 
 	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
 }
-function handlePlusButton(curNode) {
-	if (getUnusedPoints(false) <= 0 || !canAllocate(curNode)) return;
-
-	let validConnection = false;
-	const nodeConnections = curNode.nodeData.get("connections");
-	for (const connectedNode of nodeConnections.values()) {
-		for (const parentNode of pixiNodes) {
-			if (parentNode.nodeName == connectedNode) {
-				if (parentNode.groupName == undefined) {
-					const requiredPoints = parentNode.nodeData.get("requiredPoints");
-					validConnection = requiredPoints <= getAllocatedSkillPoints(parentNode.nodeName);
-				} else {
-					validConnection = parentNode.nodeData.get("allocatedPoints") > 0;
-				}
-				break;
+function handleToggleButton(curNode) {
+	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+	if (allocatedPoints == 0) {
+		handlePlusButton(curNode);
+		if (curNode.groupName == "Book of the Dead") {
+			const exclusiveNodes = curNode.nodeData.get("exclusiveNodes");
+			if (exclusiveNodes != undefined) {
+				pixiNodes.forEach(pixiNode => {
+					if (pixiNode.groupName == "Book of the Dead" && pixiNode != curNode && exclusiveNodes.includes(pixiNode.nodeName)) {
+						handleMinusButton(pixiNode);
+					}
+				});
 			}
 		}
-		if (validConnection) break;
+	} else {
+		handleMinusButton(curNode);
 	}
-	if (!validConnection) return;
+}
+function handlePlusButton(curNode) {
+	if (!canAllocate(curNode)) return;
 
-	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-	const maxPoints = curNode.nodeData.get("maxPoints");
-	const newPoints = Math.min(allocatedPoints + 1, maxPoints);
+	if (curNode.groupName == "Book of the Dead") {
+		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+		const maxPoints = curNode.nodeData.get("maxPoints");
+		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
 
-	if (newPoints != allocatedPoints) {
-		pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) + 1);
-		updateNodePoints(curNode, newPoints);
-		updateCharacterLevel();
-		drawTooltip(curNode, newPoints > 1);
+		if (newPoints != allocatedPoints) updateNodePoints(curNode, newPoints);
+	} else {
+		if (getUnusedPoints(false) <= 0) return;
+
+		let validConnection = false;
+		const nodeConnections = curNode.nodeData.get("connections");
+		for (const connectedNode of nodeConnections.values()) {
+			for (const parentNode of pixiNodes) {
+				if (parentNode.nodeName == connectedNode) {
+					if (parentNode.groupName == undefined) {
+						const requiredPoints = parentNode.nodeData.get("requiredPoints");
+						validConnection = requiredPoints <= getAllocatedSkillPoints(parentNode.nodeName);
+					} else {
+						validConnection = parentNode.nodeData.get("allocatedPoints") > 0;
+					}
+					break;
+				}
+			}
+			if (validConnection) break;
+		}
+		if (!validConnection) return;
+
+		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+		const maxPoints = curNode.nodeData.get("maxPoints");
+		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
+
+		if (newPoints != allocatedPoints) {
+			pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) + 1);
+			updateNodePoints(curNode, newPoints);
+			updateCharacterLevel();
+			drawTooltip(curNode, newPoints > 1);
+		}
 	}
 }
 function handleMinusButton(curNode) {
-	let validConnection = false;
-	const nodeConnections = curNode.nodeData.get("connections");
-	for (const connectedNode of nodeConnections.values()) {
-		for (const parentNode of pixiNodes) {
-			if (parentNode.nodeName == connectedNode) {
-				if (parentNode.groupName == undefined) {
-					const requiredPoints = parentNode.nodeData.get("requiredPoints");
-					validConnection = requiredPoints <= getAllocatedSkillPoints(parentNode.nodeName);
-				} else {
-					validConnection = parentNode.nodeData.get("allocatedPoints") > 0;
+	if (curNode.groupName == "Book of the Dead") {
+		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+		const maxPoints = curNode.nodeData.get("maxPoints");
+		const newPoints = Math.max(allocatedPoints - 1, 0);
+
+		if (newPoints != allocatedPoints) updateNodePoints(curNode, newPoints);
+	} else {
+		let validConnection = false;
+		const nodeConnections = curNode.nodeData.get("connections");
+		for (const connectedNode of nodeConnections.values()) {
+			for (const parentNode of pixiNodes) {
+				if (parentNode.nodeName == connectedNode) {
+					if (parentNode.groupName == undefined) {
+						const requiredPoints = parentNode.nodeData.get("requiredPoints");
+						validConnection = requiredPoints <= getAllocatedSkillPoints(parentNode.nodeName);
+					} else {
+						validConnection = parentNode.nodeData.get("allocatedPoints") > 0;
+					}
+					break;
 				}
-				break;
 			}
+			if (validConnection) break;
 		}
-		if (validConnection) break;
-	}
-	if (!validConnection) return;
+		if (!validConnection) return;
 
-	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-	const maxPoints = curNode.nodeData.get("maxPoints");
-	const newPoints = Math.max(allocatedPoints - 1, 0);
+		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+		const maxPoints = curNode.nodeData.get("maxPoints");
+		const newPoints = Math.max(allocatedPoints - 1, 0);
 
-	if (newPoints != allocatedPoints) {
-		pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - 1);
-		updateNodePoints(curNode, newPoints);
-		validateAllDependentNodes();
-		updateCharacterLevel();
-		drawTooltip(curNode, allocatedPoints > 1);
+		if (newPoints != allocatedPoints) {
+			pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - 1);
+			updateNodePoints(curNode, newPoints);
+			validateAllDependentNodes();
+			updateCharacterLevel();
+			drawTooltip(curNode, allocatedPoints > 1);
+		}
 	}
 }
 // returns the number of allocated skill points in every node leading up to (but not including) groupName
@@ -758,12 +810,17 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		y += branchData.get("y");
 	}
 
+	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
+	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
+
+	const maxLabelSize = _nodeWidth > nodeWidth ? Math.floor(6 * _nodeWidth / nodeWidth) : 6;
+
 	let nameFontSize = 36;
 	let displayName = nodeName;
-	if (nodeName.length > 6) {
+	if (nodeName.length > maxLabelSize) {
 		displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
 	}
-	if (displayName.length > 4) {
+	if (displayName.length > maxLabelSize - 2) {
 		nameFontSize = 32;
 	}
 
@@ -774,16 +831,18 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		fontFamily: fontFamily,
 		fontSize: nameFontSize * 4,
 		fontVariant: "small-caps",
-		width: nodeWidth * 4,
+		width: _nodeWidth * 4,
 	});
 	nodeText.scaleMode = PIXI.SCALE_MODES.LINEAR;
 	nodeText.scale.set(0.25);
 	nodeText.anchor.set(0.5);
 
+	const allocatedPoints = nodeData.get("allocatedPoints");
+	const maxPoints = nodeData.get("maxPoints");
+	const requiredPoints = nodeData.get("requiredPoints");
+
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined) {
-		const allocatedPoints = nodeData.get("allocatedPoints");
-		const maxPoints = nodeData.get("maxPoints");
+	if (groupName != undefined && groupName != "Book of the Dead" && maxPoints != 0) {
 		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
 			align: "right",
 			cacheAsBitmap: true,
@@ -791,28 +850,28 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			fontFamily: fontFamily,
 			fontSize: 24 * 4,
 			fontVariant: "small-caps",
-			width: nodeWidth * 4,
+			width: _nodeWidth * 4,
 		});
 		nodeText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
 		nodeText2.scale.set(0.25);
 		nodeText2.anchor.set(0.5);
-		nodeText2.x = (nodeWidth - nodeText2.width) / 2 - 5;
-		nodeText2.y = (nodeText2.height - nodeHeight) / 2 + 2;
+		nodeText2.x = (_nodeWidth - nodeText2.width) / 2 - 5;
+		nodeText2.y = (nodeText2.height - _nodeHeight) / 2 + 2;
 
-		const nodeText3 = new PIXI.Text("+", {
+		nodeText3 = new PIXI.Text("+", {
 			align: "right",
 			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * 4,
 			fontVariant: "small-caps",
-			width: nodeWidth * 4,
+			width: _nodeWidth * 4,
 		});
 		nodeText3.scaleMode = PIXI.SCALE_MODES.LINEAR;
 		nodeText3.scale.set(0.25);
 		nodeText3.anchor.set(0.5);
-		nodeText3.x = (nodeWidth - nodeText3.width) / 2;
-		nodeText3.y = (nodeHeight - nodeText3.height) / 2 + 4;
+		nodeText3.x = (_nodeWidth - nodeText3.width) / 2;
+		nodeText3.y = (_nodeHeight - nodeText3.height) / 2 + 4;
 
 		nodeText4 = new PIXI.Text("–", {
 			align: "left",
@@ -821,13 +880,13 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * 4,
 			fontVariant: "small-caps",
-			width: nodeWidth * 4,
+			width: _nodeWidth * 4,
 		});
 		nodeText4.scaleMode = PIXI.SCALE_MODES.LINEAR;
 		nodeText4.scale.set(0.25);
 		nodeText4.anchor.set(0.5);
-		nodeText4.x = (nodeText4.width - nodeWidth) / 2 + 4;
-		nodeText4.y = (nodeHeight - nodeText4.height) / 2;
+		nodeText4.x = (nodeText4.width - _nodeWidth) / 2 + 4;
+		nodeText4.y = (_nodeHeight - nodeText4.height) / 2;
 
 		plusContainer = new PIXI.Container();
 		plusContainer.cursor = "pointer";
@@ -842,26 +901,26 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 
 	const nodeBackground = new PIXI.Graphics();
 	nodeBackground.beginFill(backgroundColor);
-	nodeBackground.drawRect(0, 0, nodeWidth, nodeHeight);
+	nodeBackground.drawRect(0, 0, _nodeWidth, _nodeHeight);
 	nodeBackground.alpha = backgroundOpacity * 2 / 3;
-	nodeBackground.pivot.x = nodeWidth / 2;
-	nodeBackground.pivot.y = nodeHeight / 2;
+	nodeBackground.pivot.x = _nodeWidth / 2;
+	nodeBackground.pivot.y = _nodeHeight / 2;
 
 	const nodeBorder = new PIXI.Graphics();
-	nodeBorder.pivot.x = nodeWidth / 2;
-	nodeBorder.pivot.y = nodeHeight / 2;
-	if (groupName == undefined && nodeData.get("requiredPoints") == 0) {
+	nodeBorder.pivot.x = _nodeWidth / 2;
+	nodeBorder.pivot.y = _nodeHeight / 2;
+	if ((groupName == undefined || groupName == "Book of the Dead") && requiredPoints == 0) {
 		nodeBorder.lineStyle(lineStyleThickSquare);
 	} else {
 		nodeBorder.lineStyle(lineStyleThinSquare);
 	}
 	nodeBorder.moveTo(0, 0);
-	nodeBorder.lineTo(nodeWidth, 0);
-	nodeBorder.moveTo(nodeWidth, 0);
-	nodeBorder.lineTo(nodeWidth, nodeHeight);
-	nodeBorder.moveTo(nodeWidth, nodeHeight);
-	nodeBorder.lineTo(0, nodeHeight);
-	nodeBorder.moveTo(0, nodeHeight);
+	nodeBorder.lineTo(_nodeWidth, 0);
+	nodeBorder.moveTo(_nodeWidth, 0);
+	nodeBorder.lineTo(_nodeWidth, _nodeHeight);
+	nodeBorder.moveTo(_nodeWidth, _nodeHeight);
+	nodeBorder.lineTo(0, _nodeHeight);
+	nodeBorder.moveTo(0, _nodeHeight);
 	nodeBorder.lineTo(0, 0);
 
 	const node = new PIXI.Container();
@@ -871,9 +930,10 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	node.nodeName = nodeName;
 	node.nodeData = nodeData;
 	node.groupName = groupName;
+	node.displayName = displayName;
 	//node.branchData = branchData;
 	node.nodeIndex = pixiNodes.length;
-	if (groupName == undefined) {
+	if (groupName == undefined || groupName == "Book of the Dead" || maxPoints == 0) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
 		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
@@ -933,7 +993,15 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		.on("mouseout", onMouseOut)
 		.on("tap", onMouseOver);
 
-	if (groupName != undefined) {
+	if (groupName == "Book of the Dead") {
+		if (maxPoints != 0) {
+			node.cursor = "pointer";
+			node.interactive = true;
+			node
+				.on("click", () => handleToggleButton(node))
+				.on("tap", () => handleToggleButton(node));
+		}
+	} else if (groupName != undefined && maxPoints != 0) {
 		plusContainer
 			.on("click", () => handlePlusButton(node))
 			.on("tap", () => handlePlusButton(node));
@@ -956,20 +1024,90 @@ function drawAllNodes() {
 				$("#groupSelector").append(`<option value="${groupName.replace(/\s/g, "").toLowerCase()}">${groupName}</option>`);
 				// special logic for group node
 				const groupNode = new Map();
-				groupNode.set("description", "Spend {requiredPoints} additional skill points to unlock.");
+				if (branchData.get("requiredPoints") != undefined) {
+					groupNode.set("description", "Spend {requiredPoints} additional skill points to unlock.");
+				}
 				groupNode.set("requiredPoints", branchData.get("requiredPoints") || 0);
 				groupNode.set("x", branchData.get("x") + minCanvasWidth / 2);
 				groupNode.set("y", branchData.get("y") + minCanvasHeight / 2);
-				drawNode(groupName, groupNode);
-				pixiAllocatedPoints.set(groupName, 0);
-				for (const [nodeName, nodeData] of groupData) {
-					const curNode = groupData.get(nodeName);
-					curNode.set("allocatedPoints", 0);
-					if (curNode.get("maxPoints") == undefined) {
-						// default to 5 max points, if unspecified
-						curNode.set("maxPoints", 5);
+				if (groupName == "Book of the Dead") {
+					groupNode.set("widthOverride", 1600);
+					drawNode(groupName, groupNode);
+					const nodeSpacingX = 150;
+					const nodeSpacingY = 150;
+					const nodeLimitX = 5;
+					const nodeLimitY = 2;
+					let bookX = -nodeSpacingX * (nodeLimitX - 1);
+					for (const [minionName, minionData] of groupData) {
+						const curMinion = groupData.get(minionName);
+						const minionNode = new Map([
+							["allocatedPoints", 0],
+							["maxPoints", 0],
+							["widthOverride", 400],
+							["x", bookX],
+							["y", nodeSpacingY]
+						]);
+						const exclusiveNodes = Array.from(minionData.keys());
+
+						drawNode(minionName, minionNode, groupName, branchData);
+
+						let bookY = nodeSpacingY * (nodeLimitY - 0.5);
+						for (const [minionTypeName, minionTypeData] of minionData) {
+							const minionUpgrades = [minionTypeData.get("sacrifice"), ...minionTypeData.get("upgrades").values()];
+							const minionTypeNode = new Map([
+								["allocatedPoints", 0],
+								["description", minionTypeData.get("description")],
+								["exclusiveNodes", exclusiveNodes],
+								["id", minionTypeData.get("id")],
+								["maxPoints", 1],
+								["x", bookX - nodeSpacingX * Math.ceil(minionUpgrades.length / 2) / 2],
+								["y", nodeSpacingY + bookY]
+							]);
+
+							drawNode(minionTypeName, minionTypeNode, groupName, branchData);
+
+							let exclusiveUpgradeNodes = [];
+							let upgradeItr = 0;
+							for (const minionUpgrade of minionUpgrades) {
+								if (upgradeItr == 0) {
+									exclusiveUpgradeNodes.push(minionTypeName + " — Sacrifice");
+								} else {
+									exclusiveUpgradeNodes.push(minionTypeName + " — Upgrade " + upgradeItr);
+								}
+								upgradeItr++;
+							}
+
+							upgradeItr = 0;
+							for (const minionUpgrade of minionUpgrades) {
+								const minionUpgradeNode = new Map([
+									["allocatedPoints", 0],
+									["description", minionUpgrade],
+									["exclusiveNodes", upgradeItr < minionUpgrades.length ? exclusiveUpgradeNodes : undefined],
+									["id", `${minionTypeData.get("id")}-${upgradeItr}`],
+									["maxPoints", 1],
+									["x", bookX + nodeSpacingX * (upgradeItr == 0 ? Math.ceil(minionUpgrades.length / 3) : Math.ceil((upgradeItr - 2) / 2)) - nodeSpacingX * Math.ceil((minionUpgrades.length - 3) / 2) / 2],
+									["y", nodeSpacingY + bookY + (upgradeItr == 0 ? 0 : (upgradeItr == minionUpgrades.length && minionUpgrades.length % 2 == 0 ? 0 : nodeSpacingY * (upgradeItr % 2 == 0 ? 0.5 : -0.5)))]
+								]);
+
+								drawNode(exclusiveUpgradeNodes[upgradeItr], minionUpgradeNode, groupName, branchData);
+								upgradeItr++;
+							}
+							bookY += nodeSpacingY * nodeLimitY;
+						}
+						bookX += nodeSpacingX * (nodeLimitX - 1);
 					}
-					drawNode(nodeName, curNode, groupName, branchData);
+				} else {
+					drawNode(groupName, groupNode);
+					pixiAllocatedPoints.set(groupName, 0);
+					for (const [nodeName, nodeData] of groupData) {
+						const curNode = groupData.get(nodeName);
+						curNode.set("allocatedPoints", 0);
+						if (curNode.get("maxPoints") == undefined) {
+							// default to 5 max points, if unspecified
+							curNode.set("maxPoints", 5);
+						}
+						drawNode(nodeName, curNode, groupName, branchData);
+					}
 				}
 			}
 		}
@@ -986,7 +1124,7 @@ function drawTooltip(curNode, forceDraw) {
 	eraseTooltip();
 
 	let nodeDesc = curNode.nodeDesc;
-	if (nodeDesc == undefined || nodeDesc.length == 0) return;
+	if (nodeDesc == undefined) nodeDesc = "";
 
 	const requiredPoints = curNode.nodeData.get("requiredPoints");
 	if (requiredPoints != undefined) {
@@ -1002,7 +1140,7 @@ function drawTooltip(curNode, forceDraw) {
 				nodeDesc = nodeDesc.replace(/points/g, "point");
 			}
 		} else {
-			return;
+			nodeDesc = "";
 		}
 	} else {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
@@ -1016,6 +1154,8 @@ function drawTooltip(curNode, forceDraw) {
 		const [debugX, debugY] = getNodePosition(curNode);
 		nodeDesc += "\nx: " + debugX + "\ny: " + debugY;
 	}
+
+	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 
@@ -1051,21 +1191,29 @@ function drawTooltip(curNode, forceDraw) {
 	tooltipText1.scale.set(0.25);
 	tooltipText1.anchor.set(0);
 
-	const tooltipText2 = new PIXI.Text("\n" + nodeDesc, {
-		align: "center",
-		breakWords: true,
-		cacheAsBitmap: true,
-		fill: textColor,
-		fontFamily: fontFamily,
-		fontSize: 36 * 4,
-		width: tooltipWidth * 4,
-		wordWrap: true,
-		wordWrapWidth: tooltipWidth * 4,
-	});
-	tooltipText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	tooltipText2.scale.set(0.25);
-	tooltipText2.anchor.set(0);
-	tooltipText2.position.y = 18;
+	let tooltipText2;
+	if (nodeDesc.length > 0) {
+		tooltipText2 = new PIXI.Text("\n" + nodeDesc, {
+			align: "center",
+			breakWords: true,
+			cacheAsBitmap: true,
+			fill: textColor,
+			fontFamily: fontFamily,
+			fontSize: 36 * 4,
+			width: tooltipWidth * 4,
+			wordWrap: true,
+			wordWrapWidth: tooltipWidth * 4,
+		});
+		tooltipText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
+		tooltipText2.scale.set(0.25);
+		tooltipText2.anchor.set(0);
+		tooltipText2.position.y = 18;
+	} else {
+		tooltipText2 = new PIXI.Text("", {
+			fontSize: 18,
+			width: tooltipWidth
+		});
+	}
 
 	const tooltipBackground = new PIXI.Graphics();
 	tooltipBackground.beginFill(backgroundColor);
@@ -1088,9 +1236,11 @@ function drawTooltip(curNode, forceDraw) {
 	tooltipBorder.pivot.y = 10;
 
 	const tooltipSeperator = new PIXI.Graphics();
-	tooltipSeperator.lineStyle(lineStyleThinSquare);
-	tooltipSeperator.moveTo(0, tooltipText1.height + 12);
-	tooltipSeperator.lineTo(tooltipBackground.width - 20, tooltipText1.height + 12);
+	if (nodeDesc.length > 0) {
+		tooltipSeperator.lineStyle(lineStyleThinSquare);
+		tooltipSeperator.moveTo(0, tooltipText1.height + 12);
+		tooltipSeperator.lineTo(tooltipBackground.width - 20, tooltipText1.height + 12);
+	}
 
 	const tooltip = new PIXI.Container();
 	tooltip.zIndex = 2;
@@ -1245,7 +1395,7 @@ function drawAllConnectors() {
 								drawConnector(pixiNodes[currentNodeItr], pixiNode);
 								drawnConnectors++;
 							}
-						if (drawnConnectors >= maxConnectors) break;
+							if (drawnConnectors >= maxConnectors) break;
 						}
 					}
 					currentNodeItr++;

@@ -41,6 +41,10 @@ necromancer["Trunk Data"] = {
 		x: -11.71,
 		y: 4933.965,
 	},
+	"Book of the Dead": {
+		x: 2500,
+		y: 0
+	},
 };
 
 necromancer["Basic"] = {
@@ -54,7 +58,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		maxPoints: 5,
 		values: [ "7", "", "30", "2.5" ],
 		x: -302.458,
-		y: -154.39,
+		y: -154.39
 	},
 	"Enhanced Decompose": {
 		baseSkill: "Decompose",
@@ -64,7 +68,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -535.502,
-		y: -276.92,
+		y: -276.92
 	},
 	"Acolyte's Decompose": {
 		baseSkill: "Decompose",
@@ -74,7 +78,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -852.607,
-		y: -322.1,
+		y: -322.1
 	},
 	"Initiate's Decompose": {
 		baseSkill: "Decompose",
@@ -84,7 +88,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		maxPoints: 1,
 		values: [ "30" ],
 		x: -629.022,
-		y: -437.845,
+		y: -437.845
 	},
 	"Reap": {
 		connections: [ "Enhanced Reap", "Basic" ],
@@ -96,7 +100,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		maxPoints: 5,
 		values: [ "4", "", "12", "15", "2" ],
 		x: -276.92,
-		y: 154.47,
+		y: 154.47
 	},
 	"Enhanced Reap": {
 		baseSkill: "Reap",
@@ -106,7 +110,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		maxPoints: 1,
 		values: [ "2", "30", "3" ],
 		x: -519.257,
-		y: 283.565,
+		y: 283.565
 	},
 	"Initiate's Reap": {
 		baseSkill: "Reap",
@@ -116,7 +120,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -850.547,
-		y: 324,
+		y: 324
 	},
 	"Acolyte's Reap": {
 		baseSkill: "Reap",
@@ -126,7 +130,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -599.482,
-		y: 454.96,
+		y: 454.96
 	},
 	"Hemorrhage": {
 		connections: [ "Enhanced Hemorrhage", "Basic" ],
@@ -138,7 +142,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		maxPoints: 5,
 		values: [ "7", "", "25", "20" ],
 		x: 279.313,
-		y: -153.68,
+		y: -153.68
 	},
 	"Enhanced Hemorrhage": {
 		baseSkill: "Hemorrhage",
@@ -148,7 +152,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 515.388,
-		y: -269.005,
+		y: -269.005
 	},
 	"Acolyte's Hemorrhage": {
 		baseSkill: "Hemorrhage",
@@ -158,7 +162,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 848.648,
-		y: -316.2,
+		y: -316.2
 	},
 	"Initiate's Hemorrhage": {
 		baseSkill: "Hemorrhage",
@@ -168,7 +172,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		maxPoints: 1,
 		values: [ "0.64", "", "1.5", "100", "" ],
 		x: 618.878,
-		y: -434.435,
+		y: -434.435
 	},
 	"Bone Splinters": {
 		connections: [ "Enhanced Bone Splinters", "Basic" ],
@@ -180,7 +184,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 		maxPoints: 5,
 		values: [ "5", "", "22.5", "1" ],
 		x: 267.113,
-		y: 153.42,
+		y: 153.42
 	},
 	"Enhanced Bone Splinters": {
 		baseSkill: "Bone Splinters",
@@ -190,7 +194,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 		maxPoints: 1,
 		values: [ "30", "2", "50" ],
 		x: 502.278,
-		y: 282.14,
+		y: 282.14
 	},
 	"Acolyte's Bone Splinters": {
 		baseSkill: "Bone Splinters",
@@ -200,7 +204,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 		maxPoints: 1,
 		values: [ "3", "8", "4" ],
 		x: 598.598,
-		y: 454.575,
+		y: 454.575
 	},
 	"Initiate's Bone Splinters": {
 		baseSkill: "Bone Splinters",
@@ -210,7 +214,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 		maxPoints: 1,
 		values: [ "20", "2" ],
 		x: 843.398,
-		y: 320.755,
+		y: 320.755
 	},
 };
 
@@ -225,7 +229,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		maxPoints: 5,
 		values: [ "25", "", "30", "80", "6" ],
 		x: -224.532,
-		y: -184.935,
+		y: -184.935
 	},
 	"Enhanced Blight": {
 		baseSkill: "Blight",
@@ -235,7 +239,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		maxPoints: 1,
 		values: [ "25" ],
 		x: -450.974,
-		y: -361.8,
+		y: -361.8
 	},
 	"Paranormal Blight": {
 		baseSkill: "Blight",
@@ -245,7 +249,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		maxPoints: 1,
 		values: [ "10", "2" ],
 		x: -815.994,
-		y: -416.965,
+		y: -416.965
 	},
 	"Supernatural Blight": {
 		baseSkill: "Blight",
@@ -255,7 +259,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -489.679,
-		y: -551.275,
+		y: -551.275
 	},
 	"Sever": {
 		connections: [ "Enhanced Sever", "Core" ],
@@ -267,7 +271,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		maxPoints: 5,
 		values: [ "", "", "", "" ],
 		x: -411.075,
-		y: 0.155,
+		y: 0.155
 	},
 	"Enhanced Sever": {
 		baseSkill: "Sever",
@@ -277,7 +281,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		maxPoints: 1,
 		values: [ "" ],
 		x: -768.379,
-		y: 0.325,
+		y: 0.325
 	},
 	"Paranormal Sever": {
 		baseSkill: "Sever",
@@ -287,7 +291,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		maxPoints: 1,
 		values: [ "" ],
 		x: -1102.254,
-		y: -100.28,
+		y: -100.28
 	},
 	"Supernatural Sever": {
 		baseSkill: "Sever",
@@ -297,7 +301,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		maxPoints: 1,
 		values: [ "" ],
 		x: -1100.739,
-		y: 97.62,
+		y: 97.62
 	},
 	"Blood Surge": {
 		connections: [ "Enhanced Blood Surge", "Core" ],
@@ -309,7 +313,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		maxPoints: 5,
 		values: [ "", "", "20", "50", "10", "50" ],
 		x: 230.535,
-		y: -185.16,
+		y: -185.16
 	},
 	"Enhanced Blood Surge": {
 		baseSkill: "Blood Surge",
@@ -319,7 +323,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		maxPoints: 1,
 		values: [ "1", "", "" ],
 		x: 458.771,
-		y: -363.255,
+		y: -363.255
 	},
 	"Supernatural Blood Surge": {
 		baseSkill: "Blood Surge",
@@ -329,7 +333,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		maxPoints: 1,
 		values: [ "", "", "", "" ],
 		x: 811.856,
-		y: -414.23,
+		y: -414.23
 	},
 	"Paranormal Blood Surge": {
 		baseSkill: "Blood Surge",
@@ -338,7 +342,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		id: 27,
 		maxPoints: 1,
 		x: 499.171,
-		y: -552.28,
+		y: -552.28
 	},
 	"Blood Lance": {
 		connections: [ "Enhanced Blood Lance", "Core" ],
@@ -350,7 +354,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		maxPoints: 5,
 		values: [ "25", "", "3", "45" ],
 		x: 380.122,
-		y: 38.46,
+		y: 38.46
 	},
 	"Enhanced Blood Lance": {
 		baseSkill: "Blood Lance",
@@ -360,7 +364,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		maxPoints: 1,
 		values: [ "15" ],
 		x: 726.711,
-		y: 65.695,
+		y: 65.695
 	},
 	"Supernatural Blood Lance": {
 		baseSkill: "Blood Lance",
@@ -370,7 +374,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		maxPoints: 1,
 		values: [ "" ],
 		x: 985.341,
-		y: 189.005,
+		y: 189.005
 	},
 	"Paranormal Blood Lance": {
 		baseSkill: "Blood Lance",
@@ -380,7 +384,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		maxPoints: 1,
 		values: [ "2", "10", "1" ],
 		x: 1055.921,
-		y: 24.71,
+		y: 24.71
 	},
 	"Bone Spear": {
 		connections: [ "Enhanced Bone Spear", "Core" ],
@@ -392,7 +396,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		maxPoints: 5,
 		values: [ "25", "", "85" ],
 		x: -53.082,
-		y: 204.585,
+		y: 204.585
 	},
 	"Enhanced Bone Spear": {
 		baseSkill: "Bone Spear",
@@ -402,7 +406,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		maxPoints: 1,
 		values: [ "", "10" ],
 		x: -106.376,
-		y: 383.87,
+		y: 383.87
 	},
 	"Paranormal Bone Spear": {
 		baseSkill: "Bone Spear",
@@ -412,7 +416,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		maxPoints: 1,
 		values: [ "", "" ],
 		x: -340.216,
-		y: 524.725,
+		y: 524.725
 	},
 	"Supernatural Bone Spear": {
 		baseSkill: "Bone Spear",
@@ -422,7 +426,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -15.686,
-		y: 547.47,
+		y: 547.47
 	},
 	"Unliving Energy": {
 		connections: [ "Core", "Imperfectly Balanced" ],
@@ -431,7 +435,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: 527.726,
-		y: -113.765,
+		y: -113.765
 	},
 	"Imperfectly Balanced": {
 		connections: [ "Unliving Energy" ],
@@ -440,7 +444,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 		maxPoints: 3,
 		values: [ "{5/10/15}", "{10/20/30}" ],
 		x: 889.681,
-		y: -190.74,
+		y: -190.74
 	},
 	"Reconstitution": {
 		connections: [ "Core" ],
@@ -451,7 +455,7 @@ This chance is doubled against bosses.`,
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: -417.867,
-		y: 186.82,
+		y: 186.82
 	},
 };
 
@@ -466,7 +470,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		maxPoints: 5,
 		values: [ "", "", "75" ],
 		x: -385,
-		y: 0.11,
+		y: 0.11
 	},
 	"Enhanced Corpse Explosion": {
 		baseSkill: "Corpse Explosion",
@@ -476,7 +480,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		maxPoints: 1,
 		values: [ "15" ],
 		x: -756.693,
-		y: -0.91,
+		y: -0.91
 	},
 	"Abhorrent Corpse Explosion": {
 		baseSkill: "Corpse Explosion",
@@ -486,7 +490,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		maxPoints: 1,
 		values: [ "110", "6" ],
 		x: -1048.735,
-		y: -100.365,
+		y: -100.365
 	},
 	"Horrid Corpse Explosion": {
 		baseSkill: "Corpse Explosion",
@@ -496,7 +500,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		maxPoints: 1,
 		values: [ "15" ],
 		x: -1046.376,
-		y: 101.125,
+		y: 101.125
 	},
 	"Grim Harvest": {
 		connections: [ "Fueled by Death", "Macabre" ],
@@ -505,7 +509,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: -370.215,
-		y: 233.465,
+		y: 233.465
 	},
 	"Fueled by Death": {
 		connections: [ "Grim Harvest" ],
@@ -514,7 +518,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		maxPoints: 3,
 		values: [ "{4/8/12}", "4" ],
 		x: -632.315,
-		y: 401.995,
+		y: 401.995
 	},
 	"Necrotic Carapace": {
 		connections: [ "Macabre" ],
@@ -523,7 +527,7 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		maxPoints: 3,
 		values: [ "{0.8/1.6/2.4}", "" ],
 		x: 755.135,
-		y: -138.065,
+		y: -138.065
 	},
 	"Blood Mist": {
 		connections: [ "Enhanced Blood Mist", "Macabre" ],
@@ -535,7 +539,7 @@ Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Spee
 		maxPoints: 5,
 		values: [ "", "", "3", "50", "1.75", "100" ],
 		x: 79.31,
-		y: -196.6,
+		y: -196.6
 	},
 	"Enhanced Blood Mist": {
 		baseSkill: "Blood Mist",
@@ -545,7 +549,7 @@ Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Spee
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 141.245,
-		y: -354.24,
+		y: -354.24
 	},
 	"Ghastly Blood Mist": {
 		baseSkill: "Blood Mist",
@@ -555,7 +559,7 @@ Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Spee
 		maxPoints: 1,
 		values: [ "1" ],
 		x: 118.76,
-		y: -537.495,
+		y: -537.495
 	},
 	"Dreadful Blood Mist": {
 		baseSkill: "Blood Mist",
@@ -565,7 +569,7 @@ Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Spee
 		maxPoints: 1,
 		values: [ "0.2", "" ],
 		x: 394.43,
-		y: -496.67,
+		y: -496.67
 	},
 	"Bone Prison": {
 		connections: [ "Enhanced Bone Prison", "Macabre" ],
@@ -575,7 +579,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		maxPoints: 5,
 		values: [ "20.0", "12", "6" ],
 		x: 271.91,
-		y: 145.285,
+		y: 145.285
 	},
 	"Enhanced Bone Prison": {
 		baseSkill: "Bone Prison",
@@ -585,7 +589,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		maxPoints: 1,
 		values: [ "3" ],
 		x: 497.525,
-		y: 268.625,
+		y: 268.625
 	},
 	"Ghastly Bone Prison": {
 		baseSkill: "Bone Prison",
@@ -594,7 +598,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		id: 52,
 		maxPoints: 1,
 		x: 605.505,
-		y: 435.61,
+		y: 435.61
 	},
 	"Dreadful Bone Prison": {
 		baseSkill: "Bone Prison",
@@ -604,7 +608,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		maxPoints: 1,
 		values: [ "1.5", "" ],
 		x: 834.045,
-		y: 309.03,
+		y: 309.03
 	},
 	"Skeletal Warrior Mastery": {
 		connections: [ "Macabre" ],
@@ -613,7 +617,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
 		x: 755.34,
-		y: 67.235,
+		y: 67.235
 	},
 };
 
@@ -627,7 +631,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		maxPoints: 5,
 		values: [ "10", "10", "10" ],
 		x: -312.7,
-		y: 165.29,
+		y: 165.29
 	},
 	"Enhanced Iron Maiden": {
 		baseSkill: "Iron Maiden",
@@ -637,7 +641,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -561.73,
-		y: 297.35,
+		y: 297.35
 	},
 	"Horrid Iron Maiden": {
 		baseSkill: "Iron Maiden",
@@ -647,7 +651,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		maxPoints: 1,
 		values: [ "3", "15" ],
 		x: -941.446,
-		y: 368.383,
+		y: 368.383
 	},
 	"Abhorrent Iron Maiden": {
 		baseSkill: "Iron Maiden",
@@ -657,7 +661,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		maxPoints: 1,
 		values: [ "5" ],
 		x: -686.755,
-		y: 495.878,
+		y: 495.878
 	},
 	"Skeletal Mage Mastery": {
 		connections: [ "Corruption" ],
@@ -666,7 +670,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
 		x: 810.22,
-		y: 0.575,
+		y: 0.575
 	},
 	"Amplify Damage": {
 		connections: [ "Corruption" ],
@@ -675,7 +679,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: 3.12,
-		y: 431.694,
+		y: 431.694
 	},
 	"Decrepify": {
 		connections: [ "Enhanced Decrepify", "Corruption" ],
@@ -685,7 +689,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		maxPoints: 5,
 		values: [ "10", "50", "25", "10" ],
 		x: 313.525,
-		y: 166.38,
+		y: 166.38
 	},
 	"Enhanced Decrepify": {
 		baseSkill: "Decrepify",
@@ -695,7 +699,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		maxPoints: 1,
 		values: [ "10", "2" ],
 		x: 558.24,
-		y: 299.96,
+		y: 299.96
 	},
 	"Abhorrent Decrepify": {
 		baseSkill: "Decrepify",
@@ -705,7 +709,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		maxPoints: 1,
 		values: [ "15", "1.5" ],
 		x: 687.2,
-		y: 499.062,
+		y: 499.062
 	},
 	"Horrid Decrepify": {
 		baseSkill: "Decrepify",
@@ -715,7 +719,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 935.27,
-		y: 363.898,
+		y: 363.898
 	},
 	"Death's Embrace": {
 		connections: [ "Corruption" ],
@@ -724,7 +728,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		maxPoints: 3,
 		values: [ "{2/4/6}", "{3/6/9}" ],
 		x: -434.44,
-		y: -269.59,
+		y: -269.59
 	},
 	"Death's Reach": {
 		connections: [ "Corruption" ],
@@ -733,7 +737,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: 443.845,
-		y: -270.025,
+		y: -270.025
 	},
 };
 
@@ -748,7 +752,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 5,
 		values: [ "11.0", "", "3", "20" ],
 		x: 303.62,
-		y: -136.85,
+		y: -136.85
 	},
 	"Enhanced Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
@@ -758,7 +762,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 1,
 		values: [ "50" ],
 		x: 561.44,
-		y: -250.575,
+		y: -250.575
 	},
 	"Horrid Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
@@ -768,7 +772,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 1,
 		values: [ "25" ],
 		x: 872.848,
-		y: -267.56,
+		y: -267.56
 	},
 	"Abhorrent Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
@@ -778,7 +782,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 1,
 		values: [ "40" ],
 		x: 649.155,
-		y: -412.305,
+		y: -412.305
 	},
 	"Reaper's Pursuit": {
 		connections: [ "Gloom", "Crippling Darkness", "Summoning" ],
@@ -787,7 +791,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{5/10/15}", "3" ],
 		x: -547.81,
-		y: -169.615,
+		y: -169.615
 	},
 	"Gloom": {
 		connections: [ "Reaper's Pursuit", "Terror" ],
@@ -796,7 +800,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{2/4/6}", "2", "3" ],
 		x: -721.67,
-		y: -369.505,
+		y: -369.505
 	},
 	"Terror": {
 		connections: [ "Gloom", "Crippling Darkness" ],
@@ -805,7 +809,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -1150.985,
-		y: -388.355,
+		y: -388.355
 	},
 	"Crippling Darkness": {
 		connections: [ "Reaper's Pursuit", "Terror" ],
@@ -814,7 +818,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{15/30/45}", "1" ],
 		x: -1003.06,
-		y: -181.13,
+		y: -181.13
 	},
 	"Blood Begets Blood": {
 		connections: [ "Coalesced Blood", "Tides of Blood", "Summoning" ],
@@ -823,7 +827,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
 		x: 5.82,
-		y: -372.435,
+		y: -372.435
 	},
 	"Coalesced Blood": {
 		connections: [ "Transfusion", "Blood Begets Blood" ],
@@ -832,7 +836,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
 		x: 188.085,
-		y: -545.375,
+		y: -545.375
 	},
 	"Transfusion": {
 		connections: [ "Coalesced Blood", "Tides of Blood" ],
@@ -841,7 +845,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
 		x: 188.105,
-		y: -740.47,
+		y: -740.47
 	},
 	"Tides of Blood": {
 		connections: [ "Drain Vitality", "Transfusion", "Blood Begets Blood" ],
@@ -850,7 +854,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -186.055,
-		y: -545.11,
+		y: -545.11
 	},
 	"Drain Vitality": {
 		connections: [ "Tides of Blood" ],
@@ -859,7 +863,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		maxPoints: 3,
 		values: [ "{25/50/75}", "1", "" ],
 		x: -187.67,
-		y: -741.395,
+		y: -741.395
 	},
 	"Bone Spirit": {
 		connections: [ "Enhanced Bone Spirit", "Summoning" ],
@@ -872,7 +876,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 5,
 		values: [ "12.0", "", "80", "3" ],
 		x: -81.99,
-		y: 195.105,
+		y: 195.105
 	},
 	"Enhanced Bone Spirit": {
 		baseSkill: "Bone Spirit",
@@ -882,7 +886,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 1,
 		values: [ "6" ],
 		x: -165.82,
-		y: 378.073,
+		y: 378.073
 	},
 	"Ghastly Bone Spirit": {
 		baseSkill: "Bone Spirit",
@@ -892,7 +896,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -109.19,
-		y: 542.62,
+		y: 542.62
 	},
 	"Dreadful Bone Spirit": {
 		baseSkill: "Bone Spirit",
@@ -902,7 +906,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 1,
 		values: [ "30", "4" ],
 		x: -417.01,
-		y: 502.139,
+		y: 502.139
 	},
 	"Serration": {
 		connections: [ "Rapid Ossification", "Compound Fracture", "Summoning" ],
@@ -911,7 +915,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 3,
 		values: [ "{0.5/1/1.5}" ],
 		x: -557.22,
-		y: 93.025,
+		y: 93.025
 	},
 	"Rapid Ossification": {
 		connections: [ "Serration", "Evulsion" ],
@@ -920,7 +924,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 3,
 		values: [ "100", "{0.5/1/1.5}" ],
 		x: -958.755,
-		y: 74.64,
+		y: 74.64
 	},
 	"Evulsion": {
 		connections: [ "Compound Fracture", "Rapid Ossification" ],
@@ -929,7 +933,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
 		x: -1226.03,
-		y: 232.795,
+		y: 232.795
 	},
 	"Compound Fracture": {
 		connections: [ "Serration", "Evulsion" ],
@@ -938,7 +942,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 3,
 		values: [ "10", "{6/12/18}", "5" ],
 		x: -809.63,
-		y: 254.365,
+		y: 254.365
 	},
 	"Spiked Armor": {
 		connections: [ "Summoning" ],
@@ -947,7 +951,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: 492.57,
-		y: 143.2,
+		y: 143.2
 	},
 };
 
@@ -959,7 +963,7 @@ necromancer["Ultimate"] = {
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
 		x: -244.033,
-		y: 245.369,
+		y: 245.369
 	},
 	"Death's Defense": {
 		connections: [ "Bonded in Essence", "Hellbent Commander" ],
@@ -968,7 +972,7 @@ necromancer["Ultimate"] = {
 		maxPoints: 3,
 		values: [ "{50/35/20}" ],
 		x: -685.035,
-		y: 319.583,
+		y: 319.583
 	},
 	"Hellbent Commander": {
 		connections: [ "Inspiring Command", "Ultimate", "Death's Defense" ],
@@ -977,7 +981,7 @@ necromancer["Ultimate"] = {
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
 		x: -496.655,
-		y: 100.921,
+		y: 100.921
 	},
 	"Inspiring Command": {
 		connections: [ "Hellbent Commander" ],
@@ -986,7 +990,7 @@ necromancer["Ultimate"] = {
 		maxPoints: 3,
 		values: [ "4", "{4/8/12}" ],
 		x: -949.115,
-		y: 125.486,
+		y: 125.486
 	},
 	"Army of the Dead": {
 		connections: [ "Prime Army of the Dead", "Ultimate" ],
@@ -998,7 +1002,7 @@ Call forth the deep buried dead. Volatile undead emerge over the next {#} second
 		maxPoints: 1,
 		values: [ "90.0", "", "7", "30" ],
 		x: -412.909,
-		y: -101.334,
+		y: -101.334
 	},
 	"Prime Army of the Dead": {
 		baseSkill: "Army of the Dead",
@@ -1008,7 +1012,7 @@ Call forth the deep buried dead. Volatile undead emerge over the next {#} second
 		maxPoints: 1,
 		values: [ "15" ],
 		x: -761.575,
-		y: -190.081,
+		y: -190.081
 	},
 	"Supreme Army of the Dead": {
 		baseSkill: "Army of the Dead",
@@ -1017,7 +1021,7 @@ Call forth the deep buried dead. Volatile undead emerge over the next {#} second
 		id: 95,
 		maxPoints: 1,
 		x: -1035.045,
-		y: -69.654,
+		y: -69.654
 	},
 	"Blood Wave": {
 		connections: [ "Prime Blood Wave", "Ultimate" ],
@@ -1029,7 +1033,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		maxPoints: 1,
 		values: [ "50.0", "", "90" ],
 		x: 308.891,
-		y: -165.596,
+		y: -165.596
 	},
 	"Prime Blood Wave": {
 		baseSkill: "Blood Wave",
@@ -1039,7 +1043,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		maxPoints: 1,
 		values: [ "50", "4" ],
 		x: 464.882,
-		y: -324.303,
+		y: -324.303
 	},
 	"Supreme Blood Wave": {
 		baseSkill: "Blood Wave",
@@ -1048,7 +1052,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		id: 98,
 		maxPoints: 1,
 		x: 817.735,
-		y: -299.367,
+		y: -299.367
 	},
 	"Stand Alone": {
 		connections: [ "Memento Mori", "Ultimate" ],
@@ -1057,7 +1061,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		maxPoints: 3,
 		values: [ "{6/12/18}", "2" ],
 		x: 686.73,
-		y: -0.375,
+		y: -0.375
 	},
 	"Memento Mori": {
 		connections: [ "Stand Alone" ],
@@ -1066,7 +1070,7 @@ Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		maxPoints: 3,
 		values: [ "{20/40/60}" ],
 		x: 1059.535,
-		y: -0.955,
+		y: -0.955
 	},
 	"Bone Storm": {
 		connections: [ "Prime Bone Storm", "Ultimate" ],
@@ -1078,7 +1082,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 		maxPoints: 1,
 		values: [ "60.0", "", "180", "10" ],
 		x: 310.324,
-		y: 168.163,
+		y: 168.163
 	},
 	"Prime Bone Storm": {
 		baseSkill: "Bone Storm",
@@ -1088,7 +1092,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 		maxPoints: 1,
 		values: [ "15" ],
 		x: 477.673,
-		y: 330.114,
+		y: 330.114
 	},
 	"Supreme Bone Storm": {
 		baseSkill: "Bone Storm",
@@ -1098,7 +1102,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 		maxPoints: 1,
 		values: [ "2", "10" ],
 		x: 815.48,
-		y: 299.433,
+		y: 299.433
 	},
 	"Golem Mastery": {
 		connections: [ "Ultimate" ],
@@ -1107,7 +1111,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
 		x: 5.062,
-		y: -324.445,
+		y: -324.445
 	},
 };
 
@@ -1119,7 +1123,7 @@ necromancer["Capstone"] = {
 		maxPoints: 1,
 		values: [ "1", "50" ],
 		x: 563.343,
-		y: 304.93,
+		y: 304.93
 	},
 	"Shadowblight": {
 		connections: [ "Capstone" ],
@@ -1131,7 +1135,7 @@ Every {#}th time an enemy receives Shadow Damage from you or your Minions while 
 		maxPoints: 1,
 		values: [ "2", "10", "20" ],
 		x: -187.538,
-		y: 305.485,
+		y: 305.485
 	},
 	"Rathma's Vigor": {
 		connections: [ "Capstone" ],
@@ -1140,7 +1144,7 @@ Every {#}th time an enemy receives Shadow Damage from you or your Minions while 
 		maxPoints: 1,
 		values: [ "10", "25" ],
 		x: 187.548,
-		y: 305.925,
+		y: 305.925
 	},
 	"Strength in Numbers": {
 		connections: [ "Capstone" ],
@@ -1149,7 +1153,97 @@ Every {#}th time an enemy receives Shadow Damage from you or your Minions while 
 		maxPoints: 1,
 		values: [ "7", "20" ],
 		x: -563.262,
-		y: 305.87,
+		y: 305.87
+	},
+};
+
+necromancer["Book of the Dead"] = {
+	"Skeletal Warriors": {
+		"Skeletal Skirmishers": {
+			description: `Sword wielding damage dealers that deal 30% increased damage but have 15% reduced life.`,
+			id: 110,
+			sacrifice: `Your critical strike chance is increase by 5%, but you can no longer raise Skeletal Warriors.`,
+			upgrades: [
+				`You can raise an additional Skirmisher.`,
+				`Each time you critically strike, your Skirmishers next attack critically strikes as well. Can only happen every 3 seconds.`
+			]
+		},
+		"Skeletal Defenders": {
+			description: `Durable shield-bearers with 15% increased life.`,
+			id: 111,
+			sacrifice: `You gain 15% non-physical resistance, but you can no longer raise Skeletal Warriors.`,
+			upgrades: [
+				`Every 8 seconds your Defenders negate the next instance of direct damage they would take.`,
+				`Increase the amount of thorns that Defenders inherit from you from 30% to 50%.`
+			]
+		},
+		"Skeletal Reapers": {
+			description: `Deals area damage with a slow and powerful scythe, and has a special wind-up attack, dealing heavy damage every 10 seconds.`,
+			id: 112,
+			sacrifice: `You deal x10% increased shadow damage but you can no longer raise Skeletal Warriors.`,
+			upgrades: [
+				`Reaper attacks against enemies who are immobilized, slowed, stunned or vulnerable reduce the cooldown of their powerful wind-up attack by 2 seconds.`,
+				`Reapers have a 10% chance to carve the flesh off enemies, forming a corpse. This cannot happen on the same enemy more than once every 5 seconds.`
+			]
+		},
+	},
+	"Skeletal Mages": {
+		"Shadow Mages": {
+			description: `Deals moderate shadow damage.`,
+			id: 113,
+			sacrifice: `Your maximum essence is increased by 15, but you can no longer raise Skeletal Mages.`,
+			upgrades: [
+				`Shadow Mage attacks have a 10% chance to stun for 2.13 seconds. This cannot happen on the same enemy more than once every 5 seconds.`,
+				`Shadow Mages fire an additional shadow bolt every 6th attack.`
+			]
+		},
+		"Cold Mages": {
+			description: `Chills and freezes enemies.`,
+			id: 114,
+			sacrifice: `You deal x15% increased damage to vulnerable enemies, but you can no longer raise Skeletal Mages.`,
+			upgrades: [
+				`Each time your cold mages damage enemies with their primary attack, you gain 2 essence.`,
+				`Enemies who are frozen by or damaged while frozen by your cold mages primary attack are made vulnerable for 3 seconds.`
+			]
+		},
+		"Bone Mages": {
+			description: `Uses its own bones as projectiles, dealing heavy damage for a life cost.`,
+			id: 115,
+			sacrifice: `Your overpower damage is increased by 30%, but you can no longer raise Skeletal Mages.`,
+			upgrades: [
+				`Reduce the life cost of your bone mages attacks from 15% to 10%. After being alive for 5 seconds, bone mages deal 40% increased damage.`,
+				`Each time a bone mage dies from its own attack, they leave behind a corpse and fortify you for #.`
+			]
+		},
+	},
+	"Golem": {
+		"Bone Golem": {
+			description: `Taunts enemies in a wide area.`,
+			id: 116,
+			sacrifice: `You gain 10% increased attack speed, but you lose the ability to summon a Golem.`,
+			upgrades: [
+				`Each time your Golem takes up to 20% of its maximum life as damage, it sheds a corpse.`,
+				`Your Golem gains 10% maximum life and the amount of thorns they inherit from you is increased from 30% to 50%.`
+			]
+		},
+		"Blood Golem": {
+			description: `Drains life from nearby enemies.`,
+			id: 117,
+			sacrifice: `Your maximum life is increased by 10%, but you lose the ability to summon a Golem.`,
+			upgrades: [
+				`Your Golem absorbs 15% of the damage you would take.`,
+				`While healthy, your Golem gains 25% damage reduction and x25% increased damage.`
+			]
+		},
+		"Iron Golem": {
+			description: `Slams the ground and stuns enemies.`,
+			id: 118,
+			sacrifice: `You deal x30% increased critical strike damage, but you lose the ability to summon a Golem.`,
+			upgrades: [
+				`Every 5th Golem attack causes a shockwave, dealing 16% damage to the primary enemy and to enemies behind them.`,
+				`Your Golem slam attack also makes enemies vulnerable for 3 seconds.`
+			]
+		},
 	},
 };
 

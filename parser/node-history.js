@@ -379,7 +379,16 @@ let nodeHistory = {
 		"Capstone: Shadowblight": 106,
 		"Capstone: Rathma's Vigor": 107,
 		"Capstone: Strength in Numbers": 108,
-		"Summoning: Spiked Armor": 109
+		"Summoning: Spiked Armor": 109,
+		"Book of the Dead: Skeletal Skirmishers": 110,
+		"Book of the Dead: Skeletal Defenders": 111,
+		"Book of the Dead: Skeletal Reapers": 112,
+		"Book of the Dead: Shadow Mages": 113,
+		"Book of the Dead: Cold Mages": 114,
+		"Book of the Dead: Bone Mages": 115,
+		"Book of the Dead: Bone Golem": 116,
+		"Book of the Dead: Blood Golem": 117,
+		"Book of the Dead: Iron Golem": 118
 	},
 	"Rogue": {
 		"Basic: Blade Shift": 0,

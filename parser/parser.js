@@ -1,5 +1,6 @@
 import { nodeHistory } from "./node-history.js";
 import { nodeValues } from "./node-values.js";
+import { necromancerMinions } from "./necromancer-minions.js";
 import { sorcererEnchants } from "./sorcerer-enchants.js";
 
 const buildNumber = 36331;
@@ -307,7 +308,7 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					delete nodeValues[className][rootNodeName][nodeData["SkillName"]];
 				}
 				output += "		x: " + parseFloat(((nodeData["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
-				output += "		y: " + parseFloat(((nodeData["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
+				output += "		y: " + parseFloat(((nodeData["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + "\n";
 				output += "	},\n";
 				output += recursiveSkillTreeScan(nodeData["Connections"], classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth + 1);
 			}
@@ -348,6 +349,12 @@ function runParser(downloadMode) {
 				}
 			});
 		}
+		if (className == "Necromancer" && necromancerMinions != undefined) {
+			formattedData += '	"Book of the Dead": {\n';
+			formattedData += "		x: 2500,\n";
+			formattedData += "		y: 0\n";
+			formattedData += "	},\n";
+		}
 		formattedData += "};\n\n";
 
 		for (let i = 0; i < Object.keys(rootNodeNamesSorted[className]).length; i++) {
@@ -362,6 +369,38 @@ function runParser(downloadMode) {
 					formattedData += "};\n\n";
 				}
 			});
+		}
+		if (className == "Necromancer" && necromancerMinions != undefined) {
+			formattedData += classNameLower + '["Book of the Dead"] = {\n';
+			for (const [minionName, minionData] of Object.entries(necromancerMinions)) {
+				formattedData += '	"' + minionName + '": {\n';
+				for (const [minionTypeName, minionTypeData] of Object.entries(minionData)) {
+					formattedData += '		"' + minionTypeName + '": {\n';
+					formattedData += "			description: `" + minionTypeData["Description"] + "`,\n";
+					const nodeHistoricalId = nodeHistory[className]["Book of the Dead: " + minionTypeName];
+					if (nodeHistoricalId != undefined) {
+						formattedData += "			id: " + nodeHistoricalId + ",\n";
+					} else {
+						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
+						nodeHistory[className]["Book of the Dead: " + minionTypeName] = nodeHistoryLength;
+						formattedData += "			id: " + nodeHistoryLength + ",\n";
+					}
+					formattedData += "			sacrifice: `" + minionTypeData["Sacrifice"] + "`,\n";
+					formattedData += "			upgrades: [\n";
+					minionTypeData["Upgrades"].forEach((upgradeText, upgradeIndex) => {
+						formattedData += "				`" + upgradeText + "`";
+						if (upgradeIndex < minionTypeData["Upgrades"].length - 1) {
+							formattedData += ",\n";
+						} else {
+							formattedData += "\n";
+						}
+					});
+					formattedData += "			]\n";
+					formattedData += "		},\n";
+				}
+				formattedData += "	},\n";
+			}
+			formattedData += "};\n\n";
 		}
 		formattedData += "export { " + classNameLower + " };";
 		if (fixedJSON) {

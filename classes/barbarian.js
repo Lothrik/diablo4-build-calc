@@ -54,7 +54,7 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 		maxPoints: 5,
 		values: [ "10", "", "31", "4", "1.25", "2" ],
 		x: -297.919,
-		y: -147.065,
+		y: -147.065
 	},
 	"Enhanced Bash": {
 		baseSkill: "Bash",
@@ -64,7 +64,7 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 		maxPoints: 1,
 		values: [ "5", "" ],
 		x: -534.132,
-		y: -273.13,
+		y: -273.13
 	},
 	"Battle Bash": {
 		baseSkill: "Bash",
@@ -74,7 +74,7 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 		maxPoints: 1,
 		values: [ "3", "4" ],
 		x: -804.282,
-		y: -298.615,
+		y: -298.615
 	},
 	"Combat Bash": {
 		baseSkill: "Bash",
@@ -84,7 +84,7 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 		maxPoints: 1,
 		values: [ "4" ],
 		x: -613.512,
-		y: -419.785,
+		y: -419.785
 	},
 	"Lunging Strike": {
 		connections: [ "Basic", "Enhanced Lunging Strike" ],
@@ -96,7 +96,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 		maxPoints: 5,
 		values: [ "9", "", "31" ],
 		x: -280.465,
-		y: 154.03,
+		y: 154.03
 	},
 	"Enhanced Lunging Strike": {
 		baseSkill: "Lunging Strike",
@@ -106,7 +106,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "30", "2", "" ],
 		x: -517.912,
-		y: 283.305,
+		y: 283.305
 	},
 	"Combat Lunging Strike": {
 		baseSkill: "Lunging Strike",
@@ -116,7 +116,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "1.5" ],
 		x: -797.217,
-		y: 315.345,
+		y: 315.345
 	},
 	"Battle Lunging Strike": {
 		baseSkill: "Lunging Strike",
@@ -126,7 +126,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "21", "5" ],
 		x: -571.827,
-		y: 426.19,
+		y: 426.19
 	},
 	"Frenzy": {
 		connections: [ "Basic", "Enhanced Frenzy" ],
@@ -140,7 +140,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds,
 		maxPoints: 5,
 		values: [ "5", "", "21", "20", "3", "60" ],
 		x: 295.291,
-		y: 155.45,
+		y: 155.45
 	},
 	"Enhanced Frenzy": {
 		baseSkill: "Frenzy",
@@ -150,7 +150,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds,
 		maxPoints: 1,
 		values: [ "60" ],
 		x: 541.243,
-		y: 295.12,
+		y: 295.12
 	},
 	"Battle Frenzy": {
 		baseSkill: "Frenzy",
@@ -160,7 +160,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds,
 		maxPoints: 1,
 		values: [ "5" ],
 		x: 640.298,
-		y: 431.52,
+		y: 431.52
 	},
 	"Combat Frenzy": {
 		baseSkill: "Frenzy",
@@ -170,7 +170,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds,
 		maxPoints: 1,
 		values: [ "8" ],
 		x: 829.408,
-		y: 308.185,
+		y: 308.185
 	},
 	"Flay": {
 		connections: [ "Basic", "Enhanced Flay" ],
@@ -182,7 +182,7 @@ Flay the enemy, dealing {#}% damage. Inflicts {#}% Bleeding damage over {#} seco
 		maxPoints: 5,
 		values: [ "9", "", "5", "38", "5" ],
 		x: 291.231,
-		y: -150.545,
+		y: -150.545
 	},
 	"Enhanced Flay": {
 		baseSkill: "Flay",
@@ -192,7 +192,7 @@ Flay the enemy, dealing {#}% damage. Inflicts {#}% Bleeding damage over {#} seco
 		maxPoints: 1,
 		values: [ "10", "3" ],
 		x: 549.073,
-		y: -289.98,
+		y: -289.98
 	},
 	"Battle Flay": {
 		baseSkill: "Flay",
@@ -202,7 +202,7 @@ Flay the enemy, dealing {#}% damage. Inflicts {#}% Bleeding damage over {#} seco
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 604.228,
-		y: -437.075,
+		y: -437.075
 	},
 	"Combat Flay": {
 		baseSkill: "Flay",
@@ -212,7 +212,7 @@ Flay the enemy, dealing {#}% damage. Inflicts {#}% Bleeding damage over {#} seco
 		maxPoints: 1,
 		values: [ "1", "4", "3", "5" ],
 		x: 839.658,
-		y: -320.87,
+		y: -320.87
 	},
 };
 
@@ -227,7 +227,7 @@ Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a co
 		maxPoints: 5,
 		values: [ "35", "", "59" ],
 		x: -314.782,
-		y: -203.49,
+		y: -203.49
 	},
 	"Enhanced Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
@@ -237,7 +237,7 @@ Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a co
 		maxPoints: 1,
 		values: [ "3", "5", "10" ],
 		x: -531.275,
-		y: -352.21,
+		y: -352.21
 	},
 	"Violent Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
@@ -247,7 +247,7 @@ Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a co
 		maxPoints: 1,
 		values: [ "30", "2.5" ],
 		x: -779.56,
-		y: -413.6,
+		y: -413.6
 	},
 	"Furious Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
@@ -257,7 +257,7 @@ Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a co
 		maxPoints: 1,
 		values: [ "1" ],
 		x: -552.235,
-		y: -498.525,
+		y: -498.525
 	},
 	"Upheaval": {
 		connections: [ "Core", "Enhanced Upheaval" ],
@@ -269,7 +269,7 @@ Tear into the ground with your weapon and fling debris forward, dealing {#}% dam
 		maxPoints: 5,
 		values: [ "40", "", "73" ],
 		x: -404.749,
-		y: 65.115,
+		y: 65.115
 	},
 	"Enhanced Upheaval": {
 		baseSkill: "Upheaval",
@@ -279,7 +279,7 @@ Tear into the ground with your weapon and fling debris forward, dealing {#}% dam
 		maxPoints: 1,
 		values: [ "20", "2.5" ],
 		x: -736.93,
-		y: 112.495,
+		y: 112.495
 	},
 	"Violent Upheaval": {
 		baseSkill: "Upheaval",
@@ -289,7 +289,7 @@ Tear into the ground with your weapon and fling debris forward, dealing {#}% dam
 		maxPoints: 1,
 		values: [ "2", "2", "3", "4" ],
 		x: -1039.995,
-		y: 90.585,
+		y: 90.585
 	},
 	"Furious Upheaval": {
 		baseSkill: "Upheaval",
@@ -299,7 +299,7 @@ Tear into the ground with your weapon and fling debris forward, dealing {#}% dam
 		maxPoints: 1,
 		values: [ "8", "10" ],
 		x: -934.745,
-		y: 232.075,
+		y: 232.075
 	},
 	"Double Swing": {
 		connections: [ "Core", "Enhanced Double Swing" ],
@@ -311,7 +311,7 @@ Sweep your weapons from opposite directions, dealing {#}% damage with each weapo
 		maxPoints: 5,
 		values: [ "25", "", "38" ],
 		x: 77.926,
-		y: 208.37,
+		y: 208.37
 	},
 	"Enhanced Double Swing": {
 		baseSkill: "Double Swing",
@@ -321,7 +321,7 @@ Sweep your weapons from opposite directions, dealing {#}% damage with each weapo
 		maxPoints: 1,
 		values: [ "25" ],
 		x: 145.457,
-		y: 376.64,
+		y: 376.64
 	},
 	"Furious Double Swing": {
 		baseSkill: "Double Swing",
@@ -331,7 +331,7 @@ Sweep your weapons from opposite directions, dealing {#}% damage with each weapo
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 103.505,
-		y: 509.21,
+		y: 509.21
 	},
 	"Violent Double Swing": {
 		baseSkill: "Double Swing",
@@ -341,7 +341,7 @@ Sweep your weapons from opposite directions, dealing {#}% damage with each weapo
 		maxPoints: 1,
 		values: [ "1" ],
 		x: 359.004,
-		y: 454.195,
+		y: 454.195
 	},
 	"Pressure Point": {
 		connections: [ "Core" ],
@@ -350,7 +350,7 @@ Sweep your weapons from opposite directions, dealing {#}% damage with each weapo
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
 		x: -756.09,
-		y: -117.275,
+		y: -117.275
 	},
 	"Rend": {
 		connections: [ "Core", "Enhanced Rend" ],
@@ -362,7 +362,7 @@ Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding
 		maxPoints: 5,
 		values: [ "35", "", "13", "101", "5" ],
 		x: 256.089,
-		y: -201.51,
+		y: -201.51
 	},
 	"Enhanced Rend": {
 		baseSkill: "Rend",
@@ -372,7 +372,7 @@ Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 455.858,
-		y: -352.25,
+		y: -352.25
 	},
 	"Violent Rend": {
 		baseSkill: "Rend",
@@ -382,7 +382,7 @@ Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding
 		maxPoints: 1,
 		values: [ "12" ],
 		x: 462.361,
-		y: -500.135,
+		y: -500.135
 	},
 	"Furious Rend": {
 		baseSkill: "Rend",
@@ -392,7 +392,7 @@ Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding
 		maxPoints: 1,
 		values: [ "4", "20" ],
 		x: 694.21,
-		y: -415.125,
+		y: -415.125
 	},
 	"Whirlwind": {
 		connections: [ "Core", "Enhanced Whirlwind" ],
@@ -404,7 +404,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 		maxPoints: 5,
 		values: [ "20", "", "12" ],
 		x: 468.01,
-		y: 2.835,
+		y: 2.835
 	},
 	"Enhanced Whirlwind": {
 		baseSkill: "Whirlwind",
@@ -414,7 +414,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "1", "3" ],
 		x: 811.475,
-		y: 5.54,
+		y: 5.54
 	},
 	"Furious Whirlwind": {
 		baseSkill: "Whirlwind",
@@ -424,7 +424,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "26", "5" ],
 		x: 1019.47,
-		y: 79.94,
+		y: 79.94
 	},
 	"Violent Whirlwind": {
 		baseSkill: "Whirlwind",
@@ -434,7 +434,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "2", "30" ],
 		x: 1026.415,
-		y: -63.565,
+		y: -63.565
 	},
 	"Endless Fury": {
 		connections: [ "Core" ],
@@ -443,7 +443,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 537.505,
-		y: 210.405,
+		y: 210.405
 	},
 };
 
@@ -456,7 +456,7 @@ Taunt Nearby enemies and gain x{#}% Damage Reduction for {#} seconds.`,
 		maxPoints: 5,
 		values: [ "25.0", "40", "8" ],
 		x: -352.93,
-		y: -191.54,
+		y: -191.54
 	},
 	"Enhanced Challenging Shout": {
 		baseSkill: "Challenging Shout",
@@ -466,7 +466,7 @@ Taunt Nearby enemies and gain x{#}% Damage Reduction for {#} seconds.`,
 		maxPoints: 1,
 		values: [ "20" ],
 		x: -595.095,
-		y: -328.055,
+		y: -328.055
 	},
 	"Strategic Challenging Shout": {
 		baseSkill: "Challenging Shout",
@@ -476,7 +476,7 @@ Taunt Nearby enemies and gain x{#}% Damage Reduction for {#} seconds.`,
 		maxPoints: 1,
 		values: [ "50" ],
 		x: -681.82,
-		y: -477.185,
+		y: -477.185
 	},
 	"Tactical Challenging Shout": {
 		baseSkill: "Challenging Shout",
@@ -486,7 +486,7 @@ Taunt Nearby enemies and gain x{#}% Damage Reduction for {#} seconds.`,
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -891.53,
-		y: -358.345,
+		y: -358.345
 	},
 	"Iron Skin": {
 		connections: [ "Defensive", "Enhanced Iron Skin" ],
@@ -496,7 +496,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		maxPoints: 5,
 		values: [ "14.0", "50", "5" ],
 		x: -340.565,
-		y: 180.695,
+		y: 180.695
 	},
 	"Enhanced Iron Skin": {
 		baseSkill: "Iron Skin",
@@ -506,7 +506,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -560.645,
-		y: 317.12,
+		y: 317.12
 	},
 	"Tactical Iron Skin": {
 		baseSkill: "Iron Skin",
@@ -516,7 +516,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		maxPoints: 1,
 		values: [ "10" ],
 		x: -879.405,
-		y: 366.965,
+		y: 366.965
 	},
 	"Strategic Iron Skin": {
 		baseSkill: "Iron Skin",
@@ -526,7 +526,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		maxPoints: 1,
 		values: [ "9", "", "50" ],
 		x: -628.23,
-		y: 481.575,
+		y: 481.575
 	},
 	"Outburst": {
 		connections: [ "Defensive", "Tough as Nails" ],
@@ -535,7 +535,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		maxPoints: 3,
 		values: [ "{2/4/6}", "2", "2" ],
 		x: -523.995,
-		y: -2.145,
+		y: -2.145
 	},
 	"Tough as Nails": {
 		connections: [ "Outburst" ],
@@ -544,7 +544,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		maxPoints: 3,
 		values: [ "{20/40/60}" ],
 		x: -871.425,
-		y: -1.78,
+		y: -1.78
 	},
 	"Ground Stomp": {
 		connections: [ "Defensive", "Enhanced Ground Stomp" ],
@@ -556,7 +556,7 @@ Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} s
 		maxPoints: 5,
 		values: [ "16.0", "", "10", "3" ],
 		x: -1.45,
-		y: -233.72,
+		y: -233.72
 	},
 	"Enhanced Ground Stomp": {
 		baseSkill: "Ground Stomp",
@@ -566,7 +566,7 @@ Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} s
 		maxPoints: 1,
 		values: [ "1" ],
 		x: -3.54,
-		y: -391.82,
+		y: -391.82
 	},
 	"Tactical Ground Stomp": {
 		baseSkill: "Ground Stomp",
@@ -576,7 +576,7 @@ Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} s
 		maxPoints: 1,
 		values: [ "25" ],
 		x: -159.695,
-		y: -536.35,
+		y: -536.35
 	},
 	"Strategic Ground Stomp": {
 		baseSkill: "Ground Stomp",
@@ -586,7 +586,7 @@ Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} s
 		maxPoints: 1,
 		values: [ "1" ],
 		x: 146.68,
-		y: -537.22,
+		y: -537.22
 	},
 	"Rallying Cry": {
 		connections: [ "Defensive", "Enhanced Rallying Cry" ],
@@ -596,7 +596,7 @@ Bellow a rallying cry, granting allies +{#}% increased Movement Speed, and x{#}%
 		maxPoints: 5,
 		values: [ "25.0", "30", "50", "6" ],
 		x: 346.595,
-		y: 186.035,
+		y: 186.035
 	},
 	"Enhanced Rallying Cry": {
 		baseSkill: "Rallying Cry",
@@ -605,7 +605,7 @@ Bellow a rallying cry, granting allies +{#}% increased Movement Speed, and x{#}%
 		id: 53,
 		maxPoints: 1,
 		x: 615.412,
-		y: 336.77,
+		y: 336.77
 	},
 	"Strategic Rallying Cry": {
 		baseSkill: "Rallying Cry",
@@ -615,7 +615,7 @@ Bellow a rallying cry, granting allies +{#}% increased Movement Speed, and x{#}%
 		maxPoints: 1,
 		values: [ "10", "", "2", "" ],
 		x: 706.577,
-		y: 510.305,
+		y: 510.305
 	},
 	"Tactical Rallying Cry": {
 		baseSkill: "Rallying Cry",
@@ -625,7 +625,7 @@ Bellow a rallying cry, granting allies +{#}% increased Movement Speed, and x{#}%
 		maxPoints: 1,
 		values: [ "25", "50" ],
 		x: 937.688,
-		y: 394.765,
+		y: 394.765
 	},
 	"Imposing Presence": {
 		connections: [ "Defensive", "Martial Vigor" ],
@@ -634,7 +634,7 @@ Bellow a rallying cry, granting allies +{#}% increased Movement Speed, and x{#}%
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 499.955,
-		y: -0.505,
+		y: -0.505
 	},
 	"Martial Vigor": {
 		connections: [ "Imposing Presence" ],
@@ -643,7 +643,7 @@ Bellow a rallying cry, granting allies +{#}% increased Movement Speed, and x{#}%
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: 869.192,
-		y: 0.69,
+		y: 0.69
 	},
 };
 
@@ -658,7 +658,7 @@ Become Unstoppable and rush forward, pushing enemies with you then swinging thro
 		maxPoints: 5,
 		values: [ "17.0", "", "26" ],
 		x: -281.935,
-		y: 182.909,
+		y: 182.909
 	},
 	"Enhanced Charge": {
 		baseSkill: "Charge",
@@ -668,7 +668,7 @@ Become Unstoppable and rush forward, pushing enemies with you then swinging thro
 		maxPoints: 1,
 		values: [ "16", "3" ],
 		x: -520.55,
-		y: 327.459,
+		y: 327.459
 	},
 	"Power Charge": {
 		baseSkill: "Charge",
@@ -678,7 +678,7 @@ Become Unstoppable and rush forward, pushing enemies with you then swinging thro
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -764.505,
-		y: 388.421,
+		y: 388.421
 	},
 	"Mighty Charge": {
 		baseSkill: "Charge",
@@ -688,7 +688,7 @@ Become Unstoppable and rush forward, pushing enemies with you then swinging thro
 		maxPoints: 1,
 		values: [ "2" ],
 		x: -545.135,
-		y: 471.464,
+		y: 471.464
 	},
 	"War Cry": {
 		connections: [ "Brawling", "Enhanced War Cry" ],
@@ -698,7 +698,7 @@ Bellow a mighty war cry. You and Nearby allies deal x{#}% increased damage for {
 		maxPoints: 5,
 		values: [ "25.0", "15", "8" ],
 		x: -233.835,
-		y: -208.505,
+		y: -208.505
 	},
 	"Enhanced War Cry": {
 		baseSkill: "War Cry",
@@ -708,7 +708,7 @@ Bellow a mighty war cry. You and Nearby allies deal x{#}% increased damage for {
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -396.14,
-		y: -350.13,
+		y: -350.13
 	},
 	"Power War Cry": {
 		baseSkill: "War Cry",
@@ -718,7 +718,7 @@ Bellow a mighty war cry. You and Nearby allies deal x{#}% increased damage for {
 		maxPoints: 1,
 		values: [ "4", "15" ],
 		x: -660.65,
-		y: -395.7,
+		y: -395.7
 	},
 	"Mighty War Cry": {
 		baseSkill: "War Cry",
@@ -728,7 +728,7 @@ Bellow a mighty war cry. You and Nearby allies deal x{#}% increased damage for {
 		maxPoints: 1,
 		values: [ "28", "" ],
 		x: -462.62,
-		y: -487.765,
+		y: -487.765
 	},
 	"Booming Voice": {
 		connections: [ "Brawling", "Raid Leader", "Guttural Yell" ],
@@ -737,7 +737,7 @@ Bellow a mighty war cry. You and Nearby allies deal x{#}% increased damage for {
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
 		x: -536.805,
-		y: -0.565,
+		y: -0.565
 	},
 	"Raid Leader": {
 		connections: [ "Booming Voice" ],
@@ -746,7 +746,7 @@ Bellow a mighty war cry. You and Nearby allies deal x{#}% increased damage for {
 		maxPoints: 3,
 		values: [ "{1/2/3}" ],
 		x: -887.65,
-		y: -76.885,
+		y: -76.885
 	},
 	"Guttural Yell": {
 		connections: [ "Booming Voice" ],
@@ -755,7 +755,7 @@ Bellow a mighty war cry. You and Nearby allies deal x{#}% increased damage for {
 		maxPoints: 3,
 		values: [ "{8/16/24}", "5" ],
 		x: -879.855,
-		y: 102.01,
+		y: 102.01
 	},
 	"Leap": {
 		connections: [ "Brawling", "Enhanced Leap" ],
@@ -767,7 +767,7 @@ Leap forward and then slam down, dealing {#}% damage and Knocking Back surroundi
 		maxPoints: 5,
 		values: [ "17.0", "", "34" ],
 		x: 268.76,
-		y: 178.719,
+		y: 178.719
 	},
 	"Enhanced Leap": {
 		baseSkill: "Leap",
@@ -777,7 +777,7 @@ Leap forward and then slam down, dealing {#}% damage and Knocking Back surroundi
 		maxPoints: 1,
 		values: [ "4" ],
 		x: 513.765,
-		y: 326.899,
+		y: 326.899
 	},
 	"Mighty Leap": {
 		baseSkill: "Leap",
@@ -787,7 +787,7 @@ Leap forward and then slam down, dealing {#}% damage and Knocking Back surroundi
 		maxPoints: 1,
 		values: [ "50", "5" ],
 		x: 787.476,
-		y: 357.779,
+		y: 357.779
 	},
 	"Power Leap": {
 		baseSkill: "Leap",
@@ -797,7 +797,7 @@ Leap forward and then slam down, dealing {#}% damage and Knocking Back surroundi
 		maxPoints: 1,
 		values: [ "40" ],
 		x: 615.906,
-		y: 458.297,
+		y: 458.297
 	},
 	"Kick": {
 		connections: [ "Enhanced Kick", "Brawling" ],
@@ -810,7 +810,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 5,
 		values: [ "2", "17.0", "", "19", "57", "3" ],
 		x: 214.57,
-		y: -209.195,
+		y: -209.195
 	},
 	"Enhanced Kick": {
 		baseSkill: "Kick",
@@ -820,7 +820,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 1,
 		values: [ "4" ],
 		x: 358.05,
-		y: -349.61,
+		y: -349.61
 	},
 	"Mighty Kick": {
 		baseSkill: "Kick",
@@ -830,7 +830,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 1,
 		values: [ "54", "2" ],
 		x: 396.34,
-		y: -487.3,
+		y: -487.3
 	},
 	"Power Kick": {
 		baseSkill: "Kick",
@@ -840,7 +840,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 1,
 		values: [ "21", "10" ],
 		x: 660.106,
-		y: -393.24,
+		y: -393.24
 	},
 	"Aggressive Resistance": {
 		connections: [ "Prolific Fury", "Battle Frenzy", "Brawling" ],
@@ -849,7 +849,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: -0.385,
-		y: 314.173,
+		y: 314.173
 	},
 	"Prolific Fury": {
 		connections: [ "Aggressive Resistance" ],
@@ -858,7 +858,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
 		x: 165.21,
-		y: 513.014,
+		y: 513.014
 	},
 	"Battle Frenzy": {
 		connections: [ "Aggressive Resistance" ],
@@ -867,7 +867,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 3,
 		values: [ "{1/2/3}" ],
 		x: -166.53,
-		y: 511.82,
+		y: 511.82
 	},
 	"Swiftness": {
 		connections: [ "Brawling", "Quick Impulses" ],
@@ -876,7 +876,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: 604.811,
-		y: -113.28,
+		y: -113.28
 	},
 	"Quick Impulses": {
 		connections: [ "Swiftness" ],
@@ -885,7 +885,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
 		x: 951.192,
-		y: -180.78,
+		y: -180.78
 	},
 };
 
@@ -901,7 +901,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		maxPoints: 5,
 		values: [ "2", "11.0", "", "24" ],
 		x: 333.535,
-		y: 169.019,
+		y: 169.019
 	},
 	"Enhanced Steel Grasp": {
 		baseSkill: "Steel Grasp",
@@ -911,7 +911,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		maxPoints: 1,
 		values: [ "2.5" ],
 		x: 561.555,
-		y: 293.289,
+		y: 293.289
 	},
 	"Warrior's Steel Grasp": {
 		baseSkill: "Steel Grasp",
@@ -921,7 +921,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		maxPoints: 1,
 		values: [ "1" ],
 		x: 606.385,
-		y: 458.861,
+		y: 458.861
 	},
 	"Fighter's Steel Grasp": {
 		baseSkill: "Steel Grasp",
@@ -931,7 +931,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 884.795,
-		y: 366.914,
+		y: 366.914
 	},
 	"Thick Skin": {
 		connections: [ "Weapon Mastery", "Counteroffensive", "Defensive Posture" ],
@@ -940,7 +940,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		maxPoints: 3,
 		values: [ "{0.4/0.7/1.1}", "" ],
 		x: 0.225,
-		y: 334.476,
+		y: 334.476
 	},
 	"Counteroffensive": {
 		connections: [ "Thick Skin" ],
@@ -949,7 +949,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		maxPoints: 3,
 		values: [ "50", "{5/10/15}" ],
 		x: 166.395,
-		y: 533.625,
+		y: 533.625
 	},
 	"Defensive Posture": {
 		connections: [ "Thick Skin" ],
@@ -958,7 +958,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: -157.31,
-		y: 535.218,
+		y: 535.218
 	},
 	"Death Blow": {
 		connections: [ "Weapon Mastery", "Enhanced Death Blow" ],
@@ -974,7 +974,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 		maxPoints: 5,
 		values: [ "", "", "15.0", "", "126" ],
 		x: -325.565,
-		y: -166.535,
+		y: -166.535
 	},
 	"Enhanced Death Blow": {
 		baseSkill: "Death Blow",
@@ -984,7 +984,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 		maxPoints: 1,
 		values: [ "100" ],
 		x: -568.68,
-		y: -305.265,
+		y: -305.265
 	},
 	"Warrior's Death Blow": {
 		baseSkill: "Death Blow",
@@ -994,7 +994,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -865.527,
-		y: -366.715,
+		y: -366.715
 	},
 	"Fighter's Death Blow": {
 		baseSkill: "Death Blow",
@@ -1004,7 +1004,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 		maxPoints: 1,
 		values: [ "20" ],
 		x: -648.16,
-		y: -468.705,
+		y: -468.705
 	},
 	"Pit Fighter": {
 		connections: [ "Weapon Mastery", "Slaying Strike", "No Mercy" ],
@@ -1013,7 +1013,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 		maxPoints: 3,
 		values: [ "{3/6/9}", "{2/4/6}" ],
 		x: -2.05,
-		y: -332.97,
+		y: -332.97
 	},
 	"Slaying Strike": {
 		connections: [ "Pit Fighter", "Expose Vulnerability" ],
@@ -1022,7 +1022,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 		maxPoints: 3,
 		values: [ "{8/15/23}" ],
 		x: 158.41,
-		y: -504.97,
+		y: -504.97
 	},
 	"Expose Vulnerability": {
 		connections: [ "No Mercy", "Slaying Strike" ],
@@ -1031,7 +1031,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 		maxPoints: 3,
 		values: [ "{1.5/3/4.5}" ],
 		x: 2.605,
-		y: -667.29,
+		y: -667.29
 	},
 	"No Mercy": {
 		connections: [ "Expose Vulnerability", "Pit Fighter" ],
@@ -1040,7 +1040,7 @@ If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge i
 		maxPoints: 3,
 		values: [ "{5/9/13}" ],
 		x: -150.43,
-		y: -504.285,
+		y: -504.285
 	},
 	"Rupture": {
 		connections: [ "Enhanced Rupture", "Weapon Mastery" ],
@@ -1054,7 +1054,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 		maxPoints: 5,
 		values: [ "15.0", "", "", "", "14" ],
 		x: 327.83,
-		y: -166.52,
+		y: -166.52
 	},
 	"Enhanced Rupture": {
 		baseSkill: "Rupture",
@@ -1064,7 +1064,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 		maxPoints: 1,
 		values: [ "20", "8" ],
 		x: 552.76,
-		y: -304.595,
+		y: -304.595
 	},
 	"Fighter's Rupture": {
 		baseSkill: "Rupture",
@@ -1074,7 +1074,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 		maxPoints: 1,
 		values: [ "15" ],
 		x: 880.23,
-		y: -365.865,
+		y: -365.865
 	},
 	"Warrior's Rupture": {
 		baseSkill: "Rupture",
@@ -1084,7 +1084,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 		maxPoints: 1,
 		values: [ "20", "4" ],
 		x: 585.94,
-		y: -469.18,
+		y: -469.18
 	},
 	"Hamstring": {
 		connections: [ "Cut to the Bone", "Weapon Mastery" ],
@@ -1093,7 +1093,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
 		x: 632.795,
-		y: 0.03,
+		y: 0.03
 	},
 	"Cut to the Bone": {
 		connections: [ "Hamstring" ],
@@ -1102,7 +1102,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
 		x: 1008.41,
-		y: -0.025,
+		y: -0.025
 	},
 };
 
@@ -1123,7 +1123,7 @@ Madawc upheaves the ground, dealing {#}% damage.`,
 		maxPoints: 1,
 		values: [ "50.0", "", "6", "80", "30", "50", "150" ],
 		x: -51.582,
-		y: -242.094,
+		y: -242.094
 	},
 	"Prime Call of the Ancients": {
 		baseSkill: "Call of the Ancients",
@@ -1133,7 +1133,7 @@ Madawc upheaves the ground, dealing {#}% damage.`,
 		maxPoints: 1,
 		values: [ "10", "10" ],
 		x: 112.66,
-		y: -397.525,
+		y: -397.525
 	},
 	"Supreme Call of the Ancients": {
 		baseSkill: "Call of the Ancients",
@@ -1147,7 +1147,7 @@ Madawc: {#}% chance to Stun enemies for {#} seconds when using his Upheaval.`,
 		maxPoints: 1,
 		values: [ "50", "1", "30", "3" ],
 		x: -18.609,
-		y: -547.138,
+		y: -547.138
 	},
 	"Iron Maelstrom": {
 		connections: [ "Ultimate", "Prime Iron Maelstrom" ],
@@ -1163,7 +1163,7 @@ Reactivate a final time to attach a chain to your Dual Wield weapons and swing t
 		maxPoints: 1,
 		values: [ "60.0", "", "63", "2", "21", "126", "5", "34" ],
 		x: -409.819,
-		y: -8.495,
+		y: -8.495
 	},
 	"Prime Iron Maelstrom": {
 		baseSkill: "Iron Maelstrom",
@@ -1173,7 +1173,7 @@ Reactivate a final time to attach a chain to your Dual Wield weapons and swing t
 		maxPoints: 1,
 		values: [ "10", "20" ],
 		x: -714.379,
-		y: -29.264,
+		y: -29.264
 	},
 	"Supreme Iron Maelstrom": {
 		baseSkill: "Iron Maelstrom",
@@ -1183,7 +1183,7 @@ Reactivate a final time to attach a chain to your Dual Wield weapons and swing t
 		maxPoints: 1,
 		values: [ "1" ],
 		x: -954.889,
-		y: 30.87,
+		y: 30.87
 	},
 	"Duelist": {
 		connections: [ "Ultimate" ],
@@ -1192,7 +1192,7 @@ Reactivate a final time to attach a chain to your Dual Wield weapons and swing t
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: -496.302,
-		y: -261.705,
+		y: -261.705
 	},
 	"Wrath of the Berserker": {
 		connections: [ "Ultimate", "Supreme Wrath of the Berserker" ],
@@ -1203,7 +1203,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 1,
 		values: [ "60.0", "", "5", "10", "5" ],
 		x: 293.361,
-		y: 168.865,
+		y: 168.865
 	},
 	"Supreme Wrath of the Berserker": {
 		baseSkill: "Wrath of the Berserker",
@@ -1213,7 +1213,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 1,
 		values: [ "50", "25" ],
 		x: 438.829,
-		y: 328.334,
+		y: 328.334
 	},
 	"Prime Wrath of the Berserker": {
 		baseSkill: "Wrath of the Berserker",
@@ -1223,7 +1223,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 1,
 		values: [ "20", "30" ],
 		x: 623.391,
-		y: 426.139,
+		y: 426.139
 	},
 	"Tempered Fury": {
 		connections: [ "Ultimate", "Invigorating Fury", "Furious Impulse" ],
@@ -1232,7 +1232,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: -490.702,
-		y: 263.36,
+		y: 263.36
 	},
 	"Invigorating Fury": {
 		connections: [ "Tempered Fury" ],
@@ -1241,7 +1241,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 3,
 		values: [ "{2/4/6}", "100" ],
 		x: -560.269,
-		y: 457.204,
+		y: 457.204
 	},
 	"Furious Impulse": {
 		connections: [ "Tempered Fury" ],
@@ -1250,7 +1250,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 3,
 		values: [ "{2/4/6}" ],
 		x: -869.834,
-		y: 330.929,
+		y: 330.929
 	},
 	"Wallop": {
 		connections: [ "Ultimate", "Brute Force", "Concussion" ],
@@ -1259,7 +1259,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 517.506,
-		y: -164.641,
+		y: -164.641
 	},
 	"Brute Force": {
 		connections: [ "Wallop", "Heavy Handed" ],
@@ -1268,7 +1268,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
 		x: 960.611,
-		y: -108.571,
+		y: -108.571
 	},
 	"Heavy Handed": {
 		connections: [ "Ultimate", "Brute Force" ],
@@ -1277,7 +1277,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 638.816,
-		y: 39.155,
+		y: 39.155
 	},
 	"Concussion": {
 		connections: [ "Wallop" ],
@@ -1286,7 +1286,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		maxPoints: 3,
 		values: [ "{10/20/30}", "3", "{15/30/45}" ],
 		x: 821.771,
-		y: -332.793,
+		y: -332.793
 	},
 };
 
@@ -1298,7 +1298,7 @@ barbarian["Capstone"] = {
 		maxPoints: 1,
 		values: [ "5", "25" ],
 		x: -562.656,
-		y: 314.67,
+		y: 314.67
 	},
 	"Gushing Wounds": {
 		connections: [ "Capstone" ],
@@ -1308,7 +1308,7 @@ barbarian["Capstone"] = {
 		maxPoints: 1,
 		values: [ "12", "5" ],
 		x: 559.849,
-		y: 314.985,
+		y: 314.985
 	},
 	"Unbridled Rage": {
 		connections: [ "Capstone" ],
@@ -1317,7 +1317,7 @@ barbarian["Capstone"] = {
 		maxPoints: 1,
 		values: [ "135", "100" ],
 		x: 186.229,
-		y: 314.52,
+		y: 314.52
 	},
 	"Walking Arsenal": {
 		connections: [ "Capstone" ],
@@ -1328,7 +1328,7 @@ While all three damage bonuses are active, you gain an additional x{#}% increase
 		maxPoints: 1,
 		values: [ "10", "6", "15" ],
 		x: -188.068,
-		y: 312.95,
+		y: 312.95
 	},
 };
 

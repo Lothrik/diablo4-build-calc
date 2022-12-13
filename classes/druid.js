@@ -55,7 +55,7 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 		maxPoints: 5,
 		values: [ "", "8", "", "16.8" ],
 		x: -348.701,
-		y: -67.625,
+		y: -67.625
 	},
 	"Enhanced Earthspike": {
 		baseSkill: "Earthspike",
@@ -65,7 +65,7 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "10", "2.5" ],
 		x: -677.445,
-		y: -139.94,
+		y: -139.94
 	},
 	"Wild Earthspike": {
 		baseSkill: "Earthspike",
@@ -74,7 +74,7 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 		id: 2,
 		maxPoints: 1,
 		x: -804.45,
-		y: -293.3,
+		y: -293.3
 	},
 	"Fierce Earthspike": {
 		baseSkill: "Earthspike",
@@ -84,7 +84,7 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "0.96", "" ],
 		x: -1023.235,
-		y: -145.735,
+		y: -145.735
 	},
 	"Maul": {
 		connections: [ "Basic", "Enhanced Maul" ],
@@ -96,7 +96,7 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 		maxPoints: 5,
 		values: [ "11", "", "21" ],
 		x: -262.904,
-		y: 151.445,
+		y: 151.445
 	},
 	"Enhanced Maul": {
 		baseSkill: "Maul",
@@ -106,7 +106,7 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 		maxPoints: 1,
 		values: [ "0.64", "" ],
 		x: -513.505,
-		y: 282.48,
+		y: 282.48
 	},
 	"Wild Maul": {
 		baseSkill: "Maul",
@@ -116,7 +116,7 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 		maxPoints: 1,
 		values: [ "15", "2" ],
 		x: -827.765,
-		y: 318.3,
+		y: 318.3
 	},
 	"Fierce Maul": {
 		baseSkill: "Maul",
@@ -126,7 +126,7 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 		maxPoints: 1,
 		values: [ "4" ],
 		x: -578.085,
-		y: 450.045,
+		y: 450.045
 	},
 	"Wind Shear": {
 		connections: [ "Basic", "Enhanced Wind Shear" ],
@@ -138,7 +138,7 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 		maxPoints: 5,
 		values: [ "12", "", "17.85" ],
 		x: -2.291,
-		y: -199.935,
+		y: -199.935
 	},
 	"Enhanced Wind Shear": {
 		baseSkill: "Wind Shear",
@@ -148,7 +148,7 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 		maxPoints: 1,
 		values: [ "35", "4" ],
 		x: 0.368,
-		y: -368.37,
+		y: -368.37
 	},
 	"Fierce Wind Shear": {
 		baseSkill: "Wind Shear",
@@ -158,7 +158,7 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 		maxPoints: 1,
 		values: [ "5", "3", "20" ],
 		x: -126.703,
-		y: -500.785,
+		y: -500.785
 	},
 	"Wild Wind Shear": {
 		baseSkill: "Wind Shear",
@@ -168,7 +168,7 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 		maxPoints: 1,
 		values: [ "" ],
 		x: 130.379,
-		y: -501.09,
+		y: -501.09
 	},
 	"Storm Strike": {
 		connections: [ "Basic", "Enhanced Storm Strike" ],
@@ -182,7 +182,7 @@ Dealing damage with Storm Strike reduces your damage taken by {#}% for {#} secon
 		maxPoints: 5,
 		values: [ "15", "", "27.34", "", "", "25", "3" ],
 		x: 346.71,
-		y: -68.24,
+		y: -68.24
 	},
 	"Enhanced Storm Strike": {
 		baseSkill: "Storm Strike",
@@ -192,7 +192,7 @@ Dealing damage with Storm Strike reduces your damage taken by {#}% for {#} secon
 		maxPoints: 1,
 		values: [ "", "" ],
 		x: 671.83,
-		y: -141.815,
+		y: -141.815
 	},
 	"Fierce Storm Strike": {
 		baseSkill: "Storm Strike",
@@ -202,7 +202,7 @@ Dealing damage with Storm Strike reduces your damage taken by {#}% for {#} secon
 		maxPoints: 1,
 		values: [ "50", "3" ],
 		x: 812.63,
-		y: -296.275,
+		y: -296.275
 	},
 	"Wild Storm Strike": {
 		baseSkill: "Storm Strike",
@@ -212,7 +212,7 @@ Dealing damage with Storm Strike reduces your damage taken by {#}% for {#} secon
 		maxPoints: 1,
 		values: [ "" ],
 		x: 1027.3,
-		y: -150.99,
+		y: -150.99
 	},
 	"Claw": {
 		connections: [ "Basic", "Enhanced Claw" ],
@@ -224,7 +224,7 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 		maxPoints: 5,
 		values: [ "9", "", "21" ],
 		x: 274.729,
-		y: 154.92,
+		y: 154.92
 	},
 	"Enhanced Claw": {
 		baseSkill: "Claw",
@@ -234,7 +234,7 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 528.355,
-		y: 288.635,
+		y: 288.635
 	},
 	"Fierce Claw": {
 		baseSkill: "Claw",
@@ -244,7 +244,7 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "10.5", "3" ],
 		x: 586.595,
-		y: 458.08,
+		y: 458.08
 	},
 	"Wild Claw": {
 		baseSkill: "Claw",
@@ -254,7 +254,7 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 		maxPoints: 1,
 		values: [ "10", "15" ],
 		x: 844.165,
-		y: 323.69,
+		y: 323.69
 	},
 };
 
@@ -269,7 +269,7 @@ Crush enemies between 3 pillars of earth, dealing up to {#}% damage.`,
 		maxPoints: 5,
 		values: [ "29", "", "78.75" ],
 		x: -225.944,
-		y: -166.79,
+		y: -166.79
 	},
 	"Enhanced Landslide": {
 		baseSkill: "Landslide",
@@ -279,7 +279,7 @@ Crush enemies between 3 pillars of earth, dealing up to {#}% damage.`,
 		maxPoints: 1,
 		values: [ "25", "3" ],
 		x: -405.12,
-		y: -322.47,
+		y: -322.47
 	},
 	"Raging Landslide": {
 		baseSkill: "Landslide",
@@ -289,7 +289,7 @@ Crush enemies between 3 pillars of earth, dealing up to {#}% damage.`,
 		maxPoints: 1,
 		values: [ "2", "10" ],
 		x: -453.53,
-		y: -483.315,
+		y: -483.315
 	},
 	"Primal Landslide": {
 		baseSkill: "Landslide",
@@ -299,7 +299,7 @@ Crush enemies between 3 pillars of earth, dealing up to {#}% damage.`,
 		maxPoints: 1,
 		values: [ "10", "30" ],
 		x: -690.516,
-		y: -360.81,
+		y: -360.81
 	},
 	"Pulverize": {
 		connections: [ "Spirit", "Enhanced Pulverize" ],
@@ -311,7 +311,7 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 		maxPoints: 5,
 		values: [ "34", "", "52.5" ],
 		x: -370.985,
-		y: 43.955,
+		y: 43.955
 	},
 	"Enhanced Pulverize": {
 		baseSkill: "Pulverize",
@@ -321,7 +321,7 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 		maxPoints: 1,
 		values: [ "20", "2" ],
 		x: -709.316,
-		y: 76.73,
+		y: 76.73
 	},
 	"Primal Pulverize": {
 		baseSkill: "Pulverize",
@@ -331,7 +331,7 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 		maxPoints: 1,
 		values: [ "15", "4" ],
 		x: -880.426,
-		y: 214.1,
+		y: 214.1
 	},
 	"Raging Pulverize": {
 		baseSkill: "Pulverize",
@@ -341,7 +341,7 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 		maxPoints: 1,
 		values: [ "20", "3" ],
 		x: -1043.241,
-		y: 59.665,
+		y: 59.665
 	},
 	"Tornado": {
 		connections: [ "Spirit", "Enhanced Tornado" ],
@@ -353,7 +353,7 @@ Conjure a swirling tornado that deals {#}% damage.`,
 		maxPoints: 5,
 		values: [ "38", "", "105" ],
 		x: 256.877,
-		y: -173.905,
+		y: -173.905
 	},
 	"Enhanced Tornado": {
 		baseSkill: "Tornado",
@@ -363,7 +363,7 @@ Conjure a swirling tornado that deals {#}% damage.`,
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 467.705,
-		y: -314.8,
+		y: -314.8
 	},
 	"Raging Tornado": {
 		baseSkill: "Tornado",
@@ -373,7 +373,7 @@ Conjure a swirling tornado that deals {#}% damage.`,
 		maxPoints: 1,
 		values: [ "5", "3", "15" ],
 		x: 523.809,
-		y: -473.39,
+		y: -473.39
 	},
 	"Primal Tornado": {
 		baseSkill: "Tornado",
@@ -383,7 +383,7 @@ Conjure a swirling tornado that deals {#}% damage.`,
 		maxPoints: 1,
 		values: [ "8", "3", "" ],
 		x: 793.079,
-		y: -357,
+		y: -357
 	},
 	"Shred": {
 		connections: [ "Spirit", "Enhanced Shred" ],
@@ -401,7 +401,7 @@ Shred's 1st and 2nd attack gain a {#}% increased Critical Strike Chance bonus.`,
 		maxPoints: 5,
 		values: [ "34", "", "", "", "", "" ],
 		x: 44.547,
-		y: 225.17,
+		y: 225.17
 	},
 	"Enhanced Shred": {
 		baseSkill: "Shred",
@@ -411,7 +411,7 @@ Shred's 1st and 2nd attack gain a {#}% increased Critical Strike Chance bonus.`,
 		maxPoints: 1,
 		values: [ "", "2" ],
 		x: 77.78,
-		y: 395.08,
+		y: 395.08
 	},
 	"Raging Shred": {
 		baseSkill: "Shred",
@@ -421,7 +421,7 @@ Shred's 1st and 2nd attack gain a {#}% increased Critical Strike Chance bonus.`,
 		maxPoints: 1,
 		values: [ "", "" ],
 		x: -31.192,
-		y: 569.605,
+		y: 569.605
 	},
 	"Primal Shred": {
 		baseSkill: "Shred",
@@ -431,7 +431,7 @@ Shred's 1st and 2nd attack gain a {#}% increased Critical Strike Chance bonus.`,
 		maxPoints: 1,
 		values: [ "" ],
 		x: 311.864,
-		y: 543.51,
+		y: 543.51
 	},
 	"Lightning Storm": {
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
@@ -443,7 +443,7 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		maxPoints: 5,
 		values: [ "14", "", "26.25", "5" ],
 		x: 451.305,
-		y: 2.77,
+		y: 2.77
 	},
 	"Enhanced Lightning Storm": {
 		baseSkill: "Lightning Storm",
@@ -453,7 +453,7 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		maxPoints: 1,
 		values: [ "4" ],
 		x: 710.564,
-		y: -30.53,
+		y: -30.53
 	},
 	"Primal Lightning Storm": {
 		baseSkill: "Lightning Storm",
@@ -463,7 +463,7 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		maxPoints: 1,
 		values: [ "8", "3" ],
 		x: 981.759,
-		y: -150.685,
+		y: -150.685
 	},
 	"Raging Lightning Storm": {
 		baseSkill: "Lightning Storm",
@@ -472,7 +472,7 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		id: 40,
 		maxPoints: 1,
 		x: 980.359,
-		y: 60.06,
+		y: 60.06
 	},
 	"Heart of the Wild": {
 		connections: [ "Spirit", "Wild Impulses", "Abundance" ],
@@ -481,7 +481,7 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: -519.321,
-		y: -90.235,
+		y: -90.235
 	},
 	"Wild Impulses": {
 		connections: [ "Heart of the Wild" ],
@@ -490,7 +490,7 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		maxPoints: 3,
 		values: [ "{5/10/15}", "{10/20/30}" ],
 		x: -770.566,
-		y: -237.475,
+		y: -237.475
 	},
 	"Abundance": {
 		connections: [ "Heart of the Wild" ],
@@ -499,7 +499,7 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -885.641,
-		y: -102.775,
+		y: -102.775
 	},
 	"Predatory Instinct": {
 		connections: [ "Spirit", "Iron Fur", "Digitigrade Gait" ],
@@ -508,7 +508,7 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: 411.097,
-		y: 186.195,
+		y: 186.195
 	},
 	"Iron Fur": {
 		connections: [ "Predatory Instinct" ],
@@ -519,7 +519,7 @@ This bonus persists for {#} seconds after leaving Werebear form.`,
 		maxPoints: 3,
 		values: [ "{3/6/9}", "3" ],
 		x: 802.404,
-		y: 185.94,
+		y: 185.94
 	},
 	"Digitigrade Gait": {
 		connections: [ "Predatory Instinct" ],
@@ -530,7 +530,7 @@ This bonus persists for {#} seconds after leaving Werewolf form.`,
 		maxPoints: 3,
 		values: [ "{4/8/12}", "3" ],
 		x: 595.059,
-		y: 373.7,
+		y: 373.7
 	},
 };
 
@@ -544,7 +544,7 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 		maxPoints: 5,
 		values: [ "16.0", "", "3", "10", "" ],
 		x: -371.465,
-		y: -166.005,
+		y: -166.005
 	},
 	"Enhanced Earthen Bulwark": {
 		baseSkill: "Earthen Bulwark",
@@ -553,7 +553,7 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 		id: 44,
 		maxPoints: 1,
 		x: -614.835,
-		y: -283.58,
+		y: -283.58
 	},
 	"Innate Earthen Bulwark": {
 		baseSkill: "Earthen Bulwark",
@@ -563,7 +563,7 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 		maxPoints: 1,
 		values: [ "300" ],
 		x: -906.825,
-		y: -302.41,
+		y: -302.41
 	},
 	"Preserving Earthen Bulwark": {
 		baseSkill: "Earthen Bulwark",
@@ -573,7 +573,7 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 		maxPoints: 1,
 		values: [ "7.2", "" ],
 		x: -683.695,
-		y: -438.695,
+		y: -438.695
 	},
 	"Debilitating Roar": {
 		connections: [ "Defensive", "Enhanced Debilitating Roar" ],
@@ -583,7 +583,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 		maxPoints: 5,
 		values: [ "22.0", "50", "4" ],
 		x: -374.945,
-		y: 169.89,
+		y: 169.89
 	},
 	"Enhanced Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
@@ -593,7 +593,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 		maxPoints: 1,
 		values: [ "8.8", "" ],
 		x: -604.84,
-		y: 279.69,
+		y: 279.69
 	},
 	"Preserving Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
@@ -603,7 +603,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 		maxPoints: 1,
 		values: [ "4" ],
 		x: -691.605,
-		y: 443.5,
+		y: 443.5
 	},
 	"Innate Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
@@ -613,7 +613,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 		maxPoints: 1,
 		values: [ "40" ],
 		x: -918.365,
-		y: 307.475,
+		y: 307.475
 	},
 	"Ancestral Fortitude": {
 		connections: [ "Defensive", "Vigilance" ],
@@ -622,7 +622,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 		maxPoints: 3,
 		values: [ "" ],
 		x: -816.55,
-		y: 1.025,
+		y: 1.025
 	},
 	"Vigilance": {
 		connections: [ "Ancestral Fortitude" ],
@@ -631,7 +631,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 		maxPoints: 3,
 		values: [ "", "" ],
 		x: -1188.24,
-		y: 0.39,
+		y: 0.39
 	},
 	"Blood Howl": {
 		connections: [ "Defensive", "Enhanced Blood Howl" ],
@@ -642,7 +642,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		maxPoints: 5,
 		values: [ "15.0", "", "" ],
 		x: 0.085,
-		y: 234.29,
+		y: 234.29
 	},
 	"Enhanced Blood Howl": {
 		baseSkill: "Blood Howl",
@@ -652,7 +652,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		maxPoints: 1,
 		values: [ "1" ],
 		x: 1.245,
-		y: 400.21,
+		y: 400.21
 	},
 	"Innate Blood Howl": {
 		baseSkill: "Blood Howl",
@@ -662,7 +662,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		maxPoints: 1,
 		values: [ "20" ],
 		x: -131.31,
-		y: 545.905,
+		y: 545.905
 	},
 	"Preserving Blood Howl": {
 		baseSkill: "Blood Howl",
@@ -672,7 +672,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		maxPoints: 1,
 		values: [ "15", "4" ],
 		x: 135.885,
-		y: 542.49,
+		y: 542.49
 	},
 	"Cyclone Armor": {
 		connections: [ "Defensive", "Enhanced Cyclone Armor" ],
@@ -686,7 +686,7 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 		maxPoints: 5,
 		values: [ "", "", "20", "15.75" ],
 		x: -1.22,
-		y: -265.385,
+		y: -265.385
 	},
 	"Enhanced Cyclone Armor": {
 		baseSkill: "Cyclone Armor",
@@ -696,7 +696,7 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 		maxPoints: 1,
 		values: [ "40", "3" ],
 		x: 0.115,
-		y: -425.535,
+		y: -425.535
 	},
 	"Preserving Cyclone Armor": {
 		baseSkill: "Cyclone Armor",
@@ -706,7 +706,7 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 		maxPoints: 1,
 		values: [ "10", "40" ],
 		x: -136.745,
-		y: -576.38,
+		y: -576.38
 	},
 	"Innate Cyclone Armor": {
 		baseSkill: "Cyclone Armor",
@@ -715,7 +715,7 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 		id: 60,
 		maxPoints: 1,
 		x: 126.12,
-		y: -573.495,
+		y: -573.495
 	},
 };
 
@@ -732,7 +732,7 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 		maxPoints: 5,
 		values: [ "25.0", "", "", "", "", "89.25", "6" ],
 		x: -1.05,
-		y: 231.07,
+		y: 231.07
 	},
 	"Enhanced Ravens": {
 		baseSkill: "Ravens",
@@ -742,7 +742,7 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 		maxPoints: 1,
 		values: [ "13.85", "5" ],
 		x: -0.065,
-		y: 380.99,
+		y: 380.99
 	},
 	"Brutal Ravens": {
 		baseSkill: "Ravens",
@@ -752,7 +752,7 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 		maxPoints: 1,
 		values: [ "2" ],
 		x: -150.32,
-		y: 549.535,
+		y: 549.535
 	},
 	"Ferocious Ravens": {
 		baseSkill: "Ravens",
@@ -762,7 +762,7 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 		maxPoints: 1,
 		values: [ "3" ],
 		x: 132.97,
-		y: 548.405,
+		y: 548.405
 	},
 	"Call of the Wild": {
 		connections: [ "Companion" ],
@@ -775,7 +775,7 @@ Vine Creeper's poison duration is increased by {#}%.`,
 		maxPoints: 3,
 		values: [ "{8/16/24}", "{8/16/24}", "{8/16/24}" ],
 		x: 548.33,
-		y: 313.155,
+		y: 313.155
 	},
 	"Vine Creeper": {
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
@@ -789,7 +789,7 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 		maxPoints: 5,
 		values: [ "20.0", "", "7", "37.8", "6", "2", "", "" ],
 		x: -0.085,
-		y: -233.405,
+		y: -233.405
 	},
 	"Enhanced Vine Creeper": {
 		baseSkill: "Vine Creeper",
@@ -799,7 +799,7 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 		maxPoints: 1,
 		values: [ "1" ],
 		x: -1.25,
-		y: -382.875,
+		y: -382.875
 	},
 	"Ferocious Vine Creeper": {
 		baseSkill: "Vine Creeper",
@@ -809,7 +809,7 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -139.98,
-		y: -563.965,
+		y: -563.965
 	},
 	"Brutal Vine Creeper": {
 		baseSkill: "Vine Creeper",
@@ -819,7 +819,7 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 116.36,
-		y: -566.07,
+		y: -566.07
 	},
 	"Wolves": {
 		connections: [ "Companion", "Enhanced Wolves" ],
@@ -833,7 +833,7 @@ Active: Direct the wolves to focus an enemy, leaping to them and striking for {#
 		maxPoints: 5,
 		values: [ "14.0", "", "2", "18.19", "36.75" ],
 		x: 438.495,
-		y: 1.855,
+		y: 1.855
 	},
 	"Enhanced Wolves": {
 		baseSkill: "Wolves",
@@ -843,7 +843,7 @@ Active: Direct the wolves to focus an enemy, leaping to them and striking for {#
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 742.125,
-		y: 2.585,
+		y: 2.585
 	},
 	"Ferocious Wolves": {
 		baseSkill: "Wolves",
@@ -853,7 +853,7 @@ Active: Direct the wolves to focus an enemy, leaping to them and striking for {#
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 1030.955,
-		y: -73.505,
+		y: -73.505
 	},
 	"Brutal Wolves": {
 		baseSkill: "Wolves",
@@ -863,7 +863,7 @@ Active: Direct the wolves to focus an enemy, leaping to them and striking for {#
 		maxPoints: 1,
 		values: [ "2" ],
 		x: 1032.485,
-		y: 73.84,
+		y: 73.84
 	},
 	"Nature's Reach": {
 		connections: [ "Companion" ],
@@ -872,7 +872,7 @@ Active: Direct the wolves to focus an enemy, leaping to them and striking for {#
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: 542.1,
-		y: -263.42,
+		y: -263.42
 	},
 	"Clarity": {
 		connections: [ "Companion" ],
@@ -881,7 +881,7 @@ Active: Direct the wolves to focus an enemy, leaping to them and striking for {#
 		maxPoints: 3,
 		values: [ "{2/4/6}" ],
 		x: -535.33,
-		y: -264.37,
+		y: -264.37
 	},
 };
 
@@ -893,7 +893,7 @@ druid["Wrath"] = {
 		maxPoints: 3,
 		values: [ "{20/40/60}", "1" ],
 		x: -283.195,
-		y: -294.575,
+		y: -294.575
 	},
 	"Charged Atmosphere": {
 		connections: [ "Elemental Exposure", "Electric Shock", "Bad Omen" ],
@@ -903,7 +903,7 @@ druid["Wrath"] = {
 		maxPoints: 3,
 		values: [ "{18/13.5/10}", "47.25" ],
 		x: -649.87,
-		y: -377.85,
+		y: -377.85
 	},
 	"Electric Shock": {
 		connections: [ "Charged Atmosphere", "Bad Omen" ],
@@ -914,7 +914,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		maxPoints: 3,
 		values: [ "{5/10/15}", "3", "" ],
 		x: -979.275,
-		y: -645.395,
+		y: -645.395
 	},
 	"Bad Omen": {
 		connections: [ "Charged Atmosphere", "Electric Shock", "Endless Tempest" ],
@@ -924,7 +924,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		maxPoints: 3,
 		values: [ "{10/20/30}", "57.25" ],
 		x: -504.05,
-		y: -698.569,
+		y: -698.569
 	},
 	"Endless Tempest": {
 		connections: [ "Elemental Exposure", "Bad Omen" ],
@@ -933,7 +933,7 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -257.265,
-		y: -509.659,
+		y: -509.659
 	},
 	"Boulder": {
 		connections: [ "Wrath", "Enhanced Boulder" ],
@@ -945,7 +945,7 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 		maxPoints: 5,
 		values: [ "10.0", "", "34.65" ],
 		x: -415.96,
-		y: -81.885,
+		y: -81.885
 	},
 	"Enhanced Boulder": {
 		baseSkill: "Boulder",
@@ -955,7 +955,7 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 		maxPoints: 1,
 		values: [ "30", "2" ],
 		x: -787.38,
-		y: -150.56,
+		y: -150.56
 	},
 	"Natural Boulder": {
 		baseSkill: "Boulder",
@@ -965,7 +965,7 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 		maxPoints: 1,
 		values: [ "75" ],
 		x: -1043.1,
-		y: -302.409,
+		y: -302.409
 	},
 	"Savage Boulder": {
 		baseSkill: "Boulder",
@@ -975,7 +975,7 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -1165.425,
-		y: -135.355,
+		y: -135.355
 	},
 	"Trample": {
 		connections: [ "Wrath", "Enhanced Trample" ],
@@ -990,7 +990,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 		maxPoints: 5,
 		values: [ "", "14.0", "", "26.25", "47.25", "3" ],
 		x: -283.24,
-		y: 180.74,
+		y: 180.74
 	},
 	"Enhanced Trample": {
 		baseSkill: "Trample",
@@ -999,7 +999,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 		id: 90,
 		maxPoints: 1,
 		x: -483,
-		y: 312.295,
+		y: 312.295
 	},
 	"Natural Trample": {
 		baseSkill: "Trample",
@@ -1009,7 +1009,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 		maxPoints: 1,
 		values: [ "6", "" ],
 		x: -782.485,
-		y: 380.895,
+		y: 380.895
 	},
 	"Savage Trample": {
 		baseSkill: "Trample",
@@ -1019,7 +1019,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 		maxPoints: 1,
 		values: [ "20" ],
 		x: -557.04,
-		y: 471.43,
+		y: 471.43
 	},
 	"Crushing Earth": {
 		connections: [ "Wrath", "Safeguard", "Stone Guard" ],
@@ -1028,7 +1028,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -703.3,
-		y: 97.49,
+		y: 97.49
 	},
 	"Safeguard": {
 		connections: [ "Crushing Earth" ],
@@ -1037,7 +1037,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 		maxPoints: 3,
 		values: [ "0.88", "" ],
 		x: -1037.34,
-		y: 275.51,
+		y: 275.51
 	},
 	"Stone Guard": {
 		connections: [ "Crushing Earth" ],
@@ -1046,7 +1046,7 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 		maxPoints: 3,
 		values: [ "50", "{4/8/12}" ],
 		x: -1129.275,
-		y: 79.23,
+		y: 79.23
 	},
 	"Hurricane": {
 		connections: [ "Wrath", "Enhanced Hurricane" ],
@@ -1058,7 +1058,7 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 		maxPoints: 5,
 		values: [ "20.0", "", "102.37", "8" ],
 		x: 113.005,
-		y: -268.023,
+		y: -268.023
 	},
 	"Enhanced Hurricane": {
 		baseSkill: "Hurricane",
@@ -1068,7 +1068,7 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 		maxPoints: 1,
 		values: [ "25", "2" ],
 		x: 205.48,
-		y: -454.768,
+		y: -454.768
 	},
 	"Natural Hurricane": {
 		baseSkill: "Hurricane",
@@ -1078,7 +1078,7 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 		maxPoints: 1,
 		values: [ "15", "3" ],
 		x: 123.565,
-		y: -639.983,
+		y: -639.983
 	},
 	"Savage Hurricane": {
 		baseSkill: "Hurricane",
@@ -1088,7 +1088,7 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 		maxPoints: 1,
 		values: [ "20" ],
 		x: 462.075,
-		y: -597.113,
+		y: -597.113
 	},
 	"Rabies": {
 		connections: [ "Wrath", "Enhanced Rabies" ],
@@ -1102,7 +1102,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 		maxPoints: 5,
 		values: [ "12.0", "", "24.4", "55.65", "6" ],
 		x: 202.015,
-		y: 186.695,
+		y: 186.695
 	},
 	"Enhanced Rabies": {
 		baseSkill: "Rabies",
@@ -1112,7 +1112,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 		maxPoints: 1,
 		values: [ "4", "30" ],
 		x: 371.195,
-		y: 333.44,
+		y: 333.44
 	},
 	"Natural Rabies": {
 		baseSkill: "Rabies",
@@ -1122,7 +1122,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 		maxPoints: 1,
 		values: [ "10" ],
 		x: 392.865,
-		y: 515.555,
+		y: 515.555
 	},
 	"Savage Rabies": {
 		baseSkill: "Rabies",
@@ -1132,7 +1132,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 		maxPoints: 1,
 		values: [ "100" ],
 		x: 690.495,
-		y: 442.976,
+		y: 442.976
 	},
 	"Mending": {
 		connections: [ "Wrath", "Provocation" ],
@@ -1141,7 +1141,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: -41.03,
-		y: 309.375,
+		y: 309.375
 	},
 	"Provocation": {
 		connections: [ "Mending" ],
@@ -1150,7 +1150,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 		maxPoints: 3,
 		values: [ "30" ],
 		x: -99.02,
-		y: 513.075,
+		y: 513.075
 	},
 	"Toxic Claws": {
 		connections: [ "Wrath", "Neurotoxin" ],
@@ -1159,7 +1159,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 		maxPoints: 3,
 		values: [ "{8/16/24}", "4" ],
 		x: 465.52,
-		y: 84.516,
+		y: 84.516
 	},
 	"Neurotoxin": {
 		connections: [ "Toxic Claws" ],
@@ -1168,7 +1168,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 		maxPoints: 3,
 		values: [ "{8/16/24}" ],
 		x: 814.438,
-		y: 147.582,
+		y: 147.582
 	},
 };
 
@@ -1185,7 +1185,7 @@ Casting Grizzly Rage causes enemies in the area to take {#}% damage and be Slowe
 		maxPoints: 1,
 		values: [ "60.0", "10", "20", "20", "3", "1", "10", "", "", "" ],
 		x: 430.055,
-		y: 63.605,
+		y: 63.605
 	},
 	"Prime Grizzly Rage": {
 		baseSkill: "Grizzly Rage",
@@ -1194,7 +1194,7 @@ Casting Grizzly Rage causes enemies in the area to take {#}% damage and be Slowe
 		id: 108,
 		maxPoints: 1,
 		x: 819.815,
-		y: 96.38,
+		y: 96.38
 	},
 	"Supreme Grizzly Rage": {
 		baseSkill: "Grizzly Rage",
@@ -1204,7 +1204,7 @@ Casting Grizzly Rage causes enemies in the area to take {#}% damage and be Slowe
 		maxPoints: 1,
 		values: [ "3.2", "" ],
 		x: 878.345,
-		y: 266.63,
+		y: 266.63
 	},
 	"Petrify": {
 		connections: [ "Ultimate", "Prime Petrify" ],
@@ -1214,7 +1214,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 1,
 		values: [ "60.0", "3", "25" ],
 		x: 209.315,
-		y: -196.232,
+		y: -196.232
 	},
 	"Prime Petrify": {
 		baseSkill: "Petrify",
@@ -1224,7 +1224,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 1,
 		values: [ "1" ],
 		x: 368.4,
-		y: -377.659,
+		y: -377.659
 	},
 	"Supreme Petrify": {
 		baseSkill: "Petrify",
@@ -1234,7 +1234,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 1,
 		values: [ "25" ],
 		x: 216,
-		y: -520.98,
+		y: -520.98
 	},
 	"Defensive Posture": {
 		connections: [ "Ultimate", "Thick Hide", "Nature's Resolve" ],
@@ -1243,7 +1243,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
 		x: 635.525,
-		y: -116.355,
+		y: -116.355
 	},
 	"Thick Hide": {
 		connections: [ "Unrestrained", "Defensive Posture" ],
@@ -1252,7 +1252,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 3,
 		values: [ "2.56", "" ],
 		x: 765.5,
-		y: -322.625,
+		y: -322.625
 	},
 	"Unrestrained": {
 		connections: [ "Thick Hide", "Nature's Resolve" ],
@@ -1261,7 +1261,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 3,
 		values: [ "{3/6/9}", "20" ],
 		x: 1124.05,
-		y: -229.587,
+		y: -229.587
 	},
 	"Nature's Resolve": {
 		connections: [ "Unrestrained", "Defensive Posture" ],
@@ -1270,7 +1270,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 3,
 		values: [ "{5/10/15}", "1.76", "" ],
 		x: 1015.865,
-		y: -13.34,
+		y: -13.34
 	},
 	"Quickshift": {
 		connections: [ "Ultimate", "Natural Fortitude", "Heightened Senses" ],
@@ -1279,7 +1279,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
 		x: 344.6,
-		y: 287.59,
+		y: 287.59
 	},
 	"Natural Fortitude": {
 		connections: [ "Quickshift" ],
@@ -1288,7 +1288,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 3,
 		values: [ "{0.56/1.12/1.68}", "" ],
 		x: 340.775,
-		y: 457.657,
+		y: 457.657
 	},
 	"Heightened Senses": {
 		connections: [ "Quickshift" ],
@@ -1297,7 +1297,7 @@ Petrify all Nearby enemies, Stunning them for {#} seconds. You deal x{#}% increa
 		maxPoints: 3,
 		values: [ "{4/8/12}", "3" ],
 		x: 649.085,
-		y: 366.088,
+		y: 366.088
 	},
 	"Lacerate": {
 		connections: [ "Ultimate", "Prime Lacerate" ],
@@ -1309,7 +1309,7 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 		maxPoints: 1,
 		values: [ "50.0", "", "10", "420.20" ],
 		x: -5.075,
-		y: 234.915,
+		y: 234.915
 	},
 	"Prime Lacerate": {
 		baseSkill: "Lacerate",
@@ -1319,7 +1319,7 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -192.17,
-		y: 412.833,
+		y: 412.833
 	},
 	"Supreme Lacerate": {
 		baseSkill: "Lacerate",
@@ -1329,7 +1329,7 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 		maxPoints: 1,
 		values: [ "200" ],
 		x: 30.06,
-		y: 540.783,
+		y: 540.783
 	},
 	"Cataclysm": {
 		connections: [ "Ultimate", "Prime Cataclysm" ],
@@ -1341,7 +1341,7 @@ A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and l
 		maxPoints: 1,
 		values: [ "80.0", "", "8", "54.6" ],
 		x: -397.415,
-		y: -109.56,
+		y: -109.56
 	},
 	"Prime Cataclysm": {
 		baseSkill: "Cataclysm",
@@ -1351,7 +1351,7 @@ A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and l
 		maxPoints: 1,
 		values: [ "2" ],
 		x: -793.645,
-		y: -256.893,
+		y: -256.893
 	},
 	"Supreme Cataclysm": {
 		baseSkill: "Cataclysm",
@@ -1360,7 +1360,7 @@ A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and l
 		id: 125,
 		maxPoints: 1,
 		x: -819.245,
-		y: -418.923,
+		y: -418.923
 	},
 	"Defiance": {
 		connections: [ "Ultimate", "Circle of Life", "Natural Disaster" ],
@@ -1369,7 +1369,7 @@ A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and l
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
 		x: -184.37,
-		y: -290.31,
+		y: -290.31
 	},
 	"Circle of Life": {
 		connections: [ "Defiance", "Resonance" ],
@@ -1378,7 +1378,7 @@ A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and l
 		maxPoints: 3,
 		values: [ "{1/2/3}" ],
 		x: -505.765,
-		y: -446.596,
+		y: -446.596
 	},
 	"Resonance": {
 		connections: [ "Natural Disaster", "Circle of Life" ],
@@ -1387,7 +1387,7 @@ A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and l
 		maxPoints: 3,
 		values: [ "{2/4/6}" ],
 		x: -392.905,
-		y: -653.792,
+		y: -653.792
 	},
 	"Natural Disaster": {
 		connections: [ "Defiance", "Resonance" ],
@@ -1398,7 +1398,7 @@ Your Storm skills deal x{#}% increased damage to enemies that are Stunned, Immob
 		maxPoints: 3,
 		values: [ "{4/8/12}", "{4/8/12}" ],
 		x: -103.945,
-		y: -508.076,
+		y: -508.076
 	},
 };
 
@@ -1412,7 +1412,7 @@ In addition, casting a Storm skill has a {#}% chance to trigger a free Earth ski
 		maxPoints: 1,
 		values: [ "20", "20" ],
 		x: 559.134,
-		y: 367.52,
+		y: 367.52
 	},
 	"Earthen Might": {
 		connections: [ "Capstone" ],
@@ -1425,7 +1425,7 @@ Earthen Might restores all of your Spirit & grants you {#}% Critical Strike Chan
 		maxPoints: 1,
 		values: [ "5", "10", "10", "100", "5" ],
 		x: 186.284,
-		y: 368.005,
+		y: 368.005
 	},
 	"Lupine Ferocity": {
 		connections: [ "Capstone" ],
@@ -1434,7 +1434,7 @@ Earthen Might restores all of your Spirit & grants you {#}% Critical Strike Chan
 		maxPoints: 1,
 		values: [ "60" ],
 		x: -191.047,
-		y: 366.455,
+		y: 366.455
 	},
 	"Bestial Rampage": {
 		connections: [ "Capstone" ],
@@ -1445,7 +1445,7 @@ After being a Werebear for {#} seconds, deal x{#}% increased damage for {#} seco
 		maxPoints: 1,
 		values: [ "2.5", "20", "15", "2.5", "20", "15" ],
 		x: -567.981,
-		y: 365.85,
+		y: 365.85
 	},
 	"Perfect Storm": {
 		connections: [ "Capstone" ],
@@ -1454,7 +1454,7 @@ After being a Werebear for {#} seconds, deal x{#}% increased damage for {#} seco
 		maxPoints: 1,
 		values: [ "2", "20" ],
 		x: 932.943,
-		y: 367.865,
+		y: 367.865
 	},
 	"Ursine Strength": {
 		connections: [ "Capstone" ],
@@ -1465,7 +1465,7 @@ While Healthy, deal x{#}% increased damage.`,
 		maxPoints: 1,
 		values: [ "20", "3", "20" ],
 		x: -943.646,
-		y: 367.035,
+		y: 367.035
 	},
 };
 
