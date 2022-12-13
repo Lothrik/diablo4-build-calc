@@ -76,6 +76,20 @@ const nodeHeight = 100;
 const tooltipWidth = 480;
 const tooltipHeight = 200;
 
+// evil magic variables that probably need to be replaced later to support multiple languages
+const requiredPointsString = "Spend {requiredPoints} additional skill points to unlock.";
+const physicalString = "Physical";
+const fireString = "Fire";
+const lightningString = "Lightning";
+const coldString = "Cold";
+const poisonString = "Poison";
+const shadowString = "Shadow";
+const unknownString = "Unknown";
+const cooldownString = "Cooldown";
+const ultimateString = "Ultimate";
+const capstoneString = "Capstone";
+const bookOfTheDeadString = "Book of the Dead";
+
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
 const tooltipScalingFloor = 0.75;
 const tooltipScalingCeiling = 1.25;
@@ -359,7 +373,7 @@ function handleResetButton() {
 }
 function handleDebugButton() {
 	debugMode = !debugMode;
-	$("#debugButton").text(debugMode ? "Disable Debugging" : "Enable Debugging");
+	$("#debugButton").text(debugMode ? disableDebuggingString : enableDebuggingString);
 }
 function handleSaveButton() {
 	const className = $(classString).val();
@@ -419,7 +433,7 @@ function handleReloadButton() {
 					const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
 
 					if (newPoints < allocatedPoints || canAllocate(curNode)) {
-						if (curNode.groupName != "Book of the Dead") pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+						if (curNode.groupName != bookOfTheDeadString) pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 						updateNodePoints(curNode, newPoints);
 					}
 				}
@@ -562,20 +576,20 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	}
 }
 function canAllocate(curNode) {
-	if (curNode.groupName == "Book of the Dead") {
+	if (curNode.groupName == bookOfTheDeadString) {
 		return true;
-	} else if (curNode.groupName == "Capstone") {
+	} else if (curNode.groupName == capstoneString) {
 		return pixiNodes.find(pixiNode => {
 			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
 			if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
 			return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
 		}) == undefined;
-	} else if (curNode.groupName == "Ultimate") {
-		if (curNode.nodeData.get("description").includes("Cooldown")) {
+	} else if (curNode.groupName == ultimateString) {
+		if (curNode.nodeData.get("description").includes(cooldownString)) {
 			return pixiNodes.find(pixiNode => {
 				if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
 				if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
-				if (!pixiNode.nodeData.get("description").includes("Cooldown")) return false;
+				if (!pixiNode.nodeData.get("description").includes(cooldownString)) return false;
 				return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
 			}) == undefined;
 		} else {
@@ -651,11 +665,11 @@ function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	if (allocatedPoints == 0) {
 		handlePlusButton(curNode);
-		if (curNode.groupName == "Book of the Dead") {
+		if (curNode.groupName == bookOfTheDeadString) {
 			const exclusiveNodes = curNode.nodeData.get("exclusiveNodes");
 			if (exclusiveNodes != undefined) {
 				pixiNodes.forEach(pixiNode => {
-					if (pixiNode.groupName == "Book of the Dead" && pixiNode != curNode && exclusiveNodes.includes(pixiNode.nodeName)) {
+					if (pixiNode.groupName == bookOfTheDeadString && pixiNode != curNode && exclusiveNodes.includes(pixiNode.nodeName)) {
 						handleMinusButton(pixiNode);
 					}
 				});
@@ -668,7 +682,7 @@ function handleToggleButton(curNode) {
 function handlePlusButton(curNode) {
 	if (!canAllocate(curNode)) return;
 
-	if (curNode.groupName == "Book of the Dead") {
+	if (curNode.groupName == bookOfTheDeadString) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
@@ -708,7 +722,7 @@ function handlePlusButton(curNode) {
 	}
 }
 function handleMinusButton(curNode) {
-	if (curNode.groupName == "Book of the Dead") {
+	if (curNode.groupName == bookOfTheDeadString) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.max(allocatedPoints - 1, 0);
@@ -842,7 +856,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	const requiredPoints = nodeData.get("requiredPoints");
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined && groupName != "Book of the Dead" && maxPoints != 0) {
+	if (groupName != undefined && groupName != bookOfTheDeadString && maxPoints != 0) {
 		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
 			align: "right",
 			cacheAsBitmap: true,
@@ -909,7 +923,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	const nodeBorder = new PIXI.Graphics();
 	nodeBorder.pivot.x = _nodeWidth / 2;
 	nodeBorder.pivot.y = _nodeHeight / 2;
-	if ((groupName == undefined || groupName == "Book of the Dead") && requiredPoints == 0) {
+	if ((groupName == undefined || groupName == bookOfTheDeadString) && requiredPoints == 0) {
 		nodeBorder.lineStyle(lineStyleThickSquare);
 	} else {
 		nodeBorder.lineStyle(lineStyleThinSquare);
@@ -933,7 +947,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	node.displayName = displayName;
 	//node.branchData = branchData;
 	node.nodeIndex = pixiNodes.length;
-	if (groupName == undefined || groupName == "Book of the Dead" || maxPoints == 0) {
+	if (groupName == undefined || groupName == bookOfTheDeadString || maxPoints == 0) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
 		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
@@ -944,25 +958,25 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		case undefined:
 			break;
 		case 0:
-			node.damageType = "Physical";
+			node.damageType = physicalString;
 			break;
 		case 1:
-			node.damageType = "Fire";
+			node.damageType = fireString;
 			break;
 		case 2:
-			node.damageType = "Lightning";
+			node.damageType = lightningString;
 			break;
 		case 3:
-			node.damageType = "Cold";
+			node.damageType = coldString;
 			break;
 		case 4:
-			node.damageType = "Poison";
+			node.damageType = poisonString;
 			break;
 		case 5:
-			node.damageType = "Shadow";
+			node.damageType = shadowString;
 			break;
 		default:
-			node.damageType = "Unknown";
+			node.damageType = unknownString;
 			break;
 	}
 
@@ -993,7 +1007,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		.on("mouseout", onMouseOut)
 		.on("tap", onMouseOver);
 
-	if (groupName == "Book of the Dead") {
+	if (groupName == bookOfTheDeadString) {
 		if (maxPoints != 0) {
 			node.cursor = "pointer";
 			node.interactive = true;
@@ -1025,12 +1039,12 @@ function drawAllNodes() {
 				// special logic for group node
 				const groupNode = new Map();
 				if (branchData.get("requiredPoints") != undefined) {
-					groupNode.set("description", "Spend {requiredPoints} additional skill points to unlock.");
+					groupNode.set("description", requiredPointsString);
 				}
 				groupNode.set("requiredPoints", branchData.get("requiredPoints") || 0);
 				groupNode.set("x", branchData.get("x") + minCanvasWidth / 2);
 				groupNode.set("y", branchData.get("y") + minCanvasHeight / 2);
-				if (groupName == "Book of the Dead") {
+				if (groupName == bookOfTheDeadString) {
 					groupNode.set("widthOverride", 1600);
 					drawNode(groupName, groupNode);
 					const nodeSpacingX = 150;
