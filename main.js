@@ -177,11 +177,17 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 const classString = "#classSelector option:selected";
 const groupString = "#groupSelector option:selected";
 var colorButtonState = 0;
+var colorButtonInfoState = 0;
 function handleBodyClick(event) {
 	if (colorButtonState == 1) {
 		$("#colorNodeInput").click();
 		colorButtonState = 0;
 		event.preventDefault();
+	}
+	if (colorButtonInfoState == 1) {
+		$("#extraInfo").empty().addClass("hidden");
+		resizeCanvas();
+		colorButtonInfoState = 0;
 	}
 }
 function handleConnectorColorInput(event) {
@@ -217,23 +223,18 @@ function handleNodeColorInput(event) {
 	}
 }
 function handleColorButton(event) {
-	switch (event.type) {
-		case "mouseenter":
-		case "touchenter":
-			$("#extraInfo").html("Click to customize connector and node colors.<br>Custom color choices will persist across sessions.").removeClass("hidden");
-			resizeCanvas();
-			break;
-		case "mouseleave":
-		case "touchleave":
-			$("#extraInfo").empty().addClass("hidden");
-			resizeCanvas();
-			break;
-		case "click":
-			if (colorButtonState == 0) {
-				$("#colorConnectorInput").click();
-				colorButtonState = 1;
-			}
-			break;
+	if (colorButtonInfoState == 0 && ["click", "mouseenter"].includes(event.type)) {
+		$("#extraInfo").html("Click to customize connector and node colors.<br>Custom color choices will persist across sessions.").removeClass("hidden");
+		resizeCanvas();
+		colorButtonInfoState = 1;
+	} else if (colorButtonInfoState == 1 && event.type == "mouseleave") {
+		$("#extraInfo").empty().addClass("hidden");
+		resizeCanvas();
+		colorButtonInfoState = 0;
+	}
+	if (colorButtonState == 0 && event.type == "click") {
+		$("#colorConnectorInput").click();
+		colorButtonState = 1;
 	}
 }
 function handleSkillTreeZoom(event) {
@@ -1574,7 +1575,7 @@ $(document).ready(function() {
 	$("#colorConnectorInput").on("change", handleConnectorColorInput);
 	$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
 	$("#colorNodeInput").on("change", handleNodeColorInput);
-	$("#colorButton").on("click mouseenter touchenter mouseleave touchleave", handleColorButton);
+	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
 	$("#resetButton").on("click", handleResetButton);
 	$("#debugButton").on("click", handleDebugButton);
 	$("#saveButton").on("click", handleSaveButton);
