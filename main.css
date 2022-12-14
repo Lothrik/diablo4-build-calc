@@ -70,13 +70,13 @@ h1, h2, h3 {
 	border-bottom-width: 2px;
 }
 
-#header, #footer, select, input, option, button {
+#header, #footer, #extraInfo, select, input, option, button {
 	background-color: #000;
 	border-color: #fff;
 	z-index: 1;
 }
 
-#header, #footer {
+#header, #footer, #extraInfo {
 	background-color: rgba(0, 0, 0, 0.8);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -145,11 +145,27 @@ h1, h2, h3 {
 	pointer-events: none;
 }
 
+#extraInfo {
+	display: flex;
+	border: 1px solid;
+	margin: 0 auto;
+	padding: 10px;
+	width: 354px;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	pointer-events: none;
+}
+
 #extraButtons1, #extraButtons2 {
 	display: flex;
 	margin: 0 auto 10px;
 	user-select: none;
 	justify-content: center;
+}
+
+#extraButtons1 {
+	margin-top: 10px;
 }
 
 #extraButtons1 > *, #extraButtons2 > * {

@@ -216,9 +216,23 @@ function handleNodeColorInput(event) {
 	}
 }
 function handleColorButton(event) {
-	if (colorButtonState == 0) {
-		$("#colorConnectorInput").click();
-		colorButtonState = 1;
+	switch (event.type) {
+		case "mouseenter":
+		case "touchenter":
+			$("#extraInfo").html("Click to customize connector and node colors.<br>Custom color choices will persist across sessions.").removeClass("hidden");
+			resizeCanvas();
+			break;
+		case "mouseleave":
+		case "touchleave":
+			$("#extraInfo").empty().addClass("hidden");
+			resizeCanvas();
+			break;
+		case "click":
+			if (colorButtonState == 0) {
+				$("#colorConnectorInput").click();
+				colorButtonState = 1;
+			}
+			break;
 	}
 }
 function handleSkillTreeZoom(event) {
@@ -365,7 +379,7 @@ function handleSearchInput(event) {
 	}
 }
 function resizeSearchInput() {
-	const targetWidth = $("#extraButtons2").innerWidth() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 5;
+	const targetWidth = $("#extraButtons2").outerWidth() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 5;
 	$("#searchInput").outerWidth(targetWidth);
 }
 function handleResetButton() {
@@ -1290,7 +1304,7 @@ function repositionTooltip() {
 	if (!pixiTooltip) return;
 
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
+	const offsetBottom = $("#extraInfo").outerHeight(true) + $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
 
 	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
 
@@ -1472,7 +1486,7 @@ function resizeCanvas() {
 	let [newWidth, newHeight] = [document.documentElement.clientWidth, document.documentElement.clientHeight];
 	if (oldWidth != newWidth || oldHeight != newHeight) {
 		const offsetTop = $("#header").outerHeight(true);
-		const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
+		const offsetBottom = $("#extraInfo").outerHeight(true) + $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
 		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
 
 		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
@@ -1486,6 +1500,7 @@ function resizeCanvas() {
 
 		[oldWidth, oldHeight] = [newWidth, newHeight];
 
+		$("#extraInfo").outerWidth($("#extraButtons2").outerWidth() - 5);
 		resizeSearchInput();
 	}
 }
@@ -1511,7 +1526,7 @@ $(document).ready(function() {
 	$("#colorConnectorInput").on("change", handleConnectorColorInput);
 	$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
 	$("#colorNodeInput").on("change", handleNodeColorInput);
-	$("#colorButton").on("click", handleColorButton);
+	$("#colorButton").on("click mouseenter touchenter mouseleave touchleave", handleColorButton);
 	$("#resetButton").on("click", handleResetButton);
 	$("#debugButton").on("click", handleDebugButton);
 	$("#saveButton").on("click", handleSaveButton);
