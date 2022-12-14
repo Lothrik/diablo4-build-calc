@@ -182,7 +182,6 @@ function handleBodyClick(event) {
 	if (colorButtonState == 1) {
 		$("#colorNodeInput").click();
 		colorButtonState = 0;
-		event.preventDefault();
 	}
 	if (colorButtonInfoState == 1) {
 		$("#extraInfo").empty().addClass("hidden");
@@ -1570,7 +1569,7 @@ function writeCookie(name, value) {
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
-	$("body :not(#colorConnectorInput, #colorNodeInput)").on("click", handleBodyClick);
+	$("body :not(#colorConnectorInput, #colorNodeInput)").on("mousedown touchstart", handleBodyClick);
 	$("#colorConnectorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
 	$("#colorConnectorInput").on("change", handleConnectorColorInput);
 	$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
