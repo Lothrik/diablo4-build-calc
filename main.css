@@ -20,11 +20,12 @@
 }
 
 *, a {
-	color: #fff;
+	color: inherit;
 	scrollbar-color: #454a4d #202324;
 }
 
 body {
+	color: #fff;
 	font: 20px/23px Homenaje, Impact, sans-serif;
 	display: flex;
 	flex-direction: column;

@@ -97,7 +97,7 @@ const tooltipScalingCeiling = 1.25;
 
 const fontFamily = $("body").css("fontFamily");
 const fontFamilyOverride = fontFamily.includes("Homenaje") ? fontFamily : "Homenaje, " + fontFamily;
-const textColor = Number(rgba2hex($("*").css("color")));
+const textColor = Number(rgba2hex($("body").css("color")));
 const backgroundColorHEX = rgba2hex($("#header").css("background-color"));
 const backgroundColor = backgroundColorHEX.length == 8 ? Number(backgroundColorHEX) : backgroundColorHEX >>> 8;
 const backgroundOpacity = backgroundColorHEX.length == 8 ? 1 : (backgroundColorHEX & 0xFF) / 255;
