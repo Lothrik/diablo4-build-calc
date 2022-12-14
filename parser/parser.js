@@ -355,6 +355,11 @@ function runParser(downloadMode) {
 			formattedData += "		x: 2500,\n";
 			formattedData += "		y: 0\n";
 			formattedData += "	},\n";
+		} else if (className == "Druid" && druidBoons != undefined) {
+			formattedData += '	"Spirit Boons": {\n';
+			formattedData += "		x: 2500,\n";
+			formattedData += "		y: 0\n";
+			formattedData += "	},\n";
 		}
 		formattedData += "};\n\n";
 
@@ -397,6 +402,26 @@ function runParser(downloadMode) {
 						}
 					});
 					formattedData += "			]\n";
+					formattedData += "		},\n";
+				}
+				formattedData += "	},\n";
+			}
+			formattedData += "};\n\n";
+		} else if (className == "Druid" && druidBoons != undefined) {
+			formattedData += classNameLower + '["Spirit Boons"] = {\n';
+			for (const [boonTypeName, boonTypeData] of Object.entries(druidBoons)) {
+				formattedData += '	"' + boonTypeName + '": {\n';
+				for (const [boonName, boonData] of Object.entries(boonTypeData)) {
+					formattedData += '		"' + boonName + '": {\n';
+					formattedData += "			description: `" + boonData + "`,\n";
+					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName + " — " + boonName];
+					if (nodeHistoricalId != undefined) {
+						formattedData += "			id: " + nodeHistoricalId + ",\n";
+					} else {
+						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
+						nodeHistory[className]["Spirit Boons: " + boonTypeName + " — " + boonName] = nodeHistoryLength;
+						formattedData += "			id: " + nodeHistoryLength + ",\n";
+					}
 					formattedData += "		},\n";
 				}
 				formattedData += "	},\n";

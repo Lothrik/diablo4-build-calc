@@ -88,6 +88,7 @@ const UNKNOWN = "Unknown";
 const COOLDOWN = "Cooldown";
 const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
+const SPIRIT_BOONS = "Spirit Boons";
 const BOOK_OF_THE_DEAD = "Book of the Dead";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
@@ -447,7 +448,7 @@ function handleReloadButton() {
 					const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
 
 					if (newPoints < allocatedPoints || canAllocate(curNode)) {
-						if (curNode.groupName != BOOK_OF_THE_DEAD) pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+						if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 						updateNodePoints(curNode, newPoints);
 					}
 				}
@@ -590,7 +591,7 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	}
 }
 function canAllocate(curNode) {
-	if (curNode.groupName == BOOK_OF_THE_DEAD) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		return true;
 	} else if (curNode.groupName == CAPSTONE) {
 		return pixiNodes.find(pixiNode => {
@@ -679,11 +680,11 @@ function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	if (allocatedPoints == 0) {
 		handlePlusButton(curNode);
-		if (curNode.groupName == BOOK_OF_THE_DEAD) {
+		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 			const exclusiveNodes = curNode.nodeData.get("exclusiveNodes");
 			if (exclusiveNodes != undefined) {
 				pixiNodes.forEach(pixiNode => {
-					if (pixiNode.groupName == BOOK_OF_THE_DEAD && pixiNode != curNode && exclusiveNodes.includes(pixiNode.nodeName)) {
+					if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(pixiNode.groupName) && pixiNode != curNode && exclusiveNodes.includes(pixiNode.nodeName)) {
 						handleMinusButton(pixiNode);
 					}
 				});
@@ -696,7 +697,7 @@ function handleToggleButton(curNode) {
 function handlePlusButton(curNode) {
 	if (!canAllocate(curNode)) return;
 
-	if (curNode.groupName == BOOK_OF_THE_DEAD) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
@@ -736,7 +737,7 @@ function handlePlusButton(curNode) {
 	}
 }
 function handleMinusButton(curNode) {
-	if (curNode.groupName == BOOK_OF_THE_DEAD) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.max(allocatedPoints - 1, 0);
@@ -870,7 +871,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	const requiredPoints = nodeData.get("requiredPoints");
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined && groupName != BOOK_OF_THE_DEAD && maxPoints != 0) {
+	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints != 0) {
 		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
 			align: "right",
 			cacheAsBitmap: true,
@@ -937,7 +938,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	const nodeBorder = new PIXI.Graphics();
 	nodeBorder.pivot.x = _nodeWidth / 2;
 	nodeBorder.pivot.y = _nodeHeight / 2;
-	if ((groupName == undefined || groupName == BOOK_OF_THE_DEAD) && requiredPoints == 0) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) {
 		nodeBorder.lineStyle(lineStyleThickSquare);
 	} else {
 		nodeBorder.lineStyle(lineStyleThinSquare);
@@ -961,7 +962,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	node.displayName = displayName;
 	//node.branchData = branchData;
 	node.nodeIndex = pixiNodes.length;
-	if (groupName == undefined || groupName == BOOK_OF_THE_DEAD || maxPoints == 0) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints == 0) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
 		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
@@ -1021,7 +1022,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		.on("mouseout", onMouseOut)
 		.on("tap", onMouseOver);
 
-	if (groupName == BOOK_OF_THE_DEAD) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
 		if (maxPoints != 0) {
 			node.cursor = "pointer";
 			node.interactive = true;
@@ -1058,28 +1059,70 @@ function drawAllNodes() {
 				groupNode.set("requiredPoints", branchData.get("requiredPoints") || 0);
 				groupNode.set("x", branchData.get("x") + minCanvasWidth / 2);
 				groupNode.set("y", branchData.get("y") + minCanvasHeight / 2);
-				if (groupName == BOOK_OF_THE_DEAD) {
+				if (groupName == SPIRIT_BOONS) {
+					groupNode.set("widthOverride", 1650);
+					drawNode(groupName, groupNode);
+					const nodeSpacingX = 350;
+					const nodeSpacingY = 150;
+					const nodeLimitX = 5;
+					const nodeLimitY = 2;
+					let extraY = nodeSpacingY;
+					for (const [boonTypeName, boonTypeData] of groupData) {
+						let extraX = -nodeSpacingX * 2;
+						const curMinion = groupData.get(boonTypeName);
+						const minionNode = new Map([
+							["allocatedPoints", 0],
+							["maxPoints", 0],
+							["widthOverride", 250],
+							["x", extraX],
+							["y", extraY]
+						]);
+						const exclusiveNodes = Array.from(boonTypeData.keys()).map(boonData => boonTypeName + " — " + boonData);
+						console.log(exclusiveNodes);
+
+						drawNode(boonTypeName, minionNode, groupName, branchData);
+
+						extraX += nodeSpacingX;
+						for (const [boonName, boonData] of boonTypeData) {
+							const boonModifiers = 4;
+							const boonNode = new Map([
+								["allocatedPoints", 0],
+								["description", boonData.get("description")],
+								["exclusiveNodes", exclusiveNodes],
+								["id", boonData.get("id")],
+								["maxPoints", 1],
+								["widthOverride", 250],
+								["x", extraX],
+								["y", extraY]
+							]);
+
+							drawNode(boonTypeName + " — " + boonName, boonNode, groupName, branchData);
+							extraX += nodeSpacingX;
+						}
+						extraY += nodeSpacingY * (nodeLimitY - 1);
+					}
+				} else if (groupName == BOOK_OF_THE_DEAD) {
 					groupNode.set("widthOverride", 1600);
 					drawNode(groupName, groupNode);
 					const nodeSpacingX = 150;
 					const nodeSpacingY = 150;
 					const nodeLimitX = 5;
 					const nodeLimitY = 2;
-					let bookX = -nodeSpacingX * (nodeLimitX - 1);
+					let extraX = -nodeSpacingX * (nodeLimitX - 1);
 					for (const [minionName, minionData] of groupData) {
 						const curMinion = groupData.get(minionName);
 						const minionNode = new Map([
 							["allocatedPoints", 0],
 							["maxPoints", 0],
 							["widthOverride", 400],
-							["x", bookX],
+							["x", extraX],
 							["y", nodeSpacingY]
 						]);
 						const exclusiveNodes = Array.from(minionData.keys());
 
 						drawNode(minionName, minionNode, groupName, branchData);
 
-						let bookY = nodeSpacingY * (nodeLimitY - 0.5);
+						let extraY = nodeSpacingY * (nodeLimitY - 0.5);
 						for (const [minionTypeName, minionTypeData] of minionData) {
 							const minionUpgrades = [minionTypeData.get("sacrifice"), ...minionTypeData.get("upgrades").values()];
 							const minionTypeNode = new Map([
@@ -1088,8 +1131,8 @@ function drawAllNodes() {
 								["exclusiveNodes", exclusiveNodes],
 								["id", minionTypeData.get("id")],
 								["maxPoints", 1],
-								["x", bookX - nodeSpacingX * Math.ceil(minionUpgrades.length / 2) / 2],
-								["y", nodeSpacingY + bookY]
+								["x", extraX - nodeSpacingX * Math.ceil(minionUpgrades.length / 2) / 2],
+								["y", nodeSpacingY + extraY]
 							]);
 
 							drawNode(minionTypeName, minionTypeNode, groupName, branchData);
@@ -1113,16 +1156,16 @@ function drawAllNodes() {
 									["exclusiveNodes", upgradeItr < minionUpgrades.length ? exclusiveUpgradeNodes : undefined],
 									["id", `${minionTypeData.get("id")}-${upgradeItr}`],
 									["maxPoints", 1],
-									["x", bookX + nodeSpacingX * (upgradeItr == 0 ? Math.ceil(minionUpgrades.length / 3) : Math.ceil((upgradeItr - 2) / 2)) - nodeSpacingX * Math.ceil((minionUpgrades.length - 3) / 2) / 2],
-									["y", nodeSpacingY + bookY + (upgradeItr == 0 ? 0 : (upgradeItr == minionUpgrades.length && minionUpgrades.length % 2 == 0 ? 0 : nodeSpacingY * (upgradeItr % 2 == 0 ? 0.5 : -0.5)))]
+									["x", extraX + nodeSpacingX * (upgradeItr == 0 ? Math.ceil(minionUpgrades.length / 3) : Math.ceil((upgradeItr - 2) / 2)) - nodeSpacingX * Math.ceil((minionUpgrades.length - 3) / 2) / 2],
+									["y", nodeSpacingY + extraY + (upgradeItr == 0 ? 0 : (upgradeItr == minionUpgrades.length && minionUpgrades.length % 2 == 0 ? 0 : nodeSpacingY * (upgradeItr % 2 == 0 ? 0.5 : -0.5)))]
 								]);
 
 								drawNode(exclusiveUpgradeNodes[upgradeItr], minionUpgradeNode, groupName, branchData);
 								upgradeItr++;
 							}
-							bookY += nodeSpacingY * nodeLimitY;
+							extraY += nodeSpacingY * nodeLimitY;
 						}
-						bookX += nodeSpacingX * (nodeLimitX - 1);
+						extraX += nodeSpacingX * (nodeLimitX - 1);
 					}
 				} else {
 					drawNode(groupName, groupNode);

@@ -41,6 +41,10 @@ druid["Trunk Data"] = {
 		x: 8.196,
 		y: 4695.885,
 	},
+	"Spirit Boons": {
+		x: 2500,
+		y: 0
+	},
 };
 
 druid["Basic"] = {
@@ -1466,6 +1470,81 @@ While Healthy, deal x{#}% increased damage.`,
 		values: [ "20", "3", "20" ],
 		x: -943.646,
 		y: 367.035
+	},
+};
+
+druid["Spirit Boons"] = {
+	"Stag": {
+		"Boon 1": {
+			description: `Gain 796 Thorns.`,
+			id: 142,
+		},
+		"Boon 2": {
+			description: `Gain +10 Maximum Spirit.`,
+			id: 143,
+		},
+		"Boon 3": {
+			description: `Gain x10% Damage Reduction against Elite Monsters.`,
+			id: 144,
+		},
+		"Boon 4": {
+			description: `Reduce the duration of Control Impairing Effects by 15%.`,
+			id: 145,
+		},
+	},
+	"Eagle": {
+		"Boon 1": {
+			description: `+5% Critical Strike Chance.`,
+			id: 146,
+		},
+		"Boon 2": {
+			description: `x10% Maximum Health.`,
+			id: 147,
+		},
+		"Boon 3": {
+			description: `+10% Attack Speed.`,
+			id: 148,
+		},
+		"Boon 4": {
+			description: `+30% Critical Strike Damage.`,
+			id: 149,
+		},
+	},
+	"Wolf": {
+		"Boon 1": {
+			description: `Critical Strikes have a 20% chance to reset the cooldown of your companion's skills.`,
+			id: 150,
+		},
+		"Boon 2": {
+			description: `Lucky Hit: Up to a 15% chance to gain 10 Spirit.`,
+			id: 151,
+		},
+		"Boon 3": {
+			description: `Defensive skills grant you 10% Base Life (#) as Fortify.`,
+			id: 152,
+		},
+		"Boon 4": {
+			description: `Extend the duration of Ultimate skills by 25%.`,
+			id: 153,
+		},
+	},
+	"Snake": {
+		"Boon 1": {
+			description: `Lucky Hit: Earth skills have up to a 15% chance to Stun for # seconds. If the target is already Stunned and isn't a Boss or Elite, your hits will Overpower instead.`,
+			id: 154,
+		},
+		"Boon 2": {
+			description: `Lucky Hit: Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 63.53% damage to nearby enemies.`,
+			id: 155,
+		},
+		"Boon 3": {
+			description: `Critical Strikes with Shapeshifting skills will recover 3% of your Base Life (#).`,
+			id: 156,
+		},
+		"Boon 4": {
+			description: `Lucky Hit: Nature skills have up to a 15% chance to reduce the cooldown of your Ultimate skills by 2 seconds.`,
+			id: 157,
+		},
 	},
 };
 
