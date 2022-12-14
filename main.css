@@ -148,7 +148,7 @@ h1, h2, h3 {
 #extraInfo {
 	display: flex;
 	border: 1px solid;
-	margin: 0 auto;
+	margin: 0 auto 10px;
 	padding: 10px;
 	width: 354px;
 	align-items: center;
@@ -162,10 +162,6 @@ h1, h2, h3 {
 	margin: 0 auto 10px;
 	user-select: none;
 	justify-content: center;
-}
-
-#extraButtons1 {
-	margin-top: 10px;
 }
 
 #extraButtons1 > *, #extraButtons2 > * {
