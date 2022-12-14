@@ -1,5 +1,6 @@
 import { nodeHistory } from "./node-history.js";
 import { nodeValues } from "./node-values.js";
+import { druidBoons } from "./druid-boons.js";
 import { necromancerMinions } from "./necromancer-minions.js";
 import { sorcererEnchants } from "./sorcerer-enchants.js";
 
