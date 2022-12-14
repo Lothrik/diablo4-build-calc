@@ -1078,7 +1078,6 @@ function drawAllNodes() {
 							["y", extraY]
 						]);
 						const exclusiveNodes = Array.from(boonTypeData.keys()).map(boonData => boonTypeName + " — " + boonData);
-						console.log(exclusiveNodes);
 
 						drawNode(boonTypeName, minionNode, groupName, branchData);
 
@@ -1346,10 +1345,16 @@ function eraseTooltip() {
 function repositionTooltip() {
 	if (!pixiTooltip) return;
 
+	const curNode = pixiNodes[pixiTooltip.nodeIndex];
+	const nodeData = curNode.nodeData;
+
+	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
+	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
+
 	const offsetTop = $("#header").outerHeight(true);
 	const offsetBottom = $("#extraInfo").outerHeight(true) + $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
 
-	const globalPosition = pixiNodes[pixiTooltip.nodeIndex].getGlobalPosition();
+	const globalPosition = curNode.getGlobalPosition();
 
 	const borderWidth = 8;
 	const marginSize = 10;
@@ -1361,14 +1366,14 @@ function repositionTooltip() {
 	const maxX = pixiJS.renderer.width - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
 	const maxY = pixiJS.renderer.height - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
 
-	const globalX = globalPosition.x + (nodeWidth + borderWidth) * pixiJS.stage.scale.x / 2;
-	const globalY = globalPosition.y - (nodeHeight + borderWidth) * pixiJS.stage.scale.y / 2;
+	const globalX = globalPosition.x + (_nodeWidth + borderWidth) * pixiJS.stage.scale.x / 2;
+	const globalY = globalPosition.y - (_nodeHeight + borderWidth) * pixiJS.stage.scale.y / 2;
 
 	const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
 	const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
 
-	pixiTooltip.position.x = pixiNodes[pixiTooltip.nodeIndex].x + diffX / pixiJS.stage.scale.x + nodeWidth / 2 + 20 * pixiTooltip.scale.x;
-	pixiTooltip.position.y = pixiNodes[pixiTooltip.nodeIndex].y + diffY / pixiJS.stage.scale.y - nodeHeight / 2 + 10 * pixiTooltip.scale.y;
+	pixiTooltip.position.x = curNode.x + diffX / pixiJS.stage.scale.x + _nodeWidth / 2 + 20 * pixiTooltip.scale.x;
+	pixiTooltip.position.y = curNode.y + diffY / pixiJS.stage.scale.y - _nodeHeight / 2 + 10 * pixiTooltip.scale.y;
 }
 function drawConnector(startNode, endNode) {
 	const connector = new PIXI.Graphics();
