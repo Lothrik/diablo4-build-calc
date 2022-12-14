@@ -1510,6 +1510,8 @@ function rebuildCanvas() {
 	pixiConnectors = [];
 	pixiConnectorPairs = [];
 
+	$("#tooltipHeader, #tooltipContainer, .footerSpacer").empty().addClass("disabled");
+
 	pixiTooltip = null;
 	pixiDragging = null;
 
@@ -1561,6 +1563,8 @@ function readCookie(name) {
 	return "";
 }
 function writeCookie(name, value) {
+	handleBodyClick(); // fake an early touch event to make mobile color selection a bit more responsive
+
 	let date = new Date();
 	date.setFullYear(date.getFullYear() + 1);
 	const expires = "expires=" + date.toUTCString();
