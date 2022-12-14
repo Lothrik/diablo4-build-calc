@@ -931,7 +931,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	const nodeBackground = new PIXI.Graphics();
 	nodeBackground.beginFill(backgroundColor);
 	nodeBackground.drawRect(0, 0, _nodeWidth, _nodeHeight);
-	nodeBackground.alpha = backgroundOpacity * 2 / 3;
+	nodeBackground.alpha = backgroundOpacity;
 	nodeBackground.pivot.x = _nodeWidth / 2;
 	nodeBackground.pivot.y = _nodeHeight / 2;
 
