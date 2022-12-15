@@ -856,7 +856,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		nameFontSize = 32;
 	}
 
-	const scaleMultiplier = Math.ceil(window.innerWidth / 360);
+	const scaleMultiplier = 5;
 
 	const nodeText = new PIXI.Text(displayName, {
 		align: "center",
@@ -1223,7 +1223,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const scaleMultiplier = Math.ceil(window.innerWidth / 360);
+	const scaleMultiplier = 5;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
