@@ -140,7 +140,7 @@ var initialTouchDistance;
 var oldWidth = 0;
 var oldHeight = 0;
 
-PIXI.settings.RESOLUTION = 1; // devicePixelRatio
+PIXI.settings.RESOLUTION = devicePixelRatio;
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR;
 
 // pixiJS application helper
@@ -856,7 +856,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		nameFontSize = 32;
 	}
 
-	const scaleMultiplier = 5;
+	const scaleMultiplier = 4 / devicePixelRatio;
 
 	const nodeText = new PIXI.Text(displayName, {
 		align: "center",
@@ -1223,7 +1223,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const scaleMultiplier = 5;
+	const scaleMultiplier = 4 / devicePixelRatio;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
