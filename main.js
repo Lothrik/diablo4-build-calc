@@ -295,14 +295,12 @@ function handleClassSelection(event) {
 		if (newClass.val() == "none") {
 			$("#className").text("None");
 			$("#header h2").addClass("hidden");
-			$("#groupSelector, #resetButton").prop("disabled", true);
 			$("#groupSelector, #searchInput, #searchButton").addClass("disabled");
 			$("#groupSelector").empty();
 			$("#searchInput").removeAttr("style");
 		} else {
 			$("#className").text(newClass.text());
 			$("#header h2").removeClass("hidden");
-			$("#groupSelector, #resetButton").prop("disabled", false);
 			$("#groupSelector, #searchInput, #searchButton").removeClass("disabled");
 		}
 		rebuildCanvas();
@@ -1594,4 +1592,5 @@ $(document).ready(function() {
 	$("#skillTree").append(pixiJS.view);
 	$(window).on("resize", resizeCanvas);
 	handleReloadButton();
+	resizeCanvas();
 });
