@@ -234,7 +234,7 @@ function handleColorButton(event) {
 		resizeCanvas();
 	} else if (event.type == "click" && extraInfoHTML != COLOR_LINE_TEXT) {
 		setTimeout(() => $("#colorConnectorInput").click(), 500);
-		$("#extraInfo").html(COLOR_LINE_TEXT).removeClass("hidden");
+		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 		resizeCanvas();
 	}
 }
