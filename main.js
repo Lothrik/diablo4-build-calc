@@ -93,6 +93,8 @@ const BOOK_OF_THE_DEAD = "Book of the Dead";
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
+const ENABLE_DEBUG_TEXT = "Enable Debugging";
+const DISABLE_DEBUG_TEXT = "Disable Debugging";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
 const pixiScalingFloor = 0.25;
@@ -397,7 +399,7 @@ function handleResetButton() {
 }
 function handleDebugButton() {
 	debugMode = !debugMode;
-	$("#debugButton").text(debugMode ? disableDebuggingString : enableDebuggingString);
+	$("#debugButton").text(debugMode ? DISABLE_DEBUG_TEXT : ENABLE_DEBUG_TEXT);
 }
 function handleSaveButton() {
 	const className = $(classString).val();
@@ -1196,7 +1198,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	eraseTooltip();
 
-	let nodeDesc = curNode.nodeDesc;
+	let nodeDesc = debugMode ? `x: ${getNodePosition(curNode).join(" / y: ")}` : curNode.nodeDesc;
 	if (nodeDesc == undefined) nodeDesc = "";
 
 	const requiredPoints = curNode.nodeData.get("requiredPoints");
@@ -1221,11 +1223,6 @@ function drawTooltip(curNode, forceDraw) {
 			const captureSplit = captureString.split("/");
 			return captureSplit[allocatedPoints > 0 ? Math.min(allocatedPoints, captureSplit.length) - 1 : 0];
 		});
-	}
-
-	if (debugMode) {
-		const [debugX, debugY] = getNodePosition(curNode);
-		nodeDesc += "\nx: " + debugX + "\ny: " + debugY;
 	}
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
