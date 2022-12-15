@@ -140,8 +140,8 @@ var initialTouchDistance;
 var oldWidth = 0;
 var oldHeight = 0;
 
-PIXI.settings.RESOLUTION = devicePixelRatio;
-PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
+PIXI.settings.RESOLUTION = 1; // devicePixelRatio
+PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR;
 
 // pixiJS application helper
 const pixiJS = new PIXI.Application({
@@ -149,7 +149,7 @@ const pixiJS = new PIXI.Application({
 	autoDensity: true,
 	backgroundAlpha: 0,
 	height: minCanvasHeight,
-	width: minCanvasWidth,
+	width: minCanvasWidth
 });
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
@@ -406,9 +406,7 @@ function handleSaveButton() {
 	if (className == "none") {
 		window.location.replace(window.location.href.split("#")[0]);
 	} else {
-		let nodeData = {
-			className: className,
-		};
+		let nodeData = { className: className };
 		pixiNodes.forEach(curNode => {
 			if (curNode.groupName != undefined) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
@@ -858,17 +856,18 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 		nameFontSize = 32;
 	}
 
+	const scaleMultiplier = Math.ceil(window.innerWidth / 360);
+
 	const nodeText = new PIXI.Text(displayName, {
 		align: "center",
 		cacheAsBitmap: true,
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: nameFontSize * 4,
+		fontSize: nameFontSize * scaleMultiplier,
 		fontVariant: "small-caps",
-		width: _nodeWidth * 4,
+		width: _nodeWidth * scaleMultiplier
 	});
-	nodeText.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	nodeText.scale.set(0.25);
+	nodeText.scale.set(1 / scaleMultiplier);
 	nodeText.anchor.set(0.5);
 
 	const allocatedPoints = nodeData.get("allocatedPoints");
@@ -882,12 +881,11 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 24 * 4,
+			fontSize: 24 * scaleMultiplier,
 			fontVariant: "small-caps",
-			width: _nodeWidth * 4,
+			width: _nodeWidth * scaleMultiplier
 		});
-		nodeText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
-		nodeText2.scale.set(0.25);
+		nodeText2.scale.set(1 / scaleMultiplier);
 		nodeText2.anchor.set(0.5);
 		nodeText2.x = (_nodeWidth - nodeText2.width) / 2 - 5;
 		nodeText2.y = (nodeText2.height - _nodeHeight) / 2 + 2;
@@ -897,12 +895,11 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamilyOverride,
-			fontSize: 48 * 4,
+			fontSize: 48 * scaleMultiplier,
 			fontVariant: "small-caps",
-			width: _nodeWidth * 4,
+			width: _nodeWidth * scaleMultiplier
 		});
-		nodeText3.scaleMode = PIXI.SCALE_MODES.LINEAR;
-		nodeText3.scale.set(0.25);
+		nodeText3.scale.set(1 / scaleMultiplier);
 		nodeText3.anchor.set(0.5);
 		nodeText3.x = (_nodeWidth - nodeText3.width) / 2;
 		nodeText3.y = (_nodeHeight - nodeText3.height) / 2 + 4;
@@ -912,12 +909,11 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamilyOverride,
-			fontSize: 48 * 4,
+			fontSize: 48 * scaleMultiplier,
 			fontVariant: "small-caps",
-			width: _nodeWidth * 4,
+			width: _nodeWidth * scaleMultiplier
 		});
-		nodeText4.scaleMode = PIXI.SCALE_MODES.LINEAR;
-		nodeText4.scale.set(0.25);
+		nodeText4.scale.set(1 / scaleMultiplier);
 		nodeText4.anchor.set(0.5);
 		nodeText4.x = (nodeText4.width - _nodeWidth) / 2 + 4;
 		nodeText4.y = (_nodeHeight - nodeText4.height) / 2;
@@ -1227,7 +1223,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const tooltipMultiplier = Math.ceil(window.innerWidth / 480);
+	const scaleMultiplier = Math.ceil(window.innerWidth / 360);
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
@@ -1236,15 +1232,14 @@ function drawTooltip(curNode, forceDraw) {
 		cacheAsBitmap: true,
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: 36 * tooltipMultiplier,
+		fontSize: 36 * scaleMultiplier,
 		fontVariant: "small-caps",
 		fontWeight: "bold",
-		width: tooltipWidth * tooltipMultiplier,
+		width: tooltipWidth * scaleMultiplier,
 		wordWrap: true,
-		wordWrapWidth: tooltipWidth * tooltipMultiplier,
+		wordWrapWidth: tooltipWidth * scaleMultiplier
 	});
-	tooltipText1.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	tooltipText1.scale.set(1 / tooltipMultiplier);
+	tooltipText1.scale.set(1 / scaleMultiplier);
 	tooltipText1.anchor.set(0);
 
 	let tooltipText2;
@@ -1255,13 +1250,12 @@ function drawTooltip(curNode, forceDraw) {
 			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 36 * tooltipMultiplier,
-			width: tooltipWidth * tooltipMultiplier,
+			fontSize: 36 * scaleMultiplier,
+			width: tooltipWidth * scaleMultiplier,
 			wordWrap: true,
-			wordWrapWidth: tooltipWidth * tooltipMultiplier,
+			wordWrapWidth: tooltipWidth * scaleMultiplier
 		});
-		tooltipText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
-		tooltipText2.scale.set(1 / tooltipMultiplier);
+		tooltipText2.scale.set(1 / scaleMultiplier);
 		tooltipText2.anchor.set(0);
 		tooltipText2.position.y = 18;
 	} else {
