@@ -90,6 +90,9 @@ const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
 const SPIRIT_BOONS = "Spirit Boons";
 const BOOK_OF_THE_DEAD = "Book of the Dead";
+const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
+const COLOR_LINE_TEXT = "Choose your preferred active line color.";
+const COLOR_NODE_TEXT = "Choose your preferred active node color.";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
 const tooltipScalingFloor = 0.75;
@@ -176,17 +179,15 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 // event handlers
 const classString = "#classSelector option:selected";
 const groupString = "#groupSelector option:selected";
-var colorButtonState = 0;
-var colorButtonInfoState = 0;
 function handleBodyClick(event) {
-	if (colorButtonState == 1) {
-		$("#colorNodeInput").click();
-		colorButtonState = 0;
-	}
-	if (colorButtonInfoState == 1) {
+	const extraInfoHTML = $("#extraInfo").html();
+	if (extraInfoHTML == COLOR_LINE_TEXT) {
+		setTimeout(() => $("#colorNodeInput").click(), 500);
+		$("#extraInfo").text(COLOR_NODE_TEXT).removeClass("hidden");
+		resizeCanvas();
+	} else if (event != undefined && extraInfoHTML == COLOR_NODE_TEXT) {
 		$("#extraInfo").empty().addClass("hidden");
 		resizeCanvas();
-		colorButtonInfoState = 0;
 	}
 }
 function handleConnectorColorInput(event) {
@@ -196,6 +197,8 @@ function handleConnectorColorInput(event) {
 	lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
 
 	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
+
+	handleBodyClick(); // fake an early touch event to make mobile color selection a bit more responsive
 }
 function handleNodeColorInput(event) {
 	writeCookie("activeNodeColor", $("#colorNodeInput").val().slice(1));
@@ -222,18 +225,17 @@ function handleNodeColorInput(event) {
 	}
 }
 function handleColorButton(event) {
-	if (colorButtonInfoState == 0 && ["click", "mouseenter"].includes(event.type)) {
-		$("#extraInfo").html("Click to customize connector and node colors.<br>Custom color choices will persist across sessions.").removeClass("hidden");
+	const extraInfoHTML = $("#extraInfo").html();
+	if (event.type == "mouseenter" && extraInfoHTML.length == 0) {
+		$("#extraInfo").html(COLOR_HOVER_HTML).removeClass("hidden");
 		resizeCanvas();
-		colorButtonInfoState = 1;
-	} else if (colorButtonInfoState == 1 && event.type == "mouseleave") {
+	} else if (event.type == "mouseleave" && extraInfoHTML == COLOR_HOVER_HTML) {
 		$("#extraInfo").empty().addClass("hidden");
 		resizeCanvas();
-		colorButtonInfoState = 0;
-	}
-	if (colorButtonState == 0 && event.type == "click") {
-		$("#colorConnectorInput").click();
-		colorButtonState = 1;
+	} else if (event.type == "click" && extraInfoHTML != COLOR_LINE_TEXT) {
+		setTimeout(() => $("#colorConnectorInput").click(), 500);
+		$("#extraInfo").html(COLOR_LINE_TEXT).removeClass("hidden");
+		resizeCanvas();
 	}
 }
 function handleSkillTreeZoom(event) {
@@ -1563,8 +1565,6 @@ function readCookie(name) {
 	return "";
 }
 function writeCookie(name, value) {
-	handleBodyClick(); // fake an early touch event to make mobile color selection a bit more responsive
-
 	let date = new Date();
 	date.setFullYear(date.getFullYear() + 1);
 	const expires = "expires=" + date.toUTCString();
