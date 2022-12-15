@@ -184,17 +184,6 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 // event handlers
 const classString = "#classSelector option:selected";
 const groupString = "#groupSelector option:selected";
-function handleBodyClick(event) {
-	const extraInfoHTML = $("#extraInfo").html();
-	if (extraInfoHTML == COLOR_LINE_TEXT) {
-		setTimeout(() => $("#colorNodeInput").click(), 500);
-		$("#extraInfo").text(COLOR_NODE_TEXT).removeClass("hidden");
-		resizeCanvas();
-	} else if (event != undefined && extraInfoHTML == COLOR_NODE_TEXT) {
-		$("#extraInfo").empty().addClass("hidden");
-		resizeCanvas();
-	}
-}
 function handleConnectorColorInput(event) {
 	writeCookie("activeConnectorColor", $("#colorConnectorInput").val().slice(1));
 
@@ -203,7 +192,7 @@ function handleConnectorColorInput(event) {
 
 	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
 
-	handleBodyClick(); // fake an early touch event to make mobile color selection a bit more responsive
+	handleCanvasEvent({ type: "mousedown", simulatedEvent: 1 }); // fake an early touch event to make mobile color selection a bit more responsive
 }
 function handleNodeColorInput(event) {
 	writeCookie("activeNodeColor", $("#colorNodeInput").val().slice(1));
@@ -228,6 +217,8 @@ function handleNodeColorInput(event) {
 			if (validConnection) groupNode.children[2].updateLineStyle(lineStyleThickSquare);
 		});
 	}
+
+	handleCanvasEvent({ type: "mousedown", simulatedEvent: 2 }); // fake an early touch event to make mobile color selection a bit more responsive
 }
 function handleColorButton(event) {
 	const extraInfoHTML = $("#extraInfo").html();
@@ -246,7 +237,19 @@ function handleColorButton(event) {
 function handleCanvasEvent(event) {
 	if (document.activeElement != $("#searchInput")[0]) window.getSelection().removeAllRanges();
 	switch (event.type) {
+		case "mousedown":
 		case "touchstart":
+			const extraInfoHTML = $("#extraInfo").html();
+			if (extraInfoHTML == COLOR_LINE_TEXT) {
+				setTimeout(() => $("#colorNodeInput").click(), 500);
+				$("#extraInfo").text(COLOR_NODE_TEXT).removeClass("hidden");
+				resizeCanvas();
+			} else if (extraInfoHTML == COLOR_NODE_TEXT && [undefined, 2].includes(event.simulatedEvent)) {
+				$("#extraInfo").empty().addClass("hidden");
+				resizeCanvas();
+			}
+			if (event.type == "mousedown") return;
+
 			touchTimer = Date.now();
 			if (event.originalEvent.touches.length == 2) {
 				isTouching = true;
@@ -1549,7 +1552,6 @@ function writeCookie(name, value) {
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
-	$("body :not(#colorConnectorInput, #colorNodeInput)").on("mousedown touchstart", handleBodyClick);
 	$("#colorConnectorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
 	$("#colorConnectorInput").on("change", handleConnectorColorInput);
 	$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
@@ -1567,7 +1569,7 @@ $(document).ready(function() {
 	$("#searchButton").on("click", handleSearchInput);
 
 	$("body").append(pixiJS.view);
-	$("canvas").on("mousemove wheel touchstart touchend touchmove", handleCanvasEvent);
+	$("canvas").on("wheel mousedown touchstart mousemove touchmove touchend", handleCanvasEvent);
 	$(window).on("resize", resizeCanvas);
 
 	handleReloadButton();
