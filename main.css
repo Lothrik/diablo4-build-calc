@@ -58,10 +58,6 @@ body > * {
 	}
 }
 
-body > * {
-	flex-shrink: 0;
-}
-
 h1, h2, h3 {
 	font-weight: normal;
 	margin: 0;
@@ -129,12 +125,11 @@ h1, h2, h3 {
 	z-index: 1;
 }
 
-#skillTree {
-	display: flex;
-	min-height: 280px;
+canvas {
+	position: fixed;
+	left: 0;
+	top: 0;
 	user-select: none;
-	flex-grow: 9999;
-	justify-content: center;
 }
 
 .visible, .visible * {
@@ -154,7 +149,7 @@ h1, h2, h3 {
 #extraInfo {
 	display: flex;
 	border: 1px solid;
-	margin: 0 auto 10px;
+	margin: auto auto 10px;
 	padding: 10px;
 	width: 354px;
 	align-items: center;
@@ -218,11 +213,9 @@ button:active {
 }
 
 #footer {
-	margin-top: auto;
 	padding: 10px 10px 5px;
 	border-top-style: solid;
 	border-top-width: 2px;
-	flex-grow: 1;
 }
 
 #footer * {

@@ -130,6 +130,7 @@ var pixiDragging;
 
 var debugMode = false;
 
+var touchTimer = null;
 var isTouching = false;
 var initialScale;
 var initialTouchDistance;
@@ -240,9 +241,11 @@ function handleColorButton(event) {
 		resizeCanvas();
 	}
 }
-function handleSkillTreeZoom(event) {
+function handleCanvasEvent(event) {
+	if (document.activeElement != $("#searchInput")[0]) window.getSelection().removeAllRanges();
 	switch (event.type) {
 		case "touchstart":
+			touchTimer = Date.now();
 			if (event.originalEvent.touches.length == 2) {
 				isTouching = true;
 				initialScale = pixiJS.stage.scale.x;
@@ -252,7 +255,11 @@ function handleSkillTreeZoom(event) {
 			}
 			break;
 		case "touchend":
+			touchTimer = null;
 			isTouching = false;
+			break;
+		case "touchmove":
+			if (touchTimer != null && Date.now() - touchTimer > 1500) eraseTooltip();
 			break;
 	}
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
@@ -382,7 +389,7 @@ function handleSearchInput(event) {
 	}
 }
 function resizeSearchInput() {
-	const targetWidth = $("#extraButtons2").outerWidth() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 5;
+	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 5;
 	$("#searchInput").outerWidth(targetWidth);
 }
 function handleResetButton() {
@@ -464,12 +471,6 @@ function handleReloadButton() {
 }
 function handleShareButton() {
 	navigator.clipboard.writeText(window.location.href);
-}
-function onContextMenu(event) {
-	event.preventDefault();
-}
-function clearTextSelect(event) {
-	if (document.activeElement != $("#searchInput")[0]) window.getSelection().removeAllRanges();
 }
 function onDragStart(event) {
 	if (!debugMode) return onDragAllStart(event);
@@ -1229,7 +1230,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const tooltipMultiplier = Math.ceil(document.body.clientWidth / 480);
+	const tooltipMultiplier = Math.ceil(window.innerWidth / 480);
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
@@ -1351,8 +1352,8 @@ function repositionTooltip() {
 	const minX = marginSize - xOffsetFix;
 	const minY = offsetTop + marginSize;
 
-	const maxX = window.innerWidth - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
-	const maxY = window.innerHeight - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
+	const maxX = document.documentElement.offsetWidth - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
+	const maxY = document.documentElement.offsetHeight - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
 
 	const globalX = globalPosition.x + (_nodeWidth + borderWidth) * pixiJS.stage.scale.x / 2;
 	const globalY = globalPosition.y - (_nodeHeight + borderWidth) * pixiJS.stage.scale.y / 2;
@@ -1519,14 +1520,13 @@ function rebuildCanvas() {
 	$("#renownLevel").empty();
 }
 function resizeCanvas() {
-	let [newWidth, newHeight] = [document.documentElement.clientWidth, document.documentElement.clientHeight];
+	let [newWidth, newHeight] = [window.innerWidth, window.innerHeight];
 	if (oldWidth != newWidth || oldHeight != newHeight) {
 		const offsetTop = $("#header").outerHeight(true);
 		const offsetBottom = $("#extraInfo").outerHeight(true) + $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
-		$("#skillTree").css({ "margin": "-" + offsetTop + "px auto -" + offsetBottom + "px" });
 
 		pixiJS.renderer.resize(minCanvasWidth, minCanvasHeight);
-		[newWidth, newHeight] = [document.documentElement.clientWidth, document.documentElement.clientHeight];
+		[newWidth, newHeight] = [window.innerWidth, window.innerHeight];
 		pixiJS.renderer.resize(newWidth, newHeight);
 
 		for (let i = 0; i < pixiJS.stage.children.length; i++) {
@@ -1536,8 +1536,9 @@ function resizeCanvas() {
 
 		[oldWidth, oldHeight] = [newWidth, newHeight];
 
-		$("#extraInfo").outerWidth($("#extraButtons2").outerWidth() - 5);
+		$("#extraInfo").outerWidth($("#extraButtons2").width() - 5);
 		resizeSearchInput();
+		$("body").height(newHeight); // prevent undesirable mobile vertical scroll
 	}
 }
 function readCookie(name) {
@@ -1563,6 +1564,7 @@ $(document).ready(function() {
 	$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
 	$("#colorNodeInput").on("change", handleNodeColorInput);
 	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
+
 	$("#resetButton").on("click", handleResetButton);
 	$("#debugButton").on("click", handleDebugButton);
 	$("#saveButton").on("click", handleSaveButton);
@@ -1572,11 +1574,11 @@ $(document).ready(function() {
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup", handleSearchInput);
 	$("#searchButton").on("click", handleSearchInput);
-	$("#skillTree").on("wheel touchstart touchend touchmove", handleSkillTreeZoom);
-	$("#skillTree").on("contextmenu", onContextMenu);
-	$("#skillTree").on("mousemove touchmove", clearTextSelect);
-	$("#skillTree").append(pixiJS.view);
+
+	$("body").append(pixiJS.view);
+	$("canvas").on("mousemove wheel touchstart touchend touchmove", handleCanvasEvent);
 	$(window).on("resize", resizeCanvas);
+
 	handleReloadButton();
 	resizeCanvas();
 });
