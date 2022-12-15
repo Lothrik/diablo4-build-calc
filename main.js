@@ -1229,38 +1229,24 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
+	const tooltipMultiplier = Math.ceil(document.body.clientWidth / 480);
+
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
-
-	$("#tooltipHeader").text(nodeHeader);
-	$("#tooltipContainer").html(nodeDesc.replace(/\n/g, "<br>"));
-
-	if (document.body.clientWidth < 800) {
-		$("#tooltipHeader, #tooltipContainer, .footerSpacer").removeClass("disabled");
-	} else {
-		$("#tooltipHeader, #tooltipContainer, .footerSpacer").addClass("disabled");
-	}
-
-	resizeCanvas();
-
-	if (document.body.clientWidth < 800) {
-		return;
-	}
-
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
 		align: "left",
 		breakWords: true,
 		cacheAsBitmap: true,
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: 36 * 4,
+		fontSize: 36 * tooltipMultiplier,
 		fontVariant: "small-caps",
 		fontWeight: "bold",
-		width: tooltipWidth * 4,
+		width: tooltipWidth * tooltipMultiplier,
 		wordWrap: true,
-		wordWrapWidth: tooltipWidth * 4,
+		wordWrapWidth: tooltipWidth * tooltipMultiplier,
 	});
 	tooltipText1.scaleMode = PIXI.SCALE_MODES.LINEAR;
-	tooltipText1.scale.set(0.25);
+	tooltipText1.scale.set(1 / tooltipMultiplier);
 	tooltipText1.anchor.set(0);
 
 	let tooltipText2;
@@ -1271,13 +1257,13 @@ function drawTooltip(curNode, forceDraw) {
 			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 36 * 4,
-			width: tooltipWidth * 4,
+			fontSize: 36 * tooltipMultiplier,
+			width: tooltipWidth * tooltipMultiplier,
 			wordWrap: true,
-			wordWrapWidth: tooltipWidth * 4,
+			wordWrapWidth: tooltipWidth * tooltipMultiplier,
 		});
 		tooltipText2.scaleMode = PIXI.SCALE_MODES.LINEAR;
-		tooltipText2.scale.set(0.25);
+		tooltipText2.scale.set(1 / tooltipMultiplier);
 		tooltipText2.anchor.set(0);
 		tooltipText2.position.y = 18;
 	} else {
@@ -1354,7 +1340,7 @@ function repositionTooltip() {
 	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
 
 	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#extraInfo").outerHeight(true) + $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
+	const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
 
 	const globalPosition = curNode.getGlobalPosition();
 
@@ -1365,8 +1351,8 @@ function repositionTooltip() {
 	const minX = marginSize - xOffsetFix;
 	const minY = offsetTop + marginSize;
 
-	const maxX = pixiJS.renderer.width - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
-	const maxY = pixiJS.renderer.height - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
+	const maxX = window.innerWidth - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
+	const maxY = window.innerHeight - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
 
 	const globalX = globalPosition.x + (_nodeWidth + borderWidth) * pixiJS.stage.scale.x / 2;
 	const globalY = globalPosition.y - (_nodeHeight + borderWidth) * pixiJS.stage.scale.y / 2;
@@ -1511,8 +1497,6 @@ function rebuildCanvas() {
 	pixiNodes = [];
 	pixiConnectors = [];
 	pixiConnectorPairs = [];
-
-	$("#tooltipHeader, #tooltipContainer, .footerSpacer").empty().addClass("disabled");
 
 	pixiTooltip = null;
 	pixiDragging = null;
