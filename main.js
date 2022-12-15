@@ -469,7 +469,7 @@ function onContextMenu(event) {
 	event.preventDefault();
 }
 function clearTextSelect(event) {
-	if (document.activeElement != $("#searchInput")[0]) window.getSelection()?.removeAllRanges();
+	if (document.activeElement != $("#searchInput")[0]) window.getSelection().removeAllRanges();
 }
 function onDragStart(event) {
 	if (!debugMode) return onDragAllStart(event);

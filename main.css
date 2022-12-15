@@ -19,6 +19,15 @@
 	background-color: #181a1b;
 }
 
+::selection {
+	background: #fbb406;
+}
+
+::placeholder {
+	color: inherit;
+	opacity: 0.5;
+}
+
 *, a {
 	color: inherit;
 	scrollbar-color: #454a4d #202324;
@@ -51,10 +60,6 @@ body > * {
 
 body > * {
 	flex-shrink: 0;
-}
-
-::selection {
-	background: #fbb406;
 }
 
 h1, h2, h3 {
