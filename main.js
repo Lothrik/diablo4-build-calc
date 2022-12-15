@@ -95,8 +95,10 @@ const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
-const tooltipScalingFloor = 0.75;
-const tooltipScalingCeiling = 1.25;
+const pixiScalingFloor = 0.25;
+const pixiScalingCeiling = 4;
+const tooltipScalingFloor = 0.25;
+const tooltipScalingCeiling = 4;
 
 const fontFamily = $("body").css("fontFamily");
 const fontFamilyOverride = fontFamily.includes("Homenaje") ? fontFamily : "Homenaje, " + fontFamily;
@@ -267,7 +269,7 @@ function handleSkillTreeZoom(event) {
 				event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY)
 				* initialScale / initialTouchDistance;
 		}
-		if (newScale >= 0.25 && newScale <= 2) {
+		if (newScale >= pixiScalingFloor && newScale <= pixiScalingCeiling) {
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
