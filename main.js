@@ -181,6 +181,39 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 		this.geometry.invalidate();
 	}
 }
+function setNodeStyleThick(curNode, invertColor = false) {
+	let _lineStyleThickSquare = {};
+	if (invertColor) {
+		Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
+		if (_lineStyleThickSquare.color == 0xFFFFFF) {
+			_lineStyleThickSquare.color = 0x00FF00;
+		} else {
+			_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
+		}
+	} else {
+		_lineStyleThickSquare = lineStyleThickSquare;
+	}
+	curNode.children[1].style.fontWeight = "bold";
+	if (curNode.children.length > 3) {
+		curNode.children[2].style.fontWeight = "bold";
+		curNode.children[3].children[0].style.fontWeight = "bold";
+		curNode.children[4].children[0].style.fontWeight = "bold";
+		curNode.children[5].updateLineStyle(_lineStyleThickSquare);
+	} else {
+		curNode.children[2].updateLineStyle(_lineStyleThickSquare);
+	}
+}
+function setNodeStyleThin(curNode) {
+	curNode.children[1].style.fontWeight = "normal";
+	if (curNode.children.length > 3) {
+		curNode.children[2].style.fontWeight = "normal";
+		curNode.children[3].children[0].style.fontWeight = "normal";
+		curNode.children[4].children[0].style.fontWeight = "normal";
+		curNode.children[5].updateLineStyle(lineStyleThinSquare);
+	} else {
+		curNode.children[2].updateLineStyle(lineStyleThinSquare);
+	}
+}
 
 // event handlers
 const classString = "#classSelector option:selected";
@@ -294,12 +327,8 @@ function handleCanvasEvent(event) {
 			}
 			pixiJS.stage.scale.x = newScale;
 			pixiJS.stage.scale.y = newScale;
-			if (pixiTooltip) {
-				drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
-			}
-			if (preventConnectorScaling) {
-				drawAllConnectors();
-			}
+			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
+			if (preventConnectorScaling) drawAllConnectors();
 		}
 	}
 	event.preventDefault();
@@ -337,10 +366,11 @@ function handleSearchInput(event) {
 	if (newSearchText.length > 2 && (oldSearchText != newSearchText || event.keyCode == 13 || event.type == "click")) {
 		let firstMatch;
 		let firstMatchIdx = 0;
-		const nodeMatch = pixiNodes.find(pixiNode => {
+		const nodeMatch = pixiNodes.filter(pixiNode => {
 			// search `nodeHeader` for `newSearchText`
 			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !pixiNode.nodeName.includes(pixiNode.damageType) ? ` (${pixiNode.damageType})` : "");
 			if (nodeHeader.toLowerCase().includes(newSearchText.toLowerCase())) {
+				setNodeStyleThick(pixiNode, true);
 				if (firstMatch == undefined) {
 					firstMatch = pixiNode;
 					firstMatchIdx = newSearchIdx;
@@ -358,8 +388,8 @@ function handleSearchInput(event) {
 			} else {
 				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
 				const nodeDesc = pixiNode.nodeDesc;
-				if (nodeDesc == undefined || nodeDesc.length == 0) return false;
-				if (nodeDesc.toLowerCase().includes(newSearchText.toLowerCase())) {
+				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText.toLowerCase())) {
+					setNodeStyleThick(pixiNode, true);
 					if (firstMatch == undefined) {
 						firstMatch = pixiNode;
 						firstMatchIdx = newSearchIdx;
@@ -377,7 +407,7 @@ function handleSearchInput(event) {
 				}
 			}
 			return false;
-		});
+		})[0];
 		if (nodeMatch != undefined) {
 			pixiJS.stage.pivot.x = nodeMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
 			pixiJS.stage.pivot.y = nodeMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
@@ -392,6 +422,17 @@ function handleSearchInput(event) {
 			oldSearchIdx = 0;
 			oldSearchText = newSearchText;
 		}
+	} else if (oldSearchText != newSearchText) {
+		pixiNodes.filter(pixiNode => {
+			if (pixiNode.groupName == undefined) {
+				const requiredPoints = pixiNode.nodeData.get("requiredPoints");
+				const validConnection = requiredPoints <= getAllocatedSkillPoints(pixiNode.nodeName);
+				validConnection ? setNodeStyleThick(pixiNode) : setNodeStyleThin(pixiNode);
+			} else {
+				const allocatedPoints = pixiNode.nodeData.get("allocatedPoints");
+				allocatedPoints > 0 ? setNodeStyleThick(pixiNode) : setNodeStyleThin(pixiNode);
+			}
+		});
 	}
 }
 function resizeSearchInput() {
@@ -463,7 +504,7 @@ function handleReloadButton() {
 
 					const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
 
-					if (newPoints < allocatedPoints || canAllocate(curNode)) {
+					if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
 						if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 						updateNodePoints(curNode, newPoints);
 					}
@@ -529,9 +570,7 @@ function onDragAllMove(event) {
 			return onDragMove(event, true);
 		}
 	}
-	if (pixiTooltip) {
-		repositionTooltip();
-	}
+	if (pixiTooltip) repositionTooltip();
 }
 function onMouseOver(event) {
 	drawTooltip(this);
@@ -635,36 +674,16 @@ function canAllocate(curNode) {
 }
 function updateNodePoints(curNode, newPoints) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-	if (allocatedPoints == 0 && newPoints == 0) return;
-
 	const maxPoints = curNode.nodeData.get("maxPoints");
 	if (maxPoints == 0) {
 		curNode.children[1].style.fontWeight = "bold";
 	} else {
+		//console.assert(newPoints != allocatedPoints);
+
 		curNode.nodeData.set("allocatedPoints", newPoints);
 		curNode.children[2].text = newPoints + "/" + maxPoints;
 
-		if (newPoints > 0) {
-			curNode.children[1].style.fontWeight = "bold";
-			if (curNode.children.length > 3) {
-				curNode.children[2].style.fontWeight = "bold";
-				curNode.children[3].children[0].style.fontWeight = "bold";
-				curNode.children[4].children[0].style.fontWeight = "bold";
-				curNode.children[5].updateLineStyle(lineStyleThickSquare);
-			} else {
-				curNode.children[2].updateLineStyle(lineStyleThickSquare);
-			}
-		} else {
-			curNode.children[1].style.fontWeight = "normal";
-			if (curNode.children.length > 3) {
-				curNode.children[2].style.fontWeight = "normal";
-				curNode.children[3].children[0].style.fontWeight = "normal";
-				curNode.children[4].children[0].style.fontWeight = "normal";
-				curNode.children[5].updateLineStyle(lineStyleThinSquare);
-			} else {
-				curNode.children[2].updateLineStyle(lineStyleThinSquare);
-			}
-		}
+		newPoints > 0 ? setNodeStyleThick(curNode) : setNodeStyleThin(curNode);
 
 		const className = $(classString).val();
 		const classData = classMap.get(className);
@@ -673,18 +692,12 @@ function updateNodePoints(curNode, newPoints) {
 			pixiNodes.filter(pixiNode => trunkData.has(pixiNode.nodeName)).forEach(groupNode => {
 				const requiredPoints = groupNode.nodeData.get("requiredPoints");
 				const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
-				if (validConnection) {
-					groupNode.children[1].style.fontWeight = "bold";
-					groupNode.children[2].updateLineStyle(lineStyleThickSquare);
-				} else {
-					groupNode.children[1].style.fontWeight = "normal";
-					groupNode.children[2].updateLineStyle(lineStyleThinSquare);
-				}
+				validConnection ? setNodeStyleThick(groupNode) : setNodeStyleThin(groupNode);
 			});
 		}
-	}
 
-	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
+		pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
+	}
 }
 function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
@@ -832,8 +845,10 @@ function validateAllDependentNodes() {
 				const allocatedPoints = pixiNode.nodeData.get("allocatedPoints");
 				const maxPoints = pixiNode.nodeData.get("maxPoints");
 
-				pixiAllocatedPoints.set(pixiNode.groupName, pixiAllocatedPoints.get(pixiNode.groupName) - allocatedPoints);
-				updateNodePoints(pixiNode, 0);
+				if (allocatedPoints != 0) {
+					pixiAllocatedPoints.set(pixiNode.groupName, pixiAllocatedPoints.get(pixiNode.groupName) - allocatedPoints);
+					updateNodePoints(pixiNode, 0);
+				}
 			}
 		}
 	}
