@@ -93,8 +93,8 @@ const BOOK_OF_THE_DEAD = "Book of the Dead";
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
-const ENABLE_DEBUG_TEXT = "Enable Debugging";
-const DISABLE_DEBUG_TEXT = "Disable Debugging";
+const ENABLE_CLAMP_TEXT = "Enable Clamping";
+const DISABLE_CLAMP_TEXT = "Disable Clamping";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
 const pixiScalingFloor = 0.25;
@@ -131,6 +131,7 @@ var pixiTooltip;
 var pixiDragging;
 
 var debugMode = false;
+var clampMode = readCookie("clampMode") === "true" ? true : false;
 
 var touchTimer = null;
 var isTouching = false;
@@ -400,9 +401,12 @@ function resizeSearchInput() {
 function handleResetButton() {
 	rebuildCanvas();
 }
-function handleDebugButton() {
-	debugMode = !debugMode;
-	$("#debugButton").text(debugMode ? DISABLE_DEBUG_TEXT : ENABLE_DEBUG_TEXT);
+function handleClampButton() {
+	clampMode = !clampMode;
+	$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
+	writeCookie("clampMode", clampMode);
+
+	resizeSearchInput();
 }
 function handleSaveButton() {
 	const className = $(classString).val();
@@ -1328,35 +1332,40 @@ function eraseTooltip() {
 function repositionTooltip() {
 	if (!pixiTooltip) return;
 
+	const borderWidth = 8;
+	const marginSize = 10;
+	const xOffsetFix = 2;
+
 	const curNode = pixiNodes[pixiTooltip.nodeIndex];
 	const nodeData = curNode.nodeData;
 
 	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
 	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
 
-	const offsetTop = $("#header").outerHeight(true);
-	const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
+	if (clampMode) {
+		const offsetTop = $("#header").outerHeight(true);
+		const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
 
-	const globalPosition = curNode.getGlobalPosition();
+		const globalPosition = curNode.getGlobalPosition();
 
-	const borderWidth = 8;
-	const marginSize = 10;
-	const xOffsetFix = 2;
+		const minX = marginSize - xOffsetFix;
+		const minY = offsetTop + marginSize;
 
-	const minX = marginSize - xOffsetFix;
-	const minY = offsetTop + marginSize;
+		const maxX = document.documentElement.offsetWidth - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
+		const maxY = document.documentElement.offsetHeight - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
 
-	const maxX = document.documentElement.offsetWidth - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
-	const maxY = document.documentElement.offsetHeight - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
+		const globalX = globalPosition.x + (_nodeWidth + borderWidth) * pixiJS.stage.scale.x / 2;
+		const globalY = globalPosition.y - (_nodeHeight + borderWidth) * pixiJS.stage.scale.y / 2;
 
-	const globalX = globalPosition.x + (_nodeWidth + borderWidth) * pixiJS.stage.scale.x / 2;
-	const globalY = globalPosition.y - (_nodeHeight + borderWidth) * pixiJS.stage.scale.y / 2;
+		const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
+		const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
 
-	const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
-	const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
-
-	pixiTooltip.position.x = curNode.x + diffX / pixiJS.stage.scale.x + _nodeWidth / 2 + 20 * pixiTooltip.scale.x;
-	pixiTooltip.position.y = curNode.y + diffY / pixiJS.stage.scale.y - _nodeHeight / 2 + 10 * pixiTooltip.scale.y;
+		pixiTooltip.position.x = curNode.x + diffX / pixiJS.stage.scale.x + _nodeWidth / 2 + 20 * pixiTooltip.scale.x;
+		pixiTooltip.position.y = curNode.y + diffY / pixiJS.stage.scale.y - _nodeHeight / 2 + 10 * pixiTooltip.scale.y;
+	} else {
+		pixiTooltip.position.x = curNode.x + _nodeWidth / 2 + marginSize * 2 * pixiTooltip.scale.x;
+		pixiTooltip.position.y = curNode.y - _nodeHeight / 2 + marginSize * pixiTooltip.scale.y;
+	}
 }
 function drawConnector(startNode, endNode) {
 	const connector = new PIXI.Graphics();
@@ -1550,16 +1559,19 @@ function writeCookie(name, value) {
 	document.cookie = name + "=" + value + "; " + expires + "; path=/";
 }
 
+// read cookie settings immediately
+$("#colorConnectorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
+$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
+$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
+
 // finalize the page once DOM has loaded
 $(document).ready(function() {
-	$("#colorConnectorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
 	$("#colorConnectorInput").on("change", handleConnectorColorInput);
-	$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
 	$("#colorNodeInput").on("change", handleNodeColorInput);
 	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
 
 	$("#resetButton").on("click", handleResetButton);
-	$("#debugButton").on("click", handleDebugButton);
+	$("#clampButton").on("click", handleClampButton);
 	$("#saveButton").on("click", handleSaveButton);
 	$("#reloadButton").on("click", handleReloadButton);
 	$("#shareButton").on("click", handleShareButton);
