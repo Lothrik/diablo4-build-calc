@@ -952,6 +952,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	}
 
 	const nodeBackground = new PIXI.Graphics();
+	nodeBackground.drawRect(0, 0, 1, 1).clear(); // github.com/pixijs/pixijs/issues/8315
 	nodeBackground.beginFill(backgroundColor);
 	nodeBackground.drawRect(0, 0, _nodeWidth, _nodeHeight);
 	nodeBackground.alpha = backgroundOpacity;
@@ -959,6 +960,7 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	nodeBackground.pivot.y = _nodeHeight / 2;
 
 	const nodeBorder = new PIXI.Graphics();
+	nodeBorder.drawRect(0, 0, 1, 1).clear(); // github.com/pixijs/pixijs/issues/8315
 	nodeBorder.pivot.x = _nodeWidth / 2;
 	nodeBorder.pivot.y = _nodeHeight / 2;
 	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) {
@@ -1288,6 +1290,7 @@ function drawTooltip(curNode, forceDraw) {
 	}
 
 	const tooltipBackground = new PIXI.Graphics();
+	tooltipBackground.drawRect(0, 0, 1, 1).clear(); // github.com/pixijs/pixijs/issues/8315
 	tooltipBackground.beginFill(backgroundColor);
 	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 3);
 	tooltipBackground.alpha = backgroundOpacity;
@@ -1295,6 +1298,7 @@ function drawTooltip(curNode, forceDraw) {
 	tooltipBackground.pivot.y = 10;
 
 	const tooltipBorder = new PIXI.Graphics();
+	tooltipBorder.drawRect(0, 0, 1, 1).clear(); // github.com/pixijs/pixijs/issues/8315
 	tooltipBorder.lineStyle(lineStyleThickSquareTooltip);
 	tooltipBorder.moveTo(0, 0);
 	tooltipBorder.lineTo(tooltipBackground.width, 0);
@@ -1308,6 +1312,7 @@ function drawTooltip(curNode, forceDraw) {
 	tooltipBorder.pivot.y = 10;
 
 	const tooltipSeperator = new PIXI.Graphics();
+	tooltipSeperator.drawRect(0, 0, 1, 1).clear(); // github.com/pixijs/pixijs/issues/8315
 	if (nodeDesc.length > 0) {
 		tooltipSeperator.lineStyle(lineStyleThinSquare);
 		tooltipSeperator.moveTo(0, tooltipText1.height + 12);
@@ -1383,9 +1388,6 @@ function repositionTooltip() {
 	}
 }
 function drawConnector(startNode, endNode) {
-	const connector = new PIXI.Graphics();
-	connector.zIndex = -1;
-
 	if (startNode.groupName != undefined && endNode.groupName != undefined && startNode.groupName != endNode.groupName) {
 		return;
 	}
@@ -1396,6 +1398,10 @@ function drawConnector(startNode, endNode) {
 	} else {
 		pixiConnectorPairs[connectorPair] = true;
 	}
+
+	const connector = new PIXI.Graphics();
+	connector.drawRect(0, 0, 1, 1).clear(); // github.com/pixijs/pixijs/issues/8315
+	connector.zIndex = -1;
 
 	updateConnectorLineStyle(connector, startNode, endNode);
 
