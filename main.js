@@ -377,29 +377,28 @@ function handleSearchInput(event) {
 			}
 		});
 	}
-	let newSearchCount = 0;
+	let nodeCount = 0;
 	if (newSearchText.length >= 3) {
 		let nodeMatch = pixiNodes.filter(pixiNode => {
 			// search `nodeHeader` for `newSearchText`
 			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !pixiNode.nodeName.includes(pixiNode.damageType) ? ` (${pixiNode.damageType})` : "");
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
-				newSearchCount++;
 				setNodeStyleThick(pixiNode, true);
 				return true;
 			} else {
 				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
 				const nodeDesc = pixiNode.nodeDesc;
 				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText)) {
-					newSearchCount++;
 					setNodeStyleThick(pixiNode, true);
 					return true;
 				}
 			}
 			return false;
 		});
+		nodeCount = nodeMatch.length;
 
 		if (event.keyCode == 13) {
-			if (oldSearchText != newSearchText || oldSearchIdx + 1 >= newSearchCount) {
+			if (oldSearchText != newSearchText || oldSearchIdx + 1 >= nodeCount) {
 				nodeMatch = nodeMatch[0];
 				oldSearchIdx = 0;
 			} else {
@@ -414,11 +413,11 @@ function handleSearchInput(event) {
 		}
 	}
 	oldSearchText = newSearchText;
-	if (event.type == "blur" || newSearchCount < 3) {
+	if (event.type == "blur" || nodeCount < 3) {
 		const extraInfoHTML = $("#extraInfo").html();
 		if (extraInfoHTML.includes(MATCHES_FOUND_TEXT)) $("#extraInfo").empty().addClass("hidden");
 	} else {
-		$("#extraInfo").html(newSearchCount + MATCHES_FOUND_TEXT + "`" + newSearchText + "`.").removeClass("hidden");
+		$("#extraInfo").html(nodeCount + MATCHES_FOUND_TEXT + "`" + newSearchText + "`.").removeClass("hidden");
 	}
 }
 function resizeSearchInput() {
