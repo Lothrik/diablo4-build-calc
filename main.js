@@ -1524,6 +1524,7 @@ function rebuildCanvas() {
 	$("#renownLevel").empty();
 }
 function resizeCanvas() {
+	$("#header, #footer").css("display", window.innerHeight < 400 ? "none" : "block");
 	let [newWidth, newHeight] = [window.innerWidth, window.innerHeight];
 	if (oldWidth != newWidth || oldHeight != newHeight) {
 		const offsetTop = $("#header").outerHeight(true);
