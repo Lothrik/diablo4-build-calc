@@ -274,7 +274,7 @@ function handleCanvasEvent(event) {
 	switch (event.type) {
 		case "mousedown":
 		case "touchstart":
-			this.focus();
+			$("#searchInput").blur();
 			const extraInfoHTML = $("#extraInfo").html();
 			if (extraInfoHTML == COLOR_LINE_TEXT) {
 				setTimeout(() => $("#colorNodeInput").click(), 500);
