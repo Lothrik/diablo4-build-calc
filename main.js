@@ -95,6 +95,7 @@ const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
+const MATCHES_FOUND_TEXT = " matches found for query: ";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
 const pixiScalingFloor = 0.25;
@@ -273,6 +274,7 @@ function handleCanvasEvent(event) {
 	switch (event.type) {
 		case "mousedown":
 		case "touchstart":
+			this.focus();
 			const extraInfoHTML = $("#extraInfo").html();
 			if (extraInfoHTML == COLOR_LINE_TEXT) {
 				setTimeout(() => $("#colorNodeInput").click(), 500);
@@ -339,13 +341,13 @@ function handleClassSelection(event) {
 		if (newClass.val() == "none") {
 			$("#className").text("None");
 			$("#header h2").addClass("hidden");
-			$("#groupSelector, #searchInput, #searchButton").addClass("disabled");
+			$("#groupSelector, #searchInput").addClass("disabled");
 			$("#groupSelector").empty();
 			$("#searchInput").removeAttr("style");
 		} else {
 			$("#className").text(newClass.text());
 			$("#header h2").removeClass("hidden");
-			$("#groupSelector, #searchInput, #searchButton").removeClass("disabled");
+			$("#groupSelector, #searchInput").removeClass("disabled");
 		}
 		rebuildCanvas();
 	}
@@ -358,71 +360,12 @@ function handleGroupSelection(event) {
 		pixiJS.stage.pivot.y = newGroupNode.y - oldHeight / pixiJS.stage.scale.y / 2;
 	}
 }
-var oldSearchIdx = 0;
+var oldSearchIdx = -1;
 var oldSearchText = "";
 function handleSearchInput(event) {
-	let newSearchIdx = 0;
-	const newSearchText = $("#searchInput").val();
-	if (newSearchText.length > 2 && (oldSearchText != newSearchText || event.keyCode == 13 || event.type == "click")) {
-		let firstMatch;
-		let firstMatchIdx = 0;
-		const nodeMatch = pixiNodes.filter(pixiNode => {
-			// search `nodeHeader` for `newSearchText`
-			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !pixiNode.nodeName.includes(pixiNode.damageType) ? ` (${pixiNode.damageType})` : "");
-			if (nodeHeader.toLowerCase().includes(newSearchText.toLowerCase())) {
-				setNodeStyleThick(pixiNode, true);
-				if (firstMatch == undefined) {
-					firstMatch = pixiNode;
-					firstMatchIdx = newSearchIdx;
-				}
-				if (oldSearchText == newSearchText) {
-					if (oldSearchIdx >= newSearchIdx) {
-						newSearchIdx++;
-					} else {
-						oldSearchIdx = newSearchIdx;
-						return true;
-					}
-				} else {
-					return true;
-				}
-			} else {
-				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
-				const nodeDesc = pixiNode.nodeDesc;
-				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText.toLowerCase())) {
-					setNodeStyleThick(pixiNode, true);
-					if (firstMatch == undefined) {
-						firstMatch = pixiNode;
-						firstMatchIdx = newSearchIdx;
-					}
-					if (oldSearchText == newSearchText) {
-						if (oldSearchIdx >= newSearchIdx) {
-							newSearchIdx++;
-						} else {
-							oldSearchIdx = newSearchIdx;
-							return true;
-						}
-					} else {
-						return true;
-					}
-				}
-			}
-			return false;
-		})[0];
-		if (nodeMatch != undefined) {
-			pixiJS.stage.pivot.x = nodeMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
-			pixiJS.stage.pivot.y = nodeMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
-			drawTooltip(nodeMatch);
-		} else if (firstMatch != undefined) {
-			pixiJS.stage.pivot.x = firstMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
-			pixiJS.stage.pivot.y = firstMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
-			drawTooltip(firstMatch);
-			oldSearchIdx = firstMatchIdx;
-		}
-		if (oldSearchText != newSearchText) {
-			oldSearchIdx = 0;
-			oldSearchText = newSearchText;
-		}
-	} else if (oldSearchText != newSearchText) {
+	const newSearchText = $("#searchInput").val().toLowerCase();
+	if (oldSearchText != newSearchText) {
+		oldSearchIdx = -1;
 		pixiNodes.filter(pixiNode => {
 			if (pixiNode.groupName == undefined) {
 				const requiredPoints = pixiNode.nodeData.get("requiredPoints");
@@ -434,9 +377,52 @@ function handleSearchInput(event) {
 			}
 		});
 	}
+	let newSearchCount = 0;
+	if (newSearchText.length >= 3) {
+		let nodeMatch = pixiNodes.filter(pixiNode => {
+			// search `nodeHeader` for `newSearchText`
+			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !pixiNode.nodeName.includes(pixiNode.damageType) ? ` (${pixiNode.damageType})` : "");
+			if (nodeHeader.toLowerCase().includes(newSearchText)) {
+				newSearchCount++;
+				setNodeStyleThick(pixiNode, true);
+				return true;
+			} else {
+				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
+				const nodeDesc = pixiNode.nodeDesc;
+				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText)) {
+					newSearchCount++;
+					setNodeStyleThick(pixiNode, true);
+					return true;
+				}
+			}
+			return false;
+		});
+
+		if (event.keyCode == 13) {
+			if (oldSearchText != newSearchText || oldSearchIdx + 1 >= newSearchCount) {
+				nodeMatch = nodeMatch[0];
+				oldSearchIdx = 0;
+			} else {
+				nodeMatch = nodeMatch[oldSearchIdx + 1];
+				oldSearchIdx++;
+			}
+			if (nodeMatch != undefined) {
+				pixiJS.stage.pivot.x = nodeMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
+				pixiJS.stage.pivot.y = nodeMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
+				drawTooltip(nodeMatch);
+			}
+		}
+	}
+	oldSearchText = newSearchText;
+	if (event.type == "blur" || newSearchCount < 3) {
+		const extraInfoHTML = $("#extraInfo").html();
+		if (extraInfoHTML.includes(MATCHES_FOUND_TEXT)) $("#extraInfo").empty().addClass("hidden");
+	} else {
+		$("#extraInfo").html(newSearchCount + MATCHES_FOUND_TEXT + "`" + newSearchText + "`.").removeClass("hidden");
+	}
 }
 function resizeSearchInput() {
-	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - $("#searchButton").outerWidth(true) - 5;
+	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - 5;
 	$("#searchInput").outerWidth(targetWidth);
 }
 function handleResetButton() {
@@ -1592,8 +1578,7 @@ $(document).ready(function() {
 	$("#shareButton").on("click", handleShareButton);
 	$("#classSelector").on("change", handleClassSelection);
 	$("#groupSelector").on("change", handleGroupSelection);
-	$("#searchInput").on("keyup", handleSearchInput);
-	$("#searchButton").on("click", handleSearchInput);
+	$("#searchInput").on("keyup focus blur", handleSearchInput);
 
 	$("body").append(pixiJS.view);
 	$("canvas").on("wheel mousedown touchstart mousemove touchmove touchend", handleCanvasEvent);
