@@ -98,9 +98,9 @@ const DISABLE_CLAMP_TEXT = "Disable Clamping";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
-const pixiScalingFloor = 0.25;
+const pixiScalingFloor = 0.15;
 const pixiScalingCeiling = 4;
-const tooltipScalingFloor = 0.25;
+const tooltipScalingFloor = 0.15;
 const tooltipScalingCeiling = 4;
 
 const fontFamily = $("body").css("fontFamily");
@@ -306,10 +306,11 @@ function handleCanvasEvent(event) {
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
 		let newScale = 0;
 		if (event.type == "wheel") {
+			const stepSize = pixiJS.stage.scale.x >= 1.5 ? 0.1 : 0.05;
 			if (event.originalEvent.deltaY < 0) {
-				newScale = Math.round((pixiJS.stage.scale.x + 0.05) * 100) / 100;
+				newScale = Math.round((pixiJS.stage.scale.x + stepSize) * 100) / 100;
 			} else if (event.originalEvent.deltaY > 0) {
-				newScale = Math.round((pixiJS.stage.scale.x - 0.05) * 100) / 100;
+				newScale = Math.round((pixiJS.stage.scale.x - stepSize) * 100) / 100;
 			}
 		} else {
 			newScale = Math.hypot(
