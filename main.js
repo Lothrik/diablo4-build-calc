@@ -489,7 +489,8 @@ function handleReloadButton() {
 					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 					const maxPoints = curNode.nodeData.get("maxPoints");
 
-					const newPoints = Math.min(Math.max(Math.min(savedPoints, maxPoints), 0), unusedPoints + allocatedPoints);
+					let newPoints = Math.max(Math.min(savedPoints, maxPoints), 0);
+					if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) newPoints = Math.min(newPoints, unusedPoints + allocatedPoints);
 
 					if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
 						if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
@@ -766,7 +767,7 @@ function handleMinusButton(curNode) {
 		const newPoints = Math.max(allocatedPoints - 1, 0);
 
 		if (newPoints != allocatedPoints) updateNodePoints(curNode, newPoints);
-		
+
 		if (curNode.groupName == SPIRIT_BOONS && curNode.nodeData.get("description") == SPIRIT_BOON_DESC) {
 			let foundBoon = false;
 			pixiNodes.forEach(pixiNode => {
