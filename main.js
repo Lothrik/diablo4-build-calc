@@ -96,7 +96,7 @@ const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
 const SPIRIT_BOONS = "Spirit Boons";
 const BOOK_OF_THE_DEAD = "Book of the Dead";
-const SPIRIT_BOON_DESC = "Specializing in this spirit type will allow you to allocate two boons instead of just one.";
+const SPIRIT_BOON_DESC = "Specializing in this spirit type will allow you to allocate two boons instead of only one.";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
 const pixiScalingFloor = 0.15;
