@@ -77,6 +77,12 @@ const tooltipWidth = 480;
 const tooltipHeight = 200;
 
 // evil magic variables that probably need to be replaced later to support multiple languages
+const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
+const COLOR_LINE_TEXT = "Choose your preferred active line color.";
+const COLOR_NODE_TEXT = "Choose your preferred active node color.";
+const ENABLE_CLAMP_TEXT = "Enable Clamping";
+const DISABLE_CLAMP_TEXT = "Disable Clamping";
+const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
 const PHYSICAL = "Physical";
 const FIRE = "Fire";
@@ -90,12 +96,7 @@ const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
 const SPIRIT_BOONS = "Spirit Boons";
 const BOOK_OF_THE_DEAD = "Book of the Dead";
-const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
-const COLOR_LINE_TEXT = "Choose your preferred active line color.";
-const COLOR_NODE_TEXT = "Choose your preferred active node color.";
-const ENABLE_CLAMP_TEXT = "Enable Clamping";
-const DISABLE_CLAMP_TEXT = "Disable Clamping";
-const MATCHES_FOUND_TEXT = " matches found for query: ";
+const SPIRIT_BOON_DESC = "Specializing in this spirit type will allow you to allocate two boons instead of just one.";
 
 const preventConnectorScaling = false; // this improves non-native connector quality in some situations, but has a negative performance impact
 const pixiScalingFloor = 0.15;
@@ -692,11 +693,24 @@ function handleToggleButton(curNode) {
 		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 			const exclusiveNodes = curNode.nodeData.get("exclusiveNodes");
 			if (exclusiveNodes != undefined) {
+				let allocatedBoons = [];
+				let extraBoonAvailable = false;
 				pixiNodes.forEach(pixiNode => {
-					if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(pixiNode.groupName) && pixiNode != curNode && exclusiveNodes.includes(pixiNode.nodeName)) {
-						handleMinusButton(pixiNode);
+					if (pixiNode.groupName == SPIRIT_BOONS && pixiNode.nodeData.get("description") == SPIRIT_BOON_DESC
+						&& pixiNode.nodeData.get("allocatedPoints") > 0 && pixiNode.nodeName == curNode.nodeData.get("boonTypeName")) {
+						extraBoonAvailable = true;
 					}
 				});
+				pixiNodes.forEach(pixiNode => {
+					if (pixiNode != curNode && exclusiveNodes.includes(pixiNode.nodeName)) {
+						if (pixiNode.groupName == SPIRIT_BOONS) {
+							extraBoonAvailable && pixiNode.nodeData.get("allocatedPoints") > 0 ? allocatedBoons.push(pixiNode) : handleMinusButton(pixiNode);
+						} else if (pixiNode.groupName == BOOK_OF_THE_DEAD) {
+							handleMinusButton(pixiNode);
+						}
+					}
+				});
+				if (extraBoonAvailable && allocatedBoons.length > 1) allocatedBoons.slice(1).forEach(allocatedBoon => handleMinusButton(allocatedBoon));
 			}
 		}
 	} else {
@@ -752,6 +766,17 @@ function handleMinusButton(curNode) {
 		const newPoints = Math.max(allocatedPoints - 1, 0);
 
 		if (newPoints != allocatedPoints) updateNodePoints(curNode, newPoints);
+		
+		if (curNode.groupName == SPIRIT_BOONS && curNode.nodeData.get("description") == SPIRIT_BOON_DESC) {
+			let foundBoon = false;
+			pixiNodes.forEach(pixiNode => {
+				if (pixiNode.groupName == SPIRIT_BOONS
+					&& pixiNode.nodeData.get("allocatedPoints") > 0 && pixiNode.nodeData.get("boonTypeName") == curNode.nodeName) {
+					if (foundBoon) handleMinusButton(pixiNode);
+					foundBoon = true;
+				}
+			});
+		}
 	} else {
 		let validConnection = false;
 		const nodeConnections = curNode.nodeData.get("connections");
@@ -1070,33 +1095,44 @@ function drawAllNodes() {
 				groupNode.set("y", branchData.get("y") + minCanvasHeight / 2);
 				if (groupName == SPIRIT_BOONS) {
 					groupNode.set("widthOverride", 1650);
+
 					drawNode(groupName, groupNode);
+
 					const nodeSpacingX = 350;
 					const nodeSpacingY = 150;
 					const nodeLimitX = 5;
 					const nodeLimitY = 2;
+
+					const exclusiveBoonTypes = Array.from(groupData.keys()).map(boonTypeName => boonTypeName);
+
 					let extraY = nodeSpacingY;
-					for (const [boonTypeName, boonTypeData] of groupData) {
+					for (const [boonTypeName, _boonTypeData] of groupData) {
 						let extraX = -nodeSpacingX * 2;
-						const curMinion = groupData.get(boonTypeName);
-						const minionNode = new Map([
+						const boonTypeNode = new Map([
 							["allocatedPoints", 0],
-							["maxPoints", 0],
+							["description", SPIRIT_BOON_DESC],
+							["exclusiveNodes", exclusiveBoonTypes],
+							["id", _boonTypeData.get("id")],
+							["maxPoints", 1],
 							["widthOverride", 250],
 							["x", extraX],
 							["y", extraY]
 						]);
-						const exclusiveNodes = Array.from(boonTypeData.keys()).map(boonData => boonTypeName + " — " + boonData);
 
-						drawNode(boonTypeName, minionNode, groupName, branchData);
+						drawNode(boonTypeName, boonTypeNode, groupName, branchData);
+
+						let boonTypeData = new Map(_boonTypeData);
+						boonTypeData.delete("id");
+						const exclusiveBoons = Array.from(boonTypeData.keys()).map(boonData => boonTypeName + " — " + boonData);
 
 						extraX += nodeSpacingX;
 						for (const [boonName, boonData] of boonTypeData) {
 							const boonModifiers = 4;
 							const boonNode = new Map([
 								["allocatedPoints", 0],
+								["boonTypeName", boonTypeName],
 								["description", boonData.get("description")],
-								["exclusiveNodes", exclusiveNodes],
+								["exclusiveNodes", exclusiveBoons],
 								["id", boonData.get("id")],
 								["maxPoints", 1],
 								["widthOverride", 250],
@@ -1105,6 +1141,7 @@ function drawAllNodes() {
 							]);
 
 							drawNode(boonTypeName + " — " + boonName, boonNode, groupName, branchData);
+
 							extraX += nodeSpacingX;
 						}
 						extraY += nodeSpacingY * (nodeLimitY - 1);
@@ -1118,7 +1155,6 @@ function drawAllNodes() {
 					const nodeLimitY = 2;
 					let extraX = -nodeSpacingX * (nodeLimitX - 1);
 					for (const [minionName, minionData] of groupData) {
-						const curMinion = groupData.get(minionName);
 						const minionNode = new Map([
 							["allocatedPoints", 0],
 							["maxPoints", 0],
@@ -1126,9 +1162,10 @@ function drawAllNodes() {
 							["x", extraX],
 							["y", nodeSpacingY]
 						]);
-						const exclusiveNodes = Array.from(minionData.keys());
 
 						drawNode(minionName, minionNode, groupName, branchData);
+
+						const exclusiveNodes = Array.from(minionData.keys());
 
 						let extraY = nodeSpacingY * (nodeLimitY - 0.5);
 						for (const [minionTypeName, minionTypeData] of minionData) {
@@ -1169,6 +1206,7 @@ function drawAllNodes() {
 								]);
 
 								drawNode(exclusiveUpgradeNodes[upgradeItr], minionUpgradeNode, groupName, branchData);
+
 								upgradeItr++;
 							}
 							extraY += nodeSpacingY * nodeLimitY;

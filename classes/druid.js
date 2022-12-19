@@ -1475,6 +1475,7 @@ While Healthy, deal x{#}% increased damage.`,
 
 druid["Spirit Boons"] = {
 	"Stag": {
+		id: 158,
 		"Boon 1": {
 			description: `Gain 796 Thorns.`,
 			id: 142,
@@ -1493,6 +1494,7 @@ druid["Spirit Boons"] = {
 		},
 	},
 	"Eagle": {
+		id: 159,
 		"Boon 1": {
 			description: `+5% Critical Strike Chance.`,
 			id: 146,
@@ -1511,6 +1513,7 @@ druid["Spirit Boons"] = {
 		},
 	},
 	"Wolf": {
+		id: 160,
 		"Boon 1": {
 			description: `Critical Strikes have a 20% chance to reset the cooldown of your companion's skills.`,
 			id: 150,
@@ -1529,6 +1532,7 @@ druid["Spirit Boons"] = {
 		},
 	},
 	"Snake": {
+		id: 161,
 		"Boon 1": {
 			description: `Lucky Hit: Earth skills have up to a 15% chance to Stun for # seconds. If the target is already Stunned and isn't a Boss or Elite, your hits will Overpower instead.`,
 			id: 154,

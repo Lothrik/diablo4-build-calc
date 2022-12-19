@@ -283,7 +283,11 @@ let nodeHistory = {
 		"Spirit Boons: Snake — Boon 1": 154,
 		"Spirit Boons: Snake — Boon 2": 155,
 		"Spirit Boons: Snake — Boon 3": 156,
-		"Spirit Boons: Snake — Boon 4": 157
+		"Spirit Boons: Snake — Boon 4": 157,
+		"Spirit Boons: Stag": 158,
+		"Spirit Boons: Eagle": 159,
+		"Spirit Boons: Wolf": 160,
+		"Spirit Boons: Snake": 161
 	},
 	"Necromancer": {
 		"Basic: Decompose": 0,

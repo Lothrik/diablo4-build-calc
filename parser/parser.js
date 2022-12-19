@@ -411,6 +411,14 @@ function runParser(downloadMode) {
 			formattedData += classNameLower + '["Spirit Boons"] = {\n';
 			for (const [boonTypeName, boonTypeData] of Object.entries(druidBoons)) {
 				formattedData += '	"' + boonTypeName + '": {\n';
+				const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName];
+				if (nodeHistoricalId != undefined) {
+					formattedData += "		id: " + nodeHistoricalId + ",\n";
+				} else {
+					const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
+					nodeHistory[className]["Spirit Boons: " + boonTypeName] = nodeHistoryLength;
+					formattedData += "		id: " + nodeHistoryLength + ",\n";
+				}
 				for (const [boonName, boonData] of Object.entries(boonTypeData)) {
 					formattedData += '		"' + boonName + '": {\n';
 					formattedData += "			description: `" + boonData + "`,\n";
