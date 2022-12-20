@@ -3,7 +3,7 @@ let nodeValues = {
 		"Basic": {
 			"Bash": [
 				"10",
-				"",
+				"50",
 				"31",
 				"4",
 				"1.25",
@@ -22,7 +22,7 @@ let nodeValues = {
 			],
 			"Lunging Strike": [
 				"9",
-				"",
+				"50",
 				"31"
 			],
 			"Enhanced Lunging Strike": [
@@ -39,7 +39,7 @@ let nodeValues = {
 			],
 			"Frenzy": [
 				"5",
-				"",
+				"30",
 				"21",
 				"20",
 				"3",
@@ -56,7 +56,7 @@ let nodeValues = {
 			],
 			"Flay": [
 				"9",
-				"",
+				"50",
 				"5",
 				"38",
 				"5"
@@ -78,7 +78,7 @@ let nodeValues = {
 		"Core": {
 			"Hammer of the Ancients": [
 				"35",
-				"",
+				"40",
 				"59"
 			],
 			"Enhanced Hammer of the Ancients": [
@@ -95,7 +95,7 @@ let nodeValues = {
 			],
 			"Upheaval": [
 				"40",
-				"",
+				"20",
 				"73"
 			],
 			"Enhanced Upheaval": [
@@ -114,7 +114,7 @@ let nodeValues = {
 			],
 			"Double Swing": [
 				"25",
-				"",
+				"30",
 				"38"
 			],
 			"Enhanced Double Swing": [
@@ -131,7 +131,7 @@ let nodeValues = {
 			],
 			"Rend": [
 				"35",
-				"",
+				"33",
 				"13",
 				"101",
 				"5"
@@ -148,7 +148,7 @@ let nodeValues = {
 			],
 			"Whirlwind": [
 				"20",
-				"",
+				"20",
 				"12"
 			],
 			"Enhanced Whirlwind": [
@@ -208,7 +208,7 @@ let nodeValues = {
 			],
 			"Ground Stomp": [
 				"16.0",
-				"",
+				"33",
 				"10",
 				"3"
 			],
@@ -340,7 +340,7 @@ let nodeValues = {
 			"Steel Grasp": [
 				"2",
 				"11.0",
-				"",
+				"25",
 				"24"
 			],
 			"Enhanced Steel Grasp": [
@@ -392,7 +392,7 @@ let nodeValues = {
 				"15.0",
 				"",
 				"",
-				"",
+				"50",
 				"14"
 			],
 			"Enhanced Rupture": [

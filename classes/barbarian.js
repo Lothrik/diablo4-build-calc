@@ -52,7 +52,7 @@ Lucky Hit Chance: {#}%
 Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} times, your next Bash will Stun for {#} seconds, this increases to {#} seconds if using a Two-Handed weapon.`,
 		id: 0,
 		maxPoints: 5,
-		values: [ "10", "", "31", "4", "1.25", "2" ],
+		values: [ "10", "50", "31", "4", "1.25", "2" ],
 		x: -297.919,
 		y: -147.065
 	},
@@ -94,7 +94,7 @@ Lucky Hit Chance: {#}%
 Lunge forward and strike an enemy for {#}% damage.`,
 		id: 4,
 		maxPoints: 5,
-		values: [ "9", "", "31" ],
+		values: [ "9", "50", "31" ],
 		x: -280.465,
 		y: 154.03
 	},
@@ -138,7 +138,7 @@ Unleash a rapid flurry of blows, dealing {#}% damage with each pair of hits.
 If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds, up to +{#}%.`,
 		id: 8,
 		maxPoints: 5,
-		values: [ "5", "", "21", "20", "3", "60" ],
+		values: [ "5", "30", "21", "20", "3", "60" ],
 		x: 295.291,
 		y: 155.45
 	},
@@ -180,7 +180,7 @@ Lucky Hit Chance: {#}%
 Flay the enemy, dealing {#}% damage. Inflicts {#}% Bleeding damage over {#} seconds.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "9", "", "5", "38", "5" ],
+		values: [ "9", "50", "5", "38", "5" ],
 		x: 291.231,
 		y: -150.545
 	},
@@ -225,7 +225,7 @@ Lucky Hit Chance: {#}%
 Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a concentrated area.`,
 		id: 16,
 		maxPoints: 5,
-		values: [ "35", "", "59" ],
+		values: [ "35", "40", "59" ],
 		x: -314.782,
 		y: -203.49
 	},
@@ -267,7 +267,7 @@ Lucky Hit Chance: {#}%
 Tear into the ground with your weapon and fling debris forward, dealing {#}% damage.`,
 		id: 20,
 		maxPoints: 5,
-		values: [ "40", "", "73" ],
+		values: [ "40", "20", "73" ],
 		x: -404.749,
 		y: 65.115
 	},
@@ -309,7 +309,7 @@ Lucky Hit Chance: {#}%
 Sweep your weapons from opposite directions, dealing {#}% damage with each weapon. Enemies caught in the center are damaged by both.`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "25", "", "38" ],
+		values: [ "25", "30", "38" ],
 		x: 77.926,
 		y: 208.37
 	},
@@ -360,7 +360,7 @@ Lucky Hit Chance: {#}%
 Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding damage over {#} seconds.`,
 		id: 29,
 		maxPoints: 5,
-		values: [ "35", "", "13", "101", "5" ],
+		values: [ "35", "33", "13", "101", "5" ],
 		x: 256.089,
 		y: -201.51
 	},
@@ -402,7 +402,7 @@ Lucky Hit Chance: {#}%
 Rapidly attack surrounding enemies for {#}% damage.`,
 		id: 33,
 		maxPoints: 5,
-		values: [ "20", "", "12" ],
+		values: [ "20", "20", "12" ],
 		x: 468.01,
 		y: 2.835
 	},
@@ -554,7 +554,7 @@ Lucky Hit Chance: {#}%
 Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} seconds.`,
 		id: 48,
 		maxPoints: 5,
-		values: [ "16.0", "", "10", "3" ],
+		values: [ "16.0", "33", "10", "3" ],
 		x: -1.45,
 		y: -233.72
 	},
@@ -899,7 +899,7 @@ Lucky Hit Chance: {#}%
 Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		id: 82,
 		maxPoints: 5,
-		values: [ "2", "11.0", "", "24" ],
+		values: [ "2", "11.0", "25", "24" ],
 		x: 333.535,
 		y: 169.019
 	},
@@ -1052,7 +1052,7 @@ Lucky Hit Chance: {#}%
 Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.`,
 		id: 97,
 		maxPoints: 5,
-		values: [ "15.0", "", "", "", "14" ],
+		values: [ "15.0", "", "", "50", "14" ],
 		x: 327.83,
 		y: -166.52
 	},
