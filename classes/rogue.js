@@ -52,7 +52,7 @@ Lucky Hit Chance: {#}%
 Quickly stab your victim for {#}% damage and shift, allowing you to move freely through enemies for {#} seconds.`,
 		id: 0,
 		maxPoints: 5,
-		values: [ "1", "", "19", "3" ],
+		values: [ "1", "35", "19", "3" ],
 		x: -366.017,
 		y: -99.39
 	},
@@ -94,7 +94,7 @@ Lucky Hit Chance: {#}%
 Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by x{#}% for {#} seconds.`,
 		id: 4,
 		maxPoints: 5,
-		values: [ "1", "", "29", "20", "3" ],
+		values: [ "1", "50", "29", "20", "3" ],
 		x: -316.36,
 		y: 145.92
 	},
@@ -136,7 +136,7 @@ Lucky Hit Chance: {#}%
 Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemies by {#}% for {#} seconds. Critical Strikes will always Slow.`,
 		id: 8,
 		maxPoints: 5,
-		values: [ "", "27", "3", "20", "2" ],
+		values: [ "50", "27", "3", "20", "2" ],
 		x: -0.181,
 		y: -213.015
 	},
@@ -178,7 +178,7 @@ Lucky Hit Chance: {#}%
 Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Critical Strike Chance against them by +{#}% for {#} seconds, up to +{#}%.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "1", "", "28", "3", "4", "15" ],
+		values: [ "1", "50", "28", "3", "4", "15" ],
 		x: 373.738,
 		y: -97.06
 	},
@@ -220,7 +220,7 @@ Lucky Hit Chance: {#}%
 Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the enemy Vulnerable for {#} seconds.`,
 		id: 16,
 		maxPoints: 5,
-		values: [ "1", "", "25", "2" ],
+		values: [ "1", "50", "25", "2" ],
 		x: 315.613,
 		y: 143.41
 	},
@@ -269,7 +269,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
  3: {#}% damage, {#}% bonus`,
 		id: 20,
 		maxPoints: 5,
-		values: [ "30", "", "57", "8", "1.5", "74", "", "", "", "", "", "" ],
+		values: [ "30", "35", "57", "8", "1.5", "74", "57", "20", "70", "40", "83", "60" ],
 		x: -249.907,
 		y: -196.27
 	},
@@ -315,7 +315,7 @@ Combo Points increase damage and grant a +{#}% Attack Speed bonus:
  3: {#}% damage, {#} second bonus`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "25", "", "76", "", "", "", "", "", "", "" ],
+		values: [ "25", "35", "76", "30", "95", "1.5", "114", "3.0", "133", "4.5" ],
 		x: -383.598,
 		y: 48
 	},
@@ -362,7 +362,7 @@ Combo Points increase damage and grant a chance to Knock Down for {#} seconds:
  3: {#}% damage, {#}% chance`,
 		id: 28,
 		maxPoints: 5,
-		values: [ "35", "", "89", "", "", "", "", "", "", "" ],
+		values: [ "35", "50", "89", "1.5", "116", "10", "142", "20", "169", "30" ],
 		x: 2.441,
 		y: 228
 	},
@@ -409,7 +409,7 @@ Combo Points increase damage and arrows fired:
  3: {#}% damage, {#} arrows`,
 		id: 32,
 		maxPoints: 5,
-		values: [ "25", "", "5", "20", "", "", "", "", "", "" ],
+		values: [ "25", "20", "5", "20", "22", "6", "24", "7", "29", "8" ],
 		x: 435.38,
 		y: -0.04
 	},
@@ -456,7 +456,7 @@ Combo Points increase damage and arrows fired:
  3: {#}% damage, {#} arrows`,
 		id: 36,
 		maxPoints: 5,
-		values: [ "30", "", "5", "26", "20", "1", "40", "", "", "", "", "", "" ],
+		values: [ "30", "20", "5", "26", "20", "1", "40", "31", "6", "36", "7", "41", "8" ],
 		x: 233.866,
 		y: -190.505
 	},
@@ -527,7 +527,7 @@ Lucky Hit Chance: {#}%
 Become Unstoppable and quickly move through the shadows to stab your victim from behind for {#}% damage. Gain {#}% increased Movement Speed for {#} seconds afterwards.`,
 		id: 43,
 		maxPoints: 5,
-		values: [ "9.0", "", "91", "50", "2" ],
+		values: [ "9.0", "100", "91", "50", "2" ],
 		x: 4.215,
 		y: -250.75
 	},
@@ -570,7 +570,7 @@ Lucky Hit Chance: {#}%
 Dash forward and slash enemies for {#}% damage.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "2", "10.0", "", "47" ],
+		values: [ "2", "10.0", "25", "47" ],
 		x: -440.17,
 		y: 1.75
 	},
@@ -635,7 +635,7 @@ Lucky Hit Chance: {#}%
 Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing enemies by {#}%. Lasts {#} seconds.`,
 		id: 53,
 		maxPoints: 5,
-		values: [ "2", "12.0", "", "38", "50", "6" ],
+		values: [ "2", "12.0", "25", "38", "50", "6" ],
 		x: -0.93,
 		y: 235.52
 	},
@@ -805,7 +805,7 @@ Lucky Hit Chance: {#}%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, applying {#}% Poisoning damage over {#} seconds to enemies in the area.`,
 		id: 70,
 		maxPoints: 5,
-		values: [ "10.0", "", "1.25", "435", "9" ],
+		values: [ "10.0", "33", "1.25", "435", "9" ],
 		x: 456.495,
 		y: 1.1
 	},
@@ -918,7 +918,7 @@ Lucky Hit Chance: {#}%
 Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poison damage and apply up to {#}% Poisoning damage over {#} seconds.`,
 		id: 128,
 		maxPoints: 5,
-		values: [ "9.0", "", "2", "105", "5" ],
+		values: [ "9.0", "33", "2", "105", "5" ],
 		x: -230.87,
 		y: -173.174
 	},
@@ -978,7 +978,7 @@ Lucky Hit Chance: {#}%
 Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal Shadow damage and infect enemies such that they explode for up to {#}% damage on death. Direct damage to infected enemies deals an additional {#}% Shadow damage.`,
 		id: 132,
 		maxPoints: 5,
-		values: [ "9.0", "", "2", "39", "4" ],
+		values: [ "9.0", "33", "2", "39", "4" ],
 		x: 218.89,
 		y: -173.644
 	},
@@ -1182,7 +1182,7 @@ Lucky Hit Chance: {#}%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing {#}% damage to enemies in the area.`,
 		id: 108,
 		maxPoints: 1,
-		values: [ "45.0", "", "1.25", "316" ],
+		values: [ "45.0", "40", "1.25", "316" ],
 		x: -380.217,
 		y: 127.97
 	},
@@ -1222,7 +1222,7 @@ Lucky Hit Chance: {#}%
 Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		id: 112,
 		maxPoints: 1,
-		values: [ "60.0", "", "2", "126" ],
+		values: [ "60.0", "20", "2", "126" ],
 		x: 462.258,
 		y: 45.05
 	},
