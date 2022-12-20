@@ -815,7 +815,7 @@ Killing an enemy has a 10% chance to conjure Ice Blades.`,
 		damageType: 2,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Conjure a crackling spear of lightning that seeks out enemies for {#} seconds, dealing {#}% per hit.
+Conjure a crackling spear of lightning that seeks out enemies for {#} seconds, dealing {#}% damage per hit.
 
 — Enchantment Effect —
 Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
