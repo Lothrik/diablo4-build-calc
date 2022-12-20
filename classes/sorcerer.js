@@ -998,7 +998,7 @@ Every 15 seconds, a Blizzard forms over you and follows you for 4 seconds.`,
 		damageType: 2,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Conjure a ball of lightning that slowly moves forward, continually zapping enemies for {#}% damage
+Conjure a ball of lightning that slowly moves forward, continually zapping enemies for {#}% damage.
 
 — Enchantment Effect —
 When Crackling Energy would form, there's a 10% chance Ball Lightning is formed instead.`,

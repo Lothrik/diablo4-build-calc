@@ -398,12 +398,10 @@ Shapeshift into a Werewolf and perform a 3-combo attack.
 
 1st Attack: Dash towards the target and deal {#}% damage.
 2nd Attack: Deal {#}% damage.
-3rd Attack: Perform a larger finishing move dealing {#}% damage.
-
-Shred's 1st and 2nd attack gain a {#}% increased Critical Strike Chance bonus.`,
+3rd Attack: Perform a larger finishing move dealing {#}% damage.`,
 		id: 33,
 		maxPoints: 5,
-		values: [ "34", "", "", "", "", "" ],
+		values: [ "34", "", "", "", "" ],
 		x: 44.547,
 		y: 225.17
 	},
@@ -640,11 +638,10 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 	"Blood Howl": {
 		connections: [ "Defensive", "Enhanced Blood Howl" ],
 		description: `Cooldown: {#} seconds
-Generate Spirit: {#}
 Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		id: 53,
 		maxPoints: 5,
-		values: [ "15.0", "", "" ],
+		values: [ "15.0", "" ],
 		x: 0.085,
 		y: 234.29
 	},
@@ -729,12 +726,10 @@ druid["Companion"] = {
 		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-
-Passive: {#} Ravens fly above you and periodically attack your enemies for {#}% damage every {#} seconds.
 Active: The target area is swarmed with ravens, dealing {#}% damage over {#} seconds.`,
 		id: 62,
 		maxPoints: 5,
-		values: [ "25.0", "", "", "", "", "89.25", "6" ],
+		values: [ "25.0", "", "89.25", "6" ],
 		x: -1.05,
 		y: 231.07
 	},
@@ -984,15 +979,14 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 	"Trample": {
 		connections: [ "Wrath", "Enhanced Trample" ],
 		damageType: 0,
-		description: `Generates Spirit: {#}
-Cooldown: {#} seconds
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Shapeshift into a Werebear and charge forward, dealing {#}% damage and Knocking Back enemies.
 
 Enemies who are Knocked Back into terrain take an additional {#}% damage and are stunned for {#} seconds.`,
 		id: 89,
 		maxPoints: 5,
-		values: [ "", "14.0", "", "26.25", "47.25", "3" ],
+		values: [ "14.0", "", "26.25", "47.25", "3" ],
 		x: -283.24,
 		y: 180.74
 	},
@@ -1180,14 +1174,12 @@ druid["Ultimate"] = {
 	"Grizzly Rage": {
 		connections: [ "Ultimate", "Prime Grizzly Rage" ],
 		description: `Cooldown: {#} seconds
-Shapeshift into a Dire Werebear for {#} seconds gaining x{#}% bonus damage and x{#}% damage reduction. Damage bonus is increased by +{#}% each second while in this form.
+Shapeshift into  Dire Werebear for {#} seconds gaining x{#}% bonus damage and x{#}% damage reduction. Damage bonus is increased by +{#}% each second while in this form.
 
-Kills extend the duration by {#} second up to +{#} additional seconds.
-
-Casting Grizzly Rage causes enemies in the area to take {#}% damage and be Slowed by {#}% for {#} seconds.`,
+Kills extend the duration by {#} second up to +{#} additional seconds.`,
 		id: 107,
 		maxPoints: 1,
-		values: [ "60.0", "10", "20", "20", "3", "1", "10", "", "", "" ],
+		values: [ "60.0", "10", "20", "20", "3", "1", "10" ],
 		x: 430.055,
 		y: 63.605
 	},

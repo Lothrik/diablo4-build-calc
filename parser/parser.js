@@ -122,7 +122,8 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/{\/c}/gi, "")									// `{/c}`, exact.
 		.replace(/{\/?u}/gi, "")								// `{u}` and `{/u}`.
 		.replace(/{icon.+?}/gi, "")								// `{icon:bullet}`, and similar.
-		.replace(/{if:mod.+?}(.|\n)+?({else}|{\/if})/gi, "")	// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
+		.replace(/{if:.+?}[a-z]{0,2}{\/if}/gi, "")				// `{if:SF_21}s{/if}` and similar.
+		.replace(/{if:mod.+?}(.|\r?\n)+?({else}|{\/if})/gi, "")	// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
 		.replace(/{if:.+?}/gi, "")								// `{if:ADVANCED_TOOLTIP}`, and similar.
 		.replace(/{\/if}/gi, "")								// `{/if}`, exact.
 		.replace(/sLevel/g, "")									// `sLevel`, exact.
@@ -137,15 +138,16 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/ *\[.+?\] */g, "{#}")							// Replace anything inside square brackets with `{#}`.
 		.replace(/{.+?}{.+?}/g, "{#}")							// Replace `{#}{#}` with `{#}`.
 		.replace(/([^x+ ]+?){#}/g, "$1 {#}")					// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of `{#}`.
-		.replace(/{#}([a-zA-Z]+?)/g, "{#} $1")					// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
+		.replace(/{#}([a-z]+?)/gi, "{#} $1")					// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
 		.replace(/\( *{/g, "({")								// Remove any whitespace between `(` and `{`.
 		.replace(/} *\)/g, "})")								// Remove any whitespace between `}` and `)`.
 		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ")				// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
-		.replace(/(dealing {#}%?)( per hit)/, "$1 damage$2")	// Add ` damage` between `dealing {#}` and ` per hit` if not already present.
+		.replace(/(dealing {#}%?)( per hit)/g, "$1 damage$2")	// Add ` damage` between `dealing {#}` and ` per hit` if not already present.
 																// Add ` damage` between `poisons enemies for {#}` and ` over` if not already present.
 		.replace(/(bleeds|bleeding|burns|burning|zaps|zapping|poisons|poisoning)( surrounding)?( enemies for {#}%?)( over)/gi, "$1$2$3 damage$4")
 		.replace(/({#})( damage)/gi, "$1%$2")					// Add `%` between `{#}` and ` damage` if not already present.
 		.replace(/(cooldown: {#})(\r?\n)/gi, "$1 seconds$2")	// Add ` seconds` after `Cooldown: {#}` if not already present.
+		.replace(/(\r?\n)([^:\+]+)([a-z]+)$/gi, "$1$2$3.")		// Ensure the last line ends with a `.`, unless that line contains `:` or `+`, or ends with a character other than (`a-z`, `A-Z`).
 		.trim();
 
 	return sanitizedText;

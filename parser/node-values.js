@@ -661,7 +661,6 @@ let nodeValues = {
 				"",
 				"",
 				"",
-				"",
 				""
 			],
 			"Enhanced Shred": [
@@ -749,7 +748,6 @@ let nodeValues = {
 			],
 			"Blood Howl": [
 				"15.0",
-				"",
 				""
 			],
 			"Enhanced Blood Howl": [
@@ -780,9 +778,6 @@ let nodeValues = {
 		"Companion": {
 			"Ravens": [
 				"25.0",
-				"",
-				"",
-				"",
 				"",
 				"89.25",
 				"6"
@@ -881,7 +876,6 @@ let nodeValues = {
 				"3"
 			],
 			"Trample": [
-				"",
 				"14.0",
 				"",
 				"26.25",
@@ -962,10 +956,7 @@ let nodeValues = {
 				"20",
 				"3",
 				"1",
-				"10",
-				"",
-				"",
-				""
+				"10"
 			],
 			"Supreme Grizzly Rage": [
 				"3.2",
