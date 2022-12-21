@@ -265,36 +265,36 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 			if (!mappedIDs[nodeData["Id"]]) {
 				mappedIDs[nodeData["Id"]] = true;
 				if (!classProcessed[className]) fixJSON(classData, connectedNode, rootNodeName);
-				output += '	"' + nodeData["SkillName"] + '": {\n';
+				output += '\t"' + nodeData["SkillName"] + '": {\n';
 				const baseSkillName = nodeData["baseSkillName"];
 				if (baseSkillName != undefined) {
-					output += '		baseSkill: "' + baseSkillName + '",\n';
+					output += '\t\tbaseSkill: "' + baseSkillName + '",\n';
 				}
 				output += "		connections: " + namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, rootNodeName) + ",\n";
 				// output damage type for any non-modifier skill nodes, as long as they have a hit or DoT payload
 				if (baseSkillName == undefined && /{payload:.+?}|{dot:.+?}/i.test(nodeData["SkillDesc"]) && nodeData["DamageType"] >= 0) {
-					output += "		damageType: " + nodeData["DamageType"] + ",\n";
+					output += "\t\tdamageType: " + nodeData["DamageType"] + ",\n";
 				}
 				const sanitizedDescription = sanitizeNodeDescription(nodeData["SkillDesc"]);
 				if (className == "Sorcerer" && sorcererEnchants[rootNodeName] != undefined) {
 					const extraDescription = sorcererEnchants[rootNodeName][nodeData["SkillName"]];
 					if (extraDescription != undefined && extraDescription.length > 0) {
-						output += "		description: `" + sanitizedDescription + "\n\n— Enchantment Effect —\n" + extraDescription + "`,\n";
+						output += "\t\tdescription: `" + sanitizedDescription + "\n\n— Enchantment Effect —\n" + extraDescription + "`,\n";
 					} else {
-						output += "		description: `" + sanitizedDescription + "`,\n";
+						output += "\t\tdescription: `" + sanitizedDescription + "`,\n";
 					}
 				} else {
-					output += "		description: `" + sanitizedDescription + "`,\n";
+					output += "\t\tdescription: `" + sanitizedDescription + "`,\n";
 				}
 				const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]];
 				if (nodeHistoricalId != undefined) {
-					output += "		id: " + nodeHistoricalId + ",\n";
+					output += "\t\tid: " + nodeHistoricalId + ",\n";
 				} else {
 					const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
 					nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]] = nodeHistoryLength;
-					output += "		id: " + nodeHistoryLength + ",\n";
+					output += "\t\tid: " + nodeHistoryLength + ",\n";
 				}
-				output += "		maxPoints: " + nodeData["Reward"]["dwMaxTalentRanks"] + ",\n";
+				output += "\t\tmaxPoints: " + nodeData["Reward"]["dwMaxTalentRanks"] + ",\n";
 				if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
 				if (nodeValues[className][rootNodeName][nodeData["SkillName"]] == undefined) nodeValues[className][rootNodeName][nodeData["SkillName"]] = [];
 				const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
@@ -305,15 +305,15 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					savedValues.length = descLength;
 				}
 				if (savedValues.length > 1) {
-					output += `		values: [ "${savedValues.join('", "')}" ],\n`
+					output += `\t\tvalues: [ "${savedValues.join('", "')}" ],\n`
 				} else if (savedValues.length > 0) {
-					output += `		values: [ "${savedValues[0]}" ],\n`;
+					output += `\t\tvalues: [ "${savedValues[0]}" ],\n`;
 				} else {
 					delete nodeValues[className][rootNodeName][nodeData["SkillName"]];
 				}
-				output += "		x: " + parseFloat(((nodeData["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
-				output += "		y: " + parseFloat(((nodeData["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + "\n";
-				output += "	},\n";
+				output += "\t\tx: " + parseFloat(((nodeData["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
+				output += "\t\ty: " + parseFloat(((nodeData["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + "\n";
+				output += "\t},\n";
 				output += recursiveSkillTreeScan(nodeData["Connections"], classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth + 1);
 			}
 		});
@@ -339,30 +339,30 @@ function runParser(downloadMode) {
 			rootNodes.forEach((rootNode, rootIndex) => {
 				const rootNodeName = rootNodeNames[className][rootIndex];
 				if (rootNodeName == rootNodeNamesSorted[className][i]) {
-					formattedData += '	"' + rootNodeName + '": {\n';
+					formattedData += '\t"' + rootNodeName + '": {\n';
 					const nextRootNode = rootNodeNamesSorted[className][i + 1];
 					if (nextRootNode && nextRootNode.length != undefined) {
-						formattedData += '		connections: [ "' + nextRootNode + '" ],\n';
+						formattedData += '\t\tconnections: [ "' + nextRootNode + '" ],\n';
 					}
 					if (rootNode["ReqPointsSpent"] > 0) {
-						formattedData += "		requiredPoints: " + rootNode["ReqPointsSpent"] + ",\n";
+						formattedData += "\t\trequiredPoints: " + rootNode["ReqPointsSpent"] + ",\n";
 					}
-					formattedData += "		x: " + parseFloat(((rootNode["X"] - originNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
-					formattedData += "		y: " + parseFloat(((rootNode["Y"] - originNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
-					formattedData += "	},\n";
+					formattedData += "\t\tx: " + parseFloat(((rootNode["X"] - originNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
+					formattedData += "\t\ty: " + parseFloat(((rootNode["Y"] - originNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
+					formattedData += "\t},\n";
 				}
 			});
 		}
 		if (className == "Necromancer" && necromancerMinions != undefined) {
-			formattedData += '	"Book of the Dead": {\n';
-			formattedData += "		x: 2500,\n";
-			formattedData += "		y: 0\n";
-			formattedData += "	},\n";
+			formattedData += '\t"Book of the Dead": {\n';
+			formattedData += "\t\tx: 2500,\n";
+			formattedData += "\t\ty: 0\n";
+			formattedData += "\t},\n";
 		} else if (className == "Druid" && druidBoons != undefined) {
-			formattedData += '	"Spirit Boons": {\n';
-			formattedData += "		x: 2500,\n";
-			formattedData += "		y: 0\n";
-			formattedData += "	},\n";
+			formattedData += '\t"Spirit Boons": {\n';
+			formattedData += "\t\tx: 2500,\n";
+			formattedData += "\t\ty: 0\n";
+			formattedData += "\t},\n";
 		}
 		formattedData += "};\n\n";
 
@@ -382,32 +382,32 @@ function runParser(downloadMode) {
 		if (className == "Necromancer" && necromancerMinions != undefined) {
 			formattedData += classNameLower + '["Book of the Dead"] = {\n';
 			for (const [minionName, minionData] of Object.entries(necromancerMinions)) {
-				formattedData += '	"' + minionName + '": {\n';
+				formattedData += '\t"' + minionName + '": {\n';
 				for (const [minionTypeName, minionTypeData] of Object.entries(minionData)) {
-					formattedData += '		"' + minionTypeName + '": {\n';
-					formattedData += "			description: `" + minionTypeData["Description"] + "`,\n";
+					formattedData += '\t\t"' + minionTypeName + '": {\n';
+					formattedData += "\t\t\tdescription: `" + minionTypeData["Description"] + "`,\n";
 					const nodeHistoricalId = nodeHistory[className]["Book of the Dead: " + minionTypeName];
 					if (nodeHistoricalId != undefined) {
-						formattedData += "			id: " + nodeHistoricalId + ",\n";
+						formattedData += "\t\t\tid: " + nodeHistoricalId + ",\n";
 					} else {
 						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
 						nodeHistory[className]["Book of the Dead: " + minionTypeName] = nodeHistoryLength;
-						formattedData += "			id: " + nodeHistoryLength + ",\n";
+						formattedData += "\t\t\tid: " + nodeHistoryLength + ",\n";
 					}
-					formattedData += "			sacrifice: `" + minionTypeData["Sacrifice"] + "`,\n";
-					formattedData += "			upgrades: [\n";
+					formattedData += "\t\t\tsacrifice: `" + minionTypeData["Sacrifice"] + "`,\n";
+					formattedData += "\t\t\tupgrades: [\n";
 					minionTypeData["Upgrades"].forEach((upgradeText, upgradeIndex) => {
-						formattedData += "				`" + upgradeText + "`";
+						formattedData += "\t\t\t\t`" + upgradeText + "`";
 						if (upgradeIndex < minionTypeData["Upgrades"].length - 1) {
 							formattedData += ",\n";
 						} else {
 							formattedData += "\n";
 						}
 					});
-					formattedData += "			]\n";
-					formattedData += "		},\n";
+					formattedData += "\t\t\t]\n";
+					formattedData += "\t\t},\n";
 				}
-				formattedData += "	},\n";
+				formattedData += "\t},\n";
 			}
 			formattedData += "};\n\n";
 		} else if (className == "Druid" && druidBoons != undefined) {
@@ -416,26 +416,26 @@ function runParser(downloadMode) {
 				formattedData += '	"' + boonTypeName + '": {\n';
 				const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName];
 				if (nodeHistoricalId != undefined) {
-					formattedData += "		id: " + nodeHistoricalId + ",\n";
+					formattedData += "\t\tid: " + nodeHistoricalId + ",\n";
 				} else {
 					const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
 					nodeHistory[className]["Spirit Boons: " + boonTypeName] = nodeHistoryLength;
-					formattedData += "		id: " + nodeHistoryLength + ",\n";
+					formattedData += "\t\tid: " + nodeHistoryLength + ",\n";
 				}
 				for (const [boonName, boonData] of Object.entries(boonTypeData)) {
-					formattedData += '		"' + boonName + '": {\n';
-					formattedData += "			description: `" + boonData + "`,\n";
+					formattedData += '\t\t"' + boonName + '": {\n';
+					formattedData += "\t\t\tdescription: `" + boonData + "`,\n";
 					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName + " — " + boonName];
 					if (nodeHistoricalId != undefined) {
-						formattedData += "			id: " + nodeHistoricalId + ",\n";
+						formattedData += "\t\t\tid: " + nodeHistoricalId + ",\n";
 					} else {
 						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
 						nodeHistory[className]["Spirit Boons: " + boonTypeName + " — " + boonName] = nodeHistoryLength;
-						formattedData += "			id: " + nodeHistoryLength + ",\n";
+						formattedData += "\t\t\tid: " + nodeHistoryLength + ",\n";
 					}
-					formattedData += "		},\n";
+					formattedData += "\t\t},\n";
 				}
-				formattedData += "	},\n";
+				formattedData += "\t},\n";
 			}
 			formattedData += "};\n\n";
 		}

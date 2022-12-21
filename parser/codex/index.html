@@ -3,18 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Diablo 4 JSON Parser</title>
+	<title>Diablo 4 Codex Parser</title>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
-	<link rel="modulepreload" href="node-history.js">
-	<link rel="modulepreload" href="node-values.js">
-	<link rel="modulepreload" href="druid-boons.js">
-	<link rel="modulepreload" href="necromancer-minions.js">
-	<link rel="modulepreload" href="sorcerer-enchants.js">
+	<link rel="modulepreload" href="codex-history.js">
+	<link rel="modulepreload" href="codex-data.js">
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
 </head>
 <body>
 	<div style="display: flex; flex-direction: column; height: calc(100vh - 20px); margin: 10px; text-align: center">
-		<h1>JSON Parser</h1>
+		<h1>Codex Parser</h1>
 		<div>
 			<button id="parseToFile">Run Parser + Download Files</button>
 			<button id="parseToConsole">Run Parser + Log to Console</button>
@@ -22,6 +19,6 @@
 		<h3>Debug Output:</h3>
 		<textarea id="debugOutput" style="box-sizing: border-box; height: 100%" disabled></textarea>
 	</div>
-	<script defer src="parser.js" type="module"></script>
+	<script defer src="codex-parser.js" type="module"></script>
 </body>
 </html>
