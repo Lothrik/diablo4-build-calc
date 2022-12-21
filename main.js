@@ -1260,8 +1260,9 @@ function drawAllNodes() {
 					codexY += nodeSpacingY;
 
 					const codexTypeNode = new Map([
-						["requiredPoints", 0],
+						["allocatedPoints", 0],
 						["widthOverride", nodeWidth],
+						["maxPoints", 0],
 						["x", startX],
 						["y", codexY]
 					]);
