@@ -1299,6 +1299,7 @@ function drawAllNodes() {
 					}
 				}
 			}
+			$("#groupSelector").append(`<option value="${CODEX_OF_POWER.replace(/\s/g, "").toLowerCase()}">${CODEX_OF_POWER}</option>`);
 		}
 	}
 }
