@@ -10,6 +10,7 @@ function runParser(downloadMode) {
 			if (!powerCodex[codexCategoryName][codexTypeName]) powerCodex[codexCategoryName][codexTypeName] = {};
 			for (const [codexPowerName, codexPower] of Object.entries(codexType)) {
 				powerCodex[codexCategoryName][codexTypeName][codexPowerName] = codexPower;
+				if ($("#debugOutput").html().length > 0) $("#debugOutput").html($("#debugOutput").html() + "\n");
 				const codexHistoricalId = codexHistory[codexTypeName + ": " + codexPowerName];
 				if (codexHistoricalId != undefined) {
 					powerCodex[codexCategoryName][codexTypeName][codexPowerName].id = codexHistoricalId;
@@ -18,9 +19,6 @@ function runParser(downloadMode) {
 					const codexHistoryLength = Object.keys(codexHistory).length;
 					codexHistory[codexTypeName + ": " + codexPowerName] = codexHistoryLength;
 					powerCodex[codexCategoryName][codexTypeName][codexPowerName].id = codexHistoricalId;
-					if ($("#debugOutput").html().length > 0) {
-						$("#debugOutput").html($("#debugOutput").html() + "\n");
-					}
 					$("#debugOutput").html($("#debugOutput").html() + "Adding new codexHistory ID: `" + codexHistoryLength + "` for powerName: `" + codexTypeName + ": " + codexPowerName + "`.");
 				}
 			}
