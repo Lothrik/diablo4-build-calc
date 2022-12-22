@@ -1292,7 +1292,7 @@ function drawAllNodes() {
 						const codexPowerNode = new Map([
 							["allocatedPoints", 0],
 							["description", powerDescription],
-							["id", `codex-${codexPower.id}`], // todo
+							["id", `codex-${codexPower.id}`],
 							["maxPoints", 1],
 							["widthOverride", 500],
 							["x", codexX],
