@@ -918,7 +918,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 	const useThickNodeStyle = groupName == undefined ? requiredPoints <= getAllocatedSkillPoints(nodeName) : allocatedPoints > 0;
 
-	const scaleMultiplier = Math.round(4 / PIXI.settings.RESOLUTION * newNodeScale * 4) / 4;
+	const scaleMultiplier = 4 / PIXI.settings.RESOLUTION * newNodeScale;
 
 	const nodeText = new PIXI.Text(displayName, {
 		align: "center",
@@ -1387,7 +1387,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const scaleMultiplier = Math.round(4 / PIXI.settings.RESOLUTION * newNodeScale * 4) / 4;
+	const scaleMultiplier = 4 / PIXI.settings.RESOLUTION * newNodeScale;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
