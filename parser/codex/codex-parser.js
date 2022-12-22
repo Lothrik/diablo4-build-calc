@@ -3,6 +3,7 @@ import { codexData } from "./codex-data.js";
 
 function runParser(downloadMode) {
 	console.clear();
+	$("#debugOutput").empty();
 	let powerCodex = {};
 	for (const [codexCategoryName, codexCategory] of Object.entries(codexData)) {
 		if (!powerCodex[codexCategoryName]) powerCodex[codexCategoryName] = {};
