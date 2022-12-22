@@ -142,6 +142,10 @@ var isTouching = false;
 var initialScale;
 var initialTouchDistance;
 
+var canvasTimer = null;
+var oldNodeScale = 1;
+var newNodeScale = 1;
+
 var oldWidth = 0;
 var oldHeight = 0;
 
@@ -272,6 +276,18 @@ function handleColorButton(event) {
 		resizeCanvas();
 	}
 }
+function handleIntervalEvent() {
+	if (canvasTimer != null && Date.now() - canvasTimer > 500) {
+		canvasTimer = null;
+		newNodeScale = Math.min(pixiJS.stage.scale.x, 1);
+		if (newNodeScale != oldNodeScale) {
+			pixiDragging = null;
+			redrawAllNodes();
+			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
+			oldNodeScale = newNodeScale;
+		}
+	}
+}
 function handleCanvasEvent(event) {
 	if (document.activeElement != $("#searchInput")[0]) window.getSelection().removeAllRanges();
 	switch (event.type) {
@@ -303,7 +319,10 @@ function handleCanvasEvent(event) {
 			isTouching = false;
 			break;
 		case "touchmove":
-			if (touchTimer != null && Date.now() - touchTimer > 1500) eraseTooltip();
+			if (touchTimer != null && Date.now() - touchTimer > 1500) {
+				touchTimer = null;
+				eraseTooltip();
+			}
 			break;
 	}
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
@@ -322,6 +341,7 @@ function handleCanvasEvent(event) {
 				* initialScale / initialTouchDistance;
 		}
 		if (newScale >= pixiScalingFloor && newScale <= pixiScalingCeiling) {
+			canvasTimer = Date.now();
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
@@ -333,7 +353,6 @@ function handleCanvasEvent(event) {
 			}
 			pixiJS.stage.scale.x = newScale;
 			pixiJS.stage.scale.y = newScale;
-			//redrawAllNodes();
 			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 			if (preventConnectorScaling) drawAllConnectors();
 		}
@@ -359,10 +378,7 @@ function handleClassSelection(event) {
 function handleGroupSelection(event) {
 	const newGroupName = $(groupString).text();
 	const newGroupNode = pixiNodes.find(pixiNode => pixiNode.nodeName == newGroupName);
-	if (newGroupNode != undefined) {
-		pixiJS.stage.pivot.x = newGroupNode.x - oldWidth / pixiJS.stage.scale.x / 2;
-		pixiJS.stage.pivot.y = newGroupNode.y - oldHeight / pixiJS.stage.scale.y / 2;
-	}
+	if (newGroupNode != undefined) pixiJS.stage.pivot.set(newGroupNode.x - oldWidth / pixiJS.stage.scale.x / 2, newGroupNode.y - oldHeight / pixiJS.stage.scale.y / 2);
 }
 var oldSearchIdx = -1;
 var oldSearchText = "";
@@ -410,8 +426,7 @@ function handleSearchInput(event) {
 				oldSearchIdx++;
 			}
 			if (nodeMatch != undefined) {
-				pixiJS.stage.pivot.x = nodeMatch.x - oldWidth / pixiJS.stage.scale.x / 2;
-				pixiJS.stage.pivot.y = nodeMatch.y - oldHeight / pixiJS.stage.scale.y / 2;
+				pixiJS.stage.pivot.set(nodeMatch.x - oldWidth / pixiJS.stage.scale.x / 2, nodeMatch.y - oldHeight / pixiJS.stage.scale.y / 2);
 				drawTooltip(nodeMatch);
 			}
 		}
@@ -546,6 +561,7 @@ function onDragMove(event, dragOverride) {
 			pixiDragging.position.y = mouseY;
 			drawTooltip(pixiDragging);
 			drawAllConnectors();
+			canvasTimer = Date.now();
 		}
 	}
 }
@@ -556,6 +572,7 @@ function onDragAllMove(event) {
 				pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.startX - pixiDragging.startX + event.global.x / pixiJS.stage.scale.x;
 				pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.startY - pixiDragging.startY + event.global.y / pixiJS.stage.scale.y;
 			}
+			canvasTimer = Date.now();
 		} else if (pixiDragging) {
 			return onDragMove(event, true);
 		}
@@ -868,18 +885,19 @@ function validateAllDependentNodes() {
 	}
 }
 function redrawNode(curNode) {
-	drawNode(curNode.nodeName, curNode.nodeData, curNode.groupName, curNode.branchData, curNode.nodeIndex, true);
+	drawNode(curNode.nodeName, curNode.nodeData, curNode.groupName, curNode.branchData, curNode.nodeIndex, [curNode.position.x, curNode.position.y]);
 }
 function redrawAllNodes() {
 	for (let i = pixiNodes.length - 1; i >= 0; i--) redrawNode(pixiNodes[i]);
+	pixiJS.stage.sortChildren();
 }
-function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length) {
-	let x = nodeData.get("x");
-	let y = nodeData.get("y");
+function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
+	let x = nodePosition == null ? nodeData.get("x") : nodePosition[0];
+	let y = nodePosition == null ? nodeData.get("y") : nodePosition[1];
 
 	if (x == undefined || y == undefined) return;
 
-	if (branchData != undefined) {
+	if (branchData != undefined && nodePosition == null) {
 		x += branchData.get("x");
 		y += branchData.get("y");
 	}
@@ -891,40 +909,38 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 	let nameFontSize = 36;
 	let displayName = nodeName;
-	if (nodeName.length > maxLabelSize) {
-		displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
-	}
-	if (displayName.length > maxLabelSize - 2) {
-		nameFontSize = 32;
-	}
-
-	const scaleMultiplier = 4 / PIXI.settings.RESOLUTION;
-
-	const nodeText = new PIXI.Text(displayName, {
-		align: "center",
-		cacheAsBitmap: true,
-		fill: textColor,
-		fontFamily: fontFamily,
-		fontSize: nameFontSize * scaleMultiplier,
-		fontVariant: "small-caps",
-		width: _nodeWidth * scaleMultiplier
-	});
-	nodeText.scale.set(1 / scaleMultiplier);
-	nodeText.anchor.set(0.5);
+	if (nodeName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
+	if (displayName.length > maxLabelSize - 2) nameFontSize = 32;
 
 	const allocatedPoints = nodeData.get("allocatedPoints");
 	const maxPoints = nodeData.get("maxPoints");
 	const requiredPoints = nodeData.get("requiredPoints");
 
+	const useThickNodeStyle = groupName == undefined ? requiredPoints <= getAllocatedSkillPoints(nodeName) : allocatedPoints > 0;
+
+	const scaleMultiplier = Math.round(4 / PIXI.settings.RESOLUTION * newNodeScale * 4) / 4;
+
+	const nodeText = new PIXI.Text(displayName, {
+		align: "center",
+		fill: textColor,
+		fontFamily: fontFamily,
+		fontSize: nameFontSize * scaleMultiplier,
+		fontVariant: "small-caps",
+		fontWeight: useThickNodeStyle ? "bold" : "normal",
+		width: _nodeWidth * scaleMultiplier
+	});
+	nodeText.scale.set(1 / scaleMultiplier);
+	nodeText.anchor.set(0.5);
+
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
 	if (groupName != undefined && ![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints != 0) {
 		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
 			align: "right",
-			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamily,
 			fontSize: 24 * scaleMultiplier,
 			fontVariant: "small-caps",
+			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			width: _nodeWidth * scaleMultiplier
 		});
 		nodeText2.scale.set(1 / scaleMultiplier);
@@ -934,11 +950,11 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 		nodeText3 = new PIXI.Text("+", {
 			align: "right",
-			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleMultiplier,
 			fontVariant: "small-caps",
+			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			width: _nodeWidth * scaleMultiplier
 		});
 		nodeText3.scale.set(1 / scaleMultiplier);
@@ -948,11 +964,11 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 		nodeText4 = new PIXI.Text("–", {
 			align: "left",
-			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleMultiplier,
 			fontVariant: "small-caps",
+			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			width: _nodeWidth * scaleMultiplier
 		});
 		nodeText4.scale.set(1 / scaleMultiplier);
@@ -981,7 +997,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	const nodeBorder = new PIXI.Graphics();
 	nodeBorder.pivot.x = _nodeWidth / 2;
 	nodeBorder.pivot.y = _nodeHeight / 2;
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) {
+	if (([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
 		nodeBorder.lineStyle(lineStyleThickSquare);
 	} else {
 		nodeBorder.lineStyle(lineStyleThinSquare);
@@ -1039,7 +1055,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	}
 
 	node.nodeDesc = nodeData.get("description");
-	if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && nodeData.get("requiredPoints") == undefined) {
+	if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && requiredPoints == undefined) {
 		const nodeValues = node.nodeData.get("values");
 		if (nodeValues != undefined) {
 			nodeValues.forEach(nodeValue => {
@@ -1334,11 +1350,11 @@ function getCodexData(desiredCategories = null, desiredTypes = null) {
 	return codexResult;
 }
 function drawTooltip(curNode, forceDraw) {
-	const stageScaleX = pixiJS.stage.scale.x;
-	const stageScaleY = pixiJS.stage.scale.y;
+	const stageScale = pixiJS.stage.scale.x;
+	const clampScale = stageScale < tooltipScalingFloor ? tooltipScalingFloor / stageScale : stageScale > tooltipScalingCeiling ? tooltipScalingCeiling / stageScale : 1;
 
 	// skip tooltip redraw if we already have the correct one displayed
-	if (!forceDraw && !debugMode && pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.stageScaleX == stageScaleX) return;
+	if (!forceDraw && !debugMode && pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.scale.x == clampScale && oldNodeScale == newNodeScale) return;
 
 	eraseTooltip();
 
@@ -1371,13 +1387,12 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const scaleMultiplier = 4 / PIXI.settings.RESOLUTION;
+	const scaleMultiplier = Math.round(4 / PIXI.settings.RESOLUTION * newNodeScale * 4) / 4;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
 		align: "left",
 		breakWords: true,
-		cacheAsBitmap: true,
 		fill: textColor,
 		fontFamily: fontFamily,
 		fontSize: 36 * scaleMultiplier,
@@ -1395,7 +1410,6 @@ function drawTooltip(curNode, forceDraw) {
 		tooltipText2 = new PIXI.Text("\n" + nodeDesc, {
 			align: "center",
 			breakWords: true,
-			cacheAsBitmap: true,
 			fill: textColor,
 			fontFamily: fontFamily,
 			fontSize: 36 * scaleMultiplier,
@@ -1441,26 +1455,15 @@ function drawTooltip(curNode, forceDraw) {
 	}
 
 	const tooltip = new PIXI.Container();
+
 	tooltip.zIndex = 2;
 
-	if (stageScaleX < tooltipScalingFloor) {
-		tooltip.scale.x = tooltipScalingFloor / stageScaleX;
-		tooltip.scale.y = tooltipScalingFloor / stageScaleY;
-	} else if (stageScaleX > tooltipScalingCeiling) {
-		tooltip.scale.x = tooltipScalingCeiling / stageScaleX;
-		tooltip.scale.y = tooltipScalingCeiling / stageScaleY;
-	} else {
-		tooltip.scale.x = 1;
-		tooltip.scale.y = 1;
-	}
+	tooltip.scale.set(clampScale);
 
 	tooltip.addChild(tooltipBackground, tooltipText1, tooltipText2, tooltipBorder, tooltipSeperator);
 
 	pixiTooltip = pixiJS.stage.addChild(tooltip);
-
 	pixiTooltip.nodeIndex = curNode.nodeIndex;
-	pixiTooltip.stageScaleX = stageScaleX;
-	//pixiTooltip.stageScaleY = stageScaleY; // unused
 
 	repositionTooltip();
 }
@@ -1645,10 +1648,8 @@ function rebuildCanvas() {
 	oldWidth = 0;
 	oldHeight = 0;
 
-	pixiJS.stage.pivot.x = 0;
-	pixiJS.stage.pivot.y = 0;
-	pixiJS.stage.scale.x = 1;
-	pixiJS.stage.scale.y = 1;
+	pixiJS.stage.pivot.set(0, 0);
+	pixiJS.stage.scale.set(1, 1);
 
 	drawBackground();
 	drawAllNodes();
@@ -1723,4 +1724,5 @@ $(document).ready(function() {
 
 	handleReloadButton();
 	resizeCanvas();
+	setInterval(handleIntervalEvent, 250);
 });
