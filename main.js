@@ -1093,8 +1093,8 @@ function drawAllNodes() {
 					groupNode.set("description", REQUIRED_POINTS_DESC);
 				}
 				groupNode.set("requiredPoints", branchData.get("requiredPoints") || 0);
-				groupNode.set("x", branchData.get("x") + minCanvasWidth / 2);
-				groupNode.set("y", branchData.get("y") + minCanvasHeight / 2);
+				groupNode.set("x", branchData.get("x"));
+				groupNode.set("y", branchData.get("y"));
 				if (groupName == SPIRIT_BOONS) {
 					groupNode.set("widthOverride", 1450);
 
