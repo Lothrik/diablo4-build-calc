@@ -1282,7 +1282,7 @@ function drawAllNodes() {
 								codexX = startX - nodeSpacingX * 1.5 + nodeSpacingX * (codexPowerIdx % 4);
 							}
 						}
-						
+
 						let powerDescription = codexPower.power;
 						let powerLocation = [];
 						if (codexPower.dungeon) powerLocation.push(codexPower.dungeon);
