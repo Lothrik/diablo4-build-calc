@@ -1238,7 +1238,7 @@ function drawAllNodes() {
 		if (Object.keys(codexResult).length > 0) {
 			const startX = -4000;
 			const startY = 0;
-			const nodeWidth = 500;
+			const nodeWidth = 400;
 			const nodeSpacingX = nodeWidth + 50;
 			const nodeSpacingY = 150;
 			const widthOverride = 2150;
@@ -1261,7 +1261,7 @@ function drawAllNodes() {
 
 					const codexTypeNode = new Map([
 						["allocatedPoints", 0],
-						["widthOverride", nodeWidth],
+						["widthOverride", nodeSpacingX * 4 - 50],
 						["maxPoints", 0],
 						["x", startX],
 						["y", codexY]
@@ -1294,7 +1294,7 @@ function drawAllNodes() {
 							["description", powerDescription],
 							["id", `codex-${codexPower.id}`],
 							["maxPoints", 1],
-							["widthOverride", 500],
+							["widthOverride", nodeWidth],
 							["x", codexX],
 							["y", codexY]
 						]);
