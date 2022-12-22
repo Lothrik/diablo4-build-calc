@@ -1282,10 +1282,16 @@ function drawAllNodes() {
 								codexX = startX - nodeSpacingX * 1.5 + nodeSpacingX * (codexPowerIdx % 4);
 							}
 						}
+						
+						let powerDescription = codexPower.power;
+						let powerLocation = [];
+						if (codexPower.dungeon) powerLocation.push(codexPower.dungeon);
+						if (codexPower.region) powerLocation.push(codexPower.region);
+						if (powerLocation.length > 0) powerDescription += "\n\n— Location —\n" + powerLocation.join(" — ");
 
 						const codexPowerNode = new Map([
 							["allocatedPoints", 0],
-							["description", codexPower.power],
+							["description", powerDescription],
 							["id", `codex-${codexPower.id}`], // todo
 							["maxPoints", 1],
 							["widthOverride", 500],
