@@ -333,6 +333,7 @@ function handleCanvasEvent(event) {
 			}
 			pixiJS.stage.scale.x = newScale;
 			pixiJS.stage.scale.y = newScale;
+			//redrawAllNodes();
 			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 			if (preventConnectorScaling) drawAllConnectors();
 		}
@@ -866,7 +867,13 @@ function validateAllDependentNodes() {
 		}
 	}
 }
-function drawNode(nodeName, nodeData, groupName, branchData) {
+function redrawNode(curNode) {
+	drawNode(curNode.nodeName, curNode.nodeData, curNode.groupName, curNode.branchData, curNode.nodeIndex, true);
+}
+function redrawAllNodes() {
+	for (let i = pixiNodes.length - 1; i >= 0; i--) redrawNode(pixiNodes[i]);
+}
+function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length) {
 	let x = nodeData.get("x");
 	let y = nodeData.get("y");
 
@@ -996,8 +1003,8 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 	node.nodeData = nodeData;
 	node.groupName = groupName;
 	node.displayName = displayName;
-	//node.branchData = branchData;
-	node.nodeIndex = pixiNodes.length;
+	node.branchData = branchData;
+	node.nodeIndex = nodeIndex;
 	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints == 0) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
@@ -1075,7 +1082,8 @@ function drawNode(nodeName, nodeData, groupName, branchData) {
 			.on("tap", () => handleMinusButton(node));
 	}
 
-	pixiNodes.push(pixiJS.stage.addChild(node));
+	if (pixiNodes.length > nodeIndex) pixiNodes[nodeIndex].destroy(true);
+	pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
 }
 function drawAllNodes() {
 	const className = $(classString).val();
@@ -1558,9 +1566,7 @@ function drawConnector(startNode, endNode) {
 }
 function drawAllConnectors() {
 	pixiConnectorPairs = [];
-	for (let i = pixiConnectors.length; i > 0; i--) {
-		pixiConnectors.pop().destroy(true);
-	}
+	for (let i = pixiConnectors.length - 1; i >= 0; i--) pixiConnectors.pop().destroy(true);
 	const className = $(classString).val();
 	const classData = classMap.get(className);
 	if (classData != undefined) {
@@ -1627,9 +1633,7 @@ function drawBackground() {
 	pixiJS.stage.addChild(pixiBackground);
 }
 function rebuildCanvas() {
-	while (pixiJS.stage.children[0]) {
-		pixiJS.stage.children[0].destroy(true);
-	}
+	while (pixiJS.stage.children[0]) pixiJS.stage.children[0].destroy(true);
 	pixiAllocatedPoints = new Map();
 	pixiNodes = [];
 	pixiConnectors = [];
