@@ -919,18 +919,17 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 	const useThickNodeStyle = groupName == undefined ? requiredPoints <= getAllocatedSkillPoints(nodeName) : allocatedPoints > 0;
 
-	const scaleMultiplier = PIXI.settings.RESOLUTION >= 4 ? 1 : 4 / PIXI.settings.RESOLUTION * newRenderScale * Math.max(newRenderScale, 1 / 4 * PIXI.settings.RESOLUTION);
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 1 ? 4 : newRenderScale >= 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	const nodeText = new PIXI.Text(displayName, {
 		align: "center",
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: nameFontSize * scaleMultiplier,
+		fontSize: nameFontSize * scaleFactor,
 		fontVariant: "small-caps",
-		fontWeight: useThickNodeStyle ? "bold" : "normal",
-		width: _nodeWidth * scaleMultiplier
+		fontWeight: useThickNodeStyle ? "bold" : "normal"
 	});
-	nodeText.scale.set(1 / scaleMultiplier);
+	nodeText.scale.set(1 / scaleFactor);
 	nodeText.anchor.set(0.5);
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
@@ -939,12 +938,11 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			align: "right",
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 24 * scaleMultiplier,
+			fontSize: 24 * scaleFactor,
 			fontVariant: "small-caps",
-			fontWeight: useThickNodeStyle ? "bold" : "normal",
-			width: _nodeWidth * scaleMultiplier
+			fontWeight: useThickNodeStyle ? "bold" : "normal"
 		});
-		nodeText2.scale.set(1 / scaleMultiplier);
+		nodeText2.scale.set(1 / scaleFactor);
 		nodeText2.anchor.set(0.5);
 		nodeText2.x = (_nodeWidth - nodeText2.width) / 2 - 5;
 		nodeText2.y = (nodeText2.height - _nodeHeight) / 2 + 2;
@@ -953,12 +951,11 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			align: "right",
 			fill: textColor,
 			fontFamily: fontFamilyOverride,
-			fontSize: 48 * scaleMultiplier,
+			fontSize: 48 * scaleFactor,
 			fontVariant: "small-caps",
-			fontWeight: useThickNodeStyle ? "bold" : "normal",
-			width: _nodeWidth * scaleMultiplier
+			fontWeight: useThickNodeStyle ? "bold" : "normal"
 		});
-		nodeText3.scale.set(1 / scaleMultiplier);
+		nodeText3.scale.set(1 / scaleFactor);
 		nodeText3.anchor.set(0.5);
 		nodeText3.x = (_nodeWidth - nodeText3.width) / 2;
 		nodeText3.y = (_nodeHeight - nodeText3.height) / 2 + 4;
@@ -967,12 +964,11 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			align: "left",
 			fill: textColor,
 			fontFamily: fontFamilyOverride,
-			fontSize: 48 * scaleMultiplier,
+			fontSize: 48 * scaleFactor,
 			fontVariant: "small-caps",
-			fontWeight: useThickNodeStyle ? "bold" : "normal",
-			width: _nodeWidth * scaleMultiplier
+			fontWeight: useThickNodeStyle ? "bold" : "normal"
 		});
-		nodeText4.scale.set(1 / scaleMultiplier);
+		nodeText4.scale.set(1 / scaleFactor);
 		nodeText4.anchor.set(0.5);
 		nodeText4.x = (nodeText4.width - _nodeWidth) / 2 + 4;
 		nodeText4.y = (_nodeHeight - nodeText4.height) / 2;
@@ -1388,7 +1384,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const scaleMultiplier = PIXI.settings.RESOLUTION >= 4 ? 1 : 4 / PIXI.settings.RESOLUTION * newRenderScale * Math.max(newRenderScale, 1 / 4 * PIXI.settings.RESOLUTION);
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 1 ? 4 : newRenderScale >= 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
@@ -1396,12 +1392,11 @@ function drawTooltip(curNode, forceDraw) {
 		breakWords: true,
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: 40 * scaleMultiplier,
+		fontSize: 40 * scaleFactor,
 		fontVariant: "small-caps",
-		fontWeight: "bold",
-		width: tooltipWidth * scaleMultiplier,
+		fontWeight: "bold"
 	});
-	tooltipText1.scale.set(1 / scaleMultiplier);
+	tooltipText1.scale.set(1 / scaleFactor);
 	tooltipText1.anchor.set(0);
 
 	let tooltipText2;
@@ -1411,18 +1406,16 @@ function drawTooltip(curNode, forceDraw) {
 			breakWords: true,
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 40 * scaleMultiplier,
-			width: tooltipWidth * scaleMultiplier,
+			fontSize: 40 * scaleFactor,
 			wordWrap: true,
-			wordWrapWidth: tooltipWidth * scaleMultiplier
+			wordWrapWidth: tooltipWidth * scaleFactor
 		});
-		tooltipText2.scale.set(1 / scaleMultiplier);
+		tooltipText2.scale.set(1 / scaleFactor);
 		tooltipText2.anchor.set(0);
 		tooltipText2.position.y = 20;
 	} else {
 		tooltipText2 = new PIXI.Text("", {
-			fontSize: 20,
-			width: tooltipWidth
+			fontSize: 20
 		});
 	}
 
