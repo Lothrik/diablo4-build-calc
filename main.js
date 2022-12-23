@@ -280,9 +280,12 @@ function handleIntervalEvent() {
 		canvasTimer = null;
 		newRenderScale = Math.min(pixiJS.stage.scale.x, 1);
 		if (newRenderScale != curRenderScale) {
-			pixiDragging = null;
-			redrawAllNodes();
-			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+			// skip `redrawAllNodes` on high pixel density devices
+			if (PIXI.settings.RESOLUTION < 4) {
+				pixiDragging = null;
+				redrawAllNodes();
+				if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+			}
 			curRenderScale = newRenderScale;
 		}
 	}
