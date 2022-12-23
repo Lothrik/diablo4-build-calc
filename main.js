@@ -74,7 +74,7 @@ const minCanvasHeight = 0;
 const maxCanvasHeight = 65535;
 const nodeWidth = 100;
 const nodeHeight = 100;
-const tooltipWidth = 480;
+const tooltipWidth = 540;
 const tooltipHeight = 200;
 
 // evil magic variables that probably need to be replaced later to support multiple languages
@@ -1396,7 +1396,7 @@ function drawTooltip(curNode, forceDraw) {
 		breakWords: true,
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: 36 * scaleMultiplier,
+		fontSize: 40 * scaleMultiplier,
 		fontVariant: "small-caps",
 		fontWeight: "bold",
 		width: tooltipWidth * scaleMultiplier,
@@ -1411,17 +1411,17 @@ function drawTooltip(curNode, forceDraw) {
 			breakWords: true,
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 36 * scaleMultiplier,
+			fontSize: 40 * scaleMultiplier,
 			width: tooltipWidth * scaleMultiplier,
 			wordWrap: true,
 			wordWrapWidth: tooltipWidth * scaleMultiplier
 		});
 		tooltipText2.scale.set(1 / scaleMultiplier);
 		tooltipText2.anchor.set(0);
-		tooltipText2.position.y = 18;
+		tooltipText2.position.y = 20;
 	} else {
 		tooltipText2 = new PIXI.Text("", {
-			fontSize: 18,
+			fontSize: 20,
 			width: tooltipWidth
 		});
 	}
