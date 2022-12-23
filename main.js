@@ -282,7 +282,7 @@ function handleIntervalEvent() {
 		if (newRenderScale != curRenderScale) {
 			pixiDragging = null;
 			redrawAllNodes();
-			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
+			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
 			curRenderScale = newRenderScale;
 		}
 	}
@@ -1352,7 +1352,7 @@ function drawTooltip(curNode, forceDraw) {
 	const clampScale = stageScale < tooltipScalingFloor ? tooltipScalingFloor / stageScale : stageScale > tooltipScalingCeiling ? tooltipScalingCeiling / stageScale : 1;
 
 	// skip tooltip redraw if we already have the correct one displayed
-	if (!forceDraw && !debugMode && pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.scale.x == clampScale && curRenderScale == newRenderScale) return;
+	if (!forceDraw && !debugMode && pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.scale.x == clampScale) return;
 
 	eraseTooltip();
 
