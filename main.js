@@ -149,7 +149,7 @@ var oldWidth = 0;
 var oldHeight = 0;
 
 PIXI.settings.RESOLUTION = devicePixelRatio;
-PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR;
+PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
 // pixiJS application helper
 const pixiJS = new PIXI.Application({
