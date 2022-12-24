@@ -96,6 +96,7 @@ const COOLDOWN = "Cooldown";
 const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
 const CODEX_OF_POWER = "Codex of Power";
+const CODEX_OF_POWER_DESC = "This aspect type can be applied to: ";
 const SPIRIT_BOONS = "Spirit Boons";
 const SPIRIT_BOON_DESC = "Specializing in this spirit type will allow you to allocate two boons instead of only one.";
 const BOOK_OF_THE_DEAD = "Book of the Dead";
@@ -1282,6 +1283,7 @@ function drawAllNodes() {
 
 					const codexTypeNode = new Map([
 						["allocatedPoints", 0],
+						["description", CODEX_OF_POWER_DESC + powerCodex["Slots"][codexTypeName]],
 						["widthOverride", nodeSpacingX * 4 - 50],
 						["maxPoints", 0],
 						["x", startX],

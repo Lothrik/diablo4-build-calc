@@ -1,4 +1,11 @@
 let codexData = {
+	"Slots": {
+		"Defensive": `Off-Hand, Helmet, Chest, Pants, Amulet [+50%].`,
+		"Offensive": `1H Weapon, 2H Weapon [+100%], Gloves, Amulet [+50%], Ring.`,
+		"Resource": `Helmet, Amulet [+50%], Ring.`,
+		"Utility": `Helmet, Chest, Boots, Gloves, Amulet [+50%].`,
+		"Mobility": `Boots, Amulet [+50%].`
+	},
 	"General": {
 		"Defensive": {
 			"Aspect of the Deflecting Barrier": {
