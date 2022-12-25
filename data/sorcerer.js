@@ -54,7 +54,7 @@ Throw a bolt of frost at an enemy, dealing {#}% damage and Chilling them for {#}
 Lucky Hit: Your direct damage has up to a 100% chance to Chill for 30%.`,
 		id: 0,
 		maxPoints: 5,
-		values: [ "", "35", "15" ],
+		values: [ "30", "35", "15" ],
 		x: -314.79,
 		y: -169.615
 	},
@@ -98,7 +98,7 @@ Launch a bolt of lightning that shocks an enemy {#} times, dealing {#}% damage e
 Killing an enemy has a 10% chance to form a Crackling Energy.`,
 		id: 4,
 		maxPoints: 5,
-		values: [ "", "4", "8" ],
+		values: [ "10", "4", "8" ],
 		x: -294.368,
 		y: 167.01
 	},
@@ -142,7 +142,7 @@ Unleash arcing lightning that shocks enemies in front of you for {#}%. Every {#}
 Whenever you are hit, there is a 20% chance the attacker is Stunned for 1 second.`,
 		id: 8,
 		maxPoints: 5,
-		values: [ "", "42", "10", "2" ],
+		values: [ "30", "42", "10", "2" ],
 		x: 309.665,
 		y: 169.14
 	},
@@ -185,7 +185,7 @@ Hurl a flaming bolt, dealing {#}% damage and Burning for {#}% over {#} seconds.
 Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for 23% over 8 seconds.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "", "10", "40", "8" ],
+		values: [ "20", "10", "40", "8" ],
 		x: 309.424,
 		y: -168.96
 	},
@@ -232,7 +232,7 @@ Release {#} bolts of lightning that course along the ground in an erratic patter
 Whenever you are hit, there is a 40% chance to release 5 Charged Bolts.`,
 		id: 16,
 		maxPoints: 5,
-		values: [ "40", "", "5", "15" ],
+		values: [ "40", "25", "5", "15" ],
 		x: 356.997,
 		y: 194.845
 	},
@@ -276,7 +276,7 @@ Unleash an orb that Chills for {#}% and expels piercing shards dealing a total o
 Whenever you cast a non-Basic Skill, you have a 20% chance to launch a Frozen Orb at a Nearby enemy.`,
 		id: 20,
 		maxPoints: 5,
-		values: [ "40", "", "34", "32", "29", "9" ],
+		values: [ "40", "20", "34", "32", "29", "9" ],
 		x: -276.076,
 		y: -213.185
 	},
@@ -321,7 +321,7 @@ Channel a beam of fire, Burning enemies for {#}%. Damage increases by {#}% per s
 Lucky Hit: Direct damage has up to a 8% chance to spawn a rotating Incinerate beam.`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "20", "", "36", "18", "71" ],
+		values: [ "20", "40", "36", "18", "71" ],
 		x: 465.318,
 		y: -36.915
 	},
@@ -366,7 +366,7 @@ Hurl an exploding ball of fire, dealing {#}% damage to surrounding enemies.
 When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 		id: 28,
 		maxPoints: 5,
-		values: [ "50", "", "60" ],
+		values: [ "50", "33", "60" ],
 		x: 227.451,
 		y: -214.915
 	},
@@ -411,7 +411,7 @@ Unleash a stream of lightning that deals {#}% damage and chains between Nearby e
 Chain Lightning forms automatically after spending 100 Mana.`,
 		id: 32,
 		maxPoints: 5,
-		values: [ "35", "", "42", "4" ],
+		values: [ "35", "25", "42", "4" ],
 		x: 6.471,
 		y: 258.33
 	},
@@ -456,7 +456,7 @@ Launch {#} shards that deal {#}% damage each. Deals x{#}% increased damage to Fr
 Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		id: 36,
 		maxPoints: 5,
-		values: [ "30", "", "5", "25", "25" ],
+		values: [ "30", "25", "5", "25", "25" ],
 		x: -408.65,
 		y: -11.405
 	},
@@ -532,7 +532,7 @@ While Flame Shield is active, you are Immune.
 Flame Shield automatically activates when you take fatal damage. It takes 120 seconds to recharge.`,
 		id: 43,
 		maxPoints: 5,
-		values: [ "19.6", "", "2", "7" ],
+		values: [ "20.0", "50", "2", "7" ],
 		x: -37.995,
 		y: -228.055
 	},
@@ -577,7 +577,7 @@ Unleash a torrent of frost, Freezing enemies around you for {#} seconds.
 Lucky Hit: Critical Strikes have up to a 30% chance to make your active Conjuration Skills unleash a Frost Nova.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "14.7", "", "", "2" ],
+		values: [ "15.0", "", "", "2" ],
 		x: -429.64,
 		y: 2.21
 	},
@@ -620,7 +620,7 @@ A Barrier of ice forms around you for {#} seconds, absorbing {#}% of your Base L
 Upon getting hit, you have a 5% chance to apply Ice Armor.`,
 		id: 51,
 		maxPoints: 5,
-		values: [ "19.6", "6", "30", "", "10" ],
+		values: [ "20.0", "6", "30", "", "10" ],
 		x: -253.36,
 		y: 202.875
 	},
@@ -665,7 +665,7 @@ Transform into lightning, becoming Unstoppable and surging to the target locatio
 Evade is replaced with Teleport on a 17.0 second cooldown.`,
 		id: 55,
 		maxPoints: 5,
-		values: [ "10.8", "", "25" ],
+		values: [ "11.0", "40", "25" ],
 		x: 375.285,
 		y: 141.665
 	},
@@ -776,7 +776,7 @@ Conjure ice blades for {#} seconds that rapidly slashes enemies for {#}% damage 
 Killing an enemy has a 10% chance to conjure Ice Blades.`,
 		id: 65,
 		maxPoints: 5,
-		values: [ "11.8", "", "6.0", "31", "20", "2" ],
+		values: [ "12.0", "", "6.0", "31", "20", "2" ],
 		x: -392.77,
 		y: -171.33
 	},
@@ -821,7 +821,7 @@ Conjure a crackling spear of lightning that seeks out enemies for {#} seconds, d
 Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		id: 69,
 		maxPoints: 5,
-		values: [ "19.6", "", "6.0", "15" ],
+		values: [ "20.0", "", "6.0", "15" ],
 		x: 3.935,
 		y: 249.83
 	},
@@ -1176,7 +1176,7 @@ Lucky Hit Chance: {#}%
 Ignite a roaring inferno that pulses in and out of the target area, Burning enemies for {#}% damage over {#} seconds, and then explodes, dealing {#}% damage to enemies on the outer edge.`,
 		id: 103,
 		maxPoints: 1,
-		values: [ "44.1", "", "295", "8", "50" ],
+		values: [ "45.0", "", "295", "8", "50" ],
 		x: 318.105,
 		y: -144.186
 	},
@@ -1206,7 +1206,7 @@ Ignite a roaring inferno that pulses in and out of the target area, Burning enem
 Lightning surges within you for {#} seconds. Whenever you cast a Lightning Skill, another random non-Basic Lightning Skill is also cast.`,
 		id: 106,
 		maxPoints: 1,
-		values: [ "68.6", "10" ],
+		values: [ "70.0", "10" ],
 		x: 314.75,
 		y: 150.596
 	},
@@ -1238,7 +1238,7 @@ Lucky Hit Chance: {#}%
 Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling enemies for {#}%. When Deep Freeze ends, Frozen enemies shatter for {#}%. Casting Deep Freeze again ends the effect early.`,
 		id: 109,
 		maxPoints: 1,
-		values: [ "58.8", "", "4", "20", "200" ],
+		values: [ "60.0", "", "4", "20", "200" ],
 		x: -295.855,
 		y: -140.251
 	},

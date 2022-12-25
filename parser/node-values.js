@@ -2047,7 +2047,7 @@ let nodeValues = {
 	"Sorcerer": {
 		"Basic": {
 			"Frost Bolt": [
-				"",
+				"30",
 				"35",
 				"15"
 			],
@@ -2061,7 +2061,7 @@ let nodeValues = {
 				"4"
 			],
 			"Spark": [
-				"",
+				"10",
 				"4",
 				"8"
 			],
@@ -2080,7 +2080,7 @@ let nodeValues = {
 				"10"
 			],
 			"Arc Lash": [
-				"",
+				"30",
 				"42",
 				"10",
 				"2"
@@ -2094,7 +2094,7 @@ let nodeValues = {
 				"18"
 			],
 			"Fire Bolt": [
-				"",
+				"20",
 				"10",
 				"40",
 				"8"
@@ -2110,7 +2110,7 @@ let nodeValues = {
 		"Core": {
 			"Charged Bolts": [
 				"40",
-				"",
+				"25",
 				"5",
 				"15"
 			],
@@ -2124,7 +2124,7 @@ let nodeValues = {
 			],
 			"Frozen Orb": [
 				"40",
-				"",
+				"20",
 				"34",
 				"32",
 				"29",
@@ -2143,7 +2143,7 @@ let nodeValues = {
 			],
 			"Incinerate": [
 				"20",
-				"",
+				"40",
 				"36",
 				"18",
 				"71"
@@ -2159,7 +2159,7 @@ let nodeValues = {
 			],
 			"Fireball": [
 				"50",
-				"",
+				"33",
 				"60"
 			],
 			"Enhanced Fireball": [
@@ -2174,7 +2174,7 @@ let nodeValues = {
 			],
 			"Chain Lightning": [
 				"35",
-				"",
+				"25",
 				"42",
 				"4"
 			],
@@ -2189,7 +2189,7 @@ let nodeValues = {
 			],
 			"Ice Shards": [
 				"30",
-				"",
+				"25",
 				"5",
 				"25",
 				"25"
@@ -2214,8 +2214,8 @@ let nodeValues = {
 		},
 		"Defensive": {
 			"Flame Shield": [
-				"19.6",
-				"",
+				"20.0",
+				"50",
 				"2",
 				"7"
 			],
@@ -2229,7 +2229,7 @@ let nodeValues = {
 				"4"
 			],
 			"Frost Nova": [
-				"14.7",
+				"15.0",
 				"",
 				"",
 				"2"
@@ -2245,7 +2245,7 @@ let nodeValues = {
 				"4"
 			],
 			"Ice Armor": [
-				"19.6",
+				"20.0",
 				"6",
 				"30",
 				"",
@@ -2262,8 +2262,8 @@ let nodeValues = {
 				"30"
 			],
 			"Teleport": [
-				"10.8",
-				"",
+				"11.0",
+				"40",
 				"25"
 			],
 			"Enhanced Teleport": [
@@ -2307,7 +2307,7 @@ let nodeValues = {
 				"6"
 			],
 			"Ice Blades": [
-				"11.8",
+				"12.0",
 				"",
 				"6.0",
 				"31",
@@ -2325,7 +2325,7 @@ let nodeValues = {
 				"1"
 			],
 			"Lightning Spear": [
-				"19.6",
+				"20.0",
 				"",
 				"6.0",
 				"15"
@@ -2459,7 +2459,7 @@ let nodeValues = {
 		},
 		"Ultimate": {
 			"Inferno": [
-				"44.1",
+				"45.0",
 				"",
 				"295",
 				"8",
@@ -2472,7 +2472,7 @@ let nodeValues = {
 				"1"
 			],
 			"Unstable Currents": [
-				"68.6",
+				"70.0",
 				"10"
 			],
 			"Prime Unstable Currents": [
@@ -2482,7 +2482,7 @@ let nodeValues = {
 				"0.25"
 			],
 			"Deep Freeze": [
-				"58.8",
+				"60.0",
 				"",
 				"4",
 				"20",
