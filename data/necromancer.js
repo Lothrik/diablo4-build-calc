@@ -834,7 +834,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		description: `After being Healthy for {#} seconds, your next Blood skill Overpowers.`,
 		id: 76,
 		maxPoints: 3,
-		values: [ "{15/30/45}" ],
+		values: [ "" ],
 		x: 188.085,
 		y: -545.375
 	},

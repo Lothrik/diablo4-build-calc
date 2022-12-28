@@ -1384,7 +1384,7 @@ let nodeValues = {
 				"{10/20/30}"
 			],
 			"Coalesced Blood": [
-				"{15/30/45}"
+				""
 			],
 			"Transfusion": [
 				"{15/30/45}"
