@@ -226,7 +226,7 @@ sorcerer["Core"] = {
 		damageType: 2,
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Release {#} bolts of lightning that course along the ground in an erratic pattern, dealing {#}% each.
+Release {#} bolts of lightning that course along the ground in an erratic pattern, dealing {#}% damage each.
 
 — Enchantment Effect —
 Whenever you are hit, there is a 40% chance to release 5 Charged Bolts.`,
