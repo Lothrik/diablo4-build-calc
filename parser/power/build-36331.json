@@ -1826,7 +1826,7 @@
 			"Helm_Unique_Rogue_001": {
 				"desc": "You gain {c_random}x[Affix_Value_1|%|]{/c} increased Lucky Hit Chance against Crowd Controlled enemies.",
 				"flavor": "\"He is banished from the Guild, his name stricken from the Book. His punishment is to never have been.\" \n- Excerpt from a burned parchment",
-				"name": "Cowl of the ",
+				"name": "Cowl of the",
 				"values": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				]
