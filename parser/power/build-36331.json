@@ -292,6 +292,59 @@
 				]
 			}
 		},
+		"Paragon": {
+			"Paragon_Barb_Legendary_001": {
+				"desc": "Bleeding enemies you kill explode, dealing {c_number}[{SF_1}*100|%|]{/c} of their max life to nearby enemies."
+			},
+			"Paragon_Barb_Legendary_002": {
+				"desc": "Enemies that have been affected by your Bleeding for {c_number}[{SF_0}]{/c} or more seconds take {c_number}x[{SF_1}*100|%|]{/c} increased Bleeding damage from you."
+			},
+			"Paragon_Barb_Legendary_003": {
+				"desc": "Bleeding you inflict deals damage {c_number}[{SF_0}*100|%|]{/c} faster."
+			},
+			"Paragon_Barb_Legendary_004": {
+				"desc": "Killing a Bleeding target has {c_number}[{SF_0}*100|%|]{/c} chance to grant {c_important}Berserking{/c} for {c_number}{SF_1}{/c} seconds."
+			},
+			"Paragon_Barb_Legendary_005": {
+				"desc": "Increases the power of your {c_important}Shout{/c} skills by {c_number}[{SF_0}*100|%|]{/c}."
+			},
+			"Paragon_Barb_Legendary_006": {
+				"desc": "{c_important}Shout{/c} skills fortify you for {c_number}[{SF_0}*100|%|]{/c} of your maximum life."
+			},
+			"Paragon_Barb_Legendary_007": {
+				"desc": "When you are under any {c_important}Shout{/c} effect, you deal {c_number}x[{SF_0}*100|%|]{/c} increased damage and take {c_number}[{SF_1}*100|%|]{/c} less damage."
+			},
+			"Paragon_Barb_Legendary_008": {
+				"desc": "While Berserk, you take {c_number}[{SF_0}*100|%|]{/c} of your maximum life as Bleed damage per second, but deal {c_number}x[{SF_2}*100|%|]{/c} increased damage."
+			},
+			"Paragon_Barb_Legendary_009": {
+				"desc": "While {c_important}Berserking{/c}, critical strikes increase your attack speed by {c_number}[{SF_0}*100|%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[{SF_2}]{/c} seconds."
+			},
+			"Paragon_Barb_Legendary_010": {
+				"desc": "While Berserk, your {c_important}Defensive{/c} skills recharge {c_number}[{SF_0}*100|%|]{/c} faster."
+			},
+			"Paragon_Barb_Legendary_011": {
+				"desc": "For every {c_number}[{SF_0}]{/c} Fury you spend, gain {c_number}[{SF_1}*100|%|]{/c} of your Maximum Life {c_number}([{SF_1} * PlayerHealthMax()]){/c} as {c_important}Fortify{/c}."
+			},
+			"Paragon_Barb_Legendary_012": {
+				"desc": "You take {c_number}[{SF_0}*100|%|]{/c} less damage from all sources, but can no longer dodge attacks."
+			},
+			"Paragon_Barb_Legendary_013": {
+				"desc": "While standing still, you gain {c_number}[{SF_0}*100|%|]{/c} extra damage reduction, and have {c_number}[{SF_1}*100|%|]{/c} reduced CC duration."
+			},
+			"Paragon_Barb_Legendary_014": {
+				"desc": "{c_label}Lucky Hit:{/c} Two-Handed Slashing Weapon attacks have up to a {c_number}[{SF_0}*100|%|]{/c} chance to make enemies {c_important}Vulnerable{/c} for {c_number}{SF_1}{/c} seconds."
+			},
+			"Paragon_Barb_Legendary_015": {
+				"desc": "{c_important}Overpowers{/c} with your Two-Handed Bludgeoning Weapon Stun enemies for {c_number}{buffduration:STUN}{/c} |4second:seconds; and grant you {c_number}[{SF_1} * 100|%|]{/c} of your Maximum Life {c_number}([{SF_1} * PlayerHealthMax()]){/c} as {c_important}Fortify{/c_important}."
+			},
+			"Paragon_Barb_Legendary_016": {
+				"desc": "Damaging enemies with One-Handed Weapons increases your damage by {c_number}x[{SF_0}*100|%|]{/c} for {c_number}{SF_2}{/c} seconds, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}. This can only happen once per Skill cast, or twice per second while channeling {c_important}Whirlwind{/c}."
+			},
+			"Paragon_Barb_Legendary_017": {
+				"desc": "Swapping weapons reduces your active, non-{c_important}Ultimate{/c} skill cooldowns by {c_number}[{SF_0|2|}]{/c} seconds."
+			}
+		},
 		"Unique": {
 			"1HSword_Unique_Barb_100": {
 				"desc": "After generating {c_number}[Affix.\"Static Value 0\"]{/c} Fury your next {c_important}Core{/c} Skill creates a {c_important}Dust Devil{/c} that deals {c_random}[Affix_Flat_Value_1]{/c} damage to enemies behind the target.",
@@ -412,7 +465,7 @@
 			},
 			"legendary_druid_012": {
 				"desc": "Gain {c_important}Stealth{/c} for {c_number}[Affix_Value_2]{/c} seconds when killing enemies with {c_important}Shred{/c}. Breaking {c_important}Stealth{/c} with an attack grants Ambush which guarantees Critical Strikes for {c_random}[Affix_Value_1|1|]{/c} seconds.",
-				"name": "_PrefixStalking Beast",
+				"name": "Stalking Beast",
 				"values": [
 					"FloatRandomRangeWithInterval(10, 1.0, 2.5)",
 					"2"
@@ -678,6 +731,62 @@
 				"values": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				]
+			}
+		},
+		"Paragon": {
+			"Paragon_Druid_Legendary_001": {
+				"desc": "{c_important}Critical Strikes{/c} from your {c_important}Storm{/c} skills make enemies {c_important}Vulnerable{/c} for {c_number}{SF_0}{/c} |4second:seconds;. Enemies that are already {c_important}Vulnerable{/c} have its duration extended by {c_number}[{SF_1}|1|]{/c} seconds instead."
+			},
+			"Paragon_Druid_Legendary_002": {
+				"desc": "Hurricane and Cataclysm create a Tornado every {c_number}[SF_0|1|]{/c} seconds while they are active."
+			},
+			"Paragon_Druid_Legendary_003": {
+				"desc": "{c_important}Storm{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased Critical Strike damage against {c_important}Vulnerable{/c} or {c_important}Immobilized{/c} targets."
+			},
+			"Paragon_Druid_Legendary_004": {
+				"desc": "Your Earth skills have an additional {c_number}[{SF_0}*100|%|]{/c} chance to {c_important}Overpower{/c}."
+			},
+			"Paragon_Druid_Legendary_005": {
+				"desc": "When you kill an enemy with an Overpowering hit, you automatically gain {c_important}Earthen Bulwark{/c}. This can only happen once every {c_number}{SF_0}{/c} seconds."
+			},
+			"Paragon_Druid_Legendary_006": {
+				"desc": "Your {c_important}Earth{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to targets afflicted by movement impairing effects."
+			},
+			"Paragon_Druid_Legendary_007": {
+				"desc": "While in Werebear form, you deal {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_1}*100|%|]{/c}, for every {c_number}[{SF_2}*100|%|]{/c} difference in current Life % between you and the target."
+			},
+			"Paragon_Druid_Legendary_008": {
+				"desc": "(REDESIGN){c_important}Werebear{/c} skills have an additional {c_number}[{SF_3}*100|%|]{/c} chance to {c_important}Overpower{/c} and {c_important}Knockdown{/c} for {c_number}[SF_2|1|]{/c} seconds."
+			},
+			"Paragon_Druid_Legendary_009": {
+				"desc": "While in Werebear form, you apply {c_number}[{SF_0}*100|%|]{/c} bonus {c_important}Fortify{/c}."
+			},
+			"Paragon_Druid_Legendary_010": {
+				"desc": "Critical Strikes with {c_important}Werewolf{/c} skills restore {c_number}{SF_0}{/c} Spirit."
+			},
+			"Paragon_Druid_Legendary_011": {
+				"desc": "Your {c_important}Werewolf{/c} skills gain an additional {c_number}[{SF_0}*100|%|]{/c} Critical Strike Chance against poisoned targets."
+			},
+			"Paragon_Druid_Legendary_012": {
+				"desc": "While there are {c_number}{SF_0}{/c} or more poisoned enemies Nearby, you deal {c_number}x[{SF_1}*100|%|]{/c} increased damage."
+			},
+			"Paragon_Druid_Legendary_013": {
+				"desc": "After shapeshifting, your Spirit costs are reduced by {c_number}[{SF_0}*100|%|]{/c} for {c_number}{SF_2}{/c} seconds, up to {c_number}[{SF_0}*100*{SF_1}|%|]{/c}."
+			},
+			"Paragon_Druid_Legendary_014": {
+				"desc": "Casting a {c_important}Storm{/c} skill increases the critical strike chance of your next {c_important}Werewolf{/c} skill by {c_number}[{SF_0}*100|%|]{/c}.\n\nCasting an {c_important{Earth{/c} skill increases the critical strike damage of your next {c_important}Werebear{/c} skill by {c_number}x[{SF_1}*100|%|]{/c}."
+			},
+			"Paragon_Druid_Legendary_015": {
+				"desc": "Your {c_important}Earth{/c} skills have an additional {c_number}[{SF_0}*100|%|]{/c} chance to {c_important}Overpower{/c} targets that are {c_important}Vulnerable{/c}."
+			},
+			"Paragon_Druid_Legendary_016": {
+				"desc": "Your {c_important}Nature Magic{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage against enemies affected by your {c_important}Debilitating Roar{/c}."
+			},
+			"Paragon_Druid_Legendary_017": {
+				"desc": "{c_label}Lucky Hit:{/c} {c_important}Nature Magic{/c} skills have up to a {c_number}[{SF_0}|%|]{/c} chance to entangle the target with vines, Immobilizing them for {c_number}[{SF_1}]{/c} seconds and poisoning them for {c_number}[{SF_2}*100|%|]{/c} of the base damage dealt over {c_number}[SF_3]{/c} seconds."
+			},
+			"Paragon_Druid_Legendary_018": {
+				"desc": "After spending {c_number}{SF_0}{/c} Spirit, you deal {c_number}x[{SF_1}*100|%|]{/c} increased damage for {c_number}{SF_2}{/c} seconds."
 			}
 		},
 		"Unique": {
@@ -1447,6 +1556,59 @@
 				]
 			}
 		},
+		"Paragon": {
+			"Paragon_Necro_Legendary_001": {
+				"desc": "You and your Minions deal {c_number}x[{SF_0}*100|%|]{/c} increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem."
+			},
+			"Paragon_Necro_Legendary_002": {
+				"desc": "{c_label}Lucky Hit:{/c} Your Minions have a {c_number}{SF_0}%{/c} chance to grant you a barrier for {c_number}[{SF_1}*100|%|]{/c} of your Max Life for {c_number}{SF_2}{/c} seconds."
+			},
+			"Paragon_Necro_Legendary_003": {
+				"desc": "When your Minions die, they explode and deal {c_number}[{SF_0}*100|%|]{/c} of their Max Life as Shadow damage to nearby enemies."
+			},
+			"Paragon_Necro_Legendary_004": {
+				"desc": "Your Minions have {c_number}[{SF_0}*100|%|]{/c} less Max Life but deal {c_number}x[{SF_1}*100|%|]{/c} increased damage."
+			},
+			"Paragon_Necro_Legendary_005": {
+				"desc": "Your Golem has {c_number}[{SF_0}*100|%|]{/c} increased maximum Life and deals {c_number}x[{SF_0}*100|%|]{/c} increased damage."
+			},
+			"Paragon_Necro_Legendary_006": {
+				"desc": "Consuming a corpse slows enemies around it by {c_number}[{SF_0}*100|%|]{/c} for {c_number}{SF_1}{/c} seconds. Your {c_important}Corpse{/c} skills deal {c_number}x[{SF_3}*100|%|]{/c} increased damage to crowd controlled enemies."
+			},
+			"Paragon_Necro_Legendary_007": {
+				"desc": "With at least {c_number}{SF_0}{/c} corpses Nearby, you take {c_number}[{SF_1}*100|%|]{/c} less damage."
+			},
+			"Paragon_Necro_Legendary_008": {
+				"desc": "Consuming a corpse grants you {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*100*{SF_1}|%|]{/c}, for {c_number}{SF_2}{/c} seconds."
+			},
+			"Paragon_Necro_Legendary_009": {
+				"desc": "When your Minion is killed, it has a {c_number}[{SF_0}*100|%|]{/c} chance to leave a corpse."
+			},
+			"Paragon_Necro_Legendary_010": {
+				"desc": "{c_important}Blood{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage but cost an additional {c_number}[{SF_1}*100|1%|]{/c} of the skill's Essence cost or Cooldown as a percent of  your maximum Life."
+			},
+			"Paragon_Necro_Legendary_011": {
+				"desc": "{c_important}Blood Orbs{/c} grant {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*100*{SF_1}|%|]{/c}, for {c_number}{SF_2}{/c} seconds."
+			},
+			"Paragon_Necro_Legendary_012": {
+				"desc": "Blood Orbs also restore {c_number}{SF_0}{/c} Essence when picked up."
+			},
+			"Paragon_Necro_Legendary_013": {
+				"desc": "{c_important}Bone{/c} skills grant you {c_number}[{SF_0}*100|%|]{/c} damage reduction, up to {c_number}[{SF_0}*100*{SF_1}|%|]{/c}, for the next {c_number}{SF_2}{/c} seconds."
+			},
+			"Paragon_Necro_Legendary_014": {
+				"desc": "{c_label}Lucky Hit:{/c} Your {c_important}Bone{/c} skills have a {c_number}{SF_0}%{/c} chance to make enemies {c_important}Vulnerable{/c} for {c_number}2{/c} seconds."
+			},
+			"Paragon_Necro_Legendary_015": {
+				"desc": "Whenever you consume a corpse, a Bone Spirit is spawned at its location."
+			},
+			"Paragon_Necro_Legendary_016": {
+				"desc": "You and your Minions deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to targets affected by Shadow damage over time effects."
+			},
+			"Paragon_Necro_Legendary_017": {
+				"desc": "Hitting enemies with {c_important}Bone{/c} skills increases your damage by {c_number}x[{SF_0}*100|%|]{/c} and your maximum Essence by {c_number}{SF_1}{/c} for {c_number}{SF_3}{/c} seconds, stacks up to {c_number}x[{SF_0}*{SF_2}*100|%|]{/c} increased damage and {c_number}[{SF_1}*{SF_2}]{/c} maximum Essence."
+			}
+		},
 		"Unique": {
 			"2HScythe_Unique_Necro_100": {
 				"desc": "Your {c_important}Darkness{/c} Skills {c_important}Chill{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n\n{c_gold}Lucky Hit:{/c} Your {c_important}Darkness{/c} Skills have up to a {c_number}[Affix.\"Static Value 1\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} additional Essence against {c_important}Frozen{/c} targets.",
@@ -1779,6 +1941,56 @@
 				]
 			}
 		},
+		"Paragon": {
+			"Paragon_Rogue_Legendary_001": {
+				"desc": "After taking Poison, Cold, or Shadow damage, the target takes {c_number}[{SF_0}*100|%|]{/c} less damage from you from that type, and {c_number}[{SF_1}*100|%|]{/c} more damage from the other two types for the next {c_number}{SF_2}{/c} seconds."
+			},
+			"Paragon_Rogue_Legendary_002": {
+				"desc": "Your Imbues apply to {c_number}{SF_0}{/c} additional attack."
+			},
+			"Paragon_Rogue_Legendary_003": {
+				"desc": "While any of your Imbues are on cooldown, your Imbue-able attacks have a {c_number}[{SF_0}*100|%|]{/c} chance to gain one of those Imbue effects."
+			},
+			"Paragon_Rogue_Legendary_004": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to Distant enemies but deal {c_number}x[{SF_1}*100|%|]{/c} decreased damage to Close enemies."
+			},
+			"Paragon_Rogue_Legendary_005": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to Close enemies but deal {c_number}x[{SF_1}*100|%|]{/c} decreased damage to Distant enemies."
+			},
+			"Paragon_Rogue_Legendary_006": {
+				"desc": "Your {c_important}Ranged{/c} skills grant your next {c_important}Melee{/c} skill {c_number}x[{SF_0}*100|%|]{/c} increased damage.\n\nYour {c_important}Melee{/c} skills grant your next {c_important}Ranged{/c} skill {c_number}x[{SF_0}*100|%|]{/c} increased damage."
+			},
+			"Paragon_Rogue_Legendary_007": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage for each Nearby target that is Crowd Controlled, up to {c_number}x[{SF_0} * 100 * {SF_1}|%|]{/c}."
+			},
+			"Paragon_Rogue_Legendary_008": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased Critical Strike Damage to targets affected by your {c_important}Trap{/c} skills."
+			},
+			"Paragon_Rogue_Legendary_009": {
+				"desc": "When {c_important}Inner Sight's{/c} gauge becomes full, you gain {c_number}+[{SF_0}*100|%|]{/c} Dodge Chance for {c_number}[{SF_1|1|}]{/c} seconds."
+			},
+			"Paragon_Rogue_Legendary_010": {
+				"desc": "Whenever you deal damage to a {c_important}Vulnerable{/c} enemy, they take {c_number}x[{SF_0}*100|%|]{/c} increased damage from you for {c_number}[SF_2]{/c} seconds, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}."
+			},
+			"Paragon_Rogue_Legendary_011": {
+				"desc": "Your {c_important}Ultimate{/c} Skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage and grant you {c_number}x[{SF_1}*100|%|]{/c} increased damage for {c_number}[SF_2]{/c} seconds when cast."
+			},
+			"Paragon_Rogue_Legendary_012": {
+				"desc": "Skills that consume {c_number}{SF_1}{/c} Combo Points deal {c_number}x[{SF_0}*100|%|]{/c} increased damage."
+			},
+			"Paragon_Rogue_Legendary_013": {
+				"desc": "For each Close enemy, your Dodge Chance is increased by {c_number}[{SF_0}*100|%|]{/c}, up to {c_number}[{SF_0}*100*{SF_1}|%|]{/c}."
+			},
+			"Paragon_Rogue_Legendary_014": {
+				"desc": "When you kill a Poisoned enemy, they leave a pool of poison on the ground that deals {c_number}[{SF_0}*100|%|]{/c} of that enemy's Max Life as poison damage over {c_number}{SF_1}{/c} seconds."
+			},
+			"Paragon_Rogue_Legendary_015": {
+				"desc": "For each enemy that is Chilled in the area, you deal {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*100*{SF_1}|%|]{/c}."
+			},
+			"Paragon_Rogue_Legendary_016": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to enemies affected by Shadow Imbuement's debuff."
+			}
+		},
 		"Unique": {
 			"1HDagger_Unique_Rogue_001": {
 				"desc": "Your {c_important}Core{/c} Skills deal {c_random}x[Affix_Value_1|%|]{/c} increased damage per {c_important}Combo Point{/c} spent. However, your {c_important}Basic{/c} Skills using this weapon have a {c_number}[Affix_Value_2|%|]{/c} chance to generate {c_number}0{/c} {c_important}Combo Points{/c}.",
@@ -1826,7 +2038,7 @@
 			"Helm_Unique_Rogue_001": {
 				"desc": "You gain {c_random}x[Affix_Value_1|%|]{/c} increased Lucky Hit Chance against Crowd Controlled enemies.",
 				"flavor": "\"He is banished from the Guild, his name stricken from the Book. His punishment is to never have been.\" \n- Excerpt from a burned parchment",
-				"name": "Cowl of the",
+				"name": "Cowl of the Nameless",
 				"values": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				]
@@ -2176,6 +2388,56 @@
 				"values": [
 					"FloatRandomRangeWithInterval(10, 10, 20)"
 				]
+			}
+		},
+		"Paragon": {
+			"Paragon_Sorc_Legendary_001": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage while {c_number}[{SF_1}]{/c} or more burning enemies are Nearby."
+			},
+			"Paragon_Sorc_Legendary_002": {
+				"desc": "Direct damage from {c_important}Pyromancy{/c} skills burns the target for an additional {c_number}[{SF_0}*100|%|]{/c} of its base damage over {c_number}{SF_1}{/c} seconds."
+			},
+			"Paragon_Sorc_Legendary_003": {
+				"desc": "Burning enemies you kill explode, dealing {c_number}[{SF_0}*100|%|]{/c} of their Max Life to enemies nearby."
+			},
+			"Paragon_Sorc_Legendary_004": {
+				"desc": "Your Elemental attacks deal {c_number}x[{SF_0}*100|%|]{/c} increased critical strike damage against Frozen targets."
+			},
+			"Paragon_Sorc_Legendary_005": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to {c_important}Chilled{/c} and {c_important}Frozen{/c} targets."
+			},
+			"Paragon_Sorc_Legendary_006": {
+				"desc": "Enemies become {c_important}Chilled{/c} for {c_number}[SF_1|%|]{/c} after they unfreeze from your {c_important}Freeze{/c} effects. You take {c_number}[{SF_0}*100|%|]{/c} less damage from {c_important}Chilled{/c} targets."
+			},
+			"Paragon_Sorc_Legendary_007": {
+				"desc": "Critical Strikes from {c_important}Shock{/c} skills grant you {c_number}x[{SF_0}*100|%|]{/c} increased Critical Strike Damage for {c_number}5{/c} seconds. This effect stacks up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}."
+			},
+			"Paragon_Sorc_Legendary_008": {
+				"desc": "Dealing damage with {c_important}Crackling Energy{/c} has a {c_number}[{SF_0}|%|]{/c} chance to not consume a charge."
+			},
+			"Paragon_Sorc_Legendary_009": {
+				"desc": "{c_label}Lucky Hit:{/c} Your {c_important}Shock{/c} skills have a {c_number}{SF_0}%{/c} chance to release {c_number}{SF_1}{/c} lightning sparks that each deal {c_number}{payload:SPARK}{/c} damage."
+			},
+			"Paragon_Sorc_Legendary_010": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to targets that are both Burning and Chilled."
+			},
+			"Paragon_Sorc_Legendary_011": {
+				"desc": "{c_label}Lucky Hit:{/c} {c_important}Core{/c} skills have up to a {c_number}{SF_0}%{/c} chance to make your next {c_important}Mastery{/c} skill deal {c_number}x[{SF_1}*100|%|]{/c} increased damage."
+			},
+			"Paragon_Sorc_Legendary_012": {
+				"desc": "After using an Elemental skill, you gain {c_number}[{SF_0}*100|%|]{/c} Resistance against that element for {c_number}4{/c} seconds."
+			},
+			"Paragon_Sorc_Legendary_013": {
+				"desc": "Nearby enemies take {c_number}x[{SF_0}*100|%|]{/c} increased Elemental damage. You and nearby allies gain {c_number}[{SF_1}*100|%|]{/c} Elemental Resistance."
+			},
+			"Paragon_Sorc_Legendary_014": {
+				"desc": "While moving, you regenerate Mana {c_number}[{SF_0}*100|%|]{/c} faster. While standing still, you gain {c_number}x[{SF_1}*100|%|]{/c} increased Fire, Cold, and Lightning damage every second, up to {c_number}x[{SF_1}*{SF_2}*100|%|]{/c}."
+			},
+			"Paragon_Sorc_Legendary_015": {
+				"desc": "After spending {c_number}{SF_0}{/c} Mana, you gain {c_number}[{SF_1}*100|%|]{/c} of your Maximum Life {c_number}([PlayerHealthMax() * SF_1]){/c} as {c_important}Barrier{/c} for {c_number}{SF_2}{/c} seconds."
+			},
+			"Paragon_Sorc_Legendary_016": {
+				"desc": "While you have a barrier, you take {c_number}[{SF_0}*100|%|]{/c} less damage and gain {c_number}[{SF_1}*100|%|]{/c} increased movement speed."
 			}
 		},
 		"Unique": {
