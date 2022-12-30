@@ -366,6 +366,203 @@
 			}
 		}
 	},
+	"Generic": {
+		"Legendary": {
+			"Affix_legendary_generic_006": {
+				"desc": "Gain {c_random}[Affix_Value_1]{/c} resource for every {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life healed.",
+				"name": "Starlight"
+			},
+			"Affix_legendary_generic_009": {
+				"desc": "{c_important}Basic{/c} skills grant {c_number}[Affix.\"Static Value 0\"|%|]{/c} damage reduction for {c_random}[Affix_Value_1|1|]{/c} seconds.",
+				"name": "of Might"
+			},
+			"Affix_legendary_generic_011": {
+				"desc": "Every {c_random}[Affix_Value_1]{/c} seconds, gain a {c_important}Barrier{/c} absorbing up to {c_number}[Affix_Flat_Value_1]{/c} damage.",
+				"name": "of the Protector"
+			},
+			"Affix_legendary_generic_014": {
+				"desc": "Deal {c_random}x[Affix_Value_1|1%|]{/c} increased damage for each second you stand still, up to {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
+				"name": "of Inner Calm"
+			},
+			"Affix_legendary_generic_016": {
+				"desc": "Critical Strikes grant {c_random}[Affix_Value_1|1%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} second. The duration can be extended.",
+				"name": "Wind Striker"
+			},
+			"Affix_legendary_generic_021": {
+				"desc": "Restore {c_random}[Affix_Value_1]{/c} resource when you Crowd Control an enemy.",
+				"name": "of the Umbral"
+			},
+			"Affix_legendary_generic_023": {
+				"desc": "Each consecutive {c_important}Core{/c} Skill cast reduces the resource cost of your next {c_important}Core{/c} Skills by {c_random}[Affix_Value_1|%|]{/c}, up to a maximum of {c_number}[Affix.\"Static Value 0\"|%|]{/c}.",
+				"name": "Ominous"
+			},
+			"Affix_legendary_generic_027": {
+				"desc": "Deal {c_random}x[Affix_Value_1|%|]{/c} increased damage while you have a {c_important}Barrier{/c} active.",
+				"name": "Conceited"
+			},
+			"Affix_legendary_generic_034": {
+				"desc": "When struck, a magical bubble forms around you for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, absorbing {c_number}[Affix_Flat_Value_1]{/c} damage. Can only occur once per {c_random}[Affix_Value_1]{/c} seconds.",
+				"name": "Protecting"
+			},
+			"Affix_legendary_generic_036": {
+				"desc": "Enemies afflicted with a damage over time effect deal {c_random}[Affix_Value_1|%|]{/c} less damage to you.",
+				"name": "of Disobedience"
+			},
+			"Affix_legendary_generic_038": {
+				"desc": "Deal {c_random}x[Affix_Value_1|%|]{/if}{/c} increased damage to Stunned, Knocked Down, and Frozen enemies.",
+				"name": "of Pummeling"
+			},
+			"Affix_legendary_generic_043": {
+				"desc": "{c_important}Basic{/c} Skills gain {c_random}[Affix_Value_1|%|]{/c } Attack Speed.",
+				"name": "Rapid"
+			},
+			"Affix_legendary_generic_063": {
+				"desc": "Skills deal up to {c_random}x[Affix_Value_1|%|]{/c} increased damage based on available resource when cast, receiving the full benefit while at full resource.",
+				"name": "Edgemaster\u00e2\u20ac\u2122s"
+			},
+			"Affix_legendary_generic_065": {
+				"desc": "After standing still for {c_random}[Affix_Value_1]{/c} seconds, you regenerate {c_number}[Affix_Flat_Value_1]{/c} Life per second while enemies are Close.",
+				"name": "of the Patient Sage"
+			},
+			"Affix_legendary_generic_067": {
+				"desc": "Enemies hit with {c_important}Basic{/c} Skills increases the damage of your next {c_important}Core{/c} Skill by {c_random}x[Affix_Value_1|1%|]{/c}, up to {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
+				"name": "of the Expectant"
+			},
+			"Affix_legendary_generic_100": {
+				"desc": "You may move freely through enemies while below {c_random}[Affix_Value_1|%|]{/c} total Life.",
+				"name": "Ghostwalker"
+			},
+			"Affix_legendary_generic_102": {
+				"desc": "{c_gold}Lucky Strike:{/c} When you hit a Crowd Controlled enemy, there is up to a {c_random}[Affix_Value_1|%|]{/c} chance for that Crowd Control effect to spread to another unaffected enemy.",
+				"name": "of Shared Misery"
+			},
+			"Affix_legendary_generic_103": {
+				"desc": "Taking {c_random}[Affix_Value_1|%|]{/c} of your total Life in damage while Stunned, Frozen or Immobilized will clear the effect.",
+				"name": "Eluding"
+			},
+			"Affix_legendary_generic_104": {
+				"desc": "When you take damage from a damage over time effect, gain {c_random}[Affix_Value_1]{/c} resource.",
+				"name": "Assimilation"
+			},
+			"Affix_legendary_generic_106": {
+				"desc": "Thorns damage dealt has a {c_random}[Affix_Value_1|%|]{/c} chance to deal damage to all enemies around you.",
+				"name": "Needleflare"
+			},
+			"Affix_legendary_generic_107": {
+				"desc": "While you have a {c_important}Barrier{/c} active, there is a {c_random}[Affix_Value_1|%|]{/c} chance to ignore incoming direct damage from Distant enemies.",
+				"name": "of the Deflecting Barrier"
+			},
+			"Affix_legendary_generic_108": {
+				"desc": "Effects that heal you beyond {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life grant you a {c_important}Barrier{/c} up to {c_random}[Affix_Value_1|%|]{/c} of your Maximum Life that lasts for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
+				"name": "Restorative"
+			},
+			"Affix_legendary_generic_109": {
+				"desc": "Your Critical Strike Chance is increased by {c_random}[Crit_Percent_Bonus_Vs_CC_Target_Any*100|%|]{/c} against Crowd Controlled enemies.",
+				"name": "Smiting"
+			}
+		},
+		"Unique": {
+			"Affix_1HAxe_Unique_Generic_001": {
+				"desc": "Immobilize your target for {c_random}[Affix_Value_1|1|]{/c} seconds when you Critically Strike."
+			},
+			"Affix_1HAxe_Unique_Generic_Boost_NoPowers2": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_1HAxe_Unique_Generic_NoPowers1": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_1HDagger_Unique_Generic_Boost_NoPowers1": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_1HDagger_Unique_Generic_Boost_NoPowers2": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_1HFocus_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_1HShield_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_1HSword_Unique_Generic_001": {
+				"desc": "Your skills have a {c_random}[Affix_Value_1|%|]{/c} chance to also deal {c_number}[Affix_Flat_Value_1]{/c} Shadow damage to surrounding enemies and reduce their damage done by {c_number}[Affix.\"Static Value 0\"|%|]{/c} for {c_number}3{/c} seconds."
+			},
+			"Affix_1HSword_Unique_Generic_100": {
+				"desc": "Critical Strikes with {c_important}Core{/c} Skills increase your Attack Speed by {c_random}+[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+			},
+			"Affix_1HWand_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_2HBow_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_2HMace_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_2HScythe_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_2HStaff_Unique_Generic_101": {
+				"desc": "After a Crowd Control effect wears off from an enemy, they take {c_random}[Affix_Value_1|%|]{/c} increased damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+			},
+			"Affix_2HStaff_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_2HSword_Unique_Generic_001": {
+				"desc": "Increases your critical strike damage by {c_random}[Affix_Value_1|%|]{/c}. \n\nThe other properties on this weapon can roll higher than normal."
+			},
+			"Affix_2HSword_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_Amulet_Unique_Generic_100": {
+				"desc": "Gain {c_number}[Affix.\"Static Value 0\"|~%|]{/c} bonus maximum resource. In addition, when you take damage, drain {c_random}[Affix_Value_1|1|]{/c} resource for every {c_number}[Affix.\"Static Value 1\"|%|]{/c} of Life you would have lost instead."
+			},
+			"Affix_Amulet_Unique_Generic_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_Boots_Unique_Generic_001": {
+				"desc": "Leaves a trail of frost that {c_important}Chills{/c} enemies. \n{c_important}Chilled{/c} enemies take {c_random}+[Affix_Value_1|%|]{/c} more damage."
+			},
+			"Affix_Boots_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_Chest_Unique_Generic_100": {
+				"desc": "{c_random}+[Affix_Flat_Value_1]{/c} Thorns"
+			},
+			"Affix_Chest_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_Gloves_Unique_Generic_002": {
+				"desc": "Your attacks randomly deal {c_number}[Affix_Value_2|%|]{/c} to {c_random}[Affix_Value_1|%|]{/c} of normal damage."
+			},
+			"Affix_Gloves_Unique_Generic_003": {
+				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to {c_important}Freeze{/c} enemies for {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+			},
+			"Affix_Gloves_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_Helm_Unique_Generic_001": {
+				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to trigger a poison nova that deals {c_number}[Affix_Flat_Value_1]{/c} Poison damage."
+			},
+			"Affix_Helm_Unique_Generic_002": {
+				"desc": "Gain {c_number}x[Affix_Value_1|1%|]{/c} damage reduction. \nIn addition, gain {c_number}+[Affix.\"Static Value 0\"]{/c} to all skills."
+			},
+			"Affix_Helm_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_Pants_Unique_Generic_Boost_NoPowers": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_Ring_Unique_Generic_100": {
+				"desc": "If a {c_important}Core{/c} skill hits at least {c_number}[Affix.\"Static Value 0\"]{/c} or more enemies, {c_random}[Affix_Value_1|%|]{/c} of the resource cost is refunded."
+			},
+			"Affix_Ring_Unique_Generic_Boost_NoPowers1": {
+				"desc": "This is a test item used for max level boosts."
+			},
+			"Affix_Ring_Unique_Generic_Boost_NoPowers2": {
+				"desc": "This is a test item used for max level boosts."
+			}
+		}
+	},
 	"Necromancer": {
 		"Legendary": {
 			"Affix_legendary_necro_002": {
