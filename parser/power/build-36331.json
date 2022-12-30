@@ -138,7 +138,7 @@
 				"name": "Windstriker's"
 			},
 			"Affix_legendary_barb_105": {
-				"desc": " After swapping weapons {c_number}[Affix.\"Static Value 0\"]{/c} times, gain {c_random}[Affix_Flat_Value_1]{/c} {c_important}Fortify{/c}.",
+				"desc": "After swapping weapons {c_number}[Affix.\"Static Value 0\"]{/c} times, gain {c_random}[Affix_Flat_Value_1]{/c} {c_important}Fortify{/c}.",
 				"name": "of Tempering Blows"
 			},
 			"Affix_legendary_barb_106": {
@@ -152,31 +152,49 @@
 		},
 		"Unique": {
 			"Affix_1HSword_Unique_Barb_100": {
-				"desc": "After generating {c_number}[Affix.\"Static Value 0\"]{/c} Fury your next {c_important}Core{/c} Skill creates a {c_important}Dust Devil{/c} that deals {c_random}[Affix_Flat_Value_1]{/c} damage to enemies behind the target."
+				"desc": "After generating {c_number}[Affix.\"Static Value 0\"]{/c} Fury your next {c_important}Core{/c} Skill creates a {c_important}Dust Devil{/c} that deals {c_random}[Affix_Flat_Value_1]{/c} damage to enemies behind the target.",
+				"flavor": "\"Without him the wine is less sweet, the hearth less warm, and our blades less keen. He deserved to see ten thousand more suns. Our blood-brother is gone, but Bul-Kathos willing, we will meet again one day.\"\n- Sorrowsong for Ramaladni",
+				"name": "Ramaladni's Magnum Opus"
 			},
 			"Affix_2HAxe_Unique_Barb_001": {
-				"desc": "{c_important}Steel Grasp{/c} launches {c_number}2{/c} additional chains. Enemies hit by {c_important}Steel Grasp{/c} are Slowed by {c_random}[Affix_Value_1*100|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+				"desc": "{c_important}Steel Grasp{/c} launches {c_number}2{/c} additional chains. Enemies hit by {c_important}Steel Grasp{/c} are Slowed by {c_random}[Affix_Value_1*100|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+				"flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\"\n- Gerti, Oxen Tribe Forgemaster",
+				"name": "Ancients' Oath"
 			},
 			"Affix_2HMace_Unique_Barb_001": {
-				"desc": "{c_important}Upheaval{/c} ignites the ground Burning enemies for an additional {c_random}[Affix_Flat_Value_1]{/c} damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+				"desc": "{c_important}Upheaval{/c} ignites the ground Burning enemies for an additional {c_random}[Affix_Flat_Value_1]{/c} damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+				"flavor": "The demon prince Ikonoth slew hundreds of the Heavenly Host with this infernal hammer before falling to none other than the Archangel Imperius himself.",
+				"name": "Hellhammer"
 			},
 			"Affix_2HMace_Unique_Barb_100": {
-				"desc": "{c_important}Death Blow{/c} creates a shockwave, dealing {c_random}[Affix_Value_1|%|]{/c} of its base damage to enemies. Enemies who die to this effect also reset {c_important}Death Blow\u00e2\u20ac\u2122s{/c} Cooldown."
+				"desc": "{c_important}Death Blow{/c} creates a shockwave, dealing {c_random}[Affix_Value_1|%|]{/c} of its base damage to enemies. Enemies who die to this effect also reset {c_important}Death Blow\u00e2\u20ac\u2122s{/c} Cooldown.",
+				"flavor": "The malformed snake creatures that reside in the swamps are not content with simply killing their prey. They seem to take a malicious pleasure from inflicting as much suffering as possible before death.",
+				"name": "Overkill"
 			},
 			"Affix_2HSword_Unique_Barb_002": {
-				"desc": "While using this weapon, damaging at least one enemy with {c_important}Rupture{/c} creates a blood pool that inflicts {c_random}[Affix_Flat_Value_1]{/c} Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds. Enemies standing in the pool take {c_number}x[Affix_Value_1|%|]{/c} increased Bleeding damage."
+				"desc": "While using this weapon, damaging at least one enemy with {c_important}Rupture{/c} creates a blood pool that inflicts {c_random}[Affix_Flat_Value_1]{/c} Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds. Enemies standing in the pool take {c_number}x[Affix_Value_1|%|]{/c} increased Bleeding damage.",
+				"flavor": "\"We've been fighting these flesh-eaters for so long, been soaked in so much blood, that after a while it's difficult to tell what side you're truly on.\"\n- Daelyr, Crane Tribe warrior",
+				"name": "Fields of Crimson"
 			},
 			"Affix_Boots_Unique_Barb_100": {
-				"desc": "After gaining the final damage bonus from {c_important}Walking Arsenal{/c}, you automatically cast {c_important}Ground Stomp{/c} and gain {c_random}[Affix_Value_1]{/c} Fury. This cannot happen more than once every {c_number}[Affix_Value_2]{/c} seconds."
+				"desc": "After gaining the final damage bonus from {c_important}Walking Arsenal{/c}, you automatically cast {c_important}Ground Stomp{/c} and gain {c_random}[Affix_Value_1]{/c} Fury. This cannot happen more than once every {c_number}[Affix_Value_2]{/c} seconds.",
+				"flavor": "\"While many Barbarians remained in the Dreadlands, small groups from the Oxen, Crane and Bear tribes instead chose to search the land for a new home.\"\n- A History of the Children of Bul-Kathos",
+				"name": "100,000 Steps"
 			},
 			"Affix_Chest_Unique_Barb_002": {
-				"desc": "While {c_important}Berserking{/c}, you deal {c_random}[Affix_Flat_Value_1]{/c} Fire damage every second to surrounding enemies."
+				"desc": "While {c_important}Berserking{/c}, you deal {c_random}[Affix_Flat_Value_1]{/c} Fire damage every second to surrounding enemies.",
+				"flavor": "The city of Harrogath, the final bastion of resistance against Baal's assault on Mt. Arreat, was reduced to rubble when the Worldstone was destroyed. The survivors never forgave the betrayal that led to the loss of their home.",
+				"name": "Rage of Harrogath"
 			},
 			"Affix_Gloves_Unique_Barb_001": {
-				"desc": "{c_important}Whirlwind{/c} explodes after it ends, dealing {c_random}[Affix_Value_1|%|]{/c} of the total base damage dealt to surrounding enemies as Fire damage."
+				"desc": "{c_important}Whirlwind{/c} explodes after it ends, dealing {c_random}[Affix_Value_1|%|]{/c} of the total base damage dealt to surrounding enemies as Fire damage.",
+				"flavor": "\"The brutish, almost simplistic construction of these gloves belies the strength they bestow. Gohr was clearly no craftsman, but it would be foolish to ignore the triumph of his work.\"\n- Barrett's Book of Implements",
+				"name": "Gohr's Devastating Grips"
 			},
 			"Affix_Ring_Unique_Barb_001": {
-				"desc": "Each point of Fury you generate while at max Fury grants your next {c_important}Core{/c} Skill {c_number}x[Affix_Value_1|%|]{/c} increased damage, up to {c_number}x[Affix_Value_1  * Affix_Value_2|%|]{/c}."
+				"desc": "Each point of Fury you generate while at max Fury grants your next {c_important}Core{/c} Skill {c_number}x[Affix_Value_1|%|]{/c} increased damage, up to {c_number}x[Affix_Value_1  * Affix_Value_2|%|]{/c}.",
+				"flavor": "\"The change that overtook my brother in the heat of battle was terrifying. His eyes turned hard like diamonds, and the way he moved... it was like he was dancing to music only he could hear.\"\n- Captain Davinus",
+				"name": "Battle Trance"
 			},
 			"Affix_TESTstephen_unique_barbarian_mace2h": {
 				"desc": "(PH) Consecutive Hammer of the Ancients increase the next cast's damage by {c_number}{Affix_Value_1}%{/c} up to {{Affix_Value_1}*2}% and its radius by {c_number}{Affix_Value_2}%{/c} up to {{Affix_Value_2}*2}%.",
@@ -247,7 +265,7 @@
 				"name": "Stonefur"
 			},
 			"Affix_legendary_druid_058": {
-				"desc": "{c_gold}Lucky Hit:{/c} {c_important}Storm skills{/c} have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}[Affix.\"Static Value 0\"]{/c} Spirit.\n\nYour base {c_important}Storm{/c} Skills are now also {c_important}Werewolf{/c} Skills ",
+				"desc": "{c_gold}Lucky Hit:{/c} {c_important}Storm skills{/c} have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}[Affix.\"Static Value 0\"]{/c} Spirit.\n\nYour base {c_important}Storm{/c} Skills are now also {c_important}Werewolf{/c} Skills",
 				"name": "Storm Beast's"
 			},
 			"Affix_legendary_druid_059": {
@@ -341,28 +359,44 @@
 		},
 		"Unique": {
 			"Affix_1HAxe_Unique_Druid_001": {
-				"desc": "{c_important}Grizzly Rage{/c} now shapeshifts you into a Dire Werewolf. Dire Werewolf gains {c_random}[Affix_Value_1|%|]{/c} movement speed instead of damage reduction and a {c_random}[Affix_Value_1*2|%|]{/c} Spirit cost reduction bonus. In addition, kills heal you for {c_number}[Affix.\"Static Value 0\"|%|]{/c} of your maximum Life."
+				"desc": "{c_important}Grizzly Rage{/c} now shapeshifts you into a Dire Werewolf. Dire Werewolf gains {c_random}[Affix_Value_1|%|]{/c} movement speed instead of damage reduction and a {c_random}[Affix_Value_1*2|%|]{/c} Spirit cost reduction bonus. In addition, kills heal you for {c_number}[Affix.\"Static Value 0\"|%|]{/c} of your maximum Life.",
+				"flavor": "The nights preceding the full moon are sometimes far more dangerous than the event itself. The anticipation of the upcoming event can drive some werewolves into a fever from which they never recover.",
+				"name": "Waxing Gibbous"
 			},
 			"Affix_1HMace_Unique_Druid_001": {
-				"desc": "{c_important}Lightning Storm{/c} Critical Strikes spawn {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}Dancing Bolts{/c} that seek enemies in the area dealing {c_random}[Affix_Flat_Value_1]{/c} Lightning damage."
+				"desc": "{c_important}Lightning Storm{/c} Critical Strikes spawn {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}Dancing Bolts{/c} that seek enemies in the area dealing {c_random}[Affix_Flat_Value_1]{/c} Lightning damage.",
+				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\" \n\u00e2\u20ac\u201c Airidah",
+				"name": "Tempest Song"
 			},
 			"Affix_2HStaff_Unique_Druid_001": {
-				"desc": "{c_important}Claw{/c} is now a {c_important}Storm{/c} skill and also casts {c_important}Storm Strike{/c} at {c_number}[Affix_Value_1|%|]{/c} normal damage."
+				"desc": "{c_important}Claw{/c} is now a {c_important}Storm{/c} skill and also casts {c_important}Storm Strike{/c} at {c_number}[Affix_Value_1|%|]{/c} normal damage.",
+				"flavor": "\"She has existed in Scosglen since before Fiacla-G\u00c3\u00a9ar walked the land. Her purpose is a mystery, and she remains impartial in all conflicts. Approach her with deference, and she may grant you her counsel.\"\n- Airidah, to Donan",
+				"name": "Greatstaff of the Crone"
 			},
 			"Affix_Chest_Unique_Druid_002": {
-				"desc": "Werewolf form is now your true form, and you gain {c_number}+2{/c} to all {c_important}Werewolf{/c} skills."
+				"desc": "Werewolf form is now your true form, and you gain {c_number}+2{/c} to all {c_important}Werewolf{/c} skills.",
+				"flavor": "\u00e2\u20ac\u0153He was not a victim of the curse - he sought it out. As his skin split and his bones cracked, his laughter never ceased.\" \n\u00e2\u20ac\u201c Tale of the Mad Nobleman",
+				"name": "Mad Wolf's Glee"
 			},
 			"Affix_Chest_Unique_Druid_003": {
-				"desc": "Werebear form is now your true form, and you gain {c_number}+2{/c} to all {c_important}Werebear{/c} skills."
+				"desc": "Werebear form is now your true form, and you gain {c_number}+2{/c} to all {c_important}Werebear{/c} skills.",
+				"flavor": "When the Days of Ash fell upon Scosglen, the great druid Nafain reminded his disciples that nothing, not even the loss of their humanity, was too great a sacrifice to protect T\u00c3\u00bar D\u00c3\u00balra from Astaroth's flames.",
+				"name": "Insatiable Fury"
 			},
 			"Affix_Pants_Unique_Druid_001": {
-				"desc": "Your {c_important}Wolf Companions{/c} are infused with the power of the storm, dealing Lightning damage and gaining the {c_important}Storm Howl{/c} ability."
+				"desc": "Your {c_important}Wolf Companions{/c} are infused with the power of the storm, dealing Lightning damage and gaining the {c_important}Storm Howl{/c} ability.",
+				"flavor": "\"The storm's rage is my own, brother. I call, and the skies roar in reply.\"\n- Vasily, to Bul-Kathos",
+				"name": "Storm's Companion"
 			},
 			"Affix_Ring_Unique_Druid_001": {
-				"desc": "Gain {c_number}1{/c} additional companion. In addition, your {c_important}Companion Skills{/c} deal {c_number}[Affix_Value_1|%|]{/c} bonus damage."
+				"desc": "Gain {c_number}1{/c} additional companion. In addition, your {c_important}Companion Skills{/c} deal {c_number}[Affix_Value_1|%|]{/c} bonus damage.",
+				"flavor": "\"A sapling from the Great Oak, left to grow at the seaward statue of the Druid's Patriarch, will on rare occasions be found twisted back upon itself, suffused with natural magic.\"\n- Barrett's Book of Implements",
+				"name": "Vasily's Prayer"
 			},
 			"Affix_Ring_Unique_Druid_003": {
-				"desc": "Gain a bonus when you kill with a {c_important}Shapeshifting{/c} Skill:\n\n{icon:bullet}{c_gold}Werewolf:{/c} Your next non-ultimate {c_important}Werebear{/c} Skill costs no resource and has no cooldown.\n{icon:bullet}{c_gold}Werebear:{/c} Your next {c_important}Werewolf{/c} skill will heal you for {c_number}[Affix_Flat_Value_1]{/c} when damage is first dealt."
+				"desc": "Gain a bonus when you kill with a {c_important}Shapeshifting{/c} Skill:\n\n{icon:bullet}{c_gold}Werewolf:{/c} Your next non-ultimate {c_important}Werebear{/c} Skill costs no resource and has no cooldown.\n{icon:bullet}{c_gold}Werebear:{/c} Your next {c_important}Werewolf{/c} skill will heal you for {c_number}[Affix_Flat_Value_1]{/c} when damage is first dealt.",
+				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-G\u00c3\u00a9ar! For Scosglen!\"\n- Nafain, during the Days of Ash",
+				"name": "Hunter's Zenith"
 			}
 		}
 	},
@@ -463,103 +497,149 @@
 		},
 		"Unique": {
 			"Affix_1HAxe_Unique_Generic_001": {
-				"desc": "Immobilize your target for {c_random}[Affix_Value_1|1|]{/c} seconds when you Critically Strike."
+				"desc": "Immobilize your target for {c_random}[Affix_Value_1|1|]{/c} seconds when you Critically Strike.",
+				"flavor": "A nightmarish amalgam of blood, bone and steel, this axe is as horrific, and as deadly, as its creator.",
+				"name": "The Butcher's Cleaver"
 			},
 			"Affix_1HAxe_Unique_Generic_Boost_NoPowers2": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Axe"
 			},
 			"Affix_1HAxe_Unique_Generic_NoPowers1": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Axe"
 			},
 			"Affix_1HDagger_Unique_Generic_Boost_NoPowers1": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Dagger"
 			},
 			"Affix_1HDagger_Unique_Generic_Boost_NoPowers2": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Dagger"
 			},
 			"Affix_1HFocus_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Sorc Offhand"
 			},
 			"Affix_1HShield_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Shield"
 			},
 			"Affix_1HSword_Unique_Generic_001": {
-				"desc": "Your skills have a {c_random}[Affix_Value_1|%|]{/c} chance to also deal {c_number}[Affix_Flat_Value_1]{/c} Shadow damage to surrounding enemies and reduce their damage done by {c_number}[Affix.\"Static Value 0\"|%|]{/c} for {c_number}3{/c} seconds."
+				"desc": "Your skills have a {c_random}[Affix_Value_1|%|]{/c} chance to also deal {c_number}[Affix_Flat_Value_1]{/c} Shadow damage to surrounding enemies and reduce their damage done by {c_number}[Affix.\"Static Value 0\"|%|]{/c} for {c_number}3{/c} seconds.",
+				"flavor": "Whenever this ancient sword has re-appeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
+				"name": "Doombringer"
 			},
 			"Affix_1HSword_Unique_Generic_100": {
-				"desc": "Critical Strikes with {c_important}Core{/c} Skills increase your Attack Speed by {c_random}+[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+				"desc": "Critical Strikes with {c_important}Core{/c} Skills increase your Attack Speed by {c_random}+[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+				"flavor": "Whenever you stare at the reflection in this blade, you see a demonic figure standing behind you: vague and distorted, but always laughing.",
+				"name": "Oblivion"
 			},
 			"Affix_1HWand_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Wand"
 			},
 			"Affix_2HBow_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Bow"
 			},
 			"Affix_2HMace_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Mace"
 			},
 			"Affix_2HScythe_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Scythe"
 			},
 			"Affix_2HStaff_Unique_Generic_101": {
-				"desc": "After a Crowd Control effect wears off from an enemy, they take {c_random}[Affix_Value_1|%|]{/c} increased damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+				"desc": "After a Crowd Control effect wears off from an enemy, they take {c_random}[Affix_Value_1|%|]{/c} increased damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+				"flavor": "\"Also known as The Greatstaff of the Old Religion, this powerful relic is one of only a small handful of Skatsimi artifacts that have survived to this day.\"\n- Barrett's Book of Implements",
+				"name": "Staff of Lam Esen"
 			},
 			"Affix_2HStaff_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Staff"
 			},
 			"Affix_2HSword_Unique_Generic_001": {
-				"desc": "Increases your critical strike damage by {c_random}[Affix_Value_1|%|]{/c}. \n\nThe other properties on this weapon can roll higher than normal."
+				"desc": "Increases your critical strike damage by {c_random}[Affix_Value_1|%|]{/c}. \n\nThe other properties on this weapon can roll higher than normal.",
+				"flavor": "An unbroken lineage of unwavering strength.",
+				"name": "The Grandfather"
 			},
 			"Affix_2HSword_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Sword"
 			},
 			"Affix_Amulet_Unique_Generic_100": {
-				"desc": "Gain {c_number}[Affix.\"Static Value 0\"|~%|]{/c} bonus maximum resource. In addition, when you take damage, drain {c_random}[Affix_Value_1|1|]{/c} resource for every {c_number}[Affix.\"Static Value 1\"|%|]{/c} of Life you would have lost instead."
+				"desc": "Gain {c_number}[Affix.\"Static Value 0\"|~%|]{/c} bonus maximum resource. In addition, when you take damage, drain {c_random}[Affix_Value_1|1|]{/c} resource for every {c_number}[Affix.\"Static Value 1\"|%|]{/c} of Life you would have lost instead.",
+				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig",
+				"name": "Melted Heart of Selig"
 			},
 			"Affix_Amulet_Unique_Generic_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Amulet"
 			},
 			"Affix_Boots_Unique_Generic_001": {
-				"desc": "Leaves a trail of frost that {c_important}Chills{/c} enemies. \n{c_important}Chilled{/c} enemies take {c_random}+[Affix_Value_1|%|]{/c} more damage."
+				"desc": "Leaves a trail of frost that {c_important}Chills{/c} enemies. \n{c_important}Chilled{/c} enemies take {c_random}+[Affix_Value_1|%|]{/c} more damage.",
+				"flavor": "Remorseful devotees of the Cathedral of Light must undertake a grueling pilgrimage, journeying across the frigid glacier known as the Serac Rapture. Only then may their gravest sins be forgiven.",
+				"name": "Penitent Greaves"
 			},
 			"Affix_Boots_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Boots"
 			},
 			"Affix_Chest_Unique_Generic_100": {
-				"desc": "{c_random}+[Affix_Flat_Value_1]{/c} Thorns"
+				"desc": "{c_random}+[Affix_Flat_Value_1]{/c} Thorns",
+				"flavor": "Crafted by the cannibal Armoda, each piece of this interlocking armor has been sharpened into a knife's edge. Even a century after her death, the plate remained on her corpse, unable to be removed safely.",
+				"name": "Razorplate"
 			},
 			"Affix_Chest_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Armor"
 			},
 			"Affix_Gloves_Unique_Generic_002": {
-				"desc": "Your attacks randomly deal {c_number}[Affix_Value_2|%|]{/c} to {c_random}[Affix_Value_1|%|]{/c} of normal damage."
+				"desc": "Your attacks randomly deal {c_number}[Affix_Value_2|%|]{/c} to {c_random}[Affix_Value_1|%|]{/c} of normal damage.",
+				"flavor": "\"Will you let fear cheat you, or will you risk everything to find understanding? After all, death is simply the coin with which we purchase life.\"\n- Zurke",
+				"name": "Fists of Fate"
 			},
 			"Affix_Gloves_Unique_Generic_003": {
-				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to {c_important}Freeze{/c} enemies for {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to {c_important}Freeze{/c} enemies for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+				"flavor": "A touch so frigid it stops the heart and chills the very soul.",
+				"name": "Frostburn"
 			},
 			"Affix_Gloves_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Gloves"
 			},
 			"Affix_Helm_Unique_Generic_001": {
-				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to trigger a poison nova that deals {c_number}[Affix_Flat_Value_1]{/c} Poison damage."
+				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to trigger a poison nova that deals {c_number}[Affix_Flat_Value_1]{/c} Poison damage.",
+				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness...",
+				"name": "Andariel's Visage"
 			},
 			"Affix_Helm_Unique_Generic_002": {
-				"desc": "Gain {c_number}x[Affix_Value_1|1%|]{/c} damage reduction. \nIn addition, gain {c_number}+[Affix.\"Static Value 0\"]{/c} to all skills."
+				"desc": "Gain {c_number}x[Affix_Value_1|1%|]{/c} damage reduction. \nIn addition, gain {c_number}+[Affix.\"Static Value 0\"]{/c} to all skills.",
+				"flavor": "\"This headdress was once worn by an assassin who disguised herself as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king and his entire lineage.\"\n- The Fall of House Aston",
+				"name": "Harlequin Crest"
 			},
 			"Affix_Helm_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Helm"
 			},
 			"Affix_Pants_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Pants"
 			},
 			"Affix_Ring_Unique_Generic_100": {
-				"desc": "If a {c_important}Core{/c} skill hits at least {c_number}[Affix.\"Static Value 0\"]{/c} or more enemies, {c_random}[Affix_Value_1|%|]{/c} of the resource cost is refunded."
+				"desc": "If a {c_important}Core{/c} skill hits at least {c_number}[Affix.\"Static Value 0\"]{/c} or more enemies, {c_random}[Affix_Value_1|%|]{/c} of the resource cost is refunded.",
+				"flavor": "The Cult of the Triune has been thought destroyed several times over the centuries. In reality, its members hide in temples across Sanctuary, awaiting the next great power that will promise them ascendancy.",
+				"name": "Signet of the Triune"
 			},
 			"Affix_Ring_Unique_Generic_Boost_NoPowers1": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Ring"
 			},
 			"Affix_Ring_Unique_Generic_Boost_NoPowers2": {
-				"desc": "This is a test item used for max level boosts."
+				"desc": "This is a test item used for max level boosts.",
+				"name": "Boost Ring"
 			}
 		}
 	},
@@ -732,28 +812,44 @@
 		},
 		"Unique": {
 			"Affix_2HScythe_Unique_Necro_100": {
-				"desc": "Your {c_important}Darkness{/c} Skills {c_important}Chill{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n\n{c_gold}Lucky Hit:{/c} Your {c_important}Darkness{/c} Skills have up to a {c_number}[Affix.\"Static Value 1\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} additional Essence against {c_important}Frozen{/c} targets. "
+				"desc": "Your {c_important}Darkness{/c} Skills {c_important}Chill{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n\n{c_gold}Lucky Hit:{/c} Your {c_important}Darkness{/c} Skills have up to a {c_number}[Affix.\"Static Value 1\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} additional Essence against {c_important}Frozen{/c} targets.",
+				"flavor": "\"My companion swung her strange weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI",
+				"name": "Bloodless Scream"
 			},
 			"Affix_Amulet_Unique_Necro_100": {
-				"desc": "{c_important}Blood Surge{/c} casts a mini nova on your {c_important}Minions{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} damage. Damage is increased by {c_number}[Affix.\"Static Value 0\"|%|]{/c} per target drained by the initial cast, up to {c_number}[Affix.\"Static Value 1\"|%|]{/c}."
+				"desc": "{c_important}Blood Surge{/c} casts a mini nova on your {c_important}Minions{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} damage. Damage is increased by {c_number}[Affix.\"Static Value 0\"|%|]{/c} per target drained by the initial cast, up to {c_number}[Affix.\"Static Value 1\"|%|]{/c}.",
+				"flavor": "Once a sanctum for Rathma's studies, the Temple of the Deathspeaker was most recently used as proving grounds for potential leaders of his priesthood. Its halls are filled with the corpses of those who failed.",
+				"name": "Deathspeaker's Pendant"
 			},
 			"Affix_Boots_Unique_Necro_100": {
-				"desc": "Create desecrated ground beneath your {c_important}Sever{/c} spectres as they travel, damaging enemies for {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds."
+				"desc": "Create desecrated ground beneath your {c_important}Sever{/c} spectres as they travel, damaging enemies for {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+				"flavor": "\"The massive stone door to my family's crypt, which had taken a dozen stout men to close, was thrown open wide. If I had known the horrors to come I would never have set foot inside that accursed place!\"\n- The Ebon Pages, Canto I, Verse VII",
+				"name": "Greaves of the Empty Tomb"
 			},
 			"Affix_Chest_Unique_Necro_100": {
-				"desc": "{c_important}Bone Storm{/c} and {c_important}Blood Wave{/c} are also {c_important}Darkness{/c} Skills and deal Shadow damage. \n\nEnemies damaged by {c_important}Bone Storm{/c} take {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.\n\n{c_important}Blood Wave{/c} desecrates the ground it travels over, dealing {c_random}[Affix_Flat_Value_1*Affix.\"Static Value 0\"]{/c} Shadow damage over {c_number}[Affix.\"Static Value 2\"]{/c} seconds"
+				"desc": "{c_important}Bone Storm{/c} and {c_important}Blood Wave{/c} are also {c_important}Darkness{/c} Skills and deal Shadow damage. \n\nEnemies damaged by {c_important}Bone Storm{/c} take {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.\n\n{c_important}Blood Wave{/c} desecrates the ground it travels over, dealing {c_random}[Affix_Flat_Value_1*Affix.\"Static Value 0\"]{/c} Shadow damage over {c_number}[Affix.\"Static Value 2\"]{/c} seconds",
+				"flavor": "The dark wisps that crawl across this armor burrow into magic the way maggots might bore through putrid flesh.",
+				"name": "Shadowclad Cuirass"
 			},
 			"Affix_Gloves_Unique_Necro_100": {
-				"desc": "Instead of detonating immediately, {c_important}Corpse Explosion{/c} summons a volatile undead that charges at a random enemy and explodes. {c_important}Corpse Explosion's{/c} damage is increased by {c_random}x[Affix_Value_1|%|]{/c}."
+				"desc": "Instead of detonating immediately, {c_important}Corpse Explosion{/c} summons a volatile undead that charges at a random enemy and explodes. {c_important}Corpse Explosion's{/c} damage is increased by {c_random}x[Affix_Value_1|%|]{/c}.",
+				"flavor": "\"Can you not hear it? That endless scream from the cold earth beneath your feet!? They are down there, trapped, blind with rage! Waiting to drag us down into the sod!\"\n- Ravings of Madman Gustav",
+				"name": "Howl from Below"
 			},
 			"Affix_Helm_Unique_Necro_100": {
-				"desc": "Bone Spear leaves behind echoes as it travels that explode, dealing {c_random}[Affix_Flat_Value_1]{/c} damage."
+				"desc": "Bone Spear leaves behind echoes as it travels that explode, dealing {c_random}[Affix_Flat_Value_1]{/c} damage.",
+				"flavor": "\"Rathma is endless. He was the first of the Ancients, and only he will remain at the end. He is the true master of the Great Cycle of Being. When Death eventually comes for him, why should he fear it?\"\n- Vauntus, Acolyte of Rathma",
+				"name": "Deathless Visage"
 			},
 			"Affix_Pants_Unique_Necro_100": {
-				"desc": "{c_important}Blood Mist{/c} triggers {c_important}Corpse Explosion{/c} on surrounding Corpses. \nWhen {c_important}Blood Mist{/c} detonates a Corpse, its Cooldown is reduced by {c_random}[Affix_Value_1|1|]{/c} seconds."
+				"desc": "{c_important}Blood Mist{/c} triggers {c_important}Corpse Explosion{/c} on surrounding Corpses. \nWhen {c_important}Blood Mist{/c} detonates a Corpse, its Cooldown is reduced by {c_random}[Affix_Value_1|1|]{/c} seconds.",
+				"flavor": "\"The infamous Necromancer Gaza-Thul's mastery over blood magic was indisputable. Many suspect that upon his death, his skin was used to fashion these eldritch leggings.\"\n- Barrett's Book of Implements",
+				"name": "Blood Artisan's Brais"
 			},
 			"Affix_Ring_Unique_Necro_100": {
-				"desc": "While your {c_important}Minions{/c} are improved by the {c_important}Strength in Numbers{/c} Passive, you gain:\n\n{c_gold}Lucky Hit:{/c} Up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to empower all of your {c_important}Minions{/c}, causing the next attack from each to explode for {c_random}[Affix_Flat_Value_1]{/c} Physical damage."
+				"desc": "While your {c_important}Minions{/c} are improved by the {c_important}Strength in Numbers{/c} Passive, you gain:\n\n{c_gold}Lucky Hit:{/c} Up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to empower all of your {c_important}Minions{/c}, causing the next attack from each to explode for {c_random}[Affix_Flat_Value_1]{/c} Physical damage.",
+				"flavor": "The signet ring of Mendeln ul-Diomed, the founder of the Priests of Rathma and the first Necromancer, was lost for over 3,000 years. The power over life and death held within, however, has not dimished.",
+				"name": "Ring of Mendeln"
 			}
 		}
 	},
@@ -772,7 +868,7 @@
 				"name": "of Sleeting Imbuements"
 			},
 			"Affix_legendary_rogue_010": {
-				"desc": " Whenever {c_important}Penetrating Shot{/c} damages an enemy, {c_number}2{/c} additional arrows split off to either side. These side arrows deal {c_random}[Affix_Value_1|%|]{/c} of {c_important}Penetrating Shot's{/c} base damage and do not split.",
+				"desc": "Whenever {c_important}Penetrating Shot{/c} damages an enemy, {c_number}2{/c} additional arrows split off to either side. These side arrows deal {c_random}[Affix_Value_1|%|]{/c} of {c_important}Penetrating Shot's{/c} base damage and do not split.",
 				"name": "Trickshot"
 			},
 			"Affix_legendary_rogue_011": {
@@ -890,28 +986,44 @@
 		},
 		"Unique": {
 			"Affix_1HDagger_Unique_Rogue_001": {
-				"desc": "Your {c_important}Core{/c} Skills deal {c_random}x[Affix_Value_1|%|]{/c} increased damage per {c_important}Combo Point{/c} spent. However, your {c_important}Basic{/c} Skills using this weapon have a {c_number}[Affix_Value_2|%|]{/c} chance to generate {c_number}0{/c} {c_important}Combo Points{/c}."
+				"desc": "Your {c_important}Core{/c} Skills deal {c_random}x[Affix_Value_1|%|]{/c} increased damage per {c_important}Combo Point{/c} spent. However, your {c_important}Basic{/c} Skills using this weapon have a {c_number}[Affix_Value_2|%|]{/c} chance to generate {c_number}0{/c} {c_important}Combo Points{/c}.",
+				"flavor": "\"I've never seen such ruthless butchery. He deserves to be be shipped off to die in the swamps with the rest of the godless murderers.\"\n- Witness to the murder of Sergeant Walcot",
+				"name": "Condemnation"
 			},
 			"Affix_1HDagger_Unique_Rogue_002": {
-				"desc": "Hits with this weapon increase your Attack Speed by {c_random}+[Affix_Value_1 * 100|1%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}+[Affix_Value_1 * Affix.\"Static Value 1\" * 100|1%|]{/c}."
+				"desc": "Hits with this weapon increase your Attack Speed by {c_random}+[Affix_Value_1 * 100|1%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}+[Affix_Value_1 * Affix.\"Static Value 1\" * 100|1%|]{/c}.",
+				"flavor": "When Caldeum's gates closed, Asheara led her Iron Wolves out of the city knowing full well they would never return. Instead they roamed Kehjistan pledging their blades to any who were in need.",
+				"name": "Asheara's Khanjar"
 			},
 			"Affix_2HBow_Unique_Rogue_001": {
-				"desc": "The first direct damage you deal to an enemy is a guaranteed Critical Strike. If you had maximum {c_important}Precision{/c} stacks when you cast the Skill, gain {c_random}[Affix_Value_1]{/c} {c_important}Energy{/c}, this can only happen once per cast."
+				"desc": "The first direct damage you deal to an enemy is a guaranteed Critical Strike. If you had maximum {c_important}Precision{/c} stacks when you cast the Skill, gain {c_random}[Affix_Value_1]{/c} {c_important}Energy{/c}, this can only happen once per cast.",
+				"flavor": "\"Genai took up her bow and, drawing back the string, aimed at the sun itself. The sun burned her eyes, but her arrow flew true. Wounded, the sun hid, and brought forth the first night.\n- Fable of \"The Great Sky-Hunt\"",
+				"name": "Skyhunter"
 			},
 			"Affix_2HBow_Unique_Rogue_006": {
-				"desc": "{c_gold}Lucky Hit:{/c} Hits with this weapon have up to a {c_random}[Affix_Value_1|%|]{/c} chance to deal double damage and Knock Back the target."
+				"desc": "{c_gold}Lucky Hit:{/c} Hits with this weapon have up to a {c_random}[Affix_Value_1|%|]{/c} chance to deal double damage and Knock Back the target.",
+				"flavor": "\"There have been numerous world-shaping conflicts throughout history. This bow has been found on the battlefield of every one, and always in the hands of the victors.\"\n- Barrett's Book of Implements",
+				"name": "Windforce"
 			},
 			"Affix_2HCrossbow_Unique_Rogue_100": {
-				"desc": "{c_important}Rapid Fire{/c} has a {c_random}[Affix_Value_1|%|]{/c} chance to ricochet to another target."
+				"desc": "{c_important}Rapid Fire{/c} has a {c_random}[Affix_Value_1|%|]{/c} chance to ricochet to another target.",
+				"flavor": "Let the great gates of Caldeum be sealed. Let its proud walls stand fiercely defended. The rest of Kehjistan may be forced to suffer this plague, but my city, and my people, will not.\" \n- Proclamation of Hakan II",
+				"name": "Word of Hakan"
 			},
 			"Affix_Helm_Unique_Rogue_001": {
-				"desc": "You gain {c_random}x[Affix_Value_1|%|]{/c} increased Lucky Hit Chance against Crowd Controlled enemies."
+				"desc": "You gain {c_random}x[Affix_Value_1|%|]{/c} increased Lucky Hit Chance against Crowd Controlled enemies.",
+				"flavor": "\"He is banished from the Guild, his name stricken from the Book. His punishment is to never have been.\" \n- Excerpt from a burned parchment",
+				"name": "Cowl of the "
 			},
 			"Affix_Pants_Unique_Rogue_004": {
-				"desc": "{c_important}Death Trap{/c} {c_important}Freezes{/c} enemies for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, but deals {c_random}[Affix_Value_1|%|]{/c} of its base damage."
+				"desc": "{c_important}Death Trap{/c} {c_important}Freezes{/c} enemies for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, but deals {c_random}[Affix_Value_1|%|]{/c} of its base damage.",
+				"flavor": "\"From that day forth, he knew whenever he felt that strange cold breeze on the nape of his neck that Ashen Jack was somewhere very close by, watching and waiting.\"\n- Greenslade's Tales, Chapter 2: \"A Cold Wind Blows\"",
+				"name": "Chill of Night"
 			},
 			"Affix_Pants_Unique_Rogue_100": {
-				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to gain a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds that absorbs {c_number}[Affix_Flat_Value_1]{/c} damage for each stack of Momentum you have, up to a maximum of {c_number}[Affix_Flat_Value_1 * Affix.\"Static Value 1\"]{/c} damage."
+				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to gain a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds that absorbs {c_number}[Affix_Flat_Value_1]{/c} damage for each stack of Momentum you have, up to a maximum of {c_number}[Affix_Flat_Value_1 * Affix.\"Static Value 1\"]{/c} damage.",
+				"flavor": "\"The revelation that master tailor Callas was in fact a witch only served to further fuel the desire for her uniquely enchanted legwraps.\" \n- Barrett's Book of Implements",
+				"name": "Temerity"
 			}
 		}
 	},
@@ -966,7 +1078,7 @@
 				"name": "of Ancient Flame"
 			},
 			"Affix_legendary_sorc_102": {
-				"desc": "Burning Damage has a {c_random}x[Affix_Value_1|%|]{/c} increased chance to trigger Lucky Hits. ",
+				"desc": "Burning Damage has a {c_random}x[Affix_Value_1|%|]{/c} increased chance to trigger Lucky Hits.",
 				"name": "of Blazing Fortune"
 			},
 			"Affix_legendary_sorc_103": {
@@ -1092,28 +1204,44 @@
 		},
 		"Unique": {
 			"Affix_1HWand_Unique_Sorc_100": {
-				"desc": "While Channeling {c_important}Incinerate{/c}, you periodically shoot embers that are attracted to enemies, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage."
+				"desc": "While Channeling {c_important}Incinerate{/c}, you periodically shoot embers that are attracted to enemies, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage.",
+				"flavor": "The burn may heal, but the pain is eternal.",
+				"name": "Flamescar"
 			},
 			"Affix_2HStaff_Unique_Sorc_002": {
-				"desc": "{c_important}Fireball{/c_important} launches {c_number}3{/c} projectiles that deal {c_number}[Affix_Value_1|%|]{/c} of normal damage."
+				"desc": "{c_important}Fireball{/c_important} launches {c_number}3{/c} projectiles that deal {c_number}[Affix_Value_1|%|]{/c} of normal damage.",
+				"flavor": "\"Leaving even blackened bones for your kin to mourn is too good an end for you.\" \n- Josiah",
+				"name": "Staff of Endless Rage"
 			},
 			"Affix_Amulet_Unique_Sorc_100": {
-				"desc": "Collecting {c_important}Crackling Energy{/c} while full releases a lightning nova, dealing {c_random}[Affix_Flat_Value_1]{/c} Lightning damage to enemies around you."
+				"desc": "Collecting {c_important}Crackling Energy{/c} while full releases a lightning nova, dealing {c_random}[Affix_Flat_Value_1]{/c} Lightning damage to enemies around you.",
+				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both.",
+				"name": "Esadora's Overflowing Cameo"
 			},
 			"Affix_Chest_Unique_Sorc_002": {
-				"desc": "After using {c_important}Teleport{/c}, Close enemies are Pulled to you and Stunned for {c_random}[Affix_Value_1|1|]{/c} seconds, but {c_important}Teleport's{/c} Cooldown is increased by {c_number}x[Affix.\"Static Value 0\"|%|]{/c}."
+				"desc": "After using {c_important}Teleport{/c}, Close enemies are Pulled to you and Stunned for {c_random}[Affix_Value_1|1|]{/c} seconds, but {c_important}Teleport's{/c} Cooldown is increased by {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
+				"flavor": "The power you have is never enough.",
+				"name": "Raiment of the Infinite"
 			},
 			"Affix_Gloves_Unique_Sorc_002": {
-				"desc": "{c_important}Fireball{/c_important} now bounces as it travels, exploding each time it hits the ground, but its explosion deals {c_random}[Affix_Value_1|%|]{/c} less damage."
+				"desc": "{c_important}Fireball{/c_important} now bounces as it travels, exploding each time it hits the ground, but its explosion deals {c_random}[Affix_Value_1|%|]{/c} less damage.",
+				"flavor": "After Inarius returned to Sanctuary, he sought a way back to the High Heavens. His first step was to re-ignite the religion he had abandoned millennia before: The Cathedral of Light.",
+				"name": "Gloves of the Illuminator"
 			},
 			"Affix_Gloves_Unique_Sorc_100": {
-				"desc": "Free casts from the {c_important}Icefall{/c} Passive gain {c_random}+[Affix_Value_1|%|]{/c} Attack Speed."
+				"desc": "Free casts from the {c_important}Icefall{/c} Passive gain {c_random}+[Affix_Value_1|%|]{/c} Attack Speed.",
+				"flavor": "\"While scholars have since proven these gloves were not created by Esu herself, it is noteworthy that they have been passed down in an unbroken line since the formation of the Mage Clans.\" \n- Barrett's Book of Implements",
+				"name": "Esu's Heirloom"
 			},
 			"Affix_Ring_Unique_Sorc_100": {
-				"desc": "Explosions from the {c_important}Shatter{/c} Passive deal {c_random}x[Affix_Value_1|%|]{/c} increased damage if enemies die while {c_important}Frozen{/c}."
+				"desc": "Explosions from the {c_important}Shatter{/c} Passive deal {c_random}x[Affix_Value_1|%|]{/c} increased damage if enemies die while {c_important}Frozen{/c}.",
+				"flavor": "The mad artisan saw his fingers turn black from frostbite as he worked on the ring, but refused to stay the hammer for even a moment.",
+				"name": "Iceheart Band"
 			},
 			"Affix_Ring_Unique_Sorc_101": {
-				"desc": "{c_important}Crackling Energy{/c} has a {c_random}[Affix_Value_1|%|]{/c} chance to chain to an additional enemy."
+				"desc": "{c_important}Crackling Energy{/c} has a {c_random}[Affix_Value_1|%|]{/c} chance to chain to an additional enemy.",
+				"flavor": "\"Yours is the power to pluck the stars from the heavens with the ease of a child gathering fruit from the bough.\" \n- Esu, to an unknown Sorcerer",
+				"name": "Ring of Starless Skies"
 			}
 		}
 	}
