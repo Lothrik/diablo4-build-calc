@@ -4,7 +4,7 @@
 			"Affix_legendary_barb_001": "Whenever you deal direct damage while {c_important}Berserking{/c}, inflict {c_random}[Affix_Value_1*100|%|]{/c} of the base damage dealt as additional Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 			"Affix_legendary_barb_002": "{c_important}Ground Stomp{/c} creates an {c_important}Earthquake{/c} damaging enemies for {c_random}[Affix_Flat_Value_1]{/c} Physical damage over {c_number}[PowerTag.Barbarian_Earthquake.\"Script Formula 1\"]{/c} seconds. While standing in Earthquakes, you deal {c_random}x[Affix_Value_1|%|]{/c} increased damage.",
 			"Affix_legendary_barb_003": "Stunning a Bleeding enemy deals {c_random}[Affix_Value_1|%|]{/c} of their total Bleeding amount to them as Physical damage.",
-			"Affix_legendary_barb_004": "Your {c_important}Weapon Mastery{/c} Skills have an additional Charge.\n",
+			"Affix_legendary_barb_004": "Your {c_important}Weapon Mastery{/c} Skills have an additional Charge.\n\n{c_gold}Lucky Hit:{/c} Damaging an enemy with a {c_important}Weapon Mastery{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to Stun them for {c_number}[Affix_Value_2]{/c} seconds.",
 			"Affix_legendary_barb_005": "Gain {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c} Damage Reduction for each Nearby Bleeding enemy up to {c_random}[Affix_Value_1|%|]{/c} maximum.",
 			"Affix_legendary_barb_006": "Gain {c_important}Berserking{/c} for {c_random}[Affix_Value_1|1|]{/c} seconds when you swap to this weapon.",
 			"Affix_legendary_barb_007": "Your {c_important}Shout{/c} skills generate {c_random}[Affix_Value_1|1|]{/c} Fury per second while active.",
@@ -63,13 +63,13 @@
 			"Affix_legendary_druid_023": "{c_important}Earth{/c} Skills deal {c_random}x[Affix_Value_1|%|]{/c} more Critical Strike damage to Crowd Controlled enemies.",
 			"Affix_legendary_druid_026": "The duration of {c_important}Earthen Bulwark{/c} is increased by {c_number}[Affix_Value_2]{/c} seconds. In addition, killing an enemy with {c_important}Earth{/c} Skills replenishes {c_random}[Affix_Flat_Value_1]{/c} of your active {c_important}Earthen Bulwark's{/c} barrier.",
 			"Affix_legendary_druid_028": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance when dealing Lightning damage to overload the target for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, causing any direct damage you deal to them to pulse {c_number}[Affix_Flat_Value_1]{/c} additional damage to surrounding enemies.",
-			"Affix_legendary_druid_029": "Casting a {c_important}Storm{/c} Skill grants your {c_important}Earth{/c} Skills {c_random}x[Affix_Value_1|1%|]{/c} Critical Strike Damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.\n",
+			"Affix_legendary_druid_029": "Casting a {c_important}Storm{/c} Skill grants your {c_important}Earth{/c} Skills {c_random}x[Affix_Value_1|1%|]{/c} Critical Strike Damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.\n\nCasting a {c_important}Earth{/c} Skill increases the Critical Strike Chance of {c_important}Storm{/c} Skills by {c_random}[Affix_Value_1 /3.75|1%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 			"Affix_legendary_druid_038": "{c_important}Werebear{/c} Skills restore {c_random}[Affix_Value_1|1|]{/c} Spirit when you hit enemies afflicted by your Poisons. When Spirit is restored, your Poison effects are removed from the enemy.",
 			"Affix_legendary_druid_042": "When you use a {c_important}Shapeshifting{/c} Skill that changes your form, gain {c_random}[Affix_Flat_Value_1]{/c} Life. If you are at full Life, gain the same amount as {c_important}Fortify{/c}.",
 			"Affix_legendary_druid_047": "{c_important}Earthspike{/c} launches spikes in a line and has a {c_random}[Affix_Value_1|1|]{/c} second cooldown.",
 			"Affix_legendary_druid_049": "{c_important}Trample{/c} now summons {c_important}Landslides{/c} during it's duration that deal {c_random}[Affix_Value_1|%|]{/c} normal damage. {c_important}Trample{/c} is now also a {c_important}Nature Magic{/c} and {c_important}Earth{/c} Skill.",
 			"Affix_legendary_druid_057": "Your {c_important}Earth skills{/c} are now also {c_important}Werebear skills{/c} and {c_important}Fortify{/c} you for {c_number}[Affix_Flat_Value_1]{/c}.",
-			"Affix_legendary_druid_058": "{c_gold}Lucky Hit:{/c} {c_important}Storm skills{/c} have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}[Affix.\"Static Value 0\"]{/c} Spirit.\n",
+			"Affix_legendary_druid_058": "{c_gold}Lucky Hit:{/c} {c_important}Storm skills{/c} have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}[Affix.\"Static Value 0\"]{/c} Spirit.\n\nYour base {c_important}Storm{/c} Skills are now also {c_important}Werewolf{/c} Skills ",
 			"Affix_legendary_druid_059": "Critical strikes with {c_important}Shred{/c} deal {c_random}[Affix_Value_1|%|]{/c} of the damage dealt as lightning to the target and surrounding enemies.",
 			"Affix_legendary_druid_060": "Increase your maximum Spirit by {c_random}[Affix_Value_1]{/c} and Spirit Generation by {c_number}x[Affix_Value_2|%|]{/c} while {c_important}Grizzly Rage{/c} is active.",
 			"Affix_legendary_druid_062": "{c_important}Cyclone Armor{/c} also provides Physical Damage Reduction. In addition, {c_important}Cyclone Armor{/c} will also be applied to all Nearby Allies.",
@@ -101,7 +101,7 @@
 			"Affix_Chest_Unique_Druid_003": "Werebear form is now your true form, and you gain {c_number}+2{/c} to all {c_important}Werebear{/c} skills.",
 			"Affix_Pants_Unique_Druid_001": "Your {c_important}Wolf Companions{/c} are infused with the power of the storm, dealing Lightning damage and gaining the {c_important}Storm Howl{/c} ability.",
 			"Affix_Ring_Unique_Druid_001": "Gain {c_number}1{/c} additional companion. In addition, your {c_important}Companion Skills{/c} deal {c_number}[Affix_Value_1|%|]{/c} bonus damage.",
-			"Affix_Ring_Unique_Druid_003": "Gain a bonus when you kill with a {c_important}Shapeshifting{/c} Skill:\n"
+			"Affix_Ring_Unique_Druid_003": "Gain a bonus when you kill with a {c_important}Shapeshifting{/c} Skill:\n\n{icon:bullet}{c_gold}Werewolf:{/c} Your next non-ultimate {c_important}Werebear{/c} Skill costs no resource and has no cooldown.\n{icon:bullet}{c_gold}Werebear:{/c} Your next {c_important}Werewolf{/c} skill will heal you for {c_number}[Affix_Flat_Value_1]{/c} when damage is first dealt."
 		}
 	},
 	"Necromancer": {
@@ -149,19 +149,19 @@
 			"Affix_legendary_necro_120": "Consuming a {c_important}Corpse{/c} has a {c_random}[Affix_Value_1|%|]{/c} chance to spawn a {c_important}Blood Orb{/c}."
 		},
 		"Unique": {
-			"Affix_2HScythe_Unique_Necro_100": "Your {c_important}Darkness{/c} Skills {c_important}Chill{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n",
+			"Affix_2HScythe_Unique_Necro_100": "Your {c_important}Darkness{/c} Skills {c_important}Chill{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n\n{c_gold}Lucky Hit:{/c} Your {c_important}Darkness{/c} Skills have up to a {c_number}[Affix.\"Static Value 1\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} additional Essence against {c_important}Frozen{/c} targets. ",
 			"Affix_Amulet_Unique_Necro_100": "{c_important}Blood Surge{/c} casts a mini nova on your {c_important}Minions{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} damage. Damage is increased by {c_number}[Affix.\"Static Value 0\"|%|]{/c} per target drained by the initial cast, up to {c_number}[Affix.\"Static Value 1\"|%|]{/c}.",
 			"Affix_Boots_Unique_Necro_100": "Create desecrated ground beneath your {c_important}Sever{/c} spectres as they travel, damaging enemies for {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
-			"Affix_Chest_Unique_Necro_100": "{c_important}Bone Storm{/c} and {c_important}Blood Wave{/c} are also {c_important}Darkness{/c} Skills and deal Shadow damage. \n",
+			"Affix_Chest_Unique_Necro_100": "{c_important}Bone Storm{/c} and {c_important}Blood Wave{/c} are also {c_important}Darkness{/c} Skills and deal Shadow damage. \n\nEnemies damaged by {c_important}Bone Storm{/c} take {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.\n\n{c_important}Blood Wave{/c} desecrates the ground it travels over, dealing {c_random}[Affix_Flat_Value_1*Affix.\"Static Value 0\"]{/c} Shadow damage over {c_number}[Affix.\"Static Value 2\"]{/c} seconds",
 			"Affix_Gloves_Unique_Necro_100": "Instead of detonating immediately, {c_important}Corpse Explosion{/c} summons a volatile undead that charges at a random enemy and explodes. {c_important}Corpse Explosion's{/c} damage is increased by {c_random}x[Affix_Value_1|%|]{/c}.",
 			"Affix_Helm_Unique_Necro_100": "Bone Spear leaves behind echoes as it travels that explode, dealing {c_random}[Affix_Flat_Value_1]{/c} damage.",
-			"Affix_Pants_Unique_Necro_100": "{c_important}Blood Mist{/c} triggers {c_important}Corpse Explosion{/c} on surrounding Corpses. \n",
-			"Affix_Ring_Unique_Necro_100": "While your {c_important}Minions{/c} are improved by the {c_important}Strength in Numbers{/c} Passive, you gain:\n"
+			"Affix_Pants_Unique_Necro_100": "{c_important}Blood Mist{/c} triggers {c_important}Corpse Explosion{/c} on surrounding Corpses. \nWhen {c_important}Blood Mist{/c} detonates a Corpse, its Cooldown is reduced by {c_random}[Affix_Value_1|1|]{/c} seconds.",
+			"Affix_Ring_Unique_Necro_100": "While your {c_important}Minions{/c} are improved by the {c_important}Strength in Numbers{/c} Passive, you gain:\n\n{c_gold}Lucky Hit:{/c} Up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to empower all of your {c_important}Minions{/c}, causing the next attack from each to explode for {c_random}[Affix_Flat_Value_1]{/c} Physical damage."
 		}
 	},
 	"Rogue": {
 		"Legendary": {
-			"Affix_legendary_rogue_003": "{c_important}Shadow Clone{/c} also mimics the {c_important}Imbuements{/c} applied to your Skills. \n",
+			"Affix_legendary_rogue_003": "{c_important}Shadow Clone{/c} also mimics the {c_important}Imbuements{/c} applied to your Skills. \nCasting an {c_important}Imbuement{/c} Skill grants your {c_important}Shadow Clone{/c} {c_random}x[Affix_Value_1|%|]{/c} increased damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 			"Affix_legendary_rogue_004": "Gain a {c_important}Dark Shroud{/c} shadow every {c_number}[Affix.\"Static Value 0\"]{/c} seconds when standing still. Each {c_important}Dark Shroud{/c} shadow grants {c_random}[Affix_Value_1|1%|]{/c} increased Damage Reduction.",
 			"Affix_legendary_rogue_008": "Your {c_important}Rain of Arrows{/c} is always affected by all {c_important}Imbuements{/c} Skills at once.",
 			"Affix_legendary_rogue_010": " Whenever {c_important}Penetrating Shot{/c} damages an enemy, {c_number}2{/c} additional arrows split off to either side. These side arrows deal {c_random}[Affix_Value_1|%|]{/c} of {c_important}Penetrating Shot's{/c} base damage and do not split.",
@@ -178,7 +178,7 @@
 			"Affix_legendary_rogue_028": "{c_gold}Lucky Hit:{/c} Your {c_important}Ranged{/c} skills have up to a {c_number}[Affix.\"Static Value 2\"|%|]{/c} chance to create an arrow storm at the target's present location, dealing {c_random}[Affix_Flat_Value_1]{/c} Physical damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds. You can have up to {c_number}[Affix.\"Static Value 1\"]{/c} active arrow storms.",
 			"Affix_legendary_rogue_100": "{c_important}Barrage's{/c} arrows have a {c_random}[Affix_Value_1|%|]{/c} chance to split into {c_number}2{/c} arrows whenever they ricochet.",
 			"Affix_legendary_rogue_101": "{c_label}Lucky Hit:{/c} Dealing direct damage to enemies affected by your {c_important}Trap{/c} Skills has up to a {c_random}[Affix_Value_1|%|]{/c} chance to make them {c_important}Vulnerable{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
-			"Affix_legendary_rogue_102": "Your {c_important}Grenades{/c} Skills count as {c_important}Trap{/c} Skills. \n",
+			"Affix_legendary_rogue_102": "Your {c_important}Grenades{/c} Skills count as {c_important}Trap{/c} Skills. \nWhenever you arm a {c_important}Trap{/c} or drop {c_important}Grenades{/c}, you gain {c_random}+[Affix_Value_1|%|]{/c} increased Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 			"Affix_legendary_rogue_103": "Whenever you trigger a Lucky Hit, gain {c_random}x[Affix_Value_1|%|]{/c} increased Damage Reduction for {c_number}[Affix_Value_2]{/c} seconds, up to a maximum of {c_random}x[Affix_Value_1 * Affix.\"Static Value 0\"|%|]{/c}.",
 			"Affix_legendary_rogue_104": "Explosions from the {c_important}Victimize{/c} Passive Heal you for {c_random}[Affix_Flat_Value_1]{/c} Life for each enemy damaged, up to a maximum of {c_random}[Affix_Flat_Value_1 * Affix.\"Static Value 0\"]{/c} Life.",
 			"Affix_legendary_rogue_105": "{c_gold}Lucky Hit:{/c} Making an enemy {c_important}Vulnerable{/c} has up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}+[Affix.\"Static Value 0\"|%|]{/c} increased Critical Strike Chance for {c_number}[Affix.\"Static Value 1\"]{/c} seconds, up to {c_number}+[Affix.\"Static Value 0\" * Affix.\"Static Value 2\"|%|]{/c}.",
@@ -216,14 +216,14 @@
 			"Affix_legendary_sorc_035": "{c_important}Frozen Orb{/c} stays in place after reaching its destination and explodes {c_number}[Affix.\"Static Value 0\"]{/c} additional times for {c_random}[Affix_Value_1|%|]{/c} of its damage.",
 			"Affix_legendary_sorc_037": "{c_important}Charged Bolts{/c} pierce, but deal {c_random}x[Affix_Value_1|%|]{/c} less damage.",
 			"Affix_legendary_sorc_039": "You may have {c_number}[Affix.\"Static Value 0\"]{/c} additional {c_important}Hydra{/c} active, but {c_important}Hydra\u00e2\u20ac\u2122s{/c} Mana cost is increased by {c_random}[Affix_Value_1|%|]{/c}.",
-			"Affix_legendary_sorc_043": "{c_important}Meteorites{/c} fall around you during {c_important}Inferno{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage on impact. \n",
+			"Affix_legendary_sorc_043": "{c_important}Meteorites{/c} fall around you during {c_important}Inferno{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage on impact. \nYour {c_important}Meteorites{/c} {c_important}Immobilize{/c} enemies for {c_number}[Affix_Value_2]{/c} seconds.",
 			"Affix_legendary_sorc_100": "While Channeling {c_important}Incinerate{/c}, your Burning damage is increased by {c_random}x[Affix_Value_1|%|]{/c}.",
 			"Affix_legendary_sorc_101": "{c_important}Esu\u00e2\u20ac\u2122s Ferocity{/c} no longer grants a Burning Damage bonus, but its Direct Damage bonus is increased by {c_random}[Affix_Value_1|%|]{/c}.",
 			"Affix_legendary_sorc_102": "Burning Damage has a {c_random}x[Affix_Value_1|%|]{/c} increased chance to trigger Lucky Hits. ",
 			"Affix_legendary_sorc_103": "Killing a Burning enemy grants {c_random}x[Affix_Value_1|%|]{/c} Mana Cost reduction for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}x[Affix_Value_1*Affix.\"Static Value 1\"|%|]{/c}.",
 			"Affix_legendary_sorc_104": "Every {c_number}[Affix.\"Static Value 0\"]{/c} times you deal Direct Fire Damage to an enemy, they are Immobilized for {c_random}[Affix_Value_1]{/c} seconds.",
 			"Affix_legendary_sorc_105": "Coming in contact with your {c_important}Firewall{/c} grants you {c_random}+[Affix_Value_1|%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
-			"Affix_legendary_sorc_106": "{c_important}Meteorites{/c} fall around {c_important}Meteor{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage on impact. \n",
+			"Affix_legendary_sorc_106": "{c_important}Meteorites{/c} fall around {c_important}Meteor{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage on impact. \nYour {c_important}Meteorites{/c} additionally Burn enemies they hit for {c_random}[Affix_Flat_Value_1 * Affix.\"Static Value 0\"]{/c} damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 			"Affix_legendary_sorc_107": "When you cast {c_important}Blizzard{/c} it will periodically spawn exploding {c_important}Ice Spikes{/c} that deal {c_random}[Affix_Flat_Value_1]{/c} damage. Your {c_important}Ice Spikes{/c} deal {c_number}[Affix_Value_1 * 100|%|]{/c} increased damage to {c_important}Frozen{/c} enemies.",
 			"Affix_legendary_sorc_108": "Casting {c_important}Ice Armor{/c} makes you {c_important}Unstoppable{/c} for {c_random}[Affix_Value_1|1|]{/c} seconds.",
 			"Affix_legendary_sorc_109": "While {c_important}Ice Armor{/c} is active, you leave behind exploding {c_important}Ice Spikes{/c} that deal {c_random}[Affix_Flat_Value_1]{/c} damage. Your {c_important}Ice Spikes{/c} {c_important}Chill{/c} enemies for {c_number}[Affix_Value_1|%|]{/c}.",
