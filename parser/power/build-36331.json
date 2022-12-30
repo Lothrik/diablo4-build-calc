@@ -34,7 +34,7 @@
 				"name": "of the Iron Warrior"
 			},
 			"legendary_barb_009": {
-				"desc": "Increase {c_important}Frenzy's{/c} maximum stacks by {c_number}[Affix_Value_1]{/c}.\u00c2\u00a0 While you have maximum {c_important}Frenzy{/c}, your other Skills gain {c_random}+[Affix_Value_2|%|]{/c} increased Attack Speed.",
+				"desc": "Increase {c_important}Frenzy's{/c} maximum stacks by {c_number}[Affix_Value_1]{/c}.  While you have maximum {c_important}Frenzy{/c}, your other Skills gain {c_random}+[Affix_Value_2|%|]{/c} increased Attack Speed.",
 				"name": "Frenzied"
 			},
 			"legendary_barb_010": {
@@ -167,7 +167,7 @@
 				"name": "Hellhammer"
 			},
 			"2HMace_Unique_Barb_100": {
-				"desc": "{c_important}Death Blow{/c} creates a shockwave, dealing {c_random}[Affix_Value_1|%|]{/c} of its base damage to enemies. Enemies who die to this effect also reset {c_important}Death Blow\u00e2\u20ac\u2122s{/c} Cooldown.",
+				"desc": "{c_important}Death Blow{/c} creates a shockwave, dealing {c_random}[Affix_Value_1|%|]{/c} of its base damage to enemies. Enemies who die to this effect also reset {c_important}Death Blow's{/c} Cooldown.",
 				"flavor": "The malformed snake creatures that reside in the swamps are not content with simply killing their prey. They seem to take a malicious pleasure from inflicting as much suffering as possible before death.",
 				"name": "Overkill"
 			},
@@ -365,22 +365,22 @@
 			},
 			"1HMace_Unique_Druid_001": {
 				"desc": "{c_important}Lightning Storm{/c} Critical Strikes spawn {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}Dancing Bolts{/c} that seek enemies in the area dealing {c_random}[Affix_Flat_Value_1]{/c} Lightning damage.",
-				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\" \n\u00e2\u20ac\u201c Airidah",
+				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\" \n– Airidah",
 				"name": "Tempest Song"
 			},
 			"2HStaff_Unique_Druid_001": {
 				"desc": "{c_important}Claw{/c} is now a {c_important}Storm{/c} skill and also casts {c_important}Storm Strike{/c} at {c_number}[Affix_Value_1|%|]{/c} normal damage.",
-				"flavor": "\"She has existed in Scosglen since before Fiacla-G\u00c3\u00a9ar walked the land. Her purpose is a mystery, and she remains impartial in all conflicts. Approach her with deference, and she may grant you her counsel.\"\n- Airidah, to Donan",
+				"flavor": "\"She has existed in Scosglen since before Fiacla-Géar walked the land. Her purpose is a mystery, and she remains impartial in all conflicts. Approach her with deference, and she may grant you her counsel.\"\n- Airidah, to Donan",
 				"name": "Greatstaff of the Crone"
 			},
 			"Chest_Unique_Druid_002": {
 				"desc": "Werewolf form is now your true form, and you gain {c_number}+2{/c} to all {c_important}Werewolf{/c} skills.",
-				"flavor": "\u00e2\u20ac\u0153He was not a victim of the curse - he sought it out. As his skin split and his bones cracked, his laughter never ceased.\" \n\u00e2\u20ac\u201c Tale of the Mad Nobleman",
+				"flavor": "\"He was not a victim of the curse - he sought it out. As his skin split and his bones cracked, his laughter never ceased.\" \n– Tale of the Mad Nobleman",
 				"name": "Mad Wolf's Glee"
 			},
 			"Chest_Unique_Druid_003": {
 				"desc": "Werebear form is now your true form, and you gain {c_number}+2{/c} to all {c_important}Werebear{/c} skills.",
-				"flavor": "When the Days of Ash fell upon Scosglen, the great druid Nafain reminded his disciples that nothing, not even the loss of their humanity, was too great a sacrifice to protect T\u00c3\u00bar D\u00c3\u00balra from Astaroth's flames.",
+				"flavor": "When the Days of Ash fell upon Scosglen, the great druid Nafain reminded his disciples that nothing, not even the loss of their humanity, was too great a sacrifice to protect Túr Dúlra from Astaroth's flames.",
 				"name": "Insatiable Fury"
 			},
 			"Pants_Unique_Druid_001": {
@@ -395,7 +395,7 @@
 			},
 			"Ring_Unique_Druid_003": {
 				"desc": "Gain a bonus when you kill with a {c_important}Shapeshifting{/c} Skill:\n\n{icon:bullet}{c_gold}Werewolf:{/c} Your next non-ultimate {c_important}Werebear{/c} Skill costs no resource and has no cooldown.\n{icon:bullet}{c_gold}Werebear:{/c} Your next {c_important}Werewolf{/c} skill will heal you for {c_number}[Affix_Flat_Value_1]{/c} when damage is first dealt.",
-				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-G\u00c3\u00a9ar! For Scosglen!\"\n- Nafain, during the Days of Ash",
+				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash",
 				"name": "Hunter's Zenith"
 			}
 		}
@@ -452,7 +452,7 @@
 			},
 			"legendary_generic_063": {
 				"desc": "Skills deal up to {c_random}x[Affix_Value_1|%|]{/c} increased damage based on available resource when cast, receiving the full benefit while at full resource.",
-				"name": "Edgemaster\u00e2\u20ac\u2122s"
+				"name": "Edgemaster's"
 			},
 			"legendary_generic_065": {
 				"desc": "After standing still for {c_random}[Affix_Value_1]{/c} seconds, you regenerate {c_number}[Affix_Flat_Value_1]{/c} Life per second while enemies are Close.",
@@ -758,7 +758,7 @@
 				"name": "of Decay"
 			},
 			"legendary_necro_108": {
-				"desc": "{c_important}Blood Surge\u00e2\u20ac\u2122s{/c} nova echoes again after a short delay, dealing {c_random}x[Affix_Value_1|%|]{/c} less damage.",
+				"desc": "{c_important}Blood Surge's{/c} nova echoes again after a short delay, dealing {c_random}x[Affix_Value_1|%|]{/c} less damage.",
 				"name": "Blood-bathed"
 			},
 			"legendary_necro_109": {
@@ -770,11 +770,11 @@
 				"name": "Fastblood"
 			},
 			"legendary_necro_111": {
-				"desc": "The {c_important}Rathma\u00e2\u20ac\u2122s Vigor{/c} Passive's bonuses persist for {c_random}[Affix_Value_1]{/c} seconds after you are no longer {c_important}Healthy{/c}.",
-				"name": "of Rathma\u00e2\u20ac\u2122s Chosen"
+				"desc": "The {c_important}Rathma's Vigor{/c} Passive's bonuses persist for {c_random}[Affix_Value_1]{/c} seconds after you are no longer {c_important}Healthy{/c}.",
+				"name": "of Rathma's Chosen"
 			},
 			"legendary_necro_112": {
-				"desc": "While the {c_important}Rathma\u00e2\u20ac\u2122s Vigor{/c} Passive is active, you gain {c_random}+[Affix_Value_1|%|]{/c} Movement Speed.",
+				"desc": "While the {c_important}Rathma's Vigor{/c} Passive is active, you gain {c_random}+[Affix_Value_1|%|]{/c} Movement Speed.",
 				"name": "of Untimely Death"
 			},
 			"legendary_necro_113": {
@@ -1062,8 +1062,8 @@
 				"name": "Rolling Thunder"
 			},
 			"legendary_sorc_039": {
-				"desc": "You may have {c_number}[Affix.\"Static Value 0\"]{/c} additional {c_important}Hydra{/c} active, but {c_important}Hydra\u00e2\u20ac\u2122s{/c} Mana cost is increased by {c_random}[Affix_Value_1|%|]{/c}.",
-				"name": "Hydra Master\u00e2\u20ac\u2122s"
+				"desc": "You may have {c_number}[Affix.\"Static Value 0\"]{/c} additional {c_important}Hydra{/c} active, but {c_important}Hydra's{/c} Mana cost is increased by {c_random}[Affix_Value_1|%|]{/c}.",
+				"name": "Hydra Master's"
 			},
 			"legendary_sorc_043": {
 				"desc": "{c_important}Meteorites{/c} fall around you during {c_important}Inferno{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage on impact. \nYour {c_important}Meteorites{/c} {c_important}Immobilize{/c} enemies for {c_number}[Affix_Value_2]{/c} seconds.",
@@ -1074,7 +1074,7 @@
 				"name": "of Conflagration"
 			},
 			"legendary_sorc_101": {
-				"desc": "{c_important}Esu\u00e2\u20ac\u2122s Ferocity{/c} no longer grants a Burning Damage bonus, but its Direct Damage bonus is increased by {c_random}[Affix_Value_1|%|]{/c}.",
+				"desc": "{c_important}Esu's Ferocity{/c} no longer grants a Burning Damage bonus, but its Direct Damage bonus is increased by {c_random}[Affix_Value_1|%|]{/c}.",
 				"name": "of Ancient Flame"
 			},
 			"legendary_sorc_102": {
@@ -1091,7 +1091,7 @@
 			},
 			"legendary_sorc_105": {
 				"desc": "Coming in contact with your {c_important}Firewall{/c} grants you {c_random}+[Affix_Value_1|%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
-				"name": "Flamewalker\u00e2\u20ac\u2122s"
+				"name": "Flamewalker's"
 			},
 			"legendary_sorc_106": {
 				"desc": "{c_important}Meteorites{/c} fall around {c_important}Meteor{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage on impact. \nYour {c_important}Meteorites{/c} additionally Burn enemies they hit for {c_random}[Affix_Flat_Value_1 * Affix.\"Static Value 0\"]{/c} damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
@@ -1150,7 +1150,7 @@
 				"name": "of Static Cling"
 			},
 			"legendary_sorc_120": {
-				"desc": "Critical Strikes to Close enemies increase {c_important}Vyr\u00e2\u20ac\u2122s Mastery\u00e2\u20ac\u2122s{/c} bonuses by {c_random}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
+				"desc": "Critical Strikes to Close enemies increase {c_important}Vyr's Mastery's{/c} bonuses by {c_random}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Mage-Lord's"
 			},
 			"legendary_sorc_121": {
@@ -1171,7 +1171,7 @@
 			},
 			"legendary_sorc_125": {
 				"desc": "Casting an {c_important}Ultimate{/c} Skill restores {c_random}[Affix_Value_1]{/c} Mana.",
-				"name": "Prodigy\u00e2\u20ac\u2122s"
+				"name": "Prodigy's"
 			},
 			"legendary_sorc_126": {
 				"desc": "Taking direct damage has a {c_random}[Affix_Value_1|%|]{/c} chance to reset the Cooldown of one of your {c_important}Defensive{/c} Skills.",
@@ -1191,7 +1191,7 @@
 			},
 			"legendary_sorc_130": {
 				"desc": "Your Critical Strike Chance is increased by {c_random}[Affix_Value_1|%|]{/c} of your Movement Speed bonus.",
-				"name": "Deft Magus\u00e2\u20ac\u2122"
+				"name": "Deft Magus'"
 			},
 			"legendary_sorc_131": {
 				"desc": "You take {c_random}[Affix_Value_1|%|]{/c} less damage from Crowd Controlled or {c_important}Vulnerable{/c} enemies.",
