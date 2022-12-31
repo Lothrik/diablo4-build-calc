@@ -1063,30 +1063,6 @@
 					"FloatRandomRangeWithInterval(10, 1, 3)"
 				]
 			},
-			"1HAxe_Unique_Generic_Boost_NoPowers2": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Axe"
-			},
-			"1HAxe_Unique_Generic_NoPowers1": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Axe"
-			},
-			"1HDagger_Unique_Generic_Boost_NoPowers1": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Dagger"
-			},
-			"1HDagger_Unique_Generic_Boost_NoPowers2": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Dagger"
-			},
-			"1HFocus_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Sorc Offhand"
-			},
-			"1HShield_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Shield"
-			},
 			"1HSword_Unique_Generic_001": {
 				"desc": "Your skills have a {c_random}[Affix_Value_1|%|]{/c} chance to also deal {c_number}[Affix_Flat_Value_1]{/c} Shadow damage to surrounding enemies and reduce their damage done by {c_number}[Affix.\"Static Value 0\"|%|]{/c} for {c_number}3{/c} seconds.",
 				"flavor": "Whenever this ancient sword has re-appeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
@@ -1108,22 +1084,6 @@
 					"2"
 				]
 			},
-			"1HWand_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Wand"
-			},
-			"2HBow_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Bow"
-			},
-			"2HMace_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Mace"
-			},
-			"2HScythe_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Scythe"
-			},
 			"2HStaff_Unique_Generic_101": {
 				"desc": "After a Crowd Control effect wears off from an enemy, they take {c_random}[Affix_Value_1|%|]{/c} increased damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "\"Also known as The Greatstaff of the Old Religion, this powerful relic is one of only a small handful of Skatsimi artifacts that have survived to this day.\"\n- Barrett's Book of Implements",
@@ -1132,10 +1092,6 @@
 					"FloatRandomRangeWithInterval(10, 30, 50)"
 				]
 			},
-			"2HStaff_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Staff"
-			},
 			"2HSword_Unique_Generic_001": {
 				"desc": "Increases your critical strike damage by {c_random}[Affix_Value_1|%|]{/c}. \n\nThe other properties on this weapon can roll higher than normal.",
 				"flavor": "An unbroken lineage of unwavering strength.",
@@ -1143,10 +1099,6 @@
 				"values": [
 					"FloatRandomRangeWithInterval(10, 60, 100)"
 				]
-			},
-			"2HSword_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Sword"
 			},
 			"Amulet_Unique_Generic_100": {
 				"desc": "Gain {c_number}[Affix.\"Static Value 0\"|~%|]{/c} bonus maximum resource. In addition, when you take damage, drain {c_random}[Affix_Value_1|1|]{/c} resource for every {c_number}[Affix.\"Static Value 1\"|%|]{/c} of Life you would have lost instead.",
@@ -1157,10 +1109,6 @@
 					"8"
 				]
 			},
-			"Amulet_Unique_Generic_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Amulet"
-			},
 			"Boots_Unique_Generic_001": {
 				"desc": "Leaves a trail of frost that {c_important}Chills{/c} enemies. \n{c_important}Chilled{/c} enemies take {c_random}+[Affix_Value_1|%|]{/c} more damage.",
 				"flavor": "Remorseful devotees of the Cathedral of Light must undertake a grueling pilgrimage, journeying across the frigid glacier known as the Serac Rapture. Only then may their gravest sins be forgiven.",
@@ -1168,10 +1116,6 @@
 				"values": [
 					"FloatRandomRangeWithInterval(3, 7, 10)"
 				]
-			},
-			"Boots_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Boots"
 			},
 			"Chest_Unique_Generic_100": {
 				"desc": "{c_random}+[Affix_Flat_Value_1]{/c} Thorns",
@@ -1181,10 +1125,6 @@
 					"FloatRandomRangeWithInterval(10, 2, 4)",
 					"ExpectedLevelForIPower()"
 				]
-			},
-			"Chest_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Armor"
 			},
 			"Gloves_Unique_Generic_002": {
 				"desc": "Your attacks randomly deal {c_number}[Affix_Value_2|%|]{/c} to {c_random}[Affix_Value_1|%|]{/c} of normal damage.",
@@ -1202,10 +1142,6 @@
 				"values": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				]
-			},
-			"Gloves_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Gloves"
 			},
 			"Helm_Unique_Generic_001": {
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to trigger a poison nova that deals {c_number}[Affix_Flat_Value_1]{/c} Poison damage.",
@@ -1225,14 +1161,6 @@
 					"RandomInt(5*10,8*10)/10"
 				]
 			},
-			"Helm_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Helm"
-			},
-			"Pants_Unique_Generic_Boost_NoPowers": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Pants"
-			},
 			"Ring_Unique_Generic_100": {
 				"desc": "If a {c_important}Core{/c} skill hits at least {c_number}[Affix.\"Static Value 0\"]{/c} or more enemies, {c_random}[Affix_Value_1|%|]{/c} of the resource cost is refunded.",
 				"flavor": "The Cult of the Triune has been thought destroyed several times over the centuries. In reality, its members hide in temples across Sanctuary, awaiting the next great power that will promise them ascendancy.",
@@ -1240,14 +1168,6 @@
 				"values": [
 					"FloatRandomRangeWithInterval(4, 20, 40)"
 				]
-			},
-			"Ring_Unique_Generic_Boost_NoPowers1": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Ring"
-			},
-			"Ring_Unique_Generic_Boost_NoPowers2": {
-				"desc": "This is a test item used for max level boosts.",
-				"name": "Boost Ring"
 			}
 		}
 	},
