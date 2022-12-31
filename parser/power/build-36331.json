@@ -367,7 +367,7 @@
 				]
 			}
 		},
-		"Paragon": {
+		"Paragon (Legendary)": {
 			"Paragon_Barb_Legendary_001": {
 				"desc": "Bleeding enemies you kill explode, dealing {c_number}[{SF_1}*100|%|]{/c} of their max life to nearby enemies."
 			},
@@ -808,7 +808,7 @@
 				]
 			}
 		},
-		"Paragon": {
+		"Paragon (Legendary)": {
 			"Paragon_Druid_Legendary_001": {
 				"desc": "{c_important}Critical Strikes{/c} from your {c_important}Storm{/c} skills make enemies {c_important}Vulnerable{/c} for {c_number}{SF_0}{/c} |4second:seconds;. Enemies that are already {c_important}Vulnerable{/c} have its duration extended by {c_number}[{SF_1}|1|]{/c} seconds instead."
 			},
@@ -1193,6 +1193,312 @@
 					"FloatRandomRangeWithInterval(10, 0.15, 0.25)",
 					"8"
 				]
+			}
+		},
+		"Paragon (Glyph)": {
+			"ParagonGlyph_001": {
+				"desc": "Skills you do not directly cast deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Enchant"
+			},
+			"ParagonGlyph_002": {
+				"desc": "After spending 50 Mana, you deal {c_number}x[{SF_1}*100|%|]{/c} increased damage and gain {c_number}[{SF_2}*100|%|]{/c} increased Mana regeneration for [SF_3] seconds.",
+				"name": "Release"
+			},
+			"ParagonGlyph_003": {
+				"desc": "Fire, Cold, and Lightning damage individually increase all of the target's damage taken by {c_number}x[{SF_0}*100|%|]{/c} for {c_number}[SF_1]{/c} seconds.",
+				"name": "Elements"
+			},
+			"ParagonGlyph_004": {
+				"desc": "{c_important}Mastery{/c} skills have {c_number}[{SF_0}*100|%|]{/c} increased area.",
+				"name": "Master"
+			},
+			"ParagonGlyph_005": {
+				"desc": "{c_important}Conjuration{/c} skills have {c_number}[{SF_0}*100|%|]{/c} increased duration.",
+				"name": "Conjurer"
+			},
+			"ParagonGlyph_006": {
+				"desc": "Picking up {c_important}Crackling Energy{/c} grants you {c_number}x[{SF_0}*100|%|]{/c} increased damage for {c_number}{SF_1}{/c} seconds.",
+				"name": "Static"
+			},
+			"ParagonGlyph_007": {
+				"desc": "Burning damage has a {c_number}[{SF_0}*100|%|]{/c} chance to deal double damage.",
+				"name": "Cremator"
+			},
+			"ParagonGlyph_008": {
+				"desc": "Every {c_important}Pyromancy{/c} skill you cast or every second you channel {c_important}Incinerate{/c} increases your Fire damage by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0} * {SF_1} * 100|%|]{/c}, for {c_number}[{SF_2}]{/c} seconds.",
+				"name": "Pyromaniac"
+			},
+			"ParagonGlyph_009": {
+				"desc": "Non-player enemies that hit you are {c_important}Chilled{/c} for {c_number}[{SF_0}|%|]{/c}.",
+				"name": "Glacier"
+			},
+			"ParagonGlyph_010": {
+				"desc": "You gain {c_number}[{SF_0}*100|%|]{/c} resistance to all elements.",
+				"name": "Ward"
+			},
+			"ParagonGlyph_011": {
+				"desc": "Healing vials gain {c_number}[{SF_0}*100|%|]{/c} increased healing.",
+				"name": "Guzzler"
+			},
+			"ParagonGlyph_012": {
+				"desc": "You take {c_number}[{SF_0}*100|%|]{/c} reduced damage while you have an active {c_important}Barrier{/c}.",
+				"name": "Protector"
+			},
+			"ParagonGlyph_013": {
+				"desc": "While {c_important}Stationary{/c}, you gain a {c_important}Barrier{/c} for {c_number}[{SF_0}*100|%|]{/c} of your Maximum Life {c_number}([{SF_0} * PlayerHealthMax()]){/c}.",
+				"name": "Poise"
+			},
+			"ParagonGlyph_014": {
+				"desc": "You take {c_number}[{SF_0}*100|%|]{/c} reduced damage from Close enemies.",
+				"name": "Turf"
+			},
+			"ParagonGlyph_015": {
+				"desc": "Burning effects last {c_number}[{SF_0}*100|%|]{/c} longer but deal {c_number}[{SF_1}*100|%|]{/c} reduced damage.",
+				"name": "Flamefeeder"
+			},
+			"ParagonGlyph_016": {
+				"desc": "When an enemy is damaged by you, they become {c_important}Vulnerable{/c} for {c_number}[{SF_0}]{/c} seconds. This cannot happen more than once every {c_number}{SF_1}{/c} seconds per enemy.",
+				"name": "Exploit"
+			},
+			"ParagonGlyph_017": {
+				"desc": "You deal up to {c_number}x[{SF_0}*100|%|]{/c} increased Cold damage to targets the more {c_important}Chilled{/c} they are.",
+				"name": "Frigid"
+			},
+			"ParagonGlyph_018": {
+				"desc": "Targets struck with Lightning damage take {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}.",
+				"name": "Dynamo"
+			},
+			"ParagonGlyph_019": {
+				"desc": "Critical strikes increase all damage the target takes by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}.",
+				"name": "Destruction"
+			},
+			"ParagonGlyph_020": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to slowed or {c_important}Chilled{/c} targets or, instead, {c_number}x[{SF_1}*100|%|]{/c} increased damage to stunned or {c_important}Frozen{/c} targets.",
+				"name": "Control"
+			},
+			"ParagonGlyph_021": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage while dual wielding weapons.",
+				"name": "Ambidextrous"
+			},
+			"ParagonGlyph_022": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage while wielding 2-handed weapons.",
+				"name": "Might"
+			},
+			"ParagonGlyph_023": {
+				"desc": "While wielding an axe, you deal {c_number}x[{SF_0}*100|%|]{/c} increased critical strike damage.",
+				"name": "Cleaver"
+			},
+			"ParagonGlyph_024": {
+				"desc": "While wielding a sword, you gain {c_number}[SF_0]{/c} Fury when you kill an enemy.",
+				"name": "Seething"
+			},
+			"ParagonGlyph_025": {
+				"desc": "While wielding a mace, you deal {c_number}x[{SF_0}*100|%|]{/c} increased {c_important}Overpower{/c} damage.",
+				"name": "Crusher"
+			},
+			"ParagonGlyph_026": {
+				"desc": "While wielding a polearm, you deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to {c_important}Healthy{/c} or {c_important}Injured{/c} targets.",
+				"name": "Executioner"
+			},
+			"ParagonGlyph_027": {
+				"desc": "While {c_important}Berserking{/c}, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage from Elites.",
+				"name": "Ire"
+			},
+			"ParagonGlyph_028": {
+				"desc": "After casting a {c_important}Shout{/c} skill, the active cooldown of every other {c_important}Shout{/c} is reduced by {c_number}[SF_0|1|]{/c} seconds.",
+				"name": "Marshal"
+			},
+			"ParagonGlyph_029": {
+				"desc": "Bleeding effects last {c_number}[{SF_0}*100|%|]{/c} longer but deal {c_number}[{SF_1}*100|%|]{/c} reduced damage.",
+				"name": "Bloodfeeder"
+			},
+			"ParagonGlyph_030": {
+				"desc": "Skills that critically strike generate {c_number}[{SF_0}]{/c} Fury.",
+				"name": "Wrath"
+			},
+			"ParagonGlyph_031": {
+				"desc": "Hitting with a {c_important}Weapon Mastery{/c} skill reduces the active cooldown of another random {c_important}Weapon Mastery{/c} skill by {c_number}[{SF_0}]{/c} seconds.",
+				"name": "Weapon Master"
+			},
+			"ParagonGlyph_032": {
+				"desc": "Swapping weapons has a {c_number}[{SF_0}*100|%|]{/c} chance to cause the skill's damage to critically strike.",
+				"name": "Mortal Draw"
+			},
+			"ParagonGlyph_033": {
+				"desc": "Thorns damage increases all damage the target takes by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
+				"name": "Revenge"
+			},
+			"ParagonGlyph_034": {
+				"desc": "You take up to {c_number}[{SF_0}*100|%|]{/c} reduced damage the more {c_important}Fortified{/c} you are.",
+				"name": "Undaunted"
+			},
+			"ParagonGlyph_035": {
+				"desc": "When you {c_important}Overpower{/c} a target, all damage they take is increased by {c_number}x[{SF_0}*100|%|]{/c} for {c_number}[SF_1]{/c} seconds.",
+				"name": "Dominate"
+			},
+			"ParagonGlyph_036": {
+				"desc": "Bleeding damage has a {c_number}[{SF_0}*100|%|]{/c} chance to deal double damage.",
+				"name": "Disembowel"
+			},
+			"ParagonGlyph_037": {
+				"desc": "{c_important}Brawling{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Brawl"
+			},
+			"ParagonGlyph_038": {
+				"desc": "You and your minions deal {c_number}x[{SF_0}*100|%|]{/c} increased Physical damage.",
+				"name": "Corporeal"
+			},
+			"ParagonGlyph_039": {
+				"desc": "While in Werewolf or Werebear form, Close enemies take {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Fang and Claw"
+			},
+			"ParagonGlyph_040": {
+				"desc": "{c_important}Nature Magic{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to crowd controlled or {c_important}Vulnerable{/c} targets.",
+				"name": "Earth and Sky"
+			},
+			"ParagonGlyph_041": {
+				"desc": "The passive portion of {c_important}Companion{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Wilds"
+			},
+			"ParagonGlyph_042": {
+				"desc": "You take {c_number}[{SF_0}*100|%|]{/c} reduced damage while in Werebear form.",
+				"name": "Werebear"
+			},
+			"ParagonGlyph_043": {
+				"desc": "You take {c_number}[{SF_0}*100|%|]{/c} reduced damage while in Werewolf form.",
+				"name": "Werewolf"
+			},
+			"ParagonGlyph_044": {
+				"desc": "You take {c_number}[{SF_0}*100|%|]{/c} reduced damage while in Human form.",
+				"name": "Human"
+			},
+			"ParagonGlyph_045": {
+				"desc": "Poison damage over time effects have a {c_number}[{SF_0}*100|%|]{/c} chance to deal double the amount of damage over their duration.",
+				"name": "Bane"
+			},
+			"ParagonGlyph_046": {
+				"desc": "You and your minions deal {c_number}x[{SF_0}*100|%|]{/c} increased Non-physical damage.",
+				"name": "Abyssal"
+			},
+			"ParagonGlyph_047": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased Lightning damage to both {c_important}Healthy{/c} and {c_important}Injured{/c} targets.",
+				"name": "Fulminate"
+			},
+			"ParagonGlyph_048": {
+				"desc": "Poison damage over time effects last {c_number}[{SF_0}*100|%|]{/c} longer.",
+				"name": "Tracker"
+			},
+			"ParagonGlyph_049": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased Physical damage to Non-Elites and bosses.",
+				"name": "Outmatch"
+			},
+			"ParagonGlyph_050": {
+				"desc": "Critical strikes increase all the damage the target takes by {c_number}x[{SF_0}*100|%|]{/c} for {c_number}[SF_2]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}.",
+				"name": "Spirit"
+			},
+			"ParagonGlyph_051": {
+				"desc": "Shapeshifting has a {c_number}[{SF_0}*100|%|]{/c} chance to cause the skill's damage to critically strike.",
+				"name": "Shapeshifter"
+			},
+			"ParagonGlyph_052": {
+				"desc": "Non-Basic and Non-Core skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Versatility"
+			},
+			"ParagonGlyph_053": {
+				"desc": "While wielding a melee weapon, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage.",
+				"name": "Closer"
+			},
+			"ParagonGlyph_054": {
+				"desc": "While wielding a ranged weapon, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage.",
+				"name": "Ranger"
+			},
+			"ParagonGlyph_055": {
+				"desc": "Physical damage increases all the damage the target takes by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
+				"name": "Chip"
+			},
+			"ParagonGlyph_056": {
+				"desc": "{c_important}Chill{/c} effects have {c_number}[{SF_0}*100|%|]{/c} increased potency.",
+				"name": "Frostfeeder"
+			},
+			"ParagonGlyph_057": {
+				"desc": "When you cast an {c_important}Agility{/c} skill, you gain {c_number}[{SF_0}*100|%|]{/c} increased Energy regeneration for {c_number}[{SF_1}]{/c} seconds.",
+				"name": "Fluidity"
+			},
+			"ParagonGlyph_058": {
+				"desc": "Casting an {c_important}Imbuement{/c} skill reduces the active cooldown of another random {c_important}Imbuement{/c} skill by {c_number}[{SF_0}|1|]{/c} seconds.",
+				"name": "Infusion"
+			},
+			"ParagonGlyph_059": {
+				"desc": "When you hit a target with a Crowd Controlling effect, all the damage they take is increased by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
+				"name": "Devious"
+			},
+			"ParagonGlyph_060": {
+				"desc": "{c_important}Skeletal Warriors{/c} deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Warrior"
+			},
+			"ParagonGlyph_061": {
+				"desc": "Skills that critically strike restore {c_number}[{SF_0}*100|%|]{/c} of their Energy cost.",
+				"name": "Combat"
+			},
+			"ParagonGlyph_062": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for every Close corpse.",
+				"name": "Gravekeeper"
+			},
+			"ParagonGlyph_063": {
+				"desc": "Non-physical damage increases all the non-physical damage the target takes by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
+				"name": "Canny"
+			},
+			"ParagonGlyph_064": {
+				"desc": "{c_important}Imbuement{/c} Skill effects have {c_number}x[{SF_0}*100|%|]{/c} increased potency.",
+				"name": "Efficacy"
+			},
+			"ParagonGlyph_065": {
+				"desc": "Non-Ultimate {c_important}Trap{/c} skills have {c_number}x[{SF_0}*100|%|]{/c} increased area.",
+				"name": "Snare"
+			},
+			"ParagonGlyph_066": {
+				"desc": "Critical strikes deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to targets that are not {c_important}Healthy{/c}.",
+				"name": "Essence"
+			},
+			"ParagonGlyph_067": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased Physical damage to both {c_important}Healthy{/c} and {c_important}Injured{/c} targets.",
+				"name": "Pride"
+			},
+			"ParagonGlyph_068": {
+				"desc": "Targets affected by {c_important}Trap{/c} skills take {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Ambush"
+			},
+			"ParagonGlyph_069": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage while you have no active minions.",
+				"name": "Sacrificial"
+			},
+			"ParagonGlyph_070": {
+				"desc": "{c_important}Blood Orbs{/c} {c_important}Fortify{/c} you for {c_number}[{SF_0}*100|%|]{/c} of your Maximum Life {c_number}([{SF_0} * PlayerHealthMax()]){/c}.",
+				"name": "Blood-drinker"
+			},
+			"ParagonGlyph_071": {
+				"desc": "Whenever your minions deal damage to a target, that target takes {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
+				"name": "Deadraiser"
+			},
+			"ParagonGlyph_072": {
+				"desc": "{c_important}Skeletal Mages{/c} deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Mage"
+			},
+			"ParagonGlyph_073": {
+				"desc": "Targets affected by {c_important}Curse{/c} skills take {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Amplify"
+			},
+			"ParagonGlyph_074": {
+				"desc": "{c_important}Golems{/c} deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
+				"name": "Golems"
+			},
+			"ParagonGlyph_075": {
+				"desc": "Shadow damage over time effects have a {c_number}[{SF_0}*100|%|]{/c} chance to deal double damage.",
+				"name": "Scourge"
+			},
+			"ParagonGlyph_076": {
+				"desc": "You take {c_number}[{SF_0}*100|%|]{/c} reduced Physical damage from {c_important}Vulnerable{/c} enemies.",
+				"name": "Diminish"
 			}
 		},
 		"Rarespawn Reward": {
@@ -1809,7 +2115,7 @@
 				]
 			}
 		},
-		"Paragon": {
+		"Paragon (Legendary)": {
 			"Paragon_Necro_Legendary_001": {
 				"desc": "You and your Minions deal {c_number}x[{SF_0}*100|%|]{/c} increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem."
 			},
@@ -2194,7 +2500,7 @@
 				]
 			}
 		},
-		"Paragon": {
+		"Paragon (Legendary)": {
 			"Paragon_Rogue_Legendary_001": {
 				"desc": "After taking Poison, Cold, or Shadow damage, the target takes {c_number}[{SF_0}*100|%|]{/c} less damage from you from that type, and {c_number}[{SF_1}*100|%|]{/c} more damage from the other two types for the next {c_number}{SF_2}{/c} seconds."
 			},
@@ -2712,7 +3018,7 @@
 				]
 			}
 		},
-		"Paragon": {
+		"Paragon (Legendary)": {
 			"Paragon_Sorc_Legendary_001": {
 				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage while {c_number}[{SF_1}]{/c} or more burning enemies are Nearby."
 			},
