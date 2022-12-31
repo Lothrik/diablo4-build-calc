@@ -1247,6 +1247,116 @@
 		}
 	},
 	"Necromancer": {
+		"Book of the Dead": {
+			"Necromancer_Golem_Blood_Passive_Sacrifice": {
+				"desc": "Your Maximum Life is increased by {c_number}[{SF_1}|%|]{/c}, but you lose the ability to summon a Golem.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_Golem_Blood_Passive_UpgradeA": {
+				"desc": "Your Blood Golem absorbs {c_number}[{SF_0}*100|%|]{/c} of damage you would take.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_Golem_Blood_Passive_UpgradeB": {
+				"desc": "While {c_important}Healthy{/c}, your Blood Golem gains {c_number}[{SF_0}*100|%|]{/c} Damage Reduction and {c_number}x[{SF_1}*100|%|]{/c} increased damage.",
+				"name": "Upgrade B"
+			},
+			"Necromancer_Golem_Bone_Passive_Sacrifice": {
+				"desc": "You gain {c_number}{SF_1}%{/c} increased Attack Speed, but you lose the ability to summon a Golem.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_Golem_Bone_Passive_UpgradeA": {
+				"desc": "Each time your Bone Golem takes up to {c_number}{SF_1}%{/c} of its maximum Life as damage, it sheds a Corpse.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_Golem_Bone_Passive_UpgradeB": {
+				"desc": "Your Bone Golem gains {c_number}[{SF_2}|%|]{/c} maximum Life and the amount of Thorns they inherit from you is increased from {c_number}[{SF_5}|%|]{/c} to {c_number}[{SF_3}+{SF_5}|%|]{/c}.",
+				"name": "Upgrade B"
+			},
+			"Necromancer_Golem_Iron_Passive_Sacrifice": {
+				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Critical Strike Damage, but you lose the ability to summon a Golem.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_Golem_Iron_Passive_UpgradeA": {
+				"desc": "Every {c_number}5th{/c} Iron Golem attack causes a shockwave, dealing {c_number}{payload:TOOLTIP_CONE_PAYLOAD}{/c} damage to the primary enemy and to enemies behind them.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_Golem_Iron_Passive_UpgradeB": {
+				"desc": "Your Iron Golem's slam attack also makes enemies Vulnerable for {c_number}{SF_0}{/c} seconds.",
+				"name": "Upgrade B"
+			},
+			"Necromancer_SkeletonMage_Cold_Passive_Sacrifice": {
+				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to Vulnerable enemies, but you can no longer raise Skeletal Mages.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_SkeletonMage_Cold_Passive_UpgradeA": {
+				"desc": "Each time your Cold Mages damage enemies with their primary attack, you gain {c_number}{SF_0}{/c} Essence.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_SkeletonMage_Cold_Passive_UpgradeB": {
+				"desc": "Enemies who are Frozen by or damaged while Frozen by your Cold Mages' primary attack are made Vulnerable for {c_number}{SF_0}{/c} seconds.",
+				"name": "Upgrade B"
+			},
+			"Necromancer_SkeletonMage_Sacrifice_Passive_Sacrifice": {
+				"desc": "Your Overpower damage is increased by {c_number}[{SF_1}|%|]{/c}, but you can no longer raise Skeletal Mages.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeA": {
+				"desc": "Reduce the Life cost of your Bone Mages' attacks from {c_number}[{SF_0}*100|%|]{/c} to {c_number}[{SF_1}*100|%|]{/c}. After being alive for {c_number}{SF_2}{/c} seconds, Bone Mages deal {c_number}[{SF_3}*100|%|]{/c} increased damage.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeB": {
+				"desc": "Each time a Bone Mage dies from its own attack, they leave behind a Corpse and {c_important}Fortify{/c} you for {c_number}[{SF_0}*100|%|]{/c} of your Base Life {c_number}({fortified:FORTIFY}){/c}.",
+				"name": "Upgrade B"
+			},
+			"Necromancer_SkeletonMage_Shadow_Passive_Sacrifice": {
+				"desc": "Your maximum Essence is increased by {c_number}{SF_0}{/c}, but you can no longer raise Skeletal Mages.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_SkeletonMage_Shadow_Passive_UpgradeA": {
+				"desc": "Shadow Mage attacks have a {c_number}[{SF_0} * 100|%|]{/c} chance to Stun for {c_number}{buffduration:STUN}{/c} seconds. This cannot happen on the same enemy more than once every {c_number}{buffduration:STUN_COOLDOWN}{/c} seconds.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_SkeletonMage_Shadow_Passive_UpgradeB": {
+				"desc": "Shadow Mages fire an additional shadow bolt every {c_number}{SF_0}th{/c} attack.",
+				"name": "Upgrade B"
+			},
+			"Necromancer_SkeletonWarrior_Defender_Passive_Sacrifice": {
+				"desc": "You gain {c_number}[{SF_0}*100|%|]{/c} non-Physical Resistance, but you can no longer raise Skeletal Warriors.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_SkeletonWarrior_Defender_Passive_UpgradeA": {
+				"desc": "Every {c_number}{SF_0}{/c} seconds your Skeletal Defenders negate the next instance of Direct Damage they would take.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_SkeletonWarrior_Defender_Passive_UpgradeB": {
+				"desc": "Increase the amount of Thorns that Defender Warriors inherit from you from {c_number}[{SF_0} * 100}|%|]{/c} to {c_number}[{SF_1} * 100}|%|]{/c}.",
+				"name": "Upgrade B"
+			},
+			"Necromancer_SkeletonWarrior_Reaper_Passive_Sacrifice": {
+				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Shadow Damage, but you can no longer raise Skeletal Warriors.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeA": {
+				"desc": "Reaper attacks against enemies who are Immobilized, Slowed, Stunned, or Vulnerable reduce the cooldown of their powerful wind-up attack by {c_number}{SF_0}{/c} seconds.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeB": {
+				"desc": "Reapers have a {c_number}[{SF_0} * 100|%|]{/c} chance to carve the flesh off enemies, forming a Corpse. This cannot happen on the same enemy more than once every {c_number}{buffduration:BUFF_CORPSE_COOLDOWN}{/c} seconds.",
+				"name": "Upgrade B"
+			},
+			"Necromancer_SkeletonWarrior_Skirmisher_Passive_Sacrifice": {
+				"desc": "Your Critical Strike Chance is increased by {c_number}[{SF_0}*100|%|]{/c}, but you can no longer raise Skeletal Warriors.",
+				"name": "Sacrifice"
+			},
+			"Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeA": {
+				"desc": "You can raise one additional Skirmisher Warrior.",
+				"name": "Upgrade A"
+			},
+			"Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeB": {
+				"desc": "Each time you Critically Strike, your Skirmishers Warriors' next attack Critically Strikes. Can only happen every {c_number}{SF_0}{/c} seconds.",
+				"name": "Upgrade B"
+			}
+		},
 		"Legendary": {
 			"legendary_necro_002": {
 				"desc": "Each time one of your {c_important}Summoning{/c} Minions damages an enemy, they gain {c_random}+[Affix_Value_1|%|]{/c} Attack Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}+[Affix_Value_1*Affix.\"Static Value 1\"|%|]{/c}.",
@@ -2059,6 +2169,75 @@
 		}
 	},
 	"Sorcerer": {
+		"Enchantment": {
+			"Sorcerer_Enchantment_ArcLash": {
+				"desc": "Whenever you are hit, there is a {c_number}[{SF_0} * 100|%|]{/c} chance the attacker is Stunned for {c_number}{SF_1}{/c} second."
+			},
+			"Sorcerer_Enchantment_BallLightning": {
+				"desc": "When {c_important}Crackling Energy{/c} would form, there's a {c_number}[{SF_1} * 100|%|]{/c} chance Ball Lightning is formed instead."
+			},
+			"Sorcerer_Enchantment_Blizzard": {
+				"desc": "Every {c_number}{SF_0}{/c} seconds, a Blizzard forms over you and follows you for {c_number}{SF_1}{/c} seconds."
+			},
+			"Sorcerer_Enchantment_ChainLightning": {
+				"desc": "Chain Lightning forms automatically after spending {c_number}{SF_0}{/c} Mana."
+			},
+			"Sorcerer_Enchantment_ChargedBolt": {
+				"desc": "Whenever you are hit, there is a {c_number}[{SF_1}*100|%|]{/c} chance to release {c_number}{SF_0}{/c} Charged Bolts."
+			},
+			"Sorcerer_Enchantment_FireBall": {
+				"desc": "When you kill an enemy, they explode in a Fireball for {c_number}[{SF_0}*100|%|]{/c} of its damage."
+			},
+			"Sorcerer_Enchantment_Firebolt": {
+				"desc": "{c_label}Lucky Hit:{/c} Your direct damage has up to a {c_number}{SF_4}%{/c} chance to Burn enemies for {c_number}{dot:BURNING}{/c} over {c_number}{SF_2}{/c} seconds."
+			},
+			"Sorcerer_Enchantment_Firewall": {
+				"desc": "{c_label}Lucky Hit:{/c} Direct damage has up to a {c_number}{SF_2}%{/c} chance to spawn a Firewall for {c_number}{SF_1}{/c} seconds."
+			},
+			"Sorcerer_Enchantment_FlameShield": {
+				"desc": "Flame Shield automatically activates when you take fatal damage. It takes {c_number}{SF_0}{/c} seconds to recharge."
+			},
+			"Sorcerer_Enchantment_FrostNova": {
+				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to make your active {c_important}Conjuration{/c} Skills unleash a Frost Nova."
+			},
+			"Sorcerer_Enchantment_Frostbolt": {
+				"desc": "{c_label}Lucky Hit:{/c} Your direct damage has up to a {c_number}{SF_1}%{/c} chance to {c_important}Chill{/c} for {c_number}{SF_0}%{/c}."
+			},
+			"Sorcerer_Enchantment_FrozenOrb": {
+				"desc": "Whenever you cast a non-{c_important}Basic{/c} Skill, you have a {c_number}[{SF_0}*100|%|]{/c} chance to launch a Frozen Orb at a Nearby enemy."
+			},
+			"Sorcerer_Enchantment_Hydra": {
+				"desc": "When a Burning enemy is killed, a Hydra head spawns from its corpse for {c_number}{SF_1}{/c} seconds."
+			},
+			"Sorcerer_Enchantment_IceArmor": {
+				"desc": "Upon getting hit, you have a {c_number}[{SF_0}*100|%|]{/c} chance to apply Ice Armor."
+			},
+			"Sorcerer_Enchantment_IceBlades": {
+				"desc": "Killing an enemy has a {c_number}[{SF_0} * 100|%|]{/c} chance to conjure Ice Blades."
+			},
+			"Sorcerer_Enchantment_IceShards": {
+				"desc": "Ice Shards automatically conjure and fly towards {c_important}Frozen{/c} enemies."
+			},
+			"Sorcerer_Enchantment_Incinerate": {
+				"desc": "{c_label}Lucky Hit:{/c} Direct damage has up to a {c_number}{SF_5}%{/c} chance to spawn a rotating Incinerate beam."
+			},
+			"Sorcerer_Enchantment_LightningSpear": {
+				"desc": "Absorbing {c_important}Crackling Energy{/c} has a {c_number}[{SF_0}*100|%|]{/c} chance to conjure a Lightning Spear."
+			},
+			"Sorcerer_Enchantment_Meteor": {
+				"desc": "Every time an enemy takes Burning damage, there's a {c_number}[{SF_0} * 100|%|]{/c} chance a Meteor falls on them."
+			},
+			"Sorcerer_Enchantment_Spark": {
+				"desc": "Killing an enemy has a {c_number}[{SF_0} * 100|%|]{/c} chance to form a {c_important}Crackling Energy{/c}."
+			},
+			"Sorcerer_Enchantment_Teleport": {
+				"desc": "{c_important}Evade{/c} is replaced with Teleport on a {c_number}[{SF_0}|1|]{/c} second cooldown."
+			},
+			"Sorcerer_Enchantment_Teleport_Active": {
+				"desc": "{c_red}Teleport description here - since this is a skill that replaces your Evade button, you should never see this.{/c}",
+				"name": "Teleport - Evade Version"
+			}
+		},
 		"Legendary": {
 			"legendary_sorc_004": {
 				"desc": "{c_important}Flame Shield{/c} lets you move unhindered through enemies. Enemies you move through while {c_important}Flame Shield{/c} is active are Immobilized for {c_random}[Affix_Value_1|1|]{/c} seconds.",
