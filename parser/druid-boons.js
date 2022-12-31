@@ -1,5 +1,5 @@
 let druidBoons = {
-	"Stag": {
+	"Deer": {
 		"Boon 1": `Gain 796 Thorns.`,
 		"Boon 2": `Gain +10 Maximum Spirit.`,
 		"Boon 3": `Gain x10% Damage Reduction against Elite Monsters.`,

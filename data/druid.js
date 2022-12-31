@@ -1466,7 +1466,7 @@ While Healthy, deal x{#}% increased damage.`,
 };
 
 druid["Spirit Boons"] = {
-	"Stag": {
+	"Deer": {
 		id: 158,
 		"Boon 1": {
 			description: `Gain 796 Thorns.`,
