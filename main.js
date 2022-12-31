@@ -1118,11 +1118,11 @@ function drawAllNodes() {
 				groupNode.set("x", branchData.get("x"));
 				groupNode.set("y", branchData.get("y"));
 				if (groupName == SPIRIT_BOONS) {
-					groupNode.set("widthOverride", 1450);
+					groupNode.set("widthOverride", 1700);
 
 					drawNode(groupName, groupNode);
 
-					const nodeSpacingX = 300;
+					const nodeSpacingX = 350;
 					const nodeSpacingY = 150;
 					const nodeLimitX = 5;
 					const nodeLimitY = 2;
@@ -1138,7 +1138,7 @@ function drawAllNodes() {
 							["exclusiveNodes", exclusiveBoonTypes],
 							["id", _boonTypeData.get("id")],
 							["maxPoints", 1],
-							["widthOverride", 250],
+							["widthOverride", 300],
 							["x", extraX],
 							["y", extraY]
 						]);
@@ -1159,7 +1159,7 @@ function drawAllNodes() {
 								["exclusiveNodes", exclusiveBoons],
 								["id", boonData.get("id")],
 								["maxPoints", 1],
-								["widthOverride", 250],
+								["widthOverride", 300],
 								["x", extraX],
 								["y", extraY]
 							]);
