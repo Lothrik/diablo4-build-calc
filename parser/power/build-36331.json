@@ -1,5 +1,80 @@
 {
 	"Barbarian": {
+		"Arsenal": {
+			"Barbarian_WeaponExpertise_1HAxe": {
+				"desc": "{c_number}+[{SF_1} * 100 |1%|]{/c} increased Critical Strike Chance against {c_important}Injured{/c} enemies. Double this amount when using two Axes.{if:SF_8}\n\n{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_5}%{/c} chance to grant {c_number}+[{SF_6} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_7}{/c} seconds. Double the Attack Speed bonus when using two Axes.{/if}",
+				"name": "One-Handed Axe Expertise"
+			},
+			"Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10": {
+				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to grant {c_number}+[{SF_1} * 100]%{/c} increased Attack Speed for {c_number}{SF_2}{/c} seconds. Double the Attack Speed bonus when using two Axes."
+			},
+			"Barbarian_WeaponExpertise_1HAxe_Technique": {
+				"desc": "{s1}% of damage dealt as Bleed damage."
+			},
+			"Barbarian_WeaponExpertise_1HMace": {
+				"desc": "{c_number}x[{SF_1} * 100|%|]{/c} increased damage to Stunned enemies. Double this amount when using two Maces.{if:SF_7}\n\n{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_5}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_6} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces.{/if}",
+				"name": "One-Handed Mace Expertise"
+			},
+			"Barbarian_WeaponExpertise_1HMace_Rank10": {
+				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_1} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces."
+			},
+			"Barbarian_WeaponExpertise_1HMace_Technique": {
+				"desc": "You have a {s1}% chance to Overpower crowd controlled enemies."
+			},
+			"Barbarian_WeaponExpertise_1HSword": {
+				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_number}{SF_1}{/c} Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.{if:SF_8}\n\nKilling a Crowd Controlled enemy grants {c_number}+[{SF_6} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_7}{/c} seconds. Double this amount when using two Swords.{/if}",
+				"name": "One-Handed Sword Expertise"
+			},
+			"Barbarian_WeaponExpertise_1HSword_Rank10": {
+				"desc": "Killing a Crowd Controlled enemy grants {c_number}+[{SF_0} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_1}{/c} seconds. Double this amount for kills with two Swords."
+			},
+			"Barbarian_WeaponExpertise_1HSword_Technique": {
+				"desc": "You have a {s1}% chance to generate 3 Fury when hitting a crowd controlled enemy."
+			},
+			"Barbarian_WeaponExpertise_2HAxe": {
+				"desc": "{c_number}x[{SF_0} * 100|1%|]{/c} increased damage to {c_important}Vulnerable{/c} enemies.{if:SF_6}\n\n{c_number}+[{SF_5} * 100|%|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies.{/if}",
+				"name": "Two-Handed Axe Expertise"
+			},
+			"Barbarian_WeaponExpertise_2HAxe_Rank10": {
+				"desc": "{c_number}+[{SF_0}*100|%|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies."
+			},
+			"Barbarian_WeaponExpertise_2HAxe_Technique": {
+				"desc": "Killing an enemy grants +{s1}% Attack Speed for 2 seconds."
+			},
+			"Barbarian_WeaponExpertise_2HMace": {
+				"desc": "{c_label}Lucky Hit:{/c} Up to {c_number}{SF_0}%{/c} chance to gain {c_number}{SF_1}{/c} Fury when hitting an enemy. Double the amount of Fury gained while {c_important}Berserking{/c}.{if:SF_7}\n\nYou deal {c_number}x[{SF_6} * 100|%|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}.{/if}",
+				"name": "Two-Handed Mace Expertise"
+			},
+			"Barbarian_WeaponExpertise_2HMace_Rank10": {
+				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}."
+			},
+			"Barbarian_WeaponExpertise_2HMace_Technique": {
+				"desc": "You gain +{s1}% Crushing Blow Damage."
+			},
+			"Barbarian_WeaponExpertise_2HPolearm": {
+				"desc": "{c_number}x[{SF_0} * 100|%|]{/c} increased Lucky Hit Chance.{if:SF_5}\n\nYou deal {c_number}x[{SF_4} * 100|%|]{/c} increased damage while {c_important}Healthy{/c}.{/if}",
+				"name": "Polearm Expertise"
+			},
+			"Barbarian_WeaponExpertise_2HPolearm_Rank10": {
+				"desc": "You deal {c_number}+[{SF_0}*100|%|]{/c} increased damage while {c_important}Healthy{/c}."
+			},
+			"Barbarian_WeaponExpertise_2HPolearm_Technique": {
+				"desc": "+{s1}% Lucky Hit chance."
+			},
+			"Barbarian_WeaponExpertise_2HSword": {
+				"desc": "{c_number}+[{SF_0} * 100|%|]{/c} of direct damage you deal is inflicted as Bleeding damage over {c_number}{buffduration:BLEEDING}{/c} seconds.{if:SF_7}\n\nYou deal {c_number}x[{SF_5} * 100|%|]{/c} increased Bleeding damage for {c_number}{SF_6}{/c} seconds after killing an enemy.{/if}",
+				"name": "Two-Handed Sword Expertise"
+			},
+			"Barbarian_WeaponExpertise_2HSword_Rank10": {
+				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Bleeding damage for {c_number}{SF_1}{/c} seconds after killing an enemy."
+			},
+			"Barbarian_WeaponExpertise_2HSword_Technique": {
+				"desc": "Your basic attacks have a {s1}% chance to generate an additional 2 Fury."
+			},
+			"Barbarian_WeaponExpertise_Shield_Technique": {
+				"desc": "You gain {s1}% of Block Value as Bonus Damage."
+			}
+		},
 		"Legendary": {
 			"legendary_barb_001": {
 				"desc": "Whenever you deal direct damage while {c_important}Berserking{/c}, inflict {c_random}[Affix_Value_1*100|%|]{/c} of the base damage dealt as additional Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
