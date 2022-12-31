@@ -1195,6 +1195,88 @@
 				]
 			}
 		},
+		"Rarespawn Reward": {
+			"Rarespawn_Reward_1HDagger_Scorpion": {
+				"flavor": "\"The ancient scorpion Nine-Eyes is known as \"The Terror of the Sands\", and for good reason. Her massive tail can pierce the strongest armor, and her poison can melt flesh in seconds.\"\n- Field Notes of an Unknown Iron Wolf",
+				"name": "Broodmother's Stinger"
+			},
+			"Rarespawn_Reward_1HFocus_Succubus": {
+				"flavor": "Even removed from the demon's body, the eye continues to weave its hypnotic patterns.",
+				"name": "Qin's Captivating Eye"
+			},
+			"Rarespawn_Reward_1HMace_BanditMelee": {
+				"flavor": "The handle of this white-hot mace bears soot marks in the shape of a clenched fist.",
+				"name": "Mace of Blazing Furor"
+			},
+			"Rarespawn_Reward_1HSword_KnightMelee": {
+				"flavor": "\"While the origins of this accursed blade are lost to time, there is no question that wielding its dark power leaves an indelible stain on one's soul.\" \n- Barrett's Book of Implements",
+				"name": "Darkblade"
+			},
+			"Rarespawn_Reward_1HWand_Ghost": {
+				"flavor": "\"So skilled was Abe-Mari at divination, they were able to perfectly predict the date of their own death.  The knowledge proved so disastrous that no mage since has attempted to re-create the feat.\"\n- Excerpt from 'Secrets of the Mage-Clans'",
+				"name": "Wand of Abe-Mari"
+			},
+			"Rarespawn_Reward_2HSword_MegaDemon": {
+				"flavor": "This massive sword's edge grows keener with each life taken.",
+				"name": "Infernal Edge"
+			},
+			"Rarespawn_Reward_Amulet_DrownedSpecial": {
+				"flavor": "\"Even after he was put to death, some children swore they could still hear his bell ringing softly in the breeze on moonless nights.\"\n- Greenslade's Tales, Chapter 5: \"The Myth of Blind Edlin\"",
+				"name": "Blind Man's Bell"
+			},
+			"Rarespawn_Reward_Amulet_GoatmanMelee": {
+				"flavor": "This vile necklace of charred goat's teeth paradoxically contains both the power to extend life as well as cut it short.",
+				"name": "Necklace of Inevitability"
+			},
+			"Rarespawn_Reward_Amulet_SnakeCaster": {
+				"flavor": "\"A foul enchantment of desire was woven into the stone that shaped Enkil. Its idolaters were helpless as their souls were ripped from their bodies to animate its writhing form.\"\n- Field Notes of Brother Darmont",
+				"name": "Eye of Enkil"
+			},
+			"Rarespawn_Reward_Boots_SkeletonMelee": {
+				"flavor": "\"The Captain was bleeding from at least three bite wounds, sweating from the poison and barely able to walk, but he never stopped searching for his lost comrades.\"\n- Eulogy for Captain Willcocks",
+				"name": "Captain's Ragged Boots"
+			},
+			"Rarespawn_Reward_Chest_CannibalBrute": {
+				"flavor": "\"Favored by Pitiless Gur, this heavy armor remains painfully cold to the touch, even in the hottest of climates.\"\n- Barrett's Book of Implements",
+				"name": "Gur's Freezing Armor"
+			},
+			"Rarespawn_Reward_Crossbow_GhostMelee": {
+				"flavor": "\"Those who came before shall bear witness to your deeds.\"\n- Inscription on the hilt",
+				"name": "Haunted Crossbow"
+			},
+			"Rarespawn_Reward_Gloves_OmniMonk": {
+				"flavor": "Those foolish few Monks who abuse their training for personal gain are banished from the Floating Sky Monastery and forced to wander the harsh and unforgiving lands beyond.",
+				"name": "Outcast's Handwraps"
+			},
+			"Rarespawn_Reward_Helm_BarbarianGhost": {
+				"flavor": "\"There is nothing better in life than to stand alone, painted red, atop a hill made from the bodies of your enemies.\"\n- Zarozar the Mighty",
+				"name": "Bloodspiller's Helm"
+			},
+			"Rarespawn_Reward_Pants_WerewolfMelee": {
+				"flavor": "Wearing these gore-drenched leggings fills your mind with a single overwhelming thought: to hunt.",
+				"name": "Manhunter's Breeches"
+			},
+			"Rarespawn_Reward_Ring_BloodLord": {
+				"flavor": "\"Unhand me, filth! A single drop of my blood is worth an ocean of yours! Within it churns a power you could never hope to understand!\"\n- Lord Eònan, last words",
+				"name": "Blood-Cursed Band"
+			},
+			"Rarespawn_Reward_Ring_FlyHost": {
+				"flavor": "\"Dearest Will, this ring is like my love for you. Both have no end. May this ring keep you safe and help keep me in your heart during your travels. - Lucya\"\n- Inscription on the band",
+				"name": "Trembling Ring"
+			},
+			"Rarespawn_Reward_Ring_WoodWraith": {
+				"flavor": "Even the slightest touch leaves painful splinters in the flesh.",
+				"name": "Ring of Splintered Wood"
+			},
+			"Rarespawn_Reward_Ring_ZombieBrute": {
+				"flavor": "A malformed collection of bone, flesh and a strange, hardened ichor, this ring-shaped object almost seems to have been grown, rather than crafted.",
+				"name": "Grotesque Loop"
+			},
+			"Rarespawn_Reward_Staff_CultistCaster": {
+				"flavor": "A powerful relic once belonging to Jazreth the Summoner, this staff was thought lost forever.",
+				"name": "Staff of Elemental Command"
+			}
+		},
 		"Unique": {
 			"1HAxe_Unique_Generic_001": {
 				"desc": "Immobilize your target for {c_random}[Affix_Value_1|1|]{/c} seconds when you Critically Strike.",
