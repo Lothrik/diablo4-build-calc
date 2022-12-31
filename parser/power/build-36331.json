@@ -864,6 +864,72 @@
 				"desc": "After spending {c_number}{SF_0}{/c} Spirit, you deal {c_number}x[{SF_1}*100|%|]{/c} increased damage for {c_number}{SF_2}{/c} seconds."
 			}
 		},
+		"Spirit Boons": {
+			"Druid_Passive_Deer_01": {
+				"desc": "Gain {c_number}+{SF_1}{/c} Thorns.",
+				"name": "Prickleskin"
+			},
+			"Druid_Passive_Deer_02": {
+				"desc": "Gain {c_number}+{SF_0}{/c} max Spirit.",
+				"name": "Gift of the Stag"
+			},
+			"Druid_Passive_Deer_03": {
+				"desc": "Take {c_number}x[{SF_0}*100|%|]{/c} Reduced Damage from Elites.",
+				"name": "Wariness"
+			},
+			"Druid_Passive_Deer_04": {
+				"desc": "Reduce the duration of incoming crowd control effects by {c_number}x[{SF_0}*100|%|]{/c}.",
+				"name": "Advantageous Beast"
+			},
+			"Druid_Passive_Eagle_01": {
+				"desc": "{c_number}+[{SF_0}*100|%|]{/c} Increased Critical Strike Chance",
+				"name": "Scythe Talons"
+			},
+			"Druid_Passive_Eagle_02": {
+				"desc": "{c_number}x[{SF_0}*100|%|]{/c} Maximum Life",
+				"name": "Iron Feather"
+			},
+			"Druid_Passive_Eagle_03": {
+				"desc": "{c_number}+[{SF_0}*100|%|]{/c} Attack Speed",
+				"name": "Swooping Attacks"
+			},
+			"Druid_Passive_Eagle_04": {
+				"desc": "{c_number}+[{SF_0}*100|%|]{/c} Critical Strike Damage",
+				"name": "Avian Wrath"
+			},
+			"Druid_Passive_Snake_01": {
+				"desc": "{c_label}Lucky Hit:{/c} {c_important}Earth{/c} skills have up to a {c_number}{SF_0}%{/c} chance to Stun enemies for {c_number}{buffduration:STUN}{/c} seconds. If the target is already stunned and is not a boss, they {c_important}Overpower{/c} the target instead.",
+				"name": "Obsidian Slam"
+			},
+			"Druid_Passive_Snake_02": {
+				"desc": "{c_label}Lucky Hit:{/c} Dealing Lightning damage has up to a {c_number}{SF_0}%{/c} chance to cause the target to emit a static discharge, dealing {c_number}{payload:DAMAGE}{/c} damage to surrounding enemies.",
+				"name": "Overload"
+			},
+			"Druid_Passive_Snake_03": {
+				"desc": "Critical Strikes with {c_important}Shapeshifting{/c} skills heal you for {c_number}[{SF_0} * 100|%|]{/c} of your maximum Life.",
+				"name": "Masochistic"
+			},
+			"Druid_Passive_Snake_04": {
+				"desc": "{c_label}Lucky Hit:{/c} {c_important}Nature Magic{/c} skills have up to a {c_number}{SF_0}%{/c} chance to reduce the cooldown of your {c_important}Ultimate{/c} skill by {c_number}{SF_1}{/c} seconds.",
+				"name": "Calm Before the Storm"
+			},
+			"Druid_Passive_Wolf_01": {
+				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to reset the cooldown of your {c_important}Companion{/c} skills.",
+				"name": "Packleader"
+			},
+			"Druid_Passive_Wolf_02": {
+				"desc": "{c_label}Lucky Hit:{/c} Dealing damage has up to a {c_number}[{SF_0}*100|%|]{/c} chance to restore {c_number}{SF_1}{/c} Spirit.",
+				"name": "Energize"
+			},
+			"Druid_Passive_Wolf_03": {
+				"desc": "Fortify for {c_number}[{SF_0}*100|%|]{/c} of your maximum Life when you use a {c_important}Defensive{/c} skill.",
+				"name": "Bolster"
+			},
+			"Druid_Passive_Wolf_04": {
+				"desc": "Extend the duration of {c_important}Ultimate{/c} skills by {c_number}[{SF_0} * 100|%|]{/c}.",
+				"name": "Calamity"
+			}
+		},
 		"Unique": {
 			"1HAxe_Unique_Druid_001": {
 				"desc": "{c_important}Grizzly Rage{/c} now shapeshifts you into a Dire Werewolf. Dire Werewolf gains {c_random}[Affix_Value_1|%|]{/c} movement speed instead of damage reduction and a {c_random}[Affix_Value_1*2|%|]{/c} Spirit cost reduction bonus. In addition, kills heal you for {c_number}[Affix.\"Static Value 0\"|%|]{/c} of your maximum Life.",

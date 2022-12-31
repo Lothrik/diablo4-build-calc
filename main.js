@@ -907,7 +907,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
 	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
 
-	const maxLabelSize = _nodeWidth > nodeWidth ? Math.floor(8 * _nodeWidth / nodeWidth) : 6;
+	const maxLabelSize = _nodeWidth > nodeWidth ? Math.floor(8.5 * _nodeWidth / nodeWidth) : 6;
 
 	let nameFontSize = 36;
 	let displayName = nodeName;
@@ -1147,7 +1147,7 @@ function drawAllNodes() {
 
 						let boonTypeData = new Map(_boonTypeData);
 						boonTypeData.delete("id");
-						const exclusiveBoons = Array.from(boonTypeData.keys()).map(boonData => boonTypeName + " — " + boonData);
+						const exclusiveBoons = Array.from(boonTypeData.keys()).map(boonData => boonData);
 
 						extraX += nodeSpacingX;
 						for (const [boonName, boonData] of boonTypeData) {
@@ -1164,7 +1164,7 @@ function drawAllNodes() {
 								["y", extraY]
 							]);
 
-							drawNode(boonTypeName + " — " + boonName, boonNode, groupName, branchData);
+							drawNode(boonName, boonNode, groupName, branchData);
 
 							extraX += nodeSpacingX;
 						}

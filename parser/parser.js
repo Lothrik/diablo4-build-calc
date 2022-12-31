@@ -425,12 +425,12 @@ function runParser(downloadMode) {
 				for (const [boonName, boonData] of Object.entries(boonTypeData)) {
 					formattedData += '\t\t"' + boonName + '": {\n';
 					formattedData += "\t\t\tdescription: `" + boonData + "`,\n";
-					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName + " — " + boonName];
+					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonName];
 					if (nodeHistoricalId != undefined) {
 						formattedData += "\t\t\tid: " + nodeHistoricalId + ",\n";
 					} else {
 						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
-						nodeHistory[className]["Spirit Boons: " + boonTypeName + " — " + boonName] = nodeHistoryLength;
+						nodeHistory[className]["Spirit Boons: " + boonName] = nodeHistoryLength;
 						formattedData += "\t\t\tid: " + nodeHistoryLength + ",\n";
 					}
 					formattedData += "\t\t},\n";
