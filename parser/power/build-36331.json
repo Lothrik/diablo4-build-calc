@@ -1199,24 +1199,18 @@
 			"ParagonGlyph_001": {
 				"bonus": "Skills you do not directly cast deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
 				"desc": [
-					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased non-physical damage.",
 					"For every 10 Intelligence within range, your Conjuration skills gain {c_yellow}+[{GlyphAffixScalar}|1|]%{/c} increased damage.",
 					"For every 10 Intelligence purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
-					"For every 10 Intelligence within range, your Mastery skills gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
-					"For every 10 Intelligence purchased within range, {c_white}Skeleton Mages{/c} gain {c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased resistance to all elements.",
-					"For every 10 Intelligence purchased within range, {c_white}Crackling Energy{/c} deals {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
+					"For every 10 Intelligence within range, your Mastery skills gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
 				"name": "Enchant"
 			},
 			"ParagonGlyph_002": {
 				"bonus": "After spending 50 Mana, you deal {c_number}x[{SF_1}*100|%|]{/c} increased damage and gain {c_number}[{SF_2}*100|%|]{/c} increased Mana regeneration for [SF_3] seconds.",
 				"desc": [
-					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased non-physical damage.",
 					"For every 10 Intelligence within range, your Conjuration skills gain {c_yellow}+[{GlyphAffixScalar}|1|]%{/c} increased damage.",
 					"For every 10 Intelligence purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
-					"For every 10 Intelligence within range, your Mastery skills gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
-					"For every 10 Intelligence purchased within range, {c_white}Skeleton Mages{/c} gain {c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased resistance to all elements.",
-					"For every 10 Intelligence purchased within range, {c_white}Crackling Energy{/c} deals {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
+					"For every 10 Intelligence within range, your Mastery skills gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
 				"name": "Release"
 			},
@@ -1258,8 +1252,8 @@
 			"ParagonGlyph_008": {
 				"bonus": "Every {c_important}Pyromancy{/c} skill you cast or every second you channel {c_important}Incinerate{/c} increases your Fire damage by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0} * {SF_1} * 100|%|]{/c}, for {c_number}[{SF_2}]{/c} seconds.",
 				"desc": [
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}.",
 					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased burning damage.",
+					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}.",
 					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary."
 				],
 				"name": "Pyromaniac"
@@ -1274,9 +1268,9 @@
 			"ParagonGlyph_010": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} resistance to all elements.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased physical damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Melee{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
 					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Chilled{/c} targets.",
+					"For every 10 Dexterity purchased within range, {c_white}Melee{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased physical damage.",
 					"For every 10 Dexterity purchased within range, {c_white}Ranged{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
 				"name": "Ward"
@@ -1292,26 +1286,8 @@
 			"ParagonGlyph_012": {
 				"bonus": "You take {c_number}[{SF_0}*100|%|]{/c} reduced damage while you have an active {c_important}Barrier{/c}.",
 				"desc": [
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased {c_white}Overpower{/c} damage.",
-					"For every 10 Intelligence purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased bleeding damage.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Chilled{/c} targets.",
-					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to poisoned targets.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Fortified{/c}.",
-					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Fortified{/c}.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased shadow damage over time.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased burning damage.",
-					"For every 10 Intelligence purchased within range, {c_white}Trap{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
-					"For every 10 Intelligence purchased within range, skills that are {c_white}Imbued{/c} deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
 					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}.",
-					"For every 10 Intelligence purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
-					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased poison damage.",
-					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased non-physical damage.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}.",
-					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased {c_white}Overpower{/c} damage.",
-					"For every 10 Willpower purchased within range, {c_white}Golems{/c} gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased maximum Life.",
-					"For every 10 Intelligence within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased {c_white}Companion{/c} Damage.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary."
+					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}."
 				],
 				"name": "Protector"
 			},
@@ -1341,8 +1317,8 @@
 			"ParagonGlyph_016": {
 				"bonus": "When an enemy is damaged by you, they become {c_important}Vulnerable{/c} for {c_number}[{SF_0}]{/c} seconds. This cannot happen more than once every {c_number}{SF_1}{/c} seconds per enemy.",
 				"desc": [
-					"For every 10 Strength purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Vulnerable{/c} targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Vulnerable{/c} targets."
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Vulnerable{/c} targets.",
+					"For every 10 Strength purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Vulnerable{/c} targets."
 				],
 				"name": "Exploit"
 			},
@@ -1363,8 +1339,8 @@
 			"ParagonGlyph_019": {
 				"bonus": "Critical strikes increase all damage the target takes by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
 				],
 				"name": "Destruction"
 			},
@@ -1442,26 +1418,21 @@
 			"ParagonGlyph_030": {
 				"bonus": "Skills that critically strike generate {c_number}[{SF_0}]{/c} Fury.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
 				],
 				"name": "Wrath"
 			},
 			"ParagonGlyph_031": {
 				"bonus": "Hitting with a {c_important}Weapon Mastery{/c} skill reduces the active cooldown of another random {c_important}Weapon Mastery{/c} skill by {c_number}[{SF_0}]{/c} seconds.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, {c_white}Skeletal Warriors{/c} gain {c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased armor.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to poisoned targets.",
-					"For every 10 Dexterity purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased Lightning damage.",
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to bleeding targets.",
 					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Close targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to burning targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary.",
-					"For every 10 Dexterity purchased within range, skills that swap to a different weapon deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
 					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Vulnerable{/c} targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to bleeding targets."
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, skills that swap to a different weapon deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
 				"name": "Weapon Master"
 			},
@@ -1475,15 +1446,9 @@
 			"ParagonGlyph_033": {
 				"bonus": "Thorns damage increases all damage the target takes by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased bleeding damage.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Chilled{/c} targets.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}.",
 					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Fortified{/c}.",
-					"For every 10 Willpower purchased within range, {c_white}Golems{/c} gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased maximum Life.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased shadow damage over time.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased {c_white}Overpower{/c} damage.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased burning damage."
+					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}.",
+					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary."
 				],
 				"name": "Revenge"
 			},
@@ -1514,14 +1479,10 @@
 				"bonus": "{c_important}Brawling{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
 				"desc": [
 					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased bleeding damage.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Chilled{/c} targets.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}.",
 					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Fortified{/c}.",
-					"For every 10 Willpower purchased within range, {c_white}Golems{/c} gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased maximum Life.",
+					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_white}Healthy{/c}.",
 					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased shadow damage over time.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased {c_white}Overpower{/c} damage.",
-					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased burning damage."
+					"For every 10 Willpower purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased {c_white}Overpower{/c} damage."
 				],
 				"name": "Brawl"
 			},
@@ -1578,9 +1539,9 @@
 			"ParagonGlyph_045": {
 				"bonus": "Poison damage over time effects have a {c_number}[{SF_0}*100|%|]{/c} chance to deal double the amount of damage over their duration.",
 				"desc": [
-					"For every 10 Strength purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased poison damage.",
 					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to poisoned targets.",
-					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased poison damage."
+					"For every 10 Intelligence purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased poison damage.",
+					"For every 10 Strength purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased poison damage."
 				],
 				"name": "Bane"
 			},
@@ -1610,34 +1571,25 @@
 			"ParagonGlyph_049": {
 				"bonus": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased Physical damage to Non-Elites and bosses.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, {c_white}Skeletal Warriors{/c} gain {c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased armor.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to poisoned targets.",
-					"For every 10 Dexterity purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased Lightning damage.",
 					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Close targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to burning targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary.",
-					"For every 10 Dexterity purchased within range, skills that swap to a different weapon deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
 					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Vulnerable{/c} targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to bleeding targets."
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary."
 				],
 				"name": "Outmatch"
 			},
 			"ParagonGlyph_050": {
 				"bonus": "Critical strikes increase all the damage the target takes by {c_number}x[{SF_0}*100|%|]{/c} for {c_number}[SF_2]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
 				],
 				"name": "Spirit"
 			},
 			"ParagonGlyph_051": {
 				"bonus": "Shapeshifting has a {c_number}[{SF_0}*100|%|]{/c} chance to cause the skill's damage to critically strike.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
 				],
 				"name": "Shapeshifter"
 			},
@@ -1694,9 +1646,9 @@
 			"ParagonGlyph_059": {
 				"bonus": "When you hit a target with a Crowd Controlling effect, all the damage they take is increased by {c_number}x[{SF_0}*100|%|]{/c}, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased physical damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Melee{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
 					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Chilled{/c} targets.",
+					"For every 10 Dexterity purchased within range, {c_white}Melee{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased physical damage.",
 					"For every 10 Dexterity purchased within range, {c_white}Ranged{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
 				"name": "Devious"
@@ -1718,18 +1670,18 @@
 			"ParagonGlyph_062": {
 				"bonus": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}, for every Close corpse.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, {c_white}Skeletal Warriors{/c} gain {c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased armor.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to poisoned targets.",
-					"For every 10 Dexterity purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased Lightning damage.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Close targets.",
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to bleeding targets.",
 					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to burning targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary.",
-					"For every 10 Dexterity purchased within range, skills that swap to a different weapon deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage.",
+					"For every 10 Dexterity purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Close targets.",
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to poisoned targets.",
 					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_white}Vulnerable{/c} targets.",
-					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to bleeding targets."
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage while stationary.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, you deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased Lightning damage.",
+					"For every 10 Dexterity purchased within range, {c_white}Skeletal Warriors{/c} gain {c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased armor.",
+					"For every 10 Dexterity purchased within range, skills that swap to a different weapon deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
 				"name": "Gravekeeper"
 			},
@@ -1757,8 +1709,8 @@
 			"ParagonGlyph_066": {
 				"bonus": "Critical strikes deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to targets that are not {c_important}Healthy{/c}.",
 				"desc": [
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
-					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal +{c_yellow}[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage.",
+					"For every 10 Dexterity purchased within range, {c_white}Core{/c} skills deal {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased critical strike damage."
 				],
 				"name": "Essence"
 			},
