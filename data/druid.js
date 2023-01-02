@@ -1469,7 +1469,7 @@ druid["Spirit Boons"] = {
 	"Deer": {
 		id: 158,
 		"Prickleskin": {
-			description: `Gain 796 Thorns.`,
+			description: `Gain +796 Thorns.`,
 			id: 142,
 		},
 		"Gift of the Stag": {
@@ -1477,11 +1477,11 @@ druid["Spirit Boons"] = {
 			id: 143,
 		},
 		"Wariness": {
-			description: `Gain x10% Damage Reduction against Elite Monsters.`,
+			description: `Take x10% Reduced Damage from Elites.`,
 			id: 144,
 		},
 		"Advantageous Beast": {
-			description: `Reduce the duration of Control Impairing Effects by 15%.`,
+			description: `Reduce the duration of incoming crowd control effects by 15%.`,
 			id: 145,
 		},
 	},
@@ -1507,15 +1507,15 @@ druid["Spirit Boons"] = {
 	"Wolf": {
 		id: 160,
 		"Packleader": {
-			description: `Critical Strikes have a 20% chance to reset the cooldown of your companion's skills.`,
+			description: `Lucky Hit: Critical Strikes have up to a 20% chance to reset the cooldown of your Companion skills.`,
 			id: 150,
 		},
 		"Energize": {
-			description: `Lucky Hit: Up to a 15% chance to gain 10 Spirit.`,
+			description: `Lucky Hit: Dealing damage has up to a 15% chance to restore 10 Spirit.`,
 			id: 151,
 		},
 		"Bolster": {
-			description: `Defensive skills grant you 10% Base Life (#) as Fortify.`,
+			description: `Fortify for 10% of your maximum Life when you use a Defensive skill.`,
 			id: 152,
 		},
 		"Calamity": {
@@ -1526,19 +1526,19 @@ druid["Spirit Boons"] = {
 	"Snake": {
 		id: 161,
 		"Obsidian Slam": {
-			description: `Lucky Hit: Earth skills have up to a 15% chance to Stun for # seconds. If the target is already Stunned and isn't a Boss or Elite, your hits will Overpower instead.`,
+			description: `Lucky Hit: Earth skills have up to a 15% chance to Stun enemies for # seconds. If the target is already Stunned and is not a boss, they Overpower the target instead.`,
 			id: 154,
 		},
 		"Overload": {
-			description: `Lucky Hit: Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 63.53% damage to nearby enemies.`,
+			description: `Lucky Hit: Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 63.53% damage to surrounding enemies.`,
 			id: 155,
 		},
 		"Masochistic": {
-			description: `Critical Strikes with Shapeshifting skills will recover 3% of your Base Life (#).`,
+			description: `Critical Strikes with Shapeshifting skills heal you for 3% of your maximum Life.`,
 			id: 156,
 		},
 		"Calm Before the Storm": {
-			description: `Lucky Hit: Nature skills have up to a 15% chance to reduce the cooldown of your Ultimate skills by 2 seconds.`,
+			description: `Lucky Hit: Nature Magic skills have up to a 15% chance to reduce the cooldown of your Ultimate skill by 2 seconds.`,
 			id: 157,
 		},
 	},
