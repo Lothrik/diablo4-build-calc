@@ -247,7 +247,7 @@ let nodeValues = {
 		"Brawling": {
 			"Charge": [
 				"17.0",
-				"",
+				"33",
 				"26"
 			],
 			"Enhanced Charge": [
@@ -285,7 +285,7 @@ let nodeValues = {
 			],
 			"Leap": [
 				"17.0",
-				"",
+				"33",
 				"34"
 			],
 			"Enhanced Leap": [
@@ -301,7 +301,7 @@ let nodeValues = {
 			"Kick": [
 				"2",
 				"17.0",
-				"",
+				"100",
 				"19",
 				"57",
 				"3"
@@ -363,7 +363,7 @@ let nodeValues = {
 				"",
 				"",
 				"15.0",
-				"",
+				"50",
 				"126"
 			],
 			"Enhanced Death Blow": [
@@ -420,7 +420,7 @@ let nodeValues = {
 		"Ultimate": {
 			"Call of the Ancients": [
 				"50.0",
-				"",
+				"30",
 				"6",
 				"80",
 				"30",
@@ -439,7 +439,7 @@ let nodeValues = {
 			],
 			"Iron Maelstrom": [
 				"60.0",
-				"",
+				"40",
 				"63",
 				"2",
 				"21",
@@ -459,7 +459,7 @@ let nodeValues = {
 			],
 			"Wrath of the Berserker": [
 				"60.0",
-				"",
+				"40",
 				"5",
 				"10",
 				"5"
@@ -522,7 +522,7 @@ let nodeValues = {
 			"Earthspike": [
 				"",
 				"8",
-				"",
+				"25",
 				"16.8"
 			],
 			"Enhanced Earthspike": [
@@ -535,7 +535,7 @@ let nodeValues = {
 			],
 			"Maul": [
 				"11",
-				"",
+				"33",
 				"21"
 			],
 			"Enhanced Maul": [
@@ -551,7 +551,7 @@ let nodeValues = {
 			],
 			"Wind Shear": [
 				"12",
-				"",
+				"33",
 				"17.85"
 			],
 			"Enhanced Wind Shear": [
@@ -568,8 +568,8 @@ let nodeValues = {
 			],
 			"Storm Strike": [
 				"15",
-				"",
-				"27.34",
+				"25",
+				"28.35",
 				"",
 				"",
 				"25",
@@ -588,7 +588,7 @@ let nodeValues = {
 			],
 			"Claw": [
 				"9",
-				"",
+				"50",
 				"21"
 			],
 			"Enhanced Claw": [
@@ -605,8 +605,8 @@ let nodeValues = {
 		},
 		"Spirit": {
 			"Landslide": [
-				"29",
-				"",
+				"30",
+				"20",
 				"78.75"
 			],
 			"Enhanced Landslide": [
@@ -622,8 +622,8 @@ let nodeValues = {
 				"30"
 			],
 			"Pulverize": [
-				"34",
-				"",
+				"35",
+				"33",
 				"52.5"
 			],
 			"Enhanced Pulverize": [
@@ -639,8 +639,8 @@ let nodeValues = {
 				"3"
 			],
 			"Tornado": [
-				"38",
-				"",
+				"40",
+				"33",
 				"105"
 			],
 			"Enhanced Tornado": [
@@ -657,8 +657,8 @@ let nodeValues = {
 				""
 			],
 			"Shred": [
-				"34",
-				"",
+				"35",
+				"20",
 				"",
 				"",
 				""
@@ -675,8 +675,8 @@ let nodeValues = {
 				""
 			],
 			"Lightning Storm": [
-				"14",
-				"",
+				"15",
+				"15",
 				"26.25",
 				"5"
 			],
@@ -712,7 +712,7 @@ let nodeValues = {
 		"Defensive": {
 			"Earthen Bulwark": [
 				"16.0",
-				"",
+				"50",
 				"3",
 				"10",
 				""
@@ -748,7 +748,7 @@ let nodeValues = {
 			],
 			"Blood Howl": [
 				"15.0",
-				""
+				"20.0"
 			],
 			"Enhanced Blood Howl": [
 				"1"
@@ -761,8 +761,8 @@ let nodeValues = {
 				"4"
 			],
 			"Cyclone Armor": [
-				"",
-				"",
+				"15.0",
+				"25",
 				"20",
 				"15.75"
 			],
@@ -778,7 +778,7 @@ let nodeValues = {
 		"Companion": {
 			"Ravens": [
 				"25.0",
-				"",
+				"33",
 				"89.25",
 				"6"
 			],
@@ -799,13 +799,13 @@ let nodeValues = {
 			],
 			"Vine Creeper": [
 				"20.0",
-				"",
+				"40",
 				"7",
 				"37.8",
 				"6",
 				"2",
-				"",
-				""
+				"31.5",
+				"2"
 			],
 			"Enhanced Vine Creeper": [
 				"1"
@@ -818,9 +818,9 @@ let nodeValues = {
 			],
 			"Wolves": [
 				"14.0",
-				"",
+				"50",
 				"2",
-				"18.19",
+				"8.19",
 				"36.75"
 			],
 			"Enhanced Wolves": [
@@ -862,7 +862,7 @@ let nodeValues = {
 			],
 			"Boulder": [
 				"10.0",
-				"",
+				"20",
 				"34.65"
 			],
 			"Enhanced Boulder": [
@@ -877,7 +877,7 @@ let nodeValues = {
 			],
 			"Trample": [
 				"14.0",
-				"",
+				"33",
 				"26.25",
 				"47.25",
 				"3"
@@ -902,7 +902,7 @@ let nodeValues = {
 			],
 			"Hurricane": [
 				"20.0",
-				"",
+				"33",
 				"102.37",
 				"8"
 			],
@@ -919,8 +919,8 @@ let nodeValues = {
 			],
 			"Rabies": [
 				"12.0",
-				"",
-				"24.4",
+				"50",
+				"29.4",
 				"55.65",
 				"6"
 			],
@@ -1002,9 +1002,9 @@ let nodeValues = {
 			],
 			"Lacerate": [
 				"50.0",
-				"",
+				"15",
 				"10",
-				"420.20"
+				"420"
 			],
 			"Prime Lacerate": [
 				"3"
@@ -1014,7 +1014,7 @@ let nodeValues = {
 			],
 			"Cataclysm": [
 				"80.0",
-				"",
+				"82",
 				"8",
 				"54.6"
 			],
@@ -1073,7 +1073,7 @@ let nodeValues = {
 		"Basic": {
 			"Decompose": [
 				"7",
-				"",
+				"40",
 				"30",
 				"2.5"
 			],
@@ -1088,7 +1088,7 @@ let nodeValues = {
 			],
 			"Reap": [
 				"4",
-				"",
+				"17",
 				"12",
 				"15",
 				"2"
@@ -1106,7 +1106,7 @@ let nodeValues = {
 			],
 			"Hemorrhage": [
 				"7",
-				"",
+				"40",
 				"25",
 				"20"
 			],
@@ -1125,7 +1125,7 @@ let nodeValues = {
 			],
 			"Bone Splinters": [
 				"5",
-				"",
+				"17",
 				"22.5",
 				"1"
 			],
@@ -1147,7 +1147,7 @@ let nodeValues = {
 		"Core": {
 			"Blight": [
 				"25",
-				"",
+				"40",
 				"30",
 				"80",
 				"6"
@@ -1163,9 +1163,9 @@ let nodeValues = {
 				"10"
 			],
 			"Sever": [
-				"",
-				"",
-				"",
+				"20",
+				"20",
+				"42",
 				""
 			],
 			"Enhanced Sever": [
@@ -1178,8 +1178,8 @@ let nodeValues = {
 				""
 			],
 			"Blood Surge": [
-				"",
-				"",
+				"30",
+				"20",
 				"20",
 				"50",
 				"10",
@@ -1197,8 +1197,8 @@ let nodeValues = {
 				""
 			],
 			"Blood Lance": [
-				"25",
-				"",
+				"10",
+				"40",
 				"3",
 				"45"
 			],
@@ -1215,7 +1215,7 @@ let nodeValues = {
 			],
 			"Bone Spear": [
 				"25",
-				"",
+				"50",
 				"85"
 			],
 			"Enhanced Bone Spear": [
@@ -1243,7 +1243,7 @@ let nodeValues = {
 		"Macabre": {
 			"Corpse Explosion": [
 				"",
-				"",
+				"40",
 				"75"
 			],
 			"Enhanced Corpse Explosion": [
@@ -1268,8 +1268,8 @@ let nodeValues = {
 				""
 			],
 			"Blood Mist": [
-				"",
-				"",
+				"19.0",
+				"9",
 				"3",
 				"50",
 				"1.75",
@@ -1351,7 +1351,7 @@ let nodeValues = {
 		"Summoning": {
 			"Corpse Tendrils": [
 				"11.0",
-				"",
+				"20",
 				"3",
 				"20"
 			],
@@ -1399,7 +1399,7 @@ let nodeValues = {
 			],
 			"Bone Spirit": [
 				"12.0",
-				"",
+				"33",
 				"80",
 				"3"
 			],
@@ -1448,7 +1448,7 @@ let nodeValues = {
 			],
 			"Army of the Dead": [
 				"90.0",
-				"",
+				"54",
 				"7",
 				"30"
 			],
@@ -1457,7 +1457,7 @@ let nodeValues = {
 			],
 			"Blood Wave": [
 				"50.0",
-				"",
+				"30",
 				"90"
 			],
 			"Prime Blood Wave": [
@@ -1473,7 +1473,7 @@ let nodeValues = {
 			],
 			"Bone Storm": [
 				"60.0",
-				"",
+				"40",
 				"180",
 				"10"
 			],
@@ -2290,7 +2290,7 @@ let nodeValues = {
 		"Conjuration": {
 			"Hydra": [
 				"20",
-				"",
+				"62",
 				"3",
 				"8.0",
 				"30"
@@ -2308,7 +2308,7 @@ let nodeValues = {
 			],
 			"Ice Blades": [
 				"12.0",
-				"",
+				"71",
 				"6.0",
 				"31",
 				"20",
@@ -2326,7 +2326,7 @@ let nodeValues = {
 			],
 			"Lightning Spear": [
 				"20.0",
-				"",
+				"35",
 				"6.0",
 				"15"
 			],
@@ -2363,7 +2363,7 @@ let nodeValues = {
 		"Mastery": {
 			"Meteor": [
 				"40",
-				"",
+				"40",
 				"50",
 				"35",
 				"3"
@@ -2381,7 +2381,7 @@ let nodeValues = {
 			],
 			"Blizzard": [
 				"40",
-				"",
+				"33",
 				"120",
 				"18",
 				"6"
@@ -2398,7 +2398,7 @@ let nodeValues = {
 			],
 			"Ball Lightning": [
 				"50",
-				"",
+				"20",
 				"15"
 			],
 			"Enhanced Ball Lightning": [
@@ -2442,7 +2442,7 @@ let nodeValues = {
 			],
 			"Firewall": [
 				"30",
-				"",
+				"40",
 				"160",
 				"8"
 			],
@@ -2460,7 +2460,7 @@ let nodeValues = {
 		"Ultimate": {
 			"Inferno": [
 				"45.0",
-				"",
+				"38",
 				"295",
 				"8",
 				"50"
@@ -2483,7 +2483,7 @@ let nodeValues = {
 			],
 			"Deep Freeze": [
 				"60.0",
-				"",
+				"45",
 				"4",
 				"20",
 				"200"

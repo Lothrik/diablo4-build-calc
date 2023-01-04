@@ -56,7 +56,7 @@ Lucky Hit Chance: {#}%
 Tear the flesh from an enemy, dealing {#}% damage per second and forming a usable Corpse with the flesh every {#} seconds.`,
 		id: 0,
 		maxPoints: 5,
-		values: [ "7", "", "30", "2.5" ],
+		values: [ "7", "40", "30", "2.5" ],
 		x: -302.458,
 		y: -154.39
 	},
@@ -98,7 +98,7 @@ Lucky Hit Chance: {#}%
 Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy with Reap increases your Damage Reduction by {#}% for {#} seconds.`,
 		id: 4,
 		maxPoints: 5,
-		values: [ "4", "", "12", "15", "2" ],
+		values: [ "4", "17", "12", "15", "2" ],
 		x: -276.92,
 		y: 154.47
 	},
@@ -140,7 +140,7 @@ Lucky Hit Chance: {#}%
 Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to form a Blood Orb.`,
 		id: 8,
 		maxPoints: 5,
-		values: [ "7", "", "25", "20" ],
+		values: [ "7", "40", "25", "20" ],
 		x: 279.313,
 		y: -153.68
 	},
@@ -182,7 +182,7 @@ Lucky Hit Chance: {#}%
 Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy is hit by the same cast of Bone Splinters, you gain {#} Essence.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "5", "", "22.5", "1" ],
+		values: [ "5", "17", "22.5", "1" ],
 		x: 267.113,
 		y: 153.42
 	},
@@ -227,7 +227,7 @@ Lucky Hit Chance: {#}%
 Unleash concentrated blight that deals {#}% damage and leaves behind a defiled area, dealing {#}% damage over {#} seconds.`,
 		id: 16,
 		maxPoints: 5,
-		values: [ "25", "", "30", "80", "6" ],
+		values: [ "25", "40", "30", "80", "6" ],
 		x: -224.532,
 		y: -184.935
 	},
@@ -269,7 +269,7 @@ Lucky Hit Chance: {#}%
 A specter of you charges forward and attacks with its scythe for {#}% damage then returns to you and attacks again for {#}% damage.`,
 		id: 20,
 		maxPoints: 5,
-		values: [ "", "", "", "" ],
+		values: [ "20", "20", "42", "" ],
 		x: -411.075,
 		y: 0.155
 	},
@@ -311,7 +311,7 @@ Lucky Hit Chance: {#}%
 Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#}% damage. Blood Surge's nova damage is increased by x{#}% per enemy drained, up to x{#}%.`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "", "", "20", "50", "10", "50" ],
+		values: [ "30", "20", "20", "50", "10", "50" ],
 		x: 230.535,
 		y: -185.16
 	},
@@ -352,7 +352,7 @@ Lucky Hit Chance: {#}%
 Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damage to the enemy and all other lanced enemies.`,
 		id: 28,
 		maxPoints: 5,
-		values: [ "25", "", "3", "45" ],
+		values: [ "10", "40", "3", "45" ],
 		x: 380.122,
 		y: 38.46
 	},
@@ -394,7 +394,7 @@ Lucky Hit Chance: {#}%
 Conjure a bone spear from the ground, dealing {#}% damage and Piercing through enemies.`,
 		id: 32,
 		maxPoints: 5,
-		values: [ "25", "", "85" ],
+		values: [ "25", "50", "85" ],
 		x: -53.082,
 		y: 204.585
 	},
@@ -468,7 +468,7 @@ Lucky Hit Chance: {#}%
 Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		id: 39,
 		maxPoints: 5,
-		values: [ "", "", "75" ],
+		values: [ "", "40", "75" ],
 		x: -385,
 		y: 0.11
 	},
@@ -537,7 +537,7 @@ Lucky Hit Chance: {#}%
 Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Speed is reduced by {#}% and you periodically deal {#}% damage to enemies, healing for {#}% of the damage dealt.`,
 		id: 46,
 		maxPoints: 5,
-		values: [ "", "", "3", "50", "1.75", "100" ],
+		values: [ "19.0", "9", "3", "50", "1.75", "100" ],
 		x: 79.31,
 		y: -196.6
 	},
@@ -750,7 +750,7 @@ Lucky Hit Chance: {#}%
 Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, and dealing {#}% damage to them. Does not consume the Corpse.`,
 		id: 67,
 		maxPoints: 5,
-		values: [ "11.0", "", "3", "20" ],
+		values: [ "11.0", "20", "3", "20" ],
 		x: 303.62,
 		y: -136.85
 	},
@@ -874,7 +874,7 @@ Lucky Hit Chance: {#}%
 Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {#}% damage to the target and all surrounding enemies. Damage is increased by {#}% for each point of Essence spent casting Bone Spirit.`,
 		id: 80,
 		maxPoints: 5,
-		values: [ "12.0", "", "80", "3" ],
+		values: [ "12.0", "33", "80", "3" ],
 		x: -81.99,
 		y: 195.105
 	},
@@ -1000,7 +1000,7 @@ Lucky Hit Chance: {#}%
 Call forth the deep buried dead. Volatile undead emerge over the next {#} seconds that explode when around enemies, dealing {#}% damage.`,
 		id: 93,
 		maxPoints: 1,
-		values: [ "90.0", "", "7", "30" ],
+		values: [ "90.0", "54", "7", "30" ],
 		x: -412.909,
 		y: -101.334
 	},
@@ -1031,7 +1031,7 @@ Lucky Hit Chance: {#}%
 Conjure a tidal wave of blood that deals {#}% damage and knocks enemies back.`,
 		id: 96,
 		maxPoints: 1,
-		values: [ "50.0", "", "90" ],
+		values: [ "50.0", "30", "90" ],
 		x: 308.891,
 		y: -165.596
 	},
@@ -1080,7 +1080,7 @@ Lucky Hit Chance: {#}%
 A swirling storm of bones appears around you and your Golem, dealing {#}% to surrounding enemies over {#} seconds.`,
 		id: 101,
 		maxPoints: 1,
-		values: [ "60.0", "", "180", "10" ],
+		values: [ "60.0", "40", "180", "10" ],
 		x: 310.324,
 		y: 168.163
 	},

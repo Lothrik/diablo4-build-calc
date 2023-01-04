@@ -656,7 +656,7 @@ Lucky Hit Chance: {#}%
 Become Unstoppable and rush forward, pushing enemies with you then swinging through them for {#}% damage and Knocking them Back.`,
 		id: 58,
 		maxPoints: 5,
-		values: [ "17.0", "", "26" ],
+		values: [ "17.0", "33", "26" ],
 		x: -281.935,
 		y: 182.909
 	},
@@ -765,7 +765,7 @@ Lucky Hit Chance: {#}%
 Leap forward and then slam down, dealing {#}% damage and Knocking Back surrounding enemies on impact.`,
 		id: 69,
 		maxPoints: 5,
-		values: [ "17.0", "", "34" ],
+		values: [ "17.0", "33", "34" ],
 		x: 268.76,
 		y: 178.719
 	},
@@ -808,7 +808,7 @@ Lucky Hit Chance: {#}%
 Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional {#}% damage and are Stunned for {#} seconds.`,
 		id: 73,
 		maxPoints: 5,
-		values: [ "2", "17.0", "", "19", "57", "3" ],
+		values: [ "2", "17.0", "100", "19", "57", "3" ],
 		x: 214.57,
 		y: -209.195
 	},
@@ -972,7 +972,7 @@ Attempt a killing strike, dealing {#}% damage to enemies in front of you.
 If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge is refunded.`,
 		id: 89,
 		maxPoints: 5,
-		values: [ "", "", "15.0", "", "126" ],
+		values: [ "", "", "15.0", "50", "126" ],
 		x: -325.565,
 		y: -166.535
 	},
@@ -1121,7 +1121,7 @@ Talic spins in a whirlwind rapidly attacking enemies for {#}% damage.
 Madawc upheaves the ground, dealing {#}% damage.`,
 		id: 103,
 		maxPoints: 1,
-		values: [ "50.0", "", "6", "80", "30", "50", "150" ],
+		values: [ "50.0", "30", "6", "80", "30", "50", "150" ],
 		x: -51.582,
 		y: -242.094
 	},
@@ -1161,7 +1161,7 @@ Reactivate a second time to attach a chain to your Two-Handed Slashing weapon an
 Reactivate a final time to attach a chain to your Dual Wield weapons and swing them around you, dealing {#}% damage per hit.`,
 		id: 106,
 		maxPoints: 1,
-		values: [ "60.0", "", "63", "2", "21", "126", "5", "34" ],
+		values: [ "60.0", "40", "63", "2", "21", "126", "5", "34" ],
 		x: -409.819,
 		y: -8.495
 	},
@@ -1201,7 +1201,7 @@ Lucky Hit Chance: {#}%
 Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, dealing direct damage with Basic Skills grants Berserking for {#} seconds.`,
 		id: 110,
 		maxPoints: 1,
-		values: [ "60.0", "", "5", "10", "5" ],
+		values: [ "60.0", "40", "5", "10", "5" ],
 		x: 293.361,
 		y: 168.865
 	},

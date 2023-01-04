@@ -57,7 +57,7 @@ Lucky Hit Chance: {#}%
 Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 		id: 0,
 		maxPoints: 5,
-		values: [ "", "8", "", "16.8" ],
+		values: [ "", "8", "25", "16.8" ],
 		x: -348.701,
 		y: -67.625
 	},
@@ -98,7 +98,7 @@ Lucky Hit Chance: {#}%
 Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage.`,
 		id: 4,
 		maxPoints: 5,
-		values: [ "11", "", "21" ],
+		values: [ "11", "33", "21" ],
 		x: -262.904,
 		y: 151.445
 	},
@@ -140,7 +140,7 @@ Lucky Hit Chance: {#}%
 Conjure a piercing blade of wind, dealing {#}% damage.`,
 		id: 8,
 		maxPoints: 5,
-		values: [ "12", "", "17.85" ],
+		values: [ "12", "33", "17.85" ],
 		x: -2.291,
 		y: -199.935
 	},
@@ -184,7 +184,7 @@ Electricity gathers around your weapon, dealing {#}% damage to your target and c
 Dealing damage with Storm Strike reduces your damage taken by {#}% for {#} seconds.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "15", "", "27.34", "", "", "25", "3" ],
+		values: [ "15", "25", "28.35", "", "", "25", "3" ],
 		x: 346.71,
 		y: -68.24
 	},
@@ -226,7 +226,7 @@ Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 		id: 16,
 		maxPoints: 5,
-		values: [ "9", "", "21" ],
+		values: [ "9", "50", "21" ],
 		x: 274.729,
 		y: 154.92
 	},
@@ -271,7 +271,7 @@ Lucky Hit Chance: {#}%
 Crush enemies between 3 pillars of earth, dealing up to {#}% damage.`,
 		id: 20,
 		maxPoints: 5,
-		values: [ "29", "", "78.75" ],
+		values: [ "30", "20", "78.75" ],
 		x: -225.944,
 		y: -166.79
 	},
@@ -313,7 +313,7 @@ Lucky Hit Chance: {#}%
 Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surrounding enemies.`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "34", "", "52.5" ],
+		values: [ "35", "33", "52.5" ],
 		x: -370.985,
 		y: 43.955
 	},
@@ -355,7 +355,7 @@ Lucky Hit Chance: {#}%
 Conjure a swirling tornado that deals {#}% damage.`,
 		id: 28,
 		maxPoints: 5,
-		values: [ "38", "", "105" ],
+		values: [ "40", "33", "105" ],
 		x: 256.877,
 		y: -173.905
 	},
@@ -401,7 +401,7 @@ Shapeshift into a Werewolf and perform a 3-combo attack.
 3rd Attack: Perform a larger finishing move dealing {#}% damage.`,
 		id: 33,
 		maxPoints: 5,
-		values: [ "34", "", "", "", "" ],
+		values: [ "35", "20", "", "", "" ],
 		x: 44.547,
 		y: 225.17
 	},
@@ -443,7 +443,7 @@ Lucky Hit Chance: {#}%
 Conjure a growing lightning storm that deals {#}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.`,
 		id: 37,
 		maxPoints: 5,
-		values: [ "14", "", "26.25", "5" ],
+		values: [ "15", "15", "26.25", "5" ],
 		x: 451.305,
 		y: 2.77
 	},
@@ -544,7 +544,7 @@ Lucky Hit Chance: {#}%
 Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your Base Life ({#}) in damage.`,
 		id: 43,
 		maxPoints: 5,
-		values: [ "16.0", "", "3", "10", "" ],
+		values: [ "16.0", "50", "3", "10", "" ],
 		x: -371.465,
 		y: -166.005
 	},
@@ -641,7 +641,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Ne
 Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		id: 53,
 		maxPoints: 5,
-		values: [ "15.0", "" ],
+		values: [ "15.0", "20.0" ],
 		x: 0.085,
 		y: 234.29
 	},
@@ -685,7 +685,7 @@ Passive: Powerful winds surround you, granting {#}% non-Physical damage reductio
 Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.`,
 		id: 57,
 		maxPoints: 5,
-		values: [ "", "", "20", "15.75" ],
+		values: [ "15.0", "25", "20", "15.75" ],
 		x: -1.22,
 		y: -265.385
 	},
@@ -729,7 +729,7 @@ Lucky Hit Chance: {#}%
 Active: The target area is swarmed with ravens, dealing {#}% damage over {#} seconds.`,
 		id: 62,
 		maxPoints: 5,
-		values: [ "25.0", "", "89.25", "6" ],
+		values: [ "25.0", "33", "89.25", "6" ],
 		x: -1.05,
 		y: 231.07
 	},
@@ -786,7 +786,7 @@ Passive: A vine creeper periodically emerges from the ground every {#} seconds a
 Active: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.`,
 		id: 67,
 		maxPoints: 5,
-		values: [ "20.0", "", "7", "37.8", "6", "2", "", "" ],
+		values: [ "20.0", "40", "7", "37.8", "6", "2", "31.5", "2" ],
 		x: -0.085,
 		y: -233.405
 	},
@@ -830,7 +830,7 @@ Passive: Summon {#} wolf companions that bite enemies for {#}% damage.
 Active: Direct the wolves to focus an enemy, leaping to them and striking for {#}% damage.`,
 		id: 71,
 		maxPoints: 5,
-		values: [ "14.0", "", "2", "18.19", "36.75" ],
+		values: [ "14.0", "50", "2", "8.19", "36.75" ],
 		x: 438.495,
 		y: 1.855
 	},
@@ -942,7 +942,7 @@ Lucky Hit Chance: {#}%
 Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#}% damage with each hit.`,
 		id: 85,
 		maxPoints: 5,
-		values: [ "10.0", "", "34.65" ],
+		values: [ "10.0", "20", "34.65" ],
 		x: -415.96,
 		y: -81.885
 	},
@@ -986,7 +986,7 @@ Shapeshift into a Werebear and charge forward, dealing {#}% damage and Knocking 
 Enemies who are Knocked Back into terrain take an additional {#}% damage and are stunned for {#} seconds.`,
 		id: 89,
 		maxPoints: 5,
-		values: [ "14.0", "", "26.25", "47.25", "3" ],
+		values: [ "14.0", "33", "26.25", "47.25", "3" ],
 		x: -283.24,
 		y: 180.74
 	},
@@ -1054,7 +1054,7 @@ Lucky Hit Chance: {#}%
 Form a hurricane around you that deals {#}% damage to surrounding enemies over {#} seconds.`,
 		id: 99,
 		maxPoints: 5,
-		values: [ "20.0", "", "102.37", "8" ],
+		values: [ "20.0", "33", "102.37", "8" ],
 		x: 113.005,
 		y: -268.023
 	},
@@ -1098,7 +1098,7 @@ Shapeshift into a Werewolf and perform an infectious bite on the target dealing 
 Infected enemies spread Rabies to other surrounding targets.`,
 		id: 103,
 		maxPoints: 5,
-		values: [ "12.0", "", "24.4", "55.65", "6" ],
+		values: [ "12.0", "50", "29.4", "55.65", "6" ],
 		x: 202.015,
 		y: 186.695
 	},
@@ -1303,7 +1303,7 @@ Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf, become Immune and quickly dash {#} times between enemies in the area dealing up to {#}% damage.`,
 		id: 120,
 		maxPoints: 1,
-		values: [ "50.0", "", "10", "420.20" ],
+		values: [ "50.0", "15", "10", "420" ],
 		x: -5.075,
 		y: 234.915
 	},
@@ -1335,7 +1335,7 @@ Lucky Hit Chance: {#}%
 A massive storm follows you for {#} seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing {#}% damage.`,
 		id: 123,
 		maxPoints: 1,
-		values: [ "80.0", "", "8", "54.6" ],
+		values: [ "80.0", "82", "8", "54.6" ],
 		x: -397.415,
 		y: -109.56
 	},

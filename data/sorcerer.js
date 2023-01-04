@@ -731,7 +731,7 @@ Summon a {#} headed hydra for {#} seconds. Each head spits fire at a Nearby enem
 When a Burning enemy is killed, a Hydra head spawns from its corpse for 3 seconds.`,
 		id: 61,
 		maxPoints: 5,
-		values: [ "20", "", "3", "8.0", "30" ],
+		values: [ "20", "62", "3", "8.0", "30" ],
 		x: 376.215,
 		y: -182.8
 	},
@@ -776,7 +776,7 @@ Conjure ice blades for {#} seconds that rapidly slashes enemies for {#}% damage 
 Killing an enemy has a 10% chance to conjure Ice Blades.`,
 		id: 65,
 		maxPoints: 5,
-		values: [ "12.0", "", "6.0", "31", "20", "2" ],
+		values: [ "12.0", "71", "6.0", "31", "20", "2" ],
 		x: -392.77,
 		y: -171.33
 	},
@@ -821,7 +821,7 @@ Conjure a crackling spear of lightning that seeks out enemies for {#} seconds, d
 Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		id: 69,
 		maxPoints: 5,
-		values: [ "20.0", "", "6.0", "15" ],
+		values: [ "20.0", "35", "6.0", "15" ],
 		x: 3.935,
 		y: 249.83
 	},
@@ -914,7 +914,7 @@ Summon a meteor that strikes the target location, dealing {#}% damage and Burnin
 Every time an enemy takes Burning damage, there's a 3% chance a Meteor falls on them.`,
 		id: 78,
 		maxPoints: 5,
-		values: [ "40", "", "50", "35", "3" ],
+		values: [ "40", "40", "50", "35", "3" ],
 		x: 380.18,
 		y: 119.219
 	},
@@ -959,7 +959,7 @@ Summon a frigid blizzard that deals {#}% damage and continuously Chills enemies 
 Every 15 seconds, a Blizzard forms over you and follows you for 4 seconds.`,
 		id: 82,
 		maxPoints: 5,
-		values: [ "40", "", "120", "18", "6" ],
+		values: [ "40", "33", "120", "18", "6" ],
 		x: -3.215,
 		y: -218.79
 	},
@@ -1004,7 +1004,7 @@ Conjure a ball of lightning that slowly moves forward, continually zapping enemi
 When Crackling Energy would form, there's a 10% chance Ball Lightning is formed instead.`,
 		id: 86,
 		maxPoints: 5,
-		values: [ "50", "", "15" ],
+		values: [ "50", "20", "15" ],
 		x: -399.365,
 		y: 2.04
 	},
@@ -1131,7 +1131,7 @@ Create a wall of flames that Burns enemies for {#}% damage over {#} seconds.
 Lucky Hit: Direct damage has up to a 15% chance to spawn a Firewall for 3 seconds.`,
 		id: 99,
 		maxPoints: 5,
-		values: [ "30", "", "160", "8" ],
+		values: [ "30", "40", "160", "8" ],
 		x: -104.505,
 		y: 231.796
 	},
@@ -1176,7 +1176,7 @@ Lucky Hit Chance: {#}%
 Ignite a roaring inferno that pulses in and out of the target area, Burning enemies for {#}% damage over {#} seconds, and then explodes, dealing {#}% damage to enemies on the outer edge.`,
 		id: 103,
 		maxPoints: 1,
-		values: [ "45.0", "", "295", "8", "50" ],
+		values: [ "45.0", "38", "295", "8", "50" ],
 		x: 318.105,
 		y: -144.186
 	},
@@ -1238,7 +1238,7 @@ Lucky Hit Chance: {#}%
 Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling enemies for {#}%. When Deep Freeze ends, Frozen enemies shatter for {#}%. Casting Deep Freeze again ends the effect early.`,
 		id: 109,
 		maxPoints: 1,
-		values: [ "60.0", "", "4", "20", "200" ],
+		values: [ "60.0", "45", "4", "20", "200" ],
 		x: -295.855,
 		y: -140.251
 	},
