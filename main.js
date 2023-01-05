@@ -92,6 +92,7 @@ const COLD = "Cold";
 const POISON = "Poison";
 const SHADOW = "Shadow";
 const UNKNOWN = "Unknown";
+const ANY_DAMAGE_TYPE = [PHYSICAL, FIRE, LIGHTNING, COLD, POISON, SHADOW];
 const COOLDOWN = "Cooldown";
 const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
@@ -403,7 +404,7 @@ function handleSearchInput(event) {
 	if (newSearchText.length >= 3) {
 		let nodeMatch = pixiNodes.filter(pixiNode => {
 			// search `nodeHeader` for `newSearchText`
-			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !pixiNode.nodeName.includes(pixiNode.damageType) ? ` (${pixiNode.damageType})` : "");
+			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => pixiNode.nodeName.includes(damageType) || pixiNode.nodeDesc.includes(damageType)) ? ` (${pixiNode.damageType})` : "");
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
 				setNodeStyleThick(pixiNode, true);
 				return true;
@@ -1388,7 +1389,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.6 ? 4 : newRenderScale >= 0.3 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
-	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !curNode.nodeName.includes(curNode.damageType) ? ` (${curNode.damageType})` : "");
+	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => curNode.nodeName.includes(damageType) || curNode.nodeDesc.includes(damageType)) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
 		align: "left",
 		breakWords: true,
