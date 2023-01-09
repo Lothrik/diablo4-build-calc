@@ -816,7 +816,7 @@ Veins burst out of a Corpse, pulling in enemies, Stunning them for {#} seconds, 
 		description: `Lucky Hit: Darkness Skills have up to a {#}% chance to Stun for {#} seconds.`,
 		id: 74,
 		maxPoints: 3,
-		values: [ "{15/30/45}", "1" ],
+		values: [ "15", "{1/2/3}" ],
 		x: -1003.06,
 		y: -181.13
 	},

@@ -1377,8 +1377,8 @@ let nodeValues = {
 				"{5/10/15}"
 			],
 			"Crippling Darkness": [
-				"{15/30/45}",
-				"1"
+				"15",
+				"{1/2/3}"
 			],
 			"Blood Begets Blood": [
 				"{10/20/30}"
