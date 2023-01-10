@@ -609,7 +609,7 @@ function getNodePosition(curNode) {
 }
 function getUnusedPoints(paragonPoints = false) {
 	if (paragonPoints) {
-		// 1 paragon point gained at level 50, then 2 per level from 51-100 inclusive (level total: 201); plus 20 from renown (final total: 221)
+		// 1 paragon point gained at level 50, then 4 per level from 51-100 inclusive (level total: 201); plus 20 from renown (final total: 221)
 		const maxParagonPoints = 221;
 		// TODO: implement paragon points
 		return 0;
