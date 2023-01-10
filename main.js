@@ -83,6 +83,7 @@ const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
+const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
 const PHYSICAL = "Physical";
@@ -218,8 +219,10 @@ function setNodeStyleThin(curNode) {
 		curNode.children[2].style.fontWeight = "normal";
 		curNode.children[3].children[0].style.fontWeight = "normal";
 		curNode.children[4].children[0].style.fontWeight = "normal";
+		curNode.children[5].lineStyle(lineStyleThinSquare);
 		curNode.children[5].updateLineStyle(lineStyleThinSquare);
 	} else {
+		curNode.children[2].lineStyle(lineStyleThinSquare);
 		curNode.children[2].updateLineStyle(lineStyleThinSquare);
 	}
 }
@@ -406,16 +409,19 @@ function handleSearchInput(event) {
 			// search `nodeHeader` for `newSearchText`
 			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => pixiNode.nodeName.includes(damageType) || pixiNode.nodeDesc.includes(damageType)) ? ` (${pixiNode.damageType})` : "");
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
+				pixiNode.nodeData.set("searchQueryMatch", true);
 				setNodeStyleThick(pixiNode, true);
 				return true;
 			} else {
 				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
 				const nodeDesc = pixiNode.nodeDesc;
 				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText)) {
+					pixiNode.nodeData.set("searchQueryMatch", true);
 					setNodeStyleThick(pixiNode, true);
 					return true;
 				}
 			}
+			pixiNode.nodeData.set("searchQueryMatch", false);
 			return false;
 		});
 		nodeCount = nodeMatch.length;
@@ -435,11 +441,11 @@ function handleSearchInput(event) {
 		}
 	}
 	oldSearchText = newSearchText;
-	if (event.type == "blur" || nodeCount < 3) {
+	if (event.type == "blur" || nodeCount == 0) {
 		const extraInfoHTML = $("#extraInfo").html();
-		if (extraInfoHTML.includes(MATCHES_FOUND_TEXT)) $("#extraInfo").empty().addClass("hidden");
+		if ([MATCH_FOUND_TEXT, MATCHES_FOUND_TEXT].some(matchText => extraInfoHTML.includes(matchText))) $("#extraInfo").empty().addClass("hidden");
 	} else {
-		$("#extraInfo").html(nodeCount + MATCHES_FOUND_TEXT + "`" + newSearchText + "`.").removeClass("hidden");
+		$("#extraInfo").html(nodeCount + (nodeCount == 1 ? MATCH_FOUND_TEXT : MATCHES_FOUND_TEXT) + "`" + newSearchText + "`.").removeClass("hidden");
 	}
 }
 function resizeSearchInput() {
@@ -672,12 +678,12 @@ function canAllocate(curNode) {
 	}
 	const baseSkill = curNode.nodeData.get("baseSkill");
 	const upgradePrefixes = ["Enhanced"];
-	if (baseSkill != undefined && !upgradePrefixes.some(upgradePrefix => curNode.nodeName.indexOf(upgradePrefix) != -1)) {
+	if (baseSkill != undefined && !upgradePrefixes.some(upgradePrefix => curNode.nodeName.includes(upgradePrefix))) {
 		return pixiNodes.find(pixiNode => {
 			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
 			if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
 			if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
-			return !upgradePrefixes.some(upgradePrefix => pixiNode.nodeName.indexOf(upgradePrefix) != -1);
+			return !upgradePrefixes.some(upgradePrefix => pixiNode.nodeName.includes(upgradePrefix));
 		}) == undefined;
 	}
 	return true;
@@ -919,7 +925,10 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	const maxPoints = nodeData.get("maxPoints");
 	const requiredPoints = nodeData.get("requiredPoints");
 
-	const useThickNodeStyle = groupName == undefined ? requiredPoints <= getAllocatedSkillPoints(nodeName) : allocatedPoints > 0;
+	// `searchQueryMatch` implies `useThickNodeStyle` and `invertColor`; is set in `handleSearchInput(...)`; and is only used for restoring node style after `redrawNode` is called
+	const searchQueryMatch = nodeData.get("searchQueryMatch");
+
+	const useThickNodeStyle = searchQueryMatch || (groupName == undefined ? requiredPoints <= getAllocatedSkillPoints(nodeName) : allocatedPoints > 0);
 
 	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.6 ? 4 : newRenderScale >= 0.3 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
@@ -997,7 +1006,18 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeBorder.pivot.x = _nodeWidth / 2;
 	nodeBorder.pivot.y = _nodeHeight / 2;
 	if (([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
-		nodeBorder.lineStyle(lineStyleThickSquare);
+		let _lineStyleThickSquare = {};
+		if (searchQueryMatch) { // aka `invertColor`
+			Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
+			if (_lineStyleThickSquare.color == 0xFFFFFF) {
+				_lineStyleThickSquare.color = 0x00FF00;
+			} else {
+				_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
+			}
+		} else {
+			_lineStyleThickSquare = lineStyleThickSquare;
+		}
+		nodeBorder.lineStyle(_lineStyleThickSquare);
 	} else {
 		nodeBorder.lineStyle(lineStyleThinSquare);
 	}
