@@ -367,6 +367,35 @@
 				]
 			}
 		},
+		"Paragon (Board)": {
+			"Paragon_Barb_00": {
+				"name": "Start"
+			},
+			"Paragon_Barb_01": {
+				"name": "Hemorrhage"
+			},
+			"Paragon_Barb_02": {
+				"name": "Blood Rage"
+			},
+			"Paragon_Barb_03": {
+				"name": "Carnage"
+			},
+			"Paragon_Barb_04": {
+				"name": "Decimator"
+			},
+			"Paragon_Barb_05": {
+				"name": "Bone Breaker"
+			},
+			"Paragon_Barb_06": {
+				"name": "Precision Striker"
+			},
+			"Paragon_Barb_07": {
+				"name": "War Bringer"
+			},
+			"Paragon_Barb_08": {
+				"name": "Weapons Expert"
+			}
+		},
 		"Paragon (Legendary)": {
 			"Paragon_Barb_Legendary_001": {
 				"desc": "Bleeding enemies you kill explode, dealing {c_number}[{SF_1}*100|%|]{/c} of their max life to nearby enemies."
@@ -806,6 +835,35 @@
 				"values": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				]
+			}
+		},
+		"Paragon (Board)": {
+			"Paragon_Druid_00": {
+				"name": "Start"
+			},
+			"Paragon_Druid_01": {
+				"name": "Thunderstruck"
+			},
+			"Paragon_Druid_02": {
+				"name": "Earthen Cruelty"
+			},
+			"Paragon_Druid_03": {
+				"name": "Cornered"
+			},
+			"Paragon_Druid_04": {
+				"name": "Lust for Carnage"
+			},
+			"Paragon_Druid_05": {
+				"name": "Heightened Malice"
+			},
+			"Paragon_Druid_06": {
+				"name": "Polymorphic"
+			},
+			"Paragon_Druid_07": {
+				"name": "Roots of Nature"
+			},
+			"Paragon_Druid_08": {
+				"name": "Spiritual Guidance"
 			}
 		},
 		"Paragon (Legendary)": {
@@ -2405,6 +2463,35 @@
 				]
 			}
 		},
+		"Paragon (Board)": {
+			"Paragon_Necro_00": {
+				"name": "Start"
+			},
+			"Paragon_Necro_01": {
+				"name": "Cult Leader"
+			},
+			"Paragon_Necro_02": {
+				"name": "Towering Monstrosity"
+			},
+			"Paragon_Necro_03": {
+				"name": "Cannibalize"
+			},
+			"Paragon_Necro_04": {
+				"name": "Flesh Field"
+			},
+			"Paragon_Necro_05": {
+				"name": "Bone Graft"
+			},
+			"Paragon_Necro_06": {
+				"name": "Empowering Blood"
+			},
+			"Paragon_Necro_07": {
+				"name": "Bloodletter"
+			},
+			"Paragon_Necro_08": {
+				"name": "Wither"
+			}
+		},
 		"Paragon (Legendary)": {
 			"Paragon_Necro_Legendary_001": {
 				"desc": "You and your Minions deal {c_number}x[{SF_0}*100|%|]{/c} increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem."
@@ -2788,6 +2875,35 @@
 					"0.08",
 					"ExpectedLevelForIPower()"
 				]
+			}
+		},
+		"Paragon (Board)": {
+			"Paragon_Rogue_00": {
+				"name": "Start"
+			},
+			"Paragon_Rogue_01": {
+				"name": "Overflowing"
+			},
+			"Paragon_Rogue_02": {
+				"name": "Tricks of Trade"
+			},
+			"Paragon_Rogue_03": {
+				"name": "Control Master"
+			},
+			"Paragon_Rogue_04": {
+				"name": "Deadly Ambush"
+			},
+			"Paragon_Rogue_05": {
+				"name": "Inner Eye"
+			},
+			"Paragon_Rogue_06": {
+				"name": "Ultimatum"
+			},
+			"Paragon_Rogue_07": {
+				"name": "Expose"
+			},
+			"Paragon_Rogue_08": {
+				"name": "Completionist"
 			}
 		},
 		"Paragon (Legendary)": {
@@ -3306,6 +3422,35 @@
 				"values": [
 					"FloatRandomRangeWithInterval(10, 10, 20)"
 				]
+			}
+		},
+		"Paragon (Board)": {
+			"Paragon_Sorc_00": {
+				"name": "Start"
+			},
+			"Paragon_Sorc_01": {
+				"name": "Searing Heat"
+			},
+			"Paragon_Sorc_02": {
+				"name": "Bitter Frost"
+			},
+			"Paragon_Sorc_03": {
+				"name": "Surging Force"
+			},
+			"Paragon_Sorc_04": {
+				"name": "Master of Elements"
+			},
+			"Paragon_Sorc_05": {
+				"name": "Burning Instinct"
+			},
+			"Paragon_Sorc_06": {
+				"name": "Harsh Winter"
+			},
+			"Paragon_Sorc_07": {
+				"name": "Crackling Power"
+			},
+			"Paragon_Sorc_08": {
+				"name": "Shaper of Wills"
 			}
 		},
 		"Paragon (Legendary)": {
