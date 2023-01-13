@@ -142,6 +142,7 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/\( *{/g, "({")									// Remove any whitespace between `(` and `{`.
 		.replace(/} *\)/g, "})")									// Remove any whitespace between `}` and `)`.
 		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ")					// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
+		.replace(/ +(\r?\n)/g, "$1")								// Remove any whitespace at the end of a line.
 		.replace(/(dealing {#}%?)( per hit| each)/g, "$1 damage$2")	// Add ` damage` between `dealing {#}` and (`per hit`, or `each`) if not already present.
 																	// Add ` damage` between `poisons enemies for {#}` and ` over` if not already present.
 		.replace(/(bleeds|bleeding|burns|burning|zaps|zapping|poisons|poisoning)( surrounding)?( enemies for {#}%?)( over)/gi, "$1$2$3 damage$4")

@@ -448,7 +448,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and Piercing through e
 	},
 	"Reconstitution": {
 		connections: [ "Core" ],
-		description: `Lucky Hit: Your damage has up to a {#}% chance to create a corpse at the target's location. 
+		description: `Lucky Hit: Your damage has up to a {#}% chance to create a corpse at the target's location.
 
 This chance is doubled against bosses.`,
 		id: 38,

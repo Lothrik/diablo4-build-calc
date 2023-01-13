@@ -565,7 +565,7 @@ Become Unstoppable and quickly move through the shadows to stab your victim from
 		connections: [ "Enhanced Dash", "Agility" ],
 		damageType: 0,
 		description: `Charges: {#}
-Charge Cooldown: {#} seconds 
+Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Dash forward and slash enemies for {#}% damage.`,
 		id: 47,
@@ -630,7 +630,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		connections: [ "Enhanced Caltrops", "Agility" ],
 		damageType: 0,
 		description: `Charges: {#}
-Charge Cooldown: {#} seconds 
+Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing enemies by {#}%. Lasts {#} seconds.`,
 		id: 53,

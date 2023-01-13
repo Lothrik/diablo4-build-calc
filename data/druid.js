@@ -680,7 +680,7 @@ Shapeshift into a Werewolf and howl furiously, restoring {#}% Life.`,
 		damageType: 0,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: Powerful winds surround you, granting {#}% non-Physical damage reduction.  
+Passive: Powerful winds surround you, granting {#}% non-Physical damage reduction.
 
 Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.`,
 		id: 57,
@@ -1093,7 +1093,7 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 		damageType: 4,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Shapeshift into a Werewolf and perform an infectious bite on the target dealing {#}% damage, and an additional {#}% damage over {#} seconds. 
+Shapeshift into a Werewolf and perform an infectious bite on the target dealing {#}% damage, and an additional {#}% damage over {#} seconds.
 
 Infected enemies spread Rabies to other surrounding targets.`,
 		id: 103,
@@ -1401,7 +1401,7 @@ Your Storm skills deal x{#}% increased damage to enemies that are Stunned, Immob
 druid["Capstone"] = {
 	"Nature's Fury": {
 		connections: [ "Capstone" ],
-		description: `Casting an Earth skill has a {#}% chance to trigger a free Storm skill of the same category. 
+		description: `Casting an Earth skill has a {#}% chance to trigger a free Storm skill of the same category.
 
 In addition, casting a Storm skill has a {#}% chance to trigger a free Earth skill of the same category.`,
 		id: 130,
@@ -1414,7 +1414,7 @@ In addition, casting a Storm skill has a {#}% chance to trigger a free Earth ski
 		connections: [ "Capstone" ],
 		description: `Lucky Hit: Damaging enemies with Earth skills has up to a {#}% chance to grant Earthen Might.
 
-This chance is increased by {#}% for Critical Strikes, and is further increased by {#}% if the target is Stunned, Immobilized, or Knocked Back. 
+This chance is increased by {#}% for Critical Strikes, and is further increased by {#}% if the target is Stunned, Immobilized, or Knocked Back.
 
 Earthen Might restores all of your Spirit & grants you {#}% Critical Strike Chance for {#} seconds.`,
 		id: 131,
@@ -1434,7 +1434,7 @@ Earthen Might restores all of your Spirit & grants you {#}% Critical Strike Chan
 	},
 	"Bestial Rampage": {
 		connections: [ "Capstone" ],
-		description: `After being a Werewolf for {#} seconds, gain {#}% Attack Speed for {#} seconds. 
+		description: `After being a Werewolf for {#} seconds, gain {#}% Attack Speed for {#} seconds.
 
 After being a Werebear for {#} seconds, deal x{#}% increased damage for {#} seconds.`,
 		id: 133,

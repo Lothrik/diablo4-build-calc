@@ -133,7 +133,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 		damageType: 0,
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
-Unleash a rapid flurry of blows, dealing {#}% damage with each pair of hits. 
+Unleash a rapid flurry of blows, dealing {#}% damage with each pair of hits.
 
 If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds, up to +{#}%.`,
 		id: 8,
