@@ -7,15 +7,30 @@ body {
 	background-color: #181a1b!important;
 	color: #eee!important;
 	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace!important;
+	text-align: left;
+}
+
+.line {
+	display: block!important;
+	word-break: break-word;
+	text-align: justify;
+	text-align-last: left;
+}
+
+.line div {
+	display: inline!important;
+}
+
+.hidden {
+	display: none!important;
+}
+
+.caret-icon, .json-key, .json-separator {
+	float: left;
 }
 
 .json-key {
 	color: #8eecaa!important;
-}
-
-.json-value {
-	text-align: justify;
-	text-align-last: left;
 }
 
 .json-number {
