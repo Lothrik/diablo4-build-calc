@@ -6,6 +6,7 @@ body {
 .json-container {
 	background-color: #181a1b!important;
 	color: #eee!important;
+	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace!important;
 }
 
 .json-key {
