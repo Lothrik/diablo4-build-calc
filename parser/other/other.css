@@ -1,13 +1,7 @@
-body {
-	background-color: #181a1b;
-	color: #eee;
-}
-
-.json-container {
+body, .json-container {
 	background-color: #181a1b!important;
 	color: #eee!important;
 	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace!important;
-	text-align: left;
 }
 
 .line {
@@ -25,12 +19,12 @@ body {
 	display: none!important;
 }
 
-.caret-icon, .json-key, .json-separator {
-	float: left;
-}
-
 .json-key {
 	color: #8eecaa!important;
+}
+
+.json-size, .json-separator {
+	color: #eee!important;
 }
 
 .json-number {
@@ -51,4 +45,5 @@ body {
 
 .fa-caret-right {
 	border-color: transparent transparent transparent #eee!important;
+	margin: 0 2px;
 }
