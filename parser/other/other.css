@@ -1,0 +1,38 @@
+body {
+	background-color: #181a1b;
+	color: #eee;
+}
+
+.json-container {
+	background-color: #181a1b!important;
+	color: #eee!important;
+}
+
+.json-key {
+	color: #8eecaa!important;
+}
+
+.json-value {
+	text-align: justify;
+	text-align-last: left;
+}
+
+.json-number {
+	color: #65b4fb!important;
+}
+
+.json-boolean {
+	color: #65b4fb!important;
+}
+
+.json-string {
+	color: #91c4f5!important;
+}
+
+.fa-caret-down {
+	border-color: #eee transparent!important;
+}
+
+.fa-caret-right {
+	border-color: transparent transparent transparent #eee!important;
+}
