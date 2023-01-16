@@ -35,11 +35,10 @@ $.getJSON("build-" + buildNumber + ".json", null, data => {
 	// we use DOM functions exclusively here instead of jQuery because this affects a HUGE number of elements, and speed is important
 	const lines = document.querySelectorAll(".line");
 	for (const line of lines) {
-		const children = line.querySelectorAll(".empty-icon, .caret-icon, .json-key, .json-size, .json-separator");
-		let label = document.createElement("div");
+		const children = line.querySelectorAll(".caret-icon, .empty-icon, .json-key, .json-size, .json-separator");
+		const label = document.createElement("div");
 		label.className = "json-label";
 		line.prepend(label);
-		label = line.querySelector(".json-label");
 		for (const child of children) {
 			if (child.classList.contains("json-key")) child.innerHTML = child.innerHTML.replace(/_/g, "<wbr>_");
 			label.append(child);
