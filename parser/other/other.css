@@ -4,6 +4,11 @@ body, .json-container {
 	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace!important;
 }
 
+#root {
+	padding: 10px;
+	text-align: center;
+}
+
 .line {
 	display: block!important;
 	word-break: break-word;
