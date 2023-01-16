@@ -31,28 +31,18 @@ $.getJSON("build-" + buildNumber + ".json", null, data => {
 		});
 	});
 
-	const jsonKeys = $(".json-key");
-	jsonKeys.html((index, oldHTML) => {
-		const newHTML = oldHTML.replace(/_/g, "<wbr>_");
-		const nextSibling = $(jsonKeys[index].nextElementSibling);
-		if (nextSibling.hasClass("json-size") || nextSibling.hasClass("json-separator")) {
-			const siblingHTML = nextSibling.prop("outerHTML");
-			nextSibling.remove();
-			return newHTML + siblingHTML;
-		} else {
-			return newHTML;
+	// group JSON label text into a single element per line to improve word wrap behavior and text alignment
+	// we use DOM functions exclusively here instead of jQuery because this affects a HUGE number of elements, and speed is important
+	const lines = document.querySelectorAll(".line");
+	for (const line of lines) {
+		const children = line.querySelectorAll(".empty-icon, .caret-icon, .json-key, .json-size, .json-separator");
+		let label = document.createElement("div");
+		label.className = "json-label";
+		line.prepend(label);
+		label = line.querySelector(".json-label");
+		for (const child of children) {
+			if (child.classList.contains("json-key")) child.innerHTML = child.innerHTML.replace(/_/g, "<wbr>_");
+			label.append(child);
 		}
-	});
-
-	const caretIcons = $(".caret-icon");
-	caretIcons.html((index, oldHTML) => {
-		const nextSibling = $(caretIcons[index].nextElementSibling);
-		if (nextSibling.hasClass("json-key")) {
-			const siblingHTML = nextSibling.prop("outerHTML");
-			nextSibling.remove();
-			return oldHTML + siblingHTML;
-		} else {
-			return oldHTML;
-		}
-	});
+	}
 });
