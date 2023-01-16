@@ -7,8 +7,8 @@ import { sorcererEnchants } from "./sorcerer-enchants.js";
 const buildNumber = 36331;
 
 var skillJSON = "";
-$.getJSON("tree/build-" + buildNumber + ".json", null, successData => {
-	skillJSON = successData;
+$.getJSON("tree/build-" + buildNumber + ".json", null, data => {
+	skillJSON = data;
 	$("#debugOutput").html("Successfully loaded `tree/build-" + buildNumber + ".json`.");
 	// call runParser once after loading so fixJSON affects node connections recursively
 	runParser(false);
