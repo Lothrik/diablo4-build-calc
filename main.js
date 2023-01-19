@@ -1555,7 +1555,7 @@ function repositionTooltip() {
 
 	const shapeType = nodeData.get("shapeType");
 	const shapeSize = nodeData.get("shapeSize");
-	const circleFactor = shapeSize * (shapeType == "circle" ? Math.SQRT2 : 1);
+	const circleFactor = shapeSize * (shapeType == "circle" ? 2 : 1);
 
 	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
 	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
