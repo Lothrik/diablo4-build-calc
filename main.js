@@ -370,13 +370,13 @@ function handleClassSelection(event) {
 	if (classText != $("#className").text()) {
 		$("#className").text(classText);
 		if (classText == "None") {
-			$("#header h2").addClass("hidden");
-			$("#groupSelector, #searchInput").addClass("disabled");
+			$("#header h2, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
+			$("#classSelectBox").removeClass("disabled");
 			$("#groupSelector").empty();
 			$("#searchInput").removeAttr("style");
 		} else {
-			$("#header h2").removeClass("hidden");
-			$("#groupSelector, #searchInput").removeClass("disabled");
+			$("#header h2, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
+			$("#classSelectBox").addClass("disabled");
 		}
 		rebuildCanvas();
 	}
@@ -1788,6 +1788,11 @@ $(document).ready(function() {
 	$("#reloadButton").on("click", handleReloadButton);
 	$("#shareButton").on("click", handleShareButton);
 	$("#classSelector").on("change", handleClassSelection);
+	$("#barbarianSelect").on("click", () => $("#classSelector").val("barbarian").change());
+	$("#druidSelect").on("click", () => $("#classSelector").val("druid").change());
+	$("#necromancerSelect").on("click", () => $("#classSelector").val("necromancer").change());
+	$("#rogueSelect").on("click", () => $("#classSelector").val("rogue").change());
+	$("#sorcererSelect").on("click", () => $("#classSelector").val("sorcerer").change());
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup focus blur", handleSearchInput);
 

@@ -92,7 +92,7 @@ h1, h2, h3 {
 	border-color: #fff;
 }
 
-#header, #footer, #extraInfo {
+#header, #footer, #classSelectBox, #extraInfo {
 	background-color: rgba(0, 0, 0, 0.8);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -150,6 +150,27 @@ h1, h2, h3 {
 .disabled, .disabled * {
 	display: none!important;
 	pointer-events: none;
+}
+
+#classSelectBox {
+	border: 1px solid;
+	padding: 10px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 32px;
+	line-height: 1.25;
+}
+
+#classSelectBox {
+	font-variant: small-caps;
+}
+
+#classSelectBox span:hover {
+    text-decoration: underline;
+	color: #f0f;
+	cursor: pointer;
 }
 
 #extraInfo {

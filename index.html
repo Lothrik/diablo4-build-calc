@@ -27,13 +27,20 @@
 	<div id="canvasContainer"></div>
 	<div id="header">
 		<h1><a href="#" target="_blank">Diablo IV Build Calculator</a><div class="stamp">&nbsp;[WIP]</div></h1>
-		<h2 class="hidden">Level <span id="charLevel">1</span> <span id="className">None</span><span id="renownLevel"></span></h2>
+		<h2 class="disabled">Level <span id="charLevel">1</span> <span id="className">None</span><span id="renownLevel"></span></h2>
 	</div>
 	<input id="colorConnectorInput" type="color">
 	<input id="colorNodeInput" type="color">
 	<img id="colorButton" src="images/eye.svg">
+	<div id="classSelectBox">
+		<span id="barbarianSelect">[Barbarian]</span>
+		<span id="druidSelect">[Druid]</span>
+		<span id="necromancerSelect">[Necromancer]</span>
+		<span id="rogueSelect">[Rogue]</span>
+		<span id="sorcererSelect">[Sorcerer]</span>
+	</div>
 	<div id="extraInfo" class="hidden"></div>
-	<div id="extraButtons1">
+	<div id="extraButtons1" class="disabled">
 		<select id="classSelector">
 			<option value="none">None</option>
 			<option value="barbarian">Barbarian</option>
@@ -45,7 +52,7 @@
 		<select id="groupSelector" class="disabled"></select>
 		<input id="searchInput" type="text" placeholder="Search.." class="disabled">
 	</div>
-	<div id="extraButtons2">
+	<div id="extraButtons2" class="disabled">
 		<button id="resetButton" type="button">Reset</button>
 		<button id="clampButton" type="button">Enable Clamping</button>
 		<button id="saveButton" type="button">Save</button>
