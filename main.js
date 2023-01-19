@@ -529,6 +529,8 @@ function handleReloadButton() {
 			for (const curNode of sortedNodes) processNode(curNode);
 			updateCharacterLevel();
 		}
+	} else {
+		$("#classSelectBox").removeClass("disabled");
 	}
 }
 function handleShareButton() {
