@@ -1553,6 +1553,10 @@ function repositionTooltip() {
 	const curNode = pixiNodes[pixiTooltip.nodeIndex];
 	const nodeData = curNode.nodeData;
 
+	const shapeType = nodeData.get("shapeType");
+	const shapeSize = nodeData.get("shapeSize");
+	const circleFactor = shapeSize * (shapeType == "circle" ? Math.SQRT2 : 1);
+
 	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
 	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
 
@@ -1574,11 +1578,11 @@ function repositionTooltip() {
 		const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
 		const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
 
-		pixiTooltip.position.x = curNode.x + diffX / pixiJS.stage.scale.x + _nodeWidth * 0.5 + 20 * pixiTooltip.scale.x;
-		pixiTooltip.position.y = curNode.y + diffY / pixiJS.stage.scale.y - _nodeHeight * 0.5 + 10 * pixiTooltip.scale.y;
+		pixiTooltip.position.x = curNode.x + diffX / pixiJS.stage.scale.x + _nodeWidth * circleFactor * 0.5 + 20 * pixiTooltip.scale.x;
+		pixiTooltip.position.y = curNode.y + diffY / pixiJS.stage.scale.y - _nodeHeight * circleFactor * 0.5 + 10 * pixiTooltip.scale.y;
 	} else {
-		pixiTooltip.position.x = curNode.x + _nodeWidth * 0.5 + marginSize * 2 * pixiTooltip.scale.x;
-		pixiTooltip.position.y = curNode.y - _nodeHeight * 0.5 + marginSize * pixiTooltip.scale.y;
+		pixiTooltip.position.x = curNode.x + _nodeWidth * circleFactor * 0.5 + marginSize * 2 * pixiTooltip.scale.x;
+		pixiTooltip.position.y = curNode.y - _nodeHeight * circleFactor * 0.5 + marginSize * pixiTooltip.scale.y;
 	}
 }
 function drawConnector(startNode, endNode) {
