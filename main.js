@@ -25,7 +25,15 @@ String.prototype.split = function() {
 };
 
 // lineIntersect returns [x, y] intersect coordinates for two given lines [[[x1, y1], [x2, y2]], [[x3, y3], [x4, y4]]]
-function lineIntersect(x1, y1, x2, y2, x3, y3, x4, y4) {
+// lines will automatically rotate around c1, c2, c3, and c4 center points if the optional angle parameter is provided
+function lineIntersect(x1, y1, x2, y2, x3, y3, x4, y4, angle = 0, c1 = [], c2 = [], c3 = [], c4 = []) {
+	if (angle % 360 != 0) {
+		[x1, y1] = rotateAngle(c1[0], c1[1], x1, y1, angle);
+		[x2, y2] = rotateAngle(c2[0], c2[1], x2, y2, angle);
+		[x3, y3] = rotateAngle(c3[0], c3[1], x3, y3, angle);
+		[x4, y4] = rotateAngle(c4[0], c4[1], x4, y4, angle);
+	}
+
 	if ((x1 == x2 && y1 == y2) || (x3 == x4 && y3 == y4)) return [ NaN, NaN ];
 
 	const denominator = ((y4 - y3) * (x2 - x1) - (x4 - x3) * (y2 - y1));
@@ -41,6 +49,16 @@ function lineIntersect(x1, y1, x2, y2, x3, y3, x4, y4) {
 	const y = y1 + ua * (y2 - y1);
 
 	return [ x, y ];
+}
+
+// rotates [x, y] around [cx, cy] by angle (in degrees)
+function rotateAngle(cx, cy, x, y, angle) {
+	let radians = (Math.PI / 180) * angle,
+		cos = Math.cos(radians),
+		sin = Math.sin(radians),
+		nx = (cos * (x - cx)) + (sin * (y - cy)) + cx,
+		ny = (cos * (y - cy)) - (sin * (x - cx)) + cy;
+	return [ nx, ny ];
 }
 
 // populateMap fills a map with the values of an object using nested maps
@@ -699,7 +717,7 @@ function updateNodePoints(curNode, newPoints) {
 		//console.assert(newPoints != allocatedPoints);
 
 		curNode.nodeData.set("allocatedPoints", newPoints);
-		curNode.children[2].text = newPoints + "/" + maxPoints;
+		curNode.children[2].text = maxPoints > 1 ? newPoints + "/" + maxPoints : "";
 
 		newPoints > 0 ? setNodeStyleThick(curNode) : setNodeStyleThin(curNode);
 
@@ -915,14 +933,15 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 	const shapeType = nodeData.get("shapeType");
 	const shapeSize = nodeData.get("shapeSize");
-	const circleFactor = shapeSize * (shapeType == "circle" ? Math.SQRT2 : 1);
+	const circleFactor = shapeType == "circle" ? Math.SQRT2 : 1;
+	const diamondFactor = shapeType == "diamond" ? 1.5 : 1;
 
 	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
 	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
 	nodeData.set("_nodeWidth", _nodeWidth);
 	nodeData.set("_nodeHeight", _nodeHeight);
 
-	const maxLabelSize = Math.round(8.5 * _nodeWidth * circleFactor / nodeWidth);
+	const maxLabelSize = Math.round(8.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
 
 	let nameFontSize = 36;
 	let displayName = nodeName;
@@ -952,8 +971,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeText.anchor.set(0.5);
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined && ![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints != 0) {
-		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
+	if (groupName != undefined && ![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints != 0 && shapeType != "diamond") {
+		nodeText2 = new PIXI.Text(maxPoints > 1 ? allocatedPoints + "/" + maxPoints : "", {
 			align: "right",
 			fill: textColor,
 			fontFamily: fontFamily,
@@ -963,8 +982,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		});
 		nodeText2.scale.set(1 / scaleFactor);
 		nodeText2.anchor.set(0.5);
-		nodeText2.x = (_nodeWidth * circleFactor - nodeText2.width) * 0.5 - 5;
-		nodeText2.y = (nodeText2.height - _nodeHeight * circleFactor) * 0.5 + 2;
+		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText2.width) * 0.5 - 5;
+		nodeText2.y = (nodeText2.height - _nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + 2;
 
 		nodeText3 = new PIXI.Text("+", {
 			align: "right",
@@ -976,8 +995,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		});
 		nodeText3.scale.set(1 / scaleFactor);
 		nodeText3.anchor.set(0.5);
-		nodeText3.x = (_nodeWidth * circleFactor - nodeText3.width) * 0.5;
-		nodeText3.y = (_nodeHeight * circleFactor - nodeText3.height) * 0.5 + 4;
+		nodeText3.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText3.width) * 0.5;
+		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText3.height) * 0.5 + 4;
 
 		nodeText4 = new PIXI.Text("–", {
 			align: "left",
@@ -989,8 +1008,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		});
 		nodeText4.scale.set(1 / scaleFactor);
 		nodeText4.anchor.set(0.5);
-		nodeText4.x = (nodeText4.width - _nodeWidth * circleFactor) * 0.5 + 4;
-		nodeText4.y = (_nodeHeight * circleFactor - nodeText4.height) * 0.5;
+		nodeText4.x = (nodeText4.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 4;
+		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText4.height) * 0.5;
 
 		plusContainer = new PIXI.Container();
 		plusContainer.cursor = "pointer";
@@ -1046,6 +1065,11 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeBorder.lineTo(0, 0);
 	}
 
+	if (shapeType == "diamond") {
+		nodeBackground.angle = 45;
+		nodeBorder.angle = 45;
+	}
+
 	const node = new PIXI.Container();
 	node.interactive = true;
 	node.position.x = x;
@@ -1056,7 +1080,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	node.displayName = displayName;
 	node.branchData = branchData;
 	node.nodeIndex = nodeIndex;
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints == 0) {
+	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints == 0 || shapeType == "diamond") {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
 		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
@@ -1116,7 +1140,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		.on("mouseout", onMouseOut)
 		.on("tap", onMouseOver);
 
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
+
+	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || shapeType == "diamond") {
 		if (maxPoints != 0) {
 			node.cursor = "pointer";
 			node.interactive = true;
@@ -1299,7 +1324,7 @@ function drawAllNodes() {
 						if (curNode.get("baseSkill") != undefined) {
 							// active skill modifier
 							curNode.set("shapeType", "diamond");
-							curNode.set("shapeSize", 1);
+							curNode.set("shapeSize", 0.75);
 						} else if (curNode.get("maxPoints") == 3) {
 							// passive skill
 							curNode.set("shapeType", "circle");
@@ -1555,7 +1580,8 @@ function repositionTooltip() {
 
 	const shapeType = nodeData.get("shapeType");
 	const shapeSize = nodeData.get("shapeSize");
-	const circleFactor = shapeSize * (shapeType == "circle" ? 2 : 1);
+	const circleFactor = shapeType == "circle" ? 2 : 1;
+	const diamondFactor = shapeType == "diamond" ? 1.5 : 1;
 
 	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
 	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
@@ -1578,11 +1604,11 @@ function repositionTooltip() {
 		const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
 		const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
 
-		pixiTooltip.position.x = curNode.x + diffX / pixiJS.stage.scale.x + _nodeWidth * circleFactor * 0.5 + 20 * pixiTooltip.scale.x;
-		pixiTooltip.position.y = curNode.y + diffY / pixiJS.stage.scale.y - _nodeHeight * circleFactor * 0.5 + 10 * pixiTooltip.scale.y;
+		pixiTooltip.position.x = curNode.x + diffX / pixiJS.stage.scale.x + _nodeWidth * shapeSize * circleFactor * diamondFactor * 0.5 + 20 * pixiTooltip.scale.x;
+		pixiTooltip.position.y = curNode.y + diffY / pixiJS.stage.scale.y - _nodeHeight * shapeSize * circleFactor * diamondFactor * 0.5 + 10 * pixiTooltip.scale.y;
 	} else {
-		pixiTooltip.position.x = curNode.x + _nodeWidth * circleFactor * 0.5 + marginSize * 2 * pixiTooltip.scale.x;
-		pixiTooltip.position.y = curNode.y - _nodeHeight * circleFactor * 0.5 + marginSize * pixiTooltip.scale.y;
+		pixiTooltip.position.x = curNode.x + _nodeWidth * shapeSize * circleFactor * diamondFactor * 0.5 + marginSize * 2 * pixiTooltip.scale.x;
+		pixiTooltip.position.y = curNode.y - _nodeHeight * shapeSize * circleFactor * diamondFactor * 0.5 + marginSize * pixiTooltip.scale.y;
 	}
 }
 function drawConnector(startNode, endNode) {
@@ -1602,41 +1628,42 @@ function drawConnector(startNode, endNode) {
 
 	updateConnectorLineStyle(connector, startNode, endNode);
 
-	const startX = startNode.x;
-	const startY = startNode.y;
-	const endX = endNode.x;
-	const endY = endNode.y;
-	const startWidthOffset = startNode.nodeData.get("_nodeWidth") * 0.5 * startNode.nodeData.get("shapeSize");
-	const startHeightOffset = startNode.nodeData.get("_nodeHeight") * 0.5 * startNode.nodeData.get("shapeSize");
-	const endWidthOffset = endNode.nodeData.get("_nodeWidth") * 0.5 * endNode.nodeData.get("shapeSize");
-	const endHeightOffset = endNode.nodeData.get("_nodeHeight") * 0.5 * endNode.nodeData.get("shapeSize");
+	const startPos = [startNode.x, startNode.y];
+	const startShape = [startNode.nodeData.get("shapeSize"), startNode.nodeData.get("shapeType")];
+	const startWidthOffset = startNode.nodeData.get("_nodeWidth") * 0.5 * startShape[0];
+	const startHeightOffset = startNode.nodeData.get("_nodeHeight") * 0.5 * startShape[0];
+
+	const endPos = [endNode.x, endNode.y];
+	const endShape = [endNode.nodeData.get("shapeSize"), endNode.nodeData.get("shapeType")];
+	const endWidthOffset = endNode.nodeData.get("_nodeWidth") * 0.5 * endShape[0];
+	const endHeightOffset = endNode.nodeData.get("_nodeHeight") * 0.5 * endShape[0];
 
 	// polygon 1
 	let [ newStartX, newStartY, newEndX, newEndY ] = [ NaN, NaN, NaN, NaN ];
-	if (startNode.nodeData.get("shapeType") == "circle") {
-		const vX = endX - startX;
-		const vY = endY - startY;
+	if (startShape[1] == "circle") {
+		const vX = endPos[0] - startPos[0];
+		const vY = endPos[1] - startPos[1];
 		const magV = Math.hypot(vX, vY);
 		const radius = startWidthOffset + startHeightOffset;
-		[ newStartX, newStartY ] = [ startX + vX / magV * radius, startY + vY / magV * radius ];
+		[ newStartX, newStartY ] = [ startPos[0] + vX / magV * radius, startPos[1] + vY / magV * radius ];
 	}
-	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startX, startY, endX, endY, startX - startWidthOffset, startY - startHeightOffset, startX + startWidthOffset, startY - startHeightOffset); // top left to top right
-	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startX, startY, endX, endY, startX + startWidthOffset, startY - startHeightOffset, startX + startWidthOffset, startY + startHeightOffset); // top right to bottom right
-	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startX, startY, endX, endY, startX + startWidthOffset, startY + startHeightOffset, startX - startWidthOffset, startY + startHeightOffset); // bottom right to bottom left
-	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startX, startY, endX, endY, startX - startWidthOffset, startY + startHeightOffset, startX - startWidthOffset, startY - startHeightOffset); // bottom left to top right
+	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] - startWidthOffset, startPos[1] - startHeightOffset, startPos[0] + startWidthOffset, startPos[1] - startHeightOffset, startShape[1] == "diamond" ? 45 : 0, startPos, endPos, startPos, startPos); // top left to top right
+	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] + startWidthOffset, startPos[1] - startHeightOffset, startPos[0] + startWidthOffset, startPos[1] + startHeightOffset, startShape[1] == "diamond" ? 45 : 0, startPos, endPos, startPos, startPos); // top right to bottom right
+	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] + startWidthOffset, startPos[1] + startHeightOffset, startPos[0] - startWidthOffset, startPos[1] + startHeightOffset, startShape[1] == "diamond" ? 45 : 0, startPos, endPos, startPos, startPos); // bottom right to bottom left
+	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] - startWidthOffset, startPos[1] + startHeightOffset, startPos[0] - startWidthOffset, startPos[1] - startHeightOffset, startShape[1] == "diamond" ? 45 : 0, startPos, endPos, startPos, startPos); // bottom left to top right
 
 	// polygon 2
-	if (endNode.nodeData.get("shapeType") == "circle") {
-		const vX = startX - endX;
-		const vY = startY - endY;
+	if (endShape[1] == "circle") {
+		const vX = startPos[0] - endPos[0];
+		const vY = startPos[1] - endPos[1];
 		const magV = Math.hypot(vX, vY);
 		const radius = endWidthOffset + endHeightOffset;
-		[ newEndX, newEndY ] = [ endX + vX / magV * radius, endY + vY / magV * radius ];
+		[ newEndX, newEndY ] = [ endPos[0] + vX / magV * radius, endPos[1] + vY / magV * radius ];
 	}
-	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startX, startY, endX, endY, endX - endWidthOffset, endY - endHeightOffset, endX + endWidthOffset, endY - endHeightOffset); // top left to top right
-	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startX, startY, endX, endY, endX + endWidthOffset, endY - endHeightOffset, endX + endWidthOffset, endY + endHeightOffset); // top right to bottom right
-	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startX, startY, endX, endY, endX + endWidthOffset, endY + endHeightOffset, endX - endWidthOffset, endY + endHeightOffset); // bottom right to bottom left
-	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startX, startY, endX, endY, endX - endWidthOffset, endY + endHeightOffset, endX - endWidthOffset, endY - endHeightOffset); // bottom left to top right
+	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] - endWidthOffset, endPos[1] - endHeightOffset, endPos[0] + endWidthOffset, endPos[1] - endHeightOffset, endShape[1] == "diamond" ? 45 : 0, startPos, endPos, endPos, endPos); // top left to top right
+	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] + endWidthOffset, endPos[1] - endHeightOffset, endPos[0] + endWidthOffset, endPos[1] + endHeightOffset, endShape[1] == "diamond" ? 45 : 0, startPos, endPos, endPos, endPos); // top right to bottom right
+	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] + endWidthOffset, endPos[1] + endHeightOffset, endPos[0] - endWidthOffset, endPos[1] + endHeightOffset, endShape[1] == "diamond" ? 45 : 0, startPos, endPos, endPos, endPos); // bottom right to bottom left
+	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] - endWidthOffset, endPos[1] + endHeightOffset, endPos[0] - endWidthOffset, endPos[1] - endHeightOffset, endShape[1] == "diamond" ? 45 : 0, startPos, endPos, endPos, endPos); // bottom left to top right
 
 	connector.moveTo(newStartX, newStartY);
 	connector.lineTo(newEndX, newEndY);
