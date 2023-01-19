@@ -933,6 +933,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 	const shapeType = nodeData.get("shapeType");
 	const shapeSize = nodeData.get("shapeSize");
+
 	const circleFactor = shapeType == "circle" ? Math.SQRT2 : 1;
 	const diamondFactor = shapeType == "diamond" ? 1.5 : 1;
 
@@ -983,7 +984,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeText2.scale.set(1 / scaleFactor);
 		nodeText2.anchor.set(0.5);
 		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText2.width) * 0.5 - 5;
-		nodeText2.y = (nodeText2.height - _nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + 2;
+		nodeText2.y = (nodeText2.height - _nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? -2 : 2);
 
 		nodeText3 = new PIXI.Text("+", {
 			align: "right",
@@ -996,7 +997,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeText3.scale.set(1 / scaleFactor);
 		nodeText3.anchor.set(0.5);
 		nodeText3.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText3.width) * 0.5;
-		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText3.height) * 0.5 + 4;
+		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText3.height) * 0.5 + (shapeType == "circle" ? 8 : 4);
 
 		nodeText4 = new PIXI.Text("–", {
 			align: "left",
@@ -1009,7 +1010,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeText4.scale.set(1 / scaleFactor);
 		nodeText4.anchor.set(0.5);
 		nodeText4.x = (nodeText4.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 4;
-		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText4.height) * 0.5;
+		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText4.height) * 0.5 + (shapeType == "circle" ? 4 : 0);
 
 		plusContainer = new PIXI.Container();
 		plusContainer.cursor = "pointer";
@@ -1328,15 +1329,15 @@ function drawAllNodes() {
 						} else if (curNode.get("maxPoints") == 3) {
 							// passive skill
 							curNode.set("shapeType", "circle");
-							curNode.set("shapeSize", 1 / Math.SQRT2);
+							curNode.set("shapeSize", 1 / Math.SQRT2 * 0.9);
 						} else if (groupName == "Capstone") {
 							// special behavior for capstone skills
 							curNode.set("shapeType", "circle");
-							curNode.set("shapeSize", 1 / Math.SQRT2 * 1.25);
+							curNode.set("shapeSize", 1 / Math.SQRT2 * 1.1);
 						} else {
 							// active skill
 							curNode.set("shapeType", "rectangle");
-							curNode.set("shapeSize", 1.5);
+							curNode.set("shapeSize", 1.3);
 						}
 						if (curNode.get("maxPoints") == undefined) {
 							// default to 5 max points, if unspecified
