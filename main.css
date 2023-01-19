@@ -159,12 +159,9 @@ h1, h2, h3 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 32px;
-	line-height: 1.25;
-}
-
-#classSelectBox {
+	font-size: 36px;
 	font-variant: small-caps;
+	line-height: 1.25;
 }
 
 #classSelectBox span:hover {

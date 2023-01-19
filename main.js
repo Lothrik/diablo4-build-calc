@@ -370,12 +370,12 @@ function handleClassSelection(event) {
 	if (classText != $("#className").text()) {
 		$("#className").text(classText);
 		if (classText == "None") {
-			$("#header h2, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
+			$("#header h2, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
 			$("#classSelectBox").removeClass("disabled");
 			$("#groupSelector").empty();
 			$("#searchInput").removeAttr("style");
 		} else {
-			$("#header h2, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
+			$("#header h2, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
 			$("#classSelectBox").addClass("disabled");
 		}
 		rebuildCanvas();
@@ -1757,7 +1757,7 @@ function resizeCanvas() {
 
 		[oldWidth, oldHeight] = [newWidth, newHeight];
 
-		$("#extraInfo").outerWidth($("#extraButtons2").width() - 5);
+		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth($("#extraButtons2").width() - 5);
 		resizeSearchInput();
 		$("body").height(newHeight); // prevent undesirable mobile vertical scroll
 	}
