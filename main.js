@@ -717,7 +717,7 @@ function updateNodePoints(curNode, newPoints) {
 		//console.assert(newPoints != allocatedPoints);
 
 		curNode.nodeData.set("allocatedPoints", newPoints);
-		curNode.children[2].text = maxPoints > 1 ? newPoints + "/" + maxPoints : "";
+		if (maxPoints > 1) curNode.children[2].text = newPoints + "/" + maxPoints;
 
 		newPoints > 0 ? setNodeStyleThick(curNode) : setNodeStyleThin(curNode);
 
