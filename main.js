@@ -28,10 +28,10 @@ String.prototype.split = function() {
 // lines will automatically rotate around c1, c2, c3, and c4 center points if the optional angle parameter is provided
 function lineIntersect(x1, y1, x2, y2, x3, y3, x4, y4, angle = 0, c1 = [], c2 = [], c3 = [], c4 = []) {
 	if (angle % 360 != 0) {
-		[x1, y1] = rotateAngle(c1[0], c1[1], x1, y1, angle);
-		[x2, y2] = rotateAngle(c2[0], c2[1], x2, y2, angle);
-		[x3, y3] = rotateAngle(c3[0], c3[1], x3, y3, angle);
-		[x4, y4] = rotateAngle(c4[0], c4[1], x4, y4, angle);
+		if (c1.length > 0) [x1, y1] = rotateAngle(c1[0], c1[1], x1, y1, angle);
+		if (c2.length > 0) [x2, y2] = rotateAngle(c2[0], c2[1], x2, y2, angle);
+		if (c3.length > 0) [x3, y3] = rotateAngle(c3[0], c3[1], x3, y3, angle);
+		if (c4.length > 0) [x4, y4] = rotateAngle(c4[0], c4[1], x4, y4, angle);
 	}
 
 	if ((x1 == x2 && y1 == y2) || (x3 == x4 && y3 == y4)) return [ NaN, NaN ];
@@ -53,7 +53,7 @@ function lineIntersect(x1, y1, x2, y2, x3, y3, x4, y4, angle = 0, c1 = [], c2 = 
 
 // rotates [x, y] around [cx, cy] by angle (in degrees)
 function rotateAngle(cx, cy, x, y, angle) {
-	let radians = (Math.PI / 180) * angle,
+	const radians = (Math.PI / 180) * angle,
 		cos = Math.cos(radians),
 		sin = Math.sin(radians),
 		nx = (cos * (x - cx)) + (sin * (y - cy)) + cx,
@@ -1632,11 +1632,13 @@ function drawConnector(startNode, endNode) {
 	const startShape = [startNode.nodeData.get("shapeSize"), startNode.nodeData.get("shapeType")];
 	const startWidthOffset = startNode.nodeData.get("_nodeWidth") * 0.5 * startShape[0];
 	const startHeightOffset = startNode.nodeData.get("_nodeHeight") * 0.5 * startShape[0];
+	const startRotation = startShape[1] == "diamond" ? 45 : 0;
 
 	const endPos = [endNode.x, endNode.y];
 	const endShape = [endNode.nodeData.get("shapeSize"), endNode.nodeData.get("shapeType")];
 	const endWidthOffset = endNode.nodeData.get("_nodeWidth") * 0.5 * endShape[0];
 	const endHeightOffset = endNode.nodeData.get("_nodeHeight") * 0.5 * endShape[0];
+	const endRotation = endShape[1] == "diamond" ? 45 : 0;
 
 	// polygon 1
 	let [ newStartX, newStartY, newEndX, newEndY ] = [ NaN, NaN, NaN, NaN ];
@@ -1647,10 +1649,10 @@ function drawConnector(startNode, endNode) {
 		const radius = startWidthOffset + startHeightOffset;
 		[ newStartX, newStartY ] = [ startPos[0] + vX / magV * radius, startPos[1] + vY / magV * radius ];
 	}
-	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] - startWidthOffset, startPos[1] - startHeightOffset, startPos[0] + startWidthOffset, startPos[1] - startHeightOffset, startShape[1] == "diamond" ? 45 : 0, startPos, endPos, startPos, startPos); // top left to top right
-	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] + startWidthOffset, startPos[1] - startHeightOffset, startPos[0] + startWidthOffset, startPos[1] + startHeightOffset, startShape[1] == "diamond" ? 45 : 0, startPos, endPos, startPos, startPos); // top right to bottom right
-	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] + startWidthOffset, startPos[1] + startHeightOffset, startPos[0] - startWidthOffset, startPos[1] + startHeightOffset, startShape[1] == "diamond" ? 45 : 0, startPos, endPos, startPos, startPos); // bottom right to bottom left
-	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] - startWidthOffset, startPos[1] + startHeightOffset, startPos[0] - startWidthOffset, startPos[1] - startHeightOffset, startShape[1] == "diamond" ? 45 : 0, startPos, endPos, startPos, startPos); // bottom left to top right
+	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] - startWidthOffset, startPos[1] - startHeightOffset, startPos[0] + startWidthOffset, startPos[1] - startHeightOffset, startRotation, undefined, undefined, startPos, startPos); // top left to top right
+	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] + startWidthOffset, startPos[1] - startHeightOffset, startPos[0] + startWidthOffset, startPos[1] + startHeightOffset, startRotation, undefined, undefined, startPos, startPos); // top right to bottom right
+	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] + startWidthOffset, startPos[1] + startHeightOffset, startPos[0] - startWidthOffset, startPos[1] + startHeightOffset, startRotation, undefined, undefined, startPos, startPos); // bottom right to bottom left
+	if (Number.isNaN(newStartX)) [ newStartX, newStartY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], startPos[0] - startWidthOffset, startPos[1] + startHeightOffset, startPos[0] - startWidthOffset, startPos[1] - startHeightOffset, startRotation, undefined, undefined, startPos, startPos); // bottom left to top right
 
 	// polygon 2
 	if (endShape[1] == "circle") {
@@ -1660,10 +1662,10 @@ function drawConnector(startNode, endNode) {
 		const radius = endWidthOffset + endHeightOffset;
 		[ newEndX, newEndY ] = [ endPos[0] + vX / magV * radius, endPos[1] + vY / magV * radius ];
 	}
-	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] - endWidthOffset, endPos[1] - endHeightOffset, endPos[0] + endWidthOffset, endPos[1] - endHeightOffset, endShape[1] == "diamond" ? 45 : 0, startPos, endPos, endPos, endPos); // top left to top right
-	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] + endWidthOffset, endPos[1] - endHeightOffset, endPos[0] + endWidthOffset, endPos[1] + endHeightOffset, endShape[1] == "diamond" ? 45 : 0, startPos, endPos, endPos, endPos); // top right to bottom right
-	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] + endWidthOffset, endPos[1] + endHeightOffset, endPos[0] - endWidthOffset, endPos[1] + endHeightOffset, endShape[1] == "diamond" ? 45 : 0, startPos, endPos, endPos, endPos); // bottom right to bottom left
-	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] - endWidthOffset, endPos[1] + endHeightOffset, endPos[0] - endWidthOffset, endPos[1] - endHeightOffset, endShape[1] == "diamond" ? 45 : 0, startPos, endPos, endPos, endPos); // bottom left to top right
+	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] - endWidthOffset, endPos[1] - endHeightOffset, endPos[0] + endWidthOffset, endPos[1] - endHeightOffset, endRotation, undefined, undefined, endPos, endPos); // top left to top right
+	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] + endWidthOffset, endPos[1] - endHeightOffset, endPos[0] + endWidthOffset, endPos[1] + endHeightOffset, endRotation, undefined, undefined, endPos, endPos); // top right to bottom right
+	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] + endWidthOffset, endPos[1] + endHeightOffset, endPos[0] - endWidthOffset, endPos[1] + endHeightOffset, endRotation, undefined, undefined, endPos, endPos); // bottom right to bottom left
+	if (Number.isNaN(newEndX)) [ newEndX, newEndY ] = lineIntersect(startPos[0], startPos[1], endPos[0], endPos[1], endPos[0] - endWidthOffset, endPos[1] + endHeightOffset, endPos[0] - endWidthOffset, endPos[1] - endHeightOffset, endRotation, undefined, undefined, endPos, endPos); // bottom left to top right
 
 	connector.moveTo(newStartX, newStartY);
 	connector.lineTo(newEndX, newEndY);
