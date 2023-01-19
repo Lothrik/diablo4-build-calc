@@ -971,8 +971,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeText.anchor.set(0.5);
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined && ![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints != 0 && shapeType != "diamond") {
-		nodeText2 = new PIXI.Text(maxPoints > 1 ? allocatedPoints + "/" + maxPoints : "", {
+	if (groupName != undefined && ![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints > 1) {
+		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
 			align: "right",
 			fill: textColor,
 			fontFamily: fontFamily,
@@ -1080,7 +1080,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	node.displayName = displayName;
 	node.branchData = branchData;
 	node.nodeIndex = nodeIndex;
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints == 0 || shapeType == "diamond") {
+	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
 		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
@@ -1141,7 +1141,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		.on("tap", onMouseOver);
 
 
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || shapeType == "diamond") {
+	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || maxPoints <= 1) {
 		if (maxPoints != 0) {
 			node.cursor = "pointer";
 			node.interactive = true;
