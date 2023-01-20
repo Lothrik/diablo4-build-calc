@@ -155,7 +155,7 @@ var pixiTooltip;
 var pixiDragging;
 
 var debugMode = false;
-var clampMode = readCookie("clampMode") === "true" ? true : false;
+var clampMode = readCookie("clampMode") == "true" ? true : false;
 
 var touchTimer = null;
 var isTouching = false;
@@ -1599,8 +1599,8 @@ function repositionTooltip() {
 		const maxX = document.documentElement.offsetWidth - marginSize - xOffsetFix - pixiTooltip.width * pixiJS.stage.scale.x;
 		const maxY = document.documentElement.offsetHeight - offsetBottom - marginSize - pixiTooltip.height * pixiJS.stage.scale.y;
 
-		const globalX = globalPosition.x + (_nodeWidth + borderWidth) * pixiJS.stage.scale.x * 0.5;
-		const globalY = globalPosition.y - (_nodeHeight + borderWidth) * pixiJS.stage.scale.y * 0.5;
+		const globalX = globalPosition.x + (_nodeWidth + borderWidth) * shapeSize * circleFactor * diamondFactor * pixiJS.stage.scale.x * 0.5;
+		const globalY = globalPosition.y - (_nodeHeight + borderWidth) * shapeSize * circleFactor * diamondFactor * pixiJS.stage.scale.y * 0.5;
 
 		const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
 		const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
