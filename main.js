@@ -408,22 +408,9 @@ var oldSearchIdx = -1;
 var oldSearchText = "";
 function handleSearchInput(event) {
 	const newSearchText = $("#searchInput").val().toLowerCase();
-	if (oldSearchText != newSearchText) {
-		oldSearchIdx = -1;
-		pixiNodes.filter(pixiNode => {
-			if (pixiNode.groupName == undefined) {
-				const requiredPoints = pixiNode.nodeData.get("requiredPoints");
-				const validConnection = requiredPoints <= getAllocatedSkillPoints(pixiNode.nodeName);
-				validConnection ? setNodeStyleThick(pixiNode) : setNodeStyleThin(pixiNode);
-			} else {
-				const allocatedPoints = pixiNode.nodeData.get("allocatedPoints");
-				allocatedPoints > 0 ? setNodeStyleThick(pixiNode) : setNodeStyleThin(pixiNode);
-			}
-		});
-	}
-	let nodeCount = 0;
-	if (newSearchText.length >= 3) {
-		let nodeMatch = pixiNodes.filter(pixiNode => {
+
+	let nodeMatch = pixiNodes.filter(pixiNode => {
+		if (newSearchText.length >= 3) {
 			// search `nodeHeader` for `newSearchText`
 			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => pixiNode.nodeName.includes(damageType) || pixiNode.nodeDesc.includes(damageType)) ? ` (${pixiNode.damageType})` : "");
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
@@ -439,26 +426,39 @@ function handleSearchInput(event) {
 					return true;
 				}
 			}
-			pixiNode.nodeData.set("searchQueryMatch", false);
-			return false;
-		});
-		nodeCount = nodeMatch.length;
+		}
+		pixiNode.nodeData.set("searchQueryMatch", false);
+		if (pixiNode.groupName == undefined) {
+			const requiredPoints = pixiNode.nodeData.get("requiredPoints");
+			const validConnection = requiredPoints <= getAllocatedSkillPoints(pixiNode.nodeName);
+			validConnection ? setNodeStyleThick(pixiNode) : setNodeStyleThin(pixiNode);
+		} else {
+			const allocatedPoints = pixiNode.nodeData.get("allocatedPoints");
+			allocatedPoints > 0 ? setNodeStyleThick(pixiNode) : setNodeStyleThin(pixiNode);
+		}
+		return false;
+	});
 
-		if (event.keyCode == 13) {
-			if (oldSearchText != newSearchText || oldSearchIdx + 1 >= nodeCount) {
-				nodeMatch = nodeMatch[0];
-				oldSearchIdx = 0;
-			} else {
-				nodeMatch = nodeMatch[oldSearchIdx + 1];
-				oldSearchIdx++;
-			}
-			if (nodeMatch != undefined) {
-				pixiJS.stage.pivot.set(nodeMatch.x - oldWidth / pixiJS.stage.scale.x * 0.5, nodeMatch.y - oldHeight / pixiJS.stage.scale.y * 0.5);
-				drawTooltip(nodeMatch);
-			}
+	const nodeCount = nodeMatch.length;
+
+	if (oldSearchText != newSearchText) oldSearchIdx = -1;
+
+	if (newSearchText.length >= 3 && event.keyCode == 13) {
+		if (oldSearchText != newSearchText || oldSearchIdx + 1 >= nodeCount) {
+			nodeMatch = nodeMatch[0];
+			oldSearchIdx = 0;
+		} else {
+			nodeMatch = nodeMatch[oldSearchIdx + 1];
+			oldSearchIdx++;
+		}
+		if (nodeMatch != undefined) {
+			pixiJS.stage.pivot.set(nodeMatch.x - oldWidth / pixiJS.stage.scale.x * 0.5, nodeMatch.y - oldHeight / pixiJS.stage.scale.y * 0.5);
+			drawTooltip(nodeMatch);
 		}
 	}
+
 	oldSearchText = newSearchText;
+
 	if (event.type == "blur" || nodeCount == 0) {
 		const extraInfoHTML = $("#extraInfo").html();
 		if ([MATCH_FOUND_TEXT, MATCHES_FOUND_TEXT].some(matchText => extraInfoHTML.includes(matchText))) $("#extraInfo").empty().addClass("hidden");
