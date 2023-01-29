@@ -1141,7 +1141,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		.on("mouseout", onMouseOut)
 		.on("tap", onMouseOver);
 
-
 	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || maxPoints <= 1) {
 		if (maxPoints != 0) {
 			node.cursor = "pointer";
