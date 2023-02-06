@@ -3,6 +3,7 @@ import { druid } from "./data/druid.js";
 import { necromancer } from "./data/necromancer.js";
 import { rogue } from "./data/rogue.js";
 import { sorcerer } from "./data/sorcerer.js";
+import { paragonData } from "./data/paragon.js";
 import { powerCodex } from "./data/codex-of-power.js";
 
 // splitMulti allows String.prototype.split to process multiple delimiters at once

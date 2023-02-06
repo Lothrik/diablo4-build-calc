@@ -384,13 +384,7 @@
 					",,,,,,,,Barbarian_Rare_015,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Barbarian_Rare_022,,,,,,,,",
 					",,,,,,,,Generic_Magic_Armor,,,,Generic_Magic_DamagePhysical,,,,,,,,",
 					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,,,,,,,,",
-					",,,,,,,,,Generic_Normal_Str,StartNodeBarb,Generic_Normal_Will,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,"
+					",,,,,,,,,Generic_Normal_Str,StartNodeBarb,Generic_Normal_Will,,,,,,,,,"
 				],
 				"name": "Start"
 			},
@@ -1159,13 +1153,7 @@
 					",,,,,,,,Barbarian_Rare_015,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Generic_Rare_075,,,,,,,,",
 					",,,,,,,,Generic_Magic_Armor,,,,Generic_Magic_Damage,,,,,,,,",
 					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,,,,,,,,",
-					",,,,,,,,,Generic_Normal_Will,StartNodeDruid,Generic_Normal_Int,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,"
+					",,,,,,,,,Generic_Normal_Will,StartNodeDruid,Generic_Normal_Int,,,,,,,,,"
 				],
 				"name": "Start"
 			},
@@ -3680,13 +3668,7 @@
 					",,,,,,,,Generic_Rare_001,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Generic_Rare_075,,,,,,,,",
 					",,,,,,,,Generic_Magic_ResistanceAll,,,,Generic_Magic_Damage,,,,,,,,",
 					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,",
-					",,,,,,,,,Generic_Normal_Int,StartNodeNecro,Generic_Normal_Will,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,"
+					",,,,,,,,,Generic_Normal_Int,StartNodeNecro,Generic_Normal_Will,,,,,,,,,"
 				],
 				"name": "Start"
 			},
@@ -4399,13 +4381,7 @@
 					",,,,,,,,Generic_Rare_001,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Generic_Rare_075,,,,,,,,",
 					",,,,,,,,Generic_Magic_ResistanceAll,,,,Generic_Magic_Damage,,,,,,,,",
 					",,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,",
-					",,,,,,,,,Generic_Normal_Dex,StartNodeRogue,Generic_Normal_Str,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,"
+					",,,,,,,,,Generic_Normal_Dex,StartNodeRogue,Generic_Normal_Str,,,,,,,,,"
 				],
 				"name": "Start"
 			},
@@ -5221,13 +5197,7 @@
 					",,,,,,,,Generic_Rare_001,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Generic_Rare_029,,,,,,,,",
 					",,,,,,,,Generic_Magic_ResistanceAll,,,,Generic_Magic_DamageElemental,,,,,,,,",
 					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,",
-					",,,,,,,,,Generic_Normal_Int,StartNodeSorc,Generic_Normal_Will,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,",
-					",,,,,,,,,,,,,,,,,,,,"
+					",,,,,,,,,Generic_Normal_Int,StartNodeSorc,Generic_Normal_Will,,,,,,,,,"
 				],
 				"name": "Start"
 			},

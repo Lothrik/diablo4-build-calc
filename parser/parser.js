@@ -7,11 +7,16 @@ import { sorcererEnchants } from "./sorcerer-enchants.js";
 const buildNumber = 36331;
 
 var skillJSON = "";
-$.getJSON("tree/build-" + buildNumber + ".json", null, data => {
-	skillJSON = data;
+var otherJSON = "";
+$.getJSON("tree/build-" + buildNumber + ".json", null, treeData => {
+	skillJSON = treeData;
 	$("#debugOutput").html("Successfully loaded `tree/build-" + buildNumber + ".json`.");
-	// call runParser once after loading so fixJSON affects node connections recursively
-	runParser(false);
+	$.getJSON("other/build-" + buildNumber + ".json", null, otherData => {
+		otherJSON = otherData;
+		$("#debugOutput").append("\nSuccessfully loaded `other/build-" + buildNumber + ".json`.");
+		// call runParser once after loading so fixJSON affects node connections recursively
+		runParser(false);
+	});
 });
 
 const scaleRatio = 0.5;
@@ -176,56 +181,56 @@ function fixJSON(classData, curNode, rootNodeName) {
 	const nodeData = classData["Nodes"][curNode];
 	if (buildNumber == 36023 || buildNumber == 36331) {
 		if (nodeData["SkillName"] != nodeData["SkillName"].trim()) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `" + nodeData["SkillName"].trim() + "`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `" + nodeData["SkillName"].trim() + "`.");
 			nodeData["SkillName"] = nodeData["SkillName"].trim();
 		}
 		// `Supreme Unstable Currents` was incorrectly assigned the duplicate name `Prime Unstable Currents` in 36023, causing a naming collision.
 		if (nodeData["SkillName"] == "Prime Unstable Currents" && nodeData["Id"] == 619) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Unstable Currents`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Unstable Currents`.");
 			nodeData["SkillName"] = "Supreme Unstable Currents";
 		// `Prime Inferno` was incorrectly assigned the name `Upgrade 1` in 36023.
 		} else if (nodeData["SkillName"] == "Upgrade 1" && nodeData["Id"] == 617) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Prime Inferno`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Prime Inferno`.");
 			nodeData["SkillName"] = "Prime Inferno";
 		// `Supreme Inferno` was incorrectly assigned the name `Upgrade 2` in 36023.
 		} else if (nodeData["SkillName"] == "Upgrade 2" && nodeData["Id"] == 620) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Inferno`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Inferno`.");
 			nodeData["SkillName"] = "Supreme Inferno";
 		// `Enhanced Charged Bolts` was incorrectly assigned the name `Enhanced Charged Bolt` in 36023.
 		} else if (nodeData["SkillName"] == "Enhanced Charged Bolt" && nodeData["Id"] == 731) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Charged Bolts`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Charged Bolts`.");
 			nodeData["SkillName"] = "Enhanced Charged Bolts";
 		// `Wolf Pack` was renamed to `Wolves` in 36023, but its modifier nodes were not renamed at the same time.
 		} else if (nodeData["SkillName"] == "Wolf Pack" && nodeData["Id"] == 459) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Wolves`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Wolves`.");
 			nodeData["SkillName"] = "Wolves";
 		} else if (nodeData["SkillName"] == "Enhanced Wolf Pack" && nodeData["Id"] == 509) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Wolves`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Wolves`.");
 			nodeData["SkillName"] = "Enhanced Wolves";
 		} else if (nodeData["SkillName"] == "Ferocious Wolf Pack" && nodeData["Id"] == 388) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Ferocious Wolves`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Ferocious Wolves`.");
 			nodeData["SkillName"] = "Ferocious Wolves";
 		} else if (nodeData["SkillName"] == "Brutal Wolf Pack" && nodeData["Id"] == 389) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Brutal Wolves`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Brutal Wolves`.");
 			nodeData["SkillName"] = "Brutal Wolves";
 		// `Stealth` was renamed to `Concealment` in 36331, but its modifier nodes were not renamed at the same time.
 		} else if (nodeData["SkillName"] == "Stealth" && nodeData["Id"] == 245) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Concealment`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Concealment`.");
 			nodeData["SkillName"] = "Concealment";
 		} else if (nodeData["SkillName"] == "Enhanced Stealth" && nodeData["Id"] == 374) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Concealment`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Concealment`.");
 			nodeData["SkillName"] = "Enhanced Concealment";
 		} else if (nodeData["SkillName"] == "Countering Stealth" && nodeData["Id"] == 246) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Countering Concealment`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Countering Concealment`.");
 			nodeData["SkillName"] = "Countering Concealment";
 		} else if (nodeData["SkillName"] == "Subverting Stealth" && nodeData["Id"] == 247) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Subverting Concealment`.");
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Subverting Concealment`.");
 			nodeData["SkillName"] = "Subverting Concealment";
 		}
 		if (nodeData["SkillName"] != undefined) {
 			// ultimate skills don't have ranks
 			if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["SkillDesc"]) && nodeData["Reward"]["dwMaxTalentRanks"] == 5) {
-				$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
+				$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
 				nodeData["Reward"]["dwMaxTalentRanks"] = 1;
 			} else {
 				const namedConnectionList = JSON.parse(namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, rootNodeName));
@@ -247,7 +252,7 @@ function fixJSON(classData, curNode, rootNodeName) {
 				}
 				if (unmodifiedName.length > 0 && (chainedConnectionList.indexOf(unmodifiedName) != -1 || (unmodifiedNameSpecial != null && chainedConnectionList.indexOf(unmodifiedNameSpecial) != -1))) {
 					if (nodeData["Reward"]["dwMaxTalentRanks"] == 3) {
-						$("#debugOutput").html($("#debugOutput").html() + "\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
+						$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
 						nodeData["Reward"]["dwMaxTalentRanks"] = 1;
 					}
 					nodeData["baseSkillName"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
@@ -324,11 +329,12 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 
 function runParser(downloadMode) {
 	console.clear();
-	skillJSON.forEach((classData, classIndex) => {
+
+	for (const [classIndex, classData] of Object.entries(skillJSON)) {
 		const className = classData["ClassName"];
 		const classNameLower = className.toLowerCase();
 		if (!classProcessed[className]) {
-			$("#debugOutput").html($("#debugOutput").html() + "\nProcessing node data for class `" + className + "`:");
+			$("#debugOutput").append("\nProcessing node data for class `" + className + "`:");
 		}
 
 		const rootNodes = classData["Nodes"].filter(curNode => curNode["RootNode"]);
@@ -452,8 +458,41 @@ function runParser(downloadMode) {
 			}
 		}
 		classProcessed[className] = true;
-	});
+	}
+
+	let paragonData = {};
+	for (const [className, otherData] of Object.entries(otherJSON)) {
+		paragonData[className] = {};
+		if (otherData["Paragon (Board)"] != undefined) {
+			paragonData[className]["Board"] = {};
+			for (const [boardName, boardData] of Object.entries(otherData["Paragon (Board)"])) {
+				paragonData[className]["Board"][boardData["name"]] = [];
+				for (const [rowIndex, rowData] of Object.entries(boardData["data"])) {
+					paragonData[className]["Board"][boardData["name"]].push(rowData.split(","));
+				}
+			}
+		}
+		if (otherData["Paragon (Node)"] != undefined) {
+			paragonData[className]["Node"] = {};
+			for (const [nodeName, nodeData] of Object.entries(otherData["Paragon (Node)"])) {
+				paragonData[className]["Node"][nodeName] = nodeData["name"];
+			}
+		}
+	}
+
 	if (fixedJSON) {
+		let formattedParagonData = "let paragonData = ";
+		formattedParagonData += JSON.stringify(paragonData, null, "\t");
+		formattedParagonData += "\n\nexport { paragonData };";
+		if (downloadMode) {
+			let downloadElement = document.createElement("a");
+			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedParagonData);
+			downloadElement.download = "paragon.js";
+			downloadElement.click();
+		} else {
+			console.log(formattedParagonData);
+		}
+
 		let formattedNodeHistory = "let nodeHistory = ";
 		formattedNodeHistory += JSON.stringify(nodeHistory, null, "\t");
 		formattedNodeHistory += "\n\nexport { nodeHistory };";
@@ -465,6 +504,7 @@ function runParser(downloadMode) {
 		} else {
 			console.log(formattedNodeHistory);
 		}
+
 		let formattedNodeValues = "let nodeValues = ";
 		formattedNodeValues += JSON.stringify(nodeValues, null, "\t");
 		formattedNodeValues += "\n\nexport { nodeValues };";
