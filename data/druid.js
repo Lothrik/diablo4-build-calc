@@ -1,45 +1,45 @@
-let druid = {};
+let druidData = {};
 
-druid["Trunk Data"] = {
+druidData["Trunk Data"] = {
 	"Basic": {
 		connections: [ "Spirit" ],
 		x: 0,
-		y: 0,
+		y: 0
 	},
 	"Spirit": {
 		connections: [ "Defensive" ],
 		requiredPoints: 2,
 		x: 5.146,
-		y: 1132.94,
+		y: 1132.94
 	},
 	"Defensive": {
 		connections: [ "Companion" ],
 		requiredPoints: 6,
 		x: -1248.81,
-		y: 2232.505,
+		y: 2232.505
 	},
 	"Companion": {
 		connections: [ "Wrath" ],
 		requiredPoints: 11,
 		x: 1251.46,
-		y: 2231.245,
+		y: 2231.245
 	},
 	"Wrath": {
 		connections: [ "Ultimate" ],
 		requiredPoints: 16,
 		x: -1242.16,
-		y: 3763.334,
+		y: 3763.334
 	},
 	"Ultimate": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: 1240.835,
-		y: 3765.088,
+		y: 3765.088
 	},
 	"Capstone": {
 		requiredPoints: 33,
 		x: 8.196,
-		y: 4695.885,
+		y: 4695.885
 	},
 	"Spirit Boons": {
 		x: 2500,
@@ -47,7 +47,7 @@ druid["Trunk Data"] = {
 	},
 };
 
-druid["Basic"] = {
+druidData["Basic"] = {
 	"Earthspike": {
 		connections: [ "Basic", "Enhanced Earthspike" ],
 		damageType: 0,
@@ -262,7 +262,7 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 	},
 };
 
-druid["Spirit"] = {
+druidData["Spirit"] = {
 	"Landslide": {
 		connections: [ "Spirit", "Enhanced Landslide" ],
 		damageType: 0,
@@ -536,7 +536,7 @@ This bonus persists for {#} seconds after leaving Werewolf form.`,
 	},
 };
 
-druid["Defensive"] = {
+druidData["Defensive"] = {
 	"Earthen Bulwark": {
 		connections: [ "Defensive", "Enhanced Earthen Bulwark" ],
 		description: `Cooldown: {#} seconds
@@ -720,7 +720,7 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 	},
 };
 
-druid["Companion"] = {
+druidData["Companion"] = {
 	"Ravens": {
 		connections: [ "Companion", "Enhanced Ravens" ],
 		damageType: 0,
@@ -884,7 +884,7 @@ Active: Direct the wolves to focus an enemy, leaping to them and striking for {#
 	},
 };
 
-druid["Wrath"] = {
+druidData["Wrath"] = {
 	"Elemental Exposure": {
 		connections: [ "Charged Atmosphere", "Wrath", "Endless Tempest" ],
 		description: `Lucky Hit: Your Storm skills have up to a {#}% chance to make enemies Vulnerable for {#} seconds.`,
@@ -1170,7 +1170,7 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	},
 };
 
-druid["Ultimate"] = {
+druidData["Ultimate"] = {
 	"Grizzly Rage": {
 		connections: [ "Ultimate", "Prime Grizzly Rage" ],
 		description: `Cooldown: {#} seconds
@@ -1398,7 +1398,7 @@ Your Storm skills deal x{#}% increased damage to enemies that are Stunned, Immob
 	},
 };
 
-druid["Capstone"] = {
+druidData["Capstone"] = {
 	"Nature's Fury": {
 		connections: [ "Capstone" ],
 		description: `Casting an Earth skill has a {#}% chance to trigger a free Storm skill of the same category.
@@ -1465,7 +1465,7 @@ While Healthy, deal x{#}% increased damage.`,
 	},
 };
 
-druid["Spirit Boons"] = {
+druidData["Spirit Boons"] = {
 	"Deer": {
 		id: 158,
 		"Prickleskin": {
@@ -1544,4 +1544,4 @@ druid["Spirit Boons"] = {
 	},
 };
 
-export { druid };
+export { druidData };

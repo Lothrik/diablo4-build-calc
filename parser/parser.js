@@ -333,6 +333,7 @@ function runParser(downloadMode) {
 	for (const [classIndex, classData] of Object.entries(skillJSON)) {
 		const className = classData["ClassName"];
 		const classNameLower = className.toLowerCase();
+		const classObjectName = classNameLower + "Data";
 		if (!classProcessed[className]) {
 			$("#debugOutput").append("\nProcessing node data for class `" + className + "`:");
 		}
@@ -340,8 +341,8 @@ function runParser(downloadMode) {
 		const rootNodes = classData["Nodes"].filter(curNode => curNode["RootNode"]);
 		const originNode = rootNodes.find((curNode, curIndex) => rootNodeNames[className][curIndex] == "Basic");
 
-		let formattedData = "let " + classNameLower + " = {};\n\n";
-		formattedData += classNameLower + '["Trunk Data"] = {\n';
+		let formattedData = "let " + classObjectName + " = {};\n\n";
+		formattedData += classObjectName + '["Trunk Data"] = {\n';
 		for (let i = 0; i < Object.keys(rootNodeNamesSorted[className]).length; i++) {
 			rootNodes.forEach((rootNode, rootIndex) => {
 				const rootNodeName = rootNodeNames[className][rootIndex];
@@ -355,7 +356,7 @@ function runParser(downloadMode) {
 						formattedData += "\t\trequiredPoints: " + rootNode["ReqPointsSpent"] + ",\n";
 					}
 					formattedData += "\t\tx: " + parseFloat(((rootNode["X"] - originNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
-					formattedData += "\t\ty: " + parseFloat(((rootNode["Y"] - originNode["Y"]) * scaleRatio).toFixed(3)) + ",\n";
+					formattedData += "\t\ty: " + parseFloat(((rootNode["Y"] - originNode["Y"]) * scaleRatio).toFixed(3)) + "\n";
 					formattedData += "\t},\n";
 				}
 			});
@@ -380,14 +381,14 @@ function runParser(downloadMode) {
 					let mappedIDs = [];
 					mappedIDs[rootNode["Id"]] = true;
 
-					formattedData += classNameLower + '["' + rootNodeNames[className][rootIndex] + '"] = {\n';
+					formattedData += classObjectName + '["' + rootNodeNames[className][rootIndex] + '"] = {\n';
 					formattedData += recursiveSkillTreeScan(rootNode["Connections"], classData, className, rootNode, rootNodeName, mappedIDs, 0);
 					formattedData += "};\n\n";
 				}
 			});
 		}
 		if (className == "Necromancer" && necromancerMinions != undefined) {
-			formattedData += classNameLower + '["Book of the Dead"] = {\n';
+			formattedData += classObjectName + '["Book of the Dead"] = {\n';
 			for (const [minionName, minionData] of Object.entries(necromancerMinions)) {
 				formattedData += '\t"' + minionName + '": {\n';
 				for (const [minionTypeName, minionTypeData] of Object.entries(minionData)) {
@@ -418,7 +419,7 @@ function runParser(downloadMode) {
 			}
 			formattedData += "};\n\n";
 		} else if (className == "Druid" && druidBoons != undefined) {
-			formattedData += classNameLower + '["Spirit Boons"] = {\n';
+			formattedData += classObjectName + '["Spirit Boons"] = {\n';
 			for (const [boonTypeName, boonTypeData] of Object.entries(druidBoons)) {
 				formattedData += '	"' + boonTypeName + '": {\n';
 				const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName];
@@ -446,7 +447,7 @@ function runParser(downloadMode) {
 			}
 			formattedData += "};\n\n";
 		}
-		formattedData += "export { " + classNameLower + " };";
+		formattedData += "export { " + classObjectName + " };";
 		if (fixedJSON) {
 			if (downloadMode) {
 				let downloadElement = document.createElement("a");

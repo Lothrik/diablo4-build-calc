@@ -30,9 +30,9 @@ function runParser(downloadMode) {
 		}
 	}
 
-	let formattedCodex = "let powerCodex = ";
+	let formattedCodex = "let codexData = ";
 	formattedCodex += JSON.stringify(powerCodex, null, "\t");
-	formattedCodex += "\n\nexport { powerCodex };";
+	formattedCodex += "\n\nexport { codexData };";
 	if (downloadMode) {
 		let downloadElement = document.createElement("a");
 		downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedCodex);

@@ -1,10 +1,10 @@
-import { barbarian } from "./data/barbarian.js";
-import { druid } from "./data/druid.js";
-import { necromancer } from "./data/necromancer.js";
-import { rogue } from "./data/rogue.js";
-import { sorcerer } from "./data/sorcerer.js";
+import { barbarianData } from "./data/barbarian.js";
+import { druidData } from "./data/druid.js";
+import { necromancerData } from "./data/necromancer.js";
+import { rogueData } from "./data/rogue.js";
+import { sorcererData } from "./data/sorcerer.js";
 import { paragonData } from "./data/paragon.js";
-import { powerCodex } from "./data/codex-of-power.js";
+import { codexData } from "./data/codex-of-power.js";
 
 // splitMulti allows String.prototype.split to process multiple delimiters at once
 function splitMulti(str, tokens) {
@@ -82,7 +82,7 @@ function rgba2hex(rgba) {
 }
 
 // construct a nested map of all class data
-const classObj = { barbarian, druid, necromancer, rogue, sorcerer };
+const classObj = { "barbarian": barbarianData, "druid": druidData, "necromancer": necromancerData, "rogue": rogueData, "sorcerer": sorcererData };
 var classMap = new Map();
 populateMap(classMap, classObj, Object.keys(classObj));
 
@@ -1381,7 +1381,7 @@ function drawAllNodes() {
 
 					const codexTypeNode = new Map([
 						["allocatedPoints", 0],
-						["description", CODEX_OF_POWER_DESC + powerCodex["Slots"][codexTypeName]],
+						["description", CODEX_OF_POWER_DESC + codexData["Slots"][codexTypeName]],
 						["widthOverride", nodeSpacingX * 4 - 50],
 						["maxPoints", 0],
 						["shapeSize", 1],
@@ -1436,7 +1436,7 @@ function drawAllNodes() {
 }
 function getCodexData(desiredCategories = null, desiredTypes = null) {
 	let codexResult = {};
-	for (const [codexCategoryName, codexCategory] of Object.entries(powerCodex)) {
+	for (const [codexCategoryName, codexCategory] of Object.entries(codexData)) {
 		if (desiredCategories === null || desiredCategories.includes(codexCategoryName)) {
 			for (const [codexTypeName, codexType] of Object.entries(codexCategory)) {
 				if (desiredTypes === null || desiredTypes.includes(codexTypeName)) {

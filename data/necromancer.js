@@ -1,45 +1,45 @@
-let necromancer = {};
+let necromancerData = {};
 
-necromancer["Trunk Data"] = {
+necromancerData["Trunk Data"] = {
 	"Basic": {
 		connections: [ "Core" ],
 		x: 0,
-		y: 0,
+		y: 0
 	},
 	"Core": {
 		connections: [ "Macabre" ],
 		requiredPoints: 2,
 		x: -2.353,
-		y: 1135.79,
+		y: 1135.79
 	},
 	"Macabre": {
 		connections: [ "Corruption" ],
 		requiredPoints: 6,
 		x: 1240.933,
-		y: 2069.72,
+		y: 2069.72
 	},
 	"Corruption": {
 		connections: [ "Summoning" ],
 		requiredPoints: 11,
 		x: 1241.038,
-		y: 3005.145,
+		y: 3005.145
 	},
 	"Summoning": {
 		connections: [ "Ultimate" ],
 		requiredPoints: 16,
 		x: -1135.477,
-		y: 3007.775,
+		y: 3007.775
 	},
 	"Ultimate": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: -9.557,
-		y: 4138.157,
+		y: 4138.157
 	},
 	"Capstone": {
 		requiredPoints: 33,
 		x: -11.71,
-		y: 4933.965,
+		y: 4933.965
 	},
 	"Book of the Dead": {
 		x: 2500,
@@ -47,7 +47,7 @@ necromancer["Trunk Data"] = {
 	},
 };
 
-necromancer["Basic"] = {
+necromancerData["Basic"] = {
 	"Decompose": {
 		connections: [ "Enhanced Decompose", "Basic" ],
 		damageType: 5,
@@ -218,7 +218,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 	},
 };
 
-necromancer["Core"] = {
+necromancerData["Core"] = {
 	"Blight": {
 		connections: [ "Enhanced Blight", "Core" ],
 		damageType: 5,
@@ -459,7 +459,7 @@ This chance is doubled against bosses.`,
 	},
 };
 
-necromancer["Macabre"] = {
+necromancerData["Macabre"] = {
 	"Corpse Explosion": {
 		connections: [ "Enhanced Corpse Explosion", "Macabre" ],
 		damageType: 0,
@@ -621,7 +621,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for {#} se
 	},
 };
 
-necromancer["Corruption"] = {
+necromancerData["Corruption"] = {
 	"Iron Maiden": {
 		connections: [ "Enhanced Iron Maiden", "Corruption" ],
 		damageType: 0,
@@ -741,7 +741,7 @@ Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and dea
 	},
 };
 
-necromancer["Summoning"] = {
+necromancerData["Summoning"] = {
 	"Corpse Tendrils": {
 		connections: [ "Enhanced Corpse Tendrils", "Summoning" ],
 		damageType: 0,
@@ -955,7 +955,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 	},
 };
 
-necromancer["Ultimate"] = {
+necromancerData["Ultimate"] = {
 	"Bonded in Essence": {
 		connections: [ "Death's Defense", "Ultimate" ],
 		description: `Your Minions gain {#}% of your Resistances.`,
@@ -1115,7 +1115,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 	},
 };
 
-necromancer["Capstone"] = {
+necromancerData["Capstone"] = {
 	"Ossified Essence": {
 		connections: [ "Capstone" ],
 		description: `Your Bone Skills deal x{#}% increased damage for each point of Essence you have above {#} upon cast.`,
@@ -1157,7 +1157,7 @@ Every {#}th time an enemy receives Shadow Damage from you or your Minions while 
 	},
 };
 
-necromancer["Book of the Dead"] = {
+necromancerData["Book of the Dead"] = {
 	"Skeletal Warriors": {
 		"Skeletal Skirmishers": {
 			description: `Sword-wielding damage dealers that deal 30% increased damage but have 15% reduced Life.`,
@@ -1247,4 +1247,4 @@ necromancer["Book of the Dead"] = {
 	},
 };
 
-export { necromancer };
+export { necromancerData };

@@ -9,3 +9,8 @@ body {
 	padding: 10px;
 	text-align: center;
 }
+
+#debugOutput {
+	box-sizing: border-box;
+	height: 100%;
+}

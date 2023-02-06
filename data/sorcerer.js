@@ -1,49 +1,49 @@
-let sorcerer = {};
+let sorcererData = {};
 
-sorcerer["Trunk Data"] = {
+sorcererData["Trunk Data"] = {
 	"Basic": {
 		connections: [ "Core" ],
 		x: 0,
-		y: 0,
+		y: 0
 	},
 	"Core": {
 		connections: [ "Defensive" ],
 		requiredPoints: 2,
 		x: 0.405,
-		y: 1199.005,
+		y: 1199.005
 	},
 	"Defensive": {
 		connections: [ "Conjuration" ],
 		requiredPoints: 6,
 		x: -1248.967,
-		y: 2330.66,
+		y: 2330.66
 	},
 	"Conjuration": {
 		connections: [ "Mastery" ],
 		requiredPoints: 11,
 		x: 1248.218,
-		y: 2332.78,
+		y: 2332.78
 	},
 	"Mastery": {
 		connections: [ "Ultimate" ],
 		requiredPoints: 16,
 		x: -1254.712,
-		y: 3747.074,
+		y: 3747.074
 	},
 	"Ultimate": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: 1246.083,
-		y: 3744.594,
+		y: 3744.594
 	},
 	"Capstone": {
 		requiredPoints: 33,
 		x: 209.883,
-		y: 4569.17,
+		y: 4569.17
 	},
 };
 
-sorcerer["Basic"] = {
+sorcererData["Basic"] = {
 	"Frost Bolt": {
 		connections: [ "Basic", "Enhanced Frost Bolt" ],
 		damageType: 3,
@@ -220,7 +220,7 @@ Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for 23% ov
 	},
 };
 
-sorcerer["Core"] = {
+sorcererData["Core"] = {
 	"Charged Bolts": {
 		connections: [ "Core", "Enhanced Charged Bolts" ],
 		damageType: 2,
@@ -518,7 +518,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 	},
 };
 
-sorcerer["Defensive"] = {
+sorcererData["Defensive"] = {
 	"Flame Shield": {
 		connections: [ "Defensive", "Enhanced Flame Shield" ],
 		damageType: 1,
@@ -719,7 +719,7 @@ Evade is replaced with Teleport on a 17.0 second cooldown.`,
 	},
 };
 
-sorcerer["Conjuration"] = {
+sorcererData["Conjuration"] = {
 	"Hydra": {
 		connections: [ "Conjuration", "Enhanced Hydra" ],
 		damageType: 1,
@@ -902,7 +902,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 	},
 };
 
-sorcerer["Mastery"] = {
+sorcererData["Mastery"] = {
 	"Meteor": {
 		connections: [ "Mastery", "Enhanced Meteor" ],
 		damageType: 1,
@@ -1167,7 +1167,7 @@ Lucky Hit: Direct damage has up to a 15% chance to spawn a Firewall for 3 second
 	},
 };
 
-sorcerer["Ultimate"] = {
+sorcererData["Ultimate"] = {
 	"Inferno": {
 		connections: [ "Ultimate", "Prime Inferno" ],
 		damageType: 1,
@@ -1372,7 +1372,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually Chilling en
 	},
 };
 
-sorcerer["Capstone"] = {
+sorcererData["Capstone"] = {
 	"Shatter": {
 		connections: [ "Capstone" ],
 		description: `After Freeze expires, enemies explode for {#}% of the damage you dealt to them while Frozen.`,
@@ -1429,4 +1429,4 @@ sorcerer["Capstone"] = {
 	},
 };
 
-export { sorcerer };
+export { sorcererData };

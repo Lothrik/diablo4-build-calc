@@ -1,49 +1,49 @@
-let rogue = {};
+let rogueData = {};
 
-rogue["Trunk Data"] = {
+rogueData["Trunk Data"] = {
 	"Basic": {
 		connections: [ "Core" ],
 		x: 0,
-		y: 0,
+		y: 0
 	},
 	"Core": {
 		connections: [ "Agility" ],
 		requiredPoints: 2,
 		x: -3.916,
-		y: 1197.495,
+		y: 1197.495
 	},
 	"Agility": {
 		connections: [ "Subterfuge" ],
 		requiredPoints: 6,
 		x: -1376.251,
-		y: 2265.48,
+		y: 2265.48
 	},
 	"Subterfuge": {
 		connections: [ "Imbuements" ],
 		requiredPoints: 11,
 		x: 1378.264,
-		y: 2263.735,
+		y: 2263.735
 	},
 	"Imbuements": {
 		connections: [ "Ultimate" ],
 		requiredPoints: 16,
 		x: 1377.314,
-		y: 3466.965,
+		y: 3466.965
 	},
 	"Ultimate": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: 4.677,
-		y: 4334.23,
+		y: 4334.23
 	},
 	"Capstone": {
 		requiredPoints: 33,
 		x: -2.043,
-		y: 5268.395,
+		y: 5268.395
 	},
 };
 
-rogue["Basic"] = {
+rogueData["Basic"] = {
 	"Blade Shift": {
 		connections: [ "Enhanced Blade Shift", "Basic" ],
 		damageType: 0,
@@ -255,7 +255,7 @@ Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the
 	},
 };
 
-rogue["Core"] = {
+rogueData["Core"] = {
 	"Twisting Blades": {
 		connections: [ "Enhanced Twisting Blades", "Core" ],
 		damageType: 0,
@@ -518,7 +518,7 @@ Combo Points increase damage and arrows fired:
 	},
 };
 
-rogue["Agility"] = {
+rogueData["Agility"] = {
 	"Shadow Step": {
 		connections: [ "Enhanced Shadow Step", "Agility" ],
 		damageType: 0,
@@ -689,7 +689,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 	},
 };
 
-rogue["Subterfuge"] = {
+rogueData["Subterfuge"] = {
 	"Dark Shroud": {
 		connections: [ "Enhanced Dark Shroud", "Subterfuge" ],
 		description: `Cooldown: {#} seconds
@@ -882,7 +882,7 @@ Using an attack Skill during Concealment will break Concealment.`,
 	},
 };
 
-rogue["Imbuements"] = {
+rogueData["Imbuements"] = {
 	"Deadly Venom": {
 		connections: [ "Alchemical Advantage", "Debilitating Toxins", "Imbuements" ],
 		description: `You deal x{#}% increased Poisoning damage.`,
@@ -1107,7 +1107,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 	},
 };
 
-rogue["Ultimate"] = {
+rogueData["Ultimate"] = {
 	"Innervation": {
 		connections: [ "Second Wind", "Ultimate", "Alchemist's Fortune" ],
 		description: `Lucky Hit: Up to a {#}% chance to gain {#} Energy.`,
@@ -1275,7 +1275,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 	},
 };
 
-rogue["Capstone"] = {
+rogueData["Capstone"] = {
 	"Momentum": {
 		connections: [ "Capstone" ],
 		description: `Melee Skills grant a stack of Momentum for {#} seconds if they either:
@@ -1336,4 +1336,4 @@ When you reach maximum Precision, your next Ranged Skill is a guaranteed Critica
 	},
 };
 
-export { rogue };
+export { rogueData };

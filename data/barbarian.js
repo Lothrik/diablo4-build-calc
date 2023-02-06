@@ -1,49 +1,49 @@
-let barbarian = {};
+let barbarianData = {};
 
-barbarian["Trunk Data"] = {
+barbarianData["Trunk Data"] = {
 	"Basic": {
 		connections: [ "Core" ],
 		x: 0,
-		y: 0,
+		y: 0
 	},
 	"Core": {
 		connections: [ "Defensive" ],
 		requiredPoints: 2,
 		x: 1.903,
-		y: 1066.03,
+		y: 1066.03
 	},
 	"Defensive": {
 		connections: [ "Brawling" ],
 		requiredPoints: 6,
 		x: -1021.147,
-		y: 1999.455,
+		y: 1999.455
 	},
 	"Brawling": {
 		connections: [ "Weapon Mastery" ],
 		requiredPoints: 11,
 		x: -1025.572,
-		y: 3130.94,
+		y: 3130.94
 	},
 	"Weapon Mastery": {
 		connections: [ "Ultimate" ],
 		requiredPoints: 16,
 		x: 1027.208,
-		y: 3133.185,
+		y: 3133.185
 	},
 	"Ultimate": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: 3.547,
-		y: 4231.671,
+		y: 4231.671
 	},
 	"Capstone": {
 		requiredPoints: 33,
 		x: 4.294,
-		y: 4833.735,
+		y: 4833.735
 	},
 };
 
-barbarian["Basic"] = {
+barbarianData["Basic"] = {
 	"Bash": {
 		connections: [ "Basic", "Enhanced Bash" ],
 		damageType: 0,
@@ -216,7 +216,7 @@ Flay the enemy, dealing {#}% damage. Inflicts {#}% Bleeding damage over {#} seco
 	},
 };
 
-barbarian["Core"] = {
+barbarianData["Core"] = {
 	"Hammer of the Ancients": {
 		connections: [ "Core", "Enhanced Hammer of the Ancients" ],
 		damageType: 0,
@@ -447,7 +447,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 	},
 };
 
-barbarian["Defensive"] = {
+barbarianData["Defensive"] = {
 	"Challenging Shout": {
 		connections: [ "Defensive", "Enhanced Challenging Shout" ],
 		description: `Cooldown: {#} seconds
@@ -647,7 +647,7 @@ Bellow a rallying cry, granting allies +{#}% increased Movement Speed, and x{#}%
 	},
 };
 
-barbarian["Brawling"] = {
+barbarianData["Brawling"] = {
 	"Charge": {
 		connections: [ "Brawling", "Enhanced Charge" ],
 		damageType: 0,
@@ -889,7 +889,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 	},
 };
 
-barbarian["Weapon Mastery"] = {
+barbarianData["Weapon Mastery"] = {
 	"Steel Grasp": {
 		connections: [ "Weapon Mastery", "Enhanced Steel Grasp" ],
 		damageType: 0,
@@ -1106,7 +1106,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 	},
 };
 
-barbarian["Ultimate"] = {
+barbarianData["Ultimate"] = {
 	"Call of the Ancients": {
 		connections: [ "Ultimate", "Prime Call of the Ancients" ],
 		damageType: 0,
@@ -1290,7 +1290,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 	},
 };
 
-barbarian["Capstone"] = {
+barbarianData["Capstone"] = {
 	"Unconstrained": {
 		connections: [ "Capstone" ],
 		description: `Increase Berserk's maximum duration by {#} seconds and increase its damage bonus by x{#}%.`,
@@ -1332,4 +1332,4 @@ While all three damage bonuses are active, you gain an additional x{#}% increase
 	},
 };
 
-export { barbarian };
+export { barbarianData };

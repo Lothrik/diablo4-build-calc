@@ -1,4 +1,4 @@
-let powerCodex = {
+let codexData = {
 	"Slots": {
 		"Defensive": "Shield, Helmet, Chest, Pants, Amulet [+50%].",
 		"Offensive": "1H Weapon, 2H Weapon [+100%], Off-Hand, Gloves, Amulet [+50%], Ring.",
@@ -688,4 +688,4 @@ let powerCodex = {
 	}
 }
 
-export { powerCodex };
+export { codexData };
