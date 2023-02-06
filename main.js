@@ -1475,9 +1475,13 @@ function drawAllNodes() {
 				for (const [yPosition, rowData] of Object.entries(boardData)) {
 					for (const [xPosition, nodeData] of Object.entries(rowData)) {
 						if (nodeData.length > 0) {
+							const nodeRarity = nodeData.includes("_Normal_") ? "Normal"
+								: nodeData.includes("_Magic_") ? "Magic"
+								: nodeData.includes("_Rare_") ? "Rare"
+								: nodeData.includes("_Legendary_") ? "Legendary" : "";
 							const boardNode = new Map([
 								["allocatedPoints", 0],
-								//["description", ""],
+								["description", nodeRarity.length > 0 ? `${nodeRarity} Node` : ""],
 								["id", `paragon-${paragonBoardIdx}-${xPosition}-${yPosition}`],
 								["maxPoints", 1],
 								["widthOverride", nodeWidth],

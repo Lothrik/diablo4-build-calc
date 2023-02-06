@@ -8528,6 +8528,10 @@ let paragonData = {
 	"Generic": {
 		"Node": {
 			"Generic_Gate": "Board Attachment Gate",
+			"Generic_Magic_Dex": "Dexterity",
+			"Generic_Magic_Int": "Intelligence",
+			"Generic_Magic_Str": "Strength",
+			"Generic_Magic_Will": "Willpower",
 			"Generic_Normal_Dex": "Dexterity",
 			"Generic_Normal_Int": "Intelligence",
 			"Generic_Normal_Str": "Strength",

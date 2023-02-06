@@ -2808,6 +2808,18 @@
 			"Generic_Gate": {
 				"name": "Board Attachment Gate"
 			},
+			"Generic_Magic_Dex": {
+				"name": "Dexterity"
+			},
+			"Generic_Magic_Int": {
+				"name": "Intelligence"
+			},
+			"Generic_Magic_Str": {
+				"name": "Strength"
+			},
+			"Generic_Magic_Will": {
+				"name": "Willpower"
+			},
 			"Generic_Normal_Dex": {
 				"name": "Dexterity"
 			},
