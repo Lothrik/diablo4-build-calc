@@ -369,30 +369,237 @@
 		},
 		"Paragon (Board)": {
 			"Paragon_Barb_00": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Magic_DamagePhysical,,Generic_Magic_Armor,,,,,,,,,",
+					",,,,,,,,Generic_Magic_Dex,Generic_Rare_066,,Barbarian_Rare_001,Generic_Magic_Will,,,,,,,,",
+					",,,,,,,Generic_Magic_DamagePhysical,Generic_Magic_Dex,Generic_Magic_DamagePhysical,,Generic_Magic_Armor,Generic_Magic_Will,Generic_Magic_Armor,,,,,,,",
+					",,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Socket,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,,,,",
+					",,,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,Generic_Magic_HPPercent,Generic_Magic_Armor,,Generic_Magic_DamagePhysical,Generic_Magic_HPPercent,,,,,,,,",
+					",,,,,,,,Barbarian_Rare_015,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Barbarian_Rare_022,,,,,,,,",
+					",,,,,,,,Generic_Magic_Armor,,,,Generic_Magic_DamagePhysical,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,StartNodeBarb,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,"
+				],
 				"name": "Start"
 			},
 			"Paragon_Barb_01": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Magic_DamageBleed,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_DamageBleed,Barbarian_Rare_005,Generic_Magic_Dex,,,,",
+					",,,,,,,,,,Generic_Normal_Str,,,Generic_Normal_Will,Generic_Magic_Dex,Generic_Magic_DamageBleed,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,,,Generic_Magic_Will,,",
+					",,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Socket,Generic_Normal_Dex,Generic_Magic_DamageReductionFromBleedingTarget,Barbarian_Rare_016,Generic_Magic_DamageReductionFromBleedingTarget,",
+					",,,,,,Generic_Magic_ResistancePoison,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Will,Generic_Normal_Int,Generic_Magic_Will,Generic_Magic_DamageReductionFromBleedingTarget,,",
+					",Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Magic_ResistancePoison,Barbarian_Rare_026,Generic_Magic_Armor,,,,,,Generic_Normal_Str,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,,",
+					",Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,Generic_Magic_Armor,Generic_Magic_ResistancePoison,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Magic_DamageBleed,Generic_Magic_DamageToBleed,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",Generic_Normal_Dex,Generic_Normal_Will,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageToBleed,Barbarian_Rare_004,Generic_Magic_DamageBleed,,,Generic_Normal_Str,,,Generic_Normal_Will,Generic_Normal_Str,",
+					"Generic_Gate,Generic_Normal_Int,,,,,,,Generic_Normal_Will,,,Generic_Magic_DamageBleed,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Gate",
+					",Generic_Normal_Will,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Will,Generic_Normal_Str,,,,,",
+					",Generic_Normal_Str,Generic_Normal_Str,,,,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Str,Generic_Normal_Str,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Str,Generic_Normal_Str,,,,,",
+					",Generic_Normal_Int,Generic_Normal_Will,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Will,Generic_Magic_CCDurationReduction,Generic_Magic_DamageReductionFromDot,Generic_Magic_CCDurationReduction,,,,,,",
+					",Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Dex,Barbarian_Legendary_002,Generic_Normal_Will,Generic_Normal_Str,,,,,Generic_Magic_DamageReductionFromDot,Generic_Rare_006,,,,,,,",
+					",,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,Generic_Magic_CCDurationReduction,,,,,,,",
+					",,Generic_Magic_DamageBleed,Generic_Magic_DamagePhysical,Generic_Normal_Dex,,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,",
+					",Generic_Magic_DamagePhysical,Barbarian_Rare_006,Generic_Magic_DamageBleed,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,Generic_Magic_DamageBleed,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Hemorrhage"
 			},
 			"Paragon_Barb_02": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Magic_HPPercent,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_PotionHealing,Generic_Rare_042,Generic_Magic_PotionHealing,,,,,",
+					",,,,,,Barbarian_Magic_BerserkDamage,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Normal_Str,Generic_Magic_PotionHealing,Generic_Magic_HPPercent,,,,,,",
+					",,,,Barbarian_Magic_BerserkDamage,Barbarian_Rare_032,Barbarian_Magic_BerserkDuration,Generic_Normal_Str,Generic_Normal_Str,,,,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,",
+					",,,,Barbarian_Magic_BerserkDamage,Barbarian_Magic_BerserkDuration,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,,,,Generic_Normal_Str,,,,,,,,",
+					",,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,,,Generic_Magic_DamageReductionFromBleedingTarget,,,,,,,,",
+					",,Generic_Normal_Will,,,,Generic_Normal_Will,,Generic_Normal_Dex,Barbarian_Legendary_004,,Generic_Magic_Will,Barbarian_Rare_016,Generic_Magic_Will,,,,,,,",
+					"Generic_Gate,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,Generic_Normal_Str,,,,,,Generic_Magic_DamageReductionFromBleedingTarget,Generic_Magic_DamageReductionFromBleedingTarget,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,,,Generic_Normal_Will,,,Generic_Magic_Dex,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Str,",
+					",,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_DamageToBleed,Generic_Rare_058,Generic_Magic_DamageToBleed,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,Generic_Magic_ResistanceFire,Generic_Magic_ResistanceFire,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,Generic_Magic_Dex,Generic_Magic_DamageToBleed,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,",
+					",,Generic_Magic_Armor,Barbarian_Rare_019,Generic_Magic_Armor,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Will,,Generic_Normal_Str,,,",
+					",,,Generic_Magic_ResistanceFire,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Magic_DamageToBleed,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Will,Generic_Magic_DamageToBleed,Generic_Magic_DamageToElite,,,",
+					",,,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageToBleed,Generic_Magic_DamageToElite,Generic_Rare_057,,,",
+					",,,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Blood Rage"
 			},
 			"Paragon_Barb_03": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_ResistanceCold,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,,,,Generic_Magic_ResistanceCold,Barbarian_Rare_010,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Magic_ResistanceCold,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,,,,",
+					",,,,Barbarian_Rare_003,Generic_Magic_DamageToElite,Barbarian_Magic_BerserkDamage,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,,,,",
+					",,,,Barbarian_Magic_BerserkDamage,Generic_Magic_DamageToElite,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,Barbarian_Magic_BerserkDamage,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,,,,,,",
+					",,Generic_Normal_Str,Generic_Normal_Will,Barbarian_Magic_BerserkDamage,,Generic_Normal_Dex,Generic_Normal_Str,,,Barbarian_Rare_023,Generic_Magic_Will,Generic_Normal_Str,,Generic_Normal_Str,,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Str,,Generic_Magic_Will,Barbarian_Magic_BerserkDamage,Barbarian_Magic_BerserkDamage,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,",
+					"Generic_Gate,Generic_Normal_Int,,,,,Barbarian_Legendary_009,Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Str,,Generic_Magic_Dex,Generic_Magic_DamageReductionFromNear,Generic_Magic_DamageReductionFromNear,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,",
+					",,Generic_Normal_Str,Generic_Normal_Will,Generic_Magic_PotionHealing,,Generic_Normal_Dex,Generic_Normal_Str,,,Generic_Rare_059,Generic_Magic_Dex,Generic_Normal_Str,,Generic_Normal_Str,,,,,,",
+					",,,,Generic_Magic_PotionHealing,Generic_Magic_HPRegen,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Magic_DamageReductionFromNear,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,,,,,,",
+					",,,,Generic_Rare_033,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Barbarian_Magic_BerserkDamage,Barbarian_Magic_BerserkDuration,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,,,,Barbarian_Magic_BerserkDamage,Barbarian_Rare_032,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Int,Barbarian_Magic_BerserkDamage,Barbarian_Magic_BerserkDuration,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Carnage"
 			},
 			"Paragon_Barb_04": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,Generic_Magic_Dex,Generic_Magic_DamageToVulnerable,,Generic_Normal_Str,,Generic_Magic_DamageReductionFromVulnerable,Generic_Magic_Will,,,,,,,",
+					",,,,,Generic_Normal_Str,Generic_Magic_Dex,Generic_Rare_070,Generic_Magic_DamageToVulnerable,Generic_Normal_Str,Generic_Socket,Generic_Normal_Will,Generic_Magic_DamageReductionFromVulnerable,Generic_Rare_069,Generic_Magic_Will,Generic_Normal_Str,,,,,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Magic_DamageToVulnerable,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,Generic_Magic_DamageReductionFromVulnerable,,Generic_Normal_Str,Generic_Normal_Dex,,,,",
+					"Generic_Gate,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Gate",
+					",,Generic_Normal_Str,Generic_Normal_Str,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,,,,Generic_Normal_Will,Generic_Normal_Will,,",
+					",,Generic_Normal_Str,Generic_Normal_Will,Generic_Magic_DamagePhysical,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Magic_DamageToVulnerable,Generic_Normal_Str,Generic_Normal_Dex,,",
+					",,,Generic_Magic_HPPercent,Generic_Magic_DamagePhysical,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Magic_DamageToVulnerable,Generic_Magic_Armor,,,",
+					",,Generic_Magic_HPPercent,Barbarian_Rare_022,Generic_Magic_DamagePhysical,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Magic_DamageToVulnerable,Generic_Rare_025,Generic_Magic_Armor,,",
+					",,,,,,Generic_Magic_DamageToVulnerable,,Generic_Normal_Str,,Barbarian_Legendary_014,,Generic_Normal_Dex,,Generic_Magic_HPPercent,,,,,,",
+					",,,,,Generic_Magic_Damage2HSlashing,Barbarian_Rare_030,Generic_Magic_DamageToVulnerable,Generic_Normal_Dex,,,,Generic_Normal_Str,Generic_Magic_HPPercent,Generic_Rare_042,Generic_Magic_PotionHealing,,,,,",
+					",,,,,,Generic_Magic_Damage2HSlashing,Generic_Magic_Damage2HSlashing,Generic_Normal_Dex,,,,Generic_Normal_Str,Generic_Magic_PotionHealing,Generic_Magic_PotionHealing,,,,,,",
+					",,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Decimator"
 			},
 			"Paragon_Barb_05": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,Barbarian_Legendary_015,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Int,Generic_Magic_DamageReductionWhileFortified,Generic_Magic_BonusFortify,Generic_Normal_Will,Generic_Normal_Str,,,",
+					",,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Normal_Dex,Generic_Magic_BonusFortify,Generic_Rare_032,Generic_Magic_DamageReductionWhileFortified,,,,",
+					",,,,,,,Barbarian_Rare_015,Generic_Magic_HPPercent,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,Generic_Magic_DamageReductionWhileFortified,Generic_Normal_Str,Generic_Normal_Str,,",
+					",,,,,Generic_Normal_Will,Generic_Magic_Armor,Generic_Magic_HPPercent,Generic_Magic_Armor,,Generic_Normal_Str,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,",
+					",,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Magic_HPPercent,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,,Generic_Magic_DamageWhileFortified,Generic_Magic_DamageWhileHealthy,Generic_Normal_Dex,,,,,,,Generic_Normal_Str,",
+					"Generic_Gate,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,,,Generic_Magic_DamageWhileHealthy,Generic_Rare_026,Generic_Magic_DamageWhileFortified,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Magic_DamageWhileFortified,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,",
+					",,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,,Generic_Magic_OverpowerDamage,Generic_Magic_Damage2HBludgeoning,Generic_Normal_Str,,,,,",
+					",,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Str,Generic_Magic_Damage2HBludgeoning,Generic_Magic_Damage2HBludgeoning,Barbarian_Rare_008,,,,,,",
+					",,Generic_Magic_OverpowerDamage,Generic_Magic_OverpowerDamage,Generic_Normal_Int,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Magic_OverpowerDamage,,,,,,,",
+					",Generic_Magic_Will,Generic_Rare_072,,Generic_Normal_Dex,Generic_Socket,,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,Generic_Magic_Will,Generic_Magic_OverpowerDamage,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,,",
+					",,,Generic_Normal_Str,Generic_Magic_DamageReductionWhileHealthy,,Generic_Magic_DamageReductionWhileHealthy,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,,",
+					",,,,Generic_Magic_Dex,Barbarian_Rare_009,Generic_Magic_DamageReductionWhileHealthy,,,Generic_Normal_Str,Generic_Normal_Str,,,,,,,,,,",
+					",,,,,Generic_Magic_Dex,,,,Generic_Normal_Str,Generic_Normal_Will,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Bone Breaker"
 			},
 			"Paragon_Barb_06": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,,,,",
+					",,,,,Generic_Magic_HPPercent,Generic_Magic_ResistanceCold,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_Damage1H,Generic_Magic_AttackSpeed,,,,,",
+					",,,,,Generic_Rare_012,Generic_Magic_ResistanceCold,,,,,,,,Generic_Magic_Damage1H,Barbarian_Rare_025,,,,,",
+					",,,,Generic_Normal_Will,Generic_Magic_HPPercent,Generic_Magic_ResistanceCold,Generic_Normal_Dex,,,,,,Generic_Normal_Int,Generic_Magic_Damage1H,Generic_Magic_AttackSpeed,Generic_Normal_Will,,,,",
+					",,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,,,",
+					",,,Generic_Normal_Str,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,,Generic_Normal_Str,,,",
+					",,,Generic_Magic_DamagePhysical,Generic_Magic_CriticalDamage,Generic_Rare_013,,,,Generic_Normal_Str,Barbarian_Legendary_016,Generic_Normal_Int,,,,Generic_Rare_067,Generic_Magic_Armor,Generic_Magic_PotionHealing,,,",
+					",,Generic_Normal_Str,Generic_Normal_Will,Generic_Magic_CriticalDamage,Generic_Magic_DamagePhysical,Generic_Magic_CriticalDamage,Generic_Normal_Str,Generic_Normal_Dex,,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Magic_Armor,Generic_Magic_PotionHealing,Generic_Magic_Armor,Generic_Normal_Str,Generic_Normal_Dex,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,",
+					"Generic_Gate,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Str,,,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Dex,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Gate",
+					",,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Magic_CriticalDamage1H,Generic_Magic_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Magic_Will,Generic_Magic_DamageReductionFromNear,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,",
+					",,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Magic_CriticalDamage1H,Barbarian_Rare_024,,Generic_Normal_Int,Generic_Socket,Generic_Normal_Dex,,Generic_Rare_059,Generic_Magic_DamageReductionFromNear,Generic_Normal_Str,Generic_Normal_Will,,,,",
+					",,,,,,,Generic_Magic_Dex,Generic_Magic_CriticalDamage1H,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Magic_DamageReductionFromNear,Generic_Magic_Will,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Precision Striker"
 			},
 			"Paragon_Barb_07": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_ResistanceFire,,,,,,,,",
+					",,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,Generic_Magic_ResistanceFire,Generic_Magic_HPPercent,,,,,,,,",
+					",,,,Barbarian_Magic_Fury,Barbarian_Magic_FuryGeneration,Barbarian_Magic_Fury,Barbarian_Magic_FuryGeneration,Generic_Normal_Will,Generic_Normal_Int,,Generic_Magic_ResistanceFire,Generic_Rare_031,,,,,,,,",
+					",,,Generic_Normal_Str,Generic_Normal_Dex,Barbarian_Magic_FuryGeneration,Barbarian_Rare_020,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Magic_HPPercent,,,,,,,,,",
+					",,,Generic_Normal_Will,Generic_Normal_Will,,,,,,Generic_Normal_Dex,,,,Druid_Rare_006,Generic_Magic_BonusFortify,Generic_Magic_DamageWhileFortified,,,,",
+					",,,Generic_Normal_Str,Generic_Normal_Dex,,,,,,Generic_Normal_Will,,,Generic_Magic_BonusFortify,Generic_Magic_DamageWhileFortified,Generic_Magic_DamageWhileFortified,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,",
+					"Generic_Gate,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,",
+					",,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,Barbarian_Legendary_011,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,,,",
+					",,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,,Barbarian_Magic_Fury,Generic_Normal_Str,,,,,",
+					",,Generic_Magic_DamagePhysical,,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Will,,,,,Generic_Rare_038,Generic_Magic_HPPercent,,,,,,",
+					",Generic_Magic_Dex,Generic_Rare_066,Generic_Magic_DamagePhysical,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,,,,Barbarian_Magic_Fury,Barbarian_Magic_Fury,,,,,,",
+					",,Generic_Magic_Dex,Generic_Magic_DamagePhysical,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Magic_HPPercent,,,,,,",
+					",,,,Generic_Magic_ResistanceAll,Generic_Magic_ResistanceAll,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,",
+					",,,,Generic_Magic_Will,Barbarian_Rare_018,Generic_Magic_ResistanceAll,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,,,,,,,,,,",
+					",,,,,Generic_Magic_Will,,,,Generic_Normal_Str,Generic_Normal_Will,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "War Bringer"
 			},
 			"Paragon_Barb_08": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_AttackSpeed,,,,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,Generic_Normal_Will,Generic_Magic_Dex,Barbarian_Rare_002,,,Generic_Normal_Str,Generic_Normal_Int,,,,,,,,,",
+					",,Generic_Normal_Str,,,Generic_Normal_Str,Generic_Magic_AttackSpeed,Generic_Magic_AttackSpeed,Generic_Magic_Dex,,,Generic_Normal_Will,,,,,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,",
+					",Generic_Normal_Int,Generic_Magic_Armor,Generic_Magic_Will,Generic_Magic_Armor,Generic_Normal_Str,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Magic_DamageToElite,,,,,,,,",
+					",Generic_Normal_Will,,Barbarian_Rare_001,Generic_Magic_Armor,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Normal_Str,,Generic_Rare_022,Generic_Magic_MoveSpeedEliteKill,,,,,,,,",
+					",Generic_Normal_Str,,,Generic_Magic_Will,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Str,,Generic_Magic_DamageToElite,Generic_Magic_DamageToElite,Generic_Magic_MoveSpeedEliteKill,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Will,Generic_Normal_Str,",
+					"Generic_Gate,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Str,,,,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Magic_ResistanceAll,,Generic_Normal_Str,Generic_Normal_Str,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Rare_060,Generic_Magic_DamagePhysical,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Str,,,Sorcerer_Rare_034,Generic_Magic_Armor,,Generic_Normal_Will,Generic_Normal_Str,",
+					",,,,,Generic_Normal_Str,Generic_Magic_DamagePhysical,Generic_Magic_AttackSpeed,Generic_Magic_DamagePhysical,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Int,Generic_Magic_Armor,Generic_Magic_ResistanceAll,Generic_Magic_ResistanceAll,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,,,,,,Generic_Magic_AttackSpeed,,,,Generic_Normal_Str,,,Generic_Normal_Str,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Str,,,Generic_Magic_Armor,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,",
+					",,,,,,,,Generic_Normal_Str,Generic_Normal_Str,,Barbarian_Rare_021,Generic_Magic_ResistanceLightning,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Will,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_ResistanceLightning,Generic_Magic_Armor,Generic_Magic_ResistanceLightning,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,",
+					",,,,,,,,Generic_Normal_Dex,,,,Generic_Normal_Str,,,Generic_Normal_Str,Generic_Normal_Dex,Barbarian_Legendary_017,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Weapons Expert"
 			}
 		},
@@ -447,6 +654,104 @@
 			},
 			"Paragon_Barb_Legendary_017": {
 				"desc": "Swapping weapons reduces your active, non-{c_important}Ultimate{/c} skill cooldowns by {c_number}[{SF_0|2|}]{/c} seconds."
+			}
+		},
+		"Paragon (Node)": {
+			"Barbarian_Legendary_002": {
+				"name": "Hemorrhage"
+			},
+			"Barbarian_Legendary_004": {
+				"name": "Blood Rage"
+			},
+			"Barbarian_Legendary_005": {
+				"name": "Natural Leader"
+			},
+			"Barbarian_Legendary_009": {
+				"name": "Carnage"
+			},
+			"Barbarian_Legendary_011": {
+				"name": "War Bringer"
+			},
+			"Barbarian_Legendary_014": {
+				"name": "Decimator"
+			},
+			"Barbarian_Legendary_015": {
+				"name": "Bone Breaker"
+			},
+			"Barbarian_Legendary_016": {
+				"name": "Precision Striker"
+			},
+			"Barbarian_Legendary_017": {
+				"name": "Weapons Expert"
+			},
+			"Barbarian_Rare_001": {
+				"name": "Iron Strength"
+			},
+			"Barbarian_Rare_002": {
+				"name": "Onslaught"
+			},
+			"Barbarian_Rare_003": {
+				"name": "Berserker"
+			},
+			"Barbarian_Rare_004": {
+				"name": "Flayer"
+			},
+			"Barbarian_Rare_005": {
+				"name": "Butcher"
+			},
+			"Barbarian_Rare_006": {
+				"name": "Lacerator"
+			},
+			"Barbarian_Rare_008": {
+				"name": "Bludgeoner"
+			},
+			"Barbarian_Rare_009": {
+				"name": "Vigor"
+			},
+			"Barbarian_Rare_010": {
+				"name": "Cold Conditioned"
+			},
+			"Barbarian_Rare_015": {
+				"name": "Tenacity"
+			},
+			"Barbarian_Rare_016": {
+				"name": "Grit"
+			},
+			"Barbarian_Rare_018": {
+				"name": "Conditioned"
+			},
+			"Barbarian_Rare_019": {
+				"name": "Fire Conditioned"
+			},
+			"Barbarian_Rare_020": {
+				"name": "Hungering Fury"
+			},
+			"Barbarian_Rare_021": {
+				"name": "Lightning Conditioned"
+			},
+			"Barbarian_Rare_022": {
+				"name": "Brawn"
+			},
+			"Barbarian_Rare_023": {
+				"name": "Fierce"
+			},
+			"Barbarian_Rare_024": {
+				"name": "Heavy Blows"
+			},
+			"Barbarian_Rare_025": {
+				"name": "Wild Force"
+			},
+			"Barbarian_Rare_026": {
+				"name": "Poison Conditioned"
+			},
+			"Barbarian_Rare_030": {
+				"name": "Destroyer"
+			},
+			"Barbarian_Rare_032": {
+				"name": "Enraged"
+			},
+			"StartNodeBarb": {
+				"name": "Paragon Starting Location"
 			}
 		},
 		"Unique": {
@@ -839,30 +1144,237 @@
 		},
 		"Paragon (Board)": {
 			"Paragon_Druid_00": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Magic_Damage,,Generic_Magic_ResistanceAll,,,,,,,,,",
+					",,,,,,,,Generic_Magic_Int,Generic_Rare_073,,Generic_Rare_074,Generic_Magic_Dex,,,,,,,,",
+					",,,,,,,Generic_Magic_Damage,Generic_Magic_Int,Generic_Magic_Damage,,Generic_Magic_ResistanceAll,Generic_Magic_Dex,Generic_Magic_ResistanceAll,,,,,,,",
+					",,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Socket,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,",
+					",,,,,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,Generic_Magic_HPPercent,Generic_Magic_Armor,,Generic_Magic_Damage,Generic_Magic_HPPercent,,,,,,,,",
+					",,,,,,,,Barbarian_Rare_015,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Generic_Rare_075,,,,,,,,",
+					",,,,,,,,Generic_Magic_Armor,,,,Generic_Magic_Damage,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,StartNodeDruid,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,"
+				],
 				"name": "Start"
 			},
 			"Paragon_Druid_01": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,,Generic_Magic_DamageToVulnerable,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageToVulnerable,Druid_Rare_003,Generic_Magic_Dex,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,,Generic_Normal_Int,Generic_Magic_Dex,Generic_Magic_DamageToVulnerable,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Magic_Int,,",
+					",,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Socket,Generic_Normal_Dex,Generic_Magic_DamageReductionFromVulnerable,Generic_Rare_076,Generic_Magic_DamageReductionFromVulnerable,",
+					",,,,,,Generic_Magic_ResistanceLightning,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_Int,Generic_Magic_DamageReductionFromVulnerable,,",
+					",Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Magic_ResistanceLightning,Generic_Rare_034,Generic_Magic_HPPercent,,,,,,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,",
+					",Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,Generic_Magic_HPPercent,Generic_Magic_ResistanceLightning,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,,Druid_Magic_DamageStorm,Generic_Magic_DamageToVulnerable,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",Generic_Normal_Dex,Generic_Normal_Int,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_DamageToVulnerable,Druid_Rare_020,Druid_Magic_DamageStorm,,,Generic_Normal_Will,,,Generic_Normal_Int,Generic_Normal_Will,",
+					"Generic_Gate,Generic_Normal_Str,,,,,,,Generic_Normal_Int,,,Druid_Magic_DamageStorm,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Gate",
+					",Generic_Normal_Int,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Will,,,,,",
+					",Generic_Normal_Will,Generic_Normal_Will,,,,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Will,Generic_Normal_Will,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Will,Generic_Normal_Will,,,,,",
+					",Generic_Normal_Str,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,Generic_Magic_PotionHealing,Generic_Magic_HPPercent,Generic_Magic_PotionHealing,,,,,,",
+					",Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Dex,Druid_Legendary_003,Generic_Normal_Int,Generic_Normal_Will,,,,,Generic_Magic_HPPercent,Generic_Rare_042,,,,,,,",
+					",,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,Generic_Magic_PotionHealing,,,,,,,",
+					",,Generic_Magic_CriticalDamage,Generic_Magic_DamageToVulnerable,Generic_Normal_Dex,,,,,,,,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,",
+					",Generic_Magic_DamageToVulnerable,Generic_Rare_044,Generic_Magic_CriticalDamage,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,Generic_Magic_CriticalDamage,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Thunderstruck"
 			},
 			"Paragon_Druid_02": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Magic_CriticalDamageToCC,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Will,Generic_Magic_DamageToCC,Generic_Rare_009,Generic_Magic_DamageToCC,,,,,",
+					",,,,,,Generic_Magic_DamageReductionFromDot,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Normal_Will,Generic_Magic_DamageToCC,Generic_Magic_CriticalDamageToCC,,,,,,",
+					",,,,Generic_Magic_DamageReductionFromDot,Generic_Rare_019,Generic_Magic_ResistanceAll,Generic_Normal_Will,Generic_Normal_Will,,,,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,",
+					",,,,Generic_Magic_DamageReductionFromDot,Generic_Magic_ResistanceAll,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Dex,,,,Generic_Normal_Will,,,,,,,,",
+					",,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Magic_ResistanceAll,,,,,,,,",
+					",,Generic_Normal_Int,,,,Generic_Normal_Int,,Generic_Normal_Dex,Druid_Legendary_006,,Generic_Magic_Dex,Generic_Rare_074,Generic_Magic_Dex,,,,,,,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,,Generic_Normal_Will,,,,,,Generic_Magic_ResistanceAll,Generic_Magic_ResistanceAll,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Gate",
+					",Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Normal_Int,,,Generic_Magic_Int,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Will,",
+					",,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,Druid_Magic_CriticalDamageEarth,Druid_Rare_009,Druid_Magic_CriticalDamageEarth,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,Generic_Magic_Armor,Generic_Magic_Armor,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,Generic_Magic_Int,Druid_Magic_CriticalDamageEarth,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,",
+					",,Generic_Magic_PotionHealing,Generic_Rare_067,Generic_Magic_PotionHealing,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Int,,Generic_Normal_Will,,,",
+					",,,Generic_Magic_Armor,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Druid_Magic_DamageEarth,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Int,Druid_Magic_DamageEarth,Generic_Magic_CriticalDamageToCC,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Int,Druid_Magic_DamageEarth,Generic_Magic_CriticalDamageToCC,Druid_Rare_008,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Earthen Cruelty"
 			},
 			"Paragon_Druid_03": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageToLow,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,,,Generic_Magic_DamageToLow,Generic_Rare_023,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Magic_DamageToLow,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,",
+					",,,,Generic_Rare_011,Generic_Magic_Armor,Generic_Magic_DamageToHigh,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,",
+					",,,,Generic_Magic_DamageToHigh,Generic_Magic_Armor,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,,Druid_Magic_DamageWhileBear,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,,,,,",
+					",,Generic_Normal_Will,Generic_Normal_Int,Generic_Magic_DamageToHigh,,Generic_Normal_Dex,Generic_Normal_Will,,,Druid_Rare_014,Generic_Magic_Int,Generic_Normal_Will,,Generic_Normal_Will,,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,,Generic_Normal_Will,,Generic_Magic_Int,Druid_Magic_DamageWhileBear,Druid_Magic_DamageWhileBear,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,",
+					"Generic_Gate,Generic_Normal_Str,,,,,Druid_Legendary_007,Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Gate",
+					",Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,,,Generic_Normal_Will,,Generic_Magic_Dex,Generic_Magic_ArmorWhileBear,Generic_Magic_ArmorWhileBear,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,",
+					",,Generic_Normal_Will,Generic_Normal_Int,Generic_Magic_DamageReductionWhileFortified,,Generic_Normal_Dex,Generic_Normal_Will,,,Druid_Rare_027,Generic_Magic_Dex,Generic_Normal_Will,,Generic_Normal_Will,,,,,,",
+					",,,,Generic_Magic_DamageReductionWhileFortified,Generic_Magic_BonusFortify,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,,Generic_Magic_ArmorWhileBear,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,,,,,,",
+					",,,,Generic_Rare_032,Generic_Magic_BonusFortify,Generic_Magic_DamageReductionWhileFortified,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Int,,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Druid_Magic_DamageBear,Generic_Magic_OverpowerDamage,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,,,Druid_Magic_DamageBear,Druid_Rare_026,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Str,Druid_Magic_DamageBear,Generic_Magic_OverpowerDamage,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Cornered"
 			},
 			"Paragon_Druid_04": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,Generic_Magic_Dex,Generic_Magic_DamageWhileHealthy,,Generic_Normal_Will,,Generic_Magic_HealingBonus,Generic_Magic_Int,,,,,,,",
+					",,,,,Generic_Normal_Will,Generic_Magic_Dex,Generic_Rare_079,Generic_Magic_DamageWhileHealthy,Generic_Normal_Will,Generic_Socket,Generic_Normal_Int,Generic_Magic_HealingBonus,Generic_Rare_078,Generic_Magic_Int,Generic_Normal_Will,,,,,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Magic_DamageWhileHealthy,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Magic_HealingBonus,,Generic_Normal_Will,Generic_Normal_Dex,,,,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Gate",
+					",,Generic_Normal_Will,Generic_Normal_Will,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,,,,,Generic_Normal_Int,Generic_Normal_Int,,",
+					",,Generic_Normal_Will,Generic_Normal_Int,Generic_Magic_PotionHealing,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Magic_Execute,Generic_Normal_Will,Generic_Normal_Dex,,",
+					",,,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Magic_Execute,Generic_Magic_AttackSpeed,,,",
+					",,Generic_Magic_HPRegen,Generic_Rare_033,Generic_Magic_PotionHealing,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,,Generic_Magic_Execute,Generic_Rare_030,Generic_Magic_AttackSpeed,,",
+					",,,,,,Generic_Magic_CriticalDamage,,Generic_Normal_Will,,Druid_Legendary_010,,Generic_Normal_Dex,,Generic_Magic_DamageReductionFromDot,,,,,,",
+					",,,,,Generic_Magic_DamageToLow,Generic_Rare_015,Generic_Magic_CriticalDamage,Generic_Normal_Dex,,,,Generic_Normal_Will,Generic_Magic_DamageReductionFromDot,Generic_Rare_006,Generic_Magic_CCDurationReduction,,,,,",
+					",,,,,,Generic_Magic_DamageToLow,Generic_Magic_DamageToLow,Generic_Normal_Dex,,,,Generic_Normal_Will,Generic_Magic_CCDurationReduction,Generic_Magic_CCDurationReduction,,,,,,",
+					",,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Lust for Carnage"
 			},
 			"Paragon_Druid_05": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Dex,Druid_Legendary_012,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Dex,,Generic_Normal_Will,Generic_Normal_Str,Generic_Magic_ResistancePoison,Generic_Magic_HPPercent,Generic_Normal_Int,Generic_Normal_Will,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,,Generic_Normal_Dex,Generic_Magic_HPPercent,Generic_Rare_041,Generic_Magic_ResistancePoison,,,,",
+					",,,,,,,Barbarian_Rare_026,Generic_Magic_ResistancePoison,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Magic_ResistancePoison,Generic_Normal_Will,Generic_Normal_Will,,",
+					",,,,,Generic_Normal_Int,Generic_Magic_Armor,Generic_Magic_ResistancePoison,Generic_Magic_Armor,,Generic_Normal_Will,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,",
+					",,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Magic_ResistancePoison,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,Generic_Magic_DamageToPoison,Generic_Magic_DamagePoison,Generic_Normal_Dex,,,,,,,Generic_Normal_Will,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Magic_DamagePoison,Druid_Rare_005,Generic_Magic_DamageToPoison,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Gate",
+					",Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Magic_DamageToPoison,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,",
+					",,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,,,Generic_Magic_DamageToElite,Generic_Magic_DamageToPoison,Generic_Normal_Will,,,,,",
+					",,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,,Generic_Normal_Will,Generic_Magic_DamageToPoison,Generic_Magic_DamageToPoison,Generic_Rare_080,,,,,,",
+					",,Generic_Magic_DamageToPoison,Generic_Magic_DamageToPoison,Generic_Normal_Str,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Magic_DamageToElite,,,,,,,",
+					",Generic_Magic_Dex,Druid_Rare_018,,Generic_Normal_Dex,Generic_Socket,,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,Generic_Magic_Dex,Generic_Magic_DamageToPoison,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,,",
+					",,,Generic_Normal_Will,Generic_Magic_DamageReductionFromPoisonedTarget,,Generic_Magic_DamageReductionFromPoisonedTarget,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,,",
+					",,,,Generic_Magic_Int,Druid_Rare_004,Generic_Magic_DamageReductionFromPoisonedTarget,,,Generic_Normal_Will,Generic_Normal_Will,,,,,,,,,,",
+					",,,,,Generic_Magic_Int,,,,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Heightened Malice"
 			},
 			"Paragon_Druid_06": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,",
+					",,,,,Generic_Magic_PotionHealing,Generic_Magic_Armor,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_CriticalDamage,Generic_Magic_DamagePhysical,,,,,",
+					",,,,,Generic_Rare_067,Generic_Magic_Armor,,,,,,,,Generic_Magic_CriticalDamage,Generic_Rare_013,,,,,",
+					",,,,Generic_Normal_Int,Generic_Magic_PotionHealing,Generic_Magic_Armor,Generic_Normal_Dex,,,,,,Generic_Normal_Str,Generic_Magic_CriticalDamage,Generic_Magic_DamagePhysical,Generic_Normal_Int,,,,",
+					",,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,,,",
+					",,,Generic_Normal_Will,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,Generic_Normal_Will,,,",
+					",,,Generic_Magic_Damage,Generic_Magic_AttackSpeed,Generic_Rare_002,,,,Generic_Normal_Will,Druid_Legendary_013,Generic_Normal_Str,,,,Barbarian_Rare_015,Generic_Magic_HPPercent,Generic_Magic_Armor,,,",
+					",,Generic_Normal_Will,Generic_Normal_Int,Generic_Magic_AttackSpeed,Generic_Magic_Damage,Generic_Magic_AttackSpeed,Generic_Normal_Will,Generic_Normal_Dex,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Magic_HPPercent,Generic_Magic_Armor,Generic_Magic_HPPercent,Generic_Normal_Will,Generic_Normal_Dex,,",
+					",Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Will,,,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Gate",
+					",,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,Druid_Magic_DamageShapeshifting,Generic_Magic_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_Int,Generic_Magic_Armor,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,,",
+					",,,,Generic_Normal_Int,Generic_Normal_Will,Druid_Magic_DamageShapeshifting,Druid_Rare_019,,Generic_Normal_Str,Generic_Socket,Generic_Normal_Dex,,Generic_Rare_061,Generic_Magic_Armor,Generic_Normal_Will,Generic_Normal_Int,,,,",
+					",,,,,,,Generic_Magic_Dex,Druid_Magic_DamageShapeshifting,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Magic_Armor,Generic_Magic_Int,,,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Polymorphic"
 			},
 			"Paragon_Druid_07": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_ResistanceAll,,,,,,,,",
+					",,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,Generic_Magic_ResistanceAll,Generic_Magic_Armor,,,,,,,,",
+					",,,,Generic_Magic_HPPercent,Generic_Magic_DRStandStill,Generic_Magic_HPPercent,Generic_Magic_DRStandStill,Generic_Normal_Int,Generic_Normal_Str,,Generic_Magic_ResistanceAll,Sorcerer_Rare_034,,,,,,,,",
+					",,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Magic_DRStandStill,Generic_Rare_047,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Magic_Armor,,,,,,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Int,,,,,,Generic_Normal_Dex,,,,Generic_Rare_048,Generic_Magic_HPPercent,Generic_Magic_DamageStandStill,,,,",
+					",,,Generic_Normal_Will,Generic_Normal_Dex,,,,,,Generic_Normal_Int,,,Generic_Magic_HPPercent,Generic_Magic_DamageStandStill,Generic_Magic_DamageStandStill,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Gate",
+					",Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,",
+					",,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,Druid_Legendary_017,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,",
+					",,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,,Druid_Magic_DamageNature,Generic_Normal_Will,,,,,",
+					",,Druid_Magic_DamageNature,,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Int,,,,,Druid_Rare_012,Generic_Magic_DamageToElite,,,,,,",
+					",Generic_Magic_Int,Druid_Rare_010,Druid_Magic_DamageNature,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,,,,Druid_Magic_DamageNature,Druid_Magic_DamageNature,,,,,,",
+					",,Generic_Magic_Int,Druid_Magic_DamageNature,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Magic_DamageToElite,,,,,,",
+					",,,,Generic_Magic_HPPercent,Generic_Magic_HPPercent,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,",
+					",,,,Generic_Magic_Dex,Generic_Rare_077,Generic_Magic_HPPercent,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,,,,,,,,,",
+					",,,,,Generic_Magic_Dex,,,,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Roots of Nature"
 			},
 			"Paragon_Druid_08": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,",
+					",,,,Generic_Normal_Str,Generic_Normal_Will,Druid_Magic_SpiritGeneration,,,,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,Generic_Normal_Int,Generic_Magic_Int,Druid_Rare_030,,,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,Generic_Normal_Will,,,Generic_Normal_Will,Druid_Magic_SpiritGeneration,Druid_Magic_SpiritGeneration,Generic_Magic_Int,,,Generic_Normal_Int,,,,,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,",
+					",Generic_Normal_Str,Generic_Magic_ResistanceAll,Generic_Magic_Dex,Generic_Magic_ResistanceAll,Generic_Normal_Will,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,,Druid_Magic_Spirit,,,,,,,,",
+					",Generic_Normal_Int,,Generic_Rare_074,Generic_Magic_ResistanceAll,Generic_Normal_Int,Generic_Normal_Int,,,Generic_Normal_Will,,Druid_Rare_015,Generic_Magic_HPPercent,,,,,,,,",
+					",Generic_Normal_Will,,,Generic_Magic_Dex,Generic_Normal_Will,Generic_Normal_Dex,,,Generic_Normal_Will,,Druid_Magic_Spirit,Druid_Magic_Spirit,Generic_Magic_HPPercent,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Will,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Will,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,,,,Druid_Magic_Spirit,,Generic_Normal_Will,Generic_Normal_Will,Generic_Gate",
+					",Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,Druid_Rare_013,Druid_Magic_DamageCore,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Will,,,Druid_Rare_017,Druid_Magic_Spirit,,Generic_Normal_Int,Generic_Normal_Will,",
+					",,,,,Generic_Normal_Will,Druid_Magic_DamageCore,Druid_Magic_DamageBasic,Druid_Magic_DamageCore,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Str,Druid_Magic_Spirit,Druid_Magic_Spirit,Druid_Magic_Spirit,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,,,,,,Druid_Magic_DamageBasic,,,,Generic_Normal_Will,,,Generic_Normal_Will,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Will,,,Generic_Magic_HPRegen,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Will,,Generic_Rare_033,Generic_Magic_PotionHealing,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Int,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_PotionHealing,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,",
+					",,,,,,,,Generic_Normal_Dex,,,,Generic_Normal_Will,,,Generic_Normal_Will,Generic_Normal_Dex,Druid_Legendary_018,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Spiritual Guidance"
 			}
 		},
@@ -920,6 +1432,92 @@
 			},
 			"Paragon_Druid_Legendary_018": {
 				"desc": "After spending {c_number}{SF_0}{/c} Spirit, you deal {c_number}x[{SF_1}*100|%|]{/c} increased damage for {c_number}{SF_2}{/c} seconds."
+			}
+		},
+		"Paragon (Node)": {
+			"Druid_Legendary_003": {
+				"name": "Thunderstruck"
+			},
+			"Druid_Legendary_006": {
+				"name": "Earthen Cruelty"
+			},
+			"Druid_Legendary_007": {
+				"name": "Cornered"
+			},
+			"Druid_Legendary_010": {
+				"name": "Lust for Carnage"
+			},
+			"Druid_Legendary_012": {
+				"name": "Heightened Malice"
+			},
+			"Druid_Legendary_013": {
+				"name": "Polymorphic"
+			},
+			"Druid_Legendary_017": {
+				"name": "Roots of Nature"
+			},
+			"Druid_Legendary_018": {
+				"name": "Spiritual Guidance"
+			},
+			"Druid_Magic_CriticalDamageEarth": {
+				"name": "Bone Skill Critical Damage"
+			},
+			"Druid_Rare_003": {
+				"name": "Deluge"
+			},
+			"Druid_Rare_004": {
+				"name": "Nature-born"
+			},
+			"Druid_Rare_005": {
+				"name": "Toxic Bane"
+			},
+			"Druid_Rare_006": {
+				"name": "Primal Instinct"
+			},
+			"Druid_Rare_008": {
+				"name": "Crushing Earth"
+			},
+			"Druid_Rare_009": {
+				"name": "Earthen Power"
+			},
+			"Druid_Rare_010": {
+				"name": "Nature's Will"
+			},
+			"Druid_Rare_012": {
+				"name": "Devastation"
+			},
+			"Druid_Rare_013": {
+				"name": "Spiritual Power"
+			},
+			"Druid_Rare_014": {
+				"name": "Grizzly"
+			},
+			"Druid_Rare_015": {
+				"name": "Natural Attunement"
+			},
+			"Druid_Rare_017": {
+				"name": "Reclamation"
+			},
+			"Druid_Rare_018": {
+				"name": "Sinking Fangs"
+			},
+			"Druid_Rare_019": {
+				"name": "Shapeshifter"
+			},
+			"Druid_Rare_020": {
+				"name": "Stormcaller"
+			},
+			"Druid_Rare_026": {
+				"name": "Ursine"
+			},
+			"Druid_Rare_027": {
+				"name": "Battleworn Hide"
+			},
+			"Druid_Rare_030": {
+				"name": "Harmony"
+			},
+			"StartNodeDruid": {
+				"name": "Paragon Starting Location"
 			}
 		},
 		"Spirit Boons": {
@@ -2218,6 +2816,239 @@
 				"name": "Diminish"
 			}
 		},
+		"Paragon (Node)": {
+			"Generic_Gate": {
+				"name": "Board Attachment Gate"
+			},
+			"Generic_Rare_001": {
+				"name": "Resilience"
+			},
+			"Generic_Rare_002": {
+				"name": "Nimble"
+			},
+			"Generic_Rare_004": {
+				"name": "Aegis"
+			},
+			"Generic_Rare_006": {
+				"name": "Fleeting"
+			},
+			"Generic_Rare_007": {
+				"name": "Focused"
+			},
+			"Generic_Rare_009": {
+				"name": "Oppress"
+			},
+			"Generic_Rare_011": {
+				"name": "Spearhead"
+			},
+			"Generic_Rare_012": {
+				"name": "Cold Resilience"
+			},
+			"Generic_Rare_013": {
+				"name": "Havoc"
+			},
+			"Generic_Rare_014": {
+				"name": "Ruin"
+			},
+			"Generic_Rare_015": {
+				"name": "Stifle"
+			},
+			"Generic_Rare_016": {
+				"name": "Devious"
+			},
+			"Generic_Rare_017": {
+				"name": "Feint"
+			},
+			"Generic_Rare_018": {
+				"name": "Safeguard"
+			},
+			"Generic_Rare_019": {
+				"name": "Suffused Resilience"
+			},
+			"Generic_Rare_021": {
+				"name": "Calculated"
+			},
+			"Generic_Rare_022": {
+				"name": "Hunter Killer"
+			},
+			"Generic_Rare_023": {
+				"name": "Deathbringer"
+			},
+			"Generic_Rare_025": {
+				"name": "Pillage"
+			},
+			"Generic_Rare_026": {
+				"name": "Inner Strength"
+			},
+			"Generic_Rare_028": {
+				"name": "Aggression"
+			},
+			"Generic_Rare_029": {
+				"name": "Elementalist"
+			},
+			"Generic_Rare_030": {
+				"name": "Culler"
+			},
+			"Generic_Rare_031": {
+				"name": "Fire Resilience"
+			},
+			"Generic_Rare_032": {
+				"name": "Bulwark"
+			},
+			"Generic_Rare_033": {
+				"name": "Recuperate"
+			},
+			"Generic_Rare_034": {
+				"name": "Lightning Resilience"
+			},
+			"Generic_Rare_035": {
+				"name": "Re-energizer"
+			},
+			"Generic_Rare_036": {
+				"name": "Reservoir"
+			},
+			"Generic_Rare_038": {
+				"name": "Core Reserve"
+			},
+			"Generic_Rare_041": {
+				"name": "Poison Resilience"
+			},
+			"Generic_Rare_042": {
+				"name": "Restorative"
+			},
+			"Generic_Rare_044": {
+				"name": "Tempest"
+			},
+			"Generic_Rare_046": {
+				"name": "Shadow Resilience"
+			},
+			"Generic_Rare_047": {
+				"name": "Steadfast"
+			},
+			"Generic_Rare_048": {
+				"name": "Stability"
+			},
+			"Generic_Rare_049": {
+				"name": "Exploit"
+			},
+			"Generic_Rare_051": {
+				"name": "Skillful"
+			},
+			"Generic_Rare_052": {
+				"name": "Reinvigorate"
+			},
+			"Generic_Rare_054": {
+				"name": "Erudite"
+			},
+			"Generic_Rare_056": {
+				"name": "Shell"
+			},
+			"Generic_Rare_057": {
+				"name": "Craving"
+			},
+			"Generic_Rare_058": {
+				"name": "Revel"
+			},
+			"Generic_Rare_059": {
+				"name": "Brash"
+			},
+			"Generic_Rare_060": {
+				"name": "Brute"
+			},
+			"Generic_Rare_061": {
+				"name": "Determination"
+			},
+			"Generic_Rare_064": {
+				"name": "Lawless"
+			},
+			"Generic_Rare_065": {
+				"name": "Discerning"
+			},
+			"Generic_Rare_066": {
+				"name": "Raw Power"
+			},
+			"Generic_Rare_067": {
+				"name": "Slayer"
+			},
+			"Generic_Rare_068": {
+				"name": "Wiles"
+			},
+			"Generic_Rare_069": {
+				"name": "Arrogance"
+			},
+			"Generic_Rare_070": {
+				"name": "Demolish"
+			},
+			"Generic_Rare_072": {
+				"name": "Brutality"
+			},
+			"Generic_Rare_073": {
+				"name": "Impel"
+			},
+			"Generic_Rare_074": {
+				"name": "Resolve"
+			},
+			"Generic_Rare_075": {
+				"name": "Prime"
+			},
+			"Generic_Rare_076": {
+				"name": "Hubris"
+			},
+			"Generic_Rare_077": {
+				"name": "Courage"
+			},
+			"Generic_Rare_078": {
+				"name": "Regenerative"
+			},
+			"Generic_Rare_079": {
+				"name": "Peak Condition"
+			},
+			"Generic_Rare_080": {
+				"name": "Overturn"
+			},
+			"Generic_Rare_081": {
+				"name": "Dosage"
+			},
+			"Generic_Rare_082": {
+				"name": "Training"
+			},
+			"Generic_Rare_083": {
+				"name": "Tolerance"
+			},
+			"Generic_Rare_084": {
+				"name": "Knowledge"
+			},
+			"Generic_Rare_085": {
+				"name": "Preservation"
+			},
+			"Generic_Rare_086": {
+				"name": "Targeted"
+			},
+			"Generic_Rare_087": {
+				"name": "Corrective"
+			},
+			"Generic_Rare_088": {
+				"name": "Deathmarked"
+			},
+			"Generic_Rare_089": {
+				"name": "Remedy"
+			},
+			"Generic_Rare_090": {
+				"name": "Gloom"
+			},
+			"Generic_Rare_091": {
+				"name": "Dragging Shadows"
+			},
+			"Generic_Rare_092": {
+				"name": "Gnawing Darkness"
+			},
+			"Generic_Rare_093": {
+				"name": "Malediction"
+			},
+			"Generic_Socket": {
+				"name": "Glyph Socket"
+			}
+		},
 		"Rarespawn Reward": {
 			"Rarespawn_Reward_1HDagger_Scorpion": {
 				"flavor": "\"The ancient scorpion Nine-Eyes is known as \"The Terror of the Sands\", and for good reason. Her massive tail can pierce the strongest armor, and her poison can melt flesh in seconds.\"\n- Field Notes of an Unknown Iron Wolf",
@@ -2834,30 +3665,237 @@
 		},
 		"Paragon (Board)": {
 			"Paragon_Necro_00": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Magic_Damage,,Generic_Magic_Armor,,,,,,,,,",
+					",,,,,,,,Generic_Magic_Will,Generic_Rare_084,,Generic_Rare_085,Generic_Magic_Dex,,,,,,,,",
+					",,,,,,,Generic_Magic_Damage,Generic_Magic_Will,Generic_Magic_Damage,,Generic_Magic_Armor,Generic_Magic_Dex,Generic_Magic_Armor,,,,,,,",
+					",,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Socket,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,Generic_Magic_HPPercent,Generic_Magic_ResistanceAll,,Generic_Magic_Damage,Generic_Magic_HPPercent,,,,,,,,",
+					",,,,,,,,Generic_Rare_001,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Generic_Rare_075,,,,,,,,",
+					",,,,,,,,Generic_Magic_ResistanceAll,,,,Generic_Magic_Damage,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,StartNodeNecro,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,"
+				],
 				"name": "Start"
 			},
 			"Paragon_Necro_01": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Magic_MinionDamage,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_MinionDamage,Necromancer_Rare_021,Generic_Magic_Will,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Magic_Will,Generic_Magic_MinionDamage,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,,,Generic_Magic_Dex,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Socket,Generic_Normal_Dex,Generic_Magic_MinionDamageReduction,Necromancer_Rare_020,Generic_Magic_MinionDamageReduction,",
+					",,,,,,Necromancer_Magic_SkeletonMageDamage,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Str,Generic_Magic_Dex,Generic_Magic_MinionDamageReduction,,",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Necromancer_Magic_SkeletonMageDamage,Necromancer_Rare_027,Necromancer_Magic_SkeletonMageResistAll,,,,,,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,,",
+					",Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Necromancer_Magic_SkeletonMageResistAll,Necromancer_Magic_SkeletonMageDamage,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Magic_MinionDamage,Generic_Magic_MinionAttackSpeed,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",Generic_Normal_Dex,Generic_Normal_Will,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_MinionAttackSpeed,Necromancer_Rare_026,Generic_Magic_MinionDamage,,,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,,,,,,,Generic_Normal_Will,,,Generic_Magic_MinionDamage,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Int,,,,,",
+					",Generic_Normal_Int,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Int,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Int,,,,,",
+					",Generic_Normal_Str,Generic_Normal_Will,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Will,Necromancer_Magic_SkeletonWarriorDamage,Necromancer_Magic_SkeletonWarriorArmor,Necromancer_Magic_SkeletonWarriorDamage,,,,,,",
+					",Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Necromancer_Legendary_001,Generic_Normal_Will,Generic_Normal_Int,,,,,Necromancer_Magic_SkeletonWarriorArmor,Necromancer_Rare_028,,,,,,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,Necromancer_Magic_SkeletonWarriorDamage,,,,,,,",
+					",,Generic_Magic_MinionArmor,Generic_Magic_MinionHP,Generic_Normal_Dex,,,,,,,,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,",
+					",Generic_Magic_MinionHP,Necromancer_Rare_018,Generic_Magic_MinionArmor,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,Generic_Magic_MinionArmor,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Cult Leader"
 			},
 			"Paragon_Necro_02": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,Necromancer_Magic_GolemHP,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Necromancer_Magic_GolemDamage,Necromancer_Rare_029,Necromancer_Magic_GolemDamage,,,,,",
+					",,,,,,Necromancer_Magic_GolemArmor,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Normal_Int,Necromancer_Magic_GolemDamage,Necromancer_Magic_GolemHP,,,,,,",
+					",,,,Necromancer_Magic_GolemArmor,Necromancer_Rare_031,Necromancer_Magic_GolemResistAll,Generic_Normal_Int,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,",
+					",,,,Necromancer_Magic_GolemArmor,Necromancer_Magic_GolemResistAll,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,,,,Generic_Normal_Int,,,,,,,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,,,Necromancer_Magic_GolemArmor,,,,,,,,",
+					",,Generic_Normal_Will,,,,Generic_Normal_Will,,Generic_Normal_Dex,Necromancer_Legendary_005,,Generic_Magic_Will,Necromancer_Rare_025,Generic_Magic_Will,,,,,,,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Normal_Int,,,,,,Necromancer_Magic_GolemArmor,Necromancer_Magic_GolemArmor,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,,Generic_Normal_Will,,,Generic_Magic_Dex,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Necromancer_Magic_GolemDamage,Necromancer_Rare_022,Necromancer_Magic_GolemDamage,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,Necromancer_Magic_DamageWithActiveGolem,Necromancer_Magic_DamageWithActiveGolem,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Magic_Dex,Necromancer_Magic_GolemDamage,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,",
+					",,Necromancer_Magic_ArmorWithActiveGolem,Necromancer_Rare_017,Necromancer_Magic_ArmorWithActiveGolem,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Will,,Generic_Normal_Int,,,",
+					",,,Necromancer_Magic_DamageWithActiveGolem,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Necromancer_Magic_GolemDamage,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Will,Necromancer_Magic_GolemDamage,Necromancer_Magic_GolemAttackSpeed,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Necromancer_Magic_GolemDamage,Necromancer_Magic_GolemAttackSpeed,Necromancer_Rare_024,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Towering Monstrosity"
 			},
 			"Paragon_Necro_03": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_ResistancePoison,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,,,Generic_Magic_ResistancePoison,Barbarian_Rare_026,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_ResistancePoison,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,",
+					",,,,Generic_Rare_015,Generic_Magic_CriticalDamage,Generic_Magic_DamageToLow,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,Generic_Magic_DamageToLow,Generic_Magic_CriticalDamage,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Magic_DamageToElite,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,,,,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_DamageToLow,,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Rare_086,Generic_Magic_Dex,Generic_Normal_Int,,Generic_Normal_Int,,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,,Generic_Magic_Dex,Generic_Magic_DamageToElite,Generic_Magic_DamageToElite,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,,,,,Necromancer_Legendary_008,Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,,Generic_Magic_Will,Generic_Magic_ResistanceAll,Generic_Magic_ResistanceAll,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_PotionHealing,,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Rare_054,Generic_Magic_Will,Generic_Normal_Int,,Generic_Normal_Int,,,,,,",
+					",,,,Generic_Magic_PotionHealing,Generic_Magic_HPRegen,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Magic_ResistanceAll,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,,,,,,",
+					",,,,Generic_Rare_033,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_Execute,Generic_Magic_AttackSpeed,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,,,Generic_Magic_Execute,Generic_Rare_030,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_Execute,Generic_Magic_AttackSpeed,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Cannibalize"
 			},
 			"Paragon_Necro_04": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,Generic_Magic_Will,Generic_Magic_DamageToLow,,Generic_Normal_Int,,Generic_Magic_Armor,Generic_Magic_Dex,,,,,,,",
+					",,,,,Generic_Normal_Int,Generic_Magic_Will,Generic_Rare_088,Generic_Magic_DamageToLow,Generic_Normal_Int,Generic_Socket,Generic_Normal_Will,Generic_Magic_Armor,Generic_Rare_085,Generic_Magic_Dex,Generic_Normal_Int,,,,,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Magic_DamageToLow,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,Generic_Magic_Armor,,Generic_Normal_Int,Generic_Normal_Dex,,,,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",,Generic_Normal_Int,Generic_Normal_Int,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,,,,Generic_Normal_Will,Generic_Normal_Will,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_DamageToLow,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_DamageToLow,Generic_Normal_Int,Generic_Normal_Dex,,",
+					",,,Generic_Magic_Armor,Generic_Magic_DamageToLow,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_DamageToLow,Generic_Magic_PotionHealing,,,",
+					",,Generic_Magic_Armor,Generic_Rare_023,Generic_Magic_DamageToLow,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,,Generic_Magic_DamageToLow,Generic_Rare_087,Generic_Magic_PotionHealing,,",
+					",,,,,,Generic_Magic_CriticalDamage,,Generic_Normal_Int,,Necromancer_Legendary_007,,Generic_Normal_Dex,,Generic_Magic_HPPercent,,,,,,",
+					",,,,,Generic_Magic_DamageToHigh,Generic_Rare_014,Generic_Magic_CriticalDamage,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Magic_HPPercent,Generic_Rare_046,Generic_Magic_ResistanceShadow,,,,,",
+					",,,,,,Generic_Magic_DamageToHigh,Generic_Magic_DamageToHigh,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Magic_ResistanceShadow,Generic_Magic_ResistanceShadow,,,,,,",
+					",,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Flesh Field"
 			},
 			"Paragon_Necro_05": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,Necromancer_Legendary_017,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_Armor,Generic_Magic_PotionHealing,Generic_Normal_Will,Generic_Normal_Int,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Normal_Dex,Generic_Magic_PotionHealing,Generic_Rare_067,Generic_Magic_Armor,,,,",
+					",,,,,,,Barbarian_Rare_015,Generic_Magic_HPPercent,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,Generic_Magic_Armor,Generic_Normal_Int,Generic_Normal_Int,,",
+					",,,,,Generic_Normal_Will,Generic_Magic_Armor,Generic_Magic_HPPercent,Generic_Magic_Armor,,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,",
+					",,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Magic_HPPercent,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,Necromancer_Magic_CriticalDamageBone,Necromancer_Magic_DamageBone,Generic_Normal_Dex,,,,,,,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,,,Necromancer_Magic_DamageBone,Necromancer_Rare_005,Necromancer_Magic_CriticalDamageBone,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Normal_Int,Necromancer_Magic_CriticalDamageBone,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,",
+					",,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,,,Generic_Magic_Essence,Generic_Magic_EssenceRegen,Generic_Normal_Int,,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,Generic_Magic_EssenceRegen,Generic_Magic_EssenceRegen,Generic_Rare_052,,,,,,",
+					",,Necromancer_Magic_DamageBone,Necromancer_Magic_DamageBone,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Magic_Essence,,,,,,,",
+					",Generic_Magic_Dex,Necromancer_Rare_001,,Generic_Normal_Dex,Generic_Socket,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,Generic_Magic_Dex,Necromancer_Magic_DamageBone,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,,",
+					",,,Generic_Normal_Int,Generic_Magic_ResistanceAll,,Generic_Magic_ResistanceAll,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,,",
+					",,,,Generic_Magic_Will,Generic_Rare_054,Generic_Magic_ResistanceAll,,,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,,,",
+					",,,,,Generic_Magic_Will,,,,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Bone Graft"
 			},
 			"Paragon_Necro_06": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,",
+					",,,,,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_DamageWhileHealthy,Generic_Magic_Damage,,,,,",
+					",,,,,Generic_Rare_033,Generic_Magic_PotionHealing,,,,,,,,Generic_Magic_DamageWhileHealthy,Generic_Rare_028,,,,,",
+					",,,,Generic_Normal_Will,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Normal_Dex,,,,,,Generic_Normal_Str,Generic_Magic_DamageWhileHealthy,Generic_Magic_Damage,Generic_Normal_Will,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,,",
+					",,,Generic_Normal_Int,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,Generic_Normal_Int,,,",
+					",,,Generic_Magic_HPPercent,Necromancer_Magic_BloodOrbHealing,Necromancer_Rare_013,,,,Generic_Normal_Int,Necromancer_Legendary_011,Generic_Normal_Str,,,,Necromancer_Rare_009,Necromancer_Magic_BloodOrbDamage,Generic_Magic_DamageWhileHealthy,,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Necromancer_Magic_BloodOrbHealing,Generic_Magic_HPPercent,Necromancer_Magic_BloodOrbHealing,Generic_Normal_Int,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Normal_Str,Necromancer_Magic_BloodOrbDamage,Generic_Magic_DamageWhileHealthy,Necromancer_Magic_BloodOrbDamage,Generic_Normal_Int,Generic_Normal_Dex,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Dex,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Necromancer_Magic_BloodOrbDamage,Generic_Magic_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Magic_Will,Necromancer_Magic_BloodOrbHealing,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,",
+					",,,,Generic_Normal_Will,Generic_Normal_Int,Necromancer_Magic_BloodOrbDamage,Necromancer_Rare_034,,Generic_Normal_Str,Generic_Socket,Generic_Normal_Dex,,Necromancer_Rare_003,Necromancer_Magic_BloodOrbHealing,Generic_Normal_Int,Generic_Normal_Will,,,,",
+					",,,,,,,Generic_Magic_Dex,Necromancer_Magic_BloodOrbDamage,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Necromancer_Magic_BloodOrbHealing,Generic_Magic_Will,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Empowering Blood"
 			},
 			"Paragon_Necro_07": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageWhileFortified,,,,,,,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Magic_DamageWhileFortified,Generic_Magic_BonusFortify,,,,,,,,",
+					",,,,Generic_Magic_DamagePhysical,Necromancer_Magic_DamageBlood,Generic_Magic_DamagePhysical,Necromancer_Magic_DamageBlood,Generic_Normal_Will,Generic_Normal_Str,,Generic_Magic_DamageWhileFortified,Druid_Rare_006,,,,,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Necromancer_Magic_DamageBlood,Necromancer_Rare_004,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_BonusFortify,,,,,,,,,",
+					",,,Generic_Normal_Will,Generic_Normal_Will,,,,,,Generic_Normal_Dex,,,,Generic_Rare_019,Generic_Magic_ResistanceAll,Generic_Magic_DamageReductionFromDot,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,,,,,,Generic_Normal_Will,,,Generic_Magic_ResistanceAll,Generic_Magic_DamageReductionFromDot,Generic_Magic_DamageReductionFromDot,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,Necromancer_Legendary_010,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,,Necromancer_Magic_DamageBlood,Generic_Normal_Int,,,,,",
+					",,Necromancer_Magic_DamageBlood,,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,,,,,Necromancer_Rare_002,Necromancer_Magic_BloodOrbHealing,,,,,,",
+					",Generic_Magic_Dex,Necromancer_Rare_006,Necromancer_Magic_DamageBlood,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,,,,Necromancer_Magic_DamageBlood,Necromancer_Magic_DamageBlood,,,,,,",
+					",,Generic_Magic_Dex,Necromancer_Magic_DamageBlood,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Necromancer_Magic_BloodOrbHealing,,,,,,",
+					",,,,Generic_Magic_HealingBonus,Generic_Magic_HealingBonus,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,",
+					",,,,Generic_Magic_Will,Generic_Rare_089,Generic_Magic_HealingBonus,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,,,",
+					",,,,,Generic_Magic_Will,,,,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Bloodletter"
 			},
 			"Paragon_Necro_08": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Magic_DamageToShadowDoTed,,,,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,Generic_Normal_Will,Generic_Magic_Will,Generic_Rare_093,,,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,,",
+					",,Generic_Normal_Int,,,Generic_Normal_Int,Generic_Magic_DamageToShadowDoTed,Generic_Magic_DamageToShadowDoTed,Generic_Magic_Will,,,Generic_Normal_Will,,,,,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,",
+					",Generic_Normal_Str,Generic_Magic_ResistanceShadow,Generic_Magic_Dex,Generic_Magic_ResistanceShadow,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,Generic_Magic_DamageShadowDoT,,,,,,,,",
+					",Generic_Normal_Will,,Generic_Rare_090,Generic_Magic_ResistanceShadow,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Normal_Int,,Necromancer_Rare_035,Generic_Magic_DamageShadow,,,,,,,,",
+					",Generic_Normal_Int,,,Generic_Magic_Dex,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,,Generic_Magic_DamageShadowDoT,Generic_Magic_DamageShadowDoT,Generic_Magic_DamageShadow,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Int,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Magic_DamageReductionFromShadowDoTed,,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Rare_092,Generic_Magic_DamageToShadowDoTed,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,,,Generic_Rare_091,Generic_Magic_ResistanceShadow,,Generic_Normal_Will,Generic_Normal_Int,",
+					",,,,,Generic_Normal_Int,Generic_Magic_DamageToShadowDoTed,Generic_Magic_DamageToElite,Generic_Magic_DamageToShadowDoTed,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_ResistanceShadow,Generic_Magic_DamageReductionFromShadowDoTed,Generic_Magic_DamageReductionFromShadowDoTed,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,,,,,,Generic_Magic_DamageToElite,,,,Generic_Normal_Int,,,Generic_Normal_Int,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Magic_HPPercent,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Rare_042,Generic_Magic_PotionHealing,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_PotionHealing,Generic_Magic_HPPercent,Generic_Magic_PotionHealing,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,",
+					",,,,,,,,Generic_Normal_Dex,,,,Generic_Normal_Int,,,Generic_Normal_Int,Generic_Normal_Dex,Necromancer_Legendary_016,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Wither"
 			}
 		},
@@ -2912,6 +3950,104 @@
 			},
 			"Paragon_Necro_Legendary_017": {
 				"desc": "Hitting enemies with {c_important}Bone{/c} skills increases your damage by {c_number}x[{SF_0}*100|%|]{/c} and your maximum Essence by {c_number}{SF_1}{/c} for {c_number}{SF_3}{/c} seconds, stacks up to {c_number}x[{SF_0}*{SF_2}*100|%|]{/c} increased damage and {c_number}[{SF_1}*{SF_2}]{/c} maximum Essence."
+			}
+		},
+		"Paragon (Node)": {
+			"Necromancer_Legendary_001": {
+				"name": "Cult Leader"
+			},
+			"Necromancer_Legendary_005": {
+				"name": "Towering Monstrosity"
+			},
+			"Necromancer_Legendary_007": {
+				"name": "Flesh Field"
+			},
+			"Necromancer_Legendary_008": {
+				"name": "Cannibalize"
+			},
+			"Necromancer_Legendary_010": {
+				"name": "Bloodletter"
+			},
+			"Necromancer_Legendary_011": {
+				"name": "Empowering Blood"
+			},
+			"Necromancer_Legendary_016": {
+				"name": "Wither"
+			},
+			"Necromancer_Legendary_017": {
+				"name": "Bone Graft"
+			},
+			"Necromancer_Rare_001": {
+				"name": "Shaper of Bone"
+			},
+			"Necromancer_Rare_002": {
+				"name": "Blood Zealot"
+			},
+			"Necromancer_Rare_003": {
+				"name": "Blooddrinker"
+			},
+			"Necromancer_Rare_004": {
+				"name": "Crimson Power"
+			},
+			"Necromancer_Rare_005": {
+				"name": "Calcified"
+			},
+			"Necromancer_Rare_006": {
+				"name": "Bloodcast"
+			},
+			"Necromancer_Rare_009": {
+				"name": "Invigorated"
+			},
+			"Necromancer_Rare_011": {
+				"name": "Unassailable"
+			},
+			"Necromancer_Rare_013": {
+				"name": "Vampiric"
+			},
+			"Necromancer_Rare_017": {
+				"name": "Borrowed Strength"
+			},
+			"Necromancer_Rare_018": {
+				"name": "Armor-clad"
+			},
+			"Necromancer_Rare_020": {
+				"name": "Custody"
+			},
+			"Necromancer_Rare_021": {
+				"name": "Overlord"
+			},
+			"Necromancer_Rare_022": {
+				"name": "Mutation"
+			},
+			"Necromancer_Rare_024": {
+				"name": "Frenzied Golem"
+			},
+			"Necromancer_Rare_025": {
+				"name": "Miscreation"
+			},
+			"Necromancer_Rare_026": {
+				"name": "Puppeteer"
+			},
+			"Necromancer_Rare_027": {
+				"name": "Infused Caster"
+			},
+			"Necromancer_Rare_028": {
+				"name": "Infused Warrior"
+			},
+			"Necromancer_Rare_029": {
+				"name": "Infused Golem"
+			},
+			"Necromancer_Rare_031": {
+				"name": "Flesh-horror"
+			},
+			"Necromancer_Rare_034": {
+				"name": "Blood-infused"
+			},
+			"Necromancer_Rare_035": {
+				"name": "Lingering Shadows"
+			},
+			"StartNodeNecro": {
+				"name": "Paragon Starting Location"
 			}
 		},
 		"Unique": {
@@ -3248,30 +4384,237 @@
 		},
 		"Paragon (Board)": {
 			"Paragon_Rogue_00": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Magic_Damage,,Generic_Magic_Armor,,,,,,,,,",
+					",,,,,,,,Generic_Magic_Int,Generic_Rare_051,,Generic_Rare_064,Generic_Magic_Str,,,,,,,,",
+					",,,,,,,Generic_Magic_Damage,Generic_Magic_Int,Generic_Magic_Damage,,Generic_Magic_Armor,Generic_Magic_Str,Generic_Magic_Armor,,,,,,,",
+					",,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Socket,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,,,,,",
+					",,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,Generic_Magic_HPPercent,Generic_Magic_ResistanceAll,,Generic_Magic_Damage,Generic_Magic_HPPercent,,,,,,,,",
+					",,,,,,,,Generic_Rare_001,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Generic_Rare_075,,,,,,,,",
+					",,,,,,,,Generic_Magic_ResistanceAll,,,,Generic_Magic_Damage,,,,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Dex,StartNodeRogue,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,"
+				],
 				"name": "Start"
 			},
 			"Paragon_Rogue_01": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,Rogue_Magic_DamageImbued,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Rogue_Magic_DamageImbued,Rogue_Rare_012,Generic_Magic_Str,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,,Generic_Normal_Str,Generic_Magic_Str,Rogue_Magic_DamageImbued,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,,,Generic_Magic_Int,,",
+					",,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Int,Generic_Magic_PotionHealing,Generic_Rare_081,Generic_Magic_PotionHealing,",
+					",,,,,,Generic_Magic_DamageReductionFromDot,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Will,Generic_Magic_Int,Generic_Magic_PotionHealing,,",
+					",Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Magic_DamageReductionFromDot,Generic_Rare_019,Generic_Magic_ResistanceAll,,,,,,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,,",
+					",Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Magic_ResistanceAll,Generic_Magic_DamageReductionFromDot,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,,Generic_Magic_DamageElemental,Rogue_Magic_ImbueCDR,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Int,",
+					",Generic_Normal_Int,Generic_Normal_Str,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Rogue_Magic_ImbueCDR,Rogue_Rare_010,Generic_Magic_DamageElemental,,,Generic_Normal_Dex,,,Generic_Normal_Str,Generic_Normal_Dex,",
+					"Generic_Gate,Generic_Normal_Will,,,,,,,Generic_Normal_Str,,,Generic_Magic_DamageElemental,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Gate",
+					",Generic_Normal_Str,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Normal_Will,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Dex,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Normal_Dex,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,Generic_Normal_Dex,Generic_Normal_Dex,,,,,",
+					",Generic_Normal_Int,Generic_Normal_Str,,,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Normal_Dex,Generic_Normal_Dex,,,,,",
+					",Generic_Normal_Will,Generic_Normal_Str,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Magic_PotionHealing,Generic_Magic_HPPercent,Generic_Magic_PotionHealing,,,,,,",
+					",Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Int,Rogue_Legendary_002,Generic_Normal_Str,Generic_Normal_Dex,,,,,Generic_Magic_HPPercent,Generic_Rare_042,,,,,,,",
+					",,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,Generic_Magic_PotionHealing,,,,,,,",
+					",,Rogue_Magic_DamageImbued,Generic_Magic_DamageElemental,Generic_Normal_Int,,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",Generic_Magic_DamageElemental,Rogue_Rare_009,Rogue_Magic_DamageImbued,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,,,,,,",
+					",,Rogue_Magic_DamageImbued,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Overflowing"
 			},
 			"Paragon_Rogue_02": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,Generic_Magic_DamageReductionFromNear,,,,,,",
+					",,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Magic_DamageToNear,Rogue_Rare_016,Generic_Magic_DamageToNear,,,,,",
+					",,,,,,Generic_Magic_ResistanceShadow,Generic_Normal_Int,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Magic_DamageToNear,Generic_Magic_DamageReductionFromNear,,,,,,",
+					",,,,Generic_Magic_ResistanceShadow,Generic_Rare_046,Generic_Magic_HPPercent,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Normal_Int,,,,,,,",
+					",,,,Generic_Magic_ResistanceShadow,Generic_Magic_HPPercent,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,",
+					",,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Int,,,,Generic_Normal_Dex,,,,,,,,",
+					",,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Magic_Armor,,,,,,,,",
+					",,Generic_Normal_Str,,,,Generic_Normal_Str,,Generic_Normal_Int,Rogue_Legendary_006,,Generic_Magic_Str,Generic_Rare_064,Generic_Magic_Str,,,,,,,",
+					"Generic_Gate,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Dex,,,,,,Generic_Magic_Armor,Generic_Magic_Armor,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Gate",
+					",Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,,,Generic_Normal_Str,,,Generic_Magic_Int,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,",
+					",,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Magic_DamageToElite,Generic_Rare_007,Generic_Magic_DamageToElite,Generic_Normal_Int,Generic_Socket,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Int,",
+					",,,Generic_Magic_DamageToFar,Generic_Magic_DamageToFar,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Magic_Int,Generic_Magic_DamageToElite,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,",
+					",,Generic_Magic_DamageReductionFromFar,Rogue_Rare_018,Generic_Magic_DamageReductionFromFar,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Str,,Generic_Normal_Dex,,,",
+					",,,Generic_Magic_DamageToFar,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_CriticalDamage,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Magic_CriticalDamage,Generic_Magic_DamagePhysical,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_CriticalDamage,Generic_Magic_DamagePhysical,Generic_Rare_013,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Tricks of Trade"
 			},
 			"Paragon_Rogue_03": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Magic_DamageToCC,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,,,Generic_Magic_DamageToCC,Generic_Rare_021,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageToCC,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,,,",
+					",,,,Generic_Rare_009,Generic_Magic_CriticalDamageToCC,Generic_Magic_DamageToCC,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,,,,,",
+					",,,,Generic_Magic_DamageToCC,Generic_Magic_CriticalDamageToCC,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Magic_DamageToCC,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,,,,,,",
+					",,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_DamageToCC,,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Rare_016,Generic_Magic_Int,Generic_Normal_Dex,,Generic_Normal_Dex,,,,,,",
+					",Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Dex,,Generic_Magic_Int,Generic_Magic_DamageToCC,Generic_Magic_DamageToCC,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,",
+					"Generic_Gate,Generic_Normal_Will,,,,,Rogue_Legendary_007,Generic_Normal_Int,,,,Generic_Normal_Int,Generic_Socket,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Gate",
+					",Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Dex,,Generic_Magic_Str,Generic_Magic_DamageReductionFromSlowedTarget,Generic_Magic_DamageReductionFromSlowedTarget,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,",
+					",,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_DamageReductionFromElite,,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Rare_068,Generic_Magic_Str,Generic_Normal_Dex,,Generic_Normal_Dex,,,,,,",
+					",,,,Generic_Magic_DamageReductionFromElite,Generic_Magic_Armor,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Magic_DamageReductionFromSlowedTarget,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,,,,,,",
+					",,,,Generic_Rare_018,Generic_Magic_Armor,Generic_Magic_DamageReductionFromElite,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Magic_DamageToHigh,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,,,Generic_Magic_DamageToHigh,Generic_Rare_011,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_DamageToHigh,Generic_Magic_Armor,,,,,",
+					",,,,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Control Master"
 			},
 			"Paragon_Rogue_04": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Dex,,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,",
+					",,,,,,,Generic_Magic_Int,Rogue_Magic_DamageToTrapped,,Generic_Normal_Dex,,Rogue_Magic_DamageReductionFromTrapped,Generic_Magic_Str,,,,,,,",
+					",,,,,Generic_Normal_Dex,Generic_Magic_Int,Rogue_Rare_027,Rogue_Magic_DamageToTrapped,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Str,Rogue_Magic_DamageReductionFromTrapped,Rogue_Rare_028,Generic_Magic_Str,Generic_Normal_Dex,,,,,",
+					",,,,Generic_Normal_Int,Generic_Normal_Int,,Rogue_Magic_DamageToTrapped,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,Rogue_Magic_DamageReductionFromTrapped,,Generic_Normal_Dex,Generic_Normal_Int,,,,",
+					"Generic_Gate,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Gate",
+					",,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,,,,Generic_Normal_Str,Generic_Normal_Str,,",
+					",,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_ResistancePoison,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Rogue_Magic_DamageTrap,Generic_Normal_Dex,Generic_Normal_Int,,",
+					",,,Generic_Magic_HPPercent,Generic_Magic_ResistancePoison,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Rogue_Magic_DamageTrap,Rogue_Magic_TrapCooldown,,,",
+					",,Generic_Magic_HPPercent,Generic_Rare_041,Generic_Magic_ResistancePoison,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,,Rogue_Magic_DamageTrap,Rogue_Rare_008,Rogue_Magic_TrapCooldown,,",
+					",,,,,,Rogue_Magic_DamageToTrapped,,Generic_Normal_Dex,,Rogue_Legendary_008,,Generic_Normal_Int,,Generic_Magic_PotionHealing,,,,,,",
+					",,,,,Rogue_Magic_DamageTrap,Rogue_Rare_029,Rogue_Magic_DamageToTrapped,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Magic_PotionHealing,Generic_Rare_067,Generic_Magic_Armor,,,,,",
+					",,,,,,Rogue_Magic_DamageTrap,Rogue_Magic_DamageTrap,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Magic_Armor,Generic_Magic_Armor,,,,,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,,,,,,",
+					",,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Deadly Ambush"
 			},
 			"Paragon_Rogue_05": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,,,,,",
+					",,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Int,Rogue_Legendary_009,,,",
+					",,,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageReductionFromDot,Generic_Magic_ResistanceAll,Generic_Normal_Str,Generic_Normal_Dex,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,,,Generic_Normal_Int,Generic_Magic_ResistanceAll,Generic_Rare_019,Generic_Magic_DamageReductionFromDot,,,,",
+					",,,,,,,Generic_Rare_041,Generic_Magic_ResistancePoison,Generic_Normal_Will,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Magic_DamageReductionFromDot,Generic_Normal_Dex,Generic_Normal_Dex,,",
+					",,,,,Generic_Normal_Str,Generic_Magic_HPPercent,Generic_Magic_ResistancePoison,Generic_Magic_HPPercent,,Generic_Normal_Dex,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,",
+					",,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_ResistancePoison,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,",
+					",,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Magic_AttackSpeed,Generic_Magic_Damage,Generic_Normal_Int,,,,,,,Generic_Normal_Dex,",
+					"Generic_Gate,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,,,Generic_Magic_Damage,Generic_Rare_002,Generic_Magic_AttackSpeed,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Gate",
+					",Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Magic_AttackSpeed,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,",
+					",,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,Generic_Magic_DamageToElite,Generic_Magic_DamageAfterDodge,Generic_Normal_Dex,,,,,",
+					",,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Dex,Generic_Magic_DamageAfterDodge,Generic_Magic_DamageAfterDodge,Generic_Rare_065,,,,,,",
+					",,Generic_Magic_DamageAfterDodge,Generic_Magic_DamageAfterDodge,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Int,Generic_Magic_DamageToElite,,,,,,,",
+					",Generic_Magic_Int,Generic_Rare_017,,Generic_Normal_Int,Generic_Socket,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,,,,,,,",
+					",,Generic_Magic_Int,Generic_Magic_DamageAfterDodge,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,",
+					",,,Generic_Normal_Dex,Generic_Magic_ResistanceAll,,Generic_Magic_ResistanceAll,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,,",
+					",,,,Generic_Magic_Str,Generic_Rare_083,Generic_Magic_ResistanceAll,,,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,,,",
+					",,,,,Generic_Magic_Str,,,,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Inner Eye"
 			},
 			"Paragon_Rogue_06": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,,,",
+					",,,,,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Magic_Execute,Generic_Magic_AttackSpeed,,,,,",
+					",,,,,Generic_Rare_033,Generic_Magic_PotionHealing,,,,,,,,Generic_Magic_Execute,Generic_Rare_030,,,,,",
+					",,,,Generic_Normal_Str,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Normal_Int,,,,,,Generic_Normal_Will,Generic_Magic_Execute,Generic_Magic_AttackSpeed,Generic_Normal_Str,,,,",
+					",,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,,",
+					",,,Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,Generic_Normal_Dex,,,",
+					",,,Generic_Magic_CriticalDamage,Generic_Magic_DamageToHigh,Generic_Rare_014,,,,Generic_Normal_Dex,Rogue_Legendary_011,Generic_Normal_Will,,,,Generic_Rare_006,Generic_Magic_CCDurationReduction,Generic_Magic_DamageReductionFromDot,,,",
+					",,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_DamageToHigh,Generic_Magic_CriticalDamage,Generic_Magic_DamageToHigh,Generic_Normal_Dex,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_CCDurationReduction,Generic_Magic_DamageReductionFromDot,Generic_Magic_CCDurationReduction,Generic_Normal_Dex,Generic_Normal_Int,,",
+					",Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,",
+					"Generic_Gate,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Dex,,,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Int,,,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Gate",
+					",,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,,Generic_Magic_Damage,Generic_Magic_Int,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Magic_Str,Generic_Magic_HPPercent,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,,,",
+					",,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Magic_Damage,Generic_Rare_084,,Generic_Normal_Will,Generic_Socket,Generic_Normal_Int,,Generic_Rare_082,Generic_Magic_HPPercent,Generic_Normal_Dex,Generic_Normal_Str,,,,",
+					",,,,,,,Generic_Magic_Int,Generic_Magic_Damage,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Magic_HPPercent,Generic_Magic_Str,,,,,,,",
+					",,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Str,Generic_Normal_Int,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Ultimatum"
 			},
 			"Paragon_Rogue_07": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_ResistanceCold,,,,,,,,",
+					",,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Magic_ResistanceCold,Generic_Magic_HPPercent,,,,,,,,",
+					",,,,Generic_Magic_MoveSpeedEliteKill,Generic_Magic_DamageToElite,Generic_Magic_MoveSpeedEliteKill,Generic_Magic_DamageToElite,Generic_Normal_Str,Generic_Normal_Will,,Generic_Magic_ResistanceCold,Generic_Rare_012,,,,,,,,",
+					",,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_DamageToElite,Generic_Rare_022,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Magic_HPPercent,,,,,,,,,",
+					",,,Generic_Normal_Str,Generic_Normal_Str,,,,,,Generic_Normal_Int,,,,Necromancer_Rare_011,Generic_Magic_Armor,Generic_Magic_DamageReductionFromVulnerable,,,,",
+					",,,Generic_Normal_Dex,Generic_Normal_Int,,,,,,Generic_Normal_Str,,,Generic_Magic_Armor,Generic_Magic_DamageReductionFromVulnerable,Generic_Magic_DamageReductionFromVulnerable,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,",
+					"Generic_Gate,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Gate",
+					",Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,",
+					",,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,Rogue_Legendary_010,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,,,,",
+					",,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,Generic_Magic_DamageToVulnerable,Generic_Normal_Dex,,,,,",
+					",,Generic_Magic_DamageToVulnerable,,Generic_Normal_Will,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,,,,,Generic_Rare_049,Generic_Magic_DamageToLow,,,,,,",
+					",Generic_Magic_Str,Generic_Rare_070,Generic_Magic_DamageToVulnerable,Generic_Normal_Int,Generic_Socket,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Magic_DamageToVulnerable,Generic_Magic_DamageToVulnerable,,,,,,",
+					",,Generic_Magic_Str,Generic_Magic_DamageToVulnerable,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Magic_DamageToLow,,,,,,",
+					",,,,Generic_Magic_PotionHealing,Generic_Magic_PotionHealing,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,,,Generic_Magic_Int,Generic_Rare_081,Generic_Magic_PotionHealing,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,,,",
+					",,,,,Generic_Magic_Int,,,,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Expose"
 			},
 			"Paragon_Rogue_08": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,,",
+					",,,,Generic_Normal_Will,Generic_Normal_Dex,Druid_Magic_DamageCore,,,,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,,,",
+					",,,,,Generic_Normal_Str,Generic_Magic_Int,Rogue_Rare_005,,,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,,,",
+					",,Generic_Normal_Dex,,,Generic_Normal_Dex,Druid_Magic_DamageCore,Druid_Magic_DamageCore,Generic_Magic_Int,,,Generic_Normal_Str,,,,,,,,,",
+					",Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Socket,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,,",
+					",Generic_Normal_Will,Generic_Magic_Armor,Generic_Magic_Str,Generic_Magic_Armor,Generic_Normal_Dex,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,Druid_Magic_DamageCore,,,,,,,,",
+					",Generic_Normal_Str,,Generic_Rare_064,Generic_Magic_Armor,Generic_Normal_Str,Generic_Normal_Str,,,Generic_Normal_Dex,,Rogue_Rare_011,Druid_Magic_DamageBasic,,,,,,,,",
+					",Generic_Normal_Dex,,,Generic_Magic_Str,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Dex,,Druid_Magic_DamageCore,Druid_Magic_DamageCore,Druid_Magic_DamageBasic,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,",
+					",Generic_Normal_Int,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Str,Generic_Normal_Dex,",
+					"Generic_Gate,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Dex,,,,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Int,,,,Generic_Magic_ResistanceAll,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Gate",
+					",Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,,Rogue_Rare_014,Druid_Magic_DamageBasic,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Dex,,,Sorcerer_Rare_034,Generic_Magic_Armor,,Generic_Normal_Str,Generic_Normal_Dex,",
+					",,,,,Generic_Normal_Dex,Druid_Magic_DamageBasic,Generic_Magic_Damage,Druid_Magic_DamageBasic,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_Armor,Generic_Magic_ResistanceAll,Generic_Magic_ResistanceAll,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,",
+					",,,,,,,,Generic_Magic_Damage,,,,Generic_Normal_Dex,,,Generic_Normal_Dex,,,,,",
+					",,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Magic_PotionHealing,,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Will,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Rare_067,Generic_Magic_Armor,Generic_Normal_Str,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_Armor,Generic_Magic_PotionHealing,Generic_Magic_Armor,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Str,Generic_Normal_Dex,,,",
+					",,,,,,,,Generic_Normal_Int,,,,Generic_Normal_Dex,,,Generic_Normal_Dex,Generic_Normal_Int,Rogue_Legendary_012,,,",
+					",,,,,,,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Int,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Completionist"
 			}
 		},
@@ -3323,6 +4666,74 @@
 			},
 			"Paragon_Rogue_Legendary_016": {
 				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to enemies affected by Shadow Imbuement's debuff."
+			}
+		},
+		"Paragon (Node)": {
+			"Rogue_Legendary_002": {
+				"name": "Overflowing"
+			},
+			"Rogue_Legendary_006": {
+				"name": "Tricks of Trade"
+			},
+			"Rogue_Legendary_007": {
+				"name": "Control Master"
+			},
+			"Rogue_Legendary_008": {
+				"name": "Deadly Ambush"
+			},
+			"Rogue_Legendary_009": {
+				"name": "Inner Eye"
+			},
+			"Rogue_Legendary_010": {
+				"name": "Expose"
+			},
+			"Rogue_Legendary_011": {
+				"name": "Ultimatum"
+			},
+			"Rogue_Legendary_012": {
+				"name": "Completionist"
+			},
+			"Rogue_Magic_TrapCooldown": {
+				"name": "Trap Cooldown"
+			},
+			"Rogue_Rare_005": {
+				"name": "Finisher"
+			},
+			"Rogue_Rare_008": {
+				"name": "Spring-loaded"
+			},
+			"Rogue_Rare_009": {
+				"name": "Imbuer"
+			},
+			"Rogue_Rare_010": {
+				"name": "Ready Supply"
+			},
+			"Rogue_Rare_011": {
+				"name": "Dominant"
+			},
+			"Rogue_Rare_012": {
+				"name": "Potent"
+			},
+			"Rogue_Rare_014": {
+				"name": "Fundamentals"
+			},
+			"Rogue_Rare_016": {
+				"name": "Brawler"
+			},
+			"Rogue_Rare_018": {
+				"name": "Ranger"
+			},
+			"Rogue_Rare_027": {
+				"name": "Engineering"
+			},
+			"Rogue_Rare_028": {
+				"name": "Cunning"
+			},
+			"Rogue_Rare_029": {
+				"name": "Trapper"
+			},
+			"StartNodeRogue": {
+				"name": "Paragon Starting Location"
 			}
 		},
 		"Unique": {
@@ -3795,30 +5206,237 @@
 		},
 		"Paragon (Board)": {
 			"Paragon_Sorc_00": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Magic_DamageElemental,,Generic_Magic_ResistanceAll,,,,,,,,,",
+					",,,,,,,,Generic_Magic_Dex,Sorcerer_Rare_019,,Generic_Rare_054,Generic_Magic_Will,,,,,,,,",
+					",,,,,,,Generic_Magic_DamageElemental,Generic_Magic_Dex,Generic_Magic_DamageElemental,,Generic_Magic_ResistanceAll,Generic_Magic_Will,Generic_Magic_ResistanceAll,,,,,,,",
+					",,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Socket,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,Generic_Magic_HPPercent,Generic_Magic_ResistanceAll,,Generic_Magic_DamageElemental,Generic_Magic_HPPercent,,,,,,,,",
+					",,,,,,,,Generic_Rare_001,Generic_Magic_HPPercent,,Generic_Magic_HPPercent,Generic_Rare_029,,,,,,,,",
+					",,,,,,,,Generic_Magic_ResistanceAll,,,,Generic_Magic_DamageElemental,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,StartNodeSorc,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,",
+					",,,,,,,,,,,,,,,,,,,,"
+				],
 				"name": "Start"
 			},
 			"Paragon_Sorc_01": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Magic_DamageFire,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_DamageFire,Sorcerer_Rare_009,Generic_Magic_Will,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Magic_Will,Generic_Magic_DamageFire,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,,,Generic_Magic_Dex,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Socket,Generic_Normal_Dex,Generic_Magic_ResistanceFire,Sorcerer_Rare_023,Generic_Magic_ResistanceFire,",
+					",,,,,,Generic_Magic_DamageReductionFromBurningTarget,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Str,Generic_Magic_Dex,Generic_Magic_ResistanceFire,,",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_DamageReductionFromBurningTarget,Sorcerer_Rare_013,Generic_Magic_ResistanceFire,,,,,,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,,",
+					",Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Magic_ResistanceFire,Generic_Magic_DamageReductionFromBurningTarget,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Magic_DamageFire,Generic_Magic_CriticalDamage,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",Generic_Normal_Dex,Generic_Normal_Will,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_CriticalDamage,Sorcerer_Rare_024,Generic_Magic_DamageFire,,,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,,,,,,,Generic_Normal_Will,,,Generic_Magic_DamageFire,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Int,,,,,",
+					",Generic_Normal_Int,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Int,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Int,,,,,",
+					",Generic_Normal_Str,Generic_Normal_Will,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Will,Generic_Magic_PotionHealing,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,,,,,,",
+					",Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Sorcerer_Legendary_002,Generic_Normal_Will,Generic_Normal_Int,,,,,Generic_Magic_HPRegen,Generic_Rare_033,,,,,,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,Generic_Magic_PotionHealing,,,,,,,",
+					",,Generic_Magic_DamageFire,Generic_Magic_DamageBurn,Generic_Normal_Dex,,,,,,,,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,",
+					",Generic_Magic_DamageBurn,Sorcerer_Rare_007,Generic_Magic_DamageFire,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,Generic_Magic_DamageFire,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Searing Heat"
 			},
 			"Paragon_Sorc_02": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Magic_HPPercent,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Magic_PotionHealing,Generic_Rare_042,Generic_Magic_PotionHealing,,,,,",
+					",,,,,,Generic_Magic_DamageCold,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Magic_PotionHealing,Generic_Magic_HPPercent,,,,,,",
+					",,,,Generic_Magic_DamageCold,Sorcerer_Rare_002,Generic_Magic_Chill,Generic_Normal_Int,Generic_Normal_Int,,,,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,",
+					",,,,Generic_Magic_DamageCold,Generic_Magic_Chill,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,,,,Generic_Normal_Int,,,,,,,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Magic_Chill,,,,,,,,",
+					",,Generic_Normal_Will,,,,Generic_Normal_Will,,Generic_Normal_Dex,Sorcerer_Legendary_005,,Generic_Magic_Dex,Sorcerer_Rare_006,Generic_Magic_Dex,,,,,,,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Normal_Int,,,,,,Generic_Magic_Chill,Generic_Magic_Chill,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,,Generic_Normal_Will,,,Generic_Magic_Will,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_DamageToChill,Sorcerer_Rare_026,Generic_Magic_DamageToChill,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,Generic_Magic_DamageReductionFromChilledTarget,Generic_Magic_DamageReductionFromChilledTarget,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Magic_Will,Generic_Magic_DamageToChill,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,",
+					",,Generic_Magic_ResistanceCold,Sorcerer_Rare_017,Generic_Magic_ResistanceCold,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Will,,Generic_Normal_Int,,,",
+					",,,Generic_Magic_DamageReductionFromChilledTarget,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Magic_DamageToVulnerable,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Will,Generic_Magic_DamageToVulnerable,Generic_Magic_DamageToChill,,,",
+					",,,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageToVulnerable,Generic_Magic_DamageToChill,Sorcerer_Rare_015,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Bitter Frost"
 			},
 			"Paragon_Sorc_03": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_ResistanceLightning,Generic_Magic_HPPercent,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,,,Generic_Magic_ResistanceLightning,Generic_Rare_034,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_ResistanceLightning,Generic_Magic_HPPercent,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,",
+					",,,,Sorcerer_Rare_022,Generic_Magic_DamageToElite,Generic_Magic_DamageLightning,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,Generic_Magic_DamageLightning,Generic_Magic_DamageToElite,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Magic_DamageLightning,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,,,,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_DamageLightning,,Generic_Normal_Dex,Generic_Normal_Int,,,Sorcerer_Rare_012,Generic_Magic_Dex,Generic_Normal_Int,,Generic_Normal_Int,,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,,Generic_Magic_Dex,Generic_Magic_DamageLightning,Generic_Magic_DamageLightning,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,,,,,Sorcerer_Legendary_007,Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,,Generic_Magic_Will,Generic_Magic_ResistanceLightning,Generic_Magic_ResistanceLightning,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_PotionHealing,,Generic_Normal_Dex,Generic_Normal_Int,,,Sorcerer_Rare_014,Generic_Magic_Will,Generic_Normal_Int,,Generic_Normal_Int,,,,,,",
+					",,,,Generic_Magic_PotionHealing,Generic_Magic_HPPercent,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Magic_ResistanceLightning,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,,,,,,",
+					",,,,Generic_Rare_042,Generic_Magic_HPPercent,Generic_Magic_PotionHealing,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,",
+					",,,,,,,,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_DamageLightning,Generic_Magic_CritDamageLightning,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,,,Generic_Magic_DamageLightning,Sorcerer_Rare_010,,,,,",
+					",,,,,,,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_DamageLightning,Generic_Magic_CritDamageLightning,,,,,",
+					",,,,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Surging Force"
 			},
 			"Paragon_Sorc_04": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,Generic_Magic_Dex,Generic_Magic_CriticalDamageElemental,,Generic_Normal_Int,,Generic_Magic_ResistanceAll,Generic_Magic_Will,,,,,,,",
+					",,,,,Generic_Normal_Int,Generic_Magic_Dex,Sorcerer_Rare_018,Generic_Magic_CriticalDamageElemental,Generic_Normal_Int,Generic_Socket,Generic_Normal_Will,Generic_Magic_ResistanceAll,Generic_Rare_054,Generic_Magic_Will,Generic_Normal_Int,,,,,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Dex,,Generic_Magic_CriticalDamageElemental,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,Generic_Magic_ResistanceAll,,Generic_Normal_Int,Generic_Normal_Dex,,,,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",,Generic_Normal_Int,Generic_Normal_Int,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,,,,Generic_Normal_Will,Generic_Normal_Will,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_Mana,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_DamageElemental,Generic_Normal_Int,Generic_Normal_Dex,,",
+					",,,Generic_Magic_HPPercent,Generic_Magic_Mana,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_DamageElemental,Generic_Magic_ResistanceAll,,,",
+					",,Generic_Magic_HPPercent,Generic_Rare_036,Generic_Magic_Mana,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,,Generic_Magic_DamageElemental,Sorcerer_Rare_020,Generic_Magic_ResistanceAll,,",
+					",,,,,,Generic_Magic_Damage,,Generic_Normal_Int,,Sorcerer_Legendary_011,,Generic_Normal_Dex,,Generic_Magic_DamageReductionFromDot,,,,,,",
+					",,,,,Generic_Magic_AttackSpeed,Generic_Rare_002,Generic_Magic_Damage,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Magic_DamageReductionFromDot,Generic_Rare_006,Generic_Magic_CCDurationReduction,,,,,",
+					",,,,,,Generic_Magic_AttackSpeed,Generic_Magic_AttackSpeed,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Magic_CCDurationReduction,Generic_Magic_CCDurationReduction,,,,,,",
+					",,,,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Str,,,,,,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Master of Elements"
 			},
 			"Paragon_Sorc_05": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,Sorcerer_Legendary_001,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Dex,,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_DamageReductionFromBurningTarget,Generic_Magic_ResistanceFire,Generic_Normal_Will,Generic_Normal_Int,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Normal_Dex,Generic_Magic_ResistanceFire,Sorcerer_Rare_013,Generic_Magic_DamageReductionFromBurningTarget,,,,",
+					",,,,,,,Generic_Rare_018,Generic_Magic_DamageReductionFromElite,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,,Generic_Magic_DamageReductionFromBurningTarget,Generic_Normal_Int,Generic_Normal_Int,,",
+					",,,,,Generic_Normal_Will,Generic_Magic_Armor,Generic_Magic_DamageReductionFromElite,Generic_Magic_Armor,,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,",
+					",,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Magic_DamageReductionFromElite,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Magic_DamageToBurning,Generic_Magic_DamageToElite,Generic_Normal_Dex,,,,,,,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,,,Generic_Magic_DamageToElite,Sorcerer_Rare_008,Generic_Magic_DamageToBurning,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_DamageToBurning,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,",
+					",,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,,,Generic_Magic_AttackSpeed,Generic_Magic_Execute,Generic_Normal_Int,,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,Generic_Magic_Execute,Generic_Magic_Execute,Generic_Rare_030,,,,,,",
+					",,Generic_Magic_DamageToBurning,Generic_Magic_DamageToBurning,Generic_Normal_Str,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,Generic_Magic_AttackSpeed,,,,,,,",
+					",Generic_Magic_Will,Sorcerer_Rare_025,,Generic_Normal_Dex,Generic_Socket,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,",
+					",,Generic_Magic_Will,Generic_Magic_DamageToBurning,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,,,",
+					",,,Generic_Normal_Int,Generic_Magic_DamageReductionFromBurningTarget,,Generic_Magic_DamageReductionFromBurningTarget,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,,",
+					",,,,Generic_Magic_Dex,Sorcerer_Rare_016,Generic_Magic_DamageReductionFromBurningTarget,,,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,,,",
+					",,,,,Generic_Magic_Dex,,,,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Burning Instinct"
 			},
 			"Paragon_Sorc_06": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,,,",
+					",,,,,Generic_Magic_ResistanceCold,Generic_Magic_DamageReductionFromChilledTarget,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Magic_DamageCold,Generic_Magic_Chill,,,,,",
+					",,,,,Sorcerer_Rare_017,Generic_Magic_DamageReductionFromChilledTarget,,,,,,,,Generic_Magic_DamageCold,Sorcerer_Rare_002,,,,,",
+					",,,,Generic_Normal_Will,Generic_Magic_ResistanceCold,Generic_Magic_DamageReductionFromChilledTarget,Generic_Normal_Dex,,,,,,Generic_Normal_Str,Generic_Magic_DamageCold,Generic_Magic_Chill,Generic_Normal_Will,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,,,",
+					",,,Generic_Normal_Int,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,,Generic_Normal_Int,,,",
+					",,,Generic_Magic_DamageElemental,Generic_Magic_DamageToChill,Sorcerer_Rare_005,,,,Generic_Normal_Int,Sorcerer_Legendary_006,Generic_Normal_Str,,,,Generic_Rare_033,Generic_Magic_PotionHealing,Generic_Magic_HPRegen,,,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Magic_DamageToChill,Generic_Magic_DamageElemental,Generic_Magic_DamageToChill,Generic_Normal_Int,Generic_Normal_Dex,,,,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_PotionHealing,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Normal_Int,Generic_Normal_Dex,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Str,Generic_Normal_Int,,,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Dex,,,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Magic_DamageToChill,Generic_Magic_Will,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Magic_Dex,Generic_Magic_DamageReductionFromChilledTarget,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,",
+					",,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Magic_DamageToChill,Sorcerer_Rare_026,,Generic_Normal_Str,Generic_Socket,Generic_Normal_Dex,,Sorcerer_Rare_028,Generic_Magic_DamageReductionFromChilledTarget,Generic_Normal_Int,Generic_Normal_Will,,,,",
+					",,,,,,,Generic_Magic_Will,Generic_Magic_DamageToChill,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_DamageReductionFromChilledTarget,Generic_Magic_Dex,,,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Harsh Winter"
 			},
 			"Paragon_Sorc_07": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Magic_DamageReductionFromDot,,,,,,,,",
+					",,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,Generic_Magic_DamageReductionFromDot,Generic_Magic_ResistanceAll,,,,,,,,",
+					",,,,Generic_Magic_DamageLightning,Sorcerer_Magic_CracklingEnergy,Generic_Magic_DamageLightning,Sorcerer_Magic_CracklingEnergy,Generic_Normal_Will,Generic_Normal_Str,,Generic_Magic_DamageReductionFromDot,Generic_Rare_019,,,,,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Sorcerer_Magic_CracklingEnergy,Sorcerer_Rare_011,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_ResistanceAll,,,,,,,,,",
+					",,,Generic_Normal_Will,Generic_Normal_Will,,,,,,Generic_Normal_Dex,,,,Generic_Rare_033,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,,,,,,Generic_Normal_Will,,,Generic_Magic_HPRegen,Generic_Magic_PotionHealing,Generic_Magic_PotionHealing,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,",
+					",,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,Sorcerer_Legendary_008,Generic_Normal_Str,Generic_Normal_Dex,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,,,,",
+					",,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Will,,,,,,,,Generic_Magic_DamageToElite,Generic_Normal_Int,,,,,",
+					",,Sorcerer_Magic_CracklingEnergy,,Generic_Normal_Str,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,,,,,Generic_Rare_022,Generic_Magic_MoveSpeedEliteKill,,,,,,",
+					",Generic_Magic_Dex,Sorcerer_Rare_027,Sorcerer_Magic_CracklingEnergy,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,,,,Generic_Magic_DamageToElite,Generic_Magic_DamageToElite,,,,,,",
+					",,Generic_Magic_Dex,Sorcerer_Magic_CracklingEnergy,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Str,,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Int,Generic_Magic_MoveSpeedEliteKill,,,,,,",
+					",,,,Generic_Magic_ResistanceLightning,Generic_Magic_ResistanceLightning,,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,",
+					",,,,Generic_Magic_Will,Sorcerer_Rare_014,Generic_Magic_ResistanceLightning,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,,,,,,,,,,",
+					",,,,,Generic_Magic_Will,,,,Generic_Normal_Int,Generic_Normal_Will,,,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Crackling Power"
 			},
 			"Paragon_Sorc_08": {
+				"data": [
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,",
+					",,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,,,,,,,",
+					",,,,Generic_Normal_Str,Generic_Normal_Int,Generic_Magic_DamageElemental,,,,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,,",
+					",,,,,Generic_Normal_Will,Generic_Magic_Dex,Sorcerer_Rare_019,,,Generic_Normal_Int,Generic_Normal_Str,,,,,,,,,",
+					",,Generic_Normal_Int,,,Generic_Normal_Int,Generic_Magic_DamageElemental,Generic_Magic_DamageElemental,Generic_Magic_Dex,,,Generic_Normal_Will,,,,,,,,,",
+					",Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Socket,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,,,,,,,,",
+					",Generic_Normal_Str,Generic_Magic_DamageReductionWithBarrier,Generic_Magic_Will,Generic_Magic_DamageReductionWithBarrier,Generic_Normal_Int,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,,,Generic_Magic_Mana,,,,,,,,",
+					",Generic_Normal_Will,,Generic_Rare_056,Generic_Magic_DamageReductionWithBarrier,Generic_Normal_Will,Generic_Normal_Will,,,Generic_Normal_Int,,Generic_Rare_036,Generic_Magic_HPPercent,,,,,,,,",
+					",Generic_Normal_Int,,,Generic_Magic_Will,Generic_Normal_Int,Generic_Normal_Dex,,,Generic_Normal_Int,,Generic_Magic_Mana,Generic_Magic_Mana,Generic_Magic_HPPercent,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",Generic_Normal_Dex,,,,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,,Generic_Normal_Will,Generic_Normal_Int,",
+					"Generic_Gate,Generic_Normal_Str,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Int,,,,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Dex,,,,Generic_Magic_DamageReductionFromDot,,Generic_Normal_Int,Generic_Normal_Int,Generic_Gate",
+					",Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Dex,Generic_Normal_Will,,Generic_Rare_035,Generic_Magic_ManaRegen,Generic_Normal_Int,Generic_Normal_Will,,Generic_Normal_Int,,,Generic_Rare_019,Generic_Magic_ResistanceAll,,Generic_Normal_Will,Generic_Normal_Int,",
+					",,,,,Generic_Normal_Int,Generic_Magic_ManaRegen,Generic_Magic_Mana,Generic_Magic_ManaRegen,,Generic_Normal_Dex,Generic_Normal_Dex,Generic_Normal_Int,Generic_Normal_Str,Generic_Magic_ResistanceAll,Generic_Magic_DamageReductionFromDot,Generic_Magic_DamageReductionFromDot,Generic_Normal_Will,Generic_Normal_Dex,Generic_Normal_Dex,",
+					",,,,,,,,Generic_Magic_Mana,,,,Generic_Normal_Int,,,Generic_Normal_Int,,,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,,,Generic_Magic_Armor,,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Str,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Int,,Generic_Rare_004,Generic_Magic_BarrierPotency,Generic_Normal_Will,Generic_Normal_Int,,Generic_Normal_Dex,Generic_Normal_Will,,,",
+					",,,,,,,,Generic_Normal_Dex,Generic_Normal_Str,Generic_Magic_BarrierPotency,Generic_Magic_Armor,Generic_Magic_BarrierPotency,,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Will,Generic_Normal_Int,,,",
+					",,,,,,,,Generic_Normal_Dex,,,,Generic_Normal_Int,,,Generic_Normal_Int,Generic_Normal_Dex,Sorcerer_Legendary_015,,,",
+					",,,,,,,,Generic_Normal_Will,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,Generic_Normal_Int,Generic_Normal_Int,Generic_Normal_Will,Generic_Normal_Str,Generic_Normal_Dex,,,,,,,,",
+					",,,,,,,,,,Generic_Gate,,,,,,,,,,"
+				],
 				"name": "Shaper of Wills"
 			}
 		},
@@ -3870,6 +5488,110 @@
 			},
 			"Paragon_Sorc_Legendary_016": {
 				"desc": "While you have a barrier, you take {c_number}[{SF_0}*100|%|]{/c} less damage and gain {c_number}[{SF_1}*100|%|]{/c} increased movement speed."
+			}
+		},
+		"Paragon (Node)": {
+			"Sorcerer_Legendary_001": {
+				"name": "Burning Instinct"
+			},
+			"Sorcerer_Legendary_002": {
+				"name": "Searing Heat"
+			},
+			"Sorcerer_Legendary_005": {
+				"name": "Bitter Frost"
+			},
+			"Sorcerer_Legendary_006": {
+				"name": "Harsh Winter"
+			},
+			"Sorcerer_Legendary_007": {
+				"name": "Surging Force"
+			},
+			"Sorcerer_Legendary_008": {
+				"name": "Crackling Power"
+			},
+			"Sorcerer_Legendary_011": {
+				"name": "Master of Elements"
+			},
+			"Sorcerer_Legendary_015": {
+				"name": "Shaper of Wills"
+			},
+			"Sorcerer_Rare_002": {
+				"name": "Cryomancy"
+			},
+			"Sorcerer_Rare_005": {
+				"name": "Polar Rime"
+			},
+			"Sorcerer_Rare_006": {
+				"name": "Boreal"
+			},
+			"Sorcerer_Rare_007": {
+				"name": "Pyromancy"
+			},
+			"Sorcerer_Rare_008": {
+				"name": "Kindling"
+			},
+			"Sorcerer_Rare_009": {
+				"name": "Flame-touched"
+			},
+			"Sorcerer_Rare_010": {
+				"name": "Electromancy"
+			},
+			"Sorcerer_Rare_011": {
+				"name": "Conduit"
+			},
+			"Sorcerer_Rare_012": {
+				"name": "Spark-touched"
+			},
+			"Sorcerer_Rare_013": {
+				"name": "Keeper of Flames"
+			},
+			"Sorcerer_Rare_014": {
+				"name": "Electro"
+			},
+			"Sorcerer_Rare_015": {
+				"name": "Icebreaker"
+			},
+			"Sorcerer_Rare_016": {
+				"name": "Smoldering Embers"
+			},
+			"Sorcerer_Rare_017": {
+				"name": "Keeper of Winter"
+			},
+			"Sorcerer_Rare_018": {
+				"name": "Elemental Power"
+			},
+			"Sorcerer_Rare_019": {
+				"name": "Elemental Balance"
+			},
+			"Sorcerer_Rare_020": {
+				"name": "Keeper of Elements"
+			},
+			"Sorcerer_Rare_022": {
+				"name": "Overpowering Current"
+			},
+			"Sorcerer_Rare_023": {
+				"name": "Ashes"
+			},
+			"Sorcerer_Rare_024": {
+				"name": "Combustion"
+			},
+			"Sorcerer_Rare_025": {
+				"name": "Cinders"
+			},
+			"Sorcerer_Rare_026": {
+				"name": "Frosts"
+			},
+			"Sorcerer_Rare_027": {
+				"name": "Galvanic Catalyst"
+			},
+			"Sorcerer_Rare_028": {
+				"name": "Frigid"
+			},
+			"Sorcerer_Rare_034": {
+				"name": "Denial"
+			},
+			"StartNodeSorc": {
+				"name": "Paragon Starting Location"
 			}
 		},
 		"Unique": {
