@@ -2808,6 +2808,18 @@
 			"Generic_Gate": {
 				"name": "Board Attachment Gate"
 			},
+			"Generic_Normal_Dex": {
+				"name": "Dexterity"
+			},
+			"Generic_Normal_Int": {
+				"name": "Intelligence"
+			},
+			"Generic_Normal_Str": {
+				"name": "Strength"
+			},
+			"Generic_Normal_Will": {
+				"name": "Willpower"
+			},
 			"Generic_Rare_001": {
 				"name": "Resilience"
 			},

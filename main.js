@@ -116,6 +116,7 @@ const ANY_DAMAGE_TYPE = [PHYSICAL, FIRE, LIGHTNING, COLD, POISON, SHADOW];
 const COOLDOWN = "Cooldown";
 const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
+const PARAGON_BOARD = "Paragon Board";
 const CODEX_OF_POWER = "Codex of Power";
 const CODEX_OF_POWER_DESC = "This aspect type can be applied to: ";
 const SPIRIT_BOONS = "Spirit Boons";
@@ -535,10 +536,10 @@ function handleReloadButton() {
 					const maxPoints = curNode.nodeData.get("maxPoints");
 
 					let newPoints = Math.max(Math.min(savedPoints, maxPoints), 0);
-					if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) newPoints = Math.min(newPoints, unusedPoints + allocatedPoints);
+					if (![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) newPoints = Math.min(newPoints, unusedPoints + allocatedPoints);
 
 					if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
-						if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+						if (![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 						updateNodePoints(curNode, newPoints);
 					}
 				}
@@ -677,7 +678,7 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	}
 }
 function canAllocate(curNode) {
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		return true;
 	} else if (curNode.groupName == CAPSTONE) {
 		return pixiNodes.find(pixiNode => {
@@ -740,7 +741,7 @@ function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	if (allocatedPoints == 0) {
 		handlePlusButton(curNode);
-		if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+		if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 			const exclusiveNodes = curNode.nodeData.get("exclusiveNodes");
 			if (exclusiveNodes != undefined) {
 				let allocatedBoons = [];
@@ -770,7 +771,7 @@ function handleToggleButton(curNode) {
 function handlePlusButton(curNode) {
 	if (!canAllocate(curNode)) return;
 
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
@@ -810,7 +811,7 @@ function handlePlusButton(curNode) {
 	}
 }
 function handleMinusButton(curNode) {
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.max(allocatedPoints - 1, 0);
@@ -943,12 +944,12 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeData.set("_nodeWidth", _nodeWidth);
 	nodeData.set("_nodeHeight", _nodeHeight);
 
-	const maxLabelSize = Math.round(8.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
+	const maxLabelSize = Math.round(7.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
 
 	let nameFontSize = 36;
 	let displayName = nodeName;
 	if (nodeName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
-	if (displayName.length > maxLabelSize - 2) nameFontSize = 32;
+	if (displayName.length >= maxLabelSize - 2) nameFontSize = 32;
 
 	const allocatedPoints = nodeData.get("allocatedPoints");
 	const maxPoints = nodeData.get("maxPoints");
@@ -973,7 +974,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeText.anchor.set(0.5);
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined && ![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints > 1) {
+	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints > 1) {
 		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
 			align: "right",
 			fill: textColor,
@@ -1038,7 +1039,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	const nodeBorder = new PIXI.Graphics();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
-	if (([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
+	if (([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
 		let _lineStyleThickSquare = {};
 		if (searchQueryMatch) { // aka `invertColor`
 			Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
@@ -1073,6 +1074,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	}
 
 	const node = new PIXI.Container();
+	node.cullable = true;
 	node.interactive = true;
 	node.position.x = x;
 	node.position.y = y;
@@ -1082,7 +1084,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	node.displayName = displayName;
 	node.branchData = branchData;
 	node.nodeIndex = nodeIndex;
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
+	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
 		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
@@ -1142,7 +1144,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		.on("mouseout", onMouseOut)
 		.on("tap", onMouseOver);
 
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || maxPoints <= 1) {
+	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || maxPoints <= 1) {
 		if (maxPoints != 0) {
 			node.cursor = "pointer";
 			node.interactive = true;
@@ -1352,6 +1354,7 @@ function drawAllNodes() {
 		resizeSearchInput();
 
 		const classText = $(classString).text();
+
 		const codexResult = getCodexData(["General", classText]);
 		if (Object.keys(codexResult).length > 0) {
 			const startX = -4000;
@@ -1359,7 +1362,6 @@ function drawAllNodes() {
 			const nodeWidth = 400;
 			const nodeSpacingX = nodeWidth + 50;
 			const nodeSpacingY = 150;
-			const widthOverride = 2150;
 
 			let [codexX, codexY] = [startX, startY];
 
@@ -1431,6 +1433,75 @@ function drawAllNodes() {
 				}
 			}
 			$("#groupSelector").append(`<option value="${CODEX_OF_POWER.replace(/\s/g, "").toLowerCase()}">${CODEX_OF_POWER}</option>`);
+		}
+
+		const paragonBoardCount = Object.keys(paragonData[classText]["Board"]).length;
+		if (paragonBoardCount > 0) {
+			const paragonBoardNodes = 21;
+
+			const nodeWidth = 125;
+			const nodeHeight = 125;
+			const nodeSpacingX = nodeWidth + 25;
+			const nodeSpacingY = nodeHeight + 25;
+
+			const paragonNode = new Map([
+				["requiredPoints", 0],
+				["widthOverride", paragonBoardCount * (paragonBoardNodes + 3) * nodeSpacingX - nodeSpacingX],
+				["shapeSize", 1],
+				["shapeType", "rectangle"],
+				["x", -nodeSpacingX * paragonBoardNodes * 0.5 - nodeSpacingX * 1.5],
+				["y", -nodeSpacingY * (paragonBoardNodes + 1) - 950]
+			]);
+
+			drawNode(PARAGON_BOARD, paragonNode);
+
+			let paragonBoardIdx = 0;
+			for (const [boardName, boardData] of Object.entries(paragonData[classText]["Board"])) {
+				const startX = (paragonBoardNodes + 3) * nodeSpacingX * (paragonBoardIdx - paragonBoardCount * 0.5);
+				const startY = -(paragonBoardNodes + 1) * nodeSpacingY - 800;
+
+				let [boardX, boardY] = [startX, startY];
+
+				const paragonBoardNode = new Map([
+					["requiredPoints", 0],
+					["widthOverride", nodeSpacingX * (paragonBoardNodes + 2)],
+					["shapeSize", 1],
+					["shapeType", "rectangle"],
+					["x", boardX],
+					["y", boardY]
+				]);
+
+				drawNode(boardName, paragonBoardNode);
+				for (const [yPosition, rowData] of Object.entries(boardData)) {
+					for (const [xPosition, nodeData] of Object.entries(rowData)) {
+						if (nodeData.length > 0) {
+							const boardNode = new Map([
+								["allocatedPoints", 0],
+								//["description", ""],
+								["id", `paragon-${paragonBoardIdx}-${xPosition}-${yPosition}`],
+								["maxPoints", 1],
+								["widthOverride", nodeWidth],
+								["heightOverride", nodeHeight],
+								["shapeSize", 1],
+								["shapeType", "rectangle"],
+								["x", boardX + nodeSpacingX * (Number(xPosition) - ((paragonBoardNodes - 1) * 0.5))],
+								["y", boardY + nodeSpacingY * (Number(yPosition) + 0.5) + 100]
+							]);
+							const nodeName = (paragonData["Generic"]["Node"][nodeData] != undefined ? paragonData["Generic"]["Node"][nodeData]
+								: paragonData[classText]["Node"][nodeData] != undefined ? paragonData[classText]["Node"][nodeData]
+								: nodeData.includes("_Magic_") ? nodeData
+									.replace(/.+_Magic_/g, "")
+									.replace(/([0-9A-Z])/g, " $1")
+									.replace(/([0-9A-Z]) ([0-9A-Z])/g, "$1$2")
+									.trim()
+								: nodeData);
+							drawNode(nodeName, boardNode, PARAGON_BOARD);
+						}
+					}
+				}
+				paragonBoardIdx++;
+			}
+			$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
 		}
 	}
 }
@@ -1674,6 +1745,8 @@ function drawConnector(startNode, endNode) {
 	connector.startNode = startNode;
 	connector.endNode = endNode;
 
+	connector.cullable = true;
+
 	pixiConnectors.push(pixiJS.stage.addChild(connector));
 }
 function drawAllConnectors() {
@@ -1839,4 +1912,19 @@ $(document).ready(function() {
 	handleReloadButton();
 	resizeCanvas();
 	setInterval(handleIntervalEvent, 200);
+
+	if (debugMode) {
+		let drawCount = 0;
+		const renderer = pixiJS.renderer;
+		const drawElements = renderer.gl.drawElements;
+		renderer.gl.drawElements = (...args) => {
+		  drawElements.call(renderer.gl, ...args);
+		  drawCount++;
+		};
+
+		pixiJS.ticker.add(deltaTime => {
+			console.log(`drawCount: ${drawCount}`);
+			drawCount = 0;
+		});
+	}
 });
