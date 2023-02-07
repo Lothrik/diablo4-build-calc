@@ -2290,7 +2290,6 @@
 			"ParagonGlyph_012": {
 				"bonus": "You take {c_number}[{SF_0}*100|%|]{/c} reduced damage while you have an active {c_important}Barrier{/c}.",
 				"desc": [
-					"Grants {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range.",
 					"Grants {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
 				"name": "Protector"
@@ -2351,7 +2350,6 @@
 				"bonus": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to slowed or {c_important}Chilled{/c} targets or, instead, {c_number}x[{SF_1}*100|%|]{/c} increased damage to stunned or {c_important}Frozen{/c} targets.",
 				"desc": [
 					"For every 10 Dexterity purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
-					"For every 10 Intelligence purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets.",
 					"For every 10 Intelligence purchased within range, you gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} increased damage to crowd controlled targets."
 				],
 				"name": "Control"
@@ -2537,7 +2535,6 @@
 			"ParagonGlyph_046": {
 				"bonus": "You and your minions deal {c_number}x[{SF_0}*100|%|]{/c} increased Non-physical damage.",
 				"desc": [
-					"Paragon nodes within range gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Non-physical damage and damage reduction modifiers.",
 					"Paragon nodes within range gain {c_yellow}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Non-physical damage and damage reduction modifiers."
 				],
 				"name": "Abyssal"
