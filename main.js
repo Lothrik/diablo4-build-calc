@@ -129,7 +129,8 @@ const COLOR_OVERRIDE = {
 	"Legendary": 0xFF7700,
 	"Start": 0xFF00FF,
 	"Gate": 0xFF00FF,
-	"Socket": 0xFF0000
+	"Socket": 0xFF00FF,
+	"Allocated": 0xFF0000
 };
 
 const pixiScalingFloor = 0.15;
@@ -228,6 +229,8 @@ function setNodeStyleThick(curNode, invertColor = false) {
 		} else {
 			_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
 		}
+	} else if (curNode.groupName == PARAGON_BOARD) {
+		_lineStyleThickSquare.color = COLOR_OVERRIDE["Allocated"];
 	} else if (curNode.nodeData.get("colorOverride") != undefined) {
 		_lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
 	}
@@ -283,7 +286,11 @@ function handleNodeColorInput(event) {
 			const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 			if (allocatedPoints > 0) {
 				let _lineStyleThickSquare = { ...lineStyleThickSquare };
-				if (curNode.nodeData.get("colorOverride") != undefined) _lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
+				if (curNode.groupName == PARAGON_BOARD) {
+					_lineStyleThickSquare.color = COLOR_OVERRIDE["Allocated"];
+				} else if (curNode.nodeData.get("colorOverride") != undefined) {
+					_lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
+				}
 
 				curNode.children[curNode.children.length > 3 ? 5 : 2].updateLineStyle(_lineStyleThickSquare);
 			}
@@ -1070,6 +1077,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			} else {
 				_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
 			}
+		} else if (groupName == PARAGON_BOARD) {
+			_lineStyleThickSquare.color = COLOR_OVERRIDE["Allocated"];
 		} else if (colorOverride != undefined) {
 			_lineStyleThickSquare.color = colorOverride;
 		}
