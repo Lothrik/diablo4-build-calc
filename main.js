@@ -127,9 +127,9 @@ const COLOR_OVERRIDE = {
 	"Magic": 0x0077FF,
 	"Rare": 0xFFFF00,
 	"Legendary": 0xFF7700,
-	"Start": 0xFF00FF,
-	"Gate": 0xFF00FF,
-	"Socket": 0xFF00FF,
+	"Start": 0xFF0000,
+	"Gate": 0xFF0000,
+	"Socket": 0xFF0000,
 	"Allocated": 0xFF0000
 };
 
@@ -991,9 +991,12 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.6 ? 4 : newRenderScale >= 0.3 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
+	const colorOverride = nodeData.get("colorOverride");
+	const _textColor = colorOverride != undefined ? colorOverride : textColor;
+
 	const nodeText = new PIXI.Text(displayName, {
 		align: "center",
-		fill: textColor,
+		fill: _textColor,
 		fontFamily: fontFamily,
 		fontSize: nameFontSize * scaleFactor,
 		fontVariant: "small-caps",
@@ -1006,7 +1009,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints > 1) {
 		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
 			align: "right",
-			fill: textColor,
+			fill: _textColor,
 			fontFamily: fontFamily,
 			fontSize: 24 * scaleFactor,
 			fontVariant: "small-caps",
@@ -1019,7 +1022,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 		nodeText3 = new PIXI.Text("+", {
 			align: "right",
-			fill: textColor,
+			fill: _textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleFactor,
 			fontVariant: "small-caps",
@@ -1032,7 +1035,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 		nodeText4 = new PIXI.Text("–", {
 			align: "left",
-			fill: textColor,
+			fill: _textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleFactor,
 			fontVariant: "small-caps",
@@ -1065,7 +1068,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeBackground.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
 
-	const colorOverride = nodeData.get("colorOverride");
 	const nodeBorder = new PIXI.Graphics();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
