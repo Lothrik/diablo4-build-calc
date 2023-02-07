@@ -147,7 +147,7 @@ const backgroundOpacity = backgroundColorHEX.length == 8 ? 1 : (backgroundColorH
 const borderColorHEX = rgba2hex($("#header").css("border-color"));
 const borderColor = borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
 const borderOpacity = borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
-const activeColorDefault = "ffffff";
+const activeColorDefault = "ff0000";
 var activeConnectorColor = Number("0x" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
 var activeNodeColor = Number("0x" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
 
