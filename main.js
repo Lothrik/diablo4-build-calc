@@ -222,16 +222,15 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 }
 function setNodeStyleThick(curNode, invertColor = false) {
 	let _lineStyleThickSquare = {};
+	Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
 	if (invertColor) {
-		Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
 		if (_lineStyleThickSquare.color == 0xFFFFFF) {
 			_lineStyleThickSquare.color = 0x00FF00;
 		} else {
 			_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
 		}
-	} else {
-		_lineStyleThickSquare = lineStyleThickSquare;
-		if (curNode.nodeData.get("colorOverride") != undefined) _lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
+	} else if (curNode.nodeData.get("colorOverride") != undefined) {
+		_lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
 	}
 	curNode.children[1].style.fontWeight = "bold";
 	if (curNode.children.length > 3) {
@@ -246,8 +245,9 @@ function setNodeStyleThick(curNode, invertColor = false) {
 function setNodeStyleThin(curNode) {
 	let _lineStyleThinSquare = {};
 	Object.assign(_lineStyleThinSquare, lineStyleThinSquare);
-	if (curNode.nodeData.get("colorOverride") != undefined) _lineStyleThinSquare.color = curNode.nodeData.get("colorOverride");
-
+	if (curNode.nodeData.get("colorOverride") != undefined) {
+		_lineStyleThinSquare.color = curNode.nodeData.get("colorOverride");
+	}
 	curNode.children[1].style.fontWeight = "normal";
 	if (curNode.children.length > 3) {
 		curNode.children[2].style.fontWeight = "normal";
@@ -1068,16 +1068,15 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
 	if (([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
 		let _lineStyleThickSquare = {};
+		Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
 		if (searchQueryMatch) { // aka `invertColor`
-			Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
 			if (_lineStyleThickSquare.color == 0xFFFFFF) {
 				_lineStyleThickSquare.color = 0x00FF00;
 			} else {
 				_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
 			}
-		} else {
-			_lineStyleThickSquare = lineStyleThickSquare;
-			if (colorOverride != undefined) _lineStyleThickSquare.color = colorOverride;
+		} else if (colorOverride != undefined) {
+			_lineStyleThickSquare.color = colorOverride;
 		}
 		nodeBorder.lineStyle(_lineStyleThickSquare);
 	} else {
