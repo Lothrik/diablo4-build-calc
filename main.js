@@ -1414,15 +1414,17 @@ function drawAllNodes() {
 				let [boardX, boardY] = [startX, startY];
 
 				const paragonBoardNode = new Map([
-					["requiredPoints", 0],
+					["allocatedPoints", 0],
+					//["description", ""],
 					["widthOverride", nodeSpacingX * (paragonBoardNodes + 2)],
+					["maxPoints", 0],
 					["shapeSize", 1],
 					["shapeType", "rectangle"],
 					["x", boardX],
 					["y", boardY]
 				]);
 
-				drawNode(boardName, paragonBoardNode);
+				drawNode(boardName, paragonBoardNode, PARAGON_BOARD);
 				for (const [yPosition, rowData] of Object.entries(boardData)) {
 					for (const [xPosition, nodeData] of Object.entries(rowData)) {
 						if (nodeData.length > 0) {
