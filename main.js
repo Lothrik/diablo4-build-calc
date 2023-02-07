@@ -1428,14 +1428,16 @@ function drawAllNodes() {
 				for (const [yPosition, rowData] of Object.entries(boardData)) {
 					for (const [xPosition, nodeData] of Object.entries(rowData)) {
 						if (nodeData.length > 0) {
-							const nodeName = paragonData["Generic"]["Node"][nodeData] != undefined ? paragonData["Generic"]["Node"][nodeData]
-								: paragonData[classText]["Node"][nodeData] != undefined ? paragonData[classText]["Node"][nodeData]
+							const nodeName = nodeData in paragonData["Generic"]["Node"] ? paragonData["Generic"]["Node"][nodeData]["name"]
+								: nodeData in paragonData[classText]["Node"] ? paragonData[classText]["Node"][nodeData]["name"]
 								: nodeData.includes("_Magic_") ? nodeData
 									.replace(/.+_Magic_/g, "")
 									.replace(/([0-9A-Z])/g, " $1")
 									.replace(/([0-9A-Z]) ([0-9A-Z])/g, "$1$2")
 									.trim()
 								: nodeData;
+							const nodeDesc = nodeData in paragonData[classText]["Node"] && "description" in paragonData[classText]["Node"][nodeData]
+								? `${paragonData[classText]["Node"][nodeData]["description"]}\n` : "";
 							const nodeType = nodeData.includes("_Normal_") ? "Normal"
 								: nodeData.includes("_Magic_") ? "Magic"
 								: nodeData.includes("_Rare_") ? "Rare"
@@ -1445,7 +1447,7 @@ function drawAllNodes() {
 							const boardNode = new Map([
 								["allocatedPoints", 0],
 								["colorOverride", COLOR_OVERRIDE[nodeType]],
-								["description", nodeType.length > 0 ? `${nodeType} Node` : ""],
+								["description", `${nodeDesc}${nodeData}`],
 								["id", `paragon-${paragonBoardIdx}-${xPosition}-${yPosition}`],
 								["maxPoints", 1],
 								["widthOverride", nodeWidth],

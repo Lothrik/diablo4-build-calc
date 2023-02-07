@@ -476,7 +476,20 @@ function runParser(downloadMode) {
 		if (otherData["Paragon (Node)"] != undefined) {
 			paragonData[className]["Node"] = {};
 			for (const [nodeName, nodeData] of Object.entries(otherData["Paragon (Node)"])) {
-				paragonData[className]["Node"][nodeName] = nodeData["name"];
+				let nodeDesc;
+				if (nodeName.toLowerCase().includes("legendary") && "Paragon (Legendary)" in otherData) {
+					const nodeId = nodeName.replace(/\D/g, "");
+					for (const [legendaryKey, legendaryData] of Object.entries(otherData["Paragon (Legendary)"])) {
+						if (legendaryKey.replace(/\D/g, "") == nodeId) {
+							nodeDesc = sanitizeNodeDescription(legendaryData["desc"]);
+							break;
+						}
+					}
+				}
+				paragonData[className]["Node"][nodeName] = {
+					name: nodeData["name"],
+					description: nodeDesc
+				};
 			}
 		}
 	}

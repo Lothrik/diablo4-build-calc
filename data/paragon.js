@@ -4230,38 +4230,111 @@ let paragonData = {
 			]
 		},
 		"Node": {
-			"Barbarian_Legendary_002": "Hemorrhage",
-			"Barbarian_Legendary_004": "Blood Rage",
-			"Barbarian_Legendary_005": "Natural Leader",
-			"Barbarian_Legendary_009": "Carnage",
-			"Barbarian_Legendary_011": "War Bringer",
-			"Barbarian_Legendary_014": "Decimator",
-			"Barbarian_Legendary_015": "Bone Breaker",
-			"Barbarian_Legendary_016": "Precision Striker",
-			"Barbarian_Legendary_017": "Weapons Expert",
-			"Barbarian_Rare_001": "Iron Strength",
-			"Barbarian_Rare_002": "Onslaught",
-			"Barbarian_Rare_003": "Berserker",
-			"Barbarian_Rare_004": "Flayer",
-			"Barbarian_Rare_005": "Butcher",
-			"Barbarian_Rare_006": "Lacerator",
-			"Barbarian_Rare_008": "Bludgeoner",
-			"Barbarian_Rare_009": "Vigor",
-			"Barbarian_Rare_010": "Cold Conditioned",
-			"Barbarian_Rare_015": "Tenacity",
-			"Barbarian_Rare_016": "Grit",
-			"Barbarian_Rare_018": "Conditioned",
-			"Barbarian_Rare_019": "Fire Conditioned",
-			"Barbarian_Rare_020": "Hungering Fury",
-			"Barbarian_Rare_021": "Lightning Conditioned",
-			"Barbarian_Rare_022": "Brawn",
-			"Barbarian_Rare_023": "Fierce",
-			"Barbarian_Rare_024": "Heavy Blows",
-			"Barbarian_Rare_025": "Wild Force",
-			"Barbarian_Rare_026": "Poison Conditioned",
-			"Barbarian_Rare_030": "Destroyer",
-			"Barbarian_Rare_032": "Enraged",
-			"StartNodeBarb": "Paragon Starting Location"
+			"Barbarian_Legendary_002": {
+				"name": "Hemorrhage",
+				"description": "Enemies that have been affected by your Bleeding for {#} or more seconds take x{#}% increased Bleeding damage from you."
+			},
+			"Barbarian_Legendary_004": {
+				"name": "Blood Rage",
+				"description": "Killing a Bleeding target has {#}% chance to grant Berserking for {#} seconds."
+			},
+			"Barbarian_Legendary_005": {
+				"name": "Natural Leader",
+				"description": "Increases the power of your Shout skills by {#}%."
+			},
+			"Barbarian_Legendary_009": {
+				"name": "Carnage",
+				"description": "While Berserking, critical strikes increase your attack speed by {#}%, up to {#}%, for {#} seconds."
+			},
+			"Barbarian_Legendary_011": {
+				"name": "War Bringer",
+				"description": "For every {#} Fury you spend, gain {#}% of your Maximum Life ({#}) as Fortify."
+			},
+			"Barbarian_Legendary_014": {
+				"name": "Decimator",
+				"description": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a {#}% chance to make enemies Vulnerable for {#} seconds."
+			},
+			"Barbarian_Legendary_015": {
+				"name": "Bone Breaker",
+				"description": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#}4second:seconds; and grant you {#}% of your Maximum Life ({#}) as Fortify."
+			},
+			"Barbarian_Legendary_016": {
+				"name": "Precision Striker",
+				"description": "Damaging enemies with One-Handed Weapons increases your damage by x{#}% for {#} seconds, up to x{#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind."
+			},
+			"Barbarian_Legendary_017": {
+				"name": "Weapons Expert",
+				"description": "Swapping weapons reduces your active, non-Ultimate skill cooldowns by {#} seconds."
+			},
+			"Barbarian_Rare_001": {
+				"name": "Iron Strength"
+			},
+			"Barbarian_Rare_002": {
+				"name": "Onslaught"
+			},
+			"Barbarian_Rare_003": {
+				"name": "Berserker"
+			},
+			"Barbarian_Rare_004": {
+				"name": "Flayer"
+			},
+			"Barbarian_Rare_005": {
+				"name": "Butcher"
+			},
+			"Barbarian_Rare_006": {
+				"name": "Lacerator"
+			},
+			"Barbarian_Rare_008": {
+				"name": "Bludgeoner"
+			},
+			"Barbarian_Rare_009": {
+				"name": "Vigor"
+			},
+			"Barbarian_Rare_010": {
+				"name": "Cold Conditioned"
+			},
+			"Barbarian_Rare_015": {
+				"name": "Tenacity"
+			},
+			"Barbarian_Rare_016": {
+				"name": "Grit"
+			},
+			"Barbarian_Rare_018": {
+				"name": "Conditioned"
+			},
+			"Barbarian_Rare_019": {
+				"name": "Fire Conditioned"
+			},
+			"Barbarian_Rare_020": {
+				"name": "Hungering Fury"
+			},
+			"Barbarian_Rare_021": {
+				"name": "Lightning Conditioned"
+			},
+			"Barbarian_Rare_022": {
+				"name": "Brawn"
+			},
+			"Barbarian_Rare_023": {
+				"name": "Fierce"
+			},
+			"Barbarian_Rare_024": {
+				"name": "Heavy Blows"
+			},
+			"Barbarian_Rare_025": {
+				"name": "Wild Force"
+			},
+			"Barbarian_Rare_026": {
+				"name": "Poison Conditioned"
+			},
+			"Barbarian_Rare_030": {
+				"name": "Destroyer"
+			},
+			"Barbarian_Rare_032": {
+				"name": "Enraged"
+			},
+			"StartNodeBarb": {
+				"name": "Paragon Starting Location"
+			}
 		}
 	},
 	"Druid": {
@@ -8495,123 +8568,357 @@ let paragonData = {
 			]
 		},
 		"Node": {
-			"Druid_Legendary_003": "Thunderstruck",
-			"Druid_Legendary_006": "Earthen Cruelty",
-			"Druid_Legendary_007": "Cornered",
-			"Druid_Legendary_010": "Lust for Carnage",
-			"Druid_Legendary_012": "Heightened Malice",
-			"Druid_Legendary_013": "Polymorphic",
-			"Druid_Legendary_017": "Roots of Nature",
-			"Druid_Legendary_018": "Spiritual Guidance",
-			"Druid_Magic_CriticalDamageEarth": "Bone Skill Critical Damage",
-			"Druid_Rare_003": "Deluge",
-			"Druid_Rare_004": "Nature-born",
-			"Druid_Rare_005": "Toxic Bane",
-			"Druid_Rare_006": "Primal Instinct",
-			"Druid_Rare_008": "Crushing Earth",
-			"Druid_Rare_009": "Earthen Power",
-			"Druid_Rare_010": "Nature's Will",
-			"Druid_Rare_012": "Devastation",
-			"Druid_Rare_013": "Spiritual Power",
-			"Druid_Rare_014": "Grizzly",
-			"Druid_Rare_015": "Natural Attunement",
-			"Druid_Rare_017": "Reclamation",
-			"Druid_Rare_018": "Sinking Fangs",
-			"Druid_Rare_019": "Shapeshifter",
-			"Druid_Rare_020": "Stormcaller",
-			"Druid_Rare_026": "Ursine",
-			"Druid_Rare_027": "Battleworn Hide",
-			"Druid_Rare_030": "Harmony",
-			"StartNodeDruid": "Paragon Starting Location"
+			"Druid_Legendary_003": {
+				"name": "Thunderstruck",
+				"description": "Storm skills deal x{#}% increased Critical Strike damage against Vulnerable or Immobilized targets."
+			},
+			"Druid_Legendary_006": {
+				"name": "Earthen Cruelty",
+				"description": "Your Earth skills deal x{#}% increased damage to targets afflicted by movement impairing effects."
+			},
+			"Druid_Legendary_007": {
+				"name": "Cornered",
+				"description": "While in Werebear form, you deal x{#}% increased damage, up to x{#}%, for every {#}% difference in current Life % between you and the target."
+			},
+			"Druid_Legendary_010": {
+				"name": "Lust for Carnage",
+				"description": "Critical Strikes with Werewolf skills restore {#} Spirit."
+			},
+			"Druid_Legendary_012": {
+				"name": "Heightened Malice",
+				"description": "While there are {#} or more poisoned enemies Nearby, you deal x{#}% increased damage."
+			},
+			"Druid_Legendary_013": {
+				"name": "Polymorphic",
+				"description": "After shapeshifting, your Spirit costs are reduced by {#}% for {#} seconds, up to {#}%."
+			},
+			"Druid_Legendary_017": {
+				"name": "Roots of Nature",
+				"description": "Lucky Hit: Nature Magic skills have up to a {#}% chance to entangle the target with vines, Immobilizing them for {#} seconds and poisoning them for {#}% of the base damage dealt over {#} seconds."
+			},
+			"Druid_Legendary_018": {
+				"name": "Spiritual Guidance",
+				"description": "After spending {#} Spirit, you deal x{#}% increased damage for {#} seconds."
+			},
+			"Druid_Magic_CriticalDamageEarth": {
+				"name": "Bone Skill Critical Damage"
+			},
+			"Druid_Rare_003": {
+				"name": "Deluge"
+			},
+			"Druid_Rare_004": {
+				"name": "Nature-born"
+			},
+			"Druid_Rare_005": {
+				"name": "Toxic Bane"
+			},
+			"Druid_Rare_006": {
+				"name": "Primal Instinct"
+			},
+			"Druid_Rare_008": {
+				"name": "Crushing Earth"
+			},
+			"Druid_Rare_009": {
+				"name": "Earthen Power"
+			},
+			"Druid_Rare_010": {
+				"name": "Nature's Will"
+			},
+			"Druid_Rare_012": {
+				"name": "Devastation"
+			},
+			"Druid_Rare_013": {
+				"name": "Spiritual Power"
+			},
+			"Druid_Rare_014": {
+				"name": "Grizzly"
+			},
+			"Druid_Rare_015": {
+				"name": "Natural Attunement"
+			},
+			"Druid_Rare_017": {
+				"name": "Reclamation"
+			},
+			"Druid_Rare_018": {
+				"name": "Sinking Fangs"
+			},
+			"Druid_Rare_019": {
+				"name": "Shapeshifter"
+			},
+			"Druid_Rare_020": {
+				"name": "Stormcaller"
+			},
+			"Druid_Rare_026": {
+				"name": "Ursine"
+			},
+			"Druid_Rare_027": {
+				"name": "Battleworn Hide"
+			},
+			"Druid_Rare_030": {
+				"name": "Harmony"
+			},
+			"StartNodeDruid": {
+				"name": "Paragon Starting Location"
+			}
 		}
 	},
 	"Generic": {
 		"Node": {
-			"Generic_Gate": "Board Attachment Gate",
-			"Generic_Magic_Dex": "Dexterity",
-			"Generic_Magic_Int": "Intelligence",
-			"Generic_Magic_Str": "Strength",
-			"Generic_Magic_Will": "Willpower",
-			"Generic_Normal_Dex": "Dexterity",
-			"Generic_Normal_Int": "Intelligence",
-			"Generic_Normal_Str": "Strength",
-			"Generic_Normal_Will": "Willpower",
-			"Generic_Rare_001": "Resilience",
-			"Generic_Rare_002": "Nimble",
-			"Generic_Rare_004": "Aegis",
-			"Generic_Rare_006": "Fleeting",
-			"Generic_Rare_007": "Focused",
-			"Generic_Rare_009": "Oppress",
-			"Generic_Rare_011": "Spearhead",
-			"Generic_Rare_012": "Cold Resilience",
-			"Generic_Rare_013": "Havoc",
-			"Generic_Rare_014": "Ruin",
-			"Generic_Rare_015": "Stifle",
-			"Generic_Rare_016": "Devious",
-			"Generic_Rare_017": "Feint",
-			"Generic_Rare_018": "Safeguard",
-			"Generic_Rare_019": "Suffused Resilience",
-			"Generic_Rare_021": "Calculated",
-			"Generic_Rare_022": "Hunter Killer",
-			"Generic_Rare_023": "Deathbringer",
-			"Generic_Rare_025": "Pillage",
-			"Generic_Rare_026": "Inner Strength",
-			"Generic_Rare_028": "Aggression",
-			"Generic_Rare_029": "Elementalist",
-			"Generic_Rare_030": "Culler",
-			"Generic_Rare_031": "Fire Resilience",
-			"Generic_Rare_032": "Bulwark",
-			"Generic_Rare_033": "Recuperate",
-			"Generic_Rare_034": "Lightning Resilience",
-			"Generic_Rare_035": "Re-energizer",
-			"Generic_Rare_036": "Reservoir",
-			"Generic_Rare_038": "Core Reserve",
-			"Generic_Rare_041": "Poison Resilience",
-			"Generic_Rare_042": "Restorative",
-			"Generic_Rare_044": "Tempest",
-			"Generic_Rare_046": "Shadow Resilience",
-			"Generic_Rare_047": "Steadfast",
-			"Generic_Rare_048": "Stability",
-			"Generic_Rare_049": "Exploit",
-			"Generic_Rare_051": "Skillful",
-			"Generic_Rare_052": "Reinvigorate",
-			"Generic_Rare_054": "Erudite",
-			"Generic_Rare_056": "Shell",
-			"Generic_Rare_057": "Craving",
-			"Generic_Rare_058": "Revel",
-			"Generic_Rare_059": "Brash",
-			"Generic_Rare_060": "Brute",
-			"Generic_Rare_061": "Determination",
-			"Generic_Rare_064": "Lawless",
-			"Generic_Rare_065": "Discerning",
-			"Generic_Rare_066": "Raw Power",
-			"Generic_Rare_067": "Slayer",
-			"Generic_Rare_068": "Wiles",
-			"Generic_Rare_069": "Arrogance",
-			"Generic_Rare_070": "Demolish",
-			"Generic_Rare_072": "Brutality",
-			"Generic_Rare_073": "Impel",
-			"Generic_Rare_074": "Resolve",
-			"Generic_Rare_075": "Prime",
-			"Generic_Rare_076": "Hubris",
-			"Generic_Rare_077": "Courage",
-			"Generic_Rare_078": "Regenerative",
-			"Generic_Rare_079": "Peak Condition",
-			"Generic_Rare_080": "Overturn",
-			"Generic_Rare_081": "Dosage",
-			"Generic_Rare_082": "Training",
-			"Generic_Rare_083": "Tolerance",
-			"Generic_Rare_084": "Knowledge",
-			"Generic_Rare_085": "Preservation",
-			"Generic_Rare_086": "Targeted",
-			"Generic_Rare_087": "Corrective",
-			"Generic_Rare_088": "Deathmarked",
-			"Generic_Rare_089": "Remedy",
-			"Generic_Rare_090": "Gloom",
-			"Generic_Rare_091": "Dragging Shadows",
-			"Generic_Rare_092": "Gnawing Darkness",
-			"Generic_Rare_093": "Malediction",
-			"Generic_Socket": "Glyph Socket"
+			"Generic_Gate": {
+				"name": "Board Attachment Gate"
+			},
+			"Generic_Magic_Dex": {
+				"name": "Dexterity"
+			},
+			"Generic_Magic_Int": {
+				"name": "Intelligence"
+			},
+			"Generic_Magic_Str": {
+				"name": "Strength"
+			},
+			"Generic_Magic_Will": {
+				"name": "Willpower"
+			},
+			"Generic_Normal_Dex": {
+				"name": "Dexterity"
+			},
+			"Generic_Normal_Int": {
+				"name": "Intelligence"
+			},
+			"Generic_Normal_Str": {
+				"name": "Strength"
+			},
+			"Generic_Normal_Will": {
+				"name": "Willpower"
+			},
+			"Generic_Rare_001": {
+				"name": "Resilience"
+			},
+			"Generic_Rare_002": {
+				"name": "Nimble"
+			},
+			"Generic_Rare_004": {
+				"name": "Aegis"
+			},
+			"Generic_Rare_006": {
+				"name": "Fleeting"
+			},
+			"Generic_Rare_007": {
+				"name": "Focused"
+			},
+			"Generic_Rare_009": {
+				"name": "Oppress"
+			},
+			"Generic_Rare_011": {
+				"name": "Spearhead"
+			},
+			"Generic_Rare_012": {
+				"name": "Cold Resilience"
+			},
+			"Generic_Rare_013": {
+				"name": "Havoc"
+			},
+			"Generic_Rare_014": {
+				"name": "Ruin"
+			},
+			"Generic_Rare_015": {
+				"name": "Stifle"
+			},
+			"Generic_Rare_016": {
+				"name": "Devious"
+			},
+			"Generic_Rare_017": {
+				"name": "Feint"
+			},
+			"Generic_Rare_018": {
+				"name": "Safeguard"
+			},
+			"Generic_Rare_019": {
+				"name": "Suffused Resilience"
+			},
+			"Generic_Rare_021": {
+				"name": "Calculated"
+			},
+			"Generic_Rare_022": {
+				"name": "Hunter Killer"
+			},
+			"Generic_Rare_023": {
+				"name": "Deathbringer"
+			},
+			"Generic_Rare_025": {
+				"name": "Pillage"
+			},
+			"Generic_Rare_026": {
+				"name": "Inner Strength"
+			},
+			"Generic_Rare_028": {
+				"name": "Aggression"
+			},
+			"Generic_Rare_029": {
+				"name": "Elementalist"
+			},
+			"Generic_Rare_030": {
+				"name": "Culler"
+			},
+			"Generic_Rare_031": {
+				"name": "Fire Resilience"
+			},
+			"Generic_Rare_032": {
+				"name": "Bulwark"
+			},
+			"Generic_Rare_033": {
+				"name": "Recuperate"
+			},
+			"Generic_Rare_034": {
+				"name": "Lightning Resilience"
+			},
+			"Generic_Rare_035": {
+				"name": "Re-energizer"
+			},
+			"Generic_Rare_036": {
+				"name": "Reservoir"
+			},
+			"Generic_Rare_038": {
+				"name": "Core Reserve"
+			},
+			"Generic_Rare_041": {
+				"name": "Poison Resilience"
+			},
+			"Generic_Rare_042": {
+				"name": "Restorative"
+			},
+			"Generic_Rare_044": {
+				"name": "Tempest"
+			},
+			"Generic_Rare_046": {
+				"name": "Shadow Resilience"
+			},
+			"Generic_Rare_047": {
+				"name": "Steadfast"
+			},
+			"Generic_Rare_048": {
+				"name": "Stability"
+			},
+			"Generic_Rare_049": {
+				"name": "Exploit"
+			},
+			"Generic_Rare_051": {
+				"name": "Skillful"
+			},
+			"Generic_Rare_052": {
+				"name": "Reinvigorate"
+			},
+			"Generic_Rare_054": {
+				"name": "Erudite"
+			},
+			"Generic_Rare_056": {
+				"name": "Shell"
+			},
+			"Generic_Rare_057": {
+				"name": "Craving"
+			},
+			"Generic_Rare_058": {
+				"name": "Revel"
+			},
+			"Generic_Rare_059": {
+				"name": "Brash"
+			},
+			"Generic_Rare_060": {
+				"name": "Brute"
+			},
+			"Generic_Rare_061": {
+				"name": "Determination"
+			},
+			"Generic_Rare_064": {
+				"name": "Lawless"
+			},
+			"Generic_Rare_065": {
+				"name": "Discerning"
+			},
+			"Generic_Rare_066": {
+				"name": "Raw Power"
+			},
+			"Generic_Rare_067": {
+				"name": "Slayer"
+			},
+			"Generic_Rare_068": {
+				"name": "Wiles"
+			},
+			"Generic_Rare_069": {
+				"name": "Arrogance"
+			},
+			"Generic_Rare_070": {
+				"name": "Demolish"
+			},
+			"Generic_Rare_072": {
+				"name": "Brutality"
+			},
+			"Generic_Rare_073": {
+				"name": "Impel"
+			},
+			"Generic_Rare_074": {
+				"name": "Resolve"
+			},
+			"Generic_Rare_075": {
+				"name": "Prime"
+			},
+			"Generic_Rare_076": {
+				"name": "Hubris"
+			},
+			"Generic_Rare_077": {
+				"name": "Courage"
+			},
+			"Generic_Rare_078": {
+				"name": "Regenerative"
+			},
+			"Generic_Rare_079": {
+				"name": "Peak Condition"
+			},
+			"Generic_Rare_080": {
+				"name": "Overturn"
+			},
+			"Generic_Rare_081": {
+				"name": "Dosage"
+			},
+			"Generic_Rare_082": {
+				"name": "Training"
+			},
+			"Generic_Rare_083": {
+				"name": "Tolerance"
+			},
+			"Generic_Rare_084": {
+				"name": "Knowledge"
+			},
+			"Generic_Rare_085": {
+				"name": "Preservation"
+			},
+			"Generic_Rare_086": {
+				"name": "Targeted"
+			},
+			"Generic_Rare_087": {
+				"name": "Corrective"
+			},
+			"Generic_Rare_088": {
+				"name": "Deathmarked"
+			},
+			"Generic_Rare_089": {
+				"name": "Remedy"
+			},
+			"Generic_Rare_090": {
+				"name": "Gloom"
+			},
+			"Generic_Rare_091": {
+				"name": "Dragging Shadows"
+			},
+			"Generic_Rare_092": {
+				"name": "Gnawing Darkness"
+			},
+			"Generic_Rare_093": {
+				"name": "Malediction"
+			},
+			"Generic_Socket": {
+				"name": "Glyph Socket"
+			}
 		}
 	},
 	"Necromancer": {
@@ -12845,38 +13152,110 @@ let paragonData = {
 			]
 		},
 		"Node": {
-			"Necromancer_Legendary_001": "Cult Leader",
-			"Necromancer_Legendary_005": "Towering Monstrosity",
-			"Necromancer_Legendary_007": "Flesh Field",
-			"Necromancer_Legendary_008": "Cannibalize",
-			"Necromancer_Legendary_010": "Bloodletter",
-			"Necromancer_Legendary_011": "Empowering Blood",
-			"Necromancer_Legendary_016": "Wither",
-			"Necromancer_Legendary_017": "Bone Graft",
-			"Necromancer_Rare_001": "Shaper of Bone",
-			"Necromancer_Rare_002": "Blood Zealot",
-			"Necromancer_Rare_003": "Blooddrinker",
-			"Necromancer_Rare_004": "Crimson Power",
-			"Necromancer_Rare_005": "Calcified",
-			"Necromancer_Rare_006": "Bloodcast",
-			"Necromancer_Rare_009": "Invigorated",
-			"Necromancer_Rare_011": "Unassailable",
-			"Necromancer_Rare_013": "Vampiric",
-			"Necromancer_Rare_017": "Borrowed Strength",
-			"Necromancer_Rare_018": "Armor-clad",
-			"Necromancer_Rare_020": "Custody",
-			"Necromancer_Rare_021": "Overlord",
-			"Necromancer_Rare_022": "Mutation",
-			"Necromancer_Rare_024": "Frenzied Golem",
-			"Necromancer_Rare_025": "Miscreation",
-			"Necromancer_Rare_026": "Puppeteer",
-			"Necromancer_Rare_027": "Infused Caster",
-			"Necromancer_Rare_028": "Infused Warrior",
-			"Necromancer_Rare_029": "Infused Golem",
-			"Necromancer_Rare_031": "Flesh-horror",
-			"Necromancer_Rare_034": "Blood-infused",
-			"Necromancer_Rare_035": "Lingering Shadows",
-			"StartNodeNecro": "Paragon Starting Location"
+			"Necromancer_Legendary_001": {
+				"name": "Cult Leader",
+				"description": "You and your Minions deal x{#}% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem."
+			},
+			"Necromancer_Legendary_005": {
+				"name": "Towering Monstrosity",
+				"description": "Your Golem has {#}% increased maximum Life and deals x{#}% increased damage."
+			},
+			"Necromancer_Legendary_007": {
+				"name": "Flesh Field",
+				"description": "With at least {#} corpses Nearby, you take {#}% less damage."
+			},
+			"Necromancer_Legendary_008": {
+				"name": "Cannibalize",
+				"description": "Consuming a corpse grants you x{#}% increased damage, up to x{#}%, for {#} seconds."
+			},
+			"Necromancer_Legendary_010": {
+				"name": "Bloodletter",
+				"description": "Blood skills deal x{#}% increased damage but cost an additional {#}% of the skill's Essence cost or Cooldown as a percent of  your maximum Life."
+			},
+			"Necromancer_Legendary_011": {
+				"name": "Empowering Blood",
+				"description": "Blood Orbs grant x{#}% increased damage, up to x{#}%, for {#} seconds."
+			},
+			"Necromancer_Legendary_016": {
+				"name": "Wither",
+				"description": "You and your Minions deal x{#}% increased damage to targets affected by Shadow damage over time effects."
+			},
+			"Necromancer_Legendary_017": {
+				"name": "Bone Graft",
+				"description": "Hitting enemies with Bone skills increases your damage by x{#}% and your maximum Essence by {#} for {#} seconds, stacks up to x{#}% increased damage and {#} maximum Essence."
+			},
+			"Necromancer_Rare_001": {
+				"name": "Shaper of Bone"
+			},
+			"Necromancer_Rare_002": {
+				"name": "Blood Zealot"
+			},
+			"Necromancer_Rare_003": {
+				"name": "Blooddrinker"
+			},
+			"Necromancer_Rare_004": {
+				"name": "Crimson Power"
+			},
+			"Necromancer_Rare_005": {
+				"name": "Calcified"
+			},
+			"Necromancer_Rare_006": {
+				"name": "Bloodcast"
+			},
+			"Necromancer_Rare_009": {
+				"name": "Invigorated"
+			},
+			"Necromancer_Rare_011": {
+				"name": "Unassailable"
+			},
+			"Necromancer_Rare_013": {
+				"name": "Vampiric"
+			},
+			"Necromancer_Rare_017": {
+				"name": "Borrowed Strength"
+			},
+			"Necromancer_Rare_018": {
+				"name": "Armor-clad"
+			},
+			"Necromancer_Rare_020": {
+				"name": "Custody"
+			},
+			"Necromancer_Rare_021": {
+				"name": "Overlord"
+			},
+			"Necromancer_Rare_022": {
+				"name": "Mutation"
+			},
+			"Necromancer_Rare_024": {
+				"name": "Frenzied Golem"
+			},
+			"Necromancer_Rare_025": {
+				"name": "Miscreation"
+			},
+			"Necromancer_Rare_026": {
+				"name": "Puppeteer"
+			},
+			"Necromancer_Rare_027": {
+				"name": "Infused Caster"
+			},
+			"Necromancer_Rare_028": {
+				"name": "Infused Warrior"
+			},
+			"Necromancer_Rare_029": {
+				"name": "Infused Golem"
+			},
+			"Necromancer_Rare_031": {
+				"name": "Flesh-horror"
+			},
+			"Necromancer_Rare_034": {
+				"name": "Blood-infused"
+			},
+			"Necromancer_Rare_035": {
+				"name": "Lingering Shadows"
+			},
+			"StartNodeNecro": {
+				"name": "Paragon Starting Location"
+			}
 		}
 	},
 	"Rogue": {
@@ -17110,28 +17489,80 @@ let paragonData = {
 			]
 		},
 		"Node": {
-			"Rogue_Legendary_002": "Overflowing",
-			"Rogue_Legendary_006": "Tricks of Trade",
-			"Rogue_Legendary_007": "Control Master",
-			"Rogue_Legendary_008": "Deadly Ambush",
-			"Rogue_Legendary_009": "Inner Eye",
-			"Rogue_Legendary_010": "Expose",
-			"Rogue_Legendary_011": "Ultimatum",
-			"Rogue_Legendary_012": "Completionist",
-			"Rogue_Magic_TrapCooldown": "Trap Cooldown",
-			"Rogue_Rare_005": "Finisher",
-			"Rogue_Rare_008": "Spring-loaded",
-			"Rogue_Rare_009": "Imbuer",
-			"Rogue_Rare_010": "Ready Supply",
-			"Rogue_Rare_011": "Dominant",
-			"Rogue_Rare_012": "Potent",
-			"Rogue_Rare_014": "Fundamentals",
-			"Rogue_Rare_016": "Brawler",
-			"Rogue_Rare_018": "Ranger",
-			"Rogue_Rare_027": "Engineering",
-			"Rogue_Rare_028": "Cunning",
-			"Rogue_Rare_029": "Trapper",
-			"StartNodeRogue": "Paragon Starting Location"
+			"Rogue_Legendary_002": {
+				"name": "Overflowing",
+				"description": "Your Imbues apply to {#} additional attack."
+			},
+			"Rogue_Legendary_006": {
+				"name": "Tricks of Trade",
+				"description": "Your Ranged skills grant your next Melee skill x{#}% increased damage.\n\nYour Melee skills grant your next Ranged skill x{#}% increased damage."
+			},
+			"Rogue_Legendary_007": {
+				"name": "Control Master",
+				"description": "You deal x{#}% increased damage for each Nearby target that is Crowd Controlled, up to x{#}%."
+			},
+			"Rogue_Legendary_008": {
+				"name": "Deadly Ambush",
+				"description": "You deal x{#}% increased Critical Strike Damage to targets affected by your Trap skills."
+			},
+			"Rogue_Legendary_009": {
+				"name": "Inner Eye",
+				"description": "When Inner Sight's gauge becomes full, you gain +{#}% Dodge Chance for {#} seconds."
+			},
+			"Rogue_Legendary_010": {
+				"name": "Expose",
+				"description": "Whenever you deal damage to a Vulnerable enemy, they take x{#}% increased damage from you for {#} seconds, up to x{#}%."
+			},
+			"Rogue_Legendary_011": {
+				"name": "Ultimatum",
+				"description": "Your Ultimate Skills deal x{#}% increased damage and grant you x{#}% increased damage for {#} seconds when cast."
+			},
+			"Rogue_Legendary_012": {
+				"name": "Completionist",
+				"description": "Skills that consume {#} Combo Points deal x{#}% increased damage."
+			},
+			"Rogue_Magic_TrapCooldown": {
+				"name": "Trap Cooldown"
+			},
+			"Rogue_Rare_005": {
+				"name": "Finisher"
+			},
+			"Rogue_Rare_008": {
+				"name": "Spring-loaded"
+			},
+			"Rogue_Rare_009": {
+				"name": "Imbuer"
+			},
+			"Rogue_Rare_010": {
+				"name": "Ready Supply"
+			},
+			"Rogue_Rare_011": {
+				"name": "Dominant"
+			},
+			"Rogue_Rare_012": {
+				"name": "Potent"
+			},
+			"Rogue_Rare_014": {
+				"name": "Fundamentals"
+			},
+			"Rogue_Rare_016": {
+				"name": "Brawler"
+			},
+			"Rogue_Rare_018": {
+				"name": "Ranger"
+			},
+			"Rogue_Rare_027": {
+				"name": "Engineering"
+			},
+			"Rogue_Rare_028": {
+				"name": "Cunning"
+			},
+			"Rogue_Rare_029": {
+				"name": "Trapper"
+			},
+			"StartNodeRogue": {
+				"name": "Paragon Starting Location"
+			}
 		}
 	},
 	"Sorcerer": {
@@ -21365,40 +21796,116 @@ let paragonData = {
 			]
 		},
 		"Node": {
-			"Sorcerer_Legendary_001": "Burning Instinct",
-			"Sorcerer_Legendary_002": "Searing Heat",
-			"Sorcerer_Legendary_005": "Bitter Frost",
-			"Sorcerer_Legendary_006": "Harsh Winter",
-			"Sorcerer_Legendary_007": "Surging Force",
-			"Sorcerer_Legendary_008": "Crackling Power",
-			"Sorcerer_Legendary_011": "Master of Elements",
-			"Sorcerer_Legendary_015": "Shaper of Wills",
-			"Sorcerer_Rare_002": "Cryomancy",
-			"Sorcerer_Rare_005": "Polar Rime",
-			"Sorcerer_Rare_006": "Boreal",
-			"Sorcerer_Rare_007": "Pyromancy",
-			"Sorcerer_Rare_008": "Kindling",
-			"Sorcerer_Rare_009": "Flame-touched",
-			"Sorcerer_Rare_010": "Electromancy",
-			"Sorcerer_Rare_011": "Conduit",
-			"Sorcerer_Rare_012": "Spark-touched",
-			"Sorcerer_Rare_013": "Keeper of Flames",
-			"Sorcerer_Rare_014": "Electro",
-			"Sorcerer_Rare_015": "Icebreaker",
-			"Sorcerer_Rare_016": "Smoldering Embers",
-			"Sorcerer_Rare_017": "Keeper of Winter",
-			"Sorcerer_Rare_018": "Elemental Power",
-			"Sorcerer_Rare_019": "Elemental Balance",
-			"Sorcerer_Rare_020": "Keeper of Elements",
-			"Sorcerer_Rare_022": "Overpowering Current",
-			"Sorcerer_Rare_023": "Ashes",
-			"Sorcerer_Rare_024": "Combustion",
-			"Sorcerer_Rare_025": "Cinders",
-			"Sorcerer_Rare_026": "Frosts",
-			"Sorcerer_Rare_027": "Galvanic Catalyst",
-			"Sorcerer_Rare_028": "Frigid",
-			"Sorcerer_Rare_034": "Denial",
-			"StartNodeSorc": "Paragon Starting Location"
+			"Sorcerer_Legendary_001": {
+				"name": "Burning Instinct",
+				"description": "You deal x{#}% increased damage while {#} or more burning enemies are Nearby."
+			},
+			"Sorcerer_Legendary_002": {
+				"name": "Searing Heat",
+				"description": "Direct damage from Pyromancy skills burns the target for an additional {#}% of its base damage over {#} seconds."
+			},
+			"Sorcerer_Legendary_005": {
+				"name": "Bitter Frost",
+				"description": "You deal x{#}% increased damage to Chilled and Frozen targets."
+			},
+			"Sorcerer_Legendary_006": {
+				"name": "Harsh Winter",
+				"description": "Enemies become Chilled for {#}% after they unfreeze from your Freeze effects. You take {#}% less damage from Chilled targets."
+			},
+			"Sorcerer_Legendary_007": {
+				"name": "Surging Force",
+				"description": "Critical Strikes from Shock skills grant you x{#}% increased Critical Strike Damage for 5 seconds. This effect stacks up to x{#}%."
+			},
+			"Sorcerer_Legendary_008": {
+				"name": "Crackling Power",
+				"description": "Dealing damage with Crackling Energy has a {#}% chance to not consume a charge."
+			},
+			"Sorcerer_Legendary_011": {
+				"name": "Master of Elements",
+				"description": "Lucky Hit: Core skills have up to a {#}% chance to make your next Mastery skill deal x{#}% increased damage."
+			},
+			"Sorcerer_Legendary_015": {
+				"name": "Shaper of Wills",
+				"description": "After spending {#} Mana, you gain {#}% of your Maximum Life ({#}) as Barrier for {#} seconds."
+			},
+			"Sorcerer_Rare_002": {
+				"name": "Cryomancy"
+			},
+			"Sorcerer_Rare_005": {
+				"name": "Polar Rime"
+			},
+			"Sorcerer_Rare_006": {
+				"name": "Boreal"
+			},
+			"Sorcerer_Rare_007": {
+				"name": "Pyromancy"
+			},
+			"Sorcerer_Rare_008": {
+				"name": "Kindling"
+			},
+			"Sorcerer_Rare_009": {
+				"name": "Flame-touched"
+			},
+			"Sorcerer_Rare_010": {
+				"name": "Electromancy"
+			},
+			"Sorcerer_Rare_011": {
+				"name": "Conduit"
+			},
+			"Sorcerer_Rare_012": {
+				"name": "Spark-touched"
+			},
+			"Sorcerer_Rare_013": {
+				"name": "Keeper of Flames"
+			},
+			"Sorcerer_Rare_014": {
+				"name": "Electro"
+			},
+			"Sorcerer_Rare_015": {
+				"name": "Icebreaker"
+			},
+			"Sorcerer_Rare_016": {
+				"name": "Smoldering Embers"
+			},
+			"Sorcerer_Rare_017": {
+				"name": "Keeper of Winter"
+			},
+			"Sorcerer_Rare_018": {
+				"name": "Elemental Power"
+			},
+			"Sorcerer_Rare_019": {
+				"name": "Elemental Balance"
+			},
+			"Sorcerer_Rare_020": {
+				"name": "Keeper of Elements"
+			},
+			"Sorcerer_Rare_022": {
+				"name": "Overpowering Current"
+			},
+			"Sorcerer_Rare_023": {
+				"name": "Ashes"
+			},
+			"Sorcerer_Rare_024": {
+				"name": "Combustion"
+			},
+			"Sorcerer_Rare_025": {
+				"name": "Cinders"
+			},
+			"Sorcerer_Rare_026": {
+				"name": "Frosts"
+			},
+			"Sorcerer_Rare_027": {
+				"name": "Galvanic Catalyst"
+			},
+			"Sorcerer_Rare_028": {
+				"name": "Frigid"
+			},
+			"Sorcerer_Rare_034": {
+				"name": "Denial"
+			},
+			"StartNodeSorc": {
+				"name": "Paragon Starting Location"
+			}
 		}
 	}
 }
