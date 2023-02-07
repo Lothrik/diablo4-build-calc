@@ -221,8 +221,7 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 	}
 }
 function setNodeStyleThick(curNode, invertColor = false) {
-	let _lineStyleThickSquare = {};
-	Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
+	let _lineStyleThickSquare = { ...lineStyleThickSquare };
 	if (invertColor) {
 		if (_lineStyleThickSquare.color == 0xFFFFFF) {
 			_lineStyleThickSquare.color = 0x00FF00;
@@ -243,8 +242,7 @@ function setNodeStyleThick(curNode, invertColor = false) {
 	}
 }
 function setNodeStyleThin(curNode) {
-	let _lineStyleThinSquare = {};
-	Object.assign(_lineStyleThinSquare, lineStyleThinSquare);
+	let _lineStyleThinSquare = { ...lineStyleThinSquare };
 	if (curNode.nodeData.get("colorOverride") != undefined) {
 		_lineStyleThinSquare.color = curNode.nodeData.get("colorOverride");
 	}
@@ -284,8 +282,7 @@ function handleNodeColorInput(event) {
 		if (curNode.groupName != undefined) {
 			const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 			if (allocatedPoints > 0) {
-				let _lineStyleThickSquare = {};
-				Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
+				let _lineStyleThickSquare = { ...lineStyleThickSquare };
 				if (curNode.nodeData.get("colorOverride") != undefined) _lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
 
 				curNode.children[curNode.children.length > 3 ? 5 : 2].updateLineStyle(_lineStyleThickSquare);
@@ -301,8 +298,7 @@ function handleNodeColorInput(event) {
 			const requiredPoints = groupNode.nodeData.get("requiredPoints");
 			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
 			if (validConnection) {
-				let _lineStyleThickSquare = {};
-				Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
+				let _lineStyleThickSquare = { ...lineStyleThickSquare };
 				if (groupNode.nodeData.get("colorOverride") != undefined) _lineStyleThickSquare.color = groupNode.nodeData.get("colorOverride");
 
 				groupNode.children[2].updateLineStyle(_lineStyleThickSquare);
@@ -1067,8 +1063,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
 	if (([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
-		let _lineStyleThickSquare = {};
-		Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
+		let _lineStyleThickSquare = { ...lineStyleThickSquare };
 		if (searchQueryMatch) { // aka `invertColor`
 			if (_lineStyleThickSquare.color == 0xFFFFFF) {
 				_lineStyleThickSquare.color = 0x00FF00;
@@ -1080,8 +1075,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		}
 		nodeBorder.lineStyle(_lineStyleThickSquare);
 	} else {
-		let _lineStyleThinSquare = {};
-		Object.assign(_lineStyleThinSquare, lineStyleThinSquare);
+		let _lineStyleThinSquare = { ...lineStyleThinSquare };
 		if (colorOverride != undefined) _lineStyleThinSquare.color = colorOverride;
 
 		nodeBorder.lineStyle(_lineStyleThinSquare);
