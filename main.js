@@ -123,6 +123,13 @@ const SPIRIT_BOONS = "Spirit Boons";
 const SPIRIT_BOON_DESC = "Specializing in this spirit type will allow you to allocate two boons instead of only one.";
 const BOOK_OF_THE_DEAD = "Book of the Dead";
 
+const COLOR_OVERRIDE = {
+	"Magic": 0x0077FF,
+	"Rare": 0xFFFF00,
+	"Legendary": 0xFF7700,
+	"Socket": 0xFF0000
+};
+
 const pixiScalingFloor = 0.15;
 const pixiScalingCeiling = 4;
 const tooltipScalingFloor = 0.15;
@@ -222,6 +229,7 @@ function setNodeStyleThick(curNode, invertColor = false) {
 		}
 	} else {
 		_lineStyleThickSquare = lineStyleThickSquare;
+		if (curNode.nodeData.get("colorOverride") != undefined) _lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
 	}
 	curNode.children[1].style.fontWeight = "bold";
 	if (curNode.children.length > 3) {
@@ -234,16 +242,20 @@ function setNodeStyleThick(curNode, invertColor = false) {
 	}
 }
 function setNodeStyleThin(curNode) {
+	let _lineStyleThinSquare = {};
+	Object.assign(_lineStyleThinSquare, lineStyleThinSquare);
+	if (curNode.nodeData.get("colorOverride") != undefined) _lineStyleThinSquare.color = curNode.nodeData.get("colorOverride");
+
 	curNode.children[1].style.fontWeight = "normal";
 	if (curNode.children.length > 3) {
 		curNode.children[2].style.fontWeight = "normal";
 		curNode.children[3].children[0].style.fontWeight = "normal";
 		curNode.children[4].children[0].style.fontWeight = "normal";
-		curNode.children[5].lineStyle(lineStyleThinSquare);
-		curNode.children[5].updateLineStyle(lineStyleThinSquare);
+		curNode.children[5].lineStyle(_lineStyleThinSquare);
+		curNode.children[5].updateLineStyle(_lineStyleThinSquare);
 	} else {
-		curNode.children[2].lineStyle(lineStyleThinSquare);
-		curNode.children[2].updateLineStyle(lineStyleThinSquare);
+		curNode.children[2].lineStyle(_lineStyleThinSquare);
+		curNode.children[2].updateLineStyle(_lineStyleThinSquare);
 	}
 }
 
@@ -269,7 +281,13 @@ function handleNodeColorInput(event) {
 	pixiNodes.forEach(curNode => {
 		if (curNode.groupName != undefined) {
 			const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-			if (allocatedPoints > 0) curNode.children[curNode.children.length > 3 ? 5 : 2].updateLineStyle(lineStyleThickSquare);
+			if (allocatedPoints > 0) {
+				let _lineStyleThickSquare = {};
+				Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
+				if (curNode.nodeData.get("colorOverride") != undefined) _lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
+
+				curNode.children[curNode.children.length > 3 ? 5 : 2].updateLineStyle(_lineStyleThickSquare);
+			}
 		}
 	});
 
@@ -280,7 +298,13 @@ function handleNodeColorInput(event) {
 		pixiNodes.filter(pixiNode => trunkData.has(pixiNode.nodeName)).forEach(groupNode => {
 			const requiredPoints = groupNode.nodeData.get("requiredPoints");
 			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
-			if (validConnection) groupNode.children[2].updateLineStyle(lineStyleThickSquare);
+			if (validConnection) {
+				let _lineStyleThickSquare = {};
+				Object.assign(_lineStyleThickSquare, lineStyleThickSquare);
+				if (groupNode.nodeData.get("colorOverride") != undefined) _lineStyleThickSquare.color = groupNode.nodeData.get("colorOverride");
+
+				groupNode.children[2].updateLineStyle(_lineStyleThickSquare);
+			}
 		});
 	}
 
@@ -1036,6 +1060,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeBackground.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
 
+	const colorOverride = nodeData.get("colorOverride");
 	const nodeBorder = new PIXI.Graphics();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
@@ -1050,10 +1075,15 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			}
 		} else {
 			_lineStyleThickSquare = lineStyleThickSquare;
+			if (colorOverride != undefined) _lineStyleThickSquare.color = colorOverride;
 		}
 		nodeBorder.lineStyle(_lineStyleThickSquare);
 	} else {
-		nodeBorder.lineStyle(lineStyleThinSquare);
+		let _lineStyleThinSquare = {};
+		Object.assign(_lineStyleThinSquare, lineStyleThinSquare);
+		if (colorOverride != undefined) _lineStyleThinSquare.color = colorOverride;
+
+		nodeBorder.lineStyle(_lineStyleThinSquare);
 	}
 	if (shapeType == "circle") {
 		nodeBorder.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
@@ -1355,6 +1385,81 @@ function drawAllNodes() {
 
 		const classText = $(classString).text();
 
+		const paragonBoardCount = Object.keys(paragonData[classText]["Board"]).length;
+		if (paragonBoardCount > 0) {
+			const paragonBoardNodes = 21;
+
+			const nodeWidth = 125;
+			const nodeHeight = 125;
+			const nodeSpacingX = nodeWidth + 25;
+			const nodeSpacingY = nodeHeight + 25;
+
+			const paragonNode = new Map([
+				["requiredPoints", 0],
+				["widthOverride", paragonBoardCount * (paragonBoardNodes + 3) * nodeSpacingX - nodeSpacingX],
+				["shapeSize", 1],
+				["shapeType", "rectangle"],
+				["x", -nodeSpacingX * paragonBoardNodes * 0.5 - nodeSpacingX * 1.5],
+				["y", -nodeSpacingY * (paragonBoardNodes + 1) - 950]
+			]);
+
+			drawNode(PARAGON_BOARD, paragonNode);
+
+			let paragonBoardIdx = 0;
+			for (const [boardName, boardData] of Object.entries(paragonData[classText]["Board"])) {
+				const startX = (paragonBoardNodes + 3) * nodeSpacingX * (paragonBoardIdx - paragonBoardCount * 0.5);
+				const startY = -(paragonBoardNodes + 1) * nodeSpacingY - 800;
+
+				let [boardX, boardY] = [startX, startY];
+
+				const paragonBoardNode = new Map([
+					["requiredPoints", 0],
+					["widthOverride", nodeSpacingX * (paragonBoardNodes + 2)],
+					["shapeSize", 1],
+					["shapeType", "rectangle"],
+					["x", boardX],
+					["y", boardY]
+				]);
+
+				drawNode(boardName, paragonBoardNode);
+				for (const [yPosition, rowData] of Object.entries(boardData)) {
+					for (const [xPosition, nodeData] of Object.entries(rowData)) {
+						if (nodeData.length > 0) {
+							const nodeName = paragonData["Generic"]["Node"][nodeData] != undefined ? paragonData["Generic"]["Node"][nodeData]
+								: paragonData[classText]["Node"][nodeData] != undefined ? paragonData[classText]["Node"][nodeData]
+								: nodeData.includes("_Magic_") ? nodeData
+									.replace(/.+_Magic_/g, "")
+									.replace(/([0-9A-Z])/g, " $1")
+									.replace(/([0-9A-Z]) ([0-9A-Z])/g, "$1$2")
+									.trim()
+								: nodeData;
+							const nodeType = nodeData.includes("_Normal_") ? "Normal"
+								: nodeData.includes("_Magic_") ? "Magic"
+								: nodeData.includes("_Rare_") ? "Rare"
+								: nodeData.includes("_Legendary_") ? "Legendary"
+								: nodeName.includes("Socket") ? "Socket" : "";
+							const boardNode = new Map([
+								["allocatedPoints", 0],
+								["colorOverride", COLOR_OVERRIDE[nodeType]],
+								["description", nodeType.length > 0 ? `${nodeType} Node` : ""],
+								["id", `paragon-${paragonBoardIdx}-${xPosition}-${yPosition}`],
+								["maxPoints", 1],
+								["widthOverride", nodeWidth],
+								["heightOverride", nodeHeight],
+								["shapeSize", 1],
+								["shapeType", "rectangle"],
+								["x", boardX + nodeSpacingX * (Number(xPosition) - ((paragonBoardNodes - 1) * 0.5))],
+								["y", boardY + nodeSpacingY * (Number(yPosition) + 0.5) + 100]
+							]);
+							drawNode(nodeName, boardNode, PARAGON_BOARD);
+						}
+					}
+				}
+				paragonBoardIdx++;
+			}
+			$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
+		}
+
 		const codexResult = getCodexData(["General", classText]);
 		if (Object.keys(codexResult).length > 0) {
 			const startX = -4000;
@@ -1433,79 +1538,6 @@ function drawAllNodes() {
 				}
 			}
 			$("#groupSelector").append(`<option value="${CODEX_OF_POWER.replace(/\s/g, "").toLowerCase()}">${CODEX_OF_POWER}</option>`);
-		}
-
-		const paragonBoardCount = Object.keys(paragonData[classText]["Board"]).length;
-		if (paragonBoardCount > 0) {
-			const paragonBoardNodes = 21;
-
-			const nodeWidth = 125;
-			const nodeHeight = 125;
-			const nodeSpacingX = nodeWidth + 25;
-			const nodeSpacingY = nodeHeight + 25;
-
-			const paragonNode = new Map([
-				["requiredPoints", 0],
-				["widthOverride", paragonBoardCount * (paragonBoardNodes + 3) * nodeSpacingX - nodeSpacingX],
-				["shapeSize", 1],
-				["shapeType", "rectangle"],
-				["x", -nodeSpacingX * paragonBoardNodes * 0.5 - nodeSpacingX * 1.5],
-				["y", -nodeSpacingY * (paragonBoardNodes + 1) - 950]
-			]);
-
-			drawNode(PARAGON_BOARD, paragonNode);
-
-			let paragonBoardIdx = 0;
-			for (const [boardName, boardData] of Object.entries(paragonData[classText]["Board"])) {
-				const startX = (paragonBoardNodes + 3) * nodeSpacingX * (paragonBoardIdx - paragonBoardCount * 0.5);
-				const startY = -(paragonBoardNodes + 1) * nodeSpacingY - 800;
-
-				let [boardX, boardY] = [startX, startY];
-
-				const paragonBoardNode = new Map([
-					["requiredPoints", 0],
-					["widthOverride", nodeSpacingX * (paragonBoardNodes + 2)],
-					["shapeSize", 1],
-					["shapeType", "rectangle"],
-					["x", boardX],
-					["y", boardY]
-				]);
-
-				drawNode(boardName, paragonBoardNode);
-				for (const [yPosition, rowData] of Object.entries(boardData)) {
-					for (const [xPosition, nodeData] of Object.entries(rowData)) {
-						if (nodeData.length > 0) {
-							const nodeRarity = nodeData.includes("_Normal_") ? "Normal"
-								: nodeData.includes("_Magic_") ? "Magic"
-								: nodeData.includes("_Rare_") ? "Rare"
-								: nodeData.includes("_Legendary_") ? "Legendary" : "";
-							const boardNode = new Map([
-								["allocatedPoints", 0],
-								["description", nodeRarity.length > 0 ? `${nodeRarity} Node` : ""],
-								["id", `paragon-${paragonBoardIdx}-${xPosition}-${yPosition}`],
-								["maxPoints", 1],
-								["widthOverride", nodeWidth],
-								["heightOverride", nodeHeight],
-								["shapeSize", 1],
-								["shapeType", "rectangle"],
-								["x", boardX + nodeSpacingX * (Number(xPosition) - ((paragonBoardNodes - 1) * 0.5))],
-								["y", boardY + nodeSpacingY * (Number(yPosition) + 0.5) + 100]
-							]);
-							const nodeName = (paragonData["Generic"]["Node"][nodeData] != undefined ? paragonData["Generic"]["Node"][nodeData]
-								: paragonData[classText]["Node"][nodeData] != undefined ? paragonData[classText]["Node"][nodeData]
-								: nodeData.includes("_Magic_") ? nodeData
-									.replace(/.+_Magic_/g, "")
-									.replace(/([0-9A-Z])/g, " $1")
-									.replace(/([0-9A-Z]) ([0-9A-Z])/g, "$1$2")
-									.trim()
-								: nodeData);
-							drawNode(nodeName, boardNode, PARAGON_BOARD);
-						}
-					}
-				}
-				paragonBoardIdx++;
-			}
-			$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
 		}
 	}
 }
