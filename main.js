@@ -1221,6 +1221,7 @@ function drawAllNodes() {
 				groupNode.set("x", branchData.get("x"));
 				groupNode.set("y", branchData.get("y"));
 				if (groupName == SPIRIT_BOONS) {
+					groupNode.set("colorOverride", 0xFFFFFF);
 					groupNode.set("shapeSize", 1);
 					groupNode.set("shapeType", "rectangle");
 					groupNode.set("widthOverride", 1700);
@@ -1280,6 +1281,7 @@ function drawAllNodes() {
 						extraY += nodeSpacingY * (nodeLimitY - 1);
 					}
 				} else if (groupName == BOOK_OF_THE_DEAD) {
+					groupNode.set("colorOverride", 0xFFFFFF);
 					groupNode.set("shapeSize", 1);
 					groupNode.set("shapeType", "rectangle");
 					groupNode.set("widthOverride", 1600);
@@ -1401,6 +1403,7 @@ function drawAllNodes() {
 			const nodeSpacingY = nodeHeight + 25;
 
 			const paragonNode = new Map([
+				["colorOverride", 0xFFFFFF],
 				["requiredPoints", 0],
 				["widthOverride", paragonBoardCount * (paragonBoardNodes + 3) * nodeSpacingX - nodeSpacingX],
 				["shapeSize", 1],
@@ -1483,6 +1486,7 @@ function drawAllNodes() {
 			let [codexX, codexY] = [startX, startY];
 
 			const codexNode = new Map([
+				["colorOverride", 0xFFFFFF],
 				["requiredPoints", 0],
 				["widthOverride", nodeSpacingX * 4 - 50],
 				["shapeSize", 1],
