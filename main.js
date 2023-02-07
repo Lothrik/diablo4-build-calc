@@ -127,6 +127,7 @@ const COLOR_OVERRIDE = {
 	"Magic": 0x0077FF,
 	"Rare": 0xFFFF00,
 	"Legendary": 0xFF7700,
+	"Start": 0xFF00FF,
 	"Gate": 0xFF00FF,
 	"Socket": 0xFF0000
 };
@@ -1442,8 +1443,9 @@ function drawAllNodes() {
 								: nodeData.includes("_Magic_") ? "Magic"
 								: nodeData.includes("_Rare_") ? "Rare"
 								: nodeData.includes("_Legendary_") ? "Legendary"
-								: nodeData.includes("Gate") ? "Gate"
-								: nodeData.includes("Socket") ? "Socket" : "";
+								: nodeData.includes("StartNode") ? "Start"
+								: nodeData == "Generic_Gate" ? "Gate"
+								: nodeData == "Generic_Socket" ? "Socket" : "";
 							const boardNode = new Map([
 								["allocatedPoints", 0],
 								["colorOverride", COLOR_OVERRIDE[nodeType]],
