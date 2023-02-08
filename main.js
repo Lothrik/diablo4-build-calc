@@ -1891,6 +1891,8 @@ function rebuildCanvas() {
 	pixiJS.stage.pivot.set(0, 0);
 	pixiJS.stage.scale.set(1, 1);
 
+	newRenderScale = 1;
+
 	drawBackground();
 	drawAllNodes();
 	drawAllConnectors();
