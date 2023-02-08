@@ -561,12 +561,15 @@ function handleReloadButton() {
 					const uniqueNodeId = curNode.nodeData.get("id");
 					const savedPoints = nodeData[uniqueNodeId] == undefined ? (nodeData[fullNodeName] == undefined ? 0 : nodeData[fullNodeName]) : nodeData[uniqueNodeId];
 
-					const unusedPoints = getUnusedPoints(false);
 					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 					const maxPoints = curNode.nodeData.get("maxPoints");
 
 					let newPoints = Math.max(Math.min(savedPoints, maxPoints), 0);
-					if (![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) newPoints = Math.min(newPoints, unusedPoints + allocatedPoints);
+					if (curNode.groupName == PARAGON_BOARD) {
+						newPoints = Math.min(newPoints, getUnusedPoints(true) + allocatedPoints);
+					} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+						newPoints = Math.min(newPoints, getUnusedPoints(false) + allocatedPoints);
+					}
 
 					if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
 						if (curNode.groupName == PARAGON_BOARD) {
