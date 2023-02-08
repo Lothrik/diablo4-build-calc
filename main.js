@@ -158,6 +158,7 @@ var lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, co
 var lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
 
 var pixiAllocatedPoints = new Map();
+var pixiAllocatedParagonPoints = 0;
 var pixiNodes = [];
 var pixiConnectors = [];
 var pixiConnectorPairs = [];
@@ -568,7 +569,11 @@ function handleReloadButton() {
 					if (![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) newPoints = Math.min(newPoints, unusedPoints + allocatedPoints);
 
 					if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
-						if (![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+						if (curNode.groupName == PARAGON_BOARD) {
+							pixiAllocatedParagonPoints = pixiAllocatedParagonPoints - allocatedPoints + newPoints;
+						} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+							pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+						}
 						updateNodePoints(curNode, newPoints);
 					}
 				}
@@ -662,8 +667,7 @@ function getUnusedPoints(paragonPoints = false) {
 	if (paragonPoints) {
 		// 1 paragon point gained at level 50, then 4 per level from 51-100 inclusive (level total: 201); plus 20 from renown (final total: 221)
 		const maxParagonPoints = 221;
-		// TODO: implement paragon points
-		return 0;
+		return maxParagonPoints - pixiAllocatedParagonPoints;
 	} else {
 		// 1 skill point per level from 2-49 inclusive (level total: 48); plus 15 from renown (final total: 63)
 		const maxSkillPoints = 63;
@@ -673,14 +677,25 @@ function getUnusedPoints(paragonPoints = false) {
 }
 function updateCharacterLevel() {
 	const unusedPoints = getUnusedPoints(false);
+	const unusedParagonPoints = getUnusedPoints(true);
+
 	let charLevel = 1;
 	let renownLevel = 0;
+
 	if (unusedPoints >= 15) {
 		charLevel = 64 - unusedPoints;
 	} else {
 		charLevel = 50;
 		renownLevel = 15 - unusedPoints;
 	}
+
+	if (unusedParagonPoints < 21) {
+		charLevel = 100;
+		renownLevel += 20 - unusedParagonPoints;
+	} else if (unusedParagonPoints < 221) {
+		charLevel = 49 + Math.ceil((221 - unusedParagonPoints) / 4);
+	}
+
 	$("#charLevel").text(charLevel);
 	$("#renownLevel").text(renownLevel > 0 ? " (Renown " + renownLevel + ")" : "");
 }
@@ -707,8 +722,10 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	}
 }
 function canAllocate(curNode) {
-	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		return true;
+	} else if (curNode.groupName == PARAGON_BOARD) {
+		return getUnusedPoints(true) > 0;
 	} else if (curNode.groupName == CAPSTONE) {
 		return pixiNodes.find(pixiNode => {
 			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
@@ -805,7 +822,13 @@ function handlePlusButton(curNode) {
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
 
-		if (newPoints != allocatedPoints) updateNodePoints(curNode, newPoints);
+		if (newPoints != allocatedPoints) {
+			updateNodePoints(curNode, newPoints);
+			if (curNode.groupName == PARAGON_BOARD) {
+				pixiAllocatedParagonPoints++;
+				updateCharacterLevel();
+			}
+		}
 	} else {
 		if (getUnusedPoints(false) <= 0) return;
 
@@ -845,7 +868,13 @@ function handleMinusButton(curNode) {
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.max(allocatedPoints - 1, 0);
 
-		if (newPoints != allocatedPoints) updateNodePoints(curNode, newPoints);
+		if (newPoints != allocatedPoints) {
+			updateNodePoints(curNode, newPoints);
+			if (curNode.groupName == PARAGON_BOARD) {
+				pixiAllocatedParagonPoints--;
+				updateCharacterLevel();
+			}
+		}
 
 		if (curNode.groupName == SPIRIT_BOONS && curNode.nodeData.get("description") == SPIRIT_BOON_DESC) {
 			let foundBoon = false;
@@ -1878,6 +1907,7 @@ function drawBackground() {
 function rebuildCanvas() {
 	while (pixiJS.stage.children[0]) pixiJS.stage.children[0].destroy(true);
 	pixiAllocatedPoints = new Map();
+	pixiAllocatedParagonPoints = 0;
 	pixiNodes = [];
 	pixiConnectors = [];
 	pixiConnectorPairs = [];
