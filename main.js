@@ -521,11 +521,7 @@ function handleSaveButton() {
 		pixiNodes.forEach(curNode => {
 			if (curNode.groupName != undefined) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-				if (allocatedPoints > 0) {
-					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
-					const uniqueNodeId = curNode.nodeData.get("id");
-					nodeData[uniqueNodeId == undefined ? fullNodeName : uniqueNodeId] = curNode.nodeData.get("allocatedPoints");
-				}
+				if (allocatedPoints > 0) nodeData[curNode.nodeData.get("id")] = allocatedPoints;
 			}
 		});
 		const jsonData = JSON.stringify(nodeData);
@@ -545,21 +541,13 @@ function handleReloadButton() {
 		function finishLoading() {
 			delete nodeData.className;
 			function compareNodes(firstNode, secondNode) {
-				const firstFullNodeName = firstNode.groupName + ": " + firstNode.nodeName;
-				const firstUniqueNodeId = firstNode.nodeData.get("id");
-				const firstSavedPoints = nodeData[firstUniqueNodeId] == undefined ? (nodeData[firstFullNodeName] == undefined ? 0 : nodeData[firstFullNodeName]) : nodeData[firstUniqueNodeId];
-
-				const secondFullNodeName = secondNode.groupName + ": " + secondNode.nodeName;
-				const secondUniqueNodeId = secondNode.nodeData.get("id");
-				const secondSavedPoints = nodeData[secondUniqueNodeId] == undefined ? (nodeData[secondFullNodeName] == undefined ? 0 : nodeData[secondFullNodeName]) : nodeData[secondUniqueNodeId];
-
-				return firstSavedPoints - secondSavedPoints;
+				return nodeData[firstNode.nodeData.get("id")] - nodeData[secondNode.nodeData.get("id")];
 			}
 			function processNode(curNode) {
 				if (curNode.groupName != undefined) {
 					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
 					const uniqueNodeId = curNode.nodeData.get("id");
-					const savedPoints = nodeData[uniqueNodeId] == undefined ? (nodeData[fullNodeName] == undefined ? 0 : nodeData[fullNodeName]) : nodeData[uniqueNodeId];
+					const savedPoints = uniqueNodeId in nodeData ? nodeData[uniqueNodeId] : 0;
 
 					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 					const maxPoints = curNode.nodeData.get("maxPoints");
