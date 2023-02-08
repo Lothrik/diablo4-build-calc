@@ -1389,8 +1389,6 @@ function drawAllNodes() {
 			}
 		}
 
-		resizeSearchInput();
-
 		const classText = $(classString).text();
 
 		const paragonBoardCount = Object.keys(paragonData[classText]["Board"]).length;
@@ -1405,18 +1403,24 @@ function drawAllNodes() {
 			const paragonNode = new Map([
 				["colorOverride", 0xFFFFFF],
 				["requiredPoints", 0],
-				["widthOverride", paragonBoardCount * (paragonBoardNodes + 3) * nodeSpacingX - nodeSpacingX],
+				["widthOverride", (paragonBoardCount * paragonBoardNodes * nodeSpacingX) + (nodeSpacingX * (paragonBoardCount - 1) * 0.5)],
 				["shapeSize", 1],
 				["shapeType", "rectangle"],
-				["x", -nodeSpacingX * paragonBoardNodes * 0.5 - nodeSpacingX * 1.5],
+				["x", 0],
 				["y", -nodeSpacingY * (paragonBoardNodes + 1) - 950]
 			]);
 
 			drawNode(PARAGON_BOARD, paragonNode);
 
-			let paragonBoardIdx = 0;
-			for (const [boardName, boardData] of Object.entries(paragonData[classText]["Board"])) {
-				const startX = (paragonBoardNodes + 3) * nodeSpacingX * (paragonBoardIdx - paragonBoardCount * 0.5);
+			const unsortedBoards = Object.entries(paragonData[classText]["Board"]);
+			const unsortedMidpoint = Math.ceil(unsortedBoards.length / 2);
+			const sortedBoards = unsortedBoards.slice(1, unsortedMidpoint).concat([unsortedBoards[0]], unsortedBoards.slice(unsortedMidpoint));
+
+			let sortedIndex = 0;
+			for (const [boardName, boardData] of sortedBoards) {
+				const unsortedIndex = unsortedBoards.findIndex(unsortedBoard => unsortedBoard[0] == boardName);
+
+				const startX = (paragonBoardNodes + 0.5) * nodeSpacingX * (sortedIndex - (paragonBoardCount - 1) * 0.5);
 				const startY = -(paragonBoardNodes + 1) * nodeSpacingY - 800;
 
 				let [boardX, boardY] = [startX, startY];
@@ -1424,7 +1428,7 @@ function drawAllNodes() {
 				const paragonBoardNode = new Map([
 					["allocatedPoints", 0],
 					//["description", ""],
-					["widthOverride", nodeSpacingX * (paragonBoardNodes + 2)],
+					["widthOverride", nodeSpacingX * paragonBoardNodes],
 					["maxPoints", 0],
 					["shapeSize", 1],
 					["shapeType", "rectangle"],
@@ -1457,7 +1461,7 @@ function drawAllNodes() {
 								["allocatedPoints", 0],
 								["colorOverride", COLOR_OVERRIDE[nodeType]],
 								["description", `${nodeDesc}${nodeData}`],
-								["id", `paragon-${paragonBoardIdx}-${xPosition}-${yPosition}`],
+								["id", `paragon-${unsortedIndex}-${xPosition}-${yPosition}`],
 								["maxPoints", 1],
 								["widthOverride", nodeWidth],
 								["heightOverride", nodeHeight],
@@ -1470,7 +1474,7 @@ function drawAllNodes() {
 						}
 					}
 				}
-				paragonBoardIdx++;
+				sortedIndex++;
 			}
 			$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
 		}
@@ -1555,6 +1559,8 @@ function drawAllNodes() {
 			}
 			$("#groupSelector").append(`<option value="${CODEX_OF_POWER.replace(/\s/g, "").toLowerCase()}">${CODEX_OF_POWER}</option>`);
 		}
+
+		resizeSearchInput();
 	}
 }
 function getCodexData(desiredCategories = null, desiredTypes = null) {
