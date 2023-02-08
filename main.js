@@ -52,7 +52,7 @@ function lineIntersect(x1, y1, x2, y2, x3, y3, x4, y4, angle = 0, c1 = [], c2 = 
 	return [ x, y ];
 }
 
-// rotates [x, y] around [cx, cy] by angle (in degrees)
+// rotateAngle returns [x, y] rotated around [cx, cy] by angle (in degrees)
 function rotateAngle(cx, cy, x, y, angle) {
 	const radians = (Math.PI / 180) * angle,
 		cos = Math.cos(radians),
@@ -62,7 +62,7 @@ function rotateAngle(cx, cy, x, y, angle) {
 	return [ nx, ny ];
 }
 
-// populateMap fills a map with the values of an object using nested maps
+// populateMap fills a map with the values of an object, using nested maps
 function populateMap(map, object, keys) {
 	if (!keys.length) return map;
 
@@ -74,6 +74,25 @@ function populateMap(map, object, keys) {
 	map.set(key, value);
 
 	return populateMap(map, object, keys);
+}
+
+// convertBase returns an input value converted from one base (radix) to another, up to base 62
+function convertBase(value, from_base, to_base) {
+	const range = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+	const from_range = range.slice(0, from_base);
+	const to_range = range.slice(0, to_base);
+
+	var dec_value = value.split("").reverse().reduce((carry, digit, index) => {
+		if (from_range.indexOf(digit) == -1) throw new Error("Invalid digit `" + digit + "` for base `" + from_base + "`.");
+		return carry += from_range.indexOf(digit) * Math.pow(from_base, index);
+	}, 0);
+
+	var new_value = "";
+	while (dec_value > 0) {
+		new_value = to_range[dec_value % to_base] + new_value;
+		dec_value = (dec_value - (dec_value % to_base)) / to_base;
+	}
+	return new_value || "0";
 }
 
 // rgba2hex converts a `rgba(255, 255, 255, 1)` string into an equivalent hex string: `0xffffffff`
@@ -521,9 +540,13 @@ function handleSaveButton() {
 		pixiNodes.forEach(curNode => {
 			if (curNode.groupName != undefined) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-				if (allocatedPoints > 0) nodeData[curNode.nodeData.get("id")] = allocatedPoints;
+				if (allocatedPoints > 0) {
+					const nodeId = convertNodeId(curNode.nodeData.get("id"), curNode.groupName);
+					nodeData[nodeId] = allocatedPoints;
+				}
 			}
 		});
+		if (debugMode) console.log(nodeData);
 		const jsonData = JSON.stringify(nodeData);
 		const compressedData = LZString.compressToEncodedURIComponent(jsonData);
 		const newURL = window.location.href.split("#")[0] + "#" + compressedData;
@@ -545,9 +568,14 @@ function handleReloadButton() {
 			}
 			function processNode(curNode) {
 				if (curNode.groupName != undefined) {
-					const fullNodeName = curNode.groupName + ": " + curNode.nodeName;
-					const uniqueNodeId = curNode.nodeData.get("id");
-					const savedPoints = uniqueNodeId in nodeData ? nodeData[uniqueNodeId] : 0;
+					let nodeId = curNode.nodeData.get("id");
+					let savedPoints = 0;
+					if (nodeId in nodeData) {
+						savedPoints = nodeData[nodeId];
+					} else {
+						nodeId = convertNodeId(nodeId, curNode.groupName);
+						if (nodeId in nodeData) savedPoints = nodeData[nodeId];
+					}
 
 					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 					const maxPoints = curNode.nodeData.get("maxPoints");
@@ -576,6 +604,39 @@ function handleReloadButton() {
 		}
 	} else {
 		$("#classSelectBox").removeClass("disabled");
+	}
+}
+function convertNodeId(nodeData, groupName, decodeBase = false) {
+	if (nodeData == undefined) {
+		return undefined;
+	} else if (groupName == PARAGON_BOARD) {
+		if (nodeData.includes("paragon")) {
+			if (decodeBase) return nodeData;
+			const paragonArray = nodeData.split("-");
+			const boardIndex = convertBase(paragonArray[1], 10, 62);
+			const xPosition = convertBase(paragonArray[2], 10, 62);
+			const yPosition = convertBase(paragonArray[3], 10, 62);
+			return `p${boardIndex}${xPosition}${yPosition}`;
+		} else {
+			if (!decodeBase) return nodeData;
+			const boardIndex = convertBase(nodeData.slice(1, -2), 62, 10);
+			const xPosition = convertBase(nodeData.slice(-2, 1), 62, 10);
+			const yPosition = convertBase(nodeData.slice(-1), 62, 10);
+			return `paragon-${boardIndex}-${xPosition}-${yPosition}`;
+		}
+	} else if (groupName == CODEX_OF_POWER) {
+		if (nodeData.includes("codex")) {
+			if (decodeBase) return nodeData;
+			const codexArray = nodeData.split("-");
+			const codexId = convertBase(codexArray[1], 10, 62);
+			return `c${codexId}`;
+		} else {
+			if (!decodeBase) return nodeData;
+			const codexId = convertBase(nodeData.slice(1), 62, 10);
+			return `codex-${codexId}`;
+		}
+	} else {
+		return nodeData;
 	}
 }
 function handleShareButton() {
