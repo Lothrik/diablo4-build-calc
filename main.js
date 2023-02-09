@@ -537,10 +537,6 @@ function handleSearchInput(event) {
 		$("#extraInfo").html(nodeCount + (nodeCount == 1 ? MATCH_FOUND_TEXT : MATCHES_FOUND_TEXT) + "`" + newSearchText + "`.").removeClass("hidden");
 	}
 }
-function resizeSearchInput() {
-	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - 5;
-	$("#searchInput").outerWidth(targetWidth);
-}
 function handleClampButton() {
 	clampMode = !clampMode;
 	$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
@@ -1631,22 +1627,6 @@ function drawAllNodes() {
 		resizeSearchInput();
 	}
 }
-function getCodexData(desiredCategories = null, desiredTypes = null) {
-	let codexResult = {};
-	for (const [codexCategoryName, codexCategory] of Object.entries(codexData)) {
-		if (desiredCategories === null || desiredCategories.includes(codexCategoryName)) {
-			for (const [codexTypeName, codexType] of Object.entries(codexCategory)) {
-				if (desiredTypes === null || desiredTypes.includes(codexTypeName)) {
-					if (!codexResult[codexTypeName]) codexResult[codexTypeName] = {};
-					for (const [codexPowerName, codexPower] of Object.entries(codexType)) {
-						codexResult[codexTypeName][codexPowerName] = codexPower;
-					}
-				}
-			}
-		}
-	}
-	return codexResult;
-}
 function drawTooltip(curNode, forceDraw) {
 	const stageScale = pixiJS.stage.scale.x;
 	const clampScale = stageScale < tooltipScalingFloor ? tooltipScalingFloor / stageScale : stageScale > tooltipScalingCeiling ? tooltipScalingCeiling / stageScale : 1;
@@ -1943,6 +1923,22 @@ function drawBackground() {
 		.on("touchmove", onDragAllMove);
 	pixiJS.stage.addChild(pixiBackground);
 }
+function getCodexData(desiredCategories = null, desiredTypes = null) {
+	let codexResult = {};
+	for (const [codexCategoryName, codexCategory] of Object.entries(codexData)) {
+		if (desiredCategories === null || desiredCategories.includes(codexCategoryName)) {
+			for (const [codexTypeName, codexType] of Object.entries(codexCategory)) {
+				if (desiredTypes === null || desiredTypes.includes(codexTypeName)) {
+					if (!codexResult[codexTypeName]) codexResult[codexTypeName] = {};
+					for (const [codexPowerName, codexPower] of Object.entries(codexType)) {
+						codexResult[codexTypeName][codexPowerName] = codexPower;
+					}
+				}
+			}
+		}
+	}
+	return codexResult;
+}
 function convertNodeId(nodeData, groupName, decodeBase = false) {
 	if (nodeData == undefined) {
 		return undefined;
@@ -1975,6 +1971,10 @@ function convertNodeId(nodeData, groupName, decodeBase = false) {
 	} else {
 		return nodeData;
 	}
+}
+function resizeSearchInput() {
+	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - 5;
+	$("#searchInput").outerWidth(targetWidth);
 }
 function resetFrameTimer() {
 	frameTimer = Date.now();
