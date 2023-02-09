@@ -202,23 +202,29 @@ var oldWidth = 0;
 var oldHeight = 0;
 
 PIXI.settings.RESOLUTION = devicePixelRatio;
-PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
+PIXI.BaseTexture.defaultOptions.scaleMode = PIXI.SCALE_MODES.NEAREST;
 
-// pixiJS application helper
+// construct pixiJS custom application
 const pixiJS = (() => {
 	try {
-		return new PIXI.Application({
-			antialias: false,
-			autoDensity: true,
-			backgroundAlpha: 0,
-			height: minCanvasHeight,
-			width: minCanvasWidth
-		});
+		return {
+			"renderer": new PIXI.Renderer({
+				antialias: false,
+				autoDensity: true,
+				backgroundAlpha: 0,
+				height: minCanvasHeight,
+				width: minCanvasWidth
+			}),
+			"stage": new PIXI.Container(),
+			"ticker": new PIXI.Ticker()
+		}
 	} catch (e) {
 		$("#classSelectBox").text(e).removeClass("disabled");
 		throw new Error(e);
 	}
 })();
+pixiJS.ticker.add(() => pixiJS.renderer.render(pixiJS.stage), PIXI.UPDATE_PRIORITY.LOW);
+pixiJS.ticker.start();
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
@@ -359,6 +365,8 @@ function handleColorButton(event) {
 function handleIntervalEvent() {
 	if (canvasTimer != null && Date.now() - canvasTimer > 800) {
 		canvasTimer = null;
+		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
+
 		newRenderScale = Math.min(pixiJS.stage.scale.x, 1);
 		if (newRenderScale != curRenderScale) {
 			// skip `redrawAllNodes` on high pixel density devices
@@ -425,6 +433,7 @@ function handleCanvasEvent(event) {
 		}
 		if (newScale >= pixiScalingFloor && newScale <= pixiScalingCeiling) {
 			canvasTimer = Date.now();
+			pixiJS.ticker.maxFPS = 0;
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
@@ -686,6 +695,7 @@ function onDragMove(event, dragOverride) {
 			drawTooltip(pixiDragging);
 			drawAllConnectors();
 			canvasTimer = Date.now();
+			pixiJS.ticker.maxFPS = 0;
 		}
 	}
 }
@@ -697,6 +707,7 @@ function onDragAllMove(event) {
 				pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.startY - pixiDragging.startY + event.global.y / pixiJS.stage.scale.y;
 			}
 			canvasTimer = Date.now();
+			pixiJS.ticker.maxFPS = 0;
 		} else if (pixiDragging) {
 			return onDragMove(event, true);
 		}
@@ -2054,7 +2065,7 @@ $(document).ready(function() {
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup focus blur", handleSearchInput);
 
-	$("#canvasContainer").append(pixiJS.view);
+	$("#canvasContainer").append(pixiJS.renderer.view);
 	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove touchend", handleCanvasEvent);
 	$(window).on("resize", resizeCanvas);
 
@@ -2067,8 +2078,8 @@ $(document).ready(function() {
 		const renderer = pixiJS.renderer;
 		const drawElements = renderer.gl.drawElements;
 		renderer.gl.drawElements = (...args) => {
-		  drawElements.call(renderer.gl, ...args);
-		  drawCount++;
+			drawElements.call(renderer.gl, ...args);
+			drawCount++;
 		};
 
 		pixiJS.ticker.add(deltaTime => {
