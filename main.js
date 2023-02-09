@@ -541,10 +541,6 @@ function resizeSearchInput() {
 	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - 5;
 	$("#searchInput").outerWidth(targetWidth);
 }
-function handleResetButton() {
-	rebuildCanvas();
-	resetFrameTimer();
-}
 function handleClampButton() {
 	clampMode = !clampMode;
 	$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
@@ -628,43 +624,6 @@ function handleReloadButton() {
 		resetFrameTimer();
 	} else {
 		$("#classSelectBox").removeClass("disabled");
-	}
-}
-function resetFrameTimer() {
-	frameTimer = Date.now();
-	pixiJS.ticker.maxFPS = 0;
-}
-function convertNodeId(nodeData, groupName, decodeBase = false) {
-	if (nodeData == undefined) {
-		return undefined;
-	} else if (groupName == PARAGON_BOARD) {
-		if (nodeData.includes("paragon")) {
-			if (decodeBase) return nodeData;
-			const paragonArray = nodeData.split("-");
-			const boardIndex = convertBase(paragonArray[1], 10, 62);
-			const xPosition = convertBase(paragonArray[2], 10, 62);
-			const yPosition = convertBase(paragonArray[3], 10, 62);
-			return `p${boardIndex}${xPosition}${yPosition}`;
-		} else {
-			if (!decodeBase) return nodeData;
-			const boardIndex = convertBase(nodeData.slice(1, -2), 62, 10);
-			const xPosition = convertBase(nodeData.slice(-2, 1), 62, 10);
-			const yPosition = convertBase(nodeData.slice(-1), 62, 10);
-			return `paragon-${boardIndex}-${xPosition}-${yPosition}`;
-		}
-	} else if (groupName == CODEX_OF_POWER) {
-		if (nodeData.includes("codex")) {
-			if (decodeBase) return nodeData;
-			const codexArray = nodeData.split("-");
-			const codexId = convertBase(codexArray[1], 10, 62);
-			return `c${codexId}`;
-		} else {
-			if (!decodeBase) return nodeData;
-			const codexId = convertBase(nodeData.slice(1), 62, 10);
-			return `codex-${codexId}`;
-		}
-	} else {
-		return nodeData;
 	}
 }
 function handleShareButton() {
@@ -1984,6 +1943,43 @@ function drawBackground() {
 		.on("touchmove", onDragAllMove);
 	pixiJS.stage.addChild(pixiBackground);
 }
+function convertNodeId(nodeData, groupName, decodeBase = false) {
+	if (nodeData == undefined) {
+		return undefined;
+	} else if (groupName == PARAGON_BOARD) {
+		if (nodeData.includes("paragon")) {
+			if (decodeBase) return nodeData;
+			const paragonArray = nodeData.split("-");
+			const boardIndex = convertBase(paragonArray[1], 10, 62);
+			const xPosition = convertBase(paragonArray[2], 10, 62);
+			const yPosition = convertBase(paragonArray[3], 10, 62);
+			return `p${boardIndex}${xPosition}${yPosition}`;
+		} else {
+			if (!decodeBase) return nodeData;
+			const boardIndex = convertBase(nodeData.slice(1, -2), 62, 10);
+			const xPosition = convertBase(nodeData.slice(-2, 1), 62, 10);
+			const yPosition = convertBase(nodeData.slice(-1), 62, 10);
+			return `paragon-${boardIndex}-${xPosition}-${yPosition}`;
+		}
+	} else if (groupName == CODEX_OF_POWER) {
+		if (nodeData.includes("codex")) {
+			if (decodeBase) return nodeData;
+			const codexArray = nodeData.split("-");
+			const codexId = convertBase(codexArray[1], 10, 62);
+			return `c${codexId}`;
+		} else {
+			if (!decodeBase) return nodeData;
+			const codexId = convertBase(nodeData.slice(1), 62, 10);
+			return `codex-${codexId}`;
+		}
+	} else {
+		return nodeData;
+	}
+}
+function resetFrameTimer() {
+	frameTimer = Date.now();
+	pixiJS.ticker.maxFPS = 0;
+}
 function rebuildCanvas() {
 	while (pixiJS.stage.children[0]) pixiJS.stage.children[0].destroy(true);
 	pixiAllocatedPoints = new Map();
@@ -2008,6 +2004,7 @@ function rebuildCanvas() {
 	drawAllConnectors();
 
 	resizeCanvas();
+	resetFrameTimer();
 
 	$("#charLevel").text("1");
 	$("#renownLevel").empty();
@@ -2027,8 +2024,9 @@ function resizeCanvas() {
 			pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth * 0.5 + newWidth * 0.5;
 			pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight * 0.5 + newHeight * 0.5;
 		}
-
 		[oldWidth, oldHeight] = [newWidth, newHeight];
+
+		resetFrameTimer();
 
 		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth($("#extraButtons2").width() - 5);
 		resizeSearchInput();
@@ -2061,7 +2059,7 @@ $(document).ready(function() {
 	$("#colorNodeInput").on("change", handleNodeColorInput);
 	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
 
-	$("#resetButton").on("click", handleResetButton);
+	$("#resetButton").on("click", rebuildCanvas);
 	$("#clampButton").on("click", handleClampButton);
 	$("#saveButton").on("click", handleSaveButton);
 	$("#reloadButton").on("click", handleReloadButton);
