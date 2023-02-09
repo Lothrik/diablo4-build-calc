@@ -198,6 +198,8 @@ var canvasTimer = null;
 var curRenderScale = 1;
 var newRenderScale = 1;
 
+var frameTimer = Date.now();
+
 var oldWidth = 0;
 var oldHeight = 0;
 
@@ -365,8 +367,6 @@ function handleColorButton(event) {
 function handleIntervalEvent() {
 	if (canvasTimer != null && Date.now() - canvasTimer > 800) {
 		canvasTimer = null;
-		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
-
 		newRenderScale = Math.min(pixiJS.stage.scale.x, 1);
 		if (newRenderScale != curRenderScale) {
 			// skip `redrawAllNodes` on high pixel density devices
@@ -377,6 +377,10 @@ function handleIntervalEvent() {
 			}
 			curRenderScale = newRenderScale;
 		}
+	}
+	if (frameTimer != null && Date.now() - frameTimer > 800) {
+		frameTimer = null;
+		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
 	}
 }
 function handleCanvasEvent(event) {
@@ -432,8 +436,6 @@ function handleCanvasEvent(event) {
 				* initialScale / initialTouchDistance;
 		}
 		if (newScale >= pixiScalingFloor && newScale <= pixiScalingCeiling) {
-			canvasTimer = Date.now();
-			pixiJS.ticker.maxFPS = 0;
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
@@ -447,6 +449,10 @@ function handleCanvasEvent(event) {
 			pixiJS.stage.scale.y = newScale;
 			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 		}
+	}
+	if (["mousemove", "touchmove", "wheel"].includes(event.type)) {
+		frameTimer = Date.now();
+		pixiJS.ticker.maxFPS = 0;
 	}
 	event.preventDefault();
 }
@@ -695,7 +701,6 @@ function onDragMove(event, dragOverride) {
 			drawTooltip(pixiDragging);
 			drawAllConnectors();
 			canvasTimer = Date.now();
-			pixiJS.ticker.maxFPS = 0;
 		}
 	}
 }
@@ -707,7 +712,6 @@ function onDragAllMove(event) {
 				pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.startY - pixiDragging.startY + event.global.y / pixiJS.stage.scale.y;
 			}
 			canvasTimer = Date.now();
-			pixiJS.ticker.maxFPS = 0;
 		} else if (pixiDragging) {
 			return onDragMove(event, true);
 		}
