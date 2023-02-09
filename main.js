@@ -551,6 +551,7 @@ function handleClampButton() {
 	$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
 	writeCookie("clampMode", clampMode);
 
+	repositionTooltip();
 	resizeSearchInput();
 }
 function handleSaveButton() {
