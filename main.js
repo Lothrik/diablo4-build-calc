@@ -259,7 +259,7 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 function setNodeStyleThick(curNode, invertColor = false) {
 	let _lineStyleThickSquare = { ...lineStyleThickSquare };
 	if (invertColor) {
-		if (_lineStyleThickSquare.color == 0xFFFFFF) {
+		if ([0xFF0000, 0xFFFFFF].includes(_lineStyleThickSquare.color)) {
 			_lineStyleThickSquare.color = 0x00FF00;
 		} else {
 			_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
@@ -1183,7 +1183,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	if (([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
 		let _lineStyleThickSquare = { ...lineStyleThickSquare };
 		if (searchQueryMatch) { // aka `invertColor`
-			if (_lineStyleThickSquare.color == 0xFFFFFF) {
+			if ([0xFF0000, 0xFFFFFF].includes(_lineStyleThickSquare.color)) {
 				_lineStyleThickSquare.color = 0x00FF00;
 			} else {
 				_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
