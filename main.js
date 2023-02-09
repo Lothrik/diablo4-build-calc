@@ -450,10 +450,7 @@ function handleCanvasEvent(event) {
 			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 		}
 	}
-	if (["mousemove", "touchmove", "wheel"].includes(event.type)) {
-		frameTimer = Date.now();
-		pixiJS.ticker.maxFPS = 0;
-	}
+	resetFrameTimer();
 	event.preventDefault();
 }
 function handleClassSelection(event) {
@@ -476,6 +473,7 @@ function handleGroupSelection(event) {
 	const newGroupName = $(groupString).text();
 	const newGroupNode = pixiNodes.find(pixiNode => pixiNode.nodeName == newGroupName);
 	if (newGroupNode != undefined) pixiJS.stage.pivot.set(newGroupNode.x - oldWidth / pixiJS.stage.scale.x * 0.5, newGroupNode.y - oldHeight / pixiJS.stage.scale.y * 0.5);
+	resetFrameTimer();
 }
 var oldSearchIdx = -1;
 var oldSearchText = "";
@@ -529,8 +527,8 @@ function handleSearchInput(event) {
 			drawTooltip(nodeMatch);
 		}
 	}
-
 	oldSearchText = newSearchText;
+	resetFrameTimer();
 
 	if (event.type == "blur" || nodeCount == 0) {
 		const extraInfoHTML = $("#extraInfo").html();
@@ -545,6 +543,7 @@ function resizeSearchInput() {
 }
 function handleResetButton() {
 	rebuildCanvas();
+	resetFrameTimer();
 }
 function handleClampButton() {
 	clampMode = !clampMode;
@@ -552,6 +551,7 @@ function handleClampButton() {
 	writeCookie("clampMode", clampMode);
 
 	repositionTooltip();
+	resetFrameTimer();
 	resizeSearchInput();
 }
 function handleSaveButton() {
@@ -625,9 +625,14 @@ function handleReloadButton() {
 			for (const curNode of sortedNodes) processNode(curNode);
 			updateCharacterLevel();
 		}
+		resetFrameTimer();
 	} else {
 		$("#classSelectBox").removeClass("disabled");
 	}
+}
+function resetFrameTimer() {
+	frameTimer = Date.now();
+	pixiJS.ticker.maxFPS = 0;
 }
 function convertNodeId(nodeData, groupName, decodeBase = false) {
 	if (nodeData == undefined) {
