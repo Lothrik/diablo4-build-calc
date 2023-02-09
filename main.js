@@ -205,13 +205,20 @@ PIXI.settings.RESOLUTION = devicePixelRatio;
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
 // pixiJS application helper
-const pixiJS = new PIXI.Application({
-	antialias: false,
-	autoDensity: true,
-	backgroundAlpha: 0,
-	height: minCanvasHeight,
-	width: minCanvasWidth
-});
+const pixiJS = (() => {
+	try {
+		return new PIXI.Application({
+			antialias: false,
+			autoDensity: true,
+			backgroundAlpha: 0,
+			height: minCanvasHeight,
+			width: minCanvasWidth
+		});
+	} catch (e) {
+		$("#classSelectBox").text(e).removeClass("disabled");
+		throw new Error(e);
+	}
+})();
 
 PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, color = null, width = null, native = null } = {}) {
 	let styleChanged = false;
