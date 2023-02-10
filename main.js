@@ -436,6 +436,7 @@ function handleCanvasEvent(event) {
 				* initialScale / initialTouchDistance;
 		}
 		if (newScale >= pixiScalingFloor && newScale <= pixiScalingCeiling) {
+			canvasTimer = Date.now();
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
