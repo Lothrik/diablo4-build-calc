@@ -562,7 +562,7 @@ function handleSaveButton() {
 			}
 		});
 		if (debugMode) console.log(nodeData);
-		const jsonData = JSON.stringify(nodeData);
+		const jsonData = JSON.stringify(nodeData).replace(/("|:1)/g, "");
 		const compressedData = LZString.compressToEncodedURIComponent(jsonData);
 		const newURL = window.location.href.split("#")[0] + "#" + compressedData;
 		window.location.replace(newURL);
@@ -572,7 +572,14 @@ function handleReloadButton() {
 	const urlData = window.location.href.split("#");
 	if (urlData[1] != undefined && urlData[1].length > 0) {
 		const jsonData = LZString.decompressFromEncodedURIComponent(urlData[1]);
-		const nodeData = JSON.parse(jsonData);
+		// valid JSON always requires quotes around key names; we strip those (and object "1-values") to increase compression
+		const nodeData = jsonData.includes('"') ? JSON.parse(jsonData) :
+			JSON.parse(jsonData
+				.replace(/([{,])([^:,}]+)/g, '$1"$2"')			// restore key double quotes
+				.replace(/","/g, '":1,"') 						// restore object "1-values"
+				.replace(/("className":)([a-z]+)/g, '$1"$2"')	// restore class name double quotes
+				.replace('"}', '":1}')							// restore final object value
+			);
 
 		$.when($("#classSelector").val(nodeData.className).change()).then(finishLoading);
 
