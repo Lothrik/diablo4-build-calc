@@ -579,7 +579,7 @@ function handleReloadButton() {
 				.replace(/([{,])([^:,}]+)/g, '$1"$2"')			// restore key double quotes
 				.replace(/","/g, '":1,"') 						// restore object "1-values"
 				.replace(/("className":)([a-z]+)/g, '$1"$2"')	// restore class name double quotes
-				.replace('"}', '":1}')							// restore final object value
+				.replace(/(,"[^:,]+")}/g, '$1:1}')				// restore final object value
 			);
 
 		$.when($("#classSelector").val(nodeData.className).change()).then(finishLoading);
