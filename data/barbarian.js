@@ -969,7 +969,7 @@ Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Attempt a killing strike, dealing {#}% damage to enemies in front of you.
 
-If this kills an enemy, the Cooldown is reset.If this kills an enemy, a Charge is refunded.`,
+If this kills an enemy, the Cooldown is reset.`,
 		id: 89,
 		maxPoints: 5,
 		values: [ "", "", "15.0", "50", "126" ],

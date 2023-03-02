@@ -154,6 +154,8 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/({#})( damage)/gi, "$1%$2")						// Add `%` between `{#}` and ` damage` if not already present.
 		.replace(/(cooldown: {#})(\r?\n)/gi, "$1 seconds$2")		// Add ` seconds` after `Cooldown: {#}` if not already present.
 		.replace(/(\r?\n)([^:\+]+)([a-z]+)$/gi, "$1$2$3.")			// Ensure the last line ends with a `.`, unless that line contains `:` or `+`, or ends with a character other than (`a-z`, `A-Z`).
+		.replace(/(if this kills.+cooldown is reset).+(if this kills.+charge is refunded)/gi, "$1")
+																	// Special handling for Death Blow conditional description logic.
 		.trim();
 
 	return sanitizedText;
