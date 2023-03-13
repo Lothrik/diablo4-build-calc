@@ -757,6 +757,15 @@
 		},
 		"Skill Tree": {
 			"380": {
+				"connections": [
+					89,
+					90,
+					61,
+					91,
+					66,
+					69,
+					58
+				],
 				"req_points": 23,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -765,6 +774,21 @@
 				"y_pos": 863.201
 			},
 			"381": {
+				"connections": [
+					99,
+					79,
+					96,
+					77,
+					97,
+					78,
+					92,
+					94,
+					68,
+					93,
+					100,
+					9,
+					80
+				],
 				"req_points": 16,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -773,6 +797,15 @@
 				"y_pos": -1333.77
 			},
 			"382": {
+				"connections": [
+					92,
+					94,
+					68,
+					93,
+					100,
+					9,
+					80
+				],
 				"req_points": 11,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -781,6 +814,21 @@
 				"y_pos": -1338.26
 			},
 			"383": {
+				"connections": [
+					102,
+					105,
+					8,
+					95,
+					104,
+					62,
+					108,
+					106,
+					110,
+					11,
+					98,
+					16,
+					63
+				],
 				"req_points": 6,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -789,6 +837,15 @@
 				"y_pos": -3601.23
 			},
 			"384": {
+				"connections": [
+					108,
+					106,
+					110,
+					11,
+					98,
+					16,
+					63
+				],
 				"req_points": 2,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -797,6 +854,13 @@
 				"y_pos": -5468.08
 			},
 			"385": {
+				"connections": [
+					109,
+					107,
+					103,
+					101,
+					8
+				],
 				"req_points": 0,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -805,6 +869,9 @@
 				"y_pos": -7600.14
 			},
 			"386": {
+				"connections": [
+					8
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -819,6 +886,9 @@
 				"y_pos": -3604.79
 			},
 			"387": {
+				"connections": [
+					68
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -833,6 +903,13 @@
 				"y_pos": -1492.03
 			},
 			"388": {
+				"connections": [
+					3,
+					6,
+					15,
+					74,
+					2
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -847,6 +924,11 @@
 				"y_pos": -3605.52
 			},
 			"389": {
+				"connections": [
+					15,
+					74,
+					2
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -861,6 +943,9 @@
 				"y_pos": -709.914
 			},
 			"390": {
+				"connections": [
+					80
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -875,6 +960,9 @@
 				"y_pos": -1699.82
 			},
 			"391": {
+				"connections": [
+					4
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -889,6 +977,9 @@
 				"y_pos": -5702.63
 			},
 			"392": {
+				"connections": [
+					79
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -903,6 +994,9 @@
 				"y_pos": -266.521
 			},
 			"393": {
+				"connections": [
+					66
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -917,6 +1011,9 @@
 				"y_pos": 1777.61
 			},
 			"394": {
+				"connections": [
+					79
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -931,6 +1028,9 @@
 				"y_pos": -263.333
 			},
 			"395": {
+				"connections": [
+					9
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -945,6 +1045,11 @@
 				"y_pos": -312.232
 			},
 			"396": {
+				"connections": [
+					4,
+					117,
+					117
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -959,6 +1064,9 @@
 				"y_pos": -5462.41
 			},
 			"397": {
+				"connections": [
+					117
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -973,6 +1081,9 @@
 				"y_pos": -5308.2
 			},
 			"398": {
+				"connections": [
+					117
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -987,6 +1098,9 @@
 				"y_pos": -5595.21
 			},
 			"399": {
+				"connections": [
+					124
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1001,6 +1115,9 @@
 				"y_pos": -2129.66
 			},
 			"400": {
+				"connections": [
+					124
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1015,6 +1132,9 @@
 				"y_pos": -2313.79
 			},
 			"401": {
+				"connections": [
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1029,6 +1149,9 @@
 				"y_pos": -5003.93
 			},
 			"402": {
+				"connections": [
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1043,6 +1166,9 @@
 				"y_pos": -5286.91
 			},
 			"403": {
+				"connections": [
+					125
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1057,6 +1183,9 @@
 				"y_pos": -2065.5
 			},
 			"404": {
+				"connections": [
+					125
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1071,6 +1200,9 @@
 				"y_pos": -2272.13
 			},
 			"405": {
+				"connections": [
+					116
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1085,6 +1217,9 @@
 				"y_pos": -6468.35
 			},
 			"406": {
+				"connections": [
+					116
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1099,6 +1234,9 @@
 				"y_pos": -6298.33
 			},
 			"407": {
+				"connections": [
+					123
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1113,6 +1251,9 @@
 				"y_pos": -2811.7
 			},
 			"408": {
+				"connections": [
+					123
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1127,6 +1268,9 @@
 				"y_pos": -2580.62
 			},
 			"409": {
+				"connections": [
+					129
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1141,6 +1285,9 @@
 				"y_pos": -599.941
 			},
 			"410": {
+				"connections": [
+					129
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1155,6 +1302,9 @@
 				"y_pos": -416.049
 			},
 			"411": {
+				"connections": [
+					126
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1169,6 +1319,9 @@
 				"y_pos": -421.666
 			},
 			"412": {
+				"connections": [
+					126
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1183,6 +1336,9 @@
 				"y_pos": -622.702
 			},
 			"413": {
+				"connections": [
+					120
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1197,6 +1353,9 @@
 				"y_pos": -4675.67
 			},
 			"414": {
+				"connections": [
+					120
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1211,6 +1370,9 @@
 				"y_pos": -4673.93
 			},
 			"415": {
+				"connections": [
+					115
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1225,6 +1387,9 @@
 				"y_pos": -6295.28
 			},
 			"416": {
+				"connections": [
+					115
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1239,6 +1404,9 @@
 				"y_pos": -6465.13
 			},
 			"417": {
+				"connections": [
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1253,6 +1421,9 @@
 				"y_pos": -6747.76
 			},
 			"418": {
+				"connections": [
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1267,6 +1438,9 @@
 				"y_pos": -6969.45
 			},
 			"419": {
+				"connections": [
+					130
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1281,6 +1455,9 @@
 				"y_pos": -2124.74
 			},
 			"420": {
+				"connections": [
+					130
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1295,6 +1472,9 @@
 				"y_pos": -2312.86
 			},
 			"421": {
+				"connections": [
+					122
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1309,6 +1489,9 @@
 				"y_pos": -2867.3
 			},
 			"422": {
+				"connections": [
+					122
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1323,6 +1506,9 @@
 				"y_pos": -2638.08
 			},
 			"423": {
+				"connections": [
+					114
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1337,6 +1523,9 @@
 				"y_pos": -6737.1
 			},
 			"424": {
+				"connections": [
+					114
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1351,6 +1540,9 @@
 				"y_pos": -6983.77
 			},
 			"425": {
+				"connections": [
+					118
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1365,6 +1557,9 @@
 				"y_pos": -4559.69
 			},
 			"426": {
+				"connections": [
+					118
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1379,6 +1574,9 @@
 				"y_pos": -4449.66
 			},
 			"427": {
+				"connections": [
+					127
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1393,6 +1591,9 @@
 				"y_pos": -561.417
 			},
 			"428": {
+				"connections": [
+					127
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1407,6 +1608,9 @@
 				"y_pos": -395.331
 			},
 			"429": {
+				"connections": [
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1421,6 +1625,9 @@
 				"y_pos": -8474.29
 			},
 			"430": {
+				"connections": [
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1435,6 +1642,9 @@
 				"y_pos": -8241.88
 			},
 			"431": {
+				"connections": [
+					128
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1449,6 +1659,9 @@
 				"y_pos": -2271.18
 			},
 			"432": {
+				"connections": [
+					128
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1463,6 +1676,9 @@
 				"y_pos": -2067.2
 			},
 			"433": {
+				"connections": [
+					121
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1477,6 +1693,9 @@
 				"y_pos": -4317.92
 			},
 			"434": {
+				"connections": [
+					121
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1491,6 +1710,9 @@
 				"y_pos": -4555.6
 			},
 			"435": {
+				"connections": [
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1505,6 +1727,9 @@
 				"y_pos": -8439.71
 			},
 			"436": {
+				"connections": [
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -1519,6 +1744,12 @@
 				"y_pos": -8197.37
 			},
 			"437": {
+				"connections": [
+					71,
+					72,
+					59,
+					60
+				],
 				"req_points": 33,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -1527,6 +1758,7 @@
 				"y_pos": 2067.33
 			},
 			"438": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1541,6 +1773,9 @@
 				"y_pos": 941.512
 			},
 			"439": {
+				"connections": [
+					57
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1555,6 +1790,9 @@
 				"y_pos": 2696.37
 			},
 			"440": {
+				"connections": [
+					57
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1569,6 +1807,7 @@
 				"y_pos": 2693.23
 			},
 			"441": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1583,6 +1822,12 @@
 				"y_pos": 339.792
 			},
 			"442": {
+				"connections": [
+					3,
+					70,
+					73,
+					82
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1597,6 +1842,9 @@
 				"y_pos": -3602.24
 			},
 			"443": {
+				"connections": [
+					4
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1611,6 +1859,10 @@
 				"y_pos": -5047.27
 			},
 			"444": {
+				"connections": [
+					73,
+					82
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1625,6 +1877,9 @@
 				"y_pos": -2668.35
 			},
 			"445": {
+				"connections": [
+					68
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1639,6 +1894,7 @@
 				"y_pos": -1134.24
 			},
 			"446": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1653,6 +1909,13 @@
 				"y_pos": 1389.92
 			},
 			"447": {
+				"connections": [
+					69,
+					58,
+					2,
+					7,
+					65
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1667,6 +1930,11 @@
 				"y_pos": 646.06
 			},
 			"448": {
+				"connections": [
+					2,
+					7,
+					65
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1681,6 +1949,7 @@
 				"y_pos": -1339.39
 			},
 			"449": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1695,6 +1964,9 @@
 				"y_pos": 533.919
 			},
 			"450": {
+				"connections": [
+					62
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1709,6 +1981,9 @@
 				"y_pos": -3599.85
 			},
 			"451": {
+				"connections": [
+					57
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1723,6 +1998,9 @@
 				"y_pos": 2696.67
 			},
 			"452": {
+				"connections": [
+					57
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1737,6 +2015,11 @@
 				"y_pos": 2697.3
 			},
 			"453": {
+				"connections": [
+					64,
+					77,
+					78
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1751,6 +2034,9 @@
 				"y_pos": -2342.34
 			},
 			"454": {
+				"connections": [
+					9
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1765,6 +2051,9 @@
 				"y_pos": -314.619
 			},
 			"455": {
+				"connections": [
+					78
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1779,6 +2068,9 @@
 				"y_pos": -1333.82
 			},
 			"456": {
+				"connections": [
+					66
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1793,6 +2085,11 @@
 				"y_pos": 1525.06
 			},
 			"457": {
+				"connections": [
+					1,
+					82,
+					73
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1807,6 +2104,13 @@
 				"y_pos": -1999.71
 			},
 			"458": {
+				"connections": [
+					75,
+					1,
+					1,
+					12,
+					14
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1821,6 +2125,11 @@
 				"y_pos": -1333.71
 			},
 			"459": {
+				"connections": [
+					1,
+					12,
+					14
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1835,6 +2144,11 @@
 				"y_pos": -664.818
 			},
 			"460": {
+				"connections": [
+					2,
+					10,
+					69
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1849,6 +2163,9 @@
 				"y_pos": -1564.82
 			},
 			"461": {
+				"connections": [
+					69
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1863,6 +2180,11 @@
 				"y_pos": 197.614
 			},
 			"462": {
+				"connections": [
+					77,
+					64,
+					85
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -1877,6 +2199,9 @@
 				"y_pos": -2343.71
 			},
 			"463": {
+				"connections": [
+					85
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1891,6 +2216,9 @@
 				"y_pos": 924.942
 			},
 			"464": {
+				"connections": [
+					87
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1905,6 +2233,11 @@
 				"y_pos": -231.075
 			},
 			"465": {
+				"connections": [
+					83,
+					90,
+					88
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1919,6 +2252,9 @@
 				"y_pos": 804.672
 			},
 			"466": {
+				"connections": [
+					88
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1933,6 +2269,12 @@
 				"y_pos": 1715.48
 			},
 			"467": {
+				"connections": [
+					84,
+					89,
+					86,
+					91
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -1947,6 +2289,10 @@
 				"y_pos": 68.151
 			},
 			"468": {
+				"connections": [
+					86,
+					91
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -1961,6 +2307,7 @@
 				"y_pos": 1519.87
 			},
 			"469": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -1975,6 +2322,7 @@
 				"y_pos": 379.013
 			},
 			"470": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -1989,6 +2337,7 @@
 				"y_pos": 846.211
 			},
 			"471": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2003,6 +2352,49 @@
 				"y_pos": 1200.93
 			},
 			"472": {
+				"connections": [
+					2,
+					127,
+					2,
+					126,
+					2,
+					124,
+					3,
+					120,
+					1,
+					128,
+					125,
+					1,
+					4,
+					116,
+					1,
+					129,
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2017,6 +2409,47 @@
 				"y_pos": -972.441
 			},
 			"473": {
+				"connections": [
+					2,
+					126,
+					2,
+					124,
+					3,
+					120,
+					1,
+					128,
+					125,
+					1,
+					4,
+					116,
+					1,
+					129,
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2031,6 +2464,45 @@
 				"y_pos": -980.821
 			},
 			"474": {
+				"connections": [
+					2,
+					124,
+					3,
+					120,
+					1,
+					128,
+					125,
+					1,
+					4,
+					116,
+					1,
+					129,
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2045,6 +2517,43 @@
 				"y_pos": -1755.27
 			},
 			"475": {
+				"connections": [
+					3,
+					120,
+					1,
+					128,
+					125,
+					1,
+					4,
+					116,
+					1,
+					129,
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2059,6 +2568,41 @@
 				"y_pos": -4068.67
 			},
 			"476": {
+				"connections": [
+					1,
+					128,
+					125,
+					1,
+					4,
+					116,
+					1,
+					129,
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2073,6 +2617,39 @@
 				"y_pos": -1666.84
 			},
 			"477": {
+				"connections": [
+					125,
+					1,
+					4,
+					116,
+					1,
+					129,
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2087,6 +2664,37 @@
 				"y_pos": -1666.81
 			},
 			"478": {
+				"connections": [
+					4,
+					116,
+					1,
+					129,
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2101,6 +2709,35 @@
 				"y_pos": -5871.1
 			},
 			"479": {
+				"connections": [
+					1,
+					129,
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2115,6 +2752,33 @@
 				"y_pos": -995.732
 			},
 			"480": {
+				"connections": [
+					130,
+					2,
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2129,6 +2793,31 @@
 				"y_pos": -1756.65
 			},
 			"481": {
+				"connections": [
+					5,
+					112,
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2143,6 +2832,29 @@
 				"y_pos": -7901.23
 			},
 			"482": {
+				"connections": [
+					3,
+					121,
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2157,6 +2869,27 @@
 				"y_pos": -3984.31
 			},
 			"483": {
+				"connections": [
+					5,
+					114,
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2171,6 +2904,25 @@
 				"y_pos": -7289.24
 			},
 			"484": {
+				"connections": [
+					3,
+					123,
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2185,6 +2937,23 @@
 				"y_pos": -3229.16
 			},
 			"485": {
+				"connections": [
+					3,
+					122,
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2199,6 +2968,21 @@
 				"y_pos": -3239.84
 			},
 			"486": {
+				"connections": [
+					4,
+					119,
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2213,6 +2997,19 @@
 				"y_pos": -5337.85
 			},
 			"487": {
+				"connections": [
+					5,
+					113,
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2227,6 +3024,17 @@
 				"y_pos": -7292.08
 			},
 			"488": {
+				"connections": [
+					4,
+					115,
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2241,6 +3049,15 @@
 				"y_pos": -5875.06
 			},
 			"489": {
+				"connections": [
+					5,
+					111,
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2255,6 +3072,13 @@
 				"y_pos": -7894.27
 			},
 			"490": {
+				"connections": [
+					4,
+					118,
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -2269,6 +3093,11 @@
 				"y_pos": -5051.34
 			},
 			"491": {
+				"connections": [
+					109,
+					56,
+					55
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2283,6 +3112,11 @@
 				"y_pos": -8146.4
 			},
 			"492": {
+				"connections": [
+					101,
+					49,
+					50
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2297,6 +3131,11 @@
 				"y_pos": -8180.1
 			},
 			"494": {
+				"connections": [
+					107,
+					38,
+					37
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2311,6 +3150,11 @@
 				"y_pos": -7033.53
 			},
 			"495": {
+				"connections": [
+					103,
+					43,
+					44
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2325,6 +3169,11 @@
 				"y_pos": -7009.9
 			},
 			"496": {
+				"connections": [
+					108,
+					35,
+					36
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2339,6 +3188,11 @@
 				"y_pos": -6172.5
 			},
 			"497": {
+				"connections": [
+					98,
+					25,
+					26
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2353,6 +3207,11 @@
 				"y_pos": -6172.58
 			},
 			"498": {
+				"connections": [
+					16,
+					17,
+					18
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2367,6 +3226,11 @@
 				"y_pos": -5457.0
 			},
 			"499": {
+				"connections": [
+					110,
+					46,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2381,6 +3245,11 @@
 				"y_pos": -4714.8
 			},
 			"500": {
+				"connections": [
+					106,
+					22,
+					21
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2395,6 +3264,11 @@
 				"y_pos": -5243.09
 			},
 			"501": {
+				"connections": [
+					95,
+					34,
+					33
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2409,6 +3283,11 @@
 				"y_pos": -4384.87
 			},
 			"502": {
+				"connections": [
+					102,
+					54,
+					53
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2423,6 +3302,11 @@
 				"y_pos": -4257.34
 			},
 			"503": {
+				"connections": [
+					105,
+					41,
+					42
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2437,6 +3321,11 @@
 				"y_pos": -2966.99
 			},
 			"504": {
+				"connections": [
+					104,
+					28,
+					27
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2451,6 +3340,11 @@
 				"y_pos": -2927.69
 			},
 			"505": {
+				"connections": [
+					94,
+					19,
+					20
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2465,6 +3359,11 @@
 				"y_pos": -2038.52
 			},
 			"507": {
+				"connections": [
+					97,
+					23,
+					24
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2479,6 +3378,11 @@
 				"y_pos": -1942.96
 			},
 			"508": {
+				"connections": [
+					93,
+					32,
+					31
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2493,6 +3397,11 @@
 				"y_pos": -684.461
 			},
 			"509": {
+				"connections": [
+					92,
+					47,
+					48
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2507,6 +3416,11 @@
 				"y_pos": -683.341
 			},
 			"510": {
+				"connections": [
+					96,
+					52,
+					51
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2521,6 +3435,11 @@
 				"y_pos": -1944.3
 			},
 			"511": {
+				"connections": [
+					99,
+					30,
+					29
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -2535,6 +3454,11 @@
 				"y_pos": -747.192
 			},
 			"512": {
+				"connections": [
+					100,
+					40,
+					39
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3316,6 +4240,9 @@
 		},
 		"Skill Tree": {
 			"365": {
+				"connections": [
+					73
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3330,6 +4257,11 @@
 				"y_pos": -4120.42
 			},
 			"366": {
+				"connections": [
+					62,
+					6,
+					71
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3344,6 +4276,13 @@
 				"y_pos": -196.18
 			},
 			"367": {
+				"connections": [
+					120,
+					106,
+					50,
+					107,
+					116
+				],
 				"req_points": 0,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -3352,6 +4291,15 @@
 				"y_pos": -7133.7
 			},
 			"368": {
+				"connections": [
+					114,
+					119,
+					121,
+					99,
+					51,
+					60,
+					73
+				],
 				"req_points": 2,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -3360,6 +4308,13 @@
 				"y_pos": -4867.82
 			},
 			"369": {
+				"connections": [
+					112,
+					48,
+					75,
+					113,
+					95
+				],
 				"req_points": 6,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -3368,6 +4323,29 @@
 				"y_pos": -2668.69
 			},
 			"370": {
+				"connections": [
+					96,
+					61,
+					49,
+					94,
+					9,
+					12,
+					1,
+					104,
+					93,
+					52,
+					100,
+					90,
+					8,
+					56,
+					86,
+					88,
+					17,
+					57,
+					85,
+					87,
+					59
+				],
 				"req_points": 11,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -3376,6 +4354,23 @@
 				"y_pos": -2671.21
 			},
 			"371": {
+				"connections": [
+					1,
+					104,
+					93,
+					52,
+					100,
+					90,
+					8,
+					56,
+					86,
+					88,
+					17,
+					57,
+					85,
+					87,
+					59
+				],
 				"req_points": 16,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -3384,6 +4379,15 @@
 				"y_pos": 392.969
 			},
 			"372": {
+				"connections": [
+					86,
+					88,
+					17,
+					57,
+					85,
+					87,
+					59
+				],
 				"req_points": 23,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -3392,6 +4396,11 @@
 				"y_pos": 396.475
 			},
 			"373": {
+				"connections": [
+					6,
+					63,
+					5
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3406,6 +4415,9 @@
 				"y_pos": 1011.72
 			},
 			"374": {
+				"connections": [
+					5
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3420,6 +4432,9 @@
 				"y_pos": -3198.05
 			},
 			"375": {
+				"connections": [
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3434,6 +4449,9 @@
 				"y_pos": -5073.37
 			},
 			"376": {
+				"connections": [
+					73
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3448,6 +4466,9 @@
 				"y_pos": -4495.94
 			},
 			"377": {
+				"connections": [
+					5
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3462,6 +4483,9 @@
 				"y_pos": -3199.95
 			},
 			"378": {
+				"connections": [
+					56
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3476,6 +4500,13 @@
 				"y_pos": 688.133
 			},
 			"379": {
+				"connections": [
+					68,
+					17,
+					7,
+					14,
+					15
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3490,6 +4521,13 @@
 				"y_pos": -248.774
 			},
 			"380": {
+				"connections": [
+					68,
+					17,
+					7,
+					14,
+					15
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3504,6 +4542,9 @@
 				"y_pos": 369.795
 			},
 			"381": {
+				"connections": [
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3518,6 +4559,11 @@
 				"y_pos": -5342.77
 			},
 			"382": {
+				"connections": [
+					7,
+					14,
+					15
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3532,6 +4578,9 @@
 				"y_pos": 163.765
 			},
 			"383": {
+				"connections": [
+					52
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -3546,6 +4595,9 @@
 				"y_pos": 943.989
 			},
 			"384": {
+				"connections": [
+					52
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3560,6 +4612,9 @@
 				"y_pos": 551.429
 			},
 			"385": {
+				"connections": [
+					47
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3574,6 +4629,9 @@
 				"y_pos": 2993.11
 			},
 			"386": {
+				"connections": [
+					140
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3588,6 +4646,9 @@
 				"y_pos": -211.85
 			},
 			"387": {
+				"connections": [
+					140
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3602,6 +4663,9 @@
 				"y_pos": 122.259
 			},
 			"388": {
+				"connections": [
+					137
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3616,6 +4680,9 @@
 				"y_pos": -2818.22
 			},
 			"389": {
+				"connections": [
+					137
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -3630,6 +4697,9 @@
 				"y_pos": -2523.53
 			},
 			"390": {
+				"connections": [
+					136
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3644,6 +4714,9 @@
 				"y_pos": -3803.35
 			},
 			"391": {
+				"connections": [
+					136
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -3658,6 +4731,9 @@
 				"y_pos": -3799.14
 			},
 			"392": {
+				"connections": [
+					138
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3672,6 +4748,9 @@
 				"y_pos": -1572.14
 			},
 			"393": {
+				"connections": [
+					138
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -3686,6 +4765,9 @@
 				"y_pos": -1574.4
 			},
 			"394": {
+				"connections": [
+					141
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3700,6 +4782,9 @@
 				"y_pos": 1278.92
 			},
 			"395": {
+				"connections": [
+					139
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3714,6 +4799,9 @@
 				"y_pos": -801.257
 			},
 			"396": {
+				"connections": [
+					142
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3728,6 +4816,9 @@
 				"y_pos": 1335.83
 			},
 			"397": {
+				"connections": [
+					135
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3742,6 +4833,9 @@
 				"y_pos": -1583.71
 			},
 			"398": {
+				"connections": [
+					132
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3756,6 +4850,9 @@
 				"y_pos": -3815.68
 			},
 			"399": {
+				"connections": [
+					134
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3770,6 +4867,9 @@
 				"y_pos": -2053.74
 			},
 			"400": {
+				"connections": [
+					134
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3784,6 +4884,9 @@
 				"y_pos": -1781.69
 			},
 			"401": {
+				"connections": [
+					133
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3798,6 +4901,9 @@
 				"y_pos": -3546.08
 			},
 			"402": {
+				"connections": [
+					129
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3812,6 +4918,9 @@
 				"y_pos": -3780.8
 			},
 			"403": {
+				"connections": [
+					128
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3826,6 +4935,9 @@
 				"y_pos": -5169.19
 			},
 			"404": {
+				"connections": [
+					127
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3840,6 +4952,9 @@
 				"y_pos": -5814.6
 			},
 			"405": {
+				"connections": [
+					130
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3854,6 +4969,9 @@
 				"y_pos": -4748.49
 			},
 			"406": {
+				"connections": [
+					131
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3868,6 +4986,9 @@
 				"y_pos": -5834.45
 			},
 			"407": {
+				"connections": [
+					123
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3882,6 +5003,9 @@
 				"y_pos": -6497.1
 			},
 			"408": {
+				"connections": [
+					125
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3896,6 +5020,9 @@
 				"y_pos": -8135.88
 			},
 			"409": {
+				"connections": [
+					126
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3910,6 +5037,9 @@
 				"y_pos": -7435.68
 			},
 			"410": {
+				"connections": [
+					122
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3924,6 +5054,9 @@
 				"y_pos": -6486.32
 			},
 			"411": {
+				"connections": [
+					124
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3938,6 +5071,25 @@
 				"y_pos": -7720.3
 			},
 			"412": {
+				"connections": [
+					20,
+					67,
+					54,
+					53,
+					66,
+					55,
+					4,
+					134,
+					5,
+					136,
+					2,
+					125,
+					3,
+					128,
+					6,
+					18,
+					19
+				],
 				"req_points": 33,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -3946,6 +5098,19 @@
 				"y_pos": 2258.07
 			},
 			"413": {
+				"connections": [
+					4,
+					134,
+					5,
+					136,
+					2,
+					125,
+					3,
+					128,
+					6,
+					18,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3960,6 +5125,17 @@
 				"y_pos": -2328.91
 			},
 			"414": {
+				"connections": [
+					5,
+					136,
+					2,
+					125,
+					3,
+					128,
+					6,
+					18,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3974,6 +5150,15 @@
 				"y_pos": -3138.02
 			},
 			"415": {
+				"connections": [
+					2,
+					125,
+					3,
+					128,
+					6,
+					18,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -3988,6 +5173,13 @@
 				"y_pos": -7533.57
 			},
 			"416": {
+				"connections": [
+					3,
+					128,
+					6,
+					18,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4002,6 +5194,11 @@
 				"y_pos": -4862.28
 			},
 			"417": {
+				"connections": [
+					6,
+					18,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4016,6 +5213,9 @@
 				"y_pos": 587.949
 			},
 			"418": {
+				"connections": [
+					47
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4030,6 +5230,9 @@
 				"y_pos": 2989.77
 			},
 			"419": {
+				"connections": [
+					47
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4044,6 +5247,9 @@
 				"y_pos": 2990.98
 			},
 			"420": {
+				"connections": [
+					47
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4058,6 +5264,13 @@
 				"y_pos": 2992.14
 			},
 			"421": {
+				"connections": [
+					6,
+					13,
+					7,
+					58,
+					65
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4072,6 +5285,11 @@
 				"y_pos": 562.001
 			},
 			"422": {
+				"connections": [
+					7,
+					58,
+					65
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4086,6 +5304,9 @@
 				"y_pos": 971.655
 			},
 			"423": {
+				"connections": [
+					57
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4100,6 +5321,11 @@
 				"y_pos": 1311.79
 			},
 			"424": {
+				"connections": [
+					7,
+					76,
+					69
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4114,6 +5340,11 @@
 				"y_pos": -184.146
 			},
 			"425": {
+				"connections": [
+					3,
+					16,
+					10
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4128,6 +5359,9 @@
 				"y_pos": -5048.29
 			},
 			"426": {
+				"connections": [
+					5
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4142,6 +5376,11 @@
 				"y_pos": -2044.9
 			},
 			"427": {
+				"connections": [
+					1,
+					70,
+					74
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4156,6 +5395,9 @@
 				"y_pos": -362.73
 			},
 			"428": {
+				"connections": [
+					8
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4170,6 +5412,9 @@
 				"y_pos": 1419.12
 			},
 			"429": {
+				"connections": [
+					75
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4184,6 +5429,9 @@
 				"y_pos": -2667.91
 			},
 			"430": {
+				"connections": [
+					57
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4198,6 +5446,9 @@
 				"y_pos": 1128.65
 			},
 			"431": {
+				"connections": [
+					47
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4212,6 +5463,9 @@
 				"y_pos": 2993.8
 			},
 			"432": {
+				"connections": [
+					47
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4226,6 +5480,20 @@
 				"y_pos": 2994.08
 			},
 			"433": {
+				"connections": [
+					14,
+					15,
+					59,
+					72,
+					62,
+					74,
+					1,
+					74,
+					69,
+					76,
+					3,
+					11
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4240,6 +5508,18 @@
 				"y_pos": -62.7
 			},
 			"434": {
+				"connections": [
+					59,
+					72,
+					62,
+					74,
+					1,
+					74,
+					69,
+					76,
+					3,
+					11
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4254,6 +5534,16 @@
 				"y_pos": -619.676
 			},
 			"435": {
+				"connections": [
+					62,
+					74,
+					1,
+					74,
+					69,
+					76,
+					3,
+					11
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4268,6 +5558,14 @@
 				"y_pos": -897.821
 			},
 			"436": {
+				"connections": [
+					1,
+					74,
+					69,
+					76,
+					3,
+					11
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4282,6 +5580,12 @@
 				"y_pos": -626.35
 			},
 			"437": {
+				"connections": [
+					69,
+					76,
+					3,
+					11
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4296,6 +5600,10 @@
 				"y_pos": -911.109
 			},
 			"438": {
+				"connections": [
+					3,
+					11
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4310,6 +5618,11 @@
 				"y_pos": -4495.43
 			},
 			"439": {
+				"connections": [
+					62,
+					70,
+					71
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4324,6 +5637,11 @@
 				"y_pos": -1004.17
 			},
 			"440": {
+				"connections": [
+					4,
+					64,
+					81
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4338,6 +5656,18 @@
 				"y_pos": -2666.64
 			},
 			"441": {
+				"connections": [
+					59,
+					72,
+					62,
+					74,
+					1,
+					74,
+					69,
+					76,
+					3,
+					11
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -4352,6 +5682,9 @@
 				"y_pos": -496.717
 			},
 			"442": {
+				"connections": [
+					81
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4366,6 +5699,9 @@
 				"y_pos": 1478.04
 			},
 			"443": {
+				"connections": [
+					82
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4380,6 +5716,9 @@
 				"y_pos": 929.735
 			},
 			"444": {
+				"connections": [
+					83
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4394,6 +5733,9 @@
 				"y_pos": -441.371
 			},
 			"445": {
+				"connections": [
+					84
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -4408,6 +5750,61 @@
 				"y_pos": -645.484
 			},
 			"446": {
+				"connections": [
+					77,
+					85,
+					78,
+					86,
+					79,
+					87,
+					80,
+					88,
+					7,
+					81,
+					7,
+					82,
+					7,
+					83,
+					7,
+					84,
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -4422,6 +5819,59 @@
 				"y_pos": 1222.14
 			},
 			"447": {
+				"connections": [
+					78,
+					86,
+					79,
+					87,
+					80,
+					88,
+					7,
+					81,
+					7,
+					82,
+					7,
+					83,
+					7,
+					84,
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -4436,6 +5886,57 @@
 				"y_pos": 589.235
 			},
 			"448": {
+				"connections": [
+					79,
+					87,
+					80,
+					88,
+					7,
+					81,
+					7,
+					82,
+					7,
+					83,
+					7,
+					84,
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -4450,6 +5951,55 @@
 				"y_pos": -117.31
 			},
 			"449": {
+				"connections": [
+					80,
+					88,
+					7,
+					81,
+					7,
+					82,
+					7,
+					83,
+					7,
+					84,
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4464,6 +6014,53 @@
 				"y_pos": -358.844
 			},
 			"450": {
+				"connections": [
+					7,
+					81,
+					7,
+					82,
+					7,
+					83,
+					7,
+					84,
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4478,6 +6075,51 @@
 				"y_pos": 866.305
 			},
 			"451": {
+				"connections": [
+					7,
+					82,
+					7,
+					83,
+					7,
+					84,
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4492,6 +6134,49 @@
 				"y_pos": 523.685
 			},
 			"452": {
+				"connections": [
+					7,
+					83,
+					7,
+					84,
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4506,6 +6191,47 @@
 				"y_pos": 177.355
 			},
 			"453": {
+				"connections": [
+					7,
+					84,
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4520,6 +6246,9 @@
 				"y_pos": 4.01
 			},
 			"454": {
+				"connections": [
+					141
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4534,6 +6263,45 @@
 				"y_pos": 1424.08
 			},
 			"455": {
+				"connections": [
+					6,
+					141,
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4548,6 +6316,9 @@
 				"y_pos": 766.359
 			},
 			"456": {
+				"connections": [
+					142
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4562,6 +6333,9 @@
 				"y_pos": 1154.76
 			},
 			"457": {
+				"connections": [
+					132
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4576,6 +6350,43 @@
 				"y_pos": -3821.45
 			},
 			"458": {
+				"connections": [
+					6,
+					142,
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4590,6 +6401,41 @@
 				"y_pos": 754.449
 			},
 			"459": {
+				"connections": [
+					5,
+					137,
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4604,6 +6450,39 @@
 				"y_pos": -2667.5
 			},
 			"460": {
+				"connections": [
+					4,
+					132,
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4618,6 +6497,37 @@
 				"y_pos": -3199.46
 			},
 			"461": {
+				"connections": [
+					5,
+					138,
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4632,6 +6542,9 @@
 				"y_pos": -2209.07
 			},
 			"462": {
+				"connections": [
+					129
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4646,6 +6559,9 @@
 				"y_pos": -3728.61
 			},
 			"463": {
+				"connections": [
+					139
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4660,6 +6576,35 @@
 				"y_pos": -886.997
 			},
 			"464": {
+				"connections": [
+					3,
+					129,
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4674,6 +6619,33 @@
 				"y_pos": -4417.48
 			},
 			"465": {
+				"connections": [
+					6,
+					139,
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4688,6 +6660,9 @@
 				"y_pos": -143.077
 			},
 			"466": {
+				"connections": [
+					128
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4702,6 +6677,9 @@
 				"y_pos": -4747.7
 			},
 			"467": {
+				"connections": [
+					123
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -4716,6 +6694,9 @@
 				"y_pos": -6233.61
 			},
 			"468": {
+				"connections": [
+					125
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4730,6 +6711,31 @@
 				"y_pos": -8135.27
 			},
 			"469": {
+				"connections": [
+					6,
+					140,
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4744,6 +6750,9 @@
 				"y_pos": 229.199
 			},
 			"470": {
+				"connections": [
+					126
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4758,6 +6767,29 @@
 				"y_pos": -7726.25
 			},
 			"471": {
+				"connections": [
+					2,
+					123,
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4772,6 +6804,27 @@
 				"y_pos": -6830.81
 			},
 			"472": {
+				"connections": [
+					2,
+					126,
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4786,6 +6839,9 @@
 				"y_pos": -7270.18
 			},
 			"473": {
+				"connections": [
+					135
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4800,6 +6856,9 @@
 				"y_pos": -1576.88
 			},
 			"474": {
+				"connections": [
+					122
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4814,6 +6873,9 @@
 				"y_pos": -6217.54
 			},
 			"475": {
+				"connections": [
+					131
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4828,6 +6890,9 @@
 				"y_pos": -5589.44
 			},
 			"476": {
+				"connections": [
+					133
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -4842,6 +6907,25 @@
 				"y_pos": -3273.51
 			},
 			"477": {
+				"connections": [
+					4,
+					133,
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4856,6 +6940,23 @@
 				"y_pos": -3000.7
 			},
 			"478": {
+				"connections": [
+					4,
+					135,
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4870,6 +6971,21 @@
 				"y_pos": -2200.11
 			},
 			"479": {
+				"connections": [
+					3,
+					131,
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4884,6 +7000,9 @@
 				"y_pos": -5201.4
 			},
 			"480": {
+				"connections": [
+					124
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4898,6 +7017,19 @@
 				"y_pos": -7425.17
 			},
 			"481": {
+				"connections": [
+					2,
+					122,
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4912,6 +7044,9 @@
 				"y_pos": -6823.86
 			},
 			"482": {
+				"connections": [
+					130
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4926,6 +7061,9 @@
 				"y_pos": -4439.62
 			},
 			"483": {
+				"connections": [
+					127
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -4940,6 +7078,17 @@
 				"y_pos": -5581.82
 			},
 			"484": {
+				"connections": [
+					3,
+					130,
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4954,6 +7103,15 @@
 				"y_pos": -4779.91
 			},
 			"485": {
+				"connections": [
+					2,
+					124,
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4968,6 +7126,13 @@
 				"y_pos": -7268.95
 			},
 			"486": {
+				"connections": [
+					3,
+					127,
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -4982,6 +7147,11 @@
 				"y_pos": -5215.63
 			},
 			"488": {
+				"connections": [
+					116,
+					109,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -4996,6 +7166,11 @@
 				"y_pos": -6556.43
 			},
 			"493": {
+				"connections": [
+					106,
+					42,
+					102
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -5010,6 +7185,11 @@
 				"y_pos": -6568.74
 			},
 			"494": {
+				"connections": [
+					120,
+					46,
+					115
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5024,6 +7204,11 @@
 				"y_pos": -7413.58
 			},
 			"496": {
+				"connections": [
+					50,
+					103,
+					43
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5038,6 +7223,11 @@
 				"y_pos": -7870.44
 			},
 			"497": {
+				"connections": [
+					107,
+					105,
+					44
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5052,6 +7242,11 @@
 				"y_pos": -7417.33
 			},
 			"498": {
+				"connections": [
+					121,
+					39,
+					118
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -5066,6 +7261,11 @@
 				"y_pos": -5497.42
 			},
 			"499": {
+				"connections": [
+					51,
+					38,
+					101
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5080,6 +7280,11 @@
 				"y_pos": -4928.88
 			},
 			"500": {
+				"connections": [
+					99,
+					97,
+					37
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5094,6 +7299,11 @@
 				"y_pos": -4077.66
 			},
 			"501": {
+				"connections": [
+					119,
+					117,
+					40
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5108,6 +7318,11 @@
 				"y_pos": -4714.36
 			},
 			"502": {
+				"connections": [
+					114,
+					41,
+					110
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5122,6 +7337,11 @@
 				"y_pos": -5512.76
 			},
 			"504": {
+				"connections": [
+					95,
+					92,
+					33
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5136,6 +7356,11 @@
 				"y_pos": -3519.76
 			},
 			"505": {
+				"connections": [
+					112,
+					111,
+					36
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -5150,6 +7375,11 @@
 				"y_pos": -3235.85
 			},
 			"506": {
+				"connections": [
+					48,
+					35,
+					34
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5164,6 +7394,11 @@
 				"y_pos": -2109.31
 			},
 			"507": {
+				"connections": [
+					113,
+					108,
+					32
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5178,6 +7413,11 @@
 				"y_pos": -1868.27
 			},
 			"508": {
+				"connections": [
+					49,
+					26,
+					25
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -5192,6 +7432,11 @@
 				"y_pos": -3436.96
 			},
 			"509": {
+				"connections": [
+					94,
+					23,
+					24
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -5206,6 +7451,11 @@
 				"y_pos": -2666.04
 			},
 			"511": {
+				"connections": [
+					96,
+					27,
+					28
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -5220,6 +7470,11 @@
 				"y_pos": -1909.23
 			},
 			"512": {
+				"connections": [
+					100,
+					98,
+					30
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5234,6 +7489,11 @@
 				"y_pos": -516.567
 			},
 			"513": {
+				"connections": [
+					104,
+					21,
+					22
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5248,6 +7508,11 @@
 				"y_pos": 91.849
 			},
 			"514": {
+				"connections": [
+					90,
+					89,
+					29
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -5262,6 +7527,11 @@
 				"y_pos": 1059.85
 			},
 			"515": {
+				"connections": [
+					93,
+					91,
+					31
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -7778,6 +10048,13 @@
 		},
 		"Skill Tree": {
 			"1": {
+				"connections": [
+					108,
+					95,
+					103,
+					35,
+					108
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7792,6 +10069,15 @@
 				"y_pos": -4924.4
 			},
 			"10": {
+				"connections": [
+					110,
+					99,
+					104,
+					95,
+					100,
+					35,
+					104
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -7806,6 +10092,13 @@
 				"y_pos": -3858.91
 			},
 			"11": {
+				"connections": [
+					104,
+					95,
+					100,
+					35,
+					104
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7820,6 +10113,11 @@
 				"y_pos": -5703.44
 			},
 			"13": {
+				"connections": [
+					100,
+					35,
+					104
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7834,6 +10132,9 @@
 				"y_pos": -7913.93
 			},
 			"14": {
+				"connections": [
+					104
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -7848,6 +10149,9 @@
 				"y_pos": -6436.12
 			},
 			"17": {
+				"connections": [
+					100
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -7862,6 +10166,9 @@
 				"y_pos": -8249.35
 			},
 			"18": {
+				"connections": [
+					110
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7876,6 +10183,11 @@
 				"y_pos": -4459.05
 			},
 			"2": {
+				"connections": [
+					103,
+					35,
+					108
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7890,6 +10202,9 @@
 				"y_pos": -7298.31
 			},
 			"20": {
+				"connections": [
+					104
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7904,6 +10219,11 @@
 				"y_pos": -6167.5
 			},
 			"22": {
+				"connections": [
+					105,
+					95,
+					105
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7918,6 +10238,9 @@
 				"y_pos": -5333.26
 			},
 			"23": {
+				"connections": [
+					105
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7932,6 +10255,17 @@
 				"y_pos": -5138.33
 			},
 			"24": {
+				"connections": [
+					109,
+					99,
+					115,
+					97,
+					106,
+					95,
+					102,
+					35,
+					106
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7946,6 +10280,15 @@
 				"y_pos": -3465.49
 			},
 			"26": {
+				"connections": [
+					115,
+					97,
+					106,
+					95,
+					102,
+					35,
+					106
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7960,6 +10303,13 @@
 				"y_pos": -1199.39
 			},
 			"27": {
+				"connections": [
+					106,
+					95,
+					102,
+					35,
+					106
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -7974,6 +10324,11 @@
 				"y_pos": -5703.89
 			},
 			"29": {
+				"connections": [
+					102,
+					35,
+					106
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -7988,6 +10343,9 @@
 				"y_pos": -7912.51
 			},
 			"32": {
+				"connections": [
+					106
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8002,6 +10360,11 @@
 				"y_pos": -6162.03
 			},
 			"35": {
+				"connections": [
+					111,
+					99,
+					107
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8016,6 +10379,9 @@
 				"y_pos": -3175.14
 			},
 			"37": {
+				"connections": [
+					107
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8030,6 +10396,9 @@
 				"y_pos": -5284.15
 			},
 			"39": {
+				"connections": [
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -8044,6 +10413,9 @@
 				"y_pos": -2594.49
 			},
 			"4": {
+				"connections": [
+					108
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -8058,6 +10430,9 @@
 				"y_pos": -4238.63
 			},
 			"40": {
+				"connections": [
+					115
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -8072,6 +10447,13 @@
 				"y_pos": -504.36
 			},
 			"43": {
+				"connections": [
+					112,
+					96,
+					114,
+					97,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8086,6 +10468,11 @@
 				"y_pos": -1264.28
 			},
 			"46": {
+				"connections": [
+					114,
+					97,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8100,6 +10487,9 @@
 				"y_pos": -1863.3
 			},
 			"50": {
+				"connections": [
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8114,6 +10504,9 @@
 				"y_pos": -867.064
 			},
 			"56": {
+				"connections": [
+					109
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8128,6 +10521,15 @@
 				"y_pos": -3263.46
 			},
 			"58": {
+				"connections": [
+					32,
+					98,
+					33,
+					98,
+					34,
+					98,
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8142,6 +10544,11 @@
 				"y_pos": 468.494
 			},
 			"6": {
+				"connections": [
+					101,
+					35,
+					101
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8156,6 +10563,13 @@
 				"y_pos": -7296.21
 			},
 			"60": {
+				"connections": [
+					33,
+					98,
+					34,
+					98,
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8170,6 +10584,11 @@
 				"y_pos": 1007.49
 			},
 			"61": {
+				"connections": [
+					34,
+					98,
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8184,6 +10603,9 @@
 				"y_pos": 339.972
 			},
 			"63": {
+				"connections": [
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -8198,6 +10620,31 @@
 				"y_pos": -603.104
 			},
 			"67": {
+				"connections": [
+					28,
+					62,
+					29,
+					61,
+					30,
+					60,
+					8,
+					3,
+					18,
+					1,
+					37,
+					86,
+					41,
+					36,
+					56,
+					89,
+					54,
+					98,
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8212,6 +10659,29 @@
 				"y_pos": 291.001
 			},
 			"68": {
+				"connections": [
+					29,
+					61,
+					30,
+					60,
+					8,
+					3,
+					18,
+					1,
+					37,
+					86,
+					41,
+					36,
+					56,
+					89,
+					54,
+					98,
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -8226,6 +10696,27 @@
 				"y_pos": 1331.39
 			},
 			"69": {
+				"connections": [
+					30,
+					60,
+					8,
+					3,
+					18,
+					1,
+					37,
+					86,
+					41,
+					36,
+					56,
+					89,
+					54,
+					98,
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8240,6 +10731,25 @@
 				"y_pos": 22.558
 			},
 			"70": {
+				"connections": [
+					8,
+					3,
+					18,
+					1,
+					37,
+					86,
+					41,
+					36,
+					56,
+					89,
+					54,
+					98,
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -8248,6 +10758,21 @@
 				"y_pos": -7605.15
 			},
 			"77": {
+				"connections": [
+					37,
+					86,
+					41,
+					36,
+					56,
+					89,
+					54,
+					98,
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8262,6 +10787,19 @@
 				"y_pos": -2366.31
 			},
 			"78": {
+				"connections": [
+					41,
+					36,
+					56,
+					89,
+					54,
+					98,
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8276,6 +10814,17 @@
 				"y_pos": -2328.61
 			},
 			"79": {
+				"connections": [
+					56,
+					89,
+					54,
+					98,
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8290,6 +10839,9 @@
 				"y_pos": -2680.35
 			},
 			"8": {
+				"connections": [
+					101
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -8304,6 +10856,15 @@
 				"y_pos": -6695.23
 			},
 			"80": {
+				"connections": [
+					54,
+					98,
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -8318,6 +10879,13 @@
 				"y_pos": 670.413
 			},
 			"81": {
+				"connections": [
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8332,6 +10900,11 @@
 				"y_pos": -1080.87
 			},
 			"82": {
+				"connections": [
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8346,6 +10919,9 @@
 				"y_pos": -1928.83
 			},
 			"83": {
+				"connections": [
+					90
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8360,6 +10936,11 @@
 				"y_pos": -5715.05
 			},
 			"84": {
+				"connections": [
+					46,
+					40,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8374,6 +10955,9 @@
 				"y_pos": -1403.55
 			},
 			"85": {
+				"connections": [
+					63
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8388,6 +10972,9 @@
 				"y_pos": 2872.64
 			},
 			"86": {
+				"connections": [
+					63
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8402,6 +10989,13 @@
 				"y_pos": 2873.75
 			},
 			"87": {
+				"connections": [
+					43,
+					49,
+					37,
+					86,
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8416,6 +11010,11 @@
 				"y_pos": -1440.32
 			},
 			"88": {
+				"connections": [
+					55,
+					56,
+					89
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8430,6 +11029,15 @@
 				"y_pos": -2679.82
 			},
 			"89": {
+				"connections": [
+					87,
+					98,
+					40,
+					46,
+					88,
+					99,
+					95
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8444,6 +11052,9 @@
 				"y_pos": 1161.9
 			},
 			"9": {
+				"connections": [
+					103
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -8458,6 +11069,13 @@
 				"y_pos": -6696.0
 			},
 			"90": {
+				"connections": [
+					40,
+					46,
+					88,
+					99,
+					95
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8472,6 +11090,11 @@
 				"y_pos": -1124.01
 			},
 			"91": {
+				"connections": [
+					88,
+					99,
+					95
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8486,6 +11109,9 @@
 				"y_pos": -2998.78
 			},
 			"92": {
+				"connections": [
+					95
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8500,6 +11126,9 @@
 				"y_pos": -4959.93
 			},
 			"93": {
+				"connections": [
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8514,6 +11143,11 @@
 				"y_pos": -1303.2
 			},
 			"94": {
+				"connections": [
+					59,
+					98,
+					87
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8528,6 +11162,9 @@
 				"y_pos": 873.005
 			},
 			"95": {
+				"connections": [
+					39
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8542,6 +11179,9 @@
 				"y_pos": 669.253
 			},
 			"96": {
+				"connections": [
+					47
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8556,6 +11196,11 @@
 				"y_pos": -3072.39
 			},
 			"97": {
+				"connections": [
+					38,
+					47,
+					53
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8570,6 +11215,9 @@
 				"y_pos": -3070.54
 			},
 			"98": {
+				"connections": [
+					63
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -8584,6 +11232,9 @@
 				"y_pos": 2874.63
 			},
 			"99": {
+				"connections": [
+					63
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -9285,6 +11936,7 @@
 		},
 		"Skill Tree": {
 			"1": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9299,6 +11951,17 @@
 				"y_pos": -4180.62
 			},
 			"10": {
+				"connections": [
+					123,
+					108,
+					118,
+					105,
+					121,
+					104,
+					110,
+					106,
+					109
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9313,6 +11976,15 @@
 				"y_pos": -2539.33
 			},
 			"11": {
+				"connections": [
+					118,
+					105,
+					121,
+					104,
+					110,
+					106,
+					109
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9327,6 +11999,13 @@
 				"y_pos": -4657.63
 			},
 			"12": {
+				"connections": [
+					121,
+					104,
+					110,
+					106,
+					109
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9341,6 +12020,11 @@
 				"y_pos": -1669.61
 			},
 			"13": {
+				"connections": [
+					110,
+					106,
+					109
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9355,6 +12039,9 @@
 				"y_pos": -6379.77
 			},
 			"14": {
+				"connections": [
+					109
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9369,6 +12056,9 @@
 				"y_pos": -7375.56
 			},
 			"16": {
+				"connections": [
+					121
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9383,6 +12073,9 @@
 				"y_pos": -962.883
 			},
 			"17": {
+				"connections": [
+					110
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9397,6 +12090,13 @@
 				"y_pos": -6021.83
 			},
 			"2": {
+				"connections": [
+					112,
+					106,
+					109,
+					106,
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9411,6 +12111,9 @@
 				"y_pos": -6865.73
 			},
 			"20": {
+				"connections": [
+					115
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9425,6 +12128,9 @@
 				"y_pos": -4148.69
 			},
 			"21": {
+				"connections": [
+					118
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9439,6 +12145,11 @@
 				"y_pos": -5301.69
 			},
 			"23": {
+				"connections": [
+					119,
+					104,
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9453,6 +12164,9 @@
 				"y_pos": -2642.15
 			},
 			"24": {
+				"connections": [
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9467,6 +12181,19 @@
 				"y_pos": -3275.28
 			},
 			"25": {
+				"connections": [
+					128,
+					103,
+					116,
+					105,
+					126,
+					103,
+					111,
+					106,
+					122,
+					108,
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9481,6 +12208,17 @@
 				"y_pos": 540.529
 			},
 			"26": {
+				"connections": [
+					116,
+					105,
+					126,
+					103,
+					111,
+					106,
+					122,
+					108,
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9495,6 +12233,15 @@
 				"y_pos": -3820.62
 			},
 			"27": {
+				"connections": [
+					126,
+					103,
+					111,
+					106,
+					122,
+					108,
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9509,6 +12256,13 @@
 				"y_pos": -84.027
 			},
 			"28": {
+				"connections": [
+					111,
+					106,
+					122,
+					108,
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9523,6 +12277,11 @@
 				"y_pos": -7097.64
 			},
 			"29": {
+				"connections": [
+					122,
+					108,
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9537,6 +12296,9 @@
 				"y_pos": -2402.69
 			},
 			"32": {
+				"connections": [
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9551,6 +12313,9 @@
 				"y_pos": -7775.86
 			},
 			"33": {
+				"connections": [
+					122
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9565,6 +12330,11 @@
 				"y_pos": -2651.75
 			},
 			"34": {
+				"connections": [
+					124,
+					108,
+					128
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9579,6 +12349,9 @@
 				"y_pos": -2141.94
 			},
 			"35": {
+				"connections": [
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9593,6 +12366,9 @@
 				"y_pos": -3265.28
 			},
 			"36": {
+				"connections": [
+					128
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9607,6 +12383,9 @@
 				"y_pos": 1106.43
 			},
 			"37": {
+				"connections": [
+					124
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9621,6 +12400,9 @@
 				"y_pos": -2316.63
 			},
 			"38": {
+				"connections": [
+					118
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9635,6 +12417,11 @@
 				"y_pos": -5126.79
 			},
 			"40": {
+				"connections": [
+					114,
+					105,
+					126
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9649,6 +12436,9 @@
 				"y_pos": -4669.16
 			},
 			"41": {
+				"connections": [
+					122
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9663,6 +12453,9 @@
 				"y_pos": -2956.47
 			},
 			"42": {
+				"connections": [
+					126
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9677,6 +12470,9 @@
 				"y_pos": -792.574
 			},
 			"43": {
+				"connections": [
+					114
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9691,6 +12487,9 @@
 				"y_pos": -5298.46
 			},
 			"44": {
+				"connections": [
+					120
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9705,6 +12504,11 @@
 				"y_pos": -2317.04
 			},
 			"45": {
+				"connections": [
+					120,
+					104,
+					127
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9719,6 +12523,9 @@
 				"y_pos": -2137.15
 			},
 			"46": {
+				"connections": [
+					127
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9733,6 +12540,11 @@
 				"y_pos": -782.284
 			},
 			"47": {
+				"connections": [
+					127,
+					103,
+					116
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9747,6 +12559,9 @@
 				"y_pos": -84.967
 			},
 			"49": {
+				"connections": [
+					116
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9761,6 +12576,11 @@
 				"y_pos": -3176.25
 			},
 			"5": {
+				"connections": [
+					109,
+					106,
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9775,6 +12595,9 @@
 				"y_pos": -6870.39
 			},
 			"50": {
+				"connections": [
+					121
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9789,6 +12612,11 @@
 				"y_pos": -964.987
 			},
 			"51": {
+				"connections": [
+					113,
+					106,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9803,6 +12631,9 @@
 				"y_pos": -6384.79
 			},
 			"54": {
+				"connections": [
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9817,6 +12648,9 @@
 				"y_pos": -5747.58
 			},
 			"55": {
+				"connections": [
+					120
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9831,6 +12665,19 @@
 				"y_pos": -1989.17
 			},
 			"58": {
+				"connections": [
+					83,
+					107,
+					45,
+					107,
+					46,
+					107,
+					43,
+					47,
+					44,
+					48,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9845,6 +12692,17 @@
 				"y_pos": 2086.95
 			},
 			"59": {
+				"connections": [
+					45,
+					107,
+					46,
+					107,
+					43,
+					47,
+					44,
+					48,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9859,6 +12717,9 @@
 				"y_pos": 1558.09
 			},
 			"6": {
+				"connections": [
+					112
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9873,6 +12734,15 @@
 				"y_pos": -7385.4
 			},
 			"60": {
+				"connections": [
+					46,
+					107,
+					43,
+					47,
+					44,
+					48,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9887,6 +12757,13 @@
 				"y_pos": 2252.79
 			},
 			"62": {
+				"connections": [
+					43,
+					47,
+					44,
+					48,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9901,6 +12778,11 @@
 				"y_pos": 1216.43
 			},
 			"63": {
+				"connections": [
+					44,
+					48,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9915,6 +12797,9 @@
 				"y_pos": 2138.25
 			},
 			"67": {
+				"connections": [
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -9929,6 +12814,9 @@
 				"y_pos": 915.187
 			},
 			"68": {
+				"connections": [
+					46
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -9943,6 +12831,9 @@
 				"y_pos": 2404.4
 			},
 			"76": {
+				"connections": [
+					108
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -9957,6 +12848,9 @@
 				"y_pos": -2629.94
 			},
 			"77": {
+				"connections": [
+					104
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -9971,6 +12865,9 @@
 				"y_pos": -2656.04
 			},
 			"78": {
+				"connections": [
+					65
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -9985,6 +12882,9 @@
 				"y_pos": 2929.36
 			},
 			"79": {
+				"connections": [
+					107
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -9999,6 +12899,9 @@
 				"y_pos": 1487.99
 			},
 			"8": {
+				"connections": [
+					115
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -10013,6 +12916,9 @@
 				"y_pos": -3821.6
 			},
 			"80": {
+				"connections": [
+					107
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10027,6 +12933,11 @@
 				"y_pos": 1855.06
 			},
 			"81": {
+				"connections": [
+					90,
+					103,
+					96
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10041,6 +12952,11 @@
 				"y_pos": 852.648
 			},
 			"82": {
+				"connections": [
+					92,
+					103,
+					62
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10055,6 +12971,9 @@
 				"y_pos": 315.456
 			},
 			"83": {
+				"connections": [
+					62
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10069,6 +12988,9 @@
 				"y_pos": 2731.12
 			},
 			"84": {
+				"connections": [
+					65
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10083,6 +13005,9 @@
 				"y_pos": 2728.01
 			},
 			"86": {
+				"connections": [
+					72
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10097,6 +13022,11 @@
 				"y_pos": 4459.31
 			},
 			"87": {
+				"connections": [
+					108,
+					60,
+					59
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10111,6 +13041,9 @@
 				"y_pos": -1651.65
 			},
 			"88": {
+				"connections": [
+					59
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10125,6 +13058,9 @@
 				"y_pos": -1402.06
 			},
 			"89": {
+				"connections": [
+					64
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10139,6 +13075,9 @@
 				"y_pos": -4648.77
 			},
 			"9": {
+				"connections": [
+					117
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -10153,6 +13092,11 @@
 				"y_pos": -4438.34
 			},
 			"90": {
+				"connections": [
+					98,
+					56,
+					107
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10167,6 +13111,9 @@
 				"y_pos": 2567.32
 			},
 			"91": {
+				"connections": [
+					104
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10181,6 +13128,13 @@
 				"y_pos": -1629.24
 			},
 			"92": {
+				"connections": [
+					105,
+					61,
+					57,
+					107,
+					51
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10195,6 +13149,11 @@
 				"y_pos": -4506.33
 			},
 			"93": {
+				"connections": [
+					57,
+					107,
+					51
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10209,6 +13168,9 @@
 				"y_pos": 2581.88
 			},
 			"94": {
+				"connections": [
+					97
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10223,6 +13185,11 @@
 				"y_pos": -1386.92
 			},
 			"95": {
+				"connections": [
+					95,
+					94,
+					103
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10237,6 +13204,17 @@
 				"y_pos": 264.02
 			},
 			"96": {
+				"connections": [
+					91,
+					103,
+					117,
+					105,
+					58,
+					69,
+					88,
+					89,
+					129
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -10251,6 +13229,9 @@
 				"y_pos": 21.862
 			},
 			"97": {
+				"connections": [
+					72
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11124,6 +14105,41 @@
 		},
 		"Skill Tree": {
 			"603": {
+				"connections": [
+					114,
+					126,
+					114,
+					127,
+					114,
+					128,
+					115,
+					123,
+					43,
+					131,
+					43,
+					130,
+					45,
+					136,
+					45,
+					133,
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11138,6 +14154,39 @@
 				"y_pos": -3258.85
 			},
 			"604": {
+				"connections": [
+					114,
+					127,
+					114,
+					128,
+					115,
+					123,
+					43,
+					131,
+					43,
+					130,
+					45,
+					136,
+					45,
+					133,
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11152,6 +14201,37 @@
 				"y_pos": -2798.32
 			},
 			"605": {
+				"connections": [
+					114,
+					128,
+					115,
+					123,
+					43,
+					131,
+					43,
+					130,
+					45,
+					136,
+					45,
+					133,
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11166,6 +14246,35 @@
 				"y_pos": -2396.99
 			},
 			"606": {
+				"connections": [
+					115,
+					123,
+					43,
+					131,
+					43,
+					130,
+					45,
+					136,
+					45,
+					133,
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11180,6 +14289,33 @@
 				"y_pos": -4676.36
 			},
 			"607": {
+				"connections": [
+					43,
+					131,
+					43,
+					130,
+					45,
+					136,
+					45,
+					133,
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11194,6 +14330,31 @@
 				"y_pos": -3164.1
 			},
 			"608": {
+				"connections": [
+					43,
+					130,
+					45,
+					136,
+					45,
+					133,
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11208,6 +14369,29 @@
 				"y_pos": -3141.16
 			},
 			"609": {
+				"connections": [
+					45,
+					136,
+					45,
+					133,
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11222,6 +14406,27 @@
 				"y_pos": 268.527
 			},
 			"610": {
+				"connections": [
+					45,
+					133,
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11236,6 +14441,25 @@
 				"y_pos": -407.491
 			},
 			"611": {
+				"connections": [
+					115,
+					120,
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11250,6 +14474,23 @@
 				"y_pos": -5492.42
 			},
 			"612": {
+				"connections": [
+					43,
+					132,
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11264,6 +14505,21 @@
 				"y_pos": -2298.84
 			},
 			"613": {
+				"connections": [
+					114,
+					129,
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11278,6 +14534,19 @@
 				"y_pos": -2519.41
 			},
 			"614": {
+				"connections": [
+					45,
+					134,
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11292,6 +14561,17 @@
 				"y_pos": 34.168
 			},
 			"615": {
+				"connections": [
+					44,
+					14,
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11306,6 +14586,15 @@
 				"y_pos": -263.244
 			},
 			"616": {
+				"connections": [
+					19,
+					44,
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11320,6 +14609,13 @@
 				"y_pos": 326.319
 			},
 			"617": {
+				"connections": [
+					12,
+					17,
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11334,6 +14630,11 @@
 				"y_pos": -561.543
 			},
 			"618": {
+				"connections": [
+					18,
+					44,
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11348,6 +14649,9 @@
 				"y_pos": -255.374
 			},
 			"619": {
+				"connections": [
+					19
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11362,6 +14666,9 @@
 				"y_pos": 769.398
 			},
 			"620": {
+				"connections": [
+					14
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11376,6 +14683,13 @@
 				"y_pos": -623.029
 			},
 			"621": {
+				"connections": [
+					15,
+					20,
+					13,
+					16,
+					18
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11390,6 +14704,11 @@
 				"y_pos": -487.712
 			},
 			"622": {
+				"connections": [
+					13,
+					16,
+					18
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11404,6 +14723,9 @@
 				"y_pos": 520.413
 			},
 			"623": {
+				"connections": [
+					18
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11418,6 +14740,11 @@
 				"y_pos": -494.512
 			},
 			"624": {
+				"connections": [
+					23,
+					44,
+					24
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11432,6 +14759,9 @@
 				"y_pos": -565.755
 			},
 			"625": {
+				"connections": [
+					43
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11446,6 +14776,11 @@
 				"y_pos": -2327.69
 			},
 			"626": {
+				"connections": [
+					21,
+					46,
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11460,6 +14795,11 @@
 				"y_pos": -861.227
 			},
 			"627": {
+				"connections": [
+					21,
+					46,
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11474,6 +14814,9 @@
 				"y_pos": -854.708
 			},
 			"628": {
+				"connections": [
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11488,6 +14831,9 @@
 				"y_pos": 2412.07
 			},
 			"629": {
+				"connections": [
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11502,6 +14848,9 @@
 				"y_pos": 2411.05
 			},
 			"630": {
+				"connections": [
+					53
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11516,6 +14865,9 @@
 				"y_pos": -4409.15
 			},
 			"631": {
+				"connections": [
+					114
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11530,6 +14882,9 @@
 				"y_pos": -3339.57
 			},
 			"632": {
+				"connections": [
+					114
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11544,6 +14899,13 @@
 				"y_pos": -2071.52
 			},
 			"633": {
+				"connections": [
+					33,
+					32,
+					45,
+					57,
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11558,6 +14920,11 @@
 				"y_pos": 25.157
 			},
 			"634": {
+				"connections": [
+					45,
+					57,
+					111
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11572,6 +14939,13 @@
 				"y_pos": 663.255
 			},
 			"635": {
+				"connections": [
+					30,
+					108,
+					110,
+					38,
+					44
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11586,6 +14960,13 @@
 				"y_pos": 177.042
 			},
 			"636": {
+				"connections": [
+					30,
+					108,
+					110,
+					38,
+					44
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11600,6 +14981,9 @@
 				"y_pos": -150.293
 			},
 			"637": {
+				"connections": [
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11614,6 +14998,9 @@
 				"y_pos": 2413.67
 			},
 			"638": {
+				"connections": [
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11628,6 +15015,11 @@
 				"y_pos": 2417.12
 			},
 			"639": {
+				"connections": [
+					110,
+					38,
+					44
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11642,6 +15034,9 @@
 				"y_pos": 587.895
 			},
 			"640": {
+				"connections": [
+					39
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11656,6 +15051,13 @@
 				"y_pos": 835.632
 			},
 			"641": {
+				"connections": [
+					36,
+					109,
+					37,
+					50,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11670,6 +15072,11 @@
 				"y_pos": 888.382
 			},
 			"642": {
+				"connections": [
+					37,
+					50,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11684,6 +15091,9 @@
 				"y_pos": 469.346
 			},
 			"643": {
+				"connections": [
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11698,6 +15108,9 @@
 				"y_pos": 2403.7
 			},
 			"644": {
+				"connections": [
+					60
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11712,6 +15125,29 @@
 				"y_pos": 2410.39
 			},
 			"645": {
+				"connections": [
+					115,
+					124,
+					4,
+					5,
+					9,
+					22,
+					48,
+					113,
+					12,
+					13,
+					15,
+					21,
+					36,
+					108,
+					6,
+					7,
+					11,
+					31,
+					39,
+					107,
+					61
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11726,6 +15162,27 @@
 				"y_pos": -5139.88
 			},
 			"646": {
+				"connections": [
+					4,
+					5,
+					9,
+					22,
+					48,
+					113,
+					12,
+					13,
+					15,
+					21,
+					36,
+					108,
+					6,
+					7,
+					11,
+					31,
+					39,
+					107,
+					61
+				],
 				"req_points": 11,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -11734,6 +15191,21 @@
 				"y_pos": -2798.5
 			},
 			"647": {
+				"connections": [
+					12,
+					13,
+					15,
+					21,
+					36,
+					108,
+					6,
+					7,
+					11,
+					31,
+					39,
+					107,
+					61
+				],
 				"req_points": 23,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -11742,6 +15214,15 @@
 				"y_pos": 25.128
 			},
 			"648": {
+				"connections": [
+					6,
+					7,
+					11,
+					31,
+					39,
+					107,
+					61
+				],
 				"req_points": 16,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -11750,6 +15231,27 @@
 				"y_pos": 30.088
 			},
 			"649": {
+				"connections": [
+					23,
+					24,
+					59,
+					49,
+					52,
+					51,
+					47,
+					118,
+					47,
+					116,
+					47,
+					119,
+					115,
+					27,
+					115,
+					125,
+					115,
+					122,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11764,6 +15266,25 @@
 				"y_pos": -1148.47
 			},
 			"650": {
+				"connections": [
+					59,
+					49,
+					52,
+					51,
+					47,
+					118,
+					47,
+					116,
+					47,
+					119,
+					115,
+					27,
+					115,
+					125,
+					115,
+					122,
+					113
+				],
 				"req_points": 0,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -11772,6 +15293,9 @@
 				"y_pos": -7464.06
 			},
 			"651": {
+				"connections": [
+					43
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11786,6 +15310,21 @@
 				"y_pos": -3479.59
 			},
 			"652": {
+				"connections": [
+					47,
+					118,
+					47,
+					116,
+					47,
+					119,
+					115,
+					27,
+					115,
+					125,
+					115,
+					122,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11800,6 +15339,9 @@
 				"y_pos": -7130.04
 			},
 			"653": {
+				"connections": [
+					39
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11814,6 +15356,19 @@
 				"y_pos": 607.584
 			},
 			"654": {
+				"connections": [
+					47,
+					116,
+					47,
+					119,
+					115,
+					27,
+					115,
+					125,
+					115,
+					122,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11828,6 +15383,17 @@
 				"y_pos": -7801.98
 			},
 			"655": {
+				"connections": [
+					47,
+					119,
+					115,
+					27,
+					115,
+					125,
+					115,
+					122,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11842,6 +15408,15 @@
 				"y_pos": -7125.78
 			},
 			"656": {
+				"connections": [
+					115,
+					27,
+					115,
+					125,
+					115,
+					122,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11856,6 +15431,13 @@
 				"y_pos": -4652.34
 			},
 			"657": {
+				"connections": [
+					115,
+					125,
+					115,
+					122,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11870,6 +15452,11 @@
 				"y_pos": -5495.88
 			},
 			"658": {
+				"connections": [
+					115,
+					122,
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11884,6 +15471,9 @@
 				"y_pos": -4549.39
 			},
 			"659": {
+				"connections": [
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11898,6 +15488,9 @@
 				"y_pos": -2599.41
 			},
 			"660": {
+				"connections": [
+					31
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -11912,6 +15505,21 @@
 				"y_pos": 1079.09
 			},
 			"661": {
+				"connections": [
+					115,
+					121,
+					47,
+					117,
+					25,
+					26,
+					34,
+					35,
+					40,
+					41,
+					45,
+					135,
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11926,6 +15534,19 @@
 				"y_pos": -5088.86
 			},
 			"662": {
+				"connections": [
+					47,
+					117,
+					25,
+					26,
+					34,
+					35,
+					40,
+					41,
+					45,
+					135,
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11940,6 +15561,17 @@
 				"y_pos": -7803.29
 			},
 			"663": {
+				"connections": [
+					25,
+					26,
+					34,
+					35,
+					40,
+					41,
+					45,
+					135,
+					119
+				],
 				"req_points": 33,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -11948,6 +15580,11 @@
 				"y_pos": 1674.28
 			},
 			"664": {
+				"connections": [
+					45,
+					135,
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 0,
@@ -11962,6 +15599,9 @@
 				"y_pos": 493.68
 			},
 			"665": {
+				"connections": [
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11976,6 +15616,9 @@
 				"y_pos": -6758.61
 			},
 			"666": {
+				"connections": [
+					133
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -11990,6 +15633,9 @@
 				"y_pos": -967.089
 			},
 			"667": {
+				"connections": [
+					122
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12004,6 +15650,9 @@
 				"y_pos": -3922.59
 			},
 			"668": {
+				"connections": [
+					123
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12018,6 +15667,9 @@
 				"y_pos": -4357.22
 			},
 			"669": {
+				"connections": [
+					125
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12032,6 +15684,9 @@
 				"y_pos": -5910.1
 			},
 			"670": {
+				"connections": [
+					116
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12046,6 +15701,9 @@
 				"y_pos": -8380.03
 			},
 			"671": {
+				"connections": [
+					135
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12060,6 +15718,9 @@
 				"y_pos": 1080.44
 			},
 			"672": {
+				"connections": [
+					126
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12074,6 +15735,9 @@
 				"y_pos": -3834.87
 			},
 			"673": {
+				"connections": [
+					117
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12088,6 +15752,9 @@
 				"y_pos": -8123.72
 			},
 			"674": {
+				"connections": [
+					127
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12102,6 +15769,9 @@
 				"y_pos": -2920.81
 			},
 			"675": {
+				"connections": [
+					120
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12116,6 +15786,9 @@
 				"y_pos": -5885.5
 			},
 			"676": {
+				"connections": [
+					131
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12130,6 +15803,9 @@
 				"y_pos": -3694.07
 			},
 			"677": {
+				"connections": [
+					128
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12144,6 +15820,9 @@
 				"y_pos": -1816.35
 			},
 			"678": {
+				"connections": [
+					130
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12158,6 +15837,9 @@
 				"y_pos": -3466.11
 			},
 			"679": {
+				"connections": [
+					121
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12172,6 +15854,9 @@
 				"y_pos": -5007.83
 			},
 			"680": {
+				"connections": [
+					124
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12186,6 +15871,9 @@
 				"y_pos": -5394.74
 			},
 			"681": {
+				"connections": [
+					118
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12200,6 +15888,9 @@
 				"y_pos": -6744.16
 			},
 			"682": {
+				"connections": [
+					132
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12214,6 +15905,9 @@
 				"y_pos": -1631.37
 			},
 			"683": {
+				"connections": [
+					136
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12228,6 +15922,9 @@
 				"y_pos": 658.404
 			},
 			"684": {
+				"connections": [
+					129
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12242,6 +15939,9 @@
 				"y_pos": -2275.76
 			},
 			"685": {
+				"connections": [
+					129
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12256,6 +15956,9 @@
 				"y_pos": -2045.28
 			},
 			"686": {
+				"connections": [
+					136
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12270,6 +15973,9 @@
 				"y_pos": 456.006
 			},
 			"687": {
+				"connections": [
+					132
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12284,6 +15990,9 @@
 				"y_pos": -1628.74
 			},
 			"688": {
+				"connections": [
+					118
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12298,6 +16007,9 @@
 				"y_pos": -6544.15
 			},
 			"689": {
+				"connections": [
+					125
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12312,6 +16024,9 @@
 				"y_pos": -6059.13
 			},
 			"690": {
+				"connections": [
+					124
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12326,6 +16041,9 @@
 				"y_pos": -5108.11
 			},
 			"691": {
+				"connections": [
+					121
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12340,6 +16058,9 @@
 				"y_pos": -5242.8
 			},
 			"692": {
+				"connections": [
+					130
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12354,6 +16075,9 @@
 				"y_pos": -3647.97
 			},
 			"693": {
+				"connections": [
+					128
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12368,6 +16092,9 @@
 				"y_pos": -1974.06
 			},
 			"694": {
+				"connections": [
+					131
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12382,6 +16109,9 @@
 				"y_pos": -3492.72
 			},
 			"695": {
+				"connections": [
+					120
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12396,6 +16126,9 @@
 				"y_pos": -6059.61
 			},
 			"696": {
+				"connections": [
+					127
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12410,6 +16143,9 @@
 				"y_pos": -2657.85
 			},
 			"697": {
+				"connections": [
+					117
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12424,6 +16160,9 @@
 				"y_pos": -8370.71
 			},
 			"698": {
+				"connections": [
+					126
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12438,6 +16177,9 @@
 				"y_pos": -3846.32
 			},
 			"699": {
+				"connections": [
+					135
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12452,6 +16194,9 @@
 				"y_pos": 1017.33
 			},
 			"700": {
+				"connections": [
+					116
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12466,6 +16211,9 @@
 				"y_pos": -8163.33
 			},
 			"701": {
+				"connections": [
+					123
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12480,6 +16228,9 @@
 				"y_pos": -4125.45
 			},
 			"702": {
+				"connections": [
+					122
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12494,6 +16245,9 @@
 				"y_pos": -3948.12
 			},
 			"703": {
+				"connections": [
+					133
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12508,6 +16262,9 @@
 				"y_pos": -978.459
 			},
 			"704": {
+				"connections": [
+					119
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12522,6 +16279,9 @@
 				"y_pos": -6534.43
 			},
 			"705": {
+				"connections": [
+					134
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12536,6 +16296,9 @@
 				"y_pos": 156.517
 			},
 			"706": {
+				"connections": [
+					134
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12550,6 +16313,9 @@
 				"y_pos": -87.231
 			},
 			"707": {
+				"connections": [
+					107
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12564,6 +16330,9 @@
 				"y_pos": -817.713
 			},
 			"708": {
+				"connections": [
+					107
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12578,6 +16347,9 @@
 				"y_pos": -597.733
 			},
 			"709": {
+				"connections": [
+					113
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12592,6 +16364,11 @@
 				"y_pos": -3000.56
 			},
 			"710": {
+				"connections": [
+					45,
+					104,
+					105
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12606,6 +16383,11 @@
 				"y_pos": -452.979
 			},
 			"711": {
+				"connections": [
+					32,
+					33,
+					44
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12620,6 +16402,11 @@
 				"y_pos": 26.419
 			},
 			"712": {
+				"connections": [
+					38,
+					110,
+					115
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12634,6 +16421,13 @@
 				"y_pos": 1199.85
 			},
 			"713": {
+				"connections": [
+					36,
+					109,
+					37,
+					50,
+					45
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12648,6 +16442,9 @@
 				"y_pos": 884.302
 			},
 			"714": {
+				"connections": [
+					31
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12662,6 +16459,9 @@
 				"y_pos": 979.246
 			},
 			"715": {
+				"connections": [
+					115
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12676,6 +16476,11 @@
 				"y_pos": -4766.53
 			},
 			"716": {
+				"connections": [
+					106,
+					43,
+					56
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 2,
@@ -12690,6 +16495,7 @@
 				"y_pos": -2796.83
 			},
 			"717": {
+				"connections": [],
 				"req_points": 6,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -12698,6 +16504,19 @@
 				"y_pos": -2802.74
 			},
 			"718": {
+				"connections": [
+					3,
+					8,
+					42,
+					54,
+					55,
+					58,
+					53,
+					112,
+					51,
+					97,
+					67
+				],
 				"req_points": 2,
 				"reward": null,
 				"reward_hash": 4294967295,
@@ -12706,6 +16525,11 @@
 				"y_pos": -5066.05
 			},
 			"724": {
+				"connections": [
+					51,
+					97,
+					67
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12720,6 +16544,11 @@
 				"y_pos": -8092.43
 			},
 			"725": {
+				"connections": [
+					59,
+					70,
+					94
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12734,6 +16563,11 @@
 				"y_pos": -8067.88
 			},
 			"726": {
+				"connections": [
+					49,
+					78,
+					85
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12748,6 +16582,11 @@
 				"y_pos": -6838.52
 			},
 			"727": {
+				"connections": [
+					52,
+					101,
+					62
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12762,6 +16601,11 @@
 				"y_pos": -6822.39
 			},
 			"728": {
+				"connections": [
+					72,
+					92,
+					8
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12776,6 +16620,11 @@
 				"y_pos": -5755.47
 			},
 			"729": {
+				"connections": [
+					58,
+					88,
+					76
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12790,6 +16639,11 @@
 				"y_pos": -5114.86
 			},
 			"730": {
+				"connections": [
+					55,
+					99,
+					64
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12804,6 +16658,11 @@
 				"y_pos": -4179.57
 			},
 			"731": {
+				"connections": [
+					3,
+					98,
+					65
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12818,6 +16677,11 @@
 				"y_pos": -4411.86
 			},
 			"732": {
+				"connections": [
+					42,
+					77,
+					87
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12832,6 +16696,11 @@
 				"y_pos": -5192.16
 			},
 			"733": {
+				"connections": [
+					54,
+					86,
+					66
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12846,6 +16715,7 @@
 				"y_pos": -5769.78
 			},
 			"734": {
+				"connections": [],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12860,6 +16730,11 @@
 				"y_pos": -3606.94
 			},
 			"735": {
+				"connections": [
+					1,
+					71,
+					93
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12874,6 +16749,11 @@
 				"y_pos": -2801.34
 			},
 			"736": {
+				"connections": [
+					2,
+					90,
+					74
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12888,6 +16768,11 @@
 				"y_pos": -2086.4
 			},
 			"737": {
+				"connections": [
+					10,
+					81,
+					82
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12902,6 +16787,11 @@
 				"y_pos": -2286.56
 			},
 			"738": {
+				"connections": [
+					5,
+					75,
+					89
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12916,6 +16806,11 @@
 				"y_pos": -3374.4
 			},
 			"739": {
+				"connections": [
+					4,
+					91,
+					73
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12930,6 +16825,11 @@
 				"y_pos": -3414.7
 			},
 			"740": {
+				"connections": [
+					9,
+					79,
+					84
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12944,6 +16844,11 @@
 				"y_pos": -1918.52
 			},
 			"741": {
+				"connections": [
+					7,
+					63,
+					100
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12958,6 +16863,11 @@
 				"y_pos": -729.481
 			},
 			"742": {
+				"connections": [
+					11,
+					103,
+					102
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12972,6 +16882,11 @@
 				"y_pos": 31.058
 			},
 			"743": {
+				"connections": [
+					61,
+					96,
+					68
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
@@ -12986,6 +16901,11 @@
 				"y_pos": 807.232
 			},
 			"745": {
+				"connections": [
+					6,
+					80,
+					83
+				],
 				"req_points": 0,
 				"reward": {
 					"e_type": 1,
