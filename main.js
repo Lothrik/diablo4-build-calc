@@ -624,8 +624,9 @@ function handleReloadButton() {
 			const sortedNodes = [...pixiNodes].filter(pixiNode => pixiNode.groupName != undefined).sort(compareNodes);
 			for (const curNode of sortedNodes) processNode(curNode);
 			updateCharacterLevel();
+
+			resetFrameTimer();
 		}
-		resetFrameTimer();
 	} else {
 		$("#classSelectBox").removeClass("disabled");
 	}
