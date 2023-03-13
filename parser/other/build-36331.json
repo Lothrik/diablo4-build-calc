@@ -3,7 +3,8 @@
 		"Arsenal": {
 			"Barbarian_WeaponExpertise_1HAxe": {
 				"desc": "{c_number}+[{SF_1} * 100 |1%|]{/c} increased Critical Strike Chance against {c_important}Injured{/c} enemies. Double this amount when using two Axes.{if:SF_8}\n\n{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_5}%{/c} chance to grant {c_number}+[{SF_6} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_7}{/c} seconds. Double the Attack Speed bonus when using two Axes.{/if}",
-				"name": "One-Handed Axe Expertise"
+				"name": "One-Handed Axe Expertise",
+				"rankup_desc": "Critical Strike Chance against {c_important}Injured{/c} enemies increased to {c_number}+[{SF_2} * 100 |1%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10": {
 				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to grant {c_number}+[{SF_1} * 100]%{/c} increased Attack Speed for {c_number}{SF_2}{/c} seconds. Double the Attack Speed bonus when using two Axes."
@@ -13,7 +14,8 @@
 			},
 			"Barbarian_WeaponExpertise_1HMace": {
 				"desc": "{c_number}x[{SF_1} * 100|%|]{/c} increased damage to Stunned enemies. Double this amount when using two Maces.{if:SF_7}\n\n{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_5}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_6} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces.{/if}",
-				"name": "One-Handed Mace Expertise"
+				"name": "One-Handed Mace Expertise",
+				"rankup_desc": "Damage to Stunned increased to {c_number}x[{SF_2} * 100|%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_1HMace_Rank10": {
 				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_1} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces."
@@ -23,7 +25,8 @@
 			},
 			"Barbarian_WeaponExpertise_1HSword": {
 				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_number}{SF_1}{/c} Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.{if:SF_8}\n\nKilling a Crowd Controlled enemy grants {c_number}+[{SF_6} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_7}{/c} seconds. Double this amount when using two Swords.{/if}",
-				"name": "One-Handed Sword Expertise"
+				"name": "One-Handed Sword Expertise",
+				"rankup_desc": "Chance to activate Lucky Hit increased to {c_number}{SF_2}%{/c}."
 			},
 			"Barbarian_WeaponExpertise_1HSword_Rank10": {
 				"desc": "Killing a Crowd Controlled enemy grants {c_number}+[{SF_0} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_1}{/c} seconds. Double this amount for kills with two Swords."
@@ -33,7 +36,8 @@
 			},
 			"Barbarian_WeaponExpertise_2HAxe": {
 				"desc": "{c_number}x[{SF_0} * 100|1%|]{/c} increased damage to {c_important}Vulnerable{/c} enemies.{if:SF_6}\n\n{c_number}+[{SF_5} * 100|%|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies.{/if}",
-				"name": "Two-Handed Axe Expertise"
+				"name": "Two-Handed Axe Expertise",
+				"rankup_desc": "Damage to Vulnerable enemies increased to {c_number}x[{SF_2} * 100|1%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HAxe_Rank10": {
 				"desc": "{c_number}+[{SF_0}*100|%|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies."
@@ -43,7 +47,8 @@
 			},
 			"Barbarian_WeaponExpertise_2HMace": {
 				"desc": "{c_label}Lucky Hit:{/c} Up to {c_number}{SF_0}%{/c} chance to gain {c_number}{SF_1}{/c} Fury when hitting an enemy. Double the amount of Fury gained while {c_important}Berserking{/c}.{if:SF_7}\n\nYou deal {c_number}x[{SF_6} * 100|%|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}.{/if}",
-				"name": "Two-Handed Mace Expertise"
+				"name": "Two-Handed Mace Expertise",
+				"rankup_desc": "Chance to activate Lucky Hit increased to {c_number}{SF_3}%{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HMace_Rank10": {
 				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}."
@@ -53,7 +58,8 @@
 			},
 			"Barbarian_WeaponExpertise_2HPolearm": {
 				"desc": "{c_number}x[{SF_0} * 100|%|]{/c} increased Lucky Hit Chance.{if:SF_5}\n\nYou deal {c_number}x[{SF_4} * 100|%|]{/c} increased damage while {c_important}Healthy{/c}.{/if}",
-				"name": "Polearm Expertise"
+				"name": "Polearm Expertise",
+				"rankup_desc": "Bonus Lucky Hit Chance increased to {c_number}x[{SF_1} * 100|%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HPolearm_Rank10": {
 				"desc": "You deal {c_number}+[{SF_0}*100|%|]{/c} increased damage while {c_important}Healthy{/c}."
@@ -63,7 +69,8 @@
 			},
 			"Barbarian_WeaponExpertise_2HSword": {
 				"desc": "{c_number}+[{SF_0} * 100|%|]{/c} of direct damage you deal is inflicted as Bleeding damage over {c_number}{buffduration:BLEEDING}{/c} seconds.{if:SF_7}\n\nYou deal {c_number}x[{SF_5} * 100|%|]{/c} increased Bleeding damage for {c_number}{SF_6}{/c} seconds after killing an enemy.{/if}",
-				"name": "Two-Handed Sword Expertise"
+				"name": "Two-Handed Sword Expertise",
+				"rankup_desc": "Bleeding damage is increased to {c_number}+[{SF_1} * 100|%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HSword_Rank10": {
 				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Bleeding damage for {c_number}{SF_1}{/c} seconds after killing an enemy."
@@ -747,6 +754,1805 @@
 			"StartNodeBarb": {
 				"name": "Paragon Starting Location"
 			}
+		},
+		"Skill Tree": {
+			"380": {
+				"req_points": 23,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 6.219,
+				"y_pos": 863.201
+			},
+			"381": {
+				"req_points": 16,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 2053.54,
+				"y_pos": -1333.77
+			},
+			"382": {
+				"req_points": 11,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -2052.02,
+				"y_pos": -1338.26
+			},
+			"383": {
+				"req_points": 6,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -2043.17,
+				"y_pos": -3601.23
+			},
+			"384": {
+				"req_points": 2,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 2.93,
+				"y_pos": -5468.08
+			},
+			"385": {
+				"req_points": 0,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -0.876,
+				"y_pos": -7600.14
+			},
+			"386": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T1_N2",
+					"sno_power": 214020
+				},
+				"reward_hash": 1944805798,
+				"root_node": false,
+				"x_pos": -3786.02,
+				"y_pos": -3604.79
+			},
+			"387": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_09",
+					"sno_power": 1003231
+				},
+				"reward_hash": 3733045553,
+				"root_node": false,
+				"x_pos": -3827.32,
+				"y_pos": -1492.03
+			},
+			"388": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_07",
+					"sno_power": 1003229
+				},
+				"reward_hash": 3733045551,
+				"root_node": false,
+				"x_pos": -3091.16,
+				"y_pos": -3605.52
+			},
+			"389": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_01",
+					"sno_power": 1000350
+				},
+				"reward_hash": 3733045545,
+				"root_node": false,
+				"x_pos": -2052.79,
+				"y_pos": -709.914
+			},
+			"390": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T3_N2",
+					"sno_power": 213021
+				},
+				"reward_hash": 1360994226,
+				"root_node": false,
+				"x_pos": -149.637,
+				"y_pos": -1699.82
+			},
+			"391": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_08",
+					"sno_power": 1003230
+				},
+				"reward_hash": 3733045552,
+				"root_node": false,
+				"x_pos": -1509.25,
+				"y_pos": -5702.63
+			},
+			"392": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_03",
+					"sno_power": 1003207
+				},
+				"reward_hash": 3733045547,
+				"root_node": false,
+				"x_pos": 2386.33,
+				"y_pos": -266.521
+			},
+			"393": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T3_N3",
+					"sno_power": 216365
+				},
+				"reward_hash": 1944877673,
+				"root_node": false,
+				"x_pos": -1114.32,
+				"y_pos": 1777.61
+			},
+			"394": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_04",
+					"sno_power": 1003208
+				},
+				"reward_hash": 3733045548,
+				"root_node": false,
+				"x_pos": 1738.92,
+				"y_pos": -263.333
+			},
+			"395": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T4_N3",
+					"sno_power": 213811
+				},
+				"reward_hash": 1361030164,
+				"root_node": false,
+				"x_pos": -1721.6,
+				"y_pos": -312.232
+			},
+			"396": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Whirlwind",
+					"sno_power": 202484
+				},
+				"reward_hash": 3716348953,
+				"root_node": false,
+				"x_pos": 938.949,
+				"y_pos": -5462.41
+			},
+			"397": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Whirlwind_UpgradeB",
+					"sno_power": 206435
+				},
+				"reward_hash": 2377139958,
+				"root_node": false,
+				"x_pos": 2041.87,
+				"y_pos": -5308.2
+			},
+			"398": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Whirlwind_UpgradeA",
+					"sno_power": 202484
+				},
+				"reward_hash": 2377139957,
+				"root_node": false,
+				"x_pos": 2055.76,
+				"y_pos": -5595.21
+			},
+			"399": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_WarCry_UpgradeA",
+					"sno_power": 199516
+				},
+				"reward_hash": 534783957,
+				"root_node": false,
+				"x_pos": -3373.32,
+				"y_pos": -2129.66
+			},
+			"400": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_WarCry_UpgradeB",
+					"sno_power": 184600
+				},
+				"reward_hash": 534783958,
+				"root_node": false,
+				"x_pos": -2977.26,
+				"y_pos": -2313.79
+			},
+			"401": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Upheaval_UpgradeB",
+					"sno_power": 202484
+				},
+				"reward_hash": 4063593172,
+				"root_node": false,
+				"x_pos": -1866.56,
+				"y_pos": -5003.93
+			},
+			"402": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Upheaval_UpgradeA",
+					"sno_power": 208000
+				},
+				"reward_hash": 4063593171,
+				"root_node": false,
+				"x_pos": -2077.06,
+				"y_pos": -5286.91
+			},
+			"403": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Rupture_UpgradeA",
+					"sno_power": 323105
+				},
+				"reward_hash": 2881257172,
+				"root_node": false,
+				"x_pos": 3814.0,
+				"y_pos": -2065.5
+			},
+			"404": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Rupture_UpgradeB",
+					"sno_power": 215027
+				},
+				"reward_hash": 2881257173,
+				"root_node": false,
+				"x_pos": 3225.42,
+				"y_pos": -2272.13
+			},
+			"405": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Rend_UpgradeA",
+					"sno_power": 213673
+				},
+				"reward_hash": 2386917862,
+				"root_node": false,
+				"x_pos": 927.651,
+				"y_pos": -6468.35
+			},
+			"406": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Rend_UpgradeB",
+					"sno_power": 214786
+				},
+				"reward_hash": 2386917863,
+				"root_node": false,
+				"x_pos": 1391.35,
+				"y_pos": -6298.33
+			},
+			"407": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_RallyingCry_UpgradeA",
+					"sno_power": 186358
+				},
+				"reward_hash": 1479491725,
+				"root_node": false,
+				"x_pos": -167.794,
+				"y_pos": -2811.7
+			},
+			"408": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_RallyingCry_UpgradeB",
+					"sno_power": 211938
+				},
+				"reward_hash": 1479491726,
+				"root_node": false,
+				"x_pos": -630.017,
+				"y_pos": -2580.62
+			},
+			"409": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_PrimalAxe_UpgradeA",
+					"sno_power": 204662
+				},
+				"reward_hash": 1416224640,
+				"root_node": false,
+				"x_pos": 3823.13,
+				"y_pos": -599.941
+			},
+			"410": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_PrimalAxe_UpgradeB",
+					"sno_power": 964631
+				},
+				"reward_hash": 1416224641,
+				"root_node": false,
+				"x_pos": 3266.31,
+				"y_pos": -416.049
+			},
+			"411": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Leap_UpgradeA",
+					"sno_power": 184600
+				},
+				"reward_hash": 483711519,
+				"root_node": false,
+				"x_pos": -820.209,
+				"y_pos": -421.666
+			},
+			"412": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Leap_UpgradeB",
+					"sno_power": 196545
+				},
+				"reward_hash": 483711520,
+				"root_node": false,
+				"x_pos": -477.068,
+				"y_pos": -622.702
+			},
+			"413": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_GroundStomp_UpgradeB",
+					"sno_power": 186358
+				},
+				"reward_hash": 1250752384,
+				"root_node": false,
+				"x_pos": -1749.81,
+				"y_pos": -4675.67
+			},
+			"414": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_GroundStomp_UpgradeA",
+					"sno_power": 206435
+				},
+				"reward_hash": 1250752383,
+				"root_node": false,
+				"x_pos": -2362.56,
+				"y_pos": -4673.93
+			},
+			"415": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_HammerOfTheAncients_UpgradeA",
+					"sno_power": 206504
+				},
+				"reward_hash": 3772832034,
+				"root_node": false,
+				"x_pos": -1556.19,
+				"y_pos": -6295.28
+			},
+			"416": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_HammerOfTheAncients_UpgradeB",
+					"sno_power": 213673
+				},
+				"reward_hash": 3772832035,
+				"root_node": false,
+				"x_pos": -1101.54,
+				"y_pos": -6465.13
+			},
+			"417": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_LungingStrike_UpgradeA",
+					"sno_power": 210919
+				},
+				"reward_hash": 3169022787,
+				"root_node": false,
+				"x_pos": -1144.53,
+				"y_pos": -6747.76
+			},
+			"418": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_LungingStrike_UpgradeB",
+					"sno_power": 206504
+				},
+				"reward_hash": 3169022788,
+				"root_node": false,
+				"x_pos": -1595.31,
+				"y_pos": -6969.45
+			},
+			"419": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Kick_UpgradeA",
+					"sno_power": 375484
+				},
+				"reward_hash": 2278021887,
+				"root_node": false,
+				"x_pos": -731.809,
+				"y_pos": -2124.74
+			},
+			"420": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Kick_UpgradeB",
+					"sno_power": 199516
+				},
+				"reward_hash": 2278021888,
+				"root_node": false,
+				"x_pos": -1259.34,
+				"y_pos": -2312.86
+			},
+			"421": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_IronSkin_UpgradeA",
+					"sno_power": 217175
+				},
+				"reward_hash": 1641263530,
+				"root_node": false,
+				"x_pos": -3801.98,
+				"y_pos": -2867.3
+			},
+			"422": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_IronSkin_UpgradeB",
+					"sno_power": 512222
+				},
+				"reward_hash": 1641263531,
+				"root_node": false,
+				"x_pos": -3299.63,
+				"y_pos": -2638.08
+			},
+			"423": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Frenzy_UpgradeA",
+					"sno_power": 210431
+				},
+				"reward_hash": 1961681755,
+				"root_node": false,
+				"x_pos": 1279.72,
+				"y_pos": -6737.1
+			},
+			"424": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Frenzy_UpgradeB",
+					"sno_power": 210919
+				},
+				"reward_hash": 1961681756,
+				"root_node": false,
+				"x_pos": 1657.94,
+				"y_pos": -6983.77
+			},
+			"425": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_DoubleSwing_UpgradeA",
+					"sno_power": 214786
+				},
+				"reward_hash": 908388768,
+				"root_node": false,
+				"x_pos": 720.938,
+				"y_pos": -4559.69
+			},
+			"426": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_DoubleSwing_UpgradeB",
+					"sno_power": 208000
+				},
+				"reward_hash": 908388769,
+				"root_node": false,
+				"x_pos": 209.94,
+				"y_pos": -4449.66
+			},
+			"427": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Charge_UpgradeA",
+					"sno_power": 196545
+				},
+				"reward_hash": 2318458599,
+				"root_node": false,
+				"x_pos": -3581.03,
+				"y_pos": -561.417
+			},
+			"428": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Charge_UpgradeB",
+					"sno_power": 204662
+				},
+				"reward_hash": 2318458600,
+				"root_node": false,
+				"x_pos": -3142.29,
+				"y_pos": -395.331
+			},
+			"429": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_Flay_UpgradeA",
+					"sno_power": 200765
+				},
+				"reward_hash": 3147909353,
+				"root_node": false,
+				"x_pos": 1207.58,
+				"y_pos": -8474.29
+			},
+			"430": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Flay_UpgradeB",
+					"sno_power": 210431
+				},
+				"reward_hash": 3147909354,
+				"root_node": false,
+				"x_pos": 1678.44,
+				"y_pos": -8241.88
+			},
+			"431": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_DeathBlow_UpgradeA",
+					"sno_power": 964631
+				},
+				"reward_hash": 60205495,
+				"root_node": false,
+				"x_pos": 757.219,
+				"y_pos": -2271.18
+			},
+			"432": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_DeathBlow_UpgradeB",
+					"sno_power": 323105
+				},
+				"reward_hash": 60205496,
+				"root_node": false,
+				"x_pos": 322.485,
+				"y_pos": -2067.2
+			},
+			"433": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_ChallengingShout_UpgradeA",
+					"sno_power": 512222
+				},
+				"reward_hash": 3088191948,
+				"root_node": false,
+				"x_pos": -3826.23,
+				"y_pos": -4317.92
+			},
+			"434": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_ChallengingShout_UpgradeB",
+					"sno_power": 375484
+				},
+				"reward_hash": 3088191949,
+				"root_node": false,
+				"x_pos": -3406.81,
+				"y_pos": -4555.6
+			},
+			"435": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_Bash_UpgradeB",
+					"sno_power": 200765
+				},
+				"reward_hash": 2139175708,
+				"root_node": false,
+				"x_pos": -1227.9,
+				"y_pos": -8439.71
+			},
+			"436": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 195684,
+					"power_mod": 88,
+					"power_name": "Barb_Mod_Bash_UpgradeA",
+					"sno_power": 0
+				},
+				"reward_hash": 2139175707,
+				"root_node": false,
+				"x_pos": -1609.44,
+				"y_pos": -8197.37
+			},
+			"437": {
+				"req_points": 33,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 7.713,
+				"y_pos": 2067.33
+			},
+			"438": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T2_N4",
+					"sno_power": 212832
+				},
+				"reward_hash": 1360958291,
+				"root_node": false,
+				"x_pos": 1283.85,
+				"y_pos": 941.512
+			},
+			"439": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T5_N2",
+					"sno_power": 216638
+				},
+				"reward_hash": 1944949546,
+				"root_node": false,
+				"x_pos": 380.17,
+				"y_pos": 2696.37
+			},
+			"440": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T5_N1",
+					"sno_power": 216608
+				},
+				"reward_hash": 1944949545,
+				"root_node": false,
+				"x_pos": -368.424,
+				"y_pos": 2693.23
+			},
+			"441": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T2_N3",
+					"sno_power": 603603
+				},
+				"reward_hash": 1360958290,
+				"root_node": false,
+				"x_pos": -986.385,
+				"y_pos": 339.792
+			},
+			"442": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_06",
+					"sno_power": 1003210
+				},
+				"reward_hash": 3733045550,
+				"root_node": false,
+				"x_pos": -1043.26,
+				"y_pos": -3602.24
+			},
+			"443": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T1_N2",
+					"sno_power": 212712
+				},
+				"reward_hash": 1360922352,
+				"root_node": false,
+				"x_pos": 1077.94,
+				"y_pos": -5047.27
+			},
+			"444": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T2_N2",
+					"sno_power": 212731
+				},
+				"reward_hash": 1360958289,
+				"root_node": false,
+				"x_pos": 2058.75,
+				"y_pos": -2668.35
+			},
+			"445": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T3_N1",
+					"sno_power": 216116
+				},
+				"reward_hash": 1944877671,
+				"root_node": false,
+				"x_pos": -3811.73,
+				"y_pos": -1134.24
+			},
+			"446": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_05",
+					"sno_power": 1003209
+				},
+				"reward_hash": 3733045549,
+				"root_node": false,
+				"x_pos": -975.186,
+				"y_pos": 1389.92
+			},
+			"447": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T2_N2",
+					"sno_power": 215518
+				},
+				"reward_hash": 1944841735,
+				"root_node": false,
+				"x_pos": 1927.44,
+				"y_pos": 646.06
+			},
+			"448": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T2_N1",
+					"sno_power": 214021
+				},
+				"reward_hash": 1944841734,
+				"root_node": false,
+				"x_pos": -3125.63,
+				"y_pos": -1339.39
+			},
+			"449": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_10",
+					"sno_power": 1003232
+				},
+				"reward_hash": 3733045577,
+				"root_node": false,
+				"x_pos": 1041.23,
+				"y_pos": 533.919
+			},
+			"450": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T1_N1",
+					"sno_power": 213966
+				},
+				"reward_hash": 1944805797,
+				"root_node": false,
+				"x_pos": -304.787,
+				"y_pos": -3599.85
+			},
+			"451": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T5_N2",
+					"sno_power": 213961
+				},
+				"reward_hash": 1361066100,
+				"root_node": false,
+				"x_pos": -1117.6,
+				"y_pos": 2696.67
+			},
+			"452": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T5_N1",
+					"sno_power": 218754
+				},
+				"reward_hash": 1361066099,
+				"root_node": false,
+				"x_pos": 1127.41,
+				"y_pos": 2697.3
+			},
+			"453": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T4_N2",
+					"sno_power": 216535
+				},
+				"reward_hash": 1944913609,
+				"root_node": false,
+				"x_pos": 1752.68,
+				"y_pos": -2342.34
+			},
+			"454": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T4_N2",
+					"sno_power": 213153
+				},
+				"reward_hash": 1361030163,
+				"root_node": false,
+				"x_pos": -2385.08,
+				"y_pos": -314.619
+			},
+			"455": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T4_N1",
+					"sno_power": 213949
+				},
+				"reward_hash": 1361030162,
+				"root_node": false,
+				"x_pos": 4070.36,
+				"y_pos": -1333.82
+			},
+			"456": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T3_N2",
+					"sno_power": 216222
+				},
+				"reward_hash": 1944877672,
+				"root_node": false,
+				"x_pos": -1733.45,
+				"y_pos": 1525.06
+			},
+			"457": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T4_N1",
+					"sno_power": 217121
+				},
+				"reward_hash": 1944913608,
+				"root_node": false,
+				"x_pos": 2049.44,
+				"y_pos": -1999.71
+			},
+			"458": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T3_N1",
+					"sno_power": 212867
+				},
+				"reward_hash": 1360994225,
+				"root_node": false,
+				"x_pos": 3319.13,
+				"y_pos": -1333.71
+			},
+			"459": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Warlord_T2_N3",
+					"sno_power": 215519
+				},
+				"reward_hash": 1944841736,
+				"root_node": false,
+				"x_pos": 2053.99,
+				"y_pos": -664.818
+			},
+			"460": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barbarian_Talent_Berserker_T1_N1",
+					"sno_power": 309802
+				},
+				"reward_hash": 1360922351,
+				"root_node": false,
+				"x_pos": -842.399,
+				"y_pos": -1564.82
+			},
+			"461": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_02",
+					"sno_power": 1003188
+				},
+				"reward_hash": 3733045546,
+				"root_node": false,
+				"x_pos": 1649.76,
+				"y_pos": 197.614
+			},
+			"462": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Barbarian_Talent_Berserker_T3_N3",
+					"sno_power": 213077
+				},
+				"reward_hash": 1360994227,
+				"root_node": false,
+				"x_pos": 2370.36,
+				"y_pos": -2343.71
+			},
+			"463": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_IronMaelstrom_UpgradeB",
+					"sno_power": 217175
+				},
+				"reward_hash": 429187146,
+				"root_node": false,
+				"x_pos": -1903.56,
+				"y_pos": 924.942
+			},
+			"464": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Barb_Mod_CalloftheAncients_UpgradeB",
+					"sno_power": 309802
+				},
+				"reward_hash": 1388320037,
+				"root_node": false,
+				"x_pos": -31.0,
+				"y_pos": -231.075
+			},
+			"465": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Barb_Mod_IronMaelstrom_UpgradeA",
+					"sno_power": 211938
+				},
+				"reward_hash": 429187145,
+				"root_node": false,
+				"x_pos": -1422.54,
+				"y_pos": 804.672
+			},
+			"466": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3211550068,
+					"power_name": "Barb_Mod_WrathoftheBerserker_FuryScaling",
+					"sno_power": 211871
+				},
+				"reward_hash": 3280219356,
+				"root_node": false,
+				"x_pos": 1253.0,
+				"y_pos": 1715.48
+			},
+			"467": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Mod_CalloftheAncients_UpgradeA",
+					"sno_power": 309802
+				},
+				"reward_hash": 1388320036,
+				"root_node": false,
+				"x_pos": 231.539,
+				"y_pos": 68.151
+			},
+			"468": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Mod_WrathoftheBerserker_ResourceGeneration",
+					"sno_power": 211871
+				},
+				"reward_hash": 3314430953,
+				"root_node": false,
+				"x_pos": 883.877,
+				"y_pos": 1519.87
+			},
+			"469": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_CalloftheAncients",
+					"sno_power": 217175
+				},
+				"reward_hash": 586796392,
+				"root_node": false,
+				"x_pos": -96.945,
+				"y_pos": 379.013
+			},
+			"470": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 146590919,
+					"power_name": "Barb_Unlock_IronMaelstrom",
+					"sno_power": 211871
+				},
+				"reward_hash": 843603181,
+				"root_node": false,
+				"x_pos": -813.419,
+				"y_pos": 846.211
+			},
+			"471": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_WrathoftheBerserker",
+					"sno_power": 215027
+				},
+				"reward_hash": 3854202690,
+				"root_node": false,
+				"x_pos": 592.94,
+				"y_pos": 1200.93
+			},
+			"472": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Charge",
+					"sno_power": 196545
+				},
+				"reward_hash": 1418910539,
+				"root_node": false,
+				"x_pos": -2615.89,
+				"y_pos": -972.441
+			},
+			"473": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Leap",
+					"sno_power": 184600
+				},
+				"reward_hash": 2214182019,
+				"root_node": false,
+				"x_pos": -1514.5,
+				"y_pos": -980.821
+			},
+			"474": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_WarCry",
+					"sno_power": 199516
+				},
+				"reward_hash": 2193911929,
+				"root_node": false,
+				"x_pos": -2519.69,
+				"y_pos": -1755.27
+			},
+			"475": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_GroundStomp",
+					"sno_power": 206435
+				},
+				"reward_hash": 182178915,
+				"root_node": false,
+				"x_pos": -2046.07,
+				"y_pos": -4068.67
+			},
+			"476": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_DeathBlow",
+					"sno_power": 964631
+				},
+				"reward_hash": 268807323,
+				"root_node": false,
+				"x_pos": 1402.41,
+				"y_pos": -1666.84
+			},
+			"477": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Rupture",
+					"sno_power": 323105
+				},
+				"reward_hash": 2298194456,
+				"root_node": false,
+				"x_pos": 2709.2,
+				"y_pos": -1666.81
+			},
+			"478": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Rend",
+					"sno_power": 213673
+				},
+				"reward_hash": 2214398058,
+				"root_node": false,
+				"x_pos": 515.108,
+				"y_pos": -5871.1
+			},
+			"479": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_PrimalAxe",
+					"sno_power": 204662
+				},
+				"reward_hash": 3694605380,
+				"root_node": false,
+				"x_pos": 2720.61,
+				"y_pos": -995.732
+			},
+			"480": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Kick",
+					"sno_power": 375484
+				},
+				"reward_hash": 2214150499,
+				"root_node": false,
+				"x_pos": -1622.88,
+				"y_pos": -1756.65
+			},
+			"481": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Flay",
+					"sno_power": 200765
+				},
+				"reward_hash": 2213974029,
+				"root_node": false,
+				"x_pos": 581.587,
+				"y_pos": -7901.23
+			},
+			"482": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_ChallengingShout",
+					"sno_power": 512222
+				},
+				"reward_hash": 3130120080,
+				"root_node": false,
+				"x_pos": -2749.03,
+				"y_pos": -3984.31
+			},
+			"483": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Frenzy",
+					"sno_power": 210431
+				},
+				"reward_hash": 1548315967,
+				"root_node": false,
+				"x_pos": 589.707,
+				"y_pos": -7289.24
+			},
+			"484": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_RallyingCry",
+					"sno_power": 186358
+				},
+				"reward_hash": 795264433,
+				"root_node": false,
+				"x_pos": -1349.98,
+				"y_pos": -3229.16
+			},
+			"485": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_IronSkin",
+					"sno_power": 211938
+				},
+				"reward_hash": 1886308782,
+				"root_node": false,
+				"x_pos": -2724.3,
+				"y_pos": -3239.84
+			},
+			"486": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_Upheaval",
+					"sno_power": 208000
+				},
+				"reward_hash": 3633291447,
+				"root_node": false,
+				"x_pos": -806.569,
+				"y_pos": -5337.85
+			},
+			"487": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_LungingStrike",
+					"sno_power": 210919
+				},
+				"reward_hash": 3914882727,
+				"root_node": false,
+				"x_pos": -561.805,
+				"y_pos": -7292.08
+			},
+			"488": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_HammeroftheAncients",
+					"sno_power": 206504
+				},
+				"reward_hash": 3407308454,
+				"root_node": false,
+				"x_pos": -626.634,
+				"y_pos": -5875.06
+			},
+			"489": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2193048331,
+					"power_name": "Barb_Unlock_Bash",
+					"sno_power": 592163
+				},
+				"reward_hash": 2213818879,
+				"root_node": false,
+				"x_pos": -596.714,
+				"y_pos": -7894.27
+			},
+			"490": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Barb_Unlock_DoubleSwing",
+					"sno_power": 214786
+				},
+				"reward_hash": 152048996,
+				"root_node": false,
+				"x_pos": 158.782,
+				"y_pos": -5051.34
+			},
+			"491": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Bash_SkillRank",
+					"sno_power": 200765
+				},
+				"reward_hash": 1982514621,
+				"root_node": false,
+				"x_pos": -1069.14,
+				"y_pos": -8146.4
+			},
+			"492": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Flay_SkillRank",
+					"sno_power": 210431
+				},
+				"reward_hash": 910986571,
+				"root_node": false,
+				"x_pos": 1097.27,
+				"y_pos": -8180.1
+			},
+			"494": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_LungingStrike_SkillRank",
+					"sno_power": 206504
+				},
+				"reward_hash": 1607729893,
+				"root_node": false,
+				"x_pos": -1036.7,
+				"y_pos": -7033.53
+			},
+			"495": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Frenzy_SkillRank",
+					"sno_power": 210919
+				},
+				"reward_hash": 420181501,
+				"root_node": false,
+				"x_pos": 1081.61,
+				"y_pos": -7009.9
+			},
+			"496": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_HammerOfTheAncients_SkillRank",
+					"sno_power": 213673
+				},
+				"reward_hash": 58598564,
+				"root_node": false,
+				"x_pos": -1059.62,
+				"y_pos": -6172.5
+			},
+			"497": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Rend_SkillRank",
+					"sno_power": 214786
+				},
+				"reward_hash": 1568071144,
+				"root_node": false,
+				"x_pos": 914.645,
+				"y_pos": -6172.58
+			},
+			"498": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Whirlwind_SkillRank",
+					"sno_power": 206435
+				},
+				"reward_hash": 1245400279,
+				"root_node": false,
+				"x_pos": 1625.88,
+				"y_pos": -5457.0
+			},
+			"499": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_DoubleSwing_SkillRank",
+					"sno_power": 208000
+				},
+				"reward_hash": 21251298,
+				"root_node": false,
+				"x_pos": 293.844,
+				"y_pos": -4714.8
+			},
+			"500": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Upheaval_SkillRank",
+					"sno_power": 202484
+				},
+				"reward_hash": 1063781493,
+				"root_node": false,
+				"x_pos": -1470.93,
+				"y_pos": -5243.09
+			},
+			"501": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_GroundStomp_SkillRank",
+					"sno_power": 186358
+				},
+				"reward_hash": 2729316001,
+				"root_node": false,
+				"x_pos": -2050.25,
+				"y_pos": -4384.87
+			},
+			"502": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_ChallengingShout_SkillRank",
+					"sno_power": 375484
+				},
+				"reward_hash": 3235279502,
+				"root_node": false,
+				"x_pos": -3233.36,
+				"y_pos": -4257.34
+			},
+			"503": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_IronSkin_SkillRank",
+					"sno_power": 512222
+				},
+				"reward_hash": 2731281964,
+				"root_node": false,
+				"x_pos": -3164.46,
+				"y_pos": -2966.99
+			},
+			"504": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_RallyingCry_SkillRank",
+					"sno_power": 211938
+				},
+				"reward_hash": 1687779695,
+				"root_node": false,
+				"x_pos": -812.347,
+				"y_pos": -2927.69
+			},
+			"505": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_WarCry_SkillRank",
+					"sno_power": 184600
+				},
+				"reward_hash": 577194423,
+				"root_node": false,
+				"x_pos": -2844.3,
+				"y_pos": -2038.52
+			},
+			"507": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Rupture_SkillRank",
+					"sno_power": 215027
+				},
+				"reward_hash": 701399190,
+				"root_node": false,
+				"x_pos": 3159.06,
+				"y_pos": -1942.96
+			},
+			"508": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Leap_SkillRank",
+					"sno_power": 196545
+				},
+				"reward_hash": 3186771265,
+				"root_node": false,
+				"x_pos": -1024.49,
+				"y_pos": -684.461
+			},
+			"509": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Charge_SkillRank",
+					"sno_power": 204662
+				},
+				"reward_hash": 3603882761,
+				"root_node": false,
+				"x_pos": -3093.12,
+				"y_pos": -683.341
+			},
+			"510": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_DeathBlow_SkillRank",
+					"sno_power": 323105
+				},
+				"reward_hash": 2095974361,
+				"root_node": false,
+				"x_pos": 916.179,
+				"y_pos": -1944.3
+			},
+			"511": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_PrimalAxe_SkillRank",
+					"sno_power": 964631
+				},
+				"reward_hash": 3894933186,
+				"root_node": false,
+				"x_pos": 3176.65,
+				"y_pos": -747.192
+			},
+			"512": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Barb_Mod_Kick_SkillRank",
+					"sno_power": 199516
+				},
+				"reward_hash": 2269471265,
+				"root_node": false,
+				"x_pos": -1335.92,
+				"y_pos": -2037.48
+			},
+			"max_x": 4070.36,
+			"max_y": 2697.3,
+			"min_x": -3827.32,
+			"min_y": -8474.29,
+			"sno_id": 169806
 		},
 		"Unique": {
 			"1HSword_Unique_Barb_100": {
@@ -1507,6 +3313,1973 @@
 			"StartNodeDruid": {
 				"name": "Paragon Starting Location"
 			}
+		},
+		"Skill Tree": {
+			"365": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T2_N2",
+					"sno_power": 290420
+				},
+				"reward_hash": 1260616111,
+				"root_node": false,
+				"x_pos": 1199.97,
+				"y_pos": -4120.42
+			},
+			"366": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T2_N1",
+					"sno_power": 288287
+				},
+				"reward_hash": 2933537905,
+				"root_node": false,
+				"x_pos": -3051.15,
+				"y_pos": -196.18
+			},
+			"367": {
+				"req_points": 0,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -0.439,
+				"y_pos": -7133.7
+			},
+			"368": {
+				"req_points": 2,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 9.852,
+				"y_pos": -4867.82
+			},
+			"369": {
+				"req_points": 6,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -2498.06,
+				"y_pos": -2668.69
+			},
+			"370": {
+				"req_points": 11,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 2502.48,
+				"y_pos": -2671.21
+			},
+			"371": {
+				"req_points": 16,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -2484.76,
+				"y_pos": 392.969
+			},
+			"372": {
+				"req_points": 23,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 2481.23,
+				"y_pos": 396.475
+			},
+			"373": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_11",
+					"sno_power": 1000347
+				},
+				"reward_hash": 3614120736,
+				"root_node": false,
+				"x_pos": -2566.82,
+				"y_pos": 1011.72
+			},
+			"374": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_06",
+					"sno_power": 1000311
+				},
+				"reward_hash": 3614120708,
+				"root_node": false,
+				"x_pos": 3586.68,
+				"y_pos": -3198.05
+			},
+			"375": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T1_N2",
+					"sno_power": 289518
+				},
+				"reward_hash": 2933501969,
+				"root_node": false,
+				"x_pos": -1761.43,
+				"y_pos": -5073.37
+			},
+			"376": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T2_N1",
+					"sno_power": 290951
+				},
+				"reward_hash": 1260616110,
+				"root_node": false,
+				"x_pos": 1614.66,
+				"y_pos": -4495.94
+			},
+			"377": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_03",
+					"sno_power": 1000308
+				},
+				"reward_hash": 3614120705,
+				"root_node": false,
+				"x_pos": 1431.82,
+				"y_pos": -3199.95
+			},
+			"378": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T3_N1",
+					"sno_power": 346247
+				},
+				"reward_hash": 1260652047,
+				"root_node": false,
+				"x_pos": -855.885,
+				"y_pos": 688.133
+			},
+			"379": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_07",
+					"sno_power": 1000312
+				},
+				"reward_hash": 3614120709,
+				"root_node": false,
+				"x_pos": 4012.23,
+				"y_pos": -248.774
+			},
+			"380": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T3_N2",
+					"sno_power": 346283
+				},
+				"reward_hash": 1260652048,
+				"root_node": false,
+				"x_pos": 4512.96,
+				"y_pos": 369.795
+			},
+			"381": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_10",
+					"sno_power": 1000352
+				},
+				"reward_hash": 3614120735,
+				"root_node": false,
+				"x_pos": -1531.28,
+				"y_pos": -5342.77
+			},
+			"382": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_04",
+					"sno_power": 1000309
+				},
+				"reward_hash": 3614120706,
+				"root_node": false,
+				"x_pos": 3752.28,
+				"y_pos": 163.765
+			},
+			"383": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_02",
+					"sno_power": 1000301
+				},
+				"reward_hash": 3614120704,
+				"root_node": false,
+				"x_pos": -4559.44,
+				"y_pos": 943.989
+			},
+			"384": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060762,
+					"power_name": "Druid_Talent_01",
+					"sno_power": 291827
+				},
+				"reward_hash": 3614120703,
+				"root_node": false,
+				"x_pos": -4743.31,
+				"y_pos": 551.429
+			},
+			"385": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4187181514,
+					"power_name": "Druid_Talent_Hybrid_T5_N2",
+					"sno_power": 292737
+				},
+				"reward_hash": 475880135,
+				"root_node": false,
+				"x_pos": 1134.22,
+				"y_pos": 2993.11
+			},
+			"386": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1482441675,
+					"power_name": "Druid_Mod_Boulder_02",
+					"sno_power": 238345
+				},
+				"reward_hash": 2611281956,
+				"root_node": false,
+				"x_pos": -4570.96,
+				"y_pos": -211.85
+			},
+			"387": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2121397154,
+					"power_name": "Druid_Mod_Boulder_01",
+					"sno_power": 238345
+				},
+				"reward_hash": 2611281955,
+				"root_node": false,
+				"x_pos": -4815.61,
+				"y_pos": 122.259
+			},
+			"388": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2547547532,
+					"power_name": "Druid_Mod_Wolves_02",
+					"sno_power": 265663
+				},
+				"reward_hash": 3338793271,
+				"root_node": false,
+				"x_pos": 4564.39,
+				"y_pos": -2818.22
+			},
+			"389": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Wolves_01",
+					"sno_power": 265663
+				},
+				"reward_hash": 3338793270,
+				"root_node": false,
+				"x_pos": 4567.45,
+				"y_pos": -2523.53
+			},
+			"390": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3513029958,
+					"power_name": "Druid_Mod_VineCreeper_02",
+					"sno_power": 314601
+				},
+				"reward_hash": 4282132463,
+				"root_node": false,
+				"x_pos": 2735.2,
+				"y_pos": -3803.35
+			},
+			"391": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_VineCreeper_01",
+					"sno_power": 314601
+				},
+				"reward_hash": 4282132462,
+				"root_node": false,
+				"x_pos": 2222.52,
+				"y_pos": -3799.14
+			},
+			"392": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3062904198,
+					"power_name": "Druid_Mod_Ravens_02",
+					"sno_power": 281516
+				},
+				"reward_hash": 1874567494,
+				"root_node": false,
+				"x_pos": 2201.84,
+				"y_pos": -1572.14
+			},
+			"393": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Ravens_01",
+					"sno_power": 281516
+				},
+				"reward_hash": 1874567493,
+				"root_node": false,
+				"x_pos": 2768.42,
+				"y_pos": -1574.4
+			},
+			"394": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3723051206,
+					"power_name": "Druid_Mod_Rabies_02",
+					"sno_power": 416337
+				},
+				"reward_hash": 1960880173,
+				"root_node": false,
+				"x_pos": -1103.77,
+				"y_pos": 1278.92
+			},
+			"395": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4254149,
+					"power_name": "Druid_Mod_Hurricane_02",
+					"sno_power": 258990
+				},
+				"reward_hash": 3932896568,
+				"root_node": false,
+				"x_pos": -1560.61,
+				"y_pos": -801.257
+			},
+			"396": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2139628237,
+					"power_name": "Druid_Mod_Trample_02",
+					"sno_power": 258243
+				},
+				"reward_hash": 908301516,
+				"root_node": false,
+				"x_pos": -3598.84,
+				"y_pos": 1335.83
+			},
+			"397": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3396379217,
+					"power_name": "Druid_Mod_BloodHowl_02",
+					"sno_power": 566517
+				},
+				"reward_hash": 2949159585,
+				"root_node": false,
+				"x_pos": -2226.29,
+				"y_pos": -1583.71
+			},
+			"398": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3092416003,
+					"power_name": "Druid_Mod_CycloneArmor_02",
+					"sno_power": 280119
+				},
+				"reward_hash": 2510507717,
+				"root_node": false,
+				"x_pos": -2245.82,
+				"y_pos": -3815.68
+			},
+			"399": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3069256803,
+					"power_name": "Druid_Mod_DebilitatingRoar_02",
+					"sno_power": 336238
+				},
+				"reward_hash": 3774899483,
+				"root_node": false,
+				"x_pos": -4334.79,
+				"y_pos": -2053.74
+			},
+			"400": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4254149,
+					"power_name": "Druid_Mod_DebilitatingRoar_01",
+					"sno_power": 336238
+				},
+				"reward_hash": 3774899482,
+				"root_node": false,
+				"x_pos": -3881.27,
+				"y_pos": -1781.69
+			},
+			"401": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2139628237,
+					"power_name": "Druid_Mod_EarthenBulwark_02",
+					"sno_power": 333421
+				},
+				"reward_hash": 2056752886,
+				"root_node": false,
+				"x_pos": -3865.45,
+				"y_pos": -3546.08
+			},
+			"402": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 863202854,
+					"power_name": "Druid_Mod_Shred_02",
+					"sno_power": 1256958
+				},
+				"reward_hash": 2101400397,
+				"root_node": false,
+				"x_pos": 633.581,
+				"y_pos": -3780.8
+			},
+			"403": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2955928774,
+					"power_name": "Druid_Mod_LightningStrike_02",
+					"sno_power": 548399
+				},
+				"reward_hash": 3488920077,
+				"root_node": false,
+				"x_pos": 1973.37,
+				"y_pos": -5169.19
+			},
+			"404": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4254149,
+					"power_name": "Druid_Mod_Tornado_02",
+					"sno_power": 304065
+				},
+				"reward_hash": 2994665422,
+				"root_node": false,
+				"x_pos": 1057.47,
+				"y_pos": -5814.6
+			},
+			"405": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3401646736,
+					"power_name": "Druid_Mod_Pulverize_02",
+					"sno_power": 272138
+				},
+				"reward_hash": 282930269,
+				"root_node": false,
+				"x_pos": -2076.63,
+				"y_pos": -4748.49
+			},
+			"406": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 639386033,
+					"power_name": "Druid_Mod_Landslide_02",
+					"sno_power": 313893
+				},
+				"reward_hash": 3579108007,
+				"root_node": false,
+				"x_pos": -897.208,
+				"y_pos": -5834.45
+			},
+			"407": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3069256803,
+					"power_name": "Druid_Mod_Maul_02",
+					"sno_power": 309070
+				},
+				"reward_hash": 1285412774,
+				"root_node": false,
+				"x_pos": -1655.97,
+				"y_pos": -6497.1
+			},
+			"408": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3437839728,
+					"power_name": "Druid_Mod_WindShear_02",
+					"sno_power": 356587
+				},
+				"reward_hash": 3712141756,
+				"root_node": false,
+				"x_pos": 260.319,
+				"y_pos": -8135.88
+			},
+			"409": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 639386033,
+					"power_name": "Druid_Mod_StormStrike_02",
+					"sno_power": 309320
+				},
+				"reward_hash": 4206982718,
+				"root_node": false,
+				"x_pos": 2054.16,
+				"y_pos": -7435.68
+			},
+			"410": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2614287816,
+					"power_name": "Druid_Mod_FetidClaw_02",
+					"sno_power": 439581
+				},
+				"reward_hash": 2649525866,
+				"root_node": false,
+				"x_pos": 1687.89,
+				"y_pos": -6486.32
+			},
+			"411": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2503903372,
+					"power_name": "Druid_Mod_Earthspike_02",
+					"sno_power": 543387
+				},
+				"reward_hash": 1171842247,
+				"root_node": false,
+				"x_pos": -1609.34,
+				"y_pos": -7720.3
+			},
+			"412": {
+				"req_points": 33,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 15.953,
+				"y_pos": 2258.07
+			},
+			"413": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3069256803,
+					"power_name": "Druid_Unlock_DebilitatingRoar",
+					"sno_power": 333421
+				},
+				"reward_hash": 1415769062,
+				"root_node": false,
+				"x_pos": -3247.95,
+				"y_pos": -2328.91
+			},
+			"414": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 133591563,
+					"power_name": "Druid_Unlock_VineCreeper",
+					"sno_power": 281516
+				},
+				"reward_hash": 1510959034,
+				"root_node": false,
+				"x_pos": 2502.31,
+				"y_pos": -3138.02
+			},
+			"415": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 908847786,
+					"power_name": "Druid_Unlock_WindShear",
+					"sno_power": 309320
+				},
+				"reward_hash": 2652979623,
+				"root_node": false,
+				"x_pos": -5.022,
+				"y_pos": -7533.57
+			},
+			"416": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 133591563,
+					"power_name": "Druid_Unlock_LightningStrike",
+					"sno_power": 304065
+				},
+				"reward_hash": 2089278616,
+				"root_node": false,
+				"x_pos": 912.463,
+				"y_pos": -4862.28
+			},
+			"417": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T2_N2",
+					"sno_power": 290910
+				},
+				"reward_hash": 2933537906,
+				"root_node": false,
+				"x_pos": -3891.36,
+				"y_pos": 587.949
+			},
+			"418": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Hybrid_T5_N1",
+					"sno_power": 216644
+				},
+				"reward_hash": 475880134,
+				"root_node": false,
+				"x_pos": -1120.01,
+				"y_pos": 2989.77
+			},
+			"419": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T5_N2",
+					"sno_power": 291084
+				},
+				"reward_hash": 1260723922,
+				"root_node": false,
+				"x_pos": -366.141,
+				"y_pos": 2990.98
+			},
+			"420": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T5_N1",
+					"sno_power": 290971
+				},
+				"reward_hash": 1260723921,
+				"root_node": false,
+				"x_pos": -1871.34,
+				"y_pos": 2992.14
+			},
+			"421": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T4_N3",
+					"sno_power": 290954
+				},
+				"reward_hash": 1260687986,
+				"root_node": false,
+				"x_pos": -1553.72,
+				"y_pos": 562.001
+			},
+			"422": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T4_N1",
+					"sno_power": 289512
+				},
+				"reward_hash": 1260687984,
+				"root_node": false,
+				"x_pos": 3170.43,
+				"y_pos": 971.655
+			},
+			"423": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T4_N2",
+					"sno_power": 290969
+				},
+				"reward_hash": 1260687985,
+				"root_node": false,
+				"x_pos": 3162.78,
+				"y_pos": 1311.79
+			},
+			"424": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T4_N2",
+					"sno_power": 291047
+				},
+				"reward_hash": 2933609780,
+				"root_node": false,
+				"x_pos": 2112.49,
+				"y_pos": -184.146
+			},
+			"425": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_05",
+					"sno_power": 1000310
+				},
+				"reward_hash": 3614120707,
+				"root_node": false,
+				"x_pos": -1028.79,
+				"y_pos": -5048.29
+			},
+			"426": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T2_N3",
+					"sno_power": 290475
+				},
+				"reward_hash": 1260616112,
+				"root_node": false,
+				"x_pos": 3599.14,
+				"y_pos": -2044.9
+			},
+			"427": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_13",
+					"sno_power": 1098169
+				},
+				"reward_hash": 3614120738,
+				"root_node": false,
+				"x_pos": -3784.5,
+				"y_pos": -362.73
+			},
+			"428": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_12",
+					"sno_power": 1000349
+				},
+				"reward_hash": 3614120737,
+				"root_node": false,
+				"x_pos": -2682.8,
+				"y_pos": 1419.12
+			},
+			"429": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_09",
+					"sno_power": 1000315
+				},
+				"reward_hash": 3614120711,
+				"root_node": false,
+				"x_pos": -4874.54,
+				"y_pos": -2667.91
+			},
+			"430": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T1_N1",
+					"sno_power": 291079
+				},
+				"reward_hash": 1260580173,
+				"root_node": false,
+				"x_pos": 3779.4,
+				"y_pos": 1128.65
+			},
+			"431": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T5_N2",
+					"sno_power": 291078
+				},
+				"reward_hash": 2933645717,
+				"root_node": false,
+				"x_pos": 1881.84,
+				"y_pos": 2993.8
+			},
+			"432": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T5_N1",
+					"sno_power": 350820
+				},
+				"reward_hash": 2933645716,
+				"root_node": false,
+				"x_pos": 388.52,
+				"y_pos": 2994.08
+			},
+			"433": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_08",
+					"sno_power": 1000313
+				},
+				"reward_hash": 3614120710,
+				"root_node": false,
+				"x_pos": 4729.33,
+				"y_pos": -62.7
+			},
+			"434": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T4_N3",
+					"sno_power": 291048
+				},
+				"reward_hash": 2933609781,
+				"root_node": false,
+				"x_pos": 2273.34,
+				"y_pos": -619.676
+			},
+			"435": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T4_N1",
+					"sno_power": 291046
+				},
+				"reward_hash": 2933609779,
+				"root_node": false,
+				"x_pos": -4443.31,
+				"y_pos": -897.821
+			},
+			"436": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T3_N3",
+					"sno_power": 291045
+				},
+				"reward_hash": 2933573844,
+				"root_node": false,
+				"x_pos": -2999.29,
+				"y_pos": -626.35
+			},
+			"437": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T3_N2",
+					"sno_power": 291044
+				},
+				"reward_hash": 2933573843,
+				"root_node": false,
+				"x_pos": 1695.42,
+				"y_pos": -911.109
+			},
+			"438": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_Shapeshifting_T1_N2",
+					"sno_power": 289513
+				},
+				"reward_hash": 1260580174,
+				"root_node": false,
+				"x_pos": 832.046,
+				"y_pos": -4495.43
+			},
+			"439": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_14",
+					"sno_power": 1065693
+				},
+				"reward_hash": 3614120739,
+				"root_node": false,
+				"x_pos": -3492.86,
+				"y_pos": -1004.17
+			},
+			"440": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T2_N3",
+					"sno_power": 290798
+				},
+				"reward_hash": 2933537907,
+				"root_node": false,
+				"x_pos": -4131.16,
+				"y_pos": -2666.64
+			},
+			"441": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Druid_Talent_NatureMagic_T1_N1",
+					"sno_power": 423126
+				},
+				"reward_hash": 2933501968,
+				"root_node": false,
+				"x_pos": 1469.7,
+				"y_pos": -496.717
+			},
+			"442": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2731685673,
+					"power_name": "Druid_Mod_Lacerate_02",
+					"sno_power": 394251
+				},
+				"reward_hash": 2470860888,
+				"root_node": false,
+				"x_pos": 2541.35,
+				"y_pos": 1478.04
+			},
+			"443": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060761,
+					"power_name": "Druid_Mod_GrizzlyRage_02",
+					"sno_power": 267021
+				},
+				"reward_hash": 699134577,
+				"root_node": false,
+				"x_pos": 4237.92,
+				"y_pos": 929.735
+			},
+			"444": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1931179280,
+					"power_name": "Druid_Mod_Cataclysm_02",
+					"sno_power": 266570
+				},
+				"reward_hash": 970568856,
+				"root_node": false,
+				"x_pos": 842.74,
+				"y_pos": -441.371
+			},
+			"445": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Petrify_02",
+					"sno_power": 351722
+				},
+				"reward_hash": 884463578,
+				"root_node": false,
+				"x_pos": 2913.23,
+				"y_pos": -645.484
+			},
+			"446": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Lacerate_01",
+					"sno_power": 394251
+				},
+				"reward_hash": 2470860887,
+				"root_node": false,
+				"x_pos": 2096.89,
+				"y_pos": 1222.14
+			},
+			"447": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_GrizzlyRage_01",
+					"sno_power": 267021
+				},
+				"reward_hash": 699134576,
+				"root_node": false,
+				"x_pos": 4120.86,
+				"y_pos": 589.235
+			},
+			"448": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Cataclysm_01",
+					"sno_power": 266570
+				},
+				"reward_hash": 970568855,
+				"root_node": false,
+				"x_pos": 893.94,
+				"y_pos": -117.31
+			},
+			"449": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2741725008,
+					"power_name": "Druid_Mod_Petrify_01",
+					"sno_power": 351722
+				},
+				"reward_hash": 884463577,
+				"root_node": false,
+				"x_pos": 3218.03,
+				"y_pos": -358.844
+			},
+			"450": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060762,
+					"power_name": "Druid_Unlock_Lacerate",
+					"sno_power": 267021
+				},
+				"reward_hash": 4285928515,
+				"root_node": false,
+				"x_pos": 2471.08,
+				"y_pos": 866.305
+			},
+			"451": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2378518,
+					"power_name": "Druid_Unlock_GrizzlyRage",
+					"sno_power": 266570
+				},
+				"reward_hash": 2800054652,
+				"root_node": false,
+				"x_pos": 3341.34,
+				"y_pos": 523.685
+			},
+			"452": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2447125520,
+					"power_name": "Druid_Unlock_Cataclysm",
+					"sno_power": 265663
+				},
+				"reward_hash": 3893934595,
+				"root_node": false,
+				"x_pos": 1686.4,
+				"y_pos": 177.355
+			},
+			"453": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1796369216,
+					"power_name": "Druid_Unlock_Petrify",
+					"sno_power": 394251
+				},
+				"reward_hash": 527188357,
+				"root_node": false,
+				"x_pos": 2899.86,
+				"y_pos": 4.01
+			},
+			"454": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3880420849,
+					"power_name": "Druid_Mod_Rabies_01",
+					"sno_power": 416337
+				},
+				"reward_hash": 1960880172,
+				"root_node": false,
+				"x_pos": -1699.03,
+				"y_pos": 1424.08
+			},
+			"455": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3437839728,
+					"power_name": "Druid_Unlock_Rabies",
+					"sno_power": 238345
+				},
+				"reward_hash": 3212458296,
+				"root_node": false,
+				"x_pos": -2080.73,
+				"y_pos": 766.359
+			},
+			"456": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 342327163,
+					"power_name": "Druid_Mod_Trample_01",
+					"sno_power": 258243
+				},
+				"reward_hash": 908301515,
+				"root_node": false,
+				"x_pos": -4049.73,
+				"y_pos": 1154.76
+			},
+			"457": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 908847786,
+					"power_name": "Druid_Mod_CycloneArmor_01",
+					"sno_power": 280119
+				},
+				"reward_hash": 2510507716,
+				"root_node": false,
+				"x_pos": -2771.55,
+				"y_pos": -3821.45
+			},
+			"458": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 305979095,
+					"power_name": "Druid_Unlock_Trample",
+					"sno_power": 566517
+				},
+				"reward_hash": 1884148663,
+				"root_node": false,
+				"x_pos": -3051.24,
+				"y_pos": 754.449
+			},
+			"459": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2130055435,
+					"power_name": "Druid_Unlock_Wolves",
+					"sno_power": 314601
+				},
+				"reward_hash": 3425111682,
+				"root_node": false,
+				"x_pos": 3379.47,
+				"y_pos": -2667.5
+			},
+			"460": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3850746,
+					"power_name": "Druid_Unlock_CycloneArmor",
+					"sno_power": 336238
+				},
+				"reward_hash": 831553488,
+				"root_node": false,
+				"x_pos": -2500.5,
+				"y_pos": -3199.46
+			},
+			"461": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3850746,
+					"power_name": "Druid_Unlock_Ravens",
+					"sno_power": 416337
+				},
+				"reward_hash": 3213172977,
+				"root_node": false,
+				"x_pos": 2500.38,
+				"y_pos": -2209.07
+			},
+			"462": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Druid_Mod_Shred_01",
+					"sno_power": 1256958
+				},
+				"reward_hash": 2101400396,
+				"root_node": false,
+				"x_pos": -52.532,
+				"y_pos": -3728.61
+			},
+			"463": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Druid_Mod_Hurricane_01",
+					"sno_power": 258990
+				},
+				"reward_hash": 3932896567,
+				"root_node": false,
+				"x_pos": -2237.63,
+				"y_pos": -886.997
+			},
+			"464": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3233712267,
+					"power_name": "Druid_Unlock_Shred",
+					"sno_power": 548399
+				},
+				"reward_hash": 3743016664,
+				"root_node": false,
+				"x_pos": 98.947,
+				"y_pos": -4417.48
+			},
+			"465": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3069256803,
+					"power_name": "Druid_Unlock_Hurricane",
+					"sno_power": 258243
+				},
+				"reward_hash": 835061411,
+				"root_node": false,
+				"x_pos": -2258.75,
+				"y_pos": -143.077
+			},
+			"466": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 639386033,
+					"power_name": "Druid_Mod_LightningStrike_01",
+					"sno_power": 548399
+				},
+				"reward_hash": 3488920076,
+				"root_node": false,
+				"x_pos": 1970.57,
+				"y_pos": -4747.7
+			},
+			"467": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Maul_01",
+					"sno_power": 309070
+				},
+				"reward_hash": 1285412773,
+				"root_node": false,
+				"x_pos": -1156.61,
+				"y_pos": -6233.61
+			},
+			"468": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2121397154,
+					"power_name": "Druid_Mod_WindShear_01",
+					"sno_power": 356587
+				},
+				"reward_hash": 3712141755,
+				"root_node": false,
+				"x_pos": -253.845,
+				"y_pos": -8135.27
+			},
+			"469": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 908847786,
+					"power_name": "Druid_Unlock_Boulder",
+					"sno_power": 258990
+				},
+				"reward_hash": 18824719,
+				"root_node": false,
+				"x_pos": -3316.68,
+				"y_pos": 229.199
+			},
+			"470": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1800812168,
+					"power_name": "Druid_Mod_StormStrike_01",
+					"sno_power": 309320
+				},
+				"reward_hash": 4206982717,
+				"root_node": false,
+				"x_pos": 1624.82,
+				"y_pos": -7726.25
+			},
+			"471": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2027461352,
+					"power_name": "Druid_Unlock_Maul",
+					"sno_power": 356587
+				},
+				"reward_hash": 4017717329,
+				"root_node": false,
+				"x_pos": -526.248,
+				"y_pos": -6830.81
+			},
+			"472": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3088332171,
+					"power_name": "Druid_Unlock_StormStrike",
+					"sno_power": 439581
+				},
+				"reward_hash": 1869856873,
+				"root_node": false,
+				"x_pos": 692.98,
+				"y_pos": -7270.18
+			},
+			"473": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2161001520,
+					"power_name": "Druid_Mod_BloodHowl_01",
+					"sno_power": 566517
+				},
+				"reward_hash": 2949159584,
+				"root_node": false,
+				"x_pos": -2760.68,
+				"y_pos": -1576.88
+			},
+			"474": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3923113625,
+					"power_name": "Druid_Mod_FetidClaw_01",
+					"sno_power": 439581
+				},
+				"reward_hash": 2649525865,
+				"root_node": false,
+				"x_pos": 1172.75,
+				"y_pos": -6217.54
+			},
+			"475": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1722390856,
+					"power_name": "Druid_Mod_Landslide_01",
+					"sno_power": 313893
+				},
+				"reward_hash": 3579108006,
+				"root_node": false,
+				"x_pos": -1371.18,
+				"y_pos": -5589.44
+			},
+			"476": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_EarthenBulwark_01",
+					"sno_power": 333421
+				},
+				"reward_hash": 2056752885,
+				"root_node": false,
+				"x_pos": -4311.71,
+				"y_pos": -3273.51
+			},
+			"477": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Druid_Unlock_EarthenBulwark",
+					"sno_power": 1256958
+				},
+				"reward_hash": 1409398945,
+				"root_node": false,
+				"x_pos": -3240.99,
+				"y_pos": -3000.7
+			},
+			"478": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2069566529,
+					"power_name": "Druid_Unlock_BloodHowl",
+					"sno_power": 280119
+				},
+				"reward_hash": 977613996,
+				"root_node": false,
+				"x_pos": -2497.89,
+				"y_pos": -2200.11
+			},
+			"479": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2206514638,
+					"power_name": "Druid_Unlock_Landslide",
+					"sno_power": 309070
+				},
+				"reward_hash": 985399922,
+				"root_node": false,
+				"x_pos": -442.036,
+				"y_pos": -5201.4
+			},
+			"480": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 44425784,
+					"power_name": "Druid_Mod_Earthspike_01",
+					"sno_power": 543387
+				},
+				"reward_hash": 1171842246,
+				"root_node": false,
+				"x_pos": -2046.91,
+				"y_pos": -7425.17
+			},
+			"481": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3069256803,
+					"power_name": "Druid_Unlock_FetidClaw",
+					"sno_power": 543387
+				},
+				"reward_hash": 155948309,
+				"root_node": false,
+				"x_pos": 549.018,
+				"y_pos": -6823.86
+			},
+			"482": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 639386033,
+					"power_name": "Druid_Mod_Pulverize_01",
+					"sno_power": 272138
+				},
+				"reward_hash": 282930268,
+				"root_node": false,
+				"x_pos": -1751.0,
+				"y_pos": -4439.62
+			},
+			"483": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 129658,
+					"power_name": "Druid_Mod_Tornado_03",
+					"sno_power": 304065
+				},
+				"reward_hash": 2994665423,
+				"root_node": false,
+				"x_pos": 1596.01,
+				"y_pos": -5581.82
+			},
+			"484": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 311912709,
+					"power_name": "Druid_Unlock_Pulverize",
+					"sno_power": 313893
+				},
+				"reward_hash": 283164648,
+				"root_node": false,
+				"x_pos": -732.117,
+				"y_pos": -4779.91
+			},
+			"485": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4032599903,
+					"power_name": "Druid_Unlock_Earthspike",
+					"sno_power": 357628
+				},
+				"reward_hash": 3715584530,
+				"root_node": false,
+				"x_pos": -697.842,
+				"y_pos": -7268.95
+			},
+			"486": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 313643436,
+					"power_name": "Druid_Unlock_Tornado",
+					"sno_power": 272138
+				},
+				"reward_hash": 1786922489,
+				"root_node": false,
+				"x_pos": 523.607,
+				"y_pos": -5215.63
+			},
+			"488": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_FetidClaw_03",
+					"sno_power": 439581
+				},
+				"reward_hash": 2649525867,
+				"root_node": false,
+				"x_pos": 1056.27,
+				"y_pos": -6556.43
+			},
+			"493": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4152016905,
+					"power_name": "Druid_Mod_Maul_03",
+					"sno_power": 309070
+				},
+				"reward_hash": 1285412775,
+				"root_node": false,
+				"x_pos": -1027.45,
+				"y_pos": -6568.74
+			},
+			"494": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Earthspike_03",
+					"sno_power": 543387
+				},
+				"reward_hash": 1171842248,
+				"root_node": false,
+				"x_pos": -1355.33,
+				"y_pos": -7413.58
+			},
+			"496": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_WindShear_03",
+					"sno_power": 356587
+				},
+				"reward_hash": 3712141757,
+				"root_node": false,
+				"x_pos": 0.297,
+				"y_pos": -7870.44
+			},
+			"497": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_StormStrike_03",
+					"sno_power": 309320
+				},
+				"reward_hash": 4206982719,
+				"root_node": false,
+				"x_pos": 1343.22,
+				"y_pos": -7417.33
+			},
+			"498": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2418508955,
+					"power_name": "Druid_Mod_Tornado_01",
+					"sno_power": 304065
+				},
+				"reward_hash": 2994665421,
+				"root_node": false,
+				"x_pos": 945.263,
+				"y_pos": -5497.42
+			},
+			"499": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_LightningStrike_03",
+					"sno_power": 548399
+				},
+				"reward_hash": 3488920078,
+				"root_node": false,
+				"x_pos": 1430.98,
+				"y_pos": -4928.88
+			},
+			"500": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Shred_03",
+					"sno_power": 1256958
+				},
+				"reward_hash": 2101400398,
+				"root_node": false,
+				"x_pos": 165.412,
+				"y_pos": -4077.66
+			},
+			"501": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Pulverize_03",
+					"sno_power": 272138
+				},
+				"reward_hash": 282930270,
+				"root_node": false,
+				"x_pos": -1408.78,
+				"y_pos": -4714.36
+			},
+			"502": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Landslide_03",
+					"sno_power": 313893
+				},
+				"reward_hash": 3579108008,
+				"root_node": false,
+				"x_pos": -800.387,
+				"y_pos": -5512.76
+			},
+			"504": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_CycloneArmor_03",
+					"sno_power": 280119
+				},
+				"reward_hash": 2510507718,
+				"root_node": false,
+				"x_pos": -2497.83,
+				"y_pos": -3519.76
+			},
+			"505": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1483221252,
+					"power_name": "Druid_Mod_EarthenBulwark_03",
+					"sno_power": 333421
+				},
+				"reward_hash": 2056752887,
+				"root_node": false,
+				"x_pos": -3727.73,
+				"y_pos": -3235.85
+			},
+			"506": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_DebilitatingRoar_03",
+					"sno_power": 336238
+				},
+				"reward_hash": 3774899484,
+				"root_node": false,
+				"x_pos": -3707.74,
+				"y_pos": -2109.31
+			},
+			"507": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_BloodHowl_03",
+					"sno_power": 566517
+				},
+				"reward_hash": 2949159586,
+				"root_node": false,
+				"x_pos": -2495.57,
+				"y_pos": -1868.27
+			},
+			"508": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2614886744,
+					"power_name": "Druid_Mod_VineCreeper_03",
+					"sno_power": 314601
+				},
+				"reward_hash": 4282132464,
+				"root_node": false,
+				"x_pos": 2499.98,
+				"y_pos": -3436.96
+			},
+			"509": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3045274826,
+					"power_name": "Druid_Mod_Wolves_03",
+					"sno_power": 265663
+				},
+				"reward_hash": 3338793272,
+				"root_node": false,
+				"x_pos": 3986.73,
+				"y_pos": -2666.04
+			},
+			"511": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2378518,
+					"power_name": "Druid_Mod_Ravens_03",
+					"sno_power": 281516
+				},
+				"reward_hash": 1874567495,
+				"root_node": false,
+				"x_pos": 2502.35,
+				"y_pos": -1909.23
+			},
+			"512": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Hurricane_03",
+					"sno_power": 258990
+				},
+				"reward_hash": 3932896569,
+				"root_node": false,
+				"x_pos": -2073.8,
+				"y_pos": -516.567
+			},
+			"513": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Boulder_03",
+					"sno_power": 238345
+				},
+				"reward_hash": 2611281957,
+				"root_node": false,
+				"x_pos": -4059.52,
+				"y_pos": 91.849
+			},
+			"514": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Rabies_03",
+					"sno_power": 416337
+				},
+				"reward_hash": 1960880174,
+				"root_node": false,
+				"x_pos": -1742.37,
+				"y_pos": 1059.85
+			},
+			"515": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Druid_Mod_Trample_03",
+					"sno_power": 258243
+				},
+				"reward_hash": 908301517,
+				"root_node": false,
+				"x_pos": -3450.76,
+				"y_pos": 1017.56
+			},
+			"max_x": 4729.33,
+			"max_y": 2994.08,
+			"min_x": -4874.54,
+			"min_y": -8135.88,
+			"sno_id": 164706
 		},
 		"Spirit Boons": {
 			"Druid_Passive_Deer_01": {
@@ -4003,6 +7776,833 @@
 				"name": "Paragon Starting Location"
 			}
 		},
+		"Skill Tree": {
+			"1": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Necro_Unlock_BoneSpear",
+					"sno_power": 484661
+				},
+				"reward_hash": 281183264,
+				"root_node": false,
+				"x_pos": -102.546,
+				"y_pos": -4924.4
+			},
+			"10": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Unlock_BloodMist",
+					"sno_power": 440463
+				},
+				"reward_hash": 2939803438,
+				"root_node": false,
+				"x_pos": 2648.81,
+				"y_pos": -3858.91
+			},
+			"11": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2837665256,
+					"power_name": "Necro_Unlock_Blight",
+					"sno_power": 432879
+				},
+				"reward_hash": 2331571771,
+				"root_node": false,
+				"x_pos": -445.446,
+				"y_pos": -5703.44
+			},
+			"13": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Necro_Unlock_Decompose",
+					"sno_power": 500962
+				},
+				"reward_hash": 2270144800,
+				"root_node": false,
+				"x_pos": -596.591,
+				"y_pos": -7913.93
+			},
+			"14": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_Blight_01",
+					"sno_power": 481293
+				},
+				"reward_hash": 1515738799,
+				"root_node": false,
+				"x_pos": -975.739,
+				"y_pos": -6436.12
+			},
+			"17": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_Decompose_01",
+					"sno_power": 463175
+				},
+				"reward_hash": 1718598388,
+				"root_node": false,
+				"x_pos": -1696.89,
+				"y_pos": -8249.35
+			},
+			"18": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2027461352,
+					"power_name": "Necro_Mod_BloodMist_UpgradeA",
+					"sno_power": 493422
+				},
+				"reward_hash": 3523444138,
+				"root_node": false,
+				"x_pos": 3279.05,
+				"y_pos": -4459.05
+			},
+			"2": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1931179280,
+					"power_name": "Necro_Unlock_BoneSplinters",
+					"sno_power": 351722
+				},
+				"reward_hash": 639727913,
+				"root_node": false,
+				"x_pos": 542.551,
+				"y_pos": -7298.31
+			},
+			"20": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3063656862,
+					"power_name": "Necro_Mod_Blight_02",
+					"sno_power": 481293
+				},
+				"reward_hash": 1515738800,
+				"root_node": false,
+				"x_pos": -1628.37,
+				"y_pos": -6167.5
+			},
+			"22": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3596547929,
+					"power_name": "Necro_Unlock_Sever",
+					"sno_power": 481293
+				},
+				"reward_hash": 611178982,
+				"root_node": false,
+				"x_pos": -818.531,
+				"y_pos": -5333.26
+			},
+			"23": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3437839728,
+					"power_name": "Necro_Mod_Sever_UpgradeA",
+					"sno_power": 481785
+				},
+				"reward_hash": 2804548962,
+				"root_node": false,
+				"x_pos": -2197.86,
+				"y_pos": -5138.33
+			},
+			"24": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4194637413,
+					"power_name": "Necro_Unlock_CorpseExplosion",
+					"sno_power": 493453
+				},
+				"reward_hash": 865975854,
+				"root_node": false,
+				"x_pos": 1720.19,
+				"y_pos": -3465.49
+			},
+			"26": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3040504380,
+					"power_name": "Necro_Unlock_BoneSpirit",
+					"sno_power": 493422
+				},
+				"reward_hash": 689275200,
+				"root_node": false,
+				"x_pos": -2426.61,
+				"y_pos": -1199.39
+			},
+			"27": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Unlock_BloodSurge",
+					"sno_power": 658216
+				},
+				"reward_hash": 2531778295,
+				"root_node": false,
+				"x_pos": 464.689,
+				"y_pos": -5703.89
+			},
+			"29": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Necro_Unlock_Hemorrhage",
+					"sno_power": 432896
+				},
+				"reward_hash": 3351985155,
+				"root_node": false,
+				"x_pos": 566.95,
+				"y_pos": -7912.51
+			},
+			"32": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3828926762,
+					"power_name": "Necro_Mod_BloodSurge_UpgradeA",
+					"sno_power": 592163
+				},
+				"reward_hash": 2263654931,
+				"root_node": false,
+				"x_pos": 1627.33,
+				"y_pos": -6162.03
+			},
+			"35": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necro_Unlock_BoneWall",
+					"sno_power": 440403
+				},
+				"reward_hash": 529250453,
+				"root_node": false,
+				"x_pos": 3034.01,
+				"y_pos": -3175.14
+			},
+			"37": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4123204211,
+					"power_name": "Necro_Mod_BloodLance_UpgradeB",
+					"sno_power": 501629
+				},
+				"reward_hash": 3682469393,
+				"root_node": false,
+				"x_pos": 2115.46,
+				"y_pos": -5284.15
+			},
+			"39": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_BoneWall_01",
+					"sno_power": 493453
+				},
+				"reward_hash": 590837705,
+				"root_node": false,
+				"x_pos": 3701.2,
+				"y_pos": -2594.49
+			},
+			"4": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_BoneSpear_01",
+					"sno_power": 432879
+				},
+				"reward_hash": 1253619188,
+				"root_node": false,
+				"x_pos": -27.753,
+				"y_pos": -4238.63
+			},
+			"40": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_BoneSpirit_UpgradeA",
+					"sno_power": 469641
+				},
+				"reward_hash": 2996037244,
+				"root_node": false,
+				"x_pos": -2481.01,
+				"y_pos": -504.36
+			},
+			"43": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 285213864,
+					"power_name": "Necro_Unlock_IronMaiden",
+					"sno_power": 432897
+				},
+				"reward_hash": 886318183,
+				"root_node": false,
+				"x_pos": 1865.0,
+				"y_pos": -1264.28
+			},
+			"46": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1179777251,
+					"power_name": "Necro_Unlock_CorpseTendrils",
+					"sno_power": 463348
+				},
+				"reward_hash": 3490472530,
+				"root_node": false,
+				"x_pos": -1655.39,
+				"y_pos": -1863.3
+			},
+			"50": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 111225,
+					"power_name": "Necro_Mod_Decrepify_02",
+					"sno_power": 915150
+				},
+				"reward_hash": 1391930417,
+				"root_node": false,
+				"x_pos": 4360.94,
+				"y_pos": -867.064
+			},
+			"56": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 98927064,
+					"power_name": "Necro_Mod_CorpseExplosion_02",
+					"sno_power": 432897
+				},
+				"reward_hash": 1365347395,
+				"root_node": false,
+				"x_pos": 397.439,
+				"y_pos": -3263.46
+			},
+			"58": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Necro_Unlock_ArmyoftheDead",
+					"sno_power": 463349
+				},
+				"reward_hash": 2371890398,
+				"root_node": false,
+				"x_pos": -836.607,
+				"y_pos": 468.494
+			},
+			"6": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Necro_Unlock_Reap",
+					"sno_power": 463175
+				},
+				"reward_hash": 278785001,
+				"root_node": false,
+				"x_pos": -545.515,
+				"y_pos": -7296.21
+			},
+			"60": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2740659209,
+					"power_name": "Necro_Unlock_BoneStorm",
+					"sno_power": 497193
+				},
+				"reward_hash": 281338458,
+				"root_node": false,
+				"x_pos": 609.858,
+				"y_pos": 1007.49
+			},
+			"61": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2740659210,
+					"power_name": "Necro_Unlock_BloodWave",
+					"sno_power": 499281
+				},
+				"reward_hash": 2940154180,
+				"root_node": false,
+				"x_pos": 606.992,
+				"y_pos": 339.972
+			},
+			"63": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_IronMaiden_01",
+					"sno_power": 915152
+				},
+				"reward_hash": 2973675355,
+				"root_node": false,
+				"x_pos": 1116.89,
+				"y_pos": -603.104
+			},
+			"67": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2740659210,
+					"power_name": "Necro_Mod_ArmyoftheDead_Upgrade1",
+					"sno_power": 497193
+				},
+				"reward_hash": 345654058,
+				"root_node": false,
+				"x_pos": -1533.94,
+				"y_pos": 291.001
+			},
+			"68": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_BoneStorm_01",
+					"sno_power": 499281
+				},
+				"reward_hash": 2535858670,
+				"root_node": false,
+				"x_pos": 944.556,
+				"y_pos": 1331.39
+			},
+			"69": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4001634367,
+					"power_name": "Necro_Mod_BloodWave_01",
+					"sno_power": 389667
+				},
+				"reward_hash": 2259026072,
+				"root_node": false,
+				"x_pos": 918.975,
+				"y_pos": 22.558
+			},
+			"70": {
+				"req_points": 0,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 8.324,
+				"y_pos": -7605.15
+			},
+			"77": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Caster_T2_N1",
+					"sno_power": 495573
+				},
+				"reward_hash": 3106702616,
+				"root_node": false,
+				"x_pos": -4564.6,
+				"y_pos": -2366.31
+			},
+			"78": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_01",
+					"sno_power": 1003739
+				},
+				"reward_hash": 2610790644,
+				"root_node": false,
+				"x_pos": -3705.97,
+				"y_pos": -2328.61
+			},
+			"79": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Caster_T2_N2",
+					"sno_power": 495574
+				},
+				"reward_hash": 3106702617,
+				"root_node": false,
+				"x_pos": -1886.46,
+				"y_pos": -2680.35
+			},
+			"8": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_Reap_01",
+					"sno_power": 432896
+				},
+				"reward_hash": 4136603805,
+				"root_node": false,
+				"x_pos": -1190.64,
+				"y_pos": -6695.23
+			},
+			"80": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4263050,
+					"power_name": "Necromancer_Talent_Caster_T1_N1",
+					"sno_power": 915150
+				},
+				"reward_hash": 3106666679,
+				"root_node": false,
+				"x_pos": 1362.67,
+				"y_pos": 670.413
+			},
+			"81": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Caster_T3_N2",
+					"sno_power": 495564
+				},
+				"reward_hash": 3106738554,
+				"root_node": false,
+				"x_pos": -3881.89,
+				"y_pos": -1080.87
+			},
+			"82": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Caster_T4_N1",
+					"sno_power": 495565
+				},
+				"reward_hash": 3106774490,
+				"root_node": false,
+				"x_pos": -3358.25,
+				"y_pos": -1928.83
+			},
+			"83": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Caster_T3_N1",
+					"sno_power": 495578
+				},
+				"reward_hash": 3106738553,
+				"root_node": false,
+				"x_pos": 1782.98,
+				"y_pos": -5715.05
+			},
+			"84": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Caster_T4_N3",
+					"sno_power": 495569
+				},
+				"reward_hash": 3106774492,
+				"root_node": false,
+				"x_pos": -3377.07,
+				"y_pos": -1403.55
+			},
+			"85": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Caster_T5_N1",
+					"sno_power": 943745
+				},
+				"reward_hash": 3106810427,
+				"root_node": false,
+				"x_pos": 1111.59,
+				"y_pos": 2872.64
+			},
+			"86": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Caster_T5_N2",
+					"sno_power": 495577
+				},
+				"reward_hash": 3106810428,
+				"root_node": false,
+				"x_pos": -390.171,
+				"y_pos": 2873.75
+			},
+			"87": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Playstyle_T1_N1",
+					"sno_power": 495581
+				},
+				"reward_hash": 3575705980,
+				"root_node": false,
+				"x_pos": -4180.14,
+				"y_pos": -1440.32
+			},
+			"88": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Playstyle_T1_N2",
+					"sno_power": 588207
+				},
+				"reward_hash": 3575705981,
+				"root_node": false,
+				"x_pos": -2634.74,
+				"y_pos": -2679.82
+			},
+			"89": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Summoning_T1_N1",
+					"sno_power": 588208
+				},
+				"reward_hash": 1044654674,
+				"root_node": false,
+				"x_pos": -498.855,
+				"y_pos": 1161.9
+			},
+			"9": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Necro_Mod_BoneSplinters_01",
+					"sno_power": 500962
+				},
+				"reward_hash": 2742158429,
+				"root_node": false,
+				"x_pos": 1205.52,
+				"y_pos": -6696.0
+			},
+			"90": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Summoning_T1_N2",
+					"sno_power": 495560
+				},
+				"reward_hash": 1044654675,
+				"root_node": false,
+				"x_pos": -4714.69,
+				"y_pos": -1124.01
+			},
+			"91": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_04",
+					"sno_power": 1007842
+				},
+				"reward_hash": 2610790647,
+				"root_node": false,
+				"x_pos": 1749.76,
+				"y_pos": -2998.78
+			},
+			"92": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Summoning_T2_N2",
+					"sno_power": 495562
+				},
+				"reward_hash": 1044690612,
+				"root_node": false,
+				"x_pos": -832.116,
+				"y_pos": -4959.93
+			},
+			"93": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_10",
+					"sno_power": 1007849
+				},
+				"reward_hash": 2610790676,
+				"root_node": false,
+				"x_pos": -1277.49,
+				"y_pos": -1303.2
+			},
+			"94": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Summoning_T2_N1",
+					"sno_power": 495561
+				},
+				"reward_hash": 1044690611,
+				"root_node": false,
+				"x_pos": -1004.1,
+				"y_pos": 873.005
+			},
+			"95": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_06",
+					"sno_power": 1007844
+				},
+				"reward_hash": 2610790649,
+				"root_node": false,
+				"x_pos": 2108.28,
+				"y_pos": 669.253
+			},
+			"96": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Summoning_T4_N3",
+					"sno_power": 495580
+				},
+				"reward_hash": 1044762487,
+				"root_node": false,
+				"x_pos": -2637.97,
+				"y_pos": -3072.39
+			},
+			"97": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Summoning_T4_N2",
+					"sno_power": 495576
+				},
+				"reward_hash": 1044762486,
+				"root_node": false,
+				"x_pos": -1886.42,
+				"y_pos": -3070.54
+			},
+			"98": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Summoning_T5_N1",
+					"sno_power": 503368
+				},
+				"reward_hash": 1044798422,
+				"root_node": false,
+				"x_pos": 360.0,
+				"y_pos": 2874.63
+			},
+			"99": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Necromancer_Talent_Summoning_T5_N2",
+					"sno_power": 495570
+				},
+				"reward_hash": 1044798423,
+				"root_node": false,
+				"x_pos": -1141.62,
+				"y_pos": 2874.52
+			},
+			"max_x": 4360.94,
+			"max_y": 2874.63,
+			"min_x": -4714.69,
+			"min_y": -8480.84,
+			"sno_id": 199280
+		},
 		"Unique": {
 			"2HScythe_Unique_Necro_100": {
 				"desc": "Your {c_important}Darkness{/c} Skills {c_important}Chill{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n\n{c_gold}Lucky Hit:{/c} Your {c_important}Darkness{/c} Skills have up to a {c_number}[Affix.\"Static Value 1\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} additional Essence against {c_important}Frozen{/c} targets.",
@@ -4682,6 +9282,993 @@
 			"StartNodeRogue": {
 				"name": "Paragon Starting Location"
 			}
+		},
+		"Skill Tree": {
+			"1": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Rogue_Unlock_Flurry",
+					"sno_power": 355926
+				},
+				"reward_hash": 3017276368,
+				"root_node": false,
+				"x_pos": -768.987,
+				"y_pos": -4180.62
+			},
+			"10": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 639386033,
+					"power_name": "Rogue_Unlock_BlindingSmoke",
+					"sno_power": 416528
+				},
+				"reward_hash": 4167716210,
+				"root_node": false,
+				"x_pos": 2753.06,
+				"y_pos": -2539.33
+			},
+			"11": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 675340625,
+					"power_name": "Rogue_Unlock_Barrage",
+					"sno_power": 363402
+				},
+				"reward_hash": 3775868960,
+				"root_node": false,
+				"x_pos": 465.942,
+				"y_pos": -4657.63
+			},
+			"12": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Rogue_Unlock_Caltrops",
+					"sno_power": 355606
+				},
+				"reward_hash": 3781541012,
+				"root_node": false,
+				"x_pos": -2748.32,
+				"y_pos": -1669.61
+			},
+			"13": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Rogue_Unlock_InvigoratingStrike",
+					"sno_power": 364877
+				},
+				"reward_hash": 4111516591,
+				"root_node": false,
+				"x_pos": -626.679,
+				"y_pos": -6379.77
+			},
+			"14": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1699900643,
+					"power_name": "Rogue_Mod_BladeShift_01",
+					"sno_power": 399111
+				},
+				"reward_hash": 4289389718,
+				"root_node": false,
+				"x_pos": -1770.26,
+				"y_pos": -7375.56
+			},
+			"16": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Rogue_Mod_Caltrops_UpgradeA",
+					"sno_power": 389667
+				},
+				"reward_hash": 2812727088,
+				"root_node": false,
+				"x_pos": -2395.9,
+				"y_pos": -962.883
+			},
+			"17": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_InvigoratingStrike_UpgradeA",
+					"sno_power": 416057
+				},
+				"reward_hash": 1106392491,
+				"root_node": false,
+				"x_pos": -1931.24,
+				"y_pos": -6021.83
+			},
+			"2": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Rogue_Unlock_Heartseeker",
+					"sno_power": 416272
+				},
+				"reward_hash": 2118575071,
+				"root_node": false,
+				"x_pos": 753.517,
+				"y_pos": -6865.73
+			},
+			"20": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_Flurry_UpgradeA",
+					"sno_power": 358339
+				},
+				"reward_hash": 3244389612,
+				"root_node": false,
+				"x_pos": -2127.34,
+				"y_pos": -4148.69
+			},
+			"21": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2898607991,
+					"power_name": "Rogue_Mod_Barrage_01",
+					"sno_power": 439762
+				},
+				"reward_hash": 1071090900,
+				"root_node": false,
+				"x_pos": 871.116,
+				"y_pos": -5301.69
+			},
+			"23": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Rogue_Unlock_ShadowStep",
+					"sno_power": 358339
+				},
+				"reward_hash": 1156737518,
+				"root_node": false,
+				"x_pos": -2738.03,
+				"y_pos": -2642.15
+			},
+			"24": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_ShadowStep_01",
+					"sno_power": 355606
+				},
+				"reward_hash": 660987746,
+				"root_node": false,
+				"x_pos": -2433.57,
+				"y_pos": -3275.28
+			},
+			"25": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Rogue_Unlock_ColdImbue",
+					"sno_power": 380288
+				},
+				"reward_hash": 3552590112,
+				"root_node": false,
+				"x_pos": 3377.4,
+				"y_pos": 540.529
+			},
+			"26": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1189760599,
+					"power_name": "Rogue_Unlock_PenetratingShot",
+					"sno_power": 439762
+				},
+				"reward_hash": 1859766891,
+				"root_node": false,
+				"x_pos": 3.091,
+				"y_pos": -3820.62
+			},
+			"27": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Rogue_Unlock_PoisonImbue",
+					"sno_power": 356162
+				},
+				"reward_hash": 3581623286,
+				"root_node": false,
+				"x_pos": 2298.93,
+				"y_pos": -84.027
+			},
+			"28": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1286405368,
+					"power_name": "Rogue_Unlock_Puncture",
+					"sno_power": 399111
+				},
+				"reward_hash": 3888262722,
+				"root_node": false,
+				"x_pos": 5.678,
+				"y_pos": -7097.64
+			},
+			"29": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1838218636,
+					"power_name": "Rogue_Unlock_DarkShroud",
+					"sno_power": 364833
+				},
+				"reward_hash": 2892509571,
+				"root_node": false,
+				"x_pos": 2020.92,
+				"y_pos": -2402.69
+			},
+			"32": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_Puncture_01",
+					"sno_power": 364877
+				},
+				"reward_hash": 84620854,
+				"root_node": false,
+				"x_pos": -298.432,
+				"y_pos": -7775.86
+			},
+			"33": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3686988752,
+					"power_name": "Rogue_Mod_DarkShroud_02",
+					"sno_power": 786381
+				},
+				"reward_hash": 3291216600,
+				"root_node": false,
+				"x_pos": 707.802,
+				"y_pos": -2651.75
+			},
+			"34": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 313643436,
+					"power_name": "Rogue_Unlock_PoisonTrap",
+					"sno_power": 389667
+				},
+				"reward_hash": 1280289467,
+				"root_node": false,
+				"x_pos": 3675.56,
+				"y_pos": -2141.94
+			},
+			"35": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Rogue_Mod_ShadowStep_02",
+					"sno_power": 355606
+				},
+				"reward_hash": 660987747,
+				"root_node": false,
+				"x_pos": -3049.73,
+				"y_pos": -3265.28
+			},
+			"36": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_ColdImbue_01",
+					"sno_power": 359246
+				},
+				"reward_hash": 3279835860,
+				"root_node": false,
+				"x_pos": 4049.95,
+				"y_pos": 1106.43
+			},
+			"37": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_PoisonTrap_01",
+					"sno_power": 416528
+				},
+				"reward_hash": 4046162191,
+				"root_node": false,
+				"x_pos": 4930.84,
+				"y_pos": -2316.63
+			},
+			"38": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Rogue_Mod_Barrage_02",
+					"sno_power": 439762
+				},
+				"reward_hash": 1071090901,
+				"root_node": false,
+				"x_pos": 1465.98,
+				"y_pos": -5126.79
+			},
+			"40": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3114299239,
+					"power_name": "Rogue_Unlock_TwistingBlades",
+					"sno_power": 377137
+				},
+				"reward_hash": 1292138512,
+				"root_node": false,
+				"x_pos": -501.604,
+				"y_pos": -4669.16
+			},
+			"41": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3923113625,
+					"power_name": "Rogue_Mod_DarkShroud_03",
+					"sno_power": 786381
+				},
+				"reward_hash": 3291216601,
+				"root_node": false,
+				"x_pos": 1143.19,
+				"y_pos": -2956.47
+			},
+			"42": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2300425734,
+					"power_name": "Rogue_Mod_PoisonImbue_01",
+					"sno_power": 358508
+				},
+				"reward_hash": 1905855210,
+				"root_node": false,
+				"x_pos": 1803.67,
+				"y_pos": -792.574
+			},
+			"43": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_TwistingBlades_01",
+					"sno_power": 398258
+				},
+				"reward_hash": 302353476,
+				"root_node": false,
+				"x_pos": -880.899,
+				"y_pos": -5298.46
+			},
+			"44": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_Dash_UpgradeA",
+					"sno_power": 358761
+				},
+				"reward_hash": 1983014696,
+				"root_node": false,
+				"x_pos": -5001.0,
+				"y_pos": -2317.04
+			},
+			"45": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3540402146,
+					"power_name": "Rogue_Unlock_Dash",
+					"sno_power": 359246
+				},
+				"reward_hash": 4214830988,
+				"root_node": false,
+				"x_pos": -3626.8,
+				"y_pos": -2137.15
+			},
+			"46": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_ShadowImbue_01",
+					"sno_power": 380288
+				},
+				"reward_hash": 3088508024,
+				"root_node": false,
+				"x_pos": 3679.05,
+				"y_pos": -782.284
+			},
+			"47": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3923113625,
+					"power_name": "Rogue_Unlock_ShadowImbue",
+					"sno_power": 358508
+				},
+				"reward_hash": 3800485956,
+				"root_node": false,
+				"x_pos": 3198.45,
+				"y_pos": -84.967
+			},
+			"49": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_PenetratingShot_01",
+					"sno_power": 377137
+				},
+				"reward_hash": 3256482623,
+				"root_node": false,
+				"x_pos": 339.614,
+				"y_pos": -3176.25
+			},
+			"5": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Unlock_BladeShift",
+					"sno_power": 291827
+				},
+				"reward_hash": 3129891746,
+				"root_node": false,
+				"x_pos": -725.992,
+				"y_pos": -6870.39
+			},
+			"50": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Rogue_Mod_Caltrops_UpgradeB",
+					"sno_power": 389667
+				},
+				"reward_hash": 2812727089,
+				"root_node": false,
+				"x_pos": -3044.42,
+				"y_pos": -964.987
+			},
+			"51": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Rogue_Unlock_ForcefulArrow",
+					"sno_power": 416057
+				},
+				"reward_hash": 562308973,
+				"root_node": false,
+				"x_pos": 637.267,
+				"y_pos": -6384.79
+			},
+			"54": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_ForcefulArrow_UpgradeA",
+					"sno_power": 416272
+				},
+				"reward_hash": 1467608745,
+				"root_node": false,
+				"x_pos": 1442.37,
+				"y_pos": -5747.58
+			},
+			"55": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Rogue_Mod_Dash_UpgradeB",
+					"sno_power": 358761
+				},
+				"reward_hash": 1983014697,
+				"root_node": false,
+				"x_pos": -4996.4,
+				"y_pos": -1989.17
+			},
+			"58": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2473726689,
+					"power_name": "Rogue_Unlock_RainofArrows",
+					"sno_power": 421161
+				},
+				"reward_hash": 3677443497,
+				"root_node": false,
+				"x_pos": 939.912,
+				"y_pos": 2086.95
+			},
+			"59": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2206514638,
+					"power_name": "Rogue_Unlock_ShadowClone",
+					"sno_power": 400232
+				},
+				"reward_hash": 3793348419,
+				"root_node": false,
+				"x_pos": 7.449,
+				"y_pos": 1558.09
+			},
+			"6": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3069386481,
+					"power_name": "Rogue_Mod_Heartseeker_01",
+					"sno_power": 363402
+				},
+				"reward_hash": 3331790387,
+				"root_node": false,
+				"x_pos": 1697.13,
+				"y_pos": -7385.4
+			},
+			"60": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Rogue_Unlock_DeathTrap",
+					"sno_power": 794965
+				},
+				"reward_hash": 3828238025,
+				"root_node": false,
+				"x_pos": -745.037,
+				"y_pos": 2252.79
+			},
+			"62": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_ShadowClone_Unstoppable",
+					"sno_power": 357628
+				},
+				"reward_hash": 1706711107,
+				"root_node": false,
+				"x_pos": -319.891,
+				"y_pos": 1216.43
+			},
+			"63": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3620911950,
+					"power_name": "Rogue_Mod_DeathTrap_PullToCenter",
+					"sno_power": 421161
+				},
+				"reward_hash": 3999662941,
+				"root_node": false,
+				"x_pos": -1545.11,
+				"y_pos": 2138.25
+			},
+			"67": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2139628237,
+					"power_name": "Rogue_Mod_ShadowClone_Damage",
+					"sno_power": 357628
+				},
+				"reward_hash": 3496217365,
+				"root_node": false,
+				"x_pos": 107.689,
+				"y_pos": 915.187
+			},
+			"68": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Rogue_Mod_DeathTrap_CooldownOnKill",
+					"sno_power": 421161
+				},
+				"reward_hash": 3213146826,
+				"root_node": false,
+				"x_pos": -2097.14,
+				"y_pos": 2404.4
+			},
+			"76": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Cunning_T1_N1",
+					"sno_power": 495571
+				},
+				"reward_hash": 291032924,
+				"root_node": false,
+				"x_pos": 3723.0,
+				"y_pos": -2629.94
+			},
+			"77": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Discipline_T2_N1",
+					"sno_power": 391662
+				},
+				"reward_hash": 228024399,
+				"root_node": false,
+				"x_pos": -3876.17,
+				"y_pos": -2656.04
+			},
+			"78": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Cunning_T2_N1",
+					"sno_power": 391673
+				},
+				"reward_hash": 291068861,
+				"root_node": false,
+				"x_pos": -445.408,
+				"y_pos": 2929.36
+			},
+			"79": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_01",
+					"sno_power": 1007850
+				},
+				"reward_hash": 2368012137,
+				"root_node": false,
+				"x_pos": -845.601,
+				"y_pos": 1487.99
+			},
+			"8": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Rogue_Mod_Flurry_UpgradeB",
+					"sno_power": 358339
+				},
+				"reward_hash": 3244389613,
+				"root_node": false,
+				"x_pos": -1928.6,
+				"y_pos": -3821.6
+			},
+			"80": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Discipline_T4_N3",
+					"sno_power": 391667
+				},
+				"reward_hash": 228096275,
+				"root_node": false,
+				"x_pos": -1268.18,
+				"y_pos": 1855.06
+			},
+			"81": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Discipline_T1_N2",
+					"sno_power": 391629
+				},
+				"reward_hash": 227988463,
+				"root_node": false,
+				"x_pos": 2753.44,
+				"y_pos": 852.648
+			},
+			"82": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Cunning_T4_N1",
+					"sno_power": 391677
+				},
+				"reward_hash": 291140735,
+				"root_node": false,
+				"x_pos": 4169.8,
+				"y_pos": 315.456
+			},
+			"83": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_08",
+					"sno_power": 1008677
+				},
+				"reward_hash": 2368012144,
+				"root_node": false,
+				"x_pos": 1416.89,
+				"y_pos": 2731.12
+			},
+			"84": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_07",
+					"sno_power": 1008676
+				},
+				"reward_hash": 2368012143,
+				"root_node": false,
+				"x_pos": -1104.64,
+				"y_pos": 2728.01
+			},
+			"86": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Cunning_T5_N2",
+					"sno_power": 391680
+				},
+				"reward_hash": 291176673,
+				"root_node": false,
+				"x_pos": -1486.24,
+				"y_pos": 4459.31
+			},
+			"87": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Cunning_T3_N1",
+					"sno_power": 391675
+				},
+				"reward_hash": 291104798,
+				"root_node": false,
+				"x_pos": 3706.01,
+				"y_pos": -1651.65
+			},
+			"88": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Cunning_T4_N2",
+					"sno_power": 391678
+				},
+				"reward_hash": 291140736,
+				"root_node": false,
+				"x_pos": 4233.86,
+				"y_pos": -1402.06
+			},
+			"89": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Discipline_T2_N3",
+					"sno_power": 391664
+				},
+				"reward_hash": 228024401,
+				"root_node": false,
+				"x_pos": -2034.61,
+				"y_pos": -4648.77
+			},
+			"9": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Rogue_Mod_RapidFire_01",
+					"sno_power": 355926
+				},
+				"reward_hash": 88366262,
+				"root_node": false,
+				"x_pos": 2257.86,
+				"y_pos": -4438.34
+			},
+			"90": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_09",
+					"sno_power": 1008678
+				},
+				"reward_hash": 2368012145,
+				"root_node": false,
+				"x_pos": 739.129,
+				"y_pos": 2567.32
+			},
+			"91": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Discipline_T3_N4",
+					"sno_power": 391666
+				},
+				"reward_hash": 228060339,
+				"root_node": false,
+				"x_pos": -3881.92,
+				"y_pos": -1629.24
+			},
+			"92": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Cunning_T1_N2",
+					"sno_power": 391671
+				},
+				"reward_hash": 291032925,
+				"root_node": false,
+				"x_pos": -1259.84,
+				"y_pos": -4506.33
+			},
+			"93": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_10",
+					"sno_power": 1008679
+				},
+				"reward_hash": 2368012169,
+				"root_node": false,
+				"x_pos": -424.674,
+				"y_pos": 2581.88
+			},
+			"94": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Discipline_T3_N3",
+					"sno_power": 777505
+				},
+				"reward_hash": 228060338,
+				"root_node": false,
+				"x_pos": -1043.17,
+				"y_pos": -1386.92
+			},
+			"95": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Cunning_T2_N2",
+					"sno_power": 391674
+				},
+				"reward_hash": 291068862,
+				"root_node": false,
+				"x_pos": 1405.3,
+				"y_pos": 264.02
+			},
+			"96": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_02",
+					"sno_power": 1008671
+				},
+				"reward_hash": 2368012138,
+				"root_node": false,
+				"x_pos": 4174.67,
+				"y_pos": 21.862
+			},
+			"97": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Rogue_Talent_Discipline_T5_N1",
+					"sno_power": 391668
+				},
+				"reward_hash": 228132210,
+				"root_node": false,
+				"x_pos": -730.553,
+				"y_pos": 4457.93
+			},
+			"max_x": 4975.59,
+			"max_y": 4459.31,
+			"min_x": -5001.0,
+			"min_y": -7775.86,
+			"sno_id": 199278
 		},
 		"Unique": {
 			"1HDagger_Unique_Rogue_001": {
@@ -5534,6 +11121,1889 @@
 			"StartNodeSorc": {
 				"name": "Paragon Starting Location"
 			}
+		},
+		"Skill Tree": {
+			"603": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1800812168,
+					"power_name": "Sorc_Unlock_FlameShield",
+					"sno_power": 292757
+				},
+				"reward_hash": 1995026303,
+				"root_node": false,
+				"x_pos": -2578.07,
+				"y_pos": -3258.85
+			},
+			"604": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 332626685,
+					"power_name": "Sorc_Unlock_FrostNova",
+					"sno_power": 167341
+				},
+				"reward_hash": 2796002851,
+				"root_node": false,
+				"x_pos": -3361.36,
+				"y_pos": -2798.32
+			},
+			"605": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_IceArmor",
+					"sno_power": 171937
+				},
+				"reward_hash": 2733338739,
+				"root_node": false,
+				"x_pos": -3008.8,
+				"y_pos": -2396.99
+			},
+			"606": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_ChargedBolts",
+					"sno_power": 288106
+				},
+				"reward_hash": 2336714419,
+				"root_node": false,
+				"x_pos": 710.658,
+				"y_pos": -4676.36
+			},
+			"607": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_Hydra",
+					"sno_power": 146355
+				},
+				"reward_hash": 2845064665,
+				"root_node": false,
+				"x_pos": 3244.72,
+				"y_pos": -3164.1
+			},
+			"608": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_IceBlades",
+					"sno_power": 297039
+				},
+				"reward_hash": 37441501,
+				"root_node": false,
+				"x_pos": 1706.75,
+				"y_pos": -3141.16
+			},
+			"609": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 704321499,
+					"power_name": "Sorc_Unlock_Meteor",
+					"sno_power": 292074
+				},
+				"reward_hash": 3865340685,
+				"root_node": false,
+				"x_pos": -1753.21,
+				"y_pos": 268.527
+			},
+			"610": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_Blizzard",
+					"sno_power": 297902
+				},
+				"reward_hash": 3976722563,
+				"root_node": false,
+				"x_pos": -2520.0,
+				"y_pos": -407.491
+			},
+			"611": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1900179888,
+					"power_name": "Sorc_Unlock_FrozenOrb",
+					"sno_power": 287256
+				},
+				"reward_hash": 3052161656,
+				"root_node": false,
+				"x_pos": -555.488,
+				"y_pos": -5492.42
+			},
+			"612": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 72226707,
+					"power_name": "Sorc_Unlock_LightningSpear",
+					"sno_power": 291347
+				},
+				"reward_hash": 1129607904,
+				"root_node": false,
+				"x_pos": 2500.16,
+				"y_pos": -2298.84
+			},
+			"613": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_Teleport",
+					"sno_power": 146743
+				},
+				"reward_hash": 1951366704,
+				"root_node": false,
+				"x_pos": -1751.51,
+				"y_pos": -2519.41
+			},
+			"614": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_BallLightning",
+					"sno_power": 111422
+				},
+				"reward_hash": 3718883264,
+				"root_node": false,
+				"x_pos": -3312.3,
+				"y_pos": 34.168
+			},
+			"615": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_Inferno",
+					"sno_power": 514030
+				},
+				"reward_hash": 2466905330,
+				"root_node": false,
+				"x_pos": 3124.23,
+				"y_pos": -263.244
+			},
+			"616": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_UnstableCurrents",
+					"sno_power": 294198
+				},
+				"reward_hash": 2278784245,
+				"root_node": false,
+				"x_pos": 3117.52,
+				"y_pos": 326.319
+			},
+			"617": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1676012980,
+					"power_name": "Sorc_Mod_Inferno_Immobilize",
+					"sno_power": 514030
+				},
+				"reward_hash": 3729960150,
+				"root_node": false,
+				"x_pos": 3469.62,
+				"y_pos": -561.543
+			},
+			"618": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_DeepFreeze",
+					"sno_power": 517417
+				},
+				"reward_hash": 1196287200,
+				"root_node": false,
+				"x_pos": 1896.31,
+				"y_pos": -255.374
+			},
+			"619": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2161001520,
+					"power_name": "Sorc_Mod_UnstableCurrents_BonusDurationOnPickup",
+					"sno_power": 517417
+				},
+				"reward_hash": 2312601022,
+				"root_node": false,
+				"x_pos": 3718.64,
+				"y_pos": 769.398
+			},
+			"620": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 639386033,
+					"power_name": "Sorc_Mod_Inferno_BurningKillCDR",
+					"sno_power": 294198
+				},
+				"reward_hash": 1929076831,
+				"root_node": false,
+				"x_pos": 4073.01,
+				"y_pos": -623.029
+			},
+			"621": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1814087926,
+					"power_name": "Sorc_Mod_DeepFreeze_Upgrade1",
+					"sno_power": 517417
+				},
+				"reward_hash": 833522156,
+				"root_node": false,
+				"x_pos": 1472.96,
+				"y_pos": -487.712
+			},
+			"622": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 4243188410,
+					"power_name": "Sorc_Mod_UnstableCurrents_AttackSpeedBonus",
+					"sno_power": 294198
+				},
+				"reward_hash": 2382814200,
+				"root_node": false,
+				"x_pos": 3605.08,
+				"y_pos": 520.413
+			},
+			"623": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060761,
+					"power_name": "Sorc_Mod_DeepFreeze_Upgrade2",
+					"sno_power": 291827
+				},
+				"reward_hash": 833522157,
+				"root_node": false,
+				"x_pos": 888.692,
+				"y_pos": -494.512
+			},
+			"624": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_05",
+					"sno_power": 1003733
+				},
+				"reward_hash": 3676129552,
+				"root_node": false,
+				"x_pos": 2486.6,
+				"y_pos": -565.755
+			},
+			"625": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_02",
+					"sno_power": 1003729
+				},
+				"reward_hash": 3676129549,
+				"root_node": false,
+				"x_pos": 3410.6,
+				"y_pos": -2327.69
+			},
+			"626": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Cold_T2_N2",
+					"sno_power": 292836
+				},
+				"reward_hash": 1104782033,
+				"root_node": false,
+				"x_pos": 2194.89,
+				"y_pos": -861.227
+			},
+			"627": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Cold_T2_N3",
+					"sno_power": 334224
+				},
+				"reward_hash": 1104782034,
+				"root_node": false,
+				"x_pos": 2758.22,
+				"y_pos": -854.708
+			},
+			"628": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Cold_T3_N1",
+					"sno_power": 334217
+				},
+				"reward_hash": 1104817969,
+				"root_node": false,
+				"x_pos": -710.223,
+				"y_pos": 2412.07
+			},
+			"629": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Cold_T3_N2",
+					"sno_power": 156232
+				},
+				"reward_hash": 1104817970,
+				"root_node": false,
+				"x_pos": -1418.69,
+				"y_pos": 2411.05
+			},
+			"630": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Elemental_T2_N3",
+					"sno_power": 156211
+				},
+				"reward_hash": 4266768743,
+				"root_node": false,
+				"x_pos": -1609.1,
+				"y_pos": -4409.15
+			},
+			"631": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Elemental_T2_N2",
+					"sno_power": 156224
+				},
+				"reward_hash": 4266768742,
+				"root_node": false,
+				"x_pos": -3589.61,
+				"y_pos": -3339.57
+			},
+			"632": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Elemental_T2_N1",
+					"sno_power": 156208
+				},
+				"reward_hash": 4266768741,
+				"root_node": false,
+				"x_pos": -2205.1,
+				"y_pos": -2071.52
+			},
+			"633": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_08",
+					"sno_power": 1003736
+				},
+				"reward_hash": 3676129555,
+				"root_node": false,
+				"x_pos": 4664.3,
+				"y_pos": 25.157
+			},
+			"634": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Fire_T1_N2",
+					"sno_power": 156217
+				},
+				"reward_hash": 1771265492,
+				"root_node": false,
+				"x_pos": -2002.32,
+				"y_pos": 663.255
+			},
+			"635": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Fire_T2_N2",
+					"sno_power": 172497
+				},
+				"reward_hash": 1771301429,
+				"root_node": false,
+				"x_pos": 4153.82,
+				"y_pos": 177.042
+			},
+			"636": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_04",
+					"sno_power": 1003732
+				},
+				"reward_hash": 3676129551,
+				"root_node": false,
+				"x_pos": 4133.62,
+				"y_pos": -150.293
+			},
+			"637": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Fire_T3_N1",
+					"sno_power": 166341
+				},
+				"reward_hash": 1771337365,
+				"root_node": false,
+				"x_pos": 1412.14,
+				"y_pos": 2413.67
+			},
+			"638": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Fire_T3_N2",
+					"sno_power": 156220
+				},
+				"reward_hash": 1771337366,
+				"root_node": false,
+				"x_pos": 2175.96,
+				"y_pos": 2417.12
+			},
+			"639": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Lightning_T1_N1",
+					"sno_power": 333197
+				},
+				"reward_hash": 3138135025,
+				"root_node": false,
+				"x_pos": 2517.6,
+				"y_pos": 587.895
+			},
+			"640": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Lightning_T1_N2",
+					"sno_power": 169887
+				},
+				"reward_hash": 3138135026,
+				"root_node": false,
+				"x_pos": -4008.77,
+				"y_pos": 835.632
+			},
+			"641": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_10",
+					"sno_power": 1003738
+				},
+				"reward_hash": 3676129580,
+				"root_node": false,
+				"x_pos": 2237.64,
+				"y_pos": 888.382
+			},
+			"642": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_09",
+					"sno_power": 1003737
+				},
+				"reward_hash": 3676129556,
+				"root_node": false,
+				"x_pos": -3605.95,
+				"y_pos": 469.346
+			},
+			"643": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Lightning_T3_N1",
+					"sno_power": 334677
+				},
+				"reward_hash": 3138206899,
+				"root_node": false,
+				"x_pos": 14.24,
+				"y_pos": 2403.7
+			},
+			"644": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Lightning_T3_N2",
+					"sno_power": 334791
+				},
+				"reward_hash": 3138206900,
+				"root_node": false,
+				"x_pos": 717.01,
+				"y_pos": 2410.39
+			},
+			"645": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_Incinerate",
+					"sno_power": 156234
+				},
+				"reward_hash": 2454484515,
+				"root_node": false,
+				"x_pos": 927.3,
+				"y_pos": -5139.88
+			},
+			"646": {
+				"req_points": 11,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 2492.29,
+				"y_pos": -2798.5
+			},
+			"647": {
+				"req_points": 23,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 2488.02,
+				"y_pos": 25.128
+			},
+			"648": {
+				"req_points": 16,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -2513.57,
+				"y_pos": 30.088
+			},
+			"649": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Cold_T1_N2",
+					"sno_power": 156230
+				},
+				"reward_hash": 1104746096,
+				"root_node": false,
+				"x_pos": 2484.1,
+				"y_pos": -1148.47
+			},
+			"650": {
+				"req_points": 0,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -4.146,
+				"y_pos": -7464.06
+			},
+			"651": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_03",
+					"sno_power": 1003731
+				},
+				"reward_hash": 3676129550,
+				"root_node": false,
+				"x_pos": 2500.98,
+				"y_pos": -3479.59
+			},
+			"652": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2868145187,
+					"power_name": "Sorc_Unlock_Spark",
+					"sno_power": 165023
+				},
+				"reward_hash": 2857783106,
+				"root_node": false,
+				"x_pos": -592.882,
+				"y_pos": -7130.04
+			},
+			"653": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Lightning_T2_N1",
+					"sno_power": 156235
+				},
+				"reward_hash": 3138170962,
+				"root_node": false,
+				"x_pos": -4389.13,
+				"y_pos": 607.584
+			},
+			"654": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1931179280,
+					"power_name": "Sorc_Unlock_FireBolt",
+					"sno_power": 291215
+				},
+				"reward_hash": 3398832792,
+				"root_node": false,
+				"x_pos": 614.701,
+				"y_pos": -7801.98
+			},
+			"655": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_ArcLash",
+					"sno_power": 291492
+				},
+				"reward_hash": 878313183,
+				"root_node": false,
+				"x_pos": 615.184,
+				"y_pos": -7125.78
+			},
+			"656": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Elemental_T1_N2",
+					"sno_power": 156233
+				},
+				"reward_hash": 4266732805,
+				"root_node": false,
+				"x_pos": -1018.65,
+				"y_pos": -4652.34
+			},
+			"657": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Unlock_Fireball",
+					"sno_power": 288106
+				},
+				"reward_hash": 3398817538,
+				"root_node": false,
+				"x_pos": 451.565,
+				"y_pos": -5495.88
+			},
+			"658": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2695005210,
+					"power_name": "Sorc_Unlock_ChainLightning",
+					"sno_power": 293195
+				},
+				"reward_hash": 615657640,
+				"root_node": false,
+				"x_pos": 9.606,
+				"y_pos": -4549.39
+			},
+			"659": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_07",
+					"sno_power": 1003735
+				},
+				"reward_hash": 3676129554,
+				"root_node": false,
+				"x_pos": 4504.93,
+				"y_pos": -2599.41
+			},
+			"660": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Fire_T1_N1",
+					"sno_power": 172459
+				},
+				"reward_hash": 1771265491,
+				"root_node": false,
+				"x_pos": -1959.18,
+				"y_pos": 1079.09
+			},
+			"661": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 1658911230,
+					"power_name": "Sorc_Unlock_IceShards",
+					"sno_power": 143483
+				},
+				"reward_hash": 698014711,
+				"root_node": false,
+				"x_pos": -820.637,
+				"y_pos": -5088.86
+			},
+			"662": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 3472669985,
+					"power_name": "Sorc_Unlock_FrostBolt",
+					"sno_power": 153249
+				},
+				"reward_hash": 2795571296,
+				"root_node": false,
+				"x_pos": -633.727,
+				"y_pos": -7803.29
+			},
+			"663": {
+				"req_points": 33,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": 415.619,
+				"y_pos": 1674.28
+			},
+			"664": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 0,
+					"max_talent_ranks": 5,
+					"power_mod": 0,
+					"power_name": "Sorc_Unlock_Firewall",
+					"sno_power": 291403
+				},
+				"reward_hash": 3399572215,
+				"root_node": false,
+				"x_pos": -2722.58,
+				"y_pos": 493.68
+			},
+			"665": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_ArcLash_UpgradeA",
+					"sno_power": 167341
+				},
+				"reward_hash": 1688920955,
+				"root_node": false,
+				"x_pos": 1738.51,
+				"y_pos": -6758.61
+			},
+			"666": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_Blizzard_UpgradeA",
+					"sno_power": 215027
+				},
+				"reward_hash": 616439839,
+				"root_node": false,
+				"x_pos": -2781.11,
+				"y_pos": -967.089
+			},
+			"667": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_ChainLightning_UpgradeA",
+					"sno_power": 514030
+				},
+				"reward_hash": 3899449572,
+				"root_node": false,
+				"x_pos": 376.589,
+				"y_pos": -3922.59
+			},
+			"668": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_ChargedBolt_UpgradeA",
+					"sno_power": 291215
+				},
+				"reward_hash": 3394826748,
+				"root_node": false,
+				"x_pos": 1730.61,
+				"y_pos": -4357.22
+			},
+			"669": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_Fireball_UpgradeA",
+					"sno_power": 111422
+				},
+				"reward_hash": 3154361726,
+				"root_node": false,
+				"x_pos": 1302.0,
+				"y_pos": -5910.1
+			},
+			"670": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_FireBolt_UpgradeA",
+					"sno_power": 297039
+				},
+				"reward_hash": 2309448148,
+				"root_node": false,
+				"x_pos": 1273.77,
+				"y_pos": -8380.03
+			},
+			"671": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_Firewall_UpgradeA",
+					"sno_power": 296998
+				},
+				"reward_hash": 1053787411,
+				"root_node": false,
+				"x_pos": -2780.37,
+				"y_pos": 1080.44
+			},
+			"672": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_FlameShield_UpgradeA",
+					"sno_power": 292074
+				},
+				"reward_hash": 3622031899,
+				"root_node": false,
+				"x_pos": -2939.96,
+				"y_pos": -3834.87
+			},
+			"673": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_FrostBolt_UpgradeA",
+					"sno_power": 291347
+				},
+				"reward_hash": 3354710812,
+				"root_node": false,
+				"x_pos": -1722.2,
+				"y_pos": -8123.72
+			},
+			"674": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_FrostNova_UpgradeA",
+					"sno_power": 291492
+				},
+				"reward_hash": 1765774399,
+				"root_node": false,
+				"x_pos": -4424.2,
+				"y_pos": -2920.81
+			},
+			"675": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_FrozenOrb_UpgradeA",
+					"sno_power": 292757
+				},
+				"reward_hash": 1443360820,
+				"root_node": false,
+				"x_pos": -1415.81,
+				"y_pos": -5885.5
+			},
+			"676": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_Hydra_UpgradeA",
+					"sno_power": 143483
+				},
+				"reward_hash": 932460213,
+				"root_node": false,
+				"x_pos": 3889.54,
+				"y_pos": -3694.07
+			},
+			"677": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_IceArmor_UpgradeA",
+					"sno_power": 171937
+				},
+				"reward_hash": 3714024975,
+				"root_node": false,
+				"x_pos": -3390.35,
+				"y_pos": -1816.35
+			},
+			"678": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_IceBlades_UpgradeA",
+					"sno_power": 287256
+				},
+				"reward_hash": 3090667321,
+				"root_node": false,
+				"x_pos": 693.692,
+				"y_pos": -3466.11
+			},
+			"679": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_IceShards_UpgradeA",
+					"sno_power": 291403
+				},
+				"reward_hash": 3404177555,
+				"root_node": false,
+				"x_pos": -1911.28,
+				"y_pos": -5007.83
+			},
+			"680": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_Incinerate_UpgradeA",
+					"sno_power": 153249
+				},
+				"reward_hash": 3311679167,
+				"root_node": false,
+				"x_pos": 1931.63,
+				"y_pos": -5394.74
+			},
+			"681": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_Spark_UpgradeA",
+					"sno_power": 165023
+				},
+				"reward_hash": 2391731774,
+				"root_node": false,
+				"x_pos": -1612.78,
+				"y_pos": -6744.16
+			},
+			"682": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_LightningSpear_UpgradeA",
+					"sno_power": 293195
+				},
+				"reward_hash": 956899868,
+				"root_node": false,
+				"x_pos": 2238.14,
+				"y_pos": -1631.37
+			},
+			"683": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_Meteor_UpgradeA",
+					"sno_power": 292737
+				},
+				"reward_hash": 30935273,
+				"root_node": false,
+				"x_pos": -951.181,
+				"y_pos": 658.404
+			},
+			"684": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_Teleport_UpgradeA",
+					"sno_power": 146743
+				},
+				"reward_hash": 74405996,
+				"root_node": false,
+				"x_pos": -635.779,
+				"y_pos": -2275.76
+			},
+			"685": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_Teleport_UpgradeB",
+					"sno_power": 288106
+				},
+				"reward_hash": 74405997,
+				"root_node": false,
+				"x_pos": -890.682,
+				"y_pos": -2045.28
+			},
+			"686": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_Meteor_UpgradeB",
+					"sno_power": 296998
+				},
+				"reward_hash": 30935274,
+				"root_node": false,
+				"x_pos": -687.283,
+				"y_pos": 456.006
+			},
+			"687": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_LightningSpear_UpgradeB",
+					"sno_power": 292074
+				},
+				"reward_hash": 956899869,
+				"root_node": false,
+				"x_pos": 2807.34,
+				"y_pos": -1628.74
+			},
+			"688": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_Spark_UpgradeB",
+					"sno_power": 143483
+				},
+				"reward_hash": 2391731775,
+				"root_node": false,
+				"x_pos": -1215.58,
+				"y_pos": -6544.15
+			},
+			"689": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_Fireball_UpgradeB",
+					"sno_power": 165023
+				},
+				"reward_hash": 3154361727,
+				"root_node": false,
+				"x_pos": 813.259,
+				"y_pos": -6059.13
+			},
+			"690": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_Incinerate_UpgradeB",
+					"sno_power": 292737
+				},
+				"reward_hash": 3311679168,
+				"root_node": false,
+				"x_pos": 2020.56,
+				"y_pos": -5108.11
+			},
+			"691": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_IceShards_UpgradeB",
+					"sno_power": 293195
+				},
+				"reward_hash": 3404177556,
+				"root_node": false,
+				"x_pos": -1893.9,
+				"y_pos": -5242.8
+			},
+			"692": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_IceBlades_UpgradeB",
+					"sno_power": 291492
+				},
+				"reward_hash": 3090667322,
+				"root_node": false,
+				"x_pos": 1054.1,
+				"y_pos": -3647.97
+			},
+			"693": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_IceArmor_UpgradeB",
+					"sno_power": 297039
+				},
+				"reward_hash": 3714024976,
+				"root_node": false,
+				"x_pos": -3824.11,
+				"y_pos": -1974.06
+			},
+			"694": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_Hydra_UpgradeB",
+					"sno_power": 146743
+				},
+				"reward_hash": 932460214,
+				"root_node": false,
+				"x_pos": 4284.47,
+				"y_pos": -3492.72
+			},
+			"695": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_FrozenOrb_UpgradeB",
+					"sno_power": 291347
+				},
+				"reward_hash": 1443360821,
+				"root_node": false,
+				"x_pos": -988.52,
+				"y_pos": -6059.61
+			},
+			"696": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_FrostNova_UpgradeB",
+					"sno_power": 291215
+				},
+				"reward_hash": 1765774400,
+				"root_node": false,
+				"x_pos": -4418.17,
+				"y_pos": -2657.85
+			},
+			"697": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_FrostBolt_UpgradeB",
+					"sno_power": 287256
+				},
+				"reward_hash": 3354710813,
+				"root_node": false,
+				"x_pos": -1310.99,
+				"y_pos": -8370.71
+			},
+			"698": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_FlameShield_UpgradeB",
+					"sno_power": 167341
+				},
+				"reward_hash": 3622031900,
+				"root_node": false,
+				"x_pos": -2449.42,
+				"y_pos": -3846.32
+			},
+			"699": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_Firewall_UpgradeB",
+					"sno_power": 111422
+				},
+				"reward_hash": 1053787412,
+				"root_node": false,
+				"x_pos": -3257.3,
+				"y_pos": 1017.33
+			},
+			"700": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_FireBolt_UpgradeB",
+					"sno_power": 153249
+				},
+				"reward_hash": 2309448149,
+				"root_node": false,
+				"x_pos": 1637.84,
+				"y_pos": -8163.33
+			},
+			"701": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_ChargedBolt_UpgradeB",
+					"sno_power": 171937
+				},
+				"reward_hash": 3394826749,
+				"root_node": false,
+				"x_pos": 1339.07,
+				"y_pos": -4125.45
+			},
+			"702": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_ChainLightning_UpgradeB",
+					"sno_power": 292757
+				},
+				"reward_hash": 3899449573,
+				"root_node": false,
+				"x_pos": -334.083,
+				"y_pos": -3948.12
+			},
+			"703": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_Blizzard_UpgradeB",
+					"sno_power": 291403
+				},
+				"reward_hash": 616439840,
+				"root_node": false,
+				"x_pos": -2250.77,
+				"y_pos": -978.459
+			},
+			"704": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_ArcLash_UpgradeB",
+					"sno_power": 297902
+				},
+				"reward_hash": 1688920956,
+				"root_node": false,
+				"x_pos": 1290.43,
+				"y_pos": -6534.43
+			},
+			"705": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2849853803,
+					"power_name": "Sorc_Mod_BallLightning_UpgradeA",
+					"sno_power": 297902
+				},
+				"reward_hash": 2378811516,
+				"root_node": false,
+				"x_pos": -4394.22,
+				"y_pos": 156.517
+			},
+			"706": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060809,
+					"power_name": "Sorc_Mod_BallLightning_UpgradeB",
+					"sno_power": 514030
+				},
+				"reward_hash": 2378811517,
+				"root_node": false,
+				"x_pos": -4404.08,
+				"y_pos": -87.231
+			},
+			"707": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_01",
+					"sno_power": 1003233
+				},
+				"reward_hash": 3676129548,
+				"root_node": false,
+				"x_pos": -3862.77,
+				"y_pos": -817.713
+			},
+			"708": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Cold_T2_N1",
+					"sno_power": 172509
+				},
+				"reward_hash": 1104782032,
+				"root_node": false,
+				"x_pos": -4229.18,
+				"y_pos": -597.733
+			},
+			"709": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_06",
+					"sno_power": 1003734
+				},
+				"reward_hash": 3676129553,
+				"root_node": false,
+				"x_pos": 4490.14,
+				"y_pos": -3000.56
+			},
+			"710": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Cold_T1_N1",
+					"sno_power": 391686
+				},
+				"reward_hash": 1104746095,
+				"root_node": false,
+				"x_pos": -3539.13,
+				"y_pos": -452.979
+			},
+			"711": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Fire_T2_N1",
+					"sno_power": 171610
+				},
+				"reward_hash": 1771301428,
+				"root_node": false,
+				"x_pos": 3621.4,
+				"y_pos": 26.419
+			},
+			"712": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Lightning_T2_N2",
+					"sno_power": 156227
+				},
+				"reward_hash": 3138170963,
+				"root_node": false,
+				"x_pos": 2536.6,
+				"y_pos": 1199.85
+			},
+			"713": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Lightning_T2_N3",
+					"sno_power": 156229
+				},
+				"reward_hash": 3138170964,
+				"root_node": false,
+				"x_pos": 2836.15,
+				"y_pos": 884.302
+			},
+			"714": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Fire_T2_N3",
+					"sno_power": 168572
+				},
+				"reward_hash": 1771301430,
+				"root_node": false,
+				"x_pos": -1448.88,
+				"y_pos": 979.246
+			},
+			"715": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 1,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Elemental_T1_N1",
+					"sno_power": 334380
+				},
+				"reward_hash": 4266732804,
+				"root_node": false,
+				"x_pos": 1487.95,
+				"y_pos": -4766.53
+			},
+			"716": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 2,
+					"max_talent_ranks": 3,
+					"power_mod": 0,
+					"power_name": "Sorcerer_Talent_Elemental_T1_N3",
+					"sno_power": 156225
+				},
+				"reward_hash": 4266732806,
+				"root_node": false,
+				"x_pos": 3874.92,
+				"y_pos": -2796.83
+			},
+			"717": {
+				"req_points": 6,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -2502.08,
+				"y_pos": -2802.74
+			},
+			"718": {
+				"req_points": 2,
+				"reward": null,
+				"reward_hash": 4294967295,
+				"root_node": true,
+				"x_pos": -3.337,
+				"y_pos": -5066.05
+			},
+			"724": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_FireBolt_SkillRank",
+					"sno_power": 153249
+				},
+				"reward_hash": 3306537878,
+				"root_node": false,
+				"x_pos": 1091.05,
+				"y_pos": -8092.43
+			},
+			"725": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_FrostBolt_SkillRank",
+					"sno_power": 287256
+				},
+				"reward_hash": 3440467422,
+				"root_node": false,
+				"x_pos": -1110.88,
+				"y_pos": -8067.88
+			},
+			"726": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_Spark_SkillRank",
+					"sno_power": 143483
+				},
+				"reward_hash": 1726930240,
+				"root_node": false,
+				"x_pos": -1092.48,
+				"y_pos": -6838.52
+			},
+			"727": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_ArcLash_SkillRank",
+					"sno_power": 297902
+				},
+				"reward_hash": 9009693,
+				"root_node": false,
+				"x_pos": 1138.27,
+				"y_pos": -6822.39
+			},
+			"728": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_FrozenOrb_SkillRank",
+					"sno_power": 291347
+				},
+				"reward_hash": 495459830,
+				"root_node": false,
+				"x_pos": -905.634,
+				"y_pos": -5755.47
+			},
+			"729": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_IceShards_SkillRank",
+					"sno_power": 293195
+				},
+				"reward_hash": 777902645,
+				"root_node": false,
+				"x_pos": -1410.08,
+				"y_pos": -5114.86
+			},
+			"730": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_ChainLightning_SkillRank",
+					"sno_power": 292757
+				},
+				"reward_hash": 4236977318,
+				"root_node": false,
+				"x_pos": 21.314,
+				"y_pos": -4179.57
+			},
+			"731": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_ChargedBolt_SkillRank",
+					"sno_power": 171937
+				},
+				"reward_hash": 469326014,
+				"root_node": false,
+				"x_pos": 1190.43,
+				"y_pos": -4411.86
+			},
+			"732": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_Incinerate_SkillRank",
+					"sno_power": 292737
+				},
+				"reward_hash": 2020423137,
+				"root_node": false,
+				"x_pos": 1511.0,
+				"y_pos": -5192.16
+			},
+			"733": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_Fireball_SkillRank",
+					"sno_power": 165023
+				},
+				"reward_hash": 1123914880,
+				"root_node": false,
+				"x_pos": 802.702,
+				"y_pos": -5769.78
+			},
+			"734": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_FlameShield_SkillRank",
+					"sno_power": 167341
+				},
+				"reward_hash": 3672128701,
+				"root_node": false,
+				"x_pos": -2659.43,
+				"y_pos": -3606.94
+			},
+			"735": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_FrostNova_SkillRank",
+					"sno_power": 291215
+				},
+				"reward_hash": 2545173345,
+				"root_node": false,
+				"x_pos": -3966.8,
+				"y_pos": -2801.34
+			},
+			"736": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_IceArmor_SkillRank",
+					"sno_power": 297039
+				},
+				"reward_hash": 2412932913,
+				"root_node": false,
+				"x_pos": -3356.03,
+				"y_pos": -2086.4
+			},
+			"737": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_Teleport_SkillRank",
+					"sno_power": 288106
+				},
+				"reward_hash": 2564590894,
+				"root_node": false,
+				"x_pos": -1178.03,
+				"y_pos": -2286.56
+			},
+			"738": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_IceBlades_SkillRank",
+					"sno_power": 291492
+				},
+				"reward_hash": 3316966811,
+				"root_node": false,
+				"x_pos": 1194.01,
+				"y_pos": -3374.4
+			},
+			"739": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_Hydra_SkillRank",
+					"sno_power": 146743
+				},
+				"reward_hash": 815608983,
+				"root_node": false,
+				"x_pos": 3731.88,
+				"y_pos": -3414.7
+			},
+			"740": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_LightningSpear_SkillRank",
+					"sno_power": 292074
+				},
+				"reward_hash": 1622117598,
+				"root_node": false,
+				"x_pos": 2502.35,
+				"y_pos": -1918.52
+			},
+			"741": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_Blizzard_SkillRank",
+					"sno_power": 291403
+				},
+				"reward_hash": 3271838529,
+				"root_node": false,
+				"x_pos": -2517.15,
+				"y_pos": -729.481
+			},
+			"742": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_BallLightning_SkillRank",
+					"sno_power": 514030
+				},
+				"reward_hash": 1300561726,
+				"root_node": false,
+				"x_pos": -3985.02,
+				"y_pos": 31.058
+			},
+			"743": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_Firewall_SkillRank",
+					"sno_power": 111422
+				},
+				"reward_hash": 524439221,
+				"root_node": false,
+				"x_pos": -2895.79,
+				"y_pos": 807.232
+			},
+			"745": {
+				"req_points": 0,
+				"reward": {
+					"e_type": 1,
+					"max_talent_ranks": 3,
+					"power_mod": 2686060810,
+					"power_name": "Sorc_Mod_Meteor_SkillRank",
+					"sno_power": 296998
+				},
+				"reward_hash": 1130057035,
+				"root_node": false,
+				"x_pos": -1191.34,
+				"y_pos": 441.516
+			},
+			"max_x": 4664.3,
+			"max_y": 2417.12,
+			"min_x": -4424.2,
+			"min_y": -8380.03,
+			"sno_id": 72984
 		},
 		"Unique": {
 			"1HWand_Unique_Sorc_100": {
