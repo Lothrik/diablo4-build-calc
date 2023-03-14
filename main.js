@@ -550,7 +550,7 @@ function handleClampButton() {
 function handleSaveButton() {
 	const className = $(classString).val();
 	if (className == "none") {
-		window.location.replace(window.location.href.split("#")[0]);
+		window.location.replace(window.location.href.split(/[#?&]/)[0]);
 	} else {
 		let nodeData = { className: className };
 		pixiNodes.forEach(curNode => {
@@ -565,14 +565,14 @@ function handleSaveButton() {
 		if (debugMode) console.log(nodeData);
 		const jsonData = JSON.stringify(nodeData).replace(/("|:1)/g, "");
 		const compressedData = LZString.compressToEncodedURIComponent(jsonData);
-		const newURL = window.location.href.split("#")[0] + "#" + compressedData;
+		const newURL = window.location.href.split(/[#?&]/)[0] + "#" + compressedData;
 		window.location.replace(newURL);
 	}
 }
 function handleReloadButton() {
-	const urlData = window.location.href.split("#");
-	if (urlData[1] != undefined && urlData[1].length > 0) {
-		const jsonData = LZString.decompressFromEncodedURIComponent(urlData[1]);
+	const urlHash = window.location.hash.replace("#", "").split(/[?&]/)[0];
+	if (urlHash.length > 0) {
+		const jsonData = LZString.decompressFromEncodedURIComponent(urlHash);
 		// valid JSON always requires quotes around key names; we strip those (and object "1-values") to increase compression
 		const nodeData = jsonData.includes('"') ? JSON.parse(jsonData) :
 			JSON.parse(jsonData
