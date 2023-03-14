@@ -862,7 +862,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 214021,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T1_N2"
 				},
@@ -886,7 +885,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003232,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_09"
 				},
@@ -911,7 +909,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003230,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_07"
 				},
@@ -937,7 +934,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003188,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_01"
 				},
@@ -961,7 +957,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 213077,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T3_N2"
 				},
@@ -985,7 +980,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003231,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_08"
 				},
@@ -1009,7 +1003,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003208,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_03"
 				},
@@ -1033,7 +1026,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 217121,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T3_N3"
 				},
@@ -1057,7 +1049,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003209,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_04"
 				},
@@ -1081,7 +1072,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 218754,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T4_N3"
 				},
@@ -1106,7 +1096,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 206435,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Whirlwind"
 				},
@@ -2103,7 +2092,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 603603,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T2_N4"
 				},
@@ -2126,7 +2114,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 216644,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T5_N2"
 				},
@@ -2149,7 +2136,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 216638,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T5_N1"
 				},
@@ -2173,7 +2159,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 212867,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T2_N3"
 				},
@@ -2198,7 +2183,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003229,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_06"
 				},
@@ -2222,7 +2206,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 212731,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T1_N2"
 				},
@@ -2247,7 +2230,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 212832,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T2_N2"
 				},
@@ -2271,7 +2253,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 216222,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T3_N1"
 				},
@@ -2297,7 +2278,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003210,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_05"
 				},
@@ -2322,7 +2302,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 215519,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T2_N2"
 				},
@@ -2348,7 +2327,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 215518,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T2_N1"
 				},
@@ -2374,7 +2352,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003233,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_10"
 				},
@@ -2398,7 +2375,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 214020,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T1_N1"
 				},
@@ -2421,7 +2397,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 213966,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T5_N2"
 				},
@@ -2444,7 +2419,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 213961,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T5_N1"
 				},
@@ -2469,7 +2443,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 216608,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T4_N2"
 				},
@@ -2493,7 +2466,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 213811,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T4_N2"
 				},
@@ -2517,7 +2489,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 213153,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T4_N1"
 				},
@@ -2541,7 +2512,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 216365,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T3_N2"
 				},
@@ -2567,7 +2537,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 216535,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T4_N1"
 				},
@@ -2592,7 +2561,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 213021,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T3_N1"
 				},
@@ -2618,7 +2586,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 216116,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Warlord_T2_N3"
 				},
@@ -2643,7 +2610,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 212712,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T1_N1"
 				},
@@ -2667,7 +2633,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003207,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_02"
 				},
@@ -2692,7 +2657,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 213949,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barbarian_Talent_Berserker_T3_N3"
 				},
@@ -2863,7 +2827,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 309802,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_CalloftheAncients"
 				},
@@ -2887,7 +2850,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 217175,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_IronMaelstrom"
 				},
@@ -2911,7 +2873,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 211871,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_WrathoftheBerserker"
 				},
@@ -2936,7 +2897,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 204662,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Charge"
 				},
@@ -2961,7 +2921,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 196545,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Leap"
 				},
@@ -2986,7 +2945,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 184600,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_WarCry"
 				},
@@ -3011,7 +2969,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 186358,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_GroundStomp"
 				},
@@ -3036,7 +2993,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 323105,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_DeathBlow"
 				},
@@ -3061,7 +3017,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 215027,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Rupture"
 				},
@@ -3086,7 +3041,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 214786,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Rend"
 				},
@@ -3111,7 +3065,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 964631,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_PrimalAxe"
 				},
@@ -3136,7 +3089,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 199516,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Kick"
 				},
@@ -3161,7 +3113,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 210431,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Flay"
 				},
@@ -3186,7 +3137,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 375484,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_ChallengingShout"
 				},
@@ -3211,7 +3161,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 210919,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Frenzy"
 				},
@@ -3236,7 +3185,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 211938,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_RallyingCry"
 				},
@@ -3261,7 +3209,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 512222,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_IronSkin"
 				},
@@ -3286,7 +3233,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 202484,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Upheaval"
 				},
@@ -3311,7 +3257,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 206504,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_LungingStrike"
 				},
@@ -3336,7 +3281,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 213673,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_HammeroftheAncients"
 				},
@@ -3361,7 +3305,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 200765,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_Bash"
 				},
@@ -3386,7 +3329,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 208000,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Barb_Unlock_DoubleSwing"
 				},
@@ -4697,7 +4639,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290475,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T2_N2"
 				},
@@ -4723,7 +4664,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290910,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T2_N1"
 				},
@@ -4840,7 +4780,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000349,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_11"
 				},
@@ -4864,7 +4803,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000312,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_06"
 				},
@@ -4888,7 +4826,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 288287,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T1_N2"
 				},
@@ -4912,7 +4849,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290420,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T2_N1"
 				},
@@ -4936,7 +4872,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000309,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_03"
 				},
@@ -4960,7 +4895,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 346283,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T3_N1"
 				},
@@ -4985,7 +4919,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000313,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_07"
 				},
@@ -5010,7 +4943,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 289512,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T3_N2"
 				},
@@ -5034,7 +4966,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000347,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_10"
 				},
@@ -5060,7 +4991,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000310,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_04"
 				},
@@ -5084,7 +5014,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000308,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_02"
 				},
@@ -5108,7 +5037,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000301,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_01"
 				},
@@ -5131,7 +5059,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 748825,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Hybrid_T5_N2"
 				},
@@ -5155,7 +5082,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 238345,
-					"power_mod": null,
 					"power_mod_hash": 2121397154,
 					"reward_name": "Druid_Mod_Boulder_02"
 				},
@@ -5203,7 +5129,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 265663,
-					"power_mod": null,
 					"power_mod_hash": 2447125520,
 					"reward_name": "Druid_Mod_Wolves_02"
 				},
@@ -5227,7 +5152,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 265663,
-					"power_mod": null,
 					"power_mod_hash": 3045274826,
 					"reward_name": "Druid_Mod_Wolves_01"
 				},
@@ -5251,7 +5175,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 314601,
-					"power_mod": null,
 					"power_mod_hash": 2130055435,
 					"reward_name": "Druid_Mod_VineCreeper_02"
 				},
@@ -5275,7 +5198,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 314601,
-					"power_mod": null,
 					"power_mod_hash": 2614886744,
 					"reward_name": "Druid_Mod_VineCreeper_01"
 				},
@@ -5299,7 +5221,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 281516,
-					"power_mod": null,
 					"power_mod_hash": 133591563,
 					"reward_name": "Druid_Mod_Ravens_02"
 				},
@@ -5323,7 +5244,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 281516,
-					"power_mod": null,
 					"power_mod_hash": 2378518,
 					"reward_name": "Druid_Mod_Ravens_01"
 				},
@@ -5347,7 +5267,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 416337,
-					"power_mod": null,
 					"power_mod_hash": 3880420849,
 					"reward_name": "Druid_Mod_Rabies_02"
 				},
@@ -5395,7 +5314,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 258243,
-					"power_mod": null,
 					"power_mod_hash": 342327163,
 					"reward_name": "Druid_Mod_Trample_02"
 				},
@@ -5443,7 +5361,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 280119,
-					"power_mod": null,
 					"power_mod_hash": 908847786,
 					"reward_name": "Druid_Mod_CycloneArmor_02"
 				},
@@ -5467,7 +5384,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 336238,
-					"power_mod": null,
 					"power_mod_hash": 4254149,
 					"reward_name": "Druid_Mod_DebilitatingRoar_02"
 				},
@@ -5491,7 +5407,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 336238,
-					"power_mod": null,
 					"power_mod_hash": 3850746,
 					"reward_name": "Druid_Mod_DebilitatingRoar_01"
 				},
@@ -5515,7 +5430,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 333421,
-					"power_mod": null,
 					"power_mod_hash": 3069256803,
 					"reward_name": "Druid_Mod_EarthenBulwark_02"
 				},
@@ -5587,7 +5501,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 304065,
-					"power_mod": null,
 					"power_mod_hash": 2418508955,
 					"reward_name": "Druid_Mod_Tornado_02"
 				},
@@ -5635,7 +5548,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 313893,
-					"power_mod": null,
 					"power_mod_hash": 1722390856,
 					"reward_name": "Druid_Mod_Landslide_02"
 				},
@@ -5659,7 +5571,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 309070,
-					"power_mod": null,
 					"power_mod_hash": 2206514638,
 					"reward_name": "Druid_Mod_Maul_02"
 				},
@@ -5683,7 +5594,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 356587,
-					"power_mod": null,
 					"power_mod_hash": 2121397154,
 					"reward_name": "Druid_Mod_WindShear_02"
 				},
@@ -5731,7 +5641,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 439581,
-					"power_mod": null,
 					"power_mod_hash": 3923113625,
 					"reward_name": "Druid_Mod_FetidClaw_02"
 				},
@@ -5755,7 +5664,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 543387,
-					"power_mod": null,
 					"power_mod_hash": 44425784,
 					"reward_name": "Druid_Mod_Earthspike_02"
 				},
@@ -5795,7 +5703,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 336238,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_DebilitatingRoar"
 				},
@@ -5820,7 +5727,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 314601,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_VineCreeper"
 				},
@@ -5845,7 +5751,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 356587,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_WindShear"
 				},
@@ -5870,7 +5775,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 548399,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_LightningStrike"
 				},
@@ -5896,7 +5800,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290798,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T2_N2"
 				},
@@ -5919,7 +5822,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 423126,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Hybrid_T5_N1"
 				},
@@ -5942,7 +5844,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 291085,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T5_N2"
 				},
@@ -5965,7 +5866,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 291084,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T5_N1"
 				},
@@ -5990,7 +5890,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290971,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T4_N3"
 				},
@@ -6016,7 +5915,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290969,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T4_N1"
 				},
@@ -6040,7 +5938,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290954,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T4_N2"
 				},
@@ -6066,7 +5963,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 291048,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T4_N2"
 				},
@@ -6092,7 +5988,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000311,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_05"
 				},
@@ -6116,7 +6011,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 346247,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T2_N3"
 				},
@@ -6142,7 +6036,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1065693,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_13"
 				},
@@ -6166,7 +6059,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000350,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_12"
 				},
@@ -6190,7 +6082,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000352,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_09"
 				},
@@ -6214,7 +6105,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 289513,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T1_N1"
 				},
@@ -6237,7 +6127,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 291079,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T5_N2"
 				},
@@ -6260,7 +6149,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 291078,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T5_N1"
 				},
@@ -6285,7 +6173,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1000315,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_08"
 				},
@@ -6310,7 +6197,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 350820,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T4_N3"
 				},
@@ -6335,7 +6221,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 291047,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T4_N1"
 				},
@@ -6360,7 +6245,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 291046,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T3_N3"
 				},
@@ -6385,7 +6269,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 291045,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T3_N2"
 				},
@@ -6411,7 +6294,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290951,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_Shapeshifting_T1_N2"
 				},
@@ -6437,7 +6319,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1066757,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_14"
 				},
@@ -6462,7 +6343,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 290911,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T2_N3"
 				},
@@ -6487,7 +6367,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 289518,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Talent_NatureMagic_T1_N1"
 				},
@@ -6511,7 +6390,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 394251,
-					"power_mod": null,
 					"power_mod_hash": 1796369216,
 					"reward_name": "Druid_Mod_Lacerate_02"
 				},
@@ -6559,7 +6437,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 266570,
-					"power_mod": null,
 					"power_mod_hash": 2378518,
 					"reward_name": "Druid_Mod_Cataclysm_02"
 				},
@@ -6583,7 +6460,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 351722,
-					"power_mod": null,
 					"power_mod_hash": 2741725008,
 					"reward_name": "Druid_Mod_Petrify_02"
 				},
@@ -6608,7 +6484,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 394251,
-					"power_mod": null,
 					"power_mod_hash": 2731685673,
 					"reward_name": "Druid_Mod_Lacerate_01"
 				},
@@ -6707,7 +6582,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 394251,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Lacerate"
 				},
@@ -6731,7 +6605,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 267021,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_GrizzlyRage"
 				},
@@ -6755,7 +6628,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 266570,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Cataclysm"
 				},
@@ -6779,7 +6651,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 351722,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Petrify"
 				},
@@ -6803,7 +6674,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 416337,
-					"power_mod": null,
 					"power_mod_hash": 3850746,
 					"reward_name": "Druid_Mod_Rabies_01"
 				},
@@ -6828,7 +6698,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 416337,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Rabies"
 				},
@@ -6852,7 +6721,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 258243,
-					"power_mod": null,
 					"power_mod_hash": 3069256803,
 					"reward_name": "Druid_Mod_Trample_01"
 				},
@@ -6876,7 +6744,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 280119,
-					"power_mod": null,
 					"power_mod_hash": 2069566529,
 					"reward_name": "Druid_Mod_CycloneArmor_01"
 				},
@@ -6901,7 +6768,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 258243,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Trample"
 				},
@@ -6926,7 +6792,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 265663,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Wolves"
 				},
@@ -6951,7 +6816,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 280119,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_CycloneArmor"
 				},
@@ -6976,7 +6840,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 281516,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Ravens"
 				},
@@ -7024,7 +6887,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 258990,
-					"power_mod": null,
 					"power_mod_hash": 908847786,
 					"reward_name": "Druid_Mod_Hurricane_01"
 				},
@@ -7049,7 +6911,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 1256958,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Shred"
 				},
@@ -7074,7 +6935,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 258990,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Hurricane"
 				},
@@ -7098,7 +6958,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 548399,
-					"power_mod": null,
 					"power_mod_hash": 3233712267,
 					"reward_name": "Druid_Mod_LightningStrike_01"
 				},
@@ -7122,7 +6981,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 309070,
-					"power_mod": null,
 					"power_mod_hash": 4152016905,
 					"reward_name": "Druid_Mod_Maul_01"
 				},
@@ -7171,7 +7029,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 238345,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Boulder"
 				},
@@ -7195,7 +7052,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 309320,
-					"power_mod": null,
 					"power_mod_hash": 908847786,
 					"reward_name": "Druid_Mod_StormStrike_01"
 				},
@@ -7220,7 +7076,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 309070,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Maul"
 				},
@@ -7245,7 +7100,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 309320,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_StormStrike"
 				},
@@ -7269,7 +7123,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 566517,
-					"power_mod": null,
 					"power_mod_hash": 305979095,
 					"reward_name": "Druid_Mod_BloodHowl_01"
 				},
@@ -7293,7 +7146,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 439581,
-					"power_mod": null,
 					"power_mod_hash": 3088332171,
 					"reward_name": "Druid_Mod_FetidClaw_01"
 				},
@@ -7317,7 +7169,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 313893,
-					"power_mod": null,
 					"power_mod_hash": 311912709,
 					"reward_name": "Druid_Mod_Landslide_01"
 				},
@@ -7341,7 +7192,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 333421,
-					"power_mod": null,
 					"power_mod_hash": 1483221252,
 					"reward_name": "Druid_Mod_EarthenBulwark_01"
 				},
@@ -7366,7 +7216,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 333421,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_EarthenBulwark"
 				},
@@ -7391,7 +7240,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 566517,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_BloodHowl"
 				},
@@ -7416,7 +7264,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 313893,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Landslide"
 				},
@@ -7440,7 +7287,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 543387,
-					"power_mod": null,
 					"power_mod_hash": 3069256803,
 					"reward_name": "Druid_Mod_Earthspike_01"
 				},
@@ -7465,7 +7311,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 439581,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_FetidClaw"
 				},
@@ -7513,7 +7358,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 304065,
-					"power_mod": null,
 					"power_mod_hash": 4254149,
 					"reward_name": "Druid_Mod_Tornado_03"
 				},
@@ -7538,7 +7382,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 272138,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Pulverize"
 				},
@@ -7563,7 +7406,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 543387,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Druid_Unlock_Earthspike"
 				},
@@ -7614,7 +7456,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 439581,
-					"power_mod": null,
 					"power_mod_hash": 2614287816,
 					"reward_name": "Druid_Mod_FetidClaw_03"
 				},
@@ -7640,7 +7481,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 309070,
-					"power_mod": null,
 					"power_mod_hash": 3069256803,
 					"reward_name": "Druid_Mod_Maul_03"
 				},
@@ -7666,7 +7506,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 543387,
-					"power_mod": null,
 					"power_mod_hash": 2503903372,
 					"reward_name": "Druid_Mod_Earthspike_03"
 				},
@@ -7744,7 +7583,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 304065,
-					"power_mod": null,
 					"power_mod_hash": 133591563,
 					"reward_name": "Druid_Mod_Tornado_01"
 				},
@@ -7770,7 +7608,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 548399,
-					"power_mod": null,
 					"power_mod_hash": 2955928774,
 					"reward_name": "Druid_Mod_LightningStrike_03"
 				},
@@ -7796,7 +7633,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 1256958,
-					"power_mod": null,
 					"power_mod_hash": 863202854,
 					"reward_name": "Druid_Mod_Shred_03"
 				},
@@ -7822,7 +7658,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 272138,
-					"power_mod": null,
 					"power_mod_hash": 3401646736,
 					"reward_name": "Druid_Mod_Pulverize_03"
 				},
@@ -7874,7 +7709,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 280119,
-					"power_mod": null,
 					"power_mod_hash": 3092416003,
 					"reward_name": "Druid_Mod_CycloneArmor_03"
 				},
@@ -7926,7 +7760,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 336238,
-					"power_mod": null,
 					"power_mod_hash": 3069256803,
 					"reward_name": "Druid_Mod_DebilitatingRoar_03"
 				},
@@ -7952,7 +7785,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 566517,
-					"power_mod": null,
 					"power_mod_hash": 3396379217,
 					"reward_name": "Druid_Mod_BloodHowl_03"
 				},
@@ -7978,7 +7810,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 314601,
-					"power_mod": null,
 					"power_mod_hash": 3513029958,
 					"reward_name": "Druid_Mod_VineCreeper_03"
 				},
@@ -8004,7 +7835,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 265663,
-					"power_mod": null,
 					"power_mod_hash": 2547547532,
 					"reward_name": "Druid_Mod_Wolves_03"
 				},
@@ -8030,7 +7860,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 281516,
-					"power_mod": null,
 					"power_mod_hash": 3062904198,
 					"reward_name": "Druid_Mod_Ravens_03"
 				},
@@ -8056,7 +7885,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 258990,
-					"power_mod": null,
 					"power_mod_hash": 4254149,
 					"reward_name": "Druid_Mod_Hurricane_03"
 				},
@@ -8082,7 +7910,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 238345,
-					"power_mod": null,
 					"power_mod_hash": 1482441675,
 					"reward_name": "Druid_Mod_Boulder_03"
 				},
@@ -8108,7 +7935,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 416337,
-					"power_mod": null,
 					"power_mod_hash": 3723051206,
 					"reward_name": "Druid_Mod_Rabies_03"
 				},
@@ -10661,7 +10487,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 432879,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_BoneSpear"
 				},
@@ -10686,7 +10511,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 493422,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_BloodMist"
 				},
@@ -10711,7 +10535,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 481293,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_Blight"
 				},
@@ -10736,7 +10559,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 463175,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_Decompose"
 				},
@@ -10760,7 +10582,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 481293,
-					"power_mod": null,
 					"power_mod_hash": 3063656862,
 					"reward_name": "Necro_Mod_Blight_01"
 				},
@@ -10784,7 +10605,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 463175,
-					"power_mod": null,
 					"power_mod_hash": 3057211130,
 					"reward_name": "Necro_Mod_Decompose_01"
 				},
@@ -10808,7 +10628,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 493422,
-					"power_mod": null,
 					"power_mod_hash": 1131966355,
 					"reward_name": "Necro_Mod_BloodMist_UpgradeA"
 				},
@@ -10833,7 +10652,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 500962,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_BoneSplinters"
 				},
@@ -10857,7 +10675,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 481293,
-					"power_mod": null,
 					"power_mod_hash": 2031554629,
 					"reward_name": "Necro_Mod_Blight_02"
 				},
@@ -10882,7 +10699,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 481785,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_Sever"
 				},
@@ -10906,7 +10722,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 481785,
-					"power_mod": null,
 					"power_mod_hash": 1543496805,
 					"reward_name": "Necro_Mod_Sever_UpgradeA"
 				},
@@ -10931,7 +10746,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 432897,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_CorpseExplosion"
 				},
@@ -10956,7 +10770,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 469641,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_BoneSpirit"
 				},
@@ -10981,7 +10794,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 592163,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_BloodSurge"
 				},
@@ -11006,7 +10818,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 484661,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_Hemorrhage"
 				},
@@ -11030,7 +10841,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 592163,
-					"power_mod": null,
 					"power_mod_hash": 2566621251,
 					"reward_name": "Necro_Mod_BloodSurge_UpgradeA"
 				},
@@ -11055,7 +10865,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 493453,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_BoneWall"
 				},
@@ -11079,7 +10888,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 501629,
-					"power_mod": null,
 					"power_mod_hash": 3970176690,
 					"reward_name": "Necro_Mod_BloodLance_UpgradeB"
 				},
@@ -11127,7 +10935,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 432879,
-					"power_mod": null,
 					"power_mod_hash": 3341564621,
 					"reward_name": "Necro_Mod_BoneSpear_01"
 				},
@@ -11151,7 +10958,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 469641,
-					"power_mod": null,
 					"power_mod_hash": 2738743384,
 					"reward_name": "Necro_Mod_BoneSpirit_UpgradeA"
 				},
@@ -11176,7 +10982,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 915152,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_IronMaiden"
 				},
@@ -11201,7 +11006,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 463349,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_CorpseTendrils"
 				},
@@ -11225,7 +11029,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 915150,
-					"power_mod": null,
 					"power_mod_hash": 2113992979,
 					"reward_name": "Necro_Mod_Decrepify_02"
 				},
@@ -11249,7 +11052,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 432897,
-					"power_mod": null,
 					"power_mod_hash": 4198814956,
 					"reward_name": "Necro_Mod_CorpseExplosion_02"
 				},
@@ -11273,7 +11075,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 497193,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_ArmyoftheDead"
 				},
@@ -11298,7 +11099,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 432896,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_Reap"
 				},
@@ -11322,7 +11122,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 499281,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_BoneStorm"
 				},
@@ -11346,7 +11145,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 658216,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necro_Unlock_BloodWave"
 				},
@@ -11370,7 +11168,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 915152,
-					"power_mod": null,
 					"power_mod_hash": 2731963459,
 					"reward_name": "Necro_Mod_IronMaiden_01"
 				},
@@ -11395,7 +11192,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 497193,
-					"power_mod": null,
 					"power_mod_hash": 2740659209,
 					"reward_name": "Necro_Mod_ArmyoftheDead_Upgrade1"
 				},
@@ -11420,7 +11216,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 499281,
-					"power_mod": null,
 					"power_mod_hash": 2740659209,
 					"reward_name": "Necro_Mod_BoneStorm_01"
 				},
@@ -11445,7 +11240,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 658216,
-					"power_mod": null,
 					"power_mod_hash": 2740659209,
 					"reward_name": "Necro_Mod_BloodWave_01"
 				},
@@ -11483,7 +11277,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495574,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T2_N1"
 				},
@@ -11508,7 +11301,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1007840,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_01"
 				},
@@ -11533,7 +11325,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495578,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T2_N2"
 				},
@@ -11582,7 +11373,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495572,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T1_N1"
 				},
@@ -11607,7 +11397,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495565,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T3_N2"
 				},
@@ -11633,7 +11422,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495568,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T4_N1"
 				},
@@ -11657,7 +11445,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495564,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T3_N1"
 				},
@@ -11683,7 +11470,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 503508,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T4_N3"
 				},
@@ -11706,7 +11492,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 495577,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T5_N1"
 				},
@@ -11729,7 +11514,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 495581,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Caster_T5_N2"
 				},
@@ -11754,7 +11538,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 588207,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Playstyle_T1_N1"
 				},
@@ -11780,7 +11563,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 588208,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Playstyle_T1_N2"
 				},
@@ -11805,7 +11587,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495560,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Summoning_T1_N1"
 				},
@@ -11854,7 +11635,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495561,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Summoning_T1_N2"
 				},
@@ -11879,7 +11659,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1007843,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_04"
 				},
@@ -11903,7 +11682,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495563,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Summoning_T2_N2"
 				},
@@ -11927,7 +11705,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1007850,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_10"
 				},
@@ -11953,7 +11730,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495562,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Summoning_T2_N1"
 				},
@@ -11977,7 +11753,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1007846,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_06"
 				},
@@ -12001,7 +11776,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 503368,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Summoning_T4_N3"
 				},
@@ -12026,7 +11800,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 495580,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Summoning_T4_N2"
 				},
@@ -12049,7 +11822,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 495570,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Summoning_T5_N1"
 				},
@@ -12072,7 +11844,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 495571,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Necromancer_Talent_Summoning_T5_N2"
 				},
@@ -12785,7 +12556,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 358339,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_Flurry"
 				},
@@ -12810,7 +12580,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 356162,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_BlindingSmoke"
 				},
@@ -12835,7 +12604,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 439762,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_Barrage"
 				},
@@ -12860,7 +12628,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 389667,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_Caltrops"
 				},
@@ -12885,7 +12652,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 416057,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_InvigoratingStrike"
 				},
@@ -12909,7 +12675,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 399111,
-					"power_mod": null,
 					"power_mod_hash": 1286405368,
 					"reward_name": "Rogue_Mod_BladeShift_01"
 				},
@@ -12982,7 +12747,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 363402,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_Heartseeker"
 				},
@@ -13030,7 +12794,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 439762,
-					"power_mod": null,
 					"power_mod_hash": 1189760599,
 					"reward_name": "Rogue_Mod_Barrage_01"
 				},
@@ -13055,7 +12818,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 355606,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_ShadowStep"
 				},
@@ -13104,7 +12866,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 359246,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_ColdImbue"
 				},
@@ -13129,7 +12890,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 377137,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_PenetratingShot"
 				},
@@ -13154,7 +12914,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 358508,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_PoisonImbue"
 				},
@@ -13179,7 +12938,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 364877,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_Puncture"
 				},
@@ -13204,7 +12962,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 786381,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_DarkShroud"
 				},
@@ -13252,7 +13009,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 786381,
-					"power_mod": null,
 					"power_mod_hash": 3923113625,
 					"reward_name": "Rogue_Mod_DarkShroud_02"
 				},
@@ -13277,7 +13033,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 416528,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_PoisonTrap"
 				},
@@ -13325,7 +13080,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 359246,
-					"power_mod": null,
 					"power_mod_hash": 1870060411,
 					"reward_name": "Rogue_Mod_ColdImbue_01"
 				},
@@ -13349,7 +13103,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 416528,
-					"power_mod": null,
 					"power_mod_hash": 1611127946,
 					"reward_name": "Rogue_Mod_PoisonTrap_01"
 				},
@@ -13398,7 +13151,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 398258,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_TwistingBlades"
 				},
@@ -13422,7 +13174,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 786381,
-					"power_mod": null,
 					"power_mod_hash": 513920719,
 					"reward_name": "Rogue_Mod_DarkShroud_03"
 				},
@@ -13446,7 +13197,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 358508,
-					"power_mod": null,
 					"power_mod_hash": 2056282291,
 					"reward_name": "Rogue_Mod_PoisonImbue_01"
 				},
@@ -13519,7 +13269,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 358761,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_Dash"
 				},
@@ -13568,7 +13317,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 380288,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_ShadowImbue"
 				},
@@ -13592,7 +13340,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 377137,
-					"power_mod": null,
 					"power_mod_hash": 3142202907,
 					"reward_name": "Rogue_Mod_PenetratingShot_01"
 				},
@@ -13617,7 +13364,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 399111,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_BladeShift"
 				},
@@ -13666,7 +13412,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 416272,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_ForcefulArrow"
 				},
@@ -13738,7 +13483,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 400232,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_RainofArrows"
 				},
@@ -13762,7 +13506,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 357628,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_ShadowClone"
 				},
@@ -13786,7 +13529,6 @@
 					"e_type": 1,
 					"max_talent_ranks": 3,
 					"power_id": 363402,
-					"power_mod": null,
 					"power_mod_hash": 675340625,
 					"reward_name": "Rogue_Mod_Heartseeker_01"
 				},
@@ -13810,7 +13552,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 421161,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Unlock_DeathTrap"
 				},
@@ -13932,7 +13673,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391671,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Cunning_T1_N1"
 				},
@@ -13956,7 +13696,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391663,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Discipline_T2_N1"
 				},
@@ -13980,7 +13719,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391674,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Cunning_T2_N1"
 				},
@@ -14004,7 +13742,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1008671,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_01"
 				},
@@ -14052,7 +13789,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 777009,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Discipline_T4_N3"
 				},
@@ -14078,7 +13814,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391662,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Discipline_T1_N2"
 				},
@@ -14103,7 +13838,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391678,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Cunning_T4_N1"
 				},
@@ -14127,7 +13861,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1008678,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_08"
 				},
@@ -14151,7 +13884,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1008677,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_07"
 				},
@@ -14174,7 +13906,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 391681,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Cunning_T5_N2"
 				},
@@ -14199,7 +13930,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391676,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Cunning_T3_N1"
 				},
@@ -14223,7 +13953,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391679,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Cunning_T4_N2"
 				},
@@ -14247,7 +13976,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 510270,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Discipline_T2_N3"
 				},
@@ -14297,7 +14025,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1008679,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_09"
 				},
@@ -14321,7 +14048,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 777505,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Discipline_T3_N4"
 				},
@@ -14346,7 +14072,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391673,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Cunning_T1_N2"
 				},
@@ -14372,7 +14097,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1008680,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_10"
 				},
@@ -14396,7 +14120,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 423721,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Discipline_T3_N3"
 				},
@@ -14422,7 +14145,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 391675,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Cunning_T2_N2"
 				},
@@ -14447,7 +14169,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1008672,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_02"
 				},
@@ -14470,7 +14191,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 391669,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Rogue_Talent_Discipline_T5_N1"
 				},
@@ -15354,7 +15074,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 167341,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_FlameShield"
 				},
@@ -15379,7 +15098,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 291215,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_FrostNova"
 				},
@@ -15404,7 +15122,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 297039,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_IceArmor"
 				},
@@ -15429,7 +15146,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 171937,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_ChargedBolts"
 				},
@@ -15454,7 +15170,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 146743,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Hydra"
 				},
@@ -15479,7 +15194,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 291492,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_IceBlades"
 				},
@@ -15504,7 +15218,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 296998,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Meteor"
 				},
@@ -15529,7 +15242,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 291403,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Blizzard"
 				},
@@ -15554,7 +15266,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 291347,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_FrozenOrb"
 				},
@@ -15579,7 +15290,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 292074,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_LightningSpear"
 				},
@@ -15604,7 +15314,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 288106,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Teleport"
 				},
@@ -15629,7 +15338,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 514030,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_BallLightning"
 				},
@@ -15653,7 +15361,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 294198,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Inferno"
 				},
@@ -15677,7 +15384,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 517417,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_UnstableCurrents"
 				},
@@ -15726,7 +15432,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 291827,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_DeepFreeze"
 				},
@@ -15873,7 +15578,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003734,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_05"
 				},
@@ -15897,7 +15601,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003731,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_02"
 				},
@@ -15922,7 +15625,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 334224,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Cold_T2_N2"
 				},
@@ -15947,7 +15649,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 334217,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Cold_T2_N3"
 				},
@@ -15970,7 +15671,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 156232,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Cold_T3_N1"
 				},
@@ -15993,7 +15693,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 334380,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Cold_T3_N2"
 				},
@@ -16017,7 +15716,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 172459,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Elemental_T2_N3"
 				},
@@ -16041,7 +15739,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156211,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Elemental_T2_N2"
 				},
@@ -16065,7 +15762,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156224,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Elemental_T2_N1"
 				},
@@ -16090,7 +15786,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003737,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_08"
 				},
@@ -16116,7 +15811,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 171610,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Fire_T1_N2"
 				},
@@ -16141,7 +15835,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 168572,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Fire_T2_N2"
 				},
@@ -16166,7 +15859,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003733,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_04"
 				},
@@ -16189,7 +15881,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 156220,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Fire_T3_N1"
 				},
@@ -16212,7 +15903,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 333197,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Fire_T3_N2"
 				},
@@ -16238,7 +15928,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 169887,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Lightning_T1_N1"
 				},
@@ -16262,7 +15951,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156235,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Lightning_T1_N2"
 				},
@@ -16287,7 +15975,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003739,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_10"
 				},
@@ -16313,7 +16000,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003738,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_09"
 				},
@@ -16336,7 +16022,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 334791,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Lightning_T3_N1"
 				},
@@ -16359,7 +16044,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 1,
 					"power_id": 156234,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Lightning_T3_N2"
 				},
@@ -16384,7 +16068,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 292737,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Incinerate"
 				},
@@ -16455,7 +16138,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 172509,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Cold_T1_N2"
 				},
@@ -16492,7 +16174,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003732,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_03"
 				},
@@ -16517,7 +16198,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 143483,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Spark"
 				},
@@ -16541,7 +16221,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156227,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Lightning_T2_N1"
 				},
@@ -16566,7 +16245,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 153249,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_FireBolt"
 				},
@@ -16591,7 +16269,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 297902,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_ArcLash"
 				},
@@ -16616,7 +16293,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156225,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Elemental_T1_N2"
 				},
@@ -16641,7 +16317,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 165023,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Fireball"
 				},
@@ -16666,7 +16341,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 292757,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_ChainLightning"
 				},
@@ -16690,7 +16364,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003736,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_07"
 				},
@@ -16714,7 +16387,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156217,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Fire_T1_N1"
 				},
@@ -16739,7 +16411,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 293195,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_IceShards"
 				},
@@ -16764,7 +16435,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 287256,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_FrostBolt"
 				},
@@ -16804,7 +16474,6 @@
 					"e_type": 0,
 					"max_talent_ranks": 5,
 					"power_id": 111422,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorc_Unlock_Firewall"
 				},
@@ -17836,7 +17505,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003729,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_01"
 				},
@@ -17860,7 +17528,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 292836,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Cold_T2_N1"
 				},
@@ -17884,7 +17551,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 1003735,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_06"
 				},
@@ -17910,7 +17576,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156230,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Cold_T1_N1"
 				},
@@ -17936,7 +17601,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 172497,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Fire_T2_N1"
 				},
@@ -17961,7 +17625,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156229,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Lightning_T2_N2"
 				},
@@ -17986,7 +17649,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 334677,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Lightning_T2_N3"
 				},
@@ -18010,7 +17672,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 166341,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Fire_T2_N3"
 				},
@@ -18034,7 +17695,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156233,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Elemental_T1_N1"
 				},
@@ -18060,7 +17720,6 @@
 					"e_type": 2,
 					"max_talent_ranks": 3,
 					"power_id": 156208,
-					"power_mod": null,
 					"power_mod_hash": 0,
 					"reward_name": "Sorcerer_Talent_Elemental_T1_N3"
 				},
