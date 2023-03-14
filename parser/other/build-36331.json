@@ -767,7 +767,6 @@
 					58
 				],
 				"req_points": 23,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 6.219,
@@ -783,7 +782,6 @@
 					78
 				],
 				"req_points": 16,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 2053.54,
@@ -800,7 +798,6 @@
 					80
 				],
 				"req_points": 11,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -2052.02,
@@ -816,7 +813,6 @@
 					62
 				],
 				"req_points": 6,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -2043.17,
@@ -833,7 +829,6 @@
 					63
 				],
 				"req_points": 2,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 2.93,
@@ -847,7 +842,6 @@
 					101
 				],
 				"req_points": 0,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -0.876,
@@ -2088,7 +2082,6 @@
 					60
 				],
 				"req_points": 33,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 7.713,
@@ -4748,7 +4741,6 @@
 					116
 				],
 				"req_points": 0,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -0.439,
@@ -4765,7 +4757,6 @@
 					73
 				],
 				"req_points": 2,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 9.852,
@@ -4780,7 +4771,6 @@
 					95
 				],
 				"req_points": 6,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -2498.06,
@@ -4796,7 +4786,6 @@
 					12
 				],
 				"req_points": 11,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 2502.48,
@@ -4814,7 +4803,6 @@
 					56
 				],
 				"req_points": 16,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -2484.76,
@@ -4831,7 +4819,6 @@
 					59
 				],
 				"req_points": 23,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 2481.23,
@@ -5787,7 +5774,6 @@
 					55
 				],
 				"req_points": 33,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 15.953,
@@ -11476,7 +11462,6 @@
 					1
 				],
 				"req_points": 0,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 8.324,
@@ -16418,7 +16403,6 @@
 					113
 				],
 				"req_points": 11,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 2492.29,
@@ -16434,7 +16418,6 @@
 					108
 				],
 				"req_points": 23,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 2488.02,
@@ -16451,7 +16434,6 @@
 					61
 				],
 				"req_points": 16,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -2513.57,
@@ -16490,7 +16472,6 @@
 					51
 				],
 				"req_points": 0,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -4.146,
@@ -16802,7 +16783,6 @@
 					41
 				],
 				"req_points": 33,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": 415.619,
@@ -18099,7 +18079,6 @@
 					29
 				],
 				"req_points": 6,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -2502.08,
@@ -18117,7 +18096,6 @@
 					112
 				],
 				"req_points": 2,
-				"reward": null,
 				"reward_hash": 4294967295,
 				"root_node": true,
 				"x_pos": -3.337,
