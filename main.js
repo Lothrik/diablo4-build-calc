@@ -9,7 +9,7 @@ import { codexData } from "./data/codex-of-power.js";
 // splitMulti allows String.prototype.split to process multiple delimiters at once
 function splitMulti(str, tokens) {
 	let tempChar = tokens[0];
-	for (let i = 1; i < tokens.length; i++) {
+	for (let i = 1, n = tokens.length; i < n; i++) {
 		str = str.split(tokens[i]).join(tempChar);
 	}
 	str = str.split(tempChar);
@@ -625,7 +625,7 @@ function handleReloadButton() {
 			}
 			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
 			const sortedNodes = [...pixiNodes].filter(pixiNode => pixiNode.groupName != undefined).sort(compareNodes);
-			for (const curNode of sortedNodes) processNode(curNode);
+			for (let i = 0, n = sortedNodes.length; i < n; i++) processNode(sortedNodes[i]);
 			updateCharacterLevel();
 
 			resetFrameTimer();
@@ -648,7 +648,8 @@ function onDragStart(event) {
 function onDragAllStart(event) {
 	pixiBackground.startX = event.global.x / pixiJS.stage.scale.x;
 	pixiBackground.startY = event.global.y / pixiJS.stage.scale.y;
-	for (const pixiChild of pixiJS.stage.children) {
+	for (let i = 0, n = pixiJS.stage.children.length; i < n; i++) {
+		const pixiChild = pixiJS.stage.children[i];
 		pixiChild.position.startX = pixiChild.position.x;
 		pixiChild.position.startY = pixiChild.position.y;
 	}
@@ -679,7 +680,8 @@ function onDragMove(event, dragOverride) {
 function onDragAllMove(event) {
 	if (!isTouching) {
 		if (pixiDragging == pixiBackground) {
-			for (const pixiChild of pixiJS.stage.children) {
+			for (let i = 0, n = pixiJS.stage.children.length; i < n; i++) {
+				const pixiChild = pixiJS.stage.children[i];
 				pixiChild.position.x = pixiChild.position.startX - pixiDragging.startX + event.global.x / pixiJS.stage.scale.x;
 				pixiChild.position.y = pixiChild.position.startY - pixiDragging.startY + event.global.y / pixiJS.stage.scale.y;
 			}
@@ -878,9 +880,11 @@ function handlePlusButton(curNode) {
 		if (getUnusedPoints(false) <= 0) return;
 
 		let validConnection = false;
-		const nodeConnections = curNode.nodeData.get("connections");
-		for (const connectedNode of nodeConnections.values()) {
-			for (const parentNode of pixiNodes) {
+		const nodeConnections = curNode.nodeData.get("connections").values();
+		for (let i = 0, n = nodeConnections.length; i < n; i++) {
+			const connectedNode = nodeConnections[i];
+			for (let j = 0, n2 = pixiNodes.length; j < n2; j++) {
+				const parentNode = pixiNodes[j];
 				if (parentNode.nodeName == connectedNode) {
 					if (parentNode.groupName == undefined) {
 						const requiredPoints = parentNode.nodeData.get("requiredPoints");
@@ -933,9 +937,11 @@ function handleMinusButton(curNode) {
 		}
 	} else {
 		let validConnection = false;
-		const nodeConnections = curNode.nodeData.get("connections");
-		for (const connectedNode of nodeConnections.values()) {
-			for (const parentNode of pixiNodes) {
+		const nodeConnections = curNode.nodeData.get("connections").values();
+		for (let i = 0, n = nodeConnections.length; i < n; i++) {
+			const connectedNode = nodeConnections[i];
+			for (let j = 0, n2 = pixiNodes.length; j < n2; j++) {
+				const parentNode = pixiNodes[j];
 				if (parentNode.nodeName == connectedNode) {
 					if (parentNode.groupName == undefined) {
 						const requiredPoints = parentNode.nodeData.get("requiredPoints");
@@ -976,7 +982,8 @@ function getAllocatedSkillPoints(groupName) {
 }
 const MAX_RECURSION_DEPTH = 3;
 function recursivePathValidation(startNode, recursionDepth = 0) {
-	for (const pixiNode of pixiNodes) {
+	for (let i = 0, n = pixiNodes.length; i < n; i++) {
+		const pixiNode = pixiNodes[i];
 		if (pixiNode.nodeName == startNode) {
 			if (pixiNode.groupName == undefined) {
 				return pixiNode.nodeData.get("requiredPoints") <= getAllocatedSkillPoints(pixiNode.nodeName);
@@ -984,10 +991,9 @@ function recursivePathValidation(startNode, recursionDepth = 0) {
 				if (recursionDepth < MAX_RECURSION_DEPTH) {
 					const nodeConnections = pixiNode.nodeData.get("connections");
 					if (nodeConnections != undefined) {
-						for (const connectedNode of nodeConnections.values()) {
-							if (recursivePathValidation(connectedNode, recursionDepth + 1)) {
-								return true;
-							}
+						const nodeValues = nodeConnections.values();
+						for (let j = 0, n2 = nodeValues.length; j < n2; j++) {
+							if (recursivePathValidation(nodeValues[j], recursionDepth + 1)) return true;
 						}
 					}
 				}
@@ -998,12 +1004,14 @@ function recursivePathValidation(startNode, recursionDepth = 0) {
 	return false;
 }
 function validateAllDependentNodes() {
-	for (const pixiNode of pixiNodes) {
+	for (let i = 0, n = pixiNodes.length; i < n; i++) {
+		const pixiNode = pixiNodes[i];
 		const nodeConnections = pixiNode.nodeData.get("connections");
 		if (nodeConnections != undefined) {
 			let validConnection = false;
-			for (const connectedNode of nodeConnections.values()) {
-				validConnection = recursivePathValidation(connectedNode);
+			const nodeValues = nodeConnections.values();
+			for (let j = 0, n2 = nodeValues.length; j < n2; j++) {
+				validConnection = recursivePathValidation(nodeValues[j]);
 				if (validConnection) break;
 			}
 			if (!validConnection) {
@@ -1023,7 +1031,8 @@ function redrawNode(curNode) {
 }
 function redrawAllNodes(idleMode = false) {
 	pixiEventQueue = [];
-	for (const pixiNode of pixiNodes) {
+	for (let i = 0, n = pixiNodes.length; i < n; i++) {
+		const pixiNode = pixiNodes[i];
 		if (idleMode) {
 			redrawNode(pixiNode);
 		} else {
@@ -1916,7 +1925,8 @@ function drawAllConnectors() {
 					branchConnections = [...branchConnections.values()];
 					const maxConnectors = branchConnections.length;
 					let drawnConnectors = 0;
-					for (const pixiNode of pixiNodes) {
+					for (let j = 0, n2 = pixiNodes.length; j < n2; j++) {
+						const pixiNode = pixiNodes[j];
 						if (branchConnections.includes(pixiNode.nodeName)) {
 							drawConnector(pixiNodes[currentNodeItr - 1], pixiNode);
 							drawnConnectors++;
@@ -1931,7 +1941,8 @@ function drawAllConnectors() {
 						nodeConnections = [...nodeConnections.values()];
 						const maxConnectors = nodeConnections.length;
 						let drawnConnectors = 0;
-						for (const pixiNode of pixiNodes) {
+						for (let k = 0, n3 = pixiNodes.length; k < n3; k++) {
+							const pixiNode = pixiNodes[k];
 							if (nodeConnections.includes(pixiNode.nodeName)) {
 								drawConnector(pixiNodes[currentNodeItr], pixiNode);
 								drawnConnectors++;
@@ -2069,7 +2080,8 @@ function resizeCanvas() {
 		[newWidth, newHeight] = [window.innerWidth, window.innerHeight];
 		pixiJS.renderer.resize(newWidth, newHeight);
 
-		for (const pixiChild of pixiJS.stage.children) {
+		for (let i = 0, n = pixiJS.stage.children.length; i < n; i++) {
+			const pixiChild = pixiJS.stage.children[i];
 			pixiChild.position.x = pixiChild.position.x - oldWidth * 0.5 + newWidth * 0.5;
 			pixiChild.position.y = pixiChild.position.y - oldHeight * 0.5 + newHeight * 0.5;
 		}
