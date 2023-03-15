@@ -2041,6 +2041,7 @@ function rebuildCanvas() {
 	pixiEventQueue = [];
 
 	pixiBackground = PIXI.Sprite.from(PIXI.Texture.EMPTY);
+	pixiTooltip = new PIXI.Container();
 	pixiDragging = null;
 
 	oldWidth = 0;
