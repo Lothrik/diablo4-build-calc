@@ -1064,12 +1064,16 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeData.set("_nodeWidth", _nodeWidth);
 	nodeData.set("_nodeHeight", _nodeHeight);
 
-	const maxLabelSize = Math.round(7.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
-
-	let nameFontSize = 36;
 	let displayName = nodeName;
-	if (nodeName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
-	if (displayName.length >= maxLabelSize - 2) nameFontSize = 32;
+	let displayNameSize = 36;
+	if (node == null) {
+		const maxLabelSize = Math.round(7.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
+		if (displayName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
+		if (displayName.length >= maxLabelSize - 2) displayNameSize = 32;
+	} else {
+		displayName = node.displayName;
+		displayNameSize = node.displayNameSize;
+	}
 
 	const allocatedPoints = nodeData.get("allocatedPoints");
 	const maxPoints = nodeData.get("maxPoints");
@@ -1087,7 +1091,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		align: "center",
 		fill: _textColor,
 		fontFamily: fontFamily,
-		fontSize: nameFontSize * scaleFactor,
+		fontSize: displayNameSize * scaleFactor,
 		fontVariant: "small-caps",
 		fontWeight: useThickNodeStyle ? "bold" : "normal",
 		padding: 10
@@ -1245,6 +1249,55 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 				.on("tap", () => handleMinusButton(node));
 		}
 
+		switch (nodeData.get("damageType")) {
+			case -1:
+			case undefined:
+				break;
+			case 0:
+				node.damageType = PHYSICAL;
+				break;
+			case 1:
+				node.damageType = FIRE;
+				break;
+			case 2:
+				node.damageType = LIGHTNING;
+				break;
+			case 3:
+				node.damageType = COLD;
+				break;
+			case 4:
+				node.damageType = POISON;
+				break;
+			case 5:
+				node.damageType = SHADOW;
+				break;
+			default:
+				node.damageType = UNKNOWN;
+				break;
+		}
+		node.nodeName = nodeName;
+		node.nodeData = nodeData;
+		node.groupName = groupName;
+		node.branchData = branchData;
+		node.nodeIndex = nodeIndex;
+
+		node.displayName = displayName;
+		node.displayNameSize = displayNameSize;
+
+		node.nodeDesc = nodeData.get("description");
+		if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && requiredPoints == undefined) {
+			const nodeValues = node.nodeData.get("values");
+			if (nodeValues != undefined) {
+				nodeValues.forEach(nodeValue => {
+					if (nodeValue.length > 0){
+						node.nodeDesc = node.nodeDesc.replace(/{#}/, nodeValue);
+					} else {
+						node.nodeDesc = node.nodeDesc.replace(/{#}/, "#");
+					}
+				});
+			}
+		}
+
 		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
 	}
 
@@ -1253,54 +1306,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	node.stale = false;
 	node.position.x = x;
 	node.position.y = y;
-	node.nodeName = nodeName;
-	node.nodeData = nodeData;
-	node.groupName = groupName;
-	node.displayName = displayName;
-	node.branchData = branchData;
-	node.nodeIndex = nodeIndex;
 	node.scaleFactor = scaleFactor;
-
-	node.nodeDesc = nodeData.get("description");
-	if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && requiredPoints == undefined) {
-		const nodeValues = node.nodeData.get("values");
-		if (nodeValues != undefined) {
-			nodeValues.forEach(nodeValue => {
-				if (nodeValue.length > 0){
-					node.nodeDesc = node.nodeDesc.replace(/{#}/, nodeValue);
-				} else {
-					node.nodeDesc = node.nodeDesc.replace(/{#}/, "#");
-				}
-			});
-		}
-	}
-
-	switch (nodeData.get("damageType")) {
-		case -1:
-		case undefined:
-			break;
-		case 0:
-			node.damageType = PHYSICAL;
-			break;
-		case 1:
-			node.damageType = FIRE;
-			break;
-		case 2:
-			node.damageType = LIGHTNING;
-			break;
-		case 3:
-			node.damageType = COLD;
-			break;
-		case 4:
-			node.damageType = POISON;
-			break;
-		case 5:
-			node.damageType = SHADOW;
-			break;
-		default:
-			node.damageType = UNKNOWN;
-			break;
-	}
 
 	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
@@ -2029,6 +2035,7 @@ function rebuildCanvas() {
 
 	pixiEventQueue = [];
 
+	pixiBackground = PIXI.Sprite.from(PIXI.Texture.EMPTY);
 	pixiDragging = null;
 
 	oldWidth = 0;
