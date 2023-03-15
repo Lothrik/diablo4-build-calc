@@ -186,18 +186,18 @@ var pixiConnectorPairs = [];
 
 var pixiEventQueue = [];
 
-var pixiBackground;
-var pixiTooltip;
-var pixiDragging;
+var pixiBackground = PIXI.Sprite.from(PIXI.Texture.EMPTY);
+var pixiTooltip = new PIXI.Container();
+var pixiDragging = null;
 
 var debugMode = false;
 var clampMode = readCookie("clampMode") == "true" ? true : false;
 
 var touchTimer = null;
 var isTouching = false;
-var initialScale;
-var initialTouchDistance;
-
+var initialTouchDistance = 0;
+var initialScale = 1;
+var stageScale = 1;
 var curRenderScale = 1;
 var newRenderScale = 1;
 
@@ -373,7 +373,7 @@ function handleIntervalEvent() {
 		// skip `redrawAllNodes` on high pixel density devices
 		if (PIXI.settings.RESOLUTION < 4) {
 			redrawAllNodes(false);
-			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+			if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 		}
 		curRenderScale = newRenderScale;
 	}
@@ -407,7 +407,7 @@ function handleCanvasEvent(event) {
 			touchTimer = Date.now();
 			if (event.originalEvent.touches.length == 2) {
 				isTouching = true;
-				initialScale = pixiJS.stage.scale.x;
+				initialScale = stageScale;
 				initialTouchDistance = Math.hypot(
 					event.originalEvent.touches[0].clientX - event.originalEvent.touches[1].clientX,
 					event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY);
@@ -425,33 +425,33 @@ function handleCanvasEvent(event) {
 			break;
 	}
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
-		let newScale = 0;
 		if (event.type == "wheel") {
 			const stepSize = pixiJS.stage.scale.x >= 1.5 ? 0.1 : 0.05;
 			if (event.originalEvent.deltaY < 0) {
-				newScale = Math.round((pixiJS.stage.scale.x + stepSize) * 100) / 100;
+				stageScale = Math.round((pixiJS.stage.scale.x + stepSize) * 100) / 100;
 			} else if (event.originalEvent.deltaY > 0) {
-				newScale = Math.round((pixiJS.stage.scale.x - stepSize) * 100) / 100;
+				stageScale = Math.round((pixiJS.stage.scale.x - stepSize) * 100) / 100;
 			}
 		} else {
-			newScale = Math.hypot(
+			stageScale = Math.hypot(
 				event.originalEvent.touches[0].clientX - event.originalEvent.touches[1].clientX,
 				event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY)
 				* initialScale / initialTouchDistance;
 		}
-		if (newScale >= pixiScalingFloor && newScale <= pixiScalingCeiling) {
+		if (stageScale >= pixiScalingFloor && stageScale <= pixiScalingCeiling) {
+			if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 			if (event.type == "wheel") {
-				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
-				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
+				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / stageScale);
+				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / stageScale);
 			} else {
 				const averageX = (event.originalEvent.touches[0].clientX + event.originalEvent.touches[1].clientX) * 0.5;
 				const averageY = (event.originalEvent.touches[0].clientY + event.originalEvent.touches[1].clientY) * 0.5;
-				pixiJS.stage.pivot.x = Math.round(averageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - averageX / newScale);
-				pixiJS.stage.pivot.y = Math.round(averageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - averageY / newScale);
+				pixiJS.stage.pivot.x = Math.round(averageX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - averageX / stageScale);
+				pixiJS.stage.pivot.y = Math.round(averageY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - averageY / stageScale);
 			}
-			pixiJS.stage.scale.x = newScale;
-			pixiJS.stage.scale.y = newScale;
-			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
+			pixiJS.stage.scale.set(stageScale);
+		} else {
+			stageScale = pixiJS.stage.scale.x;
 		}
 	}
 	resetFrameTimer();
@@ -687,7 +687,7 @@ function onDragAllMove(event) {
 			return onDragMove(event, true);
 		}
 	}
-	if (pixiTooltip) repositionTooltip();
+	if (pixiTooltip.children.length > 0) repositionTooltip();
 }
 function onMouseOver(event) {
 	drawTooltip(this);
@@ -1670,11 +1670,12 @@ function drawAllNodes() {
 	}
 }
 function drawTooltip(curNode, forceDraw) {
-	const stageScale = pixiJS.stage.scale.x;
 	const clampScale = stageScale < tooltipScalingFloor ? tooltipScalingFloor / stageScale : stageScale > tooltipScalingCeiling ? tooltipScalingCeiling / stageScale : 1;
+	const clampRenderScale = stageScale * clampScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (clampRenderScale > 0.8 ? 4 : clampRenderScale > 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * clampRenderScale;
 
 	// skip tooltip redraw if we already have the correct one displayed
-	if (!forceDraw && !debugMode && pixiTooltip && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.scale.x == clampScale) return;
+	if (!forceDraw && !debugMode && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.scaleFactor == scaleFactor) return;
 
 	eraseTooltip();
 
@@ -1706,8 +1707,6 @@ function drawTooltip(curNode, forceDraw) {
 	}
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
-
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale > 0.8 ? 4 : newRenderScale > 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => curNode.nodeName.includes(damageType) || curNode.nodeDesc.includes(damageType)) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
@@ -1771,27 +1770,21 @@ function drawTooltip(curNode, forceDraw) {
 		tooltipSeperator.lineTo(tooltipBackground.width - 20, tooltipText1.height + 12);
 	}
 
-	const tooltip = new PIXI.Container();
-
-	tooltip.zIndex = 2;
-
-	tooltip.scale.set(clampScale);
-
-	tooltip.addChild(tooltipBackground, tooltipText1, tooltipText2, tooltipBorder, tooltipSeperator);
-
-	pixiTooltip = pixiJS.stage.addChild(tooltip);
 	pixiTooltip.nodeIndex = curNode.nodeIndex;
+	pixiTooltip.zIndex = 2;
+
+	pixiTooltip.scale.set(clampScale);
+	pixiTooltip.addChild(tooltipBackground, tooltipText1, tooltipText2, tooltipBorder, tooltipSeperator);
+
+	pixiJS.stage.addChild(pixiTooltip);
 
 	repositionTooltip();
 }
 function eraseTooltip() {
-	if (pixiTooltip) {
-		pixiTooltip.destroy(true);
-		pixiTooltip = null;
-	}
+	while (pixiTooltip.children[0]) pixiTooltip.children[0].destroy(true);
 }
 function repositionTooltip() {
-	if (!pixiTooltip) return;
+	if (pixiTooltip.children.length == 0) return;
 
 	const borderWidth = 8;
 	const marginSize = 10;
@@ -1947,7 +1940,6 @@ function drawAllConnectors() {
 	}
 }
 function drawBackground() {
-	pixiBackground = PIXI.Sprite.from(PIXI.Texture.EMPTY);
 	pixiBackground.x = -maxCanvasWidth;
 	pixiBackground.y = -maxCanvasHeight;
 	pixiBackground.width = maxCanvasWidth * 2;
@@ -2035,15 +2027,15 @@ function rebuildCanvas() {
 
 	pixiEventQueue = [];
 
-	pixiTooltip = null;
 	pixiDragging = null;
 
 	oldWidth = 0;
 	oldHeight = 0;
 
-	pixiJS.stage.pivot.set(0, 0);
-	pixiJS.stage.scale.set(1, 1);
+	pixiJS.stage.pivot.set(0);
+	pixiJS.stage.scale.set(1);
 
+	stageScale = 1;
 	curRenderScale = 1;
 	newRenderScale = 1;
 
