@@ -1289,7 +1289,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			const nodeValues = node.nodeData.get("values");
 			if (nodeValues != undefined) {
 				nodeValues.forEach(nodeValue => {
-					if (nodeValue.length > 0){
+					if (nodeValue.length > 0) {
 						node.nodeDesc = node.nodeDesc.replace(/{#}/, nodeValue);
 					} else {
 						node.nodeDesc = node.nodeDesc.replace(/{#}/, "#");
