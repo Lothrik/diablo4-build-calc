@@ -1032,7 +1032,7 @@ function redrawAllNodes(idleMode = false) {
 	}
 }
 function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.85 ? 4 : newRenderScale >= 0.55 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale > 0.8 ? 4 : newRenderScale > 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	let node;
 	if (pixiNodes.length > nodeIndex) {
@@ -1707,7 +1707,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.85 ? 4 : newRenderScale >= 0.55 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale > 0.8 ? 4 : newRenderScale > 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => curNode.nodeName.includes(damageType) || curNode.nodeDesc.includes(damageType)) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
