@@ -180,8 +180,11 @@ var pixiAllocatedPoints = new Map();
 var pixiAllocatedParagonPoints = 0;
 
 var pixiNodes = [];
+
 var pixiConnectors = [];
 var pixiConnectorPairs = [];
+
+var pixiEventQueue = [];
 
 var pixiBackground;
 var pixiTooltip;
@@ -194,8 +197,6 @@ var touchTimer = null;
 var isTouching = false;
 var initialScale;
 var initialTouchDistance;
-
-var nodeRedrawQueue = [];
 
 var curRenderScale = 1;
 var newRenderScale = 1;
@@ -377,7 +378,7 @@ function handleIntervalEvent() {
 		curRenderScale = newRenderScale;
 	}
 
-	while (nodeRedrawQueue.length > 0) (nodeRedrawQueue.shift())();
+	while (pixiEventQueue.length > 0) (pixiEventQueue.shift())();
 
 	if (frameTimer != null && Date.now() - frameTimer > 800) {
 		frameTimer = null;
@@ -1021,7 +1022,7 @@ function redrawNode(curNode) {
 	drawNode(curNode.nodeName, curNode.nodeData, curNode.groupName, curNode.branchData, curNode.nodeIndex, curNode.position);
 }
 function redrawAllNodes(idleMode = false) {
-	nodeRedrawQueue.length = 0;
+	pixiEventQueue = [];
 	for (const pixiNode of pixiNodes) {
 		if (idleMode) {
 			redrawNode(pixiNode);
@@ -1031,8 +1032,30 @@ function redrawAllNodes(idleMode = false) {
 	}
 }
 function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
-	if (curRenderScale == nodeData.activeRenderScale) return;
-	nodeData.activeRenderScale = curRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.75 ? 4 : newRenderScale >= 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+
+	let node;
+	if (pixiNodes.length > nodeIndex) {
+		node = pixiNodes[nodeIndex];
+		// skip node redraw if we already have the correct one displayed
+		if (node.scaleFactor == scaleFactor) return;
+		// destroy all existing node children if we need to replace them
+		while (node.children[0]) node.children[0].destroy(true);
+	} else {
+		node = new PIXI.Container();
+
+		node._renderHooked = node._render;
+		node._render = (...args) => {
+			if (node.stale) {
+				node.stale = false;
+				pixiEventQueue.push(() => redrawNode(node));
+			} else {
+				node._renderHooked(...args);
+			}
+		};
+
+		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
+	}
 
 	let x = nodePosition == null ? nodeData.get("x") : nodePosition.x;
 	let y = nodePosition == null ? nodeData.get("y") : nodePosition.y;
@@ -1070,8 +1093,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	const searchQueryMatch = nodeData.get("searchQueryMatch");
 
 	const useThickNodeStyle = searchQueryMatch || (groupName == undefined ? requiredPoints <= getAllocatedSkillPoints(nodeName) : allocatedPoints > 0);
-
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.6 ? 4 : newRenderScale >= 0.3 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	const colorOverride = nodeData.get("colorOverride");
 	const _textColor = colorOverride != undefined ? colorOverride : textColor;
@@ -1191,25 +1212,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeBorder.angle = 45;
 	}
 
-	let node;
-	if (pixiNodes.length > nodeIndex) {
-		node = pixiNodes[nodeIndex];
-		while (node.children[0]) node.children[0].destroy(true);
-	} else {
-		node = new PIXI.Container();
-		node._renderHooked = node._render;
-		node._render = (...args) => {
-			if (node.stale) {
-				node.stale = false;
-				nodeRedrawQueue.push(() => redrawNode(node));
-			} else {
-				node._renderHooked(...args);
-			}
-		};
-
-		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
-	}
-
 	node.cullable = true;
 	node.interactive = true;
 	node.stale = false;
@@ -1221,6 +1223,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	node.displayName = displayName;
 	node.branchData = branchData;
 	node.nodeIndex = nodeIndex;
+	node.scaleFactor = scaleFactor;
 
 	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
@@ -1700,7 +1703,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.6 ? 4 : newRenderScale >= 0.3 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 1 ? 4 : newRenderScale >= 0.75 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => curNode.nodeName.includes(damageType) || curNode.nodeDesc.includes(damageType)) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
@@ -2015,11 +2018,16 @@ function resetFrameTimer() {
 }
 function rebuildCanvas() {
 	while (pixiJS.stage.children[0]) pixiJS.stage.children[0].destroy(true);
+
 	pixiAllocatedPoints = new Map();
 	pixiAllocatedParagonPoints = 0;
+
 	pixiNodes = [];
+
 	pixiConnectors = [];
 	pixiConnectorPairs = [];
+
+	pixiEventQueue = [];
 
 	pixiTooltip = null;
 	pixiDragging = null;
@@ -2030,6 +2038,7 @@ function rebuildCanvas() {
 	pixiJS.stage.pivot.set(0, 0);
 	pixiJS.stage.scale.set(1, 1);
 
+	curRenderScale = 1;
 	newRenderScale = 1;
 
 	drawBackground();
