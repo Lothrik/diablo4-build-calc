@@ -2044,15 +2044,15 @@ function rebuildCanvas() {
 	pixiTooltip = new PIXI.Container();
 	pixiDragging = null;
 
-	oldWidth = 0;
-	oldHeight = 0;
-
 	pixiJS.stage.pivot.set(0);
 	pixiJS.stage.scale.set(1);
 
 	stageScale = 1;
 	curRenderScale = 1;
 	newRenderScale = 1;
+
+	oldWidth = 0;
+	oldHeight = 0;
 
 	drawBackground();
 	drawAllNodes();
