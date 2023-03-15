@@ -880,11 +880,10 @@ function handlePlusButton(curNode) {
 		if (getUnusedPoints(false) <= 0) return;
 
 		let validConnection = false;
-		const nodeConnections = curNode.nodeData.get("connections").values();
-		for (let i = 0, n = nodeConnections.length; i < n; i++) {
-			const connectedNode = nodeConnections[i];
-			for (let j = 0, n2 = pixiNodes.length; j < n2; j++) {
-				const parentNode = pixiNodes[j];
+		const nodeConnectionValues = curNode.nodeData.get("connections").values();
+		for (const connectedNode of nodeConnectionValues) {
+			for (let i = 0, n = pixiNodes.length; i < n; i++) {
+				const parentNode = pixiNodes[i];
 				if (parentNode.nodeName == connectedNode) {
 					if (parentNode.groupName == undefined) {
 						const requiredPoints = parentNode.nodeData.get("requiredPoints");
@@ -937,11 +936,10 @@ function handleMinusButton(curNode) {
 		}
 	} else {
 		let validConnection = false;
-		const nodeConnections = curNode.nodeData.get("connections").values();
-		for (let i = 0, n = nodeConnections.length; i < n; i++) {
-			const connectedNode = nodeConnections[i];
-			for (let j = 0, n2 = pixiNodes.length; j < n2; j++) {
-				const parentNode = pixiNodes[j];
+		const nodeConnectionValues = curNode.nodeData.get("connections").values();
+		for (const connectedNode of nodeConnectionValues) {
+			for (let i = 0, n = pixiNodes.length; i < n; i++) {
+				const parentNode = pixiNodes[i];
 				if (parentNode.nodeName == connectedNode) {
 					if (parentNode.groupName == undefined) {
 						const requiredPoints = parentNode.nodeData.get("requiredPoints");
@@ -989,12 +987,9 @@ function recursivePathValidation(startNode, recursionDepth = 0) {
 				return pixiNode.nodeData.get("requiredPoints") <= getAllocatedSkillPoints(pixiNode.nodeName);
 			} else if (pixiNode.nodeData.get("allocatedPoints") > 0) {
 				if (recursionDepth < MAX_RECURSION_DEPTH) {
-					const nodeConnections = pixiNode.nodeData.get("connections");
-					if (nodeConnections != undefined) {
-						const nodeValues = nodeConnections.values();
-						for (let j = 0, n2 = nodeValues.length; j < n2; j++) {
-							if (recursivePathValidation(nodeValues[j], recursionDepth + 1)) return true;
-						}
+					const nodeConnectionValues = pixiNode.nodeData.get("connections").values();
+					for (const connectedNode of nodeConnectionValues) {
+						if (recursivePathValidation(connectedNode, recursionDepth + 1)) return true;
 					}
 				}
 			}
@@ -1009,9 +1004,9 @@ function validateAllDependentNodes() {
 		const nodeConnections = pixiNode.nodeData.get("connections");
 		if (nodeConnections != undefined) {
 			let validConnection = false;
-			const nodeValues = nodeConnections.values();
-			for (let j = 0, n2 = nodeValues.length; j < n2; j++) {
-				validConnection = recursivePathValidation(nodeValues[j]);
+			const nodeConnectionValues = nodeConnections.values();
+			for (const connectedNode of nodeConnectionValues) {
+				validConnection = recursivePathValidation(connectedNode);
 				if (validConnection) break;
 			}
 			if (!validConnection) {
@@ -1156,11 +1151,17 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		plusContainer.cursor = "pointer";
 		plusContainer.interactive = true;
 		plusContainer.addChild(nodeText3);
+		plusContainer
+			.on("click", () => handlePlusButton(node))
+			.on("tap", () => handlePlusButton(node));
 
 		minusContainer = new PIXI.Container();
 		minusContainer.cursor = "pointer";
 		minusContainer.interactive = true;
 		minusContainer.addChild(nodeText4);
+		minusContainer
+			.on("click", () => handleMinusButton(node))
+			.on("tap", () => handleMinusButton(node));
 	}
 
 	const nodeBackground = new PIXI.Graphics();
@@ -1249,13 +1250,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 					.on("click", () => handleToggleButton(node))
 					.on("tap", () => handleToggleButton(node));
 			}
-		} else if (groupName != undefined && maxPoints != 0) {
-			plusContainer
-				.on("click", () => handlePlusButton(node))
-				.on("tap", () => handlePlusButton(node));
-			minusContainer
-				.on("click", () => handleMinusButton(node))
-				.on("tap", () => handleMinusButton(node));
 		}
 
 		switch (nodeData.get("damageType")) {
