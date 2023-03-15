@@ -178,6 +178,7 @@ var lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConne
 
 var pixiAllocatedPoints = new Map();
 var pixiAllocatedParagonPoints = 0;
+
 var pixiNodes = [];
 var pixiConnectors = [];
 var pixiConnectorPairs = [];
@@ -194,7 +195,8 @@ var isTouching = false;
 var initialScale;
 var initialTouchDistance;
 
-var canvasTimer = null;
+var nodeRedrawQueue = [];
+
 var curRenderScale = 1;
 var newRenderScale = 1;
 
@@ -365,22 +367,23 @@ function handleColorButton(event) {
 	}
 }
 function handleIntervalEvent() {
-	if (canvasTimer != null && Date.now() - canvasTimer > 800) {
-		canvasTimer = null;
-		newRenderScale = Math.min(pixiJS.stage.scale.x, 1);
-		if (newRenderScale != curRenderScale) {
-			// skip `redrawAllNodes` on high pixel density devices
-			if (PIXI.settings.RESOLUTION < 4) {
-				pixiDragging = null;
-				redrawAllNodes();
-				if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
-			}
-			curRenderScale = newRenderScale;
+	newRenderScale = Math.min(pixiJS.stage.scale.x, 1);
+	if (newRenderScale != curRenderScale) {
+		// skip `redrawAllNodes` on high pixel density devices
+		if (PIXI.settings.RESOLUTION < 4) {
+			redrawAllNodes(false);
+			if (pixiTooltip) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
 		}
+		curRenderScale = newRenderScale;
 	}
+
+	while (nodeRedrawQueue.length > 0) (nodeRedrawQueue.shift())();
+
 	if (frameTimer != null && Date.now() - frameTimer > 800) {
 		frameTimer = null;
 		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
+		// skip `redrawAllNodes` on high pixel density devices
+		if (PIXI.settings.RESOLUTION < 4) redrawAllNodes(true);
 	}
 }
 function handleCanvasEvent(event) {
@@ -436,7 +439,6 @@ function handleCanvasEvent(event) {
 				* initialScale / initialTouchDistance;
 		}
 		if (newScale >= pixiScalingFloor && newScale <= pixiScalingCeiling) {
-			canvasTimer = Date.now();
 			if (event.type == "wheel") {
 				pixiJS.stage.pivot.x = Math.round(event.clientX / pixiJS.stage.scale.x + pixiJS.stage.pivot.x - event.clientX / newScale);
 				pixiJS.stage.pivot.y = Math.round(event.clientY / pixiJS.stage.scale.y + pixiJS.stage.pivot.y - event.clientY / newScale);
@@ -645,9 +647,9 @@ function onDragStart(event) {
 function onDragAllStart(event) {
 	pixiBackground.startX = event.global.x / pixiJS.stage.scale.x;
 	pixiBackground.startY = event.global.y / pixiJS.stage.scale.y;
-	for (let i = 0; i < pixiJS.stage.children.length; i++) {
-		pixiJS.stage.children[i].position.startX = pixiJS.stage.children[i].position.x;
-		pixiJS.stage.children[i].position.startY = pixiJS.stage.children[i].position.y;
+	for (const pixiChild of pixiJS.stage.children) {
+		pixiChild.position.startX = pixiChild.position.x;
+		pixiChild.position.startY = pixiChild.position.y;
 	}
 	pixiDragging = pixiBackground;
 }
@@ -670,18 +672,16 @@ function onDragMove(event, dragOverride) {
 			pixiDragging.position.y = mouseY;
 			drawTooltip(pixiDragging);
 			drawAllConnectors();
-			canvasTimer = Date.now();
 		}
 	}
 }
 function onDragAllMove(event) {
 	if (!isTouching) {
 		if (pixiDragging == pixiBackground) {
-			for (let i = 0; i < pixiJS.stage.children.length; i++) {
-				pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.startX - pixiDragging.startX + event.global.x / pixiJS.stage.scale.x;
-				pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.startY - pixiDragging.startY + event.global.y / pixiJS.stage.scale.y;
+			for (const pixiChild of pixiJS.stage.children) {
+				pixiChild.position.x = pixiChild.position.startX - pixiDragging.startX + event.global.x / pixiJS.stage.scale.x;
+				pixiChild.position.y = pixiChild.position.startY - pixiDragging.startY + event.global.y / pixiJS.stage.scale.y;
 			}
-			canvasTimer = Date.now();
 		} else if (pixiDragging) {
 			return onDragMove(event, true);
 		}
@@ -1020,11 +1020,20 @@ function validateAllDependentNodes() {
 function redrawNode(curNode) {
 	drawNode(curNode.nodeName, curNode.nodeData, curNode.groupName, curNode.branchData, curNode.nodeIndex, curNode.position);
 }
-function redrawAllNodes() {
-	for (let i = pixiNodes.length - 1; i >= 0; i--) redrawNode(pixiNodes[i]);
-	pixiJS.stage.sortChildren();
+function redrawAllNodes(idleMode = false) {
+	nodeRedrawQueue.length = 0;
+	for (const pixiNode of pixiNodes) {
+		if (idleMode) {
+			redrawNode(pixiNode);
+		} else {
+			pixiNode.stale = true;
+		}
+	}
 }
 function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
+	if (curRenderScale == nodeData.activeRenderScale) return;
+	nodeData.activeRenderScale = curRenderScale;
+
 	let x = nodePosition == null ? nodeData.get("x") : nodePosition.x;
 	let y = nodePosition == null ? nodeData.get("y") : nodePosition.y;
 
@@ -1182,9 +1191,28 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeBorder.angle = 45;
 	}
 
-	const node = new PIXI.Container();
+	let node;
+	if (pixiNodes.length > nodeIndex) {
+		node = pixiNodes[nodeIndex];
+		while (node.children[0]) node.children[0].destroy(true);
+	} else {
+		node = new PIXI.Container();
+		node._renderHooked = node._render;
+		node._render = (...args) => {
+			if (node.stale) {
+				node.stale = false;
+				nodeRedrawQueue.push(() => redrawNode(node));
+			} else {
+				node._renderHooked(...args);
+			}
+		};
+
+		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
+	}
+
 	node.cullable = true;
 	node.interactive = true;
+	node.stale = false;
 	node.position.x = x;
 	node.position.y = y;
 	node.nodeName = nodeName;
@@ -1193,6 +1221,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	node.displayName = displayName;
 	node.branchData = branchData;
 	node.nodeIndex = nodeIndex;
+
 	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
 		node.addChild(nodeBackground, nodeText, nodeBorder);
 	} else {
@@ -1269,9 +1298,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			.on("click", () => handleMinusButton(node))
 			.on("tap", () => handleMinusButton(node));
 	}
-
-	if (pixiNodes.length > nodeIndex) pixiNodes[nodeIndex].destroy(true);
-	pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
 }
 function drawAllNodes() {
 	const className = $(classString).val();
@@ -1880,8 +1906,7 @@ function drawAllConnectors() {
 					branchConnections = [...branchConnections.values()];
 					const maxConnectors = branchConnections.length;
 					let drawnConnectors = 0;
-					for (let targetNodeItr = 0; targetNodeItr < pixiNodes.length; targetNodeItr++) {
-						const pixiNode = pixiNodes[targetNodeItr];
+					for (const pixiNode of pixiNodes) {
 						if (branchConnections.includes(pixiNode.nodeName)) {
 							drawConnector(pixiNodes[currentNodeItr - 1], pixiNode);
 							drawnConnectors++;
@@ -1896,8 +1921,7 @@ function drawAllConnectors() {
 						nodeConnections = [...nodeConnections.values()];
 						const maxConnectors = nodeConnections.length;
 						let drawnConnectors = 0;
-						for (let targetNodeItr = 0; targetNodeItr < pixiNodes.length; targetNodeItr++) {
-							const pixiNode = pixiNodes[targetNodeItr];
+						for (const pixiNode of pixiNodes) {
 							if (nodeConnections.includes(pixiNode.nodeName)) {
 								drawConnector(pixiNodes[currentNodeItr], pixiNode);
 								drawnConnectors++;
@@ -2029,9 +2053,9 @@ function resizeCanvas() {
 		[newWidth, newHeight] = [window.innerWidth, window.innerHeight];
 		pixiJS.renderer.resize(newWidth, newHeight);
 
-		for (let i = 0; i < pixiJS.stage.children.length; i++) {
-			pixiJS.stage.children[i].position.x = pixiJS.stage.children[i].position.x - oldWidth * 0.5 + newWidth * 0.5;
-			pixiJS.stage.children[i].position.y = pixiJS.stage.children[i].position.y - oldHeight * 0.5 + newHeight * 0.5;
+		for (const pixiChild of pixiJS.stage.children) {
+			pixiChild.position.x = pixiChild.position.x - oldWidth * 0.5 + newWidth * 0.5;
+			pixiChild.position.y = pixiChild.position.y - oldHeight * 0.5 + newHeight * 0.5;
 		}
 		[oldWidth, oldHeight] = [newWidth, newHeight];
 
@@ -2088,7 +2112,7 @@ $(document).ready(function() {
 
 	handleReloadButton();
 	resizeCanvas();
-	setInterval(handleIntervalEvent, 200);
+	setInterval(handleIntervalEvent, 100);
 
 	if (debugMode) {
 		let drawCount = 0;
