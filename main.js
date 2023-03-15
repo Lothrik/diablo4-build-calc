@@ -1034,27 +1034,13 @@ function redrawAllNodes(idleMode = false) {
 function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
 	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale > 0.8 ? 4 : newRenderScale > 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
-	let node;
+	let node = null;
 	if (pixiNodes.length > nodeIndex) {
 		node = pixiNodes[nodeIndex];
 		// skip node redraw if we already have the correct one displayed
 		if (node.scaleFactor == scaleFactor) return;
 		// destroy all existing node children if we need to replace them
 		while (node.children[0]) node.children[0].destroy(true);
-	} else {
-		node = new PIXI.Container();
-
-		node._renderHooked = node._render;
-		node._render = (...args) => {
-			if (node.stale) {
-				node.stale = false;
-				pixiEventQueue.push(() => redrawNode(node));
-			} else {
-				node._renderHooked(...args);
-			}
-		};
-
-		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
 	}
 
 	let x = nodePosition == null ? nodeData.get("x") : nodePosition.x;
@@ -1216,6 +1202,52 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeBorder.angle = 45;
 	}
 
+	if (node == null) {
+		node = new PIXI.Container();
+
+		node._renderHooked = node._render;
+		node._render = (...args) => {
+			if (node.stale) {
+				node.stale = false;
+				pixiEventQueue.push(() => redrawNode(node));
+			} else {
+				node._renderHooked(...args);
+			}
+		};
+
+		node
+			.on("mousedown", onDragStart)
+			.on("touchstart", onDragStart)
+			.on("mouseup", onDragEnd)
+			.on("mouseupoutside", onDragEnd)
+			.on("touchend", onDragEnd)
+			.on("touchendoutside", onDragEnd)
+			.on("mousemove", onDragMove)
+			.on("touchmove", onDragMove)
+			.on("mouseover", onMouseOver)
+			.on("mouseout", onMouseOut)
+			.on("tap", onMouseOver);
+
+		if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || maxPoints <= 1) {
+			if (maxPoints != 0) {
+				node.cursor = "pointer";
+				node.interactive = true;
+				node
+					.on("click", () => handleToggleButton(node))
+					.on("tap", () => handleToggleButton(node));
+			}
+		} else if (groupName != undefined && maxPoints != 0) {
+			plusContainer
+				.on("click", () => handlePlusButton(node))
+				.on("tap", () => handlePlusButton(node));
+			minusContainer
+				.on("click", () => handleMinusButton(node))
+				.on("tap", () => handleMinusButton(node));
+		}
+
+		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
+	}
+
 	node.cullable = true;
 	node.interactive = true;
 	node.stale = false;
@@ -1229,10 +1261,18 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	node.nodeIndex = nodeIndex;
 	node.scaleFactor = scaleFactor;
 
-	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
-		node.addChild(nodeBackground, nodeText, nodeBorder);
-	} else {
-		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
+	node.nodeDesc = nodeData.get("description");
+	if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && requiredPoints == undefined) {
+		const nodeValues = node.nodeData.get("values");
+		if (nodeValues != undefined) {
+			nodeValues.forEach(nodeValue => {
+				if (nodeValue.length > 0){
+					node.nodeDesc = node.nodeDesc.replace(/{#}/, nodeValue);
+				} else {
+					node.nodeDesc = node.nodeDesc.replace(/{#}/, "#");
+				}
+			});
+		}
 	}
 
 	switch (nodeData.get("damageType")) {
@@ -1262,48 +1302,10 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			break;
 	}
 
-	node.nodeDesc = nodeData.get("description");
-	if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && requiredPoints == undefined) {
-		const nodeValues = node.nodeData.get("values");
-		if (nodeValues != undefined) {
-			nodeValues.forEach(nodeValue => {
-				if (nodeValue.length > 0){
-					node.nodeDesc = node.nodeDesc.replace(/{#}/, nodeValue);
-				} else {
-					node.nodeDesc = node.nodeDesc.replace(/{#}/, "#");
-				}
-			});
-		}
-	}
-
-	node
-		.on("mousedown", onDragStart)
-		.on("touchstart", onDragStart)
-		.on("mouseup", onDragEnd)
-		.on("mouseupoutside", onDragEnd)
-		.on("touchend", onDragEnd)
-		.on("touchendoutside", onDragEnd)
-		.on("mousemove", onDragMove)
-		.on("touchmove", onDragMove)
-		.on("mouseover", onMouseOver)
-		.on("mouseout", onMouseOut)
-		.on("tap", onMouseOver);
-
-	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || maxPoints <= 1) {
-		if (maxPoints != 0) {
-			node.cursor = "pointer";
-			node.interactive = true;
-			node
-				.on("click", () => handleToggleButton(node))
-				.on("tap", () => handleToggleButton(node));
-		}
-	} else if (groupName != undefined && maxPoints != 0) {
-		plusContainer
-			.on("click", () => handlePlusButton(node))
-			.on("tap", () => handlePlusButton(node));
-		minusContainer
-			.on("click", () => handleMinusButton(node))
-			.on("tap", () => handleMinusButton(node));
+	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
+		node.addChild(nodeBackground, nodeText, nodeBorder);
+	} else {
+		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
 	}
 }
 function drawAllNodes() {
