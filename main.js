@@ -1462,13 +1462,13 @@ function drawAllNodes() {
 								const minionUpgradeNode = new Map([
 									["allocatedPoints", 0],
 									["description", minionUpgrade],
-									["exclusiveNodes", upgradeItr < minionUpgrades.length ? exclusiveUpgradeNodes : undefined],
+									["exclusiveNodes", exclusiveUpgradeNodes],
 									["id", `${minionTypeData.get("id")}-${upgradeItr}`],
 									["maxPoints", 1],
 									["shapeSize", 1],
 									["shapeType", "rectangle"],
-									["x", extraX + nodeSpacingX * (upgradeItr == 0 ? Math.ceil(minionUpgrades.length / 3) : Math.ceil((upgradeItr - 2) * 0.5)) - nodeSpacingX * Math.ceil((minionUpgrades.length - 3) * 0.5) * 0.5],
-									["y", nodeSpacingY + extraY + (upgradeItr == 0 ? 0 : (upgradeItr == minionUpgrades.length && minionUpgrades.length % 2 == 0 ? 0 : nodeSpacingY * (upgradeItr % 2 == 0 ? 0.5 : -0.5)))]
+									["x", extraX + nodeSpacingX * (upgradeItr == 0 ? 1 : Math.ceil((upgradeItr - 2) * 0.5))],
+									["y", nodeSpacingY + extraY + (upgradeItr == 0 ? 0 : nodeSpacingY * (upgradeItr % 2 == 0 ? 0.5 : -0.5))]
 								]);
 
 								drawNode(exclusiveUpgradeNodes[upgradeItr], minionUpgradeNode, groupName, branchData);
