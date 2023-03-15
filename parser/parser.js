@@ -4,16 +4,17 @@ import { druidBoons } from "./druid-boons.js";
 import { necromancerMinions } from "./necromancer-minions.js";
 import { sorcererEnchants } from "./sorcerer-enchants.js";
 
-const buildNumber = 36331;
+const treeBuild = 36331;
+const otherBuild = 39319;
 
 var skillJSON = "";
 var otherJSON = "";
-$.getJSON("tree/build-" + buildNumber + ".json", null, treeData => {
+$.getJSON("tree/build-" + treeBuild + ".json", null, treeData => {
 	skillJSON = treeData;
-	$("#debugOutput").html("Successfully loaded `tree/build-" + buildNumber + ".json`.");
-	$.getJSON("other/build-" + buildNumber + ".json", null, otherData => {
+	$("#debugOutput").html("Successfully loaded `tree/build-" + treeBuild + ".json`.");
+	$.getJSON("other/build-" + otherBuild + ".json", null, otherData => {
 		otherJSON = otherData;
-		$("#debugOutput").append("\nSuccessfully loaded `other/build-" + buildNumber + ".json`.");
+		$("#debugOutput").append("\nSuccessfully loaded `other/build-" + otherBuild + ".json`.");
 		// call runParser once after loading so fixJSON affects node connections recursively
 		runParser(false);
 	});
@@ -181,7 +182,7 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode) 
 
 function fixJSON(classData, curNode, rootNodeName) {
 	const nodeData = classData["Nodes"][curNode];
-	if (buildNumber == 36023 || buildNumber == 36331) {
+	if (treeBuild == 36023 || treeBuild == 36331) {
 		if (nodeData["SkillName"] != nodeData["SkillName"].trim()) {
 			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `" + nodeData["SkillName"].trim() + "`.");
 			nodeData["SkillName"] = nodeData["SkillName"].trim();

@@ -1515,7 +1515,7 @@ let paragonData = {
 					"",
 					"",
 					"Barbarian_Rare_023",
-					"Generic_Magic_Will",
+					"Generic_Magic_Dex",
 					"Generic_Normal_Str",
 					"",
 					"Generic_Normal_Str",
@@ -1536,7 +1536,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Str",
 					"",
-					"Generic_Magic_Will",
+					"Generic_Magic_Dex",
 					"Barbarian_Magic_BerserkDamage",
 					"Barbarian_Magic_BerserkDamage",
 					"Generic_Normal_Dex",
@@ -1582,7 +1582,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Str",
 					"",
-					"Generic_Magic_Dex",
+					"Generic_Magic_Will",
 					"Generic_Magic_DamageReductionFromNear",
 					"Generic_Magic_DamageReductionFromNear",
 					"Generic_Normal_Str",
@@ -1607,7 +1607,7 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Rare_059",
-					"Generic_Magic_Dex",
+					"Generic_Magic_Will",
 					"Generic_Normal_Str",
 					"",
 					"Generic_Normal_Str",
@@ -2773,7 +2773,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Precision Striker": [
+			"Flawless Technique": [
 				[
 					"",
 					"",
@@ -3258,7 +3258,7 @@ let paragonData = {
 					""
 				]
 			],
-			"War Bringer": [
+			"Warbringer": [
 				[
 					"",
 					"",
@@ -3402,10 +3402,10 @@ let paragonData = {
 					"",
 					"",
 					"",
+					"Barbarian_Magic_FuryOnKill",
 					"Barbarian_Magic_Fury",
-					"Barbarian_Magic_FuryGeneration",
+					"Barbarian_Magic_FuryOnKill",
 					"Barbarian_Magic_Fury",
-					"Barbarian_Magic_FuryGeneration",
 					"Generic_Normal_Will",
 					"Generic_Normal_Int",
 					"",
@@ -3426,7 +3426,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Str",
 					"Generic_Normal_Dex",
-					"Barbarian_Magic_FuryGeneration",
+					"Barbarian_Magic_Fury",
 					"Barbarian_Rare_020",
 					"",
 					"Generic_Normal_Dex",
@@ -3743,7 +3743,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Weapons Expert": [
+			"Weapons Master": [
 				[
 					"",
 					"",
@@ -3797,7 +3797,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Str",
-					"Generic_Magic_AttackSpeed",
+					"Generic_Magic_DamagePhysical",
 					"",
 					"",
 					"",
@@ -3821,7 +3821,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Will",
 					"Generic_Magic_Dex",
-					"Barbarian_Rare_002",
+					"Generic_Rare_066",
 					"",
 					"",
 					"Generic_Normal_Str",
@@ -3843,8 +3843,8 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Normal_Str",
-					"Generic_Magic_AttackSpeed",
-					"Generic_Magic_AttackSpeed",
+					"Generic_Magic_DamagePhysical",
+					"Generic_Magic_DamagePhysical",
 					"Generic_Magic_Dex",
 					"",
 					"",
@@ -4232,22 +4232,22 @@ let paragonData = {
 		"Node": {
 			"Barbarian_Legendary_002": {
 				"name": "Hemorrhage",
-				"description": "Enemies that have been affected by your Bleeding for {#} or more seconds take x{#}% increased Bleeding damage from you."
+				"description": "Enemies that have been affected by your Bleeding for {#} or more seconds take {#}% increased damage from you."
 			},
 			"Barbarian_Legendary_004": {
 				"name": "Blood Rage",
-				"description": "Killing a Bleeding target has {#}% chance to grant Berserking for {#} seconds."
+				"description": "Killing a Bleeding enemy has {#}% chance to grant Berserking for {#} seconds."
 			},
 			"Barbarian_Legendary_005": {
 				"name": "Natural Leader",
-				"description": "Increases the power of your Shout skills by {#}%."
+				"description": "Increases the power of your Shout Skills by {#}%."
 			},
 			"Barbarian_Legendary_009": {
 				"name": "Carnage",
-				"description": "While Berserking, critical strikes increase your attack speed by {#}%, up to {#}%, for {#} seconds."
+				"description": "While Berserking, Critical Strikes increase your Attack Speed by {#}%, up to {#}%, for {#} seconds."
 			},
 			"Barbarian_Legendary_011": {
-				"name": "War Bringer",
+				"name": "Warbinger",
 				"description": "For every {#} Fury you spend, gain {#}% of your Maximum Life ({#}) as Fortify."
 			},
 			"Barbarian_Legendary_014": {
@@ -4259,18 +4259,15 @@ let paragonData = {
 				"description": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#}4second:seconds; and grant you {#}% of your Maximum Life ({#}) as Fortify."
 			},
 			"Barbarian_Legendary_016": {
-				"name": "Precision Striker",
-				"description": "Damaging enemies with One-Handed Weapons increases your damage by x{#}% for {#} seconds, up to x{#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind."
+				"name": "Flawless Technique",
+				"description": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by {#}% for {#} seconds, up to {#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind."
 			},
 			"Barbarian_Legendary_017": {
-				"name": "Weapons Expert",
-				"description": "Swapping weapons reduces your active, non-Ultimate skill cooldowns by {#} seconds."
+				"name": "Weapons Master",
+				"description": "Swapping weapons grants you {#} Fury."
 			},
 			"Barbarian_Rare_001": {
 				"name": "Iron Strength"
-			},
-			"Barbarian_Rare_002": {
-				"name": "Onslaught"
 			},
 			"Barbarian_Rare_003": {
 				"name": "Berserker"
@@ -4333,7 +4330,7 @@ let paragonData = {
 				"name": "Enraged"
 			},
 			"StartNodeBarb": {
-				"name": "Paragon Starting Location"
+				"name": "Paragon Starting Node"
 			}
 		}
 	},
@@ -4726,7 +4723,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"",
 					"",
-					"Generic_Magic_DamageToVulnerable",
+					"Druid_Magic_DamageStorm",
 					"",
 					"",
 					"",
@@ -4748,7 +4745,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
-					"Generic_Magic_DamageToVulnerable",
+					"Druid_Magic_DamageStorm",
 					"Druid_Rare_003",
 					"Generic_Magic_Dex",
 					"",
@@ -4772,7 +4769,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Int",
 					"Generic_Magic_Dex",
-					"Generic_Magic_DamageToVulnerable",
+					"Druid_Magic_DamageStorm",
 					"",
 					"",
 					"",
@@ -4883,8 +4880,8 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
 					"",
-					"Druid_Magic_DamageStorm",
-					"Generic_Magic_DamageToVulnerable",
+					"Generic_Magic_CriticalDamage",
+					"Generic_Magic_DamageToCC",
 					"Generic_Normal_Str",
 					"Generic_Normal_Will",
 					"Generic_Normal_Will",
@@ -4905,9 +4902,9 @@ let paragonData = {
 					"Generic_Normal_Will",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
-					"Generic_Magic_DamageToVulnerable",
+					"Generic_Magic_DamageToCC",
 					"Druid_Rare_020",
-					"Druid_Magic_DamageStorm",
+					"Generic_Magic_CriticalDamage",
 					"",
 					"",
 					"Generic_Normal_Will",
@@ -4929,7 +4926,7 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"",
 					"",
-					"Druid_Magic_DamageStorm",
+					"Generic_Magic_CriticalDamage",
 					"",
 					"",
 					"Generic_Normal_Int",
@@ -5171,7 +5168,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Earthen Cruelty": [
+			"Earthen Devastation": [
 				[
 					"",
 					"",
@@ -5656,7 +5653,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Cornered": [
+			"Survival Instincts": [
 				[
 					"",
 					"",
@@ -5718,7 +5715,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
-					"Generic_Magic_DamageToLow",
+					"Generic_Magic_DamageWhileHealthy",
 					"Generic_Magic_Armor",
 					"",
 					"",
@@ -5741,8 +5738,8 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageToLow",
-					"Generic_Rare_023",
+					"Generic_Magic_DamageWhileHealthy",
+					"Generic_Rare_097",
 					"",
 					"",
 					"",
@@ -5764,7 +5761,7 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
 					"Generic_Normal_Str",
-					"Generic_Magic_DamageToLow",
+					"Generic_Magic_DamageWhileHealthy",
 					"Generic_Magic_Armor",
 					"",
 					"",
@@ -6312,7 +6309,7 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Magic_Dex",
-					"Generic_Magic_DamageWhileHealthy",
+					"Druid_Magic_DamageWolf",
 					"",
 					"Generic_Normal_Will",
 					"",
@@ -6335,7 +6332,7 @@ let paragonData = {
 					"Generic_Normal_Will",
 					"Generic_Magic_Dex",
 					"Generic_Rare_079",
-					"Generic_Magic_DamageWhileHealthy",
+					"Druid_Magic_DamageWolf",
 					"Generic_Normal_Will",
 					"Generic_Socket",
 					"Generic_Normal_Int",
@@ -6357,7 +6354,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Dex",
 					"",
-					"Generic_Magic_DamageWhileHealthy",
+					"Druid_Magic_DamageWolf",
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
@@ -6435,7 +6432,7 @@ let paragonData = {
 					"Generic_Normal_Str",
 					"Generic_Normal_Will",
 					"Generic_Normal_Will",
-					"Generic_Magic_Execute",
+					"Generic_Magic_AttackSpeed",
 					"Generic_Normal_Will",
 					"Generic_Normal_Dex",
 					"",
@@ -6458,8 +6455,8 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
 					"Generic_Normal_Will",
-					"Generic_Magic_Execute",
 					"Generic_Magic_AttackSpeed",
+					"Druid_Magic_Spirit",
 					"",
 					"",
 					""
@@ -6481,9 +6478,9 @@ let paragonData = {
 					"Generic_Normal_Str",
 					"",
 					"",
-					"Generic_Magic_Execute",
-					"Generic_Rare_030",
 					"Generic_Magic_AttackSpeed",
+					"Druid_Rare_024",
+					"Druid_Magic_Spirit",
 					"",
 					""
 				],
@@ -6516,8 +6513,8 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageToLow",
-					"Generic_Rare_015",
+					"Druid_Magic_DamageWolf",
+					"Druid_Rare_022",
 					"Generic_Magic_CriticalDamage",
 					"Generic_Normal_Dex",
 					"",
@@ -6540,8 +6537,8 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageToLow",
-					"Generic_Magic_DamageToLow",
+					"Druid_Magic_DamageWolf",
+					"Druid_Magic_DamageWolf",
 					"Generic_Normal_Dex",
 					"",
 					"",
@@ -7111,7 +7108,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Polymorphic": [
+			"Inner Beast": [
 				[
 					"",
 					"",
@@ -7596,7 +7593,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Roots of Nature": [
+			"Constricting Tendrils": [
 				[
 					"",
 					"",
@@ -7740,10 +7737,10 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_HPPercent",
-					"Generic_Magic_DRStandStill",
-					"Generic_Magic_HPPercent",
-					"Generic_Magic_DRStandStill",
+					"Generic_Magic_DamageReductionFromDot",
+					"Generic_Magic_ResistanceAll",
+					"Generic_Magic_DamageReductionFromDot",
+					"Generic_Magic_ResistanceAll",
 					"Generic_Normal_Int",
 					"Generic_Normal_Str",
 					"",
@@ -7764,8 +7761,8 @@ let paragonData = {
 					"",
 					"Generic_Normal_Will",
 					"Generic_Normal_Dex",
-					"Generic_Magic_DRStandStill",
-					"Generic_Rare_047",
+					"Generic_Magic_ResistanceAll",
+					"Generic_Rare_019",
 					"",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
@@ -7798,7 +7795,7 @@ let paragonData = {
 					"",
 					"Generic_Rare_048",
 					"Generic_Magic_HPPercent",
-					"Generic_Magic_DamageStandStill",
+					"Generic_Magic_DamageToCC",
 					"",
 					"",
 					"",
@@ -7819,8 +7816,8 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Magic_HPPercent",
-					"Generic_Magic_DamageStandStill",
-					"Generic_Magic_DamageStandStill",
+					"Generic_Magic_DamageToCC",
+					"Generic_Magic_DamageToCC",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
@@ -8081,7 +8078,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Spiritual Guidance": [
+			"Ancestral Guidance": [
 				[
 					"",
 					"",
@@ -8135,7 +8132,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Str",
 					"Generic_Normal_Will",
-					"Druid_Magic_SpiritGeneration",
+					"Druid_Magic_DamageCore",
 					"",
 					"",
 					"",
@@ -8181,8 +8178,8 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Normal_Will",
-					"Druid_Magic_SpiritGeneration",
-					"Druid_Magic_SpiritGeneration",
+					"Druid_Magic_DamageCore",
+					"Druid_Magic_DamageCore",
 					"Generic_Magic_Int",
 					"",
 					"",
@@ -8352,7 +8349,7 @@ let paragonData = {
 					"",
 					"",
 					"Druid_Rare_017",
-					"Druid_Magic_Spirit",
+					"Druid_Magic_SpiritOnKill",
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
@@ -8373,7 +8370,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
 					"Generic_Normal_Str",
-					"Druid_Magic_Spirit",
+					"Druid_Magic_SpiritOnKill",
 					"Druid_Magic_Spirit",
 					"Druid_Magic_Spirit",
 					"Generic_Normal_Int",
@@ -8570,41 +8567,38 @@ let paragonData = {
 		"Node": {
 			"Druid_Legendary_003": {
 				"name": "Thunderstruck",
-				"description": "Storm skills deal x{#}% increased Critical Strike damage against Vulnerable or Immobilized targets."
+				"description": "Storm Skills deal {#}% increased Critical Strike Damage against Vulnerable or Immobilized enemies."
 			},
 			"Druid_Legendary_006": {
-				"name": "Earthen Cruelty",
-				"description": "Your Earth skills deal x{#}% increased damage to targets afflicted by movement impairing effects."
+				"name": "Earthen Devastation",
+				"description": "Your Earth Skills deal {#}% increased damage to enemies afflicted by Crowd Control."
 			},
 			"Druid_Legendary_007": {
-				"name": "Cornered",
-				"description": "While in Werebear form, you deal x{#}% increased damage, up to x{#}%, for every {#}% difference in current Life % between you and the target."
+				"name": "Survival Instincts",
+				"description": "While in Werebear form, you deal {#}% increased damage, up to {#}%, for every {#}% difference in current Life percent between you and the enemy."
 			},
 			"Druid_Legendary_010": {
 				"name": "Lust for Carnage",
-				"description": "Critical Strikes with Werewolf skills restore {#} Spirit."
+				"description": "Critical Strikes with Werewolf Skills restore {#} Spirit."
 			},
 			"Druid_Legendary_012": {
 				"name": "Heightened Malice",
-				"description": "While there are {#} or more poisoned enemies Nearby, you deal x{#}% increased damage."
+				"description": "While there are {#} or more Poisoned enemies Nearby, you deal {#}% increased damage."
 			},
 			"Druid_Legendary_013": {
-				"name": "Polymorphic",
+				"name": "Inner Beast",
 				"description": "After shapeshifting, your Spirit costs are reduced by {#}% for {#} seconds, up to {#}%."
 			},
 			"Druid_Legendary_017": {
-				"name": "Roots of Nature",
-				"description": "Lucky Hit: Nature Magic skills have up to a {#}% chance to entangle the target with vines, Immobilizing them for {#} seconds and poisoning them for {#}% of the base damage dealt over {#} seconds."
+				"name": "Constricting Tendrils",
+				"description": "Lucky Hit: Nature Magic Skills have up to a {#}% chance to entangle the enemy with vines, Immobilizing them for {#} seconds and Poisoning them for {#}% of the Base damage dealt over {#} seconds."
 			},
 			"Druid_Legendary_018": {
-				"name": "Spiritual Guidance",
-				"description": "After spending {#} Spirit, you deal x{#}% increased damage for {#} seconds."
-			},
-			"Druid_Magic_CriticalDamageEarth": {
-				"name": "Bone Skill Critical Damage"
+				"name": "Ancestral Guidance",
+				"description": "After spending {#} Spirit, you deal {#}% increased damage for {#} seconds."
 			},
 			"Druid_Rare_003": {
-				"name": "Deluge"
+				"name": "Stormcaller"
 			},
 			"Druid_Rare_004": {
 				"name": "Nature-born"
@@ -8646,7 +8640,13 @@ let paragonData = {
 				"name": "Shapeshifter"
 			},
 			"Druid_Rare_020": {
-				"name": "Stormcaller"
+				"name": "Deluge"
+			},
+			"Druid_Rare_022": {
+				"name": "Ferocity"
+			},
+			"Druid_Rare_024": {
+				"name": "Wild's Call"
 			},
 			"Druid_Rare_026": {
 				"name": "Ursine"
@@ -8658,7 +8658,7 @@ let paragonData = {
 				"name": "Harmony"
 			},
 			"StartNodeDruid": {
-				"name": "Paragon Starting Location"
+				"name": "Paragon Starting Node"
 			}
 		}
 	},
@@ -8696,9 +8696,6 @@ let paragonData = {
 			},
 			"Generic_Rare_002": {
 				"name": "Nimble"
-			},
-			"Generic_Rare_004": {
-				"name": "Aegis"
 			},
 			"Generic_Rare_006": {
 				"name": "Fleeting"
@@ -8773,7 +8770,7 @@ let paragonData = {
 				"name": "Lightning Resilience"
 			},
 			"Generic_Rare_035": {
-				"name": "Re-energizer"
+				"name": "Ruinous"
 			},
 			"Generic_Rare_036": {
 				"name": "Reservoir"
@@ -8793,11 +8790,8 @@ let paragonData = {
 			"Generic_Rare_046": {
 				"name": "Shadow Resilience"
 			},
-			"Generic_Rare_047": {
-				"name": "Steadfast"
-			},
 			"Generic_Rare_048": {
-				"name": "Stability"
+				"name": "Superiority"
 			},
 			"Generic_Rare_049": {
 				"name": "Exploit"
@@ -8810,9 +8804,6 @@ let paragonData = {
 			},
 			"Generic_Rare_054": {
 				"name": "Erudite"
-			},
-			"Generic_Rare_056": {
-				"name": "Shell"
 			},
 			"Generic_Rare_057": {
 				"name": "Craving"
@@ -8850,6 +8841,9 @@ let paragonData = {
 			"Generic_Rare_070": {
 				"name": "Demolish"
 			},
+			"Generic_Rare_071": {
+				"name": "Powerhouse"
+			},
 			"Generic_Rare_072": {
 				"name": "Brutality"
 			},
@@ -8872,7 +8866,7 @@ let paragonData = {
 				"name": "Regenerative"
 			},
 			"Generic_Rare_079": {
-				"name": "Peak Condition"
+				"name": "Feral"
 			},
 			"Generic_Rare_080": {
 				"name": "Overturn"
@@ -8915,6 +8909,18 @@ let paragonData = {
 			},
 			"Generic_Rare_093": {
 				"name": "Malediction"
+			},
+			"Generic_Rare_094": {
+				"name": "Advantage"
+			},
+			"Generic_Rare_095": {
+				"name": "Weakness"
+			},
+			"Generic_Rare_096": {
+				"name": "Artifice"
+			},
+			"Generic_Rare_097": {
+				"name": "Zealous"
 			},
 			"Generic_Socket": {
 				"name": "Glyph Socket"
@@ -9755,7 +9761,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Towering Monstrosity": [
+			"Hulking Monstrosity": [
 				[
 					"",
 					"",
@@ -10240,7 +10246,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Cannibalize": [
+			"Flesh-eater": [
 				[
 					"",
 					"",
@@ -10725,7 +10731,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Flesh Field": [
+			"Scent of Death": [
 				[
 					"",
 					"",
@@ -11019,7 +11025,7 @@ let paragonData = {
 					"Generic_Normal_Str",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
-					"Generic_Magic_DamageToLow",
+					"Generic_Magic_CriticalDamage",
 					"Generic_Normal_Int",
 					"Generic_Normal_Dex",
 					"",
@@ -11042,7 +11048,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
-					"Generic_Magic_DamageToLow",
+					"Generic_Magic_CriticalDamage",
 					"Generic_Magic_PotionHealing",
 					"",
 					"",
@@ -11065,7 +11071,7 @@ let paragonData = {
 					"Generic_Normal_Str",
 					"",
 					"",
-					"Generic_Magic_DamageToLow",
+					"Generic_Magic_CriticalDamage",
 					"Generic_Rare_087",
 					"Generic_Magic_PotionHealing",
 					"",
@@ -11318,7 +11324,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Str",
-					"Generic_Magic_Armor",
+					"Necromancer_Magic_CriticalDamageBone",
 					"Generic_Magic_PotionHealing",
 					"Generic_Normal_Will",
 					"Generic_Normal_Int",
@@ -11342,8 +11348,8 @@ let paragonData = {
 					"",
 					"Generic_Normal_Dex",
 					"Generic_Magic_PotionHealing",
-					"Generic_Rare_067",
-					"Generic_Magic_Armor",
+					"Necromancer_Rare_036",
+					"Necromancer_Magic_CriticalDamageBone",
 					"",
 					"",
 					"",
@@ -11366,7 +11372,7 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
 					"",
-					"Generic_Magic_Armor",
+					"Necromancer_Magic_CriticalDamageBone",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
 					"",
@@ -11501,8 +11507,8 @@ let paragonData = {
 					"",
 					"",
 					"",
+					"Generic_Magic_EssenceOnKill",
 					"Generic_Magic_Essence",
-					"Generic_Magic_EssenceRegen",
 					"Generic_Normal_Int",
 					"",
 					"",
@@ -11523,8 +11529,8 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Normal_Int",
-					"Generic_Magic_EssenceRegen",
-					"Generic_Magic_EssenceRegen",
+					"Generic_Magic_Essence",
+					"Generic_Magic_Essence",
 					"Generic_Rare_052",
 					"",
 					"",
@@ -11547,7 +11553,7 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
 					"Generic_Normal_Dex",
-					"Generic_Magic_Essence",
+					"Generic_Magic_EssenceOnKill",
 					"",
 					"",
 					"",
@@ -11695,7 +11701,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Empowering Blood": [
+			"Blood Begets Blood": [
 				[
 					"",
 					"",
@@ -11757,7 +11763,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
-					"Generic_Magic_DamageWhileHealthy",
+					"Generic_Magic_OverpowerDamage",
 					"Generic_Magic_Damage",
 					"",
 					"",
@@ -11780,7 +11786,7 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageWhileHealthy",
+					"Generic_Magic_OverpowerDamage",
 					"Generic_Rare_028",
 					"",
 					"",
@@ -11803,7 +11809,7 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Normal_Str",
-					"Generic_Magic_DamageWhileHealthy",
+					"Generic_Magic_OverpowerDamage",
 					"Generic_Magic_Damage",
 					"Generic_Normal_Will",
 					"",
@@ -11957,7 +11963,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
 					"",
-					"Necromancer_Magic_BloodOrbDamage",
+					"Generic_Magic_OverpowerDamage",
 					"Generic_Magic_Dex",
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
@@ -11979,7 +11985,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Will",
 					"Generic_Normal_Int",
-					"Necromancer_Magic_BloodOrbDamage",
+					"Generic_Magic_OverpowerDamage",
 					"Necromancer_Rare_034",
 					"",
 					"Generic_Normal_Str",
@@ -12004,7 +12010,7 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Magic_Dex",
-					"Necromancer_Magic_BloodOrbDamage",
+					"Generic_Magic_OverpowerDamage",
 					"Generic_Normal_Will",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
@@ -12180,7 +12186,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Bloodletter": [
+			"Bloodbath": [
 				[
 					"",
 					"",
@@ -12324,10 +12330,10 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamagePhysical",
-					"Necromancer_Magic_DamageBlood",
-					"Generic_Magic_DamagePhysical",
-					"Necromancer_Magic_DamageBlood",
+					"Generic_Magic_OverpowerDamage",
+					"Generic_Magic_DamageWhileHealthy",
+					"Generic_Magic_OverpowerDamage",
+					"Generic_Magic_DamageWhileHealthy",
 					"Generic_Normal_Will",
 					"Generic_Normal_Str",
 					"",
@@ -12348,8 +12354,8 @@ let paragonData = {
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Dex",
-					"Necromancer_Magic_DamageBlood",
-					"Necromancer_Rare_004",
+					"Generic_Magic_DamageWhileHealthy",
+					"Generic_Rare_071",
 					"",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
@@ -12495,7 +12501,7 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Necromancer_Magic_DamageBlood",
+					"Generic_Magic_DamageWhileFortified",
 					"Generic_Normal_Int",
 					"",
 					"",
@@ -12506,7 +12512,7 @@ let paragonData = {
 				[
 					"",
 					"",
-					"Necromancer_Magic_DamageBlood",
+					"Generic_Magic_DamageWhileFortified",
 					"",
 					"Generic_Normal_Str",
 					"Generic_Normal_Int",
@@ -12518,7 +12524,7 @@ let paragonData = {
 					"",
 					"",
 					"Necromancer_Rare_002",
-					"Necromancer_Magic_BloodOrbHealing",
+					"Generic_Magic_HPPercent",
 					"",
 					"",
 					"",
@@ -12530,7 +12536,7 @@ let paragonData = {
 					"",
 					"Generic_Magic_Dex",
 					"Necromancer_Rare_006",
-					"Necromancer_Magic_DamageBlood",
+					"Generic_Magic_DamageWhileFortified",
 					"Generic_Normal_Dex",
 					"Generic_Socket",
 					"Generic_Normal_Will",
@@ -12540,8 +12546,8 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Necromancer_Magic_DamageBlood",
-					"Necromancer_Magic_DamageBlood",
+					"Generic_Magic_DamageWhileFortified",
+					"Generic_Magic_DamageWhileFortified",
 					"",
 					"",
 					"",
@@ -12553,7 +12559,7 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Magic_Dex",
-					"Necromancer_Magic_DamageBlood",
+					"Generic_Magic_DamageWhileFortified",
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Dex",
@@ -12564,7 +12570,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
-					"Necromancer_Magic_BloodOrbHealing",
+					"Generic_Magic_HPPercent",
 					"",
 					"",
 					"",
@@ -12719,7 +12725,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Str",
 					"Generic_Normal_Int",
-					"Generic_Magic_DamageToShadowDoTed",
+					"Generic_Magic_DamageShadow",
 					"",
 					"",
 					"",
@@ -12765,8 +12771,8 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Normal_Int",
-					"Generic_Magic_DamageToShadowDoTed",
-					"Generic_Magic_DamageToShadowDoTed",
+					"Generic_Magic_DamageShadow",
+					"Generic_Magic_DamageShadow",
 					"Generic_Magic_Will",
 					"",
 					"",
@@ -13154,53 +13160,50 @@ let paragonData = {
 		"Node": {
 			"Necromancer_Legendary_001": {
 				"name": "Cult Leader",
-				"description": "You and your Minions deal x{#}% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem."
+				"description": "Your Minions deal {#} increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem."
 			},
 			"Necromancer_Legendary_005": {
-				"name": "Towering Monstrosity",
-				"description": "Your Golem has {#}% increased maximum Life and deals x{#}% increased damage."
+				"name": "Hulking Monstrosity",
+				"description": "Your Golem has {#} increased Maximum Life and deals {#} increased damage."
 			},
 			"Necromancer_Legendary_007": {
-				"name": "Flesh Field",
-				"description": "With at least {#} corpses Nearby, you take {#}% less damage."
+				"name": "Scent of Death",
+				"description": "With at least {#} Corpses Nearby, you gain {#}% Damage Reduction. With no Corpses Nearby, you deal {#}% increased damage."
 			},
 			"Necromancer_Legendary_008": {
-				"name": "Cannibalize",
-				"description": "Consuming a corpse grants you x{#}% increased damage, up to x{#}%, for {#} seconds."
+				"name": "Flesh-eater",
+				"description": "Consuming {#} Corpses grants {#} increased damage for {#} seconds."
 			},
 			"Necromancer_Legendary_010": {
-				"name": "Bloodletter",
-				"description": "Blood skills deal x{#}% increased damage but cost an additional {#}% of the skill's Essence cost or Cooldown as a percent of  your maximum Life."
+				"name": "Bloodbath",
+				"description": "Attacks that are guaranteed to Overpower deal {#} increased Overpower damage."
 			},
 			"Necromancer_Legendary_011": {
-				"name": "Empowering Blood",
-				"description": "Blood Orbs grant x{#}% increased damage, up to x{#}%, for {#} seconds."
+				"name": "Blood Begets Blood",
+				"description": "Blood Orbs grant {#} increased damage, up to {#}, for {#} seconds."
 			},
 			"Necromancer_Legendary_016": {
 				"name": "Wither",
-				"description": "You and your Minions deal x{#}% increased damage to targets affected by Shadow damage over time effects."
+				"description": "Your Shadow damage over time effects have a {#} chance to deal {#} bonus damage each time they deal damage. This chance is increased by {#} and bonus damage is increased by {#} for each {#} Willpower you have."
 			},
 			"Necromancer_Legendary_017": {
 				"name": "Bone Graft",
-				"description": "Hitting enemies with Bone skills increases your damage by x{#}% and your maximum Essence by {#} for {#} seconds, stacks up to x{#}% increased damage and {#} maximum Essence."
+				"description": "Hitting enemies with Bone Skills increases your damage by {#} and your Maximum Essence by {#} for {#} seconds, stacks up to {#} increased damage and {#} Maximum Essence."
 			},
 			"Necromancer_Rare_001": {
 				"name": "Shaper of Bone"
 			},
 			"Necromancer_Rare_002": {
-				"name": "Blood Zealot"
+				"name": "Thick Hide"
 			},
 			"Necromancer_Rare_003": {
 				"name": "Blooddrinker"
-			},
-			"Necromancer_Rare_004": {
-				"name": "Crimson Power"
 			},
 			"Necromancer_Rare_005": {
 				"name": "Calcified"
 			},
 			"Necromancer_Rare_006": {
-				"name": "Bloodcast"
+				"name": "Hardened"
 			},
 			"Necromancer_Rare_009": {
 				"name": "Invigorated"
@@ -13248,13 +13251,16 @@ let paragonData = {
 				"name": "Flesh-horror"
 			},
 			"Necromancer_Rare_034": {
-				"name": "Blood-infused"
+				"name": "Blood-Empowered"
 			},
 			"Necromancer_Rare_035": {
 				"name": "Lingering Shadows"
 			},
+			"Necromancer_Rare_036": {
+				"name": "Entomb"
+			},
 			"StartNodeNecro": {
-				"name": "Paragon Starting Location"
+				"name": "Paragon Starting Node"
 			}
 		}
 	},
@@ -13607,7 +13613,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Overflowing": [
+			"Eldritch Bounty": [
 				[
 					"",
 					"",
@@ -14092,7 +14098,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Tricks of Trade": [
+			"Tricks of the Trade": [
 				[
 					"",
 					"",
@@ -14577,7 +14583,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Control Master": [
+			"Cheap Shot": [
 				[
 					"",
 					"",
@@ -15547,7 +15553,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Inner Eye": [
+			"Leyrana's Instinct": [
 				[
 					"",
 					"",
@@ -16032,7 +16038,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Ultimatum": [
+			"No Witnesses": [
 				[
 					"",
 					"",
@@ -16517,7 +16523,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Expose": [
+			"Exploit Weakness": [
 				[
 					"",
 					"",
@@ -16866,7 +16872,7 @@ let paragonData = {
 				[
 					"",
 					"Generic_Magic_Str",
-					"Generic_Rare_070",
+					"Generic_Rare_096",
 					"Generic_Magic_DamageToVulnerable",
 					"Generic_Normal_Int",
 					"Generic_Socket",
@@ -17002,7 +17008,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Completionist": [
+			"Cunning Stratagem": [
 				[
 					"",
 					"",
@@ -17490,39 +17496,36 @@ let paragonData = {
 		},
 		"Node": {
 			"Rogue_Legendary_002": {
-				"name": "Overflowing",
-				"description": "Your Imbues apply to {#} additional attack."
+				"name": "Eldritch Bounty",
+				"description": "When you attack with an Imbued Skill you gain {#}% Resistance and {#}% increased damage for that Imbuement's element for {#} seconds."
 			},
 			"Rogue_Legendary_006": {
-				"name": "Tricks of Trade",
-				"description": "Your Ranged skills grant your next Melee skill x{#}% increased damage.\n\nYour Melee skills grant your next Ranged skill x{#}% increased damage."
+				"name": "Tricks of the Trade",
+				"description": "Your Marksman Skills grant your next Cutthroat Skill {#} increased damage. Your Cutthroat Skills grant your next Marksman Skill {#} increased damage."
 			},
 			"Rogue_Legendary_007": {
-				"name": "Control Master",
-				"description": "You deal x{#}% increased damage for each Nearby target that is Crowd Controlled, up to x{#}%."
+				"name": "Cheap Shot",
+				"description": "You deal {#} increased damage for each Nearby enemy that is Crowd Controlled, up to {#}."
 			},
 			"Rogue_Legendary_008": {
 				"name": "Deadly Ambush",
-				"description": "You deal x{#}% increased Critical Strike Damage to targets affected by your Trap skills."
+				"description": "You deal {#} increased Critical Strike Damage to enemies affected by your Trap Skills."
 			},
 			"Rogue_Legendary_009": {
-				"name": "Inner Eye",
-				"description": "When Inner Sight's gauge becomes full, you gain +{#}% Dodge Chance for {#} seconds."
+				"name": "Leyrana's Instinct",
+				"description": "When Inner Sight's gauge becomes full, you gain {#} Dodge Chance for {#} seconds."
 			},
 			"Rogue_Legendary_010": {
-				"name": "Expose",
-				"description": "Whenever you deal damage to a Vulnerable enemy, they take x{#}% increased damage from you for {#} seconds, up to x{#}%."
+				"name": "Exploit Weakness",
+				"description": "Whenever you deal damage to a Vulnerable enemy, they take {#} increased damage from you for {#} seconds, up to {#}."
 			},
 			"Rogue_Legendary_011": {
-				"name": "Ultimatum",
-				"description": "Your Ultimate Skills deal x{#}% increased damage and grant you x{#}% increased damage for {#} seconds when cast."
+				"name": "No Witnesses",
+				"description": "Your Ultimate Skills deal {#} increased damage and grant you {#} increased damage for {#} seconds when cast."
 			},
 			"Rogue_Legendary_012": {
-				"name": "Completionist",
-				"description": "Skills that consume {#} Combo Points deal x{#}% increased damage."
-			},
-			"Rogue_Magic_TrapCooldown": {
-				"name": "Trap Cooldown"
+				"name": "Cunning Stratagem",
+				"description": "Your non-damage Combo Point bonuses are increased by {#}% when you spend {#} Combo Points."
 			},
 			"Rogue_Rare_005": {
 				"name": "Finisher"
@@ -17561,7 +17564,7 @@ let paragonData = {
 				"name": "Trapper"
 			},
 			"StartNodeRogue": {
-				"name": "Paragon Starting Location"
+				"name": "Paragon Starting Node"
 			}
 		}
 	},
@@ -18399,7 +18402,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Bitter Frost": [
+			"Frigid Fate": [
 				[
 					"",
 					"",
@@ -18499,7 +18502,7 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageCold",
+					"Generic_Magic_ResistanceCold",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Dex",
 					"",
@@ -18520,9 +18523,9 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageCold",
-					"Sorcerer_Rare_002",
-					"Generic_Magic_Chill",
+					"Generic_Magic_ResistanceCold",
+					"Generic_Rare_094",
+					"Generic_Magic_LuckyHitBonus",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
 					"",
@@ -18543,8 +18546,8 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageCold",
-					"Generic_Magic_Chill",
+					"Generic_Magic_ResistanceCold",
+					"Generic_Magic_LuckyHitBonus",
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
@@ -18597,7 +18600,7 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"",
 					"",
-					"Generic_Magic_Chill",
+					"Generic_Magic_ResistanceCold",
 					"",
 					"",
 					"",
@@ -18643,8 +18646,8 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_Chill",
-					"Generic_Magic_Chill",
+					"Generic_Magic_ResistanceCold",
+					"Generic_Magic_ResistanceCold",
 					"Generic_Normal_Will",
 					"Generic_Normal_Will",
 					"Generic_Normal_Str",
@@ -18685,9 +18688,9 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
-					"Generic_Magic_DamageToChill",
-					"Sorcerer_Rare_026",
-					"Generic_Magic_DamageToChill",
+					"Generic_Magic_DamageToVulnerable",
+					"Generic_Rare_095",
+					"Generic_Magic_DamageToVulnerable",
 					"Generic_Normal_Dex",
 					"Generic_Socket",
 					"Generic_Normal_Str",
@@ -18703,14 +18706,14 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageReductionFromChilledTarget",
-					"Generic_Magic_DamageReductionFromChilledTarget",
+					"Generic_Magic_DamageReductionFromVulnerable",
+					"Generic_Magic_DamageReductionFromVulnerable",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
 					"Generic_Normal_Int",
 					"",
 					"Generic_Magic_Will",
-					"Generic_Magic_DamageToChill",
+					"Generic_Magic_DamageToVulnerable",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
 					"",
@@ -18726,7 +18729,7 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Magic_ResistanceCold",
-					"Sorcerer_Rare_017",
+					"Sorcerer_Rare_035",
 					"Generic_Magic_ResistanceCold",
 					"",
 					"",
@@ -18749,7 +18752,7 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageReductionFromChilledTarget",
+					"Generic_Magic_DamageReductionFromVulnerable",
 					"",
 					"",
 					"",
@@ -18786,7 +18789,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Will",
 					"Generic_Magic_DamageToVulnerable",
-					"Generic_Magic_DamageToChill",
+					"Generic_Magic_DamageReductionFromVulnerable",
 					"",
 					"",
 					""
@@ -18808,7 +18811,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Will",
 					"Generic_Magic_DamageToVulnerable",
-					"Generic_Magic_DamageToChill",
+					"Generic_Magic_DamageReductionFromVulnerable",
 					"Sorcerer_Rare_015",
 					"",
 					"",
@@ -18884,7 +18887,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Surging Force": [
+			"Static Surge": [
 				[
 					"",
 					"",
@@ -19030,7 +19033,7 @@ let paragonData = {
 					"",
 					"Sorcerer_Rare_022",
 					"Generic_Magic_DamageToElite",
-					"Generic_Magic_DamageLightning",
+					"Generic_Magic_DamageToStun",
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
 					"Generic_Normal_Str",
@@ -19051,14 +19054,14 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageLightning",
+					"Generic_Magic_DamageToStun",
 					"Generic_Magic_DamageToElite",
 					"Generic_Normal_Will",
 					"Generic_Normal_Int",
 					"Generic_Normal_Dex",
 					"",
 					"",
-					"Generic_Magic_DamageLightning",
+					"Generic_Magic_DamageToStun",
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
 					"Generic_Normal_Will",
@@ -19074,7 +19077,7 @@ let paragonData = {
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
-					"Generic_Magic_DamageLightning",
+					"Generic_Magic_DamageToStun",
 					"",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
@@ -19103,8 +19106,8 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"",
 					"Generic_Magic_Dex",
-					"Generic_Magic_DamageLightning",
-					"Generic_Magic_DamageLightning",
+					"Generic_Magic_DamageToStun",
+					"Generic_Magic_DamageToStun",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
@@ -19268,8 +19271,8 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
-					"Generic_Magic_DamageLightning",
-					"Generic_Magic_CritDamageLightning",
+					"Generic_Magic_DamageToStun",
+					"Generic_Magic_Mana",
 					"",
 					"",
 					"",
@@ -19291,7 +19294,7 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_DamageLightning",
+					"Generic_Magic_DamageToStun",
 					"Sorcerer_Rare_010",
 					"",
 					"",
@@ -19314,8 +19317,8 @@ let paragonData = {
 					"",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Str",
-					"Generic_Magic_DamageLightning",
-					"Generic_Magic_CritDamageLightning",
+					"Generic_Magic_DamageToStun",
+					"Generic_Magic_Mana",
 					"",
 					"",
 					"",
@@ -19369,7 +19372,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Master of Elements": [
+			"Elemental Summoner": [
 				[
 					"",
 					"",
@@ -19540,7 +19543,7 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Magic_Dex",
-					"Generic_Magic_CriticalDamageElemental",
+					"Generic_Magic_DamageConjuration",
 					"",
 					"Generic_Normal_Int",
 					"",
@@ -19562,8 +19565,8 @@ let paragonData = {
 					"",
 					"Generic_Normal_Int",
 					"Generic_Magic_Dex",
-					"Sorcerer_Rare_018",
-					"Generic_Magic_CriticalDamageElemental",
+					"Sorcerer_Rare_029",
+					"Generic_Magic_DamageConjuration",
 					"Generic_Normal_Int",
 					"Generic_Socket",
 					"Generic_Normal_Will",
@@ -19585,7 +19588,7 @@ let paragonData = {
 					"Generic_Normal_Dex",
 					"Generic_Normal_Dex",
 					"",
-					"Generic_Magic_CriticalDamageElemental",
+					"Generic_Magic_DamageConjuration",
 					"",
 					"Generic_Normal_Will",
 					"Generic_Normal_Will",
@@ -19722,7 +19725,7 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_Damage",
+					"Generic_Magic_DamageConjuration",
 					"",
 					"Generic_Normal_Int",
 					"",
@@ -19745,8 +19748,8 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Magic_AttackSpeed",
-					"Generic_Rare_002",
-					"Generic_Magic_Damage",
+					"Sorcerer_Rare_036",
+					"Generic_Magic_DamageConjuration",
 					"Generic_Normal_Dex",
 					"",
 					"",
@@ -20339,7 +20342,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Harsh Winter": [
+			"Icefall": [
 				[
 					"",
 					"",
@@ -20824,7 +20827,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Crackling Power": [
+			"Ceaseless Conduit": [
 				[
 					"",
 					"",
@@ -21309,7 +21312,7 @@ let paragonData = {
 					""
 				]
 			],
-			"Shaper of Wills": [
+			"Enchantment Master": [
 				[
 					"",
 					"",
@@ -21451,9 +21454,9 @@ let paragonData = {
 				[
 					"",
 					"Generic_Normal_Str",
-					"Generic_Magic_DamageReductionWithBarrier",
+					"Generic_Magic_ResistanceAll",
 					"Generic_Magic_Will",
-					"Generic_Magic_DamageReductionWithBarrier",
+					"Generic_Magic_ResistanceAll",
 					"Generic_Normal_Int",
 					"",
 					"Generic_Normal_Int",
@@ -21461,7 +21464,7 @@ let paragonData = {
 					"Generic_Normal_Str",
 					"",
 					"",
-					"Generic_Magic_Mana",
+					"Generic_Magic_DamageElemental",
 					"",
 					"",
 					"",
@@ -21475,15 +21478,15 @@ let paragonData = {
 					"",
 					"Generic_Normal_Will",
 					"",
-					"Generic_Rare_056",
-					"Generic_Magic_DamageReductionWithBarrier",
+					"Generic_Rare_054",
+					"Generic_Magic_ResistanceAll",
 					"Generic_Normal_Will",
 					"Generic_Normal_Will",
 					"",
 					"",
 					"Generic_Normal_Int",
 					"",
-					"Generic_Rare_036",
+					"Generic_Rare_029",
 					"Generic_Magic_HPPercent",
 					"",
 					"",
@@ -21506,8 +21509,8 @@ let paragonData = {
 					"",
 					"Generic_Normal_Int",
 					"",
-					"Generic_Magic_Mana",
-					"Generic_Magic_Mana",
+					"Generic_Magic_DamageElemental",
+					"Generic_Magic_DamageElemental",
 					"Generic_Magic_HPPercent",
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
@@ -21572,7 +21575,7 @@ let paragonData = {
 					"Generic_Normal_Will",
 					"",
 					"Generic_Rare_035",
-					"Generic_Magic_ManaRegen",
+					"Generic_Magic_DamageElemental",
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
 					"",
@@ -21593,9 +21596,9 @@ let paragonData = {
 					"",
 					"",
 					"Generic_Normal_Int",
-					"Generic_Magic_ManaRegen",
-					"Generic_Magic_Mana",
-					"Generic_Magic_ManaRegen",
+					"Generic_Magic_DamageElemental",
+					"Generic_Magic_DamageToElite",
+					"Generic_Magic_DamageElemental",
 					"",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Dex",
@@ -21618,7 +21621,7 @@ let paragonData = {
 					"",
 					"",
 					"",
-					"Generic_Magic_Mana",
+					"Generic_Magic_DamageToElite",
 					"",
 					"",
 					"",
@@ -21645,7 +21648,7 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"",
 					"",
-					"Generic_Magic_Armor",
+					"Generic_Magic_HPRegen",
 					"",
 					"Generic_Normal_Will",
 					"Generic_Normal_Will",
@@ -21667,8 +21670,8 @@ let paragonData = {
 					"Generic_Normal_Int",
 					"Generic_Normal_Int",
 					"",
-					"Generic_Rare_004",
-					"Generic_Magic_BarrierPotency",
+					"Generic_Rare_033",
+					"Generic_Magic_PotionHealing",
 					"Generic_Normal_Will",
 					"Generic_Normal_Int",
 					"",
@@ -21689,9 +21692,9 @@ let paragonData = {
 					"",
 					"Generic_Normal_Dex",
 					"Generic_Normal_Str",
-					"Generic_Magic_BarrierPotency",
-					"Generic_Magic_Armor",
-					"Generic_Magic_BarrierPotency",
+					"Generic_Magic_PotionHealing",
+					"Generic_Magic_HPRegen",
+					"Generic_Magic_PotionHealing",
 					"",
 					"Generic_Normal_Int",
 					"Generic_Normal_Will",
@@ -21798,35 +21801,35 @@ let paragonData = {
 		"Node": {
 			"Sorcerer_Legendary_001": {
 				"name": "Burning Instinct",
-				"description": "You deal x{#}% increased damage while {#} or more burning enemies are Nearby."
+				"description": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every {#} Intelligence you have. (Current Bonus: {#}%)"
 			},
 			"Sorcerer_Legendary_002": {
 				"name": "Searing Heat",
-				"description": "Direct damage from Pyromancy skills burns the target for an additional {#}% of its base damage over {#} seconds."
+				"description": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by {#} for {#} seconds, up to {#}. Additional stacks do not refresh this timer."
 			},
 			"Sorcerer_Legendary_005": {
-				"name": "Bitter Frost",
-				"description": "You deal x{#}% increased damage to Chilled and Frozen targets."
+				"name": "Frigid Fate",
+				"description": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by {#} for {#} seconds, up to {#}."
 			},
 			"Sorcerer_Legendary_006": {
-				"name": "Harsh Winter",
-				"description": "Enemies become Chilled for {#}% after they unfreeze from your Freeze effects. You take {#}% less damage from Chilled targets."
+				"name": "Icefall",
+				"description": "Killing a Frozen enemy grants you {#}% of your Maximum Life as a Barrier ({#}) for {#} seconds."
 			},
 			"Sorcerer_Legendary_007": {
-				"name": "Surging Force",
-				"description": "Critical Strikes from Shock skills grant you x{#}% increased Critical Strike Damage for 5 seconds. This effect stacks up to x{#}%."
+				"name": "Static Surge",
+				"description": "Stunning Close enemies restores {#} Mana."
 			},
 			"Sorcerer_Legendary_008": {
-				"name": "Crackling Power",
-				"description": "Dealing damage with Crackling Energy has a {#}% chance to not consume a charge."
+				"name": "Ceaseless Conduit",
+				"description": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by {#}% per {#} total Intelligence you have. (Current Bonus: {#}%)"
 			},
 			"Sorcerer_Legendary_011": {
-				"name": "Master of Elements",
-				"description": "Lucky Hit: Core skills have up to a {#}% chance to make your next Mastery skill deal x{#}% increased damage."
+				"name": "Elemental Summoner",
+				"description": "Your Conjuration Skills have a {#}% reduced Cooldown or Mana cost per Conjuration Skill you have equipped."
 			},
 			"Sorcerer_Legendary_015": {
-				"name": "Shaper of Wills",
-				"description": "After spending {#} Mana, you gain {#}% of your Maximum Life ({#}) as Barrier for {#} seconds."
+				"name": "Enchantment Master",
+				"description": "Your Enchantments are {#}% stronger."
 			},
 			"Sorcerer_Rare_002": {
 				"name": "Cryomancy"
@@ -21835,7 +21838,7 @@ let paragonData = {
 				"name": "Polar Rime"
 			},
 			"Sorcerer_Rare_006": {
-				"name": "Boreal"
+				"name": "Chilling"
 			},
 			"Sorcerer_Rare_007": {
 				"name": "Pyromancy"
@@ -21847,13 +21850,13 @@ let paragonData = {
 				"name": "Flame-touched"
 			},
 			"Sorcerer_Rare_010": {
-				"name": "Electromancy"
+				"name": "Paralyzing"
 			},
 			"Sorcerer_Rare_011": {
 				"name": "Conduit"
 			},
 			"Sorcerer_Rare_012": {
-				"name": "Spark-touched"
+				"name": "Incapacitate"
 			},
 			"Sorcerer_Rare_013": {
 				"name": "Keeper of Flames"
@@ -21862,16 +21865,13 @@ let paragonData = {
 				"name": "Electro"
 			},
 			"Sorcerer_Rare_015": {
-				"name": "Icebreaker"
+				"name": "Oppressive"
 			},
 			"Sorcerer_Rare_016": {
 				"name": "Smoldering Embers"
 			},
 			"Sorcerer_Rare_017": {
 				"name": "Keeper of Winter"
-			},
-			"Sorcerer_Rare_018": {
-				"name": "Elemental Power"
 			},
 			"Sorcerer_Rare_019": {
 				"name": "Elemental Balance"
@@ -21880,7 +21880,7 @@ let paragonData = {
 				"name": "Keeper of Elements"
 			},
 			"Sorcerer_Rare_022": {
-				"name": "Overpowering Current"
+				"name": "Overwhelming"
 			},
 			"Sorcerer_Rare_023": {
 				"name": "Ashes"
@@ -21900,11 +21900,20 @@ let paragonData = {
 			"Sorcerer_Rare_028": {
 				"name": "Frigid"
 			},
+			"Sorcerer_Rare_029": {
+				"name": "Conjurer"
+			},
 			"Sorcerer_Rare_034": {
 				"name": "Denial"
 			},
+			"Sorcerer_Rare_035": {
+				"name": "Guarded"
+			},
+			"Sorcerer_Rare_036": {
+				"name": "Speed Caster"
+			},
 			"StartNodeSorc": {
-				"name": "Paragon Starting Location"
+				"name": "Paragon Starting Node"
 			}
 		}
 	}
