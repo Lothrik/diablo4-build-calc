@@ -1032,7 +1032,7 @@ function redrawAllNodes(idleMode = false) {
 	}
 }
 function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.75 ? 4 : newRenderScale >= 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.85 ? 4 : newRenderScale >= 0.55 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	let node;
 	if (pixiNodes.length > nodeIndex) {
@@ -1103,7 +1103,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		fontFamily: fontFamily,
 		fontSize: nameFontSize * scaleFactor,
 		fontVariant: "small-caps",
-		fontWeight: useThickNodeStyle ? "bold" : "normal"
+		fontWeight: useThickNodeStyle ? "bold" : "normal",
+		padding: 10
 	});
 	nodeText.scale.set(1 / scaleFactor);
 	nodeText.anchor.set(0.5);
@@ -1116,7 +1117,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			fontFamily: fontFamily,
 			fontSize: 24 * scaleFactor,
 			fontVariant: "small-caps",
-			fontWeight: useThickNodeStyle ? "bold" : "normal"
+			fontWeight: useThickNodeStyle ? "bold" : "normal",
+			padding: 10
 		});
 		nodeText2.scale.set(1 / scaleFactor);
 		nodeText2.anchor.set(0.5);
@@ -1129,7 +1131,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleFactor,
 			fontVariant: "small-caps",
-			fontWeight: useThickNodeStyle ? "bold" : "normal"
+			fontWeight: useThickNodeStyle ? "bold" : "normal",
+			padding: 10
 		});
 		nodeText3.scale.set(1 / scaleFactor);
 		nodeText3.anchor.set(0.5);
@@ -1142,7 +1145,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleFactor,
 			fontVariant: "small-caps",
-			fontWeight: useThickNodeStyle ? "bold" : "normal"
+			fontWeight: useThickNodeStyle ? "bold" : "normal",
+			padding: 10
 		});
 		nodeText4.scale.set(1 / scaleFactor);
 		nodeText4.anchor.set(0.5);
@@ -1703,7 +1707,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 1 ? 4 : newRenderScale >= 0.75 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.85 ? 4 : newRenderScale >= 0.55 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => curNode.nodeName.includes(damageType) || curNode.nodeDesc.includes(damageType)) ? ` (${curNode.damageType})` : "");
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
@@ -1713,7 +1717,8 @@ function drawTooltip(curNode, forceDraw) {
 		fontFamily: fontFamily,
 		fontSize: 40 * scaleFactor,
 		fontVariant: "small-caps",
-		fontWeight: "bold"
+		fontWeight: "bold",
+		padding: 10
 	});
 	tooltipText1.scale.set(1 / scaleFactor);
 	tooltipText1.anchor.set(0);
@@ -1726,6 +1731,7 @@ function drawTooltip(curNode, forceDraw) {
 			fill: textColor,
 			fontFamily: fontFamily,
 			fontSize: 40 * scaleFactor,
+			padding: 10,
 			wordWrap: true,
 			wordWrapWidth: tooltipWidth * scaleFactor
 		});
