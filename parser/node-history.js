@@ -123,7 +123,10 @@ let nodeHistory = {
 		"Capstone: Unconstrained": 120,
 		"Capstone: Gushing Wounds": 121,
 		"Capstone: Unbridled Rage": 122,
-		"Capstone: Walking Arsenal": 123
+		"Capstone: Walking Arsenal": 123,
+		"Basic: Barb_Mod_Bash_UpgradeA": 124,
+		"Brawling: Battle Fervor": 125,
+		"Weapon Mastery: Defensive Stance": 126
 	},
 	"Druid": {
 		"Basic: Earthspike": 0,
@@ -287,7 +290,12 @@ let nodeHistory = {
 		"Spirit Boons: Deer": 158,
 		"Spirit Boons: Eagle": 159,
 		"Spirit Boons: Wolf": 160,
-		"Spirit Boons: Snake": 161
+		"Spirit Boons: Snake": 161,
+		"Basic: Earth Spike": 162,
+		"Basic: Enhanced Earth Spike": 163,
+		"Basic: Wild Earth Spike": 164,
+		"Basic: Fierce Earth Spike": 165,
+		"Wrath: Envenom": 166
 	},
 	"Necromancer": {
 		"Basic: Decompose": 0,
@@ -408,7 +416,19 @@ let nodeHistory = {
 		"Book of the Dead: Bone Mages": 115,
 		"Book of the Dead: Bone Golem": 116,
 		"Book of the Dead: Blood Golem": 117,
-		"Book of the Dead: Iron Golem": 118
+		"Book of the Dead: Iron Golem": 118,
+		"Basic: Necro_Mod_Reap_03": 119,
+		"Basic: Necro_Mod_BoneSplinters_01": 120,
+		"Core: Hewed Flesh": 121,
+		"Macabre: Blighted Corpse Explosion": 122,
+		"Macabre: Plagued Corpse Explosion": 123,
+		"Macabre: Spiked Armor": 124,
+		"Summoning: Plagued Corpse Tendrils": 125,
+		"Summoning: Blighted Corpse Tendrils": 126,
+		"Summoning: Gruesome Mending": 127,
+		"Summoning: Necrotic Carapace": 128,
+		"Ultimate: Inspiring Leader": 129,
+		"Capstone: Kalan's Edict": 130
 	},
 	"Rogue": {
 		"Basic: Blade Shift": 0,
@@ -553,7 +573,10 @@ let nodeHistory = {
 		"Imbuements: Blended Cold Imbuement": 139,
 		"Subterfuge: Enhanced Concealment": 140,
 		"Subterfuge: Countering Concealment": 141,
-		"Subterfuge: Subverting Concealment": 142
+		"Subterfuge: Subverting Concealment": 142,
+		"Agility: Trick Attacks": 143,
+		"Agility: Rapid Gambits": 144,
+		"Subterfuge: Mending Obscurity": 145
 	},
 	"Sorcerer": {
 		"Basic: Frost Bolt": 0,
@@ -685,7 +708,19 @@ let nodeHistory = {
 		"Capstone: Warmth": 126,
 		"Capstone: Esu's Ferocity": 127,
 		"Capstone: Overflowing Energy": 128,
-		"Capstone: Vyr's Mastery": 129
+		"Capstone: Vyr's Mastery": 129,
+		"Conjuration: Sorc_Mod_Hydra_UpgradeB": 130,
+		"Conjuration: Sorc_Mod_LightningSpear_UpgradeA": 131,
+		"Mastery: Crippling Flames": 132,
+		"Mastery: Devouring Blaze": 133,
+		"Mastery: Invigorating Conduit": 134,
+		"Mastery: Snap Freeze": 135,
+		"Ultimate: Hoarfrost": 136,
+		"Ultimate: Frigid Breeze": 137,
+		"Ultimate: Warmth": 138,
+		"Ultimate: Soulfire": 139,
+		"Capstone: Avalanche": 140,
+		"Capstone: Combustion": 141
 	}
 }
 

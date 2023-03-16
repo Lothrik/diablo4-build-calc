@@ -4,20 +4,14 @@ import { druidBoons } from "./druid-boons.js";
 import { necromancerMinions } from "./necromancer-minions.js";
 import { sorcererEnchants } from "./sorcerer-enchants.js";
 
-const treeBuild = 36331;
-const otherBuild = 39319;
+const buildNumber = 39319;
 
-var skillJSON = "";
-var otherJSON = "";
-$.getJSON("tree/build-" + treeBuild + ".json", null, treeData => {
-	skillJSON = treeData;
-	$("#debugOutput").html("Successfully loaded `tree/build-" + treeBuild + ".json`.");
-	$.getJSON("other/build-" + otherBuild + ".json", null, otherData => {
-		otherJSON = otherData;
-		$("#debugOutput").append("\nSuccessfully loaded `other/build-" + otherBuild + ".json`.");
-		// call runParser once after loading so fixJSON affects node connections recursively
-		runParser(false);
-	});
+var fullJSON = "";
+$.getJSON("primary/build-" + buildNumber + ".json", null, fullData => {
+	fullJSON = fullData;
+	$("#debugOutput").html("Successfully loaded `primary/build-" + buildNumber + ".json`.");
+	// call runParser once after loading so fixJSON affects node connections recursively
+	runParser(false);
 });
 
 const scaleRatio = 0.5;
@@ -164,13 +158,19 @@ function sanitizeNodeDescription(descriptionText) {
 
 function namedConnections(rawConnections, currentNode, classData, fallbackNode) {
 	let namedConnections = "";
-	rawConnections.forEach(connectedNode => {
-		if (classData["Nodes"][connectedNode]["SkillName"] == null) {
-			if (namedConnections.length > 0) namedConnections += ", ";
-			namedConnections += '"' + fallbackNode + '"';
-		} else if (classData["Nodes"][connectedNode]["SkillName"] != currentNode) {
-			if (namedConnections.length > 0) namedConnections += ", ";
-			namedConnections += '"' + classData["Nodes"][connectedNode]["SkillName"] + '"';
+	const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
+	Object.values(rawConnections).forEach(connectedNode => {
+		if (connectedNode in skillTreeValues) {
+			const connectedNodePower = skillTreeValues[connectedNode]["power"];
+			if (connectedNodePower == undefined || connectedNodePower["skill_name"] == undefined) {
+				if (namedConnections.length > 0) namedConnections += ", ";
+				namedConnections += '"' + fallbackNode + '"';
+			} else if (skillTreeValues[connectedNode]["power"]["skill_name"] != currentNode) {
+				if (namedConnections.length > 0) namedConnections += ", ";
+				namedConnections += '"' + skillTreeValues[connectedNode]["power"]["skill_name"] + '"';
+			}
+		} else {
+			throw new Error("connectedNode not in skillTreeValues");
 		}
 	});
 	if (namedConnections.length > 0) {
@@ -181,72 +181,80 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode) 
 }
 
 function fixJSON(classData, curNode, rootNodeName) {
-	const nodeData = classData["Nodes"][curNode];
-	if (treeBuild == 36023 || treeBuild == 36331) {
-		if (nodeData["SkillName"] != nodeData["SkillName"].trim()) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `" + nodeData["SkillName"].trim() + "`.");
-			nodeData["SkillName"] = nodeData["SkillName"].trim();
+	const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
+	const nodeData = skillTreeValues[String(curNode)];
+	if (buildNumber == 39319) {
+		let skillName = undefined;
+		if ("power" in nodeData && "skill_name" in nodeData["power"]) {
+			skillName = nodeData["power"]["skill_name"];
+		} else if ("reward" in nodeData && "reward_name" in nodeData["reward"]) {
+			skillName = nodeData["reward"]["reward_name"];
+		}
+
+		if (skillName != undefined && skillName != skillName.trim()) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `" + skillName.trim() + "`.");
+			nodeData["power"]["skill_name"] = skillName.trim();
 		}
 		// `Supreme Unstable Currents` was incorrectly assigned the duplicate name `Prime Unstable Currents` in 36023, causing a naming collision.
-		if (nodeData["SkillName"] == "Prime Unstable Currents" && nodeData["Id"] == 619) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Unstable Currents`.");
-			nodeData["SkillName"] = "Supreme Unstable Currents";
+		if (skillName == "Prime Unstable Currents" && nodeData["id"] == 619) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Supreme Unstable Currents`.");
+			nodeData["power"]["skill_name"] = "Supreme Unstable Currents";
 		// `Prime Inferno` was incorrectly assigned the name `Upgrade 1` in 36023.
-		} else if (nodeData["SkillName"] == "Upgrade 1" && nodeData["Id"] == 617) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Prime Inferno`.");
-			nodeData["SkillName"] = "Prime Inferno";
+		} else if (skillName == "Upgrade 1" && nodeData["id"] == 617) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Prime Inferno`.");
+			nodeData["power"]["skill_name"] = "Prime Inferno";
 		// `Supreme Inferno` was incorrectly assigned the name `Upgrade 2` in 36023.
-		} else if (nodeData["SkillName"] == "Upgrade 2" && nodeData["Id"] == 620) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Supreme Inferno`.");
-			nodeData["SkillName"] = "Supreme Inferno";
+		} else if (skillName == "Upgrade 2" && nodeData["id"] == 620) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Supreme Inferno`.");
+			nodeData["power"]["skill_name"] = "Supreme Inferno";
 		// `Enhanced Charged Bolts` was incorrectly assigned the name `Enhanced Charged Bolt` in 36023.
-		} else if (nodeData["SkillName"] == "Enhanced Charged Bolt" && nodeData["Id"] == 731) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Charged Bolts`.");
-			nodeData["SkillName"] = "Enhanced Charged Bolts";
+		} else if (skillName == "Enhanced Charged Bolt" && nodeData["id"] == 731) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Charged Bolts`.");
+			nodeData["power"]["skill_name"] = "Enhanced Charged Bolts";
 		// `Wolf Pack` was renamed to `Wolves` in 36023, but its modifier nodes were not renamed at the same time.
-		} else if (nodeData["SkillName"] == "Wolf Pack" && nodeData["Id"] == 459) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Wolves`.");
-			nodeData["SkillName"] = "Wolves";
-		} else if (nodeData["SkillName"] == "Enhanced Wolf Pack" && nodeData["Id"] == 509) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Wolves`.");
-			nodeData["SkillName"] = "Enhanced Wolves";
-		} else if (nodeData["SkillName"] == "Ferocious Wolf Pack" && nodeData["Id"] == 388) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Ferocious Wolves`.");
-			nodeData["SkillName"] = "Ferocious Wolves";
-		} else if (nodeData["SkillName"] == "Brutal Wolf Pack" && nodeData["Id"] == 389) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Brutal Wolves`.");
-			nodeData["SkillName"] = "Brutal Wolves";
+		} else if (skillName == "Wolf Pack" && nodeData["id"] == 459) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Wolves`.");
+			nodeData["power"]["skill_name"] = "Wolves";
+		} else if (skillName == "Enhanced Wolf Pack" && nodeData["id"] == 509) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Wolves`.");
+			nodeData["power"]["skill_name"] = "Enhanced Wolves";
+		} else if (skillName == "Ferocious Wolf Pack" && nodeData["id"] == 388) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Ferocious Wolves`.");
+			nodeData["power"]["skill_name"] = "Ferocious Wolves";
+		} else if (skillName == "Brutal Wolf Pack" && nodeData["id"] == 389) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Brutal Wolves`.");
+			nodeData["power"]["skill_name"] = "Brutal Wolves";
 		// `Stealth` was renamed to `Concealment` in 36331, but its modifier nodes were not renamed at the same time.
-		} else if (nodeData["SkillName"] == "Stealth" && nodeData["Id"] == 245) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Concealment`.");
-			nodeData["SkillName"] = "Concealment";
-		} else if (nodeData["SkillName"] == "Enhanced Stealth" && nodeData["Id"] == 374) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Enhanced Concealment`.");
-			nodeData["SkillName"] = "Enhanced Concealment";
-		} else if (nodeData["SkillName"] == "Countering Stealth" && nodeData["Id"] == 246) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Countering Concealment`.");
-			nodeData["SkillName"] = "Countering Concealment";
-		} else if (nodeData["SkillName"] == "Subverting Stealth" && nodeData["Id"] == 247) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "` -> `Subverting Concealment`.");
-			nodeData["SkillName"] = "Subverting Concealment";
+		} else if (skillName == "Stealth" && nodeData["id"] == 245) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Concealment`.");
+			nodeData["power"]["skill_name"] = "Concealment";
+		} else if (skillName == "Enhanced Stealth" && nodeData["id"] == 374) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Concealment`.");
+			nodeData["power"]["skill_name"] = "Enhanced Concealment";
+		} else if (skillName == "Countering Stealth" && nodeData["id"] == 246) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Countering Concealment`.");
+			nodeData["power"]["skill_name"] = "Countering Concealment";
+		} else if (skillName == "Subverting Stealth" && nodeData["id"] == 247) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Subverting Concealment`.");
+			nodeData["power"]["skill_name"] = "Subverting Concealment";
 		}
-		if (nodeData["SkillName"] != undefined) {
+		if (skillName != undefined) {
 			// ultimate skills don't have ranks
-			if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["SkillDesc"]) && nodeData["Reward"]["dwMaxTalentRanks"] == 5) {
-				$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
-				nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+			if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["SkillDesc"]) && nodeData["reward"]["max_talent_ranks"] == 5) {
+				$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; dwMaxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
+				nodeData["reward"]["max_talent_ranks"] = 1;
 			} else {
-				const namedConnectionList = JSON.parse(namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, rootNodeName));
+				const namedConnectionList = JSON.parse(namedConnections(nodeData["connections"], skillName, classData, rootNodeName));
 				let chainedConnectionList = namedConnectionList;
 				namedConnectionList.forEach(namedConnection => {
-					classData["Nodes"].filter(chainedData => {
-						if (chainedData["SkillName"] == namedConnection) {
-							chainedConnectionList.push(...JSON.parse(namedConnections(chainedData["Connections"], chainedData["SkillName"], classData, rootNodeName)));
+					skillTreeValues.filter(chainedData => {
+						if (chainedData["power"] != undefined && chainedData["power"]["skill_name"] == namedConnection) {
+							chainedConnectionList.push(...JSON.parse(namedConnections(chainedData["connections"], chainedData["power"]["skill_name"], classData, rootNodeName)));
 						}
 					});
 				});
 				chainedConnectionList = [...new Set(chainedConnectionList)];
-				const unmodifiedName = nodeData["SkillName"].split(" ").slice(1).join(" ");
+				const unmodifiedName = skillName.split(" ").slice(1).join(" ");
 				let unmodifiedNameSpecial = null;
 				if (unmodifiedName == "Wolf Pack") {
 					unmodifiedNameSpecial = "Wolves";
@@ -254,11 +262,11 @@ function fixJSON(classData, curNode, rootNodeName) {
 					unmodifiedNameSpecial = "Concealment";
 				}
 				if (unmodifiedName.length > 0 && (chainedConnectionList.indexOf(unmodifiedName) != -1 || (unmodifiedNameSpecial != null && chainedConnectionList.indexOf(unmodifiedNameSpecial) != -1))) {
-					if (nodeData["Reward"]["dwMaxTalentRanks"] == 3) {
-						$("#debugOutput").append("\nFixing nodeID " + nodeData["Id"] +"; SkillName: `" + nodeData["SkillName"] + "`; dwMaxTalentRanks: " + nodeData["Reward"]["dwMaxTalentRanks"] + " -> 1.");
-						nodeData["Reward"]["dwMaxTalentRanks"] = 1;
+					if (nodeData["reward"]["max_talent_ranks"] == 3) {
+						$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; dwMaxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
+						nodeData["reward"]["max_talent_ranks"] = 1;
 					}
-					nodeData["baseSkillName"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
+					nodeData["BASE_SKILL_NAME"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
 				}
 			}
 		}
@@ -270,60 +278,65 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 	let output = "";
 	if (recursionDepth < MAX_RECURSION_DEPTH) {
 		connectionData.forEach((connectedNode, connectedIndex) => {
-			const nodeData = classData["Nodes"][connectedNode];
-			if (!mappedIDs[nodeData["Id"]]) {
-				mappedIDs[nodeData["Id"]] = true;
+			const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
+			if (!mappedIDs[connectedNode] && connectedNode in skillTreeValues) {
+				const nodeData = skillTreeValues[String(connectedNode)];
+				mappedIDs[connectedNode] = true;
 				if (!classProcessed[className]) fixJSON(classData, connectedNode, rootNodeName);
-				output += '\t"' + nodeData["SkillName"] + '": {\n';
-				const baseSkillName = nodeData["baseSkillName"];
-				if (baseSkillName != undefined) {
-					output += '\t\tbaseSkill: "' + baseSkillName + '",\n';
-				}
-				output += "		connections: " + namedConnections(nodeData["Connections"], nodeData["SkillName"], classData, rootNodeName) + ",\n";
-				// output damage type for any non-modifier skill nodes, as long as they have a hit or DoT payload
-				if (baseSkillName == undefined && /{payload:.+?}|{dot:.+?}/i.test(nodeData["SkillDesc"]) && nodeData["DamageType"] >= 0) {
-					output += "\t\tdamageType: " + nodeData["DamageType"] + ",\n";
-				}
-				const sanitizedDescription = sanitizeNodeDescription(nodeData["SkillDesc"]);
-				if (className == "Sorcerer" && sorcererEnchants[rootNodeName] != undefined) {
-					const extraDescription = sorcererEnchants[rootNodeName][nodeData["SkillName"]];
-					if (extraDescription != undefined && extraDescription.length > 0) {
-						output += "\t\tdescription: `" + sanitizedDescription + "\n\n— Enchantment Effect —\n" + extraDescription + "`,\n";
+				if (nodeData["power"] != undefined) {
+					const skillName = "skill_name" in nodeData["power"] ? nodeData["power"]["skill_name"] : nodeData["reward"]["reward_name"];
+					output += '\t"' + skillName + '": {\n';
+					const baseSkillName = nodeData["BASE_SKILL_NAME"];
+					if (baseSkillName != undefined) {
+						output += '\t\tbaseSkill: "' + baseSkillName + '",\n';
+					}
+					output += "		connections: " + namedConnections(nodeData["connections"], skillName, classData, rootNodeName) + ",\n";
+					// TODO: damage type is not currently exported, update or remove..?
+					// output damage type for any non-modifier skill nodes, as long as they have a hit or DoT payload
+					/*if (baseSkillName == undefined && /{payload:.+?}|{dot:.+?}/i.test(nodeData["power"]["skill_desc"]) && nodeData["damage_type"] >= 0) {
+						output += "\t\tdamageType: " + nodeData["damage_type"] + ",\n";
+					}*/
+					const sanitizedDescription = sanitizeNodeDescription(nodeData["power"]["skill_desc"]);
+					if (className == "Sorcerer" && sorcererEnchants[rootNodeName] != undefined) {
+						const extraDescription = sorcererEnchants[rootNodeName][skillName];
+						if (extraDescription != undefined && extraDescription.length > 0) {
+							output += "\t\tdescription: `" + sanitizedDescription + "\n\n— Enchantment Effect —\n" + extraDescription + "`,\n";
+						} else {
+							output += "\t\tdescription: `" + sanitizedDescription + "`,\n";
+						}
 					} else {
 						output += "\t\tdescription: `" + sanitizedDescription + "`,\n";
 					}
-				} else {
-					output += "\t\tdescription: `" + sanitizedDescription + "`,\n";
+					const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + skillName];
+					if (nodeHistoricalId != undefined) {
+						output += "\t\tid: " + nodeHistoricalId + ",\n";
+					} else {
+						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
+						nodeHistory[className][rootNodeName + ": " + skillName] = nodeHistoryLength;
+						output += "\t\tid: " + nodeHistoryLength + ",\n";
+					}
+					output += "\t\tmaxPoints: " + nodeData["reward"]["max_talent_ranks"] + ",\n";
+					if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
+					if (nodeValues[className][rootNodeName][skillName] == undefined) nodeValues[className][rootNodeName][skillName] = [];
+					const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
+					const savedValues = nodeValues[className][rootNodeName][skillName];
+					if (descLength > savedValues.length) {
+						savedValues.push(...Array(descLength - savedValues.length).fill(""));
+					} else {
+						savedValues.length = descLength;
+					}
+					if (savedValues.length > 1) {
+						output += `\t\tvalues: [ "${savedValues.join('", "')}" ],\n`
+					} else if (savedValues.length > 0) {
+						output += `\t\tvalues: [ "${savedValues[0]}" ],\n`;
+					} else {
+						delete nodeValues[className][rootNodeName][skillName];
+					}
+					output += "\t\tx: " + parseFloat(((nodeData["x_pos"] - rootNode["x_pos"]) * scaleRatio).toFixed(3)) + ",\n";
+					output += "\t\ty: " + parseFloat(((nodeData["y_pos"] - rootNode["y_pos"]) * scaleRatio).toFixed(3)) + "\n";
+					output += "\t},\n";
+					output += recursiveSkillTreeScan(nodeData["connections"], classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth + 1);
 				}
-				const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]];
-				if (nodeHistoricalId != undefined) {
-					output += "\t\tid: " + nodeHistoricalId + ",\n";
-				} else {
-					const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
-					nodeHistory[className][rootNodeName + ": " + nodeData["SkillName"]] = nodeHistoryLength;
-					output += "\t\tid: " + nodeHistoryLength + ",\n";
-				}
-				output += "\t\tmaxPoints: " + nodeData["Reward"]["dwMaxTalentRanks"] + ",\n";
-				if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
-				if (nodeValues[className][rootNodeName][nodeData["SkillName"]] == undefined) nodeValues[className][rootNodeName][nodeData["SkillName"]] = [];
-				const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
-				const savedValues = nodeValues[className][rootNodeName][nodeData["SkillName"]];
-				if (descLength > savedValues.length) {
-					savedValues.push(...Array(descLength - savedValues.length).fill(""));
-				} else {
-					savedValues.length = descLength;
-				}
-				if (savedValues.length > 1) {
-					output += `\t\tvalues: [ "${savedValues.join('", "')}" ],\n`
-				} else if (savedValues.length > 0) {
-					output += `\t\tvalues: [ "${savedValues[0]}" ],\n`;
-				} else {
-					delete nodeValues[className][rootNodeName][nodeData["SkillName"]];
-				}
-				output += "\t\tx: " + parseFloat(((nodeData["X"] - rootNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
-				output += "\t\ty: " + parseFloat(((nodeData["Y"] - rootNode["Y"]) * scaleRatio).toFixed(3)) + "\n";
-				output += "\t},\n";
-				output += recursiveSkillTreeScan(nodeData["Connections"], classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth + 1);
 			}
 		});
 	}
@@ -333,156 +346,159 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 function runParser(downloadMode) {
 	console.clear();
 
-	for (const [classIndex, classData] of Object.entries(skillJSON)) {
-		const className = classData["ClassName"];
-		const classNameLower = className.toLowerCase();
-		const classObjectName = classNameLower + "Data";
-		if (!classProcessed[className]) {
-			$("#debugOutput").append("\nProcessing node data for class `" + className + "`:");
-		}
+	let paragonData = {};
+	for (const [className, classData] of Object.entries(fullJSON)) {
+		// process skill tree, if present in classData
+		if ("Skill Tree" in classData) {
+			const classNameLower = className.toLowerCase();
+			const classObjectName = classNameLower + "Data";
+			if (!classProcessed[className]) {
+				$("#debugOutput").append("\nProcessing node data for class `" + className + "`:");
+			}
 
-		const rootNodes = classData["Nodes"].filter(curNode => curNode["RootNode"]);
-		const originNode = rootNodes.find((curNode, curIndex) => rootNodeNames[className][curIndex] == "Basic");
+			const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
 
-		let formattedData = "let " + classObjectName + " = {};\n\n";
-		formattedData += classObjectName + '["Trunk Data"] = {\n';
-		for (let i = 0; i < Object.keys(rootNodeNamesSorted[className]).length; i++) {
-			rootNodes.forEach((rootNode, rootIndex) => {
-				const rootNodeName = rootNodeNames[className][rootIndex];
-				if (rootNodeName == rootNodeNamesSorted[className][i]) {
-					formattedData += '\t"' + rootNodeName + '": {\n';
-					const nextRootNode = rootNodeNamesSorted[className][i + 1];
-					if (nextRootNode && nextRootNode.length != undefined) {
-						formattedData += '\t\tconnections: [ "' + nextRootNode + '" ],\n';
+			const rootNodes = skillTreeValues.filter(curNode => curNode["root_node"]);
+			const originNode = Object.values(rootNodes).find((curNode, curIndex) => rootNodeNames[className][curIndex] == "Basic");
+
+			let formattedData = "let " + classObjectName + " = {};\n\n";
+			formattedData += classObjectName + '["Trunk Data"] = {\n';
+			for (let i = 0; i < Object.keys(rootNodeNamesSorted[className]).length; i++) {
+				rootNodes.forEach((rootNode, rootIndex) => {
+					const rootNodeName = rootNodeNames[className][rootIndex];
+					if (rootNodeName == rootNodeNamesSorted[className][i]) {
+						formattedData += '\t"' + rootNodeName + '": {\n';
+						const nextRootNode = rootNodeNamesSorted[className][i + 1];
+						if (nextRootNode && nextRootNode.length != undefined) {
+							formattedData += '\t\tconnections: [ "' + nextRootNode + '" ],\n';
+						}
+						if (rootNode["req_points"] > 0) {
+							formattedData += "\t\trequiredPoints: " + rootNode["req_points"] + ",\n";
+						}
+						formattedData += "\t\tx: " + parseFloat(((rootNode["x_pos"] - originNode["x_pos"]) * scaleRatio).toFixed(3)) + ",\n";
+						formattedData += "\t\ty: " + parseFloat(((rootNode["y_pos"] - originNode["y_pos"]) * scaleRatio).toFixed(3)) + "\n";
+						formattedData += "\t},\n";
 					}
-					if (rootNode["ReqPointsSpent"] > 0) {
-						formattedData += "\t\trequiredPoints: " + rootNode["ReqPointsSpent"] + ",\n";
+				});
+			}
+			if (className == "Necromancer" && necromancerMinions != undefined) {
+				formattedData += '\t"Book of the Dead": {\n';
+				formattedData += "\t\tx: 2500,\n";
+				formattedData += "\t\ty: 0\n";
+				formattedData += "\t},\n";
+			} else if (className == "Druid" && druidBoons != undefined) {
+				formattedData += '\t"Spirit Boons": {\n';
+				formattedData += "\t\tx: 2500,\n";
+				formattedData += "\t\ty: 0\n";
+				formattedData += "\t},\n";
+			}
+			formattedData += "};\n\n";
+
+			for (let i = 0; i < Object.keys(rootNodeNamesSorted[className]).length; i++) {
+				rootNodes.forEach((rootNode, rootIndex) => {
+					const rootNodeName = rootNodeNames[className][rootIndex];
+					if (rootNodeName == rootNodeNamesSorted[className][i]) {
+						let mappedIDs = [];
+						mappedIDs[String(rootIndex)] = true;
+
+						formattedData += classObjectName + '["' + rootNodeNames[className][rootIndex] + '"] = {\n';
+						formattedData += recursiveSkillTreeScan(rootNode["connections"], classData, className, rootNode, rootNodeName, mappedIDs, 0);
+						formattedData += "};\n\n";
 					}
-					formattedData += "\t\tx: " + parseFloat(((rootNode["X"] - originNode["X"]) * scaleRatio).toFixed(3)) + ",\n";
-					formattedData += "\t\ty: " + parseFloat(((rootNode["Y"] - originNode["Y"]) * scaleRatio).toFixed(3)) + "\n";
+				});
+			}
+			if (className == "Necromancer" && necromancerMinions != undefined) {
+				formattedData += classObjectName + '["Book of the Dead"] = {\n';
+				for (const [minionName, minionData] of Object.entries(necromancerMinions)) {
+					formattedData += '\t"' + minionName + '": {\n';
+					for (const [minionTypeName, minionTypeData] of Object.entries(minionData)) {
+						formattedData += '\t\t"' + minionTypeName + '": {\n';
+						formattedData += "\t\t\tdescription: `" + minionTypeData["Description"] + "`,\n";
+						const nodeHistoricalId = nodeHistory[className]["Book of the Dead: " + minionTypeName];
+						if (nodeHistoricalId != undefined) {
+							formattedData += "\t\t\tid: " + nodeHistoricalId + ",\n";
+						} else {
+							const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
+							nodeHistory[className]["Book of the Dead: " + minionTypeName] = nodeHistoryLength;
+							formattedData += "\t\t\tid: " + nodeHistoryLength + ",\n";
+						}
+						formattedData += "\t\t\tsacrifice: `" + minionTypeData["Sacrifice"] + "`,\n";
+						formattedData += "\t\t\tupgrades: [\n";
+						minionTypeData["Upgrades"].forEach((upgradeText, upgradeIndex) => {
+							formattedData += "\t\t\t\t`" + upgradeText + "`";
+							if (upgradeIndex < minionTypeData["Upgrades"].length - 1) {
+								formattedData += ",\n";
+							} else {
+								formattedData += "\n";
+							}
+						});
+						formattedData += "\t\t\t]\n";
+						formattedData += "\t\t},\n";
+					}
 					formattedData += "\t},\n";
 				}
-			});
-		}
-		if (className == "Necromancer" && necromancerMinions != undefined) {
-			formattedData += '\t"Book of the Dead": {\n';
-			formattedData += "\t\tx: 2500,\n";
-			formattedData += "\t\ty: 0\n";
-			formattedData += "\t},\n";
-		} else if (className == "Druid" && druidBoons != undefined) {
-			formattedData += '\t"Spirit Boons": {\n';
-			formattedData += "\t\tx: 2500,\n";
-			formattedData += "\t\ty: 0\n";
-			formattedData += "\t},\n";
-		}
-		formattedData += "};\n\n";
-
-		for (let i = 0; i < Object.keys(rootNodeNamesSorted[className]).length; i++) {
-			rootNodes.forEach((rootNode, rootIndex) => {
-				const rootNodeName = rootNodeNames[className][rootIndex];
-				if (rootNodeName == rootNodeNamesSorted[className][i]) {
-					let mappedIDs = [];
-					mappedIDs[rootNode["Id"]] = true;
-
-					formattedData += classObjectName + '["' + rootNodeNames[className][rootIndex] + '"] = {\n';
-					formattedData += recursiveSkillTreeScan(rootNode["Connections"], classData, className, rootNode, rootNodeName, mappedIDs, 0);
-					formattedData += "};\n\n";
-				}
-			});
-		}
-		if (className == "Necromancer" && necromancerMinions != undefined) {
-			formattedData += classObjectName + '["Book of the Dead"] = {\n';
-			for (const [minionName, minionData] of Object.entries(necromancerMinions)) {
-				formattedData += '\t"' + minionName + '": {\n';
-				for (const [minionTypeName, minionTypeData] of Object.entries(minionData)) {
-					formattedData += '\t\t"' + minionTypeName + '": {\n';
-					formattedData += "\t\t\tdescription: `" + minionTypeData["Description"] + "`,\n";
-					const nodeHistoricalId = nodeHistory[className]["Book of the Dead: " + minionTypeName];
+				formattedData += "};\n\n";
+			} else if (className == "Druid" && druidBoons != undefined) {
+				formattedData += classObjectName + '["Spirit Boons"] = {\n';
+				for (const [boonTypeName, boonTypeData] of Object.entries(druidBoons)) {
+					formattedData += '	"' + boonTypeName + '": {\n';
+					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName];
 					if (nodeHistoricalId != undefined) {
-						formattedData += "\t\t\tid: " + nodeHistoricalId + ",\n";
+						formattedData += "\t\tid: " + nodeHistoricalId + ",\n";
 					} else {
 						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
-						nodeHistory[className]["Book of the Dead: " + minionTypeName] = nodeHistoryLength;
-						formattedData += "\t\t\tid: " + nodeHistoryLength + ",\n";
+						nodeHistory[className]["Spirit Boons: " + boonTypeName] = nodeHistoryLength;
+						formattedData += "\t\tid: " + nodeHistoryLength + ",\n";
 					}
-					formattedData += "\t\t\tsacrifice: `" + minionTypeData["Sacrifice"] + "`,\n";
-					formattedData += "\t\t\tupgrades: [\n";
-					minionTypeData["Upgrades"].forEach((upgradeText, upgradeIndex) => {
-						formattedData += "\t\t\t\t`" + upgradeText + "`";
-						if (upgradeIndex < minionTypeData["Upgrades"].length - 1) {
-							formattedData += ",\n";
+					for (const [boonName, boonData] of Object.entries(boonTypeData)) {
+						formattedData += '\t\t"' + boonName + '": {\n';
+						formattedData += "\t\t\tdescription: `" + boonData + "`,\n";
+						const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonName];
+						if (nodeHistoricalId != undefined) {
+							formattedData += "\t\t\tid: " + nodeHistoricalId + ",\n";
 						} else {
-							formattedData += "\n";
+							const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
+							nodeHistory[className]["Spirit Boons: " + boonName] = nodeHistoryLength;
+							formattedData += "\t\t\tid: " + nodeHistoryLength + ",\n";
 						}
-					});
-					formattedData += "\t\t\t]\n";
-					formattedData += "\t\t},\n";
-				}
-				formattedData += "\t},\n";
-			}
-			formattedData += "};\n\n";
-		} else if (className == "Druid" && druidBoons != undefined) {
-			formattedData += classObjectName + '["Spirit Boons"] = {\n';
-			for (const [boonTypeName, boonTypeData] of Object.entries(druidBoons)) {
-				formattedData += '	"' + boonTypeName + '": {\n';
-				const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName];
-				if (nodeHistoricalId != undefined) {
-					formattedData += "\t\tid: " + nodeHistoricalId + ",\n";
-				} else {
-					const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
-					nodeHistory[className]["Spirit Boons: " + boonTypeName] = nodeHistoryLength;
-					formattedData += "\t\tid: " + nodeHistoryLength + ",\n";
-				}
-				for (const [boonName, boonData] of Object.entries(boonTypeData)) {
-					formattedData += '\t\t"' + boonName + '": {\n';
-					formattedData += "\t\t\tdescription: `" + boonData + "`,\n";
-					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonName];
-					if (nodeHistoricalId != undefined) {
-						formattedData += "\t\t\tid: " + nodeHistoricalId + ",\n";
-					} else {
-						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
-						nodeHistory[className]["Spirit Boons: " + boonName] = nodeHistoryLength;
-						formattedData += "\t\t\tid: " + nodeHistoryLength + ",\n";
+						formattedData += "\t\t},\n";
 					}
-					formattedData += "\t\t},\n";
+					formattedData += "\t},\n";
 				}
-				formattedData += "\t},\n";
+				formattedData += "};\n\n";
 			}
-			formattedData += "};\n\n";
-		}
-		formattedData += "export { " + classObjectName + " };";
-		if (fixedJSON) {
-			if (downloadMode) {
-				let downloadElement = document.createElement("a");
-				downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedData);
-				downloadElement.download = classNameLower + ".js";
-				downloadElement.click();
-			} else {
-				console.log(formattedData);
+			formattedData += "export { " + classObjectName + " };";
+			if (fixedJSON) {
+				if (downloadMode) {
+					let downloadElement = document.createElement("a");
+					downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedData);
+					downloadElement.download = classNameLower + ".js";
+					downloadElement.click();
+				} else {
+					console.log(formattedData);
+				}
 			}
+			classProcessed[className] = true;
 		}
-		classProcessed[className] = true;
-	}
 
-	let paragonData = {};
-	for (const [className, otherData] of Object.entries(otherJSON)) {
+		// process paragon board
 		paragonData[className] = {};
-		if (otherData["Paragon (Board)"] != undefined) {
+		if (classData["Paragon (Board)"] != undefined) {
 			paragonData[className]["Board"] = {};
-			for (const [boardName, boardData] of Object.entries(otherData["Paragon (Board)"])) {
+			for (const [boardName, boardData] of Object.entries(classData["Paragon (Board)"])) {
 				paragonData[className]["Board"][boardData["name"]] = [];
 				for (const [rowIndex, rowData] of Object.entries(boardData["data"])) {
 					paragonData[className]["Board"][boardData["name"]].push(rowData.split(","));
 				}
 			}
 		}
-		if (otherData["Paragon (Node)"] != undefined) {
+		if (classData["Paragon (Node)"] != undefined) {
 			paragonData[className]["Node"] = {};
-			for (const [nodeName, nodeData] of Object.entries(otherData["Paragon (Node)"])) {
+			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Node)"])) {
 				let nodeDesc;
-				if (nodeName.toLowerCase().includes("legendary") && "Paragon (Legendary)" in otherData) {
+				if (nodeName.toLowerCase().includes("legendary") && "Paragon (Legendary)" in classData) {
 					const nodeId = nodeName.replace(/\D/g, "");
-					for (const [legendaryKey, legendaryData] of Object.entries(otherData["Paragon (Legendary)"])) {
+					for (const [legendaryKey, legendaryData] of Object.entries(classData["Paragon (Legendary)"])) {
 						if (legendaryKey.replace(/\D/g, "") == nodeId) {
 							nodeDesc = sanitizeNodeDescription(legendaryData["desc"]);
 							break;
