@@ -250,8 +250,8 @@ function fixJSON(classData, curNode, rootNodeName) {
 		}
 		if (skillName != undefined) {
 			// ultimate skills don't have ranks
-			if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["SkillDesc"]) && nodeData["reward"]["max_talent_ranks"] == 5) {
-				$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; dwMaxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
+			if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["power"]["skill_desc"]) && nodeData["reward"]["max_talent_ranks"] == 5) {
+				$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; maxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
 				nodeData["reward"]["max_talent_ranks"] = 1;
 			} else {
 				const namedConnectionList = JSON.parse(namedConnections(nodeData["connections"], skillName, classData, rootNodeName));

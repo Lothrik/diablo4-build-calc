@@ -1094,7 +1094,7 @@ rogueData["Ultimate"] = {
 Your shadow mimicks your actions for {#} seconds.
 The shadow deals {#}% of your damage.`,
 		id: 104,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "60.0", "15", "60" ],
 		x: 2.07,
 		y: -283.5
@@ -1133,7 +1133,7 @@ The shadow deals {#}% of your damage.`,
 Lucky Hit Chance: {#}%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing a total of {#}% damage to each enemy in the area.`,
 		id: 108,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "45.0", "40", "1.25", "316" ],
 		x: -543.29,
 		y: 2.23
@@ -1172,7 +1172,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 Lucky Hit Chance: {#}%
 Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		id: 112,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "60.0", "20", "2", "126" ],
 		x: 5.58,
 		y: 290.575

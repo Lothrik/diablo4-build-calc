@@ -1166,7 +1166,7 @@ Shapeshift into  Dire Werebear for {#} seconds gaining x{#}% bonus damage and {#
 
 Kills extend the duration by {#} second up to {#} additional seconds.`,
 		id: 107,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "60.0", "10", "20", "20", "3", "1", "10" ],
 		x: 4.395,
 		y: 301.055
@@ -1197,7 +1197,7 @@ Encase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x{#}
 
 Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its duration is increased to {#} seconds.`,
 		id: 110,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "60.0", "3", "25", "", "" ],
 		x: 3.895,
 		y: -279.14
@@ -1291,7 +1291,7 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf, become Immune and quickly dash {#} times between enemies in the area dealing up to {#}% damage.`,
 		id: 120,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "50.0", "15", "10", "420" ],
 		x: -581.85,
 		y: 142.205
@@ -1322,7 +1322,7 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 Lucky Hit Chance: {#}%
 A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and lightning strikes wildly dealing {#}% damage.`,
 		id: 123,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "80.0", "82", "8", "54.6" ],
 		x: -581.665,
 		y: -104.025

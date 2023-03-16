@@ -1157,7 +1157,7 @@ sorcererData["Ultimate"] = {
 Lucky Hit Chance: {#}%
 Summon a fiery serpent that continually constricts the target area, Burning enemies for {#}% damage over {#} seconds.`,
 		id: 103,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "45.0", "38", "295", "8" ],
 		x: -526.72,
 		y: -71.235
@@ -1185,7 +1185,7 @@ Summon a fiery serpent that continually constricts the target area, Burning enem
 		description: `Cooldown: {#} seconds
 Lightning surges within you for {#} seconds. Whenever you cast a Shock Skill, a random Core, Conjuration, or Mastery Shock Skill is also cast.`,
 		id: 106,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "70.0", "10" ],
 		x: -347.8,
 		y: 279.81
@@ -1217,7 +1217,7 @@ Encase yourself in ice, becoming Immune for {#} seconds, continually dealing {#}
 
 Casting Deep Freeze again ends the effect early.`,
 		id: 109,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "60.0", "45", "4", "20", "200", "" ],
 		x: -377.345,
 		y: -274.565

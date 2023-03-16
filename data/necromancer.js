@@ -935,7 +935,7 @@ necromancerData["Ultimate"] = {
 Lucky Hit Chance: {#}%
 Call forth the deep buried dead. Volatile Skeletons emerge over the next {#} seconds that explode when around enemies, dealing {#}% damage.`,
 		id: 93,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "90.0", "54", "7", "30" ],
 		x: -591.12,
 		y: -96.445
@@ -965,7 +965,7 @@ Call forth the deep buried dead. Volatile Skeletons emerge over the next {#} sec
 Lucky Hit Chance: {#}%
 Conjure a tidal wave of blood that deals {#}% damage and Knocks Back enemies.`,
 		id: 96,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "50.0", "30", "90" ],
 		x: 0.355,
 		y: -282.205
@@ -1013,7 +1013,7 @@ Conjure a tidal wave of blood that deals {#}% damage and Knocks Back enemies.`,
 Lucky Hit Chance: {#}%
 A swirling storm of bones appears around you and your Golem, dealing {#}% to surrounding enemies over {#} seconds.`,
 		id: 101,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "60.0", "40", "180", "10" ],
 		x: 3.41,
 		y: 307.975

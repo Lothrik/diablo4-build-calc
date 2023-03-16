@@ -776,29 +776,36 @@ function canAllocate(curNode) {
 	} else if (curNode.groupName == CAPSTONE) {
 		return pixiNodes.find(pixiNode => {
 			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
-			if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
-			return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
+			if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
+			return [...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName);
 		}) == undefined;
 	} else if (curNode.groupName == ULTIMATE) {
 		if (curNode.nodeData.get("description").includes(COOLDOWN)) {
 			return pixiNodes.find(pixiNode => {
 				if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
-				if (![...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName)) return false;
+				if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
 				if (!pixiNode.nodeData.get("description").includes(COOLDOWN)) return false;
-				return (pixiNode.nodeData.get("allocatedPoints") || 0) > 0;
+				return [...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName);
 			}) == undefined;
 		} else {
 			return true;
 		}
 	}
 	const baseSkill = curNode.nodeData.get("baseSkill");
-	const upgradePrefixes = ["Enhanced"];
-	if (baseSkill != undefined && !upgradePrefixes.some(upgradePrefix => curNode.nodeName.includes(upgradePrefix))) {
+	if (baseSkill != undefined) {
+		// this may need to change in the future if branching skill modifiers are added
+		const modifierCount = pixiNodes.filter(pixiNode => {
+			if (pixiNode.groupName != curNode.groupName) return false;
+			if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
+			if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
+			return true;
+		}).length + 1;
+		if (modifierCount > 2) return false;
 		return pixiNodes.find(pixiNode => {
 			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
-			if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
 			if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
-			return !upgradePrefixes.some(upgradePrefix => pixiNode.nodeName.includes(upgradePrefix));
+			if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
+			return [...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName);
 		}) == undefined;
 	}
 	return true;

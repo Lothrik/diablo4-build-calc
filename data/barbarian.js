@@ -1100,7 +1100,7 @@ Call upon 3 Ancients to aid you in battle for {#} seconds.
  Talic spins in a whirlwind rapidly attacking enemies for {#}% damage.
  Madawc upheaves the ground, dealing {#}% damage.`,
 		id: 103,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "50.0", "30", "6", "80", "30", "50", "150" ],
 		x: -2.535,
 		y: -280.23
@@ -1137,7 +1137,7 @@ Activate three times to attach chains to each of your weapons and perform an att
  Second your Two-Handed Slashing weapon swipes in front of you, dealing {#}% damage and inflicting {#}% Bleeding damage over {#} seconds.
  Third your Dual Wield weapons swing around you, dealing {#}% damage per hit.`,
 		id: 106,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "60.0", "40", "63", "2", "21", "126", "5", "34" ],
 		x: -539.3,
 		y: -1.915
@@ -1177,7 +1177,7 @@ Activate three times to attach chains to each of your weapons and perform an att
 Lucky Hit Chance: {#}%
 Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, dealing direct damage with Basic Skills grants Berserking for {#} seconds.`,
 		id: 110,
-		maxPoints: 5,
+		maxPoints: 1,
 		values: [ "60.0", "40", "5", "10", "5" ],
 		x: 4.845,
 		y: 277.735
