@@ -727,7 +727,7 @@ When a Burning enemy is killed, a Hydra head spawns from its corpse for 3 second
 	},
 	"Enhanced Hydra": {
 		baseSkill: "Hydra",
-		connections: [ "Hydra", "Conjuration", "Summoned Hydra" ],
+		connections: [ "Hydra", "Sorc_Mod_Hydra_UpgradeB", "Summoned Hydra" ],
 		description: `While Healthy, your casts of Hydra gain {#} additional head.`,
 		id: 62,
 		maxPoints: 1,
@@ -736,10 +736,11 @@ When a Burning enemy is killed, a Hydra head spawns from its corpse for 3 second
 		y: -486.715
 	},
 	"Sorc_Mod_Hydra_UpgradeB": {
+		baseSkill: "Hydra",
 		connections: [ "Enhanced Hydra" ],
 		description: `After you Critically Strike, your Hydras gain {#} Critical Strike Chance for {#} seconds.`,
 		id: 130,
-		maxPoints: 3,
+		maxPoints: 1,
 		values: [ "", "" ],
 		x: 158.38,
 		y: -596.294
@@ -814,7 +815,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 	},
 	"Enhanced Lightning Spear": {
 		baseSkill: "Lightning Spear",
-		connections: [ "Lightning Spear", "Conjuration", "Invoked Lightning Spear" ],
+		connections: [ "Lightning Spear", "Sorc_Mod_LightningSpear_UpgradeA", "Invoked Lightning Spear" ],
 		description: `After Critically Striking, Lightning Spear gains a {#} increased stacking Critical Strike Chance for its duration.`,
 		id: 70,
 		maxPoints: 1,
@@ -823,10 +824,11 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		y: 367.663
 	},
 	"Sorc_Mod_LightningSpear_UpgradeA": {
+		baseSkill: "Lightning Spear",
 		connections: [ "Enhanced Lightning Spear" ],
 		description: `Collecting Crackling Energy increases the damage of your next Lightning Spear cast by {#}, up to {#}.`,
 		id: 131,
-		maxPoints: 3,
+		maxPoints: 1,
 		values: [ "", "" ],
 		x: -931.92,
 		y: 378.401

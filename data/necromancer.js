@@ -90,7 +90,7 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		y: -569.72
 	},
 	"Reap": {
-		connections: [ "Basic", "Basic" ],
+		connections: [ "Necro_Mod_Reap_03", "Basic" ],
 		description: `Generate Essence: {#} per enemy hit
 Lucky Hit Chance: {#}%
 Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy with Reap increases your Damage Reduction by {#}% for {#} seconds.`,
@@ -101,30 +101,33 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		y: -99.975
 	},
 	"Necro_Mod_Reap_03": {
+		baseSkill: "Reap",
 		connections: [ "Reap", "Initiate's Reap", "Acolyte's Reap" ],
 		description: `If an enemy hit by Reap dies within {#} seconds, you gain {#} Attack Speed for {#} seconds.`,
 		id: 119,
-		maxPoints: 3,
+		maxPoints: 1,
 		values: [ "", "", "" ],
 		x: -830.87,
 		y: -161.91
 	},
 	"Initiate's Reap": {
-		connections: [ "Basic" ],
+		baseSkill: "Reap",
+		connections: [ "Necro_Mod_Reap_03" ],
 		description: `Reap instantly kills targets below {#}% Life.
 
 This does not work on bosses or players.`,
 		id: 6,
-		maxPoints: 3,
+		maxPoints: 1,
 		values: [ "5" ],
 		x: -921.775,
 		y: -287.89
 	},
 	"Acolyte's Reap": {
-		connections: [ "Basic" ],
+		baseSkill: "Reap",
+		connections: [ "Necro_Mod_Reap_03" ],
 		description: `Reap forms a Corpse under the first enemy hit. Can only occur every {#} seconds.`,
 		id: 7,
-		maxPoints: 3,
+		maxPoints: 1,
 		values: [ "5" ],
 		x: -1072.505,
 		y: -107.4
@@ -183,7 +186,7 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 	},
 	"Enhanced Bone Splinters": {
 		baseSkill: "Bone Splinters",
-		connections: [ "Bone Splinters", "Basic", "Initiate's Bone Splinters" ],
+		connections: [ "Bone Splinters", "Necro_Mod_BoneSplinters_01", "Initiate's Bone Splinters" ],
 		description: `Bone Splinters has a {#}% chance to fire {#} additional projectiles if cast while you have {#} or more Essence.`,
 		id: 13,
 		maxPoints: 1,
@@ -192,10 +195,11 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 		y: -161.18
 	},
 	"Necro_Mod_BoneSplinters_01": {
+		baseSkill: "Bone Splinters",
 		connections: [ "Enhanced Bone Splinters" ],
 		description: `Hitting the same enemy at least {#} times with the same cast of Bone Splinters grants {#} Critical Strike Chance for {#} seconds.`,
 		id: 120,
-		maxPoints: 3,
+		maxPoints: 1,
 		values: [ "", "", "" ],
 		x: 1137.875,
 		y: -122.755

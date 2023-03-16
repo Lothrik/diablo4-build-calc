@@ -247,9 +247,9 @@ function fixJSON(classData, curNode, rootNodeName) {
 				chainedConnectionList = [...new Set(chainedConnectionList)];
 				const unmodifiedName = nodeData["SkillName"].split(" ").slice(1).join(" ");
 				let unmodifiedNameSpecial = null;
-				if (unmodifiedName == "Wolf Pack") {
+				if (unmodifiedName == "Wolf Pack" && rootNodeName == "Companion") {
 					unmodifiedNameSpecial = "Wolves";
-				} else if (unmodifiedName == "Stealth") {
+				} else if (unmodifiedName == "Stealth" && rootNodeName == "Subterfuge") {
 					unmodifiedNameSpecial = "Concealment";
 				}
 				if (unmodifiedName.length > 0 && (chainedConnectionList.indexOf(unmodifiedName) != -1 || (unmodifiedNameSpecial != null && chainedConnectionList.indexOf(unmodifiedNameSpecial) != -1))) {

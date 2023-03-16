@@ -57,7 +57,7 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 	},
 	"Enhanced Bash": {
 		baseSkill: "Bash",
-		connections: [ "Bash", "Basic", "Combat Bash" ],
+		connections: [ "Bash", "Barb_Mod_Bash_UpgradeA", "Combat Bash" ],
 		description: `Damaging a Stunned enemy with Bash grants you {#}% Base Life ({#}) as Fortify. Double this amount when using a Two-Handed weapon.`,
 		id: 1,
 		maxPoints: 1,
@@ -66,10 +66,11 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 		y: -436.63
 	},
 	"Barb_Mod_Bash_UpgradeA": {
+		baseSkill: "Bash",
 		connections: [ "Enhanced Bash" ],
 		description: `Damaging a Stunned enemy with Bash generates an additional {#} Fury, or {#} Fury if using a Two-Handed weapon.`,
 		id: 124,
-		maxPoints: 3,
+		maxPoints: 1,
 		values: [ "", "" ],
 		x: -423.864,
 		y: -544.455

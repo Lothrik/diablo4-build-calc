@@ -162,12 +162,21 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode) 
 	Object.values(rawConnections).forEach(connectedNode => {
 		if (connectedNode in skillTreeValues) {
 			const connectedNodePower = skillTreeValues[connectedNode]["power"];
-			if (connectedNodePower == undefined || connectedNodePower["skill_name"] == undefined) {
+			const connectedNodeReward = skillTreeValues[connectedNode]["reward"];
+
+			let connectedSkillName = undefined;
+			if (connectedNodePower != undefined && "skill_name" in connectedNodePower) {
+				connectedSkillName = connectedNodePower["skill_name"];
+			} else if (connectedNodeReward != undefined && "reward_name" in connectedNodeReward) {
+				connectedSkillName = connectedNodeReward["reward_name"];
+			}
+
+			if (connectedNodePower == undefined || connectedSkillName == undefined) {
 				if (namedConnections.length > 0) namedConnections += ", ";
 				namedConnections += '"' + fallbackNode + '"';
-			} else if (skillTreeValues[connectedNode]["power"]["skill_name"] != currentNode) {
+			} else if (connectedSkillName != currentNode) {
 				if (namedConnections.length > 0) namedConnections += ", ";
-				namedConnections += '"' + skillTreeValues[connectedNode]["power"]["skill_name"] + '"';
+				namedConnections += '"' + connectedSkillName + '"';
 			}
 		} else {
 			throw new Error("connectedNode not in skillTreeValues");
@@ -254,20 +263,30 @@ function fixJSON(classData, curNode, rootNodeName) {
 					});
 				});
 				chainedConnectionList = [...new Set(chainedConnectionList)];
-				const unmodifiedName = skillName.split(" ").slice(1).join(" ");
+
+				let unmodifiedName = null;
 				let unmodifiedNameSpecial = null;
-				if (unmodifiedName == "Wolf Pack") {
-					unmodifiedNameSpecial = "Wolves";
-				} else if (unmodifiedName == "Stealth") {
-					unmodifiedNameSpecial = "Concealment";
-				}
-				if (unmodifiedName.length > 0 && (chainedConnectionList.indexOf(unmodifiedName) != -1 || (unmodifiedNameSpecial != null && chainedConnectionList.indexOf(unmodifiedNameSpecial) != -1))) {
-					if (nodeData["reward"]["max_talent_ranks"] == 3) {
-						$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; dwMaxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
-						nodeData["reward"]["max_talent_ranks"] = 1;
+
+				if (nodeData["reward"]["power_mod_hash"] > 0) {
+					if (skillName.includes(" ")) {
+						unmodifiedName = skillName.split(" ").slice(1).join(" ");
+					} else if (skillName.includes("_Mod_")) {
+						unmodifiedName = skillName.split("_Mod_")[1].split("_")[0].replace(/([A-Z])/g, " $1").trim();
 					}
-					nodeData["BASE_SKILL_NAME"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
+					if (unmodifiedName == skillName) unmodifiedName = null;
+
+					if (unmodifiedName == "Wolf Pack" && rootNodeName == "Companion") {
+						unmodifiedNameSpecial = "Wolves";
+					} else if (unmodifiedName == "Stealth" && rootNodeName == "Subterfuge") {
+						unmodifiedNameSpecial = "Concealment";
+					}
 				}
+
+				if (nodeData["reward"]["max_talent_ranks"] == 3 && nodeData["reward"]["power_mod_hash"] > 0) {
+					$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; maxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
+					nodeData["reward"]["max_talent_ranks"] = 1;
+				}
+				nodeData["BASE_SKILL_NAME"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
 			}
 		}
 	}
