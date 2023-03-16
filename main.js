@@ -1393,6 +1393,7 @@ function drawAllNodes() {
 								["maxPoints", 1],
 								["shapeSize", 1],
 								["shapeType", "rectangle"],
+								["values", boonData.get("values")],
 								["widthOverride", 300],
 								["x", extraX],
 								["y", extraY]

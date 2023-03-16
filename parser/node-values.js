@@ -1120,6 +1120,60 @@ let nodeValues = {
 				"3",
 				"20"
 			]
+		},
+		"Spirit Boons": {
+			"Prickleskin": [
+				""
+			],
+			"Gift of the Stag": [
+				"10"
+			],
+			"Wariness": [
+				"10"
+			],
+			"Advantageous Beast": [
+				"15"
+			],
+			"Scythe Talons": [
+				"5"
+			],
+			"Iron Feather": [
+				"10"
+			],
+			"Swooping Attacks": [
+				"10"
+			],
+			"Avian Wrath": [
+				"30"
+			],
+			"Obsidian Slam": [
+				""
+			],
+			"Overload": [
+				"20",
+				"60"
+			],
+			"Masochistic": [
+				"3",
+				""
+			],
+			"Calm Before the Storm": [
+				"15",
+				"2"
+			],
+			"Packleader": [
+				"20"
+			],
+			"Energize": [
+				"15",
+				"10"
+			],
+			"Bolster": [
+				"10"
+			],
+			"Calamity": [
+				"25"
+			]
 		}
 	},
 	"Necromancer": {

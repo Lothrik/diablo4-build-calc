@@ -1,6 +1,5 @@
 import { nodeHistory } from "./node-history.js";
 import { nodeValues } from "./node-values.js";
-import { druidBoons } from "./druid-boons.js";
 import { necromancerMinions } from "./necromancer-minions.js";
 import { sorcererEnchants } from "./sorcerer-enchants.js";
 
@@ -293,6 +292,27 @@ function fixJSON(classData, curNode, rootNodeName) {
 	}
 }
 
+function updateSavedValues(className, rootNodeName, skillName, sanitizedDescription) {
+	if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
+	if (nodeValues[className][rootNodeName][skillName] == undefined) nodeValues[className][rootNodeName][skillName] = [];
+	const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
+	const savedValues = nodeValues[className][rootNodeName][skillName];
+	if (descLength > savedValues.length) {
+		savedValues.push(...Array(descLength - savedValues.length).fill(""));
+	} else {
+		savedValues.length = descLength;
+	}
+	let output = "";
+	if (savedValues.length > 1) {
+		output = `\t\tvalues: [ "${savedValues.join('", "')}" ],\n`
+	} else if (savedValues.length > 0) {
+		output = `\t\tvalues: [ "${savedValues[0]}" ],\n`;
+	} else {
+		delete nodeValues[className][rootNodeName][skillName];
+	}
+	return output;
+}
+
 const MAX_RECURSION_DEPTH = 10;
 function recursiveSkillTreeScan(connectionData, classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth = 0) {
 	let output = "";
@@ -336,22 +356,7 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 						output += "\t\tid: " + nodeHistoryLength + ",\n";
 					}
 					output += "\t\tmaxPoints: " + nodeData["reward"]["max_talent_ranks"] + ",\n";
-					if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
-					if (nodeValues[className][rootNodeName][skillName] == undefined) nodeValues[className][rootNodeName][skillName] = [];
-					const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
-					const savedValues = nodeValues[className][rootNodeName][skillName];
-					if (descLength > savedValues.length) {
-						savedValues.push(...Array(descLength - savedValues.length).fill(""));
-					} else {
-						savedValues.length = descLength;
-					}
-					if (savedValues.length > 1) {
-						output += `\t\tvalues: [ "${savedValues.join('", "')}" ],\n`
-					} else if (savedValues.length > 0) {
-						output += `\t\tvalues: [ "${savedValues[0]}" ],\n`;
-					} else {
-						delete nodeValues[className][rootNodeName][skillName];
-					}
+					output += updateSavedValues(className, rootNodeName, skillName, sanitizedDescription);
 					output += "\t\tx: " + parseFloat(((nodeData["x_pos"] - rootNode["x_pos"]) * scaleRatio).toFixed(3)) + ",\n";
 					output += "\t\ty: " + parseFloat(((nodeData["y_pos"] - rootNode["y_pos"]) * scaleRatio).toFixed(3)) + "\n";
 					output += "\t},\n";
@@ -406,7 +411,7 @@ function runParser(downloadMode) {
 				formattedData += "\t\tx: 2500,\n";
 				formattedData += "\t\ty: 0\n";
 				formattedData += "\t},\n";
-			} else if (className == "Druid" && druidBoons != undefined) {
+			} else if (className == "Druid") {
 				formattedData += '\t"Spirit Boons": {\n';
 				formattedData += "\t\tx: 2500,\n";
 				formattedData += "\t\ty: 0\n";
@@ -458,32 +463,50 @@ function runParser(downloadMode) {
 					formattedData += "\t},\n";
 				}
 				formattedData += "};\n\n";
-			} else if (className == "Druid" && druidBoons != undefined) {
+			} else if (className == "Druid") {
+				const druidBoons = classData["Spirit Boons"];
 				formattedData += classObjectName + '["Spirit Boons"] = {\n';
-				for (const [boonTypeName, boonTypeData] of Object.entries(druidBoons)) {
-					formattedData += '	"' + boonTypeName + '": {\n';
-					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName];
-					if (nodeHistoricalId != undefined) {
-						formattedData += "\t\tid: " + nodeHistoricalId + ",\n";
-					} else {
-						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
-						nodeHistory[className]["Spirit Boons: " + boonTypeName] = nodeHistoryLength;
-						formattedData += "\t\tid: " + nodeHistoryLength + ",\n";
-					}
-					for (const [boonName, boonData] of Object.entries(boonTypeData)) {
-						formattedData += '\t\t"' + boonName + '": {\n';
-						formattedData += "\t\t\tdescription: `" + boonData + "`,\n";
-						const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonName];
+				let boonTypeFormatted = [];
+				for (const [boonFullName, boonData] of Object.entries(druidBoons)) {
+					const boonFullNameArray = boonFullName.split("_");
+					const boonTypeName = boonFullNameArray.at(-2);
+					const boonModifierId = Number(boonFullNameArray.at(-1));
+					if (!boonTypeFormatted[boonTypeName]) {
+						formattedData += '	"' + boonTypeName + '": {\n';
+						const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonTypeName];
 						if (nodeHistoricalId != undefined) {
-							formattedData += "\t\t\tid: " + nodeHistoricalId + ",\n";
+							formattedData += "\t\tid: " + nodeHistoricalId + ",\n";
 						} else {
 							const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
-							nodeHistory[className]["Spirit Boons: " + boonName] = nodeHistoryLength;
-							formattedData += "\t\t\tid: " + nodeHistoryLength + ",\n";
+							nodeHistory[className]["Spirit Boons: " + boonTypeName] = nodeHistoryLength;
+							formattedData += "\t\tid: " + nodeHistoryLength + ",\n";
 						}
+						boonTypeFormatted[boonTypeName] = true;
+					}
+
+					formattedData += '\t\t"' + boonData["name"] + '": {\n';
+					const sanitizedDescription = sanitizeNodeDescription(boonData["desc"]);
+					formattedData += `\t${updateSavedValues(className, "Spirit Boons", boonData["name"], sanitizedDescription)}`;
+					formattedData += "\t\t\tdescription: `" + sanitizedDescription + "`,\n";
+					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonData["name"]];
+					if (nodeHistoricalId != undefined) {
+						formattedData += "\t\t\tid: " + nodeHistoricalId + "\n";
+					} else {
+						const nodeHistoryLength = Object.keys(nodeHistory[className]).length;
+						nodeHistory[className]["Spirit Boons: " + boonData["name"]] = nodeHistoryLength;
+						formattedData += "\t\t\tid: " + nodeHistoryLength + "\n";
+					}
+
+					if (boonModifierId == 4) {
+						formattedData += "\t\t}\n";
+						if (boonTypeName == "Wolf") {
+							formattedData += "\t}\n";
+						} else {
+							formattedData += "\t},\n";
+						}
+					} else {
 						formattedData += "\t\t},\n";
 					}
-					formattedData += "\t},\n";
 				}
 				formattedData += "};\n\n";
 			}

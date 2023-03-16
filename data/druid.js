@@ -1459,79 +1459,95 @@ druidData["Spirit Boons"] = {
 	"Deer": {
 		id: 158,
 		"Prickleskin": {
-			description: `Gain +796 Thorns.`,
-			id: 142,
+			values: [ "" ],
+			description: `Gain {#} Thorns.`,
+			id: 142
 		},
 		"Gift of the Stag": {
-			description: `Gain +10 Maximum Spirit.`,
-			id: 143,
+			values: [ "10" ],
+			description: `Gain +{#} Maximum Spirit.`,
+			id: 143
 		},
 		"Wariness": {
-			description: `Take x10% Reduced Damage from Elites.`,
-			id: 144,
+			values: [ "10" ],
+			description: `Take {#}% reduced damage from Elites.`,
+			id: 144
 		},
 		"Advantageous Beast": {
-			description: `Reduce the duration of incoming crowd control effects by 15%.`,
-			id: 145,
-		},
+			values: [ "15" ],
+			description: `Reduce the duration of Control Impairing Effects by {#}%.`,
+			id: 145
+		}
 	},
 	"Eagle": {
 		id: 159,
 		"Scythe Talons": {
-			description: `+5% Critical Strike Chance.`,
-			id: 146,
+			values: [ "5" ],
+			description: `Gain +{#}% increased Critical Strike Chance.`,
+			id: 146
 		},
 		"Iron Feather": {
-			description: `x10% Maximum Health.`,
-			id: 147,
+			values: [ "10" ],
+			description: `Gain x{#}% Maximum Life.`,
+			id: 147
 		},
 		"Swooping Attacks": {
-			description: `+10% Attack Speed.`,
-			id: 148,
+			values: [ "10" ],
+			description: `Gain +{#}% Attack Speed.`,
+			id: 148
 		},
 		"Avian Wrath": {
-			description: `+30% Critical Strike Damage.`,
-			id: 149,
-		},
-	},
-	"Wolf": {
-		id: 160,
-		"Packleader": {
-			description: `Lucky Hit: Critical Strikes have up to a 20% chance to reset the cooldown of your Companion skills.`,
-			id: 150,
-		},
-		"Energize": {
-			description: `Lucky Hit: Dealing damage has up to a 15% chance to restore 10 Spirit.`,
-			id: 151,
-		},
-		"Bolster": {
-			description: `Fortify for 10% of your maximum Life when you use a Defensive skill.`,
-			id: 152,
-		},
-		"Calamity": {
-			description: `Extend the duration of Ultimate skills by 25%.`,
-			id: 153,
-		},
+			values: [ "30" ],
+			description: `Gain x{#}% Critical Strike Damage.`,
+			id: 149
+		}
 	},
 	"Snake": {
 		id: 161,
 		"Obsidian Slam": {
-			description: `Lucky Hit: Earth skills have up to a 15% chance to Stun enemies for # seconds. If the target is already Stunned and is not a boss, they Overpower the target instead.`,
-			id: 154,
+			values: [ "" ],
+			description: `Every {#}th kill will cause your next Earth Skill to Overpower.`,
+			id: 154
 		},
 		"Overload": {
-			description: `Lucky Hit: Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 63.53% damage to surrounding enemies.`,
-			id: 155,
+			values: [ "20", "60" ],
+			description: `Lucky Hit: Dealing Lightning damage has up to a {#}% chance to cause the target to emit a static discharge, dealing {#}% Lightning damage to surrounding enemies.`,
+			id: 155
 		},
 		"Masochistic": {
-			description: `Critical Strikes with Shapeshifting skills heal you for 3% of your maximum Life.`,
-			id: 156,
+			values: [ "3", "" ],
+			description: `Critical Strikes with Shapeshifting Skills Heal you for {#}% Maximum Life ({#}).`,
+			id: 156
 		},
 		"Calm Before the Storm": {
-			description: `Lucky Hit: Nature Magic skills have up to a 15% chance to reduce the cooldown of your Ultimate skill by 2 seconds.`,
-			id: 157,
-		},
+			values: [ "15", "2" ],
+			description: `Lucky Hit: Nature Magic Skills have up to a {#}% chance to reduce the Cooldown of your Ultimate Skill by {#} seconds.`,
+			id: 157
+		}
 	},
+	"Wolf": {
+		id: 160,
+		"Packleader": {
+			values: [ "20" ],
+			description: `Lucky Hit: Critical Strikes have up to a {#}% chance to reset the Cooldowns of your Companion Skills.`,
+			id: 150
+		},
+		"Energize": {
+			values: [ "15", "10" ],
+			description: `Lucky Hit: Dealing damage has up to a {#}% chance to restore {#} Spirit.`,
+			id: 151
+		},
+		"Bolster": {
+			values: [ "10" ],
+			description: `Fortify for {#}% of your Maximum Life when you use a Defensive Skill.`,
+			id: 152
+		},
+		"Calamity": {
+			values: [ "25" ],
+			description: `Extend the duration of Ultimate Skills by {#}%.`,
+			id: 153
+		}
+	}
 };
 
 export { druidData };
