@@ -127,11 +127,12 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/{if:.+?}/gi, "")									// `{if:ADVANCED_TOOLTIP}`, and similar.
 		.replace(/{\/if}/gi, "")									// `{/if}`, exact.
 		.replace(/sLevel/g, "")										// `sLevel`, exact.
-		.replace(/4second\.:/g, "")									// `4second.:`, exact.
+		.replace(/\|4([^:]+):([^;]+);/g, "$2")						// `|4first:second;` => `second`.
+		.replace(/\[([^\]\|]+)\|(%?)([x\+]?)\|\]/g, "$3[$1]$2")		// Replace `[...|%x|]` with `x[...]%`, and similar.
+		.replace(/\[([^\]\|]+)\|([x\+]?)(%?)\|\]/g, "$2[$1]$3")		// Replace `[...|x%|]` with `x[...]%`, and similar.
 		.replace(/ *\* */g, "")										// `*`, including any nearby whitespace.
 		.replace(/ *\| */g, "")										// `|`, including any nearby whitespace.
 		.replace(/ \./g, ".")										// Replace ` .` with `.`.
-		.replace(/%\]/g, "]%")										// Replace `%]` with `]%`.
 		.replace(/{else}/gi, "\n")									// Replace `{else}` with a newline.
 		.replace(/{(dot|payload):.+?}/gi, "{#}%")					// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
 		.replace(/ *{.+?} */g, "{#}")								// Replace anything inside curly brackets with `{#}`.

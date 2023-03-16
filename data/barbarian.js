@@ -99,7 +99,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 	"Enhanced Lunging Strike": {
 		baseSkill: "Lunging Strike",
 		connections: [ "Lunging Strike", "Combat Lunging Strike", "Battle Lunging Strike" ],
-		description: `Lunging Strike deals {#}% increased damage and Heals you for {#}% Maximum Life ({#}) when it damages a Healthy enemy.`,
+		description: `Lunging Strike deals x{#}% increased damage and Heals you for {#}% Maximum Life ({#}) when it damages a Healthy enemy.`,
 		id: 5,
 		maxPoints: 1,
 		values: [ "30", "2", "" ],
@@ -132,7 +132,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 Lucky Hit Chance: {#}%
 Unleash a rapid flurry of blows, dealing {#}% damage with each pair of hits.
 
-If Frenzy hits an enemy, its Attack Speed is increased by {#} for {#} seconds, up to {#}.`,
+If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds, up to +{#}%.`,
 		id: 8,
 		maxPoints: 5,
 		values: [ "5", "30", "21", "20", "3", "60" ],
@@ -142,7 +142,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by {#} for {#} seconds, u
 	"Enhanced Frenzy": {
 		baseSkill: "Frenzy",
 		connections: [ "Frenzy", "Battle Frenzy", "Combat Frenzy" ],
-		description: `While Frenzy is granting {#} bonus Attack Speed, it also generates {#} additional Fury.`,
+		description: `While Frenzy is granting +{#}% bonus Attack Speed, it also generates {#} additional Fury.`,
 		id: 9,
 		maxPoints: 1,
 		values: [ "60", "" ],
@@ -152,7 +152,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by {#} for {#} seconds, u
 	"Battle Frenzy": {
 		baseSkill: "Frenzy",
 		connections: [ "Enhanced Frenzy" ],
-		description: `While Berserking, your other Skills gain {#} Attack Speed for each stack of Frenzy you have.`,
+		description: `While Berserking, your other Skills gain +{#}% Attack Speed for each stack of Frenzy you have.`,
 		id: 10,
 		maxPoints: 1,
 		values: [ "5" ],
@@ -193,7 +193,7 @@ Flay the enemy, dealing {#}% damage and inflicting {#}% Bleeding damage over {#}
 	"Battle Flay": {
 		baseSkill: "Flay",
 		connections: [ "Enhanced Flay" ],
-		description: `When Flay deals direct damage to an enemy, they take {#} increased Bleeding damage from you for the next {#} seconds.`,
+		description: `When Flay deals direct damage to an enemy, they take x{#}% increased Bleeding damage from you for the next {#} seconds.`,
 		id: 14,
 		maxPoints: 1,
 		values: [ "10", "" ],
@@ -227,7 +227,7 @@ Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a co
 	"Enhanced Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
 		connections: [ "Hammer of the Ancients", "Violent Hammer of the Ancients", "Furious Hammer of the Ancients" ],
-		description: `Gain {#} more Fury for {#} seconds for each enemy damaged by Hammer of the Ancients, stacking up to {#} times.`,
+		description: `Gain x{#}% more Fury for {#} seconds for each enemy damaged by Hammer of the Ancients, stacking up to {#} times.`,
 		id: 17,
 		maxPoints: 1,
 		values: [ "3", "5", "10" ],
@@ -237,7 +237,7 @@ Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a co
 	"Violent Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
 		connections: [ "Enhanced Hammer of the Ancients" ],
-		description: `After Overpowering with Hammer of the Ancients, you deal {#} more damage for {#} seconds.`,
+		description: `After Overpowering with Hammer of the Ancients, you deal x{#}% more damage for {#} seconds.`,
 		id: 18,
 		maxPoints: 1,
 		values: [ "30", "2.5" ],
@@ -247,7 +247,7 @@ Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a co
 	"Furious Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
 		connections: [ "Enhanced Hammer of the Ancients" ],
-		description: `Hammer of the Ancients deals {#} additional damage for each point of Fury you had when using it.`,
+		description: `Hammer of the Ancients deals x{#}% additional damage for each point of Fury you had when using it.`,
 		id: 19,
 		maxPoints: 1,
 		values: [ "1" ],
@@ -288,7 +288,7 @@ Tear into the ground with your weapon and fling debris forward, dealing {#}% dam
 	"Furious Upheaval": {
 		baseSkill: "Upheaval",
 		connections: [ "Enhanced Upheaval" ],
-		description: `Dealing direct damage to an enemy with a Skill that is not Upheaval causes your next cast of Upheaval to deal {#} increased damage, stacking up to {#} times.`,
+		description: `Dealing direct damage to an enemy with a Skill that is not Upheaval causes your next cast of Upheaval to deal x{#}% increased damage, stacking up to {#} times.`,
 		id: 23,
 		maxPoints: 1,
 		values: [ "8", "10" ],
@@ -369,7 +369,7 @@ Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding
 	"Violent Rend": {
 		baseSkill: "Rend",
 		connections: [ "Enhanced Rend" ],
-		description: `Rend deals {#} increased damage to Vulnerable enemies.`,
+		description: `Rend deals x{#}% increased damage to Vulnerable enemies.`,
 		id: 31,
 		maxPoints: 1,
 		values: [ "12" ],
@@ -420,7 +420,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 	"Violent Whirlwind": {
 		baseSkill: "Whirlwind",
 		connections: [ "Enhanced Whirlwind" ],
-		description: `After using Whirlwind for {#} seconds, Whirlwind deals {#} increased damage until it is cancelled.`,
+		description: `After using Whirlwind for {#} seconds, Whirlwind deals x{#}% increased damage until it is cancelled.`,
 		id: 36,
 		maxPoints: 1,
 		values: [ "2", "30" ],
@@ -429,7 +429,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 	},
 	"Endless Fury": {
 		connections: [ "Core" ],
-		description: `Basic Skills generate {#} more Fury when using Two-Handed weapons.`,
+		description: `Basic Skills generate x{#}% more Fury when using Two-Handed weapons.`,
 		id: 37,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -452,7 +452,7 @@ Taunt Nearby enemies and gain {#}% Damage Reduction for {#} seconds.`,
 	"Enhanced Challenging Shout": {
 		baseSkill: "Challenging Shout",
 		connections: [ "Challenging Shout", "Strategic Challenging Shout", "Tactical Challenging Shout" ],
-		description: `While Challenging Shout is active, gain {#} bonus Maximum Life.`,
+		description: `While Challenging Shout is active, gain x{#}% bonus Maximum Life.`,
 		id: 39,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -530,7 +530,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 	},
 	"Tough as Nails": {
 		connections: [ "Outburst" ],
-		description: `Increase your Thorns by {#}. When enemies hit you, they take an additional {#}% of your Thorns as Bleeding damage over {#} seconds.`,
+		description: `Increase your Thorns by +{#}%. When enemies hit you, they take an additional {#}% of your Thorns as Bleeding damage over {#} seconds.`,
 		id: 47,
 		maxPoints: 3,
 		values: [ "{20/40/60}", "", "" ],
@@ -581,7 +581,7 @@ Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} s
 	"Rallying Cry": {
 		connections: [ "Defensive", "Enhanced Rallying Cry" ],
 		description: `Cooldown: {#} seconds
-Bellow a rallying cry, increasing your Movement Speed by {#} and Resource Generation by {#} for {#} seconds, and Nearby allies for {#} seconds.`,
+Bellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for {#} seconds, and Nearby allies for {#} seconds.`,
 		id: 52,
 		maxPoints: 5,
 		values: [ "25.0", "30", "50", "6", "" ],
@@ -610,7 +610,7 @@ Bellow a rallying cry, increasing your Movement Speed by {#} and Resource Genera
 	"Tactical Rallying Cry": {
 		baseSkill: "Rallying Cry",
 		connections: [ "Enhanced Rallying Cry" ],
-		description: `Rallying Cry generates {#} Fury and grants you an additional {#} Resource Generation.`,
+		description: `Rallying Cry generates {#} Fury and grants you an additional x{#}% Resource Generation.`,
 		id: 55,
 		maxPoints: 1,
 		values: [ "25", "50" ],
@@ -619,7 +619,7 @@ Bellow a rallying cry, increasing your Movement Speed by {#} and Resource Genera
 	},
 	"Imposing Presence": {
 		connections: [ "Defensive", "Martial Vigor" ],
-		description: `Gain {#} additional Maximum Life.`,
+		description: `Gain x{#}% additional Maximum Life.`,
 		id: 56,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -702,7 +702,7 @@ Bellow a mighty war cry, increasing your damage dealt by {#} for {#} seconds, an
 	"Power War Cry": {
 		baseSkill: "War Cry",
 		connections: [ "Enhanced War Cry" ],
-		description: `If at least {#} enemies are Nearby when you cast War Cry, your damage bonus is increased to {#}.`,
+		description: `If at least {#} enemies are Nearby when you cast War Cry, your damage bonus is increased to x{#}%.`,
 		id: 64,
 		maxPoints: 1,
 		values: [ "4", "15" ],
@@ -721,7 +721,7 @@ Bellow a mighty war cry, increasing your damage dealt by {#} for {#} seconds, an
 	},
 	"Booming Voice": {
 		connections: [ "Brawling", "Raid Leader", "Guttural Yell" ],
-		description: `Your Shout Skill effect durations are increased by {#}.`,
+		description: `Your Shout Skill effect durations are increased by x{#}%.`,
 		id: 66,
 		maxPoints: 3,
 		values: [ "{10/20/30}" ],
@@ -840,7 +840,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 	},
 	"Prolific Fury": {
 		connections: [ "Aggressive Resistance" ],
-		description: `While Berserking, Fury Generation is increased by {#}.`,
+		description: `While Berserking, Fury Generation is increased by x{#}%.`,
 		id: 78,
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
@@ -849,7 +849,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 	},
 	"Battle Fervor": {
 		connections: [ "Aggressive Resistance" ],
-		description: `When a Brawling Skill damages at least one enemy, gain Berserking for {#} seconds.`,
+		description: `When a Brawling Skill damages at least one enemy, gain Berserking for {#}4second.:seconds.`,
 		id: 125,
 		maxPoints: 3,
 		values: [ "" ],
@@ -858,7 +858,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 	},
 	"Swiftness": {
 		connections: [ "Brawling", "Quick Impulses" ],
-		description: `Movement Speed is increased by {#}.`,
+		description: `Movement Speed is increased by +{#}%.`,
 		id: 80,
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
@@ -921,7 +921,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 	},
 	"Thick Skin": {
 		connections: [ "Weapon Mastery", "Counteroffensive", "Defensive Stance" ],
-		description: `Each time you take direct damage gain {#}% Base Life ({#}) as Fortify.`,
+		description: `Each time you take direct damage gain {#} Base Life ({#}) as Fortify.`,
 		id: 86,
 		maxPoints: 3,
 		values: [ "{0.4/0.7/1.1}", "" ],
@@ -930,7 +930,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 	},
 	"Counteroffensive": {
 		connections: [ "Thick Skin" ],
-		description: `While you have Fortify for over {#}% of your Maximum Life, you deal {#} increased damage.`,
+		description: `While you have Fortify for over {#}% of your Maximum Life, you deal x{#}% increased damage.`,
 		id: 87,
 		maxPoints: 3,
 		values: [ "50", "{5/10/15}" ],
@@ -964,7 +964,7 @@ If this kills an enemy, its Cooldown is reset.`,
 	"Enhanced Death Blow": {
 		baseSkill: "Death Blow",
 		connections: [ "Death Blow", "Warrior's Death Blow", "Fighter's Death Blow" ],
-		description: `Death Blow deals {#} increased damage to Bosses.`,
+		description: `Death Blow deals x{#}% increased damage to Bosses.`,
 		id: 90,
 		maxPoints: 1,
 		values: [ "100" ],
@@ -993,7 +993,7 @@ If this kills an enemy, its Cooldown is reset.`,
 	},
 	"Pit Fighter": {
 		connections: [ "Weapon Mastery", "Slaying Strike", "No Mercy" ],
-		description: `You deal {#} increased damage to Close enemies and gain {#}% Distant Damage Reduction.`,
+		description: `You deal x{#}% increased damage to Close enemies and gain {#}% Distant Damage Reduction.`,
 		id: 93,
 		maxPoints: 3,
 		values: [ "{3/6/9}", "{2/4/6}" ],
@@ -1002,7 +1002,7 @@ If this kills an enemy, its Cooldown is reset.`,
 	},
 	"Slaying Strike": {
 		connections: [ "Pit Fighter", "Expose Vulnerability" ],
-		description: `You deal {#} increased damage against Injured enemies.`,
+		description: `You deal x{#}% increased damage against Injured enemies.`,
 		id: 94,
 		maxPoints: 3,
 		values: [ "{8/15/23}" ],
@@ -1011,7 +1011,7 @@ If this kills an enemy, its Cooldown is reset.`,
 	},
 	"Expose Vulnerability": {
 		connections: [ "No Mercy", "Slaying Strike" ],
-		description: `Dealing direct damage with a Weapon Mastery skill causes your next Core Skill to make enemies Vulnerable for {#}4second:seconds;.`,
+		description: `Dealing direct damage with a Weapon Mastery skill causes your next Core Skill to make enemies Vulnerable for {#} seconds.`,
 		id: 95,
 		maxPoints: 3,
 		values: [ "{1.5/3/4.5}" ],
@@ -1020,7 +1020,7 @@ If this kills an enemy, its Cooldown is reset.`,
 	},
 	"No Mercy": {
 		connections: [ "Expose Vulnerability", "Pit Fighter" ],
-		description: `You have {#} increased Critical Strike chance against Immobilized, Stunned, or Slowed enemies.`,
+		description: `You have +{#}% increased Critical Strike chance against Immobilized, Stunned, or Slowed enemies.`,
 		id: 96,
 		maxPoints: 3,
 		values: [ "{5/9/13}" ],
@@ -1063,7 +1063,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 	"Warrior's Rupture": {
 		baseSkill: "Rupture",
 		connections: [ "Enhanced Rupture" ],
-		description: `Hitting enemies with Rupture increases your Attack Speed by {#} for {#} seconds.`,
+		description: `Hitting enemies with Rupture increases your Attack Speed by +{#}% for {#} seconds.`,
 		id: 100,
 		maxPoints: 1,
 		values: [ "20", "4" ],
@@ -1081,7 +1081,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 	},
 	"Cut to the Bone": {
 		connections: [ "Hamstring" ],
-		description: `Your Bleeding effects deal {#} increased damage to Vulnerable enemies.`,
+		description: `Your Bleeding effects deal x{#}% increased damage to Vulnerable enemies.`,
 		id: 102,
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
@@ -1108,7 +1108,7 @@ Call upon 3 Ancients to aid you in battle for {#} seconds.
 	"Prime Call of the Ancients": {
 		baseSkill: "Call of the Ancients",
 		connections: [ "Supreme Call of the Ancients", "Call of the Ancients" ],
-		description: `While Call of the Ancients is active, gain {#} bonus Attack Speed and {#} increased damage.`,
+		description: `While Call of the Ancients is active, gain +{#}% bonus Attack Speed and x{#}% increased damage.`,
 		id: 104,
 		maxPoints: 1,
 		values: [ "10", "10" ],
@@ -1145,7 +1145,7 @@ Activate three times to attach chains to each of your weapons and perform an att
 	"Prime Iron Maelstrom": {
 		baseSkill: "Iron Maelstrom",
 		connections: [ "Supreme Iron Maelstrom", "Iron Maelstrom" ],
-		description: `Iron Maelstrom gains {#} increased Critical Strike Chance and deals {#} increased Critical Strike Damage`,
+		description: `Iron Maelstrom gains +{#}% increased Critical Strike Chance and deals x{#}% increased Critical Strike Damage`,
 		id: 107,
 		maxPoints: 1,
 		values: [ "10", "20" ],
@@ -1164,7 +1164,7 @@ Activate three times to attach chains to each of your weapons and perform an att
 	},
 	"Duelist": {
 		connections: [ "Ultimate" ],
-		description: `Attack Speed is increased by {#} while using One-Handed weapons.`,
+		description: `Attack Speed is increased by +{#}% while using One-Handed weapons.`,
 		id: 109,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
@@ -1185,7 +1185,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 	"Prime Wrath of the Berserker": {
 		baseSkill: "Wrath of the Berserker",
 		connections: [ "Supreme Wrath of the Berserker", "Wrath of the Berserker" ],
-		description: `While Wrath of the Berserker is active, gain {#} increased Movement Speed and increase Fury Generation by {#}.`,
+		description: `While Wrath of the Berserker is active, gain +{#}% increased Movement Speed and increase Fury Generation by x{#}%.`,
 		id: 112,
 		maxPoints: 1,
 		values: [ "20", "30" ],
@@ -1195,7 +1195,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 	"Supreme Wrath of the Berserker": {
 		baseSkill: "Wrath of the Berserker",
 		connections: [ "Prime Wrath of the Berserker" ],
-		description: `While Wrath of the Berserker is active, every {#} Fury you spend increases Berserk's damage bonus by {#}.`,
+		description: `While Wrath of the Berserker is active, every {#} Fury you spend increases Berserk's damage bonus by x{#}%.`,
 		id: 111,
 		maxPoints: 1,
 		values: [ "50", "25" ],
@@ -1231,7 +1231,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 	},
 	"Wallop": {
 		connections: [ "Ultimate", "Brute Force", "Concussion" ],
-		description: `Your Skills using Bludgeoning weapons deal {#} increased damage if the enemy is Stunned or Vulnerable.`,
+		description: `Your Skills using Bludgeoning weapons deal x{#}% increased damage if the enemy is Stunned or Vulnerable.`,
 		id: 116,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -1240,7 +1240,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 	},
 	"Brute Force": {
 		connections: [ "Wallop", "Heavy Handed" ],
-		description: `Your Overpowers deal {#} increased damage when using a Two-Handed weapon.`,
+		description: `Your Overpowers deal x{#}% increased damage when using a Two-Handed weapon.`,
 		id: 117,
 		maxPoints: 3,
 		values: [ "{15/30/45}" ],
@@ -1249,7 +1249,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 	},
 	"Heavy Handed": {
 		connections: [ "Ultimate", "Brute Force" ],
-		description: `While using Two-Handed weapons you deal {#} increased Critical Strike Damage.`,
+		description: `While using Two-Handed weapons you deal x{#}% increased Critical Strike Damage.`,
 		id: 118,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -1270,7 +1270,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 barbarianData["Capstone"] = {
 	"Unconstrained": {
 		connections: [ "Capstone" ],
-		description: `Increase Berserk's maximum duration by {#} seconds and increase its damage bonus by {#}.`,
+		description: `Increase Berserk's maximum duration by {#} seconds and increase its damage bonus by +{#}%.`,
 		id: 120,
 		maxPoints: 1,
 		values: [ "5", "25" ],
@@ -1290,7 +1290,7 @@ Overpowering a Bleeding enemy creates an explosion that inflicts {#}% Bleeding d
 	},
 	"Unbridled Rage": {
 		connections: [ "Capstone" ],
-		description: `Core Skills deal {#} increased damage, but cost {#} more Fury.`,
+		description: `Core Skills deal x{#}% increased damage, but cost x{#}% more Fury.`,
 		id: 122,
 		maxPoints: 1,
 		values: [ "135", "100" ],
@@ -1299,9 +1299,9 @@ Overpowering a Bleeding enemy creates an explosion that inflicts {#}% Bleeding d
 	},
 	"Walking Arsenal": {
 		connections: [ "Capstone" ],
-		description: `Dealing direct damage with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual Wielded weapons grants {#} increased damage for {#} seconds.
+		description: `Dealing direct damage with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual Wielded weapons grants x{#}% increased damage for {#} seconds.
 
-While all three damage bonuses are active, you gain an additional {#} increased damage.`,
+While all three damage bonuses are active, you gain an additional x{#}% increased damage.`,
 		id: 123,
 		maxPoints: 1,
 		values: [ "10", "6", "15" ],

@@ -58,7 +58,7 @@ Quickly stab your victim for {#}% damage and shift, allowing you to move freely 
 	"Enhanced Blade Shift": {
 		baseSkill: "Blade Shift",
 		connections: [ "Fundamental Blade Shift", "Blade Shift", "Primary Blade Shift" ],
-		description: `Damaging an enemy with Blade Shift grants {#} Movement Speed while Blade Shift is active, up to {#}.`,
+		description: `Damaging an enemy with Blade Shift grants +{#}% Movement Speed while Blade Shift is active, up to +{#}%.`,
 		id: 1,
 		maxPoints: 1,
 		values: [ "5", "20" ],
@@ -89,7 +89,7 @@ Quickly stab your victim for {#}% damage and shift, allowing you to move freely 
 		connections: [ "Enhanced Invigorating Strike", "Basic" ],
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
-Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by {#} for {#} seconds.`,
+Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by x{#}% for {#} seconds.`,
 		id: 4,
 		maxPoints: 5,
 		values: [ "1", "50", "29", "20", "3" ],
@@ -99,7 +99,7 @@ Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by
 	"Enhanced Invigorating Strike": {
 		baseSkill: "Invigorating Strike",
 		connections: [ "Invigorating Strike", "Primary Invigorating Strike", "Fundamental Invigorating Strike" ],
-		description: `Damaging a Crowd Controlled or Injured enemy with Invigorating Strike increases its Energy Regeneration bonus to {#}.`,
+		description: `Damaging a Crowd Controlled or Injured enemy with Invigorating Strike increases its Energy Regeneration bonus to x{#}%.`,
 		id: 5,
 		maxPoints: 1,
 		values: [ "30" ],
@@ -109,7 +109,7 @@ Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by
 	"Primary Invigorating Strike": {
 		baseSkill: "Invigorating Strike",
 		connections: [ "Enhanced Invigorating Strike" ],
-		description: `Invigorating Strike additionally grants {#} Lucky Hit Chance. Hitting a Crowd Controlled or Injured enemy increases this bonus to {#} Lucky Hit Chance.`,
+		description: `Invigorating Strike additionally grants +{#}% Lucky Hit Chance. Hitting a Crowd Controlled or Injured enemy increases this bonus to +{#}% Lucky Hit Chance.`,
 		id: 7,
 		maxPoints: 1,
 		values: [ "8", "16" ],
@@ -171,7 +171,7 @@ Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemi
 		connections: [ "Enhanced Heartseeker", "Basic" ],
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
-Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Critical Strike Chance against them by {#} for {#} seconds, up to {#}.`,
+Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Critical Strike Chance against them by +{#}% for {#} seconds, up to +{#}%.`,
 		id: 12,
 		maxPoints: 5,
 		values: [ "1", "50", "28", "3", "4", "15" ],
@@ -181,7 +181,7 @@ Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Criti
 	"Enhanced Heartseeker": {
 		baseSkill: "Heartseeker",
 		connections: [ "Heartseeker", "Fundamental Heartseeker", "Primary Heartseeker" ],
-		description: `When Heartseeker Critically Strikes, gain {#} Attack Speed for {#} seconds. Double this amount if the enemy is Vulnerable.`,
+		description: `When Heartseeker Critically Strikes, gain +{#}% Attack Speed for {#} seconds. Double this amount if the enemy is Vulnerable.`,
 		id: 13,
 		maxPoints: 1,
 		values: [ "8", "4" ],
@@ -191,7 +191,7 @@ Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Criti
 	"Fundamental Heartseeker": {
 		baseSkill: "Heartseeker",
 		connections: [ "Enhanced Heartseeker" ],
-		description: `Heartseeker also increases the Critical Strike Damage the enemy takes from you by {#} for {#} seconds, up to {#}.`,
+		description: `Heartseeker also increases the Critical Strike Damage the enemy takes from you by +{#}% for {#} seconds, up to +{#}%.`,
 		id: 14,
 		maxPoints: 1,
 		values: [ "5", "4", "25" ],
@@ -222,7 +222,7 @@ Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the
 	"Enhanced Forceful Arrow": {
 		baseSkill: "Forceful Arrow",
 		connections: [ "Forceful Arrow", "Fundamental Forceful Arrow", "Primary Forceful Arrow" ],
-		description: `Every 3rd cast of Forceful Arrow additionally has a {#} increased Critical Strike Chance.`,
+		description: `Every 3rd cast of Forceful Arrow additionally has a +{#}% increased Critical Strike Chance.`,
 		id: 17,
 		maxPoints: 1,
 		values: [ "15" ],
@@ -255,12 +255,12 @@ rogueData["Core"] = {
 		connections: [ "Enhanced Twisting Blades", "Core" ],
 		description: `Energy Cost: {#}
 Lucky Hit Chance: {#}%
-Impale an enemy with your blades, dealing {#}% damage and making them take {#} increased damage from you while impaled. After {#} seconds the blades return to you, piercing enemies for {#}% damage.
+Impale an enemy with your blades, dealing {#}% damage and making them take x{#}% increased damage from you while impaled. After {#} seconds the blades return to you, piercing enemies for {#}% damage.
 
 Combo Points increase damage and grant a Movement Speed bonus:
- 1 Point: {#}% damage, {#} bonus
- 2 Points: {#}% damage, {#} bonus
- 3 Points: {#}% damage, {#} bonus`,
+ 1 Point: {#}% damage, +{#}% bonus
+ 2 Points: {#}% damage, +{#}% bonus
+ 3 Points: {#}% damage, +{#}% bonus`,
 		id: 20,
 		maxPoints: 5,
 		values: [ "30", "35", "57", "8", "1.5", "74", "57", "20", "70", "40", "83", "60" ],
@@ -270,7 +270,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 	"Enhanced Twisting Blades": {
 		baseSkill: "Twisting Blades",
 		connections: [ "Twisting Blades", "Advanced Twisting Blades", "Improved Twisting Blades" ],
-		description: `Twisting Blades deals {#} increased damage when returning.`,
+		description: `Twisting Blades deals x{#}% increased damage when returning.`,
 		id: 21,
 		maxPoints: 1,
 		values: [ "30" ],
@@ -303,9 +303,9 @@ Lucky Hit Chance: {#}%
 Unleash a flurry of stabs and slashes, striking enemies in front of you {#} times and dealing a total of {#}% damage to each.
 
 Combo Points increase damage and grant an Attack Speed bonus:
- 1 Point: {#}% damage, {#} bonus
- 2 Points: {#}% damage, {#} bonus
- 3 Points: {#}% damage, {#} bonus`,
+ 1 Point: {#}% damage, +{#}% bonus
+ 2 Points: {#}% damage, +{#}% bonus
+ 3 Points: {#}% damage, +{#}% bonus`,
 		id: 24,
 		maxPoints: 5,
 		values: [ "25", "35", "76", "30", "95", "1.5", "114", "3.0", "133", "4.5" ],
@@ -349,9 +349,9 @@ Lucky Hit Chance: {#}%
 Fire an arrow that pierces through all enemies in a line, dealing {#}% damage.
 
 Combo Points increase damage and improve Lucky Hit Chance:
- 1 Point: {#}% damage, {#} chance
- 2 Points: {#}% damage, {#} chance
- 3 Points: {#}% damage, {#} chance`,
+ 1 Point: {#}% damage, +{#}% chance
+ 2 Points: {#}% damage, +{#}% chance
+ 3 Points: {#}% damage, +{#}% chance`,
 		id: 28,
 		maxPoints: 5,
 		values: [ "35", "50", "89", "1.5", "116", "10", "142", "20", "169" ],
@@ -361,7 +361,7 @@ Combo Points increase damage and improve Lucky Hit Chance:
 	"Enhanced Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
 		connections: [ "Penetrating Shot", "Advanced Penetrating Shot", "Improved Penetrating Shot" ],
-		description: `Penetrating Shot deals {#} increased damage per enemy it pierces.`,
+		description: `Penetrating Shot deals x{#}% increased damage per enemy it pierces.`,
 		id: 29,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -381,7 +381,7 @@ Combo Points increase damage and improve Lucky Hit Chance:
 	"Improved Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
 		connections: [ "Enhanced Penetrating Shot" ],
-		description: `If Penetrating Shot damages at least {#} enemies, your next Penetrating Shot has a {#} increased Critical Strike Chance.`,
+		description: `If Penetrating Shot damages at least {#} enemies, your next Penetrating Shot has a +{#}% increased Critical Strike Chance.`,
 		id: 31,
 		maxPoints: 1,
 		values: [ "3", "20" ],
@@ -407,7 +407,7 @@ Combo Points increase damage and arrows fired:
 	"Enhanced Rapid Fire": {
 		baseSkill: "Rapid Fire",
 		connections: [ "Rapid Fire", "Advanced Rapid Fire", "Improved Rapid Fire" ],
-		description: `Each subsequent arrow from Rapid Fire has {#} increased Critical Strike Chance, up to {#} for the {#}th arrow.`,
+		description: `Each subsequent arrow from Rapid Fire has +{#}% increased Critical Strike Chance, up to +{#}% for the {#}th arrow.`,
 		id: 33,
 		maxPoints: 1,
 		values: [ "5", "25", "5" ],
@@ -417,7 +417,7 @@ Combo Points increase damage and arrows fired:
 	"Advanced Rapid Fire": {
 		baseSkill: "Rapid Fire",
 		connections: [ "Enhanced Rapid Fire" ],
-		description: `Rapid Fire deals {#} increased Critical Strike Damage for {#} seconds after you Evade.`,
+		description: `Rapid Fire deals x{#}% increased Critical Strike Damage for {#} seconds after you Evade.`,
 		id: 34,
 		maxPoints: 1,
 		values: [ "30", "3" ],
@@ -462,7 +462,7 @@ Combo Points increase damage and arrows fired:
 	"Advanced Barrage": {
 		baseSkill: "Barrage",
 		connections: [ "Enhanced Barrage" ],
-		description: `Whenever a single cast of Barrage ricochets at least {#} times, your next cast gains {#} increased Critical Strike Chance.`,
+		description: `Whenever a single cast of Barrage ricochets at least {#} times, your next cast gains +{#}% increased Critical Strike Chance.`,
 		id: 38,
 		maxPoints: 1,
 		values: [ "4", "20" ],
@@ -499,7 +499,7 @@ Combo Points increase damage and arrows fired:
 	},
 	"Stutter Step": {
 		connections: [ "Core" ],
-		description: `Critically Striking an enemy grants {#} Movement Speed for {#} seconds.`,
+		description: `Critically Striking an enemy grants +{#}% Movement Speed for {#} seconds.`,
 		id: 42,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "4" ],
@@ -525,7 +525,7 @@ Become Unstoppable and quickly move through the shadows to stab your victim from
 	"Enhanced Shadow Step": {
 		baseSkill: "Shadow Step",
 		connections: [ "Shadow Step", "Methodical Shadow Step", "Disciplined Shadow Step" ],
-		description: `Damaging an enemy with Shadow Step increases your Critical Strike Chance against them by {#} for {#} seconds.`,
+		description: `Damaging an enemy with Shadow Step increases your Critical Strike Chance against them by +{#}% for {#} seconds.`,
 		id: 44,
 		maxPoints: 1,
 		values: [ "8", "3" ],
@@ -567,7 +567,7 @@ Dash forward and slash enemies for {#}% damage.`,
 	"Enhanced Dash": {
 		baseSkill: "Dash",
 		connections: [ "Dash", "Methodical Dash", "Disciplined Dash" ],
-		description: `Enemies damaged by Dash take {#} increased Critical Strike Damage from you for {#} seconds.`,
+		description: `Enemies damaged by Dash take x{#}% increased Critical Strike Damage from you for {#} seconds.`,
 		id: 48,
 		maxPoints: 1,
 		values: [ "20", "5" ],
@@ -597,10 +597,10 @@ Dash forward and slash enemies for {#}% damage.`,
 	"Weapon Mastery": {
 		connections: [ "Agility" ],
 		description: `Gain a bonus when attacking based on weapon type:
- Daggers: {#} increased damage to Healthy enemies.
- Swords: {#} increased damage.
- Bows: {#} increased damage to Vulnerable enemies.
- Crossbows: {#} increased Critical Strike Damage.`,
+ Daggers: x{#}% increased damage to Healthy enemies.
+ Swords: x{#}% increased damage.
+ Bows: x{#}% increased damage to Vulnerable enemies.
+ Crossbows: x{#}% increased Critical Strike Damage.`,
 		id: 51,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "{3/6/9}", "{4/8/12}", "{5/10/15}" ],
@@ -609,7 +609,7 @@ Dash forward and slash enemies for {#}% damage.`,
 	},
 	"Concussive": {
 		connections: [ "Agility", "Trick Attacks" ],
-		description: `After Knocking Back or Knocking Down an enemy, you gain {#} increased Critical Strike Chance against them for {#} seconds.`,
+		description: `After Knocking Back or Knocking Down an enemy, you gain +{#}% increased Critical Strike Chance against them for {#} seconds.`,
 		id: 52,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "3" ],
@@ -649,7 +649,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 	"Enhanced Caltrops": {
 		baseSkill: "Caltrops",
 		connections: [ "Caltrops", "Methodical Caltrops", "Disciplined Caltrops" ],
-		description: `Enemies take {#} increased damage from you each second they are in Caltrops.`,
+		description: `Enemies take x{#}% increased damage from you each second they are in Caltrops.`,
 		id: 54,
 		maxPoints: 1,
 		values: [ "3" ],
@@ -669,7 +669,7 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 	"Disciplined Caltrops": {
 		baseSkill: "Caltrops",
 		connections: [ "Enhanced Caltrops" ],
-		description: `You have {#} Critical Strike Chance against enemies inside your Caltrops. Double this amount against Vulnerable enemies.`,
+		description: `You have +{#}% Critical Strike Chance against enemies inside your Caltrops. Double this amount against Vulnerable enemies.`,
 		id: 56,
 		maxPoints: 1,
 		values: [ "5" ],
@@ -702,7 +702,7 @@ rogueData["Subterfuge"] = {
 		description: `Cooldown: {#} seconds
 Vanish from sight, gaining an advanced form of Stealth for {#} seconds that will not be removed by taking damage.
 
-Concealment also makes you Unstoppable, grants {#} Movement Speed, and allows you to move freely through enemies for its duration.
+Concealment also makes you Unstoppable, grants +{#}% Movement Speed, and allows you to move freely through enemies for its duration.
 
 Using an attack Skill during Concealment will break Concealment.`,
 		id: 127,
@@ -776,7 +776,7 @@ You can have {#} armed traps out at once.`,
 	"Subverting Poison Trap": {
 		baseSkill: "Poison Trap",
 		connections: [ "Enhanced Poison Trap" ],
-		description: `You deal {#} increased Poison damage to enemies standing inside your Poison Trap.`,
+		description: `You deal x{#}% increased Poison damage to enemies standing inside your Poison Trap.`,
 		id: 73,
 		maxPoints: 1,
 		values: [ "10" ],
@@ -806,7 +806,7 @@ Surround yourself with up to {#} protective shadows. Gain {#}% Damage Reduction 
 	"Countering Dark Shroud": {
 		baseSkill: "Dark Shroud",
 		connections: [ "Enhanced Dark Shroud" ],
-		description: `While you have at least {#} active shadows from Dark Shroud, gain {#} Critical Strike Chance.`,
+		description: `While you have at least {#} active shadows from Dark Shroud, gain +{#}% Critical Strike Chance.`,
 		id: 62,
 		maxPoints: 1,
 		values: [ "2", "10" ],
@@ -816,7 +816,7 @@ Surround yourself with up to {#} protective shadows. Gain {#}% Damage Reduction 
 	"Subverting Dark Shroud": {
 		baseSkill: "Dark Shroud",
 		connections: [ "Enhanced Dark Shroud" ],
-		description: `Each active shadow from Dark Shroud grants you {#} increased Movement Speed.`,
+		description: `Each active shadow from Dark Shroud grants you +{#}% increased Movement Speed.`,
 		id: 61,
 		maxPoints: 1,
 		values: [ "3" ],
@@ -825,7 +825,7 @@ Surround yourself with up to {#} protective shadows. Gain {#}% Damage Reduction 
 	},
 	"Exploit": {
 		connections: [ "Malice", "Subterfuge" ],
-		description: `You deal {#} increased damage to Healthy and Injured enemies.`,
+		description: `You deal x{#}% increased damage to Healthy and Injured enemies.`,
 		id: 68,
 		maxPoints: 3,
 		values: [ "{6/12/18}" ],
@@ -834,7 +834,7 @@ Surround yourself with up to {#} protective shadows. Gain {#}% Damage Reduction 
 	},
 	"Malice": {
 		connections: [ "Exploit" ],
-		description: `You deal {#} increased damage to Vulnerable enemies.`,
+		description: `You deal x{#}% increased damage to Vulnerable enemies.`,
 		id: 69,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
@@ -864,7 +864,7 @@ Surround yourself with up to {#} protective shadows. Gain {#}% Damage Reduction 
 rogueData["Imbuements"] = {
 	"Deadly Venom": {
 		connections: [ "Alchemical Advantage", "Debilitating Toxins", "Imbuements" ],
-		description: `You deal {#} increased Poisoning damage.`,
+		description: `You deal x{#}% increased Poisoning damage.`,
 		id: 78,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
@@ -873,7 +873,7 @@ rogueData["Imbuements"] = {
 	},
 	"Alchemical Advantage": {
 		connections: [ "Deadly Venom" ],
-		description: `You gain {#} increased Attack Speed for each enemy you've Poisoned, up to {#}.`,
+		description: `You gain +{#}% increased Attack Speed for each enemy you've Poisoned, up to +{#}%.`,
 		id: 79,
 		maxPoints: 3,
 		values: [ "{1/2/3}", "15" ],
@@ -923,7 +923,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 	"Blended Poison Imbuement": {
 		baseSkill: "Poison Imbuement",
 		connections: [ "Enhanced Poison Imbuement" ],
-		description: `Critical Strikes with Poison Imbued Skills deal {#} increased Poisoning damage.`,
+		description: `Critical Strikes with Poison Imbued Skills deal x{#}% increased Poisoning damage.`,
 		id: 131,
 		maxPoints: 1,
 		values: [ "30" ],
@@ -964,7 +964,7 @@ If the infection expires before the enemy dies, it will deal {#}% damage to only
 	"Enhanced Shadow Imbuement": {
 		baseSkill: "Shadow Imbuement",
 		connections: [ "Shadow Imbuement", "Mixed Shadow Imbuement", "Blended Shadow Imbuement" ],
-		description: `You have {#} increased Critical Strike Chance against Injured enemies infected by Shadow Imbuement.`,
+		description: `You have +{#}% increased Critical Strike Chance against Injured enemies infected by Shadow Imbuement.`,
 		id: 133,
 		maxPoints: 1,
 		values: [ "30" ],
@@ -974,7 +974,7 @@ If the infection expires before the enemy dies, it will deal {#}% damage to only
 	"Mixed Shadow Imbuement": {
 		baseSkill: "Shadow Imbuement",
 		connections: [ "Enhanced Shadow Imbuement" ],
-		description: `Enemies damaged by Shadow Imbued Skills take {#} increased Non-Physical damage from you for {#} seconds.`,
+		description: `Enemies damaged by Shadow Imbued Skills take x{#}% increased Non-Physical damage from you for {#} seconds.`,
 		id: 134,
 		maxPoints: 1,
 		values: [ "12", "8" ],
@@ -1014,7 +1014,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 	"Mixed Cold Imbuement": {
 		baseSkill: "Cold Imbuement",
 		connections: [ "Enhanced Cold Imbuement" ],
-		description: `Cold Imbued Skills deal {#}% damage to Crowd Controlled enemies. Double this bonus against Frozen enemies.`,
+		description: `Cold Imbued Skills deal x{#}% damage to Crowd Controlled enemies. Double this bonus against Frozen enemies.`,
 		id: 138,
 		maxPoints: 1,
 		values: [ "30" ],
@@ -1033,7 +1033,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 	},
 	"Frigid Finesse": {
 		connections: [ "Chilling Weight", "Imbuements" ],
-		description: `You deal {#} increased damage to Chilled enemies. This bonus increases to {#} against Frozen enemies.`,
+		description: `You deal x{#}% increased damage to Chilled enemies. This bonus increases to x{#}% against Frozen enemies.`,
 		id: 99,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "{10/20/30}" ],
@@ -1051,7 +1051,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 	},
 	"Precision Imbuement": {
 		connections: [ "Imbuements" ],
-		description: `Imbued Skills gain {#} increased Critical Strike Chance.`,
+		description: `Imbued Skills gain +{#}% increased Critical Strike Chance.`,
 		id: 94,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -1072,7 +1072,7 @@ rogueData["Ultimate"] = {
 	},
 	"Alchemist's Fortune": {
 		connections: [ "Innervation" ],
-		description: `Non-Physical damage you deal has a {#} increased Lucky Hit Chance.`,
+		description: `Non-Physical damage you deal has a +{#}% increased Lucky Hit Chance.`,
 		id: 103,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -1081,7 +1081,7 @@ rogueData["Ultimate"] = {
 	},
 	"Second Wind": {
 		connections: [ "Innervation" ],
-		description: `Every {#} Energy you spend grants you {#} increased Lucky Hit Chance for {#} seconds.`,
+		description: `Every {#} Energy you spend grants you +{#}% increased Lucky Hit Chance for {#} seconds.`,
 		id: 102,
 		maxPoints: 3,
 		values: [ "100", "{5/10/15}", "5" ],
@@ -1159,7 +1159,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 	},
 	"Trap Mastery": {
 		connections: [ "Ultimate" ],
-		description: `When Poison Trap or Death Trap activates, you gain {#} increased Critical Strike Chance against Vulnerable and Crowd Controlled enemies for {#} seconds.`,
+		description: `When Poison Trap or Death Trap activates, you gain +{#}% increased Critical Strike Chance against Vulnerable and Crowd Controlled enemies for {#} seconds.`,
 		id: 111,
 		maxPoints: 3,
 		values: [ "{4/8/12}", "4" ],
@@ -1180,7 +1180,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 	"Prime Rain of Arrows": {
 		baseSkill: "Rain of Arrows",
 		connections: [ "Rain of Arrows", "Supreme Rain of Arrows" ],
-		description: `Imbuement Skill effects applied by Rain of Arrows have {#} increased potency.`,
+		description: `Imbuement Skill effects applied by Rain of Arrows have x{#}% increased potency.`,
 		id: 113,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -1199,7 +1199,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 	},
 	"Adrenaline Rush": {
 		connections: [ "Impetus", "Haste", "Ultimate" ],
-		description: `While moving, you gain {#} increased Energy Regeneration.`,
+		description: `While moving, you gain x{#}% increased Energy Regeneration.`,
 		id: 115,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -1208,7 +1208,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 	},
 	"Impetus": {
 		connections: [ "Adrenaline Rush" ],
-		description: `After moving {#} meters, your next attack deals {#} increased damage.`,
+		description: `After moving {#} meters, your next attack deals x{#}% increased damage.`,
 		id: 116,
 		maxPoints: 3,
 		values: [ "15", "{7/14/21}" ],
@@ -1217,7 +1217,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 	},
 	"Haste": {
 		connections: [ "Adrenaline Rush" ],
-		description: `While at or above {#}% maximum Energy, gain {#} increased Movement Speed. While below {#}% maximum Energy, gain {#} increased Attack Speed.`,
+		description: `While at or above {#}% maximum Energy, gain +{#}% increased Movement Speed. While below {#}% maximum Energy, gain +{#}% increased Attack Speed.`,
 		id: 117,
 		maxPoints: 3,
 		values: [ "50", "{5/10/15}", "50", "{5/10/15}" ],
@@ -1235,8 +1235,8 @@ rogueData["Capstone"] = {
 
 While at {#} stacks of Momentum you gain:
  {#}% increased Damage Reduction
- {#} increased Energy Regeneration
- {#} increased Movement Speed.`,
+ x{#}% increased Energy Regeneration
+ +{#}% increased Movement Speed`,
 		id: 118,
 		maxPoints: 1,
 		values: [ "8", "3", "20", "30", "15" ],
@@ -1245,9 +1245,9 @@ While at {#} stacks of Momentum you gain:
 	},
 	"Close Quarters Combat": {
 		connections: [ "Capstone" ],
-		description: `Damaging a Close enemy with Marksman or Cutthroat Skills each grant a {#} Attack Speed bonus for {#} seconds.
+		description: `Damaging a Close enemy with Marksman or Cutthroat Skills each grant a +{#}% Attack Speed bonus for {#} seconds.
 
-While both Attack Speed bonuses are active, you deal {#} increased damage against Crowd Controlled enemies.`,
+While both Attack Speed bonuses are active, you deal x{#}% increased damage against Crowd Controlled enemies.`,
 		id: 119,
 		maxPoints: 1,
 		values: [ "5", "8", "75" ],
@@ -1276,9 +1276,9 @@ While both Attack Speed bonuses are active, you deal {#} increased damage agains
 	},
 	"Precision": {
 		connections: [ "Capstone" ],
-		description: `Critical Strikes with Marksman Skills grant you Precision. You gain {#}% increased Critical Strike Damage per stack of Precision, up to a maximum of {#}%.
+		description: `Critical Strikes with Marksman Skills grant you Precision. You gain x{#}% increased Critical Strike Damage per stack of Precision, up to a maximum of x{#}%.
 
-When you reach maximum Precision, your next Marksman Skill is a guaranteed Critical Strike that deals {#}% increased Critical Strike Damage, then consumes all stacks of Precision.`,
+When you reach maximum Precision, your next Marksman Skill is a guaranteed Critical Strike that deals x{#}% increased Critical Strike Damage, then consumes all stacks of Precision.`,
 		id: 122,
 		maxPoints: 1,
 		values: [ "4", "20", "40" ],
