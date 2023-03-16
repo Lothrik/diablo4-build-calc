@@ -7,9 +7,9 @@ import { sorcererEnchants } from "./sorcerer-enchants.js";
 const buildNumber = 39319;
 
 var fullJSON = "";
-$.getJSON("primary/build-" + buildNumber + ".json", null, fullData => {
+$.getJSON("data/build-" + buildNumber + ".json", null, fullData => {
 	fullJSON = fullData;
-	$("#debugOutput").html("Successfully loaded `primary/build-" + buildNumber + ".json`.");
+	$("#debugOutput").html("Successfully loaded `data/build-" + buildNumber + ".json`.");
 	// call runParser once after loading so fixJSON affects node connections recursively
 	runParser(false);
 });
