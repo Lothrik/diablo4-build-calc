@@ -166,7 +166,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 	"Initiate's Hemorrhage": {
 		baseSkill: "Hemorrhage",
 		connections: [ "Enhanced Hemorrhage" ],
-		description: `Hemorrhage grants {#} Base Life ({#}) as Fortify each time it hits an enemy, and has a {#} chance per enemy hit to Fortify you for {#}% Base Life ({#}).`,
+		description: `Hemorrhage grants {#}% Base Life ({#}) as Fortify each time it hits an enemy, and has a {#}% chance per enemy hit to Fortify you for {#}% Base Life ({#}).`,
 		id: 11,
 		maxPoints: 1,
 		values: [ "0.64", "", "1.5", "100", "" ],
@@ -313,7 +313,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 	"Enhanced Blood Surge": {
 		baseSkill: "Blood Surge",
 		connections: [ "Blood Surge", "Supernatural Blood Surge", "Paranormal Blood Surge" ],
-		description: `Blood Surge Heals you for {#} of your Maximum Life ({#}) when drawing blood from enemies. If {#} or more enemies are drawn from, then Heal for an additional {#} of your Maximum Life ({#}).`,
+		description: `Blood Surge Heals you for {#}% of your Maximum Life ({#}) when drawing blood from enemies. If {#} or more enemies are drawn from, then Heal for an additional {#}% of your Maximum Life ({#}).`,
 		id: 25,
 		maxPoints: 1,
 		values: [ "1", "", "", "", "" ],
@@ -623,7 +623,7 @@ Curse the target area. Enemies afflicted by Iron Maiden take {#}% damage each ti
 	"Decrepify": {
 		connections: [ "Enhanced Decrepify", "Corruption" ],
 		description: `Essence Cost: {#}
-Curse the target area. Enemies afflicted by Decrepify are Slowed by {#} and deal {#} less damage for {#} seconds.`,
+Curse the target area. Enemies afflicted by Decrepify are Slowed by {#}% and deal {#}% less damage for {#} seconds.`,
 		id: 61,
 		maxPoints: 5,
 		values: [ "10", "50", "25", "10" ],

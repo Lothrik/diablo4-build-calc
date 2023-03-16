@@ -921,7 +921,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 	},
 	"Thick Skin": {
 		connections: [ "Weapon Mastery", "Counteroffensive", "Defensive Stance" ],
-		description: `Each time you take direct damage gain {#} Base Life ({#}) as Fortify.`,
+		description: `Each time you take direct damage gain {#}% Base Life ({#}) as Fortify.`,
 		id: 86,
 		maxPoints: 3,
 		values: [ "{0.4/0.7/1.1}", "" ],

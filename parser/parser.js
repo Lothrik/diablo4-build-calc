@@ -116,39 +116,39 @@ let fixedJSON = false;
 
 function sanitizeNodeDescription(descriptionText) {
 	let sanitizedText = descriptionText
-		.replace(/{c_.+?}/gi, "")									// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
-		.replace(/{\/c_.+?}/gi, "")									// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
-		.replace(/{\/c}/gi, "")										// `{/c}`, exact.
-		.replace(/{\/?u}/gi, "")									// `{u}` and `{/u}`.
-		.replace(/{icon.+?}/gi, "")									// `{icon:bullet}`, and similar.
-		.replace(/{if:.+?}[a-z]{0,2}{\/if}/gi, "")					// `{if:SF_21}s{/if}` and similar.
-		.replace(/{if:mod.+?}(.|\r?\n)+?({else}|{\/if})/gi, "")		// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
-		.replace(/{if:.+?}/gi, "")									// `{if:ADVANCED_TOOLTIP}`, and similar.
-		.replace(/{\/if}/gi, "")									// `{/if}`, exact.
-		.replace(/sLevel/g, "")										// `sLevel`, exact.
-		.replace(/\|4([^:]+):([^;]+);/g, "$2")						// `|4first:second;` => `second`.
-		.replace(/\[([^\]\|]+)\|(%?)([x\+]?)\|\]/g, "$3[$1]$2")		// Replace `[...|%x|]` with `x[...]%`, and similar.
-		.replace(/\[([^\]\|]+)\|([x\+]?)(%?)\|\]/g, "$2[$1]$3")		// Replace `[...|x%|]` with `x[...]%`, and similar.
-		.replace(/ *\* */g, "")										// `*`, including any nearby whitespace.
-		.replace(/ *\| */g, "")										// `|`, including any nearby whitespace.
-		.replace(/ \./g, ".")										// Replace ` .` with `.`.
-		.replace(/{else}/gi, "\n")									// Replace `{else}` with a newline.
-		.replace(/{(dot|payload):.+?}/gi, "{#}%")					// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
-		.replace(/ *{.+?} */g, "{#}")								// Replace anything inside curly brackets with `{#}`.
-		.replace(/ *\[.+?\] */g, "{#}")								// Replace anything inside square brackets with `{#}`.
-		.replace(/{.+?}{.+?}/g, "{#}")								// Replace `{#}{#}` with `{#}`.
-		.replace(/([^x+ ]+?){#}/g, "$1 {#}")						// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of `{#}`.
-		.replace(/{#}([a-z]+?)/gi, "{#} $1")						// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
-		.replace(/\( *{/g, "({")									// Remove any whitespace between `(` and `{`.
-		.replace(/} *\)/g, "})")									// Remove any whitespace between `}` and `)`.
-		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ")					// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
-		.replace(/ +(\r?\n)/g, "$1")								// Remove any whitespace at the end of a line.
-		.replace(/(dealing {#}%?)( per hit| each)/g, "$1 damage$2")	// Add ` damage` between `dealing {#}` and (`per hit`, or `each`) if not already present.
-																	// Add ` damage` between `poisons enemies for {#}` and ` over` if not already present.
+		.replace(/{c_.+?}/gi, "")										// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
+		.replace(/{\/c_.+?}/gi, "")										// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
+		.replace(/{\/c}/gi, "")											// `{/c}`, exact.
+		.replace(/{\/?u}/gi, "")										// `{u}` and `{/u}`.
+		.replace(/{icon.+?}/gi, "")										// `{icon:bullet}`, and similar.
+		.replace(/{if:.+?}[a-z]{0,2}{\/if}/gi, "")						// `{if:SF_21}s{/if}` and similar.
+		.replace(/{if:mod.+?}(.|\r?\n)+?({else}|{\/if})/gi, "")			// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
+		.replace(/{if:.+?}/gi, "")										// `{if:ADVANCED_TOOLTIP}`, and similar.
+		.replace(/{\/if}/gi, "")										// `{/if}`, exact.
+		.replace(/sLevel/g, "")											// `sLevel`, exact.
+		.replace(/\|4([^:]+):([^;]+);/g, "$2")							// `|4first:second;` => `second`.
+		.replace(/\[([^\]\|]+)\|(%?)[0-9]?([x\+]?)\|\]/g, "$3[$1]$2")	// Replace `[...|%x|]` with `x[...]%`, and similar.
+		.replace(/\[([^\]\|]+)\|([x\+]?)[0-9]?(%?)\|\]/g, "$2[$1]$3")	// Replace `[...|x%|]` with `x[...]%`, and similar.
+		.replace(/ *\* */g, "")											// `*`, including any nearby whitespace.
+		.replace(/ *\| */g, "")											// `|`, including any nearby whitespace.
+		.replace(/ \./g, ".")											// Replace ` .` with `.`.
+		.replace(/{else}/gi, "\n")										// Replace `{else}` with a newline.
+		.replace(/{(dot|payload):.+?}/gi, "{#}%")						// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
+		.replace(/ *{.+?} */g, "{#}")									// Replace anything inside curly brackets with `{#}`.
+		.replace(/ *\[.+?\] */g, "{#}")									// Replace anything inside square brackets with `{#}`.
+		.replace(/{.+?}{.+?}/g, "{#}")									// Replace `{#}{#}` with `{#}`.
+		.replace(/([^x+ ]+?){#}/g, "$1 {#}")							// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of `{#}`.
+		.replace(/{#}([a-z]+?)/gi, "{#} $1")							// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
+		.replace(/\( *{/g, "({")										// Remove any whitespace between `(` and `{`.
+		.replace(/} *\)/g, "})")										// Remove any whitespace between `}` and `)`.
+		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ")						// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
+		.replace(/ +(\r?\n)/g, "$1")									// Remove any whitespace at the end of a line.
+		.replace(/(dealing {#}%?)( per hit| each)/g, "$1 damage$2")		// Add ` damage` between `dealing {#}` and (`per hit`, or `each`) if not already present.
+																		// Add ` damage` between `poisons enemies for {#}` and ` over` if not already present.
 		.replace(/(bleeds|bleeding|burns|burning|zaps|zapping|poisons|poisoning)( surrounding)?( enemies for {#}%?)( over)/gi, "$1$2$3 damage$4")
-		.replace(/({#})( damage)/gi, "$1%$2")						// Add `%` between `{#}` and ` damage` if not already present.
-		.replace(/(cooldown: {#})(\r?\n)/gi, "$1 seconds$2")		// Add ` seconds` after `Cooldown: {#}` if not already present.
-		.replace(/(\r?\n)([^:\+]+)([a-z]+)$/gi, "$1$2$3.")			// Ensure the last line ends with a `.`, unless that line contains `:` or `+`, or ends with a character other than (`a-z`, `A-Z`).
+		.replace(/({#})( damage)/gi, "$1%$2")							// Add `%` between `{#}` and ` damage` if not already present.
+		.replace(/(cooldown: {#})(\r?\n)/gi, "$1 seconds$2")			// Add ` seconds` after `Cooldown: {#}` if not already present.
+		.replace(/(\r?\n)([^:\+]+)([a-z]+)$/gi, "$1$2$3.")				// Ensure the last line ends with a `.`, unless that line contains `:` or `+`, or ends with a character other than (`a-z`, `A-Z`).
 		.replace(/(if this kills.+cooldown is reset).+(if this kills.+charge is refunded)/gi, "$1")
 																	// Special handling for Death Blow conditional description logic.
 		.trim();

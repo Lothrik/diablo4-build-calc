@@ -626,7 +626,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 	"Blood Howl": {
 		connections: [ "Defensive", "Enhanced Blood Howl" ],
 		description: `Cooldown: {#} seconds
-Shapeshift into a Werewolf and howl furiously, Healing you for {#} of your Maximum Life ({#}).`,
+Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maximum Life ({#}).`,
 		id: 53,
 		maxPoints: 5,
 		values: [ "15.0", "20.0", "" ],
@@ -667,7 +667,7 @@ Shapeshift into a Werewolf and howl furiously, Healing you for {#} of your Maxim
 		connections: [ "Defensive", "Enhanced Cyclone Armor" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: Powerful winds surround you, granting {#} Non-Physical Damage Reduction.
+Passive: Powerful winds surround you, granting {#}% Non-Physical Damage Reduction.
 
 Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.`,
 		id: 57,
