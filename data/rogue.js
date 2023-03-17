@@ -697,6 +697,46 @@ Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing
 };
 
 rogueData["Subterfuge"] = {
+	"Smoke Grenade": {
+		connections: [ "Enhanced Smoke Grenade", "Subterfuge" ],
+		description: `Cooldown: {#} seconds
+Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
+		id: 123,
+		maxPoints: 5,
+		values: [ "", "" ],
+		x: -603.97,
+		y: 4.535
+	},
+	"Enhanced Smoke Grenade": {
+		baseSkill: "Smoke Grenade",
+		connections: [ "Smoke Grenade", "Subverting Smoke Grenade", "Countering Smoke Grenade" ],
+		description: `Enemies affected by Smoke Grenade take x{#}% increased damage from you.`,
+		id: 124,
+		maxPoints: 1,
+		values: [ "" ],
+		x: -1015.755,
+		y: 4.314
+	},
+	"Subverting Smoke Grenade": {
+		baseSkill: "Smoke Grenade",
+		connections: [ "Enhanced Smoke Grenade" ],
+		description: `If an enemy is Vulnerable, Slowed, or Chilled then Smoke Grenade will Daze them for x{#}% longer.`,
+		id: 125,
+		maxPoints: 1,
+		values: [ "" ],
+		x: -1235.79,
+		y: 94.325
+	},
+	"Countering Smoke Grenade": {
+		baseSkill: "Smoke Grenade",
+		connections: [ "Enhanced Smoke Grenade" ],
+		description: `Lucky Hit: Dealing direct damage to enemies affected by Smoke Grenade has up to a {#}% chance to reduce its Cooldown by {#} second, or by {#} seconds instead if the enemy is Vulnerable.`,
+		id: 126,
+		maxPoints: 1,
+		values: [ "", "", "" ],
+		x: -1241.33,
+		y: -67.379
+	},
 	"Concealment": {
 		connections: [ "Subterfuge", "Enhanced Concealment" ],
 		description: `Cooldown: {#} seconds

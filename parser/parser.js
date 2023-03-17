@@ -423,7 +423,7 @@ function runParser(downloadMode) {
 			const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
 
 			const rootNodes = skillTreeValues.filter(curNode => curNode["root_node"]);
-			const originNode = Object.values(rootNodes).find((curNode, curIndex) => rootNodeNames[className][curIndex] == "Basic");
+			const originNode = rootNodes.find((curNode, curIndex) => rootNodeNames[className][curIndex] == "Basic");
 
 			let formattedData = "let " + classObjectName + " = {};\n\n";
 			formattedData += classObjectName + '["Trunk Data"] = {\n';
@@ -458,13 +458,11 @@ function runParser(downloadMode) {
 			}
 			formattedData += "};\n\n";
 
-			for (let i = 0; i < Object.keys(rootNodeNamesSorted[className]).length; i++) {
+			for (let i = 0, n = Object.keys(rootNodeNamesSorted[className]).length; i < n; i++) {
 				rootNodes.forEach((rootNode, rootIndex) => {
 					const rootNodeName = rootNodeNames[className][rootIndex];
 					if (rootNodeName == rootNodeNamesSorted[className][i]) {
 						let mappedIDs = [];
-						mappedIDs[String(rootIndex)] = true;
-
 						formattedData += classObjectName + '["' + rootNodeNames[className][rootIndex] + '"] = {\n';
 						formattedData += recursiveSkillTreeScan(rootNode["connections"], classData, className, rootNode, rootNodeName, mappedIDs, 0);
 						formattedData += "};\n\n";

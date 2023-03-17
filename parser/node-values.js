@@ -1314,6 +1314,9 @@ let nodeValues = {
 			],
 			"Hewed Flesh": [
 				""
+			],
+			"Supernatural Bone Spear": [
+				""
 			]
 		},
 		"Macabre": {
@@ -1356,6 +1359,25 @@ let nodeValues = {
 				""
 			],
 			"Spiked Armor": [
+				""
+			],
+			"Blood Mist": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
+			],
+			"Enhanced Blood Mist": [
+				""
+			],
+			"Ghastly Blood Mist": [
+				""
+			],
+			"Dreadful Blood Mist": [
+				"",
 				""
 			]
 		},
@@ -1921,6 +1943,21 @@ let nodeValues = {
 				"3"
 			],
 			"Mending Obscurity": [
+				"",
+				""
+			],
+			"Smoke Grenade": [
+				"",
+				""
+			],
+			"Enhanced Smoke Grenade": [
+				""
+			],
+			"Subverting Smoke Grenade": [
+				""
+			],
+			"Countering Smoke Grenade": [
+				"",
 				"",
 				""
 			]

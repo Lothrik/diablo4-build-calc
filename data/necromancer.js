@@ -411,6 +411,16 @@ Conjure a bone spear from the ground, dealing {#}% damage and piercing through e
 		x: 1180.912,
 		y: 94.56
 	},
+	"Supernatural Bone Spear": {
+		baseSkill: "Bone Spear",
+		connections: [ "Enhanced Bone Spear" ],
+		description: `Bone Spear makes the first enemy hit Vulnerable for {#} seconds.`,
+		id: 35,
+		maxPoints: 1,
+		values: [ "" ],
+		x: 1183.487,
+		y: -89.765
+	},
 	"Unliving Energy": {
 		connections: [ "Core", "Imperfectly Balanced" ],
 		description: `Your maximum Essence is increased by {#}.`,
@@ -510,6 +520,47 @@ Detonate a Corpse, dealing {#}% damage to surrounding enemies.`,
 		values: [ "" ],
 		x: 401.03,
 		y: -216.235
+	},
+	"Blood Mist": {
+		connections: [ "Enhanced Blood Mist", "Macabre" ],
+		description: `Cooldown: {#} seconds
+Lucky Hit Chance: {#}%
+Disperse into a bloody mist, becoming Immune for {#} seconds. Your Movement Speed is reduced by {#}% and you periodically deal {#}% damage to enemies and Healing for {#}% of your Maximum Life ({#}).`,
+		id: 46,
+		maxPoints: 5,
+		values: [ "", "", "", "", "", "", "" ],
+		x: 6.515,
+		y: -278.795
+	},
+	"Enhanced Blood Mist": {
+		baseSkill: "Blood Mist",
+		connections: [ "Blood Mist", "Ghastly Blood Mist", "Dreadful Blood Mist" ],
+		description: `Casting a Skill that Overpowers reduces the cooldown of Blood Mist by {#} seconds.`,
+		id: 47,
+		maxPoints: 1,
+		values: [ "" ],
+		x: 4.72,
+		y: -504.595
+	},
+	"Ghastly Blood Mist": {
+		baseSkill: "Blood Mist",
+		connections: [ "Enhanced Blood Mist" ],
+		description: `Blood Mist leaves behind a Corpse every {#} second.`,
+		id: 48,
+		maxPoints: 1,
+		values: [ "" ],
+		x: -173.752,
+		y: -623.38
+	},
+	"Dreadful Blood Mist": {
+		baseSkill: "Blood Mist",
+		connections: [ "Enhanced Blood Mist" ],
+		description: `Blood Mist Fortifies you for {#}% Base Life ({#}) each time it hits an enemy.`,
+		id: 49,
+		maxPoints: 1,
+		values: [ "", "" ],
+		x: 195.505,
+		y: -624.15
 	},
 	"Bone Prison": {
 		connections: [ "Enhanced Bone Prison", "Macabre" ],
