@@ -274,7 +274,7 @@ button:active {
 	transform: rotate(12deg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
 	#versionLabel {
 		display: none;
 	}
