@@ -119,7 +119,7 @@ let nodeValues = {
 				"38"
 			],
 			"Enhanced Double Swing": [
-				"25"
+				""
 			],
 			"Furious Double Swing": [
 				"2"
@@ -358,7 +358,7 @@ let nodeValues = {
 				"2"
 			],
 			"Thick Skin": [
-				"{0.4/0.7/1.1}",
+				"",
 				""
 			],
 			"Death Blow": [
@@ -541,7 +541,7 @@ let nodeValues = {
 				"2"
 			],
 			"Fierce Maul": [
-				"4"
+				""
 			],
 			"Wind Shear": [
 				"12",
@@ -589,7 +589,7 @@ let nodeValues = {
 				"10"
 			],
 			"Fierce Claw": [
-				"10.5",
+				"",
 				"3"
 			],
 			"Wild Claw": [
@@ -617,7 +617,7 @@ let nodeValues = {
 				"78.75"
 			],
 			"Enhanced Landslide": [
-				"25",
+				"",
 				"3"
 			],
 			"Primal Landslide": [
@@ -630,14 +630,14 @@ let nodeValues = {
 				"52.5"
 			],
 			"Enhanced Pulverize": [
-				"20"
+				""
 			],
 			"Primal Pulverize": [
 				"15",
 				"4"
 			],
 			"Raging Pulverize": [
-				"20"
+				""
 			],
 			"Tornado": [
 				"40",
@@ -906,7 +906,7 @@ let nodeValues = {
 				"{5/10/15}"
 			],
 			"Safeguard": [
-				"0.88",
+				"",
 				""
 			],
 			"Stone Guard": [
@@ -944,7 +944,7 @@ let nodeValues = {
 				"10"
 			],
 			"Savage Rabies": [
-				"100",
+				"",
 				""
 			],
 			"Mending": [
@@ -1678,13 +1678,13 @@ let nodeValues = {
 				"30"
 			],
 			"Advanced Twisting Blades": [
-				"10",
+				"",
 				"5"
 			],
 			"Flurry": [
 				"25",
 				"35",
-				"76",
+				"",
 				"30",
 				"95",
 				"1.5",
@@ -1703,13 +1703,13 @@ let nodeValues = {
 				"3"
 			],
 			"Advanced Flurry": [
-				"2.5"
+				""
 			],
 			"Penetrating Shot": [
 				"35",
 				"50",
 				"89",
-				"1.5",
+				"",
 				"116",
 				"10",
 				"142",
@@ -1750,7 +1750,7 @@ let nodeValues = {
 				"3"
 			],
 			"Improved Rapid Fire": [
-				"15"
+				""
 			],
 			"Barrage": [
 				"30",
@@ -1788,11 +1788,11 @@ let nodeValues = {
 		},
 		"Agility": {
 			"Shadow Step": [
-				"9.0",
-				"100",
-				"91",
+				"",
+				"",
+				"",
 				"50",
-				"2",
+				"",
 				"",
 				""
 			],
@@ -2197,7 +2197,7 @@ let nodeValues = {
 				"20",
 				"40",
 				"36",
-				"18",
+				"",
 				"71"
 			],
 			"Enhanced Incinerate": [
@@ -2207,7 +2207,7 @@ let nodeValues = {
 				"15"
 			],
 			"Greater Incinerate": [
-				"80",
+				"",
 				""
 			],
 			"Fireball": [
@@ -2283,10 +2283,10 @@ let nodeValues = {
 				"25"
 			],
 			"Mystical Flame Shield": [
-				"3"
+				""
 			],
 			"Shimmering Flame Shield": [
-				"4"
+				""
 			],
 			"Frost Nova": [
 				"15.0",
@@ -2295,7 +2295,7 @@ let nodeValues = {
 				"2"
 			],
 			"Enhanced Frost Nova": [
-				"25",
+				"",
 				""
 			],
 			"Mystical Frost Nova": [
@@ -2328,15 +2328,15 @@ let nodeValues = {
 				"25"
 			],
 			"Enhanced Teleport": [
-				"30",
+				"",
 				"5"
 			],
 			"Mystical Teleport": [
 				"4",
-				"40"
+				""
 			],
 			"Shimmering Teleport": [
-				"0.5",
+				"",
 				"3"
 			],
 			"Elemental Attunement": [
@@ -2358,7 +2358,7 @@ let nodeValues = {
 				""
 			],
 			"Enhanced Hydra": [
-				"4"
+				""
 			],
 			"Summoned Hydra": [
 				"12",
@@ -2373,7 +2373,7 @@ let nodeValues = {
 				"2"
 			],
 			"Enhanced Ice Blades": [
-				"10"
+				""
 			],
 			"Summoned Ice Blades": [
 				"25"
@@ -2391,7 +2391,7 @@ let nodeValues = {
 				"10"
 			],
 			"Invoked Lightning Spear": [
-				"5"
+				""
 			],
 			"Conjuration Mastery": [
 				"{2/4/6}"
@@ -2451,8 +2451,8 @@ let nodeValues = {
 				"2"
 			],
 			"Mage's Blizzard": [
-				"2.5",
-				"20"
+				"",
+				""
 			],
 			"Wizard's Blizzard": [
 				"10"
@@ -2470,10 +2470,17 @@ let nodeValues = {
 			],
 			"Mage's Ball Lightning": [
 				"2",
-				""
+				"30"
 			],
 			"Inner Flames": [
 				"{8/16/24}"
+			],
+			"Devouring Blaze": [
+				"",
+				""
+			],
+			"Invigorating Conduit": [
+				""
 			],
 			"Static Discharge": [
 				"{5/10/15}"
@@ -2483,6 +2490,9 @@ let nodeValues = {
 			],
 			"Icy Veil": [
 				"{5/10/15}"
+			],
+			"Snap Freeze": [
+				""
 			],
 			"Cold Front": [
 				"{8/16/24}"
@@ -2505,16 +2515,6 @@ let nodeValues = {
 			],
 			"Crippling Flames": [
 				"",
-				""
-			],
-			"Devouring Blaze": [
-				"",
-				""
-			],
-			"Invigorating Conduit": [
-				""
-			],
-			"Snap Freeze": [
 				""
 			]
 		},

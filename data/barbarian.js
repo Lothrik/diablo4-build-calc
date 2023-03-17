@@ -312,7 +312,7 @@ Sweep your weapons from opposite directions, dealing {#}% damage with each weapo
 		description: `If Double Swing damages a Stunned or Knocked Down enemy, gain {#} Fury.`,
 		id: 25,
 		maxPoints: 1,
-		values: [ "25" ],
+		values: [ "" ],
 		x: -458.17,
 		y: 495.325
 	},
@@ -924,7 +924,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		description: `Each time you take direct damage gain {#}% Base Life ({#}) as Fortify.`,
 		id: 86,
 		maxPoints: 3,
-		values: [ "{0.4/0.7/1.1}", "" ],
+		values: [ "", "" ],
 		x: 0.22,
 		y: 334.475
 	},

@@ -283,7 +283,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 		description: `When your Twisting Blades return, your active Cooldowns are reduced by {#} second per enemy they passed through, up to {#} seconds.`,
 		id: 22,
 		maxPoints: 1,
-		values: [ "10", "5" ],
+		values: [ "", "5" ],
 		x: -925,
 		y: -337.045
 	},
@@ -308,7 +308,7 @@ Combo Points increase damage and grant an Attack Speed bonus:
  3 Points: {#}% damage, +{#}% bonus`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "25", "35", "76", "30", "95", "1.5", "114", "3.0", "133", "4.5" ],
+		values: [ "25", "35", "", "30", "95", "1.5", "114", "3.0", "133", "4.5" ],
 		x: -382.935,
 		y: 182.375
 	},
@@ -338,7 +338,7 @@ Combo Points increase damage and grant an Attack Speed bonus:
 		description: `Evading through an enemy will cause your next Flurry to Stun enemies for {#} seconds.`,
 		id: 27,
 		maxPoints: 1,
-		values: [ "2.5" ],
+		values: [ "" ],
 		x: -685.845,
 		y: 462.11
 	},
@@ -354,7 +354,7 @@ Combo Points increase damage and improve Lucky Hit Chance:
  3 Points: {#}% damage, +{#}% chance`,
 		id: 28,
 		maxPoints: 5,
-		values: [ "35", "50", "89", "1.5", "116", "10", "142", "20", "169" ],
+		values: [ "35", "50", "89", "", "116", "10", "142", "20", "169" ],
 		x: 4.86,
 		y: 290.085
 	},
@@ -430,7 +430,7 @@ Combo Points increase damage and arrows fired:
 		description: `Gain {#} Energy per cast of Rapid Fire when it damages a Vulnerable enemy.`,
 		id: 35,
 		maxPoints: 1,
-		values: [ "15" ],
+		values: [ "" ],
 		x: 1175.849,
 		y: -134.515
 	},
@@ -518,7 +518,7 @@ Lucky Hit Chance: {#}%
 Become Unstoppable and quickly move through the shadows to stab your victim from behind for {#}% damage. Gain {#}% increased Movement Speed for {#} seconds afterwards.`,
 		id: 43,
 		maxPoints: 5,
-		values: [ "9.0", "100", "91", "50", "2", "", "" ],
+		values: [ "", "", "", "50", "", "", "" ],
 		x: 5.42,
 		y: -278.485
 	},
