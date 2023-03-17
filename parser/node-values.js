@@ -2160,7 +2160,7 @@ let nodeValues = {
 				"2"
 			],
 			"Frost Bolt — Enchantment": [
-				"100"
+				"30"
 			],
 			"Spark — Enchantment": [
 				"10"

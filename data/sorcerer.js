@@ -54,7 +54,7 @@ Direct damage from Skills applies up to {#}% Chill.`,
 		id: 0,
 		maxPoints: 5,
 		values: [ "30", "35", "15" ],
-		extraValues: [ "100" ],
+		extraValues: [ "30" ],
 		x: -195.614,
 		y: -247.035
 	},
