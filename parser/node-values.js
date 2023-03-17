@@ -2256,11 +2256,11 @@ let nodeValues = {
 				"2"
 			],
 			"Devastation": [
-				"{8/15/23}"
+				""
 			],
 			"Elemental Dominance": [
 				"{8/16/24}",
-				"3"
+				""
 			],
 			"Potent Warding": [
 				"{2/4/6}",
