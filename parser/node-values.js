@@ -2470,7 +2470,7 @@ let nodeValues = {
 			],
 			"Mage's Ball Lightning": [
 				"2",
-				"30"
+				""
 			],
 			"Inner Flames": [
 				"{8/16/24}"

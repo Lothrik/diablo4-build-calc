@@ -1019,7 +1019,7 @@ When Crackling Energy would form, there's a 10% chance Ball Lightning is formed 
 		description: `After hitting Close enemies {#} times with Ball Lightning, your next cast of it Stuns enemies hit for {#} seconds.`,
 		id: 89,
 		maxPoints: 1,
-		values: [ "2", "30" ],
+		values: [ "2", "" ],
 		x: 656.41,
 		y: 586.43
 	},
