@@ -8,7 +8,7 @@ function handleVersionLabel(event) {
 }
 
 function handleVersionInterval() {
-	$.get(`../../VERSION?t=${Date.now()}`, null, versionData => {
+	$.get(`../VERSION?t=${Date.now()}`, null, versionData => {
 		if (versionCompare(localVersion, versionData) == -1) {
 			$("#versionLabel").text(" [Update!]").css("cursor", "pointer");
 			clearInterval(versionInterval);
