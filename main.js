@@ -365,17 +365,19 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const VERSION = "0.8.0.39319-2";
+const localVersion = "0.8.0.39319-2";
 var remoteVersion = "";
+var versionInterval = null;
 function handleVersionLabel(event) {
-	if (event.type == "click" && versionCompare(VERSION, remoteVersion) == -1) window.location.reload();
+	if (event.type == "click" && versionCompare(localVersion, remoteVersion) == -1) window.location.reload();
 }
 function handleVersionInterval() {
 	$.get(`VERSION?t=${Date.now()}`, null, versionData => {
-		if (versionCompare(VERSION, versionData) == -1) {
+		if (versionCompare(localVersion, versionData) == -1) {
 			$("#versionLabel").html("&nbsp;[Update!]").css("cursor", "pointer");
+			clearInterval(versionInterval);
 		} else {
-			$("#versionLabel").html(`&nbsp;[${VERSION.split("-")[0]}]`).css("cursor", "auto");
+			$("#versionLabel").html(`&nbsp;[${localVersion.split("-")[0]}]`).css("cursor", "auto");
 		}
 		remoteVersion = versionData;
 	});
@@ -2152,7 +2154,7 @@ $(document).ready(function() {
 
 	$("#versionLabel").on("click", handleVersionLabel);
 	handleVersionInterval();
-	setInterval(handleVersionInterval, 900000);
+	versionInterval = setInterval(handleVersionInterval, 900000);
 
 	$("#resetButton").on("click", rebuildCanvas);
 	$("#clampButton").on("click", handleClampButton);
