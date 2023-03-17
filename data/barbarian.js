@@ -849,7 +849,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 	},
 	"Battle Fervor": {
 		connections: [ "Aggressive Resistance" ],
-		description: `When a Brawling Skill damages at least one enemy, gain Berserking for {#}4second.:seconds.`,
+		description: `When a Brawling Skill damages at least one enemy, gain Berserking for {#} seconds.`,
 		id: 125,
 		maxPoints: 3,
 		values: [ "" ],

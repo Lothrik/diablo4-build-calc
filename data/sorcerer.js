@@ -342,7 +342,7 @@ Lucky Hit: Direct damage has up to a 8% chance to spawn a rotating Incinerate be
 	"Greater Incinerate": {
 		baseSkill: "Incinerate",
 		connections: [ "Enhanced Incinerate" ],
-		description: `Every {#} seconds an enemy has been hit by Incinerate, they are Immobilized for {#}4second.:seconds.`,
+		description: `Every {#} seconds an enemy has been hit by Incinerate, they are Immobilized for {#} seconds.`,
 		id: 27,
 		maxPoints: 1,
 		values: [ "80", "" ],

@@ -127,6 +127,7 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/{\/if}/gi, "")										// `{/if}`, exact.
 		.replace(/sLevel/g, "")											// `sLevel`, exact.
 		.replace(/\|4([^:]+):([^;]+);/g, "$2")							// `|4first:second;` => `second`.
+		.replace(/\|4([^:]+):([^\.]+)\./g, "$2.")						// `|4first:second.` => `second.`.
 		.replace(/\[([^\]\|]+)\|(%?)[0-9]?([x\+]?)\|\]/g, "$3[$1]$2")	// Replace `[...|%x|]` with `x[...]%`, and similar.
 		.replace(/\[([^\]\|]+)\|([x\+]?)[0-9]?(%?)\|\]/g, "$2[$1]$3")	// Replace `[...|x%|]` with `x[...]%`, and similar.
 		.replace(/ *\* */g, "")											// `*`, including any nearby whitespace.
@@ -150,7 +151,7 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/(cooldown: {#})(\r?\n)/gi, "$1 seconds$2")			// Add ` seconds` after `Cooldown: {#}` if not already present.
 		.replace(/(\r?\n)([^:\+]+)([a-z]+)$/gi, "$1$2$3.")				// Ensure the last line ends with a `.`, unless that line contains `:` or `+`, or ends with a character other than (`a-z`, `A-Z`).
 		.replace(/(if this kills.+cooldown is reset).+(if this kills.+charge is refunded)/gi, "$1")
-																	// Special handling for Death Blow conditional description logic.
+																		// Special handling for Death Blow conditional description logic.
 		.trim();
 
 	return sanitizedText;
@@ -293,23 +294,26 @@ function fixJSON(classData, curNode, rootNodeName) {
 }
 
 function updateSavedValues(className, rootNodeName, skillName, sanitizedDescription) {
-	if (nodeValues[className][rootNodeName] == undefined) nodeValues[className][rootNodeName] = {};
-	if (nodeValues[className][rootNodeName][skillName] == undefined) nodeValues[className][rootNodeName][skillName] = [];
+	const savedValues = nodeValues[className][rootNodeName];
+	if (savedValues == undefined) savedValues = {};
+	if (savedValues[skillName] == undefined) savedValues[skillName] = [];
 	const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
-	const savedValues = nodeValues[className][rootNodeName][skillName];
-	if (descLength > savedValues.length) {
-		savedValues.push(...Array(descLength - savedValues.length).fill(""));
+
+	const skillValues = savedValues[skillName];
+	if (descLength > skillValues.length) {
+		skillValues.push(...Array(descLength - skillValues.length).fill(""));
 	} else {
-		savedValues.length = descLength;
+		skillValues.length = descLength;
 	}
+
 	let output = "";
-	if (savedValues.length > 1) {
-		output = `\t\tvalues: [ "${savedValues.join('", "')}" ],\n`
-	} else if (savedValues.length > 0) {
-		output = `\t\tvalues: [ "${savedValues[0]}" ],\n`;
-	} else {
-		delete nodeValues[className][rootNodeName][skillName];
+	if (skillValues.length > 1) {
+		output = `\t\tvalues: [ "${skillValues.join('", "')}" ],\n`
+	} else if (skillValues.length > 0) {
+		output = `\t\tvalues: [ "${skillValues[0]}" ],\n`;
 	}
+
+	if (descLength > 0) skillValues["recentlyAdded"] = true;
 	return output;
 }
 
@@ -579,6 +583,15 @@ function runParser(downloadMode) {
 			downloadElement.click();
 		} else {
 			console.log(formattedNodeHistory);
+		}
+
+		for (const [nodeClassKey, nodeClassData] of Object.entries(nodeValues)) {
+			for (const [nodeGroupKey, nodeGroupData] of Object.entries(nodeClassData)) {
+				for (const [nodeSkillKey, nodeSkillData] of Object.entries(nodeGroupData)) {
+					if (nodeSkillData["recentlyAdded"]) continue;
+					delete nodeValues[nodeClassKey][nodeGroupKey][nodeSkillKey];
+				}
+			}
 		}
 
 		let formattedNodeValues = "let nodeValues = ";
