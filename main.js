@@ -124,6 +124,7 @@ const DISABLE_CLAMP_TEXT = "Disable Clamping";
 const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
+const ENCHANTMENT_EFFECT_DESC = "— Enchantment Effect —";
 const PHYSICAL = "Physical";
 const FIRE = "Fire";
 const LIGHTNING = "Lightning";
@@ -1296,15 +1297,25 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 		node.nodeDesc = nodeData.get("description");
 		if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && requiredPoints == undefined) {
-			const nodeValues = node.nodeData.get("values");
+			let nodeValues = node.nodeData.get("values");
 			if (nodeValues != undefined) {
-				nodeValues.forEach(nodeValue => {
-					if (nodeValue.length > 0) {
-						node.nodeDesc = node.nodeDesc.replace(/{#}/, nodeValue);
-					} else {
-						node.nodeDesc = node.nodeDesc.replace(/{#}/, "#");
+				let [nodeDesc1, nodeDesc2] = node.nodeDesc.split(ENCHANTMENT_EFFECT_DESC);
+				nodeValues = nodeValues.values();
+				for (const nodeValue of nodeValues) {
+					nodeDesc1 = nodeDesc1.replace(/{#}/, nodeValue.length > 0 ? nodeValue: "#");
+				}
+				if (nodeDesc2 != undefined) {
+					let extraValues = node.nodeData.get("extraValues");
+					if (extraValues != undefined) {
+						extraValues = extraValues.values();
+						for (const extraValue of extraValues) {
+							nodeDesc2 = nodeDesc2.replace(/{#}/, extraValue.length > 0 ? extraValue: "#");
+						}
+						node.nodeDesc = nodeDesc1 + ENCHANTMENT_EFFECT_DESC + nodeDesc2;
 					}
-				});
+				} else {
+					node.nodeDesc = nodeDesc1;
+				}
 			}
 		}
 

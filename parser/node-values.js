@@ -2158,6 +2158,19 @@ let nodeValues = {
 			],
 			"Flickering Fire Bolt": [
 				"2"
+			],
+			"Frost Bolt — Enchantment": [
+				"100"
+			],
+			"Spark — Enchantment": [
+				"10"
+			],
+			"Arc Lash — Enchantment": [
+				"20"
+			],
+			"Fire Bolt — Enchantment": [
+				"23",
+				"8"
 			]
 		},
 		"Core": {
@@ -2198,7 +2211,7 @@ let nodeValues = {
 				"40",
 				"36",
 				"",
-				"71"
+				""
 			],
 			"Enhanced Incinerate": [
 				"30"
@@ -2270,6 +2283,23 @@ let nodeValues = {
 			"Enhanced Charged Bolts": [
 				"",
 				""
+			],
+			"Charged Bolts — Enchantment": [
+				"",
+				"5"
+			],
+			"Frozen Orb — Enchantment": [
+				"20"
+			],
+			"Incinerate — Enchantment": [
+				"",
+				""
+			],
+			"Fireball — Enchantment": [
+				"50"
+			],
+			"Chain Lightning — Enchantment": [
+				"100"
 			]
 		},
 		"Defensive": {
@@ -2346,6 +2376,18 @@ let nodeValues = {
 			"Glass Cannon": [
 				"{6/12/18}",
 				"{3/6/9}"
+			],
+			"Flame Shield — Enchantment": [
+				"120"
+			],
+			"Frost Nova — Enchantment": [
+				"30"
+			],
+			"Ice Armor — Enchantment": [
+				"5"
+			],
+			"Teleport — Enchantment": [
+				""
 			]
 		},
 		"Conjuration": {
@@ -2420,6 +2462,17 @@ let nodeValues = {
 			"Sorc_Mod_LightningSpear_UpgradeA": [
 				"",
 				""
+			],
+			"Hydra — Enchantment": [
+				"",
+				"",
+				""
+			],
+			"Ice Blades — Enchantment": [
+				""
+			],
+			"Lightning Spear — Enchantment": [
+				"10"
 			]
 		},
 		"Mastery": {
@@ -2514,6 +2567,20 @@ let nodeValues = {
 				"5"
 			],
 			"Crippling Flames": [
+				"",
+				""
+			],
+			"Meteor — Enchantment": [
+				""
+			],
+			"Blizzard — Enchantment": [
+				"15",
+				"4"
+			],
+			"Ball Lightning — Enchantment": [
+				""
+			],
+			"Firewall — Enchantment": [
 				"",
 				""
 			]

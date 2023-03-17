@@ -50,10 +50,11 @@ sorcererData["Basic"] = {
 Throw a bolt of frost at an enemy, dealing {#}% damage and Chilling them for {#}%.
 
 — Enchantment Effect —
-Lucky Hit: Your direct damage has up to a 100% chance to Chill for 30%.`,
+Direct damage from Skills applies up to {#}% Chill.`,
 		id: 0,
 		maxPoints: 5,
 		values: [ "30", "35", "15" ],
+		extraValues: [ "100" ],
 		x: -195.614,
 		y: -247.035
 	},
@@ -93,10 +94,11 @@ Lucky Hit: Your direct damage has up to a 100% chance to Chill for 30%.`,
 Launch a bolt of lightning that shocks an enemy {#} times, dealing {#}% damage each hit.
 
 — Enchantment Effect —
-Killing an enemy has a 10% chance to form a Crackling Energy.`,
+Killing an enemy has a {#}% chance to form a Crackling Energy.`,
 		id: 4,
 		maxPoints: 5,
 		values: [ "10", "4", "8" ],
+		extraValues: [ "10" ],
 		x: -489.038,
 		y: -81.23
 	},
@@ -136,10 +138,11 @@ Killing an enemy has a 10% chance to form a Crackling Energy.`,
 Unleash arcing lightning that deals {#}% damage to enemies in front of you. Every {#} times Arc Lash swipes, it Stuns all enemies hit for {#} seconds.
 
 — Enchantment Effect —
-Whenever you are hit, there is a 20% chance the attacker is Stunned for 1 second.`,
+When you use a Cooldown, enemies around you are Stunned for {#} seconds.`,
 		id: 8,
 		maxPoints: 5,
 		values: [ "30", "42", "10", "2" ],
+		extraValues: [ "20" ],
 		x: 487.781,
 		y: -80.27
 	},
@@ -178,10 +181,11 @@ Whenever you are hit, there is a 20% chance the attacker is Stunned for 1 second
 Hurl a flaming bolt, dealing {#}% damage and Burning for {#}% damage over {#} seconds.
 
 — Enchantment Effect —
-Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for 23% over 8 seconds.`,
+Direct damage from Skills applies up to an additional {#}% Burning damage over {#} seconds.`,
 		id: 12,
 		maxPoints: 5,
 		values: [ "20", "10", "40", "8" ],
+		extraValues: [ "23", "8" ],
 		x: 202.516,
 		y: -251.18
 	},
@@ -224,10 +228,11 @@ Lucky Hit Chance: {#}%
 Release {#} bolts of lightning that course along the ground in an erratic pattern, dealing {#}% damage each.
 
 — Enchantment Effect —
-Whenever you are hit, there is a 40% chance to release 5 Charged Bolts.`,
+When you Stun an enemy, there's a {#}% chance to release {#} Charged Bolts from them.`,
 		id: 16,
 		maxPoints: 5,
 		values: [ "40", "25", "5", "15" ],
+		extraValues: [ "", "5" ],
 		x: 133.995,
 		y: 322.79
 	},
@@ -268,10 +273,11 @@ Lucky Hit Chance: {#}%
 Unleash an orb that Chills for {#}% and expels piercing shards, dealing a total of {#}% damage. Upon expiration, Frozen Orb explodes, dealing {#}% damage and Chilling enemies for {#}%.
 
 — Enchantment Effect —
-Whenever you cast a non-Basic Skill, you have a 20% chance to launch a Frozen Orb at a Nearby enemy.`,
+Whenever you cast a Non-Basic Skill, you have a {#}% chance to launch a Frozen Orb at a Nearby enemy.`,
 		id: 20,
 		maxPoints: 5,
 		values: [ "40", "20", "34", "32", "29", "9" ],
+		extraValues: [ "20" ],
 		x: -639.26,
 		y: -93.76
 	},
@@ -312,10 +318,11 @@ Lucky Hit Chance: {#}%
 Channel a beam of fire, Burning enemies for {#}% damage per second. Damage per second increases over {#} seconds, up to {#}.
 
 — Enchantment Effect —
-Lucky Hit: Direct damage has up to a 8% chance to spawn a rotating Incinerate beam.`,
+Every {#} seconds, a serpent spawns and Incinerates enemies for {#} seconds.`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "20", "40", "36", "", "71" ],
+		values: [ "20", "40", "36", "", "" ],
+		extraValues: [ "", "" ],
 		x: 0.845,
 		y: -304.65
 	},
@@ -356,10 +363,11 @@ Lucky Hit Chance: {#}%
 Hurl an exploding ball of fire, dealing {#}% damage to surrounding enemies.
 
 — Enchantment Effect —
-When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
+When you kill an enemy, they explode in a Fireball for {#}% of its damage.`,
 		id: 28,
 		maxPoints: 5,
 		values: [ "50", "33", "60" ],
+		extraValues: [ "50" ],
 		x: -363.79,
 		y: -251.52
 	},
@@ -400,10 +408,11 @@ Lucky Hit Chance: {#}%
 Unleash a stream of lightning that deals {#}% damage and chains between Nearby enemies and you up to {#} times, prioritizing enemies.
 
 — Enchantment Effect —
-Chain Lightning forms automatically after spending 100 Mana.`,
+Chain Lightning forms automatically after spending {#} Mana.`,
 		id: 32,
 		maxPoints: 5,
 		values: [ "35", "25", "42", "4" ],
+		extraValues: [ "100" ],
 		x: -205.425,
 		y: 323.95
 	},
@@ -519,10 +528,11 @@ Engulf yourself in flames for {#} seconds, Burning surrounding enemies for {#}% 
 While Flame Shield is active, you are Immune.
 
 — Enchantment Effect —
-Flame Shield automatically activates when you take fatal damage. It takes 120 seconds to recharge.`,
+Flame Shield automatically activates when you take fatal damage. Can only happen once every {#} seconds.`,
 		id: 43,
 		maxPoints: 5,
 		values: [ "20.0", "50", "2", "7" ],
+		extraValues: [ "120" ],
 		x: -1.14,
 		y: -278.29
 	},
@@ -564,10 +574,11 @@ Charge Cooldown: {#} seconds
 Unleash a torrent of frost, Freezing enemies around you for {#} seconds.
 
 — Enchantment Effect —
-Lucky Hit: Critical Strikes have up to a 30% chance to make your active Conjuration Skills unleash a Frost Nova.`,
+Lucky Hit: Your Conjuration Skills have a {#}% chance to unleash a Frost Nova when hitting enemies.`,
 		id: 47,
 		maxPoints: 5,
 		values: [ "15.0", "", "", "2" ],
+		extraValues: [ "30" ],
 		x: 7.87,
 		y: 296.675
 	},
@@ -607,10 +618,11 @@ Lucky Hit: Critical Strikes have up to a 30% chance to make your active Conjurat
 A Barrier of ice forms around you for {#} seconds, absorbing {#}% of your Base Life ({#}) in damage. While Ice Armor is active, {#}% of your damage dealt is added to its Barrier.
 
 — Enchantment Effect —
-Upon getting hit, you have a 5% chance to apply Ice Armor.`,
+Upon getting hit, you have a {#}% chance to apply Ice Armor.`,
 		id: 51,
 		maxPoints: 5,
 		values: [ "20.0", "6", "30", "", "10" ],
+		extraValues: [ "5" ],
 		x: 421.865,
 		y: 200.98
 	},
@@ -651,10 +663,11 @@ Lucky Hit Chance: {#}%
 Transform into lightning, becoming Unstoppable and surging to the target location, dealing {#}% damage around you upon arrival.
 
 — Enchantment Effect —
-Evade is replaced with Teleport on a 17.0 second cooldown.`,
+Evade is replaced with a short range Teleport on a {#} second Cooldown.`,
 		id: 55,
 		maxPoints: 5,
 		values: [ "11.0", "40", "25" ],
+		extraValues: [ "" ],
 		x: 422.375,
 		y: -202.015
 	},
@@ -718,10 +731,11 @@ Summon a {#}-headed hydra for {#} seconds. Each head spits fire at enemies, deal
 Maximum {#} active Hydras at a time.
 
 — Enchantment Effect —
-When a Burning enemy is killed, a Hydra head spawns from its corpse for 3 seconds.`,
+After spending {#} Mana, a {#}-headed Hydra spawns for {#} seconds.`,
 		id: 61,
 		maxPoints: 5,
 		values: [ "20", "62", "3", "8.0", "30", "" ],
+		extraValues: [ "", "", "" ],
 		x: 6.92,
 		y: -281.666
 	},
@@ -762,10 +776,11 @@ Lucky Hit Chance: {#}%
 Conjure a pair of ice blades for {#} seconds that rapidly slash enemies for {#}% damage and have a {#}% chance to make them Vulnerable for {#} seconds.
 
 — Enchantment Effect —
-Killing an enemy has a 10% chance to conjure Ice Blades.`,
+For every {#} seconds in Cooldowns you spend, you spawn an Ice Blades on a random enemy.`,
 		id: 65,
 		maxPoints: 5,
 		values: [ "12.0", "71", "6.0", "31", "20", "2" ],
+		extraValues: [ "" ],
 		x: -533.46,
 		y: -0.359
 	},
@@ -806,10 +821,11 @@ Lucky Hit Chance: {#}%
 Conjure a spear of lightning that seeks out enemies for {#} seconds, dealing {#}% damage per hit.
 
 — Enchantment Effect —
-Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
+Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear.`,
 		id: 69,
 		maxPoints: 5,
 		values: [ "20.0", "35", "6.0", "15" ],
+		extraValues: [ "10" ],
 		x: -413.195,
 		y: 220.974
 	},
@@ -898,10 +914,11 @@ Lucky Hit Chance: {#}%
 Summon a meteor that strikes the target location, dealing {#}% damage and Burning the ground for {#}% damage over {#} seconds.
 
 — Enchantment Effect —
-Every time an enemy takes Burning damage, there's a 3% chance a Meteor falls on them.`,
+Lucky Hit: {#}% chance for a Meteor to fall on enemies.`,
 		id: 78,
 		maxPoints: 5,
 		values: [ "40", "40", "50", "35", "3" ],
+		extraValues: [ "" ],
 		x: 601.53,
 		y: -220.475
 	},
@@ -942,10 +959,11 @@ Lucky Hit Chance: {#}%
 Summon a frigid blizzard that deals {#}% damage and continually Chills enemies for {#}% over {#} seconds.
 
 — Enchantment Effect —
-Every 15 seconds, a Blizzard forms over you and follows you for 4 seconds.`,
+Every {#} seconds, a Blizzard forms over you and follows you for {#} seconds.`,
 		id: 82,
 		maxPoints: 5,
 		values: [ "40", "33", "120", "18", "6" ],
+		extraValues: [ "15", "4" ],
 		x: 300.64,
 		y: -339.596
 	},
@@ -986,10 +1004,11 @@ Lucky Hit Chance: {#}%
 Discharge a ball of lightning that slowly moves forward, continually zapping enemies for {#}% damage.
 
 — Enchantment Effect —
-When Crackling Energy would form, there's a 10% chance Ball Lightning is formed instead.`,
+Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning.`,
 		id: 86,
 		maxPoints: 5,
 		values: [ "50", "20", "15" ],
+		extraValues: [ "" ],
 		x: 274.81,
 		y: 344.08
 	},
@@ -1111,10 +1130,11 @@ Lucky Hit Chance: {#}%
 Create a wall of flames that Burns enemies for {#}% damage over {#} seconds.
 
 — Enchantment Effect —
-Lucky Hit: Direct damage has up to a 15% chance to spawn a Firewall for 3 seconds.`,
+Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewalls underneath them for {#} seconds.`,
 		id: 99,
 		maxPoints: 5,
 		values: [ "30", "40", "160", "8" ],
+		extraValues: [ "", "" ],
 		x: 592.435,
 		y: 224.3
 	},

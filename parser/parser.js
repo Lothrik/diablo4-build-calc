@@ -1,7 +1,6 @@
 import { nodeHistory } from "./node-history.js";
 import { nodeValues } from "./node-values.js";
 import { necromancerMinions } from "./necromancer-minions.js";
-import { sorcererEnchants } from "./sorcerer-enchants.js";
 
 const buildNumber = 39319;
 
@@ -113,6 +112,25 @@ const rootNodeNamesSorted = {
 
 let classProcessed = [];
 let fixedJSON = false;
+
+function levenshteinDistance(str1 = "", str2 = "") {
+	const len1 = str1.length;
+	const len2 = str2.length;
+	const track = Array(len2 + 1).fill(null).map(() => Array(len1 + 1).fill(null));
+	for (let i = 0; i <= len1; i++) track[0][i] = i;
+	for (let j = 0; j <= len2; j++) track[j][0] = j;
+	for (let j = 1; j <= len2; j++) {
+		for (let i = 1; i <= len1; i++) {
+			const indicator = str1[i - 1] === str2[j - 1] ? 0 : 1;
+			track[j][i] = Math.min(
+				track[j][i - 1] + 1,			// deletion
+				track[j - 1][i] + 1,			// insertion
+				track[j - 1][i - 1] + indicator	// substitution
+			);
+		}
+	}
+	return track[len2][len1];
+};
 
 function sanitizeNodeDescription(descriptionText) {
 	let sanitizedText = descriptionText
@@ -293,24 +311,27 @@ function fixJSON(classData, curNode, rootNodeName) {
 	}
 }
 
-function updateSavedValues(className, rootNodeName, skillName, sanitizedDescription) {
+function updateSavedValues(className, rootNodeName, skillName, sanitizedDescription, extraValues = false) {
+	const extraLabel = className == "Sorcerer" ? "Enchantment" : "Extra";
+	const extraName = extraValues ? `${skillName} — ${extraLabel}` : skillName;
 	const savedValues = nodeValues[className][rootNodeName];
 	if (savedValues == undefined) savedValues = {};
-	if (savedValues[skillName] == undefined) savedValues[skillName] = [];
+	if (savedValues[extraName] == undefined) savedValues[extraName] = [];
 	const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
 
-	const skillValues = savedValues[skillName];
+	const skillValues = savedValues[extraName];
 	if (descLength > skillValues.length) {
 		skillValues.push(...Array(descLength - skillValues.length).fill(""));
 	} else {
 		skillValues.length = descLength;
 	}
 
+	const name = extraValues ? "extraValues" : "values";
 	let output = "";
 	if (skillValues.length > 1) {
-		output = `\t\tvalues: [ "${skillValues.join('", "')}" ],\n`
+		output = `\t\t${name}: [ "${skillValues.join('", "')}" ],\n`
 	} else if (skillValues.length > 0) {
-		output = `\t\tvalues: [ "${skillValues[0]}" ],\n`;
+		output = `\t\t${name}: [ "${skillValues[0]}" ],\n`;
 	}
 
 	if (descLength > 0) skillValues["recentlyAdded"] = true;
@@ -341,9 +362,20 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 						output += "\t\tdamageType: " + nodeData["damage_type"] + ",\n";
 					}*/
 					const sanitizedDescription = sanitizeNodeDescription(nodeData["power"]["skill_desc"]);
-					if (className == "Sorcerer" && sorcererEnchants[rootNodeName] != undefined) {
-						const extraDescription = sorcererEnchants[rootNodeName][skillName];
-						if (extraDescription != undefined && extraDescription.length > 0) {
+					let extraDescription = "";
+					if (className == "Sorcerer" && nodeData["reward"]["max_talent_ranks"] == 5) {
+						const MAX_TEXT_DISTANCE = 4;
+						const sorcererEnchants = classData["Enchantment"];
+						let textDistance1 = Number.MAX_SAFE_INTEGER;
+						for (const [enchantKey, enchantValue] of Object.entries(sorcererEnchants)) {
+							const textDistance2 = levenshteinDistance(enchantKey.split("_").at(-1).toLowerCase(), skillName.toLowerCase());
+							if (textDistance2 < textDistance1 && textDistance2 < MAX_TEXT_DISTANCE) {
+								extraDescription = enchantValue["desc"];
+								textDistance1 = textDistance2;
+							}
+						}
+						extraDescription = sanitizeNodeDescription(extraDescription);
+						if (extraDescription.length > 0) {
 							output += "\t\tdescription: `" + sanitizedDescription + "\n\n— Enchantment Effect —\n" + extraDescription + "`,\n";
 						} else {
 							output += "\t\tdescription: `" + sanitizedDescription + "`,\n";
@@ -361,6 +393,9 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					}
 					output += "\t\tmaxPoints: " + nodeData["reward"]["max_talent_ranks"] + ",\n";
 					output += updateSavedValues(className, rootNodeName, skillName, sanitizedDescription);
+					if (extraDescription.length > 0) {
+						output += updateSavedValues(className, rootNodeName, skillName, extraDescription, true);
+					}
 					output += "\t\tx: " + parseFloat(((nodeData["x_pos"] - rootNode["x_pos"]) * scaleRatio).toFixed(3)) + ",\n";
 					output += "\t\ty: " + parseFloat(((nodeData["y_pos"] - rootNode["y_pos"]) * scaleRatio).toFixed(3)) + "\n";
 					output += "\t},\n";
