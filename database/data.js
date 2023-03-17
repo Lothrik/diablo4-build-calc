@@ -1,4 +1,33 @@
 const buildNumber = 39319;
+const localVersion = `0.8.0.${buildNumber}-3`;
+var remoteVersion = "";
+var versionInterval = null;
+
+function handleVersionLabel(event) {
+	if (event.type == "click" && versionCompare(localVersion, remoteVersion) == -1) window.location.reload();
+}
+
+function handleVersionInterval() {
+	$.get(`../../VERSION?t=${Date.now()}`, null, versionData => {
+		if (versionCompare(localVersion, versionData) == -1) {
+			$("#versionLabel").text(" [Update!]").css("cursor", "pointer");
+			clearInterval(versionInterval);
+		} else {
+			$("#versionLabel").text(` [${localVersion.split("-")[0]}]`).css("cursor", "auto");
+		}
+		remoteVersion = versionData;
+	});
+}
+
+function versionCompare(a, b) {
+	if (a.startsWith(b + "-")) return -1;
+	if (b.startsWith(a + "-")) return  1;
+	return a.localeCompare(b, undefined, { numeric: true, sensitivity: "case", caseFirst: "upper" });
+}
+
+$("#versionLabel").on("click", handleVersionLabel);
+handleVersionInterval();
+versionInterval = setInterval(handleVersionInterval, 900000);
 
 function traverse(node, callback) {
 	callback(node);
@@ -9,7 +38,6 @@ function traverse(node, callback) {
 	}
 }
 
-var otherJSON = "";
 $.getJSON("build-" + buildNumber + ".json", null, data => {
 	const root = $("#root");
 	const tree = jsonview.create(data);

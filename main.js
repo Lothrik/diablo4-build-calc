@@ -374,10 +374,10 @@ function handleVersionLabel(event) {
 function handleVersionInterval() {
 	$.get(`VERSION?t=${Date.now()}`, null, versionData => {
 		if (versionCompare(localVersion, versionData) == -1) {
-			$("#versionLabel").html("&nbsp;[Update!]").css("cursor", "pointer");
+			$("#versionLabel").text(" [Update!]").css("cursor", "pointer");
 			clearInterval(versionInterval);
 		} else {
-			$("#versionLabel").html(`&nbsp;[${localVersion.split("-")[0]}]`).css("cursor", "auto");
+			$("#versionLabel").text(` [${localVersion.split("-")[0]}]`).css("cursor", "auto");
 		}
 		remoteVersion = versionData;
 	});
