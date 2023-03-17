@@ -263,7 +263,7 @@ button:active {
 	color: #f0f;
 }
 
-.stamp {
+#versionLabel {
 	font-size: 50%;
 	position: absolute;
 	display: inline-block;
@@ -275,7 +275,7 @@ button:active {
 }
 
 @media (max-width: 600px) {
-	.stamp {
+	#versionLabel {
 		display: none;
 	}
 }

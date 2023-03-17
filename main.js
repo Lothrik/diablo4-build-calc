@@ -365,7 +365,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const VERSION = "0.8.0.39319-1";
+const VERSION = "0.8.0.39319-2";
 var remoteVersion = "";
 function handleVersionLabel(event) {
 	if (event.type == "click" && versionCompare(VERSION, remoteVersion) == -1) window.location.reload();
@@ -373,9 +373,9 @@ function handleVersionLabel(event) {
 function handleVersionInterval() {
 	$.get(`VERSION?t=${Date.now()}`, null, versionData => {
 		if (versionCompare(VERSION, versionData) == -1) {
-			$(".stamp").html("&nbsp;[Update!]").css("cursor", "pointer");
+			$("#versionLabel").html("&nbsp;[Update!]").css("cursor", "pointer");
 		} else {
-			$(".stamp").html(`&nbsp;[${VERSION.split("-")[0]}]`).css("cursor", "auto");
+			$("#versionLabel").html(`&nbsp;[${VERSION.split("-")[0]}]`).css("cursor", "auto");
 		}
 		remoteVersion = versionData;
 	});
@@ -480,12 +480,12 @@ function handleClassSelection(event) {
 	if (classText != $("#className").text()) {
 		$("#className").text(classText);
 		if (classText == "None") {
-			$("#header h2, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
+			$("#header h2, #versionLabel, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
 			$("#classSelectBox").removeClass("disabled");
 			$("#groupSelector").empty();
 			$("#searchInput").removeAttr("style");
 		} else {
-			$("#header h2, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
+			$("#header h2, #versionLabel, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
 			$("#classSelectBox").addClass("disabled");
 		}
 		rebuildCanvas();
@@ -2150,7 +2150,7 @@ $(document).ready(function() {
 	$("#colorNodeInput").on("change", handleNodeColorInput);
 	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
 
-	$(".stamp").on("click", handleVersionLabel);
+	$("#versionLabel").on("click", handleVersionLabel);
 	handleVersionInterval();
 	setInterval(handleVersionInterval, 900000);
 
