@@ -358,15 +358,32 @@ function handleColorButton(event) {
 	const extraInfoHTML = $("#extraInfo").html();
 	if (event.type == "mouseenter" && extraInfoHTML.length == 0) {
 		$("#extraInfo").html(COLOR_HOVER_HTML).removeClass("hidden");
-		resizeCanvas();
 	} else if (event.type == "mouseleave" && extraInfoHTML == COLOR_HOVER_HTML) {
 		$("#extraInfo").empty().addClass("hidden");
-		resizeCanvas();
 	} else if (event.type == "click" && extraInfoHTML != COLOR_LINE_TEXT) {
 		setTimeout(() => $("#colorConnectorInput").click(), 800);
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
-		resizeCanvas();
 	}
+}
+const VERSION = "0.8.0.39319-1";
+var remoteVersion = "";
+function handleVersionLabel(event) {
+	if (event.type == "click" && versionCompare(VERSION, remoteVersion) == -1) window.location.reload();
+}
+function handleVersionInterval() {
+	$.get(`VERSION?t=${Date.now()}`, null, versionData => {
+		if (versionCompare(VERSION, versionData) == -1) {
+			$(".stamp").html("&nbsp;[Update!]").css("cursor", "pointer");
+		} else {
+			$(".stamp").html(`&nbsp;[${VERSION.split("-")[0]}]`).css("cursor", "auto");
+		}
+		remoteVersion = versionData;
+	});
+}
+function versionCompare(a, b) {
+	if (a.startsWith(b + "-")) return -1;
+	if (b.startsWith(a + "-")) return  1;
+	return a.localeCompare(b, undefined, { numeric: true, sensitivity: "case", caseFirst: "upper" });
 }
 function handleIntervalEvent() {
 	newRenderScale = Math.min(pixiJS.stage.scale.x, 1);
@@ -2119,8 +2136,7 @@ function readCookie(name) {
 function writeCookie(name, value) {
 	let date = new Date();
 	date.setFullYear(date.getFullYear() + 1);
-	const expires = "expires=" + date.toUTCString();
-	document.cookie = name + "=" + value + "; " + expires + "; path=/";
+	document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
 }
 
 // read cookie settings immediately
@@ -2133,6 +2149,10 @@ $(document).ready(function() {
 	$("#colorConnectorInput").on("change", handleConnectorColorInput);
 	$("#colorNodeInput").on("change", handleNodeColorInput);
 	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
+
+	$(".stamp").on("click", handleVersionLabel);
+	handleVersionInterval();
+	setInterval(handleVersionInterval, 900000);
 
 	$("#resetButton").on("click", rebuildCanvas);
 	$("#clampButton").on("click", handleClampButton);
