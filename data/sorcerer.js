@@ -142,7 +142,7 @@ When you use a Cooldown, enemies around you are Stunned for {#} seconds.`,
 		id: 8,
 		maxPoints: 5,
 		values: [ "30", "42", "10", "2" ],
-		extraValues: [ "20" ],
+		extraValues: [ "" ],
 		x: 487.781,
 		y: -80.27
 	},

@@ -2166,7 +2166,7 @@ let nodeValues = {
 				"10"
 			],
 			"Arc Lash — Enchantment": [
-				"20"
+				""
 			],
 			"Fire Bolt — Enchantment": [
 				"23",
