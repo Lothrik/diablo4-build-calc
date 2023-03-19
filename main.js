@@ -1067,7 +1067,7 @@ function redrawAllNodes(idleMode = false) {
 	}
 }
 function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale > 0.8 ? 4 : newRenderScale > 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.6 ? 4 : newRenderScale >= 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	let node = null;
 	if (pixiNodes.length > nodeIndex) {
@@ -1725,7 +1725,7 @@ function drawAllNodes() {
 function drawTooltip(curNode, forceDraw) {
 	const clampScale = stageScale < tooltipScalingFloor ? tooltipScalingFloor / stageScale : stageScale > tooltipScalingCeiling ? tooltipScalingCeiling / stageScale : 1;
 	const clampRenderScale = stageScale * clampScale;
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (clampRenderScale > 0.8 ? 4 : clampRenderScale > 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * clampRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (clampRenderScale >= 0.6 ? 4 : clampRenderScale >= 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * clampRenderScale;
 
 	// skip tooltip redraw if we already have the correct one displayed
 	if (!forceDraw && !debugMode && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.scaleFactor == scaleFactor) return;
