@@ -1,10 +1,10 @@
-import { barbarianData } from "/data/barbarian.js";
-import { druidData } from "/data/druid.js";
-import { necromancerData } from "/data/necromancer.js";
-import { rogueData } from "/data/rogue.js";
-import { sorcererData } from "/data/sorcerer.js";
-import { paragonData } from "/data/paragon.js";
-import { codexData } from "/data/codex-of-power.js";
+import { barbarianData } from "./data/barbarian.js";
+import { druidData } from "./data/druid.js";
+import { necromancerData } from "./data/necromancer.js";
+import { rogueData } from "./data/rogue.js";
+import { sorcererData } from "./data/sorcerer.js";
+import { paragonData } from "./data/paragon.js";
+import { codexData } from "./data/codex-of-power.js";
 
 // splitMulti allows String.prototype.split to process multiple delimiters at once
 function splitMulti(str, tokens) {
