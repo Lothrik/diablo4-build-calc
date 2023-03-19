@@ -152,13 +152,20 @@ h1, h2, h3 {
 	pointer-events: none;
 }
 
+#flexContainer {
+	display: flex;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
 #classSelectBox {
 	border: 1px solid;
 	padding: 10px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	font-size: 36px;
 	font-variant: small-caps;
 	line-height: 1.25;
@@ -180,6 +187,17 @@ h1, h2, h3 {
 	justify-content: center;
 	user-select: none;
 	pointer-events: none;
+}
+
+#extraInfo a {
+	text-decoration: none;
+	font-variant: small-caps;
+	line-height: 1.25;
+	pointer-events: auto;
+}
+
+#extraInfo a:hover {
+	text-decoration: underline;
 }
 
 #extraButtons1, #extraButtons2 {
@@ -259,7 +277,7 @@ button:active {
 	}
 }
 
-#footerText a:hover {
+#extraInfo a:hover, #footerText a:hover {
 	color: #f0f;
 }
 

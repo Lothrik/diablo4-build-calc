@@ -1,10 +1,10 @@
-import { barbarianData } from "./data/barbarian.js";
-import { druidData } from "./data/druid.js";
-import { necromancerData } from "./data/necromancer.js";
-import { rogueData } from "./data/rogue.js";
-import { sorcererData } from "./data/sorcerer.js";
-import { paragonData } from "./data/paragon.js";
-import { codexData } from "./data/codex-of-power.js";
+import { barbarianData } from "/data/barbarian.js";
+import { druidData } from "/data/druid.js";
+import { necromancerData } from "/data/necromancer.js";
+import { rogueData } from "/data/rogue.js";
+import { sorcererData } from "/data/sorcerer.js";
+import { paragonData } from "/data/paragon.js";
+import { codexData } from "/data/codex-of-power.js";
 
 // splitMulti allows String.prototype.split to process multiple delimiters at once
 function splitMulti(str, tokens) {
@@ -119,6 +119,7 @@ const tooltipHeight = 200;
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
+const DATABASE_LINK_HTML = `<a href="/database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
 const MATCH_FOUND_TEXT = " match found for query: ";
@@ -365,7 +366,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.0.39319-4";
+const localVersion = "0.8.0.39319-5";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -484,11 +485,13 @@ function handleClassSelection(event) {
 		if (classText == "None") {
 			$("#header h2, #versionLabel, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
 			$("#classSelectBox").removeClass("disabled");
+			$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
 			$("#groupSelector").empty();
 			$("#searchInput").removeAttr("style");
 		} else {
 			$("#header h2, #versionLabel, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
 			$("#classSelectBox").addClass("disabled");
+			$("#extraInfo").empty().addClass("hidden");
 		}
 		rebuildCanvas();
 	}
@@ -652,6 +655,7 @@ function handleReloadButton() {
 		}
 	} else {
 		$("#classSelectBox").removeClass("disabled");
+		$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
 	}
 }
 function handleShareButton() {
