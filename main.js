@@ -2175,7 +2175,7 @@ $(document).ready(function() {
 	$("#searchInput").on("keyup focus blur", handleSearchInput);
 
 	$("#canvasContainer").append(pixiJS.renderer.view);
-	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove touchend", handleCanvasEvent);
+	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove touchend contextmenu", handleCanvasEvent);
 	$(window).on("resize", resizeCanvas);
 
 	handleReloadButton();
