@@ -2,7 +2,7 @@ import { nodeHistory } from "./node-history.js";
 import { nodeValues } from "./node-values.js";
 import { necromancerMinions } from "./necromancer-minions.js";
 
-const buildNumber = 39319;
+const buildNumber = 39517;
 
 var fullJSON = "";
 $.getJSON("../database/build-" + buildNumber + ".json", null, fullData => {
@@ -211,7 +211,7 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode) 
 function fixJSON(classData, curNode, rootNodeName) {
 	const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
 	const nodeData = skillTreeValues[String(curNode)];
-	if (buildNumber == 39319) {
+	if (buildNumber == 39517) {
 		let skillName = undefined;
 		if ("power" in nodeData && "skill_name" in nodeData["power"]) {
 			skillName = nodeData["power"]["skill_name"];
@@ -223,8 +223,28 @@ function fixJSON(classData, curNode, rootNodeName) {
 			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `" + skillName.trim() + "`.");
 			nodeData["power"]["skill_name"] = skillName.trim();
 		}
+		// `Battle Bash` was missing a skill name entirely in 39517, and fell back to the power name instead.
+		if (skillName == "Barb_Mod_Bash_UpgradeA" && nodeData["id"] == 436) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Battle Bash`.");
+			nodeData["power"]["skill_name"] = "Battle Bash";
+		// `Necro_Mod_Reap_03` was missing a skill name entirely in 39517, and fell back to the power name instead.
+		} else if (skillName == "Necro_Mod_Reap_03" && nodeData["id"] == 465) {
+			//$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `TBD`.");
+			//nodeData["power"]["skill_name"] = "TBD";
+		// `Necro_Mod_BoneSplinters_01` was missing a skill name entirely in 39517, and fell back to the power name instead.
+		} else if (skillName == "Necro_Mod_BoneSplinters_01" && nodeData["id"] == 9) {
+			//$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `TBD`.");
+			//nodeData["power"]["skill_name"] = "TBD";
+		// `Invoked Hydra` was missing a skill name entirely in 39517, and fell back to the power name instead.
+		} else if (skillName == "Sorc_Mod_Hydra_UpgradeB" && nodeData["id"] == 694) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Invoked Hydra`.");
+			nodeData["power"]["skill_name"] = "Invoked Hydra";
+		// `Summoned Lightning Spear` was missing a skill name entirely in 39517, and fell back to the power name instead.
+		} else if (skillName == "Sorc_Mod_LightningSpear_UpgradeA" && nodeData["id"] == 682) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Summoned Lightning Spear`.");
+			nodeData["power"]["skill_name"] = "Summoned Lightning Spear";
 		// `Supreme Unstable Currents` was incorrectly assigned the duplicate name `Prime Unstable Currents` in 36023, causing a naming collision.
-		if (skillName == "Prime Unstable Currents" && nodeData["id"] == 619) {
+		} else if (skillName == "Prime Unstable Currents" && nodeData["id"] == 619) {
 			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Supreme Unstable Currents`.");
 			nodeData["power"]["skill_name"] = "Supreme Unstable Currents";
 		// `Prime Inferno` was incorrectly assigned the name `Upgrade 1` in 36023.

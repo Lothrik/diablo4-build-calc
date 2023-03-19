@@ -4,7 +4,7 @@ let nodeValues = {
 			"Bash": [
 				"10",
 				"50",
-				"31",
+				"30",
 				"4",
 				"1.25",
 				"2"
@@ -19,7 +19,7 @@ let nodeValues = {
 			"Lunging Strike": [
 				"9",
 				"50",
-				"31"
+				"30"
 			],
 			"Enhanced Lunging Strike": [
 				"30",
@@ -30,20 +30,20 @@ let nodeValues = {
 				"1.5"
 			],
 			"Battle Lunging Strike": [
-				"21",
+				"20",
 				"5"
 			],
 			"Frenzy": [
-				"5",
+				"4",
 				"30",
-				"21",
+				"20",
 				"20",
 				"3",
 				"60"
 			],
 			"Enhanced Frenzy": [
 				"60",
-				""
+				"2"
 			],
 			"Battle Frenzy": [
 				"5"
@@ -55,7 +55,7 @@ let nodeValues = {
 				"9",
 				"50",
 				"5",
-				"38",
+				"36",
 				"5"
 			],
 			"Enhanced Flay": [
@@ -63,24 +63,24 @@ let nodeValues = {
 			],
 			"Battle Flay": [
 				"10",
-				""
+				"3"
 			],
 			"Combat Flay": [
-				"1",
-				"4",
 				"3",
-				"5"
-			],
-			"Barb_Mod_Bash_UpgradeA": [
 				"",
-				""
+				"3",
+				"4"
+			],
+			"Battle Bash": [
+				"3",
+				"4"
 			]
 		},
 		"Core": {
 			"Hammer of the Ancients": [
 				"35",
 				"40",
-				"59"
+				"56"
 			],
 			"Enhanced Hammer of the Ancients": [
 				"3",
@@ -97,7 +97,7 @@ let nodeValues = {
 			"Upheaval": [
 				"40",
 				"20",
-				"73"
+				"70"
 			],
 			"Enhanced Upheaval": [
 				"20",
@@ -116,10 +116,10 @@ let nodeValues = {
 			"Double Swing": [
 				"25",
 				"30",
-				"38"
+				"36"
 			],
 			"Enhanced Double Swing": [
-				""
+				"15"
 			],
 			"Furious Double Swing": [
 				"2"
@@ -133,8 +133,8 @@ let nodeValues = {
 			"Rend": [
 				"35",
 				"33",
-				"13",
-				"101",
+				"12",
+				"96",
 				"5"
 			],
 			"Enhanced Rend": [
@@ -157,7 +157,7 @@ let nodeValues = {
 				"3"
 			],
 			"Furious Whirlwind": [
-				"26",
+				"20",
 				"5"
 			],
 			"Violent Whirlwind": [
@@ -170,8 +170,8 @@ let nodeValues = {
 		},
 		"Defensive": {
 			"Challenging Shout": [
-				"25.0",
-				"40",
+				"25",
+				"{40/45/50/55/60}",
 				"8"
 			],
 			"Enhanced Challenging Shout": [
@@ -184,12 +184,12 @@ let nodeValues = {
 				"3"
 			],
 			"Iron Skin": [
-				"14.0",
+				"14",
 				"50",
 				"5"
 			],
 			"Enhanced Iron Skin": [
-				"10"
+				"5"
 			],
 			"Tactical Iron Skin": [
 				"10"
@@ -200,17 +200,17 @@ let nodeValues = {
 				"50"
 			],
 			"Outburst": [
-				"{2/4/6}",
-				"2",
-				"2"
-			],
-			"Tough as Nails": [
-				"{20/40/60}",
+				"",
 				"",
 				""
 			],
+			"Tough as Nails": [
+				"{20/40/60}",
+				"1",
+				"5"
+			],
 			"Ground Stomp": [
-				"16.0",
+				"16",
 				"33",
 				"10",
 				"3"
@@ -225,11 +225,11 @@ let nodeValues = {
 				"1"
 			],
 			"Rallying Cry": [
-				"25.0",
+				"25",
 				"30",
 				"50",
-				"6",
-				""
+				"6.0",
+				"3.0"
 			],
 			"Strategic Rallying Cry": [
 				"10",
@@ -250,12 +250,12 @@ let nodeValues = {
 		},
 		"Brawling": {
 			"Charge": [
-				"17.0",
+				"17",
 				"33",
-				"26"
+				"25"
 			],
 			"Enhanced Charge": [
-				"16",
+				"15",
 				"3"
 			],
 			"Power Charge": [
@@ -265,17 +265,17 @@ let nodeValues = {
 				"2"
 			],
 			"War Cry": [
-				"25.0",
-				"15",
-				"8",
-				""
+				"25",
+				"15.0",
+				"8.0",
+				"4.0"
 			],
 			"Enhanced War Cry": [
-				"3"
+				"4"
 			],
 			"Power War Cry": [
-				"4",
-				"15"
+				"6",
+				"30"
 			],
 			"Mighty War Cry": [
 				"28",
@@ -289,9 +289,9 @@ let nodeValues = {
 				"5"
 			],
 			"Leap": [
-				"17.0",
+				"17",
 				"33",
-				"34"
+				"33"
 			],
 			"Enhanced Leap": [
 				"4"
@@ -305,10 +305,10 @@ let nodeValues = {
 			],
 			"Kick": [
 				"2",
-				"17.0",
+				"17",
 				"100",
-				"19",
-				"57",
+				"18",
+				"54",
 				"3"
 			],
 			"Enhanced Kick": [
@@ -319,7 +319,7 @@ let nodeValues = {
 				"2"
 			],
 			"Power Kick": [
-				"21",
+				"20",
 				"10"
 			],
 			"Aggressive Resistance": [
@@ -338,15 +338,15 @@ let nodeValues = {
 				"{1/2/3}"
 			],
 			"Battle Fervor": [
-				""
+				"{1/2/3}"
 			]
 		},
 		"Weapon Mastery": {
 			"Steel Grasp": [
 				"2",
-				"11.0",
+				"11",
 				"25",
-				"24"
+				"23"
 			],
 			"Enhanced Steel Grasp": [
 				"2.5"
@@ -358,15 +358,15 @@ let nodeValues = {
 				"2"
 			],
 			"Thick Skin": [
-				"",
+				"0.4",
 				""
 			],
 			"Death Blow": [
 				"",
 				"",
-				"15.0",
+				"15",
 				"50",
-				"126"
+				"120"
 			],
 			"Enhanced Death Blow": [
 				"100"
@@ -385,21 +385,21 @@ let nodeValues = {
 				"{8/15/23}"
 			],
 			"Expose Vulnerability": [
-				"{1.5/3/4.5}"
+				"{1/2/3}"
 			],
 			"No Mercy": [
-				"{5/9/13}"
+				"{3/6/9}"
 			],
 			"Rupture": [
-				"15.0",
+				"10",
 				"",
 				"",
 				"50",
-				"14"
+				"13"
 			],
 			"Enhanced Rupture": [
-				"20",
-				"8"
+				"30",
+				"5"
 			],
 			"Fighter's Rupture": [
 				"15",
@@ -420,38 +420,38 @@ let nodeValues = {
 				"{5/10/15}"
 			],
 			"Defensive Stance": [
-				""
+				"{3/6/9}"
 			]
 		},
 		"Ultimate": {
 			"Call of the Ancients": [
-				"50.0",
+				"50",
 				"30",
 				"6",
-				"80",
-				"30",
-				"50",
-				"150"
+				"104",
+				"39",
+				"65",
+				"195"
 			],
 			"Prime Call of the Ancients": [
 				"10",
 				"10"
 			],
 			"Supreme Call of the Ancients": [
+				"10",
 				"50",
-				"1",
 				"30",
 				"3"
 			],
 			"Iron Maelstrom": [
-				"60.0",
+				"60",
 				"40",
-				"63",
+				"60",
 				"2",
-				"21",
-				"126",
+				"20",
+				"120",
 				"5",
-				"34"
+				"33"
 			],
 			"Prime Iron Maelstrom": [
 				"10",
@@ -464,7 +464,7 @@ let nodeValues = {
 				"{3/6/9}"
 			],
 			"Wrath of the Berserker": [
-				"60.0",
+				"60",
 				"40",
 				"5",
 				"10",
@@ -482,9 +482,9 @@ let nodeValues = {
 				"{3/6/9}"
 			],
 			"Invigorating Fury": [
-				"{2/4/6}",
-				"100",
-				""
+				"{3/6/9}",
+				"",
+				"100"
 			],
 			"Furious Impulse": [
 				"{2/4/6}"
@@ -510,9 +510,9 @@ let nodeValues = {
 				"25"
 			],
 			"Gushing Wounds": [
-				"12",
-				"5",
-				""
+				"100",
+				"11",
+				"5"
 			],
 			"Unbridled Rage": [
 				"135",
@@ -1598,7 +1598,7 @@ let nodeValues = {
 			"Blade Shift": [
 				"1",
 				"35",
-				"19",
+				"15",
 				"3"
 			],
 			"Enhanced Blade Shift": [
@@ -1616,7 +1616,7 @@ let nodeValues = {
 			"Invigorating Strike": [
 				"1",
 				"50",
-				"29",
+				"23",
 				"20",
 				"3"
 			],
@@ -1633,7 +1633,7 @@ let nodeValues = {
 			],
 			"Puncture": [
 				"50",
-				"27",
+				"21",
 				"3",
 				"20",
 				"2"
@@ -1651,7 +1651,7 @@ let nodeValues = {
 			"Heartseeker": [
 				"1",
 				"50",
-				"28",
+				"22",
 				"3",
 				"4",
 				"15"
@@ -1671,7 +1671,7 @@ let nodeValues = {
 			"Forceful Arrow": [
 				"1",
 				"50",
-				"25",
+				"20",
 				"2"
 			],
 			"Enhanced Forceful Arrow": [
@@ -1688,55 +1688,55 @@ let nodeValues = {
 				"57",
 				"8",
 				"1.5",
-				"74",
-				"57",
+				"72",
+				"",
 				"20",
-				"70",
+				"",
 				"40",
-				"83",
+				"",
 				"60"
 			],
 			"Enhanced Twisting Blades": [
 				"30"
 			],
 			"Advanced Twisting Blades": [
-				"",
-				"5"
+				"1",
+				"3"
 			],
 			"Flurry": [
 				"25",
-				"35",
+				"8",
+				"4",
+				"60",
 				"",
-				"30",
-				"95",
 				"1.5",
-				"114",
+				"",
 				"3.0",
-				"133",
+				"",
 				"4.5"
 			],
 			"Enhanced Flurry": [
 				"1",
-				"12",
 				"",
+				"12",
 				""
 			],
 			"Improved Flurry": [
 				"3"
 			],
 			"Advanced Flurry": [
-				""
+				"2.5"
 			],
 			"Penetrating Shot": [
 				"35",
 				"50",
-				"89",
+				"70",
 				"",
-				"116",
+				"",
 				"10",
-				"142",
+				"",
 				"20",
-				"169"
+				""
 			],
 			"Enhanced Penetrating Shot": [
 				"20"
@@ -1754,12 +1754,12 @@ let nodeValues = {
 				"25",
 				"20",
 				"5",
-				"20",
-				"22",
-				"6",
 				"24",
+				"",
+				"6",
+				"",
 				"7",
-				"29",
+				"",
 				"8"
 			],
 			"Enhanced Rapid Fire": [
@@ -1772,21 +1772,21 @@ let nodeValues = {
 				"3"
 			],
 			"Improved Rapid Fire": [
-				""
+				"15"
 			],
 			"Barrage": [
 				"30",
 				"20",
 				"5",
-				"26",
+				"21",
 				"20",
 				"1",
 				"40",
-				"31",
+				"",
 				"6",
-				"36",
+				"",
 				"7",
-				"41",
+				"",
 				"8"
 			],
 			"Advanced Barrage": [
@@ -1810,13 +1810,13 @@ let nodeValues = {
 		},
 		"Agility": {
 			"Shadow Step": [
+				"9",
 				"",
 				"",
-				"",
+				"100",
+				"72",
 				"50",
-				"",
-				"",
-				""
+				"2"
 			],
 			"Enhanced Shadow Step": [
 				"8",
@@ -1831,9 +1831,9 @@ let nodeValues = {
 			],
 			"Dash": [
 				"2",
-				"10.0",
+				"10",
 				"25",
-				"47"
+				"37"
 			],
 			"Enhanced Dash": [
 				"20",
@@ -1860,9 +1860,9 @@ let nodeValues = {
 			],
 			"Caltrops": [
 				"2",
-				"12.0",
+				"12",
 				"25",
-				"38",
+				"30",
 				"50",
 				"6"
 			],
@@ -1882,15 +1882,15 @@ let nodeValues = {
 				"{4.5/9/13.5}"
 			],
 			"Trick Attacks": [
-				""
+				"{0.5/1/1.5}"
 			],
 			"Rapid Gambits": [
-				""
+				"{0.5/1/1.5}"
 			]
 		},
 		"Subterfuge": {
 			"Dark Shroud": [
-				"20.0",
+				"20",
 				"5",
 				"8.0"
 			],
@@ -1915,15 +1915,15 @@ let nodeValues = {
 				"{3/6/9}"
 			],
 			"Poison Trap": [
-				"10.0",
-				"33",
+				"10",
+				"20",
 				"1.25",
-				"435",
+				"344",
 				"9",
-				""
+				"4"
 			],
 			"Enhanced Poison Trap": [
-				"2"
+				"1.5"
 			],
 			"Countering Poison Trap": [
 				"20"
@@ -1932,7 +1932,7 @@ let nodeValues = {
 				"10"
 			],
 			"Concealment": [
-				"20.0",
+				"20",
 				"4",
 				"25"
 			],
@@ -1943,23 +1943,23 @@ let nodeValues = {
 				"3"
 			],
 			"Mending Obscurity": [
-				"",
+				"{1/2/3}",
 				""
 			],
 			"Smoke Grenade": [
-				"",
-				""
+				"15",
+				"4"
 			],
 			"Enhanced Smoke Grenade": [
-				""
+				"15"
 			],
 			"Subverting Smoke Grenade": [
-				""
+				"20"
 			],
 			"Countering Smoke Grenade": [
-				"",
-				"",
-				""
+				"25",
+				"1",
+				"2"
 			]
 		},
 		"Imbuements": {
@@ -1968,16 +1968,16 @@ let nodeValues = {
 			],
 			"Alchemical Advantage": [
 				"{1/2/3}",
-				"15"
+				"{15/30/45}"
 			],
 			"Debilitating Toxins": [
 				"{5/10/15}"
 			],
 			"Poison Imbuement": [
-				"9.0",
+				"9",
 				"33",
 				"2",
-				"105",
+				"70",
 				"5"
 			],
 			"Enhanced Poison Imbuement": [
@@ -1990,22 +1990,22 @@ let nodeValues = {
 				"30"
 			],
 			"Shadow Crash": [
-				"10",
-				"{0.5/1/1.5}"
+				"{10/20/30}",
+				"0.5"
 			],
 			"Consuming Shadows": [
 				"{10/20/30}"
 			],
 			"Shadow Imbuement": [
-				"9.0",
+				"9",
 				"33",
 				"2",
-				"39",
-				"4",
-				""
+				"6",
+				"40",
+				"40"
 			],
 			"Enhanced Shadow Imbuement": [
-				"30"
+				"25"
 			],
 			"Mixed Shadow Imbuement": [
 				"12",
@@ -2015,16 +2015,16 @@ let nodeValues = {
 				"{5/10/15}"
 			],
 			"Cold Imbuement": [
-				"9.0",
+				"9",
 				"2",
-				"50"
+				"25"
 			],
 			"Enhanced Cold Imbuement": [
 				"30",
 				"3"
 			],
 			"Mixed Cold Imbuement": [
-				"30"
+				"20"
 			],
 			"Blended Cold Imbuement": [
 				"20",
@@ -2038,7 +2038,7 @@ let nodeValues = {
 				"{10/20/30}"
 			],
 			"Blended Shadow Imbuement": [
-				""
+				"2"
 			]
 		},
 		"Ultimate": {
@@ -2055,7 +2055,7 @@ let nodeValues = {
 				"{5/10/15}"
 			],
 			"Shadow Clone": [
-				"60.0",
+				"60",
 				"15",
 				"60"
 			],
@@ -2066,10 +2066,10 @@ let nodeValues = {
 				"{25/50/75}"
 			],
 			"Death Trap": [
-				"45.0",
+				"45",
 				"40",
 				"1.25",
-				"316"
+				"250"
 			],
 			"Supreme Death Trap": [
 				"10"
@@ -2079,10 +2079,10 @@ let nodeValues = {
 				"4"
 			],
 			"Rain of Arrows": [
-				"60.0",
+				"60",
 				"20",
 				"2",
-				"126"
+				"100"
 			],
 			"Prime Rain of Arrows": [
 				"20"
@@ -2113,19 +2113,19 @@ let nodeValues = {
 				"15"
 			],
 			"Close Quarters Combat": [
-				"5",
+				"10",
 				"8",
-				"75"
+				"20"
 			],
 			"Victimize": [
 				"30",
 				"23"
 			],
 			"Exposure": [
-				"35",
 				"25",
+				"20",
 				"40",
-				"0.25"
+				"0.50"
 			],
 			"Precision": [
 				"4",
@@ -2151,7 +2151,7 @@ let nodeValues = {
 				"4"
 			],
 			"Spark": [
-				"10",
+				"9",
 				"4",
 				"8"
 			],
@@ -2203,7 +2203,7 @@ let nodeValues = {
 				"10"
 			],
 			"Arc Lash — Enchantment": [
-				""
+				"0.5"
 			],
 			"Fire Bolt — Enchantment": [
 				"23",
@@ -2215,14 +2215,14 @@ let nodeValues = {
 				"40",
 				"25",
 				"5",
-				"15"
+				"17"
 			],
 			"Greater Charged Bolts": [
 				"25"
 			],
 			"Destructive Charged Bolts": [
-				"5",
-				"20"
+				"20",
+				"3"
 			],
 			"Frozen Orb": [
 				"40",
@@ -2247,46 +2247,46 @@ let nodeValues = {
 				"20",
 				"40",
 				"36",
-				"",
-				""
+				"4",
+				"49%"
 			],
 			"Enhanced Incinerate": [
-				"30"
-			],
-			"Destructive Incinerate": [
 				"15"
 			],
+			"Destructive Incinerate": [
+				"20"
+			],
 			"Greater Incinerate": [
-				"",
-				""
+				"4",
+				"1"
 			],
 			"Fireball": [
-				"50",
+				"40",
 				"33",
 				"60"
 			],
 			"Enhanced Fireball": [
-				"10"
-			],
-			"Greater Fireball": [
 				"50"
 			],
+			"Greater Fireball": [
+				"10"
+			],
 			"Destructive Fireball": [
-				"20",
-				"",
-				""
+				"10",
+				"5",
+				"25"
 			],
 			"Chain Lightning": [
 				"35",
 				"25",
 				"42",
-				"4"
+				"6"
 			],
 			"Enhanced Chain Lightning": [
-				"1"
+				"3"
 			],
 			"Greater Chain Lightning": [
-				"5"
+				"25"
 			],
 			"Destructive Chain Lightning": [
 				"25"
@@ -2306,31 +2306,31 @@ let nodeValues = {
 				"2"
 			],
 			"Devastation": [
-				""
+				"{3/6/9}"
 			],
 			"Elemental Dominance": [
-				"{8/16/24}",
-				""
+				"{4/8/12}",
+				"50"
 			],
 			"Potent Warding": [
 				"{2/4/6}",
-				"",
-				""
+				"{1/2/3}",
+				"3"
 			],
 			"Enhanced Charged Bolts": [
-				"",
-				""
+				"3",
+				"15"
 			],
 			"Charged Bolts — Enchantment": [
-				"",
-				"5"
+				"40",
+				"3"
 			],
 			"Frozen Orb — Enchantment": [
 				"20"
 			],
 			"Incinerate — Enchantment": [
-				"",
-				""
+				"20",
+				"6"
 			],
 			"Fireball — Enchantment": [
 				"50"
@@ -2341,39 +2341,39 @@ let nodeValues = {
 		},
 		"Defensive": {
 			"Flame Shield": [
-				"20.0",
+				"20",
 				"50",
 				"2",
-				"7"
+				"23"
 			],
 			"Enhanced Flame Shield": [
 				"25"
 			],
 			"Mystical Flame Shield": [
-				""
+				"25"
 			],
 			"Shimmering Flame Shield": [
-				""
+				"50"
 			],
 			"Frost Nova": [
-				"15.0",
+				"15",
 				"",
 				"",
 				"2"
 			],
 			"Enhanced Frost Nova": [
-				"",
-				""
+				"2",
+				"6"
 			],
 			"Mystical Frost Nova": [
-				"20",
-				"3"
+				"4",
+				"8"
 			],
 			"Shimmering Frost Nova": [
 				"4"
 			],
 			"Ice Armor": [
-				"20.0",
+				"20",
 				"6",
 				"30",
 				"",
@@ -2387,27 +2387,27 @@ let nodeValues = {
 				"3"
 			],
 			"Mystical Ice Armor": [
-				"30"
+				"100"
 			],
 			"Teleport": [
-				"11.0",
+				"11",
 				"40",
 				"25"
 			],
 			"Enhanced Teleport": [
-				"",
-				"5"
+				"0.5",
+				"3"
 			],
 			"Mystical Teleport": [
 				"4",
-				""
+				"2"
 			],
 			"Shimmering Teleport": [
-				"",
-				"3"
+				"30",
+				"5"
 			],
 			"Elemental Attunement": [
-				"{3/6/9}",
+				"{5/10/15}",
 				"10"
 			],
 			"Glass Cannon": [
@@ -2424,56 +2424,56 @@ let nodeValues = {
 				"5"
 			],
 			"Teleport — Enchantment": [
-				""
+				"17.0"
 			]
 		},
 		"Conjuration": {
 			"Hydra": [
 				"20",
-				"62",
+				"77",
 				"3",
-				"8.0",
+				"12.0",
 				"30",
-				""
+				"1"
 			],
 			"Enhanced Hydra": [
-				""
+				"1"
 			],
 			"Summoned Hydra": [
 				"12",
 				"6"
 			],
 			"Ice Blades": [
-				"12.0",
+				"12",
 				"71",
 				"6.0",
 				"31",
-				"20",
+				"30",
 				"2"
 			],
 			"Enhanced Ice Blades": [
-				""
-			],
-			"Summoned Ice Blades": [
-				"25"
-			],
-			"Invoked Ice Blades": [
 				"1"
 			],
+			"Summoned Ice Blades": [
+				"50"
+			],
+			"Invoked Ice Blades": [
+				"10"
+			],
 			"Lightning Spear": [
-				"20.0",
+				"20",
 				"35",
 				"6.0",
 				"15"
 			],
 			"Enhanced Lightning Spear": [
-				"10"
+				"5"
 			],
 			"Invoked Lightning Spear": [
-				""
+				"2"
 			],
 			"Conjuration Mastery": [
-				"{2/4/6}"
+				"{1/2/3}"
 			],
 			"Precision Magic": [
 				"{5/10/15}"
@@ -2492,24 +2492,24 @@ let nodeValues = {
 				"",
 				"5"
 			],
-			"Sorc_Mod_Hydra_UpgradeB": [
-				"",
-				""
-			],
-			"Sorc_Mod_LightningSpear_UpgradeA": [
-				"",
-				""
-			],
 			"Hydra — Enchantment": [
-				"",
-				"",
-				""
+				"300",
+				"5",
+				"5"
 			],
 			"Ice Blades — Enchantment": [
-				""
+				"20"
 			],
 			"Lightning Spear — Enchantment": [
 				"10"
+			],
+			"Invoked Hydra": [
+				"30",
+				"3"
+			],
+			"Summoned Lightning Spear": [
+				"20",
+				"100"
 			]
 		},
 		"Mastery": {
@@ -2535,14 +2535,14 @@ let nodeValues = {
 				"33",
 				"120",
 				"18",
-				"6"
+				"8"
 			],
 			"Enhanced Blizzard": [
-				"2"
+				"25"
 			],
 			"Mage's Blizzard": [
-				"",
-				""
+				"50",
+				"4"
 			],
 			"Wizard's Blizzard": [
 				"10"
@@ -2550,27 +2550,27 @@ let nodeValues = {
 			"Ball Lightning": [
 				"50",
 				"20",
-				"15"
+				"18"
 			],
 			"Enhanced Ball Lightning": [
-				"30"
+				"200"
 			],
 			"Wizard's Ball Lightning": [
 				"4"
 			],
 			"Mage's Ball Lightning": [
-				"2",
-				""
+				"50",
+				"1"
 			],
 			"Inner Flames": [
-				"{8/16/24}"
+				"{3/6/9}"
 			],
 			"Devouring Blaze": [
-				"",
-				""
+				"10",
+				"25"
 			],
 			"Invigorating Conduit": [
-				""
+				"{4/8/12}"
 			],
 			"Static Discharge": [
 				"{5/10/15}"
@@ -2582,7 +2582,7 @@ let nodeValues = {
 				"{5/10/15}"
 			],
 			"Snap Freeze": [
-				""
+				"{3/6/9}"
 			],
 			"Cold Front": [
 				"{8/16/24}"
@@ -2594,37 +2594,37 @@ let nodeValues = {
 				"8"
 			],
 			"Enhanced Firewall": [
-				"2"
+				"25"
 			],
 			"Wizard's Firewall": [
 				"5",
-				""
+				"25"
 			],
 			"Mage's Firewall": [
-				"5"
+				"3"
 			],
 			"Crippling Flames": [
-				"",
-				""
+				"5",
+				"2"
 			],
 			"Meteor — Enchantment": [
-				""
+				"3"
 			],
 			"Blizzard — Enchantment": [
 				"15",
 				"4"
 			],
 			"Ball Lightning — Enchantment": [
-				""
+				"25"
 			],
 			"Firewall — Enchantment": [
-				"",
-				""
+				"5",
+				"3"
 			]
 		},
 		"Ultimate": {
 			"Inferno": [
-				"45.0",
+				"45",
 				"38",
 				"295",
 				"8"
@@ -2637,15 +2637,15 @@ let nodeValues = {
 				"25"
 			],
 			"Deep Freeze": [
-				"60.0",
-				"45",
+				"60",
+				"5",
 				"4",
+				"13",
 				"20",
-				"200",
-				""
+				"100"
 			],
 			"Prime Deep Freeze": [
-				"5",
+				"10",
 				"",
 				"6"
 			],
@@ -2667,37 +2667,37 @@ let nodeValues = {
 			],
 			"Convulsions": [
 				"{3/6/9}",
-				"2"
+				"3"
 			],
 			"Conduction": [
-				"{5/10/15}",
-				"2"
-			],
-			"Endless Pyre": [
-				"{6/12/18}",
-				""
-			],
-			"Fiery Surge": [
 				"{3/6/9}",
 				"3"
 			],
+			"Endless Pyre": [
+				"{5/10/15}",
+				"5"
+			],
+			"Fiery Surge": [
+				"{10/20/30}",
+				"3"
+			],
 			"Hoarfrost": [
-				"",
-				""
+				"{3/6/9}",
+				"{6/12/18}"
 			],
 			"Frigid Breeze": [
-				"",
-				""
+				"{20/40/60}",
+				"5"
 			],
 			"Warmth": [
+				"1",
+				"{0.3/0.6/0.9}",
 				"",
-				"",
-				"",
-				""
+				"{0.6/1.2/1.8}"
 			],
 			"Soulfire": [
-				"",
-				""
+				"1.5",
+				"{5/10/15}"
 			]
 		},
 		"Capstone": {
@@ -2706,8 +2706,8 @@ let nodeValues = {
 			],
 			"Esu's Ferocity": [
 				"25",
-				"50",
-				"25"
+				"5",
+				"3"
 			],
 			"Overflowing Energy": [
 				"1",
@@ -2717,16 +2717,16 @@ let nodeValues = {
 			"Vyr's Mastery": [
 				"10",
 				"20",
-				"",
-				""
+				"25",
+				"3"
 			],
 			"Avalanche": [
-				"",
-				""
+				"10",
+				"40"
 			],
 			"Combustion": [
-				"",
-				""
+				"2",
+				"3"
 			]
 		}
 	}

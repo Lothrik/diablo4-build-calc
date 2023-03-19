@@ -51,7 +51,7 @@ Lucky Hit Chance: {#}%
 Quickly stab your victim for {#}% damage and shift, allowing you to move freely through enemies for {#} seconds.`,
 		id: 0,
 		maxPoints: 5,
-		values: [ "1", "35", "19", "3" ],
+		values: [ "1", "35", "15", "3" ],
 		x: -1.473,
 		y: -323.735
 	},
@@ -92,7 +92,7 @@ Lucky Hit Chance: {#}%
 Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by x{#}% for {#} seconds.`,
 		id: 4,
 		maxPoints: 5,
-		values: [ "1", "50", "29", "20", "3" ],
+		values: [ "1", "50", "23", "20", "3" ],
 		x: -393.363,
 		y: -211.415
 	},
@@ -133,7 +133,7 @@ Lucky Hit Chance: {#}%
 Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemies by {#}% for {#} seconds. Critical Strikes will always Slow.`,
 		id: 8,
 		maxPoints: 5,
-		values: [ "50", "27", "3", "20", "2" ],
+		values: [ "50", "21", "3", "20", "2" ],
 		x: 391.432,
 		y: -210.87
 	},
@@ -174,7 +174,7 @@ Lucky Hit Chance: {#}%
 Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Critical Strike Chance against them by +{#}% for {#} seconds, up to +{#}%.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "1", "50", "28", "3", "4", "15" ],
+		values: [ "1", "50", "22", "3", "4", "15" ],
 		x: 517.08,
 		y: -0.265
 	},
@@ -215,7 +215,7 @@ Lucky Hit Chance: {#}%
 Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the enemy Vulnerable for {#} seconds.`,
 		id: 16,
 		maxPoints: 5,
-		values: [ "1", "50", "25", "2" ],
+		values: [ "1", "50", "20", "2" ],
 		x: 396.765,
 		y: 197.18
 	},
@@ -263,7 +263,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
  3 Points: {#}% damage, +{#}% bonus`,
 		id: 20,
 		maxPoints: 5,
-		values: [ "30", "35", "57", "8", "1.5", "74", "57", "20", "70", "40", "83", "60" ],
+		values: [ "30", "35", "57", "8", "1.5", "72", "", "20", "", "40", "", "60" ],
 		x: -394.26,
 		y: -207.555
 	},
@@ -283,7 +283,7 @@ Combo Points increase damage and grant a Movement Speed bonus:
 		description: `When your Twisting Blades return, your active Cooldowns are reduced by {#} second per enemy they passed through, up to {#} seconds.`,
 		id: 22,
 		maxPoints: 1,
-		values: [ "", "5" ],
+		values: [ "1", "3" ],
 		x: -925,
 		y: -337.045
 	},
@@ -308,7 +308,7 @@ Combo Points increase damage and grant an Attack Speed bonus:
  3 Points: {#}% damage, +{#}% bonus`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "25", "35", "", "30", "95", "1.5", "114", "3.0", "133", "4.5" ],
+		values: [ "25", "8", "4", "60", "", "1.5", "", "3.0", "", "4.5" ],
 		x: -382.935,
 		y: 182.375
 	},
@@ -318,7 +318,7 @@ Combo Points increase damage and grant an Attack Speed bonus:
 		description: `Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for {#}% of your Maximum Life ({#}), up to {#}% Maximum Life ({#}) per cast.`,
 		id: 25,
 		maxPoints: 1,
-		values: [ "1", "12", "", "" ],
+		values: [ "1", "", "12", "" ],
 		x: -659.145,
 		y: 319.86
 	},
@@ -338,7 +338,7 @@ Combo Points increase damage and grant an Attack Speed bonus:
 		description: `Evading through an enemy will cause your next Flurry to Stun enemies for {#} seconds.`,
 		id: 27,
 		maxPoints: 1,
-		values: [ "" ],
+		values: [ "2.5" ],
 		x: -685.845,
 		y: 462.11
 	},
@@ -354,7 +354,7 @@ Combo Points increase damage and improve Lucky Hit Chance:
  3 Points: {#}% damage, +{#}% chance`,
 		id: 28,
 		maxPoints: 5,
-		values: [ "35", "50", "89", "", "116", "10", "142", "20", "169" ],
+		values: [ "35", "50", "70", "", "", "10", "", "20", "" ],
 		x: 4.86,
 		y: 290.085
 	},
@@ -400,7 +400,7 @@ Combo Points increase damage and arrows fired:
  3 Points: {#}% damage, {#} arrows`,
 		id: 32,
 		maxPoints: 5,
-		values: [ "25", "20", "5", "20", "22", "6", "24", "7", "29", "8" ],
+		values: [ "25", "20", "5", "24", "", "6", "", "7", "", "8" ],
 		x: 574.29,
 		y: -57.45
 	},
@@ -430,7 +430,7 @@ Combo Points increase damage and arrows fired:
 		description: `Gain {#} Energy per cast of Rapid Fire when it damages a Vulnerable enemy.`,
 		id: 35,
 		maxPoints: 1,
-		values: [ "" ],
+		values: [ "15" ],
 		x: 1175.849,
 		y: -134.515
 	},
@@ -446,7 +446,7 @@ Combo Points increase damage and arrows fired:
  3 Points: {#}% damage, {#} arrows`,
 		id: 36,
 		maxPoints: 5,
-		values: [ "30", "20", "5", "26", "20", "1", "40", "31", "6", "36", "7", "41", "8" ],
+		values: [ "30", "20", "5", "21", "20", "1", "40", "", "6", "", "7", "", "8" ],
 		x: -5,
 		y: -292.875
 	},
@@ -518,7 +518,7 @@ Lucky Hit Chance: {#}%
 Become Unstoppable and quickly move through the shadows to stab your victim from behind for {#}% damage. Gain {#}% increased Movement Speed for {#} seconds afterwards.`,
 		id: 43,
 		maxPoints: 5,
-		values: [ "", "", "", "50", "", "", "" ],
+		values: [ "9", "", "", "100", "72", "50", "2" ],
 		x: 5.42,
 		y: -278.485
 	},
@@ -560,7 +560,7 @@ Lucky Hit Chance: {#}%
 Dash forward and slash enemies for {#}% damage.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "2", "10.0", "25", "47" ],
+		values: [ "2", "10", "25", "37" ],
 		x: 9.47,
 		y: 289.26
 	},
@@ -621,7 +621,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		description: `When you Critically Strike a Dazed enemy they are Knocked Down for {#} seconds.`,
 		id: 143,
 		maxPoints: 3,
-		values: [ "" ],
+		values: [ "{0.5/1/1.5}" ],
 		x: 483.505,
 		y: 485.53
 	},
@@ -630,7 +630,7 @@ Dash forward and slash enemies for {#}% damage.`,
 		description: `Your Evade Cooldown is reduced by {#} seconds when you Daze an enemy.`,
 		id: 144,
 		maxPoints: 3,
-		values: [ "" ],
+		values: [ "{0.5/1/1.5}" ],
 		x: 316.785,
 		y: 288.665
 	},
@@ -642,7 +642,7 @@ Lucky Hit Chance: {#}%
 Leap backwards and throw caltrops on the ground, dealing {#}% damage and Slowing enemies by {#}%. Lasts {#} seconds.`,
 		id: 53,
 		maxPoints: 5,
-		values: [ "2", "12.0", "25", "38", "50", "6" ],
+		values: [ "2", "12", "25", "30", "50", "6" ],
 		x: 542.77,
 		y: -1.12
 	},
@@ -703,7 +703,7 @@ rogueData["Subterfuge"] = {
 Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		id: 123,
 		maxPoints: 5,
-		values: [ "", "" ],
+		values: [ "15", "4" ],
 		x: -603.97,
 		y: 4.535
 	},
@@ -713,7 +713,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		description: `Enemies affected by Smoke Grenade take x{#}% increased damage from you.`,
 		id: 124,
 		maxPoints: 1,
-		values: [ "" ],
+		values: [ "15" ],
 		x: -1015.755,
 		y: 4.314
 	},
@@ -723,7 +723,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		description: `If an enemy is Vulnerable, Slowed, or Chilled then Smoke Grenade will Daze them for x{#}% longer.`,
 		id: 125,
 		maxPoints: 1,
-		values: [ "" ],
+		values: [ "20" ],
 		x: -1235.79,
 		y: 94.325
 	},
@@ -733,7 +733,7 @@ Throw a smoky concoction at enemies that Dazes them for {#} seconds.`,
 		description: `Lucky Hit: Dealing direct damage to enemies affected by Smoke Grenade has up to a {#}% chance to reduce its Cooldown by {#} second, or by {#} seconds instead if the enemy is Vulnerable.`,
 		id: 126,
 		maxPoints: 1,
-		values: [ "", "", "" ],
+		values: [ "25", "1", "2" ],
 		x: -1241.33,
 		y: -67.379
 	},
@@ -747,7 +747,7 @@ Concealment also makes you Unstoppable, grants +{#}% Movement Speed, and allows 
 Using an attack Skill during Concealment will break Concealment.`,
 		id: 127,
 		maxPoints: 5,
-		values: [ "20.0", "4", "25" ],
+		values: [ "20", "4", "25" ],
 		x: -390.71,
 		y: -209.637
 	},
@@ -789,7 +789,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 You can have {#} armed traps out at once.`,
 		id: 70,
 		maxPoints: 5,
-		values: [ "10.0", "33", "1.25", "435", "9", "" ],
+		values: [ "10", "20", "1.25", "344", "9", "4" ],
 		x: -411.99,
 		y: 220.272
 	},
@@ -799,7 +799,7 @@ You can have {#} armed traps out at once.`,
 		description: `Poison Trap Knocks Down enemies for {#} seconds when it activates.`,
 		id: 71,
 		maxPoints: 1,
-		values: [ "2" ],
+		values: [ "1.5" ],
 		x: -686.37,
 		y: 364.826
 	},
@@ -829,7 +829,7 @@ You can have {#} armed traps out at once.`,
 Surround yourself with up to {#} protective shadows. Gain {#}% Damage Reduction per active shadow. Each time you take direct damage, that damage is reduced and a shadow is consumed.`,
 		id: 59,
 		maxPoints: 5,
-		values: [ "20.0", "5", "8.0" ],
+		values: [ "20", "5", "8.0" ],
 		x: 546.385,
 		y: 3.375
 	},
@@ -895,7 +895,7 @@ Surround yourself with up to {#} protective shadows. Gain {#}% Damage Reduction 
 		description: `While Stealthed, you Heal for {#}% Maximum Life ({#}) per second.`,
 		id: 145,
 		maxPoints: 3,
-		values: [ "", "" ],
+		values: [ "{1/2/3}", "" ],
 		x: 4.7,
 		y: -479.249
 	},
@@ -916,7 +916,7 @@ rogueData["Imbuements"] = {
 		description: `You gain +{#}% increased Attack Speed for each enemy you've Poisoned, up to +{#}%.`,
 		id: 79,
 		maxPoints: 3,
-		values: [ "{1/2/3}", "15" ],
+		values: [ "{1/2/3}", "{15/30/45}" ],
 		x: 776.575,
 		y: 174.9
 	},
@@ -936,7 +936,7 @@ Lucky Hit Chance: {#}%
 Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poison damage and apply {#}% of their Base damage as additional Poisoning damage over {#} seconds.`,
 		id: 128,
 		maxPoints: 5,
-		values: [ "9.0", "33", "2", "105", "5" ],
+		values: [ "9", "33", "2", "70", "5" ],
 		x: 500.35,
 		y: -114.65
 	},
@@ -975,7 +975,7 @@ Imbue your weapons with lethal poison. Your next {#} Imbueable Skills deal Poiso
 		description: `Lucky Hit: Shadow damage has up to a {#}% chance to Stun for {#} seconds.`,
 		id: 85,
 		maxPoints: 3,
-		values: [ "10", "{0.5/1/1.5}" ],
+		values: [ "{10/20/30}", "0.5" ],
 		x: -165.624,
 		y: -327.788
 	},
@@ -997,7 +997,7 @@ Imbue your weapons with festering shadows. Your next {#} Imbueable Skills deal S
 If the infection expires before the enemy dies, it will deal {#}% damage to only that enemy.`,
 		id: 132,
 		maxPoints: 5,
-		values: [ "9.0", "33", "2", "39", "4", "" ],
+		values: [ "9", "33", "2", "6", "40", "40" ],
 		x: 221.62,
 		y: -249.835
 	},
@@ -1007,7 +1007,7 @@ If the infection expires before the enemy dies, it will deal {#}% damage to only
 		description: `You have +{#}% increased Critical Strike Chance against Injured enemies infected by Shadow Imbuement.`,
 		id: 133,
 		maxPoints: 1,
-		values: [ "30" ],
+		values: [ "25" ],
 		x: 415.425,
 		y: -434.215
 	},
@@ -1027,7 +1027,7 @@ If the infection expires before the enemy dies, it will deal {#}% damage to only
 		description: `Shadow Imbuement's primary explosion makes enemies Vulnerable for {#} seconds.`,
 		id: 135,
 		maxPoints: 1,
-		values: [ "" ],
+		values: [ "2" ],
 		x: 393.345,
 		y: -571.263
 	},
@@ -1037,7 +1037,7 @@ If the infection expires before the enemy dies, it will deal {#}% damage to only
 Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Cold damage and Chill enemies for {#}% per hit.`,
 		id: 136,
 		maxPoints: 5,
-		values: [ "9.0", "2", "50" ],
+		values: [ "9", "2", "25" ],
 		x: 280.1,
 		y: 265.1
 	},
@@ -1057,7 +1057,7 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 		description: `Cold Imbued Skills deal x{#}% damage to Crowd Controlled enemies. Double this bonus against Frozen enemies.`,
 		id: 138,
 		maxPoints: 1,
-		values: [ "30" ],
+		values: [ "20" ],
 		x: 480.65,
 		y: 583.225
 	},
@@ -1135,7 +1135,7 @@ Your shadow mimicks your actions for {#} seconds.
 The shadow deals {#}% of your damage.`,
 		id: 104,
 		maxPoints: 1,
-		values: [ "60.0", "15", "60" ],
+		values: [ "60", "15", "60" ],
 		x: 2.07,
 		y: -283.5
 	},
@@ -1174,7 +1174,7 @@ Lucky Hit Chance: {#}%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing a total of {#}% damage to each enemy in the area.`,
 		id: 108,
 		maxPoints: 1,
-		values: [ "45.0", "40", "1.25", "316" ],
+		values: [ "45", "40", "1.25", "250" ],
 		x: -543.29,
 		y: 2.23
 	},
@@ -1213,7 +1213,7 @@ Lucky Hit Chance: {#}%
 Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		id: 112,
 		maxPoints: 1,
-		values: [ "60.0", "20", "2", "126" ],
+		values: [ "60", "20", "2", "100" ],
 		x: 5.58,
 		y: 290.575
 	},
@@ -1290,7 +1290,7 @@ While at {#} stacks of Momentum you gain:
 While both Attack Speed bonuses are active, you deal x{#}% increased damage against Crowd Controlled enemies.`,
 		id: 119,
 		maxPoints: 1,
-		values: [ "5", "8", "75" ],
+		values: [ "10", "8", "20" ],
 		x: -564.571,
 		y: 251.22
 	},
@@ -1310,7 +1310,7 @@ While both Attack Speed bonuses are active, you deal x{#}% increased damage agai
  Drop a cluster of exploding Stun Grenades that deal {#}% total Physical damage and Stun enemies for {#} seconds.`,
 		id: 121,
 		maxPoints: 1,
-		values: [ "35", "25", "40", "0.25" ],
+		values: [ "25", "20", "40", "0.50" ],
 		x: 779.668,
 		y: -2.585
 	},

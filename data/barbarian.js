@@ -51,13 +51,13 @@ Lucky Hit Chance: {#}%
 Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} times, your next Bash will Stun for {#} seconds, this increases to {#} seconds if using a Two-Handed weapon.`,
 		id: 0,
 		maxPoints: 5,
-		values: [ "10", "50", "31", "4", "1.25", "2" ],
+		values: [ "10", "50", "30", "4", "1.25", "2" ],
 		x: -205.484,
 		y: -249.495
 	},
 	"Enhanced Bash": {
 		baseSkill: "Bash",
-		connections: [ "Bash", "Barb_Mod_Bash_UpgradeA", "Combat Bash" ],
+		connections: [ "Bash", "Battle Bash", "Combat Bash" ],
 		description: `Damaging a Stunned enemy with Bash grants you {#}% Base Life ({#}) as Fortify. Double this amount when using a Two-Handed weapon.`,
 		id: 1,
 		maxPoints: 1,
@@ -65,13 +65,13 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 		x: -276.815,
 		y: -436.63
 	},
-	"Barb_Mod_Bash_UpgradeA": {
+	"Battle Bash": {
 		baseSkill: "Bash",
 		connections: [ "Enhanced Bash" ],
 		description: `Damaging a Stunned enemy with Bash generates an additional {#} Fury, or {#} Fury if using a Two-Handed weapon.`,
-		id: 124,
+		id: 2,
 		maxPoints: 1,
-		values: [ "", "" ],
+		values: [ "3", "4" ],
 		x: -423.864,
 		y: -544.455
 	},
@@ -92,7 +92,7 @@ Lucky Hit Chance: {#}%
 Lunge forward and strike an enemy for {#}% damage.`,
 		id: 4,
 		maxPoints: 5,
-		values: [ "9", "50", "31" ],
+		values: [ "9", "50", "30" ],
 		x: -557.739,
 		y: -96.16
 	},
@@ -122,7 +122,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 		description: `Lunging Strike also inflicts {#}% Bleeding damage over {#} seconds.`,
 		id: 7,
 		maxPoints: 1,
-		values: [ "21", "5" ],
+		values: [ "20", "5" ],
 		x: -923.284,
 		y: -339.18
 	},
@@ -135,7 +135,7 @@ Unleash a rapid flurry of blows, dealing {#}% damage with each pair of hits.
 If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds, up to +{#}%.`,
 		id: 8,
 		maxPoints: 5,
-		values: [ "5", "30", "21", "20", "3", "60" ],
+		values: [ "4", "30", "20", "20", "3", "60" ],
 		x: 210.912,
 		y: -250.91
 	},
@@ -145,7 +145,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds,
 		description: `While Frenzy is granting +{#}% bonus Attack Speed, it also generates {#} additional Fury.`,
 		id: 9,
 		maxPoints: 1,
-		values: [ "60", "" ],
+		values: [ "60", "2" ],
 		x: 285.5,
 		y: -442.24
 	},
@@ -176,7 +176,7 @@ Lucky Hit Chance: {#}%
 Flay the enemy, dealing {#}% damage and inflicting {#}% Bleeding damage over {#} seconds.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "9", "50", "5", "38", "5" ],
+		values: [ "9", "50", "5", "36", "5" ],
 		x: 561.736,
 		y: -94.605
 	},
@@ -196,7 +196,7 @@ Flay the enemy, dealing {#}% damage and inflicting {#}% Bleeding damage over {#}
 		description: `When Flay deals direct damage to an enemy, they take x{#}% increased Bleeding damage from you for the next {#} seconds.`,
 		id: 14,
 		maxPoints: 1,
-		values: [ "10", "" ],
+		values: [ "10", "3" ],
 		x: 638.801,
 		y: -389.175
 	},
@@ -206,7 +206,7 @@ Flay the enemy, dealing {#}% damage and inflicting {#}% Bleeding damage over {#}
 		description: `When Flay deals direct damage to an enemy, you gain {#}% Damage Reduction and {#} Thorns for {#} seconds. This stacks up to {#} times.`,
 		id: 15,
 		maxPoints: 1,
-		values: [ "1", "4", "3", "5" ],
+		values: [ "3", "", "3", "4" ],
 		x: 946.316,
 		y: -322.925
 	},
@@ -220,7 +220,7 @@ Lucky Hit Chance: {#}%
 Slam your hammer down with the fury of the Ancients, dealing {#}% damage to a concentrated area.`,
 		id: 16,
 		maxPoints: 5,
-		values: [ "35", "40", "59" ],
+		values: [ "35", "40", "56" ],
 		x: -418.74,
 		y: -259.245
 	},
@@ -261,7 +261,7 @@ Lucky Hit Chance: {#}%
 Tear into the ground with your weapon and fling debris forward, dealing {#}% damage.`,
 		id: 20,
 		maxPoints: 5,
-		values: [ "40", "20", "73" ],
+		values: [ "40", "20", "70" ],
 		x: -584.54,
 		y: 150.91
 	},
@@ -302,7 +302,7 @@ Lucky Hit Chance: {#}%
 Sweep your weapons from opposite directions, dealing {#}% damage with each weapon. Enemies caught in the center are damaged by both.`,
 		id: 24,
 		maxPoints: 5,
-		values: [ "25", "30", "38" ],
+		values: [ "25", "30", "36" ],
 		x: -271.825,
 		y: 307.88
 	},
@@ -312,7 +312,7 @@ Sweep your weapons from opposite directions, dealing {#}% damage with each weapo
 		description: `If Double Swing damages a Stunned or Knocked Down enemy, gain {#} Fury.`,
 		id: 25,
 		maxPoints: 1,
-		values: [ "" ],
+		values: [ "15" ],
 		x: -458.17,
 		y: 495.325
 	},
@@ -352,7 +352,7 @@ Lucky Hit Chance: {#}%
 Cleave enemies in front of you, dealing {#}% damage and inflicting {#}% Bleeding damage over {#} seconds.`,
 		id: 29,
 		maxPoints: 5,
-		values: [ "35", "33", "13", "101", "5" ],
+		values: [ "35", "33", "12", "96", "5" ],
 		x: 517.835,
 		y: 0.645
 	},
@@ -413,7 +413,7 @@ Rapidly attack surrounding enemies for {#}% damage.`,
 		description: `While using a Slashing weapon, Whirlwind also inflicts {#}% of its Base damage as Bleeding damage over {#} seconds.`,
 		id: 35,
 		maxPoints: 1,
-		values: [ "26", "5" ],
+		values: [ "20", "5" ],
 		x: 157.99,
 		y: -638.195
 	},
@@ -445,7 +445,7 @@ barbarianData["Defensive"] = {
 Taunt Nearby enemies and gain {#}% Damage Reduction for {#} seconds.`,
 		id: 38,
 		maxPoints: 5,
-		values: [ "25.0", "40", "8" ],
+		values: [ "25", "{40/45/50/55/60}", "8" ],
 		x: 1.54,
 		y: 310.475
 	},
@@ -485,7 +485,7 @@ Taunt Nearby enemies and gain {#}% Damage Reduction for {#} seconds.`,
 Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#} seconds.`,
 		id: 42,
 		maxPoints: 5,
-		values: [ "14.0", "50", "5" ],
+		values: [ "14", "50", "5" ],
 		x: 573.26,
 		y: 125.615
 	},
@@ -495,7 +495,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		description: `Iron Skin's Barrier absorbs {#}% more of your Maximum Life.`,
 		id: 43,
 		maxPoints: 1,
-		values: [ "10" ],
+		values: [ "5" ],
 		x: 918.56,
 		y: 221.9
 	},
@@ -524,7 +524,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		description: `Gain {#} Thorns. Also gain {#} Thorns for each {#} bonus Maximum Life you have.`,
 		id: 46,
 		maxPoints: 3,
-		values: [ "{2/4/6}", "2", "2" ],
+		values: [ "", "", "" ],
 		x: 357.46,
 		y: 279.435
 	},
@@ -533,7 +533,7 @@ Steel yourself, gaining a Barrier that absorbs {#}% of your missing Life for {#}
 		description: `Increase your Thorns by +{#}%. When enemies hit you, they take an additional {#}% of your Thorns as Bleeding damage over {#} seconds.`,
 		id: 47,
 		maxPoints: 3,
-		values: [ "{20/40/60}", "", "" ],
+		values: [ "{20/40/60}", "1", "5" ],
 		x: 495.69,
 		y: 445.865
 	},
@@ -544,7 +544,7 @@ Lucky Hit Chance: {#}%
 Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} seconds.`,
 		id: 48,
 		maxPoints: 5,
-		values: [ "16.0", "33", "10", "3" ],
+		values: [ "16", "33", "10", "3" ],
 		x: 4.675,
 		y: -306.735
 	},
@@ -584,7 +584,7 @@ Smash the ground, dealing {#}% damage and Stunning surrounding enemies for {#} s
 Bellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for {#} seconds, and Nearby allies for {#} seconds.`,
 		id: 52,
 		maxPoints: 5,
-		values: [ "25.0", "30", "50", "6", "" ],
+		values: [ "25", "30", "50", "6.0", "3.0" ],
 		x: 571.525,
 		y: -107.125
 	},
@@ -645,7 +645,7 @@ Lucky Hit Chance: {#}%
 Become Unstoppable and rush forward, pushing enemies with you then swinging through them for {#}% damage and Knocking them Back.`,
 		id: 58,
 		maxPoints: 5,
-		values: [ "17.0", "33", "26" ],
+		values: [ "17", "33", "25" ],
 		x: -652.69,
 		y: 158.534
 	},
@@ -655,7 +655,7 @@ Become Unstoppable and rush forward, pushing enemies with you then swinging thro
 		description: `Enemies who are Knocked Back into terrain by Charge take {#}% damage and are Stunned for {#} seconds.`,
 		id: 59,
 		maxPoints: 1,
-		values: [ "16", "3" ],
+		values: [ "15", "3" ],
 		x: -1012.34,
 		y: 235.537
 	},
@@ -685,7 +685,7 @@ Become Unstoppable and rush forward, pushing enemies with you then swinging thro
 Bellow a mighty war cry, increasing your damage dealt by {#} for {#} seconds, and Nearby allies for {#} seconds.`,
 		id: 62,
 		maxPoints: 5,
-		values: [ "25.0", "15", "8", "" ],
+		values: [ "25", "15.0", "8.0", "4.0" ],
 		x: -401.86,
 		y: -211.156
 	},
@@ -695,7 +695,7 @@ Bellow a mighty war cry, increasing your damage dealt by {#} for {#} seconds, an
 		description: `War Cry grants you Berserking for {#} seconds.`,
 		id: 63,
 		maxPoints: 1,
-		values: [ "3" ],
+		values: [ "4" ],
 		x: -698.5,
 		y: -341.465
 	},
@@ -705,7 +705,7 @@ Bellow a mighty war cry, increasing your damage dealt by {#} for {#} seconds, an
 		description: `If at least {#} enemies are Nearby when you cast War Cry, your damage bonus is increased to x{#}%.`,
 		id: 64,
 		maxPoints: 1,
-		values: [ "4", "15" ],
+		values: [ "6", "30" ],
 		x: -972.08,
 		y: -339.504
 	},
@@ -753,7 +753,7 @@ Lucky Hit Chance: {#}%
 Leap forward and then slam down, dealing {#}% damage and Knocking Back surrounding enemies on impact.`,
 		id: 69,
 		maxPoints: 5,
-		values: [ "17.0", "33", "34" ],
+		values: [ "17", "33", "33" ],
 		x: -402.935,
 		y: 315.986
 	},
@@ -795,7 +795,7 @@ Lucky Hit Chance: {#}%
 Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional {#}% damage and are Stunned for {#} seconds.`,
 		id: 73,
 		maxPoints: 5,
-		values: [ "2", "17.0", "100", "19", "57", "3" ],
+		values: [ "2", "17", "100", "18", "54", "3" ],
 		x: -3.2,
 		y: -277.614
 	},
@@ -825,7 +825,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		description: `If Kick damages an enemy, it consumes all of your Fury and deals an additional {#}% damage per {#} Fury spent. Kick no longer Knocks Back enemies.`,
 		id: 76,
 		maxPoints: 1,
-		values: [ "21", "10" ],
+		values: [ "20", "10" ],
 		x: 172.96,
 		y: -598.935
 	},
@@ -852,7 +852,7 @@ Throw a powerful kick that deals {#}% damage and Knocks Back enemies in front of
 		description: `When a Brawling Skill damages at least one enemy, gain Berserking for {#} seconds.`,
 		id: 125,
 		maxPoints: 3,
-		values: [ "" ],
+		values: [ "{1/2/3}" ],
 		x: -170.435,
 		y: 479.412
 	},
@@ -885,7 +885,7 @@ Lucky Hit Chance: {#}%
 Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		id: 82,
 		maxPoints: 5,
-		values: [ "2", "11.0", "25", "24" ],
+		values: [ "2", "11", "25", "23" ],
 		x: 416.495,
 		y: 219.35
 	},
@@ -924,7 +924,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		description: `Each time you take direct damage gain {#}% Base Life ({#}) as Fortify.`,
 		id: 86,
 		maxPoints: 3,
-		values: [ "", "" ],
+		values: [ "0.4", "" ],
 		x: 0.22,
 		y: 334.475
 	},
@@ -942,7 +942,7 @@ Throw out a trio of chains that deal {#}% damage and Pull In enemies.`,
 		description: `Increase the Damage Reduction gained while you are Fortified by an additional {#}%.`,
 		id: 126,
 		maxPoints: 3,
-		values: [ "" ],
+		values: [ "{3/6/9}" ],
 		x: -158.837,
 		y: 482.93
 	},
@@ -957,7 +957,7 @@ Attempt a killing strike, dealing {#}% damage to enemies in front of you.
 If this kills an enemy, its Cooldown is reset.`,
 		id: 89,
 		maxPoints: 5,
-		values: [ "", "", "15.0", "50", "126" ],
+		values: [ "", "", "15", "50", "120" ],
 		x: -528.139,
 		y: -0.735
 	},
@@ -1014,7 +1014,7 @@ If this kills an enemy, its Cooldown is reset.`,
 		description: `Dealing direct damage with a Weapon Mastery skill causes your next Core Skill to make enemies Vulnerable for {#} seconds.`,
 		id: 95,
 		maxPoints: 3,
-		values: [ "{1.5/3/4.5}" ],
+		values: [ "{1/2/3}" ],
 		x: -0.085,
 		y: -594.703
 	},
@@ -1023,7 +1023,7 @@ If this kills an enemy, its Cooldown is reset.`,
 		description: `You have +{#}% increased Critical Strike chance against Immobilized, Stunned, or Slowed enemies.`,
 		id: 96,
 		maxPoints: 3,
-		values: [ "{5/9/13}" ],
+		values: [ "{3/6/9}" ],
 		x: -194.839,
 		y: -469.563
 	},
@@ -1036,7 +1036,7 @@ Lucky Hit Chance: {#}%
 Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.`,
 		id: 97,
 		maxPoints: 5,
-		values: [ "15.0", "", "", "50", "14" ],
+		values: [ "10", "", "", "50", "13" ],
 		x: 408.44,
 		y: -222.34
 	},
@@ -1046,7 +1046,7 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 		description: `Ripping your weapon out of enemies during Rupture causes an explosion that deals {#}% Bleeding damage over {#} seconds.`,
 		id: 98,
 		maxPoints: 1,
-		values: [ "20", "8" ],
+		values: [ "30", "5" ],
 		x: 672.735,
 		y: -379.125
 	},
@@ -1101,7 +1101,7 @@ Call upon 3 Ancients to aid you in battle for {#} seconds.
  Madawc upheaves the ground, dealing {#}% damage.`,
 		id: 103,
 		maxPoints: 1,
-		values: [ "50.0", "30", "6", "80", "30", "50", "150" ],
+		values: [ "50", "30", "6", "104", "39", "65", "195" ],
 		x: -2.535,
 		y: -280.23
 	},
@@ -1124,7 +1124,7 @@ Talic: Enemies are Slowed by {#}% for {#} second when damaged by his Whirlwind.
 Madawc: {#}% chance to Stun enemies for {#} seconds when using his Upheaval.`,
 		id: 105,
 		maxPoints: 1,
-		values: [ "50", "1", "30", "3" ],
+		values: [ "10", "50", "30", "3" ],
 		x: 6.2,
 		y: -644.245
 	},
@@ -1138,7 +1138,7 @@ Activate three times to attach chains to each of your weapons and perform an att
  Third your Dual Wield weapons swing around you, dealing {#}% damage per hit.`,
 		id: 106,
 		maxPoints: 1,
-		values: [ "60.0", "40", "63", "2", "21", "126", "5", "34" ],
+		values: [ "60", "40", "60", "2", "20", "120", "5", "33" ],
 		x: -539.3,
 		y: -1.915
 	},
@@ -1178,7 +1178,7 @@ Lucky Hit Chance: {#}%
 Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, dealing direct damage with Basic Skills grants Berserking for {#} seconds.`,
 		id: 110,
 		maxPoints: 1,
-		values: [ "60.0", "40", "5", "10", "5" ],
+		values: [ "60", "40", "5", "10", "5" ],
 		x: 4.845,
 		y: 277.735
 	},
@@ -1216,7 +1216,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		description: `Heal for {#}% of your Maximum Life ({#}) for each {#} Fury spent.`,
 		id: 114,
 		maxPoints: 3,
-		values: [ "{2/4/6}", "100", "" ],
+		values: [ "{3/6/9}", "", "100" ],
 		x: -452.625,
 		y: 418.48
 	},
@@ -1284,7 +1284,7 @@ barbarianData["Capstone"] = {
 Overpowering a Bleeding enemy creates an explosion that inflicts {#}% Bleeding damage over {#} seconds.`,
 		id: 121,
 		maxPoints: 1,
-		values: [ "12", "5", "" ],
+		values: [ "100", "11", "5" ],
 		x: 666.365,
 		y: 0.035
 	},
