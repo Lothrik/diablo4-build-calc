@@ -119,7 +119,7 @@ const tooltipHeight = 200;
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
-const DATABASE_LINK_HTML = `<a href="/database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
+const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
 const MATCH_FOUND_TEXT = " match found for query: ";
@@ -366,7 +366,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.0.39319-5";
+const localVersion = "0.8.0.39319-6";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
