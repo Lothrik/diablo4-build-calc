@@ -87,8 +87,7 @@
 				"desc": "Whenever you deal direct damage while {c_important}Berserking{/c}, inflict {c_random}[Affix_Value_1*100|%|]{/c} of the base damage dealt as additional Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Berserk Ripping",
 				"values": [
-					"FloatRandomRangeWithInterval(9, 0.22, 0.40)",
-					2
+					"FloatRandomRangeWithInterval(9, 0.22, 0.40)"
 				]
 			},
 			"legendary_barb_002": {
@@ -130,8 +129,7 @@
 				"name": "Battle-Mad",
 				"values": [
 					1,
-					"FloatRandomRangeWithInterval(3, 1.5, 3.0)",
-					3
+					"FloatRandomRangeWithInterval(3, 1.5, 3.0)"
 				]
 			},
 			"legendary_barb_007": {
@@ -157,6 +155,7 @@
 				"desc": "Reduces the Cooldown of {c_important}Leap{/c} by {c_random}[Affix_Value_1]{/c} seconds per enemy hit, up to a max of {c_number}[Affix_Value_2]{/c} seconds.",
 				"name": "of Giant Strides",
 				"values": [
+					9,
 					"FloatRandomRangeWithInterval(2, 3, 5)",
 					9
 				]
@@ -165,8 +164,7 @@
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging an enemy with a {c_important}Core{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to extend the duration of {c_important}Berserking{/c} by {c_number}[Affix_Value_2]{/c} second. Double this duration if it was a Critical Strike.",
 				"name": "Relentless Berserker's",
 				"values": [
-					0.5,
-					7,
+					0.57,
 					8,
 					"FloatRandomRangeWithInterval(9, 22, 40)",
 					1,
@@ -191,8 +189,7 @@
 				"desc": "Skills using this weapon deal {c_random}x[Affix_Value_1*100|1%|]{/c} increased damage per point of Fury you have, but you lose {c_number}[Affix.\"Static Value 0\"]{/c} Fury every second.",
 				"name": "Crane Tribe",
 				"values": [
-					"FloatRandomRangeWithInterval(3, 0.007, 0.01)",
-					3
+					"FloatRandomRangeWithInterval(3, 0.007, 0.01)"
 				]
 			},
 			"legendary_barb_017": {
@@ -237,8 +234,7 @@
 				"desc": "You gain {c_random}[Affix_Value_1]{/c} Fury per second while {c_important}Berserking{/c}.",
 				"name": "of Berserk Fury",
 				"values": [
-					"FloatRandomRangeWithInterval(6, 8, 14)",
-					2
+					"FloatRandomRangeWithInterval(6, 8, 14)"
 				]
 			},
 			"legendary_barb_023": {
@@ -246,8 +242,7 @@
 				"name": "Death Wish",
 				"values": [
 					"FloatRandomRangeWithInterval(9, 0.11, 0.20)",
-					"ExpectedLevelForIPower()",
-					2
+					"ExpectedLevelForIPower()"
 				]
 			},
 			"legendary_barb_025": {
@@ -300,12 +295,10 @@
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_number}[Affix_Value_2|%|]{/c} chance to gain {c_number}[Affix_Flat_Value_1]{/c} {c_important}Fortify{/c} whenever you deal direct damage while {c_important}Berserking{/c}.",
 				"name": "Steadfast Berserker's",
 				"values": [
-					7,
 					8,
 					"FloatRandomRangeWithInterval(8, 0.16, 0.32)",
 					"ExpectedLevelForIPower()",
-					35,
-					2
+					35
 				]
 			},
 			"legendary_barb_057": {
@@ -369,8 +362,7 @@
 				"desc": "Killing an enemy while {c_important}Berserking{/c} has a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to grant {c_random}[Affix_Value_1|%|]{/c} increased Cooldown Reduction to your {c_important}Brawling{/c} Skills for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 				"name": "Bear Clan Berserker's",
 				"values": [
-					"FloatRandomRangeWithInterval(8, 16, 32)",
-					2
+					"FloatRandomRangeWithInterval(8, 16, 32)"
 				]
 			}
 		},
@@ -753,6 +745,12 @@
 			},
 			"StartNodeBarb": {
 				"name": "Paragon Starting Location"
+			}
+		},
+		"Rarespawn Reward": {
+			"Rarespawn_Reward_Helm_BarbarianGhost": {
+				"flavor": "\"There is nothing better in life than to stand alone, painted red, atop a hill made from the bodies of your enemies.\"\n- Zarozar the Mighty",
+				"name": "Bloodspiller's Helm"
 			}
 		},
 		"Skill Tree": {
@@ -4016,7 +4014,6 @@
 				"name": "Hellhammer",
 				"values": [
 					"FloatRandomRangeWithInterval(5, 0.35, 0.50)",
-					43,
 					"ExpectedLevelForIPower()"
 				]
 			},
@@ -4034,7 +4031,6 @@
 				"flavor": "\"We've been fighting these flesh-eaters for so long, been soaked in so much blood, that after a while it's difficult to tell what side you're truly on.\"\n- Daelyr, Crane Tribe warrior",
 				"name": "Fields of Crimson",
 				"values": [
-					8,
 					8,
 					"FloatRandomRangeWithInterval(8, 0.18, 0.34)",
 					"ExpectedLevelForIPower()",
@@ -4157,7 +4153,6 @@
 				"values": [
 					8,
 					0.7,
-					333,
 					"ExpectedLevelForIPower()",
 					"FloatRandomRangeWithInterval(10, 10, 20)"
 				]
@@ -4190,7 +4185,6 @@
 				"desc": "{c_important}Earthspike{/c} launches spikes in a line and has a {c_random}[Affix_Value_1|1|]{/c} second cooldown.",
 				"name": "Seismic-shift",
 				"values": [
-					7,
 					"FloatRandomRangeWithInterval(10, 1.5, 2.5)"
 				]
 			},
@@ -4215,8 +4209,7 @@
 				"name": "Storm Beast's",
 				"values": [
 					3,
-					"FloatRandomRangeWithInterval(10, 15, 25)",
-					6
+					"FloatRandomRangeWithInterval(10, 15, 25)"
 				]
 			},
 			"legendary_druid_059": {
@@ -4251,7 +4244,6 @@
 				"values": [
 					1,
 					"FloatRandomRangeWithInterval(10, 0.35, 0.50)",
-					43,
 					"ExpectedLevelForIPower()"
 				]
 			},
@@ -4338,8 +4330,7 @@
 				"values": [
 					1,
 					3,
-					"ExpectedLevelForIPower()",
-					8
+					"ExpectedLevelForIPower()"
 				]
 			},
 			"legendary_druid_110": {
@@ -4353,12 +4344,10 @@
 				"desc": "Critical strikes with {c_important}Storm{/c} Skills charge the air around you for {c_random}[Affix_Value_1|1|]{/c} seconds causing a {c_important}Lightning Strike{/c} to periodically hit an enemy in the area for {c_number}[Affix_Flat_Value_1]{/c} Lightning damage.",
 				"name": "Runeworker's Conduit",
 				"values": [
-					5,
 					8,
 					"FloatRandomRangeWithInterval(10, 1, 2)",
 					1.0,
-					"ExpectedLevelForIPower()",
-					6
+					"ExpectedLevelForIPower()"
 				]
 			},
 			"legendary_druid_112": {
@@ -8639,138 +8628,136 @@
 			"Willpower_Total": "[{VALUE}] Willpower"
 		},
 		"Dungeon Affix": [
-			"Major Avenger",
-			"Major Blood Blister",
-			"Major DeathPulse",
-			"Major Drifting Shade",
-			"Major Empowered Elites (Electric Lance)",
-			"Major Empowered Elites (Frost)",
-			"Major Empowered Elites (Poison)",
-			"Major Empowered Elites (Shadow)",
-			"Major Empowered Elites (Suppressor)",
-			"Major Empowered Elites (Teleporter)",
-			"Major Lightning Pulse",
-			"Major Lightning Storm",
-			"Major Nightmare Portal",
-			"Major Volcanic",
-			"Minor Monster AntiCC",
-			"Minor Monster AntiCrit",
-			"Minor Monster AntiOverpower",
-			"Minor Monster AntiVulnerable",
-			"Minor Monster AttackBehind",
-			"Minor Monster AttackFaster",
-			"Minor Monster Barrier",
-			"Minor Monster BarrierKiller",
-			"Minor Monster ChanceSlow",
-			"Minor Monster DrainResource",
-			"Minor Monster ExtraBleeding",
-			"Minor Monster ExtraBurning",
-			"Minor Monster ExtraCold",
-			"Minor Monster ExtraCorruption",
-			"Minor Monster ExtraFire",
-			"Minor Monster ExtraLightning",
-			"Minor Monster ExtraPoison",
-			"Minor Monster ExtraShadow",
-			"Minor Monster HPBonus",
-			"Minor Monster HPRegen",
-			"Minor Monster LessAOE",
-			"Minor Monster LessBleeding",
-			"Minor Monster LessBurning",
-			"Minor Monster LessCold",
-			"Minor Monster LessCorruption",
-			"Minor Monster LessFire",
-			"Minor Monster LessLightning",
-			"Minor Monster LessMelee",
-			"Minor Monster LessPhysical",
-			"Minor Monster LessPoison",
-			"Minor Monster LessRanged",
-			"Minor Monster LessShadow",
-			"Minor Monster LifeSteal",
-			"Minor Monster ReduceDodge",
-			"Minor Monster ReduceHealing",
-			"Minor Monster ReduceResistance",
-			"Minor Monster ReflectNonPhysical",
-			"Minor Monster ReflectPhysical",
-			"Minor Monster SunderArmor",
-			"Minor Monster Unstoppable",
+			"Major_Avenger",
+			"Major_Blood Blister",
+			"Major_DeathPulse",
+			"Major_Drifting Shade",
+			"Major_Empowered Elites (Electric Lance)",
+			"Major_Empowered Elites (Frost)",
+			"Major_Empowered Elites (Poison)",
+			"Major_Empowered Elites (Shadow)",
+			"Major_Empowered Elites (Suppressor)",
+			"Major_Empowered Elites (Teleporter)",
+			"Major_Lightning Pulse",
+			"Major_Lightning Storm",
+			"Major_Nightmare Portal",
+			"Major_Volcanic",
+			"Minor_Monster_AntiCC",
+			"Minor_Monster_AntiCrit",
+			"Minor_Monster_AntiOverpower",
+			"Minor_Monster_AntiVulnerable",
+			"Minor_Monster_AttackBehind",
+			"Minor_Monster_AttackFaster",
+			"Minor_Monster_Barrier",
+			"Minor_Monster_BarrierKiller",
+			"Minor_Monster_ChanceSlow",
+			"Minor_Monster_DrainResource",
+			"Minor_Monster_ExtraBleeding",
+			"Minor_Monster_ExtraBurning",
+			"Minor_Monster_ExtraCold",
+			"Minor_Monster_ExtraCorruption",
+			"Minor_Monster_ExtraFire",
+			"Minor_Monster_ExtraLightning",
+			"Minor_Monster_ExtraPoison",
+			"Minor_Monster_ExtraShadow",
+			"Minor_Monster_HPBonus",
+			"Minor_Monster_HPRegen",
+			"Minor_Monster_LessAOE",
+			"Minor_Monster_LessBleeding",
+			"Minor_Monster_LessBurning",
+			"Minor_Monster_LessCold",
+			"Minor_Monster_LessCorruption",
+			"Minor_Monster_LessFire",
+			"Minor_Monster_LessLightning",
+			"Minor_Monster_LessMelee",
+			"Minor_Monster_LessPhysical",
+			"Minor_Monster_LessPoison",
+			"Minor_Monster_LessRanged",
+			"Minor_Monster_LessShadow",
+			"Minor_Monster_LifeSteal",
+			"Minor_Monster_ReduceDodge",
+			"Minor_Monster_ReduceHealing",
+			"Minor_Monster_ReduceResistance",
+			"Minor_Monster_ReflectNonPhysical",
+			"Minor_Monster_ReflectPhysical",
+			"Minor_Monster_SunderArmor",
+			"Minor_Monster_Unstoppable",
 			"Physical Enhanced",
 			"Poison Enhanced",
 			"Poison Pool",
-			"Positive AttackMoveSpeedOnKill",
-			"Positive BarrierWhenOutOfCombat",
-			"Positive CCReduction",
-			"Positive CooldownReductionOnKill",
-			"Positive DamageReductionForMissingHealth",
-			"Positive EvadeLeavesPoison",
-			"Positive EvadePushesEnemies",
-			"Positive FireDamage",
-			"Positive FireResistance",
-			"Positive FrostDamage",
-			"Positive FrostResistance",
-			"Positive GoldFind",
-			"Positive IncreasedCritChance",
-			"Positive IncreasedHealing",
-			"Positive LightningDamage",
-			"Positive LightningResistance",
-			"Positive MagicFind",
-			"Positive PeriodicLightning",
-			"Positive PhysicalDamage",
-			"Positive PhysicalResistance",
-			"Positive PoisonDamage",
-			"Positive PoisonResistance",
-			"Positive ShadowDamage",
-			"Positive ShadowResistance",
-			"Positive StunCausesBurning",
-			"Positive Thorns",
-			"Power CAP Monster Affix BonusHealth BonusDamage WT2",
-			"Power CAP Monster Affix BonusHealth BonusDamage WT3",
-			"Power CAP Monster Affix BonusHealth BonusDamage WT4",
+			"Positive_AttackMoveSpeedOnKill",
+			"Positive_BarrierWhenOutOfCombat",
+			"Positive_CCReduction",
+			"Positive_CooldownReductionOnKill",
+			"Positive_DamageReductionForMissingHealth",
+			"Positive_EvadeLeavesPoison",
+			"Positive_EvadePushesEnemies",
+			"Positive_FireDamage",
+			"Positive_FireResistance",
+			"Positive_FrostDamage",
+			"Positive_FrostResistance",
+			"Positive_GoldFind",
+			"Positive_IncreasedCritChance",
+			"Positive_IncreasedHealing",
+			"Positive_LightningDamage",
+			"Positive_LightningResistance",
+			"Positive_MagicFind",
+			"Positive_PeriodicLightning",
+			"Positive_PhysicalDamage",
+			"Positive_PhysicalResistance",
+			"Positive_PoisonDamage",
+			"Positive_PoisonResistance",
+			"Positive_ShadowDamage",
+			"Positive_ShadowResistance",
+			"Positive_StunCausesBurning",
+			"Positive_Thorns",
+			"Power_CAP_Monster_Affix_BonusHealth_BonusDamage_WT2",
+			"Power_CAP_Monster_Affix_BonusHealth_BonusDamage_WT3",
+			"Power_CAP_Monster_Affix_BonusHealth_BonusDamage_WT4",
 			"Proximity Shield",
-			"Trial AbyssalGrowths",
-			"Trial DemonicIdol",
-			"Trial EventMastery",
-			"Trial NoWipe",
-			"Trial ProtectNPC",
-			"Trial TimedRun",
-			"Trial UniqueSentries",
-			"zzz Berserking",
-			"zzz Cold Enhanced",
-			"zzz Destabilizing",
-			"zzz Displacer",
-			"zzz Empowered Elites (Mortar)",
-			"zzz Empowered Elites (Multishot)",
-			"zzz Empowered Elites (Summoner)",
-			"zzz Enraging",
-			"zzz Fire Enhanced",
-			"zzz Frozen Pulse",
-			"zzz Haste",
-			"zzz Infested",
-			"zzz Lightning Enhanced",
-			"zzz Rampart",
-			"zzz Resource Drain",
-			"zzz Resurrect Limit",
-			"zzz Wild Regeneration",
-			"zzzMinor Monster ImmuneCold",
-			"zzzMinor Monster ImmuneFire",
-			"zzzMinor Monster ImmuneLightning",
-			"zzzMinor Monster ImmunePoison",
-			"zzzMinor Monster ImmuneShadow"
+			"Trial_AbyssalGrowths",
+			"Trial_DemonicIdol",
+			"Trial_EventMastery",
+			"Trial_NoWipe",
+			"Trial_ProtectNPC",
+			"Trial_TimedRun",
+			"Trial_UniqueSentries",
+			"zzzMinor_Monster_ImmuneCold",
+			"zzzMinor_Monster_ImmuneFire",
+			"zzzMinor_Monster_ImmuneLightning",
+			"zzzMinor_Monster_ImmunePoison",
+			"zzzMinor_Monster_ImmuneShadow",
+			"zzz_Berserking",
+			"zzz_Cold Enhanced",
+			"zzz_Destabilizing",
+			"zzz_Displacer",
+			"zzz_Empowered Elites (Mortar)",
+			"zzz_Empowered Elites (Multishot)",
+			"zzz_Empowered Elites (Summoner)",
+			"zzz_Enraging",
+			"zzz_Fire Enhanced",
+			"zzz_Frozen Pulse",
+			"zzz_Haste",
+			"zzz_Infested",
+			"zzz_Lightning Enhanced",
+			"zzz_Rampart",
+			"zzz_Resource Drain",
+			"zzz_Resurrect Limit",
+			"zzz_Wild Regeneration"
 		],
 		"Legendary": {
 			"legendary_generic_006": {
 				"desc": "Gain {c_random}[Affix_Value_1]{/c} resource for every {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life healed.",
 				"name": "Starlight",
 				"values": [
-					"Round(FloatRandomRangeWithInterval(10, 10, 20))",
-					8
+					"Round(FloatRandomRangeWithInterval(10, 10, 20))"
 				]
 			},
 			"legendary_generic_009": {
 				"desc": "{c_important}Basic{/c} skills grant {c_number}[Affix.\"Static Value 0\"|%|]{/c} damage reduction for {c_random}[Affix_Value_1|1|]{/c} seconds.",
 				"name": "of Might",
 				"values": [
-					"FloatRandomRangeWithInterval(8, 4, 8)",
-					8
+					"FloatRandomRangeWithInterval(8, 4, 8)"
 				]
 			},
 			"legendary_generic_011": {
@@ -8779,8 +8766,7 @@
 				"values": [
 					0.15,
 					"ExpectedLevelForIPower()",
-					"FloatRandomRangeWithInterval(10, 10, 20)",
-					8
+					"FloatRandomRangeWithInterval(10, 10, 20)"
 				]
 			},
 			"legendary_generic_014": {
@@ -8788,32 +8774,28 @@
 				"name": "of Inner Calm",
 				"values": [
 					3,
-					"FloatRandomRangeWithInterval(10, 3, 10)",
-					8
+					"FloatRandomRangeWithInterval(10, 3, 10)"
 				]
 			},
 			"legendary_generic_016": {
 				"desc": "Critical Strikes grant {c_random}[Affix_Value_1|1%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} second. The duration can be extended.",
 				"name": "Wind Striker",
 				"values": [
-					"FloatRandomRangeWithInterval(8, 8, 16)",
-					8
+					"FloatRandomRangeWithInterval(8, 8, 16)"
 				]
 			},
 			"legendary_generic_021": {
 				"desc": "Restore {c_random}[Affix_Value_1]{/c} resource when you Crowd Control an enemy.",
 				"name": "of the Umbral",
 				"values": [
-					"Round(FloatRandomRangeWithInterval(3, 1, 4))",
-					8
+					"Round(FloatRandomRangeWithInterval(3, 1, 4))"
 				]
 			},
 			"legendary_generic_023": {
 				"desc": "Each consecutive {c_important}Core{/c} Skill cast reduces the resource cost of your next {c_important}Core{/c} Skills by {c_random}[Affix_Value_1|%|]{/c}, up to a maximum of {c_number}[Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "Ominous",
 				"values": [
-					"FloatRandomRangeWithInterval(5, 5, 10)",
-					8
+					"FloatRandomRangeWithInterval(5, 5, 10)"
 				]
 			},
 			"legendary_generic_027": {
@@ -8829,8 +8811,7 @@
 				"values": [
 					2.0,
 					"ExpectedLevelForIPower()",
-					"FloatRandomRangeWithInterval(10, 10, 20)",
-					8
+					"FloatRandomRangeWithInterval(10, 10, 20)"
 				]
 			},
 			"legendary_generic_036": {
@@ -8851,16 +8832,14 @@
 				"desc": "{c_important}Basic{/c} Skills gain {c_random}[Affix_Value_1|%|]{/c } Attack Speed.",
 				"name": "Rapid",
 				"values": [
-					"FloatRandomRangeWithInterval(10, 23, 33)",
-					8
+					"FloatRandomRangeWithInterval(10, 23, 33)"
 				]
 			},
 			"legendary_generic_063": {
 				"desc": "Skills deal up to {c_random}x[Affix_Value_1|%|]{/c} increased damage based on available resource when cast, receiving the full benefit while at full resource.",
 				"name": "Edgemaster's",
 				"values": [
-					"FloatRandomRangeWithInterval(10, 24, 34)",
-					8
+					"FloatRandomRangeWithInterval(10, 24, 34)"
 				]
 			},
 			"legendary_generic_065": {
@@ -8869,58 +8848,50 @@
 				"values": [
 					0.03,
 					"ExpectedLevelForIPower()",
-					"FloatRandomRangeWithInterval(2, 3, 5)",
-					8
+					"FloatRandomRangeWithInterval(2, 3, 5)"
 				]
 			},
 			"legendary_generic_067": {
 				"desc": "Enemies hit with {c_important}Basic{/c} Skills increases the damage of your next {c_important}Core{/c} Skill by {c_random}x[Affix_Value_1|1%|]{/c}, up to {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "of the Expectant",
 				"values": [
-					1,
 					4,
-					"RoundToDecimalPlace(FloatRandomRangeWithInterval(10, 5, 10), 1)",
-					8
+					"RoundToDecimalPlace(FloatRandomRangeWithInterval(10, 5, 10), 1)"
 				]
 			},
 			"legendary_generic_100": {
 				"desc": "You may move freely through enemies while below {c_random}[Affix_Value_1|%|]{/c} total Life.",
 				"name": "Ghostwalker",
 				"values": [
-					"FloatRandomRangeWithInterval(10, 40, 70)",
-					8
+					"FloatRandomRangeWithInterval(10, 40, 70)"
 				]
 			},
 			"legendary_generic_102": {
 				"desc": "{c_gold}Lucky Strike:{/c} When you hit a Crowd Controlled enemy, there is up to a {c_random}[Affix_Value_1|%|]{/c} chance for that Crowd Control effect to spread to another unaffected enemy.",
 				"name": "of Shared Misery",
 				"values": [
-					"FloatRandomRangeWithInterval(10, 30, 50)",
-					8
+					"FloatRandomRangeWithInterval(10, 30, 50)"
 				]
 			},
 			"legendary_generic_103": {
 				"desc": "Taking {c_random}[Affix_Value_1|%|]{/c} of your total Life in damage while Stunned, Frozen or Immobilized will clear the effect.",
 				"name": "Eluding",
 				"values": [
-					"Floor(FloatRandomRangeWithInterval(10, 15, 35))",
-					8
+					"Floor(FloatRandomRangeWithInterval(10, 15, 35))"
 				]
 			},
 			"legendary_generic_104": {
 				"desc": "When you take damage from a damage over time effect, gain {c_random}[Affix_Value_1]{/c} resource.",
 				"name": "Assimilation",
 				"values": [
-					"Floor(FloatRandomRangeWithInterval(10, 15, 35))",
-					8
+					"Floor(FloatRandomRangeWithInterval(10, 15, 35))"
 				]
 			},
 			"legendary_generic_106": {
 				"desc": "Thorns damage dealt has a {c_random}[Affix_Value_1|%|]{/c} chance to deal damage to all enemies around you.",
 				"name": "Needleflare",
 				"values": [
-					"FloatRandomRangeWithInterval(10, 20, 40)",
-					8
+					"FloatRandomRangeWithInterval(10, 20, 40)"
 				]
 			},
 			"legendary_generic_107": {
@@ -8934,18 +8905,32 @@
 				"desc": "Effects that heal you beyond {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life grant you a {c_important}Barrier{/c} up to {c_random}[Affix_Value_1|%|]{/c} of your Maximum Life that lasts for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 				"name": "Restorative",
 				"values": [
-					"RandomInt(50, 100)",
-					8
+					"RandomInt(50, 100)"
 				]
 			},
 			"legendary_generic_109": {
 				"desc": "Your Critical Strike Chance is increased by {c_random}[Crit_Percent_Bonus_Vs_CC_Target_Any*100|%|]{/c} against Crowd Controlled enemies.",
 				"name": "Smiting",
 				"values": [
-					"FloatRandomRangeWithInterval(10, 0.15, 0.25)",
-					8
+					"FloatRandomRangeWithInterval(10, 0.15, 0.25)"
 				]
 			}
+		},
+		"Loadscreen Tips": {
+			"TIP001": "Remember to spend your skill points when you level up to unlock new skills or improve old ones!",
+			"TIP003": "Be sure to fill up your healing vials at the Healer {icon:Marker_HealWell, 2.0} before leaving town.",
+			"TIP004": "Salvaging your items will produce materials used for crafting, and can also unlock new looks in your wardrobe {icon:Marker_Wardrobe, 2.0}",
+			"TIP005": "Items lose durability and become less effective when you revive from death. You can repair your equipment at a Blacksmith {icon:Marker_Blacksmith, 2.0}",
+			"TIP006": "You can revive other players by clicking on their spirits. They can rejoin the fight immediately!",
+			"TIP007": "Activate any waypoints {icon:Marker_Waypoint, 2.0} that you encounter on your travels to unlock a new fast travel location.",
+			"TIP008": "When you grow powerful enough an Occultist {icon:Marker_Essence, 2.0} can extract and replace the powers on your legendary items.",
+			"TIP009": "Realm Rewards are shared with every character of yours on that realm. Open your map and check out the Renown panel to see what you can earn while exploring Sanctuary!",
+			"TIP010": "The state of Sanctuary is based on the party leader's progress.",
+			"TIP011": "Combat damage text is colored to mean different things: {c:ffffec64}Critical Strike{/c}, {c:ff78fff1}Overpower{/c}, and {c:ffff9000}Critical Hit combined with Overpower{/c}.",
+			"TIP012": "You can increase the potency of your Healing Potion by visiting the Alchemist {icon:Marker_Crafter_Alchemist, 2.0}",
+			"TIP013": "After finishing the campaign, new challenges and rewards await in the Nightmare, Hell and Torment world tiers!",
+			"TIP014": "Elite enemies include Champions, Elites, Bosses, and hostile Players.",
+			"TIP015": "Higher World Tiers grant you much higher experience bonus from killing monsters."
 		},
 		"Paragon (Glyph)": {
 			"ParagonGlyph_001": {
@@ -9845,7 +9830,6 @@
 				"values": [
 					8,
 					0.7,
-					333,
 					"ExpectedLevelForIPower()",
 					"FloatRandomRangeWithInterval(5, 5, 10)"
 				]
@@ -9855,8 +9839,7 @@
 				"flavor": "Whenever you stare at the reflection in this blade, you see a demonic figure standing behind you: vague and distorted, but always laughing.",
 				"name": "Oblivion",
 				"values": [
-					"RandomInt(10,20)",
-					2
+					"RandomInt(10,20) * 2"
 				]
 			},
 			"2HStaff_Unique_Generic_101": {
@@ -9875,13 +9858,21 @@
 					"FloatRandomRangeWithInterval(10, 60, 100)"
 				]
 			},
+			"2HSword_Unique_Generic_001_CoreStats_All": {
+				"name": "(BUG ME) FOR UNIQUE ONLY"
+			},
+			"2HSword_Unique_Generic_001_Damage": {
+				"name": "(BUG ME) FOR UNIQUE ONLY"
+			},
+			"2HSword_Unique_Generic_001_Health": {
+				"name": "(Bug Me) FOR UNIQUE ONLY"
+			},
 			"Amulet_Unique_Generic_100": {
 				"desc": "Gain {c_number}[Affix.\"Static Value 0\"|~%|]{/c} bonus maximum resource. In addition, when you take damage, drain {c_random}[Affix_Value_1|1|]{/c} resource for every {c_number}[Affix.\"Static Value 1\"|%|]{/c} of Life you would have lost instead.",
 				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig",
 				"name": "Melted Heart of Selig",
 				"values": [
-					"FloatRandomRangeWithInterval(10, 3, 6)",
-					8
+					"FloatRandomRangeWithInterval(10, 3, 6)"
 				]
 			},
 			"Boots_Unique_Generic_001": {
@@ -9891,6 +9882,9 @@
 				"values": [
 					"FloatRandomRangeWithInterval(3, 7, 10)"
 				]
+			},
+			"Boots_Unique_Generic_001_Crafting": {
+				"name": "(PH) Crafting Boots of Sockets"
 			},
 			"Chest_Unique_Generic_100": {
 				"desc": "{c_random}+[Affix_Flat_Value_1]{/c} Thorns",
@@ -10076,7 +10070,6 @@
 				"desc": "When you pick up {c_random}[Affix_Value_1]{/c} {c_important}Blood Orbs{/c}, a free {c_important}Bone Spirit{/c} is spawned, dealing bonus damage based on your current Life percent.",
 				"name": "of Possessed Blood",
 				"values": [
-					2,
 					"Round(FloatRandomRangeWithInterval(5, 5, 10))"
 				]
 			},
@@ -10131,7 +10124,6 @@
 				"desc": "When {c_important}Blood Lance{/c} hits an enemy that is already lanced, it has a {c_random}[Affix_Value_1|%|]{/c} chance to fire a {c_important}Blood Lance{/c} at a Nearby target.",
 				"name": "of Hungry Blood",
 				"values": [
-					76,
 					"FloatRandomRangeWithInterval(10, 10, 20)"
 				]
 			},
@@ -10217,7 +10209,6 @@
 				"desc": "The {c_important}Ossified Essence{/c} Passive also increases the Critical Strike Damage of your {c_important}Bone{/c} Skills by {c_number}+[Affix.\"Static Value 0\"|%|]{/c} per Essence above {c_number}[Affix.\"Static Value 1\"]{/c}, up to {c_random}+[Affix_Value_1|%|]{/c}.",
 				"name": "of Serration",
 				"values": [
-					2,
 					"FloatRandomRangeWithInterval(10, 30, 40)"
 				]
 			},
@@ -10256,7 +10247,6 @@
 				"desc": "You deal {c_random}x[Affix_Value_1|%|]{/c} increased Shadow Damage to enemies afflicted by both {c_important}Decrepify{/c} and {c_important}Iron Maiden{/c}.",
 				"name": "of the Damned",
 				"values": [
-					4,
 					"FloatRandomRangeWithInterval(10, 30, 40)"
 				]
 			},
@@ -10334,7 +10324,6 @@
 				"desc": "You gain {c_random}[Affix_Value_1|1|]{/c} maximum Essence per active {c_important}Minion{/c}.",
 				"name": "Requiem",
 				"values": [
-					4,
 					"FloatRandomRangeWithInterval(4, 3, 5)"
 				]
 			},
@@ -13609,7 +13598,6 @@
 				"name": "Deathless Visage",
 				"values": [
 					"FloatRandomRangeWithInterval(10, 0.25, 0.35)",
-					43,
 					"ExpectedLevelForIPower()"
 				]
 			},
@@ -13618,7 +13606,6 @@
 				"flavor": "\"The infamous Necromancer Gaza-Thul's mastery over blood magic was indisputable. Many suspect that upon his death, his skin was used to fashion these eldritch leggings.\"\n- Barrett's Book of Implements",
 				"name": "Blood Artisan's Brais",
 				"values": [
-					1,
 					"FloatRandomRangeWithInterval(10, 0.5, 1.5)"
 				]
 			},
@@ -13665,7 +13652,6 @@
 				"desc": "{c_important}Flurry{/c} damages enemies in a circle around you and deals {c_random}x[Affix_Value_1|%|]{/c} increased damage.",
 				"name": "of Encircling Blades",
 				"values": [
-					4,
 					"FloatRandomRangeWithInterval(7, 8, 15)"
 				]
 			},
@@ -13785,8 +13771,7 @@
 				"desc": "Explosions from the {c_important}Victimize{/c} Passive Heal you for {c_random}[Affix_Flat_Value_1]{/c} Life for each enemy damaged, up to a maximum of {c_random}[Affix_Flat_Value_1 * Affix.\"Static Value 0\"]{/c} Life.",
 				"name": "of Cruel Sustenance",
 				"values": [
-					"RandomInt(10, 18)",
-					200,
+					"RandomInt(10, 18) / 200",
 					"ExpectedLevelForIPower()"
 				]
 			},
@@ -13794,7 +13779,6 @@
 				"desc": "{c_gold}Lucky Hit:{/c} Making an enemy {c_important}Vulnerable{/c} has up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}+[Affix.\"Static Value 0\"|%|]{/c} increased Critical Strike Chance for {c_number}[Affix.\"Static Value 1\"]{/c} seconds, up to {c_number}+[Affix.\"Static Value 0\" * Affix.\"Static Value 2\"|%|]{/c}.",
 				"name": "Vengeful",
 				"values": [
-					3,
 					"FloatRandomRangeWithInterval(10, 30, 50)"
 				]
 			},
@@ -13834,9 +13818,7 @@
 				"desc": "You automatically drop a {c_important}Smoke Grenade{/c} at the end of {c_important}Dash{/c}. {c_important}Dash's{/c} cooldown is reduced by {c_random}[Affix_Value_1|2|]{/c} seconds for each enemy {c_important}Dazed{/c} this way, up to {c_random}[Affix_Value_1 * Affix.\"Static Value 0\"|2|]{/c} seconds.",
 				"name": "of Quickening Fog",
 				"values": [
-					4,
 					"FloatRandomRangeWithInterval(10, 0.25, 0.35)",
-					43,
 					"ExpectedLevelForIPower()"
 				]
 			},
@@ -17436,8 +17418,7 @@
 				"name": "Condemnation",
 				"values": [
 					"FloatRandomRangeWithInterval(10, 15, 25)",
-					40,
-					3
+					40
 				]
 			},
 			"1HDagger_Unique_Rogue_002": {
@@ -17773,7 +17754,6 @@
 				"name": "of the Frozen Tundra",
 				"values": [
 					"FloatRandomRangeWithInterval(10, 0.25, 0.35)",
-					43,
 					"ExpectedLevelForIPower()",
 					0.5
 				]
@@ -17803,7 +17783,6 @@
 				"desc": "Critical Strikes to Close enemies increase {c_important}Vyr's Mastery's{/c} bonuses by {c_random}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Mage-Lord's",
 				"values": [
-					2,
 					"FloatRandomRangeWithInterval(10, 20, 30)"
 				]
 			},
@@ -21696,8 +21675,7 @@
 				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both.",
 				"name": "Esadora's Overflowing Cameo",
 				"values": [
-					"RandomInt(31, 40)",
-					100,
+					"RandomInt(31, 40) / 100",
 					"ExpectedLevelForIPower()"
 				]
 			},
@@ -21722,7 +21700,6 @@
 				"flavor": "\"While scholars have since proven these gloves were not created by Esu herself, it is noteworthy that they have been passed down in an unbroken line since the formation of the Mage Clans.\" \n- Barrett's Book of Implements",
 				"name": "Esu's Heirloom",
 				"values": [
-					9,
 					"FloatRandomRangeWithInterval(10, 30, 40)"
 				]
 			},
