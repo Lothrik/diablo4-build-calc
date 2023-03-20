@@ -752,12 +752,14 @@ function updateCharacterLevel() {
 
 	let charLevel = 1;
 	let renownLevel = 0;
+	const maxSkillPoints = 58;
+	const maxRenownLevel = 10;
 
-	if (unusedPoints >= 15) {
-		charLevel = 64 - unusedPoints;
+	if (unusedPoints >= maxRenownLevel) {
+		charLevel = 1 + maxSkillPoints - unusedPoints;
 	} else {
 		charLevel = 50;
-		renownLevel = 15 - unusedPoints;
+		renownLevel = maxRenownLevel - unusedPoints;
 	}
 
 	if (unusedParagonPoints < 21) {
