@@ -146,8 +146,8 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/sLevel/g, "")											// `sLevel`, exact.
 		.replace(/\|4([^:]+):([^;]+);/g, "$2")							// `|4first:second;` => `second`.
 		.replace(/\|4([^:]+):([^\.]+)\./g, "$2.")						// `|4first:second.` => `second.`.
-		.replace(/\[([^\]\|]+)\|(%?)[0-9]?([x\+]?)\|\]/g, "$3[$1]$2")	// Replace `[...|%x|]` with `x[...]%`, and similar.
-		.replace(/\[([^\]\|]+)\|([x\+]?)[0-9]?(%?)\|\]/g, "$2[$1]$3")	// Replace `[...|x%|]` with `x[...]%`, and similar.
+		.replace(/\[([^\]\|]+)\|\d?(%?)\d?([x\+]?)\|\]/g, "$3[$1]$2")	// Replace `[...|%x|]` with `x[...]%`, and similar.
+		.replace(/\[([^\]\|]+)\|\d?([x\+]?)\d?(%?)\|\]/g, "$2[$1]$3")	// Replace `[...|x%|]` with `x[...]%`, and similar.
 		.replace(/ *\* */g, "")											// `*`, including any nearby whitespace.
 		.replace(/ *\| */g, "")											// `|`, including any nearby whitespace.
 		.replace(/ \./g, ".")											// Replace ` .` with `.`.

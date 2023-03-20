@@ -898,7 +898,7 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 	},
 	"Serration": {
 		connections: [ "Rapid Ossification", "Compound Fracture", "Summoning" ],
-		description: `Your Bone Skills have a {#} increased Critical Strike Chance for each 10 Essence you have upon cast.`,
+		description: `Your Bone Skills have a +{#}% increased Critical Strike Chance for each 10 Essence you have upon cast.`,
 		id: 84,
 		maxPoints: 3,
 		values: [ "{0.5/1/1.5}" ],

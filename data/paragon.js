@@ -13184,7 +13184,7 @@ let paragonData = {
 			},
 			"Necromancer_Legendary_016": {
 				"name": "Wither",
-				"description": "Your Shadow damage over time effects have a x{#}% chance to deal x{#}% bonus damage each time they deal damage. This chance is increased by x{#}% and bonus damage is increased by {#} for each {#} Willpower you have."
+				"description": "Your Shadow damage over time effects have a x{#}% chance to deal x{#}% bonus damage each time they deal damage. This chance is increased by x{#}% and bonus damage is increased by x{#}% for each {#} Willpower you have."
 			},
 			"Necromancer_Legendary_017": {
 				"name": "Bone Graft",

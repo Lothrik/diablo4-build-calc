@@ -682,7 +682,7 @@ Become Unstoppable and rush forward, pushing enemies with you then swinging thro
 	"War Cry": {
 		connections: [ "Brawling", "Enhanced War Cry" ],
 		description: `Cooldown: {#} seconds
-Bellow a mighty war cry, increasing your damage dealt by {#} for {#} seconds, and Nearby allies for {#} seconds.`,
+Bellow a mighty war cry, increasing your damage dealt by x{#}% for {#} seconds, and Nearby allies for {#} seconds.`,
 		id: 62,
 		maxPoints: 5,
 		values: [ "25", "15.0", "8.0", "4.0" ],
