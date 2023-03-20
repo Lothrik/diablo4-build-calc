@@ -366,7 +366,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.0.39517-1";
+const localVersion = "0.8.0.39517-2";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -740,8 +740,8 @@ function getUnusedPoints(paragonPoints = false) {
 		const maxParagonPoints = 221;
 		return maxParagonPoints - pixiAllocatedParagonPoints;
 	} else {
-		// 1 skill point per level from 2-49 inclusive (level total: 48); plus 15 from renown (final total: 63)
-		const maxSkillPoints = 63;
+		// 1 skill point per level from 2-49 inclusive (level total: 48); plus 10 from renown (final total: 58)
+		const maxSkillPoints = 58;
 		const curSkillPoints = Array.from(pixiAllocatedPoints.values()).reduce((a, b) => a + b, 0);
 		return maxSkillPoints - curSkillPoints;
 	}
