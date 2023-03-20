@@ -1546,7 +1546,7 @@ let nodeValues = {
 			],
 			"Stand Alone": [
 				"{6/12/18}",
-				"2"
+				"{2/4/6}"
 			],
 			"Memento Mori": [
 				"{20/40/60}"

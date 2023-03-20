@@ -1045,7 +1045,7 @@ Conjure a tidal wave of blood that deals {#}% damage and Knocks Back enemies.`,
 		description: `Increases Damage Reduction by {#}%, reduced by {#}% for each active Minion.`,
 		id: 99,
 		maxPoints: 3,
-		values: [ "{6/12/18}", "2" ],
+		values: [ "{6/12/18}", "{2/4/6}" ],
 		x: 533.97,
 		y: 0.78
 	},
