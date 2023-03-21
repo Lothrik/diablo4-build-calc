@@ -122,6 +122,7 @@ const COLOR_NODE_TEXT = "Choose your preferred active node color.";
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
+const SMALL_CLAMP_TEXT = "Clamp";
 const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
@@ -566,7 +567,7 @@ function handleSearchInput(event) {
 }
 function handleClampButton() {
 	clampMode = !clampMode;
-	$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
+	$("#clampButton").text(window.innerWidth < 450 ? SMALL_CLAMP_TEXT : clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
 	writeCookie("clampMode", clampMode);
 
 	repositionTooltip();
@@ -2127,6 +2128,9 @@ function resizeCanvas() {
 		[oldWidth, oldHeight] = [newWidth, newHeight];
 
 		resetFrameTimer();
+
+		const optimalClampText = window.innerWidth < 450 ? SMALL_CLAMP_TEXT : clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT;
+		if ($("#clampButton").text() != optimalClampText) $("#clampButton").text(optimalClampText);
 
 		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth($("#extraButtons2").width() - 5);
 		resizeSearchInput();
