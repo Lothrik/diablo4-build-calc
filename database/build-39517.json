@@ -10,7 +10,8 @@
 				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to grant {c_number}[{SF_1} * 100|%x|]{/c} increased Attack Speed for {c_number}{SF_2}{/c} seconds. Double the Attack Speed bonus when using two Axes."
 			},
 			"Barbarian_WeaponExpertise_1HAxe_Technique": {
-				"desc": "{s1}% of damage dealt as Bleed damage."
+				"desc": "{s1}% of damage dealt as Bleed damage.",
+				"name": "1-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_1HMace": {
 				"desc": "{c_number}[{SF_1} * 100|%x|]{/c} increased damage to Stunned enemies. Double this amount when using two Maces.{if:SF_7}\n\n{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_5}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_6} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces.{/if}",
@@ -21,7 +22,8 @@
 				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_1} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces."
 			},
 			"Barbarian_WeaponExpertise_1HMace_Technique": {
-				"desc": "You have a {s1}% chance to Overpower crowd controlled enemies."
+				"desc": "You have a {s1}% chance to Overpower crowd controlled enemies.",
+				"name": "1-Handed Mace"
 			},
 			"Barbarian_WeaponExpertise_1HSword": {
 				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_number}{SF_1}{/c} Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.{if:SF_8}\n\nKilling a Crowd Controlled enemy grants {c_number}[{SF_6} * 100|%+|]{/c} increased Attack Speed for {c_number}{SF_7}{/c} seconds. Double this amount when using two Swords.{/if}",
@@ -32,7 +34,8 @@
 				"desc": "Killing a Crowd Controlled enemy grants {c_number}[{SF_0} * 100|%+|]{/c} increased Attack Speed for {c_number}{SF_1}{/c} seconds. Double this amount for kills with two Swords."
 			},
 			"Barbarian_WeaponExpertise_1HSword_Technique": {
-				"desc": "You have a {s1}% chance to generate 3 Fury when hitting a crowd controlled enemy."
+				"desc": "You have a {s1}% chance to generate 3 Fury when hitting a crowd controlled enemy.",
+				"name": "1-Handed Sword"
 			},
 			"Barbarian_WeaponExpertise_2HAxe": {
 				"desc": "{c_number}[{SF_0} * 100|1%x|]{/c} increased damage to {c_important}Vulnerable{/c} enemies.{if:SF_6}\n\n{c_number}[{SF_5} * 100|%+|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies.{/if}",
@@ -43,7 +46,8 @@
 				"desc": "{c_number}[{SF_0}*100|%+|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies."
 			},
 			"Barbarian_WeaponExpertise_2HAxe_Technique": {
-				"desc": "Killing an enemy grants +{s1}% Attack Speed for 2 seconds."
+				"desc": "Killing an enemy grants +{s1}% Attack Speed for 2 seconds.",
+				"name": "2-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_2HMace": {
 				"desc": "{c_label}Lucky Hit:{/c} Up to {c_number}{SF_0}%{/c} chance to gain {c_number}{SF_1}{/c} Fury when hitting an enemy. Double the amount of Fury gained while {c_important}Berserking{/c}.{if:SF_7}\n\nYou deal {c_number}[{SF_6} * 100|%x|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}.{/if}",
@@ -54,7 +58,8 @@
 				"desc": "You deal {c_number}[{SF_0} * 100|%x|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HMace_Technique": {
-				"desc": "You gain +{s1}% Crushing Blow Damage."
+				"desc": "You gain +{s1}% Crushing Blow Damage.",
+				"name": "2-Handed Mace"
 			},
 			"Barbarian_WeaponExpertise_2HPolearm": {
 				"desc": "{c_number}[{SF_0} * 100|%x|]{/c} increased Lucky Hit Chance.{if:SF_5}\n\nYou deal {c_number}[{SF_4} * 100|%x|]{/c} increased damage while {c_important}Healthy{/c}.{/if}",
@@ -65,7 +70,8 @@
 				"desc": "You deal {c_number}[{SF_0}*100|%+|]{/c} increased damage while {c_important}Healthy{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HPolearm_Technique": {
-				"desc": "+{s1}% Lucky Hit chance."
+				"desc": "+{s1}% Lucky Hit chance.",
+				"name": "Polearm"
 			},
 			"Barbarian_WeaponExpertise_2HSword": {
 				"desc": "{c_number}[{SF_0} * 100|%+|]{/c} of direct damage you deal is inflicted as Bleeding damage over {c_number}{buffduration:BLEEDING}{/c} seconds.{if:SF_7}\n\nYou deal {c_number}[{SF_5} * 100|%x|]{/c} increased Bleeding damage for {c_number}{SF_6}{/c} seconds after killing an enemy.{/if}",
@@ -76,10 +82,12 @@
 				"desc": "You deal {c_number}[{SF_0} * 100|%x|]{/c} increased Bleeding damage for {c_number}{SF_1}{/c} seconds after killing an enemy."
 			},
 			"Barbarian_WeaponExpertise_2HSword_Technique": {
-				"desc": "Your basic attacks have a {s1}% chance to generate an additional 2 Fury."
+				"desc": "Your basic attacks have a {s1}% chance to generate an additional 2 Fury.",
+				"name": "2-Handed Sword"
 			},
 			"Barbarian_WeaponExpertise_Shield_Technique": {
-				"desc": "You gain {s1}% of Block Value as Bonus Damage."
+				"desc": "You gain {s1}% of Block Value as Bonus Damage.",
+				"name": "Shield"
 			}
 		},
 		"Legendary": {
@@ -2818,7 +2826,8 @@
 				"power": {
 					"power_mod_id": 3,
 					"power_name": "Barbarian_Bash",
-					"skill_desc": "Damaging a Stunned enemy with {c_important}Bash{/c} generates an additional {c_number}[SF_4]{/c} Fury, or {c_number}[{SF_4} + {SF_8}]{/c} Fury if using a Two-Handed weapon."
+					"skill_desc": "Damaging a Stunned enemy with {c_important}Bash{/c} generates an additional {c_number}[SF_4]{/c} Fury, or {c_number}[{SF_4} + {SF_8}]{/c} Fury if using a Two-Handed weapon.",
+					"skill_name": "Battle Bash"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8455,6 +8464,7 @@
 			"Crit_Damage_Percent": "+[{VALUE}*100|1%|] Critical Strike Damage",
 			"Crit_Damage_Percent_Bonus_To_Vulnerable": "+[{VALUE}*100|1%|] Critical Strike Damage to Vulnerable Enemies",
 			"Crit_Damage_Percent_Bonus_Vs_CC_Target_Any": "+[{VALUE}*100|1%|] Critical Strike Damage to Crowd Controlled Enemies",
+			"Crit_Damage_Percent_For_Power": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1}",
 			"Crit_Damage_Percent_Per_Skill_Tag": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1} Skills",
 			"Crit_Damage_Percent_Per_Weapon_Requirement": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1}",
 			"Crit_Percent_Bonus": "+[{VALUE}*100|1%|] Critical Strike Chance",
@@ -8480,6 +8490,7 @@
 			"Damage_Increase_From_Near": "+[{VALUE}*100|1%|] Damage Taken from Close Enemies",
 			"Damage_Increase_While_Stationary": "+[{VALUE}*100|1%|] Damage while Standing Still",
 			"Damage_Percent_All_From_Skills": "+[{VALUE}*100|1%|] Damage",
+			"Damage_Percent_Bonus_Against_Dot_Type": "+[{VALUE2}*100|1%|] Damage to {VALUE1} Enemies",
 			"Damage_Percent_Bonus_Per_Shapeshift_Form": "+[{VALUE2}*100|1%|] Damage while in {VALUE1}",
 			"Damage_Percent_Bonus_Per_Skill_Tag": "+[{VALUE2}*100|1%|] {VALUE1} Skill Damage",
 			"Damage_Percent_Bonus_Per_Skill_Tag#Basic": "+[{VALUE}*100|1%|] Basic Skill Damage",
@@ -8514,6 +8525,7 @@
 			"Damage_Type_Percent_Bonus": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
 			"Damage_Type_Percent_Bonus_Vs_Elites": "+[{VALUE2}*100|1%|] {VALUE1} Damage to Elites",
 			"Dexterity": "[{VALUE}|~|] Dexterity",
+			"Dexterity_Core": "[{VALUE}|~|] Dexterity",
 			"Dexterity_Percent_Bonus": "+[{vALUE2}*100|1%|] Dexterity",
 			"Dexterity_Total": "[{VALUE}] Dexterity",
 			"Dodge_Chance_Bonus": "[{VALUE} * 100|1%|] Dodge Chance",
@@ -8552,11 +8564,13 @@
 			"Helpful_Buff_Duration_Bonus_Percent": "[{VALUE}*100|1%|] Helpful Effect Duration",
 			"HighlySalvageable": "Highly Salvageable",
 			"Hitpoints_Max_Bonus": "[{VALUE}|~|] Maximum Life",
+			"Hitpoints_Max_Percent_Bonus": "[{VALUE}*100|1%|] Maximum Life",
 			"Hitpoints_Max_Percent_Bonus_Item": "[{VALUE}*100|1%|] Maximum Life",
 			"Hitpoints_On_Elite_Kill": "+[{VALUE}*100] Life On Elite Kill",
 			"Hitpoints_Percent": "+[{VALUE}*100|~%|] Life",
 			"Hitpoints_Regen_Bonus_Percent": "[{VALUE}*100|1%|] Healing Over Time",
 			"Hitpoints_Regen_Per_Second": "+[{VALUE}] Healing Over Time",
+			"Hitpoints_Regen_Per_Second_Bonus": "+[{VALUE}] Healing Over Time",
 			"Ignore_Durability_Loss": "Ignores Durability Loss",
 			"Imbued_Skill_Crit_Damage_Percent_Bonus": "+[{VALUE}*100|1%|] Critical Strike Damage with Imbued Skills",
 			"Imbued_Skill_Damage_Percent_Bonus": "+[{VALUE}*100|1%|] Imbued Skill Damage",
@@ -8564,6 +8578,7 @@
 			"Imbued_Skill_Strength_Percent_Bonus": "[{VALUE}*100|1%|] Imbuement Potency",
 			"Immunity": "{VALUE1} Damage Immunity",
 			"Intelligence": "[{VALUE}|~|] Intelligence",
+			"Intelligence_Core": "[{VALUE}|~|] Intelligence",
 			"Intelligence_Percent_Bonus": "+[{vALUE2}*100|1%|] Intelligence",
 			"Intelligence_Total": "[{VALUE}] Intelligence",
 			"Item_Cost_Percent_Bonus": "+[{VALUE} * 100|1%|] Sell Value",
@@ -8582,6 +8597,7 @@
 			"NecroArmy_Pet_Type_All_Resist_Bonus_Pct": "[{VALUE2}*100|1%|] {VALUE1} Resistance to All Elements",
 			"NecroArmy_Pet_Type_Armor_Bonus_Pct": "+[{VALUE2}*100|1%|] {VALUE1} Armor",
 			"NecroArmy_Pet_Type_Attack_Speed_Bonus_Pct": "+[{VALUE2}*100|1%|] {VALUE1} Attack Speed",
+			"NecroArmy_Pet_Type_Damage_Bonus_Pct": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
 			"NecroArmy_Pet_Type_Health_Bonus_Pct": "[{VALUE2}*100|1%|] {VALUE1} Maximum Life",
 			"NecroArmy_Pet_Type_Inherit_Thorns_Bonus_Pct": "{VALUE1} Inherit +[{VALUE2}*100|1%|] of Your Thorns",
 			"No_Damage_Taken_Flat_Hitpoints_Regen_Per_Second": "+[{VALUE}] Life Regeneration while Not Damaged Recently",
@@ -8594,6 +8610,7 @@
 			"On_Hit_Knockback_Proc_Chance": "{c_label}Lucky Hit:{/c} Up to a +[{VALUE} * 100|1%|] Chance to Knockback",
 			"On_Hit_Vulnerable_Proc": "{c_label}Lucky Hit:{/c} Up to a +[{VALUE}*100|1%|] Chance to Make Enemies Vulnerable for {VALUE2} Seconds",
 			"Overpower_Chance_Bonus": "+[{VALUE}*100|1%|] Overpower Chance",
+			"Overpower_Damage_Bonus_Per_Skill": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1}",
 			"Overpower_Damage_Percent_Bonus": "+[{VALUE}*100}|1%|] Overpower Damage",
 			"Overpower_Damage_Percent_Bonus_Per_Skill_Tag": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1} Skills",
 			"Overpower_Damage_Percent_Bonus_Per_Weapon_Requirement": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1}",
@@ -8603,6 +8620,7 @@
 			"Pet_All_Resistance_Bonus_Percent": "[{VALUE}*100|1%|] Minion Resistance to All Elements",
 			"Pet_Armor_Bonus_Percent": "+[{VALUE}*100|1%|] Minion Armor",
 			"Pet_Attack_Speed_Bonus_Percent": "+[{VALUE}*100|1%|] Minion Attack Speed",
+			"Pet_Damage_Bonus_Percent": "+[{VALUE}*100|1%|] Minion Damage",
 			"Pet_Damage_Reduction_Percent": "[{VALUE}*100|1%|] Damage Reduction for Your Minions",
 			"Pet_Equipped_Other_Attacker_Damage_Bonus": "+[{VALUE}*100|1%|] Damage for Each Other Minion Attacking the Enemy",
 			"Pet_Equipped_Proc_Resource_On_Hit_Percent": "Chance per Hit to gain [{VALUE2}*100|~%|] {VALUE1}",
@@ -8623,6 +8641,8 @@
 			"Potion_Use_Granted_Unstoppable_Seconds": "While Injured, Your Potion Also Grants [{vALUE2}*100|%|] Movement Speed for 2 Seconds",
 			"Power_Cooldown_Reduction_Percent": "[{VALUE2} * 100|1%|] {VALUE1} Cooldown Reduction",
 			"Power_Cooldown_Reduction_Percent_All": "[{VALUE1}*100|1%|] Cooldown Reduction",
+			"Power_Damage_Percent_Bonus": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
+			"Power_Duration_Bonus_Pct": "+[{VALUE2}*100|1%|] {VALUE1} Duration",
 			"Power_Resource_Cost_Reduction_Amount": "[{VALUE2}*100|1|] {VALUE1} Resource Cost Reduction",
 			"Power_Resource_Cost_Reduction_Percent": "[{VALUE2}*100|1%|] {VALUE1} Resource Cost Reduction",
 			"Proc_Flat_Hitpoints_On_Hit": "{c_label}Lucky Hit:{/c} Up to a 5% Chance to Heal +[{VALUE}] Life",
@@ -8663,6 +8683,7 @@
 			"Steal_Health_Percent": "+[{VALUE}*100|1%|] Life Steal",
 			"Steal_Mana_Percent": "Restore [{VALUE}*100|1%|] of Damage Dealt as Resource",
 			"Strength": "[{VALUE}|~|] Strength",
+			"Strength_Core": "[{VALUE}|~|] Strength",
 			"Strength_Percent_Bonus": "+[{vALUE2}*100|1%|] Strength",
 			"Strength_Total": "[{VALUE}] Strength",
 			"Talent_Rank_Bonus": "+{VALUE2} |4Rank:Ranks; of the {VALUE1} Passive",
@@ -8675,9 +8696,128 @@
 			"Werebear_Armor_Percent": "+[{VALUE}*100|1%|] Total Armor while in Werebear Form",
 			"Werewolf_Armor_Percent": "+[{VALUE}*100|1%|] Total Armor while in Werewolf Form",
 			"Willpower": "[{VALUE}|~|] Willpower",
+			"Willpower_Core": "[{VALUE}|~|] Willpower",
 			"Willpower_Percent_Bonus": "+[{vALUE2}*100|1%|] Willpower",
 			"Willpower_Total": "[{VALUE}] Willpower"
 		},
+		"Dungeon Affix": [
+			"Major_Avenger",
+			"Major_Blood Blister",
+			"Major_DeathPulse",
+			"Major_Drifting Shade",
+			"Major_Empowered Elites (Electric Lance)",
+			"Major_Empowered Elites (Frost)",
+			"Major_Empowered Elites (Poison)",
+			"Major_Empowered Elites (Shadow)",
+			"Major_Empowered Elites (Suppressor)",
+			"Major_Empowered Elites (Teleporter)",
+			"Major_Lightning Storm",
+			"Major_Nightmare Portal",
+			"Major_StormbanesWrath",
+			"Major_Volcanic",
+			"Minor_Monster_AntiCC",
+			"Minor_Monster_AntiCrit",
+			"Minor_Monster_AntiOverpower",
+			"Minor_Monster_AntiVulnerable",
+			"Minor_Monster_AttackBehind",
+			"Minor_Monster_AttackFaster",
+			"Minor_Monster_Barrier",
+			"Minor_Monster_BarrierKiller",
+			"Minor_Monster_ChanceSlow",
+			"Minor_Monster_DrainResource",
+			"Minor_Monster_ExtraBleeding",
+			"Minor_Monster_ExtraBurning",
+			"Minor_Monster_ExtraCold",
+			"Minor_Monster_ExtraCorruption",
+			"Minor_Monster_ExtraFire",
+			"Minor_Monster_ExtraLightning",
+			"Minor_Monster_ExtraPoison",
+			"Minor_Monster_ExtraShadow",
+			"Minor_Monster_HPBonus",
+			"Minor_Monster_HPRegen",
+			"Minor_Monster_LessBleeding",
+			"Minor_Monster_LessBurning",
+			"Minor_Monster_LessCold",
+			"Minor_Monster_LessCorruption",
+			"Minor_Monster_LessFire",
+			"Minor_Monster_LessLightning",
+			"Minor_Monster_LessMelee",
+			"Minor_Monster_LessPhysical",
+			"Minor_Monster_LessPoison",
+			"Minor_Monster_LessRanged",
+			"Minor_Monster_LessShadow",
+			"Minor_Monster_LifeSteal",
+			"Minor_Monster_ReduceDodge",
+			"Minor_Monster_ReduceHealing",
+			"Minor_Monster_ReduceResistance",
+			"Minor_Monster_ReflectNonPhysical",
+			"Minor_Monster_SunderArmor",
+			"Minor_Monster_Unstoppable",
+			"Positive_AttackMoveSpeedOnKill",
+			"Positive_CooldownReductionOnKill",
+			"Positive_DamageReductionForMissingHealth",
+			"Positive_EvadeLeavesPoison",
+			"Positive_EvadePushesEnemies",
+			"Positive_FireDamage",
+			"Positive_FrostDamage",
+			"Positive_GoldFind",
+			"Positive_IncreasedCritChance",
+			"Positive_IncreasedHealing",
+			"Positive_LightningDamage",
+			"Positive_MagicFind",
+			"Positive_PeriodicLightning",
+			"Positive_PhysicalDamage",
+			"Positive_PoisonDamage",
+			"Positive_ShadowDamage",
+			"Positive_StunCausesBurning",
+			"Positive_Thorns",
+			"Power_CAP_Monster_Affix_BonusHealth_BonusDamage_WT2",
+			"Power_CAP_Monster_Affix_BonusHealth_BonusDamage_WT3",
+			"Power_CAP_Monster_Affix_BonusHealth_BonusDamage_WT4",
+			"Proximity Shield",
+			"Trial_AbyssalGrowths",
+			"Trial_DemonicIdol",
+			"Trial_EventMastery",
+			"Trial_NoWipe",
+			"Trial_ProtectNPC",
+			"Trial_TimedRun",
+			"Trial_UniqueSentries",
+			"zzzMinor_Monster_ImmuneCold",
+			"zzzMinor_Monster_ImmuneFire",
+			"zzzMinor_Monster_ImmuneLightning",
+			"zzzMinor_Monster_ImmunePoison",
+			"zzzMinor_Monster_ImmuneShadow",
+			"zzz_Berserking",
+			"zzz_Cold Enhanced",
+			"zzz_Destabilizing",
+			"zzz_Displacer",
+			"zzz_Empowered Elites (Mortar)",
+			"zzz_Empowered Elites (Multishot)",
+			"zzz_Empowered Elites (Summoner)",
+			"zzz_Enraging",
+			"zzz_Fire Enhanced",
+			"zzz_Frozen Pulse",
+			"zzz_Haste",
+			"zzz_Infested",
+			"zzz_Lightning Enhanced",
+			"zzz_Minor_Monster_LessAOE",
+			"zzz_Minor_Monster_ReflectPhysical",
+			"zzz_Physical Enhanced",
+			"zzz_Poison Enhanced",
+			"zzz_Poison Pool",
+			"zzz_Positive_BarrierWhenOutOfCombat",
+			"zzz_Positive_CCReduction",
+			"zzz_Positive_FireResistance",
+			"zzz_Positive_FrostResistance",
+			"zzz_Positive_LightningResistance",
+			"zzz_Positive_PhysicalResistance",
+			"zzz_Positive_PoisonResistance",
+			"zzz_Positive_ShadowResistance",
+			"zzz_Rampart",
+			"zzz_Resource Drain",
+			"zzz_Resurrect Limit",
+			"zzz_Wild Regeneration"
+		],
 		"Legendary": {
 			"Legendary_Generic_110": {
 				"desc": "Critical Strikes with {c_important}Core{/c} Skills increase your Attack Speed by {c_random}[Affix_Value_1|%+|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -8871,7 +9011,7 @@
 			"TIP019": "You are {c_highlight}Fortified{/c} and take reduced damage as long as you have more Fortify than current Life. Certain Skills or item effects can grant Fortify, which cannot exceed your Maximum Life.",
 			"TIP020": "The {c_highlight}Tether{/c} status effect prevents enemies from walking out from inside of its radius. It can be removed through Unstoppable or Immune effects OR by destroying the target that you are tethered to.",
 			"TIP021": "The {c_highlight}Fear{/c} status effect prevents enemies from moving or taking action AND causes the affected target to run away for a short duration. It can be removed through Unstoppable or Immune effects.",
-			"TIP022": "Joining a party will transfer you to the party leader s world, the state of which is determined by the leader s progress through the Campaign.",
+			"TIP022": "Joining a party will transfer you to the party leader's world, the state of which is determined by the leader's progress through the Campaign.",
 			"TIP023": "Upon reaching Level 15 and completing the {c_important}{u}Legacy of the Magi{/u}{/c} quest, Sorcerers unlock {c_important}{u}Enchantments{/u}{/c}, allowing them to utilize powerful passive versions of their Skills.",
 			"TIP024": "Enemies are considered affected by Rogue {c_important}Traps{/c} when they are within a {c_important}Trap's{/c} persistent area or afflicted with its harmful effects.",
 			"TIP025": "Characters in {c_important}{u}Stealth{/u}{/c} cannot be directly targeted with attacks, however their {c_important}{u}Stealth{/u}{/c} will be broken if they are hit with incidental damage or if they use an attack.",
@@ -8888,7 +9028,7 @@
 			"TIP036": "Necromancers can use the {c_important}{u}Book of the Dead{/u}{/c} to sacrifice the ability to summon their Minions for personal power.",
 			"TIP037": "If all other Skeletons have been summoned, then Raise Skeleton will instead summon a {c_important}{u}Skeletal Priest{/u}{/c} who will temporarily buff all nearby Minions.",
 			"TIP038": "Druids {c_important}{u}Shapeshift{/u}{/c} when they change into a different form, which can often grant them additional bonuses.",
-			"TIP039": "Upon reaching Level 15 as a Druid, Druidic Spirit Offerings will begin dropping from enemies, which you can turn in at {c_important}{u}T r D lra{/u}{/c} to increase your power.",
+			"TIP039": "Upon reaching Level 15 as a Druid, Druidic Spirit Offerings will begin dropping from enemies, which you can turn in at {c_important}{u}Túr Dúlra{/u}{/c} to increase your power.",
 			"TIP040": "The Barbarian carries an entire {c_important}{u}Arsenal{/u}{/c} consisting of 4 weapons with them at all times. Which weapon you use for a Skill can be chosen while the Skill is assigned to your hotbar.",
 			"TIP041": "Upon reaching Level 5 as a Barbarian, you will gain {c_important}{u}Expertise{/u}{/c} with the weapon type you are using.  This grants you bonuses for every attack using that weapon type.",
 			"TIP042": "The more a Barbarian uses a particular weapon type, the more benefit they will gain from their {c_important}{u}Expertise{/u}{/c}.",
@@ -9946,15 +10086,6 @@
 					"FloatRandomRangeWithInterval(10, 60, 100)"
 				]
 			},
-			"2HSword_Unique_Generic_001_CoreStats_All": {
-				"name": "(BUG ME) FOR UNIQUE ONLY"
-			},
-			"2HSword_Unique_Generic_001_Damage": {
-				"name": "(BUG ME) FOR UNIQUE ONLY"
-			},
-			"2HSword_Unique_Generic_001_Health": {
-				"name": "(Bug Me) FOR UNIQUE ONLY"
-			},
 			"Amulet_Unique_Generic_100": {
 				"desc": "Gain {c_number}[Affix.\"Static Value 0\"|~%|]{/c} Maximum Resource. In addition, when you take damage, drain {c_random}[Affix_Value_1|1|]{/c} Resource for every {c_number}[Affix.\"Static Value 1\"|%|]{/c} of Life you would have lost instead.",
 				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig",
@@ -10939,7 +11070,8 @@
 				"power": {
 					"power_mod_id": 3,
 					"power_name": "Necromancer_Reap",
-					"skill_desc": "If an enemy hit by {c_important}Reap{/c} dies within {c_number}{SF_4}{/c} seconds, you gain {c_number}[{SF_5} * 100|%+|]{/c} Attack Speed for {c_number}{SF_15}{/c} seconds."
+					"skill_desc": "If an enemy hit by {c_important}Reap{/c} dies within {c_number}{SF_4}{/c} seconds, you gain {c_number}[{SF_5} * 100|%+|]{/c} Attack Speed for {c_number}{SF_15}{/c} seconds.",
+					"skill_name": "Enhanced Reap"
 				},
 				"req_points": 0,
 				"reward": {
@@ -12354,7 +12486,8 @@
 				"power": {
 					"power_mod_id": 0,
 					"power_name": "Necromancer_BoneSplinters",
-					"skill_desc": "Hitting the same enemy at least {c_number}{SF_20}{/c} times with the same cast of {c_important}Bone Splinters{/c} grants {c_number}[{SF_21} * 100|%+|]{/c} Critical Strike Chance for {c_number}{SF_22}{/c} seconds."
+					"skill_desc": "Hitting the same enemy at least {c_number}{SF_20}{/c} times with the same cast of {c_important}Bone Splinters{/c} grants {c_number}[{SF_21} * 100|%+|]{/c} Critical Strike Chance for {c_number}{SF_22}{/c} seconds.",
+					"skill_name": "Acolyte's Bone Splinters"
 				},
 				"req_points": 0,
 				"reward": {
@@ -21223,7 +21356,8 @@
 				"power": {
 					"power_mod_id": 1,
 					"power_name": "Sorcerer_LightningSpear",
-					"skill_desc": "Collecting {c_important}{u}Crackling Energy{/u}{/c} increases the damage of your next {c_important}Lightning Spear{/c} cast by {c_number}[{SF_9} * 100|%x|]{/c}, up to {c_number}[{SF_9} * {SF_13} * 100|%x|]{/c}."
+					"skill_desc": "Collecting {c_important}{u}Crackling Energy{/u}{/c} increases the damage of your next {c_important}Lightning Spear{/c} cast by {c_number}[{SF_9} * 100|%x|]{/c}, up to {c_number}[{SF_9} * {SF_13} * 100|%x|]{/c}.",
+					"skill_name": "Summoned Lightning Spear"
 				},
 				"req_points": 0,
 				"reward": {
@@ -21572,7 +21706,8 @@
 				"power": {
 					"power_mod_id": 5,
 					"power_name": "Sorcerer_Hydra",
-					"skill_desc": "After you Critically Strike, your {c_important}Hydras{/c} gain {c_number}[{SF_13}*100|%+|]{/c} Critical Strike Chance for {c_number}{buffduration:MOD_CRIT_CHANCE_BONUS}{/c} seconds."
+					"skill_desc": "After you Critically Strike, your {c_important}Hydras{/c} gain {c_number}[{SF_13}*100|%+|]{/c} Critical Strike Chance for {c_number}{buffduration:MOD_CRIT_CHANCE_BONUS}{/c} seconds.",
+					"skill_name": "Invoked Hydra"
 				},
 				"req_points": 0,
 				"reward": {

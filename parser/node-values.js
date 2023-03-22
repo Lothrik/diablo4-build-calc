@@ -1210,12 +1210,12 @@ let nodeValues = {
 				"20",
 				"2"
 			],
-			"Necro_Mod_Reap_03": [
+			"Enhanced Reap": [
 				"",
 				"",
 				""
 			],
-			"Necro_Mod_BoneSplinters_01": [
+			"Acolyte's Bone Splinters": [
 				"",
 				"",
 				""
