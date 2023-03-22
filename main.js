@@ -162,13 +162,13 @@ const tooltipScalingCeiling = 1;
 
 const fontFamily = $("body").css("fontFamily");
 const fontFamilyOverride = fontFamily.includes("Homenaje") ? fontFamily : "Homenaje, " + fontFamily;
-const textColor = Number(rgba2hex($("body").css("color")));
-const backgroundColorHEX = rgba2hex($("#header").css("background-color"));
-const backgroundColor = backgroundColorHEX.length == 8 ? Number(backgroundColorHEX) : backgroundColorHEX >>> 8;
-const backgroundOpacity = backgroundColorHEX.length == 8 ? 1 : (backgroundColorHEX & 0xFF) / 255;
-const borderColorHEX = rgba2hex($("#header").css("border-color"));
-const borderColor = borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
-const borderOpacity = borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
+const textColor = 0xFFFFFF;//Number(rgba2hex($("body").css("color")));
+//const backgroundColorHEX = rgba2hex($("#header").css("background-color"));
+const backgroundColor = 0;//backgroundColorHEX.length == 8 ? Number(backgroundColorHEX) : backgroundColorHEX >>> 8;
+const backgroundOpacity = 0.8;//backgroundColorHEX.length == 8 ? 1 : (backgroundColorHEX & 0xFF) / 255;
+//const borderColorHEX = rgba2hex($("#header").css("border-color"));
+const borderColor = 0xFFFFFF;//borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
+const borderOpacity = 1;//borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
 const activeColorDefault = "ff0000";
 var activeConnectorColor = Number("0x" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
 var activeNodeColor = Number("0x" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
@@ -1070,7 +1070,7 @@ function redrawAllNodes(idleMode = false) {
 	}
 }
 function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (newRenderScale >= 0.6 ? 4 : newRenderScale >= 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 2 ? 1 : (newRenderScale >= 0.45 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
 
 	let node = null;
 	if (pixiNodes.length > nodeIndex) {
@@ -1730,7 +1730,7 @@ function drawAllNodes() {
 function drawTooltip(curNode, forceDraw) {
 	const clampScale = stageScale < tooltipScalingFloor ? tooltipScalingFloor / stageScale : stageScale > tooltipScalingCeiling ? tooltipScalingCeiling / stageScale : 1;
 	const clampRenderScale = stageScale * clampScale;
-	const scaleFactor = PIXI.settings.RESOLUTION >= 4 ? 1 : (clampRenderScale >= 0.6 ? 4 : clampRenderScale >= 0.5 ? 2 : 1) / PIXI.settings.RESOLUTION * clampRenderScale;
+	const scaleFactor = PIXI.settings.RESOLUTION >= 2 ? 1 : (clampRenderScale >= 0.45 ? 2 : 1) / PIXI.settings.RESOLUTION * clampRenderScale;
 
 	// skip tooltip redraw if we already have the correct one displayed
 	if (!forceDraw && !debugMode && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.scaleFactor == scaleFactor) return;
