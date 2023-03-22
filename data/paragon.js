@@ -4232,102 +4232,139 @@ let paragonData = {
 		"Node": {
 			"Barbarian_Legendary_002": {
 				"name": "Hemorrhage",
-				"description": "Enemies that have been affected by your Bleeding for {#} or more seconds take x{#}% increased damage from you."
+				"description": "Enemies that have been affected by your Bleeding for {#} or more seconds take x{#}% increased damage from you.\n\nStats: Unknown, Damage"
 			},
 			"Barbarian_Legendary_004": {
 				"name": "Blood Rage",
-				"description": "Killing a Bleeding enemy has {#}% chance to grant Berserking for {#} seconds."
+				"description": "Killing a Bleeding enemy has {#}% chance to grant Berserking for {#} seconds.\n\nStats: BleedingDamage, BerserkDamage"
 			},
 			"Barbarian_Legendary_005": {
 				"name": "Natural Leader",
-				"description": "Increases the power of your Shout Skills by {#}%."
+				"description": "Increases the power of your Shout Skills by {#}%.\n\nStats: Unknown"
 			},
 			"Barbarian_Legendary_009": {
 				"name": "Carnage",
-				"description": "While Berserking, Critical Strikes increase your Attack Speed by +{#}%, up to +{#}%, for {#} seconds."
+				"description": "While Berserking, Critical Strikes increase your Attack Speed by +{#}%, up to +{#}%, for {#} seconds.\n\nStats: BerserkDamage, CritDamage, AttackSpeed"
 			},
 			"Barbarian_Legendary_011": {
 				"name": "Warbinger",
-				"description": "For every {#} Fury you spend, gain {#}% of your Maximum Life ({#}) as Fortify."
+				"description": "For every {#} Fury you spend, gain {#}% of your Maximum Life ({#}) as Fortify.\n\nStats: Unknown, DamageWhileFortified"
 			},
 			"Barbarian_Legendary_014": {
 				"name": "Decimator",
-				"description": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a {#}% chance to make enemies Vulnerable for {#} seconds."
+				"description": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a {#}% chance to make enemies Vulnerable for {#} seconds.\n\nStats: VulnerableDamage, Unknown, Unknown, Unknown"
 			},
 			"Barbarian_Legendary_015": {
 				"name": "Bone Breaker",
-				"description": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} seconds and grant you {#}% of your Maximum Life ({#}) as Fortify."
+				"description": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} seconds and grant you {#}% of your Maximum Life ({#}) as Fortify.\n\nStats: DamageToCCed, DamageWhileFortified, Unknown, Unknown"
 			},
 			"Barbarian_Legendary_016": {
 				"name": "Flawless Technique",
-				"description": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x{#}% for {#} seconds, up to x{#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind."
+				"description": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x{#}% for {#} seconds, up to x{#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.\n\nStats: CritDamage, Unknown"
 			},
 			"Barbarian_Legendary_017": {
 				"name": "Weapons Master",
-				"description": "Swapping weapons grants you {#} Fury."
+				"description": "Swapping weapons grants you {#} Fury.\n\nStats: Unknown"
+			},
+			"Barbarian_Magic_BerserkDamage": {
+				"name": "Berserk Damage",
+				"description": "Stats: BerserkDamage, Damage"
+			},
+			"Barbarian_Magic_BerserkDuration": {
+				"name": "Berserk Duration",
+				"description": "Stats: BerserkDamage"
+			},
+			"Barbarian_Magic_Fury": {
+				"name": "Fury",
+				"description": "Stats: Unknown"
+			},
+			"Barbarian_Magic_FuryOnKill": {
+				"name": "Fury On Kill",
+				"description": "Stats: Unknown"
 			},
 			"Barbarian_Rare_001": {
-				"name": "Iron Strength"
+				"name": "Iron Strength",
+				"description": "Stats: Unknown, Armor, Strength"
 			},
 			"Barbarian_Rare_003": {
-				"name": "Berserker"
+				"name": "Berserker",
+				"description": "Stats: BerserkDamage, EliteDamage, Damage"
 			},
 			"Barbarian_Rare_004": {
-				"name": "Flayer"
+				"name": "Flayer",
+				"description": "Stats: Unknown, BleedingDamage, Damage"
 			},
 			"Barbarian_Rare_005": {
-				"name": "Butcher"
+				"name": "Butcher",
+				"description": "Stats: BleedingDamage, Damage, Strength"
 			},
 			"Barbarian_Rare_006": {
-				"name": "Lacerator"
+				"name": "Lacerator",
+				"description": "Stats: BleedingDamage, PhysicalDamage, Damage"
 			},
 			"Barbarian_Rare_008": {
-				"name": "Bludgeoner"
+				"name": "Bludgeoner",
+				"description": "Stats: OverpowerDamage, Damage, Unknown, Unknown"
 			},
 			"Barbarian_Rare_009": {
-				"name": "Vigor"
+				"name": "Vigor",
+				"description": "Stats: DamageHealthy, DamageReductionLinkedStat, Strength"
 			},
 			"Barbarian_Rare_010": {
-				"name": "Cold Conditioned"
+				"name": "Cold Conditioned",
+				"description": "Stats: Unknown, ResistanceLinkedStat, Armor"
 			},
 			"Barbarian_Rare_015": {
-				"name": "Tenacity"
+				"name": "Tenacity",
+				"description": "Stats: Unknown, Unknown, MaxHealthPercent, Armor"
 			},
 			"Barbarian_Rare_016": {
-				"name": "Grit"
+				"name": "Grit",
+				"description": "Stats: BleedingDamage, DamageReductionLinkedStat, Strength"
 			},
 			"Barbarian_Rare_018": {
-				"name": "Conditioned"
+				"name": "Conditioned",
+				"description": "Stats: Unknown, ResistanceLinkedStat, Strength, NonPhysicalDamage"
 			},
 			"Barbarian_Rare_019": {
-				"name": "Fire Conditioned"
+				"name": "Fire Conditioned",
+				"description": "Stats: ResistanceLinkedStat, Armor, Unknown"
 			},
 			"Barbarian_Rare_020": {
-				"name": "Hungering Fury"
+				"name": "Hungering Fury",
+				"description": "Stats: Unknown, Unknown"
 			},
 			"Barbarian_Rare_021": {
-				"name": "Lightning Conditioned"
+				"name": "Lightning Conditioned",
+				"description": "Stats: ResistanceLinkedStat, LightningDamage, Armor"
 			},
 			"Barbarian_Rare_022": {
-				"name": "Brawn"
+				"name": "Brawn",
+				"description": "Stats: PhysicalDamage, Damage, MaxHealthPercent"
 			},
 			"Barbarian_Rare_023": {
-				"name": "Fierce"
+				"name": "Fierce",
+				"description": "Stats: BerserkDamage, Damage, Strength"
 			},
 			"Barbarian_Rare_024": {
-				"name": "Heavy Blows"
+				"name": "Heavy Blows",
+				"description": "Stats: CritDamage, Damage, Strength, Unknown"
 			},
 			"Barbarian_Rare_025": {
-				"name": "Wild Force"
+				"name": "Wild Force",
+				"description": "Stats: Damage, AttackSpeed, Unknown"
 			},
 			"Barbarian_Rare_026": {
-				"name": "Poison Conditioned"
+				"name": "Poison Conditioned",
+				"description": "Stats: Unknown, ResistanceLinkedStat, Armor, PoisonDamage"
 			},
 			"Barbarian_Rare_030": {
-				"name": "Destroyer"
+				"name": "Destroyer",
+				"description": "Stats: Damage, VulnerableDamage, Unknown, Unknown"
 			},
 			"Barbarian_Rare_032": {
-				"name": "Enraged"
+				"name": "Enraged",
+				"description": "Stats: Unknown, BerserkDamage, Damage"
 			},
 			"StartNodeBarb": {
 				"name": "Paragon Starting Node"
@@ -8567,95 +8604,163 @@ let paragonData = {
 		"Node": {
 			"Druid_Legendary_003": {
 				"name": "Thunderstruck",
-				"description": "Storm Skills deal x{#}% increased Critical Strike Damage against Vulnerable or Immobilized enemies."
+				"description": "Storm Skills deal x{#}% increased Critical Strike Damage against Vulnerable or Immobilized enemies.\n\nStats: VulnerableDamage, DamageToCCed, CritDamage, Damage"
 			},
 			"Druid_Legendary_006": {
 				"name": "Earthen Devastation",
-				"description": "Your Earth Skills deal x{#}% increased damage to enemies afflicted by Crowd Control."
+				"description": "Your Earth Skills deal x{#}% increased damage to enemies afflicted by Crowd Control.\n\nStats: Unknown, DamageToCCed, Damage"
 			},
 			"Druid_Legendary_007": {
 				"name": "Survival Instincts",
-				"description": "While in Werebear form, you deal x{#}% increased damage, up to x{#}%, for every {#}% difference in current Life percent between you and the enemy."
+				"description": "While in Werebear form, you deal x{#}% increased damage, up to x{#}%, for every {#}% difference in current Life percent between you and the enemy.\n\nStats: WerebearFormDamage, Damage, MaxHealthPercent"
 			},
 			"Druid_Legendary_010": {
 				"name": "Lust for Carnage",
-				"description": "Critical Strikes with Werewolf Skills restore {#} Spirit."
+				"description": "Critical Strikes with Werewolf Skills restore {#} Spirit.\n\nStats: Damage, CritDamage, Unknown"
 			},
 			"Druid_Legendary_012": {
 				"name": "Heightened Malice",
-				"description": "While there are {#} or more Poisoned enemies Nearby, you deal x{#}% increased damage."
+				"description": "While there are {#} or more Poisoned enemies Nearby, you deal x{#}% increased damage.\n\nStats: PoisonDamage, Damage"
 			},
 			"Druid_Legendary_013": {
 				"name": "Inner Beast",
-				"description": "After shapeshifting, your Spirit costs are reduced by {#}% for {#} seconds, up to {#}%."
+				"description": "After shapeshifting, your Spirit costs are reduced by {#}% for {#} seconds, up to {#}%.\n\nStats: Unknown, Unknown"
 			},
 			"Druid_Legendary_017": {
 				"name": "Constricting Tendrils",
-				"description": "Lucky Hit: Nature Magic Skills have up to a {#}% chance to entangle the enemy with vines, Immobilizing them for {#} seconds and Poisoning them for {#}% of the Base damage dealt over {#} seconds."
+				"description": "Lucky Hit: Nature Magic Skills have up to a {#}% chance to entangle the enemy with vines, Immobilizing them for {#} seconds and Poisoning them for {#}% of the Base damage dealt over {#} seconds.\n\nStats: PoisonDamage, DamageToCCed, Unknown, Damage"
 			},
 			"Druid_Legendary_018": {
 				"name": "Ancestral Guidance",
-				"description": "After spending {#} Spirit, you deal x{#}% increased damage for {#} seconds."
+				"description": "After spending {#} Spirit, you deal x{#}% increased damage for {#} seconds.\n\nStats: Unknown, Damage"
+			},
+			"Druid_Magic_CriticalDamageEarth": {
+				"name": "Critical Damage Earth",
+				"description": "Stats: Unknown, CritDamage, Damage"
+			},
+			"Druid_Magic_DamageBasic": {
+				"name": "Damage Basic",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Druid_Magic_DamageBear": {
+				"name": "Damage Bear",
+				"description": "Stats: WerebearFormDamage, Damage"
+			},
+			"Druid_Magic_DamageCore": {
+				"name": "Damage Core",
+				"description": "Stats: CritDamage, Damage"
+			},
+			"Druid_Magic_DamageEarth": {
+				"name": "Damage Earth",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Druid_Magic_DamageNature": {
+				"name": "Damage Nature",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Druid_Magic_DamageShapeshifting": {
+				"name": "Damage Shapeshifting",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Druid_Magic_DamageStorm": {
+				"name": "Damage Storm",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Druid_Magic_DamageWhileBear": {
+				"name": "Damage While Bear",
+				"description": "Stats: WerebearFormDamage, Damage"
+			},
+			"Druid_Magic_DamageWolf": {
+				"name": "Damage Wolf",
+				"description": "Stats: Damage, Damage"
+			},
+			"Druid_Magic_Spirit": {
+				"name": "Spirit",
+				"description": "Stats: Unknown"
+			},
+			"Druid_Magic_SpiritOnKill": {
+				"name": "Spirit On Kill",
+				"description": "Stats: Unknown"
 			},
 			"Druid_Rare_003": {
-				"name": "Stormcaller"
+				"name": "Stormcaller",
+				"description": "Stats: Unknown, Damage, Willpower"
 			},
 			"Druid_Rare_004": {
-				"name": "Nature-born"
+				"name": "Nature-born",
+				"description": "Stats: PoisonDamage, DamageReductionLinkedStat, Willpower"
 			},
 			"Druid_Rare_005": {
-				"name": "Toxic Bane"
+				"name": "Toxic Bane",
+				"description": "Stats: Unknown, PoisonDamage, Damage"
 			},
 			"Druid_Rare_006": {
-				"name": "Primal Instinct"
+				"name": "Primal Instinct",
+				"description": "Stats: Unknown, Unknown, DamageWhileFortified, Damage"
 			},
 			"Druid_Rare_008": {
-				"name": "Crushing Earth"
+				"name": "Crushing Earth",
+				"description": "Stats: Unknown, DamageToCCed, Damage, CritDamage"
 			},
 			"Druid_Rare_009": {
-				"name": "Earthen Power"
+				"name": "Earthen Power",
+				"description": "Stats: CritDamage, Damage, Unknown, Willpower"
 			},
 			"Druid_Rare_010": {
-				"name": "Nature's Will"
+				"name": "Nature's Will",
+				"description": "Stats: Unknown, Damage, Willpower"
 			},
 			"Druid_Rare_012": {
-				"name": "Devastation"
+				"name": "Devastation",
+				"description": "Stats: Unknown, Damage, EliteDamage"
 			},
 			"Druid_Rare_013": {
-				"name": "Spiritual Power"
+				"name": "Spiritual Power",
+				"description": "Stats: CritDamage, Damage, Unknown"
 			},
 			"Druid_Rare_014": {
-				"name": "Grizzly"
+				"name": "Grizzly",
+				"description": "Stats: WerebearFormDamage, Damage, Willpower"
 			},
 			"Druid_Rare_015": {
-				"name": "Natural Attunement"
+				"name": "Natural Attunement",
+				"description": "Stats: Unknown, MaxHealthPercent, Unknown"
 			},
 			"Druid_Rare_017": {
-				"name": "Reclamation"
+				"name": "Reclamation",
+				"description": "Stats: Unknown, Unknown"
 			},
 			"Druid_Rare_018": {
-				"name": "Sinking Fangs"
+				"name": "Sinking Fangs",
+				"description": "Stats: PoisonDamage, Damage, Willpower"
 			},
 			"Druid_Rare_019": {
-				"name": "Shapeshifter"
+				"name": "Shapeshifter",
+				"description": "Stats: Unknown, Damage, Willpower"
 			},
 			"Druid_Rare_020": {
-				"name": "Deluge"
+				"name": "Deluge",
+				"description": "Stats: CritDamage, Damage, DamageToCCed"
 			},
 			"Druid_Rare_022": {
-				"name": "Ferocity"
+				"name": "Ferocity",
+				"description": "Stats: Damage, Damage, CritDamage"
 			},
 			"Druid_Rare_024": {
-				"name": "Wild's Call"
+				"name": "Wild's Call",
+				"description": "Stats: Unknown, AttackSpeed, Unknown"
 			},
 			"Druid_Rare_026": {
-				"name": "Ursine"
+				"name": "Ursine",
+				"description": "Stats: WerebearFormDamage, Damage, OverpowerDamage"
 			},
 			"Druid_Rare_027": {
-				"name": "Battleworn Hide"
+				"name": "Battleworn Hide",
+				"description": "Stats: Armor, WerebearFormDamage, Willpower"
 			},
 			"Druid_Rare_030": {
-				"name": "Harmony"
+				"name": "Harmony",
+				"description": "Stats: CritDamage, Willpower, Damage"
 			},
 			"StartNodeDruid": {
 				"name": "Paragon Starting Node"
@@ -8665,262 +8770,648 @@ let paragonData = {
 	"Generic": {
 		"Node": {
 			"Generic_Gate": {
-				"name": "Board Attachment Gate"
+				"name": "Board Attachment Gate",
+				"description": "Stats: Strength, Intelligence, Willpower, Dexterity"
+			},
+			"Generic_Magic_Armor": {
+				"name": "Armor",
+				"description": "Stats: Armor"
+			},
+			"Generic_Magic_ArmorWhileBear": {
+				"name": "Armor While Bear",
+				"description": "Stats: Armor, WerebearFormDamage"
+			},
+			"Generic_Magic_AttackSpeed": {
+				"name": "Attack Speed",
+				"description": "Stats: AttackSpeed"
+			},
+			"Generic_Magic_BonusFortify": {
+				"name": "Bonus Fortify",
+				"description": "Stats: DamageWhileFortified"
+			},
+			"Generic_Magic_CCDurationReduction": {
+				"name": "CC Duration Reduction",
+				"description": "Stats: DamageToCCed"
+			},
+			"Generic_Magic_Chill": {
+				"name": "Chill",
+				"description": "Stats: DamageToChilled, DamageToCCed"
+			},
+			"Generic_Magic_CriticalDamage": {
+				"name": "Critical Damage",
+				"description": "Stats: CritDamage, Damage"
+			},
+			"Generic_Magic_CriticalDamage1H": {
+				"name": "Critical Damage1H",
+				"description": "Stats: CritDamage, Damage, Unknown"
+			},
+			"Generic_Magic_CriticalDamageToCC": {
+				"name": "Critical Damage To CC",
+				"description": "Stats: CritDamage, Damage, DamageToCCed"
+			},
+			"Generic_Magic_Damage": {
+				"name": "Damage",
+				"description": "Stats: Damage"
+			},
+			"Generic_Magic_Damage1H": {
+				"name": "Damage1H",
+				"description": "Stats: Damage, Unknown"
+			},
+			"Generic_Magic_Damage2HBludgeoning": {
+				"name": "Damage2H Bludgeoning",
+				"description": "Stats: Damage, Unknown, Unknown"
+			},
+			"Generic_Magic_Damage2HSlashing": {
+				"name": "Damage2H Slashing",
+				"description": "Stats: Damage, Unknown, Unknown"
+			},
+			"Generic_Magic_DamageAfterDodge": {
+				"name": "Damage After Dodge",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Generic_Magic_DamageBleed": {
+				"name": "Damage Bleed",
+				"description": "Stats: BleedingDamage, Damage"
+			},
+			"Generic_Magic_DamageBurn": {
+				"name": "Damage Burn",
+				"description": "Stats: BurningDamage, Damage"
+			},
+			"Generic_Magic_DamageCold": {
+				"name": "Damage Cold",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Generic_Magic_DamageConjuration": {
+				"name": "Damage Conjuration",
+				"description": "Stats: Damage, ConjurationDamage"
+			},
+			"Generic_Magic_DamageElemental": {
+				"name": "Damage Elemental",
+				"description": "Stats: NonPhysicalDamage, Damage"
+			},
+			"Generic_Magic_DamageFire": {
+				"name": "Damage Fire",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Generic_Magic_DamageLightning": {
+				"name": "Damage Lightning",
+				"description": "Stats: LightningDamage, Damage"
+			},
+			"Generic_Magic_DamagePhysical": {
+				"name": "Damage Physical",
+				"description": "Stats: PhysicalDamage, Damage"
+			},
+			"Generic_Magic_DamagePoison": {
+				"name": "Damage Poison",
+				"description": "Stats: PoisonDamage, Damage"
+			},
+			"Generic_Magic_DamageReductionFromBleedingTarget": {
+				"name": "Damage Reduction From Bleeding Target",
+				"description": "Stats: BleedingDamage, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromBurningTarget": {
+				"name": "Damage Reduction From Burning Target",
+				"description": "Stats: BurningDamage, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromChilledTarget": {
+				"name": "Damage Reduction From Chilled Target",
+				"description": "Stats: DamageToChilled, DamageReductionLinkedStat, DamageToCCed"
+			},
+			"Generic_Magic_DamageReductionFromDot": {
+				"name": "Damage Reduction From Dot",
+				"description": "Stats: DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromElite": {
+				"name": "Damage Reduction From Elite",
+				"description": "Stats: EliteDamage, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromFar": {
+				"name": "Damage Reduction From Far",
+				"description": "Stats: DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromNear": {
+				"name": "Damage Reduction From Near",
+				"description": "Stats: DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromPoisonedTarget": {
+				"name": "Damage Reduction From Poisoned Target",
+				"description": "Stats: PoisonDamage, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromShadowDoTed": {
+				"name": "Damage Reduction From Shadow Do Ted",
+				"description": "Stats: ShadowDoTDamage, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromSlowedTarget": {
+				"name": "Damage Reduction From Slowed Target",
+				"description": "Stats: DamageToCCed, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionFromVulnerable": {
+				"name": "Damage Reduction From Vulnerable",
+				"description": "Stats: VulnerableDamage, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionWhileFortified": {
+				"name": "Damage Reduction While Fortified",
+				"description": "Stats: DamageWhileFortified, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageReductionWhileHealthy": {
+				"name": "Damage Reduction While Healthy",
+				"description": "Stats: DamageHealthy, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_DamageShadow": {
+				"name": "Damage Shadow",
+				"description": "Stats: ShadowDamage, Damage"
+			},
+			"Generic_Magic_DamageShadowDoT": {
+				"name": "Damage Shadow Do T",
+				"description": "Stats: ShadowDoTDamage, Damage"
+			},
+			"Generic_Magic_DamageToBleed": {
+				"name": "Damage To Bleed",
+				"description": "Stats: BleedingDamage, Damage"
+			},
+			"Generic_Magic_DamageToBurning": {
+				"name": "Damage To Burning",
+				"description": "Stats: BurningDamage, Damage"
+			},
+			"Generic_Magic_DamageToCC": {
+				"name": "Damage To CC",
+				"description": "Stats: DamageToCCed, Damage"
+			},
+			"Generic_Magic_DamageToChill": {
+				"name": "Damage To Chill",
+				"description": "Stats: DamageToChilled, Damage, DamageToCCed"
+			},
+			"Generic_Magic_DamageToElite": {
+				"name": "Damage To Elite",
+				"description": "Stats: EliteDamage, Damage"
+			},
+			"Generic_Magic_DamageToFar": {
+				"name": "Damage To Far",
+				"description": "Stats: Damage"
+			},
+			"Generic_Magic_DamageToHigh": {
+				"name": "Damage To High",
+				"description": "Stats: DamageHealthy, Damage"
+			},
+			"Generic_Magic_DamageToLow": {
+				"name": "Damage To Low",
+				"description": "Stats: DamageInjured, Damage"
+			},
+			"Generic_Magic_DamageToNear": {
+				"name": "Damage To Near",
+				"description": "Stats: Damage"
+			},
+			"Generic_Magic_DamageToPoison": {
+				"name": "Damage To Poison",
+				"description": "Stats: PoisonDamage, Damage"
+			},
+			"Generic_Magic_DamageToShadowDoTed": {
+				"name": "Damage To Shadow Do Ted",
+				"description": "Stats: ShadowDoTDamage, Damage"
+			},
+			"Generic_Magic_DamageToStun": {
+				"name": "Damage To Stun",
+				"description": "Stats: DamageToCCed, Damage"
+			},
+			"Generic_Magic_DamageToVulnerable": {
+				"name": "Damage To Vulnerable",
+				"description": "Stats: VulnerableDamage, Damage"
+			},
+			"Generic_Magic_DamageWhileFortified": {
+				"name": "Damage While Fortified",
+				"description": "Stats: DamageWhileFortified, Damage"
+			},
+			"Generic_Magic_DamageWhileHealthy": {
+				"name": "Damage While Healthy",
+				"description": "Stats: DamageHealthy, Damage"
 			},
 			"Generic_Magic_Dex": {
-				"name": "Dexterity"
+				"name": "Dexterity",
+				"description": "Stats: Dexterity"
+			},
+			"Generic_Magic_Essence": {
+				"name": "Essence",
+				"description": "Stats: Unknown"
+			},
+			"Generic_Magic_EssenceOnKill": {
+				"name": "Essence On Kill",
+				"description": "Stats: Unknown"
+			},
+			"Generic_Magic_Execute": {
+				"name": "Execute",
+				"description": "Stats: Unknown, DamageInjured, Unknown"
+			},
+			"Generic_Magic_HPPercent": {
+				"name": "HP Percent",
+				"description": "Stats: MaxHealthPercent"
+			},
+			"Generic_Magic_HPRegen": {
+				"name": "HP Regen",
+				"description": "Stats: Unknown, HealingBonus"
+			},
+			"Generic_Magic_HealingBonus": {
+				"name": "Healing Bonus",
+				"description": "Stats: HealingBonus"
 			},
 			"Generic_Magic_Int": {
-				"name": "Intelligence"
+				"name": "Intelligence",
+				"description": "Stats: Intelligence"
+			},
+			"Generic_Magic_LuckyHitBonus": {
+				"name": "Lucky Hit Bonus",
+				"description": "Stats: Unknown"
+			},
+			"Generic_Magic_Mana": {
+				"name": "Mana",
+				"description": "Stats: Unknown"
+			},
+			"Generic_Magic_MinionArmor": {
+				"name": "Minion Armor",
+				"description": "Stats: Armor, MinionLinkedStat"
+			},
+			"Generic_Magic_MinionAttackSpeed": {
+				"name": "Minion Attack Speed",
+				"description": "Stats: MinionLinkedStat, AttackSpeed"
+			},
+			"Generic_Magic_MinionDamage": {
+				"name": "Minion Damage",
+				"description": "Stats: MinionLinkedStat, Damage"
+			},
+			"Generic_Magic_MinionDamageReduction": {
+				"name": "Minion Damage Reduction",
+				"description": "Stats: MinionLinkedStat, DamageReductionLinkedStat"
+			},
+			"Generic_Magic_MinionHP": {
+				"name": "Minion HP",
+				"description": "Stats: MinionLinkedStat, MaxHealthPercent"
+			},
+			"Generic_Magic_MoveSpeedEliteKill": {
+				"name": "Move Speed Elite Kill",
+				"description": "Stats: Unknown, EliteDamage"
+			},
+			"Generic_Magic_OverpowerDamage": {
+				"name": "Overpower Damage",
+				"description": "Stats: OverpowerDamage, Damage"
+			},
+			"Generic_Magic_PotionHealing": {
+				"name": "Potion Healing",
+				"description": "Stats: HealingBonus"
+			},
+			"Generic_Magic_ResistanceAll": {
+				"name": "Resistance All",
+				"description": "Stats: ResistanceLinkedStat, NonPhysicalDamage"
+			},
+			"Generic_Magic_ResistanceCold": {
+				"name": "Resistance Cold",
+				"description": "Stats: ResistanceLinkedStat, Unknown"
+			},
+			"Generic_Magic_ResistanceFire": {
+				"name": "Resistance Fire",
+				"description": "Stats: ResistanceLinkedStat, Unknown"
+			},
+			"Generic_Magic_ResistanceLightning": {
+				"name": "Resistance Lightning",
+				"description": "Stats: LightningDamage, ResistanceLinkedStat"
+			},
+			"Generic_Magic_ResistancePoison": {
+				"name": "Resistance Poison",
+				"description": "Stats: ResistanceLinkedStat, PoisonDamage"
+			},
+			"Generic_Magic_ResistanceShadow": {
+				"name": "Resistance Shadow",
+				"description": "Stats: ResistanceLinkedStat, ShadowDamage"
 			},
 			"Generic_Magic_Str": {
-				"name": "Strength"
+				"name": "Strength",
+				"description": "Stats: Strength"
 			},
 			"Generic_Magic_Will": {
-				"name": "Willpower"
+				"name": "Willpower",
+				"description": "Stats: Willpower"
 			},
 			"Generic_Normal_Dex": {
-				"name": "Dexterity"
+				"name": "Dexterity",
+				"description": "Stats: Dexterity"
 			},
 			"Generic_Normal_Int": {
-				"name": "Intelligence"
+				"name": "Intelligence",
+				"description": "Stats: Intelligence"
 			},
 			"Generic_Normal_Str": {
-				"name": "Strength"
+				"name": "Strength",
+				"description": "Stats: Strength"
 			},
 			"Generic_Normal_Will": {
-				"name": "Willpower"
+				"name": "Willpower",
+				"description": "Stats: Willpower"
 			},
 			"Generic_Rare_001": {
-				"name": "Resilience"
+				"name": "Resilience",
+				"description": "Stats: ResistanceLinkedStat, MaxHealthPercent, NonPhysicalDamage"
 			},
 			"Generic_Rare_002": {
-				"name": "Nimble"
+				"name": "Nimble",
+				"description": "Stats: Unknown, Unknown, AttackSpeed, Damage"
 			},
 			"Generic_Rare_006": {
-				"name": "Fleeting"
+				"name": "Fleeting",
+				"description": "Stats: Unknown, DamageToCCed, DamageReductionLinkedStat"
 			},
 			"Generic_Rare_007": {
-				"name": "Focused"
+				"name": "Focused",
+				"description": "Stats: EliteDamage, Damage, Dexterity"
 			},
 			"Generic_Rare_009": {
-				"name": "Oppress"
+				"name": "Oppress",
+				"description": "Stats: Unknown, DamageToCCed, CritDamage, Damage"
 			},
 			"Generic_Rare_011": {
-				"name": "Spearhead"
+				"name": "Spearhead",
+				"description": "Stats: Unknown, DamageHealthy, Armor, Damage"
 			},
 			"Generic_Rare_012": {
-				"name": "Cold Resilience"
+				"name": "Cold Resilience",
+				"description": "Stats: Unknown, ResistanceLinkedStat, Unknown, MaxHealthPercent"
 			},
 			"Generic_Rare_013": {
-				"name": "Havoc"
+				"name": "Havoc",
+				"description": "Stats: Unknown, CritDamage, PhysicalDamage, Damage"
 			},
 			"Generic_Rare_014": {
-				"name": "Ruin"
+				"name": "Ruin",
+				"description": "Stats: Unknown, CritDamage, DamageHealthy, Damage"
 			},
 			"Generic_Rare_015": {
-				"name": "Stifle"
+				"name": "Stifle",
+				"description": "Stats: DamageInjured, CritDamage, Damage"
 			},
 			"Generic_Rare_016": {
-				"name": "Devious"
+				"name": "Devious",
+				"description": "Stats: DamageToCCed, Damage, Dexterity"
 			},
 			"Generic_Rare_017": {
-				"name": "Feint"
+				"name": "Feint",
+				"description": "Stats: Unknown, Damage, Dexterity"
 			},
 			"Generic_Rare_018": {
-				"name": "Safeguard"
+				"name": "Safeguard",
+				"description": "Stats: Unknown, EliteDamage, DamageReductionLinkedStat, Armor"
 			},
 			"Generic_Rare_019": {
-				"name": "Suffused Resilience"
+				"name": "Suffused Resilience",
+				"description": "Stats: ResistanceLinkedStat, NonPhysicalDamage, DamageReductionLinkedStat"
 			},
 			"Generic_Rare_021": {
-				"name": "Calculated"
+				"name": "Calculated",
+				"description": "Stats: Unknown, DamageToCCed, Damage, Armor"
 			},
 			"Generic_Rare_022": {
-				"name": "Hunter Killer"
+				"name": "Hunter Killer",
+				"description": "Stats: Unknown, EliteDamage, Damage, Unknown"
 			},
 			"Generic_Rare_023": {
-				"name": "Deathbringer"
+				"name": "Deathbringer",
+				"description": "Stats: DamageInjured, Damage, Armor"
 			},
 			"Generic_Rare_025": {
-				"name": "Pillage"
+				"name": "Pillage",
+				"description": "Stats: Unknown, VulnerableDamage, Damage, Armor"
 			},
 			"Generic_Rare_026": {
-				"name": "Inner Strength"
+				"name": "Inner Strength",
+				"description": "Stats: Unknown, DamageWhileFortified, DamageHealthy, Damage"
 			},
 			"Generic_Rare_028": {
-				"name": "Aggression"
+				"name": "Aggression",
+				"description": "Stats: Unknown, Unknown, OverpowerDamage, Damage"
 			},
 			"Generic_Rare_029": {
-				"name": "Elementalist"
+				"name": "Elementalist",
+				"description": "Stats: NonPhysicalDamage, Damage, MaxHealthPercent"
 			},
 			"Generic_Rare_030": {
-				"name": "Culler"
+				"name": "Culler",
+				"description": "Stats: Unknown, AttackSpeed, DamageInjured, Unknown"
 			},
 			"Generic_Rare_031": {
-				"name": "Fire Resilience"
+				"name": "Fire Resilience",
+				"description": "Stats: Unknown, ResistanceLinkedStat, Unknown, MaxHealthPercent"
 			},
 			"Generic_Rare_032": {
-				"name": "Bulwark"
+				"name": "Bulwark",
+				"description": "Stats: Unknown, DamageWhileFortified, DamageReductionLinkedStat"
 			},
 			"Generic_Rare_033": {
-				"name": "Recuperate"
+				"name": "Recuperate",
+				"description": "Stats: Unknown, Unknown, HealingBonus"
 			},
 			"Generic_Rare_034": {
-				"name": "Lightning Resilience"
+				"name": "Lightning Resilience",
+				"description": "Stats: Unknown, ResistanceLinkedStat, LightningDamage, MaxHealthPercent"
 			},
 			"Generic_Rare_035": {
-				"name": "Ruinous"
+				"name": "Ruinous",
+				"description": "Stats: Damage, NonPhysicalDamage, EliteDamage"
 			},
 			"Generic_Rare_036": {
-				"name": "Reservoir"
+				"name": "Reservoir",
+				"description": "Stats: Unknown, Unknown, MaxHealthPercent"
 			},
 			"Generic_Rare_038": {
-				"name": "Core Reserve"
+				"name": "Core Reserve",
+				"description": "Stats: Unknown, Unknown, MaxHealthPercent"
 			},
 			"Generic_Rare_041": {
-				"name": "Poison Resilience"
+				"name": "Poison Resilience",
+				"description": "Stats: Unknown, ResistanceLinkedStat, PoisonDamage, MaxHealthPercent"
 			},
 			"Generic_Rare_042": {
-				"name": "Restorative"
+				"name": "Restorative",
+				"description": "Stats: Unknown, Unknown, HealingBonus, MaxHealthPercent"
 			},
 			"Generic_Rare_044": {
-				"name": "Tempest"
+				"name": "Tempest",
+				"description": "Stats: CritDamage, VulnerableDamage, Damage"
 			},
 			"Generic_Rare_046": {
-				"name": "Shadow Resilience"
+				"name": "Shadow Resilience",
+				"description": "Stats: Unknown, ResistanceLinkedStat, ShadowDamage, MaxHealthPercent"
 			},
 			"Generic_Rare_048": {
-				"name": "Superiority"
+				"name": "Superiority",
+				"description": "Stats: Unknown, MaxHealthPercent, DamageToCCed, Damage"
 			},
 			"Generic_Rare_049": {
-				"name": "Exploit"
+				"name": "Exploit",
+				"description": "Stats: VulnerableDamage, DamageInjured, Damage"
 			},
 			"Generic_Rare_051": {
-				"name": "Skillful"
+				"name": "Skillful",
+				"description": "Stats: Unknown, Dexterity, Damage"
 			},
 			"Generic_Rare_052": {
-				"name": "Reinvigorate"
+				"name": "Reinvigorate",
+				"description": "Stats: Unknown, Unknown"
 			},
 			"Generic_Rare_054": {
-				"name": "Erudite"
+				"name": "Erudite",
+				"description": "Stats: NonPhysicalDamage, ResistanceLinkedStat, Intelligence"
 			},
 			"Generic_Rare_057": {
-				"name": "Craving"
+				"name": "Craving",
+				"description": "Stats: BleedingDamage, EliteDamage, Damage"
 			},
 			"Generic_Rare_058": {
-				"name": "Revel"
+				"name": "Revel",
+				"description": "Stats: BleedingDamage, Damage, Strength"
 			},
 			"Generic_Rare_059": {
-				"name": "Brash"
+				"name": "Brash",
+				"description": "Stats: Unknown, DamageReductionLinkedStat, Strength"
 			},
 			"Generic_Rare_060": {
-				"name": "Brute"
+				"name": "Brute",
+				"description": "Stats: PhysicalDamage, Damage, AttackSpeed"
 			},
 			"Generic_Rare_061": {
-				"name": "Determination"
+				"name": "Determination",
+				"description": "Stats: Unknown, Armor, Willpower"
 			},
 			"Generic_Rare_064": {
-				"name": "Lawless"
+				"name": "Lawless",
+				"description": "Stats: Unknown, Armor, Dexterity"
 			},
 			"Generic_Rare_065": {
-				"name": "Discerning"
+				"name": "Discerning",
+				"description": "Stats: EliteDamage, Unknown, Damage"
 			},
 			"Generic_Rare_066": {
-				"name": "Raw Power"
+				"name": "Raw Power",
+				"description": "Stats: PhysicalDamage, Damage, Strength"
 			},
 			"Generic_Rare_067": {
-				"name": "Slayer"
+				"name": "Slayer",
+				"description": "Stats: Unknown, Unknown, HealingBonus, Armor"
 			},
 			"Generic_Rare_068": {
-				"name": "Wiles"
+				"name": "Wiles",
+				"description": "Stats: DamageToCCed, DamageReductionLinkedStat, Dexterity"
 			},
 			"Generic_Rare_069": {
-				"name": "Arrogance"
+				"name": "Arrogance",
+				"description": "Stats: VulnerableDamage, DamageReductionLinkedStat, Strength"
 			},
 			"Generic_Rare_070": {
-				"name": "Demolish"
+				"name": "Demolish",
+				"description": "Stats: VulnerableDamage, Damage, Strength"
 			},
 			"Generic_Rare_071": {
-				"name": "Powerhouse"
+				"name": "Powerhouse",
+				"description": "Stats: DamageHealthy, OverpowerDamage, Damage"
 			},
 			"Generic_Rare_072": {
-				"name": "Brutality"
+				"name": "Brutality",
+				"description": "Stats: OverpowerDamage, Damage, Strength"
 			},
 			"Generic_Rare_073": {
-				"name": "Impel"
+				"name": "Impel",
+				"description": "Stats: Unknown, Damage, Willpower"
 			},
 			"Generic_Rare_074": {
-				"name": "Resolve"
+				"name": "Resolve",
+				"description": "Stats: ResistanceLinkedStat, Willpower, NonPhysicalDamage"
 			},
 			"Generic_Rare_075": {
-				"name": "Prime"
+				"name": "Prime",
+				"description": "Stats: Unknown, Unknown, Damage, MaxHealthPercent"
 			},
 			"Generic_Rare_076": {
-				"name": "Hubris"
+				"name": "Hubris",
+				"description": "Stats: VulnerableDamage, DamageReductionLinkedStat, Willpower"
 			},
 			"Generic_Rare_077": {
-				"name": "Courage"
+				"name": "Courage",
+				"description": "Stats: Unknown, MaxHealthPercent, Willpower"
 			},
 			"Generic_Rare_078": {
-				"name": "Regenerative"
+				"name": "Regenerative",
+				"description": "Stats: Unknown, HealingBonus, Willpower"
 			},
 			"Generic_Rare_079": {
-				"name": "Feral"
+				"name": "Feral",
+				"description": "Stats: Damage, Damage, Willpower"
 			},
 			"Generic_Rare_080": {
-				"name": "Overturn"
+				"name": "Overturn",
+				"description": "Stats: PoisonDamage, EliteDamage, Damage"
 			},
 			"Generic_Rare_081": {
-				"name": "Dosage"
+				"name": "Dosage",
+				"description": "Stats: Unknown, HealingBonus, Dexterity"
 			},
 			"Generic_Rare_082": {
-				"name": "Training"
+				"name": "Training",
+				"description": "Stats: Unknown, MaxHealthPercent, Dexterity"
 			},
 			"Generic_Rare_083": {
-				"name": "Tolerance"
+				"name": "Tolerance",
+				"description": "Stats: ResistanceLinkedStat, Dexterity, NonPhysicalDamage"
 			},
 			"Generic_Rare_084": {
-				"name": "Knowledge"
+				"name": "Knowledge",
+				"description": "Stats: Unknown, Unknown, Damage, Intelligence"
 			},
 			"Generic_Rare_085": {
-				"name": "Preservation"
+				"name": "Preservation",
+				"description": "Stats: Unknown, Armor, Intelligence"
 			},
 			"Generic_Rare_086": {
-				"name": "Targeted"
+				"name": "Targeted",
+				"description": "Stats: EliteDamage, Damage, Intelligence"
 			},
 			"Generic_Rare_087": {
-				"name": "Corrective"
+				"name": "Corrective",
+				"description": "Stats: CritDamage, Damage, HealingBonus"
 			},
 			"Generic_Rare_088": {
-				"name": "Deathmarked"
+				"name": "Deathmarked",
+				"description": "Stats: DamageInjured, Damage, Intelligence"
 			},
 			"Generic_Rare_089": {
-				"name": "Remedy"
+				"name": "Remedy",
+				"description": "Stats: Unknown, HealingBonus, Intelligence"
 			},
 			"Generic_Rare_090": {
-				"name": "Gloom"
+				"name": "Gloom",
+				"description": "Stats: ResistanceLinkedStat, ShadowDamage, Intelligence"
 			},
 			"Generic_Rare_091": {
-				"name": "Dragging Shadows"
+				"name": "Dragging Shadows",
+				"description": "Stats: ResistanceLinkedStat, ShadowDamage, ShadowDoTDamage, DamageReductionLinkedStat"
 			},
 			"Generic_Rare_092": {
-				"name": "Gnawing Darkness"
+				"name": "Gnawing Darkness",
+				"description": "Stats: ShadowDoTDamage, EliteDamage, Damage"
 			},
 			"Generic_Rare_093": {
-				"name": "Malediction"
+				"name": "Malediction",
+				"description": "Stats: ShadowDamage, Damage, Intelligence"
 			},
 			"Generic_Rare_094": {
-				"name": "Advantage"
+				"name": "Advantage",
+				"description": "Stats: ResistanceLinkedStat, Unknown, Unknown"
 			},
 			"Generic_Rare_095": {
-				"name": "Weakness"
+				"name": "Weakness",
+				"description": "Stats: Intelligence, Damage, VulnerableDamage"
 			},
 			"Generic_Rare_096": {
-				"name": "Artifice"
+				"name": "Artifice",
+				"description": "Stats: VulnerableDamage, Damage, Dexterity"
 			},
 			"Generic_Rare_097": {
-				"name": "Zealous"
+				"name": "Zealous",
+				"description": "Stats: DamageHealthy, Damage, Armor"
 			},
 			"Generic_Socket": {
 				"name": "Glyph Socket"
@@ -13160,104 +13651,187 @@ let paragonData = {
 		"Node": {
 			"Necromancer_Legendary_001": {
 				"name": "Cult Leader",
-				"description": "Your Minions deal x{#}% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem."
+				"description": "Your Minions deal x{#}% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.\n\nStats: MinionLinkedStat, Damage"
 			},
 			"Necromancer_Legendary_005": {
 				"name": "Hulking Monstrosity",
-				"description": "Your Golem has x{#}% increased Maximum Life and deals x{#}% increased damage."
+				"description": "Your Golem has x{#}% increased Maximum Life and deals x{#}% increased damage.\n\nStats: MinionLinkedStat, MaxHealthPercent, Damage"
 			},
 			"Necromancer_Legendary_007": {
 				"name": "Scent of Death",
-				"description": "With at least {#} Corpses Nearby, you gain {#}% Damage Reduction. With no Corpses Nearby, you deal x{#}% increased damage."
+				"description": "With at least {#} Corpses Nearby, you gain {#}% Damage Reduction. With no Corpses Nearby, you deal x{#}% increased damage.\n\nStats: DamageReductionLinkedStat, Damage, CorpseLinkedStat"
 			},
 			"Necromancer_Legendary_008": {
 				"name": "Flesh-eater",
-				"description": "Consuming {#} Corpses grants x{#}% increased damage for {#} seconds."
+				"description": "Consuming {#} Corpses grants x{#}% increased damage for {#} seconds.\n\nStats: Damage, CorpseLinkedStat"
 			},
 			"Necromancer_Legendary_010": {
 				"name": "Bloodbath",
-				"description": "Attacks that are guaranteed to Overpower deal x{#}% increased Overpower damage."
+				"description": "Attacks that are guaranteed to Overpower deal x{#}% increased Overpower damage.\n\nStats: OverpowerDamage, Damage"
 			},
 			"Necromancer_Legendary_011": {
 				"name": "Blood Begets Blood",
-				"description": "Blood Orbs grant x{#}% increased damage, up to x{#}%, for {#} seconds."
+				"description": "Blood Orbs grant x{#}% increased damage, up to x{#}%, for {#} seconds.\n\nStats: Unknown, Damage"
 			},
 			"Necromancer_Legendary_016": {
 				"name": "Wither",
-				"description": "Your Shadow damage over time effects have a x{#}% chance to deal x{#}% bonus damage each time they deal damage. This chance is increased by x{#}% and bonus damage is increased by x{#}% for each {#} Willpower you have."
+				"description": "Your Shadow damage over time effects have a x{#}% chance to deal x{#}% bonus damage each time they deal damage. This chance is increased by x{#}% and bonus damage is increased by x{#}% for each {#} Willpower you have.\n\nStats: ShadowDoTDamage, Damage, Willpower"
 			},
 			"Necromancer_Legendary_017": {
 				"name": "Bone Graft",
-				"description": "Hitting enemies with Bone Skills increases your damage by x{#}% and your Maximum Essence by {#} for {#} seconds, stacks up to x{#}% increased damage and {#} Maximum Essence."
+				"description": "Hitting enemies with Bone Skills increases your damage by x{#}% and your Maximum Essence by {#} for {#} seconds, stacks up to x{#}% increased damage and {#} Maximum Essence.\n\nStats: Unknown, Unknown, Damage"
+			},
+			"Necromancer_Magic_ArmorWithActiveGolem": {
+				"name": "Armor With Active Golem",
+				"description": "Stats: MinionLinkedStat, Armor"
+			},
+			"Necromancer_Magic_BloodOrbDamage": {
+				"name": "Blood Orb Damage",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Necromancer_Magic_BloodOrbHealing": {
+				"name": "Blood Orb Healing",
+				"description": "Stats: Unknown, HealingBonus"
+			},
+			"Necromancer_Magic_CriticalDamageBone": {
+				"name": "Critical Damage Bone",
+				"description": "Stats: Unknown, CritDamage, Damage"
+			},
+			"Necromancer_Magic_DamageBone": {
+				"name": "Damage Bone",
+				"description": "Stats: Unknown, Damage"
+			},
+			"Necromancer_Magic_DamageWithActiveGolem": {
+				"name": "Damage With Active Golem",
+				"description": "Stats: MinionLinkedStat, Damage"
+			},
+			"Necromancer_Magic_GolemArmor": {
+				"name": "Golem Armor",
+				"description": "Stats: MinionLinkedStat, Armor"
+			},
+			"Necromancer_Magic_GolemAttackSpeed": {
+				"name": "Golem Attack Speed",
+				"description": "Stats: MinionLinkedStat, AttackSpeed"
+			},
+			"Necromancer_Magic_GolemDamage": {
+				"name": "Golem Damage",
+				"description": "Stats: MinionLinkedStat, Damage"
+			},
+			"Necromancer_Magic_GolemHP": {
+				"name": "Golem HP",
+				"description": "Stats: MinionLinkedStat, MaxHealthPercent"
+			},
+			"Necromancer_Magic_GolemResistAll": {
+				"name": "Golem Resist All",
+				"description": "Stats: MinionLinkedStat, ResistanceLinkedStat, NonPhysicalDamage"
+			},
+			"Necromancer_Magic_SkeletonMageDamage": {
+				"name": "Skeleton Mage Damage",
+				"description": "Stats: MinionLinkedStat, Damage"
+			},
+			"Necromancer_Magic_SkeletonMageResistAll": {
+				"name": "Skeleton Mage Resist All",
+				"description": "Stats: MinionLinkedStat, ResistanceLinkedStat, NonPhysicalDamage"
+			},
+			"Necromancer_Magic_SkeletonWarriorArmor": {
+				"name": "Skeleton Warrior Armor",
+				"description": "Stats: MinionLinkedStat, Armor"
+			},
+			"Necromancer_Magic_SkeletonWarriorDamage": {
+				"name": "Skeleton Warrior Damage",
+				"description": "Stats: MinionLinkedStat, Damage"
 			},
 			"Necromancer_Rare_001": {
-				"name": "Shaper of Bone"
+				"name": "Shaper of Bone",
+				"description": "Stats: Unknown, Damage, Intelligence"
 			},
 			"Necromancer_Rare_002": {
-				"name": "Thick Hide"
+				"name": "Thick Hide",
+				"description": "Stats: DamageWhileFortified, Damage, MaxHealthPercent"
 			},
 			"Necromancer_Rare_003": {
-				"name": "Blooddrinker"
+				"name": "Blooddrinker",
+				"description": "Stats: Unknown, HealingBonus, Intelligence"
 			},
 			"Necromancer_Rare_005": {
-				"name": "Calcified"
+				"name": "Calcified",
+				"description": "Stats: Unknown, CritDamage, Damage"
 			},
 			"Necromancer_Rare_006": {
-				"name": "Hardened"
+				"name": "Hardened",
+				"description": "Stats: DamageWhileFortified, Damage, Intelligence"
 			},
 			"Necromancer_Rare_009": {
-				"name": "Invigorated"
+				"name": "Invigorated",
+				"description": "Stats: Unknown, DamageHealthy, Damage"
 			},
 			"Necromancer_Rare_011": {
-				"name": "Unassailable"
+				"name": "Unassailable",
+				"description": "Stats: Unknown, VulnerableDamage, DamageReductionLinkedStat, Armor"
 			},
 			"Necromancer_Rare_013": {
-				"name": "Vampiric"
+				"name": "Vampiric",
+				"description": "Stats: Unknown, HealingBonus, MaxHealthPercent"
 			},
 			"Necromancer_Rare_017": {
-				"name": "Borrowed Strength"
+				"name": "Borrowed Strength",
+				"description": "Stats: MinionLinkedStat, Damage, Armor"
 			},
 			"Necromancer_Rare_018": {
-				"name": "Armor-clad"
+				"name": "Armor-clad",
+				"description": "Stats: MinionLinkedStat, Armor, MaxHealthPercent"
 			},
 			"Necromancer_Rare_020": {
-				"name": "Custody"
+				"name": "Custody",
+				"description": "Stats: MinionLinkedStat, DamageReductionLinkedStat, Intelligence"
 			},
 			"Necromancer_Rare_021": {
-				"name": "Overlord"
+				"name": "Overlord",
+				"description": "Stats: MinionLinkedStat, Damage, Intelligence"
 			},
 			"Necromancer_Rare_022": {
-				"name": "Mutation"
+				"name": "Mutation",
+				"description": "Stats: MinionLinkedStat, Damage, Intelligence"
 			},
 			"Necromancer_Rare_024": {
-				"name": "Frenzied Golem"
+				"name": "Frenzied Golem",
+				"description": "Stats: MinionLinkedStat, Damage, AttackSpeed"
 			},
 			"Necromancer_Rare_025": {
-				"name": "Miscreation"
+				"name": "Miscreation",
+				"description": "Stats: MinionLinkedStat, Armor, Intelligence"
 			},
 			"Necromancer_Rare_026": {
-				"name": "Puppeteer"
+				"name": "Puppeteer",
+				"description": "Stats: MinionLinkedStat, Damage, AttackSpeed"
 			},
 			"Necromancer_Rare_027": {
-				"name": "Infused Caster"
+				"name": "Infused Caster",
+				"description": "Stats: MinionLinkedStat, Damage, ResistanceLinkedStat, NonPhysicalDamage"
 			},
 			"Necromancer_Rare_028": {
-				"name": "Infused Warrior"
+				"name": "Infused Warrior",
+				"description": "Stats: MinionLinkedStat, Damage, Armor"
 			},
 			"Necromancer_Rare_029": {
-				"name": "Infused Golem"
+				"name": "Infused Golem",
+				"description": "Stats: MinionLinkedStat, Damage, MaxHealthPercent"
 			},
 			"Necromancer_Rare_031": {
-				"name": "Flesh-horror"
+				"name": "Flesh-horror",
+				"description": "Stats: MinionLinkedStat, ResistanceLinkedStat, NonPhysicalDamage, Armor"
 			},
 			"Necromancer_Rare_034": {
-				"name": "Blood-Empowered"
+				"name": "Blood-Empowered",
+				"description": "Stats: Damage, Intelligence, Unknown"
 			},
 			"Necromancer_Rare_035": {
-				"name": "Lingering Shadows"
+				"name": "Lingering Shadows",
+				"description": "Stats: ShadowDamage, ShadowDoTDamage, Damage"
 			},
 			"Necromancer_Rare_036": {
-				"name": "Entomb"
+				"name": "Entomb",
+				"description": "Stats: HealingBonus, Unknown, CritDamage"
 			},
 			"StartNodeNecro": {
 				"name": "Paragon Starting Node"
@@ -17497,71 +18071,107 @@ let paragonData = {
 		"Node": {
 			"Rogue_Legendary_002": {
 				"name": "Eldritch Bounty",
-				"description": "When you attack with an Imbued Skill you gain {#}% Resistance and x{#}% increased damage for that Imbuement's element for {#} seconds."
+				"description": "When you attack with an Imbued Skill you gain {#}% Resistance and x{#}% increased damage for that Imbuement's element for {#} seconds.\n\nStats: ImbuedSkillDamage, ResistanceLinkedStat, Damage, NonPhysicalDamage"
 			},
 			"Rogue_Legendary_006": {
 				"name": "Tricks of the Trade",
-				"description": "Your Marksman Skills grant your next Cutthroat Skill x{#}% increased damage. Your Cutthroat Skills grant your next Marksman Skill x{#}% increased damage."
+				"description": "Your Marksman Skills grant your next Cutthroat Skill x{#}% increased damage. Your Cutthroat Skills grant your next Marksman Skill x{#}% increased damage.\n\nStats: RangedSkillDamage, MeleeSkillDamage, Damage"
 			},
 			"Rogue_Legendary_007": {
 				"name": "Cheap Shot",
-				"description": "You deal x{#}% increased damage for each Nearby enemy that is Crowd Controlled, up to x{#}%."
+				"description": "You deal x{#}% increased damage for each Nearby enemy that is Crowd Controlled, up to x{#}%.\n\nStats: DamageToCCed, Damage"
 			},
 			"Rogue_Legendary_008": {
 				"name": "Deadly Ambush",
-				"description": "You deal x{#}% increased Critical Strike Damage to enemies affected by your Trap Skills."
+				"description": "You deal x{#}% increased Critical Strike Damage to enemies affected by your Trap Skills.\n\nStats: TrapDamage, CritDamage, Damage"
 			},
 			"Rogue_Legendary_009": {
 				"name": "Leyrana's Instinct",
-				"description": "When Inner Sight's gauge becomes full, you gain +{#}% Dodge Chance for {#} seconds."
+				"description": "When Inner Sight's gauge becomes full, you gain +{#}% Dodge Chance for {#} seconds.\n\nStats: Unknown"
 			},
 			"Rogue_Legendary_010": {
 				"name": "Exploit Weakness",
-				"description": "Whenever you deal damage to a Vulnerable enemy, they take x{#}% increased damage from you for {#} seconds, up to x{#}%."
+				"description": "Whenever you deal damage to a Vulnerable enemy, they take x{#}% increased damage from you for {#} seconds, up to x{#}%.\n\nStats: VulnerableDamage, Damage"
 			},
 			"Rogue_Legendary_011": {
 				"name": "No Witnesses",
-				"description": "Your Ultimate Skills deal x{#}% increased damage and grant you x{#}% increased damage for {#} seconds when cast."
+				"description": "Your Ultimate Skills deal x{#}% increased damage and grant you x{#}% increased damage for {#} seconds when cast.\n\nStats: Unknown, Damage"
 			},
 			"Rogue_Legendary_012": {
 				"name": "Cunning Stratagem",
 				"description": "Your non-damage Combo Point bonuses are increased by {#}% when you spend {#} Combo Points."
 			},
+			"Rogue_Magic_DamageImbued": {
+				"name": "Damage Imbued",
+				"description": "Stats: ImbuedSkillDamage, Damage"
+			},
+			"Rogue_Magic_DamageReductionFromTrapped": {
+				"name": "Damage Reduction From Trapped",
+				"description": "Stats: TrapDamage, DamageReductionLinkedStat"
+			},
+			"Rogue_Magic_DamageToTrapped": {
+				"name": "Damage To Trapped",
+				"description": "Stats: TrapDamage, Damage"
+			},
+			"Rogue_Magic_DamageTrap": {
+				"name": "Damage Trap",
+				"description": "Stats: TrapDamage, Damage"
+			},
+			"Rogue_Magic_ImbueCDR": {
+				"name": "Imbue CDR",
+				"description": "Stats: ImbuedSkillDamage, Unknown"
+			},
+			"Rogue_Magic_TrapCooldown": {
+				"name": "Trap Cooldown",
+				"description": "Stats: Unknown, TrapDamage"
+			},
 			"Rogue_Rare_005": {
-				"name": "Finisher"
+				"name": "Finisher",
+				"description": "Stats: CritDamage, Damage, Dexterity"
 			},
 			"Rogue_Rare_008": {
-				"name": "Spring-loaded"
+				"name": "Spring-loaded",
+				"description": "Stats: Unknown, TrapDamage, Unknown"
 			},
 			"Rogue_Rare_009": {
-				"name": "Imbuer"
+				"name": "Imbuer",
+				"description": "Stats: ImbuedSkillDamage, NonPhysicalDamage, Damage"
 			},
 			"Rogue_Rare_010": {
-				"name": "Ready Supply"
+				"name": "Ready Supply",
+				"description": "Stats: Unknown, ImbuedSkillDamage, NonPhysicalDamage, Damage"
 			},
 			"Rogue_Rare_011": {
-				"name": "Dominant"
+				"name": "Dominant",
+				"description": "Stats: CritDamage, Unknown, Damage"
 			},
 			"Rogue_Rare_012": {
-				"name": "Potent"
+				"name": "Potent",
+				"description": "Stats: ImbuedSkillDamage, Damage, Dexterity"
 			},
 			"Rogue_Rare_014": {
-				"name": "Fundamentals"
+				"name": "Fundamentals",
+				"description": "Stats: Unknown, Unknown, Damage"
 			},
 			"Rogue_Rare_016": {
-				"name": "Brawler"
+				"name": "Brawler",
+				"description": "Stats: Unknown, Damage, DamageReductionLinkedStat"
 			},
 			"Rogue_Rare_018": {
-				"name": "Ranger"
+				"name": "Ranger",
+				"description": "Stats: Unknown, Damage, DamageReductionLinkedStat"
 			},
 			"Rogue_Rare_027": {
-				"name": "Engineering"
+				"name": "Engineering",
+				"description": "Stats: TrapDamage, Damage, Dexterity"
 			},
 			"Rogue_Rare_028": {
-				"name": "Cunning"
+				"name": "Cunning",
+				"description": "Stats: TrapDamage, DamageReductionLinkedStat, Dexterity"
 			},
 			"Rogue_Rare_029": {
-				"name": "Trapper"
+				"name": "Trapper",
+				"description": "Stats: Unknown, TrapDamage, Damage"
 			},
 			"StartNodeRogue": {
 				"name": "Paragon Starting Node"
@@ -21801,116 +22411,147 @@ let paragonData = {
 		"Node": {
 			"Sorcerer_Legendary_001": {
 				"name": "Burning Instinct",
-				"description": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every {#} Intelligence you have. (Current Bonus: {#}%)"
+				"description": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every {#} Intelligence you have. (Current Bonus: {#}%)\n\nStats: BurningDamage, Damage, CritDamage, Intelligence"
 			},
 			"Sorcerer_Legendary_002": {
 				"name": "Searing Heat",
-				"description": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +{#}% for {#} seconds, up to +{#}%. Additional stacks do not refresh this timer."
+				"description": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +{#}% for {#} seconds, up to +{#}%. Additional stacks do not refresh this timer.\n\nStats: CritDamage"
 			},
 			"Sorcerer_Legendary_005": {
 				"name": "Frigid Fate",
-				"description": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +{#}% for {#} seconds, up to +{#}%."
+				"description": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +{#}% for {#} seconds, up to +{#}%.\n\nStats: VulnerableDamage, Unknown, Unknown"
 			},
 			"Sorcerer_Legendary_006": {
 				"name": "Icefall",
-				"description": "Killing a Frozen enemy grants you {#}% of your Maximum Life as a Barrier ({#}) for {#} seconds."
+				"description": "Killing a Frozen enemy grants you {#}% of your Maximum Life as a Barrier ({#}) for {#} seconds.\n\nStats: Unknown, Unknown"
 			},
 			"Sorcerer_Legendary_007": {
 				"name": "Static Surge",
-				"description": "Stunning Close enemies restores {#} Mana."
+				"description": "Stunning Close enemies restores {#} Mana.\n\nStats: DamageToCCed, Unknown"
 			},
 			"Sorcerer_Legendary_008": {
 				"name": "Ceaseless Conduit",
-				"description": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per {#} total Intelligence you have. (Current Bonus: x{#}%)"
+				"description": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per {#} total Intelligence you have. (Current Bonus: x{#}%)\n\nStats: CracklingEnergyDamage, Damage, Intelligence"
 			},
 			"Sorcerer_Legendary_011": {
 				"name": "Elemental Summoner",
-				"description": "Your Conjuration Skills have a {#}% reduced Cooldown or Mana cost per Conjuration Skill you have equipped."
+				"description": "Your Conjuration Skills have a {#}% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.\n\nStats: ConjurationDamage, Unknown, Unknown"
 			},
 			"Sorcerer_Legendary_015": {
 				"name": "Enchantment Master",
 				"description": "Your Enchantments are {#}% stronger."
 			},
+			"Sorcerer_Magic_CracklingEnergy": {
+				"name": "Crackling Energy",
+				"description": "Stats: CracklingEnergyDamage, Damage"
+			},
 			"Sorcerer_Rare_002": {
-				"name": "Cryomancy"
+				"name": "Cryomancy",
+				"description": "Stats: Unknown, Damage, DamageToChilled, DamageToCCed"
 			},
 			"Sorcerer_Rare_005": {
-				"name": "Polar Rime"
+				"name": "Polar Rime",
+				"description": "Stats: NonPhysicalDamage, DamageToChilled, Damage, DamageToCCed"
 			},
 			"Sorcerer_Rare_006": {
-				"name": "Chilling"
+				"name": "Chilling",
+				"description": "Stats: ResistanceLinkedStat, Intelligence, Unknown"
 			},
 			"Sorcerer_Rare_007": {
-				"name": "Pyromancy"
+				"name": "Pyromancy",
+				"description": "Stats: Unknown, BurningDamage, Damage"
 			},
 			"Sorcerer_Rare_008": {
-				"name": "Kindling"
+				"name": "Kindling",
+				"description": "Stats: BurningDamage, EliteDamage, Damage"
 			},
 			"Sorcerer_Rare_009": {
-				"name": "Flame-touched"
+				"name": "Flame-touched",
+				"description": "Stats: Unknown, Damage, Intelligence"
 			},
 			"Sorcerer_Rare_010": {
-				"name": "Paralyzing"
+				"name": "Paralyzing",
+				"description": "Stats: Unknown, DamageToCCed, Damage"
 			},
 			"Sorcerer_Rare_011": {
-				"name": "Conduit"
+				"name": "Conduit",
+				"description": "Stats: Unknown, CracklingEnergyDamage, Damage"
 			},
 			"Sorcerer_Rare_012": {
-				"name": "Incapacitate"
+				"name": "Incapacitate",
+				"description": "Stats: DamageToCCed, Damage, Intelligence"
 			},
 			"Sorcerer_Rare_013": {
-				"name": "Keeper of Flames"
+				"name": "Keeper of Flames",
+				"description": "Stats: BurningDamage, DamageReductionLinkedStat, Unknown, ResistanceLinkedStat"
 			},
 			"Sorcerer_Rare_014": {
-				"name": "Electro"
+				"name": "Electro",
+				"description": "Stats: LightningDamage, ResistanceLinkedStat, Intelligence"
 			},
 			"Sorcerer_Rare_015": {
-				"name": "Oppressive"
+				"name": "Oppressive",
+				"description": "Stats: VulnerableDamage, Damage, DamageReductionLinkedStat"
 			},
 			"Sorcerer_Rare_016": {
-				"name": "Smoldering Embers"
+				"name": "Smoldering Embers",
+				"description": "Stats: BurningDamage, DamageReductionLinkedStat, Intelligence"
 			},
 			"Sorcerer_Rare_017": {
-				"name": "Keeper of Winter"
+				"name": "Keeper of Winter",
+				"description": "Stats: DamageReductionLinkedStat, ResistanceLinkedStat, Unknown, DamageToCCed"
 			},
 			"Sorcerer_Rare_019": {
-				"name": "Elemental Balance"
+				"name": "Elemental Balance",
+				"description": "Stats: NonPhysicalDamage, Damage, Intelligence"
 			},
 			"Sorcerer_Rare_020": {
-				"name": "Keeper of Elements"
+				"name": "Keeper of Elements",
+				"description": "Stats: NonPhysicalDamage, Damage, ResistanceLinkedStat"
 			},
 			"Sorcerer_Rare_022": {
-				"name": "Overwhelming"
+				"name": "Overwhelming",
+				"description": "Stats: EliteDamage, Damage, DamageToCCed"
 			},
 			"Sorcerer_Rare_023": {
-				"name": "Ashes"
+				"name": "Ashes",
+				"description": "Stats: Unknown, ResistanceLinkedStat, Intelligence"
 			},
 			"Sorcerer_Rare_024": {
-				"name": "Combustion"
+				"name": "Combustion",
+				"description": "Stats: Unknown, CritDamage, Damage"
 			},
 			"Sorcerer_Rare_025": {
-				"name": "Cinders"
+				"name": "Cinders",
+				"description": "Stats: BurningDamage, Damage, Intelligence"
 			},
 			"Sorcerer_Rare_026": {
-				"name": "Frosts"
+				"name": "Frosts",
+				"description": "Stats: DamageToChilled, Damage, Intelligence, DamageToCCed"
 			},
 			"Sorcerer_Rare_027": {
-				"name": "Galvanic Catalyst"
+				"name": "Galvanic Catalyst",
+				"description": "Stats: CracklingEnergyDamage, Damage, Intelligence"
 			},
 			"Sorcerer_Rare_028": {
-				"name": "Frigid"
+				"name": "Frigid",
+				"description": "Stats: DamageToChilled, DamageReductionLinkedStat, Intelligence, DamageToCCed"
 			},
 			"Sorcerer_Rare_029": {
-				"name": "Conjurer"
+				"name": "Conjurer",
+				"description": "Stats: Damage, ConjurationDamage, Intelligence"
 			},
 			"Sorcerer_Rare_034": {
-				"name": "Denial"
+				"name": "Denial",
+				"description": "Stats: Unknown, ResistanceLinkedStat, Armor, NonPhysicalDamage"
 			},
 			"Sorcerer_Rare_035": {
-				"name": "Guarded"
+				"name": "Guarded",
+				"description": "Stats: VulnerableDamage, DamageReductionLinkedStat, Unknown, ResistanceLinkedStat"
 			},
 			"Sorcerer_Rare_036": {
-				"name": "Speed Caster"
+				"name": "Speed Caster",
+				"description": "Stats: Unknown, AttackSpeed, Damage, ConjurationDamage"
 			},
 			"StartNodeSorc": {
 				"name": "Paragon Starting Node"

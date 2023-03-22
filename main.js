@@ -367,7 +367,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.0.39517-2";
+const localVersion = "0.8.0.39517-3";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1611,7 +1611,9 @@ function drawAllNodes() {
 									.trim()
 								: nodeData;
 							const nodeDesc = nodeData in paragonData[classText]["Node"] && "description" in paragonData[classText]["Node"][nodeData]
-								? `${paragonData[classText]["Node"][nodeData]["description"]}\n` : "";
+								? `${paragonData[classText]["Node"][nodeData]["description"]}`
+								: nodeData in paragonData["Generic"]["Node"] && "description" in paragonData["Generic"]["Node"][nodeData]
+								? `${paragonData["Generic"]["Node"][nodeData]["description"]}` : "";
 							const nodeType = nodeData.includes("_Normal_") ? "Normal"
 								: nodeData.includes("_Magic_") ? "Magic"
 								: nodeData.includes("_Rare_") ? "Rare"
@@ -1622,7 +1624,7 @@ function drawAllNodes() {
 							const boardNode = new Map([
 								["allocatedPoints", 0],
 								["colorOverride", COLOR_OVERRIDE[nodeType]],
-								["description", `${nodeDesc}${nodeData}`],
+								["description", nodeDesc],
 								["id", `paragon-${unsortedIndex}-${xPosition}-${yPosition}`],
 								["maxPoints", 1],
 								["widthOverride", nodeWidth],
@@ -1795,7 +1797,7 @@ function drawTooltip(curNode, forceDraw) {
 		tooltipText2.position.y = 20;
 	} else {
 		tooltipText2 = new PIXI.Text("", {
-			fontSize: 20
+			fontSize: 8
 		});
 	}
 

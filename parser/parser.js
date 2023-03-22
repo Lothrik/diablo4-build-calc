@@ -133,6 +133,7 @@ function levenshteinDistance(str1 = "", str2 = "") {
 };
 
 function sanitizeNodeDescription(descriptionText) {
+	if (descriptionText == undefined || descriptionText.length == 0) return descriptionText;
 	let sanitizedText = descriptionText
 		.replace(/{c_.+?}/gi, "")										// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
 		.replace(/{\/c_.+?}/gi, "")										// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
@@ -575,15 +576,14 @@ function runParser(downloadMode) {
 		if (classData["Paragon (Node)"] != undefined) {
 			paragonData[className]["Node"] = {};
 			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Node)"])) {
-				let nodeDesc;
-				if (nodeName.toLowerCase().includes("legendary") && "Paragon (Legendary)" in classData) {
-					const nodeId = nodeName.replace(/\D/g, "");
-					for (const [legendaryKey, legendaryData] of Object.entries(classData["Paragon (Legendary)"])) {
-						if (legendaryKey.replace(/\D/g, "") == nodeId) {
-							nodeDesc = sanitizeNodeDescription(legendaryData["desc"]);
-							break;
-						}
+				let nodeDesc = sanitizeNodeDescription(nodeData["desc"]);
+				if (nodeData["stats"] != undefined) {
+					if (nodeDesc == undefined) {
+						nodeDesc = "";
+					} else {
+						nodeDesc += "\n\n";
 					}
+					nodeDesc += "Stats: " + nodeData["stats"].join(", ");
 				}
 				paragonData[className]["Node"][nodeName] = {
 					name: nodeData["name"],
