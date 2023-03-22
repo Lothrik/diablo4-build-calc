@@ -2,7 +2,7 @@ import { nodeHistory } from "./node-history.js";
 import { nodeValues } from "./node-values.js";
 import { necromancerMinions } from "./necromancer-minions.js";
 
-const buildNumber = 39517;
+const buildNumber = 39657;
 
 var fullJSON = "";
 $.getJSON("../database/build-" + buildNumber + ".json", null, fullData => {
@@ -212,102 +212,103 @@ function namedConnections(rawConnections, currentNode, classData, fallbackNode) 
 function fixJSON(classData, curNode, rootNodeName) {
 	const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
 	const nodeData = skillTreeValues[String(curNode)];
-	if (buildNumber == 39517) {
-		let skillName = undefined;
-		if ("power" in nodeData && "skill_name" in nodeData["power"]) {
-			skillName = nodeData["power"]["skill_name"];
-		} else if ("reward" in nodeData && "reward_name" in nodeData["reward"]) {
-			skillName = nodeData["reward"]["reward_name"];
-		}
 
-		if (skillName != undefined && skillName != skillName.trim()) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `" + skillName.trim() + "`.");
-			nodeData["power"]["skill_name"] = skillName.trim();
-		}
-		// `Supreme Unstable Currents` was incorrectly assigned the duplicate name `Prime Unstable Currents` in 36023, causing a naming collision.
-		if (skillName == "Prime Unstable Currents" && nodeData["id"] == 619) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Supreme Unstable Currents`.");
-			nodeData["power"]["skill_name"] = "Supreme Unstable Currents";
-		// `Prime Inferno` was incorrectly assigned the name `Upgrade 1` in 36023.
-		} else if (skillName == "Upgrade 1" && nodeData["id"] == 617) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Prime Inferno`.");
-			nodeData["power"]["skill_name"] = "Prime Inferno";
-		// `Supreme Inferno` was incorrectly assigned the name `Upgrade 2` in 36023.
-		} else if (skillName == "Upgrade 2" && nodeData["id"] == 620) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Supreme Inferno`.");
-			nodeData["power"]["skill_name"] = "Supreme Inferno";
-		// `Enhanced Charged Bolts` was incorrectly assigned the name `Enhanced Charged Bolt` in 36023.
-		} else if (skillName == "Enhanced Charged Bolt" && nodeData["id"] == 731) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Charged Bolts`.");
-			nodeData["power"]["skill_name"] = "Enhanced Charged Bolts";
-		// `Wolf Pack` was renamed to `Wolves` in 36023, but its modifier nodes were not renamed at the same time.
-		} else if (skillName == "Wolf Pack" && nodeData["id"] == 459) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Wolves`.");
-			nodeData["power"]["skill_name"] = "Wolves";
-		} else if (skillName == "Enhanced Wolf Pack" && nodeData["id"] == 509) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Wolves`.");
-			nodeData["power"]["skill_name"] = "Enhanced Wolves";
-		} else if (skillName == "Ferocious Wolf Pack" && nodeData["id"] == 388) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Ferocious Wolves`.");
-			nodeData["power"]["skill_name"] = "Ferocious Wolves";
-		} else if (skillName == "Brutal Wolf Pack" && nodeData["id"] == 389) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Brutal Wolves`.");
-			nodeData["power"]["skill_name"] = "Brutal Wolves";
-		// `Stealth` was renamed to `Concealment` in 36331, but its modifier nodes were not renamed at the same time.
-		} else if (skillName == "Stealth" && nodeData["id"] == 245) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Concealment`.");
-			nodeData["power"]["skill_name"] = "Concealment";
-		} else if (skillName == "Enhanced Stealth" && nodeData["id"] == 374) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Concealment`.");
-			nodeData["power"]["skill_name"] = "Enhanced Concealment";
-		} else if (skillName == "Countering Stealth" && nodeData["id"] == 246) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Countering Concealment`.");
-			nodeData["power"]["skill_name"] = "Countering Concealment";
-		} else if (skillName == "Subverting Stealth" && nodeData["id"] == 247) {
-			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Subverting Concealment`.");
-			nodeData["power"]["skill_name"] = "Subverting Concealment";
-		}
-		if (skillName != undefined) {
-			// ultimate skills don't have ranks
-			if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["power"]["skill_desc"]) && nodeData["reward"]["max_talent_ranks"] == 5) {
+	let skillName = undefined;
+	if ("power" in nodeData && "skill_name" in nodeData["power"]) {
+		skillName = nodeData["power"]["skill_name"];
+	} else if ("reward" in nodeData && "reward_name" in nodeData["reward"]) {
+		skillName = nodeData["reward"]["reward_name"];
+	}
+
+	if (skillName != undefined && skillName != skillName.trim()) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `" + skillName.trim() + "`.");
+		nodeData["power"]["skill_name"] = skillName.trim();
+	}
+
+	// `Supreme Unstable Currents` was incorrectly assigned the duplicate name `Prime Unstable Currents` in 36023, causing a naming collision.
+	if (skillName == "Prime Unstable Currents" && nodeData["id"] == 619) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Supreme Unstable Currents`.");
+		nodeData["power"]["skill_name"] = "Supreme Unstable Currents";
+	// `Prime Inferno` was incorrectly assigned the name `Upgrade 1` in 36023.
+	} else if (skillName == "Upgrade 1" && nodeData["id"] == 617) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Prime Inferno`.");
+		nodeData["power"]["skill_name"] = "Prime Inferno";
+	// `Supreme Inferno` was incorrectly assigned the name `Upgrade 2` in 36023.
+	} else if (skillName == "Upgrade 2" && nodeData["id"] == 620) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Supreme Inferno`.");
+		nodeData["power"]["skill_name"] = "Supreme Inferno";
+	// `Enhanced Charged Bolts` was incorrectly assigned the name `Enhanced Charged Bolt` in 36023.
+	} else if (skillName == "Enhanced Charged Bolt" && nodeData["id"] == 731) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Charged Bolts`.");
+		nodeData["power"]["skill_name"] = "Enhanced Charged Bolts";
+	// `Wolf Pack` was renamed to `Wolves` in 36023, but its modifier nodes were not renamed at the same time.
+	} else if (skillName == "Wolf Pack" && nodeData["id"] == 459) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Wolves`.");
+		nodeData["power"]["skill_name"] = "Wolves";
+	} else if (skillName == "Enhanced Wolf Pack" && nodeData["id"] == 509) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Wolves`.");
+		nodeData["power"]["skill_name"] = "Enhanced Wolves";
+	} else if (skillName == "Ferocious Wolf Pack" && nodeData["id"] == 388) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Ferocious Wolves`.");
+		nodeData["power"]["skill_name"] = "Ferocious Wolves";
+	} else if (skillName == "Brutal Wolf Pack" && nodeData["id"] == 389) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Brutal Wolves`.");
+		nodeData["power"]["skill_name"] = "Brutal Wolves";
+	// `Stealth` was renamed to `Concealment` in 36331, but its modifier nodes were not renamed at the same time.
+	} else if (skillName == "Stealth" && nodeData["id"] == 245) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Concealment`.");
+		nodeData["power"]["skill_name"] = "Concealment";
+	} else if (skillName == "Enhanced Stealth" && nodeData["id"] == 374) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Concealment`.");
+		nodeData["power"]["skill_name"] = "Enhanced Concealment";
+	} else if (skillName == "Countering Stealth" && nodeData["id"] == 246) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Countering Concealment`.");
+		nodeData["power"]["skill_name"] = "Countering Concealment";
+	} else if (skillName == "Subverting Stealth" && nodeData["id"] == 247) {
+		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Subverting Concealment`.");
+		nodeData["power"]["skill_name"] = "Subverting Concealment";
+	}
+
+	if (skillName != undefined) {
+		// ultimate skills don't have ranks
+		if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["power"]["skill_desc"]) && nodeData["reward"]["max_talent_ranks"] == 5) {
+			$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; maxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
+			nodeData["reward"]["max_talent_ranks"] = 1;
+		} else {
+			const namedConnectionList = JSON.parse(namedConnections(nodeData["connections"], skillName, classData, rootNodeName));
+			let chainedConnectionList = namedConnectionList;
+			namedConnectionList.forEach(namedConnection => {
+				skillTreeValues.filter(chainedData => {
+					if (chainedData["power"] != undefined && chainedData["power"]["skill_name"] == namedConnection) {
+						chainedConnectionList.push(...JSON.parse(namedConnections(chainedData["connections"], chainedData["power"]["skill_name"], classData, rootNodeName)));
+					}
+				});
+			});
+			chainedConnectionList = [...new Set(chainedConnectionList)];
+
+			let unmodifiedName = null;
+			let unmodifiedNameSpecial = null;
+
+			if (nodeData["reward"]["power_mod_hash"] > 0) {
+				if (skillName.includes(" ")) {
+					unmodifiedName = skillName.split(" ").slice(1).join(" ");
+				} else if (skillName.includes("_Mod_")) {
+					unmodifiedName = skillName.split("_Mod_")[1].split("_")[0].replace(/([A-Z])/g, " $1").trim();
+				}
+				if (unmodifiedName == skillName) unmodifiedName = null;
+
+				if (unmodifiedName == "Wolf Pack" && rootNodeName == "Companion") {
+					unmodifiedNameSpecial = "Wolves";
+				} else if (unmodifiedName == "Stealth" && rootNodeName == "Subterfuge") {
+					unmodifiedNameSpecial = "Concealment";
+				}
+			}
+
+			if (nodeData["reward"]["max_talent_ranks"] == 3 && nodeData["reward"]["power_mod_hash"] > 0) {
 				$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; maxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
 				nodeData["reward"]["max_talent_ranks"] = 1;
-			} else {
-				const namedConnectionList = JSON.parse(namedConnections(nodeData["connections"], skillName, classData, rootNodeName));
-				let chainedConnectionList = namedConnectionList;
-				namedConnectionList.forEach(namedConnection => {
-					skillTreeValues.filter(chainedData => {
-						if (chainedData["power"] != undefined && chainedData["power"]["skill_name"] == namedConnection) {
-							chainedConnectionList.push(...JSON.parse(namedConnections(chainedData["connections"], chainedData["power"]["skill_name"], classData, rootNodeName)));
-						}
-					});
-				});
-				chainedConnectionList = [...new Set(chainedConnectionList)];
-
-				let unmodifiedName = null;
-				let unmodifiedNameSpecial = null;
-
-				if (nodeData["reward"]["power_mod_hash"] > 0) {
-					if (skillName.includes(" ")) {
-						unmodifiedName = skillName.split(" ").slice(1).join(" ");
-					} else if (skillName.includes("_Mod_")) {
-						unmodifiedName = skillName.split("_Mod_")[1].split("_")[0].replace(/([A-Z])/g, " $1").trim();
-					}
-					if (unmodifiedName == skillName) unmodifiedName = null;
-
-					if (unmodifiedName == "Wolf Pack" && rootNodeName == "Companion") {
-						unmodifiedNameSpecial = "Wolves";
-					} else if (unmodifiedName == "Stealth" && rootNodeName == "Subterfuge") {
-						unmodifiedNameSpecial = "Concealment";
-					}
-				}
-
-				if (nodeData["reward"]["max_talent_ranks"] == 3 && nodeData["reward"]["power_mod_hash"] > 0) {
-					$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; maxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
-					nodeData["reward"]["max_talent_ranks"] = 1;
-				}
-				nodeData["BASE_SKILL_NAME"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
 			}
+			nodeData["BASE_SKILL_NAME"] = unmodifiedNameSpecial == null ? unmodifiedName : unmodifiedNameSpecial; // for reference later in recursiveSkillTreeScan
 		}
 	}
 }
