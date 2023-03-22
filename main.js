@@ -156,9 +156,9 @@ const COLOR_OVERRIDE = {
 };
 
 const pixiScalingFloor = 0.15;
-const pixiScalingCeiling = 4;
-const tooltipScalingFloor = 0.15;
-const tooltipScalingCeiling = 4;
+const pixiScalingCeiling = 1;
+const tooltipScalingFloor = 1;
+const tooltipScalingCeiling = 1;
 
 const fontFamily = $("body").css("fontFamily");
 const fontFamilyOverride = fontFamily.includes("Homenaje") ? fontFamily : "Homenaje, " + fontFamily;
@@ -1770,7 +1770,7 @@ function drawTooltip(curNode, forceDraw) {
 		breakWords: true,
 		fill: textColor,
 		fontFamily: fontFamily,
-		fontSize: 40 * scaleFactor,
+		fontSize: 32 * scaleFactor,
 		fontVariant: "small-caps",
 		fontWeight: "bold",
 		padding: 10
@@ -1785,7 +1785,7 @@ function drawTooltip(curNode, forceDraw) {
 			breakWords: true,
 			fill: textColor,
 			fontFamily: fontFamily,
-			fontSize: 40 * scaleFactor,
+			fontSize: 32 * scaleFactor,
 			padding: 10,
 			wordWrap: true,
 			wordWrapWidth: tooltipWidth * scaleFactor
@@ -1801,7 +1801,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	const tooltipBackground = new PIXI.Graphics();
 	tooltipBackground.beginFill(backgroundColor);
-	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 3);
+	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 13);
 	tooltipBackground.alpha = backgroundOpacity;
 	tooltipBackground.pivot.x = 10;
 	tooltipBackground.pivot.y = 10;
