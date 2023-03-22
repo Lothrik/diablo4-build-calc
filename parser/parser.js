@@ -577,13 +577,13 @@ function runParser(downloadMode) {
 			paragonData[className]["Node"] = {};
 			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Node)"])) {
 				let nodeDesc = sanitizeNodeDescription(nodeData["desc"]);
-				if (nodeData["stats"] != undefined) {
+				if (nodeData["tags"] != undefined) {
 					if (nodeDesc == undefined) {
 						nodeDesc = "";
 					} else {
 						nodeDesc += "\n\n";
 					}
-					nodeDesc += "Stats: " + nodeData["stats"].join(", ");
+					nodeDesc += "Tags: " + nodeData["tags"].join(", ");
 				}
 				paragonData[className]["Node"][nodeName] = {
 					name: nodeData["name"],
