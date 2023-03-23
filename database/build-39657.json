@@ -11379,9 +11379,7 @@
 				"name": "Control"
 			},
 			"ParagonGlyph_020_Necro": {
-				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Slowed or {c_important}{u}Chilled{/u}{/c} enemies or, instead, {c_number}[{SF_1}*100|x%|]{/c} increased damage to Stunned or {c_important}{u}Frozen{/u}{/c} enemies.",
-				"desc": [],
-				"name": null
+				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Slowed or {c_important}{u}Chilled{/u}{/c} enemies or, instead, {c_number}[{SF_1}*100|x%|]{/c} increased damage to Stunned or {c_important}{u}Frozen{/u}{/c} enemies."
 			},
 			"ParagonGlyph_021": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage while wielding One-Handed weapons.",
@@ -11475,9 +11473,7 @@
 				"name": "Revenge"
 			},
 			"ParagonGlyph_033_Necro": {
-				"bonus": "Thorns damage increases all damage an enemy takes from you and your Minions by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
-				"desc": [],
-				"name": null
+				"bonus": "Thorns damage increases all damage an enemy takes from you and your Minions by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds."
 			},
 			"ParagonGlyph_034": {
 				"bonus": "You gain up to {c_number}[{SF_0}*100|%|]{/c} Damage Reduction the more {c_important}{u}Fortify{/u}{/c} you have.",
@@ -11496,14 +11492,10 @@
 				"name": "Dominate"
 			},
 			"ParagonGlyph_035_Barb": {
-				"bonus": "After not {c_important}{u}Overpowering{/u}{/c} for {c_number}{SF_0}{/c} seconds, your next attack will {c_important}{u}Overpower{/u}{/c}.",
-				"desc": [],
-				"name": null
+				"bonus": "After not {c_important}{u}Overpowering{/u}{/c} for {c_number}{SF_0}{/c} seconds, your next attack will {c_important}{u}Overpower{/u}{/c}."
 			},
 			"ParagonGlyph_035_Necro": {
-				"bonus": "When you {c_important}{u}Overpower{/u}{/c} an enemy, all damage they take from you and your Minions is increased by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds.",
-				"desc": [],
-				"name": null
+				"bonus": "When you {c_important}{u}Overpower{/u}{/c} an enemy, all damage they take from you and your Minions is increased by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds."
 			},
 			"ParagonGlyph_036": {
 				"bonus": "Killing a Bleeding enemy has a  {c_number}[{SF_0}*100|%|]{/c} chance to reduce the Cooldowns of your Non-{c_important}Ultimate{/c} active Cooldowns by {c_number}{SF_1}{/c} second.",
@@ -11585,9 +11577,7 @@
 				"name": "Abyssal"
 			},
 			"ParagonGlyph_046_Druid": {
-				"bonus": "You and your Companions deal {c_number}[{SF_0}*100|x%|]{/c} increased Non-Physical damage.",
-				"desc": [],
-				"name": null
+				"bonus": "You and your Companions deal {c_number}[{SF_0}*100|x%|]{/c} increased Non-Physical damage."
 			},
 			"ParagonGlyph_047": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased Lightning damage to both {c_important}{u}Healthy{/u}{/c} and {c_important}{u}Injured{/u}{/c} enemies.",
