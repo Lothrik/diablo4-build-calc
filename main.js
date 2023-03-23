@@ -155,6 +155,15 @@ const COLOR_OVERRIDE = {
 	"Allocated": 0xFF0000
 };
 
+/*
+const NODE_CIRCLE_ACTIVE = PIXI.Texture.from("images/node_circle_active.png");
+const NODE_CIRCLE_INACTIVE = PIXI.Texture.from("images/node_circle_inactive.png");
+const NODE_DIAMOND_ACTIVE = PIXI.Texture.from("images/node_diamond_active.png");
+const NODE_DIAMOND_INACTIVE = PIXI.Texture.from("images/node_diamond_inactive.png");
+const NODE_SQUARE_ACTIVE = PIXI.Texture.from("images/node_square_active.png");
+const NODE_SQUARE_INACTIVE = PIXI.Texture.from("images/node_square_inactive.png");
+*/
+
 const pixiScalingFloor = 0.15;
 const pixiScalingCeiling = 1;
 const tooltipScalingFloor = 1;
@@ -848,7 +857,30 @@ function updateNodePoints(curNode, newPoints) {
 		curNode.nodeData.set("allocatedPoints", newPoints);
 		if (maxPoints > 1) curNode.children[2].text = newPoints + "/" + maxPoints;
 
-		newPoints > 0 ? setNodeStyleThick(curNode) : setNodeStyleThin(curNode);
+		const shapeType = curNode.nodeData.get("shapeType");
+		if (newPoints == 0) {
+			if (curNode.children[0].children.length > 1) {
+				if (shapeType == "circle") {
+					curNode.children[0].children[1].texture = NODE_CIRCLE_INACTIVE;
+				} else if (shapeType == "diamond") {
+					curNode.children[0].children[1].texture = NODE_DIAMOND_INACTIVE;
+				} else {
+					curNode.children[0].children[1].texture = NODE_SQUARE_INACTIVE;
+				}
+			}
+			setNodeStyleThin(curNode);
+		} else {
+			if (curNode.children[0].children.length > 1) {
+				if (shapeType == "circle") {
+					curNode.children[0].children[1].texture = NODE_CIRCLE_ACTIVE;
+				} else if (shapeType == "diamond") {
+					curNode.children[0].children[1].texture = NODE_DIAMOND_ACTIVE;
+				} else {
+					curNode.children[0].children[1].texture = NODE_SQUARE_ACTIVE;
+				}
+			}
+			setNodeStyleThick(curNode);
+		}
 
 		const className = $(classString).val();
 		const classData = classMap.get(className);
@@ -1075,10 +1107,12 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	let node = null;
 	if (pixiNodes.length > nodeIndex) {
 		node = pixiNodes[nodeIndex];
+
 		// skip node redraw if we already have the correct one displayed
 		if (node.scaleFactor == scaleFactor) return;
-		// destroy all existing node children if we need to replace them
-		while (node.children[0]) node.children[0].destroy(true);
+
+		// remove all existing node children
+		while (node.children[0]) node.removeChild(node.children[0]);
 	}
 
 	let x = nodePosition == null ? nodeData.get("x") : nodePosition.x;
@@ -1198,17 +1232,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			.on("tap", () => handleMinusButton(node));
 	}
 
-	const nodeBackground = new PIXI.Graphics();
-	nodeBackground.beginFill(backgroundColor);
-	if (shapeType == "circle") {
-		nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
-	} else {
-		nodeBackground.drawRect(0, 0, _nodeWidth * shapeSize, _nodeHeight * shapeSize);
-	}
-	nodeBackground.alpha = backgroundOpacity;
-	nodeBackground.pivot.x = _nodeWidth * 0.5 * shapeSize;
-	nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
-
 	const nodeBorder = new PIXI.Graphics();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
@@ -1244,6 +1267,38 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeBorder.moveTo(0, _nodeHeight * shapeSize);
 		nodeBorder.lineTo(0, 0);
 	}
+
+	const nodeContainer = new PIXI.Container();
+
+	const nodeBackground = new PIXI.Graphics();
+	nodeBackground.beginFill(backgroundColor);
+	if (shapeType == "circle") {
+		nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
+	} else {
+		nodeBackground.drawRect(0, 0, _nodeWidth * shapeSize, _nodeHeight * shapeSize);
+	}
+	nodeBackground.alpha = backgroundOpacity;
+	nodeBackground.pivot.x = _nodeWidth * 0.5 * shapeSize;
+	nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
+
+	nodeContainer.addChild(nodeBackground);
+
+	/*
+	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
+		let nodeImage;
+		if (shapeType == "circle") {
+			//nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_CIRCLE_ACTIVE : NODE_CIRCLE_INACTIVE);
+		} else if (shapeType == "diamond") {
+			nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_DIAMOND_ACTIVE : NODE_DIAMOND_INACTIVE);
+		} else {
+			nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_SQUARE_ACTIVE : NODE_SQUARE_INACTIVE);
+		}
+		if (nodeImage != undefined) {
+			nodeImage.anchor.set(0.5);
+			nodeContainer.addChild(nodeImage);
+		}
+	}
+	*/
 
 	if (shapeType == "diamond") {
 		nodeBackground.angle = 45;
@@ -1356,9 +1411,9 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	node.scaleFactor = scaleFactor;
 
 	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
-		node.addChild(nodeBackground, nodeText, nodeBorder);
+		node.addChild(nodeContainer, nodeText, nodeBorder);
 	} else {
-		node.addChild(nodeBackground, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
+		node.addChild(nodeContainer, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
 	}
 }
 function drawAllNodes() {
