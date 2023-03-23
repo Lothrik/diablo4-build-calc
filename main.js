@@ -127,14 +127,6 @@ const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
 const ENCHANTMENT_EFFECT_DESC = "— Enchantment Effect —";
-const PHYSICAL = "Physical";
-const FIRE = "Fire";
-const LIGHTNING = "Lightning";
-const COLD = "Cold";
-const POISON = "Poison";
-const SHADOW = "Shadow";
-const UNKNOWN = "Unknown";
-const ANY_DAMAGE_TYPE = [PHYSICAL, FIRE, LIGHTNING, COLD, POISON, SHADOW];
 const COOLDOWN = "Cooldown";
 const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
@@ -376,7 +368,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.0.39657-2";
+const localVersion = "0.8.0.39657-3";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -522,11 +514,7 @@ function handleSearchInput(event) {
 			// search `nodeHeader` for `newSearchText`
 			let nodeHeader = pixiNode.nodeName;
 			const itemType = pixiNode.nodeData.get("itemType");
-			if (itemType != undefined) {
-				nodeHeader += ` (${itemType})`;
-			} else if (pixiNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => pixiNode.nodeName.includes(damageType) || pixiNode.nodeDesc.includes(damageType))) {
-				nodeHeader += ` (${pixiNode.damageType})`;
-			}
+			if (itemType != undefined) nodeHeader += ` (${itemType})`;
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
 				pixiNode.nodeData.set("searchQueryMatch", true);
 				setNodeStyleThick(pixiNode, true);
@@ -1347,32 +1335,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			}
 		}
 
-		switch (nodeData.get("damageType")) {
-			case -1:
-			case undefined:
-				break;
-			case 0:
-				node.damageType = PHYSICAL;
-				break;
-			case 1:
-				node.damageType = FIRE;
-				break;
-			case 2:
-				node.damageType = LIGHTNING;
-				break;
-			case 3:
-				node.damageType = COLD;
-				break;
-			case 4:
-				node.damageType = POISON;
-				break;
-			case 5:
-				node.damageType = SHADOW;
-				break;
-			default:
-				node.damageType = UNKNOWN;
-				break;
-		}
 		node.nodeName = nodeName;
 		node.nodeData = nodeData;
 		node.groupName = groupName;
@@ -1848,11 +1810,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	let nodeHeader = curNode.nodeName;
 	const itemType = curNode.nodeData.get("itemType");
-	if (itemType != undefined) {
-		nodeHeader += ` (${itemType})`;
-	} else if (curNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => curNode.nodeName.includes(damageType) || curNode.nodeDesc.includes(damageType))) {
-		nodeHeader += ` (${curNode.damageType})`;
-	}
+	if (itemType != undefined) nodeHeader += ` (${itemType})`;
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
 		align: "left",
 		breakWords: true,

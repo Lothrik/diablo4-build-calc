@@ -390,12 +390,15 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 						output += '\t\tbaseSkill: "' + baseSkillName + '",\n';
 					}
 					output += "		connections: " + namedConnections(nodeData["connections"], skillName, classData, rootNodeName) + ",\n";
-					// TODO: damage type is not currently exported, update or remove..?
-					// output damage type for any non-modifier skill nodes, as long as they have a hit or DoT payload
-					/*if (baseSkillName == undefined && /{payload:.+?}|{dot:.+?}/i.test(nodeData["power"]["skill_desc"]) && nodeData["damage_type"] >= 0) {
-						output += "\t\tdamageType: " + nodeData["damage_type"] + ",\n";
-					}*/
-					const sanitizedDescription = sanitizeNodeDescription(nodeData["power"]["skill_desc"]);
+					let sanitizedDescription = sanitizeNodeDescription(nodeData["power"]["skill_desc"]);
+					if (nodeData["power"]["power_tags_list"] != undefined) {
+						if (sanitizedDescription == undefined) {
+							sanitizedDescription = "";
+						} else {
+							sanitizedDescription += "\n\n";
+						}
+						sanitizedDescription += `Tags: ${nodeData["power"]["power_tags_list"].join(", ")}.`;
+					}
 					let extraDescription = "";
 					if (className == "Sorcerer" && nodeData["reward"]["max_talent_ranks"] == 5) {
 						const MAX_TEXT_DISTANCE = 4;
@@ -619,7 +622,7 @@ function runParser(downloadMode) {
 					} else {
 						nodeDesc += "\n\n";
 					}
-					nodeDesc += "Tags: " + nodeData["tags"].join(", ");
+					nodeDesc += `Tags: ${nodeData["tags"].join(", ")}.`;
 				}
 				paragonData[className]["Node"][nodeName] = {
 					name: nodeData["name"],

@@ -53,7 +53,9 @@ druidData["Basic"] = {
 		description: `Cooldown: {#} seconds
 Generate Spirit: {#}
 Lucky Hit Chance: {#}%
-Sunder the earth, impaling the first enemy hit for {#}% damage.`,
+Sunder the earth, impaling the first enemy hit for {#}% damage.
+
+Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 		id: 162,
 		maxPoints: 5,
 		values: [ "", "", "", "" ],
@@ -63,7 +65,9 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 	"Enhanced Earth Spike": {
 		baseSkill: "Earth Spike",
 		connections: [ "Earth Spike", "Wild Earth Spike", "Fierce Earth Spike" ],
-		description: `Earth Spike has a {#}% chance to Stun for {#} seconds.`,
+		description: `Earth Spike has a {#}% chance to Stun for {#} seconds.
+
+Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 		id: 163,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -73,7 +77,9 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 	"Wild Earth Spike": {
 		baseSkill: "Earth Spike",
 		connections: [ "Enhanced Earth Spike" ],
-		description: `Summon a second Earth Spike when hitting an Immobilized or Stunned enemy.`,
+		description: `Summon a second Earth Spike when hitting an Immobilized or Stunned enemy.
+
+Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 		id: 164,
 		maxPoints: 1,
 		x: -741.72,
@@ -82,7 +88,9 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 	"Fierce Earth Spike": {
 		baseSkill: "Earth Spike",
 		connections: [ "Enhanced Earth Spike" ],
-		description: `Fortify for {#}% of your Base Life ({#}) whenever Earth Spike damages enemies who are Stunned, Immobilized, or Knocked Back.`,
+		description: `Fortify for {#}% of your Base Life ({#}) whenever Earth Spike damages enemies who are Stunned, Immobilized, or Knocked Back.
+
+Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 		id: 165,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -93,7 +101,9 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 		connections: [ "Basic", "Enhanced Maul" ],
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
-Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage.`,
+Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage.
+
+Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 4,
 		maxPoints: 5,
 		values: [ "11", "33", "21" ],
@@ -103,7 +113,9 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 	"Enhanced Maul": {
 		baseSkill: "Maul",
 		connections: [ "Maul", "Wild Maul", "Fierce Maul" ],
-		description: `If an enemy is hit by Maul, then Fortify for {#}% of your Base Life ({#}).`,
+		description: `If an enemy is hit by Maul, then Fortify for {#}% of your Base Life ({#}).
+
+Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 5,
 		maxPoints: 1,
 		values: [ "0.64", "" ],
@@ -113,7 +125,9 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 	"Wild Maul": {
 		baseSkill: "Maul",
 		connections: [ "Enhanced Maul" ],
-		description: `Maul has a {#}% chance to Knock Down enemies for {#} seconds.`,
+		description: `Maul has a {#}% chance to Knock Down enemies for {#} seconds.
+
+Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 6,
 		maxPoints: 1,
 		values: [ "15", "2" ],
@@ -123,7 +137,9 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 	"Fierce Maul": {
 		baseSkill: "Maul",
 		connections: [ "Enhanced Maul" ],
-		description: `Increases the range and radius of Maul by {#}%.`,
+		description: `Increases the range and radius of Maul by {#}%.
+
+Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 7,
 		maxPoints: 1,
 		values: [ "" ],
@@ -134,7 +150,9 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 		connections: [ "Basic", "Enhanced Wind Shear" ],
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
-Conjure a piercing blade of wind, dealing {#}% damage.`,
+Conjure a piercing blade of wind, dealing {#}% damage.
+
+Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		id: 8,
 		maxPoints: 5,
 		values: [ "12", "33", "17.85" ],
@@ -144,7 +162,9 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 	"Enhanced Wind Shear": {
 		baseSkill: "Wind Shear",
 		connections: [ "Wind Shear", "Fierce Wind Shear", "Wild Wind Shear" ],
-		description: `Wind Shear has a {#}% chance to make enemies Vulnerable for {#} seconds.`,
+		description: `Wind Shear has a {#}% chance to make enemies Vulnerable for {#} seconds.
+
+Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		id: 9,
 		maxPoints: 1,
 		values: [ "35", "4" ],
@@ -154,7 +174,9 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 	"Fierce Wind Shear": {
 		baseSkill: "Wind Shear",
 		connections: [ "Enhanced Wind Shear" ],
-		description: `Each enemy hit by Wind Shear increases your Movement Speed by +{#}% for {#} seconds, up to +{#}%.`,
+		description: `Each enemy hit by Wind Shear increases your Movement Speed by +{#}% for {#} seconds, up to +{#}%.
+
+Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		id: 10,
 		maxPoints: 1,
 		values: [ "5", "3", "20" ],
@@ -164,7 +186,9 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 	"Wild Wind Shear": {
 		baseSkill: "Wind Shear",
 		connections: [ "Enhanced Wind Shear" ],
-		description: `Wind Shear grants {#} additional Spirit for each enemy hit beyond the first.`,
+		description: `Wind Shear grants {#} additional Spirit for each enemy hit beyond the first.
+
+Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		id: 11,
 		maxPoints: 1,
 		values: [ "" ],
@@ -177,7 +201,9 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 Lucky Hit Chance: {#}%
 Electricity gathers around your weapon, dealing {#}% damage to your target and chaining to up to {#} surrounding enemies, dealing {#}% less damage each time it chains.
 
-You gain {#}% Damage Reduction for {#} seconds after dealing damage with Storm Strike.`,
+You gain {#}% Damage Reduction for {#} seconds after dealing damage with Storm Strike.
+
+Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 12,
 		maxPoints: 5,
 		values: [ "15", "25", "28.35", "", "", "25", "3" ],
@@ -187,7 +213,9 @@ You gain {#}% Damage Reduction for {#} seconds after dealing damage with Storm S
 	"Enhanced Storm Strike": {
 		baseSkill: "Storm Strike",
 		connections: [ "Storm Strike", "Fierce Storm Strike", "Wild Storm Strike" ],
-		description: `Storm Strike has a {#}% chance to Immobilize all enemies hit for {#} seconds.`,
+		description: `Storm Strike has a {#}% chance to Immobilize all enemies hit for {#} seconds.
+
+Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 13,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -197,7 +225,9 @@ You gain {#}% Damage Reduction for {#} seconds after dealing damage with Storm S
 	"Fierce Storm Strike": {
 		baseSkill: "Storm Strike",
 		connections: [ "Enhanced Storm Strike" ],
-		description: `Storm Strike has a {#}% chance to make enemies Vulnerable for {#} seconds.`,
+		description: `Storm Strike has a {#}% chance to make enemies Vulnerable for {#} seconds.
+
+Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 14,
 		maxPoints: 1,
 		values: [ "50", "3" ],
@@ -207,7 +237,9 @@ You gain {#}% Damage Reduction for {#} seconds after dealing damage with Storm S
 	"Wild Storm Strike": {
 		baseSkill: "Storm Strike",
 		connections: [ "Enhanced Storm Strike" ],
-		description: `Storm Strike chains to {#} additional targets.`,
+		description: `Storm Strike chains to {#} additional targets.
+
+Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 15,
 		maxPoints: 1,
 		values: [ "" ],
@@ -218,7 +250,9 @@ You gain {#}% Damage Reduction for {#} seconds after dealing damage with Storm S
 		connections: [ "Basic", "Enhanced Claw" ],
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
-Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
+Shapeshift into a Werewolf and claw at an enemy for {#}% damage.
+
+Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 		id: 16,
 		maxPoints: 5,
 		values: [ "9", "50", "21" ],
@@ -228,7 +262,9 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 	"Enhanced Claw": {
 		baseSkill: "Claw",
 		connections: [ "Claw", "Fierce Claw", "Wild Claw" ],
-		description: `Claw's Attack Speed is increased by +{#}%.`,
+		description: `Claw's Attack Speed is increased by +{#}%.
+
+Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 		id: 17,
 		maxPoints: 1,
 		values: [ "10" ],
@@ -238,7 +274,9 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 	"Fierce Claw": {
 		baseSkill: "Claw",
 		connections: [ "Enhanced Claw" ],
-		description: `Claw applies {#}% Poisoning damage over {#} seconds.`,
+		description: `Claw applies {#}% Poisoning damage over {#} seconds.
+
+Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 		id: 18,
 		maxPoints: 1,
 		values: [ "", "3" ],
@@ -248,7 +286,9 @@ Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,
 	"Wild Claw": {
 		baseSkill: "Claw",
 		connections: [ "Enhanced Claw" ],
-		description: `Claw has a {#}% chance to attack twice.`,
+		description: `Claw has a {#}% chance to attack twice.
+
+Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 		id: 19,
 		maxPoints: 1,
 		values: [ "10" ],
@@ -262,7 +302,9 @@ druidData["Spirit"] = {
 		connections: [ "Spirit", "Enhanced Landslide" ],
 		description: `Spirit Cost: {#}
 Lucky Hit Chance: {#}%
-Crush enemies between 2 pillars of earth, dealing up to {#}% damage.`,
+Crush enemies between 2 pillars of earth, dealing up to {#}% damage.
+
+Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 		id: 20,
 		maxPoints: 5,
 		values: [ "30", "20", "78.75" ],
@@ -272,7 +314,9 @@ Crush enemies between 2 pillars of earth, dealing up to {#}% damage.`,
 	"Enhanced Landslide": {
 		baseSkill: "Landslide",
 		connections: [ "Landslide", "Raging Landslide", "Primal Landslide" ],
-		description: `After Landslide damages enemies {#} times, the next hit will Immobilize enemies for {#} seconds.`,
+		description: `After Landslide damages enemies {#} times, the next hit will Immobilize enemies for {#} seconds.
+
+Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 		id: 21,
 		maxPoints: 1,
 		values: [ "", "3" ],
@@ -282,7 +326,9 @@ Crush enemies between 2 pillars of earth, dealing up to {#}% damage.`,
 	"Raging Landslide": {
 		baseSkill: "Landslide",
 		connections: [ "Enhanced Landslide" ],
-		description: `When you strike an Immobilized or Stunned enemy with Landslide, an additional pillar of earth is formed.`,
+		description: `When you strike an Immobilized or Stunned enemy with Landslide, an additional pillar of earth is formed.
+
+Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 		id: 22,
 		maxPoints: 1,
 		x: 1121.353,
@@ -291,7 +337,9 @@ Crush enemies between 2 pillars of earth, dealing up to {#}% damage.`,
 	"Primal Landslide": {
 		baseSkill: "Landslide",
 		connections: [ "Enhanced Landslide" ],
-		description: `When you Immobilize or Stun an enemy, you gain a Terramote. Each enemy hit by Landslide consumes a Terramote causing a guaranteed Critical Strike with x{#}% Critical Strike Damage. Bosses always have up to a {#}% chance to grant a Terramote when hit.`,
+		description: `When you Immobilize or Stun an enemy, you gain a Terramote. Each enemy hit by Landslide consumes a Terramote causing a guaranteed Critical Strike with x{#}% Critical Strike Damage. Bosses always have up to a {#}% chance to grant a Terramote when hit.
+
+Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 		id: 23,
 		maxPoints: 1,
 		values: [ "10", "30" ],
@@ -302,7 +350,9 @@ Crush enemies between 2 pillars of earth, dealing up to {#}% damage.`,
 		connections: [ "Spirit", "Enhanced Pulverize" ],
 		description: `Spirit Cost: {#}
 Lucky Hit Chance: {#}%
-Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surrounding enemies.`,
+Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surrounding enemies.
+
+Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 24,
 		maxPoints: 5,
 		values: [ "35", "33", "52.5" ],
@@ -312,7 +362,9 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 	"Enhanced Pulverize": {
 		baseSkill: "Pulverize",
 		connections: [ "Pulverize", "Primal Pulverize", "Raging Pulverize" ],
-		description: `Your next Pulverize will Overpower every {#} seconds while you remain Healthy.`,
+		description: `Your next Pulverize will Overpower every {#} seconds while you remain Healthy.
+
+Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 25,
 		maxPoints: 1,
 		values: [ "" ],
@@ -322,7 +374,9 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 	"Primal Pulverize": {
 		baseSkill: "Pulverize",
 		connections: [ "Enhanced Pulverize" ],
-		description: `Enemies hit with Pulverize deal {#}% reduced damage for {#} seconds.`,
+		description: `Enemies hit with Pulverize deal {#}% reduced damage for {#} seconds.
+
+Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 26,
 		maxPoints: 1,
 		values: [ "15", "4" ],
@@ -332,7 +386,9 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 	"Raging Pulverize": {
 		baseSkill: "Pulverize",
 		connections: [ "Enhanced Pulverize" ],
-		description: `Enemies are Stunned for {#} seconds when they are Overpowered with Pulverize.`,
+		description: `Enemies are Stunned for {#} seconds when they are Overpowered with Pulverize.
+
+Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 27,
 		maxPoints: 1,
 		values: [ "" ],
@@ -343,7 +399,9 @@ Shapeshift into a Werebear and slam the ground, dealing {#}% damage to surroundi
 		connections: [ "Spirit", "Enhanced Tornado" ],
 		description: `Spirit Cost: {#}
 Lucky Hit Chance: {#}%
-Conjure a swirling tornado that deals {#}% damage.`,
+Conjure a swirling tornado that deals {#}% damage.
+
+Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 		id: 28,
 		maxPoints: 5,
 		values: [ "40", "33", "105" ],
@@ -353,7 +411,9 @@ Conjure a swirling tornado that deals {#}% damage.`,
 	"Enhanced Tornado": {
 		baseSkill: "Tornado",
 		connections: [ "Tornado", "Raging Tornado", "Primal Tornado" ],
-		description: `Each time you cast Tornado, you have a {#}% chance to spawn an additional Tornado.`,
+		description: `Each time you cast Tornado, you have a {#}% chance to spawn an additional Tornado.
+
+Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 		id: 29,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -363,7 +423,9 @@ Conjure a swirling tornado that deals {#}% damage.`,
 	"Raging Tornado": {
 		baseSkill: "Tornado",
 		connections: [ "Enhanced Tornado" ],
-		description: `Enemies hit with Tornado have a {#}% chance to become Vulnerable for {#} seconds.`,
+		description: `Enemies hit with Tornado have a {#}% chance to become Vulnerable for {#} seconds.
+
+Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 		id: 30,
 		maxPoints: 1,
 		values: [ "5", "3" ],
@@ -373,7 +435,9 @@ Conjure a swirling tornado that deals {#}% damage.`,
 	"Primal Tornado": {
 		baseSkill: "Tornado",
 		connections: [ "Enhanced Tornado" ],
-		description: `Enemies damaged by Tornado are Slowed by {#}% for {#} seconds, stacking up to {#}%.`,
+		description: `Enemies damaged by Tornado are Slowed by {#}% for {#} seconds, stacking up to {#}%.
+
+Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 		id: 31,
 		maxPoints: 1,
 		values: [ "8", "3", "" ],
@@ -387,7 +451,9 @@ Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and perform a trio of combo attacks:
 1st Attack: Deal {#}% damage.
 2nd Attack: Deal {#}% damage.
-3rd Attack: Perform a larger finishing move dealing {#}% damage.`,
+3rd Attack: Perform a larger finishing move dealing {#}% damage.
+
+Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		id: 33,
 		maxPoints: 5,
 		values: [ "35", "20", "", "", "" ],
@@ -397,7 +463,9 @@ Shapeshift into a Werewolf and perform a trio of combo attacks:
 	"Enhanced Shred": {
 		baseSkill: "Shred",
 		connections: [ "Shred", "Raging Shred", "Primal Shred" ],
-		description: `Shred gains +{#}% Attack Speed and Heals for {#}% of your Maximum Life ({#}) if an enemy is struck.`,
+		description: `Shred gains +{#}% Attack Speed and Heals for {#}% of your Maximum Life ({#}) if an enemy is struck.
+
+Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		id: 34,
 		maxPoints: 1,
 		values: [ "", "2", "" ],
@@ -407,7 +475,9 @@ Shapeshift into a Werewolf and perform a trio of combo attacks:
 	"Raging Shred": {
 		baseSkill: "Shred",
 		connections: [ "Enhanced Shred" ],
-		description: `Shred's third combo attack is larger and applies an additional {#}% Poisoning damage over {#} seconds.`,
+		description: `Shred's third combo attack is larger and applies an additional {#}% Poisoning damage over {#} seconds.
+
+Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		id: 36,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -417,7 +487,9 @@ Shapeshift into a Werewolf and perform a trio of combo attacks:
 	"Primal Shred": {
 		baseSkill: "Shred",
 		connections: [ "Enhanced Shred" ],
-		description: `Shred's second and third attacks also perform a dash. In addition, Shred's Critical Strike Damage is increased by x{#}%.`,
+		description: `Shred's second and third attacks also perform a dash. In addition, Shred's Critical Strike Damage is increased by x{#}%.
+
+Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		id: 35,
 		maxPoints: 1,
 		values: [ "" ],
@@ -428,7 +500,9 @@ Shapeshift into a Werewolf and perform a trio of combo attacks:
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
 		description: `Spirit Cost: {#} per strike
 Lucky Hit Chance: {#}%
-Conjure a growing lightning storm that deals {#}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.`,
+Conjure a growing lightning storm that deals {#}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.
+
+Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 		id: 37,
 		maxPoints: 5,
 		values: [ "15", "15", "26.25", "5" ],
@@ -438,7 +512,9 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 	"Enhanced Lightning Storm": {
 		baseSkill: "Lightning Storm",
 		connections: [ "Lightning Storm", "Primal Lightning Storm", "Raging Lightning Storm" ],
-		description: `The size of your Lightning Storm is preserved for {#} seconds after channeling.`,
+		description: `The size of your Lightning Storm is preserved for {#} seconds after channeling.
+
+Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 		id: 38,
 		maxPoints: 1,
 		values: [ "4" ],
@@ -448,7 +524,9 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 	"Primal Lightning Storm": {
 		baseSkill: "Lightning Storm",
 		connections: [ "Enhanced Lightning Storm" ],
-		description: `Lightning Storm has a {#}% chance to Immobilize enemies hit for {#} seconds.`,
+		description: `Lightning Storm has a {#}% chance to Immobilize enemies hit for {#} seconds.
+
+Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 		id: 39,
 		maxPoints: 1,
 		values: [ "8", "3" ],
@@ -458,7 +536,9 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 	"Raging Lightning Storm": {
 		baseSkill: "Lightning Storm",
 		connections: [ "Enhanced Lightning Storm" ],
-		description: `Lightning Storm gains 1 additional lightning strike.`,
+		description: `Lightning Storm gains 1 additional lightning strike.
+
+Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 		id: 40,
 		maxPoints: 1,
 		x: -700.415,
@@ -466,7 +546,9 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 	},
 	"Heart of the Wild": {
 		connections: [ "Spirit", "Wild Impulses", "Abundance" ],
-		description: `Maximum Spirit is increased by {#}.`,
+		description: `Maximum Spirit is increased by {#}.
+
+Tags: Spirit.`,
 		id: 42,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
@@ -475,7 +557,9 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 	},
 	"Wild Impulses": {
 		connections: [ "Heart of the Wild" ],
-		description: `Your Core Skills cost x{#}% more Spirit but deal x{#}% increased damage.`,
+		description: `Your Core Skills cost x{#}% more Spirit but deal x{#}% increased damage.
+
+Tags: Damage, Spirit, Core.`,
 		id: 32,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "{10/20/30}" ],
@@ -484,7 +568,9 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 	},
 	"Abundance": {
 		connections: [ "Heart of the Wild" ],
-		description: `Basic Skills generate x{#}% more Spirit.`,
+		description: `Basic Skills generate x{#}% more Spirit.
+
+Tags: Spirit, Basic.`,
 		id: 41,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -493,7 +579,9 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 	},
 	"Predatory Instinct": {
 		connections: [ "Spirit", "Iron Fur", "Digitigrade Gait" ],
-		description: `Critical Strike Chance against Close enemies is increased by +{#}%.`,
+		description: `Critical Strike Chance against Close enemies is increased by +{#}%.
+
+Tags: Critical Strikes.`,
 		id: 136,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
@@ -504,7 +592,9 @@ Conjure a growing lightning storm that deals {#}% damage per strike and increase
 		connections: [ "Predatory Instinct" ],
 		description: `You gain {#}% Damage Reduction while in Werebear form.
 
-This bonus persists for {#} seconds after leaving Werebear form.`,
+This bonus persists for {#} seconds after leaving Werebear form.
+
+Tags: Werebear, Shapeshifting, Damage Reduction.`,
 		id: 137,
 		maxPoints: 3,
 		values: [ "{3/6/9}", "3" ],
@@ -515,7 +605,9 @@ This bonus persists for {#} seconds after leaving Werebear form.`,
 		connections: [ "Predatory Instinct" ],
 		description: `You gain +{#}% Movement Speed while in Werewolf form.
 
-This bonus persists for {#} seconds after leaving Werewolf form.`,
+This bonus persists for {#} seconds after leaving Werewolf form.
+
+Tags: Werewolf, Movement, Shapeshifting.`,
 		id: 138,
 		maxPoints: 3,
 		values: [ "{4/8/12}", "3" ],
@@ -529,7 +621,9 @@ druidData["Defensive"] = {
 		connections: [ "Defensive", "Enhanced Earthen Bulwark" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your Base Life ({#}) in damage.`,
+Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your Base Life ({#}) in damage.
+
+Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 		id: 43,
 		maxPoints: 5,
 		values: [ "16.0", "50", "3", "10", "" ],
@@ -539,7 +633,9 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 	"Enhanced Earthen Bulwark": {
 		baseSkill: "Earthen Bulwark",
 		connections: [ "Earthen Bulwark", "Innate Earthen Bulwark", "Preserving Earthen Bulwark" ],
-		description: `Earthen Bulwark makes you Unstoppable while active.`,
+		description: `Earthen Bulwark makes you Unstoppable while active.
+
+Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 		id: 44,
 		maxPoints: 1,
 		x: 5.025,
@@ -548,7 +644,9 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 	"Innate Earthen Bulwark": {
 		baseSkill: "Earthen Bulwark",
 		connections: [ "Enhanced Earthen Bulwark" ],
-		description: `Rock shrapnel flies outward when Earthen Bulwark is destroyed or expires, dealing {#}% to surrounding enemies. This damage is increased by Barrier bonuses.`,
+		description: `Rock shrapnel flies outward when Earthen Bulwark is destroyed or expires, dealing {#}% to surrounding enemies. This damage is increased by Barrier bonuses.
+
+Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 		id: 45,
 		maxPoints: 1,
 		values: [ "300" ],
@@ -558,7 +656,9 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 	"Preserving Earthen Bulwark": {
 		baseSkill: "Earthen Bulwark",
 		connections: [ "Enhanced Earthen Bulwark" ],
-		description: `Casting Earthen Bulwark grants {#}% Base Life ({#}) as Fortify.`,
+		description: `Casting Earthen Bulwark grants {#}% Base Life ({#}) as Fortify.
+
+Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 		id: 46,
 		maxPoints: 1,
 		values: [ "7.2", "" ],
@@ -568,7 +668,9 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 	"Debilitating Roar": {
 		connections: [ "Defensive", "Enhanced Debilitating Roar" ],
 		description: `Cooldown: {#} seconds
-Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by {#}% for {#} seconds.`,
+Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by {#}% for {#} seconds.
+
+Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 47,
 		maxPoints: 5,
 		values: [ "22.0", "50", "4" ],
@@ -578,7 +680,9 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 	"Enhanced Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Debilitating Roar", "Preserving Debilitating Roar", "Innate Debilitating Roar" ],
-		description: `Debilitating Roar also Fortifies you for {#}% Base Life ({#}).`,
+		description: `Debilitating Roar also Fortifies you for {#}% Base Life ({#}).
+
+Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 48,
 		maxPoints: 1,
 		values: [ "8.8", "" ],
@@ -588,7 +692,9 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 	"Preserving Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Enhanced Debilitating Roar" ],
-		description: `Debilitating Roar also Heals you for {#}% of your Maximum Life ({#}) each second for its duration.`,
+		description: `Debilitating Roar also Heals you for {#}% of your Maximum Life ({#}) each second for its duration.
+
+Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 49,
 		maxPoints: 1,
 		values: [ "4", "" ],
@@ -598,7 +704,9 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 	"Innate Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Enhanced Debilitating Roar" ],
-		description: `Debilitating Roar also Slows enemies by {#}% for its duration.`,
+		description: `Debilitating Roar also Slows enemies by {#}% for its duration.
+
+Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 50,
 		maxPoints: 1,
 		values: [ "40" ],
@@ -607,7 +715,9 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 	},
 	"Ancestral Fortitude": {
 		connections: [ "Defensive", "Vigilance" ],
-		description: `Increase your Non-Physical Resistances by {#}%.`,
+		description: `Increase your Non-Physical Resistances by {#}%.
+
+Tags: Non-Physical, Resistance.`,
 		id: 51,
 		maxPoints: 3,
 		values: [ "" ],
@@ -616,7 +726,9 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 	},
 	"Vigilance": {
 		connections: [ "Ancestral Fortitude" ],
-		description: `You gain {#}% Damage Reduction for {#} seconds after using a Defensive Skill.`,
+		description: `You gain {#}% Damage Reduction for {#} seconds after using a Defensive Skill.
+
+Tags: Damage Reduction, Defensive.`,
 		id: 52,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -626,7 +738,9 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 	"Blood Howl": {
 		connections: [ "Defensive", "Enhanced Blood Howl" ],
 		description: `Cooldown: {#} seconds
-Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maximum Life ({#}).`,
+Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maximum Life ({#}).
+
+Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 		id: 53,
 		maxPoints: 5,
 		values: [ "15.0", "20.0", "" ],
@@ -636,7 +750,9 @@ Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maxi
 	"Enhanced Blood Howl": {
 		baseSkill: "Blood Howl",
 		connections: [ "Blood Howl", "Innate Blood Howl", "Preserving Blood Howl" ],
-		description: `Kills reduce the Cooldown of Blood Howl by {#} second.`,
+		description: `Kills reduce the Cooldown of Blood Howl by {#} second.
+
+Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 		id: 54,
 		maxPoints: 1,
 		values: [ "1" ],
@@ -646,7 +762,9 @@ Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maxi
 	"Innate Blood Howl": {
 		baseSkill: "Blood Howl",
 		connections: [ "Enhanced Blood Howl" ],
-		description: `Blood Howl also generates {#} Spirit.`,
+		description: `Blood Howl also generates {#} Spirit.
+
+Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 		id: 55,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -656,7 +774,9 @@ Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maxi
 	"Preserving Blood Howl": {
 		baseSkill: "Blood Howl",
 		connections: [ "Enhanced Blood Howl" ],
-		description: `Blood Howl also increases your Attack Speed by +{#}% for {#} seconds.`,
+		description: `Blood Howl also increases your Attack Speed by +{#}% for {#} seconds.
+
+Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 		id: 56,
 		maxPoints: 1,
 		values: [ "15", "4" ],
@@ -669,7 +789,9 @@ Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maxi
 Lucky Hit Chance: {#}%
 Passive: Powerful winds surround you, granting {#}% Non-Physical Damage Reduction.
 
-Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.`,
+Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
+
+Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Physical, Physical, Crowd Control.`,
 		id: 57,
 		maxPoints: 5,
 		values: [ "15.0", "25", "20", "15.75" ],
@@ -679,7 +801,9 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 	"Enhanced Cyclone Armor": {
 		baseSkill: "Cyclone Armor",
 		connections: [ "Cyclone Armor", "Preserving Cyclone Armor", "Innate Cyclone Armor" ],
-		description: `Enemies who are Knocked Back by Cyclone Armor are also Slowed by {#}% for {#} seconds.`,
+		description: `Enemies who are Knocked Back by Cyclone Armor are also Slowed by {#}% for {#} seconds.
+
+Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Physical, Physical, Crowd Control.`,
 		id: 58,
 		maxPoints: 1,
 		values: [ "40", "3" ],
@@ -689,7 +813,9 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 	"Preserving Cyclone Armor": {
 		baseSkill: "Cyclone Armor",
 		connections: [ "Enhanced Cyclone Armor" ],
-		description: `Every {#} seconds, Cyclone Armor intensifies, causing incoming damage to grant you {#}% Damage Reduction for {#} seconds.`,
+		description: `Every {#} seconds, Cyclone Armor intensifies, causing incoming damage to grant you {#}% Damage Reduction for {#} seconds.
+
+Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Physical, Physical, Crowd Control.`,
 		id: 59,
 		maxPoints: 1,
 		values: [ "10", "40", "" ],
@@ -699,7 +825,9 @@ Active: The winds rapidly expand, Knocking Back enemies and dealing {#}% damage.
 	"Innate Cyclone Armor": {
 		baseSkill: "Cyclone Armor",
 		connections: [ "Enhanced Cyclone Armor" ],
-		description: `Enemies Knocked Back by Cyclone Armor become Vulnerable for {#} seconds.`,
+		description: `Enemies Knocked Back by Cyclone Armor become Vulnerable for {#} seconds.
+
+Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Physical, Physical, Crowd Control.`,
 		id: 60,
 		maxPoints: 1,
 		values: [ "" ],
@@ -715,7 +843,9 @@ druidData["Companion"] = {
 Lucky Hit Chance: {#}%
 Passive: {#} Ravens fly above you and periodically attack your enemies for {#}% damage every {#} seconds.
 
-Active: The target area is swarmed with ravens, dealing {#}% damage over {#} seconds.`,
+Active: The target area is swarmed with ravens, dealing {#}% damage over {#} seconds.
+
+Tags: Companion, Physical, Damage, Cooldown.`,
 		id: 62,
 		maxPoints: 5,
 		values: [ "25.0", "33", "", "89.25", "6", "", "" ],
@@ -725,7 +855,9 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 	"Enhanced Ravens": {
 		baseSkill: "Ravens",
 		connections: [ "Ravens", "Brutal Ravens", "Ferocious Ravens" ],
-		description: `You have +{#}% increased Critical Strike Chance for {#} seconds against Enemies hit by Ravens.`,
+		description: `You have +{#}% increased Critical Strike Chance for {#} seconds against Enemies hit by Ravens.
+
+Tags: Companion, Physical, Damage, Cooldown.`,
 		id: 63,
 		maxPoints: 1,
 		values: [ "13.85", "5" ],
@@ -735,7 +867,9 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 	"Brutal Ravens": {
 		baseSkill: "Ravens",
 		connections: [ "Enhanced Ravens" ],
-		description: `{#} additional Ravens periodically attack enemies.`,
+		description: `{#} additional Ravens periodically attack enemies.
+
+Tags: Companion, Physical, Damage, Cooldown.`,
 		id: 64,
 		maxPoints: 1,
 		values: [ "2" ],
@@ -745,7 +879,9 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 	"Ferocious Ravens": {
 		baseSkill: "Ravens",
 		connections: [ "Enhanced Ravens" ],
-		description: `Enemies inside the swarm of Ravens when it is activated become Vulnerable for {#} seconds.`,
+		description: `Enemies inside the swarm of Ravens when it is activated become Vulnerable for {#} seconds.
+
+Tags: Companion, Physical, Damage, Cooldown.`,
 		id: 65,
 		maxPoints: 1,
 		values: [ "3" ],
@@ -754,7 +890,9 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 	},
 	"Call of the Wild": {
 		connections: [ "Companion" ],
-		description: `Your companions deal x{#}% bonus damage.`,
+		description: `Your companions deal x{#}% bonus damage.
+
+Tags: Companion, Damage.`,
 		id: 66,
 		maxPoints: 3,
 		values: [ "{8/16/24}" ],
@@ -767,7 +905,9 @@ Active: The target area is swarmed with ravens, dealing {#}% damage over {#} sec
 Lucky Hit Chance: {#}%
 Passive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#}% Poisoning damage over {#} seconds to an enemy in the area.
 
-Active: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.`,
+Active: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.
+
+Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 67,
 		maxPoints: 5,
 		values: [ "20.0", "40", "7", "37.8", "6", "2", "31.5", "2" ],
@@ -777,7 +917,9 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 	"Enhanced Vine Creeper": {
 		baseSkill: "Vine Creeper",
 		connections: [ "Vine Creeper", "Ferocious Vine Creeper", "Brutal Vine Creeper" ],
-		description: `Vine Creeper's Immobilize duration is increased by {#} second.`,
+		description: `Vine Creeper's Immobilize duration is increased by {#} second.
+
+Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 68,
 		maxPoints: 1,
 		values: [ "1" ],
@@ -787,7 +929,9 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 	"Ferocious Vine Creeper": {
 		baseSkill: "Vine Creeper",
 		connections: [ "Enhanced Vine Creeper" ],
-		description: `Vine Creeper's active Poisoning duration is increased by {#} seconds.`,
+		description: `Vine Creeper's active Poisoning duration is increased by {#} seconds.
+
+Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 69,
 		maxPoints: 1,
 		values: [ "3" ],
@@ -797,7 +941,9 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 	"Brutal Vine Creeper": {
 		baseSkill: "Vine Creeper",
 		connections: [ "Enhanced Vine Creeper" ],
-		description: `Your Critical Strike Chance is increased by +{#}% against enemies strangled by Vine Creeper.`,
+		description: `Your Critical Strike Chance is increased by +{#}% against enemies strangled by Vine Creeper.
+
+Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 70,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -810,7 +956,9 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 Lucky Hit Chance: {#}%
 Passive: Summon {#} wolf companions that bite enemies for {#}% damage.
 
-Active: Direct your wolves to focus an enemy, leaping to them and striking for {#}% damage.`,
+Active: Direct your wolves to focus an enemy, leaping to them and striking for {#}% damage.
+
+Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 71,
 		maxPoints: 5,
 		values: [ "14.0", "50", "2", "8.19", "36.75" ],
@@ -820,7 +968,9 @@ Active: Direct your wolves to focus an enemy, leaping to them and striking for {
 	"Enhanced Wolves": {
 		baseSkill: "Wolves",
 		connections: [ "Wolves", "Brutal Wolf Pack", "Ferocious Wolf Pack" ],
-		description: `Wolves deal x{#}% increased damage to Immobilized, Stunned, Slowed, or Poisoned enemies.`,
+		description: `Wolves deal x{#}% increased damage to Immobilized, Stunned, Slowed, or Poisoned enemies.
+
+Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 139,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -830,7 +980,9 @@ Active: Direct your wolves to focus an enemy, leaping to them and striking for {
 	"Brutal Wolf Pack": {
 		baseSkill: "Wolves",
 		connections: [ "Enhanced Wolves" ],
-		description: `When you Critically Strike, your Wolves gain +{#}% Attack Speed for {#} seconds.`,
+		description: `When you Critically Strike, your Wolves gain +{#}% Attack Speed for {#} seconds.
+
+Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 74,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -840,7 +992,9 @@ Active: Direct your wolves to focus an enemy, leaping to them and striking for {
 	"Ferocious Wolf Pack": {
 		baseSkill: "Wolves",
 		connections: [ "Enhanced Wolves" ],
-		description: `Lucky Hit: Your Wolves' attacks have up to a {#}% chance to Fortify you for {#}% Base Life ({#}).`,
+		description: `Lucky Hit: Your Wolves' attacks have up to a {#}% chance to Fortify you for {#}% Base Life ({#}).
+
+Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 73,
 		maxPoints: 1,
 		values: [ "", "", "" ],
@@ -849,7 +1003,9 @@ Active: Direct your wolves to focus an enemy, leaping to them and striking for {
 	},
 	"Nature's Reach": {
 		connections: [ "Companion" ],
-		description: `Deal x{#}% increased damage to Distant enemies. Double this bonus if they are also Slowed, Stunned, Immobilized, or Knocked Back.`,
+		description: `Deal x{#}% increased damage to Distant enemies. Double this bonus if they are also Slowed, Stunned, Immobilized, or Knocked Back.
+
+Tags: Damage, Crowd Control.`,
 		id: 75,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
@@ -858,7 +1014,9 @@ Active: Direct your wolves to focus an enemy, leaping to them and striking for {
 	},
 	"Clarity": {
 		connections: [ "Companion" ],
-		description: `Gain {#} Spirit when transforming into Human form.`,
+		description: `Gain {#} Spirit when transforming into Human form.
+
+Tags: Spirit, Shapeshifting.`,
 		id: 76,
 		maxPoints: 3,
 		values: [ "{2/4/6}" ],
@@ -870,7 +1028,9 @@ Active: Direct your wolves to focus an enemy, leaping to them and striking for {
 druidData["Wrath"] = {
 	"Elemental Exposure": {
 		connections: [ "Charged Atmosphere", "Wrath", "Endless Tempest" ],
-		description: `Lucky Hit: Your Storm Skills have up to a {#}% chance to make enemies Vulnerable for {#} seconds.`,
+		description: `Lucky Hit: Your Storm Skills have up to a {#}% chance to make enemies Vulnerable for {#} seconds.
+
+Tags: Vulnerable, Lucky Hit, Storm, Nature Magic.`,
 		id: 80,
 		maxPoints: 3,
 		values: [ "{20/40/60}", "1" ],
@@ -879,7 +1039,9 @@ druidData["Wrath"] = {
 	},
 	"Charged Atmosphere": {
 		connections: [ "Elemental Exposure", "Electric Shock", "Bad Omen" ],
-		description: `Every {#} seconds, a lightning strike hits a Nearby enemy dealing {#}% damage.`,
+		description: `Every {#} seconds, a lightning strike hits a Nearby enemy dealing {#}% damage.
+
+Tags: Storm, Nature Magic, Damage, Lightning.`,
 		id: 81,
 		maxPoints: 3,
 		values: [ "{18/13.5/10}", "47.25" ],
@@ -890,7 +1052,9 @@ druidData["Wrath"] = {
 		connections: [ "Charged Atmosphere", "Bad Omen" ],
 		description: `Lucky Hit: Dealing Lightning damage to enemies has a {#}% chance to Immobilize them for {#} seconds.
 
-If the target is already Immobilized, the Lightning damage dealt to them is increased by x{#}% instead.`,
+If the target is already Immobilized, the Lightning damage dealt to them is increased by x{#}% instead.
+
+Tags: Crowd Control, Lightning, Lucky Hit, Damage.`,
 		id: 82,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "3", "" ],
@@ -899,7 +1063,9 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	"Bad Omen": {
 		connections: [ "Charged Atmosphere", "Electric Shock", "Endless Tempest" ],
-		description: `Lucky Hit: Up to a {#}% chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a lightning strike also hits dealing {#}% damage.`,
+		description: `Lucky Hit: Up to a {#}% chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a lightning strike also hits dealing {#}% damage.
+
+Tags: Vulnerable, Lightning, Damage, Nature Magic, Storm, Lucky Hit, Crowd Control.`,
 		id: 83,
 		maxPoints: 3,
 		values: [ "{10/20/30}", "57.25" ],
@@ -908,7 +1074,9 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 	},
 	"Endless Tempest": {
 		connections: [ "Elemental Exposure", "Bad Omen" ],
-		description: `Increase the duration of Hurricane and Cataclysm by x{#}%.`,
+		description: `Increase the duration of Hurricane and Cataclysm by x{#}%.
+
+Tags: Damage, Storm, Nature Magic.`,
 		id: 84,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -920,7 +1088,9 @@ If the target is already Immobilized, the Lightning damage dealt to them is incr
 		description: `Spirit Cost: {#}
 Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#}% damage with each hit.`,
+Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#}% damage with each hit.
+
+Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 85,
 		maxPoints: 5,
 		values: [ "10.0", "20", "34.65", "" ],
@@ -930,7 +1100,9 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 	"Enhanced Boulder": {
 		baseSkill: "Boulder",
 		connections: [ "Boulder", "Natural Boulder", "Savage Boulder" ],
-		description: `When Boulder reaches the end of its path, enemies hit are Slowed by {#}% for {#} seconds. If Boulder Overpowered, enemies are Stunned for {#} seconds instead.`,
+		description: `When Boulder reaches the end of its path, enemies hit are Slowed by {#}% for {#} seconds. If Boulder Overpowered, enemies are Stunned for {#} seconds instead.
+
+Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 86,
 		maxPoints: 1,
 		values: [ "30", "2", "" ],
@@ -940,7 +1112,9 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 	"Natural Boulder": {
 		baseSkill: "Boulder",
 		connections: [ "Enhanced Boulder" ],
-		description: `While you have any Fortify, Boulder has +{#}% increased Critical Strike Chance.`,
+		description: `While you have any Fortify, Boulder has +{#}% increased Critical Strike Chance.
+
+Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 87,
 		maxPoints: 1,
 		values: [ "75" ],
@@ -950,7 +1124,9 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 	"Savage Boulder": {
 		baseSkill: "Boulder",
 		connections: [ "Enhanced Boulder" ],
-		description: `Boulder's Critical Strike Chance is increased by +{#}% each time it deals damage.`,
+		description: `Boulder's Critical Strike Chance is increased by +{#}% each time it deals damage.
+
+Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 88,
 		maxPoints: 1,
 		values: [ "3" ],
@@ -963,7 +1139,9 @@ Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {#
 Lucky Hit Chance: {#}%
 Shapeshift into a Werebear, become Unstoppable, and charge forward, dealing {#}% damage and Knocking Back enemies.
 
-Enemies who are Knocked Back into terrain take an additional {#}% damage and are Stunned for {#} seconds.`,
+Enemies who are Knocked Back into terrain take an additional {#}% damage and are Stunned for {#} seconds.
+
+Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 89,
 		maxPoints: 5,
 		values: [ "14.0", "33", "26.25", "47.25", "3" ],
@@ -973,7 +1151,9 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 	"Enhanced Trample": {
 		baseSkill: "Trample",
 		connections: [ "Trample", "Natural Trample", "Savage Trample" ],
-		description: `Trample deals x{#}% bonus damage. This bonus is reduced by x{#}% for each enemy hit after the first.`,
+		description: `Trample deals x{#}% bonus damage. This bonus is reduced by x{#}% for each enemy hit after the first.
+
+Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 90,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -983,7 +1163,9 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 	"Natural Trample": {
 		baseSkill: "Trample",
 		connections: [ "Enhanced Trample" ],
-		description: `Casting Trample grants {#}% Base Life ({#}) as Fortify.`,
+		description: `Casting Trample grants {#}% Base Life ({#}) as Fortify.
+
+Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 91,
 		maxPoints: 1,
 		values: [ "6", "" ],
@@ -993,7 +1175,9 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 	"Savage Trample": {
 		baseSkill: "Trample",
 		connections: [ "Enhanced Trample" ],
-		description: `Casting Trample grants {#} Spirit.`,
+		description: `Casting Trample grants {#} Spirit.
+
+Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 92,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -1002,7 +1186,9 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 	},
 	"Crushing Earth": {
 		connections: [ "Wrath", "Safeguard", "Stone Guard" ],
-		description: `Earth Skills deal x{#}% increased damage to Slowed, Stunned, Immobilized or Knocked Back enemies.`,
+		description: `Earth Skills deal x{#}% increased damage to Slowed, Stunned, Immobilized or Knocked Back enemies.
+
+Tags: Damage, Crowd Control, Earth, Nature Magic.`,
 		id: 93,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -1011,7 +1197,9 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 	},
 	"Safeguard": {
 		connections: [ "Crushing Earth" ],
-		description: `Critical Strikes with Earth Skills Fortify you for {#}% Base Life ({#}).`,
+		description: `Critical Strikes with Earth Skills Fortify you for {#}% Base Life ({#}).
+
+Tags: Fortify, Critical Strikes, Earth, Nature Magic.`,
 		id: 94,
 		maxPoints: 3,
 		values: [ "", "" ],
@@ -1020,7 +1208,9 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 	},
 	"Stone Guard": {
 		connections: [ "Crushing Earth" ],
-		description: `While you have Fortify for over {#}% of your Maximum Life, your Earth Skills deal x{#}% increased damage.`,
+		description: `While you have Fortify for over {#}% of your Maximum Life, your Earth Skills deal x{#}% increased damage.
+
+Tags: Fortify, Damage, Life, Earth, Nature Magic.`,
 		id: 95,
 		maxPoints: 3,
 		values: [ "50", "{4/8/12}" ],
@@ -1031,7 +1221,9 @@ Enemies who are Knocked Back into terrain take an additional {#}% damage and are
 		connections: [ "Wrath", "Enhanced Hurricane" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Form a hurricane around you that deals {#}% damage to surrounding enemies over {#} seconds.`,
+Form a hurricane around you that deals {#}% damage to surrounding enemies over {#} seconds.
+
+Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 99,
 		maxPoints: 5,
 		values: [ "20.0", "33", "102.37", "8" ],
@@ -1041,7 +1233,9 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 	"Enhanced Hurricane": {
 		baseSkill: "Hurricane",
 		connections: [ "Hurricane", "Natural Hurricane", "Savage Hurricane" ],
-		description: `Enemies who are damaged by Hurricane are Slowed by {#}% for {#} seconds.`,
+		description: `Enemies who are damaged by Hurricane are Slowed by {#}% for {#} seconds.
+
+Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 100,
 		maxPoints: 1,
 		values: [ "25", "2" ],
@@ -1051,7 +1245,9 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 	"Natural Hurricane": {
 		baseSkill: "Hurricane",
 		connections: [ "Enhanced Hurricane" ],
-		description: `Hurricane has a {#}% chance to make enemies Vulnerable for {#} seconds.`,
+		description: `Hurricane has a {#}% chance to make enemies Vulnerable for {#} seconds.
+
+Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 101,
 		maxPoints: 1,
 		values: [ "15", "3" ],
@@ -1061,7 +1257,9 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 	"Savage Hurricane": {
 		baseSkill: "Hurricane",
 		connections: [ "Enhanced Hurricane" ],
-		description: `Enemies affected by Hurricane deal {#}% less damage.`,
+		description: `Enemies affected by Hurricane deal {#}% less damage.
+
+Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 102,
 		maxPoints: 1,
 		values: [ "20" ],
@@ -1074,7 +1272,9 @@ Form a hurricane around you that deals {#}% damage to surrounding enemies over {
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and perform an infectious bite on the target dealing {#}% damage, and applying an additional {#}% Poisoning damage over {#} seconds.
 
-Infected enemies spread Rabies to other surrounding targets.`,
+Infected enemies spread Rabies to other surrounding targets.
+
+Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 		id: 103,
 		maxPoints: 5,
 		values: [ "12.0", "50", "29.4", "55.65", "6" ],
@@ -1084,7 +1284,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	"Enhanced Rabies": {
 		baseSkill: "Rabies",
 		connections: [ "Rabies", "Natural Rabies", "Savage Rabies" ],
-		description: `Rabies' Poisoning damage also increases over the lifetime of the disease, dealing x{#}% bonus damage at max duration.`,
+		description: `Rabies' Poisoning damage also increases over the lifetime of the disease, dealing x{#}% bonus damage at max duration.
+
+Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 		id: 104,
 		maxPoints: 1,
 		values: [ "4" ],
@@ -1094,7 +1296,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	"Natural Rabies": {
 		baseSkill: "Rabies",
 		connections: [ "Enhanced Rabies" ],
-		description: `Rabies spreads {#}% faster.`,
+		description: `Rabies spreads {#}% faster.
+
+Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 		id: 105,
 		maxPoints: 1,
 		values: [ "10" ],
@@ -1104,7 +1308,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	"Savage Rabies": {
 		baseSkill: "Rabies",
 		connections: [ "Enhanced Rabies" ],
-		description: `Rabies deals its total Poisoning damage in {#} seconds instead of {#}.`,
+		description: `Rabies deals its total Poisoning damage in {#} seconds instead of {#}.
+
+Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 		id: 106,
 		maxPoints: 1,
 		values: [ "", "" ],
@@ -1113,7 +1319,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	},
 	"Mending": {
 		connections: [ "Wrath", "Provocation" ],
-		description: `While in Werebear form, you receive +{#}% additional Healing from all sources.`,
+		description: `While in Werebear form, you receive +{#}% additional Healing from all sources.
+
+Tags: Shapeshifting, Healing, Werebear.`,
 		id: 97,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -1122,7 +1330,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	},
 	"Provocation": {
 		connections: [ "Mending" ],
-		description: `When you remain in Werebear form for at least {#} seconds, your next Skill will Overpower.`,
+		description: `When you remain in Werebear form for at least {#} seconds, your next Skill will Overpower.
+
+Tags: Overpower, Shapeshifting, Werebear.`,
 		id: 98,
 		maxPoints: 3,
 		values: [ "30" ],
@@ -1131,7 +1341,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	},
 	"Neurotoxin": {
 		connections: [ "Wrath", "Toxic Claws", "Envenom" ],
-		description: `Poisoned enemies are slowed by {#}%.`,
+		description: `Poisoned enemies are slowed by {#}%.
+
+Tags: Poison, Crowd Control.`,
 		id: 79,
 		maxPoints: 3,
 		values: [ "{8/16/24}" ],
@@ -1140,7 +1352,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	},
 	"Toxic Claws": {
 		connections: [ "Neurotoxin" ],
-		description: `Critical Strikes with Werewolf Skills deal {#}% of their Base damage as Poisoning damage over {#} seconds.`,
+		description: `Critical Strikes with Werewolf Skills deal {#}% of their Base damage as Poisoning damage over {#} seconds.
+
+Tags: Critical Strikes, Werewolf, Poison, Damage, Shapeshifting.`,
 		id: 78,
 		maxPoints: 3,
 		values: [ "{8/16/24}", "4" ],
@@ -1149,7 +1363,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	},
 	"Envenom": {
 		connections: [ "Neurotoxin" ],
-		description: `Poisoned enemies take x{#}% additional Critical Strike Damage.`,
+		description: `Poisoned enemies take x{#}% additional Critical Strike Damage.
+
+Tags: Poison, Critical Strikes, Damage.`,
 		id: 166,
 		maxPoints: 3,
 		values: [ "" ],
@@ -1164,7 +1380,9 @@ druidData["Ultimate"] = {
 		description: `Cooldown: {#} seconds
 Shapeshift into  Dire Werebear for {#} seconds gaining x{#}% bonus damage and {#}% Damage Reduction. Damage bonus is increased by {#}% each second while in this form.
 
-Kills extend the duration by {#} second up to {#} additional seconds.`,
+Kills extend the duration by {#} second up to {#} additional seconds.
+
+Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 		id: 107,
 		maxPoints: 1,
 		values: [ "60.0", "10", "20", "20", "3", "1", "10" ],
@@ -1174,7 +1392,9 @@ Kills extend the duration by {#} second up to {#} additional seconds.`,
 	"Prime Grizzly Rage": {
 		baseSkill: "Grizzly Rage",
 		connections: [ "Supreme Grizzly Rage", "Grizzly Rage" ],
-		description: `You are Unstoppable while Grizzly Rage is active.`,
+		description: `You are Unstoppable while Grizzly Rage is active.
+
+Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 		id: 108,
 		maxPoints: 1,
 		x: 148.47,
@@ -1183,7 +1403,9 @@ Kills extend the duration by {#} second up to {#} additional seconds.`,
 	"Supreme Grizzly Rage": {
 		baseSkill: "Grizzly Rage",
 		connections: [ "Prime Grizzly Rage" ],
-		description: `Gain {#}% Base Life ({#}) as Fortify per second while Grizzly Rage is active.`,
+		description: `Gain {#}% Base Life ({#}) as Fortify per second while Grizzly Rage is active.
+
+Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 		id: 109,
 		maxPoints: 1,
 		values: [ "3.2", "" ],
@@ -1195,7 +1417,9 @@ Kills extend the duration by {#} second up to {#} additional seconds.`,
 		description: `Cooldown: {#} seconds
 Encase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x{#}% increased Critical Strike Damage to enemies affected by Petrify.
 
-Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its duration is increased to {#} seconds.`,
+Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its duration is increased to {#} seconds.
+
+Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`,
 		id: 110,
 		maxPoints: 1,
 		values: [ "60.0", "3", "25", "", "" ],
@@ -1205,7 +1429,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	"Prime Petrify": {
 		baseSkill: "Petrify",
 		connections: [ "Supreme Petrify", "Petrify" ],
-		description: `Petrify's effect durations are increased by {#} second.`,
+		description: `Petrify's effect durations are increased by {#} second.
+
+Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`,
 		id: 111,
 		maxPoints: 1,
 		values: [ "1" ],
@@ -1215,7 +1441,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	"Supreme Petrify": {
 		baseSkill: "Petrify",
 		connections: [ "Prime Petrify" ],
-		description: `Killing an enemy affected by Petrify grants {#} Spirit.`,
+		description: `Killing an enemy affected by Petrify grants {#} Spirit.
+
+Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`,
 		id: 112,
 		maxPoints: 1,
 		values: [ "25" ],
@@ -1224,7 +1452,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	},
 	"Defensive Posture": {
 		connections: [ "Ultimate", "Thick Hide", "Nature's Resolve" ],
-		description: `Increases the amount of Fortify you gain from all sources by +{#}%.`,
+		description: `Increases the amount of Fortify you gain from all sources by +{#}%.
+
+Tags: Fortify.`,
 		id: 113,
 		maxPoints: 3,
 		values: [ "{3/6/9}" ],
@@ -1233,7 +1463,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	},
 	"Thick Hide": {
 		connections: [ "Unrestrained", "Defensive Posture" ],
-		description: `Whenever you are Stunned, Immobilized, or Knocked Down, Fortify for {#}% Base Life ({#}).`,
+		description: `Whenever you are Stunned, Immobilized, or Knocked Down, Fortify for {#}% Base Life ({#}).
+
+Tags: Fortify, Crowd Control.`,
 		id: 114,
 		maxPoints: 3,
 		values: [ "2.56", "" ],
@@ -1242,7 +1474,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	},
 	"Unrestrained": {
 		connections: [ "Thick Hide", "Nature's Resolve" ],
-		description: `Reduce the duration of Control Impairing Effects by {#}%. Triple this effect while you have Fortify for over {#}% of your Maximum Life.`,
+		description: `Reduce the duration of Control Impairing Effects by {#}%. Triple this effect while you have Fortify for over {#}% of your Maximum Life.
+
+Tags: Fortify, Life, Crowd Control.`,
 		id: 115,
 		maxPoints: 3,
 		values: [ "{3/6/9}", "20" ],
@@ -1251,7 +1485,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	},
 	"Nature's Resolve": {
 		connections: [ "Unrestrained", "Defensive Posture" ],
-		description: `{#}% chance when struck to Fortify you for {#}% Base Life ({#}).`,
+		description: `{#}% chance when struck to Fortify you for {#}% Base Life ({#}).
+
+Tags: Fortify.`,
 		id: 116,
 		maxPoints: 3,
 		values: [ "{5/10/15}", "1.76", "" ],
@@ -1260,7 +1496,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	},
 	"Quickshift": {
 		connections: [ "Ultimate", "Natural Fortitude", "Heightened Senses" ],
-		description: `When a Shapeshifting Skill transforms you into a different form, it deals x{#}% increased damage.`,
+		description: `When a Shapeshifting Skill transforms you into a different form, it deals x{#}% increased damage.
+
+Tags: Shapeshifting, Damage.`,
 		id: 117,
 		maxPoints: 3,
 		values: [ "{5/10/15}" ],
@@ -1269,7 +1507,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	},
 	"Natural Fortitude": {
 		connections: [ "Quickshift" ],
-		description: `Shapeshifting Fortifies you for {#}% Base Life ({#}).`,
+		description: `Shapeshifting Fortifies you for {#}% Base Life ({#}).
+
+Tags: Fortify, Shapeshifting.`,
 		id: 118,
 		maxPoints: 3,
 		values: [ "{0.56/1.12/1.68}", "" ],
@@ -1278,7 +1518,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 	},
 	"Heightened Senses": {
 		connections: [ "Quickshift" ],
-		description: `Upon shapeshifting into a Werewolf or Werebear, gain {#}% Damage Reduction against Elites for {#} seconds.`,
+		description: `Upon shapeshifting into a Werewolf or Werebear, gain {#}% Damage Reduction against Elites for {#} seconds.
+
+Tags: Damage Reduction, Shapeshifting, Elite Monsters, Werebear, Werewolf.`,
 		id: 119,
 		maxPoints: 3,
 		values: [ "{4/8/12}", "3" ],
@@ -1289,7 +1531,9 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 		connections: [ "Ultimate", "Prime Lacerate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Shapeshift into a Werewolf, become Immune and quickly dash {#} times between enemies in the area dealing up to {#}% damage.`,
+Shapeshift into a Werewolf, become Immune and quickly dash {#} times between enemies in the area dealing up to {#}% damage.
+
+Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Damage Reduction.`,
 		id: 120,
 		maxPoints: 1,
 		values: [ "50.0", "15", "10", "420" ],
@@ -1299,7 +1543,9 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 	"Prime Lacerate": {
 		baseSkill: "Lacerate",
 		connections: [ "Supreme Lacerate", "Lacerate" ],
-		description: `Each time Lacerate deals a Critical Strike, Heal for {#}% Maximum Life ({#}).`,
+		description: `Each time Lacerate deals a Critical Strike, Heal for {#}% Maximum Life ({#}).
+
+Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Damage Reduction.`,
 		id: 121,
 		maxPoints: 1,
 		values: [ "3", "" ],
@@ -1309,7 +1555,9 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 	"Supreme Lacerate": {
 		baseSkill: "Lacerate",
 		connections: [ "Prime Lacerate" ],
-		description: `Lacerate's initial strike is guaranteed to Critically Strike and deals x{#}% increased damage.`,
+		description: `Lacerate's initial strike is guaranteed to Critically Strike and deals x{#}% increased damage.
+
+Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Damage Reduction.`,
 		id: 122,
 		maxPoints: 1,
 		values: [ "200" ],
@@ -1320,7 +1568,9 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 		connections: [ "Ultimate", "Prime Cataclysm" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and lightning strikes wildly dealing {#}% damage.`,
+A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and lightning strikes wildly dealing {#}% damage.
+
+Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.`,
 		id: 123,
 		maxPoints: 1,
 		values: [ "80.0", "82", "8", "54.6" ],
@@ -1330,7 +1580,9 @@ A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and l
 	"Prime Cataclysm": {
 		baseSkill: "Cataclysm",
 		connections: [ "Supreme Cataclysm", "Cataclysm" ],
-		description: `Cataclysm's duration is increased by {#} seconds.`,
+		description: `Cataclysm's duration is increased by {#} seconds.
+
+Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.`,
 		id: 124,
 		maxPoints: 1,
 		values: [ "2" ],
@@ -1340,7 +1592,9 @@ A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and l
 	"Supreme Cataclysm": {
 		baseSkill: "Cataclysm",
 		connections: [ "Prime Cataclysm" ],
-		description: `Lightning strikes from Cataclysm make enemies Vulnerable for 2 seconds.`,
+		description: `Lightning strikes from Cataclysm make enemies Vulnerable for 2 seconds.
+
+Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.`,
 		id: 125,
 		maxPoints: 1,
 		x: -1152.59,
@@ -1348,7 +1602,9 @@ A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and l
 	},
 	"Defiance": {
 		connections: [ "Ultimate", "Circle of Life", "Natural Disaster" ],
-		description: `Nature Magic Skills deal x{#}% increased damage to Elites.`,
+		description: `Nature Magic Skills deal x{#}% increased damage to Elites.
+
+Tags: Damage, Elite Monsters, Nature Magic.`,
 		id: 126,
 		maxPoints: 3,
 		values: [ "{4/8/12}" ],
@@ -1357,7 +1613,9 @@ A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and l
 	},
 	"Circle of Life": {
 		connections: [ "Defiance", "Resonance" ],
-		description: `Nature Magic Skills that consume Spirit Heal you for {#}% of your Maximum Life ({#}).`,
+		description: `Nature Magic Skills that consume Spirit Heal you for {#}% of your Maximum Life ({#}).
+
+Tags: Healing, Nature Magic, Spirit.`,
 		id: 127,
 		maxPoints: 3,
 		values: [ "{1/2/3}", "" ],
@@ -1366,7 +1624,9 @@ A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and l
 	},
 	"Resonance": {
 		connections: [ "Natural Disaster", "Circle of Life" ],
-		description: `Nature Magic Skills deal x{#}% increased damage. Triple this bonus if an Earth Skill is the next Skill cast after a Storm Skill, or a  Storm Skill is the next Skill cast after an Earth Skill.`,
+		description: `Nature Magic Skills deal x{#}% increased damage. Triple this bonus if an Earth Skill is the next Skill cast after a Storm Skill, or a  Storm Skill is the next Skill cast after an Earth Skill.
+
+Tags: Damage, Nature Magic, Earth, Storm.`,
 		id: 128,
 		maxPoints: 3,
 		values: [ "{2/4/6}" ],
@@ -1377,7 +1637,9 @@ A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and l
 		connections: [ "Defiance", "Resonance" ],
 		description: `Your Earth Skills deal x{#}% increased damage to Vulnerable enemies.
 
-Your Storm Skills deal x{#}% increased damage to enemies that are Stunned, Immobilized, or Knocked Back.`,
+Your Storm Skills deal x{#}% increased damage to enemies that are Stunned, Immobilized, or Knocked Back.
+
+Tags: Vulnerable, Damage, Crowd Control, Earth, Storm, Nature Magic.`,
 		id: 129,
 		maxPoints: 3,
 		values: [ "{4/8/12}", "{4/8/12}" ],
@@ -1391,7 +1653,9 @@ druidData["Capstone"] = {
 		connections: [ "Capstone" ],
 		description: `Casting an Earth Skill has a {#}% chance to trigger a free Storm Skill of the same category.
 
-In addition, casting a Storm Skill has a {#}% chance to trigger a free Earth Skill of the same category.`,
+In addition, casting a Storm Skill has a {#}% chance to trigger a free Earth Skill of the same category.
+
+Tags: Earth, Storm, Damage, Nature Magic.`,
 		id: 130,
 		maxPoints: 1,
 		values: [ "20", "20" ],
@@ -1406,7 +1670,9 @@ In addition, casting a Storm Skill has a {#}% chance to trigger a free Earth Ski
 
 This chance is increased by:
  {#}% for Critical Strikes
- {#}% if the target is Stunned, Immobilized, or Knocked Back.`,
+ {#}% if the target is Stunned, Immobilized, or Knocked Back.
+
+Tags: Critical Strikes, Damage, Spirit, Lucky Hit, Earth, Crowd Control, Nature Magic.`,
 		id: 131,
 		maxPoints: 1,
 		values: [ "5", "10", "10", "100" ],
@@ -1415,7 +1681,9 @@ This chance is increased by:
 	},
 	"Lupine Ferocity": {
 		connections: [ "Capstone" ],
-		description: `Every 6th Werewolf Skill hit Critically Strikes and deals x{#}% increased damage.`,
+		description: `Every 6th Werewolf Skill hit Critically Strikes and deals x{#}% increased damage.
+
+Tags: Critical Strikes, Damage, Werewolf, Shapeshifting.`,
 		id: 132,
 		maxPoints: 1,
 		values: [ "60" ],
@@ -1426,7 +1694,9 @@ This chance is increased by:
 		connections: [ "Capstone" ],
 		description: `After being a Werewolf for {#} seconds, gain +{#}% Attack Speed for {#} seconds.
 
-After being a Werebear for {#} seconds, deal x{#}% increased damage for {#} seconds.`,
+After being a Werebear for {#} seconds, deal x{#}% increased damage for {#} seconds.
+
+Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 		id: 133,
 		maxPoints: 1,
 		values: [ "2.5", "20", "15", "2.5", "20", "15" ],
@@ -1435,7 +1705,9 @@ After being a Werebear for {#} seconds, deal x{#}% increased damage for {#} seco
 	},
 	"Perfect Storm": {
 		connections: [ "Capstone" ],
-		description: `Your Storm Skills grant {#} Spirit and deal x{#}% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.`,
+		description: `Your Storm Skills grant {#} Spirit and deal x{#}% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.
+
+Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 		id: 134,
 		maxPoints: 1,
 		values: [ "2", "20" ],
@@ -1446,7 +1718,9 @@ After being a Werebear for {#} seconds, deal x{#}% increased damage for {#} seco
 		connections: [ "Capstone" ],
 		description: `Gain x{#}% additional Maximum Life while in Werebear form and for {#} seconds after leaving Werebear form.
 
-While Healthy, deal x{#}% increased damage.`,
+While Healthy, deal x{#}% increased damage.
+
+Tags: Healthy, Shapeshifting, Life, Werebear, Damage.`,
 		id: 135,
 		maxPoints: 1,
 		values: [ "20", "3", "20" ],

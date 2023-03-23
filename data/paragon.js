@@ -4232,139 +4232,139 @@ let paragonData = {
 		"Node": {
 			"Barbarian_Legendary_002": {
 				"name": "Hemorrhage",
-				"description": "Enemies that have been affected by your Bleeding for {#} or more seconds take x{#}% increased damage from you.\n\nTags: Skill_Bleed, Search_Damage"
+				"description": "Enemies that have been affected by your Bleeding for {#} or more seconds take x{#}% increased damage from you.\n\nTags: Bleed, Damage."
 			},
 			"Barbarian_Legendary_004": {
 				"name": "Blood Rage",
-				"description": "Killing a Bleeding enemy has {#}% chance to grant Berserking for {#} seconds.\n\nTags: Search_Bleed, Keyword_Berserk"
+				"description": "Killing a Bleeding enemy has {#}% chance to grant Berserking for {#} seconds.\n\nTags: Bleed, Berserking."
 			},
 			"Barbarian_Legendary_005": {
 				"name": "Natural Leader",
-				"description": "Increases the power of your Shout Skills by {#}%.\n\nTags: Skill_Shout"
+				"description": "Increases the power of your Shout Skills by {#}%.\n\nTags: Shout."
 			},
 			"Barbarian_Legendary_009": {
 				"name": "Carnage",
-				"description": "While Berserking, Critical Strikes increase your Attack Speed by +{#}%, up to +{#}%, for {#} seconds.\n\nTags: Keyword_Berserk, Search_Critical, Search_AttackSpeed"
+				"description": "While Berserking, Critical Strikes increase your Attack Speed by +{#}%, up to +{#}%, for {#} seconds.\n\nTags: Berserking, Critical Strikes, Attack Speed."
 			},
 			"Barbarian_Legendary_011": {
 				"name": "Warbinger",
-				"description": "For every {#} Fury you spend, gain {#}% of your Maximum Life ({#}) as Fortify.\n\nTags: Search_ResourceFury, Keyword_Fortify"
+				"description": "For every {#} Fury you spend, gain {#}% of your Maximum Life ({#}) as Fortify.\n\nTags: Fury, Fortify."
 			},
 			"Barbarian_Legendary_014": {
 				"name": "Decimator",
-				"description": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a {#}% chance to make enemies Vulnerable for {#} seconds.\n\nTags: Keyword_Vulnerable, Search_LuckyHit, Search_Slashing, Search_2H"
+				"description": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a {#}% chance to make enemies Vulnerable for {#} seconds.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed."
 			},
 			"Barbarian_Legendary_015": {
 				"name": "Bone Breaker",
-				"description": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} seconds and grant you {#}% of your Maximum Life ({#}) as Fortify.\n\nTags: Search_CrowdControl, Keyword_Fortify, Search_2H, Skill_Bludgeoning"
+				"description": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} seconds and grant you {#}% of your Maximum Life ({#}) as Fortify.\n\nTags: Crowd Control, Fortify, Two-Handed, Bludgeoning."
 			},
 			"Barbarian_Legendary_016": {
 				"name": "Flawless Technique",
-				"description": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x{#}% for {#} seconds, up to x{#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.\n\nTags: Search_Critical, Skill_DualWield"
+				"description": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x{#}% for {#} seconds, up to x{#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.\n\nTags: Critical Strikes, Dual Wield."
 			},
 			"Barbarian_Legendary_017": {
 				"name": "Weapons Master",
-				"description": "Swapping weapons grants you {#} Fury.\n\nTags: Search_ResourceFury"
+				"description": "Swapping weapons grants you {#} Fury.\n\nTags: Fury."
 			},
 			"Barbarian_Magic_BerserkDamage": {
 				"name": "Berserk Damage",
-				"description": "Tags: Keyword_Berserk, Search_Damage"
+				"description": "Tags: Berserking, Damage."
 			},
 			"Barbarian_Magic_BerserkDuration": {
 				"name": "Berserk Duration",
-				"description": "Tags: Keyword_Berserk"
+				"description": "Tags: Berserking."
 			},
 			"Barbarian_Magic_Fury": {
 				"name": "Fury",
-				"description": "Tags: Search_ResourceFury"
+				"description": "Tags: Fury."
 			},
 			"Barbarian_Magic_FuryOnKill": {
 				"name": "Fury On Kill",
-				"description": "Tags: Search_ResourceFury"
+				"description": "Tags: Fury."
 			},
 			"Barbarian_Rare_001": {
 				"name": "Iron Strength",
-				"description": "Tags: Search_Armor, Search_Strength"
+				"description": "Tags: Armor, Strength."
 			},
 			"Barbarian_Rare_003": {
 				"name": "Berserker",
-				"description": "Tags: Keyword_Berserk, Search_Elite, Search_Damage"
+				"description": "Tags: Berserking, Elite Monsters, Damage."
 			},
 			"Barbarian_Rare_004": {
 				"name": "Flayer",
-				"description": "Tags: Search_Bleed, Search_Damage"
+				"description": "Tags: Bleed, Damage."
 			},
 			"Barbarian_Rare_005": {
 				"name": "Butcher",
-				"description": "Tags: Search_Bleed, Search_Damage, Search_Strength"
+				"description": "Tags: Bleed, Damage, Strength."
 			},
 			"Barbarian_Rare_006": {
 				"name": "Lacerator",
-				"description": "Tags: Search_Bleed, Search_Physical, Search_Damage"
+				"description": "Tags: Bleed, Physical, Damage."
 			},
 			"Barbarian_Rare_008": {
 				"name": "Bludgeoner",
-				"description": "Tags: Keyword_Overpower, Search_Damage, Search_2H, Skill_Bludgeoning"
+				"description": "Tags: Overpower, Damage, Two-Handed, Bludgeoning."
 			},
 			"Barbarian_Rare_009": {
 				"name": "Vigor",
-				"description": "Tags: Keyword_Healthy, Search_DamageReduction, Search_Strength"
+				"description": "Tags: Healthy, Damage Reduction, Strength."
 			},
 			"Barbarian_Rare_010": {
 				"name": "Cold Conditioned",
-				"description": "Tags: Search_Cold, Search_Resistance, Search_Armor"
+				"description": "Tags: Cold, Resistance, Armor."
 			},
 			"Barbarian_Rare_015": {
 				"name": "Tenacity",
-				"description": "Tags: Search_Life, Search_Armor"
+				"description": "Tags: Life, Armor."
 			},
 			"Barbarian_Rare_016": {
 				"name": "Grit",
-				"description": "Tags: Search_Bleed, Search_DamageReduction, Search_Strength"
+				"description": "Tags: Bleed, Damage Reduction, Strength."
 			},
 			"Barbarian_Rare_018": {
 				"name": "Conditioned",
-				"description": "Tags: Search_Resistance, Search_Strength, Search_NonPhysical"
+				"description": "Tags: Resistance, Strength, Non-Physical."
 			},
 			"Barbarian_Rare_019": {
 				"name": "Fire Conditioned",
-				"description": "Tags: Search_Resistance, Search_Armor, Search_Fire"
+				"description": "Tags: Resistance, Armor, Fire."
 			},
 			"Barbarian_Rare_020": {
 				"name": "Hungering Fury",
-				"description": "Tags: Search_ResourceFury"
+				"description": "Tags: Fury."
 			},
 			"Barbarian_Rare_021": {
 				"name": "Lightning Conditioned",
-				"description": "Tags: Search_Resistance, Search_Lightning, Search_Armor"
+				"description": "Tags: Resistance, Lightning, Armor."
 			},
 			"Barbarian_Rare_022": {
 				"name": "Brawn",
-				"description": "Tags: Search_Physical, Search_Damage, Search_Life"
+				"description": "Tags: Physical, Damage, Life."
 			},
 			"Barbarian_Rare_023": {
 				"name": "Fierce",
-				"description": "Tags: Keyword_Berserk, Search_Damage, Search_Strength"
+				"description": "Tags: Berserking, Damage, Strength."
 			},
 			"Barbarian_Rare_024": {
 				"name": "Heavy Blows",
-				"description": "Tags: Search_Critical, Search_Damage, Search_Strength, Skill_DualWield"
+				"description": "Tags: Critical Strikes, Damage, Strength, Dual Wield."
 			},
 			"Barbarian_Rare_025": {
 				"name": "Wild Force",
-				"description": "Tags: Search_Damage, Search_AttackSpeed, Skill_DualWield"
+				"description": "Tags: Damage, Attack Speed, Dual Wield."
 			},
 			"Barbarian_Rare_026": {
 				"name": "Poison Conditioned",
-				"description": "Tags: Search_Resistance, Search_Armor, Search_Poison"
+				"description": "Tags: Resistance, Armor, Poison."
 			},
 			"Barbarian_Rare_030": {
 				"name": "Destroyer",
-				"description": "Tags: Search_Damage, Keyword_Vulnerable, Search_Slashing, Search_2H"
+				"description": "Tags: Damage, Vulnerable, Slashing, Two-Handed."
 			},
 			"Barbarian_Rare_032": {
 				"name": "Enraged",
-				"description": "Tags: Keyword_Berserk, Search_Damage"
+				"description": "Tags: Berserking, Damage."
 			},
 			"StartNodeBarb": {
 				"name": "Paragon Starting Node"
@@ -8604,163 +8604,163 @@ let paragonData = {
 		"Node": {
 			"Druid_Legendary_003": {
 				"name": "Thunderstruck",
-				"description": "Storm Skills deal x{#}% increased Critical Strike Damage against Vulnerable or Immobilized enemies.\n\nTags: Keyword_Vulnerable, Search_CrowdControl, Search_Critical, Search_Damage"
+				"description": "Storm Skills deal x{#}% increased Critical Strike Damage against Vulnerable or Immobilized enemies.\n\nTags: Vulnerable, Crowd Control, Critical Strikes, Damage."
 			},
 			"Druid_Legendary_006": {
 				"name": "Earthen Devastation",
-				"description": "Your Earth Skills deal x{#}% increased damage to enemies afflicted by Crowd Control.\n\nTags: Skill_Nature_Magic_Earth, Search_CrowdControl, Search_Damage"
+				"description": "Your Earth Skills deal x{#}% increased damage to enemies afflicted by Crowd Control.\n\nTags: Earth, Crowd Control, Damage."
 			},
 			"Druid_Legendary_007": {
 				"name": "Survival Instincts",
-				"description": "While in Werebear form, you deal x{#}% increased damage, up to x{#}%, for every {#}% difference in current Life percent between you and the enemy.\n\nTags: Skill_Bear, Search_Damage, Search_Life"
+				"description": "While in Werebear form, you deal x{#}% increased damage, up to x{#}%, for every {#}% difference in current Life percent between you and the enemy.\n\nTags: Werebear, Damage, Life."
 			},
 			"Druid_Legendary_010": {
 				"name": "Lust for Carnage",
-				"description": "Critical Strikes with Werewolf Skills restore {#} Spirit.\n\nTags: Skill_Wolf, Search_Critical, Search_ResourceSpirit"
+				"description": "Critical Strikes with Werewolf Skills restore {#} Spirit.\n\nTags: Werewolf, Critical Strikes, Spirit."
 			},
 			"Druid_Legendary_012": {
 				"name": "Heightened Malice",
-				"description": "While there are {#} or more Poisoned enemies Nearby, you deal x{#}% increased damage.\n\nTags: Search_Poison, Search_Damage"
+				"description": "While there are {#} or more Poisoned enemies Nearby, you deal x{#}% increased damage.\n\nTags: Poison, Damage."
 			},
 			"Druid_Legendary_013": {
 				"name": "Inner Beast",
-				"description": "After shapeshifting, your Spirit costs are reduced by {#}% for {#} seconds, up to {#}%.\n\nTags: Skill_Shapeshifting, Search_ResourceSpirit"
+				"description": "After shapeshifting, your Spirit costs are reduced by {#}% for {#} seconds, up to {#}%.\n\nTags: Shapeshifting, Spirit."
 			},
 			"Druid_Legendary_017": {
 				"name": "Constricting Tendrils",
-				"description": "Lucky Hit: Nature Magic Skills have up to a {#}% chance to entangle the enemy with vines, Immobilizing them for {#} seconds and Poisoning them for {#}% of the Base damage dealt over {#} seconds.\n\nTags: Search_Poison, Search_CrowdControl, Search_LuckyHit, Search_Damage"
+				"description": "Lucky Hit: Nature Magic Skills have up to a {#}% chance to entangle the enemy with vines, Immobilizing them for {#} seconds and Poisoning them for {#}% of the Base damage dealt over {#} seconds.\n\nTags: Poison, Crowd Control, Lucky Hit, Damage."
 			},
 			"Druid_Legendary_018": {
 				"name": "Ancestral Guidance",
-				"description": "After spending {#} Spirit, you deal x{#}% increased damage for {#} seconds.\n\nTags: Search_ResourceSpirit, Search_Damage"
+				"description": "After spending {#} Spirit, you deal x{#}% increased damage for {#} seconds.\n\nTags: Spirit, Damage."
 			},
 			"Druid_Magic_CriticalDamageEarth": {
 				"name": "Critical Damage Earth",
-				"description": "Tags: Skill_Nature_Magic_Earth, Search_Critical, Search_Damage"
+				"description": "Tags: Earth, Critical Strikes, Damage."
 			},
 			"Druid_Magic_DamageBasic": {
 				"name": "Damage Basic",
-				"description": "Tags: Skill_Primary_Basic, Search_Damage"
+				"description": "Tags: Basic, Damage."
 			},
 			"Druid_Magic_DamageBear": {
 				"name": "Damage Bear",
-				"description": "Tags: Skill_Bear, Search_Damage"
+				"description": "Tags: Werebear, Damage."
 			},
 			"Druid_Magic_DamageCore": {
 				"name": "Damage Core",
-				"description": "Tags: Skill_Primary_Core, Search_Damage"
+				"description": "Tags: Core, Damage."
 			},
 			"Druid_Magic_DamageEarth": {
 				"name": "Damage Earth",
-				"description": "Tags: Skill_Nature_Magic_Earth, Search_Damage"
+				"description": "Tags: Earth, Damage."
 			},
 			"Druid_Magic_DamageNature": {
 				"name": "Damage Nature",
-				"description": "Tags: Skill_Nature_Magic, Search_Damage"
+				"description": "Tags: Nature Magic, Damage."
 			},
 			"Druid_Magic_DamageShapeshifting": {
 				"name": "Damage Shapeshifting",
-				"description": "Tags: Skill_Shapeshifting, Search_Damage"
+				"description": "Tags: Shapeshifting, Damage."
 			},
 			"Druid_Magic_DamageStorm": {
 				"name": "Damage Storm",
-				"description": "Tags: Skill_Nature_Magic_Storm, Search_Damage"
+				"description": "Tags: Storm, Damage."
 			},
 			"Druid_Magic_DamageWhileBear": {
 				"name": "Damage While Bear",
-				"description": "Tags: Skill_Bear, Search_Damage"
+				"description": "Tags: Werebear, Damage."
 			},
 			"Druid_Magic_DamageWolf": {
 				"name": "Damage Wolf",
-				"description": "Tags: Skill_Wolf, Search_Damage"
+				"description": "Tags: Werewolf, Damage."
 			},
 			"Druid_Magic_Spirit": {
 				"name": "Spirit",
-				"description": "Tags: Search_ResourceSpirit"
+				"description": "Tags: Spirit."
 			},
 			"Druid_Magic_SpiritOnKill": {
 				"name": "Spirit On Kill",
-				"description": "Tags: Search_ResourceSpirit"
+				"description": "Tags: Spirit."
 			},
 			"Druid_Rare_003": {
 				"name": "Stormcaller",
-				"description": "Tags: Skill_Nature_Magic_Storm, Search_Damage, Search_Willpower"
+				"description": "Tags: Storm, Damage, Willpower."
 			},
 			"Druid_Rare_004": {
 				"name": "Nature-born",
-				"description": "Tags: Search_Poison, Search_DamageReduction, Search_Willpower"
+				"description": "Tags: Poison, Damage Reduction, Willpower."
 			},
 			"Druid_Rare_005": {
 				"name": "Toxic Bane",
-				"description": "Tags: Search_Poison, Search_Damage"
+				"description": "Tags: Poison, Damage."
 			},
 			"Druid_Rare_006": {
 				"name": "Primal Instinct",
-				"description": "Tags: Keyword_Fortify, Search_Damage"
+				"description": "Tags: Fortify, Damage."
 			},
 			"Druid_Rare_008": {
 				"name": "Crushing Earth",
-				"description": "Tags: Skill_Nature_Magic_Earth, Search_CrowdControl, Search_Damage, Search_Critical"
+				"description": "Tags: Earth, Crowd Control, Damage, Critical Strikes."
 			},
 			"Druid_Rare_009": {
 				"name": "Earthen Power",
-				"description": "Tags: Search_Critical, Search_Damage, Skill_Nature_Magic_Earth, Search_Willpower"
+				"description": "Tags: Critical Strikes, Damage, Earth, Willpower."
 			},
 			"Druid_Rare_010": {
 				"name": "Nature's Will",
-				"description": "Tags: Skill_Nature_Magic, Search_Damage, Search_Willpower"
+				"description": "Tags: Nature Magic, Damage, Willpower."
 			},
 			"Druid_Rare_012": {
 				"name": "Devastation",
-				"description": "Tags: Skill_Nature_Magic, Search_Damage, Search_Elite"
+				"description": "Tags: Nature Magic, Damage, Elite Monsters."
 			},
 			"Druid_Rare_013": {
 				"name": "Spiritual Power",
-				"description": "Tags: Skill_Primary_Core, Search_Damage, Skill_Primary_Basic"
+				"description": "Tags: Core, Damage, Basic."
 			},
 			"Druid_Rare_014": {
 				"name": "Grizzly",
-				"description": "Tags: Skill_Bear, Search_Damage, Search_Willpower"
+				"description": "Tags: Werebear, Damage, Willpower."
 			},
 			"Druid_Rare_015": {
 				"name": "Natural Attunement",
-				"description": "Tags: Search_Life, Search_ResourceSpirit"
+				"description": "Tags: Life, Spirit."
 			},
 			"Druid_Rare_017": {
 				"name": "Reclamation",
-				"description": "Tags: Search_ResourceSpirit"
+				"description": "Tags: Spirit."
 			},
 			"Druid_Rare_018": {
 				"name": "Sinking Fangs",
-				"description": "Tags: Search_Poison, Search_Damage, Search_Willpower"
+				"description": "Tags: Poison, Damage, Willpower."
 			},
 			"Druid_Rare_019": {
 				"name": "Shapeshifter",
-				"description": "Tags: Skill_Shapeshifting, Search_Damage, Search_Willpower"
+				"description": "Tags: Shapeshifting, Damage, Willpower."
 			},
 			"Druid_Rare_020": {
 				"name": "Deluge",
-				"description": "Tags: Search_Critical, Search_Damage, Search_CrowdControl"
+				"description": "Tags: Critical Strikes, Damage, Crowd Control."
 			},
 			"Druid_Rare_022": {
 				"name": "Ferocity",
-				"description": "Tags: Skill_Wolf, Search_Damage, Search_Critical"
+				"description": "Tags: Werewolf, Damage, Critical Strikes."
 			},
 			"Druid_Rare_024": {
 				"name": "Wild's Call",
-				"description": "Tags: Search_AttackSpeed, Search_ResourceSpirit"
+				"description": "Tags: Attack Speed, Spirit."
 			},
 			"Druid_Rare_026": {
 				"name": "Ursine",
-				"description": "Tags: Skill_Bear, Search_Damage, Keyword_Overpower"
+				"description": "Tags: Werebear, Damage, Overpower."
 			},
 			"Druid_Rare_027": {
 				"name": "Battleworn Hide",
-				"description": "Tags: Search_Armor, Skill_Bear, Search_Willpower"
+				"description": "Tags: Armor, Werebear, Willpower."
 			},
 			"Druid_Rare_030": {
 				"name": "Harmony",
-				"description": "Tags: Skill_Primary_Core, Search_Willpower, Search_Damage"
+				"description": "Tags: Core, Willpower, Damage."
 			},
 			"StartNodeDruid": {
 				"name": "Paragon Starting Node"
@@ -8771,647 +8771,647 @@ let paragonData = {
 		"Node": {
 			"Generic_Gate": {
 				"name": "Board Attachment Gate",
-				"description": "Tags: Search_Strength, Search_Intelligence, Search_Willpower, Search_DEXTERITY"
+				"description": "Tags: Strength, Intelligence, Willpower, Dexterity."
 			},
 			"Generic_Magic_Armor": {
 				"name": "Armor",
-				"description": "Tags: Search_Armor"
+				"description": "Tags: Armor."
 			},
 			"Generic_Magic_ArmorWhileBear": {
 				"name": "Armor While Bear",
-				"description": "Tags: Search_Armor, Skill_Bear"
+				"description": "Tags: Armor, Werebear."
 			},
 			"Generic_Magic_AttackSpeed": {
 				"name": "Attack Speed",
-				"description": "Tags: Search_AttackSpeed"
+				"description": "Tags: Attack Speed."
 			},
 			"Generic_Magic_BonusFortify": {
 				"name": "Bonus Fortify",
-				"description": "Tags: Keyword_Fortify"
+				"description": "Tags: Fortify."
 			},
 			"Generic_Magic_CCDurationReduction": {
 				"name": "CC Duration Reduction",
-				"description": "Tags: Search_CrowdControl"
+				"description": "Tags: Crowd Control."
 			},
 			"Generic_Magic_Chill": {
 				"name": "Chill",
-				"description": "Tags: Keyword_Chill, Search_CrowdControl"
+				"description": "Tags: Chill, Crowd Control."
 			},
 			"Generic_Magic_CriticalDamage": {
 				"name": "Critical Damage",
-				"description": "Tags: Search_Critical, Search_Damage"
+				"description": "Tags: Critical Strikes, Damage."
 			},
 			"Generic_Magic_CriticalDamage1H": {
 				"name": "Critical Damage1H",
-				"description": "Tags: Search_Critical, Search_Damage, Skill_DualWield"
+				"description": "Tags: Critical Strikes, Damage, Dual Wield."
 			},
 			"Generic_Magic_CriticalDamageToCC": {
 				"name": "Critical Damage To CC",
-				"description": "Tags: Search_Critical, Search_Damage, Search_CrowdControl"
+				"description": "Tags: Critical Strikes, Damage, Crowd Control."
 			},
 			"Generic_Magic_Damage": {
 				"name": "Damage",
-				"description": "Tags: Search_Damage"
+				"description": "Tags: Damage."
 			},
 			"Generic_Magic_Damage1H": {
 				"name": "Damage1H",
-				"description": "Tags: Search_Damage, Skill_DualWield"
+				"description": "Tags: Damage, Dual Wield."
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
 				"name": "Damage2H Bludgeoning",
-				"description": "Tags: Search_Damage, Skill_Bludgeoning, Search_2H"
+				"description": "Tags: Damage, Bludgeoning, Two-Handed."
 			},
 			"Generic_Magic_Damage2HSlashing": {
 				"name": "Damage2H Slashing",
-				"description": "Tags: Search_Damage, Search_2H, Search_Slashing"
+				"description": "Tags: Damage, Two-Handed, Slashing."
 			},
 			"Generic_Magic_DamageAfterDodge": {
 				"name": "Damage After Dodge",
-				"description": "Tags: SEARCH_DODGE, Search_Damage"
+				"description": "Tags: Dodge, Damage."
 			},
 			"Generic_Magic_DamageBleed": {
 				"name": "Damage Bleed",
-				"description": "Tags: Search_Bleed, Search_Damage"
+				"description": "Tags: Bleed, Damage."
 			},
 			"Generic_Magic_DamageBurn": {
 				"name": "Damage Burn",
-				"description": "Tags: Search_Burn, Search_Damage"
+				"description": "Tags: Burn, Damage."
 			},
 			"Generic_Magic_DamageCold": {
 				"name": "Damage Cold",
-				"description": "Tags: Search_Cold, Search_Damage"
+				"description": "Tags: Cold, Damage."
 			},
 			"Generic_Magic_DamageConjuration": {
 				"name": "Damage Conjuration",
-				"description": "Tags: Search_Damage, Skill_Primary_Conjuration"
+				"description": "Tags: Damage, Conjuration."
 			},
 			"Generic_Magic_DamageElemental": {
 				"name": "Damage Elemental",
-				"description": "Tags: Search_NonPhysical, Search_Damage"
+				"description": "Tags: Non-Physical, Damage."
 			},
 			"Generic_Magic_DamageFire": {
 				"name": "Damage Fire",
-				"description": "Tags: Search_Fire, Search_Damage"
+				"description": "Tags: Fire, Damage."
 			},
 			"Generic_Magic_DamageLightning": {
 				"name": "Damage Lightning",
-				"description": "Tags: Search_Lightning, Search_Damage"
+				"description": "Tags: Lightning, Damage."
 			},
 			"Generic_Magic_DamagePhysical": {
 				"name": "Damage Physical",
-				"description": "Tags: Search_Physical, Search_Damage"
+				"description": "Tags: Physical, Damage."
 			},
 			"Generic_Magic_DamagePoison": {
 				"name": "Damage Poison",
-				"description": "Tags: Search_Poison, Search_Damage"
+				"description": "Tags: Poison, Damage."
 			},
 			"Generic_Magic_DamageReductionFromBleedingTarget": {
 				"name": "Damage Reduction From Bleeding Target",
-				"description": "Tags: Search_Bleed, Search_DamageReduction"
+				"description": "Tags: Bleed, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromBurningTarget": {
 				"name": "Damage Reduction From Burning Target",
-				"description": "Tags: Search_Burn, Search_DamageReduction"
+				"description": "Tags: Burn, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromChilledTarget": {
 				"name": "Damage Reduction From Chilled Target",
-				"description": "Tags: Keyword_Chill, Search_DamageReduction, Search_CrowdControl"
+				"description": "Tags: Chill, Damage Reduction, Crowd Control."
 			},
 			"Generic_Magic_DamageReductionFromDot": {
 				"name": "Damage Reduction From Dot",
-				"description": "Tags: Search_DamageReduction"
+				"description": "Tags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromElite": {
 				"name": "Damage Reduction From Elite",
-				"description": "Tags: Search_Elite, Search_DamageReduction"
+				"description": "Tags: Elite Monsters, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromFar": {
 				"name": "Damage Reduction From Far",
-				"description": "Tags: Search_DamageReduction"
+				"description": "Tags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromNear": {
 				"name": "Damage Reduction From Near",
-				"description": "Tags: Search_DamageReduction"
+				"description": "Tags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromPoisonedTarget": {
 				"name": "Damage Reduction From Poisoned Target",
-				"description": "Tags: Search_Poison, Search_DamageReduction"
+				"description": "Tags: Poison, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromShadowDoTed": {
 				"name": "Damage Reduction From Shadow Do Ted",
-				"description": "Tags: Search_ShadowDOT, Search_DamageReduction"
+				"description": "Tags: Shadow Damage Over Time, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromSlowedTarget": {
 				"name": "Damage Reduction From Slowed Target",
-				"description": "Tags: Search_CrowdControl, Search_DamageReduction"
+				"description": "Tags: Crowd Control, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromVulnerable": {
 				"name": "Damage Reduction From Vulnerable",
-				"description": "Tags: Keyword_Vulnerable, Search_DamageReduction"
+				"description": "Tags: Vulnerable, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionWhileFortified": {
 				"name": "Damage Reduction While Fortified",
-				"description": "Tags: Keyword_Fortify, Search_DamageReduction"
+				"description": "Tags: Fortify, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionWhileHealthy": {
 				"name": "Damage Reduction While Healthy",
-				"description": "Tags: Keyword_Healthy, Search_DamageReduction"
+				"description": "Tags: Healthy, Damage Reduction."
 			},
 			"Generic_Magic_DamageShadow": {
 				"name": "Damage Shadow",
-				"description": "Tags: Search_Shadow, Search_Damage"
+				"description": "Tags: Shadow, Damage."
 			},
 			"Generic_Magic_DamageShadowDoT": {
 				"name": "Damage Shadow Do T",
-				"description": "Tags: Search_ShadowDOT, Search_Damage"
+				"description": "Tags: Shadow Damage Over Time, Damage."
 			},
 			"Generic_Magic_DamageToBleed": {
 				"name": "Damage To Bleed",
-				"description": "Tags: Search_Bleed, Search_Damage"
+				"description": "Tags: Bleed, Damage."
 			},
 			"Generic_Magic_DamageToBurning": {
 				"name": "Damage To Burning",
-				"description": "Tags: Search_Burn, Search_Damage"
+				"description": "Tags: Burn, Damage."
 			},
 			"Generic_Magic_DamageToCC": {
 				"name": "Damage To CC",
-				"description": "Tags: Search_CrowdControl, Search_Damage"
+				"description": "Tags: Crowd Control, Damage."
 			},
 			"Generic_Magic_DamageToChill": {
 				"name": "Damage To Chill",
-				"description": "Tags: Keyword_Chill, Search_Damage, Search_CrowdControl"
+				"description": "Tags: Chill, Damage, Crowd Control."
 			},
 			"Generic_Magic_DamageToElite": {
 				"name": "Damage To Elite",
-				"description": "Tags: Search_Elite, Search_Damage"
+				"description": "Tags: Elite Monsters, Damage."
 			},
 			"Generic_Magic_DamageToFar": {
 				"name": "Damage To Far",
-				"description": "Tags: Search_Damage"
+				"description": "Tags: Damage."
 			},
 			"Generic_Magic_DamageToHigh": {
 				"name": "Damage To High",
-				"description": "Tags: Keyword_Healthy, Search_Damage"
+				"description": "Tags: Healthy, Damage."
 			},
 			"Generic_Magic_DamageToLow": {
 				"name": "Damage To Low",
-				"description": "Tags: Keyword_Injured, Search_Damage"
+				"description": "Tags: Injured, Damage."
 			},
 			"Generic_Magic_DamageToNear": {
 				"name": "Damage To Near",
-				"description": "Tags: Search_Damage"
+				"description": "Tags: Damage."
 			},
 			"Generic_Magic_DamageToPoison": {
 				"name": "Damage To Poison",
-				"description": "Tags: Search_Poison, Search_Damage"
+				"description": "Tags: Poison, Damage."
 			},
 			"Generic_Magic_DamageToShadowDoTed": {
 				"name": "Damage To Shadow Do Ted",
-				"description": "Tags: Search_ShadowDOT, Search_Damage"
+				"description": "Tags: Shadow Damage Over Time, Damage."
 			},
 			"Generic_Magic_DamageToStun": {
 				"name": "Damage To Stun",
-				"description": "Tags: Search_CrowdControl, Search_Damage"
+				"description": "Tags: Crowd Control, Damage."
 			},
 			"Generic_Magic_DamageToVulnerable": {
 				"name": "Damage To Vulnerable",
-				"description": "Tags: Keyword_Vulnerable, Search_Damage"
+				"description": "Tags: Vulnerable, Damage."
 			},
 			"Generic_Magic_DamageWhileFortified": {
 				"name": "Damage While Fortified",
-				"description": "Tags: Keyword_Fortify, Search_Damage"
+				"description": "Tags: Fortify, Damage."
 			},
 			"Generic_Magic_DamageWhileHealthy": {
 				"name": "Damage While Healthy",
-				"description": "Tags: Keyword_Healthy, Search_Damage"
+				"description": "Tags: Healthy, Damage."
 			},
 			"Generic_Magic_Dex": {
 				"name": "Dexterity",
-				"description": "Tags: Search_DEXTERITY"
+				"description": "Tags: Dexterity."
 			},
 			"Generic_Magic_Essence": {
 				"name": "Essence",
-				"description": "Tags: Search_ResourceEssence"
+				"description": "Tags: Essence."
 			},
 			"Generic_Magic_EssenceOnKill": {
 				"name": "Essence On Kill",
-				"description": "Tags: Search_ResourceEssence"
+				"description": "Tags: Essence."
 			},
 			"Generic_Magic_Execute": {
 				"name": "Execute",
-				"description": "Tags: Keyword_Execute, Keyword_Injured, Search_LuckyHit"
+				"description": "Tags: Execute, Injured, Lucky Hit."
 			},
 			"Generic_Magic_HPPercent": {
 				"name": "HP Percent",
-				"description": "Tags: Search_Life"
+				"description": "Tags: Life."
 			},
 			"Generic_Magic_HPRegen": {
 				"name": "HP Regen",
-				"description": "Tags: Search_Healing"
+				"description": "Tags: Healing."
 			},
 			"Generic_Magic_HealingBonus": {
 				"name": "Healing Bonus",
-				"description": "Tags: Search_Healing"
+				"description": "Tags: Healing."
 			},
 			"Generic_Magic_Int": {
 				"name": "Intelligence",
-				"description": "Tags: Search_Intelligence"
+				"description": "Tags: Intelligence."
 			},
 			"Generic_Magic_LuckyHitBonus": {
 				"name": "Lucky Hit Bonus",
-				"description": "Tags: Search_LuckyHit"
+				"description": "Tags: Lucky Hit."
 			},
 			"Generic_Magic_Mana": {
 				"name": "Mana",
-				"description": "Tags: Search_ResourceMana"
+				"description": "Tags: Mana."
 			},
 			"Generic_Magic_MinionArmor": {
 				"name": "Minion Armor",
-				"description": "Tags: Search_Armor, Search_Minion"
+				"description": "Tags: Armor, Minion."
 			},
 			"Generic_Magic_MinionAttackSpeed": {
 				"name": "Minion Attack Speed",
-				"description": "Tags: Search_Minion, Search_AttackSpeed"
+				"description": "Tags: Minion, Attack Speed."
 			},
 			"Generic_Magic_MinionDamage": {
 				"name": "Minion Damage",
-				"description": "Tags: Search_Minion, Search_Damage"
+				"description": "Tags: Minion, Damage."
 			},
 			"Generic_Magic_MinionDamageReduction": {
 				"name": "Minion Damage Reduction",
-				"description": "Tags: Search_Minion, Search_DamageReduction"
+				"description": "Tags: Minion, Damage Reduction."
 			},
 			"Generic_Magic_MinionHP": {
 				"name": "Minion HP",
-				"description": "Tags: Search_Minion, Search_Life"
+				"description": "Tags: Minion, Life."
 			},
 			"Generic_Magic_MoveSpeedEliteKill": {
 				"name": "Move Speed Elite Kill",
-				"description": "Tags: Search_MovementSpeed, Search_Elite"
+				"description": "Tags: Movement, Elite Monsters."
 			},
 			"Generic_Magic_OverpowerDamage": {
 				"name": "Overpower Damage",
-				"description": "Tags: Keyword_Overpower, Search_Damage"
+				"description": "Tags: Overpower, Damage."
 			},
 			"Generic_Magic_PotionHealing": {
 				"name": "Potion Healing",
-				"description": "Tags: Search_Healing"
+				"description": "Tags: Healing."
 			},
 			"Generic_Magic_ResistanceAll": {
 				"name": "Resistance All",
-				"description": "Tags: Search_Resistance, Search_NonPhysical"
+				"description": "Tags: Resistance, Non-Physical."
 			},
 			"Generic_Magic_ResistanceCold": {
 				"name": "Resistance Cold",
-				"description": "Tags: Search_Resistance, Search_Cold"
+				"description": "Tags: Resistance, Cold."
 			},
 			"Generic_Magic_ResistanceFire": {
 				"name": "Resistance Fire",
-				"description": "Tags: Search_Resistance, Search_Fire"
+				"description": "Tags: Resistance, Fire."
 			},
 			"Generic_Magic_ResistanceLightning": {
 				"name": "Resistance Lightning",
-				"description": "Tags: Search_Lightning, Search_Resistance"
+				"description": "Tags: Lightning, Resistance."
 			},
 			"Generic_Magic_ResistancePoison": {
 				"name": "Resistance Poison",
-				"description": "Tags: Search_Resistance, Search_Poison"
+				"description": "Tags: Resistance, Poison."
 			},
 			"Generic_Magic_ResistanceShadow": {
 				"name": "Resistance Shadow",
-				"description": "Tags: Search_Resistance, Search_Shadow"
+				"description": "Tags: Resistance, Shadow."
 			},
 			"Generic_Magic_Str": {
 				"name": "Strength",
-				"description": "Tags: Search_Strength"
+				"description": "Tags: Strength."
 			},
 			"Generic_Magic_Will": {
 				"name": "Willpower",
-				"description": "Tags: Search_Willpower"
+				"description": "Tags: Willpower."
 			},
 			"Generic_Normal_Dex": {
 				"name": "Dexterity",
-				"description": "Tags: Search_DEXTERITY"
+				"description": "Tags: Dexterity."
 			},
 			"Generic_Normal_Int": {
 				"name": "Intelligence",
-				"description": "Tags: Search_Intelligence"
+				"description": "Tags: Intelligence."
 			},
 			"Generic_Normal_Str": {
 				"name": "Strength",
-				"description": "Tags: Search_Strength"
+				"description": "Tags: Strength."
 			},
 			"Generic_Normal_Will": {
 				"name": "Willpower",
-				"description": "Tags: Search_Willpower"
+				"description": "Tags: Willpower."
 			},
 			"Generic_Rare_001": {
 				"name": "Resilience",
-				"description": "Tags: Search_Resistance, Search_Life, Search_NonPhysical"
+				"description": "Tags: Resistance, Life, Non-Physical."
 			},
 			"Generic_Rare_002": {
 				"name": "Nimble",
-				"description": "Tags: Search_AttackSpeed, Search_Damage"
+				"description": "Tags: Attack Speed, Damage."
 			},
 			"Generic_Rare_006": {
 				"name": "Fleeting",
-				"description": "Tags: Search_CrowdControl, Search_DamageReduction"
+				"description": "Tags: Crowd Control, Damage Reduction."
 			},
 			"Generic_Rare_007": {
 				"name": "Focused",
-				"description": "Tags: Search_Elite, Search_Damage, Search_DEXTERITY"
+				"description": "Tags: Elite Monsters, Damage, Dexterity."
 			},
 			"Generic_Rare_009": {
 				"name": "Oppress",
-				"description": "Tags: Search_CrowdControl, Search_Critical, Search_Damage"
+				"description": "Tags: Crowd Control, Critical Strikes, Damage."
 			},
 			"Generic_Rare_011": {
 				"name": "Spearhead",
-				"description": "Tags: Keyword_Healthy, Search_Armor, Search_Damage"
+				"description": "Tags: Healthy, Armor, Damage."
 			},
 			"Generic_Rare_012": {
 				"name": "Cold Resilience",
-				"description": "Tags: Search_Resistance, Search_Cold, Search_Life"
+				"description": "Tags: Resistance, Cold, Life."
 			},
 			"Generic_Rare_013": {
 				"name": "Havoc",
-				"description": "Tags: Search_Critical, Search_Physical, Search_Damage"
+				"description": "Tags: Critical Strikes, Physical, Damage."
 			},
 			"Generic_Rare_014": {
 				"name": "Ruin",
-				"description": "Tags: Search_Critical, Keyword_Healthy, Search_Damage"
+				"description": "Tags: Critical Strikes, Healthy, Damage."
 			},
 			"Generic_Rare_015": {
 				"name": "Stifle",
-				"description": "Tags: Keyword_Injured, Search_Critical, Search_Damage"
+				"description": "Tags: Injured, Critical Strikes, Damage."
 			},
 			"Generic_Rare_016": {
 				"name": "Devious",
-				"description": "Tags: Search_CrowdControl, Search_Damage, Search_DEXTERITY"
+				"description": "Tags: Crowd Control, Damage, Dexterity."
 			},
 			"Generic_Rare_017": {
 				"name": "Feint",
-				"description": "Tags: SEARCH_DODGE, Search_Damage, Search_DEXTERITY"
+				"description": "Tags: Dodge, Damage, Dexterity."
 			},
 			"Generic_Rare_018": {
 				"name": "Safeguard",
-				"description": "Tags: Search_Elite, Search_DamageReduction, Search_Armor"
+				"description": "Tags: Elite Monsters, Damage Reduction, Armor."
 			},
 			"Generic_Rare_019": {
 				"name": "Suffused Resilience",
-				"description": "Tags: Search_Resistance, Search_NonPhysical, Search_DamageReduction"
+				"description": "Tags: Resistance, Non-Physical, Damage Reduction."
 			},
 			"Generic_Rare_021": {
 				"name": "Calculated",
-				"description": "Tags: Search_CrowdControl, Search_Damage, Search_Armor"
+				"description": "Tags: Crowd Control, Damage, Armor."
 			},
 			"Generic_Rare_022": {
 				"name": "Hunter Killer",
-				"description": "Tags: Search_Elite, Search_Damage, Search_MovementSpeed"
+				"description": "Tags: Elite Monsters, Damage, Movement."
 			},
 			"Generic_Rare_023": {
 				"name": "Deathbringer",
-				"description": "Tags: Keyword_Injured, Search_Damage, Search_Armor"
+				"description": "Tags: Injured, Damage, Armor."
 			},
 			"Generic_Rare_025": {
 				"name": "Pillage",
-				"description": "Tags: Keyword_Vulnerable, Search_Damage, Search_Armor"
+				"description": "Tags: Vulnerable, Damage, Armor."
 			},
 			"Generic_Rare_026": {
 				"name": "Inner Strength",
-				"description": "Tags: Keyword_Fortify, Keyword_Healthy, Search_Damage"
+				"description": "Tags: Fortify, Healthy, Damage."
 			},
 			"Generic_Rare_028": {
 				"name": "Aggression",
-				"description": "Tags: Keyword_Overpower, Search_Damage"
+				"description": "Tags: Overpower, Damage."
 			},
 			"Generic_Rare_029": {
 				"name": "Elementalist",
-				"description": "Tags: Search_NonPhysical, Search_Damage, Search_Life"
+				"description": "Tags: Non-Physical, Damage, Life."
 			},
 			"Generic_Rare_030": {
 				"name": "Culler",
-				"description": "Tags: Keyword_Execute, Search_AttackSpeed, Keyword_Injured, Search_LuckyHit"
+				"description": "Tags: Execute, Attack Speed, Injured, Lucky Hit."
 			},
 			"Generic_Rare_031": {
 				"name": "Fire Resilience",
-				"description": "Tags: Search_Resistance, Search_Fire, Search_Life"
+				"description": "Tags: Resistance, Fire, Life."
 			},
 			"Generic_Rare_032": {
 				"name": "Bulwark",
-				"description": "Tags: Keyword_Fortify, Search_DamageReduction"
+				"description": "Tags: Fortify, Damage Reduction."
 			},
 			"Generic_Rare_033": {
 				"name": "Recuperate",
-				"description": "Tags: Search_Healing"
+				"description": "Tags: Healing."
 			},
 			"Generic_Rare_034": {
 				"name": "Lightning Resilience",
-				"description": "Tags: Search_Resistance, Search_Lightning, Search_Life"
+				"description": "Tags: Resistance, Lightning, Life."
 			},
 			"Generic_Rare_035": {
 				"name": "Ruinous",
-				"description": "Tags: Search_Damage, Search_NonPhysical, Search_Elite"
+				"description": "Tags: Damage, Non-Physical, Elite Monsters."
 			},
 			"Generic_Rare_036": {
 				"name": "Reservoir",
-				"description": "Tags: Search_ResourceMana, Search_Life"
+				"description": "Tags: Mana, Life."
 			},
 			"Generic_Rare_038": {
 				"name": "Core Reserve",
-				"description": "Tags: Search_ResourceFury, Search_Life"
+				"description": "Tags: Fury, Life."
 			},
 			"Generic_Rare_041": {
 				"name": "Poison Resilience",
-				"description": "Tags: Search_Resistance, Search_Poison, Search_Life"
+				"description": "Tags: Resistance, Poison, Life."
 			},
 			"Generic_Rare_042": {
 				"name": "Restorative",
-				"description": "Tags: Search_Healing, Search_Life"
+				"description": "Tags: Healing, Life."
 			},
 			"Generic_Rare_044": {
 				"name": "Tempest",
-				"description": "Tags: Search_Critical, Keyword_Vulnerable, Search_Damage"
+				"description": "Tags: Critical Strikes, Vulnerable, Damage."
 			},
 			"Generic_Rare_046": {
 				"name": "Shadow Resilience",
-				"description": "Tags: Search_Resistance, Search_Shadow, Search_Life"
+				"description": "Tags: Resistance, Shadow, Life."
 			},
 			"Generic_Rare_048": {
 				"name": "Superiority",
-				"description": "Tags: Search_Life, Search_CrowdControl, Search_Damage"
+				"description": "Tags: Life, Crowd Control, Damage."
 			},
 			"Generic_Rare_049": {
 				"name": "Exploit",
-				"description": "Tags: Keyword_Vulnerable, Keyword_Injured, Search_Damage"
+				"description": "Tags: Vulnerable, Injured, Damage."
 			},
 			"Generic_Rare_051": {
 				"name": "Skillful",
-				"description": "Tags: Search_DEXTERITY, Search_Damage"
+				"description": "Tags: Dexterity, Damage."
 			},
 			"Generic_Rare_052": {
 				"name": "Reinvigorate",
-				"description": "Tags: Search_ResourceEssence"
+				"description": "Tags: Essence."
 			},
 			"Generic_Rare_054": {
 				"name": "Erudite",
-				"description": "Tags: Search_NonPhysical, Search_Resistance, Search_Intelligence"
+				"description": "Tags: Non-Physical, Resistance, Intelligence."
 			},
 			"Generic_Rare_057": {
 				"name": "Craving",
-				"description": "Tags: Search_Bleed, Search_Elite, Search_Damage"
+				"description": "Tags: Bleed, Elite Monsters, Damage."
 			},
 			"Generic_Rare_058": {
 				"name": "Revel",
-				"description": "Tags: Search_Bleed, Search_Damage, Search_Strength"
+				"description": "Tags: Bleed, Damage, Strength."
 			},
 			"Generic_Rare_059": {
 				"name": "Brash",
-				"description": "Tags: Search_DamageReduction, Search_Strength"
+				"description": "Tags: Damage Reduction, Strength."
 			},
 			"Generic_Rare_060": {
 				"name": "Brute",
-				"description": "Tags: Search_Physical, Search_Damage, Search_AttackSpeed"
+				"description": "Tags: Physical, Damage, Attack Speed."
 			},
 			"Generic_Rare_061": {
 				"name": "Determination",
-				"description": "Tags: Search_Armor, Search_Willpower"
+				"description": "Tags: Armor, Willpower."
 			},
 			"Generic_Rare_064": {
 				"name": "Lawless",
-				"description": "Tags: Search_Armor, Search_DEXTERITY"
+				"description": "Tags: Armor, Dexterity."
 			},
 			"Generic_Rare_065": {
 				"name": "Discerning",
-				"description": "Tags: Search_Elite, SEARCH_DODGE, Search_Damage"
+				"description": "Tags: Elite Monsters, Dodge, Damage."
 			},
 			"Generic_Rare_066": {
 				"name": "Raw Power",
-				"description": "Tags: Search_Physical, Search_Damage, Search_Strength"
+				"description": "Tags: Physical, Damage, Strength."
 			},
 			"Generic_Rare_067": {
 				"name": "Slayer",
-				"description": "Tags: Search_Healing, Search_Armor"
+				"description": "Tags: Healing, Armor."
 			},
 			"Generic_Rare_068": {
 				"name": "Wiles",
-				"description": "Tags: Search_CrowdControl, Search_DamageReduction, Search_DEXTERITY"
+				"description": "Tags: Crowd Control, Damage Reduction, Dexterity."
 			},
 			"Generic_Rare_069": {
 				"name": "Arrogance",
-				"description": "Tags: Keyword_Vulnerable, Search_DamageReduction, Search_Strength"
+				"description": "Tags: Vulnerable, Damage Reduction, Strength."
 			},
 			"Generic_Rare_070": {
 				"name": "Demolish",
-				"description": "Tags: Keyword_Vulnerable, Search_Damage, Search_Strength"
+				"description": "Tags: Vulnerable, Damage, Strength."
 			},
 			"Generic_Rare_071": {
 				"name": "Powerhouse",
-				"description": "Tags: Keyword_Healthy, Keyword_Overpower, Search_Damage"
+				"description": "Tags: Healthy, Overpower, Damage."
 			},
 			"Generic_Rare_072": {
 				"name": "Brutality",
-				"description": "Tags: Keyword_Overpower, Search_Damage, Search_Strength"
+				"description": "Tags: Overpower, Damage, Strength."
 			},
 			"Generic_Rare_073": {
 				"name": "Impel",
-				"description": "Tags: Search_Damage, Search_Willpower"
+				"description": "Tags: Damage, Willpower."
 			},
 			"Generic_Rare_074": {
 				"name": "Resolve",
-				"description": "Tags: Search_Resistance, Search_Willpower, Search_NonPhysical"
+				"description": "Tags: Resistance, Willpower, Non-Physical."
 			},
 			"Generic_Rare_075": {
 				"name": "Prime",
-				"description": "Tags: Search_Damage, Search_Life"
+				"description": "Tags: Damage, Life."
 			},
 			"Generic_Rare_076": {
 				"name": "Hubris",
-				"description": "Tags: Keyword_Vulnerable, Search_DamageReduction, Search_Willpower"
+				"description": "Tags: Vulnerable, Damage Reduction, Willpower."
 			},
 			"Generic_Rare_077": {
 				"name": "Courage",
-				"description": "Tags: Search_Life, Search_Willpower"
+				"description": "Tags: Life, Willpower."
 			},
 			"Generic_Rare_078": {
 				"name": "Regenerative",
-				"description": "Tags: Search_Healing, Search_Willpower"
+				"description": "Tags: Healing, Willpower."
 			},
 			"Generic_Rare_079": {
 				"name": "Feral",
-				"description": "Tags: Skill_Wolf, Search_Damage, Search_Willpower"
+				"description": "Tags: Werewolf, Damage, Willpower."
 			},
 			"Generic_Rare_080": {
 				"name": "Overturn",
-				"description": "Tags: Search_Poison, Search_Elite, Search_Damage"
+				"description": "Tags: Poison, Elite Monsters, Damage."
 			},
 			"Generic_Rare_081": {
 				"name": "Dosage",
-				"description": "Tags: Search_Healing, Search_DEXTERITY"
+				"description": "Tags: Healing, Dexterity."
 			},
 			"Generic_Rare_082": {
 				"name": "Training",
-				"description": "Tags: Search_Life, Search_DEXTERITY"
+				"description": "Tags: Life, Dexterity."
 			},
 			"Generic_Rare_083": {
 				"name": "Tolerance",
-				"description": "Tags: Search_Resistance, Search_DEXTERITY, Search_NonPhysical"
+				"description": "Tags: Resistance, Dexterity, Non-Physical."
 			},
 			"Generic_Rare_084": {
 				"name": "Knowledge",
-				"description": "Tags: Search_Damage, Search_Intelligence"
+				"description": "Tags: Damage, Intelligence."
 			},
 			"Generic_Rare_085": {
 				"name": "Preservation",
-				"description": "Tags: Search_Armor, Search_Intelligence"
+				"description": "Tags: Armor, Intelligence."
 			},
 			"Generic_Rare_086": {
 				"name": "Targeted",
-				"description": "Tags: Search_Elite, Search_Damage, Search_Intelligence"
+				"description": "Tags: Elite Monsters, Damage, Intelligence."
 			},
 			"Generic_Rare_087": {
 				"name": "Corrective",
-				"description": "Tags: Search_Critical, Search_Damage, Search_Healing"
+				"description": "Tags: Critical Strikes, Damage, Healing."
 			},
 			"Generic_Rare_088": {
 				"name": "Deathmarked",
-				"description": "Tags: Keyword_Injured, Search_Damage, Search_Intelligence"
+				"description": "Tags: Injured, Damage, Intelligence."
 			},
 			"Generic_Rare_089": {
 				"name": "Remedy",
-				"description": "Tags: Search_Healing, Search_Intelligence"
+				"description": "Tags: Healing, Intelligence."
 			},
 			"Generic_Rare_090": {
 				"name": "Gloom",
-				"description": "Tags: Search_Resistance, Search_Shadow, Search_Intelligence"
+				"description": "Tags: Resistance, Shadow, Intelligence."
 			},
 			"Generic_Rare_091": {
 				"name": "Dragging Shadows",
-				"description": "Tags: Search_Resistance, Search_Shadow, Search_ShadowDOT, Search_DamageReduction"
+				"description": "Tags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction."
 			},
 			"Generic_Rare_092": {
 				"name": "Gnawing Darkness",
-				"description": "Tags: Search_ShadowDOT, Search_Elite, Search_Damage"
+				"description": "Tags: Shadow Damage Over Time, Elite Monsters, Damage."
 			},
 			"Generic_Rare_093": {
 				"name": "Malediction",
-				"description": "Tags: Search_Shadow, Search_Damage, Search_Intelligence"
+				"description": "Tags: Shadow, Damage, Intelligence."
 			},
 			"Generic_Rare_094": {
 				"name": "Advantage",
-				"description": "Tags: Search_Resistance, Search_Cold, Search_LuckyHit"
+				"description": "Tags: Resistance, Cold, Lucky Hit."
 			},
 			"Generic_Rare_095": {
 				"name": "Weakness",
-				"description": "Tags: Search_Intelligence, Search_Damage, Keyword_Vulnerable"
+				"description": "Tags: Intelligence, Damage, Vulnerable."
 			},
 			"Generic_Rare_096": {
 				"name": "Artifice",
-				"description": "Tags: Keyword_Vulnerable, Search_Damage, Search_DEXTERITY"
+				"description": "Tags: Vulnerable, Damage, Dexterity."
 			},
 			"Generic_Rare_097": {
 				"name": "Zealous",
-				"description": "Tags: Keyword_Healthy, Search_Damage, Search_Armor"
+				"description": "Tags: Healthy, Damage, Armor."
 			},
 			"Generic_Socket": {
 				"name": "Glyph Socket"
@@ -13651,187 +13651,187 @@ let paragonData = {
 		"Node": {
 			"Necromancer_Legendary_001": {
 				"name": "Cult Leader",
-				"description": "Your Minions deal x{#}% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.\n\nTags: Search_Minion, Search_Damage"
+				"description": "Your Minions deal x{#}% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.\n\nTags: Minion, Damage."
 			},
 			"Necromancer_Legendary_005": {
 				"name": "Hulking Monstrosity",
-				"description": "Your Golem has x{#}% increased Maximum Life and deals x{#}% increased damage.\n\nTags: Search_Minion, Search_Life, Search_Damage"
+				"description": "Your Golem has x{#}% increased Maximum Life and deals x{#}% increased damage.\n\nTags: Minion, Life, Damage."
 			},
 			"Necromancer_Legendary_007": {
 				"name": "Scent of Death",
-				"description": "With at least {#} Corpses Nearby, you gain {#}% Damage Reduction. With no Corpses Nearby, you deal x{#}% increased damage.\n\nTags: Search_DamageReduction, Search_Damage, Skill_Primary_Corpse"
+				"description": "With at least {#} Corpses Nearby, you gain {#}% Damage Reduction. With no Corpses Nearby, you deal x{#}% increased damage.\n\nTags: Damage Reduction, Damage, Corpse."
 			},
 			"Necromancer_Legendary_008": {
 				"name": "Flesh-eater",
-				"description": "Consuming {#} Corpses grants x{#}% increased damage for {#} seconds.\n\nTags: Search_Damage, Skill_Primary_Corpse"
+				"description": "Consuming {#} Corpses grants x{#}% increased damage for {#} seconds.\n\nTags: Damage, Corpse."
 			},
 			"Necromancer_Legendary_010": {
 				"name": "Bloodbath",
-				"description": "Attacks that are guaranteed to Overpower deal x{#}% increased Overpower damage.\n\nTags: Keyword_Overpower, Search_Damage"
+				"description": "Attacks that are guaranteed to Overpower deal x{#}% increased Overpower damage.\n\nTags: Overpower, Damage."
 			},
 			"Necromancer_Legendary_011": {
 				"name": "Blood Begets Blood",
-				"description": "Blood Orbs grant x{#}% increased damage, up to x{#}%, for {#} seconds.\n\nTags: Keyword_Blood_Orb, Search_Damage"
+				"description": "Blood Orbs grant x{#}% increased damage, up to x{#}%, for {#} seconds.\n\nTags: Blood Orb, Damage."
 			},
 			"Necromancer_Legendary_016": {
 				"name": "Wither",
-				"description": "Your Shadow damage over time effects have a x{#}% chance to deal x{#}% bonus damage each time they deal damage. This chance is increased by x{#}% and bonus damage is increased by x{#}% for each {#} Willpower you have.\n\nTags: Search_ShadowDOT, Search_Damage, Search_Willpower"
+				"description": "Your Shadow damage over time effects have a x{#}% chance to deal x{#}% bonus damage each time they deal damage. This chance is increased by x{#}% and bonus damage is increased by x{#}% for each {#} Willpower you have.\n\nTags: Shadow Damage Over Time, Damage, Willpower."
 			},
 			"Necromancer_Legendary_017": {
 				"name": "Bone Graft",
-				"description": "Hitting enemies with Bone Skills increases your damage by x{#}% and your Maximum Essence by {#} for {#} seconds, stacks up to x{#}% increased damage and {#} Maximum Essence.\n\nTags: Skill_Bone, Search_ResourceEssence, Search_Damage"
+				"description": "Hitting enemies with Bone Skills increases your damage by x{#}% and your Maximum Essence by {#} for {#} seconds, stacks up to x{#}% increased damage and {#} Maximum Essence.\n\nTags: Bone, Essence, Damage."
 			},
 			"Necromancer_Magic_ArmorWithActiveGolem": {
 				"name": "Armor With Active Golem",
-				"description": "Tags: Search_Minion, Search_Armor"
+				"description": "Tags: Minion, Armor."
 			},
 			"Necromancer_Magic_BloodOrbDamage": {
 				"name": "Blood Orb Damage",
-				"description": "Tags: Keyword_Blood_Orb, Search_Damage"
+				"description": "Tags: Blood Orb, Damage."
 			},
 			"Necromancer_Magic_BloodOrbHealing": {
 				"name": "Blood Orb Healing",
-				"description": "Tags: Keyword_Blood_Orb, Search_Healing"
+				"description": "Tags: Blood Orb, Healing."
 			},
 			"Necromancer_Magic_CriticalDamageBone": {
 				"name": "Critical Damage Bone",
-				"description": "Tags: Skill_Bone, Search_Critical, Search_Damage"
+				"description": "Tags: Bone, Critical Strikes, Damage."
 			},
 			"Necromancer_Magic_DamageBone": {
 				"name": "Damage Bone",
-				"description": "Tags: Skill_Bone, Search_Damage"
+				"description": "Tags: Bone, Damage."
 			},
 			"Necromancer_Magic_DamageWithActiveGolem": {
 				"name": "Damage With Active Golem",
-				"description": "Tags: Search_Minion, Search_Damage"
+				"description": "Tags: Minion, Damage."
 			},
 			"Necromancer_Magic_GolemArmor": {
 				"name": "Golem Armor",
-				"description": "Tags: Search_Minion, Search_Armor"
+				"description": "Tags: Minion, Armor."
 			},
 			"Necromancer_Magic_GolemAttackSpeed": {
 				"name": "Golem Attack Speed",
-				"description": "Tags: Search_Minion, Search_AttackSpeed"
+				"description": "Tags: Minion, Attack Speed."
 			},
 			"Necromancer_Magic_GolemDamage": {
 				"name": "Golem Damage",
-				"description": "Tags: Search_Minion, Search_Damage"
+				"description": "Tags: Minion, Damage."
 			},
 			"Necromancer_Magic_GolemHP": {
 				"name": "Golem HP",
-				"description": "Tags: Search_Minion, Search_Life"
+				"description": "Tags: Minion, Life."
 			},
 			"Necromancer_Magic_GolemResistAll": {
 				"name": "Golem Resist All",
-				"description": "Tags: Search_Minion, Search_Resistance, Search_NonPhysical"
+				"description": "Tags: Minion, Resistance, Non-Physical."
 			},
 			"Necromancer_Magic_SkeletonMageDamage": {
 				"name": "Skeleton Mage Damage",
-				"description": "Tags: Search_Minion, Search_Damage"
+				"description": "Tags: Minion, Damage."
 			},
 			"Necromancer_Magic_SkeletonMageResistAll": {
 				"name": "Skeleton Mage Resist All",
-				"description": "Tags: Search_Minion, Search_Resistance, Search_NonPhysical"
+				"description": "Tags: Minion, Resistance, Non-Physical."
 			},
 			"Necromancer_Magic_SkeletonWarriorArmor": {
 				"name": "Skeleton Warrior Armor",
-				"description": "Tags: Search_Minion, Search_Armor"
+				"description": "Tags: Minion, Armor."
 			},
 			"Necromancer_Magic_SkeletonWarriorDamage": {
 				"name": "Skeleton Warrior Damage",
-				"description": "Tags: Search_Minion, Search_Damage"
+				"description": "Tags: Minion, Damage."
 			},
 			"Necromancer_Rare_001": {
 				"name": "Shaper of Bone",
-				"description": "Tags: Skill_Bone, Search_Damage, Search_Intelligence"
+				"description": "Tags: Bone, Damage, Intelligence."
 			},
 			"Necromancer_Rare_002": {
 				"name": "Thick Hide",
-				"description": "Tags: Keyword_Fortify, Search_Damage, Search_Life"
+				"description": "Tags: Fortify, Damage, Life."
 			},
 			"Necromancer_Rare_003": {
 				"name": "Blooddrinker",
-				"description": "Tags: Keyword_Blood_Orb, Search_Healing, Search_Intelligence"
+				"description": "Tags: Blood Orb, Healing, Intelligence."
 			},
 			"Necromancer_Rare_005": {
 				"name": "Calcified",
-				"description": "Tags: Skill_Bone, Search_Critical, Search_Damage"
+				"description": "Tags: Bone, Critical Strikes, Damage."
 			},
 			"Necromancer_Rare_006": {
 				"name": "Hardened",
-				"description": "Tags: Keyword_Fortify, Search_Damage, Search_Intelligence"
+				"description": "Tags: Fortify, Damage, Intelligence."
 			},
 			"Necromancer_Rare_009": {
 				"name": "Invigorated",
-				"description": "Tags: Keyword_Blood_Orb, Keyword_Healthy, Search_Damage"
+				"description": "Tags: Blood Orb, Healthy, Damage."
 			},
 			"Necromancer_Rare_011": {
 				"name": "Unassailable",
-				"description": "Tags: Keyword_Vulnerable, Search_DamageReduction, Search_Armor"
+				"description": "Tags: Vulnerable, Damage Reduction, Armor."
 			},
 			"Necromancer_Rare_013": {
 				"name": "Vampiric",
-				"description": "Tags: Keyword_Blood_Orb, Search_Healing, Search_Life"
+				"description": "Tags: Blood Orb, Healing, Life."
 			},
 			"Necromancer_Rare_017": {
 				"name": "Borrowed Strength",
-				"description": "Tags: Search_Minion, Search_Damage, Search_Armor"
+				"description": "Tags: Minion, Damage, Armor."
 			},
 			"Necromancer_Rare_018": {
 				"name": "Armor-clad",
-				"description": "Tags: Search_Minion, Search_Armor, Search_Life"
+				"description": "Tags: Minion, Armor, Life."
 			},
 			"Necromancer_Rare_020": {
 				"name": "Custody",
-				"description": "Tags: Search_Minion, Search_DamageReduction, Search_Intelligence"
+				"description": "Tags: Minion, Damage Reduction, Intelligence."
 			},
 			"Necromancer_Rare_021": {
 				"name": "Overlord",
-				"description": "Tags: Search_Minion, Search_Damage, Search_Intelligence"
+				"description": "Tags: Minion, Damage, Intelligence."
 			},
 			"Necromancer_Rare_022": {
 				"name": "Mutation",
-				"description": "Tags: Search_Minion, Search_Damage, Search_Intelligence"
+				"description": "Tags: Minion, Damage, Intelligence."
 			},
 			"Necromancer_Rare_024": {
 				"name": "Frenzied Golem",
-				"description": "Tags: Search_Minion, Search_Damage, Search_AttackSpeed"
+				"description": "Tags: Minion, Damage, Attack Speed."
 			},
 			"Necromancer_Rare_025": {
 				"name": "Miscreation",
-				"description": "Tags: Search_Minion, Search_Armor, Search_Intelligence"
+				"description": "Tags: Minion, Armor, Intelligence."
 			},
 			"Necromancer_Rare_026": {
 				"name": "Puppeteer",
-				"description": "Tags: Search_Minion, Search_Damage, Search_AttackSpeed"
+				"description": "Tags: Minion, Damage, Attack Speed."
 			},
 			"Necromancer_Rare_027": {
 				"name": "Infused Caster",
-				"description": "Tags: Search_Minion, Search_Damage, Search_Resistance, Search_NonPhysical"
+				"description": "Tags: Minion, Damage, Resistance, Non-Physical."
 			},
 			"Necromancer_Rare_028": {
 				"name": "Infused Warrior",
-				"description": "Tags: Search_Minion, Search_Damage, Search_Armor"
+				"description": "Tags: Minion, Damage, Armor."
 			},
 			"Necromancer_Rare_029": {
 				"name": "Infused Golem",
-				"description": "Tags: Search_Minion, Search_Damage, Search_Life"
+				"description": "Tags: Minion, Damage, Life."
 			},
 			"Necromancer_Rare_031": {
 				"name": "Flesh-horror",
-				"description": "Tags: Search_Minion, Search_Resistance, Search_NonPhysical, Search_Armor"
+				"description": "Tags: Minion, Resistance, Non-Physical, Armor."
 			},
 			"Necromancer_Rare_034": {
 				"name": "Blood-Empowered",
-				"description": "Tags: Search_Damage, Search_Intelligence, Keyword_Blood_Orb"
+				"description": "Tags: Damage, Intelligence, Blood Orb."
 			},
 			"Necromancer_Rare_035": {
 				"name": "Lingering Shadows",
-				"description": "Tags: Search_Shadow, Search_ShadowDOT, Search_Damage"
+				"description": "Tags: Shadow, Shadow Damage Over Time, Damage."
 			},
 			"Necromancer_Rare_036": {
 				"name": "Entomb",
-				"description": "Tags: Search_Healing, Skill_Bone, Search_Critical"
+				"description": "Tags: Healing, Bone, Critical Strikes."
 			},
 			"StartNodeNecro": {
 				"name": "Paragon Starting Node"
@@ -18071,31 +18071,31 @@ let paragonData = {
 		"Node": {
 			"Rogue_Legendary_002": {
 				"name": "Eldritch Bounty",
-				"description": "When you attack with an Imbued Skill you gain {#}% Resistance and x{#}% increased damage for that Imbuement's element for {#} seconds.\n\nTags: Skill_Primary_Imbuements, Search_Resistance, Search_Damage, Search_NonPhysical"
+				"description": "When you attack with an Imbued Skill you gain {#}% Resistance and x{#}% increased damage for that Imbuement's element for {#} seconds.\n\nTags: Imbuement, Resistance, Damage, Non-Physical."
 			},
 			"Rogue_Legendary_006": {
 				"name": "Tricks of the Trade",
-				"description": "Your Marksman Skills grant your next Cutthroat Skill x{#}% increased damage. Your Cutthroat Skills grant your next Marksman Skill x{#}% increased damage.\n\nTags: Skill_Marksman, Skill_Cutthroat, Search_Damage"
+				"description": "Your Marksman Skills grant your next Cutthroat Skill x{#}% increased damage. Your Cutthroat Skills grant your next Marksman Skill x{#}% increased damage.\n\nTags: Marksman, Cutthroat, Damage."
 			},
 			"Rogue_Legendary_007": {
 				"name": "Cheap Shot",
-				"description": "You deal x{#}% increased damage for each Nearby enemy that is Crowd Controlled, up to x{#}%.\n\nTags: Search_CrowdControl, Search_Damage"
+				"description": "You deal x{#}% increased damage for each Nearby enemy that is Crowd Controlled, up to x{#}%.\n\nTags: Crowd Control, Damage."
 			},
 			"Rogue_Legendary_008": {
 				"name": "Deadly Ambush",
-				"description": "You deal x{#}% increased Critical Strike Damage to enemies affected by your Trap Skills.\n\nTags: Skill_Trap, Search_Critical, Search_Damage"
+				"description": "You deal x{#}% increased Critical Strike Damage to enemies affected by your Trap Skills.\n\nTags: Trap, Critical Strikes, Damage."
 			},
 			"Rogue_Legendary_009": {
 				"name": "Leyrana's Instinct",
-				"description": "When Inner Sight's gauge becomes full, you gain +{#}% Dodge Chance for {#} seconds.\n\nTags: SEARCH_DODGE"
+				"description": "When Inner Sight's gauge becomes full, you gain +{#}% Dodge Chance for {#} seconds.\n\nTags: Dodge."
 			},
 			"Rogue_Legendary_010": {
 				"name": "Exploit Weakness",
-				"description": "Whenever you deal damage to a Vulnerable enemy, they take x{#}% increased damage from you for {#} seconds, up to x{#}%.\n\nTags: Keyword_Vulnerable, Search_Damage"
+				"description": "Whenever you deal damage to a Vulnerable enemy, they take x{#}% increased damage from you for {#} seconds, up to x{#}%.\n\nTags: Vulnerable, Damage."
 			},
 			"Rogue_Legendary_011": {
 				"name": "No Witnesses",
-				"description": "Your Ultimate Skills deal x{#}% increased damage and grant you x{#}% increased damage for {#} seconds when cast.\n\nTags: Skill_Primary_Ultimate, Search_Damage"
+				"description": "Your Ultimate Skills deal x{#}% increased damage and grant you x{#}% increased damage for {#} seconds when cast.\n\nTags: Ultimate, Damage."
 			},
 			"Rogue_Legendary_012": {
 				"name": "Cunning Stratagem",
@@ -18103,75 +18103,75 @@ let paragonData = {
 			},
 			"Rogue_Magic_DamageImbued": {
 				"name": "Damage Imbued",
-				"description": "Tags: Skill_Primary_Imbuements, Search_Damage"
+				"description": "Tags: Imbuement, Damage."
 			},
 			"Rogue_Magic_DamageReductionFromTrapped": {
 				"name": "Damage Reduction From Trapped",
-				"description": "Tags: Skill_Trap, Search_DamageReduction"
+				"description": "Tags: Trap, Damage Reduction."
 			},
 			"Rogue_Magic_DamageToTrapped": {
 				"name": "Damage To Trapped",
-				"description": "Tags: Skill_Trap, Search_Damage"
+				"description": "Tags: Trap, Damage."
 			},
 			"Rogue_Magic_DamageTrap": {
 				"name": "Damage Trap",
-				"description": "Tags: Skill_Trap, Search_Damage"
+				"description": "Tags: Trap, Damage."
 			},
 			"Rogue_Magic_ImbueCDR": {
 				"name": "Imbue CDR",
-				"description": "Tags: Skill_Primary_Imbuements, Search_Cooldown"
+				"description": "Tags: Imbuement, Cooldown."
 			},
 			"Rogue_Magic_TrapCooldown": {
 				"name": "Trap Cooldown",
-				"description": "Tags: Search_Cooldown, Skill_Trap"
+				"description": "Tags: Cooldown, Trap."
 			},
 			"Rogue_Rare_005": {
 				"name": "Finisher",
-				"description": "Tags: Skill_Primary_Core, Search_Damage, Search_DEXTERITY"
+				"description": "Tags: Core, Damage, Dexterity."
 			},
 			"Rogue_Rare_008": {
 				"name": "Spring-loaded",
-				"description": "Tags: Skill_Trap, Search_Cooldown"
+				"description": "Tags: Trap, Cooldown."
 			},
 			"Rogue_Rare_009": {
 				"name": "Imbuer",
-				"description": "Tags: Skill_Primary_Imbuements, Search_NonPhysical, Search_Damage"
+				"description": "Tags: Imbuement, Non-Physical, Damage."
 			},
 			"Rogue_Rare_010": {
 				"name": "Ready Supply",
-				"description": "Tags: Search_Cooldown, Skill_Primary_Imbuements, Search_NonPhysical, Search_Damage"
+				"description": "Tags: Cooldown, Imbuement, Non-Physical, Damage."
 			},
 			"Rogue_Rare_011": {
 				"name": "Dominant",
-				"description": "Tags: Skill_Primary_Core, Skill_Primary_Basic, Search_Damage"
+				"description": "Tags: Core, Basic, Damage."
 			},
 			"Rogue_Rare_012": {
 				"name": "Potent",
-				"description": "Tags: Skill_Primary_Imbuements, Search_Damage, Search_DEXTERITY"
+				"description": "Tags: Imbuement, Damage, Dexterity."
 			},
 			"Rogue_Rare_014": {
 				"name": "Fundamentals",
-				"description": "Tags: Skill_Primary_Basic, Search_Damage"
+				"description": "Tags: Basic, Damage."
 			},
 			"Rogue_Rare_016": {
 				"name": "Brawler",
-				"description": "Tags: Search_Damage, Search_DamageReduction"
+				"description": "Tags: Damage, Damage Reduction."
 			},
 			"Rogue_Rare_018": {
 				"name": "Ranger",
-				"description": "Tags: Search_Damage, Search_DamageReduction"
+				"description": "Tags: Damage, Damage Reduction."
 			},
 			"Rogue_Rare_027": {
 				"name": "Engineering",
-				"description": "Tags: Skill_Trap, Search_Damage, Search_DEXTERITY"
+				"description": "Tags: Trap, Damage, Dexterity."
 			},
 			"Rogue_Rare_028": {
 				"name": "Cunning",
-				"description": "Tags: Skill_Trap, Search_DamageReduction, Search_DEXTERITY"
+				"description": "Tags: Trap, Damage Reduction, Dexterity."
 			},
 			"Rogue_Rare_029": {
 				"name": "Trapper",
-				"description": "Tags: Skill_Trap, Search_Damage"
+				"description": "Tags: Trap, Damage."
 			},
 			"StartNodeRogue": {
 				"name": "Paragon Starting Node"
@@ -22411,31 +22411,31 @@ let paragonData = {
 		"Node": {
 			"Sorcerer_Legendary_001": {
 				"name": "Burning Instinct",
-				"description": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every {#} Intelligence you have. (Current Bonus: {#}%)\n\nTags: Search_Burn, Search_Damage, Search_Critical, Search_Intelligence"
+				"description": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every {#} Intelligence you have. (Current Bonus: {#}%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence."
 			},
 			"Sorcerer_Legendary_002": {
 				"name": "Searing Heat",
-				"description": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +{#}% for {#} seconds, up to +{#}%. Additional stacks do not refresh this timer.\n\nTags: Search_Critical"
+				"description": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +{#}% for {#} seconds, up to +{#}%. Additional stacks do not refresh this timer.\n\nTags: Critical Strikes."
 			},
 			"Sorcerer_Legendary_005": {
 				"name": "Frigid Fate",
-				"description": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +{#}% for {#} seconds, up to +{#}%.\n\nTags: Keyword_Vulnerable, Search_Cold, Search_LuckyHit"
+				"description": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +{#}% for {#} seconds, up to +{#}%.\n\nTags: Vulnerable, Cold, Lucky Hit."
 			},
 			"Sorcerer_Legendary_006": {
 				"name": "Icefall",
-				"description": "Killing a Frozen enemy grants you {#}% of your Maximum Life as a Barrier ({#}) for {#} seconds.\n\nTags: Keyword_Freeze, Keyword_Barrier"
+				"description": "Killing a Frozen enemy grants you {#}% of your Maximum Life as a Barrier ({#}) for {#} seconds.\n\nTags: Frozen, Barrier."
 			},
 			"Sorcerer_Legendary_007": {
 				"name": "Static Surge",
-				"description": "Stunning Close enemies restores {#} Mana.\n\nTags: Search_CrowdControl, Search_ResourceMana"
+				"description": "Stunning Close enemies restores {#} Mana.\n\nTags: Crowd Control, Mana."
 			},
 			"Sorcerer_Legendary_008": {
 				"name": "Ceaseless Conduit",
-				"description": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per {#} total Intelligence you have. (Current Bonus: x{#}%)\n\nTags: Keyword_Resource_Pickup, Search_Damage, Search_Intelligence"
+				"description": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per {#} total Intelligence you have. (Current Bonus: x{#}%)\n\nTags: Crackling Energy, Damage, Intelligence."
 			},
 			"Sorcerer_Legendary_011": {
 				"name": "Elemental Summoner",
-				"description": "Your Conjuration Skills have a {#}% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.\n\nTags: Skill_Primary_Conjuration, Search_ResourceMana, Search_Cooldown"
+				"description": "Your Conjuration Skills have a {#}% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.\n\nTags: Conjuration, Mana, Cooldown."
 			},
 			"Sorcerer_Legendary_015": {
 				"name": "Enchantment Master",
@@ -22443,115 +22443,115 @@ let paragonData = {
 			},
 			"Sorcerer_Magic_CracklingEnergy": {
 				"name": "Crackling Energy",
-				"description": "Tags: Keyword_Resource_Pickup, Search_Damage"
+				"description": "Tags: Crackling Energy, Damage."
 			},
 			"Sorcerer_Rare_002": {
 				"name": "Cryomancy",
-				"description": "Tags: Search_Cold, Search_Damage, Keyword_Chill, Search_CrowdControl"
+				"description": "Tags: Cold, Damage, Chill, Crowd Control."
 			},
 			"Sorcerer_Rare_005": {
 				"name": "Polar Rime",
-				"description": "Tags: Search_NonPhysical, Keyword_Chill, Search_Damage, Search_CrowdControl"
+				"description": "Tags: Non-Physical, Chill, Damage, Crowd Control."
 			},
 			"Sorcerer_Rare_006": {
 				"name": "Chilling",
-				"description": "Tags: Search_Resistance, Search_Intelligence, Search_Cold"
+				"description": "Tags: Resistance, Intelligence, Cold."
 			},
 			"Sorcerer_Rare_007": {
 				"name": "Pyromancy",
-				"description": "Tags: Search_Fire, Search_Burn, Search_Damage"
+				"description": "Tags: Fire, Burn, Damage."
 			},
 			"Sorcerer_Rare_008": {
 				"name": "Kindling",
-				"description": "Tags: Search_Burn, Search_Elite, Search_Damage"
+				"description": "Tags: Burn, Elite Monsters, Damage."
 			},
 			"Sorcerer_Rare_009": {
 				"name": "Flame-touched",
-				"description": "Tags: Search_Fire, Search_Damage, Search_Intelligence"
+				"description": "Tags: Fire, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_010": {
 				"name": "Paralyzing",
-				"description": "Tags: Search_ResourceMana, Search_CrowdControl, Search_Damage"
+				"description": "Tags: Mana, Crowd Control, Damage."
 			},
 			"Sorcerer_Rare_011": {
 				"name": "Conduit",
-				"description": "Tags: Skill_Lightning, Keyword_Resource_Pickup, Search_Damage"
+				"description": "Tags: Shock, Crackling Energy, Damage."
 			},
 			"Sorcerer_Rare_012": {
 				"name": "Incapacitate",
-				"description": "Tags: Search_CrowdControl, Search_Damage, Search_Intelligence"
+				"description": "Tags: Crowd Control, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_013": {
 				"name": "Keeper of Flames",
-				"description": "Tags: Search_Burn, Search_DamageReduction, Search_Fire, Search_Resistance"
+				"description": "Tags: Burn, Damage Reduction, Fire, Resistance."
 			},
 			"Sorcerer_Rare_014": {
 				"name": "Electro",
-				"description": "Tags: Search_Lightning, Search_Resistance, Search_Intelligence"
+				"description": "Tags: Lightning, Resistance, Intelligence."
 			},
 			"Sorcerer_Rare_015": {
 				"name": "Oppressive",
-				"description": "Tags: Keyword_Vulnerable, Search_Damage, Search_DamageReduction"
+				"description": "Tags: Vulnerable, Damage, Damage Reduction."
 			},
 			"Sorcerer_Rare_016": {
 				"name": "Smoldering Embers",
-				"description": "Tags: Search_Burn, Search_DamageReduction, Search_Intelligence"
+				"description": "Tags: Burn, Damage Reduction, Intelligence."
 			},
 			"Sorcerer_Rare_017": {
 				"name": "Keeper of Winter",
-				"description": "Tags: Search_DamageReduction, Search_Resistance, Search_Cold, Search_CrowdControl"
+				"description": "Tags: Damage Reduction, Resistance, Cold, Crowd Control."
 			},
 			"Sorcerer_Rare_019": {
 				"name": "Elemental Balance",
-				"description": "Tags: Search_NonPhysical, Search_Damage, Search_Intelligence"
+				"description": "Tags: Non-Physical, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_020": {
 				"name": "Keeper of Elements",
-				"description": "Tags: Search_NonPhysical, Search_Damage, Search_Resistance"
+				"description": "Tags: Non-Physical, Damage, Resistance."
 			},
 			"Sorcerer_Rare_022": {
 				"name": "Overwhelming",
-				"description": "Tags: Search_Elite, Search_Damage, Search_CrowdControl"
+				"description": "Tags: Elite Monsters, Damage, Crowd Control."
 			},
 			"Sorcerer_Rare_023": {
 				"name": "Ashes",
-				"description": "Tags: Search_Fire, Search_Resistance, Search_Intelligence"
+				"description": "Tags: Fire, Resistance, Intelligence."
 			},
 			"Sorcerer_Rare_024": {
 				"name": "Combustion",
-				"description": "Tags: Search_Fire, Search_Critical, Search_Damage"
+				"description": "Tags: Fire, Critical Strikes, Damage."
 			},
 			"Sorcerer_Rare_025": {
 				"name": "Cinders",
-				"description": "Tags: Search_Burn, Search_Damage, Search_Intelligence"
+				"description": "Tags: Burn, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_026": {
 				"name": "Frosts",
-				"description": "Tags: Keyword_Chill, Search_Damage, Search_Intelligence, Search_CrowdControl"
+				"description": "Tags: Chill, Damage, Intelligence, Crowd Control."
 			},
 			"Sorcerer_Rare_027": {
 				"name": "Galvanic Catalyst",
-				"description": "Tags: Keyword_Resource_Pickup, Search_Damage, Search_Intelligence"
+				"description": "Tags: Crackling Energy, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_028": {
 				"name": "Frigid",
-				"description": "Tags: Keyword_Chill, Search_DamageReduction, Search_Intelligence, Search_CrowdControl"
+				"description": "Tags: Chill, Damage Reduction, Intelligence, Crowd Control."
 			},
 			"Sorcerer_Rare_029": {
 				"name": "Conjurer",
-				"description": "Tags: Search_Damage, Skill_Primary_Conjuration, Search_Intelligence"
+				"description": "Tags: Damage, Conjuration, Intelligence."
 			},
 			"Sorcerer_Rare_034": {
 				"name": "Denial",
-				"description": "Tags: Search_Resistance, Search_Armor, Search_NonPhysical"
+				"description": "Tags: Resistance, Armor, Non-Physical."
 			},
 			"Sorcerer_Rare_035": {
 				"name": "Guarded",
-				"description": "Tags: Keyword_Vulnerable, Search_DamageReduction, Search_Cold, Search_Resistance"
+				"description": "Tags: Vulnerable, Damage Reduction, Cold, Resistance."
 			},
 			"Sorcerer_Rare_036": {
 				"name": "Speed Caster",
-				"description": "Tags: Search_AttackSpeed, Search_Damage, Skill_Primary_Conjuration"
+				"description": "Tags: Attack Speed, Damage, Conjuration."
 			},
 			"StartNodeSorc": {
 				"name": "Paragon Starting Node"
