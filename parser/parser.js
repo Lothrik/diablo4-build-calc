@@ -1,5 +1,9 @@
 import { nodeHistory } from "./node-history.js";
 import { nodeValues } from "./node-values.js";
+
+import { codexHistory } from "./codex-history.js";
+import { codexValues } from "./codex-values.js";
+
 import { necromancerMinions } from "./necromancer-minions.js";
 
 const buildNumber = 39657;
@@ -340,6 +344,34 @@ function updateSavedValues(className, rootNodeName, skillName, sanitizedDescript
 	return output;
 }
 
+const codexCategoryNames = {
+	"0": "Offensive",
+	"1": "Defensive",
+	"2": "Utility",
+	"3": "Resource",
+	"4": "Mobility",
+	"5": "Other",
+	"6": "Unknown"
+};
+function getCodexId(codexPowerName, codexCategoryName, className) {
+	const codexHistoricalId = codexHistory[codexCategoryName + ": " + codexPowerName];
+	if (codexHistoricalId != undefined) {
+		return codexHistoricalId;
+		$("#debugOutput").html($("#debugOutput").html() + "Loading existing codexHistory ID: `" + codexHistoricalId + "` for powerName: `" + codexCategoryName + ": " + codexPowerName + "`.");
+	} else {
+		const codexHistoryLength = Object.keys(codexHistory).length;
+		codexHistory[codexCategoryName + ": " + codexPowerName] = codexHistoryLength;
+		return codexHistoricalId;
+		$("#debugOutput").html($("#debugOutput").html() + "Adding new codexHistory ID: `" + codexHistoryLength + "` for powerName: `" + codexCategoryName + ": " + codexPowerName + "`.");
+	}
+}
+function getCodexValues(codexPowerName, codexCategoryName, className) {
+	if (!(className in codexValues)) return [];
+	if (!(codexCategoryName in codexValues[className])) return [];
+	if (!(codexPowerName in codexValues[className][codexCategoryName])) return [];
+	return codexValues[className][codexCategoryName][codexPowerName];
+}
+
 const MAX_RECURSION_DEPTH = 10;
 function recursiveSkillTreeScan(connectionData, classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth = 0) {
 	let output = "";
@@ -413,6 +445,9 @@ function runParser(downloadMode) {
 	console.clear();
 
 	let paragonData = {};
+	let codexData = {
+		"Categories": codexValues["Categories"]
+	};
 	for (const [className, classData] of Object.entries(fullJSON)) {
 		// process skill tree, if present in classData
 		if ("Skill Tree" in classData) {
@@ -592,19 +627,80 @@ function runParser(downloadMode) {
 				};
 			}
 		}
+
+		// process legendary affixes
+		codexData[className] = {};
+		if (classData["Legendary"] != undefined) {
+			for (const [nodeName, nodeData] of Object.entries(classData["Legendary"])) {
+				const codexPowerName = nodeData["name"].startsWith("of ") ? `Aspect ${nodeData["name"]}` : `${nodeData["name"]} Aspect`;
+				const codexCategoryName = "category" in nodeData ? codexCategoryNames[nodeData["category"]] : "Unknown";
+				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className);
+				if (!(codexCategoryName in codexData[className])) codexData[className][codexCategoryName] = {};
+				codexData[className][codexCategoryName][codexPowerName] = {
+					id: getCodexId(codexPowerName, codexCategoryName, className),
+					type: "Legendary",
+					description: sanitizeNodeDescription(nodeData["desc"]),
+					flavor: nodeData["flavor"],
+					region: codexValues["region"],
+					dungeon: codexValues["dungeon"]
+				};
+			}
+		}
+
+		// process unique affixes
+		if (classData["Unique"] != undefined) {
+			for (const [nodeName, nodeData] of Object.entries(classData["Unique"])) {
+				const codexPowerName = nodeData["name"];
+				const codexCategoryName = codexCategoryNames[nodeData["category"]];
+				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className);
+				if (!(codexCategoryName in codexData[className])) codexData[className][codexCategoryName] = {};
+				codexData[className][codexCategoryName][codexPowerName] = {
+					id: getCodexId(codexPowerName, codexCategoryName, className),
+					type: "Unique",
+					description: sanitizeNodeDescription(nodeData["desc"]),
+					flavor: nodeData["flavor"],
+					region: codexValues["region"],
+					dungeon: codexValues["dungeon"]
+				};
+			}
+		}
 	}
 
 	if (fixedJSON) {
-		let formattedParagonData = "let paragonData = ";
-		formattedParagonData += JSON.stringify(paragonData, null, "\t");
-		formattedParagonData += "\n\nexport { paragonData };";
+		let formattedParagon = "let paragonData = ";
+		formattedParagon += JSON.stringify(paragonData, null, "\t");
+		formattedParagon += "\n\nexport { paragonData };";
 		if (downloadMode) {
 			let downloadElement = document.createElement("a");
-			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedParagonData);
+			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedParagon);
 			downloadElement.download = "paragon.js";
 			downloadElement.click();
 		} else {
-			console.log(formattedParagonData);
+			console.log(formattedParagon);
+		}
+
+		let formattedCodex = "let codexData = ";
+		formattedCodex += JSON.stringify(codexData, null, "\t");
+		formattedCodex += "\n\nexport { codexData };";
+		if (downloadMode) {
+			let downloadElement = document.createElement("a");
+			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedCodex);
+			downloadElement.download = "codex-of-power.js";
+			downloadElement.click();
+		} else {
+			console.log(formattedCodex);
+		}
+
+		let formattedCodexHistory = "let codexHistory = ";
+		formattedCodexHistory += JSON.stringify(codexHistory, null, "\t");
+		formattedCodexHistory += "\n\nexport { codexHistory };";
+		if (downloadMode) {
+			let downloadElement = document.createElement("a");
+			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedCodexHistory);
+			downloadElement.download = "codex-history.js";
+			downloadElement.click();
+		} else {
+			console.log(formattedCodexHistory);
 		}
 
 		let formattedNodeHistory = "let nodeHistory = ";

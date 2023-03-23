@@ -140,7 +140,7 @@ const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
 const PARAGON_BOARD = "Paragon Board";
 const CODEX_OF_POWER = "Codex of Power";
-const CODEX_OF_POWER_DESC = "This aspect type can be applied to: ";
+const CODEX_OF_POWER_DESC = "Legendary aspects of this type can be applied to: ";
 const SPIRIT_BOONS = "Spirit Boons";
 const SPIRIT_BOON_DESC = "Specializing in this spirit type will allow you to allocate two boons instead of only one.";
 const BOOK_OF_THE_DEAD = "Book of the Dead";
@@ -376,7 +376,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.0.39657-1";
+const localVersion = "0.8.0.39657-2";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -520,7 +520,13 @@ function handleSearchInput(event) {
 	let nodeMatch = pixiNodes.filter(pixiNode => {
 		if (newSearchText.length >= 3) {
 			// search `nodeHeader` for `newSearchText`
-			const nodeHeader = pixiNode.nodeName + (pixiNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => pixiNode.nodeName.includes(damageType) || pixiNode.nodeDesc.includes(damageType)) ? ` (${pixiNode.damageType})` : "");
+			let nodeHeader = pixiNode.nodeName;
+			const itemType = curNode.nodeData.get("itemType");
+			if (itemType != undefined) {
+				nodeHeader += ` (${itemType})`;
+			} else if (pixiNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => pixiNode.nodeName.includes(damageType) || pixiNode.nodeDesc.includes(damageType))) {
+				nodeHeader += ` (${pixiNode.damageType})`;
+			}
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
 				pixiNode.nodeData.set("searchQueryMatch", true);
 				setNodeStyleThick(pixiNode, true);
@@ -1698,8 +1704,24 @@ function drawAllNodes() {
 			$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
 		}
 
-		const codexResult = getCodexData(["General", classText]);
-		if (Object.keys(codexResult).length > 0) {
+		const codexCategoryIds = {
+			"Offensive": 0,
+			"Defensive": 1,
+			"Utility": 2,
+			"Resource": 3,
+			"Mobility": 4,
+			"Other": 5,
+			"Unknown": 6
+		};
+		const unsortedCodex = getCodexData(["General", classText]);
+		const sortedCodex = Object.keys(unsortedCodex).sort((a, b) => {
+			return codexCategoryIds[a] - codexCategoryIds[b];
+		}).reduce((obj, key) => {
+			obj[key] = unsortedCodex[key];
+			return obj;
+		}, {});
+
+		if (Object.keys(sortedCodex).length > 0) {
 			const startX = -4000;
 			const startY = 0;
 			const nodeWidth = 400;
@@ -1720,14 +1742,16 @@ function drawAllNodes() {
 
 			drawNode(CODEX_OF_POWER, codexNode);
 
-			for (const [codexTypeName, codexType] of Object.entries(codexResult)) {
+			for (const [codexTypeName, codexType] of Object.entries(sortedCodex)) {
 				const numCodexPowers = Object.keys(codexType).length;
 				if (numCodexPowers > 0) {
 					codexY += nodeSpacingY;
 
+					let codexTypeDesc = codexData["Categories"][codexTypeName];
+					if (codexTypeName != "Other" && codexTypeName != "Unknown") codexTypeDesc = CODEX_OF_POWER_DESC + codexTypeDesc;
 					const codexTypeNode = new Map([
 						["allocatedPoints", 0],
-						["description", CODEX_OF_POWER_DESC + codexData["Slots"][codexTypeName]],
+						["description", codexTypeDesc],
 						["widthOverride", nodeSpacingX * 4 - 50],
 						["maxPoints", 0],
 						["shapeSize", 1],
@@ -1752,16 +1776,17 @@ function drawAllNodes() {
 							}
 						}
 
-						let powerDescription = codexPower.power;
+						let powerDescription = codexPower["description"];
 						let powerLocation = [];
-						if (codexPower.dungeon) powerLocation.push(codexPower.dungeon);
-						if (codexPower.region) powerLocation.push(codexPower.region);
+						if (codexPower.dungeon) powerLocation.push(codexPower["dungeon"]);
+						if (codexPower.region) powerLocation.push(codexPower["region"]);
 						if (powerLocation.length > 0) powerDescription += "\n\n— Location —\n" + powerLocation.join(" — ");
 
 						const codexPowerNode = new Map([
 							["allocatedPoints", 0],
 							["description", powerDescription],
 							["id", `codex-${codexPower.id}`],
+							["itemType", codexPower["type"]],
 							["maxPoints", 1],
 							["widthOverride", nodeWidth],
 							["shapeSize", 1],
@@ -1821,7 +1846,13 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	const nodeHeader = curNode.nodeName + (curNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => curNode.nodeName.includes(damageType) || curNode.nodeDesc.includes(damageType)) ? ` (${curNode.damageType})` : "");
+	let nodeHeader = curNode.nodeName;
+	const itemType = curNode.nodeData.get("itemType");
+	if (itemType != undefined) {
+		nodeHeader += ` (${itemType})`;
+	} else if (curNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => curNode.nodeName.includes(damageType) || curNode.nodeDesc.includes(damageType))) {
+		nodeHeader += ` (${curNode.damageType})`;
+	}
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
 		align: "left",
 		breakWords: true,
