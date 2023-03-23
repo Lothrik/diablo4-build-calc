@@ -1162,6 +1162,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		fontWeight: useThickNodeStyle ? "bold" : "normal",
 		padding: 10
 	});
+	nodeText.eventMode = "auto";
 	nodeText.scale.set(1 / scaleFactor);
 	nodeText.anchor.set(0.5);
 
@@ -1176,6 +1177,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			padding: 10
 		});
+		nodeText2.eventMode = "auto";
 		nodeText2.scale.set(1 / scaleFactor);
 		nodeText2.anchor.set(0.5);
 		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText2.width) * 0.5 - 5;
@@ -1190,6 +1192,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			padding: 10
 		});
+		nodeText3.eventMode = "auto";
 		nodeText3.scale.set(1 / scaleFactor);
 		nodeText3.anchor.set(0.5);
 		nodeText3.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText3.width) * 0.5;
@@ -1204,6 +1207,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			padding: 10
 		});
+		nodeText4.eventMode = "auto";
 		nodeText4.scale.set(1 / scaleFactor);
 		nodeText4.anchor.set(0.5);
 		nodeText4.x = (nodeText4.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 4;
@@ -1211,7 +1215,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 		plusContainer = new PIXI.Container();
 		plusContainer.cursor = "pointer";
-		plusContainer.interactive = true;
+		plusContainer.eventMode = "static";
 		plusContainer.addChild(nodeText3);
 		plusContainer
 			.on("click", () => handlePlusButton(node))
@@ -1219,7 +1223,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 
 		minusContainer = new PIXI.Container();
 		minusContainer.cursor = "pointer";
-		minusContainer.interactive = true;
+		minusContainer.eventMode = "static";
 		minusContainer.addChild(nodeText4);
 		minusContainer
 			.on("click", () => handleMinusButton(node))
@@ -1227,6 +1231,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	}
 
 	const nodeBorder = new PIXI.Graphics();
+	nodeBorder.eventMode = "auto";
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
 	if (([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
@@ -1263,8 +1268,10 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	}
 
 	const nodeContainer = new PIXI.Container();
+	nodeContainer.eventMode = "static";
 
 	const nodeBackground = new PIXI.Graphics();
+	nodeBackground.eventMode = "auto";
 	nodeBackground.beginFill(backgroundColor);
 	if (shapeType == "circle") {
 		nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
@@ -1287,6 +1294,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		} else {
 			nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_SQUARE_ACTIVE : NODE_SQUARE_INACTIVE);
 		}
+		nodeImage.eventMode = "auto";
 		if (nodeImage != undefined) {
 			nodeImage.anchor.set(0.5);
 			nodeContainer.addChild(nodeImage);
@@ -1325,14 +1333,10 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 			.on("mouseout", onMouseOut)
 			.on("tap", onMouseOver);
 
-		if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) || maxPoints <= 1) {
-			if (maxPoints != 0) {
-				node.cursor = "pointer";
-				node.interactive = true;
-				node
-					.on("click", () => handleToggleButton(node))
-					.on("tap", () => handleToggleButton(node));
-			}
+		if (maxPoints == 1) {
+			node
+				.on("click", () => handleToggleButton(node))
+				.on("tap", () => handleToggleButton(node));
 		}
 
 		node.nodeName = nodeName;
@@ -1372,7 +1376,11 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	}
 
 	node.cullable = true;
-	node.interactive = true;
+	node.eventMode = "static";
+	if (maxPoints == 1) {
+		node.cursor = "pointer";
+		nodeContainer.cursor = "pointer";
+	}
 	node.stale = false;
 	node.position.x = x;
 	node.position.y = y;
@@ -2048,8 +2056,7 @@ function drawBackground() {
 	pixiBackground.y = -maxCanvasHeight;
 	pixiBackground.width = maxCanvasWidth * 2;
 	pixiBackground.height = maxCanvasHeight * 2;
-	pixiBackground.interactive = true;
-	pixiBackground.renderable = false;
+	pixiBackground.eventMode = "static";
 	pixiBackground
 		.on("mousedown", onDragAllStart)
 		.on("touchstart", onDragAllStart)
