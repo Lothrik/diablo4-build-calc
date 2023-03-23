@@ -521,7 +521,7 @@ function handleSearchInput(event) {
 		if (newSearchText.length >= 3) {
 			// search `nodeHeader` for `newSearchText`
 			let nodeHeader = pixiNode.nodeName;
-			const itemType = curNode.nodeData.get("itemType");
+			const itemType = pixiNode.nodeData.get("itemType");
 			if (itemType != undefined) {
 				nodeHeader += ` (${itemType})`;
 			} else if (pixiNode.damageType != undefined && !ANY_DAMAGE_TYPE.some(damageType => pixiNode.nodeName.includes(damageType) || pixiNode.nodeDesc.includes(damageType))) {
