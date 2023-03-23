@@ -127,7 +127,7 @@ const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
 const ENCHANTMENT_EFFECT_DESC = "— Enchantment Effect —";
-const COOLDOWN = "Cooldown";
+const COOLDOWN_PREFIX = "Cooldown: ";
 const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
 const PARAGON_BOARD = "Paragon Board";
@@ -810,11 +810,11 @@ function canAllocate(curNode) {
 			return [...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName);
 		}) == undefined;
 	} else if (curNode.groupName == ULTIMATE) {
-		if (curNode.nodeData.get("description").includes(COOLDOWN)) {
+		if (curNode.nodeData.get("description").includes(COOLDOWN_PREFIX)) {
 			return pixiNodes.find(pixiNode => {
 				if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
 				if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
-				if (!pixiNode.nodeData.get("description").includes(COOLDOWN)) return false;
+				if (!pixiNode.nodeData.get("description").includes(COOLDOWN_PREFIX)) return false;
 				return [...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName);
 			}) == undefined;
 		} else {
