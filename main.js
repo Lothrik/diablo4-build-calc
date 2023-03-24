@@ -159,8 +159,8 @@ const NODE_SQUARE_INACTIVE = PIXI.Texture.from("images/node_square_inactive.png"
 
 const pixiScalingFloor = 0.15;
 const pixiScalingCeiling = 1;
-const tooltipScalingFloor = 1;
-const tooltipScalingCeiling = 1;
+const tooltipScalingFloor = 1 / devicePixelRatio;
+const tooltipScalingCeiling = 1 / devicePixelRatio;
 
 const fontFamily = $("body").css("fontFamily");
 const fontFamilyOverride = fontFamily.includes("Homenaje") ? fontFamily : "Homenaje, " + fontFamily;
