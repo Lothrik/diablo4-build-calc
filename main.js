@@ -132,7 +132,8 @@ const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
 const PARAGON_BOARD = "Paragon Board";
 const CODEX_OF_POWER = "Codex of Power";
-const CODEX_OF_POWER_DESC = "Legendary aspects of this type can be applied to: ";
+const CODEX_OF_POWER_DESC_BEFORE = "Legendary aspects of this type can be applied to: ";
+const CODEX_OF_POWER_DESC_AFTER = "\n\nUnique items are only listed here for convenience, and cannot have their powers extracted.";
 const SPIRIT_BOONS = "Spirit Boons";
 const SPIRIT_BOON_DESC = "Specializing in this spirit type will allow you to allocate two boons instead of only one.";
 const BOOK_OF_THE_DEAD = "Book of the Dead";
@@ -1720,7 +1721,7 @@ function drawAllNodes() {
 					codexY += nodeSpacingY;
 
 					let codexCategoryDesc = codexData["Categories"][codexCategoryName];
-					if (codexCategoryName != "Other" && codexCategoryName != "Unknown") codexCategoryDesc = CODEX_OF_POWER_DESC + codexCategoryDesc;
+					if (codexCategoryName != "Other" && codexCategoryName != "Unknown") codexCategoryDesc = CODEX_OF_POWER_DESC_BEFORE + codexCategoryDesc + CODEX_OF_POWER_DESC_AFTER;
 					const codexCategoryNode = new Map([
 						["allocatedPoints", 0],
 						["description", codexCategoryDesc],
