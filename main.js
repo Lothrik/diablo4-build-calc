@@ -1785,7 +1785,7 @@ function drawAllNodes() {
 	}
 }
 function drawTooltip(curNode, forceDraw) {
-	const clampScale = Math.min(1, (window.innerWidth - 40) / tooltipWidth);
+	const clampScale = Math.min(1, (window.innerWidth - 40) / tooltipWidth) / stageScale;
 	const clampRenderScale = stageScale * clampScale;
 	const scaleFactor = devicePixelRatio >= 2 ? 1 : (clampRenderScale >= 0.45 ? 2 : 1) / PIXI.settings.RESOLUTION * clampRenderScale;
 
