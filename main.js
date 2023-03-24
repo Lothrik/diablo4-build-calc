@@ -368,7 +368,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.0.39657-3";
+const localVersion = "0.8.0.39657-4";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1683,7 +1683,7 @@ function drawAllNodes() {
 			"Other": 5,
 			"Unknown": 6
 		};
-		const unsortedCodex = getCodexData(["General", classText]);
+		const unsortedCodex = getCodexData(["Generic", classText]);
 		const sortedCodex = Object.keys(unsortedCodex).sort((a, b) => {
 			return codexCategoryIds[a] - codexCategoryIds[b];
 		}).reduce((obj, key) => {
