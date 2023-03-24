@@ -1177,7 +1177,7 @@ let nodeValues = {
 				"5"
 			],
 			"Hemorrhage": [
-				"7",
+				"8",
 				"40",
 				"25",
 				"20"
@@ -1189,7 +1189,7 @@ let nodeValues = {
 				"20"
 			],
 			"Initiate's Hemorrhage": [
-				"0.64",
+				"1.6",
 				"",
 				"1.5",
 				"100",
@@ -1198,7 +1198,7 @@ let nodeValues = {
 			"Bone Splinters": [
 				"5",
 				"17",
-				"22.5",
+				"22",
 				"1"
 			],
 			"Enhanced Bone Splinters": [
@@ -1211,14 +1211,14 @@ let nodeValues = {
 				"2"
 			],
 			"Enhanced Reap": [
-				"",
-				"",
-				""
+				"2",
+				"30",
+				"3"
 			],
 			"Acolyte's Bone Splinters": [
-				"",
-				"",
-				""
+				"3",
+				"8",
+				"4"
 			]
 		},
 		"Core": {
@@ -1233,26 +1233,26 @@ let nodeValues = {
 				"25"
 			],
 			"Paranormal Blight": [
-				"10",
-				"2"
+				"30",
+				"1.5"
 			],
 			"Supernatural Blight": [
-				"10"
+				"15"
 			],
 			"Sever": [
 				"20",
 				"20",
-				"42",
-				""
+				"63",
+				"21"
 			],
 			"Enhanced Sever": [
-				""
+				"25"
 			],
 			"Paranormal Sever": [
-				""
+				"2"
 			],
 			"Supernatural Sever": [
-				""
+				"2"
 			],
 			"Blood Surge": [
 				"30",
@@ -1263,17 +1263,17 @@ let nodeValues = {
 				"50"
 			],
 			"Enhanced Blood Surge": [
-				"1",
+				"2.5",
 				"",
-				"",
-				"",
+				"4",
+				"2.5",
 				""
 			],
 			"Supernatural Blood Surge": [
+				"1",
 				"",
-				"",
-				"",
-				""
+				"50",
+				"20"
 			],
 			"Blood Lance": [
 				"10",
@@ -1285,12 +1285,12 @@ let nodeValues = {
 				"15"
 			],
 			"Supernatural Blood Lance": [
-				""
+				"8"
 			],
 			"Paranormal Blood Lance": [
 				"2",
-				"10",
-				"1"
+				"15",
+				"2"
 			],
 			"Bone Spear": [
 				"25",
@@ -1298,12 +1298,12 @@ let nodeValues = {
 				"85"
 			],
 			"Enhanced Bone Spear": [
-				"",
+				"3",
 				"10"
 			],
 			"Paranormal Bone Spear": [
-				"",
-				""
+				"5",
+				"2"
 			],
 			"Unliving Energy": [
 				"{3/6/9}"
@@ -1313,10 +1313,10 @@ let nodeValues = {
 				"{10/20/30}"
 			],
 			"Hewed Flesh": [
-				""
+				"{4/8/12}"
 			],
 			"Supernatural Bone Spear": [
-				""
+				"3"
 			]
 		},
 		"Macabre": {
@@ -1336,48 +1336,48 @@ let nodeValues = {
 				"4"
 			],
 			"Bone Prison": [
-				"20.0",
-				"12",
+				"20",
+				"",
 				"6"
 			],
 			"Enhanced Bone Prison": [
-				"3",
-				""
+				"15",
+				"5"
 			],
 			"Dreadful Bone Prison": [
-				"1.5",
+				"5",
 				""
 			],
 			"Skeletal Warrior Mastery": [
 				"{15/30/45}"
 			],
 			"Blighted Corpse Explosion": [
-				"",
-				""
+				"110",
+				"6"
 			],
 			"Plagued Corpse Explosion": [
-				""
+				"10"
 			],
 			"Spiked Armor": [
 				""
 			],
 			"Blood Mist": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
+				"20",
+				"9",
+				"3",
+				"20",
+				"2",
+				"0.5",
 				""
 			],
 			"Enhanced Blood Mist": [
-				""
+				"2"
 			],
 			"Ghastly Blood Mist": [
-				""
+				"1"
 			],
 			"Dreadful Blood Mist": [
-				"",
+				"0.5",
 				""
 			]
 		},
@@ -1406,8 +1406,8 @@ let nodeValues = {
 			],
 			"Decrepify": [
 				"10",
-				"50",
-				"25",
+				"40.0",
+				"20.0",
 				"10"
 			],
 			"Enhanced Decrepify": [
@@ -1416,7 +1416,7 @@ let nodeValues = {
 			],
 			"Abhorrent Decrepify": [
 				"15",
-				"1.5"
+				"1"
 			],
 			"Horrid Decrepify": [
 				"10"
@@ -1431,7 +1431,7 @@ let nodeValues = {
 		},
 		"Summoning": {
 			"Corpse Tendrils": [
-				"11.0",
+				"11",
 				"20",
 				"3",
 				"20"
@@ -1449,15 +1449,15 @@ let nodeValues = {
 				"3"
 			],
 			"Terror": [
-				"{5/10/15}",
-				""
+				"{3/6/9}",
+				"{3/6/9}"
 			],
 			"Crippling Darkness": [
-				"15",
-				"{1/2/3}"
+				"{15/30/45}",
+				"1"
 			],
 			"Coalesced Blood": [
-				""
+				"{6/12/18}"
 			],
 			"Transfusion": [
 				"{15/30/45}"
@@ -1467,11 +1467,11 @@ let nodeValues = {
 			],
 			"Drain Vitality": [
 				"{25/50/75}",
-				"1",
+				"2",
 				""
 			],
 			"Bone Spirit": [
-				"12.0",
+				"12",
 				"33",
 				"80",
 				"3"
@@ -1498,36 +1498,36 @@ let nodeValues = {
 			],
 			"Compound Fracture": [
 				"10",
-				"{6/12/18}",
+				"{5/10/15}",
 				"5"
 			],
 			"Plagued Corpse Tendrils": [
-				""
+				"3"
 			],
 			"Blighted Corpse Tendrils": [
-				""
+				"20"
 			],
 			"Gruesome Mending": [
-				""
+				"{10/20/30}"
 			],
 			"Necrotic Carapace": [
-				"",
+				"{2/4/6}",
 				""
 			]
 		},
 		"Ultimate": {
 			"Bonded in Essence": [
-				"{15/30/45}",
-				""
+				"5",
+				"{20/40/60}"
 			],
 			"Death's Defense": [
-				"{50/35/20}"
+				"{75/50/25}"
 			],
 			"Hellbent Commander": [
 				"{10/20/30}"
 			],
 			"Army of the Dead": [
-				"90.0",
+				"90",
 				"54",
 				"7",
 				"30"
@@ -1536,7 +1536,7 @@ let nodeValues = {
 				"15"
 			],
 			"Blood Wave": [
-				"50.0",
+				"50",
 				"30",
 				"90"
 			],
@@ -1552,7 +1552,7 @@ let nodeValues = {
 				"{20/40/60}"
 			],
 			"Bone Storm": [
-				"60.0",
+				"60",
 				"40",
 				"180",
 				"10"
@@ -1561,14 +1561,14 @@ let nodeValues = {
 				"15"
 			],
 			"Supreme Bone Storm": [
-				"2"
+				"20"
 			],
 			"Golem Mastery": [
 				"{15/30/45}"
 			],
 			"Inspiring Leader": [
-				"",
-				""
+				"4",
+				"{4/8/12}"
 			]
 		},
 		"Capstone": {
@@ -1579,17 +1579,17 @@ let nodeValues = {
 			"Shadowblight": [
 				"2",
 				"10",
-				"20",
-				""
+				"10",
+				"20"
 			],
 			"Rathma's Vigor": [
 				"10",
-				"25"
+				"15"
 			],
 			"Kalan's Edict": [
-				"",
-				"",
-				""
+				"3",
+				"15",
+				"7"
 			]
 		}
 	},
