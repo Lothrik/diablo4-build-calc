@@ -13297,27 +13297,7 @@
 				"flavor": "\"The scorpion Nine-Eyes is known as \"The Terror of the Sands\" for good reason. Her tail can pierce the strongest armor, and her poison melts flesh in seconds.\"\n- Field Notes of an Unknown Iron Wolf",
 				"name": "Broodmother's Stinger"
 			},
-			"Rarespawn_Reward_1HDagger_Scorpion_capped": {
-				"affixes": [
-					"INHERENT_Damage_to_Near",
-					"Damage_Type_Bonus_Poison",
-					"Damage_DoT",
-					"Damage_to_HighLife"
-				],
-				"flavor": "\"The scorpion Nine-Eyes is known as \"The Terror of the Sands\" for good reason. Her tail can pierce the strongest armor, and her poison melts flesh in seconds.\"\n- Field Notes of an Unknown Iron Wolf",
-				"name": "Broodmother's Stinger"
-			},
 			"Rarespawn_Reward_1HFocus_Succubus": {
-				"affixes": [
-					"INHERENT_CD_Reduction",
-					"Luck",
-					"Lucky_Hit_Slow",
-					"CC_Duration"
-				],
-				"flavor": "Even removed from the demon's body, the eye continues to weave its hypnotic patterns.",
-				"name": "Qin's Captivating Eye"
-			},
-			"Rarespawn_Reward_1HFocus_Succubus_capped": {
 				"affixes": [
 					"INHERENT_CD_Reduction",
 					"Luck",
@@ -13337,27 +13317,7 @@
 				"flavor": "The handle of this white-hot mace bears soot marks in the shape of a clenched fist.",
 				"name": "Mace of Blazing Furor"
 			},
-			"Rarespawn_Reward_1HMace_BanditMelee_capped": {
-				"affixes": [
-					"INHERENT_OverpowerDamage",
-					"Damage_to_Burning",
-					"Berserk_Damage",
-					"OverpowerDamage"
-				],
-				"flavor": "The handle of this white-hot mace bears soot marks in the shape of a clenched fist.",
-				"name": "Mace of Blazing Furor"
-			},
 			"Rarespawn_Reward_1HSword_KnightMelee": {
-				"affixes": [
-					"INHERENT_CritDamage",
-					"Damage_Type_Bonus_Shadow",
-					"Damage_to_Shadow_DoT",
-					"Execute"
-				],
-				"flavor": "\"While the origins of this accursed blade are lost to time, there is no question that wielding its dark power leaves an indelible stain on one's soul.\" \n- Barrett's Book of Implements",
-				"name": "Darkblade"
-			},
-			"Rarespawn_Reward_1HSword_KnightMelee_capped": {
 				"affixes": [
 					"INHERENT_CritDamage",
 					"Damage_Type_Bonus_Shadow",
@@ -13377,27 +13337,7 @@
 				"flavor": "\"So skilled was Abe-Mari at divination, they predicted the date of their own death; a skill that proved so ruinous that no mage since has attempted the feat.\"\n- Excerpt from Secrets of the Mage-Clans",
 				"name": "Wand of Abe-Mari"
 			},
-			"Rarespawn_Reward_1HWand_Ghost_capped": {
-				"affixes": [
-					"INHERENT_Luck",
-					"CoreStat_Intelligence_Weapon",
-					"Damage_to_Far",
-					"Damage_Ultimate"
-				],
-				"flavor": "\"So skilled was Abe-Mari at divination, they predicted the date of their own death; a skill that proved so ruinous that no mage since has attempted the feat.\"\n- Excerpt from Secrets of the Mage-Clans",
-				"name": "Wand of Abe-Mari"
-			},
 			"Rarespawn_Reward_2HSword_MegaDemon": {
-				"affixes": [
-					"INHERENT_CritDamage",
-					"CoreStats_All_Weapon",
-					"Damage_to_LowLife",
-					"Execute"
-				],
-				"flavor": "This massive sword's edge grows keener and its promises of power grow louder with each life taken.",
-				"name": "Infernal Edge"
-			},
-			"Rarespawn_Reward_2HSword_MegaDemon_capped": {
 				"affixes": [
 					"INHERENT_CritDamage",
 					"CoreStats_All_Weapon",
@@ -13417,27 +13357,7 @@
 				"flavor": "\"Even after he was put to death, some children swore they could still hear his bell ringing softly in the breeze on moonless nights.\"\n- Greenslade's Tales, Chapter 5: \"The Myth of Blind Odwyn\"",
 				"name": "Blind Man's Bell"
 			},
-			"Rarespawn_Reward_Amulet_DrownedSpecial_capped": {
-				"affixes": [
-					"Resistance_Jewelry_All",
-					"CC_Duration_Reduction",
-					"DamageReductionInjured",
-					"Elite_Kill_Movement_Speed"
-				],
-				"flavor": "\"Even after he was put to death, some children swore they could still hear his bell ringing softly in the breeze on moonless nights.\"\n- Greenslade's Tales, Chapter 5: \"The Myth of Blind Odwyn\"",
-				"name": "Blind Man's Bell"
-			},
 			"Rarespawn_Reward_Amulet_GoatmanMelee": {
-				"affixes": [
-					"Resistance_Jewelry_All",
-					"CritChance_To_LowLife_Jewelry",
-					"DamageReductionInjured",
-					"HealingPercent"
-				],
-				"flavor": "This vile necklace of charred goat's teeth paradoxically contains both the power to extend life as well as cut it short.",
-				"name": "Necklace of Inevitability"
-			},
-			"Rarespawn_Reward_Amulet_GoatmanMelee_capped": {
 				"affixes": [
 					"Resistance_Jewelry_All",
 					"CritChance_To_LowLife_Jewelry",
@@ -13457,27 +13377,7 @@
 				"flavor": "\"A foul spell of desire was woven into the statue's stone. Its idolaters were helpless as their souls were ripped from their bodies to animate its writhing form.\"\n- Field Notes of Brother Darmont",
 				"name": "Eye of Enkil"
 			},
-			"Rarespawn_Reward_Amulet_SnakeCaster_capped": {
-				"affixes": [
-					"Resistance_Jewelry_All",
-					"CC_Duration",
-					"Elite_Kill_Damage",
-					"ShrineDuration"
-				],
-				"flavor": "\"A foul spell of desire was woven into the statue's stone. Its idolaters were helpless as their souls were ripped from their bodies to animate its writhing form.\"\n- Field Notes of Brother Darmont",
-				"name": "Eye of Enkil"
-			},
 			"Rarespawn_Reward_Boots_SkeletonMelee": {
-				"affixes": [
-					"Evade_Attack_Reset",
-					"CC_Duration_Reduction_Slow",
-					"DamageReductionInjured",
-					"Resistance_Single_Poison"
-				],
-				"flavor": "\"The Captain was bleeding from at least three bite wounds, sweating from the poison and barely able to walk, but he never stopped searching for his lost comrades.\"\n- Eulogy for Captain Willcocks",
-				"name": "Captain's Ragged Boots"
-			},
-			"Rarespawn_Reward_Boots_SkeletonMelee_capped": {
 				"affixes": [
 					"Evade_Attack_Reset",
 					"CC_Duration_Reduction_Slow",
@@ -13496,26 +13396,7 @@
 				"flavor": "\"Favored by Pitiless Gur, this heavy armor remains painfully cold to the touch, even in the hottest of climates.\"\n- Barrett's Book of Implements",
 				"name": "Gur's Freezing Armor"
 			},
-			"Rarespawn_Reward_Chest_CannibalBrute_capped": {
-				"affixes": [
-					"Damage_Type_Bonus_Cold",
-					"Resistance_Single_Frost",
-					"Thorns"
-				],
-				"flavor": "\"Favored by Pitiless Gur, this heavy armor remains painfully cold to the touch, even in the hottest of climates.\"\n- Barrett's Book of Implements",
-				"name": "Gur's Freezing Armor"
-			},
 			"Rarespawn_Reward_Crossbow_GhostMelee": {
-				"affixes": [
-					"INHERENT_Damage_to_Vulnerable",
-					"Damage_Type_Bonus_Shadow",
-					"Damage_Spenders",
-					"Damage_to_Near"
-				],
-				"flavor": "\"Those who came before shall bear witness to your deeds.\"\n- Inscription on the hilt",
-				"name": "Haunted Crossbow"
-			},
-			"Rarespawn_Reward_Crossbow_GhostMelee_capped": {
 				"affixes": [
 					"INHERENT_Damage_to_Vulnerable",
 					"Damage_Type_Bonus_Shadow",
@@ -13534,15 +13415,6 @@
 				"flavor": "Those foolish few Monks who abuse their training for personal gain are banished from the Floating Sky Monastery and forced to wander the harsh and unforgiving lands beyond.",
 				"name": "Outcast's Handwraps"
 			},
-			"Rarespawn_Reward_Gloves_OmniMonk_capped": {
-				"affixes": [
-					"SkillRankBonus_Sorc_Core_5",
-					"Damage_Type_DoT_Bonus_Burn",
-					"Lucky_Hit_Slow"
-				],
-				"flavor": "Those foolish few Monks who abuse their training for personal gain are banished from the Floating Sky Monastery and forced to wander the harsh and unforgiving lands beyond.",
-				"name": "Outcast's Handwraps"
-			},
 			"Rarespawn_Reward_Helm_BarbarianGhost": {
 				"affixes": [
 					"SkillRankBonus_Barb_Special_Rupture",
@@ -13552,26 +13424,7 @@
 				"flavor": "\"There is nothing better in life than to stand alone, painted red, atop a hill made from the bodies of your enemies.\"\n- Zarozar the Mighty",
 				"name": "Bloodspiller's Helm"
 			},
-			"Rarespawn_Reward_Helm_BarbarianGhost_capped": {
-				"affixes": [
-					"SkillRankBonus_Barb_Special_Rupture",
-					"On_Kill_Health",
-					"On_Kill_Resource_Fury"
-				],
-				"flavor": "\"There is nothing better in life than to stand alone, painted red, atop a hill made from the bodies of your enemies.\"\n- Zarozar the Mighty",
-				"name": "Bloodspiller's Helm"
-			},
 			"Rarespawn_Reward_Pants_WerewolfMelee": {
-				"affixes": [
-					"PotionGrantsMoveSpeed",
-					"SkillRankBonus_Druid_Special_Rabies",
-					"Elite_Kill_Damage",
-					"HealingPercent"
-				],
-				"flavor": "Wearing these gore-drenched leggings fills your mind with a single overwhelming desire: to hunt.",
-				"name": "Manhunter's Breeches"
-			},
-			"Rarespawn_Reward_Pants_WerewolfMelee_capped": {
 				"affixes": [
 					"PotionGrantsMoveSpeed",
 					"SkillRankBonus_Druid_Special_Rabies",
@@ -13591,27 +13444,7 @@
 				"flavor": "\"Unhand me, filth! A single drop of my blood is worth an ocean of yours! Within it churns a power you could never hope to understand!\"\n- Lord Eònan, last words",
 				"name": "Blood-Cursed Band"
 			},
-			"Rarespawn_Reward_Ring_BloodLord_capped": {
-				"affixes": [
-					"Resistance_Jewelry_Dual_PoisonShadow",
-					"BloodOrb_Damage",
-					"BloodOrb_Healing",
-					"Damage_to_Near"
-				],
-				"flavor": "\"Unhand me, filth! A single drop of my blood is worth an ocean of yours! Within it churns a power you could never hope to understand!\"\n- Lord Eònan, last words",
-				"name": "Blood-Cursed Band"
-			},
 			"Rarespawn_Reward_Ring_FlyHost": {
-				"affixes": [
-					"Resistance_Jewelry_Dual_ColdLightning",
-					"Health",
-					"On_Kill_Health",
-					"LifeRegen"
-				],
-				"flavor": "\"Dearest Will, this ring is like my love for you. Both have no end. May this ring keep you safe and help keep me in your heart during your travels. - Lucya\"\n- Inscription on the band",
-				"name": "Trembling Ring"
-			},
-			"Rarespawn_Reward_Ring_FlyHost_capped": {
 				"affixes": [
 					"Resistance_Jewelry_Dual_ColdLightning",
 					"Health",
@@ -13631,16 +13464,6 @@
 				"flavor": "Even the slightest touch leaves painful splinters burrowed in the flesh.",
 				"name": "Ring of Splintered Wood"
 			},
-			"Rarespawn_Reward_Ring_WoodWraith_capped": {
-				"affixes": [
-					"Resistance_Jewelry_Dual_LightningPoison",
-					"CritChanceJewelry",
-					"Damage_Type_Bonus_Poison",
-					"Damage_to_Near"
-				],
-				"flavor": "Even the slightest touch leaves painful splinters burrowed in the flesh.",
-				"name": "Ring of Splintered Wood"
-			},
 			"Rarespawn_Reward_Ring_ZombieBrute": {
 				"affixes": [
 					"Resistance_Jewelry_Dual_ColdPoison",
@@ -13651,27 +13474,7 @@
 				"flavor": "A malformed collection of bone, flesh and a strange, hardened ichor, this ring-shaped object almost seems to have been grown, rather than crafted.",
 				"name": "Grotesque Loop"
 			},
-			"Rarespawn_Reward_Ring_ZombieBrute_capped": {
-				"affixes": [
-					"Resistance_Jewelry_Dual_ColdPoison",
-					"Barrier_Strength_Percent",
-					"FortifyBonus",
-					"On_Kill_Health"
-				],
-				"flavor": "A malformed collection of bone, flesh and a strange, hardened ichor, this ring-shaped object almost seems to have been grown, rather than crafted.",
-				"name": "Grotesque Loop"
-			},
 			"Rarespawn_Reward_Staff_CultistCaster": {
-				"affixes": [
-					"INHERENT_Damage_to_CCd",
-					"Damage_Type_Bonus_Fire",
-					"Damage_Type_Bonus_Lightning",
-					"Damage_Type_Bonus_Cold"
-				],
-				"flavor": "A powerful relic once belonging to Jazreth the Summoner, this staff was thought lost forever.",
-				"name": "Staff of Elemental Command"
-			},
-			"Rarespawn_Reward_Staff_CultistCaster_capped": {
 				"affixes": [
 					"INHERENT_Damage_to_CCd",
 					"Damage_Type_Bonus_Fire",
