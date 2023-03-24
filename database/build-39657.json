@@ -4959,6 +4959,14 @@
 		},
 		"Unique": {
 			"1HSword_Unique_Barb_101": {
+				"affixes": [
+					"INHERENT_CritDamage",
+					"1HSword_Unique_Barb_101",
+					"Damage_Weapon_DualWield",
+					"Damage_to_Near",
+					"Damage_Type_Bonus_Physical",
+					"Lucky_Hit_Resource"
+				],
 				"category": 5,
 				"desc": "Skills using this weapon deal {c_random}[Affix_Value_1*100|1%x|]{/c} increased damage per point of Fury you have, but you lose {c_number}[Affix.\"Static Value 0\"]{/c} Fury every second.",
 				"flavor": "\"Without him the wine is less sweet, the hearth less warm, and our blades less keen. Our blood brother is gone, but Bul-Kathos willing, we will meet again one day.\"\n- Sorrowsong for Ramaladni",
@@ -4968,6 +4976,14 @@
 				]
 			},
 			"2HAxe_Unique_Barb_001": {
+				"affixes": [
+					"INHERENT_Damage_to_HighLife",
+					"2HAxe_Unique_Barb_001",
+					"Damage_to_Slowed",
+					"Damage_to_Vulnerable",
+					"Berserk_Damage",
+					"SkillRankBonus_Barb_Special_SteelGrasp"
+				],
 				"category": 0,
 				"desc": "{c_important}Steel Grasp{/c} launches {c_number}2{/c} additional chains. Enemies hit by {c_important}Steel Grasp{/c} are Slowed by {c_random}[Affix_Value_1*100|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\"\n- Gerti, Oxen Tribe Forgemaster",
@@ -4977,6 +4993,14 @@
 				]
 			},
 			"2HMace_Unique_Barb_001": {
+				"affixes": [
+					"INHERENT_OverpowerDamage",
+					"2HMace_Unique_Barb_001",
+					"Damage_Weapon_2HBludgeon",
+					"Damage_to_CCd",
+					"Damage_to_Burning",
+					"SkillRankBonus_Barb_Core_4_Slot01"
+				],
 				"category": 0,
 				"desc": "{c_important}Upheaval{/c} ignites the ground Burning enemies for an additional {c_random}[Affix_Flat_Value_1]{/c} damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "The demon prince Ikonoth slew hundreds of the Heavenly Host with this infernal hammer before falling to none other than the Archangel Imperius himself.",
@@ -4987,6 +5011,14 @@
 				]
 			},
 			"2HMace_Unique_Barb_100": {
+				"affixes": [
+					"INHERENT_OverpowerDamage",
+					"2HMace_Unique_Barb_100",
+					"Damage_to_LowLife",
+					"CritChance_To_LowLife",
+					"Elite_Kill_Damage",
+					"SkillRankBonus_Barb_Special_DeathBlow"
+				],
 				"category": 0,
 				"desc": "{c_important}Death Blow{/c} creates a shockwave, dealing {c_random}[Affix_Value_1|%|]{/c} of its Base damage to enemies. Enemies who die to this effect also reset {c_important}Death Blow's{/c} Cooldown.",
 				"flavor": "The malformed snake creatures that live in the swamps are not content with simply killing their prey. They seem to take a malicious pleasure from inflicting as much suffering as possible before death.",
@@ -4996,6 +5028,14 @@
 				]
 			},
 			"2HSword_Unique_Barb_002": {
+				"affixes": [
+					"INHERENT_CritDamage",
+					"2HSword_Unique_Barb_002",
+					"Damage_Weapon_2HSlash",
+					"Damage_DoT",
+					"CDR_Rupture",
+					"SkillRankBonus_Barb_Special_Rupture"
+				],
 				"category": 5,
 				"desc": "While using this weapon, damaging at least one enemy with {c_important}Rupture{/c} creates a blood pool that inflicts {c_random}[Affix_Flat_Value_1]{/c} Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds. Enemies standing in the pool take {c_number}[Affix_Value_1|%x|]{/c} increased Bleeding damage.",
 				"flavor": "\"We've been fighting these flesh-eaters for so long, been soaked in so much blood, that after a while it's difficult to tell what side you're truly on.\"\n- Daelyr, Crane Tribe warrior",
@@ -5008,6 +5048,14 @@
 				]
 			},
 			"Amulet_Unique_Barb_100": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"Amulet_Unique_Barb_100",
+					"Damage_Basics",
+					"DamageReductionClose",
+					"DamageReductionInjured",
+					"SkillRankBonus_Barb_Basic_3_Slot01"
+				],
 				"category": 0,
 				"desc": "Increase {c_important}Frenzy's{/c} maximum stacks by {c_number}[Affix_Value_1]{/c}.  While you have maximum {c_important}Frenzy{/c}, your other Skills gain {c_random}[Affix_Value_2|%+|]{/c} increased Attack Speed.",
 				"flavor": "\"The change that overtook my brother in battle was terrifying. His eyes turned hard like diamonds, and the way he moved... it was like he was dancing to music only he could hear.\"\n- Captain Dervin",
@@ -5018,6 +5066,14 @@
 				]
 			},
 			"Boots_Unique_Barb_100": {
+				"affixes": [
+					"Evade_Attack_Reset",
+					"Boots_Unique_Barb_100",
+					"CoreStat_Dexterity",
+					"Damage_WeaponSwap",
+					"Damage_to_Stunned",
+					"SkillRankBonus_Barb_Special_GroundStomp"
+				],
 				"category": 0,
 				"desc": "After gaining the final damage bonus from the {c_important}Walking Arsenal{/c} Key Passive, you automatically cast {c_important}Ground Stomp{/c} and gain {c_random}[Affix_Value_1]{/c} Fury. This cannot happen more than once every {c_number}[Affix_Value_2]{/c} seconds.",
 				"flavor": "\"While many Barbarians remained in the Dreadlands, small groups from the Oxen, Crane and Bear tribes instead chose to search the land for a new home.\"\n- A History of the Children of Bul-Kathos",
@@ -5028,6 +5084,13 @@
 				]
 			},
 			"Chest_Unique_Barb_100": {
+				"affixes": [
+					"Chest_Unique_Barb_100",
+					"Damage_Type_Bonus_Physical",
+					"CritChance_Physical_Elite",
+					"DamageReduction_Bleeding",
+					"Thorns"
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to reduce the Cooldowns of your Non-{c_important}Ultimate{/c} Skills by {c_number}[Affix_Value_2|1|]{/c} seconds when you inflict Bleeding on Elites.",
 				"flavor": "Harrogath, the final bastion of resistance against Baal's assault on Mt. Arreat was destroyed along with the Worldstone. The survivors never forgave the betrayal that led to the loss of their home.",
@@ -5038,6 +5101,13 @@
 				]
 			},
 			"Gloves_Unique_Barb_001": {
+				"affixes": [
+					"Gloves_Unique_Barb_001",
+					"AttackSpeed",
+					"Luck",
+					"On_Kill_Resource_Fury",
+					"SkillRankBonus_Barb_Core_5_Slot01"
+				],
 				"category": 0,
 				"desc": "{c_important}Whirlwind{/c} explodes after it ends, dealing {c_random}[Affix_Value_1|%|]{/c} of the total Base damage dealt to surrounding enemies as Fire damage.",
 				"flavor": "\"The brutish construction of these gloves belies the strength they bestow. Gohr was clearly no craftsman, but it would be foolish to ignore the triumph of his work.\"\n- Barrett's Book of Implements",
@@ -10511,6 +10581,14 @@
 		},
 		"Unique": {
 			"1HAxe_Unique_Druid_100": {
+				"affixes": [
+					"INHERENT_Damage_to_HighLife",
+					"1HAxe_Unique_Druid_100",
+					"CritDamage",
+					"Damage_to_LowLife",
+					"On_Kill_Health",
+					"SkillRankBonus_Druid_Core_5"
+				],
 				"category": 1,
 				"desc": "Gain {c_important}{u}Stealth{/u}{/c} for {c_number}[Affix_Value_2]{/c} seconds when killing enemies with {c_important}Shred{/c}. Breaking {c_important}{u}Stealth{/u}{/c} with an attack grants Ambush which guarantees Critical Strikes for {c_random}[Affix_Value_1|1|]{/c} seconds.",
 				"flavor": "The nights preceding the full moon are sometimes far more dangerous than the event itself. The frenzy has begun to rise, yet the night is just dark enough to obscure a hunter from their prey's sight.",
@@ -10521,6 +10599,14 @@
 				]
 			},
 			"2HStaff_Unique_Druid_001": {
+				"affixes": [
+					"INHERENT_Damage_to_CCd",
+					"2HStaff_Unique_Druid_001",
+					"Damage_to_Near",
+					"Damage_to_CCd",
+					"Damage_Type_Bonus_NonPhysical",
+					"SkillRankBonus_Druid_Basic_2"
+				],
 				"category": 0,
 				"desc": "{c_important}Claw{/c} is now a {c_important}Storm{/c} Skill and also casts {c_important}Storm Strike{/c} at {c_number}[Affix_Value_1|%|]{/c} normal damage.",
 				"flavor": "\"She has existed in Scosglen since before Fiacla-Géar walked the land. Her purpose is a mystery to us all. However, approach her with deference; she may grant you her counsel.\"\n- Airidah, to Donan",
@@ -10530,6 +10616,13 @@
 				]
 			},
 			"Chest_Unique_Druid_002": {
+				"affixes": [
+					"Chest_Unique_Druid_002",
+					"Damage_Type_Bonus_Physical",
+					"Damage_Type_Bonus_Poison",
+					"DamageReduction_Poisoned",
+					"Movement_Speed"
+				],
 				"category": 0,
 				"desc": "Werewolf form is now your true form, and you gain {c_number}+2{/c} Ranks to all {c_important}Werewolf{/c} Skills.",
 				"flavor": "\"He was not a victim of the curse - he sought it out. As his skin split and his bones cracked, his laughter never ceased.\" \n– Tale of the Mad Nobleman",
@@ -10542,6 +10635,13 @@
 				]
 			},
 			"Chest_Unique_Druid_003": {
+				"affixes": [
+					"Chest_Unique_Druid_003",
+					"Damage_Type_Bonus_Physical",
+					"OverpowerDamage",
+					"FortifyDamageReduction",
+					"Werebear_Armor"
+				],
 				"category": 0,
 				"desc": "Werebear form is now your true form, and you gain {c_number}+2{/c} Ranks to all {c_important}Werebear{/c} Skills.",
 				"flavor": "When the Days of Ash began, the great druid Nafain reminded his disciples that nothing, not even the loss of their humanity, was too great a sacrifice to protect Túr Dúlra from Astaroth's flames.",
@@ -10554,6 +10654,13 @@
 				]
 			},
 			"Helm_Unique_Druid_100": {
+				"affixes": [
+					"Helm_Unique_Druid_100",
+					"Damage_While_Shapeshifted",
+					"Resistance_Single_Poison",
+					"MaxSpirit",
+					"On_Kill_Health"
+				],
 				"category": 3,
 				"desc": "{c_gold}Lucky Hit:{/c} {c_important}Storm{/c} Skills have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}[Affix.\"Static Value 0\"]{/c} Spirit.\n\nYour base {c_important}Storm{/c} Skills are now also {c_important}Werewolf{/c} Skills",
 				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\"\n– Airidah",
@@ -10564,6 +10671,13 @@
 				]
 			},
 			"Helm_Unique_Druid_101": {
+				"affixes": [
+					"Helm_Unique_Druid_101",
+					"Damage_While_Shapeshifted",
+					"Resistance_Single_Lightning",
+					"Health",
+					"On_Kill_Resource_Spirit"
+				],
 				"category": 1,
 				"desc": "Your {c_important}Earth{/c} Skills are now also {c_important}Werebear{/c} Skills and {c_important}{u}Fortify{/u}{/c} you for {c_number}[Affix_Flat_Value_1|1|]{/c}.",
 				"flavor": "\"Roots from the Great Oak growing at the seaward statue of Vasily will, on rare occasions, be found twisted back upon themselves, suffused with ferocious magic.\"\n- Barrett's Book of Implements",
@@ -10575,12 +10689,28 @@
 				]
 			},
 			"Pants_Unique_Druid_001": {
+				"affixes": [
+					"PotionGrantsMoveSpeed",
+					"Pants_Unique_Druid_001",
+					"Damage_Tag_Companion",
+					"PetMoveSpeed_Druid",
+					"PotionDropBonus",
+					"SkillRankBonus_Druid_Special_Wolves"
+				],
 				"category": 0,
 				"desc": "Your {c_important}Wolf{/c} Companions are infused with the power of the storm, dealing Lightning damage and gaining the {c_important}Storm Howl{/c} ability.",
 				"flavor": "\"The storm's rage is my own, brother. I call, and the skies roar in reply.\"\n- Vasily, to Bul-Kathos",
 				"name": "Storm's Companion"
 			},
 			"Ring_Unique_Druid_003": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_LightningPoison",
+					"Ring_Unique_Druid_003",
+					"Damage_While_Shapeshifted",
+					"CritDamage_With_Wolf",
+					"OverpowerDamage_With_Bear",
+					"PassiveRankBonus_Druid_Shapeshifting_T4_N1_Quickshift_Always1"
+				],
 				"category": 0,
 				"desc": "Gain a bonus when you kill with a {c_important}Shapeshifting{/c} Skill:\n{icon:bullet}{c_gold}Werewolf:{/c} Your next Non-{c_important}Ultimate{/c} {c_important}Werebear{/c} Skill costs no Resource and has no Cooldown.\n{icon:bullet}{c_gold}Werebear:{/c} Your next {c_important}Werewolf{/c} Skill will Heal you for {c_number}[Affix_Flat_Value_1]{/c} when damage is first dealt.",
 				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash",
@@ -10985,6 +11115,181 @@
 			"zzz_Resurrect Limit",
 			"zzz_Wild Regeneration"
 		],
+		"Item": {
+			"1HAxe_Rare_Barb_003_Q4BLOG": {
+				"affixes": [
+					"INHERENT_Damage_to_HighLife",
+					"On_Kill_Health",
+					"Damage_to_Elite",
+					"Execute"
+				]
+			},
+			"1HShield_Any_Generic_001_Gambling": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Magic_Generic_001": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Magic_Necro_Crafted_10": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_None_Necro_Crafted_5": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Normal_Generic_000": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Barb_Crafted_47": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Barb_Crafted_49": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Generic_002": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Generic_003": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Generic_003_MonsterGhost": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Generic_004": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Generic_005": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Generic_006": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Necro_Crafted_13": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Necro_Crafted_21": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Necro_Crafted_29": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Necro_Crafted_39": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Necro_Crafted_41": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Necro_Crafted_45": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"1HShield_Rare_Necro_Crafted_49": {
+				"affixes": [
+					"Block",
+					"Shield_Damage_Bonus",
+					"INHERENT_Thorns"
+				]
+			},
+			"Amulet_Magic_Prologue": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"Health"
+				]
+			},
+			"QST_Hawe_Arc_Reward": {
+				"affixes": [
+					"INHERENT_Damage_to_CCd",
+					"legendary_generic_067",
+					"Damage_DoT",
+					"PotionGrantsResource",
+					"Lucky_Hit_Immobilize",
+					"On_Kill_Health"
+				]
+			},
+			"SMP_WishingWell_Ring": {
+				"affixes": [
+					"SMP_WishingWell_Stat_Str",
+					"SMP_WishingWell_Stat_Int",
+					"SMP_WishingWell_Stat_Wil",
+					"SMP_WishingWell_Stat_Dex",
+					"SMP_WishingWell_Ring"
+				]
+			}
+		},
 		"Legendary": {
 			"Legendary_Generic_110": {
 				"category": 0,
@@ -12983,168 +13288,410 @@
 		},
 		"Rarespawn Reward": {
 			"Rarespawn_Reward_1HDagger_Scorpion": {
+				"affixes": [
+					"INHERENT_Damage_to_Near",
+					"Damage_Type_Bonus_Poison",
+					"Damage_DoT",
+					"Damage_to_HighLife"
+				],
 				"flavor": "\"The scorpion Nine-Eyes is known as \"The Terror of the Sands\" for good reason. Her tail can pierce the strongest armor, and her poison melts flesh in seconds.\"\n- Field Notes of an Unknown Iron Wolf",
 				"name": "Broodmother's Stinger"
 			},
 			"Rarespawn_Reward_1HDagger_Scorpion_capped": {
+				"affixes": [
+					"INHERENT_Damage_to_Near",
+					"Damage_Type_Bonus_Poison",
+					"Damage_DoT",
+					"Damage_to_HighLife"
+				],
 				"flavor": "\"The scorpion Nine-Eyes is known as \"The Terror of the Sands\" for good reason. Her tail can pierce the strongest armor, and her poison melts flesh in seconds.\"\n- Field Notes of an Unknown Iron Wolf",
 				"name": "Broodmother's Stinger"
 			},
 			"Rarespawn_Reward_1HFocus_Succubus": {
+				"affixes": [
+					"INHERENT_CD_Reduction",
+					"Luck",
+					"Lucky_Hit_Slow",
+					"CC_Duration"
+				],
 				"flavor": "Even removed from the demon's body, the eye continues to weave its hypnotic patterns.",
 				"name": "Qin's Captivating Eye"
 			},
 			"Rarespawn_Reward_1HFocus_Succubus_capped": {
+				"affixes": [
+					"INHERENT_CD_Reduction",
+					"Luck",
+					"Lucky_Hit_Slow",
+					"CC_Duration"
+				],
 				"flavor": "Even removed from the demon's body, the eye continues to weave its hypnotic patterns.",
 				"name": "Qin's Captivating Eye"
 			},
 			"Rarespawn_Reward_1HMace_BanditMelee": {
+				"affixes": [
+					"INHERENT_OverpowerDamage",
+					"Damage_to_Burning",
+					"Berserk_Damage",
+					"OverpowerDamage"
+				],
 				"flavor": "The handle of this white-hot mace bears soot marks in the shape of a clenched fist.",
 				"name": "Mace of Blazing Furor"
 			},
 			"Rarespawn_Reward_1HMace_BanditMelee_capped": {
+				"affixes": [
+					"INHERENT_OverpowerDamage",
+					"Damage_to_Burning",
+					"Berserk_Damage",
+					"OverpowerDamage"
+				],
 				"flavor": "The handle of this white-hot mace bears soot marks in the shape of a clenched fist.",
 				"name": "Mace of Blazing Furor"
 			},
 			"Rarespawn_Reward_1HSword_KnightMelee": {
+				"affixes": [
+					"INHERENT_CritDamage",
+					"Damage_Type_Bonus_Shadow",
+					"Damage_to_Shadow_DoT",
+					"Execute"
+				],
 				"flavor": "\"While the origins of this accursed blade are lost to time, there is no question that wielding its dark power leaves an indelible stain on one's soul.\" \n- Barrett's Book of Implements",
 				"name": "Darkblade"
 			},
 			"Rarespawn_Reward_1HSword_KnightMelee_capped": {
+				"affixes": [
+					"INHERENT_CritDamage",
+					"Damage_Type_Bonus_Shadow",
+					"Damage_to_Shadow_DoT",
+					"Execute"
+				],
 				"flavor": "\"While the origins of this accursed blade are lost to time, there is no question that wielding its dark power leaves an indelible stain on one's soul.\" \n- Barrett's Book of Implements",
 				"name": "Darkblade"
 			},
 			"Rarespawn_Reward_1HWand_Ghost": {
+				"affixes": [
+					"INHERENT_Luck",
+					"CoreStat_Intelligence_Weapon",
+					"Damage_to_Far",
+					"Damage_Ultimate"
+				],
 				"flavor": "\"So skilled was Abe-Mari at divination, they predicted the date of their own death; a skill that proved so ruinous that no mage since has attempted the feat.\"\n- Excerpt from Secrets of the Mage-Clans",
 				"name": "Wand of Abe-Mari"
 			},
 			"Rarespawn_Reward_1HWand_Ghost_capped": {
+				"affixes": [
+					"INHERENT_Luck",
+					"CoreStat_Intelligence_Weapon",
+					"Damage_to_Far",
+					"Damage_Ultimate"
+				],
 				"flavor": "\"So skilled was Abe-Mari at divination, they predicted the date of their own death; a skill that proved so ruinous that no mage since has attempted the feat.\"\n- Excerpt from Secrets of the Mage-Clans",
 				"name": "Wand of Abe-Mari"
 			},
 			"Rarespawn_Reward_2HSword_MegaDemon": {
+				"affixes": [
+					"INHERENT_CritDamage",
+					"CoreStats_All_Weapon",
+					"Damage_to_LowLife",
+					"Execute"
+				],
 				"flavor": "This massive sword's edge grows keener and its promises of power grow louder with each life taken.",
 				"name": "Infernal Edge"
 			},
 			"Rarespawn_Reward_2HSword_MegaDemon_capped": {
+				"affixes": [
+					"INHERENT_CritDamage",
+					"CoreStats_All_Weapon",
+					"Damage_to_LowLife",
+					"Execute"
+				],
 				"flavor": "This massive sword's edge grows keener and its promises of power grow louder with each life taken.",
 				"name": "Infernal Edge"
 			},
 			"Rarespawn_Reward_Amulet_DrownedSpecial": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"CC_Duration_Reduction",
+					"DamageReductionInjured",
+					"Elite_Kill_Movement_Speed"
+				],
 				"flavor": "\"Even after he was put to death, some children swore they could still hear his bell ringing softly in the breeze on moonless nights.\"\n- Greenslade's Tales, Chapter 5: \"The Myth of Blind Odwyn\"",
 				"name": "Blind Man's Bell"
 			},
 			"Rarespawn_Reward_Amulet_DrownedSpecial_capped": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"CC_Duration_Reduction",
+					"DamageReductionInjured",
+					"Elite_Kill_Movement_Speed"
+				],
 				"flavor": "\"Even after he was put to death, some children swore they could still hear his bell ringing softly in the breeze on moonless nights.\"\n- Greenslade's Tales, Chapter 5: \"The Myth of Blind Odwyn\"",
 				"name": "Blind Man's Bell"
 			},
 			"Rarespawn_Reward_Amulet_GoatmanMelee": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"CritChance_To_LowLife_Jewelry",
+					"DamageReductionInjured",
+					"HealingPercent"
+				],
 				"flavor": "This vile necklace of charred goat's teeth paradoxically contains both the power to extend life as well as cut it short.",
 				"name": "Necklace of Inevitability"
 			},
 			"Rarespawn_Reward_Amulet_GoatmanMelee_capped": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"CritChance_To_LowLife_Jewelry",
+					"DamageReductionInjured",
+					"HealingPercent"
+				],
 				"flavor": "This vile necklace of charred goat's teeth paradoxically contains both the power to extend life as well as cut it short.",
 				"name": "Necklace of Inevitability"
 			},
 			"Rarespawn_Reward_Amulet_SnakeCaster": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"CC_Duration",
+					"Elite_Kill_Damage",
+					"ShrineDuration"
+				],
 				"flavor": "\"A foul spell of desire was woven into the statue's stone. Its idolaters were helpless as their souls were ripped from their bodies to animate its writhing form.\"\n- Field Notes of Brother Darmont",
 				"name": "Eye of Enkil"
 			},
 			"Rarespawn_Reward_Amulet_SnakeCaster_capped": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"CC_Duration",
+					"Elite_Kill_Damage",
+					"ShrineDuration"
+				],
 				"flavor": "\"A foul spell of desire was woven into the statue's stone. Its idolaters were helpless as their souls were ripped from their bodies to animate its writhing form.\"\n- Field Notes of Brother Darmont",
 				"name": "Eye of Enkil"
 			},
 			"Rarespawn_Reward_Boots_SkeletonMelee": {
+				"affixes": [
+					"Evade_Attack_Reset",
+					"CC_Duration_Reduction_Slow",
+					"DamageReductionInjured",
+					"Resistance_Single_Poison"
+				],
 				"flavor": "\"The Captain was bleeding from at least three bite wounds, sweating from the poison and barely able to walk, but he never stopped searching for his lost comrades.\"\n- Eulogy for Captain Willcocks",
 				"name": "Captain's Ragged Boots"
 			},
 			"Rarespawn_Reward_Boots_SkeletonMelee_capped": {
+				"affixes": [
+					"Evade_Attack_Reset",
+					"CC_Duration_Reduction_Slow",
+					"DamageReductionInjured",
+					"Resistance_Single_Poison"
+				],
 				"flavor": "\"The Captain was bleeding from at least three bite wounds, sweating from the poison and barely able to walk, but he never stopped searching for his lost comrades.\"\n- Eulogy for Captain Willcocks",
 				"name": "Captain's Ragged Boots"
 			},
 			"Rarespawn_Reward_Chest_CannibalBrute": {
+				"affixes": [
+					"Damage_Type_Bonus_Cold",
+					"Resistance_Single_Frost",
+					"Thorns"
+				],
 				"flavor": "\"Favored by Pitiless Gur, this heavy armor remains painfully cold to the touch, even in the hottest of climates.\"\n- Barrett's Book of Implements",
 				"name": "Gur's Freezing Armor"
 			},
 			"Rarespawn_Reward_Chest_CannibalBrute_capped": {
+				"affixes": [
+					"Damage_Type_Bonus_Cold",
+					"Resistance_Single_Frost",
+					"Thorns"
+				],
 				"flavor": "\"Favored by Pitiless Gur, this heavy armor remains painfully cold to the touch, even in the hottest of climates.\"\n- Barrett's Book of Implements",
 				"name": "Gur's Freezing Armor"
 			},
 			"Rarespawn_Reward_Crossbow_GhostMelee": {
+				"affixes": [
+					"INHERENT_Damage_to_Vulnerable",
+					"Damage_Type_Bonus_Shadow",
+					"Damage_Spenders",
+					"Damage_to_Near"
+				],
 				"flavor": "\"Those who came before shall bear witness to your deeds.\"\n- Inscription on the hilt",
 				"name": "Haunted Crossbow"
 			},
 			"Rarespawn_Reward_Crossbow_GhostMelee_capped": {
+				"affixes": [
+					"INHERENT_Damage_to_Vulnerable",
+					"Damage_Type_Bonus_Shadow",
+					"Damage_Spenders",
+					"Damage_to_Near"
+				],
 				"flavor": "\"Those who came before shall bear witness to your deeds.\"\n- Inscription on the hilt",
 				"name": "Haunted Crossbow"
 			},
 			"Rarespawn_Reward_Gloves_OmniMonk": {
+				"affixes": [
+					"SkillRankBonus_Sorc_Core_5",
+					"Damage_Type_DoT_Bonus_Burn",
+					"Lucky_Hit_Slow"
+				],
 				"flavor": "Those foolish few Monks who abuse their training for personal gain are banished from the Floating Sky Monastery and forced to wander the harsh and unforgiving lands beyond.",
 				"name": "Outcast's Handwraps"
 			},
 			"Rarespawn_Reward_Gloves_OmniMonk_capped": {
+				"affixes": [
+					"SkillRankBonus_Sorc_Core_5",
+					"Damage_Type_DoT_Bonus_Burn",
+					"Lucky_Hit_Slow"
+				],
 				"flavor": "Those foolish few Monks who abuse their training for personal gain are banished from the Floating Sky Monastery and forced to wander the harsh and unforgiving lands beyond.",
 				"name": "Outcast's Handwraps"
 			},
 			"Rarespawn_Reward_Helm_BarbarianGhost": {
+				"affixes": [
+					"SkillRankBonus_Barb_Special_Rupture",
+					"On_Kill_Health",
+					"On_Kill_Resource_Fury"
+				],
 				"flavor": "\"There is nothing better in life than to stand alone, painted red, atop a hill made from the bodies of your enemies.\"\n- Zarozar the Mighty",
 				"name": "Bloodspiller's Helm"
 			},
 			"Rarespawn_Reward_Helm_BarbarianGhost_capped": {
+				"affixes": [
+					"SkillRankBonus_Barb_Special_Rupture",
+					"On_Kill_Health",
+					"On_Kill_Resource_Fury"
+				],
 				"flavor": "\"There is nothing better in life than to stand alone, painted red, atop a hill made from the bodies of your enemies.\"\n- Zarozar the Mighty",
 				"name": "Bloodspiller's Helm"
 			},
 			"Rarespawn_Reward_Pants_WerewolfMelee": {
+				"affixes": [
+					"PotionGrantsMoveSpeed",
+					"SkillRankBonus_Druid_Special_Rabies",
+					"Elite_Kill_Damage",
+					"HealingPercent"
+				],
 				"flavor": "Wearing these gore-drenched leggings fills your mind with a single overwhelming desire: to hunt.",
 				"name": "Manhunter's Breeches"
 			},
 			"Rarespawn_Reward_Pants_WerewolfMelee_capped": {
+				"affixes": [
+					"PotionGrantsMoveSpeed",
+					"SkillRankBonus_Druid_Special_Rabies",
+					"Elite_Kill_Damage",
+					"HealingPercent"
+				],
 				"flavor": "Wearing these gore-drenched leggings fills your mind with a single overwhelming desire: to hunt.",
 				"name": "Manhunter's Breeches"
 			},
 			"Rarespawn_Reward_Ring_BloodLord": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_PoisonShadow",
+					"BloodOrb_Damage",
+					"BloodOrb_Healing",
+					"Damage_to_Near"
+				],
 				"flavor": "\"Unhand me, filth! A single drop of my blood is worth an ocean of yours! Within it churns a power you could never hope to understand!\"\n- Lord Eònan, last words",
 				"name": "Blood-Cursed Band"
 			},
 			"Rarespawn_Reward_Ring_BloodLord_capped": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_PoisonShadow",
+					"BloodOrb_Damage",
+					"BloodOrb_Healing",
+					"Damage_to_Near"
+				],
 				"flavor": "\"Unhand me, filth! A single drop of my blood is worth an ocean of yours! Within it churns a power you could never hope to understand!\"\n- Lord Eònan, last words",
 				"name": "Blood-Cursed Band"
 			},
 			"Rarespawn_Reward_Ring_FlyHost": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_ColdLightning",
+					"Health",
+					"On_Kill_Health",
+					"LifeRegen"
+				],
 				"flavor": "\"Dearest Will, this ring is like my love for you. Both have no end. May this ring keep you safe and help keep me in your heart during your travels. - Lucya\"\n- Inscription on the band",
 				"name": "Trembling Ring"
 			},
 			"Rarespawn_Reward_Ring_FlyHost_capped": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_ColdLightning",
+					"Health",
+					"On_Kill_Health",
+					"LifeRegen"
+				],
 				"flavor": "\"Dearest Will, this ring is like my love for you. Both have no end. May this ring keep you safe and help keep me in your heart during your travels. - Lucya\"\n- Inscription on the band",
 				"name": "Trembling Ring"
 			},
 			"Rarespawn_Reward_Ring_WoodWraith": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_LightningPoison",
+					"CritChanceJewelry",
+					"Damage_Type_Bonus_Poison",
+					"Damage_to_Near"
+				],
 				"flavor": "Even the slightest touch leaves painful splinters burrowed in the flesh.",
 				"name": "Ring of Splintered Wood"
 			},
 			"Rarespawn_Reward_Ring_WoodWraith_capped": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_LightningPoison",
+					"CritChanceJewelry",
+					"Damage_Type_Bonus_Poison",
+					"Damage_to_Near"
+				],
 				"flavor": "Even the slightest touch leaves painful splinters burrowed in the flesh.",
 				"name": "Ring of Splintered Wood"
 			},
 			"Rarespawn_Reward_Ring_ZombieBrute": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_ColdPoison",
+					"Barrier_Strength_Percent",
+					"FortifyBonus",
+					"On_Kill_Health"
+				],
 				"flavor": "A malformed collection of bone, flesh and a strange, hardened ichor, this ring-shaped object almost seems to have been grown, rather than crafted.",
 				"name": "Grotesque Loop"
 			},
 			"Rarespawn_Reward_Ring_ZombieBrute_capped": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_ColdPoison",
+					"Barrier_Strength_Percent",
+					"FortifyBonus",
+					"On_Kill_Health"
+				],
 				"flavor": "A malformed collection of bone, flesh and a strange, hardened ichor, this ring-shaped object almost seems to have been grown, rather than crafted.",
 				"name": "Grotesque Loop"
 			},
 			"Rarespawn_Reward_Staff_CultistCaster": {
+				"affixes": [
+					"INHERENT_Damage_to_CCd",
+					"Damage_Type_Bonus_Fire",
+					"Damage_Type_Bonus_Lightning",
+					"Damage_Type_Bonus_Cold"
+				],
 				"flavor": "A powerful relic once belonging to Jazreth the Summoner, this staff was thought lost forever.",
 				"name": "Staff of Elemental Command"
 			},
 			"Rarespawn_Reward_Staff_CultistCaster_capped": {
+				"affixes": [
+					"INHERENT_Damage_to_CCd",
+					"Damage_Type_Bonus_Fire",
+					"Damage_Type_Bonus_Lightning",
+					"Damage_Type_Bonus_Cold"
+				],
 				"flavor": "A powerful relic once belonging to Jazreth the Summoner, this staff was thought lost forever.",
 				"name": "Staff of Elemental Command"
 			}
 		},
 		"Unique": {
 			"1HAxe_Unique_Generic_001": {
+				"affixes": [
+					"INHERENT_Damage_to_HighLife",
+					"1HAxe_Unique_Generic_001",
+					"Damage_to_CCd",
+					"CritDamage",
+					"CritChance_To_LowLife",
+					"Damage_to_LowLife"
+				],
 				"category": 0,
 				"desc": "{c_label}Lucky Hit:{/c} When you Critically Strike an enemy you have up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to Fear and Slow them by {c_random}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 				"flavor": "A nightmarish amalgam of blood, bone and steel, this axe is as horrific, and as deadly, as its creator.",
@@ -13155,6 +13702,14 @@
 				]
 			},
 			"1HSword_Unique_Generic_001": {
+				"affixes": [
+					"INHERENT_CritDamage",
+					"1HSword_Unique_Generic_001",
+					"Damage_Spenders",
+					"Damage_FullScaling",
+					"Lucky_Hit_Heal_Life",
+					"HealthPercent_Double"
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to deal {c_number}[Affix_Flat_Value_1]{/c} Shadow damage to surrounding enemies and reduce their damage done by {c_number}[Affix.\"Static Value 0\"|%|]{/c} for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 				"flavor": "Whenever this ancient sword has reappeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
@@ -13167,6 +13722,14 @@
 				]
 			},
 			"2HSword_Unique_Generic_001": {
+				"affixes": [
+					"INHERENT_CritDamage",
+					"2HSword_Unique_Generic_001",
+					"2HSword_Unique_Generic_001_Damage",
+					"2HSword_Unique_Generic_001_Health",
+					"2HSword_Unique_Generic_001_CoreStats_All",
+					"Indestructible"
+				],
 				"category": 0,
 				"desc": "Increases your Critical Strike Damage by {c_random}[Affix_Value_1|%x|]{/c}. \n\nThe other properties on this weapon can roll higher than normal.",
 				"flavor": "An unbroken lineage of unwavering strength.",
@@ -13176,6 +13739,14 @@
 				]
 			},
 			"Amulet_Unique_Generic_100": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"Amulet_Unique_Generic_100",
+					"CoreStats_All",
+					"Damage_Spenders",
+					"DamageHealthy",
+					"ResourceGain"
+				],
 				"category": 2,
 				"desc": "Gain {c_number}[Affix.\"Static Value 0\"|~%|]{/c} Maximum Resource. In addition, when you take damage, drain {c_random}[Affix_Value_1|1|]{/c} Resource for every {c_number}[Affix.\"Static Value 1\"|%|]{/c} of Life you would have lost instead.",
 				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig",
@@ -13185,6 +13756,14 @@
 				]
 			},
 			"Boots_Unique_Generic_001": {
+				"affixes": [
+					"Evade_Dodge",
+					"Boots_Unique_Generic_001",
+					"Movement_Speed",
+					"CC_Duration",
+					"CC_Duration_Reduction_Slow",
+					"Resistance_Single_Frost"
+				],
 				"category": 2,
 				"desc": "You leave behind a trail of frost that {c_important}{u}Chills{/u}{/c} enemies. You deal {c_random}[Affix_Value_1|%x|]{/c} more damage to {c_important}{u}Chilled{/u}{/c} enemies.",
 				"flavor": "Remorseful devotees of the Cathedral of Light must undertake a grueling pilgrimage, journeying across the frigid glacier known as the Serac Rapture. Only then may their gravest sins be forgiven.",
@@ -13194,6 +13773,9 @@
 				]
 			},
 			"Chest_Unique_Generic_100": {
+				"affixes": [
+					"Chest_Unique_Generic_100"
+				],
 				"category": 0,
 				"desc": "Gain {c_random}[Affix_Flat_Value_1]{/c} Thorns",
 				"flavor": "Crafted by the cannibal Armoda, each piece of this interlocking armor has been sharpened into a knife's edge. Even a century after death, the plate remained on her corpse, unable to be removed safely.",
@@ -13204,6 +13786,13 @@
 				]
 			},
 			"Gloves_Unique_Generic_002": {
+				"affixes": [
+					"Gloves_Unique_Generic_002",
+					"Lucky_Hit_Heal_Life",
+					"Lucky_Hit_Resource",
+					"Lucky_Hit_Immobilize",
+					"Lucky_Hit_Daze"
+				],
 				"category": 0,
 				"desc": "Your attacks randomly deal {c_number}[Affix_Value_2|%|]{/c} to {c_random}[Affix_Value_1|%|]{/c} of their normal damage.",
 				"flavor": "\"Will you let fear cheat you, or will you risk everything to find understanding? After all, death is simply the coin with which we purchase life.\"\n- Zurke",
@@ -13214,6 +13803,13 @@
 				]
 			},
 			"Gloves_Unique_Generic_003": {
+				"affixes": [
+					"Gloves_Unique_Generic_003",
+					"CritChance",
+					"Damage_Type_Bonus_Cold",
+					"CC_Duration_Freeze",
+					"Lucky_Hit_Resource"
+				],
 				"category": 2,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to {c_important}{u}Freeze{/u}{/c} enemies for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "A touch so frigid it stops the heart and chills the very soul.",
@@ -13223,6 +13819,13 @@
 				]
 			},
 			"Helm_Unique_Generic_001": {
+				"affixes": [
+					"Helm_Unique_Generic_001",
+					"CoreStats_All",
+					"AttackSpeed",
+					"Lifesteal",
+					"Resistance_Single_Poison"
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to trigger a poison nova that applies {c_number}[Affix_Flat_Value_1]{/c} Poisoning damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds to enemies in the area.",
 				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness...",
@@ -13234,6 +13837,13 @@
 				]
 			},
 			"Helm_Unique_Generic_002": {
+				"affixes": [
+					"Helm_Unique_Generic_002",
+					"Health_Greater",
+					"CD_Reduction",
+					"UtilityFind",
+					"CoreStats_All_Weapon"
+				],
 				"category": 2,
 				"desc": "Gain {c_number}[Affix_Value_1|1%|]{/c} Damage Reduction. \nIn addition, gain {c_number}+[Affix.\"Static Value 0\"]{/c} Ranks to all Skills.",
 				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston",
@@ -13243,6 +13853,14 @@
 				]
 			},
 			"Pants_Unique_Generic_100": {
+				"affixes": [
+					"PotionGrantsMoveSpeed",
+					"Pants_Unique_Generic_100",
+					"PotionCharges",
+					"PotionDropBonus",
+					"Lucky_Hit_Heal_Life",
+					"HealingPercent"
+				],
 				"category": 1,
 				"desc": "Effects that Heal you beyond {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life grant you a {c_important}{u}Barrier{/u}{/c} up to {c_random}[Affix_Value_1|%|]{/c} of your Maximum Life that lasts for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 				"flavor": "\"The revelation that master tailor Callas was in fact a witch only served to further fuel the desire for her uniquely enchanted legwraps.\"\n- Barrett's Book of Implements",
@@ -13252,6 +13870,14 @@
 				]
 			},
 			"Ring_Unique_Generic_100": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_FireCold",
+					"Ring_Unique_Generic_100",
+					"CritChanceJewelry",
+					"CritDamage",
+					"OverpowerDamage",
+					"Damage_Spenders"
+				],
 				"category": 3,
 				"desc": "If a {c_important}Core{/c} Skill hits {c_number}[Affix.\"Static Value 0\"]{/c} or more enemies, {c_random}[Affix_Value_1|%|]{/c} of the Resource cost is refunded.",
 				"flavor": "\"Every tome, every scroll, every book in this temple produces the same answer. The only being willing to stand against the Eternal Conflict, against the Prime Evils, was Lilith.\"\n- Elias",
@@ -13261,6 +13887,14 @@
 				]
 			},
 			"Ring_Unique_Generic_101": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_LightningShadow",
+					"Ring_Unique_Generic_101",
+					"CoreStats_All",
+					"LuckJewelry",
+					"Damage_to_CCd",
+					"Damage_Spenders"
+				],
 				"category": 3,
 				"desc": "Each consecutive {c_important}Core{/c} Skill cast reduces the Resource cost of your next {c_important}Core{/c} Skill by {c_random}[Affix_Value_1|%|]{/c}, up to a maximum of {c_number}[Affix.\"Static Value 0\"|%|]{/c}.",
 				"flavor": "\"Yours is the power to pluck the stars from the heavens with the ease of a child gathering fruit from the bough.\"\n- Unknown",
@@ -17839,6 +18473,14 @@
 		},
 		"Unique": {
 			"1HScythe_Unique_Necro_100": {
+				"affixes": [
+					"INHERENT_On_Kill_Health",
+					"1HScythe_Unique_Necro_100",
+					"CoreStat_Intelligence_Weapon",
+					"Damage_to_HighLife",
+					"PassiveRankBonus_Necro_Summoning_T3_N2_Always1",
+					"SkillRankBonus_Necro_Special_CorpseExplosion"
+				],
 				"category": 0,
 				"desc": "{c_important}Corpse Explosion{/c} consumes up to {c_number}[Affix.\"Static Value 0\"]{/c} additional Corpses around the initial Corpse, dealing {c_random}[Affix_Value_1|%x|]{/c} increased damage and with a {c_random}[Affix_Value_2|%|]{/c} larger radius per additional Corpse.",
 				"flavor": "\"The scrolls describe a river of tar that separated the living from the land of the dead. Any unfortunate soul who tried to cross would be dragged down into oblivion.\"\n- Notes of Scholar Kamien",
@@ -17851,6 +18493,14 @@
 				]
 			},
 			"2HScythe_Unique_Necro_100": {
+				"affixes": [
+					"INHERENT_On_Kill_Health",
+					"2HScythe_Unique_Necro_100",
+					"Damage_Tag_Darkness",
+					"Damage_to_Chilled",
+					"Damage_to_Frozen",
+					"Resistance_Single_Frost"
+				],
 				"category": 2,
 				"desc": "Your {c_important}Darkness{/c} Skills {c_important}{u}Chill{/u}{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n\n{c_gold}Lucky Hit:{/c} Your {c_important}Darkness{/c} Skills have up to a {c_number}[Affix.\"Static Value 1\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} additional Essence against {c_important}{u}Frozen{/u}{/c} targets.",
 				"flavor": "\"My companion swung her odd weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI",
@@ -17860,6 +18510,14 @@
 				]
 			},
 			"Amulet_Unique_Necro_100": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"Amulet_Unique_Necro_100",
+					"Damage_Tag_Blood",
+					"Damage_Type_Bonus_Pet_Necro",
+					"PassiveRankBonus_Necro_Caster_T2_N2_CoalescedBlood",
+					"HealingPercent"
+				],
 				"category": 0,
 				"desc": "{c_important}Blood Surge{/c} casts a mini nova on your Minions, dealing {c_random}[Affix_Flat_Value_1]{/c} damage. Damage is increased by {c_number}[Affix.\"Static Value 0\"|%|]{/c} per target drained by the initial cast, up to {c_number}[Affix.\"Static Value 1\"|%|]{/c}.",
 				"flavor": "Once a sanctum for Rathma's studies, the Temple of the Deathspeaker became a proving grounds for potential leaders of his priesthood. Its halls are filled with the corpses of those who failed.",
@@ -17870,6 +18528,14 @@
 				]
 			},
 			"Boots_Unique_Necro_100": {
+				"affixes": [
+					"Evade_Charges",
+					"Boots_Unique_Necro_100",
+					"CoreStat_Intelligence",
+					"Resource_Cost_Reduction_Necromancer_Lesser",
+					"Luck_Shadow",
+					"DamageReduction_ShadowDoT"
+				],
 				"category": 0,
 				"desc": "Create desecrated ground beneath your {c_important}Sever{/c} spectres as they travel, damaging enemies for {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "\"The massive door to my family's crypt, which had taken a dozen men to close, was thrown open. Had I known the horrors to come I never would have set foot inside!\"\n-The Ebon Pages, Canto I, Verse VII",
@@ -17880,6 +18546,13 @@
 				]
 			},
 			"Chest_Unique_Necro_101": {
+				"affixes": [
+					"Chest_Unique_Necro_101",
+					"BloodOrb_Damage",
+					"BloodOrb_Healing",
+					"Armor",
+					"SkillRankBonus_Necro_Special_BoneSpirit"
+				],
 				"category": 0,
 				"desc": "When you pick up {c_random}[Affix_Value_1]{/c} {c_important}{u}Blood Orbs{/u}{/c}, a free {c_important}Bone Spirit{/c} is spawned, dealing bonus damage based on your current Life percent.",
 				"flavor": "\"The infamous Necromancer Gaza-Thul's mastery over blood magic was indisputable. Many suspect that upon his death, his skin was used to fashion this eldritch armor.\"\n- Barrett's Book of Implements",
@@ -17889,6 +18562,13 @@
 				]
 			},
 			"Gloves_Unique_Necro_100": {
+				"affixes": [
+					"Gloves_Unique_Necro_100",
+					"Luck",
+					"AttackSpeed_Corpse",
+					"Lucky_Hit_Stun",
+					"Lucky_Hit_Fear"
+				],
 				"category": 0,
 				"desc": "Instead of detonating immediately, {c_important}Corpse Explosion{/c} summons a Volatile Skeleton that charges at a random enemy and explodes. {c_important}Corpse Explosion's{/c} damage is increased by {c_random}[Affix_Value_1|%x|]{/c}.",
 				"flavor": "\"Can you not hear it? That endless scream from the cold earth beneath your feet!? They are down there, trapped, blind with rage! Waiting to drag us down into the sod!\"\n- Ravings of Madman Gustav",
@@ -17898,6 +18578,13 @@
 				]
 			},
 			"Helm_Unique_Necro_100": {
+				"affixes": [
+					"Helm_Unique_Necro_100",
+					"Armor",
+					"Damage_Type_Bonus_Physical",
+					"CritDamage_With_Bone",
+					"MaxEssence"
+				],
 				"category": 0,
 				"desc": "{c_important}Bone Spear{/c} leaves behind echoes as it travels that explode, dealing {c_random}[Affix_Flat_Value_1]{/c} damage.",
 				"flavor": "\"Rathma is endless. He was the first Ancient, and will remain at the end. He is the master of the Great Cycle of Being. When Death comes for him, why should he fear it?\"\n- Vauntus, Acolyte of Rathma",
@@ -17908,6 +18595,14 @@
 				]
 			},
 			"Ring_Unique_Necro_100": {
+				"affixes": [
+					"Resistance_Jewelry_Dual_ColdShadow",
+					"Ring_Unique_Necro_100",
+					"LuckJewelry",
+					"PetAttackSpeed_Necro",
+					"PetHealth_Necro",
+					"Thorns"
+				],
 				"category": 0,
 				"desc": "While you have {c_number}[Affix.\"Static Value 1\"]{/c} or more Minions you gain:\n{icon:bullet,1.2} {c_gold}Lucky Hit:{/c} Up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to empower all of your Minions, causing the next attack from each to explode for {c_random}[Affix_Flat_Value_1]{/c} Physical damage.",
 				"flavor": "The signet of Mendeln ul-Diomed, the founder of the Priests of Rathma and the first Necromancer, was lost for over 3,000 years. The immense power over death held within, however, has not diminished.",
@@ -22729,6 +23424,14 @@
 		},
 		"Unique": {
 			"1HDagger_Unique_Rogue_001": {
+				"affixes": [
+					"INHERENT_Damage_to_Near",
+					"1HDagger_Unique_Rogue_001",
+					"AttackSpeed_Basics",
+					"CritChance_To_LowLife",
+					"Damage_Weapon_DualWield",
+					"Damage_Spenders"
+				],
 				"category": 0,
 				"desc": "Your {c_important}Core{/c} Skills deal {c_random}[Affix_Value_1|%x|]{/c} increased damage when spending {c_number}3{/c} {c_important}Combo Points{/c}. Your {c_important}Basic{/c} Skills using this weapon have a {c_number}[Affix_Value_2|%|]{/c} chance to generate {c_number}3{/c} {c_important}Combo Points{/c}.",
 				"flavor": "\"I've never seen such ruthless butchery. He deserves to be be shipped off to die in the swamps with the rest of the godless murderers.\"\n- Witness to the murder of Sergeant Walcot",
@@ -22739,6 +23442,14 @@
 				]
 			},
 			"1HDagger_Unique_Rogue_002": {
+				"affixes": [
+					"INHERENT_Damage_to_Near",
+					"1HDagger_Unique_Rogue_002",
+					"Damage_Basics",
+					"Damage_to_CCd",
+					"Elite_Kill_Movement_Speed",
+					"Luck"
+				],
 				"category": 5,
 				"desc": "Hits with this weapon increase your Attack Speed by {c_random}[Affix_Value_1 * 100|1%+|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}[Affix_Value_1 * Affix.\"Static Value 1\" * 100|1%+|]{/c}.",
 				"flavor": "When Caldeum's gates closed, Asheara led her Iron Wolves out of the city knowing full well they would never return. Instead they roamed Kehjistan pledging their blades to any who were in need.",
@@ -22748,6 +23459,14 @@
 				]
 			},
 			"2HBow_Unique_Rogue_001": {
+				"affixes": [
+					"INHERENT_Damage_to_Far",
+					"2HBow_Unique_Rogue_001",
+					"CoreStat_Dexterity_Weapon",
+					"Damage_Tag_Ranged",
+					"CritDamage",
+					"PassiveRankBonus_Rogue_Cunning_T3_N2_Scaled2H"
+				],
 				"category": 0,
 				"desc": "The first direct damage you deal to an enemy is a guaranteed Critical Strike. If you had maximum stacks of the {c_important}Precision{/c} Key Passive when you cast the Skill, gain {c_random}[Affix_Value_1]{/c} {c_important}Energy{/c}, this can only happen once per cast.",
 				"flavor": "\"Genai took up her bow and aimed at the sun itself. The light burned her eyes, but her arrow flew true. Wounded, the sun hid, and brought forth the first night.\n- Fable of the Great Sky-Hunt",
@@ -22757,6 +23476,14 @@
 				]
 			},
 			"2HBow_Unique_Rogue_006": {
+				"affixes": [
+					"INHERENT_Damage_to_Far",
+					"2HBow_Unique_Rogue_006",
+					"CoreStats_All_Weapon",
+					"Damage_Spenders",
+					"Damage_to_Far",
+					"PassiveRankBonus_Rogue_Discipline_T3_N3_Scaled2H"
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Hits with this weapon have up to a {c_random}[Affix_Value_1|%|]{/c} chance to deal double damage and Knock Back the target.",
 				"flavor": "\"There have been numerous world-shaping conflicts throughout history. This bow has been found on the battlefield of every one, and always in the hands of the victors.\"\n- Barrett's Book of Implements",
@@ -22767,12 +23494,26 @@
 				]
 			},
 			"Amulet_Unique_Rogue_100": {
+				"affixes": [
+					"Amulet_Unique_Rogue_100",
+					"Damage_Type_Bonus_NonPhysical",
+					"Damage_Ultimate",
+					"CritDamage_With_Imbued",
+					"SkillRankBonus_Rogue_Category_Imbuements"
+				],
 				"category": 0,
 				"desc": "Your {c_important}Rain of Arrows{/c} is always {c_important}Imbued{/c} with all {c_important}Imbuements{/c} at once.",
 				"flavor": "\"Let the great gates of Caldeum be sealed. Let its proud walls stand fiercely defended. The rest of Kehjistan may suffer this plague, but my city, and my people, will not.\"\n- Proclamation of Hakan II",
 				"name": "Word of Hakan"
 			},
 			"Gloves_Unique_Rogue_100": {
+				"affixes": [
+					"Gloves_Unique_Rogue_100",
+					"AttackSpeed",
+					"Damage_to_Vulnerable",
+					"Damage_ShadowClone",
+					"SkillRankBonus_Generic_Category_Core"
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging a {c_important}{u}Vulnerable{/u}{/c} enemy with a {c_important}Marksman{/c} or {c_important}Cutthroat{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to summon a Shadow Clone that mimics your attack.",
 				"flavor": "Dark wisps creep hungrily across these gloves, like an assassin's blade seeking a life to steal on a moonless night.",
@@ -22782,6 +23523,13 @@
 				]
 			},
 			"Helm_Unique_Rogue_001": {
+				"affixes": [
+					"Helm_Unique_Rogue_001",
+					"CoreStat_Dexterity",
+					"CD_Reduction",
+					"CC_Duration",
+					"MaxEnergy"
+				],
 				"category": 0,
 				"desc": "You gain {c_random}[Affix_Value_1|%x|]{/c} increased Lucky Hit Chance against Crowd Controlled enemies.",
 				"flavor": "\"He is banished from the Guild, his name stricken from the Book. His punishment is to never have been.\" \n- Excerpt from a burned parchment",
@@ -22791,6 +23539,14 @@
 				]
 			},
 			"Pants_Unique_Rogue_004": {
+				"affixes": [
+					"PotionGrantsMoveSpeed",
+					"Pants_Unique_Rogue_004",
+					"Dodge",
+					"Damage_Type_Bonus_Shadow",
+					"Damage_to_Elite",
+					"Damage_to_Trapped"
+				],
 				"category": 2,
 				"desc": "Unless it hits a Boss or Player, {c_important}Death Trap{/c} will continue to re-arm itself until it kills an enemy. However, {c_important}Death Trap's{/c} Cooldown is increased by {c_random}[Affix_Value_1|%|]{/c}.",
 				"flavor": "\"And so, when the sun dipped behind the hills each night, he knew that Ashen Jack would soon be near. Watching, and waiting.\"\n- Greenslade's Tales, Chapter 2: \"Each Long Night\"",
@@ -28037,6 +28793,14 @@
 		},
 		"Unique": {
 			"1HWand_Unique_Sorc_100": {
+				"affixes": [
+					"INHERENT_Luck",
+					"1HWand_Unique_Sorc_100",
+					"Damage_to_Burning",
+					"Damage_to_HighLife",
+					"Luck_Fire",
+					"SkillRankBonus_Sorc_Core_5"
+				],
 				"category": 0,
 				"desc": "While Channeling {c_important}Incinerate{/c}, you periodically shoot embers that are attracted to enemies, each dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage.",
 				"flavor": "The burn may heal, but the pain is eternal.",
@@ -28047,6 +28811,14 @@
 				]
 			},
 			"2HStaff_Unique_Sorc_002": {
+				"affixes": [
+					"INHERENT_Damage_to_CCd",
+					"2HStaff_Unique_Sorc_002",
+					"Damage_Spenders",
+					"AttackSpeed_Fireball",
+					"Lucky_Hit_Slow",
+					"SkillRankBonus_Sorc_Core_1"
+				],
 				"category": 0,
 				"desc": "Every {c_number}3rd{/c} cast of {c_important}Fireball{/c_important} launches {c_number}2{/c} additional projectiles.",
 				"flavor": "\"Leaving even blackened bones for your kin to mourn is too good an end for you.\" \n- Josiah",
@@ -28054,6 +28826,14 @@
 				"values": []
 			},
 			"2HStaff_Unique_Sorc_100": {
+				"affixes": [
+					"INHERENT_Damage_to_CCd",
+					"2HStaff_Unique_Sorc_100",
+					"Damage_Type_Bonus_Lightning",
+					"Damage_to_LowLife",
+					"On_Kill_Resource_Mana",
+					"SkillRankBonus_Sorc_Core_4"
+				],
 				"category": 0,
 				"desc": "{c_important}Charged Bolts{/c} pierce, but deal {c_random}x[Affix_Value_1|%|]{/c} less damage.",
 				"flavor": "\"Also known as the Greatstaff of the Old Religion, this powerful relic is one of only a small handful of Skatsimi artifacts that have survived to this day.\"\n- Barrett's Book of Implements",
@@ -28063,6 +28843,14 @@
 				]
 			},
 			"Amulet_Unique_Sorc_100": {
+				"affixes": [
+					"Resistance_Jewelry_All",
+					"Amulet_Unique_Sorc_100",
+					"Damage_Type_Bonus_NonPhysical",
+					"Damage_CracklingEnergy",
+					"PassiveRankBonus_Sorc_Lightning_T2_N1_ShockingImpact",
+					"Movement_Speed"
+				],
 				"category": 0,
 				"desc": "Upon collecting {c_important}{u}Crackling Energy{/u}{/c}, there's a  {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to release a lightning nova, dealing {c_random}[Affix_Flat_Value_1]{/c} Lightning Damage.",
 				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both.",
@@ -28073,6 +28861,14 @@
 				]
 			},
 			"Boots_Unique_Sorc_100": {
+				"affixes": [
+					"Evade_Dodge",
+					"Boots_Unique_Sorc_100",
+					"Movement_Speed",
+					"Elite_Kill_Movement_Speed",
+					"ShrineDuration",
+					"CC_Duration_Reduction_Slow"
+				],
 				"category": 0,
 				"desc": "Your Critical Strike Chance is increased by {c_random}[Affix_Value_1|%|]{/c} of your Movement Speed bonus.",
 				"flavor": "\"While scholars have proven these boots were not created by Esu herself, it is noteworthy that they have been passed down since the formation of the Mage Clans.\"\n- Barrett's Book of Implements",
@@ -28082,6 +28878,13 @@
 				]
 			},
 			"Chest_Unique_Sorc_002": {
+				"affixes": [
+					"Chest_Unique_Sorc_002",
+					"CoreStat_Intelligence",
+					"Damage_to_Near",
+					"Damage_to_Stunned",
+					"PassiveRankBonus_Sorc_Elemental_T2_N2_Always1"
+				],
 				"category": 2,
 				"desc": "After using {c_important}Teleport{/c}, Close enemies are Pulled to you and Stunned for {c_random}[Affix_Value_1|1|]{/c} seconds, but {c_important}Teleport's{/c} Cooldown is increased by {c_number}[Affix.\"Static Value 0\"|%x|]{/c}.",
 				"flavor": "The power you have is never enough.",
@@ -28091,6 +28894,13 @@
 				]
 			},
 			"Gloves_Unique_Sorc_002": {
+				"affixes": [
+					"Gloves_Unique_Sorc_002",
+					"CritChance",
+					"AttackSpeed_Fireball",
+					"Lucky_Hit_Stun",
+					"SkillRankBonus_Sorc_Core_1"
+				],
 				"category": 0,
 				"desc": "{c_important}Fireball{/c_important} now bounces as it travels, exploding each time it hits the ground, but its explosion deals {c_random}[Affix_Value_1|%|]{/c} less damage.",
 				"flavor": "After Inarius returned to Sanctuary, he sought a way back to the High Heavens. His first step was to reignite the religion he had abandoned millennia before: the Cathedral of Light.",
@@ -28100,6 +28910,14 @@
 				]
 			},
 			"Pants_Unique_Sorc_100": {
+				"affixes": [
+					"PotionGrantsResource",
+					"Pants_Unique_Sorc_100",
+					"CoreStat_Intelligence",
+					"Damage_to_Frozen",
+					"Damage_to_LowLife",
+					"CC_Duration_Freeze"
+				],
 				"category": 1,
 				"desc": "Enemies that die while {c_important}{u}Frozen{/u}{/c} have a {c_random}[Affix_Value_1|%|]{/c} chance to unleash a {c_important}Frost Nova{/c}.",
 				"flavor": "The mad artisan saw his fingers turn black from frostbite as he worked the cloth, but refused to stay the needle and thread for even a moment.",
