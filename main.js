@@ -391,7 +391,7 @@ function handleIntervalEvent() {
 	newRenderScale = Math.min(pixiJS.stage.scale.x, 1);
 	if (newRenderScale != curRenderScale) {
 		// skip `redrawAllNodes` on high pixel density devices
-		if (PIXI.settings.RESOLUTION < 4) {
+		if (devicePixelRatio < 2) {
 			redrawAllNodes(false);
 			if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 		}
@@ -404,7 +404,7 @@ function handleIntervalEvent() {
 		frameTimer = null;
 		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
 		// skip `redrawAllNodes` on high pixel density devices
-		if (PIXI.settings.RESOLUTION < 4) redrawAllNodes(true);
+		if (devicePixelRatio < 2) redrawAllNodes(true);
 	}
 }
 function handleCanvasEvent(event) {
@@ -1093,7 +1093,7 @@ function redrawAllNodes(idleMode = false) {
 	}
 }
 function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
-	const scaleFactor = devicePixelRatio >= 2 ? 1 : (newRenderScale >= 0.45 ? 2 : 1) / PIXI.settings.RESOLUTION * newRenderScale;
+	const scaleFactor = devicePixelRatio >= 2 ? 1 : (newRenderScale >= 0.45 ? 2 : 1) / devicePixelRatio * newRenderScale;
 
 	let node = null;
 	if (pixiNodes.length > nodeIndex) {
@@ -1785,9 +1785,9 @@ function drawAllNodes() {
 	}
 }
 function drawTooltip(curNode, forceDraw) {
-	const clampScale = Math.min(1, (window.innerWidth - 40) / tooltipWidth) / stageScale;
-	const clampRenderScale = stageScale * clampScale;
-	const scaleFactor = devicePixelRatio >= 2 ? 1 : (clampRenderScale >= 0.45 ? 2 : 1) / PIXI.settings.RESOLUTION * clampRenderScale;
+	const clampRenderScale = Math.min(1, (window.innerWidth - 40) / tooltipWidth);
+	const clampScale = clampRenderScale / stageScale;
+	const scaleFactor = devicePixelRatio >= 2 ? 1 : (clampRenderScale >= 0.45 ? 2 : 1) / devicePixelRatio * clampRenderScale;
 
 	// skip tooltip redraw if we already have the correct one displayed
 	if (!forceDraw && !debugMode && pixiTooltip.nodeIndex == curNode.nodeIndex && pixiTooltip.scaleFactor == scaleFactor) return;
