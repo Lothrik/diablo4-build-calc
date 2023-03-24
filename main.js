@@ -369,7 +369,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.0.39657-4";
+const localVersion = "0.8.0.39812-1";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
