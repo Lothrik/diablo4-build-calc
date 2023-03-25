@@ -1466,8 +1466,8 @@ let nodeValues = {
 				"{5/10/15}"
 			],
 			"Drain Vitality": [
-				"{25/50/75}",
-				"2",
+				"25",
+				"{2/5/8}",
 				""
 			],
 			"Bone Spirit": [

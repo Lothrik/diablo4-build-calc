@@ -1010,7 +1010,7 @@ Tags: Healthy, Damage, Blood.`,
 Tags: Fortify, Lucky Hit, Blood.`,
 		id: 79,
 		maxPoints: 3,
-		values: [ "{25/50/75}", "2", "" ],
+		values: [ "25", "{2/5/8}", "" ],
 		x: -382.557,
 		y: -610.311
 	},
