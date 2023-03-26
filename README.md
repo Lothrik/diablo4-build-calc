@@ -10,7 +10,7 @@ You can use [CASCExplorer](https://github.com/WoW-Tools/CASCExplorer) to extract
 
 Parsing the proprietary file formats within is an exercise left to the reader. The tools I use for this are not currently public.
 
-I recommend starting with the ``.stl`` files if you want to see whether or not this is something you're comfortable doing as they're one of the easiest to understand. For comparison, ``.pow`` files are one of the hardest.
+I recommend starting with the ``.stl`` files if you want to see whether or not this is something you're comfortable doing, as they're one of the easiest formats to understand. For comparison, ``.pow`` files are one of the hardest.
 
 ## Can I give you money for this?
 You're free to do whatever you want, I do have a [Patreon](https://www.patreon.com/lothrik). I'm not selling you anything though.
