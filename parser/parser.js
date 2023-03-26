@@ -6,7 +6,7 @@ import { codexValues } from "./codex-values.js";
 
 import { necromancerMinions } from "./necromancer-minions.js";
 
-const buildNumber = 39812;
+const buildNumber = 39858;
 
 var fullJSON = "";
 $.getJSON("../database/build-" + buildNumber + ".json", null, fullData => {
@@ -245,32 +245,6 @@ function fixJSON(classData, curNode, rootNodeName) {
 	} else if (skillName == "Enhanced Charged Bolt" && nodeData["id"] == 731) {
 		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Charged Bolts`.");
 		nodeData["power"]["skill_name"] = "Enhanced Charged Bolts";
-	// `Wolf Pack` was renamed to `Wolves` in 36023, but its modifier nodes were not renamed at the same time.
-	} else if (skillName == "Wolf Pack" && nodeData["id"] == 459) {
-		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Wolves`.");
-		nodeData["power"]["skill_name"] = "Wolves";
-	} else if (skillName == "Enhanced Wolf Pack" && nodeData["id"] == 509) {
-		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Wolves`.");
-		nodeData["power"]["skill_name"] = "Enhanced Wolves";
-	} else if (skillName == "Ferocious Wolf Pack" && nodeData["id"] == 388) {
-		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Ferocious Wolves`.");
-		nodeData["power"]["skill_name"] = "Ferocious Wolves";
-	} else if (skillName == "Brutal Wolf Pack" && nodeData["id"] == 389) {
-		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Brutal Wolves`.");
-		nodeData["power"]["skill_name"] = "Brutal Wolves";
-	// `Stealth` was renamed to `Concealment` in 36331, but its modifier nodes were not renamed at the same time.
-	} else if (skillName == "Stealth" && nodeData["id"] == 245) {
-		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Concealment`.");
-		nodeData["power"]["skill_name"] = "Concealment";
-	} else if (skillName == "Enhanced Stealth" && nodeData["id"] == 374) {
-		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Enhanced Concealment`.");
-		nodeData["power"]["skill_name"] = "Enhanced Concealment";
-	} else if (skillName == "Countering Stealth" && nodeData["id"] == 246) {
-		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Countering Concealment`.");
-		nodeData["power"]["skill_name"] = "Countering Concealment";
-	} else if (skillName == "Subverting Stealth" && nodeData["id"] == 247) {
-		$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "` -> `Subverting Concealment`.");
-		nodeData["power"]["skill_name"] = "Subverting Concealment";
 	}
 
 	if (skillName != undefined) {

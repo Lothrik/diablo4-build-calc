@@ -112,7 +112,7 @@ const minCanvasHeight = 0;
 const maxCanvasHeight = 65535;
 const nodeWidth = 100;
 const nodeHeight = 100;
-const tooltipWidth = 540;
+const tooltipWidth = 680;
 
 // evil magic variables that probably need to be replaced later to support multiple languages
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
@@ -365,7 +365,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39812-2";
+const localVersion = "0.8.1.39858-1";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {

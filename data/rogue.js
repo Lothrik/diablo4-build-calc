@@ -868,7 +868,7 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 		y: -67.379
 	},
 	"Concealment": {
-		connections: [ "Subterfuge", "Enhanced Concealment" ],
+		connections: [ "Subterfuge", "Enhanced Stealth" ],
 		description: `Cooldown: {#} seconds
 Vanish from sight, gaining an advanced form of Stealth for {#} seconds that will not be removed by taking damage.
 
@@ -883,37 +883,37 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 		x: -390.71,
 		y: -209.637
 	},
-	"Enhanced Concealment": {
+	"Enhanced Stealth": {
 		baseSkill: "Concealment",
-		connections: [ "Concealment", "Subverting Concealment", "Countering Concealment" ],
+		connections: [ "Concealment", "Subverting Stealth", "Countering Stealth" ],
 		description: `You gain {#} Energy when you enter Concealment.
 
 Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
-		id: 140,
+		id: 75,
 		maxPoints: 1,
 		values: [ "40" ],
 		x: -681.17,
 		y: -340.45
 	},
-	"Subverting Concealment": {
+	"Subverting Stealth": {
 		baseSkill: "Concealment",
-		connections: [ "Enhanced Concealment" ],
+		connections: [ "Enhanced Stealth" ],
 		description: `The Skill that breaks Concealment makes enemies Vulnerable for {#} seconds.
 
 Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
-		id: 142,
+		id: 77,
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -706.615,
 		y: -486.354
 	},
-	"Countering Concealment": {
+	"Countering Stealth": {
 		baseSkill: "Concealment",
-		connections: [ "Enhanced Concealment" ],
+		connections: [ "Enhanced Stealth" ],
 		description: `The Skill that breaks Concealment will always be a guaranteed Critical Strike.
 
 Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
-		id: 141,
+		id: 76,
 		maxPoints: 1,
 		x: -951.19,
 		y: -343.327

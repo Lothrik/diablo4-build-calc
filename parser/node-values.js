@@ -530,83 +530,83 @@ let nodeValues = {
 			"Maul": [
 				"11",
 				"33",
-				"21"
+				"20"
 			],
 			"Enhanced Maul": [
-				"0.64",
+				"2",
 				""
 			],
 			"Wild Maul": [
-				"15",
-				"2"
+				"10",
+				"1.5"
 			],
 			"Fierce Maul": [
-				""
+				"30"
 			],
 			"Wind Shear": [
 				"12",
 				"33",
-				"17.85"
+				"17"
 			],
 			"Enhanced Wind Shear": [
-				"35",
+				"20",
 				"4"
 			],
 			"Fierce Wind Shear": [
 				"5",
-				"3",
+				"5",
 				"20"
 			],
 			"Wild Wind Shear": [
-				""
+				"3"
 			],
 			"Storm Strike": [
 				"15",
 				"25",
-				"28.35",
-				"",
-				"",
+				"20",
+				"3",
+				"20",
 				"25",
 				"3"
 			],
 			"Enhanced Storm Strike": [
-				"",
-				""
+				"15",
+				"2.5"
 			],
 			"Fierce Storm Strike": [
 				"50",
 				"3"
 			],
 			"Wild Storm Strike": [
-				""
+				"2"
 			],
 			"Claw": [
 				"9",
 				"50",
-				"21"
+				"20"
 			],
 			"Enhanced Claw": [
 				"10"
 			],
 			"Fierce Claw": [
-				"",
-				"3"
+				"10",
+				"6"
 			],
 			"Wild Claw": [
 				"10"
 			],
 			"Earth Spike": [
 				"",
-				"",
-				"",
-				""
+				"8",
+				"25",
+				"16"
 			],
 			"Enhanced Earth Spike": [
-				"",
-				""
+				"10",
+				"2.5"
 			],
 			"Fierce Earth Spike": [
-				"",
+				"2",
 				""
 			]
 		},
@@ -614,71 +614,71 @@ let nodeValues = {
 			"Landslide": [
 				"30",
 				"20",
-				"78.75"
+				"113"
 			],
 			"Enhanced Landslide": [
-				"",
+				"4",
 				"3"
 			],
 			"Primal Landslide": [
-				"10",
-				"30"
+				"40",
+				"10"
 			],
 			"Pulverize": [
 				"35",
 				"33",
-				"52.5"
+				"50"
 			],
 			"Enhanced Pulverize": [
-				""
+				"10"
 			],
 			"Primal Pulverize": [
-				"15",
+				"20",
 				"4"
 			],
 			"Raging Pulverize": [
-				""
+				"2"
 			],
 			"Tornado": [
 				"40",
 				"33",
-				"105"
+				"35"
 			],
 			"Enhanced Tornado": [
 				"20"
 			],
 			"Raging Tornado": [
-				"5",
+				"10",
 				"3"
 			],
 			"Primal Tornado": [
 				"8",
 				"3",
-				""
+				"40"
 			],
 			"Shred": [
 				"35",
 				"20",
-				"",
-				"",
-				""
+				"25",
+				"35",
+				"60"
 			],
 			"Enhanced Shred": [
-				"",
+				"30",
 				"2",
 				""
 			],
 			"Raging Shred": [
-				"",
-				""
+				"51",
+				"5"
 			],
 			"Primal Shred": [
-				""
+				"20"
 			],
 			"Lightning Storm": [
 				"15",
 				"15",
-				"26.25",
+				"25",
 				"5"
 			],
 			"Enhanced Lightning Storm": [
@@ -696,7 +696,7 @@ let nodeValues = {
 				"{10/20/30}"
 			],
 			"Abundance": [
-				"{5/10/15}"
+				"{10/20/30}"
 			],
 			"Predatory Instinct": [
 				"{3/6/9}"
@@ -706,32 +706,32 @@ let nodeValues = {
 				"3"
 			],
 			"Digitigrade Gait": [
-				"{4/8/12}",
+				"{3/6/9}",
 				"3"
 			]
 		},
 		"Defensive": {
 			"Earthen Bulwark": [
-				"16.0",
+				"16",
 				"50",
 				"3",
-				"10",
+				"45",
 				""
 			],
 			"Innate Earthen Bulwark": [
-				"300"
+				""
 			],
 			"Preserving Earthen Bulwark": [
-				"7.2",
+				"18",
 				""
 			],
 			"Debilitating Roar": [
-				"22.0",
+				"22",
 				"50",
 				"4"
 			],
 			"Enhanced Debilitating Roar": [
-				"8.8",
+				"22",
 				""
 			],
 			"Preserving Debilitating Roar": [
@@ -742,14 +742,14 @@ let nodeValues = {
 				"40"
 			],
 			"Ancestral Fortitude": [
-				""
+				"{5/10/15}"
 			],
 			"Vigilance": [
-				"",
-				""
+				"{5/10/15}",
+				"6"
 			],
 			"Blood Howl": [
-				"15.0",
+				"15",
 				"20.0",
 				""
 			],
@@ -764,37 +764,37 @@ let nodeValues = {
 				"4"
 			],
 			"Cyclone Armor": [
-				"15.0",
+				"18",
 				"25",
-				"20",
-				"15.75"
+				"20.0",
+				"15"
 			],
 			"Enhanced Cyclone Armor": [
-				"40",
-				"3"
+				"70",
+				"1.5"
 			],
 			"Preserving Cyclone Armor": [
 				"10",
-				"40",
-				""
+				"30",
+				"2"
 			],
 			"Innate Cyclone Armor": [
-				""
+				"3"
 			]
 		},
 		"Companion": {
 			"Ravens": [
-				"25.0",
+				"15",
 				"33",
 				"",
-				"89.25",
-				"6",
-				"",
-				""
+				"13",
+				"5",
+				"85",
+				"6"
 			],
 			"Enhanced Ravens": [
-				"13.85",
-				"5"
+				"5",
+				"6"
 			],
 			"Brutal Ravens": [
 				"2"
@@ -803,16 +803,16 @@ let nodeValues = {
 				"3"
 			],
 			"Call of the Wild": [
-				"{8/16/24}"
+				"{10/20/30}"
 			],
 			"Vine Creeper": [
-				"20.0",
+				"20",
 				"40",
 				"7",
-				"37.8",
+				"36",
 				"6",
 				"2",
-				"31.5",
+				"30",
 				"2"
 			],
 			"Enhanced Vine Creeper": [
@@ -825,13 +825,13 @@ let nodeValues = {
 				"20"
 			],
 			"Wolves": [
-				"14.0",
+				"14",
 				"50",
 				"2",
-				"8.19",
-				"36.75"
+				"8",
+				"35"
 			],
-			"Enhanced Wolves": [
+			"Enhanced Wolf Pack": [
 				"20"
 			],
 			"Nature's Reach": [
@@ -841,62 +841,62 @@ let nodeValues = {
 				"{2/4/6}"
 			],
 			"Brutal Wolf Pack": [
-				"",
-				""
+				"20",
+				"3"
 			],
 			"Ferocious Wolf Pack": [
-				"",
-				"",
+				"10",
+				"5",
 				""
 			]
 		},
 		"Wrath": {
 			"Elemental Exposure": [
 				"{20/40/60}",
-				"1"
+				"1.0"
 			],
 			"Charged Atmosphere": [
-				"{18/13.5/10}",
-				"47.25"
+				"18",
+				"{45/90/135}"
 			],
 			"Electric Shock": [
 				"{5/10/15}",
 				"3",
-				""
+				"{5/10/15}"
 			],
 			"Bad Omen": [
 				"{10/20/30}",
-				"57.25"
+				"55"
 			],
 			"Endless Tempest": [
 				"{5/10/15}"
 			],
 			"Boulder": [
-				"10.0",
+				"",
+				"10",
 				"20",
-				"34.65",
-				""
+				"33"
 			],
 			"Enhanced Boulder": [
 				"30",
-				"2",
-				""
+				"3",
+				"4"
 			],
 			"Natural Boulder": [
-				"75"
+				"20"
 			],
 			"Savage Boulder": [
 				"3"
 			],
 			"Trample": [
-				"14.0",
+				"14",
 				"33",
-				"26.25",
-				"47.25",
+				"25",
+				"45",
 				"3"
 			],
 			"Natural Trample": [
-				"6",
+				"20",
 				""
 			],
 			"Savage Trample": [
@@ -906,7 +906,7 @@ let nodeValues = {
 				"{5/10/15}"
 			],
 			"Safeguard": [
-				"",
+				"{2/4/6}",
 				""
 			],
 			"Stone Guard": [
@@ -914,9 +914,9 @@ let nodeValues = {
 				"{4/8/12}"
 			],
 			"Hurricane": [
-				"20.0",
+				"20",
 				"33",
-				"102.37",
+				"97",
 				"8"
 			],
 			"Enhanced Hurricane": [
@@ -931,27 +931,27 @@ let nodeValues = {
 				"20"
 			],
 			"Rabies": [
-				"12.0",
+				"12",
 				"50",
-				"29.4",
-				"55.65",
+				"28",
+				"53",
 				"6"
 			],
 			"Enhanced Rabies": [
-				"4"
+				"30"
 			],
 			"Natural Rabies": [
-				"10"
+				"100"
 			],
 			"Savage Rabies": [
-				"",
-				""
+				"4",
+				"6"
 			],
 			"Mending": [
 				"{5/10/15}"
 			],
 			"Provocation": [
-				"30"
+				"{25/20/15}"
 			],
 			"Toxic Claws": [
 				"{8/16/24}",
@@ -961,16 +961,16 @@ let nodeValues = {
 				"{8/16/24}"
 			],
 			"Enhanced Trample": [
-				"",
-				""
+				"30",
+				"15"
 			],
 			"Envenom": [
-				""
+				"{10/20/30}"
 			]
 		},
 		"Ultimate": {
 			"Grizzly Rage": [
-				"60.0",
+				"60",
 				"10",
 				"20",
 				"20",
@@ -979,15 +979,15 @@ let nodeValues = {
 				"10"
 			],
 			"Supreme Grizzly Rage": [
-				"3.2",
+				"8",
 				""
 			],
 			"Petrify": [
-				"60.0",
+				"60",
 				"3",
 				"25",
-				"",
-				""
+				"50",
+				"6"
 			],
 			"Prime Petrify": [
 				"1"
@@ -996,50 +996,50 @@ let nodeValues = {
 				"25"
 			],
 			"Defensive Posture": [
-				"{3/6/9}"
+				"{5/10/15}"
 			],
 			"Thick Hide": [
-				"2.56",
+				"{6/12/18}",
 				""
 			],
 			"Unrestrained": [
 				"{3/6/9}",
-				"20"
+				"50"
 			],
 			"Nature's Resolve": [
 				"{5/10/15}",
-				"1.76",
+				"4",
 				""
 			],
 			"Quickshift": [
 				"{5/10/15}"
 			],
 			"Natural Fortitude": [
-				"{0.56/1.12/1.68}",
+				"{1/2/3}",
 				""
 			],
 			"Heightened Senses": [
 				"{4/8/12}",
-				"3"
+				"5"
 			],
 			"Lacerate": [
-				"50.0",
+				"50",
 				"15",
 				"10",
-				"420"
+				"400"
 			],
 			"Prime Lacerate": [
 				"3",
 				""
 			],
 			"Supreme Lacerate": [
-				"200"
+				"150"
 			],
 			"Cataclysm": [
-				"80.0",
+				"80",
 				"82",
 				"8",
-				"54.6"
+				"52"
 			],
 			"Prime Cataclysm": [
 				"2"
@@ -1066,9 +1066,9 @@ let nodeValues = {
 			],
 			"Earthen Might": [
 				"5",
+				"5",
 				"10",
-				"10",
-				"100"
+				"10"
 			],
 			"Lupine Ferocity": [
 				"60"
@@ -1088,7 +1088,7 @@ let nodeValues = {
 			"Ursine Strength": [
 				"20",
 				"3",
-				"20"
+				"30"
 			]
 		},
 		"Spirit Boons": {
@@ -1936,10 +1936,10 @@ let nodeValues = {
 				"4",
 				"25"
 			],
-			"Enhanced Concealment": [
+			"Enhanced Stealth": [
 				"40"
 			],
-			"Subverting Concealment": [
+			"Subverting Stealth": [
 				"3"
 			],
 			"Mending Obscurity": [
