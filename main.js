@@ -260,9 +260,14 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 		this.geometry.invalidate();
 	}
 }
-function setNodeStyleThick(curNode, invertColor = false) {
+function setNodeStyleThick(curNode) {
+	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+	const searchQueryMatch = curNode.nodeData.get("searchQueryMatch");
+	const desiredNodeStyle = `thick${allocatedPoints > 0 ? "-allocated" : ""}${searchQueryMatch ? "-invert" : ""}`;
+	if (curNode.activeLineStyle == desiredNodeStyle) return;
+
 	let _lineStyleThickSquare = { ...lineStyleThickSquare };
-	if (invertColor) {
+	if (searchQueryMatch) {
 		if ([0xFF0000, 0xFFFFFF].includes(_lineStyleThickSquare.color)) {
 			_lineStyleThickSquare.color = 0x00FF00;
 		} else {
@@ -273,32 +278,47 @@ function setNodeStyleThick(curNode, invertColor = false) {
 	} else if (curNode.nodeData.get("colorOverride") != undefined) {
 		_lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
 	}
-	curNode.children[1].style.fontWeight = "bold";
+
+	if (allocatedPoints > 0) curNode.children[1].style.fontWeight = "bold";
 	if (curNode.children.length > 3) {
-		curNode.children[2].style.fontWeight = "bold";
-		curNode.children[3].children[0].style.fontWeight = "bold";
-		curNode.children[4].children[0].style.fontWeight = "bold";
+		if (allocatedPoints > 0) {
+			curNode.children[2].style.fontWeight = "bold";
+			curNode.children[3].children[0].style.fontWeight = "bold";
+			curNode.children[4].children[0].style.fontWeight = "bold";
+		}
 		curNode.children[5].updateLineStyle(_lineStyleThickSquare);
 	} else {
 		curNode.children[2].updateLineStyle(_lineStyleThickSquare);
 	}
+
+	curNode.activeLineStyle = desiredNodeStyle;
 }
 function setNodeStyleThin(curNode) {
+	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+	const searchQueryMatch = curNode.nodeData.get("searchQueryMatch");
+	const desiredNodeStyle = `thin${allocatedPoints == 0 ? "" : "-allocated"}${searchQueryMatch ? "-invert" : ""}`;
+	if (curNode.activeLineStyle == desiredNodeStyle) return;
+
 	let _lineStyleThinSquare = { ...lineStyleThinSquare };
 	if (curNode.nodeData.get("colorOverride") != undefined) {
 		_lineStyleThinSquare.color = curNode.nodeData.get("colorOverride");
 	}
-	curNode.children[1].style.fontWeight = "normal";
+
+	if (allocatedPoints == 0) curNode.children[1].style.fontWeight = "normal";
 	if (curNode.children.length > 3) {
-		curNode.children[2].style.fontWeight = "normal";
-		curNode.children[3].children[0].style.fontWeight = "normal";
-		curNode.children[4].children[0].style.fontWeight = "normal";
-		curNode.children[5].lineStyle(_lineStyleThinSquare);
-		curNode.children[5].updateLineStyle(_lineStyleThinSquare);
+		if (allocatedPoints == 0) {
+			curNode.children[2].style.fontWeight = "normal";
+			curNode.children[3].children[0].style.fontWeight = "normal";
+			curNode.children[4].children[0].style.fontWeight = "normal";
+		} else {
+			console.log("refused to thin text");
+		}
+		if (!searchQueryMatch) curNode.children[5].updateLineStyle(_lineStyleThinSquare);
 	} else {
-		curNode.children[2].lineStyle(_lineStyleThinSquare);
-		curNode.children[2].updateLineStyle(_lineStyleThinSquare);
+		if (!searchQueryMatch) curNode.children[2].updateLineStyle(_lineStyleThinSquare);
 	}
+
+	curNode.activeLineStyle = desiredNodeStyle;
 }
 
 // event handlers
@@ -514,14 +534,14 @@ function handleSearchInput(event) {
 			if (itemType != undefined) nodeHeader += ` (${itemType})`;
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
 				pixiNode.nodeData.set("searchQueryMatch", true);
-				setNodeStyleThick(pixiNode, true);
+				setNodeStyleThick(pixiNode);
 				return true;
 			} else {
 				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
 				const nodeDesc = pixiNode.nodeDesc;
 				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText)) {
 					pixiNode.nodeData.set("searchQueryMatch", true);
-					setNodeStyleThick(pixiNode, true);
+					setNodeStyleThick(pixiNode);
 					return true;
 				}
 			}
@@ -877,7 +897,7 @@ function updateNodePoints(curNode, newPoints) {
 		const classData = classMap.get(className);
 		if (classData != undefined) {
 			const trunkData = classData.get("Trunk Data");
-			pixiNodes.filter(pixiNode => trunkData.has(pixiNode.nodeName)).forEach(groupNode => {
+			pixiNodes.filter(pixiNode => pixiNode.groupName == undefined).forEach(groupNode => {
 				const requiredPoints = groupNode.nodeData.get("requiredPoints");
 				const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
 				validConnection ? setNodeStyleThick(groupNode) : setNodeStyleThin(groupNode);
