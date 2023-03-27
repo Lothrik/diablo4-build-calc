@@ -11212,7 +11212,7 @@
 				]
 			},
 			"Generic_Magic_CriticalDamage1H": {
-				"name": "Critical Damage1H",
+				"name": "Critical Damage 1H",
 				"tags": [
 					"Search_Critical"
 				]
@@ -11241,13 +11241,13 @@
 				"name": "Damage"
 			},
 			"Generic_Magic_Damage1H": {
-				"name": "Damage1H"
+				"name": "Damage 1H"
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
-				"name": "Damage2H Bludgeoning"
+				"name": "Damage 2H Bludgeoning"
 			},
 			"Generic_Magic_Damage2HSlashing": {
-				"name": "Damage2H Slashing"
+				"name": "Damage 2H Slashing"
 			},
 			"Generic_Magic_DamageAfterDodge": {
 				"name": "Damage After Dodge",

@@ -11,608 +11,1400 @@ let codexValues = {
 	"Generic": {
 		"Defensive": {
 			"Aspect of the Deflecting Barrier": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "Lost Keep",
+				"region": "Hawezar",
+				"values": [
 					"20"
 				]
 			},
 			"Aspect of Disobedience": {
-				dungeon: "Halls of the Damned",
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Halls of the Damned",
+				"region": "Kehjistan",
+				"values": [
 					"0.25",
 					"4",
 					"25.00"
 				]
 			},
 			"Aspect of Might": {
-				dungeon: "Dark Ravine",
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Dark Ravine",
+				"region": "Dry Steppes",
+				"values": [
 					"25",
 					"4.0"
 				]
 			},
 			"Protecting Aspect": {
-				dungeon: "Caldera Gate",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Caldera Gate",
+				"region": "Fractured Peaks",
+				"values": [
 					"8",
-					"",
 					"10"
 				]
 			},
 			"Aspect of the Protector": {
-				dungeon: "Lost Archives",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Lost Archives",
+				"region": "Fractured Peaks",
+				"values": [
+					"",
 					"10",
+					"30"
+				]
+			},
+			"Aspect of the Crowded Sage": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Temerity": {
+				"values": [
+					"",
+					"",
 					""
 				]
 			}
 		},
 		"Offensive": {
 			"Edgemaster's Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Oldstones",
+				"region": "Scosglen",
+				"values": [
 					"24"
 				]
 			},
 			"Aspect of the Expectant": {
-				region: "Scosglen",
-				values: [
-					"5.0",
+				"dungeon": "Underroot",
+				"region": "Scosglen",
+				"values": [
+					"5",
 					"50"
 				]
 			},
 			"Aspect of Inner Calm": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "",
+				"region": "Scosglen",
+				"values": [
 					"3.0",
 					"30"
 				]
 			},
 			"Needleflare Aspect": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "",
+				"region": "Kehjistan",
+				"values": [
 					"20"
 				]
 			},
-			"Aspect of Pummeling": {
-				region: "Kehjistan",
-				values: [
-					"40"
-				]
-			},
 			"Rapid Aspect": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "",
+				"region": "Dry Steppes",
+				"values": [
 					"23"
 				]
 			},
 			"Aspect of Retribution": {
-				dungeon: "Abandoned Mineworks",
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Abandoned Mineworks",
+				"region": "Kehjistan",
+				"values": [
 					"15",
 					"2",
 					"30"
 				]
 			},
+			"Accelerating Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Conceited Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Smiting Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"The Butcher's Cleaver": {
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Doombringer": {
+				"values": [
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"The Grandfather": {
+				"values": [
+					""
+				]
+			},
+			"Razorplate": {
+				"values": [
+					""
+				]
+			},
+			"Fists of Fate": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Andariel's Visage": {
+				"values": [
+					"",
+					"",
+					""
+				]
+			}
 		},
 		"Utility": {
 			"Aspect of Shared Misery": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "Oblivion",
+				"region": "Hawezar",
+				"values": [
 					"30"
+				]
+			},
+			"Exploiter's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Eluding Aspect": {
+				"dungeon": "Caldera Gate",
+				"region": "Fractured Peaks",
+				"values": [
+					"4",
+					"40"
+				]
+			},
+			"Melted Heart of Selig": {
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Penitent Greaves": {
+				"values": [
+					""
+				]
+			},
+			"Frostburn": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Harlequin Crest": {
+				"values": [
+					"",
+					""
 				]
 			}
 		},
 		"Resource": {
 			"Aspect of the Umbral": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Champion's Demise",
+				"region": "Dry Steppes",
+				"values": [
 					"1"
+				]
+			},
+			"Starlight Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Assimilation Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Mother's Embrace": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Ring of Starless Skies": {
+				"values": [
+					"",
+					""
 				]
 			}
 		},
 		"Mobility": {
 			"Ghostwalker Aspect": {
-				region: "Scosglen",
-				values: [
-					"40"
+				"dungeon": "",
+				"region": "Scosglen",
+				"values": [
+					"2",
+					"10"
 				]
 			},
 			"Wind Striker Aspect": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Shivta Ruins",
+				"region": "Kehjistan",
+				"values": [
 					"8.0",
-					"1"
+					"1",
+					"6"
 				]
 			}
 		},
-		"Other": {
-		}
+		"Other": {}
 	},
 	"Barbarian": {
 		"Defensive": {
 			"Aspect of Bul-Kathos": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
 					"",
 					"4",
 					"5"
 				]
 			},
 			"Aspect of the Iron Warrior": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Carrion Fields",
+				"region": "Dry Steppes",
+				"values": [
+					"10"
 				]
 			},
 			"Aspect of Numbing Wrath": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
 					""
 				]
 			},
 			"Aspect of Tempering Blows": {
-				dungeon: "Defiled Catacomb",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Defiled Catacomb",
+				"region": "Fractured Peaks",
+				"values": [
 					"6",
+					""
+				]
+			},
+			"Iron Blood Aspect": {
+				"dungeon": "Forgotten Ruins",
+				"region": "Kehjistan",
+				"values": [
+					"2.0",
+					"10"
+				]
+			},
+			"Steadfast Berserker's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
 					""
 				]
 			}
 		},
 		"Offensive": {
 			"Aspect of Ancestral Echoes": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
 					"40",
 					"5"
 				]
 			},
 			"Aspect of Ancestral Force": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Sunken Ruins",
+				"region": "Scosglen",
+				"values": [
 					"32"
 				]
 			},
 			"Aspect of Berserk Ripping": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Mournfield",
+				"region": "Dry Steppes",
+				"values": [
 					"22",
 					"5"
 				]
 			},
 			"Brawler's Aspect": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
 					"2",
 					""
 				]
 			},
 			"Death Wish Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "",
+				"region": "Scosglen",
+				"values": [
 					""
 				]
 			},
 			"Aspect of the Dire Whirlwind": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Garan Hold",
+				"region": "Scosglen",
+				"values": [
 					"5",
 					"20"
 				]
 			},
-			"Aspect of Quickening Pulse": {
-				region: "Kehjistan",
-				values: [
-					"20",
-					"1.5"
-				]
-			},
 			"Veteran Brawler's Aspect": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Heretics Asylum",
+				"region": "Kehjistan",
+				"values": [
 					"15",
 					"225"
 				]
 			},
-			"Windstriker's Aspect": {
-				region: "Hawezar",
-				values: [
-					"6",
-					"20",
-					"4"
+			"Earthstriker's Aspect": {
+				"dungeon": "Maugan's Works",
+				"region": "Hawezar",
+				"values": [
+					"10",
+					"30"
+				]
+			},
+			"Aspect of Burning Rage": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Devilish Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Limitless Rage": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Earthquake Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Skullbreaker's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Dust Devil's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Encroaching Wrath": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Windlasher Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Ancients' Oath": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Hellhammer": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Overkill": {
+				"values": [
+					""
+				]
+			},
+			"Battle Trance": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"100,000 Steps": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Rage of Harrogath": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Gohr's Devastating Grips": {
+				"values": [
+					""
 				]
 			}
 		},
 		"Utility": {
 			"Aspect of Anemia": {
-				dungeon: "Kor Dragan Barracks",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Kor Dragan Barracks",
+				"region": "Fractured Peaks",
+				"values": [
 					"31",
 					"2"
 				]
 			},
 			"Relentless Berserker's Aspect": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Hakan's Refuge",
+				"region": "Kehjistan",
+				"values": [
 					"22",
 					"1"
+				]
+			},
+			"Weapon Master's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Luckbringer Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
 				]
 			}
 		},
 		"Resource": {
 			"Aspect of Echoing Fury": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "",
+				"region": "Kehjistan",
+				"values": [
 					"2.0"
 				]
 			},
 			"Aspect of the Relentless Armsmaster": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Calibel's Mine",
+				"region": "Scosglen",
+				"values": [
 					"20"
 				]
 			},
 			"Slaking Aspect": {
-				dungeon: "Maulwood",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Maulwood",
+				"region": "Fractured Peaks",
+				"values": [
 					"30",
 					"20"
 				]
 			},
 			"Aspect of Unrelenting Fury": {
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Hallowed Ossuary",
+				"region": "Fractured Peaks",
+				"values": [
 					"10.0"
 				]
-			}
-		},
-		"Mobility": {
-			"Aspect of Perpetual Stomping": {
-				region: "Dry Steppes",
-				values: [
+			},
+			"Aspect of Giant Strides": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Berserk Fury": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Bold Chieftain's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Bear Clan Berserker's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
 				]
 			}
 		},
+		"Mobility": {},
 		"Other": {
+			"Battle-Mad Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Ramaladni's Magnum Opus": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Fields of Crimson": {
+				"values": [
+					"",
+					"",
+					""
+				]
+			}
 		}
 	},
 	"Druid": {
 		"Defensive": {
-			"Aspect of Cyclonic Force": {
-				region: "Kehjistan",
-				values: [
-				]
-			},
 			"Aspect of Mending Stone": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Sealed Archives",
+				"region": "Dry Steppes",
+				"values": [
 					"6",
 					""
 				]
 			},
 			"Skinwalker's Aspect": {
-				dungeon: "Fading Echo",
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Fading Echo",
+				"region": "Kehjistan",
+				"values": [
 					""
 				]
 			},
-			"Stalking Beast Aspect": {
-				dungeon: "Anica's Claim",
-				region: "Fractured Peaks",
-				values: [
-					"2",
-					"1.0"
+			"Vigorous Aspect": {
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
+					"10.0"
 				]
 			},
-			"Vigorous Aspect": {
-				region: "Hawezar",
-				values: [
-					"10.0"
+			"Earthguard Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Waxing Gibbous": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Vasily's Prayer": {
+				"values": [
+					""
 				]
 			}
 		},
 		"Offensive": {
 			"Crashstone Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "",
+				"region": "Scosglen",
+				"values": [
 					"40"
 				]
 			},
 			"Nighthowler's Aspect": {
-				dungeon: "Forbidden City",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Forbidden City",
+				"region": "Fractured Peaks",
+				"values": [
 					"5.0",
 					"3"
 				]
 			},
 			"Overcharged Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Mariner's Refuge",
+				"region": "Scosglen",
+				"values": [
 					"10",
 					"3",
 					""
 				]
 			},
 			"Aspect of the Rampaging Werebeast": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "Endless Gates",
+				"region": "Hawezar",
+				"values": [
 					"1",
 					"10"
 				]
 			},
 			"Aspect of Retaliation": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Seaside Descent",
+				"region": "Dry Steppes",
+				"values": [
 					"20"
 				]
 			},
 			"Shepherd's Aspect": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Bloodsoaked Crag",
+				"region": "Dry Steppes",
+				"values": [
 					"6.0"
 				]
 			},
 			"Aspect of the Tempest": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "Blind Burrows",
+				"region": "Hawezar",
+				"values": [
 					"7.0"
 				]
 			},
 			"Aspect of the Ursine Horror": {
-				dungeon: "Belfry Zakara",
-				region: "Hawezar",
-				values: [
+				"dungeon": "Belfry Zakara",
+				"region": "Hawezar",
+				"values": [
 					"",
 					"2"
+				]
+			},
+			"Stormclaw's Aspect": {
+				"dungeon": "Anica's Claim",
+				"region": "Fractured Peaks",
+				"values": [
+					"20"
+				]
+			},
+			"Lightning Dancer's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Dire Wolf's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Aspect of the Stampede": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Metamorphic Stone": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of the Blurred Beast": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Natural Balance": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"Seismic-shift Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of the Trampled Earth": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of The Aftershock": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Shockwave Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of the Alpha": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Stormchaser's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Runeworker's Conduit Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Greatstaff of the Crone": {
+				"values": [
+					""
+				]
+			},
+			"Hunter's Zenith": {
+				"values": [
+					""
 				]
 			}
 		},
 		"Utility": {
 			"Ballistic Aspect": {
-				region: "Scosglen",
-				values: [
-					"3"
+				"dungeon": "Whispering Pines",
+				"region": "Scosglen",
+				"values": [
+					"2"
 				]
 			},
 			"Aspect of Quicksand": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Ferals' Den",
+				"region": "Scosglen",
+				"values": [
 					"25",
 					"5"
 				]
 			},
 			"Stormshifter's Aspect": {
-				region: "Kehjistan",
-				values: [
-					"3"
+				"dungeon": "",
+				"region": "Kehjistan",
+				"values": [
+					"2"
+				]
+			},
+			"Aspect of the Dark Howl": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Symbiotic Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
 				]
 			}
 		},
 		"Resource": {
 			"Aspect of the Changeling's Debt": {
-				region: "Kehjistan",
-				values: [
-					"1.0"
+				"dungeon": "Conclave",
+				"region": "Kehjistan",
+				"values": [
+					"120"
 				]
 			},
 			"Mangled Aspect": {
-				dungeon: "Immortal Emanation",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Immortal Emanation",
+				"region": "Fractured Peaks",
+				"values": [
+					"20",
 					"1"
 				]
 			},
-			"Storm Beast's Aspect": {
-				region: "Dry Steppes",
-				values: [
-					"15",
-					"10"
-				]
-			},
 			"Aspect of the Unsatiated": {
-				dungeon: "Tormented Ruins",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Tormented Ruins",
+				"region": "Fractured Peaks",
+				"values": [
 					"20",
 					"20"
 				]
+			},
+			"Aspect of the Calm Breeze": {
+				"dungeon": "Grinning Labyrinth",
+				"region": "Dry Steppes",
+				"values": [
+					"5"
+				]
+			},
+			"Balanced Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Tempest Roar": {
+				"values": [
+					"",
+					""
+				]
 			}
 		},
-		"Mobility": {
-		},
-		"Other": {
-		}
+		"Mobility": {},
+		"Other": {}
 	},
 	"Necromancer": {
 		"Defensive": {
-			"Aspect of Grasping Veins": {
-				region: "Kehjistan",
-				values: [
-					"15"
+			"Aspect of Shielding Storm": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Hardened Bones": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of the Embalmer": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
 				]
 			}
 		},
 		"Offensive": {
 			"Blighted Aspect": {
-				region: "Hawezar",
-				values: [
-					"15",
-					"30"
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
+					"50",
+					"6",
+					"10"
 				]
 			},
 			"Blood-bathed Aspect": {
-				dungeon: "Hoarfrost Demise",
-				region: "Fractured Peaks",
-				values: [
-					"60"
+				"dungeon": "Hoarfrost Demise",
+				"region": "Fractured Peaks",
+				"values": [
+					"70"
 				]
 			},
 			"Blood Seeker's Aspect": {
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Mercy's Reach",
+				"region": "Fractured Peaks",
+				"values": [
 					"15"
 				]
 			},
 			"Aspect of Bursting Bones": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Path of the Blind",
+				"region": "Dry Steppes",
+				"values": [
 					""
 				]
 			},
 			"Aspect of the Damned": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Uldur's Cave",
+				"region": "Kehjistan",
+				"values": [
 					"30"
 				]
 			},
 			"Aspect of Empowering Reaper": {
-				region: "Scosglen",
-				values: [
-					"6",
-					"30"
-				]
-			},
-			"Aspect of Possessed Blood": {
-				region: "Dry Steppes",
-				values: [
-					"5"
+				"dungeon": "Flooded Depths",
+				"region": "Scosglen",
+				"values": [
+					"10",
+					"20",
+					"3"
 				]
 			},
 			"Aspect of Reanimation": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "",
+				"region": "Scosglen",
+				"values": [
 					"20",
 					"10"
 				]
 			},
 			"Sacrificial Aspect": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "Ruins of Eridu",
+				"region": "Hawezar",
+				"values": [
 					"15"
 				]
 			},
 			"Aspect of Swelling Curse": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Hive",
+				"region": "Scosglen",
+				"values": [
 					"15"
 				]
 			},
 			"Unyielding Commander's Aspect": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "Faceless Shrine",
+				"region": "Hawezar",
+				"values": [
 					"70",
 					"90"
+				]
+			},
+			"Aspect of Plunging Darkness": {
+				"dungeon": "Rimescar Cavern",
+				"region": "Hawezar",
+				"values": [
+					"50",
+					"6"
+				]
+			},
+			"Aspect of Ultimate Shadow": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"Aspect of Explosive Mist": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Frenzied Dead": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Splintering Aspect": {
+				"dungeon": "",
+				"region": "Dry Steppes",
+				"values": [
+					"1.5",
+					"50"
+				]
+			},
+			"Rotting Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Hungry Blood": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Blood-soaked Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Grasping Veins": {
+				"dungeon": "Corrupted Grotto",
+				"region": "Kehjistan",
+				"values": [
+					"10",
+					"6",
+					"30"
+				]
+			},
+			"Aspect of Serration": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Osseous Gale Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Decay": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Tidal Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Rathma's Chosen": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Untimely Death": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Cadaverous Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Black River": {
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Deathspeaker's Pendant": {
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Greaves of the Empty Tomb": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Blood Artisan's Cuirass": {
+				"values": [
+					""
+				]
+			},
+			"Howl from Below": {
+				"values": [
+					""
+				]
+			},
+			"Deathless Visage": {
+				"values": [
+					""
+				]
+			},
+			"Ring of Mendeln": {
+				"values": [
+					"",
+					"",
+					""
 				]
 			}
 		},
 		"Utility": {
-			"Aspect of Torment": {
-				dungeon: "Black Asylum",
-				region: "Fractured Peaks",
-				values: [
-					"20",
-					"4"
-				]
-			},
 			"Torturous Aspect": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "",
+				"region": "Kehjistan",
+				"values": [
 					"15",
 					"1"
 				]
 			},
-			"Aspect of the Void": {
-				dungeon: "Rimescar Cavern",
-				region: "Fractured Peaks",
-				values: [
+			"Coldbringer's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"Viscous Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Blood Getter's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Bloodless Scream": {
+				"values": [
+					"",
+					"",
+					""
 				]
 			}
 		},
 		"Resource": {
 			"Fastblood Aspect": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
 					"0.5"
 				]
 			},
 			"Flesh-Rending Aspect": {
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Nostrava",
+				"region": "Fractured Peaks",
+				"values": [
 					"10"
 				]
 			},
 			"Hulking Aspect": {
-				region: "Kehjistan",
-				values: [
-					"1"
+				"dungeon": "Sepulcher of The Forsworn",
+				"region": "Kehjistan",
+				"values": [
+					"10",
+					"2",
+					"5"
 				]
 			},
 			"Aspect of Potent Blood": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Betrayer's Row",
+				"region": "Dry Steppes",
+				"values": [
 					"10"
 				]
 			},
 			"Requiem Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "",
+				"region": "Scosglen",
+				"values": [
 					"3.0"
+				]
+			},
+			"Aspect of Torment": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Exposed Flesh": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
 				]
 			}
 		},
-		"Mobility": {
-		},
-		"Other": {
-		}
+		"Mobility": {},
+		"Other": {}
 	},
 	"Rogue": {
 		"Defensive": {
 			"Cheat's Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Luban's Rest",
+				"region": "Scosglen",
+				"values": [
 					"15.0",
 					"15",
 					"2"
 				]
 			},
 			"Enshrouding Aspect": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "Ghoa Ruins",
+				"region": "Hawezar",
+				"values": [
 					"3",
 					"2.0"
 				]
 			},
-			"Aspect of Siphoned Protection": {
-				region: "Hawezar",
-				values: [
-					"20",
-					"5",
+			"Snap Frozen Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
 					"",
 					""
 				]
 			},
-			"Aspect of Uncanny Resilience": {
-				region: "Scosglen",
-				values: [
-					"5",
-					"5",
-					"15"
+			"Aspect of Uncanny Treachery": {
+				"dungeon": "",
+				"region": "Scosglen",
+				"values": [
+					"4",
+					"15",
+					"4"
+				]
+			},
+			"Aspect of Cruel Sustenance": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Escape Artist's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Aspect of Stolen Vigor": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Siphoned Victuals": {
+				"dungeon": "Leviathan's Maw",
+				"region": "Hawezar",
+				"values": [
+					"10"
+				]
+			},
+			"Umbrous Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Lethal Dusk": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Aspect of Elusive Menace": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
 				]
 			}
 		},
 		"Offensive": {
 			"Aspect of Arrow Storms": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Howling Warren",
+				"region": "Scosglen",
+				"values": [
 					"10",
 					"",
 					"3",
@@ -620,275 +1412,644 @@ let codexValues = {
 				]
 			},
 			"Blast-Trapper's Aspect": {
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "",
+				"region": "Fractured Peaks",
+				"values": [
 					"30",
 					"3"
 				]
 			},
 			"Aspect of Branching Volleys": {
-				region: "Hawezar",
-				values: [
-					"15",
-					"2"
+				"dungeon": "Shadowed Plunge",
+				"region": "Hawezar",
+				"values": [
+					"15"
 				]
 			},
 			"Aspect of Corruption": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "",
+				"region": "Kehjistan",
+				"values": [
 					"20"
 				]
 			},
 			"Aspect of Encircling Blades": {
-				dungeon: "Hallowed Ossuary",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Forsaken Quarry",
+				"region": "Fractured Peaks",
+				"values": [
 					"8"
 				]
 			},
 			"Opportunist's Aspect": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "",
+				"region": "Kehjistan",
+				"values": [
 					"",
-					"0.25"
+					"0.5"
 				]
 			},
 			"Shadowslicer Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Twisted Hollow",
+				"region": "Scosglen",
+				"values": [
 					"25"
 				]
 			},
-			"Aspect of Sleeting Imbuements": {
-				region: "Hawezar",
-				values: [
-				]
-			},
 			"Trickster's Aspect": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "",
+				"region": "Dry Steppes",
+				"values": [
 					"",
 					"0.25"
 				]
 			},
 			"Aspect of Unstable Imbuements": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "",
+				"region": "Dry Steppes",
+				"values": [
 					""
 				]
 			},
 			"Vengeful Aspect": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Inferno",
+				"region": "Kehjistan",
+				"values": [
 					"30",
 					"3",
 					"3",
 					"9"
 				]
 			},
-			"Aspect of Volatile Blades": {
-				region: "Scosglen",
-				values: [
-					"",
-					"",
-					"5",
+			"Aspect of Volatile Shadows": {
+				"dungeon": "Ancient's Lament",
+				"region": "Dry Steppes",
+				"values": [
 					""
 				]
 			},
-			"Aspect of Volatile Shadows": {
-				region: "Dry Steppes",
-				values: [
+			"Repeating Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Imitated Imbuement": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Trickshot Aspect": {
+				"dungeon": "Bastion of Faith",
+				"region": "Hawezar",
+				"values": [
+					"30"
+				]
+			},
+			"Aspect of Surprise": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Bladedancer's Aspect": {
+				"dungeon": "",
+				"region": "Scosglen",
+				"values": [
+					"10",
+					"20"
+				]
+			},
+			"Toxic Alchemist's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Icy Alchemist's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Aspect of Bursting Venoms": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Aspect of Synergy": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Infiltrator's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Condemnation": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Skyhunter": {
+				"values": [
+					""
+				]
+			},
+			"Windforce": {
+				"values": [
+					""
+				]
+			},
+			"Grasp of Shadow": {
+				"values": [
+					""
+				]
+			},
+			"Cowl of the Nameless": {
+				"values": [
 					""
 				]
 			}
 		},
 		"Utility": {
 			"Aspect of Explosive Verve": {
-				dungeon: "Derelict Lodge",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Derelict Lodge",
+				"region": "Fractured Peaks",
+				"values": [
 					"10",
 					"3"
+				]
+			},
+			"Aspect of Quickening Fog": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Mangler's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Noxious Ice": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Frostbitten Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Eyes in the Dark": {
+				"values": [
+					""
 				]
 			}
 		},
 		"Resource": {
 			"Energizing Aspect": {
-				dungeon: "Sanguine Chapel",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Sanguine Chapel",
+				"region": "Fractured Peaks",
+				"values": [
 					"5"
 				]
 			},
 			"Ravenous Aspect": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Shifting City",
+				"region": "Dry Steppes",
+				"values": [
 					"50",
 					"4"
 				]
 			}
 		},
 		"Mobility": {
+			"Ravager's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			}
 		},
 		"Other": {
+			"Asheara's Khanjar": {
+				"values": [
+					"",
+					"",
+					""
+				]
+			}
 		}
 	},
 	"Sorcerer": {
 		"Defensive": {
 			"Snowguard's Aspect": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
 					"10"
 				]
 			},
 			"Snowveiled Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Sarat's Lair",
+				"region": "Scosglen",
+				"values": [
 					"2.0"
 				]
 			},
 			"Aspect of the Unwavering": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Putrid Aquifier",
+				"region": "Kehjistan",
+				"values": [
 					"5"
+				]
+			},
+			"Frostblitz Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Encased Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Everliving Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Iceheart Brais": {
+				"values": [
+					""
 				]
 			}
 		},
 		"Offensive": {
 			"Aspect of Biting Cold": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "",
+				"region": "Dry Steppes",
+				"values": [
 					"25",
 					"3"
 				]
 			},
 			"Aspect of Conflagration": {
-				dungeon: "Light's Watch",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Light's Watch",
+				"region": "Fractured Peaks",
+				"values": [
 					"20"
 				]
 			},
 			"Aspect of Control": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Sunken Library",
+				"region": "Kehjistan",
+				"values": [
 					"30"
 				]
 			},
 			"Elementalist's Aspect": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Pallid Delve",
+				"region": "Dry Steppes",
+				"values": [
 					"100",
 					"20.0"
 				]
 			},
-			"Aspect of Overwhelming Bolts": {
-				dungeon: "Wretched Delve",
-				region: "Scosglen",
-				values: [
-					"2",
-					"5.0"
-				]
-			},
 			"Aspect of Piercing Cold": {
-				dungeon: "Dead Man's Dredge",
-				region: "Fractured Peaks",
-				values: [
-					"4",
-					"20"
-				]
-			},
-			"Rolling Thunder Aspect": {
-				region: "Scosglen",
-				values: [
-					"30"
+				"dungeon": "Dead Man's Dredge",
+				"region": "Fractured Peaks",
+				"values": [
+					"3",
+					"25"
 				]
 			},
 			"Aspect of Splintering Energy": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Crumbling Hekma",
+				"region": "Kehjistan",
+				"values": [
 					"11"
 				]
 			},
 			"Storm Swell Aspect": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Onyx Hold",
+				"region": "Dry Steppes",
+				"values": [
 					"11"
 				]
 			},
 			"Aspect of Three Curses": {
-				region: "Hawezar",
-				values: [
+				"dungeon": "",
+				"region": "Hawezar",
+				"values": [
 					"35"
+				]
+			},
+			"Aspect of Frozen Memories": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Abundant Energy": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Shattered Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Static Cling": {
+				"dungeon": "Wretched Delve",
+				"region": "Scosglen",
+				"values": [
+					"15.0",
+					"300"
+				]
+			},
+			"Aspect of Frozen Orbit": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Serpentine Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Armageddon": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Ancient Flame": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Engulfing Flames": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Shattered Stars": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					"",
+					""
+				]
+			},
+			"Glacial Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of the Frozen Wake": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of the Frozen Tundra": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of Overwhelming Currents": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Gravitational Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Mage-Lord's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Aspect of the Unbroken Tether": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
+				]
+			},
+			"Stable Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Flamescar": {
+				"values": [
+					""
+				]
+			},
+			"Staff of Lam Esen": {
+				"values": [
+					""
+				]
+			},
+			"Esadora's Overflowing Cameo": {
+				"values": [
+					"",
+					""
+				]
+			},
+			"Esu's Heirloom": {
+				"values": [
+					""
+				]
+			},
+			"Gloves of the Illuminator": {
+				"values": [
+					""
 				]
 			}
 		},
 		"Utility": {
-			"Aspect of Seared Flesh": {
-				region: "Hawezar",
-				values: [
-					"5",
-					"2"
+			"Aspect of Binding Embers": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Aspect of Singed Extremities": {
+				"dungeon": "Earthen Wound",
+				"region": "Hawezar",
+				"values": [
+					"25",
+					"4"
+				]
+			},
+			"Aspect of Fortune": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
+			},
+			"Raiment of the Infinite": {
+				"values": [
+					"",
+					""
 				]
 			}
 		},
 		"Resource": {
 			"Aspect of Efficiency": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Domhainne Tunnels",
+				"region": "Scosglen",
+				"values": [
 					"10"
 				]
 			},
 			"Incendiary Aspect": {
-				region: "Kehjistan",
-				values: [
+				"dungeon": "Tomb of the Saints",
+				"region": "Kehjistan",
+				"values": [
 					"5",
-					"4",
-					"15"
+					"10"
 				]
 			},
 			"Prodigy's Aspect": {
-				dungeon: "Witchwater",
-				region: "Hawezar",
-				values: [
-					"80"
+				"dungeon": "Witchwater",
+				"region": "Hawezar",
+				"values": [
+					"15"
 				]
 			},
 			"Recharging Aspect": {
-				dungeon: "Zenith",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Zenith",
+				"region": "Fractured Peaks",
+				"values": [
 					"4"
+				]
+			},
+			"Aspect of Concentration": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					"",
+					""
 				]
 			}
 		},
 		"Mobility": {
 			"Aspect of the Bounding Conduit": {
-				region: "Dry Steppes",
-				values: [
+				"dungeon": "Komdor Temple",
+				"region": "Dry Steppes",
+				"values": [
 					"20",
 					"3"
 				]
 			},
 			"Charged Aspect": {
-				region: "Scosglen",
-				values: [
+				"dungeon": "Maddux Watch",
+				"region": "Scosglen",
+				"values": [
 					"10",
 					"4"
 				]
 			},
 			"Flamewalker's Aspect": {
-				dungeon: "Cultist Refuge",
-				region: "Fractured Peaks",
-				values: [
+				"dungeon": "Cultist Refuge",
+				"region": "Fractured Peaks",
+				"values": [
 					"15",
 					"4"
 				]
 			}
 		},
-		"Other": {
-		}
+		"Other": {}
 	}
-};
+}
 
 export { codexValues };

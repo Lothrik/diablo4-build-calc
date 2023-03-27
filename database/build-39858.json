@@ -12281,7 +12281,7 @@
 				]
 			},
 			"Generic_Magic_CriticalDamage1H": {
-				"name": "Critical Damage1H",
+				"name": "Critical Damage 1H",
 				"tags": [
 					"Critical Strikes",
 					"Damage",
@@ -12303,14 +12303,14 @@
 				]
 			},
 			"Generic_Magic_Damage1H": {
-				"name": "Damage1H",
+				"name": "Damage 1H",
 				"tags": [
 					"Damage",
 					"Dual Wield"
 				]
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
-				"name": "Damage2H Bludgeoning",
+				"name": "Damage 2H Bludgeoning",
 				"tags": [
 					"Damage",
 					"Bludgeoning",
@@ -12318,7 +12318,7 @@
 				]
 			},
 			"Generic_Magic_Damage2HSlashing": {
-				"name": "Damage2H Slashing",
+				"name": "Damage 2H Slashing",
 				"tags": [
 					"Damage",
 					"Two-Handed",

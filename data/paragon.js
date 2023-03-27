@@ -8802,7 +8802,7 @@ let paragonData = {
 				"description": "Tags: Critical Strikes, Damage."
 			},
 			"Generic_Magic_CriticalDamage1H": {
-				"name": "Critical Damage1H",
+				"name": "Critical Damage 1H",
 				"description": "Tags: Critical Strikes, Damage, Dual Wield."
 			},
 			"Generic_Magic_CriticalDamageToCC": {
@@ -8814,15 +8814,15 @@ let paragonData = {
 				"description": "Tags: Damage."
 			},
 			"Generic_Magic_Damage1H": {
-				"name": "Damage1H",
+				"name": "Damage 1H",
 				"description": "Tags: Damage, Dual Wield."
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
-				"name": "Damage2H Bludgeoning",
+				"name": "Damage 2H Bludgeoning",
 				"description": "Tags: Damage, Bludgeoning, Two-Handed."
 			},
 			"Generic_Magic_Damage2HSlashing": {
-				"name": "Damage2H Slashing",
+				"name": "Damage 2H Slashing",
 				"description": "Tags: Damage, Two-Handed, Slashing."
 			},
 			"Generic_Magic_DamageAfterDodge": {

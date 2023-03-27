@@ -365,7 +365,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39858-1";
+const localVersion = "0.8.1.39858-2";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1733,8 +1733,8 @@ function drawAllNodes() {
 					drawNode(codexCategoryName, codexCategoryNode, CODEX_OF_POWER);
 
 					const sortedCodexPowers = Object.keys(codexCategory).sort((a, b) => {
-						const aValue = sortedCodexItemTypeIndex[codexCategory[a]["type"]];
-						const bValue = sortedCodexItemTypeIndex[codexCategory[b]["type"]];
+						const aValue = sortedCodexItemTypeIndex[codexCategory[a].type];
+						const bValue = sortedCodexItemTypeIndex[codexCategory[b].type];
 						return aValue == bValue ? a.localeCompare(b) : aValue - bValue;
 					});
 
@@ -1753,21 +1753,22 @@ function drawAllNodes() {
 							}
 						}
 
-						let powerDescription = codexPower["description"];
+						let powerDescription = codexPower.description;
 						let powerLocation = [];
-						if (codexPower.dungeon) powerLocation.push(codexPower["dungeon"]);
-						if (codexPower.region) powerLocation.push(codexPower["region"]);
+						if (codexPower.dungeon) powerLocation.push(codexPower.dungeon);
+						if (codexPower.region) powerLocation.push(codexPower.region);
 						if (powerLocation.length > 0) powerDescription += "\n\n— Location —\n" + powerLocation.join(" — ");
 
 						const codexPowerNode = new Map([
 							["allocatedPoints", 0],
 							["description", powerDescription],
 							["id", `codex-${codexPower.id}`],
-							["itemType", codexPower["type"]],
+							["itemType", codexPower.type],
 							["maxPoints", 1],
 							["widthOverride", nodeWidth],
 							["shapeSize", 1],
 							["shapeType", "rectangle"],
+							["values", codexPower.values],
 							["x", codexX],
 							["y", codexY]
 						]);

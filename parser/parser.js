@@ -141,7 +141,7 @@ function sanitizeNodeDescription(descriptionText) {
 	let sanitizedText = descriptionText
 		.replace(/{c_.+?}/gi, "")										// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
 		.replace(/{\/c_.+?}/gi, "")										// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
-		.replace(/{\/c}/gi, "")											// `{/c}`, exact.
+		.replace(/{\/c *?}/gi, "")										// `{/c}`, `{/c }`, ...
 		.replace(/{\/?u}/gi, "")										// `{u}` and `{/u}`.
 		.replace(/{icon.+?}/gi, "")										// `{icon:bullet}`, and similar.
 		.replace(/{if:.+?}[a-z]{0,2}{\/if}/gi, "")						// `{if:SF_21}s{/if}` and similar.
@@ -327,6 +327,7 @@ const codexCategoryNames = {
 	"5": "Other",
 	"6": "Unknown"
 };
+
 function getCodexId(codexPowerName, codexCategoryName, className) {
 	const codexHistoricalId = codexHistory[codexCategoryName + ": " + codexPowerName];
 	if (codexHistoricalId != undefined) {
@@ -339,11 +340,28 @@ function getCodexId(codexPowerName, codexCategoryName, className) {
 		$("#debugOutput").html($("#debugOutput").html() + "Adding new codexHistory ID: `" + codexHistoryLength + "` for powerName: `" + codexCategoryName + ": " + codexPowerName + "`.");
 	}
 }
-function getCodexValues(codexPowerName, codexCategoryName, className) {
-	if (!(className in codexValues)) return [];
-	if (!(codexCategoryName in codexValues[className])) return [];
-	if (!(codexPowerName in codexValues[className][codexCategoryName])) return [];
-	return codexValues[className][codexCategoryName][codexPowerName];
+
+function getCodexValues(codexPowerName, codexCategoryName, className, sanitizedDescription) {
+	if (!(className in codexValues)) codexValues[className] = {};
+	if (!(codexCategoryName in codexValues[className])) codexValues[className][codexCategoryName] = {};
+	if (!(codexPowerName in codexValues[className][codexCategoryName])) codexValues[className][codexCategoryName][codexPowerName] = {};
+	const codexMatch = codexValues[className][codexCategoryName][codexPowerName];
+	if (codexPowerName.includes("Aspect")) {
+		if (!("dungeon" in codexMatch)) codexMatch["dungeon"] = "";
+		if (!("region" in codexMatch)) codexMatch["region"] = "";
+	}
+	if (!("values" in codexMatch)) codexMatch["values"] = [];
+
+	const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
+
+	if (descLength > codexMatch["values"].length) {
+		codexMatch["values"].push(...Array(descLength - codexMatch["values"].length).fill(""));
+	} else {
+		codexMatch["values"].length = descLength;
+	}
+
+	if (descLength > 0) codexMatch["recentlyAdded"] = true;
+	return codexMatch;
 }
 
 const MAX_RECURSION_DEPTH = 10;
@@ -421,10 +439,13 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 function runParser(downloadMode) {
 	console.clear();
 
+	let zip = new JSZip();
+
 	let paragonData = {};
 	let codexData = {
 		"Categories": codexValues["Categories"]
 	};
+
 	for (const [className, classData] of Object.entries(fullJSON)) {
 		// process skill tree, if present in classData
 		if ("Skill Tree" in classData) {
@@ -563,14 +584,7 @@ function runParser(downloadMode) {
 			}
 			formattedData += "export { " + classObjectName + " };";
 			if (fixedJSON) {
-				if (downloadMode) {
-					let downloadElement = document.createElement("a");
-					downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedData);
-					downloadElement.download = classNameLower + ".js";
-					downloadElement.click();
-				} else {
-					console.log(formattedData);
-				}
+				downloadMode ? zip.folder("data").file(classNameLower + ".js", formattedData) : console.log(formattedData);
 			}
 			classProcessed[className] = true;
 		}
@@ -611,16 +625,20 @@ function runParser(downloadMode) {
 			for (const [nodeName, nodeData] of Object.entries(classData["Legendary"])) {
 				const codexPowerName = nodeData["name"].startsWith("of ") ? `Aspect ${nodeData["name"]}` : `${nodeData["name"]} Aspect`;
 				const codexCategoryName = "category" in nodeData ? codexCategoryNames[nodeData["category"]] : "Unknown";
-				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className);
+				const sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
+				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className, sanitizedDescription);
 				if (!(codexCategoryName in codexData[className])) codexData[className][codexCategoryName] = {};
 				codexData[className][codexCategoryName][codexPowerName] = {
 					id: getCodexId(codexPowerName, codexCategoryName, className),
 					type: "Legendary",
-					description: sanitizeNodeDescription(nodeData["desc"]),
+					description: sanitizedDescription,
 					flavor: nodeData["flavor"],
-					region: codexValues["region"],
-					dungeon: codexValues["dungeon"]
+					dungeon: codexValues["dungeon"],
+					region: codexValues["region"]
 				};
+				if (codexValues["values"].length > 0) {
+					codexData[className][codexCategoryName][codexPowerName]["values"] = codexValues["values"];
+				}
 			}
 		}
 
@@ -629,16 +647,18 @@ function runParser(downloadMode) {
 			for (const [nodeName, nodeData] of Object.entries(classData["Unique"])) {
 				const codexPowerName = nodeData["name"];
 				const codexCategoryName = codexCategoryNames[nodeData["category"]];
-				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className);
+				const sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
+				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className, sanitizedDescription);
 				if (!(codexCategoryName in codexData[className])) codexData[className][codexCategoryName] = {};
 				codexData[className][codexCategoryName][codexPowerName] = {
 					id: getCodexId(codexPowerName, codexCategoryName, className),
 					type: "Unique",
-					description: sanitizeNodeDescription(nodeData["desc"]),
-					flavor: nodeData["flavor"],
-					region: codexValues["region"],
-					dungeon: codexValues["dungeon"]
+					description: sanitizedDescription,
+					flavor: nodeData["flavor"]
 				};
+				if (codexValues["values"].length > 0) {
+					codexData[className][codexCategoryName][codexPowerName]["values"] = codexValues["values"];
+				}
 			}
 		}
 	}
@@ -647,56 +667,49 @@ function runParser(downloadMode) {
 		let formattedParagon = "let paragonData = ";
 		formattedParagon += JSON.stringify(paragonData, null, "\t");
 		formattedParagon += "\n\nexport { paragonData };";
-		if (downloadMode) {
-			let downloadElement = document.createElement("a");
-			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedParagon);
-			downloadElement.download = "paragon.js";
-			downloadElement.click();
-		} else {
-			console.log(formattedParagon);
-		}
+		downloadMode ? zip.folder("data").file("paragon.js", formattedParagon) : console.log(formattedParagon);
 
 		let formattedCodex = "let codexData = ";
 		formattedCodex += JSON.stringify(codexData, null, "\t");
 		formattedCodex += "\n\nexport { codexData };";
-		if (downloadMode) {
-			let downloadElement = document.createElement("a");
-			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedCodex);
-			downloadElement.download = "codex-of-power.js";
-			downloadElement.click();
-		} else {
-			console.log(formattedCodex);
-		}
+		downloadMode ? zip.folder("data").file("codex-of-power.js", formattedCodex) : console.log(formattedCodex);
 
 		let formattedCodexHistory = "let codexHistory = ";
 		formattedCodexHistory += JSON.stringify(codexHistory, null, "\t");
 		formattedCodexHistory += "\n\nexport { codexHistory };";
-		if (downloadMode) {
-			let downloadElement = document.createElement("a");
-			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedCodexHistory);
-			downloadElement.download = "codex-history.js";
-			downloadElement.click();
-		} else {
-			console.log(formattedCodexHistory);
+		downloadMode ? zip.folder("parser").file("codex-history.js", formattedCodexHistory) : console.log(formattedCodexHistory);
+
+		for (const [codexClassKey, codexClassData] of Object.entries(codexValues)) {
+			if (codexClassKey == "Categories") continue;
+			for (const [codexCategoryKey, codexCategoryData] of Object.entries(codexClassData)) {
+				for (const [codexEntryKey, codexEntryData] of Object.entries(codexCategoryData)) {
+					if (codexEntryData["recentlyAdded"]) {
+						delete codexValues[codexClassKey][codexCategoryKey][codexEntryKey]["recentlyAdded"];
+					} else {
+						delete codexValues[codexClassKey][codexCategoryKey][codexEntryKey];
+					}
+				}
+			}
 		}
+
+		let formattedCodexValues = "let codexValues = ";
+		formattedCodexValues += JSON.stringify(codexValues, null, "\t");
+		formattedCodexValues += "\n\nexport { codexValues };";
+		downloadMode ? zip.folder("parser").file("codex-values.js", formattedCodexValues) : console.log(formattedCodexValues);
 
 		let formattedNodeHistory = "let nodeHistory = ";
 		formattedNodeHistory += JSON.stringify(nodeHistory, null, "\t");
 		formattedNodeHistory += "\n\nexport { nodeHistory };";
-		if (downloadMode) {
-			let downloadElement = document.createElement("a");
-			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedNodeHistory);
-			downloadElement.download = "node-history.js";
-			downloadElement.click();
-		} else {
-			console.log(formattedNodeHistory);
-		}
+		downloadMode ? zip.folder("parser").file("node-history.js", formattedNodeHistory) : console.log(formattedNodeHistory);
 
 		for (const [nodeClassKey, nodeClassData] of Object.entries(nodeValues)) {
 			for (const [nodeGroupKey, nodeGroupData] of Object.entries(nodeClassData)) {
 				for (const [nodeSkillKey, nodeSkillData] of Object.entries(nodeGroupData)) {
-					if (nodeSkillData["recentlyAdded"]) continue;
-					delete nodeValues[nodeClassKey][nodeGroupKey][nodeSkillKey];
+					if (nodeSkillData["recentlyAdded"]) {
+						delete nodeValues[nodeClassKey][nodeGroupKey][nodeSkillKey]["recentlyAdded"];
+					} else {
+						delete nodeValues[nodeClassKey][nodeGroupKey][nodeSkillKey];
+					}
 				}
 			}
 		}
@@ -704,13 +717,10 @@ function runParser(downloadMode) {
 		let formattedNodeValues = "let nodeValues = ";
 		formattedNodeValues += JSON.stringify(nodeValues, null, "\t");
 		formattedNodeValues += "\n\nexport { nodeValues };";
+		downloadMode ? zip.folder("parser").file("node-values.js", formattedNodeValues) : console.log(formattedNodeValues);
+
 		if (downloadMode) {
-			let downloadElement = document.createElement("a");
-			downloadElement.href = "data:application/octet-stream," + encodeURIComponent(formattedNodeValues);
-			downloadElement.download = "node-values.js";
-			downloadElement.click();
-		} else {
-			console.log(formattedNodeValues);
+			zip.generateAsync({ type: "base64", compression: "deflate" }).then(zipFile => window.location.href = "data:application/zip;base64," + zipFile);
 		}
 	}
 	fixedJSON = true;
