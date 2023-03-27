@@ -264,7 +264,7 @@ function setNodeStyleThick(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	const searchQueryMatch = curNode.nodeData.get("searchQueryMatch");
 	const desiredNodeStyle = `thick${allocatedPoints > 0 ? "-allocated" : ""}${searchQueryMatch ? "-invert" : ""}`;
-	if (curNode.activeLineStyle == desiredNodeStyle) return;
+	if (curNode.activeNodeStyle == desiredNodeStyle) return;
 
 	let _lineStyleThickSquare = { ...lineStyleThickSquare };
 	if (searchQueryMatch) {
@@ -291,13 +291,13 @@ function setNodeStyleThick(curNode) {
 		curNode.children[2].updateLineStyle(_lineStyleThickSquare);
 	}
 
-	curNode.activeLineStyle = desiredNodeStyle;
+	curNode.activeNodeStyle = desiredNodeStyle;
 }
 function setNodeStyleThin(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	const searchQueryMatch = curNode.nodeData.get("searchQueryMatch");
-	const desiredNodeStyle = `thin${allocatedPoints == 0 ? "" : "-allocated"}${searchQueryMatch ? "-invert" : ""}`;
-	if (curNode.activeLineStyle == desiredNodeStyle) return;
+	const desiredLineStyle = `thin${allocatedPoints == 0 ? "" : "-allocated"}${searchQueryMatch ? "-invert" : ""}`;
+	if (curNode.activeNodeStyle == desiredLineStyle) return;
 
 	let _lineStyleThinSquare = { ...lineStyleThinSquare };
 	if (curNode.nodeData.get("colorOverride") != undefined) {
@@ -318,7 +318,7 @@ function setNodeStyleThin(curNode) {
 		if (!searchQueryMatch) curNode.children[2].updateLineStyle(_lineStyleThinSquare);
 	}
 
-	curNode.activeLineStyle = desiredNodeStyle;
+	curNode.activeNodeStyle = desiredLineStyle;
 }
 
 // event handlers
