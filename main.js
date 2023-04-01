@@ -1836,10 +1836,17 @@ function drawTooltip(curNode, forceDraw) {
 		}
 	} else {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-		nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
-			const captureSplit = captureString.split("/");
-			return captureSplit[allocatedPoints > 0 ? Math.min(allocatedPoints, captureSplit.length) - 1 : 0];
-		});
+		if (curNode.groupName == CODEX_OF_POWER) {
+			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
+				const captureSplit = captureString.split("/");
+				return `[${captureSplit.join(" - ")}]`;
+			});
+		} else {
+			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
+				const captureSplit = captureString.split("/");
+				return captureSplit[allocatedPoints > 0 ? Math.min(allocatedPoints, captureSplit.length) - 1 : 0];
+			});
+		}
 	}
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;

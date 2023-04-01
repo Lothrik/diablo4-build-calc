@@ -136,7 +136,8 @@ function levenshteinDistance(str1 = "", str2 = "") {
 	return track[len2][len1];
 };
 
-function sanitizeNodeDescription(descriptionText) {
+// UNUSED
+function sanitizeRawNodeDescription(descriptionText) {
 	if (descriptionText == undefined || descriptionText.length == 0) return descriptionText;
 	let sanitizedText = descriptionText
 		.replace(/{c_.+?}/gi, "")										// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
@@ -175,6 +176,31 @@ function sanitizeNodeDescription(descriptionText) {
 		.replace(/(\r?\n)([^:\+]+)([a-z]+)$/gi, "$1$2$3.")				// Ensure the last line ends with a `.`, unless that line contains `:` or `+`, or ends with a character other than (`a-z`, `A-Z`).
 		.replace(/(if this kills.+cooldown is reset).+(if this kills.+charge is refunded)/gi, "$1")
 																		// Special handling for Death Blow conditional description logic.
+		.trim();
+
+	return sanitizedText;
+}
+
+function sanitizeNodeDescription(descriptionText) {
+	if (descriptionText == undefined || descriptionText.length == 0) return descriptionText;
+	let sanitizedText = descriptionText
+		.replace(/\|4([^:]+):([^;]+);/g, "$2")									// `|4first:second;` => `second`.
+		.replace(/\|4([^:]+):([^\.]+)\./g, "$2.")								// `|4first:second.` => `second.`.
+		.replace(/ \./g, ".")													// Replace ` .` with `.`.
+		.replace(/([^x+ ]+?){#}/g, "$1 {#}")									// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of `{#}`.
+		.replace(/{#}([a-z]+?)/gi, "{#} $1")									// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
+		.replace(/\( *{/g, "({")												// Remove any whitespace between `(` and `{`.
+		.replace(/} *\)/g, "})")												// Remove any whitespace between `}` and `)`.
+		.replace(/({#}|\d*\.?\d+) +(st|nd|rd|th) /g, "$1$2 ")					// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
+		.replace(/ +(\r?\n)/g, "$1")											// Remove any whitespace at the end of a line.
+		.replace(/(dealing (?:{#}|\d*\.?\d+))( per hit| each)/g, "$1 damage$2")	// Add ` damage` between `dealing {#}` and (`per hit`, or `each`) if not already present.
+																				// Add ` damage` between `poisons enemies for {#}` and ` over` if not already present.
+		.replace(/(bleeds|bleeding|burns|burning|zaps|zapping|poisons|poisoning)( surrounding)?( enemies for (?:{#}|\d*\.?\d+)%?)( over)/gi, "$1$2$3 damage$4")
+		.replace(/({#}|\d*\.?\d+)( damage)/gi, "$1%$2")							// Add `%` between `{#}` and ` damage` if not already present.
+		.replace(/(cooldown: (?:{#}|\d*\.?\d+))(\r?\n)/gi, "$1 seconds$2")		// Add ` seconds` after `Cooldown: {#}` if not already present.
+		.replace(/(\r?\n)([^:\+]+)([a-z]+)$/gi, "$1$2$3.")						// Ensure the last line ends with a `.`, unless that line contains `:` or `+`, or ends with a character other than (`a-z`, `A-Z`).
+		.replace(/(if this kills.+cooldown is reset).+(if this kills.+charge is refunded)/gi, "$1")
+																				// Special handling for Death Blow conditional description logic.
 		.trim();
 
 	return sanitizedText;
@@ -360,7 +386,7 @@ function getCodexValues(codexPowerName, codexCategoryName, className, sanitizedD
 		codexMatch["values"].length = descLength;
 	}
 
-	if (descLength > 0) codexMatch["recentlyAdded"] = true;
+	if (sanitizedDescription.length > 0) codexMatch["recentlyAdded"] = true;
 	return codexMatch;
 }
 

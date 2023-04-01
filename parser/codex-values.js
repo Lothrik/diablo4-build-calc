@@ -13,55 +13,44 @@ let codexValues = {
 			"Aspect of the Deflecting Barrier": {
 				"dungeon": "Lost Keep",
 				"region": "Hawezar",
-				"values": [
-					"20"
-				]
+				"values": []
 			},
 			"Aspect of Disobedience": {
 				"dungeon": "Halls of the Damned",
 				"region": "Kehjistan",
 				"values": [
 					"0.25",
-					"4",
-					"25.00"
+					"4"
 				]
 			},
 			"Aspect of Might": {
 				"dungeon": "Dark Ravine",
 				"region": "Dry Steppes",
 				"values": [
-					"25",
-					"4.0"
+					"25"
 				]
 			},
 			"Protecting Aspect": {
 				"dungeon": "Caldera Gate",
 				"region": "Fractured Peaks",
 				"values": [
-					"8",
-					"10"
+					"8"
 				]
 			},
 			"Aspect of the Protector": {
 				"dungeon": "Lost Archives",
 				"region": "Fractured Peaks",
 				"values": [
-					"",
-					"10",
-					"30"
+					""
 				]
 			},
 			"Aspect of the Crowded Sage": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Temerity": {
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -71,75 +60,61 @@ let codexValues = {
 			"Edgemaster's Aspect": {
 				"dungeon": "Oldstones",
 				"region": "Scosglen",
-				"values": [
-					"24"
-				]
+				"values": []
 			},
 			"Aspect of the Expectant": {
 				"dungeon": "Underroot",
 				"region": "Scosglen",
 				"values": [
-					"5",
-					"50"
+					""
 				]
 			},
 			"Aspect of Inner Calm": {
 				"dungeon": "",
 				"region": "Scosglen",
 				"values": [
-					"3.0",
-					"30"
+					"30.0"
 				]
 			},
 			"Needleflare Aspect": {
 				"dungeon": "",
 				"region": "Kehjistan",
-				"values": [
-					"20"
-				]
+				"values": []
 			},
 			"Rapid Aspect": {
 				"dungeon": "",
 				"region": "Dry Steppes",
-				"values": [
-					"23"
-				]
+				"values": []
 			},
 			"Aspect of Retribution": {
 				"dungeon": "Abandoned Mineworks",
 				"region": "Kehjistan",
 				"values": [
 					"15",
-					"2",
-					"30"
+					"2"
 				]
 			},
 			"Accelerating Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Conceited Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Smiting Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"The Butcher's Cleaver": {
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -147,31 +122,20 @@ let codexValues = {
 			"Doombringer": {
 				"values": [
 					"",
-					"",
-					"",
 					""
 				]
 			},
 			"The Grandfather": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Razorplate": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Fists of Fate": {
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Andariel's Visage": {
 				"values": [
-					"",
-					"",
 					""
 				]
 			}
@@ -180,15 +144,12 @@ let codexValues = {
 			"Aspect of Shared Misery": {
 				"dungeon": "Oblivion",
 				"region": "Hawezar",
-				"values": [
-					"30"
-				]
+				"values": []
 			},
 			"Exploiter's Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -196,32 +157,26 @@ let codexValues = {
 				"dungeon": "Caldera Gate",
 				"region": "Fractured Peaks",
 				"values": [
-					"4",
-					"40"
+					"4"
 				]
 			},
 			"Melted Heart of Selig": {
 				"values": [
 					"",
-					"",
 					""
 				]
 			},
 			"Penitent Greaves": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Frostburn": {
 				"values": [
-					"",
 					""
 				]
 			},
 			"Harlequin Crest": {
 				"values": [
-					"",
-					""
+					"2"
 				]
 			}
 		},
@@ -229,35 +184,29 @@ let codexValues = {
 			"Aspect of the Umbral": {
 				"dungeon": "Champion's Demise",
 				"region": "Dry Steppes",
-				"values": [
-					"1"
-				]
+				"values": []
 			},
 			"Starlight Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
-					""
+					"20"
 				]
 			},
 			"Assimilation Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Mother's Embrace": {
 				"values": [
-					"",
 					""
 				]
 			},
 			"Ring of Starless Skies": {
 				"values": [
-					"",
 					""
 				]
 			}
@@ -267,17 +216,15 @@ let codexValues = {
 				"dungeon": "",
 				"region": "Scosglen",
 				"values": [
-					"2",
-					"10"
+					"2"
 				]
 			},
 			"Wind Striker Aspect": {
 				"dungeon": "Shivta Ruins",
 				"region": "Kehjistan",
 				"values": [
-					"8.0",
-					"1",
-					"6"
+					"",
+					""
 				]
 			}
 		},
@@ -288,47 +235,36 @@ let codexValues = {
 			"Aspect of Bul-Kathos": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": [
-					"",
-					"4",
-					"5"
-				]
+				"values": []
 			},
 			"Aspect of the Iron Warrior": {
 				"dungeon": "Carrion Fields",
 				"region": "Dry Steppes",
-				"values": [
-					"10"
-				]
+				"values": []
 			},
 			"Aspect of Numbing Wrath": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Tempering Blows": {
 				"dungeon": "Defiled Catacomb",
 				"region": "Fractured Peaks",
 				"values": [
-					"6",
-					""
+					"6"
 				]
 			},
 			"Iron Blood Aspect": {
 				"dungeon": "Forgotten Ruins",
 				"region": "Kehjistan",
 				"values": [
-					"2.0",
-					"10"
+					"2.0"
 				]
 			},
 			"Steadfast Berserker's Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			}
@@ -338,115 +274,86 @@ let codexValues = {
 				"dungeon": "",
 				"region": "Hawezar",
 				"values": [
-					"40",
-					"5"
+					"40"
 				]
 			},
 			"Aspect of Ancestral Force": {
 				"dungeon": "Sunken Ruins",
 				"region": "Scosglen",
-				"values": [
-					"32"
-				]
+				"values": []
 			},
 			"Aspect of Berserk Ripping": {
 				"dungeon": "Mournfield",
 				"region": "Dry Steppes",
 				"values": [
-					"22",
-					"5"
+					""
 				]
 			},
 			"Brawler's Aspect": {
 				"dungeon": "",
 				"region": "Hawezar",
 				"values": [
-					"2",
-					""
+					"2"
 				]
 			},
 			"Death Wish Aspect": {
 				"dungeon": "",
 				"region": "Scosglen",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of the Dire Whirlwind": {
 				"dungeon": "Garan Hold",
 				"region": "Scosglen",
-				"values": [
-					"5",
-					"20"
-				]
+				"values": []
 			},
 			"Veteran Brawler's Aspect": {
 				"dungeon": "Heretics Asylum",
 				"region": "Kehjistan",
-				"values": [
-					"15",
-					"225"
-				]
+				"values": []
 			},
 			"Earthstriker's Aspect": {
 				"dungeon": "Maugan's Works",
 				"region": "Hawezar",
 				"values": [
-					"10",
-					"30"
+					"10"
 				]
 			},
 			"Aspect of Burning Rage": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Devilish Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Aspect of Limitless Rage": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Earthquake Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					"",
-					""
-				]
+				"values": []
 			},
 			"Skullbreaker's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Dust Devil's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Encroaching Wrath": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -454,49 +361,33 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Ancients' Oath": {
 				"values": [
-					"",
 					""
 				]
 			},
 			"Hellhammer": {
 				"values": [
-					"",
 					""
 				]
 			},
 			"Overkill": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Battle Trance": {
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"100,000 Steps": {
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Rage of Harrogath": {
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Gohr's Devastating Grips": {
-				"values": [
-					""
-				]
+				"values": []
 			}
 		},
 		"Utility": {
@@ -504,84 +395,67 @@ let codexValues = {
 				"dungeon": "Kor Dragan Barracks",
 				"region": "Fractured Peaks",
 				"values": [
-					"31",
 					"2"
 				]
 			},
 			"Relentless Berserker's Aspect": {
 				"dungeon": "Hakan's Refuge",
 				"region": "Kehjistan",
-				"values": [
-					"22",
-					"1"
-				]
+				"values": []
 			},
 			"Weapon Master's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Luckbringer Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
+			},
+			"Aspect of Grasping Whirlwind": {
+				"dungeon": "",
+				"region": "",
+				"values": []
 			}
 		},
 		"Resource": {
 			"Aspect of Echoing Fury": {
 				"dungeon": "",
 				"region": "Kehjistan",
-				"values": [
-					"2.0"
-				]
+				"values": []
 			},
 			"Aspect of the Relentless Armsmaster": {
 				"dungeon": "Calibel's Mine",
 				"region": "Scosglen",
-				"values": [
-					"20"
-				]
+				"values": []
 			},
 			"Slaking Aspect": {
 				"dungeon": "Maulwood",
 				"region": "Fractured Peaks",
 				"values": [
-					"30",
 					"20"
 				]
 			},
 			"Aspect of Unrelenting Fury": {
 				"dungeon": "Hallowed Ossuary",
 				"region": "Fractured Peaks",
-				"values": [
-					"10.0"
-				]
+				"values": []
 			},
 			"Aspect of Giant Strides": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Aspect of Berserk Fury": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Bold Chieftain's Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -590,31 +464,32 @@ let codexValues = {
 				"region": "",
 				"values": [
 					"",
-					"",
 					""
 				]
 			}
 		},
-		"Mobility": {},
+		"Mobility": {
+			"Aspect of Perpetual Stomping": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			}
+		},
 		"Other": {
 			"Battle-Mad Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Ramaladni's Magnum Opus": {
 				"values": [
-					"",
 					""
 				]
 			},
 			"Fields of Crimson": {
 				"values": [
-					"",
-					"",
 					""
 				]
 			}
@@ -626,42 +501,36 @@ let codexValues = {
 				"dungeon": "Sealed Archives",
 				"region": "Dry Steppes",
 				"values": [
-					"6",
-					""
+					"6"
 				]
 			},
 			"Skinwalker's Aspect": {
 				"dungeon": "Fading Echo",
 				"region": "Kehjistan",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Vigorous Aspect": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": [
-					"10.0"
-				]
+				"values": []
 			},
 			"Earthguard Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Waxing Gibbous": {
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Vasily's Prayer": {
-				"values": [
-					""
-				]
+				"values": []
+			},
+			"Aspect of Cyclonic Force": {
+				"dungeon": "",
+				"region": "",
+				"values": []
 			}
 		},
 		"Offensive": {
@@ -676,68 +545,52 @@ let codexValues = {
 				"dungeon": "Forbidden City",
 				"region": "Fractured Peaks",
 				"values": [
-					"5.0",
-					"3"
+					"5.0"
 				]
 			},
 			"Overcharged Aspect": {
 				"dungeon": "Mariner's Refuge",
 				"region": "Scosglen",
 				"values": [
-					"10",
-					"3",
-					""
+					"10"
 				]
 			},
 			"Aspect of the Rampaging Werebeast": {
 				"dungeon": "Endless Gates",
 				"region": "Hawezar",
-				"values": [
-					"1",
-					"10"
-				]
+				"values": []
 			},
 			"Aspect of Retaliation": {
 				"dungeon": "Seaside Descent",
 				"region": "Dry Steppes",
-				"values": [
-					"20"
-				]
+				"values": []
 			},
 			"Shepherd's Aspect": {
 				"dungeon": "Bloodsoaked Crag",
 				"region": "Dry Steppes",
-				"values": [
-					"6.0"
-				]
+				"values": []
 			},
 			"Aspect of the Tempest": {
 				"dungeon": "Blind Burrows",
 				"region": "Hawezar",
-				"values": [
-					"7.0"
-				]
+				"values": []
 			},
 			"Aspect of the Ursine Horror": {
 				"dungeon": "Belfry Zakara",
 				"region": "Hawezar",
 				"values": [
-					"",
-					"2"
+					""
 				]
 			},
 			"Stormclaw's Aspect": {
 				"dungeon": "Anica's Claim",
 				"region": "Fractured Peaks",
-				"values": [
-					"20"
-				]
+				"values": []
 			},
 			"Lightning Dancer's Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -745,8 +598,6 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
-					"",
 					""
 				]
 			},
@@ -777,71 +628,75 @@ let codexValues = {
 				"region": "",
 				"values": [
 					"",
-					"",
-					"",
 					""
 				]
 			},
 			"Seismic-shift Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of the Trampled Earth": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Aspect of The Aftershock": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Shockwave Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of the Alpha": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Stormchaser's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Runeworker's Conduit Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Greatstaff of the Crone": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Hunter's Zenith": {
-				"values": [
-					""
-				]
+				"values": []
+			},
+			"Aspect of Nature's Savagery": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Aspect of the Wildrage": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Mighty Storm's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Mad Wolf's Glee": {
+				"values": []
+			},
+			"Insatiable Fury": {
+				"values": []
+			},
+			"Storm's Companion": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -856,8 +711,7 @@ let codexValues = {
 				"dungeon": "Ferals' Den",
 				"region": "Scosglen",
 				"values": [
-					"25",
-					"5"
+					"25"
 				]
 			},
 			"Stormshifter's Aspect": {
@@ -877,53 +731,39 @@ let codexValues = {
 			"Symbiotic Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			}
 		},
 		"Resource": {
 			"Aspect of the Changeling's Debt": {
 				"dungeon": "Conclave",
 				"region": "Kehjistan",
-				"values": [
-					"120"
-				]
+				"values": []
 			},
 			"Mangled Aspect": {
 				"dungeon": "Immortal Emanation",
 				"region": "Fractured Peaks",
 				"values": [
-					"20",
-					"1"
+					"20"
 				]
 			},
 			"Aspect of the Unsatiated": {
 				"dungeon": "Tormented Ruins",
 				"region": "Fractured Peaks",
-				"values": [
-					"20",
-					"20"
-				]
+				"values": []
 			},
 			"Aspect of the Calm Breeze": {
 				"dungeon": "Grinning Labyrinth",
 				"region": "Dry Steppes",
-				"values": [
-					"5"
-				]
+				"values": []
 			},
 			"Balanced Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Tempest Roar": {
 				"values": [
-					"",
 					""
 				]
 			}
@@ -937,7 +777,6 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -945,16 +784,13 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Aspect of the Embalmer": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			}
 		},
 		"Offensive": {
@@ -963,83 +799,64 @@ let codexValues = {
 				"region": "Hawezar",
 				"values": [
 					"50",
-					"6",
-					"10"
+					"6"
 				]
 			},
 			"Blood-bathed Aspect": {
 				"dungeon": "Hoarfrost Demise",
 				"region": "Fractured Peaks",
-				"values": [
-					"70"
-				]
+				"values": []
 			},
 			"Blood Seeker's Aspect": {
 				"dungeon": "Mercy's Reach",
 				"region": "Fractured Peaks",
-				"values": [
-					"15"
-				]
+				"values": []
 			},
 			"Aspect of Bursting Bones": {
 				"dungeon": "Path of the Blind",
 				"region": "Dry Steppes",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of the Damned": {
 				"dungeon": "Uldur's Cave",
 				"region": "Kehjistan",
-				"values": [
-					"30"
-				]
+				"values": []
 			},
 			"Aspect of Empowering Reaper": {
 				"dungeon": "Flooded Depths",
 				"region": "Scosglen",
 				"values": [
 					"10",
-					"20",
-					"3"
+					"20"
 				]
 			},
 			"Aspect of Reanimation": {
 				"dungeon": "",
 				"region": "Scosglen",
 				"values": [
-					"20",
-					"10"
+					"20"
 				]
 			},
 			"Sacrificial Aspect": {
 				"dungeon": "Ruins of Eridu",
 				"region": "Hawezar",
-				"values": [
-					"15"
-				]
+				"values": []
 			},
 			"Aspect of Swelling Curse": {
 				"dungeon": "Hive",
 				"region": "Scosglen",
-				"values": [
-					"15"
-				]
+				"values": []
 			},
 			"Unyielding Commander's Aspect": {
 				"dungeon": "Faceless Shrine",
 				"region": "Hawezar",
-				"values": [
-					"70",
-					"90"
-				]
+				"values": []
 			},
 			"Aspect of Plunging Darkness": {
 				"dungeon": "Rimescar Cavern",
 				"region": "Hawezar",
 				"values": [
-					"50",
-					"6"
+					"50"
 				]
 			},
 			"Aspect of Ultimate Shadow": {
@@ -1048,22 +865,18 @@ let codexValues = {
 				"values": [
 					"",
 					"",
-					"",
 					""
 				]
 			},
 			"Aspect of Explosive Mist": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Frenzied Dead": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -1072,30 +885,25 @@ let codexValues = {
 				"dungeon": "",
 				"region": "Dry Steppes",
 				"values": [
-					"1.5",
-					"50"
+					"1.5"
 				]
 			},
 			"Rotting Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Aspect of Hungry Blood": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Blood-soaked Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1104,8 +912,7 @@ let codexValues = {
 				"region": "Kehjistan",
 				"values": [
 					"10",
-					"6",
-					"30"
+					"6"
 				]
 			},
 			"Aspect of Serration": {
@@ -1113,23 +920,18 @@ let codexValues = {
 				"region": "",
 				"values": [
 					"",
-					"",
 					""
 				]
 			},
 			"Osseous Gale Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Aspect of Decay": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -1137,23 +939,17 @@ let codexValues = {
 			"Tidal Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Rathma's Chosen": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Aspect of Untimely Death": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -1162,20 +958,16 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Black River": {
 				"values": [
-					"",
-					"",
 					""
 				]
 			},
 			"Deathspeaker's Pendant": {
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -1187,19 +979,13 @@ let codexValues = {
 				]
 			},
 			"Blood Artisan's Cuirass": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Howl from Below": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Deathless Visage": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Ring of Mendeln": {
 				"values": [
@@ -1214,8 +1000,7 @@ let codexValues = {
 				"dungeon": "",
 				"region": "Kehjistan",
 				"values": [
-					"15",
-					"1"
+					"15"
 				]
 			},
 			"Coldbringer's Aspect": {
@@ -1224,83 +1009,68 @@ let codexValues = {
 				"values": [
 					"",
 					"",
-					"",
 					""
 				]
 			},
 			"Viscous Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Blood Getter's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Bloodless Scream": {
 				"values": [
 					"",
-					"",
 					""
 				]
+			},
+			"Aspect of the Void": {
+				"dungeon": "",
+				"region": "",
+				"values": []
 			}
 		},
 		"Resource": {
 			"Fastblood Aspect": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": [
-					"0.5"
-				]
+				"values": []
 			},
 			"Flesh-Rending Aspect": {
 				"dungeon": "Nostrava",
 				"region": "Fractured Peaks",
-				"values": [
-					"10"
-				]
+				"values": []
 			},
 			"Hulking Aspect": {
 				"dungeon": "Sepulcher of The Forsworn",
 				"region": "Kehjistan",
 				"values": [
-					"10",
-					"2",
-					"5"
+					"10"
 				]
 			},
 			"Aspect of Potent Blood": {
 				"dungeon": "Betrayer's Row",
 				"region": "Dry Steppes",
-				"values": [
-					"10"
-				]
+				"values": []
 			},
 			"Requiem Aspect": {
 				"dungeon": "",
 				"region": "Scosglen",
-				"values": [
-					"3.0"
-				]
+				"values": []
 			},
 			"Aspect of Torment": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Aspect of Exposed Flesh": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			}
@@ -1323,15 +1093,13 @@ let codexValues = {
 				"dungeon": "Ghoa Ruins",
 				"region": "Hawezar",
 				"values": [
-					"3",
-					"2.0"
+					"3"
 				]
 			},
 			"Snap Frozen Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -1349,7 +1117,6 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1358,16 +1125,13 @@ let codexValues = {
 				"region": "",
 				"values": [
 					"",
-					"",
 					""
 				]
 			},
 			"Aspect of Stolen Vigor": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Siphoned Victuals": {
 				"dungeon": "Leviathan's Maw",
@@ -1388,16 +1152,13 @@ let codexValues = {
 				"region": "",
 				"values": [
 					"",
-					"",
 					""
 				]
 			},
 			"Aspect of Elusive Menace": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			}
 		},
 		"Offensive": {
@@ -1407,8 +1168,7 @@ let codexValues = {
 				"values": [
 					"10",
 					"",
-					"3",
-					"5"
+					"3"
 				]
 			},
 			"Blast-Trapper's Aspect": {
@@ -1422,9 +1182,7 @@ let codexValues = {
 			"Aspect of Branching Volleys": {
 				"dungeon": "Shadowed Plunge",
 				"region": "Hawezar",
-				"values": [
-					"15"
-				]
+				"values": []
 			},
 			"Aspect of Corruption": {
 				"dungeon": "",
@@ -1436,39 +1194,27 @@ let codexValues = {
 			"Aspect of Encircling Blades": {
 				"dungeon": "Forsaken Quarry",
 				"region": "Fractured Peaks",
-				"values": [
-					"8"
-				]
+				"values": []
 			},
 			"Opportunist's Aspect": {
 				"dungeon": "",
 				"region": "Kehjistan",
-				"values": [
-					"",
-					"0.5"
-				]
+				"values": []
 			},
 			"Shadowslicer Aspect": {
 				"dungeon": "Twisted Hollow",
 				"region": "Scosglen",
-				"values": [
-					"25"
-				]
+				"values": []
 			},
 			"Trickster's Aspect": {
 				"dungeon": "",
 				"region": "Dry Steppes",
-				"values": [
-					"",
-					"0.25"
-				]
+				"values": []
 			},
 			"Aspect of Unstable Imbuements": {
 				"dungeon": "",
 				"region": "Dry Steppes",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Vengeful Aspect": {
 				"dungeon": "Inferno",
@@ -1476,60 +1222,45 @@ let codexValues = {
 				"values": [
 					"30",
 					"3",
-					"3",
-					"9"
+					"3"
 				]
 			},
 			"Aspect of Volatile Shadows": {
 				"dungeon": "Ancient's Lament",
 				"region": "Dry Steppes",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Repeating Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Imitated Imbuement": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Trickshot Aspect": {
 				"dungeon": "Bastion of Faith",
 				"region": "Hawezar",
-				"values": [
-					"30"
-				]
+				"values": []
 			},
 			"Aspect of Surprise": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Bladedancer's Aspect": {
 				"dungeon": "",
 				"region": "Scosglen",
-				"values": [
-					"10",
-					"20"
-				]
+				"values": []
 			},
 			"Toxic Alchemist's Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -1539,7 +1270,6 @@ let codexValues = {
 				"region": "",
 				"values": [
 					"",
-					"",
 					""
 				]
 			},
@@ -1548,50 +1278,36 @@ let codexValues = {
 				"region": "",
 				"values": [
 					"",
-					"",
 					""
 				]
 			},
 			"Aspect of Synergy": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Infiltrator's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Condemnation": {
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Skyhunter": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Windforce": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Grasp of Shadow": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Cowl of the Nameless": {
-				"values": [
-					""
-				]
+				"values": []
+			},
+			"Word of Hakan": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -1599,8 +1315,7 @@ let codexValues = {
 				"dungeon": "Derelict Lodge",
 				"region": "Fractured Peaks",
 				"values": [
-					"10",
-					"3"
+					"10"
 				]
 			},
 			"Aspect of Quickening Fog": {
@@ -1615,7 +1330,6 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1636,18 +1350,14 @@ let codexValues = {
 				]
 			},
 			"Eyes in the Dark": {
-				"values": [
-					""
-				]
+				"values": []
 			}
 		},
 		"Resource": {
 			"Energizing Aspect": {
 				"dungeon": "Sanguine Chapel",
 				"region": "Fractured Peaks",
-				"values": [
-					"5"
-				]
+				"values": []
 			},
 			"Ravenous Aspect": {
 				"dungeon": "Shifting City",
@@ -1673,7 +1383,6 @@ let codexValues = {
 			"Asheara's Khanjar": {
 				"values": [
 					"",
-					"",
 					""
 				]
 			}
@@ -1684,49 +1393,35 @@ let codexValues = {
 			"Snowguard's Aspect": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": [
-					"10"
-				]
+				"values": []
 			},
 			"Snowveiled Aspect": {
 				"dungeon": "Sarat's Lair",
 				"region": "Scosglen",
-				"values": [
-					"2.0"
-				]
+				"values": []
 			},
 			"Aspect of the Unwavering": {
 				"dungeon": "Putrid Aquifier",
 				"region": "Kehjistan",
-				"values": [
-					"5"
-				]
+				"values": []
 			},
 			"Frostblitz Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Encased Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Everliving Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Iceheart Brais": {
-				"values": [
-					""
-				]
+				"values": []
 			}
 		},
 		"Offensive": {
@@ -1734,23 +1429,18 @@ let codexValues = {
 				"dungeon": "",
 				"region": "Dry Steppes",
 				"values": [
-					"25",
-					"3"
+					"25"
 				]
 			},
 			"Aspect of Conflagration": {
 				"dungeon": "Light's Watch",
 				"region": "Fractured Peaks",
-				"values": [
-					"20"
-				]
+				"values": []
 			},
 			"Aspect of Control": {
 				"dungeon": "Sunken Library",
 				"region": "Kehjistan",
-				"values": [
-					"30"
-				]
+				"values": []
 			},
 			"Elementalist's Aspect": {
 				"dungeon": "Pallid Delve",
@@ -1763,31 +1453,22 @@ let codexValues = {
 			"Aspect of Piercing Cold": {
 				"dungeon": "Dead Man's Dredge",
 				"region": "Fractured Peaks",
-				"values": [
-					"3",
-					"25"
-				]
+				"values": []
 			},
 			"Aspect of Splintering Energy": {
 				"dungeon": "Crumbling Hekma",
 				"region": "Kehjistan",
-				"values": [
-					"11"
-				]
+				"values": []
 			},
 			"Storm Swell Aspect": {
 				"dungeon": "Onyx Hold",
 				"region": "Dry Steppes",
-				"values": [
-					"11"
-				]
+				"values": []
 			},
 			"Aspect of Three Curses": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": [
-					"35"
-				]
+				"values": []
 			},
 			"Aspect of Frozen Memories": {
 				"dungeon": "",
@@ -1799,30 +1480,24 @@ let codexValues = {
 			"Aspect of Abundant Energy": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Shattered Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Static Cling": {
 				"dungeon": "Wretched Delve",
 				"region": "Scosglen",
 				"values": [
-					"15.0",
-					"300"
+					"15.0"
 				]
 			},
 			"Aspect of Frozen Orbit": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1830,7 +1505,6 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1838,29 +1512,23 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Aspect of Ancient Flame": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Engulfing Flames": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Shattered Stars": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -1868,46 +1536,32 @@ let codexValues = {
 			"Glacial Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Aspect of the Frozen Wake": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Aspect of the Frozen Tundra": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Aspect of Overwhelming Currents": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Gravitational Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Mage-Lord's Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1915,70 +1569,55 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Stable Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Flamescar": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Staff of Lam Esen": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Esadora's Overflowing Cameo": {
 				"values": [
-					"",
 					""
 				]
 			},
 			"Esu's Heirloom": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Gloves of the Illuminator": {
-				"values": [
-					""
-				]
+				"values": []
+			},
+			"Staff of Endless Rage": {
+				"values": []
 			}
 		},
 		"Utility": {
 			"Aspect of Binding Embers": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Singed Extremities": {
 				"dungeon": "Earthen Wound",
 				"region": "Hawezar",
 				"values": [
-					"25",
-					"4"
+					"25"
 				]
 			},
 			"Aspect of Fortune": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Raiment of the Infinite": {
 				"values": [
-					"",
 					""
 				]
 			}
@@ -1987,16 +1626,13 @@ let codexValues = {
 			"Aspect of Efficiency": {
 				"dungeon": "Domhainne Tunnels",
 				"region": "Scosglen",
-				"values": [
-					"10"
-				]
+				"values": []
 			},
 			"Incendiary Aspect": {
 				"dungeon": "Tomb of the Saints",
 				"region": "Kehjistan",
 				"values": [
-					"5",
-					"10"
+					"5"
 				]
 			},
 			"Prodigy's Aspect": {
@@ -2009,15 +1645,12 @@ let codexValues = {
 			"Recharging Aspect": {
 				"dungeon": "Zenith",
 				"region": "Fractured Peaks",
-				"values": [
-					"4"
-				]
+				"values": []
 			},
 			"Aspect of Concentration": {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			}
@@ -2027,24 +1660,21 @@ let codexValues = {
 				"dungeon": "Komdor Temple",
 				"region": "Dry Steppes",
 				"values": [
-					"20",
-					"3"
+					""
 				]
 			},
 			"Charged Aspect": {
 				"dungeon": "Maddux Watch",
 				"region": "Scosglen",
 				"values": [
-					"10",
-					"4"
+					""
 				]
 			},
 			"Flamewalker's Aspect": {
 				"dungeon": "Cultist Refuge",
 				"region": "Fractured Peaks",
 				"values": [
-					"15",
-					"4"
+					""
 				]
 			}
 		},
