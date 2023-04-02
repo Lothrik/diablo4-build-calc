@@ -19,8 +19,8 @@ let codexValues = {
 				"dungeon": "Halls of the Damned",
 				"region": "Kehjistan",
 				"values": [
-					"0.25",
-					"4"
+					"4",
+					""
 				]
 			},
 			"Aspect of Might": {
@@ -34,7 +34,7 @@ let codexValues = {
 				"dungeon": "Caldera Gate",
 				"region": "Fractured Peaks",
 				"values": [
-					"8"
+					""
 				]
 			},
 			"Aspect of the Protector": {
@@ -258,7 +258,7 @@ let codexValues = {
 				"dungeon": "Forgotten Ruins",
 				"region": "Kehjistan",
 				"values": [
-					"2.0"
+					""
 				]
 			},
 			"Steadfast Berserker's Aspect": {

@@ -240,7 +240,7 @@ let codexData = {
 				"dungeon": "Forgotten Ruins",
 				"region": "Kehjistan",
 				"values": [
-					"2.0"
+					""
 				]
 			},
 			"Aspect of the Iron Warrior": {
@@ -1057,7 +1057,7 @@ let codexData = {
 				"dungeon": "Caldera Gate",
 				"region": "Fractured Peaks",
 				"values": [
-					"8"
+					""
 				]
 			},
 			"Aspect of Disobedience": {
@@ -1067,8 +1067,8 @@ let codexData = {
 				"dungeon": "Halls of the Damned",
 				"region": "Kehjistan",
 				"values": [
-					"0.25",
-					"4"
+					"4",
+					""
 				]
 			},
 			"Aspect of the Crowded Sage": {
