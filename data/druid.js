@@ -1632,41 +1632,41 @@ druidData["Spirit Boons"] = {
 			id: 142
 		},
 		"Gift of the Stag": {
-				description: `Gain +10 Maximum Spirit.`,
+			description: `Gain +10 Maximum Spirit.`,
 			id: 143
 		},
 		"Wariness": {
-				description: `Take 10.0% reduced damage from Elites.`,
+			description: `Take 10.0% reduced damage from Elites.`,
 			id: 144
 		},
 		"Advantageous Beast": {
-				description: `Reduce the duration of Control Impairing Effects by 15.0%.`,
+			description: `Reduce the duration of Control Impairing Effects by 15.0%.`,
 			id: 145
 		}
 	},
 	"Eagle": {
 		id: 159,
 		"Scythe Talons": {
-				description: `Gain +5.0% increased Critical Strike Chance.`,
+			description: `Gain +5.0% increased Critical Strike Chance.`,
 			id: 146
 		},
 		"Iron Feather": {
-				description: `Gain x10.0% Maximum Life.`,
+			description: `Gain x10.0% Maximum Life.`,
 			id: 147
 		},
 		"Swooping Attacks": {
-				description: `Gain +10.0% Attack Speed.`,
+			description: `Gain +10.0% Attack Speed.`,
 			id: 148
 		},
 		"Avian Wrath": {
-				description: `Gain x30.0% Critical Strike Damage.`,
+			description: `Gain x30.0% Critical Strike Damage.`,
 			id: 149
 		}
 	},
 	"Snake": {
 		id: 161,
 		"Obsidian Slam": {
-				description: `Every 10th kill will cause your next Earth Skill to Overpower.`,
+			description: `Every 10th kill will cause your next Earth Skill to Overpower.`,
 			id: 154
 		},
 		"Overload": {
@@ -1675,30 +1675,30 @@ druidData["Spirit Boons"] = {
 			id: 155
 		},
 		"Masochistic": {
-				description: `Critical Strikes with Shapeshifting Skills Heal you for 3.0% Maximum Life.`,
+			description: `Critical Strikes with Shapeshifting Skills Heal you for 3.0% Maximum Life.`,
 			id: 156
 		},
 		"Calm Before the Storm": {
-				description: `Lucky Hit: Nature Magic Skills have up to a 15% chance to reduce the Cooldown of your Ultimate Skill by 2 seconds.`,
+			description: `Lucky Hit: Nature Magic Skills have up to a 15% chance to reduce the Cooldown of your Ultimate Skill by 2 seconds.`,
 			id: 157
 		}
 	},
 	"Wolf": {
 		id: 160,
 		"Packleader": {
-				description: `Lucky Hit: Critical Strikes have up to a 20% chance to reset the Cooldowns of your Companion Skills.`,
+			description: `Lucky Hit: Critical Strikes have up to a 20% chance to reset the Cooldowns of your Companion Skills.`,
 			id: 150
 		},
 		"Energize": {
-				description: `Lucky Hit: Dealing damage has up to a 15.0% chance to restore 10 Spirit.`,
+			description: `Lucky Hit: Dealing damage has up to a 15.0% chance to restore 10 Spirit.`,
 			id: 151
 		},
 		"Bolster": {
-				description: `Fortify for 10.0% of your Maximum Life when you use a Defensive Skill.`,
+			description: `Fortify for 10.0% of your Maximum Life when you use a Defensive Skill.`,
 			id: 152
 		},
 		"Calamity": {
-				description: `Extend the duration of Ultimate Skills by 25.0%.`,
+			description: `Extend the duration of Ultimate Skills by 25.0%.`,
 			id: 153
 		}
 	}

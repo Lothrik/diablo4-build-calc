@@ -584,7 +584,8 @@ function runParser(downloadMode) {
 
 					formattedData += '\t\t"' + boonData["name"] + '": {\n';
 					const sanitizedDescription = sanitizeNodeDescription(boonData["desc"]);
-					formattedData += `\t${updateSavedValues(className, "Spirit Boons", boonData["name"], sanitizedDescription)}`;
+					const boonSavedValues = updateSavedValues(className, "Spirit Boons", boonData["name"], sanitizedDescription);
+					if (boonSavedValues.length > 0) formattedData += `\t${boonSavedValues}`;
 					formattedData += "\t\t\tdescription: `" + sanitizedDescription + "`,\n";
 					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonData["name"]];
 					if (nodeHistoricalId != undefined) {
