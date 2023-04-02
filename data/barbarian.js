@@ -429,7 +429,7 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 	},
 	"Whirlwind": {
 		connections: [ "Core", "Enhanced Whirlwind" ],
-		description: `Fury Cost: {#}
+		description: `Fury Cost: {#} per second
 Lucky Hit Chance: {#}%
 Rapidly attack surrounding enemies for {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage.
 

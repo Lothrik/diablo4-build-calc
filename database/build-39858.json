@@ -3662,7 +3662,7 @@
 						"Physical",
 						"Damage"
 					],
-					"skill_desc": "Fury Cost: {#}\nLucky Hit Chance: {#}%\nRapidly attack surrounding enemies for {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage.",
+					"skill_desc": "Fury Cost: {#} per second\nLucky Hit Chance: {#}%\nRapidly attack surrounding enemies for {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage.",
 					"skill_name": "Whirlwind",
 					"skill_rankup_desc": "•  Damage 🡑  {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}%"
 				},
@@ -16011,7 +16011,7 @@
 						"Damage",
 						"Lightning"
 					],
-					"skill_desc": "Spirit Cost: {#}\nLucky Hit Chance: {#}%\nConjure a growing lightning storm that deals {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.",
+					"skill_desc": "Spirit Cost: {#} per strike\nLucky Hit Chance: {#}%\nConjure a growing lightning storm that deals {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.",
 					"skill_name": "Lightning Storm",
 					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
@@ -45745,7 +45745,7 @@
 						"Burn",
 						"Mana"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nChannel a beam of fire, Burning enemies for dotdps:BURNING_DAMAGE damage per second. Damage per second increases over 4 seconds, up to dotdps:TOOLTIP_MAX_DAMAGE.",
+					"skill_desc": "Mana Cost: {#} per second\nLucky Hit Chance: {#}%\nChannel a beam of fire, Burning enemies for dotdps:BURNING_DAMAGE damage per second. Damage per second increases over 4 seconds, up to dotdps:TOOLTIP_MAX_DAMAGE.",
 					"skill_name": "Incinerate",
 					"skill_rankup_desc": "•  Burning Damage 🡑  dotdps:BURNING_DAMAGE\n•  Burning Damage Maximum 🡑  dotdps:TOOLTIP_MAX_DAMAGE"
 				},

@@ -473,7 +473,7 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 	},
 	"Lightning Storm": {
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
-		description: `Spirit Cost: {#}
+		description: `Spirit Cost: {#} per strike
 Lucky Hit Chance: {#}%
 Conjure a growing lightning storm that deals {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.
 
