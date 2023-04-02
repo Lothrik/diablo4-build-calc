@@ -47,7 +47,7 @@ sorcererData["Basic"] = {
 	"Frost Bolt": {
 		connections: [ "Basic", "Enhanced Frost Bolt" ],
 		description: `Lucky Hit Chance: {#}%
-Throw a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage and Chilling them for 15.0%.
+Throw a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage and Chilling them for 15%.
 
 Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.
 
@@ -252,18 +252,18 @@ Release {#} bolts of lightning that course along the ground in an erratic patter
 Tags: Core, Shock, Damage, Lightning, Mana.
 
 — Enchantment Effect —
-When you Stun an enemy, there's a {#}% chance to release {#} Charged Bolts from them.`,
+When you Stun an enemy, there's a {#}% chance to release 3 Charged Bolts from them.`,
 		id: 16,
 		maxPoints: 5,
 		values: [ "40", "25", "5" ],
-		extraValues: [ "40", "3" ],
+		extraValues: [ "40" ],
 		x: 133.995,
 		y: 322.79
 	},
 	"Enhanced Charged Bolts": {
 		baseSkill: "Charged Bolts",
 		connections: [ "Charged Bolts", "Greater Charged Bolts", "Destructive Charged Bolts" ],
-		description: `Hitting an enemy at least 3 times with same cast of Charged Bolts releases a lightning nova, dealing 15.0% damage to enemies around them.
+		description: `Hitting an enemy at least 3 times with same cast of Charged Bolts releases a lightning nova, dealing 15% damage to enemies around them.
 
 Tags: Core, Shock, Damage, Lightning, Mana.`,
 		id: 17,
@@ -297,7 +297,7 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 		connections: [ "Core", "Enhanced Frozen Orb" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Unleash an orb that Chills for 34.0% and expels piercing shards, dealing a total of {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% damage. Upon expiration, Frozen Orb explodes, dealing {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% damage and Chilling enemies for 8.7%.
+Unleash an orb that Chills for 34% and expels piercing shards, dealing a total of {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% damage. Upon expiration, Frozen Orb explodes, dealing {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% damage and Chilling enemies for 8.7%.
 
 Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.
 
@@ -352,11 +352,11 @@ Channel a beam of fire, Burning enemies for dotdps:BURNING_DAMAGE damage per sec
 Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.
 
 — Enchantment Effect —
-Every {#} seconds, a serpent spawns and Incinerates enemies for {#} seconds.`,
+Every {#} seconds, a serpent spawns and Incinerates enemies for 6 seconds.`,
 		id: 24,
 		maxPoints: 5,
 		values: [ "20", "40" ],
-		extraValues: [ "20", "6" ],
+		extraValues: [ "20" ],
 		x: 0.845,
 		y: -304.65
 	},
@@ -719,7 +719,7 @@ Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 	"Mystical Ice Armor": {
 		baseSkill: "Ice Armor",
 		connections: [ "Enhanced Ice Armor" ],
-		description: `Damage against Vulnerable enemies contributes 100.0% more to Ice Armor's Barrier.
+		description: `Damage against Vulnerable enemies contributes 100% more to Ice Armor's Barrier.
 
 Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 		id: 54,
@@ -811,11 +811,11 @@ Maximum {#} active Hydras at a time.
 Tags: Conjuration, Pyromancy, Damage, Fire, Mana.
 
 — Enchantment Effect —
-After spending {#} Mana, a {#}-headed Hydra spawns for {#} seconds.`,
+After spending {#} Mana, a 5-headed Hydra spawns for 5 seconds.`,
 		id: 61,
 		maxPoints: 5,
 		values: [ "20", "77", "3", "1" ],
-		extraValues: [ "300", "5", "5" ],
+		extraValues: [ "300" ],
 		x: 6.92,
 		y: -281.666
 	},
@@ -1059,16 +1059,16 @@ Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 		connections: [ "Mastery", "Enhanced Blizzard" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Summon a frigid blizzard that deals {#}% damage and continually Chills enemies for 18.0% over 8 seconds.
+Summon a frigid blizzard that deals {#}% damage and continually Chills enemies for 18% over 8 seconds.
 
 Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.
 
 — Enchantment Effect —
-Every {#} seconds, a Blizzard forms over you and follows you for {#} seconds.`,
+Every {#} seconds, a Blizzard forms over you and follows you for 6 seconds.`,
 		id: 82,
 		maxPoints: 5,
 		values: [ "40", "33", "120" ],
-		extraValues: [ "15", "4" ],
+		extraValues: [ "15" ],
 		x: 300.64,
 		y: -339.596
 	},
@@ -1125,7 +1125,7 @@ Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning.
 	"Enhanced Ball Lightning": {
 		baseSkill: "Ball Lightning",
 		connections: [ "Ball Lightning", "Wizard's Ball Lightning", "Mage's Ball Lightning" ],
-		description: `Ball Lightning's damage rate is increased by 200.0% of your Attack Speed Bonus.
+		description: `Ball Lightning's damage rate is increased by 200% of your Attack Speed Bonus.
 
 Tags: Mastery, Shock, Damage, Lightning, Mana.`,
 		id: 87,
@@ -1254,11 +1254,11 @@ Create a wall of flames that Burns enemies for {160/176/192/208/224/240/256/272/
 Tags: Mastery, Pyromancy, Damage, Burn, Mana.
 
 — Enchantment Effect —
-Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewalls underneath them for {#} seconds.`,
+Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewalls underneath them for 3 seconds.`,
 		id: 99,
 		maxPoints: 5,
 		values: [ "30", "40" ],
-		extraValues: [ "5", "3" ],
+		extraValues: [ "5" ],
 		x: 592.435,
 		y: 224.3
 	},
@@ -1302,7 +1302,7 @@ sorcererData["Ultimate"] = {
 		connections: [ "Ultimate", "Prime Inferno" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Summon a fiery serpent that continually constricts the target area, Burning enemies for 295.0% damage over 8 seconds.
+Summon a fiery serpent that continually constricts the target area, Burning enemies for 295% damage over 8 seconds.
 
 Tags: Ultimate, Pyromancy, Damage, Burn, Cooldown.`,
 		id: 103,
@@ -1371,7 +1371,7 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 		connections: [ "Prime Deep Freeze", "Ultimate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Encase yourself in ice, becoming Immune for 4 seconds, continually dealing 50.0% damage, and Chilling enemies for 20.0%. When Deep Freeze expires, it deals an additional 100.0% damage.
+Encase yourself in ice, becoming Immune for 4 seconds, continually dealing 12.5% damage, and Chilling enemies for 20%. When Deep Freeze expires, it deals an additional 100% damage.
 
 Casting Deep Freeze again ends the effect early.
 
@@ -1426,7 +1426,7 @@ Tags: Chill, Frozen, Damage, Crowd Control.`,
 	},
 	"Frigid Breeze": {
 		connections: [ "Hoarfrost", "Icy Touch" ],
-		description: `Lucky Hit: Cold Damage against Vulnerable enemies has a 20.0% chance to generate {5/10/15/20/25/30/35/40/45/50} Mana.
+		description: `Lucky Hit: Cold Damage against Vulnerable enemies has a 20% chance to generate {5/10/15/20/25/30/35/40/45/50} Mana.
 
 Tags: Vulnerable, Cold, Lucky Hit, Mana.`,
 		id: 137,

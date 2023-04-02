@@ -50,7 +50,7 @@ druidData["Trunk Data"] = {
 druidData["Basic"] = {
 	"Earth Spike": {
 		connections: [ "Basic", "Enhanced Earth Spike" ],
-		description: `Cooldown: 0.0 seconds
+		description: `Cooldown: 0 seconds
 Generate Spirit: 8
 Lucky Hit Chance: {#}%
 Sunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.
@@ -611,7 +611,7 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 	"Innate Earthen Bulwark": {
 		baseSkill: "Earthen Bulwark",
 		connections: [ "Enhanced Earthen Bulwark" ],
-		description: `Rock shrapnel flies outward when Earthen Bulwark is destroyed or expires, dealing 30.0% to surrounding enemies. This damage is increased by Barrier bonuses.
+		description: `Rock shrapnel flies outward when Earthen Bulwark is destroyed or expires, dealing 30% to surrounding enemies. This damage is increased by Barrier bonuses.
 
 Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 		id: 45,
@@ -853,7 +853,7 @@ Tags: Companion, Damage.`,
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#}% Poisoning damage over {#} seconds to an enemy in the area.
+Passive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#} Poisoning damage over {#} seconds to an enemy in the area.
 
 Active: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.
 
@@ -937,7 +937,7 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 	"Ferocious Wolf Pack": {
 		baseSkill: "Wolves",
 		connections: [ "Enhanced Wolf Pack" ],
-		description: `Lucky Hit: Your Wolves' attacks have up to a 10.0% chance to Fortify you for 5.0% Base Life.
+		description: `Lucky Hit: Your Wolves' attacks have up to a 10% chance to Fortify you for 5.0% Base Life.
 
 Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 73,
@@ -980,7 +980,7 @@ Tags: Vulnerable, Lucky Hit, Storm, Nature Magic.`,
 	},
 	"Charged Atmosphere": {
 		connections: [ "Elemental Exposure", "Electric Shock", "Bad Omen" ],
-		description: `Every {18/15/12/9/6/3/0/-3/-6/-9} seconds, a lightning strike hits a Nearby enemy dealing 45.0% damage.
+		description: `Every {18/15/12/9/6/3/0/-3/-6/-9} seconds, a lightning strike hits a Nearby enemy dealing 45% damage.
 
 Tags: Storm, Nature Magic, Damage, Lightning.`,
 		id: 81,
@@ -1002,7 +1002,7 @@ Tags: Crowd Control, Lightning, Lucky Hit, Damage.`,
 	},
 	"Bad Omen": {
 		connections: [ "Charged Atmosphere", "Electric Shock", "Endless Tempest" ],
-		description: `Lucky Hit: Up to a {10/20/30/40/50/60/70/80/90/100}% chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a lightning strike also hits dealing 55.0% damage.
+		description: `Lucky Hit: Up to a {10/20/30/40/50/60/70/80/90/100}% chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a lightning strike also hits dealing 55% damage.
 
 Tags: Vulnerable, Lightning, Damage, Nature Magic, Storm, Lucky Hit, Crowd Control.`,
 		id: 83,
@@ -1149,7 +1149,7 @@ Tags: Fortify, Damage, Life, Earth, Nature Magic.`,
 		connections: [ "Wrath", "Enhanced Hurricane" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Form a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8.0 seconds.
+Form a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8 seconds.
 
 Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 99,
@@ -1195,7 +1195,7 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		connections: [ "Wrath", "Enhanced Rabies" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Shapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and applying an additional {#}% Poisoning damage over {#} seconds.
+Shapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and applying an additional {#} Poisoning damage over {#} seconds.
 
 Infected enemies spread Rabies to other surrounding targets.
 
@@ -1220,7 +1220,7 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 	"Natural Rabies": {
 		baseSkill: "Rabies",
 		connections: [ "Enhanced Rabies" ],
-		description: `Rabies spreads 100.0% faster.
+		description: `Rabies spreads 100% faster.
 
 Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 		id: 105,
@@ -1295,7 +1295,7 @@ druidData["Ultimate"] = {
 	"Grizzly Rage": {
 		connections: [ "Ultimate", "Prime Grizzly Rage" ],
 		description: `Cooldown: {#} seconds
-Shapeshift into a Dire Werebear for 10.0 seconds gaining x20.0% bonus damage and 20.0% Damage Reduction. Damage bonus is increased by 3.0% each second while in this form.
+Shapeshift into a Dire Werebear for 10 seconds gaining x20.0% bonus damage and 20.0% Damage Reduction. Damage bonus is increased by 3.0% each second while in this form.
 
 Kills extend the duration by 1 second up to 10 additional seconds.
 
@@ -1438,7 +1438,7 @@ Tags: Damage Reduction, Shapeshifting, Elite Monsters, Werebear, Werewolf.`,
 		connections: [ "Ultimate", "Prime Lacerate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Shapeshift into a Werewolf, become Immune and quickly dash 10.0 times between enemies in the area dealing up to 400.0% damage.
+Shapeshift into a Werewolf, become Immune and quickly dash 10 times between enemies in the area dealing up to 400% damage.
 
 Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Damage Reduction.`,
 		id: 120,
@@ -1473,7 +1473,7 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 		connections: [ "Ultimate", "Prime Cataclysm" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and lightning strikes wildly dealing 52.0% damage.
+A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and lightning strikes wildly dealing 52% damage.
 
 Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.`,
 		id: 123,
@@ -1632,49 +1632,41 @@ druidData["Spirit Boons"] = {
 			id: 142
 		},
 		"Gift of the Stag": {
-			values: [ "10" ],
-			description: `Gain +{#} Maximum Spirit.`,
+				description: `Gain +10 Maximum Spirit.`,
 			id: 143
 		},
 		"Wariness": {
-			values: [ "10" ],
-			description: `Take {#}% reduced damage from Elites.`,
+				description: `Take 10.0% reduced damage from Elites.`,
 			id: 144
 		},
 		"Advantageous Beast": {
-			values: [ "15" ],
-			description: `Reduce the duration of Control Impairing Effects by {#}%.`,
+				description: `Reduce the duration of Control Impairing Effects by 15.0%.`,
 			id: 145
 		}
 	},
 	"Eagle": {
 		id: 159,
 		"Scythe Talons": {
-			values: [ "5" ],
-			description: `Gain +{#}% increased Critical Strike Chance.`,
+				description: `Gain +5.0% increased Critical Strike Chance.`,
 			id: 146
 		},
 		"Iron Feather": {
-			values: [ "10" ],
-			description: `Gain x{#}% Maximum Life.`,
+				description: `Gain x10.0% Maximum Life.`,
 			id: 147
 		},
 		"Swooping Attacks": {
-			values: [ "10" ],
-			description: `Gain +{#}% Attack Speed.`,
+				description: `Gain +10.0% Attack Speed.`,
 			id: 148
 		},
 		"Avian Wrath": {
-			values: [ "30" ],
-			description: `Gain x{#}% Critical Strike Damage.`,
+				description: `Gain x30.0% Critical Strike Damage.`,
 			id: 149
 		}
 	},
 	"Snake": {
 		id: 161,
 		"Obsidian Slam": {
-			values: [ "10th" ],
-			description: `Every {#} kill will cause your next Earth Skill to Overpower.`,
+				description: `Every 10th kill will cause your next Earth Skill to Overpower.`,
 			id: 154
 		},
 		"Overload": {
@@ -1683,36 +1675,30 @@ druidData["Spirit Boons"] = {
 			id: 155
 		},
 		"Masochistic": {
-			values: [ "3" ],
-			description: `Critical Strikes with Shapeshifting Skills Heal you for {#}% Maximum Life.`,
+				description: `Critical Strikes with Shapeshifting Skills Heal you for 3.0% Maximum Life.`,
 			id: 156
 		},
 		"Calm Before the Storm": {
-			values: [ "15", "2" ],
-			description: `Lucky Hit: Nature Magic Skills have up to a {#}% chance to reduce the Cooldown of your Ultimate Skill by {#} seconds.`,
+				description: `Lucky Hit: Nature Magic Skills have up to a 15% chance to reduce the Cooldown of your Ultimate Skill by 2 seconds.`,
 			id: 157
 		}
 	},
 	"Wolf": {
 		id: 160,
 		"Packleader": {
-			values: [ "20" ],
-			description: `Lucky Hit: Critical Strikes have up to a {#}% chance to reset the Cooldowns of your Companion Skills.`,
+				description: `Lucky Hit: Critical Strikes have up to a 20% chance to reset the Cooldowns of your Companion Skills.`,
 			id: 150
 		},
 		"Energize": {
-			values: [ "15", "10" ],
-			description: `Lucky Hit: Dealing damage has up to a {#}% chance to restore {#} Spirit.`,
+				description: `Lucky Hit: Dealing damage has up to a 15.0% chance to restore 10 Spirit.`,
 			id: 151
 		},
 		"Bolster": {
-			values: [ "10" ],
-			description: `Fortify for {#}% of your Maximum Life when you use a Defensive Skill.`,
+				description: `Fortify for 10.0% of your Maximum Life when you use a Defensive Skill.`,
 			id: 152
 		},
 		"Calamity": {
-			values: [ "25" ],
-			description: `Extend the duration of Ultimate Skills by {#}%.`,
+				description: `Extend the duration of Ultimate Skills by 25.0%.`,
 			id: 153
 		}
 	}

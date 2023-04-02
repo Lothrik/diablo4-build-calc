@@ -309,7 +309,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 	"Advanced Twisting Blades": {
 		baseSkill: "Twisting Blades",
 		connections: [ "Enhanced Twisting Blades" ],
-		description: `When your Twisting Blades return, your active Cooldowns are reduced by 1 second per enemy they passed through, up to 3.0 seconds.
+		description: `When your Twisting Blades return, your active Cooldowns are reduced by 1 second per enemy they passed through, up to 3 seconds.
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		id: 22,
@@ -386,9 +386,9 @@ Lucky Hit Chance: {#}%
 Fire an arrow that pierces through all enemies in a line, dealing {70/77/84/91/98/105/112/119/126/133}% damage.
 
 Combo Points increase damage and improve Lucky Hit Chance:
-•  1 Point: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% damage, +10.0% chance
-•  2 Points: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% damage, +20.0% chance
-•  3 Points: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% damage, +30.0% chance
+•  1 Point: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% damage, +10% chance
+•  2 Points: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% damage, +20% chance
+•  3 Points: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% damage, +30% chance
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 28,
@@ -437,9 +437,9 @@ Lucky Hit Chance: {#}%
 Rapidly fire 5 arrows, each dealing {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% damage.
 
 Combo Points increase damage and arrows fired:
-•  1 Point: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% damage, 6.0 arrows
-•  2 Points: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% damage, 7.0 arrows
-•  3 Points: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% damage, 8.0 arrows
+•  1 Point: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% damage, 6 arrows
+•  2 Points: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% damage, 7 arrows
+•  3 Points: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% damage, 8 arrows
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 32,
@@ -451,7 +451,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 	"Enhanced Rapid Fire": {
 		baseSkill: "Rapid Fire",
 		connections: [ "Rapid Fire", "Advanced Rapid Fire", "Improved Rapid Fire" ],
-		description: `Each subsequent arrow from Rapid Fire has +5.0% increased Critical Strike Chance, up to +40.0% for the 8.0th arrow.
+		description: `Each subsequent arrow from Rapid Fire has +5.0% increased Critical Strike Chance, up to +40.0% for the 8th arrow.
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 33,
@@ -488,9 +488,9 @@ Lucky Hit Chance: {#}%
 Unleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20.0% chance to ricochet off an enemy up to 1 time. Ricochets deal 40.0% of the arrow's Base damage.
 
 Combo Points increase damage and arrows fired:
-•  1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6.0 arrows
-•  2 Points: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7.0 arrows
-•  3 Points: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8.0 arrows
+•  1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows
+•  2 Points: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows
+•  3 Points: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 36,
@@ -554,7 +554,7 @@ Tags: Critical Strikes, Healing.`,
 	},
 	"Stutter Step": {
 		connections: [ "Core" ],
-		description: `Critically Striking an enemy grants +{5/10/15/20/25/30/35/40/45/50}% Movement Speed for 4 seconds.
+		description: `Critically Striking an enemy grants +{5/10/15/20/25/30/35/40/45/50}% Movement Speed for 4.0 seconds.
 
 Tags: Critical Strikes, Movement.`,
 		id: 42,
@@ -811,7 +811,7 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 	"Countering Smoke Grenade": {
 		baseSkill: "Smoke Grenade",
 		connections: [ "Enhanced Smoke Grenade" ],
-		description: `Lucky Hit: Dealing direct damage to enemies affected by Smoke Grenade has up to a 25% chance to reduce its Cooldown by 1 second, or by 2.0 seconds instead if the enemy is Vulnerable.
+		description: `Lucky Hit: Dealing direct damage to enemies affected by Smoke Grenade has up to a 25% chance to reduce its Cooldown by 1 second, or by 2 seconds instead if the enemy is Vulnerable.
 
 Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 		id: 126,
@@ -942,7 +942,7 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 	"Countering Dark Shroud": {
 		baseSkill: "Dark Shroud",
 		connections: [ "Enhanced Dark Shroud" ],
-		description: `While you have at least 2.0 active shadows from Dark Shroud, gain +10.0% Critical Strike Chance.
+		description: `While you have at least 2 active shadows from Dark Shroud, gain +10.0% Critical Strike Chance.
 
 Tags: Subterfuge, Damage Reduction, Cooldown.`,
 		id: 62,
@@ -1185,7 +1185,7 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 	"Blended Cold Imbuement": {
 		baseSkill: "Cold Imbuement",
 		connections: [ "Enhanced Cold Imbuement" ],
-		description: `Lucky Hit: Critical Strikes with Cold Imbued Skills have up to a 20.0% chance to instantly Freeze enemies for 3 seconds.
+		description: `Lucky Hit: Critical Strikes with Cold Imbued Skills have up to a 20% chance to instantly Freeze enemies for 3 seconds.
 
 Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 		id: 139,
@@ -1305,7 +1305,7 @@ Tags: Energy, Ultimate.`,
 		connections: [ "Prime Death Trap", "Ultimate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing a total of 250.0% damage to each enemy in the area.
+Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing a total of 250% damage to each enemy in the area.
 
 Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 		id: 108,
@@ -1350,7 +1350,7 @@ Tags: Vulnerable, Crowd Control, Critical Strikes, Trap.`,
 		connections: [ "Prime Rain of Arrows", "Ultimate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Arrows rain down over a large area 2 times, each wave dealing 100.0% damage.
+Arrows rain down over a large area 2 times, each wave dealing 100% damage.
 
 Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 		id: 112,
@@ -1457,7 +1457,7 @@ Tags: Vulnerable, Damage, Physical, Lucky Hit.`,
 		connections: [ "Capstone" ],
 		description: `Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a 25% chance to:
 •  Reduce the active Cooldowns of your Trap Skills by 20.0%
-•  Drop a cluster of exploding Stun Grenades that deal 40.0% total Physical damage and Stun enemies for 0.5 seconds.
+•  Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds.
 
 Tags: Trap, Grenade, Damage, Physical, Cooldown, Crowd Control, Lucky Hit.`,
 		id: 121,

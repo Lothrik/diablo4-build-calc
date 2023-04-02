@@ -95,6 +95,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(9, 0.22, 0.40)"
 				],
+				"affix_static_values": [
+					5.0
+				],
 				"category": 0,
 				"desc": "Whenever you deal direct damage while {c_important}Berserking{/c}, inflict {c_random}[Affix_Value_1*100|%|]{/c} of the base damage dealt as additional Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Berserk Ripping",
@@ -141,6 +144,9 @@
 			"legendary_barb_005": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 10, 20)"
+				],
+				"affix_static_values": [
+					5.0
 				],
 				"category": 1,
 				"desc": "Gain {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c} Damage Reduction for each Nearby Bleeding enemy up to {c_random}[Affix_Value_1|%|]{/c} maximum.",
@@ -226,6 +232,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 40, 50)"
 				],
+				"affix_static_values": [
+					5.0
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging enemies with {c_important}Leap{/c}, {c_important}Upheaval{/c}, or {c_important}Whirlwind{/c} has up to a {c_random}[Affix_Value_1|%|]{/c} chance to summon an Ancient to perform the same Skill. Can only happen once every {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Ancestral Echoes",
@@ -237,6 +246,9 @@
 			"legendary_barb_015": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(3, 0.007, 0.01)"
+				],
+				"affix_static_values": [
+					2.0
 				],
 				"category": 5,
 				"desc": "Skills using this weapon deal {c_random}x[Affix_Value_1*100|1%|]{/c} increased damage per point of Fury you have, but you lose {c_number}[Affix.\"Static Value 0\"]{/c} Fury every second.",
@@ -262,6 +274,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 1.0, 1.3)"
 				],
+				"affix_static_values": [
+					2.0
+				],
 				"category": 0,
 				"desc": "Enemies damaged by {c_important}Kick{/c} or {c_important}Charge{/c} will explode if they are killed within the next {c_number}[Affix.\"Static Value 0\"]{/c} seconds, dealing {c_random}[Affix_Flat_Value_1]{/c} damage to surrounding enemies.",
 				"name": "Brawler's",
@@ -282,6 +297,9 @@
 			"legendary_barb_020": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(9, 82, 100)"
+				],
+				"affix_static_values": [
+					100.0
 				],
 				"category": 0,
 				"desc": "After spending {c_number}[Affix.\"Static Value 0\"]{/c} Fury, your next {c_important}Weapon Mastery{/c} Skill deals {c_random}x[Affix_Value_1|%|]{/c} increased damage.",
@@ -348,6 +366,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(9, 0.16, 0.25)"
 				],
+				"affix_static_values": [
+					1.5
+				],
 				"category": 0,
 				"desc": "Casting {c_important}Double Swing{/c} twice within {c_number}[Affix.\"Static Value 0\"]{/c} seconds creates a {c_important}Dust Devil{/c} that deals {c_random}[Affix_Flat_Value_1]{/c} damage to enemies behind the target.",
 				"name": "Windlasher"
@@ -402,6 +423,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(9, 27, 54)/10"
 				],
+				"affix_static_values": [
+					12.0
+				],
 				"category": 3,
 				"desc": "Whenever you cast a {c_important}Shout{/c} Skill, its Cooldown is reduced by {c_random}[Affix_Value_1|1|]{/c} seconds per Nearby enemy, up to a maximum of {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Bold Chieftain's",
@@ -432,6 +456,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(9, 31, 40)"
 				],
+				"affix_static_values": [
+					2.0
+				],
 				"category": 2,
 				"desc": "{c_gold}Lucky Hit:{/c} Direct damage against Bleeding enemies has up to a {c_random}[Affix_Value_1|%|]{/c} chance to Stun them for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Anemia",
@@ -443,6 +470,9 @@
 			"legendary_barb_103": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 50)"
+				],
+				"affix_static_values": [
+					20.0
 				],
 				"category": 3,
 				"desc": "{c_gold}Lucky Hit:{/c} You have up to a {c_random}[Affix_Value_1|%|]{/c} chance to gain {c_number}[Affix.\"Static Value 0\"]{/c} Fury when {c_important}Rend{/c} deals direct damage to at least one Bleeding enemy.",
@@ -457,6 +487,9 @@
 					"FloatRandomRangeWithInterval(10, 20, 40)",
 					4
 				],
+				"affix_static_values": [
+					6.0
+				],
 				"category": 0,
 				"desc": "After swapping weapons {c_number}[Affix.\"Static Value 0\"]{/c} times, gain {c_random}+[Affix_Value_1|%|]{/c} increased Attack Speed for {c_number}[Affix_Value_2]{/c} seconds.",
 				"name": "Windstriker's",
@@ -469,6 +502,9 @@
 			"legendary_barb_105": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(9, 0.11, 0.20)"
+				],
+				"affix_static_values": [
+					6.0
 				],
 				"category": 1,
 				"desc": "After swapping weapons {c_number}[Affix.\"Static Value 0\"]{/c} times, gain {c_random}[Affix_Flat_Value_1]{/c} {c_important}Fortify{/c}.",
@@ -489,6 +525,10 @@
 			"legendary_barb_107": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(8, 16, 32)"
+				],
+				"affix_static_values": [
+					40.0,
+					2.0
 				],
 				"category": 3,
 				"desc": "Killing an enemy while {c_important}Berserking{/c} has a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to grant {c_random}[Affix_Value_1|%|]{/c} increased Cooldown Reduction to your {c_important}Brawling{/c} Skills for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
@@ -737,15 +777,6 @@
 			"Barbarian_Legendary_002": {
 				"desc": "Enemies that have been affected by your Bleeding for {c_number}[{SF_0}]{/c} or more seconds take {c_number}x[{SF_1}*100|%|]{/c} increased Bleeding damage from you.",
 				"name": "Hemorrhage",
-				"power_buffdurations": {
-					"714062320": "SF_0",
-					"844134919": 1,
-					"3755413535": 1
-				},
-				"power_formulas": [
-					3,
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Skill_Bleed"
 				]
@@ -756,13 +787,6 @@
 			"Barbarian_Legendary_004": {
 				"desc": "Killing a Bleeding target has {c_number}[{SF_0}*100|%|]{/c} chance to grant {c_important}Berserking{/c} for {c_number}{SF_1}{/c} seconds.",
 				"name": "Blood Rage",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
-					5
-				],
 				"tags": [
 					"Search_Bleed",
 					"Keyword_Berserk"
@@ -771,12 +795,6 @@
 			"Barbarian_Legendary_005": {
 				"desc": "Increases the power of your {c_important}Shout{/c} skills by {c_number}[{SF_0}*100|%|]{/c}.",
 				"name": "Natural Leader",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					0.35
-				],
 				"tags": [
 					"Skill_Shout"
 				]
@@ -793,15 +811,6 @@
 			"Barbarian_Legendary_009": {
 				"desc": "While {c_important}Berserking{/c}, critical strikes increase your attack speed by {c_number}[{SF_0}*100|%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|%|]{/c}, for {c_number}[{SF_2}]{/c} seconds.",
 				"name": "Carnage",
-				"power_buffdurations": {
-					"215548500": "SF_2",
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1/SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
-					5,
-					6
-				],
 				"tags": [
 					"Keyword_Berserk",
 					"Search_Critical",
@@ -814,16 +823,6 @@
 			"Barbarian_Legendary_011": {
 				"desc": "For every {c_number}[{SF_0}]{/c} Fury you spend, gain {c_number}[{SF_1}*100|%|]{/c} of your Maximum Life {c_number}([{SF_1} * PlayerHealthMax()]){/c} as {c_important}Fortify{/c}.",
 				"name": "War Bringer",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					75,
-					"(4/3) * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
-				"power_payloads": {
-					"2082311236": 0
-				},
 				"tags": [
 					"Search_ResourceFury",
 					"Keyword_Fortify"
@@ -838,16 +837,6 @@
 			"Barbarian_Legendary_014": {
 				"desc": "{c_label}Lucky Hit:{/c} Two-Handed Slashing Weapon attacks have up to a {c_number}[{SF_0}*100|%|]{/c} chance to make enemies {c_important}Vulnerable{/c} for {c_number}{SF_1}{/c} seconds.",
 				"name": "Decimator",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
-					2
-				],
-				"power_payloads": {
-					"908847786": 0
-				},
 				"tags": [
 					"Keyword_Vulnerable"
 				]
@@ -855,19 +844,6 @@
 			"Barbarian_Legendary_015": {
 				"desc": "{c_important}Overpowers{/c} with your Two-Handed Bludgeoning Weapon Stun enemies for {c_number}{buffduration:STUN}{/c} |4second:seconds; and grant you {c_number}[{SF_1} * 100|%|]{/c} of your Maximum Life {c_number}([{SF_1} * PlayerHealthMax()]){/c} as {c_important}Fortify{/c_important}.",
 				"name": "Bone Breaker",
-				"power_buffdurations": {
-					"4263050": "SF_0",
-					"844134919": 1,
-					"1448379761": 1,
-					"2757543861": 1
-				},
-				"power_formulas": [
-					1,
-					"(5/3) * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
-				"power_payloads": {
-					"2082311236": 0
-				},
 				"tags": [
 					"Keyword_Overpower",
 					"Search_CrowdControl",
@@ -876,29 +852,11 @@
 			},
 			"Barbarian_Legendary_016": {
 				"desc": "Damaging enemies with One-Handed Weapons increases your damage by {c_number}x[{SF_0}*100|%|]{/c} for {c_number}{SF_2}{/c} seconds, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}. This can only happen once per Skill cast, or twice per second while channeling {c_important}Whirlwind{/c}.",
-				"name": "Precision Striker",
-				"power_buffdurations": {
-					"844134919": 1,
-					"2757543861": 1,
-					"3570702661": "SF_2",
-					"3851203656": "SF_3"
-				},
-				"power_formulas": [
-					"(1/SF_1) * ParagonPowerBudgetMultiplierNodeLegendary()",
-					5,
-					2,
-					0.5
-				]
+				"name": "Precision Striker"
 			},
 			"Barbarian_Legendary_017": {
 				"desc": "Swapping weapons reduces your active, non-{c_important}Ultimate{/c} skill cooldowns by {c_number}[{SF_0|2|}]{/c} seconds.",
 				"name": "Weapons Expert",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"2 * 1/1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
-				],
 				"tags": [
 					"Search_Cooldown"
 				]
@@ -8413,6 +8371,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 0.20, 0.36)"
 				],
+				"affix_static_values": [
+					100.0
+				],
 				"affixes": [
 					"INHERENT_CritDamage",
 					"1HSword_Unique_Barb_100",
@@ -8432,6 +8393,9 @@
 			"2HAxe_Unique_Barb_001": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 0.55, 0.65)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"affixes": [
 					"INHERENT_Damage_to_HighLife",
@@ -8453,6 +8417,9 @@
 			"2HMace_Unique_Barb_001": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(5, 0.35, 0.50)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"affixes": [
 					"INHERENT_OverpowerDamage",
@@ -8490,6 +8457,9 @@
 				],
 				"affix_formulas": [
 					10
+				],
+				"affix_static_values": [
+					6.0
 				],
 				"affixes": [
 					"INHERENT_CritDamage",
@@ -8655,6 +8625,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 25, 50)"
 				],
+				"affix_static_values": [
+					5.0
+				],
 				"category": 2,
 				"desc": "Damage from {c_important}Earth{/c} skills Slow enemies hit by {c_number}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Quicksand",
@@ -8692,6 +8665,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 10, 20)"
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance when dealing Lightning damage to overload the target for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, causing any direct damage you deal to them to pulse {c_number}[Affix_Flat_Value_1]{/c} additional damage to surrounding enemies.",
 				"name": "Overcharged",
@@ -8706,6 +8682,9 @@
 			"legendary_druid_029": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 45)"
+				],
+				"affix_static_values": [
+					4.0
 				],
 				"category": 0,
 				"desc": "Casting a {c_important}Storm{/c} Skill grants your {c_important}Earth{/c} Skills {c_random}x[Affix_Value_1|1%|]{/c} Critical Strike Damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.\n\nCasting a {c_important}Earth{/c} Skill increases the Critical Strike Chance of {c_important}Storm{/c} Skills by {c_random}[Affix_Value_1 /3.75|1%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -8769,6 +8748,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				],
+				"affix_static_values": [
+					10.0
+				],
 				"category": 3,
 				"desc": "{c_gold}Lucky Hit:{/c} {c_important}Storm skills{/c} have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}[Affix.\"Static Value 0\"]{/c} Spirit.\n\nYour base {c_important}Storm{/c} Skills are now also {c_important}Werewolf{/c} Skills",
 				"name": "Storm Beast's",
@@ -8808,6 +8790,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(6, 6, 12)"
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"category": 0,
 				"desc": "Landslide strikes an additional {c_number}3{/c} times and deals an additional {c_random}[Affix_Value_1|%|]{/c} bonus damage per strike.",
 				"name": "of The Aftershock"
@@ -8815,6 +8800,9 @@
 			"legendary_druid_066": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 0.35, 0.50)"
+				],
+				"affix_static_values": [
+					2.0
 				],
 				"category": 0,
 				"desc": "{c_important}Pulverize{/c} is now also an {c_important}Earth{/c} skill. After casting {c_important}Pulverize{/c}, tectonic spikes continue to deal {c_random}[Affix_Flat_Value_1]{/c} damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -8853,6 +8841,9 @@
 			"legendary_druid_077": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 5, 10)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"category": 0,
 				"desc": "{c_important}Blood Howl{/c} increases Critical Strike Chance by {c_random}[Affix_Value_1|1%|]{/c}. In addition, {c_important}Blood Howl{/c} also affects Nearby Companions and Players for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -8971,6 +8962,9 @@
 			"legendary_druid_114": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
+				],
+				"affix_static_values": [
+					100.0
 				],
 				"category": 1,
 				"desc": "Gain {c_random}[Affix_Value_1|%|]{/c} bonus amount to your next {c_important}Earthen Bulwark{/c} for each enemy you Crowd Control up to a maximum of {c_number}[Affix.\"Static Value 0\"|%|]{/c}.",
@@ -9221,12 +9215,6 @@
 			"Druid_Legendary_003": {
 				"desc": "{c_important}Storm{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased Critical Strike damage against {c_important}Vulnerable{/c} or {c_important}Immobilized{/c} targets.",
 				"name": "Thunderstruck",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"2 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Skill_Nature_Magic_Storm",
 					"Keyword_Vulnerable"
@@ -9241,12 +9229,6 @@
 			"Druid_Legendary_006": {
 				"desc": "Your {c_important}Earth{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to targets afflicted by movement impairing effects.",
 				"name": "Earthen Cruelty",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					0.3
-				],
 				"tags": [
 					"Skill_Nature_Magic_Earth",
 					"Search_CrowdControl"
@@ -9255,14 +9237,6 @@
 			"Druid_Legendary_007": {
 				"desc": "While in Werebear form, you deal {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_1}*100|%|]{/c}, for every {c_number}[{SF_2}*100|%|]{/c} difference in current Life % between you and the target.",
 				"name": "Cornered",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					0.01,
-					0.5,
-					0.01
-				],
 				"tags": [
 					"Skill_Bear",
 					"Search_Life"
@@ -9277,12 +9251,6 @@
 			"Druid_Legendary_010": {
 				"desc": "Critical Strikes with {c_important}Werewolf{/c} skills restore {c_number}{SF_0}{/c} Spirit.",
 				"name": "Lust for Carnage",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"(2 / 0.15) * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Skill_Wolf",
 					"Search_Critical",
@@ -9295,16 +9263,6 @@
 			"Druid_Legendary_012": {
 				"desc": "While there are {c_number}{SF_0}{/c} or more poisoned enemies Nearby, you deal {c_number}x[{SF_1}*100|%|]{/c} increased damage.",
 				"name": "Heightened Malice",
-				"power_buffdurations": {
-					"844134919": 1,
-					"1297184999": 1
-				},
-				"power_formulas": [
-					3,
-					0.45,
-					0.25,
-					8
-				],
 				"tags": [
 					"Search_Poison"
 				]
@@ -9312,15 +9270,6 @@
 			"Druid_Legendary_013": {
 				"desc": "After shapeshifting, your Spirit costs are reduced by {c_number}[{SF_0}*100|%|]{/c} for {c_number}{SF_2}{/c} seconds, up to {c_number}[{SF_0}*100*{SF_1}|%|]{/c}.",
 				"name": "Polymorphic",
-				"power_buffdurations": {
-					"844134919": 1,
-					"2318514933": "SF_2"
-				},
-				"power_formulas": [
-					"(2/SF_1) * ParagonPowerBudgetMultiplierNodeLegendary()",
-					3,
-					5
-				],
 				"tags": [
 					"Skill_Shapeshifting",
 					"Search_ResourceSpirit"
@@ -9338,17 +9287,6 @@
 			"Druid_Legendary_017": {
 				"desc": "{c_label}Lucky Hit:{/c} {c_important}Nature Magic{/c} skills have up to a {c_number}[{SF_0}|%|]{/c} chance to entangle the target with vines, Immobilizing them for {c_number}[{SF_1}]{/c} seconds and poisoning them for {c_number}[{SF_2}*100|%|]{/c} of the base damage dealt over {c_number}[SF_3]{/c} seconds.",
 				"name": "Roots of Nature",
-				"power_buffdurations": {
-					"223736344": "SF_3",
-					"639386033": "SF_1",
-					"844134919": 1
-				},
-				"power_formulas": [
-					15,
-					2,
-					"8 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					4
-				],
 				"tags": [
 					"Skill_Nature_Magic",
 					"Search_Poison",
@@ -9358,16 +9296,6 @@
 			"Druid_Legendary_018": {
 				"desc": "After spending {c_number}{SF_0}{/c} Spirit, you deal {c_number}x[{SF_1}*100|%|]{/c} increased damage for {c_number}{SF_2}{/c} seconds.",
 				"name": "Spiritual Guidance",
-				"power_buffdurations": {
-					"120333031": "SF_2",
-					"844134919": 1,
-					"3725709350": 1
-				},
-				"power_formulas": [
-					75,
-					0.3,
-					5
-				],
 				"tags": [
 					"Search_ResourceSpirit"
 				]
@@ -17685,6 +17613,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				],
+				"affix_static_values": [
+					10.0
+				],
 				"affixes": [
 					"INHERENT_Damage_to_HighLife",
 					"1HAxe_Unique_Druid_001",
@@ -17701,6 +17632,9 @@
 			"1HMace_Unique_Druid_001": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 0.5, 0.6)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"affixes": [
 					"INHERENT_OverpowerDamage",
@@ -18564,6 +18498,9 @@
 				"affix_formulas": [
 					"Round(FloatRandomRangeWithInterval(10, 10, 20))"
 				],
+				"affix_static_values": [
+					20.0
+				],
 				"category": 3,
 				"desc": "Gain {c_random}[Affix_Value_1]{/c} resource for every {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life healed.",
 				"name": "Starlight",
@@ -18575,6 +18512,9 @@
 			"legendary_generic_009": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(8, 4, 8)"
+				],
+				"affix_static_values": [
+					25.0
 				],
 				"category": 1,
 				"desc": "{c_important}Basic{/c} skills grant {c_number}[Affix.\"Static Value 0\"|%|]{/c} damage reduction for {c_random}[Affix_Value_1|1|]{/c} seconds.",
@@ -18603,6 +18543,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 3, 10)"
 				],
+				"affix_static_values": [
+					30.0
+				],
 				"category": 0,
 				"desc": "Deal {c_random}x[Affix_Value_1|1%|]{/c} increased damage for each second you stand still, up to {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "of Inner Calm",
@@ -18614,6 +18557,9 @@
 			"legendary_generic_016": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(8, 8, 16)"
+				],
+				"affix_static_values": [
+					1.0
 				],
 				"category": 4,
 				"desc": "Critical Strikes grant {c_random}[Affix_Value_1|1%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} second. The duration can be extended.",
@@ -18637,6 +18583,9 @@
 			"legendary_generic_023": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 5, 10)"
+				],
+				"affix_static_values": [
+					30.0
 				],
 				"category": 3,
 				"desc": "Each consecutive {c_important}Core{/c} Skill cast reduces the resource cost of your next {c_important}Core{/c} Skills by {c_random}[Affix_Value_1|%|]{/c}, up to a maximum of {c_number}[Affix.\"Static Value 0\"|%|]{/c}.",
@@ -18664,6 +18613,9 @@
 				],
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 10, 20)"
+				],
+				"affix_static_values": [
+					8.0
 				],
 				"category": 1,
 				"desc": "When struck, a magical bubble forms around you for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, absorbing {c_number}[Affix_Flat_Value_1]{/c} damage. Can only occur once per {c_random}[Affix_Value_1]{/c} seconds.",
@@ -18741,6 +18693,9 @@
 			"legendary_generic_067": {
 				"affix_formulas": [
 					"RoundToDecimalPlace(FloatRandomRangeWithInterval(10, 5, 10), 1)"
+				],
+				"affix_static_values": [
+					50.0
 				],
 				"category": 0,
 				"desc": "Enemies hit with {c_important}Basic{/c} Skills increases the damage of your next {c_important}Core{/c} Skill by {c_random}x[Affix_Value_1|1%|]{/c}, up to {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
@@ -18825,6 +18780,10 @@
 			"legendary_generic_108": {
 				"affix_formulas": [
 					"RandomInt(50, 100)"
+				],
+				"affix_static_values": [
+					100.0,
+					30.0
 				],
 				"category": 1,
 				"desc": "Effects that heal you beyond {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life grant you a {c_important}Barrier{/c} up to {c_random}[Affix_Value_1|%|]{/c} of your Maximum Life that lasts for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
@@ -20667,6 +20626,10 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 5, 10)"
 				],
+				"affix_static_values": [
+					20.0,
+					3.0
+				],
 				"affixes": [
 					"INHERENT_CritDamage",
 					"1HSword_Unique_Generic_001",
@@ -20691,6 +20654,9 @@
 				"affix_formulas": [
 					"RandomInt(10,20) * 2"
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"affixes": [
 					"INHERENT_CritDamage",
 					"1HSword_Unique_Generic_100",
@@ -20711,6 +20677,9 @@
 			"2HStaff_Unique_Generic_101": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 50)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"affixes": [
 					"INHERENT_Damage_to_CCd",
@@ -20753,6 +20722,10 @@
 			"Amulet_Unique_Generic_100": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 3, 6)"
+				],
+				"affix_static_values": [
+					100.0,
+					1.0
 				],
 				"affixes": [
 					"Amulet_Unique_Generic_100",
@@ -20843,6 +20816,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				],
+				"affix_static_values": [
+					2.0
+				],
 				"affixes": [
 					"Gloves_Unique_Generic_003",
 					"Damage_Type_Bonus_Cold",
@@ -20887,6 +20863,9 @@
 				"affix_formulas": [
 					"RandomInt(5*10,8*10)/10"
 				],
+				"affix_static_values": [
+					2.0
+				],
 				"affixes": [
 					"Helm_Unique_Generic_002",
 					"CoreStats_All",
@@ -20906,6 +20885,9 @@
 			"Ring_Unique_Generic_100": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(4, 20, 40)"
+				],
+				"affix_static_values": [
+					5.0
 				],
 				"affixes": [
 					"Ring_Unique_Generic_100",
@@ -21044,6 +21026,10 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(4, 10, 14)"
 				],
+				"affix_static_values": [
+					3.0,
+					3.0
+				],
 				"category": 0,
 				"desc": "Each time one of your {c_important}Summoning{/c} Minions damages an enemy, they gain {c_random}+[Affix_Value_1|%|]{/c} Attack Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}+[Affix_Value_1*Affix.\"Static Value 1\"|%|]{/c}.",
 				"name": "of Frenzied Dead",
@@ -21076,6 +21062,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 40)"
 				],
+				"affix_static_values": [
+					1.0
+				],
 				"category": 0,
 				"desc": "After hitting {c_number}[Affix.\"Static Value 0\"]{/c} enemy, {c_important}Bone Spear's{/c} damage is increased by {c_random}x[Affix_Value_1|%|]{/c}.",
 				"name": "Splintering"
@@ -21083,6 +21072,9 @@
 			"legendary_necro_016": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 10, 20)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"category": 0,
 				"desc": "Enemies take {c_random}x[Affix_Value_1|%|]{/c} increased damage from {c_important}Blight's{/c} defiled area for each second they are in it, up to {c_random}x[Affix.\"Static Value 0\" * Affix_Value_1|%|]{/c}.",
@@ -21102,6 +21094,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 60)"
 				],
+				"affix_static_values": [
+					2.0
+				],
 				"category": 0,
 				"desc": "{c_important}Decompose{/c} can chain up to {c_number}[Affix.\"Static Value 0\"]{/c} additional targets. When {c_important}Decompose{/c} spawns a Corpse, it has a {c_random}[Affix_Value_1|%|]{/c} chance to spawn a Corpse under all afflicted targets.",
 				"name": "Rotting"
@@ -21110,6 +21105,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(4, 6, 10)"
 				],
+				"affix_static_values": [
+					5.0
+				],
 				"category": 0,
 				"desc": "Each target hit along {c_important}Sever's{/c} path increases the scythe's damage by {c_random}x[Affix_Value_1|%|]{/c}, up to {c_random}x[Affix.\"Static Value 0\" * Affix_Value_1|%|]{/c}.",
 				"name": "of Empowering Reaper"
@@ -21117,6 +21115,11 @@
 			"legendary_necro_023": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(5, 0.5, 0.6)"
+				],
+				"affix_static_values": [
+					6.0,
+					10.0,
+					48.0
 				],
 				"category": 2,
 				"desc": "Every {c_number}[Affix.\"Static Value 1\"]{/c} seconds, your {c_important}Cold Skeletal Mages{/c} cast a blizzard that deals {c_random}[Affix_Flat_Value_1]{/c} Cold damage and continuously {c_important}Chills{/c} enemies for {c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c} over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -21161,6 +21164,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(5, 0.15, 0.20)"
 				],
+				"affix_static_values": [
+					4.0
+				],
 				"category": 0,
 				"desc": "{c_important}Blood Mist{/c} leaves a trail that lasts for {c_number}[Affix.\"Static Value 0\"]{/c} seconds and deals {c_random}[Affix_Flat_Value_1]{/c} Shadow damage per second to enemies who stand in it. Your Movement Speed is no longer reduced while {c_important}Blood Mist{/c} is active.",
 				"name": "of Bloodbath",
@@ -21198,6 +21204,9 @@
 					"FloatRangeWithInterval(SharedRandomFloat(), 4, 122, 130)",
 					"FloatRangeWithInterval(SharedRandomFloat(), 4, 21, 25)"
 				],
+				"affix_static_values": [
+					4.0
+				],
 				"category": 0,
 				"desc": "{c_important}Corpse Explosion{/c} consumes up to {c_number}[Affix.\"Static Value 0\"]{/c} additional Corpses around the initial Corpse, dealing {c_random}x[Affix_Value_1|%|]{/c} increased damage and with a {c_random}[Affix_Value_2|%|]{/c} larger radius per additional Corpse.",
 				"name": "of Corpse Boom"
@@ -21218,6 +21227,9 @@
 			"legendary_necro_054": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(3, 2, 5)"
+				],
+				"affix_static_values": [
+					10.0
 				],
 				"category": 1,
 				"desc": "Each time that {c_important}Bone Storm{/c} damages an enemy, gain a {c_important}Barrier{/c} equal to {c_random}[Affix_Value_1|%|]{/c} of your Base Life for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -21255,6 +21267,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 20, 30)"
 				],
+				"affix_static_values": [
+					4.0
+				],
 				"category": 3,
 				"desc": "Critical Strikes with {c_important}Bone{/c} Skills increase your Essence Regeneration by {c_random}x[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Affix Value 0\"]{/c} seconds.",
 				"name": "of Torment",
@@ -21266,6 +21281,10 @@
 			"legendary_necro_101": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 40)"
+				],
+				"affix_static_values": [
+					1.0,
+					50.0
 				],
 				"category": 0,
 				"desc": "The {c_important}Ossified Essence{/c} Passive also increases the Critical Strike Damage of your {c_important}Bone{/c} Skills by {c_number}+[Affix.\"Static Value 0\"|%|]{/c} per Essence above {c_number}[Affix.\"Static Value 1\"]{/c}, up to {c_random}+[Affix_Value_1|%|]{/c}.",
@@ -21282,6 +21301,9 @@
 			"legendary_necro_103": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 50)"
+				],
+				"affix_static_values": [
+					10.0
 				],
 				"category": 3,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} Essence when hitting a {c_important}Vulnerable{/c} enemy with your {c_important}Bone{/c} Skills.",
@@ -21307,6 +21329,9 @@
 			"legendary_necro_105": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
+				],
+				"affix_static_values": [
+					1.0
 				],
 				"category": 2,
 				"desc": "Enemies afflicted by your {c_important}Iron Maiden{/c} have a {c_random}[Affix_Value_1|%|]{/c} chance to be Stunned for {c_number}[Affix.\"Static Value 0\"]{/c} second when they deal direct damage.",
@@ -21421,6 +21446,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 20, 30)"
 				],
+				"affix_static_values": [
+					10.0
+				],
 				"category": 0,
 				"desc": "Your {c_important}Skeletons{/c} gain increased damage while alive, up to {c_random}x[Affix_Value_1|%|]{/c} after {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Reanimation",
@@ -21433,6 +21461,9 @@
 			"legendary_necro_119": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 5, 10)"
+				],
+				"affix_static_values": [
+					5.0
 				],
 				"category": 0,
 				"desc": "Consuming a {c_important}Corpse{/c} increases the damage of your next {c_important}Core{/c} Skill by {c_random}x[Affix_Value_1|%|]{/c}, up to {c_random}x[Affix_Value_1 * Affix.\"Static Value 0\"|%|]{/c}.",
@@ -21688,13 +21719,6 @@
 			"Necromancer_Legendary_001": {
 				"desc": "You and your Minions deal {c_number}x[{SF_0}*100|%|]{/c} increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.",
 				"name": "Cult Leader",
-				"power_buffdurations": {
-					"844134919": 1,
-					"3570702661": 1
-				},
-				"power_formulas": [
-					"1/3 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Search_Minion"
 				]
@@ -21711,13 +21735,6 @@
 			"Necromancer_Legendary_005": {
 				"desc": "Your Golem has {c_number}[{SF_0}*100|%|]{/c} increased maximum Life and deals {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
 				"name": "Towering Monstrosity",
-				"power_buffdurations": {
-					"844134919": 1,
-					"2877449787": 1
-				},
-				"power_formulas": [
-					"2 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Search_Minion",
 					"Search_Life"
@@ -21728,30 +21745,11 @@
 			},
 			"Necromancer_Legendary_007": {
 				"desc": "With at least {c_number}{SF_0}{/c} corpses Nearby, you take {c_number}[{SF_1}*100|%|]{/c} less damage.",
-				"name": "Flesh Field",
-				"power_buffdurations": {
-					"844134919": 1,
-					"1546408296": 1
-				},
-				"power_formulas": [
-					3,
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					8,
-					0.25
-				]
+				"name": "Flesh Field"
 			},
 			"Necromancer_Legendary_008": {
 				"desc": "Consuming a corpse grants you {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*100*{SF_1}|%|]{/c}, for {c_number}{SF_2}{/c} seconds.",
-				"name": "Cannibalize",
-				"power_buffdurations": {
-					"844134919": 1,
-					"3918042290": "SF_2"
-				},
-				"power_formulas": [
-					"1/SF_1 * 1.2 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					6,
-					6
-				]
+				"name": "Cannibalize"
 			},
 			"Necromancer_Legendary_009": {
 				"desc": "When your Minion is killed, it has a {c_number}[{SF_0}*100|%|]{/c} chance to leave a corpse."
@@ -21759,13 +21757,6 @@
 			"Necromancer_Legendary_010": {
 				"desc": "{c_important}Blood{/c} skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage but cost an additional {c_number}[{SF_1}*100|1%|]{/c} of the skill's Essence cost or Cooldown as a percent of  your maximum Life.",
 				"name": "Bloodletter",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1.2 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					0.001
-				],
 				"tags": [
 					"Skill_Blood",
 					"Search_Life"
@@ -21774,15 +21765,6 @@
 			"Necromancer_Legendary_011": {
 				"desc": "{c_important}Blood Orbs{/c} grant {c_number}x[{SF_0}*100|%|]{/c} increased damage, up to {c_number}x[{SF_0}*100*{SF_1}|%|]{/c}, for {c_number}{SF_2}{/c} seconds.",
 				"name": "Empowering Blood",
-				"power_buffdurations": {
-					"844134919": 1,
-					"3570702661": "SF_2"
-				},
-				"power_formulas": [
-					"1/SF_1 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					3,
-					5
-				],
 				"tags": [
 					"Keyword_Blood_Orb"
 				]
@@ -21802,12 +21784,6 @@
 			"Necromancer_Legendary_016": {
 				"desc": "You and your Minions deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to targets affected by Shadow damage over time effects.",
 				"name": "Wither",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Search_ShadowDOT"
 				]
@@ -21815,16 +21791,6 @@
 			"Necromancer_Legendary_017": {
 				"desc": "Hitting enemies with {c_important}Bone{/c} skills increases your damage by {c_number}x[{SF_0}*100|%|]{/c} and your maximum Essence by {c_number}{SF_1}{/c} for {c_number}{SF_3}{/c} seconds, stacks up to {c_number}x[{SF_0}*{SF_2}*100|%|]{/c} increased damage and {c_number}[{SF_1}*{SF_2}]{/c} maximum Essence.",
 				"name": "Bone Graft",
-				"power_buffdurations": {
-					"120333031": "SF_3",
-					"844134919": 1
-				},
-				"power_formulas": [
-					0.01,
-					3,
-					"Ceil(1/2 * 100 * ParagonPowerBudgetMultiplierNodeLegendary())",
-					8
-				],
 				"tags": [
 					"Skill_Bone",
 					"Search_ResourceEssence"
@@ -28247,6 +28213,10 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(3, 2, 5)"
 				],
+				"affix_static_values": [
+					12.0,
+					100.0
+				],
 				"affixes": [
 					"INHERENT_On_Kill_Health",
 					"2HScythe_Unique_Necro_100",
@@ -28269,6 +28239,10 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(5, 0.10, 0.15)"
 				],
+				"affix_static_values": [
+					10.0,
+					50.0
+				],
 				"affixes": [
 					"Resistance_Jewelry_All",
 					"Amulet_Unique_Necro_100",
@@ -28285,6 +28259,9 @@
 			"Boots_Unique_Necro_100": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(6, 0.30, 0.42)"
+				],
+				"affix_static_values": [
+					2.0
 				],
 				"affixes": [
 					"Evade_Charges",
@@ -28310,6 +28287,11 @@
 			"Chest_Unique_Necro_100": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(6, 0.16, 0.22)"
+				],
+				"affix_static_values": [
+					16.0,
+					2.0,
+					4.0
 				],
 				"affixes": [
 					"Chest_Unique_Necro_100",
@@ -28388,6 +28370,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 3, 4)"
 				],
+				"affix_static_values": [
+					10.0
+				],
 				"affixes": [
 					"Ring_Unique_Necro_100",
 					"CoreStat_Intelligence",
@@ -28408,6 +28393,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(8, 8, 16)"
 				],
+				"affix_static_values": [
+					5.0
+				],
 				"category": 0,
 				"desc": "{c_important}Shadow Clone{/c} also mimics the {c_important}Imbuements{/c} applied to your Skills. \nCasting an {c_important}Imbuement{/c} Skill grants your {c_important}Shadow Clone{/c} {c_random}x[Affix_Value_1|%|]{/c} increased damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Imitated Imbuement",
@@ -28419,6 +28407,9 @@
 			"legendary_rogue_004": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 2, 4)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"category": 1,
 				"desc": "Gain a {c_important}Dark Shroud{/c} shadow every {c_number}[Affix.\"Static Value 0\"]{/c} seconds when standing still. Each {c_important}Dark Shroud{/c} shadow grants {c_random}[Affix_Value_1|1%|]{/c} increased Damage Reduction.",
@@ -28530,6 +28521,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 0.080, 0.135)"
 				],
+				"affix_static_values": [
+					5.0
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging a Poisoned enemy has up to a {c_number}50%{/c} chance to create a toxic explosion that applies {c_random}[Affix_Flat_Value_1]{/c} Poison damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds to the target and surrounding enemies.",
 				"name": "Venomous",
@@ -28544,6 +28538,10 @@
 			"legendary_rogue_024": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 0.22, 0.40)"
+				],
+				"affix_static_values": [
+					40.0,
+					15.0
 				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging a Close enemy with a {c_important}Core{/c} Skill has up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to release an explosion that deals {c_random}[Affix_Flat_Value_1]{/c} Cold damage to the target and surrounding enemies, {c_important}Chilling{/c} them for {c_number}[Affix.\"Static Value 1\"|%|]{/c}.",
@@ -28573,6 +28571,11 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(9, 1.08, 1.35)"
 				],
+				"affix_static_values": [
+					3.0,
+					5.0,
+					10.0
+				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Your {c_important}Ranged{/c} skills have up to a {c_number}[Affix.\"Static Value 2\"|%|]{/c} chance to create an arrow storm at the target's present location, dealing {c_random}[Affix_Flat_Value_1]{/c} Physical damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds. You can have up to {c_number}[Affix.\"Static Value 1\"]{/c} active arrow storms.",
 				"name": "of Arrow Storms",
@@ -28598,6 +28601,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(9, 30, 50)"
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"category": 0,
 				"desc": "{c_label}Lucky Hit:{/c} Dealing direct damage to enemies affected by your {c_important}Trap{/c} Skills has up to a {c_random}[Affix_Value_1|%|]{/c} chance to make them {c_important}Vulnerable{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Blast-Trapper's",
@@ -28609,6 +28615,9 @@
 			"legendary_rogue_102": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(8, 10, 18)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"category": 2,
 				"desc": "Your {c_important}Grenades{/c} Skills count as {c_important}Trap{/c} Skills. \nWhenever you arm a {c_important}Trap{/c} or drop {c_important}Grenades{/c}, you gain {c_random}+[Affix_Value_1|%|]{/c} increased Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -28625,6 +28634,9 @@
 				"affix_formulas": [
 					5
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"category": 1,
 				"desc": "Whenever you trigger a Lucky Hit, gain {c_random}x[Affix_Value_1|%|]{/c} increased Damage Reduction for {c_number}[Affix_Value_2]{/c} seconds, up to a maximum of {c_random}x[Affix_Value_1 * Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "of Uncanny Resilience",
@@ -28638,6 +28650,9 @@
 				"affix_flat_formulas": [
 					"RandomInt(10, 18) / 200"
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"category": 1,
 				"desc": "Explosions from the {c_important}Victimize{/c} Passive Heal you for {c_random}[Affix_Flat_Value_1]{/c} Life for each enemy damaged, up to a maximum of {c_random}[Affix_Flat_Value_1 * Affix.\"Static Value 0\"]{/c} Life.",
 				"name": "of Cruel Sustenance"
@@ -28645,6 +28660,11 @@
 			"legendary_rogue_105": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 50)"
+				],
+				"affix_static_values": [
+					3.0,
+					3.0,
+					3.0
 				],
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Making an enemy {c_important}Vulnerable{/c} has up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}+[Affix.\"Static Value 0\"|%|]{/c} increased Critical Strike Chance for {c_number}[Affix.\"Static Value 1\"]{/c} seconds, up to {c_number}+[Affix.\"Static Value 0\" * Affix.\"Static Value 2\"|%|]{/c}.",
@@ -28660,6 +28680,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 50, 70)"
 				],
+				"affix_static_values": [
+					4.0
+				],
 				"category": 3,
 				"desc": "Killing a {c_important}Vulnerable{/c} enemy grants you {c_random}x[Affix_Value_1|%|]{/c} increased Energy Regeneration for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Ravenous",
@@ -28671,6 +28694,10 @@
 			"legendary_rogue_107": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 0.20, 0.30)"
+				],
+				"affix_static_values": [
+					100.0,
+					7.0
 				],
 				"category": 1,
 				"desc": "Upon taking damage from surrounding enemies, drop a {c_important}Smoke Grenade{/c} and gain a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 1\"]{/c} seconds that absorbs {c_random}[Affix_Flat_Value_1]{/c} damage. This effect can only occur once every {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -28706,6 +28733,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 0.25, 0.35)"
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"category": 2,
 				"desc": "You automatically drop a {c_important}Smoke Grenade{/c} at the end of {c_important}Dash{/c}. {c_important}Dash's{/c} cooldown is reduced by {c_random}[Affix_Value_1|2|]{/c} seconds for each enemy {c_important}Dazed{/c} this way, up to {c_random}[Affix_Value_1 * Affix.\"Static Value 0\"|2|]{/c} seconds.",
 				"name": "of Quickening Fog"
@@ -28713,6 +28743,10 @@
 			"legendary_rogue_111": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
+				],
+				"affix_static_values": [
+					15.0,
+					2.0
 				],
 				"category": 1,
 				"desc": "You take {c_random}[Affix_Value_1|1%|]{/c} less damage from Crowd Controlled enemies. Whenever a Crowd Controlled enemy deals direct damage to you, gain {c_number}+[Affix.\"Static Value 0\"|%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
@@ -28727,6 +28761,10 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 20, 40)",
 					0.03
+				],
+				"affix_static_values": [
+					5.0,
+					5.0
 				],
 				"category": 1,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging a {c_important}Vulnerable{/c} enemy with a {c_important}Core{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds that absorbs {c_number}[Affix_Flat_Value_1]{/c} damage, up to a maximum of {c_number}[Affix_Flat_Value_1 * Affix.\"Static Value 1\"]{/c}.",
@@ -28749,6 +28787,9 @@
 			"legendary_rogue_114": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 25, 45)"
+				],
+				"affix_static_values": [
+					2.0
 				],
 				"category": 2,
 				"desc": "{c_gold}Lucky Hit:{/c} Dealing direct damage to a {c_important}Vulnerable{/c} enemy has up to a {c_random}[Affix_Value_1|%|]{/c} chance to Immobilize them for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -28777,6 +28818,10 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 30, 50)",
 					0.08
+				],
+				"affix_static_values": [
+					5.0,
+					5.0
 				],
 				"category": 1,
 				"desc": "{c_gold}Lucky Hit:{/c} Critical Strikes with {c_important}Ranged{/c} Skills have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds that absorbs {c_number}[Affix_Flat_Value_1]{/c} damage, up to a maximum of {c_number}[Affix_Flat_Value_1 * Affix.\"Static Value 1\"]{/c}.",
@@ -29026,9 +29071,6 @@
 			"Rogue_Legendary_002": {
 				"desc": "Your Imbues apply to {c_number}{SF_0}{/c} additional attack.",
 				"name": "Overflowing",
-				"power_formulas": [
-					1
-				],
 				"tags": [
 					"Skill_Primary_Imbuements"
 				]
@@ -29044,29 +29086,11 @@
 			},
 			"Rogue_Legendary_006": {
 				"desc": "Your {c_important}Ranged{/c} skills grant your next {c_important}Melee{/c} skill {c_number}x[{SF_0}*100|%|]{/c} increased damage.\n\nYour {c_important}Melee{/c} skills grant your next {c_important}Ranged{/c} skill {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
-				"name": "Tricks of Trade",
-				"power_buffdurations": {
-					"806130639": 1,
-					"844134919": 1,
-					"929693766": 1
-				},
-				"power_formulas": [
-					"5/3 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				]
+				"name": "Tricks of Trade"
 			},
 			"Rogue_Legendary_007": {
 				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage for each Nearby target that is Crowd Controlled, up to {c_number}x[{SF_0} * 100 * {SF_1}|%|]{/c}.",
 				"name": "Control Master",
-				"power_buffdurations": {
-					"844134919": 1,
-					"3570702661": 1
-				},
-				"power_formulas": [
-					"1.5 / 0.9 / SF_1 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					5,
-					9,
-					0.25
-				],
 				"tags": [
 					"Search_CrowdControl"
 				]
@@ -29074,12 +29098,6 @@
 			"Rogue_Legendary_008": {
 				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased Critical Strike Damage to targets affected by your {c_important}Trap{/c} skills.",
 				"name": "Deadly Ambush",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1.5 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Skill_Trap",
 					"Search_Critical"
@@ -29088,13 +29106,6 @@
 			"Rogue_Legendary_009": {
 				"desc": "When {c_important}Inner Sight's{/c} gauge becomes full, you gain {c_number}+[{SF_0}*100|%|]{/c} Dodge Chance for {c_number}[{SF_1|1|}]{/c} seconds.",
 				"name": "Inner Eye",
-				"power_buffdurations": {
-					"2875503721": "SF_1"
-				},
-				"power_formulas": [
-					1,
-					"1/10 * 100 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"SEARCH_DODGE"
 				]
@@ -29102,15 +29113,6 @@
 			"Rogue_Legendary_010": {
 				"desc": "Whenever you deal damage to a {c_important}Vulnerable{/c} enemy, they take {c_number}x[{SF_0}*100|%|]{/c} increased damage from you for {c_number}[SF_2]{/c} seconds, up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}.",
 				"name": "Expose",
-				"power_buffdurations": {
-					"844134919": 1,
-					"2127466680": "SF_2"
-				},
-				"power_formulas": [
-					"1/SF_1 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					"100 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					6
-				],
 				"tags": [
 					"Keyword_Vulnerable"
 				]
@@ -29118,17 +29120,6 @@
 			"Rogue_Legendary_011": {
 				"desc": "Your {c_important}Ultimate{/c} Skills deal {c_number}x[{SF_0}*100|%|]{/c} increased damage and grant you {c_number}x[{SF_1}*100|%|]{/c} increased damage for {c_number}[SF_2]{/c} seconds when cast.",
 				"name": "Ultimatum",
-				"power_buffdurations": {
-					"844134919": 1,
-					"2555432458": 1,
-					"3570702661": "SF_2",
-					"3572367194": 1
-				},
-				"power_formulas": [
-					"1/3 * 6 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					"2/3 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					20
-				],
 				"tags": [
 					"Skill_Primary_Ultimate"
 				]
@@ -29136,13 +29127,6 @@
 			"Rogue_Legendary_012": {
 				"desc": "Skills that consume {c_number}{SF_1}{/c} Combo Points deal {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
 				"name": "Completionist",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1.5 / 0.9 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					3
-				],
 				"tags": [
 					"Skill_Primary_Combat"
 				]
@@ -36808,6 +36792,10 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(8, 0.04, 0.06)"
 				],
+				"affix_static_values": [
+					4.0,
+					5.0
+				],
 				"affixes": [
 					"INHERENT_Damage_to_Near",
 					"1HDagger_Unique_Rogue_002",
@@ -36904,6 +36892,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 65, 85)"
 				],
+				"affix_static_values": [
+					5.0
+				],
 				"affixes": [
 					"PotionGrantsResource",
 					"Pants_Unique_Rogue_004",
@@ -36928,6 +36919,10 @@
 				],
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 20, 35)"
+				],
+				"affix_static_values": [
+					5.0,
+					6.0
 				],
 				"affixes": [
 					"PotionGrantsResource",
@@ -37053,6 +37048,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 5, 10)"
 				],
+				"affix_static_values": [
+					2.0
+				],
 				"category": 0,
 				"desc": "{c_important}Charged Bolts{/c} gains {c_number}[Affix.\"Static Value 0\"]{/c} extra projectiles, but its Mana cost is increased by {c_random}[Affix_Value_1|1%|]{/c}.",
 				"name": "of Overwhelming Bolts"
@@ -37069,6 +37067,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 10, 15)"
 				],
+				"affix_static_values": [
+					4.0
+				],
 				"category": 4,
 				"desc": "Collecting {c_important}Crackling Energy{/c} increases your Movement Speed by {c_random}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Charged",
@@ -37080,6 +37081,9 @@
 			"legendary_sorc_035": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 20, 30)"
+				],
+				"affix_static_values": [
+					2.0
 				],
 				"category": 0,
 				"desc": "{c_important}Frozen Orb{/c} stays in place after reaching its destination and explodes {c_number}[Affix.\"Static Value 0\"]{/c} additional times for {c_random}[Affix_Value_1|%|]{/c} of its damage.",
@@ -37099,6 +37103,9 @@
 			"legendary_sorc_039": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 15, 20)"
+				],
+				"affix_static_values": [
+					1.0
 				],
 				"category": 0,
 				"desc": "You may have {c_number}[Affix.\"Static Value 0\"]{/c} additional {c_important}Hydra{/c} active, but {c_important}Hydra's{/c} Mana cost is increased by {c_random}[Affix_Value_1|%|]{/c}.",
@@ -37152,6 +37159,10 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 5, 10)"
 				],
+				"affix_static_values": [
+					4.0,
+					3.0
+				],
 				"category": 3,
 				"desc": "Killing a Burning enemy grants {c_random}x[Affix_Value_1|%|]{/c} Mana Cost reduction for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}x[Affix_Value_1*Affix.\"Static Value 1\"|%|]{/c}.",
 				"name": "Incendiary",
@@ -37165,6 +37176,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 2.0, 3.0)"
 				],
+				"affix_static_values": [
+					5.0
+				],
 				"category": 2,
 				"desc": "Every {c_number}[Affix.\"Static Value 0\"]{/c} times you deal Direct Fire Damage to an enemy, they are Immobilized for {c_random}[Affix_Value_1]{/c} seconds.",
 				"name": "of Seared Flesh",
@@ -37177,6 +37191,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 15, 25)"
 				],
+				"affix_static_values": [
+					4.0
+				],
 				"category": 4,
 				"desc": "Coming in contact with your {c_important}Firewall{/c} grants you {c_random}+[Affix_Value_1|%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Flamewalker's"
@@ -37184,6 +37201,10 @@
 			"legendary_sorc_106": {
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(5, 0.15, 0.20)"
+				],
+				"affix_static_values": [
+					3.0,
+					6.0
 				],
 				"category": 0,
 				"desc": "{c_important}Meteorites{/c} fall around {c_important}Meteor{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage on impact. \nYour {c_important}Meteorites{/c} additionally Burn enemies they hit for {c_random}[Affix_Flat_Value_1 * Affix.\"Static Value 0\"]{/c} damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
@@ -37260,6 +37281,9 @@
 			"legendary_sorc_113": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 25, 35)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"category": 0,
 				"desc": "When you {c_important}Freeze{/c} an enemy there is a {c_random}[Affix_Value_1|%|]{/c} chance they become {c_important}Vulnerable{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -37339,6 +37363,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 20, 30)"
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"category": 0,
 				"desc": "Critical Strikes to Close enemies increase {c_important}Vyr's Mastery's{/c} bonuses by {c_random}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Mage-Lord's"
@@ -37358,6 +37385,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 50, 60)"
 				],
+				"affix_static_values": [
+					2.0
+				],
 				"category": 0,
 				"desc": "{c_important}Chain Lightning{/c} has a {c_random}[Affix_Value_1|%|]{/c} chance to chain {c_number}[Affix.\"Static Value 0\"]{/c} additional times.",
 				"name": "of the Unbroken Tether"
@@ -37366,6 +37396,9 @@
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(5, 20, 25)"
 				],
+				"affix_static_values": [
+					3.0
+				],
 				"category": 4,
 				"desc": "Gain {c_random}[Affix_Value_1|%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds after {c_important}Teleporting{/c}.",
 				"name": "of the Bounding Conduit"
@@ -37373,6 +37406,9 @@
 			"legendary_sorc_124": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 40, 50)"
+				],
+				"affix_static_values": [
+					10.0
 				],
 				"category": 0,
 				"desc": "After being active for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, {c_important}Lightning{/c} Skill casts during {c_important}Unstable Currents{/c} have a {c_random}[Affix_Value_1|%|]{/c} chance to trigger an additional {c_important}Lightning{/c} Skill.",
@@ -37405,6 +37441,9 @@
 				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 20, 40)"
 				],
+				"affix_static_values": [
+					100.0
+				],
 				"category": 0,
 				"desc": "{c_important}Core{/c} or {c_important}Mastery{/c} Skills cast at or above {c_number}[Affix.\"Static Value 0\"]{/c} Mana gain a {c_random}[Affix_Value_1|1%|]{/c} increased Critical Strike Chance.",
 				"name": "Elementalist's",
@@ -37416,6 +37455,9 @@
 			"legendary_sorc_128": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 10, 20)"
+				],
+				"affix_static_values": [
+					3.0
 				],
 				"category": 3,
 				"desc": "Your passive Mana Regeneration is increased by {c_random}[Affix_Value_1|%|]{/c} if you have not taken damage in the last {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
@@ -37705,16 +37747,6 @@
 			"Sorcerer_Legendary_001": {
 				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage while {c_number}[{SF_1}]{/c} or more burning enemies are Nearby.",
 				"name": "Burning Instinct",
-				"power_buffdurations": {
-					"844134919": 1,
-					"3692111756": 1
-				},
-				"power_formulas": [
-					"1.5 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					3,
-					0.25,
-					9
-				],
 				"tags": [
 					"Search_Burn"
 				]
@@ -37722,14 +37754,6 @@
 			"Sorcerer_Legendary_002": {
 				"desc": "Direct damage from {c_important}Pyromancy{/c} skills burns the target for an additional {c_number}[{SF_0}*100|%|]{/c} of its base damage over {c_number}{SF_1}{/c} seconds.",
 				"name": "Searing Heat",
-				"power_buffdurations": {
-					"3653111": "SF_1",
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					5
-				],
 				"tags": [
 					"Search_Burn",
 					"Skill_Fire"
@@ -37744,12 +37768,6 @@
 			"Sorcerer_Legendary_005": {
 				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to {c_important}Chilled{/c} and {c_important}Frozen{/c} targets.",
 				"name": "Bitter Frost",
-				"power_buffdurations": {
-					"844134919": 1
-				},
-				"power_formulas": [
-					"1.5 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Keyword_Chill",
 					"Keyword_Freeze"
@@ -37758,17 +37776,6 @@
 			"Sorcerer_Legendary_006": {
 				"desc": "Enemies become {c_important}Chilled{/c} for {c_number}[SF_1|%|]{/c} after they unfreeze from your {c_important}Freeze{/c} effects. You take {c_number}[{SF_0}*100|%|]{/c} less damage from {c_important}Chilled{/c} targets.",
 				"name": "Harsh Winter",
-				"power_buffdurations": {
-					"844134919": 1,
-					"1651724364": 1
-				},
-				"power_formulas": [
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					"100 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
-				"power_payloads": {
-					"896303986": 0
-				},
 				"tags": [
 					"Keyword_Chill",
 					"Keyword_Freeze"
@@ -37777,15 +37784,6 @@
 			"Sorcerer_Legendary_007": {
 				"desc": "Critical Strikes from {c_important}Shock{/c} skills grant you {c_number}x[{SF_0}*100|%|]{/c} increased Critical Strike Damage for {c_number}5{/c} seconds. This effect stacks up to {c_number}x[{SF_0}*{SF_1}*100|%|]{/c}.",
 				"name": "Surging Force",
-				"power_buffdurations": {
-					"844134919": 1,
-					"3123679432": "SF_2"
-				},
-				"power_formulas": [
-					"1/SF_1 * 4/3 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					5,
-					5
-				],
 				"tags": [
 					"Skill_Lightning",
 					"Search_Critical"
@@ -37794,9 +37792,6 @@
 			"Sorcerer_Legendary_008": {
 				"desc": "Dealing damage with {c_important}Crackling Energy{/c} has a {c_number}[{SF_0}|%|]{/c} chance to not consume a charge.",
 				"name": "Crackling Power",
-				"power_formulas": [
-					"(5/3) * 100 * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Keyword_Resource_Pickup"
 				]
@@ -37810,14 +37805,6 @@
 			"Sorcerer_Legendary_011": {
 				"desc": "{c_label}Lucky Hit:{/c} {c_important}Core{/c} skills have up to a {c_number}{SF_0}%{/c} chance to make your next {c_important}Mastery{/c} skill deal {c_number}x[{SF_1}*100|%|]{/c} increased damage.",
 				"name": "Master of Elements",
-				"power_buffdurations": {
-					"844134919": 1,
-					"1800223438": 1
-				},
-				"power_formulas": [
-					30,
-					"(10/3) * ParagonPowerBudgetMultiplierNodeLegendary()"
-				],
 				"tags": [
 					"Skill_Primary_Mastery",
 					"Skill_Primary_Core"
@@ -37835,15 +37822,6 @@
 			"Sorcerer_Legendary_015": {
 				"desc": "After spending {c_number}{SF_0}{/c} Mana, you gain {c_number}[{SF_1}*100|%|]{/c} of your Maximum Life {c_number}([PlayerHealthMax() * SF_1]){/c} as {c_important}Barrier{/c} for {c_number}{SF_2}{/c} seconds.",
 				"name": "Shaper of Wills",
-				"power_buffdurations": {
-					"844134919": 1,
-					"1650384807": "SF_2"
-				},
-				"power_formulas": [
-					80,
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					6
-				],
 				"tags": [
 					"Search_ResourceMana",
 					"Search_Life",
@@ -46371,6 +46349,9 @@
 			"Chest_Unique_Sorc_002": {
 				"affix_formulas": [
 					"FloatRandomRangeWithInterval(10, 2, 3)"
+				],
+				"affix_static_values": [
+					20.0
 				],
 				"affixes": [
 					"Chest_Unique_Sorc_002",

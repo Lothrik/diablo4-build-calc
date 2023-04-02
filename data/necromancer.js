@@ -50,7 +50,7 @@ necromancerData["Trunk Data"] = {
 necromancerData["Basic"] = {
 	"Decompose": {
 		connections: [ "Enhanced Decompose", "Basic" ],
-		description: `Generate Essence: 6.0 per second
+		description: `Generate Essence: 6 per second
 Lucky Hit Chance: {#}%
 Tear the flesh from an enemy, dealing {30/33/36/39/42/45/48/51/54/57}% damage per second and forming a usable Corpse with the flesh every 2.5 seconds.
 
@@ -180,7 +180,7 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 	"Initiate's Hemorrhage": {
 		baseSkill: "Hemorrhage",
 		connections: [ "Enhanced Hemorrhage" ],
-		description: `Hemorrhage grants 1.6% Base Life as Fortify each time it hits an enemy, and has a 1.5% chance per enemy hit to Fortify you for 100.0% Base Life.
+		description: `Hemorrhage grants 1.6% Base Life as Fortify each time it hits an enemy, and has a 1.5% chance per enemy hit to Fortify you for 100% Base Life.
 
 Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 		id: 11,
@@ -310,7 +310,7 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 	"Paranormal Sever": {
 		baseSkill: "Sever",
 		connections: [ "Enhanced Sever" ],
-		description: `Every 4th cast of Sever makes enemies Vulnerable for 2.0 seconds.
+		description: `Every 4th cast of Sever makes enemies Vulnerable for 2 seconds.
 
 Tags: Core, Darkness, Damage, Shadow, Essence.`,
 		id: 22,
@@ -594,7 +594,7 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 	"Enhanced Blood Mist": {
 		baseSkill: "Blood Mist",
 		connections: [ "Blood Mist", "Ghastly Blood Mist", "Dreadful Blood Mist" ],
-		description: `Casting a Skill that Overpowers reduces the cooldown of Blood Mist by 2.0 seconds.
+		description: `Casting a Skill that Overpowers reduces the cooldown of Blood Mist by 2 seconds.
 
 Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduction.`,
 		id: 47,
@@ -773,7 +773,7 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 	"Abhorrent Decrepify": {
 		baseSkill: "Decrepify",
 		connections: [ "Enhanced Decrepify" ],
-		description: `Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 15.0% chance to reduce your active Cooldowns by 1.0 second.
+		description: `Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 15.0% chance to reduce your active Cooldowns by 1 second.
 
 Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 		id: 63,
@@ -842,7 +842,7 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 	"Plagued Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
 		connections: [ "Enhanced Corpse Tendrils" ],
-		description: `Enemies damaged by Corpse Tendrils are made Vulnerable for 3.0 seconds.
+		description: `Enemies damaged by Corpse Tendrils are made Vulnerable for 3 seconds.
 
 Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 		id: 125,
@@ -1095,7 +1095,7 @@ Tags: Damage, Minion.`,
 		connections: [ "Prime Army of the Dead", "Ultimate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Call forth the deep buried dead. Volatile Skeletons emerge over the next 7 seconds that explode when around enemies, dealing 30.0% damage.
+Call forth the deep buried dead. Volatile Skeletons emerge over the next 7 seconds that explode when around enemies, dealing 30% damage.
 
 Tags: Ultimate, Damage, Cooldown, Physical.`,
 		id: 93,
@@ -1130,7 +1130,7 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 		connections: [ "Prime Blood Wave", "Ultimate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Conjure a tidal wave of blood that deals 90.0% damage and Knocks Back enemies.
+Conjure a tidal wave of blood that deals 90% damage and Knocks Back enemies.
 
 Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 		id: 96,
@@ -1185,7 +1185,7 @@ Tags: Minion.`,
 		connections: [ "Prime Bone Storm", "Ultimate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-A swirling storm of bones appears around you and your Golem, dealing 180.0% to surrounding enemies over 10 seconds.
+A swirling storm of bones appears around you and your Golem, dealing 180% to surrounding enemies over 10 seconds.
 
 Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 		id: 101,
@@ -1243,7 +1243,7 @@ Tags: Damage, Essence, Bone.`,
 		connections: [ "Capstone" ],
 		description: `Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10.0% bonus damage to enemies with Shadowblight.
 
-Every 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20.0% Shadow Damage.
+Every 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20% Shadow Damage.
 
 Tags: Damage, Shadow, Minion.`,
 		id: 106,

@@ -205,9 +205,7 @@ let codexValues = {
 			"Steadfast Berserker's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			}
 		},
 		"Offensive": {
@@ -408,9 +406,7 @@ let codexValues = {
 			"Aspect of Mending Stone": {
 				"dungeon": "Sealed Archives",
 				"region": "Dry Steppes",
-				"values": [
-					"6"
-				]
+				"values": []
 			},
 			"Skinwalker's Aspect": {
 				"dungeon": "Fading Echo",
@@ -443,9 +439,7 @@ let codexValues = {
 			"Crashstone Aspect": {
 				"dungeon": "",
 				"region": "Scosglen",
-				"values": [
-					"40"
-				]
+				"values": []
 			},
 			"Nighthowler's Aspect": {
 				"dungeon": "Forbidden City",
@@ -500,23 +494,17 @@ let codexValues = {
 			"Aspect of the Stampede": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Metamorphic Stone": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of the Blurred Beast": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Natural Balance": {
 				"dungeon": "",
@@ -593,9 +581,7 @@ let codexValues = {
 			"Ballistic Aspect": {
 				"dungeon": "Whispering Pines",
 				"region": "Scosglen",
-				"values": [
-					"2"
-				]
+				"values": []
 			},
 			"Aspect of Quicksand": {
 				"dungeon": "Ferals' Den",
@@ -605,16 +591,12 @@ let codexValues = {
 			"Stormshifter's Aspect": {
 				"dungeon": "",
 				"region": "Kehjistan",
-				"values": [
-					"2"
-				]
+				"values": []
 			},
 			"Aspect of the Dark Howl": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Symbiotic Aspect": {
 				"dungeon": "",
@@ -811,9 +793,7 @@ let codexValues = {
 				"values": []
 			},
 			"Greaves of the Empty Tomb": {
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Blood Artisan's Cuirass": {
 				"values": []
@@ -825,9 +805,7 @@ let codexValues = {
 				"values": []
 			},
 			"Ring of Mendeln": {
-				"values": [
-					""
-				]
+				"values": []
 			}
 		},
 		"Utility": {
@@ -905,9 +883,7 @@ let codexValues = {
 			"Cheat's Aspect": {
 				"dungeon": "Luban's Rest",
 				"region": "Scosglen",
-				"values": [
-					"15.0"
-				]
+				"values": []
 			},
 			"Enshrouding Aspect": {
 				"dungeon": "Ghoa Ruins",
@@ -922,9 +898,7 @@ let codexValues = {
 			"Aspect of Uncanny Treachery": {
 				"dungeon": "",
 				"region": "Scosglen",
-				"values": [
-					"4"
-				]
+				"values": []
 			},
 			"Aspect of Cruel Sustenance": {
 				"dungeon": "",
@@ -944,16 +918,12 @@ let codexValues = {
 			"Aspect of Siphoned Victuals": {
 				"dungeon": "Leviathan's Maw",
 				"region": "Hawezar",
-				"values": [
-					"10"
-				]
+				"values": []
 			},
 			"Umbrous Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Lethal Dusk": {
 				"dungeon": "",
@@ -975,9 +945,7 @@ let codexValues = {
 			"Blast-Trapper's Aspect": {
 				"dungeon": "",
 				"region": "Fractured Peaks",
-				"values": [
-					"30"
-				]
+				"values": []
 			},
 			"Aspect of Branching Volleys": {
 				"dungeon": "Shadowed Plunge",
@@ -987,9 +955,7 @@ let codexValues = {
 			"Aspect of Corruption": {
 				"dungeon": "",
 				"region": "Kehjistan",
-				"values": [
-					"20"
-				]
+				"values": []
 			},
 			"Aspect of Encircling Blades": {
 				"dungeon": "Forsaken Quarry",
@@ -1104,10 +1070,7 @@ let codexValues = {
 			"Aspect of Quickening Fog": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			},
 			"Mangler's Aspect": {
 				"dungeon": "",
@@ -1117,16 +1080,12 @@ let codexValues = {
 			"Aspect of Noxious Ice": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Frostbitten Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Eyes in the Dark": {
 				"values": []
@@ -1141,19 +1100,14 @@ let codexValues = {
 			"Ravenous Aspect": {
 				"dungeon": "Shifting City",
 				"region": "Dry Steppes",
-				"values": [
-					"50"
-				]
+				"values": []
 			}
 		},
 		"Mobility": {
 			"Ravager's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"values": []
 			}
 		},
 		"Other": {
@@ -1217,9 +1171,7 @@ let codexValues = {
 			"Elementalist's Aspect": {
 				"dungeon": "Pallid Delve",
 				"region": "Dry Steppes",
-				"values": [
-					"100"
-				]
+				"values": []
 			},
 			"Aspect of Piercing Cold": {
 				"dungeon": "Dead Man's Dredge",
@@ -1274,9 +1226,7 @@ let codexValues = {
 			"Aspect of Armageddon": {
 				"dungeon": "",
 				"region": "",
-				"values": [
-					""
-				]
+				"values": []
 			},
 			"Aspect of Ancient Flame": {
 				"dungeon": "",
@@ -1386,9 +1336,7 @@ let codexValues = {
 			"Prodigy's Aspect": {
 				"dungeon": "Witchwater",
 				"region": "Hawezar",
-				"values": [
-					"15"
-				]
+				"values": []
 			},
 			"Recharging Aspect": {
 				"dungeon": "Zenith",

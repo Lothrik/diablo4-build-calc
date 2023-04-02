@@ -48,7 +48,7 @@ barbarianData["Basic"] = {
 		connections: [ "Basic", "Enhanced Bash" ],
 		description: `Generate Fury: 10
 Lucky Hit Chance: {#}%
-Bash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4.0 times, your next Bash will Stun for 1.25 seconds, this increases to 2.0 seconds if using a Two-Handed weapon.
+Bash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.
 
 Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 		id: 0,
@@ -71,7 +71,7 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 	"Battle Bash": {
 		baseSkill: "Bash",
 		connections: [ "Enhanced Bash" ],
-		description: `Damaging a Stunned enemy with Bash generates an additional 3 Fury, or 4.0 Fury if using a Two-Handed weapon.
+		description: `Damaging a Stunned enemy with Bash generates an additional 3 Fury, or 4 Fury if using a Two-Handed weapon.
 
 Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 		id: 2,
@@ -82,7 +82,7 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 	"Combat Bash": {
 		baseSkill: "Bash",
 		connections: [ "Enhanced Bash" ],
-		description: `After Critically Striking 4.0 times with Bash using a Two-Handed weapon, your next Core or Weapon Mastery Skill will Overpower.
+		description: `After Critically Striking 4 times with Bash using a Two-Handed weapon, your next Core or Weapon Mastery Skill will Overpower.
 
 Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 		id: 3,
@@ -222,7 +222,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 	"Combat Flay": {
 		baseSkill: "Flay",
 		connections: [ "Enhanced Flay" ],
-		description: `When Flay deals direct damage to an enemy, you gain 3.0% Damage Reduction and 10.0 Thorns for 3.0 seconds. This stacks up to 4.0 times.
+		description: `When Flay deals direct damage to an enemy, you gain 3.0% Damage Reduction and 10 Thorns for 3 seconds. This stacks up to 4 times.
 
 Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 		id: 15,
@@ -306,7 +306,7 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 	"Violent Upheaval": {
 		baseSkill: "Upheaval",
 		connections: [ "Enhanced Upheaval" ],
-		description: `If Upheaval damages at least 2.0 enemies, you gain Berserking for 2 seconds, increased to 3 seconds if it damages at least 4 enemies.
+		description: `If Upheaval damages at least 2 enemies, you gain Berserking for 2 seconds, increased to 3 seconds if it damages at least 4 enemies.
 
 Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 		id: 22,
@@ -363,7 +363,7 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 	"Violent Double Swing": {
 		baseSkill: "Double Swing",
 		connections: [ "Enhanced Double Swing" ],
-		description: `Hitting an enemy with both hits of Double Swing makes them Vulnerable for 1.0 second.
+		description: `Hitting an enemy with both hits of Double Swing makes them Vulnerable for 1 second.
 
 Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 		id: 27,
@@ -578,7 +578,7 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 	},
 	"Outburst": {
 		connections: [ "Defensive", "Tough as Nails" ],
-		description: `Gain {4/8/12/16/20/24/28/32/36/40} Thorns. Also gain 4.0 Thorns for each 5.0 bonus Maximum Life you have.
+		description: `Gain {4/8/12/16/20/24/28/32/36/40} Thorns. Also gain 4 Thorns for each 5 bonus Maximum Life you have.
 
 Tags: Life, Thorns.`,
 		id: 46,
@@ -645,7 +645,7 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 	"Rallying Cry": {
 		connections: [ "Defensive", "Enhanced Rallying Cry" ],
 		description: `Cooldown: {#} seconds
-Bellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for 6.0 seconds, and Nearby allies for 3.0 seconds.
+Bellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for 6 seconds, and Nearby allies for 3 seconds.
 
 Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 		id: 52,
@@ -726,7 +726,7 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 	"Enhanced Charge": {
 		baseSkill: "Charge",
 		connections: [ "Charge", "Power Charge", "Mighty Charge" ],
-		description: `Enemies who are Knocked Back into terrain by Charge take 15.0% damage and are Stunned for 3 seconds.
+		description: `Enemies who are Knocked Back into terrain by Charge take 15% damage and are Stunned for 3 seconds.
 
 Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 59,
@@ -759,7 +759,7 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 	"War Cry": {
 		connections: [ "Brawling", "Enhanced War Cry" ],
 		description: `Cooldown: {#} seconds
-Bellow a mighty war cry, increasing your damage dealt by x{#}% for 8.0 seconds, and Nearby allies for 4.0 seconds.
+Bellow a mighty war cry, increasing your damage dealt by x{#}% for 8 seconds, and Nearby allies for 4 seconds.
 
 Tags: Brawling, Shout, Damage, Cooldown.`,
 		id: 62,
@@ -883,7 +883,7 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 		description: `Charges: 2
 Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Throw a powerful kick that deals 18.0% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54.0% damage and are Stunned for 3 seconds.
+Throw a powerful kick that deals 18% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54% damage and are Stunned for 3 seconds.
 
 Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 73,
@@ -906,7 +906,7 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 	"Mighty Kick": {
 		baseSkill: "Kick",
 		connections: [ "Enhanced Kick" ],
-		description: `Kicked enemies deal 54.0% damage to enemies they collide with while being Knocked Back. Enemies damaged this way are Knocked Down for 2 seconds.
+		description: `Kicked enemies deal 54% damage to enemies they collide with while being Knocked Back. Enemies damaged this way are Knocked Down for 2 seconds.
 
 Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 75,
@@ -917,7 +917,7 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 	"Power Kick": {
 		baseSkill: "Kick",
 		connections: [ "Enhanced Kick" ],
-		description: `If Kick damages an enemy, it consumes all of your Fury and deals an additional 20.0% damage per 10 Fury spent. Kick no longer Knocks Back enemies.
+		description: `If Kick damages an enemy, it consumes all of your Fury and deals an additional 20% damage per 10 Fury spent. Kick no longer Knocks Back enemies.
 
 Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 76,
@@ -1075,7 +1075,7 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 	"Enhanced Death Blow": {
 		baseSkill: "Death Blow",
 		connections: [ "Death Blow", "Warrior's Death Blow", "Fighter's Death Blow" ],
-		description: `Death Blow deals x100.0% increased damage to Bosses.
+		description: `Death Blow deals x100% increased damage to Bosses.
 
 Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 		id: 90,
@@ -1151,7 +1151,7 @@ Tags: Critical Strikes, Crowd Control.`,
 Charges: 2
 Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Skewer enemies in front of you, dealing 13.0% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.
+Skewer enemies in front of you, dealing 13% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.
 
 Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 		id: 97,
@@ -1163,7 +1163,7 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 	"Enhanced Rupture": {
 		baseSkill: "Rupture",
 		connections: [ "Rupture", "Fighter's Rupture", "Warrior's Rupture" ],
-		description: `Ripping your weapon out of enemies during Rupture causes an explosion that deals 30.0% Bleeding damage over 5 seconds.
+		description: `Ripping your weapon out of enemies during Rupture causes an explosion that deals 30% Bleeding damage over 5 seconds.
 
 Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 		id: 98,
@@ -1221,9 +1221,9 @@ barbarianData["Ultimate"] = {
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Call upon 3 Ancients to aid you in battle for 6 seconds.
-•  Korlic leaps at enemies, dealing 104.0% damage and swings his weapons in a frenzy, dealing 39.0% damage per hit.
-•  Talic spins in a whirlwind rapidly attacking enemies for 65.0% damage.
-•  Madawc upheaves the ground, dealing 195.0% damage.
+•  Korlic leaps at enemies, dealing 104% damage and swings his weapons in a frenzy, dealing 39% damage per hit.
+•  Talic spins in a whirlwind rapidly attacking enemies for 65% damage.
+•  Madawc upheaves the ground, dealing 195% damage.
 
 Tags: Ultimate, Damage, Physical, Cooldown.`,
 		id: 103,
@@ -1262,8 +1262,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Activate three times to attach chains to each of your weapons and perform an attack:
-•  First your Two-Handed Bludgeoning weapon slams into the ground, dealing 60.0% damage and Stunning enemies for 2 seconds.
-•  Second your Two-Handed Slashing weapon swipes in front of you, dealing 20.0% damage and inflicting 120.0% Bleeding damage over 5 seconds.
+•  First your Two-Handed Bludgeoning weapon slams into the ground, dealing 60% damage and Stunning enemies for 2 seconds.
+•  Second your Two-Handed Slashing weapon swipes in front of you, dealing 20% damage and inflicting 120% Bleeding damage over 5 seconds.
 •  Third your Dual Wield weapons swing around you, dealing 32.5% damage per hit.
 
 Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bludgeoning, Dual Wield, Slashing.`,
@@ -1425,9 +1425,9 @@ Tags: Berserking, Damage.`,
 	},
 	"Gushing Wounds": {
 		connections: [ "Capstone" ],
-		description: `When causing an enemy to Bleed, you have a chance equal to your Critical Strike Chance to increase the Bleed amount by 100.0% of your Critical Strike Damage bonus.
+		description: `When causing an enemy to Bleed, you have a chance equal to your Critical Strike Chance to increase the Bleed amount by 100% of your Critical Strike Damage bonus.
 
-Overpowering a Bleeding enemy creates an explosion that inflicts 11.0% Bleeding damage over 5 seconds.
+Overpowering a Bleeding enemy creates an explosion that inflicts 11% Bleeding damage over 5 seconds.
 
 Tags: Bleed, Critical Strikes, Overpower, Damage.`,
 		id: 121,
@@ -1437,7 +1437,7 @@ Tags: Bleed, Critical Strikes, Overpower, Damage.`,
 	},
 	"Unbridled Rage": {
 		connections: [ "Capstone" ],
-		description: `Core Skills deal x135.0% increased damage, but cost x100.0% more Fury.
+		description: `Core Skills deal x135.0% increased damage, but cost x100% more Fury.
 
 Tags: Fury, Damage.`,
 		id: 122,

@@ -236,53 +236,9 @@ let nodeValues = {
 			"Prickleskin": [
 				""
 			],
-			"Gift of the Stag": [
-				"10"
-			],
-			"Wariness": [
-				"10"
-			],
-			"Advantageous Beast": [
-				"15"
-			],
-			"Scythe Talons": [
-				"5"
-			],
-			"Iron Feather": [
-				"10"
-			],
-			"Swooping Attacks": [
-				"10"
-			],
-			"Avian Wrath": [
-				"30"
-			],
-			"Obsidian Slam": [
-				"10th"
-			],
 			"Overload": [
 				"20",
 				""
-			],
-			"Masochistic": [
-				"3"
-			],
-			"Calm Before the Storm": [
-				"15",
-				"2"
-			],
-			"Packleader": [
-				"20"
-			],
-			"Energize": [
-				"15",
-				"10"
-			],
-			"Bolster": [
-				"10"
-			],
-			"Calamity": [
-				"25"
 			]
 		}
 	},
@@ -532,15 +488,13 @@ let nodeValues = {
 				"25"
 			],
 			"Charged Bolts — Enchantment": [
-				"40",
-				"3"
+				"40"
 			],
 			"Frozen Orb — Enchantment": [
 				"20"
 			],
 			"Incinerate — Enchantment": [
-				"20",
-				"6"
+				"20"
 			],
 			"Fireball — Enchantment": [
 				"50"
@@ -597,9 +551,7 @@ let nodeValues = {
 				"6.0"
 			],
 			"Hydra — Enchantment": [
-				"300",
-				"5",
-				"5"
+				"300"
 			],
 			"Ice Blades — Enchantment": [
 				"20"
@@ -631,15 +583,13 @@ let nodeValues = {
 				"3"
 			],
 			"Blizzard — Enchantment": [
-				"15",
-				"4"
+				"15"
 			],
 			"Ball Lightning — Enchantment": [
 				"25"
 			],
 			"Firewall — Enchantment": [
-				"5",
-				"3"
+				"5"
 			]
 		},
 		"Ultimate": {
