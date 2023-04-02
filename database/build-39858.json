@@ -40880,7 +40880,7 @@
 		},
 		"Paragon (Node)": {
 			"Sorcerer_Legendary_001": {
-				"desc": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every 20 Intelligence you have. (Current Bonus: {#}%)",
+				"desc": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every 20 Intelligence you have.",
 				"name": "Burning Instinct",
 				"power_buffdurations": {
 					"844134919": 1
@@ -40974,7 +40974,7 @@
 				]
 			},
 			"Sorcerer_Legendary_008": {
-				"desc": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per 20 total Intelligence you have. (Current Bonus: [floor(Intelligence_Total / 20) * {SF_3} * 100|x%|])",
+				"desc": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per 20 total Intelligence you have.",
 				"name": "Ceaseless Conduit",
 				"power_buffdurations": {
 					"2173421135": 1

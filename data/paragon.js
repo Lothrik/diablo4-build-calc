@@ -22513,7 +22513,7 @@ let paragonData = {
 		"Node": {
 			"Sorcerer_Legendary_001": {
 				"name": "Burning Instinct",
-				"description": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every 20 Intelligence you have. (Current Bonus: {#}%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence."
+				"description": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every 20 Intelligence you have.\n\nTags: Burn, Damage, Critical Strikes, Intelligence."
 			},
 			"Sorcerer_Legendary_002": {
 				"name": "Searing Heat",
@@ -22539,7 +22539,7 @@ let paragonData = {
 			},
 			"Sorcerer_Legendary_008": {
 				"name": "Ceaseless Conduit",
-				"description": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per 20 total Intelligence you have. (Current Bonus: [floor(Intelligence_Total / 20) * {SF_3} * 100|x%|])\n\nTags: Crackling Energy, Damage, Intelligence."
+				"description": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per 20 total Intelligence you have.\n\nTags: Crackling Energy, Damage, Intelligence."
 			},
 			"Sorcerer_Legendary_009": {
 				"description": "Lucky Hit: Your Shock skills have a {#}% chance to release {#} lightning sparks that each deal {#}% damage."
