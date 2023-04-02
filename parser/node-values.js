@@ -39,8 +39,7 @@ let nodeValues = {
 		"Defensive": {
 			"Challenging Shout": [
 				"25",
-				"{40/45/50/55/60}",
-				"8"
+				"{40/45/50/55/60}"
 			],
 			"Iron Skin": [
 				"14"
@@ -53,9 +52,7 @@ let nodeValues = {
 			"Rallying Cry": [
 				"25",
 				"30",
-				"50",
-				"6.0",
-				"3.0"
+				"50"
 			]
 		},
 		"Brawling": {
@@ -65,9 +62,7 @@ let nodeValues = {
 			],
 			"War Cry": [
 				"25",
-				"15.0",
-				"8.0",
-				"4.0"
+				"15.0"
 			],
 			"Power War Cry": [
 				"30"
@@ -129,7 +124,6 @@ let nodeValues = {
 				"50"
 			],
 			"Earth Spike": [
-				"",
 				"25"
 			]
 		},
@@ -159,8 +153,7 @@ let nodeValues = {
 		"Defensive": {
 			"Earthen Bulwark": [
 				"16",
-				"50",
-				"3"
+				"50"
 			],
 			"Debilitating Roar": [
 				"22"
@@ -209,8 +202,7 @@ let nodeValues = {
 			],
 			"Hurricane": [
 				"20",
-				"33",
-				"8"
+				"33"
 			],
 			"Rabies": [
 				"12",
@@ -221,8 +213,7 @@ let nodeValues = {
 		},
 		"Ultimate": {
 			"Grizzly Rage": [
-				"60",
-				"10"
+				"60"
 			],
 			"Petrify": [
 				"60",
@@ -427,8 +418,7 @@ let nodeValues = {
 			],
 			"Dash": [
 				"10",
-				"25",
-				"37"
+				"25"
 			],
 			"Caltrops": [
 				"12",

@@ -489,12 +489,12 @@ barbarianData["Defensive"] = {
 	"Challenging Shout": {
 		connections: [ "Defensive", "Enhanced Challenging Shout" ],
 		description: `Cooldown: {#} seconds
-Taunt Nearby enemies and gain {#}% Damage Reduction for {#} seconds.
+Taunt Nearby enemies and gain {#}% Damage Reduction for 8 seconds.
 
 Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 		id: 38,
 		maxPoints: 5,
-		values: [ "25", "{40/45/50/55/60}", "8" ],
+		values: [ "25", "{40/45/50/55/60}" ],
 		x: 1.54,
 		y: 310.475
 	},
@@ -645,12 +645,12 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 	"Rallying Cry": {
 		connections: [ "Defensive", "Enhanced Rallying Cry" ],
 		description: `Cooldown: {#} seconds
-Bellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for {#} seconds, and Nearby allies for {#} seconds.
+Bellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for 6.0 seconds, and Nearby allies for 3.0 seconds.
 
 Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 		id: 52,
 		maxPoints: 5,
-		values: [ "25", "30", "50", "6.0", "3.0" ],
+		values: [ "25", "30", "50" ],
 		x: 571.525,
 		y: -107.125
 	},
@@ -759,12 +759,12 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 	"War Cry": {
 		connections: [ "Brawling", "Enhanced War Cry" ],
 		description: `Cooldown: {#} seconds
-Bellow a mighty war cry, increasing your damage dealt by x{#}% for {#} seconds, and Nearby allies for {#} seconds.
+Bellow a mighty war cry, increasing your damage dealt by x{#}% for 8.0 seconds, and Nearby allies for 4.0 seconds.
 
 Tags: Brawling, Shout, Damage, Cooldown.`,
 		id: 62,
 		maxPoints: 5,
-		values: [ "25", "15.0", "8.0", "4.0" ],
+		values: [ "25", "15.0" ],
 		x: -401.86,
 		y: -211.156
 	},

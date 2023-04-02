@@ -618,12 +618,12 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 		description: `Charges: 2
 Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Dash forward and slash enemies for {#}% damage.
+Dash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage.
 
 Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown, Movement.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "10", "25", "37" ],
+		values: [ "10", "25" ],
 		x: 9.47,
 		y: 289.26
 	},
@@ -1016,7 +1016,7 @@ Tags: Damage, Poison.`,
 	},
 	"Alchemical Advantage": {
 		connections: [ "Deadly Venom" ],
-		description: `You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to {c_number}[0.15*100|%+|]{c_number}.
+		description: `You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to [0.15*100|%+|].
 
 Tags: Poison, Attack Speed.`,
 		id: 79,
@@ -1174,7 +1174,7 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 	"Mixed Cold Imbuement": {
 		baseSkill: "Cold Imbuement",
 		connections: [ "Enhanced Cold Imbuement" ],
-		description: `Cold Imbued Skills deal x20.0% damage to Crowd Controlled enemies. Double this bonus against {c_important}Frozen{/C} enemies.
+		description: `Cold Imbued Skills deal x20.0% damage to Crowd Controlled enemies. Double this bonus against Frozen enemies.
 
 Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 		id: 138,

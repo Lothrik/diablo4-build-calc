@@ -50,7 +50,7 @@ druidData["Trunk Data"] = {
 druidData["Basic"] = {
 	"Earth Spike": {
 		connections: [ "Basic", "Enhanced Earth Spike" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 0.0 seconds
 Generate Spirit: 8
 Lucky Hit Chance: {#}%
 Sunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.
@@ -58,7 +58,7 @@ Sunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25
 Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 		id: 162,
 		maxPoints: 5,
-		values: [ "", "25" ],
+		values: [ "25" ],
 		x: -409.637,
 		y: -122.635
 	},
@@ -588,12 +588,12 @@ druidData["Defensive"] = {
 		connections: [ "Defensive", "Enhanced Earthen Bulwark" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Rocks surround you for {#} seconds, granting a Barrier that absorbs {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% of your Base Life in damage.
+Rocks surround you for 3 seconds, granting a Barrier that absorbs {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% of your Base Life in damage.
 
 Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 		id: 43,
 		maxPoints: 5,
-		values: [ "16", "50", "3" ],
+		values: [ "16", "50" ],
 		x: -2.035,
 		y: -310.27
 	},
@@ -1149,12 +1149,12 @@ Tags: Fortify, Damage, Life, Earth, Nature Magic.`,
 		connections: [ "Wrath", "Enhanced Hurricane" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Form a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over {#} seconds.
+Form a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8.0 seconds.
 
 Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 99,
 		maxPoints: 5,
-		values: [ "20", "33", "8" ],
+		values: [ "20", "33" ],
 		x: 255.145,
 		y: -347.168
 	},
@@ -1295,14 +1295,14 @@ druidData["Ultimate"] = {
 	"Grizzly Rage": {
 		connections: [ "Ultimate", "Prime Grizzly Rage" ],
 		description: `Cooldown: {#} seconds
-Shapeshift into a Dire Werebear for {#} seconds gaining x20.0% bonus damage and 20.0% Damage Reduction. Damage bonus is increased by 3.0% each second while in this form.
+Shapeshift into a Dire Werebear for 10.0 seconds gaining x20.0% bonus damage and 20.0% Damage Reduction. Damage bonus is increased by 3.0% each second while in this form.
 
 Kills extend the duration by 1 second up to 10 additional seconds.
 
 Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 		id: 107,
 		maxPoints: 1,
-		values: [ "60", "10" ],
+		values: [ "60" ],
 		x: 4.395,
 		y: 301.055
 	},
@@ -1438,7 +1438,7 @@ Tags: Damage Reduction, Shapeshifting, Elite Monsters, Werebear, Werewolf.`,
 		connections: [ "Ultimate", "Prime Lacerate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Shapeshift into a Werewolf, become Immune and quickly dash {11.25/12.5/13.75/15/16.25/17.5/18.75/20/21.25/22.5} times between enemies in the area dealing up to {450/500/550/600/650/700/750/800/850/900}% damage.
+Shapeshift into a Werewolf, become Immune and quickly dash 10.0 times between enemies in the area dealing up to 400.0% damage.
 
 Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Damage Reduction.`,
 		id: 120,

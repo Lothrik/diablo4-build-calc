@@ -20,12 +20,9 @@ let codexData = {
 			"Devilish Aspect": {
 				"id": 118,
 				"type": "Legendary",
-				"description": "After generating {#} Fury your next Core Skill creates a Dust Devil that deals {20/36} damage to enemies behind the target.",
+				"description": "After generating 100.0 Fury your next Core Skill creates a Dust Devil that deals {20/36} damage to enemies behind the target.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Limitless Rage": {
 				"id": 119,
@@ -37,12 +34,9 @@ let codexData = {
 			"Aspect of Berserk Ripping": {
 				"id": 22,
 				"type": "Legendary",
-				"description": "Whenever you deal direct damage while Berserking, inflict {22/40}% of the Base damage dealt as additional Bleeding damage over {#} seconds.",
+				"description": "Whenever you deal direct damage while Berserking, inflict {22/40}% of the Base damage dealt as additional Bleeding damage over 5.0 seconds.",
 				"dungeon": "Mournfield",
-				"region": "Dry Steppes",
-				"values": [
-					""
-				]
+				"region": "Dry Steppes"
 			},
 			"Earthquake Aspect": {
 				"id": 120,
@@ -61,22 +55,16 @@ let codexData = {
 			"Aspect of Ancestral Echoes": {
 				"id": 20,
 				"type": "Legendary",
-				"description": "Lucky Hit: Damaging enemies with Leap, Upheaval, or Whirlwind has up to a {40/50}% chance to summon an Ancient to perform the same Skill. Can only happen once every {#} seconds.",
+				"description": "Lucky Hit: Damaging enemies with Leap, Upheaval, or Whirlwind has up to a {40/50}% chance to summon an Ancient to perform the same Skill. Can only happen once every 5.0 seconds.",
 				"dungeon": "",
-				"region": "Hawezar",
-				"values": [
-					"40"
-				]
+				"region": "Hawezar"
 			},
 			"Brawler's Aspect": {
 				"id": 23,
 				"type": "Legendary",
-				"description": "Enemies damaged by Kick or Charge will explode if they are killed within the next {#} seconds, dealing {100/130} damage to surrounding enemies.",
+				"description": "Enemies damaged by Kick or Charge will explode if they are killed within the next 2.0 seconds, dealing {100/130} damage to surrounding enemies.",
 				"dungeon": "",
-				"region": "Hawezar",
-				"values": [
-					"2"
-				]
+				"region": "Hawezar"
 			},
 			"Dust Devil's Aspect": {
 				"id": 126,
@@ -88,12 +76,9 @@ let codexData = {
 			"Aspect of Encroaching Wrath": {
 				"id": 127,
 				"type": "Legendary",
-				"description": "After spending {#} Fury, your next Weapon Mastery Skill deals x{82/100}% increased damage.",
+				"description": "After spending 100.0 Fury, your next Weapon Mastery Skill deals x{82/100}% increased damage.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Death Wish Aspect": {
 				"id": 24,
@@ -112,12 +97,9 @@ let codexData = {
 			"Windlasher Aspect": {
 				"id": 129,
 				"type": "Legendary",
-				"description": "Casting Double Swing twice within {#} seconds creates a Dust Devil that deals {16/25} damage to enemies behind the target.",
+				"description": "Casting Double Swing twice within 1.5 seconds creates a Dust Devil that deals {16/25} damage to enemies behind the target.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Veteran Brawler's Aspect": {
 				"id": 27,
@@ -136,30 +118,21 @@ let codexData = {
 			"Earthstriker's Aspect": {
 				"id": 133,
 				"type": "Legendary",
-				"description": "After swapping weapons {#} times, your next attack will Overpower and deal x{30/50}% increased Overpower damage.",
+				"description": "After swapping weapons 10.0 times, your next attack will Overpower and deal x{30/50}% increased Overpower damage.",
 				"dungeon": "Maugan's Works",
-				"region": "Hawezar",
-				"values": [
-					"10"
-				]
+				"region": "Hawezar"
 			},
 			"Ancients' Oath": {
 				"id": 137,
 				"type": "Unique",
-				"description": "Steel Grasp launches 2 additional chains. Enemies hit by Steel Grasp are Slowed by {55/65}% for {#} seconds.",
-				"flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\"\n- Gerti, Oxen Tribe Forgemaster",
-				"values": [
-					""
-				]
+				"description": "Steel Grasp launches 2 additional chains. Enemies hit by Steel Grasp are Slowed by {55/65}% for 3.0 seconds.",
+				"flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\"\n- Gerti, Oxen Tribe Forgemaster"
 			},
 			"Hellhammer": {
 				"id": 138,
 				"type": "Unique",
-				"description": "Upheaval ignites the ground Burning enemies for an additional {35/50} damage over {#} seconds.",
-				"flavor": "The demon prince Ikonoth slew hundreds of the Heavenly Host with this infernal hammer before falling to none other than the Archangel Imperius himself.",
-				"values": [
-					""
-				]
+				"description": "Upheaval ignites the ground Burning enemies for an additional {35/50} damage over 3.0 seconds.",
+				"flavor": "The demon prince Ikonoth slew hundreds of the Heavenly Host with this infernal hammer before falling to none other than the Archangel Imperius himself."
 			},
 			"Overkill": {
 				"id": 139,
@@ -217,12 +190,9 @@ let codexData = {
 			"Aspect of Anemia": {
 				"id": 33,
 				"type": "Legendary",
-				"description": "Lucky Hit: Direct damage against Bleeding enemies has up to a {31/40}% chance to Stun them for {#} seconds.",
+				"description": "Lucky Hit: Direct damage against Bleeding enemies has up to a {31/40}% chance to Stun them for 2.0 seconds.",
 				"dungeon": "Kor Dragan Barracks",
-				"region": "Fractured Peaks",
-				"values": [
-					"2"
-				]
+				"region": "Fractured Peaks"
 			},
 			"Luckbringer Aspect": {
 				"id": 134,
@@ -236,12 +206,9 @@ let codexData = {
 			"Iron Blood Aspect": {
 				"id": 123,
 				"type": "Legendary",
-				"description": "Gain {#}% Damage Reduction for each Nearby Bleeding enemy up to {10/20}% maximum.",
+				"description": "Gain {2/4}% Damage Reduction for each Nearby Bleeding enemy up to {10/20}% maximum.",
 				"dungeon": "Forgotten Ruins",
-				"region": "Kehjistan",
-				"values": [
-					""
-				]
+				"region": "Kehjistan"
 			},
 			"Aspect of the Iron Warrior": {
 				"id": 17,
@@ -277,42 +244,30 @@ let codexData = {
 			"Aspect of Tempering Blows": {
 				"id": 19,
 				"type": "Legendary",
-				"description": "After swapping weapons {#} times, gain {11/20} Fortify.",
+				"description": "After swapping weapons 6.0 times, gain {11/20} Fortify.",
 				"dungeon": "Defiled Catacomb",
-				"region": "Fractured Peaks",
-				"values": [
-					"6"
-				]
+				"region": "Fractured Peaks"
 			}
 		},
 		"Other": {
 			"Battle-Mad Aspect": {
 				"id": 124,
 				"type": "Legendary",
-				"description": "Gain Berserking for {1/2.5} seconds after swapping weapons {#} times.",
+				"description": "Gain Berserking for {1/2.5} seconds after swapping weapons 10.0 times.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Ramaladni's Magnum Opus": {
 				"id": 136,
 				"type": "Unique",
-				"description": "Skills using this weapon deal x{0.7/1}% increased damage per point of Fury you have, but you lose {#} Fury every second.",
-				"flavor": "\"Without him the wine is less sweet, the hearth less warm, and our blades less keen. Our blood brother is gone, but Bul-Kathos willing, we will meet again one day.\"\n- Sorrowsong for Ramaladni",
-				"values": [
-					""
-				]
+				"description": "Skills using this weapon deal x{0.7/1}% increased damage per point of Fury you have, but you lose 2.0 Fury every second.",
+				"flavor": "\"Without him the wine is less sweet, the hearth less warm, and our blades less keen. Our blood brother is gone, but Bul-Kathos willing, we will meet again one day.\"\n- Sorrowsong for Ramaladni"
 			},
 			"Fields of Crimson": {
 				"id": 140,
 				"type": "Unique",
-				"description": "While using this weapon, damaging at least one enemy with Rupture creates a blood pool that inflicts {18/34} Bleeding damage over {#} seconds. Enemies standing in the pool take x10.0% increased Bleeding damage.",
-				"flavor": "\"We've been fighting these flesh-eaters for so long, been soaked in so much blood, that after a while it's difficult to tell what side you're truly on.\"\n- Daelyr, Crane Tribe warrior",
-				"values": [
-					""
-				]
+				"description": "While using this weapon, damaging at least one enemy with Rupture creates a blood pool that inflicts {18/34} Bleeding damage over 6.0 seconds. Enemies standing in the pool take x10.0% increased Bleeding damage.",
+				"flavor": "\"We've been fighting these flesh-eaters for so long, been soaked in so much blood, that after a while it's difficult to tell what side you're truly on.\"\n- Daelyr, Crane Tribe warrior"
 			}
 		},
 		"Resource": {
@@ -354,33 +309,23 @@ let codexData = {
 			"Bold Chieftain's Aspect": {
 				"id": 132,
 				"type": "Legendary",
-				"description": "Whenever you cast a Shout Skill, its Cooldown is reduced by {2.7/5.4} seconds per Nearby enemy, up to a maximum of {#} seconds.",
+				"description": "Whenever you cast a Shout Skill, its Cooldown is reduced by {2.7/5.4} seconds per Nearby enemy, up to a maximum of 12.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Slaking Aspect": {
 				"id": 31,
 				"type": "Legendary",
-				"description": "Lucky Hit: You have up to a {30/50}% chance to gain {#} Fury when Rend deals direct damage to at least one Bleeding enemy.",
+				"description": "Lucky Hit: You have up to a {30/50}% chance to gain 20.0 Fury when Rend deals direct damage to at least one Bleeding enemy.",
 				"dungeon": "Maulwood",
-				"region": "Fractured Peaks",
-				"values": [
-					"20"
-				]
+				"region": "Fractured Peaks"
 			},
 			"Bear Clan Berserker's Aspect": {
 				"id": 135,
 				"type": "Legendary",
-				"description": "Killing an enemy while Berserking has a {#}% chance to grant {16/32}% increased Cooldown Reduction to your Brawling Skills for {#} seconds.",
+				"description": "Killing an enemy while Berserking has a 40.0% chance to grant {16/32}% increased Cooldown Reduction to your Brawling Skills for 2.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			}
 		},
 		"Mobility": {
@@ -398,22 +343,16 @@ let codexData = {
 			"Lightning Dancer's Aspect": {
 				"id": 145,
 				"type": "Legendary",
-				"description": "Lightning Storm Critical Strikes spawn {#} Dancing Bolts that seek enemies in the area dealing {50/60} Lightning damage.",
+				"description": "Lightning Storm Critical Strikes spawn 3.0 Dancing Bolts that seek enemies in the area dealing {50/60} Lightning damage.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Dire Wolf's Aspect": {
 				"id": 146,
 				"type": "Legendary",
-				"description": "Grizzly Rage now shapeshifts you into a Dire Werewolf. As a Dire Werewolf you gain +{15/25}% Movement Speed instead of Damage Reduction and a {30/50}% Spirit cost reduction bonus. In addition, kills Heal you for {#}% of your Maximum Life.",
+				"description": "Grizzly Rage now shapeshifts you into a Dire Werewolf. As a Dire Werewolf you gain +{15/25}% Movement Speed instead of Damage Reduction and a {30/50}% Spirit cost reduction bonus. In addition, kills Heal you for 10.0% of your Maximum Life.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of the Stampede": {
 				"id": 147,
@@ -428,11 +367,10 @@ let codexData = {
 			"Aspect of Metamorphic Stone": {
 				"id": 148,
 				"type": "Legendary",
-				"description": "Boulder is now a Core Skill and costs {#} Spirit to cast dealing {#}% of normal damage.",
+				"description": "Boulder is now a Core Skill and costs 60.0 Spirit to cast dealing {#}% of normal damage.",
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -466,23 +404,16 @@ let codexData = {
 			"Overcharged Aspect": {
 				"id": 43,
 				"type": "Legendary",
-				"description": "Lucky Hit: Up to a {10/20}% chance when dealing Lightning damage to overload the target for {#} seconds, causing any direct damage you deal to them to pulse 70.0 additional damage to surrounding enemies.",
+				"description": "Lucky Hit: Up to a {10/20}% chance when dealing Lightning damage to overload the target for 3.0 seconds, causing any direct damage you deal to them to pulse 70.0 additional damage to surrounding enemies.",
 				"dungeon": "Mariner's Refuge",
-				"region": "Scosglen",
-				"values": [
-					"10"
-				]
+				"region": "Scosglen"
 			},
 			"Aspect of Natural Balance": {
 				"id": 151,
 				"type": "Legendary",
-				"description": "Casting a Storm Skill grants your Earth Skills x{30/45}% Critical Strike Damage for {#} seconds.\n\nCasting a Earth Skill increases the Critical Strike Chance of Storm Skills by +{8/12}% for {#} seconds.",
+				"description": "Casting a Storm Skill grants your Earth Skills x{30/45}% Critical Strike Damage for 4.0 seconds.\n\nCasting a Earth Skill increases the Critical Strike Chance of Storm Skills by +{8/12}% for 4.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Seismic-shift Aspect": {
 				"id": 152,
@@ -494,12 +425,9 @@ let codexData = {
 			"Aspect of the Trampled Earth": {
 				"id": 153,
 				"type": "Legendary",
-				"description": "Trample now summons {#} Landslide pillars of earth during its duration that deal {70/80}% normal damage. Trample is now also a Nature Magic and Earth Skill.",
+				"description": "Trample now summons 6.0 Landslide pillars of earth during its duration that deal {70/80}% normal damage. Trample is now also a Nature Magic and Earth Skill.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Stormclaw's Aspect": {
 				"id": 154,
@@ -518,12 +446,9 @@ let codexData = {
 			"Aspect of the Ursine Horror": {
 				"id": 48,
 				"type": "Legendary",
-				"description": "Pulverize is now also an Earth Skill. After casting Pulverize, tectonic spikes continue to deal {35/50} damage over {#} seconds.",
+				"description": "Pulverize is now also an Earth Skill. After casting Pulverize, tectonic spikes continue to deal {35/50} damage over 2.0 seconds.",
 				"dungeon": "Belfry Zakara",
-				"region": "Hawezar",
-				"values": [
-					""
-				]
+				"region": "Hawezar"
 			},
 			"Aspect of Retaliation": {
 				"id": 45,
@@ -549,12 +474,9 @@ let codexData = {
 			"Nighthowler's Aspect": {
 				"id": 42,
 				"type": "Legendary",
-				"description": "Blood Howl increases Critical Strike Chance by +{5/10}%. In addition, Blood Howl also affects Nearby Companions and Players for {#} seconds.",
+				"description": "Blood Howl increases Critical Strike Chance by +{5/10}%. In addition, Blood Howl also affects Nearby Companions and Players for 3.0 seconds.",
 				"dungeon": "Forbidden City",
-				"region": "Fractured Peaks",
-				"values": [
-					"5.0"
-				]
+				"region": "Fractured Peaks"
 			},
 			"Aspect of Nature's Savagery": {
 				"id": 159,
@@ -647,12 +569,9 @@ let codexData = {
 			"Mangled Aspect": {
 				"id": 50,
 				"type": "Legendary",
-				"description": "When you are struck as a Werebear you have a {20/30}% chance to gain {#} Spirit.",
+				"description": "When you are struck as a Werebear you have a {20/30}% chance to gain 1.0 Spirit.",
 				"dungeon": "Immortal Emanation",
-				"region": "Fractured Peaks",
-				"values": [
-					"20"
-				]
+				"region": "Fractured Peaks"
 			},
 			"Aspect of the Calm Breeze": {
 				"id": 150,
@@ -678,23 +597,17 @@ let codexData = {
 			"Tempest Roar": {
 				"id": 171,
 				"type": "Unique",
-				"description": "Lucky Hit: Storm Skills have up to a {15/25}% chance to grant {#} Spirit.\n\nYour base Storm Skills are now also Werewolf Skills.",
-				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\"\n– Airidah",
-				"values": [
-					""
-				]
+				"description": "Lucky Hit: Storm Skills have up to a {15/25}% chance to grant 10.0 Spirit.\n\nYour base Storm Skills are now also Werewolf Skills.",
+				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\"\n– Airidah"
 			}
 		},
 		"Utility": {
 			"Aspect of Quicksand": {
 				"id": 54,
 				"type": "Legendary",
-				"description": "Damage from Earth Skills Slow enemies hit by {25/50}% for {#} seconds.",
+				"description": "Damage from Earth Skills Slow enemies hit by {25/50}% for 5.0 seconds.",
 				"dungeon": "Ferals' Den",
-				"region": "Scosglen",
-				"values": [
-					"25"
-				]
+				"region": "Scosglen"
 			},
 			"Aspect of the Dark Howl": {
 				"id": 160,
@@ -769,12 +682,9 @@ let codexData = {
 			"Earthguard Aspect": {
 				"id": 166,
 				"type": "Legendary",
-				"description": "Gain {15/25}% bonus amount to your next Earthen Bulwark for each enemy you Crowd Control up to a maximum of {#}%.",
+				"description": "Gain {15/25}% bonus amount to your next Earthen Bulwark for each enemy you Crowd Control up to a maximum of 100.0%.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Waxing Gibbous": {
 				"id": 167,
@@ -795,22 +705,16 @@ let codexData = {
 			"Accelerating Aspect": {
 				"id": 175,
 				"type": "Legendary",
-				"description": "Critical Strikes with Core Skills increase your Attack Speed by +{20/40}% for {#} seconds.",
+				"description": "Critical Strikes with Core Skills increase your Attack Speed by +{20/40}% for 3.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Inner Calm": {
 				"id": 7,
 				"type": "Legendary",
-				"description": "Deal x{3/10}% increased damage for each second you stand still, up to x{#}%.",
+				"description": "Deal x{3/10}% increased damage for each second you stand still, up to x30.0%.",
 				"dungeon": "",
-				"region": "Scosglen",
-				"values": [
-					"30.0"
-				]
+				"region": "Scosglen"
 			},
 			"Conceited Aspect": {
 				"id": 178,
@@ -822,13 +726,9 @@ let codexData = {
 			"Aspect of Retribution": {
 				"id": 11,
 				"type": "Legendary",
-				"description": "Distant enemies have a {#}% chance to be Stunned for {#} seconds when they hit you. You deal x{30/50}% increased damage to Stunned enemies.",
+				"description": "Distant enemies have a 15.0% chance to be Stunned for 2.0 seconds when they hit you. You deal x{30/50}% increased damage to Stunned enemies.",
 				"dungeon": "Abandoned Mineworks",
-				"region": "Kehjistan",
-				"values": [
-					"15",
-					"2"
-				]
+				"region": "Kehjistan"
 			},
 			"Rapid Aspect": {
 				"id": 10,
@@ -847,12 +747,9 @@ let codexData = {
 			"Aspect of the Expectant": {
 				"id": 6,
 				"type": "Legendary",
-				"description": "Attacking enemies with a Basic Skill increases the damage of your next Core Skill cast by x{5/10}%, up to x{#}%.",
+				"description": "Attacking enemies with a Basic Skill increases the damage of your next Core Skill cast by x{5/10}%, up to x50.0%.",
 				"dungeon": "Underroot",
-				"region": "Scosglen",
-				"values": [
-					""
-				]
+				"region": "Scosglen"
 			},
 			"Needleflare Aspect": {
 				"id": 8,
@@ -864,32 +761,21 @@ let codexData = {
 			"Smiting Aspect": {
 				"id": 182,
 				"type": "Legendary",
-				"description": "You have x{#}% increased Critical Strike Chance against Injured enemies. While you are Healthy, you gain x{25/50}% increased Crowd Control Duration.",
+				"description": "You have x{12.5/25}% increased Critical Strike Chance against Injured enemies. While you are Healthy, you gain x{25/50}% increased Crowd Control Duration.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"The Butcher's Cleaver": {
 				"id": 183,
 				"type": "Unique",
-				"description": "Lucky Hit: When you Critically Strike an enemy you have up to a {#}% chance to Fear and Slow them by {40/75}% for {#} seconds.",
-				"flavor": "A nightmarish amalgam of blood, bone and steel, this axe is as horrific, and as deadly, as its creator.",
-				"values": [
-					"",
-					""
-				]
+				"description": "Lucky Hit: When you Critically Strike an enemy you have up to a 100.0% chance to Fear and Slow them by {40/75}% for 4.0 seconds.",
+				"flavor": "A nightmarish amalgam of blood, bone and steel, this axe is as horrific, and as deadly, as its creator."
 			},
 			"Doombringer": {
 				"id": 184,
 				"type": "Unique",
-				"description": "Lucky Hit: Up to a {15/25}% chance to deal 70.0 Shadow damage to surrounding enemies and reduce their damage done by {#}% for {#} seconds.",
-				"flavor": "Whenever this ancient sword has reappeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
-				"values": [
-					"",
-					""
-				]
+				"description": "Lucky Hit: Up to a {15/25}% chance to deal 70.0 Shadow damage to surrounding enemies and reduce their damage done by 20.0% for 3.0 seconds.",
+				"flavor": "Whenever this ancient sword has reappeared throughout history, it portends a time of great strife, as well as a devastating loss of life."
 			},
 			"The Grandfather": {
 				"id": 185,
@@ -912,23 +798,17 @@ let codexData = {
 			"Andariel's Visage": {
 				"id": 191,
 				"type": "Unique",
-				"description": "Lucky Hit: Up to a {10/20}% chance to trigger a poison nova that applies 225.0 Poisoning damage over {#} seconds to enemies in the area.",
-				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness...",
-				"values": [
-					""
-				]
+				"description": "Lucky Hit: Up to a {10/20}% chance to trigger a poison nova that applies 225.0 Poisoning damage over 5.0 seconds to enemies in the area.",
+				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness..."
 			}
 		},
 		"Utility": {
 			"Exploiter's Aspect": {
 				"id": 176,
 				"type": "Legendary",
-				"description": "You have +{#}% increased Crowd Control Duration and deal x{20/50}% increased damage to Unstoppable enemies.",
+				"description": "You have +20.0% increased Crowd Control Duration and deal x{20/50}% increased damage to Unstoppable enemies.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Shared Misery": {
 				"id": 13,
@@ -940,22 +820,15 @@ let codexData = {
 			"Eluding Aspect": {
 				"id": 180,
 				"type": "Legendary",
-				"description": "Becoming Injured while Crowd Controlled grants you Unstoppable for {#} seconds. This effect has a {20/40} second Cooldown.",
+				"description": "Becoming Injured while Crowd Controlled grants you Unstoppable for 4.0 seconds. This effect has a {20/40} second Cooldown.",
 				"dungeon": "Caldera Gate",
-				"region": "Fractured Peaks",
-				"values": [
-					"4"
-				]
+				"region": "Fractured Peaks"
 			},
 			"Melted Heart of Selig": {
 				"id": 186,
 				"type": "Unique",
-				"description": "Gain {#}% Maximum Resource. In addition, when you take damage, drain {3/6} Resource for every {#}% of Life you would have lost instead.",
-				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig",
-				"values": [
-					"",
-					""
-				]
+				"description": "Gain 100.0% Maximum Resource. In addition, when you take damage, drain {3/6} Resource for every 1.0% of Life you would have lost instead.",
+				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig"
 			},
 			"Penitent Greaves": {
 				"id": 187,
@@ -966,32 +839,23 @@ let codexData = {
 			"Frostburn": {
 				"id": 190,
 				"type": "Unique",
-				"description": "Lucky Hit: Up to a {15/25}% chance to Freeze enemies for {#} seconds.",
-				"flavor": "A touch so frigid it stops the heart and chills the very soul.",
-				"values": [
-					""
-				]
+				"description": "Lucky Hit: Up to a {15/25}% chance to Freeze enemies for 2.0 seconds.",
+				"flavor": "A touch so frigid it stops the heart and chills the very soul."
 			},
 			"Harlequin Crest": {
 				"id": 192,
 				"type": "Unique",
-				"description": "Gain [RandomInt(5*10,8*10)/10]% Damage Reduction.\nIn addition, gain {#} Ranks to all Skills.",
-				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston",
-				"values": [
-					"2"
-				]
+				"description": "Gain [RandomInt(5*10,8*10)/10]% Damage Reduction.\nIn addition, gain 2.0 Ranks to all Skills.",
+				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston"
 			}
 		},
 		"Resource": {
 			"Starlight Aspect": {
 				"id": 177,
 				"type": "Legendary",
-				"description": "Gain {10/20} of your Primary Resource for every {#}% of your Life that you Heal.",
+				"description": "Gain {10/20} of your Primary Resource for every 20.0% of your Life that you Heal.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"20"
-				]
+				"region": ""
 			},
 			"Aspect of the Umbral": {
 				"id": 12,
@@ -1003,73 +867,51 @@ let codexData = {
 			"Assimilation Aspect": {
 				"id": 181,
 				"type": "Legendary",
-				"description": "You have +{#}% increased Dodge Chance versus enemies affected by Damage Over Time effects. When you Dodge you gain {5/10} of your Primary Resource.",
+				"description": "You have +8.0% increased Dodge Chance versus enemies affected by Damage Over Time effects. When you Dodge you gain {5/10} of your Primary Resource.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Mother's Embrace": {
 				"id": 194,
 				"type": "Unique",
-				"description": "If a Core Skill hits {#} or more enemies, {20/40}% of the Resource cost is refunded.",
-				"flavor": "\"Every tome, every scroll, every book in this temple produces the same answer. The only being willing to stand against the Eternal Conflict, against the Prime Evils, was Lilith.\"\n- Elias",
-				"values": [
-					""
-				]
+				"description": "If a Core Skill hits 5.0 or more enemies, {20/40}% of the Resource cost is refunded.",
+				"flavor": "\"Every tome, every scroll, every book in this temple produces the same answer. The only being willing to stand against the Eternal Conflict, against the Prime Evils, was Lilith.\"\n- Elias"
 			},
 			"Ring of Starless Skies": {
 				"id": 195,
 				"type": "Unique",
-				"description": "Each consecutive Core Skill cast reduces the Resource cost of your next Core Skill by {5/10}%, up to a maximum of {#}%.",
-				"flavor": "\"Yours is the power to pluck the stars from the heavens with the ease of a child gathering fruit from the bough.\"\n- Unknown",
-				"values": [
-					""
-				]
+				"description": "Each consecutive Core Skill cast reduces the Resource cost of your next Core Skill by {5/10}%, up to a maximum of 30.0%.",
+				"flavor": "\"Yours is the power to pluck the stars from the heavens with the ease of a child gathering fruit from the bough.\"\n- Unknown"
 			}
 		},
 		"Defensive": {
 			"Aspect of Might": {
 				"id": 2,
 				"type": "Legendary",
-				"description": "Basic Skills grant {#}% Damage Reduction for {4/8} seconds.",
+				"description": "Basic Skills grant 25.0% Damage Reduction for {4/8} seconds.",
 				"dungeon": "Dark Ravine",
-				"region": "Dry Steppes",
-				"values": [
-					"25"
-				]
+				"region": "Dry Steppes"
 			},
 			"Aspect of the Protector": {
 				"id": 4,
 				"type": "Legendary",
-				"description": "Damaging an Elite enemy grants you a Barrier absorbing up to {75/150} damage for {#} seconds. This effect can only happen once every 30 seconds.",
+				"description": "Damaging an Elite enemy grants you a Barrier absorbing up to {75/150} damage for 10.0 seconds. This effect can only happen once every 30 seconds.",
 				"dungeon": "Lost Archives",
-				"region": "Fractured Peaks",
-				"values": [
-					""
-				]
+				"region": "Fractured Peaks"
 			},
 			"Protecting Aspect": {
 				"id": 3,
 				"type": "Legendary",
-				"description": "When hit while not Healthy, a magical bubble is summoned around you for {3/5} seconds. While standing in the bubble players are Immune. Can only occur once every {#} seconds.",
+				"description": "When hit while not Healthy, a magical bubble is summoned around you for {3/5} seconds. While standing in the bubble players are Immune. Can only occur once every 90.0 seconds.",
 				"dungeon": "Caldera Gate",
-				"region": "Fractured Peaks",
-				"values": [
-					""
-				]
+				"region": "Fractured Peaks"
 			},
 			"Aspect of Disobedience": {
 				"id": 1,
 				"type": "Legendary",
-				"description": "You gain x{0.25/0.5}% increased Armor for {#} seconds when you deal any form of damage, stacking up to x{#}%.",
+				"description": "You gain x{0.25/0.5}% increased Armor for 4.0 seconds when you deal any form of damage, stacking up to x{25/50}%.",
 				"dungeon": "Halls of the Damned",
-				"region": "Kehjistan",
-				"values": [
-					"4",
-					""
-				]
+				"region": "Kehjistan"
 			},
 			"Aspect of the Crowded Sage": {
 				"id": 179,
@@ -1088,35 +930,24 @@ let codexData = {
 			"Temerity": {
 				"id": 193,
 				"type": "Unique",
-				"description": "Effects that Heal you beyond {#}% Life grant you a Barrier up to {50/100}% of your Maximum Life that lasts for {#} seconds.",
-				"flavor": "\"The revelation that master tailor Callas was in fact a witch only served to further fuel the desire for her uniquely enchanted legwraps.\"\n- Barrett's Book of Implements",
-				"values": [
-					"",
-					""
-				]
+				"description": "Effects that Heal you beyond 100.0% Life grant you a Barrier up to {50/100}% of your Maximum Life that lasts for 30.0 seconds.",
+				"flavor": "\"The revelation that master tailor Callas was in fact a witch only served to further fuel the desire for her uniquely enchanted legwraps.\"\n- Barrett's Book of Implements"
 			}
 		},
 		"Mobility": {
 			"Wind Striker Aspect": {
 				"id": 15,
 				"type": "Legendary",
-				"description": "Critical Strikes grant +{8/16}% Movement Speed for {#} second, up to {#} seconds.",
+				"description": "Critical Strikes grant +{8/16}% Movement Speed for 1.0 second, up to 6.0 seconds.",
 				"dungeon": "Shivta Ruins",
-				"region": "Kehjistan",
-				"values": [
-					"",
-					""
-				]
+				"region": "Kehjistan"
 			},
 			"Ghostwalker Aspect": {
 				"id": 14,
 				"type": "Legendary",
-				"description": "While Unstoppable and for {#} seconds after, you gain +{10/25}% increased Movement Speed and can move freely through enemies.",
+				"description": "While Unstoppable and for 2.0 seconds after, you gain +{10/25}% increased Movement Speed and can move freely through enemies.",
 				"dungeon": "",
-				"region": "Scosglen",
-				"values": [
-					"2"
-				]
+				"region": "Scosglen"
 			}
 		}
 	},
@@ -1125,14 +956,9 @@ let codexData = {
 			"Aspect of Ultimate Shadow": {
 				"id": 196,
 				"type": "Legendary",
-				"description": "Bone Storm and Blood Wave are also Darkness Skills, deal Shadow damage, and gain additional effects:\n•  Enemies damaged by Bone Storm take {16/22} Shadow damage over {#} seconds.\n•  Blood Wave desecrates the ground it travels over, dealing {#} Shadow damage over {#} seconds.",
+				"description": "Bone Storm and Blood Wave are also Darkness Skills, deal Shadow damage, and gain additional effects:\n•  Enemies damaged by Bone Storm take {16/22} Shadow damage over 2.0 seconds.\n•  Blood Wave desecrates the ground it travels over, dealing {256/352} Shadow damage over 4.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Explosive Mist": {
 				"id": 197,
@@ -1144,54 +970,37 @@ let codexData = {
 			"Aspect of Frenzied Dead": {
 				"id": 198,
 				"type": "Legendary",
-				"description": "Each time one of your Summoning Minions damages an enemy, they gain +{10/14}% Attack Speed for {#} seconds, up to +{#}%.",
+				"description": "Each time one of your Summoning Minions damages an enemy, they gain +{10/14}% Attack Speed for 3.0 seconds, up to +{30/42}%.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Splintering Aspect": {
 				"id": 199,
 				"type": "Legendary",
-				"description": "Bone Spear's primary attack makes enemies hit beyond the first Vulnerable for {1.5/2.5} seconds. Bone Shards from Bone Spear deal {#}% bonus damage to Vulnerable enemies and pierce them.",
+				"description": "Bone Spear's primary attack makes enemies hit beyond the first Vulnerable for {1.5/2.5} seconds. Bone Shards from Bone Spear deal {50/100}% bonus damage to Vulnerable enemies and pierce them.",
 				"dungeon": "",
-				"region": "Dry Steppes",
-				"values": [
-					"1.5"
-				]
+				"region": "Dry Steppes"
 			},
 			"Aspect of Plunging Darkness": {
 				"id": 200,
 				"type": "Legendary",
-				"description": "Bone Prison spawns a pool of Blight that deals {50/100}% bonus damage over {#} seconds.",
+				"description": "Bone Prison spawns a pool of Blight that deals {50/100}% bonus damage over 6.0 seconds.",
 				"dungeon": "Rimescar Cavern",
-				"region": "Hawezar",
-				"values": [
-					"50"
-				]
+				"region": "Hawezar"
 			},
 			"Rotting Aspect": {
 				"id": 201,
 				"type": "Legendary",
-				"description": "Decompose can chain up to {#} additional targets. When Decompose spawns a Corpse, it has a {30/60}% chance to spawn a Corpse under all afflicted targets.",
+				"description": "Decompose can chain up to 2.0 additional targets. When Decompose spawns a Corpse, it has a {30/60}% chance to spawn a Corpse under all afflicted targets.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Empowering Reaper": {
 				"id": 62,
 				"type": "Legendary",
-				"description": "Critical Strikes from Sever have a {10/20}% chance to spawn a pool of Blight under the target that deals {#}% bonus damage. This effect can only happen once every {#} seconds.",
+				"description": "Critical Strikes from Sever have a {10/20}% chance to spawn a pool of Blight under the target that deals {20/60}% bonus damage. This effect can only happen once every 3.0 seconds.",
 				"dungeon": "Flooded Depths",
-				"region": "Scosglen",
-				"values": [
-					"10",
-					"20"
-				]
+				"region": "Scosglen"
 			},
 			"Blood Seeker's Aspect": {
 				"id": 59,
@@ -1210,12 +1019,9 @@ let codexData = {
 			"Blood-soaked Aspect": {
 				"id": 205,
 				"type": "Legendary",
-				"description": "Blood Mist leaves a trail that lasts for {#} seconds and deals {15/20} Shadow damage per second to enemies who stand in it. Your Movement Speed is no longer reduced while Blood Mist is active.",
+				"description": "Blood Mist leaves a trail that lasts for 4.0 seconds and deals {15/20} Shadow damage per second to enemies who stand in it. Your Movement Speed is no longer reduced while Blood Mist is active.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Swelling Curse": {
 				"id": 66,
@@ -1241,24 +1047,16 @@ let codexData = {
 			"Aspect of Grasping Veins": {
 				"id": 207,
 				"type": "Legendary",
-				"description": "Gain +{10/20}% increased Critical Strike Chance for {#} seconds when you cast Corpse Tendrils. You deal x{#}% bonus Critical Strike Damage to enemies damaged by Corpse Tendrils.",
+				"description": "Gain +{10/20}% increased Critical Strike Chance for 6.0 seconds when you cast Corpse Tendrils. You deal x{30/60}% bonus Critical Strike Damage to enemies damaged by Corpse Tendrils.",
 				"dungeon": "Corrupted Grotto",
-				"region": "Kehjistan",
-				"values": [
-					"10",
-					"6"
-				]
+				"region": "Kehjistan"
 			},
 			"Aspect of Serration": {
 				"id": 210,
 				"type": "Legendary",
-				"description": "The Ossified Essence Key Passive also increases the Critical Strike Damage of your Bone Skills by +{#}% per Essence above {#}, up to +{30/40}%.",
+				"description": "The Ossified Essence Key Passive also increases the Critical Strike Damage of your Bone Skills by +1.0% per Essence above 50.0, up to +{30/40}%.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Osseous Gale Aspect": {
 				"id": 211,
@@ -1270,13 +1068,9 @@ let codexData = {
 			"Blighted Aspect": {
 				"id": 57,
 				"type": "Legendary",
-				"description": "You deal x{50/120}% increased damage for {#} seconds after the Shadowblight Key Passive damages enemies {#} times.",
+				"description": "You deal x{50/120}% increased damage for 6.0 seconds after the Shadowblight Key Passive damages enemies 10.0 times.",
 				"dungeon": "",
-				"region": "Hawezar",
-				"values": [
-					"50",
-					"6"
-				]
+				"region": "Hawezar"
 			},
 			"Aspect of the Damned": {
 				"id": 61,
@@ -1288,13 +1082,9 @@ let codexData = {
 			"Aspect of Decay": {
 				"id": 213,
 				"type": "Legendary",
-				"description": "Each time the Shadowblight Key Passive deals damage to enemies, it increases the next Shadowblight's damage within {#} seconds by x{20/40}%, stacking up to {#} times.",
+				"description": "Each time the Shadowblight Key Passive deals damage to enemies, it increases the next Shadowblight's damage within 10.0 seconds by x{20/40}%, stacking up to 5.0 times.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Blood-bathed Aspect": {
 				"id": 58,
@@ -1313,20 +1103,16 @@ let codexData = {
 			"Aspect of Rathma's Chosen": {
 				"id": 215,
 				"type": "Legendary",
-				"description": "Whenever your Blood Skills Overpower you gain +{20/50}% Attack Speed for {c_number}[Affix.\"Static Value 0\"] seconds.",
+				"description": "Whenever your Blood Skills Overpower you gain +{20/50}% Attack Speed for 4.0 seconds.",
 				"dungeon": "",
 				"region": ""
 			},
 			"Aspect of Untimely Death": {
 				"id": 216,
 				"type": "Legendary",
-				"description": "Each percent of your Maximum Life you Heal beyond {#}% grants you +{#}% bonus Overpower damage on your next Overpowering attack, up to a {20/60}% bonus.",
+				"description": "Each percent of your Maximum Life you Heal beyond 100.0% grants you +0.5% bonus Overpower damage on your next Overpowering attack, up to a {20/60}% bonus.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Sacrificial Aspect": {
 				"id": 65,
@@ -1338,49 +1124,35 @@ let codexData = {
 			"Aspect of Reanimation": {
 				"id": 64,
 				"type": "Legendary",
-				"description": "Your Skeletons gain increased damage while alive, up to x{20/30}% after {#} seconds.",
+				"description": "Your Skeletons gain increased damage while alive, up to x{20/30}% after 10.0 seconds.",
 				"dungeon": "",
-				"region": "Scosglen",
-				"values": [
-					"20"
-				]
+				"region": "Scosglen"
 			},
 			"Cadaverous Aspect": {
 				"id": 218,
 				"type": "Legendary",
-				"description": "Consuming a Corpse increases the damage of your next Core Skill by x{5/10}%, up to x{#}%.",
+				"description": "Consuming a Corpse increases the damage of your next Core Skill by x{5/10}%, up to x{25/50}%.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Black River": {
 				"id": 220,
 				"type": "Unique",
-				"description": "Corpse Explosion consumes up to {#} additional Corpses around the initial Corpse, dealing x{122/130}% increased damage and with a {21/25}% larger radius per additional Corpse.",
-				"flavor": "\"The scrolls describe a river of tar that separated the living from the land of the dead. Any unfortunate soul who tried to cross would be dragged down into oblivion.\"\n- Notes of Scholar Kamien",
-				"values": [
-					""
-				]
+				"description": "Corpse Explosion consumes up to 4.0 additional Corpses around the initial Corpse, dealing x{122/130}% increased damage and with a {21/25}% larger radius per additional Corpse.",
+				"flavor": "\"The scrolls describe a river of tar that separated the living from the land of the dead. Any unfortunate soul who tried to cross would be dragged down into oblivion.\"\n- Notes of Scholar Kamien"
 			},
 			"Deathspeaker's Pendant": {
 				"id": 222,
 				"type": "Unique",
-				"description": "Blood Surge casts a mini nova on your Minions, dealing {10/15} damage. Damage is increased by {#}% per target drained by the initial cast, up to {#}%.",
-				"flavor": "Once a sanctum for Rathma's studies, the Temple of the Deathspeaker became a proving grounds for potential leaders of his priesthood. Its halls are filled with the corpses of those who failed.",
-				"values": [
-					"",
-					""
-				]
+				"description": "Blood Surge casts a mini nova on your Minions, dealing {10/15} damage. Damage is increased by 10.0% per target drained by the initial cast, up to 50.0%.",
+				"flavor": "Once a sanctum for Rathma's studies, the Temple of the Deathspeaker became a proving grounds for potential leaders of his priesthood. Its halls are filled with the corpses of those who failed."
 			},
 			"Greaves of the Empty Tomb": {
 				"id": 223,
 				"type": "Unique",
-				"description": "Create desecrated ground beneath your Sever spectres as they travel, damaging enemies for {#} Shadow damage over {#} seconds.",
+				"description": "Create desecrated ground beneath your Sever spectres as they travel, damaging enemies for {#} Shadow damage over 2.0 seconds.",
 				"flavor": "\"The massive door to my family's crypt, which had taken a dozen men to close, was thrown open. Had I known the horrors to come I never would have set foot inside!\"\n-The Ebon Pages, Canto I, Verse VII",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1405,11 +1177,9 @@ let codexData = {
 			"Ring of Mendeln": {
 				"id": 227,
 				"type": "Unique",
-				"description": "While you have {#} or more Minions you gain:\n•  Lucky Hit: Up to a {#}% chance to empower all of your Minions, causing the next attack from each to explode for {#} Physical damage.",
+				"description": "While you have 7.0 or more Minions you gain:\n•  Lucky Hit: Up to a 10.0% chance to empower all of your Minions, causing the next attack from each to explode for {#} Physical damage.",
 				"flavor": "The signet of Mendeln ul-Diomed, the founder of the Priests of Rathma and the first Necromancer, was lost for over 3,000 years. The immense power over death held within, however, has not diminished.",
 				"values": [
-					"",
-					"",
 					""
 				]
 			}
@@ -1432,12 +1202,9 @@ let codexData = {
 			"Aspect of Exposed Flesh": {
 				"id": 212,
 				"type": "Legendary",
-				"description": "Lucky Hit: Up to a {#}% chance to generate {30/50} Essence when hitting a Vulnerable enemy with your Bone Skills.",
+				"description": "Lucky Hit: Up to a 10.0% chance to generate {30/50} Essence when hitting a Vulnerable enemy with your Bone Skills.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Fastblood Aspect": {
 				"id": 68,
@@ -1456,12 +1223,9 @@ let codexData = {
 			"Hulking Aspect": {
 				"id": 70,
 				"type": "Legendary",
-				"description": "Your Golem has a {10/30}% chance to reduce its active Cooldown by {#} seconds and a {5/15}% chance to spawn a Corpse each time it damages an enemy with its normal attack.",
+				"description": "Your Golem has a {10/30}% chance to reduce its active Cooldown by 2.0 seconds and a {5/15}% chance to spawn a Corpse each time it damages an enemy with its normal attack.",
 				"dungeon": "Sepulcher of The Forsworn",
-				"region": "Kehjistan",
-				"values": [
-					"10"
-				]
+				"region": "Kehjistan"
 			},
 			"Requiem Aspect": {
 				"id": 72,
@@ -1482,14 +1246,9 @@ let codexData = {
 			"Coldbringer's Aspect": {
 				"id": 202,
 				"type": "Legendary",
-				"description": "Every {#} seconds, your Cold Skeletal Mages cast a blizzard that deals {50/60} Cold damage and continuously Chills enemies for {#}% over {#} seconds.",
+				"description": "Every 10.0 seconds, your Cold Skeletal Mages cast a blizzard that deals {50/60} Cold damage and continuously Chills enemies for 8.0% over 6.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Viscous Aspect": {
 				"id": 204,
@@ -1508,44 +1267,31 @@ let codexData = {
 			"Torturous Aspect": {
 				"id": 74,
 				"type": "Legendary",
-				"description": "Enemies afflicted by your Iron Maiden have a {15/25}% chance to be Stunned for {#} second when they deal direct damage.",
+				"description": "Enemies afflicted by your Iron Maiden have a {15/25}% chance to be Stunned for 1.0 second when they deal direct damage.",
 				"dungeon": "",
-				"region": "Kehjistan",
-				"values": [
-					"15"
-				]
+				"region": "Kehjistan"
 			},
 			"Bloodless Scream": {
 				"id": 221,
 				"type": "Unique",
-				"description": "Your Darkness Skills Chill enemies for up to {#}%.\n\nLucky Hit: Your Darkness Skills have up to a {#}% chance to generate {2/5} additional Essence against Frozen targets.",
-				"flavor": "\"My companion swung her odd weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI",
-				"values": [
-					"",
-					""
-				]
+				"description": "Your Darkness Skills Chill enemies for up to 40.0%.\n\nLucky Hit: Your Darkness Skills have up to a 100.0% chance to generate {2/5} additional Essence against Frozen targets.",
+				"flavor": "\"My companion swung her odd weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI"
 			}
 		},
 		"Defensive": {
 			"Aspect of Shielding Storm": {
 				"id": 206,
 				"type": "Legendary",
-				"description": "Each time that Bone Storm damages an enemy, gain a Barrier equal to {2/5}% of your Base Life for {#} seconds.",
+				"description": "Each time that Bone Storm damages an enemy, gain a Barrier equal to {2/5}% of your Base Life for 10.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Hardened Bones": {
 				"id": 217,
 				"type": "Legendary",
-				"description": "While you have {#} or more Minions, your Minions gain {15/20}% increased Damage Reduction.",
+				"description": "While you have 7.0 or more Minions, your Minions gain {15/20}% increased Damage Reduction.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of the Embalmer": {
 				"id": 219,
@@ -1568,12 +1314,9 @@ let codexData = {
 			"Aspect of Imitated Imbuement": {
 				"id": 230,
 				"type": "Legendary",
-				"description": "Your Shadow Clones also mimic the Imbuements applied to your Skills.\nCasting an Imbuement Skill grants your active Shadow Clone x{8/16}% increased damage for {#} seconds.",
+				"description": "Your Shadow Clones also mimic the Imbuements applied to your Skills.\nCasting an Imbuement Skill grants your active Shadow Clone x{8/16}% increased damage for 5.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Trickshot Aspect": {
 				"id": 231,
@@ -1627,24 +1370,16 @@ let codexData = {
 			"Toxic Alchemist's Aspect": {
 				"id": 234,
 				"type": "Legendary",
-				"description": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a {#}%{/c} chance to create a toxic explosion that applies {8/13.5} Poisoning damage over {#} seconds to the target and surrounding enemies.",
+				"description": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a  c_number75.0% chance to create a toxic explosion that applies {8/13.5} Poisoning damage over 5.0 seconds to the target and surrounding enemies.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Icy Alchemist's Aspect": {
 				"id": 235,
 				"type": "Legendary",
-				"description": "Lucky Hit: Damaging a Chilled or Frozen enemy with a Shadow Imbued Skill has up to a {#}% chance to release an explosion that deals {22/40} Cold damage to the target and surrounding enemies, Chilling them for {#}%.",
+				"description": "Lucky Hit: Damaging a Chilled or Frozen enemy with a Shadow Imbued Skill has up to a 75.0% chance to release an explosion that deals {22/40} Cold damage to the target and surrounding enemies, Chilling them for 15.0%.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Shadowslicer Aspect": {
 				"id": 86,
@@ -1656,25 +1391,16 @@ let codexData = {
 			"Aspect of Arrow Storms": {
 				"id": 80,
 				"type": "Legendary",
-				"description": "Lucky Hit: Your Marksman Skills have up to a {#}% chance to create an arrow storm at the enemy's location, dealing {108/135} Physical damage over {#} seconds. You can have up to {#} active arrow storms.",
+				"description": "Lucky Hit: Your Marksman Skills have up to a 10.0% chance to create an arrow storm at the enemy's location, dealing {108/135} Physical damage over 3.0 seconds. You can have up to 5.0 active arrow storms.",
 				"dungeon": "Howling Warren",
-				"region": "Scosglen",
-				"values": [
-					"10",
-					"",
-					"3"
-				]
+				"region": "Scosglen"
 			},
 			"Aspect of Bursting Venoms": {
 				"id": 236,
 				"type": "Legendary",
-				"description": "Lucky Hit: Critical Strikes with Poison Imbued Skills have up to a {#}% chance to create a toxic pool that deals {108/135} Poisoning damage over {#} seconds to enemies within. While standing in the pool Poison Imbuement has no Cooldown and no Charge limit.",
+				"description": "Lucky Hit: Critical Strikes with Poison Imbued Skills have up to a 10.0% chance to create a toxic pool that deals {108/135} Poisoning damage over 3.0 seconds to enemies within. While standing in the pool Poison Imbuement has no Cooldown and no Charge limit.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Branching Volleys": {
 				"id": 82,
@@ -1686,25 +1412,19 @@ let codexData = {
 			"Blast-Trapper's Aspect": {
 				"id": 81,
 				"type": "Legendary",
-				"description": "Lucky Hit: Dealing direct damage to enemies affected by your Trap Skills has up to a {#}% chance to make them Vulnerable for {#} seconds.",
+				"description": "Lucky Hit: Dealing direct damage to enemies affected by your Trap Skills has up to a {#}% chance to make them Vulnerable for 3.0 seconds.",
 				"dungeon": "",
 				"region": "Fractured Peaks",
 				"values": [
-					"30",
-					"3"
+					"30"
 				]
 			},
 			"Vengeful Aspect": {
 				"id": 90,
 				"type": "Legendary",
-				"description": "Lucky Hit: Making an enemy Vulnerable has up to a {30/50}% chance to grant +{#}% increased Critical Strike Chance for {#} seconds, up to +{#}%.",
+				"description": "Lucky Hit: Making an enemy Vulnerable has up to a {30/50}% chance to grant +3.0% increased Critical Strike Chance for 3.0 seconds, up to +9.0%.",
 				"dungeon": "Inferno",
-				"region": "Kehjistan",
-				"values": [
-					"30",
-					"3",
-					"3"
-				]
+				"region": "Kehjistan"
 			},
 			"Opportunist's Aspect": {
 				"id": 85,
@@ -1778,56 +1498,40 @@ let codexData = {
 			"Snap Frozen Aspect": {
 				"id": 229,
 				"type": "Legendary",
-				"description": "Each Chilled or Frozen enemy you Evade through grants you a Barrier that absorbs {5/10} damage for {#} seconds, absorbing up to a maximum of {#}% damage.",
+				"description": "Each Chilled or Frozen enemy you Evade through grants you a Barrier that absorbs {5/10} damage for 5.0 seconds, absorbing up to a maximum of {25/50} damage.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Enshrouding Aspect": {
 				"id": 77,
 				"type": "Legendary",
-				"description": "Gain a free Dark Shroud shadow every {#} seconds when standing still. Each Dark Shroud shadow grants {2/4}% increased Damage Reduction.",
+				"description": "Gain a free Dark Shroud shadow every 3.0 seconds when standing still. Each Dark Shroud shadow grants {2/4}% increased Damage Reduction.",
 				"dungeon": "Ghoa Ruins",
-				"region": "Hawezar",
-				"values": [
-					"3"
-				]
+				"region": "Hawezar"
 			},
 			"Aspect of Uncanny Treachery": {
 				"id": 237,
 				"type": "Legendary",
-				"description": "Dealing direct damage to a Dazed Enemy with an Agility Skill grants Stealth for {#} seconds. Breaking Stealth with an attack grants you {#}% Control Impaired Duration Reduction for {#} seconds.",
+				"description": "Dealing direct damage to a Dazed Enemy with an Agility Skill grants Stealth for 4.0 seconds. Breaking Stealth with an attack grants you {#}% Control Impaired Duration Reduction for 4.0 seconds.",
 				"dungeon": "",
 				"region": "Scosglen",
 				"values": [
-					"4",
-					"15",
 					"4"
 				]
 			},
 			"Aspect of Cruel Sustenance": {
 				"id": 238,
 				"type": "Legendary",
-				"description": "Explosions from the Victimize Key Passive Heal you for {5/9} Life for each enemy damaged, up to a maximum of {#} Life.",
+				"description": "Explosions from the Victimize Key Passive Heal you for {5/9} Life for each enemy damaged, up to a maximum of {15/27} Life.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Escape Artist's Aspect": {
 				"id": 239,
 				"type": "Legendary",
-				"description": "Upon taking damage from surrounding enemies, you drop a Smoke Grenade and Dodge the next {2/7} attacks within {#} seconds. This effect can only occur once every {#} seconds.",
+				"description": "Upon taking damage from surrounding enemies, you drop a Smoke Grenade and Dodge the next {2/7} attacks within 10.0 seconds. This effect can only occur once every 100.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Stolen Vigor": {
 				"id": 240,
@@ -1839,13 +1543,11 @@ let codexData = {
 			"Cheat's Aspect": {
 				"id": 76,
 				"type": "Legendary",
-				"description": "You take {#}% less damage from Crowd Controlled enemies. Whenever a Crowd Controlled enemy deals direct damage to you, gain +{#}% Movement Speed for {#} seconds.",
+				"description": "You take {#}% less damage from Crowd Controlled enemies. Whenever a Crowd Controlled enemy deals direct damage to you, gain +15.0% Movement Speed for 2.0 seconds.",
 				"dungeon": "Luban's Rest",
 				"region": "Scosglen",
 				"values": [
-					"15.0",
-					"15",
-					"2"
+					"15.0"
 				]
 			},
 			"Aspect of Siphoned Victuals": {
@@ -1871,13 +1573,9 @@ let codexData = {
 			"Aspect of Lethal Dusk": {
 				"id": 248,
 				"type": "Legendary",
-				"description": "Evading through an enemy infected by Shadow Imbuement grants Stealth for {#} seconds. Breaking Stealth with an attack grants you {1/5}% Maximum Life on Kill for {#} seconds.",
+				"description": "Evading through an enemy infected by Shadow Imbuement grants Stealth for 4.0 seconds. Breaking Stealth with an attack grants you {1/5}% Maximum Life on Kill for 4.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Elusive Menace": {
 				"id": 249,
@@ -1898,12 +1596,11 @@ let codexData = {
 			"Ravenous Aspect": {
 				"id": 94,
 				"type": "Legendary",
-				"description": "Killing a Vulnerable enemy grants you x{#}% increased Energy Regeneration for {#} seconds.",
+				"description": "Killing a Vulnerable enemy grants you x{#}% increased Energy Regeneration for 4.0 seconds.",
 				"dungeon": "Shifting City",
 				"region": "Dry Steppes",
 				"values": [
-					"50",
-					"4"
+					"50"
 				]
 			}
 		},
@@ -1911,12 +1608,9 @@ let codexData = {
 			"Aspect of Explosive Verve": {
 				"id": 95,
 				"type": "Legendary",
-				"description": "Your Grenade Skills count as Trap Skills. Whenever you arm a Trap or drop Grenades, you gain +{10/18}% increased Movement Speed for {#} seconds.",
+				"description": "Your Grenade Skills count as Trap Skills. Whenever you arm a Trap or drop Grenades, you gain +{10/18}% increased Movement Speed for 3.0 seconds.",
 				"dungeon": "Derelict Lodge",
-				"region": "Fractured Peaks",
-				"values": [
-					"10"
-				]
+				"region": "Fractured Peaks"
 			},
 			"Aspect of Quickening Fog": {
 				"id": 241,
@@ -1932,32 +1626,27 @@ let codexData = {
 			"Mangler's Aspect": {
 				"id": 243,
 				"type": "Legendary",
-				"description": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a {25/45}% chance to Daze them for {#} seconds.",
+				"description": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a {25/45}% chance to Daze them for 2.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Noxious Ice": {
 				"id": 245,
 				"type": "Legendary",
-				"description": "Chilled enemies Poisoned by Poison Imbuement will be further Chilled for {#}% per second. You deal x{#}% additional Poison damage to Frozen enemies.",
+				"description": "Chilled enemies Poisoned by Poison Imbuement will be further Chilled for 20.0% per second. You deal x{#}% additional Poison damage to Frozen enemies.",
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
 			"Frostbitten Aspect": {
 				"id": 251,
 				"type": "Legendary",
-				"description": "Chilled enemies hit by your Grenade Skills have a chance equal to double your Critical Strike Chance to be instantly Frozen for {#} seconds. You deal x{#}% increased Critical Strike Damage against Frozen enemies.",
+				"description": "Chilled enemies hit by your Grenade Skills have a chance equal to double your Critical Strike Chance to be instantly Frozen for 2.0 seconds. You deal x{#}% increased Critical Strike Damage against Frozen enemies.",
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1972,11 +1661,10 @@ let codexData = {
 			"Ravager's Aspect": {
 				"id": 246,
 				"type": "Legendary",
-				"description": "Shadow Step has an additional Charge. Killing an enemy with Shadow Step refunds a Charge and increases the damage of Shadow Step by x{#}% for {#} seconds, up to x{#}%.",
+				"description": "Shadow Step has an additional Charge. Killing an enemy with Shadow Step refunds a Charge and increases the damage of Shadow Step by x{#}% for 2.0 seconds, up to x{#}%.",
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					"",
 					""
 				]
@@ -1986,12 +1674,8 @@ let codexData = {
 			"Asheara's Khanjar": {
 				"id": 253,
 				"type": "Unique",
-				"description": "Hits with this weapon increase your Attack Speed by +{4/6}% for {#} seconds, up to +{#}%.",
-				"flavor": "When Caldeum's gates closed, Asheara led her Iron Wolves out of the city knowing full well they would never return. Instead they roamed Kehjistan pledging their blades to any who were in need.",
-				"values": [
-					"",
-					""
-				]
+				"description": "Hits with this weapon increase your Attack Speed by +{4/6}% for 4.0 seconds, up to +{20/30}%.",
+				"flavor": "When Caldeum's gates closed, Asheara led her Iron Wolves out of the city knowing full well they would never return. Instead they roamed Kehjistan pledging their blades to any who were in need."
 			}
 		}
 	},
@@ -2000,12 +1684,9 @@ let codexData = {
 			"Aspect of Frozen Memories": {
 				"id": 260,
 				"type": "Legendary",
-				"description": "The Avalanche Key Passive now applies to {#} additional casts.",
+				"description": "The Avalanche Key Passive now applies to 1.0 additional casts.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Abundant Energy": {
 				"id": 261,
@@ -2031,32 +1712,23 @@ let codexData = {
 			"Aspect of Static Cling": {
 				"id": 264,
 				"type": "Legendary",
-				"description": "Your casts of Charged Bolts have a {15/25}% chance to be attracted to enemies and and last {#}% longer.",
+				"description": "Your casts of Charged Bolts have a {15/25}% chance to be attracted to enemies and and last 300.0% longer.",
 				"dungeon": "Wretched Delve",
-				"region": "Scosglen",
-				"values": [
-					"15.0"
-				]
+				"region": "Scosglen"
 			},
 			"Aspect of Frozen Orbit": {
 				"id": 266,
 				"type": "Legendary",
-				"description": "Frozen Orb stays in place after reaching its destination and explodes {#} additional times for {20/30}% of its damage.",
+				"description": "Frozen Orb stays in place after reaching its destination and explodes 2.0 additional times for {20/30}% of its damage.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Serpentine Aspect": {
 				"id": 267,
 				"type": "Legendary",
-				"description": "You may have {#} additional Hydra active, but Hydra's duration is reduced by {20/25}%.",
+				"description": "You may have 1.0 additional Hydra active, but Hydra's duration is reduced by {20/25}%.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Armageddon": {
 				"id": 268,
@@ -2092,13 +1764,9 @@ let codexData = {
 			"Aspect of Shattered Stars": {
 				"id": 272,
 				"type": "Legendary",
-				"description": "Meteorites fall around Meteor, dealing {15/20} Fire damage on impact. Your Meteorites additionally Burn enemies they hit for {#}% damage over {#} seconds.",
+				"description": "Meteorites fall around Meteor, dealing {15/20} Fire damage on impact. Your Meteorites additionally Burn enemies they hit for {45/60} damage over 6.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					"",
-					""
-				]
+				"region": ""
 			},
 			"Glacial Aspect": {
 				"id": 273,
@@ -2124,12 +1792,9 @@ let codexData = {
 			"Aspect of Biting Cold": {
 				"id": 99,
 				"type": "Legendary",
-				"description": "When you Freeze an enemy there is a {25/35}% chance they become Vulnerable for {#} seconds.",
+				"description": "When you Freeze an enemy there is a {25/35}% chance they become Vulnerable for 3.0 seconds.",
 				"dungeon": "",
-				"region": "Dry Steppes",
-				"values": [
-					"25"
-				]
+				"region": "Dry Steppes"
 			},
 			"Storm Swell Aspect": {
 				"id": 107,
@@ -2162,12 +1827,9 @@ let codexData = {
 			"Mage-Lord's Aspect": {
 				"id": 280,
 				"type": "Legendary",
-				"description": "The Vyr's Mastery Key Passive's Damage Reduction is increased by  {20/30}% for each Close enemy, up to {#}%.",
+				"description": "The Vyr's Mastery Key Passive's Damage Reduction is increased by  {20/30}% for each Close enemy, up to {60/90}%.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Splintering Energy": {
 				"id": 106,
@@ -2179,12 +1841,9 @@ let codexData = {
 			"Aspect of the Unbroken Tether": {
 				"id": 281,
 				"type": "Legendary",
-				"description": "Chain Lightning has a {25/35}% chance to chain {#} additional times.",
+				"description": "Chain Lightning has a {25/35}% chance to chain 2.0 additional times.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Stable Aspect": {
 				"id": 282,
@@ -2196,12 +1855,11 @@ let codexData = {
 			"Elementalist's Aspect": {
 				"id": 102,
 				"type": "Legendary",
-				"description": "Core or Mastery Skills cast at or above {#} Mana gain a +{#}% increased Critical Strike Chance.",
+				"description": "Core or Mastery Skills cast at or above 100.0 Mana gain a +{#}% increased Critical Strike Chance.",
 				"dungeon": "Pallid Delve",
 				"region": "Dry Steppes",
 				"values": [
-					"100",
-					"20.0"
+					"100"
 				]
 			},
 			"Aspect of Control": {
@@ -2232,11 +1890,8 @@ let codexData = {
 			"Esadora's Overflowing Cameo": {
 				"id": 288,
 				"type": "Unique",
-				"description": "Upon collecting Crackling Energy, there's a  {#}% chance to release a lightning nova, dealing {31/40} Lightning Damage.",
-				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both.",
-				"values": [
-					""
-				]
+				"description": "Upon collecting Crackling Energy, there's a  10.0% chance to release a lightning nova, dealing {31/40} Lightning Damage.",
+				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both."
 			},
 			"Esu's Heirloom": {
 				"id": 289,
@@ -2262,12 +1917,9 @@ let codexData = {
 			"Aspect of Singed Extremities": {
 				"id": 271,
 				"type": "Legendary",
-				"description": "After Immobilize wears off, enemies are Slowed by {25/35}% for {#} seconds.",
+				"description": "After Immobilize wears off, enemies are Slowed by {25/35}% for 4.0 seconds.",
 				"dungeon": "Earthen Wound",
-				"region": "Hawezar",
-				"values": [
-					"25"
-				]
+				"region": "Hawezar"
 			},
 			"Aspect of Fortune": {
 				"id": 276,
@@ -2279,11 +1931,8 @@ let codexData = {
 			"Raiment of the Infinite": {
 				"id": 290,
 				"type": "Unique",
-				"description": "After using Teleport, Close enemies are Pulled to you and Stunned for {2/3} seconds, but Teleport's Cooldown is increased by x{#}%.",
-				"flavor": "The power you have is never enough.",
-				"values": [
-					""
-				]
+				"description": "After using Teleport, Close enemies are Pulled to you and Stunned for {2/3} seconds, but Teleport's Cooldown is increased by x20.0%.",
+				"flavor": "The power you have is never enough."
 			}
 		},
 		"Defensive": {
@@ -2340,44 +1989,32 @@ let codexData = {
 			"Charged Aspect": {
 				"id": 115,
 				"type": "Legendary",
-				"description": "Collecting Crackling Energy increases your Movement Speed by +{10/15}% for {#} seconds.",
+				"description": "Collecting Crackling Energy increases your Movement Speed by +{10/15}% for 4.0 seconds.",
 				"dungeon": "Maddux Watch",
-				"region": "Scosglen",
-				"values": [
-					""
-				]
+				"region": "Scosglen"
 			},
 			"Flamewalker's Aspect": {
 				"id": 116,
 				"type": "Legendary",
-				"description": "Coming in contact with your Firewall grants you +{15/25}% Movement Speed for {#} seconds.",
+				"description": "Coming in contact with your Firewall grants you +{15/25}% Movement Speed for 4.0 seconds.",
 				"dungeon": "Cultist Refuge",
-				"region": "Fractured Peaks",
-				"values": [
-					""
-				]
+				"region": "Fractured Peaks"
 			},
 			"Aspect of the Bounding Conduit": {
 				"id": 114,
 				"type": "Legendary",
-				"description": "Gain {20/25}% Movement Speed for {#} seconds after Teleporting.",
+				"description": "Gain {20/25}% Movement Speed for 3.0 seconds after Teleporting.",
 				"dungeon": "Komdor Temple",
-				"region": "Dry Steppes",
-				"values": [
-					""
-				]
+				"region": "Dry Steppes"
 			}
 		},
 		"Resource": {
 			"Incendiary Aspect": {
 				"id": 110,
 				"type": "Legendary",
-				"description": "Lucky Hit: Burning Damage has up to a {5/10}% chance to restore {#} Mana.",
+				"description": "Lucky Hit: Burning Damage has up to a {5/10}% chance to restore 10.0 Mana.",
 				"dungeon": "Tomb of the Saints",
-				"region": "Kehjistan",
-				"values": [
-					"5"
-				]
+				"region": "Kehjistan"
 			},
 			"Recharging Aspect": {
 				"id": 112,
@@ -2399,12 +2036,9 @@ let codexData = {
 			"Aspect of Concentration": {
 				"id": 283,
 				"type": "Legendary",
-				"description": "Your Mana Regeneration is increased by x{10/20}% if you have not taken damage in the last {#} seconds.",
+				"description": "Your Mana Regeneration is increased by x{10/20}% if you have not taken damage in the last 3.0 seconds.",
 				"dungeon": "",
-				"region": "",
-				"values": [
-					""
-				]
+				"region": ""
 			},
 			"Aspect of Efficiency": {
 				"id": 109,
