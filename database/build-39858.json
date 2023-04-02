@@ -783,7 +783,7 @@
 				"desc": "Bleeding enemies you kill explode, dealing {#}% of their max life to surrounding enemies."
 			},
 			"Barbarian_Legendary_002": {
-				"desc": "Enemies that have been affected by your Bleeding for 3.0 or more seconds take x{#}% increased damage from you.",
+				"desc": "Enemies that have been affected by your Bleeding for 3.0 or more seconds take x15.0% increased damage from you.",
 				"name": "Hemorrhage",
 				"power_buffdurations": {
 					"714062320": "SF_0",
@@ -792,7 +792,7 @@
 				},
 				"power_formulas": [
 					3,
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.15
 				],
 				"tags": [
 					"Bleed",
@@ -803,13 +803,13 @@
 				"desc": "Bleeding you inflict deals damage {#}% faster."
 			},
 			"Barbarian_Legendary_004": {
-				"desc": "Killing a Bleeding enemy has {#}% chance to grant Berserking for 5 seconds.",
+				"desc": "Killing a Bleeding enemy has 12.0% chance to grant Berserking for 5 seconds.",
 				"name": "Blood Rage",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					0.12,
 					5
 				],
 				"tags": [
@@ -837,14 +837,14 @@
 				"desc": "While Berserk, you take {#}% of your Maximum Life as Bleed damage per second, but deal {#}% increased damage."
 			},
 			"Barbarian_Legendary_009": {
-				"desc": "While Berserking, Critical Strikes increase your Attack Speed by +{#}%, up to +{#}%, for 6.0 seconds.",
+				"desc": "While Berserking, Critical Strikes increase your Attack Speed by +2.0%, up to +10.0%, for 6.0 seconds.",
 				"name": "Carnage",
 				"power_buffdurations": {
 					"215548500": "SF_2",
 					"844134919": 1
 				},
 				"power_formulas": [
-					"1/SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					0.02,
 					5,
 					6
 				],
@@ -858,14 +858,14 @@
 				"desc": "While Berserk, your Defensive Skills recharge {#}% faster."
 			},
 			"Barbarian_Legendary_011": {
-				"desc": "For every 75.0 Fury you spend, gain {#}% of your Maximum Life as Fortify.",
+				"desc": "For every 75.0 Fury you spend, gain 20.0% of your Maximum Life as Fortify.",
 				"name": "Warbinger",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
 					75,
-					"(4/3) * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.2
 				],
 				"power_payloads": {
 					"2082311236": 0
@@ -882,13 +882,13 @@
 				"desc": "While standing still, you gain {#}% extra damage reduction, and have {#}% reduced Control Impaired Duration."
 			},
 			"Barbarian_Legendary_014": {
-				"desc": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a {#}% chance to make enemies Vulnerable for 2 seconds.",
+				"desc": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a 10.0% chance to make enemies Vulnerable for 2 seconds.",
 				"name": "Decimator",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					0.1,
 					2
 				],
 				"power_payloads": {
@@ -902,7 +902,7 @@
 				]
 			},
 			"Barbarian_Legendary_015": {
-				"desc": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} |4second:seconds; and grant you {#}% of your Maximum Life as Fortify.",
+				"desc": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} |4second:seconds; and grant you 25.0% of your Maximum Life as Fortify.",
 				"name": "Bone Breaker",
 				"power_buffdurations": {
 					"4263050": "SF_0",
@@ -912,7 +912,7 @@
 				},
 				"power_formulas": [
 					1,
-					"(5/3) * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.25
 				],
 				"power_payloads": {
 					"2082311236": 0
@@ -925,7 +925,7 @@
 				]
 			},
 			"Barbarian_Legendary_016": {
-				"desc": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x{#}% for 2 seconds, up to x{#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.",
+				"desc": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x1.0% for 2 seconds, up to x5.0%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.",
 				"name": "Flawless Technique",
 				"power_buffdurations": {
 					"480936088": "SF_2",
@@ -934,7 +934,7 @@
 					"3851203656": "SF_3"
 				},
 				"power_formulas": [
-					"(1/(3*SF_1)) * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.01,
 					5,
 					2,
 					0.5
@@ -945,13 +945,13 @@
 				]
 			},
 			"Barbarian_Legendary_017": {
-				"desc": "Swapping weapons grants you {#} Fury.",
+				"desc": "Swapping weapons grants you 3.0 Fury.",
 				"name": "Weapons Master",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"(3/0.15) * ParagonPowerBudgetMultiplierNodeLegendary()"
+					3.0
 				],
 				"tags": [
 					"Fury"
@@ -9863,13 +9863,13 @@
 				"desc": "Hurricane and Cataclysm create a Tornado every {#} seconds while they are active."
 			},
 			"Druid_Legendary_003": {
-				"desc": "Storm Skills deal x{#}% increased Critical Strike Damage against Vulnerable or Immobilized enemies.",
+				"desc": "Storm Skills deal x30.0% increased Critical Strike Damage against Vulnerable or Immobilized enemies.",
 				"name": "Thunderstruck",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"2 * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.3
 				],
 				"tags": [
 					"Vulnerable",
@@ -9923,13 +9923,13 @@
 				"desc": "While in Werebear form, you apply +{#}% bonus Fortify."
 			},
 			"Druid_Legendary_010": {
-				"desc": "Critical Strikes with Werewolf Skills restore {#} Spirit.",
+				"desc": "Critical Strikes with Werewolf Skills restore 2.0 Spirit.",
 				"name": "Lust for Carnage",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"(2 / 0.15) * ParagonPowerBudgetMultiplierNodeLegendary()"
+					2.0
 				],
 				"tags": [
 					"Werewolf",
@@ -9959,14 +9959,14 @@
 				]
 			},
 			"Druid_Legendary_013": {
-				"desc": "After shapeshifting, your Spirit costs are reduced by {#}% for 5 seconds, up to {#}%.",
+				"desc": "After shapeshifting, your Spirit costs are reduced by 10.0% for 5 seconds, up to 30.0%.",
 				"name": "Inner Beast",
 				"power_buffdurations": {
 					"844134919": 1,
 					"2318514933": "SF_2"
 				},
 				"power_formulas": [
-					"(2/SF_1) * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.1,
 					3,
 					5
 				],
@@ -9985,7 +9985,7 @@
 				"desc": "Your Nature Magic Skills deal x{#}% increased damage against enemies affected by your Debilitating Roar."
 			},
 			"Druid_Legendary_017": {
-				"desc": "Lucky Hit: Nature Magic Skills have up to a 15.0% chance to entangle the enemy with vines, Immobilizing them for 2.0 seconds and Poisoning them for {#}% of the Base damage dealt over 4 seconds.",
+				"desc": "Lucky Hit: Nature Magic Skills have up to a 15.0% chance to entangle the enemy with vines, Immobilizing them for 2.0 seconds and Poisoning them for 120.0% of the Base damage dealt over 4 seconds.",
 				"name": "Constricting Tendrils",
 				"power_buffdurations": {
 					"223736344": "SF_3",
@@ -9995,7 +9995,7 @@
 				"power_formulas": [
 					15,
 					2,
-					"8 * ParagonPowerBudgetMultiplierNodeLegendary()",
+					1.2,
 					4
 				],
 				"tags": [
@@ -23309,14 +23309,14 @@
 		},
 		"Paragon (Node)": {
 			"Necromancer_Legendary_001": {
-				"desc": "Your Minions deal x{#}% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.",
+				"desc": "Your Minions deal x10.0% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.",
 				"name": "Cult Leader",
 				"power_buffdurations": {
 					"844134919": 1,
 					"3570702661": 1
 				},
 				"power_formulas": [
-					"2/3 * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.1
 				],
 				"tags": [
 					"Minion",
@@ -23333,14 +23333,14 @@
 				"desc": "Your Minions have {#}% less Maximum Life but deal x{#}% increased damage."
 			},
 			"Necromancer_Legendary_005": {
-				"desc": "Your Golem has x{#}% increased Maximum Life and deals x{#}% increased damage.",
+				"desc": "Your Golem has x30.0% increased Maximum Life and deals x30.0% increased damage.",
 				"name": "Hulking Monstrosity",
 				"power_buffdurations": {
 					"844134919": 1,
 					"2877449787": 1
 				},
 				"power_formulas": [
-					"2 * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.3
 				],
 				"tags": [
 					"Minion",
@@ -23352,7 +23352,7 @@
 				"desc": "Consuming a Corpse Slows enemies around it by {#}% for {#} seconds. Your Corpse Skills deal x{#}% increased damage to Crowd Controlled enemies."
 			},
 			"Necromancer_Legendary_007": {
-				"desc": "With at least 2 Corpses Nearby, you gain {#}% Damage Reduction. With no Corpses Nearby, you deal x{#}% increased damage.",
+				"desc": "With at least 2 Corpses Nearby, you gain 15.0% Damage Reduction. With no Corpses Nearby, you deal x15.0% increased damage.",
 				"name": "Scent of Death",
 				"power_buffdurations": {
 					"844134919": 1,
@@ -23361,10 +23361,10 @@
 				},
 				"power_formulas": [
 					2,
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.15,
 					8,
 					0.25,
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.15
 				],
 				"tags": [
 					"Damage Reduction",
@@ -23373,7 +23373,7 @@
 				]
 			},
 			"Necromancer_Legendary_008": {
-				"desc": "Consuming 5 Corpses grants x{#}% increased damage for 6 seconds.",
+				"desc": "Consuming 5 Corpses grants x40.0% increased damage for 6 seconds.",
 				"name": "Flesh-eater",
 				"power_buffdurations": {
 					"844134919": 1,
@@ -23381,7 +23381,7 @@
 					"3918042290": "SF_2"
 				},
 				"power_formulas": [
-					"(8 / 3) * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.4,
 					5,
 					6
 				],
@@ -23394,13 +23394,13 @@
 				"desc": "When your Minion is killed, it has a {#}% chance to leave a Corpse."
 			},
 			"Necromancer_Legendary_010": {
-				"desc": "Attacks that are guaranteed to Overpower deal x{#}% increased Overpower damage.",
+				"desc": "Attacks that are guaranteed to Overpower deal x50.0% increased Overpower damage.",
 				"name": "Bloodbath",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"(10/3) * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.5
 				],
 				"tags": [
 					"Overpower",
@@ -23408,14 +23408,14 @@
 				]
 			},
 			"Necromancer_Legendary_011": {
-				"desc": "Blood Orbs grant x{#}% increased damage, up to x{#}%, for 5 seconds.",
+				"desc": "Blood Orbs grant x5.0% increased damage, up to x15.0%, for 5 seconds.",
 				"name": "Blood Begets Blood",
 				"power_buffdurations": {
 					"844134919": 1,
 					"3570702661": "SF_2"
 				},
 				"power_formulas": [
-					"1/SF_1 * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.05,
 					3,
 					5
 				],
@@ -23437,16 +23437,16 @@
 				"desc": "Whenever you consume a Corpse, a Bone Spirit is spawned at its location."
 			},
 			"Necromancer_Legendary_016": {
-				"desc": "Your Shadow damage over time effects have a x5.0% chance to deal x{#}% bonus damage each time they deal damage. This chance is increased by x1.0% and bonus damage is increased by x{#}% for each 50.0 Willpower you have.",
+				"desc": "Your Shadow damage over time effects have a x5.0% chance to deal x50.0% bonus damage each time they deal damage. This chance is increased by x1.0% and bonus damage is increased by x2.5% for each 50.0 Willpower you have.",
 				"name": "Wither",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
 					0.05,
-					"(10/3) * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.5,
 					0.01,
-					"(5/30)* ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.025,
 					50
 				],
 				"tags": [
@@ -23456,7 +23456,7 @@
 				]
 			},
 			"Necromancer_Legendary_017": {
-				"desc": "Hitting enemies with Bone Skills increases your damage by x1.0% and your Maximum Essence by 3 for 8 seconds, stacks up to x{#}% increased damage and {#} Maximum Essence.",
+				"desc": "Hitting enemies with Bone Skills increases your damage by x1.0% and your Maximum Essence by 3 for 8 seconds, stacks up to x7.5% increased damage and 22.5 Maximum Essence.",
 				"name": "Bone Graft",
 				"power_buffdurations": {
 					"120333031": "SF_3",
@@ -23465,7 +23465,7 @@
 				"power_formulas": [
 					0.01,
 					3,
-					"Ceil(1/2 * 100 * ParagonPowerBudgetMultiplierNodeLegendary())",
+					7.5,
 					8
 				],
 				"tags": [
@@ -31553,7 +31553,7 @@
 				"desc": "You deal x{#}% increased damage to Close enemies but deal x{#}% decreased damage to Distant enemies."
 			},
 			"Rogue_Legendary_006": {
-				"desc": "Your Marksman Skills grant your next Cutthroat Skill x{#}% increased damage. Your Cutthroat Skills grant your next Marksman Skill x{#}% increased damage.",
+				"desc": "Your Marksman Skills grant your next Cutthroat Skill x25.0% increased damage. Your Cutthroat Skills grant your next Marksman Skill x25.0% increased damage.",
 				"name": "Tricks of the Trade",
 				"power_buffdurations": {
 					"806130639": 1,
@@ -31561,7 +31561,7 @@
 					"929693766": 1
 				},
 				"power_formulas": [
-					"5/3 * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.25
 				],
 				"tags": [
 					"Marksman",
@@ -31570,14 +31570,14 @@
 				]
 			},
 			"Rogue_Legendary_007": {
-				"desc": "You deal x{#}% increased damage for each Nearby enemy that is Crowd Controlled, up to x{#}%.",
+				"desc": "You deal x5.0% increased damage for each Nearby enemy that is Crowd Controlled, up to x25.0%.",
 				"name": "Cheap Shot",
 				"power_buffdurations": {
 					"844134919": 1,
 					"3570702661": 1
 				},
 				"power_formulas": [
-					"1.5 / 0.9 / SF_1 * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.05,
 					5,
 					9,
 					0.25
@@ -31588,13 +31588,13 @@
 				]
 			},
 			"Rogue_Legendary_008": {
-				"desc": "You deal x{#}% increased Critical Strike Damage to enemies affected by your Trap Skills.",
+				"desc": "You deal x22.5% increased Critical Strike Damage to enemies affected by your Trap Skills.",
 				"name": "Deadly Ambush",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"1.5 * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.225
 				],
 				"tags": [
 					"Trap",
@@ -31603,29 +31603,29 @@
 				]
 			},
 			"Rogue_Legendary_009": {
-				"desc": "When Inner Sight's gauge becomes full, you gain +100.0% Dodge Chance for {#} seconds.",
+				"desc": "When Inner Sight's gauge becomes full, you gain +100.0% Dodge Chance for 1.5 seconds.",
 				"name": "Leyrana's Instinct",
 				"power_buffdurations": {
 					"2875503721": "SF_1"
 				},
 				"power_formulas": [
 					1,
-					"1/10 * 100 * ParagonPowerBudgetMultiplierNodeLegendary()"
+					1.5
 				],
 				"tags": [
 					"Dodge"
 				]
 			},
 			"Rogue_Legendary_010": {
-				"desc": "Whenever you deal damage to a Vulnerable enemy, they take x{#}% increased damage from you for 6 seconds, up to x{#}%.",
+				"desc": "Whenever you deal damage to a Vulnerable enemy, they take x0.0% increased damage from you for 6 seconds, up to x0.0%.",
 				"name": "Exploit Weakness",
 				"power_buffdurations": {
 					"844134919": 1,
 					"2127466680": "SF_2"
 				},
 				"power_formulas": [
-					"1/SF_1 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					"100 * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.0,
+					15.0,
 					6
 				],
 				"tags": [
@@ -31634,7 +31634,7 @@
 				]
 			},
 			"Rogue_Legendary_011": {
-				"desc": "Your Ultimate Skills deal x{#}% increased damage and grant you x{#}% increased damage for 20 seconds when cast.",
+				"desc": "Your Ultimate Skills deal x30.0% increased damage and grant you x10.0% increased damage for 20 seconds when cast.",
 				"name": "No Witnesses",
 				"power_buffdurations": {
 					"844134919": 1,
@@ -31643,8 +31643,8 @@
 					"3572367194": 1
 				},
 				"power_formulas": [
-					"1/3 * 6 * ParagonPowerBudgetMultiplierNodeLegendary()",
-					"2/3 * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.3,
+					0.1,
 					20
 				],
 				"tags": [
@@ -40880,19 +40880,19 @@
 		},
 		"Paragon (Node)": {
 			"Sorcerer_Legendary_001": {
-				"desc": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every 20 Intelligence you have.",
+				"desc": "Your Burning damage is increased by 40.0% of your Critical Strike Damage, further increased by 5.0% for every 20 Intelligence you have.",
 				"name": "Burning Instinct",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"(.4 / .15) * ParagonPowerBudgetMultiplierNodeLegendary()",
-					"(.05 / .15) * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.4,
+					0.05,
 					20,
-					"$SF_0$ + (floor(Intelligence_Total / 20) * $SF_1$)",
+					"0.4 + (floor(Intelligence_Total / 20) * 0.05)",
 					"Intelligence_Total",
 					"Crit_Damage_Percent",
-					"Crit_Damage_Percent * $SF_0$ + (floor(Intelligence_Total / 20) * $SF_1$)"
+					"Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05)"
 				],
 				"tags": [
 					"Burn",
@@ -40902,7 +40902,7 @@
 				]
 			},
 			"Sorcerer_Legendary_002": {
-				"desc": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +{#}% for 5 seconds, up to +{#}%. Additional stacks do not refresh this timer.",
+				"desc": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +5.0% for 5 seconds, up to +15.0%. Additional stacks do not refresh this timer.",
 				"name": "Searing Heat",
 				"power_buffdurations": {
 					"703256862": "SF_2",
@@ -40910,7 +40910,7 @@
 					"3132401747": "SF_2"
 				},
 				"power_formulas": [
-					"(.05 / .15) * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.05,
 					3,
 					5
 				],
@@ -40925,14 +40925,14 @@
 				"desc": "Your Elemental attacks deal x{#}% increased Critical Strike Damage against Frozen enemies."
 			},
 			"Sorcerer_Legendary_005": {
-				"desc": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +{#}% for 5 seconds, up to +{#}%.",
+				"desc": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +1.0% for 5 seconds, up to +15.0%.",
 				"name": "Frigid Fate",
 				"power_buffdurations": {
 					"844134919": 1,
 					"3403646006": "SF_1"
 				},
 				"power_formulas": [
-					"(.01 / .15) * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.01,
 					5,
 					15
 				],
@@ -40943,14 +40943,14 @@
 				]
 			},
 			"Sorcerer_Legendary_006": {
-				"desc": "Killing a Frozen enemy grants you {#}% of your Maximum Life as a Barrier for 5 seconds.",
+				"desc": "Killing a Frozen enemy grants you 15.0% of your Maximum Life as a Barrier for 5 seconds.",
 				"name": "Icefall",
 				"power_buffdurations": {
 					"844134919": 1,
 					"1650384807": "SF_1"
 				},
 				"power_formulas": [
-					"1 * ParagonPowerBudgetMultiplierNodeLegendary()",
+					0.15,
 					5,
 					"Hitpoints_Max_Total"
 				],
@@ -40960,13 +40960,13 @@
 				]
 			},
 			"Sorcerer_Legendary_007": {
-				"desc": "Stunning Close enemies restores {#} Mana.",
+				"desc": "Stunning Close enemies restores 10.0 Mana.",
 				"name": "Static Surge",
 				"power_buffdurations": {
 					"844134919": 1
 				},
 				"power_formulas": [
-					"(10 / .15) * ParagonPowerBudgetMultiplierNodeLegendary()"
+					10.0
 				],
 				"tags": [
 					"Crowd Control",
@@ -40974,17 +40974,17 @@
 				]
 			},
 			"Sorcerer_Legendary_008": {
-				"desc": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per 20 total Intelligence you have.",
+				"desc": "Crackling Energy has a 25.0% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x2.0% per 20 total Intelligence you have.",
 				"name": "Ceaseless Conduit",
 				"power_buffdurations": {
 					"2173421135": 1
 				},
 				"power_formulas": [
-					"(5/3) * 100 * ParagonPowerBudgetMultiplierNodeLegendary()",
+					25.0,
 					"Intelligence_Total",
 					20,
-					"(0.02 / .15) * ParagonPowerBudgetMultiplierNodeLegendary()",
-					"floor(Intelligence_Total / 20) * $SF_3$"
+					0.02,
+					"floor(Intelligence_Total / 20) * 0.02"
 				],
 				"tags": [
 					"Crackling Energy",
@@ -40999,14 +40999,14 @@
 				"desc": "You deal x{#}% increased damage to enemies that are both Burning and Chilled."
 			},
 			"Sorcerer_Legendary_011": {
-				"desc": "Your Conjuration Skills have a {#}% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.",
+				"desc": "Your Conjuration Skills have a 10.0% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.",
 				"name": "Elemental Summoner",
 				"power_buffdurations": {
 					"844134919": 1,
 					"3850580433": 1
 				},
 				"power_formulas": [
-					"(.1 / .15) * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.1
 				],
 				"tags": [
 					"Conjuration",
@@ -41024,10 +41024,10 @@
 				"desc": "While moving, you regenerate Mana x{#}% faster. While standing still, you gain x{#}% increased Fire, Cold, and Lightning damage every second, up to x{#}%."
 			},
 			"Sorcerer_Legendary_015": {
-				"desc": "Your Enchantments are {#}% stronger.",
+				"desc": "Your Enchantments are 20.0% stronger.",
 				"name": "Enchantment Master",
 				"power_formulas": [
-					"(.2 / .15) * ParagonPowerBudgetMultiplierNodeLegendary()"
+					0.2
 				]
 			},
 			"Sorcerer_Legendary_016": {
