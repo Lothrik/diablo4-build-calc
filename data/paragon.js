@@ -4235,14 +4235,14 @@ let paragonData = {
 			},
 			"Barbarian_Legendary_002": {
 				"name": "Hemorrhage",
-				"description": "Enemies that have been affected by your Bleeding for 3.0 or more seconds take x{#}% increased damage from you.\n\nTags: Bleed, Damage."
+				"description": "Enemies that have been affected by your Bleeding for 3.0 or more seconds take x15.0% increased damage from you.\n\nTags: Bleed, Damage."
 			},
 			"Barbarian_Legendary_003": {
 				"description": "Bleeding you inflict deals damage {#}% faster."
 			},
 			"Barbarian_Legendary_004": {
 				"name": "Blood Rage",
-				"description": "Killing a Bleeding enemy has {#}% chance to grant Berserking for 5 seconds.\n\nTags: Bleed, Berserking."
+				"description": "Killing a Bleeding enemy has 12.0% chance to grant Berserking for 5 seconds.\n\nTags: Bleed, Berserking."
 			},
 			"Barbarian_Legendary_005": {
 				"name": "Natural Leader",
@@ -4256,14 +4256,14 @@ let paragonData = {
 			},
 			"Barbarian_Legendary_009": {
 				"name": "Carnage",
-				"description": "While Berserking, Critical Strikes increase your Attack Speed by +{#}%, up to +{#}%, for 6.0 seconds.\n\nTags: Berserking, Critical Strikes, Attack Speed."
+				"description": "While Berserking, Critical Strikes increase your Attack Speed by +2.0%, up to +10.0%, for 6.0 seconds.\n\nTags: Berserking, Critical Strikes, Attack Speed."
 			},
 			"Barbarian_Legendary_010": {
 				"description": "While Berserk, your Defensive Skills recharge {#}% faster."
 			},
 			"Barbarian_Legendary_011": {
 				"name": "Warbinger",
-				"description": "For every 75.0 Fury you spend, gain {#}% of your Maximum Life as Fortify.\n\nTags: Fury, Fortify."
+				"description": "For every 75.0 Fury you spend, gain 20.0% of your Maximum Life as Fortify.\n\nTags: Fury, Fortify."
 			},
 			"Barbarian_Legendary_012": {
 				"description": "You take {#}% less damage from all sources, but can no longer dodge attacks."
@@ -4273,19 +4273,19 @@ let paragonData = {
 			},
 			"Barbarian_Legendary_014": {
 				"name": "Decimator",
-				"description": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a {#}% chance to make enemies Vulnerable for 2 seconds.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed."
+				"description": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a 10.0% chance to make enemies Vulnerable for 2 seconds.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed."
 			},
 			"Barbarian_Legendary_015": {
 				"name": "Bone Breaker",
-				"description": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} seconds and grant you {#}% of your Maximum Life as Fortify.\n\nTags: Crowd Control, Fortify, Two-Handed, Bludgeoning."
+				"description": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} seconds and grant you 25.0% of your Maximum Life as Fortify.\n\nTags: Crowd Control, Fortify, Two-Handed, Bludgeoning."
 			},
 			"Barbarian_Legendary_016": {
 				"name": "Flawless Technique",
-				"description": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x{#}% for 2 seconds, up to x{#}%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.\n\nTags: Critical Strikes, Dual Wield."
+				"description": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x1.0% for 2 seconds, up to x5.0%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.\n\nTags: Critical Strikes, Dual Wield."
 			},
 			"Barbarian_Legendary_017": {
 				"name": "Weapons Master",
-				"description": "Swapping weapons grants you {#} Fury.\n\nTags: Fury."
+				"description": "Swapping weapons grants you 3.0 Fury.\n\nTags: Fury."
 			},
 			"Barbarian_Magic_BerserkDamage": {
 				"name": "Berserk Damage",
@@ -8631,7 +8631,7 @@ let paragonData = {
 			},
 			"Druid_Legendary_003": {
 				"name": "Thunderstruck",
-				"description": "Storm Skills deal x{#}% increased Critical Strike Damage against Vulnerable or Immobilized enemies.\n\nTags: Vulnerable, Crowd Control, Critical Strikes, Damage."
+				"description": "Storm Skills deal x30.0% increased Critical Strike Damage against Vulnerable or Immobilized enemies.\n\nTags: Vulnerable, Crowd Control, Critical Strikes, Damage."
 			},
 			"Druid_Legendary_004": {
 				"description": "Your Earth Skills have an additional +{#}% chance to Overpower."
@@ -8655,7 +8655,7 @@ let paragonData = {
 			},
 			"Druid_Legendary_010": {
 				"name": "Lust for Carnage",
-				"description": "Critical Strikes with Werewolf Skills restore {#} Spirit.\n\nTags: Werewolf, Critical Strikes, Spirit."
+				"description": "Critical Strikes with Werewolf Skills restore 2.0 Spirit.\n\nTags: Werewolf, Critical Strikes, Spirit."
 			},
 			"Druid_Legendary_011": {
 				"description": "Your Werewolf Skills gain an additional +{#}% Critical Strike Chance against Poisoned enemies."
@@ -8666,7 +8666,7 @@ let paragonData = {
 			},
 			"Druid_Legendary_013": {
 				"name": "Inner Beast",
-				"description": "After shapeshifting, your Spirit costs are reduced by {#}% for 5 seconds, up to {#}%.\n\nTags: Shapeshifting, Spirit."
+				"description": "After shapeshifting, your Spirit costs are reduced by 10.0% for 5 seconds, up to 30.0%.\n\nTags: Shapeshifting, Spirit."
 			},
 			"Druid_Legendary_014": {
 				"description": "Casting a Storm Skill increases the Critical Strike Chance of your next Werewolf Skill by +{#}%.\n\nCasting an Earth Skill increases the Critical Strike Damage of your next Werebear Skill by x{#}%."
@@ -8679,7 +8679,7 @@ let paragonData = {
 			},
 			"Druid_Legendary_017": {
 				"name": "Constricting Tendrils",
-				"description": "Lucky Hit: Nature Magic Skills have up to a 15.0% chance to entangle the enemy with vines, Immobilizing them for 2.0 seconds and Poisoning them for {#}% of the Base damage dealt over 4 seconds.\n\nTags: Poison, Crowd Control, Lucky Hit, Damage."
+				"description": "Lucky Hit: Nature Magic Skills have up to a 15.0% chance to entangle the enemy with vines, Immobilizing them for 2.0 seconds and Poisoning them for 120.0% of the Base damage dealt over 4 seconds.\n\nTags: Poison, Crowd Control, Lucky Hit, Damage."
 			},
 			"Druid_Legendary_018": {
 				"name": "Ancestral Guidance",
@@ -13702,7 +13702,7 @@ let paragonData = {
 		"Node": {
 			"Necromancer_Legendary_001": {
 				"name": "Cult Leader",
-				"description": "Your Minions deal x{#}% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.\n\nTags: Minion, Damage."
+				"description": "Your Minions deal x10.0% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.\n\nTags: Minion, Damage."
 			},
 			"Necromancer_Legendary_002": {
 				"description": "Lucky Hit: Your Minions have a {#}% chance to grant you a Barrier for {#}% of your Maximum Life for {#} seconds."
@@ -13715,29 +13715,29 @@ let paragonData = {
 			},
 			"Necromancer_Legendary_005": {
 				"name": "Hulking Monstrosity",
-				"description": "Your Golem has x{#}% increased Maximum Life and deals x{#}% increased damage.\n\nTags: Minion, Life, Damage."
+				"description": "Your Golem has x30.0% increased Maximum Life and deals x30.0% increased damage.\n\nTags: Minion, Life, Damage."
 			},
 			"Necromancer_Legendary_006": {
 				"description": "Consuming a Corpse Slows enemies around it by {#}% for {#} seconds. Your Corpse Skills deal x{#}% increased damage to Crowd Controlled enemies."
 			},
 			"Necromancer_Legendary_007": {
 				"name": "Scent of Death",
-				"description": "With at least 2 Corpses Nearby, you gain {#}% Damage Reduction. With no Corpses Nearby, you deal x{#}% increased damage.\n\nTags: Damage Reduction, Damage, Corpse."
+				"description": "With at least 2 Corpses Nearby, you gain 15.0% Damage Reduction. With no Corpses Nearby, you deal x15.0% increased damage.\n\nTags: Damage Reduction, Damage, Corpse."
 			},
 			"Necromancer_Legendary_008": {
 				"name": "Flesh-eater",
-				"description": "Consuming 5 Corpses grants x{#}% increased damage for 6 seconds.\n\nTags: Damage, Corpse."
+				"description": "Consuming 5 Corpses grants x40.0% increased damage for 6 seconds.\n\nTags: Damage, Corpse."
 			},
 			"Necromancer_Legendary_009": {
 				"description": "When your Minion is killed, it has a {#}% chance to leave a Corpse."
 			},
 			"Necromancer_Legendary_010": {
 				"name": "Bloodbath",
-				"description": "Attacks that are guaranteed to Overpower deal x{#}% increased Overpower damage.\n\nTags: Overpower, Damage."
+				"description": "Attacks that are guaranteed to Overpower deal x50.0% increased Overpower damage.\n\nTags: Overpower, Damage."
 			},
 			"Necromancer_Legendary_011": {
 				"name": "Blood Begets Blood",
-				"description": "Blood Orbs grant x{#}% increased damage, up to x{#}%, for 5 seconds.\n\nTags: Blood Orb, Damage."
+				"description": "Blood Orbs grant x5.0% increased damage, up to x15.0%, for 5 seconds.\n\nTags: Blood Orb, Damage."
 			},
 			"Necromancer_Legendary_012": {
 				"description": "Blood Orbs also restore {#} Essence when picked up."
@@ -13753,11 +13753,11 @@ let paragonData = {
 			},
 			"Necromancer_Legendary_016": {
 				"name": "Wither",
-				"description": "Your Shadow damage over time effects have a x5.0% chance to deal x{#}% bonus damage each time they deal damage. This chance is increased by x1.0% and bonus damage is increased by x{#}% for each 50.0 Willpower you have.\n\nTags: Shadow Damage Over Time, Damage, Willpower."
+				"description": "Your Shadow damage over time effects have a x5.0% chance to deal x50.0% bonus damage each time they deal damage. This chance is increased by x1.0% and bonus damage is increased by x2.5% for each 50.0 Willpower you have.\n\nTags: Shadow Damage Over Time, Damage, Willpower."
 			},
 			"Necromancer_Legendary_017": {
 				"name": "Bone Graft",
-				"description": "Hitting enemies with Bone Skills increases your damage by x1.0% and your Maximum Essence by 3 for 8 seconds, stacks up to x{#}% increased damage and {#} Maximum Essence.\n\nTags: Bone, Essence, Damage."
+				"description": "Hitting enemies with Bone Skills increases your damage by x1.0% and your Maximum Essence by 3 for 8 seconds, stacks up to x7.5% increased damage and 22.5 Maximum Essence.\n\nTags: Bone, Essence, Damage."
 			},
 			"Necromancer_Magic_ArmorWithActiveGolem": {
 				"name": "Armor With Active Golem",
@@ -18165,27 +18165,27 @@ let paragonData = {
 			},
 			"Rogue_Legendary_006": {
 				"name": "Tricks of the Trade",
-				"description": "Your Marksman Skills grant your next Cutthroat Skill x{#}% increased damage. Your Cutthroat Skills grant your next Marksman Skill x{#}% increased damage.\n\nTags: Marksman, Cutthroat, Damage."
+				"description": "Your Marksman Skills grant your next Cutthroat Skill x25.0% increased damage. Your Cutthroat Skills grant your next Marksman Skill x25.0% increased damage.\n\nTags: Marksman, Cutthroat, Damage."
 			},
 			"Rogue_Legendary_007": {
 				"name": "Cheap Shot",
-				"description": "You deal x{#}% increased damage for each Nearby enemy that is Crowd Controlled, up to x{#}%.\n\nTags: Crowd Control, Damage."
+				"description": "You deal x5.0% increased damage for each Nearby enemy that is Crowd Controlled, up to x25.0%.\n\nTags: Crowd Control, Damage."
 			},
 			"Rogue_Legendary_008": {
 				"name": "Deadly Ambush",
-				"description": "You deal x{#}% increased Critical Strike Damage to enemies affected by your Trap Skills.\n\nTags: Trap, Critical Strikes, Damage."
+				"description": "You deal x22.5% increased Critical Strike Damage to enemies affected by your Trap Skills.\n\nTags: Trap, Critical Strikes, Damage."
 			},
 			"Rogue_Legendary_009": {
 				"name": "Leyrana's Instinct",
-				"description": "When Inner Sight's gauge becomes full, you gain +100.0% Dodge Chance for {#} seconds.\n\nTags: Dodge."
+				"description": "When Inner Sight's gauge becomes full, you gain +100.0% Dodge Chance for 1.5 seconds.\n\nTags: Dodge."
 			},
 			"Rogue_Legendary_010": {
 				"name": "Exploit Weakness",
-				"description": "Whenever you deal damage to a Vulnerable enemy, they take x{#}% increased damage from you for 6 seconds, up to x{#}%.\n\nTags: Vulnerable, Damage."
+				"description": "Whenever you deal damage to a Vulnerable enemy, they take x0.0% increased damage from you for 6 seconds, up to x0.0%.\n\nTags: Vulnerable, Damage."
 			},
 			"Rogue_Legendary_011": {
 				"name": "No Witnesses",
-				"description": "Your Ultimate Skills deal x{#}% increased damage and grant you x{#}% increased damage for 20 seconds when cast.\n\nTags: Ultimate, Damage."
+				"description": "Your Ultimate Skills deal x30.0% increased damage and grant you x10.0% increased damage for 20 seconds when cast.\n\nTags: Ultimate, Damage."
 			},
 			"Rogue_Legendary_012": {
 				"name": "Cunning Stratagem",
@@ -22513,11 +22513,11 @@ let paragonData = {
 		"Node": {
 			"Sorcerer_Legendary_001": {
 				"name": "Burning Instinct",
-				"description": "Your Burning damage is increased by {#}% of your Critical Strike Damage, further increased by {#}% for every 20 Intelligence you have.\n\nTags: Burn, Damage, Critical Strikes, Intelligence."
+				"description": "Your Burning damage is increased by 40.0% of your Critical Strike Damage, further increased by 5.0% for every 20 Intelligence you have.\n\nTags: Burn, Damage, Critical Strikes, Intelligence."
 			},
 			"Sorcerer_Legendary_002": {
 				"name": "Searing Heat",
-				"description": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +{#}% for 5 seconds, up to +{#}%. Additional stacks do not refresh this timer.\n\nTags: Critical Strikes."
+				"description": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +5.0% for 5 seconds, up to +15.0%. Additional stacks do not refresh this timer.\n\nTags: Critical Strikes."
 			},
 			"Sorcerer_Legendary_003": {
 				"description": "Burning enemies you kill explode, dealing {#}% of their Maximum Life to surrounding enemies."
@@ -22527,19 +22527,19 @@ let paragonData = {
 			},
 			"Sorcerer_Legendary_005": {
 				"name": "Frigid Fate",
-				"description": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +{#}% for 5 seconds, up to +{#}%.\n\nTags: Vulnerable, Cold, Lucky Hit."
+				"description": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +1.0% for 5 seconds, up to +15.0%.\n\nTags: Vulnerable, Cold, Lucky Hit."
 			},
 			"Sorcerer_Legendary_006": {
 				"name": "Icefall",
-				"description": "Killing a Frozen enemy grants you {#}% of your Maximum Life as a Barrier for 5 seconds.\n\nTags: Frozen, Barrier."
+				"description": "Killing a Frozen enemy grants you 15.0% of your Maximum Life as a Barrier for 5 seconds.\n\nTags: Frozen, Barrier."
 			},
 			"Sorcerer_Legendary_007": {
 				"name": "Static Surge",
-				"description": "Stunning Close enemies restores {#} Mana.\n\nTags: Crowd Control, Mana."
+				"description": "Stunning Close enemies restores 10.0 Mana.\n\nTags: Crowd Control, Mana."
 			},
 			"Sorcerer_Legendary_008": {
 				"name": "Ceaseless Conduit",
-				"description": "Crackling Energy has a {#}% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x{#}% per 20 total Intelligence you have.\n\nTags: Crackling Energy, Damage, Intelligence."
+				"description": "Crackling Energy has a 25.0% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x2.0% per 20 total Intelligence you have.\n\nTags: Crackling Energy, Damage, Intelligence."
 			},
 			"Sorcerer_Legendary_009": {
 				"description": "Lucky Hit: Your Shock skills have a {#}% chance to release {#} lightning sparks that each deal {#}% damage."
@@ -22549,7 +22549,7 @@ let paragonData = {
 			},
 			"Sorcerer_Legendary_011": {
 				"name": "Elemental Summoner",
-				"description": "Your Conjuration Skills have a {#}% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.\n\nTags: Conjuration, Mana, Cooldown."
+				"description": "Your Conjuration Skills have a 10.0% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.\n\nTags: Conjuration, Mana, Cooldown."
 			},
 			"Sorcerer_Legendary_012": {
 				"description": "After using an Elemental skill, you gain {#}% Resistance against that element for 4 seconds."
@@ -22562,7 +22562,7 @@ let paragonData = {
 			},
 			"Sorcerer_Legendary_015": {
 				"name": "Enchantment Master",
-				"description": "Your Enchantments are {#}% stronger."
+				"description": "Your Enchantments are 20.0% stronger."
 			},
 			"Sorcerer_Legendary_016": {
 				"description": "While you have a Barrier, you take {#}% less damage and gain +{#}% increased Movement Speed."
