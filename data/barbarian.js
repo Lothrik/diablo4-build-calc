@@ -668,7 +668,7 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 	"Strategic Rallying Cry": {
 		baseSkill: "Rallying Cry",
 		connections: [ "Enhanced Rallying Cry" ],
-		description: `Rallying Cry grants you 10.0% Base Life as Fortify each time you take or deal direct damage.
+		description: `Rallying Cry grants you 10.0% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2.0% Base Life as Fortify each time you take or deal direct damage.
 
 Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 		id: 54,

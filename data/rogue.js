@@ -349,7 +349,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 	"Enhanced Flurry": {
 		baseSkill: "Flurry",
 		connections: [ "Flurry", "Improved Flurry", "Advanced Flurry" ],
-		description: `Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for 1.0% of your Maximum Life per cast.
+		description: `Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for 1.0% of your Maximum Life, up to 12.0% Maximum Life per cast.
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		id: 25,

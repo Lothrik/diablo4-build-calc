@@ -4545,7 +4545,7 @@
 						"Movement",
 						"Cooldown"
 					],
-					"skill_desc": "Rallying Cry grants you 10.0% Base Life as Fortify each time you take or deal direct damage.",
+					"skill_desc": "Rallying Cry grants you 10.0% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2.0% Base Life as Fortify each time you take or deal direct damage.",
 					"skill_name": "Strategic Rallying Cry"
 				},
 				"req_points": 0,
@@ -24501,7 +24501,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Blood Surge Heals you for 2.5% of your Maximum Life.",
+					"skill_desc": "Blood Surge Heals you for 2.5% of your Maximum Life when drawing blood from enemies. If 4 or more enemies are drawn from, then Heal for an additional 2.5% of your Maximum Life.",
 					"skill_name": "Enhanced Blood Surge"
 				},
 				"req_points": 0,
@@ -28856,7 +28856,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Hemorrhage grants 1.6% Base Life.",
+					"skill_desc": "Hemorrhage grants 1.6% Base Life as Fortify each time it hits an enemy, and has a 1.5% chance per enemy hit to Fortify you for 100.0% Base Life.",
 					"skill_name": "Initiate's Hemorrhage"
 				},
 				"req_points": 0,
@@ -32856,7 +32856,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for 1.0% of your Maximum Life per cast.",
+					"skill_desc": "Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for 1.0% of your Maximum Life, up to 12.0% Maximum Life per cast.",
 					"skill_name": "Enhanced Flurry"
 				},
 				"req_points": 0,

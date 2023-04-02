@@ -180,7 +180,7 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 	"Initiate's Hemorrhage": {
 		baseSkill: "Hemorrhage",
 		connections: [ "Enhanced Hemorrhage" ],
-		description: `Hemorrhage grants 1.6% Base Life.
+		description: `Hemorrhage grants 1.6% Base Life as Fortify each time it hits an enemy, and has a 1.5% chance per enemy hit to Fortify you for 100.0% Base Life.
 
 Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 		id: 11,
@@ -345,7 +345,7 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 	"Enhanced Blood Surge": {
 		baseSkill: "Blood Surge",
 		connections: [ "Blood Surge", "Supernatural Blood Surge", "Paranormal Blood Surge" ],
-		description: `Blood Surge Heals you for 2.5% of your Maximum Life.
+		description: `Blood Surge Heals you for 2.5% of your Maximum Life when drawing blood from enemies. If 4 or more enemies are drawn from, then Heal for an additional 2.5% of your Maximum Life.
 
 Tags: Core, Blood, Damage, Physical, Essence.`,
 		id: 25,
