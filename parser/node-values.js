@@ -118,7 +118,8 @@ let nodeValues = {
 				"33"
 			],
 			"Storm Strike": [
-				"25"
+				"25",
+				"3"
 			],
 			"Claw": [
 				"50"

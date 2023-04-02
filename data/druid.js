@@ -191,14 +191,14 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		connections: [ "Basic", "Enhanced Storm Strike" ],
 		description: `Generate Spirit: 15
 Lucky Hit Chance: {#}%
-Electricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to 3 + (MOD.AdditionalBounces * 2) surrounding enemies, dealing 20.0% less damage each time it chains.
+Electricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to {#} surrounding enemies, dealing 20.0% less damage each time it chains.
 
 You gain 25.0% Damage Reduction for 3 seconds after dealing damage with Storm Strike.
 
 Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "25" ],
+		values: [ "25", "3" ],
 		x: 276.665,
 		y: -215.355
 	},
