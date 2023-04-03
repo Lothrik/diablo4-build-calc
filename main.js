@@ -974,12 +974,13 @@ function handlePlusButton(curNode) {
 		// immediately deallocate any nodes that are mutually exclusive with the one we just allocated
 		pixiNodes.forEach(pixiNode => {
 			if (pixiNode.groupName == curNode.groupName && pixiNode != curNode && pixiNode.nodeData.get("allocatedPoints")) {
-				if (pixiNode.groupName != ULTIMATE || (isUltimateSkill && pixiNode.nodeData.get("description").includes(COOLDOWN_PREFIX))) {
+				if (pixiNode.groupName == ULTIMATE && isUltimateSkill && pixiNode.nodeData.get("description").includes(COOLDOWN_PREFIX)) {
+					handleMinusButton(pixiNode);
+				} else if (pixiNode.groupName == CAPSTONE) {
+					handleMinusButton(pixiNode);
+				} else if (pixiNode.nodeData.get("baseSkill") == baseSkill) {
 					const connections = [...pixiNode.nodeData.get("connections").values()];
-					if ((!connections.includes(baseSkill) && pixiNode.nodeData.get("baseSkill") == baseSkill)
-						|| connections.some(connection => [ULTIMATE, CAPSTONE].includes(connection))) {
-						handleMinusButton(pixiNode);
-					}
+					if (!connections.some(connection => [baseSkill, curNode.groupName].includes(connection))) handleMinusButton(pixiNode);
 				}
 			}
 		});
