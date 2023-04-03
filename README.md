@@ -14,7 +14,7 @@ Parsing the proprietary file formats within is an exercise left to the reader.
 
 I recommend examining the ``.stl`` files first.
 
-Blizzard uses relatively simple hash function to reference just about everything, including other files.
+Blizzard uses a relatively simple hash function to reference just about everything, including other files.
 
 ```cs
 uint HashFunctionExample(string input)
