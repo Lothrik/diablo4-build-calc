@@ -987,6 +987,7 @@ function handlePlusButton(curNode) {
 					pixiAllocatedPoints.set(pixiNode.groupName, pixiAllocatedPoints.get(pixiNode.groupName) - 1);
 					updateNodePoints(pixiNode, 0);
 					validateAllDependentNodes();
+					updateCharacterLevel();
 				}
 			}
 		});
