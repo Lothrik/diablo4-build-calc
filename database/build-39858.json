@@ -3350,7 +3350,7 @@
 					],
 					"skill_desc": "Heal for {3/6/9/12/15/18/21/24/27/30}% of your Maximum Life for each 100 Fury spent.",
 					"skill_name": "Invigorating Fury",
-					"skill_rankup_desc": "•Heal Amount 🡑 {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Heal Amount 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6858,7 +6858,7 @@
 					],
 					"skill_desc": "Increase your Maximum Fury by {3/6/9/12/15/18/21/24/27/30}.",
 					"skill_name": "Tempered Fury",
-					"skill_rankup_desc": "•Maximum Fury 🡑 {3/6/9/12/15/18/21/24/27/30}"
+					"skill_rankup_desc": "• Maximum Fury 🡑 {3/6/9/12/15/18/21/24/27/30}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7290,7 +7290,7 @@
 					],
 					"skill_desc": "Each time you swap weapons, gain {2/4/6/8/10/12/14/16/18/20} Fury.",
 					"skill_name": "Furious Impulse",
-					"skill_rankup_desc": "•Fury 🡑 {2/4/6/8/10/12/14/16/18/20}"
+					"skill_rankup_desc": "• Fury 🡑 {2/4/6/8/10/12/14/16/18/20}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16317,7 +16317,7 @@
 					],
 					"skill_desc": "Your companions deal x{10/20/30/40/50/60/70/80/90/100}% bonus damage.",
 					"skill_name": "Call of the Wild",
-					"skill_rankup_desc": "•Bonus Damage 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Bonus Damage 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -18734,7 +18734,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Spirit Cost: {#}\nLucky Hit Chance: {#}%\nShapeshift into a Werewolf and perform a trio of combo attacks:\n•1st Attack: Deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.\n•2nd Attack: Deal {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.\n•3rd Attack: Perform a larger finishing move dealing {60/66/72/78/84/90/96/102/108/114}% damage.",
+					"skill_desc": "Spirit Cost: {#}\nLucky Hit Chance: {#}%\nShapeshift into a Werewolf and perform a trio of combo attacks:\n• 1st Attack: Deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.\n• 2nd Attack: Deal {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.\n• 3rd Attack: Perform a larger finishing move dealing {60/66/72/78/84/90/96/102/108/114}% damage.",
 					"skill_name": "Shred",
 					"skill_rankup_desc": "• 1st Attack Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• 2nd Attack Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%\n• 3rd Attack Damage 🡑 {60/66/72/78/84/90/96/102/108/114}%"
 				},
@@ -18978,7 +18978,7 @@
 					"PassiveRankBonus_Druid_Shapeshifting_T4_N1_Quickshift_Always1"
 				],
 				"category": 0,
-				"desc": "Gain a bonus when you kill with a Shapeshifting Skill:\n•Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n•Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
+				"desc": "Gain a bonus when you kill with a Shapeshifting Skill:\n• Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n• Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
 				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash",
 				"name": "Hunter's Zenith",
 				"power_formulas": [
@@ -27357,7 +27357,7 @@
 					],
 					"skill_desc": "While Healthy your Blood Skills deal x{6/12/18/24/30/36/42/48/54/60}% increased damage.",
 					"skill_name": "Coalesced Blood",
-					"skill_rankup_desc": "•Damage Bonus 🡑 x{6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {

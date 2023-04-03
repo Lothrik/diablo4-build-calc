@@ -539,7 +539,7 @@ let codexData = {
 			"Hunter's Zenith": {
 				"id": 174,
 				"type": "Unique",
-				"description": "Gain a bonus when you kill with a Shapeshifting Skill:\n•Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n•Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
+				"description": "Gain a bonus when you kill with a Shapeshifting Skill:\n• Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n• Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
 				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash"
 			}
 		},
