@@ -65,7 +65,7 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 	"Enhanced Earth Spike": {
 		baseSkill: "Earth Spike",
 		connections: [ "Earth Spike", "Wild Earth Spike", "Fierce Earth Spike" ],
-		description: `Earth Spike has a 10.0% chance to Stun for 2.5 seconds.
+		description: `Earth Spike has a 10% chance to Stun for 2.5 seconds.
 
 Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 		id: 163,
@@ -122,7 +122,7 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 	"Wild Maul": {
 		baseSkill: "Maul",
 		connections: [ "Enhanced Maul" ],
-		description: `Maul has a 10.0% chance to Knock Down enemies for 1.5 seconds.
+		description: `Maul has a 10% chance to Knock Down enemies for 1.5 seconds.
 
 Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 6,
@@ -133,7 +133,7 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 	"Fierce Maul": {
 		baseSkill: "Maul",
 		connections: [ "Enhanced Maul" ],
-		description: `Increases the range and radius of Maul by 30.0%.
+		description: `Increases the range and radius of Maul by 30%.
 
 Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 7,
@@ -157,7 +157,7 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 	"Enhanced Wind Shear": {
 		baseSkill: "Wind Shear",
 		connections: [ "Wind Shear", "Fierce Wind Shear", "Wild Wind Shear" ],
-		description: `Wind Shear has a 20.0% chance to make enemies Vulnerable for 4 seconds.
+		description: `Wind Shear has a 20% chance to make enemies Vulnerable for 4 seconds.
 
 Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		id: 9,
@@ -168,7 +168,7 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 	"Fierce Wind Shear": {
 		baseSkill: "Wind Shear",
 		connections: [ "Enhanced Wind Shear" ],
-		description: `Each enemy hit by Wind Shear increases your Movement Speed by +5.0% for 5 seconds, up to +20.0%.
+		description: `Each enemy hit by Wind Shear increases your Movement Speed by +5% for 5 seconds, up to +20%.
 
 Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		id: 10,
@@ -191,9 +191,9 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		connections: [ "Basic", "Enhanced Storm Strike" ],
 		description: `Generate Spirit: 15
 Lucky Hit Chance: {#}%
-Electricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to {#} surrounding enemies, dealing 20.0% less damage each time it chains.
+Electricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to {#} surrounding enemies, dealing 20% less damage each time it chains.
 
-You gain 25.0% Damage Reduction for 3 seconds after dealing damage with Storm Strike.
+You gain 25% Damage Reduction for 3 seconds after dealing damage with Storm Strike.
 
 Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 12,
@@ -205,7 +205,7 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 	"Enhanced Storm Strike": {
 		baseSkill: "Storm Strike",
 		connections: [ "Storm Strike", "Fierce Storm Strike", "Wild Storm Strike" ],
-		description: `Storm Strike has a 15.0% chance to Immobilize all enemies hit for 2.5 seconds.
+		description: `Storm Strike has a 15% chance to Immobilize all enemies hit for 2.5 seconds.
 
 Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 13,
@@ -216,7 +216,7 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 	"Fierce Storm Strike": {
 		baseSkill: "Storm Strike",
 		connections: [ "Enhanced Storm Strike" ],
-		description: `Storm Strike has a 50.0% chance to make enemies Vulnerable for 3 seconds.
+		description: `Storm Strike has a 50% chance to make enemies Vulnerable for 3 seconds.
 
 Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 14,
@@ -251,7 +251,7 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 	"Enhanced Claw": {
 		baseSkill: "Claw",
 		connections: [ "Claw", "Fierce Claw", "Wild Claw" ],
-		description: `Claw's Attack Speed is increased by +10.0%.
+		description: `Claw's Attack Speed is increased by +10%.
 
 Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 		id: 17,
@@ -273,7 +273,7 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 	"Wild Claw": {
 		baseSkill: "Claw",
 		connections: [ "Enhanced Claw" ],
-		description: `Claw has a 10.0% chance to attack twice.
+		description: `Claw has a 10% chance to attack twice.
 
 Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 		id: 19,
@@ -322,7 +322,7 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 	"Primal Landslide": {
 		baseSkill: "Landslide",
 		connections: [ "Enhanced Landslide" ],
-		description: `When you Immobilize or Stun an enemy, you gain a Terramote. Each enemy hit by Landslide consumes a Terramote causing a guaranteed Critical Strike with x40.0% Critical Strike Damage. Bosses always have up to a 10.0% chance to grant a Terramote when hit.
+		description: `When you Immobilize or Stun an enemy, you gain a Terramote. Each enemy hit by Landslide consumes a Terramote causing a guaranteed Critical Strike with x40% Critical Strike Damage. Bosses always have up to a 10% chance to grant a Terramote when hit.
 
 Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 		id: 23,
@@ -357,7 +357,7 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 	"Primal Pulverize": {
 		baseSkill: "Pulverize",
 		connections: [ "Enhanced Pulverize" ],
-		description: `Enemies hit with Pulverize deal 20.0% reduced damage for 4 seconds.
+		description: `Enemies hit with Pulverize deal 20% reduced damage for 4 seconds.
 
 Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		id: 26,
@@ -392,7 +392,7 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 	"Enhanced Tornado": {
 		baseSkill: "Tornado",
 		connections: [ "Tornado", "Raging Tornado", "Primal Tornado" ],
-		description: `Each time you cast Tornado, you have a 20.0% chance to spawn an additional Tornado.
+		description: `Each time you cast Tornado, you have a 20% chance to spawn an additional Tornado.
 
 Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 		id: 29,
@@ -403,7 +403,7 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 	"Raging Tornado": {
 		baseSkill: "Tornado",
 		connections: [ "Enhanced Tornado" ],
-		description: `Enemies hit with Tornado have a 10.0% chance to become Vulnerable for 3 seconds.
+		description: `Enemies hit with Tornado have a 10% chance to become Vulnerable for 3 seconds.
 
 Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 		id: 30,
@@ -414,7 +414,7 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 	"Primal Tornado": {
 		baseSkill: "Tornado",
 		connections: [ "Enhanced Tornado" ],
-		description: `Enemies damaged by Tornado are Slowed by 8.0% for 3 seconds, stacking up to 40.0%.
+		description: `Enemies damaged by Tornado are Slowed by 8% for 3 seconds, stacking up to 40%.
 
 Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 		id: 31,
@@ -441,7 +441,7 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 	"Enhanced Shred": {
 		baseSkill: "Shred",
 		connections: [ "Shred", "Raging Shred", "Primal Shred" ],
-		description: `Shred gains +30.0% Attack Speed and Heals for 2.0% of your Maximum Life if an enemy is struck.
+		description: `Shred gains +30% Attack Speed and Heals for 2% of your Maximum Life if an enemy is struck.
 
 Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		id: 34,
@@ -463,7 +463,7 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 	"Primal Shred": {
 		baseSkill: "Shred",
 		connections: [ "Enhanced Shred" ],
-		description: `Shred's second and third attacks also perform a dash. In addition, Shred's Critical Strike Damage is increased by x20.0%.
+		description: `Shred's second and third attacks also perform a dash. In addition, Shred's Critical Strike Damage is increased by x20%.
 
 Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		id: 35,
@@ -498,7 +498,7 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 	"Primal Lightning Storm": {
 		baseSkill: "Lightning Storm",
 		connections: [ "Enhanced Lightning Storm" ],
-		description: `Lightning Storm has a 8.0% chance to Immobilize enemies hit for 3 seconds.
+		description: `Lightning Storm has a 8% chance to Immobilize enemies hit for 3 seconds.
 
 Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 		id: 39,
@@ -622,7 +622,7 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 	"Preserving Earthen Bulwark": {
 		baseSkill: "Earthen Bulwark",
 		connections: [ "Enhanced Earthen Bulwark" ],
-		description: `Casting Earthen Bulwark grants 18.0% Base Life as Fortify.
+		description: `Casting Earthen Bulwark grants 18% Base Life as Fortify.
 
 Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 		id: 46,
@@ -633,7 +633,7 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 	"Debilitating Roar": {
 		connections: [ "Defensive", "Enhanced Debilitating Roar" ],
 		description: `Cooldown: {#} seconds
-Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by 50.0% for 4 seconds.
+Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by 50% for 4 seconds.
 
 Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 47,
@@ -645,7 +645,7 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 	"Enhanced Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Debilitating Roar", "Preserving Debilitating Roar", "Innate Debilitating Roar" ],
-		description: `Debilitating Roar also Fortifies you for 22.0% Base Life.
+		description: `Debilitating Roar also Fortifies you for 22% Base Life.
 
 Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 48,
@@ -656,7 +656,7 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 	"Preserving Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Enhanced Debilitating Roar" ],
-		description: `Debilitating Roar also Heals you for 4.0% of your Maximum Life each second for its duration.
+		description: `Debilitating Roar also Heals you for 4% of your Maximum Life each second for its duration.
 
 Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 49,
@@ -667,7 +667,7 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 	"Innate Debilitating Roar": {
 		baseSkill: "Debilitating Roar",
 		connections: [ "Enhanced Debilitating Roar" ],
-		description: `Debilitating Roar also Slows enemies by 40.0% for its duration.
+		description: `Debilitating Roar also Slows enemies by 40% for its duration.
 
 Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 50,
@@ -732,7 +732,7 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 	"Preserving Blood Howl": {
 		baseSkill: "Blood Howl",
 		connections: [ "Enhanced Blood Howl" ],
-		description: `Blood Howl also increases your Attack Speed by +15.0% for 4 seconds.
+		description: `Blood Howl also increases your Attack Speed by +15% for 4 seconds.
 
 Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 		id: 56,
@@ -758,7 +758,7 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 	"Enhanced Cyclone Armor": {
 		baseSkill: "Cyclone Armor",
 		connections: [ "Cyclone Armor", "Preserving Cyclone Armor", "Innate Cyclone Armor" ],
-		description: `Enemies who are Knocked Back by Cyclone Armor are also Slowed by 70.0% for 1.5 seconds.
+		description: `Enemies who are Knocked Back by Cyclone Armor are also Slowed by 70% for 1.5 seconds.
 
 Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Physical, Physical, Crowd Control.`,
 		id: 58,
@@ -769,7 +769,7 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 	"Preserving Cyclone Armor": {
 		baseSkill: "Cyclone Armor",
 		connections: [ "Enhanced Cyclone Armor" ],
-		description: `Every 10 seconds, Cyclone Armor intensifies, causing incoming damage to grant you 30.0% Damage Reduction for 2 seconds.
+		description: `Every 10 seconds, Cyclone Armor intensifies, causing incoming damage to grant you 30% Damage Reduction for 2 seconds.
 
 Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Physical, Physical, Crowd Control.`,
 		id: 59,
@@ -809,7 +809,7 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 	"Enhanced Ravens": {
 		baseSkill: "Ravens",
 		connections: [ "Ravens", "Brutal Ravens", "Ferocious Ravens" ],
-		description: `You have +5.0% increased Critical Strike Chance for 6 seconds against Enemies hit by Ravens.
+		description: `You have +5% increased Critical Strike Chance for 6 seconds against Enemies hit by Ravens.
 
 Tags: Companion, Physical, Damage, Cooldown.`,
 		id: 63,
@@ -889,7 +889,7 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 	"Brutal Vine Creeper": {
 		baseSkill: "Vine Creeper",
 		connections: [ "Enhanced Vine Creeper" ],
-		description: `Your Critical Strike Chance is increased by +20.0% against enemies strangled by Vine Creeper.
+		description: `Your Critical Strike Chance is increased by +20% against enemies strangled by Vine Creeper.
 
 Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 70,
@@ -915,7 +915,7 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 	"Enhanced Wolf Pack": {
 		baseSkill: "Wolves",
 		connections: [ "Wolves", "Brutal Wolf Pack", "Ferocious Wolf Pack" ],
-		description: `Wolves deal x20.0% increased damage to Immobilized, Stunned, Slowed, or Poisoned enemies.
+		description: `Wolves deal x20% increased damage to Immobilized, Stunned, Slowed, or Poisoned enemies.
 
 Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 72,
@@ -926,7 +926,7 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 	"Brutal Wolf Pack": {
 		baseSkill: "Wolves",
 		connections: [ "Enhanced Wolf Pack" ],
-		description: `When you Critically Strike, your Wolves gain +20.0% Attack Speed for 3 seconds.
+		description: `When you Critically Strike, your Wolves gain +20% Attack Speed for 3 seconds.
 
 Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 74,
@@ -937,7 +937,7 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 	"Ferocious Wolf Pack": {
 		baseSkill: "Wolves",
 		connections: [ "Enhanced Wolf Pack" ],
-		description: `Lucky Hit: Your Wolves' attacks have up to a 10% chance to Fortify you for 5.0% Base Life.
+		description: `Lucky Hit: Your Wolves' attacks have up to a 10% chance to Fortify you for 5% Base Life.
 
 Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 73,
@@ -1037,7 +1037,7 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 	"Enhanced Boulder": {
 		baseSkill: "Boulder",
 		connections: [ "Boulder", "Natural Boulder", "Savage Boulder" ],
-		description: `When Boulder reaches the end of its path, enemies hit are Slowed by 30.0% for 3 seconds. If Boulder Overpowered, enemies are Stunned for 4 seconds instead.
+		description: `When Boulder reaches the end of its path, enemies hit are Slowed by 30% for 3 seconds. If Boulder Overpowered, enemies are Stunned for 4 seconds instead.
 
 Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 86,
@@ -1048,7 +1048,7 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 	"Natural Boulder": {
 		baseSkill: "Boulder",
 		connections: [ "Enhanced Boulder" ],
-		description: `While you have any Fortify, Boulder has +20.0% increased Critical Strike Chance.
+		description: `While you have any Fortify, Boulder has +20% increased Critical Strike Chance.
 
 Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 87,
@@ -1059,7 +1059,7 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 	"Savage Boulder": {
 		baseSkill: "Boulder",
 		connections: [ "Enhanced Boulder" ],
-		description: `Boulder's Critical Strike Chance is increased by +3.0% each time it deals damage.
+		description: `Boulder's Critical Strike Chance is increased by +3% each time it deals damage.
 
 Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 88,
@@ -1085,7 +1085,7 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 	"Enhanced Trample": {
 		baseSkill: "Trample",
 		connections: [ "Trample", "Natural Trample", "Savage Trample" ],
-		description: `Trample deals x30.0% bonus damage. This bonus is reduced by x15.0% for each enemy hit after the first.
+		description: `Trample deals x30% bonus damage. This bonus is reduced by x15% for each enemy hit after the first.
 
 Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 90,
@@ -1096,7 +1096,7 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 	"Natural Trample": {
 		baseSkill: "Trample",
 		connections: [ "Enhanced Trample" ],
-		description: `Casting Trample grants 20.0% Base Life as Fortify.
+		description: `Casting Trample grants 20% Base Life as Fortify.
 
 Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 91,
@@ -1161,7 +1161,7 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 	"Enhanced Hurricane": {
 		baseSkill: "Hurricane",
 		connections: [ "Hurricane", "Natural Hurricane", "Savage Hurricane" ],
-		description: `Enemies who are damaged by Hurricane are Slowed by 25.0% for 2 seconds.
+		description: `Enemies who are damaged by Hurricane are Slowed by 25% for 2 seconds.
 
 Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 100,
@@ -1172,7 +1172,7 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 	"Natural Hurricane": {
 		baseSkill: "Hurricane",
 		connections: [ "Enhanced Hurricane" ],
-		description: `Hurricane has a 15.0% chance to make enemies Vulnerable for 3 seconds.
+		description: `Hurricane has a 15% chance to make enemies Vulnerable for 3 seconds.
 
 Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 101,
@@ -1183,7 +1183,7 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 	"Savage Hurricane": {
 		baseSkill: "Hurricane",
 		connections: [ "Enhanced Hurricane" ],
-		description: `Enemies affected by Hurricane deal 20.0% less damage.
+		description: `Enemies affected by Hurricane deal 20% less damage.
 
 Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		id: 102,
@@ -1209,7 +1209,7 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 	"Enhanced Rabies": {
 		baseSkill: "Rabies",
 		connections: [ "Rabies", "Natural Rabies", "Savage Rabies" ],
-		description: `Rabies' Poisoning damage also increases over the lifetime of the disease, dealing x30.0% bonus damage at max duration.
+		description: `Rabies' Poisoning damage also increases over the lifetime of the disease, dealing x30% bonus damage at max duration.
 
 Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 		id: 104,
@@ -1295,7 +1295,7 @@ druidData["Ultimate"] = {
 	"Grizzly Rage": {
 		connections: [ "Ultimate", "Prime Grizzly Rage" ],
 		description: `Cooldown: {#} seconds
-Shapeshift into a Dire Werebear for 10 seconds gaining x20.0% bonus damage and 20.0% Damage Reduction. Damage bonus is increased by 3.0% each second while in this form.
+Shapeshift into a Dire Werebear for 10 seconds gaining x20% bonus damage and 20% Damage Reduction. Damage bonus is increased by 3% each second while in this form.
 
 Kills extend the duration by 1 second up to 10 additional seconds.
 
@@ -1320,7 +1320,7 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 	"Supreme Grizzly Rage": {
 		baseSkill: "Grizzly Rage",
 		connections: [ "Prime Grizzly Rage" ],
-		description: `Gain 8.0% Base Life as Fortify per second while Grizzly Rage is active.
+		description: `Gain 8% Base Life as Fortify per second while Grizzly Rage is active.
 
 Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 		id: 109,
@@ -1331,9 +1331,9 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 	"Petrify": {
 		connections: [ "Ultimate", "Prime Petrify" ],
 		description: `Cooldown: {#} seconds
-Encase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x25.0% increased Critical Strike Damage to enemies affected by Petrify.
+Encase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x25% increased Critical Strike Damage to enemies affected by Petrify.
 
-Against Bosses, the Critical Strike Damage bonus is increased to x50.0% and its duration is increased to {#} seconds.
+Against Bosses, the Critical Strike Damage bonus is increased to x50% and its duration is increased to {#} seconds.
 
 Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`,
 		id: 110,
@@ -1386,7 +1386,7 @@ Tags: Fortify, Crowd Control.`,
 	},
 	"Unrestrained": {
 		connections: [ "Thick Hide", "Nature's Resolve" ],
-		description: `Reduce the duration of Control Impairing Effects by {3/6/9/12/15/18/21/24/27/30}%. Triple this effect while you have Fortify for over 50.0% of your Maximum Life.
+		description: `Reduce the duration of Control Impairing Effects by {3/6/9/12/15/18/21/24/27/30}%. Triple this effect while you have Fortify for over 50% of your Maximum Life.
 
 Tags: Fortify, Life, Crowd Control.`,
 		id: 115,
@@ -1450,7 +1450,7 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 	"Prime Lacerate": {
 		baseSkill: "Lacerate",
 		connections: [ "Supreme Lacerate", "Lacerate" ],
-		description: `Each time Lacerate deals a Critical Strike, Heal for 3.0% Maximum Life.
+		description: `Each time Lacerate deals a Critical Strike, Heal for 3% Maximum Life.
 
 Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Damage Reduction.`,
 		id: 121,
@@ -1461,7 +1461,7 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 	"Supreme Lacerate": {
 		baseSkill: "Lacerate",
 		connections: [ "Prime Lacerate" ],
-		description: `Lacerate's initial strike is guaranteed to Critically Strike and deals x150.0% increased damage.
+		description: `Lacerate's initial strike is guaranteed to Critically Strike and deals x150% increased damage.
 
 Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Damage Reduction.`,
 		id: 122,
@@ -1579,7 +1579,7 @@ Tags: Critical Strikes, Damage, Spirit, Lucky Hit, Earth, Crowd Control, Nature 
 	},
 	"Lupine Ferocity": {
 		connections: [ "Capstone" ],
-		description: `Every 6th Werewolf Skill hit Critically Strikes and deals x60.0% increased damage.
+		description: `Every 6th Werewolf Skill hit Critically Strikes and deals x60% increased damage.
 
 Tags: Critical Strikes, Damage, Werewolf, Shapeshifting.`,
 		id: 132,
@@ -1589,9 +1589,9 @@ Tags: Critical Strikes, Damage, Werewolf, Shapeshifting.`,
 	},
 	"Bestial Rampage": {
 		connections: [ "Capstone" ],
-		description: `After being a Werewolf for 2.5 seconds, gain +20.0% Attack Speed for 15 seconds.
+		description: `After being a Werewolf for 2.5 seconds, gain +20% Attack Speed for 15 seconds.
 
-After being a Werebear for 2.5 seconds, deal x20.0% increased damage for 15 seconds.
+After being a Werebear for 2.5 seconds, deal x20% increased damage for 15 seconds.
 
 Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 		id: 133,
@@ -1601,7 +1601,7 @@ Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 	},
 	"Perfect Storm": {
 		connections: [ "Capstone" ],
-		description: `Your Storm Skills grant 2 Spirit and deal x20.0% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.
+		description: `Your Storm Skills grant 2 Spirit and deal x20% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.
 
 Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 		id: 134,
@@ -1611,9 +1611,9 @@ Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 	},
 	"Ursine Strength": {
 		connections: [ "Capstone" ],
-		description: `Gain x20.0% additional Maximum Life while in Werebear form and for 3 seconds after leaving Werebear form.
+		description: `Gain x20% additional Maximum Life while in Werebear form and for 3 seconds after leaving Werebear form.
 
-While Healthy, deal x30.0% increased damage.
+While Healthy, deal x30% increased damage.
 
 Tags: Healthy, Shapeshifting, Life, Werebear, Damage.`,
 		id: 135,
@@ -1636,30 +1636,30 @@ druidData["Spirit Boons"] = {
 			id: 143
 		},
 		"Wariness": {
-			description: `Take 10.0% reduced damage from Elites.`,
+			description: `Take 10% reduced damage from Elites.`,
 			id: 144
 		},
 		"Advantageous Beast": {
-			description: `Reduce the duration of Control Impairing Effects by 15.0%.`,
+			description: `Reduce the duration of Control Impairing Effects by 15%.`,
 			id: 145
 		}
 	},
 	"Eagle": {
 		id: 159,
 		"Scythe Talons": {
-			description: `Gain +5.0% increased Critical Strike Chance.`,
+			description: `Gain +5% increased Critical Strike Chance.`,
 			id: 146
 		},
 		"Iron Feather": {
-			description: `Gain x10.0% Maximum Life.`,
+			description: `Gain x10% Maximum Life.`,
 			id: 147
 		},
 		"Swooping Attacks": {
-			description: `Gain +10.0% Attack Speed.`,
+			description: `Gain +10% Attack Speed.`,
 			id: 148
 		},
 		"Avian Wrath": {
-			description: `Gain x30.0% Critical Strike Damage.`,
+			description: `Gain x30% Critical Strike Damage.`,
 			id: 149
 		}
 	},
@@ -1675,7 +1675,7 @@ druidData["Spirit Boons"] = {
 			id: 155
 		},
 		"Masochistic": {
-			description: `Critical Strikes with Shapeshifting Skills Heal you for 3.0% Maximum Life.`,
+			description: `Critical Strikes with Shapeshifting Skills Heal you for 3% Maximum Life.`,
 			id: 156
 		},
 		"Calm Before the Storm": {
@@ -1690,15 +1690,15 @@ druidData["Spirit Boons"] = {
 			id: 150
 		},
 		"Energize": {
-			description: `Lucky Hit: Dealing damage has up to a 15.0% chance to restore 10 Spirit.`,
+			description: `Lucky Hit: Dealing damage has up to a 15% chance to restore 10 Spirit.`,
 			id: 151
 		},
 		"Bolster": {
-			description: `Fortify for 10.0% of your Maximum Life when you use a Defensive Skill.`,
+			description: `Fortify for 10% of your Maximum Life when you use a Defensive Skill.`,
 			id: 152
 		},
 		"Calamity": {
-			description: `Extend the duration of Ultimate Skills by 25.0%.`,
+			description: `Extend the duration of Ultimate Skills by 25%.`,
 			id: 153
 		}
 	}

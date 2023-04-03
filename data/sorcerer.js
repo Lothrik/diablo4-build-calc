@@ -63,7 +63,7 @@ Direct damage from Skills applies up to {#}% Chill.`,
 	"Enhanced Frost Bolt": {
 		baseSkill: "Frost Bolt",
 		connections: [ "Frost Bolt", "Flickering Frost Bolt", "Glinting Frost Bolt" ],
-		description: `Frost Bolt has a 15.0% chance to explode on Chilled enemies, hitting surrounding enemies. Chance increased to 100% against Frozen enemies.
+		description: `Frost Bolt has a 15% chance to explode on Chilled enemies, hitting surrounding enemies. Chance increased to 100% against Frozen enemies.
 
 Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.`,
 		id: 1,
@@ -112,7 +112,7 @@ Killing an enemy has a {#}% chance to form a Crackling Energy.`,
 	"Enhanced Spark": {
 		baseSkill: "Spark",
 		connections: [ "Spark", "Flickering Spark", "Glinting Spark" ],
-		description: `Each time Spark hits its primary target, it has a 20.0% chance to hit up to 3 additional enemies, dealing {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% damage. If there are no other enemies to hit, Spark instead deals x20.0% increased damage to its primary target.
+		description: `Each time Spark hits its primary target, it has a 20% chance to hit up to 3 additional enemies, dealing {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% damage. If there are no other enemies to hit, Spark instead deals x20% increased damage to its primary target.
 
 Tags: Basic, Shock, Damage, Lightning.`,
 		id: 5,
@@ -123,7 +123,7 @@ Tags: Basic, Shock, Damage, Lightning.`,
 	"Flickering Spark": {
 		baseSkill: "Spark",
 		connections: [ "Enhanced Spark" ],
-		description: `Each time Spark hits an enemy it has a 3.0% chance to form a Crackling Energy.
+		description: `Each time Spark hits an enemy it has a 3% chance to form a Crackling Energy.
 
 Tags: Basic, Shock, Damage, Lightning.`,
 		id: 6,
@@ -134,7 +134,7 @@ Tags: Basic, Shock, Damage, Lightning.`,
 	"Glinting Spark": {
 		baseSkill: "Spark",
 		connections: [ "Enhanced Spark" ],
-		description: `Spark grants +2.0% increased Critical Strike Chance per cast for 3 seconds, up to +10.0%.
+		description: `Spark grants +2% increased Critical Strike Chance per cast for 3 seconds, up to +10%.
 
 Tags: Basic, Shock, Damage, Lightning.`,
 		id: 7,
@@ -183,7 +183,7 @@ Tags: Basic, Shock, Damage, Lightning, Crowd Control.`,
 	"Flickering Arc Lash": {
 		baseSkill: "Arc Lash",
 		connections: [ "Enhanced Arc Lash" ],
-		description: `Gain +6.0% Movement Speed for 5 seconds per enemy hit with Arc Lash, up to +18.0%.
+		description: `Gain +6% Movement Speed for 5 seconds per enemy hit with Arc Lash, up to +18%.
 
 Tags: Basic, Shock, Damage, Lightning, Crowd Control.`,
 		id: 11,
@@ -221,7 +221,7 @@ Tags: Basic, Pyromancy, Damage, Fire, Burn.`,
 	"Glinting Fire Bolt": {
 		baseSkill: "Fire Bolt",
 		connections: [ "Enhanced Fire Bolt" ],
-		description: `Critical Strikes with Fire Bolt increase the Burning damage you deal to the enemy by x20.0% for 4 seconds.
+		description: `Critical Strikes with Fire Bolt increase the Burning damage you deal to the enemy by x20% for 4 seconds.
 
 Tags: Basic, Pyromancy, Damage, Fire, Burn.`,
 		id: 14,
@@ -274,7 +274,7 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 	"Greater Charged Bolts": {
 		baseSkill: "Charged Bolts",
 		connections: [ "Enhanced Charged Bolts" ],
-		description: `Charged Bolts deals x25.0% increased damage to Stunned enemies.
+		description: `Charged Bolts deals x25% increased damage to Stunned enemies.
 
 Tags: Core, Shock, Damage, Lightning, Mana.`,
 		id: 18,
@@ -285,7 +285,7 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 	"Destructive Charged Bolts": {
 		baseSkill: "Charged Bolts",
 		connections: [ "Enhanced Charged Bolts" ],
-		description: `Hitting an enemy with Charged Bolts reduces their damage dealt by 20.0% for 3 seconds.
+		description: `Hitting an enemy with Charged Bolts reduces their damage dealt by 20% for 3 seconds.
 
 Tags: Core, Shock, Damage, Lightning, Mana.`,
 		id: 19,
@@ -313,7 +313,7 @@ Whenever you cast a Non-Basic Skill, you have a {#}% chance to launch a Frozen O
 	"Enhanced Frozen Orb": {
 		baseSkill: "Frozen Orb",
 		connections: [ "Destructive Frozen Orb", "Greater Frozen Orb", "Frozen Orb" ],
-		description: `When cast above 50 Mana, Frozen Orb's explosion damage is increased by x30.0%.
+		description: `When cast above 50 Mana, Frozen Orb's explosion damage is increased by x30%.
 
 Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 		id: 21,
@@ -335,7 +335,7 @@ Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 	"Greater Frozen Orb": {
 		baseSkill: "Frozen Orb",
 		connections: [ "Enhanced Frozen Orb" ],
-		description: `Frozen Orb's explosion has a 25.0% chance to make all enemies hit Vulnerable for 2 seconds. Frozen Orb always makes Frozen enemies Vulnerable.
+		description: `Frozen Orb's explosion has a 25% chance to make all enemies hit Vulnerable for 2 seconds. Frozen Orb always makes Frozen enemies Vulnerable.
 
 Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 		id: 23,
@@ -363,7 +363,7 @@ Every {#} seconds, a serpent spawns and Incinerates enemies for 6 seconds.`,
 	"Enhanced Incinerate": {
 		baseSkill: "Incinerate",
 		connections: [ "Incinerate", "Destructive Incinerate", "Greater Incinerate" ],
-		description: `While channeling Incinerate, you Burn enemies around you for 15.0% of the damage per second.
+		description: `While channeling Incinerate, you Burn enemies around you for 15% of the damage per second.
 
 Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 		id: 25,
@@ -374,7 +374,7 @@ Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 	"Destructive Incinerate": {
 		baseSkill: "Incinerate",
 		connections: [ "Enhanced Incinerate" ],
-		description: `Enemies deal 20.0% less damage while Burning from Incinerate.
+		description: `Enemies deal 20% less damage while Burning from Incinerate.
 
 Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 		id: 26,
@@ -413,7 +413,7 @@ When you kill an enemy, they explode in a Fireball for {#}% of its damage.`,
 	"Enhanced Fireball": {
 		baseSkill: "Fireball",
 		connections: [ "Fireball", "Greater Fireball", "Destructive Fireball" ],
-		description: `Fireball's radius is increased based on distance traveled, up to 50.0%.
+		description: `Fireball's radius is increased based on distance traveled, up to 50%.
 
 Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 		id: 29,
@@ -424,7 +424,7 @@ Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 	"Greater Fireball": {
 		baseSkill: "Fireball",
 		connections: [ "Enhanced Fireball" ],
-		description: `Fireball deals 10.0% of the Burning damage you've applied to enemies as additional direct damage.
+		description: `Fireball deals 10% of the Burning damage you've applied to enemies as additional direct damage.
 
 Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 		id: 30,
@@ -435,7 +435,7 @@ Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 	"Destructive Fireball": {
 		baseSkill: "Fireball",
 		connections: [ "Enhanced Fireball" ],
-		description: `Fireball's explosion's Critical Strike Damage is increased by +10.0%. Each enemy it hits increases this bonus by +5.0%, up to +25.0% total.
+		description: `Fireball's explosion's Critical Strike Damage is increased by +10%. Each enemy it hits increases this bonus by +5%, up to +25% total.
 
 Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 		id: 31,
@@ -463,7 +463,7 @@ Chain Lightning forms automatically after spending {#} Mana.`,
 	"Enhanced Chain Lightning": {
 		baseSkill: "Chain Lightning",
 		connections: [ "Chain Lightning", "Greater Chain Lightning", "Destructive Chain Lightning" ],
-		description: `Chain Lightning gains a +3.0% increased Critical Strike Chance per bounce.
+		description: `Chain Lightning gains a +3% increased Critical Strike Chance per bounce.
 
 Tags: Core, Shock, Damage, Lightning, Mana.`,
 		id: 33,
@@ -474,7 +474,7 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 	"Greater Chain Lightning": {
 		baseSkill: "Chain Lightning",
 		connections: [ "Enhanced Chain Lightning" ],
-		description: `If Chain Lightning bounces off of you, its next hit deals x25.0% increased damage.
+		description: `If Chain Lightning bounces off of you, its next hit deals x25% increased damage.
 
 Tags: Core, Shock, Damage, Lightning, Mana.`,
 		id: 34,
@@ -485,7 +485,7 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 	"Destructive Chain Lightning": {
 		baseSkill: "Chain Lightning",
 		connections: [ "Enhanced Chain Lightning" ],
-		description: `When Chain Lightning Critically Strikes, it has a 25.0% chance to form a Crackling Energy.
+		description: `When Chain Lightning Critically Strikes, it has a 25% chance to form a Crackling Energy.
 
 Tags: Core, Shock, Damage, Lightning, Mana.`,
 		id: 35,
@@ -497,7 +497,7 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 		connections: [ "Core", "Enhanced Ice Shards" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Launch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25.0% increased damage to Frozen enemies.
+Launch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25% increased damage to Frozen enemies.
 
 Tags: Core, Frost, Frozen, Damage, Cold, Mana.
 
@@ -512,7 +512,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 	"Enhanced Ice Shards": {
 		baseSkill: "Ice Shards",
 		connections: [ "Ice Shards", "Greater Ice Shards", "Destructive Ice Shards" ],
-		description: `Ice Shards have a 15.0% chance to ricochet to another enemy. Ice Shards always ricochet off of Frozen enemies.
+		description: `Ice Shards have a 15% chance to ricochet to another enemy. Ice Shards always ricochet off of Frozen enemies.
 
 Tags: Core, Frost, Frozen, Damage, Cold, Mana.`,
 		id: 37,
@@ -597,7 +597,7 @@ Flame Shield automatically activates when you take fatal damage. Can only happen
 	"Enhanced Flame Shield": {
 		baseSkill: "Flame Shield",
 		connections: [ "Flame Shield", "Mystical Flame Shield", "Shimmering Flame Shield" ],
-		description: `Flame Shield grants +25.0% Movement Speed while active.
+		description: `Flame Shield grants +25% Movement Speed while active.
 
 Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 		id: 44,
@@ -608,7 +608,7 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 	"Mystical Flame Shield": {
 		baseSkill: "Flame Shield",
 		connections: [ "Enhanced Flame Shield" ],
-		description: `You gain 25.0% Mana Cost Reduction while Flame Shield is active.
+		description: `You gain 25% Mana Cost Reduction while Flame Shield is active.
 
 Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 		id: 45,
@@ -619,7 +619,7 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 	"Shimmering Flame Shield": {
 		baseSkill: "Flame Shield",
 		connections: [ "Enhanced Flame Shield" ],
-		description: `Flame Shield Heals you for 50.0% of your missing Life.
+		description: `Flame Shield Heals you for 50% of your missing Life.
 
 Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 		id: 46,
@@ -681,7 +681,7 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.`,
 	"Ice Armor": {
 		connections: [ "Defensive", "Enhanced Ice Armor" ],
 		description: `Cooldown: {#} seconds
-A Barrier of ice forms around you for 6 seconds, absorbing {#}% of your Base Life in damage. While Ice Armor is active, 10.0% of your damage dealt is added to its Barrier.
+A Barrier of ice forms around you for 6 seconds, absorbing {#}% of your Base Life in damage. While Ice Armor is active, 10% of your damage dealt is added to its Barrier.
 
 Tags: Defensive, Frost, Barrier, Cooldown, Damage.
 
@@ -697,7 +697,7 @@ Upon getting hit, you have a {#}% chance to apply Ice Armor.`,
 	"Enhanced Ice Armor": {
 		baseSkill: "Ice Armor",
 		connections: [ "Ice Armor", "Shimmering Ice Armor", "Mystical Ice Armor" ],
-		description: `While Ice Armor is active, your Mana Regeneration is increased by x25.0%.
+		description: `While Ice Armor is active, your Mana Regeneration is increased by x25%.
 
 Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 		id: 52,
@@ -708,7 +708,7 @@ Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 	"Shimmering Ice Armor": {
 		baseSkill: "Ice Armor",
 		connections: [ "Enhanced Ice Armor" ],
-		description: `Enemies that hit you while Ice Armor is active have a 15.0% chance to become Frozen for 3 seconds.
+		description: `Enemies that hit you while Ice Armor is active have a 15% chance to become Frozen for 3 seconds.
 
 Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 		id: 53,
@@ -769,7 +769,7 @@ Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.`,
 	"Shimmering Teleport": {
 		baseSkill: "Teleport",
 		connections: [ "Enhanced Teleport" ],
-		description: `After Teleporting, you gain 30.0% Damage Reduction for 5 seconds.
+		description: `After Teleporting, you gain 30% Damage Reduction for 5 seconds.
 
 Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.`,
 		id: 58,
@@ -833,7 +833,7 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 	"Invoked Hydra": {
 		baseSkill: "Hydra",
 		connections: [ "Enhanced Hydra" ],
-		description: `After you Critically Strike, your Hydras gain +30.0% Critical Strike Chance for 3 seconds.
+		description: `After you Critically Strike, your Hydras gain +30% Critical Strike Chance for 3 seconds.
 
 Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 		id: 63,
@@ -844,7 +844,7 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 	"Summoned Hydra": {
 		baseSkill: "Hydra",
 		connections: [ "Enhanced Hydra" ],
-		description: `Hydra also Burns enemies for an additional 12.0% of its Base damage dealt over 6 seconds.
+		description: `Hydra also Burns enemies for an additional 12% of its Base damage dealt over 6 seconds.
 
 Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 		id: 64,
@@ -856,7 +856,7 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 		connections: [ "Conjuration", "Enhanced Ice Blades" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Conjure a pair of ice blades for {#} seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30.0% chance to make them Vulnerable for 2 seconds.
+Conjure a pair of ice blades for {#} seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.
 
 Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.
 
@@ -883,7 +883,7 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 	"Summoned Ice Blades": {
 		baseSkill: "Ice Blades",
 		connections: [ "Enhanced Ice Blades" ],
-		description: `50.0% of Enhanced Ice Blades's Cooldown reduction is applied to your other Skills.
+		description: `50% of Enhanced Ice Blades's Cooldown reduction is applied to your other Skills.
 
 Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 		id: 67,
@@ -894,7 +894,7 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 	"Invoked Ice Blades": {
 		baseSkill: "Ice Blades",
 		connections: [ "Enhanced Ice Blades" ],
-		description: `Your Ice Blades gain +10.0% increased Attack Speed per active Ice Blades.
+		description: `Your Ice Blades gain +10% increased Attack Speed per active Ice Blades.
 
 Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 		id: 68,
@@ -922,7 +922,7 @@ Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear.`,
 	"Enhanced Lightning Spear": {
 		baseSkill: "Lightning Spear",
 		connections: [ "Lightning Spear", "Summoned Lightning Spear", "Invoked Lightning Spear" ],
-		description: `After Critically Striking, Lightning Spear gains a +5.0% increased stacking Critical Strike Chance for its duration.
+		description: `After Critically Striking, Lightning Spear gains a +5% increased stacking Critical Strike Chance for its duration.
 
 Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 		id: 70,
@@ -933,7 +933,7 @@ Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 	"Summoned Lightning Spear": {
 		baseSkill: "Lightning Spear",
 		connections: [ "Enhanced Lightning Spear" ],
-		description: `Collecting Crackling Energy increases the damage of your next Lightning Spear cast by x20.0%, up to x100.0%.
+		description: `Collecting Crackling Energy increases the damage of your next Lightning Spear cast by x20%, up to x100%.
 
 Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 		id: 71,
@@ -1025,7 +1025,7 @@ Lucky Hit: {#}% chance for a Meteor to fall on enemies.`,
 	"Enhanced Meteor": {
 		baseSkill: "Meteor",
 		connections: [ "Meteor", "Mage's Meteor", "Wizard's Meteor" ],
-		description: `If a cast of Meteor hits 3 or more enemies, there is a 30.0% chance an additional Meteor falls on the same location.
+		description: `If a cast of Meteor hits 3 or more enemies, there is a 30% chance an additional Meteor falls on the same location.
 
 Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 		id: 79,
@@ -1036,7 +1036,7 @@ Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 	"Mage's Meteor": {
 		baseSkill: "Meteor",
 		connections: [ "Enhanced Meteor" ],
-		description: `Meteor falls 30.0% faster.
+		description: `Meteor falls 30% faster.
 
 Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 		id: 80,
@@ -1075,7 +1075,7 @@ Every {#} seconds, a Blizzard forms over you and follows you for 6 seconds.`,
 	"Enhanced Blizzard": {
 		baseSkill: "Blizzard",
 		connections: [ "Blizzard", "Mage's Blizzard", "Wizard's Blizzard" ],
-		description: `Blizzard deals x25.0% increased damage to Frozen enemies.
+		description: `Blizzard deals x25% increased damage to Frozen enemies.
 
 Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 		id: 83,
@@ -1097,7 +1097,7 @@ Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 	"Wizard's Blizzard": {
 		baseSkill: "Blizzard",
 		connections: [ "Enhanced Blizzard" ],
-		description: `While you have an active Blizzard, your Core Skills cost 10.0% less Mana.
+		description: `While you have an active Blizzard, your Core Skills cost 10% less Mana.
 
 Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 		id: 85,
@@ -1265,7 +1265,7 @@ Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewa
 	"Enhanced Firewall": {
 		baseSkill: "Firewall",
 		connections: [ "Firewall", "Wizard's Firewall", "Mage's Firewall" ],
-		description: `Enemies take x25.0% increased Burning damage from you while standing in Firewall.
+		description: `Enemies take x25% increased Burning damage from you while standing in Firewall.
 
 Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 		id: 100,
@@ -1276,7 +1276,7 @@ Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 	"Wizard's Firewall": {
 		baseSkill: "Firewall",
 		connections: [ "Enhanced Firewall" ],
-		description: `You gain x5.0% increased Mana Regeneration per active Firewall, up to x25.0%.
+		description: `You gain x5% increased Mana Regeneration per active Firewall, up to x25%.
 
 Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 		id: 101,
@@ -1348,7 +1348,7 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 	"Prime Unstable Currents": {
 		baseSkill: "Unstable Currents",
 		connections: [ "Unstable Currents", "Supreme Unstable Currents" ],
-		description: `Unstable Currents increases your Attack Speed by +25.0% while active.
+		description: `Unstable Currents increases your Attack Speed by +25% while active.
 
 Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 		id: 107,
@@ -1385,7 +1385,7 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 	"Prime Deep Freeze": {
 		baseSkill: "Deep Freeze",
 		connections: [ "Deep Freeze", "Supreme Deep Freeze" ],
-		description: `When Deep Freeze ends, gain 10.0% of your Base Life as a Barrier for 6 seconds for each enemy you Froze while it was active.
+		description: `When Deep Freeze ends, gain 10% of your Base Life as a Barrier for 6 seconds for each enemy you Froze while it was active.
 
 Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Damage Reduction.`,
 		id: 110,
@@ -1396,7 +1396,7 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 	"Supreme Deep Freeze": {
 		baseSkill: "Deep Freeze",
 		connections: [ "Prime Deep Freeze" ],
-		description: `When Deep Freeze ends, your Non-Ultimate Cooldowns are reduced by 50.0%.
+		description: `When Deep Freeze ends, your Non-Ultimate Cooldowns are reduced by 50%.
 
 Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Damage Reduction.`,
 		id: 111,
@@ -1529,7 +1529,7 @@ Tags: Mana, Pyromancy.`,
 sorcererData["Capstone"] = {
 	"Shatter": {
 		connections: [ "Capstone" ],
-		description: `After Freeze expires, enemies explode for 25.0% of the damage you dealt to them while Frozen.
+		description: `After Freeze expires, enemies explode for 25% of the damage you dealt to them while Frozen.
 
 Tags: Frozen, Crowd Control, Damage.`,
 		id: 124,
@@ -1539,7 +1539,7 @@ Tags: Frozen, Crowd Control, Damage.`,
 	},
 	"Avalanche": {
 		connections: [ "Capstone" ],
-		description: `Lucky Hit: Your Frost Skills have up to a 10.0% chance to make your next cast of Ice Shards, Frozen Orb, or Blizzard consume no Mana and deal x40.0% increased damage. Chance is doubled against Vulnerable enemies.
+		description: `Lucky Hit: Your Frost Skills have up to a 10% chance to make your next cast of Ice Shards, Frozen Orb, or Blizzard consume no Mana and deal x40% increased damage. Chance is doubled against Vulnerable enemies.
 
 Tags: Vulnerable, Lucky Hit, Mana, Damage, Frost.`,
 		id: 140,
@@ -1559,7 +1559,7 @@ Tags: Burn, Damage.`,
 	},
 	"Esu's Ferocity": {
 		connections: [ "Capstone" ],
-		description: `Your Fire Critical Strike Damage is increased by x25.0% against enemies above 50% Life. Your Fire Critical Strike Chance is increased by +5.0% against enemies below 50% Life.
+		description: `Your Fire Critical Strike Damage is increased by x25% against enemies above 50% Life. Your Fire Critical Strike Chance is increased by +5% against enemies below 50% Life.
 
 Killing an enemy with a Critical Strike grants both bonuses against all enemies for 3 seconds.
 
@@ -1581,7 +1581,7 @@ Tags: Crackling Energy, Cooldown, Elite Monsters, Damage, Shock.`,
 	},
 	"Vyr's Mastery": {
 		connections: [ "Capstone" ],
-		description: `Close enemies take x10.0% increased damage from your Shock Skills and deal 20.0% less damage to you. Critical Strikes increase these bonuses by 25.0% for 3 seconds.
+		description: `Close enemies take x10% increased damage from your Shock Skills and deal 20% less damage to you. Critical Strikes increase these bonuses by 25% for 3 seconds.
 
 Tags: Shock, Damage, Damage Reduction, Critical Strikes.`,
 		id: 129,

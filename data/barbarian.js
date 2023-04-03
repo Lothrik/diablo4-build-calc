@@ -60,7 +60,7 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 	"Enhanced Bash": {
 		baseSkill: "Bash",
 		connections: [ "Bash", "Battle Bash", "Combat Bash" ],
-		description: `Damaging a Stunned enemy with Bash grants you 5.0% Base Life as Fortify. Double this amount when using a Two-Handed weapon.
+		description: `Damaging a Stunned enemy with Bash grants you 5% Base Life as Fortify. Double this amount when using a Two-Handed weapon.
 
 Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 		id: 1,
@@ -106,7 +106,7 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 	"Enhanced Lunging Strike": {
 		baseSkill: "Lunging Strike",
 		connections: [ "Lunging Strike", "Combat Lunging Strike", "Battle Lunging Strike" ],
-		description: `Lunging Strike deals x30.0% increased damage and Heals you for 2.0% Maximum Life when it damages a Healthy enemy.
+		description: `Lunging Strike deals x30% increased damage and Heals you for 2% Maximum Life when it damages a Healthy enemy.
 
 Tags: Basic, Damage, Physical, Fury, Movement.`,
 		id: 5,
@@ -142,7 +142,7 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 Lucky Hit Chance: {#}%
 Unleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits.
 
-If Frenzy hits an enemy, its Attack Speed is increased by +20.0% for 3 seconds, up to +60.0%.
+If Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.
 
 Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 		id: 8,
@@ -154,7 +154,7 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 	"Enhanced Frenzy": {
 		baseSkill: "Frenzy",
 		connections: [ "Frenzy", "Battle Frenzy", "Combat Frenzy" ],
-		description: `While Frenzy is granting +60.0% bonus Attack Speed, it also generates 2 additional Fury.
+		description: `While Frenzy is granting +60% bonus Attack Speed, it also generates 2 additional Fury.
 
 Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 		id: 9,
@@ -165,7 +165,7 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 	"Battle Frenzy": {
 		baseSkill: "Frenzy",
 		connections: [ "Enhanced Frenzy" ],
-		description: `While Berserking, your other Skills gain +5.0% Attack Speed for each stack of Frenzy you have.
+		description: `While Berserking, your other Skills gain +5% Attack Speed for each stack of Frenzy you have.
 
 Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 		id: 10,
@@ -176,7 +176,7 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 	"Combat Frenzy": {
 		baseSkill: "Frenzy",
 		connections: [ "Enhanced Frenzy" ],
-		description: `You gain 8.0% Damage Reduction for each stack of Frenzy you currently have.
+		description: `You gain 8% Damage Reduction for each stack of Frenzy you currently have.
 
 Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 		id: 11,
@@ -200,7 +200,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 	"Enhanced Flay": {
 		baseSkill: "Flay",
 		connections: [ "Flay", "Battle Flay", "Combat Flay" ],
-		description: `Flay has a 10.0% chance to make the enemy Vulnerable for 2 seconds. Double this chance when using a Two-Handed weapon.
+		description: `Flay has a 10% chance to make the enemy Vulnerable for 2 seconds. Double this chance when using a Two-Handed weapon.
 
 Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 		id: 13,
@@ -211,7 +211,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 	"Battle Flay": {
 		baseSkill: "Flay",
 		connections: [ "Enhanced Flay" ],
-		description: `When Flay deals direct damage to an enemy, they take x10.0% increased Bleeding damage from you for the next 3 seconds.
+		description: `When Flay deals direct damage to an enemy, they take x10% increased Bleeding damage from you for the next 3 seconds.
 
 Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 		id: 14,
@@ -222,7 +222,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 	"Combat Flay": {
 		baseSkill: "Flay",
 		connections: [ "Enhanced Flay" ],
-		description: `When Flay deals direct damage to an enemy, you gain 3.0% Damage Reduction and 10 Thorns for 3 seconds. This stacks up to 4 times.
+		description: `When Flay deals direct damage to an enemy, you gain 3% Damage Reduction and 10 Thorns for 3 seconds. This stacks up to 4 times.
 
 Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 		id: 15,
@@ -249,7 +249,7 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 	"Enhanced Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
 		connections: [ "Hammer of the Ancients", "Violent Hammer of the Ancients", "Furious Hammer of the Ancients" ],
-		description: `Gain x3.0% more Fury for 5 seconds for each enemy damaged by Hammer of the Ancients, stacking up to 10 times.
+		description: `Gain x3% more Fury for 5 seconds for each enemy damaged by Hammer of the Ancients, stacking up to 10 times.
 
 Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 		id: 17,
@@ -260,7 +260,7 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 	"Violent Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
 		connections: [ "Enhanced Hammer of the Ancients" ],
-		description: `After Overpowering with Hammer of the Ancients, you deal x30.0% more damage for 2.5 seconds.
+		description: `After Overpowering with Hammer of the Ancients, you deal x30% more damage for 2.5 seconds.
 
 Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 		id: 18,
@@ -271,7 +271,7 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 	"Furious Hammer of the Ancients": {
 		baseSkill: "Hammer of the Ancients",
 		connections: [ "Enhanced Hammer of the Ancients" ],
-		description: `Hammer of the Ancients deals x1.0% additional damage for each point of Fury you had when using it.
+		description: `Hammer of the Ancients deals x1% additional damage for each point of Fury you had when using it.
 
 Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 		id: 19,
@@ -295,7 +295,7 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 	"Enhanced Upheaval": {
 		baseSkill: "Upheaval",
 		connections: [ "Upheaval", "Violent Upheaval", "Furious Upheaval" ],
-		description: `Upheaval has a 20.0% chance to Stun all enemies it damages for 2.5 seconds.
+		description: `Upheaval has a 20% chance to Stun all enemies it damages for 2.5 seconds.
 
 Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 		id: 21,
@@ -317,7 +317,7 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 	"Furious Upheaval": {
 		baseSkill: "Upheaval",
 		connections: [ "Enhanced Upheaval" ],
-		description: `Dealing direct damage to an enemy with a Skill that is not Upheaval causes your next cast of Upheaval to deal x8.0% increased damage, stacking up to 10 times.
+		description: `Dealing direct damage to an enemy with a Skill that is not Upheaval causes your next cast of Upheaval to deal x8% increased damage, stacking up to 10 times.
 
 Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 		id: 23,
@@ -408,7 +408,7 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 	"Violent Rend": {
 		baseSkill: "Rend",
 		connections: [ "Enhanced Rend" ],
-		description: `Rend deals x12.0% increased damage to Vulnerable enemies.
+		description: `Rend deals x12% increased damage to Vulnerable enemies.
 
 Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 		id: 31,
@@ -454,7 +454,7 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 	"Furious Whirlwind": {
 		baseSkill: "Whirlwind",
 		connections: [ "Enhanced Whirlwind" ],
-		description: `While using a Slashing weapon, Whirlwind also inflicts 20.0% of its Base damage as Bleeding damage over 5 seconds.
+		description: `While using a Slashing weapon, Whirlwind also inflicts 20% of its Base damage as Bleeding damage over 5 seconds.
 
 Tags: Core, Channeled, Fury, Physical, Damage.`,
 		id: 35,
@@ -465,7 +465,7 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 	"Violent Whirlwind": {
 		baseSkill: "Whirlwind",
 		connections: [ "Enhanced Whirlwind" ],
-		description: `After using Whirlwind for 2 seconds, Whirlwind deals x30.0% increased damage until it is cancelled.
+		description: `After using Whirlwind for 2 seconds, Whirlwind deals x30% increased damage until it is cancelled.
 
 Tags: Core, Channeled, Fury, Physical, Damage.`,
 		id: 36,
@@ -501,7 +501,7 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 	"Enhanced Challenging Shout": {
 		baseSkill: "Challenging Shout",
 		connections: [ "Challenging Shout", "Strategic Challenging Shout", "Tactical Challenging Shout" ],
-		description: `While Challenging Shout is active, gain x20.0% bonus Maximum Life.
+		description: `While Challenging Shout is active, gain x20% bonus Maximum Life.
 
 Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 		id: 39,
@@ -512,7 +512,7 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 	"Strategic Challenging Shout": {
 		baseSkill: "Challenging Shout",
 		connections: [ "Enhanced Challenging Shout" ],
-		description: `While Challenging Shout is active, gain Thorns equal to 50.0% of your Maximum Life.
+		description: `While Challenging Shout is active, gain Thorns equal to 50% of your Maximum Life.
 
 Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 		id: 40,
@@ -546,7 +546,7 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 	"Enhanced Iron Skin": {
 		baseSkill: "Iron Skin",
 		connections: [ "Iron Skin", "Tactical Iron Skin", "Strategic Iron Skin" ],
-		description: `Iron Skin's Barrier absorbs 5.0% more of your Maximum Life.
+		description: `Iron Skin's Barrier absorbs 5% more of your Maximum Life.
 
 Tags: Defensive, Barrier, Cooldown, Life.`,
 		id: 43,
@@ -557,7 +557,7 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 	"Tactical Iron Skin": {
 		baseSkill: "Iron Skin",
 		connections: [ "Enhanced Iron Skin" ],
-		description: `While Iron Skin is active, Heal for 10.0% of the Barrier's original amount as Life per second.
+		description: `While Iron Skin is active, Heal for 10% of the Barrier's original amount as Life per second.
 
 Tags: Defensive, Barrier, Cooldown, Life.`,
 		id: 44,
@@ -568,7 +568,7 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 	"Strategic Iron Skin": {
 		baseSkill: "Iron Skin",
 		connections: [ "Enhanced Iron Skin" ],
-		description: `Iron Skin also grants 9.0% Base Life as Fortify. Double this amount if cast while below 50.0% Life.
+		description: `Iron Skin also grants 9% Base Life as Fortify. Double this amount if cast while below 50% Life.
 
 Tags: Defensive, Barrier, Cooldown, Life.`,
 		id: 45,
@@ -588,7 +588,7 @@ Tags: Life, Thorns.`,
 	},
 	"Tough as Nails": {
 		connections: [ "Outburst" ],
-		description: `Increase your Thorns by +{20/40/60/80/100/120/140/160/180/200}%. When enemies hit you, they take an additional 1.0% of your Thorns as Bleeding damage over 5 seconds.
+		description: `Increase your Thorns by +{20/40/60/80/100/120/140/160/180/200}%. When enemies hit you, they take an additional 1% of your Thorns as Bleeding damage over 5 seconds.
 
 Tags: Bleed, Thorns, Damage.`,
 		id: 47,
@@ -668,7 +668,7 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 	"Strategic Rallying Cry": {
 		baseSkill: "Rallying Cry",
 		connections: [ "Enhanced Rallying Cry" ],
-		description: `Rallying Cry grants you 10.0% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2.0% Base Life as Fortify each time you take or deal direct damage.
+		description: `Rallying Cry grants you 10% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2% Base Life as Fortify each time you take or deal direct damage.
 
 Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 		id: 54,
@@ -679,7 +679,7 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 	"Tactical Rallying Cry": {
 		baseSkill: "Rallying Cry",
 		connections: [ "Enhanced Rallying Cry" ],
-		description: `Rallying Cry generates 25 Fury and grants you an additional x50.0% Resource Generation.
+		description: `Rallying Cry generates 25 Fury and grants you an additional x50% Resource Generation.
 
 Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 		id: 55,
@@ -794,7 +794,7 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 	"Mighty War Cry": {
 		baseSkill: "War Cry",
 		connections: [ "Enhanced War Cry" ],
-		description: `War Cry grants you 28.0% Base Life as Fortify.
+		description: `War Cry grants you 28% Base Life as Fortify.
 
 Tags: Brawling, Shout, Damage, Cooldown.`,
 		id: 65,
@@ -859,7 +859,7 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 	"Mighty Leap": {
 		baseSkill: "Leap",
 		connections: [ "Enhanced Leap" ],
-		description: `Enemies damaged by Leap are Slowed by 50.0% for 5 seconds.
+		description: `Enemies damaged by Leap are Slowed by 50% for 5 seconds.
 
 Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 71,
@@ -1037,7 +1037,7 @@ Tags: Fortify.`,
 	},
 	"Counteroffensive": {
 		connections: [ "Thick Skin" ],
-		description: `While you have Fortify for over 50.0% of your Maximum Life, you deal x{5/10/15/20/25/30/35/40/45/50}% increased damage.
+		description: `While you have Fortify for over 50% of your Maximum Life, you deal x{5/10/15/20/25/30/35/40/45/50}% increased damage.
 
 Tags: Fortify, Life, Damage.`,
 		id: 87,
@@ -1174,7 +1174,7 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 	"Fighter's Rupture": {
 		baseSkill: "Rupture",
 		connections: [ "Enhanced Rupture" ],
-		description: `Hitting at least 1 enemy with Rupture Heals you for 15.0% of your Maximum Life.
+		description: `Hitting at least 1 enemy with Rupture Heals you for 15% of your Maximum Life.
 
 Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 		id: 99,
@@ -1185,7 +1185,7 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 	"Warrior's Rupture": {
 		baseSkill: "Rupture",
 		connections: [ "Enhanced Rupture" ],
-		description: `Hitting enemies with Rupture increases your Attack Speed by +20.0% for 4 seconds.
+		description: `Hitting enemies with Rupture increases your Attack Speed by +20% for 4 seconds.
 
 Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 		id: 100,
@@ -1235,7 +1235,7 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 	"Prime Call of the Ancients": {
 		baseSkill: "Call of the Ancients",
 		connections: [ "Supreme Call of the Ancients", "Call of the Ancients" ],
-		description: `While Call of the Ancients is active, gain +10.0% bonus Attack Speed and x10.0% increased damage.
+		description: `While Call of the Ancients is active, gain +10% bonus Attack Speed and x10% increased damage.
 
 Tags: Ultimate, Damage, Physical, Cooldown.`,
 		id: 104,
@@ -1248,8 +1248,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 		connections: [ "Prime Call of the Ancients" ],
 		description: `Each of the Ancients gains additional power:
 Korlic: You gain 10 Fury each time Korlic damages an enemy with his Frenzy.
-Talic: Enemies are Slowed by 50.0% for 1 second when damaged by his Whirlwind.
-Madawc: 30.0% chance to Stun enemies for 3 seconds when using his Upheaval.
+Talic: Enemies are Slowed by 50% for 1 second when damaged by his Whirlwind.
+Madawc: 30% chance to Stun enemies for 3 seconds when using his Upheaval.
 
 Tags: Ultimate, Damage, Physical, Cooldown.`,
 		id: 105,
@@ -1276,7 +1276,7 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 	"Prime Iron Maelstrom": {
 		baseSkill: "Iron Maelstrom",
 		connections: [ "Supreme Iron Maelstrom", "Iron Maelstrom" ],
-		description: `Iron Maelstrom gains +10.0% increased Critical Strike Chance and deals x20.0% increased Critical Strike Damage
+		description: `Iron Maelstrom gains +10% increased Critical Strike Chance and deals x20% increased Critical Strike Damage
 
 Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bludgeoning, Dual Wield, Slashing.`,
 		id: 107,
@@ -1321,7 +1321,7 @@ Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 	"Prime Wrath of the Berserker": {
 		baseSkill: "Wrath of the Berserker",
 		connections: [ "Supreme Wrath of the Berserker", "Wrath of the Berserker" ],
-		description: `While Wrath of the Berserker is active, gain +20.0% increased Movement Speed and increase Fury Generation by x30.0%.
+		description: `While Wrath of the Berserker is active, gain +20% increased Movement Speed and increase Fury Generation by x30%.
 
 Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 		id: 112,
@@ -1332,7 +1332,7 @@ Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 	"Supreme Wrath of the Berserker": {
 		baseSkill: "Wrath of the Berserker",
 		connections: [ "Prime Wrath of the Berserker" ],
-		description: `While Wrath of the Berserker is active, every 50 Fury you spend increases Berserk's damage bonus by x25.0%.
+		description: `While Wrath of the Berserker is active, every 50 Fury you spend increases Berserk's damage bonus by x25%.
 
 Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 		id: 111,
@@ -1437,7 +1437,7 @@ Tags: Bleed, Critical Strikes, Overpower, Damage.`,
 	},
 	"Unbridled Rage": {
 		connections: [ "Capstone" ],
-		description: `Core Skills deal x135.0% increased damage, but cost x100% more Fury.
+		description: `Core Skills deal x135% increased damage, but cost x100% more Fury.
 
 Tags: Fury, Damage.`,
 		id: 122,
@@ -1447,9 +1447,9 @@ Tags: Fury, Damage.`,
 	},
 	"Walking Arsenal": {
 		connections: [ "Capstone" ],
-		description: `Dealing direct damage with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual Wielded weapons grants x10.0% increased damage for 6 seconds.
+		description: `Dealing direct damage with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual Wielded weapons grants x10% increased damage for 6 seconds.
 
-While all three damage bonuses are active, you gain an additional x15.0% increased damage.
+While all three damage bonuses are active, you gain an additional x15% increased damage.
 
 Tags: Damage, Two-Handed, Dual Wield, Bludgeoning, Slashing.`,
 		id: 123,

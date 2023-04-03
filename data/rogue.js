@@ -60,7 +60,7 @@ Tags: Basic, Cutthroat, Damage, Physical, Movement.`,
 	"Enhanced Blade Shift": {
 		baseSkill: "Blade Shift",
 		connections: [ "Fundamental Blade Shift", "Blade Shift", "Primary Blade Shift" ],
-		description: `Damaging an enemy with Blade Shift grants +5.0% Movement Speed while Blade Shift is active, up to +20.0%.
+		description: `Damaging an enemy with Blade Shift grants +5% Movement Speed while Blade Shift is active, up to +20%.
 
 Tags: Basic, Cutthroat, Damage, Physical, Movement.`,
 		id: 1,
@@ -82,7 +82,7 @@ Tags: Basic, Cutthroat, Damage, Physical, Movement.`,
 	"Primary Blade Shift": {
 		baseSkill: "Blade Shift",
 		connections: [ "Enhanced Blade Shift" ],
-		description: `While Blade Shift is active you gain 15.0% to all Non-Physical Resistances and reduce the duration of incoming Control Impairing Effects by 20.0%.
+		description: `While Blade Shift is active you gain 15% to all Non-Physical Resistances and reduce the duration of incoming Control Impairing Effects by 20%.
 
 Tags: Basic, Cutthroat, Damage, Physical, Movement.`,
 		id: 3,
@@ -94,7 +94,7 @@ Tags: Basic, Cutthroat, Damage, Physical, Movement.`,
 		connections: [ "Enhanced Invigorating Strike", "Basic" ],
 		description: `Generate Combo Point: 1
 Lucky Hit Chance: {#}%
-Melee attack an enemy, dealing {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and increasing Energy Regeneration by x20.0% for 3 seconds.
+Melee attack an enemy, dealing {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and increasing Energy Regeneration by x20% for 3 seconds.
 
 Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 		id: 4,
@@ -106,7 +106,7 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 	"Enhanced Invigorating Strike": {
 		baseSkill: "Invigorating Strike",
 		connections: [ "Invigorating Strike", "Primary Invigorating Strike", "Fundamental Invigorating Strike" ],
-		description: `Damaging a Crowd Controlled or Injured enemy with Invigorating Strike increases its Energy Regeneration bonus to x30.0%.
+		description: `Damaging a Crowd Controlled or Injured enemy with Invigorating Strike increases its Energy Regeneration bonus to x30%.
 
 Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 		id: 5,
@@ -117,7 +117,7 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 	"Primary Invigorating Strike": {
 		baseSkill: "Invigorating Strike",
 		connections: [ "Enhanced Invigorating Strike" ],
-		description: `Invigorating Strike additionally grants +8.0% Lucky Hit Chance. Hitting a Crowd Controlled or Injured enemy increases this bonus to +16.0% Lucky Hit Chance.
+		description: `Invigorating Strike additionally grants +8% Lucky Hit Chance. Hitting a Crowd Controlled or Injured enemy increases this bonus to +16% Lucky Hit Chance.
 
 Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 		id: 7,
@@ -128,7 +128,7 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 	"Fundamental Invigorating Strike": {
 		baseSkill: "Invigorating Strike",
 		connections: [ "Enhanced Invigorating Strike" ],
-		description: `Hitting an enemy with Invigorating Strike while you are below 50.0% Energy makes them Vulnerable for 3 seconds.
+		description: `Hitting an enemy with Invigorating Strike while you are below 50% Energy makes them Vulnerable for 3 seconds.
 
 Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 		id: 6,
@@ -140,7 +140,7 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 		connections: [ "Enhanced Puncture", "Basic" ],
 		description: `Generate Combo Point: 1
 Lucky Hit Chance: {#}%
-Throw blades a short distance, dealing {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage. Every 3rd cast Slows enemies by 20.0% for 2 seconds. Critical Strikes will always Slow.
+Throw blades a short distance, dealing {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage. Every 3rd cast Slows enemies by 20% for 2 seconds. Critical Strikes will always Slow.
 
 Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 		id: 8,
@@ -163,7 +163,7 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 	"Fundamental Puncture": {
 		baseSkill: "Puncture",
 		connections: [ "Enhanced Puncture" ],
-		description: `Puncture now throws 3 blades in a spread, each dealing 35.0% of its Base damage. Hitting an enemy with at least 2 blades at once makes them Vulnerable for 2 seconds.
+		description: `Puncture now throws 3 blades in a spread, each dealing 35% of its Base damage. Hitting an enemy with at least 2 blades at once makes them Vulnerable for 2 seconds.
 
 Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 		id: 10,
@@ -186,7 +186,7 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 		connections: [ "Enhanced Heartseeker", "Basic" ],
 		description: `Generate Combo Point: 1
 Lucky Hit Chance: {#}%
-Fire an arrow that seeks an enemy, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage and increasing your Critical Strike Chance against them by +3.0% for 4 seconds, up to +15.0%.
+Fire an arrow that seeks an enemy, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage and increasing your Critical Strike Chance against them by +3% for 4 seconds, up to +15%.
 
 Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 		id: 12,
@@ -198,7 +198,7 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 	"Enhanced Heartseeker": {
 		baseSkill: "Heartseeker",
 		connections: [ "Heartseeker", "Fundamental Heartseeker", "Primary Heartseeker" ],
-		description: `When Heartseeker Critically Strikes, gain +8.0% Attack Speed for 4 seconds. Double this amount if the enemy is Vulnerable.
+		description: `When Heartseeker Critically Strikes, gain +8% Attack Speed for 4 seconds. Double this amount if the enemy is Vulnerable.
 
 Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 		id: 13,
@@ -209,7 +209,7 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 	"Fundamental Heartseeker": {
 		baseSkill: "Heartseeker",
 		connections: [ "Enhanced Heartseeker" ],
-		description: `Heartseeker also increases the Critical Strike Damage the enemy takes from you by +5.0% for 4 seconds, up to +25.0%.
+		description: `Heartseeker also increases the Critical Strike Damage the enemy takes from you by +5% for 4 seconds, up to +25%.
 
 Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 		id: 14,
@@ -220,7 +220,7 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 	"Primary Heartseeker": {
 		baseSkill: "Heartseeker",
 		connections: [ "Enhanced Heartseeker" ],
-		description: `Heartseeker ricochets to an additional enemy, dealing 30.0% of the original damage.
+		description: `Heartseeker ricochets to an additional enemy, dealing 30% of the original damage.
 
 Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 		id: 15,
@@ -244,7 +244,7 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 	"Enhanced Forceful Arrow": {
 		baseSkill: "Forceful Arrow",
 		connections: [ "Forceful Arrow", "Fundamental Forceful Arrow", "Primary Forceful Arrow" ],
-		description: `Every 3rd cast of Forceful Arrow additionally has a +15.0% increased Critical Strike Chance.
+		description: `Every 3rd cast of Forceful Arrow additionally has a +15% increased Critical Strike Chance.
 
 Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 		id: 17,
@@ -281,12 +281,12 @@ rogueData["Core"] = {
 		connections: [ "Enhanced Twisting Blades", "Core" ],
 		description: `Energy Cost: {#}
 Lucky Hit Chance: {#}%
-Impale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8.0% increased damage from you while impaled. After 1.5 seconds the blades return to you, piercing enemies for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage.
+Impale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8% increased damage from you while impaled. After 1.5 seconds the blades return to you, piercing enemies for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage.
 
 Combo Points increase damage and grant a Movement Speed bonus:
-•  1 Point: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, +20.0% bonus
-•  2 Points: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, +40.0% bonus
-•  3 Points: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, +60.0% bonus
+•  1 Point: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, +20% bonus
+•  2 Points: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, +40% bonus
+•  3 Points: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, +60% bonus
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		id: 20,
@@ -298,7 +298,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 	"Enhanced Twisting Blades": {
 		baseSkill: "Twisting Blades",
 		connections: [ "Twisting Blades", "Advanced Twisting Blades", "Improved Twisting Blades" ],
-		description: `Twisting Blades deals x30.0% increased damage when returning.
+		description: `Twisting Blades deals x30% increased damage when returning.
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		id: 21,
@@ -335,9 +335,9 @@ Lucky Hit Chance: {#}%
 Unleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of {60/66/72/78/84/90/96/102/108/114}% damage to each.
 
 Combo Points increase damage and grant an Attack Speed bonus:
-•  1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15.0% bonus
-•  2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30.0% bonus
-•  3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45.0% bonus
+•  1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15% bonus
+•  2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30% bonus
+•  3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45% bonus
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		id: 24,
@@ -349,7 +349,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 	"Enhanced Flurry": {
 		baseSkill: "Flurry",
 		connections: [ "Flurry", "Improved Flurry", "Advanced Flurry" ],
-		description: `Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for 1.0% of your Maximum Life, up to 12.0% Maximum Life per cast.
+		description: `Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for 1% of your Maximum Life, up to 12% Maximum Life per cast.
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		id: 25,
@@ -400,7 +400,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 	"Enhanced Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
 		connections: [ "Penetrating Shot", "Advanced Penetrating Shot", "Improved Penetrating Shot" ],
-		description: `Penetrating Shot deals x20.0% increased damage per enemy it pierces.
+		description: `Penetrating Shot deals x20% increased damage per enemy it pierces.
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 29,
@@ -411,7 +411,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 	"Advanced Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
 		connections: [ "Enhanced Penetrating Shot" ],
-		description: `When cast with full Energy, Penetrating Shot will Slow all enemies it hits by 50.0% for 3 seconds. Elite enemies will also be Knocked Down for 1.5 seconds.
+		description: `When cast with full Energy, Penetrating Shot will Slow all enemies it hits by 50% for 3 seconds. Elite enemies will also be Knocked Down for 1.5 seconds.
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 30,
@@ -422,7 +422,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 	"Improved Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
 		connections: [ "Enhanced Penetrating Shot" ],
-		description: `If Penetrating Shot damages at least 3 enemies, your next Penetrating Shot has a +20.0% increased Critical Strike Chance.
+		description: `If Penetrating Shot damages at least 3 enemies, your next Penetrating Shot has a +20% increased Critical Strike Chance.
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 31,
@@ -451,7 +451,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 	"Enhanced Rapid Fire": {
 		baseSkill: "Rapid Fire",
 		connections: [ "Rapid Fire", "Advanced Rapid Fire", "Improved Rapid Fire" ],
-		description: `Each subsequent arrow from Rapid Fire has +5.0% increased Critical Strike Chance, up to +40.0% for the 8th arrow.
+		description: `Each subsequent arrow from Rapid Fire has +5% increased Critical Strike Chance, up to +40% for the 8th arrow.
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 33,
@@ -462,7 +462,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 	"Advanced Rapid Fire": {
 		baseSkill: "Rapid Fire",
 		connections: [ "Enhanced Rapid Fire" ],
-		description: `Rapid Fire deals x30.0% increased Critical Strike Damage for 3 seconds after you Evade.
+		description: `Rapid Fire deals x30% increased Critical Strike Damage for 3 seconds after you Evade.
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 34,
@@ -485,7 +485,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		connections: [ "Enhanced Barrage", "Core" ],
 		description: `Energy Cost: {#}
 Lucky Hit Chance: {#}%
-Unleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20.0% chance to ricochet off an enemy up to 1 time. Ricochets deal 40.0% of the arrow's Base damage.
+Unleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20% chance to ricochet off an enemy up to 1 time. Ricochets deal 40% of the arrow's Base damage.
 
 Combo Points increase damage and arrows fired:
 •  1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows
@@ -513,7 +513,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 	"Advanced Barrage": {
 		baseSkill: "Barrage",
 		connections: [ "Enhanced Barrage" ],
-		description: `Whenever a single cast of Barrage ricochets at least 4 times, your next cast gains +20.0% increased Critical Strike Chance.
+		description: `Whenever a single cast of Barrage ricochets at least 4 times, your next cast gains +20% increased Critical Strike Chance.
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 38,
@@ -571,7 +571,7 @@ rogueData["Agility"] = {
 Charge Cooldown: {#} seconds
 Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Become Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50.0% increased Movement Speed for 2 seconds afterwards.
+Become Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50% increased Movement Speed for 2 seconds afterwards.
 
 Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Movement.`,
 		id: 43,
@@ -583,7 +583,7 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 	"Enhanced Shadow Step": {
 		baseSkill: "Shadow Step",
 		connections: [ "Shadow Step", "Methodical Shadow Step", "Disciplined Shadow Step" ],
-		description: `Damaging an enemy with Shadow Step increases your Critical Strike Chance against them by +8.0% for 3 seconds.
+		description: `Damaging an enemy with Shadow Step increases your Critical Strike Chance against them by +8% for 3 seconds.
 
 Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Movement.`,
 		id: 44,
@@ -630,7 +630,7 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown, Movement.`,
 	"Enhanced Dash": {
 		baseSkill: "Dash",
 		connections: [ "Dash", "Methodical Dash", "Disciplined Dash" ],
-		description: `Enemies damaged by Dash take x20.0% increased Critical Strike Damage from you for 5 seconds.
+		description: `Enemies damaged by Dash take x20% increased Critical Strike Damage from you for 5 seconds.
 
 Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown, Movement.`,
 		id: 48,
@@ -652,7 +652,7 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown, Movement.`,
 	"Disciplined Dash": {
 		baseSkill: "Dash",
 		connections: [ "Enhanced Dash" ],
-		description: `Dash Slows enemies it hits by 30.0% for 3 seconds. Any enemy already Slowed will be Dazed for 2 seconds instead.
+		description: `Dash Slows enemies it hits by 30% for 3 seconds. Any enemy already Slowed will be Dazed for 2 seconds instead.
 
 Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown, Movement.`,
 		id: 50,
@@ -721,7 +721,7 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown, Movement.`,
 	"Enhanced Caltrops": {
 		baseSkill: "Caltrops",
 		connections: [ "Caltrops", "Methodical Caltrops", "Disciplined Caltrops" ],
-		description: `Enemies take x3.0% increased damage from you each second they are in Caltrops.
+		description: `Enemies take x3% increased damage from you each second they are in Caltrops.
 
 Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown, Movement.`,
 		id: 54,
@@ -743,7 +743,7 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown, Movement.`,
 	"Disciplined Caltrops": {
 		baseSkill: "Caltrops",
 		connections: [ "Enhanced Caltrops" ],
-		description: `You have +5.0% Critical Strike Chance against enemies inside your Caltrops. Double this amount against Vulnerable enemies.
+		description: `You have +5% Critical Strike Chance against enemies inside your Caltrops. Double this amount against Vulnerable enemies.
 
 Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown, Movement.`,
 		id: 56,
@@ -789,7 +789,7 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 	"Enhanced Smoke Grenade": {
 		baseSkill: "Smoke Grenade",
 		connections: [ "Smoke Grenade", "Subverting Smoke Grenade", "Countering Smoke Grenade" ],
-		description: `Enemies affected by Smoke Grenade take x15.0% increased damage from you.
+		description: `Enemies affected by Smoke Grenade take x15% increased damage from you.
 
 Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 		id: 124,
@@ -800,7 +800,7 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 	"Subverting Smoke Grenade": {
 		baseSkill: "Smoke Grenade",
 		connections: [ "Enhanced Smoke Grenade" ],
-		description: `If an enemy is Vulnerable, Slowed, or Chilled then Smoke Grenade will Daze them for x20.0% longer.
+		description: `If an enemy is Vulnerable, Slowed, or Chilled then Smoke Grenade will Daze them for x20% longer.
 
 Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 		id: 125,
@@ -824,7 +824,7 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 		description: `Cooldown: {#} seconds
 Vanish from sight, gaining an advanced form of Stealth for 4 seconds that will not be removed by taking damage.
 
-Concealment also makes you Unstoppable, grants +25.0% Movement Speed, and allows you to move freely through enemies for its duration.
+Concealment also makes you Unstoppable, grants +25% Movement Speed, and allows you to move freely through enemies for its duration.
 
 Using an attack Skill during Concealment will break Concealment.
 
@@ -897,7 +897,7 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 	"Countering Poison Trap": {
 		baseSkill: "Poison Trap",
 		connections: [ "Enhanced Poison Trap" ],
-		description: `Poison Trap has a 20.0% chance to reset your Imbuement Skill Cooldowns when activated.
+		description: `Poison Trap has a 20% chance to reset your Imbuement Skill Cooldowns when activated.
 
 Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 		id: 72,
@@ -908,7 +908,7 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 	"Subverting Poison Trap": {
 		baseSkill: "Poison Trap",
 		connections: [ "Enhanced Poison Trap" ],
-		description: `You deal x10.0% increased Poison damage to enemies standing inside your Poison Trap.
+		description: `You deal x10% increased Poison damage to enemies standing inside your Poison Trap.
 
 Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 		id: 73,
@@ -931,7 +931,7 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 	"Enhanced Dark Shroud": {
 		baseSkill: "Dark Shroud",
 		connections: [ "Dark Shroud", "Countering Dark Shroud", "Subverting Dark Shroud" ],
-		description: `Dark Shroud's shadows have a 10.0% chance to not be consumed.
+		description: `Dark Shroud's shadows have a 10% chance to not be consumed.
 
 Tags: Subterfuge, Damage Reduction, Cooldown.`,
 		id: 60,
@@ -942,7 +942,7 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 	"Countering Dark Shroud": {
 		baseSkill: "Dark Shroud",
 		connections: [ "Enhanced Dark Shroud" ],
-		description: `While you have at least 2 active shadows from Dark Shroud, gain +10.0% Critical Strike Chance.
+		description: `While you have at least 2 active shadows from Dark Shroud, gain +10% Critical Strike Chance.
 
 Tags: Subterfuge, Damage Reduction, Cooldown.`,
 		id: 62,
@@ -953,7 +953,7 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 	"Subverting Dark Shroud": {
 		baseSkill: "Dark Shroud",
 		connections: [ "Enhanced Dark Shroud" ],
-		description: `Each active shadow from Dark Shroud grants you +3.0% increased Movement Speed.
+		description: `Each active shadow from Dark Shroud grants you +3% increased Movement Speed.
 
 Tags: Subterfuge, Damage Reduction, Cooldown.`,
 		id: 61,
@@ -1061,7 +1061,7 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 	"Mixed Poison Imbuement": {
 		baseSkill: "Poison Imbuement",
 		connections: [ "Enhanced Poison Imbuement" ],
-		description: `Lucky Hit: Poison Imbued Skills have up to a 30.0% chance to apply double the amount of Poisoning damage over time.
+		description: `Lucky Hit: Poison Imbued Skills have up to a 30% chance to apply double the amount of Poisoning damage over time.
 
 Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 		id: 130,
@@ -1072,7 +1072,7 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 	"Blended Poison Imbuement": {
 		baseSkill: "Poison Imbuement",
 		connections: [ "Enhanced Poison Imbuement" ],
-		description: `Critical Strikes with Poison Imbued Skills deal x30.0% increased Poisoning damage.
+		description: `Critical Strikes with Poison Imbued Skills deal x30% increased Poisoning damage.
 
 Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 		id: 131,
@@ -1118,7 +1118,7 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 	"Enhanced Shadow Imbuement": {
 		baseSkill: "Shadow Imbuement",
 		connections: [ "Shadow Imbuement", "Mixed Shadow Imbuement", "Blended Shadow Imbuement" ],
-		description: `You have +25.0% increased Critical Strike Chance against Injured enemies infected by Shadow Imbuement.
+		description: `You have +25% increased Critical Strike Chance against Injured enemies infected by Shadow Imbuement.
 
 Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 		id: 133,
@@ -1129,7 +1129,7 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 	"Mixed Shadow Imbuement": {
 		baseSkill: "Shadow Imbuement",
 		connections: [ "Enhanced Shadow Imbuement" ],
-		description: `Enemies damaged by Shadow Imbued Skills take x12.0% increased Non-Physical damage from you for 8 seconds.
+		description: `Enemies damaged by Shadow Imbued Skills take x12% increased Non-Physical damage from you for 8 seconds.
 
 Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 		id: 134,
@@ -1163,7 +1163,7 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 	"Enhanced Cold Imbuement": {
 		baseSkill: "Cold Imbuement",
 		connections: [ "Cold Imbuement", "Mixed Cold Imbuement", "Blended Cold Imbuement" ],
-		description: `Lucky Hit: Cold Imbued Skills have up to a 30.0% chance to make enemies Vulnerable for 3 seconds.
+		description: `Lucky Hit: Cold Imbued Skills have up to a 30% chance to make enemies Vulnerable for 3 seconds.
 
 Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 		id: 137,
@@ -1174,7 +1174,7 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 	"Mixed Cold Imbuement": {
 		baseSkill: "Cold Imbuement",
 		connections: [ "Enhanced Cold Imbuement" ],
-		description: `Cold Imbued Skills deal x20.0% damage to Crowd Controlled enemies. Double this bonus against Frozen enemies.
+		description: `Cold Imbued Skills deal x20% damage to Crowd Controlled enemies. Double this bonus against Frozen enemies.
 
 Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 		id: 138,
@@ -1362,7 +1362,7 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 	"Prime Rain of Arrows": {
 		baseSkill: "Rain of Arrows",
 		connections: [ "Rain of Arrows", "Supreme Rain of Arrows" ],
-		description: `Imbuement Skill effects applied by Rain of Arrows have x20.0% increased potency.
+		description: `Imbuement Skill effects applied by Rain of Arrows have x20% increased potency.
 
 Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 		id: 113,
@@ -1403,7 +1403,7 @@ Tags: Damage, Movement.`,
 	},
 	"Haste": {
 		connections: [ "Adrenaline Rush" ],
-		description: `While at or above 50.0% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Movement Speed. While below 50.0% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Attack Speed.
+		description: `While at or above 50% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Movement Speed. While below 50% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Attack Speed.
 
 Tags: Movement, Attack Speed, Energy.`,
 		id: 117,
@@ -1421,9 +1421,9 @@ rogueData["Capstone"] = {
 •  Hit any enemy from behind
 
 While at 3 stacks of Momentum you gain:
-•  20.0% increased Damage Reduction
-•  x30.0% increased Energy Regeneration
-•  +15.0% increased Movement Speed
+•  20% increased Damage Reduction
+•  x30% increased Energy Regeneration
+•  +15% increased Movement Speed
 
 Tags: Frozen, Daze, Cutthroat, Crowd Control, Energy, Damage Reduction, Movement.`,
 		id: 118,
@@ -1433,9 +1433,9 @@ Tags: Frozen, Daze, Cutthroat, Crowd Control, Energy, Damage Reduction, Movement
 	},
 	"Close Quarters Combat": {
 		connections: [ "Capstone" ],
-		description: `Damaging a Close enemy with Marksman or Cutthroat Skills each grant a +10.0% Attack Speed bonus for 8 seconds.
+		description: `Damaging a Close enemy with Marksman or Cutthroat Skills each grant a +10% Attack Speed bonus for 8 seconds.
 
-While both Attack Speed bonuses are active, you deal x20.0% increased damage against Crowd Controlled enemies.
+While both Attack Speed bonuses are active, you deal x20% increased damage against Crowd Controlled enemies.
 
 Tags: Marksman, Cutthroat, Crowd Control, Attack Speed, Damage.`,
 		id: 119,
@@ -1445,7 +1445,7 @@ Tags: Marksman, Cutthroat, Crowd Control, Attack Speed, Damage.`,
 	},
 	"Victimize": {
 		connections: [ "Capstone" ],
-		description: `Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a 30% chance to cause an explosion, dealing 23.0% of the original damage to them and surrounding enemies.
+		description: `Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a 30% chance to cause an explosion, dealing 23% of the original damage to them and surrounding enemies.
 
 Tags: Vulnerable, Damage, Physical, Lucky Hit.`,
 		id: 120,
@@ -1456,7 +1456,7 @@ Tags: Vulnerable, Damage, Physical, Lucky Hit.`,
 	"Exposure": {
 		connections: [ "Capstone" ],
 		description: `Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a 25% chance to:
-•  Reduce the active Cooldowns of your Trap Skills by 20.0%
+•  Reduce the active Cooldowns of your Trap Skills by 20%
 •  Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds.
 
 Tags: Trap, Grenade, Damage, Physical, Cooldown, Crowd Control, Lucky Hit.`,
@@ -1467,9 +1467,9 @@ Tags: Trap, Grenade, Damage, Physical, Cooldown, Crowd Control, Lucky Hit.`,
 	},
 	"Precision": {
 		connections: [ "Capstone" ],
-		description: `Critical Strikes with Marksman Skills grant you Precision. You gain x4.0% increased Critical Strike Damage per stack of Precision, up to a maximum of x20.0%.
+		description: `Critical Strikes with Marksman Skills grant you Precision. You gain x4% increased Critical Strike Damage per stack of Precision, up to a maximum of x20%.
 
-When you reach maximum Precision, your next Marksman Skill is a guaranteed Critical Strike that deals x40.0% increased Critical Strike Damage, then consumes all stacks of Precision.
+When you reach maximum Precision, your next Marksman Skill is a guaranteed Critical Strike that deals x40% increased Critical Strike Damage, then consumes all stacks of Precision.
 
 Tags: Marksman, Critical Strikes, Damage.`,
 		id: 122,

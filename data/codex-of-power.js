@@ -521,13 +521,13 @@ let codexData = {
 			"Mad Wolf's Glee": {
 				"id": 169,
 				"type": "Unique",
-				"description": "Werewolf form is now your true form, and you gain 2 Ranks to all Werewolf Skills.",
+				"description": "Werewolf form is now your true form, and you gain +2 Ranks to all Werewolf Skills.",
 				"flavor": "\"He was not a victim of the curse - he sought it out. As his skin split and his bones cracked, his laughter never ceased.\" \n– Tale of the Mad Nobleman"
 			},
 			"Insatiable Fury": {
 				"id": 170,
 				"type": "Unique",
-				"description": "Werebear form is now your true form, and you gain 2 Ranks to all Werebear Skills.",
+				"description": "Werebear form is now your true form, and you gain +2 Ranks to all Werebear Skills.",
 				"flavor": "When the Days of Ash began, the great druid Nafain reminded his disciples that nothing, not even the loss of their humanity, was too great a sacrifice to protect Túr Dúlra from Astaroth's flames."
 			},
 			"Storm's Companion": {
@@ -604,14 +604,14 @@ let codexData = {
 			"Ballistic Aspect": {
 				"id": 53,
 				"type": "Legendary",
-				"description": "When you have Fortify your Earth Skills gain 2 Ranks.",
+				"description": "When you have Fortify your Earth Skills gain +2 Ranks.",
 				"dungeon": "Whispering Pines",
 				"region": "Scosglen"
 			},
 			"Stormshifter's Aspect": {
 				"id": 55,
 				"type": "Legendary",
-				"description": "While Hurricane is active, gain 2 Ranks to your Shapeshifting Skills.",
+				"description": "While Hurricane is active, gain +2 Ranks to your Shapeshifting Skills.",
 				"dungeon": "",
 				"region": "Kehjistan"
 			},
@@ -818,7 +818,7 @@ let codexData = {
 			"Harlequin Crest": {
 				"id": 192,
 				"type": "Unique",
-				"description": "Gain [RandomInt(5*10,8*10)/10]% Damage Reduction.\nIn addition, gain 2 Ranks to all Skills.",
+				"description": "Gain {5/8}% Damage Reduction.\nIn addition, gain +2.0 Ranks to all Skills.",
 				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston"
 			}
 		},
@@ -978,7 +978,7 @@ let codexData = {
 			"Blood Seeker's Aspect": {
 				"id": 59,
 				"type": "Legendary",
-				"description": "Blood Lance deals x[{15/25}]% increased damage to its primary target per lanced enemy.",
+				"description": "Blood Lance deals x{15/25}% increased damage to its primary target per lanced enemy.",
 				"dungeon": "Mercy's Reach",
 				"region": "Fractured Peaks"
 			},
@@ -1700,7 +1700,7 @@ let codexData = {
 			"Glacial Aspect": {
 				"id": 273,
 				"type": "Legendary",
-				"description": "When you cast Blizzard it will periodically spawn exploding Ice Spikes that deal {20/30} damage. Your Ice Spikes deal x25.0% increased damage to Frozen enemies.",
+				"description": "When you cast Blizzard it will periodically spawn exploding Ice Spikes that deal {20/30} damage. Your Ice Spikes deal x25% increased damage to Frozen enemies.",
 				"dungeon": "",
 				"region": ""
 			},
@@ -1735,7 +1735,7 @@ let codexData = {
 			"Aspect of the Frozen Tundra": {
 				"id": 277,
 				"type": "Legendary",
-				"description": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing {25/35} Cold damage. Your Ice Spikes have a 50.0% increased explosion radius.",
+				"description": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing {25/35} Cold damage. Your Ice Spikes have a 50% increased explosion radius.",
 				"dungeon": "",
 				"region": ""
 			},
@@ -1810,7 +1810,7 @@ let codexData = {
 			"Staff of Lam Esen": {
 				"id": 287,
 				"type": "Unique",
-				"description": "Charged Bolts pierce, but deal x[{30/40}]% less damage.",
+				"description": "Charged Bolts pierce, but deal x{30/40}% less damage.",
 				"flavor": "\"Also known as the Greatstaff of the Old Religion, this powerful relic is one of only a small handful of Skatsimi artifacts that have survived to this day.\"\n- Barrett's Book of Implements"
 			},
 			"Esadora's Overflowing Cameo": {

@@ -75,7 +75,7 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 	"Acolyte's Decompose": {
 		baseSkill: "Decompose",
 		connections: [ "Enhanced Decompose" ],
-		description: `You and your Minions deal x10.0% increased damage to enemies who are being Decomposed.
+		description: `You and your Minions deal x10% increased damage to enemies who are being Decomposed.
 
 Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corpse.`,
 		id: 2,
@@ -86,7 +86,7 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 	"Initiate's Decompose": {
 		baseSkill: "Decompose",
 		connections: [ "Enhanced Decompose" ],
-		description: `Decompose Slows enemies by 30.0%.
+		description: `Decompose Slows enemies by 30%.
 
 Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corpse.`,
 		id: 3,
@@ -98,7 +98,7 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 		connections: [ "Enhanced Reap", "Basic" ],
 		description: `Generate Essence: 4 per enemy hit
 Lucky Hit Chance: {#}%
-Sweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15.0% for 2 seconds.
+Sweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15% for 2 seconds.
 
 Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 		id: 4,
@@ -110,7 +110,7 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 	"Enhanced Reap": {
 		baseSkill: "Reap",
 		connections: [ "Reap", "Initiate's Reap", "Acolyte's Reap" ],
-		description: `If an enemy hit by Reap dies within 2 seconds, you gain +30.0% Attack Speed for 3 seconds.
+		description: `If an enemy hit by Reap dies within 2 seconds, you gain +30% Attack Speed for 3 seconds.
 
 Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 		id: 5,
@@ -121,7 +121,7 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 	"Initiate's Reap": {
 		baseSkill: "Reap",
 		connections: [ "Enhanced Reap" ],
-		description: `Reap instantly kills targets below 5.0% Life.
+		description: `Reap instantly kills targets below 5% Life.
 
 This does not work on bosses or players.
 
@@ -146,7 +146,7 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 		connections: [ "Enhanced Hemorrhage", "Basic" ],
 		description: `Generate Essence: 8
 Lucky Hit Chance: {#}%
-Burst an enemy's blood, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage. Hemorrhage has a 20.0% chance to form a Blood Orb.
+Burst an enemy's blood, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage. Hemorrhage has a 20% chance to form a Blood Orb.
 
 Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 		id: 8,
@@ -169,7 +169,7 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 	"Acolyte's Hemorrhage": {
 		baseSkill: "Hemorrhage",
 		connections: [ "Enhanced Hemorrhage" ],
-		description: `Hemorrhage gains an additional +20.0% Attack Speed while Healthy.
+		description: `Hemorrhage gains an additional +20% Attack Speed while Healthy.
 
 Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 		id: 10,
@@ -204,7 +204,7 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 	"Enhanced Bone Splinters": {
 		baseSkill: "Bone Splinters",
 		connections: [ "Bone Splinters", "Acolyte's Bone Splinters", "Initiate's Bone Splinters" ],
-		description: `Bone Splinters has a 30.0% chance to fire 2 additional projectiles if cast while you have 50 or more Essence.
+		description: `Bone Splinters has a 30% chance to fire 2 additional projectiles if cast while you have 50 or more Essence.
 
 Tags: Basic, Bone, Damage, Physical, Essence.`,
 		id: 13,
@@ -215,7 +215,7 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 	"Acolyte's Bone Splinters": {
 		baseSkill: "Bone Splinters",
 		connections: [ "Enhanced Bone Splinters" ],
-		description: `Hitting the same enemy at least 3 times with the same cast of Bone Splinters grants +8.0% Critical Strike Chance for 4 seconds.
+		description: `Hitting the same enemy at least 3 times with the same cast of Bone Splinters grants +8% Critical Strike Chance for 4 seconds.
 
 Tags: Basic, Bone, Damage, Physical, Essence.`,
 		id: 14,
@@ -226,7 +226,7 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 	"Initiate's Bone Splinters": {
 		baseSkill: "Bone Splinters",
 		connections: [ "Enhanced Bone Splinters" ],
-		description: `Bone Splinters has a 20.0% chance per hit to make enemies Vulnerable for 2 seconds.
+		description: `Bone Splinters has a 20% chance per hit to make enemies Vulnerable for 2 seconds.
 
 Tags: Basic, Bone, Damage, Physical, Essence.`,
 		id: 15,
@@ -253,7 +253,7 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 	"Enhanced Blight": {
 		baseSkill: "Blight",
 		connections: [ "Blight", "Paranormal Blight", "Supernatural Blight" ],
-		description: `Blight Slows enemies by 25.0%.
+		description: `Blight Slows enemies by 25%.
 
 Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 		id: 17,
@@ -264,7 +264,7 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 	"Paranormal Blight": {
 		baseSkill: "Blight",
 		connections: [ "Enhanced Blight" ],
-		description: `Blight has a 30.0% chance to Immobilize enemies for 1.5 seconds on impact.
+		description: `Blight has a 30% chance to Immobilize enemies for 1.5 seconds on impact.
 
 Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 		id: 18,
@@ -275,7 +275,7 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 	"Supernatural Blight": {
 		baseSkill: "Blight",
 		connections: [ "Enhanced Blight" ],
-		description: `You and your Minions deal x15.0% increased damage to enemies within Blight.
+		description: `You and your Minions deal x15% increased damage to enemies within Blight.
 
 Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 		id: 19,
@@ -299,7 +299,7 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 	"Enhanced Sever": {
 		baseSkill: "Sever",
 		connections: [ "Sever", "Paranormal Sever", "Supernatural Sever" ],
-		description: `Sever damages enemies along its path for 25.0% of its initial damage.
+		description: `Sever damages enemies along its path for 25% of its initial damage.
 
 Tags: Core, Darkness, Damage, Shadow, Essence.`,
 		id: 21,
@@ -321,7 +321,7 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 	"Supernatural Sever": {
 		baseSkill: "Sever",
 		connections: [ "Enhanced Sever" ],
-		description: `Sever deals x2.0% increased damage for each Minion you have upon cast.
+		description: `Sever deals x2% increased damage for each Minion you have upon cast.
 
 Tags: Core, Darkness, Damage, Shadow, Essence.`,
 		id: 23,
@@ -333,7 +333,7 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 		connections: [ "Enhanced Blood Surge", "Core" ],
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
-Draw blood from enemies, dealing {20/22/24/26/28/30/32/34/36/38}% damage, and expel a blood nova, dealing {50/55/60/65/70/75/80/85/90/95}% damage. Blood Surge's nova damage is increased by x10.0% per enemy drained, up to x50.0%.
+Draw blood from enemies, dealing {20/22/24/26/28/30/32/34/36/38}% damage, and expel a blood nova, dealing {50/55/60/65/70/75/80/85/90/95}% damage. Blood Surge's nova damage is increased by x10% per enemy drained, up to x50%.
 
 Tags: Core, Blood, Damage, Physical, Essence.`,
 		id: 24,
@@ -356,7 +356,7 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 	"Supernatural Blood Surge": {
 		baseSkill: "Blood Surge",
 		connections: [ "Enhanced Blood Surge" ],
-		description: `Each time an enemy is hit by Blood Surge's nova, you are Fortified for 1.1% Base Life. While you have Fortify for over 50.0% of your Maximum Life, Blood Surge deals x20.0% increased damage.
+		description: `Each time an enemy is hit by Blood Surge's nova, you are Fortified for 1.1% Base Life. While you have Fortify for over 50% of your Maximum Life, Blood Surge deals x20% increased damage.
 
 Tags: Core, Blood, Damage, Physical, Essence.`,
 		id: 26,
@@ -391,7 +391,7 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 	"Enhanced Blood Lance": {
 		baseSkill: "Blood Lance",
 		connections: [ "Blood Lance", "Supernatural Blood Lance", "Paranormal Blood Lance" ],
-		description: `Blood Lance pierces through enemies who are currently lanced, dealing 15.0% reduced damage to subsequent enemies after the first.
+		description: `Blood Lance pierces through enemies who are currently lanced, dealing 15% reduced damage to subsequent enemies after the first.
 
 Tags: Core, Blood, Damage, Physical, Essence.`,
 		id: 29,
@@ -413,7 +413,7 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 	"Paranormal Blood Lance": {
 		baseSkill: "Blood Lance",
 		connections: [ "Enhanced Blood Lance" ],
-		description: `While at least 2 enemies or a Boss are affected by Blood Lance, you gain +15.0% Attack Speed and Blood Lance's Essence cost is reduced by 2.
+		description: `While at least 2 enemies or a Boss are affected by Blood Lance, you gain +15% Attack Speed and Blood Lance's Essence cost is reduced by 2.
 
 Tags: Core, Blood, Damage, Physical, Essence.`,
 		id: 31,
@@ -448,7 +448,7 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 	"Paranormal Bone Spear": {
 		baseSkill: "Bone Spear",
 		connections: [ "Enhanced Bone Spear" ],
-		description: `Bone Spear has a +5.0% increased Critical Strike Chance. If Bone Spear's primary projectile Critically Strikes, it fires 2 additional bone shards upon being destroyed.
+		description: `Bone Spear has a +5% increased Critical Strike Chance. If Bone Spear's primary projectile Critically Strikes, it fires 2 additional bone shards upon being destroyed.
 
 Tags: Core, Bone, Damage, Physical, Essence.`,
 		id: 34,
@@ -518,7 +518,7 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 	"Enhanced Corpse Explosion": {
 		baseSkill: "Corpse Explosion",
 		connections: [ "Corpse Explosion", "Blighted Corpse Explosion", "Plagued Corpse Explosion" ],
-		description: `Corpse Explosion's radius is increased by 15.0%.
+		description: `Corpse Explosion's radius is increased by 15%.
 
 Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 		id: 40,
@@ -540,7 +540,7 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 	"Plagued Corpse Explosion": {
 		baseSkill: "Corpse Explosion",
 		connections: [ "Enhanced Corpse Explosion" ],
-		description: `Corpse Explosion deals x10.0% increased damage to enemies that are Slowed, Stunned or Vulnerable. These damage bonuses can stack.
+		description: `Corpse Explosion deals x10% increased damage to enemies that are Slowed, Stunned or Vulnerable. These damage bonuses can stack.
 
 Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 		id: 123,
@@ -582,7 +582,7 @@ Tags: Thorns.`,
 		connections: [ "Enhanced Blood Mist", "Macabre" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Disperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 20.0% and you periodically deal 1.7% damage to enemies and Healing for {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% of your Maximum Life.
+Disperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 20% and you periodically deal 1.7% damage to enemies and Healing for {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% of your Maximum Life.
 
 Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduction.`,
 		id: 46,
@@ -661,7 +661,7 @@ Tags: Macabre, Bone, Cooldown.`,
 	"Dreadful Bone Prison": {
 		baseSkill: "Bone Prison",
 		connections: [ "Enhanced Bone Prison" ],
-		description: `Fortify for 5.0% Base Life for each enemy trapped by Bone Prison.
+		description: `Fortify for 5% Base Life for each enemy trapped by Bone Prison.
 
 Tags: Macabre, Bone, Cooldown.`,
 		id: 53,
@@ -708,7 +708,7 @@ Tags: Curse, Corruption, Essence, Damage.`,
 	"Horrid Iron Maiden": {
 		baseSkill: "Iron Maiden",
 		connections: [ "Enhanced Iron Maiden" ],
-		description: `When at least 3 enemies are afflicted by Iron Maiden, its damage is increased by x15.0%.
+		description: `When at least 3 enemies are afflicted by Iron Maiden, its damage is increased by x15%.
 
 Tags: Curse, Corruption, Essence, Damage.`,
 		id: 57,
@@ -719,7 +719,7 @@ Tags: Curse, Corruption, Essence, Damage.`,
 	"Abhorrent Iron Maiden": {
 		baseSkill: "Iron Maiden",
 		connections: [ "Enhanced Iron Maiden" ],
-		description: `Heal for 5.0% of your Maximum Life when an enemy dies while afflicted with Iron Maiden.
+		description: `Heal for 5% of your Maximum Life when an enemy dies while afflicted with Iron Maiden.
 
 Tags: Curse, Corruption, Essence, Damage.`,
 		id: 58,
@@ -762,7 +762,7 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 	"Enhanced Decrepify": {
 		baseSkill: "Decrepify",
 		connections: [ "Decrepify", "Abhorrent Decrepify", "Horrid Decrepify" ],
-		description: `Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 10.0% chance to Stun them for 2 seconds.
+		description: `Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 10% chance to Stun them for 2 seconds.
 
 Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 		id: 62,
@@ -773,7 +773,7 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 	"Abhorrent Decrepify": {
 		baseSkill: "Decrepify",
 		connections: [ "Enhanced Decrepify" ],
-		description: `Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 15.0% chance to reduce your active Cooldowns by 1 second.
+		description: `Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 15% chance to reduce your active Cooldowns by 1 second.
 
 Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 		id: 63,
@@ -784,7 +784,7 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 	"Horrid Decrepify": {
 		baseSkill: "Decrepify",
 		connections: [ "Enhanced Decrepify" ],
-		description: `When you or your Minions hit an enemy afflicted with Decrepify below 10.0% Life, they are instantly killed. Does not work on Bosses.
+		description: `When you or your Minions hit an enemy afflicted with Decrepify below 10% Life, they are instantly killed. Does not work on Bosses.
 
 Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 		id: 64,
@@ -831,7 +831,7 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 	"Enhanced Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
 		connections: [ "Corpse Tendrils", "Plagued Corpse Tendrils", "Blighted Corpse Tendrils" ],
-		description: `Enemies who are in range of Corpse Tendrils are Slowed by 50.0% before being Pulled.
+		description: `Enemies who are in range of Corpse Tendrils are Slowed by 50% before being Pulled.
 
 Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 		id: 68,
@@ -853,7 +853,7 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 	"Blighted Corpse Tendrils": {
 		baseSkill: "Corpse Tendrils",
 		connections: [ "Enhanced Corpse Tendrils" ],
-		description: `Corpse Tendrils has a 20.0% chance when damaging enemies to drop a Blood Orb.
+		description: `Corpse Tendrils has a 20% chance when damaging enemies to drop a Blood Orb.
 
 Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 		id: 126,
@@ -956,7 +956,7 @@ Tags: Fortify, Lucky Hit, Blood.`,
 		description: `Cooldown: {#} seconds
 Essence Cost: All Remaining Essence
 Lucky Hit Chance: {#}%
-Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the target and all surrounding enemies. Damage is increased by x3.0% for each point of Essence spent casting Bone Spirit.
+Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the target and all surrounding enemies. Damage is increased by x3% for each point of Essence spent casting Bone Spirit.
 
 Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 		id: 80,
@@ -979,7 +979,7 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 	"Ghastly Bone Spirit": {
 		baseSkill: "Bone Spirit",
 		connections: [ "Enhanced Bone Spirit" ],
-		description: `Bone Spirit has an additional +10.0% Critical Strike Chance.
+		description: `Bone Spirit has an additional +10% Critical Strike Chance.
 
 Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 		id: 82,
@@ -1107,7 +1107,7 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 	"Prime Army of the Dead": {
 		baseSkill: "Army of the Dead",
 		connections: [ "Army of the Dead", "Supreme Army of the Dead" ],
-		description: `When Army of the Dead's Volatile Skeletons explode, they have a 15.0% chance to leave behind a Corpse.
+		description: `When Army of the Dead's Volatile Skeletons explode, they have a 15% chance to leave behind a Corpse.
 
 Tags: Ultimate, Damage, Cooldown, Physical.`,
 		id: 94,
@@ -1142,7 +1142,7 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 	"Prime Blood Wave": {
 		baseSkill: "Blood Wave",
 		connections: [ "Blood Wave", "Supreme Blood Wave" ],
-		description: `Blood Wave Slows enemies by 50.0% for 4 seconds.
+		description: `Blood Wave Slows enemies by 50% for 4 seconds.
 
 Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 		id: 97,
@@ -1163,7 +1163,7 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 	},
 	"Stand Alone": {
 		connections: [ "Memento Mori", "Ultimate" ],
-		description: `Increases Damage Reduction by {6/12/18/24/30/36/42/48/54/60}%, reduced by 2.0% for each active Minion.
+		description: `Increases Damage Reduction by {6/12/18/24/30/36/42/48/54/60}%, reduced by 2% for each active Minion.
 
 Tags: Damage Reduction, Minion.`,
 		id: 99,
@@ -1197,7 +1197,7 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 	"Prime Bone Storm": {
 		baseSkill: "Bone Storm",
 		connections: [ "Bone Storm", "Supreme Bone Storm" ],
-		description: `Your Damage Reduction is increased by 15.0% while Bone Storm is active.
+		description: `Your Damage Reduction is increased by 15% while Bone Storm is active.
 
 Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 		id: 102,
@@ -1208,7 +1208,7 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 	"Supreme Bone Storm": {
 		baseSkill: "Bone Storm",
 		connections: [ "Prime Bone Storm" ],
-		description: `Your Critical Strike Chance is increased by +20.0% while Bone Storm is active.
+		description: `Your Critical Strike Chance is increased by +20% while Bone Storm is active.
 
 Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 		id: 103,
@@ -1231,7 +1231,7 @@ Tags: Life, Minion, Damage.`,
 necromancerData["Capstone"] = {
 	"Ossified Essence": {
 		connections: [ "Capstone" ],
-		description: `Your Bone Skills deal x1.0% increased damage for each point of Essence you have above 50 upon cast.
+		description: `Your Bone Skills deal x1% increased damage for each point of Essence you have above 50 upon cast.
 
 Tags: Damage, Essence, Bone.`,
 		id: 105,
@@ -1241,7 +1241,7 @@ Tags: Damage, Essence, Bone.`,
 	},
 	"Shadowblight": {
 		connections: [ "Capstone" ],
-		description: `Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10.0% bonus damage to enemies with Shadowblight.
+		description: `Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10% bonus damage to enemies with Shadowblight.
 
 Every 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20% Shadow Damage.
 
@@ -1253,7 +1253,7 @@ Tags: Damage, Shadow, Minion.`,
 	},
 	"Rathma's Vigor": {
 		connections: [ "Capstone" ],
-		description: `Increase your Maximum Life by x10.0%. After being Healthy for 15 seconds, your next Blood Skill Overpowers.
+		description: `Increase your Maximum Life by x10%. After being Healthy for 15 seconds, your next Blood Skill Overpowers.
 
 Tags: Healthy, Overpower, Life, Blood.`,
 		id: 107,
@@ -1263,7 +1263,7 @@ Tags: Healthy, Overpower, Life, Blood.`,
 	},
 	"Kalan's Edict": {
 		connections: [ "Capstone" ],
-		description: `After you have not taken damage in the last 3 seconds, your Minions gain +15.0% Attack Speed. While you have at least 7 Minions, this bonus is doubled.
+		description: `After you have not taken damage in the last 3 seconds, your Minions gain +15% Attack Speed. While you have at least 7 Minions, this bonus is doubled.
 
 Tags: Attack Speed, Minion.`,
 		id: 130,

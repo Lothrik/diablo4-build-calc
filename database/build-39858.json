@@ -2,12 +2,12 @@
 	"Barbarian": {
 		"Arsenal": {
 			"Barbarian_WeaponExpertise_1HAxe": {
-				"desc": "+[0.005 * Weapon_Expertise_Level#Axe * 100 ]% increased Critical Strike Chance against Injured enemies. Double this amount when using two Axes.\n\nLucky Hit: Critical Strikes have up to a 55% chance to grant +6.0% increased Attack Speed for 2 seconds. Double the Attack Speed bonus when using two Axes.",
+				"desc": "+[0.005 * Weapon_Expertise_Level#Axe * 100 ]% increased Critical Strike Chance against Injured enemies. Double this amount when using two Axes.\n\nLucky Hit: Critical Strikes have up to a 55% chance to grant +6% increased Attack Speed for 2 seconds. Double the Attack Speed bonus when using two Axes.",
 				"name": "One-Handed Axe Expertise",
 				"rankup_desc": "Critical Strike Chance against Injured enemies increased to +[0.005 * (1 + Weapon_Expertise_Level#Axe) * 100 ]%."
 			},
 			"Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10": {
-				"desc": "Lucky Hit: Critical Strikes have up to a 55% chance to grant x6.0% increased Attack Speed for 2 seconds. Double the Attack Speed bonus when using two Axes."
+				"desc": "Lucky Hit: Critical Strikes have up to a 55% chance to grant x6% increased Attack Speed for 2 seconds. Double the Attack Speed bonus when using two Axes."
 			},
 			"Barbarian_WeaponExpertise_1HAxe_Technique": {
 				"desc": "{s1}% of damage dealt as Bleed damage.",
@@ -26,48 +26,48 @@
 				"name": "1-Handed Mace"
 			},
 			"Barbarian_WeaponExpertise_1HSword": {
-				"desc": "Lucky Hit: Up to a 1 * Weapon_Expertise_Level#Sword% chance to gain 5 Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.\n\nKilling a Crowd Controlled enemy grants +15.0% increased Attack Speed for 3 seconds. Double this amount when using two Swords.",
+				"desc": "Lucky Hit: Up to a [1 * Weapon_Expertise_Level#Sword]% chance to gain 5 Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.\n\nKilling a Crowd Controlled enemy grants +15% increased Attack Speed for 3 seconds. Double this amount when using two Swords.",
 				"name": "One-Handed Sword Expertise",
-				"rankup_desc": "Chance to activate Lucky Hit increased to 1 * (1 + Weapon_Expertise_Level#Sword)%."
+				"rankup_desc": "Chance to activate Lucky Hit increased to [1 * (1 + Weapon_Expertise_Level#Sword)]%."
 			},
 			"Barbarian_WeaponExpertise_1HSword_Rank10": {
-				"desc": "Killing a Crowd Controlled enemy grants +15.0% increased Attack Speed for 3 seconds. Double this amount for kills with two Swords."
+				"desc": "Killing a Crowd Controlled enemy grants +15% increased Attack Speed for 3 seconds. Double this amount for kills with two Swords."
 			},
 			"Barbarian_WeaponExpertise_1HSword_Technique": {
 				"desc": "You have a {s1}% chance to generate 3 Fury when hitting a crowd controlled enemy.",
 				"name": "1-Handed Sword"
 			},
 			"Barbarian_WeaponExpertise_2HAxe": {
-				"desc": "x[0.015 * Weapon_Expertise_Level#Axe2H * 100]% increased damage to Vulnerable enemies.\n\n+10.0% increased Critical Strike Chance against Vulnerable enemies.",
+				"desc": "x[0.015 * Weapon_Expertise_Level#Axe2H * 100]% increased damage to Vulnerable enemies.\n\n+10% increased Critical Strike Chance against Vulnerable enemies.",
 				"name": "Two-Handed Axe Expertise",
 				"rankup_desc": "Damage to Vulnerable enemies increased to x[0.015 * (1 + Weapon_Expertise_Level#Axe2H) * 100]%."
 			},
 			"Barbarian_WeaponExpertise_2HAxe_Rank10": {
-				"desc": "+10.0% increased Critical Strike Chance against Vulnerable enemies."
+				"desc": "+10% increased Critical Strike Chance against Vulnerable enemies."
 			},
 			"Barbarian_WeaponExpertise_2HAxe_Technique": {
 				"desc": "Killing an enemy grants +{s1}% Attack Speed for 2 seconds.",
 				"name": "2-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_2HMace": {
-				"desc": "Lucky Hit: Up to 1 * Weapon_Expertise_Level#Mace2H% chance to gain 2 Fury when hitting an enemy. Double the amount of Fury gained while Berserking.\n\nYou deal x15.0% increased Critical Strike Damage to Stunned and Vulnerable enemies while Berserking.",
+				"desc": "Lucky Hit: Up to [1 * Weapon_Expertise_Level#Mace2H]% chance to gain 2 Fury when hitting an enemy. Double the amount of Fury gained while Berserking.\n\nYou deal x15% increased Critical Strike Damage to Stunned and Vulnerable enemies while Berserking.",
 				"name": "Two-Handed Mace Expertise",
-				"rankup_desc": "Chance to activate Lucky Hit increased to 1 * (1 + Weapon_Expertise_Level#Mace2H)%."
+				"rankup_desc": "Chance to activate Lucky Hit increased to [1 * (1 + Weapon_Expertise_Level#Mace2H)]%."
 			},
 			"Barbarian_WeaponExpertise_2HMace_Rank10": {
-				"desc": "You deal x15.0% increased Critical Strike Damage to Stunned and Vulnerable enemies while Berserking."
+				"desc": "You deal x15% increased Critical Strike Damage to Stunned and Vulnerable enemies while Berserking."
 			},
 			"Barbarian_WeaponExpertise_2HMace_Technique": {
 				"desc": "You gain +{s1}% Crushing Blow Damage.",
 				"name": "2-Handed Mace"
 			},
 			"Barbarian_WeaponExpertise_2HPolearm": {
-				"desc": "x[0.01 * Weapon_Expertise_Level#Polearm * 100]% increased Lucky Hit Chance.\n\nYou deal x10.0% increased damage while Healthy.",
+				"desc": "x[0.01 * Weapon_Expertise_Level#Polearm * 100]% increased Lucky Hit Chance.\n\nYou deal x10% increased damage while Healthy.",
 				"name": "Polearm Expertise",
 				"rankup_desc": "Bonus Lucky Hit Chance increased to x[0.01 * (1 + Weapon_Expertise_Level#Polearm) * 100]%."
 			},
 			"Barbarian_WeaponExpertise_2HPolearm_Rank10": {
-				"desc": "You deal +10.0% increased damage while Healthy."
+				"desc": "You deal +10% increased damage while Healthy."
 			},
 			"Barbarian_WeaponExpertise_2HPolearm_Technique": {
 				"desc": "+{s1}% Lucky Hit chance.",
@@ -79,7 +79,7 @@
 				"rankup_desc": "Bleeding damage is increased to +[0.02 * (1 + Weapon_Expertise_Level#Sword2H) * 100]%."
 			},
 			"Barbarian_WeaponExpertise_2HSword_Rank10": {
-				"desc": "You deal x30.0% increased Bleeding damage for 5 seconds after killing an enemy."
+				"desc": "You deal x30% increased Bleeding damage for 5 seconds after killing an enemy."
 			},
 			"Barbarian_WeaponExpertise_2HSword_Technique": {
 				"desc": "Your basic attacks have a {s1}% chance to generate an additional 2 Fury.",
@@ -780,10 +780,10 @@
 		},
 		"Paragon (Node)": {
 			"Barbarian_Legendary_001": {
-				"desc": "Bleeding enemies you kill explode, dealing 10.0% of their max life to surrounding enemies."
+				"desc": "Bleeding enemies you kill explode, dealing 10% of their max life to surrounding enemies."
 			},
 			"Barbarian_Legendary_002": {
-				"desc": "Enemies that have been affected by your Bleeding for 3 or more seconds take x15.0% increased damage from you.",
+				"desc": "Enemies that have been affected by your Bleeding for 3 or more seconds take x15% increased damage from you.",
 				"name": "Hemorrhage",
 				"tags": [
 					"Bleed",
@@ -791,10 +791,10 @@
 				]
 			},
 			"Barbarian_Legendary_003": {
-				"desc": "Bleeding you inflict deals damage 30.0% faster."
+				"desc": "Bleeding you inflict deals damage 30% faster."
 			},
 			"Barbarian_Legendary_004": {
-				"desc": "Killing a Bleeding enemy has 12.0% chance to grant Berserking for 5 seconds.",
+				"desc": "Killing a Bleeding enemy has 12% chance to grant Berserking for 5 seconds.",
 				"name": "Blood Rage",
 				"tags": [
 					"Bleed",
@@ -802,20 +802,20 @@
 				]
 			},
 			"Barbarian_Legendary_005": {
-				"desc": "Increases the power of your Shout Skills by 35.0%.",
+				"desc": "Increases the power of your Shout Skills by 35%.",
 				"name": "Natural Leader",
 				"tags": [
 					"Shout"
 				]
 			},
 			"Barbarian_Legendary_006": {
-				"desc": "Shout Skills Fortify you for 30.0% of your Maximum Life."
+				"desc": "Shout Skills Fortify you for 30% of your Maximum Life."
 			},
 			"Barbarian_Legendary_008": {
-				"desc": "While Berserk, you take 1.0% of your Maximum Life as Bleed damage per second, but deal x[0.3*100]% increased damage."
+				"desc": "While Berserk, you take 1% of your Maximum Life as Bleed damage per second, but deal x30% increased damage."
 			},
 			"Barbarian_Legendary_009": {
-				"desc": "While Berserking, Critical Strikes increase your Attack Speed by +2.0%, up to +10.0%, for 6 seconds.",
+				"desc": "While Berserking, Critical Strikes increase your Attack Speed by +2%, up to +10%, for 6 seconds.",
 				"name": "Carnage",
 				"tags": [
 					"Berserking",
@@ -824,10 +824,10 @@
 				]
 			},
 			"Barbarian_Legendary_010": {
-				"desc": "While Berserk, your Defensive Skills recharge 50.0% faster."
+				"desc": "While Berserk, your Defensive Skills recharge 50% faster."
 			},
 			"Barbarian_Legendary_011": {
-				"desc": "For every 75 Fury you spend, gain 20.0% of your Maximum Life as Fortify.",
+				"desc": "For every 75 Fury you spend, gain 20% of your Maximum Life as Fortify.",
 				"name": "Warbinger",
 				"tags": [
 					"Fury",
@@ -835,13 +835,13 @@
 				]
 			},
 			"Barbarian_Legendary_012": {
-				"desc": "You take 45.0% less damage from all sources, but can no longer dodge attacks."
+				"desc": "You take 45% less damage from all sources, but can no longer dodge attacks."
 			},
 			"Barbarian_Legendary_013": {
-				"desc": "While standing still, you gain 20.0% extra damage reduction, and have 50.0% reduced Control Impaired Duration."
+				"desc": "While standing still, you gain 20% extra damage reduction, and have 50% reduced Control Impaired Duration."
 			},
 			"Barbarian_Legendary_014": {
-				"desc": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a 10.0% chance to make enemies Vulnerable for 2 seconds.",
+				"desc": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a 10% chance to make enemies Vulnerable for 2 seconds.",
 				"name": "Decimator",
 				"tags": [
 					"Vulnerable",
@@ -861,7 +861,7 @@
 				]
 			},
 			"Barbarian_Legendary_016": {
-				"desc": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x1.0% for 2 seconds, up to x5.0%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.",
+				"desc": "Damaging enemies with One-Handed Weapons increases your Critical Strike chance by x1% for 2 seconds, up to x5%. This can only happen once per Skill cast, or twice per second while channeling Whirlwind.",
 				"name": "Flawless Technique",
 				"tags": [
 					"Critical Strikes",
@@ -1418,7 +1418,7 @@
 						"Damage",
 						"Attack Speed"
 					],
-					"skill_desc": "Generate Fury: 4\nLucky Hit Chance: {#}%\nUnleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits. \n\nIf Frenzy hits an enemy, its Attack Speed is increased by +20.0% for 3 seconds, up to +60.0%.",
+					"skill_desc": "Generate Fury: 4\nLucky Hit Chance: {#}%\nUnleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits. \n\nIf Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.",
 					"skill_name": "Frenzy",
 					"skill_rankup_desc": "•  Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%"
 				},
@@ -1995,7 +1995,7 @@
 						"Crowd Control",
 						"Two-Handed"
 					],
-					"skill_desc": "Damaging a Stunned enemy with Bash grants you 5.0% Base Life as Fortify. Double this amount when using a Two-Handed weapon.",
+					"skill_desc": "Damaging a Stunned enemy with Bash grants you 5% Base Life as Fortify. Double this amount when using a Two-Handed weapon.",
 					"skill_name": "Enhanced Bash"
 				},
 				"req_points": 0,
@@ -2068,7 +2068,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Flay has a 10.0% chance to make the enemy Vulnerable for 2 seconds. Double this chance when using a Two-Handed weapon.",
+					"skill_desc": "Flay has a 10% chance to make the enemy Vulnerable for 2 seconds. Double this chance when using a Two-Handed weapon.",
 					"skill_name": "Enhanced Flay"
 				},
 				"req_points": 0,
@@ -2136,7 +2136,7 @@
 						"Fury",
 						"Movement"
 					],
-					"skill_desc": "Lunging Strike deals x30.0% increased damage and Heals you for 2.0% Maximum Life when it damages a Healthy enemy.",
+					"skill_desc": "Lunging Strike deals x30% increased damage and Heals you for 2% Maximum Life when it damages a Healthy enemy.",
 					"skill_name": "Enhanced Lunging Strike"
 				},
 				"req_points": 0,
@@ -2209,7 +2209,7 @@
 						"Damage",
 						"Attack Speed"
 					],
-					"skill_desc": "While Frenzy is granting +60.0% bonus Attack Speed, it also generates 2 additional Fury.",
+					"skill_desc": "While Frenzy is granting +60% bonus Attack Speed, it also generates 2 additional Fury.",
 					"skill_name": "Enhanced Frenzy"
 				},
 				"req_points": 0,
@@ -2279,7 +2279,7 @@
 						"Damage",
 						"Two-Handed"
 					],
-					"skill_desc": "Gain x3.0% more Fury for 5 seconds for each enemy damaged by Hammer of the Ancients, stacking up to 10 times.",
+					"skill_desc": "Gain x3% more Fury for 5 seconds for each enemy damaged by Hammer of the Ancients, stacking up to 10 times.",
 					"skill_name": "Enhanced Hammer of the Ancients"
 				},
 				"req_points": 0,
@@ -2563,7 +2563,7 @@
 						"Fury",
 						"Two-Handed"
 					],
-					"skill_desc": "Upheaval has a 20.0% chance to Stun all enemies it damages for 2.5 seconds.",
+					"skill_desc": "Upheaval has a 20% chance to Stun all enemies it damages for 2.5 seconds.",
 					"skill_name": "Enhanced Upheaval"
 				},
 				"req_points": 0,
@@ -2602,7 +2602,7 @@
 						"Life",
 						"Damage"
 					],
-					"skill_desc": "While you have Fortify for over 50.0% of your Maximum Life, you deal x{5/10/15/20/25/30/35/40/45/50}% increased damage.",
+					"skill_desc": "While you have Fortify for over 50% of your Maximum Life, you deal x{5/10/15/20/25/30/35/40/45/50}% increased damage.",
 					"skill_name": "Counteroffensive",
 					"skill_rankup_desc": "•  Damage Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
 				},
@@ -2747,7 +2747,7 @@
 						"Damage Reduction",
 						"Cooldown"
 					],
-					"skill_desc": "While Challenging Shout is active, gain x20.0% bonus Maximum Life.",
+					"skill_desc": "While Challenging Shout is active, gain x20% bonus Maximum Life.",
 					"skill_name": "Enhanced Challenging Shout"
 				},
 				"req_points": 0,
@@ -2810,7 +2810,7 @@
 						"Cooldown",
 						"Life"
 					],
-					"skill_desc": "Iron Skin's Barrier absorbs 5.0% more of your Maximum Life.",
+					"skill_desc": "Iron Skin's Barrier absorbs 5% more of your Maximum Life.",
 					"skill_name": "Enhanced Iron Skin"
 				},
 				"req_points": 0,
@@ -3653,7 +3653,7 @@
 						"Physical",
 						"Damage"
 					],
-					"skill_desc": "While using a Slashing weapon, Whirlwind also inflicts 20.0% of its Base damage as Bleeding damage over 5 seconds.",
+					"skill_desc": "While using a Slashing weapon, Whirlwind also inflicts 20% of its Base damage as Bleeding damage over 5 seconds.",
 					"skill_name": "Furious Whirlwind"
 				},
 				"req_points": 0,
@@ -3726,7 +3726,7 @@
 						"Physical",
 						"Damage"
 					],
-					"skill_desc": "After using Whirlwind for 2 seconds, Whirlwind deals x30.0% increased damage until it is cancelled.",
+					"skill_desc": "After using Whirlwind for 2 seconds, Whirlwind deals x30% increased damage until it is cancelled.",
 					"skill_name": "Violent Whirlwind"
 				},
 				"req_points": 0,
@@ -3869,7 +3869,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "War Cry grants you 28.0% Base Life as Fortify.",
+					"skill_desc": "War Cry grants you 28% Base Life as Fortify.",
 					"skill_name": "Mighty War Cry"
 				},
 				"req_points": 0,
@@ -3935,7 +3935,7 @@
 						"Fury",
 						"Two-Handed"
 					],
-					"skill_desc": "Dealing direct damage to an enemy with a Skill that is not Upheaval causes your next cast of Upheaval to deal x8.0% increased damage, stacking up to 10 times.",
+					"skill_desc": "Dealing direct damage to an enemy with a Skill that is not Upheaval causes your next cast of Upheaval to deal x8% increased damage, stacking up to 10 times.",
 					"skill_name": "Furious Upheaval"
 				},
 				"req_points": 0,
@@ -4092,7 +4092,7 @@
 						"Cooldown",
 						"Slashing"
 					],
-					"skill_desc": "Hitting at least 1 enemy with Rupture Heals you for 15.0% of your Maximum Life.",
+					"skill_desc": "Hitting at least 1 enemy with Rupture Heals you for 15% of your Maximum Life.",
 					"skill_name": "Fighter's Rupture"
 				},
 				"req_points": 0,
@@ -4183,7 +4183,7 @@
 						"Cooldown",
 						"Slashing"
 					],
-					"skill_desc": "Hitting enemies with Rupture increases your Attack Speed by +20.0% for 4 seconds.",
+					"skill_desc": "Hitting enemies with Rupture increases your Attack Speed by +20% for 4 seconds.",
 					"skill_name": "Warrior's Rupture"
 				},
 				"req_points": 0,
@@ -4253,7 +4253,7 @@
 						"Fury",
 						"Slashing"
 					],
-					"skill_desc": "Rend deals x12.0% increased damage to Vulnerable enemies.",
+					"skill_desc": "Rend deals x12% increased damage to Vulnerable enemies.",
 					"skill_name": "Violent Rend"
 				},
 				"req_points": 0,
@@ -4393,7 +4393,7 @@
 						"Movement",
 						"Cooldown"
 					],
-					"skill_desc": "Rallying Cry generates 25 Fury and grants you an additional x50.0% Resource Generation.",
+					"skill_desc": "Rallying Cry generates 25 Fury and grants you an additional x50% Resource Generation.",
 					"skill_name": "Tactical Rallying Cry"
 				},
 				"req_points": 0,
@@ -4463,7 +4463,7 @@
 						"Movement",
 						"Cooldown"
 					],
-					"skill_desc": "Rallying Cry grants you 10.0% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2.0% Base Life as Fortify each time you take or deal direct damage.",
+					"skill_desc": "Rallying Cry grants you 10% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2% Base Life as Fortify each time you take or deal direct damage.",
 					"skill_name": "Strategic Rallying Cry"
 				},
 				"req_points": 0,
@@ -4717,7 +4717,7 @@
 						"Physical",
 						"Cooldown"
 					],
-					"skill_desc": "Enemies damaged by Leap are Slowed by 50.0% for 5 seconds.",
+					"skill_desc": "Enemies damaged by Leap are Slowed by 50% for 5 seconds.",
 					"skill_name": "Mighty Leap"
 				},
 				"req_points": 0,
@@ -4921,7 +4921,7 @@
 						"Damage",
 						"Two-Handed"
 					],
-					"skill_desc": "After Overpowering with Hammer of the Ancients, you deal x30.0% more damage for 2.5 seconds.",
+					"skill_desc": "After Overpowering with Hammer of the Ancients, you deal x30% more damage for 2.5 seconds.",
 					"skill_name": "Violent Hammer of the Ancients"
 				},
 				"req_points": 0,
@@ -4989,7 +4989,7 @@
 						"Damage",
 						"Two-Handed"
 					],
-					"skill_desc": "Hammer of the Ancients deals x1.0% additional damage for each point of Fury you had when using it.",
+					"skill_desc": "Hammer of the Ancients deals x1% additional damage for each point of Fury you had when using it.",
 					"skill_name": "Furious Hammer of the Ancients"
 				},
 				"req_points": 0,
@@ -5361,7 +5361,7 @@
 						"Cooldown",
 						"Life"
 					],
-					"skill_desc": "While Iron Skin is active, Heal for 10.0% of the Barrier's original amount as Life per second.",
+					"skill_desc": "While Iron Skin is active, Heal for 10% of the Barrier's original amount as Life per second.",
 					"skill_name": "Tactical Iron Skin"
 				},
 				"req_points": 0,
@@ -5422,7 +5422,7 @@
 						"Cooldown",
 						"Life"
 					],
-					"skill_desc": "Iron Skin also grants 9.0% Base Life as Fortify. Double this amount if cast while below 50.0% Life.",
+					"skill_desc": "Iron Skin also grants 9% Base Life as Fortify. Double this amount if cast while below 50% Life.",
 					"skill_name": "Strategic Iron Skin"
 				},
 				"req_points": 0,
@@ -5493,7 +5493,7 @@
 						"Damage",
 						"Attack Speed"
 					],
-					"skill_desc": "While Berserking, your other Skills gain +5.0% Attack Speed for each stack of Frenzy you have.",
+					"skill_desc": "While Berserking, your other Skills gain +5% Attack Speed for each stack of Frenzy you have.",
 					"skill_name": "Battle Frenzy"
 				},
 				"req_points": 0,
@@ -5564,7 +5564,7 @@
 						"Damage",
 						"Attack Speed"
 					],
-					"skill_desc": "You gain 8.0% Damage Reduction for each stack of Frenzy you currently have.",
+					"skill_desc": "You gain 8% Damage Reduction for each stack of Frenzy you currently have.",
 					"skill_name": "Combat Frenzy"
 				},
 				"req_points": 0,
@@ -5919,7 +5919,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "When Flay deals direct damage to an enemy, they take x10.0% increased Bleeding damage from you for the next 3 seconds.",
+					"skill_desc": "When Flay deals direct damage to an enemy, they take x10% increased Bleeding damage from you for the next 3 seconds.",
 					"skill_name": "Battle Flay"
 				},
 				"req_points": 0,
@@ -6004,7 +6004,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "When Flay deals direct damage to an enemy, you gain 3.0% Damage Reduction and 10 Thorns for 3 seconds. This stacks up to 4 times.",
+					"skill_desc": "When Flay deals direct damage to an enemy, you gain 3% Damage Reduction and 10 Thorns for 3 seconds. This stacks up to 4 times.",
 					"skill_name": "Combat Flay"
 				},
 				"req_points": 0,
@@ -6282,7 +6282,7 @@
 						"Damage Reduction",
 						"Cooldown"
 					],
-					"skill_desc": "While Challenging Shout is active, gain Thorns equal to 50.0% of your Maximum Life.",
+					"skill_desc": "While Challenging Shout is active, gain Thorns equal to 50% of your Maximum Life.",
 					"skill_name": "Strategic Challenging Shout"
 				},
 				"req_points": 0,
@@ -6511,7 +6511,7 @@
 						"Fury",
 						"Damage"
 					],
-					"skill_desc": "Core Skills deal x135.0% increased damage, but cost x100% more Fury.",
+					"skill_desc": "Core Skills deal x135% increased damage, but cost x100% more Fury.",
 					"skill_name": "Unbridled Rage"
 				},
 				"req_points": 0,
@@ -6555,7 +6555,7 @@
 						"Thorns",
 						"Damage"
 					],
-					"skill_desc": "Increase your Thorns by +{20/40/60/80/100/120/140/160/180/200}%. When enemies hit you, they take an additional 1.0% of your Thorns as Bleeding damage over 5 seconds.",
+					"skill_desc": "Increase your Thorns by +{20/40/60/80/100/120/140/160/180/200}%. When enemies hit you, they take an additional 1% of your Thorns as Bleeding damage over 5 seconds.",
 					"skill_name": "Tough as Nails",
 					"skill_rankup_desc": "•  Thorns 🡑  +{20/40/60/80/100/120/140/160/180/200}%"
 				},
@@ -6616,7 +6616,7 @@
 						"Bludgeoning",
 						"Slashing"
 					],
-					"skill_desc": "Dealing direct damage with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual Wielded weapons grants x10.0% increased damage for 6 seconds.\n\nWhile all three damage bonuses are active, you gain an additional x15.0% increased damage.",
+					"skill_desc": "Dealing direct damage with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual Wielded weapons grants x10% increased damage for 6 seconds.\n\nWhile all three damage bonuses are active, you gain an additional x15% increased damage.",
 					"skill_name": "Walking Arsenal"
 				},
 				"req_points": 0,
@@ -7755,7 +7755,7 @@
 						"Physical",
 						"Cooldown"
 					],
-					"skill_desc": "Each of the Ancients gains additional power:\nKorlic: You gain 10 Fury each time Korlic damages an enemy with his Frenzy.\nTalic: Enemies are Slowed by 50.0% for 1 second when damaged by his Whirlwind.\nMadawc: 30.0% chance to Stun enemies for 3 seconds when using his Upheaval.",
+					"skill_desc": "Each of the Ancients gains additional power:\nKorlic: You gain 10 Fury each time Korlic damages an enemy with his Frenzy.\nTalic: Enemies are Slowed by 50% for 1 second when damaged by his Whirlwind.\nMadawc: 30% chance to Stun enemies for 3 seconds when using his Upheaval.",
 					"skill_name": "Supreme Call of the Ancients"
 				},
 				"req_points": 0,
@@ -7832,7 +7832,7 @@
 						"Dual Wield",
 						"Slashing"
 					],
-					"skill_desc": "Iron Maelstrom gains +10.0% increased Critical Strike Chance and deals x20.0% increased Critical Strike Damage",
+					"skill_desc": "Iron Maelstrom gains +10% increased Critical Strike Chance and deals x20% increased Critical Strike Damage",
 					"skill_name": "Prime Iron Maelstrom"
 				},
 				"req_points": 0,
@@ -7897,7 +7897,7 @@
 						"Cooldown",
 						"Basic"
 					],
-					"skill_desc": "While Wrath of the Berserker is active, every 50 Fury you spend increases Berserk's damage bonus by x25.0%.",
+					"skill_desc": "While Wrath of the Berserker is active, every 50 Fury you spend increases Berserk's damage bonus by x25%.",
 					"skill_name": "Supreme Wrath of the Berserker"
 				},
 				"req_points": 0,
@@ -7998,7 +7998,7 @@
 						"Physical",
 						"Cooldown"
 					],
-					"skill_desc": "While Call of the Ancients is active, gain +10.0% bonus Attack Speed and x10.0% increased damage.",
+					"skill_desc": "While Call of the Ancients is active, gain +10% bonus Attack Speed and x10% increased damage.",
 					"skill_name": "Prime Call of the Ancients"
 				},
 				"req_points": 0,
@@ -8064,7 +8064,7 @@
 						"Cooldown",
 						"Basic"
 					],
-					"skill_desc": "While Wrath of the Berserker is active, gain +20.0% increased Movement Speed and increase Fury Generation by x30.0%.",
+					"skill_desc": "While Wrath of the Berserker is active, gain +20% increased Movement Speed and increase Fury Generation by x30%.",
 					"skill_name": "Prime Wrath of the Berserker"
 				},
 				"req_points": 0,
@@ -8962,7 +8962,7 @@
 			},
 			"2HMace_Unique_Barb_001": {
 				"affix_flat_formulas": [
-					"array([0.35,0.50])"
+					"array([0.35,0.5 ])"
 				],
 				"affix_static_values": [
 					3.0
@@ -9356,7 +9356,7 @@
 			},
 			"legendary_druid_063": {
 				"affix_formulas": [
-					"array([6,12])"
+					"array([ 6,12])"
 				],
 				"affix_static_values": [
 					3.0
@@ -9367,7 +9367,7 @@
 			},
 			"legendary_druid_066": {
 				"affix_flat_formulas": [
-					"array([0.35,0.50])"
+					"array([0.35,0.5 ])"
 				],
 				"affix_static_values": [
 					2.0
@@ -9389,7 +9389,7 @@
 			},
 			"legendary_druid_074": {
 				"affix_formulas": [
-					"array([90,130])"
+					"array([ 90,130])"
 				],
 				"category": 0,
 				"desc": "Pulverize creates a shockwave that travels forward, dealing {90/130}% of its damage to targets in the path.",
@@ -9475,7 +9475,7 @@
 					2
 				],
 				"category": 2,
-				"desc": "When you have Fortify your Earth Skills gain 2 Ranks.",
+				"desc": "When you have Fortify your Earth Skills gain +2 Ranks.",
 				"name": "Ballistic",
 				"power_formulas": [
 					2
@@ -9486,12 +9486,12 @@
 					2
 				],
 				"category": 2,
-				"desc": "While Hurricane is active, gain 2 Ranks to your Shapeshifting Skills.",
+				"desc": "While Hurricane is active, gain +2 Ranks to your Shapeshifting Skills.",
 				"name": "Stormshifter's"
 			},
 			"legendary_druid_110": {
 				"affix_formulas": [
-					"Round(array([1,5]))"
+					"array([1,5])"
 				],
 				"category": 0,
 				"desc": "Tornado will seek up to {1/5} targets.",
@@ -9781,7 +9781,7 @@
 				"desc": "Hurricane and Cataclysm create a Tornado every 2.5 seconds while they are active."
 			},
 			"Druid_Legendary_003": {
-				"desc": "Storm Skills deal x30.0% increased Critical Strike Damage against Vulnerable or Immobilized enemies.",
+				"desc": "Storm Skills deal x30% increased Critical Strike Damage against Vulnerable or Immobilized enemies.",
 				"name": "Thunderstruck",
 				"tags": [
 					"Vulnerable",
@@ -9791,13 +9791,13 @@
 				]
 			},
 			"Druid_Legendary_004": {
-				"desc": "Your Earth Skills have an additional +30.0% chance to Overpower."
+				"desc": "Your Earth Skills have an additional +30% chance to Overpower."
 			},
 			"Druid_Legendary_005": {
 				"desc": "When you kill an enemy with an Overpowering hit, you automatically gain Earthen Bulwark. This can only happen once every 10 seconds."
 			},
 			"Druid_Legendary_006": {
-				"desc": "Your Earth Skills deal x30.0% increased damage to enemies afflicted by Crowd Control.",
+				"desc": "Your Earth Skills deal x30% increased damage to enemies afflicted by Crowd Control.",
 				"name": "Earthen Devastation",
 				"tags": [
 					"Earth",
@@ -9806,7 +9806,7 @@
 				]
 			},
 			"Druid_Legendary_007": {
-				"desc": "While in Werebear form, you deal x1.0% increased damage, up to x50.0%, for every 1.0% difference in current Life percent between you and the enemy.",
+				"desc": "While in Werebear form, you deal x1% increased damage, up to x50%, for every 1% difference in current Life percent between you and the enemy.",
 				"name": "Survival Instincts",
 				"tags": [
 					"Werebear",
@@ -9815,10 +9815,10 @@
 				]
 			},
 			"Druid_Legendary_008": {
-				"desc": "Werebear skills have an additional 25.0% chance to Overpower and Knockdown for 1.5 seconds."
+				"desc": "Werebear skills have an additional 25% chance to Overpower and Knockdown for 1.5 seconds."
 			},
 			"Druid_Legendary_009": {
-				"desc": "While in Werebear form, you apply +30.0% bonus Fortify."
+				"desc": "While in Werebear form, you apply +30% bonus Fortify."
 			},
 			"Druid_Legendary_010": {
 				"desc": "Critical Strikes with Werewolf Skills restore 2 Spirit.",
@@ -9830,10 +9830,10 @@
 				]
 			},
 			"Druid_Legendary_011": {
-				"desc": "Your Werewolf Skills gain an additional +30.0% Critical Strike Chance against Poisoned enemies."
+				"desc": "Your Werewolf Skills gain an additional +30% Critical Strike Chance against Poisoned enemies."
 			},
 			"Druid_Legendary_012": {
-				"desc": "While there are 3 or more Poisoned enemies Nearby, you deal x45.0% increased damage.",
+				"desc": "While there are 3 or more Poisoned enemies Nearby, you deal x45% increased damage.",
 				"name": "Heightened Malice",
 				"tags": [
 					"Poison",
@@ -9841,7 +9841,7 @@
 				]
 			},
 			"Druid_Legendary_013": {
-				"desc": "After shapeshifting, your Spirit costs are reduced by 10.0% for 5 seconds, up to 30.0%.",
+				"desc": "After shapeshifting, your Spirit costs are reduced by 10% for 5 seconds, up to 30%.",
 				"name": "Inner Beast",
 				"tags": [
 					"Shapeshifting",
@@ -9849,16 +9849,16 @@
 				]
 			},
 			"Druid_Legendary_014": {
-				"desc": "Casting a Storm Skill increases the Critical Strike Chance of your next Werewolf Skill by +30.0%.\n\nCasting an Earth Skill increases the Critical Strike Damage of your next Werebear Skill by x45.0%."
+				"desc": "Casting a Storm Skill increases the Critical Strike Chance of your next Werewolf Skill by +30%.\n\nCasting an Earth Skill increases the Critical Strike Damage of your next Werebear Skill by x45%."
 			},
 			"Druid_Legendary_015": {
-				"desc": "Your Earth Skills have an additional +30.0% chance to Overpower enemies that are Vulnerable."
+				"desc": "Your Earth Skills have an additional +30% chance to Overpower enemies that are Vulnerable."
 			},
 			"Druid_Legendary_016": {
-				"desc": "Your Nature Magic Skills deal x60.0% increased damage against enemies affected by your Debilitating Roar."
+				"desc": "Your Nature Magic Skills deal x60% increased damage against enemies affected by your Debilitating Roar."
 			},
 			"Druid_Legendary_017": {
-				"desc": "Lucky Hit: Nature Magic Skills have up to a 15% chance to entangle the enemy with vines, Immobilizing them for 2 seconds and Poisoning them for 120.0% of the Base damage dealt over 4 seconds.",
+				"desc": "Lucky Hit: Nature Magic Skills have up to a 15% chance to entangle the enemy with vines, Immobilizing them for 2 seconds and Poisoning them for 120% of the Base damage dealt over 4 seconds.",
 				"name": "Constricting Tendrils",
 				"tags": [
 					"Poison",
@@ -9868,7 +9868,7 @@
 				]
 			},
 			"Druid_Legendary_018": {
-				"desc": "After spending 75 Spirit, you deal x30.0% increased damage for 5 seconds.",
+				"desc": "After spending 75 Spirit, you deal x30% increased damage for 5 seconds.",
 				"name": "Ancestral Guidance",
 				"tags": [
 					"Spirit",
@@ -10433,7 +10433,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Increases the range and radius of Maul by 30.0%.",
+					"skill_desc": "Increases the range and radius of Maul by 30%.",
 					"skill_name": "Fierce Maul"
 				},
 				"req_points": 0,
@@ -10501,7 +10501,7 @@
 						"Spirit",
 						"Physical"
 					],
-					"skill_desc": "Each enemy hit by Wind Shear increases your Movement Speed by +5.0% for 5 seconds, up to +20.0%.",
+					"skill_desc": "Each enemy hit by Wind Shear increases your Movement Speed by +5% for 5 seconds, up to +20%.",
 					"skill_name": "Fierce Wind Shear"
 				},
 				"req_points": 0,
@@ -10658,7 +10658,7 @@
 						"Spirit",
 						"Lightning"
 					],
-					"skill_desc": "Storm Strike has a 50.0% chance to make enemies Vulnerable for 3 seconds.",
+					"skill_desc": "Storm Strike has a 50% chance to make enemies Vulnerable for 3 seconds.",
 					"skill_name": "Fierce Storm Strike"
 				},
 				"req_points": 0,
@@ -10788,7 +10788,7 @@
 						"Spirit",
 						"Lightning"
 					],
-					"skill_desc": "Generate Spirit: 15\nLucky Hit Chance: {#}%\nElectricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to {#} surrounding enemies, dealing 20.0% less damage each time it chains.\n\nYou gain 25.0% Damage Reduction for 3 seconds after dealing damage with Storm Strike .",
+					"skill_desc": "Generate Spirit: 15\nLucky Hit Chance: {#}%\nElectricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to {#} surrounding enemies, dealing 20% less damage each time it chains.\n\nYou gain 25% Damage Reduction for 3 seconds after dealing damage with Storm Strike .",
 					"skill_name": "Storm Strike",
 					"skill_rankup_desc": "•  Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%"
 				},
@@ -11019,7 +11019,7 @@
 						"Spirit",
 						"Damage"
 					],
-					"skill_desc": "When you Immobilize or Stun an enemy, you gain a Terramote. Each enemy hit by Landslide consumes a Terramote causing a guaranteed Critical Strike with x40.0% Critical Strike Damage. Bosses always have up to a 10.0% chance to grant a Terramote when hit.",
+					"skill_desc": "When you Immobilize or Stun an enemy, you gain a Terramote. Each enemy hit by Landslide consumes a Terramote causing a guaranteed Critical Strike with x40% Critical Strike Damage. Bosses always have up to a 10% chance to grant a Terramote when hit.",
 					"skill_name": "Primal Landslide"
 				},
 				"req_points": 0,
@@ -11470,7 +11470,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Enemies hit with Pulverize deal 20.0% reduced damage for 4 seconds.",
+					"skill_desc": "Enemies hit with Pulverize deal 20% reduced damage for 4 seconds.",
 					"skill_name": "Primal Pulverize"
 				},
 				"req_points": 0,
@@ -11556,7 +11556,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Enemies damaged by Tornado are Slowed by 8.0% for 3 seconds, stacking up to 40.0%.",
+					"skill_desc": "Enemies damaged by Tornado are Slowed by 8% for 3 seconds, stacking up to 40%.",
 					"skill_name": "Primal Tornado"
 				},
 				"req_points": 0,
@@ -11890,7 +11890,7 @@
 						"Spirit",
 						"Physical"
 					],
-					"skill_desc": "Claw's Attack Speed is increased by +10.0%.",
+					"skill_desc": "Claw's Attack Speed is increased by +10%.",
 					"skill_name": "Enhanced Claw"
 				},
 				"req_points": 0,
@@ -12019,7 +12019,7 @@
 						"Spirit",
 						"Physical"
 					],
-					"skill_desc": "Earth Spike has a 10.0% chance to Stun for 2.5 seconds.",
+					"skill_desc": "Earth Spike has a 10% chance to Stun for 2.5 seconds.",
 					"skill_name": "Enhanced Earth Spike"
 				},
 				"req_points": 0,
@@ -12089,7 +12089,7 @@
 						"Spirit",
 						"Physical"
 					],
-					"skill_desc": "Wind Shear has a 20.0% chance to make enemies Vulnerable for 4 seconds.",
+					"skill_desc": "Wind Shear has a 20% chance to make enemies Vulnerable for 4 seconds.",
 					"skill_name": "Enhanced Wind Shear"
 				},
 				"req_points": 0,
@@ -12163,7 +12163,7 @@
 						"Spirit",
 						"Lightning"
 					],
-					"skill_desc": "Storm Strike has a 15.0% chance to Immobilize all enemies hit for 2.5 seconds.",
+					"skill_desc": "Storm Strike has a 15% chance to Immobilize all enemies hit for 2.5 seconds.",
 					"skill_name": "Enhanced Storm Strike"
 				},
 				"req_points": 0,
@@ -12250,7 +12250,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Each time you cast Tornado, you have a 20.0% chance to spawn an additional Tornado.",
+					"skill_desc": "Each time you cast Tornado, you have a 20% chance to spawn an additional Tornado.",
 					"skill_name": "Enhanced Tornado"
 				},
 				"req_points": 0,
@@ -12403,7 +12403,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Shred gains +30.0% Attack Speed and Heals for 2.0% of your Maximum Life if an enemy is struck.",
+					"skill_desc": "Shred gains +30% Attack Speed and Heals for 2% of your Maximum Life if an enemy is struck.",
 					"skill_name": "Enhanced Shred"
 				},
 				"req_points": 0,
@@ -12657,7 +12657,7 @@
 						"Physical",
 						"Crowd Control"
 					],
-					"skill_desc": "Enemies who are Knocked Back by Cyclone Armor are also Slowed by 70.0% for 1.5 seconds.",
+					"skill_desc": "Enemies who are Knocked Back by Cyclone Armor are also Slowed by 70% for 1.5 seconds.",
 					"skill_name": "Enhanced Cyclone Armor"
 				},
 				"req_points": 0,
@@ -12786,7 +12786,7 @@
 						"Cooldown",
 						"Damage Reduction"
 					],
-					"skill_desc": "Debilitating Roar also Fortifies you for 22.0% Base Life.",
+					"skill_desc": "Debilitating Roar also Fortifies you for 22% Base Life.",
 					"skill_name": "Enhanced Debilitating Roar"
 				},
 				"req_points": 0,
@@ -12988,7 +12988,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Wolves deal x20.0% increased damage to Immobilized, Stunned, Slowed, or Poisoned enemies.",
+					"skill_desc": "Wolves deal x20% increased damage to Immobilized, Stunned, Slowed, or Poisoned enemies.",
 					"skill_name": "Enhanced Wolf Pack"
 				},
 				"req_points": 0,
@@ -13057,7 +13057,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "You have +5.0% increased Critical Strike Chance for 6 seconds against Enemies hit by Ravens.",
+					"skill_desc": "You have +5% increased Critical Strike Chance for 6 seconds against Enemies hit by Ravens.",
 					"skill_name": "Enhanced Ravens"
 				},
 				"req_points": 0,
@@ -13132,7 +13132,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Enemies who are damaged by Hurricane are Slowed by 25.0% for 2 seconds.",
+					"skill_desc": "Enemies who are damaged by Hurricane are Slowed by 25% for 2 seconds.",
 					"skill_name": "Enhanced Hurricane"
 				},
 				"req_points": 0,
@@ -13259,7 +13259,7 @@
 						"Cooldown",
 						"Crowd Control"
 					],
-					"skill_desc": "When Boulder reaches the end of its path, enemies hit are Slowed by 30.0% for 3 seconds. If Boulder Overpowered, enemies are Stunned for 4 seconds instead.",
+					"skill_desc": "When Boulder reaches the end of its path, enemies hit are Slowed by 30% for 3 seconds. If Boulder Overpowered, enemies are Stunned for 4 seconds instead.",
 					"skill_name": "Enhanced Boulder"
 				},
 				"req_points": 0,
@@ -13327,7 +13327,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Rabies' Poisoning damage also increases over the lifetime of the disease, dealing x30.0% bonus damage at max duration.",
+					"skill_desc": "Rabies' Poisoning damage also increases over the lifetime of the disease, dealing x30% bonus damage at max duration.",
 					"skill_name": "Enhanced Rabies"
 				},
 				"req_points": 0,
@@ -13403,7 +13403,7 @@
 						"Cooldown",
 						"Crowd Control"
 					],
-					"skill_desc": "Trample deals x30.0% bonus damage. This bonus is reduced by x15.0% for each enemy hit after the first.",
+					"skill_desc": "Trample deals x30% bonus damage. This bonus is reduced by x15% for each enemy hit after the first.",
 					"skill_name": "Enhanced Trample"
 				},
 				"req_points": 0,
@@ -13785,7 +13785,7 @@
 						"Cooldown",
 						"Crowd Control"
 					],
-					"skill_desc": "While you have any Fortify, Boulder has +20.0% increased Critical Strike Chance.",
+					"skill_desc": "While you have any Fortify, Boulder has +20% increased Critical Strike Chance.",
 					"skill_name": "Natural Boulder"
 				},
 				"req_points": 0,
@@ -13869,7 +13869,7 @@
 						"Cooldown",
 						"Crowd Control"
 					],
-					"skill_desc": "Boulder's Critical Strike Chance is increased by +3.0% each time it deals damage.",
+					"skill_desc": "Boulder's Critical Strike Chance is increased by +3% each time it deals damage.",
 					"skill_name": "Savage Boulder"
 				},
 				"req_points": 0,
@@ -13941,7 +13941,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "When you Critically Strike, your Wolves gain +20.0% Attack Speed for 3 seconds.",
+					"skill_desc": "When you Critically Strike, your Wolves gain +20% Attack Speed for 3 seconds.",
 					"skill_name": "Brutal Wolf Pack"
 				},
 				"req_points": 0,
@@ -14014,7 +14014,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Lucky Hit: Your Wolves' attacks have up to a 10% chance to Fortify you for 5.0% Base Life.",
+					"skill_desc": "Lucky Hit: Your Wolves' attacks have up to a 10% chance to Fortify you for 5% Base Life.",
 					"skill_name": "Ferocious Wolf Pack"
 				},
 				"req_points": 0,
@@ -14087,7 +14087,7 @@
 						"Cooldown",
 						"Crowd Control"
 					],
-					"skill_desc": "Your Critical Strike Chance is increased by +20.0% against enemies strangled by Vine Creeper.",
+					"skill_desc": "Your Critical Strike Chance is increased by +20% against enemies strangled by Vine Creeper.",
 					"skill_name": "Brutal Vine Creeper"
 				},
 				"req_points": 0,
@@ -14451,7 +14451,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Enemies affected by Hurricane deal 20.0% less damage.",
+					"skill_desc": "Enemies affected by Hurricane deal 20% less damage.",
 					"skill_name": "Savage Hurricane"
 				},
 				"req_points": 0,
@@ -14578,7 +14578,7 @@
 						"Cooldown",
 						"Healing"
 					],
-					"skill_desc": "Blood Howl also increases your Attack Speed by +15.0% for 4 seconds.",
+					"skill_desc": "Blood Howl also increases your Attack Speed by +15% for 4 seconds.",
 					"skill_name": "Preserving Blood Howl"
 				},
 				"req_points": 0,
@@ -14705,7 +14705,7 @@
 						"Cooldown",
 						"Damage Reduction"
 					],
-					"skill_desc": "Debilitating Roar also Slows enemies by 40.0% for its duration.",
+					"skill_desc": "Debilitating Roar also Slows enemies by 40% for its duration.",
 					"skill_name": "Innate Debilitating Roar"
 				},
 				"req_points": 0,
@@ -14769,7 +14769,7 @@
 						"Cooldown",
 						"Damage Reduction"
 					],
-					"skill_desc": "Debilitating Roar also Heals you for 4.0% of your Maximum Life each second for its duration.",
+					"skill_desc": "Debilitating Roar also Heals you for 4% of your Maximum Life each second for its duration.",
 					"skill_name": "Preserving Debilitating Roar"
 				},
 				"req_points": 0,
@@ -14829,7 +14829,7 @@
 						"Barrier",
 						"Cooldown"
 					],
-					"skill_desc": "Casting Earthen Bulwark grants 18.0% Base Life as Fortify.",
+					"skill_desc": "Casting Earthen Bulwark grants 18% Base Life as Fortify.",
 					"skill_name": "Preserving Earthen Bulwark"
 				},
 				"req_points": 0,
@@ -14907,7 +14907,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Shred's second and third attacks also perform a dash. In addition, Shred's Critical Strike Damage is increased by x20.0%.",
+					"skill_desc": "Shred's second and third attacks also perform a dash. In addition, Shred's Critical Strike Damage is increased by x20%.",
 					"skill_name": "Primal Shred"
 				},
 				"req_points": 0,
@@ -14979,7 +14979,7 @@
 						"Damage",
 						"Lightning"
 					],
-					"skill_desc": "Lightning Storm has a 8.0% chance to Immobilize enemies hit for 3 seconds.",
+					"skill_desc": "Lightning Storm has a 8% chance to Immobilize enemies hit for 3 seconds.",
 					"skill_name": "Primal Lightning Storm"
 				},
 				"req_points": 0,
@@ -15064,7 +15064,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Enemies hit with Tornado have a 10.0% chance to become Vulnerable for 3 seconds.",
+					"skill_desc": "Enemies hit with Tornado have a 10% chance to become Vulnerable for 3 seconds.",
 					"skill_name": "Raging Tornado"
 				},
 				"req_points": 0,
@@ -15281,7 +15281,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Maul has a 10.0% chance to Knock Down enemies for 1.5 seconds.",
+					"skill_desc": "Maul has a 10% chance to Knock Down enemies for 1.5 seconds.",
 					"skill_name": "Wild Maul"
 				},
 				"req_points": 0,
@@ -15486,7 +15486,7 @@
 						"Spirit",
 						"Physical"
 					],
-					"skill_desc": "Claw has a 10.0% chance to attack twice.",
+					"skill_desc": "Claw has a 10% chance to attack twice.",
 					"skill_name": "Wild Claw"
 				},
 				"req_points": 0,
@@ -15633,7 +15633,7 @@
 						"Cooldown",
 						"Damage Reduction"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nShapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by 50.0% for 4 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nShapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by 50% for 4 seconds.",
 					"skill_name": "Debilitating Roar",
 					"skill_rankup_desc": "•  Cooldown 🡑  {#} seconds"
 				},
@@ -15966,7 +15966,7 @@
 						"Werewolf",
 						"Werebear"
 					],
-					"skill_desc": "After being a Werewolf for 2.5 seconds, gain +20.0% Attack Speed for 15 seconds. \n\nAfter being a Werebear for 2.5 seconds, deal x20.0% increased damage for 15 seconds.",
+					"skill_desc": "After being a Werewolf for 2.5 seconds, gain +20% Attack Speed for 15 seconds. \n\nAfter being a Werebear for 2.5 seconds, deal x20% increased damage for 15 seconds.",
 					"skill_name": "Bestial Rampage"
 				},
 				"req_points": 0,
@@ -16008,7 +16008,7 @@
 						"Werewolf",
 						"Shapeshifting"
 					],
-					"skill_desc": "Every 6th Werewolf Skill hit Critically Strikes and deals x60.0% increased damage.",
+					"skill_desc": "Every 6th Werewolf Skill hit Critically Strikes and deals x60% increased damage.",
 					"skill_name": "Lupine Ferocity"
 				},
 				"req_points": 0,
@@ -16054,7 +16054,7 @@
 						"Werebear",
 						"Damage"
 					],
-					"skill_desc": "Gain x20.0% additional Maximum Life while in Werebear form and for 3 seconds after leaving Werebear form.\n\nWhile Healthy, deal x30.0% increased damage.",
+					"skill_desc": "Gain x20% additional Maximum Life while in Werebear form and for 3 seconds after leaving Werebear form.\n\nWhile Healthy, deal x30% increased damage.",
 					"skill_name": "Ursine Strength"
 				},
 				"req_points": 0,
@@ -16537,7 +16537,7 @@
 						"Crowd Control",
 						"Nature Magic"
 					],
-					"skill_desc": "Your Storm Skills grant 2 Spirit and deal x20.0% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.",
+					"skill_desc": "Your Storm Skills grant 2 Spirit and deal x20% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.",
 					"skill_name": "Perfect Storm"
 				},
 				"req_points": 0,
@@ -16634,7 +16634,7 @@
 						"Life",
 						"Crowd Control"
 					],
-					"skill_desc": "Reduce the duration of Control Impairing Effects by {3/6/9/12/15/18/21/24/27/30}%. Triple this effect while you have Fortify for over 50.0% of your Maximum Life.",
+					"skill_desc": "Reduce the duration of Control Impairing Effects by {3/6/9/12/15/18/21/24/27/30}%. Triple this effect while you have Fortify for over 50% of your Maximum Life.",
 					"skill_name": "Unrestrained",
 					"skill_rankup_desc": "•  Control Impairment Reduction 🡑  {3/6/9/12/15/18/21/24/27/30}%"
 				},
@@ -17062,7 +17062,7 @@
 						"Cooldown",
 						"Damage Reduction"
 					],
-					"skill_desc": "Lacerate's initial strike is guaranteed to Critically Strike and deals x150.0% increased damage.",
+					"skill_desc": "Lacerate's initial strike is guaranteed to Critically Strike and deals x150% increased damage.",
 					"skill_name": "Supreme Lacerate"
 				},
 				"req_points": 0,
@@ -17144,7 +17144,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Gain 8.0% Base Life as Fortify per second while Grizzly Rage is active.",
+					"skill_desc": "Gain 8% Base Life as Fortify per second while Grizzly Rage is active.",
 					"skill_name": "Supreme Grizzly Rage"
 				},
 				"req_points": 0,
@@ -17398,7 +17398,7 @@
 						"Cooldown",
 						"Damage Reduction"
 					],
-					"skill_desc": "Each time Lacerate deals a Critical Strike, Heal for 3.0% Maximum Life.",
+					"skill_desc": "Each time Lacerate deals a Critical Strike, Heal for 3% Maximum Life.",
 					"skill_name": "Prime Lacerate"
 				},
 				"req_points": 0,
@@ -17779,7 +17779,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nShapeshift into a Dire Werebear for 10 seconds gaining x20.0% bonus damage and 20.0% Damage Reduction. Damage bonus is increased by 3.0% each second while in this form.\n\nKills extend the duration by 1 second up to 10 additional seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nShapeshift into a Dire Werebear for 10 seconds gaining x20% bonus damage and 20% Damage Reduction. Damage bonus is increased by 3% each second while in this form.\n\nKills extend the duration by 1 second up to 10 additional seconds.",
 					"skill_name": "Grizzly Rage"
 				},
 				"req_points": 0,
@@ -17919,7 +17919,7 @@
 						"Cooldown",
 						"Critical Strikes"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nEncase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x25.0% increased Critical Strike Damage to enemies affected by Petrify. \n\nAgainst Bosses, the Critical Strike Damage bonus is increased to x50.0% and its duration is increased to {#} seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nEncase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x25% increased Critical Strike Damage to enemies affected by Petrify. \n\nAgainst Bosses, the Critical Strike Damage bonus is increased to x50% and its duration is increased to {#} seconds.",
 					"skill_name": "Petrify"
 				},
 				"req_points": 0,
@@ -18163,7 +18163,7 @@
 						"Cooldown",
 						"Crowd Control"
 					],
-					"skill_desc": "Casting Trample grants 20.0% Base Life as Fortify.",
+					"skill_desc": "Casting Trample grants 20% Base Life as Fortify.",
 					"skill_name": "Natural Trample"
 				},
 				"req_points": 0,
@@ -18225,7 +18225,7 @@
 						"Physical",
 						"Crowd Control"
 					],
-					"skill_desc": "Every 10 seconds, Cyclone Armor intensifies, causing incoming damage to grant you 30.0% Damage Reduction for 2 seconds.",
+					"skill_desc": "Every 10 seconds, Cyclone Armor intensifies, causing incoming damage to grant you 30% Damage Reduction for 2 seconds.",
 					"skill_name": "Preserving Cyclone Armor"
 				},
 				"req_points": 0,
@@ -18656,7 +18656,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Hurricane has a 15.0% chance to make enemies Vulnerable for 3 seconds.",
+					"skill_desc": "Hurricane has a 15% chance to make enemies Vulnerable for 3 seconds.",
 					"skill_name": "Natural Hurricane"
 				},
 				"req_points": 0,
@@ -18767,27 +18767,27 @@
 				"name": "Gift of the Stag"
 			},
 			"Druid_Passive_Deer_03": {
-				"desc": "Take 10.0% reduced damage from Elites.",
+				"desc": "Take 10% reduced damage from Elites.",
 				"name": "Wariness"
 			},
 			"Druid_Passive_Deer_04": {
-				"desc": "Reduce the duration of Control Impairing Effects by 15.0%.",
+				"desc": "Reduce the duration of Control Impairing Effects by 15%.",
 				"name": "Advantageous Beast"
 			},
 			"Druid_Passive_Eagle_01": {
-				"desc": "Gain +5.0% increased Critical Strike Chance.",
+				"desc": "Gain +5% increased Critical Strike Chance.",
 				"name": "Scythe Talons"
 			},
 			"Druid_Passive_Eagle_02": {
-				"desc": "Gain x10.0% Maximum Life.",
+				"desc": "Gain x10% Maximum Life.",
 				"name": "Iron Feather"
 			},
 			"Druid_Passive_Eagle_03": {
-				"desc": "Gain +10.0% Attack Speed.",
+				"desc": "Gain +10% Attack Speed.",
 				"name": "Swooping Attacks"
 			},
 			"Druid_Passive_Eagle_04": {
-				"desc": "Gain x30.0% Critical Strike Damage.",
+				"desc": "Gain x30% Critical Strike Damage.",
 				"name": "Avian Wrath"
 			},
 			"Druid_Passive_Snake_01": {
@@ -18799,7 +18799,7 @@
 				"name": "Overload"
 			},
 			"Druid_Passive_Snake_03": {
-				"desc": "Critical Strikes with Shapeshifting Skills Heal you for 3.0% Maximum Life.",
+				"desc": "Critical Strikes with Shapeshifting Skills Heal you for 3% Maximum Life.",
 				"name": "Masochistic"
 			},
 			"Druid_Passive_Snake_04": {
@@ -18811,15 +18811,15 @@
 				"name": "Packleader"
 			},
 			"Druid_Passive_Wolf_02": {
-				"desc": "Lucky Hit: Dealing damage has up to a 15.0% chance to restore 10 Spirit.",
+				"desc": "Lucky Hit: Dealing damage has up to a 15% chance to restore 10 Spirit.",
 				"name": "Energize"
 			},
 			"Druid_Passive_Wolf_03": {
-				"desc": "Fortify for 10.0% of your Maximum Life when you use a Defensive Skill.",
+				"desc": "Fortify for 10% of your Maximum Life when you use a Defensive Skill.",
 				"name": "Bolster"
 			},
 			"Druid_Passive_Wolf_04": {
-				"desc": "Extend the duration of Ultimate Skills by 25.0%.",
+				"desc": "Extend the duration of Ultimate Skills by 25%.",
 				"name": "Calamity"
 			}
 		},
@@ -18878,7 +18878,7 @@
 					"Movement_Speed"
 				],
 				"category": 0,
-				"desc": "Werewolf form is now your true form, and you gain 2 Ranks to all Werewolf Skills.",
+				"desc": "Werewolf form is now your true form, and you gain +2 Ranks to all Werewolf Skills.",
 				"flavor": "\"He was not a victim of the curse - he sought it out. As his skin split and his bones cracked, his laughter never ceased.\" \n– Tale of the Mad Nobleman",
 				"name": "Mad Wolf's Glee"
 			},
@@ -18896,7 +18896,7 @@
 					"Werebear_Armor"
 				],
 				"category": 0,
-				"desc": "Werebear form is now your true form, and you gain 2 Ranks to all Werebear Skills.",
+				"desc": "Werebear form is now your true form, and you gain +2 Ranks to all Werebear Skills.",
 				"flavor": "When the Days of Ash began, the great druid Nafain reminded his disciples that nothing, not even the loss of their humanity, was too great a sacrifice to protect Túr Dúlra from Astaroth's flames.",
 				"name": "Insatiable Fury",
 				"power_formulas": [
@@ -20062,144 +20062,144 @@
 			"ParagonGlyph_001": {
 				"bonus": "For each Skill equipped in your {c_important}Enchantment Slots{/c}, gain {c_number}[{SF_0}*100]%{/c} Resistance to that Skill's element.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, you deal +[GlyphAffixScalar]% increased Non-physical damage."
+					"For every 5 Intelligence purchased within range, you deal +{#}% increased Non-physical damage."
 				],
 				"name": "Enchanter"
 			},
 			"ParagonGlyph_002": {
 				"bonus": "After spending {c_number}50{/c} Mana, you deal {c_number}[{SF_1}*100|x%|]{/c} increased damage and gain {c_number}[{SF_2}*100|%|]{/c} increased Mana Regeneration for {c_number}[SF_3]{/c} seconds.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Unleash"
 			},
 			"ParagonGlyph_003": {
 				"bonus": "Dealing Fire, Cold, or Lightning Damage to an enemy increases all damage you deal to them by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds, stacking once per element.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Non-physical damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Non-physical damage and damage reduction modifiers."
 				],
 				"name": "Elementalist"
 			},
 			"ParagonGlyph_004": {
 				"bonus": "{c_important}Mastery{/c} Skills have {c_number}[{SF_0}*100|%|]{/c} increased area.",
 				"desc": [
-					"For every 5 Intelligence within range, Mastery Skills gain +[GlyphAffixScalar]% increased damage."
+					"For every 5 Intelligence within range, Mastery Skills gain +{#}% increased damage."
 				],
 				"name": "Adept"
 			},
 			"ParagonGlyph_005": {
 				"bonus": "{c_important}Conjuration{/c} Skills have {c_number}[{SF_0}*100|%|]{/c} increased duration.",
 				"desc": [
-					"For every 5 Intelligence within range, Conjuration Skills gain +[GlyphAffixScalar]% increased damage."
+					"For every 5 Intelligence within range, Conjuration Skills gain +{#}% increased damage."
 				],
 				"name": "Conjurer"
 			},
 			"ParagonGlyph_006": {
 				"bonus": "Picking up {c_important}{u}Crackling Energy{/u}{/c} grants you {c_number}[{SF_0}*100|x%|]{/c} increased damage for {c_number}{SF_1}{/c} seconds, up to {c_number}[{SF_0} * {SF_2} * 100|%x|]{/c}.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, Crackling Energy deals +[GlyphAffixScalar]% increased damage."
+					"For every 5 Intelligence purchased within range, Crackling Energy deals +{#}% increased damage."
 				],
 				"name": "Charged"
 			},
 			"ParagonGlyph_007": {
 				"bonus": "You deal {c_number}[{SF_0} * 100|%x|]{/c} increased damage per Nearby Burning enemy, up to {c_number}[{SF_0} * {SF_1} * 100|%x|]{/c}.",
 				"desc": [
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased Burning damage."
+					"For every 5 Willpower purchased within range, you deal +{#}% increased Burning damage."
 				],
 				"name": "Torch"
 			},
 			"ParagonGlyph_008": {
 				"bonus": "Every {c_important}Pyromancy{/c} Skill you cast or every second you channel {c_important}Incinerate{/c} increases your Fire Damage by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[{SF_2}]{/c} seconds, up to {c_number}[{SF_0} * {SF_1} * 100|x%|]{/c}.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Fire damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Fire damage and damage reduction modifiers."
 				],
 				"name": "Pyromaniac"
 			},
 			"ParagonGlyph_009": {
 				"bonus": "Enemies deal {c_number}[{SF_0} * 100|%|]{/c} reduced damage to you for {c_number}{SF_1}{/c} seconds after they are no longer {c_important}{u}Frozen{/u}{/c}.",
 				"desc": [
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased damage to Chilled targets."
+					"For every 5 Willpower purchased within range, you deal +{#}% increased damage to Chilled targets."
 				],
 				"name": "Frostbite"
 			},
 			"ParagonGlyph_010": {
 				"bonus": "You deal {c_number}[{SF_0} * 100 |x%|]{/c} increased damage for {c_number}{SF_1}{/c} |4second:seconds; after casting a {c_important}Defensive{/c} Skill.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Tactician"
 			},
 			"ParagonGlyph_011": {
 				"bonus": "You gain {c_number}[{SF_0}*100|+%|]{/c} increased Potion Healing.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, you deal +[GlyphAffixScalar]% increased damage while Healthy.",
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased damage while Healthy."
+					"For every 5 Intelligence purchased within range, you deal +{#}% increased damage while Healthy.",
+					"For every 5 Willpower purchased within range, you deal +{#}% increased damage while Healthy."
 				],
 				"name": "Guzzler"
 			},
 			"ParagonGlyph_012": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction while you have an active {c_important}{u}Barrier{/u}{/c}.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Protector"
 			},
 			"ParagonGlyph_013": {
 				"bonus": "You have a {c_number}30%{/c} chance when Shapeshifting to gain a {c_important}{u}Barrier{/u}{/c} that absorbs {c_number}[{SF_0} * 100|%|]{/c} of your Maximum Life {c_number}([PlayerHealthMax() * SF_0]){/c} in damage for {c_number}[{SF_3}]{/c} seconds.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Poise"
 			},
 			"ParagonGlyph_014": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction against Close enemies.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased damage to Close targets.",
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased damage to Close targets."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased damage to Close targets.",
+					"For every 5 Strength purchased within range, you deal +{#}% increased damage to Close targets."
 				],
 				"name": "Territorial"
 			},
 			"ParagonGlyph_015": {
 				"bonus": "You deal {c_number}[{SF_0}*100|%x|]{/c} increased direct damage to Burning enemies.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased damage to Burning targets."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased damage to Burning targets."
 				],
 				"name": "Flamefeeder"
 			},
 			"ParagonGlyph_016": {
 				"bonus": "When an enemy is damaged by you, they become {c_important}{u}Vulnerable{/u}{/c} for {c_number}[{SF_0}]{/c} seconds. This cannot happen more than once every {c_number}{SF_1}{/c} seconds per enemy.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased damage to Vulnerable targets.",
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased damage to Vulnerable targets."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased damage to Vulnerable targets.",
+					"For every 5 Strength purchased within range, you deal +{#}% increased damage to Vulnerable targets."
 				],
 				"name": "Exploit"
 			},
 			"ParagonGlyph_017": {
 				"bonus": "Whenever you {c_important}{u}Chill{/u}{/c} an enemy, you deal {c_number}[{SF_0}*100|%x|]{/c} increased Cold Damage for {c_number}[{SF_2}]{/c} seconds, up to {c_number}[{SF_0}*{SF_3}*100|%x|]{/c}.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Cold damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Cold damage and damage reduction modifiers."
 				],
 				"name": "Winter"
 			},
 			"ParagonGlyph_018": {
 				"bonus": "Your Lightning damage has a {c_number}[{SF_0} * 100|%+|]{/c} increased chance to Critically Strike enemies who are {c_important}Stunned{/c}, {c_important}Immobilized{/c}, or {c_important}{u}Frozen{/u}{/c}.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Lightning damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Lightning damage and damage reduction modifiers."
 				],
 				"name": "Electrocute"
 			},
 			"ParagonGlyph_019": {
 				"bonus": "Critical Strikes increase all damage the enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}{SF_2}{/c} seconds, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, Core Skills deal +[GlyphAffixScalar]% increased Critical Strike Damage."
+					"For every 5 Dexterity purchased within range, Core Skills deal +{#}% increased Critical Strike Damage."
 				],
 				"name": "Destruction"
 			},
 			"ParagonGlyph_020": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Slowed or {c_important}{u}Chilled{/u}{/c} enemies or, instead, {c_number}[{SF_1}*100|x%|]{/c} increased damage to Stunned or {c_important}{u}Frozen{/u}{/c} enemies.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased damage to Crowd Controlled targets.",
-					"For every 5 Intelligence purchased within range, you deal +[GlyphAffixScalar]% increased damage to Crowd Controlled targets."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased damage to Crowd Controlled targets.",
+					"For every 5 Intelligence purchased within range, you deal +{#}% increased damage to Crowd Controlled targets."
 				],
 				"name": "Control"
 			},
@@ -20209,91 +20209,91 @@
 			"ParagonGlyph_021": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage while wielding One-Handed weapons.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Ambidextrous"
 			},
 			"ParagonGlyph_022": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage while wielding Two-Handed weapons.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Might"
 			},
 			"ParagonGlyph_023": {
 				"bonus": "While wielding an Axe, you deal {c_number}[{SF_0}*100|x%|]{/c} increased Critical Strike Damage.",
 				"desc": [
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased damage while wielding an Axe."
+					"For every 5 Strength purchased within range, you deal +{#}% increased damage while wielding an Axe."
 				],
 				"name": "Cleaver"
 			},
 			"ParagonGlyph_024": {
 				"bonus": "While wielding a Sword, you gain {c_number}[SF_0]{/c} Fury when you kill an enemy.",
 				"desc": [
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased damage while wielding a Sword."
+					"For every 5 Strength purchased within range, you deal +{#}% increased damage while wielding a Sword."
 				],
 				"name": "Seething"
 			},
 			"ParagonGlyph_025": {
 				"bonus": "While wielding a Mace, you deal {c_number}[{SF_0}*100|x%|]{/c} increased {c_important}{u}Overpower{/u}{/c} damage.",
 				"desc": [
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased damage while wielding a Mace."
+					"For every 5 Strength purchased within range, you deal +{#}% increased damage while wielding a Mace."
 				],
 				"name": "Crusher"
 			},
 			"ParagonGlyph_026": {
 				"bonus": "While wielding a Polearm, you deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to {c_important}{u}Healthy{/u}{/c} or {c_important}{u}Injured{/u}{/c} enemies.",
 				"desc": [
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased damage while wielding a Polearm."
+					"For every 5 Strength purchased within range, you deal +{#}% increased damage while wielding a Polearm."
 				],
 				"name": "Executioner"
 			},
 			"ParagonGlyph_027": {
 				"bonus": "While {c_important}{u}Berserking{/u}{/c}, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage from Elites.",
 				"desc": [
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased damage while Berserking."
+					"For every 5 Strength purchased within range, you deal +{#}% increased damage while Berserking."
 				],
 				"name": "Ire"
 			},
 			"ParagonGlyph_028": {
 				"bonus": "After casting a {c_important}Shout{/c} Skill, the active Cooldown of every other {c_important}Shout{/c} Skill is reduced by {c_number}[SF_0|1|]{/c} seconds.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Marshal"
 			},
 			"ParagonGlyph_029": {
 				"bonus": "You have {c_number}[{SF_0}*100|%|]{/c} increased Critical Strike Chance against Bleeding enemies.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased damage to Bleeding targets."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased damage to Bleeding targets."
 				],
 				"name": "Bloodfeeder"
 			},
 			"ParagonGlyph_030": {
 				"bonus": "Skills that Critically Strike generate {c_number}[{SF_0}]{/c} Fury.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, Core Skills deal +[GlyphAffixScalar]% increased Critical Strike Damage."
+					"For every 5 Dexterity purchased within range, Core Skills deal +{#}% increased Critical Strike Damage."
 				],
 				"name": "Wrath"
 			},
 			"ParagonGlyph_031": {
 				"bonus": "Hitting with a {c_important}Weapon Mastery{/c} Skill reduces the active Cooldown of another random {c_important}Weapon Mastery{/c} Skill by {c_number}[{SF_0}]{/c} seconds.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Physical damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Physical damage and damage reduction modifiers."
 				],
 				"name": "Weapon Master"
 			},
 			"ParagonGlyph_032": {
 				"bonus": "Swapping weapons has a {c_number}[{SF_0}*100|%|]{/c} chance to cause the Skill's damage to Critically Strike.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, Skills that Swap to a different weapon deal +[GlyphAffixScalar]% increased damage."
+					"For every 5 Dexterity purchased within range, Skills that Swap to a different weapon deal +{#}% increased damage."
 				],
 				"name": "Mortal Draw"
 			},
 			"ParagonGlyph_033": {
 				"bonus": "Thorns damage increases all damage an enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Revenge"
 			},
@@ -20303,16 +20303,16 @@
 			"ParagonGlyph_034": {
 				"bonus": "You gain up to {c_number}[{SF_0}*100|%|]{/c} Damage Reduction the more {c_important}{u}Fortify{/u}{/c} you have.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, you deal +[GlyphAffixScalar]% increased damage while Fortified.",
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased damage while Fortified."
+					"For every 5 Intelligence purchased within range, you deal +{#}% increased damage while Fortified.",
+					"For every 5 Willpower purchased within range, you deal +{#}% increased damage while Fortified."
 				],
 				"name": "Undaunted"
 			},
 			"ParagonGlyph_035": {
 				"bonus": "When you {c_important}{u}Overpower{/u}{/c} an enemy, all damage they take from you is increased by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, you deal +[GlyphAffixScalar]% increased Overpower damage.",
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased Overpower damage."
+					"For every 5 Intelligence purchased within range, you deal +{#}% increased Overpower damage.",
+					"For every 5 Willpower purchased within range, you deal +{#}% increased Overpower damage."
 				],
 				"name": "Dominate"
 			},
@@ -20325,79 +20325,79 @@
 			"ParagonGlyph_036": {
 				"bonus": "Killing a Bleeding enemy has a  {c_number}[{SF_0}*100|%|]{/c} chance to reduce the Cooldowns of your Non-{c_important}Ultimate{/c} active Cooldowns by {c_number}{SF_1}{/c} second.",
 				"desc": [
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased Bleeding damage."
+					"For every 5 Willpower purchased within range, you deal +{#}% increased Bleeding damage."
 				],
 				"name": "Disembowel"
 			},
 			"ParagonGlyph_037": {
 				"bonus": "{c_important}Brawling{/c} Skills deal {c_number}[{SF_0}*100|x%|]{/c} increased damage.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Physical damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Physical damage and damage reduction modifiers."
 				],
 				"name": "Brawl"
 			},
 			"ParagonGlyph_038": {
 				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased Physical damage.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Physical damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Physical damage and damage reduction modifiers."
 				],
 				"name": "Corporeal"
 			},
 			"ParagonGlyph_039": {
 				"bonus": "While in Werewolf or Werebear form, Close enemies take {c_number}[{SF_0}*100|x%|]{/c} increased damage from you.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Fang and Claw"
 			},
 			"ParagonGlyph_040": {
 				"bonus": "{c_important}Nature Magic{/c} Skills deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Crowd Controlled or {c_important}{u}Vulnerable{/u}{/c} enemies.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Earth and Sky"
 			},
 			"ParagonGlyph_041": {
 				"bonus": "The Passive portion of {c_important}Companion{/c} Skills deal {c_number}[{SF_0}*100|x%|]{/c} increased damage.",
 				"desc": [
-					"For every 5 Intelligence within range, Companion Skills deal +[GlyphAffixScalar]% increased damage."
+					"For every 5 Intelligence within range, Companion Skills deal +{#}% increased damage."
 				],
 				"name": "Wilds"
 			},
 			"ParagonGlyph_042": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction while in Werebear form.",
 				"desc": [
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased damage while in Werebear form."
+					"For every 5 Willpower purchased within range, you deal +{#}% increased damage while in Werebear form."
 				],
 				"name": "Werebear"
 			},
 			"ParagonGlyph_043": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction while in Werewolf form.",
 				"desc": [
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased damage while in Werewolf form."
+					"For every 5 Willpower purchased within range, you deal +{#}% increased damage while in Werewolf form."
 				],
 				"name": "Werewolf"
 			},
 			"ParagonGlyph_044": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction while in Human form.",
 				"desc": [
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased damage while in Human form."
+					"For every 5 Willpower purchased within range, you deal +{#}% increased damage while in Human form."
 				],
 				"name": "Human"
 			},
 			"ParagonGlyph_045": {
 				"bonus": "Poisoning damage effects have a {c_number}[{SF_0}*100|%|]{/c} chance to deal double the amount of damage over their duration.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, you deal +[GlyphAffixScalar]% increased Poison damage.",
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased Poison damage."
+					"For every 5 Intelligence purchased within range, you deal +{#}% increased Poison damage.",
+					"For every 5 Strength purchased within range, you deal +{#}% increased Poison damage."
 				],
 				"name": "Bane"
 			},
 			"ParagonGlyph_046": {
 				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased Non-Physical damage.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Non-physical damage and damage reduction modifiers.",
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Paragon nodes within range gain +{#}% bonus to their Non-physical damage and damage reduction modifiers.",
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Abyssal"
 			},
@@ -20407,232 +20407,232 @@
 			"ParagonGlyph_047": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased Lightning damage to both {c_important}{u}Healthy{/u}{/c} and {c_important}{u}Injured{/u}{/c} enemies.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased Lightning damage."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased Lightning damage."
 				],
 				"name": "Fulminate"
 			},
 			"ParagonGlyph_048": {
 				"bonus": "Poisoning damage effects last {c_number}[{SF_0}*100|%x|]{/c} longer.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased damage to Poisoned targets.",
-					"For every 5 Intelligence purchased within range, you deal +[GlyphAffixScalar]% increased damage to Poisoned targets."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased damage to Poisoned targets.",
+					"For every 5 Intelligence purchased within range, you deal +{#}% increased damage to Poisoned targets."
 				],
 				"name": "Tracker"
 			},
 			"ParagonGlyph_049": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased Physical damage to Non-Elites and Bosses.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Outmatch"
 			},
 			"ParagonGlyph_050": {
 				"bonus": "Critical Strikes increase the damage an enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_2]{/c} seconds, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, Core Skills deal +[GlyphAffixScalar]% increased Critical Strike Damage."
+					"For every 5 Dexterity purchased within range, Core Skills deal +{#}% increased Critical Strike Damage."
 				],
 				"name": "Spirit"
 			},
 			"ParagonGlyph_051": {
 				"bonus": "Shapeshifting has a {c_number}[{SF_0}*100|%|]{/c} chance to cause the Skill's damage to Critically Strike.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Shapeshifter"
 			},
 			"ParagonGlyph_052": {
 				"bonus": "Non-{c_important}Basic{/c} and Non-{c_important}Core{/c} Skills deal {c_number}[{SF_0}*100|x%|]{/c} increased damage.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Versatility"
 			},
 			"ParagonGlyph_053": {
 				"bonus": "While wielding a Melee weapon, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, Cutthroat Skills deal +[GlyphAffixScalar]% increased damage."
+					"For every 5 Dexterity purchased within range, Cutthroat Skills deal +{#}% increased damage."
 				],
 				"name": "Closer"
 			},
 			"ParagonGlyph_054": {
 				"bonus": "While wielding a Ranged weapon, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, Marksman Skills deal +[GlyphAffixScalar]% increased damage."
+					"For every 5 Dexterity purchased within range, Marksman Skills deal +{#}% increased damage."
 				],
 				"name": "Ranger"
 			},
 			"ParagonGlyph_055": {
 				"bonus": "Physical damage increases the damage an enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased Physical damage."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased Physical damage."
 				],
 				"name": "Chip"
 			},
 			"ParagonGlyph_056": {
 				"bonus": "You gain {c_number}[{SF_0}*100|x%|]{/c} increased {c_important}{u}Chill{/u}{/c} effect.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased damage to Chilled targets."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased damage to Chilled targets."
 				],
 				"name": "Frostfeeder"
 			},
 			"ParagonGlyph_057": {
 				"bonus": "When you cast an {c_important}Agility{/c} Skill, you gain {c_number}[{SF_0}*100|x%|]{/c} increased Energy Regeneration for {c_number}[{SF_1}]{/c} seconds.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Fluidity"
 			},
 			"ParagonGlyph_058": {
 				"bonus": "Casting an {c_important}Imbuement{/c} Skill reduces the active Cooldown of another random {c_important}Imbuement{/c} Skill by {c_number}[{SF_0}|1|]{/c} seconds.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, Skills that are Imbued deal +[GlyphAffixScalar]% increased damage."
+					"For every 5 Intelligence purchased within range, Skills that are Imbued deal +{#}% increased damage."
 				],
 				"name": "Infusion"
 			},
 			"ParagonGlyph_059": {
 				"bonus": "When you hit an enemy with a Crowd Controlling effect, they take {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, increased damage from you for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Devious"
 			},
 			"ParagonGlyph_060": {
 				"bonus": "{c_important}Skeletal Warriors{/c} gain {c_number}[{SF_0}*100|+%|]{/c} increased Armor.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, Skeletal Warriors deal +[GlyphAffixScalar]% increased damage."
+					"For every 5 Dexterity purchased within range, Skeletal Warriors deal +{#}% increased damage."
 				],
 				"name": "Warrior"
 			},
 			"ParagonGlyph_061": {
 				"bonus": "Skills that Critically Strike restore {c_number}[{SF_0}*100|%|]{/c} of their Energy cost.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, Core Skills deal +[GlyphAffixScalar]% increased Critical Strike Damage."
+					"For every 5 Intelligence purchased within range, Core Skills deal +{#}% increased Critical Strike Damage."
 				],
 				"name": "Combat"
 			},
 			"ParagonGlyph_062": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for every Close Corpse.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Gravekeeper"
 			},
 			"ParagonGlyph_063": {
 				"bonus": "Non-Physical damage increases all the Non-Physical damage an enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, you deal +[GlyphAffixScalar]% increased Non-physical damage."
+					"For every 5 Intelligence purchased within range, you deal +{#}% increased Non-physical damage."
 				],
 				"name": "Canny"
 			},
 			"ParagonGlyph_064": {
 				"bonus": "{c_important}Imbuement{/c} Skill effects have {c_number}[{SF_0}*100|x%|]{/c} increased potency.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Efficacy"
 			},
 			"ParagonGlyph_065": {
 				"bonus": "Non-{c_important}Ultimate{/c} {c_important}Trap{/c} Skills have {c_number}[{SF_0}*100|x%|]{/c} increased area.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, Trap Skills deal +[GlyphAffixScalar]% increased damage."
+					"For every 5 Intelligence purchased within range, Trap Skills deal +{#}% increased damage."
 				],
 				"name": "Snare"
 			},
 			"ParagonGlyph_066": {
 				"bonus": "Critical Strikes deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to enemies that are not {c_important}{u}Healthy{/u}{/c}.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, Core Skills deal +[GlyphAffixScalar]% increased Critical Strike Damage."
+					"For every 5 Dexterity purchased within range, Core Skills deal +{#}% increased Critical Strike Damage."
 				],
 				"name": "Essence"
 			},
 			"ParagonGlyph_067": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased Physical damage to both {c_important}{u}Healthy{/u}{/c} and {c_important}{u}Injured{/u}{/c} enemies.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Physical damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Physical damage and damage reduction modifiers."
 				],
 				"name": "Pride"
 			},
 			"ParagonGlyph_068": {
 				"bonus": "Enemies affected by {c_important}Trap{/c} Skills take {c_number}[{SF_0}*100|x%|]{/c} increased damage from you.",
 				"desc": [
-					"For every 5 Strength purchased within range, you deal +[GlyphAffixScalar]% increased damage to targets affected by Trap Skills."
+					"For every 5 Strength purchased within range, you deal +{#}% increased damage to targets affected by Trap Skills."
 				],
 				"name": "Ambush"
 			},
 			"ParagonGlyph_069": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage while you have no active Minions.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Sacrificial"
 			},
 			"ParagonGlyph_070": {
 				"bonus": "{c_important}{u}Blood Orbs{/u}{/c} {c_important}{u}Fortify{/u}{/c} you for {c_number}[{SF_0}*100|%|]{/c} of your Maximum Life {c_number}([{SF_0} * PlayerHealthMax()]){/c}.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Blood-drinker"
 			},
 			"ParagonGlyph_071": {
 				"bonus": "Whenever your Minions deal damage to an enemy, that enemy takes {c_number}[{SF_0}*100|x%|]{/c} increased damage from you and your Minions, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
-					"Paragon nodes within range gain +[GlyphAffixScalar]% bonus to their Minion damage and damage reduction modifiers."
+					"Paragon nodes within range gain +{#}% bonus to their Minion damage and damage reduction modifiers."
 				],
 				"name": "Deadraiser"
 			},
 			"ParagonGlyph_072": {
 				"bonus": "Skeletal Mages gain {c_number}[{SF_0}*100|%|]{/c} increased Resistance to All Elements.",
 				"desc": [
-					"For every 5 Intelligence purchased within range, Skeleton Mages deal +[GlyphAffixScalar]% increased damage."
+					"For every 5 Intelligence purchased within range, Skeleton Mages deal +{#}% increased damage."
 				],
 				"name": "Mage"
 			},
 			"ParagonGlyph_073": {
 				"bonus": "Enemies affected by {c_important}Curse{/c} Skills take {c_number}[{SF_0}*100|x%|]{/c} increased damage from you and your Minions.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Magic nodes within range."
+					"Grants +{#}% bonus to all Magic nodes within range."
 				],
 				"name": "Amplify"
 			},
 			"ParagonGlyph_074": {
 				"bonus": "Golems gain {c_number}[{SF_0}*100|x%|]{/c} increased Maximum Life.",
 				"desc": [
-					"For every 5 Willpower purchased within range, Golems gain +[GlyphAffixScalar]% increased damage."
+					"For every 5 Willpower purchased within range, Golems gain +{#}% increased damage."
 				],
 				"name": "Golem"
 			},
 			"ParagonGlyph_075": {
 				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|%x|]{/c} increased damage to enemies affected by Shadow damage over time effects.",
 				"desc": [
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased Shadow damage over time."
+					"For every 5 Willpower purchased within range, you deal +{#}% increased Shadow damage over time."
 				],
 				"name": "Scourge"
 			},
 			"ParagonGlyph_076": {
 				"bonus": "You take {c_number}[{SF_0}*100|%|]{/c} reduced Physical damage from {c_important}{u}Vulnerable{/u}{/c} enemies.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Diminish"
 			},
 			"ParagonGlyph_077": {
 				"bonus": "You take reduced damage the less Mana you have, up to {c_number}[{SF_0} * 100|%|]{/c}.",
 				"desc": [
-					"Grants +[GlyphAffixScalar]% bonus to all Rare nodes within range."
+					"Grants +{#}% bonus to all Rare nodes within range."
 				],
 				"name": "Warding"
 			},
 			"ParagonGlyph_078": {
 				"bonus": "Whenever you or your Minions deal Shadow damage to an enemy, that enemy deals {c_number}[{SF_0}*100|%|]{/c} reduced damage, up to {c_number}[{SF_0}*{SF_2}*100|%|]{/c}, for {c_number}[{SF_3}]{/c} seconds.",
 				"desc": [
-					"For every 5 Willpower purchased within range, you deal +[GlyphAffixScalar]% increased Shadow damage."
+					"For every 5 Willpower purchased within range, you deal +{#}% increased Shadow damage."
 				],
 				"name": "Darkness"
 			},
 			"ParagonGlyph_079": {
 				"bonus": "Dealing damage to a {c_important}{u}Vulnerable{/u}{/c} enemy increases your damage by {c_number}[{SF_0}*100|%x|]{/c} for {c_number}{SF_3}{/c} seconds, up to {c_number}[{SF_0}*{SF_2}*100|%x|]{/c}.",
 				"desc": [
-					"For every 5 Dexterity purchased within range, you deal +[GlyphAffixScalar]% increased damage to Vulnerable targets."
+					"For every 5 Dexterity purchased within range, you deal +{#}% increased damage to Vulnerable targets."
 				],
 				"name": "Exploit"
 			}
@@ -22225,7 +22225,7 @@
 			},
 			"Helm_Unique_Generic_002": {
 				"affix_formulas": [
-					"RandomInt(5*10,8*10)/10"
+					"array([5.,8.])"
 				],
 				"affix_static_values": [
 					2.0
@@ -22238,11 +22238,11 @@
 					"CoreStats_All_Weapon"
 				],
 				"category": 2,
-				"desc": "Gain [RandomInt(5*10,8*10)/10]% Damage Reduction. \nIn addition, gain 2 Ranks to all Skills.",
+				"desc": "Gain {5/8}% Damage Reduction. \nIn addition, gain +2.0 Ranks to all Skills.",
 				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston",
 				"name": "Harlequin Crest",
 				"power_formulas": [
-					"RandomInt(5*10,8*10)/10 / 100",
+					"array([0.05,0.08])",
 					2.0
 				]
 			},
@@ -22333,11 +22333,11 @@
 				"name": "Sacrifice"
 			},
 			"Necromancer_Golem_Blood_Passive_UpgradeA": {
-				"desc": "Your Blood Golem absorbs 15.0% of damage you would take.",
+				"desc": "Your Blood Golem absorbs 15% of damage you would take.",
 				"name": "Upgrade A"
 			},
 			"Necromancer_Golem_Blood_Passive_UpgradeB": {
-				"desc": "While Healthy, your Blood Golem gains 25.0% Damage Reduction and x50.0% increased damage.",
+				"desc": "While Healthy, your Blood Golem gains 25% Damage Reduction and x50% increased damage.",
 				"name": "Upgrade B"
 			},
 			"Necromancer_Golem_Bone_Passive_Sacrifice": {
@@ -22381,11 +22381,11 @@
 				"name": "Sacrifice"
 			},
 			"Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeA": {
-				"desc": "Reduce the Life cost of your Bone Mages' attacks from 15.0% to 10.0%. After being alive for 5 seconds, Bone Mages deal x40.0% increased damage.",
+				"desc": "Reduce the Life cost of your Bone Mages' attacks from 15% to 10%. After being alive for 5 seconds, Bone Mages deal x40% increased damage.",
 				"name": "Upgrade A"
 			},
 			"Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeB": {
-				"desc": "Each time a Bone Mage dies from its own attack, they leave behind a Corpse and Fortify you for 11.0% of your Base Life.",
+				"desc": "Each time a Bone Mage dies from its own attack, they leave behind a Corpse and Fortify you for 11% of your Base Life.",
 				"name": "Upgrade B"
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_Sacrifice": {
@@ -22409,7 +22409,7 @@
 				"name": "Upgrade A"
 			},
 			"Necromancer_SkeletonWarrior_Defender_Passive_UpgradeB": {
-				"desc": "Increase the amount of Thorns that Defender Warriors inherit from you from 30.0% to 50.0%.",
+				"desc": "Increase the amount of Thorns that Defender Warriors inherit from you from 30% to 50%.",
 				"name": "Upgrade B"
 			},
 			"Necromancer_SkeletonWarrior_Reaper_Passive_Sacrifice": {
@@ -22421,7 +22421,7 @@
 				"name": "Upgrade A"
 			},
 			"Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeB": {
-				"desc": "Reapers have a 15.0% chance to carve the flesh off enemies, forming a Corpse.",
+				"desc": "Reapers have a 15% chance to carve the flesh off enemies, forming a Corpse.",
 				"name": "Upgrade B"
 			},
 			"Necromancer_SkeletonWarrior_Skirmisher_Passive_Sacrifice": {
@@ -22433,7 +22433,7 @@
 				"name": "Upgrade A"
 			},
 			"Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeB": {
-				"desc": "Each time you Critically Strike, your Skirmishers Warriors' next attack Critically Strikes and deals x50.0% bonus Critical Strike damage. Can only happen every 3 seconds.",
+				"desc": "Each time you Critically Strike, your Skirmishers Warriors' next attack Critically Strikes and deals x50% bonus Critical Strike damage. Can only happen every 3 seconds.",
 				"name": "Upgrade B"
 			}
 		},
@@ -22483,7 +22483,7 @@
 			},
 			"legendary_necro_003": {
 				"affix_formulas": [
-					"Round(array([10,20]))"
+					"array([10,20])"
 				],
 				"category": 3,
 				"desc": "After Decompose spawns a Corpse, gain {10/20} Essence.",
@@ -22502,7 +22502,7 @@
 			},
 			"legendary_necro_016": {
 				"affix_formulas": [
-					"array([50,100])"
+					"array([ 50,100])"
 				],
 				"affix_static_values": [
 					6.0
@@ -22571,7 +22571,7 @@
 					"array([15,25])"
 				],
 				"category": 0,
-				"desc": "Blood Lance deals x[{15/25}]% increased damage to its primary target per lanced enemy.",
+				"desc": "Blood Lance deals x{15/25}% increased damage to its primary target per lanced enemy.",
 				"name": "Blood Seeker's"
 			},
 			"legendary_necro_029": {
@@ -22592,7 +22592,7 @@
 			},
 			"legendary_necro_032": {
 				"affix_flat_formulas": [
-					"array([0.15,0.20])"
+					"array([0.15,0.2 ])"
 				],
 				"affix_static_values": [
 					4.0
@@ -22612,7 +22612,7 @@
 			},
 			"legendary_necro_038": {
 				"affix_flat_formulas": [
-					"array([0.022,0.030])"
+					"array([0.022,0.03 ])"
 				],
 				"category": 0,
 				"desc": "When a segment of Bone Prison is destroyed or expires, it deals {2.2/3} damage in an area around itself.",
@@ -22790,7 +22790,7 @@
 			},
 			"legendary_necro_110": {
 				"affix_formulas": [
-					"array([0.5,1.0])"
+					"array([0.5,1. ])"
 				],
 				"category": 3,
 				"desc": "Blood Orbs reduce your Ultimate Cooldown by {0.5/1} seconds.",
@@ -22830,7 +22830,7 @@
 			},
 			"legendary_necro_113": {
 				"affix_formulas": [
-					"Round(array([10,20]))"
+					"array([10,20])"
 				],
 				"category": 3,
 				"desc": "While at full Life, Blood Orbs grant {10/20} Essence.",
@@ -23161,7 +23161,7 @@
 		},
 		"Paragon (Node)": {
 			"Necromancer_Legendary_001": {
-				"desc": "Your Minions deal x10.0% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.",
+				"desc": "Your Minions deal x10% increased damage for each Minion type you have active. This only applies to the Minion types: Skeletal Warrior, Skeletal Mage, and Golem.",
 				"name": "Cult Leader",
 				"tags": [
 					"Minion",
@@ -23169,16 +23169,16 @@
 				]
 			},
 			"Necromancer_Legendary_002": {
-				"desc": "Lucky Hit: Your Minions have a 10% chance to grant you a Barrier for 6.0% of your Maximum Life for 5 seconds."
+				"desc": "Lucky Hit: Your Minions have a 10% chance to grant you a Barrier for 6% of your Maximum Life for 5 seconds."
 			},
 			"Necromancer_Legendary_003": {
-				"desc": "When your Minions die, they explode and deal 30.0% of their Maximum Life as Shadow damage to surrounding enemies."
+				"desc": "When your Minions die, they explode and deal 30% of their Maximum Life as Shadow damage to surrounding enemies."
 			},
 			"Necromancer_Legendary_004": {
-				"desc": "Your Minions have 25.0% less Maximum Life but deal x45.0% increased damage."
+				"desc": "Your Minions have 25% less Maximum Life but deal x45% increased damage."
 			},
 			"Necromancer_Legendary_005": {
-				"desc": "Your Golem has x30.0% increased Maximum Life and deals x30.0% increased damage.",
+				"desc": "Your Golem has x30% increased Maximum Life and deals x30% increased damage.",
 				"name": "Hulking Monstrosity",
 				"tags": [
 					"Minion",
@@ -23187,10 +23187,10 @@
 				]
 			},
 			"Necromancer_Legendary_006": {
-				"desc": "Consuming a Corpse Slows enemies around it by 30.0% for 6 seconds. Your Corpse Skills deal x30.0% increased damage to Crowd Controlled enemies."
+				"desc": "Consuming a Corpse Slows enemies around it by 30% for 6 seconds. Your Corpse Skills deal x30% increased damage to Crowd Controlled enemies."
 			},
 			"Necromancer_Legendary_007": {
-				"desc": "With at least 2 Corpses Nearby, you gain 15.0% Damage Reduction. With no Corpses Nearby, you deal x15.0% increased damage.",
+				"desc": "With at least 2 Corpses Nearby, you gain 15% Damage Reduction. With no Corpses Nearby, you deal x15% increased damage.",
 				"name": "Scent of Death",
 				"tags": [
 					"Damage Reduction",
@@ -23199,7 +23199,7 @@
 				]
 			},
 			"Necromancer_Legendary_008": {
-				"desc": "Consuming 5 Corpses grants x40.0% increased damage for 6 seconds.",
+				"desc": "Consuming 5 Corpses grants x40% increased damage for 6 seconds.",
 				"name": "Flesh-eater",
 				"tags": [
 					"Damage",
@@ -23207,10 +23207,10 @@
 				]
 			},
 			"Necromancer_Legendary_009": {
-				"desc": "When your Minion is killed, it has a 50.0% chance to leave a Corpse."
+				"desc": "When your Minion is killed, it has a 50% chance to leave a Corpse."
 			},
 			"Necromancer_Legendary_010": {
-				"desc": "Attacks that are guaranteed to Overpower deal x50.0% increased Overpower damage.",
+				"desc": "Attacks that are guaranteed to Overpower deal x50% increased Overpower damage.",
 				"name": "Bloodbath",
 				"tags": [
 					"Overpower",
@@ -23218,7 +23218,7 @@
 				]
 			},
 			"Necromancer_Legendary_011": {
-				"desc": "Blood Orbs grant x5.0% increased damage, up to x15.0%, for 5 seconds.",
+				"desc": "Blood Orbs grant x5% increased damage, up to x15%, for 5 seconds.",
 				"name": "Blood Begets Blood",
 				"tags": [
 					"Blood Orb",
@@ -23229,7 +23229,7 @@
 				"desc": "Blood Orbs also restore 35 Essence when picked up."
 			},
 			"Necromancer_Legendary_013": {
-				"desc": "Bone Skills grant you 9.0% damage reduction, up to 45.0%, for the next 5 seconds."
+				"desc": "Bone Skills grant you 9% damage reduction, up to 45%, for the next 5 seconds."
 			},
 			"Necromancer_Legendary_014": {
 				"desc": "Lucky Hit: Your Bone Skills have a 50% chance to make enemies Vulnerable for 2 seconds."
@@ -23238,7 +23238,7 @@
 				"desc": "Whenever you consume a Corpse, a Bone Spirit is spawned at its location."
 			},
 			"Necromancer_Legendary_016": {
-				"desc": "Your Shadow damage over time effects have a x5.0% chance to deal x50.0% bonus damage each time they deal damage. This chance is increased by x1.0% and bonus damage is increased by x2.5% for each 50 Willpower you have.",
+				"desc": "Your Shadow damage over time effects have a x5% chance to deal x50% bonus damage each time they deal damage. This chance is increased by x1% and bonus damage is increased by x2.5% for each 50 Willpower you have.",
 				"name": "Wither",
 				"tags": [
 					"Shadow Damage Over Time",
@@ -23247,7 +23247,7 @@
 				]
 			},
 			"Necromancer_Legendary_017": {
-				"desc": "Hitting enemies with Bone Skills increases your damage by x1.0% and your Maximum Essence by 3 for 8 seconds, stacks up to x7.5% increased damage and 22.5 Maximum Essence.",
+				"desc": "Hitting enemies with Bone Skills increases your damage by x1% and your Maximum Essence by 3 for 8 seconds, stacks up to x7.5% increased damage and 22.5 Maximum Essence.",
 				"name": "Bone Graft",
 				"tags": [
 					"Bone",
@@ -23753,7 +23753,7 @@
 						"Essence",
 						"Corpse"
 					],
-					"skill_desc": "You and your Minions deal x10.0% increased damage to enemies who are being Decomposed.",
+					"skill_desc": "You and your Minions deal x10% increased damage to enemies who are being Decomposed.",
 					"skill_name": "Acolyte's Decompose"
 				},
 				"req_points": 0,
@@ -23898,7 +23898,7 @@
 						"Essence",
 						"Damage Reduction"
 					],
-					"skill_desc": "If an enemy hit by Reap dies within 2 seconds, you gain +30.0% Attack Speed for 3 seconds.",
+					"skill_desc": "If an enemy hit by Reap dies within 2 seconds, you gain +30% Attack Speed for 3 seconds.",
 					"skill_name": "Enhanced Reap"
 				},
 				"req_points": 0,
@@ -24039,7 +24039,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Bone Splinters has a 30.0% chance to fire 2 additional projectiles if cast while you have 50 or more Essence.",
+					"skill_desc": "Bone Splinters has a 30% chance to fire 2 additional projectiles if cast while you have 50 or more Essence.",
 					"skill_name": "Enhanced Bone Splinters"
 				},
 				"req_points": 0,
@@ -24123,7 +24123,7 @@
 						"Shadow Damage Over Time",
 						"Essence"
 					],
-					"skill_desc": "Blight Slows enemies by 25.0%.",
+					"skill_desc": "Blight Slows enemies by 25%.",
 					"skill_name": "Enhanced Blight"
 				},
 				"req_points": 0,
@@ -24206,7 +24206,7 @@
 						"Shadow",
 						"Essence"
 					],
-					"skill_desc": "Sever damages enemies along its path for 25.0% of its initial damage.",
+					"skill_desc": "Sever damages enemies along its path for 25% of its initial damage.",
 					"skill_name": "Enhanced Sever"
 				},
 				"req_points": 0,
@@ -24356,7 +24356,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Blood Lance pierces through enemies who are currently lanced, dealing 15.0% reduced damage to subsequent enemies after the first.",
+					"skill_desc": "Blood Lance pierces through enemies who are currently lanced, dealing 15% reduced damage to subsequent enemies after the first.",
 					"skill_name": "Enhanced Blood Lance"
 				},
 				"req_points": 0,
@@ -24505,7 +24505,7 @@
 						"Physical",
 						"Cooldown"
 					],
-					"skill_desc": "Corpse Explosion's radius is increased by 15.0%.",
+					"skill_desc": "Corpse Explosion's radius is increased by 15%.",
 					"skill_name": "Enhanced Corpse Explosion"
 				},
 				"req_points": 0,
@@ -24842,7 +24842,7 @@
 						"Essence",
 						"Damage Reduction"
 					],
-					"skill_desc": "Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 10.0% chance to Stun them for 2 seconds.",
+					"skill_desc": "Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 10% chance to Stun them for 2 seconds.",
 					"skill_name": "Enhanced Decrepify"
 				},
 				"req_points": 0,
@@ -24911,7 +24911,7 @@
 						"Crowd Control",
 						"Physical"
 					],
-					"skill_desc": "Enemies who are in range of Corpse Tendrils are Slowed by 50.0% before being Pulled.",
+					"skill_desc": "Enemies who are in range of Corpse Tendrils are Slowed by 50% before being Pulled.",
 					"skill_name": "Enhanced Corpse Tendrils"
 				},
 				"req_points": 0,
@@ -25068,7 +25068,7 @@
 						"Shadow Damage Over Time",
 						"Essence"
 					],
-					"skill_desc": "Blight has a 30.0% chance to Immobilize enemies for 1.5 seconds on impact.",
+					"skill_desc": "Blight has a 30% chance to Immobilize enemies for 1.5 seconds on impact.",
 					"skill_name": "Paranormal Blight"
 				},
 				"req_points": 0,
@@ -25231,7 +25231,7 @@
 						"Shadow",
 						"Essence"
 					],
-					"skill_desc": "Sever deals x2.0% increased damage for each Minion you have upon cast.",
+					"skill_desc": "Sever deals x2% increased damage for each Minion you have upon cast.",
 					"skill_name": "Supernatural Sever"
 				},
 				"req_points": 0,
@@ -25377,7 +25377,7 @@
 						"Essence",
 						"Physical"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nEssence Cost: All Remaining Essence\nLucky Hit Chance: {#}%\nConsume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the target and all surrounding enemies. Damage is increased by x3.0% for each point of Essence spent casting Bone Spirit.",
+					"skill_desc": "Cooldown: {#} seconds\nEssence Cost: All Remaining Essence\nLucky Hit Chance: {#}%\nConsume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the target and all surrounding enemies. Damage is increased by x3% for each point of Essence spent casting Bone Spirit.",
 					"skill_name": "Bone Spirit",
 					"skill_rankup_desc": "•  Damage 🡑  {80/88/96/104/112/120/128/136/144/152}%"
 				},
@@ -25451,7 +25451,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nDraw blood from enemies, dealing {20/22/24/26/28/30/32/34/36/38}% damage, and expel a blood nova, dealing {50/55/60/65/70/75/80/85/90/95}% damage. Blood Surge's nova damage is increased by x10.0% per enemy drained, up to x50.0%.",
+					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nDraw blood from enemies, dealing {20/22/24/26/28/30/32/34/36/38}% damage, and expel a blood nova, dealing {50/55/60/65/70/75/80/85/90/95}% damage. Blood Surge's nova damage is increased by x10% per enemy drained, up to x50%.",
 					"skill_name": "Blood Surge",
 					"skill_rankup_desc": "•  Initial Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%\n•  Nova Damage 🡑  {50/55/60/65/70/75/80/85/90/95}%"
 				},
@@ -25517,7 +25517,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Generate Essence: 8\nLucky Hit Chance: {#}%\nBurst an enemy's blood, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage. Hemorrhage has a 20.0% chance to form a Blood Orb.",
+					"skill_desc": "Generate Essence: 8\nLucky Hit Chance: {#}%\nBurst an enemy's blood, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage. Hemorrhage has a 20% chance to form a Blood Orb.",
 					"skill_name": "Hemorrhage",
 					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
@@ -25591,7 +25591,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Each time an enemy is hit by Blood Surge's nova, you are Fortified for 1.1% Base Life. While you have Fortify for over 50.0% of your Maximum Life, Blood Surge deals x20.0% increased damage.",
+					"skill_desc": "Each time an enemy is hit by Blood Surge's nova, you are Fortified for 1.1% Base Life. While you have Fortify for over 50% of your Maximum Life, Blood Surge deals x20% increased damage.",
 					"skill_name": "Supernatural Blood Surge"
 				},
 				"req_points": 0,
@@ -25797,7 +25797,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "While at least 2 enemies or a Boss are affected by Blood Lance, you gain +15.0% Attack Speed and Blood Lance's Essence cost is reduced by 2.",
+					"skill_desc": "While at least 2 enemies or a Boss are affected by Blood Lance, you gain +15% Attack Speed and Blood Lance's Essence cost is reduced by 2.",
 					"skill_name": "Paranormal Blood Lance"
 				},
 				"req_points": 0,
@@ -25931,7 +25931,7 @@
 						"Essence",
 						"Physical"
 					],
-					"skill_desc": "Bone Spirit has an additional +10.0% Critical Strike Chance.",
+					"skill_desc": "Bone Spirit has an additional +10% Critical Strike Chance.",
 					"skill_name": "Ghastly Bone Spirit"
 				},
 				"req_points": 0,
@@ -26118,7 +26118,7 @@
 						"Essence",
 						"Damage Reduction"
 					],
-					"skill_desc": "When you or your Minions hit an enemy afflicted with Decrepify below 10.0% Life, they are instantly killed. Does not work on Bosses.",
+					"skill_desc": "When you or your Minions hit an enemy afflicted with Decrepify below 10% Life, they are instantly killed. Does not work on Bosses.",
 					"skill_name": "Horrid Decrepify"
 				},
 				"req_points": 0,
@@ -26189,7 +26189,7 @@
 						"Physical",
 						"Cooldown"
 					],
-					"skill_desc": "Corpse Explosion deals x10.0% increased damage to enemies that are Slowed, Stunned or Vulnerable. These damage bonuses can stack.",
+					"skill_desc": "Corpse Explosion deals x10% increased damage to enemies that are Slowed, Stunned or Vulnerable. These damage bonuses can stack.",
 					"skill_name": "Plagued Corpse Explosion"
 				},
 				"req_points": 0,
@@ -26413,7 +26413,7 @@
 						"Essence",
 						"Damage Reduction"
 					],
-					"skill_desc": "Generate Essence: 4 per enemy hit\nLucky Hit Chance: {#}%\nSweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15.0% for 2 seconds.",
+					"skill_desc": "Generate Essence: 4 per enemy hit\nLucky Hit Chance: {#}%\nSweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15% for 2 seconds.",
 					"skill_name": "Reap",
 					"skill_rankup_desc": "•  Damage 🡑  {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%"
 				},
@@ -26541,7 +26541,7 @@
 						"Essence",
 						"Damage"
 					],
-					"skill_desc": "Heal for 5.0% of your Maximum Life when an enemy dies while afflicted with Iron Maiden.",
+					"skill_desc": "Heal for 5% of your Maximum Life when an enemy dies while afflicted with Iron Maiden.",
 					"skill_name": "Abhorrent Iron Maiden"
 				},
 				"req_points": 0,
@@ -26612,7 +26612,7 @@
 						"Cooldown",
 						"Physical"
 					],
-					"skill_desc": "When Army of the Dead's Volatile Skeletons explode, they have a 15.0% chance to leave behind a Corpse.",
+					"skill_desc": "When Army of the Dead's Volatile Skeletons explode, they have a 15% chance to leave behind a Corpse.",
 					"skill_name": "Prime Army of the Dead"
 				},
 				"req_points": 0,
@@ -26696,7 +26696,7 @@
 						"Damage",
 						"Minion"
 					],
-					"skill_desc": "Your Damage Reduction is increased by 15.0% while Bone Storm is active.",
+					"skill_desc": "Your Damage Reduction is increased by 15% while Bone Storm is active.",
 					"skill_name": "Prime Bone Storm"
 				},
 				"req_points": 0,
@@ -26762,7 +26762,7 @@
 						"Crowd Control",
 						"Physical"
 					],
-					"skill_desc": "Blood Wave Slows enemies by 50.0% for 4 seconds.",
+					"skill_desc": "Blood Wave Slows enemies by 50% for 4 seconds.",
 					"skill_name": "Prime Blood Wave"
 				},
 				"req_points": 0,
@@ -26943,7 +26943,7 @@
 						"Damage Reduction",
 						"Minion"
 					],
-					"skill_desc": "Increases Damage Reduction by {6/12/18/24/30/36/42/48/54/60}%, reduced by 2.0% for each active Minion.",
+					"skill_desc": "Increases Damage Reduction by {6/12/18/24/30/36/42/48/54/60}%, reduced by 2% for each active Minion.",
 					"skill_name": "Stand Alone",
 					"skill_rankup_desc": "•  Damage Reduction 🡑  {6/12/18/24/30/36/42/48/54/60}%"
 				},
@@ -27225,7 +27225,7 @@
 						"Essence",
 						"Bone"
 					],
-					"skill_desc": "Your Bone Skills deal x1.0% increased damage for each point of Essence you have above 50 upon cast.",
+					"skill_desc": "Your Bone Skills deal x1% increased damage for each point of Essence you have above 50 upon cast.",
 					"skill_name": "Ossified Essence"
 				},
 				"req_points": 0,
@@ -27274,7 +27274,7 @@
 						"Shadow",
 						"Minion"
 					],
-					"skill_desc": "Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10.0% bonus damage to enemies with Shadowblight.\n\nEvery 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20% Shadow Damage.",
+					"skill_desc": "Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10% bonus damage to enemies with Shadowblight.\n\nEvery 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20% Shadow Damage.",
 					"skill_name": "Shadowblight"
 				},
 				"req_points": 0,
@@ -27509,7 +27509,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Hitting the same enemy at least 3 times with the same cast of Bone Splinters grants +8.0% Critical Strike Chance for 4 seconds.",
+					"skill_desc": "Hitting the same enemy at least 3 times with the same cast of Bone Splinters grants +8% Critical Strike Chance for 4 seconds.",
 					"skill_name": "Acolyte's Bone Splinters"
 				},
 				"req_points": 0,
@@ -27834,7 +27834,7 @@
 						"Life",
 						"Blood"
 					],
-					"skill_desc": "Increase your Maximum Life by x10.0%. After being Healthy for 15 seconds, your next Blood Skill Overpowers.",
+					"skill_desc": "Increase your Maximum Life by x10%. After being Healthy for 15 seconds, your next Blood Skill Overpowers.",
 					"skill_name": "Rathma's Vigor"
 				},
 				"req_points": 0,
@@ -27884,7 +27884,7 @@
 						"Attack Speed",
 						"Minion"
 					],
-					"skill_desc": "After you have not taken damage in the last 3 seconds, your Minions gain +15.0% Attack Speed. While you have at least 7 Minions, this bonus is doubled.",
+					"skill_desc": "After you have not taken damage in the last 3 seconds, your Minions gain +15% Attack Speed. While you have at least 7 Minions, this bonus is doubled.",
 					"skill_name": "Kalan's Edict"
 				},
 				"req_points": 0,
@@ -28000,7 +28000,7 @@
 						"Healing",
 						"Damage Reduction"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nDisperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 20.0% and you periodically deal 1.7% damage to enemies and Healing for {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% of your Maximum Life .",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nDisperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 20% and you periodically deal 1.7% damage to enemies and Healing for {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% of your Maximum Life .",
 					"skill_name": "Blood Mist",
 					"skill_rankup_desc": "•  Healing 🡑  {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% Life\n•  Cooldown 🡑  {#} seconds"
 				},
@@ -28149,7 +28149,7 @@
 						"Damage",
 						"Minion"
 					],
-					"skill_desc": "Your Critical Strike Chance is increased by +20.0% while Bone Storm is active.",
+					"skill_desc": "Your Critical Strike Chance is increased by +20% while Bone Storm is active.",
 					"skill_name": "Supreme Bone Storm"
 				},
 				"req_points": 0,
@@ -28434,7 +28434,7 @@
 						"Essence",
 						"Damage Reduction"
 					],
-					"skill_desc": "Reap instantly kills targets below 5.0% Life.\n\nThis does not work on bosses or players.",
+					"skill_desc": "Reap instantly kills targets below 5% Life.\n\nThis does not work on bosses or players.",
 					"skill_name": "Initiate's Reap"
 				},
 				"req_points": 0,
@@ -28505,7 +28505,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Bone Splinters has a 20.0% chance per hit to make enemies Vulnerable for 2 seconds.",
+					"skill_desc": "Bone Splinters has a 20% chance per hit to make enemies Vulnerable for 2 seconds.",
 					"skill_name": "Initiate's Bone Splinters"
 				},
 				"req_points": 0,
@@ -28571,7 +28571,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Hemorrhage gains an additional +20.0% Attack Speed while Healthy.",
+					"skill_desc": "Hemorrhage gains an additional +20% Attack Speed while Healthy.",
 					"skill_name": "Acolyte's Hemorrhage"
 				},
 				"req_points": 0,
@@ -28789,7 +28789,7 @@
 						"Essence",
 						"Corpse"
 					],
-					"skill_desc": "Decompose Slows enemies by 30.0%.",
+					"skill_desc": "Decompose Slows enemies by 30%.",
 					"skill_name": "Initiate's Decompose"
 				},
 				"req_points": 0,
@@ -28845,7 +28845,7 @@
 						"Essence",
 						"Damage Reduction"
 					],
-					"skill_desc": "Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 15.0% chance to reduce your active Cooldowns by 1 second.",
+					"skill_desc": "Lucky Hit: Enemies hit while afflicted with Decrepify have up to a 15% chance to reduce your active Cooldowns by 1 second.",
 					"skill_name": "Abhorrent Decrepify"
 				},
 				"req_points": 0,
@@ -29281,7 +29281,7 @@
 						"Bone",
 						"Cooldown"
 					],
-					"skill_desc": "Fortify for 5.0% Base Life for each enemy trapped by Bone Prison.",
+					"skill_desc": "Fortify for 5% Base Life for each enemy trapped by Bone Prison.",
 					"skill_name": "Dreadful Bone Prison"
 				},
 				"req_points": 0,
@@ -29348,7 +29348,7 @@
 						"Crowd Control",
 						"Physical"
 					],
-					"skill_desc": "Corpse Tendrils has a 20.0% chance when damaging enemies to drop a Blood Orb.",
+					"skill_desc": "Corpse Tendrils has a 20% chance when damaging enemies to drop a Blood Orb.",
 					"skill_name": "Blighted Corpse Tendrils"
 				},
 				"req_points": 0,
@@ -29549,7 +29549,7 @@
 						"Essence",
 						"Damage"
 					],
-					"skill_desc": "When at least 3 enemies are afflicted by Iron Maiden, its damage is increased by x15.0%.",
+					"skill_desc": "When at least 3 enemies are afflicted by Iron Maiden, its damage is increased by x15%.",
 					"skill_name": "Horrid Iron Maiden"
 				},
 				"req_points": 0,
@@ -29808,7 +29808,7 @@
 						"Physical",
 						"Essence"
 					],
-					"skill_desc": "Bone Spear has a +5.0% increased Critical Strike Chance. If Bone Spear's primary projectile Critically Strikes, it fires 2 additional bone shards upon being destroyed.",
+					"skill_desc": "Bone Spear has a +5% increased Critical Strike Chance. If Bone Spear's primary projectile Critically Strikes, it fires 2 additional bone shards upon being destroyed.",
 					"skill_name": "Paranormal Bone Spear"
 				},
 				"req_points": 0,
@@ -30053,7 +30053,7 @@
 						"Shadow Damage Over Time",
 						"Essence"
 					],
-					"skill_desc": "You and your Minions deal x15.0% increased damage to enemies within Blight.",
+					"skill_desc": "You and your Minions deal x15% increased damage to enemies within Blight.",
 					"skill_name": "Supernatural Blight"
 				},
 				"req_points": 0,
@@ -30392,7 +30392,7 @@
 			},
 			"Amulet_Unique_Necro_100": {
 				"affix_flat_formulas": [
-					"array([0.10,0.15])"
+					"array([0.1 ,0.15])"
 				],
 				"affix_static_values": [
 					10.0,
@@ -30413,7 +30413,7 @@
 			},
 			"Boots_Unique_Necro_100": {
 				"affix_formulas": [
-					"array([0.30,0.42])"
+					"array([0.3 ,0.42])"
 				],
 				"affix_static_values": [
 					2.0
@@ -30722,7 +30722,7 @@
 				"name": "of Arrow Storms",
 				"power_formulas": [
 					10.0,
-					"(array([1.08,1.35]) * 100) / 3.0 / (1/0.25)",
+					"array([108.,135.]) / 3.0 / (1/0.25)",
 					2,
 					0.25,
 					3.0,
@@ -30744,7 +30744,7 @@
 				"name": "of Bursting Venoms",
 				"power_formulas": [
 					10.0,
-					"(array([1.08,1.35]) * 100) / 3.0",
+					"array([108.,135.]) / 3.0",
 					2,
 					0.25,
 					3.0,
@@ -30884,7 +30884,7 @@
 			},
 			"legendary_rogue_109": {
 				"affix_flat_formulas": [
-					"array([0.72,0.90])"
+					"array([0.72,0.9 ])"
 				],
 				"category": 0,
 				"desc": "When you break Stealth with an attack, you drop a cluster of exploding Stun Grenades around your location that deal {72/90} total Physical damage and Stun enemies for 0.5 seconds.",
@@ -31301,10 +31301,10 @@
 		},
 		"Paragon (Node)": {
 			"Rogue_Legendary_001": {
-				"desc": "After taking Poison, Cold, or Shadow damage, the enemy takes 20.0% less damage from you from that type, and 50.0% more damage from the other two types for the next 4 seconds."
+				"desc": "After taking Poison, Cold, or Shadow damage, the enemy takes 20% less damage from you from that type, and 50% more damage from the other two types for the next 4 seconds."
 			},
 			"Rogue_Legendary_002": {
-				"desc": "When you attack with an Imbued Skill you gain 20.0% Resistance and x20.0% increased damage for that Imbuement's element for 6 seconds.",
+				"desc": "When you attack with an Imbued Skill you gain 20% Resistance and x20% increased damage for that Imbuement's element for 6 seconds.",
 				"name": "Eldritch Bounty",
 				"tags": [
 					"Imbuement",
@@ -31314,16 +31314,16 @@
 				]
 			},
 			"Rogue_Legendary_003": {
-				"desc": "While any of your Imbuement Skills are on cooldown, your Imbueable attacks have a 25.0% chance to gain one of those Imbuement effects."
+				"desc": "While any of your Imbuement Skills are on cooldown, your Imbueable attacks have a 25% chance to gain one of those Imbuement effects."
 			},
 			"Rogue_Legendary_004": {
-				"desc": "You deal [0.45*100x]% increased damage to Distant enemies but deal x20.0% decreased damage to Close enemies."
+				"desc": "You deal [0.45*100x]% increased damage to Distant enemies but deal x20% decreased damage to Close enemies."
 			},
 			"Rogue_Legendary_005": {
-				"desc": "You deal x45.0% increased damage to Close enemies but deal x20.0% decreased damage to Distant enemies."
+				"desc": "You deal x45% increased damage to Close enemies but deal x20% decreased damage to Distant enemies."
 			},
 			"Rogue_Legendary_006": {
-				"desc": "Your Marksman Skills grant your next Cutthroat Skill x25.0% increased damage. Your Cutthroat Skills grant your next Marksman Skill x25.0% increased damage.",
+				"desc": "Your Marksman Skills grant your next Cutthroat Skill x25% increased damage. Your Cutthroat Skills grant your next Marksman Skill x25% increased damage.",
 				"name": "Tricks of the Trade",
 				"tags": [
 					"Marksman",
@@ -31332,7 +31332,7 @@
 				]
 			},
 			"Rogue_Legendary_007": {
-				"desc": "You deal x5.0% increased damage for each Nearby enemy that is Crowd Controlled, up to x25.0%.",
+				"desc": "You deal x5% increased damage for each Nearby enemy that is Crowd Controlled, up to x25%.",
 				"name": "Cheap Shot",
 				"tags": [
 					"Crowd Control",
@@ -31356,7 +31356,7 @@
 				]
 			},
 			"Rogue_Legendary_010": {
-				"desc": "Whenever you deal damage to a Vulnerable enemy, they take x1.0% increased damage from you for 6 seconds, up to x15.0%.",
+				"desc": "Whenever you deal damage to a Vulnerable enemy, they take x1% increased damage from you for 6 seconds, up to x15%.",
 				"name": "Exploit Weakness",
 				"tags": [
 					"Vulnerable",
@@ -31364,7 +31364,7 @@
 				]
 			},
 			"Rogue_Legendary_011": {
-				"desc": "Your Ultimate Skills deal x30.0% increased damage and grant you x10.0% increased damage for 20 seconds when cast.",
+				"desc": "Your Ultimate Skills deal x30% increased damage and grant you x10% increased damage for 20 seconds when cast.",
 				"name": "No Witnesses",
 				"tags": [
 					"Ultimate",
@@ -31376,16 +31376,16 @@
 				"name": "Cunning Stratagem"
 			},
 			"Rogue_Legendary_013": {
-				"desc": "For each Close enemy, your Dodge Chance is increased by +5.0%, up to +25.0%."
+				"desc": "For each Close enemy, your Dodge Chance is increased by +5%, up to +25%."
 			},
 			"Rogue_Legendary_014": {
-				"desc": "When you kill a Poisoned enemy, they leave a pool of poison on the ground that deals 15.0% of that enemy's Maximum Life as Poison damage over 6 seconds."
+				"desc": "When you kill a Poisoned enemy, they leave a pool of poison on the ground that deals 15% of that enemy's Maximum Life as Poison damage over 6 seconds."
 			},
 			"Rogue_Legendary_015": {
-				"desc": "For each enemy that is Chilled in the area, you deal x[0.1*100]% increased damage, up to x[0.1*100*5]%."
+				"desc": "For each enemy that is Chilled in the area, you deal x10% increased damage, up to x50%."
 			},
 			"Rogue_Legendary_016": {
-				"desc": "You deal x[0.3*100]% increased damage to enemies affected by Shadow Imbuement's infection."
+				"desc": "You deal x30% increased damage to enemies affected by Shadow Imbuement's infection."
 			},
 			"Rogue_Magic_DamageImbued": {
 				"name": "Damage Imbued",
@@ -31593,7 +31593,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of {60/66/72/78/84/90/96/102/108/114}% damage to each.\n\nCombo Points increase damage and grant an Attack Speed bonus:\n•  1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15.0% bonus\n•  2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30.0% bonus\n•  3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45.0% bonus",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of {60/66/72/78/84/90/96/102/108/114}% damage to each.\n\nCombo Points increase damage and grant an Attack Speed bonus:\n•  1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15% bonus\n•  2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30% bonus\n•  3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45% bonus",
 					"skill_name": "Flurry",
 					"skill_rankup_desc": "•  Damage 🡑  {60/66/72/78/84/90/96/102/108/114}%"
 				},
@@ -31673,7 +31673,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nFire an arrow that seeks an enemy, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage and increasing your Critical Strike Chance against them by +3.0% for 4 seconds, up to +15.0%.",
+					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nFire an arrow that seeks an enemy, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage and increasing your Critical Strike Chance against them by +3% for 4 seconds, up to +15%.",
 					"skill_name": "Heartseeker",
 					"skill_rankup_desc": "•  Damage 🡑  {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%"
 				},
@@ -32011,7 +32011,7 @@
 						"Physical",
 						"Movement"
 					],
-					"skill_desc": "Damaging an enemy with Blade Shift grants +5.0% Movement Speed while Blade Shift is active, up to +20.0%.",
+					"skill_desc": "Damaging an enemy with Blade Shift grants +5% Movement Speed while Blade Shift is active, up to +20%.",
 					"skill_name": "Enhanced Blade Shift"
 				},
 				"req_points": 0,
@@ -32074,7 +32074,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Damaging a Crowd Controlled or Injured enemy with Invigorating Strike increases its Energy Regeneration bonus to x30.0%.",
+					"skill_desc": "Damaging a Crowd Controlled or Injured enemy with Invigorating Strike increases its Energy Regeneration bonus to x30%.",
 					"skill_name": "Enhanced Invigorating Strike"
 				},
 				"req_points": 0,
@@ -32151,7 +32151,7 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "You have +5.0% Critical Strike Chance against enemies inside your Caltrops. Double this amount against Vulnerable enemies.",
+					"skill_desc": "You have +5% Critical Strike Chance against enemies inside your Caltrops. Double this amount against Vulnerable enemies.",
 					"skill_name": "Disciplined Caltrops"
 				},
 				"req_points": 0,
@@ -32318,7 +32318,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "When Heartseeker Critically Strikes, gain +8.0% Attack Speed for 4 seconds. Double this amount if the enemy is Vulnerable.",
+					"skill_desc": "When Heartseeker Critically Strikes, gain +8% Attack Speed for 4 seconds. Double this amount if the enemy is Vulnerable.",
 					"skill_name": "Enhanced Heartseeker"
 				},
 				"req_points": 0,
@@ -32390,7 +32390,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Every 3rd cast of Forceful Arrow additionally has a +15.0% increased Critical Strike Chance.",
+					"skill_desc": "Every 3rd cast of Forceful Arrow additionally has a +15% increased Critical Strike Chance.",
 					"skill_name": "Enhanced Forceful Arrow"
 				},
 				"req_points": 0,
@@ -32481,7 +32481,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Twisting Blades deals x30.0% increased damage when returning.",
+					"skill_desc": "Twisting Blades deals x30% increased damage when returning.",
 					"skill_name": "Enhanced Twisting Blades"
 				},
 				"req_points": 0,
@@ -32565,7 +32565,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for 1.0% of your Maximum Life, up to 12.0% Maximum Life per cast.",
+					"skill_desc": "Each time Flurry damages a Crowd Controlled or Vulnerable enemy, you are Healed for 1% of your Maximum Life, up to 12% Maximum Life per cast.",
 					"skill_name": "Enhanced Flurry"
 				},
 				"req_points": 0,
@@ -32649,7 +32649,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Penetrating Shot deals x20.0% increased damage per enemy it pierces.",
+					"skill_desc": "Penetrating Shot deals x20% increased damage per enemy it pierces.",
 					"skill_name": "Enhanced Penetrating Shot"
 				},
 				"req_points": 0,
@@ -32726,7 +32726,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Each subsequent arrow from Rapid Fire has +5.0% increased Critical Strike Chance, up to +40.0% for the 8th arrow.",
+					"skill_desc": "Each subsequent arrow from Rapid Fire has +5% increased Critical Strike Chance, up to +40% for the 8th arrow.",
 					"skill_name": "Enhanced Rapid Fire"
 				},
 				"req_points": 0,
@@ -32908,7 +32908,7 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Damaging an enemy with Shadow Step increases your Critical Strike Chance against them by +8.0% for 3 seconds.",
+					"skill_desc": "Damaging an enemy with Shadow Step increases your Critical Strike Chance against them by +8% for 3 seconds.",
 					"skill_name": "Enhanced Shadow Step"
 				},
 				"req_points": 0,
@@ -32992,7 +32992,7 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Enemies damaged by Dash take x20.0% increased Critical Strike Damage from you for 5 seconds.",
+					"skill_desc": "Enemies damaged by Dash take x20% increased Critical Strike Damage from you for 5 seconds.",
 					"skill_name": "Enhanced Dash"
 				},
 				"req_points": 0,
@@ -33054,7 +33054,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Invigorating Strike additionally grants +8.0% Lucky Hit Chance. Hitting a Crowd Controlled or Injured enemy increases this bonus to +16.0% Lucky Hit Chance.",
+					"skill_desc": "Invigorating Strike additionally grants +8% Lucky Hit Chance. Hitting a Crowd Controlled or Injured enemy increases this bonus to +16% Lucky Hit Chance.",
 					"skill_name": "Primary Invigorating Strike"
 				},
 				"req_points": 0,
@@ -33133,7 +33133,7 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Enemies take x3.0% increased damage from you each second they are in Caltrops.",
+					"skill_desc": "Enemies take x3% increased damage from you each second they are in Caltrops.",
 					"skill_name": "Enhanced Caltrops"
 				},
 				"req_points": 0,
@@ -33174,7 +33174,7 @@
 						"Damage Reduction",
 						"Cooldown"
 					],
-					"skill_desc": "Dark Shroud's shadows have a 10.0% chance to not be consumed.",
+					"skill_desc": "Dark Shroud's shadows have a 10% chance to not be consumed.",
 					"skill_name": "Enhanced Dark Shroud"
 				},
 				"req_points": 0,
@@ -33237,7 +33237,7 @@
 						"Crowd Control",
 						"Cooldown"
 					],
-					"skill_desc": "Enemies affected by Smoke Grenade take x15.0% increased damage from you.",
+					"skill_desc": "Enemies affected by Smoke Grenade take x15% increased damage from you.",
 					"skill_name": "Enhanced Smoke Grenade"
 				},
 				"req_points": 0,
@@ -33519,7 +33519,7 @@
 						"Cooldown",
 						"Imbueable"
 					],
-					"skill_desc": "You have +25.0% increased Critical Strike Chance against Injured enemies infected by Shadow Imbuement.",
+					"skill_desc": "You have +25% increased Critical Strike Chance against Injured enemies infected by Shadow Imbuement.",
 					"skill_name": "Enhanced Shadow Imbuement"
 				},
 				"req_points": 0,
@@ -33603,7 +33603,7 @@
 						"Crowd Control",
 						"Imbueable"
 					],
-					"skill_desc": "Lucky Hit: Cold Imbued Skills have up to a 30.0% chance to make enemies Vulnerable for 3 seconds.",
+					"skill_desc": "Lucky Hit: Cold Imbued Skills have up to a 30% chance to make enemies Vulnerable for 3 seconds.",
 					"skill_name": "Enhanced Cold Imbuement"
 				},
 				"req_points": 0,
@@ -33646,7 +33646,7 @@
 						"Critical Strikes",
 						"Damage"
 					],
-					"skill_desc": "Critical Strikes with Marksman Skills grant you Precision. You gain x4.0% increased Critical Strike Damage per stack of Precision, up to a maximum of x20.0%.\n\nWhen you reach maximum Precision, your next Marksman Skill is a guaranteed Critical Strike that deals x40.0% increased Critical Strike Damage, then consumes all stacks of Precision.",
+					"skill_desc": "Critical Strikes with Marksman Skills grant you Precision. You gain x4% increased Critical Strike Damage per stack of Precision, up to a maximum of x20%.\n\nWhen you reach maximum Precision, your next Marksman Skill is a guaranteed Critical Strike that deals x40% increased Critical Strike Damage, then consumes all stacks of Precision.",
 					"skill_name": "Precision"
 				},
 				"req_points": 0,
@@ -33945,7 +33945,7 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nCooldown: {#} seconds\nLucky Hit Chance: {#}%\nBecome Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50.0% increased Movement Speed for 2 seconds afterwards.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nCooldown: {#} seconds\nLucky Hit Chance: {#}%\nBecome Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50% increased Movement Speed for 2 seconds afterwards.",
 					"skill_name": "Shadow Step",
 					"skill_rankup_desc": "•  Damage 🡑  {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%"
 				},
@@ -34404,7 +34404,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nThrow blades a short distance, dealing {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage. Every 3rd cast Slows enemies by 20.0% for 2 seconds. Critical Strikes will always Slow.",
+					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nThrow blades a short distance, dealing {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage. Every 3rd cast Slows enemies by 20% for 2 seconds. Critical Strikes will always Slow.",
 					"skill_name": "Puncture",
 					"skill_rankup_desc": "•  Damage 🡑  {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%"
 				},
@@ -34565,7 +34565,7 @@
 						"Damage Reduction",
 						"Cooldown"
 					],
-					"skill_desc": "While you have at least 2 active shadows from Dark Shroud, gain +10.0% Critical Strike Chance.",
+					"skill_desc": "While you have at least 2 active shadows from Dark Shroud, gain +10% Critical Strike Chance.",
 					"skill_name": "Countering Dark Shroud"
 				},
 				"req_points": 0,
@@ -34807,7 +34807,7 @@
 						"Crowd Control",
 						"Imbueable"
 					],
-					"skill_desc": "Cold Imbued Skills deal x20.0% damage to Crowd Controlled enemies. Double this bonus against Frozen enemies.",
+					"skill_desc": "Cold Imbued Skills deal x20% damage to Crowd Controlled enemies. Double this bonus against Frozen enemies.",
 					"skill_name": "Mixed Cold Imbuement"
 				},
 				"req_points": 0,
@@ -34886,7 +34886,7 @@
 						"Poison",
 						"Cooldown"
 					],
-					"skill_desc": "You deal x10.0% increased Poison damage to enemies standing inside your Poison Trap.",
+					"skill_desc": "You deal x10% increased Poison damage to enemies standing inside your Poison Trap.",
 					"skill_name": "Subverting Poison Trap"
 				},
 				"req_points": 0,
@@ -34982,7 +34982,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Whenever a single cast of Barrage ricochets at least 4 times, your next cast gains +20.0% increased Critical Strike Chance.",
+					"skill_desc": "Whenever a single cast of Barrage ricochets at least 4 times, your next cast gains +20% increased Critical Strike Chance.",
 					"skill_name": "Advanced Barrage"
 				},
 				"req_points": 0,
@@ -35071,7 +35071,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nImpale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8.0% increased damage from you while impaled. After 1.5 seconds the blades return to you, piercing enemies for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage.\n\nCombo Points increase damage and grant a Movement Speed bonus:\n•  1 Point: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, +20.0% bonus\n•  2 Points: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, +40.0% bonus\n•  3 Points: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, +60.0% bonus",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nImpale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8% increased damage from you while impaled. After 1.5 seconds the blades return to you, piercing enemies for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage.\n\nCombo Points increase damage and grant a Movement Speed bonus:\n•  1 Point: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, +20% bonus\n•  2 Points: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, +40% bonus\n•  3 Points: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, +60% bonus",
 					"skill_name": "Twisting Blades",
 					"skill_rankup_desc": "•  Impact damage 🡑  {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%\n•  Piercing damage 🡑  {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%"
 				},
@@ -35151,7 +35151,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Heartseeker also increases the Critical Strike Damage the enemy takes from you by +5.0% for 4 seconds, up to +25.0%.",
+					"skill_desc": "Heartseeker also increases the Critical Strike Damage the enemy takes from you by +5% for 4 seconds, up to +25%.",
 					"skill_name": "Fundamental Heartseeker"
 				},
 				"req_points": 0,
@@ -35189,7 +35189,7 @@
 						"Damage Reduction",
 						"Cooldown"
 					],
-					"skill_desc": "Each active shadow from Dark Shroud grants you +3.0% increased Movement Speed.",
+					"skill_desc": "Each active shadow from Dark Shroud grants you +3% increased Movement Speed.",
 					"skill_name": "Subverting Dark Shroud"
 				},
 				"req_points": 0,
@@ -35253,7 +35253,7 @@
 						"Cooldown",
 						"Imbueable"
 					],
-					"skill_desc": "Lucky Hit: Poison Imbued Skills have up to a 30.0% chance to apply double the amount of Poisoning damage over time.",
+					"skill_desc": "Lucky Hit: Poison Imbued Skills have up to a 30% chance to apply double the amount of Poisoning damage over time.",
 					"skill_name": "Mixed Poison Imbuement"
 				},
 				"req_points": 0,
@@ -35422,7 +35422,7 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Dash Slows enemies it hits by 30.0% for 3 seconds. Any enemy already Slowed will be Dazed for 2 seconds instead.",
+					"skill_desc": "Dash Slows enemies it hits by 30% for 3 seconds. Any enemy already Slowed will be Dazed for 2 seconds instead.",
 					"skill_name": "Disciplined Dash"
 				},
 				"req_points": 0,
@@ -35582,7 +35582,7 @@
 						"Cooldown",
 						"Imbueable"
 					],
-					"skill_desc": "Enemies damaged by Shadow Imbued Skills take x12.0% increased Non-Physical damage from you for 8 seconds.",
+					"skill_desc": "Enemies damaged by Shadow Imbued Skills take x12% increased Non-Physical damage from you for 8 seconds.",
 					"skill_name": "Mixed Shadow Imbuement"
 				},
 				"req_points": 0,
@@ -35742,7 +35742,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "If Penetrating Shot damages at least 3 enemies, your next Penetrating Shot has a +20.0% increased Critical Strike Chance.",
+					"skill_desc": "If Penetrating Shot damages at least 3 enemies, your next Penetrating Shot has a +20% increased Critical Strike Chance.",
 					"skill_name": "Improved Penetrating Shot"
 				},
 				"req_points": 0,
@@ -37030,7 +37030,7 @@
 						"Attack Speed",
 						"Energy"
 					],
-					"skill_desc": "While at or above 50.0% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Movement Speed. While below 50.0% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Attack Speed.",
+					"skill_desc": "While at or above 50% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Movement Speed. While below 50% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Attack Speed.",
 					"skill_name": "Haste",
 					"skill_rankup_desc": "•  Movement Speed 🡑  +{5/10/15/20/25/30/35/40/45/50}%\n•  Attack Speed 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
 				},
@@ -37124,7 +37124,7 @@
 						"Damage Reduction",
 						"Movement"
 					],
-					"skill_desc": "Cutthroat Skills grant a stack of Momentum for 8 seconds if they either:\n•  Hit a Stunned, Dazed, or Frozen enemy\n•  Hit any enemy from behind\n\nWhile at 3 stacks of Momentum you gain:\n•  20.0% increased Damage Reduction\n•  x30.0% increased Energy Regeneration\n•  +15.0% increased Movement Speed",
+					"skill_desc": "Cutthroat Skills grant a stack of Momentum for 8 seconds if they either:\n•  Hit a Stunned, Dazed, or Frozen enemy\n•  Hit any enemy from behind\n\nWhile at 3 stacks of Momentum you gain:\n•  20% increased Damage Reduction\n•  x30% increased Energy Regeneration\n•  +15% increased Movement Speed",
 					"skill_name": "Momentum"
 				},
 				"req_points": 0,
@@ -37627,7 +37627,7 @@
 						"Attack Speed",
 						"Damage"
 					],
-					"skill_desc": "Damaging a Close enemy with Marksman or Cutthroat Skills each grant a +10.0% Attack Speed bonus for 8 seconds.\n\nWhile both Attack Speed bonuses are active, you deal x20.0% increased damage against Crowd Controlled enemies.",
+					"skill_desc": "Damaging a Close enemy with Marksman or Cutthroat Skills each grant a +10% Attack Speed bonus for 8 seconds.\n\nWhile both Attack Speed bonuses are active, you deal x20% increased damage against Crowd Controlled enemies.",
 					"skill_name": "Close Quarters Combat"
 				},
 				"req_points": 0,
@@ -37723,7 +37723,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20.0% chance to ricochet off an enemy up to 1 time. Ricochets deal 40.0% of the arrow's Base damage.\n\nCombo Points increase damage and arrows fired:\n•  1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows\n•  2 Points: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows\n•  3 Points: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20% chance to ricochet off an enemy up to 1 time. Ricochets deal 40% of the arrow's Base damage.\n\nCombo Points increase damage and arrows fired:\n•  1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows\n•  2 Points: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows\n•  3 Points: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows",
 					"skill_name": "Barrage",
 					"skill_rankup_desc": "•  Damage 🡑  {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}%"
 				},
@@ -37879,7 +37879,7 @@
 						"Poison",
 						"Cooldown"
 					],
-					"skill_desc": "Poison Trap has a 20.0% chance to reset your Imbuement Skill Cooldowns when activated.",
+					"skill_desc": "Poison Trap has a 20% chance to reset your Imbuement Skill Cooldowns when activated.",
 					"skill_name": "Countering Poison Trap"
 				},
 				"req_points": 0,
@@ -37976,7 +37976,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Puncture now throws 3 blades in a spread, each dealing 35.0% of its Base damage. Hitting an enemy with at least 2 blades at once makes them Vulnerable for 2 seconds.",
+					"skill_desc": "Puncture now throws 3 blades in a spread, each dealing 35% of its Base damage. Hitting an enemy with at least 2 blades at once makes them Vulnerable for 2 seconds.",
 					"skill_name": "Fundamental Puncture"
 				},
 				"req_points": 0,
@@ -38108,7 +38108,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Hitting an enemy with Invigorating Strike while you are below 50.0% Energy makes them Vulnerable for 3 seconds.",
+					"skill_desc": "Hitting an enemy with Invigorating Strike while you are below 50% Energy makes them Vulnerable for 3 seconds.",
 					"skill_name": "Fundamental Invigorating Strike"
 				},
 				"req_points": 0,
@@ -38187,7 +38187,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Heartseeker ricochets to an additional enemy, dealing 30.0% of the original damage.",
+					"skill_desc": "Heartseeker ricochets to an additional enemy, dealing 30% of the original damage.",
 					"skill_name": "Primary Heartseeker"
 				},
 				"req_points": 0,
@@ -38252,7 +38252,7 @@
 						"Physical",
 						"Movement"
 					],
-					"skill_desc": "While Blade Shift is active you gain 15.0% to all Non-Physical Resistances and reduce the duration of incoming Control Impairing Effects by 20.0% .",
+					"skill_desc": "While Blade Shift is active you gain 15% to all Non-Physical Resistances and reduce the duration of incoming Control Impairing Effects by 20% .",
 					"skill_name": "Primary Blade Shift"
 				},
 				"req_points": 0,
@@ -38328,7 +38328,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Rapid Fire deals x30.0% increased Critical Strike Damage for 3 seconds after you Evade.",
+					"skill_desc": "Rapid Fire deals x30% increased Critical Strike Damage for 3 seconds after you Evade.",
 					"skill_name": "Advanced Rapid Fire"
 				},
 				"req_points": 0,
@@ -38555,7 +38555,7 @@
 						"Crowd Control",
 						"Cooldown"
 					],
-					"skill_desc": "If an enemy is Vulnerable, Slowed, or Chilled then Smoke Grenade will Daze them for x20.0% longer.",
+					"skill_desc": "If an enemy is Vulnerable, Slowed, or Chilled then Smoke Grenade will Daze them for x20% longer.",
 					"skill_name": "Subverting Smoke Grenade"
 				},
 				"req_points": 0,
@@ -38699,7 +38699,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "When cast with full Energy, Penetrating Shot will Slow all enemies it hits by 50.0% for 3 seconds. Elite enemies will also be Knocked Down for 1.5 seconds.",
+					"skill_desc": "When cast with full Energy, Penetrating Shot will Slow all enemies it hits by 50% for 3 seconds. Elite enemies will also be Knocked Down for 1.5 seconds.",
 					"skill_name": "Advanced Penetrating Shot"
 				},
 				"req_points": 0,
@@ -38772,7 +38772,7 @@
 						"Physical",
 						"Cooldown"
 					],
-					"skill_desc": "Imbuement Skill effects applied by Rain of Arrows have x20.0% increased potency.",
+					"skill_desc": "Imbuement Skill effects applied by Rain of Arrows have x20% increased potency.",
 					"skill_name": "Prime Rain of Arrows"
 				},
 				"req_points": 0,
@@ -38908,7 +38908,7 @@
 						"Cooldown",
 						"Imbueable"
 					],
-					"skill_desc": "Critical Strikes with Poison Imbued Skills deal x30.0% increased Poisoning damage.",
+					"skill_desc": "Critical Strikes with Poison Imbued Skills deal x30% increased Poisoning damage.",
 					"skill_name": "Blended Poison Imbuement"
 				},
 				"req_points": 0,
@@ -39112,7 +39112,7 @@
 						"Physical",
 						"Lucky Hit"
 					],
-					"skill_desc": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a 30% chance to cause an explosion, dealing 23.0% of the original damage to them and surrounding enemies.",
+					"skill_desc": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a 30% chance to cause an explosion, dealing 23% of the original damage to them and surrounding enemies.",
 					"skill_name": "Victimize"
 				},
 				"req_points": 0,
@@ -39161,7 +39161,7 @@
 						"Crowd Control",
 						"Lucky Hit"
 					],
-					"skill_desc": "Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a 25% chance to:\n•  Reduce the active Cooldowns of your Trap Skills by 20.0%\n•  Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds",
+					"skill_desc": "Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a 25% chance to:\n•  Reduce the active Cooldowns of your Trap Skills by 20%\n•  Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds",
 					"skill_name": "Exposure"
 				},
 				"req_points": 0,
@@ -39222,7 +39222,7 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nMelee attack an enemy, dealing {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and increasing Energy Regeneration by x20.0% for 3 seconds.",
+					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nMelee attack an enemy, dealing {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and increasing Energy Regeneration by x20% for 3 seconds.",
 					"skill_name": "Invigorating Strike",
 					"skill_rankup_desc": "•  Damage 🡑  {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%"
 				},
@@ -39621,7 +39621,7 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nVanish from sight, gaining an advanced form of Stealth for 4 seconds that will not be removed by taking damage. \n\nConcealment also makes you Unstoppable, grants +25.0% Movement Speed, and allows you to move freely through enemies for its duration.\n\nUsing an attack Skill during Concealment will break Concealment.",
+					"skill_desc": "Cooldown: {#} seconds\nVanish from sight, gaining an advanced form of Stealth for 4 seconds that will not be removed by taking damage. \n\nConcealment also makes you Unstoppable, grants +25% Movement Speed, and allows you to move freely through enemies for its duration.\n\nUsing an attack Skill during Concealment will break Concealment.",
 					"skill_name": "Concealment",
 					"skill_rankup_desc": "•  Cooldown 🡑  {#} seconds."
 				},
@@ -39694,7 +39694,7 @@
 			},
 			"2HBow_Unique_Rogue_001": {
 				"affix_formulas": [
-					"Round(array([15,25]))"
+					"array([15,25])"
 				],
 				"affixes": [
 					"INHERENT_Damage_to_Far",
@@ -39901,7 +39901,7 @@
 			},
 			"legendary_sorc_004": {
 				"affix_formulas": [
-					"array([2.0,3.0])"
+					"array([2.,3.])"
 				],
 				"category": 2,
 				"desc": "Flame Shield lets you move unhindered through enemies. Enemies you move through while Flame Shield is active are Immobilized for {2/3} seconds.",
@@ -39939,7 +39939,7 @@
 			},
 			"legendary_sorc_017": {
 				"affix_formulas": [
-					"array([0.30,0.40])"
+					"array([0.3,0.4])"
 				],
 				"category": 1,
 				"desc": "Frost Nova gains an additional Charge but the Cooldown per Charge is increased by {30/40}%.",
@@ -40069,7 +40069,7 @@
 			},
 			"legendary_sorc_106": {
 				"affix_flat_formulas": [
-					"array([0.15,0.20])"
+					"array([0.15,0.2 ])"
 				],
 				"affix_static_values": [
 					3.0,
@@ -40087,12 +40087,12 @@
 					0.25
 				],
 				"category": 0,
-				"desc": "When you cast Blizzard it will periodically spawn exploding Ice Spikes that deal {20/30} damage. Your Ice Spikes deal x25.0% increased damage to Frozen enemies.",
+				"desc": "When you cast Blizzard it will periodically spawn exploding Ice Spikes that deal {20/30} damage. Your Ice Spikes deal x25% increased damage to Frozen enemies.",
 				"name": "Glacial"
 			},
 			"legendary_sorc_108": {
 				"affix_formulas": [
-					"array([2.0,3.0])"
+					"array([2.,3.])"
 				],
 				"category": 1,
 				"desc": "Casting Ice Armor makes you Unstoppable for {2/3} seconds.",
@@ -40182,7 +40182,7 @@
 					0.5
 				],
 				"category": 0,
-				"desc": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing {25/35} Cold damage. Your Ice Spikes have a 50.0% increased explosion radius.",
+				"desc": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing {25/35} Cold damage. Your Ice Spikes have a 50% increased explosion radius.",
 				"name": "of the Frozen Tundra",
 				"power_formulas": [
 					4,
@@ -40201,7 +40201,7 @@
 			},
 			"legendary_sorc_118": {
 				"affix_formulas": [
-					"Round(array([4,6]))"
+					"array([4,6])"
 				],
 				"category": 3,
 				"desc": "Each time Chain Lightning bounces off you, gain {4/6} Mana.",
@@ -40589,7 +40589,7 @@
 		},
 		"Paragon (Node)": {
 			"Sorcerer_Legendary_001": {
-				"desc": "Your Burning damage is increased by 40.0% of your Critical Strike Damage, further increased by 5.0% for every 20 Intelligence you have.",
+				"desc": "Your Burning damage is increased by 40% of your Critical Strike Damage, further increased by 5% for every 20 Intelligence you have.",
 				"name": "Burning Instinct",
 				"tags": [
 					"Burn",
@@ -40599,20 +40599,20 @@
 				]
 			},
 			"Sorcerer_Legendary_002": {
-				"desc": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +5.0% for 5 seconds, up to +15.0%. Additional stacks do not refresh this timer.",
+				"desc": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +5% for 5 seconds, up to +15%. Additional stacks do not refresh this timer.",
 				"name": "Searing Heat",
 				"tags": [
 					"Critical Strikes"
 				]
 			},
 			"Sorcerer_Legendary_003": {
-				"desc": "Burning enemies you kill explode, dealing 10.0% of their Maximum Life to surrounding enemies."
+				"desc": "Burning enemies you kill explode, dealing 10% of their Maximum Life to surrounding enemies."
 			},
 			"Sorcerer_Legendary_004": {
 				"desc": "Your Elemental attacks deal x100% increased Critical Strike Damage against Frozen enemies."
 			},
 			"Sorcerer_Legendary_005": {
-				"desc": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +1.0% for 5 seconds, up to +15.0%.",
+				"desc": "Dealing Cold Damage to Vulnerable enemies increases your Lucky Hit Chance by +1% for 5 seconds, up to +15%.",
 				"name": "Frigid Fate",
 				"tags": [
 					"Vulnerable",
@@ -40621,7 +40621,7 @@
 				]
 			},
 			"Sorcerer_Legendary_006": {
-				"desc": "Killing a Frozen enemy grants you 15.0% of your Maximum Life as a Barrier for 5 seconds.",
+				"desc": "Killing a Frozen enemy grants you 15% of your Maximum Life as a Barrier for 5 seconds.",
 				"name": "Icefall",
 				"tags": [
 					"Frozen",
@@ -40637,7 +40637,7 @@
 				]
 			},
 			"Sorcerer_Legendary_008": {
-				"desc": "Crackling Energy has a 25% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x2.0% per 20 total Intelligence you have.",
+				"desc": "Crackling Energy has a 25% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x2% per 20 total Intelligence you have.",
 				"name": "Ceaseless Conduit",
 				"tags": [
 					"Crackling Energy",
@@ -40649,10 +40649,10 @@
 				"desc": "Lucky Hit: Your Shock skills have a {#}% chance to release {#} lightning sparks that each deal {#} damage."
 			},
 			"Sorcerer_Legendary_010": {
-				"desc": "You deal x45.0% increased damage to enemies that are both Burning and Chilled."
+				"desc": "You deal x45% increased damage to enemies that are both Burning and Chilled."
 			},
 			"Sorcerer_Legendary_011": {
-				"desc": "Your Conjuration Skills have a 10.0% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.",
+				"desc": "Your Conjuration Skills have a 10% reduced Cooldown or Mana cost per Conjuration Skill you have equipped.",
 				"name": "Elemental Summoner",
 				"tags": [
 					"Conjuration",
@@ -40661,20 +40661,20 @@
 				]
 			},
 			"Sorcerer_Legendary_012": {
-				"desc": "After using an Elemental skill, you gain 45.0% Resistance against that element for 4 seconds."
+				"desc": "After using an Elemental skill, you gain 45% Resistance against that element for 4 seconds."
 			},
 			"Sorcerer_Legendary_013": {
-				"desc": "Nearby enemies take x20.0% increased Elemental damage. You and Nearby allies gain 15.0% to all Resistances."
+				"desc": "Nearby enemies take x20% increased Elemental damage. You and Nearby allies gain 15% to all Resistances."
 			},
 			"Sorcerer_Legendary_014": {
-				"desc": "While moving, you regenerate Mana x35.0% faster. While standing still, you gain x8.0% increased Fire, Cold, and Lightning damage every second, up to x40.0%."
+				"desc": "While moving, you regenerate Mana x35% faster. While standing still, you gain x8% increased Fire, Cold, and Lightning damage every second, up to x40%."
 			},
 			"Sorcerer_Legendary_015": {
-				"desc": "Your Enchantments are 20.0% stronger.",
+				"desc": "Your Enchantments are 20% stronger.",
 				"name": "Enchantment Master"
 			},
 			"Sorcerer_Legendary_016": {
-				"desc": "While you have a Barrier, you take 30.0% less damage and gain +15.0% increased Movement Speed."
+				"desc": "While you have a Barrier, you take 30% less damage and gain +15% increased Movement Speed."
 			},
 			"Sorcerer_Magic_CracklingEnergy": {
 				"name": "Crackling Energy",
@@ -41205,7 +41205,7 @@
 						"Mana",
 						"Crowd Control"
 					],
-					"skill_desc": "While you have an active Blizzard, your Core Skills cost 10.0% less Mana.",
+					"skill_desc": "While you have an active Blizzard, your Core Skills cost 10% less Mana.",
 					"skill_name": "Wizard's Blizzard"
 				},
 				"req_points": 0,
@@ -42074,7 +42074,7 @@
 						"Cold",
 						"Crowd Control"
 					],
-					"skill_desc": "Frost Bolt has a 15.0% chance to explode on Chilled enemies, hitting surrounding enemies. Chance increased to 100% against Frozen enemies.",
+					"skill_desc": "Frost Bolt has a 15% chance to explode on Chilled enemies, hitting surrounding enemies. Chance increased to 100% against Frozen enemies.",
 					"skill_name": "Enhanced Frost Bolt"
 				},
 				"req_points": 0,
@@ -42147,7 +42147,7 @@
 						"Damage",
 						"Lightning"
 					],
-					"skill_desc": "Each time Spark hits its primary target, it has a 20.0% chance to hit up to 3 additional enemies, dealing {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% damage. If there are no other enemies to hit, Spark instead deals x20.0% increased damage to its primary target.",
+					"skill_desc": "Each time Spark hits its primary target, it has a 20% chance to hit up to 3 additional enemies, dealing {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% damage. If there are no other enemies to hit, Spark instead deals x20% increased damage to its primary target.",
 					"skill_name": "Enhanced Spark"
 				},
 				"req_points": 0,
@@ -42394,7 +42394,7 @@
 						"Crowd Control",
 						"Mana"
 					],
-					"skill_desc": "When cast above 50 Mana, Frozen Orb's explosion damage is increased by x30.0%.",
+					"skill_desc": "When cast above 50 Mana, Frozen Orb's explosion damage is increased by x30%.",
 					"skill_name": "Enhanced Frozen Orb"
 				},
 				"req_points": 0,
@@ -42472,7 +42472,7 @@
 						"Cold",
 						"Mana"
 					],
-					"skill_desc": "Ice Shards have a 15.0% chance to ricochet to another enemy. Ice Shards always ricochet off of Frozen enemies.",
+					"skill_desc": "Ice Shards have a 15% chance to ricochet to another enemy. Ice Shards always ricochet off of Frozen enemies.",
 					"skill_name": "Enhanced Ice Shards"
 				},
 				"req_points": 0,
@@ -42543,7 +42543,7 @@
 						"Lightning",
 						"Mana"
 					],
-					"skill_desc": "Chain Lightning gains a +3.0% increased Critical Strike Chance per bounce.",
+					"skill_desc": "Chain Lightning gains a +3% increased Critical Strike Chance per bounce.",
 					"skill_name": "Enhanced Chain Lightning"
 				},
 				"req_points": 0,
@@ -42742,7 +42742,7 @@
 						"Burn",
 						"Mana"
 					],
-					"skill_desc": "While channeling Incinerate, you Burn enemies around you for 15.0% of the damage per second.",
+					"skill_desc": "While channeling Incinerate, you Burn enemies around you for 15% of the damage per second.",
 					"skill_name": "Enhanced Incinerate"
 				},
 				"req_points": 0,
@@ -42825,7 +42825,7 @@
 						"Fire",
 						"Mana"
 					],
-					"skill_desc": "Fireball's radius is increased based on distance traveled, up to 50.0%.",
+					"skill_desc": "Fireball's radius is increased based on distance traveled, up to 50%.",
 					"skill_name": "Enhanced Fireball"
 				},
 				"req_points": 0,
@@ -42898,7 +42898,7 @@
 						"Burn",
 						"Cooldown"
 					],
-					"skill_desc": "Flame Shield grants +25.0% Movement Speed while active.",
+					"skill_desc": "Flame Shield grants +25% Movement Speed while active.",
 					"skill_name": "Enhanced Flame Shield"
 				},
 				"req_points": 0,
@@ -43032,7 +43032,7 @@
 						"Cooldown",
 						"Damage"
 					],
-					"skill_desc": "While Ice Armor is active, your Mana Regeneration is increased by x25.0%.",
+					"skill_desc": "While Ice Armor is active, your Mana Regeneration is increased by x25%.",
 					"skill_name": "Enhanced Ice Armor"
 				},
 				"req_points": 0,
@@ -43381,7 +43381,7 @@
 						"Lightning",
 						"Cooldown"
 					],
-					"skill_desc": "After Critically Striking, Lightning Spear gains a +5.0% increased stacking Critical Strike Chance for its duration.",
+					"skill_desc": "After Critically Striking, Lightning Spear gains a +5% increased stacking Critical Strike Chance for its duration.",
 					"skill_name": "Enhanced Lightning Spear"
 				},
 				"req_points": 0,
@@ -43473,7 +43473,7 @@
 						"Mana",
 						"Crowd Control"
 					],
-					"skill_desc": "Blizzard deals x25.0% increased damage to Frozen enemies.",
+					"skill_desc": "Blizzard deals x25% increased damage to Frozen enemies.",
 					"skill_name": "Enhanced Blizzard"
 				},
 				"req_points": 0,
@@ -43622,7 +43622,7 @@
 						"Burn",
 						"Mana"
 					],
-					"skill_desc": "Enemies take x25.0% increased Burning damage from you while standing in Firewall.",
+					"skill_desc": "Enemies take x25% increased Burning damage from you while standing in Firewall.",
 					"skill_name": "Enhanced Firewall"
 				},
 				"req_points": 0,
@@ -43708,7 +43708,7 @@
 						"Mana",
 						"Burn"
 					],
-					"skill_desc": "If a cast of Meteor hits 3 or more enemies, there is a 30.0% chance an additional Meteor falls on the same location.",
+					"skill_desc": "If a cast of Meteor hits 3 or more enemies, there is a 30% chance an additional Meteor falls on the same location.",
 					"skill_name": "Enhanced Meteor"
 				},
 				"req_points": 0,
@@ -44060,7 +44060,7 @@
 						"Crowd Control",
 						"Damage Reduction"
 					],
-					"skill_desc": "When Deep Freeze ends, gain 10.0% of your Base Life as a Barrier for 6 seconds for each enemy you Froze while it was active.",
+					"skill_desc": "When Deep Freeze ends, gain 10% of your Base Life as a Barrier for 6 seconds for each enemy you Froze while it was active.",
 					"skill_name": "Prime Deep Freeze"
 				},
 				"req_points": 0,
@@ -44108,7 +44108,7 @@
 						"Lightning",
 						"Cooldown"
 					],
-					"skill_desc": "Unstable Currents increases your Attack Speed by +25.0% while active.",
+					"skill_desc": "Unstable Currents increases your Attack Speed by +25% while active.",
 					"skill_name": "Prime Unstable Currents"
 				},
 				"req_points": 0,
@@ -44169,7 +44169,7 @@
 						"Cooldown",
 						"Damage"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nA Barrier of ice forms around you for 6 seconds, absorbing {#}% of your Base Life in damage. While Ice Armor is active, 10.0% of your damage dealt is added to its Barrier.",
+					"skill_desc": "Cooldown: {#} seconds\nA Barrier of ice forms around you for 6 seconds, absorbing {#}% of your Base Life in damage. While Ice Armor is active, 10% of your damage dealt is added to its Barrier.",
 					"skill_name": "Ice Armor",
 					"skill_rankup_desc": "•  Duration 🡑  {#}%\n•  Barrier Amount 🡑  shield:ICE_BARRIER"
 				},
@@ -44246,7 +44246,7 @@
 						"Crowd Control",
 						"Damage Reduction"
 					],
-					"skill_desc": "When Deep Freeze ends, your Non-Ultimate Cooldowns are reduced by 50.0%.",
+					"skill_desc": "When Deep Freeze ends, your Non-Ultimate Cooldowns are reduced by 50%.",
 					"skill_name": "Supreme Deep Freeze"
 				},
 				"req_points": 0,
@@ -44452,7 +44452,7 @@
 						"Crowd Control",
 						"Damage"
 					],
-					"skill_desc": "After Freeze expires, enemies explode for 25.0% of the damage you dealt to them while Frozen.",
+					"skill_desc": "After Freeze expires, enemies explode for 25% of the damage you dealt to them while Frozen.",
 					"skill_name": "Shatter"
 				},
 				"req_points": 0,
@@ -44496,7 +44496,7 @@
 						"Damage",
 						"Frost"
 					],
-					"skill_desc": "Lucky Hit: Your Frost Skills have up to a 10.0% chance to make your next cast of Ice Shards, Frozen Orb, or Blizzard consume no Mana and deal x40.0% increased damage. Chance is doubled against Vulnerable enemies.",
+					"skill_desc": "Lucky Hit: Your Frost Skills have up to a 10% chance to make your next cast of Ice Shards, Frozen Orb, or Blizzard consume no Mana and deal x40% increased damage. Chance is doubled against Vulnerable enemies.",
 					"skill_name": "Avalanche"
 				},
 				"req_points": 0,
@@ -44943,7 +44943,7 @@
 						"Life",
 						"Fire"
 					],
-					"skill_desc": "Your Fire Critical Strike Damage is increased by x25.0% against enemies above 50% Life. Your Fire Critical Strike Chance is increased by +5.0% against enemies below 50% Life.\n\nKilling an enemy with a Critical Strike grants both bonuses against all enemies for 3 seconds.",
+					"skill_desc": "Your Fire Critical Strike Damage is increased by x25% against enemies above 50% Life. Your Fire Critical Strike Chance is increased by +5% against enemies below 50% Life.\n\nKilling an enemy with a Critical Strike grants both bonuses against all enemies for 3 seconds.",
 					"skill_name": "Esu's Ferocity"
 				},
 				"req_points": 0,
@@ -45279,7 +45279,7 @@
 						"Damage Reduction",
 						"Critical Strikes"
 					],
-					"skill_desc": "Close enemies take x10.0% increased damage from your Shock Skills and deal 20.0% less damage to you. Critical Strikes increase these bonuses by 25.0% for 3 seconds.",
+					"skill_desc": "Close enemies take x10% increased damage from your Shock Skills and deal 20% less damage to you. Critical Strikes increase these bonuses by 25% for 3 seconds.",
 					"skill_name": "Vyr's Mastery"
 				},
 				"req_points": 0,
@@ -45662,7 +45662,7 @@
 						"Cold",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a pair of ice blades for {#} seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30.0% chance to make them Vulnerable for 2 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a pair of ice blades for {#} seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.",
 					"skill_name": "Ice Blades",
 					"skill_rankup_desc": "•  Damage 🡑  {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}%"
 				},
@@ -46186,7 +46186,7 @@
 						"Cold",
 						"Mana"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nLaunch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25.0% increased damage to Frozen enemies.",
+					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nLaunch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25% increased damage to Frozen enemies.",
 					"skill_name": "Ice Shards",
 					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
@@ -46488,7 +46488,7 @@
 						"Lightning",
 						"Crowd Control"
 					],
-					"skill_desc": "Gain +6.0% Movement Speed for 5 seconds per enemy hit with Arc Lash, up to +18.0%.",
+					"skill_desc": "Gain +6% Movement Speed for 5 seconds per enemy hit with Arc Lash, up to +18%.",
 					"skill_name": "Flickering Arc Lash"
 				},
 				"req_points": 0,
@@ -46647,7 +46647,7 @@
 						"Lightning",
 						"Mana"
 					],
-					"skill_desc": "When Chain Lightning Critically Strikes, it has a 25.0% chance to form a Crackling Energy.",
+					"skill_desc": "When Chain Lightning Critically Strikes, it has a 25% chance to form a Crackling Energy.",
 					"skill_name": "Destructive Chain Lightning"
 				},
 				"req_points": 0,
@@ -46732,7 +46732,7 @@
 						"Lightning",
 						"Mana"
 					],
-					"skill_desc": "Hitting an enemy with Charged Bolts reduces their damage dealt by 20.0% for 3 seconds.",
+					"skill_desc": "Hitting an enemy with Charged Bolts reduces their damage dealt by 20% for 3 seconds.",
 					"skill_name": "Destructive Charged Bolts"
 				},
 				"req_points": 0,
@@ -46813,7 +46813,7 @@
 						"Fire",
 						"Mana"
 					],
-					"skill_desc": "Fireball's explosion's Critical Strike Damage is increased by +10.0%. Each enemy it hits increases this bonus by +5.0%, up to +25.0% total.",
+					"skill_desc": "Fireball's explosion's Critical Strike Damage is increased by +10%. Each enemy it hits increases this bonus by +5%, up to +25% total.",
 					"skill_name": "Destructive Fireball"
 				},
 				"req_points": 0,
@@ -47023,7 +47023,7 @@
 						"Burn",
 						"Cooldown"
 					],
-					"skill_desc": "You gain 25.0% Mana Cost Reduction while Flame Shield is active.",
+					"skill_desc": "You gain 25% Mana Cost Reduction while Flame Shield is active.",
 					"skill_name": "Mystical Flame Shield"
 				},
 				"req_points": 0,
@@ -47420,7 +47420,7 @@
 						"Fire",
 						"Mana"
 					],
-					"skill_desc": "Hydra also Burns enemies for an additional 12.0% of its Base damage dealt over 6 seconds.",
+					"skill_desc": "Hydra also Burns enemies for an additional 12% of its Base damage dealt over 6 seconds.",
 					"skill_name": "Summoned Hydra"
 				},
 				"req_points": 0,
@@ -47544,7 +47544,7 @@
 						"Cold",
 						"Cooldown"
 					],
-					"skill_desc": "50.0% of Enhanced Ice Blades's Cooldown reduction is applied to your other Skills.",
+					"skill_desc": "50% of Enhanced Ice Blades's Cooldown reduction is applied to your other Skills.",
 					"skill_name": "Summoned Ice Blades"
 				},
 				"req_points": 0,
@@ -47730,7 +47730,7 @@
 						"Burn",
 						"Mana"
 					],
-					"skill_desc": "Enemies deal 20.0% less damage while Burning from Incinerate.",
+					"skill_desc": "Enemies deal 20% less damage while Burning from Incinerate.",
 					"skill_name": "Destructive Incinerate"
 				},
 				"req_points": 0,
@@ -47801,7 +47801,7 @@
 						"Damage",
 						"Lightning"
 					],
-					"skill_desc": "Each time Spark hits an enemy it has a 3.0% chance to form a Crackling Energy.",
+					"skill_desc": "Each time Spark hits an enemy it has a 3% chance to form a Crackling Energy.",
 					"skill_name": "Flickering Spark"
 				},
 				"req_points": 0,
@@ -47873,7 +47873,7 @@
 						"Lightning",
 						"Cooldown"
 					],
-					"skill_desc": "Collecting Crackling Energy increases the damage of your next Lightning Spear cast by x20.0%, up to x100.0%.",
+					"skill_desc": "Collecting Crackling Energy increases the damage of your next Lightning Spear cast by x20%, up to x100%.",
 					"skill_name": "Summoned Lightning Spear"
 				},
 				"req_points": 0,
@@ -48056,7 +48056,7 @@
 						"Mana",
 						"Burn"
 					],
-					"skill_desc": "Meteor falls 30.0% faster.",
+					"skill_desc": "Meteor falls 30% faster.",
 					"skill_name": "Mage's Meteor"
 				},
 				"req_points": 0,
@@ -48218,7 +48218,7 @@
 						"Cooldown",
 						"Unstoppable"
 					],
-					"skill_desc": "After Teleporting, you gain 30.0% Damage Reduction for 5 seconds.",
+					"skill_desc": "After Teleporting, you gain 30% Damage Reduction for 5 seconds.",
 					"skill_name": "Shimmering Teleport"
 				},
 				"req_points": 0,
@@ -48445,7 +48445,7 @@
 						"Damage",
 						"Lightning"
 					],
-					"skill_desc": "Spark grants +2.0% increased Critical Strike Chance per cast for 3 seconds, up to +10.0%.",
+					"skill_desc": "Spark grants +2% increased Critical Strike Chance per cast for 3 seconds, up to +10%.",
 					"skill_name": "Glinting Spark"
 				},
 				"req_points": 0,
@@ -48526,7 +48526,7 @@
 						"Fire",
 						"Mana"
 					],
-					"skill_desc": "Fireball deals 10.0% of the Burning damage you've applied to enemies as additional direct damage.",
+					"skill_desc": "Fireball deals 10% of the Burning damage you've applied to enemies as additional direct damage.",
 					"skill_name": "Greater Fireball"
 				},
 				"req_points": 0,
@@ -48775,7 +48775,7 @@
 						"Cold",
 						"Cooldown"
 					],
-					"skill_desc": "Your Ice Blades gain +10.0% increased Attack Speed per active Ice Blades.",
+					"skill_desc": "Your Ice Blades gain +10% increased Attack Speed per active Ice Blades.",
 					"skill_name": "Invoked Ice Blades"
 				},
 				"req_points": 0,
@@ -48908,7 +48908,7 @@
 						"Cooldown",
 						"Damage"
 					],
-					"skill_desc": "Enemies that hit you while Ice Armor is active have a 15.0% chance to become Frozen for 3 seconds.",
+					"skill_desc": "Enemies that hit you while Ice Armor is active have a 15% chance to become Frozen for 3 seconds.",
 					"skill_name": "Shimmering Ice Armor"
 				},
 				"req_points": 0,
@@ -48987,7 +48987,7 @@
 						"Fire",
 						"Mana"
 					],
-					"skill_desc": "After you Critically Strike, your Hydras gain +30.0% Critical Strike Chance for 3 seconds.",
+					"skill_desc": "After you Critically Strike, your Hydras gain +30% Critical Strike Chance for 3 seconds.",
 					"skill_name": "Invoked Hydra"
 				},
 				"req_points": 0,
@@ -49086,7 +49086,7 @@
 						"Crowd Control",
 						"Mana"
 					],
-					"skill_desc": "Frozen Orb's explosion has a 25.0% chance to make all enemies hit Vulnerable for 2 seconds. Frozen Orb always makes Frozen enemies Vulnerable.",
+					"skill_desc": "Frozen Orb's explosion has a 25% chance to make all enemies hit Vulnerable for 2 seconds. Frozen Orb always makes Frozen enemies Vulnerable.",
 					"skill_name": "Greater Frozen Orb"
 				},
 				"req_points": 0,
@@ -49286,7 +49286,7 @@
 						"Burn",
 						"Cooldown"
 					],
-					"skill_desc": "Flame Shield Heals you for 50.0% of your missing Life.",
+					"skill_desc": "Flame Shield Heals you for 50% of your missing Life.",
 					"skill_name": "Shimmering Flame Shield"
 				},
 				"req_points": 0,
@@ -49358,7 +49358,7 @@
 						"Burn",
 						"Mana"
 					],
-					"skill_desc": "You gain x5.0% increased Mana Regeneration per active Firewall, up to x25.0%.",
+					"skill_desc": "You gain x5% increased Mana Regeneration per active Firewall, up to x25%.",
 					"skill_name": "Wizard's Firewall"
 				},
 				"req_points": 0,
@@ -49425,7 +49425,7 @@
 						"Fire",
 						"Burn"
 					],
-					"skill_desc": "Critical Strikes with Fire Bolt increase the Burning damage you deal to the enemy by x20.0% for 4 seconds.",
+					"skill_desc": "Critical Strikes with Fire Bolt increase the Burning damage you deal to the enemy by x20% for 4 seconds.",
 					"skill_name": "Glinting Fire Bolt"
 				},
 				"req_points": 0,
@@ -49510,7 +49510,7 @@
 						"Lightning",
 						"Mana"
 					],
-					"skill_desc": "Charged Bolts deals x25.0% increased damage to Stunned enemies.",
+					"skill_desc": "Charged Bolts deals x25% increased damage to Stunned enemies.",
 					"skill_name": "Greater Charged Bolts"
 				},
 				"req_points": 0,
@@ -49579,7 +49579,7 @@
 						"Lightning",
 						"Mana"
 					],
-					"skill_desc": "If Chain Lightning bounces off of you, its next hit deals x25.0% increased damage.",
+					"skill_desc": "If Chain Lightning bounces off of you, its next hit deals x25% increased damage.",
 					"skill_name": "Greater Chain Lightning"
 				},
 				"req_points": 0,
@@ -49647,7 +49647,7 @@
 					"SkillRankBonus_Sorc_Core_4"
 				],
 				"category": 0,
-				"desc": "Charged Bolts pierce, but deal x[{30/40}]% less damage.",
+				"desc": "Charged Bolts pierce, but deal x{30/40}% less damage.",
 				"flavor": "\"Also known as the Greatstaff of the Old Religion, this powerful relic is one of only a small handful of Skatsimi artifacts that have survived to this day.\"\n- Barrett's Book of Implements",
 				"name": "Staff of Lam Esen",
 				"power_formulas": [
@@ -49656,7 +49656,7 @@
 			},
 			"Amulet_Unique_Sorc_100": {
 				"affix_flat_formulas": [
-					"array([31,40]) / 100"
+					"array([0.31,0.4 ])"
 				],
 				"affix_static_values": [
 					10.0
