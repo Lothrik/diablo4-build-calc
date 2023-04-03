@@ -539,7 +539,7 @@ let codexData = {
 			"Hunter's Zenith": {
 				"id": 174,
 				"type": "Unique",
-				"description": "Gain a bonus when you kill with a Shapeshifting Skill:\n• Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n• Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
+				"description": "Gain a bonus when you kill with a Shapeshifting Skill:\n•Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n•Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
 				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash"
 			}
 		},
@@ -582,7 +582,7 @@ let codexData = {
 			"Tempest Roar": {
 				"id": 171,
 				"type": "Unique",
-				"description": "Lucky Hit: Storm Skills have up to a {15/25}% chance to grant 10.0 Spirit.\n\nYour base Storm Skills are now also Werewolf Skills.",
+				"description": "Lucky Hit: Storm Skills have up to a {15/25}% chance to grant 10.0 Spirit.\n\nYour base Storm Skills are now also Werewolf Skills",
 				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\"\n– Airidah"
 			}
 		},
@@ -929,7 +929,7 @@ let codexData = {
 			"Aspect of Ultimate Shadow": {
 				"id": 196,
 				"type": "Legendary",
-				"description": "Bone Storm and Blood Wave are also Darkness Skills, deal Shadow damage, and gain additional effects:\n•  Enemies damaged by Bone Storm take {16/22} Shadow damage over 2.0 seconds.\n•  Blood Wave desecrates the ground it travels over, dealing {256/352} Shadow damage over 4.0 seconds.",
+				"description": "Bone Storm and Blood Wave are also Darkness Skills, deal Shadow damage, and gain additional effects:\n• Enemies damaged by Bone Storm take {16/22} Shadow damage over 2.0 seconds.\n• Blood Wave desecrates the ground it travels over, dealing {256/352} Shadow damage over 4.0 seconds",
 				"dungeon": "",
 				"region": ""
 			},
@@ -1147,7 +1147,7 @@ let codexData = {
 			"Ring of Mendeln": {
 				"id": 227,
 				"type": "Unique",
-				"description": "While you have 7.0 or more Minions you gain:\n•  Lucky Hit: Up to a 10.0% chance to empower all of your Minions, causing the next attack from each to explode for {300/400} Physical damage.",
+				"description": "While you have 7.0 or more Minions you gain:\n• Lucky Hit: Up to a 10.0% chance to empower all of your Minions, causing the next attack from each to explode for {300/400} Physical damage.",
 				"flavor": "The signet of Mendeln ul-Diomed, the founder of the Priests of Rathma and the first Necromancer, was lost for over 3,000 years. The immense power over death held within, however, has not diminished."
 			}
 		},

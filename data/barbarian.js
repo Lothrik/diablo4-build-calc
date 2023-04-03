@@ -1221,9 +1221,9 @@ barbarianData["Ultimate"] = {
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Call upon 3 Ancients to aid you in battle for 6 seconds.
-•  Korlic leaps at enemies, dealing 104% damage and swings his weapons in a frenzy, dealing 39% damage per hit.
-•  Talic spins in a whirlwind rapidly attacking enemies for 65% damage.
-•  Madawc upheaves the ground, dealing 195% damage.
+• Korlic leaps at enemies, dealing 104% damage and swings his weapons in a frenzy, dealing 39% damage per hit.
+• Talic spins in a whirlwind rapidly attacking enemies for 65% damage.
+• Madawc upheaves the ground, dealing 195% damage.
 
 Tags: Ultimate, Damage, Physical, Cooldown.`,
 		id: 103,
@@ -1262,9 +1262,9 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Activate three times to attach chains to each of your weapons and perform an attack:
-•  First your Two-Handed Bludgeoning weapon slams into the ground, dealing 60% damage and Stunning enemies for 2 seconds.
-•  Second your Two-Handed Slashing weapon swipes in front of you, dealing 20% damage and inflicting 120% Bleeding damage over 5 seconds.
-•  Third your Dual Wield weapons swing around you, dealing 32.5% damage per hit.
+• First your Two-Handed Bludgeoning weapon slams into the ground, dealing 60% damage and Stunning enemies for 2 seconds.
+• Second your Two-Handed Slashing weapon swipes in front of you, dealing 20% damage and inflicting 120% Bleeding damage over 5 seconds.
+• Third your Dual Wield weapons swing around you, dealing 32.5% damage per hit.
 
 Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bludgeoning, Dual Wield, Slashing.`,
 		id: 106,

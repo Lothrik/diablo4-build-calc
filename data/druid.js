@@ -427,9 +427,9 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 		description: `Spirit Cost: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and perform a trio of combo attacks:
-• 1st Attack: Deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.
-• 2nd Attack: Deal {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.
-• 3rd Attack: Perform a larger finishing move dealing {60/66/72/78/84/90/96/102/108/114}% damage.
+•1st Attack: Deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.
+•2nd Attack: Deal {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.
+•3rd Attack: Perform a larger finishing move dealing {60/66/72/78/84/90/96/102/108/114}% damage.
 
 Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		id: 33,
@@ -1564,12 +1564,12 @@ Tags: Earth, Storm, Damage, Nature Magic.`,
 	"Earthen Might": {
 		connections: [ "Capstone" ],
 		description: `Lucky Hit: Damaging enemies with Earth Skills has up to a 5% chance to:
-•  Restore all of your Spirit
-•  Cause your attacks to be guaranteed Critical Strikes for 5 seconds
+• Restore all of your Spirit
+• Cause your attacks to be guaranteed Critical Strikes for 5 seconds
 
 This chance is increased by:
-•  10% for Critical Strikes
-•  10% if the target is Stunned, Immobilized, or Knocked Back.
+• 10% for Critical Strikes
+• 10% if the target is Stunned, Immobilized, or Knocked Back
 
 Tags: Critical Strikes, Damage, Spirit, Lucky Hit, Earth, Crowd Control, Nature Magic.`,
 		id: 131,

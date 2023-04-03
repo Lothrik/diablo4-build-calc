@@ -851,7 +851,7 @@
 				]
 			},
 			"Barbarian_Legendary_015": {
-				"desc": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} |4second:seconds; and grant you {#}% of your Maximum Life as Fortify.",
+				"desc": "Overpowers with your Two-Handed Bludgeoning Weapon Stun enemies for {#} seconds and grant you {#}% of your Maximum Life as Fortify.",
 				"name": "Bone Breaker",
 				"tags": [
 					"Crowd Control",
@@ -1124,7 +1124,7 @@
 					],
 					"skill_desc": "Reduce the duration of Control Impairing Effects by {6/12/18/24/30/36/42/48/54/60}%.",
 					"skill_name": "Quick Impulses",
-					"skill_rankup_desc": "•  Duration Reduction 🡑  {6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "• Duration Reduction 🡑 {6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1205,7 +1205,7 @@
 					],
 					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nThrow a powerful kick that deals 18% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54% damage and are Stunned for 3 seconds.",
 					"skill_name": "Kick",
-					"skill_rankup_desc": "•  Charge Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Charge Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1276,7 +1276,7 @@
 					],
 					"skill_desc": "Generate Fury: 9\nLucky Hit Chance: {#}%\nFlay the enemy, dealing {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% damage and inflicting {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Bleeding damage over 5 seconds.",
 					"skill_name": "Flay",
-					"skill_rankup_desc": "•  Impact Damage 🡑  {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%\n•  Bleeding Damage 🡑  {36/39.5/43/47/50.5/54/57.5/61/65/68.5}%"
+					"skill_rankup_desc": "• Impact Damage 🡑 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%\n• Bleeding Damage 🡑 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1349,7 +1349,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nTaunt Nearby enemies and gain {#}% Damage Reduction for 8 seconds.",
 					"skill_name": "Challenging Shout",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {#}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {#}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1418,9 +1418,9 @@
 						"Damage",
 						"Attack Speed"
 					],
-					"skill_desc": "Generate Fury: 4\nLucky Hit Chance: {#}%\nUnleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits. \n\nIf Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.",
+					"skill_desc": "Generate Fury: 4\nLucky Hit Chance: {#}%\nUnleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits.\n\nIf Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.",
 					"skill_name": "Frenzy",
-					"skill_rankup_desc": "•  Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%"
+					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1490,7 +1490,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nBellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for 6 seconds, and Nearby allies for 3 seconds.",
 					"skill_name": "Rallying Cry",
-					"skill_rankup_desc": "•  Resource Generation Bonus 🡑  x{#}%"
+					"skill_rankup_desc": "• Resource Generation Bonus 🡑 x{#}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1551,7 +1551,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nSteel yourself, gaining a Barrier that absorbs {50/55/60/65/70/75/80/85/90/95}% of your missing Life for 5 seconds.",
 					"skill_name": "Iron Skin",
-					"skill_rankup_desc": "•  Barrier Absorption 🡑  {50/55/60/65/70/75/80/85/90/95}%"
+					"skill_rankup_desc": "• Barrier Absorption 🡑 {50/55/60/65/70/75/80/85/90/95}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1617,7 +1617,7 @@
 					],
 					"skill_desc": "Fury Cost: {#}\nLucky Hit Chance: {#}%\nTear into the ground with your weapon and fling debris forward, dealing {70/77/84/91/98/105/112/119/126/133}% damage.",
 					"skill_name": "Upheaval",
-					"skill_rankup_desc": "•  Damage 🡑  {70/77/84/91/98/105/112/119/126/133}%"
+					"skill_rankup_desc": "• Damage 🡑 {70/77/84/91/98/105/112/119/126/133}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1683,7 +1683,7 @@
 					],
 					"skill_desc": "Generate Fury: 9\nLucky Hit Chance: {#}%\nLunge forward and strike an enemy for {30/33/36/39/42/45/48/51/54/57}% damage.",
 					"skill_name": "Lunging Strike",
-					"skill_rankup_desc": "•  Damage 🡑  {30/33/36/39/42/45/48/51/54/57}%"
+					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1751,7 +1751,7 @@
 					],
 					"skill_desc": "Fury Cost: {#}\nLucky Hit Chance: {#}%\nSlam your hammer down with the fury of the Ancients, dealing {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}% damage to a concentrated area.",
 					"skill_name": "Hammer of the Ancients",
-					"skill_rankup_desc": "•  Damage 🡑  {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}%"
+					"skill_rankup_desc": "• Damage 🡑 {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1819,7 +1819,7 @@
 					],
 					"skill_desc": "Generate Fury: 10\nLucky Hit Chance: {#}%\nBash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.",
 					"skill_name": "Bash",
-					"skill_rankup_desc": "•  Damage 🡑  {30/33/36/39/42/45/48/51/54/57}%"
+					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1860,7 +1860,7 @@
 					],
 					"skill_desc": "Lucky Hit: Your Core skills have up to a {10/20/30/40/50/60/70/80/90/100}% chance to make enemies Vulnerable for 2 seconds.",
 					"skill_name": "Pressure Point",
-					"skill_rankup_desc": "•  Vulnerable Chance 🡑  {10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Vulnerable Chance 🡑 {10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1927,7 +1927,7 @@
 					],
 					"skill_desc": "Fury Cost: {#}\nLucky Hit Chance: {#}%\nSweep your weapons from opposite directions, dealing {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage with each weapon. Enemies caught in the center are damaged by both.",
 					"skill_name": "Double Swing",
-					"skill_rankup_desc": "•  Damage 🡑  {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%"
+					"skill_rankup_desc": "• Damage 🡑 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -2604,7 +2604,7 @@
 					],
 					"skill_desc": "While you have Fortify for over 50% of your Maximum Life, you deal x{5/10/15/20/25/30/35/40/45/50}% increased damage.",
 					"skill_name": "Counteroffensive",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -3350,7 +3350,7 @@
 					],
 					"skill_desc": "Heal for {3/6/9/12/15/18/21/24/27/30}% of your Maximum Life for each 100 Fury spent.",
 					"skill_name": "Invigorating Fury",
-					"skill_rankup_desc": "• Heal Amount 🡑  {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "•Heal Amount 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -3470,7 +3470,7 @@
 					],
 					"skill_desc": "Increase the Damage Reduction gained while you are Fortified by an additional {3/6/9/12/15/18/21/24/27/30}%.",
 					"skill_name": "Defensive Stance",
-					"skill_rankup_desc": "•  Damage Reduciton 🡑  {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Damage Reduciton 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -3509,7 +3509,7 @@
 					],
 					"skill_desc": "While Berserking, Fury Generation is increased by x{6/12/18/24/30/36/42/48/54/60}%.",
 					"skill_name": "Prolific Fury",
-					"skill_rankup_desc": "•  Fury Generation 🡑  x{6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "• Fury Generation 🡑 x{6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -3582,7 +3582,7 @@
 					],
 					"skill_desc": "Fury Cost: {#} per second\nLucky Hit Chance: {#}%\nRapidly attack surrounding enemies for {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage.",
 					"skill_name": "Whirlwind",
-					"skill_rankup_desc": "•  Damage 🡑  {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}%"
+					"skill_rankup_desc": "• Damage 🡑 {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6475,7 +6475,7 @@
 					],
 					"skill_desc": "While using Two-Handed weapons you deal x{5/10/15/20/25/30/35/40/45/50}% increased Critical Strike Damage.",
 					"skill_name": "Heavy Handed",
-					"skill_rankup_desc": "•  Critical Strike Damage Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Critical Strike Damage Bonus 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6557,7 +6557,7 @@
 					],
 					"skill_desc": "Increase your Thorns by +{20/40/60/80/100/120/140/160/180/200}%. When enemies hit you, they take an additional 1% of your Thorns as Bleeding damage over 5 seconds.",
 					"skill_name": "Tough as Nails",
-					"skill_rankup_desc": "•  Thorns 🡑  +{20/40/60/80/100/120/140/160/180/200}%"
+					"skill_rankup_desc": "• Thorns 🡑 +{20/40/60/80/100/120/140/160/180/200}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6656,7 +6656,7 @@
 					],
 					"skill_desc": "Attack Speed is increased by +{3/6/9/12/15/18/21/24/27/30}% while using One-Handed weapons.",
 					"skill_name": "Duelist",
-					"skill_rankup_desc": "•  Attack Speed 🡑  +{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Attack Speed 🡑 +{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6693,7 +6693,7 @@
 					],
 					"skill_desc": "Gain x{5/10/15/20/25/30/35/40/45/50}% additional Maximum Life.",
 					"skill_name": "Imposing Presence",
-					"skill_rankup_desc": "•  Maximum Life 🡑   x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Maximum Life 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6733,7 +6733,7 @@
 					],
 					"skill_desc": "Basic Skills generate x{5/10/15/20/25/30/35/40/45/50}% more Fury when using Two-Handed weapons.",
 					"skill_name": "Endless Fury",
-					"skill_rankup_desc": "•  Additional Fury 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Additional Fury 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6777,9 +6777,9 @@
 						"Core",
 						"Weapon Mastery"
 					],
-					"skill_desc": "Dealing direct damage with a Weapon Mastery skill causes your next Core Skill to make enemies Vulnerable for {1/2/3/4/5/6/7/8/9/10} |4second:seconds;.",
+					"skill_desc": "Dealing direct damage with a Weapon Mastery skill causes your next Core Skill to make enemies Vulnerable for {1/2/3/4/5/6/7/8/9/10} seconds.",
 					"skill_name": "Expose Vulnerability",
-					"skill_rankup_desc": "•  Vulnerable Duration 🡑  {1/2/3/4/5/6/7/8/9/10}"
+					"skill_rankup_desc": "• Vulnerable Duration 🡑 {1/2/3/4/5/6/7/8/9/10}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6820,7 +6820,7 @@
 					],
 					"skill_desc": "Your Shout Skills cause enemies to deal {8/16/24/32/40/48/56/64/72/80}% less damage for 5 seconds.",
 					"skill_name": "Guttural Yell",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {8/16/24/32/40/48/56/64/72/80}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {8/16/24/32/40/48/56/64/72/80}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6858,7 +6858,7 @@
 					],
 					"skill_desc": "Increase your Maximum Fury by {3/6/9/12/15/18/21/24/27/30}.",
 					"skill_name": "Tempered Fury",
-					"skill_rankup_desc": "• Maximum Fury 🡑  {3/6/9/12/15/18/21/24/27/30}"
+					"skill_rankup_desc": "•Maximum Fury 🡑 {3/6/9/12/15/18/21/24/27/30}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6897,7 +6897,7 @@
 					],
 					"skill_desc": "Your Overpowers deal x{15/30/45/60/75/90/105/120/135/150}% increased damage when using a Two-Handed weapon.",
 					"skill_name": "Brute Force",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{15/30/45/60/75/90/105/120/135/150}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{15/30/45/60/75/90/105/120/135/150}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6929,7 +6929,7 @@
 					],
 					"skill_desc": "Your Shout Skill effect durations are increased by x{10/20/30/40/50/60/70/80/90/100}%.",
 					"skill_name": "Booming Voice",
-					"skill_rankup_desc": "•  Shout Duration 🡑  x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Shout Duration 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -6970,7 +6970,7 @@
 					],
 					"skill_desc": "Your Skills using Bludgeoning weapons deal x{5/10/15/20/25/30/35/40/45/50}% increased damage if the enemy is Stunned or Vulnerable.",
 					"skill_name": "Wallop",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7019,7 +7019,7 @@
 					],
 					"skill_desc": "Your Shouts also Heal allies for {1/2/3/4/5/6/7/8/9/10}% of their Maximum Life per second.",
 					"skill_name": "Raid Leader",
-					"skill_rankup_desc": "•  Heal Amount 🡑  {1/2/3/4/5/6/7/8/9/10}%"
+					"skill_rankup_desc": "• Heal Amount 🡑 {1/2/3/4/5/6/7/8/9/10}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7057,7 +7057,7 @@
 					],
 					"skill_desc": "Damage Reduction against Elites is increased by {4/8/12/16/20/24/28/32/36/40}%.",
 					"skill_name": "Martial Vigor",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7175,7 +7175,7 @@
 					],
 					"skill_desc": "You have +{3/6/9/12/15/18/21/24/27/30}% increased Critical Strike chance against Immobilized, Stunned, or Slowed enemies.",
 					"skill_name": "No Mercy",
-					"skill_rankup_desc": "•  Critical Strike chance bonus: 🡑  +{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Critical Strike chance bonus: 🡑 +{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7214,9 +7214,9 @@
 						"Berserking",
 						"Brawling"
 					],
-					"skill_desc": "When a Brawling Skill damages at least one enemy, gain Berserking for {1/2/3/4/5/6/7/8/9/10} |4second.:seconds.",
+					"skill_desc": "When a Brawling Skill damages at least one enemy, gain Berserking for {1/2/3/4/5/6/7/8/9/10} seconds.",
 					"skill_name": "Battle Fervor",
-					"skill_rankup_desc": "•  Berserking Duration 🡑  {1/2/3/4/5/6/7/8/9/10}"
+					"skill_rankup_desc": "• Berserking Duration 🡑 {1/2/3/4/5/6/7/8/9/10}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7254,7 +7254,7 @@
 					],
 					"skill_desc": "Your Bleeding effects deal x{6/12/18/24/30/36/42/48/54/60}% increased damage to Vulnerable enemies.",
 					"skill_name": "Cut to the Bone",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7290,7 +7290,7 @@
 					],
 					"skill_desc": "Each time you swap weapons, gain {2/4/6/8/10/12/14/16/18/20} Fury.",
 					"skill_name": "Furious Impulse",
-					"skill_rankup_desc": "• Fury 🡑  {2/4/6/8/10/12/14/16/18/20}"
+					"skill_rankup_desc": "•Fury 🡑 {2/4/6/8/10/12/14/16/18/20}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7332,7 +7332,7 @@
 					],
 					"skill_desc": "You deal x{3/6/9/12/15/18/21/24/27/30}% increased damage to Close enemies and gain {2/4/6/8/10/12/14/16/18/20}% Distant Damage Reduction.",
 					"skill_name": "Pit Fighter",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{3/6/9/12/15/18/21/24/27/30}%\n•  Damage Reduction 🡑  {2/4/6/8/10/12/14/16/18/20}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{3/6/9/12/15/18/21/24/27/30}%\n• Damage Reduction 🡑 {2/4/6/8/10/12/14/16/18/20}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7373,7 +7373,7 @@
 					],
 					"skill_desc": "Your Bleeding effects Slow enemies by {10/20/30/40/50/60/70/80/90/100}%.",
 					"skill_name": "Hamstring",
-					"skill_rankup_desc": "•  Slow 🡑  {10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Slow 🡑 {10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7414,7 +7414,7 @@
 					],
 					"skill_desc": "Each time you take direct damage gain {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% Base Life as Fortify.",
 					"skill_name": "Thick Skin",
-					"skill_rankup_desc": "•  Fortify Amount 🡑  {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}%"
+					"skill_rankup_desc": "• Fortify Amount 🡑 {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7460,7 +7460,7 @@
 					],
 					"skill_desc": "Gain {4/8/12/16/20/24/28/32/36/40} Thorns. Also gain 4 Thorns for each 5 bonus Maximum Life you have.",
 					"skill_name": "Outburst",
-					"skill_rankup_desc": "•  Thorns 🡑  {4/8/12/16/20/24/28/32/36/40}"
+					"skill_rankup_desc": "• Thorns 🡑 {4/8/12/16/20/24/28/32/36/40}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7497,7 +7497,7 @@
 					],
 					"skill_desc": "Movement Speed is increased by +{4/8/12/16/20/24/28/32/36/40}%.",
 					"skill_name": "Swiftness",
-					"skill_rankup_desc": "•  Movement Speed 🡑  +{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Movement Speed 🡑 +{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7542,7 +7542,7 @@
 					],
 					"skill_desc": "Lucky Hit: Skills using Bludgeoning weapons have up to a {10/20/30/40/50/60/70/80/90/100}% chance to Stun enemies for 3 seconds, or up to a {15/30/45/60/75/90/105/120/135/150}% chance when using a Two-Handed Bludgeoning weapon.",
 					"skill_name": "Concussion",
-					"skill_rankup_desc": "•  One-Handed Chance 🡑  {10/20/30/40/50/60/70/80/90/100}%\n•  Two-Handed Chance 🡑  {15/30/45/60/75/90/105/120/135/150}%"
+					"skill_rankup_desc": "• One-Handed Chance 🡑 {10/20/30/40/50/60/70/80/90/100}%\n• Two-Handed Chance 🡑 {15/30/45/60/75/90/105/120/135/150}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -7581,7 +7581,7 @@
 					],
 					"skill_desc": "You deal x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% increased damage against Injured enemies.",
 					"skill_name": "Slaying Strike",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8164,7 +8164,7 @@
 						"Physical",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nCall upon 3 Ancients to aid you in battle for 6 seconds.\n•  Korlic leaps at enemies, dealing 104% damage and swings his weapons in a frenzy, dealing 39% damage per hit.\n•  Talic spins in a whirlwind rapidly attacking enemies for 65% damage.\n•  Madawc upheaves the ground, dealing 195% damage.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nCall upon 3 Ancients to aid you in battle for 6 seconds.\n• Korlic leaps at enemies, dealing 104% damage and swings his weapons in a frenzy, dealing 39% damage per hit.\n• Talic spins in a whirlwind rapidly attacking enemies for 65% damage.\n• Madawc upheaves the ground, dealing 195% damage.",
 					"skill_name": "Call of the Ancients"
 				},
 				"req_points": 0,
@@ -8198,7 +8198,7 @@
 					],
 					"skill_desc": "Gain {4/8/12/16/20/24/28/32/36/40}% Damage Reduction while Berserking.",
 					"skill_name": "Aggressive Resistance",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8272,7 +8272,7 @@
 						"Dual Wield",
 						"Slashing"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nActivate three times to attach chains to each of your weapons and perform an attack:\n•  First your Two-Handed Bludgeoning weapon slams into the ground, dealing 60% damage and Stunning enemies for 2 seconds.\n•  Second your Two-Handed Slashing weapon swipes in front of you, dealing 20% damage and inflicting 120% Bleeding damage over 5 seconds.\n•  Third your Dual Wield weapons swing around you, dealing 32.5% damage per hit.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nActivate three times to attach chains to each of your weapons and perform an attack:\n• First your Two-Handed Bludgeoning weapon slams into the ground, dealing 60% damage and Stunning enemies for 2 seconds.\n• Second your Two-Handed Slashing weapon swipes in front of you, dealing 20% damage and inflicting 120% Bleeding damage over 5 seconds.\n• Third your Dual Wield weapons swing around you, dealing 32.5% damage per hit.",
 					"skill_name": "Iron Maelstrom"
 				},
 				"req_points": 0,
@@ -8412,7 +8412,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nBecome Unstoppable and rush forward, pushing enemies with you then swinging through them for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking them Back.",
 					"skill_name": "Charge",
-					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n•  Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8477,7 +8477,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nLeap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% damage and Knocking Back surrounding enemies on impact.",
 					"skill_name": "Leap",
-					"skill_rankup_desc": "•  Damage 🡑  {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%\n•  Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Damage 🡑 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%\n• Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8540,7 +8540,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nBellow a mighty war cry, increasing your damage dealt by x{#}% for 8 seconds, and Nearby allies for 4 seconds.",
 					"skill_name": "War Cry",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{#}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{#}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8608,7 +8608,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nSmash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% damage and Stunning surrounding enemies for {#} seconds.",
 					"skill_name": "Ground Stomp",
-					"skill_rankup_desc": "•  Damage 🡑  {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%\n•  Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Damage 🡑 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%\n• Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8672,9 +8672,9 @@
 						"Physical",
 						"Cooldown"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nCooldown: {#} seconds\nLucky Hit Chance: {#}%\nAttempt a killing strike, dealing {120/132/144/156/168/180/192/204/216/228}% damage to enemies in front of you.\n\nIf this kills an enemy, its Cooldown is reset.If this kills an enemy, a Charge is refunded.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nCooldown: {#} seconds\nLucky Hit Chance: {#}%\nAttempt a killing strike, dealing {120/132/144/156/168/180/192/204/216/228}% damage to enemies in front of you.\n\nIf this kills an enemy, its Cooldown is reset.",
 					"skill_name": "Death Blow",
-					"skill_rankup_desc": "•  Damage 🡑  {120/132/144/156/168/180/192/204/216/228}%"
+					"skill_rankup_desc": "• Damage 🡑 {120/132/144/156/168/180/192/204/216/228}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8765,7 +8765,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nCharges: 2\nCharge Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nSkewer enemies in front of you, dealing 13% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.",
 					"skill_name": "Rupture",
-					"skill_rankup_desc": "•  Cooldown: 🡑  {#} seconds."
+					"skill_rankup_desc": "• Cooldown: 🡑 {#} seconds."
 				},
 				"req_points": 0,
 				"reward": {
@@ -8835,7 +8835,7 @@
 					],
 					"skill_desc": "Fury Cost: {#}\nLucky Hit Chance: {#}%\nCleave enemies in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage and inflicting {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Bleeding damage over 5 seconds.",
 					"skill_name": "Rend",
-					"skill_rankup_desc": "•  Impact Damage 🡑  {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%\n•  Bleeding Damage 🡑  {96/105.6/115.2/124.8/134.4/144/153.6/163.2/172.8/182.4}%"
+					"skill_rankup_desc": "• Impact Damage 🡑 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%\n• Bleeding Damage 🡑 {96/105.6/115.2/124.8/134.4/144/153.6/163.2/172.8/182.4}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8889,7 +8889,7 @@
 					],
 					"skill_desc": "Charges: {#}\nCharge Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nThrow out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and Pull In enemies.",
 					"skill_name": "Steel Grasp",
-					"skill_rankup_desc": "•  Damage 🡑  {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%\n•  Charge Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Damage 🡑 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%\n• Charge Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -9775,7 +9775,7 @@
 		},
 		"Paragon (Node)": {
 			"Druid_Legendary_001": {
-				"desc": "Critical Strikes from your Storm Skills make enemies Vulnerable for 1 |4second:seconds;. Enemies that are already Vulnerable have its duration extended by 0.5 seconds instead."
+				"desc": "Critical Strikes from your Storm Skills make enemies Vulnerable for 1 seconds. Enemies that are already Vulnerable have its duration extended by 0.5 seconds instead."
 			},
 			"Druid_Legendary_002": {
 				"desc": "Hurricane and Cataclysm create a Tornado every 2.5 seconds while they are active."
@@ -10148,7 +10148,7 @@
 					],
 					"skill_desc": "You gain +{3/6/9/12/15/18/21/24/27/30}% Movement Speed while in Werewolf form.\n\nThis bonus persists for 3 seconds after leaving Werewolf form.",
 					"skill_name": "Digitigrade Gait",
-					"skill_rankup_desc": "•  Movement Speed 🡑  +{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Movement Speed 🡑 +{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -10193,7 +10193,7 @@
 					],
 					"skill_desc": "Lucky Hit: Your Storm Skills have up to a 20% chance to make enemies Vulnerable for {1/2/3/4/5/6/7/8/9/10} seconds.",
 					"skill_name": "Elemental Exposure",
-					"skill_rankup_desc": "•  Vulnerable Duration 🡑  {1/2/3/4/5/6/7/8/9/10} Seconds"
+					"skill_rankup_desc": "• Vulnerable Duration 🡑 {1/2/3/4/5/6/7/8/9/10} Seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -10231,7 +10231,7 @@
 					],
 					"skill_desc": "Basic Skills generate x{10/20/30/40/50/60/70/80/90/100}% more Spirit.",
 					"skill_name": "Abundance",
-					"skill_rankup_desc": "•  Spirit Generated 🡑  x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Spirit Generated 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -10305,7 +10305,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nForm a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8 seconds.",
 					"skill_name": "Hurricane",
-					"skill_rankup_desc": "•  Damage 🡑  {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}%"
+					"skill_rankup_desc": "• Damage 🡑 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -10588,7 +10588,7 @@
 					],
 					"skill_desc": "Spirit Cost: {#}\nCooldown: {#} seconds\nLucky Hit Chance: {#}%\nUnearth a large rolling boulder that Knocks Back and crushes enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.",
 					"skill_name": "Boulder",
-					"skill_rankup_desc": "•  Damage 🡑  {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%"
+					"skill_rankup_desc": "• Damage 🡑 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -10718,7 +10718,7 @@
 					],
 					"skill_desc": "Generate Spirit: 11\nLucky Hit Chance: {#}%\nShapeshift into a Werebear and maul enemies in front of you, dealing {20/22/24/26/28/30/32/34/36/38}% damage.",
 					"skill_name": "Maul",
-					"skill_rankup_desc": "•  Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%"
+					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -10788,9 +10788,9 @@
 						"Spirit",
 						"Lightning"
 					],
-					"skill_desc": "Generate Spirit: 15\nLucky Hit Chance: {#}%\nElectricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to {#} surrounding enemies, dealing 20% less damage each time it chains.\n\nYou gain 25% Damage Reduction for 3 seconds after dealing damage with Storm Strike .",
+					"skill_desc": "Generate Spirit: 15\nLucky Hit Chance: {#}%\nElectricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to {#} surrounding enemies, dealing 20% less damage each time it chains.\n\nYou gain 25% Damage Reduction for 3 seconds after dealing damage with Storm Strike.",
 					"skill_name": "Storm Strike",
-					"skill_rankup_desc": "•  Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%"
+					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -10951,7 +10951,7 @@
 					],
 					"skill_desc": "You gain {3/6/9/12/15/18/21/24/27/30}% Damage Reduction while in Werebear form.\n\nThis bonus persists for 3 seconds after leaving Werebear form.",
 					"skill_name": "Iron Fur",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11141,7 +11141,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nRocks surround you for 3 seconds, granting a Barrier that absorbs {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% of your Base Life in damage.",
 					"skill_name": "Earthen Bulwark",
-					"skill_rankup_desc": "•  Barrier Amount 🡑   {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
+					"skill_rankup_desc": "• Barrier Amount 🡑  {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11194,7 +11194,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nShapeshift into a Werewolf and howl furiously, Healing you for {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% of your Maximum Life.",
 					"skill_name": "Blood Howl",
-					"skill_rankup_desc": "•  Healing 🡑  {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% Life"
+					"skill_rankup_desc": "• Healing 🡑 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% Life"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11264,7 +11264,7 @@
 					],
 					"skill_desc": "Spirit Cost: {#}\nLucky Hit Chance: {#}%\nCrush enemies between 2 pillars of earth, dealing up to {112.5/123.9/135/146.4/157.5/168.6/180/191.4/202.5/213.6}% damage.",
 					"skill_name": "Landslide",
-					"skill_rankup_desc": "•  Damage 🡑  {112.5/123.9/135/146.4/157.5/168.6/180/191.4/202.5/213.6}%"
+					"skill_rankup_desc": "• Damage 🡑 {112.5/123.9/135/146.4/157.5/168.6/180/191.4/202.5/213.6}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11397,7 +11397,7 @@
 					],
 					"skill_desc": "Generate Spirit: 9\nLucky Hit Chance: {#}%\nShapeshift into a Werewolf and claw at an enemy for {20/22/24/26/28/30/32/34/36/38}% damage.",
 					"skill_name": "Claw",
-					"skill_rankup_desc": "•  Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%"
+					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11632,7 +11632,7 @@
 					],
 					"skill_desc": "Spirit Cost: {#}\nLucky Hit Chance: {#}%\nShapeshift into a Werebear and slam the ground, dealing {50/55/60/65/70/75/80/85/90/95}% damage to surrounding enemies.",
 					"skill_name": "Pulverize",
-					"skill_rankup_desc": "•  Damage 🡑  {50/55/60/65/70/75/80/85/90/95}%"
+					"skill_rankup_desc": "• Damage 🡑 {50/55/60/65/70/75/80/85/90/95}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11669,7 +11669,7 @@
 					],
 					"skill_desc": "Gain {2/4/6/8/10/12/14/16/18/20} Spirit when transforming into Human form.",
 					"skill_name": "Clarity",
-					"skill_rankup_desc": "•  Spirit Gained 🡑  {2/4/6/8/10/12/14/16/18/20}"
+					"skill_rankup_desc": "• Spirit Gained 🡑 {2/4/6/8/10/12/14/16/18/20}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11737,7 +11737,7 @@
 					],
 					"skill_desc": "Cooldown: 0 seconds\nGenerate Spirit: 8\nLucky Hit Chance: {#}%\nSunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.",
 					"skill_name": "Earth Spike",
-					"skill_rankup_desc": "•  Damage 🡑  {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%"
+					"skill_rankup_desc": "• Damage 🡑 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11823,7 +11823,7 @@
 					],
 					"skill_desc": "Spirit Cost: {#}\nLucky Hit Chance: {#}%\nConjure a swirling tornado that deals {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
 					"skill_name": "Tornado",
-					"skill_rankup_desc": "•  Damage 🡑  {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -12447,7 +12447,7 @@
 					],
 					"skill_desc": "Critical Strikes with Werewolf Skills deal {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% of their Base damage as Poisoning damage over 4 seconds.",
 					"skill_name": "Toxic Claws",
-					"skill_rankup_desc": "•  Poisoning Damage 🡑  {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}%"
+					"skill_rankup_desc": "• Poisoning Damage 🡑 {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -13174,7 +13174,7 @@
 					],
 					"skill_desc": "Whenever you are Stunned, Immobilized, or Knocked Down, Fortify for {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% Base Life.",
 					"skill_name": "Thick Hide",
-					"skill_rankup_desc": "•  Fortify Amount 🡑  {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}%"
+					"skill_rankup_desc": "• Fortify Amount 🡑 {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -13442,7 +13442,7 @@
 					],
 					"skill_desc": "Poisoned enemies take x{10/20/30/40/50/60/70/80/90/100}% additional Critical Strike Damage.",
 					"skill_name": "Envenom",
-					"skill_rankup_desc": "•  Critical Strike Damage 🡑  x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Critical Strike Damage 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -13483,7 +13483,7 @@
 					],
 					"skill_desc": "{5/10/15/20/25/30/35/40/45/50}% chance when struck to Fortify you for 4.4% Base Life.",
 					"skill_name": "Nature's Resolve",
-					"skill_rankup_desc": "•  Fortify Chance 🡑  Up to {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Fortify Chance 🡑 Up to {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -13522,7 +13522,7 @@
 					],
 					"skill_desc": "Your Core Skills cost x{5/10/15/20/25/30/35/40/45/50}% more Spirit but deal x{10/20/30/40/50/60/70/80/90/100}% increased damage.",
 					"skill_name": "Wild Impulses",
-					"skill_rankup_desc": "•  Spirit Cost Increase 🡑  x{5/10/15/20/25/30/35/40/45/50}%\n•  Core Skill Damage 🡑  x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Spirit Cost Increase 🡑 x{5/10/15/20/25/30/35/40/45/50}%\n• Core Skill Damage 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -13560,7 +13560,7 @@
 					],
 					"skill_desc": "Increases the amount of Fortify you gain from all sources by +{5/10/15/20/25/30/35/40/45/50}%.",
 					"skill_name": "Defensive Posture",
-					"skill_rankup_desc": "•  Fortify Bonus 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Fortify Bonus 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -13602,7 +13602,7 @@
 					],
 					"skill_desc": "Critical Strikes with Earth Skills Fortify you for {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}% Base Life.",
 					"skill_name": "Safeguard",
-					"skill_rankup_desc": "•  Fortify 🡑  {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}%"
+					"skill_rankup_desc": "• Fortify 🡑 {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -13645,7 +13645,7 @@
 					],
 					"skill_desc": "While you have Fortify for over [0.5*100|%|] of your Maximum Life, your Earth Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage.",
 					"skill_name": "Stone Guard",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -13701,7 +13701,7 @@
 						"Damage",
 						"Nature Magic"
 					],
-					"skill_desc": "Casting an Earth Skill has a 20% chance to trigger a free Storm Skill of the same category. \n\nIn addition, casting a Storm Skill has a 20% chance to trigger a free Earth Skill of the same category.",
+					"skill_desc": "Casting an Earth Skill has a 20% chance to trigger a free Storm Skill of the same category.\n\nIn addition, casting a Storm Skill has a 20% chance to trigger a free Earth Skill of the same category.",
 					"skill_name": "Nature's Fury"
 				},
 				"req_points": 0,
@@ -15635,7 +15635,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nShapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by 50% for 4 seconds.",
 					"skill_name": "Debilitating Roar",
-					"skill_rankup_desc": "•  Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -15708,7 +15708,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#} Poisoning damage over {#} seconds to an enemy in the area.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.",
 					"skill_name": "Vine Creeper",
-					"skill_rankup_desc": "•  Passive Damage 🡑  {#}\n•  Active Damage 🡑  {#}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {#}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -15793,7 +15793,7 @@
 					],
 					"skill_desc": "Generate Spirit: 12\nLucky Hit Chance: {#}%\nConjure a piercing blade of wind, dealing {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% damage.",
 					"skill_name": "Wind Shear",
-					"skill_rankup_desc": "•  Damage 🡑  {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}%"
+					"skill_rankup_desc": "• Damage 🡑 {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -15865,7 +15865,7 @@
 					],
 					"skill_desc": "Spirit Cost: {#} per strike\nLucky Hit Chance: {#}%\nConjure a growing lightning storm that deals {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.",
 					"skill_name": "Lightning Storm",
-					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -15908,7 +15908,7 @@
 					],
 					"skill_desc": "Earth Skills deal x{5/10/15/20/25/30/35/40/45/50}% increased damage to Slowed, Stunned, Immobilized or Knocked Back enemies.",
 					"skill_name": "Crushing Earth",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -15966,7 +15966,7 @@
 						"Werewolf",
 						"Werebear"
 					],
-					"skill_desc": "After being a Werewolf for 2.5 seconds, gain +20% Attack Speed for 15 seconds. \n\nAfter being a Werebear for 2.5 seconds, deal x20% increased damage for 15 seconds.",
+					"skill_desc": "After being a Werewolf for 2.5 seconds, gain +20% Attack Speed for 15 seconds.\n\nAfter being a Werebear for 2.5 seconds, deal x20% increased damage for 15 seconds.",
 					"skill_name": "Bestial Rampage"
 				},
 				"req_points": 0,
@@ -16101,7 +16101,7 @@
 					],
 					"skill_desc": "Poisoned enemies are slowed by {8/16/24/32/40/48/56/64/72/80}%.",
 					"skill_name": "Neurotoxin",
-					"skill_rankup_desc": "•  Slow Amount 🡑  {8/16/24/32/40/48/56/64/72/80}%"
+					"skill_rankup_desc": "• Slow Amount 🡑 {8/16/24/32/40/48/56/64/72/80}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16141,7 +16141,7 @@
 					],
 					"skill_desc": "When a Shapeshifting Skill transforms you into a different form, it deals x{5/10/15/20/25/30/35/40/45/50}% increased damage.",
 					"skill_name": "Quickshift",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16182,7 +16182,7 @@
 					],
 					"skill_desc": "Shapeshifting Fortifies you for {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}% Base Life.",
 					"skill_name": "Natural Fortitude",
-					"skill_rankup_desc": "•  Fortify Amount 🡑  {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}%"
+					"skill_rankup_desc": "• Fortify Amount 🡑 {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16222,7 +16222,7 @@
 					],
 					"skill_desc": "Nature Magic Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage to Elites.",
 					"skill_name": "Defiance",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16278,7 +16278,7 @@
 					],
 					"skill_desc": "Maximum Spirit is increased by {3/6/9/12/15/18/21/24/27/30}.",
 					"skill_name": "Heart of the Wild",
-					"skill_rankup_desc": "•  Maximum Spirit 🡑  {3/6/9/12/15/18/21/24/27/30}"
+					"skill_rankup_desc": "• Maximum Spirit 🡑 {3/6/9/12/15/18/21/24/27/30}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16317,7 +16317,7 @@
 					],
 					"skill_desc": "Your companions deal x{10/20/30/40/50/60/70/80/90/100}% bonus damage.",
 					"skill_name": "Call of the Wild",
-					"skill_rankup_desc": "• Bonus Damage 🡑  x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "•Bonus Damage 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16365,7 +16365,7 @@
 					],
 					"skill_desc": "Every {18/15/12/9/6/3/0/-3/-6/-9} seconds, a lightning strike hits a Nearby enemy dealing 45% damage.",
 					"skill_name": "Charged Atmosphere",
-					"skill_rankup_desc": "•  Interval 🡑  Every {18/15/12/9/6/3/0/-3/-6/-9} Seconds"
+					"skill_rankup_desc": "• Interval 🡑 Every {18/15/12/9/6/3/0/-3/-6/-9} Seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16411,7 +16411,7 @@
 					],
 					"skill_desc": "When you remain in Werebear form for at least {25/20/15/10/5/0/-5/-10/-15/-20} seconds, your next Skill will Overpower.",
 					"skill_name": "Provocation",
-					"skill_rankup_desc": "•  Interval 🡑  {25/20/15/10/5/0/-5/-10/-15/-20} Seconds"
+					"skill_rankup_desc": "• Interval 🡑 {25/20/15/10/5/0/-5/-10/-15/-20} Seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16451,7 +16451,7 @@
 					],
 					"skill_desc": "You gain {5/10/15/20/25/30/35/40/45/50}% Damage Reduction for 6 seconds after using a Defensive Skill.",
 					"skill_name": "Vigilance",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16494,7 +16494,7 @@
 					],
 					"skill_desc": "Upon shapeshifting into a Werewolf or Werebear, gain {4/8/12/16/20/24/28/32/36/40}% Damage Reduction against Elites for 5 seconds.",
 					"skill_name": "Heightened Senses",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16590,7 +16590,7 @@
 						"Crowd Control",
 						"Nature Magic"
 					],
-					"skill_desc": "Lucky Hit: Damaging enemies with Earth Skills has up to a 5% chance to:\n•  Restore all of your Spirit\n•  Cause your attacks to be guaranteed Critical Strikes for 5 seconds\n\nThis chance is increased by:\n•  10% for Critical Strikes\n•  10% if the target is Stunned, Immobilized, or Knocked Back",
+					"skill_desc": "Lucky Hit: Damaging enemies with Earth Skills has up to a 5% chance to:\n• Restore all of your Spirit\n• Cause your attacks to be guaranteed Critical Strikes for 5 seconds\n\nThis chance is increased by:\n• 10% for Critical Strikes\n• 10% if the target is Stunned, Immobilized, or Knocked Back",
 					"skill_name": "Earthen Might"
 				},
 				"req_points": 0,
@@ -16636,7 +16636,7 @@
 					],
 					"skill_desc": "Reduce the duration of Control Impairing Effects by {3/6/9/12/15/18/21/24/27/30}%. Triple this effect while you have Fortify for over 50% of your Maximum Life.",
 					"skill_name": "Unrestrained",
-					"skill_rankup_desc": "•  Control Impairment Reduction 🡑  {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Control Impairment Reduction 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16684,7 +16684,7 @@
 					],
 					"skill_desc": "Your Earth Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage to Vulnerable enemies.\n\nYour Storm Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage to enemies that are Stunned, Immobilized, or Knocked Back.",
 					"skill_name": "Natural Disaster",
-					"skill_rankup_desc": "•  Earth Skill Damage 🡑  x{4/8/12/16/20/24/28/32/36/40}%\n•  Storm Skill Damage 🡑  x{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Earth Skill Damage 🡑 x{4/8/12/16/20/24/28/32/36/40}%\n• Storm Skill Damage 🡑 x{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16746,7 +16746,7 @@
 					],
 					"skill_desc": "Lucky Hit: Dealing Lightning damage to enemies has a {5/10/15/20/25/30/35/40/45/50}% chance to Immobilize them for 3 seconds.\n\nIf the target is already Immobilized, the Lightning damage dealt to them is increased by x{5/10/15/20/25/30/35/40/45/50}% instead.",
 					"skill_name": "Electric Shock",
-					"skill_rankup_desc": "•  Immobilize Chance 🡑  Up to {5/10/15/20/25/30/35/40/45/50}%\n•  Bonus Lightning Damage 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Immobilize Chance 🡑 Up to {5/10/15/20/25/30/35/40/45/50}%\n• Bonus Lightning Damage 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16780,7 +16780,7 @@
 					],
 					"skill_desc": "Increase the duration of Hurricane and Cataclysm by x{5/10/15/20/25/30/35/40/45/50}%.",
 					"skill_name": "Endless Tempest",
-					"skill_rankup_desc": "•  Duration 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Duration 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16826,7 +16826,7 @@
 					],
 					"skill_desc": "Nature Magic Skills deal x{2/4/6/8/10/12/14/16/18/20}% increased damage. Triple this bonus if an Earth Skill is the next Skill cast after a Storm Skill, or a  Storm Skill is the next Skill cast after an Earth Skill.",
 					"skill_name": "Resonance",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{2/4/6/8/10/12/14/16/18/20}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{2/4/6/8/10/12/14/16/18/20}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16865,7 +16865,7 @@
 					],
 					"skill_desc": "Critical Strike Chance against Close enemies is increased by +{3/6/9/12/15/18/21/24/27/30}%.",
 					"skill_name": "Predatory Instinct",
-					"skill_rankup_desc": "•  Critical Strike Chance 🡑  +{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Critical Strike Chance 🡑 +{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16913,7 +16913,7 @@
 					],
 					"skill_desc": "Lucky Hit: Up to a {10/20/30/40/50/60/70/80/90/100}% chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a lightning strike also hits dealing 55% damage.",
 					"skill_name": "Bad Omen",
-					"skill_rankup_desc": "•  Chance 🡑  Up to {10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Chance 🡑 Up to {10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16952,7 +16952,7 @@
 					],
 					"skill_desc": "Increase your Non-Physical Resistances by {5/10/15/20/25/30/35/40/45/50}%.",
 					"skill_name": "Ancestral Fortitude",
-					"skill_rankup_desc": "•  Non-Physical Resistances 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Non-Physical Resistances 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -16992,7 +16992,7 @@
 					],
 					"skill_desc": "Nature Magic Skills that consume Spirit Heal you for {1/2/3/4/5/6/7/8/9/10}% of your Maximum Life.",
 					"skill_name": "Circle of Life",
-					"skill_rankup_desc": "•  Maximum Life Restored 🡑  {1/2/3/4/5/6/7/8/9/10}%"
+					"skill_rankup_desc": "• Maximum Life Restored 🡑 {1/2/3/4/5/6/7/8/9/10}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -17272,7 +17272,7 @@
 					],
 					"skill_desc": "While in Werebear form, you receive +{5/10/15/20/25/30/35/40/45/50}% additional Healing from all sources.",
 					"skill_name": "Mending",
-					"skill_rankup_desc": "•  Healing 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Healing 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -17919,7 +17919,7 @@
 						"Cooldown",
 						"Critical Strikes"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nEncase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x25% increased Critical Strike Damage to enemies affected by Petrify. \n\nAgainst Bosses, the Critical Strike Damage bonus is increased to x50% and its duration is increased to {#} seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nEncase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x25% increased Critical Strike Damage to enemies affected by Petrify.\n\nAgainst Bosses, the Critical Strike Damage bonus is increased to x50% and its duration is increased to {#} seconds.",
 					"skill_name": "Petrify"
 				},
 				"req_points": 0,
@@ -18023,7 +18023,7 @@
 					],
 					"skill_desc": "Deal x{3/6/9/12/15/18/21/24/27/30}% increased damage to Distant enemies. Double this bonus if they are also Slowed, Stunned, Immobilized, or Knocked Back.",
 					"skill_name": "Nature's Reach",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -18088,9 +18088,9 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nShapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and applying an additional {#} Poisoning damage over {#} seconds. \n\nInfected enemies spread Rabies to other surrounding targets.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nShapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and applying an additional {#} Poisoning damage over {#} seconds.\n\nInfected enemies spread Rabies to other surrounding targets.",
 					"skill_name": "Rabies",
-					"skill_rankup_desc": "•  Initial Damage 🡑  {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%\n•  Poisoning Damage 🡑  {#}"
+					"skill_rankup_desc": "• Initial Damage 🡑 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%\n• Poisoning Damage 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -18301,7 +18301,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nShapeshift into a Werebear, become Unstoppable, and charge forward, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking Back enemies.\n\nEnemies who are Knocked Back into terrain take an additional {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and are Stunned for 3 seconds.",
 					"skill_name": "Trample",
-					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n•  Terrain Impact Damage 🡑  {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• Terrain Impact Damage 🡑 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -18372,9 +18372,9 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Summon {#} wolf companions that bite enemies for {#} damage.\n\nActive: Direct your wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Summon {#} wolf companions that bite enemies for {#}% damage.\n\nActive: Direct your wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
 					"skill_name": "Wolves",
-					"skill_rankup_desc": "•  Passive Damage 🡑  {#}\n•  Active Damage 🡑  {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -18435,9 +18435,9 @@
 						"Physical",
 						"Crowd Control"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Powerful winds surround you, granting {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% Non-Physical Damage Reduction.  \n\nActive: The winds rapidly expand, Knocking Back enemies and dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Powerful winds surround you, granting {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% Non-Physical Damage Reduction.\n\nActive: The winds rapidly expand, Knocking Back enemies and dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage.",
 					"skill_name": "Cyclone Armor",
-					"skill_rankup_desc": "•  Non-Physical Damage Reduction 🡑  {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%\n•  Damage 🡑  {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
+					"skill_rankup_desc": "• Non-Physical Damage Reduction 🡑 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%\n• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -18503,9 +18503,9 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: {#} |4Raven:Ravens; |4flies:fly; above you and periodically |4attacks:attack; your enemies for {#} damage every 5 seconds.\n\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: {#} Ravens fly above you and periodically attack your enemies for {#}% damage every 5 seconds.\n\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
 					"skill_name": "Ravens",
-					"skill_rankup_desc": "•  Passive Damage 🡑  {#}\n•  Active Damage 🡑  {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -18734,9 +18734,9 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Spirit Cost: {#}\nLucky Hit Chance: {#}%\nShapeshift into a Werewolf and perform a trio of combo attacks:\n• 1st Attack: Deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.\n• 2nd Attack: Deal {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.\n• 3rd Attack: Perform a larger finishing move dealing {60/66/72/78/84/90/96/102/108/114}% damage.",
+					"skill_desc": "Spirit Cost: {#}\nLucky Hit Chance: {#}%\nShapeshift into a Werewolf and perform a trio of combo attacks:\n•1st Attack: Deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.\n•2nd Attack: Deal {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.\n•3rd Attack: Perform a larger finishing move dealing {60/66/72/78/84/90/96/102/108/114}% damage.",
 					"skill_name": "Shred",
-					"skill_rankup_desc": "•  1st Attack Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n•  2nd Attack Damage 🡑  {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%\n•  3rd Attack Damage 🡑  {60/66/72/78/84/90/96/102/108/114}%"
+					"skill_rankup_desc": "• 1st Attack Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• 2nd Attack Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%\n• 3rd Attack Damage 🡑 {60/66/72/78/84/90/96/102/108/114}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -18978,7 +18978,7 @@
 					"PassiveRankBonus_Druid_Shapeshifting_T4_N1_Quickshift_Always1"
 				],
 				"category": 0,
-				"desc": "Gain a bonus when you kill with a Shapeshifting Skill:\n• Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n• Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
+				"desc": "Gain a bonus when you kill with a Shapeshifting Skill:\n•Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n•Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
 				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash",
 				"name": "Hunter's Zenith",
 				"power_formulas": [
@@ -22076,7 +22076,7 @@
 					"Indestructible"
 				],
 				"category": 0,
-				"desc": "Increases your Critical Strike Damage by x{60/100}%. \n\nThe other properties on this weapon can roll higher than normal.",
+				"desc": "Increases your Critical Strike Damage by x{60/100}%.\n\nThe other properties on this weapon can roll higher than normal.",
 				"flavor": "An unbroken lineage of unwavering strength.",
 				"name": "The Grandfather",
 				"power_formulas": [
@@ -22238,7 +22238,7 @@
 					"CoreStats_All_Weapon"
 				],
 				"category": 2,
-				"desc": "Gain {5/8}% Damage Reduction. \nIn addition, gain +2.0 Ranks to all Skills.",
+				"desc": "Gain {5/8}% Damage Reduction.\nIn addition, gain +2.0 Ranks to all Skills.",
 				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston",
 				"name": "Harlequin Crest",
 				"power_formulas": [
@@ -22357,7 +22357,7 @@
 				"name": "Sacrifice"
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeA": {
-				"desc": "Every 5th Iron Golem attack causes a shockwave, dealing {#} damage to the primary enemy and to enemies behind them.",
+				"desc": "Every 5th Iron Golem attack causes a shockwave, dealing {#}% damage to the primary enemy and to enemies behind them.",
 				"name": "Upgrade A"
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeB": {
@@ -22448,7 +22448,7 @@
 					4.0
 				],
 				"category": 0,
-				"desc": "Bone Storm and Blood Wave are also Darkness Skills, deal Shadow damage, and gain additional effects: \n•  Enemies damaged by Bone Storm take {16/22} Shadow damage over 2.0 seconds. \n•  Blood Wave desecrates the ground it travels over, dealing {256/352} Shadow damage over 4.0 seconds",
+				"desc": "Bone Storm and Blood Wave are also Darkness Skills, deal Shadow damage, and gain additional effects:\n• Enemies damaged by Bone Storm take {16/22} Shadow damage over 2.0 seconds.\n• Blood Wave desecrates the ground it travels over, dealing {256/352} Shadow damage over 4.0 seconds",
 				"name": "of Ultimate Shadow"
 			},
 			"Legendary_Necro_122": {
@@ -23614,7 +23614,7 @@
 					],
 					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nConjure a bone spear from the ground, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage and piercing through enemies.",
 					"skill_name": "Bone Spear",
-					"skill_rankup_desc": "•  Damage 🡑  {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -23685,7 +23685,7 @@
 					],
 					"skill_desc": "Generate Essence: 5\nLucky Hit Chance: {#}%\nFire 3 bone splinters, dealing {22.5/24.8/27/29.3/31.5/33.8/36/38.2/40.5/42.8}% damage each. Each subsequent time an enemy is hit by the same cast of Bone Splinters, you gain 1 Essence.",
 					"skill_name": "Bone Splinters",
-					"skill_rankup_desc": "•  Damage 🡑  {22.5/24.8/27/29.3/31.5/33.8/36/38.2/40.5/42.8}%"
+					"skill_rankup_desc": "• Damage 🡑 {22.5/24.8/27/29.3/31.5/33.8/36/38.2/40.5/42.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25151,7 +25151,7 @@
 					],
 					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nA specter of you charges forward and attacks with its scythe for {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% damage then returns to you and attacks again for {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage.",
 					"skill_name": "Sever",
-					"skill_rankup_desc": "•  Initial Damage 🡑  {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}%\n•  Return Damage 🡑  {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%"
+					"skill_rankup_desc": "• Initial Damage 🡑 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}%\n• Return Damage 🡑 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25304,7 +25304,7 @@
 					],
 					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nDetonate a Corpse, dealing {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage to surrounding enemies.",
 					"skill_name": "Corpse Explosion",
-					"skill_rankup_desc": "•  Damage 🡑  {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25379,7 +25379,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nEssence Cost: All Remaining Essence\nLucky Hit Chance: {#}%\nConsume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the target and all surrounding enemies. Damage is increased by x3% for each point of Essence spent casting Bone Spirit.",
 					"skill_name": "Bone Spirit",
-					"skill_rankup_desc": "•  Damage 🡑  {80/88/96/104/112/120/128/136/144/152}%"
+					"skill_rankup_desc": "• Damage 🡑 {80/88/96/104/112/120/128/136/144/152}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25453,7 +25453,7 @@
 					],
 					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nDraw blood from enemies, dealing {20/22/24/26/28/30/32/34/36/38}% damage, and expel a blood nova, dealing {50/55/60/65/70/75/80/85/90/95}% damage. Blood Surge's nova damage is increased by x10% per enemy drained, up to x50%.",
 					"skill_name": "Blood Surge",
-					"skill_rankup_desc": "•  Initial Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%\n•  Nova Damage 🡑  {50/55/60/65/70/75/80/85/90/95}%"
+					"skill_rankup_desc": "• Initial Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%\n• Nova Damage 🡑 {50/55/60/65/70/75/80/85/90/95}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25519,7 +25519,7 @@
 					],
 					"skill_desc": "Generate Essence: 8\nLucky Hit Chance: {#}%\nBurst an enemy's blood, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage. Hemorrhage has a 20% chance to form a Blood Orb.",
 					"skill_name": "Hemorrhage",
-					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25726,7 +25726,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nUnearth a prison of bone with pet_health:BoneWall Life that surrounds the target area for 6 seconds.",
 					"skill_name": "Bone Prison",
-					"skill_rankup_desc": "•  Bone Prison Life 🡑  pet_health:BoneWall\n•  Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Bone Prison Life 🡑 pet_health:BoneWall\n• Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25995,7 +25995,7 @@
 					],
 					"skill_desc": "Essence Cost: {#}\nCurse the target area. Enemies afflicted by Iron Maiden take {10/11/12/13/14/15/16/17/18/19}% damage each time they deal direct damage. Lasts 10 seconds.",
 					"skill_name": "Iron Maiden",
-					"skill_rankup_desc": "•  Damage 🡑  {10/11/12/13/14/15/16/17/18/19}%"
+					"skill_rankup_desc": "• Damage 🡑 {10/11/12/13/14/15/16/17/18/19}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -26063,7 +26063,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nVeins burst out of a Corpse, Pulling in enemies, Stunning them for 3 seconds, and dealing {20/22/24/26/28/30/32/34/36/38}% damage to them. Does not consume the Corpse.",
 					"skill_name": "Corpse Tendrils",
-					"skill_rankup_desc": "•  Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%\n•  Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%\n• Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -26415,7 +26415,7 @@
 					],
 					"skill_desc": "Generate Essence: 4 per enemy hit\nLucky Hit Chance: {#}%\nSweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15% for 2 seconds.",
 					"skill_name": "Reap",
-					"skill_rankup_desc": "•  Damage 🡑  {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%"
+					"skill_rankup_desc": "• Damage 🡑 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -26821,7 +26821,7 @@
 					],
 					"skill_desc": "Darkness Skills deal x{3/6/9/12/15/18/21/24/27/30}% bonus damage to enemies who are Slowed, and x{3/6/9/12/15/18/21/24/27/30}% bonus damage to enemies who are Stunned or Immobilized. These bonuses stack and apply to Shadow Damage dealt by your Minions.",
 					"skill_name": "Terror",
-					"skill_rankup_desc": "•  Bonus Darkness Damage vs. Slowed 🡑  x{3/6/9/12/15/18/21/24/27/30}%\n•  Bonus Darkness Damage vs. Stunned or Immobilized 🡑  x{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Bonus Darkness Damage vs. Slowed 🡑 x{3/6/9/12/15/18/21/24/27/30}%\n• Bonus Darkness Damage vs. Stunned or Immobilized 🡑 x{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -26865,7 +26865,7 @@
 					],
 					"skill_desc": "When you damage enemies with Darkness Skills, they take x{2/4/6/8/10/12/14/16/18/20}% increased Shadow Damage from you and your Minions for 2 seconds, stacking up to 3 times.",
 					"skill_name": "Gloom",
-					"skill_rankup_desc": "•  Bonus Shadow Damage 🡑  x{2/4/6/8/10/12/14/16/18/20}%"
+					"skill_rankup_desc": "• Bonus Shadow Damage 🡑 x{2/4/6/8/10/12/14/16/18/20}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -26904,7 +26904,7 @@
 					],
 					"skill_desc": "Blood Orbs also Heal your Minions for {15/30/45/60/75/90/105/120/135/150}% of the amount.",
 					"skill_name": "Transfusion",
-					"skill_rankup_desc": "•  Blood Orb Heal 🡑  {15/30/45/60/75/90/105/120/135/150}%"
+					"skill_rankup_desc": "• Blood Orb Heal 🡑 {15/30/45/60/75/90/105/120/135/150}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -26945,7 +26945,7 @@
 					],
 					"skill_desc": "Increases Damage Reduction by {6/12/18/24/30/36/42/48/54/60}%, reduced by 2% for each active Minion.",
 					"skill_name": "Stand Alone",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27062,7 +27062,7 @@
 					],
 					"skill_desc": "After Critically Striking 10 times with Bone Skills, your Bone Skills deal x{5/10/15/20/25/30/35/40/45/50}% increased damage for 5 seconds.",
 					"skill_name": "Compound Fracture",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27106,7 +27106,7 @@
 					],
 					"skill_desc": "Damaging enemies with Darkness Skills increases your Movement Speed by +{5/10/15/20/25/30/35/40/45/50}% for 3 seconds.",
 					"skill_name": "Reaper's Pursuit",
-					"skill_rankup_desc": "•  Movement Speed Bonus 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Movement Speed Bonus 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27145,7 +27145,7 @@
 					],
 					"skill_desc": "Your Core Skills cost x{5/10/15/20/25/30/35/40/45/50}% more Essence, but deal x{10/20/30/40/50/60/70/80/90/100}% increased damage.",
 					"skill_name": "Imperfectly Balanced",
-					"skill_rankup_desc": "•  Essence Cost Increase 🡑  x{5/10/15/20/25/30/35/40/45/50}%\n•  Core Skill Damage Bonus 🡑  x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Essence Cost Increase 🡑 x{5/10/15/20/25/30/35/40/45/50}%\n• Core Skill Damage Bonus 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27185,7 +27185,7 @@
 					],
 					"skill_desc": "Your Bone Skills have a +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% increased Critical Strike Chance for each 10 Essence you have upon cast.",
 					"skill_name": "Serration",
-					"skill_rankup_desc": "•  Critical Strike Chance Bonus 🡑  +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%"
+					"skill_rankup_desc": "• Critical Strike Chance Bonus 🡑 +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27317,7 +27317,7 @@
 					],
 					"skill_desc": "Every 100 Essence you spend reduces the cooldowns of your Bone Skills by {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds.",
 					"skill_name": "Rapid Ossification",
-					"skill_rankup_desc": "•  Cooldown Reduction 🡑  {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds"
+					"skill_rankup_desc": "• Cooldown Reduction 🡑 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27357,7 +27357,7 @@
 					],
 					"skill_desc": "While Healthy your Blood Skills deal x{6/12/18/24/30/36/42/48/54/60}% increased damage.",
 					"skill_name": "Coalesced Blood",
-					"skill_rankup_desc": "• Damage Bonus 🡑  x{6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "•Damage Bonus 🡑 x{6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27399,7 +27399,7 @@
 					],
 					"skill_desc": "Every 5 seconds, your Skeletal Priest's Healing will Heal your skeletons for {20/40/60/80/100/120/140/160/180/200}% of their Maximum Life.",
 					"skill_name": "Bonded in Essence",
-					"skill_rankup_desc": "•  Healing Amount 🡑  {20/40/60/80/100/120/140/160/180/200}%"
+					"skill_rankup_desc": "• Healing Amount 🡑 {20/40/60/80/100/120/140/160/180/200}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27440,7 +27440,7 @@
 					],
 					"skill_desc": "Your Bone Skills deal x{6/12/18/24/30/36/42/48/54/60}% increased Critical Strike Damage to Vulnerable enemies.",
 					"skill_name": "Evulsion",
-					"skill_rankup_desc": "•  Critical Strike Damage Bonus 🡑  x{6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "• Critical Strike Damage Bonus 🡑 x{6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27549,7 +27549,7 @@
 					],
 					"skill_desc": "Consuming a Corpse generates {3/6/9/12/15/18/21/24/27/30} Essence.",
 					"skill_name": "Grim Harvest",
-					"skill_rankup_desc": "•  Essence 🡑  {3/6/9/12/15/18/21/24/27/30}"
+					"skill_rankup_desc": "• Essence 🡑 {3/6/9/12/15/18/21/24/27/30}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27584,9 +27584,9 @@
 						"Lucky Hit",
 						"Corpse"
 					],
-					"skill_desc": "Lucky Hit: Your damage has up to a {4/8/12/16/20/24/28/32/36/40}% chance to create a Corpse at the target's location. \n\nThis chance is doubled against Bosses.",
+					"skill_desc": "Lucky Hit: Your damage has up to a {4/8/12/16/20/24/28/32/36/40}% chance to create a Corpse at the target's location.\n\nThis chance is doubled against Bosses.",
 					"skill_name": "Hewed Flesh",
-					"skill_rankup_desc": "•  Spawn Chance 🡑  {4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Spawn Chance 🡑 {4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27621,7 +27621,7 @@
 					],
 					"skill_desc": "When a Corpse is formed from your Skills or your Minions, Fortify for {2/4/6/8/10/12/14/16/18/20}% Base Life.",
 					"skill_name": "Necrotic Carapace",
-					"skill_rankup_desc": "•  Fortify Amount 🡑  {2/4/6/8/10/12/14/16/18/20}%"
+					"skill_rankup_desc": "• Fortify Amount 🡑 {2/4/6/8/10/12/14/16/18/20}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27666,7 +27666,7 @@
 					],
 					"skill_desc": "After you have been Healthy for at least 4 seconds, you and your Minions gain +{4/8/12/16/20/24/28/32/36/40}% Attack Speed.",
 					"skill_name": "Inspiring Leader",
-					"skill_rankup_desc": "•  Attack Speed Bonus 🡑  +{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Attack Speed Bonus 🡑 +{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27702,7 +27702,7 @@
 					],
 					"skill_desc": "Sacrificing both Skeletal Warriors and Skeletal Mages increases their Sacrifice bonuses by {20/40/60/80/100/120/140/160/180/200}%.",
 					"skill_name": "Memento Mori",
-					"skill_rankup_desc": "•  Sacrifice Bonuses 🡑  {20/40/60/80/100/120/140/160/180/200}%"
+					"skill_rankup_desc": "• Sacrifice Bonuses 🡑 {20/40/60/80/100/120/140/160/180/200}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27744,7 +27744,7 @@
 					],
 					"skill_desc": "Lucky Hit: Hitting enemies with Blood Skills has up to a 25% chance to Fortify you for {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}% Base Life.",
 					"skill_name": "Drain Vitality",
-					"skill_rankup_desc": "•  Fortify Amount 🡑  {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}%"
+					"skill_rankup_desc": "• Fortify Amount 🡑 {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27785,7 +27785,7 @@
 					],
 					"skill_desc": "Your Blood Skills deal x{5/10/15/20/25/30/35/40/45/50}% increased Overpower damage. This bonus is doubled while you are Healthy.",
 					"skill_name": "Tides of Blood",
-					"skill_rankup_desc": "•  Bonus Overpower Damage 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Bonus Overpower Damage 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -27925,7 +27925,7 @@
 					],
 					"skill_desc": "Your Minions deal x{10/20/30/40/50/60/70/80/90/100}% increased damage while you are Close to them.",
 					"skill_name": "Hellbent Commander",
-					"skill_rankup_desc": "•  Minion Damage Bonus 🡑  x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Minion Damage Bonus 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -28000,9 +28000,9 @@
 						"Healing",
 						"Damage Reduction"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nDisperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 20% and you periodically deal 1.7% damage to enemies and Healing for {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% of your Maximum Life .",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nDisperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 20% and you periodically deal 1.7% damage to enemies and Healing for {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% of your Maximum Life.",
 					"skill_name": "Blood Mist",
-					"skill_rankup_desc": "•  Healing 🡑  {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% Life\n•  Cooldown 🡑  {#} seconds"
+					"skill_rankup_desc": "• Healing 🡑 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% Life\n• Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -28307,7 +28307,7 @@
 					],
 					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nThrow a blood lance that lingers in an enemy for {#} seconds, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage to the enemy and all other lanced enemies.",
 					"skill_name": "Blood Lance",
-					"skill_rankup_desc": "•  Damage 🡑  {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -28364,7 +28364,7 @@
 					],
 					"skill_desc": "Essence Cost: {#}\nCurse the target area. Enemies afflicted by Decrepify are Slowed by {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% and deal {20/20/20.9/22/23.1/24.3/25.4/26.6/28/29.4}% less damage for 10 seconds.",
 					"skill_name": "Decrepify",
-					"skill_rankup_desc": "•  Slow 🡑  {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% \n•  Damage Reduction 🡑  {20/20/20.9/22/23.1/24.3/25.4/26.6/28/29.4}%"
+					"skill_rankup_desc": "• Slow 🡑 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%\n• Damage Reduction 🡑 {20/20/20.9/22/23.1/24.3/25.4/26.6/28/29.4}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -28721,7 +28721,7 @@
 					],
 					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nUnleash concentrated blight that deals {30/33/36/39/42/45/48/51/54/57}% damage and leaves behind a defiled area, dealing {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% damage over 6 seconds.",
 					"skill_name": "Blight",
-					"skill_rankup_desc": "•  Impact Damage 🡑  {30/33/36/39/42/45/48/51/54/57}%\n•  Damage Over Time 🡑  {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%"
+					"skill_rankup_desc": "• Impact Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%\n• Damage Over Time 🡑 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29488,7 +29488,7 @@
 					],
 					"skill_desc": "Generate Essence: 6 per second\nLucky Hit Chance: {#}%\nTear the flesh from an enemy, dealing {30/33/36/39/42/45/48/51/54/57}% damage per second and forming a usable Corpse with the flesh every 2.5 seconds.",
 					"skill_name": "Decompose",
-					"skill_rankup_desc": "•  Damage 🡑  {30/33/36/39/42/45/48/51/54/57}%"
+					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29657,9 +29657,9 @@
 						"Damage",
 						"Life"
 					],
-					"skill_desc": "Increase the damage and Life of your Skeletal Warriors by x{15/30/45/60/75/90/105/120/135/150}% .",
+					"skill_desc": "Increase the damage and Life of your Skeletal Warriors by x{15/30/45/60/75/90/105/120/135/150}%.",
 					"skill_name": "Skeletal Warrior Mastery",
-					"skill_rankup_desc": "•  Damage and Life Bonus🡑  x{15/30/45/60/75/90/105/120/135/150}%"
+					"skill_rankup_desc": "• Damage and Life Bonus🡑 x{15/30/45/60/75/90/105/120/135/150}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29695,9 +29695,9 @@
 						"Life",
 						"Minion"
 					],
-					"skill_desc": "Increase the damage and Life of your Skeletal Mages by x{15/30/45/60/75/90/105/120/135/150}% .",
+					"skill_desc": "Increase the damage and Life of your Skeletal Mages by x{15/30/45/60/75/90/105/120/135/150}%.",
 					"skill_name": "Skeletal Mage Mastery",
-					"skill_rankup_desc": "•  Damage and Life Bonus 🡑  x{15/30/45/60/75/90/105/120/135/150}%"
+					"skill_rankup_desc": "• Damage and Life Bonus 🡑 x{15/30/45/60/75/90/105/120/135/150}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29733,9 +29733,9 @@
 						"Minion",
 						"Damage"
 					],
-					"skill_desc": "Increase the damage and Life of your Golem by x{15/30/45/60/75/90/105/120/135/150}% .",
+					"skill_desc": "Increase the damage and Life of your Golem by x{15/30/45/60/75/90/105/120/135/150}%.",
 					"skill_name": "Golem Mastery",
-					"skill_rankup_desc": "•  Damage and Life Bonus 🡑  x{15/30/45/60/75/90/105/120/135/150}%"
+					"skill_rankup_desc": "• Damage and Life Bonus 🡑 x{15/30/45/60/75/90/105/120/135/150}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29851,7 +29851,7 @@
 					],
 					"skill_desc": "Lucky Hit: Darkness Skills have up to a 15% chance to Stun for {1/2/3/4/5/6/7/8/9/10} seconds.",
 					"skill_name": "Crippling Darkness",
-					"skill_rankup_desc": "•  Stun Duration 🡑  {1/2/3/4/5/6/7/8/9/10}"
+					"skill_rankup_desc": "• Stun Duration 🡑 {1/2/3/4/5/6/7/8/9/10}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29892,7 +29892,7 @@
 					],
 					"skill_desc": "Your Minions cannot lose more than {75/50/25/0/-25/-50/-75/-100/-125/-150}% of their Maximum Life from a single damage instance.",
 					"skill_name": "Death's Defense",
-					"skill_rankup_desc": "•  Protected Life 🡑  {75/50/25/0/-25/-50/-75/-100/-125/-150}%"
+					"skill_rankup_desc": "• Protected Life 🡑 {75/50/25/0/-25/-50/-75/-100/-125/-150}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29932,7 +29932,7 @@
 					],
 					"skill_desc": "You deal x{4/8/12/16/20/24/28/32/36/40}% increased damage for 4 seconds after consuming a Corpse.",
 					"skill_name": "Fueled by Death",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29973,7 +29973,7 @@
 					],
 					"skill_desc": "While below 50% Life, you receive +{10/20/30/40/50/60/70/80/90/100}% more Healing from all sources.",
 					"skill_name": "Gruesome Mending",
-					"skill_rankup_desc": "•  Bonus Healing Received 🡑  +{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Bonus Healing Received 🡑 +{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -30091,7 +30091,7 @@
 					],
 					"skill_desc": "Your maximum Essence is increased by {3/6/9/12/15/18/21/24/27/30}.",
 					"skill_name": "Unliving Energy",
-					"skill_rankup_desc": "•  Maximum Essence 🡑  {3/6/9/12/15/18/21/24/27/30}"
+					"skill_rankup_desc": "• Maximum Essence 🡑 {3/6/9/12/15/18/21/24/27/30}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -30127,7 +30127,7 @@
 					],
 					"skill_desc": "You deal x{4/8/12/16/20/24/28/32/36/40}% increased damage to Distant enemies.",
 					"skill_name": "Death's Reach",
-					"skill_rankup_desc": "•  Distant Damage Bonus 🡑  x{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Distant Damage Bonus 🡑 x{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -30165,7 +30165,7 @@
 					],
 					"skill_desc": "Close enemies take x{2/4/6/8/10/12/14/16/18/20}% more damage from you and deal {3/6/9/12/15/18/21/24/27/30}% less damage to you.",
 					"skill_name": "Death's Embrace",
-					"skill_rankup_desc": "•  Bonus Close Damage 🡑  x{2/4/6/8/10/12/14/16/18/20}%\n•  Close Damage Reduction 🡑  {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Bonus Close Damage 🡑 x{2/4/6/8/10/12/14/16/18/20}%\n• Close Damage Reduction 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -30202,7 +30202,7 @@
 					],
 					"skill_desc": "Gain {8/16/24/32/40/48/56/64/72/80} Thorns.",
 					"skill_name": "Spiked Armor",
-					"skill_rankup_desc": "•  Thorns 🡑  {8/16/24/32/40/48/56/64/72/80}"
+					"skill_rankup_desc": "• Thorns 🡑 {8/16/24/32/40/48/56/64/72/80}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -30239,7 +30239,7 @@
 					],
 					"skill_desc": "You deal x{3/6/9/12/15/18/21/24/27/30}% increased damage to Cursed enemies.",
 					"skill_name": "Amplify Damage",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -30381,7 +30381,7 @@
 					"Resistance_Single_Frost"
 				],
 				"category": 2,
-				"desc": "Your Darkness Skills Chill enemies for up to 40.0%. \n\nLucky Hit: Your Darkness Skills have up to a 100.0% chance to generate {2/5} additional Essence against Frozen targets.",
+				"desc": "Your Darkness Skills Chill enemies for up to 40.0%.\n\nLucky Hit: Your Darkness Skills have up to a 100.0% chance to generate {2/5} additional Essence against Frozen targets.",
 				"flavor": "\"My companion swung her odd weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI",
 				"name": "Bloodless Scream",
 				"power_formulas": [
@@ -30499,7 +30499,7 @@
 					"Thorns"
 				],
 				"category": 0,
-				"desc": "While you have 7.0 or more Minions you gain:\n•  Lucky Hit: Up to a 10.0% chance to empower all of your Minions, causing the next attack from each to explode for {300/400} Physical damage.",
+				"desc": "While you have 7.0 or more Minions you gain:\n• Lucky Hit: Up to a 10.0% chance to empower all of your Minions, causing the next attack from each to explode for {300/400} Physical damage.",
 				"flavor": "The signet of Mendeln ul-Diomed, the founder of the Priests of Rathma and the first Necromancer, was lost for over 3,000 years. The immense power over death held within, however, has not diminished.",
 				"name": "Ring of Mendeln",
 				"power_formulas": [
@@ -30548,7 +30548,7 @@
 					5.0
 				],
 				"category": 0,
-				"desc": "Your Shadow Clones also mimic the Imbuements applied to your Skills. \nCasting an Imbuement Skill grants your active Shadow Clone x{8/16}% increased damage for 5.0 seconds.",
+				"desc": "Your Shadow Clones also mimic the Imbuements applied to your Skills.\nCasting an Imbuement Skill grants your active Shadow Clone x{8/16}% increased damage for 5.0 seconds.",
 				"name": "of Imitated Imbuement",
 				"power_formulas": [
 					5.0,
@@ -31593,9 +31593,9 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of {60/66/72/78/84/90/96/102/108/114}% damage to each.\n\nCombo Points increase damage and grant an Attack Speed bonus:\n•  1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15% bonus\n•  2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30% bonus\n•  3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45% bonus",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of {60/66/72/78/84/90/96/102/108/114}% damage to each.\n\nCombo Points increase damage and grant an Attack Speed bonus:\n• 1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15% bonus\n• 2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30% bonus\n• 3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45% bonus",
 					"skill_name": "Flurry",
-					"skill_rankup_desc": "•  Damage 🡑  {60/66/72/78/84/90/96/102/108/114}%"
+					"skill_rankup_desc": "• Damage 🡑 {60/66/72/78/84/90/96/102/108/114}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -31675,7 +31675,7 @@
 					],
 					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nFire an arrow that seeks an enemy, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage and increasing your Critical Strike Chance against them by +3% for 4 seconds, up to +15%.",
 					"skill_name": "Heartseeker",
-					"skill_rankup_desc": "•  Damage 🡑  {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%"
+					"skill_rankup_desc": "• Damage 🡑 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -33687,7 +33687,7 @@
 					],
 					"skill_desc": "Your Evade Cooldown is reduced by {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds when you Daze an enemy.",
 					"skill_name": "Rapid Gambits",
-					"skill_rankup_desc": "•  Cooldown Reduction 🡑  {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds"
+					"skill_rankup_desc": "• Cooldown Reduction 🡑 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -33947,7 +33947,7 @@
 					],
 					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nCooldown: {#} seconds\nLucky Hit Chance: {#}%\nBecome Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50% increased Movement Speed for 2 seconds afterwards.",
 					"skill_name": "Shadow Step",
-					"skill_rankup_desc": "•  Damage 🡑  {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%"
+					"skill_rankup_desc": "• Damage 🡑 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -34110,7 +34110,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nImbue your weapons with frigid energies. Your next 2 Imbueable Skills deal Cold damage and Chill enemies for {#}% per hit.",
 					"skill_name": "Cold Imbuement",
-					"skill_rankup_desc": "•  Chill Amount 🡑  {#}%"
+					"skill_rankup_desc": "• Chill Amount 🡑 {#}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -34190,9 +34190,9 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nFire an arrow that pierces through all enemies in a line, dealing {70/77/84/91/98/105/112/119/126/133}% damage.\n\nCombo Points increase damage and improve Lucky Hit Chance:\n•  1 Point: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% damage, +10% chance\n•  2 Points: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% damage, +20% chance\n•  3 Points: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% damage, +30% chance",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nFire an arrow that pierces through all enemies in a line, dealing {70/77/84/91/98/105/112/119/126/133}% damage.\n\nCombo Points increase damage and improve Lucky Hit Chance:\n• 1 Point: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% damage, +10% chance\n• 2 Points: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% damage, +20% chance\n• 3 Points: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% damage, +30% chance",
 					"skill_name": "Penetrating Shot",
-					"skill_rankup_desc": "•  Damage 🡑  {70/77/84/91/98/105/112/119/126/133}%"
+					"skill_rankup_desc": "• Damage 🡑 {70/77/84/91/98/105/112/119/126/133}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -34257,7 +34257,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nImbue your weapons with lethal poison. Your next 2 Imbueable Skills deal Poison damage and apply {#}% of their Base damage as additional Poisoning damage over {#} seconds.",
 					"skill_name": "Poison Imbuement",
-					"skill_rankup_desc": "•  Poisoning Damage 🡑  {#}%"
+					"skill_rankup_desc": "• Poisoning Damage 🡑 {#}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -34323,7 +34323,7 @@
 					],
 					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nQuickly stab your victim for {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage and shift, allowing you to move freely through enemies for 3 seconds.",
 					"skill_name": "Blade Shift",
-					"skill_rankup_desc": "•  Damage 🡑  {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -34406,7 +34406,7 @@
 					],
 					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nThrow blades a short distance, dealing {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage. Every 3rd cast Slows enemies by 20% for 2 seconds. Critical Strikes will always Slow.",
 					"skill_name": "Puncture",
-					"skill_rankup_desc": "•  Damage 🡑  {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%"
+					"skill_rankup_desc": "• Damage 🡑 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -34445,7 +34445,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nSurround yourself with up to 5 protective shadows. Gain {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Damage Reduction per active shadow. Each time you take direct damage, that damage is reduced and a shadow is consumed.",
 					"skill_name": "Dark Shroud",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%."
+					"skill_rankup_desc": "• Damage Reduction 🡑 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%."
 				},
 				"req_points": 0,
 				"reward": {
@@ -34646,7 +34646,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPlace a trap that arms after {#} seconds. It activates when an enemy moves within range, applying {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Poisoning damage over 9 seconds to enemies in the area.\n\nYou can have 4 armed traps out at once.",
 					"skill_name": "Poison Trap",
-					"skill_rankup_desc": "•  Poisoning Damage 🡑  {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}%"
+					"skill_rankup_desc": "• Poisoning Damage 🡑 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -35071,9 +35071,9 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nImpale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8% increased damage from you while impaled. After 1.5 seconds the blades return to you, piercing enemies for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage.\n\nCombo Points increase damage and grant a Movement Speed bonus:\n•  1 Point: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, +20% bonus\n•  2 Points: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, +40% bonus\n•  3 Points: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, +60% bonus",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nImpale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8% increased damage from you while impaled. After 1.5 seconds the blades return to you, piercing enemies for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage.\n\nCombo Points increase damage and grant a Movement Speed bonus:\n• 1 Point: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, +20% bonus\n• 2 Points: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, +40% bonus\n• 3 Points: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, +60% bonus",
 					"skill_name": "Twisting Blades",
-					"skill_rankup_desc": "•  Impact damage 🡑  {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%\n•  Piercing damage 🡑  {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%"
+					"skill_rankup_desc": "• Impact damage 🡑 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%\n• Piercing damage 🡑 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -35504,9 +35504,9 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds \nLucky Hit Chance: {#}%\nDash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nDash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage.",
 					"skill_name": "Dash",
-					"skill_rankup_desc": "•  Charge Cooldown 🡑  {#} seconds\n•  Damage 🡑  {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%"
+					"skill_rankup_desc": "• Charge Cooldown 🡑 {#} seconds\n• Damage 🡑 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -35660,9 +35660,9 @@
 						"Cooldown",
 						"Imbueable"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nImbue your weapons with festering shadows. Your next 2 Imbueable Skills deal Shadow damage and infect enemies for 6 seconds. Infected enemies explode on death, dealing {#} damage to all surrounding enemies. \n\nIf the infection expires before the enemy dies, it will deal {#} damage to only that enemy.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nImbue your weapons with festering shadows. Your next 2 Imbueable Skills deal Shadow damage and infect enemies for 6 seconds. Infected enemies explode on death, dealing {#}% damage to all surrounding enemies.\n\nIf the infection expires before the enemy dies, it will deal {#}% damage to only that enemy.",
 					"skill_name": "Shadow Imbuement",
-					"skill_rankup_desc": "•  Explosion Damage 🡑  {#}\n•  Expiration Damage 🡑  {#}"
+					"skill_rankup_desc": "• Explosion Damage 🡑 {#}\n• Expiration Damage 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -35890,7 +35890,7 @@
 					],
 					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nFire a powerful arrow at an enemy, dealing {20/22/24/26/28/30/32/34/36/38}% damage. Every 3rd cast makes the enemy Vulnerable for 2 seconds.",
 					"skill_name": "Forceful Arrow",
-					"skill_rankup_desc": "•  Damage 🡑  {20/22/24/26/28/30/32/34/36/38}%"
+					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -36667,7 +36667,7 @@
 					],
 					"skill_desc": "Using a Cooldown increases your Dodge Chance by {3/6/9/12/15/18/21/24/27/30}% for 2 seconds.",
 					"skill_name": "Agile",
-					"skill_rankup_desc": "•  Dodge Chance 🡑  {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Dodge Chance 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -36790,9 +36790,9 @@
 						"Critical Strikes",
 						"Damage"
 					],
-					"skill_desc": "Gain a bonus when attacking based on weapon type:\n•  Daggers: x{5/10/15/20/25/30/35/40/45/50}% increased damage to Healthy enemies.\n•  Swords: x{3/6/9/12/15/18/21/24/27/30}% increased damage.\n•  Bows: x{4/8/12/16/20/24/28/32/36/40}% increased damage to Vulnerable enemies.\n•  Crossbows: x{5/10/15/20/25/30/35/40/45/50}% increased Critical Strike Damage.",
+					"skill_desc": "Gain a bonus when attacking based on weapon type:\n• Daggers: x{5/10/15/20/25/30/35/40/45/50}% increased damage to Healthy enemies.\n• Swords: x{3/6/9/12/15/18/21/24/27/30}% increased damage.\n• Bows: x{4/8/12/16/20/24/28/32/36/40}% increased damage to Vulnerable enemies.\n• Crossbows: x{5/10/15/20/25/30/35/40/45/50}% increased Critical Strike Damage.",
 					"skill_name": "Weapon Mastery",
-					"skill_rankup_desc": "•  Daggers Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%\n•  Swords Bonus 🡑  x{3/6/9/12/15/18/21/24/27/30}%\n•  Bows Bonus 🡑  x{4/8/12/16/20/24/28/32/36/40}%\n•  Crossbows Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Daggers Bonus 🡑 x{5/10/15/20/25/30/35/40/45/50}%\n• Swords Bonus 🡑 x{3/6/9/12/15/18/21/24/27/30}%\n• Bows Bonus 🡑 x{4/8/12/16/20/24/28/32/36/40}%\n• Crossbows Bonus 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -36829,7 +36829,7 @@
 					],
 					"skill_desc": "Non-Physical damage you deal has a +{5/10/15/20/25/30/35/40/45/50}% increased Lucky Hit Chance.",
 					"skill_name": "Alchemist's Fortune",
-					"skill_rankup_desc": "•  Lucky Hit Chance Bonus 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Lucky Hit Chance Bonus 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -36871,7 +36871,7 @@
 					],
 					"skill_desc": "When Poison Trap or Death Trap activates, you gain +{4/8/12/16/20/24/28/32/36/40}% increased Critical Strike Chance against Vulnerable and Crowd Controlled enemies for 4 seconds.",
 					"skill_name": "Trap Mastery",
-					"skill_rankup_desc": "•  Critical Strike Chance 🡑  +{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Critical Strike Chance 🡑 +{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -36908,7 +36908,7 @@
 					],
 					"skill_desc": "After using an Ultimate Skill, restore {25/50/75/100/125/150/175/200/225/250} Energy.",
 					"skill_name": "Aftermath",
-					"skill_rankup_desc": "•  Energy 🡑  {25/50/75/100/125/150/175/200/225/250}"
+					"skill_rankup_desc": "• Energy 🡑 {25/50/75/100/125/150/175/200/225/250}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -36947,7 +36947,7 @@
 					],
 					"skill_desc": "While Stealthed, you Heal for {1/2/3/4/5/6/7/8/9/10}% Maximum Life per second.",
 					"skill_name": "Mending Obscurity",
-					"skill_rankup_desc": "•  Heal Amount 🡑  {1/2/3/4/5/6/7/8/9/10}%"
+					"skill_rankup_desc": "• Heal Amount 🡑 {1/2/3/4/5/6/7/8/9/10}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -36988,7 +36988,7 @@
 					],
 					"skill_desc": "You deal x{5/10/15/20/25/30/35/40/45/50}% increased damage to Chilled enemies. This bonus increases to x{10/20/30/40/50/60/70/80/90/100}% against Frozen enemies.",
 					"skill_name": "Frigid Finesse",
-					"skill_rankup_desc": "•  Chilled Damage Bonus 🡑  x{5/10/15/20/25/30/35/40/45/50}%\n•  Frozen Damage Bonus 🡑  x{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Chilled Damage Bonus 🡑 x{5/10/15/20/25/30/35/40/45/50}%\n• Frozen Damage Bonus 🡑 x{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37032,7 +37032,7 @@
 					],
 					"skill_desc": "While at or above 50% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Movement Speed. While below 50% maximum Energy, gain +{5/10/15/20/25/30/35/40/45/50}% increased Attack Speed.",
 					"skill_name": "Haste",
-					"skill_rankup_desc": "•  Movement Speed 🡑  +{5/10/15/20/25/30/35/40/45/50}%\n•  Attack Speed 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Movement Speed 🡑 +{5/10/15/20/25/30/35/40/45/50}%\n• Attack Speed 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37075,7 +37075,7 @@
 					],
 					"skill_desc": "Every 100 Energy you spend grants you +{5/10/15/20/25/30/35/40/45/50}% increased Lucky Hit Chance for 5 seconds.",
 					"skill_name": "Second Wind",
-					"skill_rankup_desc": "•  Lucky Hit Chance Bonus 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Lucky Hit Chance Bonus 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37124,7 +37124,7 @@
 						"Damage Reduction",
 						"Movement"
 					],
-					"skill_desc": "Cutthroat Skills grant a stack of Momentum for 8 seconds if they either:\n•  Hit a Stunned, Dazed, or Frozen enemy\n•  Hit any enemy from behind\n\nWhile at 3 stacks of Momentum you gain:\n•  20% increased Damage Reduction\n•  x30% increased Energy Regeneration\n•  +15% increased Movement Speed",
+					"skill_desc": "Cutthroat Skills grant a stack of Momentum for 8 seconds if they either:\n• Hit a Stunned, Dazed, or Frozen enemy\n• Hit any enemy from behind\n\nWhile at 3 stacks of Momentum you gain:\n• 20% increased Damage Reduction\n• x30% increased Energy Regeneration\n• +15% increased Movement Speed",
 					"skill_name": "Momentum"
 				},
 				"req_points": 0,
@@ -37164,7 +37164,7 @@
 					],
 					"skill_desc": "You deal x{6/12/18/24/30/36/42/48/54/60}% increased damage to Healthy and Injured enemies.",
 					"skill_name": "Exploit",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37226,7 +37226,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nThrow a smoky concoction at enemies that Dazes them for {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} seconds.",
 					"skill_name": "Smoke Grenade",
-					"skill_rankup_desc": "•  Daze Duration 🡑  {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} seconds"
+					"skill_rankup_desc": "• Daze Duration 🡑 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37263,7 +37263,7 @@
 					],
 					"skill_desc": "You deal x{3/6/9/12/15/18/21/24/27/30}% increased damage to Vulnerable enemies.",
 					"skill_name": "Malice",
-					"skill_rankup_desc": "•  Vulnerable Damage Bonus 🡑  x{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Vulnerable Damage Bonus 🡑 x{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37300,7 +37300,7 @@
 					],
 					"skill_desc": "Heal for {1/2/3/4/5/6/7/8/9/10}% of your Maximum Life when you Critically Strike Close enemies.",
 					"skill_name": "Siphoning Strikes",
-					"skill_rankup_desc": "•  Heal Amount 🡑  {1/2/3/4/5/6/7/8/9/10}%"
+					"skill_rankup_desc": "• Heal Amount 🡑 {1/2/3/4/5/6/7/8/9/10}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37342,7 +37342,7 @@
 					],
 					"skill_desc": "While moving, you gain x{5/10/15/20/25/30/35/40/45/50}% increased Energy Regeneration.",
 					"skill_name": "Adrenaline Rush",
-					"skill_rankup_desc": "•  Energy Regeneration 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Energy Regeneration 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37383,7 +37383,7 @@
 					],
 					"skill_desc": "After Knocking Back or Knocking Down an enemy, you gain +{5/10/15/20/25/30/35/40/45/50}% increased Critical Strike Chance against them for 3 seconds.",
 					"skill_name": "Concussive",
-					"skill_rankup_desc": "•  Critical Strike Chance 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Critical Strike Chance 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37420,7 +37420,7 @@
 					],
 					"skill_desc": "You gain {4/8/12/16/20/24/28/32/36/40}% Close Damage Reduction.",
 					"skill_name": "Sturdy",
-					"skill_rankup_desc": "•  Close Damage Reduction 🡑  {4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Close Damage Reduction 🡑 {4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37460,7 +37460,7 @@
 					],
 					"skill_desc": "Lucky Hit: Up to a {10/20/30/40/50/60/70/80/90/100}% chance to gain 8 Energy.",
 					"skill_name": "Innervation",
-					"skill_rankup_desc": "•  Chance 🡑  {10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Chance 🡑 {10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37497,7 +37497,7 @@
 					],
 					"skill_desc": "Gain {4.5/9/13.5/18/22.5/27/31.5/36/40.5/45}% Damage Reduction while inflicted with Control Impairing Effects.",
 					"skill_name": "Reactive Defense",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {4.5/9/13.5/18/22.5/27/31.5/36/40.5/45}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {4.5/9/13.5/18/22.5/27/31.5/36/40.5/45}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37536,7 +37536,7 @@
 					],
 					"skill_desc": "You deal x{3/6/9/12/15/18/21/24/27/30}% increased Poisoning damage.",
 					"skill_name": "Deadly Venom",
-					"skill_rankup_desc": "•  Poisoning Damage 🡑  x{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Poisoning Damage 🡑 x{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37578,7 +37578,7 @@
 					],
 					"skill_desc": "Lucky Hit: Shadow damage has up to a 10% chance to Stun for {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds.",
 					"skill_name": "Shadow Crash",
-					"skill_rankup_desc": "•  Stun Duration 🡑  {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds"
+					"skill_rankup_desc": "• Stun Duration 🡑 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37723,9 +37723,9 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20% chance to ricochet off an enemy up to 1 time. Ricochets deal 40% of the arrow's Base damage.\n\nCombo Points increase damage and arrows fired:\n•  1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows\n•  2 Points: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows\n•  3 Points: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20% chance to ricochet off an enemy up to 1 time. Ricochets deal 40% of the arrow's Base damage.\n\nCombo Points increase damage and arrows fired:\n• 1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows\n• 2 Points: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows\n• 3 Points: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows",
 					"skill_name": "Barrage",
-					"skill_rankup_desc": "•  Damage 🡑  {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -37799,9 +37799,9 @@
 						"Physical",
 						"Energy"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nRapidly fire 5 arrows, each dealing {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% damage.\n\nCombo Points increase damage and arrows fired:\n•  1 Point: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% damage, 6 arrows\n•  2 Points: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% damage, 7 arrows\n•  3 Points: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% damage, 8 arrows",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: {#}%\nRapidly fire 5 arrows, each dealing {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% damage.\n\nCombo Points increase damage and arrows fired:\n• 1 Point: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% damage, 6 arrows\n• 2 Points: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% damage, 7 arrows\n• 3 Points: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% damage, 8 arrows",
 					"skill_name": "Rapid Fire",
-					"skill_rankup_desc": "•  Damage 🡑  {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%"
+					"skill_rankup_desc": "• Damage 🡑 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -38252,7 +38252,7 @@
 						"Physical",
 						"Movement"
 					],
-					"skill_desc": "While Blade Shift is active you gain 15% to all Non-Physical Resistances and reduce the duration of incoming Control Impairing Effects by 20% .",
+					"skill_desc": "While Blade Shift is active you gain 15% to all Non-Physical Resistances and reduce the duration of incoming Control Impairing Effects by 20%.",
 					"skill_name": "Primary Blade Shift"
 				},
 				"req_points": 0,
@@ -38493,9 +38493,9 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds \nLucky Hit Chance: {#}%\nLeap backwards and throw caltrops on the ground, dealing {30/33/36/39/42/45/48/51/54/57}% damage and Slowing enemies by {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Lasts 6 seconds.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nLeap backwards and throw caltrops on the ground, dealing {30/33/36/39/42/45/48/51/54/57}% damage and Slowing enemies by {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Lasts 6 seconds.",
 					"skill_name": "Caltrops",
-					"skill_rankup_desc": "•  Damage 🡑  {30/33/36/39/42/45/48/51/54/57}%\n•  Slow Amount 🡑  {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%"
+					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%\n• Slow Amount 🡑 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39161,7 +39161,7 @@
 						"Crowd Control",
 						"Lucky Hit"
 					],
-					"skill_desc": "Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a 25% chance to:\n•  Reduce the active Cooldowns of your Trap Skills by 20%\n•  Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds",
+					"skill_desc": "Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a 25% chance to:\n• Reduce the active Cooldowns of your Trap Skills by 20%\n• Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds",
 					"skill_name": "Exposure"
 				},
 				"req_points": 0,
@@ -39224,7 +39224,7 @@
 					],
 					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: {#}%\nMelee attack an enemy, dealing {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and increasing Energy Regeneration by x20% for 3 seconds.",
 					"skill_name": "Invigorating Strike",
-					"skill_rankup_desc": "•  Damage 🡑  {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%"
+					"skill_rankup_desc": "• Damage 🡑 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39261,7 +39261,7 @@
 					],
 					"skill_desc": "Each time you kill an enemy with Shadow Damage, you generate {10/20/30/40/50/60/70/80/90/100} Energy.",
 					"skill_name": "Consuming Shadows",
-					"skill_rankup_desc": "•  Energy 🡑  {10/20/30/40/50/60/70/80/90/100}"
+					"skill_rankup_desc": "• Energy 🡑 {10/20/30/40/50/60/70/80/90/100}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39299,7 +39299,7 @@
 					],
 					"skill_desc": "Chilled enemies have their Movement Speed further reduced by up to {10/20/30/40/50/60/70/80/90/100}%.",
 					"skill_name": "Chilling Weight",
-					"skill_rankup_desc": "•  Movement Speed Reduction 🡑  {10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Movement Speed Reduction 🡑 {10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39340,7 +39340,7 @@
 					],
 					"skill_desc": "When you Critically Strike a Dazed enemy they are Knocked Down for {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds.",
 					"skill_name": "Trick Attacks",
-					"skill_rankup_desc": "•  Knock Down Duration 🡑  {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}"
+					"skill_rankup_desc": "• Knock Down Duration 🡑 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39379,7 +39379,7 @@
 					],
 					"skill_desc": "Poisoned enemies deal {5/10/15/20/25/30/35/40/45/50}% less damage.",
 					"skill_name": "Debilitating Toxins",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39421,7 +39421,7 @@
 					],
 					"skill_desc": "You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to [0.15*100|%+|].",
 					"skill_name": "Alchemical Advantage",
-					"skill_rankup_desc": "•  Attack Speed 🡑  +{1/2/3/4/5/6/7/8/9/10}%"
+					"skill_rankup_desc": "• Attack Speed 🡑 +{1/2/3/4/5/6/7/8/9/10}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39452,7 +39452,7 @@
 					],
 					"skill_desc": "Imbued Skills gain +{5/10/15/20/25/30/35/40/45/50}% increased Critical Strike Chance.",
 					"skill_name": "Precision Imbuement",
-					"skill_rankup_desc": "•  Critical Strike Chance 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Critical Strike Chance 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39489,7 +39489,7 @@
 					],
 					"skill_desc": "Gain {5/10/15/20/25/30/35/40/45/50}% Damage Reduction against Damage Over Time effects.",
 					"skill_name": "Rugged",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39530,7 +39530,7 @@
 					],
 					"skill_desc": "After moving 15 meters, your next attack deals x{7/14/21/28/35/42/49/56/63/70}% increased damage.",
 					"skill_name": "Impetus",
-					"skill_rankup_desc": "•  Damage Bonus 🡑  x{7/14/21/28/35/42/49/56/63/70}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{7/14/21/28/35/42/49/56/63/70}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39570,7 +39570,7 @@
 					],
 					"skill_desc": "Critically Striking an enemy grants +{5/10/15/20/25/30/35/40/45/50}% Movement Speed for 4.0 seconds.",
 					"skill_name": "Stutter Step",
-					"skill_rankup_desc": "•  Movement Speed 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Movement Speed 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39621,9 +39621,9 @@
 						"Cooldown",
 						"Movement"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nVanish from sight, gaining an advanced form of Stealth for 4 seconds that will not be removed by taking damage. \n\nConcealment also makes you Unstoppable, grants +25% Movement Speed, and allows you to move freely through enemies for its duration.\n\nUsing an attack Skill during Concealment will break Concealment.",
+					"skill_desc": "Cooldown: {#} seconds\nVanish from sight, gaining an advanced form of Stealth for 4 seconds that will not be removed by taking damage.\n\nConcealment also makes you Unstoppable, grants +25% Movement Speed, and allows you to move freely through enemies for its duration.\n\nUsing an attack Skill during Concealment will break Concealment.",
 					"skill_name": "Concealment",
-					"skill_rankup_desc": "•  Cooldown 🡑  {#} seconds."
+					"skill_rankup_desc": "• Cooldown 🡑 {#} seconds."
 				},
 				"req_points": 0,
 				"reward": {
@@ -39880,7 +39880,7 @@
 					1.0
 				],
 				"category": 0,
-				"desc": "The Avalanche Key Passive now applies to 1.0 additional |4cast:casts;.",
+				"desc": "The Avalanche Key Passive now applies to 1.0 additional casts.",
 				"name": "of Frozen Memories"
 			},
 			"Legendary_Sorc_134": {
@@ -40646,7 +40646,7 @@
 				]
 			},
 			"Sorcerer_Legendary_009": {
-				"desc": "Lucky Hit: Your Shock skills have a {#}% chance to release {#} lightning sparks that each deal {#} damage."
+				"desc": "Lucky Hit: Your Shock skills have a {#}% chance to release {#} lightning sparks that each deal {#}% damage."
 			},
 			"Sorcerer_Legendary_010": {
 				"desc": "You deal x45% increased damage to enemies that are both Burning and Chilled."
@@ -40967,7 +40967,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nEngulf yourself in flames for {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8} seconds, Burning surrounding enemies for {23.4/25.7/28.1/30.4/32.8/35.1/37.4/39.8/42.1/44.5}% damage per second.\n\nWhile Flame Shield is active, you are Immune.",
 					"skill_name": "Flame Shield",
-					"skill_rankup_desc": "•  Duration🡑  {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8}\n•  Burning Damage 🡑  {23.4/25.7/28.1/30.4/32.8/35.1/37.4/39.8/42.1/44.5}%"
+					"skill_rankup_desc": "• Duration🡑 {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8}\n• Burning Damage 🡑 {23.4/25.7/28.1/30.4/32.8/35.1/37.4/39.8/42.1/44.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41036,7 +41036,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nCharges: 2\nCharge Cooldown: {#} seconds\nUnleash a torrent of frost, Freezing enemies around you for 2 seconds.",
 					"skill_name": "Frost Nova",
-					"skill_rankup_desc": "•  Cooldown 🡑  {#}•  Charge Cooldown 🡑  {#}"
+					"skill_rankup_desc": "• Cooldown 🡑 {#}• Charge Cooldown 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41117,7 +41117,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nTransform into lightning, becoming Unstoppable and surging to the target location, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage around you upon arrival.",
 					"skill_name": "Teleport",
-					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n•  Cooldown 🡑  {#}"
+					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• Cooldown 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41348,7 +41348,7 @@
 						"Lightning",
 						"Mana"
 					],
-					"skill_desc": "After hitting Close enemies 50 times with Ball Lightning, your next cast of it Stuns enemies hit for 1 |4second:seconds;.",
+					"skill_desc": "After hitting Close enemies 50 times with Ball Lightning, your next cast of it Stuns enemies hit for 1 seconds.",
 					"skill_name": "Mage's Ball Lightning"
 				},
 				"req_points": 0,
@@ -41464,7 +41464,7 @@
 					],
 					"skill_desc": "Lucky Hit: Frost Skills have a {3/6/9/12/15/18/21/24/27/30}% chance to instantly Freeze.",
 					"skill_name": "Snap Freeze",
-					"skill_rankup_desc": "•  Chance 🡑  {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Chance 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41504,7 +41504,7 @@
 					],
 					"skill_desc": "While you have a Barrier active, you apply x{8/16/24/32/40/48/56/64/72/80}% more Chill.",
 					"skill_name": "Cold Front",
-					"skill_rankup_desc": "•  Chill 🡑  x{8/16/24/32/40/48/56/64/72/80}%"
+					"skill_rankup_desc": "• Chill 🡑 x{8/16/24/32/40/48/56/64/72/80}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41545,7 +41545,7 @@
 					],
 					"skill_desc": "Every time you spend 100 Mana, you gain {5/10/15/20/25/30/35/40/45/50}% Damage Reduction for 5 seconds.",
 					"skill_name": "Mana Shield",
-					"skill_rankup_desc": "•  Damage Reduction 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41583,7 +41583,7 @@
 					],
 					"skill_desc": "Your Barriers have a +{5/10/15/20/25/30/35/40/45/50}% increased duration.",
 					"skill_name": "Icy Veil",
-					"skill_rankup_desc": "•  Duration Increase 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Duration Increase 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41625,7 +41625,7 @@
 					],
 					"skill_desc": "Killing a Burning enemy increases your Mana Regeneration by +{10/20/30/40/50/60/70/80/90/100}% for 3 seconds.",
 					"skill_name": "Fiery Surge",
-					"skill_rankup_desc": "•  Mana Regeneration 🡑  +{10/20/30/40/50/60/70/80/90/100}%"
+					"skill_rankup_desc": "• Mana Regeneration 🡑 +{10/20/30/40/50/60/70/80/90/100}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41667,7 +41667,7 @@
 					],
 					"skill_desc": "Lucky Hit: Shock Skills have a {3/6/9/12/15/18/21/24/27/30}% chance to Stun enemies for 3 seconds.",
 					"skill_name": "Convulsions",
-					"skill_rankup_desc": "•  Chance 🡑  {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Chance 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41738,9 +41738,9 @@
 						"Lightning",
 						"Mana"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nDischarge a ball of lightning that slowly moves forward, continually zapping enemies for {#} damage.",
+					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nDischarge a ball of lightning that slowly moves forward, continually zapping enemies for {#}% damage.",
 					"skill_name": "Ball Lightning",
-					"skill_rankup_desc": "•  Damage 🡑  {#}"
+					"skill_rankup_desc": "• Damage 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41782,7 +41782,7 @@
 					],
 					"skill_desc": "Enemies deal {5/10/15/20/25/30/35/40/45/50}% less damage for 5 seconds after being Critically Struck by your Shock Skills.",
 					"skill_name": "Electrocution",
-					"skill_rankup_desc": "•  Damage Dealt 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Dealt 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41822,7 +41822,7 @@
 					],
 					"skill_desc": "You deal x{10/20/30/40/50/60/70/80/90/100}% increased Critical Strike Damage against Burning enemies. If they are also Immobilized, this bonus is increased to x{25/50/75/100/125/150/175/200/225/250}%.",
 					"skill_name": "Devouring Blaze",
-					"skill_rankup_desc": "•  Critical Strike Damage 🡑  x{10/20/30/40/50/60/70/80/90/100}%\n•  Immobilized Damage 🡑  x{25/50/75/100/125/150/175/200/225/250}%"
+					"skill_rankup_desc": "• Critical Strike Damage 🡑 x{10/20/30/40/50/60/70/80/90/100}%\n• Immobilized Damage 🡑 x{25/50/75/100/125/150/175/200/225/250}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41869,7 +41869,7 @@
 					],
 					"skill_desc": "After casting a Non-Basic Skill, you gain {2/4/6/8/10/12/14/16/18/20}% Resistance to all elements and {1/2/3/4/5/6/7/8/9/10}% additional Resistance to that Skill's element for 3 seconds.",
 					"skill_name": "Potent Warding",
-					"skill_rankup_desc": "•  All Resistances 🡑  {2/4/6/8/10/12/14/16/18/20}%\n•  Specific Resistance 🡑  {1/2/3/4/5/6/7/8/9/10}%"
+					"skill_rankup_desc": "• All Resistances 🡑 {2/4/6/8/10/12/14/16/18/20}%\n• Specific Resistance 🡑 {1/2/3/4/5/6/7/8/9/10}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -41911,7 +41911,7 @@
 					],
 					"skill_desc": "You gain {5/10/15/20/25/30/35/40/45/50}% Damage Reduction against Elites for each second you haven't taken damage from one, up to 50%.",
 					"skill_name": "Align the Elements",
-					"skill_rankup_desc": "•  Damage Reduction Per Second 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Reduction Per Second 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -42294,7 +42294,7 @@
 						"Burn",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#}\nLucky Hit Chance: {#}%\nSummon a fiery serpent that continually constricts the target area, Burning enemies for 295% damage over 8 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nSummon a fiery serpent that continually constricts the target area, Burning enemies for 295% damage over 8 seconds.",
 					"skill_name": "Inferno"
 				},
 				"req_points": 0,
@@ -43162,7 +43162,7 @@
 						"Lightning",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#}\nLightning surges within you for 10 seconds. Whenever you cast a Shock Skill, a random Core, Conjuration, or Mastery Shock Skill is also cast.",
+					"skill_desc": "Cooldown: {#} seconds\nLightning surges within you for 10 seconds. Whenever you cast a Shock Skill, a random Core, Conjuration, or Mastery Shock Skill is also cast.",
 					"skill_name": "Unstable Currents"
 				},
 				"req_points": 0,
@@ -43861,7 +43861,7 @@
 						"Crowd Control",
 						"Damage Reduction"
 					],
-					"skill_desc": "Cooldown: {#}\nLucky Hit Chance: {#}%\nEncase yourself in ice, becoming Immune for 4 seconds, continually dealing 12.5% damage, and Chilling enemies for 20%. When Deep Freeze expires, it deals an additional 100% damage.\n\nCasting Deep Freeze again ends the effect early.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nEncase yourself in ice, becoming Immune for 4 seconds, continually dealing 12.5% damage, and Chilling enemies for 20%. When Deep Freeze expires, it deals an additional 100% damage.\n\nCasting Deep Freeze again ends the effect early.",
 					"skill_name": "Deep Freeze"
 				},
 				"req_points": 0,
@@ -44171,7 +44171,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nA Barrier of ice forms around you for 6 seconds, absorbing {#}% of your Base Life in damage. While Ice Armor is active, 10% of your damage dealt is added to its Barrier.",
 					"skill_name": "Ice Armor",
-					"skill_rankup_desc": "•  Duration 🡑  {#}%\n•  Barrier Amount 🡑  shield:ICE_BARRIER"
+					"skill_rankup_desc": "• Duration 🡑 {#}%\n• Barrier Amount 🡑 shield:ICE_BARRIER"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44288,7 +44288,7 @@
 					],
 					"skill_desc": "Frost Skills deal x{5/10/15/20/25/30/35/40/45/50}% increased damage to Elites.",
 					"skill_name": "Permafrost",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44329,7 +44329,7 @@
 					],
 					"skill_desc": "You deal x{1/2/3/4/5/6/7/8/9/10}% increased damage for each active Conjuration.",
 					"skill_name": "Conjuration Mastery",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{1/2/3/4/5/6/7/8/9/10}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{1/2/3/4/5/6/7/8/9/10}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44370,7 +44370,7 @@
 					],
 					"skill_desc": "You deal x{3/6/9/12/15/18/21/24/27/30}% increased damage to Chilled enemies, and x{6/12/18/24/30/36/42/48/54/60}% increased damage to Frozen enemies.",
 					"skill_name": "Hoarfrost",
-					"skill_rankup_desc": "•  Chilled Damage 🡑  x{3/6/9/12/15/18/21/24/27/30}%\n•  Frozen Damage 🡑  x{6/12/18/24/30/36/42/48/54/60}%"
+					"skill_rankup_desc": "• Chilled Damage 🡑 x{3/6/9/12/15/18/21/24/27/30}%\n• Frozen Damage 🡑 x{6/12/18/24/30/36/42/48/54/60}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44409,7 +44409,7 @@
 					],
 					"skill_desc": "You deal x{4/8/12/16/20/24/28/32/36/40}% increased Cold Damage to Vulnerable enemies.",
 					"skill_name": "Icy Touch",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44536,7 +44536,7 @@
 					],
 					"skill_desc": "Your Core Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage when cast above 50 Mana.",
 					"skill_name": "Elemental Dominance",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{4/8/12/16/20/24/28/32/36/40}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{4/8/12/16/20/24/28/32/36/40}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44578,7 +44578,7 @@
 					],
 					"skill_desc": "Lucky Hit: Critical Strikes have a {5/10/15/20/25/30/35/40/45/50}% chance to reset the Cooldown of one of your Defensive Skills. Can only happen once every 10 seconds.",
 					"skill_name": "Elemental Attunement",
-					"skill_rankup_desc": "•  Lucky Hit Chance 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Lucky Hit Chance 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44615,7 +44615,7 @@
 					],
 					"skill_desc": "You deal x{6/12/18/24/30/36/42/48/54/60}% increased damage, but take x{3/6/9/12/15/18/21/24/27/30}% more damage.",
 					"skill_name": "Glass Cannon",
-					"skill_rankup_desc": "•  Damage Dealt 🡑  x{6/12/18/24/30/36/42/48/54/60}%\n•  Damage Taken 🡑  x{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Damage Dealt 🡑 x{6/12/18/24/30/36/42/48/54/60}%\n• Damage Taken 🡑 x{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44700,7 +44700,7 @@
 					],
 					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nRelease {#} bolts of lightning that course along the ground in an erratic pattern, dealing {17.5/19.2/21/22.7/24.5/26.2/28/29.8/31.5/33.2}% damage each.",
 					"skill_name": "Charged Bolts",
-					"skill_rankup_desc": "•  Damage 🡑  {17.5/19.2/21/22.7/24.5/26.2/28/29.8/31.5/33.2}%"
+					"skill_rankup_desc": "• Damage 🡑 {17.5/19.2/21/22.7/24.5/26.2/28/29.8/31.5/33.2}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44741,7 +44741,7 @@
 					],
 					"skill_desc": "Every 1 second, you Heal for {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% of your Maximum Life for each Nearby Burning enemy. Healing increased to {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}% from Bosses.",
 					"skill_name": "Warmth",
-					"skill_rankup_desc": "•  Healing 🡑  {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}%\n•  Boss Healing 🡑  {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%"
+					"skill_rankup_desc": "• Healing 🡑 {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}%\n• Boss Healing 🡑 {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44781,7 +44781,7 @@
 					],
 					"skill_desc": "Your Pyromancy Skills deal x{3/6/9/12/15/18/21/24/27/30}% increased damage while you are Healthy.",
 					"skill_name": "Inner Flames",
-					"skill_rankup_desc": "•  Damage Increase 🡑  x{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Damage Increase 🡑 x{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44822,7 +44822,7 @@
 					],
 					"skill_desc": "You deal increased Burning damage to enemies for each second they remain Burning, up to x{5/10/15/20/25/30/35/40/45/50}% after 5 seconds.",
 					"skill_name": "Endless Pyre",
-					"skill_rankup_desc": "•  Maximum Damage Increase 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Maximum Damage Increase 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44863,7 +44863,7 @@
 					],
 					"skill_desc": "After standing still for 1.5 seconds, your Pyromancy Skills cost {5/10/15/20/25/30/35/40/45/50}% less Mana.",
 					"skill_name": "Soulfire",
-					"skill_rankup_desc": "•  Mana Cost Reduction 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Mana Cost Reduction 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -44988,7 +44988,7 @@
 					],
 					"skill_desc": "Hitting enemies with Shock Skills increases your Critical Strike Chance by +{1/2/3/4/5/6/7/8/9/10}%. Resets upon getting a Critical Strike.",
 					"skill_name": "Coursing Currents",
-					"skill_rankup_desc": "•  Critical Strike Chance 🡑  +{1/2/3/4/5/6/7/8/9/10}%"
+					"skill_rankup_desc": "• Critical Strike Chance 🡑 +{1/2/3/4/5/6/7/8/9/10}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45025,7 +45025,7 @@
 					],
 					"skill_desc": "Upon absorbing Crackling Energy, you gain {4/8/12/16/20/24/28/32/36/40} Mana.",
 					"skill_name": "Invigorating Conduit",
-					"skill_rankup_desc": "•  Mana 🡑  {4/8/12/16/20/24/28/32/36/40}"
+					"skill_rankup_desc": "• Mana 🡑 {4/8/12/16/20/24/28/32/36/40}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45067,7 +45067,7 @@
 					],
 					"skill_desc": "Critical Strikes with Shock Skills increase your Movement Speed by +{3/6/9/12/15/18/21/24/27/30}% for 3 seconds.",
 					"skill_name": "Conduction",
-					"skill_rankup_desc": "•  Movement Speed 🡑  +{3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Movement Speed 🡑 +{3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45108,7 +45108,7 @@
 					],
 					"skill_desc": "Lucky Hit: Critical Strikes with Shock Skills have up to a {5/10/15/20/25/30/35/40/45/50}% chance to form a Crackling Energy.",
 					"skill_name": "Static Discharge",
-					"skill_rankup_desc": "•  Chance 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Chance 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45185,9 +45185,9 @@
 						"Fire",
 						"Mana"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a 3-headed hydra for {#} seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.\n\nMaximum {#} active |4Hydra:Hydras; at a time.",
+					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a 3-headed hydra for {#} seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.\n\nMaximum {#} active Hydras at a time.",
 					"skill_name": "Hydra",
-					"skill_rankup_desc": "•  Damage 🡑  {30/33/36/39/42/45/48/51/54/57}%"
+					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45390,7 +45390,7 @@
 					],
 					"skill_desc": "Mana Cost: {#} per second\nLucky Hit Chance: {#}%\nChannel a beam of fire, Burning enemies for dotdps:BURNING_DAMAGE damage per second. Damage per second increases over 4 seconds, up to dotdps:TOOLTIP_MAX_DAMAGE.",
 					"skill_name": "Incinerate",
-					"skill_rankup_desc": "•  Burning Damage 🡑  dotdps:BURNING_DAMAGE\n•  Burning Damage Maximum 🡑  dotdps:TOOLTIP_MAX_DAMAGE"
+					"skill_rankup_desc": "• Burning Damage 🡑 dotdps:BURNING_DAMAGE\n• Burning Damage Maximum 🡑 dotdps:TOOLTIP_MAX_DAMAGE"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45480,7 +45480,7 @@
 					],
 					"skill_desc": "Lucky Hit: Cold Damage against Vulnerable enemies has a 20% chance to generate {5/10/15/20/25/30/35/40/45/50} Mana.",
 					"skill_name": "Frigid Breeze",
-					"skill_rankup_desc": "•  Mana Restored 🡑  {5/10/15/20/25/30/35/40/45/50}"
+					"skill_rankup_desc": "• Mana Restored 🡑 {5/10/15/20/25/30/35/40/45/50}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45530,7 +45530,7 @@
 					],
 					"skill_desc": "Your Lucky Hit Chance is increased by +{5/10/15/20/25/30/35/40/45/50}%.",
 					"skill_name": "Precision Magic",
-					"skill_rankup_desc": "•  Lucky Hit Chance 🡑  +{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Lucky Hit Chance 🡑 +{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45601,7 +45601,7 @@
 					],
 					"skill_desc": "Lucky Hit Chance: {#}%\nLaunch a bolt of lightning that shocks an enemy 4 times, dealing {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% damage each hit.",
 					"skill_name": "Spark",
-					"skill_rankup_desc": "•  Damage 🡑  {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%"
+					"skill_rankup_desc": "• Damage 🡑 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45664,7 +45664,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a pair of ice blades for {#} seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.",
 					"skill_name": "Ice Blades",
-					"skill_rankup_desc": "•  Damage 🡑  {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}%"
+					"skill_rankup_desc": "• Damage 🡑 {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45706,7 +45706,7 @@
 					],
 					"skill_desc": "Every time you Stun an enemy, you deal {15/30/45/60/75/90/105/120/135/150}% Lightning damage to them.",
 					"skill_name": "Shocking Impact",
-					"skill_rankup_desc": "•  Damage 🡑  {15/30/45/60/75/90/105/120/135/150}%"
+					"skill_rankup_desc": "• Damage 🡑 {15/30/45/60/75/90/105/120/135/150}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45773,7 +45773,7 @@
 					],
 					"skill_desc": "Lucky Hit Chance: {#}%\nHurl a flaming bolt, dealing {10/11/12/13/14/15/16/17/18/19}% damage and Burning for {40/44/48/52/56/60/64/68/72/76}% damage over 8 seconds.",
 					"skill_name": "Fire Bolt",
-					"skill_rankup_desc": "•  Damage 🡑  {10/11/12/13/14/15/16/17/18/19}%\n•  Burning Damage 🡑  {40/44/48/52/56/60/64/68/72/76}%"
+					"skill_rankup_desc": "• Damage 🡑 {10/11/12/13/14/15/16/17/18/19}%\n• Burning Damage 🡑 {40/44/48/52/56/60/64/68/72/76}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45843,7 +45843,7 @@
 					],
 					"skill_desc": "Lucky Hit Chance: {#}%\nUnleash arcing lightning that deals {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% damage to enemies in front of you. Every 10 times Arc Lash swipes, it Stuns all enemies hit for 2 seconds.",
 					"skill_name": "Arc Lash",
-					"skill_rankup_desc": "•  Damage 🡑  {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%"
+					"skill_rankup_desc": "• Damage 🡑 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45880,7 +45880,7 @@
 					],
 					"skill_desc": "Your Maximum Mana is increased by {3/6/9/12/15/18/21/24/27/30}.",
 					"skill_name": "Devastation",
-					"skill_rankup_desc": "•  Maximum Mana 🡑  {3/6/9/12/15/18/21/24/27/30}"
+					"skill_rankup_desc": "• Maximum Mana 🡑 {3/6/9/12/15/18/21/24/27/30}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45961,7 +45961,7 @@
 					],
 					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nHurl an exploding ball of fire, dealing {60/66/72/78/84/90/96/102/108/114}% damage to surrounding enemies.",
 					"skill_name": "Fireball",
-					"skill_rankup_desc": "•  Damage 🡑  {60/66/72/78/84/90/96/102/108/114}%"
+					"skill_rankup_desc": "• Damage 🡑 {60/66/72/78/84/90/96/102/108/114}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -46030,7 +46030,7 @@
 					],
 					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nUnleash a stream of lightning that deals {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% damage and chains between Nearby enemies and you up to 6 times, prioritizing enemies.",
 					"skill_name": "Chain Lightning",
-					"skill_rankup_desc": "•  Damage 🡑  {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%"
+					"skill_rankup_desc": "• Damage 🡑 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -46070,7 +46070,7 @@
 					],
 					"skill_desc": "Using a Cooldown grants {10/20/30/40/50/60/70/80/90/100}% of your Maximum Life as a Barrier for 5 seconds.",
 					"skill_name": "Protection",
-					"skill_rankup_desc": "•  Barrier Amount 🡑  {10/20/30/40/50/60/70/80/90/100}% Maximum Life"
+					"skill_rankup_desc": "• Barrier Amount 🡑 {10/20/30/40/50/60/70/80/90/100}% Maximum Life"
 				},
 				"req_points": 0,
 				"reward": {
@@ -46112,7 +46112,7 @@
 					],
 					"skill_desc": "Lucky Hit: Your Pyromancy Skills have a {5/10/15/20/25/30/35/40/45/50}% chance to Immobilize enemies for 2 seconds. This chance is doubled while you are Healthy.",
 					"skill_name": "Crippling Flames",
-					"skill_rankup_desc": "•  Lucky Hit Chance 🡑  {5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Lucky Hit Chance 🡑 {5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -46188,7 +46188,7 @@
 					],
 					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nLaunch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25% increased damage to Frozen enemies.",
 					"skill_name": "Ice Shards",
-					"skill_rankup_desc": "•  Damage 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -46248,7 +46248,7 @@
 					],
 					"skill_desc": "Lucky Hit Chance: {#}%\nThrow a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage and Chilling them for 15%.",
 					"skill_name": "Frost Bolt",
-					"skill_rankup_desc": "•  Damage 🡑  {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -46332,7 +46332,7 @@
 					],
 					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a meteor that strikes the target location, dealing {50/55/60/65/70/75/80/85/90/95}% damage and Burning the ground for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage over 3 seconds.",
 					"skill_name": "Meteor",
-					"skill_rankup_desc": "•  Impact Damage 🡑  {50/55/60/65/70/75/80/85/90/95}%\n•  Burning Damage 🡑  {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
+					"skill_rankup_desc": "• Impact Damage 🡑 {50/55/60/65/70/75/80/85/90/95}%\n• Burning Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -46420,7 +46420,7 @@
 					],
 					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nCreate a wall of flames that Burns enemies for {160/176/192/208/224/240/256/272/288/304}% damage over 8 seconds.",
 					"skill_name": "Firewall",
-					"skill_rankup_desc": "•  Damage 🡑  {160/176/192/208/224/240/256/272/288/304}%"
+					"skill_rankup_desc": "• Damage 🡑 {160/176/192/208/224/240/256/272/288/304}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -47113,9 +47113,9 @@
 						"Mana",
 						"Crowd Control"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a frigid blizzard that deals {#} damage and continually Chills enemies for 18% over 8 seconds.",
+					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a frigid blizzard that deals {#}% damage and continually Chills enemies for 18% over 8 seconds.",
 					"skill_name": "Blizzard",
-					"skill_rankup_desc": "•  Damage 🡑  {#}"
+					"skill_rankup_desc": "• Damage 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -47974,7 +47974,7 @@
 					],
 					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nUnleash an orb that Chills for 34% and expels piercing shards, dealing a total of {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% damage. Upon expiration, Frozen Orb explodes, dealing {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% damage and Chilling enemies for 8.7%.",
 					"skill_name": "Frozen Orb",
-					"skill_rankup_desc": "•  Shards Damage 🡑  {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}%\n•  Explosion Damage 🡑  {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}%"
+					"skill_rankup_desc": "• Shards Damage 🡑 {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}%\n• Explosion Damage 🡑 {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -48636,7 +48636,7 @@
 						"Burn",
 						"Mana"
 					],
-					"skill_desc": "Every 4 seconds an enemy has been hit by Incinerate, they are Immobilized for 1 |4second.:seconds.",
+					"skill_desc": "Every 4 seconds an enemy has been hit by Incinerate, they are Immobilized for 1 seconds.",
 					"skill_name": "Greater Incinerate"
 				},
 				"req_points": 0,
@@ -48849,7 +48849,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a spear of lightning that seeks out enemies for {#} seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage per hit.",
 					"skill_name": "Lightning Spear",
-					"skill_rankup_desc": "•  Damage 🡑  {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
+					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
 				"req_points": 0,
 				"reward": {

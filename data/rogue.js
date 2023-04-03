@@ -284,9 +284,9 @@ Lucky Hit Chance: {#}%
 Impale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8% increased damage from you while impaled. After 1.5 seconds the blades return to you, piercing enemies for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage.
 
 Combo Points increase damage and grant a Movement Speed bonus:
-•  1 Point: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, +20% bonus
-•  2 Points: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, +40% bonus
-•  3 Points: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, +60% bonus
+• 1 Point: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, +20% bonus
+• 2 Points: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, +40% bonus
+• 3 Points: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, +60% bonus
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		id: 20,
@@ -335,9 +335,9 @@ Lucky Hit Chance: {#}%
 Unleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of {60/66/72/78/84/90/96/102/108/114}% damage to each.
 
 Combo Points increase damage and grant an Attack Speed bonus:
-•  1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15% bonus
-•  2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30% bonus
-•  3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45% bonus
+• 1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15% bonus
+• 2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30% bonus
+• 3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45% bonus
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		id: 24,
@@ -386,9 +386,9 @@ Lucky Hit Chance: {#}%
 Fire an arrow that pierces through all enemies in a line, dealing {70/77/84/91/98/105/112/119/126/133}% damage.
 
 Combo Points increase damage and improve Lucky Hit Chance:
-•  1 Point: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% damage, +10% chance
-•  2 Points: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% damage, +20% chance
-•  3 Points: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% damage, +30% chance
+• 1 Point: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% damage, +10% chance
+• 2 Points: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% damage, +20% chance
+• 3 Points: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% damage, +30% chance
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 28,
@@ -437,9 +437,9 @@ Lucky Hit Chance: {#}%
 Rapidly fire 5 arrows, each dealing {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% damage.
 
 Combo Points increase damage and arrows fired:
-•  1 Point: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% damage, 6 arrows
-•  2 Points: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% damage, 7 arrows
-•  3 Points: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% damage, 8 arrows
+• 1 Point: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% damage, 6 arrows
+• 2 Points: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% damage, 7 arrows
+• 3 Points: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% damage, 8 arrows
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 32,
@@ -488,9 +488,9 @@ Lucky Hit Chance: {#}%
 Unleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20% chance to ricochet off an enemy up to 1 time. Ricochets deal 40% of the arrow's Base damage.
 
 Combo Points increase damage and arrows fired:
-•  1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows
-•  2 Points: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows
-•  3 Points: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows
+• 1 Point: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows
+• 2 Points: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows
+• 3 Points: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		id: 36,
@@ -663,10 +663,10 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown, Movement.`,
 	"Weapon Mastery": {
 		connections: [ "Agility" ],
 		description: `Gain a bonus when attacking based on weapon type:
-•  Daggers: x{5/10/15/20/25/30/35/40/45/50}% increased damage to Healthy enemies.
-•  Swords: x{3/6/9/12/15/18/21/24/27/30}% increased damage.
-•  Bows: x{4/8/12/16/20/24/28/32/36/40}% increased damage to Vulnerable enemies.
-•  Crossbows: x{5/10/15/20/25/30/35/40/45/50}% increased Critical Strike Damage.
+• Daggers: x{5/10/15/20/25/30/35/40/45/50}% increased damage to Healthy enemies.
+• Swords: x{3/6/9/12/15/18/21/24/27/30}% increased damage.
+• Bows: x{4/8/12/16/20/24/28/32/36/40}% increased damage to Vulnerable enemies.
+• Crossbows: x{5/10/15/20/25/30/35/40/45/50}% increased Critical Strike Damage.
 
 Tags: Vulnerable, Healthy, Critical Strikes, Damage.`,
 		id: 51,
@@ -1417,13 +1417,13 @@ rogueData["Capstone"] = {
 	"Momentum": {
 		connections: [ "Capstone" ],
 		description: `Cutthroat Skills grant a stack of Momentum for 8 seconds if they either:
-•  Hit a Stunned, Dazed, or Frozen enemy
-•  Hit any enemy from behind
+• Hit a Stunned, Dazed, or Frozen enemy
+• Hit any enemy from behind
 
 While at 3 stacks of Momentum you gain:
-•  20% increased Damage Reduction
-•  x30% increased Energy Regeneration
-•  +15% increased Movement Speed
+• 20% increased Damage Reduction
+• x30% increased Energy Regeneration
+• +15% increased Movement Speed
 
 Tags: Frozen, Daze, Cutthroat, Crowd Control, Energy, Damage Reduction, Movement.`,
 		id: 118,
@@ -1456,8 +1456,8 @@ Tags: Vulnerable, Damage, Physical, Lucky Hit.`,
 	"Exposure": {
 		connections: [ "Capstone" ],
 		description: `Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a 25% chance to:
-•  Reduce the active Cooldowns of your Trap Skills by 20%
-•  Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds.
+• Reduce the active Cooldowns of your Trap Skills by 20%
+• Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds
 
 Tags: Trap, Grenade, Damage, Physical, Cooldown, Crowd Control, Lucky Hit.`,
 		id: 121,
