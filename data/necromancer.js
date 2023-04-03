@@ -570,7 +570,7 @@ Tags: Damage, Corpse.`,
 	},
 	"Spiked Armor": {
 		connections: [ "Macabre" ],
-		description: `Gain {8/16/24/32/40/48/56/64/72/80} Thorns.
+		description: `Gain {40/80/120/160/200/240/280/320/360/400} Thorns.
 
 Tags: Thorns.`,
 		id: 124,

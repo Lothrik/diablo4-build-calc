@@ -222,7 +222,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 	"Combat Flay": {
 		baseSkill: "Flay",
 		connections: [ "Enhanced Flay" ],
-		description: `When Flay deals direct damage to an enemy, you gain 3% Damage Reduction and 10 Thorns for 3 seconds. This stacks up to 4 times.
+		description: `When Flay deals direct damage to an enemy, you gain 3% Damage Reduction and 50 Thorns for 3 seconds. This stacks up to 4 times.
 
 Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 		id: 15,
@@ -578,7 +578,7 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 	},
 	"Outburst": {
 		connections: [ "Defensive", "Tough as Nails" ],
-		description: `Gain {4/8/12/16/20/24/28/32/36/40} Thorns. Also gain 4 Thorns for each 5 bonus Maximum Life you have.
+		description: `Gain {20/40/60/80/100/120/140/160/180/200} Thorns. Also gain 20 Thorns for each 25 bonus Maximum Life you have.
 
 Tags: Life, Thorns.`,
 		id: 46,

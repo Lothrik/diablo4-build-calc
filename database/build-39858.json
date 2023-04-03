@@ -96,10 +96,10 @@
 					"array([0.08,0.14])"
 				],
 				"category": 0,
-				"desc": "While Berserking, you deal {8/14} Fire damage every second to surrounding enemies.",
+				"desc": "While Berserking, you deal {40/70} Fire damage every second to surrounding enemies.",
 				"name": "of Burning Rage",
 				"power_formulas": [
-					"array([ 8.,14.])",
+					"array([40.,70.])",
 					1,
 					2
 				]
@@ -112,7 +112,7 @@
 					100.0
 				],
 				"category": 0,
-				"desc": "After generating 100.0 Fury your next Core Skill creates a Dust Devil that deals {20/36} damage to enemies behind the target.",
+				"desc": "After generating 100.0 Fury your next Core Skill creates a Dust Devil that deals {100/180} damage to enemies behind the target.",
 				"name": "Devilish",
 				"power_formulas": [
 					100.0
@@ -154,7 +154,7 @@
 					"array([ 5,15])"
 				],
 				"category": 0,
-				"desc": "Ground Stomp creates an Earthquake damaging enemies for {39/76} Physical damage over 4 seconds. While standing in Earthquakes, you deal x{5/15}% increased damage.",
+				"desc": "Ground Stomp creates an Earthquake damaging enemies for {195/380} Physical damage over 4 seconds. While standing in Earthquakes, you deal x{5/15}% increased damage.",
 				"name": "Earthquake"
 			},
 			"legendary_barb_003": {
@@ -192,7 +192,7 @@
 				"desc": "Gain {2/4}% Damage Reduction for each Nearby Bleeding enemy up to {10/20}% maximum.",
 				"name": "Iron Blood",
 				"power_formulas": [
-					"array([0.1,0.2])/5.0",
+					"array([0.02,0.04])",
 					5.0,
 					13,
 					0.35,
@@ -286,10 +286,10 @@
 					"array([0.003,0.006])"
 				],
 				"category": 1,
-				"desc": "Each point of Fury generated while at Maximum Fury grants {0.3/0.6} Fortify.",
+				"desc": "Each point of Fury generated while at Maximum Fury grants {1.5/3} Fortify.",
 				"name": "of Numbing Wrath",
 				"power_formulas": [
-					"array([0.3,0.6])"
+					"array([1.5,3. ])"
 				]
 			},
 			"legendary_barb_018": {
@@ -300,10 +300,10 @@
 					2.0
 				],
 				"category": 0,
-				"desc": "Enemies damaged by Kick or Charge will explode if they are killed within the next 2.0 seconds, dealing {100/130} damage to surrounding enemies.",
+				"desc": "Enemies damaged by Kick or Charge will explode if they are killed within the next 2.0 seconds, dealing {500/650} damage to surrounding enemies.",
 				"name": "Brawler's",
 				"power_formulas": [
-					"array([100.,130.])",
+					"array([500.,650.])",
 					3,
 					2.0
 				]
@@ -313,7 +313,7 @@
 					"array([0.16,0.25])"
 				],
 				"category": 0,
-				"desc": "Whirlwind leaves behind Dust Devils that deal {16/25} damage to surrounding enemies.",
+				"desc": "Whirlwind leaves behind Dust Devils that deal {80/125} damage to surrounding enemies.",
 				"name": "Dust Devil's"
 			},
 			"legendary_barb_020": {
@@ -352,7 +352,7 @@
 					"array([0.11,0.2 ])"
 				],
 				"category": 0,
-				"desc": "Gain {11/20} Thorns while Berserking.",
+				"desc": "Gain {55/100} Thorns while Berserking.",
 				"name": "Death Wish",
 				"power_formulas": [
 					6,
@@ -381,7 +381,7 @@
 					"array([ 5,15])"
 				],
 				"category": 1,
-				"desc": "Leap creates an Earthquake that deals {39/76} Physical damage over 4 seconds. While standing in Earthquakes, you gain {5/15}% increased Damage Reduction.",
+				"desc": "Leap creates an Earthquake that deals {195/380} Physical damage over 4 seconds. While standing in Earthquakes, you gain {5/15}% increased Damage Reduction.",
 				"name": "of Bul-Kathos"
 			},
 			"legendary_barb_027": {
@@ -392,7 +392,7 @@
 					1.5
 				],
 				"category": 0,
-				"desc": "Casting Double Swing twice within 1.5 seconds creates a Dust Devil that deals {16/25} damage to enemies behind the target.",
+				"desc": "Casting Double Swing twice within 1.5 seconds creates a Dust Devil that deals {80/125} damage to enemies behind the target.",
 				"name": "Windlasher"
 			},
 			"legendary_barb_040": {
@@ -434,10 +434,10 @@
 					35
 				],
 				"category": 1,
-				"desc": "Lucky Hit: Up to a 35% chance to gain {16/32} Fortify whenever you deal direct damage while Berserking.",
+				"desc": "Lucky Hit: Up to a 35% chance to gain {80/160} Fortify whenever you deal direct damage while Berserking.",
 				"name": "Steadfast Berserker's",
 				"power_formulas": [
-					"array([16.,32.])",
+					"array([ 80.,160.])",
 					35
 				]
 			},
@@ -515,10 +515,10 @@
 					6.0
 				],
 				"category": 1,
-				"desc": "After swapping weapons 6.0 times, gain {11/20} Fortify.",
+				"desc": "After swapping weapons 6.0 times, gain {55/100} Fortify.",
 				"name": "of Tempering Blows",
 				"power_formulas": [
-					"array([11.,20.])",
+					"array([ 55.,100.])",
 					6.0
 				]
 			},
@@ -543,7 +543,7 @@
 				"name": "Bear Clan Berserker's",
 				"power_formulas": [
 					"array([0.16,0.32])",
-					"40.0 / 100",
+					0.4,
 					2.0
 				]
 			}
@@ -1259,7 +1259,7 @@
 						0.01,
 						0.03,
 						0.1,
-						10
+						50
 					],
 					"power_name": "Barbarian_Maim",
 					"power_payloads": {
@@ -2052,7 +2052,7 @@
 						0.01,
 						0.03,
 						0.1,
-						10
+						50
 					],
 					"power_mod_id": 2,
 					"power_name": "Barbarian_Maim",
@@ -5903,7 +5903,7 @@
 						0.01,
 						0.03,
 						0.1,
-						10
+						50
 					],
 					"power_mod_id": 3,
 					"power_name": "Barbarian_Maim",
@@ -5988,7 +5988,7 @@
 						0.01,
 						0.03,
 						0.1,
-						10
+						50
 					],
 					"power_mod_id": 4,
 					"power_name": "Barbarian_Maim",
@@ -6004,7 +6004,7 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "When Flay deals direct damage to an enemy, you gain 3% Damage Reduction and 10 Thorns for 3 seconds. This stacks up to 4 times.",
+					"skill_desc": "When Flay deals direct damage to an enemy, you gain 3% Damage Reduction and 50 Thorns for 3 seconds. This stacks up to 4 times.",
 					"skill_name": "Combat Flay"
 				},
 				"req_points": 0,
@@ -7446,11 +7446,11 @@
 					},
 					"power_formulas": [
 						"array([0.04,0.08,0.12,0.16,0.2 ,0.24,0.28,0.32,0.36,0.4 ])",
-						"array([ 4., 8.,12.,16.,20.,24.,28.,32.,36.,40.])",
+						"array([ 20., 40., 60., 80.,100.,120.,140.,160.,180.,200.])",
 						0.05,
 						0.04,
-						4,
-						5,
+						20,
+						25,
 						0
 					],
 					"power_name": "Barbarian_Talent_07",
@@ -7458,9 +7458,9 @@
 						"Life",
 						"Thorns"
 					],
-					"skill_desc": "Gain {4/8/12/16/20/24/28/32/36/40} Thorns. Also gain 4 Thorns for each 5 bonus Maximum Life you have.",
+					"skill_desc": "Gain {20/40/60/80/100/120/140/160/180/200} Thorns. Also gain 20 Thorns for each 25 bonus Maximum Life you have.",
 					"skill_name": "Outburst",
-					"skill_rankup_desc": "• Thorns 🡑 {4/8/12/16/20/24/28/32/36/40}"
+					"skill_rankup_desc": "• Thorns 🡑 {20/40/60/80/100/120/140/160/180/200}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -8976,7 +8976,7 @@
 					"SkillRankBonus_Barb_Core_4_Slot01"
 				],
 				"category": 0,
-				"desc": "Upheaval ignites the ground Burning enemies for an additional {35/50} damage over 3.0 seconds.",
+				"desc": "Upheaval ignites the ground Burning enemies for an additional {175/250} damage over 3.0 seconds.",
 				"flavor": "The demon prince Ikonoth slew hundreds of the Heavenly Host with this infernal hammer before falling to none other than the Archangel Imperius himself.",
 				"name": "Hellhammer"
 			},
@@ -9016,7 +9016,7 @@
 					"SkillRankBonus_Barb_Special_Rupture"
 				],
 				"category": 5,
-				"desc": "While using this weapon, damaging at least one enemy with Rupture creates a blood pool that inflicts {18/34} Bleeding damage over 6.0 seconds. Enemies standing in the pool take x10% increased Bleeding damage.",
+				"desc": "While using this weapon, damaging at least one enemy with Rupture creates a blood pool that inflicts {90/170} Bleeding damage over 6.0 seconds. Enemies standing in the pool take x10% increased Bleeding damage.",
 				"flavor": "\"We've been fighting these flesh-eaters for so long, been soaked in so much blood, that after a while it's difficult to tell what side you're truly on.\"\n- Daelyr, Crane Tribe warrior",
 				"name": "Fields of Crimson"
 			},
@@ -9111,10 +9111,10 @@
 					3.0
 				],
 				"category": 0,
-				"desc": "Lightning Storm Critical Strikes spawn 3.0 Dancing Bolts that seek enemies in the area dealing {50/60} Lightning damage.",
+				"desc": "Lightning Storm Critical Strikes spawn 3.0 Dancing Bolts that seek enemies in the area dealing {250/300} Lightning damage.",
 				"name": "Lightning Dancer's",
 				"power_formulas": [
-					"array([50.,60.])"
+					"array([250.,300.])"
 				]
 			},
 			"Legendary_Druid_116": {
@@ -9246,7 +9246,7 @@
 					6
 				],
 				"category": 1,
-				"desc": "The duration of Earthen Bulwark is increased by 6 seconds. In addition, killing an enemy with Earth Skills replenishes {5/10} of your active Earthen Bulwark's Barrier.",
+				"desc": "The duration of Earthen Bulwark is increased by 6 seconds. In addition, killing an enemy with Earth Skills replenishes {25/50} of your active Earthen Bulwark's Barrier.",
 				"name": "of Mending Stone"
 			},
 			"legendary_druid_028": {
@@ -9260,10 +9260,10 @@
 					3.0
 				],
 				"category": 0,
-				"desc": "Lucky Hit: Up to a {10/20}% chance when dealing Lightning damage to overload the target for 3.0 seconds, causing any direct damage you deal to them to pulse 70 additional damage to surrounding enemies.",
+				"desc": "Lucky Hit: Up to a {10/20}% chance when dealing Lightning damage to overload the target for 3.0 seconds, causing any direct damage you deal to them to pulse 350 additional damage to surrounding enemies.",
 				"name": "Overcharged",
 				"power_formulas": [
-					70,
+					350,
 					4,
 					2,
 					"array([10,20])",
@@ -9302,10 +9302,10 @@
 					"array([0.05,0.1 ])"
 				],
 				"category": 1,
-				"desc": "When you use a Shapeshifting Skill that changes your form, gain {5/10} Life. If you are at full Life, gain the same amount as Fortify.",
+				"desc": "When you use a Shapeshifting Skill that changes your form, gain {25/50} Life. If you are at full Life, gain the same amount as Fortify.",
 				"name": "Skinwalker's",
 				"power_formulas": [
-					"array([ 5.,10.])"
+					"array([25.,50.])"
 				]
 			},
 			"legendary_druid_047": {
@@ -9373,7 +9373,7 @@
 					2.0
 				],
 				"category": 0,
-				"desc": "Pulverize is now also an Earth Skill. After casting Pulverize, tectonic spikes continue to deal {35/50} damage over 2.0 seconds.",
+				"desc": "Pulverize is now also an Earth Skill. After casting Pulverize, tectonic spikes continue to deal {175/250} damage over 2.0 seconds.",
 				"name": "of the Ursine Horror"
 			},
 			"legendary_druid_071": {
@@ -9505,11 +9505,11 @@
 					"array([1,2])"
 				],
 				"category": 0,
-				"desc": "Critical Strikes with Storm Skills charge the air around you for {1/2} seconds causing a Lightning Strike to periodically hit an enemy in the area for 100 Lightning damage. This duration can be extended by additional Critical Strikes.",
+				"desc": "Critical Strikes with Storm Skills charge the air around you for {1/2} seconds causing a Lightning Strike to periodically hit an enemy in the area for 500 Lightning damage. This duration can be extended by additional Critical Strikes.",
 				"name": "Runeworker's Conduit",
 				"power_formulas": [
 					"array([1,2])",
-					100,
+					500,
 					1,
 					5
 				]
@@ -18939,11 +18939,11 @@
 					"On_Kill_Resource_Spirit"
 				],
 				"category": 1,
-				"desc": "Your Earth Skills are now also Werebear Skills and Fortify you for {0.2/0.4}.",
+				"desc": "Your Earth Skills are now also Werebear Skills and Fortify you for {1/2}.",
 				"flavor": "\"Roots from the Great Oak growing at the seaward statue of Vasily will, on rare occasions, be found twisted back upon themselves, suffused with ferocious magic.\"\n- Barrett's Book of Implements",
 				"name": "Vasily's Prayer",
 				"power_formulas": [
-					"array([0.2,0.4])"
+					"array([1.,2.])"
 				]
 			},
 			"Pants_Unique_Druid_001": {
@@ -18978,11 +18978,11 @@
 					"PassiveRankBonus_Druid_Shapeshifting_T4_N1_Quickshift_Always1"
 				],
 				"category": 0,
-				"desc": "Gain a bonus when you kill with a Shapeshifting Skill:\n• Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n• Werebear: Your next Werewolf Skill will Heal you for {10/20} when damage is first dealt.",
+				"desc": "Gain a bonus when you kill with a Shapeshifting Skill:\n• Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n• Werebear: Your next Werewolf Skill will Heal you for {50/100} when damage is first dealt.",
 				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash",
 				"name": "Hunter's Zenith",
 				"power_formulas": [
-					"array([10.,20.])"
+					"array([ 50.,100.])"
 				]
 			}
 		}
@@ -19691,7 +19691,7 @@
 				"name": "Exploiter's",
 				"power_formulas": [
 					"array([0.2,0.5])",
-					"20.0 / 100"
+					0.2
 				]
 			},
 			"legendary_generic_006": {
@@ -19706,7 +19706,7 @@
 				"name": "Starlight",
 				"power_formulas": [
 					"array([10,20])",
-					"20.0 /100"
+					0.2
 				]
 			},
 			"legendary_generic_009": {
@@ -19720,7 +19720,7 @@
 				"desc": "Basic Skills grant 25.0% Damage Reduction for {4/8} seconds.",
 				"name": "of Might",
 				"power_formulas": [
-					"25.0 /100",
+					0.25,
 					"array([4,8])"
 				]
 			},
@@ -19735,10 +19735,10 @@
 					10.0
 				],
 				"category": 1,
-				"desc": "Damaging an Elite enemy grants you a Barrier absorbing up to {75/150} damage for 10.0 seconds. This effect can only happen once every 30 seconds.",
+				"desc": "Damaging an Elite enemy grants you a Barrier absorbing up to {375/750} damage for 10.0 seconds. This effect can only happen once every 30 seconds.",
 				"name": "of the Protector",
 				"power_formulas": [
-					"array([ 75.,150.])*(1+Barrier_Bonus_Percent)",
+					"array([375.,750.])*(1+Barrier_Bonus_Percent)",
 					30,
 					10.0
 				]
@@ -19755,7 +19755,7 @@
 				"name": "of Inner Calm",
 				"power_formulas": [
 					"array([0.03,0.1 ])",
-					"30.0 / 100"
+					0.3
 				]
 			},
 			"legendary_generic_016": {
@@ -19772,7 +19772,7 @@
 				"power_formulas": [
 					"array([0.08,0.16])",
 					1.0,
-					"1.0 * 6.0"
+					6
 				]
 			},
 			"legendary_generic_021": {
@@ -19847,7 +19847,7 @@
 				"name": "of Retribution",
 				"power_formulas": [
 					"array([0.3,0.5])",
-					"15.0 / 100",
+					0.15,
 					2.0,
 					10
 				]
@@ -19880,11 +19880,11 @@
 					0.1
 				],
 				"category": 1,
-				"desc": "You Heal for {0.5/2} Life per second for each Close enemy, up to 10 Life per second.",
+				"desc": "You Heal for {2.5/10} Life per second for each Close enemy, up to 50 Life per second.",
 				"name": "of the Crowded Sage",
 				"power_formulas": [
-					10,
-					"array([0.5,2. ])",
+					50,
+					"array([ 2.5,10. ])",
 					4
 				]
 			},
@@ -19962,7 +19962,7 @@
 				"name": "Assimilation",
 				"power_formulas": [
 					"array([ 5,10])",
-					"8.0 / 100"
+					0.08
 				]
 			},
 			"legendary_generic_106": {
@@ -22052,13 +22052,13 @@
 					"HealthPercent_Double"
 				],
 				"category": 0,
-				"desc": "Lucky Hit: Up to a {15/25}% chance to deal 70 Shadow damage to surrounding enemies and reduce their damage done by 20.0% for 3.0 seconds.",
+				"desc": "Lucky Hit: Up to a {15/25}% chance to deal 350 Shadow damage to surrounding enemies and reduce their damage done by 20.0% for 3.0 seconds.",
 				"flavor": "Whenever this ancient sword has reappeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
 				"name": "Doombringer",
 				"power_formulas": [
 					"array([15,25])",
-					70,
-					"20.0 / 100",
+					350,
+					0.2,
 					3.0,
 					1.75
 				]
@@ -22105,7 +22105,7 @@
 				"name": "Melted Heart of Selig",
 				"power_formulas": [
 					"array([3,6])",
-					"100.0 / 100",
+					1,
 					1.0
 				]
 			},
@@ -22142,11 +22142,11 @@
 					"Chest_Unique_Generic_100"
 				],
 				"category": 0,
-				"desc": "Gain {200/400} Thorns",
+				"desc": "Gain {1000/2000} Thorns",
 				"flavor": "Crafted by the cannibal Armoda, each piece of this interlocking armor has been sharpened into a knife's edge. Even a century after death, the plate remained on her corpse, unable to be removed safely.",
 				"name": "Razorplate",
 				"power_formulas": [
-					"array([200,400])"
+					"array([1000,2000])"
 				]
 			},
 			"Gloves_Unique_Generic_002": {
@@ -22211,16 +22211,16 @@
 					"Resistance_Single_Poison"
 				],
 				"category": 0,
-				"desc": "Lucky Hit: Up to a {10/20}% chance to trigger a poison nova that applies 225 Poisoning damage over 5.0 seconds to enemies in the area.",
+				"desc": "Lucky Hit: Up to a {10/20}% chance to trigger a poison nova that applies 1125 Poisoning damage over 5.0 seconds to enemies in the area.",
 				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness...",
 				"name": "Andariel's Visage",
 				"power_formulas": [
 					"array([10,20])",
 					"",
 					4,
-					225,
+					1125,
 					5.0,
-					45
+					225
 				]
 			},
 			"Helm_Unique_Generic_002": {
@@ -22293,7 +22293,7 @@
 				"name": "Mother's Embrace",
 				"power_formulas": [
 					"array([0.2,0.4])",
-					"5.0 + 1",
+					6,
 					5,
 					6,
 					4
@@ -22320,7 +22320,7 @@
 				"name": "Ring of Starless Skies",
 				"power_formulas": [
 					"array([0.05,0.1 ])",
-					"30.0 /100",
+					0.3,
 					1.5
 				]
 			}
@@ -22448,7 +22448,7 @@
 					4.0
 				],
 				"category": 0,
-				"desc": "Bone Storm and Blood Wave are also Darkness Skills, deal Shadow damage, and gain additional effects:\n• Enemies damaged by Bone Storm take {16/22} Shadow damage over 2.0 seconds.\n• Blood Wave desecrates the ground it travels over, dealing {256/352} Shadow damage over 4.0 seconds",
+				"desc": "Bone Storm and Blood Wave are also Darkness Skills, deal Shadow damage, and gain additional effects:\n• Enemies damaged by Bone Storm take {80/110} Shadow damage over 2.0 seconds.\n• Blood Wave desecrates the ground it travels over, dealing {1280/1760} Shadow damage over 4.0 seconds",
 				"name": "of Ultimate Shadow"
 			},
 			"Legendary_Necro_122": {
@@ -22541,7 +22541,7 @@
 				"name": "of Empowering Reaper",
 				"power_formulas": [
 					"array([0.1,0.2])",
-					"(((array([0.1,0.2]) * 100) - 10) * 4.0) + 20.0",
+					"array([20.,60.])",
 					3.0
 				]
 			},
@@ -22555,10 +22555,10 @@
 					48.0
 				],
 				"category": 2,
-				"desc": "Every 10.0 seconds, your Cold Skeletal Mages cast a blizzard that deals {50/60} Cold damage and continuously Chills enemies for 8% over 6.0 seconds.",
+				"desc": "Every 10.0 seconds, your Cold Skeletal Mages cast a blizzard that deals {250/300} Cold damage and continuously Chills enemies for 8% over 6.0 seconds.",
 				"name": "Coldbringer's",
 				"power_formulas": [
-					"array([50.,60.])",
+					"array([250.,300.])",
 					6.0,
 					10.0,
 					2,
@@ -22598,7 +22598,7 @@
 					4.0
 				],
 				"category": 0,
-				"desc": "Blood Mist leaves a trail that lasts for 4.0 seconds and deals {15/20} Shadow damage per second to enemies who stand in it. Your Movement Speed is no longer reduced while Blood Mist is active.",
+				"desc": "Blood Mist leaves a trail that lasts for 4.0 seconds and deals {75/100} Shadow damage per second to enemies who stand in it. Your Movement Speed is no longer reduced while Blood Mist is active.",
 				"name": "Blood-soaked"
 			},
 			"legendary_necro_036": {
@@ -22615,7 +22615,7 @@
 					"array([0.022,0.03 ])"
 				],
 				"category": 0,
-				"desc": "When a segment of Bone Prison is destroyed or expires, it deals {2.2/3} damage in an area around itself.",
+				"desc": "When a segment of Bone Prison is destroyed or expires, it deals {11/15} damage in an area around itself.",
 				"name": "of Bursting Bones"
 			},
 			"legendary_necro_053": {
@@ -30194,15 +30194,15 @@
 					},
 					"power_formulas": [
 						"array([0.08,0.16,0.24,0.32,0.4 ,0.48,0.56,0.64,0.72,0.8 ])",
-						"array([ 8.,16.,24.,32.,40.,48.,56.,64.,72.,80.])"
+						"array([ 40., 80.,120.,160.,200.,240.,280.,320.,360.,400.])"
 					],
 					"power_name": "Necromancer_Talent_10",
 					"power_tags_list": [
 						"Thorns"
 					],
-					"skill_desc": "Gain {8/16/24/32/40/48/56/64/72/80} Thorns.",
+					"skill_desc": "Gain {40/80/120/160/200/240/280/320/360/400} Thorns.",
 					"skill_name": "Spiked Armor",
-					"skill_rankup_desc": "• Thorns 🡑 {8/16/24/32/40/48/56/64/72/80}"
+					"skill_rankup_desc": "• Thorns 🡑 {40/80/120/160/200/240/280/320/360/400}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -30407,7 +30407,7 @@
 					"HealingPercent"
 				],
 				"category": 0,
-				"desc": "Blood Surge casts a mini nova on your Minions, dealing {10/15} damage. Damage is increased by 10.0% per target drained by the initial cast, up to 50.0%.",
+				"desc": "Blood Surge casts a mini nova on your Minions, dealing {50/75} damage. Damage is increased by 10.0% per target drained by the initial cast, up to 50.0%.",
 				"flavor": "Once a sanctum for Rathma's studies, the Temple of the Deathspeaker became a proving grounds for potential leaders of his priesthood. Its halls are filled with the corpses of those who failed.",
 				"name": "Deathspeaker's Pendant"
 			},
@@ -30427,7 +30427,7 @@
 					"DamageReduction_ShadowDoT"
 				],
 				"category": 0,
-				"desc": "Create desecrated ground beneath your Sever spectres as they travel, damaging enemies for {30/42} Shadow damage over 2.0 seconds.",
+				"desc": "Create desecrated ground beneath your Sever spectres as they travel, damaging enemies for {150/210} Shadow damage over 2.0 seconds.",
 				"flavor": "\"The massive door to my family's crypt, which had taken a dozen men to close, was thrown open. Had I known the horrors to come I never would have set foot inside!\"\n-The Ebon Pages, Canto I, Verse VII",
 				"name": "Greaves of the Empty Tomb"
 			},
@@ -30478,7 +30478,7 @@
 					"MaxEssence"
 				],
 				"category": 0,
-				"desc": "Bone Spear leaves behind echoes as it travels that explode, dealing {25/35} damage.",
+				"desc": "Bone Spear leaves behind echoes as it travels that explode, dealing {125/175} damage.",
 				"flavor": "\"Rathma is endless. He was the first Ancient, and will remain at the end. He is the master of the Great Cycle of Being. When Death comes for him, why should he fear it?\"\n- Vauntus, Acolyte of Rathma",
 				"name": "Deathless Visage"
 			},
@@ -30499,13 +30499,13 @@
 					"Thorns"
 				],
 				"category": 0,
-				"desc": "While you have 7.0 or more Minions you gain:\n• Lucky Hit: Up to a 10.0% chance to empower all of your Minions, causing the next attack from each to explode for {300/400} Physical damage.",
+				"desc": "While you have 7.0 or more Minions you gain:\n• Lucky Hit: Up to a 10.0% chance to empower all of your Minions, causing the next attack from each to explode for {1500/2000} Physical damage.",
 				"flavor": "The signet of Mendeln ul-Diomed, the founder of the Priests of Rathma and the first Necromancer, was lost for over 3,000 years. The immense power over death held within, however, has not diminished.",
 				"name": "Ring of Mendeln",
 				"power_formulas": [
 					7.0,
 					10.0,
-					"array([300,400])",
+					"array([1500,2000])",
 					1
 				]
 			}
@@ -30530,12 +30530,12 @@
 					5.0
 				],
 				"category": 1,
-				"desc": "Each Chilled or Frozen enemy you Evade through grants you a Barrier that absorbs {5/10} damage for 5.0 seconds, absorbing up to a maximum of {25/50} damage.",
+				"desc": "Each Chilled or Frozen enemy you Evade through grants you a Barrier that absorbs {25/50} damage for 5.0 seconds, absorbing up to a maximum of {125/250} damage.",
 				"name": "Snap Frozen",
 				"power_formulas": [
 					"",
-					"array([ 5.,10.])",
-					"array([ 5.,10.]) * 5.0",
+					"array([25.,50.])",
+					"array([125.,250.])",
 					5.0,
 					5.0
 				]
@@ -30595,10 +30595,10 @@
 					"array([0.108,0.194])"
 				],
 				"category": 0,
-				"desc": "When a Dark Shroud shadow would be removed you trigger an explosion around yourself that deals {10.8/19.4} Shadow damage.",
+				"desc": "When a Dark Shroud shadow would be removed you trigger an explosion around yourself that deals {54/97} Shadow damage.",
 				"name": "of Volatile Shadows",
 				"power_formulas": [
-					"array([10.75,19.35])",
+					"array([53.75,96.75])",
 					2
 				]
 			},
@@ -30618,10 +30618,10 @@
 					"array([0.1,0.2])"
 				],
 				"category": 0,
-				"desc": "When you Evade or Shadow Step, you leave behind a cluster of exploding Stun Grenades that deal {10/20} total Physical damage and Stun enemies for 0.5 seconds.",
+				"desc": "When you Evade or Shadow Step, you leave behind a cluster of exploding Stun Grenades that deal {50/100} total Physical damage and Stun enemies for 0.5 seconds.",
 				"name": "of Surprise",
 				"power_formulas": [
-					"array([10.,20.])"
+					"array([ 50.,100.])"
 				]
 			},
 			"legendary_rogue_019": {
@@ -30629,10 +30629,10 @@
 					"array([0.2,0.3])"
 				],
 				"category": 0,
-				"desc": "Caltrops also throw a cluster of exploding Stun Grenades that deal {20/30} total Physical damage and Stun enemies for 0.5 seconds.",
+				"desc": "Caltrops also throw a cluster of exploding Stun Grenades that deal {100/150} total Physical damage and Stun enemies for 0.5 seconds.",
 				"name": "Trickster's",
 				"power_formulas": [
-					"array([20.,30.])"
+					"array([100.,150.])"
 				]
 			},
 			"legendary_rogue_020": {
@@ -30640,13 +30640,13 @@
 					"array([0.28,0.55])"
 				],
 				"category": 0,
-				"desc": "When casting an Imbuement Skill you trigger an Imbued explosion around yourself, applying the Imbuement effects and dealing {28/55} damage of the same type.",
+				"desc": "When casting an Imbuement Skill you trigger an Imbued explosion around yourself, applying the Imbuement effects and dealing {140/275} damage of the same type.",
 				"name": "of Unstable Imbuements",
 				"power_formulas": [
-					"array([28.,55.])",
+					"array([140.,275.])",
 					2,
 					6,
-					"array([4.667,9.167])"
+					"array([23.333,45.833])"
 				]
 			},
 			"legendary_rogue_021": {
@@ -30666,12 +30666,12 @@
 					75.0
 				],
 				"category": 0,
-				"desc": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a  c_number75.0% chance to create a toxic explosion that applies {8/13.5} Poisoning damage over 5.0 seconds to the target and surrounding enemies.",
+				"desc": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a  c_number75.0% chance to create a toxic explosion that applies {40/67.5} Poisoning damage over 5.0 seconds to the target and surrounding enemies.",
 				"name": "Toxic Alchemist's",
 				"power_formulas": [
-					"array([ 8. ,13.5])",
+					"array([40. ,67.5])",
 					5.0,
-					"array([1.6,2.7])",
+					"array([ 8. ,13.5])",
 					75.0,
 					2.5
 				]
@@ -30685,13 +30685,13 @@
 					15.0
 				],
 				"category": 0,
-				"desc": "Lucky Hit: Damaging a Chilled or Frozen enemy with a Shadow Imbued Skill has up to a 75.0% chance to release an explosion that deals {22/40} Cold damage to the target and surrounding enemies, Chilling them for 15.0%.",
+				"desc": "Lucky Hit: Damaging a Chilled or Frozen enemy with a Shadow Imbued Skill has up to a 75.0% chance to release an explosion that deals {110/200} Cold damage to the target and surrounding enemies, Chilling them for 15.0%.",
 				"name": "Icy Alchemist's",
 				"power_formulas": [
 					75.0,
 					15.0,
 					2.5,
-					"array([22.,40.])"
+					"array([110.,200.])"
 				]
 			},
 			"legendary_rogue_026": {
@@ -30718,11 +30718,11 @@
 					10.0
 				],
 				"category": 0,
-				"desc": "Lucky Hit: Your Marksman Skills have up to a 10.0% chance to create an arrow storm at the enemy's location, dealing {108/135} Physical damage over 3.0 seconds. You can have up to 5.0 active arrow storms.",
+				"desc": "Lucky Hit: Your Marksman Skills have up to a 10.0% chance to create an arrow storm at the enemy's location, dealing {540/675} Physical damage over 3.0 seconds. You can have up to 5.0 active arrow storms.",
 				"name": "of Arrow Storms",
 				"power_formulas": [
 					10.0,
-					"array([108.,135.]) / 3.0 / (1/0.25)",
+					"array([45.  ,56.25])",
 					2,
 					0.25,
 					3.0,
@@ -30740,11 +30740,11 @@
 					10.0
 				],
 				"category": 0,
-				"desc": "Lucky Hit: Critical Strikes with Poison Imbued Skills have up to a 10.0% chance to create a toxic pool that deals {108/135} Poisoning damage over 3.0 seconds to enemies within. While standing in the pool Poison Imbuement has no Cooldown and no Charge limit.",
+				"desc": "Lucky Hit: Critical Strikes with Poison Imbued Skills have up to a 10.0% chance to create a toxic pool that deals {540/675} Poisoning damage over 3.0 seconds to enemies within. While standing in the pool Poison Imbuement has no Cooldown and no Charge limit.",
 				"name": "of Bursting Venoms",
 				"power_formulas": [
 					10.0,
-					"array([108.,135.]) / 3.0",
+					"array([180.,225.])",
 					2,
 					0.25,
 					3.0,
@@ -30815,7 +30815,7 @@
 					3.0
 				],
 				"category": 1,
-				"desc": "Explosions from the Victimize Key Passive Heal you for {5/9} Life for each enemy damaged, up to a maximum of {15/27} Life.",
+				"desc": "Explosions from the Victimize Key Passive Heal you for {25/45} Life for each enemy damaged, up to a maximum of {75/135} Life.",
 				"name": "of Cruel Sustenance"
 			},
 			"legendary_rogue_105": {
@@ -30832,7 +30832,7 @@
 				"name": "Vengeful",
 				"power_formulas": [
 					"array([30,50])",
-					"3.0/100",
+					0.03,
 					3.0,
 					3.0
 				]
@@ -30874,12 +30874,12 @@
 					"array([0.02,0.06])"
 				],
 				"category": 1,
-				"desc": "Each stack of the Momentum Key Passive Heals you for {2/6} Life per second.",
+				"desc": "Each stack of the Momentum Key Passive Heals you for {10/30} Life per second.",
 				"name": "of Stolen Vigor",
 				"power_formulas": [
 					8,
 					3,
-					"array([2.,6.])"
+					"array([10.,30.])"
 				]
 			},
 			"legendary_rogue_109": {
@@ -30887,7 +30887,7 @@
 					"array([0.72,0.9 ])"
 				],
 				"category": 0,
-				"desc": "When you break Stealth with an attack, you drop a cluster of exploding Stun Grenades around your location that deal {72/90} total Physical damage and Stun enemies for 0.5 seconds.",
+				"desc": "When you break Stealth with an attack, you drop a cluster of exploding Stun Grenades around your location that deal {360/450} total Physical damage and Stun enemies for 0.5 seconds.",
 				"name": "Opportunist's"
 			},
 			"legendary_rogue_110": {
@@ -30914,7 +30914,7 @@
 				"name": "Cheat's",
 				"power_formulas": [
 					"array([0.15,0.25])",
-					"15.0 / 100",
+					0.15,
 					2.0
 				]
 			},
@@ -39993,7 +39993,7 @@
 					3
 				],
 				"category": 0,
-				"desc": "An hail of Meteorites falls during Inferno, dealing {20.5/25} Fire Damage on impact. Your Meteorites Immobilize enemies for 3 seconds.",
+				"desc": "An hail of Meteorites falls during Inferno, dealing {102.5/125} Fire Damage on impact. Your Meteorites Immobilize enemies for 3 seconds.",
 				"name": "of Armageddon",
 				"power_formulas": [
 					3
@@ -40076,7 +40076,7 @@
 					6.0
 				],
 				"category": 0,
-				"desc": "Meteorites fall around Meteor, dealing {15/20} Fire damage on impact. Your Meteorites additionally Burn enemies they hit for {45/60} damage over 6.0 seconds.",
+				"desc": "Meteorites fall around Meteor, dealing {75/100} Fire damage on impact. Your Meteorites additionally Burn enemies they hit for {225/300} damage over 6.0 seconds.",
 				"name": "of Shattered Stars"
 			},
 			"legendary_sorc_107": {
@@ -40087,7 +40087,7 @@
 					0.25
 				],
 				"category": 0,
-				"desc": "When you cast Blizzard it will periodically spawn exploding Ice Spikes that deal {20/30} damage. Your Ice Spikes deal x25% increased damage to Frozen enemies.",
+				"desc": "When you cast Blizzard it will periodically spawn exploding Ice Spikes that deal {100/150} damage. Your Ice Spikes deal x25% increased damage to Frozen enemies.",
 				"name": "Glacial"
 			},
 			"legendary_sorc_108": {
@@ -40106,13 +40106,13 @@
 					10
 				],
 				"category": 0,
-				"desc": "While Ice Armor is active, you leave behind exploding Ice Spikes that deal {20/30} damage. Your Ice Spikes Chill enemies for 10%.",
+				"desc": "While Ice Armor is active, you leave behind exploding Ice Spikes that deal {100/150} damage. Your Ice Spikes Chill enemies for 10%.",
 				"name": "of the Frozen Wake",
 				"power_formulas": [
 					6,
 					0.5,
 					0.5,
-					"array([20.,30.])",
+					"array([100.,150.])",
 					"CantStartDisplayedPowers"
 				]
 			},
@@ -40182,13 +40182,13 @@
 					0.5
 				],
 				"category": 0,
-				"desc": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing {25/35} Cold damage. Your Ice Spikes have a 50% increased explosion radius.",
+				"desc": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing {125/175} Cold damage. Your Ice Spikes have a 50% increased explosion radius.",
 				"name": "of the Frozen Tundra",
 				"power_formulas": [
 					4,
 					10,
 					0.5,
-					"array([25.,35.])"
+					"array([125.,175.])"
 				]
 			},
 			"legendary_sorc_117": {
@@ -49616,7 +49616,7 @@
 					"SkillRankBonus_Sorc_Core_5"
 				],
 				"category": 0,
-				"desc": "While Channeling Incinerate, you periodically shoot embers that are attracted to enemies, each dealing {10/20} Fire damage.",
+				"desc": "While Channeling Incinerate, you periodically shoot embers that are attracted to enemies, each dealing {50/100} Fire damage.",
 				"flavor": "The burn may heal, but the pain is eternal.",
 				"name": "Flamescar"
 			},
@@ -49670,7 +49670,7 @@
 					"Movement_Speed"
 				],
 				"category": 0,
-				"desc": "Upon collecting Crackling Energy, there's a  10.0% chance to release a lightning nova, dealing {31/40} Lightning Damage.",
+				"desc": "Upon collecting Crackling Energy, there's a  10.0% chance to release a lightning nova, dealing {155/200} Lightning Damage.",
 				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both.",
 				"name": "Esadora's Overflowing Cameo"
 			},
@@ -49717,7 +49717,7 @@
 					0.1,
 					4,
 					"array([2,3])",
-					"20.0 / 100"
+					0.2
 				]
 			},
 			"Gloves_Unique_Sorc_002": {
