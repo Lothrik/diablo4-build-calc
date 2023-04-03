@@ -11735,7 +11735,7 @@
 						"Spirit",
 						"Physical"
 					],
-					"skill_desc": "Cooldown: 0 seconds\nGenerate Spirit: 8\nLucky Hit Chance: {#}%\nSunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.",
+					"skill_desc": "Generate Spirit: 8\nLucky Hit Chance: {#}%\nSunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.",
 					"skill_name": "Earth Spike",
 					"skill_rankup_desc": "• Damage 🡑 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%"
 				},

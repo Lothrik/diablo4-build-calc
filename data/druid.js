@@ -50,8 +50,7 @@ druidData["Trunk Data"] = {
 druidData["Basic"] = {
 	"Earth Spike": {
 		connections: [ "Basic", "Enhanced Earth Spike" ],
-		description: `Cooldown: 0 seconds
-Generate Spirit: 8
+		description: `Generate Spirit: 8
 Lucky Hit Chance: {#}%
 Sunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.
 
