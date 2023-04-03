@@ -978,7 +978,7 @@ function handlePlusButton(curNode) {
 					handleMinusButton(pixiNode);
 				} else if (pixiNode.groupName == CAPSTONE) {
 					handleMinusButton(pixiNode);
-				} else if (pixiNode.nodeData.get("baseSkill") == baseSkill) {
+				} else if (baseSkill != undefined && pixiNode.nodeData.get("baseSkill") == baseSkill) {
 					const connections = [...pixiNode.nodeData.get("connections").values()];
 					if (!connections.some(connection => [baseSkill, curNode.groupName].includes(connection))) handleMinusButton(pixiNode);
 				}
