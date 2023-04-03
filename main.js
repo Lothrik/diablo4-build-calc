@@ -816,44 +816,10 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	}
 }
 function canAllocate(curNode) {
-	if ([CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+	if ([ULTIMATE, CAPSTONE, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		return true;
 	} else if (curNode.groupName == PARAGON_BOARD) {
 		return getUnusedPoints(true) > 0;
-	} else if (curNode.groupName == CAPSTONE) {
-		return pixiNodes.find(pixiNode => {
-			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
-			if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
-			return [...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName);
-		}) == undefined;
-	} else if (curNode.groupName == ULTIMATE) {
-		if (curNode.nodeData.get("description").includes(COOLDOWN_PREFIX)) {
-			return pixiNodes.find(pixiNode => {
-				if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
-				if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
-				if (!pixiNode.nodeData.get("description").includes(COOLDOWN_PREFIX)) return false;
-				return [...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName);
-			}) == undefined;
-		} else {
-			return true;
-		}
-	}
-	const baseSkill = curNode.nodeData.get("baseSkill");
-	if (baseSkill != undefined) {
-		// this may need to change in the future if branching skill modifiers are added
-		const modifierCount = pixiNodes.filter(pixiNode => {
-			if (pixiNode.groupName != curNode.groupName) return false;
-			if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
-			if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
-			return true;
-		}).length + 1;
-		if (modifierCount > 2) return false;
-		return pixiNodes.find(pixiNode => {
-			if (pixiNode.groupName != curNode.groupName || pixiNode == curNode) return false;
-			if ((pixiNode.nodeData.get("allocatedPoints") || 0) == 0) return false;
-			if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
-			return [...pixiNode.nodeData.get("connections").values()].includes(curNode.groupName);
-		}) == undefined;
 	}
 	return true;
 }
@@ -954,7 +920,26 @@ function handlePlusButton(curNode) {
 			}
 		}
 	} else {
-		if (getUnusedPoints(false) <= 0) return;
+		const baseSkill = curNode.nodeData.get("baseSkill");
+		let minUnusedPoints = 0;
+		let isUltimateSkill = false;
+		if (curNode.groupName == CAPSTONE) {
+			minUnusedPoints = -1;
+		} else if (curNode.groupName == ULTIMATE) {
+			isUltimateSkill = curNode.nodeData.get("description").includes(COOLDOWN_PREFIX);
+			if (isUltimateSkill) minUnusedPoints = -1;
+		} else if (baseSkill != undefined) {
+			// this may need to change in the future if branching skill modifiers are added
+			const modifierCount = pixiNodes.filter(pixiNode => {
+				if (pixiNode.groupName != curNode.groupName) return false;
+				if (!pixiNode.nodeData.get("allocatedPoints")) return false;
+				if (pixiNode.nodeData.get("baseSkill") != baseSkill) return false;
+				return true;
+			}).length + 1;
+			if (modifierCount > 2) minUnusedPoints = -1;
+		}
+
+		if (getUnusedPoints(false) <= minUnusedPoints) return;
 
 		let validConnection = false;
 		const nodeConnectionValues = curNode.nodeData.get("connections").values();
@@ -985,6 +970,19 @@ function handlePlusButton(curNode) {
 			updateCharacterLevel();
 			drawTooltip(curNode, newPoints > 1);
 		}
+
+		// immediately deallocate any nodes that are mutually exclusive with the one we just allocated
+		pixiNodes.forEach(pixiNode => {
+			if (pixiNode.groupName == curNode.groupName && pixiNode != curNode && pixiNode.nodeData.get("allocatedPoints")) {
+				if (pixiNode.groupName != ULTIMATE || (isUltimateSkill && pixiNode.nodeData.get("description").includes(COOLDOWN_PREFIX))) {
+					const connections = [...pixiNode.nodeData.get("connections").values()];
+					if ((!connections.includes(baseSkill) && pixiNode.nodeData.get("baseSkill") == baseSkill)
+						|| connections.some(connection => [ULTIMATE, CAPSTONE].includes(connection))) {
+						handleMinusButton(pixiNode);
+					}
+				}
+			}
+		});
 	}
 }
 function handleMinusButton(curNode) {
