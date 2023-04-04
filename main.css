@@ -126,6 +126,14 @@ h1, h2, h3 {
 	}
 }
 
+#summaryButton {
+	cursor: pointer;
+	height: 35px;
+	margin: 0 calc(100% - 40px) -35px 0;
+	user-select: none;
+	width: 35px;
+}
+
 #colorConnectorInput, #colorNodeInput {
 	visibility: hidden;
 }

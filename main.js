@@ -115,6 +115,7 @@ const nodeHeight = 100;
 const tooltipWidth = 680;
 
 // evil magic variables that probably need to be replaced later to support multiple languages
+const SUMMARY_HOVER_HTML = "Click to copy a plain-text summary of your skill tree, codex of power, and paragon board.";
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
@@ -129,6 +130,7 @@ const ENCHANTMENT_EFFECT_DESC = "— Enchantment Effect —";
 const COOLDOWN_PREFIX = "Cooldown: ";
 const ULTIMATE = "Ultimate";
 const CAPSTONE = "Capstone";
+const SKILL_TREE = "Skill Tree";
 const PARAGON_BOARD = "Paragon Board";
 const CODEX_OF_POWER = "Codex of Power";
 const CODEX_OF_POWER_DESC_BEFORE = "Legendary aspects in this category can be applied to: ";
@@ -146,6 +148,47 @@ const COLOR_OVERRIDE = {
 	"Socket": 0xFF0000,
 	"Allocated": 0xFF0000
 };
+
+// sorted object groups, mostly used for summary text processing
+
+const sortedTreeGroupTypes = [
+	"Basic",
+	"Core",
+	"Spirit", // Druid - 2
+	"Defensive",
+	"Macabre", // Necromancer - 3
+	"Agility", // Rogue - 3
+	"Brawling", // Barbarian - 4
+	"Companion", // Druid - 4
+	"Corruption", // Necromancer - 4
+	"Subterfuge", // Rogue - 4
+	"Conjuration", // Sorcerer - 4
+	"Weapon Mastery", // Barbarian - 5
+	"Wrath", // Druid - 5
+	"Summoning", // Necromancer - 5
+	"Imbuements", // Rogue - 5
+	"Mastery", // Sorcerer - 5
+	"Ultimate",
+	CAPSTONE
+];
+
+const sortedParagonNodeTypes = [
+	"Normal",
+	"Magic",
+	"Rare",
+	"Socket",
+	"Legendary"
+];
+
+const sortedCodexCategoryTypes = [
+	"Offensive",
+	"Defensive",
+	"Utility",
+	"Resource",
+	"Mobility",
+	"Other",
+	"Unknown"
+];
 
 /*
 const NODE_CIRCLE_ACTIVE = PIXI.Texture.from("images/node_circle_active.png");
@@ -324,6 +367,120 @@ function setNodeStyleThin(curNode) {
 // event handlers
 const classString = "#classSelector option:selected";
 const groupString = "#groupSelector option:selected";
+function handleSummaryButton(event) {
+	const extraInfoHTML = $("#extraInfo").html();
+	if (event.type == "mouseenter" && extraInfoHTML.length == 0) {
+		$("#extraInfo").html(SUMMARY_HOVER_HTML).removeClass("hidden");
+	} else if (event.type == "mouseleave" && extraInfoHTML == SUMMARY_HOVER_HTML) {
+		$("#extraInfo").empty().addClass("hidden");
+	} else if (event.type == "click") {
+		let allocatedTreeNodes = {};
+		let allocatedParagonNodes = {};
+		let allocatedCodexNodes = {};
+		pixiNodes.forEach(pixiNode => {
+			const nodeName = pixiNode.nodeName;
+			const groupName = pixiNode.groupName;
+			const nodeData = pixiNode.nodeData;
+			const allocatedPoints = nodeData.get("allocatedPoints");
+			if (allocatedPoints) {
+				if (pixiNode.groupName == PARAGON_BOARD) {
+					const boardName = nodeData.get("boardName");
+					const nodeType = nodeData.get("nodeType");
+					if (!(boardName in allocatedParagonNodes)) allocatedParagonNodes[boardName] = {};
+					if (!(nodeType in allocatedParagonNodes[boardName])) allocatedParagonNodes[boardName][nodeType] = {};
+					allocatedParagonNodes[boardName][nodeType][nodeName] = pixiNode.nodeDesc;
+				} else if (groupName == CODEX_OF_POWER) {
+					const codexCategory = nodeData.get("codexCategory");
+					if (!(codexCategory in allocatedCodexNodes)) allocatedCodexNodes[codexCategory] = {};
+					allocatedCodexNodes[codexCategory][nodeName] = {
+						"nodeDesc": pixiNode.nodeDesc,
+						"itemType": nodeData.get("itemType")
+					};
+				} else if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
+					// TODO -- might add support for this later
+				} else {
+					if (!(groupName in allocatedTreeNodes)) allocatedTreeNodes[groupName] = {};
+					const baseSkill = nodeData.get("baseSkill");
+					if (baseSkill != undefined) {
+						// active skill modifier
+						if (!(baseSkill in allocatedTreeNodes[groupName])) allocatedTreeNodes[groupName][baseSkill] = {};
+						if (!("activeModifiers" in allocatedTreeNodes[groupName][baseSkill])) allocatedTreeNodes[groupName][baseSkill]["activeModifiers"] = [];
+						allocatedTreeNodes[groupName][baseSkill]["activeModifiers"].push(nodeName.split(` ${baseSkill}`)[0]);
+					} else if (groupName == CAPSTONE) {
+						allocatedTreeNodes[groupName] = {
+							"nodeName": nodeName,
+							"nodeDesc": pixiNode.nodeDesc
+						};
+					} else {
+						if (!(nodeName in allocatedTreeNodes[groupName])) allocatedTreeNodes[groupName][nodeName] = {};
+						allocatedTreeNodes[groupName][nodeName] = {
+							"allocatedPoints": allocatedPoints,
+							"maxPoints": nodeData.get("maxPoints"),
+							"isPassive": nodeData.get("maxPoints") == 3
+						};
+					}
+				}
+			}
+		});
+		let treeOutput = `[${SKILL_TREE}]:`;
+		for (const groupName of sortedTreeGroupTypes) {
+			const groupData = allocatedTreeNodes[groupName];
+			if (groupData == undefined) continue;
+			if (groupName == CAPSTONE) {
+				treeOutput += `\n\t[${CAPSTONE}]:\n\t\t[${groupData.nodeName}] allocated: "${groupData.nodeDesc.split("\n\nTags:")[0]}"`;
+			} else {
+				treeOutput += `\n\t[${groupName}]:`;
+				for (const [nodeName, nodeData] of Object.entries(groupData)) {
+					treeOutput += `\n\t\t[${nodeName}]${nodeData.maxPoints == 1 ? " allocated" : ": " + nodeData.allocatedPoints + "/" + nodeData.maxPoints + " points"}`;
+					if ("activeModifiers" in nodeData && nodeData["activeModifiers"].length > 0) treeOutput += `. Modifiers: ${nodeData.activeModifiers.join(", ")}`;
+					treeOutput += ".";
+				}
+			}
+		}
+		let codexOutput = `[${CODEX_OF_POWER}]:`;
+		for (const codexCategory of sortedCodexCategoryTypes) {
+			const categoryData = allocatedCodexNodes[codexCategory];
+			if (categoryData == undefined) continue;
+			codexOutput += `\n\t[${codexCategory}]:`;
+			for (const [nodeName, nodeData] of Object.entries(categoryData)) {
+				codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+			}
+		}
+		let paragonOutput = `[${PARAGON_BOARD}]:`;
+		for (const [boardName, boardData] of Object.entries(allocatedParagonNodes)) {
+			paragonOutput += `\n\t[${boardName}]:`;
+			for (const nodeType of sortedParagonNodeTypes) {
+				const nodeData = boardData[nodeType];
+				if (nodeData == undefined) continue;
+				const nodeTypeCount = Object.keys(nodeData).length;
+				const nodeTypeSuffix = nodeTypeCount == 1 ? "node" : "nodes";
+				if (["Normal", "Magic"].includes(nodeType)) {
+					paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated.`;
+				} else if (nodeType == "Rare") {
+					paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: [${Object.keys(nodeData).join("], [")}].`;
+				} else if (nodeType == "Socket") {
+					paragonOutput += `\n\t\t${nodeTypeCount} glyph ${nodeType.toLowerCase()} allocated.`;
+				} else if (nodeType == "Legendary") {
+					paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: "${Object.values(nodeData)[0].split("\n\nTags:")[0]}"`;
+				}
+			}
+		}
+		let finalOutput = "";
+		if (treeOutput.includes("\t")) finalOutput = treeOutput;
+		if (codexOutput.includes("\t")) {
+			if (finalOutput.length > 0) finalOutput += "\n\n";
+			finalOutput += codexOutput;
+		}
+		if (paragonOutput.includes("\t")) {
+			if (finalOutput.length > 0) finalOutput += "\n\n";
+			finalOutput += paragonOutput;
+		}
+		if (finalOutput.length > 0) {
+			navigator.clipboard.writeText(finalOutput);
+			console.log(finalOutput);
+		}
+	}
+}
 function handleConnectorColorInput(event) {
 	writeCookie("activeConnectorColor", $("#colorConnectorInput").val().slice(1));
 
@@ -502,13 +659,13 @@ function handleClassSelection(event) {
 	if (classText != $("#className").text()) {
 		$("#className").text(classText);
 		if (classText == "None") {
-			$("#header h2, #versionLabel, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
+			$("#header h2, #versionLabel, #summaryButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
 			$("#classSelectBox").removeClass("disabled");
 			$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
 			$("#groupSelector").empty();
 			$("#searchInput").removeAttr("style");
 		} else {
-			$("#header h2, #versionLabel, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
+			$("#header h2, #versionLabel, #summaryButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
 			$("#classSelectBox").addClass("disabled");
 			$("#extraInfo").empty().addClass("hidden");
 		}
@@ -1586,8 +1743,7 @@ function drawAllNodes() {
 							// passive skill
 							curNode.set("shapeType", "circle");
 							curNode.set("shapeSize", 1 / Math.SQRT2 * 0.9);
-						} else if (groupName == "Capstone") {
-							// special behavior for capstone skills
+						} else if (groupName == CAPSTONE) {
 							curNode.set("shapeType", "circle");
 							curNode.set("shapeSize", 1 / Math.SQRT2 * 1.1);
 						} else {
@@ -1677,10 +1833,12 @@ function drawAllNodes() {
 								: nodeData == "Generic_Socket" ? "Socket" : "";
 							const boardNode = new Map([
 								["allocatedPoints", 0],
+								["boardName", boardName],
 								["colorOverride", COLOR_OVERRIDE[nodeType]],
 								["description", nodeDesc],
 								["id", `paragon-${unsortedIndex}-${xPosition}-${yPosition}`],
 								["maxPoints", 1],
+								["nodeType", nodeType],
 								["widthOverride", nodeWidth],
 								["heightOverride", nodeHeight],
 								["shapeSize", 1],
@@ -1696,16 +1854,6 @@ function drawAllNodes() {
 			}
 			$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
 		}
-
-		const sortedCodexCategoryTypes = [
-			"Offensive",
-			"Defensive",
-			"Utility",
-			"Resource",
-			"Mobility",
-			"Other",
-			"Unknown"
-		];
 
 		const sortedCodexItemTypeIndex = {
 			"Legendary": 0,
@@ -1787,6 +1935,7 @@ function drawAllNodes() {
 
 						const codexPowerNode = new Map([
 							["allocatedPoints", 0],
+							["codexCategory", codexCategoryName],
 							["description", powerDescription],
 							["id", `codex-${codexPower.id}`],
 							["itemType", codexPower.type],
@@ -2254,6 +2403,8 @@ $("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
+	$("#summaryButton").on("click mouseenter mouseleave", handleSummaryButton);
+
 	$("#colorConnectorInput").on("change", handleConnectorColorInput);
 	$("#colorNodeInput").on("change", handleNodeColorInput);
 	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
