@@ -115,7 +115,9 @@ const nodeHeight = 100;
 const tooltipWidth = 680;
 
 // evil magic variables that probably need to be replaced later to support multiple languages
-const SUMMARY_HOVER_HTML = "Click to copy a plain-text summary of your skill tree, codex of power, and paragon board.";
+const SUMMARY_HOVER_HTML = "Click to copy a full summary of this build to your clipboard.";
+const SUMMARY_CLICK_SUCCESS_HTML = "Build summary copied, check your clipboard!";
+const SUMMARY_CLICK_FAILURE_HTML = "Build summary copy failed &mdash; do you have a build loaded?";
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
@@ -377,8 +379,11 @@ function handleSummaryButton(event) {
 		let allocatedTreeNodes = {};
 		let allocatedParagonNodes = {};
 		let allocatedCodexNodes = {};
+		let allocatedBoonNodes = {};
+		let allocatedBookNodes = {};
 		pixiNodes.forEach(pixiNode => {
 			const nodeName = pixiNode.nodeName;
+			const nodeDesc = pixiNode.nodeDesc;
 			const groupName = pixiNode.groupName;
 			const nodeData = pixiNode.nodeData;
 			const allocatedPoints = nodeData.get("allocatedPoints");
@@ -388,16 +393,18 @@ function handleSummaryButton(event) {
 					const nodeType = nodeData.get("nodeType");
 					if (!(boardName in allocatedParagonNodes)) allocatedParagonNodes[boardName] = {};
 					if (!(nodeType in allocatedParagonNodes[boardName])) allocatedParagonNodes[boardName][nodeType] = {};
-					allocatedParagonNodes[boardName][nodeType][nodeName] = pixiNode.nodeDesc;
+					allocatedParagonNodes[boardName][nodeType][nodeName] = nodeDesc;
 				} else if (groupName == CODEX_OF_POWER) {
 					const codexCategory = nodeData.get("codexCategory");
 					if (!(codexCategory in allocatedCodexNodes)) allocatedCodexNodes[codexCategory] = {};
 					allocatedCodexNodes[codexCategory][nodeName] = {
-						"nodeDesc": pixiNode.nodeDesc,
+						"nodeDesc": nodeDesc,
 						"itemType": nodeData.get("itemType")
 					};
-				} else if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
-					// TODO -- might add support for this later
+				} else if (groupName == SPIRIT_BOONS) {
+					if (nodeDesc != SPIRIT_BOON_DESC) allocatedBoonNodes[nodeName] = nodeDesc;
+				} else if (groupName == BOOK_OF_THE_DEAD) {
+					allocatedBookNodes[nodeName] = nodeDesc;
 				} else {
 					if (!(groupName in allocatedTreeNodes)) allocatedTreeNodes[groupName] = {};
 					const baseSkill = nodeData.get("baseSkill");
@@ -409,7 +416,7 @@ function handleSummaryButton(event) {
 					} else if (groupName == KEY_PASSIVE) {
 						allocatedTreeNodes[groupName] = {
 							"nodeName": nodeName,
-							"nodeDesc": pixiNode.nodeDesc
+							"nodeDesc": nodeDesc
 						};
 					} else {
 						if (!(nodeName in allocatedTreeNodes[groupName])) allocatedTreeNodes[groupName][nodeName] = {};
@@ -427,7 +434,7 @@ function handleSummaryButton(event) {
 			const groupData = allocatedTreeNodes[groupName];
 			if (groupData == undefined) continue;
 			if (groupName == KEY_PASSIVE) {
-				treeOutput += `\n\t[${KEY_PASSIVE}]:\n\t\t[${groupData.nodeName}] allocated: "${groupData.nodeDesc.split("\n\nTags:")[0]}"`;
+				treeOutput += `\n\t[${KEY_PASSIVE}]:\n\t\t[${groupData.nodeName}]: allocated.`;
 			} else {
 				treeOutput += `\n\t[${groupName}]:`;
 				for (const [nodeName, nodeData] of Object.entries(groupData)) {
@@ -437,6 +444,10 @@ function handleSummaryButton(event) {
 				}
 			}
 		}
+		let boonOutput = `[${SPIRIT_BOONS}]:`;
+		for (const [boonName, boonDesc] of Object.entries(allocatedBoonNodes)) boonOutput += `\n\t[${boonName}]: ${boonDesc}`;
+		let bookOutput = `[${BOOK_OF_THE_DEAD}]:`;
+		for (const [bookName, bookDesc] of Object.entries(allocatedBookNodes)) bookOutput += `\n\t[${bookName}]: ${bookDesc}`;
 		let codexOutput = `[${CODEX_OF_POWER}]:`;
 		for (const codexCategory of sortedCodexCategoryTypes) {
 			const categoryData = allocatedCodexNodes[codexCategory];
@@ -467,18 +478,23 @@ function handleSummaryButton(event) {
 		}
 		let finalOutput = "";
 		if (treeOutput.includes("\t")) finalOutput = treeOutput;
-		if (codexOutput.includes("\t")) {
-			if (finalOutput.length > 0) finalOutput += "\n\n";
-			finalOutput += codexOutput;
-		}
-		if (paragonOutput.includes("\t")) {
-			if (finalOutput.length > 0) finalOutput += "\n\n";
-			finalOutput += paragonOutput;
+		const summaryItems = [boonOutput, bookOutput, codexOutput, paragonOutput];
+		for (const summaryItem of summaryItems) {
+			if (summaryItem.includes("\t")) {
+				if (finalOutput.length > 0) finalOutput += "\n\n";
+				finalOutput += summaryItem;
+			}
 		}
 		if (finalOutput.length > 0) {
 			navigator.clipboard.writeText(finalOutput);
 			console.log(finalOutput);
+			$("#extraInfo").html(SUMMARY_CLICK_SUCCESS_HTML).removeClass("hidden");
+		} else {
+			$("#extraInfo").html(SUMMARY_CLICK_FAILURE_HTML).removeClass("hidden");
 		}
+		setTimeout(() => {
+			$("#extraInfo").empty().addClass("hidden");
+		}, 2000);
 	}
 }
 function handleConnectorColorInput(event) {
@@ -1040,7 +1056,7 @@ function handleToggleButton(curNode) {
 				let allocatedBoons = [];
 				let extraBoonAvailable = false;
 				pixiNodes.forEach(pixiNode => {
-					if (pixiNode.groupName == SPIRIT_BOONS && pixiNode.nodeData.get("description") == SPIRIT_BOON_DESC
+					if (pixiNode.groupName == SPIRIT_BOONS && pixiNode.nodeDesc == SPIRIT_BOON_DESC
 						&& pixiNode.nodeData.get("allocatedPoints") > 0 && pixiNode.nodeName == curNode.nodeData.get("boonTypeName")) {
 						extraBoonAvailable = true;
 					}
@@ -1083,7 +1099,7 @@ function handlePlusButton(curNode) {
 		if (curNode.groupName == KEY_PASSIVE) {
 			minUnusedPoints = -1;
 		} else if (curNode.groupName == ULTIMATE) {
-			isUltimateSkill = curNode.nodeData.get("description").includes(COOLDOWN_PREFIX);
+			isUltimateSkill = curNode.nodeDesc.includes(COOLDOWN_PREFIX);
 			if (isUltimateSkill) minUnusedPoints = -1;
 		} else if (baseSkill != undefined) {
 			// this may need to change in the future if branching skill modifiers are added
@@ -1134,7 +1150,7 @@ function handlePlusButton(curNode) {
 				let deallocateNode = false;
 				if (pixiNode.groupName == KEY_PASSIVE) {
 					deallocateNode = true;
-				} else if (pixiNode.groupName == ULTIMATE && isUltimateSkill && pixiNode.nodeData.get("description").includes(COOLDOWN_PREFIX)) {
+				} else if (pixiNode.groupName == ULTIMATE && isUltimateSkill && pixiNode.nodeDesc.includes(COOLDOWN_PREFIX)) {
 					deallocateNode = true;
 				} else if (baseSkill != undefined && pixiNode.nodeData.get("baseSkill") == baseSkill) {
 					const connections = [...pixiNode.nodeData.get("connections").values()];
@@ -1164,7 +1180,7 @@ function handleMinusButton(curNode) {
 			}
 		}
 
-		if (curNode.groupName == SPIRIT_BOONS && curNode.nodeData.get("description") == SPIRIT_BOON_DESC) {
+		if (curNode.groupName == SPIRIT_BOONS && curNode.nodeDesc == SPIRIT_BOON_DESC) {
 			let foundBoon = false;
 			pixiNodes.forEach(pixiNode => {
 				if (pixiNode.groupName == SPIRIT_BOONS
