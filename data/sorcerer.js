@@ -347,7 +347,7 @@ Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 		connections: [ "Core", "Enhanced Incinerate" ],
 		description: `Mana Cost: {#} per second
 Lucky Hit Chance: {#}%
-Channel a beam of fire, Burning enemies for dotdps:BURNING_DAMAGE damage per second. Damage per second increases over 4 seconds, up to dotdps:TOOLTIP_MAX_DAMAGE.
+Channel a beam of fire, Burning enemies for {9.1/10/10.925/11.825/12.75/13.65/14.55/15.475/16.375/17.3}% damage per second. Damage per second increases over 4 seconds, up to {49.1/54/59/63.9/68.9/73.7/78.6/83.6/88.4/93.4}%.
 
 Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.
 

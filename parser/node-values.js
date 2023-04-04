@@ -286,7 +286,8 @@ let nodeValues = {
 				"40"
 			],
 			"Bone Prison": [
-				"20"
+				"20",
+				""
 			],
 			"Blood Mist": [
 				"20",

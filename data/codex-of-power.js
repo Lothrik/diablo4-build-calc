@@ -1337,7 +1337,7 @@ let codexData = {
 			"Toxic Alchemist's Aspect": {
 				"id": 234,
 				"type": "Legendary",
-				"description": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a  c_number75.0% chance to create a toxic explosion that applies {40/67.5} Poisoning damage over 5.0 seconds to the target and surrounding enemies.",
+				"description": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a 75% chance to create a toxic explosion that applies {40/67.5} Poisoning damage over 5.0 seconds to the target and surrounding enemies.",
 				"dungeon": "",
 				"region": ""
 			},

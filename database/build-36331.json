@@ -10465,7 +10465,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nRocks surround you for 3 seconds, granting a Barrier that absorbs {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% of your Base Life in damage.",
 					"skill_name": "Earthen Bulwark",
-					"skill_rankup_desc": "• Barrier Amount 🡑  {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Base Life shield:BUFF_SHIELD"
+					"skill_rankup_desc": "• Barrier Amount 🡑  {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -24072,9 +24072,9 @@
 						"Skill_Primary_Macabre",
 						"Skill_Bone"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nUnearth a prison of bone with pet_health:BoneWall Life that surrounds the target area for 6 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nUnearth a prison of bone with {#} Life that surrounds the target area for 6 seconds.",
 					"skill_name": "Bone Prison",
-					"skill_rankup_desc": "• Bone Prison Life 🡑 pet_health:BoneWall\n• Cooldown 🡑 {#}"
+					"skill_rankup_desc": "• Bone Prison Life 🡑 {#}\n• Cooldown 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {

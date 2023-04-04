@@ -25724,9 +25724,9 @@
 						"Bone",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nUnearth a prison of bone with pet_health:BoneWall Life that surrounds the target area for 6 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nUnearth a prison of bone with {#} Life that surrounds the target area for 6 seconds.",
 					"skill_name": "Bone Prison",
-					"skill_rankup_desc": "• Bone Prison Life 🡑 pet_health:BoneWall\n• Cooldown 🡑 {#} seconds"
+					"skill_rankup_desc": "• Bone Prison Life 🡑 {#}\n• Cooldown 🡑 {#} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -30666,7 +30666,7 @@
 					75.0
 				],
 				"category": 0,
-				"desc": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a  c_number75.0% chance to create a toxic explosion that applies {40/67.5} Poisoning damage over 5.0 seconds to the target and surrounding enemies.",
+				"desc": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a 75% chance to create a toxic explosion that applies {40/67.5} Poisoning damage over 5.0 seconds to the target and surrounding enemies.",
 				"name": "Toxic Alchemist's",
 				"power_formulas": [
 					"array([40. ,67.5])",
@@ -44171,7 +44171,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nA Barrier of ice forms around you for 6 seconds, absorbing {#}% of your Base Life in damage. While Ice Armor is active, 10% of your damage dealt is added to its Barrier.",
 					"skill_name": "Ice Armor",
-					"skill_rankup_desc": "• Duration 🡑 {#}%\n• Barrier Amount 🡑 shield:ICE_BARRIER"
+					"skill_rankup_desc": "• Duration 🡑 {#}%\n• Barrier Amount 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -45388,9 +45388,9 @@
 						"Burn",
 						"Mana"
 					],
-					"skill_desc": "Mana Cost: {#} per second\nLucky Hit Chance: {#}%\nChannel a beam of fire, Burning enemies for dotdps:BURNING_DAMAGE damage per second. Damage per second increases over 4 seconds, up to dotdps:TOOLTIP_MAX_DAMAGE.",
+					"skill_desc": "Mana Cost: {#} per second\nLucky Hit Chance: {#}%\nChannel a beam of fire, Burning enemies for {9.1/10/10.925/11.825/12.75/13.65/14.55/15.475/16.375/17.3}% damage per second. Damage per second increases over 4 seconds, up to {49.1/54/59/63.9/68.9/73.7/78.6/83.6/88.4/93.4}%.",
 					"skill_name": "Incinerate",
-					"skill_rankup_desc": "• Burning Damage 🡑 dotdps:BURNING_DAMAGE\n• Burning Damage Maximum 🡑 dotdps:TOOLTIP_MAX_DAMAGE"
+					"skill_rankup_desc": "• Burning Damage 🡑 {9.1/10/10.925/11.825/12.75/13.65/14.55/15.475/16.375/17.3}%\n• Burning Damage Maximum 🡑 {49.1/54/59/63.9/68.9/73.7/78.6/83.6/88.4/93.4}%"
 				},
 				"req_points": 0,
 				"reward": {

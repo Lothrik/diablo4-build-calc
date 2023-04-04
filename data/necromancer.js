@@ -627,12 +627,12 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 	"Bone Prison": {
 		connections: [ "Enhanced Bone Prison", "Macabre" ],
 		description: `Cooldown: {#} seconds
-Unearth a prison of bone with pet_health:BoneWall Life that surrounds the target area for 6 seconds.
+Unearth a prison of bone with {#} Life that surrounds the target area for 6 seconds.
 
 Tags: Macabre, Bone, Cooldown.`,
 		id: 50,
 		maxPoints: 5,
-		values: [ "20" ],
+		values: [ "20", "" ],
 		x: 411.49,
 		y: 218.61
 	},
