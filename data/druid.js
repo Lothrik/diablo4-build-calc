@@ -31,12 +31,12 @@ druidData["Trunk Data"] = {
 		y: 3340.8
 	},
 	"Ultimate": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		requiredPoints: 23,
 		x: -1204.559,
 		y: 4247.91
 	},
-	"Capstone": {
+	"Key Passive": {
 		requiredPoints: 33,
 		x: -12.662,
 		y: 4864.15
@@ -1547,9 +1547,9 @@ Tags: Vulnerable, Damage, Crowd Control, Earth, Storm, Nature Magic.`,
 	},
 };
 
-druidData["Capstone"] = {
+druidData["Key Passive"] = {
 	"Nature's Fury": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Casting an Earth Skill has a 20% chance to trigger a free Storm Skill of the same category.
 
 In addition, casting a Storm Skill has a 20% chance to trigger a free Earth Skill of the same category.
@@ -1561,7 +1561,7 @@ Tags: Earth, Storm, Damage, Nature Magic.`,
 		y: -296.755
 	},
 	"Earthen Might": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Lucky Hit: Damaging enemies with Earth Skills has up to a 5% chance to:
 • Restore all of your Spirit
 • Cause your attacks to be guaranteed Critical Strikes for 5 seconds
@@ -1577,7 +1577,7 @@ Tags: Critical Strikes, Damage, Spirit, Lucky Hit, Earth, Crowd Control, Nature 
 		y: -60.41
 	},
 	"Lupine Ferocity": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Every 6th Werewolf Skill hit Critically Strikes and deals x60% increased damage.
 
 Tags: Critical Strikes, Damage, Werewolf, Shapeshifting.`,
@@ -1587,7 +1587,7 @@ Tags: Critical Strikes, Damage, Werewolf, Shapeshifting.`,
 		y: 309.645
 	},
 	"Bestial Rampage": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `After being a Werewolf for 2.5 seconds, gain +20% Attack Speed for 15 seconds.
 
 After being a Werebear for 2.5 seconds, deal x20% increased damage for 15 seconds.
@@ -1599,7 +1599,7 @@ Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 		y: 308.825
 	},
 	"Perfect Storm": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Your Storm Skills grant 2 Spirit and deal x20% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.
 
 Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
@@ -1609,7 +1609,7 @@ Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 		y: -296.355
 	},
 	"Ursine Strength": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Gain x20% additional Maximum Life while in Werebear form and for 3 seconds after leaving Werebear form.
 
 While Healthy, deal x30% increased damage.

@@ -31,12 +31,12 @@ barbarianData["Trunk Data"] = {
 		y: 3341.88
 	},
 	"Ultimate": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		requiredPoints: 23,
 		x: -1201.379,
 		y: 4252.025
 	},
-	"Capstone": {
+	"Key Passive": {
 		requiredPoints: 33,
 		x: -6.388,
 		y: 4863.1
@@ -1412,9 +1412,9 @@ Tags: Crowd Control, Bludgeoning, Two-Handed, Lucky Hit.`,
 	},
 };
 
-barbarianData["Capstone"] = {
+barbarianData["Key Passive"] = {
 	"Unconstrained": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Increase Berserk's maximum duration by 5 seconds and increase its damage bonus by +{25/50/75/100/125/150/175/200/225/250}%.
 
 Tags: Berserking, Damage.`,
@@ -1424,7 +1424,7 @@ Tags: Berserking, Damage.`,
 		y: 0.035
 	},
 	"Gushing Wounds": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `When causing an enemy to Bleed, you have a chance equal to your Critical Strike Chance to increase the Bleed amount by 100% of your Critical Strike Damage bonus.
 
 Overpowering a Bleeding enemy creates an explosion that inflicts 11% Bleeding damage over 5 seconds.
@@ -1436,7 +1436,7 @@ Tags: Bleed, Critical Strikes, Overpower, Damage.`,
 		y: 0.035
 	},
 	"Unbridled Rage": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Core Skills deal x135% increased damage, but cost x100% more Fury.
 
 Tags: Fury, Damage.`,
@@ -1446,7 +1446,7 @@ Tags: Fury, Damage.`,
 		y: 277.12
 	},
 	"Walking Arsenal": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Dealing direct damage with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual Wielded weapons grants x10% increased damage for 6 seconds.
 
 While all three damage bonuses are active, you gain an additional x15% increased damage.

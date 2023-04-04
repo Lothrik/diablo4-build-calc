@@ -129,7 +129,7 @@ const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to 
 const ENCHANTMENT_EFFECT_DESC = "— Enchantment Effect —";
 const COOLDOWN_PREFIX = "Cooldown: ";
 const ULTIMATE = "Ultimate";
-const CAPSTONE = "Capstone";
+const KEY_PASSIVE = "Key Passive";
 const SKILL_TREE = "Skill Tree";
 const PARAGON_BOARD = "Paragon Board";
 const CODEX_OF_POWER = "Codex of Power";
@@ -169,7 +169,7 @@ const sortedTreeGroupTypes = [
 	"Imbuements", // Rogue - 5
 	"Mastery", // Sorcerer - 5
 	"Ultimate",
-	CAPSTONE
+	KEY_PASSIVE
 ];
 
 const sortedParagonNodeTypes = [
@@ -406,7 +406,7 @@ function handleSummaryButton(event) {
 						if (!(baseSkill in allocatedTreeNodes[groupName])) allocatedTreeNodes[groupName][baseSkill] = {};
 						if (!("activeModifiers" in allocatedTreeNodes[groupName][baseSkill])) allocatedTreeNodes[groupName][baseSkill]["activeModifiers"] = [];
 						allocatedTreeNodes[groupName][baseSkill]["activeModifiers"].push(nodeName.split(` ${baseSkill}`)[0]);
-					} else if (groupName == CAPSTONE) {
+					} else if (groupName == KEY_PASSIVE) {
 						allocatedTreeNodes[groupName] = {
 							"nodeName": nodeName,
 							"nodeDesc": pixiNode.nodeDesc
@@ -426,8 +426,8 @@ function handleSummaryButton(event) {
 		for (const groupName of sortedTreeGroupTypes) {
 			const groupData = allocatedTreeNodes[groupName];
 			if (groupData == undefined) continue;
-			if (groupName == CAPSTONE) {
-				treeOutput += `\n\t[${CAPSTONE}]:\n\t\t[${groupData.nodeName}] allocated: "${groupData.nodeDesc.split("\n\nTags:")[0]}"`;
+			if (groupName == KEY_PASSIVE) {
+				treeOutput += `\n\t[${KEY_PASSIVE}]:\n\t\t[${groupData.nodeName}] allocated: "${groupData.nodeDesc.split("\n\nTags:")[0]}"`;
 			} else {
 				treeOutput += `\n\t[${groupName}]:`;
 				for (const [nodeName, nodeData] of Object.entries(groupData)) {
@@ -542,7 +542,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39858-7";
+const localVersion = "0.8.1.39858-8";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -973,7 +973,7 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	}
 }
 function canAllocate(curNode) {
-	if ([ULTIMATE, CAPSTONE, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+	if ([ULTIMATE, KEY_PASSIVE, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		return true;
 	} else if (curNode.groupName == PARAGON_BOARD) {
 		return getUnusedPoints(true) > 0;
@@ -1080,7 +1080,7 @@ function handlePlusButton(curNode) {
 		const baseSkill = curNode.nodeData.get("baseSkill");
 		let minUnusedPoints = 0;
 		let isUltimateSkill = false;
-		if (curNode.groupName == CAPSTONE) {
+		if (curNode.groupName == KEY_PASSIVE) {
 			minUnusedPoints = -1;
 		} else if (curNode.groupName == ULTIMATE) {
 			isUltimateSkill = curNode.nodeData.get("description").includes(COOLDOWN_PREFIX);
@@ -1132,7 +1132,7 @@ function handlePlusButton(curNode) {
 		pixiNodes.forEach(pixiNode => {
 			if (pixiNode.groupName == curNode.groupName && pixiNode != curNode && pixiNode.nodeData.get("allocatedPoints")) {
 				let deallocateNode = false;
-				if (pixiNode.groupName == CAPSTONE) {
+				if (pixiNode.groupName == KEY_PASSIVE) {
 					deallocateNode = true;
 				} else if (pixiNode.groupName == ULTIMATE && isUltimateSkill && pixiNode.nodeData.get("description").includes(COOLDOWN_PREFIX)) {
 					deallocateNode = true;
@@ -1743,7 +1743,7 @@ function drawAllNodes() {
 							// passive skill
 							curNode.set("shapeType", "circle");
 							curNode.set("shapeSize", 1 / Math.SQRT2 * 0.9);
-						} else if (groupName == CAPSTONE) {
+						} else if (groupName == KEY_PASSIVE) {
 							curNode.set("shapeType", "circle");
 							curNode.set("shapeSize", 1 / Math.SQRT2 * 1.1);
 						} else {

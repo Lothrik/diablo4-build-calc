@@ -31,12 +31,12 @@ rogueData["Trunk Data"] = {
 		y: 3341.84
 	},
 	"Ultimate": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		requiredPoints: 23,
 		x: -1204.781,
 		y: 4246.85
 	},
-	"Capstone": {
+	"Key Passive": {
 		requiredPoints: 33,
 		x: -6.259,
 		y: 4859.065
@@ -1413,9 +1413,9 @@ Tags: Movement, Attack Speed, Energy.`,
 	},
 };
 
-rogueData["Capstone"] = {
+rogueData["Key Passive"] = {
 	"Momentum": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Cutthroat Skills grant a stack of Momentum for 8 seconds if they either:
 • Hit a Stunned, Dazed, or Frozen enemy
 • Hit any enemy from behind
@@ -1432,7 +1432,7 @@ Tags: Frozen, Daze, Cutthroat, Crowd Control, Energy, Damage Reduction, Movement
 		y: -1.72
 	},
 	"Close Quarters Combat": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Damaging a Close enemy with Marksman or Cutthroat Skills each grant a +10% Attack Speed bonus for 8 seconds.
 
 While both Attack Speed bonuses are active, you deal x20% increased damage against Crowd Controlled enemies.
@@ -1444,7 +1444,7 @@ Tags: Marksman, Cutthroat, Crowd Control, Attack Speed, Damage.`,
 		y: 251.22
 	},
 	"Victimize": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a 30% chance to cause an explosion, dealing 23% of the original damage to them and surrounding enemies.
 
 Tags: Vulnerable, Damage, Physical, Lucky Hit.`,
@@ -1454,7 +1454,7 @@ Tags: Vulnerable, Damage, Physical, Lucky Hit.`,
 		y: 247.36
 	},
 	"Exposure": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Lucky Hit: Dealing direct damage to an enemy affected by a Trap Skill has up to a 25% chance to:
 • Reduce the active Cooldowns of your Trap Skills by 20%
 • Drop a cluster of exploding Stun Grenades that deal 40% total Physical damage and Stun enemies for 0.5 seconds
@@ -1466,7 +1466,7 @@ Tags: Trap, Grenade, Damage, Physical, Cooldown, Crowd Control, Lucky Hit.`,
 		y: -2.585
 	},
 	"Precision": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Critical Strikes with Marksman Skills grant you Precision. You gain x4% increased Critical Strike Damage per stack of Precision, up to a maximum of x20%.
 
 When you reach maximum Precision, your next Marksman Skill is a guaranteed Critical Strike that deals x40% increased Critical Strike Damage, then consumes all stacks of Precision.

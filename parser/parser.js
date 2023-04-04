@@ -26,7 +26,7 @@ const rootNodeNames = {
 		3: "Defensive",
 		4: "Core",
 		5: "Basic",
-		6: "Capstone"
+		6: "Key Passive"
 	},
 	"Druid": {
 		0: "Basic",
@@ -35,11 +35,11 @@ const rootNodeNames = {
 		3: "Companion",
 		4: "Wrath",
 		5: "Ultimate",
-		6: "Capstone"
+		6: "Key Passive"
 	},
 	"Necromancer": {
 		0: "Basic",
-		1: "Capstone",
+		1: "Key Passive",
 		2: "Core",
 		3: "Corruption",
 		4: "Summoning",
@@ -47,7 +47,7 @@ const rootNodeNames = {
 		6: "Macabre"
 	},
 	"Rogue": {
-		0: "Capstone",
+		0: "Key Passive",
 		1: "Imbuements",
 		2: "Agility",
 		3: "Core",
@@ -60,7 +60,7 @@ const rootNodeNames = {
 		1: "Ultimate",
 		2: "Mastery",
 		3: "Basic",
-		4: "Capstone",
+		4: "Key Passive",
 		5: "Defensive",
 		6: "Core"
 	},
@@ -74,7 +74,7 @@ const rootNodeNamesSorted = {
 		3: "Brawling",
 		4: "Weapon Mastery",
 		5: "Ultimate",
-		6: "Capstone"
+		6: "Key Passive"
 	},
 	"Druid": {
 		0: "Basic",
@@ -83,7 +83,7 @@ const rootNodeNamesSorted = {
 		3: "Companion",
 		4: "Wrath",
 		5: "Ultimate",
-		6: "Capstone"
+		6: "Key Passive"
 	},
 	"Necromancer": {
 		0: "Basic",
@@ -92,7 +92,7 @@ const rootNodeNamesSorted = {
 		3: "Corruption",
 		4: "Summoning",
 		5: "Ultimate",
-		6: "Capstone",
+		6: "Key Passive",
 	},
 	"Rogue": {
 		0: "Basic",
@@ -101,7 +101,7 @@ const rootNodeNamesSorted = {
 		3: "Subterfuge",
 		4: "Imbuements",
 		5: "Ultimate",
-		6: "Capstone",
+		6: "Key Passive",
 	},
 	"Sorcerer": {
 		0: "Basic",
@@ -110,7 +110,7 @@ const rootNodeNamesSorted = {
 		3: "Conjuration",
 		4: "Mastery",
 		5: "Ultimate",
-		6: "Capstone",
+		6: "Key Passive",
 	},
 }
 

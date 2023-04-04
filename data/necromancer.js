@@ -31,12 +31,12 @@ necromancerData["Trunk Data"] = {
 		y: 3343.385
 	},
 	"Ultimate": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		requiredPoints: 23,
 		x: -1201.801,
 		y: 4246.085
 	},
-	"Capstone": {
+	"Key Passive": {
 		requiredPoints: 33,
 		x: -10.884,
 		y: 4865.98
@@ -1228,9 +1228,9 @@ Tags: Life, Minion, Damage.`,
 	},
 };
 
-necromancerData["Capstone"] = {
+necromancerData["Key Passive"] = {
 	"Ossified Essence": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Your Bone Skills deal x1% increased damage for each point of Essence you have above 50 upon cast.
 
 Tags: Damage, Essence, Bone.`,
@@ -1240,7 +1240,7 @@ Tags: Damage, Essence, Bone.`,
 		y: -320.48
 	},
 	"Shadowblight": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10% bonus damage to enemies with Shadowblight.
 
 Every 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20% Shadow Damage.
@@ -1252,7 +1252,7 @@ Tags: Damage, Shadow, Minion.`,
 		y: 344.505
 	},
 	"Rathma's Vigor": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `Increase your Maximum Life by x10%. After being Healthy for 15 seconds, your next Blood Skill Overpowers.
 
 Tags: Healthy, Overpower, Life, Blood.`,
@@ -1262,7 +1262,7 @@ Tags: Healthy, Overpower, Life, Blood.`,
 		y: -0.755
 	},
 	"Kalan's Edict": {
-		connections: [ "Capstone" ],
+		connections: [ "Key Passive" ],
 		description: `After you have not taken damage in the last 3 seconds, your Minions gain +15% Attack Speed. While you have at least 7 Minions, this bonus is doubled.
 
 Tags: Attack Speed, Minion.`,

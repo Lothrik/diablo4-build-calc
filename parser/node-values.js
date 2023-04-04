@@ -107,7 +107,7 @@ let nodeValues = {
 				"40"
 			]
 		},
-		"Capstone": {}
+		"Key Passive": {}
 	},
 	"Druid": {
 		"Basic": {
@@ -231,7 +231,7 @@ let nodeValues = {
 				"8"
 			]
 		},
-		"Capstone": {},
+		"Key Passive": {},
 		"Spirit Boons": {
 			"Prickleskin": [
 				""
@@ -326,7 +326,7 @@ let nodeValues = {
 				"40"
 			]
 		},
-		"Capstone": {}
+		"Key Passive": {}
 	},
 	"Rogue": {
 		"Basic": {
@@ -432,7 +432,7 @@ let nodeValues = {
 				"20"
 			]
 		},
-		"Capstone": {}
+		"Key Passive": {}
 	},
 	"Sorcerer": {
 		"Basic": {
@@ -606,7 +606,7 @@ let nodeValues = {
 				"5"
 			]
 		},
-		"Capstone": {}
+		"Key Passive": {}
 	}
 }
 
