@@ -4,10 +4,44 @@
 			"Barbarian_WeaponExpertise_1HAxe": {
 				"desc": "{c_number}+[{SF_1} * 100 |1%|]{/c} increased Critical Strike Chance against {c_important}Injured{/c} enemies. Double this amount when using two Axes.{if:SF_8}\n\n{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_5}%{/c} chance to grant {c_number}+[{SF_6} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_7}{/c} seconds. Double the Attack Speed bonus when using two Axes.{/if}",
 				"name": "One-Handed Axe Expertise",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3665673189": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3665673189": 0
+				},
+				"power_formulas": [
+					0.005,
+					"SF_0 * Weapon_Expertise_Level#Axe",
+					"SF_0 * (1 + Weapon_Expertise_Level#Axe)",
+					"SF_1 * GetItemTypeCountForPower(SNO.ItemType.Axe)",
+					"TechniqueSlotIsItemType(SNO.ItemType.Axe) ? (SF_1 * 2) : 0",
+					"PowerTag.Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10.\"Script Formula 0\"",
+					"PowerTag.Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10.\"Script Formula 1\"",
+					"PowerTag.Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10.\"Script Formula 2\"",
+					"Weapon_Expertise_Level#Axe > 9"
+				],
 				"rankup_desc": "Critical Strike Chance against {c_important}Injured{/c} enemies increased to {c_number}+[{SF_2} * 100 |1%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10": {
-				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to grant {c_number}+[{SF_1} * 100]%{/c} increased Attack Speed for {c_number}{SF_2}{/c} seconds. Double the Attack Speed bonus when using two Axes."
+				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to grant {c_number}+[{SF_1} * 100]%{/c} increased Attack Speed for {c_number}{SF_2}{/c} seconds. Double the Attack Speed bonus when using two Axes.",
+				"power_buffdurations": {
+					"599520142": "SF_2",
+					"844134919": 1
+				},
+				"power_dots": {
+					"599520142": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					55,
+					0.06,
+					2,
+					"SF_1 * GetItemTypeCountForPower(SNO.ItemType.Axe)",
+					"SF_3 > 0"
+				]
 			},
 			"Barbarian_WeaponExpertise_1HAxe_Technique": {
 				"desc": "{s1}% of damage dealt as Bleed damage.",
@@ -16,10 +50,44 @@
 			"Barbarian_WeaponExpertise_1HMace": {
 				"desc": "{c_number}x[{SF_1} * 100|%|]{/c} increased damage to Stunned enemies. Double this amount when using two Maces.{if:SF_7}\n\n{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_5}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_6} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces.{/if}",
 				"name": "One-Handed Mace Expertise",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1633090721": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1633090721": 0
+				},
+				"power_formulas": [
+					0.01,
+					"SF_0 *  Weapon_Expertise_Level#Mace",
+					"SF_0 *  (1 + Weapon_Expertise_Level#Mace)",
+					"(SF_1 * GetItemTypeCountForPower(SNO.ItemType.Mace)) + SF_4",
+					"TechniqueSlotIsItemType(SNO.ItemType.Mace) ? (SF_1 * 2) : 0",
+					"PowerTag.Barbarian_WeaponExpertise_1HMace_Rank10.\"Script Formula 0\"",
+					"PowerTag.Barbarian_WeaponExpertise_1HMace_Rank10.\"Script Formula 1\"",
+					"Weapon_Expertise_Level#Mace > 9"
+				],
+				"power_payloads": {
+					"2969418876": 0,
+					"3069256803": 0
+				},
 				"rankup_desc": "Damage to Stunned increased to {c_number}x[{SF_2} * 100|%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_1HMace_Rank10": {
-				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_1} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces."
+				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_important}Berserking{/c} for {c_number}[{SF_1} |2|]{/c} seconds when you hit a Stunned enemy. Double this chance when using two Maces.",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					10,
+					1.5,
+					"SF_0 * GetItemTypeCountForPower(SNO.ItemType.Mace)",
+					"SF_2 > 0"
+				]
 			},
 			"Barbarian_WeaponExpertise_1HMace_Technique": {
 				"desc": "You have a {s1}% chance to Overpower crowd controlled enemies.",
@@ -28,10 +96,41 @@
 			"Barbarian_WeaponExpertise_1HSword": {
 				"desc": "{c_label}Lucky Hit:{/c} Up to a {c_number}{SF_0}%{/c} chance to gain {c_number}{SF_1}{/c} Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.{if:SF_8}\n\nKilling a Crowd Controlled enemy grants {c_number}+[{SF_6} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_7}{/c} seconds. Double this amount when using two Swords.{/if}",
 				"name": "One-Handed Sword Expertise",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"SF_3 * Weapon_Expertise_Level#Sword",
+					5,
+					"SF_3 * (1 + Weapon_Expertise_Level#Sword)",
+					1,
+					"SF_0 * GetItemTypeCountForPower(SNO.ItemType.Sword)",
+					"TechniqueSlotIsItemType(SNO.ItemType.Sword) ? (SF_0 * 2) : 0",
+					"PowerTag.Barbarian_WeaponExpertise_1HSword_Rank10.\"Script Formula 0\"",
+					"PowerTag.Barbarian_WeaponExpertise_1HSword_Rank10.\"Script Formula 1\"",
+					"Weapon_Expertise_Level#Sword > 9"
+				],
 				"rankup_desc": "Chance to activate Lucky Hit increased to {c_number}{SF_2}%{/c}."
 			},
 			"Barbarian_WeaponExpertise_1HSword_Rank10": {
-				"desc": "Killing a Crowd Controlled enemy grants {c_number}+[{SF_0} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_1}{/c} seconds. Double this amount for kills with two Swords."
+				"desc": "Killing a Crowd Controlled enemy grants {c_number}+[{SF_0} * 100|%|]{/c} increased Attack Speed for {c_number}{SF_1}{/c} seconds. Double this amount for kills with two Swords.",
+				"power_buffdurations": {
+					"599520142": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"599520142": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.15,
+					3,
+					"SF_0 * GetItemTypeCountForPower(SNO.ItemType.Sword)",
+					"SF_2 > 0"
+				]
 			},
 			"Barbarian_WeaponExpertise_1HSword_Technique": {
 				"desc": "You have a {s1}% chance to generate 3 Fury when hitting a crowd controlled enemy.",
@@ -40,10 +139,39 @@
 			"Barbarian_WeaponExpertise_2HAxe": {
 				"desc": "{c_number}x[{SF_0} * 100|1%|]{/c} increased damage to {c_important}Vulnerable{/c} enemies.{if:SF_6}\n\n{c_number}+[{SF_5} * 100|%|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies.{/if}",
 				"name": "Two-Handed Axe Expertise",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2455128176": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2455128176": 0
+				},
+				"power_formulas": [
+					"SF_7 * Weapon_Expertise_Level#Axe2H",
+					2,
+					"SF_7 * (1 + Weapon_Expertise_Level#Axe2H)",
+					"(SF_0 * GetItemTypeCountForPower(SNO.ItemType.Axe2H)) + SF_4",
+					"TechniqueSlotIsItemType(SNO.ItemType.Axe2H) ? SF_0 : 0",
+					"PowerTag.Barbarian_WeaponExpertise_2HAxe_Rank10.\"Script Formula 0\"",
+					"Weapon_Expertise_Level#Axe2H > 9",
+					0.015
+				],
 				"rankup_desc": "Damage to Vulnerable enemies increased to {c_number}x[{SF_2} * 100|1%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HAxe_Rank10": {
-				"desc": "{c_number}+[{SF_0}*100|%|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies."
+				"desc": "{c_number}+[{SF_0}*100|%|]{/c} increased Critical Strike Chance against {c_important}Vulnerable{/c} enemies.",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2426018916": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2426018916": 0
+				},
+				"power_formulas": [
+					0.1
+				]
 			},
 			"Barbarian_WeaponExpertise_2HAxe_Technique": {
 				"desc": "Killing an enemy grants +{s1}% Attack Speed for 2 seconds.",
@@ -52,10 +180,36 @@
 			"Barbarian_WeaponExpertise_2HMace": {
 				"desc": "{c_label}Lucky Hit:{/c} Up to {c_number}{SF_0}%{/c} chance to gain {c_number}{SF_1}{/c} Fury when hitting an enemy. Double the amount of Fury gained while {c_important}Berserking{/c}.{if:SF_7}\n\nYou deal {c_number}x[{SF_6} * 100|%|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}.{/if}",
 				"name": "Two-Handed Mace Expertise",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"SF_4 * Weapon_Expertise_Level#Mace2H",
+					2,
+					2,
+					"SF_4 * (1 + Weapon_Expertise_Level#Mace2H)",
+					1,
+					"TechniqueSlotIsItemType(SNO.ItemType.Mace2H) ? SF_0 : 0",
+					"PowerTag.Barbarian_WeaponExpertise_2HMace_Rank10.\"Script Formula 0\"",
+					"Weapon_Expertise_Level#Mace2H > 9",
+					"SF_0 * GetItemTypeCountForPower(SNO.ItemType.Mace2H) + SF_5"
+				],
 				"rankup_desc": "Chance to activate Lucky Hit increased to {c_number}{SF_3}%{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HMace_Rank10": {
-				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}."
+				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Critical Strike Damage to Stunned and {c_important}Vulnerable{/c} enemies while {c_important}Berserking{/c}.",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.15
+				]
 			},
 			"Barbarian_WeaponExpertise_2HMace_Technique": {
 				"desc": "You gain +{s1}% Crushing Blow Damage.",
@@ -64,10 +218,35 @@
 			"Barbarian_WeaponExpertise_2HPolearm": {
 				"desc": "{c_number}x[{SF_0} * 100|%|]{/c} increased Lucky Hit Chance.{if:SF_5}\n\nYou deal {c_number}x[{SF_4} * 100|%|]{/c} increased damage while {c_important}Healthy{/c}.{/if}",
 				"name": "Polearm Expertise",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"0.01 * Weapon_Expertise_Level#Polearm",
+					"0.01 * (1 + Weapon_Expertise_Level#Polearm)",
+					"(SF_0 * GetItemTypeCountForPower(SNO.ItemType.Polearm)) + SF_3",
+					"TechniqueSlotIsItemType(SNO.ItemType.Polearm) ? SF_0 : 0",
+					"PowerTag.Barbarian_WeaponExpertise_2HPolearm_Rank10.\"Script Formula 0\"",
+					"Weapon_Expertise_Level#Polearm > 9"
+				],
 				"rankup_desc": "Bonus Lucky Hit Chance increased to {c_number}x[{SF_1} * 100|%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HPolearm_Rank10": {
-				"desc": "You deal {c_number}+[{SF_0}*100|%|]{/c} increased damage while {c_important}Healthy{/c}."
+				"desc": "You deal {c_number}+[{SF_0}*100|%|]{/c} increased damage while {c_important}Healthy{/c}.",
+				"power_buffdurations": {
+					"551004229": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"551004229": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.1
+				]
 			},
 			"Barbarian_WeaponExpertise_2HPolearm_Technique": {
 				"desc": "+{s1}% Lucky Hit chance.",
@@ -76,10 +255,43 @@
 			"Barbarian_WeaponExpertise_2HSword": {
 				"desc": "{c_number}+[{SF_0} * 100|%|]{/c} of direct damage you deal is inflicted as Bleeding damage over {c_number}{buffduration:BLEEDING}{/c} seconds.{if:SF_7}\n\nYou deal {c_number}x[{SF_5} * 100|%|]{/c} increased Bleeding damage for {c_number}{SF_6}{/c} seconds after killing an enemy.{/if}",
 				"name": "Two-Handed Sword Expertise",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3719984410": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3719984410": 0
+				},
+				"power_formulas": [
+					"0.02 * Weapon_Expertise_Level#Sword2H",
+					"0.02 * (1 + Weapon_Expertise_Level#Sword2H)",
+					5,
+					"(SF_0 * GetItemTypeCountForPower(SNO.ItemType.Sword2H)) + SF_4",
+					"TechniqueSlotIsItemType(SNO.ItemType.Sword2H) ? SF_0 : 0",
+					"PowerTag.Barbarian_WeaponExpertise_2HSword_Rank10.\"Script Formula 0\"",
+					"PowerTag.Barbarian_WeaponExpertise_2HSword_Rank10.\"Script Formula 1\"",
+					"Weapon_Expertise_Level#Sword2H > 9"
+				],
+				"power_payloads": {
+					"3437839728": 0
+				},
 				"rankup_desc": "Bleeding damage is increased to {c_number}+[{SF_1} * 100|%|]{/c}."
 			},
 			"Barbarian_WeaponExpertise_2HSword_Rank10": {
-				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Bleeding damage for {c_number}{SF_1}{/c} seconds after killing an enemy."
+				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Bleeding damage for {c_number}{SF_1}{/c} seconds after killing an enemy.",
+				"power_buffdurations": {
+					"436617728": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"436617728": "",
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.3,
+					5
+				]
 			},
 			"Barbarian_WeaponExpertise_2HSword_Technique": {
 				"desc": "Your basic attacks have a {s1}% chance to generate an additional 2 Fury.",
@@ -101,6 +313,14 @@
 				"category": 0,
 				"desc": "Whenever you deal direct damage while {c_important}Berserking{/c}, inflict {c_random}[Affix_Value_1*100|%|]{/c} of the base damage dealt as additional Bleeding damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Berserk Ripping",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3719984410": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3719984410": 0.1
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_001",
 					"Affix.legendary_barb_001.\"Static Value 0\""
@@ -124,9 +344,18 @@
 				"category": 0,
 				"desc": "Stunning a Bleeding enemy deals {c_random}[Affix_Value_1|%|]{/c} of their total Bleeding amount to them as Physical damage.",
 				"name": "Skullbreaker's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_003 / 100"
-				]
+				],
+				"power_payloads": {
+					"2559159402": 0
+				}
 			},
 			"legendary_barb_004": {
 				"affix_formulas": [
@@ -136,6 +365,14 @@
 				"category": 2,
 				"desc": "Your {c_important}Weapon Mastery{/c} Skills have an additional Charge.\n\n{c_gold}Lucky Hit:{/c} Damaging an enemy with a {c_important}Weapon Mastery{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to Stun them for {c_number}[Affix_Value_2]{/c} seconds.",
 				"name": "Weapon Master's",
+				"power_buffdurations": {
+					"4263050": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"4263050": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_004",
 					"Affix_Value_2#legendary_barb_004"
@@ -151,6 +388,14 @@
 				"category": 1,
 				"desc": "Gain {c_random}[Affix_Value_1 / Affix.\"Static Value 0\" |1%|]{/c} Damage Reduction for each Nearby Bleeding enemy up to {c_random}[Affix_Value_1|%|]{/c} maximum.",
 				"name": "Iron Blood",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1263545399": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1263545399": 0
+				},
 				"power_formulas": [
 					"SF_4/SF_1",
 					"Affix.legendary_barb_005.\"Static Value 0\"",
@@ -166,6 +411,12 @@
 				"category": 5,
 				"desc": "Gain {c_important}Berserking{/c} for {c_random}[Affix_Value_1|1|]{/c} seconds when you swap to this weapon.",
 				"name": "Battle-Mad",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_006"
 				]
@@ -179,9 +430,18 @@
 				"name": "of Echoing Fury"
 			},
 			"legendary_barb_008": {
+				"affix_formulas": [
+					"RandomFloat(0.5,1.5)"
+				],
 				"category": 1,
 				"desc": "{c_important}Iron Skin{/c} also makes you {c_important}Unstoppable{/c}.",
 				"name": "of the Iron Warrior",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_008"
 				]
@@ -212,6 +472,12 @@
 				"category": 2,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging an enemy with a {c_important}Core{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to extend the duration of {c_important}Berserking{/c} by {c_number}[Affix_Value_2]{/c} second. Double this duration if it was a Critical Strike.",
 				"name": "Relentless Berserker's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_011",
 					"Affix_Value_2#legendary_barb_011"
@@ -224,6 +490,12 @@
 				"category": 3,
 				"desc": "Killing an enemy with a {c_important}Core{/c} Skill refunds {c_random}[Affix_Value_1|1%|]{/c} of its base Fury cost. Can only happen once per Skill cast.",
 				"name": "of Unrelenting Fury",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_013 / 100"
 				]
@@ -238,6 +510,14 @@
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging enemies with {c_important}Leap{/c}, {c_important}Upheaval{/c}, or {c_important}Whirlwind{/c} has up to a {c_random}[Affix_Value_1|%|]{/c} chance to summon an Ancient to perform the same Skill. Can only happen once every {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Ancestral Echoes",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2498435506": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2498435506": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_014",
 					"Affix.legendary_barb_014.\"Static Value 0\""
@@ -253,6 +533,12 @@
 				"category": 5,
 				"desc": "Skills using this weapon deal {c_random}x[Affix_Value_1*100|1%|]{/c} increased damage per point of Fury you have, but you lose {c_number}[Affix.\"Static Value 0\"]{/c} Fury every second.",
 				"name": "Crane Tribe",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_015",
 					1,
@@ -266,9 +552,18 @@
 				"category": 1,
 				"desc": "Each point of Fury generated while at maximum Fury grants {c_random}[Affix_Flat_Value_1|1|]{/c} {c_important}Fortify{/c}.",
 				"name": "of Numbing Wrath",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_barb_017"
-				]
+				],
+				"power_payloads": {
+					"3069256803": 0
+				}
 			},
 			"legendary_barb_018": {
 				"affix_flat_formulas": [
@@ -280,11 +575,22 @@
 				"category": 0,
 				"desc": "Enemies damaged by {c_important}Kick{/c} or {c_important}Charge{/c} will explode if they are killed within the next {c_number}[Affix.\"Static Value 0\"]{/c} seconds, dealing {c_random}[Affix_Flat_Value_1]{/c} damage to surrounding enemies.",
 				"name": "Brawler's",
+				"power_buffdurations": {
+					"557118677": "SF_2",
+					"844134919": 1
+				},
+				"power_dots": {
+					"557118677": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_barb_018",
 					3,
 					"Affix.legendary_barb_018.\"Static Value 0\""
-				]
+				],
+				"power_payloads": {
+					"1154208010": "SF_0"
+				}
 			},
 			"legendary_barb_019": {
 				"affix_flat_formulas": [
@@ -304,6 +610,14 @@
 				"category": 0,
 				"desc": "After spending {c_number}[Affix.\"Static Value 0\"]{/c} Fury, your next {c_important}Weapon Mastery{/c} Skill deals {c_random}x[Affix_Value_1|%|]{/c} increased damage.",
 				"name": "of Encroaching Wrath",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2415191498": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2415191498": 0
+				},
 				"power_formulas": [
 					"Affix.legendary_barb_020.\"Static Value 0\"",
 					"Affix_Value_1#legendary_barb_020/100"
@@ -346,6 +660,16 @@
 				"category": 0,
 				"desc": "{c_important}Whirlwind's{/c} Critical Strike Chance is increased by {c_random}[Affix_Value_1|%|]{/c} for each second it is channeled, up to {c_random}[Affix_Value_1 * Affix_Value_2|%|]{/c}.",
 				"name": "of the Dire Whirlwind",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1415640445": 1,
+					"2282561457": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1415640445": 0,
+					"2282561457": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_025 / 100",
 					"Affix_Value_2#legendary_barb_025"
@@ -381,6 +705,14 @@
 				"category": 0,
 				"desc": "Each time a {c_important}Core{/c} Skill deals direct damage to an enemy, your next {c_important}Charge{/c} or {c_important}Leap{/c} deals {c_random}x[Affix_Value_1|%|]{/c} increased damage, up to {c_random}[Affix_Value_1 * Affix_Value_2|%|]{/c}.",
 				"name": "Veteran Brawler's",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2498569746": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2498569746": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_040 / 100",
 					"Affix_Value_2#legendary_barb_040"
@@ -398,11 +730,22 @@
 				"category": 2,
 				"desc": "{c_important}Whirlwind{/c} periodically Pulls enemies to you.",
 				"name": "of Grasping Whirlwind",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2282561457": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2282561457": 0
+				},
 				"power_formulas": [
 					4,
 					5,
 					0.75
-				]
+				],
+				"power_payloads": {
+					"4156029": 0
+				}
 			},
 			"legendary_barb_055": {
 				"affix_flat_formulas": [
@@ -414,10 +757,19 @@
 				"category": 1,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_number}[Affix_Value_2|%|]{/c} chance to gain {c_number}[Affix_Flat_Value_1]{/c} {c_important}Fortify{/c} whenever you deal direct damage while {c_important}Berserking{/c}.",
 				"name": "Steadfast Berserker's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_barb_055",
 					"Affix_Value_2#legendary_barb_055"
-				]
+				],
+				"power_payloads": {
+					"3069256803": 0
+				}
 			},
 			"legendary_barb_057": {
 				"affix_formulas": [
@@ -429,6 +781,12 @@
 				"category": 3,
 				"desc": "Whenever you cast a {c_important}Shout{/c} Skill, its Cooldown is reduced by {c_random}[Affix_Value_1|1|]{/c} seconds per Nearby enemy, up to a maximum of {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Bold Chieftain's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_057",
 					"Affix.legendary_barb_057.\"Static Value 0\""
@@ -437,7 +795,13 @@
 			"legendary_barb_100": {
 				"category": 4,
 				"desc": "Damaging an enemy with {c_important}Kick{/c} or {c_important}Ground Stomp{/c} resets {c_important}Leap's{/c} Cooldown.",
-				"name": "of Perpetual Stomping"
+				"name": "of Perpetual Stomping",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				}
 			},
 			"legendary_barb_101": {
 				"affix_formulas": [
@@ -447,6 +811,12 @@
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to reduce the Cooldowns of your {c_important}non-Ultimate{/c} Skills by {c_number}[Affix_Value_2|1|]{/c} seconds when you inflict Bleeding on Elites.",
 				"name": "of Quickening Pulse",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_101/100",
 					"Affix_Value_2#legendary_barb_101"
@@ -462,6 +832,14 @@
 				"category": 2,
 				"desc": "{c_gold}Lucky Hit:{/c} Direct damage against Bleeding enemies has up to a {c_random}[Affix_Value_1|%|]{/c} chance to Stun them for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Anemia",
+				"power_buffdurations": {
+					"4263050": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"4263050": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_102",
 					"Affix.legendary_barb_102.\"Static Value 0\""
@@ -477,6 +855,14 @@
 				"category": 3,
 				"desc": "{c_gold}Lucky Hit:{/c} You have up to a {c_random}[Affix_Value_1|%|]{/c} chance to gain {c_number}[Affix.\"Static Value 0\"]{/c} Fury when {c_important}Rend{/c} deals direct damage to at least one Bleeding enemy.",
 				"name": "Slaking",
+				"power_buffdurations": {
+					"766110529": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"766110529": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_103/100",
 					"Affix.legendary_barb_103.\"Static Value 0\""
@@ -493,6 +879,14 @@
 				"category": 0,
 				"desc": "After swapping weapons {c_number}[Affix.\"Static Value 0\"]{/c} times, gain {c_random}+[Affix_Value_1|%|]{/c} increased Attack Speed for {c_number}[Affix_Value_2]{/c} seconds.",
 				"name": "Windstriker's",
+				"power_buffdurations": {
+					"168904657": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"168904657": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_104/100",
 					"Affix_Value_2#legendary_barb_104",
@@ -509,10 +903,21 @@
 				"category": 1,
 				"desc": "After swapping weapons {c_number}[Affix.\"Static Value 0\"]{/c} times, gain {c_random}[Affix_Flat_Value_1]{/c} {c_important}Fortify{/c}.",
 				"name": "of Tempering Blows",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4135664954": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4135664954": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_barb_105",
 					"Affix.legendary_barb_105.\"Static Value 0\""
-				]
+				],
+				"power_payloads": {
+					"3069256803": 0
+				}
 			},
 			"legendary_barb_106": {
 				"affix_formulas": [
@@ -533,6 +938,14 @@
 				"category": 3,
 				"desc": "Killing an enemy while {c_important}Berserking{/c} has a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to grant {c_random}[Affix_Value_1|%|]{/c} increased Cooldown Reduction to your {c_important}Brawling{/c} Skills for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 				"name": "Bear Clan Berserker's",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1777582047": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1777582047": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_barb_107 / 100",
 					"Affix.legendary_barb_107.\"Static Value 0\" / 100",
@@ -8385,10 +8798,7 @@
 				"category": 0,
 				"desc": "After generating {c_number}[Affix.\"Static Value 0\"]{/c} Fury your next {c_important}Core{/c} Skill creates a {c_important}Dust Devil{/c} that deals {c_random}[Affix_Flat_Value_1]{/c} damage to enemies behind the target.",
 				"flavor": "\"Without him the wine is less sweet, the hearth less warm, and our blades less keen. He deserved to see ten thousand more suns. Our blood-brother is gone, but Bul-Kathos willing, we will meet again one day.\"\n- Sorrowsong for Ramaladni",
-				"name": "Ramaladni's Magnum Opus",
-				"power_formulas": [
-					"Affix.1HSword_Unique_Barb_100.\"Static Value 0\""
-				]
+				"name": "Ramaladni's Magnum Opus"
 			},
 			"2HAxe_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8408,11 +8818,7 @@
 				"category": 0,
 				"desc": "{c_important}Steel Grasp{/c} launches {c_number}2{/c} additional chains. Enemies hit by {c_important}Steel Grasp{/c} are Slowed by {c_random}[Affix_Value_1*100|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\"\n- Gerti, Oxen Tribe Forgemaster",
-				"name": "Ancients' Oath",
-				"power_formulas": [
-					"Affix_Value_1#2HAxe_Unique_Barb_001",
-					"Affix.2HAxe_Unique_Barb_001.\"Static Value 0\""
-				]
+				"name": "Ancients' Oath"
 			},
 			"2HMace_Unique_Barb_001": {
 				"affix_flat_formulas": [
@@ -8506,12 +8912,7 @@
 				"category": 0,
 				"desc": "While {c_important}Berserking{/c}, you deal {c_random}[Affix_Flat_Value_1]{/c} Fire damage every second to surrounding enemies.",
 				"flavor": "The city of Harrogath, the final bastion of resistance against Baal's assault on Mt. Arreat, was reduced to rubble when the Worldstone was destroyed. The survivors never forgave the betrayal that led to the loss of their home.",
-				"name": "Rage of Harrogath",
-				"power_formulas": [
-					"Affix_Flat_Value_1#Chest_Unique_Barb_002",
-					1,
-					2
-				]
+				"name": "Rage of Harrogath"
 			},
 			"Gloves_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8527,13 +8928,7 @@
 				"category": 0,
 				"desc": "{c_important}Whirlwind{/c} explodes after it ends, dealing {c_random}[Affix_Value_1|%|]{/c} of the total base damage dealt to surrounding enemies as Fire damage.",
 				"flavor": "\"The brutish, almost simplistic construction of these gloves belies the strength they bestow. Gohr was clearly no craftsman, but it would be foolish to ignore the triumph of his work.\"\n- Barrett's Book of Implements",
-				"name": "Gohr's Devastating Grips",
-				"power_formulas": [
-					"PowerTag.Barbarian_Whirlwind.\"Script Formula 4\"",
-					3,
-					"Affix_Value_1#Gloves_Unique_Barb_001 / 100",
-					""
-				]
+				"name": "Gohr's Devastating Grips"
 			},
 			"Ring_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8550,11 +8945,7 @@
 				"category": 0,
 				"desc": "Each point of Fury you generate while at max Fury grants your next {c_important}Core{/c} Skill {c_number}x[Affix_Value_1|%|]{/c} increased damage, up to {c_number}x[Affix_Value_1  * Affix_Value_2|%|]{/c}.",
 				"flavor": "\"The change that overtook my brother in the heat of battle was terrifying. His eyes turned hard like diamonds, and the way he moved... it was like he was dancing to music only he could hear.\"\n- Captain Davinus",
-				"name": "Battle Trance",
-				"power_formulas": [
-					"Affix_Value_1#Ring_Unique_Barb_001",
-					"Affix_Value_2#Ring_Unique_Barb_001"
-				]
+				"name": "Battle Trance"
 			}
 		}
 	},
@@ -8567,6 +8958,16 @@
 				"category": 3,
 				"desc": "After killing an enemy with {c_important}Shred{/c}, your next {c_important}Werewolf{/c} Skill generates {c_number}x[Affix_Value_1|%|]{/c} more Spirit and deals {c_number}x[Affix_Value_1|%|]{/c} increased damage.",
 				"name": "of the Unsatiated",
+				"power_buffdurations": {
+					"1033937135": 1,
+					"2829955544": 1,
+					"3284746649": 1
+				},
+				"power_dots": {
+					"1033937135": 0,
+					"2829955544": 0,
+					"3284746649": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#Legendary_Druid_002",
 					"Affix_Value_1#Legendary_Druid_002 / 100"
@@ -8579,6 +8980,12 @@
 				"category": 3,
 				"desc": "Gain {c_number}[Affix_Value_1]{/c} Spirit when you are struck as a Werebear.",
 				"name": "Mangled",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_005"
 				]
@@ -8590,6 +8997,12 @@
 				"category": 3,
 				"desc": "{c_gold}Lucky Hit:{/c} {c_important}Wind Shear{/c} has up to a {c_number}[Affix_Value_1|%|]{/c} chance to fully restore your Spirit.",
 				"name": "of the Calm Breeze",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"",
 					"Affix_Value_1#legendary_druid_010"
@@ -8604,6 +9017,16 @@
 				"desc": "Gain {c_important}Stealth{/c} for {c_number}[Affix_Value_2]{/c} seconds when killing enemies with {c_important}Shred{/c}. Breaking {c_important}Stealth{/c} with an attack grants Ambush which guarantees Critical Strikes for {c_random}[Affix_Value_1|1|]{/c} seconds.",
 				"name_prefix": "Stalking Beast",
 				"name_suffix": "of the Stalking Beast",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2075190860": "SF_0",
+					"3979259042": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2075190860": 0,
+					"3979259042": 0
+				},
 				"power_formulas": [
 					"Affix_Value_2#legendary_druid_012",
 					1,
@@ -8631,6 +9054,14 @@
 				"category": 2,
 				"desc": "Damage from {c_important}Earth{/c} skills Slow enemies hit by {c_number}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Quicksand",
+				"power_buffdurations": {
+					"3212645773": 1,
+					"3803579216": "SF_1"
+				},
+				"power_dots": {
+					"3212645773": 0,
+					"3803579216": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_018 /100",
 					"Affix.legendary_druid_018.\"Static Value 0\""
@@ -8643,6 +9074,12 @@
 				"category": 0,
 				"desc": "{c_important}Earth{/c} Skills deal {c_random}x[Affix_Value_1|%|]{/c} more Critical Strike damage to Crowd Controlled enemies.",
 				"name": "Crashstone",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_023/100"
 				]
@@ -8671,13 +9108,24 @@
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance when dealing Lightning damage to overload the target for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, causing any direct damage you deal to them to pulse {c_number}[Affix_Flat_Value_1]{/c} additional damage to surrounding enemies.",
 				"name": "Overcharged",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4082481637": "SF_4"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4082481637": ""
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_druid_028",
 					4,
 					2,
 					"Affix_Value_1#legendary_druid_028",
 					"Affix.legendary_druid_028.\"Static Value 0\""
-				]
+				],
+				"power_payloads": {
+					"3240631475": "SF_0"
+				}
 			},
 			"legendary_druid_029": {
 				"affix_formulas": [
@@ -8689,6 +9137,18 @@
 				"category": 0,
 				"desc": "Casting a {c_important}Storm{/c} Skill grants your {c_important}Earth{/c} Skills {c_random}x[Affix_Value_1|1%|]{/c} Critical Strike Damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.\n\nCasting a {c_important}Earth{/c} Skill increases the Critical Strike Chance of {c_important}Storm{/c} Skills by {c_random}[Affix_Value_1 /3.75|1%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Natural Balance",
+				"power_buffdurations": {
+					"1464836485": "SF_2",
+					"2319253064": "SF_2",
+					"4010837754": 1,
+					"4028120123": 1
+				},
+				"power_dots": {
+					"1464836485": 0,
+					"2319253064": 0,
+					"4010837754": 0,
+					"4028120123": 0
+				},
 				"power_formulas": [
 					"(Affix_Value_1#legendary_druid_029 *1.5) / 100",
 					"(Affix_Value_1#legendary_druid_029 / 2) / 100",
@@ -8702,6 +9162,12 @@
 				"category": 3,
 				"desc": "{c_important}Werebear{/c} Skills restore {c_random}[Affix_Value_1|1|]{/c} Spirit when you hit enemies afflicted by your Poisons. When Spirit is restored, your Poison effects are removed from the enemy.",
 				"name": "of the Changeling's Debt",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_038"
 				]
@@ -8713,9 +9179,18 @@
 				"category": 1,
 				"desc": "When you use a {c_important}Shapeshifting{/c} Skill that changes your form, gain {c_random}[Affix_Flat_Value_1]{/c} Life. If you are at full Life, gain the same amount as {c_important}Fortify{/c}.",
 				"name": "Skinwalker's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_druid_042"
-				]
+				],
+				"power_payloads": {
+					"1281071692": 0
+				}
 			},
 			"legendary_druid_047": {
 				"affix_formulas": [
@@ -8731,7 +9206,13 @@
 				],
 				"category": 0,
 				"desc": "{c_important}Trample{/c} now summons {c_important}Landslides{/c} during it's duration that deal {c_random}[Affix_Value_1|%|]{/c} normal damage. {c_important}Trample{/c} is now also a {c_important}Nature Magic{/c} and {c_important}Earth{/c} Skill.",
-				"name": "of the Trampled Earth"
+				"name": "of the Trampled Earth",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				}
 			},
 			"legendary_druid_057": {
 				"affix_flat_formulas": [
@@ -8740,9 +9221,18 @@
 				"category": 1,
 				"desc": "Your {c_important}Earth skills{/c} are now also {c_important}Werebear skills{/c} and {c_important}Fortify{/c} you for {c_number}[Affix_Flat_Value_1]{/c}.",
 				"name": "Stonefur",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_druid_057"
-				]
+				],
+				"power_payloads": {
+					"3069256803": 0
+				}
 			},
 			"legendary_druid_058": {
 				"affix_formulas": [
@@ -8754,6 +9244,12 @@
 				"category": 3,
 				"desc": "{c_gold}Lucky Hit:{/c} {c_important}Storm skills{/c} have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}[Affix.\"Static Value 0\"]{/c} Spirit.\n\nYour base {c_important}Storm{/c} Skills are now also {c_important}Werewolf{/c} Skills",
 				"name": "Storm Beast's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_058",
 					"Affix.legendary_druid_058.\"Static Value 0\""
@@ -8766,11 +9262,20 @@
 				"category": 0,
 				"desc": "Critical strikes with {c_important}Shred{/c} deal {c_random}[Affix_Value_1|%|]{/c} of the damage dealt as lightning to the target and surrounding enemies.",
 				"name": "Stormclaw's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_059 / 100",
 					"",
 					1.5
-				]
+				],
+				"power_payloads": {
+					"3240631475": 0
+				}
 			},
 			"legendary_druid_060": {
 				"affix_formulas": [
@@ -8815,6 +9320,12 @@
 				"category": 0,
 				"desc": "Your {c_important}Core{/c} skills deal up to {c_random}x[Affix_Value_1|%|] {/c} increased damage based on your percent {c_important}Fortified Health{/c}.",
 				"name": "of Retaliation",
+				"power_buffdurations": {
+					"2665515555": 1
+				},
+				"power_dots": {
+					"2665515555": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_071 / 100"
 				]
@@ -8834,6 +9345,12 @@
 				"category": 0,
 				"desc": "Your {c_important}Wolf{/c} companions are now {c_important}Werewolf{/c} companions. {c_important}Werewolf{/c} companions deal {c_number}+[Affix_Value_1|%|]{/c} additional damage and can spread {c_important}Rabies{/c}.",
 				"name": "of the Alpha",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_075/100"
 				]
@@ -8848,6 +9365,12 @@
 				"category": 0,
 				"desc": "{c_important}Blood Howl{/c} increases Critical Strike Chance by {c_random}[Affix_Value_1|1%|]{/c}. In addition, {c_important}Blood Howl{/c} also affects Nearby Companions and Players for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Nighthowler's",
+				"power_buffdurations": {
+					"844134919": "SF_0"
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_077",
 					"Affix_Value_2#legendary_druid_077 / 100"
@@ -8865,6 +9388,12 @@
 				"category": 0,
 				"desc": "{c_important}Core{/c} Skills deal an additional {c_random}[Affix_Value_1|1%|]{/c} damage for each active Companion.",
 				"name": "Shepherd's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_080 / 100"
 				]
@@ -8876,6 +9405,14 @@
 				"category": 1,
 				"desc": "Gain {c_random}[Affix_Value_1|1%|]{/c} Damage Reduction while Shapeshifted into a Werewolf.",
 				"name": "Vigorous",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4276614347": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4276614347": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_100 / 100"
 				]
@@ -8886,7 +9423,13 @@
 				],
 				"category": 2,
 				"desc": "{c_important}Debilitating Roar{/c} is now a {c_important}Werewolf{/c} Skill. In addition, {c_important}Debilitating Roar{/c} will Immobilize Poisoned enemies for {c_random}[Affix_Value_1|1|]{/c} seconds.",
-				"name": "of the Dark Howl"
+				"name": "of the Dark Howl",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				}
 			},
 			"legendary_druid_104": {
 				"affix_formulas": [
@@ -8909,6 +9452,14 @@
 				"category": 2,
 				"desc": "When you have {c_important}Fortified{/c} Life your {c_important}Earth{/c} Skills gain {c_number}+[Affix_Value_1]{/c}.",
 				"name": "Ballistic",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3725791380": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3725791380": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_108"
 				]
@@ -8939,6 +9490,14 @@
 				"category": 0,
 				"desc": "Critical strikes with {c_important}Storm{/c} Skills charge the air around you for {c_random}[Affix_Value_1|1|]{/c} seconds causing a {c_important}Lightning Strike{/c} to periodically hit an enemy in the area for {c_number}[Affix_Flat_Value_1]{/c} Lightning damage.",
 				"name": "Runeworker's Conduit",
+				"power_buffdurations": {
+					"843725739": "SF_0 + .01",
+					"844134919": 1
+				},
+				"power_dots": {
+					"843725739": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_111",
 					"Affix_Flat_Value_1#legendary_druid_111",
@@ -8969,6 +9528,14 @@
 				"category": 1,
 				"desc": "Gain {c_random}[Affix_Value_1|%|]{/c} bonus amount to your next {c_important}Earthen Bulwark{/c} for each enemy you Crowd Control up to a maximum of {c_number}[Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "Earthguard",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2114437248": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2114437248": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_druid_114",
 					"Affix.legendary_druid_114.\"Static Value 0\""
@@ -17545,67 +18112,220 @@
 		"Spirit Boons": {
 			"Druid_Passive_Deer_01": {
 				"desc": "Gain {c_number}+{SF_1}{/c} Thorns.",
-				"name": "Prickleskin"
+				"name": "Prickleskin",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.1,
+					"TableHealthToFlat(SF_0,gLevel)"
+				]
 			},
 			"Druid_Passive_Deer_02": {
 				"desc": "Gain {c_number}+{SF_0}{/c} max Spirit.",
-				"name": "Gift of the Stag"
+				"name": "Gift of the Stag",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					10
+				]
 			},
 			"Druid_Passive_Deer_03": {
 				"desc": "Take {c_number}x[{SF_0}*100|%|]{/c} Reduced Damage from Elites.",
-				"name": "Wariness"
+				"name": "Wariness",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.1
+				]
 			},
 			"Druid_Passive_Deer_04": {
 				"desc": "Reduce the duration of incoming crowd control effects by {c_number}x[{SF_0}*100|%|]{/c}.",
-				"name": "Advantageous Beast"
+				"name": "Advantageous Beast",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.15
+				]
 			},
 			"Druid_Passive_Eagle_01": {
 				"desc": "{c_number}+[{SF_0}*100|%|]{/c} Increased Critical Strike Chance",
-				"name": "Scythe Talons"
+				"name": "Scythe Talons",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.05
+				]
 			},
 			"Druid_Passive_Eagle_02": {
 				"desc": "{c_number}x[{SF_0}*100|%|]{/c} Maximum Life",
-				"name": "Iron Feather"
+				"name": "Iron Feather",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.1
+				]
 			},
 			"Druid_Passive_Eagle_03": {
 				"desc": "{c_number}+[{SF_0}*100|%|]{/c} Attack Speed",
-				"name": "Swooping Attacks"
+				"name": "Swooping Attacks",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.1
+				]
 			},
 			"Druid_Passive_Eagle_04": {
 				"desc": "{c_number}+[{SF_0}*100|%|]{/c} Critical Strike Damage",
-				"name": "Avian Wrath"
+				"name": "Avian Wrath",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.3
+				]
 			},
 			"Druid_Passive_Snake_01": {
 				"desc": "{c_label}Lucky Hit:{/c} {c_important}Earth{/c} skills have up to a {c_number}{SF_0}%{/c} chance to Stun enemies for {c_number}{buffduration:STUN}{/c} seconds. If the target is already stunned and is not a boss, they {c_important}Overpower{/c} the target instead.",
-				"name": "Obsidian Slam"
+				"name": "Obsidian Slam",
+				"power_buffdurations": {
+					"4263050": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"4263050": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					15,
+					3
+				]
 			},
 			"Druid_Passive_Snake_02": {
 				"desc": "{c_label}Lucky Hit:{/c} Dealing Lightning damage has up to a {c_number}{SF_0}%{/c} chance to cause the target to emit a static discharge, dealing {c_number}{payload:DAMAGE}{/c} damage to surrounding enemies.",
-				"name": "Overload"
+				"name": "Overload",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					20,
+					2,
+					0.2,
+					0.15
+				],
+				"power_payloads": {
+					"4032599903": "SF_2"
+				}
 			},
 			"Druid_Passive_Snake_03": {
 				"desc": "Critical Strikes with {c_important}Shapeshifting{/c} skills heal you for {c_number}[{SF_0} * 100|%|]{/c} of your maximum Life.",
-				"name": "Masochistic"
+				"name": "Masochistic",
+				"power_buffdurations": {
+					"3425404286": 1
+				},
+				"power_dots": {
+					"3425404286": 0
+				},
+				"power_formulas": [
+					0.03
+				]
 			},
 			"Druid_Passive_Snake_04": {
 				"desc": "{c_label}Lucky Hit:{/c} {c_important}Nature Magic{/c} skills have up to a {c_number}{SF_0}%{/c} chance to reduce the cooldown of your {c_important}Ultimate{/c} skill by {c_number}{SF_1}{/c} seconds.",
-				"name": "Calm Before the Storm"
+				"name": "Calm Before the Storm",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					15,
+					2
+				]
 			},
 			"Druid_Passive_Wolf_01": {
 				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to reset the cooldown of your {c_important}Companion{/c} skills.",
-				"name": "Packleader"
+				"name": "Packleader",
+				"power_buffdurations": {
+					"3425404286": 1
+				},
+				"power_dots": {
+					"3425404286": 0
+				},
+				"power_formulas": [
+					20
+				]
 			},
 			"Druid_Passive_Wolf_02": {
 				"desc": "{c_label}Lucky Hit:{/c} Dealing damage has up to a {c_number}[{SF_0}*100|%|]{/c} chance to restore {c_number}{SF_1}{/c} Spirit.",
-				"name": "Energize"
+				"name": "Energize",
+				"power_buffdurations": {
+					"820589265": 1
+				},
+				"power_dots": {
+					"820589265": 0
+				},
+				"power_formulas": [
+					0.15,
+					10
+				]
 			},
 			"Druid_Passive_Wolf_03": {
 				"desc": "Fortify for {c_number}[{SF_0}*100|%|]{/c} of your maximum Life when you use a {c_important}Defensive{/c} skill.",
-				"name": "Bolster"
+				"name": "Bolster",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.1
+				],
+				"power_payloads": {
+					"2282076792": 0
+				}
 			},
 			"Druid_Passive_Wolf_04": {
 				"desc": "Extend the duration of {c_important}Ultimate{/c} skills by {c_number}[{SF_0} * 100|%|]{/c}.",
-				"name": "Calamity"
+				"name": "Calamity",
+				"power_formulas": [
+					"0.25 * sLevel"
+				]
 			}
 		},
 		"Unique": {
@@ -17627,7 +18347,13 @@
 				"category": 0,
 				"desc": "{c_important}Grizzly Rage{/c} now shapeshifts you into a Dire Werewolf. Dire Werewolf gains {c_random}[Affix_Value_1|%|]{/c} movement speed instead of damage reduction and a {c_random}[Affix_Value_1*2|%|]{/c} Spirit cost reduction bonus. In addition, kills heal you for {c_number}[Affix.\"Static Value 0\"|%|]{/c} of your maximum Life.",
 				"flavor": "The nights preceding the full moon are sometimes far more dangerous than the event itself. The anticipation of the upcoming event can drive some werewolves into a fever from which they never recover.",
-				"name": "Waxing Gibbous"
+				"name": "Waxing Gibbous",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				}
 			},
 			"1HMace_Unique_Druid_001": {
 				"affix_flat_formulas": [
@@ -17648,6 +18374,12 @@
 				"desc": "{c_important}Lightning Storm{/c} Critical Strikes spawn {c_number}[Affix.\"Static Value 0\"]{/c} {c_important}Dancing Bolts{/c} that seek enemies in the area dealing {c_random}[Affix_Flat_Value_1]{/c} Lightning damage.",
 				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\" \n– Airidah",
 				"name": "Tempest Song",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#1HMace_Unique_Druid_001"
 				]
@@ -17722,6 +18454,14 @@
 				"desc": "Your {c_important}Wolf Companions{/c} are infused with the power of the storm, dealing Lightning damage and gaining the {c_important}Storm Howl{/c} ability.",
 				"flavor": "\"The storm's rage is my own, brother. I call, and the skies roar in reply.\"\n- Vasily, to Bul-Kathos",
 				"name": "Storm's Companion",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3152370621": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3152370621": 0
+				},
 				"power_formulas": [
 					"",
 					"60/100",
@@ -17743,6 +18483,12 @@
 				"desc": "Gain {c_number}1{/c} additional companion. In addition, your {c_important}Companion Skills{/c} deal {c_number}[Affix_Value_1|%|]{/c} bonus damage.",
 				"flavor": "\"A sapling from the Great Oak, left to grow at the seaward statue of the Druid's Patriarch, will on rare occasions be found twisted back upon itself, suffused with natural magic.\"\n- Barrett's Book of Implements",
 				"name": "Vasily's Prayer",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#Ring_Unique_Druid_001 / 100",
 					1
@@ -17763,6 +18509,18 @@
 				"desc": "Gain a bonus when you kill with a {c_important}Shapeshifting{/c} Skill:\n\n{icon:bullet}{c_gold}Werewolf:{/c} Your next non-ultimate {c_important}Werebear{/c} Skill costs no resource and has no cooldown.\n{icon:bullet}{c_gold}Werebear:{/c} Your next {c_important}Werewolf{/c} skill will heal you for {c_number}[Affix_Flat_Value_1]{/c} when damage is first dealt.",
 				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash",
 				"name": "Hunter's Zenith",
+				"power_buffdurations": {
+					"185393083": 0.25,
+					"844134919": 1,
+					"1229638160": 1,
+					"1610632198": 1
+				},
+				"power_dots": {
+					"185393083": 0,
+					"844134919": 0,
+					"1229638160": 0,
+					"1610632198": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#Ring_Unique_Druid_003"
 				]
@@ -18504,6 +19262,14 @@
 				"category": 3,
 				"desc": "Gain {c_random}[Affix_Value_1]{/c} resource for every {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life healed.",
 				"name": "Starlight",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3418562981": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3418562981": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_006",
 					"Affix.legendary_generic_006.\"Static Value 0\" /100"
@@ -18519,6 +19285,14 @@
 				"category": 1,
 				"desc": "{c_important}Basic{/c} skills grant {c_number}[Affix.\"Static Value 0\"|%|]{/c} damage reduction for {c_random}[Affix_Value_1|1|]{/c} seconds.",
 				"name": "of Might",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4276614347": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4276614347": 0
+				},
 				"power_formulas": [
 					"Affix.legendary_generic_009.\"Static Value 0\" /100",
 					"Affix_Value_1#legendary_generic_009"
@@ -18534,6 +19308,14 @@
 				"category": 1,
 				"desc": "Every {c_random}[Affix_Value_1]{/c} seconds, gain a {c_important}Barrier{/c} absorbing up to {c_number}[Affix_Flat_Value_1]{/c} damage.",
 				"name": "of the Protector",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3307228809": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3307228809": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_generic_011*(1+Barrier_Bonus_Percent)",
 					"Affix_Value_1#legendary_generic_011"
@@ -18549,6 +19331,14 @@
 				"category": 0,
 				"desc": "Deal {c_random}x[Affix_Value_1|1%|]{/c} increased damage for each second you stand still, up to {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "of Inner Calm",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2841370369": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2841370369": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_014 / 100",
 					"Affix.legendary_generic_014.\"Static Value 0\" / 100"
@@ -18564,6 +19354,14 @@
 				"category": 4,
 				"desc": "Critical Strikes grant {c_random}[Affix_Value_1|1%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} second. The duration can be extended.",
 				"name": "Wind Striker",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2094298579": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2094298579": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_016/100",
 					"Affix.legendary_generic_016.\"Static Value 0\""
@@ -18576,6 +19374,12 @@
 				"category": 3,
 				"desc": "Restore {c_random}[Affix_Value_1]{/c} resource when you Crowd Control an enemy.",
 				"name": "of the Umbral",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_021"
 				]
@@ -18590,6 +19394,16 @@
 				"category": 3,
 				"desc": "Each consecutive {c_important}Core{/c} Skill cast reduces the resource cost of your next {c_important}Core{/c} Skills by {c_random}[Affix_Value_1|%|]{/c}, up to a maximum of {c_number}[Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "Ominous",
+				"power_buffdurations": {
+					"844134919": 1,
+					"918107499": 1,
+					"2301448305": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"918107499": 0,
+					"2301448305": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_023/100",
 					"Affix.legendary_generic_023.\"Static Value 0\" /100",
@@ -18603,6 +19417,12 @@
 				"category": 0,
 				"desc": "Deal {c_random}x[Affix_Value_1|%|]{/c} increased damage while you have a {c_important}Barrier{/c} active.",
 				"name": "Conceited",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_027 / 100"
 				]
@@ -18620,6 +19440,18 @@
 				"category": 1,
 				"desc": "When struck, a magical bubble forms around you for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, absorbing {c_number}[Affix_Flat_Value_1]{/c} damage. Can only occur once per {c_random}[Affix_Value_1]{/c} seconds.",
 				"name": "Protecting",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1257527470": "SF_2",
+					"2498435506": "SF_6",
+					"3906113703": "SF_4"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1257527470": 0,
+					"2498435506": 0,
+					"3906113703": ""
+				},
 				"power_formulas": [
 					"",
 					"Affix_Flat_Value_1#legendary_generic_034 * (1+Barrier_Bonus_Percent)",
@@ -18628,7 +19460,10 @@
 					0.25,
 					"SF_3",
 					"Affix_Value_1#legendary_generic_034"
-				]
+				],
+				"power_payloads": {
+					"1288374736": 0
+				}
 			},
 			"legendary_generic_036": {
 				"affix_formulas": [
@@ -18637,6 +19472,12 @@
 				"category": 1,
 				"desc": "Enemies afflicted with a damage over time effect deal {c_random}[Affix_Value_1|%|]{/c} less damage to you.",
 				"name": "of Disobedience",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_036 / 100"
 				]
@@ -18648,6 +19489,12 @@
 				"category": 0,
 				"desc": "Deal {c_random}x[Affix_Value_1|%|]{/if}{/c} increased damage to Stunned, Knocked Down, and Frozen enemies.",
 				"name": "of Pummeling",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_038 / 100"
 				]
@@ -18659,6 +19506,12 @@
 				"category": 0,
 				"desc": "{c_important}Basic{/c} Skills gain {c_random}[Affix_Value_1|%|]{/c } Attack Speed.",
 				"name": "Rapid",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_043 / 100"
 				]
@@ -18670,6 +19523,14 @@
 				"category": 0,
 				"desc": "Skills deal up to {c_random}x[Affix_Value_1|%|]{/c} increased damage based on available resource when cast, receiving the full benefit while at full resource.",
 				"name": "Edgemaster's",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2176112289": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2176112289": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_063 / 100"
 				]
@@ -18684,6 +19545,12 @@
 				"category": 1,
 				"desc": "After standing still for {c_random}[Affix_Value_1]{/c} seconds, you regenerate {c_number}[Affix_Flat_Value_1]{/c} Life per second while enemies are Close.",
 				"name": "of the Patient Sage",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_065",
 					"Affix_Flat_Value_1#legendary_generic_065",
@@ -18700,6 +19567,16 @@
 				"category": 0,
 				"desc": "Enemies hit with {c_important}Basic{/c} Skills increases the damage of your next {c_important}Core{/c} Skill by {c_random}x[Affix_Value_1|1%|]{/c}, up to {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "of the Expectant",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2065859072": 1,
+					"2701968529": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2065859072": "",
+					"2701968529": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_067",
 					"Affix.legendary_generic_067.\"Static Value 0\"",
@@ -18713,6 +19590,14 @@
 				"category": 4,
 				"desc": "You may move freely through enemies while below {c_random}[Affix_Value_1|%|]{/c} total Life.",
 				"name": "Ghostwalker",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2314950841": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2314950841": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_100 / 100",
 					0.2
@@ -18725,6 +19610,32 @@
 				"category": 2,
 				"desc": "{c_gold}Lucky Strike:{/c} When you hit a Crowd Controlled enemy, there is up to a {c_random}[Affix_Value_1|%|]{/c} chance for that Crowd Control effect to spread to another unaffected enemy.",
 				"name": "of Shared Misery",
+				"power_buffdurations": {
+					"755433617": "SF_1",
+					"844134919": 1,
+					"1263962776": "SF_1",
+					"1264438047": "SF_1",
+					"1264446948": "SF_1",
+					"1435975307": "SF_1",
+					"1454387346": "SF_1",
+					"2081860590": "SF_1",
+					"2187579806": "SF_1",
+					"3052624614": "SF_1",
+					"3402008424": "SF_1"
+				},
+				"power_dots": {
+					"755433617": 0,
+					"844134919": 0,
+					"1263962776": 0,
+					"1264438047": 0,
+					"1264446948": 0,
+					"1435975307": 0,
+					"1454387346": 0,
+					"2081860590": 0,
+					"2187579806": 0,
+					"3052624614": 0,
+					"3402008424": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_102",
 					3,
@@ -18739,6 +19650,18 @@
 				"category": 2,
 				"desc": "Taking {c_random}[Affix_Value_1|%|]{/c} of your total Life in damage while Stunned, Frozen or Immobilized will clear the effect.",
 				"name": "Eluding",
+				"power_buffdurations": {
+					"561708592": 1,
+					"844134919": 1,
+					"3460665865": 1,
+					"3722738579": 1
+				},
+				"power_dots": {
+					"561708592": 0,
+					"844134919": 0,
+					"3460665865": 0,
+					"3722738579": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_103 / 100"
 				]
@@ -18750,6 +19673,12 @@
 				"category": 3,
 				"desc": "When you take damage from a damage over time effect, gain {c_random}[Affix_Value_1]{/c} resource.",
 				"name": "Assimilation",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_104"
 				]
@@ -18761,10 +19690,19 @@
 				"category": 0,
 				"desc": "Thorns damage dealt has a {c_random}[Affix_Value_1|%|]{/c} chance to deal damage to all enemies around you.",
 				"name": "Needleflare",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_106 / 100",
 					2
-				]
+				],
+				"power_payloads": {
+					"372190974": 0
+				}
 			},
 			"legendary_generic_107": {
 				"affix_formulas": [
@@ -18773,6 +19711,12 @@
 				"category": 1,
 				"desc": "While you have a {c_important}Barrier{/c} active, there is a {c_random}[Affix_Value_1|%|]{/c} chance to ignore incoming direct damage from Distant enemies.",
 				"name": "of the Deflecting Barrier",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_107 / 100"
 				]
@@ -18788,6 +19732,14 @@
 				"category": 1,
 				"desc": "Effects that heal you beyond {c_number}[Affix.\"Static Value 0\"|%|]{/c} Life grant you a {c_important}Barrier{/c} up to {c_random}[Affix_Value_1|%|]{/c} of your Maximum Life that lasts for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 				"name": "Restorative",
+				"power_buffdurations": {
+					"383033115": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"383033115": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_generic_108/100",
 					"Affix.legendary_generic_108.\"Static Value 1\"",
@@ -20615,6 +21567,14 @@
 				"desc": "Immobilize your target for {c_random}[Affix_Value_1|1|]{/c} seconds when you Critically Strike.",
 				"flavor": "A nightmarish amalgam of blood, bone and steel, this axe is as horrific, and as deadly, as its creator.",
 				"name": "The Butcher's Cleaver",
+				"power_buffdurations": {
+					"132153420": "SF_0",
+					"844134919": 1
+				},
+				"power_dots": {
+					"132153420": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#1HAxe_Unique_Generic_001"
 				]
@@ -20642,13 +21602,24 @@
 				"desc": "Your skills have a {c_random}[Affix_Value_1|%|]{/c} chance to also deal {c_number}[Affix_Flat_Value_1]{/c} Shadow damage to surrounding enemies and reduce their damage done by {c_number}[Affix.\"Static Value 0\"|%|]{/c} for {c_number}3{/c} seconds.",
 				"flavor": "Whenever this ancient sword has re-appeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
 				"name": "Doombringer",
+				"power_buffdurations": {
+					"535735741": "SF_3",
+					"844134919": 1
+				},
+				"power_dots": {
+					"535735741": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#1HSword_Unique_Generic_001/100",
 					"Affix_Flat_Value_1#1HSword_Unique_Generic_001",
 					"Affix.1HSword_Unique_Generic_001.\"Static Value 0\" / 100",
 					"Affix.1HSword_Unique_Generic_001.\"Static Value 1\"",
 					1.75
-				]
+				],
+				"power_payloads": {
+					"2090379748": "SF_1"
+				}
 			},
 			"1HSword_Unique_Generic_100": {
 				"affix_formulas": [
@@ -20669,6 +21640,14 @@
 				"desc": "Critical Strikes with {c_important}Core{/c} Skills increase your Attack Speed by {c_random}+[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "Whenever you stare at the reflection in this blade, you see a demonic figure standing behind you: vague and distorted, but always laughing.",
 				"name": "Oblivion",
+				"power_buffdurations": {
+					"582942603": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"582942603": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#1HSword_Unique_Generic_100/100",
 					"Affix.1HSword_Unique_Generic_100.\"Static Value 0\""
@@ -20693,6 +21672,16 @@
 				"desc": "After a Crowd Control effect wears off from an enemy, they take {c_random}[Affix_Value_1|%|]{/c} increased damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "\"Also known as The Greatstaff of the Old Religion, this powerful relic is one of only a small handful of Skatsimi artifacts that have survived to this day.\"\n- Barrett's Book of Implements",
 				"name": "Staff of Lam Esen",
+				"power_buffdurations": {
+					"4362471": 1,
+					"844134919": 1,
+					"2567035248": "SF_1"
+				},
+				"power_dots": {
+					"4362471": 0,
+					"844134919": 0,
+					"2567035248": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#2HStaff_Unique_Generic_101 / 100",
 					"Affix.2HStaff_Unique_Generic_101.\"Static Value 0\"",
@@ -20715,6 +21704,12 @@
 				"desc": "Increases your critical strike damage by {c_random}[Affix_Value_1|%|]{/c}. \n\nThe other properties on this weapon can roll higher than normal.",
 				"flavor": "An unbroken lineage of unwavering strength.",
 				"name": "The Grandfather",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#2HSword_Unique_Generic_001 / 100"
 				]
@@ -20738,6 +21733,12 @@
 				"desc": "Gain {c_number}[Affix.\"Static Value 0\"|~%|]{/c} bonus maximum resource. In addition, when you take damage, drain {c_random}[Affix_Value_1|1|]{/c} resource for every {c_number}[Affix.\"Static Value 1\"|%|]{/c} of Life you would have lost instead.",
 				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig",
 				"name": "Melted Heart of Selig",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#Amulet_Unique_Generic_100",
 					"Affix.Amulet_Unique_Generic_100.\"Static Value 0\" / 100",
@@ -20760,6 +21761,18 @@
 				"desc": "Leaves a trail of frost that {c_important}Chills{/c} enemies. \n{c_important}Chilled{/c} enemies take {c_random}+[Affix_Value_1|%|]{/c} more damage.",
 				"flavor": "Remorseful devotees of the Cathedral of Light must undertake a grueling pilgrimage, journeying across the frigid glacier known as the Serac Rapture. Only then may their gravest sins be forgiven.",
 				"name": "Penitent Greaves",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2075040942": "SF_3",
+					"2322928218": "SF_0",
+					"2498435506": "SF_3"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2075040942": 0,
+					"2322928218": 0.1,
+					"2498435506": 0
+				},
 				"power_formulas": [
 					3,
 					6,
@@ -20774,6 +21787,7 @@
 					"Evade_Charges",
 					"Boots_Unique_Generic_001_Crafting"
 				],
+				"category": 0,
 				"name": "(PH) Crafting Boots of Sockets"
 			},
 			"Chest_Unique_Generic_100": {
@@ -20787,6 +21801,12 @@
 				"desc": "{c_random}+[Affix_Flat_Value_1]{/c} Thorns",
 				"flavor": "Crafted by the cannibal Armoda, each piece of this interlocking armor has been sharpened into a knife's edge. Even a century after her death, the plate remained on her corpse, unable to be removed safely.",
 				"name": "Razorplate",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#Chest_Unique_Generic_100"
 				]
@@ -20806,11 +21826,7 @@
 				"category": 0,
 				"desc": "Your attacks randomly deal {c_number}[Affix_Value_2|%|]{/c} to {c_random}[Affix_Value_1|%|]{/c} of normal damage.",
 				"flavor": "\"Will you let fear cheat you, or will you risk everything to find understanding? After all, death is simply the coin with which we purchase life.\"\n- Zurke",
-				"name": "Fists of Fate",
-				"power_formulas": [
-					"Affix_Value_2#Gloves_Unique_Generic_002 / 100",
-					"Affix_Value_1#Gloves_Unique_Generic_002 / 100"
-				]
+				"name": "Fists of Fate"
 			},
 			"Gloves_Unique_Generic_003": {
 				"affix_formulas": [
@@ -20830,6 +21846,14 @@
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to {c_important}Freeze{/c} enemies for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "A touch so frigid it stops the heart and chills the very soul.",
 				"name": "Frostburn",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4180956227": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4180956227": "SF_2"
+				},
 				"power_formulas": [
 					"Affix_Value_1#Gloves_Unique_Generic_003",
 					"Affix.Gloves_Unique_Generic_003.\"Static Value 0\""
@@ -20853,11 +21877,20 @@
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to trigger a poison nova that deals {c_number}[Affix_Flat_Value_1]{/c} Poison damage.",
 				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness...",
 				"name": "Andariel's Visage",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#Helm_Unique_Generic_001",
 					"Affix_Flat_Value_1#Helm_Unique_Generic_001",
 					4
-				]
+				],
+				"power_payloads": {
+					"1775129195": "SF_1"
+				}
 			},
 			"Helm_Unique_Generic_002": {
 				"affix_formulas": [
@@ -20877,6 +21910,12 @@
 				"desc": "Gain {c_number}x[Affix_Value_1|1%|]{/c} damage reduction. \nIn addition, gain {c_number}+[Affix.\"Static Value 0\"]{/c} to all skills.",
 				"flavor": "\"This headdress was once worn by an assassin who disguised herself as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king and his entire lineage.\"\n- The Fall of House Aston",
 				"name": "Harlequin Crest",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#Helm_Unique_Generic_002 / 100",
 					"Affix.Helm_Unique_Generic_002.\"Static Value 0\""
@@ -20900,6 +21939,28 @@
 				"desc": "If a {c_important}Core{/c} skill hits at least {c_number}[Affix.\"Static Value 0\"]{/c} or more enemies, {c_random}[Affix_Value_1|%|]{/c} of the resource cost is refunded.",
 				"flavor": "The Cult of the Triune has been thought destroyed several times over the centuries. In reality, its members hide in temples across Sanctuary, awaiting the next great power that will promise them ascendancy.",
 				"name": "Signet of the Triune",
+				"power_buffdurations": {
+					"121116764": "SF_2",
+					"595652464": 0.1,
+					"844134919": 1,
+					"2549212776": "SF_4",
+					"2549212777": "SF_4",
+					"2549212778": "SF_4",
+					"4100443732": "SF_3",
+					"4100443733": "SF_3",
+					"4100443734": "SF_3"
+				},
+				"power_dots": {
+					"121116764": "",
+					"595652464": 0,
+					"844134919": 0,
+					"2549212776": 0,
+					"2549212777": 0,
+					"2549212778": 0,
+					"4100443732": "",
+					"4100443733": "",
+					"4100443734": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#Ring_Unique_Generic_100/100",
 					"Affix.Ring_Unique_Generic_100.\"Static Value 0\" + 1",
@@ -20914,103 +21975,394 @@
 		"Book of the Dead": {
 			"Necromancer_Golem_Blood_Passive_Sacrifice": {
 				"desc": "Your Maximum Life is increased by {c_number}[{SF_1}|%|]{/c}, but you lose the ability to summon a Golem.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"3824286458": 1
+				},
+				"power_dots": {
+					"3824286458": 0
+				},
+				"power_formulas": [
+					".1  * SF_2",
+					"SF_0 * 100",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_Golem_Blood_Passive_UpgradeA": {
 				"desc": "Your Blood Golem absorbs {c_number}[{SF_0}*100|%|]{/c} of damage you would take.",
-				"name": "Upgrade A"
+				"name": "Upgrade A",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2664182329": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2664182329": 0
+				},
+				"power_formulas": [
+					0.15
+				]
 			},
 			"Necromancer_Golem_Blood_Passive_UpgradeB": {
 				"desc": "While {c_important}Healthy{/c}, your Blood Golem gains {c_number}[{SF_0}*100|%|]{/c} Damage Reduction and {c_number}x[{SF_1}*100|%|]{/c} increased damage.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"645480941": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"645480941": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_Golem.\"Script Formula 11\"",
+					"PowerTag.Necromancer_Golem.\"Script Formula 12\""
+				]
 			},
 			"Necromancer_Golem_Bone_Passive_Sacrifice": {
 				"desc": "You gain {c_number}{SF_1}%{/c} increased Attack Speed, but you lose the ability to summon a Golem.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"766643310": 1
+				},
+				"power_dots": {
+					"766643310": 0
+				},
+				"power_formulas": [
+					".1 * SF_2",
+					".1 * 100",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_Golem_Bone_Passive_UpgradeA": {
 				"desc": "Each time your Bone Golem takes up to {c_number}{SF_1}%{/c} of its maximum Life as damage, it sheds a Corpse.",
-				"name": "Upgrade A"
+				"name": "Upgrade A",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_Golem.\"Script Formula 13\"",
+					"SF_0 * 100"
+				]
 			},
 			"Necromancer_Golem_Bone_Passive_UpgradeB": {
 				"desc": "Your Bone Golem gains {c_number}[{SF_2}|%|]{/c} maximum Life and the amount of Thorns they inherit from you is increased from {c_number}[{SF_5}|%|]{/c} to {c_number}[{SF_3}+{SF_5}|%|]{/c}.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"372190974": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"372190974": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_Golem.\"Script Formula 23\"",
+					"PowerTag.Necromancer_Golem.\"Script Formula 24\"",
+					"SF_0 * 100",
+					"SF_1 * 100",
+					"PowerTag.Necromancer_Golem.\"Script Formula 34\"",
+					"SF_4 * 100"
+				]
 			},
 			"Necromancer_Golem_Iron_Passive_Sacrifice": {
 				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Critical Strike Damage, but you lose the ability to summon a Golem.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"766898178": 1
+				},
+				"power_dots": {
+					"766898178": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_Golem.\"Script Formula 26\" * SF_1",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeA": {
 				"desc": "Every {c_number}5th{/c} Iron Golem attack causes a shockwave, dealing {c_number}{payload:TOOLTIP_CONE_PAYLOAD}{/c} damage to the primary enemy and to enemies behind them.",
-				"name": "Upgrade A"
+				"name": "Upgrade A",
+				"power_buffdurations": {
+					"2054958572": 1
+				},
+				"power_dots": {
+					"2054958572": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_Golem.\"Script Formula 27\""
+				],
+				"power_payloads": {
+					"4171283320": "SF_0"
+				}
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeB": {
 				"desc": "Your Iron Golem's slam attack also makes enemies Vulnerable for {c_number}{SF_0}{/c} seconds.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"585228107": 1
+				},
+				"power_dots": {
+					"585228107": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_Golem.\"Script Formula 25\""
+				]
 			},
 			"Necromancer_SkeletonMage_Cold_Passive_Sacrifice": {
 				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage to Vulnerable enemies, but you can no longer raise Skeletal Mages.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"766679180": 1,
+					"958669588": 1
+				},
+				"power_dots": {
+					"766679180": 0,
+					"958669588": 0
+				},
+				"power_formulas": [
+					".15  * SF_2",
+					"PowerTag.Necromancer_Talent_06.\"Script Formula 0\"",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_SkeletonMage_Cold_Passive_UpgradeA": {
 				"desc": "Each time your Cold Mages damage enemies with their primary attack, you gain {c_number}{SF_0}{/c} Essence.",
-				"name": "Upgrade A"
+				"name": "Upgrade A",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					2
+				]
 			},
 			"Necromancer_SkeletonMage_Cold_Passive_UpgradeB": {
 				"desc": "Enemies who are Frozen by or damaged while Frozen by your Cold Mages' primary attack are made Vulnerable for {c_number}{SF_0}{/c} seconds.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					3
+				],
+				"power_payloads": {
+					"3437839728": 0
+				}
 			},
 			"Necromancer_SkeletonMage_Sacrifice_Passive_Sacrifice": {
 				"desc": "Your Overpower damage is increased by {c_number}[{SF_1}|%|]{/c}, but you can no longer raise Skeletal Mages.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"861083955": 1,
+					"958669588": 1
+				},
+				"power_dots": {
+					"861083955": 0,
+					"958669588": 0
+				},
+				"power_formulas": [
+					".3  * SF_3",
+					"SF_0 * 100",
+					"PowerTag.Necromancer_Talent_06.\"Script Formula 0\"",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeA": {
 				"desc": "Reduce the Life cost of your Bone Mages' attacks from {c_number}[{SF_0}*100|%|]{/c} to {c_number}[{SF_1}*100|%|]{/c}. After being alive for {c_number}{SF_2}{/c} seconds, Bone Mages deal {c_number}[{SF_3}*100|%|]{/c} increased damage.",
-				"name": "Upgrade A"
+				"name": "Upgrade A",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 31\"",
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 25\"",
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 26\"",
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 27\""
+				]
 			},
 			"Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeB": {
 				"desc": "Each time a Bone Mage dies from its own attack, they leave behind a Corpse and {c_important}Fortify{/c} you for {c_number}[{SF_0}*100|%|]{/c} of your Base Life {c_number}({fortified:FORTIFY}){/c}.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					0.11
+				],
+				"power_payloads": {
+					"3069256803": 0
+				}
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_Sacrifice": {
 				"desc": "Your maximum Essence is increased by {c_number}{SF_0}{/c}, but you can no longer raise Skeletal Mages.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"958669588": 1,
+					"2307444912": 1
+				},
+				"power_dots": {
+					"958669588": 0,
+					"2307444912": 0
+				},
+				"power_formulas": [
+					"Round(15  * SF_2)",
+					"PowerTag.Necromancer_Talent_06.\"Script Formula 0\"",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_UpgradeA": {
 				"desc": "Shadow Mage attacks have a {c_number}[{SF_0} * 100|%|]{/c} chance to Stun for {c_number}{buffduration:STUN}{/c} seconds. This cannot happen on the same enemy more than once every {c_number}{buffduration:STUN_COOLDOWN}{/c} seconds.",
-				"name": "Upgrade A"
+				"name": "Upgrade A",
+				"power_buffdurations": {
+					"4263050": "SF_1",
+					"2295075822": "SF_2",
+					"3871282061": 1
+				},
+				"power_dots": {
+					"4263050": 0,
+					"2295075822": 0,
+					"3871282061": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 17\"",
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 18\"",
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 19\""
+				]
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_UpgradeB": {
 				"desc": "Shadow Mages fire an additional shadow bolt every {c_number}{SF_0}th{/c} attack.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"2397695280": 1
+				},
+				"power_dots": {
+					"2397695280": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 20\"",
+					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 21\""
+				]
 			},
 			"Necromancer_SkeletonWarrior_Defender_Passive_Sacrifice": {
 				"desc": "You gain {c_number}[{SF_0}*100|%|]{/c} non-Physical Resistance, but you can no longer raise Skeletal Warriors.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"869195240": 1,
+					"1542496551": 1
+				},
+				"power_dots": {
+					"869195240": 0,
+					"1542496551": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 31\" * SF_2",
+					"PowerTag.Necromancer_Talent_06.\"Script Formula 0\"",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_SkeletonWarrior_Defender_Passive_UpgradeA": {
 				"desc": "Every {c_number}{SF_0}{/c} seconds your Skeletal Defenders negate the next instance of Direct Damage they would take.",
-				"name": "Upgrade A"
+				"name": "Upgrade A",
+				"power_buffdurations": {
+					"1557349758": 1
+				},
+				"power_dots": {
+					"1557349758": 0
+				},
+				"power_formulas": [
+					8
+				]
 			},
 			"Necromancer_SkeletonWarrior_Defender_Passive_UpgradeB": {
 				"desc": "Increase the amount of Thorns that Defender Warriors inherit from you from {c_number}[{SF_0} * 100}|%|]{/c} to {c_number}[{SF_1} * 100}|%|]{/c}.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"361295192": 1
+				},
+				"power_dots": {
+					"361295192": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 29\"",
+					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 30\""
+				]
 			},
 			"Necromancer_SkeletonWarrior_Reaper_Passive_Sacrifice": {
 				"desc": "You deal {c_number}x[{SF_0} * 100|%|]{/c} increased Shadow Damage, but you can no longer raise Skeletal Warriors.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"869195240": 1,
+					"2264764489": 1
+				},
+				"power_dots": {
+					"869195240": 0,
+					"2264764489": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 35\" * SF_2",
+					"PowerTag.Necromancer_Talent_06.\"Script Formula 0\"",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeA": {
 				"desc": "Reaper attacks against enemies who are Immobilized, Slowed, Stunned, or Vulnerable reduce the cooldown of their powerful wind-up attack by {c_number}{SF_0}{/c} seconds.",
-				"name": "Upgrade A"
+				"name": "Upgrade A",
+				"power_buffdurations": {
+					"2681570029": 1
+				},
+				"power_dots": {
+					"2681570029": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 32\""
+				]
 			},
 			"Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeB": {
 				"desc": "Reapers have a {c_number}[{SF_0} * 100|%|]{/c} chance to carve the flesh off enemies, forming a Corpse. This cannot happen on the same enemy more than once every {c_number}{buffduration:BUFF_CORPSE_COOLDOWN}{/c} seconds.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"3549895966": 1,
+					"4264210322": "SF_1"
+				},
+				"power_dots": {
+					"3549895966": 0,
+					"4264210322": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 33\"",
+					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 34\""
+				]
 			},
 			"Necromancer_SkeletonWarrior_Skirmisher_Passive_Sacrifice": {
 				"desc": "Your Critical Strike Chance is increased by {c_number}[{SF_0}*100|%|]{/c}, but you can no longer raise Skeletal Warriors.",
-				"name": "Sacrifice"
+				"name": "Sacrifice",
+				"power_buffdurations": {
+					"869195240": 1,
+					"3182306411": 1
+				},
+				"power_dots": {
+					"869195240": 0,
+					"3182306411": 0
+				},
+				"power_formulas": [
+					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 25\" * SF_2",
+					"PowerTag.Necromancer_Talent_06.\"Script Formula 0\"",
+					"1+ (Affix_Value_1#legendary_necro_116 / 100)"
+				]
 			},
 			"Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeA": {
 				"desc": "You can raise one additional Skirmisher Warrior.",
@@ -21018,7 +22370,20 @@
 			},
 			"Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeB": {
 				"desc": "Each time you Critically Strike, your Skirmishers Warriors' next attack Critically Strikes. Can only happen every {c_number}{SF_0}{/c} seconds.",
-				"name": "Upgrade B"
+				"name": "Upgrade B",
+				"power_buffdurations": {
+					"117712": "SF_0",
+					"559020969": 1,
+					"3149033941": 1
+				},
+				"power_dots": {
+					"117712": 0,
+					"559020969": 0,
+					"3149033941": 0
+				},
+				"power_formulas": [
+					3
+				]
 			}
 		},
 		"Legendary": {
@@ -21033,6 +22398,14 @@
 				"category": 0,
 				"desc": "Each time one of your {c_important}Summoning{/c} Minions damages an enemy, they gain {c_random}+[Affix_Value_1|%|]{/c} Attack Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}+[Affix_Value_1*Affix.\"Static Value 1\"|%|]{/c}.",
 				"name": "of Frenzied Dead",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1647315560": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1647315560": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_002 / 100",
 					"Affix.legendary_necro_002.\"Static Value 1\"",
@@ -21054,6 +22427,14 @@
 				"category": 0,
 				"desc": "When you pick up {c_random}[Affix_Value_1]{/c} {c_important}Blood Orbs{/c}, a free {c_important}Bone Spirit{/c} is spawned, dealing bonus damage based on your current Life percent.",
 				"name": "of Possessed Blood",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3556669267": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3556669267": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_011"
 				]
@@ -21079,6 +22460,14 @@
 				"category": 0,
 				"desc": "Enemies take {c_random}x[Affix_Value_1|%|]{/c} increased damage from {c_important}Blight's{/c} defiled area for each second they are in it, up to {c_random}x[Affix.\"Static Value 0\" * Affix_Value_1|%|]{/c}.",
 				"name": "of Plunging Darkness",
+				"power_buffdurations": {
+					"844134919": 1,
+					"915653042": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"915653042": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_016 / 100",
 					"Affix.legendary_necro_016.\"Static Value 0\"",
@@ -21124,6 +22513,18 @@
 				"category": 2,
 				"desc": "Every {c_number}[Affix.\"Static Value 1\"]{/c} seconds, your {c_important}Cold Skeletal Mages{/c} cast a blizzard that deals {c_random}[Affix_Flat_Value_1]{/c} Cold damage and continuously {c_important}Chills{/c} enemies for {c_number}[Affix.\"Static Value 2\"/Affix.\"Static Value 0\"|%|]{/c} over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Coldbringer's",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1501572314": 1,
+					"2841420920": 1,
+					"4283276753": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1501572314": 0,
+					"2841420920": 0,
+					"4283276753": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_necro_023",
 					"Affix.legendary_necro_023.\"Static Value 0\"",
@@ -21156,6 +22557,12 @@
 				"category": 0,
 				"desc": "Your maximum number of Skeletal Mages is increased by {c_number}[Affix_Value_1]{/c}.",
 				"name": "Viscous",
+				"power_buffdurations": {
+					"3387243791": 1
+				},
+				"power_dots": {
+					"3387243791": 0
+				},
 				"power_formulas": [
 					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 3\""
 				]
@@ -21170,6 +22577,18 @@
 				"category": 0,
 				"desc": "{c_important}Blood Mist{/c} leaves a trail that lasts for {c_number}[Affix.\"Static Value 0\"]{/c} seconds and deals {c_random}[Affix_Flat_Value_1]{/c} Shadow damage per second to enemies who stand in it. Your Movement Speed is no longer reduced while {c_important}Blood Mist{/c} is active.",
 				"name": "of Bloodbath",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1908211461": "SF_2",
+					"3839469893": 1,
+					"3902245655": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1908211461": "SF_0",
+					"3839469893": 0,
+					"3902245655": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_necro_032",
 					0.3,
@@ -21194,10 +22613,19 @@
 				"category": 0,
 				"desc": "When a segment of {c_important}Bone Prison{/c} is destroyed or expired, it deals {c_random}[Affix_Flat_Value_1]{/c} damage in an area around itself.",
 				"name": "of Bursting Bones",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_necro_038",
 					"PowerTag.Necromancer_BonePrison.\"Script Formula 5\""
-				]
+				],
+				"power_payloads": {
+					"225767441": "SF_0"
+				}
 			},
 			"legendary_necro_041": {
 				"affix_formulas": [
@@ -21219,6 +22647,16 @@
 				"category": 0,
 				"desc": "While {c_important}Army of the Dead{/c} is active, your Minions gain {c_random}[Affix_Value_1|%|]{/c} Attack Speed and take {c_number}[Affix_Value_2|%|]{/c} reduced damage.",
 				"name": "Unyielding Commander's",
+				"power_buffdurations": {
+					"3613753": 0.5,
+					"844134919": 1,
+					"2887892101": 1
+				},
+				"power_dots": {
+					"3613753": 0,
+					"844134919": 0,
+					"2887892101": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_053 / 100",
 					"Affix_Value_2#legendary_necro_053 / 100"
@@ -21234,6 +22672,14 @@
 				"category": 1,
 				"desc": "Each time that {c_important}Bone Storm{/c} damages an enemy, gain a {c_important}Barrier{/c} equal to {c_random}[Affix_Value_1|%|]{/c} of your Base Life for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Shielding Storm",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1650384807": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1650384807": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_054 / 100",
 					"Affix.legendary_necro_054.\"Static Value 0\""
@@ -21246,6 +22692,12 @@
 				"category": 1,
 				"desc": "Enemies who are Stunned by {c_important}Corpse Tendrils{/c} are also made {c_important}Vulnerable{/c} for its duration. If they die while Stunned, they have a {c_random}[Affix_Value_1|%|]{/c} chance to spawn a {c_important}Blood Orb{/c}.",
 				"name": "of Grasping Veins",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_066 / 100",
 					"PowerTag.Necromancer_CorpseTendrils.\"Script Formula 3\""
@@ -21258,6 +22710,12 @@
 				"category": 0,
 				"desc": "Your maximum number of Skeletal Warriors is increased by {c_number}[Affix_Value_1]{/c}.",
 				"name": "Blood Getter's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"PowerTag.Necromancer_SkeletonMage.\"Script Formula 3\"",
 					"PowerTag.Necromancer_SkeletonWarrior.\"Script Formula 3\""
@@ -21273,6 +22731,14 @@
 				"category": 3,
 				"desc": "Critical Strikes with {c_important}Bone{/c} Skills increase your Essence Regeneration by {c_random}x[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Affix Value 0\"]{/c} seconds.",
 				"name": "of Torment",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4221972522": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4221972522": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_100 / 100",
 					"Affix.legendary_necro_100.\"Static Value 0\""
@@ -21308,6 +22774,12 @@
 				"category": 3,
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} Essence when hitting a {c_important}Vulnerable{/c} enemy with your {c_important}Bone{/c} Skills.",
 				"name": "of Exposed Flesh",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_103",
 					"Affix.legendary_necro_103.\"Static Value 0\""
@@ -21321,6 +22793,12 @@
 				"category": 0,
 				"desc": "The {c_important}Shadowblight{/c} Passive deals {c_random}x[Affix_Value_1|%|]{/c} increased damage against Slowed or Chilled enemies, and {c_random}x[Affix_Value_2|%|]{/c} increased damage against Stunned enemies instead.",
 				"name": "Blighted",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_104 / 100",
 					"Affix_Value_2#legendary_necro_104 / 100"
@@ -21344,6 +22822,12 @@
 				"category": 0,
 				"desc": "You deal {c_random}x[Affix_Value_1|%|]{/c} increased Shadow Damage to enemies afflicted by both {c_important}Decrepify{/c} and {c_important}Iron Maiden{/c}.",
 				"name": "of the Damned",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_106 / 100"
 				]
@@ -21411,6 +22895,12 @@
 				"category": 3,
 				"desc": "Each time your {c_important}Golem{/c} damages an enemy, its active Cooldown is reduced by {c_random}[Affix_Value_1]{/c} seconds.",
 				"name": "Hulking",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_114"
 				]
@@ -21438,6 +22928,14 @@
 				"category": 3,
 				"desc": "You gain {c_random}[Affix_Value_1|1|]{/c} maximum Essence per active {c_important}Minion{/c}.",
 				"name": "Requiem",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2355236056": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2355236056": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_117"
 				]
@@ -21452,6 +22950,16 @@
 				"category": 0,
 				"desc": "Your {c_important}Skeletons{/c} gain increased damage while alive, up to {c_random}x[Affix_Value_1|%|]{/c} after {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Reanimation",
+				"power_buffdurations": {
+					"665869105": 1,
+					"844134919": 1,
+					"3576953064": 1
+				},
+				"power_dots": {
+					"665869105": "",
+					"844134919": 0,
+					"3576953064": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_118 / 100",
 					"Affix.legendary_necro_118.\"Static Value 0\"",
@@ -21468,6 +22976,14 @@
 				"category": 0,
 				"desc": "Consuming a {c_important}Corpse{/c} increases the damage of your next {c_important}Core{/c} Skill by {c_random}x[Affix_Value_1|%|]{/c}, up to {c_random}x[Affix_Value_1 * Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "Cadaverous",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1920046635": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1920046635": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_119",
 					"Affix.legendary_necro_119.\"Static Value 0\""
@@ -21480,6 +22996,12 @@
 				"category": 1,
 				"desc": "Consuming a {c_important}Corpse{/c} has a {c_random}[Affix_Value_1|%|]{/c} chance to spawn a {c_important}Blood Orb{/c}.",
 				"name": "of the Embalmer",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_necro_120 / 100"
 				]
@@ -28292,12 +29814,7 @@
 				"category": 2,
 				"desc": "Your {c_important}Darkness{/c} Skills {c_important}Chill{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n\n{c_gold}Lucky Hit:{/c} Your {c_important}Darkness{/c} Skills have up to a {c_number}[Affix.\"Static Value 1\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} additional Essence against {c_important}Frozen{/c} targets.",
 				"flavor": "\"My companion swung her strange weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI",
-				"name": "Bloodless Scream",
-				"power_formulas": [
-					"Affix.2HScythe_Unique_Necro_100.\"Static Value 0\"",
-					"Affix_Value_1#2HScythe_Unique_Necro_100",
-					"Affix.2HScythe_Unique_Necro_100.\"Static Value 1\""
-				]
+				"name": "Bloodless Scream"
 			},
 			"Amulet_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -28338,15 +29855,7 @@
 				"category": 0,
 				"desc": "Create desecrated ground beneath your {c_important}Sever{/c} spectres as they travel, damaging enemies for {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "\"The massive stone door to my family's crypt, which had taken a dozen stout men to close, was thrown open wide. If I had known the horrors to come I would never have set foot inside that accursed place!\"\n- The Ebon Pages, Canto I, Verse VII",
-				"name": "Greaves of the Empty Tomb",
-				"power_formulas": [
-					"Affix_Flat_Value_1#Boots_Unique_Necro_100",
-					0.25,
-					1,
-					"Affix.Boots_Unique_Necro_100.\"Static Value 0\"",
-					1.0,
-					0.05
-				]
+				"name": "Greaves of the Empty Tomb"
 			},
 			"Chest_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -28367,14 +29876,7 @@
 				"category": 0,
 				"desc": "{c_important}Bone Storm{/c} and {c_important}Blood Wave{/c} are also {c_important}Darkness{/c} Skills and deal Shadow damage. \n\nEnemies damaged by {c_important}Bone Storm{/c} take {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.\n\n{c_important}Blood Wave{/c} desecrates the ground it travels over, dealing {c_random}[Affix_Flat_Value_1*Affix.\"Static Value 0\"]{/c} Shadow damage over {c_number}[Affix.\"Static Value 2\"]{/c} seconds",
 				"flavor": "The dark wisps that crawl across this armor burrow into magic the way maggots might bore through putrid flesh.",
-				"name": "Shadowclad Cuirass",
-				"power_formulas": [
-					"Affix_Flat_Value_1#Chest_Unique_Necro_100",
-					"Affix.Chest_Unique_Necro_100.\"Static Value 1\"",
-					"Affix_Flat_Value_1#Chest_Unique_Necro_100 * Affix.Chest_Unique_Necro_100.\"Static Value 0\"",
-					"Affix.Chest_Unique_Necro_100.\"Static Value 2\"",
-					"PowerTag.Necromancer_BloodWave.\"Script Formula 6\" / 2.5"
-				]
+				"name": "Shadowclad Cuirass"
 			},
 			"Gloves_Unique_Necro_100": {
 				"affix_formulas": [
@@ -28423,12 +29925,7 @@
 				"category": 0,
 				"desc": "{c_important}Blood Mist{/c} triggers {c_important}Corpse Explosion{/c} on surrounding Corpses. \nWhen {c_important}Blood Mist{/c} detonates a Corpse, its Cooldown is reduced by {c_random}[Affix_Value_1|1|]{/c} seconds.",
 				"flavor": "\"The infamous Necromancer Gaza-Thul's mastery over blood magic was indisputable. Many suspect that upon his death, his skin was used to fashion these eldritch leggings.\"\n- Barrett's Book of Implements",
-				"name": "Blood Artisan's Brais",
-				"power_formulas": [
-					"PowerTag.Necromancer_BloodMist.\"Script Formula 0\"",
-					"PowerTag.Necromancer_BloodMist.\"Script Formula 11\"",
-					"Affix_Value_1#Pants_Unique_Necro_100"
-				]
+				"name": "Blood Artisan's Brais"
 			},
 			"Ring_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -28463,6 +29960,14 @@
 				"category": 0,
 				"desc": "{c_important}Shadow Clone{/c} also mimics the {c_important}Imbuements{/c} applied to your Skills. \nCasting an {c_important}Imbuement{/c} Skill grants your {c_important}Shadow Clone{/c} {c_random}x[Affix_Value_1|%|]{/c} increased damage for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Imitated Imbuement",
+				"power_buffdurations": {
+					"844134919": 1,
+					"959412554": "SF_0"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"959412554": 0
+				},
 				"power_formulas": [
 					"Affix.legendary_rogue_003.\"Static Value 0\"",
 					"Affix_Value_1#legendary_rogue_003 / 100"
@@ -28478,6 +29983,14 @@
 				"category": 1,
 				"desc": "Gain a {c_important}Dark Shroud{/c} shadow every {c_number}[Affix.\"Static Value 0\"]{/c} seconds when standing still. Each {c_important}Dark Shroud{/c} shadow grants {c_random}[Affix_Value_1|1%|]{/c} increased Damage Reduction.",
 				"name": "Enshrouding",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2823652705": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2823652705": 0
+				},
 				"power_formulas": [
 					"Affix.legendary_rogue_004.\"Static Value 0\"",
 					"Affix.legendary_rogue_004.\"Static Value 0\"",
@@ -28504,6 +30017,12 @@
 				"category": 0,
 				"desc": "{c_important}Flurry{/c} damages enemies in a circle around you and deals {c_random}x[Affix_Value_1|%|]{/c} increased damage.",
 				"name": "of Encircling Blades",
+				"power_buffdurations": {
+					"2736615847": 1
+				},
+				"power_dots": {
+					"2736615847": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_011/100"
 				]
@@ -28515,10 +30034,19 @@
 				"category": 0,
 				"desc": "When a {c_important}Dark Shroud{/c} shadow would be removed it explodes, dealing {c_random}[Affix_Flat_Value_1]{/c} Shadow damage around you.",
 				"name": "of Volatile Shadows",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_rogue_013",
 					2
-				]
+				],
+				"power_payloads": {
+					"3056936014": "SF_0"
+				}
 			},
 			"legendary_rogue_014": {
 				"affix_formulas": [
@@ -28527,6 +30055,12 @@
 				"category": 3,
 				"desc": "Damaging an {c_important}Injured{/c} enemy with a {c_important}Basic{/c} Skill generates {c_number}[Affix_Value_1]{/c} Energy.",
 				"name": "Energizing",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_014"
 				]
@@ -28538,6 +30072,12 @@
 				"category": 0,
 				"desc": "When you {c_important}Evade{/c} or {c_important}Shadow Step{/c}, you leave behind a cluster of {c_important}Stun Grenades{/c} that explode and deal {c_random}[Affix_Flat_Value_1]{/c} total Physical damage and Stunning enemies for {c_number}[PowerTag.Rogue_Grenades.\"Script Formula 2\"|2|]{/c} seconds.",
 				"name": "of Surprise",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_rogue_018"
 				]
@@ -28549,6 +30089,12 @@
 				"category": 0,
 				"desc": "{c_important}Caltrops{/c} also throw a cluster of {c_important}Stun Grenades{/c} that explode and deal {c_random}[Affix_Flat_Value_1]{/c} total Physical damage and Stunning enemies for {c_number}[PowerTag.Rogue_Grenades.\"Script Formula 2\"|2|]{/c} seconds.",
 				"name": "Trickster's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_rogue_019"
 				]
@@ -28560,12 +30106,23 @@
 				"category": 0,
 				"desc": "Casting a Skill that is {c_important}Imbued{/c} creates an explosion around you, dealing {c_random}[Affix_Flat_Value_1]{/c} damage of the same type.",
 				"name": "of Unstable Imbuements",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3437694526": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3437694526": "SF_3"
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_rogue_020",
 					2,
 					6,
 					"SF_0/SF_2"
-				]
+				],
+				"power_payloads": {
+					"1702204449": "SF_0"
+				}
 			},
 			"legendary_rogue_021": {
 				"affix_flat_formulas": [
@@ -28579,7 +30136,10 @@
 					"Affix_Flat_Value_1#legendary_rogue_021 * 0.5 / SF_2",
 					5,
 					2
-				]
+				],
+				"power_payloads": {
+					"1702204449": "SF_0"
+				}
 			},
 			"legendary_rogue_023": {
 				"affix_flat_formulas": [
@@ -28591,6 +30151,14 @@
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging a Poisoned enemy has up to a {c_number}50%{/c} chance to create a toxic explosion that applies {c_random}[Affix_Flat_Value_1]{/c} Poison damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds to the target and surrounding enemies.",
 				"name": "Venomous",
+				"power_buffdurations": {
+					"844134919": "SF_0",
+					"3437694526": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3437694526": "SF_2"
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_rogue_023",
 					"Affix.legendary_rogue_023.\"Static Value 0\"",
@@ -28610,12 +30178,21 @@
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging a Close enemy with a {c_important}Core{/c} Skill has up to a {c_number}[Affix.\"Static Value 0\"|%|]{/c} chance to release an explosion that deals {c_random}[Affix_Flat_Value_1]{/c} Cold damage to the target and surrounding enemies, {c_important}Chilling{/c} them for {c_number}[Affix.\"Static Value 1\"|%|]{/c}.",
 				"name": "of Chilling Presence",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix.legendary_rogue_024.\"Static Value 0\"",
 					"Affix.legendary_rogue_024.\"Static Value 1\"",
 					2,
 					"Affix_Flat_Value_1#legendary_rogue_024"
-				]
+				],
+				"power_payloads": {
+					"3240631475": "SF_3"
+				}
 			},
 			"legendary_rogue_026": {
 				"affix_formulas": [
@@ -28624,6 +30201,14 @@
 				"category": 0,
 				"desc": "When you cast {c_important}Dash{/c}, a Shadow Clone is spawned at your location that also casts {c_important}Dash{/c}, dealing {c_random}[Affix_Value_1|%|]{/c} of the base damage.",
 				"name": "Shadowslicer",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2063208719": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2063208719": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_026 / 100",
 					5,
@@ -28643,6 +30228,14 @@
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Your {c_important}Ranged{/c} skills have up to a {c_number}[Affix.\"Static Value 2\"|%|]{/c} chance to create an arrow storm at the target's present location, dealing {c_random}[Affix_Flat_Value_1]{/c} Physical damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds. You can have up to {c_number}[Affix.\"Static Value 1\"]{/c} active arrow storms.",
 				"name": "of Arrow Storms",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2657919330": "SF_4 + SF_5"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2657919330": ""
+				},
 				"power_formulas": [
 					"Affix.legendary_rogue_028.\"Static Value 2\"",
 					"Affix_Flat_Value_1#legendary_rogue_028 / SF_4 / (1/SF_3)",
@@ -28651,7 +30244,10 @@
 					"Affix.legendary_rogue_028.\"Static Value 0\"",
 					0.5,
 					"Affix.legendary_rogue_028.\"Static Value 1\""
-				]
+				],
+				"power_payloads": {
+					"3935549854": "SF_1"
+				}
 			},
 			"legendary_rogue_100": {
 				"affix_formulas": [
@@ -28671,10 +30267,19 @@
 				"category": 0,
 				"desc": "{c_label}Lucky Hit:{/c} Dealing direct damage to enemies affected by your {c_important}Trap{/c} Skills has up to a {c_random}[Affix_Value_1|%|]{/c} chance to make them {c_important}Vulnerable{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Blast-Trapper's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_101",
 					"Affix.legendary_rogue_101.\"Static Value 0\""
-				]
+				],
+				"power_payloads": {
+					"3437839728": 0
+				}
 			},
 			"legendary_rogue_102": {
 				"affix_formulas": [
@@ -28686,6 +30291,14 @@
 				"category": 2,
 				"desc": "Your {c_important}Grenades{/c} Skills count as {c_important}Trap{/c} Skills. \nWhenever you arm a {c_important}Trap{/c} or drop {c_important}Grenades{/c}, you gain {c_random}+[Affix_Value_1|%|]{/c} increased Movement Speed for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Explosive Verve",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2547981677": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2547981677": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_102 / 100",
 					"Affix.legendary_rogue_102.\"Static Value 0\""
@@ -28704,6 +30317,14 @@
 				"category": 1,
 				"desc": "Whenever you trigger a Lucky Hit, gain {c_random}x[Affix_Value_1|%|]{/c} increased Damage Reduction for {c_number}[Affix_Value_2]{/c} seconds, up to a maximum of {c_random}x[Affix_Value_1 * Affix.\"Static Value 0\"|%|]{/c}.",
 				"name": "of Uncanny Resilience",
+				"power_buffdurations": {
+					"844134919": "SF_0",
+					"4276614347": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4276614347": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_103 / 100",
 					"Affix_Value_2#legendary_rogue_103",
@@ -28733,6 +30354,14 @@
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Making an enemy {c_important}Vulnerable{/c} has up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant {c_number}+[Affix.\"Static Value 0\"|%|]{/c} increased Critical Strike Chance for {c_number}[Affix.\"Static Value 1\"]{/c} seconds, up to {c_number}+[Affix.\"Static Value 0\" * Affix.\"Static Value 2\"|%|]{/c}.",
 				"name": "Vengeful",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3016347731": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3016347731": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_105",
 					"Affix.legendary_rogue_105.\"Static Value 0\"/100",
@@ -28750,6 +30379,14 @@
 				"category": 3,
 				"desc": "Killing a {c_important}Vulnerable{/c} enemy grants you {c_random}x[Affix_Value_1|%|]{/c} increased Energy Regeneration for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Ravenous",
+				"power_buffdurations": {
+					"844134919": "SF_0",
+					"3000759187": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3000759187": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_106 / 100",
 					"Affix.legendary_rogue_106.\"Static Value 0\""
@@ -28766,6 +30403,16 @@
 				"category": 1,
 				"desc": "Upon taking damage from surrounding enemies, drop a {c_important}Smoke Grenade{/c} and gain a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 1\"]{/c} seconds that absorbs {c_random}[Affix_Flat_Value_1]{/c} damage. This effect can only occur once every {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Escape Artist's",
+				"power_buffdurations": {
+					"117712": "SF_1",
+					"844134919": 1,
+					"3307228809": "SF_2"
+				},
+				"power_dots": {
+					"117712": 0,
+					"844134919": 0,
+					"3307228809": 0
+				},
 				"power_formulas": [
 					"Affix_Flat_Value_1#legendary_rogue_107*(1+Barrier_Bonus_Percent)",
 					"Affix.legendary_rogue_107.\"Static Value 0\"",
@@ -28779,6 +30426,12 @@
 				"category": 1,
 				"desc": "Each stack of {c_important}Momentum{/c} grants you {c_random}[Affix_Flat_Value_1]{/c} Thorns.",
 				"name": "Barbed",
+				"power_buffdurations": {
+					"372190974": "SF_0"
+				},
+				"power_dots": {
+					"372190974": ""
+				},
 				"power_formulas": [
 					"PowerTag.Rogue_Talent_Cunning_T5_N2.\"Script Formula 0\"",
 					"PowerTag.Rogue_Talent_Cunning_T5_N2.\"Script Formula 2\"",
@@ -28815,6 +30468,14 @@
 				"category": 1,
 				"desc": "You take {c_random}[Affix_Value_1|1%|]{/c} less damage from Crowd Controlled enemies. Whenever a Crowd Controlled enemy deals direct damage to you, gain {c_number}+[Affix.\"Static Value 0\"|%|]{/c} Movement Speed for {c_number}[Affix.\"Static Value 1\"]{/c} seconds.",
 				"name": "Cheat's",
+				"power_buffdurations": {
+					"844134919": "SF_0",
+					"3394882833": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3394882833": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_111 / 100",
 					"Affix.legendary_rogue_111.\"Static Value 0\" / 100",
@@ -28833,6 +30494,14 @@
 				"category": 1,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging a {c_important}Vulnerable{/c} enemy with a {c_important}Core{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds that absorbs {c_number}[Affix_Flat_Value_1]{/c} damage, up to a maximum of {c_number}[Affix_Flat_Value_1 * Affix.\"Static Value 1\"]{/c}.",
 				"name": "of Siphoned Protection",
+				"power_buffdurations": {
+					"844134919": "SF_0",
+					"3307228809": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3307228809": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_112",
 					"Affix_Flat_Value_1#legendary_rogue_112",
@@ -28858,6 +30527,14 @@
 				"category": 2,
 				"desc": "{c_gold}Lucky Hit:{/c} Dealing direct damage to a {c_important}Vulnerable{/c} enemy has up to a {c_random}[Affix_Value_1|%|]{/c} chance to Immobilize them for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Mangler's",
+				"power_buffdurations": {
+					"639386033": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"639386033": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_114",
 					"Affix.legendary_rogue_114.\"Static Value 0\""
@@ -28870,6 +30547,14 @@
 				"category": 0,
 				"desc": "{c_gold}Lucky Hit:{/c} Damaging a {c_important}Vulnerable{/c} enemy with a {c_important}Ranged{/c} or {c_important}Melee{/c} Skill has up to a {c_random}[Affix_Value_1|%|]{/c} chance to summon a Shadow Clone that mimics your attack.",
 				"name": "of Ruthless Mimicry",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4083051042": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4083051042": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_115",
 					5,
@@ -28890,6 +30575,14 @@
 				"category": 1,
 				"desc": "{c_gold}Lucky Hit:{/c} Critical Strikes with {c_important}Ranged{/c} Skills have up to a {c_random}[Affix_Value_1|%|]{/c} chance to grant a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds that absorbs {c_number}[Affix_Flat_Value_1]{/c} damage, up to a maximum of {c_number}[Affix_Flat_Value_1 * Affix.\"Static Value 1\"]{/c}.",
 				"name": "Draining",
+				"power_buffdurations": {
+					"844134919": "SF_0",
+					"3307228809": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3307228809": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_rogue_116",
 					"Affix.legendary_rogue_116.\"Static Value 0\"",
@@ -36911,6 +38604,12 @@
 				"desc": "Your {c_important}Core{/c} Skills deal {c_random}x[Affix_Value_1|%|]{/c} increased damage per {c_important}Combo Point{/c} spent. However, your {c_important}Basic{/c} Skills using this weapon have a {c_number}[Affix_Value_2|%|]{/c} chance to generate {c_number}0{/c} {c_important}Combo Points{/c}.",
 				"flavor": "\"I've never seen such ruthless butchery. He deserves to be be shipped off to die in the swamps with the rest of the godless murderers.\"\n- Witness to the murder of Sergeant Walcot",
 				"name": "Condemnation",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#1HDagger_Unique_Rogue_001 / 100"
 				]
@@ -36935,6 +38634,14 @@
 				"desc": "Hits with this weapon increase your Attack Speed by {c_random}+[Affix_Value_1 * 100|1%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}+[Affix_Value_1 * Affix.\"Static Value 1\" * 100|1%|]{/c}.",
 				"flavor": "When Caldeum's gates closed, Asheara led her Iron Wolves out of the city knowing full well they would never return. Instead they roamed Kehjistan pledging their blades to any who were in need.",
 				"name": "Asheara's Khanjar",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1278482058": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1278482058": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#1HDagger_Unique_Rogue_002",
 					"Affix.1HDagger_Unique_Rogue_002.\"Static Value 0\"",
@@ -36956,7 +38663,15 @@
 				"category": 0,
 				"desc": "The first direct damage you deal to an enemy is a guaranteed Critical Strike. If you had maximum {c_important}Precision{/c} stacks when you cast the Skill, gain {c_random}[Affix_Value_1]{/c} {c_important}Energy{/c}, this can only happen once per cast.",
 				"flavor": "\"Genai took up her bow and, drawing back the string, aimed at the sun itself. The sun burned her eyes, but her arrow flew true. Wounded, the sun hid, and brought forth the first night.\n- Fable of \"The Great Sky-Hunt\"",
-				"name": "Skyhunter"
+				"name": "Skyhunter",
+				"power_buffdurations": {
+					"413797134": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"413797134": 0,
+					"844134919": 0
+				}
 			},
 			"2HBow_Unique_Rogue_006": {
 				"affix_formulas": [
@@ -36974,10 +38689,19 @@
 				"desc": "{c_gold}Lucky Hit:{/c} Hits with this weapon have up to a {c_random}[Affix_Value_1|%|]{/c} chance to deal double damage and Knock Back the target.",
 				"flavor": "\"There have been numerous world-shaping conflicts throughout history. This bow has been found on the battlefield of every one, and always in the hands of the victors.\"\n- Barrett's Book of Implements",
 				"name": "Windforce",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#2HBow_Unique_Rogue_006",
 					1.0
-				]
+				],
+				"power_payloads": {
+					"2206426855": 0
+				}
 			},
 			"2HCrossbow_Unique_Rogue_100": {
 				"affix_formulas": [
@@ -37011,6 +38735,12 @@
 				"desc": "You gain {c_random}x[Affix_Value_1|%|]{/c} increased Lucky Hit Chance against Crowd Controlled enemies.",
 				"flavor": "\"He is banished from the Guild, his name stricken from the Book. His punishment is to never have been.\" \n- Excerpt from a burned parchment",
 				"name": "Cowl of the Nameless",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#Helm_Unique_Rogue_001 / 100"
 				]
@@ -37034,6 +38764,16 @@
 				"desc": "{c_important}Death Trap{/c} {c_important}Freezes{/c} enemies for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, but deals {c_random}[Affix_Value_1|%|]{/c} of its base damage.",
 				"flavor": "\"From that day forth, he knew whenever he felt that strange cold breeze on the nape of his neck that Ashen Jack was somewhere very close by, watching and waiting.\"\n- Greenslade's Tales, Chapter 2: \"A Cold Wind Blows\"",
 				"name": "Chill of Night",
+				"power_buffdurations": {
+					"21692683": "SF_0",
+					"844134919": 1,
+					"2498435506": "SF_1"
+				},
+				"power_dots": {
+					"21692683": 0,
+					"844134919": 0,
+					"2498435506": 0
+				},
 				"power_formulas": [
 					"Affix.Pants_Unique_Rogue_004.\"Static Value 0\"",
 					"SF_0",
@@ -37063,6 +38803,14 @@
 				"desc": "{c_gold}Lucky Hit:{/c} Up to a {c_random}[Affix_Value_1|%|]{/c} chance to gain a {c_important}Barrier{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds that absorbs {c_number}[Affix_Flat_Value_1]{/c} damage for each stack of Momentum you have, up to a maximum of {c_number}[Affix_Flat_Value_1 * Affix.\"Static Value 1\"]{/c} damage.",
 				"flavor": "\"The revelation that master tailor Callas was in fact a witch only served to further fuel the desire for her uniquely enchanted legwraps.\" \n- Barrett's Book of Implements",
 				"name": "Temerity",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3307228809": "SF_3"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3307228809": ""
+				},
 				"power_formulas": [
 					"Affix_Value_1#Pants_Unique_Rogue_100",
 					"Affix_Flat_Value_1#Pants_Unique_Rogue_100",
@@ -37076,71 +38824,298 @@
 	"Sorcerer": {
 		"Enchantment": {
 			"Sorcerer_Enchantment_ArcLash": {
-				"desc": "Whenever you are hit, there is a {c_number}[{SF_0} * 100|%|]{/c} chance the attacker is Stunned for {c_number}{SF_1}{/c} second."
+				"desc": "Whenever you are hit, there is a {c_number}[{SF_0} * 100|%|]{/c} chance the attacker is Stunned for {c_number}{SF_1}{/c} second.",
+				"power_buffdurations": {
+					"4263050": "SF_1",
+					"1928688498": 1
+				},
+				"power_dots": {
+					"4263050": 0,
+					"1928688498": 0
+				},
+				"power_formulas": [
+					0.2,
+					1
+				]
 			},
 			"Sorcerer_Enchantment_BallLightning": {
-				"desc": "When {c_important}Crackling Energy{/c} would form, there's a {c_number}[{SF_1} * 100|%|]{/c} chance Ball Lightning is formed instead."
+				"desc": "When {c_important}Crackling Energy{/c} would form, there's a {c_number}[{SF_1} * 100|%|]{/c} chance Ball Lightning is formed instead.",
+				"power_buffdurations": {
+					"1137484338": 1
+				},
+				"power_dots": {
+					"1137484338": 0
+				},
+				"power_formulas": [
+					6,
+					0.1
+				]
 			},
 			"Sorcerer_Enchantment_Blizzard": {
-				"desc": "Every {c_number}{SF_0}{/c} seconds, a Blizzard forms over you and follows you for {c_number}{SF_1}{/c} seconds."
+				"desc": "Every {c_number}{SF_0}{/c} seconds, a Blizzard forms over you and follows you for {c_number}{SF_1}{/c} seconds.",
+				"power_buffdurations": {
+					"944727798": 1
+				},
+				"power_dots": {
+					"944727798": 0
+				},
+				"power_formulas": [
+					15,
+					4
+				]
 			},
 			"Sorcerer_Enchantment_ChainLightning": {
-				"desc": "Chain Lightning forms automatically after spending {c_number}{SF_0}{/c} Mana."
+				"desc": "Chain Lightning forms automatically after spending {c_number}{SF_0}{/c} Mana.",
+				"power_buffdurations": {
+					"2735276507": 1
+				},
+				"power_dots": {
+					"2735276507": 0
+				},
+				"power_formulas": [
+					100
+				]
 			},
 			"Sorcerer_Enchantment_ChargedBolt": {
-				"desc": "Whenever you are hit, there is a {c_number}[{SF_1}*100|%|]{/c} chance to release {c_number}{SF_0}{/c} Charged Bolts."
+				"desc": "Whenever you are hit, there is a {c_number}[{SF_1}*100|%|]{/c} chance to release {c_number}{SF_0}{/c} Charged Bolts.",
+				"power_buffdurations": {
+					"1131260883": 1
+				},
+				"power_dots": {
+					"1131260883": 0
+				},
+				"power_formulas": [
+					5,
+					0.4
+				]
 			},
 			"Sorcerer_Enchantment_FireBall": {
-				"desc": "When you kill an enemy, they explode in a Fireball for {c_number}[{SF_0}*100|%|]{/c} of its damage."
+				"desc": "When you kill an enemy, they explode in a Fireball for {c_number}[{SF_0}*100|%|]{/c} of its damage.",
+				"power_buffdurations": {
+					"2613050357": 1
+				},
+				"power_dots": {
+					"2613050357": 0
+				},
+				"power_formulas": [
+					0.5
+				]
 			},
 			"Sorcerer_Enchantment_Firebolt": {
-				"desc": "{c_label}Lucky Hit:{/c} Your direct damage has up to a {c_number}{SF_4}%{/c} chance to Burn enemies for {c_number}{dot:BURNING}{/c} over {c_number}{SF_2}{/c} seconds."
+				"desc": "{c_label}Lucky Hit:{/c} Your direct damage has up to a {c_number}{SF_4}%{/c} chance to Burn enemies for {c_number}{dot:BURNING}{/c} over {c_number}{SF_2}{/c} seconds.",
+				"power_buffdurations": {
+					"77613195": 1,
+					"2432949205": "SF_2"
+				},
+				"power_dots": {
+					"77613195": 0,
+					"2432949205": "SF_3"
+				},
+				"power_formulas": [
+					0.234,
+					"",
+					8,
+					"SF_0/SF_2",
+					100
+				]
 			},
 			"Sorcerer_Enchantment_Firewall": {
-				"desc": "{c_label}Lucky Hit:{/c} Direct damage has up to a {c_number}{SF_2}%{/c} chance to spawn a Firewall for {c_number}{SF_1}{/c} seconds."
+				"desc": "{c_label}Lucky Hit:{/c} Direct damage has up to a {c_number}{SF_2}%{/c} chance to spawn a Firewall for {c_number}{SF_1}{/c} seconds.",
+				"power_buffdurations": {
+					"2619086698": 1
+				},
+				"power_dots": {
+					"2619086698": 0
+				},
+				"power_formulas": [
+					"",
+					3,
+					15
+				]
 			},
 			"Sorcerer_Enchantment_FlameShield": {
-				"desc": "Flame Shield automatically activates when you take fatal damage. It takes {c_number}{SF_0}{/c} seconds to recharge."
+				"desc": "Flame Shield automatically activates when you take fatal damage. It takes {c_number}{SF_0}{/c} seconds to recharge.",
+				"power_buffdurations": {
+					"117712": "SF_0",
+					"1469942674": 1
+				},
+				"power_dots": {
+					"117712": 0,
+					"1469942674": 0
+				},
+				"power_formulas": [
+					120
+				]
 			},
 			"Sorcerer_Enchantment_FrostNova": {
-				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to make your active {c_important}Conjuration{/c} Skills unleash a Frost Nova."
+				"desc": "{c_label}Lucky Hit:{/c} Critical Strikes have up to a {c_number}{SF_0}%{/c} chance to make your active {c_important}Conjuration{/c} Skills unleash a Frost Nova.",
+				"power_buffdurations": {
+					"2391628918": 1
+				},
+				"power_dots": {
+					"2391628918": 0
+				},
+				"power_formulas": [
+					30
+				]
 			},
 			"Sorcerer_Enchantment_Frostbolt": {
-				"desc": "{c_label}Lucky Hit:{/c} Your direct damage has up to a {c_number}{SF_1}%{/c} chance to {c_important}Chill{/c} for {c_number}{SF_0}%{/c}."
+				"desc": "{c_label}Lucky Hit:{/c} Your direct damage has up to a {c_number}{SF_1}%{/c} chance to {c_important}Chill{/c} for {c_number}{SF_0}%{/c}.",
+				"power_buffdurations": {
+					"121261644": 1,
+					"2409302579": 1
+				},
+				"power_dots": {
+					"121261644": 0,
+					"2409302579": 0
+				},
+				"power_formulas": [
+					30,
+					100
+				]
 			},
 			"Sorcerer_Enchantment_FrozenOrb": {
-				"desc": "Whenever you cast a non-{c_important}Basic{/c} Skill, you have a {c_number}[{SF_0}*100|%|]{/c} chance to launch a Frozen Orb at a Nearby enemy."
+				"desc": "Whenever you cast a non-{c_important}Basic{/c} Skill, you have a {c_number}[{SF_0}*100|%|]{/c} chance to launch a Frozen Orb at a Nearby enemy.",
+				"power_buffdurations": {
+					"1802684906": 1
+				},
+				"power_dots": {
+					"1802684906": 0
+				},
+				"power_formulas": [
+					0.2,
+					18
+				]
 			},
 			"Sorcerer_Enchantment_Hydra": {
-				"desc": "When a Burning enemy is killed, a Hydra head spawns from its corpse for {c_number}{SF_1}{/c} seconds."
+				"desc": "When a Burning enemy is killed, a Hydra head spawns from its corpse for {c_number}{SF_1}{/c} seconds.",
+				"power_buffdurations": {
+					"1783276972": 1
+				},
+				"power_dots": {
+					"1783276972": 0
+				},
+				"power_formulas": [
+					1,
+					3
+				]
 			},
 			"Sorcerer_Enchantment_IceArmor": {
-				"desc": "Upon getting hit, you have a {c_number}[{SF_0}*100|%|]{/c} chance to apply Ice Armor."
+				"desc": "Upon getting hit, you have a {c_number}[{SF_0}*100|%|]{/c} chance to apply Ice Armor.",
+				"power_buffdurations": {
+					"1899382502": 1
+				},
+				"power_dots": {
+					"1899382502": 0
+				},
+				"power_formulas": [
+					0.05
+				]
 			},
 			"Sorcerer_Enchantment_IceBlades": {
-				"desc": "Killing an enemy has a {c_number}[{SF_0} * 100|%|]{/c} chance to conjure Ice Blades."
+				"desc": "Killing an enemy has a {c_number}[{SF_0} * 100|%|]{/c} chance to conjure Ice Blades.",
+				"power_buffdurations": {
+					"473535576": "SF_2",
+					"1061123376": 1
+				},
+				"power_dots": {
+					"473535576": 0,
+					"1061123376": 0
+				},
+				"power_formulas": [
+					0.1,
+					2,
+					1
+				]
 			},
 			"Sorcerer_Enchantment_IceShards": {
-				"desc": "Ice Shards automatically conjure and fly towards {c_important}Frozen{/c} enemies."
+				"desc": "Ice Shards automatically conjure and fly towards {c_important}Frozen{/c} enemies.",
+				"power_buffdurations": {
+					"1979185226": 1
+				},
+				"power_dots": {
+					"1979185226": 0
+				},
+				"power_formulas": [
+					0.5,
+					8
+				]
 			},
 			"Sorcerer_Enchantment_Incinerate": {
-				"desc": "{c_label}Lucky Hit:{/c} Direct damage has up to a {c_number}{SF_5}%{/c} chance to spawn a rotating Incinerate beam."
+				"desc": "{c_label}Lucky Hit:{/c} Direct damage has up to a {c_number}{SF_5}%{/c} chance to spawn a rotating Incinerate beam.",
+				"power_buffdurations": {
+					"469405181": 1
+				},
+				"power_dots": {
+					"469405181": 0
+				},
+				"power_formulas": [
+					"(92 / 15) / SF_3",
+					"1/5 * Attacks_Per_Second_Total",
+					"360 / (SF_0 / SF_1)",
+					0.5,
+					"SF_0",
+					8
+				]
 			},
 			"Sorcerer_Enchantment_LightningSpear": {
-				"desc": "Absorbing {c_important}Crackling Energy{/c} has a {c_number}[{SF_0}*100|%|]{/c} chance to conjure a Lightning Spear."
+				"desc": "Absorbing {c_important}Crackling Energy{/c} has a {c_number}[{SF_0}*100|%|]{/c} chance to conjure a Lightning Spear.",
+				"power_buffdurations": {
+					"3592213245": 1
+				},
+				"power_dots": {
+					"3592213245": 0
+				},
+				"power_formulas": [
+					0.1
+				]
 			},
 			"Sorcerer_Enchantment_Meteor": {
-				"desc": "Every time an enemy takes Burning damage, there's a {c_number}[{SF_0} * 100|%|]{/c} chance a Meteor falls on them."
+				"desc": "Every time an enemy takes Burning damage, there's a {c_number}[{SF_0} * 100|%|]{/c} chance a Meteor falls on them.",
+				"power_buffdurations": {
+					"117712": "SF_1",
+					"183905472": 1
+				},
+				"power_dots": {
+					"117712": 0,
+					"183905472": 0
+				},
+				"power_formulas": [
+					0.03,
+					2
+				]
 			},
 			"Sorcerer_Enchantment_Spark": {
-				"desc": "Killing an enemy has a {c_number}[{SF_0} * 100|%|]{/c} chance to form a {c_important}Crackling Energy{/c}."
+				"desc": "Killing an enemy has a {c_number}[{SF_0} * 100|%|]{/c} chance to form a {c_important}Crackling Energy{/c}.",
+				"power_buffdurations": {
+					"1928688498": 1
+				},
+				"power_dots": {
+					"1928688498": 0
+				},
+				"power_formulas": [
+					0.1
+				]
 			},
 			"Sorcerer_Enchantment_Teleport": {
-				"desc": "{c_important}Evade{/c} is replaced with Teleport on a {c_number}[{SF_0}|1|]{/c} second cooldown."
+				"desc": "{c_important}Evade{/c} is replaced with Teleport on a {c_number}[{SF_0}|1|]{/c} second cooldown.",
+				"power_buffdurations": {
+					"3846166563": 1
+				},
+				"power_dots": {
+					"3846166563": 0
+				},
+				"power_formulas": [
+					"PowerTag.Sorcerer_Enchantment_Teleport_Active.\"Script Formula 0\""
+				]
 			},
 			"Sorcerer_Enchantment_Teleport_Active": {
 				"desc": "{c_red}Teleport description here - since this is a skill that replaces your Evade button, you should never see this.{/c}",
-				"name": "Teleport - Evade Version"
+				"name": "Teleport - Evade Version",
+				"power_formulas": [
+					"PowerTag.Sorcerer_Teleport.\"Script Formula 28\"",
+					"PowerTag.Sorcerer_Teleport.\"Script Formula 1\""
+				]
 			}
 		},
 		"Legendary": {
@@ -37167,6 +39142,12 @@
 				"category": 0,
 				"desc": "{c_important}Meteor{/c_important} deals {c_random}x[Affix_Value_1|%|]{/c_number} increased Critical Strike Damage against {c_important}Healthy{/c} targets.",
 				"name": "of Three Curses",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_008/100"
 				]
@@ -37200,6 +39181,14 @@
 				"category": 4,
 				"desc": "Collecting {c_important}Crackling Energy{/c} increases your Movement Speed by {c_random}[Affix_Value_1|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "Charged",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2547981677": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2547981677": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_027 / 100",
 					"Affix.legendary_sorc_027.\"Static Value 0\""
@@ -37223,6 +39212,12 @@
 				"category": 0,
 				"desc": "{c_important}Charged Bolts{/c} pierce, but deal {c_random}x[Affix_Value_1|%|]{/c} less damage.",
 				"name": "Rolling Thunder",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_037 / 100"
 				]
@@ -37237,6 +39232,12 @@
 				"category": 0,
 				"desc": "You may have {c_number}[Affix.\"Static Value 0\"]{/c} additional {c_important}Hydra{/c} active, but {c_important}Hydra's{/c} Mana cost is increased by {c_random}[Affix_Value_1|%|]{/c}.",
 				"name": "Hydra Master's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"PowerTag.Sorcerer_Hydra.\"Script Formula 8\""
 				]
@@ -37251,6 +39252,14 @@
 				"category": 0,
 				"desc": "{c_important}Meteorites{/c} fall around you during {c_important}Inferno{/c}, dealing {c_random}[Affix_Flat_Value_1]{/c} Fire damage on impact. \nYour {c_important}Meteorites{/c} {c_important}Immobilize{/c} enemies for {c_number}[Affix_Value_2]{/c} seconds.",
 				"name": "of Armageddon",
+				"power_buffdurations": {
+					"639386033": "SF_0",
+					"844134919": 1
+				},
+				"power_dots": {
+					"639386033": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_2#legendary_sorc_043"
 				]
@@ -37278,6 +39287,12 @@
 				"category": 2,
 				"desc": "Burning Damage has a {c_random}x[Affix_Value_1|%|]{/c} increased chance to trigger Lucky Hits.",
 				"name": "of Blazing Fortune",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_102 / 100"
 				]
@@ -37293,6 +39308,14 @@
 				"category": 3,
 				"desc": "Killing a Burning enemy grants {c_random}x[Affix_Value_1|%|]{/c} Mana Cost reduction for {c_number}[Affix.\"Static Value 0\"]{/c} seconds, up to {c_random}x[Affix_Value_1*Affix.\"Static Value 1\"|%|]{/c}.",
 				"name": "Incendiary",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3346879043": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3346879043": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_103 / 100",
 					"Affix.legendary_sorc_103.\"Static Value 0\"",
@@ -37309,6 +39332,16 @@
 				"category": 2,
 				"desc": "Every {c_number}[Affix.\"Static Value 0\"]{/c} times you deal Direct Fire Damage to an enemy, they are Immobilized for {c_random}[Affix_Value_1]{/c} seconds.",
 				"name": "of Seared Flesh",
+				"power_buffdurations": {
+					"639386033": "SF_1",
+					"844134919": 1,
+					"3454477641": 60
+				},
+				"power_dots": {
+					"639386033": 0,
+					"844134919": 0,
+					"3454477641": ""
+				},
 				"power_formulas": [
 					"Affix.legendary_sorc_104.\"Static Value 0\"",
 					"Affix_Value_1#legendary_sorc_104"
@@ -37366,6 +39399,14 @@
 				"category": 0,
 				"desc": "While {c_important}Ice Armor{/c} is active, you leave behind exploding {c_important}Ice Spikes{/c} that deal {c_random}[Affix_Flat_Value_1]{/c} damage. Your {c_important}Ice Spikes{/c} {c_important}Chill{/c} enemies for {c_number}[Affix_Value_1|%|]{/c}.",
 				"name": "of the Frozen Wake",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3799040413": "SF_0"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3799040413": 0
+				},
 				"power_formulas": [
 					"PowerTag.Sorcerer_IceArmor.\"Script Formula 1\"",
 					"PowerTag.Sorcerer_IceSpike.\"Script Formula 3\"",
@@ -37388,6 +39429,14 @@
 				"category": 1,
 				"desc": "While {c_important}Deep Freeze{/c} is active, you restore {c_random}[Affix_Value_1|%|]{/c} of your Maximum Life and Mana.",
 				"name": "Encased",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3767063485": "SF_0 + 0.5"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3767063485": 0
+				},
 				"power_formulas": [
 					"PowerTag.Sorcerer_DeepFreeze.\"Script Formula 3\"",
 					"Affix_Value_1#legendary_sorc_111 / 100",
@@ -37401,6 +39450,12 @@
 				"category": 2,
 				"desc": "Your Lucky Hit Chance is increased by {c_random}+[Affix_Value_1|%|]{/c} while you have a Barrier active.",
 				"name": "of Frozen Fortune",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_112 / 100"
 				]
@@ -37415,10 +39470,19 @@
 				"category": 0,
 				"desc": "When you {c_important}Freeze{/c} an enemy there is a {c_random}[Affix_Value_1|%|]{/c} chance they become {c_important}Vulnerable{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Biting Cold",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_113 / 100",
 					"Affix.legendary_sorc_113.\"Static Value 0\""
-				]
+				],
+				"power_payloads": {
+					"3437839728": 0
+				}
 			},
 			"legendary_sorc_114": {
 				"affix_formulas": [
@@ -37427,6 +39491,14 @@
 				"category": 1,
 				"desc": "Enemies that die while {c_important}Frozen{/c} have a {c_random}[Affix_Value_1|%|]{/c} chance to unleash a {c_important}Frost Nova{/c}.",
 				"name": "Frozen Torrent",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2674715729": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2674715729": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_114 / 100"
 				]
@@ -37438,6 +39510,14 @@
 				"category": 0,
 				"desc": "You deal {c_random}x[Affix_Value_1|%|]{/c} increased damage to {c_important}Vulnerable{/c} enemies while you have a {c_important}Barrier{/c}.",
 				"name": "Storm Swell",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2617327188": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2617327188": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_115 / 100"
 				]
@@ -37452,6 +39532,14 @@
 				"category": 0,
 				"desc": "While {c_important}Deep Freeze{/c} is active, exploding {c_important}Ice Spikes{/c} form in the area, dealing {c_random}[Affix_Flat_Value_1]{/c} Cold damage. Your {c_important}Ice Spikes{/c} have a {c_number}[Affix_Value_1 * 100|%|]{/c} increased explosion radius.",
 				"name": "of the Frozen Tundra",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3799040413": "SF_0"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3799040413": 0
+				},
 				"power_formulas": [
 					"PowerTag.Sorcerer_DeepFreeze.\"Script Formula 3\"",
 					"PowerTag.Sorcerer_DeepFreeze.\"Script Formula 7\"",
@@ -37466,6 +39554,14 @@
 				"category": 3,
 				"desc": "While {c_important}Unstable Currents{/c} is active, your passive Mana Regeneration is increased by {c_random}[Affix_Value_1|%|]{/c}.",
 				"name": "of Volatile Currents",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4076390101": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4076390101": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_117 / 100"
 				]
@@ -37504,6 +39600,12 @@
 				"category": 0,
 				"desc": "{c_important}Lightning Spear{/c} has a {c_random}[Affix_Value_1|%|]{/c} chance to spawn an additional {c_important}Lightning Spear{/c} when you cast it.",
 				"name": "of Splintering Energy",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_121 / 100"
 				]
@@ -37548,6 +39650,12 @@
 				"category": 3,
 				"desc": "Casting an {c_important}Ultimate{/c} Skill restores {c_random}[Affix_Value_1]{/c} Mana.",
 				"name": "Prodigy's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_125"
 				]
@@ -37560,6 +39668,12 @@
 				"category": 1,
 				"desc": "Taking direct damage has a {c_random}[Affix_Value_1|%|]{/c} chance to reset the Cooldown of one of your {c_important}Defensive{/c} Skills.",
 				"name": "of the Unwavering",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_126 / 100"
 				]
@@ -37574,6 +39688,12 @@
 				"category": 0,
 				"desc": "{c_important}Core{/c} or {c_important}Mastery{/c} Skills cast at or above {c_number}[Affix.\"Static Value 0\"]{/c} Mana gain a {c_random}[Affix_Value_1|1%|]{/c} increased Critical Strike Chance.",
 				"name": "Elementalist's",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_127 /100",
 					"Affix.legendary_sorc_127.\"Static Value 0\""
@@ -37589,6 +39709,16 @@
 				"category": 3,
 				"desc": "Your passive Mana Regeneration is increased by {c_random}[Affix_Value_1|%|]{/c} if you have not taken damage in the last {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"name": "of Concentration",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2095241667": "SF_1",
+					"2761021679": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2095241667": 0,
+					"2761021679": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_128 / 100",
 					"Affix.legendary_sorc_128.\"Static Value 0\""
@@ -37601,6 +39731,12 @@
 				"category": 0,
 				"desc": "You deal {c_random}[Affix_Value_1|%|]{/c} more damage to Immobilized, Stunned, or {c_important}Frozen{/c} enemies.",
 				"name": "of Control",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_129 / 100"
 				]
@@ -37612,6 +39748,12 @@
 				"category": 0,
 				"desc": "Your Critical Strike Chance is increased by {c_random}[Affix_Value_1|%|]{/c} of your Movement Speed bonus.",
 				"name": "Deft Magus'",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_130 / 100",
 					"Movement_Bonus_Total * SF_0"
@@ -37624,6 +39766,12 @@
 				"category": 1,
 				"desc": "You take {c_random}[Affix_Value_1|%|]{/c} less damage from Crowd Controlled or {c_important}Vulnerable{/c} enemies.",
 				"name": "Everliving",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_131/100"
 				]
@@ -37635,6 +39783,14 @@
 				"category": 3,
 				"desc": "Casting a {c_important}Basic{/c} skill reduces the Mana cost of your next {c_important}Core{/c} skill by {c_random}[Affix_Value_1|%|]{/c}.",
 				"name": "of Efficiency",
+				"power_buffdurations": {
+					"411101195": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"411101195": 0,
+					"844134919": 0
+				},
 				"power_formulas": [
 					"Affix_Value_1#legendary_sorc_132/100"
 				]
@@ -46490,13 +48646,7 @@
 				"category": 2,
 				"desc": "After using {c_important}Teleport{/c}, Close enemies are Pulled to you and Stunned for {c_random}[Affix_Value_1|1|]{/c} seconds, but {c_important}Teleport's{/c} Cooldown is increased by {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
 				"flavor": "The power you have is never enough.",
-				"name": "Raiment of the Infinite",
-				"power_formulas": [
-					0.1,
-					4,
-					"Affix_Value_1#Chest_Unique_Sorc_002",
-					"Affix.Chest_Unique_Sorc_002.\"Static Value 0\" / 100"
-				]
+				"name": "Raiment of the Infinite"
 			},
 			"Gloves_Unique_Sorc_002": {
 				"affix_formulas": [

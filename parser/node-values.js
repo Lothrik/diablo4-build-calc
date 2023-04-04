@@ -237,8 +237,7 @@ let nodeValues = {
 				""
 			],
 			"Overload": [
-				"20",
-				""
+				"20"
 			]
 		}
 	},
