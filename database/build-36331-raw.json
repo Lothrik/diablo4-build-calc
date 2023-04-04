@@ -22971,6 +22971,10 @@
 					"power_payloads": {
 						"4032599903": "SF_0"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Corpse"
+					],
 					"skill_desc": "Corpse Explosion's radius is increased by {c_number}[{SF_1}*100|%|]{/c}.",
 					"skill_name": "Enhanced Corpse Explosion"
 				},
@@ -23199,6 +23203,10 @@
 						"2711495068": "SF_5 * (1+SF_9)",
 						"3108599584": "SF_5"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Curse"
+					],
 					"skill_desc": "Iron Maiden no longer costs Essence. Instead, gain {c_number}{SF_6}{/c} Essence for each enemy Cursed. Does not work with enemies who are already cursed with Iron Maiden.",
 					"skill_name": "Enhanced Iron Maiden"
 				},
@@ -23248,6 +23256,10 @@
 					],
 					"power_mod_id": 2,
 					"power_name": "Necromancer_Decrepify",
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Curse"
+					],
 					"skill_desc": "{c_label}Lucky Hit:{/c} Enemies hit while afflicted with Decrepify have up to a {c_number}[{SF_5}*100|%|]{/c} chance to be Stunned for {c_number}{buffduration:MOD_STUN}{/c} seconds.",
 					"skill_name": "Enhanced Decrepify"
 				},
@@ -23302,6 +23314,10 @@
 						"3437839728": 0,
 						"4032599903": "SF_4"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Corpse"
+					],
 					"skill_desc": "Enemies who are in range of Corpse Tendrils are Slowed by {c_number}[{SF_10}*100|%|]{/c} before being pulled.",
 					"skill_name": "Enhanced Corpse Tendrils"
 				},
@@ -23649,6 +23665,10 @@
 					"power_payloads": {
 						"4032599903": "SF_0"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Corpse"
+					],
 					"skill_desc": "{if:SF_10}{c_label}Essence Cost:{/c} {c_resource}{Resource Cost}{/c}\n{/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:20}%{/c}\n{/if}{if:Mod.Miasma}Release a vile miasma from a Corpse, dealing {c_number}{dot:MIASMA_DOT_TOOLTIP}{/c} Shadow Damage over {c_number}{buffduration:MIASMA_DOT_TOOLTIP}{/c} seconds.{else}Detonate a Corpse, dealing {c_number}{payload:DAMAGE}{/c} damage to surrounding enemies.{/if}",
 					"skill_name": "Corpse Explosion",
 					"skill_rankup_desc": "{icon:bullet,1.2} Damage {icon:arrow,1.2} {if:Mod.Miasma}{c_number}{dot:MIASMA_DOT_TOOLTIP}{/c}{else}{c_number}{payload:DAMAGE}{/c}{/if}"
@@ -24302,6 +24322,10 @@
 						"2711495068": "SF_5 * (1+SF_9)",
 						"3108599584": "SF_5"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Curse"
+					],
 					"skill_desc": "{c_label}Essence Cost: {/c}{c_resource}{Resource Cost}{/c}\nCurse the target area. Enemies afflicted by Iron Maiden take {c_number}{payload:CURSE_DAMAGE}{/c} damage each time they deal direct damage. Lasts {c_number}{buffduration:IRONMAIDEN_CURSE}{/c} seconds.",
 					"skill_name": "Iron Maiden",
 					"skill_rankup_desc": "{icon:bullet,1.2} Damage {icon:arrow,1.2} {c_number}{payload:CURSE_DAMAGE}{/c}"
@@ -24355,6 +24379,10 @@
 						"3437839728": 0,
 						"4032599903": "SF_4"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Corpse"
+					],
 					"skill_desc": "{c_label}Cooldown:{/c} {c_resource}[{Cooldown Time}|1|]{/c}\n{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Veins burst out of a Corpse, pulling in enemies, Stunning them for {c_number}{buffduration:STUN}{/c} seconds, and dealing {c_number}{payload:DAMAGE}{/c} damage to them. Does not consume the Corpse.",
 					"skill_name": "Corpse Tendrils",
 					"skill_rankup_desc": "{icon:bullet,1.2} Damage {icon:arrow,1.2} {c_number}{payload:DAMAGE}{/c}\n{icon:bullet,1.2} Cooldown {icon:arrow,1.2} {c_number}[{Cooldown Time}|1|]{/c}"
@@ -24403,6 +24431,10 @@
 					],
 					"power_mod_id": 1,
 					"power_name": "Necromancer_Decrepify",
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Curse"
+					],
 					"skill_desc": "When you or your Minions hit an enemy afflicted with Decrepify below {c_number}[{SF_9}*100|%|]{/c} Life, they are instantly killed. Does not work on Bosses.",
 					"skill_name": "Horrid Decrepify"
 				},
@@ -24467,6 +24499,10 @@
 					"power_payloads": {
 						"4032599903": "SF_0"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Corpse"
+					],
 					"skill_desc": "Corpse Explosion deals {c_number}x[{SF_15}*100|%|]{/c} increased damage to enemies that are Slowed, Stunned or Vulnerable.",
 					"skill_name": "Horrid Corpse Explosion"
 				},
@@ -24782,6 +24818,10 @@
 						"2711495068": "SF_5 * (1+SF_9)",
 						"3108599584": "SF_5"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Curse"
+					],
 					"skill_desc": "Heal for {c_number}[{SF_7}*100|%|]{/c} of your maximum Life when an enemy dies while afflicted with Iron Maiden.",
 					"skill_name": "Abhorrent Iron Maiden"
 				},
@@ -26416,6 +26456,10 @@
 						"PowerTag.ParagonGlyph_073.\"Script Formula 0\""
 					],
 					"power_name": "Necromancer_Decrepify",
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Curse"
+					],
 					"skill_desc": "{c_label}Essence Cost: {/c}{c_resource}{Resource Cost}{/c}\nCurse the target area. Enemies afflicted by Decrepify are Slowed by {c_number}[{SF_3}*100|%|]{/c} and deal {c_number}[{SF_4}*100|%|]{/c} less damage for {c_number}{buffduration:DECREPIFY_CURSE}{/c} seconds.",
 					"skill_name": "Decrepify",
 					"skill_rankup_desc": "{icon:bullet,1.2} Curse Duration {icon:arrow,1.2} {c_number}{buffduration:DECREPIFY_CURSE}{/c}"
@@ -26866,6 +26910,10 @@
 					],
 					"power_mod_id": 0,
 					"power_name": "Necromancer_Decrepify",
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Curse"
+					],
 					"skill_desc": "{c_label}Lucky Hit:{/c} Enemies hit while afflicted with Decrepify have up to a {c_number}[{SF_7}*100|%|]{/c} chance to reduce your active cooldowns by {c_number}[{SF_8}|1|]{/c} seconds.",
 					"skill_name": "Abhorrent Decrepify"
 				},
@@ -27306,6 +27354,10 @@
 						"3437839728": 0,
 						"4032599903": "SF_4"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Corpse"
+					],
 					"skill_desc": "Enemies slain while Stunned by Corpse Tendrils have a {c_number}[{SF_9} * 100|%|]{/c} chance to drop a {c_important}Blood Orb{/c}.",
 					"skill_name": "Abhorrent Corpse Tendrils"
 				},
@@ -27359,6 +27411,10 @@
 						"3437839728": 0,
 						"4032599903": "SF_4"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Corpse"
+					],
 					"skill_desc": "Enemies Stunned by Corpse Tendrils take {c_number}x[{SF_11} * 100|%|]{/c} more damage from {c_important}Corpse Explosion{/c}.",
 					"skill_name": "Horrid Corpse Tendrils"
 				},
@@ -27481,6 +27537,10 @@
 						"2711495068": "SF_5 * (1+SF_9)",
 						"3108599584": "SF_5"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Curse"
+					],
 					"skill_desc": "When at least {c_number}{SF_8}{/c} enemies are afflicted by Iron Maiden, its damage is increased by {c_number}x[{SF_9}*100|%|]{/c}.",
 					"skill_name": "Horrid Iron Maiden"
 				},
@@ -27545,6 +27605,10 @@
 					"power_payloads": {
 						"4032599903": "SF_0"
 					},
+					"power_tags_list": [
+						"Skill_Primary_Corruption",
+						"Skill_Corpse"
+					],
 					"skill_desc": "Instead of exploding, Corpse Explosion releases a vile miasma dealing {c_number}{dot:MIASMA_DOT_TOOLTIP}{/c} Shadow Damage over {c_number}{SF_12}{/c} seconds.",
 					"skill_name": "Abhorrent Corpse Explosion"
 				},
@@ -28257,7 +28321,7 @@
 				"name": "Deathspeaker's Pendant"
 			},
 			"Boots_Unique_Necro_100": {
-				"affix_formulas": [
+				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(6, 0.30, 0.42)"
 				],
 				"affix_static_values": [
@@ -28367,7 +28431,7 @@
 				]
 			},
 			"Ring_Unique_Necro_100": {
-				"affix_formulas": [
+				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 3, 4)"
 				],
 				"affix_static_values": [
@@ -29086,7 +29150,11 @@
 			},
 			"Rogue_Legendary_006": {
 				"desc": "Your {c_important}Ranged{/c} skills grant your next {c_important}Melee{/c} skill {c_number}x[{SF_0}*100|%|]{/c} increased damage.\n\nYour {c_important}Melee{/c} skills grant your next {c_important}Ranged{/c} skill {c_number}x[{SF_0}*100|%|]{/c} increased damage.",
-				"name": "Tricks of Trade"
+				"name": "Tricks of Trade",
+				"tags": [
+					"Skill_Ranged",
+					"Skill_Melee"
+				]
 			},
 			"Rogue_Legendary_007": {
 				"desc": "You deal {c_number}x[{SF_0}*100|%|]{/c} increased damage for each Nearby target that is Crowd Controlled, up to {c_number}x[{SF_0} * 100 * {SF_1}|%|]{/c}.",
@@ -29320,6 +29388,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_label}Energy Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}\n{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Unleash a flurry of stabs and slashes, dealing {c_number}{payload:DAMAGE_TOOLTIP}{/c} damage to enemies in front of you.{if:SF_12}\n\nCombo Points increase damage and grant a {c_number}+[{SF_10}*100|%|]{/c} Attack Speed bonus:\n {c_label}1:{/c} {c_number}{payload:DAMAGE_TOOLTIP_1CP}{/c} damage, {c_number}[{buffduration:ATTACK_SPEED}|1|]{/c} second bonus\n {c_label}2:{/c} {c_number}{payload:DAMAGE_TOOLTIP_2CP}{/c} damage, {c_number}[{buffduration:ATTACK_SPEED}*2|1|]{/c} second bonus\n {c_label}3:{/c} {c_number}{payload:DAMAGE_TOOLTIP_3CP}{/c} damage, {c_number}[{buffduration:ATTACK_SPEED}*3|1|]{/c} second bonus{/if}",
@@ -29390,7 +29459,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Ranged"
 					],
 					"skill_desc": "{if:SF_16}{c_label}Generate Combo Point:{/c} {c_resource}{SF_15}{/c}\n{/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Fire an arrow that seeks an enemy, dealing {c_number}{payload:IMPACT}{/c} damage and increasing your Critical Strike Chance against them by {c_number}+[{SF_9}*100|%|]{/c} for {c_number}{buffduration:AMPLIFY_CRIT_CHANCE}{/c} seconds, up to {c_number}+[{SF_9}*{SF_10}*100|%|]{/c}.",
 					"skill_name": "Heartseeker",
@@ -29452,7 +29522,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Melee"
 					],
 					"skill_desc": "Moving through enemies while {c_important}Blade Shift{/c} is active refreshes its duration. After moving through enemies {c_number}{SF_4}{/c} times, your next {c_important}Blade Shift{/c} will Immobilize enemies for {c_number}{buffduration:MOD_IMMOBILIZE}{/c} seconds.",
 					"skill_name": "Fundamental Blade Shift"
@@ -29769,7 +29840,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Melee"
 					],
 					"skill_desc": "Damaging an enemy with {c_important}Blade Shift{/c} grants {c_number}+[{SF_8}*100|%|]{/c} Movement Speed while {c_important}Blade Shift{/c} is active, up to {c_number}+[{SF_8}*{SF_15}*100|%|]{/c}.",
 					"skill_name": "Enhanced Blade Shift"
@@ -29900,7 +29972,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Melee"
 					],
 					"skill_desc": "Damaging a Crowd Controlled or {c_important}{u}Injured{/u}{/c} enemy with {c_important}Invigorating Strike{/c} increases its Energy Regeneration bonus to {c_number}x[({SF_4}+{SF_6})*100|%|]{/c}.",
 					"skill_name": "Enhanced Invigorating Strike"
@@ -29980,7 +30053,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Ranged"
 					],
 					"skill_desc": "Gain {c_number}{SF_9}{/c} Energy when {c_important}Puncture{/c} damages a Crowd Controlled enemy.",
 					"skill_name": "Enhanced Puncture"
@@ -30052,7 +30126,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Ranged"
 					],
 					"skill_desc": "When {c_important}Heartseeker{/c} Critically Strikes, gain {c_number}+[{SF_22}*100|%|]{/c} Attack Speed for {c_number}{SF_23}{/c} seconds. Double this amount if the enemy is {c_important}Vulnerable{/c}.",
 					"skill_name": "Enhanced Heartseeker"
@@ -30121,6 +30196,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Basic",
+						"Skill_Ranged",
 						"Keyword_Vulnerable"
 					],
 					"skill_desc": "Every {c_number}3rd{/c} cast of {c_important}Forceful Arrow{/c} additionally has a {c_number}+[{SF_14}*100|%|]{/c} increased Critical Strike Chance.",
@@ -30201,6 +30277,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_important}Twisting Blades{/c} deals {c_number}x[{SF_16}*100|%|]{/c} increased damage when returning.",
@@ -30279,6 +30356,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Each time {c_important}Flurry{/c} damages a Crowd Controlled or {c_important}{u}Vulnerable{/u}{/c} enemy, you are Healed for {c_number}[{SF_8}*100|%|]{/c} of your Maximum Life, up to {c_number}[{SF_6}*{SF_8}*100|%|]{/c} per cast.",
@@ -30355,6 +30433,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_important}Penetrating Shot{/c} deals {c_number}x[{SF_6}*100|%|]{/c} increased damage per enemy it pierces.",
@@ -30427,6 +30506,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Each subsequent arrow from {c_important}Rapid Fire{/c} has {c_number}+[{SF_19}*100|%|]{/c} increased Critical Strike Chance, up to {c_number}+[{SF_19}*{SF_10}*100|%|]{/c} for the {c_number}{SF_10}th{/c} arrow",
@@ -30516,6 +30596,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_important}Barrage's{/c} ricochet chance is increased to {c_number}100%{/c} for arrows that damage a {c_important}{u}Vulnerable{/u}{/c} enemy or Critically Strike any enemy.",
@@ -30588,6 +30669,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Agility",
+						"Skill_Melee",
 						"Keyword_Unstoppable",
 						"Skill_Imbueable"
 					],
@@ -30647,7 +30729,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Melee"
 					],
 					"skill_desc": "{c_important}Invigorating Strike{/c} additionally grants {c_number}+[{SF_14} * 100|%|]{/c} Lucky Hit Chance. Hitting a Crowd Controlled or {c_important}{u}Injured{/u}{/c} enemy increases this bonus to {c_number}+[{SF_14} * {SF_15} *100|%|]{/c} Lucky Hit Chance.",
 					"skill_name": "Primary Invigorating Strike"
@@ -30726,6 +30809,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Agility",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Enemies damaged by {c_important}Dash{/c} take {c_number}x[{SF_20}*100|%|]{/c} increased Critical Strike Damage for {c_number}{buffduration:BONUS_CRIT_DAMAGE}{/c} seconds.",
@@ -31286,6 +31370,9 @@
 						"Affix_Value_1#2HBow_Unique_Rogue_001"
 					],
 					"power_name": "Rogue_Talent_Buildaround_01",
+					"power_tags_list": [
+						"Skill_Ranged"
+					],
 					"skill_desc": "Critical Strikes with {c_important}Ranged{/c} Skills grant you {c_important}Precision{/c}. You gain {c_number}x[{SF_0} * 100|%|]{/c} increased Critical Strike Damage per stack of {c_important}Precision{/c}, up to a maximum of {c_number}x[({SF_0}*100)*{SF_1}|%|]{/c}.\n\nWhen you reach maximum {c_important}Precision{/c}, your next {c_important}Ranged{/c} Skill is a guaranteed Critical Strike that deals {c_number}x[{SF_2} * 100|%|]{/c} increased Critical Strike Damage, then consumes all stacks of {c_important}Precision{/c}.",
 					"skill_name": "Precision"
 				},
@@ -31360,6 +31447,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "If {c_important}Flurry{/c} hits any {c_important}{u}Vulnerable{/u}{/c} enemy it will make all enemies hit by that cast {c_important}{u}Vulnerable{/u}{/c} for {c_number}{SF_7}{/c} seconds.",
@@ -31447,6 +31535,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Every {c_number}3rd{/c} cast of {c_important}Barrage{/c} makes enemies {c_important}{u}Vulnerable{/u}{/c} for {c_number}{SF_8}{/c} seconds.",
@@ -31516,6 +31605,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Agility",
+						"Skill_Melee",
 						"Keyword_Unstoppable",
 						"Skill_Imbueable"
 					],
@@ -31587,6 +31677,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Agility",
+						"Skill_Melee",
 						"Keyword_Unstoppable",
 						"Skill_Imbueable"
 					],
@@ -31739,6 +31830,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_label}Energy Cost:{/c} {c_resource}{Resource Cost}{/c}\n{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Fire an arrow that pierces through all enemies in a line, dealing {c_number}{payload:IMPACT}{/c} damage.{if:SF_12}\n\nCombo Points increase damage and grant a chance to Knock Down for {c_number}{buffduration:KNOCKDOWN}{/c} seconds:\n {c_label}1:{/c} {c_number}{payload:DAMAGE_TOOLTIP_1CP}{/c} damage, {c_number}[{SF_10}*100|%|]{/c} chance\n {c_label}2:{/c} {c_number}{payload:DAMAGE_TOOLTIP_2CP}{/c} damage, {c_number}[{SF_10}*100*2|%|]{/c} chance\n {c_label}3:{/c} {c_number}{payload:DAMAGE_TOOLTIP_3CP}{/c} damage, {c_number}[{SF_10}*100*3|%|]{/c} chance{/if}",
@@ -31862,7 +31954,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Melee"
 					],
 					"skill_desc": "{if:SF_11}{c_label}Generate Combo Point:{/c} {c_resource}{SF_10}{/c}\n{/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Quickly stab your victim for {c_number}{payload:IMPACT}{/c} damage and shift, allowing you to move freely through enemies for {c_number}{buffduration:MOVE_FREELY}{/c} seconds.",
 					"skill_name": "Blade Shift",
@@ -31940,7 +32033,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Ranged"
 					],
 					"skill_desc": "{if:SF_13}{c_label}Generate Combo Point:{/c} {c_resource}1{/c}\n{/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Throw blades a short distance, dealing {c_number}{payload:IMPACT}{/c} damage. Every {c_number}{SF_20}rd{/c} cast Slows enemies by {c_number}[{SF_15}*100|%|]{/c} for {c_number}{buffduration:SLOW}{/c} seconds. Critical Strikes will always Slow.",
 					"skill_name": "Puncture",
@@ -32055,7 +32149,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Ranged"
 					],
 					"skill_desc": "Every {c_number}{SF_20}rd{/c} cast of {c_important}Puncture{/c} will also ricochet up to {c_number}2{/c} times. Critical Strikes will always ricochet.",
 					"skill_name": "Primary Puncture"
@@ -32240,6 +32335,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Agility",
+						"Skill_Melee",
 						"Keyword_Unstoppable",
 						"Skill_Imbueable"
 					],
@@ -32482,6 +32578,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Whenever a single cast of {c_important}Barrage{/c} ricochets at least {c_number}{SF_36}{/c} times, your next cast gains {c_number}+[{SF_35}*100|%|]{/c} increased Critical Strike Chance.",
@@ -32560,6 +32657,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_label}Energy Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}\n{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}|%|]{/c}\n{/if}Impale an enemy with your blades, dealing {c_number}{payload:IMPACT}{/c} damage and making them take {c_number}x[{SF_18}*100|%|]{/c} increased damage while impaled. After {c_number}{buffduration:RETURN_TIMER}{/c} seconds the blades return to you, piercing enemies for {c_number}{payload:RETURN_HIT}{/c} damage.{if:SF_13}\n\nCombo Points increase damage and grant a Movement Speed bonus:\n {c_label}1:{/c} {c_number}{payload:DAMAGE_TOOLTIP_1CP}{/c} damage, {c_number}[{SF_11}*100|%|]{/c} bonus\n {c_label}2:{/c} {c_number}{payload:DAMAGE_TOOLTIP_2CP}{/c} damage, {c_number}[{SF_11}*100*2|%|]{/c} bonus\n {c_label}3:{/c} {c_number}{payload:DAMAGE_TOOLTIP_3CP}{/c} damage, {c_number}[{SF_11}*100*3|%|]{/c} bonus{/if}",
@@ -32630,7 +32728,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Ranged"
 					],
 					"skill_desc": "{c_important}Heartseeker{/c} also increases the Critical Strike Damage the enemy takes by {c_number}+[{SF_12}*100|%|]{/c} for {c_number}{SF_11}{/c} seconds, up to {c_number}+[{SF_12}*{SF_10}*100|%|]{/c}.",
 					"skill_name": "Fundamental Heartseeker"
@@ -32803,6 +32902,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Enemies are Immobilized while impaled with {c_important}Twisting Blades{/c}.",
@@ -32880,6 +32980,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Agility",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_important}Dash{/c} Slows enemies it hits by {c_number}[{SF_19}* 100|%|]{/c} for {c_number}{buffduration:SLOW}{/c} seconds. Any enemy already Slowed will be Stunned for {c_number}{SF_12}{/c} seconds instead.",
@@ -32957,6 +33058,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Agility",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_label}Charges:{/c} {c_resource}{SF_22}{/c}\n{c_label}Charge Cooldown:{/c} {c_resource}[{Recharge Time}|1|]{/c_resource} seconds \n{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Dash forward and slash enemies for {c_number}{payload:IMPACT}{/c} damage.",
@@ -33177,6 +33279,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "If {c_important}Penetrating Shot{/c} damages at least {c_number}{SF_20}{/c} enemies, your next {c_important}Penetrating Shot{/c} has a {c_number}+[{SF_21}*100|%|]{/c} increased Critical Strike Chance.",
@@ -33315,6 +33418,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Basic",
+						"Skill_Ranged",
 						"Keyword_Vulnerable"
 					],
 					"skill_desc": "{if:SF_12}{c_label}Generate Combo Point:{/c} {c_resource}{SF_10}{/c}\n{/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Fire a powerful arrow at an enemy, dealing {c_number}{payload:IMPACT}{/c} damage. Every {c_number}3rd{/c} cast makes the enemy {c_important}{u}Vulnerable{/u}{/c} for {c_number}{SF_15}{/c} seconds.",
@@ -33392,6 +33496,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Evading through an enemy will cause your next {c_important}Flurry{/c} to Stun enemies for {c_number}{buffduration:STUN}{/c} seconds.",
@@ -33459,6 +33564,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Basic",
+						"Skill_Ranged",
 						"Keyword_Vulnerable"
 					],
 					"skill_desc": "{c_important}Forceful Arrow{/c} Knocks Back the enemy if they are Close. If they collide with an enemy, both are Knocked Down for {c_number}{buffduration:KNOCKDOWN}{/c} seconds.",
@@ -33536,6 +33642,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Agility",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Dealing damage to Crowd Controlled enemies with {c_important}Dash{/c} reduces its Charge Cooldown by {c_number}[{SF_16}|1|]{/c} seconds, up to {c_number}{SF_17}{/c} seconds per cast.",
@@ -33605,6 +33712,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Ultimate",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_label}Cooldown:{/c_label} {c_resource}[{Cooldown Time}|1|]{/c_resource} seconds\n{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat_Effect_Chance_Script_Formula_Override:7}%{/c}\n{/if}Arrows rain down over a large area {c_number}{SF_18}{/c} times, each wave dealing {c_number}{payload:TOOLTIP_DAMAGE}{/c} damage.",
@@ -34116,6 +34224,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "Gain {c_number}{SF_21}{/c} Energy per cast of {c_important}Rapid Fire{/c} when it damages a {c_important}{u}Vulnerable{/u}{/c} enemy.",
@@ -34465,7 +34574,8 @@
 					],
 					"power_name": "Rogue_Talent_Cunning_T5_N2",
 					"power_tags_list": [
-						"Keyword_Freeze"
+						"Keyword_Freeze",
+						"Skill_Melee"
 					],
 					"skill_desc": "{c_important}Melee{/c} Skills grant a stack of {c_important}Momentum{/c} for {c_number}{SF_0}{/c} seconds if they either:\n{icon:bullet,1.2} Hit a Stunned, Immobilized, or {c_important}{u}Frozen{/u}{/c} enemy\n{icon:bullet,1.2} Hit any enemy from behind\n\nWhile at {c_number}{SF_2}{/c} stacks of {c_important}Momentum{/c} you gain:\n{icon:bullet,1.2} {c_number}[{SF_3}*100|%|]{/c} increased Damage Reduction\n{icon:bullet,1.2} {c_number}x[{SF_1}*100|%|]{/c} increased Energy Regeneration\n{icon:bullet,1.2} {c_number}+[{SF_4}*100|%|]{/c} increased Attack Speed",
 					"skill_name": "Momentum"
@@ -34920,6 +35030,10 @@
 						0.15
 					],
 					"power_name": "Rogue_Talent_Discipline_T5_N1",
+					"power_tags_list": [
+						"Skill_Ranged",
+						"Skill_Melee"
+					],
 					"skill_desc": "Damaging a Close enemy with {c_important}Ranged{/c} or {c_important}Melee{/c} Skills each grant a {c_number}+[{SF_0}*100|%|]{/c} Attack Speed bonus for {c_number}{buffduration:RANGED_BONUS}{/c} seconds.\n\nWhile both Attack Speed bonuses are active, you gain:\n{icon:bullet,1.2} {c_label}Lucky Hit:{/c} Dealing direct damage to a Crowd Controlled enemy has up to a {c_number}{SF_2}%{/c} chance to generate {c_number}{SF_3}{/c} Energy and deal {c_number}x[{SF_4}*100|%|]{/c} increased damage.",
 					"skill_name": "Close Quarters Combat"
 				},
@@ -35004,6 +35118,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_label}Energy Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}\n{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}[{Combat Effect Chance}|%|]{/c}\n{/if}Unleash a barrage of {c_number}{SF_5}{/c} arrows that expands outwards, each dealing {c_number}{payload:IMPACT}{/c} damage. Each arrow has a {c_number}[{SF_33}*100|%|]{/c} chance to ricochet off an enemy up to {c_number}{SF_30}{/c} time. Ricochets deal {c_number}[{SF_31}*100|%|]{/c} of the arrow's base damage.{if:SF_14}\n\nCombo Points increase damage and arrows fired:\n {c_label}1:{/c} {c_number}{payload:DAMAGE_TOOLTIP_1CP}{/c} damage, {c_number}[{SF_5}+{SF_12}]{/c} arrows\n {c_label}2:{/c} {c_number}{payload:DAMAGE_TOOLTIP_2CP}{/c} damage, {c_number}[{SF_5}+{SF_12}*2]{/c} arrows\n {c_label}3:{/c} {c_number}{payload:DAMAGE_TOOLTIP_3CP}{/c} damage, {c_number}[{SF_5}+{SF_12}*3]{/c} arrows{/if}",
@@ -35075,6 +35190,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_label}Energy Cost:{/c_label} {c_resource}{Resource Cost}{/c_resource}\n{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Rapidly fire {c_number}{SF_5}{/c} arrows, each dealing {c_number}{payload:IMPACT}{/c} damage.{if:SF_14}\n\nCombo Points increase damage and arrows fired:\n {c_label}1:{/c} {c_number}{payload:DAMAGE_TOOLTIP_1CP}{/c} damage, {c_number}[{SF_5}+{SF_12}]{/c} arrows\n {c_label}2:{/c} {c_number}{payload:DAMAGE_TOOLTIP_2CP}{/c} damage, {c_number}[{SF_5}+{SF_12}*2]{/c} arrows\n {c_label}3:{/c} {c_number}{payload:DAMAGE_TOOLTIP_3CP}{/c} damage, {c_number}[{SF_5}+{SF_12}*3]{/c} arrows{/if}",
@@ -35246,7 +35362,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Ranged"
 					],
 					"skill_desc": "{c_important}Puncture{/c} now throws {c_number}3{/c} blades in a spread, each dealing {c_number}[{SF_21} * 100|%|]{/c} of its base damage. Hitting an enemy with at least {c_number}2{/c} blades at once makes them {c_important}Vulnerable{/c} for {c_number}{SF_18}{/c} seconds.",
 					"skill_name": "Fundamental Puncture"
@@ -35313,6 +35430,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Basic",
+						"Skill_Ranged",
 						"Keyword_Vulnerable"
 					],
 					"skill_desc": "{c_important}Forceful Arrow{/c} pierces through {c_important}{u}Vulnerable{/u}{/c} enemies.",
@@ -35371,7 +35489,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Melee"
 					],
 					"skill_desc": "Hitting an enemy with {c_important}Invigorating Strike{/c} while you are below {c_number}[{SF_7}*100|%|]{/c} Energy makes them {c_important}{u}Vulnerable{/u}{/c} for {c_number}{SF_8}{/c} seconds.",
 					"skill_name": "Fundamental Invigorating Strike"
@@ -35440,7 +35559,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Ranged"
 					],
 					"skill_desc": "{c_important}Heartseeker{/c} ricochets to an additional enemy, dealing {c_number}[{SF_13}*100|%|]{/c} of the original damage.",
 					"skill_name": "Primary Heartseeker"
@@ -35501,7 +35621,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Melee"
 					],
 					"skill_desc": "While {c_important}Blade Shift{/c} is active you gain {c_number}[{SF_1}*100|%|]{/c} to all non-Physical Resistances and reduce the duration of Control Impairing Effects by {c_number}[{SF_16}*100|%|]{/c} .",
 					"skill_name": "Primary Blade Shift"
@@ -35572,6 +35693,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_important}Rapid Fire{/c} deals {c_number}x[{SF_16}*100|%|]{/c} increased Critical Strike Damage for {c_number}{SF_17}{/c} seconds after you Evade.",
@@ -35650,6 +35772,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Melee",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "When your {c_important}Twisting Blades{/c} return, you gain {c_number}+[{SF_4}*100|%|]{/c} Cooldown Reduction per enemy they passed through for {c_number}{SF_6}{/c} seconds, up to {c_number}+[{SF_4}*{SF_5}*100|%|]{/c}.",
@@ -35905,6 +36028,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Core",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "When cast with full Energy, {c_important}Penetrating Shot{/c} will Slow all enemies it hits by {c_number}[{SF_18}*100|%|]{/c} for {c_number}{buffduration:SLOW}{/c} seconds. Elite enemies will also be Knocked Down for {c_number}{buffduration:KNOCKDOWN}{/c} seconds.",
@@ -35974,6 +36098,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Ultimate",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_important}Imbuement{/c} Skill effects applied by {c_important}Rain of Arrows{/c} have {c_number}x[{SF_9}*100|%|]{/c} increased potency.",
@@ -36042,6 +36167,7 @@
 					},
 					"power_tags_list": [
 						"Skill_Primary_Ultimate",
+						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
 					"skill_desc": "{c_important}Rain of Arrows'{/c} second wave Knocks Down enemies for {c_number}{buffduration:MOD_KNOCKDOWN}{/c} seconds.",
@@ -36395,7 +36521,8 @@
 						"4242615614": "SF_0"
 					},
 					"power_tags_list": [
-						"Skill_Primary_Basic"
+						"Skill_Primary_Basic",
+						"Skill_Melee"
 					],
 					"skill_desc": "{if:SF_11}{c_label}Generate Combo Point:{/c} {c_resource}{SF_10}{/c}\n{/if}{if:ADVANCED_TOOLTIP}{c_label}Lucky Hit Chance: {/c}{c_resource}{Combat Effect Chance}%{/c}\n{/if}Melee attack an enemy, dealing {c_number}{payload:IMPACT}{/c} damage and increasing Energy Regeneration by {c_number}x[{SF_4}*100|%|]{/c} for {c_number}{buffduration:ENERGY_REGEN}{/c} seconds.",
 					"skill_name": "Invigorating Strike",

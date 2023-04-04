@@ -30412,7 +30412,7 @@
 				"name": "Deathspeaker's Pendant"
 			},
 			"Boots_Unique_Necro_100": {
-				"affix_formulas": [
+				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(6, 0.30, 0.42)"
 				],
 				"affix_static_values": [
@@ -30483,7 +30483,7 @@
 				"name": "Deathless Visage"
 			},
 			"Ring_Unique_Necro_100": {
-				"affix_formulas": [
+				"affix_flat_formulas": [
 					"FloatRandomRangeWithInterval(10, 3, 4)"
 				],
 				"affix_static_values": [
