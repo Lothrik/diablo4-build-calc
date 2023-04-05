@@ -126,24 +126,29 @@ h1, h2, h3 {
 	}
 }
 
-#summaryButton {
+#floatLeft *, #floatRight * {
 	cursor: pointer;
-	height: 35px;
-	margin: 0 calc(100% - 40px) -35px 0;
+	float: left;
+	height: 32px;
 	user-select: none;
-	width: 35px;
+	width: 32px;
+}
+
+#floatLeft {
+	height: 32px;
+	margin: 0 calc(100% - 32px) -32px 0;
+	width: 32px;
+}
+
+#floatRight {
+	height: 32px;
+	margin: 0 0 -32px calc(100% - 64px);
+	width: 64px;
 }
 
 #colorConnectorInput, #colorNodeInput {
 	visibility: hidden;
-}
-
-#colorConnectorInput, #colorNodeInput, #colorButton {
-	cursor: pointer;
-	height: 25px;
-	margin: 0 0 -25px calc(100% - 40px);
-	user-select: none;
-	width: 40px;
+	margin-right: -32px;
 }
 
 .visible, .visible * {
@@ -185,6 +190,12 @@ h1, h2, h3 {
     text-decoration: underline;
 	color: #f0f;
 	cursor: pointer;
+}
+
+#extraFooter {
+	display: flex;
+	margin: auto auto 0;
+	flex-direction: column;
 }
 
 #extraInfo {

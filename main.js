@@ -202,7 +202,7 @@ const NODE_SQUARE_INACTIVE = PIXI.Texture.from("images/node_square_inactive.png"
 */
 
 const pixiScalingFloor = 0.15;
-const pixiScalingCeiling = 1;
+const pixiScalingCeiling = 2;
 
 const fontFamily = $("body").css("fontFamily");
 const fontFamilyOverride = fontFamily.includes("Homenaje") ? fontFamily : "Homenaje, " + fontFamily;
@@ -497,6 +497,22 @@ function handleSummaryButton(event) {
 		}, 2000);
 	}
 }
+function handleZoomButton(event) {
+	if (event.type == "click") {
+		const oldZoomLevel = Number(readCookie("zoomLevel"));
+		const newZoomLevel = Number(prompt("Please enter your desired zoom level (min: 0.5, max: 2)", isNaN(oldZoomLevel) ? "1" : oldZoomLevel));
+		if (!isNaN(newZoomLevel) && newZoomLevel >= 0.5 && newZoomLevel <= 2) writeCookie("zoomLevel", newZoomLevel);
+		applyZoomLevel();
+	}
+}
+function applyZoomLevel() {
+	const zoomLevel = Number(readCookie("zoomLevel"));
+	if (!isNaN(zoomLevel) && zoomLevel >= 0.5 && zoomLevel <= 2) {
+		$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "top left" });
+		$("#floatRight").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "top right" });
+		$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "bottom" });
+	}
+}
 function handleConnectorColorInput(event) {
 	writeCookie("activeConnectorColor", $("#colorConnectorInput").val().slice(1));
 
@@ -558,7 +574,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39858-8";
+const localVersion = "0.8.1.39858-9";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -675,13 +691,13 @@ function handleClassSelection(event) {
 	if (classText != $("#className").text()) {
 		$("#className").text(classText);
 		if (classText == "None") {
-			$("#header h2, #versionLabel, #summaryButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
+			$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
 			$("#classSelectBox").removeClass("disabled");
 			$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
 			$("#groupSelector").empty();
 			$("#searchInput").removeAttr("style");
 		} else {
-			$("#header h2, #versionLabel, #summaryButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
+			$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
 			$("#classSelectBox").addClass("disabled");
 			$("#extraInfo").empty().addClass("hidden");
 		}
@@ -2413,21 +2429,24 @@ function writeCookie(name, value) {
 }
 
 // read cookie settings immediately
+applyZoomLevel();
 $("#colorConnectorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
 $("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
 $("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
+	$("#versionLabel").on("click", handleVersionLabel);
+	handleVersionInterval();
+	versionInterval = setInterval(handleVersionInterval, 900000);
+
 	$("#summaryButton").on("click mouseenter mouseleave", handleSummaryButton);
+
+	$("#zoomButton").on("click", handleZoomButton);
 
 	$("#colorConnectorInput").on("change", handleConnectorColorInput);
 	$("#colorNodeInput").on("change", handleNodeColorInput);
 	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
-
-	$("#versionLabel").on("click", handleVersionLabel);
-	handleVersionInterval();
-	versionInterval = setInterval(handleVersionInterval, 900000);
 
 	$("#resetButton").on("click", rebuildCanvas);
 	$("#clampButton").on("click", handleClampButton);

@@ -30,10 +30,15 @@
 		<h1><a href="#" target="_blank">Diablo IV Build Calculator</a><div id="versionLabel" class="disabled"></div></h1>
 		<h2 class="disabled">Level <span id="charLevel">1</span> <span id="className">None</span><span id="renownLevel"></span></h2>
 	</div>
-	<img id="summaryButton" src="images/sigma.svg" class="disabled">
-	<input id="colorConnectorInput" type="color">
-	<input id="colorNodeInput" type="color">
-	<img id="colorButton" src="images/eye.svg" class="disabled">
+	<div id="floatLeft">
+		<img id="summaryButton" src="images/sigma.svg" class="disabled">
+	</div>
+	<div id="floatRight">
+		<img id="zoomButton" src="images/zoom.svg" class="disabled">
+		<input id="colorConnectorInput" type="color">
+		<input id="colorNodeInput" type="color">
+		<img id="colorButton" src="images/color.svg" class="disabled">
+	</div>
 	<div id="flexContainer">
 		<span id="classSelectBox" class="disabled">
 			<span id="barbarianSelect">[Barbarian]</span>
@@ -43,28 +48,30 @@
 			<span id="sorcererSelect">[Sorcerer]</span>
 		</span>
 	</div>
-	<div id="extraInfo" class="hidden">
-		<a href="./database/" target="_blank">Click here if you're looking for datamined information.</a>
-	</div>
-	<div id="extraButtons1" class="disabled">
-		<select id="classSelector">
-			<option value="none">None</option>
-			<option value="barbarian">Barbarian</option>
-			<option value="druid">Druid</option>
-			<option value="necromancer">Necromancer</option>
-			<option value="rogue">Rogue</option>
-			<option value="sorcerer">Sorcerer</option>
-		</select>
-		<select id="groupSelector" class="disabled"></select>
-		<input id="searchInput" type="text" placeholder="Search.." class="disabled">
-	</div>
-	<div id="extraButtons2" class="disabled">
-		<button id="resetButton" type="button">Reset</button>
-		<button id="clampButton" type="button">Enable Clamping</button>
-		<button id="saveButton" type="button">Save</button>
-		<button id="reloadButton" type="button">Reload</button>
-		<button id="shareButton" type="button">Share URL</button>
-		<button id="databaseButton" type="button" onclick="window.open('./database/')">Open DB</button>
+	<div id="extraFooter">
+		<div id="extraInfo" class="hidden">
+			<a href="./database/" target="_blank">Click here if you're looking for datamined information.</a>
+		</div>
+		<div id="extraButtons1" class="disabled">
+			<select id="classSelector">
+				<option value="none">None</option>
+				<option value="barbarian">Barbarian</option>
+				<option value="druid">Druid</option>
+				<option value="necromancer">Necromancer</option>
+				<option value="rogue">Rogue</option>
+				<option value="sorcerer">Sorcerer</option>
+			</select>
+			<select id="groupSelector" class="disabled"></select>
+			<input id="searchInput" type="text" placeholder="Search.." class="disabled">
+		</div>
+		<div id="extraButtons2" class="disabled">
+			<button id="resetButton" type="button">Reset</button>
+			<button id="clampButton" type="button">Enable Clamping</button>
+			<button id="saveButton" type="button">Save</button>
+			<button id="reloadButton" type="button">Reload</button>
+			<button id="shareButton" type="button">Share URL</button>
+			<button id="databaseButton" type="button" onclick="window.open('./database/')">Open DB</button>
+		</div>
 	</div>
 	<div id="footer">
 		<div id="footerText">Diablo IV &copy; 2023 <a href="https://diablo4.blizzard.com" target="_blank">Blizzard Entertainment</a>. Website by <a href="https://github.com/lothrik" target="_blank">Lothrik</a>. <a href="https://github.com/lothrik/diablo4-build-calc" target="_blank">Source Code</a>. <a href="https://patreon.com/lothrik" target="_blank">Patreon</a>.</div>
