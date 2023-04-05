@@ -8798,7 +8798,10 @@
 				"category": 0,
 				"desc": "After generating 100.0 Fury your next Core Skill creates a Dust Devil that deals {100/180} damage to enemies behind the target.",
 				"flavor": "\"Without him the wine is less sweet, the hearth less warm, and our blades less keen. He deserved to see ten thousand more suns. Our blood-brother is gone, but Bul-Kathos willing, we will meet again one day.\"\n- Sorrowsong for Ramaladni",
-				"name": "Ramaladni's Magnum Opus"
+				"name": "Ramaladni's Magnum Opus",
+				"power_formulas": [
+					100.0
+				]
 			},
 			"2HAxe_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8818,7 +8821,11 @@
 				"category": 0,
 				"desc": "Steel Grasp launches 2 additional chains. Enemies hit by Steel Grasp are Slowed by {55/65}% for 3.0 seconds.",
 				"flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\"\n- Gerti, Oxen Tribe Forgemaster",
-				"name": "Ancients' Oath"
+				"name": "Ancients' Oath",
+				"power_formulas": [
+					"array([0.55,0.65])",
+					3.0
+				]
 			},
 			"2HMace_Unique_Barb_001": {
 				"affix_flat_formulas": [
@@ -8912,7 +8919,12 @@
 				"category": 0,
 				"desc": "While Berserking, you deal {40/70} Fire damage every second to surrounding enemies.",
 				"flavor": "The city of Harrogath, the final bastion of resistance against Baal's assault on Mt. Arreat, was reduced to rubble when the Worldstone was destroyed. The survivors never forgave the betrayal that led to the loss of their home.",
-				"name": "Rage of Harrogath"
+				"name": "Rage of Harrogath",
+				"power_formulas": [
+					"array([40.,70.])",
+					1,
+					2
+				]
 			},
 			"Gloves_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8928,7 +8940,13 @@
 				"category": 0,
 				"desc": "Whirlwind explodes after it ends, dealing {50/70}% of the total base damage dealt to surrounding enemies as Fire damage.",
 				"flavor": "\"The brutish, almost simplistic construction of these gloves belies the strength they bestow. Gohr was clearly no craftsman, but it would be foolish to ignore the triumph of his work.\"\n- Barrett's Book of Implements",
-				"name": "Gohr's Devastating Grips"
+				"name": "Gohr's Devastating Grips",
+				"power_formulas": [
+					"array([0.13 ,0.143,0.156,0.169,0.182,0.195,0.208,0.221,0.234,0.247])",
+					3,
+					"array([0.5,0.7])",
+					""
+				]
 			},
 			"Ring_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8945,7 +8963,11 @@
 				"category": 0,
 				"desc": "Each point of Fury you generate while at max Fury grants your next Core Skill x{2/4}% increased damage, up to x{60/120}%.",
 				"flavor": "\"The change that overtook my brother in the heat of battle was terrifying. His eyes turned hard like diamonds, and the way he moved... it was like he was dancing to music only he could hear.\"\n- Captain Davinus",
-				"name": "Battle Trance"
+				"name": "Battle Trance",
+				"power_formulas": [
+					"array([2,4])",
+					30
+				]
 			}
 		}
 	},
@@ -21826,7 +21848,11 @@
 				"category": 0,
 				"desc": "Your attacks randomly deal 1% to {200/300}% of normal damage.",
 				"flavor": "\"Will you let fear cheat you, or will you risk everything to find understanding? After all, death is simply the coin with which we purchase life.\"\n- Zurke",
-				"name": "Fists of Fate"
+				"name": "Fists of Fate",
+				"power_formulas": [
+					0.01,
+					"array([2.,3.])"
+				]
 			},
 			"Gloves_Unique_Generic_003": {
 				"affix_formulas": [
@@ -29814,7 +29840,12 @@
 				"category": 2,
 				"desc": "Your Darkness Skills Chill enemies for up to 12.0%.\n\nLucky Hit: Your Darkness Skills have up to a 100.0% chance to generate {2/5} additional Essence against Frozen targets.",
 				"flavor": "\"My companion swung her strange weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI",
-				"name": "Bloodless Scream"
+				"name": "Bloodless Scream",
+				"power_formulas": [
+					12.0,
+					"array([2,5])",
+					100.0
+				]
 			},
 			"Amulet_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -29855,7 +29886,15 @@
 				"category": 0,
 				"desc": "Create desecrated ground beneath your Sever spectres as they travel, damaging enemies for {150/210} Shadow damage over 2.0 seconds.",
 				"flavor": "\"The massive stone door to my family's crypt, which had taken a dozen stout men to close, was thrown open wide. If I had known the horrors to come I would never have set foot inside that accursed place!\"\n- The Ebon Pages, Canto I, Verse VII",
-				"name": "Greaves of the Empty Tomb"
+				"name": "Greaves of the Empty Tomb",
+				"power_formulas": [
+					"array([150.,210.])",
+					0.25,
+					1,
+					2.0,
+					1.0,
+					0.05
+				]
 			},
 			"Chest_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -29876,7 +29915,14 @@
 				"category": 0,
 				"desc": "Bone Storm and Blood Wave are also Darkness Skills and deal Shadow damage.\n\nEnemies damaged by Bone Storm take {80/110} Shadow damage over 2.0 seconds.\n\nBlood Wave desecrates the ground it travels over, dealing {1280/1760} Shadow damage over 4.0 seconds",
 				"flavor": "The dark wisps that crawl across this armor burrow into magic the way maggots might bore through putrid flesh.",
-				"name": "Shadowclad Cuirass"
+				"name": "Shadowclad Cuirass",
+				"power_formulas": [
+					"array([ 80.,110.])",
+					2.0,
+					"array([1280.,1760.])",
+					4.0,
+					3.2
+				]
 			},
 			"Gloves_Unique_Necro_100": {
 				"affix_formulas": [
@@ -29925,7 +29971,12 @@
 				"category": 0,
 				"desc": "Blood Mist triggers Corpse Explosion on surrounding Corpses.\nWhen Blood Mist detonates a Corpse, its Cooldown is reduced by {0.5/1.5} seconds.",
 				"flavor": "\"The infamous Necromancer Gaza-Thul's mastery over blood magic was indisputable. Many suspect that upon his death, his skin was used to fashion these eldritch leggings.\"\n- Barrett's Book of Implements",
-				"name": "Blood Artisan's Brais"
+				"name": "Blood Artisan's Brais",
+				"power_formulas": [
+					3,
+					2,
+					"array([0.5,1.5])"
+				]
 			},
 			"Ring_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -48646,7 +48697,13 @@
 				"category": 2,
 				"desc": "After using Teleport, Close enemies are Pulled to you and Stunned for {2/3} seconds, but Teleport's Cooldown is increased by x20.0%.",
 				"flavor": "The power you have is never enough.",
-				"name": "Raiment of the Infinite"
+				"name": "Raiment of the Infinite",
+				"power_formulas": [
+					0.1,
+					4,
+					"array([2,3])",
+					0.2
+				]
 			},
 			"Gloves_Unique_Sorc_002": {
 				"affix_formulas": [

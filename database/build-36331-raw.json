@@ -8798,7 +8798,10 @@
 				"category": 0,
 				"desc": "After generating {c_number}[Affix.\"Static Value 0\"]{/c} Fury your next {c_important}Core{/c} Skill creates a {c_important}Dust Devil{/c} that deals {c_random}[Affix_Flat_Value_1]{/c} damage to enemies behind the target.",
 				"flavor": "\"Without him the wine is less sweet, the hearth less warm, and our blades less keen. He deserved to see ten thousand more suns. Our blood-brother is gone, but Bul-Kathos willing, we will meet again one day.\"\n- Sorrowsong for Ramaladni",
-				"name": "Ramaladni's Magnum Opus"
+				"name": "Ramaladni's Magnum Opus",
+				"power_formulas": [
+					"Affix.1HSword_Unique_Barb_100.\"Static Value 0\""
+				]
 			},
 			"2HAxe_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8818,7 +8821,11 @@
 				"category": 0,
 				"desc": "{c_important}Steel Grasp{/c} launches {c_number}2{/c} additional chains. Enemies hit by {c_important}Steel Grasp{/c} are Slowed by {c_random}[Affix_Value_1*100|%|]{/c} for {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\"\n- Gerti, Oxen Tribe Forgemaster",
-				"name": "Ancients' Oath"
+				"name": "Ancients' Oath",
+				"power_formulas": [
+					"Affix_Value_1#2HAxe_Unique_Barb_001",
+					"Affix.2HAxe_Unique_Barb_001.\"Static Value 0\""
+				]
 			},
 			"2HMace_Unique_Barb_001": {
 				"affix_flat_formulas": [
@@ -8912,7 +8919,12 @@
 				"category": 0,
 				"desc": "While {c_important}Berserking{/c}, you deal {c_random}[Affix_Flat_Value_1]{/c} Fire damage every second to surrounding enemies.",
 				"flavor": "The city of Harrogath, the final bastion of resistance against Baal's assault on Mt. Arreat, was reduced to rubble when the Worldstone was destroyed. The survivors never forgave the betrayal that led to the loss of their home.",
-				"name": "Rage of Harrogath"
+				"name": "Rage of Harrogath",
+				"power_formulas": [
+					"Affix_Flat_Value_1#Chest_Unique_Barb_002",
+					1,
+					2
+				]
 			},
 			"Gloves_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8928,7 +8940,13 @@
 				"category": 0,
 				"desc": "{c_important}Whirlwind{/c} explodes after it ends, dealing {c_random}[Affix_Value_1|%|]{/c} of the total base damage dealt to surrounding enemies as Fire damage.",
 				"flavor": "\"The brutish, almost simplistic construction of these gloves belies the strength they bestow. Gohr was clearly no craftsman, but it would be foolish to ignore the triumph of his work.\"\n- Barrett's Book of Implements",
-				"name": "Gohr's Devastating Grips"
+				"name": "Gohr's Devastating Grips",
+				"power_formulas": [
+					"PowerTag.Barbarian_Whirlwind.\"Script Formula 4\"",
+					3,
+					"Affix_Value_1#Gloves_Unique_Barb_001 / 100",
+					""
+				]
 			},
 			"Ring_Unique_Barb_001": {
 				"affix_formulas": [
@@ -8945,7 +8963,11 @@
 				"category": 0,
 				"desc": "Each point of Fury you generate while at max Fury grants your next {c_important}Core{/c} Skill {c_number}x[Affix_Value_1|%|]{/c} increased damage, up to {c_number}x[Affix_Value_1  * Affix_Value_2|%|]{/c}.",
 				"flavor": "\"The change that overtook my brother in the heat of battle was terrifying. His eyes turned hard like diamonds, and the way he moved... it was like he was dancing to music only he could hear.\"\n- Captain Davinus",
-				"name": "Battle Trance"
+				"name": "Battle Trance",
+				"power_formulas": [
+					"Affix_Value_1#Ring_Unique_Barb_001",
+					"Affix_Value_2#Ring_Unique_Barb_001"
+				]
 			}
 		}
 	},
@@ -21826,7 +21848,11 @@
 				"category": 0,
 				"desc": "Your attacks randomly deal {c_number}[Affix_Value_2|%|]{/c} to {c_random}[Affix_Value_1|%|]{/c} of normal damage.",
 				"flavor": "\"Will you let fear cheat you, or will you risk everything to find understanding? After all, death is simply the coin with which we purchase life.\"\n- Zurke",
-				"name": "Fists of Fate"
+				"name": "Fists of Fate",
+				"power_formulas": [
+					"Affix_Value_2#Gloves_Unique_Generic_002 / 100",
+					"Affix_Value_1#Gloves_Unique_Generic_002 / 100"
+				]
 			},
 			"Gloves_Unique_Generic_003": {
 				"affix_formulas": [
@@ -29814,7 +29840,12 @@
 				"category": 2,
 				"desc": "Your {c_important}Darkness{/c} Skills {c_important}Chill{/c} enemies for up to {c_number}[Affix.\"Static Value 0\"|%|]{/c}. \n\n{c_gold}Lucky Hit:{/c} Your {c_important}Darkness{/c} Skills have up to a {c_number}[Affix.\"Static Value 1\"|%|]{/c} chance to generate {c_random}[Affix_Value_1]{/c} additional Essence against {c_important}Frozen{/c} targets.",
 				"flavor": "\"My companion swung her strange weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI",
-				"name": "Bloodless Scream"
+				"name": "Bloodless Scream",
+				"power_formulas": [
+					"Affix.2HScythe_Unique_Necro_100.\"Static Value 0\"",
+					"Affix_Value_1#2HScythe_Unique_Necro_100",
+					"Affix.2HScythe_Unique_Necro_100.\"Static Value 1\""
+				]
 			},
 			"Amulet_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -29855,7 +29886,15 @@
 				"category": 0,
 				"desc": "Create desecrated ground beneath your {c_important}Sever{/c} spectres as they travel, damaging enemies for {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 0\"]{/c} seconds.",
 				"flavor": "\"The massive stone door to my family's crypt, which had taken a dozen stout men to close, was thrown open wide. If I had known the horrors to come I would never have set foot inside that accursed place!\"\n- The Ebon Pages, Canto I, Verse VII",
-				"name": "Greaves of the Empty Tomb"
+				"name": "Greaves of the Empty Tomb",
+				"power_formulas": [
+					"Affix_Flat_Value_1#Boots_Unique_Necro_100",
+					0.25,
+					1,
+					"Affix.Boots_Unique_Necro_100.\"Static Value 0\"",
+					1.0,
+					0.05
+				]
 			},
 			"Chest_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -29876,7 +29915,14 @@
 				"category": 0,
 				"desc": "{c_important}Bone Storm{/c} and {c_important}Blood Wave{/c} are also {c_important}Darkness{/c} Skills and deal Shadow damage. \n\nEnemies damaged by {c_important}Bone Storm{/c} take {c_random}[Affix_Flat_Value_1]{/c} Shadow damage over {c_number}[Affix.\"Static Value 1\"]{/c} seconds.\n\n{c_important}Blood Wave{/c} desecrates the ground it travels over, dealing {c_random}[Affix_Flat_Value_1*Affix.\"Static Value 0\"]{/c} Shadow damage over {c_number}[Affix.\"Static Value 2\"]{/c} seconds",
 				"flavor": "The dark wisps that crawl across this armor burrow into magic the way maggots might bore through putrid flesh.",
-				"name": "Shadowclad Cuirass"
+				"name": "Shadowclad Cuirass",
+				"power_formulas": [
+					"Affix_Flat_Value_1#Chest_Unique_Necro_100",
+					"Affix.Chest_Unique_Necro_100.\"Static Value 1\"",
+					"Affix_Flat_Value_1#Chest_Unique_Necro_100 * Affix.Chest_Unique_Necro_100.\"Static Value 0\"",
+					"Affix.Chest_Unique_Necro_100.\"Static Value 2\"",
+					"PowerTag.Necromancer_BloodWave.\"Script Formula 6\" / 2.5"
+				]
 			},
 			"Gloves_Unique_Necro_100": {
 				"affix_formulas": [
@@ -29925,7 +29971,12 @@
 				"category": 0,
 				"desc": "{c_important}Blood Mist{/c} triggers {c_important}Corpse Explosion{/c} on surrounding Corpses. \nWhen {c_important}Blood Mist{/c} detonates a Corpse, its Cooldown is reduced by {c_random}[Affix_Value_1|1|]{/c} seconds.",
 				"flavor": "\"The infamous Necromancer Gaza-Thul's mastery over blood magic was indisputable. Many suspect that upon his death, his skin was used to fashion these eldritch leggings.\"\n- Barrett's Book of Implements",
-				"name": "Blood Artisan's Brais"
+				"name": "Blood Artisan's Brais",
+				"power_formulas": [
+					"PowerTag.Necromancer_BloodMist.\"Script Formula 0\"",
+					"PowerTag.Necromancer_BloodMist.\"Script Formula 11\"",
+					"Affix_Value_1#Pants_Unique_Necro_100"
+				]
 			},
 			"Ring_Unique_Necro_100": {
 				"affix_flat_formulas": [
@@ -48646,7 +48697,13 @@
 				"category": 2,
 				"desc": "After using {c_important}Teleport{/c}, Close enemies are Pulled to you and Stunned for {c_random}[Affix_Value_1|1|]{/c} seconds, but {c_important}Teleport's{/c} Cooldown is increased by {c_number}x[Affix.\"Static Value 0\"|%|]{/c}.",
 				"flavor": "The power you have is never enough.",
-				"name": "Raiment of the Infinite"
+				"name": "Raiment of the Infinite",
+				"power_formulas": [
+					0.1,
+					4,
+					"Affix_Value_1#Chest_Unique_Sorc_002",
+					"Affix.Chest_Unique_Sorc_002.\"Static Value 0\" / 100"
+				]
 			},
 			"Gloves_Unique_Sorc_002": {
 				"affix_formulas": [
