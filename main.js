@@ -689,19 +689,24 @@ function handleCanvasEvent(event) {
 function handleClassSelection(event) {
 	const classText = $(classString).text();
 	if (classText != $("#className").text()) {
-		$("#className").text(classText);
-		if (classText == "None") {
-			$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
-			$("#classSelectBox").removeClass("disabled");
-			$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
-			$("#groupSelector").empty();
-			$("#searchInput").removeAttr("style");
-		} else {
-			$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
-			$("#classSelectBox").addClass("disabled");
-			$("#extraInfo").empty().addClass("hidden");
-		}
-		rebuildCanvas();
+		$("#classSelectBox").addClass("disabled");
+		if (classText != "None") $("#loadingIndicator").removeClass("disabled");
+		setTimeout(() => {
+			$("#className").text(classText);
+			if (classText == "None") {
+				$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
+				$("#classSelectBox").removeClass("disabled");
+				$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
+				$("#groupSelector").empty();
+				$("#searchInput").removeAttr("style");
+			} else {
+				$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
+				$("#classSelectBox").addClass("disabled");
+				$("#extraInfo").empty().addClass("hidden");
+			}
+			rebuildCanvas();
+			$("#loadingIndicator").addClass("disabled");
+		}, 100);
 	}
 }
 function handleGroupSelection(event) {

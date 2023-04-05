@@ -92,7 +92,7 @@ h1, h2, h3 {
 	border-color: #fff;
 }
 
-#header, #footer, #classSelectBox, #extraInfo {
+#header, #footer, #classSelectBox, #loadingIndicator, #extraInfo {
 	background-color: rgba(0, 0, 0, 0.8);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -177,7 +177,7 @@ h1, h2, h3 {
 	pointer-events: none;
 }
 
-#classSelectBox {
+#classSelectBox, #loadingIndicator {
 	border: 1px solid;
 	padding: 10px;
 	font-size: 36px;
