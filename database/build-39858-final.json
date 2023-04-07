@@ -13831,7 +13831,7 @@
 			"Generic_Magic_DamageReductionFromDot": {
 				"attributes": {
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#affected by any DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Any DoT",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								1.667,
@@ -13843,7 +13843,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "1.7% Damage Reduction from Enemies That Are affected by any DoT",
+				"desc": "1.7% Damage Reduction from Enemies That Are Taking Any DoT",
 				"name": "Damage Reduction From Dot",
 				"tags": [
 					"Damage Reduction"
@@ -13938,7 +13938,7 @@
 			"Generic_Magic_DamageReductionFromShadowDoTed": {
 				"attributes": {
 					"795": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#affected by any Shadow DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Shadow DoT",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								1.0,
@@ -13950,7 +13950,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "1% Damage Reduction from Enemies That Are affected by any Shadow DoT",
+				"desc": "1% Damage Reduction from Enemies That Are Taking Shadow DoT",
 				"name": "Damage Reduction From Shadow DoTed",
 				"tags": [
 					"Shadow Damage Over Time",
@@ -14311,7 +14311,7 @@
 			"Generic_Magic_DamageToShadowDoTed": {
 				"attributes": {
 					"789": {
-						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#affected by any Shadow DoT",
+						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#Taking Shadow DoT",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.0,
@@ -14323,7 +14323,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+1% Damage to affected by any Shadow DoT Enemies",
+				"desc": "+1% Damage to Taking Shadow DoT Enemies",
 				"name": "Damage To Shadow DoTed",
 				"tags": [
 					"Shadow Damage Over Time",
@@ -15151,7 +15151,7 @@
 						"stat_dword": 4294967295
 					},
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#affected by any DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Any DoT",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
 								1.667,
@@ -15163,7 +15163,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are affected by any DoT",
+				"desc": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are Taking Any DoT",
 				"name": "Fleeting",
 				"tags": [
 					"Crowd Control",
@@ -15533,7 +15533,7 @@
 			"Generic_Rare_019": {
 				"attributes": {
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#affected by any DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Any DoT",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
 								1.667,
@@ -15557,7 +15557,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "8.3% Damage Reduction from Enemies That Are affected by any DoT\n3% Resistance to All Elements",
+				"desc": "8.3% Damage Reduction from Enemies That Are Taking Any DoT\n3% Resistance to All Elements",
 				"name": "Suffused Resilience",
 				"tags": [
 					"Resistance",
@@ -17523,7 +17523,7 @@
 						"stat_dword": 5
 					},
 					"795": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#affected by any Shadow DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Shadow DoT",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
 								1.0,
@@ -17535,7 +17535,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies That Are affected by any Shadow DoT\n9% Shadow Resistance",
+				"desc": "5% Damage Reduction from Enemies That Are Taking Shadow DoT\n9% Shadow Resistance",
 				"name": "Dragging Shadows",
 				"tags": [
 					"Resistance",
@@ -17559,7 +17559,7 @@
 						"stat_dword": 4294967295
 					},
 					"789": {
-						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#affected by any Shadow DoT",
+						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#Taking Shadow DoT",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -17571,7 +17571,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+5% Damage to affected by any Shadow DoT Enemies\n+5% Damage to Elites",
+				"desc": "+5% Damage to Taking Shadow DoT Enemies\n+5% Damage to Elites",
 				"name": "Gnawing Darkness",
 				"tags": [
 					"Shadow Damage Over Time",

@@ -8930,7 +8930,7 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageReductionFromDot": {
 				"name": "Damage Reduction From Dot",
-				"description": "1.7% Damage Reduction from Enemies That Are affected by any DoT\n\nTags: Damage Reduction."
+				"description": "1.7% Damage Reduction from Enemies That Are Taking Any DoT\n\nTags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromElite": {
 				"name": "Damage Reduction From Elite",
@@ -8950,7 +8950,7 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageReductionFromShadowDoTed": {
 				"name": "Damage Reduction From Shadow DoTed",
-				"description": "1% Damage Reduction from Enemies That Are affected by any Shadow DoT\n\nTags: Shadow Damage Over Time, Damage Reduction."
+				"description": "1% Damage Reduction from Enemies That Are Taking Shadow DoT\n\nTags: Shadow Damage Over Time, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromSlowedTarget": {
 				"name": "Damage Reduction From Slowed Target",
@@ -9018,7 +9018,7 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageToShadowDoTed": {
 				"name": "Damage To Shadow DoTed",
-				"description": "+1% Damage to affected by any Shadow DoT Enemies\n\nTags: Shadow Damage Over Time, Damage."
+				"description": "+1% Damage to Taking Shadow DoT Enemies\n\nTags: Shadow Damage Over Time, Damage."
 			},
 			"Generic_Magic_DamageToStun": {
 				"name": "Damage To Stun",
@@ -9166,7 +9166,7 @@ let paragonData = {
 			},
 			"Generic_Rare_006": {
 				"name": "Fleeting",
-				"description": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are affected by any DoT\n\nTags: Crowd Control, Damage Reduction."
+				"description": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are Taking Any DoT\n\nTags: Crowd Control, Damage Reduction."
 			},
 			"Generic_Rare_007": {
 				"name": "Focused",
@@ -9210,7 +9210,7 @@ let paragonData = {
 			},
 			"Generic_Rare_019": {
 				"name": "Suffused Resilience",
-				"description": "8.3% Damage Reduction from Enemies That Are affected by any DoT\n3% Resistance to All Elements\n\nTags: Resistance, Non-Physical, Damage Reduction."
+				"description": "8.3% Damage Reduction from Enemies That Are Taking Any DoT\n3% Resistance to All Elements\n\nTags: Resistance, Non-Physical, Damage Reduction."
 			},
 			"Generic_Rare_021": {
 				"name": "Calculated",
@@ -9438,11 +9438,11 @@ let paragonData = {
 			},
 			"Generic_Rare_091": {
 				"name": "Dragging Shadows",
-				"description": "5% Damage Reduction from Enemies That Are affected by any Shadow DoT\n9% Shadow Resistance\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction."
+				"description": "5% Damage Reduction from Enemies That Are Taking Shadow DoT\n9% Shadow Resistance\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction."
 			},
 			"Generic_Rare_092": {
 				"name": "Gnawing Darkness",
-				"description": "+5% Damage to affected by any Shadow DoT Enemies\n+5% Damage to Elites\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage."
+				"description": "+5% Damage to Taking Shadow DoT Enemies\n+5% Damage to Elites\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage."
 			},
 			"Generic_Rare_093": {
 				"name": "Malediction",
