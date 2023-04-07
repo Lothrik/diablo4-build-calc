@@ -18213,7 +18213,7 @@ let paragonData = {
 			},
 			"Rogue_Magic_DamageToTrapped": {
 				"name": "Damage To Trapped",
-				"description": "1% Damage Reduction from Enemies Affected By Trap Skills\n\nTags: Trap, Damage."
+				"description": "+1% Damage to Enemies Affected by Trap Skills\n\nTags: Trap, Damage."
 			},
 			"Rogue_Magic_DamageTrap": {
 				"name": "Damage Trap",
@@ -18265,7 +18265,7 @@ let paragonData = {
 			},
 			"Rogue_Rare_027": {
 				"name": "Engineering",
-				"description": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\nBonus: Another 5% Damage Reduction from Enemies Affected By Trap Skills if requirements met: {#}\n\nTags: Trap, Damage, Dexterity."
+				"description": "+5% Damage to Enemies Affected by Trap Skills\n+10 Dexterity\nBonus: Another +5% Damage to Enemies Affected by Trap Skills if requirements met: {#}\n\nTags: Trap, Damage, Dexterity."
 			},
 			"Rogue_Rare_028": {
 				"name": "Cunning",
@@ -18273,7 +18273,7 @@ let paragonData = {
 			},
 			"Rogue_Rare_029": {
 				"name": "Trapper",
-				"description": "+7.5% Trap Skill Damage\n3% Damage Reduction from Enemies Affected By Trap Skills\nBonus: Another +7.5% Trap Skill Damage if requirements met: {#}\n\nTags: Trap, Damage."
+				"description": "+7.5% Trap Skill Damage\n+3% Damage to Enemies Affected by Trap Skills\nBonus: Another +7.5% Trap Skill Damage if requirements met: {#}\n\nTags: Trap, Damage."
 			},
 			"StartNodeRogue": {
 				"name": "Paragon Starting Node"

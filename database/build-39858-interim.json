@@ -38830,7 +38830,7 @@
 			"Rogue_Magic_DamageToTrapped": {
 				"attributes": {
 					"210": {
-						"attribute_name": "Damage_Percent_Reduction_From_Targets_With_Skill_Tag#Trap",
+						"attribute_name": "Damage_Percent_Bonus_To_Targets_Affected_By_Skill_Tag#Trap",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.0,
@@ -38842,7 +38842,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "1% Damage Reduction from Enemies Affected By Trap Skills",
+				"desc": "+1% Damage to Enemies Affected by Trap Skills",
 				"name": "Damage To Trapped",
 				"tags": [
 					"Trap",
@@ -39215,7 +39215,7 @@
 						"stat_dword": 4294967295
 					},
 					"210": {
-						"attribute_name": "Damage_Percent_Reduction_From_Targets_With_Skill_Tag#Trap",
+						"attribute_name": "Damage_Percent_Bonus_To_Targets_Affected_By_Skill_Tag#Trap",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -39227,7 +39227,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\nBonus: Another 5% Damage Reduction from Enemies Affected By Trap Skills if requirements met: {#}",
+				"desc": "+5% Damage to Enemies Affected by Trap Skills\n+10 Dexterity\nBonus: Another +5% Damage to Enemies Affected by Trap Skills if requirements met: {#}",
 				"name": "Engineering",
 				"tags": [
 					"Trap",
@@ -39272,7 +39272,7 @@
 			"Rogue_Rare_029": {
 				"attributes": {
 					"210": {
-						"attribute_name": "Damage_Percent_Reduction_From_Targets_With_Skill_Tag#Trap",
+						"attribute_name": "Damage_Percent_Bonus_To_Targets_Affected_By_Skill_Tag#Trap",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
 								1.0,
@@ -39296,7 +39296,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "+7.5% Trap Skill Damage\n3% Damage Reduction from Enemies Affected By Trap Skills\nBonus: Another +7.5% Trap Skill Damage if requirements met: {#}",
+				"desc": "+7.5% Trap Skill Damage\n+3% Damage to Enemies Affected by Trap Skills\nBonus: Another +7.5% Trap Skill Damage if requirements met: {#}",
 				"name": "Trapper",
 				"tags": [
 					"Trap",
