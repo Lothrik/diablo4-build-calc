@@ -23976,7 +23976,7 @@
 			"Generic_Magic_DamageToHigh": {
 				"attributes": {
 					"927": {
-						"attribute_name": "Damage_Bonus_To_High_Health",
+						"attribute_name": "Damage_Bonus_To_HIgh_Health",
 						"formula_data": {
 							"2.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								2.5,
@@ -23988,7 +23988,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "Damage_Bonus_To_High_Health",
+				"desc": "+2.5% Damage to Healthy Enemies",
 				"name": "Damage To High",
 				"tags": [
 					"Healthy",
@@ -24235,7 +24235,7 @@
 			"Generic_Magic_Execute": {
 				"attributes": {
 					"762": {
-						"attribute_name": "Damage_Bonus_To_Low_Health",
+						"attribute_name": "On_Hit_Execute_Low_Health_Non_Elite_Chance",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.0,
@@ -24247,7 +24247,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+1% Damage to Injured Enemies",
+				"desc": "{c_label}Lucky Hit:{/c} Up to a +1% Chance to Execute Injured Non-Elites",
 				"name": "Execute",
 				"tags": [
 					"Execute",
@@ -25007,7 +25007,7 @@
 						"stat_dword": 4294967295
 					},
 					"927": {
-						"attribute_name": "Damage_Bonus_To_High_Health",
+						"attribute_name": "Damage_Bonus_To_HIgh_Health",
 						"formula_data": {
 							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								2.5,
@@ -25019,7 +25019,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "Damage_Bonus_To_High_Health\n+75 Armor",
+				"desc": "+12.5% Damage to Healthy Enemies\n+75 Armor",
 				"name": "Spearhead",
 				"tags": [
 					"Healthy",
@@ -25112,7 +25112,7 @@
 						"stat_dword": 4294967295
 					},
 					"927": {
-						"attribute_name": "Damage_Bonus_To_High_Health",
+						"attribute_name": "Damage_Bonus_To_HIgh_Health",
 						"formula_data": {
 							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								2.5,
@@ -25124,7 +25124,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "Damage_Bonus_To_High_Health\n+4.5% Critical Strike Damage",
+				"desc": "+12.5% Damage to Healthy Enemies\n+4.5% Critical Strike Damage",
 				"name": "Ruin",
 				"tags": [
 					"Critical Strikes",
@@ -25590,7 +25590,7 @@
 						"stat_dword": 4294967295
 					},
 					"762": {
-						"attribute_name": "Damage_Bonus_To_Low_Health",
+						"attribute_name": "On_Hit_Execute_Low_Health_Non_Elite_Chance",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -25602,7 +25602,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage to Injured Enemies\n+3% Attack Speed",
+				"desc": "{c_label}Lucky Hit:{/c} Up to a +5% Chance to Execute Injured Non-Elites\n+3% Attack Speed",
 				"name": "Culler",
 				"tags": [
 					"Execute",

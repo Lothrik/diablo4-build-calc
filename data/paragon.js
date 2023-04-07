@@ -9002,7 +9002,7 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageToHigh": {
 				"name": "Damage To High",
-				"description": "Damage_Bonus_To_High_Health\n\nTags: Healthy, Damage."
+				"description": "+2.5% Damage to Healthy Enemies\n\nTags: Healthy, Damage."
 			},
 			"Generic_Magic_DamageToLow": {
 				"name": "Damage To Low",
@@ -9050,7 +9050,7 @@ let paragonData = {
 			},
 			"Generic_Magic_Execute": {
 				"name": "Execute",
-				"description": "+1% Damage to Injured Enemies\n\nTags: Execute, Injured, Lucky Hit."
+				"description": "Lucky Hit: Up to a +1% Chance to Execute Injured Non-Elites\n\nTags: Execute, Injured, Lucky Hit."
 			},
 			"Generic_Magic_HPPercent": {
 				"name": "HP Percent",
@@ -9178,7 +9178,7 @@ let paragonData = {
 			},
 			"Generic_Rare_011": {
 				"name": "Spearhead",
-				"description": "Damage_Bonus_To_High_Health\n+75 Armor\n\nTags: Healthy, Armor, Damage."
+				"description": "+12.5% Damage to Healthy Enemies\n+75 Armor\n\nTags: Healthy, Armor, Damage."
 			},
 			"Generic_Rare_012": {
 				"name": "Cold Resilience",
@@ -9190,7 +9190,7 @@ let paragonData = {
 			},
 			"Generic_Rare_014": {
 				"name": "Ruin",
-				"description": "Damage_Bonus_To_High_Health\n+4.5% Critical Strike Damage\n\nTags: Critical Strikes, Healthy, Damage."
+				"description": "+12.5% Damage to Healthy Enemies\n+4.5% Critical Strike Damage\n\nTags: Critical Strikes, Healthy, Damage."
 			},
 			"Generic_Rare_015": {
 				"name": "Stifle",
@@ -9242,7 +9242,7 @@ let paragonData = {
 			},
 			"Generic_Rare_030": {
 				"name": "Culler",
-				"description": "+5% Damage to Injured Enemies\n+3% Attack Speed\n\nTags: Execute, Attack Speed, Injured, Lucky Hit."
+				"description": "Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites\n+3% Attack Speed\n\nTags: Execute, Attack Speed, Injured, Lucky Hit."
 			},
 			"Generic_Rare_031": {
 				"name": "Fire Resilience",
