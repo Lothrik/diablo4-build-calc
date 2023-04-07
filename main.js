@@ -686,7 +686,7 @@ function handleCanvasEvent(event) {
 	resetFrameTimer();
 	event.preventDefault();
 }
-function handleClassSelection(event) {
+function handleClassSelection(event, postHookFunction = null) {
 	const classText = $(classString).text();
 	if (classText != $("#className").text()) {
 		$("#classSelectBox").addClass("disabled");
@@ -706,7 +706,8 @@ function handleClassSelection(event) {
 			}
 			rebuildCanvas();
 			$("#loadingIndicator").addClass("disabled");
-		}, 100);
+			if (typeof postHookFunction == "function") setTimeout(postHookFunction, 50);
+		}, 50);
 	}
 }
 function handleGroupSelection(event) {
@@ -823,7 +824,8 @@ function handleReloadButton() {
 				.replace(/(,"[^:,]+")}/g, '$1:1}')				// restore final object value
 			);
 
-		$.when($("#classSelector").val(nodeData.className).change()).then(finishLoading);
+		$("#classSelector").val(nodeData.className);
+		handleClassSelection(null, finishLoading);
 
 		function finishLoading() {
 			delete nodeData.className;
