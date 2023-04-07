@@ -8747,7 +8747,7 @@ let paragonData = {
 			},
 			"Druid_Rare_006": {
 				"name": "Primal Instinct",
-				"description": "+5% Damage while Fortified\n+5% Fortify Generation\n\nTags: Fortify, Damage."
+				"description": "+5% Damage\n+5% Fortify Generation\n\nTags: Fortify, Damage."
 			},
 			"Druid_Rare_008": {
 				"name": "Crushing Earth",
@@ -8878,7 +8878,7 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageAfterDodge": {
 				"name": "Damage After Dodge",
-				"description": "+1% Damage for {#} Seconds After Dodging an Attack\n+500% Damage for {#} Seconds After Dodging an Attack\n\nTags: Dodge, Damage."
+				"description": "+1% Damage for {#} Seconds After Dodging an Attack\n\nTags: Dodge, Damage."
 			},
 			"Generic_Magic_DamageBleed": {
 				"name": "Damage Bleed",
@@ -9098,7 +9098,7 @@ let paragonData = {
 			},
 			"Generic_Magic_MoveSpeedEliteKill": {
 				"name": "Move Speed Elite Kill",
-				"description": "+3.5% Movement Speed for {#} Seconds After Killing an Elite\n+600% Movement Speed for {#} Seconds After Killing an Elite\n\nTags: Movement, Elite Monsters."
+				"description": "+3.5% Movement Speed for {#} Seconds After Killing an Elite\n\nTags: Movement, Elite Monsters."
 			},
 			"Generic_Magic_OverpowerDamage": {
 				"name": "Overpower Damage",
@@ -9202,7 +9202,7 @@ let paragonData = {
 			},
 			"Generic_Rare_017": {
 				"name": "Feint",
-				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n+500% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity\n\nTags: Dodge, Damage, Dexterity."
+				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity\n\nTags: Dodge, Damage, Dexterity."
 			},
 			"Generic_Rare_018": {
 				"name": "Safeguard",
@@ -9218,7 +9218,7 @@ let paragonData = {
 			},
 			"Generic_Rare_022": {
 				"name": "Hunter Killer",
-				"description": "+8.3% Damage to Elites\n+10.5% Movement Speed for {#} Seconds After Killing an Elite\n+600% Movement Speed for {#} Seconds After Killing an Elite\n\nTags: Elite Monsters, Damage, Movement."
+				"description": "+8.3% Damage to Elites\n+10.5% Movement Speed for {#} Seconds After Killing an Elite\n\nTags: Elite Monsters, Damage, Movement."
 			},
 			"Generic_Rare_023": {
 				"name": "Deathbringer",
@@ -9334,7 +9334,7 @@ let paragonData = {
 			},
 			"Generic_Rare_065": {
 				"name": "Discerning",
-				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n+500% Damage for {#} Seconds After Dodging an Attack\n+5% Damage to Elites\n\nTags: Elite Monsters, Dodge, Damage."
+				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n+5% Damage to Elites\n\nTags: Elite Monsters, Dodge, Damage."
 			},
 			"Generic_Rare_066": {
 				"name": "Raw Power",
@@ -13841,7 +13841,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_009": {
 				"name": "Invigorated",
-				"description": "+5% Damage\n+500% Damage for {#} Seconds After Picking Up a Blood Orb\n+3.8% Damage while Healthy\n\nTags: Blood Orb, Healthy, Damage."
+				"description": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+3.8% Damage while Healthy\n\nTags: Blood Orb, Healthy, Damage."
 			},
 			"Necromancer_Rare_011": {
 				"name": "Unassailable",
@@ -13901,7 +13901,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_034": {
 				"name": "Blood-Empowered",
-				"description": "+500% Damage for {#} Seconds After Picking Up a Blood Orb\n+5% Damage\n+10 Intelligence\n\nTags: Damage, Intelligence, Blood Orb."
+				"description": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence\n\nTags: Damage, Intelligence, Blood Orb."
 			},
 			"Necromancer_Rare_035": {
 				"name": "Lingering Shadows",

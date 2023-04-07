@@ -1275,30 +1275,105 @@
 				]
 			},
 			"Barbarian_Magic_BerserkDamage": {
+				"attributes": {
+					"789": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "103860802",
+						"formula_name": "ParagonNodeDamageBonusBerserk_Magic",
+						"stat_dword": 213812
+					}
+				},
 				"name": "Berserk Damage",
 				"tags": [
 					"Keyword_Berserk"
 				]
 			},
 			"Barbarian_Magic_BerserkDuration": {
+				"attributes": {
+					"815": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "2117975586",
+						"formula_name": "ParagonNodeBerserkDuration_Magic",
+						"stat_dword": 213812
+					}
+				},
 				"name": "Berserk Duration",
 				"tags": [
 					"Keyword_Berserk"
 				]
 			},
 			"Barbarian_Magic_Fury": {
+				"attributes": {
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2526736029",
+						"formula_name": "ParagonNodeResourceBonus_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Fury",
 				"tags": [
 					"Search_ResourceFury"
 				]
 			},
 			"Barbarian_Magic_FuryGeneration": {
+				"attributes": {
+					"149": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "1335165575",
+						"formula_name": "ParagonNodeResourceRegen_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Fury Generation",
 				"tags": [
 					"Search_ResourceFury"
 				]
 			},
 			"Barbarian_Rare_001": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								0.5,
+								88
+							]
+						},
+						"formula_hash": "2680284280",
+						"formula_name": "ParagonNodeArmorBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Iron Strength",
 				"tags": [
 					"Search_Armor",
@@ -1306,6 +1381,29 @@
 				]
 			},
 			"Barbarian_Rare_002": {
+				"attributes": {
+					"181": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "1699963161",
+						"formula_name": "ParagonNodeAttackSpeed_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Onslaught",
 				"tags": [
 					"Search_AttackSpeed",
@@ -1313,6 +1411,30 @@
 				]
 			},
 			"Barbarian_Rare_003": {
+				"attributes": {
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3660877688",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"789": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "103860802",
+						"formula_name": "ParagonNodeDamageBonusBerserk_Magic",
+						"stat_dword": 213812
+					}
+				},
 				"name": "Berserker",
 				"tags": [
 					"Keyword_Berserk",
@@ -1320,12 +1442,59 @@
 				]
 			},
 			"Barbarian_Rare_004": {
+				"attributes": {
+					"587": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "2870991805",
+						"formula_name": "ParagonNodeDamageBonusDot_RareMajor",
+						"stat_dword": 0
+					},
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "3127291753",
+						"formula_name": "ParagonNodeDamageBonusToDotted_RareMinor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Flayer",
 				"tags": [
 					"Search_Bleed"
 				]
 			},
 			"Barbarian_Rare_005": {
+				"attributes": {
+					"587": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "2870991805",
+						"formula_name": "ParagonNodeDamageBonusDot_RareMajor",
+						"stat_dword": 0
+					},
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Butcher",
 				"tags": [
 					"Search_Bleed",
@@ -1333,6 +1502,30 @@
 				]
 			},
 			"Barbarian_Rare_006": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 0
+					},
+					"587": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "2870991805",
+						"formula_name": "ParagonNodeDamageBonusDot_RareMajor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Lacerator",
 				"tags": [
 					"Search_Bleed",
@@ -1340,12 +1533,59 @@
 				]
 			},
 			"Barbarian_Rare_008": {
+				"attributes": {
+					"210": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 955626
+					},
+					"250": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								3.0,
+								89
+							]
+						},
+						"formula_hash": "1486786123",
+						"formula_name": "ParagonNodeDamageBonusOverpower_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Bludgeoner",
 				"tags": [
 					"Keyword_Overpower"
 				]
 			},
 			"Barbarian_Rare_009": {
+				"attributes": {
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"925": {
+						"formula_data": {
+							"1.25 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.25,
+								88
+							]
+						},
+						"formula_hash": "724043812",
+						"formula_name": "ParagonNodeDamageReductionWhileHealthy_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Vigor",
 				"tags": [
 					"Keyword_Healthy",
@@ -1353,6 +1593,30 @@
 				]
 			},
 			"Barbarian_Rare_010": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 3
+					}
+				},
 				"name": "Cold Conditioned",
 				"tags": [
 					"Search_Cold",
@@ -1361,6 +1625,30 @@
 				]
 			},
 			"Barbarian_Rare_015": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "343139285",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Tenacity",
 				"tags": [
 					"Search_Life",
@@ -1368,6 +1656,29 @@
 				]
 			},
 			"Barbarian_Rare_016": {
+				"attributes": {
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "52645716",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_RareMajor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Grit",
 				"tags": [
 					"Search_Bleed",
@@ -1375,6 +1686,29 @@
 				]
 			},
 			"Barbarian_Rare_018": {
+				"attributes": {
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1207895875",
+						"formula_name": "ParagonNodeResistAll_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Conditioned",
 				"tags": [
 					"Search_Resistance",
@@ -1383,6 +1717,30 @@
 				]
 			},
 			"Barbarian_Rare_019": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 1
+					}
+				},
 				"name": "Fire Conditioned",
 				"tags": [
 					"Search_Resistance",
@@ -1391,12 +1749,59 @@
 				]
 			},
 			"Barbarian_Rare_020": {
+				"attributes": {
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3191937887",
+						"formula_name": "ParagonNodeResourceBonus_RareMajor",
+						"stat_dword": 1
+					},
+					"315": {
+						"formula_data": {
+							"1": [
+								1.0
+							]
+						},
+						"formula_hash": "480808077",
+						"formula_name": "ParagonNodeResourceOnKill_RareMinor",
+						"stat_dword": 1
+					}
+				},
 				"name": "Hungering Fury",
 				"tags": [
 					"Search_ResourceFury"
 				]
 			},
 			"Barbarian_Rare_021": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 2
+					}
+				},
 				"name": "Lightning Conditioned",
 				"tags": [
 					"Search_Resistance",
@@ -1405,6 +1810,30 @@
 				]
 			},
 			"Barbarian_Rare_022": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Brawn",
 				"tags": [
 					"Search_Physical",
@@ -1412,6 +1841,30 @@
 				]
 			},
 			"Barbarian_Rare_023": {
+				"attributes": {
+					"7": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"789": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "1995850116",
+						"formula_name": "ParagonNodeDamageBonusBerserk_RareMajor",
+						"stat_dword": 213812
+					}
+				},
 				"name": "Fierce",
 				"tags": [
 					"Keyword_Berserk",
@@ -1419,6 +1872,29 @@
 				]
 			},
 			"Barbarian_Rare_024": {
+				"attributes": {
+					"239": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2568269569",
+						"formula_name": "ParagonNodeCritDamage_RareMajor",
+						"stat_dword": 955638
+					},
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Heavy Blows",
 				"tags": [
 					"Search_Critical",
@@ -1426,12 +1902,60 @@
 				]
 			},
 			"Barbarian_Rare_025": {
+				"attributes": {
+					"181": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "1700255013",
+						"formula_name": "ParagonNodeAttackSpeed_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"210": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 955638
+					}
+				},
 				"name": "Wild Force",
 				"tags": [
 					"Search_AttackSpeed"
 				]
 			},
 			"Barbarian_Rare_026": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 4
+					}
+				},
 				"name": "Poison Conditioned",
 				"tags": [
 					"Search_Resistance",
@@ -1440,12 +1964,60 @@
 				]
 			},
 			"Barbarian_Rare_030": {
+				"attributes": {
+					"210": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 955625
+					},
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "762556853",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Destroyer",
 				"tags": [
 					"Keyword_Vulnerable"
 				]
 			},
 			"Barbarian_Rare_032": {
+				"attributes": {
+					"789": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "1995850116",
+						"formula_name": "ParagonNodeDamageBonusBerserk_RareMajor",
+						"stat_dword": 213812
+					},
+					"815": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.5,
+								89
+							]
+						},
+						"formula_hash": "1377737072",
+						"formula_name": "ParagonNodeBerserkDuration_RareMinor",
+						"stat_dword": 213812
+					}
+				},
 				"name": "Enraged",
 				"tags": [
 					"Keyword_Berserk"
@@ -9890,6 +10462,19 @@
 				]
 			},
 			"Druid_Magic_CriticalDamageEarth": {
+				"attributes": {
+					"230": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "1690435903",
+						"formula_name": "ParagonNodeCritDamage_Magic",
+						"stat_dword": 1400607680
+					}
+				},
 				"name": "Critical Damage Earth",
 				"tags": [
 					"Skill_Nature_Magic_Earth",
@@ -9897,66 +10482,219 @@
 				]
 			},
 			"Druid_Magic_DamageBasic": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"3.3333 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								3.333,
+								85
+							]
+						},
+						"formula_hash": "1962595768",
+						"formula_name": "ParagonNodeDamageBonusPrimary_Magic",
+						"stat_dword": 3340001955
+					}
+				},
 				"name": "Damage Basic",
 				"tags": [
 					"Skill_Primary_Basic"
 				]
 			},
 			"Druid_Magic_DamageBear": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 3828355704
+					}
+				},
 				"name": "Damage Bear",
 				"tags": [
 					"Skill_Bear"
 				]
 			},
 			"Druid_Magic_DamageCore": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1.4 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.4,
+								85
+							]
+						},
+						"formula_hash": "3457765724",
+						"formula_name": "ParagonNodeDamageBonusSecondary_Magic",
+						"stat_dword": 2834424330
+					}
+				},
 				"name": "Damage Core",
 				"tags": [
 					"Skill_Primary_Core"
 				]
 			},
 			"Druid_Magic_DamageEarth": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 1400607680
+					}
+				},
 				"name": "Damage Earth",
 				"tags": [
 					"Skill_Nature_Magic_Earth"
 				]
 			},
 			"Druid_Magic_DamageNature": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 3359304269
+					}
+				},
 				"name": "Damage Nature",
 				"tags": [
 					"Skill_Nature_Magic"
 				]
 			},
 			"Druid_Magic_DamageShapeshifting": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 1713745003
+					}
+				},
 				"name": "Damage Shapeshifting",
 				"tags": [
 					"Skill_Shapeshifting"
 				]
 			},
 			"Druid_Magic_DamageStorm": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 1417890049
+					}
+				},
 				"name": "Damage Storm",
 				"tags": [
 					"Skill_Nature_Magic_Storm"
 				]
 			},
 			"Druid_Magic_DamageWhileBear": {
+				"attributes": {
+					"786": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Damage While Bear",
 				"tags": [
 					"Skill_Bear"
 				]
 			},
 			"Druid_Magic_Spirit": {
+				"attributes": {
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2526736029",
+						"formula_name": "ParagonNodeResourceBonus_Magic",
+						"stat_dword": 5
+					}
+				},
 				"name": "Spirit",
 				"tags": [
 					"Search_ResourceSpirit"
 				]
 			},
 			"Druid_Magic_SpiritGeneration": {
+				"attributes": {
+					"149": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "1335165575",
+						"formula_name": "ParagonNodeResourceRegen_Magic",
+						"stat_dword": 5
+					}
+				},
 				"name": "Spirit Generation",
 				"tags": [
 					"Search_ResourceSpirit"
 				]
 			},
 			"Druid_Rare_003": {
+				"attributes": {
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "762265001",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Deluge",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -9964,6 +10702,29 @@
 				]
 			},
 			"Druid_Rare_004": {
+				"attributes": {
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "52645716",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_RareMajor",
+						"stat_dword": 4
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Nature-born",
 				"tags": [
 					"Search_Poison",
@@ -9971,18 +10732,90 @@
 				]
 			},
 			"Druid_Rare_005": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 4
+					},
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3126999901",
+						"formula_name": "ParagonNodeDamageBonusToDotted_RareMajor",
+						"stat_dword": 4
+					}
+				},
 				"name": "Toxic Bane",
 				"tags": [
 					"Search_Poison"
 				]
 			},
 			"Druid_Rare_006": {
+				"attributes": {
+					"614": {
+						"formula_data": {
+							"1.67 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.67,
+								90
+							]
+						},
+						"formula_hash": "2912847270",
+						"formula_name": "ParagonNodeFortifyBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"615": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Primal Instinct",
 				"tags": [
 					"Keyword_Fortify"
 				]
 			},
 			"Druid_Rare_008": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1400607680
+					},
+					"236": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.5,
+								89
+							]
+						},
+						"formula_hash": "778604011",
+						"formula_name": "ParagonNodeDamageBonusToCC_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Crushing Earth",
 				"tags": [
 					"Skill_Nature_Magic_Earth",
@@ -9990,6 +10823,29 @@
 				]
 			},
 			"Druid_Rare_009": {
+				"attributes": {
+					"230": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2568269569",
+						"formula_name": "ParagonNodeCritDamage_RareMajor",
+						"stat_dword": 1400607680
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Earthen Power",
 				"tags": [
 					"Search_Critical",
@@ -9998,6 +10854,29 @@
 				]
 			},
 			"Druid_Rare_010": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 3359304269
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Nature's Will",
 				"tags": [
 					"Skill_Nature_Magic",
@@ -10005,6 +10884,30 @@
 				]
 			},
 			"Druid_Rare_012": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 3359304269
+					},
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3660877688",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Devastation",
 				"tags": [
 					"Skill_Nature_Magic",
@@ -10012,6 +10915,19 @@
 				]
 			},
 			"Druid_Rare_013": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"3.3333 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								3.333,
+								89
+							]
+						},
+						"formula_hash": "170494982",
+						"formula_name": "ParagonNodeDamageBonusPrimary_RareMinor",
+						"stat_dword": 3340001955
+					}
+				},
 				"name": "Spiritual Power",
 				"tags": [
 					"Skill_Primary_Core",
@@ -10019,6 +10935,29 @@
 				]
 			},
 			"Druid_Rare_014": {
+				"attributes": {
+					"786": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Grizzly",
 				"tags": [
 					"Skill_Bear",
@@ -10026,6 +10965,30 @@
 				]
 			},
 			"Druid_Rare_015": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "343139285",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3192229739",
+						"formula_name": "ParagonNodeResourceBonus_RareMinor",
+						"stat_dword": 5
+					}
+				},
 				"name": "Natural Attunement",
 				"tags": [
 					"Search_Life",
@@ -10033,12 +10996,58 @@
 				]
 			},
 			"Druid_Rare_017": {
+				"attributes": {
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3191937887",
+						"formula_name": "ParagonNodeResourceBonus_RareMajor",
+						"stat_dword": 5
+					},
+					"315": {
+						"formula_data": {
+							"1": [
+								1.0
+							]
+						},
+						"formula_hash": "480808077",
+						"formula_name": "ParagonNodeResourceOnKill_RareMinor",
+						"stat_dword": 5
+					}
+				},
 				"name": "Reclamation",
 				"tags": [
 					"Search_ResourceSpirit"
 				]
 			},
 			"Druid_Rare_018": {
+				"attributes": {
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 4
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Sinking Fangs",
 				"tags": [
 					"Search_Poison",
@@ -10046,6 +11055,29 @@
 				]
 			},
 			"Druid_Rare_019": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1713745003
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Shapeshifter",
 				"tags": [
 					"Skill_Shapeshifting",
@@ -10053,6 +11085,30 @@
 				]
 			},
 			"Druid_Rare_020": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1417890049
+					},
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "762556853",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Stormcaller",
 				"tags": [
 					"Skill_Nature_Magic_Storm",
@@ -10060,6 +11116,30 @@
 				]
 			},
 			"Druid_Rare_026": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 3828355704
+					},
+					"250": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								3.0,
+								89
+							]
+						},
+						"formula_hash": "1486786123",
+						"formula_name": "ParagonNodeDamageBonusOverpower_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Ursine",
 				"tags": [
 					"Skill_Bear",
@@ -10067,6 +11147,29 @@
 				]
 			},
 			"Druid_Rare_027": {
+				"attributes": {
+					"390": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								0.5,
+								88
+							]
+						},
+						"formula_hash": "2680284280",
+						"formula_name": "ParagonNodeArmorBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Battleworn Hide",
 				"tags": [
 					"Search_Armor",
@@ -10075,6 +11178,29 @@
 				]
 			},
 			"Druid_Rare_030": {
+				"attributes": {
+					"149": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3432453193",
+						"formula_name": "ParagonNodeResourceRegen_RareMajor",
+						"stat_dword": 5
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Harmony",
 				"tags": [
 					"Search_ResourceSpirit",
@@ -20338,6 +21464,48 @@
 		},
 		"Paragon (Node)": {
 			"Generic_Gate": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1119971867",
+						"formula_name": "ParagonNodeCoreStat_Normal",
+						"stat_dword": 4294967295
+					},
+					"7": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1119971867",
+						"formula_name": "ParagonNodeCoreStat_Normal",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1119971867",
+						"formula_name": "ParagonNodeCoreStat_Normal",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1119971867",
+						"formula_name": "ParagonNodeCoreStat_Normal",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Board Attachment Gate",
 				"tags": [
 					"Search_Strength",
@@ -20347,12 +21515,38 @@
 				]
 			},
 			"Generic_Magic_Armor": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								0.5,
+								86
+							]
+						},
+						"formula_hash": "4074312502",
+						"formula_name": "ParagonNodeArmorBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Armor",
 				"tags": [
 					"Search_Armor"
 				]
 			},
 			"Generic_Magic_ArmorWhileBear": {
+				"attributes": {
+					"390": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								0.5,
+								86
+							]
+						},
+						"formula_hash": "4074312502",
+						"formula_name": "ParagonNodeArmorBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Armor While Bear",
 				"tags": [
 					"Search_Armor",
@@ -20360,36 +21554,114 @@
 				]
 			},
 			"Generic_Magic_AttackSpeed": {
+				"attributes": {
+					"181": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4245382999",
+						"formula_name": "ParagonNodeAttackSpeed_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Attack Speed",
 				"tags": [
 					"Search_AttackSpeed"
 				]
 			},
 			"Generic_Magic_BarrierPotency": {
+				"attributes": {
+					"1006": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "1680721623",
+						"formula_name": "ParagonNodeBarrierPotency_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Barrier Potency",
 				"tags": [
 					"Keyword_Barrier"
 				]
 			},
 			"Generic_Magic_BonusFortify": {
+				"attributes": {
+					"614": {
+						"formula_data": {
+							"1.67 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.67,
+								86
+							]
+						},
+						"formula_hash": "4071882584",
+						"formula_name": "ParagonNodeFortifyBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Bonus Fortify",
 				"tags": [
 					"Keyword_Fortify"
 				]
 			},
 			"Generic_Magic_CCDurationReduction": {
+				"attributes": {
+					"293": {
+						"formula_data": {
+							"2 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								2.0,
+								86
+							]
+						},
+						"formula_hash": "1091318727",
+						"formula_name": "ParagonNodeCCDurationReduction_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "CC Duration Reduction",
 				"tags": [
 					"Search_CrowdControl"
 				]
 			},
 			"Generic_Magic_Chill": {
+				"attributes": {
+					"295": {
+						"formula_data": {
+							"2 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								2.0,
+								86
+							]
+						},
+						"formula_hash": "2846286369",
+						"formula_name": "ParagonNodeChillBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Chill",
 				"tags": [
 					"Keyword_Chill"
 				]
 			},
 			"Generic_Magic_CritDamageLightning": {
+				"attributes": {
+					"232": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "1690435903",
+						"formula_name": "ParagonNodeCritDamage_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Crit Damage Lightning",
 				"tags": [
 					"Search_Critical",
@@ -20397,18 +21669,57 @@
 				]
 			},
 			"Generic_Magic_CriticalDamage": {
+				"attributes": {
+					"228": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "1690435903",
+						"formula_name": "ParagonNodeCritDamage_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Critical Damage",
 				"tags": [
 					"Search_Critical"
 				]
 			},
 			"Generic_Magic_CriticalDamage1H": {
+				"attributes": {
+					"239": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "1690435903",
+						"formula_name": "ParagonNodeCritDamage_Magic",
+						"stat_dword": 955638
+					}
+				},
 				"name": "Critical Damage 1H",
 				"tags": [
 					"Search_Critical"
 				]
 			},
 			"Generic_Magic_CriticalDamageElemental": {
+				"attributes": {
+					"233": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "1690435903",
+						"formula_name": "ParagonNodeCritDamage_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Critical Damage Elemental",
 				"tags": [
 					"Search_NonPhysical",
@@ -20416,6 +21727,19 @@
 				]
 			},
 			"Generic_Magic_CriticalDamageToCC": {
+				"attributes": {
+					"236": {
+						"formula_data": {
+							"2 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								2.0,
+								85
+							]
+						},
+						"formula_hash": "3629669576",
+						"formula_name": "ParagonNodeCritDamageToCC_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Critical Damage To CC",
 				"tags": [
 					"Search_Critical",
@@ -20423,264 +21747,910 @@
 				]
 			},
 			"Generic_Magic_DRStandStill": {
+				"attributes": {
+					"931": {
+						"formula_data": {
+							"1.3333 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.333,
+								86
+							]
+						},
+						"formula_hash": "1063029515",
+						"formula_name": "ParagonNodeDamageReductionWhileStanding_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "DR Stand Still",
 				"tags": [
 					"Keyword_Stationary"
 				]
 			},
 			"Generic_Magic_Damage": {
+				"attributes": {
+					"202": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage"
 			},
 			"Generic_Magic_Damage1H": {
+				"attributes": {
+					"210": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 955638
+					}
+				},
 				"name": "Damage 1H"
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
+				"attributes": {
+					"210": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 955626
+					}
+				},
 				"name": "Damage 2H Bludgeoning"
 			},
 			"Generic_Magic_Damage2HSlashing": {
+				"attributes": {
+					"210": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 955625
+					}
+				},
 				"name": "Damage 2H Slashing"
 			},
 			"Generic_Magic_DamageAfterDodge": {
+				"attributes": {
+					"769": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "3713596681",
+						"formula_name": "ParagonNodeDamageBonusAfterDodge_Magic",
+						"stat_dword": 4294967295
+					},
+					"770": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "151225878",
+						"formula_name": "ParagonNodeDodgeDamageDuration",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage After Dodge",
 				"tags": [
 					"SEARCH_DODGE"
 				]
 			},
 			"Generic_Magic_DamageBleed": {
+				"attributes": {
+					"587": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "203173883",
+						"formula_name": "ParagonNodeDamageBonusDot_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Damage Bleed",
 				"tags": [
 					"Search_Bleed"
 				]
 			},
 			"Generic_Magic_DamageBurn": {
+				"attributes": {
+					"587": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "203173883",
+						"formula_name": "ParagonNodeDamageBonusDot_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Damage Burn",
 				"tags": [
 					"Search_Burn"
 				]
 			},
 			"Generic_Magic_DamageCold": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 3
+					}
+				},
 				"name": "Damage Cold",
 				"tags": [
 					"Search_Cold"
 				]
 			},
 			"Generic_Magic_DamageElemental": {
+				"attributes": {
+					"206": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Elemental",
 				"tags": [
 					"Search_NonPhysical"
 				]
 			},
 			"Generic_Magic_DamageFire": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Damage Fire",
 				"tags": [
 					"Search_Fire"
 				]
 			},
 			"Generic_Magic_DamageLightning": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Damage Lightning",
 				"tags": [
 					"Search_Lightning"
 				]
 			},
 			"Generic_Magic_DamagePhysical": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Damage Physical",
 				"tags": [
 					"Search_Physical"
 				]
 			},
 			"Generic_Magic_DamagePoison": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 4
+					}
+				},
 				"name": "Damage Poison"
 			},
 			"Generic_Magic_DamageReductionFromBleedingTarget": {
+				"attributes": {
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "853504018",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Damage Reduction From Bleeding Target",
 				"tags": [
 					"Search_Bleed"
 				]
 			},
 			"Generic_Magic_DamageReductionFromBurningTarget": {
+				"attributes": {
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "853504018",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Damage Reduction From Burning Target",
 				"tags": [
 					"Search_Burn"
 				]
 			},
 			"Generic_Magic_DamageReductionFromChilledTarget": {
+				"attributes": {
+					"792": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.5,
+								86
+							]
+						},
+						"formula_hash": "526826004",
+						"formula_name": "ParagonNodeDamageReductionFromCC_Magic",
+						"stat_dword": 9
+					}
+				},
 				"name": "Damage Reduction From Chilled Target",
 				"tags": [
 					"Keyword_Chill"
 				]
 			},
 			"Generic_Magic_DamageReductionFromDot": {
+				"attributes": {
+					"589": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.667,
+								86
+							]
+						},
+						"formula_hash": "3297050517",
+						"formula_name": "ParagonNodeDamageReductionFromDot_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Reduction From Dot"
 			},
 			"Generic_Magic_DamageReductionFromElite": {
+				"attributes": {
+					"777": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.667,
+								86
+							]
+						},
+						"formula_hash": "1727655361",
+						"formula_name": "ParagonNodeDamageReductionFromElite_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Reduction From Elite",
 				"tags": [
 					"Search_Elite"
 				]
 			},
 			"Generic_Magic_DamageReductionFromFar": {
+				"attributes": {
+					"917": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.5,
+								86
+							]
+						},
+						"formula_hash": "670024647",
+						"formula_name": "ParagonNodeDamageReductionFromFar_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Reduction From Far"
 			},
 			"Generic_Magic_DamageReductionFromNear": {
+				"attributes": {
+					"916": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.2,
+								86
+							]
+						},
+						"formula_hash": "4270818484",
+						"formula_name": "ParagonNodeDamageReductionFromNear_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Reduction From Near"
 			},
 			"Generic_Magic_DamageReductionFromPoisonedTarget": {
+				"attributes": {
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "853504018",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_Magic",
+						"stat_dword": 4
+					}
+				},
 				"name": "Damage Reduction From Poisoned Target",
 				"tags": [
 					"Search_Poison"
 				]
 			},
 			"Generic_Magic_DamageReductionFromShadowDoTed": {
-				"name": "Damage Reduction From Shadow Do Ted",
+				"attributes": {
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "853504018",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_Magic",
+						"stat_dword": 5
+					}
+				},
+				"name": "Damage Reduction From Shadow DoTed",
 				"tags": [
 					"Search_ShadowDOT"
 				]
 			},
 			"Generic_Magic_DamageReductionFromSlowedTarget": {
+				"attributes": {
+					"792": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.5,
+								86
+							]
+						},
+						"formula_hash": "526826004",
+						"formula_name": "ParagonNodeDamageReductionFromCC_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Damage Reduction From Slowed Target",
 				"tags": [
 					"Search_CrowdControl"
 				]
 			},
 			"Generic_Magic_DamageReductionFromVulnerable": {
+				"attributes": {
+					"794": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "936415198",
+						"formula_name": "ParagonNodeDamageReductionFromVulnerable_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Reduction From Vulnerable",
 				"tags": [
 					"Keyword_Vulnerable"
 				]
 			},
 			"Generic_Magic_DamageReductionWhileFortified": {
+				"attributes": {
+					"613": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "4091465423",
+						"formula_name": "ParagonNodeDamageReductionWhileFortified_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Reduction While Fortified",
 				"tags": [
 					"Keyword_Fortify"
 				]
 			},
 			"Generic_Magic_DamageReductionWhileHealthy": {
+				"attributes": {
+					"925": {
+						"formula_data": {
+							"1.25 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.25,
+								86
+							]
+						},
+						"formula_hash": "608714978",
+						"formula_name": "ParagonNodeDamageReductionWhileHealthy_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Reduction While Healthy",
 				"tags": [
 					"Keyword_Healthy"
 				]
 			},
 			"Generic_Magic_DamageReductionWithBarrier": {
+				"attributes": {
+					"929": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "1331791514",
+						"formula_name": "ParagonNodeDamageReduction_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Reduction With Barrier",
 				"tags": [
 					"Keyword_Barrier"
 				]
 			},
 			"Generic_Magic_DamageShadow": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 5
+					}
+				},
 				"name": "Damage Shadow",
 				"tags": [
 					"Search_Shadow"
 				]
 			},
 			"Generic_Magic_DamageShadowDoT": {
-				"name": "Damage Shadow Do T",
+				"attributes": {
+					"587": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "203173883",
+						"formula_name": "ParagonNodeDamageBonusDot_Magic",
+						"stat_dword": 5
+					}
+				},
+				"name": "Damage Shadow DoT",
 				"tags": [
 					"Search_ShadowDOT"
 				]
 			},
 			"Generic_Magic_DamageStandStill": {
+				"attributes": {
+					"932": {
+						"formula_data": {
+							"1.3333 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.333,
+								85
+							]
+						},
+						"formula_hash": "2623465925",
+						"formula_name": "ParagonNodeDamageBonusWhileStanding_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Stand Still",
 				"tags": [
 					"Keyword_Stationary"
 				]
 			},
 			"Generic_Magic_DamageToBleed": {
+				"attributes": {
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "1256177563",
+						"formula_name": "ParagonNodeDamageBonusToDotted_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Damage To Bleed",
 				"tags": [
 					"Search_Bleed"
 				]
 			},
 			"Generic_Magic_DamageToBurning": {
+				"attributes": {
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "1256177563",
+						"formula_name": "ParagonNodeDamageBonusToDotted_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Damage To Burning",
 				"tags": [
 					"Search_Burn"
 				]
 			},
 			"Generic_Magic_DamageToCC": {
+				"attributes": {
+					"783": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "872590621",
+						"formula_name": "ParagonNodeDamageBonusToCC_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage To CC",
 				"tags": [
 					"Search_CrowdControl"
 				]
 			},
 			"Generic_Magic_DamageToChill": {
+				"attributes": {
+					"781": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "872590621",
+						"formula_name": "ParagonNodeDamageBonusToCC_Magic",
+						"stat_dword": 9
+					}
+				},
 				"name": "Damage To Chill",
 				"tags": [
 					"Keyword_Chill"
 				]
 			},
 			"Generic_Magic_DamageToElite": {
+				"attributes": {
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2130309162",
+						"formula_name": "ParagonNodeDamageBonusToElite_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage To Elite",
 				"tags": [
 					"Search_Elite"
 				]
 			},
 			"Generic_Magic_DamageToFar": {
+				"attributes": {
+					"910": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "3490322416",
+						"formula_name": "ParagonNodeDamageBonusToFar_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage To Far"
 			},
 			"Generic_Magic_DamageToHigh": {
+				"attributes": {
+					"922": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								2.5,
+								85
+							]
+						},
+						"formula_hash": "713420838",
+						"formula_name": "ParagonNodeDamageBonusToHealthy_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage To High",
 				"tags": [
 					"Keyword_Healthy"
 				]
 			},
 			"Generic_Magic_DamageToLow": {
+				"attributes": {
+					"920": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								2.5,
+								85
+							]
+						},
+						"formula_hash": "3407570977",
+						"formula_name": "ParagonNodeDamageBonusToLowHP_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage To Low",
 				"tags": [
 					"Keyword_Injured"
 				]
 			},
 			"Generic_Magic_DamageToNear": {
+				"attributes": {
+					"908": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.2,
+								85
+							]
+						},
+						"formula_hash": "2851364349",
+						"formula_name": "ParagonNodeDamageBonusToNear_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage To Near"
 			},
 			"Generic_Magic_DamageToPoison": {
+				"attributes": {
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "1256177563",
+						"formula_name": "ParagonNodeDamageBonusToDotted_Magic",
+						"stat_dword": 4
+					}
+				},
 				"name": "Damage To Poison",
 				"tags": [
 					"Search_Poison"
 				]
 			},
 			"Generic_Magic_DamageToShadowDoTed": {
-				"name": "Damage To Shadow Do Ted",
+				"attributes": {
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "1256177563",
+						"formula_name": "ParagonNodeDamageBonusToDotted_Magic",
+						"stat_dword": 5
+					}
+				},
+				"name": "Damage To Shadow DoTed",
 				"tags": [
 					"Search_ShadowDOT"
 				]
 			},
 			"Generic_Magic_DamageToVulnerable": {
+				"attributes": {
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4010769383",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage To Vulnerable",
 				"tags": [
 					"Keyword_Vulnerable"
 				]
 			},
 			"Generic_Magic_DamageWhileFortified": {
+				"attributes": {
+					"615": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4046259401",
+						"formula_name": "ParagonNodeDamageBonusWhileFortified_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage While Fortified",
 				"tags": [
 					"Keyword_Fortify"
 				]
 			},
 			"Generic_Magic_DamageWhileHealthy": {
+				"attributes": {
+					"926": {
+						"formula_data": {
+							"1.25 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.25,
+								85
+							]
+						},
+						"formula_hash": "2998710364",
+						"formula_name": "ParagonNodeDamageBonusWhileHealthy_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage While Healthy",
 				"tags": [
 					"Keyword_Healthy"
 				]
 			},
 			"Generic_Magic_Dex": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"7": [
+								7.0
+							]
+						},
+						"formula_hash": "943291059",
+						"formula_name": "ParagonNodeCoreStat_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Dexterity",
 				"tags": [
 					"Search_DEXTERITY"
 				]
 			},
 			"Generic_Magic_Essence": {
+				"attributes": {
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2526736029",
+						"formula_name": "ParagonNodeResourceBonus_Magic",
+						"stat_dword": 6
+					}
+				},
 				"name": "Essence",
 				"tags": [
 					"Search_ResourceEssence"
 				]
 			},
 			"Generic_Magic_EssenceRegen": {
+				"attributes": {
+					"134": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								2.5,
+								85
+							]
+						},
+						"formula_hash": "3945130181",
+						"formula_name": "ParagonNodeEssenceRegen_Magic",
+						"stat_dword": 6
+					}
+				},
 				"name": "Essence Regen",
 				"tags": [
 					"Search_ResourceEssence"
 				]
 			},
 			"Generic_Magic_Execute": {
+				"attributes": {
+					"757": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "3576287553",
+						"formula_name": "ParagonNodeExecute_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Execute",
 				"tags": [
 					"Keyword_Execute",
@@ -20688,42 +22658,132 @@
 				]
 			},
 			"Generic_Magic_HPPercent": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "3493850131",
+						"formula_name": "ParagonNodeHPMaxBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "HP Percent",
 				"tags": [
 					"Search_Life"
 				]
 			},
 			"Generic_Magic_HPRegen": {
+				"attributes": {
+					"537": {
+						"formula_data": {
+							"0.3333 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								0.333,
+								86
+							]
+						},
+						"formula_hash": "2274940119",
+						"formula_name": "ParagonNodeHPRegen_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "HP Regen",
 				"tags": [
 					"Search_Healing"
 				]
 			},
 			"Generic_Magic_HealingBonus": {
+				"attributes": {
+					"59": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "846608589",
+						"formula_name": "ParagonNodeHealingBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Healing Bonus",
 				"tags": [
 					"Search_Healing"
 				]
 			},
 			"Generic_Magic_Int": {
+				"attributes": {
+					"8": {
+						"formula_data": {
+							"7": [
+								7.0
+							]
+						},
+						"formula_hash": "943291059",
+						"formula_name": "ParagonNodeCoreStat_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Intelligence",
 				"tags": [
 					"Search_Intelligence"
 				]
 			},
 			"Generic_Magic_Mana": {
+				"attributes": {
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2526736029",
+						"formula_name": "ParagonNodeResourceBonus_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Mana",
 				"tags": [
 					"Search_ResourceMana"
 				]
 			},
 			"Generic_Magic_ManaRegen": {
+				"attributes": {
+					"134": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "1335165575",
+						"formula_name": "ParagonNodeResourceRegen_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Mana Regen",
 				"tags": [
 					"Search_ResourceMana"
 				]
 			},
 			"Generic_Magic_MinionArmor": {
+				"attributes": {
+					"48": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "3106468895",
+						"formula_name": "ParagonNodeArmorBonusPet_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Minion Armor",
 				"tags": [
 					"Search_Armor",
@@ -20731,6 +22791,19 @@
 				]
 			},
 			"Generic_Magic_MinionAttackSpeed": {
+				"attributes": {
+					"1013": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "473751712",
+						"formula_name": "ParagonNodeAttackSpeedPet_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Minion Attack Speed",
 				"tags": [
 					"Search_Minion",
@@ -20738,18 +22811,57 @@
 				]
 			},
 			"Generic_Magic_MinionDamage": {
+				"attributes": {
+					"1011": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "1197419325",
+						"formula_name": "ParagonNodeDamageBonusPet_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Minion Damage",
 				"tags": [
 					"Search_Minion"
 				]
 			},
 			"Generic_Magic_MinionDamageReduction": {
+				"attributes": {
+					"1012": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								2.5,
+								86
+							]
+						},
+						"formula_hash": "1744264451",
+						"formula_name": "ParagonNodeDamageReductionPet_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Minion Damage Reduction",
 				"tags": [
 					"Search_Minion"
 				]
 			},
 			"Generic_Magic_MinionHP": {
+				"attributes": {
+					"47": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								2.5,
+								86
+							]
+						},
+						"formula_hash": "3686398940",
+						"formula_name": "ParagonNodeHPMaxBonusPet_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Minion HP",
 				"tags": [
 					"Search_Minion",
@@ -20757,6 +22869,29 @@
 				]
 			},
 			"Generic_Magic_MoveSpeedEliteKill": {
+				"attributes": {
+					"758": {
+						"formula_data": {
+							"3.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								3.5,
+								86
+							]
+						},
+						"formula_hash": "813067061",
+						"formula_name": "ParagonNodeMoveSpeedEliteKill_Magic",
+						"stat_dword": 4294967295
+					},
+					"759": {
+						"formula_data": {
+							"6": [
+								6.0
+							]
+						},
+						"formula_hash": "1411017467",
+						"formula_name": "ParagonNodeMoveSpeedEliteKillDuration",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Move Speed Elite Kill",
 				"tags": [
 					"Search_MovementSpeed",
@@ -20764,18 +22899,57 @@
 				]
 			},
 			"Generic_Magic_OverpowerDamage": {
+				"attributes": {
+					"250": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								3.0,
+								85
+							]
+						},
+						"formula_hash": "2173140349",
+						"formula_name": "ParagonNodeDamageBonusOverpower_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Overpower Damage",
 				"tags": [
 					"Keyword_Overpower"
 				]
 			},
 			"Generic_Magic_PotionHealing": {
+				"attributes": {
+					"517": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "347920198",
+						"formula_name": "ParagonNodePotionHealingBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Potion Healing",
 				"tags": [
 					"Search_Healing"
 				]
 			},
 			"Generic_Magic_ResistanceAll": {
+				"attributes": {
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "4195780737",
+						"formula_name": "ParagonNodeResistAll_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Resistance All",
 				"tags": [
 					"Search_Resistance",
@@ -20783,6 +22957,19 @@
 				]
 			},
 			"Generic_Magic_ResistanceCold": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								3.0,
+								86
+							]
+						},
+						"formula_hash": "2241529567",
+						"formula_name": "ParagonNodeResistance_Magic",
+						"stat_dword": 3
+					}
+				},
 				"name": "Resistance Cold",
 				"tags": [
 					"Search_Resistance",
@@ -20790,6 +22977,19 @@
 				]
 			},
 			"Generic_Magic_ResistanceFire": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								3.0,
+								86
+							]
+						},
+						"formula_hash": "2241529567",
+						"formula_name": "ParagonNodeResistance_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Resistance Fire",
 				"tags": [
 					"Search_Resistance",
@@ -20797,6 +22997,19 @@
 				]
 			},
 			"Generic_Magic_ResistanceLightning": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								3.0,
+								86
+							]
+						},
+						"formula_hash": "2241529567",
+						"formula_name": "ParagonNodeResistance_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Resistance Lightning",
 				"tags": [
 					"Search_Lightning",
@@ -20804,6 +23017,19 @@
 				]
 			},
 			"Generic_Magic_ResistancePoison": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								3.0,
+								86
+							]
+						},
+						"formula_hash": "2241529567",
+						"formula_name": "ParagonNodeResistance_Magic",
+						"stat_dword": 4
+					}
+				},
 				"name": "Resistance Poison",
 				"tags": [
 					"Search_Resistance",
@@ -20811,6 +23037,19 @@
 				]
 			},
 			"Generic_Magic_ResistanceShadow": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								3.0,
+								86
+							]
+						},
+						"formula_hash": "2241529567",
+						"formula_name": "ParagonNodeResistance_Magic",
+						"stat_dword": 5
+					}
+				},
 				"name": "Resistance Shadow",
 				"tags": [
 					"Search_Resistance",
@@ -20818,42 +23057,138 @@
 				]
 			},
 			"Generic_Magic_Str": {
+				"attributes": {
+					"7": {
+						"formula_data": {
+							"7": [
+								7.0
+							]
+						},
+						"formula_hash": "943291059",
+						"formula_name": "ParagonNodeCoreStat_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Strength",
 				"tags": [
 					"Search_Strength"
 				]
 			},
 			"Generic_Magic_Will": {
+				"attributes": {
+					"9": {
+						"formula_data": {
+							"7": [
+								7.0
+							]
+						},
+						"formula_hash": "943291059",
+						"formula_name": "ParagonNodeCoreStat_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Willpower",
 				"tags": [
 					"Search_Willpower"
 				]
 			},
 			"Generic_Normal_Dex": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1119971867",
+						"formula_name": "ParagonNodeCoreStat_Normal",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Dexterity",
 				"tags": [
 					"Search_DEXTERITY"
 				]
 			},
 			"Generic_Normal_Int": {
+				"attributes": {
+					"8": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1119971867",
+						"formula_name": "ParagonNodeCoreStat_Normal",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Intelligence",
 				"tags": [
 					"Search_Intelligence"
 				]
 			},
 			"Generic_Normal_Str": {
+				"attributes": {
+					"7": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1119971867",
+						"formula_name": "ParagonNodeCoreStat_Normal",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Strength",
 				"tags": [
 					"Search_Strength"
 				]
 			},
 			"Generic_Normal_Will": {
+				"attributes": {
+					"9": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1119971867",
+						"formula_name": "ParagonNodeCoreStat_Normal",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Willpower",
 				"tags": [
 					"Search_Willpower"
 				]
 			},
 			"Generic_Rare_001": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1207895875",
+						"formula_name": "ParagonNodeResistAll_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Resilience",
 				"tags": [
 					"Search_Resistance",
@@ -20862,12 +23197,60 @@
 				]
 			},
 			"Generic_Rare_002": {
+				"attributes": {
+					"181": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "1699963161",
+						"formula_name": "ParagonNodeAttackSpeed_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"202": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Nimble",
 				"tags": [
 					"Search_AttackSpeed"
 				]
 			},
 			"Generic_Rare_004": {
+				"attributes": {
+					"1006": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1301905561",
+						"formula_name": "ParagonNodeBarrierPotency_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Aegis",
 				"tags": [
 					"Keyword_Barrier",
@@ -20875,12 +23258,59 @@
 				]
 			},
 			"Generic_Rare_006": {
+				"attributes": {
+					"293": {
+						"formula_data": {
+							"2 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								2.0,
+								88
+							]
+						},
+						"formula_hash": "482665865",
+						"formula_name": "ParagonNodeCCDurationReduction_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"589": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.667,
+								90
+							]
+						},
+						"formula_hash": "71261283",
+						"formula_name": "ParagonNodeDamageReductionFromDot_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Fleeting",
 				"tags": [
 					"Search_CrowdControl"
 				]
 			},
 			"Generic_Rare_007": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3660585836",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Focused",
 				"tags": [
 					"Search_Elite",
@@ -20888,6 +23318,30 @@
 				]
 			},
 			"Generic_Rare_009": {
+				"attributes": {
+					"236": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.5,
+								89
+							]
+						},
+						"formula_hash": "778604011",
+						"formula_name": "ParagonNodeDamageBonusToCC_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"783": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "778312159",
+						"formula_name": "ParagonNodeDamageBonusToCC_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Oppress",
 				"tags": [
 					"Search_CrowdControl",
@@ -20895,6 +23349,30 @@
 				]
 			},
 			"Generic_Rare_011": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"922": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								2.5,
+								87
+							]
+						},
+						"formula_hash": "1802746216",
+						"formula_name": "ParagonNodeDamageBonusToHealthy_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Spearhead",
 				"tags": [
 					"Keyword_Healthy",
@@ -20902,6 +23380,30 @@
 				]
 			},
 			"Generic_Rare_012": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 3
+					}
+				},
 				"name": "Cold Resilience",
 				"tags": [
 					"Search_Resistance",
@@ -20910,6 +23412,30 @@
 				]
 			},
 			"Generic_Rare_013": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 0
+					},
+					"228": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2568269569",
+						"formula_name": "ParagonNodeCritDamage_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Havoc",
 				"tags": [
 					"Search_Critical",
@@ -20917,6 +23443,30 @@
 				]
 			},
 			"Generic_Rare_014": {
+				"attributes": {
+					"228": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.5,
+								89
+							]
+						},
+						"formula_hash": "2568561421",
+						"formula_name": "ParagonNodeCritDamage_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"922": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								2.5,
+								87
+							]
+						},
+						"formula_hash": "1802746216",
+						"formula_name": "ParagonNodeDamageBonusToHealthy_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Ruin",
 				"tags": [
 					"Search_Critical",
@@ -20924,6 +23474,30 @@
 				]
 			},
 			"Generic_Rare_015": {
+				"attributes": {
+					"228": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.5,
+								89
+							]
+						},
+						"formula_hash": "2568561421",
+						"formula_name": "ParagonNodeCritDamage_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"920": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								2.5,
+								87
+							]
+						},
+						"formula_hash": "3383408355",
+						"formula_name": "ParagonNodeDamageBonusToLowHP_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Stifle",
 				"tags": [
 					"Keyword_Injured",
@@ -20931,6 +23505,29 @@
 				]
 			},
 			"Generic_Rare_016": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"783": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "778312159",
+						"formula_name": "ParagonNodeDamageBonusToCC_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Devious",
 				"tags": [
 					"Search_CrowdControl",
@@ -20938,6 +23535,39 @@
 				]
 			},
 			"Generic_Rare_017": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"769": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "955809739",
+						"formula_name": "ParagonNodeDamageBonusAfterDodge_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"770": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "151225878",
+						"formula_name": "ParagonNodeDodgeDamageDuration",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Feint",
 				"tags": [
 					"SEARCH_DODGE",
@@ -20945,6 +23575,30 @@
 				]
 			},
 			"Generic_Rare_018": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"777": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.667,
+								88
+							]
+						},
+						"formula_hash": "2526219395",
+						"formula_name": "ParagonNodeDamageReductionFromElite_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Safeguard",
 				"tags": [
 					"Search_Elite",
@@ -20952,6 +23606,30 @@
 				]
 			},
 			"Generic_Rare_019": {
+				"attributes": {
+					"589": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.667,
+								88
+							]
+						},
+						"formula_hash": "70969431",
+						"formula_name": "ParagonNodeDamageReductionFromDot_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "1208187727",
+						"formula_name": "ParagonNodeResistAll_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Suffused Resilience",
 				"tags": [
 					"Search_Resistance",
@@ -20959,6 +23637,30 @@
 				]
 			},
 			"Generic_Rare_021": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"783": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "778312159",
+						"formula_name": "ParagonNodeDamageBonusToCC_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Calculated",
 				"tags": [
 					"Search_CrowdControl",
@@ -20966,6 +23668,40 @@
 				]
 			},
 			"Generic_Rare_022": {
+				"attributes": {
+					"758": {
+						"formula_data": {
+							"3.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								3.5,
+								90
+							]
+						},
+						"formula_hash": "2621282307",
+						"formula_name": "ParagonNodeMoveSpeedEliteKill_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"759": {
+						"formula_data": {
+							"6": [
+								6.0
+							]
+						},
+						"formula_hash": "1411017467",
+						"formula_name": "ParagonNodeMoveSpeedEliteKillDuration",
+						"stat_dword": 4294967295
+					},
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3660585836",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Hunter Killer",
 				"tags": [
 					"Search_Elite",
@@ -20973,6 +23709,30 @@
 				]
 			},
 			"Generic_Rare_023": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"920": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								2.5,
+								87
+							]
+						},
+						"formula_hash": "3383408355",
+						"formula_name": "ParagonNodeDamageBonusToLowHP_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Deathbringer",
 				"tags": [
 					"Keyword_Injured",
@@ -20980,6 +23740,30 @@
 				]
 			},
 			"Generic_Rare_025": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "762265001",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Pillage",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -20987,6 +23771,30 @@
 				]
 			},
 			"Generic_Rare_026": {
+				"attributes": {
+					"615": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "2735368075",
+						"formula_name": "ParagonNodeDamageBonusWhileFortified_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"926": {
+						"formula_data": {
+							"1.25 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.25,
+								89
+							]
+						},
+						"formula_hash": "3034585258",
+						"formula_name": "ParagonNodeDamageBonusWhileHealthy_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Inner Strength",
 				"tags": [
 					"Keyword_Fortify",
@@ -20994,12 +23802,60 @@
 				]
 			},
 			"Generic_Rare_028": {
+				"attributes": {
+					"202": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"926": {
+						"formula_data": {
+							"1.25 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.25,
+								87
+							]
+						},
+						"formula_hash": "3034293406",
+						"formula_name": "ParagonNodeDamageBonusWhileHealthy_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Aggression",
 				"tags": [
 					"Keyword_Healthy"
 				]
 			},
 			"Generic_Rare_029": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"206": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Elementalist",
 				"tags": [
 					"Search_NonPhysical",
@@ -21007,6 +23863,30 @@
 				]
 			},
 			"Generic_Rare_030": {
+				"attributes": {
+					"181": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "1700255013",
+						"formula_name": "ParagonNodeAttackSpeed_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"757": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "2567483395",
+						"formula_name": "ParagonNodeExecute_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Culler",
 				"tags": [
 					"Keyword_Execute",
@@ -21015,6 +23895,30 @@
 				]
 			},
 			"Generic_Rare_031": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 1
+					}
+				},
 				"name": "Fire Resilience",
 				"tags": [
 					"Search_Resistance",
@@ -21023,18 +23927,90 @@
 				]
 			},
 			"Generic_Rare_032": {
+				"attributes": {
+					"613": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "3724395665",
+						"formula_name": "ParagonNodeDamageReductionWhileFortified_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"614": {
+						"formula_data": {
+							"1.67 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.67,
+								90
+							]
+						},
+						"formula_hash": "2912847270",
+						"formula_name": "ParagonNodeFortifyBonus_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Bulwark",
 				"tags": [
 					"Keyword_Fortify"
 				]
 			},
 			"Generic_Rare_033": {
+				"attributes": {
+					"110": {
+						"formula_data": {
+							"0.3333 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.333,
+								90
+							]
+						},
+						"formula_hash": "736101029",
+						"formula_name": "ParagonNodeHPRegen_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"517": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "3607703688",
+						"formula_name": "ParagonNodePotionHealingBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Recuperate",
 				"tags": [
 					"Search_Healing"
 				]
 			},
 			"Generic_Rare_034": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 2
+					}
+				},
 				"name": "Lightning Resilience",
 				"tags": [
 					"Search_Resistance",
@@ -21043,12 +24019,59 @@
 				]
 			},
 			"Generic_Rare_035": {
+				"attributes": {
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3191937887",
+						"formula_name": "ParagonNodeResourceBonus_RareMajor",
+						"stat_dword": 0
+					},
+					"315": {
+						"formula_data": {
+							"1": [
+								1.0
+							]
+						},
+						"formula_hash": "480808077",
+						"formula_name": "ParagonNodeResourceOnKill_RareMinor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Re-energizer",
 				"tags": [
 					"Search_ResourceMana"
 				]
 			},
 			"Generic_Rare_036": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3191937887",
+						"formula_name": "ParagonNodeResourceBonus_RareMajor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Reservoir",
 				"tags": [
 					"Search_ResourceMana",
@@ -21056,6 +24079,30 @@
 				]
 			},
 			"Generic_Rare_038": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3191937887",
+						"formula_name": "ParagonNodeResourceBonus_RareMajor",
+						"stat_dword": 1
+					}
+				},
 				"name": "Core Reserve",
 				"tags": [
 					"Search_ResourceFury",
@@ -21063,6 +24110,30 @@
 				]
 			},
 			"Generic_Rare_041": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 4
+					}
+				},
 				"name": "Poison Resilience",
 				"tags": [
 					"Search_Resistance",
@@ -21071,12 +24142,60 @@
 				]
 			},
 			"Generic_Rare_042": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"517": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "3607703688",
+						"formula_name": "ParagonNodePotionHealingBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Restorative",
 				"tags": [
 					"Search_Healing"
 				]
 			},
 			"Generic_Rare_044": {
+				"attributes": {
+					"228": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2568269569",
+						"formula_name": "ParagonNodeCritDamage_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "762556853",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Tempest",
 				"tags": [
 					"Search_Critical",
@@ -21084,6 +24203,30 @@
 				]
 			},
 			"Generic_Rare_046": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 5
+					}
+				},
 				"name": "Shadow Resilience",
 				"tags": [
 					"Search_Resistance",
@@ -21092,6 +24235,30 @@
 				]
 			},
 			"Generic_Rare_047": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"931": {
+						"formula_data": {
+							"1.3333 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.333,
+								88
+							]
+						},
+						"formula_hash": "3996597965",
+						"formula_name": "ParagonNodeDamageReductionWhileStanding_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Steadfast",
 				"tags": [
 					"Search_Life",
@@ -21099,6 +24266,30 @@
 				]
 			},
 			"Generic_Rare_048": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"932": {
+						"formula_data": {
+							"1.3333 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.333,
+								87
+							]
+						},
+						"formula_hash": "2925423239",
+						"formula_name": "ParagonNodeDamageBonusWhileStanding_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Stability",
 				"tags": [
 					"Search_Life",
@@ -21106,6 +24297,30 @@
 				]
 			},
 			"Generic_Rare_049": {
+				"attributes": {
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "762265001",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"920": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								2.5,
+								89
+							]
+						},
+						"formula_hash": "3383700207",
+						"formula_name": "ParagonNodeDamageBonusToLowHP_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Exploit",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -21113,18 +24328,87 @@
 				]
 			},
 			"Generic_Rare_051": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"202": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Skillful",
 				"tags": [
 					"Search_DEXTERITY"
 				]
 			},
 			"Generic_Rare_052": {
+				"attributes": {
+					"131": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3191937887",
+						"formula_name": "ParagonNodeResourceBonus_RareMajor",
+						"stat_dword": 6
+					},
+					"315": {
+						"formula_data": {
+							"1": [
+								1.0
+							]
+						},
+						"formula_hash": "480808077",
+						"formula_name": "ParagonNodeResourceOnKill_RareMinor",
+						"stat_dword": 6
+					}
+				},
 				"name": "Reinvigorate",
 				"tags": [
 					"Search_ResourceEssence"
 				]
 			},
 			"Generic_Rare_054": {
+				"attributes": {
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1207895875",
+						"formula_name": "ParagonNodeResistAll_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Erudite",
 				"tags": [
 					"Search_NonPhysical",
@@ -21133,6 +24417,29 @@
 				]
 			},
 			"Generic_Rare_056": {
+				"attributes": {
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"929": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "677210588",
+						"formula_name": "ParagonNodeDamageReduction_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Shell",
 				"tags": [
 					"Keyword_Barrier",
@@ -21140,6 +24447,30 @@
 				]
 			},
 			"Generic_Rare_057": {
+				"attributes": {
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3660877688",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3126999901",
+						"formula_name": "ParagonNodeDamageBonusToDotted_RareMajor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Craving",
 				"tags": [
 					"Search_Bleed",
@@ -21147,6 +24478,29 @@
 				]
 			},
 			"Generic_Rare_058": {
+				"attributes": {
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3126999901",
+						"formula_name": "ParagonNodeDamageBonusToDotted_RareMajor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Revel",
 				"tags": [
 					"Search_Bleed",
@@ -21154,12 +24508,59 @@
 				]
 			},
 			"Generic_Rare_059": {
+				"attributes": {
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"916": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.2,
+								88
+							]
+						},
+						"formula_hash": "2620450038",
+						"formula_name": "ParagonNodeDamageReductionFromNear_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Brash",
 				"tags": [
 					"Search_Strength"
 				]
 			},
 			"Generic_Rare_060": {
+				"attributes": {
+					"181": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "1700255013",
+						"formula_name": "ParagonNodeAttackSpeed_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Brute",
 				"tags": [
 					"Search_Physical",
@@ -21167,6 +24568,29 @@
 				]
 			},
 			"Generic_Rare_061": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								0.5,
+								88
+							]
+						},
+						"formula_hash": "2680284280",
+						"formula_name": "ParagonNodeArmorBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Determination",
 				"tags": [
 					"Search_Armor",
@@ -21174,6 +24598,29 @@
 				]
 			},
 			"Generic_Rare_064": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								0.5,
+								88
+							]
+						},
+						"formula_hash": "2680284280",
+						"formula_name": "ParagonNodeArmorBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Lawless",
 				"tags": [
 					"Search_Armor",
@@ -21181,6 +24628,40 @@
 				]
 			},
 			"Generic_Rare_065": {
+				"attributes": {
+					"769": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "955809739",
+						"formula_name": "ParagonNodeDamageBonusAfterDodge_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"770": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "151225878",
+						"formula_name": "ParagonNodeDodgeDamageDuration",
+						"stat_dword": 4294967295
+					},
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3660877688",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Discerning",
 				"tags": [
 					"Search_Elite",
@@ -21188,6 +24669,29 @@
 				]
 			},
 			"Generic_Rare_066": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 0
+					},
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Raw Power",
 				"tags": [
 					"Search_Physical",
@@ -21195,6 +24699,30 @@
 				]
 			},
 			"Generic_Rare_067": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								0.5,
+								88
+							]
+						},
+						"formula_hash": "2680284280",
+						"formula_name": "ParagonNodeArmorBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"517": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "3607995540",
+						"formula_name": "ParagonNodePotionHealingBonus_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Slayer",
 				"tags": [
 					"Search_Healing",
@@ -21202,6 +24730,29 @@
 				]
 			},
 			"Generic_Rare_068": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"792": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.5,
+								88
+							]
+						},
+						"formula_hash": "375638614",
+						"formula_name": "ParagonNodeDamageReductionFromCC_RareMajor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Wiles",
 				"tags": [
 					"Search_CrowdControl",
@@ -21209,6 +24760,29 @@
 				]
 			},
 			"Generic_Rare_069": {
+				"attributes": {
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"794": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1475835168",
+						"formula_name": "ParagonNodeDamageReductionFromVulnerable_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Arrogance",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -21216,6 +24790,29 @@
 				]
 			},
 			"Generic_Rare_070": {
+				"attributes": {
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "762265001",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Demolish",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -21223,6 +24820,29 @@
 				]
 			},
 			"Generic_Rare_072": {
+				"attributes": {
+					"250": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								3.0,
+								87
+							]
+						},
+						"formula_hash": "1486494271",
+						"formula_name": "ParagonNodeDamageBonusOverpower_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"7": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Brutality",
 				"tags": [
 					"Keyword_Overpower",
@@ -21230,12 +24850,58 @@
 				]
 			},
 			"Generic_Rare_073": {
+				"attributes": {
+					"202": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Impel",
 				"tags": [
 					"Search_Willpower"
 				]
 			},
 			"Generic_Rare_074": {
+				"attributes": {
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1207895875",
+						"formula_name": "ParagonNodeResistAll_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Resolve",
 				"tags": [
 					"Search_Resistance",
@@ -21243,12 +24909,59 @@
 				]
 			},
 			"Generic_Rare_075": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"202": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Prime",
 				"tags": [
 					"Search_Life"
 				]
 			},
 			"Generic_Rare_076": {
+				"attributes": {
+					"794": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1475835168",
+						"formula_name": "ParagonNodeDamageReductionFromVulnerable_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Hubris",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -21256,6 +24969,29 @@
 				]
 			},
 			"Generic_Rare_077": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "343139285",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Courage",
 				"tags": [
 					"Search_Armor",
@@ -21263,6 +24999,29 @@
 				]
 			},
 			"Generic_Rare_078": {
+				"attributes": {
+					"59": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "236322191",
+						"formula_name": "ParagonNodeHealingBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Regenerative",
 				"tags": [
 					"Search_Healing",
@@ -21270,6 +25029,29 @@
 				]
 			},
 			"Generic_Rare_079": {
+				"attributes": {
+					"9": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"926": {
+						"formula_data": {
+							"1.25 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.25,
+								87
+							]
+						},
+						"formula_hash": "3034293406",
+						"formula_name": "ParagonNodeDamageBonusWhileHealthy_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Peak Condition",
 				"tags": [
 					"Keyword_Healthy",
@@ -21277,6 +25059,30 @@
 				]
 			},
 			"Generic_Rare_080": {
+				"attributes": {
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3660877688",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3126999901",
+						"formula_name": "ParagonNodeDamageBonusToDotted_RareMajor",
+						"stat_dword": 4
+					}
+				},
 				"name": "Overturn",
 				"tags": [
 					"Search_Poison",
@@ -21284,6 +25090,29 @@
 				]
 			},
 			"Generic_Rare_081": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"517": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "3607703688",
+						"formula_name": "ParagonNodePotionHealingBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Dosage",
 				"tags": [
 					"Search_Healing",
@@ -21291,6 +25120,29 @@
 				]
 			},
 			"Generic_Rare_082": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "343139285",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Training",
 				"tags": [
 					"Search_Life",
@@ -21298,6 +25150,29 @@
 				]
 			},
 			"Generic_Rare_083": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1207895875",
+						"formula_name": "ParagonNodeResistAll_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Tolerance",
 				"tags": [
 					"Search_Resistance",
@@ -21305,12 +25180,58 @@
 				]
 			},
 			"Generic_Rare_084": {
+				"attributes": {
+					"202": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Knowledge",
 				"tags": [
 					"Search_Intelligence"
 				]
 			},
 			"Generic_Rare_085": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								0.5,
+								88
+							]
+						},
+						"formula_hash": "2680284280",
+						"formula_name": "ParagonNodeArmorBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Preservation",
 				"tags": [
 					"Search_Armor",
@@ -21318,6 +25239,29 @@
 				]
 			},
 			"Generic_Rare_086": {
+				"attributes": {
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3660585836",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Targeted",
 				"tags": [
 					"Search_Elite",
@@ -21325,6 +25269,30 @@
 				]
 			},
 			"Generic_Rare_087": {
+				"attributes": {
+					"517": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "3607995540",
+						"formula_name": "ParagonNodePotionHealingBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"920": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								2.5,
+								87
+							]
+						},
+						"formula_hash": "3383408355",
+						"formula_name": "ParagonNodeDamageBonusToLowHP_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Corrective",
 				"tags": [
 					"Keyword_Injured",
@@ -21332,6 +25300,29 @@
 				]
 			},
 			"Generic_Rare_088": {
+				"attributes": {
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"920": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								2.5,
+								87
+							]
+						},
+						"formula_hash": "3383408355",
+						"formula_name": "ParagonNodeDamageBonusToLowHP_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Deathmarked",
 				"tags": [
 					"Keyword_Injured",
@@ -21339,6 +25330,29 @@
 				]
 			},
 			"Generic_Rare_089": {
+				"attributes": {
+					"59": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "236322191",
+						"formula_name": "ParagonNodeHealingBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Remedy",
 				"tags": [
 					"Search_Healing",
@@ -21346,6 +25360,29 @@
 				]
 			},
 			"Generic_Rare_090": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 5
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Gloom",
 				"tags": [
 					"Search_Resistance",
@@ -21354,6 +25391,30 @@
 				]
 			},
 			"Generic_Rare_091": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								3.0,
+								90
+							]
+						},
+						"formula_hash": "3829135533",
+						"formula_name": "ParagonNodeResistance_RareMinor",
+						"stat_dword": 5
+					},
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "52645716",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_RareMajor",
+						"stat_dword": 5
+					}
+				},
 				"name": "Dragging Shadows",
 				"tags": [
 					"Search_Resistance",
@@ -21362,6 +25423,30 @@
 				]
 			},
 			"Generic_Rare_092": {
+				"attributes": {
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3660877688",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3126999901",
+						"formula_name": "ParagonNodeDamageBonusToDotted_RareMajor",
+						"stat_dword": 5
+					}
+				},
 				"name": "Gnawing Darkness",
 				"tags": [
 					"Search_ShadowDOT",
@@ -21369,6 +25454,29 @@
 				]
 			},
 			"Generic_Rare_093": {
+				"attributes": {
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3126999901",
+						"formula_name": "ParagonNodeDamageBonusToDotted_RareMajor",
+						"stat_dword": 5
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Malediction",
 				"tags": [
 					"Search_ShadowDOT",
@@ -23345,6 +27453,19 @@
 				]
 			},
 			"Necromancer_Magic_ArmorWithActiveGolem": {
+				"attributes": {
+					"481": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								0.5,
+								86
+							]
+						},
+						"formula_hash": "313424855",
+						"formula_name": "ParagonNodeArmorBonusWithActivePet_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Armor With Active Golem",
 				"tags": [
 					"Search_Minion",
@@ -23352,12 +27473,38 @@
 				]
 			},
 			"Necromancer_Magic_BloodOrbDamage": {
+				"attributes": {
+					"256": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Blood Orb Damage",
 				"tags": [
 					"Keyword_Blood_Orb"
 				]
 			},
 			"Necromancer_Magic_BloodOrbHealing": {
+				"attributes": {
+					"258": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.2,
+								86
+							]
+						},
+						"formula_hash": "205915805",
+						"formula_name": "ParagonNodeHealingOnPickBloodOrb_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Blood Orb Healing",
 				"tags": [
 					"Keyword_Blood_Orb",
@@ -23365,6 +27512,19 @@
 				]
 			},
 			"Necromancer_Magic_CriticalDamageBone": {
+				"attributes": {
+					"230": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "1690435903",
+						"formula_name": "ParagonNodeCritDamage_Magic",
+						"stat_dword": 3828367010
+					}
+				},
 				"name": "Critical Damage Bone",
 				"tags": [
 					"Skill_Bone",
@@ -23372,24 +27532,76 @@
 				]
 			},
 			"Necromancer_Magic_DamageBlood": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 1781953454
+					}
+				},
 				"name": "Damage Blood",
 				"tags": [
 					"Skill_Blood"
 				]
 			},
 			"Necromancer_Magic_DamageBone": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 3828367010
+					}
+				},
 				"name": "Damage Bone",
 				"tags": [
 					"Skill_Bone"
 				]
 			},
 			"Necromancer_Magic_DamageWithActiveGolem": {
+				"attributes": {
+					"479": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "3895636085",
+						"formula_name": "ParagonNodeDamageBonusWithActivePet_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Damage With Active Golem",
 				"tags": [
 					"Search_Minion"
 				]
 			},
 			"Necromancer_Magic_GolemArmor": {
+				"attributes": {
+					"477": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.667,
+								86
+							]
+						},
+						"formula_hash": "28742721",
+						"formula_name": "ParagonNodeArmorBonusPetSingle_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Golem Armor",
 				"tags": [
 					"Search_Minion",
@@ -23397,6 +27609,19 @@
 				]
 			},
 			"Necromancer_Magic_GolemAttackSpeed": {
+				"attributes": {
+					"478": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2703498626",
+						"formula_name": "ParagonNodeAttackSpeedPetSingle_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Golem Attack Speed",
 				"tags": [
 					"Search_Minion",
@@ -23404,12 +27629,38 @@
 				]
 			},
 			"Necromancer_Magic_GolemDamage": {
+				"attributes": {
+					"475": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2832017887",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Golem Damage",
 				"tags": [
 					"Search_Minion"
 				]
 			},
 			"Necromancer_Magic_GolemHP": {
+				"attributes": {
+					"472": {
+						"formula_data": {
+							"3.5 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								3.5,
+								86
+							]
+						},
+						"formula_hash": "4245370367",
+						"formula_name": "ParagonNodeMaxLifePetSingle_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Golem HP",
 				"tags": [
 					"Search_Minion",
@@ -23417,6 +27668,19 @@
 				]
 			},
 			"Necromancer_Magic_GolemResistAll": {
+				"attributes": {
+					"474": {
+						"formula_data": {
+							"4 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								4.0,
+								86
+							]
+						},
+						"formula_hash": "2164272620",
+						"formula_name": "ParagonNodeResistAllPetSingle_Magic",
+						"stat_dword": 2
+					}
+				},
 				"name": "Golem Resist All",
 				"tags": [
 					"Search_Minion",
@@ -23425,12 +27689,38 @@
 				]
 			},
 			"Necromancer_Magic_SkeletonMageDamage": {
+				"attributes": {
+					"475": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2832017887",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Skeleton Mage Damage",
 				"tags": [
 					"Search_Minion"
 				]
 			},
 			"Necromancer_Magic_SkeletonMageResistAll": {
+				"attributes": {
+					"474": {
+						"formula_data": {
+							"4 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								4.0,
+								86
+							]
+						},
+						"formula_hash": "2164272620",
+						"formula_name": "ParagonNodeResistAllPetSingle_Magic",
+						"stat_dword": 1
+					}
+				},
 				"name": "Skeleton Mage Resist All",
 				"tags": [
 					"Search_Minion",
@@ -23439,6 +27729,19 @@
 				]
 			},
 			"Necromancer_Magic_SkeletonWarriorArmor": {
+				"attributes": {
+					"477": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.667,
+								86
+							]
+						},
+						"formula_hash": "28742721",
+						"formula_name": "ParagonNodeArmorBonusPetSingle_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Skeleton Warrior Armor",
 				"tags": [
 					"Search_Minion",
@@ -23446,12 +27749,48 @@
 				]
 			},
 			"Necromancer_Magic_SkeletonWarriorDamage": {
+				"attributes": {
+					"475": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "2832017887",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_Magic",
+						"stat_dword": 0
+					}
+				},
 				"name": "Skeleton Warrior Damage",
 				"tags": [
 					"Search_Minion"
 				]
 			},
 			"Necromancer_Rare_001": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 3828367010
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Shaper of Bone",
 				"tags": [
 					"Skill_Bone",
@@ -23459,6 +27798,30 @@
 				]
 			},
 			"Necromancer_Rare_002": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1781953454
+					},
+					"258": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.2,
+								90
+							]
+						},
+						"formula_hash": "3283920747",
+						"formula_name": "ParagonNodeHealingOnPickBloodOrb_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Blood Zealot",
 				"tags": [
 					"Skill_Blood",
@@ -23467,6 +27830,29 @@
 				]
 			},
 			"Necromancer_Rare_003": {
+				"attributes": {
+					"258": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.2,
+								88
+							]
+						},
+						"formula_hash": "3283628895",
+						"formula_name": "ParagonNodeHealingOnPickBloodOrb_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Blooddrinker",
 				"tags": [
 					"Keyword_Blood_Orb",
@@ -23475,6 +27861,30 @@
 				]
 			},
 			"Necromancer_Rare_004": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 0
+					},
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1781953454
+					}
+				},
 				"name": "Crimson Power",
 				"tags": [
 					"Skill_Blood",
@@ -23482,6 +27892,30 @@
 				]
 			},
 			"Necromancer_Rare_005": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 3828367010
+					},
+					"230": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2568269569",
+						"formula_name": "ParagonNodeCritDamage_RareMajor",
+						"stat_dword": 3828367010
+					}
+				},
 				"name": "Calcified",
 				"tags": [
 					"Skill_Bone",
@@ -23489,6 +27923,29 @@
 				]
 			},
 			"Necromancer_Rare_006": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1.3333 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.333,
+								88
+							]
+						},
+						"formula_hash": "3822294965",
+						"formula_name": "ParagonNodeResourceCostReductionSkillCat_RareMajor",
+						"stat_dword": 1781953454
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Bloodcast",
 				"tags": [
 					"Skill_Blood",
@@ -23496,6 +27953,40 @@
 				]
 			},
 			"Necromancer_Rare_009": {
+				"attributes": {
+					"256": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3460893965",
+						"formula_name": "ParagonNodeDamageBonusOnPickBloodOrb_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"257": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1037112977",
+						"formula_name": "ParagonNodeDamageBonusOnPickBloodOrbDuration",
+						"stat_dword": 4294967295
+					},
+					"926": {
+						"formula_data": {
+							"1.25 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.25,
+								89
+							]
+						},
+						"formula_hash": "3034585258",
+						"formula_name": "ParagonNodeDamageBonusWhileHealthy_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Invigorated",
 				"tags": [
 					"Keyword_Blood_Orb",
@@ -23503,6 +27994,30 @@
 				]
 			},
 			"Necromancer_Rare_011": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"794": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1475835168",
+						"formula_name": "ParagonNodeDamageReductionFromVulnerable_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Unassailable",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -23510,6 +28025,30 @@
 				]
 			},
 			"Necromancer_Rare_013": {
+				"attributes": {
+					"115": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "343431137",
+						"formula_name": "ParagonNodeHPMaxBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"258": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.2,
+								88
+							]
+						},
+						"formula_hash": "3283628895",
+						"formula_name": "ParagonNodeHealingOnPickBloodOrb_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Vampiric",
 				"tags": [
 					"Keyword_Blood_Orb",
@@ -23518,6 +28057,30 @@
 				]
 			},
 			"Necromancer_Rare_017": {
+				"attributes": {
+					"479": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3071674679",
+						"formula_name": "ParagonNodeDamageBonusWithActivePet_RareMajor",
+						"stat_dword": 2
+					},
+					"481": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "124856741",
+						"formula_name": "ParagonNodeArmorBonusWithActivePet_RareMinor",
+						"stat_dword": 2
+					}
+				},
 				"name": "Borrowed Strength",
 				"tags": [
 					"Search_Minion",
@@ -23525,6 +28088,30 @@
 				]
 			},
 			"Necromancer_Rare_018": {
+				"attributes": {
+					"47": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								2.5,
+								90
+							]
+						},
+						"formula_hash": "1788290090",
+						"formula_name": "ParagonNodeHPMaxBonusPet_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"48": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "3682210273",
+						"formula_name": "ParagonNodeArmorBonusPet_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Armor-clad",
 				"tags": [
 					"Search_Minion",
@@ -23533,6 +28120,29 @@
 				]
 			},
 			"Necromancer_Rare_020": {
+				"attributes": {
+					"1012": {
+						"formula_data": {
+							"2.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								2.5,
+								88
+							]
+						},
+						"formula_hash": "2874821829",
+						"formula_name": "ParagonNodeDamageReductionPet_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Custody",
 				"tags": [
 					"Search_Minion",
@@ -23540,6 +28150,29 @@
 				]
 			},
 			"Necromancer_Rare_021": {
+				"attributes": {
+					"1011": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "2048043007",
+						"formula_name": "ParagonNodeDamageBonusPet_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Overlord",
 				"tags": [
 					"Search_Minion",
@@ -23547,6 +28180,29 @@
 				]
 			},
 			"Necromancer_Rare_022": {
+				"attributes": {
+					"475": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3385010081",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_RareMajor",
+						"stat_dword": 2
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Mutation",
 				"tags": [
 					"Search_Minion",
@@ -23554,6 +28210,30 @@
 				]
 			},
 			"Necromancer_Rare_024": {
+				"attributes": {
+					"475": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3385010081",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_RareMajor",
+						"stat_dword": 2
+					},
+					"478": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3385301933",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_RareMinor",
+						"stat_dword": 2
+					}
+				},
 				"name": "Frenzied Golem",
 				"tags": [
 					"Search_Minion",
@@ -23561,6 +28241,29 @@
 				]
 			},
 			"Necromancer_Rare_025": {
+				"attributes": {
+					"477": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.667,
+								88
+							]
+						},
+						"formula_hash": "4097766147",
+						"formula_name": "ParagonNodeArmorBonusPetSingle_RareMajor",
+						"stat_dword": 2
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Miscreation",
 				"tags": [
 					"Search_Minion",
@@ -23569,6 +28272,30 @@
 				]
 			},
 			"Necromancer_Rare_026": {
+				"attributes": {
+					"1011": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "2048043007",
+						"formula_name": "ParagonNodeDamageBonusPet_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"1013": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "1204210414",
+						"formula_name": "ParagonNodeAttackSpeedPet_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Puppeteer",
 				"tags": [
 					"Search_Minion",
@@ -23576,6 +28303,30 @@
 				]
 			},
 			"Necromancer_Rare_027": {
+				"attributes": {
+					"474": {
+						"formula_data": {
+							"4 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								4.0,
+								90
+							]
+						},
+						"formula_hash": "3435650618",
+						"formula_name": "ParagonNodeResistAllPetSingle_RareMinor",
+						"stat_dword": 1
+					},
+					"475": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3385010081",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_RareMajor",
+						"stat_dword": 1
+					}
+				},
 				"name": "Infused Caster",
 				"tags": [
 					"Search_Minion",
@@ -23584,6 +28335,30 @@
 				]
 			},
 			"Necromancer_Rare_028": {
+				"attributes": {
+					"475": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3385010081",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_RareMajor",
+						"stat_dword": 0
+					},
+					"477": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.667,
+								90
+							]
+						},
+						"formula_hash": "4098057999",
+						"formula_name": "ParagonNodeArmorBonusPetSingle_RareMinor",
+						"stat_dword": 0
+					}
+				},
 				"name": "Infused Warrior",
 				"tags": [
 					"Search_Minion",
@@ -23591,6 +28366,30 @@
 				]
 			},
 			"Necromancer_Rare_029": {
+				"attributes": {
+					"472": {
+						"formula_data": {
+							"3.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								3.5,
+								90
+							]
+						},
+						"formula_hash": "3899570125",
+						"formula_name": "ParagonNodeMaxLifePetSingle_RareMinor",
+						"stat_dword": 2
+					},
+					"475": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "3385010081",
+						"formula_name": "ParagonNodeDamageBonusPetSingle_RareMajor",
+						"stat_dword": 2
+					}
+				},
 				"name": "Infused Golem",
 				"tags": [
 					"Search_Minion",
@@ -23598,6 +28397,30 @@
 				]
 			},
 			"Necromancer_Rare_031": {
+				"attributes": {
+					"474": {
+						"formula_data": {
+							"4 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								4.0,
+								90
+							]
+						},
+						"formula_hash": "3435650618",
+						"formula_name": "ParagonNodeResistAllPetSingle_RareMinor",
+						"stat_dword": 2
+					},
+					"477": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.667,
+								88
+							]
+						},
+						"formula_hash": "4097766147",
+						"formula_name": "ParagonNodeArmorBonusPetSingle_RareMajor",
+						"stat_dword": 2
+					}
+				},
 				"name": "Flesh-horror",
 				"tags": [
 					"Search_Minion",
@@ -23606,6 +28429,39 @@
 				]
 			},
 			"Necromancer_Rare_034": {
+				"attributes": {
+					"256": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3460893965",
+						"formula_name": "ParagonNodeDamageBonusOnPickBloodOrb_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"257": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "1037112977",
+						"formula_name": "ParagonNodeDamageBonusOnPickBloodOrbDuration",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Blood-infused",
 				"tags": [
 					"Keyword_Blood_Orb",
@@ -23613,6 +28469,30 @@
 				]
 			},
 			"Necromancer_Rare_035": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 5
+					},
+					"587": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "2870991805",
+						"formula_name": "ParagonNodeDamageBonusDot_RareMajor",
+						"stat_dword": 5
+					}
+				},
 				"name": "Lingering Shadows",
 				"tags": [
 					"Search_Shadow",
@@ -30956,30 +35836,95 @@
 				"desc": "You deal x30% increased damage to enemies affected by Shadow Imbuement's debuff."
 			},
 			"Rogue_Magic_DamageImbued": {
+				"attributes": {
+					"259": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.5,
+								85
+							]
+						},
+						"formula_hash": "392573898",
+						"formula_name": "ParagonNodeDamageBonusImbued_Magic",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Damage Imbued",
 				"tags": [
 					"Skill_Primary_Imbuements"
 				]
 			},
 			"Rogue_Magic_DamageReductionFromTrapped": {
+				"attributes": {
+					"795": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								1.0,
+								86
+							]
+						},
+						"formula_hash": "1882711422",
+						"formula_name": "ParagonNodeDamageReductionFromTrapped_Magic",
+						"stat_dword": 3829016725
+					}
+				},
 				"name": "Damage Reduction From Trapped",
 				"tags": [
 					"Skill_Trap"
 				]
 			},
 			"Rogue_Magic_DamageToTrapped": {
+				"attributes": {
+					"207": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "2286036519",
+						"formula_name": "ParagonNodeDamageBonusToTrapped_Magic",
+						"stat_dword": 3829016725
+					}
+				},
 				"name": "Damage To Trapped",
 				"tags": [
 					"Skill_Trap"
 				]
 			},
 			"Rogue_Magic_DamageTrap": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.0,
+								85
+							]
+						},
+						"formula_hash": "4000280340",
+						"formula_name": "ParagonNodeDamageBonus_Magic",
+						"stat_dword": 3829016725
+					}
+				},
 				"name": "Damage Trap",
 				"tags": [
 					"Skill_Trap"
 				]
 			},
 			"Rogue_Magic_ImbueCDR": {
+				"attributes": {
+					"193": {
+						"formula_data": {
+							"0.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								0.667,
+								86
+							]
+						},
+						"formula_hash": "3697536414",
+						"formula_name": "ParagonNodeCDRSkillCat_Magic",
+						"stat_dword": 4084039770
+					}
+				},
 				"name": "Imbue CDR",
 				"tags": [
 					"Skill_Primary_Imbuements",
@@ -30987,6 +35932,19 @@
 				]
 			},
 			"Rogue_Magic_TrapCooldown": {
+				"attributes": {
+					"193": {
+						"formula_data": {
+							"0.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								0.667,
+								86
+							]
+						},
+						"formula_hash": "3697536414",
+						"formula_name": "ParagonNodeCDRSkillCat_Magic",
+						"stat_dword": 3829016725
+					}
+				},
 				"name": "Trap Cooldown",
 				"tags": [
 					"Search_Cooldown",
@@ -30994,6 +35952,29 @@
 				]
 			},
 			"Rogue_Rare_005": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"208": {
+						"formula_data": {
+							"1.4 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.4,
+								87
+							]
+						},
+						"formula_hash": "2141242782",
+						"formula_name": "ParagonNodeDamageBonusSecondary_RareMajor",
+						"stat_dword": 2834424330
+					}
+				},
 				"name": "Finisher",
 				"tags": [
 					"Skill_Primary_Core",
@@ -31001,6 +35982,19 @@
 				]
 			},
 			"Rogue_Rare_008": {
+				"attributes": {
+					"193": {
+						"formula_data": {
+							"0.6667 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								0.667,
+								88
+							]
+						},
+						"formula_hash": "2927866592",
+						"formula_name": "ParagonNodeCDRSkillCat_RareMajor",
+						"stat_dword": 3829016725
+					}
+				},
 				"name": "Spring-loaded",
 				"tags": [
 					"Skill_Trap",
@@ -31008,6 +36002,30 @@
 				]
 			},
 			"Rogue_Rare_009": {
+				"attributes": {
+					"206": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"259": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2421501708",
+						"formula_name": "ParagonNodeDamageBonusImbued_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Imbuer",
 				"tags": [
 					"Skill_Primary_Imbuements",
@@ -31015,6 +36033,30 @@
 				]
 			},
 			"Rogue_Rare_010": {
+				"attributes": {
+					"193": {
+						"formula_data": {
+							"0.6667 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.667,
+								90
+							]
+						},
+						"formula_hash": "2928158444",
+						"formula_name": "ParagonNodeCDRSkillCat_RareMinor",
+						"stat_dword": 4084039770
+					},
+					"206": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Ready Supply",
 				"tags": [
 					"Search_Cooldown",
@@ -31023,6 +36065,19 @@
 				]
 			},
 			"Rogue_Rare_011": {
+				"attributes": {
+					"208": {
+						"formula_data": {
+							"3.3333 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								3.333,
+								89
+							]
+						},
+						"formula_hash": "170494982",
+						"formula_name": "ParagonNodeDamageBonusPrimary_RareMinor",
+						"stat_dword": 3340001955
+					}
+				},
 				"name": "Dominant",
 				"tags": [
 					"Skill_Primary_Core",
@@ -31030,6 +36085,29 @@
 				]
 			},
 			"Rogue_Rare_012": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"259": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2421501708",
+						"formula_name": "ParagonNodeDamageBonusImbued_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Potent",
 				"tags": [
 					"Skill_Primary_Imbuements",
@@ -31037,18 +36115,113 @@
 				]
 			},
 			"Rogue_Rare_014": {
+				"attributes": {
+					"202": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"208": {
+						"formula_data": {
+							"3.3333 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								3.333,
+								87
+							]
+						},
+						"formula_hash": "170203130",
+						"formula_name": "ParagonNodeDamageBonusPrimary_RareMajor",
+						"stat_dword": 3340001955
+					}
+				},
 				"name": "Fundamentals",
 				"tags": [
 					"Skill_Primary_Basic"
 				]
 			},
 			"Rogue_Rare_016": {
+				"attributes": {
+					"908": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.2,
+								87
+							]
+						},
+						"formula_hash": "3045276351",
+						"formula_name": "ParagonNodeDamageBonusToNear_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"916": {
+						"formula_data": {
+							"1.2 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.2,
+								90
+							]
+						},
+						"formula_hash": "2620741890",
+						"formula_name": "ParagonNodeDamageReductionFromNear_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Brawler"
 			},
 			"Rogue_Rare_018": {
+				"attributes": {
+					"910": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "49985074",
+						"formula_name": "ParagonNodeDamageBonusToFar_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"917": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.5,
+								90
+							]
+						},
+						"formula_hash": "3941919125",
+						"formula_name": "ParagonNodeDamageReductionFromFar_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Ranger"
 			},
 			"Rogue_Rare_027": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"207": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "409798633",
+						"formula_name": "ParagonNodeDamageBonusToTrapped_RareMajor",
+						"stat_dword": 3829016725
+					}
+				},
 				"name": "Engineering",
 				"tags": [
 					"Skill_Trap",
@@ -31056,6 +36229,29 @@
 				]
 			},
 			"Rogue_Rare_028": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"795": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "2035325632",
+						"formula_name": "ParagonNodeDamageReductionFromTrapped_RareMajor",
+						"stat_dword": 3829016725
+					}
+				},
 				"name": "Cunning",
 				"tags": [
 					"Skill_Trap",
@@ -31063,6 +36259,30 @@
 				]
 			},
 			"Rogue_Rare_029": {
+				"attributes": {
+					"207": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "410090485",
+						"formula_name": "ParagonNodeDamageBonusToTrapped_RareMinor",
+						"stat_dword": 3829016725
+					},
+					"208": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2421501708",
+						"formula_name": "ParagonNodeDamageBonusImbued_RareMajor",
+						"stat_dword": 3829016725
+					}
+				},
 				"name": "Trapper",
 				"tags": [
 					"Skill_Trap"
@@ -40166,12 +45386,49 @@
 				"desc": "While you have a barrier, you take 30% less damage and gain 15% increased movement speed."
 			},
 			"Sorcerer_Magic_CracklingEnergy": {
+				"attributes": {
+					"805": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
+								1.667,
+								85
+							]
+						},
+						"formula_hash": "1694542284",
+						"formula_name": "ParagonNodeCracklingEnergyDamageBonus_Magic",
+						"stat_dword": 918887
+					}
+				},
 				"name": "Crackling Energy",
 				"tags": [
 					"Keyword_Resource_Pickup"
 				]
 			},
 			"Sorcerer_Rare_002": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 3
+					},
+					"295": {
+						"formula_data": {
+							"2 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								2.0,
+								86
+							]
+						},
+						"formula_hash": "2506597615",
+						"formula_name": "ParagonNodeChillBonus_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Cryomancy",
 				"tags": [
 					"Search_Cold",
@@ -40179,6 +45436,30 @@
 				]
 			},
 			"Sorcerer_Rare_005": {
+				"attributes": {
+					"206": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"781": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "778312159",
+						"formula_name": "ParagonNodeDamageBonusToCC_RareMajor",
+						"stat_dword": 9
+					}
+				},
 				"name": "Polar Rime",
 				"tags": [
 					"Search_NonPhysical",
@@ -40186,6 +45467,29 @@
 				]
 			},
 			"Sorcerer_Rare_006": {
+				"attributes": {
+					"295": {
+						"formula_data": {
+							"2 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
+								2.0,
+								86
+							]
+						},
+						"formula_hash": "2506305763",
+						"formula_name": "ParagonNodeChillBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Boreal",
 				"tags": [
 					"Keyword_Chill",
@@ -40193,6 +45497,30 @@
 				]
 			},
 			"Sorcerer_Rare_007": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1
+					},
+					"587": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "2871283657",
+						"formula_name": "ParagonNodeDamageBonusDot_RareMinor",
+						"stat_dword": 1
+					}
+				},
 				"name": "Pyromancy",
 				"tags": [
 					"Search_Fire",
@@ -40200,6 +45528,30 @@
 				]
 			},
 			"Sorcerer_Rare_008": {
+				"attributes": {
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3660877688",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "3126999901",
+						"formula_name": "ParagonNodeDamageBonusToDotted_RareMajor",
+						"stat_dword": 1
+					}
+				},
 				"name": "Kindling",
 				"tags": [
 					"Search_Burn",
@@ -40207,6 +45559,29 @@
 				]
 			},
 			"Sorcerer_Rare_009": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Flame-touched",
 				"tags": [
 					"Search_Fire",
@@ -40214,6 +45589,30 @@
 				]
 			},
 			"Sorcerer_Rare_010": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 2
+					},
+					"232": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.5,
+								89
+							]
+						},
+						"formula_hash": "2568561421",
+						"formula_name": "ParagonNodeCritDamage_RareMinor",
+						"stat_dword": 2
+					}
+				},
 				"name": "Electromancy",
 				"tags": [
 					"Search_Lightning",
@@ -40221,6 +45620,30 @@
 				]
 			},
 			"Sorcerer_Rare_011": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.0,
+								89
+							]
+						},
+						"formula_hash": "4106449762",
+						"formula_name": "ParagonNodeDamageBonus_RareMinor",
+						"stat_dword": 2
+					},
+					"805": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "1918817806",
+						"formula_name": "ParagonNodeCracklingEnergyDamageBonus_RareMajor",
+						"stat_dword": 918887
+					}
+				},
 				"name": "Conduit",
 				"tags": [
 					"Skill_Lightning",
@@ -40228,6 +45651,29 @@
 				]
 			},
 			"Sorcerer_Rare_012": {
+				"attributes": {
+					"10": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 2
+					}
+				},
 				"name": "Spark-touched",
 				"tags": [
 					"Search_Lightning",
@@ -40235,6 +45681,30 @@
 				]
 			},
 			"Sorcerer_Rare_013": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								3.0,
+								90
+							]
+						},
+						"formula_hash": "3829135533",
+						"formula_name": "ParagonNodeResistance_RareMinor",
+						"stat_dword": 1
+					},
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "52645716",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_RareMajor",
+						"stat_dword": 1
+					}
+				},
 				"name": "Keeper of Flames",
 				"tags": [
 					"Search_Burn",
@@ -40243,6 +45713,29 @@
 				]
 			},
 			"Sorcerer_Rare_014": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 2
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Electro",
 				"tags": [
 					"Search_Lightning",
@@ -40251,6 +45744,30 @@
 				]
 			},
 			"Sorcerer_Rare_015": {
+				"attributes": {
+					"609": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "762265001",
+						"formula_name": "ParagonNodeDamageBonusToVulnerable_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"781": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.5,
+								89
+							]
+						},
+						"formula_hash": "778604011",
+						"formula_name": "ParagonNodeDamageBonusToCC_RareMinor",
+						"stat_dword": 9
+					}
+				},
 				"name": "Icebreaker",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -40258,6 +45775,29 @@
 				]
 			},
 			"Sorcerer_Rare_016": {
+				"attributes": {
+					"790": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "52645716",
+						"formula_name": "ParagonNodeDamageReductionFromDotted_RareMajor",
+						"stat_dword": 1
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Smoldering Embers",
 				"tags": [
 					"Search_Burn",
@@ -40265,6 +45805,30 @@
 				]
 			},
 			"Sorcerer_Rare_017": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								3.0,
+								90
+							]
+						},
+						"formula_hash": "3829135533",
+						"formula_name": "ParagonNodeResistance_RareMinor",
+						"stat_dword": 3
+					},
+					"792": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.5,
+								88
+							]
+						},
+						"formula_hash": "375638614",
+						"formula_name": "ParagonNodeDamageReductionFromCC_RareMajor",
+						"stat_dword": 9
+					}
+				},
 				"name": "Keeper of Winter",
 				"tags": [
 					"Keyword_Chill",
@@ -40273,6 +45837,29 @@
 				]
 			},
 			"Sorcerer_Rare_018": {
+				"attributes": {
+					"233": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "2568269569",
+						"formula_name": "ParagonNodeCritDamage_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Elemental Power",
 				"tags": [
 					"Search_Critical",
@@ -40281,6 +45868,29 @@
 				]
 			},
 			"Sorcerer_Rare_019": {
+				"attributes": {
+					"206": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Elemental Balance",
 				"tags": [
 					"Search_NonPhysical",
@@ -40288,6 +45898,30 @@
 				]
 			},
 			"Sorcerer_Rare_020": {
+				"attributes": {
+					"206": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 4294967295
+					},
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								1.0,
+								90
+							]
+						},
+						"formula_hash": "1208187727",
+						"formula_name": "ParagonNodeResistAll_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Keeper of Elements",
 				"tags": [
 					"Search_NonPhysical",
@@ -40295,6 +45929,30 @@
 				]
 			},
 			"Sorcerer_Rare_022": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 2
+					},
+					"778": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.667,
+								89
+							]
+						},
+						"formula_hash": "3660877688",
+						"formula_name": "ParagonNodeDamageBonusToElite_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Overpowering Current",
 				"tags": [
 					"Search_Lightning",
@@ -40302,6 +45960,29 @@
 				]
 			},
 			"Sorcerer_Rare_023": {
+				"attributes": {
+					"66": {
+						"formula_data": {
+							"3 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								3.0,
+								88
+							]
+						},
+						"formula_hash": "3828843681",
+						"formula_name": "ParagonNodeResistance_RareMajor",
+						"stat_dword": 1
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Ashes",
 				"tags": [
 					"Search_Fire",
@@ -40310,6 +45991,30 @@
 				]
 			},
 			"Sorcerer_Rare_024": {
+				"attributes": {
+					"204": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1
+					},
+					"228": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
+								1.5,
+								89
+							]
+						},
+						"formula_hash": "2568561421",
+						"formula_name": "ParagonNodeCritDamage_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Combustion",
 				"tags": [
 					"Search_Fire",
@@ -40317,6 +46022,29 @@
 				]
 			},
 			"Sorcerer_Rare_025": {
+				"attributes": {
+					"784": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.0,
+								87
+							]
+						},
+						"formula_hash": "4106157910",
+						"formula_name": "ParagonNodeDamageBonus_RareMajor",
+						"stat_dword": 1
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Cinders",
 				"tags": [
 					"Search_Burn",
@@ -40324,6 +46052,29 @@
 				]
 			},
 			"Sorcerer_Rare_026": {
+				"attributes": {
+					"781": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.5,
+								87
+							]
+						},
+						"formula_hash": "778312159",
+						"formula_name": "ParagonNodeDamageBonusToCC_RareMajor",
+						"stat_dword": 9
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Frosts",
 				"tags": [
 					"Keyword_Chill",
@@ -40331,6 +46082,29 @@
 				]
 			},
 			"Sorcerer_Rare_027": {
+				"attributes": {
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"805": {
+						"formula_data": {
+							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
+								1.667,
+								87
+							]
+						},
+						"formula_hash": "1918817806",
+						"formula_name": "ParagonNodeCracklingEnergyDamageBonus_RareMajor",
+						"stat_dword": 918887
+					}
+				},
 				"name": "Galvanic Catalyst",
 				"tags": [
 					"Keyword_Resource_Pickup",
@@ -40338,6 +46112,29 @@
 				]
 			},
 			"Sorcerer_Rare_028": {
+				"attributes": {
+					"792": {
+						"formula_data": {
+							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.5,
+								88
+							]
+						},
+						"formula_hash": "375638614",
+						"formula_name": "ParagonNodeDamageReductionFromCC_RareMajor",
+						"stat_dword": 9
+					},
+					"8": {
+						"formula_data": {
+							"10": [
+								10.0
+							]
+						},
+						"formula_hash": "3856152193",
+						"formula_name": "ParagonNodeCoreStat_RareMinor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Frigid",
 				"tags": [
 					"Keyword_Chill",
@@ -40345,6 +46142,30 @@
 				]
 			},
 			"Sorcerer_Rare_034": {
+				"attributes": {
+					"389": {
+						"formula_data": {
+							"0.5 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
+								0.5,
+								90
+							]
+						},
+						"formula_hash": "2680576132",
+						"formula_name": "ParagonNodeArmorBonus_RareMinor",
+						"stat_dword": 4294967295
+					},
+					"68": {
+						"formula_data": {
+							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
+								1.0,
+								88
+							]
+						},
+						"formula_hash": "1207895875",
+						"formula_name": "ParagonNodeResistAll_RareMajor",
+						"stat_dword": 4294967295
+					}
+				},
 				"name": "Denial",
 				"tags": [
 					"Search_Resistance",

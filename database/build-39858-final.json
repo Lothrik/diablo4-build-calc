@@ -6510,7 +6510,7 @@
 						"stat_dword": 4294967295
 					},
 					"618": {
-						"attribute_name": "Damage_Percent_Bonus_When_Fortified",
+						"attribute_name": "Damage_Percent_All_From_Skills",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -6522,7 +6522,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage while Fortified\n+5% Fortify Generation",
+				"desc": "+5% Damage\n+5% Fortify Generation",
 				"name": "Primal Instinct",
 				"tags": [
 					"Fortify",
@@ -6877,7 +6877,7 @@
 						"stat_dword": 4294967295
 					},
 					"788": {
-						"attribute_name": "Damage_Percent_Bonus_Vs_CC_All",
+						"attribute_name": "Damage_Percent_Bonus_Vs_CC_Target#Crowd Controlled",
 						"formula_data": {
 							"1.5 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
 								1.5,
@@ -13545,7 +13545,7 @@
 						"stat_dword": 4294967295
 					},
 					"775": {
-						"attribute_name": "Damage_Bonus_Percent_After_Dodge",
+						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -13556,7 +13556,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+1% Damage for {#} Seconds After Dodging an Attack\n+500% Damage for {#} Seconds After Dodging an Attack",
+				"desc": "+1% Damage for {#} Seconds After Dodging an Attack",
 				"name": "Damage After Dodge",
 				"tags": [
 					"Dodge",
@@ -14136,7 +14136,7 @@
 			"Generic_Magic_DamageToCC": {
 				"attributes": {
 					"788": {
-						"attribute_name": "Damage_Percent_Bonus_Vs_CC_All",
+						"attribute_name": "Damage_Percent_Bonus_Vs_CC_Target#Crowd Controlled",
 						"formula_data": {
 							"1.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.5,
@@ -14754,7 +14754,7 @@
 						"stat_dword": 4294967295
 					},
 					"764": {
-						"attribute_name": "Movement_Speed_Bonus_On_Elite_Kill",
+						"attribute_name": null,
 						"formula_data": {
 							"6": [
 								6.0
@@ -14765,7 +14765,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+3.5% Movement Speed for {#} Seconds After Killing an Elite\n+600% Movement Speed for {#} Seconds After Killing an Elite",
+				"desc": "+3.5% Movement Speed for {#} Seconds After Killing an Elite",
 				"name": "Move Speed Elite Kill",
 				"tags": [
 					"Movement",
@@ -15219,7 +15219,7 @@
 						"stat_dword": 4294967295
 					},
 					"788": {
-						"attribute_name": "Damage_Percent_Bonus_Vs_CC_All",
+						"attribute_name": "Damage_Percent_Bonus_Vs_CC_Target#Crowd Controlled",
 						"formula_data": {
 							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.5,
@@ -15429,7 +15429,7 @@
 						"stat_dword": 4294967295
 					},
 					"788": {
-						"attribute_name": "Damage_Percent_Bonus_Vs_CC_All",
+						"attribute_name": "Damage_Percent_Bonus_Vs_CC_Target#Crowd Controlled",
 						"formula_data": {
 							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.5,
@@ -15475,7 +15475,7 @@
 						"stat_dword": 4294967295
 					},
 					"775": {
-						"attribute_name": "Damage_Bonus_Percent_After_Dodge",
+						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -15486,7 +15486,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage for {#} Seconds After Dodging an Attack\n+500% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity",
+				"desc": "+5% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity",
 				"name": "Feint",
 				"tags": [
 					"Dodge",
@@ -15581,7 +15581,7 @@
 						"stat_dword": 4294967295
 					},
 					"788": {
-						"attribute_name": "Damage_Percent_Bonus_Vs_CC_All",
+						"attribute_name": "Damage_Percent_Bonus_Vs_CC_Target#Crowd Controlled",
 						"formula_data": {
 							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.5,
@@ -15616,7 +15616,7 @@
 						"stat_dword": 4294967295
 					},
 					"764": {
-						"attribute_name": "Movement_Speed_Bonus_On_Elite_Kill",
+						"attribute_name": null,
 						"formula_data": {
 							"6": [
 								6.0
@@ -15639,7 +15639,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+8.3% Damage to Elites\n+10.5% Movement Speed for {#} Seconds After Killing an Elite\n+600% Movement Speed for {#} Seconds After Killing an Elite",
+				"desc": "+8.3% Damage to Elites\n+10.5% Movement Speed for {#} Seconds After Killing an Elite",
 				"name": "Hunter Killer",
 				"tags": [
 					"Elite Monsters",
@@ -16255,7 +16255,7 @@
 						"stat_dword": 4294967295
 					},
 					"788": {
-						"attribute_name": "Damage_Percent_Bonus_Vs_CC_All",
+						"attribute_name": "Damage_Percent_Bonus_Vs_CC_Target#Crowd Controlled",
 						"formula_data": {
 							"1.5 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.5,
@@ -16630,7 +16630,7 @@
 						"stat_dword": 4294967295
 					},
 					"775": {
-						"attribute_name": "Damage_Bonus_Percent_After_Dodge",
+						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -16653,7 +16653,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage for {#} Seconds After Dodging an Attack\n+500% Damage for {#} Seconds After Dodging an Attack\n+5% Damage to Elites",
+				"desc": "+5% Damage for {#} Seconds After Dodging an Attack\n+5% Damage to Elites",
 				"name": "Discerning",
 				"tags": [
 					"Elite Monsters",
@@ -19283,7 +19283,7 @@
 			"Necromancer_Rare_009": {
 				"attributes": {
 					"259": {
-						"attribute_name": "Damage_Percent_All_From_Skills",
+						"attribute_name": "Blood_Orb_Pickup_Damage_Combined",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -19295,7 +19295,7 @@
 						"stat_dword": 4294967295
 					},
 					"260": {
-						"attribute_name": "Blood_Orb_Pickup_Damage_Combined",
+						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -19318,7 +19318,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+500% Damage for {#} Seconds After Picking Up a Blood Orb\n+3.8% Damage while Healthy",
+				"desc": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+3.8% Damage while Healthy",
 				"name": "Invigorated",
 				"tags": [
 					"Blood Orb",
@@ -19818,7 +19818,7 @@
 			"Necromancer_Rare_034": {
 				"attributes": {
 					"259": {
-						"attribute_name": "Damage_Percent_All_From_Skills",
+						"attribute_name": "Blood_Orb_Pickup_Damage_Combined",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -19830,7 +19830,7 @@
 						"stat_dword": 4294967295
 					},
 					"260": {
-						"attribute_name": "Blood_Orb_Pickup_Damage_Combined",
+						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -19852,7 +19852,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+500% Damage for {#} Seconds After Picking Up a Blood Orb\n+5% Damage\n+10 Intelligence",
+				"desc": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence",
 				"name": "Blood-Empowered",
 				"tags": [
 					"Damage",
