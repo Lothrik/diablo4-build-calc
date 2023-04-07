@@ -13831,7 +13831,7 @@
 			"Generic_Magic_DamageReductionFromDot": {
 				"attributes": {
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Any DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking any DoT",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								1.667,
@@ -13843,7 +13843,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "1.7% Damage Reduction from Enemies That Are Taking Any DoT",
+				"desc": "1.7% Damage Reduction from Enemies That Are Taking any DoT",
 				"name": "Damage Reduction From Dot",
 				"tags": [
 					"Damage Reduction"
@@ -15151,7 +15151,7 @@
 						"stat_dword": 4294967295
 					},
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Any DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking any DoT",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
 								1.667,
@@ -15163,7 +15163,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are Taking Any DoT",
+				"desc": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are Taking any DoT",
 				"name": "Fleeting",
 				"tags": [
 					"Crowd Control",
@@ -15533,7 +15533,7 @@
 			"Generic_Rare_019": {
 				"attributes": {
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Any DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking any DoT",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
 								1.667,
@@ -15557,7 +15557,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "8.3% Damage Reduction from Enemies That Are Taking Any DoT\n3% Resistance to All Elements",
+				"desc": "8.3% Damage Reduction from Enemies That Are Taking any DoT\n3% Resistance to All Elements",
 				"name": "Suffused Resilience",
 				"tags": [
 					"Resistance",

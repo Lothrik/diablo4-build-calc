@@ -8930,7 +8930,7 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageReductionFromDot": {
 				"name": "Damage Reduction From Dot",
-				"description": "1.7% Damage Reduction from Enemies That Are Taking Any DoT\n\nTags: Damage Reduction."
+				"description": "1.7% Damage Reduction from Enemies That Are Taking any DoT\n\nTags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromElite": {
 				"name": "Damage Reduction From Elite",
@@ -9166,7 +9166,7 @@ let paragonData = {
 			},
 			"Generic_Rare_006": {
 				"name": "Fleeting",
-				"description": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are Taking Any DoT\n\nTags: Crowd Control, Damage Reduction."
+				"description": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are Taking any DoT\n\nTags: Crowd Control, Damage Reduction."
 			},
 			"Generic_Rare_007": {
 				"name": "Focused",
@@ -9210,7 +9210,7 @@ let paragonData = {
 			},
 			"Generic_Rare_019": {
 				"name": "Suffused Resilience",
-				"description": "8.3% Damage Reduction from Enemies That Are Taking Any DoT\n3% Resistance to All Elements\n\nTags: Resistance, Non-Physical, Damage Reduction."
+				"description": "8.3% Damage Reduction from Enemies That Are Taking any DoT\n3% Resistance to All Elements\n\nTags: Resistance, Non-Physical, Damage Reduction."
 			},
 			"Generic_Rare_021": {
 				"name": "Calculated",
