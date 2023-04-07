@@ -716,7 +716,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+125 Armor\n+10 Strength",
+				"desc": "+125 Armor\n+10 Strength\nBonus: Another +125 Armor if requirements met: {#}",
 				"name": "Iron Strength",
 				"tags": [
 					"Armor",
@@ -750,7 +750,7 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+1% Damage while Berserking\n+5% Damage to Elites",
+				"desc": "+1% Damage while Berserking\n+5% Damage to Elites\nBonus: Another +1% Damage while Berserking if requirements met: {#}",
 				"name": "Berserker",
 				"tags": [
 					"Berserking",
@@ -785,7 +785,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+5% Physical Damage Over Time\n+3% Damage to Bleeding Enemies",
+				"desc": "+5% Physical Damage Over Time\n+3% Damage to Bleeding Enemies\nBonus: Another +5% Physical Damage Over Time if requirements met: {#}",
 				"name": "Flayer",
 				"tags": [
 					"Bleed",
@@ -818,7 +818,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Physical Damage Over Time\n+10 Strength",
+				"desc": "+5% Physical Damage Over Time\n+10 Strength\nBonus: Another +5% Physical Damage Over Time if requirements met: {#}",
 				"name": "Butcher",
 				"tags": [
 					"Bleed",
@@ -853,7 +853,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+5% Physical Damage Over Time\n+3% Physical Damage",
+				"desc": "+5% Physical Damage Over Time\n+3% Physical Damage\nBonus: Another +5% Physical Damage Over Time if requirements met: {#}",
 				"name": "Lacerator",
 				"tags": [
 					"Bleed",
@@ -888,7 +888,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage with TwoHandedBludgeoning\n+9% Overpower Damage",
+				"desc": "+5% Damage with TwoHandedBludgeoning\n+9% Overpower Damage\nBonus: Another +5% Damage with TwoHandedBludgeoning if requirements met: {#}",
 				"name": "Bludgeoner",
 				"tags": [
 					"Overpower",
@@ -923,7 +923,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "6.2% Damage Reduction while Healthy\n+10 Strength",
+				"desc": "6.2% Damage Reduction while Healthy\n+10 Strength\nBonus: Another 6.2% Damage Reduction while Healthy if requirements met: {#}",
 				"name": "Vigor",
 				"tags": [
 					"Healthy",
@@ -959,7 +959,7 @@
 						"stat_dword": 3
 					}
 				},
-				"desc": "15% Cold Resistance\n+75 Armor",
+				"desc": "15% Cold Resistance\n+75 Armor\nBonus: Another 15% Cold Resistance if requirements met: {#}",
 				"name": "Cold Conditioned",
 				"tags": [
 					"Cold",
@@ -995,7 +995,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Life\n+75 Armor",
+				"desc": "+5% Life\n+75 Armor\nBonus: Another +5% Life if requirements met: {#}",
 				"name": "Tenacity",
 				"tags": [
 					"Life",
@@ -1028,7 +1028,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies That Are Bleeding\n+10 Strength",
+				"desc": "5% Damage Reduction from Enemies That Are Bleeding\n+10 Strength\nBonus: Another 5% Damage Reduction from Enemies That Are Bleeding if requirements met: {#}",
 				"name": "Grit",
 				"tags": [
 					"Bleed",
@@ -1062,7 +1062,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Resistance to All Elements\n+10 Strength",
+				"desc": "5% Resistance to All Elements\n+10 Strength\nBonus: Another 5% Resistance to All Elements if requirements met: {#}",
 				"name": "Conditioned",
 				"tags": [
 					"Resistance",
@@ -1098,7 +1098,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "15% Fire Resistance\n+75 Armor",
+				"desc": "15% Fire Resistance\n+75 Armor\nBonus: Another 15% Fire Resistance if requirements met: {#}",
 				"name": "Fire Conditioned",
 				"tags": [
 					"Resistance",
@@ -1133,7 +1133,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+8 Maximum Fury\n2 Fury On Kill",
+				"desc": "+8 Maximum Fury\n2 Fury On Kill\nBonus: Another +8 Maximum Fury if requirements met: {#}",
 				"name": "Hungering Fury",
 				"tags": [
 					"Fury"
@@ -1167,7 +1167,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "15% Lightning Resistance\n+75 Armor",
+				"desc": "15% Lightning Resistance\n+75 Armor\nBonus: Another 15% Lightning Resistance if requirements met: {#}",
 				"name": "Lightning Conditioned",
 				"tags": [
 					"Resistance",
@@ -1202,7 +1202,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+5% Physical Damage\n+3% Life",
+				"desc": "+5% Physical Damage\n+3% Life\nBonus: Another +5% Physical Damage if requirements met: {#}",
 				"name": "Brawn",
 				"tags": [
 					"Physical",
@@ -1236,7 +1236,7 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+5% Damage while Berserking\n+10 Strength",
+				"desc": "+5% Damage while Berserking\n+10 Strength\nBonus: Another +5% Damage while Berserking if requirements met: {#}",
 				"name": "Fierce",
 				"tags": [
 					"Berserking",
@@ -1270,7 +1270,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Critical Strike Damage with OneHanded\n+10 Strength",
+				"desc": "+7.5% Critical Strike Damage with OneHanded\n+10 Strength\nBonus: Another +7.5% Critical Strike Damage with OneHanded if requirements met: {#}",
 				"name": "Heavy Blows",
 				"tags": [
 					"Critical Strikes",
@@ -1306,7 +1306,7 @@
 						"stat_dword": 955638
 					}
 				},
-				"desc": "+5% Damage with OneHanded\n+3% Attack Speed",
+				"desc": "+5% Damage with OneHanded\n+3% Attack Speed\nBonus: Another +5% Damage with OneHanded if requirements met: {#}",
 				"name": "Wild Force",
 				"tags": [
 					"Damage",
@@ -1342,7 +1342,7 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "15% Poison Resistance\n+75 Armor",
+				"desc": "15% Poison Resistance\n+75 Armor\nBonus: Another 15% Poison Resistance if requirements met: {#}",
 				"name": "Poison Conditioned",
 				"tags": [
 					"Resistance",
@@ -1377,7 +1377,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage with TwoHandedSlashing\n+3% Vulnerable Damage",
+				"desc": "+5% Damage with TwoHandedSlashing\n+3% Vulnerable Damage\nBonus: Another +5% Damage with TwoHandedSlashing if requirements met: {#}",
 				"name": "Destroyer",
 				"tags": [
 					"Damage",
@@ -1413,7 +1413,7 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+5% Damage while Berserking\n+4.5% Berserking Duration",
+				"desc": "+5% Damage while Berserking\n+4.5% Berserking Duration\nBonus: Another +5% Damage while Berserking if requirements met: {#}",
 				"name": "Enraged",
 				"tags": [
 					"Berserking",
@@ -6419,7 +6419,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Storm Skill Damage\n+10 Willpower",
+				"desc": "+5% Storm Skill Damage\n+10 Willpower\nBonus: Another +5% Storm Skill Damage if requirements met: {#}",
 				"name": "Stormcaller",
 				"tags": [
 					"Storm",
@@ -6453,7 +6453,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies That Are Poisoned\n+10 Willpower",
+				"desc": "5% Damage Reduction from Enemies That Are Poisoned\n+10 Willpower\nBonus: Another 5% Damage Reduction from Enemies That Are Poisoned if requirements met: {#}",
 				"name": "Nature-born",
 				"tags": [
 					"Poison",
@@ -6488,7 +6488,7 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "+5% Damage to Poisoned Enemies\n+3% Poison Damage",
+				"desc": "+5% Damage to Poisoned Enemies\n+3% Poison Damage\nBonus: Another +5% Damage to Poisoned Enemies if requirements met: {#}",
 				"name": "Toxic Bane",
 				"tags": [
 					"Poison",
@@ -6522,7 +6522,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+5% Fortify Generation",
+				"desc": "+5% Damage\n+5% Fortify Generation\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Primal Instinct",
 				"tags": [
 					"Fortify",
@@ -6556,7 +6556,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Earth Skill Damage\n+4.5% Critical Strike Damage to Crowd Controlled Enemies",
+				"desc": "+5% Earth Skill Damage\n+4.5% Critical Strike Damage to Crowd Controlled Enemies\nBonus: Another +5% Earth Skill Damage if requirements met: {#}",
 				"name": "Crushing Earth",
 				"tags": [
 					"Earth",
@@ -6591,7 +6591,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Critical Strike Damage with Earth Skills\n+10 Willpower",
+				"desc": "+7.5% Critical Strike Damage with Earth Skills\n+10 Willpower\nBonus: Another +7.5% Critical Strike Damage with Earth Skills if requirements met: {#}",
 				"name": "Earthen Power",
 				"tags": [
 					"Critical Strikes",
@@ -6626,7 +6626,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Nature Magic Skill Damage\n+10 Willpower",
+				"desc": "+5% Nature Magic Skill Damage\n+10 Willpower\nBonus: Another +5% Nature Magic Skill Damage if requirements met: {#}",
 				"name": "Nature's Will",
 				"tags": [
 					"Nature Magic",
@@ -6661,7 +6661,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Nature Magic Skill Damage\n+5% Damage to Elites",
+				"desc": "+5% Nature Magic Skill Damage\n+5% Damage to Elites\nBonus: Another +5% Nature Magic Skill Damage if requirements met: {#}",
 				"name": "Devastation",
 				"tags": [
 					"Nature Magic",
@@ -6684,7 +6684,7 @@
 						"stat_dword": 3340001955
 					}
 				},
-				"desc": "+10% Basic Skill Damage",
+				"desc": "+10% Basic Skill Damage\nBonus: Another +10% Basic Skill Damage if requirements met: {#}",
 				"name": "Spiritual Power",
 				"tags": [
 					"Core",
@@ -6718,7 +6718,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage while in Werebear Form\n+10 Willpower",
+				"desc": "+5% Damage while in Werebear Form\n+10 Willpower\nBonus: Another +5% Damage while in Werebear Form if requirements met: {#}",
 				"name": "Grizzly",
 				"tags": [
 					"Werebear",
@@ -6754,7 +6754,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+4.8 Maximum Spirit\n+5% Life",
+				"desc": "+4.8 Maximum Spirit\n+5% Life\nBonus: Another +4.8 Maximum Spirit if requirements met: {#}",
 				"name": "Natural Attunement",
 				"tags": [
 					"Life",
@@ -6788,7 +6788,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+8 Maximum Spirit\n2 Spirit On Kill",
+				"desc": "+8 Maximum Spirit\n2 Spirit On Kill\nBonus: Another +8 Maximum Spirit if requirements met: {#}",
 				"name": "Reclamation",
 				"tags": [
 					"Spirit"
@@ -6820,7 +6820,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+3% Damage to Poisoned Enemies\n+10 Willpower",
+				"desc": "+3% Damage to Poisoned Enemies\n+10 Willpower\nBonus: Another +3% Damage to Poisoned Enemies if requirements met: {#}",
 				"name": "Sinking Fangs",
 				"tags": [
 					"Poison",
@@ -6854,7 +6854,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Shapeshifting Skill Damage\n+10 Willpower",
+				"desc": "+5% Shapeshifting Skill Damage\n+10 Willpower\nBonus: Another +5% Shapeshifting Skill Damage if requirements met: {#}",
 				"name": "Shapeshifter",
 				"tags": [
 					"Shapeshifting",
@@ -6889,7 +6889,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Critical Strike Damage\n+4.5% Damage to Crowd Controlled Enemies",
+				"desc": "+7.5% Critical Strike Damage\n+4.5% Damage to Crowd Controlled Enemies\nBonus: Another +7.5% Critical Strike Damage if requirements met: {#}",
 				"name": "Deluge",
 				"tags": [
 					"Critical Strikes",
@@ -6924,7 +6924,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Werewolf Skill Damage\n+4.5% Critical Strike Damage",
+				"desc": "+5% Werewolf Skill Damage\n+4.5% Critical Strike Damage\nBonus: Another +5% Werewolf Skill Damage if requirements met: {#}",
 				"name": "Ferocity",
 				"tags": [
 					"Werewolf",
@@ -6960,7 +6960,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Attack Speed\n+4.8 Maximum Spirit",
+				"desc": "+5% Attack Speed\n+4.8 Maximum Spirit\nBonus: Another +5% Attack Speed if requirements met: {#}",
 				"name": "Wild's Call",
 				"tags": [
 					"Attack Speed",
@@ -6994,7 +6994,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Werebear Skill Damage\n+9% Overpower Damage",
+				"desc": "+5% Werebear Skill Damage\n+9% Overpower Damage\nBonus: Another +5% Werebear Skill Damage if requirements met: {#}",
 				"name": "Ursine",
 				"tags": [
 					"Werebear",
@@ -7028,7 +7028,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+2.5% Total Armor while in Werebear Form\n+10 Willpower",
+				"desc": "+2.5% Total Armor while in Werebear Form\n+10 Willpower\nBonus: Another +2.5% Total Armor while in Werebear Form if requirements met: {#}",
 				"name": "Battleworn Hide",
 				"tags": [
 					"Armor",
@@ -7062,7 +7062,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7% Core Skill Damage\n+10 Willpower",
+				"desc": "+7% Core Skill Damage\n+10 Willpower\nBonus: Another +7% Core Skill Damage if requirements met: {#}",
 				"name": "Harmony",
 				"tags": [
 					"Core",
@@ -13831,7 +13831,7 @@
 			"Generic_Magic_DamageReductionFromDot": {
 				"attributes": {
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking any DoT",
+						"attribute_name": "DOT_DPS_Reduction_Percent_Per_Damage_Type#Any",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								1.667,
@@ -13843,7 +13843,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "1.7% Damage Reduction from Enemies That Are Taking any DoT",
+				"desc": "1.7% Damage Taken Over Time Reduction",
 				"name": "Damage Reduction From Dot",
 				"tags": [
 					"Damage Reduction"
@@ -15094,7 +15094,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Resistance to All Elements\n+3% Life",
+				"desc": "5% Resistance to All Elements\n+3% Life\nBonus: Another 5% Resistance to All Elements if requirements met: {#}",
 				"name": "Resilience",
 				"tags": [
 					"Resistance",
@@ -15129,7 +15129,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Attack Speed\n+3% Damage",
+				"desc": "+5% Attack Speed\n+3% Damage\nBonus: Another +5% Attack Speed if requirements met: {#}",
 				"name": "Nimble",
 				"tags": [
 					"Attack Speed",
@@ -15151,7 +15151,7 @@
 						"stat_dword": 4294967295
 					},
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking any DoT",
+						"attribute_name": "DOT_DPS_Reduction_Percent_Per_Damage_Type#Any",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
 								1.667,
@@ -15163,7 +15163,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are Taking any DoT",
+				"desc": "10% Control Impaired Duration Reduction\n5% Damage Taken Over Time Reduction\nBonus: Another 10% Control Impaired Duration Reduction if requirements met: {#}",
 				"name": "Fleeting",
 				"tags": [
 					"Crowd Control",
@@ -15196,7 +15196,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+8.3% Damage to Elites\n+10 Dexterity",
+				"desc": "+8.3% Damage to Elites\n+10 Dexterity\nBonus: Another +8.3% Damage to Elites if requirements met: {#}",
 				"name": "Focused",
 				"tags": [
 					"Elite Monsters",
@@ -15231,7 +15231,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Damage to Crowd Controlled Enemies\n+4.5% Critical Strike Damage to Crowd Controlled Enemies",
+				"desc": "+7.5% Damage to Crowd Controlled Enemies\n+4.5% Critical Strike Damage to Crowd Controlled Enemies\nBonus: Another +7.5% Damage to Crowd Controlled Enemies if requirements met: {#}",
 				"name": "Oppress",
 				"tags": [
 					"Crowd Control",
@@ -15267,7 +15267,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12.5% Damage to Healthy Enemies\n+75 Armor",
+				"desc": "+12.5% Damage to Healthy Enemies\n+75 Armor\nBonus: Another +12.5% Damage to Healthy Enemies if requirements met: {#}",
 				"name": "Spearhead",
 				"tags": [
 					"Healthy",
@@ -15302,7 +15302,7 @@
 						"stat_dword": 3
 					}
 				},
-				"desc": "15% Cold Resistance\n+3% Life",
+				"desc": "15% Cold Resistance\n+3% Life\nBonus: Another 15% Cold Resistance if requirements met: {#}",
 				"name": "Cold Resilience",
 				"tags": [
 					"Resistance",
@@ -15337,7 +15337,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Critical Strike Damage\n+3% Physical Damage",
+				"desc": "+7.5% Critical Strike Damage\n+3% Physical Damage\nBonus: Another +7.5% Critical Strike Damage if requirements met: {#}",
 				"name": "Havoc",
 				"tags": [
 					"Critical Strikes",
@@ -15372,7 +15372,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12.5% Damage to Healthy Enemies\n+4.5% Critical Strike Damage",
+				"desc": "+12.5% Damage to Healthy Enemies\n+4.5% Critical Strike Damage\nBonus: Another +12.5% Damage to Healthy Enemies if requirements met: {#}",
 				"name": "Ruin",
 				"tags": [
 					"Critical Strikes",
@@ -15407,7 +15407,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12.5% Damage to Injured Enemies\n+4.5% Critical Strike Damage",
+				"desc": "+12.5% Damage to Injured Enemies\n+4.5% Critical Strike Damage\nBonus: Another +12.5% Damage to Injured Enemies if requirements met: {#}",
 				"name": "Stifle",
 				"tags": [
 					"Injured",
@@ -15441,7 +15441,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Damage to Crowd Controlled Enemies\n+10 Dexterity",
+				"desc": "+7.5% Damage to Crowd Controlled Enemies\n+10 Dexterity\nBonus: Another +7.5% Damage to Crowd Controlled Enemies if requirements met: {#}",
 				"name": "Devious",
 				"tags": [
 					"Crowd Control",
@@ -15486,7 +15486,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity",
+				"desc": "+5% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity\nBonus: Another +5% Damage for {#} Seconds After Dodging an Attack if requirements met: {#}",
 				"name": "Feint",
 				"tags": [
 					"Dodge",
@@ -15522,7 +15522,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "8.3% Damage Reduction from Elites\n+75 Armor",
+				"desc": "8.3% Damage Reduction from Elites\n+75 Armor\nBonus: Another 8.3% Damage Reduction from Elites if requirements met: {#}",
 				"name": "Safeguard",
 				"tags": [
 					"Elite Monsters",
@@ -15533,7 +15533,7 @@
 			"Generic_Rare_019": {
 				"attributes": {
 					"592": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking any DoT",
+						"attribute_name": "DOT_DPS_Reduction_Percent_Per_Damage_Type#Any",
 						"formula_data": {
 							"1.6667 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
 								1.667,
@@ -15557,7 +15557,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "8.3% Damage Reduction from Enemies That Are Taking any DoT\n3% Resistance to All Elements",
+				"desc": "8.3% Damage Taken Over Time Reduction\n3% Resistance to All Elements\nBonus: Another 8.3% Damage Taken Over Time Reduction if requirements met: {#}",
 				"name": "Suffused Resilience",
 				"tags": [
 					"Resistance",
@@ -15593,7 +15593,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Damage to Crowd Controlled Enemies\n+75 Armor",
+				"desc": "+7.5% Damage to Crowd Controlled Enemies\n+75 Armor\nBonus: Another +7.5% Damage to Crowd Controlled Enemies if requirements met: {#}",
 				"name": "Calculated",
 				"tags": [
 					"Crowd Control",
@@ -15639,7 +15639,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+8.3% Damage to Elites\n+10.5% Movement Speed for {#} Seconds After Killing an Elite",
+				"desc": "+8.3% Damage to Elites\n+10.5% Movement Speed for {#} Seconds After Killing an Elite\nBonus: Another +8.3% Damage to Elites if requirements met: {#}",
 				"name": "Hunter Killer",
 				"tags": [
 					"Elite Monsters",
@@ -15675,7 +15675,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12.5% Damage to Injured Enemies\n+75 Armor",
+				"desc": "+12.5% Damage to Injured Enemies\n+75 Armor\nBonus: Another +12.5% Damage to Injured Enemies if requirements met: {#}",
 				"name": "Deathbringer",
 				"tags": [
 					"Injured",
@@ -15711,7 +15711,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Vulnerable Damage\n+75 Armor",
+				"desc": "+5% Vulnerable Damage\n+75 Armor\nBonus: Another +5% Vulnerable Damage if requirements met: {#}",
 				"name": "Pillage",
 				"tags": [
 					"Vulnerable",
@@ -15746,7 +15746,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage while Fortified\n+3.8% Damage while Healthy",
+				"desc": "+5% Damage while Fortified\n+3.8% Damage while Healthy\nBonus: Another +5% Damage while Fortified if requirements met: {#}",
 				"name": "Inner Strength",
 				"tags": [
 					"Fortify",
@@ -15781,7 +15781,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+15% Overpower Damage\n+3% Damage",
+				"desc": "+15% Overpower Damage\n+3% Damage\nBonus: Another +15% Overpower Damage if requirements met: {#}",
 				"name": "Aggression",
 				"tags": [
 					"Overpower",
@@ -15815,7 +15815,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+3% Life",
+				"desc": "+5% Damage\n+3% Life\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Elementalist",
 				"tags": [
 					"Non-Physical",
@@ -15850,7 +15850,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites\n+3% Attack Speed",
+				"desc": "Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites\n+3% Attack Speed\nBonus: Another Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites if requirements met: {#}",
 				"name": "Culler",
 				"tags": [
 					"Execute",
@@ -15886,7 +15886,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "15% Fire Resistance\n+3% Life",
+				"desc": "15% Fire Resistance\n+3% Life\nBonus: Another 15% Fire Resistance if requirements met: {#}",
 				"name": "Fire Resilience",
 				"tags": [
 					"Resistance",
@@ -15921,7 +15921,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Damage Reduction while Fortified\n+5% Fortify Generation",
+				"desc": "5% Damage Reduction while Fortified\n+5% Fortify Generation\nBonus: Another 5% Damage Reduction while Fortified if requirements met: {#}",
 				"name": "Bulwark",
 				"tags": [
 					"Fortify",
@@ -15955,7 +15955,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Potion Healing\n1% Healing Over Time",
+				"desc": "+5% Potion Healing\n1% Healing Over Time\nBonus: Another +5% Potion Healing if requirements met: {#}",
 				"name": "Recuperate",
 				"tags": [
 					"Healing"
@@ -15988,7 +15988,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "15% Lightning Resistance\n+3% Life",
+				"desc": "15% Lightning Resistance\n+3% Life\nBonus: Another 15% Lightning Resistance if requirements met: {#}",
 				"name": "Lightning Resilience",
 				"tags": [
 					"Resistance",
@@ -16023,7 +16023,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+5% Damage to Elites",
+				"desc": "+5% Damage\n+5% Damage to Elites\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Ruinous",
 				"tags": [
 					"Damage",
@@ -16059,7 +16059,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+8 Maximum Mana\n+3% Life",
+				"desc": "+8 Maximum Mana\n+3% Life\nBonus: Another +8 Maximum Mana if requirements met: {#}",
 				"name": "Reservoir",
 				"tags": [
 					"Mana",
@@ -16094,7 +16094,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+8 Maximum Fury\n+3% Life",
+				"desc": "+8 Maximum Fury\n+3% Life\nBonus: Another +8 Maximum Fury if requirements met: {#}",
 				"name": "Core Reserve",
 				"tags": [
 					"Fury",
@@ -16128,7 +16128,7 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "15% Poison Resistance\n+3% Life",
+				"desc": "15% Poison Resistance\n+3% Life\nBonus: Another 15% Poison Resistance if requirements met: {#}",
 				"name": "Poison Resilience",
 				"tags": [
 					"Resistance",
@@ -16163,7 +16163,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Potion Healing\n+3% Life",
+				"desc": "+5% Potion Healing\n+3% Life\nBonus: Another +5% Potion Healing if requirements met: {#}",
 				"name": "Restorative",
 				"tags": [
 					"Healing",
@@ -16197,7 +16197,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Critical Strike Damage\n+3% Vulnerable Damage",
+				"desc": "+7.5% Critical Strike Damage\n+3% Vulnerable Damage\nBonus: Another +7.5% Critical Strike Damage if requirements met: {#}",
 				"name": "Tempest",
 				"tags": [
 					"Critical Strikes",
@@ -16232,7 +16232,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "15% Shadow Resistance\n+3% Life",
+				"desc": "15% Shadow Resistance\n+3% Life\nBonus: Another 15% Shadow Resistance if requirements met: {#}",
 				"name": "Shadow Resilience",
 				"tags": [
 					"Resistance",
@@ -16267,7 +16267,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Damage to Crowd Controlled Enemies\n+3% Life",
+				"desc": "+7.5% Damage to Crowd Controlled Enemies\n+3% Life\nBonus: Another +7.5% Damage to Crowd Controlled Enemies if requirements met: {#}",
 				"name": "Superiority",
 				"tags": [
 					"Life",
@@ -16302,7 +16302,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Vulnerable Damage\n+7.5% Damage to Injured Enemies",
+				"desc": "+5% Vulnerable Damage\n+7.5% Damage to Injured Enemies\nBonus: Another +5% Vulnerable Damage if requirements met: {#}",
 				"name": "Exploit",
 				"tags": [
 					"Vulnerable",
@@ -16336,7 +16336,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+10 Dexterity",
+				"desc": "+5% Damage\n+10 Dexterity\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Skillful",
 				"tags": [
 					"Dexterity",
@@ -16370,7 +16370,7 @@
 						"stat_dword": 6
 					}
 				},
-				"desc": "+8 Maximum Essence\n2 Essence On Kill",
+				"desc": "+8 Maximum Essence\n2 Essence On Kill\nBonus: Another +8 Maximum Essence if requirements met: {#}",
 				"name": "Reinvigorate",
 				"tags": [
 					"Essence"
@@ -16402,7 +16402,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Resistance to All Elements\n+10 Intelligence",
+				"desc": "5% Resistance to All Elements\n+10 Intelligence\nBonus: Another 5% Resistance to All Elements if requirements met: {#}",
 				"name": "Erudite",
 				"tags": [
 					"Non-Physical",
@@ -16437,7 +16437,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+5% Damage to Bleeding Enemies\n+5% Damage to Elites",
+				"desc": "+5% Damage to Bleeding Enemies\n+5% Damage to Elites\nBonus: Another +5% Damage to Bleeding Enemies if requirements met: {#}",
 				"name": "Craving",
 				"tags": [
 					"Bleed",
@@ -16471,7 +16471,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+5% Damage to Bleeding Enemies\n+10 Strength",
+				"desc": "+5% Damage to Bleeding Enemies\n+10 Strength\nBonus: Another +5% Damage to Bleeding Enemies if requirements met: {#}",
 				"name": "Revel",
 				"tags": [
 					"Bleed",
@@ -16505,7 +16505,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "6% Damage Reduction from Close Enemies\n+10 Strength",
+				"desc": "6% Damage Reduction from Close Enemies\n+10 Strength\nBonus: Another 6% Damage Reduction from Close Enemies if requirements met: {#}",
 				"name": "Brash",
 				"tags": [
 					"Damage Reduction",
@@ -16539,7 +16539,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+5% Physical Damage\n+3% Attack Speed",
+				"desc": "+5% Physical Damage\n+3% Attack Speed\nBonus: Another +5% Physical Damage if requirements met: {#}",
 				"name": "Brute",
 				"tags": [
 					"Physical",
@@ -16574,7 +16574,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+125 Armor\n+10 Willpower",
+				"desc": "+125 Armor\n+10 Willpower\nBonus: Another +125 Armor if requirements met: {#}",
 				"name": "Determination",
 				"tags": [
 					"Armor",
@@ -16608,7 +16608,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+125 Armor\n+10 Dexterity",
+				"desc": "+125 Armor\n+10 Dexterity\nBonus: Another +125 Armor if requirements met: {#}",
 				"name": "Lawless",
 				"tags": [
 					"Armor",
@@ -16653,7 +16653,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage for {#} Seconds After Dodging an Attack\n+5% Damage to Elites",
+				"desc": "+5% Damage for {#} Seconds After Dodging an Attack\n+5% Damage to Elites\nBonus: Another +5% Damage for {#} Seconds After Dodging an Attack if requirements met: {#}",
 				"name": "Discerning",
 				"tags": [
 					"Elite Monsters",
@@ -16687,7 +16687,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Physical Damage\n+10 Strength",
+				"desc": "+5% Physical Damage\n+10 Strength\nBonus: Another +5% Physical Damage if requirements met: {#}",
 				"name": "Raw Power",
 				"tags": [
 					"Physical",
@@ -16723,7 +16723,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+125 Armor\n+3% Potion Healing",
+				"desc": "+125 Armor\n+3% Potion Healing\nBonus: Another +125 Armor if requirements met: {#}",
 				"name": "Slayer",
 				"tags": [
 					"Healing",
@@ -16756,7 +16756,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "7.5% Damage Reduction from Slowed Enemies\n+10 Dexterity",
+				"desc": "7.5% Damage Reduction from Slowed Enemies\n+10 Dexterity\nBonus: Another 7.5% Damage Reduction from Slowed Enemies if requirements met: {#}",
 				"name": "Wiles",
 				"tags": [
 					"Crowd Control",
@@ -16790,7 +16790,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Damage Reduction from Vulnerable Enemies\n+10 Strength",
+				"desc": "5% Damage Reduction from Vulnerable Enemies\n+10 Strength\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met: {#}",
 				"name": "Arrogance",
 				"tags": [
 					"Vulnerable",
@@ -16824,7 +16824,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Vulnerable Damage\n+10 Strength",
+				"desc": "+5% Vulnerable Damage\n+10 Strength\nBonus: Another +5% Vulnerable Damage if requirements met: {#}",
 				"name": "Demolish",
 				"tags": [
 					"Vulnerable",
@@ -16859,7 +16859,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+6.2% Damage while Healthy\n+9% Overpower Damage",
+				"desc": "+6.2% Damage while Healthy\n+9% Overpower Damage\nBonus: Another +6.2% Damage while Healthy if requirements met: {#}",
 				"name": "Powerhouse",
 				"tags": [
 					"Healthy",
@@ -16893,7 +16893,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+15% Overpower Damage\n+10 Strength",
+				"desc": "+15% Overpower Damage\n+10 Strength\nBonus: Another +15% Overpower Damage if requirements met: {#}",
 				"name": "Brutality",
 				"tags": [
 					"Overpower",
@@ -16927,7 +16927,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+10 Willpower",
+				"desc": "+5% Damage\n+10 Willpower\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Impel",
 				"tags": [
 					"Damage",
@@ -16960,7 +16960,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Resistance to All Elements\n+10 Willpower",
+				"desc": "5% Resistance to All Elements\n+10 Willpower\nBonus: Another 5% Resistance to All Elements if requirements met: {#}",
 				"name": "Resolve",
 				"tags": [
 					"Resistance",
@@ -16995,7 +16995,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+3% Life",
+				"desc": "+5% Damage\n+3% Life\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Prime",
 				"tags": [
 					"Damage",
@@ -17028,7 +17028,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Damage Reduction from Vulnerable Enemies\n+10 Willpower",
+				"desc": "5% Damage Reduction from Vulnerable Enemies\n+10 Willpower\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met: {#}",
 				"name": "Hubris",
 				"tags": [
 					"Vulnerable",
@@ -17062,7 +17062,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Life\n+10 Willpower",
+				"desc": "+5% Life\n+10 Willpower\nBonus: Another +5% Life if requirements met: {#}",
 				"name": "Courage",
 				"tags": [
 					"Life",
@@ -17095,7 +17095,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Healing Received\n+10 Willpower",
+				"desc": "+5% Healing Received\n+10 Willpower\nBonus: Another +5% Healing Received if requirements met: {#}",
 				"name": "Regenerative",
 				"tags": [
 					"Healing",
@@ -17128,7 +17128,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Werewolf Skill Damage\n+10 Willpower",
+				"desc": "+5% Werewolf Skill Damage\n+10 Willpower\nBonus: Another +5% Werewolf Skill Damage if requirements met: {#}",
 				"name": "Feral",
 				"tags": [
 					"Werewolf",
@@ -17163,7 +17163,7 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "+5% Damage to Poisoned Enemies\n+5% Damage to Elites",
+				"desc": "+5% Damage to Poisoned Enemies\n+5% Damage to Elites\nBonus: Another +5% Damage to Poisoned Enemies if requirements met: {#}",
 				"name": "Overturn",
 				"tags": [
 					"Poison",
@@ -17197,7 +17197,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Potion Healing\n+10 Dexterity",
+				"desc": "+5% Potion Healing\n+10 Dexterity\nBonus: Another +5% Potion Healing if requirements met: {#}",
 				"name": "Dosage",
 				"tags": [
 					"Healing",
@@ -17230,7 +17230,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Life\n+10 Dexterity",
+				"desc": "+5% Life\n+10 Dexterity\nBonus: Another +5% Life if requirements met: {#}",
 				"name": "Training",
 				"tags": [
 					"Life",
@@ -17263,7 +17263,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Resistance to All Elements\n+10 Dexterity",
+				"desc": "5% Resistance to All Elements\n+10 Dexterity\nBonus: Another 5% Resistance to All Elements if requirements met: {#}",
 				"name": "Tolerance",
 				"tags": [
 					"Resistance",
@@ -17297,7 +17297,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+10 Intelligence",
+				"desc": "+5% Damage\n+10 Intelligence\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Knowledge",
 				"tags": [
 					"Damage",
@@ -17331,7 +17331,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+125 Armor\n+10 Intelligence",
+				"desc": "+125 Armor\n+10 Intelligence\nBonus: Another +125 Armor if requirements met: {#}",
 				"name": "Preservation",
 				"tags": [
 					"Armor",
@@ -17364,7 +17364,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+8.3% Damage to Elites\n+10 Intelligence",
+				"desc": "+8.3% Damage to Elites\n+10 Intelligence\nBonus: Another +8.3% Damage to Elites if requirements met: {#}",
 				"name": "Targeted",
 				"tags": [
 					"Elite Monsters",
@@ -17399,7 +17399,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Critical Strike Damage\n+3% Potion Healing",
+				"desc": "+7.5% Critical Strike Damage\n+3% Potion Healing\nBonus: Another +7.5% Critical Strike Damage if requirements met: {#}",
 				"name": "Corrective",
 				"tags": [
 					"Critical Strikes",
@@ -17433,7 +17433,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12.5% Damage to Injured Enemies\n+10 Intelligence",
+				"desc": "+12.5% Damage to Injured Enemies\n+10 Intelligence\nBonus: Another +12.5% Damage to Injured Enemies if requirements met: {#}",
 				"name": "Deathmarked",
 				"tags": [
 					"Injured",
@@ -17467,7 +17467,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Healing Received\n+10 Intelligence",
+				"desc": "+5% Healing Received\n+10 Intelligence\nBonus: Another +5% Healing Received if requirements met: {#}",
 				"name": "Remedy",
 				"tags": [
 					"Healing",
@@ -17500,7 +17500,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "15% Shadow Resistance\n+10 Intelligence",
+				"desc": "15% Shadow Resistance\n+10 Intelligence\nBonus: Another 15% Shadow Resistance if requirements met: {#}",
 				"name": "Gloom",
 				"tags": [
 					"Resistance",
@@ -17535,7 +17535,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies That Are Taking Shadow DoT\n9% Shadow Resistance",
+				"desc": "5% Damage Reduction from Enemies That Are Taking Shadow DoT\n9% Shadow Resistance\nBonus: Another 5% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met: {#}",
 				"name": "Dragging Shadows",
 				"tags": [
 					"Resistance",
@@ -17571,7 +17571,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+5% Damage to Taking Shadow DoT Enemies\n+5% Damage to Elites",
+				"desc": "+5% Damage to Taking Shadow DoT Enemies\n+5% Damage to Elites\nBonus: Another +5% Damage to Taking Shadow DoT Enemies if requirements met: {#}",
 				"name": "Gnawing Darkness",
 				"tags": [
 					"Shadow Damage Over Time",
@@ -17605,7 +17605,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Shadow Damage\n+10 Intelligence",
+				"desc": "+5% Shadow Damage\n+10 Intelligence\nBonus: Another +5% Shadow Damage if requirements met: {#}",
 				"name": "Malediction",
 				"tags": [
 					"Shadow",
@@ -17640,7 +17640,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "15% Cold Resistance\n+1.5% Lucky Hit Chance",
+				"desc": "15% Cold Resistance\n+1.5% Lucky Hit Chance\nBonus: Another 15% Cold Resistance if requirements met: {#}",
 				"name": "Advantage",
 				"tags": [
 					"Resistance",
@@ -17674,7 +17674,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Vulnerable Damage\n+10 Intelligence",
+				"desc": "+5% Vulnerable Damage\n+10 Intelligence\nBonus: Another +5% Vulnerable Damage if requirements met: {#}",
 				"name": "Weakness",
 				"tags": [
 					"Intelligence",
@@ -17708,7 +17708,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Vulnerable Damage\n+10 Dexterity",
+				"desc": "+5% Vulnerable Damage\n+10 Dexterity\nBonus: Another +5% Vulnerable Damage if requirements met: {#}",
 				"name": "Artifice",
 				"tags": [
 					"Vulnerable",
@@ -17744,7 +17744,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+6.2% Damage while Healthy\n+75 Armor",
+				"desc": "+6.2% Damage while Healthy\n+75 Armor\nBonus: Another +6.2% Damage while Healthy if requirements met: {#}",
 				"name": "Zealous",
 				"tags": [
 					"Healthy",
@@ -19134,7 +19134,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Bone Skill Damage\n+10 Intelligence",
+				"desc": "+5% Bone Skill Damage\n+10 Intelligence\nBonus: Another +5% Bone Skill Damage if requirements met: {#}",
 				"name": "Shaper of Bone",
 				"tags": [
 					"Bone",
@@ -19169,7 +19169,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage while Fortified\n+3% Life",
+				"desc": "+5% Damage while Fortified\n+3% Life\nBonus: Another +5% Damage while Fortified if requirements met: {#}",
 				"name": "Thick Hide",
 				"tags": [
 					"Fortify",
@@ -19203,7 +19203,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+6% Blood Orb Healing\n+10 Intelligence",
+				"desc": "+6% Blood Orb Healing\n+10 Intelligence\nBonus: Another +6% Blood Orb Healing if requirements met: {#}",
 				"name": "Blooddrinker",
 				"tags": [
 					"Blood Orb",
@@ -19238,7 +19238,7 @@
 						"stat_dword": 3828367010
 					}
 				},
-				"desc": "+7.5% Critical Strike Damage with Bone Skills\n+3% Bone Skill Damage",
+				"desc": "+7.5% Critical Strike Damage with Bone Skills\n+3% Bone Skill Damage\nBonus: Another +7.5% Critical Strike Damage with Bone Skills if requirements met: {#}",
 				"name": "Calcified",
 				"tags": [
 					"Bone",
@@ -19272,7 +19272,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage while Fortified\n+10 Intelligence",
+				"desc": "+5% Damage while Fortified\n+10 Intelligence\nBonus: Another +5% Damage while Fortified if requirements met: {#}",
 				"name": "Hardened",
 				"tags": [
 					"Fortify",
@@ -19318,7 +19318,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+3.8% Damage while Healthy",
+				"desc": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+3.8% Damage while Healthy\nBonus: Another +5% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met: {#}",
 				"name": "Invigorated",
 				"tags": [
 					"Blood Orb",
@@ -19354,7 +19354,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Damage Reduction from Vulnerable Enemies\n+75 Armor",
+				"desc": "5% Damage Reduction from Vulnerable Enemies\n+75 Armor\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met: {#}",
 				"name": "Unassailable",
 				"tags": [
 					"Vulnerable",
@@ -19389,7 +19389,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+6% Blood Orb Healing\n+3% Life",
+				"desc": "+6% Blood Orb Healing\n+3% Life\nBonus: Another +6% Blood Orb Healing if requirements met: {#}",
 				"name": "Vampiric",
 				"tags": [
 					"Blood Orb",
@@ -19424,7 +19424,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+5% Damage while Golem are Active\n+1.5% Total Armor while Golem are Active",
+				"desc": "+5% Damage while Golem are Active\n+1.5% Total Armor while Golem are Active\nBonus: Another +5% Damage while Golem are Active if requirements met: {#}",
 				"name": "Borrowed Strength",
 				"tags": [
 					"Minion",
@@ -19459,7 +19459,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Minion Armor\n7.5% Maximum Minion Life",
+				"desc": "+5% Minion Armor\n7.5% Maximum Minion Life\nBonus: Another +5% Minion Armor if requirements met: {#}",
 				"name": "Armor-clad",
 				"tags": [
 					"Minion",
@@ -19493,7 +19493,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "12.5% Damage Reduction for Your Minions\n+10 Intelligence",
+				"desc": "12.5% Damage Reduction for Your Minions\n+10 Intelligence\nBonus: Another 12.5% Damage Reduction for Your Minions if requirements met: {#}",
 				"name": "Custody",
 				"tags": [
 					"Minion",
@@ -19527,7 +19527,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Minion Damage\n+10 Intelligence",
+				"desc": "+5% Minion Damage\n+10 Intelligence\nBonus: Another +5% Minion Damage if requirements met: {#}",
 				"name": "Overlord",
 				"tags": [
 					"Minion",
@@ -19561,7 +19561,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+8.3% Golem Damage\n+10 Intelligence",
+				"desc": "+8.3% Golem Damage\n+10 Intelligence\nBonus: Another +8.3% Golem Damage if requirements met: {#}",
 				"name": "Mutation",
 				"tags": [
 					"Minion",
@@ -19596,7 +19596,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+8.3% Golem Damage\n+5% Golem Attack Speed",
+				"desc": "+8.3% Golem Damage\n+5% Golem Attack Speed\nBonus: Another +8.3% Golem Damage if requirements met: {#}",
 				"name": "Frenzied Golem",
 				"tags": [
 					"Minion",
@@ -19630,7 +19630,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+8.3% Golem Armor\n+10 Intelligence",
+				"desc": "+8.3% Golem Armor\n+10 Intelligence\nBonus: Another +8.3% Golem Armor if requirements met: {#}",
 				"name": "Miscreation",
 				"tags": [
 					"Minion",
@@ -19665,7 +19665,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Minion Damage\n+3% Minion Attack Speed",
+				"desc": "+5% Minion Damage\n+3% Minion Attack Speed\nBonus: Another +5% Minion Damage if requirements met: {#}",
 				"name": "Puppeteer",
 				"tags": [
 					"Minion",
@@ -19700,7 +19700,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+8.3% SkeletonMage Damage\n12% SkeletonMage Resistance to All Elements",
+				"desc": "+8.3% SkeletonMage Damage\n12% SkeletonMage Resistance to All Elements\nBonus: Another +8.3% SkeletonMage Damage if requirements met: {#}",
 				"name": "Infused Caster",
 				"tags": [
 					"Minion",
@@ -19736,7 +19736,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+8.3% SkeletonWarrior Damage\n+5% SkeletonWarrior Armor",
+				"desc": "+8.3% SkeletonWarrior Damage\n+5% SkeletonWarrior Armor\nBonus: Another +8.3% SkeletonWarrior Damage if requirements met: {#}",
 				"name": "Infused Warrior",
 				"tags": [
 					"Minion",
@@ -19771,7 +19771,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+8.3% Golem Damage\n10.5% Golem Maximum Life",
+				"desc": "+8.3% Golem Damage\n10.5% Golem Maximum Life\nBonus: Another +8.3% Golem Damage if requirements met: {#}",
 				"name": "Infused Golem",
 				"tags": [
 					"Minion",
@@ -19806,7 +19806,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+8.3% Golem Armor\n12% Golem Resistance to All Elements",
+				"desc": "+8.3% Golem Armor\n12% Golem Resistance to All Elements\nBonus: Another +8.3% Golem Armor if requirements met: {#}",
 				"name": "Flesh-horror",
 				"tags": [
 					"Minion",
@@ -19852,7 +19852,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence",
+				"desc": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence\nBonus: Another +5% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met: {#}",
 				"name": "Blood-Empowered",
 				"tags": [
 					"Damage",
@@ -19887,7 +19887,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+5% Shadow Damage Over Time\n+3% Shadow Damage",
+				"desc": "+5% Shadow Damage Over Time\n+3% Shadow Damage\nBonus: Another +5% Shadow Damage Over Time if requirements met: {#}",
 				"name": "Lingering Shadows",
 				"tags": [
 					"Shadow",
@@ -19922,7 +19922,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+1% Critical Strike Chance with Bone Skills\n+3% Potion Healing",
+				"desc": "+1% Critical Strike Chance with Bone Skills\n+3% Potion Healing\nBonus: Another +1% Critical Strike Chance with Bone Skills if requirements met: {#}",
 				"name": "Entomb",
 				"tags": [
 					"Healing",
@@ -24248,7 +24248,7 @@
 						"stat_dword": 2834424330
 					}
 				},
-				"desc": "+7% Core Skill Damage\n+10 Dexterity",
+				"desc": "+7% Core Skill Damage\n+10 Dexterity\nBonus: Another +7% Core Skill Damage if requirements met: {#}",
 				"name": "Finisher",
 				"tags": [
 					"Core",
@@ -24271,7 +24271,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "3.3% Trap Cooldown Reduction",
+				"desc": "3.3% Trap Cooldown Reduction\nBonus: Another 3.3% Trap Cooldown Reduction if requirements met: {#}",
 				"name": "Spring-loaded",
 				"tags": [
 					"Trap",
@@ -24305,7 +24305,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Imbued Skill Damage\n+3% Damage",
+				"desc": "+7.5% Imbued Skill Damage\n+3% Damage\nBonus: Another +7.5% Imbued Skill Damage if requirements met: {#}",
 				"name": "Imbuer",
 				"tags": [
 					"Imbuement",
@@ -24340,7 +24340,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n2% Imbuement Cooldown Reduction",
+				"desc": "+5% Damage\n2% Imbuement Cooldown Reduction\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Ready Supply",
 				"tags": [
 					"Cooldown",
@@ -24364,7 +24364,7 @@
 						"stat_dword": 3340001955
 					}
 				},
-				"desc": "+10% Basic Skill Damage",
+				"desc": "+10% Basic Skill Damage\nBonus: Another +10% Basic Skill Damage if requirements met: {#}",
 				"name": "Dominant",
 				"tags": [
 					"Core",
@@ -24398,7 +24398,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Imbued Skill Damage\n+10 Dexterity",
+				"desc": "+7.5% Imbued Skill Damage\n+10 Dexterity\nBonus: Another +7.5% Imbued Skill Damage if requirements met: {#}",
 				"name": "Potent",
 				"tags": [
 					"Imbuement",
@@ -24433,7 +24433,7 @@
 						"stat_dword": 3340001955
 					}
 				},
-				"desc": "+16.7% Basic Skill Damage\n+3% Damage",
+				"desc": "+16.7% Basic Skill Damage\n+3% Damage\nBonus: Another +16.7% Basic Skill Damage if requirements met: {#}",
 				"name": "Fundamentals",
 				"tags": [
 					"Basic",
@@ -24467,7 +24467,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+6% Damage to Close Enemies\n3.6% Damage Reduction from Close Enemies",
+				"desc": "+6% Damage to Close Enemies\n3.6% Damage Reduction from Close Enemies\nBonus: Another +6% Damage to Close Enemies if requirements met: {#}",
 				"name": "Brawler",
 				"tags": [
 					"Damage",
@@ -24501,7 +24501,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Damage to Distant Enemies\n4.5% Damage Reduction from Distant Enemies",
+				"desc": "+7.5% Damage to Distant Enemies\n4.5% Damage Reduction from Distant Enemies\nBonus: Another +7.5% Damage to Distant Enemies if requirements met: {#}",
 				"name": "Ranger",
 				"tags": [
 					"Damage",
@@ -24534,7 +24534,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity",
+				"desc": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\nBonus: Another 5% Damage Reduction from Enemies Affected By Trap Skills if requirements met: {#}",
 				"name": "Engineering",
 				"tags": [
 					"Trap",
@@ -24568,7 +24568,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity",
+				"desc": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\nBonus: Another 5% Damage Reduction from Enemies Affected By Trap Skills if requirements met: {#}",
 				"name": "Cunning",
 				"tags": [
 					"Trap",
@@ -24603,7 +24603,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "+7.5% Trap Skill Damage\n3% Damage Reduction from Enemies Affected By Trap Skills",
+				"desc": "+7.5% Trap Skill Damage\n3% Damage Reduction from Enemies Affected By Trap Skills\nBonus: Another +7.5% Trap Skill Damage if requirements met: {#}",
 				"name": "Trapper",
 				"tags": [
 					"Trap",
@@ -29408,7 +29408,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Cold Damage\n2% Chill Application",
+				"desc": "+5% Cold Damage\n2% Chill Application\nBonus: Another +5% Cold Damage if requirements met: {#}",
 				"name": "Cryomancy",
 				"tags": [
 					"Cold",
@@ -29444,7 +29444,7 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "+7.5% Damage to Chilled Enemies\n+3% Damage",
+				"desc": "+7.5% Damage to Chilled Enemies\n+3% Damage\nBonus: Another +7.5% Damage to Chilled Enemies if requirements met: {#}",
 				"name": "Polar Rime",
 				"tags": [
 					"Non-Physical",
@@ -29479,7 +29479,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "15% Cold Resistance\n+10 Intelligence",
+				"desc": "15% Cold Resistance\n+10 Intelligence\nBonus: Another 15% Cold Resistance if requirements met: {#}",
 				"name": "Chilling",
 				"tags": [
 					"Resistance",
@@ -29514,7 +29514,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+5% Fire Damage\n+3% Fire Damage Over Time",
+				"desc": "+5% Fire Damage\n+3% Fire Damage Over Time\nBonus: Another +5% Fire Damage if requirements met: {#}",
 				"name": "Pyromancy",
 				"tags": [
 					"Fire",
@@ -29549,7 +29549,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+5% Damage to Burning Enemies\n+5% Damage to Elites",
+				"desc": "+5% Damage to Burning Enemies\n+5% Damage to Elites\nBonus: Another +5% Damage to Burning Enemies if requirements met: {#}",
 				"name": "Kindling",
 				"tags": [
 					"Burn",
@@ -29583,7 +29583,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Fire Damage\n+10 Intelligence",
+				"desc": "+5% Fire Damage\n+10 Intelligence\nBonus: Another +5% Fire Damage if requirements met: {#}",
 				"name": "Flame-touched",
 				"tags": [
 					"Fire",
@@ -29619,7 +29619,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+7.5% Damage to Stunned Enemies\n+4.8 Maximum Mana",
+				"desc": "+7.5% Damage to Stunned Enemies\n+4.8 Maximum Mana\nBonus: Another +7.5% Damage to Stunned Enemies if requirements met: {#}",
 				"name": "Paralyzing",
 				"tags": [
 					"Mana",
@@ -29654,7 +29654,7 @@
 						"stat_dword": 918887
 					}
 				},
-				"desc": "+8.3% Damage with Crackling Energy\n+3% Lightning Damage",
+				"desc": "+8.3% Damage with Crackling Energy\n+3% Lightning Damage\nBonus: Another +8.3% Damage with Crackling Energy if requirements met: {#}",
 				"name": "Conduit",
 				"tags": [
 					"Shock",
@@ -29688,7 +29688,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Damage to Stunned Enemies\n+10 Intelligence",
+				"desc": "+7.5% Damage to Stunned Enemies\n+10 Intelligence\nBonus: Another +7.5% Damage to Stunned Enemies if requirements met: {#}",
 				"name": "Incapacitate",
 				"tags": [
 					"Crowd Control",
@@ -29723,7 +29723,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies That Are Burning\n9% Fire Resistance",
+				"desc": "5% Damage Reduction from Enemies That Are Burning\n9% Fire Resistance\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met: {#}",
 				"name": "Keeper of Flames",
 				"tags": [
 					"Burn",
@@ -29758,7 +29758,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "15% Lightning Resistance\n+10 Intelligence",
+				"desc": "15% Lightning Resistance\n+10 Intelligence\nBonus: Another 15% Lightning Resistance if requirements met: {#}",
 				"name": "Electro",
 				"tags": [
 					"Lightning",
@@ -29793,7 +29793,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Vulnerable Damage\n3% Damage Reduction from Vulnerable Enemies",
+				"desc": "+5% Vulnerable Damage\n3% Damage Reduction from Vulnerable Enemies\nBonus: Another +5% Vulnerable Damage if requirements met: {#}",
 				"name": "Oppressive",
 				"tags": [
 					"Vulnerable",
@@ -29827,7 +29827,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Damage Reduction from Enemies That Are Burning\n+10 Intelligence",
+				"desc": "5% Damage Reduction from Enemies That Are Burning\n+10 Intelligence\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met: {#}",
 				"name": "Smoldering Embers",
 				"tags": [
 					"Burn",
@@ -29862,7 +29862,7 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "7.5% Damage Reduction from Chilled Enemies\n9% Cold Resistance",
+				"desc": "7.5% Damage Reduction from Chilled Enemies\n9% Cold Resistance\nBonus: Another 7.5% Damage Reduction from Chilled Enemies if requirements met: {#}",
 				"name": "Keeper of Winter",
 				"tags": [
 					"Damage Reduction",
@@ -29897,7 +29897,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n+10 Intelligence",
+				"desc": "+5% Damage\n+10 Intelligence\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Elemental Balance",
 				"tags": [
 					"Non-Physical",
@@ -29932,7 +29932,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage\n3% Resistance to All Elements",
+				"desc": "+5% Damage\n3% Resistance to All Elements\nBonus: Another +5% Damage if requirements met: {#}",
 				"name": "Keeper of Elements",
 				"tags": [
 					"Non-Physical",
@@ -29967,7 +29967,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+7.5% Damage to Stunned Enemies\n+5% Damage to Elites",
+				"desc": "+7.5% Damage to Stunned Enemies\n+5% Damage to Elites\nBonus: Another +7.5% Damage to Stunned Enemies if requirements met: {#}",
 				"name": "Overwhelming",
 				"tags": [
 					"Elite Monsters",
@@ -30001,7 +30001,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "15% Fire Resistance\n+10 Intelligence",
+				"desc": "15% Fire Resistance\n+10 Intelligence\nBonus: Another 15% Fire Resistance if requirements met: {#}",
 				"name": "Ashes",
 				"tags": [
 					"Fire",
@@ -30036,7 +30036,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Fire Damage\n+4.5% Critical Strike Damage",
+				"desc": "+5% Fire Damage\n+4.5% Critical Strike Damage\nBonus: Another +5% Fire Damage if requirements met: {#}",
 				"name": "Combustion",
 				"tags": [
 					"Fire",
@@ -30070,7 +30070,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage to Burning Enemies\n+10 Intelligence",
+				"desc": "+5% Damage to Burning Enemies\n+10 Intelligence\nBonus: Another +5% Damage to Burning Enemies if requirements met: {#}",
 				"name": "Cinders",
 				"tags": [
 					"Burn",
@@ -30104,7 +30104,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Damage to Chilled Enemies\n+10 Intelligence",
+				"desc": "+7.5% Damage to Chilled Enemies\n+10 Intelligence\nBonus: Another +7.5% Damage to Chilled Enemies if requirements met: {#}",
 				"name": "Frosts",
 				"tags": [
 					"Chill",
@@ -30139,7 +30139,7 @@
 						"stat_dword": 918887
 					}
 				},
-				"desc": "+8.3% Damage with Crackling Energy\n+10 Intelligence",
+				"desc": "+8.3% Damage with Crackling Energy\n+10 Intelligence\nBonus: Another +8.3% Damage with Crackling Energy if requirements met: {#}",
 				"name": "Galvanic Catalyst",
 				"tags": [
 					"Crackling Energy",
@@ -30173,7 +30173,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "7.5% Damage Reduction from Chilled Enemies\n+10 Intelligence",
+				"desc": "7.5% Damage Reduction from Chilled Enemies\n+10 Intelligence\nBonus: Another 7.5% Damage Reduction from Chilled Enemies if requirements met: {#}",
 				"name": "Frigid",
 				"tags": [
 					"Chill",
@@ -30208,7 +30208,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.5% Conjuration Skill Damage\n+10 Intelligence",
+				"desc": "+7.5% Conjuration Skill Damage\n+10 Intelligence\nBonus: Another +7.5% Conjuration Skill Damage if requirements met: {#}",
 				"name": "Conjurer",
 				"tags": [
 					"Damage",
@@ -30244,7 +30244,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Resistance to All Elements\n+75 Armor",
+				"desc": "5% Resistance to All Elements\n+75 Armor\nBonus: Another 5% Resistance to All Elements if requirements met: {#}",
 				"name": "Denial",
 				"tags": [
 					"Resistance",
@@ -30279,7 +30279,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "5% Damage Reduction from Vulnerable Enemies\n9% Cold Resistance",
+				"desc": "5% Damage Reduction from Vulnerable Enemies\n9% Cold Resistance\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met: {#}",
 				"name": "Guarded",
 				"tags": [
 					"Vulnerable",
@@ -30315,7 +30315,7 @@
 						"stat_dword": 1930421581
 					}
 				},
-				"desc": "+5% Attack Speed\n+4.5% Conjuration Skill Damage",
+				"desc": "+5% Attack Speed\n+4.5% Conjuration Skill Damage\nBonus: Another +5% Attack Speed if requirements met: {#}",
 				"name": "Speed Caster",
 				"tags": [
 					"Attack Speed",

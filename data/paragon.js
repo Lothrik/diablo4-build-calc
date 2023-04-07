@@ -4305,87 +4305,87 @@ let paragonData = {
 			},
 			"Barbarian_Rare_001": {
 				"name": "Iron Strength",
-				"description": "+125 Armor\n+10 Strength\n\nTags: Armor, Strength."
+				"description": "+125 Armor\n+10 Strength\nBonus: Another +125 Armor if requirements met: {#}\n\nTags: Armor, Strength."
 			},
 			"Barbarian_Rare_003": {
 				"name": "Berserker",
-				"description": "+1% Damage while Berserking\n+5% Damage to Elites\n\nTags: Berserking, Elite Monsters, Damage."
+				"description": "+1% Damage while Berserking\n+5% Damage to Elites\nBonus: Another +1% Damage while Berserking if requirements met: {#}\n\nTags: Berserking, Elite Monsters, Damage."
 			},
 			"Barbarian_Rare_004": {
 				"name": "Flayer",
-				"description": "+5% Physical Damage Over Time\n+3% Damage to Bleeding Enemies\n\nTags: Bleed, Damage."
+				"description": "+5% Physical Damage Over Time\n+3% Damage to Bleeding Enemies\nBonus: Another +5% Physical Damage Over Time if requirements met: {#}\n\nTags: Bleed, Damage."
 			},
 			"Barbarian_Rare_005": {
 				"name": "Butcher",
-				"description": "+5% Physical Damage Over Time\n+10 Strength\n\nTags: Bleed, Damage, Strength."
+				"description": "+5% Physical Damage Over Time\n+10 Strength\nBonus: Another +5% Physical Damage Over Time if requirements met: {#}\n\nTags: Bleed, Damage, Strength."
 			},
 			"Barbarian_Rare_006": {
 				"name": "Lacerator",
-				"description": "+5% Physical Damage Over Time\n+3% Physical Damage\n\nTags: Bleed, Physical, Damage."
+				"description": "+5% Physical Damage Over Time\n+3% Physical Damage\nBonus: Another +5% Physical Damage Over Time if requirements met: {#}\n\nTags: Bleed, Physical, Damage."
 			},
 			"Barbarian_Rare_008": {
 				"name": "Bludgeoner",
-				"description": "+5% Damage with TwoHandedBludgeoning\n+9% Overpower Damage\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning."
+				"description": "+5% Damage with TwoHandedBludgeoning\n+9% Overpower Damage\nBonus: Another +5% Damage with TwoHandedBludgeoning if requirements met: {#}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning."
 			},
 			"Barbarian_Rare_009": {
 				"name": "Vigor",
-				"description": "6.2% Damage Reduction while Healthy\n+10 Strength\n\nTags: Healthy, Damage Reduction, Strength."
+				"description": "6.2% Damage Reduction while Healthy\n+10 Strength\nBonus: Another 6.2% Damage Reduction while Healthy if requirements met: {#}\n\nTags: Healthy, Damage Reduction, Strength."
 			},
 			"Barbarian_Rare_010": {
 				"name": "Cold Conditioned",
-				"description": "15% Cold Resistance\n+75 Armor\n\nTags: Cold, Resistance, Armor."
+				"description": "15% Cold Resistance\n+75 Armor\nBonus: Another 15% Cold Resistance if requirements met: {#}\n\nTags: Cold, Resistance, Armor."
 			},
 			"Barbarian_Rare_015": {
 				"name": "Tenacity",
-				"description": "+5% Life\n+75 Armor\n\nTags: Life, Armor."
+				"description": "+5% Life\n+75 Armor\nBonus: Another +5% Life if requirements met: {#}\n\nTags: Life, Armor."
 			},
 			"Barbarian_Rare_016": {
 				"name": "Grit",
-				"description": "5% Damage Reduction from Enemies That Are Bleeding\n+10 Strength\n\nTags: Bleed, Damage Reduction, Strength."
+				"description": "5% Damage Reduction from Enemies That Are Bleeding\n+10 Strength\nBonus: Another 5% Damage Reduction from Enemies That Are Bleeding if requirements met: {#}\n\nTags: Bleed, Damage Reduction, Strength."
 			},
 			"Barbarian_Rare_018": {
 				"name": "Conditioned",
-				"description": "5% Resistance to All Elements\n+10 Strength\n\nTags: Resistance, Strength, Non-Physical."
+				"description": "5% Resistance to All Elements\n+10 Strength\nBonus: Another 5% Resistance to All Elements if requirements met: {#}\n\nTags: Resistance, Strength, Non-Physical."
 			},
 			"Barbarian_Rare_019": {
 				"name": "Fire Conditioned",
-				"description": "15% Fire Resistance\n+75 Armor\n\nTags: Resistance, Armor, Fire."
+				"description": "15% Fire Resistance\n+75 Armor\nBonus: Another 15% Fire Resistance if requirements met: {#}\n\nTags: Resistance, Armor, Fire."
 			},
 			"Barbarian_Rare_020": {
 				"name": "Hungering Fury",
-				"description": "+8 Maximum Fury\n2 Fury On Kill\n\nTags: Fury."
+				"description": "+8 Maximum Fury\n2 Fury On Kill\nBonus: Another +8 Maximum Fury if requirements met: {#}\n\nTags: Fury."
 			},
 			"Barbarian_Rare_021": {
 				"name": "Lightning Conditioned",
-				"description": "15% Lightning Resistance\n+75 Armor\n\nTags: Resistance, Lightning, Armor."
+				"description": "15% Lightning Resistance\n+75 Armor\nBonus: Another 15% Lightning Resistance if requirements met: {#}\n\nTags: Resistance, Lightning, Armor."
 			},
 			"Barbarian_Rare_022": {
 				"name": "Brawn",
-				"description": "+5% Physical Damage\n+3% Life\n\nTags: Physical, Damage, Life."
+				"description": "+5% Physical Damage\n+3% Life\nBonus: Another +5% Physical Damage if requirements met: {#}\n\nTags: Physical, Damage, Life."
 			},
 			"Barbarian_Rare_023": {
 				"name": "Fierce",
-				"description": "+5% Damage while Berserking\n+10 Strength\n\nTags: Berserking, Damage, Strength."
+				"description": "+5% Damage while Berserking\n+10 Strength\nBonus: Another +5% Damage while Berserking if requirements met: {#}\n\nTags: Berserking, Damage, Strength."
 			},
 			"Barbarian_Rare_024": {
 				"name": "Heavy Blows",
-				"description": "+7.5% Critical Strike Damage with OneHanded\n+10 Strength\n\nTags: Critical Strikes, Damage, Strength, Dual Wield."
+				"description": "+7.5% Critical Strike Damage with OneHanded\n+10 Strength\nBonus: Another +7.5% Critical Strike Damage with OneHanded if requirements met: {#}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield."
 			},
 			"Barbarian_Rare_025": {
 				"name": "Wild Force",
-				"description": "+5% Damage with OneHanded\n+3% Attack Speed\n\nTags: Damage, Attack Speed, Dual Wield."
+				"description": "+5% Damage with OneHanded\n+3% Attack Speed\nBonus: Another +5% Damage with OneHanded if requirements met: {#}\n\nTags: Damage, Attack Speed, Dual Wield."
 			},
 			"Barbarian_Rare_026": {
 				"name": "Poison Conditioned",
-				"description": "15% Poison Resistance\n+75 Armor\n\nTags: Resistance, Armor, Poison."
+				"description": "15% Poison Resistance\n+75 Armor\nBonus: Another 15% Poison Resistance if requirements met: {#}\n\nTags: Resistance, Armor, Poison."
 			},
 			"Barbarian_Rare_030": {
 				"name": "Destroyer",
-				"description": "+5% Damage with TwoHandedSlashing\n+3% Vulnerable Damage\n\nTags: Damage, Vulnerable, Slashing, Two-Handed."
+				"description": "+5% Damage with TwoHandedSlashing\n+3% Vulnerable Damage\nBonus: Another +5% Damage with TwoHandedSlashing if requirements met: {#}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed."
 			},
 			"Barbarian_Rare_032": {
 				"name": "Enraged",
-				"description": "+5% Damage while Berserking\n+4.5% Berserking Duration\n\nTags: Berserking, Damage."
+				"description": "+5% Damage while Berserking\n+4.5% Berserking Duration\nBonus: Another +5% Damage while Berserking if requirements met: {#}\n\nTags: Berserking, Damage."
 			},
 			"StartNodeBarb": {
 				"name": "Paragon Starting Node"
@@ -8735,83 +8735,83 @@ let paragonData = {
 			},
 			"Druid_Rare_003": {
 				"name": "Stormcaller",
-				"description": "+5% Storm Skill Damage\n+10 Willpower\n\nTags: Storm, Damage, Willpower."
+				"description": "+5% Storm Skill Damage\n+10 Willpower\nBonus: Another +5% Storm Skill Damage if requirements met: {#}\n\nTags: Storm, Damage, Willpower."
 			},
 			"Druid_Rare_004": {
 				"name": "Nature-born",
-				"description": "5% Damage Reduction from Enemies That Are Poisoned\n+10 Willpower\n\nTags: Poison, Damage Reduction, Willpower."
+				"description": "5% Damage Reduction from Enemies That Are Poisoned\n+10 Willpower\nBonus: Another 5% Damage Reduction from Enemies That Are Poisoned if requirements met: {#}\n\nTags: Poison, Damage Reduction, Willpower."
 			},
 			"Druid_Rare_005": {
 				"name": "Toxic Bane",
-				"description": "+5% Damage to Poisoned Enemies\n+3% Poison Damage\n\nTags: Poison, Damage."
+				"description": "+5% Damage to Poisoned Enemies\n+3% Poison Damage\nBonus: Another +5% Damage to Poisoned Enemies if requirements met: {#}\n\nTags: Poison, Damage."
 			},
 			"Druid_Rare_006": {
 				"name": "Primal Instinct",
-				"description": "+5% Damage\n+5% Fortify Generation\n\nTags: Fortify, Damage."
+				"description": "+5% Damage\n+5% Fortify Generation\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Fortify, Damage."
 			},
 			"Druid_Rare_008": {
 				"name": "Crushing Earth",
-				"description": "+5% Earth Skill Damage\n+4.5% Critical Strike Damage to Crowd Controlled Enemies\n\nTags: Earth, Crowd Control, Damage, Critical Strikes."
+				"description": "+5% Earth Skill Damage\n+4.5% Critical Strike Damage to Crowd Controlled Enemies\nBonus: Another +5% Earth Skill Damage if requirements met: {#}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes."
 			},
 			"Druid_Rare_009": {
 				"name": "Earthen Power",
-				"description": "+7.5% Critical Strike Damage with Earth Skills\n+10 Willpower\n\nTags: Critical Strikes, Damage, Earth, Willpower."
+				"description": "+7.5% Critical Strike Damage with Earth Skills\n+10 Willpower\nBonus: Another +7.5% Critical Strike Damage with Earth Skills if requirements met: {#}\n\nTags: Critical Strikes, Damage, Earth, Willpower."
 			},
 			"Druid_Rare_010": {
 				"name": "Nature's Will",
-				"description": "+5% Nature Magic Skill Damage\n+10 Willpower\n\nTags: Nature Magic, Damage, Willpower."
+				"description": "+5% Nature Magic Skill Damage\n+10 Willpower\nBonus: Another +5% Nature Magic Skill Damage if requirements met: {#}\n\nTags: Nature Magic, Damage, Willpower."
 			},
 			"Druid_Rare_012": {
 				"name": "Devastation",
-				"description": "+5% Nature Magic Skill Damage\n+5% Damage to Elites\n\nTags: Nature Magic, Damage, Elite Monsters."
+				"description": "+5% Nature Magic Skill Damage\n+5% Damage to Elites\nBonus: Another +5% Nature Magic Skill Damage if requirements met: {#}\n\nTags: Nature Magic, Damage, Elite Monsters."
 			},
 			"Druid_Rare_013": {
 				"name": "Spiritual Power",
-				"description": "+10% Basic Skill Damage\n\nTags: Core, Damage, Basic."
+				"description": "+10% Basic Skill Damage\nBonus: Another +10% Basic Skill Damage if requirements met: {#}\n\nTags: Core, Damage, Basic."
 			},
 			"Druid_Rare_014": {
 				"name": "Grizzly",
-				"description": "+5% Damage while in Werebear Form\n+10 Willpower\n\nTags: Werebear, Damage, Willpower."
+				"description": "+5% Damage while in Werebear Form\n+10 Willpower\nBonus: Another +5% Damage while in Werebear Form if requirements met: {#}\n\nTags: Werebear, Damage, Willpower."
 			},
 			"Druid_Rare_015": {
 				"name": "Natural Attunement",
-				"description": "+4.8 Maximum Spirit\n+5% Life\n\nTags: Life, Spirit."
+				"description": "+4.8 Maximum Spirit\n+5% Life\nBonus: Another +4.8 Maximum Spirit if requirements met: {#}\n\nTags: Life, Spirit."
 			},
 			"Druid_Rare_017": {
 				"name": "Reclamation",
-				"description": "+8 Maximum Spirit\n2 Spirit On Kill\n\nTags: Spirit."
+				"description": "+8 Maximum Spirit\n2 Spirit On Kill\nBonus: Another +8 Maximum Spirit if requirements met: {#}\n\nTags: Spirit."
 			},
 			"Druid_Rare_018": {
 				"name": "Sinking Fangs",
-				"description": "+3% Damage to Poisoned Enemies\n+10 Willpower\n\nTags: Poison, Damage, Willpower."
+				"description": "+3% Damage to Poisoned Enemies\n+10 Willpower\nBonus: Another +3% Damage to Poisoned Enemies if requirements met: {#}\n\nTags: Poison, Damage, Willpower."
 			},
 			"Druid_Rare_019": {
 				"name": "Shapeshifter",
-				"description": "+5% Shapeshifting Skill Damage\n+10 Willpower\n\nTags: Shapeshifting, Damage, Willpower."
+				"description": "+5% Shapeshifting Skill Damage\n+10 Willpower\nBonus: Another +5% Shapeshifting Skill Damage if requirements met: {#}\n\nTags: Shapeshifting, Damage, Willpower."
 			},
 			"Druid_Rare_020": {
 				"name": "Deluge",
-				"description": "+7.5% Critical Strike Damage\n+4.5% Damage to Crowd Controlled Enemies\n\nTags: Critical Strikes, Damage, Crowd Control."
+				"description": "+7.5% Critical Strike Damage\n+4.5% Damage to Crowd Controlled Enemies\nBonus: Another +7.5% Critical Strike Damage if requirements met: {#}\n\nTags: Critical Strikes, Damage, Crowd Control."
 			},
 			"Druid_Rare_022": {
 				"name": "Ferocity",
-				"description": "+5% Werewolf Skill Damage\n+4.5% Critical Strike Damage\n\nTags: Werewolf, Damage, Critical Strikes."
+				"description": "+5% Werewolf Skill Damage\n+4.5% Critical Strike Damage\nBonus: Another +5% Werewolf Skill Damage if requirements met: {#}\n\nTags: Werewolf, Damage, Critical Strikes."
 			},
 			"Druid_Rare_024": {
 				"name": "Wild's Call",
-				"description": "+5% Attack Speed\n+4.8 Maximum Spirit\n\nTags: Attack Speed, Spirit."
+				"description": "+5% Attack Speed\n+4.8 Maximum Spirit\nBonus: Another +5% Attack Speed if requirements met: {#}\n\nTags: Attack Speed, Spirit."
 			},
 			"Druid_Rare_026": {
 				"name": "Ursine",
-				"description": "+5% Werebear Skill Damage\n+9% Overpower Damage\n\nTags: Werebear, Damage, Overpower."
+				"description": "+5% Werebear Skill Damage\n+9% Overpower Damage\nBonus: Another +5% Werebear Skill Damage if requirements met: {#}\n\nTags: Werebear, Damage, Overpower."
 			},
 			"Druid_Rare_027": {
 				"name": "Battleworn Hide",
-				"description": "+2.5% Total Armor while in Werebear Form\n+10 Willpower\n\nTags: Armor, Werebear, Willpower."
+				"description": "+2.5% Total Armor while in Werebear Form\n+10 Willpower\nBonus: Another +2.5% Total Armor while in Werebear Form if requirements met: {#}\n\nTags: Armor, Werebear, Willpower."
 			},
 			"Druid_Rare_030": {
 				"name": "Harmony",
-				"description": "+7% Core Skill Damage\n+10 Willpower\n\nTags: Core, Willpower, Damage."
+				"description": "+7% Core Skill Damage\n+10 Willpower\nBonus: Another +7% Core Skill Damage if requirements met: {#}\n\nTags: Core, Willpower, Damage."
 			},
 			"StartNodeDruid": {
 				"name": "Paragon Starting Node"
@@ -8930,7 +8930,7 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageReductionFromDot": {
 				"name": "Damage Reduction From Dot",
-				"description": "1.7% Damage Reduction from Enemies That Are Taking any DoT\n\nTags: Damage Reduction."
+				"description": "1.7% Damage Taken Over Time Reduction\n\nTags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromElite": {
 				"name": "Damage Reduction From Elite",
@@ -9158,311 +9158,311 @@ let paragonData = {
 			},
 			"Generic_Rare_001": {
 				"name": "Resilience",
-				"description": "5% Resistance to All Elements\n+3% Life\n\nTags: Resistance, Life, Non-Physical."
+				"description": "5% Resistance to All Elements\n+3% Life\nBonus: Another 5% Resistance to All Elements if requirements met: {#}\n\nTags: Resistance, Life, Non-Physical."
 			},
 			"Generic_Rare_002": {
 				"name": "Nimble",
-				"description": "+5% Attack Speed\n+3% Damage\n\nTags: Attack Speed, Damage."
+				"description": "+5% Attack Speed\n+3% Damage\nBonus: Another +5% Attack Speed if requirements met: {#}\n\nTags: Attack Speed, Damage."
 			},
 			"Generic_Rare_006": {
 				"name": "Fleeting",
-				"description": "10% Control Impaired Duration Reduction\n5% Damage Reduction from Enemies That Are Taking any DoT\n\nTags: Crowd Control, Damage Reduction."
+				"description": "10% Control Impaired Duration Reduction\n5% Damage Taken Over Time Reduction\nBonus: Another 10% Control Impaired Duration Reduction if requirements met: {#}\n\nTags: Crowd Control, Damage Reduction."
 			},
 			"Generic_Rare_007": {
 				"name": "Focused",
-				"description": "+8.3% Damage to Elites\n+10 Dexterity\n\nTags: Elite Monsters, Damage, Dexterity."
+				"description": "+8.3% Damage to Elites\n+10 Dexterity\nBonus: Another +8.3% Damage to Elites if requirements met: {#}\n\nTags: Elite Monsters, Damage, Dexterity."
 			},
 			"Generic_Rare_009": {
 				"name": "Oppress",
-				"description": "+7.5% Damage to Crowd Controlled Enemies\n+4.5% Critical Strike Damage to Crowd Controlled Enemies\n\nTags: Crowd Control, Critical Strikes, Damage."
+				"description": "+7.5% Damage to Crowd Controlled Enemies\n+4.5% Critical Strike Damage to Crowd Controlled Enemies\nBonus: Another +7.5% Damage to Crowd Controlled Enemies if requirements met: {#}\n\nTags: Crowd Control, Critical Strikes, Damage."
 			},
 			"Generic_Rare_011": {
 				"name": "Spearhead",
-				"description": "+12.5% Damage to Healthy Enemies\n+75 Armor\n\nTags: Healthy, Armor, Damage."
+				"description": "+12.5% Damage to Healthy Enemies\n+75 Armor\nBonus: Another +12.5% Damage to Healthy Enemies if requirements met: {#}\n\nTags: Healthy, Armor, Damage."
 			},
 			"Generic_Rare_012": {
 				"name": "Cold Resilience",
-				"description": "15% Cold Resistance\n+3% Life\n\nTags: Resistance, Cold, Life."
+				"description": "15% Cold Resistance\n+3% Life\nBonus: Another 15% Cold Resistance if requirements met: {#}\n\nTags: Resistance, Cold, Life."
 			},
 			"Generic_Rare_013": {
 				"name": "Havoc",
-				"description": "+7.5% Critical Strike Damage\n+3% Physical Damage\n\nTags: Critical Strikes, Physical, Damage."
+				"description": "+7.5% Critical Strike Damage\n+3% Physical Damage\nBonus: Another +7.5% Critical Strike Damage if requirements met: {#}\n\nTags: Critical Strikes, Physical, Damage."
 			},
 			"Generic_Rare_014": {
 				"name": "Ruin",
-				"description": "+12.5% Damage to Healthy Enemies\n+4.5% Critical Strike Damage\n\nTags: Critical Strikes, Healthy, Damage."
+				"description": "+12.5% Damage to Healthy Enemies\n+4.5% Critical Strike Damage\nBonus: Another +12.5% Damage to Healthy Enemies if requirements met: {#}\n\nTags: Critical Strikes, Healthy, Damage."
 			},
 			"Generic_Rare_015": {
 				"name": "Stifle",
-				"description": "+12.5% Damage to Injured Enemies\n+4.5% Critical Strike Damage\n\nTags: Injured, Critical Strikes, Damage."
+				"description": "+12.5% Damage to Injured Enemies\n+4.5% Critical Strike Damage\nBonus: Another +12.5% Damage to Injured Enemies if requirements met: {#}\n\nTags: Injured, Critical Strikes, Damage."
 			},
 			"Generic_Rare_016": {
 				"name": "Devious",
-				"description": "+7.5% Damage to Crowd Controlled Enemies\n+10 Dexterity\n\nTags: Crowd Control, Damage, Dexterity."
+				"description": "+7.5% Damage to Crowd Controlled Enemies\n+10 Dexterity\nBonus: Another +7.5% Damage to Crowd Controlled Enemies if requirements met: {#}\n\nTags: Crowd Control, Damage, Dexterity."
 			},
 			"Generic_Rare_017": {
 				"name": "Feint",
-				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity\n\nTags: Dodge, Damage, Dexterity."
+				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity\nBonus: Another +5% Damage for {#} Seconds After Dodging an Attack if requirements met: {#}\n\nTags: Dodge, Damage, Dexterity."
 			},
 			"Generic_Rare_018": {
 				"name": "Safeguard",
-				"description": "8.3% Damage Reduction from Elites\n+75 Armor\n\nTags: Elite Monsters, Damage Reduction, Armor."
+				"description": "8.3% Damage Reduction from Elites\n+75 Armor\nBonus: Another 8.3% Damage Reduction from Elites if requirements met: {#}\n\nTags: Elite Monsters, Damage Reduction, Armor."
 			},
 			"Generic_Rare_019": {
 				"name": "Suffused Resilience",
-				"description": "8.3% Damage Reduction from Enemies That Are Taking any DoT\n3% Resistance to All Elements\n\nTags: Resistance, Non-Physical, Damage Reduction."
+				"description": "8.3% Damage Taken Over Time Reduction\n3% Resistance to All Elements\nBonus: Another 8.3% Damage Taken Over Time Reduction if requirements met: {#}\n\nTags: Resistance, Non-Physical, Damage Reduction."
 			},
 			"Generic_Rare_021": {
 				"name": "Calculated",
-				"description": "+7.5% Damage to Crowd Controlled Enemies\n+75 Armor\n\nTags: Crowd Control, Damage, Armor."
+				"description": "+7.5% Damage to Crowd Controlled Enemies\n+75 Armor\nBonus: Another +7.5% Damage to Crowd Controlled Enemies if requirements met: {#}\n\nTags: Crowd Control, Damage, Armor."
 			},
 			"Generic_Rare_022": {
 				"name": "Hunter Killer",
-				"description": "+8.3% Damage to Elites\n+10.5% Movement Speed for {#} Seconds After Killing an Elite\n\nTags: Elite Monsters, Damage, Movement."
+				"description": "+8.3% Damage to Elites\n+10.5% Movement Speed for {#} Seconds After Killing an Elite\nBonus: Another +8.3% Damage to Elites if requirements met: {#}\n\nTags: Elite Monsters, Damage, Movement."
 			},
 			"Generic_Rare_023": {
 				"name": "Deathbringer",
-				"description": "+12.5% Damage to Injured Enemies\n+75 Armor\n\nTags: Injured, Damage, Armor."
+				"description": "+12.5% Damage to Injured Enemies\n+75 Armor\nBonus: Another +12.5% Damage to Injured Enemies if requirements met: {#}\n\nTags: Injured, Damage, Armor."
 			},
 			"Generic_Rare_025": {
 				"name": "Pillage",
-				"description": "+5% Vulnerable Damage\n+75 Armor\n\nTags: Vulnerable, Damage, Armor."
+				"description": "+5% Vulnerable Damage\n+75 Armor\nBonus: Another +5% Vulnerable Damage if requirements met: {#}\n\nTags: Vulnerable, Damage, Armor."
 			},
 			"Generic_Rare_026": {
 				"name": "Inner Strength",
-				"description": "+5% Damage while Fortified\n+3.8% Damage while Healthy\n\nTags: Fortify, Healthy, Damage."
+				"description": "+5% Damage while Fortified\n+3.8% Damage while Healthy\nBonus: Another +5% Damage while Fortified if requirements met: {#}\n\nTags: Fortify, Healthy, Damage."
 			},
 			"Generic_Rare_028": {
 				"name": "Aggression",
-				"description": "+15% Overpower Damage\n+3% Damage\n\nTags: Overpower, Damage."
+				"description": "+15% Overpower Damage\n+3% Damage\nBonus: Another +15% Overpower Damage if requirements met: {#}\n\nTags: Overpower, Damage."
 			},
 			"Generic_Rare_029": {
 				"name": "Elementalist",
-				"description": "+5% Damage\n+3% Life\n\nTags: Non-Physical, Damage, Life."
+				"description": "+5% Damage\n+3% Life\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Non-Physical, Damage, Life."
 			},
 			"Generic_Rare_030": {
 				"name": "Culler",
-				"description": "Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites\n+3% Attack Speed\n\nTags: Execute, Attack Speed, Injured, Lucky Hit."
+				"description": "Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites\n+3% Attack Speed\nBonus: Another Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites if requirements met: {#}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit."
 			},
 			"Generic_Rare_031": {
 				"name": "Fire Resilience",
-				"description": "15% Fire Resistance\n+3% Life\n\nTags: Resistance, Fire, Life."
+				"description": "15% Fire Resistance\n+3% Life\nBonus: Another 15% Fire Resistance if requirements met: {#}\n\nTags: Resistance, Fire, Life."
 			},
 			"Generic_Rare_032": {
 				"name": "Bulwark",
-				"description": "5% Damage Reduction while Fortified\n+5% Fortify Generation\n\nTags: Fortify, Damage Reduction."
+				"description": "5% Damage Reduction while Fortified\n+5% Fortify Generation\nBonus: Another 5% Damage Reduction while Fortified if requirements met: {#}\n\nTags: Fortify, Damage Reduction."
 			},
 			"Generic_Rare_033": {
 				"name": "Recuperate",
-				"description": "+5% Potion Healing\n1% Healing Over Time\n\nTags: Healing."
+				"description": "+5% Potion Healing\n1% Healing Over Time\nBonus: Another +5% Potion Healing if requirements met: {#}\n\nTags: Healing."
 			},
 			"Generic_Rare_034": {
 				"name": "Lightning Resilience",
-				"description": "15% Lightning Resistance\n+3% Life\n\nTags: Resistance, Lightning, Life."
+				"description": "15% Lightning Resistance\n+3% Life\nBonus: Another 15% Lightning Resistance if requirements met: {#}\n\nTags: Resistance, Lightning, Life."
 			},
 			"Generic_Rare_035": {
 				"name": "Ruinous",
-				"description": "+5% Damage\n+5% Damage to Elites\n\nTags: Damage, Non-Physical, Elite Monsters."
+				"description": "+5% Damage\n+5% Damage to Elites\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Damage, Non-Physical, Elite Monsters."
 			},
 			"Generic_Rare_036": {
 				"name": "Reservoir",
-				"description": "+8 Maximum Mana\n+3% Life\n\nTags: Mana, Life."
+				"description": "+8 Maximum Mana\n+3% Life\nBonus: Another +8 Maximum Mana if requirements met: {#}\n\nTags: Mana, Life."
 			},
 			"Generic_Rare_038": {
 				"name": "Core Reserve",
-				"description": "+8 Maximum Fury\n+3% Life\n\nTags: Fury, Life."
+				"description": "+8 Maximum Fury\n+3% Life\nBonus: Another +8 Maximum Fury if requirements met: {#}\n\nTags: Fury, Life."
 			},
 			"Generic_Rare_041": {
 				"name": "Poison Resilience",
-				"description": "15% Poison Resistance\n+3% Life\n\nTags: Resistance, Poison, Life."
+				"description": "15% Poison Resistance\n+3% Life\nBonus: Another 15% Poison Resistance if requirements met: {#}\n\nTags: Resistance, Poison, Life."
 			},
 			"Generic_Rare_042": {
 				"name": "Restorative",
-				"description": "+5% Potion Healing\n+3% Life\n\nTags: Healing, Life."
+				"description": "+5% Potion Healing\n+3% Life\nBonus: Another +5% Potion Healing if requirements met: {#}\n\nTags: Healing, Life."
 			},
 			"Generic_Rare_044": {
 				"name": "Tempest",
-				"description": "+7.5% Critical Strike Damage\n+3% Vulnerable Damage\n\nTags: Critical Strikes, Vulnerable, Damage."
+				"description": "+7.5% Critical Strike Damage\n+3% Vulnerable Damage\nBonus: Another +7.5% Critical Strike Damage if requirements met: {#}\n\nTags: Critical Strikes, Vulnerable, Damage."
 			},
 			"Generic_Rare_046": {
 				"name": "Shadow Resilience",
-				"description": "15% Shadow Resistance\n+3% Life\n\nTags: Resistance, Shadow, Life."
+				"description": "15% Shadow Resistance\n+3% Life\nBonus: Another 15% Shadow Resistance if requirements met: {#}\n\nTags: Resistance, Shadow, Life."
 			},
 			"Generic_Rare_048": {
 				"name": "Superiority",
-				"description": "+7.5% Damage to Crowd Controlled Enemies\n+3% Life\n\nTags: Life, Crowd Control, Damage."
+				"description": "+7.5% Damage to Crowd Controlled Enemies\n+3% Life\nBonus: Another +7.5% Damage to Crowd Controlled Enemies if requirements met: {#}\n\nTags: Life, Crowd Control, Damage."
 			},
 			"Generic_Rare_049": {
 				"name": "Exploit",
-				"description": "+5% Vulnerable Damage\n+7.5% Damage to Injured Enemies\n\nTags: Vulnerable, Injured, Damage."
+				"description": "+5% Vulnerable Damage\n+7.5% Damage to Injured Enemies\nBonus: Another +5% Vulnerable Damage if requirements met: {#}\n\nTags: Vulnerable, Injured, Damage."
 			},
 			"Generic_Rare_051": {
 				"name": "Skillful",
-				"description": "+5% Damage\n+10 Dexterity\n\nTags: Dexterity, Damage."
+				"description": "+5% Damage\n+10 Dexterity\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Dexterity, Damage."
 			},
 			"Generic_Rare_052": {
 				"name": "Reinvigorate",
-				"description": "+8 Maximum Essence\n2 Essence On Kill\n\nTags: Essence."
+				"description": "+8 Maximum Essence\n2 Essence On Kill\nBonus: Another +8 Maximum Essence if requirements met: {#}\n\nTags: Essence."
 			},
 			"Generic_Rare_054": {
 				"name": "Erudite",
-				"description": "5% Resistance to All Elements\n+10 Intelligence\n\nTags: Non-Physical, Resistance, Intelligence."
+				"description": "5% Resistance to All Elements\n+10 Intelligence\nBonus: Another 5% Resistance to All Elements if requirements met: {#}\n\nTags: Non-Physical, Resistance, Intelligence."
 			},
 			"Generic_Rare_057": {
 				"name": "Craving",
-				"description": "+5% Damage to Bleeding Enemies\n+5% Damage to Elites\n\nTags: Bleed, Elite Monsters, Damage."
+				"description": "+5% Damage to Bleeding Enemies\n+5% Damage to Elites\nBonus: Another +5% Damage to Bleeding Enemies if requirements met: {#}\n\nTags: Bleed, Elite Monsters, Damage."
 			},
 			"Generic_Rare_058": {
 				"name": "Revel",
-				"description": "+5% Damage to Bleeding Enemies\n+10 Strength\n\nTags: Bleed, Damage, Strength."
+				"description": "+5% Damage to Bleeding Enemies\n+10 Strength\nBonus: Another +5% Damage to Bleeding Enemies if requirements met: {#}\n\nTags: Bleed, Damage, Strength."
 			},
 			"Generic_Rare_059": {
 				"name": "Brash",
-				"description": "6% Damage Reduction from Close Enemies\n+10 Strength\n\nTags: Damage Reduction, Strength."
+				"description": "6% Damage Reduction from Close Enemies\n+10 Strength\nBonus: Another 6% Damage Reduction from Close Enemies if requirements met: {#}\n\nTags: Damage Reduction, Strength."
 			},
 			"Generic_Rare_060": {
 				"name": "Brute",
-				"description": "+5% Physical Damage\n+3% Attack Speed\n\nTags: Physical, Damage, Attack Speed."
+				"description": "+5% Physical Damage\n+3% Attack Speed\nBonus: Another +5% Physical Damage if requirements met: {#}\n\nTags: Physical, Damage, Attack Speed."
 			},
 			"Generic_Rare_061": {
 				"name": "Determination",
-				"description": "+125 Armor\n+10 Willpower\n\nTags: Armor, Willpower."
+				"description": "+125 Armor\n+10 Willpower\nBonus: Another +125 Armor if requirements met: {#}\n\nTags: Armor, Willpower."
 			},
 			"Generic_Rare_064": {
 				"name": "Lawless",
-				"description": "+125 Armor\n+10 Dexterity\n\nTags: Armor, Dexterity."
+				"description": "+125 Armor\n+10 Dexterity\nBonus: Another +125 Armor if requirements met: {#}\n\nTags: Armor, Dexterity."
 			},
 			"Generic_Rare_065": {
 				"name": "Discerning",
-				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n+5% Damage to Elites\n\nTags: Elite Monsters, Dodge, Damage."
+				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n+5% Damage to Elites\nBonus: Another +5% Damage for {#} Seconds After Dodging an Attack if requirements met: {#}\n\nTags: Elite Monsters, Dodge, Damage."
 			},
 			"Generic_Rare_066": {
 				"name": "Raw Power",
-				"description": "+5% Physical Damage\n+10 Strength\n\nTags: Physical, Damage, Strength."
+				"description": "+5% Physical Damage\n+10 Strength\nBonus: Another +5% Physical Damage if requirements met: {#}\n\nTags: Physical, Damage, Strength."
 			},
 			"Generic_Rare_067": {
 				"name": "Slayer",
-				"description": "+125 Armor\n+3% Potion Healing\n\nTags: Healing, Armor."
+				"description": "+125 Armor\n+3% Potion Healing\nBonus: Another +125 Armor if requirements met: {#}\n\nTags: Healing, Armor."
 			},
 			"Generic_Rare_068": {
 				"name": "Wiles",
-				"description": "7.5% Damage Reduction from Slowed Enemies\n+10 Dexterity\n\nTags: Crowd Control, Damage Reduction, Dexterity."
+				"description": "7.5% Damage Reduction from Slowed Enemies\n+10 Dexterity\nBonus: Another 7.5% Damage Reduction from Slowed Enemies if requirements met: {#}\n\nTags: Crowd Control, Damage Reduction, Dexterity."
 			},
 			"Generic_Rare_069": {
 				"name": "Arrogance",
-				"description": "5% Damage Reduction from Vulnerable Enemies\n+10 Strength\n\nTags: Vulnerable, Damage Reduction, Strength."
+				"description": "5% Damage Reduction from Vulnerable Enemies\n+10 Strength\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met: {#}\n\nTags: Vulnerable, Damage Reduction, Strength."
 			},
 			"Generic_Rare_070": {
 				"name": "Demolish",
-				"description": "+5% Vulnerable Damage\n+10 Strength\n\nTags: Vulnerable, Damage, Strength."
+				"description": "+5% Vulnerable Damage\n+10 Strength\nBonus: Another +5% Vulnerable Damage if requirements met: {#}\n\nTags: Vulnerable, Damage, Strength."
 			},
 			"Generic_Rare_071": {
 				"name": "Powerhouse",
-				"description": "+6.2% Damage while Healthy\n+9% Overpower Damage\n\nTags: Healthy, Overpower, Damage."
+				"description": "+6.2% Damage while Healthy\n+9% Overpower Damage\nBonus: Another +6.2% Damage while Healthy if requirements met: {#}\n\nTags: Healthy, Overpower, Damage."
 			},
 			"Generic_Rare_072": {
 				"name": "Brutality",
-				"description": "+15% Overpower Damage\n+10 Strength\n\nTags: Overpower, Damage, Strength."
+				"description": "+15% Overpower Damage\n+10 Strength\nBonus: Another +15% Overpower Damage if requirements met: {#}\n\nTags: Overpower, Damage, Strength."
 			},
 			"Generic_Rare_073": {
 				"name": "Impel",
-				"description": "+5% Damage\n+10 Willpower\n\nTags: Damage, Willpower."
+				"description": "+5% Damage\n+10 Willpower\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Damage, Willpower."
 			},
 			"Generic_Rare_074": {
 				"name": "Resolve",
-				"description": "5% Resistance to All Elements\n+10 Willpower\n\nTags: Resistance, Willpower, Non-Physical."
+				"description": "5% Resistance to All Elements\n+10 Willpower\nBonus: Another 5% Resistance to All Elements if requirements met: {#}\n\nTags: Resistance, Willpower, Non-Physical."
 			},
 			"Generic_Rare_075": {
 				"name": "Prime",
-				"description": "+5% Damage\n+3% Life\n\nTags: Damage, Life."
+				"description": "+5% Damage\n+3% Life\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Damage, Life."
 			},
 			"Generic_Rare_076": {
 				"name": "Hubris",
-				"description": "5% Damage Reduction from Vulnerable Enemies\n+10 Willpower\n\nTags: Vulnerable, Damage Reduction, Willpower."
+				"description": "5% Damage Reduction from Vulnerable Enemies\n+10 Willpower\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met: {#}\n\nTags: Vulnerable, Damage Reduction, Willpower."
 			},
 			"Generic_Rare_077": {
 				"name": "Courage",
-				"description": "+5% Life\n+10 Willpower\n\nTags: Life, Willpower."
+				"description": "+5% Life\n+10 Willpower\nBonus: Another +5% Life if requirements met: {#}\n\nTags: Life, Willpower."
 			},
 			"Generic_Rare_078": {
 				"name": "Regenerative",
-				"description": "+5% Healing Received\n+10 Willpower\n\nTags: Healing, Willpower."
+				"description": "+5% Healing Received\n+10 Willpower\nBonus: Another +5% Healing Received if requirements met: {#}\n\nTags: Healing, Willpower."
 			},
 			"Generic_Rare_079": {
 				"name": "Feral",
-				"description": "+5% Werewolf Skill Damage\n+10 Willpower\n\nTags: Werewolf, Damage, Willpower."
+				"description": "+5% Werewolf Skill Damage\n+10 Willpower\nBonus: Another +5% Werewolf Skill Damage if requirements met: {#}\n\nTags: Werewolf, Damage, Willpower."
 			},
 			"Generic_Rare_080": {
 				"name": "Overturn",
-				"description": "+5% Damage to Poisoned Enemies\n+5% Damage to Elites\n\nTags: Poison, Elite Monsters, Damage."
+				"description": "+5% Damage to Poisoned Enemies\n+5% Damage to Elites\nBonus: Another +5% Damage to Poisoned Enemies if requirements met: {#}\n\nTags: Poison, Elite Monsters, Damage."
 			},
 			"Generic_Rare_081": {
 				"name": "Dosage",
-				"description": "+5% Potion Healing\n+10 Dexterity\n\nTags: Healing, Dexterity."
+				"description": "+5% Potion Healing\n+10 Dexterity\nBonus: Another +5% Potion Healing if requirements met: {#}\n\nTags: Healing, Dexterity."
 			},
 			"Generic_Rare_082": {
 				"name": "Training",
-				"description": "+5% Life\n+10 Dexterity\n\nTags: Life, Dexterity."
+				"description": "+5% Life\n+10 Dexterity\nBonus: Another +5% Life if requirements met: {#}\n\nTags: Life, Dexterity."
 			},
 			"Generic_Rare_083": {
 				"name": "Tolerance",
-				"description": "5% Resistance to All Elements\n+10 Dexterity\n\nTags: Resistance, Dexterity, Non-Physical."
+				"description": "5% Resistance to All Elements\n+10 Dexterity\nBonus: Another 5% Resistance to All Elements if requirements met: {#}\n\nTags: Resistance, Dexterity, Non-Physical."
 			},
 			"Generic_Rare_084": {
 				"name": "Knowledge",
-				"description": "+5% Damage\n+10 Intelligence\n\nTags: Damage, Intelligence."
+				"description": "+5% Damage\n+10 Intelligence\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Damage, Intelligence."
 			},
 			"Generic_Rare_085": {
 				"name": "Preservation",
-				"description": "+125 Armor\n+10 Intelligence\n\nTags: Armor, Intelligence."
+				"description": "+125 Armor\n+10 Intelligence\nBonus: Another +125 Armor if requirements met: {#}\n\nTags: Armor, Intelligence."
 			},
 			"Generic_Rare_086": {
 				"name": "Targeted",
-				"description": "+8.3% Damage to Elites\n+10 Intelligence\n\nTags: Elite Monsters, Damage, Intelligence."
+				"description": "+8.3% Damage to Elites\n+10 Intelligence\nBonus: Another +8.3% Damage to Elites if requirements met: {#}\n\nTags: Elite Monsters, Damage, Intelligence."
 			},
 			"Generic_Rare_087": {
 				"name": "Corrective",
-				"description": "+7.5% Critical Strike Damage\n+3% Potion Healing\n\nTags: Critical Strikes, Damage, Healing."
+				"description": "+7.5% Critical Strike Damage\n+3% Potion Healing\nBonus: Another +7.5% Critical Strike Damage if requirements met: {#}\n\nTags: Critical Strikes, Damage, Healing."
 			},
 			"Generic_Rare_088": {
 				"name": "Deathmarked",
-				"description": "+12.5% Damage to Injured Enemies\n+10 Intelligence\n\nTags: Injured, Damage, Intelligence."
+				"description": "+12.5% Damage to Injured Enemies\n+10 Intelligence\nBonus: Another +12.5% Damage to Injured Enemies if requirements met: {#}\n\nTags: Injured, Damage, Intelligence."
 			},
 			"Generic_Rare_089": {
 				"name": "Remedy",
-				"description": "+5% Healing Received\n+10 Intelligence\n\nTags: Healing, Intelligence."
+				"description": "+5% Healing Received\n+10 Intelligence\nBonus: Another +5% Healing Received if requirements met: {#}\n\nTags: Healing, Intelligence."
 			},
 			"Generic_Rare_090": {
 				"name": "Gloom",
-				"description": "15% Shadow Resistance\n+10 Intelligence\n\nTags: Resistance, Shadow, Intelligence."
+				"description": "15% Shadow Resistance\n+10 Intelligence\nBonus: Another 15% Shadow Resistance if requirements met: {#}\n\nTags: Resistance, Shadow, Intelligence."
 			},
 			"Generic_Rare_091": {
 				"name": "Dragging Shadows",
-				"description": "5% Damage Reduction from Enemies That Are Taking Shadow DoT\n9% Shadow Resistance\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction."
+				"description": "5% Damage Reduction from Enemies That Are Taking Shadow DoT\n9% Shadow Resistance\nBonus: Another 5% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met: {#}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction."
 			},
 			"Generic_Rare_092": {
 				"name": "Gnawing Darkness",
-				"description": "+5% Damage to Taking Shadow DoT Enemies\n+5% Damage to Elites\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage."
+				"description": "+5% Damage to Taking Shadow DoT Enemies\n+5% Damage to Elites\nBonus: Another +5% Damage to Taking Shadow DoT Enemies if requirements met: {#}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage."
 			},
 			"Generic_Rare_093": {
 				"name": "Malediction",
-				"description": "+5% Shadow Damage\n+10 Intelligence\n\nTags: Shadow, Damage, Intelligence."
+				"description": "+5% Shadow Damage\n+10 Intelligence\nBonus: Another +5% Shadow Damage if requirements met: {#}\n\nTags: Shadow, Damage, Intelligence."
 			},
 			"Generic_Rare_094": {
 				"name": "Advantage",
-				"description": "15% Cold Resistance\n+1.5% Lucky Hit Chance\n\nTags: Resistance, Cold, Lucky Hit."
+				"description": "15% Cold Resistance\n+1.5% Lucky Hit Chance\nBonus: Another 15% Cold Resistance if requirements met: {#}\n\nTags: Resistance, Cold, Lucky Hit."
 			},
 			"Generic_Rare_095": {
 				"name": "Weakness",
-				"description": "+5% Vulnerable Damage\n+10 Intelligence\n\nTags: Intelligence, Damage, Vulnerable."
+				"description": "+5% Vulnerable Damage\n+10 Intelligence\nBonus: Another +5% Vulnerable Damage if requirements met: {#}\n\nTags: Intelligence, Damage, Vulnerable."
 			},
 			"Generic_Rare_096": {
 				"name": "Artifice",
-				"description": "+5% Vulnerable Damage\n+10 Dexterity\n\nTags: Vulnerable, Damage, Dexterity."
+				"description": "+5% Vulnerable Damage\n+10 Dexterity\nBonus: Another +5% Vulnerable Damage if requirements met: {#}\n\nTags: Vulnerable, Damage, Dexterity."
 			},
 			"Generic_Rare_097": {
 				"name": "Zealous",
-				"description": "+6.2% Damage while Healthy\n+75 Armor\n\nTags: Healthy, Damage, Armor."
+				"description": "+6.2% Damage while Healthy\n+75 Armor\nBonus: Another +6.2% Damage while Healthy if requirements met: {#}\n\nTags: Healthy, Damage, Armor."
 			},
 			"Generic_Socket": {
 				"name": "Glyph Socket"
@@ -13821,95 +13821,95 @@ let paragonData = {
 			},
 			"Necromancer_Rare_001": {
 				"name": "Shaper of Bone",
-				"description": "+5% Bone Skill Damage\n+10 Intelligence\n\nTags: Bone, Damage, Intelligence."
+				"description": "+5% Bone Skill Damage\n+10 Intelligence\nBonus: Another +5% Bone Skill Damage if requirements met: {#}\n\nTags: Bone, Damage, Intelligence."
 			},
 			"Necromancer_Rare_002": {
 				"name": "Thick Hide",
-				"description": "+5% Damage while Fortified\n+3% Life\n\nTags: Fortify, Damage, Life."
+				"description": "+5% Damage while Fortified\n+3% Life\nBonus: Another +5% Damage while Fortified if requirements met: {#}\n\nTags: Fortify, Damage, Life."
 			},
 			"Necromancer_Rare_003": {
 				"name": "Blooddrinker",
-				"description": "+6% Blood Orb Healing\n+10 Intelligence\n\nTags: Blood Orb, Healing, Intelligence."
+				"description": "+6% Blood Orb Healing\n+10 Intelligence\nBonus: Another +6% Blood Orb Healing if requirements met: {#}\n\nTags: Blood Orb, Healing, Intelligence."
 			},
 			"Necromancer_Rare_005": {
 				"name": "Calcified",
-				"description": "+7.5% Critical Strike Damage with Bone Skills\n+3% Bone Skill Damage\n\nTags: Bone, Critical Strikes, Damage."
+				"description": "+7.5% Critical Strike Damage with Bone Skills\n+3% Bone Skill Damage\nBonus: Another +7.5% Critical Strike Damage with Bone Skills if requirements met: {#}\n\nTags: Bone, Critical Strikes, Damage."
 			},
 			"Necromancer_Rare_006": {
 				"name": "Hardened",
-				"description": "+5% Damage while Fortified\n+10 Intelligence\n\nTags: Fortify, Damage, Intelligence."
+				"description": "+5% Damage while Fortified\n+10 Intelligence\nBonus: Another +5% Damage while Fortified if requirements met: {#}\n\nTags: Fortify, Damage, Intelligence."
 			},
 			"Necromancer_Rare_009": {
 				"name": "Invigorated",
-				"description": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+3.8% Damage while Healthy\n\nTags: Blood Orb, Healthy, Damage."
+				"description": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+3.8% Damage while Healthy\nBonus: Another +5% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met: {#}\n\nTags: Blood Orb, Healthy, Damage."
 			},
 			"Necromancer_Rare_011": {
 				"name": "Unassailable",
-				"description": "5% Damage Reduction from Vulnerable Enemies\n+75 Armor\n\nTags: Vulnerable, Damage Reduction, Armor."
+				"description": "5% Damage Reduction from Vulnerable Enemies\n+75 Armor\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met: {#}\n\nTags: Vulnerable, Damage Reduction, Armor."
 			},
 			"Necromancer_Rare_013": {
 				"name": "Vampiric",
-				"description": "+6% Blood Orb Healing\n+3% Life\n\nTags: Blood Orb, Healing, Life."
+				"description": "+6% Blood Orb Healing\n+3% Life\nBonus: Another +6% Blood Orb Healing if requirements met: {#}\n\nTags: Blood Orb, Healing, Life."
 			},
 			"Necromancer_Rare_017": {
 				"name": "Borrowed Strength",
-				"description": "+5% Damage while Golem are Active\n+1.5% Total Armor while Golem are Active\n\nTags: Minion, Damage, Armor."
+				"description": "+5% Damage while Golem are Active\n+1.5% Total Armor while Golem are Active\nBonus: Another +5% Damage while Golem are Active if requirements met: {#}\n\nTags: Minion, Damage, Armor."
 			},
 			"Necromancer_Rare_018": {
 				"name": "Armor-clad",
-				"description": "+5% Minion Armor\n7.5% Maximum Minion Life\n\nTags: Minion, Armor, Life."
+				"description": "+5% Minion Armor\n7.5% Maximum Minion Life\nBonus: Another +5% Minion Armor if requirements met: {#}\n\nTags: Minion, Armor, Life."
 			},
 			"Necromancer_Rare_020": {
 				"name": "Custody",
-				"description": "12.5% Damage Reduction for Your Minions\n+10 Intelligence\n\nTags: Minion, Damage Reduction, Intelligence."
+				"description": "12.5% Damage Reduction for Your Minions\n+10 Intelligence\nBonus: Another 12.5% Damage Reduction for Your Minions if requirements met: {#}\n\nTags: Minion, Damage Reduction, Intelligence."
 			},
 			"Necromancer_Rare_021": {
 				"name": "Overlord",
-				"description": "+5% Minion Damage\n+10 Intelligence\n\nTags: Minion, Damage, Intelligence."
+				"description": "+5% Minion Damage\n+10 Intelligence\nBonus: Another +5% Minion Damage if requirements met: {#}\n\nTags: Minion, Damage, Intelligence."
 			},
 			"Necromancer_Rare_022": {
 				"name": "Mutation",
-				"description": "+8.3% Golem Damage\n+10 Intelligence\n\nTags: Minion, Damage, Intelligence."
+				"description": "+8.3% Golem Damage\n+10 Intelligence\nBonus: Another +8.3% Golem Damage if requirements met: {#}\n\nTags: Minion, Damage, Intelligence."
 			},
 			"Necromancer_Rare_024": {
 				"name": "Frenzied Golem",
-				"description": "+8.3% Golem Damage\n+5% Golem Attack Speed\n\nTags: Minion, Damage, Attack Speed."
+				"description": "+8.3% Golem Damage\n+5% Golem Attack Speed\nBonus: Another +8.3% Golem Damage if requirements met: {#}\n\nTags: Minion, Damage, Attack Speed."
 			},
 			"Necromancer_Rare_025": {
 				"name": "Miscreation",
-				"description": "+8.3% Golem Armor\n+10 Intelligence\n\nTags: Minion, Armor, Intelligence."
+				"description": "+8.3% Golem Armor\n+10 Intelligence\nBonus: Another +8.3% Golem Armor if requirements met: {#}\n\nTags: Minion, Armor, Intelligence."
 			},
 			"Necromancer_Rare_026": {
 				"name": "Puppeteer",
-				"description": "+5% Minion Damage\n+3% Minion Attack Speed\n\nTags: Minion, Damage, Attack Speed."
+				"description": "+5% Minion Damage\n+3% Minion Attack Speed\nBonus: Another +5% Minion Damage if requirements met: {#}\n\nTags: Minion, Damage, Attack Speed."
 			},
 			"Necromancer_Rare_027": {
 				"name": "Infused Caster",
-				"description": "+8.3% SkeletonMage Damage\n12% SkeletonMage Resistance to All Elements\n\nTags: Minion, Damage, Resistance, Non-Physical."
+				"description": "+8.3% SkeletonMage Damage\n12% SkeletonMage Resistance to All Elements\nBonus: Another +8.3% SkeletonMage Damage if requirements met: {#}\n\nTags: Minion, Damage, Resistance, Non-Physical."
 			},
 			"Necromancer_Rare_028": {
 				"name": "Infused Warrior",
-				"description": "+8.3% SkeletonWarrior Damage\n+5% SkeletonWarrior Armor\n\nTags: Minion, Damage, Armor."
+				"description": "+8.3% SkeletonWarrior Damage\n+5% SkeletonWarrior Armor\nBonus: Another +8.3% SkeletonWarrior Damage if requirements met: {#}\n\nTags: Minion, Damage, Armor."
 			},
 			"Necromancer_Rare_029": {
 				"name": "Infused Golem",
-				"description": "+8.3% Golem Damage\n10.5% Golem Maximum Life\n\nTags: Minion, Damage, Life."
+				"description": "+8.3% Golem Damage\n10.5% Golem Maximum Life\nBonus: Another +8.3% Golem Damage if requirements met: {#}\n\nTags: Minion, Damage, Life."
 			},
 			"Necromancer_Rare_031": {
 				"name": "Flesh-horror",
-				"description": "+8.3% Golem Armor\n12% Golem Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical, Armor."
+				"description": "+8.3% Golem Armor\n12% Golem Resistance to All Elements\nBonus: Another +8.3% Golem Armor if requirements met: {#}\n\nTags: Minion, Resistance, Non-Physical, Armor."
 			},
 			"Necromancer_Rare_034": {
 				"name": "Blood-Empowered",
-				"description": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence\n\nTags: Damage, Intelligence, Blood Orb."
+				"description": "+5% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence\nBonus: Another +5% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met: {#}\n\nTags: Damage, Intelligence, Blood Orb."
 			},
 			"Necromancer_Rare_035": {
 				"name": "Lingering Shadows",
-				"description": "+5% Shadow Damage Over Time\n+3% Shadow Damage\n\nTags: Shadow, Shadow Damage Over Time, Damage."
+				"description": "+5% Shadow Damage Over Time\n+3% Shadow Damage\nBonus: Another +5% Shadow Damage Over Time if requirements met: {#}\n\nTags: Shadow, Shadow Damage Over Time, Damage."
 			},
 			"Necromancer_Rare_036": {
 				"name": "Entomb",
-				"description": "+1% Critical Strike Chance with Bone Skills\n+3% Potion Healing\n\nTags: Healing, Bone, Critical Strikes."
+				"description": "+1% Critical Strike Chance with Bone Skills\n+3% Potion Healing\nBonus: Another +1% Critical Strike Chance with Bone Skills if requirements met: {#}\n\nTags: Healing, Bone, Critical Strikes."
 			},
 			"StartNodeNecro": {
 				"name": "Paragon Starting Node"
@@ -18229,51 +18229,51 @@ let paragonData = {
 			},
 			"Rogue_Rare_005": {
 				"name": "Finisher",
-				"description": "+7% Core Skill Damage\n+10 Dexterity\n\nTags: Core, Damage, Dexterity."
+				"description": "+7% Core Skill Damage\n+10 Dexterity\nBonus: Another +7% Core Skill Damage if requirements met: {#}\n\nTags: Core, Damage, Dexterity."
 			},
 			"Rogue_Rare_008": {
 				"name": "Spring-loaded",
-				"description": "3.3% Trap Cooldown Reduction\n\nTags: Trap, Cooldown."
+				"description": "3.3% Trap Cooldown Reduction\nBonus: Another 3.3% Trap Cooldown Reduction if requirements met: {#}\n\nTags: Trap, Cooldown."
 			},
 			"Rogue_Rare_009": {
 				"name": "Imbuer",
-				"description": "+7.5% Imbued Skill Damage\n+3% Damage\n\nTags: Imbuement, Non-Physical, Damage."
+				"description": "+7.5% Imbued Skill Damage\n+3% Damage\nBonus: Another +7.5% Imbued Skill Damage if requirements met: {#}\n\nTags: Imbuement, Non-Physical, Damage."
 			},
 			"Rogue_Rare_010": {
 				"name": "Ready Supply",
-				"description": "+5% Damage\n2% Imbuement Cooldown Reduction\n\nTags: Cooldown, Imbuement, Non-Physical, Damage."
+				"description": "+5% Damage\n2% Imbuement Cooldown Reduction\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage."
 			},
 			"Rogue_Rare_011": {
 				"name": "Dominant",
-				"description": "+10% Basic Skill Damage\n\nTags: Core, Basic, Damage."
+				"description": "+10% Basic Skill Damage\nBonus: Another +10% Basic Skill Damage if requirements met: {#}\n\nTags: Core, Basic, Damage."
 			},
 			"Rogue_Rare_012": {
 				"name": "Potent",
-				"description": "+7.5% Imbued Skill Damage\n+10 Dexterity\n\nTags: Imbuement, Damage, Dexterity."
+				"description": "+7.5% Imbued Skill Damage\n+10 Dexterity\nBonus: Another +7.5% Imbued Skill Damage if requirements met: {#}\n\nTags: Imbuement, Damage, Dexterity."
 			},
 			"Rogue_Rare_014": {
 				"name": "Fundamentals",
-				"description": "+16.7% Basic Skill Damage\n+3% Damage\n\nTags: Basic, Damage."
+				"description": "+16.7% Basic Skill Damage\n+3% Damage\nBonus: Another +16.7% Basic Skill Damage if requirements met: {#}\n\nTags: Basic, Damage."
 			},
 			"Rogue_Rare_016": {
 				"name": "Brawler",
-				"description": "+6% Damage to Close Enemies\n3.6% Damage Reduction from Close Enemies\n\nTags: Damage, Damage Reduction."
+				"description": "+6% Damage to Close Enemies\n3.6% Damage Reduction from Close Enemies\nBonus: Another +6% Damage to Close Enemies if requirements met: {#}\n\nTags: Damage, Damage Reduction."
 			},
 			"Rogue_Rare_018": {
 				"name": "Ranger",
-				"description": "+7.5% Damage to Distant Enemies\n4.5% Damage Reduction from Distant Enemies\n\nTags: Damage, Damage Reduction."
+				"description": "+7.5% Damage to Distant Enemies\n4.5% Damage Reduction from Distant Enemies\nBonus: Another +7.5% Damage to Distant Enemies if requirements met: {#}\n\nTags: Damage, Damage Reduction."
 			},
 			"Rogue_Rare_027": {
 				"name": "Engineering",
-				"description": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\n\nTags: Trap, Damage, Dexterity."
+				"description": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\nBonus: Another 5% Damage Reduction from Enemies Affected By Trap Skills if requirements met: {#}\n\nTags: Trap, Damage, Dexterity."
 			},
 			"Rogue_Rare_028": {
 				"name": "Cunning",
-				"description": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\n\nTags: Trap, Damage Reduction, Dexterity."
+				"description": "5% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\nBonus: Another 5% Damage Reduction from Enemies Affected By Trap Skills if requirements met: {#}\n\nTags: Trap, Damage Reduction, Dexterity."
 			},
 			"Rogue_Rare_029": {
 				"name": "Trapper",
-				"description": "+7.5% Trap Skill Damage\n3% Damage Reduction from Enemies Affected By Trap Skills\n\nTags: Trap, Damage."
+				"description": "+7.5% Trap Skill Damage\n3% Damage Reduction from Enemies Affected By Trap Skills\nBonus: Another +7.5% Trap Skill Damage if requirements met: {#}\n\nTags: Trap, Damage."
 			},
 			"StartNodeRogue": {
 				"name": "Paragon Starting Node"
@@ -22573,111 +22573,111 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_002": {
 				"name": "Cryomancy",
-				"description": "+5% Cold Damage\n2% Chill Application\n\nTags: Cold, Damage, Chill, Crowd Control."
+				"description": "+5% Cold Damage\n2% Chill Application\nBonus: Another +5% Cold Damage if requirements met: {#}\n\nTags: Cold, Damage, Chill, Crowd Control."
 			},
 			"Sorcerer_Rare_005": {
 				"name": "Polar Rime",
-				"description": "+7.5% Damage to Chilled Enemies\n+3% Damage\n\nTags: Non-Physical, Chill, Damage, Crowd Control."
+				"description": "+7.5% Damage to Chilled Enemies\n+3% Damage\nBonus: Another +7.5% Damage to Chilled Enemies if requirements met: {#}\n\nTags: Non-Physical, Chill, Damage, Crowd Control."
 			},
 			"Sorcerer_Rare_006": {
 				"name": "Chilling",
-				"description": "15% Cold Resistance\n+10 Intelligence\n\nTags: Resistance, Intelligence, Cold."
+				"description": "15% Cold Resistance\n+10 Intelligence\nBonus: Another 15% Cold Resistance if requirements met: {#}\n\nTags: Resistance, Intelligence, Cold."
 			},
 			"Sorcerer_Rare_007": {
 				"name": "Pyromancy",
-				"description": "+5% Fire Damage\n+3% Fire Damage Over Time\n\nTags: Fire, Burn, Damage."
+				"description": "+5% Fire Damage\n+3% Fire Damage Over Time\nBonus: Another +5% Fire Damage if requirements met: {#}\n\nTags: Fire, Burn, Damage."
 			},
 			"Sorcerer_Rare_008": {
 				"name": "Kindling",
-				"description": "+5% Damage to Burning Enemies\n+5% Damage to Elites\n\nTags: Burn, Elite Monsters, Damage."
+				"description": "+5% Damage to Burning Enemies\n+5% Damage to Elites\nBonus: Another +5% Damage to Burning Enemies if requirements met: {#}\n\nTags: Burn, Elite Monsters, Damage."
 			},
 			"Sorcerer_Rare_009": {
 				"name": "Flame-touched",
-				"description": "+5% Fire Damage\n+10 Intelligence\n\nTags: Fire, Damage, Intelligence."
+				"description": "+5% Fire Damage\n+10 Intelligence\nBonus: Another +5% Fire Damage if requirements met: {#}\n\nTags: Fire, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_010": {
 				"name": "Paralyzing",
-				"description": "+7.5% Damage to Stunned Enemies\n+4.8 Maximum Mana\n\nTags: Mana, Crowd Control, Damage."
+				"description": "+7.5% Damage to Stunned Enemies\n+4.8 Maximum Mana\nBonus: Another +7.5% Damage to Stunned Enemies if requirements met: {#}\n\nTags: Mana, Crowd Control, Damage."
 			},
 			"Sorcerer_Rare_011": {
 				"name": "Conduit",
-				"description": "+8.3% Damage with Crackling Energy\n+3% Lightning Damage\n\nTags: Shock, Crackling Energy, Damage."
+				"description": "+8.3% Damage with Crackling Energy\n+3% Lightning Damage\nBonus: Another +8.3% Damage with Crackling Energy if requirements met: {#}\n\nTags: Shock, Crackling Energy, Damage."
 			},
 			"Sorcerer_Rare_012": {
 				"name": "Incapacitate",
-				"description": "+7.5% Damage to Stunned Enemies\n+10 Intelligence\n\nTags: Crowd Control, Damage, Intelligence."
+				"description": "+7.5% Damage to Stunned Enemies\n+10 Intelligence\nBonus: Another +7.5% Damage to Stunned Enemies if requirements met: {#}\n\nTags: Crowd Control, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_013": {
 				"name": "Keeper of Flames",
-				"description": "5% Damage Reduction from Enemies That Are Burning\n9% Fire Resistance\n\nTags: Burn, Damage Reduction, Fire, Resistance."
+				"description": "5% Damage Reduction from Enemies That Are Burning\n9% Fire Resistance\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met: {#}\n\nTags: Burn, Damage Reduction, Fire, Resistance."
 			},
 			"Sorcerer_Rare_014": {
 				"name": "Electro",
-				"description": "15% Lightning Resistance\n+10 Intelligence\n\nTags: Lightning, Resistance, Intelligence."
+				"description": "15% Lightning Resistance\n+10 Intelligence\nBonus: Another 15% Lightning Resistance if requirements met: {#}\n\nTags: Lightning, Resistance, Intelligence."
 			},
 			"Sorcerer_Rare_015": {
 				"name": "Oppressive",
-				"description": "+5% Vulnerable Damage\n3% Damage Reduction from Vulnerable Enemies\n\nTags: Vulnerable, Damage, Damage Reduction."
+				"description": "+5% Vulnerable Damage\n3% Damage Reduction from Vulnerable Enemies\nBonus: Another +5% Vulnerable Damage if requirements met: {#}\n\nTags: Vulnerable, Damage, Damage Reduction."
 			},
 			"Sorcerer_Rare_016": {
 				"name": "Smoldering Embers",
-				"description": "5% Damage Reduction from Enemies That Are Burning\n+10 Intelligence\n\nTags: Burn, Damage Reduction, Intelligence."
+				"description": "5% Damage Reduction from Enemies That Are Burning\n+10 Intelligence\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met: {#}\n\nTags: Burn, Damage Reduction, Intelligence."
 			},
 			"Sorcerer_Rare_017": {
 				"name": "Keeper of Winter",
-				"description": "7.5% Damage Reduction from Chilled Enemies\n9% Cold Resistance\n\nTags: Damage Reduction, Resistance, Cold, Crowd Control."
+				"description": "7.5% Damage Reduction from Chilled Enemies\n9% Cold Resistance\nBonus: Another 7.5% Damage Reduction from Chilled Enemies if requirements met: {#}\n\nTags: Damage Reduction, Resistance, Cold, Crowd Control."
 			},
 			"Sorcerer_Rare_019": {
 				"name": "Elemental Balance",
-				"description": "+5% Damage\n+10 Intelligence\n\nTags: Non-Physical, Damage, Intelligence."
+				"description": "+5% Damage\n+10 Intelligence\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Non-Physical, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_020": {
 				"name": "Keeper of Elements",
-				"description": "+5% Damage\n3% Resistance to All Elements\n\nTags: Non-Physical, Damage, Resistance."
+				"description": "+5% Damage\n3% Resistance to All Elements\nBonus: Another +5% Damage if requirements met: {#}\n\nTags: Non-Physical, Damage, Resistance."
 			},
 			"Sorcerer_Rare_022": {
 				"name": "Overwhelming",
-				"description": "+7.5% Damage to Stunned Enemies\n+5% Damage to Elites\n\nTags: Elite Monsters, Damage, Crowd Control."
+				"description": "+7.5% Damage to Stunned Enemies\n+5% Damage to Elites\nBonus: Another +7.5% Damage to Stunned Enemies if requirements met: {#}\n\nTags: Elite Monsters, Damage, Crowd Control."
 			},
 			"Sorcerer_Rare_023": {
 				"name": "Ashes",
-				"description": "15% Fire Resistance\n+10 Intelligence\n\nTags: Fire, Resistance, Intelligence."
+				"description": "15% Fire Resistance\n+10 Intelligence\nBonus: Another 15% Fire Resistance if requirements met: {#}\n\nTags: Fire, Resistance, Intelligence."
 			},
 			"Sorcerer_Rare_024": {
 				"name": "Combustion",
-				"description": "+5% Fire Damage\n+4.5% Critical Strike Damage\n\nTags: Fire, Critical Strikes, Damage."
+				"description": "+5% Fire Damage\n+4.5% Critical Strike Damage\nBonus: Another +5% Fire Damage if requirements met: {#}\n\nTags: Fire, Critical Strikes, Damage."
 			},
 			"Sorcerer_Rare_025": {
 				"name": "Cinders",
-				"description": "+5% Damage to Burning Enemies\n+10 Intelligence\n\nTags: Burn, Damage, Intelligence."
+				"description": "+5% Damage to Burning Enemies\n+10 Intelligence\nBonus: Another +5% Damage to Burning Enemies if requirements met: {#}\n\nTags: Burn, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_026": {
 				"name": "Frosts",
-				"description": "+7.5% Damage to Chilled Enemies\n+10 Intelligence\n\nTags: Chill, Damage, Intelligence, Crowd Control."
+				"description": "+7.5% Damage to Chilled Enemies\n+10 Intelligence\nBonus: Another +7.5% Damage to Chilled Enemies if requirements met: {#}\n\nTags: Chill, Damage, Intelligence, Crowd Control."
 			},
 			"Sorcerer_Rare_027": {
 				"name": "Galvanic Catalyst",
-				"description": "+8.3% Damage with Crackling Energy\n+10 Intelligence\n\nTags: Crackling Energy, Damage, Intelligence."
+				"description": "+8.3% Damage with Crackling Energy\n+10 Intelligence\nBonus: Another +8.3% Damage with Crackling Energy if requirements met: {#}\n\nTags: Crackling Energy, Damage, Intelligence."
 			},
 			"Sorcerer_Rare_028": {
 				"name": "Frigid",
-				"description": "7.5% Damage Reduction from Chilled Enemies\n+10 Intelligence\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control."
+				"description": "7.5% Damage Reduction from Chilled Enemies\n+10 Intelligence\nBonus: Another 7.5% Damage Reduction from Chilled Enemies if requirements met: {#}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control."
 			},
 			"Sorcerer_Rare_029": {
 				"name": "Conjurer",
-				"description": "+7.5% Conjuration Skill Damage\n+10 Intelligence\n\nTags: Damage, Conjuration, Intelligence."
+				"description": "+7.5% Conjuration Skill Damage\n+10 Intelligence\nBonus: Another +7.5% Conjuration Skill Damage if requirements met: {#}\n\nTags: Damage, Conjuration, Intelligence."
 			},
 			"Sorcerer_Rare_034": {
 				"name": "Denial",
-				"description": "5% Resistance to All Elements\n+75 Armor\n\nTags: Resistance, Armor, Non-Physical."
+				"description": "5% Resistance to All Elements\n+75 Armor\nBonus: Another 5% Resistance to All Elements if requirements met: {#}\n\nTags: Resistance, Armor, Non-Physical."
 			},
 			"Sorcerer_Rare_035": {
 				"name": "Guarded",
-				"description": "5% Damage Reduction from Vulnerable Enemies\n9% Cold Resistance\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance."
+				"description": "5% Damage Reduction from Vulnerable Enemies\n9% Cold Resistance\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met: {#}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance."
 			},
 			"Sorcerer_Rare_036": {
 				"name": "Speed Caster",
-				"description": "+5% Attack Speed\n+4.5% Conjuration Skill Damage\n\nTags: Attack Speed, Damage, Conjuration."
+				"description": "+5% Attack Speed\n+4.5% Conjuration Skill Damage\nBonus: Another +5% Attack Speed if requirements met: {#}\n\nTags: Attack Speed, Damage, Conjuration."
 			},
 			"StartNodeSorc": {
 				"name": "Paragon Starting Node"
