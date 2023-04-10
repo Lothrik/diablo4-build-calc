@@ -575,7 +575,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39858-11";
+const localVersion = "0.8.1.39858-12";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -846,9 +846,9 @@ function handleReloadButton() {
 
 		function finishLoading() {
 			if ("boardData" in nodeData) {
-				console.log(LZString.decompressFromEncodedURIComponent(nodeData.boardData).replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"'));
-				nodeData.boardData = JSON.parse(LZString.decompressFromEncodedURIComponent(nodeData.boardData).replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"'));
-				console.log(nodeData.boardData);
+				nodeData.boardData = JSON.parse(LZString.decompressFromEncodedURIComponent(nodeData.boardData)
+					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
+					.replace(/:([\w]+)(,|})/g, ':"$1"$2'));
 				for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), gridLocation);
 				if (nodeData.boardData.length > 1) {
 					for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), rotationAngle);
@@ -966,35 +966,39 @@ function onMouseOver(event) {
 function onMouseOut(event) {
 	if (!pixiDragging) eraseTooltip();
 }
-const paragonBoardGridCoordinates = [
-	[-3250, -3450], [0, -3450], [3250, -3450], // 1, 2, 3
-	[-3250, -6800], [0, -6800], [3250, -6800], // 4, 5, 6
-	[-3250, -10150], [0, -10150], [3250, -10150], // 7, 8, 9
-];
+const paragonBoardGridCoordinates = {
+	"E": [-6500, -16850], "F": [-3250, -16850], "G": [0, -16850], "H": [3250, -16850], "I": [6500, -16850],
+	"D": [-6500, -13500], "J": [-3250, -13500], "K": [0, -13500], "L": [3250, -13500], "M": [6500, -13500],
+	"C": [-6500, -10150], "7": [-3250, -10150], "8": [0, -10150], "9": [3250, -10150], "N": [6500, -10150],
+	"B": [-6500,  -6800], "4": [-3250,  -6800], "5": [0,  -6800], "6": [3250,  -6800], "O": [6500,  -6800],
+	"A": [-6500,  -3450], "1": [-3250,  -3450], "2": [0,  -3450], "3": [3250,  -3450], "P": [6500,  -3450],
+};
 let paragonBoardGridData = {};
-function moveParagonBoard(boardIndex, forcedGridLocation = -1) {
+function moveParagonBoard(boardIndex, forcedGridLocation = null) {
 	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
 
-	let gridLocation = 0;
-	if (forcedGridLocation == -1) {
-		let promptInput = prompt(PARAGON_BOARD_GRID_PROMPT_PREFIX + `[${boardHeader.nodeName}]` + PARAGON_BOARD_GRID_PROMPT_SUFFIX
-			+ "7 8 9\n"
-			+ "4 5 6\n"
-			+ "1 2 3");
+	let gridLocation;
+	if (forcedGridLocation == null) {
+		const currentGridLocation = paragonBoardGridData[boardIndex];
+		const promptInput = prompt(PARAGON_BOARD_GRID_PROMPT_PREFIX + `[${boardHeader.nodeName}]` + PARAGON_BOARD_GRID_PROMPT_SUFFIX
+			+ "E F G H I\n"
+			+ "D J K L M\n"
+			+ "C 7 8 9 N\n"
+			+ "B 4 5 6 O\n"
+			+ "A 1 2 3 P", currentGridLocation == undefined ? "0" : currentGridLocation);
 		if (promptInput == null) return;
-		promptInput = parseInt(Number(promptInput));
-		if (!isNaN(promptInput)) gridLocation = promptInput;
+		gridLocation = String(promptInput).toUpperCase();
 	} else {
-		gridLocation = forcedGridLocation;
+		gridLocation = String(forcedGridLocation).toUpperCase();
 	}
 
 	if (gridLocation == paragonBoardGridData[boardIndex]) return;
 
 	let gridPosition = new PIXI.Point(0, 0);
-	if (gridLocation >= 1 && gridLocation <= 9) {
-		gridPosition.x = paragonBoardGridCoordinates[gridLocation - 1][0] - boardContainer.startPosition.x;
-		gridPosition.y = paragonBoardGridCoordinates[gridLocation - 1][1];
+	if (gridLocation in paragonBoardGridCoordinates) {
+		gridPosition.x = paragonBoardGridCoordinates[gridLocation][0] - boardContainer.startPosition.x;
+		gridPosition.y = paragonBoardGridCoordinates[gridLocation][1];
 	}
 
 	const oldGridIndex = Object.keys(paragonBoardGridData).find(key => paragonBoardGridData[key] == gridLocation);
@@ -1012,15 +1016,15 @@ function moveParagonBoard(boardIndex, forcedGridLocation = -1) {
 	}
 
 	delete paragonBoardGridData[boardIndex];
-	boardContainer.position.gridLocation = gridLocation > 0 ? gridLocation : undefined;
-	if (gridLocation > 0) paragonBoardGridData[boardIndex] = gridLocation;
+	boardContainer.position.gridLocation = gridLocation in paragonBoardGridCoordinates ? gridLocation : undefined;
+	if (gridLocation in paragonBoardGridCoordinates) paragonBoardGridData[boardIndex] = gridLocation;
 }
 let paragonBoardRotationData = {};
 function rotateParagonBoard(boardIndex, rotationAngle, relativeAngle = false) {
 	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
 
-	boardContainer.angle = (relativeAngle ? rotationAngle + boardContainer.angle : rotationAngle) % 360;
+	boardContainer.angle = (Number(rotationAngle) + (relativeAngle ? boardContainer.angle : 0)) % 360;
 	boardContainer.children.forEach(pixiNode => pixiNode.angle = -boardContainer.angle);
 	if (boardContainer.angle == 0) {
 		delete paragonBoardRotationData[boardIndex];
