@@ -134,6 +134,8 @@ const ULTIMATE = "Ultimate";
 const KEY_PASSIVE = "Key Passive";
 const SKILL_TREE = "Skill Tree";
 const PARAGON_BOARD = "Paragon Board";
+const PARAGON_BOARD_GRID_PROMPT_PREFIX = "Please select a grid location for the ";
+const PARAGON_BOARD_GRID_PROMPT_SUFFIX = " Paragon Board:\n";
 const CODEX_OF_POWER = "Codex of Power";
 const CODEX_OF_POWER_DESC_BEFORE = "Legendary aspects in this category can be applied to: ";
 const CODEX_OF_POWER_DESC_AFTER = "Unique items are only listed here for convenience, and cannot have their powers extracted.";
@@ -355,8 +357,6 @@ function setNodeStyleThin(curNode) {
 			curNode.children[2].style.fontWeight = "normal";
 			curNode.children[3].children[0].style.fontWeight = "normal";
 			curNode.children[4].children[0].style.fontWeight = "normal";
-		} else {
-			console.log("refused to thin text");
 		}
 		if (!searchQueryMatch) curNode.children[5].updateLineStyle(_lineStyleThinSquare);
 	} else {
@@ -574,7 +574,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39858-10";
+const localVersion = "0.8.1.39858-11";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -708,7 +708,7 @@ function handleClassSelection(event, postHookFunction = null) {
 			$("#loadingIndicator").addClass("disabled");
 			if (typeof postHookFunction == "function") setTimeout(postHookFunction, 50);
 		}, 50);
-	}
+	} else if (typeof postHookFunction == "function") postHookFunction();
 }
 function handleGroupSelection(event) {
 	const newGroupName = $(groupString).text();
@@ -766,7 +766,14 @@ function handleSearchInput(event) {
 			oldSearchIdx++;
 		}
 		if (nodeMatch != undefined) {
-			pixiJS.stage.pivot.set(nodeMatch.x - oldWidth / pixiJS.stage.scale.x * 0.5, nodeMatch.y - oldHeight / pixiJS.stage.scale.y * 0.5);
+			// paragon board nodes require some additional math to determine the correct position, as they can move and rotate
+			let [nodeX, nodeY] = [nodeMatch.x, nodeMatch.y];
+			if (nodeMatch.nodeData.get("boardName") != undefined) {
+				[nodeX, nodeY] = rotateAngle(0, 0, nodeMatch.x, nodeMatch.y, nodeMatch.angle);
+				[nodeX, nodeY] = [nodeX + nodeMatch.parent.x, nodeY + nodeMatch.parent.y];
+			}
+
+			pixiJS.stage.pivot.set(nodeX - oldWidth / pixiJS.stage.scale.x * 0.5, nodeY - oldHeight / pixiJS.stage.scale.y * 0.5);
 			drawTooltip(nodeMatch);
 		}
 	}
@@ -795,6 +802,15 @@ function handleSaveButton() {
 		window.location.replace(window.location.href.split(/[#?&]/)[0]);
 	} else {
 		let nodeData = { className: className };
+		if (Object.keys(paragonBoardGridData).length > 0) nodeData.boardData = [paragonBoardGridData];
+		if (Object.keys(paragonBoardRotationData).length > 0) {
+			if ("boardData" in nodeData) {
+				nodeData.boardData[1] = paragonBoardRotationData;
+			} else {
+				nodeData.boardData = [0, paragonBoardRotationData];
+			}
+		}
+		if ("boardData" in nodeData) nodeData.boardData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.boardData).replace(/"/g, ""));
 		pixiNodes.forEach(curNode => {
 			if (curNode.groupName != undefined) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
@@ -818,16 +834,27 @@ function handleReloadButton() {
 		// valid JSON always requires quotes around key names; we strip those (and object "1-values") to increase compression
 		const nodeData = jsonData.includes('"') ? JSON.parse(jsonData) :
 			JSON.parse(jsonData
-				.replace(/([{,])([^:,}]+)/g, '$1"$2"')			// restore key double quotes
-				.replace(/","/g, '":1,"') 						// restore object "1-values"
-				.replace(/("className":)([a-z]+)/g, '$1"$2"')	// restore class name double quotes
-				.replace(/(,"[^:,]+")}/g, '$1:1}')				// restore final object value
+				.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')					// restore key double quotes
+				.replace(/","/g, '":1,"') 											// restore object "1-values"
+				.replace(/("(?:className|boardData)":)([^,\[\]{}]+)/g, '$1"$2"')	// restore class name and paragon board data double quotes
+				.replace(/(,"[^:,]+")}/g, '$1:1}')									// restore final object value
 			);
 
 		$("#classSelector").val(nodeData.className);
 		handleClassSelection(null, finishLoading);
 
 		function finishLoading() {
+			if ("boardData" in nodeData) {
+				console.log(LZString.decompressFromEncodedURIComponent(nodeData.boardData).replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"'));
+				nodeData.boardData = JSON.parse(LZString.decompressFromEncodedURIComponent(nodeData.boardData).replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"'));
+				console.log(nodeData.boardData);
+				for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), gridLocation);
+				if (nodeData.boardData.length > 1) {
+					for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), rotationAngle);
+				}
+				delete nodeData.boardData;
+			}
+
 			delete nodeData.className;
 			function compareNodes(firstNode, secondNode) {
 				return nodeData[firstNode.nodeData.get("id")] - nodeData[secondNode.nodeData.get("id")];
@@ -937,6 +964,68 @@ function onMouseOver(event) {
 }
 function onMouseOut(event) {
 	if (!pixiDragging) eraseTooltip();
+}
+const paragonBoardGridCoordinates = [
+	[-3250, -3450], [0, -3450], [3250, -3450], // 1, 2, 3
+	[-3250, -6800], [0, -6800], [3250, -6800], // 4, 5, 6
+	[-3250, -10150], [0, -10150], [3250, -10150], // 7, 8, 9
+];
+let paragonBoardGridData = {};
+function moveParagonBoard(boardIndex, forcedGridLocation = -1) {
+	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
+	const boardContainer = boardHeader.nodeData.get("boardContainer");
+
+	let gridLocation = 0;
+	if (forcedGridLocation == -1) {
+		let promptInput = prompt(PARAGON_BOARD_GRID_PROMPT_PREFIX + `[${boardHeader.nodeName}]` + PARAGON_BOARD_GRID_PROMPT_SUFFIX
+			+ "7 8 9\n"
+			+ "4 5 6\n"
+			+ "1 2 3");
+		if (promptInput == null) return;
+		promptInput = parseInt(Number(promptInput));
+		if (!isNaN(promptInput)) gridLocation = promptInput;
+	} else {
+		gridLocation = forcedGridLocation;
+	}
+
+	if (gridLocation == paragonBoardGridData[boardIndex]) return;
+
+	let gridPosition = new PIXI.Point(0, 0);
+	if (gridLocation >= 1 && gridLocation <= 9) {
+		gridPosition.x = paragonBoardGridCoordinates[gridLocation - 1][0] - boardContainer.startPosition.x;
+		gridPosition.y = paragonBoardGridCoordinates[gridLocation - 1][1];
+	}
+
+	const oldGridIndex = Object.keys(paragonBoardGridData).find(key => paragonBoardGridData[key] == gridLocation);
+	if (oldGridIndex != undefined) moveParagonBoard(oldGridIndex, 0);
+
+	for (const boardObject of [boardHeader, boardContainer]) {
+		if (boardObject.position.offsetX == undefined) boardObject.position.offsetX = 0;
+		if (boardObject.position.offsetY == undefined) boardObject.position.offsetY = 0;
+		const startX = isNaN(boardObject.position.startX) ? boardObject.position.x : boardObject.position.startX;
+		const startY = isNaN(boardObject.position.startY) ? boardObject.position.y : boardObject.position.startY;
+		boardObject.position.x = startX - boardObject.position.offsetX + gridPosition.x;
+		boardObject.position.y = startY - boardObject.position.offsetY + gridPosition.y;
+		boardObject.position.offsetX = gridPosition.x;
+		boardObject.position.offsetY = gridPosition.y;
+	}
+
+	delete paragonBoardGridData[boardIndex];
+	boardContainer.position.gridLocation = gridLocation > 0 ? gridLocation : undefined;
+	if (gridLocation > 0) paragonBoardGridData[boardIndex] = gridLocation;
+}
+let paragonBoardRotationData = {};
+function rotateParagonBoard(boardIndex, rotationAngle, relativeAngle = false) {
+	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
+	const boardContainer = boardHeader.nodeData.get("boardContainer");
+
+	boardContainer.angle = (relativeAngle ? rotationAngle + boardContainer.angle : rotationAngle) % 360;
+	boardContainer.children.forEach(pixiNode => pixiNode.angle = -boardContainer.angle);
+	if (boardContainer.angle == 0) {
+		delete paragonBoardRotationData[boardIndex];
+	} else {
+		paragonBoardRotationData[boardIndex] = boardContainer.angle;
+	}
 }
 // returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
 function getNodePosition(curNode) {
@@ -1301,7 +1390,7 @@ function validateAllDependentNodes() {
 	}
 }
 function redrawNode(curNode) {
-	drawNode(curNode.nodeName, curNode.nodeData, curNode.groupName, curNode.branchData, curNode.nodeIndex, curNode.position);
+	drawNode(curNode.nodeName, curNode.nodeData, curNode.groupName, curNode.extraData, curNode.nodeIndex, curNode.position);
 }
 function redrawAllNodes(idleMode = false) {
 	pixiEventQueue = [];
@@ -1314,7 +1403,7 @@ function redrawAllNodes(idleMode = false) {
 		}
 	}
 }
-function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNodes.length, nodePosition = null) {
+function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = pixiNodes.length, nodePosition = null) {
 	const scaleFactor = devicePixelRatio >= 2 ? 1 : (newRenderScale >= 0.45 ? 2 : 1) / devicePixelRatio * newRenderScale;
 
 	let node = null;
@@ -1332,11 +1421,6 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	let y = nodePosition == null ? nodeData.get("y") : nodePosition.y;
 
 	if (x == undefined || y == undefined) return;
-
-	if (branchData != undefined && nodePosition == null) {
-		x += branchData.get("x");
-		y += branchData.get("y");
-	}
 
 	const shapeType = nodeData.get("shapeType");
 	const shapeSize = nodeData.get("shapeSize");
@@ -1372,6 +1456,80 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	const colorOverride = nodeData.get("colorOverride");
 	const _textColor = colorOverride != undefined ? colorOverride : textColor;
 
+	let extraContainer, extraContainer2, extraContainer3;
+	if (extraData != null) {
+		if (groupName == PARAGON_BOARD) {
+			const boardIndex = extraData;
+
+			const extraText = new PIXI.Text("←↕→", {
+				align: "right",
+				fill: _textColor,
+				fontFamily: fontFamily,
+				fontSize: displayNameSize * 2 * scaleFactor,
+				fontVariant: "small-caps",
+				fontWeight: useThickNodeStyle ? "bold" : "normal",
+				padding: 10
+			});
+			extraText.eventMode = "auto";
+			extraText.scale.set(1 / scaleFactor);
+			extraText.anchor.set(0.5);
+			extraText.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText.width) * 0.5 - 200;
+			extraText.y = -8;
+			extraContainer = new PIXI.Container();
+			extraContainer.cursor = "pointer";
+			extraContainer.eventMode = "static";
+			extraContainer.addChild(extraText);
+			extraContainer
+				.on("click", () => moveParagonBoard(boardIndex))
+				.on("tap", () => moveParagonBoard(boardIndex));
+
+			const extraText2 = new PIXI.Text("↺", {
+				align: "left",
+				fill: _textColor,
+				fontFamily: fontFamily,
+				fontSize: displayNameSize * 2 * scaleFactor,
+				fontVariant: "small-caps",
+				fontWeight: useThickNodeStyle ? "bold" : "normal",
+				padding: 10
+			});
+			extraText2.eventMode = "auto";
+			extraText2.scale.set(1 / scaleFactor);
+			extraText2.anchor.set(0.5);
+			extraText2.x = (extraText2.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 16;
+			extraContainer2 = new PIXI.Container();
+			extraContainer2.cursor = "pointer";
+			extraContainer2.eventMode = "static";
+			extraContainer2.addChild(extraText2);
+			extraContainer2
+				.on("click", () => rotateParagonBoard(boardIndex, -90, true))
+				.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
+
+			const extraText3 = new PIXI.Text("↻", {
+				align: "right",
+				fill: _textColor,
+				fontFamily: fontFamily,
+				fontSize: displayNameSize * 2 * scaleFactor,
+				fontVariant: "small-caps",
+				fontWeight: useThickNodeStyle ? "bold" : "normal",
+				padding: 10
+			});
+			extraText3.eventMode = "auto";
+			extraText3.scale.set(1 / scaleFactor);
+			extraText3.anchor.set(0.5);
+			extraText3.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText3.width) * 0.5 - 16;
+			extraContainer3 = new PIXI.Container();
+			extraContainer3.cursor = "pointer";
+			extraContainer3.eventMode = "static";
+			extraContainer3.addChild(extraText3);
+			extraContainer3
+				.on("click", () => rotateParagonBoard(boardIndex, 90, true))
+				.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
+		} else if (nodePosition == null) {
+			x += extraData.get("x");
+			y += extraData.get("y");
+		}
+	}
+
 	const nodeText = new PIXI.Text(displayName, {
 		align: "center",
 		fill: _textColor,
@@ -1402,8 +1560,8 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText2.width) * 0.5 - 5;
 		nodeText2.y = (nodeText2.height - _nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? -2 : 2);
 
-		nodeText3 = new PIXI.Text("+", {
-			align: "right",
+		nodeText3 = new PIXI.Text("–", {
+			align: "left",
 			fill: _textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleFactor,
@@ -1414,11 +1572,19 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeText3.eventMode = "auto";
 		nodeText3.scale.set(1 / scaleFactor);
 		nodeText3.anchor.set(0.5);
-		nodeText3.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText3.width) * 0.5;
-		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText3.height) * 0.5 + (shapeType == "circle" ? 12 : 4);
+		nodeText3.x = (nodeText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 4;
+		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText3.height) * 0.5 + (shapeType == "circle" ? 8 : 0);
 
-		nodeText4 = new PIXI.Text("–", {
-			align: "left",
+		minusContainer = new PIXI.Container();
+		minusContainer.cursor = "pointer";
+		minusContainer.eventMode = "static";
+		minusContainer.addChild(nodeText3);
+		minusContainer
+			.on("click", () => handleMinusButton(node))
+			.on("tap", () => handleMinusButton(node));
+
+		nodeText4 = new PIXI.Text("+", {
+			align: "right",
 			fill: _textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleFactor,
@@ -1429,24 +1595,16 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		nodeText4.eventMode = "auto";
 		nodeText4.scale.set(1 / scaleFactor);
 		nodeText4.anchor.set(0.5);
-		nodeText4.x = (nodeText4.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 4;
-		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText4.height) * 0.5 + (shapeType == "circle" ? 8 : 0);
+		nodeText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText4.width) * 0.5;
+		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText4.height) * 0.5 + (shapeType == "circle" ? 12 : 4);
 
 		plusContainer = new PIXI.Container();
 		plusContainer.cursor = "pointer";
 		plusContainer.eventMode = "static";
-		plusContainer.addChild(nodeText3);
+		plusContainer.addChild(nodeText4);
 		plusContainer
 			.on("click", () => handlePlusButton(node))
 			.on("tap", () => handlePlusButton(node));
-
-		minusContainer = new PIXI.Container();
-		minusContainer.cursor = "pointer";
-		minusContainer.eventMode = "static";
-		minusContainer.addChild(nodeText4);
-		minusContainer
-			.on("click", () => handleMinusButton(node))
-			.on("tap", () => handleMinusButton(node));
 	}
 
 	const nodeBorder = new PIXI.Graphics();
@@ -1502,6 +1660,9 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 	nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
 
 	nodeContainer.addChild(nodeBackground);
+	if (extraContainer != undefined) nodeContainer.addChild(extraContainer);
+	if (extraContainer2 != undefined) nodeContainer.addChild(extraContainer2);
+	if (extraContainer3 != undefined) nodeContainer.addChild(extraContainer3);
 
 	/*
 	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
@@ -1561,7 +1722,7 @@ function drawNode(nodeName, nodeData, groupName, branchData, nodeIndex = pixiNod
 		node.nodeName = nodeName;
 		node.nodeData = nodeData;
 		node.groupName = groupName;
-		node.branchData = branchData;
+		node.extraData = extraData;
 		node.nodeIndex = nodeIndex;
 
 		node.displayName = displayName;
@@ -1814,7 +1975,7 @@ function drawAllNodes() {
 			const paragonNode = new Map([
 				["colorOverride", 0xFFFFFF],
 				["requiredPoints", 0],
-				["widthOverride", (paragonBoardCount * paragonBoardNodes * nodeSpacingX) + (nodeSpacingX * (paragonBoardCount - 1) * 0.5)],
+				["widthOverride", paragonBoardNodes * nodeSpacingX], // (paragonBoardCount * paragonBoardNodes * nodeSpacingX) + (nodeSpacingX * (paragonBoardCount - 1) * 0.5)
 				["shapeSize", 1],
 				["shapeType", "rectangle"],
 				["x", 0],
@@ -1836,9 +1997,12 @@ function drawAllNodes() {
 
 				let [boardX, boardY] = [startX, startY];
 
+				const boardContainer = new PIXI.Container();
+
 				const paragonBoardNode = new Map([
 					["allocatedPoints", 0],
-					//["description", ""],
+					["boardContainer", boardContainer],
+					["boardIndex", unsortedIndex],
 					["widthOverride", nodeSpacingX * paragonBoardNodes],
 					["maxPoints", 0],
 					["shapeSize", 1],
@@ -1847,7 +2011,6 @@ function drawAllNodes() {
 					["y", boardY]
 				]);
 
-				drawNode(boardName, paragonBoardNode, PARAGON_BOARD);
 				for (const [yPosition, rowData] of Object.entries(boardData)) {
 					for (const [xPosition, nodeData] of Object.entries(rowData)) {
 						if (nodeData.length > 0) {
@@ -1882,13 +2045,18 @@ function drawAllNodes() {
 								["heightOverride", nodeHeight],
 								["shapeSize", 1],
 								["shapeType", "rectangle"],
-								["x", boardX + nodeSpacingX * (Number(xPosition) - ((paragonBoardNodes - 1) * 0.5))],
-								["y", boardY + nodeSpacingY * (Number(yPosition) + 0.5) + 100]
+								["x", nodeSpacingX * (Number(xPosition) - 10)],
+								["y", nodeSpacingY * (Number(yPosition) - 10)]
 							]);
 							drawNode(nodeName, boardNode, PARAGON_BOARD);
+							boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
 						}
 					}
 				}
+				boardContainer.startPosition = new PIXI.Point(boardX, boardY + nodeSpacingY * 11);
+				boardContainer.position.copyFrom(boardContainer.startPosition);
+				pixiJS.stage.addChild(boardContainer);
+				drawNode(boardName, paragonBoardNode, PARAGON_BOARD, unsortedIndex > 0 ? unsortedIndex : null);
 				sortedIndex++;
 			}
 			$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
@@ -2140,6 +2308,13 @@ function repositionTooltip() {
 	const _nodeWidth = nodeData.get("widthOverride") != undefined ? nodeData.get("widthOverride") : nodeWidth;
 	const _nodeHeight = nodeData.get("heightOverride") != undefined ? nodeData.get("heightOverride") : nodeHeight;
 
+	// paragon board nodes require some additional math to determine the correct position, as they can move and rotate
+	let [nodeX, nodeY] = [curNode.x, curNode.y];
+	if (nodeData.get("boardName") != undefined) {
+		[nodeX, nodeY] = rotateAngle(0, 0, curNode.x, curNode.y, curNode.angle);
+		[nodeX, nodeY] = [nodeX + curNode.parent.x, nodeY + curNode.parent.y];
+	}
+
 	if (clampMode) {
 		const offsetTop = $("#header").outerHeight(true);
 		const offsetBottom = $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
@@ -2158,11 +2333,11 @@ function repositionTooltip() {
 		const diffX = (globalX > maxX) ? maxX - globalX : (globalX < minX) ? minX - globalX : 0;
 		const diffY = (globalY > maxY) ? maxY - globalY : (globalY < minY) ? minY - globalY : 0;
 
-		pixiTooltip.position.x = curNode.x + diffX / pixiJS.stage.scale.x + _nodeWidth * shapeSize * circleFactor * diamondFactor * 0.5 + 20 * pixiTooltip.scale.x;
-		pixiTooltip.position.y = curNode.y + diffY / pixiJS.stage.scale.y - _nodeHeight * shapeSize * circleFactor * diamondFactor * 0.5 + 10 * pixiTooltip.scale.y;
+		pixiTooltip.position.x = nodeX + diffX / pixiJS.stage.scale.x + _nodeWidth * shapeSize * circleFactor * diamondFactor * 0.5 + 20 * pixiTooltip.scale.x;
+		pixiTooltip.position.y = nodeY + diffY / pixiJS.stage.scale.y - _nodeHeight * shapeSize * circleFactor * diamondFactor * 0.5 + 10 * pixiTooltip.scale.y;
 	} else {
-		pixiTooltip.position.x = curNode.x + _nodeWidth * shapeSize * circleFactor * diamondFactor * 0.5 + marginSize * 2 * pixiTooltip.scale.x;
-		pixiTooltip.position.y = curNode.y - _nodeHeight * shapeSize * circleFactor * diamondFactor * 0.5 + marginSize * pixiTooltip.scale.y;
+		pixiTooltip.position.x = nodeX + _nodeWidth * shapeSize * circleFactor * diamondFactor * 0.5 + marginSize * 2 * pixiTooltip.scale.x;
+		pixiTooltip.position.y = nodeY - _nodeHeight * shapeSize * circleFactor * diamondFactor * 0.5 + marginSize * pixiTooltip.scale.y;
 	}
 }
 function drawConnector(startNode, endNode) {
@@ -2380,6 +2555,9 @@ function rebuildCanvas() {
 
 	oldWidth = 0;
 	oldHeight = 0;
+
+	paragonBoardGridData = {};
+	paragonBoardRotationData = {};
 
 	drawBackground();
 	drawAllNodes();
