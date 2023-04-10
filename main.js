@@ -121,6 +121,7 @@ const SUMMARY_CLICK_FAILURE_HTML = "Build summary copy failed &mdash; do you hav
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
+const DESIRED_ZOOM_LEVEL_PROMPT = "Please enter your desired zoom level (min: 0.5, max: 2):";
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
@@ -203,7 +204,7 @@ const NODE_SQUARE_ACTIVE = PIXI.Texture.from("images/node_square_active.png");
 const NODE_SQUARE_INACTIVE = PIXI.Texture.from("images/node_square_inactive.png");
 */
 
-const pixiScalingFloor = 0.15;
+const pixiScalingFloor = devicePixelRatio < 2 ? 0.15 : 0.1;
 const pixiScalingCeiling = 2;
 
 const fontFamily = $("body").css("fontFamily");
@@ -500,7 +501,7 @@ function handleSummaryButton(event) {
 function handleZoomButton(event) {
 	if (event.type == "click") {
 		const oldZoomLevel = Number(readCookie("zoomLevel"));
-		const newZoomLevel = Number(prompt("Please enter your desired zoom level (min: 0.5, max: 2)", isNaN(oldZoomLevel) ? "1" : oldZoomLevel));
+		const newZoomLevel = Number(prompt(DESIRED_ZOOM_LEVEL_PROMPT, isNaN(oldZoomLevel) ? "1" : oldZoomLevel));
 		if (!isNaN(newZoomLevel) && newZoomLevel >= 0.5 && newZoomLevel <= 2) writeCookie("zoomLevel", newZoomLevel);
 		applyZoomLevel();
 	}
