@@ -115,6 +115,8 @@ const nodeHeight = 100;
 const tooltipWidth = 680;
 
 // evil magic variables that probably need to be replaced later to support multiple languages
+const BUILD_LOAD_ERROR_PREFIX = `An error occurred while loading this build: "`;
+const BUILD_LOAD_ERROR_SUFFIX = `"; have you tried reloading the page?`;
 const SUMMARY_HOVER_HTML = "Click to copy a full summary of this build to your clipboard.";
 const SUMMARY_CLICK_SUCCESS_HTML = "Build summary copied, check your clipboard!";
 const SUMMARY_CLICK_FAILURE_HTML = "Build summary copy failed &mdash; do you have a build loaded?";
@@ -273,7 +275,8 @@ const pixiJS = (() => {
 			"ticker": new PIXI.Ticker()
 		}
 	} catch (e) {
-		$("#classSelectBox").text(e).removeClass("disabled");
+		$("#classSelectBox").addClass("disabled");
+		$("#loadingIndicator").text(e).removeClass("disabled");
 		throw new Error(e);
 	}
 })();
@@ -2656,7 +2659,13 @@ $(document).ready(function() {
 	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove touchend contextmenu", handleCanvasEvent);
 	$(window).on("resize", resizeCanvas);
 
-	handleReloadButton();
+	try {
+		handleReloadButton();
+	} catch (e) {
+		$("#classSelectBox").addClass("disabled");
+		$("#loadingIndicator").text(`${BUILD_LOAD_ERROR_PREFIX}${e}${BUILD_LOAD_ERROR_SUFFIX}`).removeClass("disabled");
+		throw new Error(e);
+	}
 	resizeCanvas();
 	setInterval(handleIntervalEvent, 100);
 
