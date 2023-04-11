@@ -12631,7 +12631,7 @@
 				"name": "Elementalist"
 			},
 			"ParagonGlyph_004": {
-				"bonus": "Mastery Skills have [Min(0.5, 2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare())*100]% increased area.",
+				"bonus": "Mastery Skills have 20% increased area.",
 				"desc": [
 					"For every 5 Intelligence within range, Mastery Skills gain +{#}% increased damage."
 				],

@@ -7411,7 +7411,7 @@
 						5,
 						0.08,
 						"array([0.08,0.16,0.24,0.32,0.4 ,0.48,0.56,0.64,0.72,0.8 ])",
-						"Max(Max(10,14), 10)"
+						14
 					],
 					"power_name": "Barbarian_Talent_Warlord_T3_N1",
 					"skill_desc": "Your Shout Skills cause enemies to deal x{8/16/24/32/40/48/56/64/72/80}% less damage for 5 seconds.",
@@ -8212,7 +8212,7 @@
 						"2740660809": 6,
 						"2837284785": 1,
 						"3248821308": 1,
-						"3618692112": "max(0.2, 0.5, 0.5) + 6",
+						"3618692112": 6.5,
 						"3643800978": 0.2,
 						"3823724564": 0.5,
 						"4025891042": 3,
@@ -8247,7 +8247,7 @@
 						5,
 						7,
 						20,
-						"max(0.2, 0.5, 0.5) + 6",
+						6.5,
 						0.1,
 						0.1,
 						10,
@@ -8436,7 +8436,7 @@
 						"2740660809": 6,
 						"2837284785": 1,
 						"3248821308": 1,
-						"3618692112": "max(0.2, 0.5, 0.5) + 6",
+						"3618692112": 6.5,
 						"3643800978": 0.2,
 						"3823724564": 0.5,
 						"4025891042": 3,
@@ -8471,7 +8471,7 @@
 						5,
 						7,
 						20,
-						"max(0.2, 0.5, 0.5) + 6",
+						6.5,
 						0.1,
 						0.1,
 						10,
@@ -8595,7 +8595,7 @@
 						"2740660809": 6,
 						"2837284785": 1,
 						"3248821308": 1,
-						"3618692112": "max(0.2, 0.5, 0.5) + 6",
+						"3618692112": 6.5,
 						"3643800978": 0.2,
 						"3823724564": 0.5,
 						"4025891042": 3,
@@ -8630,7 +8630,7 @@
 						5,
 						7,
 						20,
-						"max(0.2, 0.5, 0.5) + 6",
+						6.5,
 						0.1,
 						0.1,
 						10,
@@ -20988,13 +20988,13 @@
 				]
 			},
 			"ParagonGlyph_004": {
-				"bonus": "Mastery skills have [Min(0.5, 2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare())*100]% increased area.",
+				"bonus": "Mastery skills have 20% increased area.",
 				"desc": [
 					"For every 10 Intelligence within range, your Mastery skills gain +{#}% increased damage."
 				],
 				"name": "Master",
 				"power_formulas": [
-					"Min(0.5, 2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare())"
+					0.2
 				]
 			},
 			"ParagonGlyph_005": {

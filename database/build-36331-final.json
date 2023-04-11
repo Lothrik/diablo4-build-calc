@@ -11396,7 +11396,7 @@
 				"name": "Elements"
 			},
 			"ParagonGlyph_004": {
-				"bonus": "Mastery skills have [Min(0.5, 2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare())*100]% increased area.",
+				"bonus": "Mastery skills have 20% increased area.",
 				"desc": [
 					"For every 10 Intelligence within range, your Mastery skills gain +{#}% increased damage."
 				],
