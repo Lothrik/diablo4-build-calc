@@ -22366,70 +22366,188 @@
 				"desc": [
 					"For every 5 Intelligence purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Non-physical damage."
 				],
-				"name": "Enchanter"
+				"name": "Enchanter",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3765702020": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3765702020": 0
+				},
+				"power_formulas": [
+					"4/3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_002": {
 				"bonus": "After spending {c_number}50{/c} Mana, you deal {c_number}[{SF_1}*100|x%|]{/c} increased damage and gain {c_number}[{SF_2}*100|%|]{/c} increased Mana Regeneration for {c_number}[SF_3]{/c} seconds.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Unleash"
+				"name": "Unleash",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3771311548": "SF_3"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3771311548": 0
+				},
+				"power_formulas": [
+					50,
+					"2/3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"2/3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					3
+				]
 			},
 			"ParagonGlyph_003": {
 				"bonus": "Dealing Fire, Cold, or Lightning Damage to an enemy increases all damage you deal to them by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds, stacking once per element.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Non-physical damage and damage reduction modifiers."
 				],
-				"name": "Elementalist"
+				"name": "Elementalist",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1425523713": "SF_1",
+					"3026516319": "SF_1",
+					"3688295831": "SF_1",
+					"3693035715": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1425523713": 0,
+					"3026516319": 0,
+					"3688295831": 0,
+					"3693035715": 0
+				},
+				"power_formulas": [
+					"(1 / 2) * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					10,
+					0.25
+				]
 			},
 			"ParagonGlyph_004": {
 				"bonus": "{c_important}Mastery{/c} Skills have {c_number}[{SF_0}*100|%|]{/c} increased area.",
 				"desc": [
 					"For every 5 Intelligence within range, {c_important}Mastery{/c} Skills gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Adept"
+				"name": "Adept",
+				"power_formulas": [
+					"Min(0.5, 2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare())"
+				]
 			},
 			"ParagonGlyph_005": {
 				"bonus": "{c_important}Conjuration{/c} Skills have {c_number}[{SF_0}*100|%|]{/c} increased duration.",
 				"desc": [
 					"For every 5 Intelligence within range, {c_important}Conjuration{/c} Skills gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Conjurer"
+				"name": "Conjurer",
+				"power_formulas": [
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_006": {
 				"bonus": "Picking up {c_important}{u}Crackling Energy{/u}{/c} grants you {c_number}[{SF_0}*100|x%|]{/c} increased damage for {c_number}{SF_1}{/c} seconds, up to {c_number}[{SF_0} * {SF_2} * 100|%x|]{/c}.",
 				"desc": [
 					"For every 5 Intelligence purchased within range, {c_important}{u}Crackling Energy{/u}{/c} deals {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Charged"
+				"name": "Charged",
+				"power_buffdurations": {
+					"592857140": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"592857140": "",
+					"844134919": 0
+				},
+				"power_formulas": [
+					"(1 / 2) * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					5,
+					3
+				]
 			},
 			"ParagonGlyph_007": {
 				"bonus": "You deal {c_number}[{SF_0} * 100|%x|]{/c} increased damage per Nearby Burning enemy, up to {c_number}[{SF_0} * {SF_1} * 100|%x|]{/c}.",
 				"desc": [
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Burning damage."
 				],
-				"name": "Torch"
+				"name": "Torch",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4149041832": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4149041832": 0
+				},
+				"power_formulas": [
+					"(1 / 4) * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					5,
+					"PowerTag.SystemsTuningGlobals.\"Script Formula 1\""
+				]
 			},
 			"ParagonGlyph_008": {
 				"bonus": "Every {c_important}Pyromancy{/c} Skill you cast or every second you channel {c_important}Incinerate{/c} increases your Fire Damage by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[{SF_2}]{/c} seconds, up to {c_number}[{SF_0} * {SF_1} * 100|x%|]{/c}.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Fire damage and damage reduction modifiers."
 				],
-				"name": "Pyromaniac"
+				"name": "Pyromaniac",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3822801482": "SF_2",
+					"4221397668": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3822801482": 0,
+					"4221397668": 0
+				},
+				"power_formulas": [
+					"1/SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					5,
+					6,
+					1
+				]
 			},
 			"ParagonGlyph_009": {
 				"bonus": "Enemies deal {c_number}[{SF_0} * 100|%|]{/c} reduced damage to you for {c_number}{SF_1}{/c} seconds after they are no longer {c_important}{u}Frozen{/u}{/c}.",
 				"desc": [
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_important}{u}Chilled{/u}{/c} targets."
 				],
-				"name": "Frostbite"
+				"name": "Frostbite",
+				"power_buffdurations": {
+					"588388526": 1,
+					"844134919": 1,
+					"3261569716": "SF_1"
+				},
+				"power_dots": {
+					"588388526": 0,
+					"844134919": 0,
+					"3261569716": 0
+				},
+				"power_formulas": [
+					"(.2 / .15) * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					5
+				]
 			},
 			"ParagonGlyph_010": {
 				"bonus": "You deal {c_number}[{SF_0} * 100 |x%|]{/c} increased damage for {c_number}{SF_1}{/c} |4second:seconds; after casting a {c_important}Defensive{/c} Skill.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Tactician"
+				"name": "Tactician",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4149041832": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4149041832": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					4
+				]
 			},
 			"ParagonGlyph_011": {
 				"bonus": "You gain {c_number}[{SF_0}*100|+%|]{/c} increased Potion Healing.",
@@ -22437,21 +22555,53 @@
 					"For every 5 Intelligence purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_important}{u}Healthy{/u}{/c}.",
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_important}{u}Healthy{/u}{/c}."
 				],
-				"name": "Guzzler"
+				"name": "Guzzler",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_012": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction while you have an active {c_important}{u}Barrier{/u}{/c}.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Protector"
+				"name": "Protector",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_013": {
 				"bonus": "You have a {c_number}30%{/c} chance when Shapeshifting to gain a {c_important}{u}Barrier{/u}{/c} that absorbs {c_number}[{SF_0} * 100|%|]{/c} of your Maximum Life {c_number}([PlayerHealthMax() * SF_0]){/c} in damage for {c_number}[{SF_3}]{/c} seconds.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Poise"
+				"name": "Poise",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3307228809": "SF_3"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3307228809": 0
+				},
+				"power_formulas": [
+					"SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					0.5,
+					0.3,
+					4
+				]
 			},
 			"ParagonGlyph_014": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction against Close enemies.",
@@ -22459,14 +22609,33 @@
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Close targets.",
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Close targets."
 				],
-				"name": "Territorial"
+				"name": "Territorial",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_015": {
 				"bonus": "You deal {c_number}[{SF_0}*100|%x|]{/c} increased direct damage to Burning enemies.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Burning targets."
 				],
-				"name": "Flamefeeder"
+				"name": "Flamefeeder",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					1
+				]
 			},
 			"ParagonGlyph_016": {
 				"bonus": "When an enemy is damaged by you, they become {c_important}{u}Vulnerable{/u}{/c} for {c_number}[{SF_0}]{/c} seconds. This cannot happen more than once every {c_number}{SF_1}{/c} seconds per enemy.",
@@ -22474,28 +22643,80 @@
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_important}{u}Vulnerable{/u}{/c} targets.",
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_important}{u}Vulnerable{/u}{/c} targets."
 				],
-				"name": "Exploit"
+				"name": "Exploit",
+				"power_buffdurations": {
+					"117712": "SF_1",
+					"844134919": 1
+				},
+				"power_dots": {
+					"117712": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"3 * 10 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					20
+				],
+				"power_payloads": {
+					"3437839728": 0
+				}
 			},
 			"ParagonGlyph_017": {
 				"bonus": "Whenever you {c_important}{u}Chill{/u}{/c} an enemy, you deal {c_number}[{SF_0}*100|%x|]{/c} increased Cold Damage for {c_number}[{SF_2}]{/c} seconds, up to {c_number}[{SF_0}*{SF_3}*100|%x|]{/c}.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Cold damage and damage reduction modifiers."
 				],
-				"name": "Winter"
+				"name": "Winter",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4015152425": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4015152425": 0
+				},
+				"power_formulas": [
+					"(SF_1/SF_3) * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					1.5,
+					10,
+					5
+				]
 			},
 			"ParagonGlyph_018": {
 				"bonus": "Your Lightning damage has a {c_number}[{SF_0} * 100|%+|]{/c} increased chance to Critically Strike enemies who are {c_important}Stunned{/c}, {c_important}Immobilized{/c}, or {c_important}{u}Frozen{/u}{/c}.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Lightning damage and damage reduction modifiers."
 				],
-				"name": "Electrocute"
+				"name": "Electrocute",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					0.5
+				]
 			},
 			"ParagonGlyph_019": {
 				"bonus": "Critical Strikes increase all damage the enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}{SF_2}{/c} seconds, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, {c_important}Core{/c} Skills deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Critical Strike Damage."
 				],
-				"name": "Destruction"
+				"name": "Destruction",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3051969021": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3051969021": 0
+				},
+				"power_formulas": [
+					"(1/SF_1) * 1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					6,
+					10
+				]
 			},
 			"ParagonGlyph_020": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Slowed or {c_important}{u}Chilled{/u}{/c} enemies or, instead, {c_number}[{SF_1}*100|x%|]{/c} increased damage to Stunned or {c_important}{u}Frozen{/u}{/c} enemies.",
@@ -22503,104 +22724,268 @@
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Crowd Controlled targets.",
 					"For every 5 Intelligence purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Crowd Controlled targets."
 				],
-				"name": "Control"
+				"name": "Control",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_020_Necro": {
-				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Slowed or {c_important}{u}Chilled{/u}{/c} enemies or, instead, {c_number}[{SF_1}*100|x%|]{/c} increased damage to Stunned or {c_important}{u}Frozen{/u}{/c} enemies."
+				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Slowed or {c_important}{u}Chilled{/u}{/c} enemies or, instead, {c_number}[{SF_1}*100|x%|]{/c} increased damage to Stunned or {c_important}{u}Frozen{/u}{/c} enemies.",
+				"desc": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Slowed or {c_important}{u}Chilled{/u}{/c} enemies or, instead, {c_number}[{SF_1}*100|x%|]{/c} increased damage to Stunned or {c_important}{u}Frozen{/u}{/c} enemies.",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_021": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage while wielding One-Handed weapons.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Ambidextrous"
+				"name": "Ambidextrous",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_022": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage while wielding Two-Handed weapons.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Might"
+				"name": "Might",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_023": {
 				"bonus": "While wielding an Axe, you deal {c_number}[{SF_0}*100|x%|]{/c} increased Critical Strike Damage.",
 				"desc": [
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while wielding an Axe."
 				],
-				"name": "Cleaver"
+				"name": "Cleaver",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.5 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_024": {
 				"bonus": "While wielding a Sword, you gain {c_number}[SF_0]{/c} Fury when you kill an enemy.",
 				"desc": [
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while wielding a Sword."
 				],
-				"name": "Seething"
+				"name": "Seething",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"3 * 10 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_025": {
 				"bonus": "While wielding a Mace, you deal {c_number}[{SF_0}*100|x%|]{/c} increased {c_important}{u}Overpower{/u}{/c} damage.",
 				"desc": [
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while wielding a Mace."
 				],
-				"name": "Crusher"
+				"name": "Crusher",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_026": {
 				"bonus": "While wielding a Polearm, you deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to {c_important}{u}Healthy{/u}{/c} or {c_important}{u}Injured{/u}{/c} enemies.",
 				"desc": [
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while wielding a Polearm."
 				],
-				"name": "Executioner"
+				"name": "Executioner",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"4/3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_027": {
 				"bonus": "While {c_important}{u}Berserking{/u}{/c}, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage from Elites.",
 				"desc": [
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_important}{u}Berserking{/u}{/c}."
 				],
-				"name": "Ire"
+				"name": "Ire",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"4/3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_028": {
 				"bonus": "After casting a {c_important}Shout{/c} Skill, the active Cooldown of every other {c_important}Shout{/c} Skill is reduced by {c_number}[SF_0|1|]{/c} seconds.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Marshal"
+				"name": "Marshal",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.5 * 10 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_029": {
 				"bonus": "You have {c_number}[{SF_0}*100|%|]{/c} increased Critical Strike Chance against Bleeding enemies.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Bleeding targets."
 				],
-				"name": "Bloodfeeder"
+				"name": "Bloodfeeder",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"0.5 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_030": {
 				"bonus": "Skills that Critically Strike generate {c_number}[{SF_0}]{/c} Fury.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, {c_important}Core{/c} Skills deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Critical Strike Damage."
 				],
-				"name": "Wrath"
+				"name": "Wrath",
+				"power_buffdurations": {
+					"759584518": 5,
+					"844134919": 1
+				},
+				"power_dots": {
+					"759584518": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"3 * 10 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_031": {
 				"bonus": "Hitting with a {c_important}Weapon Mastery{/c} Skill reduces the active Cooldown of another random {c_important}Weapon Mastery{/c} Skill by {c_number}[{SF_0}]{/c} seconds.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Physical damage and damage reduction modifiers."
 				],
-				"name": "Weapon Master"
+				"name": "Weapon Master",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2555989747": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2555989747": 0
+				},
+				"power_formulas": [
+					"2 * 10 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_032": {
 				"bonus": "Swapping weapons has a {c_number}[{SF_0}*100|%|]{/c} chance to cause the Skill's damage to Critically Strike.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, Skills that Swap to a different weapon deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Mortal Draw"
+				"name": "Mortal Draw",
+				"power_buffdurations": {
+					"420048253": 1,
+					"480936088": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"420048253": 0,
+					"480936088": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_033": {
 				"bonus": "Thorns damage increases all damage an enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Revenge"
+				"name": "Revenge",
+				"power_buffdurations": {
+					"414336114": "SF_2",
+					"844134919": 1
+				},
+				"power_dots": {
+					"414336114": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1/SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"100 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					10
+				]
 			},
 			"ParagonGlyph_033_Necro": {
-				"bonus": "Thorns damage increases all damage an enemy takes from you and your Minions by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds."
+				"bonus": "Thorns damage increases all damage an enemy takes from you and your Minions by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
+				"desc": "Thorns damage increases all damage an enemy takes from you and your Minions by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
+				"power_buffdurations": {
+					"414336114": "SF_2",
+					"844134919": 1
+				},
+				"power_dots": {
+					"414336114": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1/SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"100 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					10
+				]
 			},
 			"ParagonGlyph_034": {
 				"bonus": "You gain up to {c_number}[{SF_0}*100|%|]{/c} Damage Reduction the more {c_important}{u}Fortify{/u}{/c} you have.",
@@ -22608,7 +22993,16 @@
 					"For every 5 Intelligence purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_important}{u}Fortified{/u}{/c}.",
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while {c_important}{u}Fortified{/u}{/c}."
 				],
-				"name": "Undaunted"
+				"name": "Undaunted",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_035": {
 				"bonus": "When you {c_important}{u}Overpower{/u}{/c} an enemy, all damage they take from you is increased by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds.",
@@ -22616,76 +23010,195 @@
 					"For every 5 Intelligence purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased {c_important}{u}Overpower{/u}{/c} damage.",
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased {c_important}{u}Overpower{/u}{/c} damage."
 				],
-				"name": "Dominate"
+				"name": "Dominate",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2953237752": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2953237752": 0
+				},
+				"power_formulas": [
+					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					5
+				]
 			},
 			"ParagonGlyph_035_Barb": {
-				"bonus": "After not {c_important}{u}Overpowering{/u}{/c} for {c_number}{SF_0}{/c} seconds, your next attack will {c_important}{u}Overpower{/u}{/c}."
+				"bonus": "After not {c_important}{u}Overpowering{/u}{/c} for {c_number}{SF_0}{/c} seconds, your next attack will {c_important}{u}Overpower{/u}{/c}.",
+				"desc": "After not {c_important}{u}Overpowering{/u}{/c} for {c_number}{SF_0}{/c} seconds, your next attack will {c_important}{u}Overpower{/u}{/c}.",
+				"power_buffdurations": {
+					"3669512541": "SF_1",
+					"3672041225": "SF_0"
+				},
+				"power_dots": {
+					"3669512541": 0,
+					"3672041225": 0
+				},
+				"power_formulas": [
+					30
+				]
 			},
 			"ParagonGlyph_035_Necro": {
-				"bonus": "When you {c_important}{u}Overpower{/u}{/c} an enemy, all damage they take from you and your Minions is increased by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds."
+				"bonus": "When you {c_important}{u}Overpower{/u}{/c} an enemy, all damage they take from you and your Minions is increased by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds.",
+				"desc": "When you {c_important}{u}Overpower{/u}{/c} an enemy, all damage they take from you and your Minions is increased by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_1]{/c} seconds.",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2953237752": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2953237752": 0
+				},
+				"power_formulas": [
+					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					5
+				]
 			},
 			"ParagonGlyph_036": {
 				"bonus": "Killing a Bleeding enemy has a  {c_number}[{SF_0}*100|%|]{/c} chance to reduce the Cooldowns of your Non-{c_important}Ultimate{/c} active Cooldowns by {c_number}{SF_1}{/c} second.",
 				"desc": [
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Bleeding damage."
 				],
-				"name": "Disembowel"
+				"name": "Disembowel",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					1
+				]
 			},
 			"ParagonGlyph_037": {
 				"bonus": "{c_important}Brawling{/c} Skills deal {c_number}[{SF_0}*100|x%|]{/c} increased damage.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Physical damage and damage reduction modifiers."
 				],
-				"name": "Brawl"
+				"name": "Brawl",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_038": {
 				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased Physical damage.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Physical damage and damage reduction modifiers."
 				],
-				"name": "Corporeal"
+				"name": "Corporeal",
+				"power_buffdurations": {
+					"844134919": 1,
+					"997885578": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"997885578": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_039": {
 				"bonus": "While in Werewolf or Werebear form, Close enemies take {c_number}[{SF_0}*100|x%|]{/c} increased damage from you.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Fang and Claw"
+				"name": "Fang and Claw",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3688295831": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3688295831": 0
+				},
+				"power_formulas": [
+					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					4,
+					0.25
+				]
 			},
 			"ParagonGlyph_040": {
 				"bonus": "{c_important}Nature Magic{/c} Skills deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to Crowd Controlled or {c_important}{u}Vulnerable{/u}{/c} enemies.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Earth and Sky"
+				"name": "Earth and Sky",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_041": {
 				"bonus": "The Passive portion of {c_important}Companion{/c} Skills deal {c_number}[{SF_0}*100|x%|]{/c} increased damage.",
 				"desc": [
 					"For every 5 Intelligence within range, {c_important}Companion{/c} Skills deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Wilds"
+				"name": "Wilds",
+				"power_formulas": [
+					"8 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_042": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction while in Werebear form.",
 				"desc": [
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while in Werebear form."
 				],
-				"name": "Werebear"
+				"name": "Werebear",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_043": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction while in Werewolf form.",
 				"desc": [
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while in Werewolf form."
 				],
-				"name": "Werewolf"
+				"name": "Werewolf",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_044": {
 				"bonus": "You gain {c_number}[{SF_0}*100|%|]{/c} Damage Reduction while in Human form.",
 				"desc": [
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage while in Human form."
 				],
-				"name": "Human"
+				"name": "Human",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_045": {
 				"bonus": "Poisoning damage effects have a {c_number}[{SF_0}*100|%|]{/c} chance to deal double the amount of damage over their duration.",
@@ -22693,7 +23206,16 @@
 					"For every 5 Intelligence purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Poison damage.",
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Poison damage."
 				],
-				"name": "Bane"
+				"name": "Bane",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_046": {
 				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|x%|]{/c} increased Non-Physical damage.",
@@ -22701,17 +23223,49 @@
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Non-physical damage and damage reduction modifiers.",
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Abyssal"
+				"name": "Abyssal",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3719035637": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3719035637": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_046_Druid": {
-				"bonus": "You and your Companions deal {c_number}[{SF_0}*100|x%|]{/c} increased Non-Physical damage."
+				"bonus": "You and your Companions deal {c_number}[{SF_0}*100|x%|]{/c} increased Non-Physical damage.",
+				"desc": "You and your Companions deal {c_number}[{SF_0}*100|x%|]{/c} increased Non-Physical damage.",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3719035637": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3719035637": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_047": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased Lightning damage to both {c_important}{u}Healthy{/u}{/c} and {c_important}{u}Injured{/u}{/c} enemies.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Lightning damage."
 				],
-				"name": "Fulminate"
+				"name": "Fulminate",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_048": {
 				"bonus": "Poisoning damage effects last {c_number}[{SF_0}*100|%x|]{/c} longer.",
@@ -22719,224 +23273,563 @@
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Poisoned targets.",
 					"For every 5 Intelligence purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to Poisoned targets."
 				],
-				"name": "Tracker"
+				"name": "Tracker",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"10/3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_049": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased Physical damage to Non-Elites and Bosses.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Outmatch"
+				"name": "Outmatch",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.6 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_050": {
 				"bonus": "Critical Strikes increase the damage an enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c} for {c_number}[SF_2]{/c} seconds, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, {c_important}Core{/c} Skills deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Critical Strike Damage."
 				],
-				"name": "Spirit"
+				"name": "Spirit",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4048360449": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4048360449": 0
+				},
+				"power_formulas": [
+					"1/SF_1 * 1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"1.2 / 2 * 100 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					20
+				]
 			},
 			"ParagonGlyph_051": {
 				"bonus": "Shapeshifting has a {c_number}[{SF_0}*100|%|]{/c} chance to cause the Skill's damage to Critically Strike.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Shapeshifter"
+				"name": "Shapeshifter",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3016347731": 1,
+					"3691912054": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3016347731": 0,
+					"3691912054": 0
+				},
+				"power_formulas": [
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_052": {
 				"bonus": "Non-{c_important}Basic{/c} and Non-{c_important}Core{/c} Skills deal {c_number}[{SF_0}*100|x%|]{/c} increased damage.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Versatility"
+				"name": "Versatility",
+				"power_buffdurations": {
+					"844134919": 1,
+					"2555432458": 1,
+					"3572367194": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"2555432458": 0,
+					"3572367194": 0
+				},
+				"power_formulas": [
+					"1.5 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_053": {
 				"bonus": "While wielding a Melee weapon, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, {c_important}Cutthroat{/c} Skills deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Closer"
+				"name": "Closer",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_054": {
 				"bonus": "While wielding a Ranged weapon, you take {c_number}[{SF_0}*100|%|]{/c} reduced damage.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, {c_important}Marksman{/c} Skills deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Ranger"
+				"name": "Ranger",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_055": {
 				"bonus": "Physical damage increases the damage an enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Physical damage."
 				],
-				"name": "Chip"
+				"name": "Chip",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3205062973": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3205062973": 0
+				},
+				"power_formulas": [
+					"1/SF_1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"1 * 100 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					15
+				]
 			},
 			"ParagonGlyph_056": {
 				"bonus": "You gain {c_number}[{SF_0}*100|x%|]{/c} increased {c_important}{u}Chill{/u}{/c} effect.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_important}{u}Chilled{/u}{/c} targets."
 				],
-				"name": "Frostfeeder"
+				"name": "Frostfeeder",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_057": {
 				"bonus": "When you cast an {c_important}Agility{/c} Skill, you gain {c_number}[{SF_0}*100|x%|]{/c} increased Energy Regeneration for {c_number}[{SF_1}]{/c} seconds.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Fluidity"
+				"name": "Fluidity",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1813302906": "SF_1"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1813302906": 0
+				},
+				"power_formulas": [
+					"0.9 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					6
+				]
 			},
 			"ParagonGlyph_058": {
 				"bonus": "Casting an {c_important}Imbuement{/c} Skill reduces the active Cooldown of another random {c_important}Imbuement{/c} Skill by {c_number}[{SF_0}|1|]{/c} seconds.",
 				"desc": [
 					"For every 5 Intelligence purchased within range, Skills that are {c_important}Imbued{/c} deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Infusion"
+				"name": "Infusion",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"0.5 * 10 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_059": {
 				"bonus": "When you hit an enemy with a Crowd Controlling effect, they take {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, increased damage from you for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Devious"
+				"name": "Devious",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3367289333": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3367289333": 0
+				},
+				"power_formulas": [
+					"2/10 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"1/2 * 100 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					20
+				]
 			},
 			"ParagonGlyph_060": {
 				"bonus": "{c_important}Skeletal Warriors{/c} gain {c_number}[{SF_0}*100|+%|]{/c} increased Armor.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, {c_important}Skeletal Warriors{/c} deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Warrior"
+				"name": "Warrior",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_061": {
 				"bonus": "Skills that Critically Strike restore {c_number}[{SF_0}*100|%|]{/c} of their Energy cost.",
 				"desc": [
 					"For every 5 Intelligence purchased within range, {c_important}Core{/c} Skills deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Critical Strike Damage."
 				],
-				"name": "Combat"
+				"name": "Combat",
+				"power_buffdurations": {
+					"481860047": 1,
+					"844134919": 1
+				},
+				"power_dots": {
+					"481860047": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_062": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for every Close Corpse.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Gravekeeper"
+				"name": "Gravekeeper",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3918042290": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3918042290": 0
+				},
+				"power_formulas": [
+					"1/SF_1 * 1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					6,
+					4,
+					0.5
+				]
 			},
 			"ParagonGlyph_063": {
 				"bonus": "Non-Physical damage increases all the Non-Physical damage an enemy takes from you by {c_number}[{SF_0}*100|x%|]{/c}, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
 					"For every 5 Intelligence purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Non-physical damage."
 				],
-				"name": "Canny"
+				"name": "Canny",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3719035637": "SF_2"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3719035637": 0
+				},
+				"power_formulas": [
+					"1/10 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"1 * 100 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					15
+				]
 			},
 			"ParagonGlyph_064": {
 				"bonus": "{c_important}Imbuement{/c} Skill effects have {c_number}[{SF_0}*100|x%|]{/c} increased potency.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Efficacy"
+				"name": "Efficacy",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_065": {
 				"bonus": "Non-{c_important}Ultimate{/c} {c_important}Trap{/c} Skills have {c_number}[{SF_0}*100|x%|]{/c} increased area.",
 				"desc": [
 					"For every 5 Intelligence purchased within range, {c_important}Trap{/c} Skills deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Snare"
+				"name": "Snare",
+				"power_formulas": [
+					"2.5 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_066": {
 				"bonus": "Critical Strikes deal {c_number}[{SF_0}*100|x%|]{/c} increased damage to enemies that are not {c_important}{u}Healthy{/u}{/c}.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, {c_important}Core{/c} Skills deal {c_number}[{GlyphAffixScalar}|1+%|]{/c} increased Critical Strike Damage."
 				],
-				"name": "Essence"
+				"name": "Essence",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_067": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased Physical damage to both {c_important}{u}Healthy{/u}{/c} and {c_important}{u}Injured{/u}{/c} enemies.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Physical damage and damage reduction modifiers."
 				],
-				"name": "Pride"
+				"name": "Pride",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1.3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_068": {
 				"bonus": "Enemies affected by {c_important}Trap{/c} Skills take {c_number}[{SF_0}*100|x%|]{/c} increased damage from you.",
 				"desc": [
 					"For every 5 Strength purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to targets affected by {c_important}Trap{/c} Skills."
 				],
-				"name": "Ambush"
+				"name": "Ambush",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_069": {
 				"bonus": "You deal {c_number}[{SF_0}*100|x%|]{/c} increased damage while you have no active Minions.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Sacrificial"
+				"name": "Sacrificial",
+				"power_buffdurations": {
+					"844134919": 1,
+					"1552284351": 1
+				},
+				"power_dots": {
+					"844134919": 0,
+					"1552284351": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_070": {
 				"bonus": "{c_important}{u}Blood Orbs{/u}{/c} {c_important}{u}Fortify{/u}{/c} you for {c_number}[{SF_0}*100|%|]{/c} of your Maximum Life {c_number}([{SF_0} * PlayerHealthMax()]){/c}.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Blood-drinker"
+				"name": "Blood-drinker",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2/3 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				],
+				"power_payloads": {
+					"3069256803": 0
+				}
 			},
 			"ParagonGlyph_071": {
 				"bonus": "Whenever your Minions deal damage to an enemy, that enemy takes {c_number}[{SF_0}*100|x%|]{/c} increased damage from you and your Minions, up to {c_number}[{SF_0}*{SF_1}*100|x%|]{/c}, for {c_number}[SF_2]{/c} seconds.",
 				"desc": [
 					"Paragon nodes within range gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to their Minion damage and damage reduction modifiers."
 				],
-				"name": "Deadraiser"
+				"name": "Deadraiser",
+				"power_buffdurations": {
+					"4863854": "SF_2",
+					"844134919": 1
+				},
+				"power_dots": {
+					"4863854": 0,
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1/SF_1 * 1.2 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"1.2 * 100 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					10
+				]
 			},
 			"ParagonGlyph_072": {
 				"bonus": "Skeletal Mages gain {c_number}[{SF_0}*100|%|]{/c} increased Resistance to All Elements.",
 				"desc": [
 					"For every 5 Intelligence purchased within range, {c_important}Skeleton Mages{/c} deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Mage"
+				"name": "Mage",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2.5 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_073": {
 				"bonus": "Enemies affected by {c_important}Curse{/c} Skills take {c_number}[{SF_0}*100|x%|]{/c} increased damage from you and your Minions.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Magic nodes within range."
 				],
-				"name": "Amplify"
+				"name": "Amplify",
+				"power_buffdurations": {
+					"398714675": 1
+				},
+				"power_dots": {
+					"398714675": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_074": {
 				"bonus": "Golems gain {c_number}[{SF_0}*100|x%|]{/c} increased Maximum Life.",
 				"desc": [
 					"For every 5 Willpower purchased within range, {c_important}Golems{/c} gain {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage."
 				],
-				"name": "Golem"
+				"name": "Golem",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"2.5 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_075": {
 				"bonus": "You and your Minions deal {c_number}[{SF_0}*100|%x|]{/c} increased damage to enemies affected by Shadow damage over time effects.",
 				"desc": [
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Shadow damage over time."
 				],
-				"name": "Scourge"
+				"name": "Scourge",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_076": {
 				"bonus": "You take {c_number}[{SF_0}*100|%|]{/c} reduced Physical damage from {c_important}{u}Vulnerable{/u}{/c} enemies.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Diminish"
+				"name": "Diminish",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"1 * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()"
+				]
 			},
 			"ParagonGlyph_077": {
 				"bonus": "You take reduced damage the less Mana you have, up to {c_number}[{SF_0} * 100|%|]{/c}.",
 				"desc": [
 					"Grants {c_number}+[{GlyphAffixScalar}|1%|]{/c} bonus to all Rare nodes within range."
 				],
-				"name": "Warding"
+				"name": "Warding",
+				"power_buffdurations": {
+					"844134919": 1
+				},
+				"power_dots": {
+					"844134919": 0
+				},
+				"power_formulas": [
+					"(.2 / .15) * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					"SF_0 * (1 - SF_4)",
+					"Resource_Cur#Mana",
+					"Resource_Max#Mana",
+					"SF_2 / SF_3"
+				]
 			},
 			"ParagonGlyph_078": {
 				"bonus": "Whenever you or your Minions deal Shadow damage to an enemy, that enemy deals {c_number}[{SF_0}*100|%|]{/c} reduced damage, up to {c_number}[{SF_0}*{SF_2}*100|%|]{/c}, for {c_number}[{SF_3}]{/c} seconds.",
 				"desc": [
 					"For every 5 Willpower purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased Shadow damage."
 				],
-				"name": "Darkness"
+				"name": "Darkness",
+				"power_buffdurations": {
+					"844134919": 1,
+					"4276614347": "SF_3"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"4276614347": 0
+				},
+				"power_formulas": [
+					"(SF_1/SF_2) * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					1,
+					5,
+					5
+				]
 			},
 			"ParagonGlyph_079": {
 				"bonus": "Dealing damage to a {c_important}{u}Vulnerable{/u}{/c} enemy increases your damage by {c_number}[{SF_0}*100|%x|]{/c} for {c_number}{SF_3}{/c} seconds, up to {c_number}[{SF_0}*{SF_2}*100|%x|]{/c}.",
 				"desc": [
 					"For every 5 Dexterity purchased within range, you deal {c_number}+[{GlyphAffixScalar}|1%|]{/c} increased damage to {c_important}{u}Vulnerable{/u}{/c} targets."
 				],
-				"name": "Exploit"
+				"name": "Exploit",
+				"power_buffdurations": {
+					"844134919": 1,
+					"3570702661": "SF_3"
+				},
+				"power_dots": {
+					"844134919": 0,
+					"3570702661": 0
+				},
+				"power_formulas": [
+					"(SF_1/SF_2) * ParagonPowerBudgetMultiplierGlyphThresholdBonusRare()",
+					1,
+					10,
+					6
+				]
 			}
 		},
 		"Paragon (Node)": {
