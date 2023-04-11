@@ -852,14 +852,14 @@ Tags: Companion, Damage.`,
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#} Poisoning damage over {#} seconds to an enemy in the area.
+Passive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#} Poisoning damage over 6 seconds to an enemy in the area.
 
 Active: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.
 
 Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 67,
 		maxPoints: 5,
-		values: [ "20", "40", "7", "36", "6", "2", "30", "2" ],
+		values: [ "20", "40", "7", "36", "2", "30", "2" ],
 		x: -535.155,
 		y: -0.594
 	},
@@ -900,14 +900,14 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		connections: [ "Companion", "Enhanced Wolf Pack" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: Summon {#} wolf companions that bite enemies for {#}% damage.
+Passive: Summon 2 wolf companions that bite enemies for {#}% damage.
 
 Active: Direct your wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.
 
 Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 71,
 		maxPoints: 5,
-		values: [ "14", "50", "2", "8" ],
+		values: [ "14", "50", "8" ],
 		x: 7.69,
 		y: -289.968
 	},
@@ -1021,15 +1021,14 @@ Tags: Damage, Storm, Nature Magic.`,
 	},
 	"Boulder": {
 		connections: [ "Wrath", "Enhanced Boulder" ],
-		description: `Spirit Cost: {#}
-Cooldown: {#} seconds
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Unearth a large rolling boulder that Knocks Back and crushes enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.
 
 Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		id: 85,
 		maxPoints: 5,
-		values: [ "", "10", "20" ],
+		values: [ "10", "20" ],
 		x: 528.095,
 		y: -212.19
 	},

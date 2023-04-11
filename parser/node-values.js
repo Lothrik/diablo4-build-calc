@@ -84,11 +84,9 @@ let nodeValues = {
 			],
 			"Death Blow": [
 				"15",
-				"15",
 				"50"
 			],
 			"Rupture": [
-				"10",
 				"10",
 				"50"
 			]
@@ -179,7 +177,6 @@ let nodeValues = {
 				"40",
 				"7",
 				"36",
-				"6",
 				"2",
 				"30",
 				"2"
@@ -187,13 +184,11 @@ let nodeValues = {
 			"Wolves": [
 				"14",
 				"50",
-				"2",
 				"8"
 			]
 		},
 		"Wrath": {
 			"Boulder": [
-				"",
 				"10",
 				"20"
 			],
@@ -278,7 +273,6 @@ let nodeValues = {
 		},
 		"Macabre": {
 			"Corpse Explosion": [
-				"",
 				"40"
 			],
 			"Bone Prison": [
@@ -366,7 +360,6 @@ let nodeValues = {
 		},
 		"Agility": {
 			"Shadow Step": [
-				"9",
 				"9",
 				"100"
 			],
@@ -460,8 +453,7 @@ let nodeValues = {
 		"Core": {
 			"Charged Bolts": [
 				"40",
-				"25",
-				"5"
+				"25"
 			],
 			"Frozen Orb": [
 				"40",
@@ -505,7 +497,6 @@ let nodeValues = {
 				"50"
 			],
 			"Frost Nova": [
-				"15",
 				"15"
 			],
 			"Ice Armor": [
@@ -533,8 +524,7 @@ let nodeValues = {
 			"Hydra": [
 				"20",
 				"77",
-				"3",
-				"1"
+				"8"
 			],
 			"Ice Blades": [
 				"12",

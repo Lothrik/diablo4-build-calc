@@ -567,16 +567,14 @@ Tags: Critical Strikes, Movement.`,
 rogueData["Agility"] = {
 	"Shadow Step": {
 		connections: [ "Enhanced Shadow Step", "Agility" ],
-		description: `Charges: 2
-Charge Cooldown: {#} seconds
-Cooldown: {#} seconds
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Become Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50% increased Movement Speed for 2 seconds afterwards.
 
 Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Movement.`,
 		id: 43,
 		maxPoints: 5,
-		values: [ "9", "9", "100" ],
+		values: [ "9", "100" ],
 		x: 5.42,
 		y: -278.485
 	},

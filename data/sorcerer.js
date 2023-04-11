@@ -247,7 +247,7 @@ sorcererData["Core"] = {
 		connections: [ "Core", "Enhanced Charged Bolts" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Release {#} bolts of lightning that course along the ground in an erratic pattern, dealing {17.5/19.2/21/22.7/24.5/26.2/28/29.8/31.5/33.2}% damage each.
+Release 5 bolts of lightning that course along the ground in an erratic pattern, dealing {17.5/19.2/21/22.7/24.5/26.2/28/29.8/31.5/33.2}% damage each.
 
 Tags: Core, Shock, Damage, Lightning, Mana.
 
@@ -255,7 +255,7 @@ Tags: Core, Shock, Damage, Lightning, Mana.
 When you Stun an enemy, there's a {#}% chance to release 3 Charged Bolts from them.`,
 		id: 16,
 		maxPoints: 5,
-		values: [ "40", "25", "5" ],
+		values: [ "40", "25" ],
 		extraValues: [ "40" ],
 		x: 133.995,
 		y: 322.79
@@ -630,8 +630,6 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 	"Frost Nova": {
 		connections: [ "Defensive", "Enhanced Frost Nova" ],
 		description: `Cooldown: {#} seconds
-Charges: 2
-Charge Cooldown: {#} seconds
 Unleash a torrent of frost, Freezing enemies around you for 2 seconds.
 
 Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.
@@ -640,7 +638,7 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.
 Lucky Hit: Your Conjuration Skills have a {#}% chance to unleash a Frost Nova when hitting enemies.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "15", "15" ],
+		values: [ "15" ],
 		extraValues: [ "30" ],
 		x: 7.87,
 		y: 296.675
@@ -806,7 +804,7 @@ sorcererData["Conjuration"] = {
 Lucky Hit Chance: {#}%
 Summon a 3-headed hydra for {#} seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.
 
-Maximum {#} active Hydras at a time.
+Maximum 1 active Hydras at a time.
 
 Tags: Conjuration, Pyromancy, Damage, Fire, Mana.
 
@@ -814,7 +812,7 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.
 After spending {#} Mana, a 5-headed Hydra spawns for 5 seconds.`,
 		id: 61,
 		maxPoints: 5,
-		values: [ "20", "77", "3", "1" ],
+		values: [ "20", "77", "8" ],
 		extraValues: [ "300" ],
 		x: 6.92,
 		y: -281.666

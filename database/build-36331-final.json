@@ -2,7 +2,7 @@
 	"Barbarian": {
 		"Arsenal": {
 			"Barbarian_WeaponExpertise_1HAxe": {
-				"desc": "+[0.005 * Weapon_Expertise_Level#Axe * 100 ]% increased Critical Strike Chance against Injured enemies. Double this amount when using two Axes.\n\nLucky Hit: Critical Strikes have up to a 55% chance to grant +6% increased Attack Speed for 2 seconds. Double the Attack Speed bonus when using two Axes.",
+				"desc": "+[0.005 * Weapon_Expertise_Level#Axe * 100 ]% increased Critical Strike Chance against Injured enemies. Double this amount when using two Axes.",
 				"name": "One-Handed Axe Expertise",
 				"rankup_desc": "Critical Strike Chance against Injured enemies increased to +[0.005 * (1 + Weapon_Expertise_Level#Axe) * 100 ]%."
 			},
@@ -14,7 +14,7 @@
 				"name": "1-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_1HMace": {
-				"desc": "x[0.01 *  Weapon_Expertise_Level#Mace * 100]% increased damage to Stunned enemies. Double this amount when using two Maces.\n\nLucky Hit: Up to a 10% chance to gain Berserking for 1.5 seconds when you hit a Stunned enemy. Double this chance when using two Maces.",
+				"desc": "x[0.01 *  Weapon_Expertise_Level#Mace * 100]% increased damage to Stunned enemies. Double this amount when using two Maces.",
 				"name": "One-Handed Mace Expertise",
 				"rankup_desc": "Damage to Stunned increased to x[0.01 *  (1 + Weapon_Expertise_Level#Mace) * 100]%."
 			},
@@ -26,7 +26,7 @@
 				"name": "1-Handed Mace"
 			},
 			"Barbarian_WeaponExpertise_1HSword": {
-				"desc": "Lucky Hit: Up to a [1 * Weapon_Expertise_Level#Sword]% chance to gain 5 Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.\n\nKilling a Crowd Controlled enemy grants +15% increased Attack Speed for 3 seconds. Double this amount when using two Swords.",
+				"desc": "Lucky Hit: Up to a [1 * Weapon_Expertise_Level#Sword]% chance to gain 5 Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.",
 				"name": "One-Handed Sword Expertise",
 				"rankup_desc": "Chance to activate Lucky Hit increased to [1 * (1 + Weapon_Expertise_Level#Sword)]%."
 			},
@@ -38,7 +38,7 @@
 				"name": "1-Handed Sword"
 			},
 			"Barbarian_WeaponExpertise_2HAxe": {
-				"desc": "x[0.015 * Weapon_Expertise_Level#Axe2H * 100]% increased damage to Vulnerable enemies.\n\n+10% increased Critical Strike Chance against Vulnerable enemies.",
+				"desc": "x[0.015 * Weapon_Expertise_Level#Axe2H * 100]% increased damage to Vulnerable enemies.",
 				"name": "Two-Handed Axe Expertise",
 				"rankup_desc": "Damage to Vulnerable enemies increased to x[0.015 * (1 + Weapon_Expertise_Level#Axe2H) * 100]%."
 			},
@@ -50,7 +50,7 @@
 				"name": "2-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_2HMace": {
-				"desc": "Lucky Hit: Up to [1 * Weapon_Expertise_Level#Mace2H]% chance to gain 2 Fury when hitting an enemy. Double the amount of Fury gained while Berserking.\n\nYou deal x15% increased Critical Strike Damage to Stunned and Vulnerable enemies while Berserking.",
+				"desc": "Lucky Hit: Up to [1 * Weapon_Expertise_Level#Mace2H]% chance to gain 2 Fury when hitting an enemy. Double the amount of Fury gained while Berserking.",
 				"name": "Two-Handed Mace Expertise",
 				"rankup_desc": "Chance to activate Lucky Hit increased to [1 * (1 + Weapon_Expertise_Level#Mace2H)]%."
 			},
@@ -62,7 +62,7 @@
 				"name": "2-Handed Mace"
 			},
 			"Barbarian_WeaponExpertise_2HPolearm": {
-				"desc": "x[0.01 * Weapon_Expertise_Level#Polearm * 100]% increased Lucky Hit Chance.\n\nYou deal x10% increased damage while Healthy.",
+				"desc": "x[0.01 * Weapon_Expertise_Level#Polearm * 100]% increased Lucky Hit Chance.",
 				"name": "Polearm Expertise",
 				"rankup_desc": "Bonus Lucky Hit Chance increased to x[0.01 * (1 + Weapon_Expertise_Level#Polearm) * 100]%."
 			},
@@ -74,7 +74,7 @@
 				"name": "Polearm"
 			},
 			"Barbarian_WeaponExpertise_2HSword": {
-				"desc": "+[0.02 * Weapon_Expertise_Level#Sword2H * 100]% of direct damage you deal is inflicted as Bleeding damage over 5 seconds.\n\nYou deal x30% increased Bleeding damage for 5 seconds after killing an enemy.",
+				"desc": "+[0.02 * Weapon_Expertise_Level#Sword2H * 100]% of direct damage you deal is inflicted as Bleeding damage over 5 seconds.",
 				"name": "Two-Handed Sword Expertise",
 				"rankup_desc": "Bleeding damage is increased to +[0.02 * (1 + Weapon_Expertise_Level#Sword2H) * 100]%."
 			},
@@ -4832,7 +4832,7 @@
 					"power_tags_list": [
 						"Skill_Primary_Weapon_Mastery"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {#} seconds\nCooldown: {#} seconds\nLucky Hit Chance: {#}%\nAttempt a killing strike, dealing {120/132/144/156/168/180/192/204/216/228}% damage to enemies in front of you.\n\nIf this kills an enemy, the Cooldown is reset.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nAttempt a killing strike, dealing {120/132/144/156/168/180/192/204/216/228}% damage to enemies in front of you.\n\nIf this kills an enemy, the Cooldown is reset.",
 					"skill_name": "Death Blow",
 					"skill_rankup_desc": "• Damage 🡑 {120/132/144/156/168/180/192/204/216/228}%."
 				},
@@ -4860,7 +4860,7 @@
 					"power_tags_list": [
 						"Skill_Primary_Weapon_Mastery"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nCharges: 2\nCharge Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nSkewer enemies in front of you, dealing {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nSkewer enemies in front of you, dealing {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.",
 					"skill_name": "Rupture",
 					"skill_rankup_desc": "• Damage 🡑 {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}%."
 				},
@@ -8836,7 +8836,7 @@
 					"power_tags_list": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: A vine creeper periodically emerges from the ground every {#} seconds and poisons an enemy in the area for {#}% damage over {#} seconds.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: A vine creeper periodically emerges from the ground every {#} seconds and poisons an enemy in the area for {#}% damage over 6 seconds.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.",
 					"skill_name": "Vine Creeper",
 					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {#}%"
 				},
@@ -10169,7 +10169,7 @@
 					"power_tags_list": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Summon {#} wolf companions that bite enemies for {#}% damage.\n\nActive: Direct the wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Summon 2 wolf companions that bite enemies for {#}% damage.\n\nActive: Direct the wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
 					"skill_name": "Wolves",
 					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
@@ -10227,7 +10227,7 @@
 					"power_tags_list": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\n fly above you and periodically attack your enemies for {#}% damage every 5 seconds.\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
 					"skill_name": "Ravens",
 					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
 				},
@@ -18699,7 +18699,7 @@
 						"Skill_Primary_Corruption",
 						"Skill_Corpse"
 					],
-					"skill_desc": "Essence Cost: {#}\nLucky Hit Chance: {#}%\nDetonate a Corpse, dealing {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage to surrounding enemies.",
+					"skill_desc": "Lucky Hit Chance: {#}%\nDetonate a Corpse, dealing {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage to surrounding enemies.",
 					"skill_name": "Corpse Explosion",
 					"skill_rankup_desc": "• Damage 🡑 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%"
 				},
@@ -27357,7 +27357,7 @@
 						"Skill_Cold",
 						"Keyword_Freeze"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nCharges: 2\nCharge Cooldown: {#} seconds\nUnleash a torrent of frost, Freezing enemies around you for {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8} seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nUnleash a torrent of frost, Freezing enemies around you for {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8} seconds.",
 					"skill_name": "Frost Nova",
 					"skill_rankup_desc": "• Freeze Duration🡑 {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8}"
 				},
@@ -29192,7 +29192,7 @@
 				"id": 638,
 				"power": {
 					"power_name": "Sorcerer_Talent_Fire_T3_N2",
-					"skill_desc": "You deal x{#}% increased Burning damage to enemies over 50% Life and x25% increased Pyromancy Skill Direct Damage to enemies under 50% Life.",
+					"skill_desc": "You deal x25% increased Burning damage to enemies over 50% Life and x25% increased Pyromancy Skill Direct Damage to enemies under 50% Life.",
 					"skill_name": "Esu's Ferocity"
 				},
 				"req_points": 0,

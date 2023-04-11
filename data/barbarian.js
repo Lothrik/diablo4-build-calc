@@ -1057,9 +1057,7 @@ Tags: Fortify, Damage Reduction.`,
 	},
 	"Death Blow": {
 		connections: [ "Weapon Mastery", "Enhanced Death Blow" ],
-		description: `Charges: 2
-Charge Cooldown: {#} seconds
-Cooldown: {#} seconds
+		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Attempt a killing strike, dealing {120/132/144/156/168/180/192/204/216/228}% damage to enemies in front of you.
 
@@ -1068,7 +1066,7 @@ If this kills an enemy, its Cooldown is reset.
 Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 		id: 89,
 		maxPoints: 5,
-		values: [ "15", "15", "50" ],
+		values: [ "15", "50" ],
 		x: -528.139,
 		y: -0.735
 	},
@@ -1148,15 +1146,13 @@ Tags: Critical Strikes, Crowd Control.`,
 	"Rupture": {
 		connections: [ "Enhanced Rupture", "Weapon Mastery" ],
 		description: `Cooldown: {#} seconds
-Charges: 2
-Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Skewer enemies in front of you, dealing 13% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.
 
 Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 		id: 97,
 		maxPoints: 5,
-		values: [ "10", "10", "50" ],
+		values: [ "10", "50" ],
 		x: 408.44,
 		y: -222.34
 	},

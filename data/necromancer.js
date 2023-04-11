@@ -504,14 +504,13 @@ Tags: Lucky Hit, Corpse.`,
 necromancerData["Macabre"] = {
 	"Corpse Explosion": {
 		connections: [ "Enhanced Corpse Explosion", "Macabre" ],
-		description: `Essence Cost: {#}
-Lucky Hit Chance: {#}%
+		description: `Lucky Hit Chance: {#}%
 Detonate a Corpse, dealing {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage to surrounding enemies.
 
 Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 		id: 39,
 		maxPoints: 5,
-		values: [ "", "40" ],
+		values: [ "40" ],
 		x: -570.055,
 		y: -2.03
 	},
