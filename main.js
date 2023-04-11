@@ -403,6 +403,7 @@ function handleSummaryButton(event) {
 					if (!(codexCategory in allocatedCodexNodes)) allocatedCodexNodes[codexCategory] = {};
 					allocatedCodexNodes[codexCategory][nodeName] = {
 						"nodeDesc": nodeDesc,
+						"itemSlot": nodeData.get("itemSlot"),
 						"itemType": nodeData.get("itemType")
 					};
 				} else if (groupName == SPIRIT_BOONS) {
@@ -458,7 +459,11 @@ function handleSummaryButton(event) {
 			if (categoryData == undefined) continue;
 			codexOutput += `\n\t[${codexCategory}]:`;
 			for (const [nodeName, nodeData] of Object.entries(categoryData)) {
-				codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+				if (nodeData.itemSlot == undefined) {
+					codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+				} else {
+					codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType} ${nodeData.itemSlot})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+				}
 			}
 		}
 		let paragonOutput = `[${PARAGON_BOARD}]:`;
@@ -729,8 +734,13 @@ function handleSearchInput(event) {
 		if (newSearchText.length >= 3) {
 			// search `nodeHeader` for `newSearchText`
 			let nodeHeader = pixiNode.nodeName;
+			const itemSlot = pixiNode.nodeData.get("itemSlot");
 			const itemType = pixiNode.nodeData.get("itemType");
-			if (itemType != undefined) nodeHeader += ` (${itemType})`;
+			if (itemSlot != undefined) {
+				nodeHeader += ` (${itemType} ${itemSlot})`;
+			} else if (itemType != undefined) {
+				nodeHeader += ` (${itemType})`;
+			}
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
 				pixiNode.nodeData.set("searchQueryMatch", true);
 				setNodeStyleThick(pixiNode);
@@ -2075,7 +2085,17 @@ function drawAllNodes() {
 			"Unique": 1
 		};
 
-		const unsortedCodex = getCodexData(["Generic", classText]);
+		const validSlotTypesGeneric = ["Amulet", "Ring", "Helm", "Chest", "Gloves", "Pants", "Boots"];
+		// TODO: some slot types might be missing
+		const validSlotTypes = {
+			"barbarian": validSlotTypesGeneric.concat(["2H Polearm", "2H Axe", "2H Sword", "2H Mace", "1H Axe", "1H Mace", "1H Sword"]),
+			"druid": validSlotTypesGeneric.concat(["2H Staff", "2H Axe", "2H Mace", "1H Axe", "1H Mace", "Totem"]),
+			"necromancer": validSlotTypesGeneric.concat(["2H Scythe", "1H Scythe", "Shield"]),
+			"rogue": validSlotTypesGeneric.concat(["2H Bow", "2H Crossbow", "1H Dagger", "1H Sword"]),
+			"sorcerer": validSlotTypesGeneric.concat(["2H Staff", "1H Wand"]),
+		};
+
+		const unsortedCodex = getCodexData(["Generic", classText], null, validSlotTypes[className]);
 
 		if (Object.keys(unsortedCodex).length > 0) {
 			const startX = -4000;
@@ -2153,6 +2173,7 @@ function drawAllNodes() {
 							["codexCategory", codexCategoryName],
 							["description", powerDescription],
 							["id", `codex-${codexPower.id}`],
+							["itemSlot", codexPower.slot],
 							["itemType", codexPower.type],
 							["maxPoints", 1],
 							["widthOverride", nodeWidth],
@@ -2222,8 +2243,13 @@ function drawTooltip(curNode, forceDraw) {
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
 	let nodeHeader = curNode.nodeName;
+	const itemSlot = curNode.nodeData.get("itemSlot");
 	const itemType = curNode.nodeData.get("itemType");
-	if (itemType != undefined) nodeHeader += ` (${itemType})`;
+	if (itemSlot != undefined) {
+		nodeHeader += ` (${itemType} ${itemSlot})`;
+	} else if (itemType != undefined) {
+		nodeHeader += ` (${itemType})`;
+	}
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
 		align: "left",
 		breakWords: true,
@@ -2480,7 +2506,7 @@ function drawBackground() {
 		.on("touchmove", onDragAllMove);
 	pixiJS.stage.addChild(pixiBackground);
 }
-function getCodexData(desiredGroups = null, desiredTypes = null) {
+function getCodexData(desiredGroups = null, desiredTypes = null, desiredSlots = []) {
 	let codexResult = {};
 	for (const [codexGroupName, codexGroup] of Object.entries(codexData)) {
 		if (desiredGroups === null || desiredGroups.includes(codexGroupName)) {
@@ -2488,7 +2514,9 @@ function getCodexData(desiredGroups = null, desiredTypes = null) {
 				if (desiredTypes === null || desiredTypes.includes(codexCategoryName)) {
 					if (!codexResult[codexCategoryName]) codexResult[codexCategoryName] = {};
 					for (const [codexPowerName, codexPower] of Object.entries(codexCategory)) {
-						codexResult[codexCategoryName][codexPowerName] = codexPower;
+						if (!("slot" in codexPower) || desiredSlots.length == 0 || desiredSlots.includes(codexPower["slot"])) {
+							codexResult[codexCategoryName][codexPowerName] = codexPower;
+						}
 					}
 				}
 			}

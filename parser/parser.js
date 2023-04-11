@@ -660,6 +660,7 @@ function runParser(downloadMode) {
 				codexData[className][codexCategoryName][codexPowerName] = {
 					id: getCodexId(codexPowerName, codexCategoryName, className),
 					type: "Unique",
+					slot: nodeName.split("_")[0].replace(/(1H?|2H?)(.+)/gi, "$1 $2").trim(),
 					description: sanitizedDescription,
 					flavor: nodeData["flavor"]
 				};

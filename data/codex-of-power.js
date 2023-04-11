@@ -125,42 +125,49 @@ let codexData = {
 			"Ancients' Oath": {
 				"id": 137,
 				"type": "Unique",
+				"slot": "2H Axe",
 				"description": "Steel Grasp launches 2 additional chains. Enemies hit by Steel Grasp are Slowed by {55/65}% for 3.0 seconds.",
 				"flavor": "\"Weapons wielded by the fiercest warriors often catch the eye of the Ancient spirits. If the wielder is worthy, the spirits may bless the steel with their strength.\"\n- Gerti, Oxen Tribe Forgemaster"
 			},
 			"Hellhammer": {
 				"id": 138,
 				"type": "Unique",
+				"slot": "2H Mace",
 				"description": "Upheaval ignites the ground Burning enemies for an additional {175/250} damage over 3.0 seconds.",
 				"flavor": "The demon prince Ikonoth slew hundreds of the Heavenly Host with this infernal hammer before falling to none other than the Archangel Imperius himself."
 			},
 			"Overkill": {
 				"id": 139,
 				"type": "Unique",
+				"slot": "2H Mace",
 				"description": "Death Blow creates a shockwave, dealing {16/30}% of its Base damage to enemies. Enemies who die to this effect also reset Death Blow's Cooldown.",
 				"flavor": "The malformed snake creatures that live in the swamps are not content with simply killing their prey. They seem to take a malicious pleasure from inflicting as much suffering as possible before death."
 			},
 			"Battle Trance": {
 				"id": 141,
 				"type": "Unique",
+				"slot": "Amulet",
 				"description": "Increase Frenzy's maximum stacks by 2.  While you have maximum Frenzy, your other Skills gain +{10/20}% increased Attack Speed.",
 				"flavor": "\"The change that overtook my brother in battle was terrifying. His eyes turned hard like diamonds, and the way he moved... it was like he was dancing to music only he could hear.\"\n- Captain Dervin"
 			},
 			"100,000 Steps": {
 				"id": 142,
 				"type": "Unique",
+				"slot": "Boots",
 				"description": "After gaining the final damage bonus from the Walking Arsenal Key Passive, you automatically cast Ground Stomp and gain {32/50} Fury. This cannot happen more than once every 30 seconds.",
 				"flavor": "\"While many Barbarians remained in the Dreadlands, small groups from the Oxen, Crane and Bear tribes instead chose to search the land for a new home.\"\n- A History of the Children of Bul-Kathos"
 			},
 			"Rage of Harrogath": {
 				"id": 143,
 				"type": "Unique",
+				"slot": "Chest",
 				"description": "Lucky Hit: Up to a {20/40}% chance to reduce the Cooldowns of your Non-Ultimate Skills by 1.5 seconds when you inflict Bleeding on Elites.",
 				"flavor": "Harrogath, the final bastion of resistance against Baal's assault on Mt. Arreat was destroyed along with the Worldstone. The survivors never forgave the betrayal that led to the loss of their home."
 			},
 			"Gohr's Devastating Grips": {
 				"id": 144,
 				"type": "Unique",
+				"slot": "Gloves",
 				"description": "Whirlwind explodes after it ends, dealing {50/70}% of the total Base damage dealt to surrounding enemies as Fire damage.",
 				"flavor": "\"The brutish construction of these gloves belies the strength they bestow. Gohr was clearly no craftsman, but it would be foolish to ignore the triumph of his work.\"\n- Barrett's Book of Implements"
 			}
@@ -257,12 +264,14 @@ let codexData = {
 			"Ramaladni's Magnum Opus": {
 				"id": 136,
 				"type": "Unique",
+				"slot": "1H Sword",
 				"description": "Skills using this weapon deal x{0.7/1}% increased damage per point of Fury you have, but you lose 2.0 Fury every second.",
 				"flavor": "\"Without him the wine is less sweet, the hearth less warm, and our blades less keen. Our blood brother is gone, but Bul-Kathos willing, we will meet again one day.\"\n- Sorrowsong for Ramaladni"
 			},
 			"Fields of Crimson": {
 				"id": 140,
 				"type": "Unique",
+				"slot": "2H Sword",
 				"description": "While using this weapon, damaging at least one enemy with Rupture creates a blood pool that inflicts {90/170} Bleeding damage over 6.0 seconds. Enemies standing in the pool take x10% increased Bleeding damage.",
 				"flavor": "\"We've been fighting these flesh-eaters for so long, been soaked in so much blood, that after a while it's difficult to tell what side you're truly on.\"\n- Daelyr, Crane Tribe warrior"
 			}
@@ -515,30 +524,35 @@ let codexData = {
 			"Greatstaff of the Crone": {
 				"id": 168,
 				"type": "Unique",
+				"slot": "2H Staff",
 				"description": "Claw is now a Storm Skill and also casts Storm Strike at {120/150}% normal damage.",
 				"flavor": "\"She has existed in Scosglen since before Fiacla-Géar walked the land. Her purpose is a mystery to us all. However, approach her with deference; she may grant you her counsel.\"\n- Airidah, to Donan"
 			},
 			"Mad Wolf's Glee": {
 				"id": 169,
 				"type": "Unique",
+				"slot": "Chest",
 				"description": "Werewolf form is now your true form, and you gain +2 Ranks to all Werewolf Skills.",
 				"flavor": "\"He was not a victim of the curse - he sought it out. As his skin split and his bones cracked, his laughter never ceased.\" \n– Tale of the Mad Nobleman"
 			},
 			"Insatiable Fury": {
 				"id": 170,
 				"type": "Unique",
+				"slot": "Chest",
 				"description": "Werebear form is now your true form, and you gain +2 Ranks to all Werebear Skills.",
 				"flavor": "When the Days of Ash began, the great druid Nafain reminded his disciples that nothing, not even the loss of their humanity, was too great a sacrifice to protect Túr Dúlra from Astaroth's flames."
 			},
 			"Storm's Companion": {
 				"id": 173,
 				"type": "Unique",
+				"slot": "Pants",
 				"description": "Your Wolf Companions are infused with the power of the storm, dealing Lightning damage and gaining the Storm Howl ability.",
 				"flavor": "\"The storm's rage is my own, brother. I call, and the skies roar in reply.\"\n- Vasily, to Bul-Kathos"
 			},
 			"Hunter's Zenith": {
 				"id": 174,
 				"type": "Unique",
+				"slot": "Ring",
 				"description": "Gain a bonus when you kill with a Shapeshifting Skill:\n• Werewolf: Your next Non-Ultimate Werebear Skill costs no Resource and has no Cooldown.\n• Werebear: Your next Werewolf Skill will Heal you for {50/100} when damage is first dealt.",
 				"flavor": "\"By fang, claw, spear, or sword - send the bastards back to the flames from which they crawled! Soak the peat with their blood! For Fiacla-Géar! For Scosglen!\"\n- Nafain, during the Days of Ash"
 			}
@@ -582,6 +596,7 @@ let codexData = {
 			"Tempest Roar": {
 				"id": 171,
 				"type": "Unique",
+				"slot": "Helm",
 				"description": "Lucky Hit: Storm Skills have up to a {15/25}% chance to grant 10.0 Spirit.\n\nYour base Storm Skills are now also Werewolf Skills",
 				"flavor": "\"Listen, child, to the music of the storm. It has its own rhythm. Its own melody. Hear how beautifully it sings, and perhaps one day you will be able to join in its harmony.\"\n– Airidah"
 			}
@@ -662,12 +677,14 @@ let codexData = {
 			"Waxing Gibbous": {
 				"id": 167,
 				"type": "Unique",
+				"slot": "1H Axe",
 				"description": "Gain Stealth for 2 seconds when killing enemies with Shred. Breaking Stealth with an attack grants Ambush which guarantees Critical Strikes for {1/2.5} seconds.",
 				"flavor": "The nights preceding the full moon are sometimes far more dangerous than the event itself. The frenzy has begun to rise, yet the night is just dark enough to obscure a hunter from their prey's sight."
 			},
 			"Vasily's Prayer": {
 				"id": 172,
 				"type": "Unique",
+				"slot": "Helm",
 				"description": "Your Earth Skills are now also Werebear Skills and Fortify you for {1/2}.",
 				"flavor": "\"Roots from the Great Oak growing at the seaward statue of Vasily will, on rare occasions, be found twisted back upon themselves, suffused with ferocious magic.\"\n- Barrett's Book of Implements"
 			}
@@ -741,36 +758,42 @@ let codexData = {
 			"The Butcher's Cleaver": {
 				"id": 183,
 				"type": "Unique",
+				"slot": "1H Axe",
 				"description": "Lucky Hit: When you Critically Strike an enemy you have up to a 100.0% chance to Fear and Slow them by {40/75}% for 4.0 seconds.",
 				"flavor": "A nightmarish amalgam of blood, bone and steel, this axe is as horrific, and as deadly, as its creator."
 			},
 			"Doombringer": {
 				"id": 184,
 				"type": "Unique",
+				"slot": "1H Sword",
 				"description": "Lucky Hit: Up to a {15/25}% chance to deal 350 Shadow damage to surrounding enemies and reduce their damage done by 20.0% for 3.0 seconds.",
 				"flavor": "Whenever this ancient sword has reappeared throughout history, it portends a time of great strife, as well as a devastating loss of life."
 			},
 			"The Grandfather": {
 				"id": 185,
 				"type": "Unique",
+				"slot": "2H Sword",
 				"description": "Increases your Critical Strike Damage by x{60/100}%.\n\nThe other properties on this weapon can roll higher than normal.",
 				"flavor": "An unbroken lineage of unwavering strength."
 			},
 			"Razorplate": {
 				"id": 188,
 				"type": "Unique",
+				"slot": "Chest",
 				"description": "Gain {1000/2000} Thorns",
 				"flavor": "Crafted by the cannibal Armoda, each piece of this interlocking armor has been sharpened into a knife's edge. Even a century after death, the plate remained on her corpse, unable to be removed safely."
 			},
 			"Fists of Fate": {
 				"id": 189,
 				"type": "Unique",
+				"slot": "Gloves",
 				"description": "Your attacks randomly deal 1% to {200/300}% of their normal damage.",
 				"flavor": "\"Will you let fear cheat you, or will you risk everything to find understanding? After all, death is simply the coin with which we purchase life.\"\n- Zurke"
 			},
 			"Andariel's Visage": {
 				"id": 191,
 				"type": "Unique",
+				"slot": "Helm",
 				"description": "Lucky Hit: Up to a {10/20}% chance to trigger a poison nova that applies 1125 Poisoning damage over 5.0 seconds to enemies in the area.",
 				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness..."
 			}
@@ -800,24 +823,28 @@ let codexData = {
 			"Melted Heart of Selig": {
 				"id": 186,
 				"type": "Unique",
+				"slot": "Amulet",
 				"description": "Gain 100.0% Maximum Resource. In addition, when you take damage, drain {3/6} Resource for every 1.0% of Life you would have lost instead.",
 				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig"
 			},
 			"Penitent Greaves": {
 				"id": 187,
 				"type": "Unique",
+				"slot": "Boots",
 				"description": "You leave behind a trail of frost that Chills enemies. You deal x{7/10}% more damage to Chilled enemies.",
 				"flavor": "Remorseful devotees of the Cathedral of Light must undertake a grueling pilgrimage, journeying across the frigid glacier known as the Serac Rapture. Only then may their gravest sins be forgiven."
 			},
 			"Frostburn": {
 				"id": 190,
 				"type": "Unique",
+				"slot": "Gloves",
 				"description": "Lucky Hit: Up to a {15/25}% chance to Freeze enemies for 2.0 seconds.",
 				"flavor": "A touch so frigid it stops the heart and chills the very soul."
 			},
 			"Harlequin Crest": {
 				"id": 192,
 				"type": "Unique",
+				"slot": "Helm",
 				"description": "Gain {5/8}% Damage Reduction.\nIn addition, gain +2.0 Ranks to all Skills.",
 				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston"
 			}
@@ -847,12 +874,14 @@ let codexData = {
 			"Mother's Embrace": {
 				"id": 194,
 				"type": "Unique",
+				"slot": "Ring",
 				"description": "If a Core Skill hits 5.0 or more enemies, {20/40}% of the Resource cost is refunded.",
 				"flavor": "\"Every tome, every scroll, every book in this temple produces the same answer. The only being willing to stand against the Eternal Conflict, against the Prime Evils, was Lilith.\"\n- Elias"
 			},
 			"Ring of Starless Skies": {
 				"id": 195,
 				"type": "Unique",
+				"slot": "Ring",
 				"description": "Each consecutive Core Skill cast reduces the Resource cost of your next Core Skill by {5/10}%, up to a maximum of 30.0%.",
 				"flavor": "\"Yours is the power to pluck the stars from the heavens with the ease of a child gathering fruit from the bough.\"\n- Unknown"
 			}
@@ -903,6 +932,7 @@ let codexData = {
 			"Temerity": {
 				"id": 193,
 				"type": "Unique",
+				"slot": "Pants",
 				"description": "Effects that Heal you beyond 100.0% Life grant you a Barrier up to {50/100}% of your Maximum Life that lasts for 30.0 seconds.",
 				"flavor": "\"The revelation that master tailor Callas was in fact a witch only served to further fuel the desire for her uniquely enchanted legwraps.\"\n- Barrett's Book of Implements"
 			}
@@ -1111,42 +1141,49 @@ let codexData = {
 			"Black River": {
 				"id": 220,
 				"type": "Unique",
+				"slot": "1H Scythe",
 				"description": "Corpse Explosion consumes up to 4.0 additional Corpses around the initial Corpse, dealing x{122/130}% increased damage and with a {21/25}% larger radius per additional Corpse.",
 				"flavor": "\"The scrolls describe a river of tar that separated the living from the land of the dead. Any unfortunate soul who tried to cross would be dragged down into oblivion.\"\n- Notes of Scholar Kamien"
 			},
 			"Deathspeaker's Pendant": {
 				"id": 222,
 				"type": "Unique",
+				"slot": "Amulet",
 				"description": "Blood Surge casts a mini nova on your Minions, dealing {50/75} damage. Damage is increased by 10.0% per target drained by the initial cast, up to 50.0%.",
 				"flavor": "Once a sanctum for Rathma's studies, the Temple of the Deathspeaker became a proving grounds for potential leaders of his priesthood. Its halls are filled with the corpses of those who failed."
 			},
 			"Greaves of the Empty Tomb": {
 				"id": 223,
 				"type": "Unique",
+				"slot": "Boots",
 				"description": "Create desecrated ground beneath your Sever spectres as they travel, damaging enemies for {150/210} Shadow damage over 2.0 seconds.",
 				"flavor": "\"The massive door to my family's crypt, which had taken a dozen men to close, was thrown open. Had I known the horrors to come I never would have set foot inside!\"\n-The Ebon Pages, Canto I, Verse VII"
 			},
 			"Blood Artisan's Cuirass": {
 				"id": 224,
 				"type": "Unique",
+				"slot": "Chest",
 				"description": "When you pick up {5/10} Blood Orbs, a free Bone Spirit is spawned, dealing bonus damage based on your current Life percent.",
 				"flavor": "\"The infamous Necromancer Gaza-Thul's mastery over blood magic was indisputable. Many suspect that upon his death, his skin was used to fashion this eldritch armor.\"\n- Barrett's Book of Implements"
 			},
 			"Howl from Below": {
 				"id": 225,
 				"type": "Unique",
+				"slot": "Gloves",
 				"description": "Instead of detonating immediately, Corpse Explosion summons a Volatile Skeleton that charges at a random enemy and explodes. Corpse Explosion's damage is increased by x{30/40}%.",
 				"flavor": "\"Can you not hear it? That endless scream from the cold earth beneath your feet!? They are down there, trapped, blind with rage! Waiting to drag us down into the sod!\"\n- Ravings of Madman Gustav"
 			},
 			"Deathless Visage": {
 				"id": 226,
 				"type": "Unique",
+				"slot": "Helm",
 				"description": "Bone Spear leaves behind echoes as it travels that explode, dealing {125/175} damage.",
 				"flavor": "\"Rathma is endless. He was the first Ancient, and will remain at the end. He is the master of the Great Cycle of Being. When Death comes for him, why should he fear it?\"\n- Vauntus, Acolyte of Rathma"
 			},
 			"Ring of Mendeln": {
 				"id": 227,
 				"type": "Unique",
+				"slot": "Ring",
 				"description": "While you have 7.0 or more Minions you gain:\n• Lucky Hit: Up to a 10.0% chance to empower all of your Minions, causing the next attack from each to explode for {1500/2000} Physical damage.",
 				"flavor": "The signet of Mendeln ul-Diomed, the founder of the Priests of Rathma and the first Necromancer, was lost for over 3,000 years. The immense power over death held within, however, has not diminished."
 			}
@@ -1241,6 +1278,7 @@ let codexData = {
 			"Bloodless Scream": {
 				"id": 221,
 				"type": "Unique",
+				"slot": "2H Scythe",
 				"description": "Your Darkness Skills Chill enemies for up to 40.0%.\n\nLucky Hit: Your Darkness Skills have up to a 100.0% chance to generate {2/5} additional Essence against Frozen targets.",
 				"flavor": "\"My companion swung her odd weapon in a wide arc, and our pursuer stopped short. The look of horror on his face as his body fell to pieces will haunt me forever.\"\n- The Ebon Pages, Canto II, Verse XI"
 			}
@@ -1421,36 +1459,42 @@ let codexData = {
 			"Condemnation": {
 				"id": 252,
 				"type": "Unique",
+				"slot": "1H Dagger",
 				"description": "Your Core Skills deal x{20/40}% increased damage when spending 3 Combo Points. Your Basic Skills using this weapon have a 30% chance to generate 3 Combo Points.",
 				"flavor": "\"I've never seen such ruthless butchery. He deserves to be be shipped off to die in the swamps with the rest of the godless murderers.\"\n- Witness to the murder of Sergeant Walcot"
 			},
 			"Skyhunter": {
 				"id": 254,
 				"type": "Unique",
+				"slot": "2H Bow",
 				"description": "The first direct damage you deal to an enemy is a guaranteed Critical Strike. If you had maximum stacks of the Precision Key Passive when you cast the Skill, gain {15/25} Energy, this can only happen once per cast.",
 				"flavor": "\"Genai took up her bow and aimed at the sun itself. The light burned her eyes, but her arrow flew true. Wounded, the sun hid, and brought forth the first night.\n- Fable of the Great Sky-Hunt"
 			},
 			"Windforce": {
 				"id": 255,
 				"type": "Unique",
+				"slot": "2H Bow",
 				"description": "Lucky Hit: Hits with this weapon have up to a {10/20}% chance to deal double damage and Knock Back the target.",
 				"flavor": "\"There have been numerous world-shaping conflicts throughout history. This bow has been found on the battlefield of every one, and always in the hands of the victors.\"\n- Barrett's Book of Implements"
 			},
 			"Word of Hakan": {
 				"id": 256,
 				"type": "Unique",
+				"slot": "Amulet",
 				"description": "Your Rain of Arrows is always Imbued with all Imbuements at once.",
 				"flavor": "\"Let the great gates of Caldeum be sealed. Let its proud walls stand fiercely defended. The rest of Kehjistan may suffer this plague, but my city, and my people, will not.\"\n- Proclamation of Hakan II"
 			},
 			"Grasp of Shadow": {
 				"id": 257,
 				"type": "Unique",
+				"slot": "Gloves",
 				"description": "Lucky Hit: Damaging a Vulnerable enemy with a Marksman or Cutthroat Skill has up to a {20/30}% chance to summon a Shadow Clone that mimics your attack.",
 				"flavor": "Dark wisps creep hungrily across these gloves, like an assassin's blade seeking a life to steal on a moonless night."
 			},
 			"Cowl of the Nameless": {
 				"id": 258,
 				"type": "Unique",
+				"slot": "Helm",
 				"description": "You gain x{15/25}% increased Lucky Hit Chance against Crowd Controlled enemies.",
 				"flavor": "\"He is banished from the Guild, his name stricken from the Book. His punishment is to never have been.\" \n- Excerpt from a burned parchment"
 			}
@@ -1589,6 +1633,7 @@ let codexData = {
 			"Eyes in the Dark": {
 				"id": 259,
 				"type": "Unique",
+				"slot": "Pants",
 				"description": "Unless it hits a Boss or Player, Death Trap will continue to re-arm itself until it kills an enemy. However, Death Trap's Cooldown is increased by {15/30}%.",
 				"flavor": "\"And so, when the sun dipped behind the hills each night, he knew that Ashen Jack would soon be near. Watching, and waiting.\"\n- Greenslade's Tales, Chapter 2: \"Each Long Night\""
 			}
@@ -1606,6 +1651,7 @@ let codexData = {
 			"Asheara's Khanjar": {
 				"id": 253,
 				"type": "Unique",
+				"slot": "1H Dagger",
 				"description": "Hits with this weapon increase your Attack Speed by +{4/6}% for 4.0 seconds, up to +{20/30}%.",
 				"flavor": "When Caldeum's gates closed, Asheara led her Iron Wolves out of the city knowing full well they would never return. Instead they roamed Kehjistan pledging their blades to any who were in need."
 			}
@@ -1798,36 +1844,42 @@ let codexData = {
 			"Flamescar": {
 				"id": 285,
 				"type": "Unique",
+				"slot": "1H Wand",
 				"description": "While Channeling Incinerate, you periodically shoot embers that are attracted to enemies, each dealing {50/100} Fire damage.",
 				"flavor": "The burn may heal, but the pain is eternal."
 			},
 			"Staff of Endless Rage": {
 				"id": 286,
 				"type": "Unique",
+				"slot": "2H Staff",
 				"description": "Every 3rd cast of Fireball launches 2 additional projectiles.",
 				"flavor": "\"Leaving even blackened bones for your kin to mourn is too good an end for you.\" \n- Josiah"
 			},
 			"Staff of Lam Esen": {
 				"id": 287,
 				"type": "Unique",
+				"slot": "2H Staff",
 				"description": "Charged Bolts pierce, but deal x{30/40}% less damage.",
 				"flavor": "\"Also known as the Greatstaff of the Old Religion, this powerful relic is one of only a small handful of Skatsimi artifacts that have survived to this day.\"\n- Barrett's Book of Implements"
 			},
 			"Esadora's Overflowing Cameo": {
 				"id": 288,
 				"type": "Unique",
+				"slot": "Amulet",
 				"description": "Upon collecting Crackling Energy, there's a  10.0% chance to release a lightning nova, dealing {155/200} Lightning Damage.",
 				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both."
 			},
 			"Esu's Heirloom": {
 				"id": 289,
 				"type": "Unique",
+				"slot": "Boots",
 				"description": "Your Critical Strike Chance is increased by {15/25}% of your Movement Speed bonus.",
 				"flavor": "\"While scholars have proven these boots were not created by Esu herself, it is noteworthy that they have been passed down since the formation of the Mage Clans.\"\n- Barrett's Book of Implements"
 			},
 			"Gloves of the Illuminator": {
 				"id": 291,
 				"type": "Unique",
+				"slot": "Gloves",
 				"description": "Fireball now bounces as it travels, exploding each time it hits the ground, but its explosion deals {65/75}% less damage.",
 				"flavor": "After Inarius returned to Sanctuary, he sought a way back to the High Heavens. His first step was to reignite the religion he had abandoned millennia before: the Cathedral of Light."
 			}
@@ -1857,6 +1909,7 @@ let codexData = {
 			"Raiment of the Infinite": {
 				"id": 290,
 				"type": "Unique",
+				"slot": "Chest",
 				"description": "After using Teleport, Close enemies are Pulled to you and Stunned for {2/3} seconds, but Teleport's Cooldown is increased by x20.0%.",
 				"flavor": "The power you have is never enough."
 			}
@@ -1907,6 +1960,7 @@ let codexData = {
 			"Iceheart Brais": {
 				"id": 292,
 				"type": "Unique",
+				"slot": "Pants",
 				"description": "Enemies that die while Frozen have a {11/20}% chance to unleash a Frost Nova.",
 				"flavor": "The mad artisan saw his fingers turn black from frostbite as he worked the cloth, but refused to stay the needle and thread for even a moment."
 			}
