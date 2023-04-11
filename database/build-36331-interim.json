@@ -28,7 +28,7 @@
 			"Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10": {
 				"desc": "Lucky Hit: Critical Strikes have up to a 55% chance to grant +6% increased Attack Speed for 2 seconds. Double the Attack Speed bonus when using two Axes.",
 				"power_buffdurations": {
-					"599520142": "SF_2",
+					"599520142": 2,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -118,7 +118,7 @@
 			"Barbarian_WeaponExpertise_1HSword_Rank10": {
 				"desc": "Killing a Crowd Controlled enemy grants +15% increased Attack Speed for 3 seconds. Double this amount for kills with two Swords.",
 				"power_buffdurations": {
-					"599520142": "SF_1",
+					"599520142": 3,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -253,11 +253,11 @@
 				"name": "Polearm"
 			},
 			"Barbarian_WeaponExpertise_2HSword": {
-				"desc": "+[0.02 * Weapon_Expertise_Level#Sword2H * 100]% of direct damage you deal is inflicted as Bleeding damage over {#} seconds.\n\nYou deal x30% increased Bleeding damage for 5 seconds after killing an enemy.",
+				"desc": "+[0.02 * Weapon_Expertise_Level#Sword2H * 100]% of direct damage you deal is inflicted as Bleeding damage over 5 seconds.\n\nYou deal x30% increased Bleeding damage for 5 seconds after killing an enemy.",
 				"name": "Two-Handed Sword Expertise",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3719984410": "SF_2"
+					"3719984410": 5
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -315,7 +315,7 @@
 				"name": "of Berserk Ripping",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3719984410": "SF_1"
+					"3719984410": 5.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -366,7 +366,7 @@
 				"desc": "Your Weapon Mastery Skills have an additional Charge.\n\nLucky Hit: Damaging an enemy with a Weapon Mastery Skill has up to a {32/50}% chance to Stun them for 2 seconds.",
 				"name": "Weapon Master's",
 				"power_buffdurations": {
-					"4263050": "SF_1",
+					"4263050": 2,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -512,7 +512,7 @@
 				"name": "of Ancestral Echoes",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2498435506": "SF_1"
+					"2498435506": 5.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -576,7 +576,7 @@
 				"desc": "Enemies damaged by Kick or Charge will explode if they are killed within the next 2.0 seconds, dealing {500/650} damage to surrounding enemies.",
 				"name": "Brawler's",
 				"power_buffdurations": {
-					"557118677": "SF_2",
+					"557118677": 2.0,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -589,7 +589,7 @@
 					2.0
 				],
 				"power_payloads": {
-					"1154208010": "SF_0"
+					"1154208010": "array([500.,650.])"
 				}
 			},
 			"legendary_barb_019": {
@@ -833,7 +833,7 @@
 				"desc": "Lucky Hit: Direct damage against Bleeding enemies has up to a {31/40}% chance to Stun them for 2.0 seconds.",
 				"name": "of Anemia",
 				"power_buffdurations": {
-					"4263050": "SF_1",
+					"4263050": 2.0,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -880,7 +880,7 @@
 				"desc": "After swapping weapons 6.0 times, gain +{20/40}% increased Attack Speed for 4 seconds.",
 				"name": "Windstriker's",
 				"power_buffdurations": {
-					"168904657": "SF_1",
+					"168904657": 4,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -940,7 +940,7 @@
 				"name": "Bear Clan Berserker's",
 				"power_buffdurations": {
 					"844134919": 1,
-					"1777582047": "SF_2"
+					"1777582047": 2.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -9613,8 +9613,8 @@
 				"name_suffix": "of the Stalking Beast",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2075190860": "SF_0",
-					"3979259042": "SF_2"
+					"2075190860": 2,
+					"3979259042": "array([1. ,2.5])"
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -9650,7 +9650,7 @@
 				"name": "of Quicksand",
 				"power_buffdurations": {
 					"3212645773": 1,
-					"3803579216": "SF_1"
+					"3803579216": 5.0
 				},
 				"power_dots": {
 					"3212645773": 0,
@@ -9704,7 +9704,7 @@
 				"name": "Overcharged",
 				"power_buffdurations": {
 					"844134919": 1,
-					"4082481637": "SF_4"
+					"4082481637": 3.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -9718,7 +9718,7 @@
 					3.0
 				],
 				"power_payloads": {
-					"3240631475": "SF_0"
+					"3240631475": 350
 				}
 			},
 			"legendary_druid_029": {
@@ -9732,8 +9732,8 @@
 				"desc": "Casting a Storm Skill grants your Earth Skills x{30/45}% Critical Strike Damage for 4.0 seconds.\n\nCasting a Earth Skill increases the Critical Strike Chance of Storm Skills by {8/12}% for 4.0 seconds.",
 				"name": "of Natural Balance",
 				"power_buffdurations": {
-					"1464836485": "SF_2",
-					"2319253064": "SF_2",
+					"1464836485": 4.0,
+					"2319253064": 4.0,
 					"4010837754": 1,
 					"4028120123": 1
 				},
@@ -9960,7 +9960,7 @@
 				"desc": "Blood Howl increases Critical Strike Chance by {5/10}%. In addition, Blood Howl also affects Nearby Companions and Players for 3.0 seconds.",
 				"name": "Nighthowler's",
 				"power_buffdurations": {
-					"844134919": "SF_0"
+					"844134919": "array([ 5,10])"
 				},
 				"power_dots": {
 					"844134919": 0
@@ -10085,7 +10085,7 @@
 				"desc": "Critical strikes with Storm Skills charge the air around you for {1/2} seconds causing a Lightning Strike to periodically hit an enemy in the area for 500 Lightning damage.",
 				"name": "Runeworker's Conduit",
 				"power_buffdurations": {
-					"843725739": "SF_0 + .01",
+					"843725739": "array([1.01,2.01])",
 					"844134919": 1
 				},
 				"power_dots": {
@@ -19364,10 +19364,10 @@
 				]
 			},
 			"Druid_Passive_Snake_01": {
-				"desc": "Lucky Hit: Earth skills have up to a 15% chance to Stun enemies for {#} seconds. If the target is already stunned and is not a boss, they Overpower the target instead.",
+				"desc": "Lucky Hit: Earth skills have up to a 15% chance to Stun enemies for 3 seconds. If the target is already stunned and is not a boss, they Overpower the target instead.",
 				"name": "Obsidian Slam",
 				"power_buffdurations": {
-					"4263050": "SF_1",
+					"4263050": 3,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -19380,7 +19380,7 @@
 				]
 			},
 			"Druid_Passive_Snake_02": {
-				"desc": "Lucky Hit: Dealing Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing {#}% damage to surrounding enemies.",
+				"desc": "Lucky Hit: Dealing Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 20% damage to surrounding enemies.",
 				"name": "Overload",
 				"power_buffdurations": {
 					"844134919": 1
@@ -19395,7 +19395,7 @@
 					0.15
 				],
 				"power_payloads": {
-					"4032599903": "SF_2"
+					"4032599903": 0.2
 				}
 			},
 			"Druid_Passive_Snake_03": {
@@ -20435,7 +20435,7 @@
 				"name": "of Might",
 				"power_buffdurations": {
 					"844134919": 1,
-					"4276614347": "SF_1"
+					"4276614347": "array([4,8])"
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -20458,7 +20458,7 @@
 				"name": "of the Protector",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3307228809": "SF_2"
+					"3307228809": 0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -20504,7 +20504,7 @@
 				"name": "Wind Striker",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2094298579": "SF_1"
+					"2094298579": 1
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -20545,7 +20545,7 @@
 				"power_buffdurations": {
 					"844134919": 1,
 					"918107499": 1,
-					"2301448305": "SF_2"
+					"2301448305": 1.5
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -20590,9 +20590,9 @@
 				"name": "Protecting",
 				"power_buffdurations": {
 					"844134919": 1,
-					"1257527470": "SF_2",
-					"2498435506": "SF_6",
-					"3906113703": "SF_4"
+					"1257527470": 8.0,
+					"2498435506": "array([10,20])",
+					"3906113703": 0.25
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -20759,17 +20759,17 @@
 				"desc": "Lucky Strike: When you hit a Crowd Controlled enemy, there is up to a {30/50}% chance for that Crowd Control effect to spread to another unaffected enemy.",
 				"name": "of Shared Misery",
 				"power_buffdurations": {
-					"755433617": "SF_1",
+					"755433617": 3,
 					"844134919": 1,
-					"1263962776": "SF_1",
-					"1264438047": "SF_1",
-					"1264446948": "SF_1",
-					"1435975307": "SF_1",
-					"1454387346": "SF_1",
-					"2081860590": "SF_1",
-					"2187579806": "SF_1",
-					"3052624614": "SF_1",
-					"3402008424": "SF_1"
+					"1263962776": 3,
+					"1264438047": 3,
+					"1264446948": 3,
+					"1435975307": 3,
+					"1454387346": 3,
+					"2081860590": 3,
+					"2187579806": 3,
+					"3052624614": 3,
+					"3402008424": 3
 				},
 				"power_dots": {
 					"755433617": 0,
@@ -20881,7 +20881,7 @@
 				"desc": "Effects that heal you beyond 100.0% Life grant you a Barrier up to {50/100}% of your Maximum Life that lasts for 30.0 seconds.",
 				"name": "Restorative",
 				"power_buffdurations": {
-					"383033115": "SF_1",
+					"383033115": 30.0,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -25698,7 +25698,7 @@
 				"flavor": "A nightmarish amalgam of blood, bone and steel, this axe is as horrific, and as deadly, as its creator.",
 				"name": "The Butcher's Cleaver",
 				"power_buffdurations": {
-					"132153420": "SF_0",
+					"132153420": "array([1,3])",
 					"844134919": 1
 				},
 				"power_dots": {
@@ -25733,7 +25733,7 @@
 				"flavor": "Whenever this ancient sword has re-appeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
 				"name": "Doombringer",
 				"power_buffdurations": {
-					"535735741": "SF_3",
+					"535735741": 3.0,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -25748,7 +25748,7 @@
 					1.75
 				],
 				"power_payloads": {
-					"2090379748": "SF_1"
+					"2090379748": 350
 				}
 			},
 			"1HSword_Unique_Generic_100": {
@@ -25771,7 +25771,7 @@
 				"flavor": "Whenever you stare at the reflection in this blade, you see a demonic figure standing behind you: vague and distorted, but always laughing.",
 				"name": "Oblivion",
 				"power_buffdurations": {
-					"582942603": "SF_1",
+					"582942603": 3.0,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -25805,7 +25805,7 @@
 				"power_buffdurations": {
 					"4362471": 1,
 					"844134919": 1,
-					"2567035248": "SF_1"
+					"2567035248": 3.0
 				},
 				"power_dots": {
 					"4362471": 0,
@@ -25893,9 +25893,9 @@
 				"name": "Penitent Greaves",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2075040942": "SF_3",
-					"2322928218": "SF_0",
-					"2498435506": "SF_3"
+					"2075040942": 0.5,
+					"2322928218": 3,
+					"2498435506": 0.5
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -25982,11 +25982,11 @@
 				"name": "Frostburn",
 				"power_buffdurations": {
 					"844134919": 1,
-					"4180956227": "SF_1"
+					"4180956227": 2.0
 				},
 				"power_dots": {
 					"844134919": 0,
-					"4180956227": "SF_2"
+					"4180956227": 0
 				},
 				"power_formulas": [
 					"array([15,25])",
@@ -26023,7 +26023,7 @@
 					4
 				],
 				"power_payloads": {
-					"1775129195": "SF_1"
+					"1775129195": 750
 				}
 			},
 			"Helm_Unique_Generic_002": {
@@ -26074,15 +26074,15 @@
 				"flavor": "The Cult of the Triune has been thought destroyed several times over the centuries. In reality, its members hide in temples across Sanctuary, awaiting the next great power that will promise them ascendancy.",
 				"name": "Signet of the Triune",
 				"power_buffdurations": {
-					"121116764": "SF_2",
+					"121116764": 5,
 					"595652464": 0.1,
 					"844134919": 1,
-					"2549212776": "SF_4",
-					"2549212777": "SF_4",
-					"2549212778": "SF_4",
-					"4100443732": "SF_3",
-					"4100443733": "SF_3",
-					"4100443734": "SF_3"
+					"2549212776": 4,
+					"2549212777": 4,
+					"2549212778": 4,
+					"4100443732": 6,
+					"4100443733": 6,
+					"4100443734": 6
 				},
 				"power_dots": {
 					"121116764": "",
@@ -26217,7 +26217,7 @@
 				]
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeA": {
-				"desc": "Every 5th Iron Golem attack causes a shockwave, dealing {#}% damage to the primary enemy and to enemies behind them.",
+				"desc": "Every 5th Iron Golem attack causes a shockwave, dealing 16% damage to the primary enemy and to enemies behind them.",
 				"name": "Upgrade A",
 				"power_buffdurations": {
 					"2054958572": 1
@@ -26229,7 +26229,7 @@
 					0.16
 				],
 				"power_payloads": {
-					"4171283320": "SF_0"
+					"4171283320": 0.16
 				}
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeB": {
@@ -26359,11 +26359,11 @@
 				]
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_UpgradeA": {
-				"desc": "Shadow Mage attacks have a 10% chance to Stun for {#} seconds. This cannot happen on the same enemy more than once every {#} seconds.",
+				"desc": "Shadow Mage attacks have a 10% chance to Stun for 2 seconds. This cannot happen on the same enemy more than once every 5 seconds.",
 				"name": "Upgrade A",
 				"power_buffdurations": {
-					"4263050": "SF_1",
-					"2295075822": "SF_2",
+					"4263050": 2,
+					"2295075822": 5,
 					"3871282061": 1
 				},
 				"power_dots": {
@@ -26466,11 +26466,11 @@
 				]
 			},
 			"Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeB": {
-				"desc": "Reapers have a 10% chance to carve the flesh off enemies, forming a Corpse. This cannot happen on the same enemy more than once every {#} seconds.",
+				"desc": "Reapers have a 10% chance to carve the flesh off enemies, forming a Corpse. This cannot happen on the same enemy more than once every 5 seconds.",
 				"name": "Upgrade B",
 				"power_buffdurations": {
 					"3549895966": 1,
-					"4264210322": "SF_1"
+					"4264210322": 5
 				},
 				"power_dots": {
 					"3549895966": 0,
@@ -26506,7 +26506,7 @@
 				"desc": "Each time you Critically Strike, your Skirmishers Warriors' next attack Critically Strikes. Can only happen every 3 seconds.",
 				"name": "Upgrade B",
 				"power_buffdurations": {
-					"117712": "SF_0",
+					"117712": 3,
 					"559020969": 1,
 					"3149033941": 1
 				},
@@ -26534,7 +26534,7 @@
 				"name": "of Frenzied Dead",
 				"power_buffdurations": {
 					"844134919": 1,
-					"1647315560": "SF_2"
+					"1647315560": "Affix.legendary_necro_002.\"Static Value 0"
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -26596,7 +26596,7 @@
 				"name": "of Plunging Darkness",
 				"power_buffdurations": {
 					"844134919": 1,
-					"915653042": "SF_2"
+					"915653042": 6
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -26651,7 +26651,7 @@
 					"844134919": 1,
 					"1501572314": 1,
 					"2841420920": 1,
-					"4283276753": "SF_2"
+					"4283276753": 10.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -26713,13 +26713,13 @@
 				"name": "of Bloodbath",
 				"power_buffdurations": {
 					"844134919": 1,
-					"1908211461": "SF_2",
+					"1908211461": 4.0,
 					"3839469893": 1,
 					"3902245655": 1
 				},
 				"power_dots": {
 					"844134919": 0,
-					"1908211461": "SF_0",
+					"1908211461": "array([ 75.,100.])",
 					"3839469893": 0,
 					"3902245655": 0
 				},
@@ -26758,7 +26758,7 @@
 					2.25
 				],
 				"power_payloads": {
-					"225767441": "SF_0"
+					"225767441": "array([11.,15.])"
 				}
 			},
 			"legendary_necro_041": {
@@ -26808,7 +26808,7 @@
 				"name": "of Shielding Storm",
 				"power_buffdurations": {
 					"844134919": 1,
-					"1650384807": "SF_1"
+					"1650384807": 10.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -26867,7 +26867,7 @@
 				"name": "of Torment",
 				"power_buffdurations": {
 					"844134919": 1,
-					"4221972522": "SF_1"
+					"4221972522": 4.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -34893,7 +34893,7 @@
 				"name": "of Imitated Imbuement",
 				"power_buffdurations": {
 					"844134919": 1,
-					"959412554": "SF_0"
+					"959412554": 5.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -34916,7 +34916,7 @@
 				"name": "Enshrouding",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2823652705": "SF_1"
+					"2823652705": 3.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -34976,7 +34976,7 @@
 					2
 				],
 				"power_payloads": {
-					"3056936014": "SF_0"
+					"3056936014": "array([53.75,96.75])"
 				}
 			},
 			"legendary_rogue_014": {
@@ -35039,11 +35039,11 @@
 				"name": "of Unstable Imbuements",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3437694526": "SF_2"
+					"3437694526": 6
 				},
 				"power_dots": {
 					"844134919": 0,
-					"3437694526": "SF_3"
+					"3437694526": "array([23.333,45.833])"
 				},
 				"power_formulas": [
 					"array([140.,275.])",
@@ -35052,7 +35052,7 @@
 					"array([23.333,45.833])"
 				],
 				"power_payloads": {
-					"1702204449": "SF_0"
+					"1702204449": "array([140.,275.])"
 				}
 			},
 			"legendary_rogue_021": {
@@ -35069,7 +35069,7 @@
 					2
 				],
 				"power_payloads": {
-					"1702204449": "SF_0"
+					"1702204449": "array([425. ,537.5])"
 				}
 			},
 			"legendary_rogue_023": {
@@ -35083,12 +35083,12 @@
 				"desc": "Lucky Hit: Damaging a Poisoned enemy has up to a 50% chance to create a toxic explosion that applies {40/67.5} Poison damage over 5.0 seconds to the target and surrounding enemies.",
 				"name": "Venomous",
 				"power_buffdurations": {
-					"844134919": "SF_0",
-					"3437694526": "SF_1"
+					"844134919": "array([40. ,67.5])",
+					"3437694526": 5.0
 				},
 				"power_dots": {
 					"844134919": 0,
-					"3437694526": "SF_2"
+					"3437694526": "array([ 8. ,13.5])"
 				},
 				"power_formulas": [
 					"array([40. ,67.5])",
@@ -35122,7 +35122,7 @@
 					"array([110.,200.])"
 				],
 				"power_payloads": {
-					"3240631475": "SF_3"
+					"3240631475": "array([110.,200.])"
 				}
 			},
 			"legendary_rogue_026": {
@@ -35161,7 +35161,7 @@
 				"name": "of Arrow Storms",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2657919330": "SF_4 + SF_5"
+					"2657919330": 3.5
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -35177,7 +35177,7 @@
 					5.0
 				],
 				"power_payloads": {
-					"3935549854": "SF_1"
+					"3935549854": "array([45.  ,56.25])"
 				}
 			},
 			"legendary_rogue_100": {
@@ -35224,7 +35224,7 @@
 				"name": "of Explosive Verve",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2547981677": "SF_1"
+					"2547981677": 3.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -35249,8 +35249,8 @@
 				"desc": "Whenever you trigger a Lucky Hit, gain x5% increased Damage Reduction for 5 seconds, up to a maximum of x15%.",
 				"name": "of Uncanny Resilience",
 				"power_buffdurations": {
-					"844134919": "SF_0",
-					"4276614347": "SF_1"
+					"844134919": 0.05,
+					"4276614347": 5
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -35287,7 +35287,7 @@
 				"name": "Vengeful",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3016347731": "SF_2"
+					"3016347731": 3.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -35311,8 +35311,8 @@
 				"desc": "Killing a Vulnerable enemy grants you x{50/70}% increased Energy Regeneration for 4.0 seconds.",
 				"name": "Ravenous",
 				"power_buffdurations": {
-					"844134919": "SF_0",
-					"3000759187": "SF_1"
+					"844134919": "array([0.5,0.7])",
+					"3000759187": 4.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -35335,9 +35335,9 @@
 				"desc": "Upon taking damage from surrounding enemies, drop a Smoke Grenade and gain a Barrier for 7.0 seconds that absorbs {100/150} damage. This effect can only occur once every 100.0 seconds.",
 				"name": "Escape Artist's",
 				"power_buffdurations": {
-					"117712": "SF_1",
+					"117712": 100.0,
 					"844134919": 1,
-					"3307228809": "SF_2"
+					"3307228809": 7.0
 				},
 				"power_dots": {
 					"117712": 0,
@@ -35358,7 +35358,7 @@
 				"desc": "Each stack of Momentum grants you {35/70} Thorns.",
 				"name": "Barbed",
 				"power_buffdurations": {
-					"372190974": "SF_0"
+					"372190974": 8
 				},
 				"power_dots": {
 					"372190974": ""
@@ -35400,8 +35400,8 @@
 				"desc": "You take {15/25}% less damage from Crowd Controlled enemies. Whenever a Crowd Controlled enemy deals direct damage to you, gain +15.0% Movement Speed for 2.0 seconds.",
 				"name": "Cheat's",
 				"power_buffdurations": {
-					"844134919": "SF_0",
-					"3394882833": "SF_2"
+					"844134919": "array([0.15,0.25])",
+					"3394882833": 2.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -35426,8 +35426,8 @@
 				"desc": "Lucky Hit: Damaging a Vulnerable enemy with a Core Skill has up to a {20/40}% chance to grant a Barrier for 5.0 seconds that absorbs {10000/20000} damage, up to a maximum of {50000/100000}.",
 				"name": "of Siphoned Protection",
 				"power_buffdurations": {
-					"844134919": "SF_0",
-					"3307228809": "SF_2"
+					"844134919": "array([20,40])",
+					"3307228809": 5.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -35459,7 +35459,7 @@
 				"desc": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a {25/45}% chance to Immobilize them for 2.0 seconds.",
 				"name": "Mangler's",
 				"power_buffdurations": {
-					"639386033": "SF_1",
+					"639386033": 2.0,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -35507,8 +35507,8 @@
 				"desc": "Lucky Hit: Critical Strikes with Ranged Skills have up to a {30/50}% chance to grant a Barrier for 5.0 seconds that absorbs {15000/25000} damage, up to a maximum of {75000/125000}.",
 				"name": "Draining",
 				"power_buffdurations": {
-					"844134919": "SF_0",
-					"3307228809": "SF_1"
+					"844134919": "array([30,50])",
+					"3307228809": 5.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -43907,7 +43907,7 @@
 				"name": "Asheara's Khanjar",
 				"power_buffdurations": {
 					"844134919": 1,
-					"1278482058": "SF_1"
+					"1278482058": 4.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -44036,9 +44036,9 @@
 				"flavor": "\"From that day forth, he knew whenever he felt that strange cold breeze on the nape of his neck that Ashen Jack was somewhere very close by, watching and waiting.\"\n- Greenslade's Tales, Chapter 2: \"A Cold Wind Blows\"",
 				"name": "Chill of Night",
 				"power_buffdurations": {
-					"21692683": "SF_0",
+					"21692683": 5.0,
 					"844134919": 1,
-					"2498435506": "SF_1"
+					"2498435506": 5.0
 				},
 				"power_dots": {
 					"21692683": 0,
@@ -44076,7 +44076,7 @@
 				"name": "Temerity",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3307228809": "SF_3"
+					"3307228809": 5.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -44097,7 +44097,7 @@
 			"Sorcerer_Enchantment_ArcLash": {
 				"desc": "Whenever you are hit, there is a 20% chance the attacker is Stunned for 1 second.",
 				"power_buffdurations": {
-					"4263050": "SF_1",
+					"4263050": 1,
 					"1928688498": 1
 				},
 				"power_dots": {
@@ -44173,14 +44173,14 @@
 				]
 			},
 			"Sorcerer_Enchantment_Firebolt": {
-				"desc": "Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for {#} over 8 seconds.",
+				"desc": "Lucky Hit: Your direct damage has up to a 100% chance to Burn enemies for 23.2% over 8 seconds.",
 				"power_buffdurations": {
 					"77613195": 1,
-					"2432949205": "SF_2"
+					"2432949205": 8
 				},
 				"power_dots": {
 					"77613195": 0,
-					"2432949205": "SF_3"
+					"2432949205": 0.029
 				},
 				"power_formulas": [
 					0.234,
@@ -44207,7 +44207,7 @@
 			"Sorcerer_Enchantment_FlameShield": {
 				"desc": "Flame Shield automatically activates when you take fatal damage. It takes 120 seconds to recharge.",
 				"power_buffdurations": {
-					"117712": "SF_0",
+					"117712": 120,
 					"1469942674": 1
 				},
 				"power_dots": {
@@ -44286,7 +44286,7 @@
 			"Sorcerer_Enchantment_IceBlades": {
 				"desc": "Killing an enemy has a 10% chance to conjure Ice Blades.",
 				"power_buffdurations": {
-					"473535576": "SF_2",
+					"473535576": 1,
 					"1061123376": 1
 				},
 				"power_dots": {
@@ -44344,7 +44344,7 @@
 			"Sorcerer_Enchantment_Meteor": {
 				"desc": "Every time an enemy takes Burning damage, there's a 3% chance a Meteor falls on them.",
 				"power_buffdurations": {
-					"117712": "SF_1",
+					"117712": 2,
 					"183905472": 1
 				},
 				"power_dots": {
@@ -44454,7 +44454,7 @@
 				"name": "Charged",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2547981677": "SF_1"
+					"2547981677": 4.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -44524,7 +44524,7 @@
 				"desc": "Meteorites fall around you during Inferno, dealing {102.5/125} Fire damage on impact.\nYour Meteorites Immobilize enemies for 3 seconds.",
 				"name": "of Armageddon",
 				"power_buffdurations": {
-					"639386033": "SF_0",
+					"639386033": 3,
 					"844134919": 1
 				},
 				"power_dots": {
@@ -44581,7 +44581,7 @@
 				"name": "Incendiary",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3346879043": "SF_1"
+					"3346879043": 4.0
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -44604,7 +44604,7 @@
 				"desc": "Every 5.0 times you deal Direct Fire Damage to an enemy, they are Immobilized for {2/3} seconds.",
 				"name": "of Seared Flesh",
 				"power_buffdurations": {
-					"639386033": "SF_1",
+					"639386033": "array([2.,3.])",
 					"844134919": 1,
 					"3454477641": 60
 				},
@@ -44672,7 +44672,7 @@
 				"name": "of the Frozen Wake",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3799040413": "SF_0"
+					"3799040413": 6
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -44702,7 +44702,7 @@
 				"name": "Encased",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3767063485": "SF_0 + 0.5"
+					"3767063485": 4.5
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -44805,7 +44805,7 @@
 				"name": "of the Frozen Tundra",
 				"power_buffdurations": {
 					"844134919": 1,
-					"3799040413": "SF_0"
+					"3799040413": 4
 				},
 				"power_dots": {
 					"844134919": 0,
@@ -44982,7 +44982,7 @@
 				"name": "of Concentration",
 				"power_buffdurations": {
 					"844134919": 1,
-					"2095241667": "SF_1",
+					"2095241667": 3.0,
 					"2761021679": 1
 				},
 				"power_dots": {
