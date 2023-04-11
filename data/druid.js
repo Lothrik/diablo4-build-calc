@@ -1669,8 +1669,7 @@ druidData["Spirit Boons"] = {
 			id: 154
 		},
 		"Overload": {
-			values: [ "20" ],
-			description: `Lucky Hit: Dealing Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing {#} Lightning damage to surrounding enemies.`,
+			description: `Lucky Hit: Dealing Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 20% Lightning damage to surrounding enemies.`,
 			id: 155
 		},
 		"Masochistic": {

@@ -235,9 +235,6 @@ let nodeValues = {
 		"Spirit Boons": {
 			"Prickleskin": [
 				""
-			],
-			"Overload": [
-				"20"
 			]
 		}
 	},
@@ -457,8 +454,7 @@ let nodeValues = {
 				"0.5"
 			],
 			"Fire Bolt — Enchantment": [
-				"",
-				""
+				"{23.4/25.74/28.08/30.42/32.76}%"
 			]
 		},
 		"Core": {

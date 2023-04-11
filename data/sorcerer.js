@@ -199,11 +199,11 @@ Hurl a flaming bolt, dealing {10/11/12/13/14/15/16/17/18/19}% damage and Burning
 Tags: Basic, Pyromancy, Damage, Fire, Burn.
 
 — Enchantment Effect —
-Direct damage from Skills applies up to an additional {#} Burning damage over {#} seconds.`,
+Direct damage from Skills applies up to an additional {#} Burning damage over 8 seconds.`,
 		id: 12,
 		maxPoints: 5,
 		values: [ "20" ],
-		extraValues: [ "", "" ],
+		extraValues: [ "{23.4/25.74/28.08/30.42/32.76}%" ],
 		x: 202.516,
 		y: -251.18
 	},

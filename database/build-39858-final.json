@@ -74,7 +74,7 @@
 				"name": "Polearm"
 			},
 			"Barbarian_WeaponExpertise_2HSword": {
-				"desc": "+[0.02 * Weapon_Expertise_Level#Sword2H * 100]% of direct damage you deal is inflicted as Bleeding damage over {#} seconds.\n\nYou deal x30% increased Bleeding damage for 5 seconds after killing an enemy.",
+				"desc": "+[0.02 * Weapon_Expertise_Level#Sword2H * 100]% of direct damage you deal is inflicted as Bleeding damage over 5 seconds.\n\nYou deal x30% increased Bleeding damage for 5 seconds after killing an enemy.",
 				"name": "Two-Handed Sword Expertise",
 				"rankup_desc": "Bleeding damage is increased to +[0.02 * (1 + Weapon_Expertise_Level#Sword2H) * 100]%."
 			},
@@ -11623,7 +11623,7 @@
 				"name": "Obsidian Slam"
 			},
 			"Druid_Passive_Snake_02": {
-				"desc": "Lucky Hit: Dealing Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing {#} Lightning damage to surrounding enemies.",
+				"desc": "Lucky Hit: Dealing Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 20% Lightning damage to surrounding enemies.",
 				"name": "Overload"
 			},
 			"Druid_Passive_Snake_03": {
@@ -18162,7 +18162,7 @@
 				"name": "Sacrifice"
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeA": {
-				"desc": "Every 5th Iron Golem attack causes a shockwave, dealing {#}% damage to the primary enemy and to enemies behind them.",
+				"desc": "Every 5th Iron Golem attack causes a shockwave, dealing 16% damage to the primary enemy and to enemies behind them.",
 				"name": "Upgrade A"
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeB": {
@@ -18198,7 +18198,7 @@
 				"name": "Sacrifice"
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_UpgradeA": {
-				"desc": "Shadow Mage attacks have a 10% chance to Stun for {#} seconds. This cannot happen on the same enemy more than once every {#} seconds.",
+				"desc": "Shadow Mage attacks have a 10% chance to Stun for 2 seconds. This cannot happen on the same enemy more than once every 5 seconds.",
 				"name": "Upgrade A"
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_UpgradeB": {
@@ -28773,7 +28773,7 @@
 				"desc": "When you kill an enemy, they explode in a Fireball for {#}% of its damage."
 			},
 			"Sorcerer_Enchantment_Firebolt": {
-				"desc": "Direct damage from Skills applies up to an additional {#} Burning damage over {#} seconds."
+				"desc": "Direct damage from Skills applies up to an additional {#} Burning damage over 8 seconds."
 			},
 			"Sorcerer_Enchantment_Firewall": {
 				"desc": "Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewalls underneath them for 3 seconds."
