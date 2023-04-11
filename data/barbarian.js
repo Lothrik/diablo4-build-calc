@@ -489,12 +489,12 @@ barbarianData["Defensive"] = {
 	"Challenging Shout": {
 		connections: [ "Defensive", "Enhanced Challenging Shout" ],
 		description: `Cooldown: {#} seconds
-Taunt Nearby enemies and gain {#}% Damage Reduction for 8 seconds.
+Taunt Nearby enemies and gain {40/45/50/55/60/65/70/75/80/85}% Damage Reduction for 8 seconds.
 
 Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 		id: 38,
 		maxPoints: 5,
-		values: [ "25", "{40/45/50/55/60}" ],
+		values: [ "25" ],
 		x: 1.54,
 		y: 310.475
 	},
@@ -645,12 +645,12 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 	"Rallying Cry": {
 		connections: [ "Defensive", "Enhanced Rallying Cry" ],
 		description: `Cooldown: {#} seconds
-Bellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for 6 seconds, and Nearby allies for 3 seconds.
+Bellow a rallying cry, increasing your Movement Speed by +30% and Resource Generation by x{50/55/60/65/70/75/80/85/90/95}% for 6 seconds, and Nearby allies for 3 seconds.
 
 Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 		id: 52,
 		maxPoints: 5,
-		values: [ "25", "30", "50" ],
+		values: [ "25" ],
 		x: 571.525,
 		y: -107.125
 	},
@@ -759,12 +759,12 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 	"War Cry": {
 		connections: [ "Brawling", "Enhanced War Cry" ],
 		description: `Cooldown: {#} seconds
-Bellow a mighty war cry, increasing your damage dealt by x{#}% for 8 seconds, and Nearby allies for 4 seconds.
+Bellow a mighty war cry, increasing your damage dealt by x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% for 8 seconds, and Nearby allies for 4 seconds.
 
 Tags: Brawling, Shout, Damage, Cooldown.`,
 		id: 62,
 		maxPoints: 5,
-		values: [ "25", "15.0" ],
+		values: [ "25" ],
 		x: -401.86,
 		y: -211.156
 	},
@@ -782,12 +782,11 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 	"Power War Cry": {
 		baseSkill: "War Cry",
 		connections: [ "Enhanced War Cry" ],
-		description: `If at least 6 enemies are Nearby when you cast War Cry, your damage bonus is increased to x{#}%.
+		description: `If at least 6 enemies are Nearby when you cast War Cry, your damage bonus is increased to x{30/31.5/33/34.5/36/37.5/39/40.5/42/43.5}%.
 
 Tags: Brawling, Shout, Damage, Cooldown.`,
 		id: 64,
 		maxPoints: 1,
-		values: [ "30" ],
 		x: -972.08,
 		y: -339.504
 	},

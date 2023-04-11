@@ -52,11 +52,10 @@ Throw a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/6
 Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.
 
 — Enchantment Effect —
-Direct damage from Skills applies up to {#}% Chill.`,
+Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% Chill.`,
 		id: 0,
 		maxPoints: 5,
 		values: [ "30" ],
-		extraValues: [ "30" ],
 		x: -195.614,
 		y: -247.035
 	},
@@ -101,11 +100,10 @@ Launch a bolt of lightning that shocks an enemy 4 times, dealing {8/8.8/9.6/10.4
 Tags: Basic, Shock, Damage, Lightning.
 
 — Enchantment Effect —
-Killing an enemy has a {#}% chance to form a Crackling Energy.`,
+Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackling Energy.`,
 		id: 4,
 		maxPoints: 5,
 		values: [ "9" ],
-		extraValues: [ "10" ],
 		x: -489.038,
 		y: -81.23
 	},
@@ -150,11 +148,10 @@ Unleash arcing lightning that deals {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79
 Tags: Basic, Shock, Damage, Lightning, Crowd Control.
 
 — Enchantment Effect —
-When you use a Cooldown, enemies around you are Stunned for {#} seconds.`,
+When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} seconds.`,
 		id: 8,
 		maxPoints: 5,
 		values: [ "30" ],
-		extraValues: [ "0.5" ],
 		x: 487.781,
 		y: -80.27
 	},
@@ -199,11 +196,10 @@ Hurl a flaming bolt, dealing {10/11/12/13/14/15/16/17/18/19}% damage and Burning
 Tags: Basic, Pyromancy, Damage, Fire, Burn.
 
 — Enchantment Effect —
-Direct damage from Skills applies up to an additional {#} Burning damage over 8 seconds.`,
+Direct damage from Skills applies up to an additional {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% Burning damage over 8 seconds.`,
 		id: 12,
 		maxPoints: 5,
 		values: [ "20" ],
-		extraValues: [ "{23.4/25.74/28.08/30.42/32.76}%" ],
 		x: 202.516,
 		y: -251.18
 	},
@@ -252,11 +248,10 @@ Release 5 bolts of lightning that course along the ground in an erratic pattern,
 Tags: Core, Shock, Damage, Lightning, Mana.
 
 — Enchantment Effect —
-When you Stun an enemy, there's a {#}% chance to release 3 Charged Bolts from them.`,
+When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from them.`,
 		id: 16,
 		maxPoints: 5,
 		values: [ "40", "25" ],
-		extraValues: [ "40" ],
 		x: 133.995,
 		y: 322.79
 	},
@@ -302,11 +297,10 @@ Unleash an orb that Chills for 34% and expels piercing shards, dealing a total o
 Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.
 
 — Enchantment Effect —
-Whenever you cast a Non-Basic Skill, you have a {#}% chance to launch a Frozen Orb at a Nearby enemy.`,
+Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Orb at a Nearby enemy.`,
 		id: 20,
 		maxPoints: 5,
 		values: [ "40", "20" ],
-		extraValues: [ "20" ],
 		x: -639.26,
 		y: -93.76
 	},
@@ -352,11 +346,10 @@ Channel a beam of fire, Burning enemies for {9.1/10/10.925/11.825/12.75/13.65/14
 Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.
 
 — Enchantment Effect —
-Every {#} seconds, a serpent spawns and Incinerates enemies for 6 seconds.`,
+Every 20 seconds, a serpent spawns and Incinerates enemies for 6 seconds.`,
 		id: 24,
 		maxPoints: 5,
 		values: [ "20", "40" ],
-		extraValues: [ "20" ],
 		x: 0.845,
 		y: -304.65
 	},
@@ -402,11 +395,10 @@ Hurl an exploding ball of fire, dealing {60/66/72/78/84/90/96/102/108/114}% dama
 Tags: Core, Pyromancy, Damage, Fire, Mana.
 
 — Enchantment Effect —
-When you kill an enemy, they explode in a Fireball for {#}% of its damage.`,
+When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 		id: 28,
 		maxPoints: 5,
 		values: [ "40", "33" ],
-		extraValues: [ "50" ],
 		x: -363.79,
 		y: -251.52
 	},
@@ -452,11 +444,10 @@ Unleash a stream of lightning that deals {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75
 Tags: Core, Shock, Damage, Lightning, Mana.
 
 — Enchantment Effect —
-Chain Lightning forms automatically after spending {#} Mana.`,
+Chain Lightning forms automatically after spending 100 Mana.`,
 		id: 32,
 		maxPoints: 5,
 		values: [ "35", "25" ],
-		extraValues: [ "100" ],
 		x: -205.425,
 		y: 323.95
 	},
@@ -586,11 +577,10 @@ While Flame Shield is active, you are Immune.
 Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.
 
 — Enchantment Effect —
-Flame Shield automatically activates when you take fatal damage. Can only happen once every {#} seconds.`,
+Flame Shield automatically activates when you take fatal damage. Can only happen once every 120 seconds.`,
 		id: 43,
 		maxPoints: 5,
 		values: [ "20", "50" ],
-		extraValues: [ "120" ],
 		x: -1.14,
 		y: -278.29
 	},
@@ -635,11 +625,10 @@ Unleash a torrent of frost, Freezing enemies around you for 2 seconds.
 Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.
 
 — Enchantment Effect —
-Lucky Hit: Your Conjuration Skills have a {#}% chance to unleash a Frost Nova when hitting enemies.`,
+Lucky Hit: Your Conjuration Skills have a 30% chance to unleash a Frost Nova when hitting enemies.`,
 		id: 47,
 		maxPoints: 5,
 		values: [ "15" ],
-		extraValues: [ "30" ],
 		x: 7.87,
 		y: 296.675
 	},
@@ -684,11 +673,10 @@ A Barrier of ice forms around you for 6 seconds, absorbing {#}% of your Base Lif
 Tags: Defensive, Frost, Barrier, Cooldown, Damage.
 
 — Enchantment Effect —
-Upon getting hit, you have a {#}% chance to apply Ice Armor.`,
+Upon getting hit, you have a 5% chance to apply Ice Armor.`,
 		id: 51,
 		maxPoints: 5,
 		values: [ "20", "" ],
-		extraValues: [ "5" ],
 		x: 421.865,
 		y: 200.98
 	},
@@ -734,11 +722,10 @@ Transform into lightning, becoming Unstoppable and surging to the target locatio
 Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.
 
 — Enchantment Effect —
-Evade is replaced with a short range Teleport on a {#} second Cooldown.`,
+Evade is replaced with a short range Teleport on a {17/17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88} second Cooldown.`,
 		id: 55,
 		maxPoints: 5,
 		values: [ "11", "40" ],
-		extraValues: [ "17.0" ],
 		x: 422.375,
 		y: -202.015
 	},
@@ -802,18 +789,17 @@ sorcererData["Conjuration"] = {
 		connections: [ "Conjuration", "Enhanced Hydra" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Summon a 3-headed hydra for {#} seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.
+Summon a 3-headed hydra for 12 seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.
 
 Maximum 1 active Hydras at a time.
 
 Tags: Conjuration, Pyromancy, Damage, Fire, Mana.
 
 — Enchantment Effect —
-After spending {#} Mana, a 5-headed Hydra spawns for 5 seconds.`,
+After spending 300 Mana, a 5-headed Hydra spawns for 5 seconds.`,
 		id: 61,
 		maxPoints: 5,
-		values: [ "20", "77", "8" ],
-		extraValues: [ "300" ],
+		values: [ "20", "77" ],
 		x: 6.92,
 		y: -281.666
 	},
@@ -854,16 +840,15 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 		connections: [ "Conjuration", "Enhanced Ice Blades" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Conjure a pair of ice blades for {#} seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.
+Conjure a pair of ice blades for 6 seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.
 
 Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.
 
 — Enchantment Effect —
-For every {#} seconds in Cooldowns you spend, you spawn an Ice Blades on a random enemy.`,
+For every 20 seconds in Cooldowns you spend, you spawn an Ice Blades on a random enemy.`,
 		id: 65,
 		maxPoints: 5,
-		values: [ "12", "71", "6.0" ],
-		extraValues: [ "20" ],
+		values: [ "12", "71" ],
 		x: -533.46,
 		y: -0.359
 	},
@@ -904,16 +889,15 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 		connections: [ "Conjuration", "Enhanced Lightning Spear" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Conjure a spear of lightning that seeks out enemies for {#} seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage per hit.
+Conjure a spear of lightning that seeks out enemies for 6 seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage per hit.
 
 Tags: Conjuration, Shock, Damage, Lightning, Cooldown.
 
 — Enchantment Effect —
-Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear.`,
+Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 		id: 69,
 		maxPoints: 5,
-		values: [ "20", "35", "6.0" ],
-		extraValues: [ "10" ],
+		values: [ "20", "35" ],
 		x: -413.195,
 		y: 220.974
 	},
@@ -1012,11 +996,10 @@ Summon a meteor that strikes the target location, dealing {50/55/60/65/70/75/80/
 Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.
 
 — Enchantment Effect —
-Lucky Hit: {#}% chance for a Meteor to fall on enemies.`,
+Lucky Hit: 3% chance for a Meteor to fall on enemies.`,
 		id: 78,
 		maxPoints: 5,
 		values: [ "40", "40" ],
-		extraValues: [ "3" ],
 		x: 601.53,
 		y: -220.475
 	},
@@ -1062,11 +1045,10 @@ Summon a frigid blizzard that deals {#}% damage and continually Chills enemies f
 Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.
 
 — Enchantment Effect —
-Every {#} seconds, a Blizzard forms over you and follows you for 6 seconds.`,
+Every 15 seconds, a Blizzard forms over you and follows you for 6 seconds.`,
 		id: 82,
 		maxPoints: 5,
 		values: [ "40", "33", "120" ],
-		extraValues: [ "15" ],
 		x: 300.64,
 		y: -339.596
 	},
@@ -1112,11 +1094,10 @@ Discharge a ball of lightning that slowly moves forward, continually zapping ene
 Tags: Mastery, Shock, Damage, Lightning, Mana.
 
 — Enchantment Effect —
-Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning.`,
+Lucky Hit: Critical Strikes have a 25% chance to spawn a static Ball Lightning.`,
 		id: 86,
 		maxPoints: 5,
 		values: [ "50", "20", "18" ],
-		extraValues: [ "25" ],
 		x: 274.81,
 		y: 344.08
 	},
@@ -1252,11 +1233,10 @@ Create a wall of flames that Burns enemies for {160/176/192/208/224/240/256/272/
 Tags: Mastery, Pyromancy, Damage, Burn, Mana.
 
 — Enchantment Effect —
-Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewalls underneath them for 3 seconds.`,
+Each time an enemy takes Burning damage, there's a 5% chance to spawn 2 Firewalls underneath them for 3 seconds.`,
 		id: 99,
 		maxPoints: 5,
 		values: [ "30", "40" ],
-		extraValues: [ "5" ],
 		x: 592.435,
 		y: 224.3
 	},

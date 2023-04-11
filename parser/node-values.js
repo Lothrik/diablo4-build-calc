@@ -38,8 +38,7 @@ let nodeValues = {
 		},
 		"Defensive": {
 			"Challenging Shout": [
-				"25",
-				"{40/45/50/55/60}"
+				"25"
 			],
 			"Iron Skin": [
 				"14"
@@ -50,9 +49,7 @@ let nodeValues = {
 				"10"
 			],
 			"Rallying Cry": [
-				"25",
-				"30",
-				"50"
+				"25"
 			]
 		},
 		"Brawling": {
@@ -61,11 +58,7 @@ let nodeValues = {
 				"33"
 			],
 			"War Cry": [
-				"25",
-				"15.0"
-			],
-			"Power War Cry": [
-				"30"
+				"25"
 			],
 			"Leap": [
 				"17",
@@ -169,8 +162,7 @@ let nodeValues = {
 			"Ravens": [
 				"15",
 				"33",
-				"",
-				"13"
+				""
 			],
 			"Vine Creeper": [
 				"20",
@@ -178,13 +170,11 @@ let nodeValues = {
 				"7",
 				"36",
 				"2",
-				"30",
-				"2"
+				"30"
 			],
 			"Wolves": [
 				"14",
-				"50",
-				"8"
+				"50"
 			]
 		},
 		"Wrath": {
@@ -436,18 +426,6 @@ let nodeValues = {
 			],
 			"Fire Bolt": [
 				"20"
-			],
-			"Frost Bolt — Enchantment": [
-				"30"
-			],
-			"Spark — Enchantment": [
-				"10"
-			],
-			"Arc Lash — Enchantment": [
-				"0.5"
-			],
-			"Fire Bolt — Enchantment": [
-				"{23.4/25.74/28.08/30.42/32.76}%"
 			]
 		},
 		"Core": {
@@ -474,21 +452,6 @@ let nodeValues = {
 			"Ice Shards": [
 				"30",
 				"25"
-			],
-			"Charged Bolts — Enchantment": [
-				"40"
-			],
-			"Frozen Orb — Enchantment": [
-				"20"
-			],
-			"Incinerate — Enchantment": [
-				"20"
-			],
-			"Fireball — Enchantment": [
-				"50"
-			],
-			"Chain Lightning — Enchantment": [
-				"100"
 			]
 		},
 		"Defensive": {
@@ -506,44 +469,20 @@ let nodeValues = {
 			"Teleport": [
 				"11",
 				"40"
-			],
-			"Flame Shield — Enchantment": [
-				"120"
-			],
-			"Frost Nova — Enchantment": [
-				"30"
-			],
-			"Ice Armor — Enchantment": [
-				"5"
-			],
-			"Teleport — Enchantment": [
-				"17.0"
 			]
 		},
 		"Conjuration": {
 			"Hydra": [
 				"20",
-				"77",
-				"8"
+				"77"
 			],
 			"Ice Blades": [
 				"12",
-				"71",
-				"6.0"
+				"71"
 			],
 			"Lightning Spear": [
 				"20",
-				"35",
-				"6.0"
-			],
-			"Hydra — Enchantment": [
-				"300"
-			],
-			"Ice Blades — Enchantment": [
-				"20"
-			],
-			"Lightning Spear — Enchantment": [
-				"10"
+				"35"
 			]
 		},
 		"Mastery": {
@@ -564,18 +503,6 @@ let nodeValues = {
 			"Firewall": [
 				"30",
 				"40"
-			],
-			"Meteor — Enchantment": [
-				"3"
-			],
-			"Blizzard — Enchantment": [
-				"15"
-			],
-			"Ball Lightning — Enchantment": [
-				"25"
-			],
-			"Firewall — Enchantment": [
-				"5"
 			]
 		},
 		"Ultimate": {

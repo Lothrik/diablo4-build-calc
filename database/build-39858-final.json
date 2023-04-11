@@ -1565,9 +1565,9 @@
 						"Damage Reduction",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nTaunt Nearby enemies and gain {#}% Damage Reduction for 8 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nTaunt Nearby enemies and gain {40/45/50/55/60/65/70/75/80/85}% Damage Reduction for 8 seconds.",
 					"skill_name": "Challenging Shout",
-					"skill_rankup_desc": "• Damage Reduction 🡑 {#}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {40/45/50/55/60/65/70/75/80/85}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -1630,9 +1630,9 @@
 						"Movement",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nBellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for 6 seconds, and Nearby allies for 3 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nBellow a rallying cry, increasing your Movement Speed by +30% and Resource Generation by x{50/55/60/65/70/75/80/85/90/95}% for 6 seconds, and Nearby allies for 3 seconds.",
 					"skill_name": "Rallying Cry",
-					"skill_rankup_desc": "• Resource Generation Bonus 🡑 x{#}%"
+					"skill_rankup_desc": "• Resource Generation Bonus 🡑 x{50/55/60/65/70/75/80/85/90/95}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -2778,7 +2778,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "If at least 6 enemies are Nearby when you cast War Cry, your damage bonus is increased to x{#}%.",
+					"skill_desc": "If at least 6 enemies are Nearby when you cast War Cry, your damage bonus is increased to x{30/31.5/33/34.5/36/37.5/39/40.5/42/43.5}%.",
 					"skill_name": "Power War Cry"
 				},
 				"req_points": 0,
@@ -5284,9 +5284,9 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nBellow a mighty war cry, increasing your damage dealt by x{#}% for 8 seconds, and Nearby allies for 4 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nBellow a mighty war cry, increasing your damage dealt by x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% for 8 seconds, and Nearby allies for 4 seconds.",
 					"skill_name": "War Cry",
-					"skill_rankup_desc": "• Damage Bonus 🡑 x{#}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -9862,9 +9862,9 @@
 						"Cooldown",
 						"Crowd Control"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#} Poisoning damage over 6 seconds to an enemy in the area.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: A vine creeper periodically emerges from the ground every {#} seconds and applies {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Poisoning damage over 6 seconds to an enemy in the area.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.",
 					"skill_name": "Vine Creeper",
-					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {#}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%\n• Active Damage 🡑 {#}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11397,9 +11397,9 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Summon 2 wolf companions that bite enemies for {#}% damage.\n\nActive: Direct your wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Summon 2 wolf companions that bite enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% damage.\n\nActive: Direct your wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
 					"skill_name": "Wolves",
-					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%\n• Active Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11464,9 +11464,9 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: {#} Ravens fly above you and periodically attack your enemies for {#}% damage every 5 seconds.\n\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: {#} Ravens fly above you and periodically attack your enemies for 13% damage every 5 seconds.\n\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
 					"skill_name": "Ravens",
-					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 13%\n• Active Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -28755,68 +28755,68 @@
 	"Sorcerer": {
 		"Enchantment": {
 			"Sorcerer_Enchantment_ArcLash": {
-				"desc": "When you use a Cooldown, enemies around you are Stunned for {#} seconds."
+				"desc": "When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} seconds."
 			},
 			"Sorcerer_Enchantment_BallLightning": {
-				"desc": "Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning."
+				"desc": "Lucky Hit: Critical Strikes have a 25% chance to spawn a static Ball Lightning."
 			},
 			"Sorcerer_Enchantment_Blizzard": {
-				"desc": "Every {#} seconds, a Blizzard forms over you and follows you for 6 seconds."
+				"desc": "Every 15 seconds, a Blizzard forms over you and follows you for 6 seconds."
 			},
 			"Sorcerer_Enchantment_ChainLightning": {
-				"desc": "Chain Lightning forms automatically after spending {#} Mana."
+				"desc": "Chain Lightning forms automatically after spending 100 Mana."
 			},
 			"Sorcerer_Enchantment_ChargedBolt": {
-				"desc": "When you Stun an enemy, there's a {#}% chance to release 3 Charged Bolts from them."
+				"desc": "When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from them."
 			},
 			"Sorcerer_Enchantment_FireBall": {
-				"desc": "When you kill an enemy, they explode in a Fireball for {#}% of its damage."
+				"desc": "When you kill an enemy, they explode in a Fireball for 50% of its damage."
 			},
 			"Sorcerer_Enchantment_Firebolt": {
-				"desc": "Direct damage from Skills applies up to an additional {#} Burning damage over 8 seconds."
+				"desc": "Direct damage from Skills applies up to an additional {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% Burning damage over 8 seconds."
 			},
 			"Sorcerer_Enchantment_Firewall": {
-				"desc": "Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewalls underneath them for 3 seconds."
+				"desc": "Each time an enemy takes Burning damage, there's a 5% chance to spawn 2 Firewalls underneath them for 3 seconds."
 			},
 			"Sorcerer_Enchantment_FlameShield": {
-				"desc": "Flame Shield automatically activates when you take fatal damage. Can only happen once every {#} seconds."
+				"desc": "Flame Shield automatically activates when you take fatal damage. Can only happen once every 120 seconds."
 			},
 			"Sorcerer_Enchantment_FrostNova": {
-				"desc": "Lucky Hit: Your Conjuration Skills have a {#}% chance to unleash a Frost Nova when hitting enemies."
+				"desc": "Lucky Hit: Your Conjuration Skills have a 30% chance to unleash a Frost Nova when hitting enemies."
 			},
 			"Sorcerer_Enchantment_Frostbolt": {
-				"desc": "Direct damage from Skills applies up to {#}% Chill."
+				"desc": "Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% Chill."
 			},
 			"Sorcerer_Enchantment_FrozenOrb": {
-				"desc": "Whenever you cast a Non-Basic Skill, you have a {#}% chance to launch a Frozen Orb at a Nearby enemy."
+				"desc": "Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Orb at a Nearby enemy."
 			},
 			"Sorcerer_Enchantment_Hydra": {
-				"desc": "After spending {#} Mana, a 5-headed Hydra spawns for 5 seconds."
+				"desc": "After spending 300 Mana, a 5-headed Hydra spawns for 5 seconds."
 			},
 			"Sorcerer_Enchantment_IceArmor": {
-				"desc": "Upon getting hit, you have a {#}% chance to apply Ice Armor."
+				"desc": "Upon getting hit, you have a 5% chance to apply Ice Armor."
 			},
 			"Sorcerer_Enchantment_IceBlades": {
-				"desc": "For every {#} seconds in Cooldowns you spend, you spawn an Ice Blades on a random enemy."
+				"desc": "For every 20 seconds in Cooldowns you spend, you spawn an Ice Blades on a random enemy."
 			},
 			"Sorcerer_Enchantment_IceShards": {
 				"desc": "Ice Shards automatically conjure and fly towards Frozen enemies."
 			},
 			"Sorcerer_Enchantment_Incinerate": {
-				"desc": "Every {#} seconds, a serpent spawns and Incinerates enemies for 6 seconds."
+				"desc": "Every 20 seconds, a serpent spawns and Incinerates enemies for 6 seconds."
 			},
 			"Sorcerer_Enchantment_Incinerate_Focus_Target": {},
 			"Sorcerer_Enchantment_LightningSpear": {
-				"desc": "Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear."
+				"desc": "Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear."
 			},
 			"Sorcerer_Enchantment_Meteor": {
-				"desc": "Lucky Hit: {#}% chance for a Meteor to fall on enemies."
+				"desc": "Lucky Hit: 3% chance for a Meteor to fall on enemies."
 			},
 			"Sorcerer_Enchantment_Spark": {
-				"desc": "Killing an enemy has a {#}% chance to form a Crackling Energy."
+				"desc": "Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackling Energy."
 			},
 			"Sorcerer_Enchantment_Teleport": {
-				"desc": "Evade is replaced with a short range Teleport on a {#} second Cooldown."
+				"desc": "Evade is replaced with a short range Teleport on a {17/17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88} second Cooldown."
 			},
 			"Sorcerer_Enchantment_Teleport_Active": {
 				"desc": "Teleport description here - since this is a skill that replaces your Evade button, you should never see this.",
@@ -32577,7 +32577,7 @@
 						"Fire",
 						"Mana"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a 3-headed hydra for {#} seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.\n\nMaximum 1 active Hydras at a time.",
+					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a 3-headed hydra for 12 seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.\n\nMaximum 1 active Hydras at a time.",
 					"skill_name": "Hydra",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
@@ -32854,7 +32854,7 @@
 						"Cold",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a pair of ice blades for {#} seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a pair of ice blades for 6 seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.",
 					"skill_name": "Ice Blades",
 					"skill_rankup_desc": "• Damage 🡑 {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}%"
 				},
@@ -34255,7 +34255,7 @@
 						"Lightning",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a spear of lightning that seeks out enemies for {#} seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage per hit.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a spear of lightning that seeks out enemies for 6 seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage per hit.",
 					"skill_name": "Lightning Spear",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},

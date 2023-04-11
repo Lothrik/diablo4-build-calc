@@ -2344,11 +2344,11 @@
 						3,
 						0,
 						25,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						"",
 						"",
 						0,
-						"1 - (1 - (0.4 + (0.05 * (sLevel - 1)))) * (1 - ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.4 ,0.45,0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85])",
 						0.5,
 						"SF_12 * (Hitpoints_Max_Total * (1 + (SF_17 * Mod.SkillRank)))",
 						"",
@@ -2367,9 +2367,9 @@
 						"Damage Reduction",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nTaunt Nearby enemies and gain {#}% Damage Reduction for 8 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nTaunt Nearby enemies and gain {40/45/50/55/60/65/70/75/80/85}% Damage Reduction for 8 seconds.",
 					"skill_name": "Challenging Shout",
-					"skill_rankup_desc": "• Damage Reduction 🡑 {#}%"
+					"skill_rankup_desc": "• Damage Reduction 🡑 {40/45/50/55/60/65/70/75/80/85}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -2481,15 +2481,15 @@
 						6,
 						0,
 						0,
-						"0.3 * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						0.3,
 						0.5,
 						3,
-						"(0.5 * Table(34,sLevel)) * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 						0.5,
 						"(Mod.SkillRank  and  1  or  0)",
 						0.5,
 						0.3,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						25,
 						0.1,
 						0.02,
@@ -2508,9 +2508,9 @@
 						"Movement",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nBellow a rallying cry, increasing your Movement Speed by +{#}% and Resource Generation by x{#}% for 6 seconds, and Nearby allies for 3 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nBellow a rallying cry, increasing your Movement Speed by +30% and Resource Generation by x{50/55/60/65/70/75/80/85/90/95}% for 6 seconds, and Nearby allies for 3 seconds.",
 					"skill_name": "Rallying Cry",
-					"skill_rankup_desc": "• Resource Generation Bonus 🡑 x{#}%"
+					"skill_rankup_desc": "• Resource Generation Bonus 🡑 x{50/55/60/65/70/75/80/85/90/95}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -3743,11 +3743,11 @@
 						3,
 						0,
 						25,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						"",
 						"",
 						0,
-						"1 - (1 - (0.4 + (0.05 * (sLevel - 1)))) * (1 - ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.4 ,0.45,0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85])",
 						0.5,
 						"SF_12 * (Hitpoints_Max_Total * (1 + (SF_17 * Mod.SkillRank)))",
 						"",
@@ -3874,15 +3874,15 @@
 						6,
 						0,
 						0,
-						"0.3 * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						0.3,
 						0.5,
 						3,
-						"(0.5 * Table(34,sLevel)) * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 						0.5,
 						"(Mod.SkillRank  and  1  or  0)",
 						0.5,
 						0.3,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						25,
 						0.1,
 						0.02,
@@ -3939,10 +3939,10 @@
 					},
 					"power_formulas": [
 						10,
-						"(0.15 + (0.015*(sLevel-1))) * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						8,
 						0,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						4,
 						"",
 						0,
@@ -4781,10 +4781,10 @@
 					},
 					"power_formulas": [
 						10,
-						"(0.15 + (0.015*(sLevel-1))) * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						8,
 						0,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						4,
 						"",
 						0,
@@ -4809,7 +4809,7 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "If at least 6 enemies are Nearby when you cast War Cry, your damage bonus is increased to x{#}%.",
+					"skill_desc": "If at least 6 enemies are Nearby when you cast War Cry, your damage bonus is increased to x{30/31.5/33/34.5/36/37.5/39/40.5/42/43.5}%.",
 					"skill_name": "Power War Cry"
 				},
 				"req_points": 0,
@@ -4861,10 +4861,10 @@
 					},
 					"power_formulas": [
 						10,
-						"(0.15 + (0.015*(sLevel-1))) * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						8,
 						0,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						4,
 						"",
 						0,
@@ -5385,15 +5385,15 @@
 						6,
 						0,
 						0,
-						"0.3 * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						0.3,
 						0.5,
 						3,
-						"(0.5 * Table(34,sLevel)) * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 						0.5,
 						"(Mod.SkillRank  and  1  or  0)",
 						0.5,
 						0.3,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						25,
 						0.1,
 						0.02,
@@ -5455,15 +5455,15 @@
 						6,
 						0,
 						0,
-						"0.3 * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						0.3,
 						0.5,
 						3,
-						"(0.5 * Table(34,sLevel)) * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 						0.5,
 						"(Mod.SkillRank  and  1  or  0)",
 						0.5,
 						0.3,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						25,
 						0.1,
 						0.02,
@@ -7205,11 +7205,11 @@
 						3,
 						0,
 						25,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						"",
 						"",
 						0,
-						"1 - (1 - (0.4 + (0.05 * (sLevel - 1)))) * (1 - ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.4 ,0.45,0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85])",
 						0.5,
 						"SF_12 * (Hitpoints_Max_Total * (1 + (SF_17 * Mod.SkillRank)))",
 						"",
@@ -7278,11 +7278,11 @@
 						3,
 						0,
 						25,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						"",
 						"",
 						0,
-						"1 - (1 - (0.4 + (0.05 * (sLevel - 1)))) * (1 - ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.4 ,0.45,0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85])",
 						0.5,
 						"SF_12 * (Hitpoints_Max_Total * (1 + (SF_17 * Mod.SkillRank)))",
 						"",
@@ -9531,10 +9531,10 @@
 					},
 					"power_formulas": [
 						10,
-						"(0.15 + (0.015*(sLevel-1))) * (1+ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0))",
+						"array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						8,
 						0,
-						"ParagonNodeIsPurchased((SNO.ParagonNode.Barbarian_Legendary_005)  and  PowerTag.Paragon_Barb_Legendary_005.\"Script Formula 0\"  or  0)",
+						0,
 						4,
 						"",
 						0,
@@ -9558,9 +9558,9 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nBellow a mighty war cry, increasing your damage dealt by x{#}% for 8 seconds, and Nearby allies for 4 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nBellow a mighty war cry, increasing your damage dealt by x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% for 8 seconds, and Nearby allies for 4 seconds.",
 					"skill_name": "War Cry",
-					"skill_rankup_desc": "• Damage Bonus 🡑 x{#}%"
+					"skill_rankup_desc": "• Damage Bonus 🡑 x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -14775,7 +14775,7 @@
 					},
 					"power_dots": {
 						"1810252870": 0,
-						"1885493066": "0.36 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1) / 6",
+						"1885493066": "array([0.06 ,0.066,0.072,0.078,0.084,0.09 ,0.096,0.102,0.108,0.114])",
 						"2633953107": "array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						"3471501922": 0,
 						"3917838269": 0,
@@ -14783,7 +14783,7 @@
 					},
 					"power_formulas": [
 						"7 - (Mod.StranglePoison * SF_17)",
-						"0.36 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						"array([0.36 ,0.396,0.432,0.468,0.504,0.54 ,0.576,0.612,0.648,0.684])",
 						6,
 						20,
 						5,
@@ -14800,7 +14800,7 @@
 						"",
 						0.2,
 						1,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						1,
 						40,
 						22.54,
 						2.106,
@@ -14857,7 +14857,7 @@
 						2,
 						1.5,
 						12,
-						"0.078 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						"array([0.078,0.086,0.094,0.101,0.109,0.117,0.125,0.133,0.14 ,0.148])",
 						"array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
 						18,
 						14,
@@ -14869,7 +14869,7 @@
 						3,
 						0.2,
 						1,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						1,
 						50,
 						0.05,
 						10,
@@ -14880,7 +14880,7 @@
 					"power_name": "Druid_WolfPack",
 					"power_payloads": {
 						"141451050": "array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
-						"969642537": "0.078 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						"969642537": "array([0.078,0.086,0.094,0.101,0.109,0.117,0.125,0.133,0.14 ,0.148])",
 						"2552338403": 0
 					},
 					"power_tags_list": [
@@ -14920,7 +14920,7 @@
 						"1793593580": 0
 					},
 					"power_formulas": [
-						"0.13 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						0.13,
 						"1 + ((Mod.UpgradeB  and  SF_14  or  0)) + SF_16",
 						5,
 						"array([0.85 ,0.935,1.02 ,1.105,1.19 ,1.275,1.36 ,1.445,1.53 ,1.615])",
@@ -14933,7 +14933,7 @@
 						6,
 						3,
 						15,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						1,
 						2,
 						"array([ 1, 2, 3, 4, 5, 6, 7, 8, 9,10])",
 						0,
@@ -14946,7 +14946,7 @@
 					"power_mod_id": 2,
 					"power_name": "Druid_Ravens",
 					"power_payloads": {
-						"969642537": "0.13 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						"969642537": 0.13,
 						"1062719202": "array([0.85 ,0.935,1.02 ,1.105,1.19 ,1.275,1.36 ,1.445,1.53 ,1.615])",
 						"3022012808": 0,
 						"3215175290": 0,
@@ -15810,7 +15810,7 @@
 						2,
 						1.5,
 						12,
-						"0.078 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						"array([0.078,0.086,0.094,0.101,0.109,0.117,0.125,0.133,0.14 ,0.148])",
 						"array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
 						18,
 						14,
@@ -15822,7 +15822,7 @@
 						3,
 						0.2,
 						1,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						1,
 						50,
 						0.05,
 						10,
@@ -15833,7 +15833,7 @@
 					"power_name": "Druid_WolfPack",
 					"power_payloads": {
 						"141451050": "array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
-						"969642537": "0.078 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						"969642537": "array([0.078,0.086,0.094,0.101,0.109,0.117,0.125,0.133,0.14 ,0.148])",
 						"2552338403": 0
 					},
 					"power_tags_list": [
@@ -15883,7 +15883,7 @@
 						2,
 						1.5,
 						12,
-						"0.078 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						"array([0.078,0.086,0.094,0.101,0.109,0.117,0.125,0.133,0.14 ,0.148])",
 						"array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
 						18,
 						14,
@@ -15895,7 +15895,7 @@
 						3,
 						0.2,
 						1,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						1,
 						50,
 						0.05,
 						10,
@@ -15906,7 +15906,7 @@
 					"power_name": "Druid_WolfPack",
 					"power_payloads": {
 						"141451050": "array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
-						"969642537": "0.078 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						"969642537": "array([0.078,0.086,0.094,0.101,0.109,0.117,0.125,0.133,0.14 ,0.148])",
 						"2552338403": 0
 					},
 					"power_tags_list": [
@@ -15948,7 +15948,7 @@
 					},
 					"power_dots": {
 						"1810252870": 0,
-						"1885493066": "0.36 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1) / 6",
+						"1885493066": "array([0.06 ,0.066,0.072,0.078,0.084,0.09 ,0.096,0.102,0.108,0.114])",
 						"2633953107": "array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						"3471501922": 0,
 						"3917838269": 0,
@@ -15956,7 +15956,7 @@
 					},
 					"power_formulas": [
 						"7 - (Mod.StranglePoison * SF_17)",
-						"0.36 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						"array([0.36 ,0.396,0.432,0.468,0.504,0.54 ,0.576,0.612,0.648,0.684])",
 						6,
 						20,
 						5,
@@ -15973,7 +15973,7 @@
 						"",
 						0.2,
 						1,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						1,
 						40,
 						22.54,
 						2.106,
@@ -16020,7 +16020,7 @@
 					},
 					"power_dots": {
 						"1810252870": 0,
-						"1885493066": "0.36 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1) / 6",
+						"1885493066": "array([0.06 ,0.066,0.072,0.078,0.084,0.09 ,0.096,0.102,0.108,0.114])",
 						"2633953107": "array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						"3471501922": 0,
 						"3917838269": 0,
@@ -16028,7 +16028,7 @@
 					},
 					"power_formulas": [
 						"7 - (Mod.StranglePoison * SF_17)",
-						"0.36 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						"array([0.36 ,0.396,0.432,0.468,0.504,0.54 ,0.576,0.612,0.648,0.684])",
 						6,
 						20,
 						5,
@@ -16045,7 +16045,7 @@
 						"",
 						0.2,
 						1,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						1,
 						40,
 						22.54,
 						2.106,
@@ -16089,7 +16089,7 @@
 						"1793593580": 0
 					},
 					"power_formulas": [
-						"0.13 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						0.13,
 						"1 + ((Mod.UpgradeB  and  SF_14  or  0)) + SF_16",
 						5,
 						"array([0.85 ,0.935,1.02 ,1.105,1.19 ,1.275,1.36 ,1.445,1.53 ,1.615])",
@@ -16102,7 +16102,7 @@
 						6,
 						3,
 						15,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						1,
 						2,
 						"array([ 1, 2, 3, 4, 5, 6, 7, 8, 9,10])",
 						0,
@@ -16115,7 +16115,7 @@
 					"power_mod_id": 3,
 					"power_name": "Druid_Ravens",
 					"power_payloads": {
-						"969642537": "0.13 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						"969642537": 0.13,
 						"1062719202": "array([0.85 ,0.935,1.02 ,1.105,1.19 ,1.275,1.36 ,1.445,1.53 ,1.615])",
 						"3022012808": 0,
 						"3215175290": 0,
@@ -16157,7 +16157,7 @@
 						"1793593580": 0
 					},
 					"power_formulas": [
-						"0.13 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						0.13,
 						"1 + ((Mod.UpgradeB  and  SF_14  or  0)) + SF_16",
 						5,
 						"array([0.85 ,0.935,1.02 ,1.105,1.19 ,1.275,1.36 ,1.445,1.53 ,1.615])",
@@ -16170,7 +16170,7 @@
 						6,
 						3,
 						15,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						1,
 						2,
 						"array([ 1, 2, 3, 4, 5, 6, 7, 8, 9,10])",
 						0,
@@ -16183,7 +16183,7 @@
 					"power_mod_id": 0,
 					"power_name": "Druid_Ravens",
 					"power_payloads": {
-						"969642537": "0.13 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						"969642537": 0.13,
 						"1062719202": "array([0.85 ,0.935,1.02 ,1.105,1.19 ,1.275,1.36 ,1.445,1.53 ,1.615])",
 						"3022012808": 0,
 						"3215175290": 0,
@@ -17568,7 +17568,7 @@
 					},
 					"power_dots": {
 						"1810252870": 0,
-						"1885493066": "0.36 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1) / 6",
+						"1885493066": "array([0.06 ,0.066,0.072,0.078,0.084,0.09 ,0.096,0.102,0.108,0.114])",
 						"2633953107": "array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						"3471501922": 0,
 						"3917838269": 0,
@@ -17576,7 +17576,7 @@
 					},
 					"power_formulas": [
 						"7 - (Mod.StranglePoison * SF_17)",
-						"0.36 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						"array([0.36 ,0.396,0.432,0.468,0.504,0.54 ,0.576,0.612,0.648,0.684])",
 						6,
 						20,
 						5,
@@ -17593,7 +17593,7 @@
 						"",
 						0.2,
 						1,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						1,
 						40,
 						22.54,
 						2.106,
@@ -17607,9 +17607,9 @@
 						"Cooldown",
 						"Crowd Control"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#} Poisoning damage over 6 seconds to an enemy in the area.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: A vine creeper periodically emerges from the ground every {#} seconds and applies {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Poisoning damage over 6 seconds to an enemy in the area.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.",
 					"skill_name": "Vine Creeper",
-					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {#}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%\n• Active Damage 🡑 {#}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -20242,7 +20242,7 @@
 						2,
 						1.5,
 						12,
-						"0.078 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						"array([0.078,0.086,0.094,0.101,0.109,0.117,0.125,0.133,0.14 ,0.148])",
 						"array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
 						18,
 						14,
@@ -20254,7 +20254,7 @@
 						3,
 						0.2,
 						1,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						1,
 						50,
 						0.05,
 						10,
@@ -20264,7 +20264,7 @@
 					"power_name": "Druid_WolfPack",
 					"power_payloads": {
 						"141451050": "array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
-						"969642537": "0.078 * Table(34,sLevel) * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  SF_14   or  1)",
+						"969642537": "array([0.078,0.086,0.094,0.101,0.109,0.117,0.125,0.133,0.14 ,0.148])",
 						"2552338403": 0
 					},
 					"power_tags_list": [
@@ -20273,9 +20273,9 @@
 						"Damage",
 						"Physical"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Summon 2 wolf companions that bite enemies for {#}% damage.\n\nActive: Direct your wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: Summon 2 wolf companions that bite enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% damage.\n\nActive: Direct your wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
 					"skill_name": "Wolves",
-					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%\n• Active Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -20367,7 +20367,7 @@
 						"1793593580": 0
 					},
 					"power_formulas": [
-						"0.13 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						0.13,
 						"1 + ((Mod.UpgradeB  and  SF_14  or  0)) + SF_16",
 						5,
 						"array([0.85 ,0.935,1.02 ,1.105,1.19 ,1.275,1.36 ,1.445,1.53 ,1.615])",
@@ -20380,7 +20380,7 @@
 						6,
 						3,
 						15,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						1,
 						2,
 						"array([ 1, 2, 3, 4, 5, 6, 7, 8, 9,10])",
 						0,
@@ -20392,7 +20392,7 @@
 					],
 					"power_name": "Druid_Ravens",
 					"power_payloads": {
-						"969642537": "0.13 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_041_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_041.\"Script Formula 0\")  or  1)",
+						"969642537": 0.13,
 						"1062719202": "array([0.85 ,0.935,1.02 ,1.105,1.19 ,1.275,1.36 ,1.445,1.53 ,1.615])",
 						"3022012808": 0,
 						"3215175290": 0,
@@ -20404,9 +20404,9 @@
 						"Damage",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: {#} Ravens fly above you and periodically attack your enemies for {#}% damage every 5 seconds.\n\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nPassive: {#} Ravens fly above you and periodically attack your enemies for 13% damage every 5 seconds.\n\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
 					"skill_name": "Ravens",
-					"skill_rankup_desc": "• Passive Damage 🡑 {#}\n• Active Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
+					"skill_rankup_desc": "• Passive Damage 🡑 13%\n• Active Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -39900,7 +39900,7 @@
 					"power_formulas": [
 						6,
 						"array([0.5  ,0.533,0.565,0.594,0.621,0.646,0.67 ,0.692,0.713,0.732])",
-						"3 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						3,
 						0.15,
 						0.3,
 						39,
@@ -39915,7 +39915,7 @@
 						0.03,
 						"array([0.3 ,0.33,0.36,0.39,0.42,0.45,0.48,0.51,0.54,0.57])",
 						20,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						0.05,
 						0.1
 					],
@@ -40882,7 +40882,7 @@
 					"power_formulas": [
 						6,
 						"array([0.5  ,0.533,0.565,0.594,0.621,0.646,0.67 ,0.692,0.713,0.732])",
-						"3 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						3,
 						0.15,
 						0.3,
 						39,
@@ -40897,7 +40897,7 @@
 						0.03,
 						"array([0.3 ,0.33,0.36,0.39,0.42,0.45,0.48,0.51,0.54,0.57])",
 						20,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						0.05,
 						0.1
 					],
@@ -41073,7 +41073,7 @@
 						"1.25 - Trap_Arm_Time_Reduction_Seconds",
 						10,
 						"",
-						"2 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						2,
 						0.25,
 						"array([3.456,3.78 ,4.14 ,4.464,4.824,5.148,5.508,5.868,6.192,6.552])",
 						0.25,
@@ -41086,7 +41086,7 @@
 						0.1,
 						0.2,
 						1.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						0.855
 					],
 					"power_mod_id": 3,
@@ -42399,7 +42399,7 @@
 						"1.25 - Trap_Arm_Time_Reduction_Seconds",
 						10,
 						"",
-						"2 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						2,
 						0.25,
 						"array([3.456,3.78 ,4.14 ,4.464,4.824,5.148,5.508,5.868,6.192,6.552])",
 						0.25,
@@ -42412,7 +42412,7 @@
 						0.1,
 						0.2,
 						1.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						0.855
 					],
 					"power_name": "Rogue_PoisonTrap",
@@ -42640,7 +42640,7 @@
 						"1.25 - Trap_Arm_Time_Reduction_Seconds",
 						10,
 						"",
-						"2 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						2,
 						0.25,
 						"array([3.456,3.78 ,4.14 ,4.464,4.824,5.148,5.508,5.868,6.192,6.552])",
 						0.25,
@@ -42653,7 +42653,7 @@
 						0.1,
 						0.2,
 						1.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						0.855
 					],
 					"power_mod_id": 1,
@@ -43567,7 +43567,7 @@
 					"power_formulas": [
 						6,
 						"array([0.5  ,0.533,0.565,0.594,0.621,0.646,0.67 ,0.692,0.713,0.732])",
-						"3 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						3,
 						0.15,
 						0.3,
 						39,
@@ -43582,7 +43582,7 @@
 						0.03,
 						"array([0.3 ,0.33,0.36,0.39,0.42,0.45,0.48,0.51,0.54,0.57])",
 						20,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						0.05,
 						0.1
 					],
@@ -44090,7 +44090,7 @@
 						"1.25 - Trap_Arm_Time_Reduction_Seconds",
 						50,
 						"",
-						"4 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						4,
 						0.25,
 						2.5,
 						0.25,
@@ -44102,7 +44102,7 @@
 						"",
 						"",
 						10,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						4
 					],
 					"power_name": "Rogue_DeathTrap",
@@ -44233,7 +44233,7 @@
 						"1.25 - Trap_Arm_Time_Reduction_Seconds",
 						50,
 						"",
-						"4 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						4,
 						0.25,
 						2.5,
 						0.25,
@@ -44245,7 +44245,7 @@
 						"",
 						"",
 						10,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						4
 					],
 					"power_mod_id": 0,
@@ -44376,7 +44376,7 @@
 						"1.25 - Trap_Arm_Time_Reduction_Seconds",
 						50,
 						"",
-						"4 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						4,
 						0.25,
 						2.5,
 						0.25,
@@ -44388,7 +44388,7 @@
 						"",
 						"",
 						10,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						4
 					],
 					"power_mod_id": 1,
@@ -45633,7 +45633,7 @@
 						"1.25 - Trap_Arm_Time_Reduction_Seconds",
 						10,
 						"",
-						"2 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						2,
 						0.25,
 						"array([3.456,3.78 ,4.14 ,4.464,4.824,5.148,5.508,5.868,6.192,6.552])",
 						0.25,
@@ -45646,7 +45646,7 @@
 						0.1,
 						0.2,
 						1.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						0.855
 					],
 					"power_mod_id": 2,
@@ -46243,7 +46243,7 @@
 					"power_formulas": [
 						6,
 						"array([0.5  ,0.533,0.565,0.594,0.621,0.646,0.67 ,0.692,0.713,0.732])",
-						"3 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						3,
 						0.15,
 						0.3,
 						39,
@@ -46258,7 +46258,7 @@
 						0.03,
 						"array([0.3 ,0.33,0.36,0.39,0.42,0.45,0.48,0.51,0.54,0.57])",
 						20,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_065_Intelligence_Side)  and  (1 + PowerTag.ParagonGlyph_065.\"Script Formula 0\")  or  1)",
+						1,
 						0.05,
 						0.1
 					],
@@ -47634,9 +47634,9 @@
 	"Sorcerer": {
 		"Enchantment": {
 			"Sorcerer_Enchantment_ArcLash": {
-				"desc": "When you use a Cooldown, enemies around you are Stunned for {#} seconds.",
+				"desc": "When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} seconds.",
 				"power_buffdurations": {
-					"4263050": "0.5 * array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]) * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					"4263050": "array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 					"1928688498": 1
 				},
 				"power_dots": {
@@ -47644,14 +47644,14 @@
 					"1928688498": 0
 				},
 				"power_formulas": [
-					"0.5 * array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]) * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 					2,
 					"array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9])",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_BallLightning": {
-				"desc": "Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning.",
+				"desc": "Lucky Hit: Critical Strikes have a 25% chance to spawn a static Ball Lightning.",
 				"power_buffdurations": {
 					"435279862": 3,
 					"1137484338": 1
@@ -47661,13 +47661,13 @@
 					"1137484338": 0
 				},
 				"power_formulas": [
-					"25 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					25,
 					3,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Blizzard": {
-				"desc": "Every {#} seconds, a Blizzard forms over you and follows you for 6 seconds.",
+				"desc": "Every 15 seconds, a Blizzard forms over you and follows you for 6 seconds.",
 				"power_buffdurations": {
 					"944727798": 1
 				},
@@ -47675,13 +47675,13 @@
 					"944727798": 0
 				},
 				"power_formulas": [
-					"15 * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
+					15,
 					6,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_ChainLightning": {
-				"desc": "Chain Lightning forms automatically after spending {#} Mana.",
+				"desc": "Chain Lightning forms automatically after spending 100 Mana.",
 				"power_buffdurations": {
 					"2735276507": 1
 				},
@@ -47689,12 +47689,12 @@
 					"2735276507": 0
 				},
 				"power_formulas": [
-					"100 * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					100,
+					1
 				]
 			},
 			"Sorcerer_Enchantment_ChargedBolt": {
-				"desc": "When you Stun an enemy, there's a {#}% chance to release 3 Charged Bolts from them.",
+				"desc": "When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from them.",
 				"power_buffdurations": {
 					"1131260883": 1
 				},
@@ -47703,12 +47703,12 @@
 				},
 				"power_formulas": [
 					3,
-					"0.4 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					0.4,
+					1
 				]
 			},
 			"Sorcerer_Enchantment_FireBall": {
-				"desc": "When you kill an enemy, they explode in a Fireball for {#}% of its damage.",
+				"desc": "When you kill an enemy, they explode in a Fireball for 50% of its damage.",
 				"power_buffdurations": {
 					"1702204449": 1,
 					"2613050357": 1
@@ -47718,31 +47718,31 @@
 					"2613050357": 0
 				},
 				"power_formulas": [
-					"0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					0.5,
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Firebolt": {
-				"desc": "Direct damage from Skills applies up to an additional {#} Burning damage over 8 seconds.",
+				"desc": "Direct damage from Skills applies up to an additional {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% Burning damage over 8 seconds.",
 				"power_buffdurations": {
 					"77613195": 1,
 					"2432949205": 8
 				},
 				"power_dots": {
 					"77613195": 0,
-					"2432949205": "0.234 * array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]) * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))/8"
+					"2432949205": "array([0.029,0.032,0.035,0.038,0.041,0.044,0.047,0.05 ,0.053,0.056])"
 				},
 				"power_formulas": [
-					"0.234 * array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]) * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					"array([0.234,0.257,0.281,0.304,0.328,0.351,0.374,0.398,0.421,0.445])",
 					"array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9])",
 					8,
-					"0.234 * array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]) * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))/8",
+					"array([0.029,0.032,0.035,0.038,0.041,0.044,0.047,0.05 ,0.053,0.056])",
 					100,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Firewall": {
-				"desc": "Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewalls underneath them for 3 seconds.",
+				"desc": "Each time an enemy takes Burning damage, there's a 5% chance to spawn 2 Firewalls underneath them for 3 seconds.",
 				"power_buffdurations": {
 					"435279862": 3,
 					"2619086698": 1
@@ -47752,16 +47752,16 @@
 					"2619086698": 0
 				},
 				"power_formulas": [
-					"5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					5,
 					3,
 					3,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_FlameShield": {
-				"desc": "Flame Shield automatically activates when you take fatal damage. Can only happen once every {#} seconds.",
+				"desc": "Flame Shield automatically activates when you take fatal damage. Can only happen once every 120 seconds.",
 				"power_buffdurations": {
-					"117712": "120 * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
+					"117712": 120,
 					"1469942674": 1
 				},
 				"power_dots": {
@@ -47769,12 +47769,12 @@
 					"1469942674": 0
 				},
 				"power_formulas": [
-					"120 * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					120,
+					1
 				]
 			},
 			"Sorcerer_Enchantment_FrostNova": {
-				"desc": "Lucky Hit: Your Conjuration Skills have a {#}% chance to unleash a Frost Nova when hitting enemies.",
+				"desc": "Lucky Hit: Your Conjuration Skills have a 30% chance to unleash a Frost Nova when hitting enemies.",
 				"power_buffdurations": {
 					"2391628918": 1
 				},
@@ -47782,12 +47782,12 @@
 					"2391628918": 0
 				},
 				"power_formulas": [
-					"30 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					30,
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Frostbolt": {
-				"desc": "Direct damage from Skills applies up to {#}% Chill.",
+				"desc": "Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% Chill.",
 				"power_buffdurations": {
 					"121261644": 1,
 					"2409302579": 1
@@ -47797,13 +47797,13 @@
 					"2409302579": 0
 				},
 				"power_formulas": [
-					"15 * array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]) * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					"array([15. ,16.5,18. ,19.5,21. ,22.5,24. ,25.5,27. ,28.5])",
 					"array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9])",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_FrozenOrb": {
-				"desc": "Whenever you cast a Non-Basic Skill, you have a {#}% chance to launch a Frozen Orb at a Nearby enemy.",
+				"desc": "Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Orb at a Nearby enemy.",
 				"power_buffdurations": {
 					"1802684906": 1
 				},
@@ -47811,13 +47811,13 @@
 					"1802684906": 0
 				},
 				"power_formulas": [
-					"0.2 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					0.2,
 					18,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Hydra": {
-				"desc": "After spending {#} Mana, a 5-headed Hydra spawns for 5 seconds.",
+				"desc": "After spending 300 Mana, a 5-headed Hydra spawns for 5 seconds.",
 				"power_buffdurations": {
 					"1783276972": 1
 				},
@@ -47827,12 +47827,12 @@
 				"power_formulas": [
 					5,
 					5,
-					"300 * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					300,
+					1
 				]
 			},
 			"Sorcerer_Enchantment_IceArmor": {
-				"desc": "Upon getting hit, you have a {#}% chance to apply Ice Armor.",
+				"desc": "Upon getting hit, you have a 5% chance to apply Ice Armor.",
 				"power_buffdurations": {
 					"1899382502": 1
 				},
@@ -47840,12 +47840,12 @@
 					"1899382502": 0
 				},
 				"power_formulas": [
-					"0.05 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					0.05,
+					1
 				]
 			},
 			"Sorcerer_Enchantment_IceBlades": {
-				"desc": "For every {#} seconds in Cooldowns you spend, you spawn an Ice Blades on a random enemy.",
+				"desc": "For every 20 seconds in Cooldowns you spend, you spawn an Ice Blades on a random enemy.",
 				"power_buffdurations": {
 					"1061123376": 1
 				},
@@ -47853,9 +47853,9 @@
 					"1061123376": 0
 				},
 				"power_formulas": [
-					"20 * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
+					20,
 					18,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_IceShards": {
@@ -47867,14 +47867,14 @@
 					"1979185226": 0
 				},
 				"power_formulas": [
-					"0.5 * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
+					0.5,
 					18,
 					5,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Incinerate": {
-				"desc": "Every {#} seconds, a serpent spawns and Incinerates enemies for 6 seconds.",
+				"desc": "Every 20 seconds, a serpent spawns and Incinerates enemies for 6 seconds.",
 				"power_buffdurations": {
 					"469405181": 1
 				},
@@ -47882,10 +47882,10 @@
 					"469405181": 0
 				},
 				"power_formulas": [
-					"20 * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
+					20,
 					6,
 					0.2,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Incinerate_Focus_Target": {
@@ -47894,7 +47894,7 @@
 				]
 			},
 			"Sorcerer_Enchantment_LightningSpear": {
-				"desc": "Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear.",
+				"desc": "Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.",
 				"power_buffdurations": {
 					"3592213245": 1
 				},
@@ -47902,12 +47902,12 @@
 					"3592213245": 0
 				},
 				"power_formulas": [
-					"0.1 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					0.1,
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Meteor": {
-				"desc": "Lucky Hit: {#}% chance for a Meteor to fall on enemies.",
+				"desc": "Lucky Hit: 3% chance for a Meteor to fall on enemies.",
 				"power_buffdurations": {
 					"117712": 2,
 					"183905472": 1
@@ -47917,13 +47917,13 @@
 					"183905472": 0
 				},
 				"power_formulas": [
-					"3 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					3,
 					2,
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Spark": {
-				"desc": "Killing an enemy has a {#}% chance to form a Crackling Energy.",
+				"desc": "Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackling Energy.",
 				"power_buffdurations": {
 					"1928688498": 1
 				},
@@ -47931,13 +47931,13 @@
 					"1928688498": 0
 				},
 				"power_formulas": [
-					"0.1 * array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]) * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))",
+					"array([0.1 ,0.11,0.12,0.13,0.14,0.15,0.16,0.17,0.18,0.19])",
 					"array([1. ,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9])",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Teleport": {
-				"desc": "Evade is replaced with a short range Teleport on a {#} second Cooldown.",
+				"desc": "Evade is replaced with a short range Teleport on a {17/17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88} second Cooldown.",
 				"power_buffdurations": {
 					"3846166563": 1
 				},
@@ -47945,8 +47945,8 @@
 					"3846166563": 0
 				},
 				"power_formulas": [
-					"array([17.  ,17.  ,16.15,15.3 ,14.45,13.6 ,12.92,12.24,11.56,10.88]) * (1 / 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0)))",
-					"1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"Script Formula 0\"  or  0))"
+					"array([17.  ,17.  ,16.15,15.3 ,14.45,13.6 ,12.92,12.24,11.56,10.88])",
+					1
 				]
 			},
 			"Sorcerer_Enchantment_Teleport_Active": {
@@ -50161,13 +50161,13 @@
 						"",
 						3.6,
 						8,
-						"3 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						3,
 						0.2,
 						40,
 						"",
 						18,
 						"0 / 100",
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						0.25,
 						50,
 						4,
@@ -50311,7 +50311,7 @@
 						5,
 						12,
 						2.4,
-						"1 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						50,
 						1,
 						2,
@@ -50320,7 +50320,7 @@
 						19.5,
 						50,
 						0.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						20,
 						"0/100",
 						4
@@ -50384,7 +50384,7 @@
 						5,
 						12,
 						2.4,
-						"1 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						50,
 						1,
 						2,
@@ -50393,7 +50393,7 @@
 						19.5,
 						50,
 						0.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						20,
 						"0/100",
 						4
@@ -50702,7 +50702,7 @@
 						5,
 						12,
 						2.4,
-						"1 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						50,
 						1,
 						2,
@@ -50711,7 +50711,7 @@
 						19.5,
 						50,
 						0.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						20,
 						"0/100",
 						4
@@ -51794,8 +51794,8 @@
 						3,
 						"",
 						"",
-						"0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14])\"  or  0))",
-						"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14]) * 0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14])\"  or  0))",
+						0.5,
+						"array([0.3 ,0.33,0.36,0.39,0.42,0.45,0.48,0.51,0.54,0.57])",
 						0.6,
 						0.6,
 						78,
@@ -52184,7 +52184,7 @@
 						"3814161041": 0
 					},
 					"power_formulas": [
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						6,
 						"array([0.307,0.337,0.368,0.399,0.429,0.46 ,0.491,0.521,0.552,0.583])",
 						39.858,
 						2,
@@ -52196,11 +52196,11 @@
 						1,
 						0.5,
 						0.3,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						0.1,
 						5,
 						"",
-						"(1-Pow((1-5/100),6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)*Sf_6))*100"
+						"(1-Pow((1-5/100),6*Sf_6))*100"
 					],
 					"power_mod_id": 2,
 					"power_name": "Sorcerer_IceBlades",
@@ -52245,7 +52245,7 @@
 						"2027757314": 1,
 						"3112377790": 1,
 						"3356320168": 1,
-						"3864582711": "12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1",
+						"3864582711": 12,
 						"3904548918": 6,
 						"4198308620": 0.05
 					},
@@ -52259,7 +52259,7 @@
 						"4198308620": 0
 					},
 					"power_formulas": [
-						"12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1",
+						12,
 						0.05,
 						0.1,
 						3,
@@ -52276,10 +52276,10 @@
 						3,
 						1,
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						1,
 						4,
-						"(1-Pow((1-4/100),12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1*Sf_3))*100",
+						"(1-Pow((1-4/100),12*Sf_3))*100",
 						20,
 						1
 					],
@@ -52327,7 +52327,7 @@
 						"3067693704": 0.1,
 						"3490709206": 1,
 						"3709035443": 2,
-						"4098171463": "6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)"
+						"4098171463": 6
 					},
 					"power_dots": {
 						"69407339": 0,
@@ -52340,7 +52340,7 @@
 					"power_formulas": [
 						"array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						0.15,
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						6,
 						0.1,
 						18,
 						70,
@@ -52353,9 +52353,9 @@
 						19.5,
 						5,
 						0.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						7,
-						"(1-Pow((1-7/100),6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)))*100"
+						35.301
 					],
 					"power_mod_id": 3,
 					"power_name": "Sorcerer_LightningSpear",
@@ -52429,13 +52429,13 @@
 						"",
 						3.6,
 						8,
-						"3 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						3,
 						0.2,
 						40,
 						"",
 						18,
 						"0 / 100",
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						0.25,
 						50,
 						4,
@@ -52511,7 +52511,7 @@
 						5,
 						12,
 						2.4,
-						"1 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						50,
 						1,
 						2,
@@ -52520,7 +52520,7 @@
 						19.5,
 						50,
 						0.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						20,
 						"0/100",
 						4
@@ -52583,8 +52583,8 @@
 						"array([1.6 ,1.76,1.92,2.08,2.24,2.4 ,2.56,2.72,2.88,3.04])",
 						"array([0.2 ,0.22,0.24,0.26,0.28,0.3 ,0.32,0.34,0.36,0.38])",
 						"",
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
-						"1 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						6,
+						1,
 						6,
 						"",
 						3,
@@ -52598,7 +52598,7 @@
 						0.05,
 						5,
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						40,
 						9.712
 					],
@@ -52651,7 +52651,7 @@
 					"power_formulas": [
 						"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 						".85 * 1 -  ((Mod.UpgradeA  and  SF_17  or  0))",
-						"1.5 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1.5,
 						0.5,
 						3,
 						"array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
@@ -52672,7 +52672,7 @@
 						40,
 						"1 -  ((Mod.UpgradeA  and  SF_17  or  0))",
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						0.3,
 						"",
 						"",
@@ -54124,7 +54124,7 @@
 						"2027757314": 1,
 						"3112377790": 1,
 						"3356320168": 1,
-						"3864582711": "12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1",
+						"3864582711": 12,
 						"3904548918": 6,
 						"4198308620": 0.05
 					},
@@ -54138,7 +54138,7 @@
 						"4198308620": 0
 					},
 					"power_formulas": [
-						"12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1",
+						12,
 						0.05,
 						0.1,
 						3,
@@ -54155,10 +54155,10 @@
 						3,
 						1,
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						1,
 						4,
-						"(1-Pow((1-4/100),12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1*Sf_3))*100",
+						"(1-Pow((1-4/100),12*Sf_3))*100",
 						20,
 						1
 					],
@@ -54174,7 +54174,7 @@
 						"Fire",
 						"Mana"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a 3-headed hydra for {#} seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.\n\nMaximum 1 active Hydras at a time.",
+					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: {#}%\nSummon a 3-headed hydra for 12 seconds. Each head spits fire at enemies, dealing {30/33/36/39/42/45/48/51/54/57}% damage.\n\nMaximum 1 active Hydras at a time.",
 					"skill_name": "Hydra",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
@@ -54621,7 +54621,7 @@
 						"3814161041": 0
 					},
 					"power_formulas": [
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						6,
 						"array([0.307,0.337,0.368,0.399,0.429,0.46 ,0.491,0.521,0.552,0.583])",
 						39.858,
 						2,
@@ -54633,11 +54633,11 @@
 						1,
 						0.5,
 						0.3,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						0.1,
 						5,
 						"",
-						"(1-Pow((1-5/100),6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)*Sf_6))*100"
+						"(1-Pow((1-5/100),6*Sf_6))*100"
 					],
 					"power_name": "Sorcerer_IceBlades",
 					"power_payloads": {
@@ -54651,7 +54651,7 @@
 						"Cold",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a pair of ice blades for {#} seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a pair of ice blades for 6 seconds that rapidly slash enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and have a 30% chance to make them Vulnerable for 2 seconds.",
 					"skill_name": "Ice Blades",
 					"skill_rankup_desc": "• Damage 🡑 {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}%"
 				},
@@ -54929,8 +54929,8 @@
 						3,
 						"",
 						"",
-						"0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14])\"  or  0))",
-						"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14]) * 0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14])\"  or  0))",
+						0.5,
+						"array([0.3 ,0.33,0.36,0.39,0.42,0.45,0.48,0.51,0.54,0.57])",
 						0.6,
 						0.6,
 						78,
@@ -55274,7 +55274,7 @@
 					"power_formulas": [
 						"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 						".85 * 1 -  ((Mod.UpgradeA  and  SF_17  or  0))",
-						"1.5 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1.5,
 						0.5,
 						3,
 						"array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
@@ -55295,7 +55295,7 @@
 						40,
 						"1 -  ((Mod.UpgradeA  and  SF_17  or  0))",
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						0.3,
 						"",
 						"",
@@ -55380,8 +55380,8 @@
 						"array([1.6 ,1.76,1.92,2.08,2.24,2.4 ,2.56,2.72,2.88,3.04])",
 						"array([0.2 ,0.22,0.24,0.26,0.28,0.3 ,0.32,0.34,0.36,0.38])",
 						"",
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
-						"1 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						6,
+						1,
 						6,
 						"",
 						3,
@@ -55395,7 +55395,7 @@
 						0.05,
 						5,
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						40,
 						9.712
 					],
@@ -55534,13 +55534,13 @@
 						"",
 						3.6,
 						8,
-						"3 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						3,
 						0.2,
 						40,
 						"",
 						18,
 						"0 / 100",
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						0.25,
 						50,
 						4,
@@ -55782,8 +55782,8 @@
 						3,
 						"",
 						"",
-						"0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14])\"  or  0))",
-						"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14]) * 0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14])\"  or  0))",
+						0.5,
+						"array([0.3 ,0.33,0.36,0.39,0.42,0.45,0.48,0.51,0.54,0.57])",
 						0.6,
 						0.6,
 						78,
@@ -55913,8 +55913,8 @@
 						"array([1.6 ,1.76,1.92,2.08,2.24,2.4 ,2.56,2.72,2.88,3.04])",
 						"array([0.2 ,0.22,0.24,0.26,0.28,0.3 ,0.32,0.34,0.36,0.38])",
 						"",
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
-						"1 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						6,
+						1,
 						6,
 						"",
 						3,
@@ -55928,7 +55928,7 @@
 						0.05,
 						5,
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						40,
 						9.712
 					],
@@ -56070,13 +56070,13 @@
 						"",
 						3.6,
 						8,
-						"3 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						3,
 						0.2,
 						40,
 						"",
 						18,
 						"0 / 100",
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						0.25,
 						50,
 						4,
@@ -56358,7 +56358,7 @@
 						"2027757314": 1,
 						"3112377790": 1,
 						"3356320168": 1,
-						"3864582711": "12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1",
+						"3864582711": 12,
 						"3904548918": 6,
 						"4198308620": 0.05
 					},
@@ -56372,7 +56372,7 @@
 						"4198308620": 0
 					},
 					"power_formulas": [
-						"12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1",
+						12,
 						0.05,
 						0.1,
 						3,
@@ -56389,10 +56389,10 @@
 						3,
 						1,
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						1,
 						4,
-						"(1-Pow((1-4/100),12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1*Sf_3))*100",
+						"(1-Pow((1-4/100),12*Sf_3))*100",
 						20,
 						1
 					],
@@ -56502,7 +56502,7 @@
 						"3814161041": 0
 					},
 					"power_formulas": [
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						6,
 						"array([0.307,0.337,0.368,0.399,0.429,0.46 ,0.491,0.521,0.552,0.583])",
 						39.858,
 						2,
@@ -56514,11 +56514,11 @@
 						1,
 						0.5,
 						0.3,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						0.1,
 						5,
 						"",
-						"(1-Pow((1-5/100),6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)*Sf_6))*100"
+						"(1-Pow((1-5/100),6*Sf_6))*100"
 					],
 					"power_mod_id": 3,
 					"power_name": "Sorcerer_IceBlades",
@@ -56819,7 +56819,7 @@
 						"3067693704": 0.1,
 						"3490709206": 1,
 						"3709035443": 2,
-						"4098171463": "6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)"
+						"4098171463": 6
 					},
 					"power_dots": {
 						"69407339": 0,
@@ -56832,7 +56832,7 @@
 					"power_formulas": [
 						"array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						0.15,
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						6,
 						0.1,
 						18,
 						70,
@@ -56845,9 +56845,9 @@
 						19.5,
 						5,
 						0.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						7,
-						"(1-Pow((1-7/100),6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)))*100"
+						35.301
 					],
 					"power_mod_id": 1,
 					"power_name": "Sorcerer_LightningSpear",
@@ -56999,7 +56999,7 @@
 					"power_formulas": [
 						"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 						".85 * 1 -  ((Mod.UpgradeA  and  SF_17  or  0))",
-						"1.5 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1.5,
 						0.5,
 						3,
 						"array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
@@ -57020,7 +57020,7 @@
 						40,
 						"1 -  ((Mod.UpgradeA  and  SF_17  or  0))",
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						0.3,
 						"",
 						"",
@@ -57245,7 +57245,7 @@
 					"power_formulas": [
 						"array([0.5 ,0.55,0.6 ,0.65,0.7 ,0.75,0.8 ,0.85,0.9 ,0.95])",
 						".85 * 1 -  ((Mod.UpgradeA  and  SF_17  or  0))",
-						"1.5 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1.5,
 						0.5,
 						3,
 						"array([0.35 ,0.385,0.42 ,0.455,0.49 ,0.525,0.56 ,0.595,0.63 ,0.665])",
@@ -57266,7 +57266,7 @@
 						40,
 						"1 -  ((Mod.UpgradeA  and  SF_17  or  0))",
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						0.3,
 						"",
 						"",
@@ -57320,7 +57320,7 @@
 						"3067693704": 0.1,
 						"3490709206": 1,
 						"3709035443": 2,
-						"4098171463": "6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)"
+						"4098171463": 6
 					},
 					"power_dots": {
 						"69407339": 0,
@@ -57333,7 +57333,7 @@
 					"power_formulas": [
 						"array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						0.15,
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						6,
 						0.1,
 						18,
 						70,
@@ -57346,9 +57346,9 @@
 						19.5,
 						5,
 						0.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						7,
-						"(1-Pow((1-7/100),6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)))*100"
+						35.301
 					],
 					"power_mod_id": 4,
 					"power_name": "Sorcerer_LightningSpear",
@@ -57495,8 +57495,8 @@
 						3,
 						"",
 						"",
-						"0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14])\"  or  0))",
-						"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14]) * 0.5 * 1 + (ParagonNodeIsPurchased((SNO.ParagonNode.Sorcerer_Legendary_015)  and  PowerTag.Paragon_Sorc_Legendary_015.\"array([0.6 ,0.66,0.72,0.78,0.84,0.9 ,0.96,1.02,1.08,1.14])\"  or  0))",
+						0.5,
+						"array([0.3 ,0.33,0.36,0.39,0.42,0.45,0.48,0.51,0.54,0.57])",
 						0.6,
 						0.6,
 						78,
@@ -57733,7 +57733,7 @@
 						"3814161041": 0
 					},
 					"power_formulas": [
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						6,
 						"array([0.307,0.337,0.368,0.399,0.429,0.46 ,0.491,0.521,0.552,0.583])",
 						39.858,
 						2,
@@ -57745,11 +57745,11 @@
 						1,
 						0.5,
 						0.3,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						0.1,
 						5,
 						"",
-						"(1-Pow((1-5/100),6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)*Sf_6))*100"
+						"(1-Pow((1-5/100),6*Sf_6))*100"
 					],
 					"power_mod_id": 1,
 					"power_name": "Sorcerer_IceBlades",
@@ -57794,7 +57794,7 @@
 						"3067693704": 0.1,
 						"3490709206": 1,
 						"3709035443": 2,
-						"4098171463": "6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)"
+						"4098171463": 6
 					},
 					"power_dots": {
 						"69407339": 0,
@@ -57807,7 +57807,7 @@
 					"power_formulas": [
 						"array([0.15 ,0.165,0.18 ,0.195,0.21 ,0.225,0.24 ,0.255,0.27 ,0.285])",
 						0.15,
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						6,
 						0.1,
 						18,
 						70,
@@ -57820,9 +57820,9 @@
 						19.5,
 						5,
 						0.5,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						7,
-						"(1-Pow((1-7/100),6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)))*100"
+						35.301
 					],
 					"power_name": "Sorcerer_LightningSpear",
 					"power_payloads": {
@@ -57836,7 +57836,7 @@
 						"Lightning",
 						"Cooldown"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a spear of lightning that seeks out enemies for {#} seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage per hit.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a spear of lightning that seeks out enemies for 6 seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage per hit.",
 					"skill_name": "Lightning Spear",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
@@ -57925,7 +57925,7 @@
 						"2027757314": 1,
 						"3112377790": 1,
 						"3356320168": 1,
-						"3864582711": "12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1",
+						"3864582711": 12,
 						"3904548918": 6,
 						"4198308620": 0.05
 					},
@@ -57939,7 +57939,7 @@
 						"4198308620": 0
 					},
 					"power_formulas": [
-						"12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1",
+						12,
 						0.05,
 						0.1,
 						3,
@@ -57956,10 +57956,10 @@
 						3,
 						1,
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1)",
+						1,
 						1,
 						4,
-						"(1-Pow((1-4/100),12 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_005_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_005.\"Script Formula 0\")  or  1) * 1*Sf_3))*100",
+						"(1-Pow((1-4/100),12*Sf_3))*100",
 						20,
 						1
 					],
@@ -58319,8 +58319,8 @@
 						"array([1.6 ,1.76,1.92,2.08,2.24,2.4 ,2.56,2.72,2.88,3.04])",
 						"array([0.2 ,0.22,0.24,0.26,0.28,0.3 ,0.32,0.34,0.36,0.38])",
 						"",
-						"6 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
-						"1 * ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						6,
+						1,
 						6,
 						"",
 						3,
@@ -58334,7 +58334,7 @@
 						0.05,
 						5,
 						0,
-						"ParagonGlyphAffixIsActive((SNO.ParagonGlyphAffix.Power_004_Intelligence_Main)  and  (1 + PowerTag.ParagonGlyph_004.\"Script Formula 0\")  or  1)",
+						1,
 						40,
 						9.712
 					],

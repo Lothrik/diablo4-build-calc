@@ -794,14 +794,14 @@ druidData["Companion"] = {
 		connections: [ "Companion", "Enhanced Ravens" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: {#} Ravens fly above you and periodically attack your enemies for {#}% damage every 5 seconds.
+Passive: {#} Ravens fly above you and periodically attack your enemies for 13% damage every 5 seconds.
 
 Active: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.
 
 Tags: Companion, Physical, Damage, Cooldown.`,
 		id: 62,
 		maxPoints: 5,
-		values: [ "15", "33", "", "13" ],
+		values: [ "15", "33", "" ],
 		x: 0.92,
 		y: 293.68
 	},
@@ -852,14 +852,14 @@ Tags: Companion, Damage.`,
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: A vine creeper periodically emerges from the ground every {#} seconds and applies {#} Poisoning damage over 6 seconds to an enemy in the area.
+Passive: A vine creeper periodically emerges from the ground every {#} seconds and applies {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Poisoning damage over 6 seconds to an enemy in the area.
 
 Active: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.
 
 Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 67,
 		maxPoints: 5,
-		values: [ "20", "40", "7", "36", "2", "30", "2" ],
+		values: [ "20", "40", "7", "36", "2", "30" ],
 		x: -535.155,
 		y: -0.594
 	},
@@ -900,14 +900,14 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		connections: [ "Companion", "Enhanced Wolf Pack" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: Summon 2 wolf companions that bite enemies for {#}% damage.
+Passive: Summon 2 wolf companions that bite enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% damage.
 
 Active: Direct your wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.
 
 Tags: Companion, Cooldown, Damage, Physical.`,
 		id: 71,
 		maxPoints: 5,
-		values: [ "14", "50", "8" ],
+		values: [ "14", "50" ],
 		x: 7.69,
 		y: -289.968
 	},
