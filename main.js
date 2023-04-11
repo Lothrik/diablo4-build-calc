@@ -139,6 +139,7 @@ const SKILL_TREE = "Skill Tree";
 const PARAGON_BOARD = "Paragon Board";
 const PARAGON_BOARD_GRID_PROMPT_PREFIX = "Please select a grid location for the ";
 const PARAGON_BOARD_GRID_PROMPT_SUFFIX = " Paragon Board:\n";
+const PARAGON_BOARD_GRID_PROMPT_END = `If you're unsure what to enter, try 2 and look directly above [Start].`;
 const CODEX_OF_POWER = "Codex of Power";
 const CODEX_OF_POWER_DESC_BEFORE = "Legendary aspects in this category can be applied to: ";
 const CODEX_OF_POWER_DESC_AFTER = "Unique items are only listed here for convenience, and cannot have their powers extracted.";
@@ -999,7 +1000,8 @@ function moveParagonBoard(boardIndex, forcedGridLocation = null) {
 			+ "D J K L M\n"
 			+ "C 7 8 9 N\n"
 			+ "B 4 5 6 O\n"
-			+ "A 1 2 3 P", currentGridLocation == undefined ? "0" : currentGridLocation);
+			+ "A 1 2 3 P\n"
+			+ PARAGON_BOARD_GRID_PROMPT_END, currentGridLocation == undefined ? "0" : currentGridLocation);
 		if (promptInput == null) return;
 		gridLocation = String(promptInput).toUpperCase();
 	} else {
