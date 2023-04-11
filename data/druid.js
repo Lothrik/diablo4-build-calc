@@ -859,7 +859,7 @@ Active: Vines strangle all surrounding enemies, Immobilizing them for {#} second
 Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 67,
 		maxPoints: 5,
-		values: [ "20", "40", "7", "36", "2", "30" ],
+		values: [ "20", "40", "7", "2", "30", "2" ],
 		x: -535.155,
 		y: -0.594
 	},
