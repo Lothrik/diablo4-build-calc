@@ -1274,41 +1274,49 @@ Tags: Attack Speed, Minion.`,
 
 necromancerData["Book of the Dead"] = {
 	"Skeletal Warriors": {
+		description: `Raise a Skeleton from a Corpse to fight for you.
+
+Once all of your Skeletons have been summoned, Raise Skeleton briefly summons a Skeletal Priest to empower your Minions for 5 seconds, increasing their damage by 20% and healing them for 10% of their Maximum Life.`,
+		name: `Raise Skeleton`,
 		"Skeletal Skirmishers": {
 			description: `Sword-wielding damage dealers that deal 30% increased damage but have 15% reduced Life.`,
 			id: 110,
-			sacrifice: `Your critical strike chance is increase by 5%, but you can no longer raise Skeletal Warriors.`,
+			sacrifice: `Your Critical Strike Chance is increased by +5%, but you can no longer raise Skeletal Warriors.`,
 			upgrades: [
-				`You can raise an additional Skirmisher.`,
-				`Each time you critically strike, your Skirmishers next attack critically strikes as well. Can only happen every 3 seconds.`
+				`You can raise one additional Skirmisher Warrior.`,
+				`Each time you Critically Strike, your Skirmishers Warriors' next attack Critically Strikes and deals x50% bonus Critical Strike damage. Can only happen every 3 seconds.`
 			]
 		},
 		"Skeletal Defenders": {
 			description: `Durable shield-bearers with 15% increased Life.`,
 			id: 111,
-			sacrifice: `You gain 15% non-physical resistance, but you can no longer raise Skeletal Warriors.`,
+			sacrifice: `You gain 15% Non-Physical Resistance, but you can no longer raise Skeletal Warriors.`,
 			upgrades: [
-				`Every 8 seconds your Defenders negate the next instance of direct damage they would take.`,
-				`Increase the amount of thorns that Defenders inherit from you from 30% to 50%.`
+				`Every 8 seconds your Skeletal Defenders negate the next instance of Direct Damage they would take.`,
+				`Increase the amount of Thorns that Defender Warriors inherit from you from 30% to 50%.`
 			]
 		},
 		"Skeletal Reapers": {
 			description: `Deals area damage with a slow and powerful scythe, and has a special wind-up attack, dealing heavy damage every 10 seconds.`,
 			id: 112,
-			sacrifice: `You deal x10% increased Shadow Damage but you can no longer raise Skeletal Warriors.`,
+			sacrifice: `You deal x10% increased Shadow Damage, but you can no longer raise Skeletal Warriors.`,
 			upgrades: [
-				`Reaper attacks against enemies who are Immobilized, Slowed, Stunned or Vulnerable reduce the cooldown of their powerful wind-up attack by 2 seconds.`,
-				`Reapers have a 10% chance to carve the flesh off enemies, forming a corpse. This cannot happen on the same enemy more than once every 5 seconds.`
+				`Reaper attacks against enemies who are Immobilized, Slowed, Stunned, or Vulnerable reduce the cooldown of their powerful wind-up attack by 2 seconds.`,
+				`Reapers have a 15% chance to carve the flesh off enemies, forming a Corpse.`
 			]
 		},
 	},
 	"Skeletal Mages": {
+		description: `Raise a Skeleton from a Corpse to fight for you.
+
+Once all of your Skeletons have been summoned, Raise Skeleton briefly summons a Skeletal Priest to empower your Minions for 5 seconds, increasing their damage by 20% and healing them for 10% of their Maximum Life.`,
+		name: `Raise Skeleton`,
 		"Shadow Mages": {
 			description: `Deals moderate Shadow Damage.`,
 			id: 113,
-			sacrifice: `Your maximum essence is increased by 15, but you can no longer raise Skeletal Mages.`,
+			sacrifice: `Your maximum Essence is increased by 15, but you can no longer raise Skeletal Mages.`,
 			upgrades: [
-				`Shadow Mage attacks have a 10% chance to Stun for 2.13 seconds. This cannot happen on the same enemy more than once every 5 seconds.`,
+				`Shadow Mage attacks have a 10% chance to Stun for 2 seconds. This cannot happen on the same enemy more than once every 5 seconds.`,
 				`Shadow Mages fire an additional shadow bolt every 6th attack.`
 			]
 		},
@@ -1317,46 +1325,50 @@ necromancerData["Book of the Dead"] = {
 			id: 114,
 			sacrifice: `You deal x15% increased damage to Vulnerable enemies, but you can no longer raise Skeletal Mages.`,
 			upgrades: [
-				`Each time your Cold Mages damage enemies with their primary attack, you gain 2 essence.`,
-				`Enemies who are Frozen by or damaged while Frozen by your Cold Mages primary attack are made Vulnerable for 3 seconds.`
+				`Each time your Cold Mages damage enemies with their primary attack, you gain 2 Essence.`,
+				`Enemies who are Frozen by or damaged while Frozen by your Cold Mages' primary attack are made Vulnerable for 3 seconds.`
 			]
 		},
 		"Bone Mages": {
 			description: `Uses its own bones as projectiles, dealing heavy damage for a Life cost.`,
 			id: 115,
-			sacrifice: `Your Overpower damage is increased by 30%, but you can no longer raise Skeletal Mages.`,
+			sacrifice: `Your Overpower damage is increased by x30%, but you can no longer raise Skeletal Mages.`,
 			upgrades: [
-				`Reduce the life cost of your Bone Mages attacks from 15% to 10%. After being alive for 5 seconds, Bone Mages deal 40% increased damage.`,
-				`Each time a Bone Mage dies from its own attack, they leave behind a corpse and Fortify you for #.`
+				`Reduce the Life cost of your Bone Mages' attacks from 15% to 10%. After being alive for 5 seconds, Bone Mages deal x40% increased damage.`,
+				`Each time a Bone Mage dies from its own attack, they leave behind a Corpse and Fortify you for 11% of your Base Life.`
 			]
 		},
 	},
 	"Golem": {
+		description: `Passive: You are protected by a Golem with {#} Life that attacks for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.
+
+When your Golem dies, it respawns after 20 seconds.`,
+		name: `Golem`,
 		"Bone Golem": {
-			description: `Taunts enemies in a wide area.`,
+			description: `Active: Your Golem becomes Unstoppable and Taunts Nearby enemies and takes 30% reduced damage for the next 6 seconds. This has a 16 second cooldown.`,
 			id: 116,
-			sacrifice: `You gain 10% increased attack speed, but you lose the ability to summon a Golem.`,
+			sacrifice: `You gain +10% increased Attack Speed, but you lose the ability to summon a Golem.`,
 			upgrades: [
-				`Each time your Golem takes up to 20% of its maximum Life as damage, it sheds a corpse.`,
-				`Your Golem gains 10% maximum Life and the amount of thorns they inherit from you is increased from 30% to 50%.`
+				`Each time your Bone Golem takes up to 20% of its Maximum Life as damage, it sheds a Corpse.`,
+				`Your Bone Golem gains 10% Maximum Life and the amount of Thorns they inherit from you is increased from 30% to 50%.`
 			]
 		},
 		"Blood Golem": {
-			description: `Drains Life from nearby enemies.`,
+			description: `Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing 40% damage and healing 4% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained. This has a 10 second cooldown.`,
 			id: 117,
-			sacrifice: `Your maximum Life is increased by 10%, but you lose the ability to summon a Golem.`,
+			sacrifice: `Your Maximum Life is increased by x10%, but you lose the ability to summon a Golem.`,
 			upgrades: [
-				`Your Golem absorbs 15% of the damage you would take.`,
-				`While healthy, your Golem gains 25% damage reduction and x25% increased damage.`
+				`Your Blood Golem absorbs 15% of damage you would take.`,
+				`While Healthy, your Blood Golem gains 25% Damage Reduction and x50% increased damage.`
 			]
 		},
 		"Iron Golem": {
-			description: `Slams the ground and Stuns enemies.`,
+			description: `Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds. This has a 16 second cooldown.`,
 			id: 118,
-			sacrifice: `You deal x30% increased critical strike damage, but you lose the ability to summon a Golem.`,
+			sacrifice: `You deal x30% increased Critical Strike Damage, but you lose the ability to summon a Golem.`,
 			upgrades: [
-				`Every 5th Golem attack causes a shockwave, dealing 16% damage to the primary enemy and to enemies behind them.`,
-				`Your Golem slam attack also makes enemies Vulnerable for 3 seconds.`
+				`Every 5th Iron Golem attack causes a shockwave, dealing 16% damage to the primary enemy and to enemies behind them.`,
+				`Your Iron Golem's slam attack also makes enemies Vulnerable for 3 seconds.`
 			]
 		},
 	},

@@ -584,7 +584,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39858-15";
+const localVersion = "0.8.1.39858-16";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -734,13 +734,16 @@ function handleSearchInput(event) {
 	let nodeMatch = pixiNodes.filter(pixiNode => {
 		if (newSearchText.length >= 3) {
 			// search `nodeHeader` for `newSearchText`
-			let nodeHeader = pixiNode.nodeName;
-			const itemSlot = pixiNode.nodeData.get("itemSlot");
-			const itemType = pixiNode.nodeData.get("itemType");
-			if (itemSlot != undefined) {
-				nodeHeader += ` (${itemType} ${itemSlot})`;
-			} else if (itemType != undefined) {
-				nodeHeader += ` (${itemType})`;
+			let nodeHeader = pixiNode.nodeData.get("nameOverride");
+			if (nodeHeader == undefined) {
+				nodeHeader = pixiNode.nodeName;
+				const itemSlot = pixiNode.nodeData.get("itemSlot");
+				const itemType = pixiNode.nodeData.get("itemType");
+				if (itemSlot != undefined) {
+					nodeHeader += ` (${itemType} ${itemSlot})`;
+				} else if (itemType != undefined) {
+					nodeHeader += ` (${itemType})`;
+				}
 			}
 			if (nodeHeader.toLowerCase().includes(newSearchText)) {
 				pixiNode.nodeData.set("searchQueryMatch", true);
@@ -1887,7 +1890,9 @@ function drawAllNodes() {
 					for (const [minionName, minionData] of groupData) {
 						const minionNode = new Map([
 							["allocatedPoints", 0],
+							["description", minionData.get("description")],
 							["maxPoints", 0],
+							["nameOverride", minionData.get("name")],
 							["shapeSize", 1],
 							["shapeType", "rectangle"],
 							["widthOverride", 400],
@@ -1901,6 +1906,7 @@ function drawAllNodes() {
 
 						let extraY = nodeSpacingY * (nodeLimitY - 0.5);
 						for (const [minionTypeName, minionTypeData] of minionData) {
+							if (["description", "name"].includes(minionTypeName)) continue;
 							const minionUpgrades = [minionTypeData.get("sacrifice"), ...minionTypeData.get("upgrades").values()];
 							const minionTypeNode = new Map([
 								["allocatedPoints", 0],
@@ -2244,13 +2250,16 @@ function drawTooltip(curNode, forceDraw) {
 
 	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
 
-	let nodeHeader = curNode.nodeName;
-	const itemSlot = curNode.nodeData.get("itemSlot");
-	const itemType = curNode.nodeData.get("itemType");
-	if (itemSlot != undefined) {
-		nodeHeader += ` (${itemType} ${itemSlot})`;
-	} else if (itemType != undefined) {
-		nodeHeader += ` (${itemType})`;
+	let nodeHeader = curNode.nodeData.get("nameOverride");
+	if (nodeHeader == undefined) {
+		nodeHeader = curNode.nodeName;
+		const itemSlot = curNode.nodeData.get("itemSlot");
+		const itemType = curNode.nodeData.get("itemType");
+		if (itemSlot != undefined) {
+			nodeHeader += ` (${itemType} ${itemSlot})`;
+		} else if (itemType != undefined) {
+			nodeHeader += ` (${itemType})`;
+		}
 	}
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
 		align: "left",

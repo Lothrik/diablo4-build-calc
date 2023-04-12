@@ -18138,8 +18138,35 @@
 	},
 	"Necromancer": {
 		"Book of the Dead": {
+			"Necromancer_CommandSkeletons": {
+				"desc": "Mana Cost: {#}\nCommand your skeletons to unleash powerful attacks on an enemy.\n\nPriest: {#}% damage",
+				"desc_extra": {
+					"Mod.FocusTarget": "Command your skeletons to unleash powerful attacks on an enemy and then focus it for 6 seconds.",
+					"SF_11": "Skirmisher: {#}% damage",
+					"SF_12": "Defender: {#}% damage",
+					"SF_13": "Reaper: {#}% damage",
+					"SF_14": "Shadow Mage: {#}% damage",
+					"SF_15": "Cold Mage: {#}% damage",
+					"SF_16": "Sacrifice Mage: {#}% damage"
+				},
+				"name": "Command Skeletons",
+				"rankup_desc": "Damage increased to:\n\n\nPriest: {#}% damage"
+			},
+			"Necromancer_Golem": {
+				"desc": "Passive: You are protected by a Golem with {#} Life that attacks for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.\n\nWhen your Golem dies, it respawns after 20 seconds.",
+				"desc_extra": {
+					"SF_16": "Cooldown: {#} seconds",
+					"SF_16_2": "The Golem sheds Corpses as it takes damage.",
+					"SF_16_3": "Active: Your Golem becomes Unstoppable and Taunts Nearby enemies and takes 30% reduced damage for the next 6 seconds.",
+					"SF_17": "The Golem absorbs 15% of damage you would take, and recovers Life when attacking.",
+					"SF_17_2": "Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing {40/44/48/52/56/60/64/68/72/76}% damage and healing {4/4.4/4.8/5.2/5.6/5.9/6.3/6.7/7.1/7.5}% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained.",
+					"SF_18": "Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds.  This has a [(NecroArmy_Spec_For_Pet_Type#2==2  and  10  or  16)] second cooldown."
+				},
+				"name": "Golem",
+				"rankup_desc": "Life increased to {#}. Attack damage increased to {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%."
+			},
 			"Necromancer_Golem_Blood_Passive_Sacrifice": {
-				"desc": "Your Maximum Life is increased by x{11.5/12.5}%, but you lose the ability to summon a Golem.",
+				"desc": "Your Maximum Life is increased by x10%, but you lose the ability to summon a Golem.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_Golem_Blood_Passive_UpgradeA": {
@@ -18151,7 +18178,7 @@
 				"name": "Upgrade B"
 			},
 			"Necromancer_Golem_Bone_Passive_Sacrifice": {
-				"desc": "You gain +{11.5/12.5}% increased Attack Speed, but you lose the ability to summon a Golem.",
+				"desc": "You gain +10% increased Attack Speed, but you lose the ability to summon a Golem.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_Golem_Bone_Passive_UpgradeA": {
@@ -18163,7 +18190,7 @@
 				"name": "Upgrade B"
 			},
 			"Necromancer_Golem_Iron_Passive_Sacrifice": {
-				"desc": "You deal x{34.5/37.5}% increased Critical Strike Damage, but you lose the ability to summon a Golem.",
+				"desc": "You deal x30% increased Critical Strike Damage, but you lose the ability to summon a Golem.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_Golem_Iron_Passive_UpgradeA": {
@@ -18174,8 +18201,12 @@
 				"desc": "Your Iron Golem's slam attack also makes enemies Vulnerable for 3 seconds.",
 				"name": "Upgrade B"
 			},
+			"Necromancer_RaiseSkeleton": {
+				"desc": "Raise a Skeleton from a Corpse to fight for you.\n\nOnce all of your Skeletons have been summoned, Raise Skeleton briefly summons a Skeletal Priest to empower your Minions for 5 seconds, increasing their damage by 20% and healing them for 10% of their Maximum Life.",
+				"name": "Raise Skeleton"
+			},
 			"Necromancer_SkeletonMage_Cold_Passive_Sacrifice": {
-				"desc": "You deal x{17.2/18.8}% increased damage to Vulnerable enemies, but you can no longer raise Skeletal Mages.",
+				"desc": "You deal x15% increased damage to Vulnerable enemies, but you can no longer raise Skeletal Mages.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_SkeletonMage_Cold_Passive_UpgradeA": {
@@ -18187,7 +18218,7 @@
 				"name": "Upgrade B"
 			},
 			"Necromancer_SkeletonMage_Sacrifice_Passive_Sacrifice": {
-				"desc": "Your Overpower damage is increased by x{34.5/37.5}%, but you can no longer raise Skeletal Mages.",
+				"desc": "Your Overpower damage is increased by x30%, but you can no longer raise Skeletal Mages.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeA": {
@@ -18199,7 +18230,7 @@
 				"name": "Upgrade B"
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_Sacrifice": {
-				"desc": "Your maximum Essence is increased by {17.25/18.75}, but you can no longer raise Skeletal Mages.",
+				"desc": "Your maximum Essence is increased by 15, but you can no longer raise Skeletal Mages.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_SkeletonMage_Shadow_Passive_UpgradeA": {
@@ -18211,7 +18242,7 @@
 				"name": "Upgrade B"
 			},
 			"Necromancer_SkeletonWarrior_Defender_Passive_Sacrifice": {
-				"desc": "You gain {17.2/18.8}% Non-Physical Resistance, but you can no longer raise Skeletal Warriors.",
+				"desc": "You gain 15% Non-Physical Resistance, but you can no longer raise Skeletal Warriors.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_SkeletonWarrior_Defender_Passive_UpgradeA": {
@@ -18223,7 +18254,7 @@
 				"name": "Upgrade B"
 			},
 			"Necromancer_SkeletonWarrior_Reaper_Passive_Sacrifice": {
-				"desc": "You deal x{11.5/12.5}% increased Shadow Damage, but you can no longer raise Skeletal Warriors.",
+				"desc": "You deal x10% increased Shadow Damage, but you can no longer raise Skeletal Warriors.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeA": {
@@ -18235,7 +18266,7 @@
 				"name": "Upgrade B"
 			},
 			"Necromancer_SkeletonWarrior_Skirmisher_Passive_Sacrifice": {
-				"desc": "Your Critical Strike Chance is increased by +{5.7/6.2}%, but you can no longer raise Skeletal Warriors.",
+				"desc": "Your Critical Strike Chance is increased by +5%, but you can no longer raise Skeletal Warriors.",
 				"name": "Sacrifice"
 			},
 			"Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeA": {

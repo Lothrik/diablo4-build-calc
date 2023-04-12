@@ -514,6 +514,15 @@ function runParser(downloadMode) {
 				formattedData += classObjectName + '["Book of the Dead"] = {\n';
 				for (const [minionName, minionData] of Object.entries(necromancerMinions)) {
 					formattedData += '\t"' + minionName + '": {\n';
+					let minionDetails = null;
+					if (`Necromancer_${minionName}` in classData["Book of the Dead"]) {
+						minionDetails = classData["Book of the Dead"][`Necromancer_${minionName}`];
+					} else {
+						minionDetails = classData["Book of the Dead"][`Necromancer_RaiseSkeleton`];
+					}
+					const [minionSkillDesc, minionSkillName] = [minionDetails["desc"], minionDetails["name"]];
+					formattedData += "\t\tdescription: `" + minionSkillDesc + "`,\n";
+					formattedData += "\t\tname: `" + minionSkillName + "`,\n";
 					for (const [minionTypeName, minionTypeData] of Object.entries(minionData)) {
 						formattedData += '\t\t"' + minionTypeName + '": {\n';
 						formattedData += "\t\t\tdescription: `" + minionTypeData["Description"] + "`,\n";
