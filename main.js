@@ -124,7 +124,7 @@ const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custo
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
 const DESIRED_ZOOM_LEVEL_PROMPT = "Please enter your desired UI zoom level (min: 0.25, max: 4):\nThis applies mostly to buttons, including the one you just clicked.";
-const DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT = "Please enter your desired tooltip zoom level (min 0.25, max: 4):\nThis applies exclusively to node tooltips drawn inside the canvas.";
+const DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT = "Please enter your desired tooltip zoom level (min: 0.25, max: 4):\nThis applies exclusively to node tooltips drawn inside the canvas.";
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
