@@ -9,7 +9,7 @@ import { necromancerMinions } from "./necromancer-minions.js";
 const buildNumber = 39858;
 
 var fullJSON = "";
-$.getJSON("../database/build-" + buildNumber + "-final.json", null, fullData => {
+$.getJSON("../database/build-" + buildNumber + ".json", null, fullData => {
 	fullJSON = fullData;
 	$("#debugOutput").html("Successfully loaded `../database/build-" + buildNumber + "-final.json`.");
 	// call runParser once after loading so fixJSON affects node connections recursively

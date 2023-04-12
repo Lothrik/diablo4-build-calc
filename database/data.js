@@ -38,7 +38,7 @@ function traverse(node, callback) {
 	}
 }
 
-$.getJSON("build-" + buildNumber + "-final.json", null, data => {
+$.getJSON("build-" + buildNumber + ".json", null, data => {
 	const root = $("#root");
 	const tree = jsonview.create(data);
 
