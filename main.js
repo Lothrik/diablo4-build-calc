@@ -123,7 +123,8 @@ const SUMMARY_CLICK_FAILURE_HTML = "Build summary copy failed &mdash; do you hav
 const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
 const COLOR_LINE_TEXT = "Choose your preferred active line color.";
 const COLOR_NODE_TEXT = "Choose your preferred active node color.";
-const DESIRED_ZOOM_LEVEL_PROMPT = "Please enter your desired zoom level (min: 0.5, max: 4):";
+const DESIRED_ZOOM_LEVEL_PROMPT = "Please enter your desired UI zoom level (min: 0.25, max: 4):\nThis applies mostly to buttons, including the one you just clicked.";
+const DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT = "Please enter your desired tooltip zoom level (min 0.25, max: 4):\nThis applies exclusively to node tooltips drawn inside the canvas.";
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
@@ -206,6 +207,8 @@ const NODE_DIAMOND_INACTIVE = PIXI.Texture.from("images/node_diamond_inactive.pn
 const NODE_SQUARE_ACTIVE = PIXI.Texture.from("images/node_square_active.png");
 const NODE_SQUARE_INACTIVE = PIXI.Texture.from("images/node_square_inactive.png");
 */
+
+var pixiTooltipZoomLevel = 1; // configured via handleZoomButton
 
 const pixiScalingFloor = devicePixelRatio < 2 ? 0.15 : 0.1;
 const pixiScalingCeiling = 2;
@@ -511,17 +514,25 @@ function handleZoomButton(event) {
 	if (event.type == "click") {
 		const oldZoomLevel = Number(readCookie("zoomLevel"));
 		const newZoomLevel = Number(prompt(DESIRED_ZOOM_LEVEL_PROMPT, isNaN(oldZoomLevel) ? "1" : oldZoomLevel));
-		if (!isNaN(newZoomLevel) && newZoomLevel >= 0.5 && newZoomLevel <= 4) writeCookie("zoomLevel", newZoomLevel);
+		if (!isNaN(newZoomLevel) && newZoomLevel >= 0.25 && newZoomLevel <= 4) writeCookie("zoomLevel", newZoomLevel);
+
+		const oldZoomLevelTooltip = Number(readCookie("zoomLevelTooltip"));
+		const newZoomLevelTooltip = Number(prompt(DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT, isNaN(oldZoomLevelTooltip) ? "1" : oldZoomLevelTooltip));
+		if (!isNaN(newZoomLevel) && newZoomLevelTooltip >= 0.25 && newZoomLevelTooltip <= 4) writeCookie("zoomLevelTooltip", newZoomLevelTooltip);
+
 		applyZoomLevel();
 	}
 }
 function applyZoomLevel() {
 	const zoomLevel = Number(readCookie("zoomLevel"));
-	if (!isNaN(zoomLevel) && zoomLevel >= 0.5 && zoomLevel <= 4) {
+	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) {
 		$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "top left" });
 		$("#floatRight").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "top right" });
 		$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "bottom" });
 	}
+
+	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip"));
+	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) pixiTooltipZoomLevel = zoomLevelTooltip;
 }
 function handleConnectorColorInput(event) {
 	writeCookie("activeConnectorColor", $("#colorConnectorInput").val().slice(1));
@@ -2205,7 +2216,7 @@ function drawAllNodes() {
 	}
 }
 function drawTooltip(curNode, forceDraw) {
-	const clampRenderScale = Math.min(1, (window.innerWidth - 40) / tooltipWidth);
+	const clampRenderScale = Math.min(1, (window.innerWidth - 40) / tooltipWidth) * pixiTooltipZoomLevel;
 	const clampScale = clampRenderScale / stageScale;
 	const scaleFactor = devicePixelRatio >= 2 ? 1 : (clampRenderScale >= 0.45 ? 2 : 1) / devicePixelRatio * clampRenderScale;
 
@@ -2656,7 +2667,7 @@ function readCookie(name) {
 }
 function writeCookie(name, value) {
 	let date = new Date();
-	date.setFullYear(date.getFullYear() + 1);
+	date.setFullYear(date.getFullYear() + 10);
 	document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
 }
 
