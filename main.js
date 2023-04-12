@@ -2661,13 +2661,15 @@ function readCookie(name) {
 	const value = `; ${document.cookie}`;
 	const parts = value.split(`; ${name}=`);
 	if (parts.length == 2) {
-		return parts.pop().split(';').shift();
+		const output = parts.pop().split(';').shift();
+		writeCookie(name, output); // refresh cookie duration
+		return output;
 	}
 	return "";
 }
 function writeCookie(name, value) {
 	let date = new Date();
-	date.setFullYear(date.getFullYear() + 10);
+	date.setFullYear(date.getFullYear() + 1);
 	document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
 }
 
