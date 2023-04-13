@@ -128,7 +128,6 @@ const DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT = "Please enter your desired tooltip zoo
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
-const SMALL_CLAMP_TEXT = "Clamp";
 const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
@@ -524,11 +523,12 @@ function handleZoomButton(event) {
 	}
 }
 function applyZoomLevel() {
-	const zoomLevel = Number(readCookie("zoomLevel"));
+	let zoomLevel = Number(readCookie("zoomLevel"));
+	if (window.innerWidth < 450 * zoomLevel) zoomLevel = Math.max(window.innerWidth / 450, 1);
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) {
-		$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "top left" });
-		$("#floatRight").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "top right" });
-		$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "bottom" });
+		$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
+		$("#floatRight").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "right top" });
+		$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
 	}
 
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip"));
@@ -818,7 +818,7 @@ function handleSearchInput(event) {
 }
 function handleClampButton() {
 	clampMode = !clampMode;
-	$("#clampButton").text(window.innerWidth < 450 ? SMALL_CLAMP_TEXT : clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
+	$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
 	writeCookie("clampMode", clampMode);
 
 	repositionTooltip();
@@ -2580,7 +2580,7 @@ function convertNodeId(nodeData, groupName, decodeBase = false) {
 	}
 }
 function resizeSearchInput() {
-	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - 5;
+	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - parseInt($("#groupSelector").css("padding-left"));
 	$("#searchInput").outerWidth(targetWidth);
 }
 function resetFrameTimer() {
@@ -2649,10 +2649,8 @@ function resizeCanvas() {
 
 		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 
-		const optimalClampText = window.innerWidth < 450 ? SMALL_CLAMP_TEXT : clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT;
-		if ($("#clampButton").text() != optimalClampText) $("#clampButton").text(optimalClampText);
-
-		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth($("#extraButtons2").width() - 5);
+		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth($("#extraButtons2").width() - parseInt($("#groupSelector").css("padding-left")));
+		applyZoomLevel();
 		resizeSearchInput();
 		$("body").height(newHeight); // prevent undesirable mobile vertical scroll
 	}
@@ -2674,7 +2672,6 @@ function writeCookie(name, value) {
 }
 
 // read cookie settings immediately
-applyZoomLevel();
 $("#colorConnectorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
 $("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
 $("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);

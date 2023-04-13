@@ -38,7 +38,6 @@ body {
 	font: 20px/23px Homenaje, Impact, sans-serif;
 	display: flex;
 	flex-direction: column;
-	min-width: 360px;
 	height: 100vh;
 	cursor: pointer;
 	text-align: center;
@@ -114,26 +113,6 @@ h1, h2, h3 {
 	font-size: 80%;
 }
 
-@media (max-width: 452px) and (min-width: 360px)  {
-	#header {
-		font-size: 7.1vw;
-	}
-}
-
-@media (max-width: 360px)  {
-	#header {
-		font-size: 25.56px;
-	}
-}
-
-#floatLeft *, #floatRight * {
-	cursor: pointer;
-	float: left;
-	height: 32px;
-	user-select: none;
-	width: 32px;
-}
-
 #floatLeft {
 	height: 32px;
 	margin: 0 calc(100% - 32px) -32px 0;
@@ -144,6 +123,14 @@ h1, h2, h3 {
 	height: 32px;
 	margin: 0 0 -32px calc(100% - 64px);
 	width: 64px;
+}
+
+#floatLeft *, #floatRight * {
+	cursor: pointer;
+	float: left;
+	height: 32px;
+	user-select: none;
+	width: 32px;
 }
 
 #colorConnectorInput, #colorNodeInput {
@@ -193,6 +180,7 @@ h1, h2, h3 {
 }
 
 #extraFooter {
+	width: 100vw;
 	display: flex;
 	margin: auto auto 0;
 	flex-direction: column;
@@ -230,18 +218,6 @@ h1, h2, h3 {
 
 #extraButtons1 > *, #extraButtons2 > * {
 	margin: 0 2.5px;
-}
-
-@media (max-width: 384px) and (min-width: 360px) {
-	button {
-		font-size: 5vw!important;
-	}
-}
-
-@media (max-width: 360px) {
-	button {
-		font-size: 18px!important;
-	}
 }
 
 select, input, option, button {
@@ -316,5 +292,40 @@ button:active {
 @media (max-width: 680px) {
 	#versionLabel {
 		display: none;
+	}
+}
+
+@media (max-width: 450px) {
+	#header {
+		font-size: 7vw;
+		padding: 2.4vw 0;
+	}
+	#floatLeft {
+		height: 7.7vw;
+		margin: 0 calc(100% - 7.7vw) -7.7vw 0;
+		width: 7.7vw;
+	}
+	#floatRight {
+		height: 7.7vw;
+		margin: 0 0 -7.7vw calc(100% - 15.4vw);
+		width: 15.4vw;
+	}
+	#floatLeft *, #floatRight * {
+		height: 7.7vw;
+		width: 7.7vw;
+	}
+	#colorConnectorInput, #colorNodeInput {
+		margin-right: -7.7vw;
+	}
+	select, input, option, button {
+		font-size: 4.4vw!important;
+		height: auto;
+		padding: 0 1.2vw;
+	}
+	#extraInfo, #extraButtons1, #extraButtons2 {
+		margin-bottom: 2.4vw;
+	}
+	#extraButtons1 > *, #extraButtons2 > * {
+		margin: 0 0.5vw;
 	}
 }
