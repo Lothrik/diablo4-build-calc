@@ -389,13 +389,16 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					}
 					output += "		connections: " + namedConnections(nodeData["connections"], skillName, classData, rootNodeName) + ",\n";
 					let sanitizedDescription = sanitizeNodeDescription(nodeData["power"]["skill_desc"]);
-					if (nodeData["power"]["power_tags_list"] != undefined) {
-						if (sanitizedDescription == undefined) {
-							sanitizedDescription = "";
-						} else {
-							sanitizedDescription += "\n\n";
+					if (nodeData["power"]["power_tags"] != undefined) {
+						const filteredTags = nodeData["power"]["power_tags"].filter(tag => !tag.includes("_")).join(", ");
+						if (filteredTags.length > 0) {
+							if (sanitizedDescription == undefined) {
+								sanitizedDescription = "";
+							} else {
+								sanitizedDescription += "\n\n";
+							}
+							sanitizedDescription += `Tags: ${filteredTags}.`;
 						}
-						sanitizedDescription += `Tags: ${nodeData["power"]["power_tags_list"].join(", ")}.`;
 					}
 					let extraDescription = "";
 					if (className == "Sorcerer" && nodeData["reward"]["max_talent_ranks"] == 5) {
@@ -619,18 +622,21 @@ function runParser(downloadMode) {
 		if (classData["Paragon (Node)"] != undefined) {
 			paragonData[className]["Node"] = {};
 			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Node)"])) {
-				let nodeDesc = sanitizeNodeDescription(nodeData["desc"]);
+				let sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
 				if (nodeData["tags"] != undefined) {
-					if (nodeDesc == undefined) {
-						nodeDesc = "";
-					} else {
-						nodeDesc += "\n\n";
+					const filteredTags = nodeData["tags"].filter(tag => !tag.includes("_")).join(", ");
+					if (filteredTags.length > 0) {
+						if (sanitizedDescription == undefined) {
+							sanitizedDescription = "";
+						} else {
+							sanitizedDescription += "\n\n";
+						}
+						sanitizedDescription += `Tags: ${filteredTags}.`;
 					}
-					nodeDesc += `Tags: ${nodeData["tags"].join(", ")}.`;
 				}
 				paragonData[className]["Node"][nodeName] = {
 					name: nodeData["name"],
-					description: nodeDesc
+					description: sanitizedDescription
 				};
 			}
 		}
@@ -641,7 +647,23 @@ function runParser(downloadMode) {
 			for (const [nodeName, nodeData] of Object.entries(classData["Legendary"])) {
 				const codexPowerName = nodeData["name"].startsWith("of ") ? `Aspect ${nodeData["name"]}` : `${nodeData["name"]} Aspect`;
 				const codexCategoryName = "category" in nodeData ? codexCategoryNames[nodeData["category"]] : "Unknown";
-				const sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
+
+				let sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
+				// currently unused
+				/*
+				if (nodeData["tags"] != undefined) {
+					const filteredTags = nodeData["tags"].filter(tag => !tag.includes("_")).join(", ");
+					if (filteredTags.length > 0) {
+						if (sanitizedDescription == undefined) {
+							sanitizedDescription = "";
+						} else {
+							sanitizedDescription += "\n\n";
+						}
+						sanitizedDescription += `Tags: ${filteredTags}.`;
+					}
+				}
+				*/
+
 				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className, sanitizedDescription);
 				if (!(codexCategoryName in codexData[className])) codexData[className][codexCategoryName] = {};
 				codexData[className][codexCategoryName][codexPowerName] = {

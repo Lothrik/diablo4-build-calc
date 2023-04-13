@@ -696,7 +696,7 @@ Tags: Daze, Crowd Control, Critical Strikes.`,
 		connections: [ "Agility", "Trick Attacks" ],
 		description: `Your Evade Cooldown is reduced by {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} seconds when you Daze an enemy.
 
-Tags: Daze, Crowd Control, Cooldown, .`,
+Tags: Daze, Crowd Control, Cooldown.`,
 		id: 144,
 		maxPoints: 3,
 		x: 316.785,
