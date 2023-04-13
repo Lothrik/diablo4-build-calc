@@ -180,7 +180,6 @@ h1, h2, h3 {
 }
 
 #extraFooter {
-	width: 100vw;
 	display: flex;
 	margin: auto auto 0;
 	flex-direction: column;
