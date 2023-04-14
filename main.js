@@ -595,7 +595,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39858-16";
+const localVersion = "0.8.1.39858-17";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1778,8 +1778,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 						for (const extraValue of extraValues) {
 							nodeDesc2 = nodeDesc2.replace(/{#}/, extraValue.length > 0 ? extraValue: "#");
 						}
-						node.nodeDesc = nodeDesc1 + ENCHANTMENT_EFFECT_DESC + nodeDesc2;
 					}
+					node.nodeDesc = nodeDesc1 + ENCHANTMENT_EFFECT_DESC + nodeDesc2;
 				} else {
 					node.nodeDesc = nodeDesc1;
 				}
