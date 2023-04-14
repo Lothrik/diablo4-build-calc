@@ -1089,7 +1089,7 @@ Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 		connections: [ "Mastery", "Enhanced Ball Lightning" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
-Discharge a ball of lightning that slowly moves forward, continually zapping enemies for {#}% damage.
+Discharge a ball of lightning that slowly moves forward, continually zapping enemies for {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% damage.
 
 Tags: Mastery, Shock, Damage, Lightning, Mana.
 
@@ -1097,7 +1097,7 @@ Tags: Mastery, Shock, Damage, Lightning, Mana.
 Lucky Hit: Critical Strikes have a 25% chance to spawn a static Ball Lightning.`,
 		id: 86,
 		maxPoints: 5,
-		values: [ "50", "20", "18" ],
+		values: [ "50", "20" ],
 		x: 274.81,
 		y: 344.08
 	},

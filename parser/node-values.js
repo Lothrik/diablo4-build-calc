@@ -45,8 +45,7 @@ let nodeValues = {
 			],
 			"Ground Stomp": [
 				"16",
-				"33",
-				"10"
+				"33"
 			],
 			"Rallying Cry": [
 				"25"
@@ -71,7 +70,6 @@ let nodeValues = {
 		},
 		"Weapon Mastery": {
 			"Steel Grasp": [
-				"2",
 				"11",
 				"25"
 			],
@@ -109,8 +107,7 @@ let nodeValues = {
 				"33"
 			],
 			"Storm Strike": [
-				"25",
-				"3"
+				"25"
 			],
 			"Claw": [
 				"50"
@@ -138,8 +135,7 @@ let nodeValues = {
 			],
 			"Lightning Storm": [
 				"15",
-				"15",
-				"5"
+				"15"
 			]
 		},
 		"Defensive": {
@@ -161,16 +157,11 @@ let nodeValues = {
 		"Companion": {
 			"Ravens": [
 				"15",
-				"33",
-				""
+				"33"
 			],
 			"Vine Creeper": [
 				"20",
-				"40",
-				"7",
-				"2",
-				"30",
-				"2"
+				"40"
 			],
 			"Wolves": [
 				"14",
@@ -192,9 +183,7 @@ let nodeValues = {
 			],
 			"Rabies": [
 				"12",
-				"50",
-				"53",
-				"6"
+				"50"
 			]
 		},
 		"Ultimate": {
@@ -202,9 +191,7 @@ let nodeValues = {
 				"60"
 			],
 			"Petrify": [
-				"60",
-				"3",
-				"25"
+				"60"
 			],
 			"Lacerate": [
 				"50",
@@ -212,8 +199,7 @@ let nodeValues = {
 			],
 			"Cataclysm": [
 				"80",
-				"82",
-				"8"
+				"82"
 			]
 		},
 		"Key Passive": {},
@@ -253,8 +239,7 @@ let nodeValues = {
 			],
 			"Blood Lance": [
 				"10",
-				"40",
-				"3"
+				"40"
 			],
 			"Bone Spear": [
 				"25",
@@ -372,7 +357,7 @@ let nodeValues = {
 				"1.25"
 			],
 			"Concealment": [
-				"20"
+				"{20/19/18/17/16}"
 			],
 			"Smoke Grenade": [
 				"15"
@@ -381,24 +366,18 @@ let nodeValues = {
 		"Imbuements": {
 			"Poison Imbuement": [
 				"9",
-				"33",
-				"70",
-				"5"
+				"33"
 			],
 			"Shadow Imbuement": [
 				"9",
-				"33",
-				"40",
-				"40"
+				"33"
 			],
 			"Cold Imbuement": [
-				"9",
-				"25"
+				"9"
 			]
 		},
 		"Ultimate": {
 			"Shadow Clone": [
-				"60",
 				"60"
 			],
 			"Death Trap": [
@@ -497,8 +476,7 @@ let nodeValues = {
 			],
 			"Ball Lightning": [
 				"50",
-				"20",
-				"18"
+				"20"
 			],
 			"Firewall": [
 				"30",

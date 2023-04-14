@@ -190,14 +190,14 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		connections: [ "Basic", "Enhanced Storm Strike" ],
 		description: `Generate Spirit: 15
 Lucky Hit Chance: {#}%
-Electricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to {#} surrounding enemies, dealing 20% less damage each time it chains.
+Electricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to 3 surrounding enemies, dealing 20% less damage each time it chains.
 
 You gain 25% Damage Reduction for 3 seconds after dealing damage with Storm Strike.
 
 Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		id: 12,
 		maxPoints: 5,
-		values: [ "25", "3" ],
+		values: [ "25" ],
 		x: 276.665,
 		y: -215.355
 	},
@@ -474,12 +474,12 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
 		description: `Spirit Cost: {#} per strike
 Lucky Hit Chance: {#}%
-Conjure a growing lightning storm that deals {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of {#}.
+Conjure a growing lightning storm that deals {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of 5.
 
 Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 		id: 37,
 		maxPoints: 5,
-		values: [ "15", "15", "5" ],
+		values: [ "15", "15" ],
 		x: -452.28,
 		y: -268.415
 	},
@@ -794,14 +794,14 @@ druidData["Companion"] = {
 		connections: [ "Companion", "Enhanced Ravens" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: {#} Ravens fly above you and periodically attack your enemies for 13% damage every 5 seconds.
+Passive: 1 Ravens fly above you and periodically attack your enemies for 13% damage every 5 seconds.
 
 Active: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.
 
 Tags: Companion, Physical, Damage, Cooldown.`,
 		id: 62,
 		maxPoints: 5,
-		values: [ "15", "33", "" ],
+		values: [ "15", "33" ],
 		x: 0.92,
 		y: 293.68
 	},
@@ -852,14 +852,14 @@ Tags: Companion, Damage.`,
 		connections: [ "Companion", "Enhanced Vine Creeper" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Passive: A vine creeper periodically emerges from the ground every {#} seconds and applies {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Poisoning damage over 6 seconds to an enemy in the area.
+Passive: A vine creeper periodically emerges from the ground every 7 seconds and applies {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Poisoning damage over 6 seconds to an enemy in the area.
 
-Active: Vines strangle all surrounding enemies, Immobilizing them for {#} seconds and poisoning them for {#}% damage over {#} seconds.
+Active: Vines strangle all surrounding enemies, Immobilizing them for 2 seconds and poisoning them for {30/33/36/39/42/45/48/51/54/57}% damage over 2 seconds.
 
 Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		id: 67,
 		maxPoints: 5,
-		values: [ "20", "40", "7", "2", "30", "2" ],
+		values: [ "20", "40" ],
 		x: -535.155,
 		y: -0.594
 	},
@@ -1193,14 +1193,14 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		connections: [ "Wrath", "Enhanced Rabies" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Shapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and applying an additional {#} Poisoning damage over {#} seconds.
+Shapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and applying an additional {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% Poisoning damage over 6 seconds.
 
 Infected enemies spread Rabies to other surrounding targets.
 
 Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 		id: 103,
 		maxPoints: 5,
-		values: [ "12", "50", "53", "6" ],
+		values: [ "12", "50" ],
 		x: 522.33,
 		y: 283.86
 	},
@@ -1329,14 +1329,14 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 	"Petrify": {
 		connections: [ "Ultimate", "Prime Petrify" ],
 		description: `Cooldown: {#} seconds
-Encase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x25% increased Critical Strike Damage to enemies affected by Petrify.
+Encase all Nearby enemies in stone, Stunning them for 3 seconds. You deal x25% increased Critical Strike Damage to enemies affected by Petrify.
 
-Against Bosses, the Critical Strike Damage bonus is increased to x50% and its duration is increased to {#} seconds.
+Against Bosses, the Critical Strike Damage bonus is increased to x50% and its duration is increased to 6 seconds.
 
 Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`,
 		id: 110,
 		maxPoints: 1,
-		values: [ "60", "3", "25" ],
+		values: [ "60" ],
 		x: 3.895,
 		y: -279.14
 	},
@@ -1471,12 +1471,12 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 		connections: [ "Ultimate", "Prime Cataclysm" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and lightning strikes wildly dealing 52% damage.
+A massive storm follows you for 8 seconds. Tornadoes Knock Back enemies, and lightning strikes wildly dealing 52% damage.
 
 Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.`,
 		id: 123,
 		maxPoints: 1,
-		values: [ "80", "82", "8" ],
+		values: [ "80", "82" ],
 		x: -581.665,
 		y: -104.025
 	},

@@ -600,12 +600,12 @@ Tags: Bleed, Thorns, Damage.`,
 		connections: [ "Defensive", "Enhanced Ground Stomp" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Smash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% damage and Stunning surrounding enemies for {#} seconds.
+Smash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% damage and Stunning surrounding enemies for 3 seconds.
 
 Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 48,
 		maxPoints: 5,
-		values: [ "16", "33", "10" ],
+		values: [ "16", "33" ],
 		x: 4.675,
 		y: -306.735
 	},
@@ -979,7 +979,7 @@ Tags: Crowd Control.`,
 barbarianData["Weapon Mastery"] = {
 	"Steel Grasp": {
 		connections: [ "Weapon Mastery", "Enhanced Steel Grasp" ],
-		description: `Charges: {#}
+		description: `Charges: 2
 Charge Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Throw out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and Pull In enemies.
@@ -987,7 +987,7 @@ Throw out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4
 Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 82,
 		maxPoints: 5,
-		values: [ "2", "11", "25" ],
+		values: [ "11", "25" ],
 		x: 416.495,
 		y: 219.35
 	},

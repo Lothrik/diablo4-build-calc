@@ -379,12 +379,12 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 		connections: [ "Enhanced Blood Lance", "Core" ],
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
-Throw a blood lance that lingers in an enemy for {#} seconds, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage to the enemy and all other lanced enemies.
+Throw a blood lance that lingers in an enemy for 3 seconds, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage to the enemy and all other lanced enemies.
 
 Tags: Core, Blood, Damage, Physical, Essence.`,
 		id: 28,
 		maxPoints: 5,
-		values: [ "10", "40", "3" ],
+		values: [ "10", "40" ],
 		x: -278.15,
 		y: -274.3
 	},

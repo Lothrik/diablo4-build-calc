@@ -829,7 +829,7 @@ Using an attack Skill during Concealment will break Concealment.
 Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 		id: 127,
 		maxPoints: 5,
-		values: [ "20" ],
+		values: [ "{20/19/18/17/16}" ],
 		x: -390.71,
 		y: -209.637
 	},
@@ -1036,12 +1036,12 @@ Tags: Poison, Damage Reduction.`,
 		connections: [ "Enhanced Poison Imbuement", "Imbuements" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Imbue your weapons with lethal poison. Your next 2 Imbueable Skills deal Poison damage and apply {#}% of their Base damage as additional Poisoning damage over {#} seconds.
+Imbue your weapons with lethal poison. Your next 2 Imbueable Skills deal Poison damage and apply {70/77/84/91/98/105/112/119/126/133}% of their Base damage as additional Poisoning damage over 5 seconds.
 
 Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 		id: 128,
 		maxPoints: 5,
-		values: [ "9", "33", "70", "5" ],
+		values: [ "9", "33" ],
 		x: 500.35,
 		y: -114.65
 	},
@@ -1102,14 +1102,14 @@ Tags: Shadow, Energy.`,
 		connections: [ "Enhanced Shadow Imbuement", "Imbuements" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Imbue your weapons with festering shadows. Your next 2 Imbueable Skills deal Shadow damage and infect enemies for 6 seconds. Infected enemies explode on death, dealing {#}% damage to all surrounding enemies.
+Imbue your weapons with festering shadows. Your next 2 Imbueable Skills deal Shadow damage and infect enemies for 6 seconds. Infected enemies explode on death, dealing {40/44/48/52/56/60/64/68/72/76}% damage to all surrounding enemies.
 
-If the infection expires before the enemy dies, it will deal {#}% damage to only that enemy.
+If the infection expires before the enemy dies, it will deal {40/44/48/52/56/60/64/68/72/76}% damage to only that enemy.
 
 Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 		id: 132,
 		maxPoints: 5,
-		values: [ "9", "33", "40", "40" ],
+		values: [ "9", "33" ],
 		x: 221.62,
 		y: -249.835
 	},
@@ -1149,12 +1149,12 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 	"Cold Imbuement": {
 		connections: [ "Enhanced Cold Imbuement", "Imbuements" ],
 		description: `Cooldown: {#} seconds
-Imbue your weapons with frigid energies. Your next 2 Imbueable Skills deal Cold damage and Chill enemies for {#}% per hit.
+Imbue your weapons with frigid energies. Your next 2 Imbueable Skills deal Cold damage and Chill enemies for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% per hit.
 
 Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 		id: 136,
 		maxPoints: 5,
-		values: [ "9", "25" ],
+		values: [ "9" ],
 		x: 280.1,
 		y: 265.1
 	},
@@ -1258,12 +1258,12 @@ Tags: Energy, Lucky Hit.`,
 		connections: [ "Prime Shadow Clone", "Ultimate" ],
 		description: `Cooldown: {#} seconds
 Your shadow mimicks your actions for 15 seconds.
-The shadow deals {#}% of your damage.
+The shadow deals 60% of your damage.
 
 Tags: Ultimate, Damage, Physical, Cooldown.`,
 		id: 104,
 		maxPoints: 1,
-		values: [ "60", "60" ],
+		values: [ "60" ],
 		x: 2.07,
 		y: -283.5
 	},
