@@ -877,7 +877,9 @@ function handleReloadButton() {
 				nodeData.boardData = JSON.parse(LZString.decompressFromEncodedURIComponent(nodeData.boardData)
 					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
 					.replace(/:([\w]+)(,|})/g, ':"$1"$2'));
+				for (const [boardIndex, gridLocation] of Object.entries(paragonBoardGridData)) moveParagonBoard(Number(boardIndex), 0);
 				for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), gridLocation);
+				for (const [boardIndex, rotationAngle] of Object.entries(paragonBoardRotationData)) rotateParagonBoard(Number(boardIndex), 0);
 				if (nodeData.boardData.length > 1) {
 					for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), rotationAngle);
 				}
@@ -1036,10 +1038,8 @@ function moveParagonBoard(boardIndex, forcedGridLocation = null) {
 	for (const boardObject of [boardHeader, boardContainer]) {
 		if (boardObject.position.offsetX == undefined) boardObject.position.offsetX = 0;
 		if (boardObject.position.offsetY == undefined) boardObject.position.offsetY = 0;
-		const startX = isNaN(boardObject.position.startX) ? boardObject.position.x : boardObject.position.startX;
-		const startY = isNaN(boardObject.position.startY) ? boardObject.position.y : boardObject.position.startY;
-		boardObject.position.x = startX - boardObject.position.offsetX + gridPosition.x;
-		boardObject.position.y = startY - boardObject.position.offsetY + gridPosition.y;
+		boardObject.position.x = boardObject.position.x - boardObject.position.offsetX + gridPosition.x;
+		boardObject.position.y = boardObject.position.y - boardObject.position.offsetY + gridPosition.y;
 		boardObject.position.offsetX = gridPosition.x;
 		boardObject.position.offsetY = gridPosition.y;
 	}
