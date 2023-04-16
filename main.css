@@ -39,9 +39,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	cursor: pointer;
 	text-align: center;
-	background: #000 url(images/background.jpg) repeat;
+	background: #000 url(images/background.avif) repeat;
+	background-size: 2000px;
 	-webkit-tap-highlight-color: transparent;
 }
 
@@ -49,14 +49,28 @@ body > * {
 	-webkit-tap-highlight-color: initial;
 }
 
-body > :not(#canvasContainer) {
-	z-index: 1;
+@media (min-resolution: 2dppx) {
+	body {
+		background-size: 1000px;
+	}
 }
 
-@media (any-pointer: fine) {
+@media (min-resolution: 4dppx) {
 	body {
-		cursor: default;
+		background-size: 500px;
 	}
+}
+
+.webp {
+	background-image: url(images/background.webp);
+}
+
+.jpg {
+	background-image: url(images/background.jpg);
+}
+
+body > :not(#canvasContainer) {
+	z-index: 1;
 }
 
 h1, h2, h3 {

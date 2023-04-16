@@ -25,6 +25,21 @@ String.prototype.split = function() {
 	return splitOrig.apply(this, arguments);
 };
 
+// check browser for AVIF or WEBP support
+async function supportsEncode() {
+	if (!createImageBitmap) return "jpg";
+	const avifData = "data:image/avif;base64,AAAAHGZ0eXBtaWYxAAAAAG1pZjFhdmlmbWlhZgAAAPFtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAHmlsb2MAAAAABEAAAQABAAAAAAEVAAEAAAAeAAAAKGlpbmYAAAAAAAEAAAAaaW5mZQIAAAAAAQAAYXYwMUltYWdlAAAAAHBpcHJwAAAAUWlwY28AAAAUaXNwZQAAAAAAAAABAAAAAQAAABBwYXNwAAAAAQAAAAEAAAAVYXYxQ4EgAAAKBzgABpAQ0AIAAAAQcGl4aQAAAAADCAgIAAAAF2lwbWEAAAAAAAAAAQABBAECg4QAAAAmbWRhdAoHOAAGkBDQAjITFkAAAEgAAAB5TNw9UxdXU6F6oA==",
+		webpData = "data:image/webp;base64,UklGRhwAAABXRUJQVlA4TBAAAAAvAAAAEAfQpv5HmQMR0f8A",
+		avifBlob = await fetch(avifData).then((r) => r.blob());
+	return createImageBitmap(avifBlob)
+		.then(() => "avif")
+		.catch(async() => {
+		const webpBlob = await fetch(webpData).then((r) => r.blob());
+		return createImageBitmap(webpBlob).then(() => "webp")
+	}).catch(() => "jpg");
+}
+(async () => { document.body.classList.add(await supportsEncode()); })();
+
 // lineIntersect returns [x, y] intersect coordinates for two given lines [[[x1, y1], [x2, y2]], [[x3, y3], [x4, y4]]]
 // lines will automatically rotate around c1, c2, c3, and c4 center points if the optional angle parameter is provided
 function lineIntersect(x1, y1, x2, y2, x3, y3, x4, y4, angle = 0, c1 = [], c2 = [], c3 = [], c4 = []) {
