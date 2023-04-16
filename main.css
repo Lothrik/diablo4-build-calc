@@ -39,7 +39,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	cursor: pointer;
 	text-align: center;
 	background: #000 url(images/background.avif) repeat;
 	background-size: 2000px;
@@ -48,12 +47,6 @@ body {
 
 body > * {
 	-webkit-tap-highlight-color: initial;
-}
-
-@media (any-pointer: fine) {
-	body {
-		cursor: default;
-	}
 }
 
 @media (min-resolution: 2dppx) {

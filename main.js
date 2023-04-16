@@ -237,8 +237,8 @@ const backgroundOpacity = 0.8;//backgroundColorHEX.length == 8 ? 1 : (background
 const borderColor = 0xFFFFFF;//borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
 const borderOpacity = 1;//borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
 const activeColorDefault = "ff0000";
-var activeConnectorColor = Number("0x" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
-var activeNodeColor = Number("0x" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
+var activeConnectorColor = Number("0x" + readCookie("activeConnectorColor", activeColorDefault));
+var activeNodeColor = Number("0x" + readCookie("activeNodeColor", activeColorDefault));
 
 const lineStyleThinSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
 const lineStyleThinButt = { alpha: borderOpacity, cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
@@ -526,11 +526,11 @@ function handleSummaryButton(event) {
 }
 function handleZoomButton(event) {
 	if (event.type == "click") {
-		const oldZoomLevel = Number(readCookie("zoomLevel"));
+		const oldZoomLevel = Number(readCookie("zoomLevel", 1));
 		const newZoomLevel = Number(prompt(DESIRED_ZOOM_LEVEL_PROMPT, isNaN(oldZoomLevel) ? "1" : oldZoomLevel));
 		if (!isNaN(newZoomLevel) && newZoomLevel >= 0.25 && newZoomLevel <= 4) writeCookie("zoomLevel", newZoomLevel);
 
-		const oldZoomLevelTooltip = Number(readCookie("zoomLevelTooltip"));
+		const oldZoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
 		const newZoomLevelTooltip = Number(prompt(DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT, isNaN(oldZoomLevelTooltip) ? "1" : oldZoomLevelTooltip));
 		if (!isNaN(newZoomLevel) && newZoomLevelTooltip >= 0.25 && newZoomLevelTooltip <= 4) writeCookie("zoomLevelTooltip", newZoomLevelTooltip);
 
@@ -538,7 +538,7 @@ function handleZoomButton(event) {
 	}
 }
 function applyZoomLevel() {
-	let zoomLevel = Number(readCookie("zoomLevel"));
+	let zoomLevel = Number(readCookie("zoomLevel", 1));
 	if (window.innerWidth < 450 * zoomLevel) zoomLevel = Math.max(window.innerWidth / 450, 1);
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) {
 		$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
@@ -546,13 +546,13 @@ function applyZoomLevel() {
 		$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
 	}
 
-	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip"));
+	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) pixiTooltipZoomLevel = zoomLevelTooltip;
 }
 function handleConnectorColorInput(event) {
 	writeCookie("activeConnectorColor", $("#colorConnectorInput").val().slice(1));
 
-	activeConnectorColor = Number("0x" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
+	activeConnectorColor = Number("0x" + readCookie("activeConnectorColor", activeColorDefault));
 	lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
 
 	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
@@ -562,7 +562,7 @@ function handleConnectorColorInput(event) {
 function handleNodeColorInput(event) {
 	writeCookie("activeNodeColor", $("#colorNodeInput").val().slice(1));
 
-	activeNodeColor = Number("0x" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
+	activeNodeColor = Number("0x" + readCookie("activeNodeColor", activeColorDefault));
 	lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: activeNodeColor, native: false, width: 8 };
 
 	pixiNodes.forEach(curNode => {
@@ -2670,7 +2670,7 @@ function resizeCanvas() {
 		$("body").height(newHeight); // prevent undesirable mobile vertical scroll
 	}
 }
-function readCookie(name) {
+function readCookie(name, fallback = "") {
 	const value = `; ${document.cookie}`;
 	const parts = value.split(`; ${name}=`);
 	if (parts.length == 2) {
@@ -2678,7 +2678,7 @@ function readCookie(name) {
 		writeCookie(name, output); // refresh cookie duration
 		return output;
 	}
-	return "";
+	return fallback;
 }
 function writeCookie(name, value) {
 	let date = new Date();
@@ -2687,8 +2687,8 @@ function writeCookie(name, value) {
 }
 
 // read cookie settings immediately
-$("#colorConnectorInput").val("#" + (readCookie("activeConnectorColor").length > 0 ? readCookie("activeConnectorColor") : activeColorDefault));
-$("#colorNodeInput").val("#" + (readCookie("activeNodeColor").length > 0 ? readCookie("activeNodeColor") : activeColorDefault));
+$("#colorConnectorInput").val("#" + readCookie("activeConnectorColor", activeColorDefault));
+$("#colorNodeInput").val("#" + readCookie("activeNodeColor", activeColorDefault));
 $("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
 
 // finalize the page once DOM has loaded
