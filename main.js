@@ -872,18 +872,26 @@ function handleSaveButton() {
 	}
 }
 function handleReloadButton() {
+	const className = $(classString).val();
 	const urlHash = window.location.hash.replace("#", "").split(/[?&]/)[0];
+
+	let nodeData = { className: className };
 	if (urlHash.length > 0) {
 		const jsonData = LZString.decompressFromEncodedURIComponent(urlHash);
 		// valid JSON always requires quotes around key names; we strip those (and object "1-values") to increase compression
-		const nodeData = jsonData.includes('"') ? JSON.parse(jsonData) :
+		nodeData = jsonData.includes('"') ? JSON.parse(jsonData) :
 			JSON.parse(jsonData
 				.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')					// restore key double quotes
 				.replace(/","/g, '":1,"') 											// restore object "1-values"
 				.replace(/("(?:className|boardData)":)([^,\[\]{}]+)/g, '$1"$2"')	// restore class name and paragon board data double quotes
 				.replace(/(,"[^:,]+")}/g, '$1:1}')									// restore final object value
 			);
+	}
 
+	if (nodeData.className == "none") {
+		$("#classSelectBox").removeClass("disabled");
+		$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
+	} else {
 		$("#classSelector").val(nodeData.className);
 		handleClassSelection(null, finishLoading);
 
@@ -943,9 +951,6 @@ function handleReloadButton() {
 
 			resetFrameTimer();
 		}
-	} else {
-		$("#classSelectBox").removeClass("disabled");
-		$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
 	}
 }
 function handleShareButton() {
