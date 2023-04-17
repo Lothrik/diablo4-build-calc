@@ -2129,9 +2129,9 @@ function drawAllNodes() {
 		const validSlotTypes = {
 			"barbarian": validSlotTypesGeneric.concat(["2H Polearm", "2H Axe", "2H Sword", "2H Mace", "1H Axe", "1H Mace", "1H Sword"]),
 			"druid": validSlotTypesGeneric.concat(["2H Staff", "2H Axe", "2H Mace", "1H Axe", "1H Mace", "Totem"]),
-			"necromancer": validSlotTypesGeneric.concat(["2H Scythe", "1H Scythe", "Shield"]),
+			"necromancer": validSlotTypesGeneric.concat(["2H Scythe", "1H Scythe", "2H Sword", "1H Sword", "1H Dagger", "1H Wand", "Shield", "Focus"]),
 			"rogue": validSlotTypesGeneric.concat(["2H Bow", "2H Crossbow", "1H Dagger", "1H Sword"]),
-			"sorcerer": validSlotTypesGeneric.concat(["2H Staff", "1H Wand"]),
+			"sorcerer": validSlotTypesGeneric.concat(["2H Staff", "1H Wand", "Focus"]),
 		};
 
 		const unsortedCodex = getCodexData(["Generic", classText], null, validSlotTypes[className]);
