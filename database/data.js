@@ -1,5 +1,5 @@
 const buildNumber = 39858;
-const localVersion = `0.8.1.${buildNumber}-18`;
+const localVersion = `0.8.1.${buildNumber}-19`;
 var remoteVersion = "";
 var versionInterval = null;
 
@@ -63,12 +63,17 @@ $.getJSON("build-" + buildNumber + ".json", null, data => {
 	// we use DOM functions exclusively here instead of jQuery because this affects a HUGE number of elements, and speed is important
 	const lines = document.querySelectorAll(".line");
 	for (const line of lines) {
-		const children = line.querySelectorAll(".caret-icon, .empty-icon, .json-key, .json-size, .json-separator");
+		const children = line.querySelectorAll(".caret-icon, .empty-icon, .json-key, .json-size, .json-separator, .json-value");
 		const label = document.createElement("div");
 		label.className = "json-label";
 		line.prepend(label);
 		for (const child of children) {
-			if (child.classList.contains("json-key")) child.innerHTML = child.innerHTML.replace(/_/g, "<wbr>_");
+			if (child.classList.contains("json-key")) {
+				child.innerHTML = child.innerHTML.replace(/_/g, "<wbr>_");
+			} else if (child.classList.contains("json-value")) {
+				child.innerHTML = child.innerHTML.replace(/\n/g, "<br>");
+				continue;
+			}
 			label.append(child);
 		}
 	}
