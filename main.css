@@ -332,6 +332,9 @@ button:active {
 		height: auto;
 		padding: 0 1.2vw;
 	}
+	select {
+		padding: 0 3.6vw 0 0.8vw;
+	}
 	#extraInfo, #extraButtons1, #extraButtons2 {
 		margin-bottom: 2.4vw;
 	}

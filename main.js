@@ -2600,7 +2600,7 @@ function convertNodeId(nodeData, groupName, decodeBase = false) {
 	}
 }
 function resizeSearchInput() {
-	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - parseInt($("#groupSelector").css("padding-left"));
+	const targetWidth = $("#extraButtons2").width() - $("#classSelector").outerWidth(true) - $("#groupSelector").outerWidth(true) - parseFloat($("#groupSelector").css("margin-left")) * 2;
 	$("#searchInput").outerWidth(targetWidth);
 }
 function resetFrameTimer() {
