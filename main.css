@@ -195,18 +195,18 @@ h1, h2, h3 {
 	pointer-events: auto;
 }
 
-#flexContainer button {
+#modalDiv2 {
+	font-size: 32px;
+	margin: 10px 0;
+}
+
+#modalDiv3 {
+	font-size: 24px;
+}
+
+#modalDiv4 * {
 	font-size: 26px;
 	height: 30px;
-}
-
-#glyphSelect {
-	font-size: 36px;
-	margin: 10px 0
-}
-
-#glyphSuffix {
-	font-size: 24px;
 }
 
 #classSelectBox span:hover {
@@ -367,9 +367,6 @@ button:active {
 	}
 }
 
-.select2-container {
-	width: auto!important;
-}
 .select2-selection, .select2-dropdown, .select2-search__field {
 	border: 1px solid #fff!important;
 	border-radius: 0!important;
@@ -388,7 +385,7 @@ button:active {
 .select2-selection--single {
 	height: 36px!important;
 }
-.select2-selection__rendered {
+.select2-selection__rendered, .select2-selection__arrow {
 	height: 34px!important;
 }
 .select2-dropdown--below {

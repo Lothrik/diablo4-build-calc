@@ -115,22 +115,6 @@ function rgba2hex(rgba) {
 	return `0x${rgba.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+\.{0,1}\d*))?\)$/).slice(1).map((n, i) => (i == 3 ? Math.round(parseFloat(n) * 255) : parseFloat(n)).toString(16).padStart(2, "0").replace("NaN", "")).join("")}`;
 }
 
-// same as $.on() but moves the binding to the front of the queue
-$.fn.onFirst = function (type, selector, data, fn) {
-    this.each(function () {
-        const $this = $(this);
-        const types = type.split(" ");
-
-        for (const t in types) {
-            $this.on(types[t], selector, data, fn);
-
-            const currentBindings = $._data(this, "events")[types[t]];
-            if ($.isArray(currentBindings)) currentBindings.unshift(currentBindings.pop());
-        }
-    });
-    return this;
-};
-
 // construct a nested map of all class data
 const classObj = { "barbarian": barbarianData, "druid": druidData, "necromancer": necromancerData, "rogue": rogueData, "sorcerer": sorcererData };
 var classMap = new Map();
@@ -557,13 +541,15 @@ function handleZoomButton(event) {
 }
 function applyZoomLevel() {
 	let zoomLevel = Number(readCookie("zoomLevel", 1));
+
 	if (window.innerWidth < 450 * zoomLevel) zoomLevel = Math.max(window.innerWidth / 450, 1);
-	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) {
-		$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
-		$("#floatRight").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "right top" });
-		$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
-		$("#flexContainer").css({ "transform": `scale(${zoomLevel})` });
-	}
+	if (isNaN(zoomLevel) || zoomLevel < 0.25 || zoomLevel > 4) zoomLevel = 1;
+
+	$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
+	$("#floatRight").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "right top" });
+	$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
+	$("#flexContainer").css({ "transform": `scale(${zoomLevel})` });
+	$(".select2-container").width((window.innerWidth * 0.9 - 22) / zoomLevel);
 
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) pixiTooltipZoomLevel = zoomLevelTooltip;
@@ -1180,24 +1166,20 @@ function equipParagonBoardGlyph(boardIndex) {
 	}
 
 	$("#fadeOverlay").removeClass("disabled");
-	$("#modalBox").html(`${GLYPH_SELECT_PROMPT_PREFIX}[${boardHeader.nodeName}]:`
-		+ `<div id="glyphSelect"><select id="modalSelect">${modalOptions}</select></div>`
-		+ `<div id="glyphSuffix">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
-		+ `<div><button id="modalConfirm" type="button">Confirm</button> `
+	$("#modalBox").html(`<div id="modalDiv1">${GLYPH_SELECT_PROMPT_PREFIX}[${boardHeader.nodeName}]:</div>`
+		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions}</select></div>`
+		+ `<div id="modalDiv3">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
+		+ `<div id="modalDiv4"><button id="modalConfirm" type="button">Confirm</button> `
 		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
 
 	$("#modalSelect").select2({
-		dropdownParent: $("#modalBox")
+		dropdownParent: $("#modalDiv2")
 	});
 	$("#modalBox").on("select2:open", e => {
 		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())
 	})
-	// hacky workaround to fix select2 handling css transforms poorly
-	$(".select2-selection").onFirst("blur focus keydown mousedown", () => $("#flexContainer").removeAttr("style"));
-	$(".select2-selection").on("blur focus keydown mousedown", (e) => {
-		if ($(e.target).attr("aria-expanded") == "true" && e.type != "blur") $(e.target).blur(); // WIP, NOT FINISHED
-		applyZoomLevel();
-	});
+	// force a zoom level update so select2 behaves properly
+	applyZoomLevel();
 
 	$("#modalConfirm").on("click", () => {
 		paragonBoardGlyphData[boardIndex] = Number($("#modalSelect").val());
