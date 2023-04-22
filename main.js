@@ -1271,7 +1271,7 @@ function updateNodePoints(curNode, newPoints) {
 
 		const shapeType = curNode.nodeData.get("shapeType");
 		if (newPoints == 0) {
-			if (curNode.children[0].children.length > 1) {
+			/*if (curNode.children[0].children.length > 1) {
 				if (shapeType == "circle") {
 					curNode.children[0].children[1].texture = NODE_CIRCLE_INACTIVE;
 				} else if (shapeType == "diamond") {
@@ -1279,10 +1279,10 @@ function updateNodePoints(curNode, newPoints) {
 				} else {
 					curNode.children[0].children[1].texture = NODE_SQUARE_INACTIVE;
 				}
-			}
+			}*/
 			setNodeStyleThin(curNode);
 		} else {
-			if (curNode.children[0].children.length > 1) {
+			/*if (curNode.children[0].children.length > 1) {
 				if (shapeType == "circle") {
 					curNode.children[0].children[1].texture = NODE_CIRCLE_ACTIVE;
 				} else if (shapeType == "diamond") {
@@ -1290,7 +1290,7 @@ function updateNodePoints(curNode, newPoints) {
 				} else {
 					curNode.children[0].children[1].texture = NODE_SQUARE_ACTIVE;
 				}
-			}
+			}*/
 			setNodeStyleThick(curNode);
 			if (pixiTooltip.nodeIndex == curNode.nodeIndex && curNode.nodeData.get("nodeType") == "Socket") equipParagonGlyph(curNode.nodeData.get("_boardIndex"));
 		}
@@ -1843,6 +1843,14 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	if (extraContainer2 != undefined) nodeContainer.addChild(extraContainer2);
 	if (extraContainer3 != undefined) nodeContainer.addChild(extraContainer3);
 	if (extraContainer4 != undefined) nodeContainer.addChild(extraContainer4);
+
+	if (nodeData.get("nodeType") == "Socket") {
+		const glyphOutline = new PIXI.Sprite(PIXI.Texture.from("images/glyph_overlay.png"));
+		glyphOutline.pivot.x = 695;
+		glyphOutline.pivot.y = 695;
+		glyphOutline.eventMode = "none";
+		nodeContainer.addChild(glyphOutline);
+	}
 
 	/*
 	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
