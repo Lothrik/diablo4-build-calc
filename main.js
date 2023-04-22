@@ -1194,10 +1194,7 @@ function equipParagonBoardGlyph(boardIndex) {
 	$("#modalBox").on("select2:open", e => {
 		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())
 	})
-	// hacky workaround for select2 transform bugs
-	applyZoomLevel();
-	$(".select2-selection").onFirst("blur focus keydown mousedown", () => $("#flexContainer").removeAttr("style"));
-	$(".select2-selection").on("blur focus keydown mousedown", () => applyZoomLevel());
+	applyZoomLevel(); // hacky workaround for select2 transform bug
 
 	$("#modalConfirm").on("click", () => {
 		paragonBoardGlyphData[boardIndex] = Number($("#modalSelect").val());
