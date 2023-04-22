@@ -1172,12 +1172,12 @@ function equipParagonBoardGlyph(boardIndex) {
 		if (glyphName + "_Rogue" in paragonGlyphs && className == "rogue") continue;
 		if (glyphName + "_Sorc" in paragonGlyphs && className == "sorcerer") continue;
 		const glyphIndex = Number(glyphName.match(/\d+/)[0]);
-		const glyphBoard = Object.values(paragonBoardGlyphData).indexOf(glyphIndex);
-		if (glyphBoard > -1) {
+		const glyphBoard = Object.keys(paragonBoardGlyphData).find(key => paragonBoardGlyphData[key] == glyphIndex);
+		if (glyphBoard == undefined) {
+			modalOptions += `<option value="${glyphIndex}">${glyphData.name} &mdash; ${glyphData.bonus}</option>`;
+		} else {
 			const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == glyphBoard);
 			modalOptions += `<option value="${glyphIndex}">${glyphData.name} &mdash; ${glyphData.bonus} (Socketed in: [${boardHeader.nodeName}])</option>`;
-		} else {
-			modalOptions += `<option value="${glyphIndex}">${glyphData.name} &mdash; ${glyphData.bonus}</option>`;
 		}
 	}
 
