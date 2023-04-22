@@ -219,7 +219,6 @@ h1, h2, h3 {
 	display: flex;
 	margin: auto auto 0;
 	flex-direction: column;
-	pointer-events: none;
 }
 
 #extraInfo {
