@@ -196,7 +196,7 @@ h1, h2, h3 {
 }
 
 #modalDiv2 {
-	font-size: 32px;
+	font-size: 28px;
 	margin: 10px 0;
 }
 
@@ -382,10 +382,10 @@ button:active {
 	background-color: #202324!important;
 }
 .select2-selection--single {
-	height: 36px!important;
+	height: 28px!important;
 }
 .select2-selection__rendered, .select2-selection__arrow {
-	height: 34px!important;
+	height: 26px!important;
 }
 .select2-dropdown--below {
 	border-top: none!important;
