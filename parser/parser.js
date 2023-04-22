@@ -668,14 +668,12 @@ function runParser(downloadMode) {
 		if ("Paragon (Glyph)" in classData) {
 			paragonData[className]["Paragon (Glyph)"] = {};
 			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Glyph)"])) {
-				const thresholdDescription = "Additional Bonus: (if requirements met)\n" + nodeData["bonus"] + "\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}";
 				let thresholdRequirements = {};
 				thresholdRequirements = processThresholdRequirements(nodeData, className);
 				paragonData[className]["Paragon (Glyph)"][nodeName] = {
 					name: nodeData["name"],
 					desc: nodeData["desc"],
 					bonus: nodeData["bonus"],
-					thresholdDescription: thresholdDescription,
 					thresholdRequirements: thresholdRequirements
 				};
 			}

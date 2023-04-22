@@ -185,7 +185,8 @@ h1, h2, h3 {
 	z-index: 3!important;
 }
 
-#classSelectBox, #modalBox {
+#flexContainer > * {
+	max-width: 90vw;
 	border: 1px solid;
 	padding: 10px;
 	font-size: 36px;
@@ -194,12 +195,18 @@ h1, h2, h3 {
 	pointer-events: auto;
 }
 
-#classSelectBox, #classSelectBox *, #modalBox, #modalBox * {
-	max-width: 90vw;
+#flexContainer button {
+	font-size: 26px;
+	height: 30px;
 }
 
-#modalBox * {
-	font-size: 20px;
+#glyphSelect {
+	font-size: 36px;
+	margin: 10px 0
+}
+
+#glyphSuffix {
+	font-size: 24px;
 }
 
 #classSelectBox span:hover {
@@ -212,6 +219,7 @@ h1, h2, h3 {
 	display: flex;
 	margin: auto auto 0;
 	flex-direction: column;
+	pointer-events: none;
 }
 
 #extraInfo {
@@ -359,6 +367,9 @@ button:active {
 	}
 }
 
+.select2-container {
+	width: auto!important;
+}
 .select2-selection, .select2-dropdown, .select2-search__field {
 	border: 1px solid #fff!important;
 	border-radius: 0!important;
@@ -375,7 +386,10 @@ button:active {
 	background-color: #202324!important;
 }
 .select2-selection--single {
-	height: 30px!important;
+	height: 36px!important;
+}
+.select2-selection__rendered {
+	height: 34px!important;
 }
 .select2-dropdown--below {
 	border-top: none!important;

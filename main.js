@@ -115,6 +115,22 @@ function rgba2hex(rgba) {
 	return `0x${rgba.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+\.{0,1}\d*))?\)$/).slice(1).map((n, i) => (i == 3 ? Math.round(parseFloat(n) * 255) : parseFloat(n)).toString(16).padStart(2, "0").replace("NaN", "")).join("")}`;
 }
 
+// same as $.on() but moves the binding to the front of the queue
+$.fn.onFirst = function (type, selector, data, fn) {
+    this.each(function () {
+        const $this = $(this);
+        const types = type.split(" ");
+
+        for (const t in types) {
+            $this.on(types[t], selector, data, fn);
+
+            const currentBindings = $._data(this, "events")[types[t]];
+            if ($.isArray(currentBindings)) currentBindings.unshift(currentBindings.pop());
+        }
+    });
+    return this;
+};
+
 // construct a nested map of all class data
 const classObj = { "barbarian": barbarianData, "druid": druidData, "necromancer": necromancerData, "rogue": rogueData, "sorcerer": sorcererData };
 var classMap = new Map();
@@ -546,6 +562,7 @@ function applyZoomLevel() {
 		$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
 		$("#floatRight").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "right top" });
 		$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
+		$("#flexContainer").css({ "transform": `scale(${zoomLevel})` });
 	}
 
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
@@ -1164,8 +1181,8 @@ function equipParagonBoardGlyph(boardIndex) {
 
 	$("#fadeOverlay").removeClass("disabled");
 	$("#modalBox").html(`${GLYPH_SELECT_PROMPT_PREFIX}[${boardHeader.nodeName}]:`
-		+ `<div style="margin:10px 0"><select id="modalSelect">${modalOptions}</select></div>`
-		+ `<div style="margin-bottom:10px">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
+		+ `<div id="glyphSelect"><select id="modalSelect">${modalOptions}</select></div>`
+		+ `<div id="glyphSuffix">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
 		+ `<div><button id="modalConfirm" type="button">Confirm</button> `
 		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
 
@@ -1175,6 +1192,12 @@ function equipParagonBoardGlyph(boardIndex) {
 	$("#modalBox").on("select2:open", e => {
 		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())
 	})
+	// hacky workaround to fix select2 handling css transforms poorly
+	$(".select2-selection").onFirst("blur focus keydown mousedown", () => $("#flexContainer").removeAttr("style"));
+	$(".select2-selection").on("blur focus keydown mousedown", (e) => {
+		if ($(e.target).attr("aria-expanded") == "true" && e.type != "blur") $(e.target).blur(); // WIP, NOT FINISHED
+		applyZoomLevel();
+	});
 
 	$("#modalConfirm").on("click", () => {
 		paragonBoardGlyphData[boardIndex] = Number($("#modalSelect").val());
@@ -2445,7 +2468,7 @@ function drawTooltip(curNode, forceDraw) {
 					}
 					curNode.nodeData.set("nameOverride", curNode.nodeName + " [" + glyphData["name"] + "]");
 					curNode.nodeData.set("thresholdRequirements", glyphData["thresholdRequirements"]);
-					nodeDesc = glyphData["desc"] + "\n" + glyphData["bonus"] + "\n\n" + glyphData["thresholdDescription"];
+					nodeDesc = glyphData["desc"] + "\n\n" + "Additional Bonus: (if requirements met)\n" + glyphData["bonus"] + "\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}";
 				} else {
 					nodeDesc = "Allocate this node to see a list of available glyphs."
 				}
