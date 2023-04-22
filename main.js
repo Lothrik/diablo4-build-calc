@@ -1127,7 +1127,7 @@ function setParagonBoardEquipIndex(boardIndex, forcedEquipIndex = null) {
 	}
 }
 let paragonBoardGlyphData = {};
-function equipParagonGlyph(boardIndex) {
+function equipParagonBoardGlyph(boardIndex) {
 	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
 	const className = $(classString).val();
@@ -1152,7 +1152,14 @@ function equipParagonGlyph(boardIndex) {
 		if (glyphName + "_Necro" in paragonGlyphs && className == "necromancer") continue;
 		if (glyphName + "_Rogue" in paragonGlyphs && className == "rogue") continue;
 		if (glyphName + "_Sorc" in paragonGlyphs && className == "sorcerer") continue;
-		modalOptions += `<option value="${Number(glyphName.match(/\d+/)[0])}">${glyphData.name} &mdash; ${glyphData.bonus}</option>`;
+		const glyphIndex = String(Number(glyphName.match(/\d+/)[0]));
+		const glyphBoard = Object.values(paragonBoardGlyphData).indexOf(glyphIndex);
+		if (glyphBoard > -1) {
+			const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == glyphBoard);
+			modalOptions += `<option value="${glyphIndex}">${glyphData.name} &mdash; ${glyphData.bonus} (Socketed in: [${boardHeader.nodeName}])</option>`;
+		} else {
+			modalOptions += `<option value="${glyphIndex}">${glyphData.name} &mdash; ${glyphData.bonus}</option>`;
+		}
 	}
 
 	$("#fadeOverlay").removeClass("disabled");
@@ -1172,6 +1179,7 @@ function equipParagonGlyph(boardIndex) {
 	$("#modalConfirm").on("click", () => {
 		paragonBoardGlyphData[boardIndex] = Number($("#modalSelect").val());
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true); // force tooltip redraw, mostly for mobile
 	});
 	$("#modalCancel").on("click", () => {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
@@ -1292,7 +1300,7 @@ function updateNodePoints(curNode, newPoints) {
 				}
 			}*/
 			setNodeStyleThick(curNode);
-			if (pixiTooltip.nodeIndex == curNode.nodeIndex && curNode.nodeData.get("nodeType") == "Socket") equipParagonGlyph(curNode.nodeData.get("_boardIndex"));
+			if (pixiTooltip.nodeIndex == curNode.nodeIndex && curNode.nodeData.get("nodeType") == "Socket") equipParagonBoardGlyph(curNode.nodeData.get("_boardIndex"));
 		}
 
 		const className = $(classString).val();
