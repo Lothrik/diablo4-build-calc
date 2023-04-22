@@ -115,6 +115,22 @@ function rgba2hex(rgba) {
 	return `0x${rgba.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+\.{0,1}\d*))?\)$/).slice(1).map((n, i) => (i == 3 ? Math.round(parseFloat(n) * 255) : parseFloat(n)).toString(16).padStart(2, "0").replace("NaN", "")).join("")}`;
 }
 
+// same as $.on() but moves the binding to the front of the queue
+$.fn.onFirst = function (type, selector, data, fn) {
+    this.each(function () {
+        const $this = $(this);
+        const types = type.split(" ");
+
+        for (const t in types) {
+            $this.on(types[t], selector, data, fn);
+
+            const currentBindings = $._data(this, "events")[types[t]];
+            if ($.isArray(currentBindings)) currentBindings.unshift(currentBindings.pop());
+        }
+    });
+    return this;
+};
+
 // construct a nested map of all class data
 const classObj = { "barbarian": barbarianData, "druid": druidData, "necromancer": necromancerData, "rogue": rogueData, "sorcerer": sorcererData };
 var classMap = new Map();
@@ -1178,8 +1194,10 @@ function equipParagonBoardGlyph(boardIndex) {
 	$("#modalBox").on("select2:open", e => {
 		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())
 	})
-	// force a zoom level update so select2 behaves properly
+	// hacky workaround for select2 transform bugs
 	applyZoomLevel();
+	$(".select2-selection").onFirst("blur focus keydown mousedown", () => $("#flexContainer").removeAttr("style"));
+	$(".select2-selection").on("blur focus keydown mousedown", () => applyZoomLevel());
 
 	$("#modalConfirm").on("click", () => {
 		paragonBoardGlyphData[boardIndex] = Number($("#modalSelect").val());
