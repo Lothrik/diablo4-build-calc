@@ -412,9 +412,9 @@ const groupString = "#groupSelector option:selected";
 function handleSummaryButton(event) {
 	const extraInfoHTML = $("#extraInfo").html();
 	if (event.type == "mouseenter" && extraInfoHTML.length == 0) {
-		$("#extraInfo").html(SUMMARY_HOVER_HTML).removeClass("hidden");
+		$("#extraInfo").html(SUMMARY_HOVER_HTML).removeClass("disabled");
 	} else if (event.type == "mouseleave" && extraInfoHTML == SUMMARY_HOVER_HTML) {
-		$("#extraInfo").empty().addClass("hidden");
+		$("#extraInfo").empty().addClass("disabled");
 	} else if (event.type == "click") {
 		let allocatedTreeNodes = {};
 		let allocatedParagonNodes = {};
@@ -533,12 +533,12 @@ function handleSummaryButton(event) {
 		if (finalOutput.length > 0) {
 			navigator.clipboard.writeText(finalOutput);
 			console.log(finalOutput);
-			$("#extraInfo").html(SUMMARY_CLICK_SUCCESS_HTML).removeClass("hidden");
+			$("#extraInfo").html(SUMMARY_CLICK_SUCCESS_HTML).removeClass("disabled");
 		} else {
-			$("#extraInfo").html(SUMMARY_CLICK_FAILURE_HTML).removeClass("hidden");
+			$("#extraInfo").html(SUMMARY_CLICK_FAILURE_HTML).removeClass("disabled");
 		}
 		setTimeout(() => {
-			$("#extraInfo").empty().addClass("hidden");
+			$("#extraInfo").empty().addClass("disabled");
 		}, 2000);
 	}
 }
@@ -623,12 +623,12 @@ function handleNodeColorInput(event) {
 function handleColorButton(event) {
 	const extraInfoHTML = $("#extraInfo").html();
 	if (event.type == "mouseenter" && extraInfoHTML.length == 0) {
-		$("#extraInfo").html(COLOR_HOVER_HTML).removeClass("hidden");
+		$("#extraInfo").html(COLOR_HOVER_HTML).removeClass("disabled");
 	} else if (event.type == "mouseleave" && extraInfoHTML == COLOR_HOVER_HTML) {
-		$("#extraInfo").empty().addClass("hidden");
+		$("#extraInfo").empty().addClass("disabled");
 	} else if (event.type == "click" && extraInfoHTML != COLOR_LINE_TEXT) {
 		setTimeout(() => $("#colorConnectorInput").click(), 800);
-		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
+		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
 	}
 }
 const localVersion = "0.8.1.39858-20";
@@ -681,10 +681,10 @@ function handleCanvasEvent(event) {
 			const extraInfoHTML = $("#extraInfo").html();
 			if (extraInfoHTML == COLOR_LINE_TEXT) {
 				setTimeout(() => $("#colorNodeInput").click(), 800);
-				$("#extraInfo").text(COLOR_NODE_TEXT).removeClass("hidden");
+				$("#extraInfo").text(COLOR_NODE_TEXT).removeClass("disabled");
 				resizeCanvas();
 			} else if (extraInfoHTML == COLOR_NODE_TEXT && [undefined, 2].includes(event.simulatedEvent)) {
-				$("#extraInfo").empty().addClass("hidden");
+				$("#extraInfo").empty().addClass("disabled");
 				resizeCanvas();
 			}
 			if (event.type == "mousedown") return;
@@ -752,13 +752,13 @@ function handleClassSelection(event, postHookFunction = null) {
 			if (classText == "None") {
 				$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
 				$("#classSelectBox").removeClass("disabled");
-				$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
+				$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("disabled");
 				$("#groupSelector").empty();
 				$("#searchInput").removeAttr("style");
 			} else {
 				$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
 				$("#classSelectBox").addClass("disabled");
-				$("#extraInfo").empty().addClass("hidden");
+				$("#extraInfo").empty().addClass("disabled");
 			}
 			rebuildCanvas();
 			$("#modalBox").addClass("disabled");
@@ -846,9 +846,9 @@ function handleSearchInput(event) {
 
 	if (event.type == "blur" || nodeCount == 0) {
 		const extraInfoHTML = $("#extraInfo").html();
-		if ([MATCH_FOUND_TEXT, MATCHES_FOUND_TEXT].some(matchText => extraInfoHTML.includes(matchText))) $("#extraInfo").empty().addClass("hidden");
+		if ([MATCH_FOUND_TEXT, MATCHES_FOUND_TEXT].some(matchText => extraInfoHTML.includes(matchText))) $("#extraInfo").empty().addClass("disabled");
 	} else {
-		$("#extraInfo").html(nodeCount + (nodeCount == 1 ? MATCH_FOUND_TEXT : MATCHES_FOUND_TEXT) + "`" + newSearchText + "`.").removeClass("hidden");
+		$("#extraInfo").html(nodeCount + (nodeCount == 1 ? MATCH_FOUND_TEXT : MATCHES_FOUND_TEXT) + "`" + newSearchText + "`.").removeClass("disabled");
 	}
 }
 function handleClampButton() {
@@ -924,7 +924,7 @@ function handleReloadButton() {
 
 	if (nodeData.className == "none") {
 		$("#classSelectBox").removeClass("disabled");
-		$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("hidden");
+		$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("disabled");
 	} else {
 		$("#classSelector").val(nodeData.className);
 		handleClassSelection(null, finishLoading);
