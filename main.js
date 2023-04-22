@@ -2450,15 +2450,15 @@ function drawTooltip(curNode, forceDraw) {
 					const glyphIndex = paragonBoardGlyphData[boardIndex];
 					const glyphString = "ParagonGlyph_" + String(glyphIndex).padStart(3, "0");
 					let glyphData = null;
-					if (className == "Barbarian" && glyphString + "_Barb" in paragonGlyphs) {
+					if (classText == "Barbarian" && glyphString + "_Barb" in paragonGlyphs) {
 						glyphData = paragonGlyphs[glyphString + "_Barb"];
-					} else if (className == "Druid" && glyphString + "_Druid" in paragonGlyphs) {
+					} else if (classText == "Druid" && glyphString + "_Druid" in paragonGlyphs) {
 						glyphData = paragonGlyphs[glyphString + "_Druid"];
-					} else if (className == "Necromancer" && glyphString + "_Necro" in paragonGlyphs) {
+					} else if (classText == "Necromancer" && glyphString + "_Necro" in paragonGlyphs) {
 						glyphData = paragonGlyphs[glyphString + "_Necro"];
-					} else if (className == "Rogue" && glyphString + "_Rogue" in paragonGlyphs) {
+					} else if (classText == "Rogue" && glyphString + "_Rogue" in paragonGlyphs) {
 						glyphData = paragonGlyphs[glyphString + "_Rogue"];
-					} else if (className == "Sorcerer" && glyphString + "_Sorc" in paragonGlyphs) {
+					} else if (classText == "Sorcerer" && glyphString + "_Sorc" in paragonGlyphs) {
 						glyphData = paragonGlyphs[glyphString + "_Sorc"];
 					} else {
 						glyphData = paragonGlyphs[glyphString];
