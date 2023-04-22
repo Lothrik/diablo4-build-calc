@@ -631,7 +631,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
 	}
 }
-const localVersion = "0.8.1.39858-20";
+const localVersion = "0.8.1.39858-21";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
