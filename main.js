@@ -155,6 +155,8 @@ const PARAGON_BOARD = "Paragon Board";
 const PARAGON_BOARD_GRID_PROMPT_PREFIX = "Please select a grid location for the ";
 const PARAGON_BOARD_GRID_PROMPT_SUFFIX = " Paragon Board:\n";
 const PARAGON_BOARD_GRID_PROMPT_END = `If you're unsure what to enter, try 2 and look directly above [Start].`;
+const GLYPH_SELECT_PROMPT_PREFIX = "Please select a glyph to socket in ";
+const GLYPH_SELECT_PROMPT_SUFFIX = "(You cannot socket the same glyph multiple times.)"
 const CODEX_OF_POWER = "Codex of Power";
 const CODEX_OF_POWER_DESC_BEFORE = "Legendary aspects in this category can be applied to: ";
 const CODEX_OF_POWER_DESC_AFTER = "Unique items are only listed here for convenience, and cannot have their powers extracted.";
@@ -294,7 +296,7 @@ const pixiJS = (() => {
 		}
 	} catch (e) {
 		$("#classSelectBox").addClass("disabled");
-		$("#loadingIndicator").text(e).removeClass("disabled");
+		$("#modalBox").text(e).removeClass("disabled");
 		throw new Error(e);
 	}
 })();
@@ -411,7 +413,7 @@ function handleSummaryButton(event) {
 			const allocatedPoints = nodeData.get("allocatedPoints");
 			if (allocatedPoints) {
 				if (pixiNode.groupName == PARAGON_BOARD) {
-					const boardName = nodeData.get("boardName");
+					const boardName = nodeData.get("_boardName");
 					const nodeType = nodeData.get("nodeType");
 					if (!(boardName in allocatedParagonNodes)) allocatedParagonNodes[boardName] = {};
 					if (!(nodeType in allocatedParagonNodes[boardName])) allocatedParagonNodes[boardName][nodeType] = {};
@@ -610,7 +612,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("hidden");
 	}
 }
-const localVersion = "0.8.1.39858-19";
+const localVersion = "0.8.1.39858-20";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -653,7 +655,6 @@ function handleIntervalEvent() {
 	}
 }
 function handleCanvasEvent(event) {
-	if (document.activeElement != $("#searchInput")[0]) window.getSelection().removeAllRanges();
 	switch (event.type) {
 		case "mousedown":
 		case "touchstart":
@@ -726,7 +727,7 @@ function handleClassSelection(event, postHookFunction = null) {
 	const classText = $(classString).text();
 	if (classText != $("#className").text()) {
 		$("#classSelectBox").addClass("disabled");
-		if (classText != "None") $("#loadingIndicator").removeClass("disabled");
+		if (classText != "None") $("#modalBox").text("[Loading...]").removeClass("disabled");
 		setTimeout(() => {
 			$("#className").text(classText);
 			if (classText == "None") {
@@ -741,7 +742,7 @@ function handleClassSelection(event, postHookFunction = null) {
 				$("#extraInfo").empty().addClass("hidden");
 			}
 			rebuildCanvas();
-			$("#loadingIndicator").addClass("disabled");
+			$("#modalBox").addClass("disabled");
 			if (typeof postHookFunction == "function") setTimeout(postHookFunction, 50);
 		}, 50);
 	} else if (typeof postHookFunction == "function") postHookFunction();
@@ -812,7 +813,7 @@ function handleSearchInput(event) {
 		if (nodeMatch != undefined) {
 			// paragon board nodes require some additional math to determine the correct position, as they can move and rotate
 			let [nodeX, nodeY] = [nodeMatch.x, nodeMatch.y];
-			if (nodeMatch.nodeData.get("boardName") != undefined) {
+			if (nodeMatch.nodeData.get("_boardName") != undefined) {
 				[nodeX, nodeY] = rotateAngle(0, 0, nodeMatch.x, nodeMatch.y, nodeMatch.angle);
 				[nodeX, nodeY] = [nodeX + nodeMatch.parent.x, nodeY + nodeMatch.parent.y];
 			}
@@ -852,6 +853,20 @@ function handleSaveButton() {
 				nodeData.boardData[1] = paragonBoardRotationData;
 			} else {
 				nodeData.boardData = [0, paragonBoardRotationData];
+			}
+		}
+		if (Object.keys(paragonBoardEquipIndices).length > 0) {
+			if ("boardData" in nodeData) {
+				nodeData.boardData[2] = paragonBoardEquipIndices;
+			} else {
+				nodeData.boardData = [0, 0, paragonBoardEquipIndices];
+			}
+		}
+		if (Object.keys(paragonBoardGlyphData).length > 0) {
+			if ("boardData" in nodeData) {
+				nodeData.boardData[3] = paragonBoardGlyphData;
+			} else {
+				nodeData.boardData = [0, 0, 0, paragonBoardGlyphData];
 			}
 		}
 		if ("boardData" in nodeData) nodeData.boardData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.boardData).replace(/"/g, ""));
@@ -905,6 +920,13 @@ function handleReloadButton() {
 				for (const [boardIndex, rotationAngle] of Object.entries(paragonBoardRotationData)) rotateParagonBoard(Number(boardIndex), 0);
 				if (nodeData.boardData.length > 1) {
 					for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), rotationAngle);
+				}
+				for (const [boardIndex, equipIndex] of Object.entries(paragonBoardEquipIndices)) setParagonBoardEquipIndex(Number(boardIndex), 0);
+				if (nodeData.boardData.length > 2) {
+					for (const [boardIndex, equipIndex] of Object.entries(nodeData.boardData[2])) setParagonBoardEquipIndex(Number(boardIndex), equipIndex);
+				}
+				if (nodeData.boardData.length > 3) {
+					paragonBoardGlyphData = nodeData.boardData[3];
 				}
 				delete nodeData.boardData;
 			}
@@ -1011,7 +1033,7 @@ function onDragAllMove(event) {
 	if (pixiTooltip.children.length > 0) repositionTooltip();
 }
 function onMouseOver(event) {
-	drawTooltip(this);
+	if ($("#fadeOverlay").hasClass("disabled")) drawTooltip(this);
 }
 function onMouseOut(event) {
 	if (!pixiDragging) eraseTooltip();
@@ -1080,6 +1102,80 @@ function rotateParagonBoard(boardIndex, rotationAngle, relativeAngle = false) {
 	} else {
 		paragonBoardRotationData[boardIndex] = boardContainer.angle;
 	}
+}
+let paragonBoardEquipIndices = {};
+function setParagonBoardEquipIndex(boardIndex, forcedEquipIndex = null) {
+	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
+	const boardContainer = boardHeader.nodeData.get("boardContainer");
+	let equipIndex;
+	if (forcedEquipIndex == null) {
+		const currentEquipIndex = paragonBoardEquipIndices[boardIndex];
+		const promptInput = prompt(`You are currently setting the "equip index" for [${boardHeader.nodeName}].\n\nThis index determines the attribute requirements for additional bonuses listed on rare nodes.\n\nBoards you equip later will have higher attribute requirements.\n\nIf this is the first paragon board you plan to equip, you should set its "equip index" to 1:`, currentEquipIndex == undefined ? "0" : currentEquipIndex);
+		if (promptInput == null) return;
+		equipIndex = promptInput;
+	} else {
+		equipIndex = forcedEquipIndex;
+	}
+
+	if (isNaN(equipIndex)) return;
+	equipIndex = parseInt(equipIndex);
+
+	if (equipIndex < 1 || equipIndex > 9) {
+		delete paragonBoardEquipIndices[boardIndex];
+	} else {
+		paragonBoardEquipIndices[boardIndex] = equipIndex;
+	}
+}
+let paragonBoardGlyphData = {};
+function equipParagonGlyph(boardIndex) {
+	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
+	const boardContainer = boardHeader.nodeData.get("boardContainer");
+	const className = $(classString).val();
+	const classText = className[0].toUpperCase() + className.slice(1);
+
+	const paragonGlyphs = paragonData[classText]["Paragon (Glyph)"];
+	const sortedGlyphKeys = Object.keys(paragonGlyphs).sort((a, b) => {
+		const aName = paragonGlyphs[a].name;
+		const bName = paragonGlyphs[b].name;
+		return aName.localeCompare(bName);
+	});
+	let modalOptions = "";
+	for (const glyphName of sortedGlyphKeys) {
+		const glyphData = paragonGlyphs[glyphName];
+		if (glyphName.includes("_Barb") && className != "barbarian") continue;
+		if (glyphName.includes("_Druid") && className != "druid") continue;
+		if (glyphName.includes("_Necro") && className != "necromancer") continue;
+		if (glyphName.includes("_Rogue") && className != "rogue") continue;
+		if (glyphName.includes("_Sorc") && className != "sorcerer") continue;
+		if (glyphName + "_Barb" in paragonGlyphs && className == "barbarian") continue;
+		if (glyphName + "_Druid" in paragonGlyphs && className == "druid")  continue;
+		if (glyphName + "_Necro" in paragonGlyphs && className == "necromancer") continue;
+		if (glyphName + "_Rogue" in paragonGlyphs && className == "rogue") continue;
+		if (glyphName + "_Sorc" in paragonGlyphs && className == "sorcerer") continue;
+		modalOptions += `<option value="${Number(glyphName.match(/\d+/)[0])}">${glyphData.name} &mdash; ${glyphData.bonus}</option>`;
+	}
+
+	$("#fadeOverlay").removeClass("disabled");
+	$("#modalBox").html(`${GLYPH_SELECT_PROMPT_PREFIX}[${boardHeader.nodeName}]:`
+		+ `<div style="margin:10px 0"><select id="modalSelect">${modalOptions}</select></div>`
+		+ `<div style="margin-bottom:10px">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
+		+ `<div><button id="modalConfirm" type="button">Confirm</button> `
+		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
+
+	$("#modalSelect").select2({
+		dropdownParent: $("#modalBox")
+	});
+	$("#modalBox").on("select2:open", e => {
+		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())
+	})
+
+	$("#modalConfirm").on("click", () => {
+		paragonBoardGlyphData[boardIndex] = Number($("#modalSelect").val());
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+	$("#modalCancel").on("click", () => {
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
 }
 // returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
 function getNodePosition(curNode) {
@@ -1196,6 +1292,7 @@ function updateNodePoints(curNode, newPoints) {
 				}
 			}
 			setNodeStyleThick(curNode);
+			if (pixiTooltip.nodeIndex == curNode.nodeIndex && curNode.nodeData.get("nodeType") == "Socket") equipParagonGlyph(curNode.nodeData.get("_boardIndex"));
 		}
 
 		const className = $(classString).val();
@@ -1343,6 +1440,12 @@ function handleMinusButton(curNode) {
 			if (curNode.groupName == PARAGON_BOARD) {
 				pixiAllocatedParagonPoints--;
 				updateCharacterLevel();
+				if (curNode.nodeData.get("nodeType") == "Socket") {
+					const boardIndex = curNode.nodeData.get("_boardIndex");
+					delete paragonBoardGlyphData[boardIndex];
+					curNode.nodeData.delete("nameOverride");
+					drawTooltip(curNode, true);
+				}
 			}
 		}
 
@@ -1510,16 +1613,16 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	const colorOverride = nodeData.get("colorOverride");
 	const _textColor = colorOverride != undefined ? colorOverride : textColor;
 
-	let extraContainer, extraContainer2, extraContainer3;
+	let extraContainer, extraContainer2, extraContainer3, extraContainer4;
 	if (extraData != null) {
 		if (groupName == PARAGON_BOARD) {
 			const boardIndex = extraData;
 
-			const extraText = new PIXI.Text("←↕→", {
+			const extraText = new PIXI.Text("Assign Index", {
 				align: "right",
 				fill: _textColor,
 				fontFamily: fontFamily,
-				fontSize: displayNameSize * 2 * scaleFactor,
+				fontSize: displayNameSize * scaleFactor * 1.5,
 				fontVariant: "small-caps",
 				fontWeight: useThickNodeStyle ? "bold" : "normal",
 				padding: 10
@@ -1527,21 +1630,21 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraText.eventMode = "auto";
 			extraText.scale.set(1 / scaleFactor);
 			extraText.anchor.set(0.5);
-			extraText.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText.width) * 0.5 - 200;
-			extraText.y = -8;
+			extraText.x = (extraText.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 200;
+			extraText.y = 0;
 			extraContainer = new PIXI.Container();
 			extraContainer.cursor = "pointer";
 			extraContainer.eventMode = "static";
 			extraContainer.addChild(extraText);
 			extraContainer
-				.on("click", () => moveParagonBoard(boardIndex))
-				.on("tap", () => moveParagonBoard(boardIndex));
+				.on("click", () => setParagonBoardEquipIndex(boardIndex))
+				.on("tap", () => setParagonBoardEquipIndex(boardIndex));
 
-			const extraText2 = new PIXI.Text("↺", {
-				align: "left",
+			const extraText2 = new PIXI.Text("←↕→", {
+				align: "right",
 				fill: _textColor,
 				fontFamily: fontFamily,
-				fontSize: displayNameSize * 2 * scaleFactor,
+				fontSize: displayNameSize * scaleFactor * 2,
 				fontVariant: "small-caps",
 				fontWeight: useThickNodeStyle ? "bold" : "normal",
 				padding: 10
@@ -1549,20 +1652,21 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraText2.eventMode = "auto";
 			extraText2.scale.set(1 / scaleFactor);
 			extraText2.anchor.set(0.5);
-			extraText2.x = (extraText2.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 16;
+			extraText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText2.width) * 0.5 - 200;
+			extraText2.y = -8;
 			extraContainer2 = new PIXI.Container();
 			extraContainer2.cursor = "pointer";
 			extraContainer2.eventMode = "static";
 			extraContainer2.addChild(extraText2);
 			extraContainer2
-				.on("click", () => rotateParagonBoard(boardIndex, -90, true))
-				.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
+				.on("click", () => moveParagonBoard(boardIndex))
+				.on("tap", () => moveParagonBoard(boardIndex));
 
-			const extraText3 = new PIXI.Text("↻", {
-				align: "right",
+			const extraText3 = new PIXI.Text("↺", {
+				align: "left",
 				fill: _textColor,
 				fontFamily: fontFamily,
-				fontSize: displayNameSize * 2 * scaleFactor,
+				fontSize: displayNameSize * scaleFactor * 2,
 				fontVariant: "small-caps",
 				fontWeight: useThickNodeStyle ? "bold" : "normal",
 				padding: 10
@@ -1570,12 +1674,33 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraText3.eventMode = "auto";
 			extraText3.scale.set(1 / scaleFactor);
 			extraText3.anchor.set(0.5);
-			extraText3.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText3.width) * 0.5 - 16;
+			extraText3.x = (extraText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 16;
 			extraContainer3 = new PIXI.Container();
 			extraContainer3.cursor = "pointer";
 			extraContainer3.eventMode = "static";
 			extraContainer3.addChild(extraText3);
 			extraContainer3
+				.on("click", () => rotateParagonBoard(boardIndex, -90, true))
+				.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
+
+			const extraText4 = new PIXI.Text("↻", {
+				align: "right",
+				fill: _textColor,
+				fontFamily: fontFamily,
+				fontSize: displayNameSize * scaleFactor * 2,
+				fontVariant: "small-caps",
+				fontWeight: useThickNodeStyle ? "bold" : "normal",
+				padding: 10
+			});
+			extraText4.eventMode = "auto";
+			extraText4.scale.set(1 / scaleFactor);
+			extraText4.anchor.set(0.5);
+			extraText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText4.width) * 0.5 - 16;
+			extraContainer4 = new PIXI.Container();
+			extraContainer4.cursor = "pointer";
+			extraContainer4.eventMode = "static";
+			extraContainer4.addChild(extraText4);
+			extraContainer4
 				.on("click", () => rotateParagonBoard(boardIndex, 90, true))
 				.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
 		} else if (nodePosition == null) {
@@ -1588,7 +1713,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		align: "center",
 		fill: _textColor,
 		fontFamily: fontFamily,
-		fontSize: displayNameSize * scaleFactor,
+		fontSize: displayNameSize * scaleFactor * (_nodeWidth > 400 ? 1.5 : 1),
 		fontVariant: "small-caps",
 		fontWeight: useThickNodeStyle ? "bold" : "normal",
 		padding: 10
@@ -1717,6 +1842,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	if (extraContainer != undefined) nodeContainer.addChild(extraContainer);
 	if (extraContainer2 != undefined) nodeContainer.addChild(extraContainer2);
 	if (extraContainer3 != undefined) nodeContainer.addChild(extraContainer3);
+	if (extraContainer4 != undefined) nodeContainer.addChild(extraContainer4);
 
 	/*
 	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
@@ -1828,6 +1954,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 }
 function drawAllNodes() {
 	const className = $(classString).val();
+	const classText = className[0].toUpperCase() + className.slice(1);
 	const classData = classMap.get(className);
 	if (classData != undefined) {
 		const trunkData = classData.get("Trunk Data");
@@ -2018,8 +2145,6 @@ function drawAllNodes() {
 			}
 		}
 
-		const classText = $(classString).text();
-
 		const paragonBoardCount = Object.keys(paragonData[classText]["Board"]).length;
 		if (paragonBoardCount > 0) {
 			const paragonBoardNodes = 21;
@@ -2090,14 +2215,21 @@ function drawAllNodes() {
 								: nodeData.includes("StartNode") ? "Start"
 								: nodeData == "Generic_Gate" ? "Gate"
 								: nodeData == "Generic_Socket" ? "Socket" : "";
+							const thresholdRequirements = nodeData in paragonData[classText]["Node"] && "thresholdRequirements" in paragonData[classText]["Node"][nodeData]
+								? paragonData[classText]["Node"][nodeData]["thresholdRequirements"]
+								: nodeData in paragonData["Generic"]["Node"] && "thresholdRequirements" in paragonData["Generic"]["Node"][nodeData]
+								? paragonData["Generic"]["Node"][nodeData]["thresholdRequirements"]
+								: null;
 							const boardNode = new Map([
 								["allocatedPoints", 0],
-								["boardName", boardName],
+								["_boardIndex", unsortedIndex],
+								["_boardName", boardName],
 								["colorOverride", COLOR_OVERRIDE[nodeType]],
 								["description", nodeDesc],
 								["id", `paragon-${unsortedIndex}-${xPosition}-${yPosition}`],
 								["maxPoints", 1],
 								["nodeType", nodeType],
+								["thresholdRequirements", thresholdRequirements],
 								["widthOverride", nodeWidth],
 								["heightOverride", nodeHeight],
 								["shapeSize", 1],
@@ -2268,13 +2400,68 @@ function drawTooltip(curNode, forceDraw) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		if (curNode.groupName == CODEX_OF_POWER) {
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
-				const captureSplit = captureString.split("/");
-				return `[${captureSplit.join(" - ")}]`;
+				const outputString = captureString.split("/");
+				return `[${outputString.join(" - ")}]`;
 			});
 		} else {
+			const boardIndex = curNode.nodeData.get("_boardIndex");
+			const className = $(classString).val();
+			const classText = className[0].toUpperCase() + className.slice(1);
+
+			if (curNode.nodeData.get("nodeType") == "Socket") {
+				const paragonGlyphs = paragonData[classText]["Paragon (Glyph)"];
+				if (boardIndex in paragonBoardGlyphData) {
+					const glyphIndex = paragonBoardGlyphData[boardIndex];
+					const glyphString = "ParagonGlyph_" + String(glyphIndex).padStart(3, "0");
+					let glyphData = null;
+					if (className == "Barbarian" && glyphString + "_Barb" in paragonGlyphs) {
+						glyphData = paragonGlyphs[glyphString + "_Barb"];
+					} else if (className == "Druid" && glyphString + "_Druid" in paragonGlyphs) {
+						glyphData = paragonGlyphs[glyphString + "_Druid"];
+					} else if (className == "Necromancer" && glyphString + "_Necro" in paragonGlyphs) {
+						glyphData = paragonGlyphs[glyphString + "_Necro"];
+					} else if (className == "Rogue" && glyphString + "_Rogue" in paragonGlyphs) {
+						glyphData = paragonGlyphs[glyphString + "_Rogue"];
+					} else if (className == "Sorcerer" && glyphString + "_Sorc" in paragonGlyphs) {
+						glyphData = paragonGlyphs[glyphString + "_Sorc"];
+					} else {
+						glyphData = paragonGlyphs[glyphString];
+					}
+					curNode.nodeData.set("nameOverride", curNode.nodeName + " [" + glyphData["name"] + "]");
+					curNode.nodeData.set("thresholdRequirements", glyphData["thresholdRequirements"]);
+					nodeDesc = glyphData["desc"] + "\n" + glyphData["bonus"] + "\n\n" + glyphData["thresholdDescription"];
+				} else {
+					nodeDesc = "Allocate this node to see a list of available glyphs."
+				}
+			}
+
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
-				const captureSplit = captureString.split("/");
-				return captureSplit[allocatedPoints > 0 ? Math.min(allocatedPoints, captureSplit.length) - 1 : 0];
+				if (captureString.includes("thresholdRequirements")) {
+					const thresholdRequirements = curNode.nodeData.get("thresholdRequirements");
+					if (typeof thresholdRequirements == "string") {
+						captureString = thresholdRequirements;
+					} else {
+						captureString = thresholdRequirements[classText];
+					}
+				}
+				if (captureString.includes("ParagonBoardEquipIndex")) {
+					let equipIndex = "EquipIndex";
+					if (boardIndex == 0) {
+						equipIndex = "0";
+					} else if (boardIndex in paragonBoardEquipIndices) {
+						equipIndex = paragonBoardEquipIndices[boardIndex];
+					}
+					captureString = captureString.replace(/ParagonBoardEquipIndex/g, equipIndex);
+					if (equipIndex != "EquipIndex") {
+						if (captureString.includes("{") && captureString.includes("}")) {
+							captureString = captureString.replace(/{([^{}]+)}/g, (subMatch, subCapture) => eval(subCapture));
+						} else {
+							captureString = String(eval(captureString));
+						}
+					}
+				}
+				let outputString = captureString.split("/");
+				return outputString[allocatedPoints > 0 ? Math.min(allocatedPoints, outputString.length) - 1 : 0];
 			});
 		}
 	}
@@ -2386,7 +2573,7 @@ function repositionTooltip() {
 
 	// paragon board nodes require some additional math to determine the correct position, as they can move and rotate
 	let [nodeX, nodeY] = [curNode.x, curNode.y];
-	if (nodeData.get("boardName") != undefined) {
+	if (nodeData.get("_boardName") != undefined) {
 		[nodeX, nodeY] = rotateAngle(0, 0, curNode.x, curNode.y, curNode.angle);
 		[nodeX, nodeY] = [nodeX + curNode.parent.x, nodeY + curNode.parent.y];
 	}
@@ -2732,7 +2919,7 @@ $(document).ready(function() {
 		handleReloadButton();
 	} catch (e) {
 		$("#classSelectBox").addClass("disabled");
-		$("#loadingIndicator").text(`${BUILD_LOAD_ERROR_PREFIX}${e}${BUILD_LOAD_ERROR_SUFFIX}`).removeClass("disabled");
+		$("#modalBox").text(`${BUILD_LOAD_ERROR_PREFIX}${e}${BUILD_LOAD_ERROR_SUFFIX}`).removeClass("disabled");
 		throw new Error(e);
 	}
 	resizeCanvas();

@@ -370,6 +370,23 @@ function getCodexValues(codexPowerName, codexCategoryName, className, sanitizedD
 	return codexMatch;
 }
 
+function processThresholdRequirements(nodeData, className) {
+	let thresholdRequirements = {};
+	if (typeof nodeData["threshold_requirements"] == "string") {
+		thresholdRequirements = nodeData["threshold_requirements"];
+	} else if (Array.isArray(nodeData["threshold_requirements"])) {
+		thresholdRequirements = nodeData["threshold_requirements"].join("; or ");
+	} else if (className in nodeData["threshold_requirements"]) {
+		thresholdRequirements = nodeData["threshold_requirements"][className].join("; or ");
+	} else if (className == "Generic") {
+		const thresholdEntries = Object.entries(nodeData["threshold_requirements"]);
+		for (const [thresholdClass, thresholdRequirement] of thresholdEntries) {
+			thresholdRequirements[thresholdClass] = thresholdRequirement.join("; or ");
+		}
+	}
+	return thresholdRequirements;
+}
+
 const MAX_RECURSION_DEPTH = 10;
 function recursiveSkillTreeScan(connectionData, classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth = 0) {
 	let output = "";
@@ -610,7 +627,7 @@ function runParser(downloadMode) {
 
 		// process paragon board
 		paragonData[className] = {};
-		if (classData["Paragon (Board)"] != undefined) {
+		if ("Paragon (Board)" in classData) {
 			paragonData[className]["Board"] = {};
 			for (const [boardName, boardData] of Object.entries(classData["Paragon (Board)"])) {
 				paragonData[className]["Board"][boardData["name"]] = [];
@@ -619,11 +636,16 @@ function runParser(downloadMode) {
 				}
 			}
 		}
-		if (classData["Paragon (Node)"] != undefined) {
+		if ("Paragon (Node)" in classData) {
 			paragonData[className]["Node"] = {};
 			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Node)"])) {
 				let sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
-				if (nodeData["tags"] != undefined) {
+				let thresholdRequirements = {};
+				if ("threshold_bonus" in nodeData) {
+					sanitizedDescription += "\n\nBonus: Another " + nodeData["threshold_bonus"] + " if requirements met:\n{thresholdRequirements}";
+					thresholdRequirements = processThresholdRequirements(nodeData, className);
+				}
+				if ("tags" in nodeData) {
 					const filteredTags = nodeData["tags"].filter(tag => !tag.includes("_")).join(", ");
 					if (filteredTags.length > 0) {
 						if (sanitizedDescription == undefined) {
@@ -638,12 +660,30 @@ function runParser(downloadMode) {
 					name: nodeData["name"],
 					description: sanitizedDescription
 				};
+				if (Object.keys(thresholdRequirements).length > 0) {
+					paragonData[className]["Node"][nodeName]["thresholdRequirements"] = thresholdRequirements
+				}
+			}
+		}
+		if ("Paragon (Glyph)" in classData) {
+			paragonData[className]["Paragon (Glyph)"] = {};
+			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Glyph)"])) {
+				const thresholdDescription = "Additional Bonus: (if requirements met)\n" + nodeData["bonus"] + "\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}";
+				let thresholdRequirements = {};
+				thresholdRequirements = processThresholdRequirements(nodeData, className);
+				paragonData[className]["Paragon (Glyph)"][nodeName] = {
+					name: nodeData["name"],
+					desc: nodeData["desc"],
+					bonus: nodeData["bonus"],
+					thresholdDescription: thresholdDescription,
+					thresholdRequirements: thresholdRequirements
+				};
 			}
 		}
 
 		// process legendary affixes
 		codexData[className] = {};
-		if (classData["Legendary"] != undefined) {
+		if ("Legendary" in classData) {
 			for (const [nodeName, nodeData] of Object.entries(classData["Legendary"])) {
 				const codexPowerName = nodeData["name"].startsWith("of ") ? `Aspect ${nodeData["name"]}` : `${nodeData["name"]} Aspect`;
 				const codexCategoryName = "category" in nodeData ? codexCategoryNames[nodeData["category"]] : "Unknown";
@@ -681,7 +721,7 @@ function runParser(downloadMode) {
 		}
 
 		// process unique affixes
-		if (classData["Unique"] != undefined) {
+		if ("Unique" in classData) {
 			for (const [nodeName, nodeData] of Object.entries(classData["Unique"])) {
 				const codexPowerName = nodeData["name"];
 				const codexCategoryName = codexCategoryNames[nodeData["category"]];

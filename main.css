@@ -47,6 +47,7 @@ body {
 
 body > * {
 	-webkit-tap-highlight-color: initial;
+	user-select: none;
 }
 
 @media (min-resolution: 2dppx) {
@@ -78,6 +79,16 @@ h1, h2, h3 {
 	margin: 0;
 }
 
+#fadeOverlay {
+	position: absolute;
+	background-color: rgba(0,0,0,0.65);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2!important;
+}
+
 #canvasContainer {
 	position: fixed;
 	left: 0;
@@ -85,7 +96,6 @@ h1, h2, h3 {
 	width: 100vw;
 	height: 100vh;
 	text-align: left;
-	user-select: none;
 }
 
 #header {
@@ -102,7 +112,7 @@ h1, h2, h3 {
 	border-color: #fff;
 }
 
-#header, #footer, #classSelectBox, #loadingIndicator, #extraInfo {
+#header, #footer, #classSelectBox, #modalBox, #extraInfo {
 	background-color: rgba(0, 0, 0, 0.8);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -140,7 +150,6 @@ h1, h2, h3 {
 	cursor: pointer;
 	float: left;
 	height: 32px;
-	user-select: none;
 	width: 32px;
 }
 
@@ -173,15 +182,24 @@ h1, h2, h3 {
 	align-items: center;
 	justify-content: center;
 	pointer-events: none;
+	z-index: 3!important;
 }
 
-#classSelectBox, #loadingIndicator {
+#classSelectBox, #modalBox {
 	border: 1px solid;
 	padding: 10px;
 	font-size: 36px;
 	font-variant: small-caps;
 	line-height: 1.25;
 	pointer-events: auto;
+}
+
+#classSelectBox, #classSelectBox *, #modalBox, #modalBox * {
+	max-width: 90vw;
+}
+
+#modalBox * {
+	font-size: 20px;
 }
 
 #classSelectBox span:hover {
@@ -204,7 +222,6 @@ h1, h2, h3 {
 	width: 354px;
 	align-items: center;
 	justify-content: center;
-	user-select: none;
 	pointer-events: none;
 }
 
@@ -222,7 +239,6 @@ h1, h2, h3 {
 #extraButtons1, #extraButtons2 {
 	display: flex;
 	margin: 0 auto 10px;
-	user-select: none;
 	justify-content: center;
 }
 
@@ -341,4 +357,29 @@ button:active {
 	#extraButtons1 > *, #extraButtons2 > * {
 		margin: 0 0.5vw;
 	}
+}
+
+.select2-selection, .select2-dropdown, .select2-search__field {
+	border: 1px solid #fff!important;
+	border-radius: 0!important;
+}
+.select2-search__field {
+	outline-offset: 0!important;
+}
+.select2-dropdown, .select2-selection__rendered, .select2-results__option {
+	background-color: #000!important;
+	color: #fff!important;
+	text-shadow: none!important;
+}
+.select2-results__option--highlighted {
+	background-color: #202324!important;
+}
+.select2-selection--single {
+	height: 30px!important;
+}
+.select2-dropdown--below {
+	border-top: none!important;
+}
+.select2-dropdown--above {
+	border-bottom: none!important;
 }
