@@ -916,17 +916,17 @@ function handleReloadButton() {
 					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
 					.replace(/:([\w]+)(,|})/g, ':"$1"$2'));
 				for (const [boardIndex, gridLocation] of Object.entries(paragonBoardGridData)) moveParagonBoard(Number(boardIndex), 0);
-				for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), gridLocation);
+				for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), Number(gridLocation));
 				for (const [boardIndex, rotationAngle] of Object.entries(paragonBoardRotationData)) rotateParagonBoard(Number(boardIndex), 0);
 				if (nodeData.boardData.length > 1) {
-					for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), rotationAngle);
+					for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), Number(rotationAngle));
 				}
 				for (const [boardIndex, equipIndex] of Object.entries(paragonBoardEquipIndices)) setParagonBoardEquipIndex(Number(boardIndex), 0);
 				if (nodeData.boardData.length > 2) {
-					for (const [boardIndex, equipIndex] of Object.entries(nodeData.boardData[2])) setParagonBoardEquipIndex(Number(boardIndex), equipIndex);
+					for (const [boardIndex, equipIndex] of Object.entries(nodeData.boardData[2])) setParagonBoardEquipIndex(Number(boardIndex), Number(equipIndex));
 				}
 				if (nodeData.boardData.length > 3) {
-					paragonBoardGlyphData = nodeData.boardData[3];
+					for (const [boardIndex, glyphIndex] of Object.entries(nodeData.boardData[3])) paragonBoardGlyphData[Number(boardIndex)] = Number(glyphIndex);
 				}
 				delete nodeData.boardData;
 			}
@@ -1095,7 +1095,7 @@ function rotateParagonBoard(boardIndex, rotationAngle, relativeAngle = false) {
 	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
 
-	boardContainer.angle = (Number(rotationAngle) + (relativeAngle ? boardContainer.angle : 0)) % 360;
+	boardContainer.angle = (rotationAngle + (relativeAngle ? boardContainer.angle : 0)) % 360;
 	boardContainer.children.forEach(pixiNode => pixiNode.angle = -boardContainer.angle);
 	if (boardContainer.angle == 0) {
 		delete paragonBoardRotationData[boardIndex];
@@ -1152,7 +1152,7 @@ function equipParagonBoardGlyph(boardIndex) {
 		if (glyphName + "_Necro" in paragonGlyphs && className == "necromancer") continue;
 		if (glyphName + "_Rogue" in paragonGlyphs && className == "rogue") continue;
 		if (glyphName + "_Sorc" in paragonGlyphs && className == "sorcerer") continue;
-		const glyphIndex = String(Number(glyphName.match(/\d+/)[0]));
+		const glyphIndex = Number(glyphName.match(/\d+/)[0]);
 		const glyphBoard = Object.values(paragonBoardGlyphData).indexOf(glyphIndex);
 		if (glyphBoard > -1) {
 			const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == glyphBoard);
@@ -2839,6 +2839,7 @@ function rebuildCanvas() {
 
 	paragonBoardGridData = {};
 	paragonBoardRotationData = {};
+	paragonBoardGlyphData = {};
 
 	drawBackground();
 	drawAllNodes();
