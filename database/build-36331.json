@@ -1099,9 +1099,17 @@
 					"Search_Strength"
 				],
 				"threshold_bonus": "+4.8% Armor",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_002": {
 				"attributes": {
@@ -1136,9 +1144,23 @@
 					"Search_Strength"
 				],
 				"threshold_bonus": "+9.6% Attack Speed",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_003": {
 				"attributes": {
@@ -1174,9 +1196,17 @@
 					"Search_Elite"
 				],
 				"threshold_bonus": "+5% Damage while Berserking",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_004": {
 				"attributes": {
@@ -1211,9 +1241,11 @@
 					"Search_Bleed"
 				],
 				"threshold_bonus": "+9.6% Physical Damage Over Time",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_005": {
 				"attributes": {
@@ -1248,9 +1280,20 @@
 					"Search_Strength"
 				],
 				"threshold_bonus": "+9.6% Physical Damage Over Time",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_006": {
 				"attributes": {
@@ -1286,9 +1329,11 @@
 					"Search_Physical"
 				],
 				"threshold_bonus": "+9.6% Physical Damage Over Time",
-				"threshold_requirements": [
-					"{230 + (130 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Barbarian_Rare_008": {
 				"attributes": {
@@ -1323,9 +1368,11 @@
 					"Keyword_Overpower"
 				],
 				"threshold_bonus": "+9.6% Damage With TwoHandedBludgeoning",
-				"threshold_requirements": [
-					"{230 + (130 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Barbarian_Rare_009": {
 				"attributes": {
@@ -1360,9 +1407,20 @@
 					"Search_Strength"
 				],
 				"threshold_bonus": "12% Damage Reduction while Healthy",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_010": {
 				"attributes": {
@@ -1399,9 +1457,17 @@
 					"Search_Armor"
 				],
 				"threshold_bonus": "28.8% Cold Resistance",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_015": {
 				"attributes": {
@@ -1437,10 +1503,24 @@
 					"Search_Armor"
 				],
 				"threshold_bonus": "9.6% Life",
-				"threshold_requirements": [
-					"{200 + (130 * ParagonBoardEquipIndex)} Strength",
-					"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Strength",
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_016": {
 				"attributes": {
@@ -1475,9 +1555,17 @@
 					"Search_Strength"
 				],
 				"threshold_bonus": "9.6% Damage Reduction From Enemies That Are Bleeding",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_018": {
 				"attributes": {
@@ -1513,10 +1601,23 @@
 					"Search_NonPhysical"
 				],
 				"threshold_bonus": "9.6% Resistance to All Elements",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_019": {
 				"attributes": {
@@ -1553,9 +1654,20 @@
 					"Search_Fire"
 				],
 				"threshold_bonus": "28.8% Fire Resistance",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_020": {
 				"attributes": {
@@ -1589,9 +1701,17 @@
 					"Search_ResourceFury"
 				],
 				"threshold_bonus": "+0.16 Maximum Fury",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_021": {
 				"attributes": {
@@ -1628,9 +1748,20 @@
 					"Search_Armor"
 				],
 				"threshold_bonus": "28.8% Lightning Resistance",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_022": {
 				"attributes": {
@@ -1666,9 +1797,11 @@
 					"Search_Life"
 				],
 				"threshold_bonus": "+9.6% Physical Damage",
-				"threshold_requirements": [
-					"{200 + (130 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Barbarian_Rare_023": {
 				"attributes": {
@@ -1704,9 +1837,17 @@
 					"Search_Strength"
 				],
 				"threshold_bonus": "+9.6% Damage while Berserking",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_024": {
 				"attributes": {
@@ -1741,9 +1882,20 @@
 					"Search_DEXTERITY"
 				],
 				"threshold_bonus": "+14.4% Critical Strike Damage With OneHanded",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_025": {
 				"attributes": {
@@ -1778,9 +1930,20 @@
 					"Search_AttackSpeed"
 				],
 				"threshold_bonus": "+9.6% Damage With OneHanded",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_026": {
 				"attributes": {
@@ -1817,9 +1980,23 @@
 					"Search_Poison"
 				],
 				"threshold_bonus": "28.8% Poison Resistance",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_030": {
 				"attributes": {
@@ -1854,9 +2031,11 @@
 					"Keyword_Vulnerable"
 				],
 				"threshold_bonus": "+9.6% Damage With TwoHandedSlashing",
-				"threshold_requirements": [
-					"{215 + (130 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Barbarian_Rare_032": {
 				"attributes": {
@@ -1891,9 +2070,11 @@
 					"Keyword_Berserk"
 				],
 				"threshold_bonus": "+9.6% Damage while Berserking",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"StartNodeBarb": {
 				"name": "Paragon Starting Location"
@@ -6800,9 +6981,20 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "+9.6% Vulnerable Damage",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_004": {
 				"attributes": {
@@ -6837,9 +7029,14 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "9.6% Damage Reduction From Enemies That Are Poisoned",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_005": {
 				"attributes": {
@@ -6874,9 +7071,11 @@
 					"Search_Poison"
 				],
 				"threshold_bonus": "+9.6% Damage To Poisoned Enemies",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_006": {
 				"attributes": {
@@ -6911,9 +7110,23 @@
 					"Keyword_Fortify"
 				],
 				"threshold_bonus": "+9.6% Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Druid_Rare_008": {
 				"attributes": {
@@ -6949,9 +7162,11 @@
 					"Search_CrowdControl"
 				],
 				"threshold_bonus": "+9.6% Skill_Nature_Magic_Earth Skill Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_009": {
 				"attributes": {
@@ -6987,9 +7202,14 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "+14.4% Critical Strike Damage for Skill_Nature_Magic_Earth Skills",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_010": {
 				"attributes": {
@@ -7024,9 +7244,14 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "+9.6% Skill_Nature_Magic Skill Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_012": {
 				"attributes": {
@@ -7062,9 +7287,14 @@
 					"Search_Elite"
 				],
 				"threshold_bonus": "+9.6% Skill_Nature_Magic Skill Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_013": {
 				"attributes": {
@@ -7088,9 +7318,11 @@
 					"Skill_Primary_Basic"
 				],
 				"threshold_bonus": "+13.3% Skill_Primary_Basic Skill Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_014": {
 				"attributes": {
@@ -7125,9 +7357,14 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "+9.6% Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_015": {
 				"attributes": {
@@ -7163,9 +7400,14 @@
 					"Search_ResourceSpirit"
 				],
 				"threshold_bonus": "+0.067 Maximum Spirit",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_017": {
 				"attributes": {
@@ -7199,9 +7441,14 @@
 					"Search_ResourceSpirit"
 				],
 				"threshold_bonus": "+0.16 Maximum Spirit",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_018": {
 				"attributes": {
@@ -7236,9 +7483,20 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "+4% Damage To Poisoned Enemies",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_019": {
 				"attributes": {
@@ -7273,9 +7531,20 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "+9.6% Skill_Shapeshifting Skill Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_020": {
 				"attributes": {
@@ -7311,9 +7580,11 @@
 					"Keyword_Vulnerable"
 				],
 				"threshold_bonus": "+9.6% Skill_Nature_Magic_Storm Skill Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_026": {
 				"attributes": {
@@ -7349,9 +7620,11 @@
 					"Keyword_Overpower"
 				],
 				"threshold_bonus": "+9.6% Skill_Bear Skill Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_027": {
 				"attributes": {
@@ -7387,9 +7660,20 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "+4.8% Armor While in Werebear Form",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_030": {
 				"attributes": {
@@ -7424,9 +7708,14 @@
 					"Search_Willpower"
 				],
 				"threshold_bonus": "+9.6% Spirit Generation",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"StartNodeDruid": {
 				"name": "Paragon Starting Location"
@@ -19940,9 +20229,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+9.6% Skill_Bone Skill Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_002": {
 				"attributes": {
@@ -19979,9 +20279,11 @@
 					"Keyword_Blood_Orb"
 				],
 				"threshold_bonus": "+9.6% Skill_Blood Skill Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_003": {
 				"attributes": {
@@ -20017,9 +20319,17 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+11.5% Blood Orb Healing",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_004": {
 				"attributes": {
@@ -20055,9 +20365,14 @@
 					"Search_Physical"
 				],
 				"threshold_bonus": "+9.6% Skill_Blood Skill Damage",
-				"threshold_requirements": [
-					"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Necromancer_Rare_005": {
 				"attributes": {
@@ -20093,9 +20408,11 @@
 					"Search_Critical"
 				],
 				"threshold_bonus": "+14.4% Critical Strike Damage for Skill_Bone Skills",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_006": {
 				"attributes": {
@@ -20130,9 +20447,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+12.8% Skill_Blood Skill Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_009": {
 				"attributes": {
@@ -20179,9 +20507,11 @@
 					"Keyword_Healthy"
 				],
 				"threshold_bonus": "+9.6% Damage for {#} Seconds After Picking Up a Blood Orb",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_011": {
 				"attributes": {
@@ -20217,9 +20547,11 @@
 					"Search_Armor"
 				],
 				"threshold_bonus": "9.6% Damage Reduction From Vulnerable Enemies",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_013": {
 				"attributes": {
@@ -20256,9 +20588,17 @@
 					"Search_Life"
 				],
 				"threshold_bonus": "+11.5% Blood Orb Healing",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_017": {
 				"attributes": {
@@ -20294,9 +20634,11 @@
 					"Search_Armor"
 				],
 				"threshold_bonus": "+9.6% Damage while Golem are Active",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_018": {
 				"attributes": {
@@ -20333,9 +20675,20 @@
 					"Search_Life"
 				],
 				"threshold_bonus": "+9.6% Minion Armor",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_020": {
 				"attributes": {
@@ -20370,9 +20723,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "24% Damage Reduction to Your Minions",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_021": {
 				"attributes": {
@@ -20407,9 +20771,17 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+9.6% Minion Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_022": {
 				"attributes": {
@@ -20444,9 +20816,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+16% Golem Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_024": {
 				"attributes": {
@@ -20482,9 +20865,17 @@
 					"Search_AttackSpeed"
 				],
 				"threshold_bonus": "+16% Golem Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_025": {
 				"attributes": {
@@ -20520,9 +20911,17 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+16% Golem Armor",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_026": {
 				"attributes": {
@@ -20558,9 +20957,14 @@
 					"Search_AttackSpeed"
 				],
 				"threshold_bonus": "+9.6% Minion Damage",
-				"threshold_requirements": [
-					"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Necromancer_Rare_027": {
 				"attributes": {
@@ -20597,9 +21001,11 @@
 					"Search_NonPhysical"
 				],
 				"threshold_bonus": "+16% SkeletonMage Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_028": {
 				"attributes": {
@@ -20635,9 +21041,11 @@
 					"Search_Armor"
 				],
 				"threshold_bonus": "+16% SkeletonWarrior Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_029": {
 				"attributes": {
@@ -20673,9 +21081,11 @@
 					"Search_Life"
 				],
 				"threshold_bonus": "+16% Golem Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_031": {
 				"attributes": {
@@ -20712,9 +21122,20 @@
 					"Search_NonPhysical"
 				],
 				"threshold_bonus": "+16% Golem Armor",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_034": {
 				"attributes": {
@@ -20760,9 +21181,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+9.6% Damage for {#} Seconds After Picking Up a Blood Orb",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_035": {
 				"attributes": {
@@ -20798,9 +21230,14 @@
 					"Search_ShadowDOT"
 				],
 				"threshold_bonus": "+9.6% Shadow Damage Over Time",
-				"threshold_requirements": [
-					"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"StartNodeNecro": {
 				"name": "Paragon Starting Location"
@@ -25094,9 +25531,14 @@
 					"Search_DEXTERITY"
 				],
 				"threshold_bonus": "+13.4% Skill_Primary_Core Skill Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_008": {
 				"attributes": {
@@ -25120,9 +25562,14 @@
 					"Search_Cooldown"
 				],
 				"threshold_bonus": "Power_Cooldown_Reduction_Percent#Skill_Trap",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_009": {
 				"attributes": {
@@ -25158,9 +25605,11 @@
 					"Search_NonPhysical"
 				],
 				"threshold_bonus": "+14.4% Damage for Imbued Skills",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_010": {
 				"attributes": {
@@ -25197,9 +25646,11 @@
 					"Search_NonPhysical"
 				],
 				"threshold_bonus": "+9.6% Non-Physical Damage",
-				"threshold_requirements": [
-					"{230 + (130 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Rogue": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Rogue_Rare_011": {
 				"attributes": {
@@ -25223,9 +25674,11 @@
 					"Skill_Primary_Basic"
 				],
 				"threshold_bonus": "+13.3% Skill_Primary_Basic Skill Damage",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Intelligence and {160 + (90 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence and {160 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_012": {
 				"attributes": {
@@ -25260,9 +25713,11 @@
 					"Search_DEXTERITY"
 				],
 				"threshold_bonus": "+14.4% Damage for Imbued Skills",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_014": {
 				"attributes": {
@@ -25297,9 +25752,14 @@
 					"Skill_Primary_Basic"
 				],
 				"threshold_bonus": "+32% Skill_Primary_Basic Skill Damage",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_016": {
 				"attributes": {
@@ -25331,9 +25791,11 @@
 				"desc": "+11.5% Damage To Close Enemies\n4.8% Close Damage Reduction",
 				"name": "Brawler",
 				"threshold_bonus": "+11.5% Damage To Close Enemies",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_018": {
 				"attributes": {
@@ -25365,9 +25827,11 @@
 				"desc": "+14.4% Damage To Distant Enemies\n6% Distant Damage Reduction",
 				"name": "Ranger",
 				"threshold_bonus": "+14.4% Damage To Distant Enemies",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_027": {
 				"attributes": {
@@ -25402,9 +25866,14 @@
 					"Search_DEXTERITY"
 				],
 				"threshold_bonus": "+9.6% Damage To Enemies Affected by Skill_Trap Skills",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_028": {
 				"attributes": {
@@ -25439,9 +25908,11 @@
 					"Search_DEXTERITY"
 				],
 				"threshold_bonus": "9.6% Damage Reduction from Enemies Affected By Skill_Trap Skills",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Strength"
-				]
+				"threshold_requirements": {
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_029": {
 				"attributes": {
@@ -25476,9 +25947,11 @@
 					"Skill_Trap"
 				],
 				"threshold_bonus": "+14.4% Skill_Trap Skill Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"StartNodeRogue": {
 				"name": "Paragon Starting Location"
@@ -30304,9 +30777,14 @@
 					"Keyword_Chill"
 				],
 				"threshold_bonus": "+9.6% Cold Damage",
-				"threshold_requirements": [
-					"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Sorcerer_Rare_005": {
 				"attributes": {
@@ -30342,9 +30820,23 @@
 					"Keyword_Chill"
 				],
 				"threshold_bonus": "+14.4% Damage to Chilled Enemies",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_006": {
 				"attributes": {
@@ -30379,9 +30871,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+10% to Chill Effects",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_007": {
 				"attributes": {
@@ -30417,9 +30920,14 @@
 					"Search_Burn"
 				],
 				"threshold_bonus": "+9.6% Fire Damage",
-				"threshold_requirements": [
-					"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Sorcerer_Rare_008": {
 				"attributes": {
@@ -30455,9 +30963,17 @@
 					"Search_Elite"
 				],
 				"threshold_bonus": "+9.6% Damage To Burning Enemies",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_009": {
 				"attributes": {
@@ -30492,9 +31008,11 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+9.6% Fire Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_010": {
 				"attributes": {
@@ -30530,9 +31048,14 @@
 					"Search_Critical"
 				],
 				"threshold_bonus": "+9.6% Lightning Damage",
-				"threshold_requirements": [
-					"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Sorcerer_Rare_011": {
 				"attributes": {
@@ -30568,9 +31091,20 @@
 					"Keyword_Resource_Pickup"
 				],
 				"threshold_bonus": "+16% Damage with Crackling Energy",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_012": {
 				"attributes": {
@@ -30605,9 +31139,20 @@
 					"Search_DEXTERITY"
 				],
 				"threshold_bonus": "+9.6% Lightning Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_013": {
 				"attributes": {
@@ -30644,9 +31189,11 @@
 					"Search_Resistance"
 				],
 				"threshold_bonus": "9.6% Damage Reduction From Enemies That Are Burning",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_014": {
 				"attributes": {
@@ -30682,9 +31229,17 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "28.8% Lightning Resistance",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_015": {
 				"attributes": {
@@ -30720,9 +31275,20 @@
 					"Keyword_Chill"
 				],
 				"threshold_bonus": "+9.6% Vulnerable Damage",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_016": {
 				"attributes": {
@@ -30757,9 +31323,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "9.6% Damage Reduction From Enemies That Are Burning",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_017": {
 				"attributes": {
@@ -30796,9 +31373,20 @@
 					"Search_Cold"
 				],
 				"threshold_bonus": "14.4% Damage Reduction From Chilled Enemies",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_018": {
 				"attributes": {
@@ -30834,9 +31422,20 @@
 					"Search_NonPhysical"
 				],
 				"threshold_bonus": "+14.4% Critical Strike Damage",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_019": {
 				"attributes": {
@@ -30871,9 +31470,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+9.6% Non-Physical Damage",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_020": {
 				"attributes": {
@@ -30909,9 +31519,14 @@
 					"Search_Resistance"
 				],
 				"threshold_bonus": "+9.6% Non-Physical Damage",
-				"threshold_requirements": [
-					"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
-				]
+				"threshold_requirements": {
+					"Necromancer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Sorcerer_Rare_022": {
 				"attributes": {
@@ -30947,9 +31562,11 @@
 					"Search_Elite"
 				],
 				"threshold_bonus": "+9.6% Lightning Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_023": {
 				"attributes": {
@@ -30985,9 +31602,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "28.8% Fire Resistance",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_024": {
 				"attributes": {
@@ -31023,9 +31651,11 @@
 					"Search_Critical"
 				],
 				"threshold_bonus": "+9.6% Fire Damage",
-				"threshold_requirements": [
-					"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_025": {
 				"attributes": {
@@ -31060,9 +31690,17 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+9.6% Damage To Burning Enemies",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_026": {
 				"attributes": {
@@ -31097,9 +31735,17 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+14.4% Damage to Chilled Enemies",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_027": {
 				"attributes": {
@@ -31134,9 +31780,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "+16% Damage with Crackling Energy",
-				"threshold_requirements": [
-					"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_028": {
 				"attributes": {
@@ -31171,9 +31828,20 @@
 					"Search_Intelligence"
 				],
 				"threshold_bonus": "14.4% Damage Reduction From Chilled Enemies",
-				"threshold_requirements": [
-					"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_034": {
 				"attributes": {
@@ -31210,9 +31878,23 @@
 					"Search_NonPhysical"
 				],
 				"threshold_bonus": "9.6% Resistance to All Elements",
-				"threshold_requirements": [
-					"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
-				]
+				"threshold_requirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"StartNodeSorc": {
 				"name": "Paragon Starting Location"

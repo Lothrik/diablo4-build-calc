@@ -4306,113 +4306,327 @@ let paragonData = {
 			"Barbarian_Rare_001": {
 				"name": "Iron Strength",
 				"description": "+240 Armor\n+10 Strength\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_003": {
 				"name": "Berserker",
 				"description": "+5% Damage while Berserking\n+6.7% Damage to Elites\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_004": {
 				"name": "Flayer",
 				"description": "+9.6% Physical Damage Over Time\n+4% Damage to Bleeding Enemies\n\nBonus: Another +9.6% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_005": {
 				"name": "Butcher",
 				"description": "+9.6% Physical Damage Over Time\n+10 Strength\n\nBonus: Another +9.6% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_006": {
 				"name": "Lacerator",
 				"description": "+9.6% Physical Damage Over Time\n+4% Physical Damage\n\nBonus: Another +9.6% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-				"thresholdRequirements": "{230 + (130 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Barbarian_Rare_008": {
 				"name": "Bludgeoner",
 				"description": "+9.6% Damage with TwoHandedBludgeoning\n+12% Overpower Damage\n\nBonus: Another +9.6% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-				"thresholdRequirements": "{230 + (130 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Barbarian_Rare_009": {
 				"name": "Vigor",
 				"description": "12% Damage Reduction while Healthy\n+10 Strength\n\nBonus: Another 12% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_010": {
 				"name": "Cold Conditioned",
 				"description": "28.8% Cold Resistance\n+100 Armor\n\nBonus: Another 28.8% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_015": {
 				"name": "Tenacity",
 				"description": "+9.6% Life\n+100 Armor\n\nBonus: Another +9.6% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-				"thresholdRequirements": "{200 + (130 * ParagonBoardEquipIndex)} Strength; or {160 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Strength",
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_016": {
 				"name": "Grit",
 				"description": "9.6% Damage Reduction from Enemies That Are Bleeding\n+10 Strength\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_018": {
 				"name": "Conditioned",
 				"description": "9.6% Resistance to All Elements\n+10 Strength\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Willpower; or {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_019": {
 				"name": "Fire Conditioned",
 				"description": "28.8% Fire Resistance\n+100 Armor\n\nBonus: Another 28.8% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_020": {
 				"name": "Hungering Fury",
 				"description": "+15.36 Maximum Fury\n2 Fury On Kill\n\nBonus: Another +15.36 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_021": {
 				"name": "Lightning Conditioned",
 				"description": "28.8% Lightning Resistance\n+100 Armor\n\nBonus: Another 28.8% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_022": {
 				"name": "Brawn",
 				"description": "+9.6% Physical Damage\n+4% Life\n\nBonus: Another +9.6% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-				"thresholdRequirements": "{200 + (130 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Barbarian_Rare_023": {
 				"name": "Fierce",
 				"description": "+9.6% Damage while Berserking\n+10 Strength\n\nBonus: Another +9.6% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_024": {
 				"name": "Heavy Blows",
 				"description": "+14.4% Critical Strike Damage with OneHanded\n+10 Strength\n\nBonus: Another +14.4% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_025": {
 				"name": "Wild Force",
 				"description": "+9.6% Damage with OneHanded\n+4% Attack Speed\n\nBonus: Another +9.6% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Barbarian_Rare_026": {
 				"name": "Poison Conditioned",
 				"description": "28.8% Poison Resistance\n+100 Armor\n\nBonus: Another 28.8% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Barbarian_Rare_030": {
 				"name": "Destroyer",
 				"description": "+9.6% Damage with TwoHandedSlashing\n+4% Vulnerable Damage\n\nBonus: Another +9.6% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-				"thresholdRequirements": "{215 + (130 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Barbarian_Rare_032": {
 				"name": "Enraged",
 				"description": "+9.6% Damage while Berserking\n+6% Berserking Duration\n\nBonus: Another +9.6% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"StartNodeBarb": {
 				"name": "Paragon Starting Node"
 			}
 		},
-		"Paragon (Glyph)": {
+		"Glyph": {
 			"ParagonGlyph_011": {
 				"name": "Imbiber",
 				"desc": "For every 5 Willpower purchased within range, you deal +2.5% increased damage while Healthy.",
@@ -8879,108 +9093,260 @@ let paragonData = {
 			"Druid_Rare_003": {
 				"name": "Stormcaller",
 				"description": "+9.6% Storm Skill Damage\n+10 Willpower\n\nBonus: Another +9.6% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_004": {
 				"name": "Nature-born",
 				"description": "9.6% Damage Reduction from Enemies That Are Poisoned\n+10 Willpower\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_005": {
 				"name": "Toxic Bane",
 				"description": "+9.6% Damage to Poisoned Enemies\n+4% Poison Damage\n\nBonus: Another +9.6% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_006": {
 				"name": "Primal Instinct",
 				"description": "+9.6% Damage\n+6.7% Fortify Generation\n\nBonus: Another +9.6% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Druid_Rare_008": {
 				"name": "Crushing Earth",
 				"description": "+9.6% Earth Skill Damage\n+6% Critical Strike Damage to Crowd Controlled Enemies\n\nBonus: Another +9.6% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_009": {
 				"name": "Earthen Power",
 				"description": "+14.4% Critical Strike Damage with Earth Skills\n+10 Willpower\n\nBonus: Another +14.4% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_010": {
 				"name": "Nature's Will",
 				"description": "+9.6% Nature Magic Skill Damage\n+10 Willpower\n\nBonus: Another +9.6% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_012": {
 				"name": "Devastation",
 				"description": "+9.6% Nature Magic Skill Damage\n+6.7% Damage to Elites\n\nBonus: Another +9.6% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_013": {
 				"name": "Spiritual Power",
 				"description": "+13.3% Basic Skill Damage\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_014": {
 				"name": "Grizzly",
 				"description": "+9.6% Damage while in Werebear Form\n+10 Willpower\n\nBonus: Another +9.6% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_015": {
 				"name": "Natural Attunement",
 				"description": "+6.4 Maximum Spirit\n+9.6% Life\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_017": {
 				"name": "Reclamation",
 				"description": "+15.36 Maximum Spirit\n2 Spirit On Kill\n\nBonus: Another +15.36 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_018": {
 				"name": "Sinking Fangs",
 				"description": "+4% Damage to Poisoned Enemies\n+10 Willpower\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_019": {
 				"name": "Shapeshifter",
 				"description": "+9.6% Shapeshifting Skill Damage\n+10 Willpower\n\nBonus: Another +9.6% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_020": {
 				"name": "Deluge",
 				"description": "+14.4% Critical Strike Damage\n+6% Damage to Crowd Controlled Enemies\n\nBonus: Another +14.4% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_022": {
 				"name": "Ferocity",
 				"description": "+9.6% Werewolf Skill Damage\n+6% Critical Strike Damage\n\nBonus: Another +9.6% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_024": {
 				"name": "Wild's Call",
 				"description": "+9.6% Attack Speed\n+6.4 Maximum Spirit\n\nBonus: Another +9.6% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_026": {
 				"name": "Ursine",
 				"description": "+9.6% Werebear Skill Damage\n+12% Overpower Damage\n\nBonus: Another +9.6% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Druid_Rare_027": {
 				"name": "Battleworn Hide",
 				"description": "+4.8% Total Armor while in Werebear Form\n+10 Willpower\n\nBonus: Another +4.8% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Druid_Rare_030": {
 				"name": "Harmony",
 				"description": "+13.4% Core Skill Damage\n+10 Willpower\n\nBonus: Another +13.4% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"StartNodeDruid": {
 				"name": "Paragon Starting Node"
 			}
 		},
-		"Paragon (Glyph)": {
+		"Glyph": {
 			"ParagonGlyph_011": {
 				"name": "Guzzler",
 				"desc": "For every 5 Intelligence purchased within range, you deal +2.5% increased damage while Healthy.",
@@ -9445,728 +9811,1272 @@ let paragonData = {
 				"name": "Resilience",
 				"description": "9.6% Resistance to All Elements\n+4% Life\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
 				"thresholdRequirements": {
-					"Barbarian": "{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity; or {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Strength",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_002": {
 				"name": "Nimble",
 				"description": "+9.6% Attack Speed\n+4% Damage\n\nBonus: Another +9.6% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{230 + (130 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_006": {
 				"name": "Fleeting",
 				"description": "19.2% Control Impaired Duration Reduction\n6.7% Damage Taken Over Time Reduction\n\nBonus: Another 19.2% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Strength",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower and {160 + (90 * ParagonBoardEquipIndex)} Dexterity; or {160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower and {160 + (90 * ParagonBoardEquipIndex)} Dexterity",
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_007": {
 				"name": "Focused",
 				"description": "+16% Damage to Elites\n+10 Dexterity\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
 				"thresholdRequirements": {
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_009": {
 				"name": "Oppress",
 				"description": "+14.4% Damage to Crowd Controlled Enemies\n+6% Critical Strike Damage to Crowd Controlled Enemies\n\nBonus: Another +14.4% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_011": {
 				"name": "Spearhead",
 				"description": "+24% Damage to Healthy Enemies\n+100 Armor\n\nBonus: Another +24% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_012": {
 				"name": "Cold Resilience",
 				"description": "28.8% Cold Resistance\n+4% Life\n\nBonus: Another 28.8% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_013": {
 				"name": "Havoc",
 				"description": "+14.4% Critical Strike Damage\n+4% Physical Damage\n\nBonus: Another +14.4% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity; or {180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_014": {
 				"name": "Ruin",
 				"description": "+24% Damage to Healthy Enemies\n+6% Critical Strike Damage\n\nBonus: Another +24% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity; or {180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_015": {
 				"name": "Stifle",
 				"description": "+24% Damage to Injured Enemies\n+6% Critical Strike Damage\n\nBonus: Another +24% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_016": {
 				"name": "Devious",
 				"description": "+14.4% Damage to Crowd Controlled Enemies\n+10 Dexterity\n\nBonus: Another +14.4% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
 				"thresholdRequirements": {
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_017": {
 				"name": "Feint",
 				"description": "+9.6% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity\n\nBonus: Another +9.6% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
 				"thresholdRequirements": {
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_018": {
 				"name": "Safeguard",
 				"description": "16% Damage Reduction from Elites\n+100 Armor\n\nBonus: Another 16% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
 				"thresholdRequirements": {
-					"Barbarian": "{200 + (130 * ParagonBoardEquipIndex)} Strength",
-					"Druid": "{200 + (130 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{215 + (130 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{215 + (130 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					"Barbarian": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Druid": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_019": {
 				"name": "Suffused Resilience",
 				"description": "16% Damage Taken Over Time Reduction\n4% Resistance to All Elements\n\nBonus: Another 16% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower; or {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower",
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_021": {
 				"name": "Calculated",
 				"description": "+14.4% Damage to Crowd Controlled Enemies\n+100 Armor\n\nBonus: Another +14.4% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity; or {170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_022": {
 				"name": "Hunter Killer",
 				"description": "+16% Damage to Elites\n+14% Movement Speed for {#} Seconds After Killing an Elite\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{215 + (130 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_023": {
 				"name": "Deathbringer",
 				"description": "+24% Damage to Injured Enemies\n+100 Armor\n\nBonus: Another +24% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
 				"thresholdRequirements": {
-					"Barbarian": "{200 + (130 * ParagonBoardEquipIndex)} Strength; or {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{215 + (130 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Strength",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_025": {
 				"name": "Pillage",
 				"description": "+9.6% Vulnerable Damage\n+100 Armor\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
 				"thresholdRequirements": {
-					"Barbarian": "{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
 				}
 			},
 			"Generic_Rare_026": {
 				"name": "Inner Strength",
 				"description": "+9.6% Damage while Fortified\n+5% Damage while Healthy\n\nBonus: Another +9.6% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_028": {
 				"name": "Aggression",
 				"description": "+28.8% Overpower Damage\n+4% Damage\n\nBonus: Another +28.8% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
 				"thresholdRequirements": {
-					"Necromancer": "{215 + (130 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{215 + (130 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					"Necromancer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_029": {
 				"name": "Elementalist",
 				"description": "+9.6% Non-Physical Damage\n+4% Life\n\nBonus: Another +9.6% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
 				"thresholdRequirements": {
-					"Necromancer": "{200 + (130 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					"Necromancer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_030": {
 				"name": "Culler",
 				"description": "Lucky Hit: Up to a +9.6% Chance to Execute Injured Non-Elites\n+4% Attack Speed\n\nBonus: Another Lucky Hit: Up to a +9.6% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
 				"thresholdRequirements": {
-					"Barbarian": "{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity; or {180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{180 + (90 * ParagonBoardEquipIndex)} Strength",
-					"Sorcerer": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity; or {180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_031": {
 				"name": "Fire Resilience",
 				"description": "28.8% Fire Resistance\n+4% Life\n\nBonus: Another 28.8% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_032": {
 				"name": "Bulwark",
 				"description": "9.6% Damage Reduction while Fortified\n+6.7% Fortify Generation\n\nBonus: Another 9.6% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
 				"thresholdRequirements": {
-					"Barbarian": "{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower; or {170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{215 + (130 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower",
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_033": {
 				"name": "Recuperate",
 				"description": "+9.6% Potion Healing\n1.3% Healing Over Time\n\nBonus: Another +9.6% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{180 + (90 * ParagonBoardEquipIndex)} Strength; or {180 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Strength",
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_034": {
 				"name": "Lightning Resilience",
 				"description": "28.8% Lightning Resistance\n+4% Life\n\nBonus: Another 28.8% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_035": {
 				"name": "Ruinous",
 				"description": "+9.6% Non-Physical Damage\n+6.7% Damage to Elites\n\nBonus: Another +9.6% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_036": {
 				"name": "Reservoir",
 				"description": "+15.36 Maximum Mana\n+4% Life\n\nBonus: Another +15.36 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_038": {
 				"name": "Core Reserve",
 				"description": "+15.36 Maximum Fury\n+4% Life\n\nBonus: Another +15.36 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_041": {
 				"name": "Poison Resilience",
 				"description": "28.8% Poison Resistance\n+4% Life\n\nBonus: Another 28.8% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{160 + (90 * ParagonBoardEquipIndex)} Strength",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_042": {
 				"name": "Restorative",
 				"description": "+9.6% Potion Healing\n+4% Life\n\nBonus: Another +9.6% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_044": {
 				"name": "Tempest",
 				"description": "+14.4% Critical Strike Damage\n+4% Vulnerable Damage\n\nBonus: Another +14.4% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{230 + (130 * ParagonBoardEquipIndex)} Strength",
-					"Druid": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_046": {
 				"name": "Shadow Resilience",
 				"description": "28.8% Shadow Resistance\n+4% Life\n\nBonus: Another 28.8% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_048": {
 				"name": "Superiority",
 				"description": "+14.4% Damage to Crowd Controlled Enemies\n+4% Life\n\nBonus: Another +14.4% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
 				"thresholdRequirements": {
-					"Druid": "{200 + (130 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{200 + (130 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_049": {
 				"name": "Exploit",
 				"description": "+9.6% Vulnerable Damage\n+10% Damage to Injured Enemies\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
 				"thresholdRequirements": {
-					"Rogue": "{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_051": {
 				"name": "Skillful",
 				"description": "+9.6% Damage\n+10 Dexterity\n\nBonus: Another +9.6% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
 				"thresholdRequirements": {
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_052": {
 				"name": "Reinvigorate",
 				"description": "+15.36 Maximum Essence\n2 Essence On Kill\n\nBonus: Another +15.36 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_054": {
 				"name": "Erudite",
 				"description": "9.6% Resistance to All Elements\n+10 Intelligence\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_057": {
 				"name": "Craving",
 				"description": "+9.6% Damage to Bleeding Enemies\n+6.7% Damage to Elites\n\nBonus: Another +9.6% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_058": {
 				"name": "Revel",
 				"description": "+9.6% Damage to Bleeding Enemies\n+10 Strength\n\nBonus: Another +9.6% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_059": {
 				"name": "Brash",
 				"description": "11.5% Damage Reduction from Close Enemies\n+10 Strength\n\nBonus: Another 11.5% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_060": {
 				"name": "Brute",
 				"description": "+9.6% Physical Damage\n+4% Attack Speed\n\nBonus: Another +9.6% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
 				"thresholdRequirements": {
-					"Barbarian": "{230 + (130 * ParagonBoardEquipIndex)} Strength"
+					"Barbarian": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
+					]
 				}
 			},
 			"Generic_Rare_061": {
 				"name": "Determination",
 				"description": "+240 Armor\n+10 Willpower\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
 				"thresholdRequirements": {
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_064": {
 				"name": "Lawless",
 				"description": "+240 Armor\n+10 Dexterity\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
 				"thresholdRequirements": {
-					"Rogue": "{160 + (90 * ParagonBoardEquipIndex)} Strength"
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
 				}
 			},
 			"Generic_Rare_065": {
 				"name": "Discerning",
 				"description": "+9.6% Damage for {#} Seconds After Dodging an Attack\n+6.7% Damage to Elites\n\nBonus: Another +9.6% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
 				"thresholdRequirements": {
-					"Rogue": "{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_066": {
 				"name": "Raw Power",
 				"description": "+9.6% Physical Damage\n+10 Strength\n\nBonus: Another +9.6% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_067": {
 				"name": "Slayer",
 				"description": "+240 Armor\n+4% Potion Healing\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
 				"thresholdRequirements": {
-					"Barbarian": "{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
 				}
 			},
 			"Generic_Rare_068": {
 				"name": "Wiles",
 				"description": "14.4% Damage Reduction from Slowed Enemies\n+10 Dexterity\n\nBonus: Another 14.4% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
 				"thresholdRequirements": {
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
 				}
 			},
 			"Generic_Rare_069": {
 				"name": "Arrogance",
 				"description": "9.6% Damage Reduction from Vulnerable Enemies\n+10 Strength\n\nBonus: Another 9.6% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_070": {
 				"name": "Demolish",
 				"description": "+9.6% Vulnerable Damage\n+10 Strength\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_071": {
 				"name": "Powerhouse",
 				"description": "+12% Damage while Healthy\n+12% Overpower Damage\n\nBonus: Another +12% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_072": {
 				"name": "Brutality",
 				"description": "+28.8% Overpower Damage\n+10 Strength\n\nBonus: Another +28.8% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_073": {
 				"name": "Impel",
 				"description": "+9.6% Damage\n+10 Willpower\n\nBonus: Another +9.6% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
 				"thresholdRequirements": {
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_074": {
 				"name": "Resolve",
 				"description": "9.6% Resistance to All Elements\n+10 Willpower\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_075": {
 				"name": "Prime",
 				"description": "+9.6% Damage\n+4% Life\n\nBonus: Another +9.6% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_076": {
 				"name": "Hubris",
 				"description": "9.6% Damage Reduction from Vulnerable Enemies\n+10 Willpower\n\nBonus: Another 9.6% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
 				"thresholdRequirements": {
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_077": {
 				"name": "Courage",
 				"description": "+9.6% Life\n+10 Willpower\n\nBonus: Another +9.6% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_078": {
 				"name": "Regenerative",
 				"description": "+9.6% Healing Received\n+10 Willpower\n\nBonus: Another +9.6% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
 				"thresholdRequirements": {
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_079": {
 				"name": "Feral",
 				"description": "+9.6% Werewolf Skill Damage\n+10 Willpower\n\nBonus: Another +9.6% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_080": {
 				"name": "Overturn",
 				"description": "+9.6% Damage to Poisoned Enemies\n+6.7% Damage to Elites\n\nBonus: Another +9.6% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_081": {
 				"name": "Dosage",
 				"description": "+9.6% Potion Healing\n+10 Dexterity\n\nBonus: Another +9.6% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
 				"thresholdRequirements": {
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_082": {
 				"name": "Training",
 				"description": "+9.6% Life\n+10 Dexterity\n\nBonus: Another +9.6% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
 				"thresholdRequirements": {
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
 				}
 			},
 			"Generic_Rare_083": {
 				"name": "Tolerance",
 				"description": "9.6% Resistance to All Elements\n+10 Dexterity\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
 				"thresholdRequirements": {
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
 				}
 			},
 			"Generic_Rare_084": {
 				"name": "Knowledge",
 				"description": "+9.6% Damage\n+10 Intelligence\n\nBonus: Another +9.6% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Rogue": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_085": {
 				"name": "Preservation",
 				"description": "+240 Armor\n+10 Intelligence\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_086": {
 				"name": "Targeted",
 				"description": "+16% Damage to Elites\n+10 Intelligence\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_087": {
 				"name": "Corrective",
 				"description": "+14.4% Critical Strike Damage\n+4% Potion Healing\n\nBonus: Another +14.4% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_088": {
 				"name": "Deathmarked",
 				"description": "+24% Damage to Injured Enemies\n+10 Intelligence\n\nBonus: Another +24% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_089": {
 				"name": "Remedy",
 				"description": "+9.6% Healing Received\n+10 Intelligence\n\nBonus: Another +9.6% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_090": {
 				"name": "Gloom",
 				"description": "28.8% Shadow Resistance\n+10 Intelligence\n\nBonus: Another 28.8% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_091": {
 				"name": "Dragging Shadows",
 				"description": "9.6% Damage Reduction from Enemies That Are Taking Shadow DoT\n12% Shadow Resistance\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_092": {
 				"name": "Gnawing Darkness",
 				"description": "+9.6% Damage to Taking Shadow DoT Enemies\n+6.7% Damage to Elites\n\nBonus: Another +9.6% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
 				"thresholdRequirements": {
-					"Barbarian": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Rare_093": {
 				"name": "Malediction",
 				"description": "+9.6% Shadow Damage\n+10 Intelligence\n\nBonus: Another +9.6% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
 				"thresholdRequirements": {
-					"Barbarian": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_094": {
 				"name": "Advantage",
 				"description": "28.8% Cold Resistance\n+2% Lucky Hit Chance\n\nBonus: Another 28.8% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
 				"thresholdRequirements": {
-					"Necromancer": "{200 + (130 * ParagonBoardEquipIndex)} Intelligence",
-					"Sorcerer": "{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					"Necromancer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
 				}
 			},
 			"Generic_Rare_095": {
 				"name": "Weakness",
 				"description": "+9.6% Vulnerable Damage\n+10 Intelligence\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
 				"thresholdRequirements": {
-					"Barbarian": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Necromancer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower",
-					"Sorcerer": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
 				}
 			},
 			"Generic_Rare_096": {
 				"name": "Artifice",
 				"description": "+9.6% Vulnerable Damage\n+10 Dexterity\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
 				"thresholdRequirements": {
-					"Rogue": "{180 + (90 * ParagonBoardEquipIndex)} Strength"
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
 				}
 			},
 			"Generic_Rare_097": {
 				"name": "Zealous",
 				"description": "+12% Damage while Healthy\n+100 Armor\n\nBonus: Another +12% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
 				"thresholdRequirements": {
-					"Barbarian": "{200 + (130 * ParagonBoardEquipIndex)} Strength; or {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Druid": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Necromancer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity",
-					"Rogue": "{215 + (130 * ParagonBoardEquipIndex)} Dexterity",
-					"Sorcerer": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					"Barbarian": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Strength",
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
 				}
 			},
 			"Generic_Socket": {
@@ -14527,123 +15437,323 @@ let paragonData = {
 			"Necromancer_Rare_001": {
 				"name": "Shaper of Bone",
 				"description": "+9.6% Bone Skill Damage\n+10 Intelligence\n\nBonus: Another +9.6% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_002": {
 				"name": "Thick Hide",
 				"description": "+9.6% Damage while Fortified\n+4% Life\n\nBonus: Another +9.6% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_003": {
 				"name": "Blooddrinker",
 				"description": "+11.5% Blood Orb Healing\n+10 Intelligence\n\nBonus: Another +11.5% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_005": {
 				"name": "Calcified",
 				"description": "+14.4% Critical Strike Damage with Bone Skills\n+4% Bone Skill Damage\n\nBonus: Another +14.4% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_006": {
 				"name": "Hardened",
 				"description": "+9.6% Damage while Fortified\n+10 Intelligence\n\nBonus: Another +9.6% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_009": {
 				"name": "Invigorated",
 				"description": "+9.6% Damage for {#} Seconds After Picking Up a Blood Orb\n+5% Damage while Healthy\n\nBonus: Another +9.6% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_011": {
 				"name": "Unassailable",
 				"description": "9.6% Damage Reduction from Vulnerable Enemies\n+100 Armor\n\nBonus: Another 9.6% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence and {160 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Necromancer_Rare_013": {
 				"name": "Vampiric",
 				"description": "+11.5% Blood Orb Healing\n+4% Life\n\nBonus: Another +11.5% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_017": {
 				"name": "Borrowed Strength",
 				"description": "+9.6% Damage while Golem are Active\n+2% Total Armor while Golem are Active\n\nBonus: Another +9.6% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_018": {
 				"name": "Armor-clad",
 				"description": "+9.6% Minion Armor\n10% Maximum Minion Life\n\nBonus: Another +9.6% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_020": {
 				"name": "Custody",
 				"description": "24% Damage Reduction for Your Minions\n+10 Intelligence\n\nBonus: Another 24% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_021": {
 				"name": "Overlord",
 				"description": "+9.6% Minion Damage\n+10 Intelligence\n\nBonus: Another +9.6% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_022": {
 				"name": "Mutation",
 				"description": "+16% Golem Damage\n+10 Intelligence\n\nBonus: Another +16% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_024": {
 				"name": "Frenzied Golem",
 				"description": "+16% Golem Damage\n+6.7% Golem Attack Speed\n\nBonus: Another +16% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_025": {
 				"name": "Miscreation",
 				"description": "+16% Golem Armor\n+10 Intelligence\n\nBonus: Another +16% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_026": {
 				"name": "Puppeteer",
 				"description": "+9.6% Minion Damage\n+4% Minion Attack Speed\n\nBonus: Another +9.6% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-				"thresholdRequirements": "{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Necromancer_Rare_027": {
 				"name": "Infused Caster",
 				"description": "+16% SkeletonMage Damage\n16% SkeletonMage Resistance to All Elements\n\nBonus: Another +16% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_028": {
 				"name": "Infused Warrior",
 				"description": "+16% SkeletonWarrior Damage\n+6.7% SkeletonWarrior Armor\n\nBonus: Another +16% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_029": {
 				"name": "Infused Golem",
 				"description": "+16% Golem Damage\n14% Golem Maximum Life\n\nBonus: Another +16% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Necromancer_Rare_031": {
 				"name": "Flesh-horror",
 				"description": "+16% Golem Armor\n16% Golem Resistance to All Elements\n\nBonus: Another +16% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_034": {
 				"name": "Blood-Empowered",
 				"description": "+9.6% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence\n\nBonus: Another +9.6% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Necromancer_Rare_035": {
 				"name": "Lingering Shadows",
 				"description": "+9.6% Shadow Damage Over Time\n+4% Shadow Damage\n\nBonus: Another +9.6% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-				"thresholdRequirements": "{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Necromancer_Rare_036": {
 				"name": "Entomb",
 				"description": "+1.9% Critical Strike Chance with Bone Skills\n+4% Potion Healing\n\nBonus: Another +1.9% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"StartNodeNecro": {
 				"name": "Paragon Starting Node"
 			}
 		},
-		"Paragon (Glyph)": {
+		"Glyph": {
 			"ParagonGlyph_011": {
 				"name": "Imbiber",
 				"desc": "For every 5 Willpower purchased within range, you deal +2.5% increased damage while Healthy.",
@@ -19080,68 +20190,128 @@ let paragonData = {
 			"Rogue_Rare_005": {
 				"name": "Finisher",
 				"description": "+13.4% Core Skill Damage\n+10 Dexterity\n\nBonus: Another +13.4% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_008": {
 				"name": "Spring-loaded",
 				"description": "6.4% Trap Cooldown Reduction\n\nBonus: Another 6.4% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_009": {
 				"name": "Imbuer",
 				"description": "+14.4% Imbued Skill Damage\n+4% Non-Physical Damage\n\nBonus: Another +14.4% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_010": {
 				"name": "Ready Supply",
 				"description": "+9.6% Non-Physical Damage\n2.7% Imbuement Cooldown Reduction\n\nBonus: Another +9.6% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-				"thresholdRequirements": "{230 + (130 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Rogue": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Rogue_Rare_011": {
 				"name": "Dominant",
 				"description": "+13.3% Basic Skill Damage\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence and {160 + (90 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence and {160 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_012": {
 				"name": "Potent",
 				"description": "+14.4% Imbued Skill Damage\n+10 Dexterity\n\nBonus: Another +14.4% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_014": {
 				"name": "Fundamentals",
 				"description": "+32% Basic Skill Damage\n+4% Damage\n\nBonus: Another +32% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_016": {
 				"name": "Brawler",
 				"description": "+11.5% Damage to Close Enemies\n4.8% Damage Reduction from Close Enemies\n\nBonus: Another +11.5% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_018": {
 				"name": "Ranger",
 				"description": "+14.4% Damage to Distant Enemies\n6% Damage Reduction from Distant Enemies\n\nBonus: Another +14.4% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_027": {
 				"name": "Engineering",
 				"description": "+9.6% Damage to Enemies Affected by Trap Skills\n+10 Dexterity\n\nBonus: Another +9.6% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Rogue_Rare_028": {
 				"name": "Cunning",
 				"description": "9.6% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\n\nBonus: Another 9.6% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Strength"
+				"thresholdRequirements": {
+					"Rogue": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
+					]
+				}
 			},
 			"Rogue_Rare_029": {
 				"name": "Trapper",
 				"description": "+14.4% Trap Skill Damage\n+4% Damage to Enemies Affected by Trap Skills\n\nBonus: Another +14.4% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Rogue": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"StartNodeRogue": {
 				"name": "Paragon Starting Node"
 			}
 		},
-		"Paragon (Glyph)": {
+		"Glyph": {
 			"ParagonGlyph_014": {
 				"name": "Turf",
 				"desc": "For every 5 Strength purchased within range, you deal +2.666% increased damage to Close targets.",
@@ -23558,143 +24728,437 @@ let paragonData = {
 			"Sorcerer_Rare_002": {
 				"name": "Cryomancy",
 				"description": "+9.6% Cold Damage\n10% Chill Application\n\nBonus: Another +9.6% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-				"thresholdRequirements": "{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Sorcerer_Rare_005": {
 				"name": "Polar Rime",
 				"description": "+14.4% Damage to Chilled Enemies\n+4% Non-Physical Damage\n\nBonus: Another +14.4% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Rogue": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_006": {
 				"name": "Chilling",
 				"description": "28.8% Cold Resistance\n+10 Intelligence\n\nBonus: Another 28.8% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_007": {
 				"name": "Pyromancy",
 				"description": "+9.6% Fire Damage\n+4% Fire Damage Over Time\n\nBonus: Another +9.6% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-				"thresholdRequirements": "{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Sorcerer_Rare_008": {
 				"name": "Kindling",
 				"description": "+9.6% Damage to Burning Enemies\n+6.7% Damage to Elites\n\nBonus: Another +9.6% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_009": {
 				"name": "Flame-touched",
 				"description": "+9.6% Fire Damage\n+10 Intelligence\n\nBonus: Another +9.6% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_010": {
 				"name": "Paralyzing",
 				"description": "+14.4% Damage to Stunned Enemies\n+6.4 Maximum Mana\n\nBonus: Another +14.4% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-				"thresholdRequirements": "{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Sorcerer_Rare_011": {
 				"name": "Conduit",
 				"description": "+16% Damage with Crackling Energy\n+4% Lightning Damage\n\nBonus: Another +16% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_012": {
 				"name": "Incapacitate",
 				"description": "+14.4% Damage to Stunned Enemies\n+10 Intelligence\n\nBonus: Another +14.4% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_013": {
 				"name": "Keeper of Flames",
 				"description": "9.6% Damage Reduction from Enemies That Are Burning\n12% Fire Resistance\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_014": {
 				"name": "Electro",
 				"description": "28.8% Lightning Resistance\n+10 Intelligence\n\nBonus: Another 28.8% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_015": {
 				"name": "Oppressive",
 				"description": "+9.6% Vulnerable Damage\n4% Damage Reduction from Vulnerable Enemies\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_016": {
 				"name": "Smoldering Embers",
 				"description": "9.6% Damage Reduction from Enemies That Are Burning\n+10 Intelligence\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_017": {
 				"name": "Keeper of Winter",
 				"description": "14.4% Damage Reduction from Chilled Enemies\n12% Cold Resistance\n\nBonus: Another 14.4% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_019": {
 				"name": "Elemental Balance",
 				"description": "+9.6% Non-Physical Damage\n+10 Intelligence\n\nBonus: Another +9.6% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_020": {
 				"name": "Keeper of Elements",
 				"description": "+9.6% Non-Physical Damage\n4% Resistance to All Elements\n\nBonus: Another +9.6% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-				"thresholdRequirements": "{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+				"thresholdRequirements": {
+					"Necromancer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					],
+					"Sorcerer": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
+					]
+				}
 			},
 			"Sorcerer_Rare_022": {
 				"name": "Overwhelming",
 				"description": "+14.4% Damage to Stunned Enemies\n+6.7% Damage to Elites\n\nBonus: Another +14.4% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_023": {
 				"name": "Ashes",
 				"description": "28.8% Fire Resistance\n+10 Intelligence\n\nBonus: Another 28.8% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_024": {
 				"name": "Combustion",
 				"description": "+9.6% Fire Damage\n+6% Critical Strike Damage\n\nBonus: Another +9.6% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-				"thresholdRequirements": "{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Sorcerer": [
+						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_025": {
 				"name": "Cinders",
 				"description": "+9.6% Damage to Burning Enemies\n+10 Intelligence\n\nBonus: Another +9.6% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_026": {
 				"name": "Frosts",
 				"description": "+14.4% Damage to Chilled Enemies\n+10 Intelligence\n\nBonus: Another +14.4% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
+					]
+				}
 			},
 			"Sorcerer_Rare_027": {
 				"name": "Galvanic Catalyst",
 				"description": "+16% Damage with Crackling Energy\n+10 Intelligence\n\nBonus: Another +16% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_028": {
 				"name": "Frigid",
 				"description": "14.4% Damage Reduction from Chilled Enemies\n+10 Intelligence\n\nBonus: Another 14.4% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_029": {
 				"name": "Conjurer",
 				"description": "+14.4% Conjuration Skill Damage\n+10 Intelligence\n\nBonus: Another +14.4% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-				"thresholdRequirements": "{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_034": {
 				"name": "Denial",
 				"description": "9.6% Resistance to All Elements\n+100 Armor\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-				"thresholdRequirements": "{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Strength"
+					],
+					"Sorcerer": [
+						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_035": {
 				"name": "Guarded",
 				"description": "9.6% Damage Reduction from Vulnerable Enemies\n12% Cold Resistance\n\nBonus: Another 9.6% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"Sorcerer_Rare_036": {
 				"name": "Speed Caster",
 				"description": "+9.6% Attack Speed\n+6% Conjuration Skill Damage\n\nBonus: Another +9.6% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-				"thresholdRequirements": "{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+				"thresholdRequirements": {
+					"Barbarian": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Druid": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Necromancer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Rogue": [
+						"{230 + (130 * ParagonBoardEquipIndex)} Dexterity"
+					],
+					"Sorcerer": [
+						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
+					]
+				}
 			},
 			"StartNodeSorc": {
 				"name": "Paragon Starting Node"
 			}
 		},
-		"Paragon (Glyph)": {
+		"Glyph": {
 			"ParagonGlyph_001": {
 				"name": "Enchanter",
 				"desc": "For every 5 Intelligence purchased within range, you deal +2% increased Non-physical damage.",

@@ -370,23 +370,6 @@ function getCodexValues(codexPowerName, codexCategoryName, className, sanitizedD
 	return codexMatch;
 }
 
-function processThresholdRequirements(nodeData, className) {
-	let thresholdRequirements = {};
-	if (typeof nodeData["threshold_requirements"] == "string") {
-		thresholdRequirements = nodeData["threshold_requirements"];
-	} else if (Array.isArray(nodeData["threshold_requirements"])) {
-		thresholdRequirements = nodeData["threshold_requirements"].join("; or ");
-	} else if (className in nodeData["threshold_requirements"]) {
-		thresholdRequirements = nodeData["threshold_requirements"][className].join("; or ");
-	} else if (className == "Generic") {
-		const thresholdEntries = Object.entries(nodeData["threshold_requirements"]);
-		for (const [thresholdClass, thresholdRequirement] of thresholdEntries) {
-			thresholdRequirements[thresholdClass] = thresholdRequirement.join("; or ");
-		}
-	}
-	return thresholdRequirements;
-}
-
 const MAX_RECURSION_DEPTH = 10;
 function recursiveSkillTreeScan(connectionData, classData, className, rootNode, rootNodeName, mappedIDs, recursionDepth = 0) {
 	let output = "";
@@ -640,11 +623,7 @@ function runParser(downloadMode) {
 			paragonData[className]["Node"] = {};
 			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Node)"])) {
 				let sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
-				let thresholdRequirements = {};
-				if ("threshold_bonus" in nodeData) {
-					sanitizedDescription += "\n\nBonus: Another " + nodeData["threshold_bonus"] + " if requirements met:\n{thresholdRequirements}";
-					thresholdRequirements = processThresholdRequirements(nodeData, className);
-				}
+				if ("threshold_bonus" in nodeData) sanitizedDescription += "\n\nBonus: Another " + nodeData["threshold_bonus"] + " if requirements met:\n{thresholdRequirements}";
 				if ("tags" in nodeData) {
 					const filteredTags = nodeData["tags"].filter(tag => !tag.includes("_")).join(", ");
 					if (filteredTags.length > 0) {
@@ -658,23 +637,19 @@ function runParser(downloadMode) {
 				}
 				paragonData[className]["Node"][nodeName] = {
 					name: nodeData["name"],
-					description: sanitizedDescription
+					description: sanitizedDescription,
+					thresholdRequirements: nodeData["threshold_requirements"],
 				};
-				if (Object.keys(thresholdRequirements).length > 0) {
-					paragonData[className]["Node"][nodeName]["thresholdRequirements"] = thresholdRequirements
-				}
 			}
 		}
 		if ("Paragon (Glyph)" in classData) {
-			paragonData[className]["Paragon (Glyph)"] = {};
+			paragonData[className]["Glyph"] = {};
 			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Glyph)"])) {
-				let thresholdRequirements = {};
-				thresholdRequirements = processThresholdRequirements(nodeData, className);
-				paragonData[className]["Paragon (Glyph)"][nodeName] = {
+				paragonData[className]["Glyph"][nodeName] = {
 					name: nodeData["name"],
 					desc: nodeData["desc"],
 					bonus: nodeData["bonus"],
-					thresholdRequirements: thresholdRequirements
+					thresholdRequirements: nodeData["threshold_requirements"],
 				};
 			}
 		}

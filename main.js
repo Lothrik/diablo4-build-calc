@@ -631,7 +631,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
 	}
 }
-const localVersion = "0.8.1.39858-22";
+const localVersion = "0.8.1.39858-23";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1152,7 +1152,7 @@ function equipParagonBoardGlyph(boardIndex) {
 	const className = $(classString).val();
 	const classText = className[0].toUpperCase() + className.slice(1);
 
-	const paragonGlyphs = paragonData[classText]["Paragon (Glyph)"];
+	const paragonGlyphs = paragonData[classText]["Glyph"];
 	const sortedGlyphKeys = Object.keys(paragonGlyphs).sort((a, b) => {
 		const aName = paragonGlyphs[a].name;
 		const bName = paragonGlyphs[b].name;
@@ -1161,16 +1161,16 @@ function equipParagonBoardGlyph(boardIndex) {
 	let modalOptions = "";
 	for (const glyphName of sortedGlyphKeys) {
 		const glyphData = paragonGlyphs[glyphName];
-		if (glyphName.includes("_Barb") && className != "barbarian") continue;
-		if (glyphName.includes("_Druid") && className != "druid") continue;
-		if (glyphName.includes("_Necro") && className != "necromancer") continue;
-		if (glyphName.includes("_Rogue") && className != "rogue") continue;
-		if (glyphName.includes("_Sorc") && className != "sorcerer") continue;
-		if (glyphName + "_Barb" in paragonGlyphs && className == "barbarian") continue;
-		if (glyphName + "_Druid" in paragonGlyphs && className == "druid")  continue;
-		if (glyphName + "_Necro" in paragonGlyphs && className == "necromancer") continue;
-		if (glyphName + "_Rogue" in paragonGlyphs && className == "rogue") continue;
-		if (glyphName + "_Sorc" in paragonGlyphs && className == "sorcerer") continue;
+		if (glyphName.includes("_Barb") && classText != "Barbarian") continue;
+		if (glyphName.includes("_Druid") && classText != "Druid") continue;
+		if (glyphName.includes("_Necro") && classText != "Necromancer") continue;
+		if (glyphName.includes("_Rogue") && classText != "Rogue") continue;
+		if (glyphName.includes("_Sorc") && classText != "Sorcerer") continue;
+		if (glyphName + "_Barb" in paragonGlyphs && classText == "Barbarian") continue;
+		if (glyphName + "_Druid" in paragonGlyphs && classText == "Druid")  continue;
+		if (glyphName + "_Necro" in paragonGlyphs && classText == "Necromancer") continue;
+		if (glyphName + "_Rogue" in paragonGlyphs && classText == "Rogue") continue;
+		if (glyphName + "_Sorc" in paragonGlyphs && classText == "Sorcerer") continue;
 		const glyphIndex = Number(glyphName.match(/\d+/)[0]);
 		const glyphBoard = Object.keys(paragonBoardGlyphData).find(key => paragonBoardGlyphData[key] == glyphIndex);
 		if (glyphBoard == undefined) {
@@ -2235,7 +2235,6 @@ function drawAllNodes() {
 							let nodeName = nodeData;
 							let nodeDesc = "";
 							let thresholdRequirements = null;
-							console.log(paragonData);
 							for (const classKey in paragonData) {
 								if ("Node" in paragonData[classKey] && nodeData in paragonData[classKey]["Node"]) {
 									nodeName = paragonData[classKey]["Node"][nodeData]["name"].replace(/.+_Magic_/g, "")
@@ -2443,7 +2442,7 @@ function drawTooltip(curNode, forceDraw) {
 			const classText = className[0].toUpperCase() + className.slice(1);
 
 			if (curNode.nodeData.get("nodeType") == "Socket") {
-				const paragonGlyphs = paragonData[classText]["Paragon (Glyph)"];
+				const paragonGlyphs = paragonData[classText]["Glyph"];
 				if (boardIndex in paragonBoardGlyphData) {
 					const glyphIndex = paragonBoardGlyphData[boardIndex];
 					const glyphString = "ParagonGlyph_" + String(glyphIndex).padStart(3, "0");
@@ -2470,13 +2469,8 @@ function drawTooltip(curNode, forceDraw) {
 			}
 
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
-				if (captureString.includes("thresholdRequirements")) {
-					const thresholdRequirements = curNode.nodeData.get("thresholdRequirements");
-					if (typeof thresholdRequirements == "string") {
-						captureString = thresholdRequirements;
-					} else {
-						captureString = thresholdRequirements[classText];
-					}
+				if (captureString.includes("thresholdRequirements") && curNode.nodeData.has("thresholdRequirements")) {
+					captureString = curNode.nodeData.get("thresholdRequirements")[classText].join("; or ");
 				}
 				if (captureString.includes("ParagonBoardEquipIndex")) {
 					let equipIndex = "EquipIndex";
