@@ -867,35 +867,19 @@ function handleSaveButton() {
 	} else {
 		let nodeData = { className: className };
 		if (Object.keys(paragonBoardGridData).length > 0) nodeData.boardData = [paragonBoardGridData];
-		if (Object.keys(paragonBoardRotationData).length > 0) {
-			if ("boardData" in nodeData) {
-				nodeData.boardData[1] = paragonBoardRotationData;
-			} else {
-				nodeData.boardData = [0, paragonBoardRotationData];
-			}
+		if (!("boardData" in nodeData)) nodeData.boardData = [];
+		if (Object.keys(paragonBoardRotationData).length > 0) nodeData.boardData[1] = paragonBoardRotationData;
+		if (Object.keys(paragonBoardEquipIndices).length > 0) nodeData.boardData[2] = paragonBoardEquipIndices;
+		if (Object.keys(paragonBoardGlyphData).length > 0) nodeData.boardData[3] = paragonBoardGlyphData;
+		if (Object.keys(paragonBoardGlyphRankData).length > 0) nodeData.boardData[4] = paragonBoardGlyphRankData;
+		for (let i = 0, n = nodeData.boardData.length; i < n; i++) if (nodeData.boardData[i] == undefined) nodeData.boardData[i] = 0;
+		console.log(nodeData.boardData);
+		if (nodeData.boardData.length == 0) {
+			delete nodeData.boardData;
+		} else {
+			nodeData.boardData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.boardData).replace(/"/g, ""));
 		}
-		if (Object.keys(paragonBoardEquipIndices).length > 0) {
-			if ("boardData" in nodeData) {
-				nodeData.boardData[2] = paragonBoardEquipIndices;
-			} else {
-				nodeData.boardData = [0, 0, paragonBoardEquipIndices];
-			}
-		}
-		if (Object.keys(paragonBoardGlyphData).length > 0) {
-			if ("boardData" in nodeData) {
-				nodeData.boardData[3] = paragonBoardGlyphData;
-			} else {
-				nodeData.boardData = [0, 0, 0, paragonBoardGlyphData];
-			}
-		}
-		if (Object.keys(paragonBoardGlyphRankData).length > 0) {
-			if ("boardData" in nodeData) {
-				nodeData.boardData[4] = paragonBoardGlyphRankData;
-			} else {
-				nodeData.boardData = [0, 0, 0, 0, paragonBoardGlyphRankData];
-			}
-		}
-		if ("boardData" in nodeData) nodeData.boardData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.boardData).replace(/"/g, ""));
+		console.log(nodeData);
 		pixiNodes.forEach(curNode => {
 			if (curNode.groupName != undefined) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
@@ -942,7 +926,7 @@ function handleReloadButton() {
 					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
 					.replace(/:([\w]+)(,|})/g, ':"$1"$2'));
 				for (const [boardIndex, gridLocation] of Object.entries(paragonBoardGridData)) moveParagonBoard(Number(boardIndex), 0);
-				for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), Number(gridLocation));
+				for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), gridLocation);
 				for (const [boardIndex, rotationAngle] of Object.entries(paragonBoardRotationData)) rotateParagonBoard(Number(boardIndex), 0);
 				if (nodeData.boardData.length > 1) {
 					for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), Number(rotationAngle));
@@ -1097,6 +1081,7 @@ function moveParagonBoard(boardIndex, forcedGridLocation = null) {
 		gridLocation = String(forcedGridLocation).toUpperCase();
 	}
 
+	if (!isNaN(gridLocation)) gridLocation = Number(gridLocation);
 	if (gridLocation == paragonBoardGridData[boardIndex]) return;
 
 	let gridPosition = new PIXI.Point(0, 0);
