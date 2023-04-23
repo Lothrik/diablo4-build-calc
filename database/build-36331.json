@@ -29777,7 +29777,7 @@
 				"desc": "Killing an enemy has a 10% chance to form a Crackling Energy."
 			},
 			"Sorcerer_Enchantment_Teleport": {
-				"desc": "Evade is replaced with Teleport on a {17/17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88} second cooldown."
+				"desc": "Evade is replaced with Teleport on a {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} second cooldown."
 			},
 			"Sorcerer_Enchantment_Teleport_Active": {
 				"desc": "Teleport description here - since this is a skill that replaces your Evade button, you should never see this.",

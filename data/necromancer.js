@@ -749,7 +749,7 @@ Tags: Damage, Curse.`,
 	"Decrepify": {
 		connections: [ "Enhanced Decrepify", "Corruption" ],
 		description: `Essence Cost: {#}
-Curse the target area. Enemies afflicted by Decrepify are Slowed by {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% and deal {20/20/20.9/22/23.1/24.3/25.4/26.6/28/29.4}% less damage for 10 seconds.
+Curse the target area. Enemies afflicted by Decrepify are Slowed by {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% and deal {20/20.9/22/23.1/24.3/25.4/26.6/28/29.4/31.1}% less damage for 10 seconds.
 
 Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 		id: 61,

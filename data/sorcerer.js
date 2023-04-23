@@ -628,7 +628,7 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.
 Lucky Hit: Your Conjuration Skills have a 30% chance to unleash a Frost Nova when hitting enemies.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "{15/15/14.25/13.5/12.75/12/11.4/10.8/10.2/9.6}" ],
+		values: [ "{15/14.25/13.5/12.75/12/11.4/10.8/10.2/9.6/9}" ],
 		x: 7.87,
 		y: 296.675
 	},
@@ -722,10 +722,10 @@ Transform into lightning, becoming Unstoppable and surging to the target locatio
 Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.
 
 — Enchantment Effect —
-Evade is replaced with a short range Teleport on a {17/17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88} second Cooldown.`,
+Evade is replaced with a short range Teleport on a {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} second Cooldown.`,
 		id: 55,
 		maxPoints: 5,
-		values: [ "{11/11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04}", "40" ],
+		values: [ "{11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}", "40" ],
 		x: 422.375,
 		y: -202.015
 	},

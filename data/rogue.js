@@ -829,7 +829,7 @@ Using an attack Skill during Concealment will break Concealment.
 Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 		id: 127,
 		maxPoints: 5,
-		values: [ "{20/20/19/18/17/16/15.2/14.4/13.6/12.8}" ],
+		values: [ "{20/19/18/17/16/15.2/14.4/13.6/12.8/12}" ],
 		x: -390.71,
 		y: -209.637
 	},
