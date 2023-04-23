@@ -865,21 +865,21 @@ function handleSaveButton() {
 	if (className == "none") {
 		window.location.replace(window.location.href.split(/[#?&]/)[0]);
 	} else {
-		let nodeData = { className: className };
-		if (Object.keys(paragonBoardGridData).length > 0) nodeData.boardData = [paragonBoardGridData];
-		if (!("boardData" in nodeData)) nodeData.boardData = [];
+		let nodeData = { className: className, boardData: [] };
+		if (Object.keys(paragonBoardGridData).length > 0) nodeData.boardData[0] = paragonBoardGridData;
 		if (Object.keys(paragonBoardRotationData).length > 0) nodeData.boardData[1] = paragonBoardRotationData;
 		if (Object.keys(paragonBoardEquipIndices).length > 0) nodeData.boardData[2] = paragonBoardEquipIndices;
 		if (Object.keys(paragonBoardGlyphData).length > 0) nodeData.boardData[3] = paragonBoardGlyphData;
 		if (Object.keys(paragonBoardGlyphRankData).length > 0) nodeData.boardData[4] = paragonBoardGlyphRankData;
+
 		for (let i = 0, n = nodeData.boardData.length; i < n; i++) if (nodeData.boardData[i] == undefined) nodeData.boardData[i] = 0;
-		console.log(nodeData.boardData);
+
 		if (nodeData.boardData.length == 0) {
 			delete nodeData.boardData;
 		} else {
 			nodeData.boardData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.boardData).replace(/"/g, ""));
 		}
-		console.log(nodeData);
+
 		pixiNodes.forEach(curNode => {
 			if (curNode.groupName != undefined) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
