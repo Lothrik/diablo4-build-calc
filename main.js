@@ -925,24 +925,22 @@ function handleReloadButton() {
 				nodeData.boardData = JSON.parse(LZString.decompressFromEncodedURIComponent(nodeData.boardData)
 					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
 					.replace(/:([\w]+)(,|})/g, ':"$1"$2'));
+
 				for (const [boardIndex, gridLocation] of Object.entries(paragonBoardGridData)) moveParagonBoard(Number(boardIndex), 0);
-				for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), gridLocation);
+				if (nodeData.boardData.length > 0) for (const [boardIndex, gridLocation] of Object.entries(nodeData.boardData[0])) moveParagonBoard(Number(boardIndex), gridLocation);
+
 				for (const [boardIndex, rotationAngle] of Object.entries(paragonBoardRotationData)) rotateParagonBoard(Number(boardIndex), 0);
-				if (nodeData.boardData.length > 1) {
-					for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), Number(rotationAngle));
-				}
+				if (nodeData.boardData.length > 1) for (const [boardIndex, rotationAngle] of Object.entries(nodeData.boardData[1])) rotateParagonBoard(Number(boardIndex), Number(rotationAngle));
+
 				for (const [boardIndex, equipIndex] of Object.entries(paragonBoardEquipIndices)) setParagonBoardEquipIndex(Number(boardIndex), 0);
-				if (nodeData.boardData.length > 2) {
-					for (const [boardIndex, equipIndex] of Object.entries(nodeData.boardData[2])) setParagonBoardEquipIndex(Number(boardIndex), Number(equipIndex));
-				}
+				if (nodeData.boardData.length > 2) for (const [boardIndex, equipIndex] of Object.entries(nodeData.boardData[2])) setParagonBoardEquipIndex(Number(boardIndex), Number(equipIndex));
+
 				paragonBoardGlyphData = {};
-				if (nodeData.boardData.length > 3) {
-					for (const [boardIndex, glyphIndex] of Object.entries(nodeData.boardData[3])) paragonBoardGlyphData[Number(boardIndex)] = Number(glyphIndex);
-				}
+				if (nodeData.boardData.length > 3) for (const [boardIndex, glyphIndex] of Object.entries(nodeData.boardData[3])) paragonBoardGlyphData[Number(boardIndex)] = Number(glyphIndex);
+
 				paragonBoardGlyphRankData = {};
-				if (nodeData.boardData.length > 4) {
-					for (const [boardIndex, glyphRank] of Object.entries(nodeData.boardData[4])) paragonBoardGlyphRankData[Number(boardIndex)] = Number(glyphRank);
-				}
+				if (nodeData.boardData.length > 4) for (const [boardIndex, glyphRank] of Object.entries(nodeData.boardData[4])) paragonBoardGlyphRankData[Number(boardIndex)] = Number(glyphRank);
+
 				delete nodeData.boardData;
 			}
 
