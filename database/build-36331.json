@@ -684,7 +684,7 @@
 		"Paragon (Glyph)": {
 			"ParagonGlyph_011": {
 				"bonus": "Healing vials gain 10% increased healing.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2.5% increased damage while Healthy.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2.5/3/3.5/4/4.5/5/5.5/6/6.5/7/7.5/8/8.5/9/9.5/10/10.5/11/11.5/12}% increased damage while Healthy.",
 				"name": "Guzzler",
 				"tags": [
 					"Search_Willpower",
@@ -695,7 +695,7 @@
 			},
 			"ParagonGlyph_014": {
 				"bonus": "You take 12% reduced damage from Close enemies.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"name": "Turf",
 				"tags": [
 					"Search_DEXTERITY"
@@ -704,7 +704,7 @@
 			},
 			"ParagonGlyph_016": {
 				"bonus": "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"name": "Exploit",
 				"tags": [
 					"Search_DEXTERITY",
@@ -714,7 +714,7 @@
 			},
 			"ParagonGlyph_021": {
 				"bonus": "You deal x10% increased damage while dual wielding weapons.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Ambidextrous",
 				"tags": [
 					"Search_Strength"
@@ -723,7 +723,7 @@
 			},
 			"ParagonGlyph_022": {
 				"bonus": "You deal x10% increased damage while wielding 2-handed weapons.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Might",
 				"tags": [
 					"Search_Strength"
@@ -732,7 +732,7 @@
 			},
 			"ParagonGlyph_023": {
 				"bonus": "While wielding an axe, you deal x15% increased critical strike damage.",
-				"desc": "For every 10 Strength purchased within range, you deal +2% increased damage while wielding an axe.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while wielding an axe.",
 				"name": "Cleaver",
 				"tags": [
 					"Search_Strength",
@@ -742,7 +742,7 @@
 			},
 			"ParagonGlyph_024": {
 				"bonus": "While wielding a sword, you gain 3 Fury when you kill an enemy.",
-				"desc": "For every 10 Strength purchased within range, you deal +2% increased damage while wielding a sword.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while wielding a sword.",
 				"name": "Seething",
 				"tags": [
 					"Search_Strength",
@@ -752,7 +752,7 @@
 			},
 			"ParagonGlyph_025": {
 				"bonus": "While wielding a mace, you deal x30% increased Overpower damage.",
-				"desc": "For every 10 Strength purchased within range, you deal +2% increased damage while wielding a mace.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while wielding a mace.",
 				"name": "Crusher",
 				"tags": [
 					"Search_Strength",
@@ -762,7 +762,7 @@
 			},
 			"ParagonGlyph_026": {
 				"bonus": "While wielding a polearm, you deal x13.3% increased damage to Healthy or Injured targets.",
-				"desc": "For every 10 Strength purchased within range, you deal +2% increased damage while wielding a polearm.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while wielding a polearm.",
 				"name": "Executioner",
 				"tags": [
 					"Search_Strength",
@@ -773,7 +773,7 @@
 			},
 			"ParagonGlyph_027": {
 				"bonus": "While Berserking, you take 13.3% reduced damage from Elites.",
-				"desc": "For every 10 Strength purchased within range, you deal +2% increased damage while Berserking.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while Berserking.",
 				"name": "Ire",
 				"tags": [
 					"Search_Strength",
@@ -784,7 +784,7 @@
 			},
 			"ParagonGlyph_028": {
 				"bonus": "After casting a Shout skill, the active cooldown of every other Shout is reduced by 1.5 seconds.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Marshal",
 				"tags": [
 					"Search_Strength",
@@ -795,7 +795,7 @@
 			},
 			"ParagonGlyph_029": {
 				"bonus": "Bleeding effects last 33.3% longer but deal 25% reduced damage.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased damage to bleeding targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to bleeding targets.",
 				"name": "Bloodfeeder",
 				"tags": [
 					"Search_DEXTERITY",
@@ -805,7 +805,7 @@
 			},
 			"ParagonGlyph_030": {
 				"bonus": "Skills that critically strike generate 3 Fury.",
-				"desc": "For every 10 Dexterity purchased within range, Core skills deal +4% increased critical strike damage.",
+				"desc": "For every 10 Dexterity purchased within range, Core skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased critical strike damage.",
 				"name": "Wrath",
 				"tags": [
 					"Skill_Primary_Core",
@@ -818,7 +818,7 @@
 			},
 			"ParagonGlyph_031": {
 				"bonus": "Hitting with a Weapon Mastery skill reduces the active cooldown of another random Weapon Mastery skill by 2 seconds.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"name": "Weapon Master",
 				"tags": [
 					"Search_Physical",
@@ -831,7 +831,7 @@
 			},
 			"ParagonGlyph_032": {
 				"bonus": "Swapping weapons has a 20% chance to cause the skill's damage to critically strike.",
-				"desc": "For every 10 Dexterity purchased within range, skills that swap to a different weapon deal +4% increased damage.",
+				"desc": "For every 10 Dexterity purchased within range, skills that swap to a different weapon deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"name": "Mortal Draw",
 				"tags": [
 					"Search_DEXTERITY",
@@ -841,7 +841,7 @@
 			},
 			"ParagonGlyph_033": {
 				"bonus": "Thorns damage increases all damage the target takes by x1%, up to x10%, for 20 seconds.",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"name": "Revenge",
 				"tags": [
 					"Search_Willpower"
@@ -850,7 +850,7 @@
 			},
 			"ParagonGlyph_034": {
 				"bonus": "You take up to 12% reduced damage the more Fortified you are.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2% increased damage while Fortified.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while Fortified.",
 				"name": "Undaunted",
 				"tags": [
 					"Search_Willpower",
@@ -860,7 +860,7 @@
 			},
 			"ParagonGlyph_035": {
 				"bonus": "When you Overpower a target, all damage they take is increased by x12% for 30 seconds.",
-				"desc": "For every 10 Willpower purchased within range, you deal +6% increased Overpower damage.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8}% increased Overpower damage.",
 				"name": "Dominate",
 				"tags": [
 					"Search_Willpower",
@@ -870,7 +870,7 @@
 			},
 			"ParagonGlyph_036": {
 				"bonus": "Bleeding damage has a 10% chance to deal double damage.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2% increased bleeding damage.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased bleeding damage.",
 				"name": "Disembowel",
 				"tags": [
 					"Search_Willpower",
@@ -880,7 +880,7 @@
 			},
 			"ParagonGlyph_037": {
 				"bonus": "Brawling skills deal x20% increased damage.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"name": "Brawl",
 				"tags": [
 					"Search_Physical",
@@ -6412,7 +6412,7 @@
 		"Paragon (Glyph)": {
 			"ParagonGlyph_011": {
 				"bonus": "Healing vials gain 10% increased healing.",
-				"desc": "For every 10 Intelligence purchased within range, you deal +2.5% increased damage while Healthy.",
+				"desc": "For every 10 Intelligence purchased within range, you deal +{2.5/3/3.5/4/4.5/5/5.5/6/6.5/7/7.5/8/8.5/9/9.5/10/10.5/11/11.5/12}% increased damage while Healthy.",
 				"name": "Guzzler",
 				"tags": [
 					"Search_Intelligence",
@@ -6423,7 +6423,7 @@
 			},
 			"ParagonGlyph_012": {
 				"bonus": "You take 10% reduced damage while you have an active Barrier.",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"name": "Protector",
 				"tags": [
 					"Search_Intelligence",
@@ -6433,7 +6433,7 @@
 			},
 			"ParagonGlyph_013": {
 				"bonus": "While Stationary, you gain a Barrier for 12% of your Maximum Life.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2.666% increased damage while stationary.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage while stationary.",
 				"name": "Poise",
 				"tags": [
 					"Search_DEXTERITY",
@@ -6444,7 +6444,7 @@
 			},
 			"ParagonGlyph_014": {
 				"bonus": "You take 12% reduced damage from Close enemies.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"name": "Turf",
 				"tags": [
 					"Search_DEXTERITY"
@@ -6453,7 +6453,7 @@
 			},
 			"ParagonGlyph_016": {
 				"bonus": "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"name": "Exploit",
 				"tags": [
 					"Search_DEXTERITY",
@@ -6463,7 +6463,7 @@
 			},
 			"ParagonGlyph_034": {
 				"bonus": "You take up to 12% reduced damage the more Fortified you are.",
-				"desc": "For every 10 Intelligence purchased within range, you deal +2% increased damage while Fortified.",
+				"desc": "For every 10 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while Fortified.",
 				"name": "Undaunted",
 				"tags": [
 					"Search_Intelligence",
@@ -6473,7 +6473,7 @@
 			},
 			"ParagonGlyph_035": {
 				"bonus": "When you Overpower a target, all damage they take is increased by x12% for 30 seconds.",
-				"desc": "For every 10 Intelligence purchased within range, you deal +6% increased Overpower damage.",
+				"desc": "For every 10 Intelligence purchased within range, you deal +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8}% increased Overpower damage.",
 				"name": "Dominate",
 				"tags": [
 					"Search_Intelligence",
@@ -6483,7 +6483,7 @@
 			},
 			"ParagonGlyph_039": {
 				"bonus": "While in Werewolf or Werebear form, Close enemies take x12% increased damage.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Fang and Claw",
 				"tags": [
 					"Search_Willpower",
@@ -6494,7 +6494,7 @@
 			},
 			"ParagonGlyph_040": {
 				"bonus": "Nature Magic skills deal x10% increased damage to crowd controlled or Vulnerable targets.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Earth and Sky",
 				"tags": [
 					"Search_Willpower",
@@ -6506,7 +6506,7 @@
 			},
 			"ParagonGlyph_041": {
 				"bonus": "The passive portion of Companion skills deal x80% increased damage.",
-				"desc": "For every 10 Intelligence within range, you gain +5% increased Companion Damage.",
+				"desc": "For every 10 Intelligence within range, you gain +{5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24}% increased Companion Damage.",
 				"name": "Wilds",
 				"tags": [
 					"Skill_Primary_Companion",
@@ -6516,7 +6516,7 @@
 			},
 			"ParagonGlyph_042": {
 				"bonus": "You take 10% reduced damage while in Werebear form.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2% increased damage while in Werebear form.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while in Werebear form.",
 				"name": "Werebear",
 				"tags": [
 					"Search_Willpower",
@@ -6526,7 +6526,7 @@
 			},
 			"ParagonGlyph_043": {
 				"bonus": "You take 10% reduced damage while in Werewolf form.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2% increased damage while in Werewolf form.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while in Werewolf form.",
 				"name": "Werewolf",
 				"tags": [
 					"Search_Willpower",
@@ -6536,7 +6536,7 @@
 			},
 			"ParagonGlyph_044": {
 				"bonus": "You take 10% reduced damage while in Human form.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2% increased damage while in Human form.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while in Human form.",
 				"name": "Human",
 				"tags": [
 					"Search_Willpower"
@@ -6545,7 +6545,7 @@
 			},
 			"ParagonGlyph_045": {
 				"bonus": "Poison damage over time effects have a 10% chance to deal double the amount of damage over their duration.",
-				"desc": "For every 10 Intelligence purchased within range, you deal +2% increased poison damage.",
+				"desc": "For every 10 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased poison damage.",
 				"name": "Bane",
 				"tags": [
 					"Search_Intelligence",
@@ -6555,7 +6555,7 @@
 			},
 			"ParagonGlyph_046": {
 				"bonus": "You and your minions deal x10% increased Non-physical damage.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Non-physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Non-physical damage and damage reduction modifiers.",
 				"name": "Elementalist",
 				"tags": [
 					"Search_NonPhysical",
@@ -6567,7 +6567,7 @@
 			},
 			"ParagonGlyph_047": {
 				"bonus": "You deal x12% increased Lightning damage to both Healthy and Injured targets.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased Lightning damage.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Lightning damage.",
 				"name": "Fulminate",
 				"tags": [
 					"Search_DEXTERITY",
@@ -6579,7 +6579,7 @@
 			},
 			"ParagonGlyph_048": {
 				"bonus": "Poison damage over time effects last 33.3% longer.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased damage to poisoned targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to poisoned targets.",
 				"name": "Tracker",
 				"tags": [
 					"Search_DEXTERITY",
@@ -6589,7 +6589,7 @@
 			},
 			"ParagonGlyph_049": {
 				"bonus": "You deal x16% increased Physical damage to Non-Elites and bosses.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"name": "Outmatch",
 				"tags": [
 					"Search_Physical",
@@ -6600,7 +6600,7 @@
 			},
 			"ParagonGlyph_050": {
 				"bonus": "Critical strikes increase all the damage the target takes by x2% for 20, up to x12%.",
-				"desc": "For every 10 Dexterity purchased within range, Core skills deal +4% increased critical strike damage.",
+				"desc": "For every 10 Dexterity purchased within range, Core skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased critical strike damage.",
 				"name": "Spirit",
 				"tags": [
 					"Skill_Primary_Core",
@@ -6612,7 +6612,7 @@
 			},
 			"ParagonGlyph_051": {
 				"bonus": "Shapeshifting has a 20% chance to cause the skill's damage to critically strike.",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"name": "Shapeshifter",
 				"tags": [
 					"Search_DEXTERITY",
@@ -19557,7 +19557,7 @@
 		"Paragon (Glyph)": {
 			"ParagonGlyph_011": {
 				"bonus": "Healing vials gain 10% increased healing.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2.5% increased damage while Healthy.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2.5/3/3.5/4/4.5/5/5.5/6/6.5/7/7.5/8/8.5/9/9.5/10/10.5/11/11.5/12}% increased damage while Healthy.",
 				"name": "Guzzler",
 				"tags": [
 					"Search_Willpower",
@@ -19568,7 +19568,7 @@
 			},
 			"ParagonGlyph_013": {
 				"bonus": "While Stationary, you gain a Barrier for 12% of your Maximum Life.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2.666% increased damage while stationary.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage while stationary.",
 				"name": "Poise",
 				"tags": [
 					"Search_Willpower",
@@ -19579,7 +19579,7 @@
 			},
 			"ParagonGlyph_014": {
 				"bonus": "You take 12% reduced damage from Close enemies.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"name": "Turf",
 				"tags": [
 					"Search_DEXTERITY"
@@ -19588,7 +19588,7 @@
 			},
 			"ParagonGlyph_016": {
 				"bonus": "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"name": "Exploit",
 				"tags": [
 					"Search_DEXTERITY",
@@ -19598,7 +19598,7 @@
 			},
 			"ParagonGlyph_020": {
 				"bonus": "You deal x15% increased damage to slowed or Chilled targets or, instead, x25% increased damage to stunned or Frozen targets.",
-				"desc": "For every 10 Intelligence purchased within range, you gain +3% increased damage to crowd controlled targets.",
+				"desc": "For every 10 Intelligence purchased within range, you gain +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to crowd controlled targets.",
 				"name": "Control",
 				"tags": [
 					"Search_Intelligence",
@@ -19610,7 +19610,7 @@
 			},
 			"ParagonGlyph_033": {
 				"bonus": "Thorns damage increases all damage the target takes by x1%, up to x10%, for 20 seconds.",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"name": "Revenge",
 				"tags": [
 					"Search_Willpower"
@@ -19619,7 +19619,7 @@
 			},
 			"ParagonGlyph_034": {
 				"bonus": "You take up to 12% reduced damage the more Fortified you are.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2% increased damage while Fortified.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while Fortified.",
 				"name": "Undaunted",
 				"tags": [
 					"Search_Willpower",
@@ -19629,7 +19629,7 @@
 			},
 			"ParagonGlyph_035": {
 				"bonus": "When you Overpower a target, all damage they take is increased by x12% for 30 seconds.",
-				"desc": "For every 10 Willpower purchased within range, you deal +6% increased Overpower damage.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8}% increased Overpower damage.",
 				"name": "Dominate",
 				"tags": [
 					"Search_Willpower",
@@ -19639,7 +19639,7 @@
 			},
 			"ParagonGlyph_038": {
 				"bonus": "You and your minions deal x10% increased Physical damage.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"name": "Corporeal",
 				"tags": [
 					"Search_Physical",
@@ -19651,7 +19651,7 @@
 			},
 			"ParagonGlyph_046": {
 				"bonus": "You and your minions deal x10% increased Non-physical damage.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Non-physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Non-physical damage and damage reduction modifiers.",
 				"name": "Abyssal",
 				"tags": [
 					"Search_NonPhysical",
@@ -19663,7 +19663,7 @@
 			},
 			"ParagonGlyph_060": {
 				"bonus": "Skeletal Warriors deal x30% increased damage.",
-				"desc": "For every 10 Dexterity purchased within range, Skeletal Warriors gain 3.337% increased armor.",
+				"desc": "For every 10 Dexterity purchased within range, Skeletal Warriors gain {3.337/4.004/4.672/5.339/6.007/6.674/7.341/8.009/8.676/9.344/10.011/10.678/11.346/12.013/12.681/13.348/14.015/14.683/15.35/16.018}% increased armor.",
 				"name": "Warrior",
 				"tags": [
 					"Search_DEXTERITY",
@@ -19674,7 +19674,7 @@
 			},
 			"ParagonGlyph_062": {
 				"bonus": "You deal x2% increased damage, up to x12%, for every Close corpse.",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"name": "Gravekeeper",
 				"tags": [
 					"Search_DEXTERITY"
@@ -19683,7 +19683,7 @@
 			},
 			"ParagonGlyph_066": {
 				"bonus": "Critical strikes deal x22% increased damage to targets that are not Healthy.",
-				"desc": "For every 10 Dexterity purchased within range, Core skills deal +4% increased critical strike damage.",
+				"desc": "For every 10 Dexterity purchased within range, Core skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased critical strike damage.",
 				"name": "Essence",
 				"tags": [
 					"Skill_Primary_Core",
@@ -19696,7 +19696,7 @@
 			},
 			"ParagonGlyph_069": {
 				"bonus": "You deal x10% increased damage while you have no active minions.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Sacrificial",
 				"tags": [
 					"Search_Intelligence"
@@ -19705,7 +19705,7 @@
 			},
 			"ParagonGlyph_070": {
 				"bonus": "Blood Orbs Fortify you for 6.7% of your Maximum Life.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Blood-drinker",
 				"tags": [
 					"Search_Intelligence",
@@ -19716,7 +19716,7 @@
 			},
 			"ParagonGlyph_071": {
 				"bonus": "Whenever your minions deal damage to a target, that target takes x1% increased damage, up to x12%, for 20 seconds.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Minion Modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Minion Modifiers.",
 				"name": "Deadraiser",
 				"tags": [
 					"Search_Minion",
@@ -19726,7 +19726,7 @@
 			},
 			"ParagonGlyph_072": {
 				"bonus": "Skeletal Mages deal x30% increased damage.",
-				"desc": "For every 10 Intelligence purchased within range, Skeleton Mages gain 3% increased resistance to all elements.",
+				"desc": "For every 10 Intelligence purchased within range, Skeleton Mages gain {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased resistance to all elements.",
 				"name": "Mage",
 				"tags": [
 					"Search_Intelligence",
@@ -19738,7 +19738,7 @@
 			},
 			"ParagonGlyph_073": {
 				"bonus": "Targets affected by Curse skills take x10% increased damage.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Amplify",
 				"tags": [
 					"Search_Intelligence",
@@ -19748,7 +19748,7 @@
 			},
 			"ParagonGlyph_074": {
 				"bonus": "Golems deal x30% increased damage.",
-				"desc": "For every 10 Willpower purchased within range, Golems gain +8% increased maximum Life.",
+				"desc": "For every 10 Willpower purchased within range, Golems gain +{8/9.6/11.2/12.8/14.4/16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4/32/33.6/35.2/36.8/38.4}% increased maximum Life.",
 				"name": "Golems",
 				"tags": [
 					"Search_Willpower",
@@ -19759,7 +19759,7 @@
 			},
 			"ParagonGlyph_075": {
 				"bonus": "Shadow damage over time effects have a 10% chance to deal double damage.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2% increased shadow damage over time.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased shadow damage over time.",
 				"name": "Scourge",
 				"tags": [
 					"Search_Willpower",
@@ -25079,7 +25079,7 @@
 		"Paragon (Glyph)": {
 			"ParagonGlyph_014": {
 				"bonus": "You take 12% reduced damage from Close enemies.",
-				"desc": "For every 10 Strength purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"name": "Turf",
 				"tags": [
 					"Search_Strength"
@@ -25088,7 +25088,7 @@
 			},
 			"ParagonGlyph_016": {
 				"bonus": "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy.",
-				"desc": "For every 10 Strength purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"name": "Exploit",
 				"tags": [
 					"Search_Strength",
@@ -25098,7 +25098,7 @@
 			},
 			"ParagonGlyph_020": {
 				"bonus": "You deal x15% increased damage to slowed or Chilled targets or, instead, x25% increased damage to stunned or Frozen targets.",
-				"desc": "For every 10 Intelligence purchased within range, you gain +3% increased damage to crowd controlled targets.",
+				"desc": "For every 10 Intelligence purchased within range, you gain +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to crowd controlled targets.",
 				"name": "Control",
 				"tags": [
 					"Search_Intelligence",
@@ -25110,7 +25110,7 @@
 			},
 			"ParagonGlyph_045": {
 				"bonus": "Poison damage over time effects have a 10% chance to deal double the amount of damage over their duration.",
-				"desc": "For every 10 Strength purchased within range, you deal +2% increased poison damage.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased poison damage.",
 				"name": "Bane",
 				"tags": [
 					"Search_Strength",
@@ -25120,7 +25120,7 @@
 			},
 			"ParagonGlyph_048": {
 				"bonus": "Poison damage over time effects last 33.3% longer.",
-				"desc": "For every 10 Intelligence purchased within range, you deal +2% increased damage to poisoned targets.",
+				"desc": "For every 10 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to poisoned targets.",
 				"name": "Tracker",
 				"tags": [
 					"Search_Intelligence",
@@ -25130,7 +25130,7 @@
 			},
 			"ParagonGlyph_052": {
 				"bonus": "Non-Basic and Non-Core skills deal x15% increased damage.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Versatility",
 				"tags": [
 					"Search_DEXTERITY"
@@ -25139,7 +25139,7 @@
 			},
 			"ParagonGlyph_053": {
 				"bonus": "While wielding a melee weapon, you take 10% reduced damage.",
-				"desc": "For every 10 Dexterity purchased within range, Melee skills deal +2% increased damage.",
+				"desc": "For every 10 Dexterity purchased within range, Melee skills deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage.",
 				"name": "Closer",
 				"tags": [
 					"Skill_Melee",
@@ -25149,7 +25149,7 @@
 			},
 			"ParagonGlyph_054": {
 				"bonus": "While wielding a ranged weapon, you take 10% reduced damage.",
-				"desc": "For every 10 Dexterity purchased within range, Ranged skills deal +2% increased damage.",
+				"desc": "For every 10 Dexterity purchased within range, Ranged skills deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage.",
 				"name": "Ranger",
 				"tags": [
 					"Skill_Ranged",
@@ -25159,7 +25159,7 @@
 			},
 			"ParagonGlyph_055": {
 				"bonus": "Physical damage increases all the damage the target takes by x1%, up to x10%, for 15 seconds.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased physical damage.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased physical damage.",
 				"name": "Chip",
 				"tags": [
 					"Search_DEXTERITY",
@@ -25169,7 +25169,7 @@
 			},
 			"ParagonGlyph_056": {
 				"bonus": "Chill effects have 20% increased potency.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +3% increased damage to Chilled targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to Chilled targets.",
 				"name": "Frostfeeder",
 				"tags": [
 					"Search_DEXTERITY",
@@ -25179,7 +25179,7 @@
 			},
 			"ParagonGlyph_057": {
 				"bonus": "When you cast an Agility skill, you gain 9% increased Energy regeneration for 6 seconds.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Fluidity",
 				"tags": [
 					"Search_DEXTERITY",
@@ -25190,7 +25190,7 @@
 			},
 			"ParagonGlyph_058": {
 				"bonus": "Casting an Imbuement skill reduces the active cooldown of another random Imbuement skill by 0.5 seconds.",
-				"desc": "For every 10 Intelligence purchased within range, skills that are Imbued deal +3% increased damage.",
+				"desc": "For every 10 Intelligence purchased within range, skills that are Imbued deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage.",
 				"name": "Infusion",
 				"tags": [
 					"Search_Intelligence",
@@ -25201,7 +25201,7 @@
 			},
 			"ParagonGlyph_059": {
 				"bonus": "When you hit a target with a Crowd Controlling effect, all the damage they take is increased by x2%, up to x10%, for 20 seconds.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Devious",
 				"tags": [
 					"Search_DEXTERITY",
@@ -25211,7 +25211,7 @@
 			},
 			"ParagonGlyph_061": {
 				"bonus": "Skills that critically strike restore 12% of their Energy cost.",
-				"desc": "For every 10 Intelligence purchased within range, Core skills deal +4% increased critical strike damage.",
+				"desc": "For every 10 Intelligence purchased within range, Core skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased critical strike damage.",
 				"name": "Combat",
 				"tags": [
 					"Skill_Primary_Core",
@@ -25224,7 +25224,7 @@
 			},
 			"ParagonGlyph_063": {
 				"bonus": "Non-physical damage increases all the non-physical damage the target takes by x1%, up to x10%, for 15 seconds.",
-				"desc": "For every 10 Intelligence purchased within range, you deal +2% increased non-physical damage.",
+				"desc": "For every 10 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased non-physical damage.",
 				"name": "Canny",
 				"tags": [
 					"Search_Intelligence",
@@ -25234,7 +25234,7 @@
 			},
 			"ParagonGlyph_064": {
 				"bonus": "Imbuement Skill effects have x20% increased potency.",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"name": "Efficacy",
 				"tags": [
 					"Search_Intelligence",
@@ -25244,7 +25244,7 @@
 			},
 			"ParagonGlyph_065": {
 				"bonus": "Non-Ultimate Trap skills have x25% increased area.",
-				"desc": "For every 10 Intelligence purchased within range, Trap skills deal +2.666% increased damage.",
+				"desc": "For every 10 Intelligence purchased within range, Trap skills deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage.",
 				"name": "Snare",
 				"tags": [
 					"Skill_Trap",
@@ -25254,7 +25254,7 @@
 			},
 			"ParagonGlyph_067": {
 				"bonus": "You deal x13% increased Physical damage to both Healthy and Injured targets.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"name": "Pride",
 				"tags": [
 					"Search_Physical",
@@ -25267,7 +25267,7 @@
 			},
 			"ParagonGlyph_068": {
 				"bonus": "Targets affected by Trap skills take x10% increased damage.",
-				"desc": "For every 10 Strength purchased within range, you deal +2% increased damage to targets affected by Trap skills.",
+				"desc": "For every 10 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to targets affected by Trap skills.",
 				"name": "Ambush",
 				"tags": [
 					"Skill_Trap",
@@ -25277,7 +25277,7 @@
 			},
 			"ParagonGlyph_076": {
 				"bonus": "You take 10% reduced Physical damage from Vulnerable enemies.",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"name": "Diminish",
 				"tags": [
 					"Search_Strength",
@@ -30420,7 +30420,7 @@
 		"Paragon (Glyph)": {
 			"ParagonGlyph_001": {
 				"bonus": "Skills you do not directly cast deal x13.3% increased damage.",
-				"desc": "For every 10 Intelligence purchased within range, you deal +2% increased non-physical damage.",
+				"desc": "For every 10 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased non-physical damage.",
 				"name": "Enchant",
 				"tags": [
 					"Search_Intelligence",
@@ -30430,7 +30430,7 @@
 			},
 			"ParagonGlyph_002": {
 				"bonus": "After spending 50 Mana, you deal x6.7% increased damage and gain 6.7% increased Mana regeneration for 3 seconds.",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"name": "Release",
 				"tags": [
 					"Search_Intelligence",
@@ -30440,7 +30440,7 @@
 			},
 			"ParagonGlyph_003": {
 				"bonus": "Fire, Cold, and Lightning damage individually increase all of the target's damage taken by x5% for 20 seconds.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Non-physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Non-physical damage and damage reduction modifiers.",
 				"name": "Elements",
 				"tags": [
 					"Search_NonPhysical",
@@ -30454,7 +30454,7 @@
 			},
 			"ParagonGlyph_004": {
 				"bonus": "Mastery skills have 20% increased area.",
-				"desc": "For every 10 Intelligence within range, your Mastery skills gain +3% increased damage.",
+				"desc": "For every 10 Intelligence within range, your Mastery skills gain +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage.",
 				"name": "Master",
 				"tags": [
 					"Skill_Primary_Mastery",
@@ -30464,7 +30464,7 @@
 			},
 			"ParagonGlyph_005": {
 				"bonus": "Conjuration skills have 20% increased duration.",
-				"desc": "For every 10 Intelligence within range, your Conjuration skills gain +4% increased damage.",
+				"desc": "For every 10 Intelligence within range, your Conjuration skills gain +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"name": "Conjurer",
 				"tags": [
 					"Skill_Primary_Conjuration",
@@ -30474,7 +30474,7 @@
 			},
 			"ParagonGlyph_006": {
 				"bonus": "Picking up Crackling Energy grants you x10% increased damage for 3 seconds.",
-				"desc": "For every 10 Intelligence purchased within range, Crackling Energy deals +4% increased damage.",
+				"desc": "For every 10 Intelligence purchased within range, Crackling Energy deals +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"name": "Static",
 				"tags": [
 					"Search_Intelligence",
@@ -30484,7 +30484,7 @@
 			},
 			"ParagonGlyph_007": {
 				"bonus": "Burning damage has a 10% chance to deal double damage.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2% increased burning damage.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased burning damage.",
 				"name": "Cremator",
 				"tags": [
 					"Search_Willpower",
@@ -30494,7 +30494,7 @@
 			},
 			"ParagonGlyph_008": {
 				"bonus": "Every Pyromancy skill you cast or every second you channel Incinerate increases your Fire damage by x2%, up to x10%, for 6 seconds.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Fire damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Fire damage and damage reduction modifiers.",
 				"name": "Pyromaniac",
 				"tags": [
 					"Search_Fire",
@@ -30506,7 +30506,7 @@
 			},
 			"ParagonGlyph_009": {
 				"bonus": "Non-player enemies that hit you are Chilled for 5%.",
-				"desc": "For every 10 Willpower purchased within range, you deal +3% increased damage to Chilled targets.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to Chilled targets.",
 				"name": "Glacier",
 				"tags": [
 					"Search_Willpower",
@@ -30516,7 +30516,7 @@
 			},
 			"ParagonGlyph_010": {
 				"bonus": "You gain 10% resistance to all elements.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Non-physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Non-physical damage and damage reduction modifiers.",
 				"name": "Ward",
 				"tags": [
 					"Search_NonPhysical",
@@ -30527,7 +30527,7 @@
 			},
 			"ParagonGlyph_011": {
 				"bonus": "Healing vials gain 10% increased healing.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2.5% increased damage while Healthy.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2.5/3/3.5/4/4.5/5/5.5/6/6.5/7/7.5/8/8.5/9/9.5/10/10.5/11/11.5/12}% increased damage while Healthy.",
 				"name": "Guzzler",
 				"tags": [
 					"Search_Willpower",
@@ -30538,7 +30538,7 @@
 			},
 			"ParagonGlyph_012": {
 				"bonus": "You take 10% reduced damage while you have an active Barrier.",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"name": "Protector",
 				"tags": [
 					"Search_Willpower",
@@ -30548,7 +30548,7 @@
 			},
 			"ParagonGlyph_013": {
 				"bonus": "While Stationary, you gain a Barrier for 12% of your Maximum Life.",
-				"desc": "For every 10 Willpower purchased within range, you deal +2.666% increased damage while stationary.",
+				"desc": "For every 10 Willpower purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage while stationary.",
 				"name": "Poise",
 				"tags": [
 					"Search_Willpower",
@@ -30559,7 +30559,7 @@
 			},
 			"ParagonGlyph_014": {
 				"bonus": "You take 12% reduced damage from Close enemies.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"name": "Turf",
 				"tags": [
 					"Search_DEXTERITY"
@@ -30568,7 +30568,7 @@
 			},
 			"ParagonGlyph_015": {
 				"bonus": "Burning effects last 33.3% longer but deal 25% reduced damage.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased damage to burning targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to burning targets.",
 				"name": "Flamefeeder",
 				"tags": [
 					"Search_DEXTERITY",
@@ -30578,7 +30578,7 @@
 			},
 			"ParagonGlyph_016": {
 				"bonus": "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy.",
-				"desc": "For every 10 Dexterity purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 10 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"name": "Exploit",
 				"tags": [
 					"Search_DEXTERITY",
@@ -30588,7 +30588,7 @@
 			},
 			"ParagonGlyph_017": {
 				"bonus": "You deal up to x20% increased Cold damage to targets the more Chilled they are.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Cold damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Cold damage and damage reduction modifiers.",
 				"name": "Frigid",
 				"tags": [
 					"Search_Cold",
@@ -30600,7 +30600,7 @@
 			},
 			"ParagonGlyph_018": {
 				"bonus": "Targets struck with Lightning damage take x1% increased damage, up to x10%.",
-				"desc": "Paragon nodes within range gain +40% bonus to their Lightning damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Lightning damage and damage reduction modifiers.",
 				"name": "Dynamo",
 				"tags": [
 					"Search_Lightning",
@@ -30611,7 +30611,7 @@
 			},
 			"ParagonGlyph_019": {
 				"bonus": "Critical strikes increase all damage the target takes by x2%, up to x12%.",
-				"desc": "For every 10 Dexterity purchased within range, Core skills deal +4% increased critical strike damage.",
+				"desc": "For every 10 Dexterity purchased within range, Core skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased critical strike damage.",
 				"name": "Destruction",
 				"tags": [
 					"Skill_Primary_Core",
@@ -30623,7 +30623,7 @@
 			},
 			"ParagonGlyph_020": {
 				"bonus": "You deal x15% increased damage to slowed or Chilled targets or, instead, x25% increased damage to stunned or Frozen targets.",
-				"desc": "For every 10 Dexterity purchased within range, you gain +3% increased damage to crowd controlled targets.",
+				"desc": "For every 10 Dexterity purchased within range, you gain +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to crowd controlled targets.",
 				"name": "Control",
 				"tags": [
 					"Search_DEXTERITY",

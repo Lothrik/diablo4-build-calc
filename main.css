@@ -200,13 +200,38 @@ h1, h2, h3 {
 	margin: 10px 0;
 }
 
-#modalDiv3 {
-	font-size: 24px;
+#modalSlider {
+	position: relative;
+	top: -5px;
+	width: 330px;
+	height: 5px;
+	cursor: default;
+	padding: 0;
+	border-radius: 2.5px;
+	background: rgba(255, 255, 255, 0.15);
+	appearance: none;
 }
 
-#modalDiv4 * {
+#modalDiv3, #modalDiv4, #modalDiv5 {
+	font-size: 20px;
+}
+
+#modalDiv5 {
+	margin-top: 10px;
+}
+
+#modalDiv6 * {
 	font-size: 20px;
 	height: 26px;
+}
+
+#modalSlider::-webkit-slider-thumb {
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: #fff;
+	appearance: none;
 }
 
 #classSelectBox span:hover {

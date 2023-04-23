@@ -631,7 +631,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
 	}
 }
-const localVersion = "0.8.1.39858-23";
+const localVersion = "0.8.1.39858-24";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -888,6 +888,13 @@ function handleSaveButton() {
 				nodeData.boardData = [0, 0, 0, paragonBoardGlyphData];
 			}
 		}
+		if (Object.keys(paragonBoardGlyphRankData).length > 0) {
+			if ("boardData" in nodeData) {
+				nodeData.boardData[4] = paragonBoardGlyphRankData;
+			} else {
+				nodeData.boardData = [0, 0, 0, 0, paragonBoardGlyphRankData];
+			}
+		}
 		if ("boardData" in nodeData) nodeData.boardData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.boardData).replace(/"/g, ""));
 		pixiNodes.forEach(curNode => {
 			if (curNode.groupName != undefined) {
@@ -944,8 +951,13 @@ function handleReloadButton() {
 				if (nodeData.boardData.length > 2) {
 					for (const [boardIndex, equipIndex] of Object.entries(nodeData.boardData[2])) setParagonBoardEquipIndex(Number(boardIndex), Number(equipIndex));
 				}
+				paragonBoardGlyphData = {};
 				if (nodeData.boardData.length > 3) {
 					for (const [boardIndex, glyphIndex] of Object.entries(nodeData.boardData[3])) paragonBoardGlyphData[Number(boardIndex)] = Number(glyphIndex);
+				}
+				paragonBoardGlyphRankData = {};
+				if (nodeData.boardData.length > 4) {
+					for (const [boardIndex, glyphRank] of Object.entries(nodeData.boardData[4])) paragonBoardGlyphRankData[Number(boardIndex)] = Number(glyphRank);
 				}
 				delete nodeData.boardData;
 			}
@@ -1146,6 +1158,7 @@ function setParagonBoardEquipIndex(boardIndex, forcedEquipIndex = null) {
 	}
 }
 let paragonBoardGlyphData = {};
+let paragonBoardGlyphRankData = {};
 function equipParagonBoardGlyph(boardIndex) {
 	const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == boardIndex);
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
@@ -1184,8 +1197,10 @@ function equipParagonBoardGlyph(boardIndex) {
 	$("#fadeOverlay").removeClass("disabled");
 	$("#modalBox").html(`<div id="modalDiv1">${GLYPH_SELECT_PROMPT_PREFIX}[${boardHeader.nodeName}]:</div>`
 		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions}</select></div>`
-		+ `<div id="modalDiv3">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
-		+ `<div id="modalDiv4"><button id="modalConfirm" type="button">Confirm</button> `
+		+ `<div id="modalDiv3"><input type="range" min="1" max="20" value="1" id="modalSlider"></div>`
+		+ `<div id="modalDiv4"></div>`
+		+ `<div id="modalDiv5">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
+		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
 		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
 
 	$("#modalSelect").select2({
@@ -1196,8 +1211,49 @@ function equipParagonBoardGlyph(boardIndex) {
 	})
 	applyZoomLevel(); // hacky workaround for select2 transform bug
 
+	function updateGlyphDescText() {
+		const glyphIndex = Number($("#modalSelect").val());
+		const glyphString = "ParagonGlyph_" + String(glyphIndex).padStart(3, "0");
+		const glyphRank = Number($("#modalSlider").val());
+		let glyphData = null;
+		if (classText == "Barbarian" && glyphString + "_Barb" in paragonGlyphs) {
+			glyphData = paragonGlyphs[glyphString + "_Barb"];
+		} else if (classText == "Druid" && glyphString + "_Druid" in paragonGlyphs) {
+			glyphData = paragonGlyphs[glyphString + "_Druid"];
+		} else if (classText == "Necromancer" && glyphString + "_Necro" in paragonGlyphs) {
+			glyphData = paragonGlyphs[glyphString + "_Necro"];
+		} else if (classText == "Rogue" && glyphString + "_Rogue" in paragonGlyphs) {
+			glyphData = paragonGlyphs[glyphString + "_Rogue"];
+		} else if (classText == "Sorcerer" && glyphString + "_Sorc" in paragonGlyphs) {
+			glyphData = paragonGlyphs[glyphString + "_Sorc"];
+		} else {
+			glyphData = paragonGlyphs[glyphString];
+		}
+		const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchString, captureString) => {
+			const outputString = captureString.split("/");
+			return outputString[glyphRank > 0 ? Math.min(glyphRank, outputString.length) - 1 : 0];
+		});
+		$("#modalDiv4").text(`Rank ${glyphRank}: ${glyphDesc}`);
+	}
+
+	$("#modalSelect").on("change", updateGlyphDescText);
+	$("#modalSlider").on("change", updateGlyphDescText);
+
+	// don't need to bother with `$("#modalSelect").val(paragonBoardGlyphData[boardIndex]);`
+	// as it's currently impossible to open this modal without first deallocating your glyph
+	updateGlyphDescText();
+
 	$("#modalConfirm").on("click", () => {
-		paragonBoardGlyphData[boardIndex] = Number($("#modalSelect").val());
+		const glyphIndex = Number($("#modalSelect").val());
+		paragonBoardGlyphData[boardIndex] = glyphIndex;
+
+		const glyphRank = Number($("#modalSlider").val());
+		if (glyphRank > 1) {
+			paragonBoardGlyphRankData[boardIndex] = glyphRank;
+		} else {
+			delete paragonBoardGlyphRankData[boardIndex];
+		}
+
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true); // force tooltip redraw, mostly for mobile
 	});
@@ -1471,6 +1527,7 @@ function handleMinusButton(curNode) {
 				if (curNode.nodeData.get("nodeType") == "Socket") {
 					const boardIndex = curNode.nodeData.get("_boardIndex");
 					delete paragonBoardGlyphData[boardIndex];
+					delete paragonBoardGlyphRankData[boardIndex];
 					curNode.nodeData.delete("nameOverride");
 					drawTooltip(curNode, true);
 				}
@@ -2446,6 +2503,7 @@ function drawTooltip(curNode, forceDraw) {
 				if (boardIndex in paragonBoardGlyphData) {
 					const glyphIndex = paragonBoardGlyphData[boardIndex];
 					const glyphString = "ParagonGlyph_" + String(glyphIndex).padStart(3, "0");
+					const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
 					let glyphData = null;
 					if (classText == "Barbarian" && glyphString + "_Barb" in paragonGlyphs) {
 						glyphData = paragonGlyphs[glyphString + "_Barb"];
@@ -2460,9 +2518,13 @@ function drawTooltip(curNode, forceDraw) {
 					} else {
 						glyphData = paragonGlyphs[glyphString];
 					}
-					curNode.nodeData.set("nameOverride", curNode.nodeName + " [" + glyphData["name"] + "]");
+					curNode.nodeData.set("nameOverride", `${curNode.nodeName} [${glyphData["name"]} — Rank ${glyphRank}]`);
 					curNode.nodeData.set("thresholdRequirements", glyphData["thresholdRequirements"]);
-					nodeDesc = glyphData["desc"] + "\n\n" + "Additional Bonus: (if requirements met)\n" + glyphData["bonus"] + "\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}";
+					const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchString, captureString) => {
+						const outputString = captureString.split("/");
+						return outputString[glyphRank > 0 ? Math.min(glyphRank, outputString.length) - 1 : 0];
+					});
+					nodeDesc = glyphDesc + "\n\n" + "Additional Bonus: (if requirements met)\n" + glyphData["bonus"] + "\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}";
 				} else {
 					nodeDesc = "Allocate this node to see a list of available glyphs."
 				}
@@ -2854,6 +2916,7 @@ function rebuildCanvas() {
 	paragonBoardGridData = {};
 	paragonBoardRotationData = {};
 	paragonBoardGlyphData = {};
+	paragonBoardGlyphRankData = {};
 
 	drawBackground();
 	drawAllNodes();

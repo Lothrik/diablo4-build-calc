@@ -4629,121 +4629,121 @@ let paragonData = {
 		"Glyph": {
 			"ParagonGlyph_011": {
 				"name": "Imbiber",
-				"desc": "For every 5 Willpower purchased within range, you deal +2.5% increased damage while Healthy.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2.5/3/3.5/4/4.5/5/5.5/6/6.5/7/7.5/8/8.5/9/9.5/10/10.5/11/11.5/12}% increased damage while Healthy.",
 				"bonus": "You gain +30% increased Potion Healing.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_014": {
 				"name": "Territorial",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"bonus": "You gain 12% Damage Reduction against Close enemies.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_016": {
 				"name": "Exploit",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"bonus": "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_021": {
 				"name": "Ambidextrous",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "You deal x10% increased damage while wielding One-Handed weapons.",
 				"thresholdRequirements": "40 Strength"
 			},
 			"ParagonGlyph_022": {
 				"name": "Might",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "You deal x10% increased damage while wielding Two-Handed weapons.",
 				"thresholdRequirements": "40 Strength"
 			},
 			"ParagonGlyph_023": {
 				"name": "Cleaver",
-				"desc": "For every 5 Strength purchased within range, you deal +2% increased damage while wielding an Axe.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while wielding an Axe.",
 				"bonus": "While wielding an Axe, you deal x15% increased Critical Strike Damage.",
 				"thresholdRequirements": "40 Strength"
 			},
 			"ParagonGlyph_024": {
 				"name": "Seething",
-				"desc": "For every 5 Strength purchased within range, you deal +2% increased damage while wielding a Sword.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while wielding a Sword.",
 				"bonus": "While wielding a Sword, you gain 3 Fury when you kill an enemy.",
 				"thresholdRequirements": "40 Strength"
 			},
 			"ParagonGlyph_025": {
 				"name": "Crusher",
-				"desc": "For every 5 Strength purchased within range, you deal +2% increased damage while wielding a Mace.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while wielding a Mace.",
 				"bonus": "While wielding a Mace, you deal x30% increased Overpower damage.",
 				"thresholdRequirements": "40 Strength"
 			},
 			"ParagonGlyph_026": {
 				"name": "Executioner",
-				"desc": "For every 5 Strength purchased within range, you deal +2% increased damage while wielding a Polearm.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while wielding a Polearm.",
 				"bonus": "While wielding a Polearm, you deal x13.3% increased damage to Healthy or Injured enemies.",
 				"thresholdRequirements": "40 Strength"
 			},
 			"ParagonGlyph_027": {
 				"name": "Ire",
-				"desc": "For every 5 Strength purchased within range, you deal +2% increased damage while Berserking.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while Berserking.",
 				"bonus": "While Berserking, you take 13.3% reduced damage from Elites.",
 				"thresholdRequirements": "40 Strength"
 			},
 			"ParagonGlyph_028": {
 				"name": "Marshal",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "After casting a Shout Skill, the active Cooldown of every other Shout Skill is reduced by 1.5 seconds.",
 				"thresholdRequirements": "40 Strength"
 			},
 			"ParagonGlyph_029": {
 				"name": "Bloodfeeder",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased damage to Bleeding targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Bleeding targets.",
 				"bonus": "You have 5% increased Critical Strike Chance against Bleeding enemies.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_030": {
 				"name": "Wrath",
-				"desc": "For every 5 Dexterity purchased within range, Core Skills deal +4% increased Critical Strike Damage.",
+				"desc": "For every 5 Dexterity purchased within range, Core Skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased Critical Strike Damage.",
 				"bonus": "Skills that Critically Strike generate 3 Fury.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_031": {
 				"name": "Weapon Master",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"bonus": "Hitting with a Weapon Mastery Skill reduces the active Cooldown of another random Weapon Mastery Skill by 2 seconds.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_032": {
 				"name": "Mortal Draw",
-				"desc": "For every 5 Dexterity purchased within range, Skills that Swap to a different weapon deal +4% increased damage.",
+				"desc": "For every 5 Dexterity purchased within range, Skills that Swap to a different weapon deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"bonus": "Swapping weapons has a 20% chance to cause the Skill's damage to Critically Strike.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_033": {
 				"name": "Revenge",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "Thorns damage increases all damage an enemy takes from you by x1%, up to x10%, for 10 seconds.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_034": {
 				"name": "Undaunted",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased damage while Fortified.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while Fortified.",
 				"bonus": "You gain up to 12% Damage Reduction the more Fortify you have.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_035_Barb": {
 				"name": "Dominate",
-				"desc": "For every 5 Willpower purchased within range, you deal +6% increased Overpower damage.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8}% increased Overpower damage.",
 				"bonus": "After not Overpowering for 30 seconds, your next attack will Overpower.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_036": {
 				"name": "Disembowel",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased Bleeding damage.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Bleeding damage.",
 				"bonus": "Killing a Bleeding enemy has a  12% chance to reduce the Cooldowns of your Non-Ultimate active Cooldowns by 1 second.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_037": {
 				"name": "Brawl",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"bonus": "Brawling Skills deal x20% increased damage.",
 				"thresholdRequirements": "25 Willpower"
 			}
@@ -9349,121 +9349,121 @@ let paragonData = {
 		"Glyph": {
 			"ParagonGlyph_011": {
 				"name": "Guzzler",
-				"desc": "For every 5 Intelligence purchased within range, you deal +2.5% increased damage while Healthy.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{2.5/3/3.5/4/4.5/5/5.5/6/6.5/7/7.5/8/8.5/9/9.5/10/10.5/11/11.5/12}% increased damage while Healthy.",
 				"bonus": "You gain +30% increased Potion Healing.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_012": {
 				"name": "Protector",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You gain 10% Damage Reduction while you have an active Barrier.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_013": {
 				"name": "Poise",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You have a 30% chance when Shapeshifting to gain a Barrier that absorbs 5% of your Maximum Life in damage for 4 seconds.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_014": {
 				"name": "Territorial",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"bonus": "You gain 12% Damage Reduction against Close enemies.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_016": {
 				"name": "Exploit",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"bonus": "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_034": {
 				"name": "Undaunted",
-				"desc": "For every 5 Intelligence purchased within range, you deal +2% increased damage while Fortified.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while Fortified.",
 				"bonus": "You gain up to 12% Damage Reduction the more Fortify you have.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_035": {
 				"name": "Dominate",
-				"desc": "For every 5 Intelligence purchased within range, you deal +6% increased Overpower damage.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8}% increased Overpower damage.",
 				"bonus": "When you Overpower an enemy, all damage they take from you is increased by x12% for 5 seconds.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_039": {
 				"name": "Fang and Claw",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "While in Werewolf or Werebear form, Close enemies take x12% increased damage from you.",
 				"thresholdRequirements": "40 Willpower"
 			},
 			"ParagonGlyph_040": {
 				"name": "Earth and Sky",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "Nature Magic Skills deal x10% increased damage to Crowd Controlled or Vulnerable enemies.",
 				"thresholdRequirements": "40 Willpower"
 			},
 			"ParagonGlyph_041": {
 				"name": "Wilds",
-				"desc": "For every 5 Intelligence within range, Companion Skills deal +5% increased damage.",
+				"desc": "For every 5 Intelligence within range, Companion Skills deal +{5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24}% increased damage.",
 				"bonus": "The Passive portion of Companion Skills deal x80% increased damage.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_042": {
 				"name": "Werebear",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased damage while in Werebear form.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while in Werebear form.",
 				"bonus": "You gain 10% Damage Reduction while in Werebear form.",
 				"thresholdRequirements": "40 Willpower"
 			},
 			"ParagonGlyph_043": {
 				"name": "Werewolf",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased damage while in Werewolf form.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while in Werewolf form.",
 				"bonus": "You gain 10% Damage Reduction while in Werewolf form.",
 				"thresholdRequirements": "40 Willpower"
 			},
 			"ParagonGlyph_044": {
 				"name": "Human",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased damage while in Human form.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while in Human form.",
 				"bonus": "You gain 10% Damage Reduction while in Human form.",
 				"thresholdRequirements": "40 Willpower"
 			},
 			"ParagonGlyph_045": {
 				"name": "Bane",
-				"desc": "For every 5 Intelligence purchased within range, you deal +2% increased Poison damage.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Poison damage.",
 				"bonus": "Poisoning damage effects have a 10% chance to deal double the amount of damage over their duration.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_046_Druid": {
 				"name": "Keeper",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You and your Companions deal x10% increased Non-Physical damage.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_047": {
 				"name": "Fulminate",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased Lightning damage.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Lightning damage.",
 				"bonus": "You deal x12% increased Lightning damage to both Healthy and Injured enemies.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_048": {
 				"name": "Tracker",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased damage to Poisoned targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Poisoned targets.",
 				"bonus": "Poisoning damage effects last x33.3% longer.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_049": {
 				"name": "Outmatch",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You deal x16% increased Physical damage to Non-Elites and Bosses.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_050": {
 				"name": "Spirit",
-				"desc": "For every 5 Dexterity purchased within range, Core Skills deal +4% increased Critical Strike Damage.",
+				"desc": "For every 5 Dexterity purchased within range, Core Skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased Critical Strike Damage.",
 				"bonus": "Critical Strikes increase the damage an enemy takes from you by x2% for 20 seconds, up to x12%.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_051": {
 				"name": "Shapeshifter",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "Shapeshifting has a 20% chance to cause the Skill's damage to Critically Strike.",
 				"thresholdRequirements": "25 Dexterity"
 			}
@@ -15756,121 +15756,121 @@ let paragonData = {
 		"Glyph": {
 			"ParagonGlyph_011": {
 				"name": "Imbiber",
-				"desc": "For every 5 Willpower purchased within range, you deal +2.5% increased damage while Healthy.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2.5/3/3.5/4/4.5/5/5.5/6/6.5/7/7.5/8/8.5/9/9.5/10/10.5/11/11.5/12}% increased damage while Healthy.",
 				"bonus": "You gain +30% increased Potion Healing.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_014": {
 				"name": "Territorial",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"bonus": "You gain 12% Damage Reduction against Close enemies.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_020_Necro": {
 				"name": "Control",
-				"desc": "For every 5 Intelligence purchased within range, you deal +3% increased damage to Crowd Controlled targets.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to Crowd Controlled targets.",
 				"bonus": "You and your Minions deal x10% increased damage to Slowed or Chilled enemies or, instead, x20% increased damage to Stunned or Frozen enemies.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_033_Necro": {
 				"name": "Revenge",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "Thorns damage increases all damage an enemy takes from you and your Minions by x1%, up to x10%, for 10 seconds.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_034": {
 				"name": "Undaunted",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased damage while Fortified.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage while Fortified.",
 				"bonus": "You gain up to 12% Damage Reduction the more Fortify you have.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_035_Necro": {
 				"name": "Dominate",
-				"desc": "For every 5 Willpower purchased within range, you deal +6% increased Overpower damage.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8}% increased Overpower damage.",
 				"bonus": "When you Overpower an enemy, all damage they take from you and your Minions is increased by x12% for 5 seconds.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_038": {
 				"name": "Corporeal",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"bonus": "You and your Minions deal x10% increased Physical damage.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_046": {
 				"name": "Abyssal",
-				"desc": "Paragon nodes within range gain +40% bonus to their Non-physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Non-physical damage and damage reduction modifiers.",
 				"bonus": "You and your Minions deal x10% increased Non-Physical damage.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_060": {
 				"name": "Warrior",
-				"desc": "For every 5 Dexterity purchased within range, Skeletal Warriors deal +4% increased damage.",
+				"desc": "For every 5 Dexterity purchased within range, Skeletal Warriors deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"bonus": "Skeletal Warriors gain +20% increased Armor.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_062": {
 				"name": "Gravekeeper",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You deal x2% increased damage, up to x12%, for every Close Corpse.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_066": {
 				"name": "Essence",
-				"desc": "For every 5 Dexterity purchased within range, Core Skills deal +4% increased Critical Strike Damage.",
+				"desc": "For every 5 Dexterity purchased within range, Core Skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased Critical Strike Damage.",
 				"bonus": "Critical Strikes deal x22% increased damage to enemies that are not Healthy.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_069": {
 				"name": "Sacrificial",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "You deal x10% increased damage while you have no active Minions.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_070": {
 				"name": "Blood-drinker",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "Blood Orbs Fortify you for 6.7% of your Maximum Life.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_071": {
 				"name": "Deadraiser",
-				"desc": "Paragon nodes within range gain +40% bonus to their Minion damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Minion damage and damage reduction modifiers.",
 				"bonus": "Whenever your Minions deal damage to an enemy, that enemy takes x1% increased damage from you and your Minions, up to x12%, for 10 seconds.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_072": {
 				"name": "Mage",
-				"desc": "For every 5 Intelligence purchased within range, Skeleton Mages deal +4% increased damage.",
+				"desc": "For every 5 Intelligence purchased within range, Skeleton Mages deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"bonus": "Skeletal Mages gain 25% increased Resistance to All Elements.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_073": {
 				"name": "Amplify",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "Enemies affected by Curse Skills take x10% increased damage from you and your Minions.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_074": {
 				"name": "Golem",
-				"desc": "For every 5 Willpower purchased within range, Golems gain +4% increased damage.",
+				"desc": "For every 5 Willpower purchased within range, Golems gain +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"bonus": "Golems gain x25% increased Maximum Life.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_075": {
 				"name": "Scourge",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased Shadow damage over time.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Shadow damage over time.",
 				"bonus": "You and your Minions deal x10% increased damage to enemies affected by Shadow damage over time effects.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_078": {
 				"name": "Darkness",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased Shadow damage.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Shadow damage.",
 				"bonus": "Whenever you or your Minions deal Shadow damage to an enemy, that enemy deals 2% reduced damage, up to 10%, for 5 seconds.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_079": {
 				"name": "Exploit",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"bonus": "Dealing damage to a Vulnerable enemy increases your damage by x1% for 6 seconds, up to x10%.",
 				"thresholdRequirements": "25 Dexterity"
 			}
@@ -20314,121 +20314,121 @@ let paragonData = {
 		"Glyph": {
 			"ParagonGlyph_014": {
 				"name": "Turf",
-				"desc": "For every 5 Strength purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"bonus": "You gain 12% Damage Reduction against Close enemies.",
 				"thresholdRequirements": "25 Strength"
 			},
 			"ParagonGlyph_016": {
 				"name": "Exploit",
-				"desc": "For every 5 Strength purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"bonus": "When an enemy is damaged by you, they become Vulnerable for 3 seconds. This cannot happen more than once every 20 seconds per enemy.",
 				"thresholdRequirements": "25 Strength"
 			},
 			"ParagonGlyph_020": {
 				"name": "Control",
-				"desc": "For every 5 Intelligence purchased within range, you deal +3% increased damage to Crowd Controlled targets.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to Crowd Controlled targets.",
 				"bonus": "You deal x10% increased damage to Slowed or Chilled enemies or, instead, x20% increased damage to Stunned or Frozen enemies.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_045": {
 				"name": "Bane",
-				"desc": "For every 5 Strength purchased within range, you deal +2% increased Poison damage.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Poison damage.",
 				"bonus": "Poisoning damage effects have a 10% chance to deal double the amount of damage over their duration.",
 				"thresholdRequirements": "25 Strength"
 			},
 			"ParagonGlyph_048": {
 				"name": "Tracker",
-				"desc": "For every 5 Intelligence purchased within range, you deal +2% increased damage to Poisoned targets.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Poisoned targets.",
 				"bonus": "Poisoning damage effects last x33.3% longer.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_052": {
 				"name": "Versatility",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "Non-Basic and Non-Core Skills deal x15% increased damage.",
 				"thresholdRequirements": "40 Dexterity"
 			},
 			"ParagonGlyph_053": {
 				"name": "Closer",
-				"desc": "For every 5 Dexterity purchased within range, Cutthroat Skills deal +2% increased damage.",
+				"desc": "For every 5 Dexterity purchased within range, Cutthroat Skills deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage.",
 				"bonus": "While wielding a Melee weapon, you take 10% reduced damage.",
 				"thresholdRequirements": "40 Dexterity"
 			},
 			"ParagonGlyph_054": {
 				"name": "Ranger",
-				"desc": "For every 5 Dexterity purchased within range, Marksman Skills deal +2% increased damage.",
+				"desc": "For every 5 Dexterity purchased within range, Marksman Skills deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage.",
 				"bonus": "While wielding a Ranged weapon, you take 10% reduced damage.",
 				"thresholdRequirements": "40 Dexterity"
 			},
 			"ParagonGlyph_055": {
 				"name": "Chip",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased Physical damage.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Physical damage.",
 				"bonus": "Physical damage increases the damage an enemy takes from you by x1%, up to x10%, for 15 seconds.",
 				"thresholdRequirements": "40 Dexterity"
 			},
 			"ParagonGlyph_056": {
 				"name": "Frostfeeder",
-				"desc": "For every 5 Dexterity purchased within range, you deal +3% increased damage to Chilled targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to Chilled targets.",
 				"bonus": "You gain x20% increased Chill effect.",
 				"thresholdRequirements": "40 Dexterity"
 			},
 			"ParagonGlyph_057": {
 				"name": "Fluidity",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "When you cast an Agility Skill, you gain x9% increased Energy Regeneration for 6 seconds.",
 				"thresholdRequirements": "40 Dexterity"
 			},
 			"ParagonGlyph_058": {
 				"name": "Infusion",
-				"desc": "For every 5 Intelligence purchased within range, Skills that are Imbued deal +3% increased damage.",
+				"desc": "For every 5 Intelligence purchased within range, Skills that are Imbued deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage.",
 				"bonus": "Casting an Imbuement Skill reduces the active Cooldown of another random Imbuement Skill by 0.5 seconds.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_059": {
 				"name": "Devious",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "When you hit an enemy with a Crowd Controlling effect, they take x2%, up to x10%, increased damage from you for 20 seconds.",
 				"thresholdRequirements": "40 Dexterity"
 			},
 			"ParagonGlyph_061": {
 				"name": "Combat",
-				"desc": "For every 5 Intelligence purchased within range, Core Skills deal +4% increased Critical Strike Damage.",
+				"desc": "For every 5 Intelligence purchased within range, Core Skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased Critical Strike Damage.",
 				"bonus": "Skills that Critically Strike restore 12% of their Energy cost.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_063": {
 				"name": "Canny",
-				"desc": "For every 5 Intelligence purchased within range, you deal +2% increased Non-physical damage.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Non-physical damage.",
 				"bonus": "Non-Physical damage increases all the Non-Physical damage an enemy takes from you by x1%, up to x10%, for 15 seconds.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_064": {
 				"name": "Efficacy",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "Imbuement Skill effects have x20% increased potency.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_065": {
 				"name": "Snare",
-				"desc": "For every 5 Intelligence purchased within range, Trap Skills deal +2.666% increased damage.",
+				"desc": "For every 5 Intelligence purchased within range, Trap Skills deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage.",
 				"bonus": "Non-Ultimate Trap Skills have x25% increased area.",
 				"thresholdRequirements": "25 Intelligence"
 			},
 			"ParagonGlyph_067": {
 				"name": "Pride",
-				"desc": "Paragon nodes within range gain +40% bonus to their Physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Physical damage and damage reduction modifiers.",
 				"bonus": "You deal x13% increased Physical damage to both Healthy and Injured enemies.",
 				"thresholdRequirements": "25 Strength"
 			},
 			"ParagonGlyph_068": {
 				"name": "Ambush",
-				"desc": "For every 5 Strength purchased within range, you deal +2% increased damage to targets affected by Trap Skills.",
+				"desc": "For every 5 Strength purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to targets affected by Trap Skills.",
 				"bonus": "Enemies affected by Trap Skills take x10% increased damage from you.",
 				"thresholdRequirements": "25 Strength"
 			},
 			"ParagonGlyph_076": {
 				"name": "Diminish",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You take 10% reduced Physical damage from Vulnerable enemies.",
 				"thresholdRequirements": "25 Strength"
 			}
@@ -25161,121 +25161,121 @@ let paragonData = {
 		"Glyph": {
 			"ParagonGlyph_001": {
 				"name": "Enchanter",
-				"desc": "For every 5 Intelligence purchased within range, you deal +2% increased Non-physical damage.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Non-physical damage.",
 				"bonus": "For each Skill equipped in your Enchantment Slots, gain 13.3% Resistance to that Skill's element.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_002": {
 				"name": "Unleash",
-				"desc": "Grants +50% bonus to all Magic nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Magic nodes within range.",
 				"bonus": "After spending 50 Mana, you deal x6.7% increased damage and gain 6.7% increased Mana Regeneration for 3 seconds.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_003": {
 				"name": "Elementalist",
-				"desc": "Paragon nodes within range gain +40% bonus to their Non-physical damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Non-physical damage and damage reduction modifiers.",
 				"bonus": "Dealing Fire, Cold, or Lightning Damage to an enemy increases all damage you deal to them by x5% for 10 seconds, stacking once per element.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_004": {
 				"name": "Adept",
-				"desc": "For every 5 Intelligence within range, Mastery Skills gain +3% increased damage.",
+				"desc": "For every 5 Intelligence within range, Mastery Skills gain +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage.",
 				"bonus": "Mastery Skills have 20% increased area.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_005": {
 				"name": "Conjurer",
-				"desc": "For every 5 Intelligence within range, Conjuration Skills gain +4% increased damage.",
+				"desc": "For every 5 Intelligence within range, Conjuration Skills gain +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"bonus": "Conjuration Skills have 20% increased duration.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_006": {
 				"name": "Charged",
-				"desc": "For every 5 Intelligence purchased within range, Crackling Energy deals +4% increased damage.",
+				"desc": "For every 5 Intelligence purchased within range, Crackling Energy deals +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased damage.",
 				"bonus": "Picking up Crackling Energy grants you x5% increased damage for 5 seconds, up to x15%.",
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_007": {
 				"name": "Torch",
-				"desc": "For every 5 Willpower purchased within range, you deal +2% increased Burning damage.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Burning damage.",
 				"bonus": "You deal x2.5% increased damage per Nearby Burning enemy, up to x12.5%.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_008": {
 				"name": "Pyromaniac",
-				"desc": "Paragon nodes within range gain +40% bonus to their Fire damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Fire damage and damage reduction modifiers.",
 				"bonus": "Every Pyromancy Skill you cast or every second you channel Incinerate increases your Fire Damage by x2% for 6 seconds, up to x10%.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_009": {
 				"name": "Frostbite",
-				"desc": "For every 5 Willpower purchased within range, you deal +3% increased damage to Chilled targets.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to Chilled targets.",
 				"bonus": "Enemies deal 13.3% reduced damage to you for 5 seconds after they are no longer Frozen.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_010": {
 				"name": "Tactician",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You deal x10% increased damage for 4 seconds after casting a Defensive Skill.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_011": {
 				"name": "Imbiber",
-				"desc": "For every 5 Willpower purchased within range, you deal +2.5% increased damage while Healthy.",
+				"desc": "For every 5 Willpower purchased within range, you deal +{2.5/3/3.5/4/4.5/5/5.5/6/6.5/7/7.5/8/8.5/9/9.5/10/10.5/11/11.5/12}% increased damage while Healthy.",
 				"bonus": "You gain +30% increased Potion Healing.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_012": {
 				"name": "Reinforced",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You gain 10% Damage Reduction while you have an active Barrier.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_014": {
 				"name": "Territorial",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2.666% increased damage to Close targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2.666/3.199/3.732/4.266/4.799/5.332/5.865/6.398/6.932/7.465/7.998/8.531/9.064/9.598/10.131/10.664/11.197/11.73/12.264/12.797}% increased damage to Close targets.",
 				"bonus": "You gain 12% Damage Reduction against Close enemies.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_015": {
 				"name": "Flamefeeder",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased damage to Burning targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Burning targets.",
 				"bonus": "You deal x10% increased direct damage to Burning enemies.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_017": {
 				"name": "Winter",
-				"desc": "Paragon nodes within range gain +40% bonus to their Cold damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Cold damage and damage reduction modifiers.",
 				"bonus": "Whenever you Chill an enemy, you deal x3% increased Cold Damage for 10 seconds, up to x15%.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_018": {
 				"name": "Electrocute",
-				"desc": "Paragon nodes within range gain +40% bonus to their Lightning damage and damage reduction modifiers.",
+				"desc": "Paragon nodes within range gain +{40/48/56/64/72/80/88/96/104/112/120/128/136/144/152/160/168/176/184/192}% bonus to their Lightning damage and damage reduction modifiers.",
 				"bonus": "Your Lightning damage has a +5% increased chance to Critically Strike enemies who are Stunned, Immobilized, or Frozen.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_019": {
 				"name": "Destruction",
-				"desc": "For every 5 Dexterity purchased within range, Core Skills deal +4% increased Critical Strike Damage.",
+				"desc": "For every 5 Dexterity purchased within range, Core Skills deal +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2}% increased Critical Strike Damage.",
 				"bonus": "Critical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_020": {
 				"name": "Control",
-				"desc": "For every 5 Dexterity purchased within range, you deal +3% increased damage to Crowd Controlled targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4}% increased damage to Crowd Controlled targets.",
 				"bonus": "You deal x10% increased damage to Slowed or Chilled enemies or, instead, x20% increased damage to Stunned or Frozen enemies.",
 				"thresholdRequirements": "25 Dexterity"
 			},
 			"ParagonGlyph_077": {
 				"name": "Warding",
-				"desc": "Grants +50% bonus to all Rare nodes within range.",
+				"desc": "Grants +{50/60/70/80/90/100/110/120/130/140/150/160/170/180/190/200/210/220/230/240}% bonus to all Rare nodes within range.",
 				"bonus": "You take reduced damage the less Mana you have, up to 13.3%.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_079": {
 				"name": "Exploit",
-				"desc": "For every 5 Dexterity purchased within range, you deal +2% increased damage to Vulnerable targets.",
+				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased damage to Vulnerable targets.",
 				"bonus": "Dealing damage to a Vulnerable enemy increases your damage by x1% for 6 seconds, up to x10%.",
 				"thresholdRequirements": "25 Dexterity"
 			}
