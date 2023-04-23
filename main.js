@@ -2294,10 +2294,7 @@ function drawAllNodes() {
 							let thresholdRequirements = null;
 							for (const classKey in paragonData) {
 								if ("Node" in paragonData[classKey] && nodeData in paragonData[classKey]["Node"]) {
-									nodeName = paragonData[classKey]["Node"][nodeData]["name"].replace(/.+_Magic_/g, "")
-										.replace(/([0-9A-Z])/g, " $1")
-										.replace(/([0-9A-Z]) ([0-9A-Z])/g, "$1$2")
-										.trim();
+									nodeName = paragonData[classKey]["Node"][nodeData]["name"];
 									nodeDesc = paragonData[classKey]["Node"][nodeData]["description"];
 									thresholdRequirements = paragonData[classKey]["Node"][nodeData]["thresholdRequirements"];
 									break;
