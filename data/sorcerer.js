@@ -628,7 +628,7 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.
 Lucky Hit: Your Conjuration Skills have a 30% chance to unleash a Frost Nova when hitting enemies.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "15" ],
+		values: [ "{15/14.25/13.5/12.75/12}" ],
 		x: 7.87,
 		y: 296.675
 	},
