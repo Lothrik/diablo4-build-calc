@@ -2470,7 +2470,9 @@ function drawTooltip(curNode, forceDraw) {
 
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
 				if (captureString.includes("thresholdRequirements") && curNode.nodeData.has("thresholdRequirements")) {
-					captureString = curNode.nodeData.get("thresholdRequirements")[classText].join("; or ");
+					captureString = curNode.nodeData.get("thresholdRequirements");
+					if (typeof captureString != "string") captureString = captureString[classText];
+					if (typeof captureString != "string") captureString = captureString.join("; or ");
 				}
 				if (captureString.includes("ParagonBoardEquipIndex")) {
 					let equipIndex = "EquipIndex";
