@@ -631,7 +631,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
 	}
 }
-const localVersion = "0.8.1.39858-21";
+const localVersion = "0.8.1.39858-22";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2232,18 +2232,21 @@ function drawAllNodes() {
 				for (const [yPosition, rowData] of Object.entries(boardData)) {
 					for (const [xPosition, nodeData] of Object.entries(rowData)) {
 						if (nodeData.length > 0) {
-							const nodeName = nodeData in paragonData["Generic"]["Node"] ? paragonData["Generic"]["Node"][nodeData]["name"]
-								: nodeData in paragonData[classText]["Node"] ? paragonData[classText]["Node"][nodeData]["name"]
-								: nodeData.includes("_Magic_") ? nodeData
-									.replace(/.+_Magic_/g, "")
-									.replace(/([0-9A-Z])/g, " $1")
-									.replace(/([0-9A-Z]) ([0-9A-Z])/g, "$1$2")
-									.trim()
-								: nodeData;
-							const nodeDesc = nodeData in paragonData[classText]["Node"] && "description" in paragonData[classText]["Node"][nodeData]
-								? `${paragonData[classText]["Node"][nodeData]["description"]}`
-								: nodeData in paragonData["Generic"]["Node"] && "description" in paragonData["Generic"]["Node"][nodeData]
-								? `${paragonData["Generic"]["Node"][nodeData]["description"]}` : "";
+							let nodeName = nodeData;
+							let nodeDesc = "";
+							let thresholdRequirements = null;
+							console.log(paragonData);
+							for (const classKey in paragonData) {
+								if ("Node" in paragonData[classKey] && nodeData in paragonData[classKey]["Node"]) {
+									nodeName = paragonData[classKey]["Node"][nodeData]["name"].replace(/.+_Magic_/g, "")
+										.replace(/([0-9A-Z])/g, " $1")
+										.replace(/([0-9A-Z]) ([0-9A-Z])/g, "$1$2")
+										.trim();
+									nodeDesc = paragonData[classKey]["Node"][nodeData]["description"];
+									thresholdRequirements = paragonData[classKey]["Node"][nodeData]["thresholdRequirements"];
+									break;
+								}
+							}
 							const nodeType = nodeData.includes("_Normal_") ? "Normal"
 								: nodeData.includes("_Magic_") ? "Magic"
 								: nodeData.includes("_Rare_") ? "Rare"
@@ -2251,11 +2254,6 @@ function drawAllNodes() {
 								: nodeData.includes("StartNode") ? "Start"
 								: nodeData == "Generic_Gate" ? "Gate"
 								: nodeData == "Generic_Socket" ? "Socket" : "";
-							const thresholdRequirements = nodeData in paragonData[classText]["Node"] && "thresholdRequirements" in paragonData[classText]["Node"][nodeData]
-								? paragonData[classText]["Node"][nodeData]["thresholdRequirements"]
-								: nodeData in paragonData["Generic"]["Node"] && "thresholdRequirements" in paragonData["Generic"]["Node"][nodeData]
-								? paragonData["Generic"]["Node"][nodeData]["thresholdRequirements"]
-								: null;
 							const boardNode = new Map([
 								["allocatedPoints", 0],
 								["_boardIndex", unsortedIndex],
