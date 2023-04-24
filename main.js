@@ -655,7 +655,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
 	}
 }
-const localVersion = "0.8.1.39858-25";
+const localVersion = "0.8.1.39858-26";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1663,7 +1663,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		if (node.scaleFactor == scaleFactor) return;
 
 		// remove all existing node children
-		while (node.children[0]) node.removeChild(node.children[0]);
+		//while (node.children[0]) node.removeChild(node.children[0]);
 	}
 
 	let x = nodePosition == null ? nodeData.get("x") : nodePosition.x;
@@ -1710,7 +1710,15 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		if (groupName == PARAGON_BOARD) {
 			const boardIndex = extraData;
 
-			const extraText = new PIXI.Text("Assign Index", {
+			extraContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[1] : new PIXI.Container();
+			extraContainer.cursor = "pointer";
+			extraContainer.eventMode = "static";
+			extraContainer
+				.on("click", () => setParagonBoardEquipIndex(boardIndex))
+				.on("tap", () => setParagonBoardEquipIndex(boardIndex));
+			const extraText = pixiNodes.length > nodeIndex ? extraContainer.children[0] : new PIXI.Text();
+			extraText.text = "Assign Index";
+			extraText.style = {
 				align: "right",
 				fill: _textColor,
 				fontFamily: fontFamily,
@@ -1718,21 +1726,23 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				fontVariant: "small-caps",
 				fontWeight: useThickNodeStyle ? "bold" : "normal",
 				padding: 10
-			});
+			};
 			extraText.eventMode = "auto";
 			extraText.scale.set(1 / scaleFactor);
 			extraText.anchor.set(0.5);
 			extraText.x = (extraText.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 200;
 			extraText.y = 0;
-			extraContainer = new PIXI.Container();
-			extraContainer.cursor = "pointer";
-			extraContainer.eventMode = "static";
 			extraContainer.addChild(extraText);
-			extraContainer
-				.on("click", () => setParagonBoardEquipIndex(boardIndex))
-				.on("tap", () => setParagonBoardEquipIndex(boardIndex));
 
-			const extraText2 = new PIXI.Text("←↕→", {
+			extraContainer2 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[2] : new PIXI.Container();
+			extraContainer2.cursor = "pointer";
+			extraContainer2.eventMode = "static";
+			extraContainer2
+				.on("click", () => moveParagonBoard(boardIndex))
+				.on("tap", () => moveParagonBoard(boardIndex));
+			const extraText2 = pixiNodes.length > nodeIndex ? extraContainer2.children[0] : new PIXI.Text();
+			extraText2.text = "←↕→";
+			extraText2.style = {
 				align: "right",
 				fill: _textColor,
 				fontFamily: fontFamily,
@@ -1740,21 +1750,23 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				fontVariant: "small-caps",
 				fontWeight: useThickNodeStyle ? "bold" : "normal",
 				padding: 10
-			});
+			};
 			extraText2.eventMode = "auto";
 			extraText2.scale.set(1 / scaleFactor);
 			extraText2.anchor.set(0.5);
 			extraText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText2.width) * 0.5 - 200;
 			extraText2.y = -8;
-			extraContainer2 = new PIXI.Container();
-			extraContainer2.cursor = "pointer";
-			extraContainer2.eventMode = "static";
 			extraContainer2.addChild(extraText2);
-			extraContainer2
-				.on("click", () => moveParagonBoard(boardIndex))
-				.on("tap", () => moveParagonBoard(boardIndex));
 
-			const extraText3 = new PIXI.Text("↺", {
+			extraContainer3 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[3] : new PIXI.Container();
+			extraContainer3.cursor = "pointer";
+			extraContainer3.eventMode = "static";
+			extraContainer3
+				.on("click", () => rotateParagonBoard(boardIndex, -90, true))
+				.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
+			const extraText3 = pixiNodes.length > nodeIndex ? extraContainer3.children[0] : new PIXI.Text();
+			extraText3.text = "↺";
+			extraText3.style = {
 				align: "left",
 				fill: _textColor,
 				fontFamily: fontFamily,
@@ -1762,20 +1774,22 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				fontVariant: "small-caps",
 				fontWeight: useThickNodeStyle ? "bold" : "normal",
 				padding: 10
-			});
+			};
 			extraText3.eventMode = "auto";
 			extraText3.scale.set(1 / scaleFactor);
 			extraText3.anchor.set(0.5);
 			extraText3.x = (extraText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 16;
-			extraContainer3 = new PIXI.Container();
-			extraContainer3.cursor = "pointer";
-			extraContainer3.eventMode = "static";
 			extraContainer3.addChild(extraText3);
-			extraContainer3
-				.on("click", () => rotateParagonBoard(boardIndex, -90, true))
-				.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
 
-			const extraText4 = new PIXI.Text("↻", {
+			extraContainer4 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[4] : new PIXI.Container();
+			extraContainer4.cursor = "pointer";
+			extraContainer4.eventMode = "static";
+			extraContainer4
+				.on("click", () => rotateParagonBoard(boardIndex, 90, true))
+				.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
+			const extraText4 = pixiNodes.length > nodeIndex ? extraContainer4.children[0] : new PIXI.Text();
+			extraText4.text = "↻";
+			extraText4.style = {
 				align: "right",
 				fill: _textColor,
 				fontFamily: fontFamily,
@@ -1783,25 +1797,21 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				fontVariant: "small-caps",
 				fontWeight: useThickNodeStyle ? "bold" : "normal",
 				padding: 10
-			});
+			};
 			extraText4.eventMode = "auto";
 			extraText4.scale.set(1 / scaleFactor);
 			extraText4.anchor.set(0.5);
 			extraText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText4.width) * 0.5 - 16;
-			extraContainer4 = new PIXI.Container();
-			extraContainer4.cursor = "pointer";
-			extraContainer4.eventMode = "static";
 			extraContainer4.addChild(extraText4);
-			extraContainer4
-				.on("click", () => rotateParagonBoard(boardIndex, 90, true))
-				.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
 		} else if (nodePosition == null) {
 			x += extraData.get("x");
 			y += extraData.get("y");
 		}
 	}
 
-	const nodeText = new PIXI.Text(displayName, {
+	const nodeText = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[1] : new PIXI.Text();
+	nodeText.text = displayName;
+	nodeText.style = {
 		align: "center",
 		fill: _textColor,
 		fontFamily: fontFamily,
@@ -1809,14 +1819,16 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		fontVariant: "small-caps",
 		fontWeight: useThickNodeStyle ? "bold" : "normal",
 		padding: 10
-	});
+	};
 	nodeText.eventMode = "auto";
 	nodeText.scale.set(1 / scaleFactor);
 	nodeText.anchor.set(0.5);
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
 	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints > 1) {
-		nodeText2 = new PIXI.Text(allocatedPoints + "/" + maxPoints, {
+		nodeText2 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[2] : new PIXI.Text();
+		nodeText2.text = allocatedPoints + "/" + maxPoints;
+		nodeText2.style = {
 			align: "right",
 			fill: _textColor,
 			fontFamily: fontFamily,
@@ -1824,14 +1836,22 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			fontVariant: "small-caps",
 			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			padding: 10
-		});
+		};
 		nodeText2.eventMode = "auto";
 		nodeText2.scale.set(1 / scaleFactor);
 		nodeText2.anchor.set(0.5);
 		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText2.width) * 0.5 - 5;
 		nodeText2.y = (nodeText2.height - _nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? -2 : 2);
 
-		nodeText3 = new PIXI.Text("–", {
+		minusContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[3] : new PIXI.Container();
+		minusContainer.cursor = "pointer";
+		minusContainer.eventMode = "static";
+		minusContainer
+			.on("click", () => handleMinusButton(node))
+			.on("tap", () => handleMinusButton(node));
+		nodeText3 = pixiNodes.length > nodeIndex ? minusContainer.children[0] : new PIXI.Text();
+		nodeText3.text = "–";
+		nodeText3.style = {
 			align: "left",
 			fill: _textColor,
 			fontFamily: fontFamilyOverride,
@@ -1839,22 +1859,23 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			fontVariant: "small-caps",
 			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			padding: 10
-		});
+		};
 		nodeText3.eventMode = "auto";
 		nodeText3.scale.set(1 / scaleFactor);
 		nodeText3.anchor.set(0.5);
 		nodeText3.x = (nodeText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 4;
 		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText3.height) * 0.5 + (shapeType == "circle" ? 8 : 0);
-
-		minusContainer = new PIXI.Container();
-		minusContainer.cursor = "pointer";
-		minusContainer.eventMode = "static";
 		minusContainer.addChild(nodeText3);
-		minusContainer
-			.on("click", () => handleMinusButton(node))
-			.on("tap", () => handleMinusButton(node));
 
-		nodeText4 = new PIXI.Text("+", {
+		plusContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[4] : new PIXI.Container();
+		plusContainer.cursor = "pointer";
+		plusContainer.eventMode = "static";
+		plusContainer
+			.on("click", () => handlePlusButton(node))
+			.on("tap", () => handlePlusButton(node));
+		nodeText4 = pixiNodes.length > nodeIndex ? plusContainer.children[0] : new PIXI.Text();
+		nodeText4.text = "+";
+		nodeText4.style = {
 			align: "right",
 			fill: _textColor,
 			fontFamily: fontFamilyOverride,
@@ -1862,23 +1883,16 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			fontVariant: "small-caps",
 			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			padding: 10
-		});
+		};
 		nodeText4.eventMode = "auto";
 		nodeText4.scale.set(1 / scaleFactor);
 		nodeText4.anchor.set(0.5);
 		nodeText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText4.width) * 0.5;
 		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText4.height) * 0.5 + (shapeType == "circle" ? 12 : 4);
-
-		plusContainer = new PIXI.Container();
-		plusContainer.cursor = "pointer";
-		plusContainer.eventMode = "static";
 		plusContainer.addChild(nodeText4);
-		plusContainer
-			.on("click", () => handlePlusButton(node))
-			.on("tap", () => handlePlusButton(node));
 	}
 
-	const nodeBorder = new PIXI.Graphics();
+	const nodeBorder = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[pixiNodes[nodeIndex].children.length - 1] : new PIXI.Graphics();
 	nodeBorder.eventMode = "auto";
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
@@ -1915,20 +1929,26 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeBorder.lineTo(0, 0);
 	}
 
-	const nodeContainer = new PIXI.Container();
+	const nodeContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0] : new PIXI.Container();
 	nodeContainer.eventMode = "static";
 
-	const nodeBackground = new PIXI.Graphics();
-	nodeBackground.eventMode = "auto";
-	nodeBackground.beginFill(backgroundColor);
-	if (shapeType == "circle") {
-		nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
+	let nodeBackground;
+	// I'm not entirely sure why beginFill isn't accessible on existing Graphics objects.. doesn't matter for now, though.
+	if (pixiNodes.length > nodeIndex) {
+		nodeBackground = nodeContainer.children[0];
 	} else {
-		nodeBackground.drawRect(0, 0, _nodeWidth * shapeSize, _nodeHeight * shapeSize);
+		nodeBackground = new PIXI.Graphics();
+		nodeBackground.eventMode = "auto";
+		nodeBackground.beginFill(backgroundColor);
+		if (shapeType == "circle") {
+			nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
+		} else {
+			nodeBackground.drawRect(0, 0, _nodeWidth * shapeSize, _nodeHeight * shapeSize);
+		}
+		nodeBackground.alpha = backgroundOpacity;
+		nodeBackground.pivot.x = _nodeWidth * 0.5 * shapeSize;
+		nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
 	}
-	nodeBackground.alpha = backgroundOpacity;
-	nodeBackground.pivot.x = _nodeWidth * 0.5 * shapeSize;
-	nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
 
 	nodeContainer.addChild(nodeBackground);
 	if (extraContainer != undefined) nodeContainer.addChild(extraContainer);
@@ -2049,7 +2069,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
 		node.addChild(nodeContainer, nodeText, nodeBorder);
 	} else {
-		node.addChild(nodeContainer, nodeText, nodeText2, plusContainer, minusContainer, nodeBorder);
+		node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
 	}
 }
 function drawAllNodes() {
