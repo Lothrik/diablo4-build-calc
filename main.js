@@ -426,9 +426,11 @@ function handleTooltipCopy(event) {
 			event.originalEvent.clipboardData.setData("text/plain", tooltipText);
 			event.preventDefault();
 		}
-		const tooltipCopyText = pixiTooltip.children[3].children[0];
-		tooltipCopyText.text = TOOLTIP_COPIED_TEXT;
-		tooltipCopyText.x = Math.max(pixiTooltip.children[1].width, pixiTooltip.children[2].width) - tooltipCopyText.width;
+		const tooltipCopyContainer = pixiTooltip.children[3];
+		if (tooltipCopyContainer.children.length > 0) {
+			tooltipCopyContainer.children[0].text = TOOLTIP_COPIED_TEXT;
+			tooltipCopyContainer.children[0].x = Math.max(pixiTooltip.children[1].width, pixiTooltip.children[2].width) - tooltipCopyContainer.children[0].width;
+		}
 	}
 }
 function handleSummaryButton(event) {
@@ -2607,27 +2609,29 @@ function drawTooltip(curNode, forceDraw) {
 		});
 	}
 
-	const tooltipCopyText = new PIXI.Text(TOOLTIP_COPY_TEXT, {
-		align: "right",
-		breakWords: true,
-		fill: textColor,
-		fontFamily: fontFamily,
-		fontSize: 32 * scaleFactor,
-		fontVariant: "small-caps",
-		fontWeight: "bold",
-		padding: 10
-	});
-	tooltipCopyText.eventMode = "auto";
-	tooltipCopyText.scale.set(1 / scaleFactor);
-	tooltipCopyText.anchor.set(0);
-	tooltipCopyText.x = Math.max(tooltipText1.width, tooltipText2.width) - tooltipCopyText.width;
 	const tooltipCopyContainer = new PIXI.Container();
-	tooltipCopyContainer.cursor = "pointer";
-	tooltipCopyContainer.eventMode = "static";
-	tooltipCopyContainer.addChild(tooltipCopyText);
-	tooltipCopyContainer
-		.on("click", () => handleTooltipCopy())
-		.on("tap", () => handleTooltipCopy());
+	if (tooltipText2.width > tooltipText1.width + 100) {
+		const tooltipCopyText = new PIXI.Text(TOOLTIP_COPY_TEXT, {
+			align: "right",
+			breakWords: true,
+			fill: textColor,
+			fontFamily: fontFamily,
+			fontSize: 32 * scaleFactor,
+			fontVariant: "small-caps",
+			fontWeight: "bold",
+			padding: 10
+		});
+		tooltipCopyText.eventMode = "auto";
+		tooltipCopyText.scale.set(1 / scaleFactor);
+		tooltipCopyText.anchor.set(0);
+		tooltipCopyText.x = tooltipText2.width - tooltipCopyText.width;
+		tooltipCopyContainer.cursor = "pointer";
+		tooltipCopyContainer.eventMode = "static";
+		tooltipCopyContainer.addChild(tooltipCopyText);
+		tooltipCopyContainer
+			.on("click", () => handleTooltipCopy())
+			.on("tap", () => handleTooltipCopy());
+	}
 
 	const tooltipBackground = new PIXI.Graphics();
 	tooltipBackground.beginFill(backgroundColor);
