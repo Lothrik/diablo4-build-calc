@@ -1969,7 +1969,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	if (extraContainer4 != undefined) nodeContainer.addChild(extraContainer4);
 
 	if (nodeData.get("nodeType") == "Socket") {
-		const glyphOutline = new PIXI.Sprite(PIXI.Texture.from("images/glyph_overlay.png"));
+		const glyphOutline = pixiNodes.length > nodeIndex ? nodeContainer.children[5] : new PIXI.Sprite(PIXI.Texture.from("images/glyph_overlay.png"));
 		glyphOutline.pivot.x = 695;
 		glyphOutline.pivot.y = 695;
 		glyphOutline.eventMode = "none";
