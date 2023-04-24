@@ -157,6 +157,8 @@ const COLOR_NODE_TEXT = "Choose your preferred active node color.";
 const DESIRED_ZOOM_LEVEL_PROMPT = "Please enter your desired UI zoom level (min: 0.25, max: 4):\nThis applies mostly to buttons, including the one you just clicked.";
 const DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT = "Please enter your desired tooltip zoom level (min: 0.25, max: 4):\nThis applies exclusively to node tooltips drawn inside the canvas.";
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
+const TOOLTIP_COPY_TEXT = "[Copy to Clipboard]";
+const TOOLTIP_COPIED_TEXT = "[Copied!]";
 const ENABLE_CLAMP_TEXT = "Enable Clamping";
 const DISABLE_CLAMP_TEXT = "Disable Clamping";
 const MATCH_FOUND_TEXT = " match found for query: ";
@@ -409,6 +411,26 @@ function setNodeStyleThin(curNode) {
 // event handlers
 const classString = "#classSelector option:selected";
 const groupString = "#groupSelector option:selected";
+function handleTooltipCopy(event) {
+	const tooltipChildren = pixiTooltip.children.length;
+	if (tooltipChildren > 0) {
+		let tooltipText = "";
+		for (let i = 0; i < tooltipChildren; i++) {
+			const tooltipChild = pixiTooltip.children[i];
+			if (tooltipChild.text != undefined) tooltipText += tooltipChild.text;
+		}
+		console.log(tooltipText);
+		if (event == undefined) {
+			navigator.clipboard.writeText(tooltipText);
+		} else {
+			event.originalEvent.clipboardData.setData("text/plain", tooltipText);
+			event.preventDefault();
+		}
+		const tooltipCopyText = pixiTooltip.children[3].children[0];
+		tooltipCopyText.text = TOOLTIP_COPIED_TEXT;
+		tooltipCopyText.x = Math.max(pixiTooltip.children[1].width, pixiTooltip.children[2].width) - tooltipCopyText.width;
+	}
+}
 function handleSummaryButton(event) {
 	const extraInfoHTML = $("#extraInfo").html();
 	if (event.type == "mouseenter" && extraInfoHTML.length == 0) {
@@ -631,7 +653,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
 	}
 }
-const localVersion = "0.8.1.39858-24";
+const localVersion = "0.8.1.39858-25";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2585,6 +2607,28 @@ function drawTooltip(curNode, forceDraw) {
 		});
 	}
 
+	const tooltipCopyText = new PIXI.Text(TOOLTIP_COPY_TEXT, {
+		align: "right",
+		breakWords: true,
+		fill: textColor,
+		fontFamily: fontFamily,
+		fontSize: 32 * scaleFactor,
+		fontVariant: "small-caps",
+		fontWeight: "bold",
+		padding: 10
+	});
+	tooltipCopyText.eventMode = "auto";
+	tooltipCopyText.scale.set(1 / scaleFactor);
+	tooltipCopyText.anchor.set(0);
+	tooltipCopyText.x = Math.max(tooltipText1.width, tooltipText2.width) - tooltipCopyText.width;
+	const tooltipCopyContainer = new PIXI.Container();
+	tooltipCopyContainer.cursor = "pointer";
+	tooltipCopyContainer.eventMode = "static";
+	tooltipCopyContainer.addChild(tooltipCopyText);
+	tooltipCopyContainer
+		.on("click", () => handleTooltipCopy())
+		.on("tap", () => handleTooltipCopy());
+
 	const tooltipBackground = new PIXI.Graphics();
 	tooltipBackground.beginFill(backgroundColor);
 	tooltipBackground.drawRect(0, 0, Math.max(tooltipText1.width, tooltipText2.width) + 20, tooltipText1.height + tooltipText2.height + 13);
@@ -2616,7 +2660,7 @@ function drawTooltip(curNode, forceDraw) {
 	pixiTooltip.zIndex = 2;
 
 	pixiTooltip.scale.set(clampScale);
-	pixiTooltip.addChild(tooltipBackground, tooltipText1, tooltipText2, tooltipBorder, tooltipSeperator);
+	pixiTooltip.addChild(tooltipBackground, tooltipText1, tooltipText2, tooltipCopyContainer, tooltipBorder, tooltipSeperator);
 
 	pixiJS.stage.addChild(pixiTooltip);
 
@@ -2987,6 +3031,7 @@ $(document).ready(function() {
 
 	$("#canvasContainer").append(pixiJS.renderer.view);
 	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove touchend contextmenu", handleCanvasEvent);
+	$(window).on("copy", handleTooltipCopy);
 	$(window).on("resize", resizeCanvas);
 
 	try {
