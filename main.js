@@ -1713,9 +1713,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[1] : new PIXI.Container();
 			extraContainer.cursor = "pointer";
 			extraContainer.eventMode = "static";
-			extraContainer
-				.on("click", () => setParagonBoardEquipIndex(boardIndex))
-				.on("tap", () => setParagonBoardEquipIndex(boardIndex));
+			if (pixiNodes.length <= nodeIndex) {
+				extraContainer
+					.on("click", () => setParagonBoardEquipIndex(boardIndex))
+					.on("tap", () => setParagonBoardEquipIndex(boardIndex));
+			}
 			const extraText = pixiNodes.length > nodeIndex ? extraContainer.children[0] : new PIXI.Text();
 			extraText.text = "Assign Index";
 			extraText.style = {
@@ -1737,9 +1739,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraContainer2 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[2] : new PIXI.Container();
 			extraContainer2.cursor = "pointer";
 			extraContainer2.eventMode = "static";
-			extraContainer2
-				.on("click", () => moveParagonBoard(boardIndex))
-				.on("tap", () => moveParagonBoard(boardIndex));
+			if (pixiNodes.length <= nodeIndex) {
+				extraContainer2
+					.on("click", () => moveParagonBoard(boardIndex))
+					.on("tap", () => moveParagonBoard(boardIndex));
+			}
 			const extraText2 = pixiNodes.length > nodeIndex ? extraContainer2.children[0] : new PIXI.Text();
 			extraText2.text = "←↕→";
 			extraText2.style = {
@@ -1761,9 +1765,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraContainer3 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[3] : new PIXI.Container();
 			extraContainer3.cursor = "pointer";
 			extraContainer3.eventMode = "static";
-			extraContainer3
-				.on("click", () => rotateParagonBoard(boardIndex, -90, true))
-				.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
+			if (pixiNodes.length <= nodeIndex) {
+				extraContainer3
+					.on("click", () => rotateParagonBoard(boardIndex, -90, true))
+					.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
+			}
 			const extraText3 = pixiNodes.length > nodeIndex ? extraContainer3.children[0] : new PIXI.Text();
 			extraText3.text = "↺";
 			extraText3.style = {
@@ -1784,9 +1790,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraContainer4 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[4] : new PIXI.Container();
 			extraContainer4.cursor = "pointer";
 			extraContainer4.eventMode = "static";
-			extraContainer4
-				.on("click", () => rotateParagonBoard(boardIndex, 90, true))
-				.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
+			if (pixiNodes.length <= nodeIndex) {
+				extraContainer4
+					.on("click", () => rotateParagonBoard(boardIndex, 90, true))
+					.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
+			}
 			const extraText4 = pixiNodes.length > nodeIndex ? extraContainer4.children[0] : new PIXI.Text();
 			extraText4.text = "↻";
 			extraText4.style = {
@@ -1846,9 +1854,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		minusContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[3] : new PIXI.Container();
 		minusContainer.cursor = "pointer";
 		minusContainer.eventMode = "static";
-		minusContainer
-			.on("click", () => handleMinusButton(node))
-			.on("tap", () => handleMinusButton(node));
+		if (pixiNodes.length <= nodeIndex) {
+			minusContainer
+				.on("click", () => handleMinusButton(node))
+				.on("tap", () => handleMinusButton(node));
+		}
 		nodeText3 = pixiNodes.length > nodeIndex ? minusContainer.children[0] : new PIXI.Text();
 		nodeText3.text = "–";
 		nodeText3.style = {
@@ -1870,9 +1880,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		plusContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[4] : new PIXI.Container();
 		plusContainer.cursor = "pointer";
 		plusContainer.eventMode = "static";
-		plusContainer
-			.on("click", () => handlePlusButton(node))
-			.on("tap", () => handlePlusButton(node));
+		if (pixiNodes.length <= nodeIndex) {
+			plusContainer
+				.on("click", () => handlePlusButton(node))
+				.on("tap", () => handlePlusButton(node));
+		}
 		nodeText4 = pixiNodes.length > nodeIndex ? plusContainer.children[0] : new PIXI.Text();
 		nodeText4.text = "+";
 		nodeText4.style = {
