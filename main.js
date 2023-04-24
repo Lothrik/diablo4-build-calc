@@ -429,7 +429,7 @@ function handleTooltipCopy(event) {
 		const tooltipCopyContainer = pixiTooltip.children[3];
 		if (tooltipCopyContainer.children.length > 0) {
 			tooltipCopyContainer.children[0].text = TOOLTIP_COPIED_TEXT;
-			tooltipCopyContainer.children[0].x = Math.max(pixiTooltip.children[1].width, pixiTooltip.children[2].width) - tooltipCopyContainer.children[0].width;
+			tooltipCopyContainer.children[0].x = pixiTooltip.children[2].width - tooltipCopyContainer.children[0].width;
 		}
 	}
 }
@@ -2610,7 +2610,7 @@ function drawTooltip(curNode, forceDraw) {
 	}
 
 	const tooltipCopyContainer = new PIXI.Container();
-	if (tooltipText2.width > tooltipText1.width + 100) {
+	if (tooltipText2.width > tooltipText1.width + 200) {
 		const tooltipCopyText = new PIXI.Text(TOOLTIP_COPY_TEXT, {
 			align: "right",
 			breakWords: true,
