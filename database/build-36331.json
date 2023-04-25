@@ -2013,7 +2013,7 @@
 						"stat_dword": 955625
 					},
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
 								1.0,
@@ -2025,7 +2025,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage With TwoHandedSlashing\n+4% Vulnerable Damage",
+				"desc": "+9.6% Damage With TwoHandedSlashing\n+4% Damage to Vulnerable Enemies",
 				"name": "Destroyer",
 				"tags": [
 					"Keyword_Vulnerable"
@@ -6951,7 +6951,7 @@
 			"Druid_Rare_003": {
 				"attributes": {
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -6974,13 +6974,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Vulnerable Damage\n+10 Willpower",
+				"desc": "+9.6% Damage to Vulnerable Enemies\n+10 Willpower",
 				"name": "Deluge",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+9.6% Vulnerable Damage",
+				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -7561,7 +7561,7 @@
 						"stat_dword": 1417890049
 					},
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
 								1.0,
@@ -7573,7 +7573,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Nature_Magic_Storm Skill Damage\n+4% Vulnerable Damage",
+				"desc": "+9.6% Skill_Nature_Magic_Storm Skill Damage\n+4% Damage to Vulnerable Enemies",
 				"name": "Stormcaller",
 				"tags": [
 					"Skill_Nature_Magic_Storm",
@@ -14168,7 +14168,7 @@
 			"Generic_Magic_DamageToVulnerable": {
 				"attributes": {
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.0,
@@ -14180,7 +14180,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Vulnerable Damage",
+				"desc": "+5% Damage to Vulnerable Enemies",
 				"name": "Damage To Vulnerable",
 				"tags": [
 					"Keyword_Vulnerable"
@@ -15804,7 +15804,7 @@
 						"stat_dword": 4294967295
 					},
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -15816,13 +15816,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Vulnerable Damage\n+2% Armor",
+				"desc": "+9.6% Damage to Vulnerable Enemies\n+2% Armor",
 				"name": "Pillage",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Armor"
 				],
-				"threshold_bonus": "+9.6% Vulnerable Damage",
+				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -16483,7 +16483,7 @@
 						"stat_dword": 4294967295
 					},
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
 								1.0,
@@ -16495,7 +16495,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Critical Strike Damage\n+4% Vulnerable Damage",
+				"desc": "+14.4% Critical Strike Damage\n+4% Damage to Vulnerable Enemies",
 				"name": "Tempest",
 				"tags": [
 					"Search_Critical",
@@ -16669,7 +16669,7 @@
 			"Generic_Rare_049": {
 				"attributes": {
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -16693,13 +16693,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Vulnerable Damage\n+10% Damage to Injured Enemies",
+				"desc": "+9.6% Damage to Vulnerable Enemies\n+10% Damage to Injured Enemies",
 				"name": "Exploit",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Critical"
 				],
-				"threshold_bonus": "+9.6% Vulnerable Damage",
+				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -17376,7 +17376,7 @@
 			"Generic_Rare_070": {
 				"attributes": {
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -17399,13 +17399,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Vulnerable Damage\n+10 Strength",
+				"desc": "+9.6% Damage to Vulnerable Enemies\n+10 Strength",
 				"name": "Demolish",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Strength"
 				],
-				"threshold_bonus": "+9.6% Vulnerable Damage",
+				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -31244,7 +31244,7 @@
 			"Sorcerer_Rare_015": {
 				"attributes": {
 					"609": {
-						"attribute_name": "Vulnerable_Health_Damage_Bonus",
+						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -31268,13 +31268,13 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "+9.6% Vulnerable Damage\n+6% Damage to Chilled Enemies",
+				"desc": "+9.6% Damage to Vulnerable Enemies\n+6% Damage to Chilled Enemies",
 				"name": "Icebreaker",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Keyword_Chill"
 				],
-				"threshold_bonus": "+9.6% Vulnerable Damage",
+				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"

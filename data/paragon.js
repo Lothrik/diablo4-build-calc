@@ -4606,7 +4606,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_030": {
 				"name": "Destroyer",
-				"description": "+9.6% Damage with TwoHandedSlashing\n+4% Vulnerable Damage\n\nBonus: Another +9.6% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
+				"description": "+9.6% Damage with TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +9.6% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{215 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -9677,7 +9677,7 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageToVulnerable": {
 				"name": "Damage To Vulnerable",
-				"description": "+5% Vulnerable Damage\n\nTags: Vulnerable, Damage."
+				"description": "+5% Damage to Vulnerable Enemies\n\nTags: Vulnerable, Damage."
 			},
 			"Generic_Magic_DamageWhileFortified": {
 				"name": "Damage While Fortified",
@@ -10143,7 +10143,7 @@ let paragonData = {
 			},
 			"Generic_Rare_025": {
 				"name": "Pillage",
-				"description": "+9.6% Vulnerable Damage\n+100 Armor\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
+				"description": "+9.6% Damage to Vulnerable Enemies\n+100 Armor\n\nBonus: Another +9.6% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10393,7 +10393,7 @@ let paragonData = {
 			},
 			"Generic_Rare_044": {
 				"name": "Tempest",
-				"description": "+14.4% Critical Strike Damage\n+4% Vulnerable Damage\n\nBonus: Another +14.4% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
+				"description": "+14.4% Critical Strike Damage\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +14.4% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -10444,7 +10444,7 @@ let paragonData = {
 			},
 			"Generic_Rare_049": {
 				"name": "Exploit",
-				"description": "+9.6% Vulnerable Damage\n+10% Damage to Injured Enemies\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
+				"description": "+9.6% Damage to Vulnerable Enemies\n+10% Damage to Injured Enemies\n\nBonus: Another +9.6% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
 				"thresholdRequirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -10645,7 +10645,7 @@ let paragonData = {
 			},
 			"Generic_Rare_070": {
 				"name": "Demolish",
-				"description": "+9.6% Vulnerable Damage\n+10 Strength\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
+				"description": "+9.6% Damage to Vulnerable Enemies\n+10 Strength\n\nBonus: Another +9.6% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -11035,7 +11035,7 @@ let paragonData = {
 			},
 			"Generic_Rare_095": {
 				"name": "Weakness",
-				"description": "+9.6% Vulnerable Damage\n+10 Intelligence\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
+				"description": "+9.6% Damage to Vulnerable Enemies\n+10 Intelligence\n\nBonus: Another +9.6% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -11050,7 +11050,7 @@ let paragonData = {
 			},
 			"Generic_Rare_096": {
 				"name": "Artifice",
-				"description": "+9.6% Vulnerable Damage\n+10 Dexterity\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
+				"description": "+9.6% Damage to Vulnerable Enemies\n+10 Dexterity\n\nBonus: Another +9.6% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
 				"thresholdRequirements": {
 					"Rogue": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -24892,7 +24892,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_015": {
 				"name": "Oppressive",
-				"description": "+9.6% Vulnerable Damage\n4% Damage Reduction from Vulnerable Enemies\n\nBonus: Another +9.6% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
+				"description": "+9.6% Damage to Vulnerable Enemies\n4% Damage Reduction from Vulnerable Enemies\n\nBonus: Another +9.6% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
