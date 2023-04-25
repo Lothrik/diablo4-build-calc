@@ -1943,22 +1943,18 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	const nodeContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0] : new PIXI.Container();
 	nodeContainer.eventMode = "static";
 
-	let nodeBackground;
-	if (updateExistingNode) {
-		nodeBackground = nodeContainer.children[0];
+	const nodeBackground = updateExistingNode ? nodeContainer.children[0] : new PIXI.Graphics();
+	nodeBackground.clear();
+	nodeBackground.eventMode = "auto";
+	nodeBackground.beginFill(backgroundColor);
+	if (shapeType == "circle") {
+		nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
 	} else {
-		nodeBackground = new PIXI.Graphics();
-		nodeBackground.eventMode = "auto";
-		nodeBackground.beginFill(backgroundColor);
-		if (shapeType == "circle") {
-			nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
-		} else {
-			nodeBackground.drawRect(0, 0, _nodeWidth * shapeSize, _nodeHeight * shapeSize);
-		}
-		nodeBackground.alpha = backgroundOpacity;
-		nodeBackground.pivot.x = _nodeWidth * 0.5 * shapeSize;
-		nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
+		nodeBackground.drawRect(0, 0, _nodeWidth * shapeSize, _nodeHeight * shapeSize);
 	}
+	nodeBackground.alpha = backgroundOpacity;
+	nodeBackground.pivot.x = _nodeWidth * 0.5 * shapeSize;
+	nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
 
 	if (!updateExistingNode) {
 		nodeContainer.addChild(nodeBackground);
@@ -2029,7 +2025,12 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			node
 				.on("click", () => handleToggleButton(node))
 				.on("tap", () => handleToggleButton(node));
+			node.cursor = "pointer";
+			nodeContainer.cursor = "pointer";
 		}
+
+		node.cullable = true;
+		node.eventMode = "static";
 
 		node.nodeName = nodeName;
 		node.nodeData = nodeData;
@@ -2064,27 +2065,19 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			}
 		}
 
-		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
-	}
-
-	node.cullable = true;
-	node.eventMode = "static";
-	if (maxPoints == 1) {
-		node.cursor = "pointer";
-		nodeContainer.cursor = "pointer";
-	}
-	node.stale = false;
-	node.position.x = x;
-	node.position.y = y;
-	node.scaleFactor = scaleFactor;
-
-	if (!updateExistingNode) {
 		if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
 			node.addChild(nodeContainer, nodeText, nodeBorder);
 		} else {
 			node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
 		}
+
+		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
 	}
+
+	node.stale = false;
+	node.position.x = x;
+	node.position.y = y;
+	node.scaleFactor = scaleFactor;
 }
 function drawAllNodes() {
 	const className = $(classString).val();
