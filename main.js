@@ -655,7 +655,7 @@ function handleColorButton(event) {
 		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
 	}
 }
-const localVersion = "0.8.1.39858-26";
+const localVersion = "0.8.1.39858-27";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1661,10 +1661,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 		// skip node redraw if we already have the correct one displayed
 		if (node.scaleFactor == scaleFactor) return;
-
-		// remove all existing node children
-		//while (node.children[0]) node.removeChild(node.children[0]);
 	}
+	const updateExistingNode = node != null;
 
 	let x = nodePosition == null ? nodeData.get("x") : nodePosition.x;
 	let y = nodePosition == null ? nodeData.get("y") : nodePosition.y;
@@ -1684,13 +1682,13 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 	let displayName = nodeName;
 	let displayNameSize = 36;
-	if (node == null) {
+	if (updateExistingNode) {
+		displayName = node.displayName;
+		displayNameSize = node.displayNameSize;
+	} else {
 		const maxLabelSize = Math.round(7.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
 		if (displayName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
 		if (displayName.length >= maxLabelSize - 2) displayNameSize = 32;
-	} else {
-		displayName = node.displayName;
-		displayNameSize = node.displayNameSize;
 	}
 
 	const allocatedPoints = nodeData.get("allocatedPoints");
@@ -1710,15 +1708,15 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		if (groupName == PARAGON_BOARD) {
 			const boardIndex = extraData;
 
-			extraContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[1] : new PIXI.Container();
+			extraContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[1] : new PIXI.Container();
 			extraContainer.cursor = "pointer";
 			extraContainer.eventMode = "static";
-			if (pixiNodes.length <= nodeIndex) {
+			if (!updateExistingNode) {
 				extraContainer
 					.on("click", () => setParagonBoardEquipIndex(boardIndex))
 					.on("tap", () => setParagonBoardEquipIndex(boardIndex));
 			}
-			const extraText = pixiNodes.length > nodeIndex ? extraContainer.children[0] : new PIXI.Text();
+			const extraText = updateExistingNode ? extraContainer.children[0] : new PIXI.Text();
 			extraText.text = "Assign Index";
 			extraText.style = {
 				align: "right",
@@ -1734,17 +1732,17 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraText.anchor.set(0.5);
 			extraText.x = (extraText.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 200;
 			extraText.y = 0;
-			extraContainer.addChild(extraText);
+			if (!updateExistingNode) extraContainer.addChild(extraText);
 
-			extraContainer2 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[2] : new PIXI.Container();
+			extraContainer2 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[2] : new PIXI.Container();
 			extraContainer2.cursor = "pointer";
 			extraContainer2.eventMode = "static";
-			if (pixiNodes.length <= nodeIndex) {
+			if (!updateExistingNode) {
 				extraContainer2
 					.on("click", () => moveParagonBoard(boardIndex))
 					.on("tap", () => moveParagonBoard(boardIndex));
 			}
-			const extraText2 = pixiNodes.length > nodeIndex ? extraContainer2.children[0] : new PIXI.Text();
+			const extraText2 = updateExistingNode ? extraContainer2.children[0] : new PIXI.Text();
 			extraText2.text = "←↕→";
 			extraText2.style = {
 				align: "right",
@@ -1760,17 +1758,17 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraText2.anchor.set(0.5);
 			extraText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText2.width) * 0.5 - 200;
 			extraText2.y = -8;
-			extraContainer2.addChild(extraText2);
+			if (!updateExistingNode) extraContainer2.addChild(extraText2);
 
-			extraContainer3 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[3] : new PIXI.Container();
+			extraContainer3 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[3] : new PIXI.Container();
 			extraContainer3.cursor = "pointer";
 			extraContainer3.eventMode = "static";
-			if (pixiNodes.length <= nodeIndex) {
+			if (!updateExistingNode) {
 				extraContainer3
 					.on("click", () => rotateParagonBoard(boardIndex, -90, true))
 					.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
 			}
-			const extraText3 = pixiNodes.length > nodeIndex ? extraContainer3.children[0] : new PIXI.Text();
+			const extraText3 = updateExistingNode ? extraContainer3.children[0] : new PIXI.Text();
 			extraText3.text = "↺";
 			extraText3.style = {
 				align: "left",
@@ -1785,17 +1783,17 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraText3.scale.set(1 / scaleFactor);
 			extraText3.anchor.set(0.5);
 			extraText3.x = (extraText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 16;
-			extraContainer3.addChild(extraText3);
+			if (!updateExistingNode) extraContainer3.addChild(extraText3);
 
-			extraContainer4 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0].children[4] : new PIXI.Container();
+			extraContainer4 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[4] : new PIXI.Container();
 			extraContainer4.cursor = "pointer";
 			extraContainer4.eventMode = "static";
-			if (pixiNodes.length <= nodeIndex) {
+			if (!updateExistingNode) {
 				extraContainer4
 					.on("click", () => rotateParagonBoard(boardIndex, 90, true))
 					.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
 			}
-			const extraText4 = pixiNodes.length > nodeIndex ? extraContainer4.children[0] : new PIXI.Text();
+			const extraText4 = updateExistingNode ? extraContainer4.children[0] : new PIXI.Text();
 			extraText4.text = "↻";
 			extraText4.style = {
 				align: "right",
@@ -1810,14 +1808,14 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			extraText4.scale.set(1 / scaleFactor);
 			extraText4.anchor.set(0.5);
 			extraText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText4.width) * 0.5 - 16;
-			extraContainer4.addChild(extraText4);
+			if (!updateExistingNode) extraContainer4.addChild(extraText4);
 		} else if (nodePosition == null) {
 			x += extraData.get("x");
 			y += extraData.get("y");
 		}
 	}
 
-	const nodeText = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[1] : new PIXI.Text();
+	const nodeText = updateExistingNode ? pixiNodes[nodeIndex].children[1] : new PIXI.Text();
 	nodeText.text = displayName;
 	nodeText.style = {
 		align: "center",
@@ -1834,7 +1832,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
 	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints > 1) {
-		nodeText2 = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[2] : new PIXI.Text();
+		nodeText2 = updateExistingNode ? pixiNodes[nodeIndex].children[2] : new PIXI.Text();
 		nodeText2.text = allocatedPoints + "/" + maxPoints;
 		nodeText2.style = {
 			align: "right",
@@ -1851,10 +1849,10 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText2.width) * 0.5 - 5;
 		nodeText2.y = (nodeText2.height - _nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? -2 : 2);
 
-		minusContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[3] : new PIXI.Container();
+		minusContainer = updateExistingNode ? pixiNodes[nodeIndex].children[3] : new PIXI.Container();
 		minusContainer.cursor = "pointer";
 		minusContainer.eventMode = "static";
-		if (pixiNodes.length <= nodeIndex) {
+		if (!updateExistingNode) {
 			minusContainer
 				.on("click", () => handleMinusButton(node))
 				.on("tap", () => handleMinusButton(node));
@@ -1875,17 +1873,17 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText3.anchor.set(0.5);
 		nodeText3.x = (nodeText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 4;
 		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText3.height) * 0.5 + (shapeType == "circle" ? 8 : 0);
-		minusContainer.addChild(nodeText3);
+		if (!updateExistingNode) minusContainer.addChild(nodeText3);
 
-		plusContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[4] : new PIXI.Container();
+		plusContainer = updateExistingNode ? pixiNodes[nodeIndex].children[4] : new PIXI.Container();
 		plusContainer.cursor = "pointer";
 		plusContainer.eventMode = "static";
-		if (pixiNodes.length <= nodeIndex) {
+		if (!updateExistingNode) {
 			plusContainer
 				.on("click", () => handlePlusButton(node))
 				.on("tap", () => handlePlusButton(node));
 		}
-		nodeText4 = pixiNodes.length > nodeIndex ? plusContainer.children[0] : new PIXI.Text();
+		nodeText4 = updateExistingNode ? plusContainer.children[0] : new PIXI.Text();
 		nodeText4.text = "+";
 		nodeText4.style = {
 			align: "right",
@@ -1901,10 +1899,10 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText4.anchor.set(0.5);
 		nodeText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText4.width) * 0.5;
 		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText4.height) * 0.5 + (shapeType == "circle" ? 12 : 4);
-		plusContainer.addChild(nodeText4);
+		if (!updateExistingNode) plusContainer.addChild(nodeText4);
 	}
 
-	const nodeBorder = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[pixiNodes[nodeIndex].children.length - 1] : new PIXI.Graphics();
+	const nodeBorder = updateExistingNode ? pixiNodes[nodeIndex].children[pixiNodes[nodeIndex].children.length - 1] : new PIXI.Graphics();
 	nodeBorder.eventMode = "auto";
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
@@ -1928,25 +1926,26 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 		nodeBorder.lineStyle(_lineStyleThinSquare);
 	}
-	if (shapeType == "circle") {
-		nodeBorder.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
-	} else {
-		nodeBorder.moveTo(0, 0);
-		nodeBorder.lineTo(_nodeWidth * shapeSize, 0);
-		nodeBorder.moveTo(_nodeWidth * shapeSize, 0);
-		nodeBorder.lineTo(_nodeWidth * shapeSize, _nodeHeight * shapeSize);
-		nodeBorder.moveTo(_nodeWidth * shapeSize, _nodeHeight * shapeSize);
-		nodeBorder.lineTo(0, _nodeHeight * shapeSize);
-		nodeBorder.moveTo(0, _nodeHeight * shapeSize);
-		nodeBorder.lineTo(0, 0);
+	if (!updateExistingNode) {
+		if (shapeType == "circle") {
+			nodeBorder.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
+		} else {
+			nodeBorder.moveTo(0, 0);
+			nodeBorder.lineTo(_nodeWidth * shapeSize, 0);
+			nodeBorder.moveTo(_nodeWidth * shapeSize, 0);
+			nodeBorder.lineTo(_nodeWidth * shapeSize, _nodeHeight * shapeSize);
+			nodeBorder.moveTo(_nodeWidth * shapeSize, _nodeHeight * shapeSize);
+			nodeBorder.lineTo(0, _nodeHeight * shapeSize);
+			nodeBorder.moveTo(0, _nodeHeight * shapeSize);
+			nodeBorder.lineTo(0, 0);
+		}
 	}
 
-	const nodeContainer = pixiNodes.length > nodeIndex ? pixiNodes[nodeIndex].children[0] : new PIXI.Container();
+	const nodeContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0] : new PIXI.Container();
 	nodeContainer.eventMode = "static";
 
 	let nodeBackground;
-	// I'm not entirely sure why beginFill isn't accessible on existing Graphics objects.. doesn't matter for now, though.
-	if (pixiNodes.length > nodeIndex) {
+	if (updateExistingNode) {
 		nodeBackground = nodeContainer.children[0];
 	} else {
 		nodeBackground = new PIXI.Graphics();
@@ -1962,18 +1961,20 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeBackground.pivot.y = _nodeHeight * 0.5 * shapeSize;
 	}
 
-	nodeContainer.addChild(nodeBackground);
-	if (extraContainer != undefined) nodeContainer.addChild(extraContainer);
-	if (extraContainer2 != undefined) nodeContainer.addChild(extraContainer2);
-	if (extraContainer3 != undefined) nodeContainer.addChild(extraContainer3);
-	if (extraContainer4 != undefined) nodeContainer.addChild(extraContainer4);
+	if (!updateExistingNode) {
+		nodeContainer.addChild(nodeBackground);
+		if (extraContainer != undefined) nodeContainer.addChild(extraContainer);
+		if (extraContainer2 != undefined) nodeContainer.addChild(extraContainer2);
+		if (extraContainer3 != undefined) nodeContainer.addChild(extraContainer3);
+		if (extraContainer4 != undefined) nodeContainer.addChild(extraContainer4);
+	}
 
 	if (nodeData.get("nodeType") == "Socket") {
-		const glyphOutline = pixiNodes.length > nodeIndex ? nodeContainer.children[5] : new PIXI.Sprite(PIXI.Texture.from("images/glyph_overlay.png"));
+		const glyphOutline = updateExistingNode ? nodeContainer.children[nodeContainer.children.length - 1] : new PIXI.Sprite(PIXI.Texture.from("images/glyph_overlay.png"));
 		glyphOutline.pivot.x = 695;
 		glyphOutline.pivot.y = 695;
 		glyphOutline.eventMode = "none";
-		nodeContainer.addChild(glyphOutline);
+		if (!updateExistingNode) nodeContainer.addChild(glyphOutline);
 	}
 
 	/*
@@ -1999,7 +2000,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeBorder.angle = 45;
 	}
 
-	if (node == null) {
+	if (!updateExistingNode) {
 		node = new PIXI.Container();
 
 		node._renderHooked = node._render;
@@ -2078,10 +2079,12 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	node.position.y = y;
 	node.scaleFactor = scaleFactor;
 
-	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
-		node.addChild(nodeContainer, nodeText, nodeBorder);
-	} else {
-		node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
+	if (!updateExistingNode) {
+		if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
+			node.addChild(nodeContainer, nodeText, nodeBorder);
+		} else {
+			node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
+		}
 	}
 }
 function drawAllNodes() {
