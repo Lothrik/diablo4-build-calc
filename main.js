@@ -1903,6 +1903,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	const nodeBorder = updateExistingNode ? pixiNodes[nodeIndex].children[pixiNodes[nodeIndex].children.length - 1] : new PIXI.Graphics();
+	nodeBorder.clear();
 	nodeBorder.eventMode = "auto";
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
@@ -1926,19 +1927,17 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 		nodeBorder.lineStyle(_lineStyleThinSquare);
 	}
-	if (!updateExistingNode) {
-		if (shapeType == "circle") {
-			nodeBorder.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
-		} else {
-			nodeBorder.moveTo(0, 0);
-			nodeBorder.lineTo(_nodeWidth * shapeSize, 0);
-			nodeBorder.moveTo(_nodeWidth * shapeSize, 0);
-			nodeBorder.lineTo(_nodeWidth * shapeSize, _nodeHeight * shapeSize);
-			nodeBorder.moveTo(_nodeWidth * shapeSize, _nodeHeight * shapeSize);
-			nodeBorder.lineTo(0, _nodeHeight * shapeSize);
-			nodeBorder.moveTo(0, _nodeHeight * shapeSize);
-			nodeBorder.lineTo(0, 0);
-		}
+	if (shapeType == "circle") {
+		nodeBorder.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
+	} else {
+		nodeBorder.moveTo(0, 0);
+		nodeBorder.lineTo(_nodeWidth * shapeSize, 0);
+		nodeBorder.moveTo(_nodeWidth * shapeSize, 0);
+		nodeBorder.lineTo(_nodeWidth * shapeSize, _nodeHeight * shapeSize);
+		nodeBorder.moveTo(_nodeWidth * shapeSize, _nodeHeight * shapeSize);
+		nodeBorder.lineTo(0, _nodeHeight * shapeSize);
+		nodeBorder.moveTo(0, _nodeHeight * shapeSize);
+		nodeBorder.lineTo(0, 0);
 	}
 
 	const nodeContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0] : new PIXI.Container();
