@@ -626,7 +626,7 @@ function refreshDetailsWindow() {
 			+ `<div>${baseDex + levelAttributes + paragonAttributeTotals["Dexterity"]} Dexterity</div>`
 			+ `<div>[Base + Level + Paragon]</div>`);
 	} else {
-		$("#detailsWindow").addClass("disabled");
+		$("#detailsWindow").offset({ left: 0, top: 0 }).addClass("disabled");
 		$("#detailsWindowContents").empty();
 	}
 }
