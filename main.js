@@ -655,7 +655,7 @@ function handleClampButton(event) {
 	resetFrameTimer();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-27";
+const localVersion = "0.8.1.39858-28";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
