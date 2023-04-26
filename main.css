@@ -230,8 +230,8 @@ h1, h2, h3 {
 	appearance: none;
 }
 
-#classSelectBox span:hover, #extraInfo span:hover {
-    text-decoration: underline;
+#classSelectBox span:hover, #extraInfo span:hover, #extraInfo a:hover {
+	text-decoration: underline;
 	color: #f0f;
 	cursor: pointer;
 }
@@ -257,7 +257,8 @@ h1, h2, h3 {
 	margin: auto;
 }
 
-#extraInfo > div {
+#extraInfo > div, #extraInfo > a {
+	text-decoration: none;
 	display: flex;
 	cursor: pointer;
 	font-variant: small-caps;
