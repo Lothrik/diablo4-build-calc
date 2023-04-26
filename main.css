@@ -86,7 +86,7 @@ h1, h2, h3 {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	z-index: 9!important;
+	z-index: 8!important;
 }
 
 #detailsWindow {
@@ -94,7 +94,7 @@ h1, h2, h3 {
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 1px solid #fff;
 	text-align: center;
-	z-index: 7!important;
+	z-index: 6!important;
 }
 
 #detailsWindow > * {
@@ -106,7 +106,7 @@ h1, h2, h3 {
 	font-size: 28px;
 	font-variant: small-caps;
 	cursor: move;
-	z-index: 8!important;
+	z-index: 7!important;
 }
 
 #canvasContainer {
@@ -178,7 +178,7 @@ h1, h2, h3 {
 	align-items: center;
 	justify-content: center;
 	pointer-events: none;
-	z-index: 3!important;
+	z-index: 9!important;
 }
 
 #flexContainer > * {
