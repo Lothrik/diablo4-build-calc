@@ -94,6 +94,7 @@ h1, h2, h3 {
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 1px solid #fff;
 	text-align: center;
+	white-space: nowrap;
 	z-index: 6!important;
 }
 

@@ -3247,6 +3247,7 @@ $(document).ready(function() {
 	$(window).on("copy", handleTooltipCopy);
 	$(window).on("resize", resizeCanvas);
 
+	refreshDetailsWindow();
 	try {
 		handleReloadButton();
 	} catch (e) {
