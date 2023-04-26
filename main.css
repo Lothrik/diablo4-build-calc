@@ -81,12 +81,32 @@ h1, h2, h3 {
 
 #fadeOverlay {
 	position: absolute;
-	background-color: rgba(0,0,0,0.65);
+	background-color: rgba(0, 0, 0, 0.65);
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
-	z-index: 2!important;
+	z-index: 9!important;
+}
+
+#detailsWindow {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 1px solid #fff;
+	text-align: center;
+	z-index: 7!important;
+}
+
+#detailsWindow > * {
+	padding: 10px;
+}
+
+#detailsWindowHeader {
+	border-bottom: 1px solid #fff;
+	font-size: 28px;
+	font-variant: small-caps;
+	cursor: move;
+	z-index: 8!important;
 }
 
 #canvasContainer {
@@ -132,30 +152,6 @@ h1, h2, h3 {
 
 #header h2 {
 	font-size: 80%;
-}
-
-#floatLeft {
-	height: 32px;
-	margin: 0 calc(100% - 32px) -32px 0;
-	width: 32px;
-}
-
-#floatRight {
-	height: 32px;
-	margin: 0 0 -32px calc(100% - 64px);
-	width: 64px;
-}
-
-#floatLeft *, #floatRight * {
-	cursor: pointer;
-	float: left;
-	height: 32px;
-	width: 32px;
-}
-
-#colorConnectorInput, #colorNodeInput {
-	visibility: hidden;
-	margin-right: -32px;
 }
 
 .visible, .visible * {
@@ -234,7 +230,7 @@ h1, h2, h3 {
 	appearance: none;
 }
 
-#classSelectBox span:hover {
+#classSelectBox span:hover, #extraInfo span:hover {
     text-decoration: underline;
 	color: #f0f;
 	cursor: pointer;
@@ -253,19 +249,29 @@ h1, h2, h3 {
 	padding: 10px;
 	width: 354px;
 	align-items: center;
-	justify-content: center;
-	pointer-events: none;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
-#extraInfo a {
-	text-decoration: none;
+#extraInfo :last-child { /* :not(div) */
+	margin: auto;
+}
+
+#extraInfo > div {
+	display: flex;
+	cursor: pointer;
 	font-variant: small-caps;
 	line-height: 1.25;
-	pointer-events: auto;
+	align-items: center;
 }
 
-#extraInfo a:hover {
-	text-decoration: underline;
+#extraInfo > div > img {
+	height: 22px;
+}
+
+#extraInfo > .break {
+	flex-basis: 100%;
+	height: 0;
 }
 
 #extraButtons1, #extraButtons2 {
@@ -358,23 +364,6 @@ button:active {
 		font-size: 7vw;
 		padding: 2.4vw 0;
 	}
-	#floatLeft {
-		height: 7.7vw;
-		margin: 0 calc(100% - 7.7vw) -7.7vw 0;
-		width: 7.7vw;
-	}
-	#floatRight {
-		height: 7.7vw;
-		margin: 0 0 -7.7vw calc(100% - 15.4vw);
-		width: 15.4vw;
-	}
-	#floatLeft *, #floatRight * {
-		height: 7.7vw;
-		width: 7.7vw;
-	}
-	#colorConnectorInput, #colorNodeInput {
-		margin-right: -7.7vw;
-	}
 	select, input, option, button {
 		font-size: 4.4vw!important;
 		height: auto;
@@ -382,6 +371,13 @@ button:active {
 	}
 	select {
 		padding: 0 3.6vw 0 0.8vw;
+	}
+	#extraInfo {
+		font-size: 4.4vw;
+		padding: 2.4vw;
+	}
+	#extraInfo > div > img {
+		height: 4.4vw;
 	}
 	#extraInfo, #extraButtons1, #extraButtons2 {
 		margin-bottom: 2.4vw;

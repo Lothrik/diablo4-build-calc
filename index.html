@@ -29,19 +29,14 @@
 </head>
 <body>
 	<div id="fadeOverlay" class="disabled"></div>
+	<div id="detailsWindow" class="disabled">
+		<div id="detailsWindowHeader">Character Details</div>
+		<div id="detailsWindowContents"></div>
+	</div>
 	<div id="canvasContainer"></div>
 	<div id="header">
 		<h1><a href="#" target="_blank">Diablo IV Build Calculator</a><div id="versionLabel" class="disabled"></div></h1>
 		<h2 class="disabled">Level <span id="charLevel">1</span> <span id="className">None</span><span id="renownLevel"></span></h2>
-	</div>
-	<div id="floatLeft">
-		<img id="summaryButton" src="images/sigma.svg" class="disabled">
-	</div>
-	<div id="floatRight">
-		<img id="zoomButton" src="images/zoom.svg" class="disabled">
-		<input id="colorConnectorInput" type="color">
-		<input id="colorNodeInput" type="color">
-		<img id="colorButton" src="images/color.svg" class="disabled">
 	</div>
 	<div id="flexContainer">
 		<span id="classSelectBox" class="disabled">
@@ -70,8 +65,8 @@
 			<input id="searchInput" type="text" placeholder="Search.." class="disabled">
 		</div>
 		<div id="extraButtons2" class="disabled">
+			<button id="menuButton" type="button">Open Menu</button>
 			<button id="resetButton" type="button">Reset</button>
-			<button id="clampButton" type="button">Enable Clamping</button>
 			<button id="saveButton" type="button">Save</button>
 			<button id="reloadButton" type="button">Reload</button>
 			<button id="shareButton" type="button">Share URL</button>

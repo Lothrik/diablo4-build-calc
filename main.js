@@ -148,19 +148,20 @@ const tooltipWidth = 680;
 // evil magic variables that probably need to be replaced later to support multiple languages
 const BUILD_LOAD_ERROR_PREFIX = `An error occurred while loading this build: "`;
 const BUILD_LOAD_ERROR_SUFFIX = `"; have you tried reloading the page?`;
-const SUMMARY_HOVER_HTML = "Click to copy a full summary of this build to your clipboard.";
-const SUMMARY_CLICK_SUCCESS_HTML = "Build summary copied, check your clipboard!";
-const SUMMARY_CLICK_FAILURE_HTML = "Build summary copy failed &mdash; do you have a build loaded?";
-const COLOR_HOVER_HTML = "Click to customize connector and node colors.<br>Custom color choices will persist across sessions.";
-const COLOR_LINE_TEXT = "Choose your preferred active line color.";
-const COLOR_NODE_TEXT = "Choose your preferred active node color.";
 const DESIRED_ZOOM_LEVEL_PROMPT = "Please enter your desired UI zoom level (min: 0.25, max: 4):\nThis applies mostly to buttons, including the one you just clicked.";
 const DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT = "Please enter your desired tooltip zoom level (min: 0.25, max: 4):\nThis applies exclusively to node tooltips drawn inside the canvas.";
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const TOOLTIP_COPY_TEXT = "[Copy to Clipboard]";
 const TOOLTIP_COPIED_TEXT = "[Copied!]";
-const ENABLE_CLAMP_TEXT = "Enable Clamping";
-const DISABLE_CLAMP_TEXT = "Disable Clamping";
+const OPEN_MENU_TEXT = "Open Menu";
+const CLOSE_MENU_TEXT = "Close Menu";
+const COPY_BUILD_SUMMARY_TEXT = "Copy Summary";
+const COPY_BUILD_SUMMARY_SUCCESS_TEXT = "Copied to Clipboard!";
+const ADJUST_ZOOM_LEVEL_TEXT = "Adjust Zoom";
+const SHOW_DETAILS_WINDOW_TEXT = "Show Details";
+const HIDE_DETAILS_WINDOW_TEXT = "Hide Details";
+const ENABLE_TOOLTIP_CLAMP_TEXT = "Enable Tooltip Clamping";
+const DISABLE_TOOLTIP_CLAMP_TEXT = "Disable Tooltip Clamping";
 const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
@@ -256,9 +257,8 @@ const backgroundOpacity = 0.8;//backgroundColorHEX.length == 8 ? 1 : (background
 //const borderColorHEX = rgba2hex($("#header").css("border-color"));
 const borderColor = 0xFFFFFF;//borderColorHEX.length == 8 ? Number(borderColorHEX) : borderColorHEX >>> 8;
 const borderOpacity = 1;//borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
-const activeColorDefault = "ff0000";
-var activeConnectorColor = Number("0x" + readCookie("activeConnectorColor", activeColorDefault));
-var activeNodeColor = Number("0x" + readCookie("activeNodeColor", activeColorDefault));
+const activeConnectorColor = 0xFF0000;
+const activeNodeColor = 0xFF0000;
 
 const lineStyleThinSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
 const lineStyleThinButt = { alpha: borderOpacity, cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
@@ -281,7 +281,11 @@ var pixiTooltip = new PIXI.Container();
 var pixiDragging = null;
 
 var debugMode = false;
+var detailsMode = readCookie("detailsMode") == "true" ? true : false;
 var clampMode = readCookie("clampMode") == "true" ? true : false;
+
+var detailsWindowIsMoving = false;
+var detailsWindowLastPosition = null;
 
 var touchTimer = null;
 var isTouching = false;
@@ -434,150 +438,137 @@ function handleTooltipCopy(event) {
 	}
 }
 function handleSummaryButton(event) {
-	const extraInfoHTML = $("#extraInfo").html();
-	if (event.type == "mouseenter" && extraInfoHTML.length == 0) {
-		$("#extraInfo").html(SUMMARY_HOVER_HTML).removeClass("disabled");
-	} else if (event.type == "mouseleave" && extraInfoHTML == SUMMARY_HOVER_HTML) {
-		$("#extraInfo").empty().addClass("disabled");
-	} else if (event.type == "click") {
-		let allocatedTreeNodes = {};
-		let allocatedParagonNodes = {};
-		let allocatedCodexNodes = {};
-		let allocatedBoonNodes = {};
-		let allocatedBookNodes = {};
-		pixiNodes.forEach(pixiNode => {
-			const nodeName = pixiNode.nodeName;
-			const nodeDesc = pixiNode.nodeDesc;
-			const groupName = pixiNode.groupName;
-			const nodeData = pixiNode.nodeData;
-			const allocatedPoints = nodeData.get("allocatedPoints");
-			if (allocatedPoints) {
-				if (pixiNode.groupName == PARAGON_BOARD) {
-					const boardName = nodeData.get("_boardName");
-					const nodeType = nodeData.get("nodeType");
-					if (!(boardName in allocatedParagonNodes)) allocatedParagonNodes[boardName] = {};
-					if (!(nodeType in allocatedParagonNodes[boardName])) allocatedParagonNodes[boardName][nodeType] = {};
-					allocatedParagonNodes[boardName][nodeType][nodeName] = nodeDesc;
-				} else if (groupName == CODEX_OF_POWER) {
-					const codexCategory = nodeData.get("codexCategory");
-					if (!(codexCategory in allocatedCodexNodes)) allocatedCodexNodes[codexCategory] = {};
-					allocatedCodexNodes[codexCategory][nodeName] = {
-						"nodeDesc": nodeDesc,
-						"itemSlot": nodeData.get("itemSlot"),
-						"itemType": nodeData.get("itemType")
-					};
-				} else if (groupName == SPIRIT_BOONS) {
-					if (nodeDesc != SPIRIT_BOON_DESC) allocatedBoonNodes[nodeName] = nodeDesc;
-				} else if (groupName == BOOK_OF_THE_DEAD) {
-					allocatedBookNodes[nodeName] = nodeDesc;
-				} else {
-					if (!(groupName in allocatedTreeNodes)) allocatedTreeNodes[groupName] = {};
-					const baseSkill = nodeData.get("baseSkill");
-					if (baseSkill != undefined) {
-						// active skill modifier
-						if (!(baseSkill in allocatedTreeNodes[groupName])) allocatedTreeNodes[groupName][baseSkill] = {};
-						if (!("activeModifiers" in allocatedTreeNodes[groupName][baseSkill])) allocatedTreeNodes[groupName][baseSkill]["activeModifiers"] = [];
-						allocatedTreeNodes[groupName][baseSkill]["activeModifiers"].push(nodeName.split(` ${baseSkill}`)[0]);
-					} else if (groupName == KEY_PASSIVE) {
-						allocatedTreeNodes[groupName] = {
-							"nodeName": nodeName,
-							"nodeDesc": nodeDesc
-						};
-					} else {
-						if (!(nodeName in allocatedTreeNodes[groupName])) allocatedTreeNodes[groupName][nodeName] = {};
-						allocatedTreeNodes[groupName][nodeName] = {
-							"allocatedPoints": allocatedPoints,
-							"maxPoints": nodeData.get("maxPoints"),
-							"isPassive": nodeData.get("maxPoints") == 3
-						};
-					}
-				}
-			}
-		});
-		let treeOutput = `[${SKILL_TREE}]:`;
-		for (const groupName of sortedTreeGroupTypes) {
-			const groupData = allocatedTreeNodes[groupName];
-			if (groupData == undefined) continue;
-			if (groupName == KEY_PASSIVE) {
-				treeOutput += `\n\t[${KEY_PASSIVE}]:\n\t\t[${groupData.nodeName}]: allocated.`;
+	let allocatedTreeNodes = {};
+	let allocatedParagonNodes = {};
+	let allocatedCodexNodes = {};
+	let allocatedBoonNodes = {};
+	let allocatedBookNodes = {};
+	pixiNodes.forEach(pixiNode => {
+		const nodeName = pixiNode.nodeName;
+		const nodeDesc = pixiNode.nodeDesc;
+		const groupName = pixiNode.groupName;
+		const nodeData = pixiNode.nodeData;
+		const allocatedPoints = nodeData.get("allocatedPoints");
+		if (allocatedPoints) {
+			if (pixiNode.groupName == PARAGON_BOARD) {
+				const boardName = nodeData.get("_boardName");
+				const nodeType = nodeData.get("nodeType");
+				if (!(boardName in allocatedParagonNodes)) allocatedParagonNodes[boardName] = {};
+				if (!(nodeType in allocatedParagonNodes[boardName])) allocatedParagonNodes[boardName][nodeType] = {};
+				allocatedParagonNodes[boardName][nodeType][nodeName] = nodeDesc;
+			} else if (groupName == CODEX_OF_POWER) {
+				const codexCategory = nodeData.get("codexCategory");
+				if (!(codexCategory in allocatedCodexNodes)) allocatedCodexNodes[codexCategory] = {};
+				allocatedCodexNodes[codexCategory][nodeName] = {
+					"nodeDesc": nodeDesc,
+					"itemSlot": nodeData.get("itemSlot"),
+					"itemType": nodeData.get("itemType")
+				};
+			} else if (groupName == SPIRIT_BOONS) {
+				if (nodeDesc != SPIRIT_BOON_DESC) allocatedBoonNodes[nodeName] = nodeDesc;
+			} else if (groupName == BOOK_OF_THE_DEAD) {
+				allocatedBookNodes[nodeName] = nodeDesc;
 			} else {
-				treeOutput += `\n\t[${groupName}]:`;
-				for (const [nodeName, nodeData] of Object.entries(groupData)) {
-					treeOutput += `\n\t\t[${nodeName}]${nodeData.maxPoints == 1 ? " allocated" : ": " + nodeData.allocatedPoints + "/" + nodeData.maxPoints + " points"}`;
-					if ("activeModifiers" in nodeData && nodeData["activeModifiers"].length > 0) treeOutput += `. Modifiers: ${nodeData.activeModifiers.join(", ")}`;
-					treeOutput += ".";
-				}
-			}
-		}
-		let boonOutput = `[${SPIRIT_BOONS}]:`;
-		for (const [boonName, boonDesc] of Object.entries(allocatedBoonNodes)) boonOutput += `\n\t[${boonName}]: ${boonDesc}`;
-		let bookOutput = `[${BOOK_OF_THE_DEAD}]:`;
-		for (const [bookName, bookDesc] of Object.entries(allocatedBookNodes)) bookOutput += `\n\t[${bookName}]: ${bookDesc}`;
-		let codexOutput = `[${CODEX_OF_POWER}]:`;
-		for (const codexCategory of sortedCodexCategoryTypes) {
-			const categoryData = allocatedCodexNodes[codexCategory];
-			if (categoryData == undefined) continue;
-			codexOutput += `\n\t[${codexCategory}]:`;
-			for (const [nodeName, nodeData] of Object.entries(categoryData)) {
-				if (nodeData.itemSlot == undefined) {
-					codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+				if (!(groupName in allocatedTreeNodes)) allocatedTreeNodes[groupName] = {};
+				const baseSkill = nodeData.get("baseSkill");
+				if (baseSkill != undefined) {
+					// active skill modifier
+					if (!(baseSkill in allocatedTreeNodes[groupName])) allocatedTreeNodes[groupName][baseSkill] = {};
+					if (!("activeModifiers" in allocatedTreeNodes[groupName][baseSkill])) allocatedTreeNodes[groupName][baseSkill]["activeModifiers"] = [];
+					allocatedTreeNodes[groupName][baseSkill]["activeModifiers"].push(nodeName.split(` ${baseSkill}`)[0]);
+				} else if (groupName == KEY_PASSIVE) {
+					allocatedTreeNodes[groupName] = {
+						"nodeName": nodeName,
+						"nodeDesc": nodeDesc
+					};
 				} else {
-					codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType} ${nodeData.itemSlot})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+					if (!(nodeName in allocatedTreeNodes[groupName])) allocatedTreeNodes[groupName][nodeName] = {};
+					allocatedTreeNodes[groupName][nodeName] = {
+						"allocatedPoints": allocatedPoints,
+						"maxPoints": nodeData.get("maxPoints"),
+						"isPassive": nodeData.get("maxPoints") == 3
+					};
 				}
 			}
 		}
-		let paragonOutput = `[${PARAGON_BOARD}]:`;
-		for (const [boardName, boardData] of Object.entries(allocatedParagonNodes)) {
-			paragonOutput += `\n\t[${boardName}]:`;
-			for (const nodeType of sortedParagonNodeTypes) {
-				const nodeData = boardData[nodeType];
-				if (nodeData == undefined) continue;
-				const nodeTypeCount = Object.keys(nodeData).length;
-				const nodeTypeSuffix = nodeTypeCount == 1 ? "node" : "nodes";
-				if (["Normal", "Magic"].includes(nodeType)) {
-					paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated.`;
-				} else if (nodeType == "Rare") {
-					paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: [${Object.keys(nodeData).join("], [")}].`;
-				} else if (nodeType == "Socket") {
-					paragonOutput += `\n\t\t${nodeTypeCount} glyph ${nodeType.toLowerCase()} allocated.`;
-				} else if (nodeType == "Legendary") {
-					paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: "${Object.values(nodeData)[0].split("\n\nTags:")[0]}"`;
-				}
-			}
-		}
-		let finalOutput = "";
-		if (treeOutput.includes("\t")) finalOutput = treeOutput;
-		const summaryItems = [boonOutput, bookOutput, codexOutput, paragonOutput];
-		for (const summaryItem of summaryItems) {
-			if (summaryItem.includes("\t")) {
-				if (finalOutput.length > 0) finalOutput += "\n\n";
-				finalOutput += summaryItem;
-			}
-		}
-		if (finalOutput.length > 0) {
-			navigator.clipboard.writeText(finalOutput);
-			console.log(finalOutput);
-			$("#extraInfo").html(SUMMARY_CLICK_SUCCESS_HTML).removeClass("disabled");
+	});
+	let treeOutput = `[${SKILL_TREE}]:`;
+	for (const groupName of sortedTreeGroupTypes) {
+		const groupData = allocatedTreeNodes[groupName];
+		if (groupData == undefined) continue;
+		if (groupName == KEY_PASSIVE) {
+			treeOutput += `\n\t[${KEY_PASSIVE}]:\n\t\t[${groupData.nodeName}]: allocated.`;
 		} else {
-			$("#extraInfo").html(SUMMARY_CLICK_FAILURE_HTML).removeClass("disabled");
+			treeOutput += `\n\t[${groupName}]:`;
+			for (const [nodeName, nodeData] of Object.entries(groupData)) {
+				treeOutput += `\n\t\t[${nodeName}]${nodeData.maxPoints == 1 ? " allocated" : ": " + nodeData.allocatedPoints + "/" + nodeData.maxPoints + " points"}`;
+				if ("activeModifiers" in nodeData && nodeData["activeModifiers"].length > 0) treeOutput += `. Modifiers: ${nodeData.activeModifiers.join(", ")}`;
+				treeOutput += ".";
+			}
 		}
-		setTimeout(() => {
-			$("#extraInfo").empty().addClass("disabled");
-		}, 2000);
+	}
+	let boonOutput = `[${SPIRIT_BOONS}]:`;
+	for (const [boonName, boonDesc] of Object.entries(allocatedBoonNodes)) boonOutput += `\n\t[${boonName}]: ${boonDesc}`;
+	let bookOutput = `[${BOOK_OF_THE_DEAD}]:`;
+	for (const [bookName, bookDesc] of Object.entries(allocatedBookNodes)) bookOutput += `\n\t[${bookName}]: ${bookDesc}`;
+	let codexOutput = `[${CODEX_OF_POWER}]:`;
+	for (const codexCategory of sortedCodexCategoryTypes) {
+		const categoryData = allocatedCodexNodes[codexCategory];
+		if (categoryData == undefined) continue;
+		codexOutput += `\n\t[${codexCategory}]:`;
+		for (const [nodeName, nodeData] of Object.entries(categoryData)) {
+			if (nodeData.itemSlot == undefined) {
+				codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+			} else {
+				codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType} ${nodeData.itemSlot})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+			}
+		}
+	}
+	let paragonOutput = `[${PARAGON_BOARD}]:`;
+	for (const [boardName, boardData] of Object.entries(allocatedParagonNodes)) {
+		paragonOutput += `\n\t[${boardName}]:`;
+		for (const nodeType of sortedParagonNodeTypes) {
+			const nodeData = boardData[nodeType];
+			if (nodeData == undefined) continue;
+			const nodeTypeCount = Object.keys(nodeData).length;
+			const nodeTypeSuffix = nodeTypeCount == 1 ? "node" : "nodes";
+			if (["Normal", "Magic"].includes(nodeType)) {
+				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated.`;
+			} else if (nodeType == "Rare") {
+				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: [${Object.keys(nodeData).join("], [")}].`;
+			} else if (nodeType == "Socket") {
+				paragonOutput += `\n\t\t${nodeTypeCount} glyph ${nodeType.toLowerCase()} allocated.`;
+			} else if (nodeType == "Legendary") {
+				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: "${Object.values(nodeData)[0].split("\n\nTags:")[0]}"`;
+			}
+		}
+	}
+	let finalOutput = "";
+	if (treeOutput.includes("\t")) finalOutput = treeOutput;
+	const summaryItems = [boonOutput, bookOutput, codexOutput, paragonOutput];
+	for (const summaryItem of summaryItems) {
+		if (summaryItem.includes("\t")) {
+			if (finalOutput.length > 0) finalOutput += "\n\n";
+			finalOutput += summaryItem;
+		}
+	}
+	if (finalOutput.length > 0) {
+		navigator.clipboard.writeText(finalOutput);
+		console.log(finalOutput);
+		$("#summaryButton span").text(`[${COPY_BUILD_SUMMARY_SUCCESS_TEXT}]`);
+		setTimeout(() => $("#summaryButton span").text(`[${COPY_BUILD_SUMMARY_TEXT}]`), 2000);
 	}
 }
 function handleZoomButton(event) {
-	if (event.type == "click") {
-		const oldZoomLevel = Number(readCookie("zoomLevel", 1));
-		const newZoomLevel = Number(prompt(DESIRED_ZOOM_LEVEL_PROMPT, isNaN(oldZoomLevel) ? "1" : oldZoomLevel));
-		if (!isNaN(newZoomLevel) && newZoomLevel >= 0.25 && newZoomLevel <= 4) writeCookie("zoomLevel", newZoomLevel);
+	const oldZoomLevel = Number(readCookie("zoomLevel", 1));
+	const newZoomLevel = Number(prompt(DESIRED_ZOOM_LEVEL_PROMPT, isNaN(oldZoomLevel) ? "1" : oldZoomLevel));
+	if (!isNaN(newZoomLevel) && newZoomLevel >= 0.25 && newZoomLevel <= 4) writeCookie("zoomLevel", newZoomLevel);
 
-		const oldZoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
-		const newZoomLevelTooltip = Number(prompt(DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT, isNaN(oldZoomLevelTooltip) ? "1" : oldZoomLevelTooltip));
-		if (!isNaN(newZoomLevel) && newZoomLevelTooltip >= 0.25 && newZoomLevelTooltip <= 4) writeCookie("zoomLevelTooltip", newZoomLevelTooltip);
+	const oldZoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
+	const newZoomLevelTooltip = Number(prompt(DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT, isNaN(oldZoomLevelTooltip) ? "1" : oldZoomLevelTooltip));
+	if (!isNaN(newZoomLevel) && newZoomLevelTooltip >= 0.25 && newZoomLevelTooltip <= 4) writeCookie("zoomLevelTooltip", newZoomLevelTooltip);
 
-		applyZoomLevel();
-	}
+	applyZoomLevel();
 }
 function applyZoomLevel() {
 	let zoomLevel = Number(readCookie("zoomLevel", 1));
@@ -585,8 +576,6 @@ function applyZoomLevel() {
 	if (window.innerWidth < 450 * zoomLevel) zoomLevel = Math.max(window.innerWidth / 450, 1);
 	if (isNaN(zoomLevel) || zoomLevel < 0.25 || zoomLevel > 4) zoomLevel = 1;
 
-	$("#floatLeft").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
-	$("#floatRight").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "right top" });
 	$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
 	$("#flexContainer").css({ "transform": `scale(${zoomLevel})` });
 	$(".select2-container").width((window.innerWidth * 0.9 - 22) / zoomLevel);
@@ -594,66 +583,61 @@ function applyZoomLevel() {
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) pixiTooltipZoomLevel = zoomLevelTooltip;
 }
-function handleConnectorColorInput(event) {
-	writeCookie("activeConnectorColor", $("#colorConnectorInput").val().slice(1));
-
-	activeConnectorColor = Number("0x" + readCookie("activeConnectorColor", activeColorDefault));
-	lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
-
-	pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
-
-	handleCanvasEvent({ type: "mousedown", simulatedEvent: 1 }); // fake an early touch event to make mobile color selection a bit more responsive
+function handleDetailsButton(event) {
+	detailsMode = !detailsMode;
+	$("#detailsButton span").text(`[${detailsMode ? HIDE_DETAILS_WINDOW_TEXT : SHOW_DETAILS_WINDOW_TEXT}]`);
+	writeCookie("detailsMode", detailsMode);
+	refreshDetailsWindow();
 }
-function handleNodeColorInput(event) {
-	writeCookie("activeNodeColor", $("#colorNodeInput").val().slice(1));
-
-	activeNodeColor = Number("0x" + readCookie("activeNodeColor", activeColorDefault));
-	lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: activeNodeColor, native: false, width: 8 };
-
-	pixiNodes.forEach(curNode => {
-		if (curNode.groupName != undefined) {
-			const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-			if (allocatedPoints > 0) {
-				let _lineStyleThickSquare = { ...lineStyleThickSquare };
-				if (curNode.groupName == PARAGON_BOARD) {
-					_lineStyleThickSquare.color = COLOR_OVERRIDE["Allocated"];
-				} else if (curNode.nodeData.get("colorOverride") != undefined) {
-					_lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
-				}
-
-				curNode.children[curNode.children.length > 3 ? 5 : 2].updateLineStyle(_lineStyleThickSquare);
-			}
+function refreshDetailsWindow() {
+	if (detailsMode) {
+		$("#detailsWindow").offset({ left: readCookie("detailsLeft", 0), top: readCookie("detailsTop", 0) }).removeClass("disabled");
+		const classText = $(classString).text();
+		let baseStr = 7;
+		let baseInt = 7;
+		let baseWill = 7;
+		let baseDex = 7;
+		switch (classText) {
+			case "barbarian":
+				baseStr = 10;
+				baseDex = 8;
+				break;
+			case "druid":
+				baseWill = 10;
+				baseInt = 8;
+				break;
+			case "necromancer":
+				baseInt = 10;
+				baseWill = 8;
+				break;
+			case "rogue":
+				baseDex = 10;
+				baseWill = 8;
+				break;
+			case "sorcerer":
+				baseInt = 10;
+				baseWill = 8;
+				break;
 		}
-	});
-
-	const className = $(classString).val();
-	const classData = classMap.get(className);
-	if (classData != undefined) {
-		const trunkData = classData.get("Trunk Data");
-		pixiNodes.filter(pixiNode => trunkData.has(pixiNode.nodeName)).forEach(groupNode => {
-			const requiredPoints = groupNode.nodeData.get("requiredPoints");
-			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
-			if (validConnection) {
-				let _lineStyleThickSquare = { ...lineStyleThickSquare };
-				if (groupNode.nodeData.get("colorOverride") != undefined) _lineStyleThickSquare.color = groupNode.nodeData.get("colorOverride");
-
-				groupNode.children[2].updateLineStyle(_lineStyleThickSquare);
-			}
-		});
+		const levelAttributes = Number($("#charLevel").text()) - 1;
+		$("#detailsWindowContents").html(`<div>${baseStr + levelAttributes + paragonAttributeTotals["Strength"]} Strength</div>`
+			+ `<div>${baseInt + levelAttributes + paragonAttributeTotals["Intelligence"]} Intelligence</div>`
+			+ `<div>${baseWill + levelAttributes + paragonAttributeTotals["Willpower"]} Willpower</div>`
+			+ `<div>${baseDex + levelAttributes + paragonAttributeTotals["Dexterity"]} Dexterity</div>`
+			+ `<div>[Base + Level + Paragon]</div>`);
+	} else {
+		$("#detailsWindow").addClass("disabled");
+		$("#detailsWindowContents").empty();
 	}
-
-	handleCanvasEvent({ type: "mousedown", simulatedEvent: 2 }); // fake an early touch event to make mobile color selection a bit more responsive
 }
-function handleColorButton(event) {
-	const extraInfoHTML = $("#extraInfo").html();
-	if (event.type == "mouseenter" && extraInfoHTML.length == 0) {
-		$("#extraInfo").html(COLOR_HOVER_HTML).removeClass("disabled");
-	} else if (event.type == "mouseleave" && extraInfoHTML == COLOR_HOVER_HTML) {
-		$("#extraInfo").empty().addClass("disabled");
-	} else if (event.type == "click" && extraInfoHTML != COLOR_LINE_TEXT) {
-		setTimeout(() => $("#colorConnectorInput").click(), 800);
-		$("#extraInfo").text(COLOR_LINE_TEXT).removeClass("disabled");
-	}
+function handleClampButton(event) {
+	clampMode = !clampMode;
+	$("#clampButton span").text(`[${clampMode ? DISABLE_TOOLTIP_CLAMP_TEXT : ENABLE_TOOLTIP_CLAMP_TEXT}]`);
+	writeCookie("clampMode", clampMode);
+
+	repositionTooltip();
+	resetFrameTimer();
+	resizeSearchInput();
 }
 const localVersion = "0.8.1.39858-27";
 var remoteVersion = "";
@@ -697,20 +681,50 @@ function handleIntervalEvent() {
 		if (devicePixelRatio < 2) redrawAllNodes(true);
 	}
 }
+function handleDocumentEvent(event) {
+	if (detailsWindowIsMoving) {
+		switch (event.type) {
+			case "mousemove":
+			case "touchmove":
+				let currentPosition;
+				if (event.type == "mousemove") {
+					currentPosition = [detailsWindowLastPosition[0] - event.clientX, detailsWindowLastPosition[1] - event.clientY];
+					detailsWindowLastPosition = [event.clientX, event.clientY];
+				} else if (event.type == "touchmove") {
+					const touchEvent = event.originalEvent.touches[0];
+					currentPosition = [detailsWindowLastPosition[0] - touchEvent.clientX, detailsWindowLastPosition[1] - touchEvent.clientY];
+					detailsWindowLastPosition = [touchEvent.clientX, touchEvent.clientY];
+				}
+				const currentOffset = $("#detailsWindow").offset();
+				let newOffset = { left: Math.max(currentOffset.left - currentPosition[0], 0), top: Math.max(currentOffset.top - currentPosition[1], 0) };
+				if (newOffset.left + $("#detailsWindow").outerWidth() > window.innerWidth) newOffset.left = window.innerWidth - $("#detailsWindow").outerWidth();
+				if (newOffset.top + $("#detailsWindow").outerHeight() > window.innerHeight) newOffset.top = window.innerHeight - $("#detailsWindow").outerHeight();
+				$("#detailsWindow").offset(newOffset);
+				writeCookie("detailsLeft", newOffset.left);
+				writeCookie("detailsTop", newOffset.top);
+				break;
+			case "mouseup":
+			case "touchend":
+				detailsWindowIsMoving = false;
+				detailsWindowLastPosition = null;
+				break;
+		}
+	}
+}
+function handleDetailsEvent(event) {
+	detailsWindowIsMoving = true;
+	if (event.type == "mousedown") {
+		detailsWindowLastPosition = [event.clientX, event.clientY];
+	} else if (event.type == "touchstart") {
+		const touchEvent = event.originalEvent.touches[0];
+		detailsWindowLastPosition = [touchEvent.clientX, touchEvent.clientY];
+	}
+}
 function handleCanvasEvent(event) {
 	switch (event.type) {
 		case "mousedown":
 		case "touchstart":
 			$("#searchInput").blur();
-			const extraInfoHTML = $("#extraInfo").html();
-			if (extraInfoHTML == COLOR_LINE_TEXT) {
-				setTimeout(() => $("#colorNodeInput").click(), 800);
-				$("#extraInfo").text(COLOR_NODE_TEXT).removeClass("disabled");
-				resizeCanvas();
-			} else if (extraInfoHTML == COLOR_NODE_TEXT && [undefined, 2].includes(event.simulatedEvent)) {
-				$("#extraInfo").empty().addClass("disabled");
-				resizeCanvas();
-			}
 			if (event.type == "mousedown") return;
 
 			touchTimer = Date.now();
@@ -774,15 +788,15 @@ function handleClassSelection(event, postHookFunction = null) {
 		setTimeout(() => {
 			$("#className").text(classText);
 			if (classText == "None") {
-				$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
+				$("#header h2, #versionLabel, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
 				$("#classSelectBox").removeClass("disabled");
 				$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("disabled");
 				$("#groupSelector").empty();
 				$("#searchInput").removeAttr("style");
 			} else {
-				$("#header h2, #versionLabel, #summaryButton, #zoomButton, #colorButton, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
+				$("#header h2, #versionLabel, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").removeClass("disabled");
 				$("#classSelectBox").addClass("disabled");
-				$("#extraInfo").empty().addClass("disabled");
+				closeExtraInfo();
 			}
 			rebuildCanvas();
 			$("#modalBox").addClass("disabled");
@@ -870,19 +884,33 @@ function handleSearchInput(event) {
 
 	if (event.type == "blur" || nodeCount == 0) {
 		const extraInfoHTML = $("#extraInfo").html();
-		if ([MATCH_FOUND_TEXT, MATCHES_FOUND_TEXT].some(matchText => extraInfoHTML.includes(matchText))) $("#extraInfo").empty().addClass("disabled");
+		if ([MATCH_FOUND_TEXT, MATCHES_FOUND_TEXT].some(matchText => extraInfoHTML.includes(matchText))) closeExtraInfo();
 	} else {
-		$("#extraInfo").html(nodeCount + (nodeCount == 1 ? MATCH_FOUND_TEXT : MATCHES_FOUND_TEXT) + "`" + newSearchText + "`.").removeClass("disabled");
+		$("#extraInfo").html("<span>" + nodeCount + (nodeCount == 1 ? MATCH_FOUND_TEXT : MATCHES_FOUND_TEXT) + "`" + newSearchText + "`.</span>").removeClass("disabled");
 	}
 }
-function handleClampButton() {
-	clampMode = !clampMode;
-	$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
-	writeCookie("clampMode", clampMode);
+function handleMenuButton(event) {
+	if ($("#menuButton").text() == OPEN_MENU_TEXT) {
+		$("#extraInfo").html(`<div id="detailsButton"><img src="images/list.svg">&nbsp;<span>[${detailsMode ? HIDE_DETAILS_WINDOW_TEXT : SHOW_DETAILS_WINDOW_TEXT}]</span></div>`
+			+ `<div id="summaryButton"><img src="images/sigma.svg">&nbsp;<span>[${COPY_BUILD_SUMMARY_TEXT}]</span></div>`
+			+ `<div id="zoomButton"><img src="images/zoom.svg">&nbsp;<span>[${ADJUST_ZOOM_LEVEL_TEXT}]</span></div>`
+			+ `<div class="break"></div>`
+			+ `<div id="clampButton"><img src="images/clamp.svg">&nbsp;<span>[${clampMode ? DISABLE_TOOLTIP_CLAMP_TEXT : ENABLE_TOOLTIP_CLAMP_TEXT}]</span></div>`)
+			.removeClass("disabled");
 
-	repositionTooltip();
-	resetFrameTimer();
-	resizeSearchInput();
+		$("#detailsButton").on("click", handleDetailsButton);
+		$("#zoomButton").on("click", handleZoomButton);
+		$("#summaryButton").on("click", handleSummaryButton);
+		$("#clampButton").on("click", handleClampButton);
+
+		$("#menuButton").text(CLOSE_MENU_TEXT);
+	} else {
+		closeExtraInfo();
+	}
+}
+function closeExtraInfo() {
+	$("#extraInfo").empty().addClass("disabled");
+	$("#menuButton").text(OPEN_MENU_TEXT);
 }
 function handleSaveButton() {
 	const className = $(classString).val();
@@ -1308,6 +1336,8 @@ function updateCharacterLevel() {
 
 	$("#charLevel").text(charLevel);
 	$("#renownLevel").text(renownLevel > 0 ? " (Renown " + renownLevel + ")" : "");
+
+	refreshDetailsWindow();
 }
 function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	const startPoints = startNode.nodeData.get("allocatedPoints") || 0;
@@ -1490,8 +1520,6 @@ function updateParagonAttributes(curNode, diffPoints) {
 
 	const nodeDex = curNode.nodeDesc.match(/\+(\d*\.?\d+) Dexterity/ig);
 	if (nodeDex != undefined) paragonAttributeTotals["Dexterity"] += parseFloat(nodeDex.reduce(addFloats)) * diffPoints * glyphMultiplier;
-
-	console.log(paragonAttributeTotals);
 }
 function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
@@ -3106,6 +3134,11 @@ function resizeCanvas() {
 		applyZoomLevel();
 		resizeSearchInput();
 		$("body").height(newHeight); // prevent undesirable mobile vertical scroll
+
+		const newOffset = $("#detailsWindow").offset();
+		if (newOffset.left + $("#detailsWindow").outerWidth() > window.innerWidth) newOffset.left = window.innerWidth - $("#detailsWindow").outerWidth();
+		if (newOffset.top + $("#detailsWindow").outerHeight() > window.innerHeight) newOffset.top = window.innerHeight - $("#detailsWindow").outerHeight();
+		$("#detailsWindow").offset(newOffset); // clamp details window to screen
 	}
 }
 function readCookie(name, fallback = "") {
@@ -3124,27 +3157,14 @@ function writeCookie(name, value) {
 	document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
 }
 
-// read cookie settings immediately
-$("#colorConnectorInput").val("#" + readCookie("activeConnectorColor", activeColorDefault));
-$("#colorNodeInput").val("#" + readCookie("activeNodeColor", activeColorDefault));
-$("#clampButton").text(clampMode ? DISABLE_CLAMP_TEXT : ENABLE_CLAMP_TEXT);
-
 // finalize the page once DOM has loaded
 $(document).ready(function() {
 	$("#versionLabel").on("click", handleVersionLabel);
 	handleVersionInterval();
 	versionInterval = setInterval(handleVersionInterval, 900000);
 
-	$("#summaryButton").on("click mouseenter mouseleave", handleSummaryButton);
-
-	$("#zoomButton").on("click", handleZoomButton);
-
-	$("#colorConnectorInput").on("change", handleConnectorColorInput);
-	$("#colorNodeInput").on("change", handleNodeColorInput);
-	$("#colorButton").on("click mouseenter mouseleave", handleColorButton);
-
+	$("#menuButton").on("click", handleMenuButton);
 	$("#resetButton").on("click", rebuildCanvas);
-	$("#clampButton").on("click", handleClampButton);
 	$("#saveButton").on("click", handleSaveButton);
 	$("#reloadButton").on("click", handleReloadButton);
 	$("#shareButton").on("click", handleShareButton);
@@ -3157,8 +3177,11 @@ $(document).ready(function() {
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup focus blur", handleSearchInput);
 
+	$("#detailsWindow").on("mousedown touchstart", handleDetailsEvent);
+	$(window).on("mousemove touchmove mouseup touchend", handleDocumentEvent);
+
 	$("#canvasContainer").append(pixiJS.renderer.view);
-	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove touchend contextmenu", handleCanvasEvent);
+	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove mouseup touchend contextmenu", handleCanvasEvent);
 	$(window).on("copy", handleTooltipCopy);
 	$(window).on("resize", resizeCanvas);
 
