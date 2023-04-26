@@ -573,13 +573,12 @@ function handleZoomButton(event) {
 function applyZoomLevel() {
 	let zoomLevel = Number(readCookie("zoomLevel", 1));
 
-	if (window.innerWidth < 450 * zoomLevel) zoomLevel = Math.max(window.innerWidth / 450, 1);
+	if (window.innerWidth < 450 * zoomLevel && zoomLevel > 1) zoomLevel = Math.max(window.innerWidth / 450, 1);
 	if (isNaN(zoomLevel) || zoomLevel < 0.25 || zoomLevel > 4) zoomLevel = 1;
 
 	$("#detailsWindow").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
 	$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
-	$("#flexContainer").css({ "transform": `scale(${zoomLevel})` });
-	$(".select2-container").width((window.innerWidth * 0.9 - 22) / zoomLevel);
+	$(".select2-container").width((window.innerWidth * 0.9 - 22));
 
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) pixiTooltipZoomLevel = zoomLevelTooltip;
@@ -593,9 +592,9 @@ function handleDetailsButton(event) {
 	refreshDetailsWindow();
 }
 function refreshDetailsWindow() {
-	if (detailsMode) {
+	const className = $(classString).val();
+	if (detailsMode && className != "none") {
 		$("#detailsWindow").removeClass("disabled");
-		const className = $(classString).val();
 		let baseStr = 7;
 		let baseInt = 7;
 		let baseWill = 7;

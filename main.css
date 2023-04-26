@@ -361,7 +361,7 @@ button:active {
 	}
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 	#header {
 		font-size: 7vw;
 		padding: 2.4vw 0;
@@ -373,6 +373,28 @@ button:active {
 	}
 	select {
 		padding: 0 3.6vw 0 0.8vw;
+	}
+	#flexContainer > * {
+		font-size: 7.2vw;
+		padding: 2.4vw;
+	}
+	#modalDiv2 {
+		font-size: 6.72vw;
+		margin: 2.4vw 0;
+	}
+	#modalDiv3, #modalDiv4, #modalDiv5 {
+		font-size: 4.8vw;
+	}
+	#modalDiv5 {
+		margin-top: 2.4vw;
+	}
+	#modalSlider {
+		top: -1.2vw;
+		max-width: 86.4vw;
+		height: 1.2vw;
+	}
+	#modalDiv6 * {
+		height: auto;
 	}
 	#extraInfo {
 		font-size: 4.4vw;
