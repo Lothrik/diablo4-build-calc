@@ -285,7 +285,7 @@ var detailsMode = readCookie("detailsMode") == "true" ? true : false;
 var clampMode = readCookie("clampMode") == "true" ? true : false;
 
 var detailsWindowIsMoving = false;
-var detailsWindowLastPosition = null;
+var detailsPreviousPosition = null;
 
 var touchTimer = null;
 var isTouching = false;
@@ -576,12 +576,15 @@ function applyZoomLevel() {
 	if (window.innerWidth < 450 * zoomLevel) zoomLevel = Math.max(window.innerWidth / 450, 1);
 	if (isNaN(zoomLevel) || zoomLevel < 0.25 || zoomLevel > 4) zoomLevel = 1;
 
+	$("#detailsWindow").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
 	$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
 	$("#flexContainer").css({ "transform": `scale(${zoomLevel})` });
 	$(".select2-container").width((window.innerWidth * 0.9 - 22) / zoomLevel);
 
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) pixiTooltipZoomLevel = zoomLevelTooltip;
+
+	repositionDetailsWindow();
 }
 function handleDetailsButton(event) {
 	detailsMode = !detailsMode;
@@ -591,7 +594,7 @@ function handleDetailsButton(event) {
 }
 function refreshDetailsWindow() {
 	if (detailsMode) {
-		$("#detailsWindow").offset({ left: readCookie("detailsLeft", 0), top: readCookie("detailsTop", 0) }).removeClass("disabled");
+		$("#detailsWindow").removeClass("disabled");
 		const classText = $(classString).text();
 		let baseStr = 7;
 		let baseInt = 7;
@@ -626,9 +629,22 @@ function refreshDetailsWindow() {
 			+ `<div>${baseDex + levelAttributes + paragonAttributeTotals["Dexterity"]} Dexterity</div>`
 			+ `<div>[Base + Level + Paragon]</div>`);
 	} else {
-		$("#detailsWindow").offset({ left: 0, top: 0 }).addClass("disabled");
+		$("#detailsWindow").addClass("disabled");
 		$("#detailsWindowContents").empty();
 	}
+}
+function repositionDetailsWindow(detailsLeft = null, detailsTop = null) {
+	const zoomLevel = Number(readCookie("zoomLevel", 1));
+	const detailsWidth = $("#detailsWindow").outerWidth(true) * zoomLevel;
+	const detailsHeight = $("#detailsWindow").outerHeight(true) * zoomLevel;
+
+	detailsLeft = Math.max(detailsLeft == null ? readCookie("detailsLeft", 0) : detailsLeft, 0);
+	detailsTop = Math.max(detailsTop == null ? readCookie("detailsTop", 0) : detailsTop, 0);
+
+	$("#detailsWindow").css({
+		"left": Math.min(detailsLeft, $("body").width() - detailsWidth),
+		"top": Math.min(detailsTop, $("body").height() - detailsHeight)
+	});
 }
 function handleClampButton(event) {
 	clampMode = !clampMode;
@@ -688,25 +704,25 @@ function handleDocumentEvent(event) {
 			case "touchmove":
 				let currentPosition;
 				if (event.type == "mousemove") {
-					currentPosition = [detailsWindowLastPosition[0] - event.clientX, detailsWindowLastPosition[1] - event.clientY];
-					detailsWindowLastPosition = [event.clientX, event.clientY];
+					currentPosition = [detailsPreviousPosition[0] - event.clientX, detailsPreviousPosition[1] - event.clientY];
+					detailsPreviousPosition = [event.clientX, event.clientY];
 				} else if (event.type == "touchmove") {
 					const touchEvent = event.originalEvent.touches[0];
-					currentPosition = [detailsWindowLastPosition[0] - touchEvent.clientX, detailsWindowLastPosition[1] - touchEvent.clientY];
-					detailsWindowLastPosition = [touchEvent.clientX, touchEvent.clientY];
+					currentPosition = [detailsPreviousPosition[0] - touchEvent.clientX, detailsPreviousPosition[1] - touchEvent.clientY];
+					detailsPreviousPosition = [touchEvent.clientX, touchEvent.clientY];
 				}
-				const currentOffset = $("#detailsWindow").offset();
-				let newOffset = { left: Math.max(currentOffset.left - currentPosition[0], 0), top: Math.max(currentOffset.top - currentPosition[1], 0) };
-				if (newOffset.left + $("#detailsWindow").outerWidth() > window.innerWidth) newOffset.left = window.innerWidth - $("#detailsWindow").outerWidth();
-				if (newOffset.top + $("#detailsWindow").outerHeight() > window.innerHeight) newOffset.top = window.innerHeight - $("#detailsWindow").outerHeight();
-				$("#detailsWindow").offset(newOffset);
-				writeCookie("detailsLeft", newOffset.left);
-				writeCookie("detailsTop", newOffset.top);
+
+				let curOffset = $("#detailsWindow").offset();
+				repositionDetailsWindow(curOffset.left - currentPosition[0], curOffset.top - currentPosition[1]);
+
+				curOffset = $("#detailsWindow").offset();
+				writeCookie("detailsLeft", curOffset.left);
+				writeCookie("detailsTop", curOffset.top);
 				break;
 			case "mouseup":
 			case "touchend":
 				detailsWindowIsMoving = false;
-				detailsWindowLastPosition = null;
+				detailsPreviousPosition = null;
 				break;
 		}
 	}
@@ -714,10 +730,10 @@ function handleDocumentEvent(event) {
 function handleDetailsEvent(event) {
 	detailsWindowIsMoving = true;
 	if (event.type == "mousedown") {
-		detailsWindowLastPosition = [event.clientX, event.clientY];
+		detailsPreviousPosition = [event.clientX, event.clientY];
 	} else if (event.type == "touchstart") {
 		const touchEvent = event.originalEvent.touches[0];
-		detailsWindowLastPosition = [touchEvent.clientX, touchEvent.clientY];
+		detailsPreviousPosition = [touchEvent.clientX, touchEvent.clientY];
 	}
 }
 function handleCanvasEvent(event) {
@@ -1506,7 +1522,6 @@ function updateParagonAttributes(curNode, diffPoints) {
 	if (curNode.nodeDesc == undefined) return;
 
 	const glyphMultiplier = getNodeGlyphMultiplier(curNode);
-
 	const addFloats = (arg1, arg2) => parseFloat(arg1) + parseFloat(arg2);
 
 	const nodeStr = curNode.nodeDesc.match(/\+(\d*\.?\d+) Strength/ig);
@@ -3131,14 +3146,9 @@ function resizeCanvas() {
 		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 
 		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth($("#extraButtons2").width() - parseInt($("#groupSelector").css("padding-left")));
+		$("body").css({"width": newWidth, "height": newHeight }); // prevent undesirable mobile scrolling
 		applyZoomLevel();
 		resizeSearchInput();
-		$("body").height(newHeight); // prevent undesirable mobile vertical scroll
-
-		const newOffset = $("#detailsWindow").offset();
-		if (newOffset.left + $("#detailsWindow").outerWidth() > window.innerWidth) newOffset.left = window.innerWidth - $("#detailsWindow").outerWidth();
-		if (newOffset.top + $("#detailsWindow").outerHeight() > window.innerHeight) newOffset.top = window.innerHeight - $("#detailsWindow").outerHeight();
-		$("#detailsWindow").offset(newOffset); // clamp details window to screen
 	}
 }
 function readCookie(name, fallback = "") {
