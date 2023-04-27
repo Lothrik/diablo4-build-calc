@@ -1294,11 +1294,13 @@ function equipParagonBoardGlyph(curNode) {
 	$("#modalSelect").on("change", updateGlyphDescText);
 	$("#modalSlider").on("change", updateGlyphDescText);
 
-	$("#modalSelect").val(paragonBoardGlyphData[boardIndex]).trigger("change");
-	$("#modalSlider").val(paragonBoardGlyphRankData[boardIndex]).trigger("change");
+	if (paragonBoardGlyphData[boardIndex] != undefined) $("#modalSelect").val(paragonBoardGlyphData[boardIndex]).trigger("change");
+	if (paragonBoardGlyphRankData[boardIndex] != undefined) $("#modalSlider").val(paragonBoardGlyphRankData[boardIndex]).trigger("change");
 	updateGlyphDescText();
 
 	$("#modalConfirm").on("click", () => {
+		updateGlyphBonusesFromNodes(boardHeader, -1);
+
 		const glyphIndex = Number($("#modalSelect").val());
 		paragonBoardGlyphData[boardIndex] = glyphIndex;
 
