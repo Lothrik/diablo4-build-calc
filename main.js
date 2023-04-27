@@ -655,7 +655,7 @@ function handleClampButton(event) {
 	resetFrameTimer();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-29";
+const localVersion = "0.8.1.39858-30";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1038,13 +1038,12 @@ function handleReloadButton() {
 					}
 
 					if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
-						updateNodePoints(curNode, newPoints);
 						if (curNode.groupName == PARAGON_BOARD) {
-							updateParagonAttributes(curNode, newPoints - allocatedPoints);
 							pixiAllocatedParagonPoints = pixiAllocatedParagonPoints - allocatedPoints + newPoints;
 						} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 							pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 						}
+						updateNodePoints(curNode, newPoints);
 					}
 				}
 			}
@@ -1052,7 +1051,7 @@ function handleReloadButton() {
 			const sortedNodes = [...pixiNodes].filter(pixiNode => pixiNode.groupName != undefined).sort(compareNodes);
 			for (let i = 0, n = sortedNodes.length; i < n; i++) processNode(sortedNodes[i]);
 
-			// recalculate attribute totals, as they frequently end up in an complex (.. and difficult to recover from) state due to glyph changes
+			// recalculate paragon attribute totals
 			paragonAttributeTotals = {
 				"Strength": 0,
 				"Intelligence": 0,
