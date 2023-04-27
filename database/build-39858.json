@@ -14,9 +14,9 @@
 				"name": "1-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_1HMace": {
-				"desc": "x[0.01 *  Weapon_Expertise_Level#Mace * 100]% increased damage to Stunned enemies. Double this amount when using two Maces.",
+				"desc": "x[0.01 * Weapon_Expertise_Level#Mace * 100]% increased damage to Stunned enemies. Double this amount when using two Maces.",
 				"name": "One-Handed Mace Expertise",
-				"rankup_desc": "Damage to Stunned increased to x[0.01 *  (1 + Weapon_Expertise_Level#Mace) * 100]%."
+				"rankup_desc": "Damage to Stunned increased to x[0.01 * (1 + Weapon_Expertise_Level#Mace) * 100]%."
 			},
 			"Barbarian_WeaponExpertise_1HMace_Rank10": {
 				"desc": "Lucky Hit: Up to a 10% chance to gain Berserking for 1.5 seconds when you hit a Stunned enemy. Double this chance when using two Maces."
@@ -898,7 +898,7 @@
 				"threshold_requirements": "25 Willpower"
 			},
 			"ParagonGlyph_036": {
-				"bonus": "Killing a Bleeding enemy has a  12% chance to reduce the Cooldowns of your Non-Ultimate active Cooldowns by 1 second.",
+				"bonus": "Killing a Bleeding enemy has a 12% chance to reduce the Cooldowns of your Non-Ultimate active Cooldowns by 1 second.",
 				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Bleeding damage.",
 				"name": "Disembowel",
 				"tags": [
@@ -4898,7 +4898,7 @@
 					],
 					"skill_desc": "Gain x{5/10/15/20/25/30/35/40/45/50}% additional Maximum Life.",
 					"skill_name": "Imposing Presence",
-					"skill_rankup_desc": "• Maximum Life 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Maximum Life 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -5862,7 +5862,7 @@
 						"Cooldown",
 						"Basic"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nGain Berserking and Unstoppable for 5 seconds.  For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nGain Berserking and Unstoppable for 5 seconds. For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.",
 					"skill_name": "Wrath of the Berserker"
 				},
 				"req_points": 0,
@@ -8903,7 +8903,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nRocks surround you for 3 seconds, granting a Barrier that absorbs {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% of your Base Life in damage.",
 					"skill_name": "Earthen Bulwark",
-					"skill_rankup_desc": "• Barrier Amount 🡑  {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
+					"skill_rankup_desc": "• Barrier Amount 🡑 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -11918,7 +11918,7 @@
 						"Earth",
 						"Storm"
 					],
-					"skill_desc": "Nature Magic Skills deal x{2/4/6/8/10/12/14/16/18/20}% increased damage. Triple this bonus if an Earth Skill is the next Skill cast after a Storm Skill, or a  Storm Skill is the next Skill cast after an Earth Skill.",
+					"skill_desc": "Nature Magic Skills deal x{2/4/6/8/10/12/14/16/18/20}% increased damage. Triple this bonus if an Earth Skill is the next Skill cast after a Storm Skill, or a Storm Skill is the next Skill cast after an Earth Skill.",
 					"skill_name": "Resonance",
 					"skill_rankup_desc": "• Damage Increase 🡑 x{2/4/6/8/10/12/14/16/18/20}%"
 				},
@@ -20325,7 +20325,7 @@
 					"SF_16_3": "Active: Your Golem becomes Unstoppable and Taunts Nearby enemies and takes 30% reduced damage for the next 6 seconds.",
 					"SF_17": "The Golem absorbs 15% of damage you would take, and recovers Life when attacking.",
 					"SF_17_2": "Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing {40/44/48/52/56/60/64/68/72/76}% damage and healing {4/4.4/4.8/5.2/5.6/5.9/6.3/6.7/7.1/7.5}% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained.",
-					"SF_18": "Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds.  This has a [(NecroArmy_Spec_For_Pet_Type#2==2  and  10  or  16)] second cooldown."
+					"SF_18": "Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds.  This has a [(NecroArmy_Spec_For_Pet_Type#2==2 and 10 or 16)] second cooldown."
 				},
 				"name": "Golem",
 				"rankup_desc": "Life increased to {#}. Attack damage increased to {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%."
@@ -24599,7 +24599,7 @@
 						"Shadow",
 						"Minion"
 					],
-					"skill_desc": "Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10% bonus damage to enemies with Shadowblight.\n\nEvery 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20% Shadow Damage.",
+					"skill_desc": "Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10% bonus damage to enemies with Shadowblight.\n\nEvery 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional 20% Shadow Damage.",
 					"skill_name": "Shadowblight"
 				},
 				"req_points": 0,
@@ -32573,7 +32573,7 @@
 			},
 			"legendary_sorc_120": {
 				"category": 0,
-				"desc": "The Vyr's Mastery Key Passive's Damage Reduction is increased by  {20/30}% for each Close enemy, up to {60/90}%.",
+				"desc": "The Vyr's Mastery Key Passive's Damage Reduction is increased by {20/30}% for each Close enemy, up to {60/90}%.",
 				"name": "Mage-Lord's",
 				"tags": [
 					"FILTER_Legendary_Offensive",
@@ -38899,7 +38899,7 @@
 					"Movement_Speed"
 				],
 				"category": 0,
-				"desc": "Upon collecting Crackling Energy, there's a  10.0% chance to release a lightning nova, dealing {155/200} Lightning Damage.",
+				"desc": "Upon collecting Crackling Energy, there's a 10.0% chance to release a lightning nova, dealing {155/200} Lightning Damage.",
 				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both.",
 				"name": "Esadora's Overflowing Cameo",
 				"tags": [

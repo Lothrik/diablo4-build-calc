@@ -1242,7 +1242,7 @@ Tags: Damage, Essence, Bone.`,
 		connections: [ "Key Passive" ],
 		description: `Shadow Damage infects enemies with Shadowblight for 2 seconds. You and your minions deal x10% bonus damage to enemies with Shadowblight.
 
-Every 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20% Shadow Damage.
+Every 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional 20% Shadow Damage.
 
 Tags: Damage, Shadow, Minion.`,
 		id: 106,

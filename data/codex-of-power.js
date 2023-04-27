@@ -1802,7 +1802,7 @@ let codexData = {
 			"Mage-Lord's Aspect": {
 				"id": 280,
 				"type": "Legendary",
-				"description": "The Vyr's Mastery Key Passive's Damage Reduction is increased by  {20/30}% for each Close enemy, up to {60/90}%.",
+				"description": "The Vyr's Mastery Key Passive's Damage Reduction is increased by {20/30}% for each Close enemy, up to {60/90}%.",
 				"dungeon": "",
 				"region": ""
 			},
@@ -1866,7 +1866,7 @@ let codexData = {
 				"id": 288,
 				"type": "Unique",
 				"slot": "Amulet",
-				"description": "Upon collecting Crackling Energy, there's a  10.0% chance to release a lightning nova, dealing {155/200} Lightning Damage.",
+				"description": "Upon collecting Crackling Energy, there's a 10.0% chance to release a lightning nova, dealing {155/200} Lightning Damage.",
 				"flavor": "The only thing more potent than Esadora's magic was her endless hatred of humanity. As she lay dying, the pale amulet around her neck drank in both."
 			},
 			"Esu's Heirloom": {

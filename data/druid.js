@@ -1524,7 +1524,7 @@ Tags: Healing, Nature Magic, Spirit.`,
 	},
 	"Resonance": {
 		connections: [ "Natural Disaster", "Circle of Life" ],
-		description: `Nature Magic Skills deal x{2/4/6/8/10/12/14/16/18/20}% increased damage. Triple this bonus if an Earth Skill is the next Skill cast after a Storm Skill, or a  Storm Skill is the next Skill cast after an Earth Skill.
+		description: `Nature Magic Skills deal x{2/4/6/8/10/12/14/16/18/20}% increased damage. Triple this bonus if an Earth Skill is the next Skill cast after a Storm Skill, or a Storm Skill is the next Skill cast after an Earth Skill.
 
 Tags: Damage, Nature Magic, Earth, Storm.`,
 		id: 128,

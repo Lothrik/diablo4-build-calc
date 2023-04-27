@@ -4738,7 +4738,7 @@ let paragonData = {
 			"ParagonGlyph_036": {
 				"name": "Disembowel",
 				"desc": "For every 5 Willpower purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6}% increased Bleeding damage.",
-				"bonus": "Killing a Bleeding enemy has a  12% chance to reduce the Cooldowns of your Non-Ultimate active Cooldowns by 1 second.",
+				"bonus": "Killing a Bleeding enemy has a 12% chance to reduce the Cooldowns of your Non-Ultimate active Cooldowns by 1 second.",
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_037": {

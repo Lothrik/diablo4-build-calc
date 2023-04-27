@@ -1304,7 +1304,7 @@ Tags: Attack Speed, Dual Wield.`,
 		connections: [ "Ultimate", "Prime Wrath of the Berserker" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
-Gain Berserking and Unstoppable for 5 seconds.  For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.
+Gain Berserking and Unstoppable for 5 seconds. For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.
 
 Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 		id: 110,

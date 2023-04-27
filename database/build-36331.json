@@ -14,9 +14,9 @@
 				"name": "1-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_1HMace": {
-				"desc": "x[0.01 *  Weapon_Expertise_Level#Mace * 100]% increased damage to Stunned enemies. Double this amount when using two Maces.",
+				"desc": "x[0.01 * Weapon_Expertise_Level#Mace * 100]% increased damage to Stunned enemies. Double this amount when using two Maces.",
 				"name": "One-Handed Mace Expertise",
-				"rankup_desc": "Damage to Stunned increased to x[0.01 *  (1 + Weapon_Expertise_Level#Mace) * 100]%."
+				"rankup_desc": "Damage to Stunned increased to x[0.01 * (1 + Weapon_Expertise_Level#Mace) * 100]%."
 			},
 			"Barbarian_WeaponExpertise_1HMace_Rank10": {
 				"desc": "Lucky Hit: Up to a 10% chance to gain Berserking for 1.5 seconds when you hit a Stunned enemy. Double this chance when using two Maces."
@@ -4235,7 +4235,7 @@
 					"power_tags": [
 						"Skill_Primary_Basic"
 					],
-					"skill_desc": "When Flay deals direct damage you gain 1% damage reduction and 50 Thorns for 3 seconds.  This stacks up to 5 times.",
+					"skill_desc": "When Flay deals direct damage you gain 1% damage reduction and 50 Thorns for 3 seconds. This stacks up to 5 times.",
 					"skill_name": "Combat Flay"
 				},
 				"req_points": 0,
@@ -4567,7 +4567,7 @@
 					"power_name": "Barbarian_Talent_06",
 					"skill_desc": "Gain x{5/10/15/20/25/30/35/40/45/50}% additional Maximum Life.",
 					"skill_name": "Imposing Presence",
-					"skill_rankup_desc": "• Maximum Life 🡑  x{5/10/15/20/25/30/35/40/45/50}%"
+					"skill_rankup_desc": "• Maximum Life 🡑 x{5/10/15/20/25/30/35/40/45/50}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -5420,7 +5420,7 @@
 						"Keyword_Unstoppable",
 						"Keyword_Berserk"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nGain Berserking and Unstoppable for 5 seconds.  For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nGain Berserking and Unstoppable for 5 seconds. For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.",
 					"skill_name": "Wrath of the Berserker"
 				},
 				"req_points": 0,
@@ -8196,7 +8196,7 @@
 					],
 					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nRocks surround you for 3 seconds, granting a Barrier that absorbs {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% of your Base Life in damage.",
 					"skill_name": "Earthen Bulwark",
-					"skill_rankup_desc": "• Barrier Amount 🡑  {#}"
+					"skill_rankup_desc": "• Barrier Amount 🡑 {#}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -9327,7 +9327,7 @@
 					"power_tags": [
 						"Keyword_Fortify"
 					],
-					"skill_desc": "While Fortified over 50% of your Maximum Life, your Earth skills deal  x{4/8/12/16/20/24/28/32/36/40}% increased damage.",
+					"skill_desc": "While Fortified over 50% of your Maximum Life, your Earth skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage.",
 					"skill_name": "Stone Guard",
 					"skill_rankup_desc": "• Damage Increase 🡑 {4/8/12/16/20/24/28/32/36/40}%"
 				},
@@ -10751,7 +10751,7 @@
 					"power_tags": [
 						"Keyword_Fortify"
 					],
-					"skill_desc": "Reduce the duration of control impairing effects by {3/6/9/12/15/18/21/24/27/30}%.  Triple this effect while you are Fortified for over 20% of your maximum Life.",
+					"skill_desc": "Reduce the duration of control impairing effects by {3/6/9/12/15/18/21/24/27/30}%. Triple this effect while you are Fortified for over 20% of your maximum Life.",
 					"skill_name": "Unrestrained",
 					"skill_rankup_desc": "• Crowd Control Reduction 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
@@ -10871,7 +10871,7 @@
 				"id": 437,
 				"power": {
 					"power_name": "Druid_Talent_NatureMagic_T3_N2",
-					"skill_desc": "Nature Magic skills deal x{2/4/6/8/10/12/14/16/18/20}% increased damage. Triple this bonus if an Earth skill is the next skill cast after a Storm skill, or a  Storm skill is the next skill cast after an  Earth skill.",
+					"skill_desc": "Nature Magic skills deal x{2/4/6/8/10/12/14/16/18/20}% increased damage. Triple this bonus if an Earth skill is the next skill cast after a Storm skill, or a Storm skill is the next skill cast after an Earth skill.",
 					"skill_name": "Resonance",
 					"skill_rankup_desc": "• Damage Increase 🡑 x{2/4/6/8/10/12/14/16/18/20}%"
 				},
@@ -11410,7 +11410,7 @@
 				"id": 374,
 				"power": {
 					"power_name": "Druid_Talent_06",
-					"skill_desc": "Deal x{3/6/9/12/15/18/21/24/27/30}% increased damage to Distant enemies.  Double this bonus if they are also Slowed, Stunned, Immobilized, or Knocked Back.",
+					"skill_desc": "Deal x{3/6/9/12/15/18/21/24/27/30}% increased damage to Distant enemies. Double this bonus if they are also Slowed, Stunned, Immobilized, or Knocked Back.",
 					"skill_name": "Nature's Reach",
 					"skill_rankup_desc": "• Damage Increase 🡑 x{3/6/9/12/15/18/21/24/27/30}%"
 				},
@@ -18825,7 +18825,7 @@
 					"SF_16_3": "Active: Your Golem becomes Unstoppable and Taunts Nearby enemies and takes 30% reduced damage for the next 6 seconds.",
 					"SF_17": "The Golem absorbs 15% of damage you would take, and recovers Life when attacking.",
 					"SF_17_2": "Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing {40/44/48/52/56/60/64/68/72/76}% damage and healing {4/4.4/4.8/5.2/5.6/5.9/6.3/6.7/7.1/7.5}% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained.",
-					"SF_18": "Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds.  This has a [(NecroArmy_Spec_For_Pet_Type#2==2  and  10  or  16)] second cooldown."
+					"SF_18": "Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds.  This has a [(NecroArmy_Spec_For_Pet_Type#2==2 and 10 or 16)] second cooldown."
 				},
 				"name": "Golem",
 				"rankup_desc": "Life increased to {#}. Attack damage increased to {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%."
@@ -19808,7 +19808,7 @@
 				"desc": "When your Minion is killed, it has a 50% chance to leave a corpse."
 			},
 			"Necromancer_Legendary_010": {
-				"desc": "Blood skills deal x18% increased damage but cost an additional 0.1% of the skill's Essence cost or Cooldown as a percent of  your maximum Life.",
+				"desc": "Blood skills deal x18% increased damage but cost an additional 0.1% of the skill's Essence cost or Cooldown as a percent of your maximum Life.",
 				"name": "Bloodletter",
 				"tags": [
 					"Skill_Blood",
@@ -21833,7 +21833,7 @@
 						"Skill_Primary_Macabre",
 						"Skill_Bone"
 					],
-					"skill_desc": "If Bone Spirit Critically Strikes, its cooldown is reduced by 6 seconds.  This effect can only happen once per cast.",
+					"skill_desc": "If Bone Spirit Critically Strikes, its cooldown is reduced by 6 seconds. This effect can only happen once per cast.",
 					"skill_name": "Enhanced Bone Spirit"
 				},
 				"req_points": 0,
@@ -22838,7 +22838,7 @@
 				"id": 86,
 				"power": {
 					"power_name": "Necromancer_Talent_Caster_T5_N2",
-					"skill_desc": "Shadow Damage infects enemies with Shadowblight for 2 seconds.\n\nEvery 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional  20% Shadow Damage.",
+					"skill_desc": "Shadow Damage infects enemies with Shadowblight for 2 seconds.\n\nEvery 10th time an enemy receives Shadow Damage from you or your Minions while they are affected by Shadowblight, they take additional 20% Shadow Damage.",
 					"skill_name": "Shadowblight"
 				},
 				"req_points": 0,
@@ -33604,7 +33604,7 @@
 					"power_name": "Sorcerer_Talent_Elemental_T2_N1",
 					"skill_desc": "You deal x{6/12/18/24/30/36/42/48/54/60}% increased damage, but take {3/6/9/12/15/18/21/24/27/30}% more damage.",
 					"skill_name": "Glass Cannon",
-					"skill_rankup_desc": "• Damage Dealt 🡑  x{6/12/18/24/30/36/42/48/54/60}%\n• Damage Taken 🡑 {3/6/9/12/15/18/21/24/27/30}%"
+					"skill_rankup_desc": "• Damage Dealt 🡑 x{6/12/18/24/30/36/42/48/54/60}%\n• Damage Taken 🡑 {3/6/9/12/15/18/21/24/27/30}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -33995,7 +33995,7 @@
 					],
 					"skill_desc": "Mana Cost: {#} per second\nLucky Hit Chance: {#}%\nChannel a beam of fire, Burning enemies for {36.4/40/43.7/47.3/51/54.6/58.2/61.9/65.5/69.2}%. Damage increases by {17.5/19.2/21/22.8/24.5/26.2/28/29.8/31.5/33.2}% per second, up to {71.4/75/78.7/82.3/86/89.6/93.2/96.9/100.5/104.2}%.",
 					"skill_name": "Incinerate",
-					"skill_rankup_desc": "• Burning Damage 🡑 {36.4/40/43.7/47.3/51/54.6/58.2/61.9/65.5/69.2}%\n• Burning  Damage Maximum 🡑 {71.4/75/78.7/82.3/86/89.6/93.2/96.9/100.5/104.2}%"
+					"skill_rankup_desc": "• Burning Damage 🡑 {36.4/40/43.7/47.3/51/54.6/58.2/61.9/65.5/69.2}%\n• Burning Damage Maximum 🡑 {71.4/75/78.7/82.3/86/89.6/93.2/96.9/100.5/104.2}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -34371,7 +34371,7 @@
 					],
 					"skill_desc": "Using a cooldown grants {10/20/30/40/50/60/70/80/90/100}% of your Maximum Life as a Barrier for 5 seconds.",
 					"skill_name": "Protection",
-					"skill_rankup_desc": "• Barrier Amount 🡑  {10/20/30/40/50/60/70/80/90/100}% Maximum Life"
+					"skill_rankup_desc": "• Barrier Amount 🡑 {10/20/30/40/50/60/70/80/90/100}% Maximum Life"
 				},
 				"req_points": 0,
 				"reward": {
