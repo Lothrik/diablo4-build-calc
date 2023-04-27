@@ -577,7 +577,7 @@ function applyZoomLevel() {
 	if (isNaN(zoomLevel) || zoomLevel < 0.25 || zoomLevel > 4) zoomLevel = 1;
 
 	$("#detailsWindow").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
-	$("#extraFooter").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "center bottom" });
+	$("#extraFooter").css({ "transform": `scale(${Math.max(zoomLevel, 1)})`, "transform-origin": "center bottom" });
 	$(".select2-container").width((window.innerWidth * 0.9 - 22));
 
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
@@ -594,7 +594,6 @@ function handleDetailsButton(event) {
 function refreshDetailsWindow() {
 	const className = $(classString).val();
 	if (detailsMode && className != "none") {
-		$("#detailsWindow").removeClass("disabled");
 		let baseStr = 7;
 		let baseInt = 7;
 		let baseWill = 7;
@@ -627,6 +626,8 @@ function refreshDetailsWindow() {
 			+ `<div>${Math.floor(baseWill + levelAttributes + paragonAttributeTotals["Willpower"])} Willpower</div>`
 			+ `<div>${Math.floor(baseDex + levelAttributes + paragonAttributeTotals["Dexterity"])} Dexterity</div>`
 			+ `<div>[Base + Level + Paragon]</div>`);
+		$("#detailsWindow").removeClass("disabled");
+		repositionDetailsWindow();
 	} else {
 		$("#detailsWindow").addClass("disabled");
 		$("#detailsWindowContents").empty();
@@ -637,12 +638,12 @@ function repositionDetailsWindow(detailsLeft = null, detailsTop = null) {
 	const detailsWidth = $("#detailsWindow").outerWidth(true) * zoomLevel;
 	const detailsHeight = $("#detailsWindow").outerHeight(true) * zoomLevel;
 
-	detailsLeft = Math.max(detailsLeft == null ? readCookie("detailsLeft", 0) : detailsLeft, 0);
-	detailsTop = Math.max(detailsTop == null ? readCookie("detailsTop", 0) : detailsTop, 0);
+	detailsLeft = detailsLeft == null ? readCookie("detailsLeft", 0) : detailsLeft;
+	detailsTop = detailsTop == null ? readCookie("detailsTop", 0) : detailsTop;
 
 	$("#detailsWindow").css({
-		"left": Math.min(detailsLeft, $("body").width() - detailsWidth),
-		"top": Math.min(detailsTop, $("body").height() - detailsHeight)
+		"left": Math.max(Math.min(detailsLeft, $("body").width() - detailsWidth), 0),
+		"top": Math.max(Math.min(detailsTop, $("body").height() - detailsHeight), 0)
 	});
 }
 function handleClampButton(event) {
