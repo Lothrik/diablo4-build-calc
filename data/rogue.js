@@ -1014,7 +1014,7 @@ Tags: Damage, Poison.`,
 	},
 	"Alchemical Advantage": {
 		connections: [ "Deadly Venom" ],
-		description: `You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to [0.15*100|%+|].
+		description: `You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to +15%.
 
 Tags: Poison, Attack Speed.`,
 		id: 79,

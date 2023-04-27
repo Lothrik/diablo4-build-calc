@@ -10174,7 +10174,7 @@
 						"Earth",
 						"Nature Magic"
 					],
-					"skill_desc": "While you have Fortify for over [0.5*100|%|] of your Maximum Life, your Earth Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage.",
+					"skill_desc": "While you have Fortify for over 50% of your Maximum Life, your Earth Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage.",
 					"skill_name": "Stone Guard",
 					"skill_rankup_desc": "• Damage Increase 🡑 x{4/8/12/16/20/24/28/32/36/40}%"
 				},
@@ -31899,7 +31899,7 @@
 						"Poison",
 						"Attack Speed"
 					],
-					"skill_desc": "You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to [0.15*100|%+|].",
+					"skill_desc": "You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to +15%.",
 					"skill_name": "Alchemical Advantage",
 					"skill_rankup_desc": "• Attack Speed 🡑 +{1/2/3/4/5/6/7/8/9/10}%"
 				},

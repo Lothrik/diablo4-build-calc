@@ -9327,7 +9327,7 @@
 					"power_tags": [
 						"Keyword_Fortify"
 					],
-					"skill_desc": "While Fortified over [0.5*100|%|] of your Maximum Life, your Earth skills deal  x{4/8/12/16/20/24/28/32/36/40}% increased damage.",
+					"skill_desc": "While Fortified over 50% of your Maximum Life, your Earth skills deal  x{4/8/12/16/20/24/28/32/36/40}% increased damage.",
 					"skill_name": "Stone Guard",
 					"skill_rankup_desc": "• Damage Increase 🡑 {4/8/12/16/20/24/28/32/36/40}%"
 				},
@@ -18824,7 +18824,7 @@
 					"SF_16_2": "The Golem sheds Corpses as it takes damage.",
 					"SF_16_3": "Active: Your Golem becomes Unstoppable and Taunts Nearby enemies and takes 30% reduced damage for the next 6 seconds.",
 					"SF_17": "The Golem absorbs 15% of damage you would take, and recovers Life when attacking.",
-					"SF_17_2": "Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing {40/44/48/52/56/60/64/68/72/76}% damage and healing [array([0.04 ,0.044,0.048,0.052,0.056,0.059,0.063,0.067,0.071,0.075])*100|%|] of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained.",
+					"SF_17_2": "Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing {40/44/48/52/56/60/64/68/72/76}% damage and healing {4/4.4/4.8/5.2/5.6/5.9/6.3/6.7/7.1/7.5}% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained.",
 					"SF_18": "Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds.  This has a [(NecroArmy_Spec_For_Pet_Type#2==2  and  10  or  16)] second cooldown."
 				},
 				"name": "Golem",
@@ -29453,7 +29453,7 @@
 				"id": 234,
 				"power": {
 					"power_name": "Rogue_Talent_Discipline_T4_N1",
-					"skill_desc": "You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to +[0.15*100|%|].",
+					"skill_desc": "You gain +{1/2/3/4/5/6/7/8/9/10}% increased Attack Speed for each enemy you've Poisoned, up to +15%.",
 					"skill_name": "Alchemical Advantage",
 					"skill_rankup_desc": "• Attack Speed 🡑 +{1/2/3/4/5/6/7/8/9/10}%"
 				},
@@ -35441,7 +35441,7 @@
 						"Skill_Primary_Conjuration",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a crackling spear of lightning that seeks out enemies for [6|1|] seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% per hit.",
+					"skill_desc": "Cooldown: {#} seconds\nLucky Hit Chance: {#}%\nConjure a crackling spear of lightning that seeks out enemies for 6 seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% per hit.",
 					"skill_name": "Lightning Spear",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},

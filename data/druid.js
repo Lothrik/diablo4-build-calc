@@ -1135,7 +1135,7 @@ Tags: Fortify, Critical Strikes, Earth, Nature Magic.`,
 	},
 	"Stone Guard": {
 		connections: [ "Crushing Earth" ],
-		description: `While you have Fortify for over [0.5*100|%|] of your Maximum Life, your Earth Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage.
+		description: `While you have Fortify for over 50% of your Maximum Life, your Earth Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage.
 
 Tags: Fortify, Damage, Life, Earth, Nature Magic.`,
 		id: 95,
