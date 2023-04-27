@@ -269,6 +269,7 @@ h1, h2, h3 {
 
 #extraInfo > div > img {
 	height: 22px;
+	min-width: 22px;
 }
 
 #extraInfo > .break {
@@ -402,6 +403,7 @@ button:active {
 	}
 	#extraInfo > div > img {
 		height: 4.4vw;
+		min-width: 4.4vw;
 	}
 	#extraInfo, #extraButtons1, #extraButtons2 {
 		margin-bottom: 2.4vw;
