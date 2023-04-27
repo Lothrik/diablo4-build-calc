@@ -1311,14 +1311,25 @@ function equipParagonBoardGlyph(curNode) {
 			delete paragonBoardGlyphRankData[boardIndex];
 		}
 
-		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+		updateGlyphBonusesFromNodes(boardHeader, 1);
+
 		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true); // force tooltip redraw, mostly for mobile
 
-		updateGlyphBonusesFromNodes(boardHeader, 1);
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 	$("#modalCancel").on("click", () => {
-		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+		updateGlyphBonusesFromNodes(boardHeader, -1);
+
+		delete paragonBoardGlyphData[boardIndex];
+		delete paragonBoardGlyphRankData[boardIndex];
+		curNode.nodeData.delete("nameOverride");
 		handleMinusButton(curNode);
+
+		updateGlyphBonusesFromNodes(boardHeader, 1);
+
+		if (pixiTooltip.children.length > 0) eraseTooltip(); // force tooltip erase, mostly for mobile
+
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 }
 // returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
@@ -1688,15 +1699,6 @@ function handleMinusButton(curNode) {
 			if (curNode.groupName == PARAGON_BOARD) {
 				updateParagonAttributes(curNode, newPoints - allocatedPoints);
 				pixiAllocatedParagonPoints--;
-				if (curNode.nodeData.get("nodeType") == "Socket") {
-					const boardIndex = curNode.nodeData.get("_boardIndex");
-					const boardHeader = curNode.nodeData.get("_boardHeader");
-					updateGlyphBonusesFromNodes(boardHeader, -1);
-					delete paragonBoardGlyphData[boardIndex];
-					delete paragonBoardGlyphRankData[boardIndex];
-					curNode.nodeData.delete("nameOverride");
-					drawTooltip(curNode, true);
-				}
 				updateCharacterLevel();
 			}
 		}
@@ -2746,7 +2748,7 @@ function drawTooltip(curNode, forceDraw) {
 				}
 			} else if (nodeType == "Magic" || nodeType == "Rare") {
 				const glyphMultiplier = getNodeGlyphMultiplier(curNode);
-				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)/g, (matchString, captureString) => parseFloat(captureString) * glyphMultiplier);
+				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)/g, (matchString, captureString) => Math.round(parseFloat(captureString) * glyphMultiplier * 100) / 100);
 			}
 
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
@@ -2755,10 +2757,10 @@ function drawTooltip(curNode, forceDraw) {
 					if (typeof captureString != "string") captureString = captureString[classText];
 					if (typeof captureString != "string") captureString = captureString.join("; or ");
 					if (nodeType == "Socket") {
-						captureString = captureString.replace(/(\d+ Strength)/gi, `${radiusAttributeTotals["Strength"]} Strength | $1`);
-						captureString = captureString.replace(/(\d+ Intelligence)/gi, `${radiusAttributeTotals["Intelligence"]} Intelligence | $1`);
-						captureString = captureString.replace(/(\d+ Willpower)/gi, `${radiusAttributeTotals["Willpower"]} Willpower | $1`);
-						captureString = captureString.replace(/(\d+ Dexterity)/gi, `${radiusAttributeTotals["Dexterity"]} Dexterity | $1`);
+						captureString = captureString.replace(/(\d+ Strength)/gi, `${Math.round(radiusAttributeTotals["Strength"] * 10) / 10} Strength | $1`);
+						captureString = captureString.replace(/(\d+ Intelligence)/gi, `${Math.round(radiusAttributeTotals["Intelligence"] * 10) / 10} Intelligence | $1`);
+						captureString = captureString.replace(/(\d+ Willpower)/gi, `${Math.round(radiusAttributeTotals["Willpower"] * 10) / 10} Willpower | $1`);
+						captureString = captureString.replace(/(\d+ Dexterity)/gi, `${Math.round(radiusAttributeTotals["Dexterity"] * 10) / 10} Dexterity | $1`);
 					}
 				}
 				if (captureString.includes("ParagonBoardEquipIndex")) {
