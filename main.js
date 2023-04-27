@@ -655,7 +655,7 @@ function handleClampButton(event) {
 	resetFrameTimer();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-28";
+const localVersion = "0.8.1.39858-29";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1225,6 +1225,9 @@ function setParagonBoardEquipIndex(boardIndex, forcedEquipIndex = null) {
 let paragonBoardGlyphData = {};
 let paragonBoardGlyphRankData = {};
 function equipParagonBoardGlyph(curNode) {
+	if (curNode.nodeData.get("allocatedPoints") == 0 && getUnusedPoints(true) == 0) return;
+	handlePlusButton(curNode);
+
 	const boardIndex = curNode.nodeData.get("_boardIndex");
 	const boardHeader = curNode.nodeData.get("_boardHeader");
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
@@ -1291,8 +1294,8 @@ function equipParagonBoardGlyph(curNode) {
 	$("#modalSelect").on("change", updateGlyphDescText);
 	$("#modalSlider").on("change", updateGlyphDescText);
 
-	// don't need to bother with `$("#modalSelect").val(paragonBoardGlyphData[boardIndex]);`
-	// as it's currently impossible to open this modal without first deallocating your glyph
+	$("#modalSelect").val(paragonBoardGlyphData[boardIndex]).trigger("change");
+	$("#modalSlider").val(paragonBoardGlyphRankData[boardIndex]).trigger("change");
 	updateGlyphDescText();
 
 	$("#modalConfirm").on("click", () => {
@@ -1313,6 +1316,7 @@ function equipParagonBoardGlyph(curNode) {
 	});
 	$("#modalCancel").on("click", () => {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+		handleMinusButton(curNode);
 	});
 }
 // returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
@@ -1432,7 +1436,6 @@ function updateNodePoints(curNode, newPoints) {
 				}
 			}*/
 			setNodeStyleThick(curNode);
-			if (pixiTooltip.nodeIndex == curNode.nodeIndex && curNode.nodeData.get("nodeType") == "Socket") equipParagonBoardGlyph(curNode);
 		}
 
 		const className = $(classString).val();
@@ -2177,9 +2180,15 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			.on("tap", onMouseOver);
 
 		if (maxPoints == 1) {
-			node
-				.on("click", () => handleToggleButton(node))
-				.on("tap", () => handleToggleButton(node));
+			if (nodeData.get("nodeType") == "Socket") {
+				node
+					.on("click", () => equipParagonBoardGlyph(node))
+					.on("tap", () => equipParagonBoardGlyph(node));
+			} else {
+				node
+					.on("click", () => handleToggleButton(node))
+					.on("tap", () => handleToggleButton(node));
+			}
 			node.cursor = "pointer";
 			nodeContainer.cursor = "pointer";
 		}
