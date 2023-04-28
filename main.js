@@ -2747,7 +2747,7 @@ function drawTooltip(curNode, forceDraw) {
 				}
 			} else if (nodeType == "Magic" || nodeType == "Rare") {
 				const glyphMultiplier = getNodeGlyphMultiplier(curNode);
-				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)/g, (matchString, captureString) => Math.round(parseFloat(captureString) * glyphMultiplier * 100) / 100);
+				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)/g, (matchString, captureString) => Math.round(parseFloat(captureString) * glyphMultiplier * 2) / 2);
 			}
 
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
@@ -2756,10 +2756,10 @@ function drawTooltip(curNode, forceDraw) {
 					if (typeof captureString != "string") captureString = captureString[classText];
 					if (typeof captureString != "string") captureString = captureString.join("; or ");
 					if (nodeType == "Socket") {
-						captureString = captureString.replace(/(\d+ Strength)/gi, `${Math.round(radiusAttributeTotals["Strength"] * 10) / 10} Strength | $1`);
-						captureString = captureString.replace(/(\d+ Intelligence)/gi, `${Math.round(radiusAttributeTotals["Intelligence"] * 10) / 10} Intelligence | $1`);
-						captureString = captureString.replace(/(\d+ Willpower)/gi, `${Math.round(radiusAttributeTotals["Willpower"] * 10) / 10} Willpower | $1`);
-						captureString = captureString.replace(/(\d+ Dexterity)/gi, `${Math.round(radiusAttributeTotals["Dexterity"] * 10) / 10} Dexterity | $1`);
+						captureString = captureString.replace(/(\d+ Strength)/gi, `${Math.round(radiusAttributeTotals["Strength"] * 2) / 2} Strength | $1`);
+						captureString = captureString.replace(/(\d+ Intelligence)/gi, `${Math.round(radiusAttributeTotals["Intelligence"] * 2) / 2} Intelligence | $1`);
+						captureString = captureString.replace(/(\d+ Willpower)/gi, `${Math.round(radiusAttributeTotals["Willpower"] * 2) / 2} Willpower | $1`);
+						captureString = captureString.replace(/(\d+ Dexterity)/gi, `${Math.round(radiusAttributeTotals["Dexterity"] * 2) / 2} Dexterity | $1`);
 					}
 				}
 				if (captureString.includes("ParagonBoardEquipIndex")) {

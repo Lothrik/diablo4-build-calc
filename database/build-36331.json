@@ -997,7 +997,7 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+4.8% Damage while Berserking",
+				"desc": "+5% Damage while Berserking",
 				"name": "Berserk Damage",
 				"tags": [
 					"Keyword_Berserk"
@@ -1018,7 +1018,7 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+7.2% Berserking Duration",
+				"desc": "+7.5% Berserking Duration",
 				"name": "Berserk Duration",
 				"tags": [
 					"Keyword_Berserk"
@@ -1039,7 +1039,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+0.08 Maximum Fury",
+				"desc": "+0.083 Maximum Fury",
 				"name": "Fury",
 				"tags": [
 					"Search_ResourceFury"
@@ -1060,7 +1060,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+4.8% Fury Generation",
+				"desc": "+5% Fury Generation",
 				"name": "Fury Generation",
 				"tags": [
 					"Search_ResourceFury"
@@ -1137,13 +1137,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Attack Speed\n+10 Strength",
+				"desc": "+10% Attack Speed\n+10 Strength",
 				"name": "Onslaught",
 				"tags": [
 					"Search_AttackSpeed",
 					"Search_Strength"
 				],
-				"threshold_bonus": "+9.6% Attack Speed",
+				"threshold_bonus": "+10% Attack Speed",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -1189,13 +1189,13 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+4.8% Damage while Berserking\n+6.7% Damage to Elites",
+				"desc": "+5% Damage while Berserking\n+6.7% Damage to Elites",
 				"name": "Berserker",
 				"tags": [
 					"Keyword_Berserk",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+4.8% Damage while Berserking",
+				"threshold_bonus": "+5% Damage while Berserking",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -1235,12 +1235,12 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+9.6% Physical Damage Over Time\n+4% Damage To Bleeding Enemies",
+				"desc": "+10% Physical Damage Over Time\n+4% Damage To Bleeding Enemies",
 				"name": "Flayer",
 				"tags": [
 					"Search_Bleed"
 				],
-				"threshold_bonus": "+9.6% Physical Damage Over Time",
+				"threshold_bonus": "+10% Physical Damage Over Time",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -1273,13 +1273,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Physical Damage Over Time\n+10 Strength",
+				"desc": "+10% Physical Damage Over Time\n+10 Strength",
 				"name": "Butcher",
 				"tags": [
 					"Search_Bleed",
 					"Search_Strength"
 				],
-				"threshold_bonus": "+9.6% Physical Damage Over Time",
+				"threshold_bonus": "+10% Physical Damage Over Time",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -1322,13 +1322,13 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+9.6% Physical Damage Over Time\n+4% Physical Damage",
+				"desc": "+10% Physical Damage Over Time\n+4% Physical Damage",
 				"name": "Lacerator",
 				"tags": [
 					"Search_Bleed",
 					"Search_Physical"
 				],
-				"threshold_bonus": "+9.6% Physical Damage Over Time",
+				"threshold_bonus": "+10% Physical Damage Over Time",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -1362,12 +1362,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage With TwoHandedBludgeoning\n+12% Overpower Damage",
+				"desc": "+10% Damage With TwoHandedBludgeoning\n+12% Overpower Damage",
 				"name": "Bludgeoner",
 				"tags": [
 					"Keyword_Overpower"
 				],
-				"threshold_bonus": "+9.6% Damage With TwoHandedBludgeoning",
+				"threshold_bonus": "+10% Damage With TwoHandedBludgeoning",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -1695,12 +1695,12 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+0.16 Maximum Fury\nGrants 1 Fury per Kill",
+				"desc": "+0.167 Maximum Fury\nGrants 1 Fury per Kill",
 				"name": "Hungering Fury",
 				"tags": [
 					"Search_ResourceFury"
 				],
-				"threshold_bonus": "+0.16 Maximum Fury",
+				"threshold_bonus": "+0.167 Maximum Fury",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -1790,13 +1790,13 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+9.6% Physical Damage\n4% Life",
+				"desc": "+10% Physical Damage\n4% Life",
 				"name": "Brawn",
 				"tags": [
 					"Search_Physical",
 					"Search_Life"
 				],
-				"threshold_bonus": "+9.6% Physical Damage",
+				"threshold_bonus": "+10% Physical Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{200 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -1830,13 +1830,13 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+9.6% Damage while Berserking\n+0.04 Strength",
+				"desc": "+10% Damage while Berserking\n+0.04 Strength",
 				"name": "Fierce",
 				"tags": [
 					"Keyword_Berserk",
 					"Search_Strength"
 				],
-				"threshold_bonus": "+9.6% Damage while Berserking",
+				"threshold_bonus": "+10% Damage while Berserking",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -1875,13 +1875,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Critical Strike Damage With OneHanded\n+10 Strength",
+				"desc": "+15% Critical Strike Damage With OneHanded\n+10 Strength",
 				"name": "Heavy Blows",
 				"tags": [
 					"Search_Critical",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+14.4% Critical Strike Damage With OneHanded",
+				"threshold_bonus": "+15% Critical Strike Damage With OneHanded",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -1924,12 +1924,12 @@
 						"stat_dword": 955638
 					}
 				},
-				"desc": "+9.6% Damage With OneHanded\n+4% Attack Speed",
+				"desc": "+10% Damage With OneHanded\n+4% Attack Speed",
 				"name": "Wild Force",
 				"tags": [
 					"Search_AttackSpeed"
 				],
-				"threshold_bonus": "+9.6% Damage With OneHanded",
+				"threshold_bonus": "+10% Damage With OneHanded",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -2025,12 +2025,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage With TwoHandedSlashing\n+4% Damage to Vulnerable Enemies",
+				"desc": "+10% Damage With TwoHandedSlashing\n+4% Damage to Vulnerable Enemies",
 				"name": "Destroyer",
 				"tags": [
 					"Keyword_Vulnerable"
 				],
-				"threshold_bonus": "+9.6% Damage With TwoHandedSlashing",
+				"threshold_bonus": "+10% Damage With TwoHandedSlashing",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{215 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -2064,12 +2064,12 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+9.6% Damage while Berserking\n+6% Berserking Duration",
+				"desc": "+10% Damage while Berserking\n+6% Berserking Duration",
 				"name": "Enraged",
 				"tags": [
 					"Keyword_Berserk"
 				],
-				"threshold_bonus": "+9.6% Damage while Berserking",
+				"threshold_bonus": "+10% Damage while Berserking",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -6731,7 +6731,7 @@
 						"stat_dword": 1400607680
 					}
 				},
-				"desc": "+7.2% Critical Strike Damage for Skill_Nature_Magic_Earth Skills",
+				"desc": "+7.5% Critical Strike Damage for Skill_Nature_Magic_Earth Skills",
 				"name": "Critical Damage Earth",
 				"tags": [
 					"Skill_Nature_Magic_Earth",
@@ -6753,7 +6753,7 @@
 						"stat_dword": 3340001955
 					}
 				},
-				"desc": "+16% Skill_Primary_Basic Skill Damage",
+				"desc": "+16.7% Skill_Primary_Basic Skill Damage",
 				"name": "Damage Basic",
 				"tags": [
 					"Skill_Primary_Basic"
@@ -6774,7 +6774,7 @@
 						"stat_dword": 3828355704
 					}
 				},
-				"desc": "+4.8% Skill_Bear Skill Damage",
+				"desc": "+5% Skill_Bear Skill Damage",
 				"name": "Damage Bear",
 				"tags": [
 					"Skill_Bear"
@@ -6795,7 +6795,7 @@
 						"stat_dword": 2834424330
 					}
 				},
-				"desc": "+6.7% Skill_Primary_Core Skill Damage",
+				"desc": "+7% Skill_Primary_Core Skill Damage",
 				"name": "Damage Core",
 				"tags": [
 					"Skill_Primary_Core"
@@ -6816,7 +6816,7 @@
 						"stat_dword": 1400607680
 					}
 				},
-				"desc": "+4.8% Skill_Nature_Magic_Earth Skill Damage",
+				"desc": "+5% Skill_Nature_Magic_Earth Skill Damage",
 				"name": "Damage Earth",
 				"tags": [
 					"Skill_Nature_Magic_Earth"
@@ -6837,7 +6837,7 @@
 						"stat_dword": 3359304269
 					}
 				},
-				"desc": "+4.8% Skill_Nature_Magic Skill Damage",
+				"desc": "+5% Skill_Nature_Magic Skill Damage",
 				"name": "Damage Nature",
 				"tags": [
 					"Skill_Nature_Magic"
@@ -6858,7 +6858,7 @@
 						"stat_dword": 1713745003
 					}
 				},
-				"desc": "+4.8% Skill_Shapeshifting Skill Damage",
+				"desc": "+5% Skill_Shapeshifting Skill Damage",
 				"name": "Damage Shapeshifting",
 				"tags": [
 					"Skill_Shapeshifting"
@@ -6879,7 +6879,7 @@
 						"stat_dword": 1417890049
 					}
 				},
-				"desc": "+4.8% Skill_Nature_Magic_Storm Skill Damage",
+				"desc": "+5% Skill_Nature_Magic_Storm Skill Damage",
 				"name": "Damage Storm",
 				"tags": [
 					"Skill_Nature_Magic_Storm"
@@ -6900,7 +6900,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+4.8% Damage",
+				"desc": "+5% Damage",
 				"name": "Damage While Bear",
 				"tags": [
 					"Skill_Bear"
@@ -6921,7 +6921,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+0.08 Maximum Spirit",
+				"desc": "+0.083 Maximum Spirit",
 				"name": "Spirit",
 				"tags": [
 					"Search_ResourceSpirit"
@@ -6942,7 +6942,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+4.8% Spirit Generation",
+				"desc": "+5% Spirit Generation",
 				"name": "Spirit Generation",
 				"tags": [
 					"Search_ResourceSpirit"
@@ -6974,13 +6974,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage to Vulnerable Enemies\n+10 Willpower",
+				"desc": "+10% Damage to Vulnerable Enemies\n+10 Willpower",
 				"name": "Deluge",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -7065,12 +7065,12 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "+9.6% Damage To Poisoned Enemies\n+4% Poison Damage",
+				"desc": "+10% Damage To Poisoned Enemies\n+4% Poison Damage",
 				"name": "Toxic Bane",
 				"tags": [
 					"Search_Poison"
 				],
-				"threshold_bonus": "+9.6% Damage To Poisoned Enemies",
+				"threshold_bonus": "+10% Damage To Poisoned Enemies",
 				"threshold_requirements": {
 					"Druid": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7104,12 +7104,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage\n6.7% Bonus Fortify",
+				"desc": "+10% Damage\n6.7% Bonus Fortify",
 				"name": "Primal Instinct",
 				"tags": [
 					"Keyword_Fortify"
 				],
-				"threshold_bonus": "+9.6% Damage",
+				"threshold_bonus": "+10% Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -7155,13 +7155,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Nature_Magic_Earth Skill Damage\n+6% Critical Strike Damage to Crowd-Controlled Enemies",
+				"desc": "+10% Skill_Nature_Magic_Earth Skill Damage\n+6% Critical Strike Damage to Crowd-Controlled Enemies",
 				"name": "Crushing Earth",
 				"tags": [
 					"Skill_Nature_Magic_Earth",
 					"Search_CrowdControl"
 				],
-				"threshold_bonus": "+9.6% Skill_Nature_Magic_Earth Skill Damage",
+				"threshold_bonus": "+10% Skill_Nature_Magic_Earth Skill Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -7194,14 +7194,14 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Critical Strike Damage for Skill_Nature_Magic_Earth Skills\n+10 Willpower",
+				"desc": "+15% Critical Strike Damage for Skill_Nature_Magic_Earth Skills\n+10 Willpower",
 				"name": "Earthen Power",
 				"tags": [
 					"Search_Critical",
 					"Skill_Nature_Magic_Earth",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+14.4% Critical Strike Damage for Skill_Nature_Magic_Earth Skills",
+				"threshold_bonus": "+15% Critical Strike Damage for Skill_Nature_Magic_Earth Skills",
 				"threshold_requirements": {
 					"Druid": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7237,13 +7237,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Nature_Magic Skill Damage\n+10 Willpower",
+				"desc": "+10% Skill_Nature_Magic Skill Damage\n+10 Willpower",
 				"name": "Nature's Will",
 				"tags": [
 					"Skill_Nature_Magic",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+9.6% Skill_Nature_Magic Skill Damage",
+				"threshold_bonus": "+10% Skill_Nature_Magic Skill Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7280,13 +7280,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Nature_Magic Skill Damage\n+6.7% Damage to Elites",
+				"desc": "+10% Skill_Nature_Magic Skill Damage\n+6.7% Damage to Elites",
 				"name": "Devastation",
 				"tags": [
 					"Skill_Nature_Magic",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+9.6% Skill_Nature_Magic Skill Damage",
+				"threshold_bonus": "+10% Skill_Nature_Magic Skill Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7350,13 +7350,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage\n+10 Willpower",
+				"desc": "+10% Damage\n+10 Willpower",
 				"name": "Grizzly",
 				"tags": [
 					"Skill_Bear",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+9.6% Damage",
+				"threshold_bonus": "+10% Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7435,12 +7435,12 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+0.16 Maximum Spirit\nGrants 1 Spirit per Kill",
+				"desc": "+0.167 Maximum Spirit\nGrants 1 Spirit per Kill",
 				"name": "Reclamation",
 				"tags": [
 					"Search_ResourceSpirit"
 				],
-				"threshold_bonus": "+0.16 Maximum Spirit",
+				"threshold_bonus": "+0.167 Maximum Spirit",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7524,13 +7524,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Shapeshifting Skill Damage\n+10 Willpower",
+				"desc": "+10% Skill_Shapeshifting Skill Damage\n+10 Willpower",
 				"name": "Shapeshifter",
 				"tags": [
 					"Skill_Shapeshifting",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+9.6% Skill_Shapeshifting Skill Damage",
+				"threshold_bonus": "+10% Skill_Shapeshifting Skill Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -7573,13 +7573,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Nature_Magic_Storm Skill Damage\n+4% Damage to Vulnerable Enemies",
+				"desc": "+10% Skill_Nature_Magic_Storm Skill Damage\n+4% Damage to Vulnerable Enemies",
 				"name": "Stormcaller",
 				"tags": [
 					"Skill_Nature_Magic_Storm",
 					"Keyword_Vulnerable"
 				],
-				"threshold_bonus": "+9.6% Skill_Nature_Magic_Storm Skill Damage",
+				"threshold_bonus": "+10% Skill_Nature_Magic_Storm Skill Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7613,13 +7613,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Bear Skill Damage\n+12% Overpower Damage",
+				"desc": "+10% Skill_Bear Skill Damage\n+12% Overpower Damage",
 				"name": "Ursine",
 				"tags": [
 					"Skill_Bear",
 					"Keyword_Overpower"
 				],
-				"threshold_bonus": "+9.6% Skill_Bear Skill Damage",
+				"threshold_bonus": "+10% Skill_Bear Skill Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Willpower and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7701,13 +7701,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Spirit Generation\n+10 Willpower",
+				"desc": "+10% Spirit Generation\n+10 Willpower",
 				"name": "Harmony",
 				"tags": [
 					"Search_ResourceSpirit",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+9.6% Spirit Generation",
+				"threshold_bonus": "+10% Spirit Generation",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -13108,7 +13108,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Attack Speed",
+				"desc": "+5% Attack Speed",
 				"name": "Attack Speed",
 				"tags": [
 					"Search_AttackSpeed"
@@ -13212,7 +13212,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+7.2% Critical Strike Damage",
+				"desc": "+7.5% Critical Strike Damage",
 				"name": "Crit Damage Lightning",
 				"tags": [
 					"Search_Critical",
@@ -13234,7 +13234,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.2% Critical Strike Damage",
+				"desc": "+7.5% Critical Strike Damage",
 				"name": "Critical Damage",
 				"tags": [
 					"Search_Critical"
@@ -13255,7 +13255,7 @@
 						"stat_dword": 955638
 					}
 				},
-				"desc": "+7.2% Critical Strike Damage With OneHanded",
+				"desc": "+7.5% Critical Strike Damage With OneHanded",
 				"name": "Critical Damage 1H",
 				"tags": [
 					"Search_Critical"
@@ -13276,7 +13276,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.2% Critical Strike Damage",
+				"desc": "+7.5% Critical Strike Damage",
 				"name": "Critical Damage Elemental",
 				"tags": [
 					"Search_NonPhysical",
@@ -13298,7 +13298,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Critical Strike Damage to Crowd-Controlled Enemies",
+				"desc": "+10% Critical Strike Damage to Crowd-Controlled Enemies",
 				"name": "Critical Damage To CC",
 				"tags": [
 					"Search_Critical",
@@ -13340,7 +13340,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Damage",
+				"desc": "+5% Damage",
 				"name": "Damage"
 			},
 			"Generic_Magic_Damage1H": {
@@ -13358,7 +13358,7 @@
 						"stat_dword": 955638
 					}
 				},
-				"desc": "+4.8% Damage With OneHanded",
+				"desc": "+5% Damage With OneHanded",
 				"name": "Damage 1H"
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
@@ -13376,7 +13376,7 @@
 						"stat_dword": 955626
 					}
 				},
-				"desc": "+4.8% Damage With TwoHandedBludgeoning",
+				"desc": "+5% Damage With TwoHandedBludgeoning",
 				"name": "Damage 2H Bludgeoning"
 			},
 			"Generic_Magic_Damage2HSlashing": {
@@ -13394,7 +13394,7 @@
 						"stat_dword": 955625
 					}
 				},
-				"desc": "+4.8% Damage With TwoHandedSlashing",
+				"desc": "+5% Damage With TwoHandedSlashing",
 				"name": "Damage 2H Slashing"
 			},
 			"Generic_Magic_DamageAfterDodge": {
@@ -13423,7 +13423,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Damage for {#} Seconds After Dodging an Attack",
+				"desc": "+5% Damage for {#} Seconds After Dodging an Attack",
 				"name": "Damage After Dodge",
 				"tags": [
 					"SEARCH_DODGE"
@@ -13444,7 +13444,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+4.8% Physical Damage Over Time",
+				"desc": "+5% Physical Damage Over Time",
 				"name": "Damage Bleed",
 				"tags": [
 					"Search_Bleed"
@@ -13465,7 +13465,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+4.8% Fire Damage Over Time",
+				"desc": "+5% Fire Damage Over Time",
 				"name": "Damage Burn",
 				"tags": [
 					"Search_Burn"
@@ -13486,7 +13486,7 @@
 						"stat_dword": 3
 					}
 				},
-				"desc": "+4.8% Cold Damage",
+				"desc": "+5% Cold Damage",
 				"name": "Damage Cold",
 				"tags": [
 					"Search_Cold"
@@ -13507,7 +13507,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Non-Physical Damage",
+				"desc": "+5% Non-Physical Damage",
 				"name": "Damage Elemental",
 				"tags": [
 					"Search_NonPhysical"
@@ -13528,7 +13528,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+4.8% Fire Damage",
+				"desc": "+5% Fire Damage",
 				"name": "Damage Fire",
 				"tags": [
 					"Search_Fire"
@@ -13549,7 +13549,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+4.8% Lightning Damage",
+				"desc": "+5% Lightning Damage",
 				"name": "Damage Lightning",
 				"tags": [
 					"Search_Lightning"
@@ -13570,7 +13570,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+4.8% Physical Damage",
+				"desc": "+5% Physical Damage",
 				"name": "Damage Physical",
 				"tags": [
 					"Search_Physical"
@@ -13591,7 +13591,7 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "+4.8% Poison Damage",
+				"desc": "+5% Poison Damage",
 				"name": "Damage Poison"
 			},
 			"Generic_Magic_DamageReductionFromBleedingTarget": {
@@ -13893,7 +13893,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+4.8% Shadow Damage",
+				"desc": "+5% Shadow Damage",
 				"name": "Damage Shadow",
 				"tags": [
 					"Search_Shadow"
@@ -13914,7 +13914,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+4.8% Shadow Damage Over Time",
+				"desc": "+5% Shadow Damage Over Time",
 				"name": "Damage Shadow DoT",
 				"tags": [
 					"Search_ShadowDOT"
@@ -13955,7 +13955,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+4.8% Damage To Bleeding Enemies",
+				"desc": "+5% Damage To Bleeding Enemies",
 				"name": "Damage To Bleed",
 				"tags": [
 					"Search_Bleed"
@@ -13976,7 +13976,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+4.8% Damage To Burning Enemies",
+				"desc": "+5% Damage To Burning Enemies",
 				"name": "Damage To Burning",
 				"tags": [
 					"Search_Burn"
@@ -13997,7 +13997,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.2% Damage to Crowd Controlled Enemies",
+				"desc": "+7.5% Damage to Crowd Controlled Enemies",
 				"name": "Damage To CC",
 				"tags": [
 					"Search_CrowdControl"
@@ -14018,7 +14018,7 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "+7.2% Damage to Chilled Enemies",
+				"desc": "+7.5% Damage to Chilled Enemies",
 				"name": "Damage To Chill",
 				"tags": [
 					"Keyword_Chill"
@@ -14039,7 +14039,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+8% Damage to Elites",
+				"desc": "+8.3% Damage to Elites",
 				"name": "Damage To Elite",
 				"tags": [
 					"Search_Elite"
@@ -14060,7 +14060,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.2% Damage To Distant Enemies",
+				"desc": "+7.5% Damage To Distant Enemies",
 				"name": "Damage To Far"
 			},
 			"Generic_Magic_DamageToHigh": {
@@ -14078,7 +14078,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12% Damage to Healthy Enemies",
+				"desc": "+12.5% Damage to Healthy Enemies",
 				"name": "Damage To High",
 				"tags": [
 					"Keyword_Healthy"
@@ -14099,7 +14099,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12% Damage to Injured Enemies",
+				"desc": "+12.5% Damage to Injured Enemies",
 				"name": "Damage To Low",
 				"tags": [
 					"Keyword_Injured"
@@ -14120,7 +14120,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5.8% Damage To Close Enemies",
+				"desc": "+6% Damage To Close Enemies",
 				"name": "Damage To Near"
 			},
 			"Generic_Magic_DamageToPoison": {
@@ -14138,7 +14138,7 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "+4.8% Damage To Poisoned Enemies",
+				"desc": "+5% Damage To Poisoned Enemies",
 				"name": "Damage To Poison",
 				"tags": [
 					"Search_Poison"
@@ -14159,7 +14159,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+4.8% Damage To Taking Shadow DoT Enemies",
+				"desc": "+5% Damage To Taking Shadow DoT Enemies",
 				"name": "Damage To Shadow DoTed",
 				"tags": [
 					"Search_ShadowDOT"
@@ -14180,7 +14180,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Damage to Vulnerable Enemies",
+				"desc": "+5% Damage to Vulnerable Enemies",
 				"name": "Damage To Vulnerable",
 				"tags": [
 					"Keyword_Vulnerable"
@@ -14201,7 +14201,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Damage While Fortified",
+				"desc": "+5% Damage While Fortified",
 				"name": "Damage While Fortified",
 				"tags": [
 					"Keyword_Fortify"
@@ -14222,7 +14222,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+6% Damage While Healthy",
+				"desc": "+6.2% Damage While Healthy",
 				"name": "Damage While Healthy",
 				"tags": [
 					"Keyword_Healthy"
@@ -14263,7 +14263,7 @@
 						"stat_dword": 6
 					}
 				},
-				"desc": "+0.08 Maximum Essence",
+				"desc": "+0.083 Maximum Essence",
 				"name": "Essence",
 				"tags": [
 					"Search_ResourceEssence"
@@ -14304,7 +14304,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "Lucky Hit: Up to +4.8% Chance to Execute Injured Non-Elites",
+				"desc": "Lucky Hit: Up to +5% Chance to Execute Injured Non-Elites",
 				"name": "Execute",
 				"tags": [
 					"Keyword_Execute",
@@ -14409,7 +14409,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+0.08 Maximum Mana",
+				"desc": "+0.083 Maximum Mana",
 				"name": "Mana",
 				"tags": [
 					"Search_ResourceMana"
@@ -14472,7 +14472,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Minion Attack Speed",
+				"desc": "+5% Minion Attack Speed",
 				"name": "Minion Attack Speed",
 				"tags": [
 					"Search_Minion",
@@ -14494,7 +14494,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Minion Damage",
+				"desc": "+5% Minion Damage",
 				"name": "Minion Damage",
 				"tags": [
 					"Search_Minion"
@@ -14591,7 +14591,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Overpower Damage",
+				"desc": "+15% Overpower Damage",
 				"name": "Overpower Damage",
 				"tags": [
 					"Keyword_Overpower"
@@ -14951,12 +14951,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Attack Speed\n+4% Damage",
+				"desc": "+10% Attack Speed\n+4% Damage",
 				"name": "Nimble",
 				"tags": [
 					"Search_AttackSpeed"
 				],
-				"threshold_bonus": "+9.6% Attack Speed",
+				"threshold_bonus": "+10% Attack Speed",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -15096,13 +15096,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+16% Damage to Elites\n+10 Dexterity",
+				"desc": "+16.7% Damage to Elites\n+10 Dexterity",
 				"name": "Focused",
 				"tags": [
 					"Search_Elite",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+16% Damage to Elites",
+				"threshold_bonus": "+16.7% Damage to Elites",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -15139,13 +15139,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Damage to Crowd Controlled Enemies\n+6% Critical Strike Damage to Crowd-Controlled Enemies",
+				"desc": "+15% Damage to Crowd Controlled Enemies\n+6% Critical Strike Damage to Crowd-Controlled Enemies",
 				"name": "Oppress",
 				"tags": [
 					"Search_CrowdControl",
 					"Search_Critical"
 				],
-				"threshold_bonus": "+14.4% Damage to Crowd Controlled Enemies",
+				"threshold_bonus": "+15% Damage to Crowd Controlled Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -15191,13 +15191,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+24% Damage to Healthy Enemies\n+2% Armor",
+				"desc": "+25% Damage to Healthy Enemies\n+2% Armor",
 				"name": "Spearhead",
 				"tags": [
 					"Keyword_Healthy",
 					"Search_Armor"
 				],
-				"threshold_bonus": "+24% Damage to Healthy Enemies",
+				"threshold_bonus": "+25% Damage to Healthy Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -15296,13 +15296,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Critical Strike Damage\n+4% Physical Damage",
+				"desc": "+15% Critical Strike Damage\n+4% Physical Damage",
 				"name": "Havoc",
 				"tags": [
 					"Search_Critical",
 					"Search_Physical"
 				],
-				"threshold_bonus": "+14.4% Critical Strike Damage",
+				"threshold_bonus": "+15% Critical Strike Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -15349,13 +15349,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+24% Damage to Healthy Enemies\n+6% Critical Strike Damage",
+				"desc": "+25% Damage to Healthy Enemies\n+6% Critical Strike Damage",
 				"name": "Ruin",
 				"tags": [
 					"Search_Critical",
 					"Keyword_Healthy"
 				],
-				"threshold_bonus": "+24% Damage to Healthy Enemies",
+				"threshold_bonus": "+25% Damage to Healthy Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -15398,13 +15398,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+24% Damage to Injured Enemies\n+6% Critical Strike Damage",
+				"desc": "+25% Damage to Injured Enemies\n+6% Critical Strike Damage",
 				"name": "Stifle",
 				"tags": [
 					"Keyword_Injured",
 					"Search_Critical"
 				],
-				"threshold_bonus": "+24% Damage to Injured Enemies",
+				"threshold_bonus": "+25% Damage to Injured Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -15446,13 +15446,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Damage to Crowd Controlled Enemies\n+10 Dexterity",
+				"desc": "+15% Damage to Crowd Controlled Enemies\n+10 Dexterity",
 				"name": "Devious",
 				"tags": [
 					"Search_CrowdControl",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+14.4% Damage to Crowd Controlled Enemies",
+				"threshold_bonus": "+15% Damage to Crowd Controlled Enemies",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -15499,13 +15499,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity",
+				"desc": "+10% Damage for {#} Seconds After Dodging an Attack\n+10 Dexterity",
 				"name": "Feint",
 				"tags": [
 					"SEARCH_DODGE",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+9.6% Damage for {#} Seconds After Dodging an Attack",
+				"threshold_bonus": "+10% Damage for {#} Seconds After Dodging an Attack",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -15647,13 +15647,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Damage to Crowd Controlled Enemies\n+2% Armor",
+				"desc": "+15% Damage to Crowd Controlled Enemies\n+2% Armor",
 				"name": "Calculated",
 				"tags": [
 					"Search_CrowdControl",
 					"Search_Armor"
 				],
-				"threshold_bonus": "+14.4% Damage to Crowd Controlled Enemies",
+				"threshold_bonus": "+15% Damage to Crowd Controlled Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -15711,13 +15711,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+16% Damage to Elites\n14% Movement Speed on Elite Kill",
+				"desc": "+16.7% Damage to Elites\n14% Movement Speed on Elite Kill",
 				"name": "Hunter Killer",
 				"tags": [
 					"Search_Elite",
 					"Search_MovementSpeed"
 				],
-				"threshold_bonus": "+16% Damage to Elites",
+				"threshold_bonus": "+16.7% Damage to Elites",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -15763,13 +15763,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+24% Damage to Injured Enemies\n+2% Armor",
+				"desc": "+25% Damage to Injured Enemies\n+2% Armor",
 				"name": "Deathbringer",
 				"tags": [
 					"Keyword_Injured",
 					"Search_Armor"
 				],
-				"threshold_bonus": "+24% Damage to Injured Enemies",
+				"threshold_bonus": "+25% Damage to Injured Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{200 + (130 * ParagonBoardEquipIndex)} Strength",
@@ -15816,13 +15816,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage to Vulnerable Enemies\n+2% Armor",
+				"desc": "+10% Damage to Vulnerable Enemies\n+2% Armor",
 				"name": "Pillage",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Armor"
 				],
-				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -15859,13 +15859,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage While Fortified\n+5% Damage While Healthy",
+				"desc": "+10% Damage While Fortified\n+5% Damage While Healthy",
 				"name": "Inner Strength",
 				"tags": [
 					"Keyword_Fortify",
 					"Keyword_Healthy"
 				],
-				"threshold_bonus": "+9.6% Damage While Fortified",
+				"threshold_bonus": "+10% Damage While Fortified",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -15908,12 +15908,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12% Damage While Healthy\n+4% Damage",
+				"desc": "+12.5% Damage While Healthy\n+4% Damage",
 				"name": "Aggression",
 				"tags": [
 					"Keyword_Healthy"
 				],
-				"threshold_bonus": "+12% Damage While Healthy",
+				"threshold_bonus": "+12.5% Damage While Healthy",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -15953,13 +15953,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Non-Physical Damage\n4% Life",
+				"desc": "+10% Non-Physical Damage\n4% Life",
 				"name": "Elementalist",
 				"tags": [
 					"Search_NonPhysical",
 					"Search_Life"
 				],
-				"threshold_bonus": "+9.6% Non-Physical Damage",
+				"threshold_bonus": "+10% Non-Physical Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -15996,14 +15996,14 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "Lucky Hit: Up to +9.6% Chance to Execute Injured Non-Elites\n+4% Attack Speed",
+				"desc": "Lucky Hit: Up to +10% Chance to Execute Injured Non-Elites\n+4% Attack Speed",
 				"name": "Culler",
 				"tags": [
 					"Keyword_Execute",
 					"Search_AttackSpeed",
 					"Keyword_Injured"
 				],
-				"threshold_bonus": "Lucky Hit: Up to +9.6% Chance to Execute Injured Non-Elites",
+				"threshold_bonus": "Lucky Hit: Up to +10% Chance to Execute Injured Non-Elites",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
@@ -16254,12 +16254,12 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+0.16 Maximum Mana\nGrants 1 Mana per Kill",
+				"desc": "+0.167 Maximum Mana\nGrants 1 Mana per Kill",
 				"name": "Re-energizer",
 				"tags": [
 					"Search_ResourceMana"
 				],
-				"threshold_bonus": "+0.16 Maximum Mana",
+				"threshold_bonus": "+0.167 Maximum Mana",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -16299,13 +16299,13 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+0.16 Maximum Mana\n4% Life",
+				"desc": "+0.167 Maximum Mana\n4% Life",
 				"name": "Reservoir",
 				"tags": [
 					"Search_ResourceMana",
 					"Search_Life"
 				],
-				"threshold_bonus": "+0.16 Maximum Mana",
+				"threshold_bonus": "+0.167 Maximum Mana",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -16345,13 +16345,13 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+0.16 Maximum Fury\n4% Life",
+				"desc": "+0.167 Maximum Fury\n4% Life",
 				"name": "Core Reserve",
 				"tags": [
 					"Search_ResourceFury",
 					"Search_Life"
 				],
-				"threshold_bonus": "+0.16 Maximum Fury",
+				"threshold_bonus": "+0.167 Maximum Fury",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -16495,13 +16495,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Critical Strike Damage\n+4% Damage to Vulnerable Enemies",
+				"desc": "+15% Critical Strike Damage\n+4% Damage to Vulnerable Enemies",
 				"name": "Tempest",
 				"tags": [
 					"Search_Critical",
 					"Keyword_Vulnerable"
 				],
-				"threshold_bonus": "+14.4% Critical Strike Damage",
+				"threshold_bonus": "+15% Critical Strike Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -16693,13 +16693,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage to Vulnerable Enemies\n+10% Damage to Injured Enemies",
+				"desc": "+10% Damage to Vulnerable Enemies\n+10% Damage to Injured Enemies",
 				"name": "Exploit",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Critical"
 				],
-				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -16732,12 +16732,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage\n+10 Dexterity",
+				"desc": "+10% Damage\n+10 Dexterity",
 				"name": "Skillful",
 				"tags": [
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+9.6% Damage",
+				"threshold_bonus": "+10% Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -16773,12 +16773,12 @@
 						"stat_dword": 6
 					}
 				},
-				"desc": "+0.16 Maximum Essence\nGrants 1 Essence per Kill",
+				"desc": "+0.167 Maximum Essence\nGrants 1 Essence per Kill",
 				"name": "Reinvigorate",
 				"tags": [
 					"Search_ResourceEssence"
 				],
-				"threshold_bonus": "+0.16 Maximum Essence",
+				"threshold_bonus": "+0.167 Maximum Essence",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -16909,13 +16909,13 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+9.6% Damage To Bleeding Enemies\n+6.7% Damage to Elites",
+				"desc": "+10% Damage To Bleeding Enemies\n+6.7% Damage to Elites",
 				"name": "Craving",
 				"tags": [
 					"Search_Bleed",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+9.6% Damage To Bleeding Enemies",
+				"threshold_bonus": "+10% Damage To Bleeding Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -16957,13 +16957,13 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+9.6% Damage To Bleeding Enemies\n+10 Strength",
+				"desc": "+10% Damage To Bleeding Enemies\n+10 Strength",
 				"name": "Revel",
 				"tags": [
 					"Search_Bleed",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+9.6% Damage To Bleeding Enemies",
+				"threshold_bonus": "+10% Damage To Bleeding Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -17050,13 +17050,13 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+9.6% Physical Damage\n+4% Attack Speed",
+				"desc": "+10% Physical Damage\n+4% Attack Speed",
 				"name": "Brute",
 				"tags": [
 					"Search_Physical",
 					"Search_AttackSpeed"
 				],
-				"threshold_bonus": "+9.6% Physical Damage",
+				"threshold_bonus": "+10% Physical Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -17182,13 +17182,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage for {#} Seconds After Dodging an Attack\n+6.7% Damage to Elites",
+				"desc": "+10% Damage for {#} Seconds After Dodging an Attack\n+6.7% Damage to Elites",
 				"name": "Discerning",
 				"tags": [
 					"Search_Elite",
 					"SEARCH_DODGE"
 				],
-				"threshold_bonus": "+9.6% Damage for {#} Seconds After Dodging an Attack",
+				"threshold_bonus": "+10% Damage for {#} Seconds After Dodging an Attack",
 				"threshold_requirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -17221,13 +17221,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Physical Damage\n+10 Strength",
+				"desc": "+10% Physical Damage\n+10 Strength",
 				"name": "Raw Power",
 				"tags": [
 					"Search_Physical",
 					"Search_Strength"
 				],
-				"threshold_bonus": "+9.6% Physical Damage",
+				"threshold_bonus": "+10% Physical Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -17399,13 +17399,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage to Vulnerable Enemies\n+10 Strength",
+				"desc": "+10% Damage to Vulnerable Enemies\n+10 Strength",
 				"name": "Demolish",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Strength"
 				],
-				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -17447,13 +17447,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+28.8% Overpower Damage\n+10 Strength",
+				"desc": "+30% Overpower Damage\n+10 Strength",
 				"name": "Brutality",
 				"tags": [
 					"Keyword_Overpower",
 					"Search_Strength"
 				],
-				"threshold_bonus": "+28.8% Overpower Damage",
+				"threshold_bonus": "+30% Overpower Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -17486,12 +17486,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage\n+10 Willpower",
+				"desc": "+10% Damage\n+10 Willpower",
 				"name": "Impel",
 				"tags": [
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+9.6% Damage",
+				"threshold_bonus": "+10% Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -17576,12 +17576,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage\n4% Life",
+				"desc": "+10% Damage\n4% Life",
 				"name": "Prime",
 				"tags": [
 					"Search_Life"
 				],
-				"threshold_bonus": "+9.6% Damage",
+				"threshold_bonus": "+10% Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -17758,13 +17758,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12% Damage While Healthy\n+10 Willpower",
+				"desc": "+12.5% Damage While Healthy\n+10 Willpower",
 				"name": "Peak Condition",
 				"tags": [
 					"Keyword_Healthy",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+12% Damage While Healthy",
+				"threshold_bonus": "+12.5% Damage While Healthy",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -17807,13 +17807,13 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "+9.6% Damage To Poisoned Enemies\n+6.7% Damage to Elites",
+				"desc": "+10% Damage To Poisoned Enemies\n+6.7% Damage to Elites",
 				"name": "Overturn",
 				"tags": [
 					"Search_Poison",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+9.6% Damage To Poisoned Enemies",
+				"threshold_bonus": "+10% Damage To Poisoned Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -17975,12 +17975,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage\n+10 Intelligence",
+				"desc": "+10% Damage\n+10 Intelligence",
 				"name": "Knowledge",
 				"tags": [
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+9.6% Damage",
+				"threshold_bonus": "+10% Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -18067,13 +18067,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+16% Damage to Elites\n+10 Intelligence",
+				"desc": "+16.7% Damage to Elites\n+10 Intelligence",
 				"name": "Targeted",
 				"tags": [
 					"Search_Elite",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+16% Damage to Elites",
+				"threshold_bonus": "+16.7% Damage to Elites",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -18116,13 +18116,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+24% Damage to Injured Enemies\n4% Potion Healing",
+				"desc": "+25% Damage to Injured Enemies\n4% Potion Healing",
 				"name": "Corrective",
 				"tags": [
 					"Keyword_Injured",
 					"Search_Healing"
 				],
-				"threshold_bonus": "+24% Damage to Injured Enemies",
+				"threshold_bonus": "+25% Damage to Injured Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -18161,13 +18161,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+24% Damage to Injured Enemies\n+10 Intelligence",
+				"desc": "+25% Damage to Injured Enemies\n+10 Intelligence",
 				"name": "Deathmarked",
 				"tags": [
 					"Keyword_Injured",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+24% Damage to Injured Enemies",
+				"threshold_bonus": "+25% Damage to Injured Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -18351,13 +18351,13 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+9.6% Damage To Taking Shadow DoT Enemies\n+6.7% Damage to Elites",
+				"desc": "+10% Damage To Taking Shadow DoT Enemies\n+6.7% Damage to Elites",
 				"name": "Gnawing Darkness",
 				"tags": [
 					"Search_ShadowDOT",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+9.6% Damage To Taking Shadow DoT Enemies",
+				"threshold_bonus": "+10% Damage To Taking Shadow DoT Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -18399,13 +18399,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage To Taking Shadow DoT Enemies\n+10 Intelligence",
+				"desc": "+10% Damage To Taking Shadow DoT Enemies\n+10 Intelligence",
 				"name": "Malediction",
 				"tags": [
 					"Search_ShadowDOT",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+9.6% Damage To Taking Shadow DoT Enemies",
+				"threshold_bonus": "+10% Damage To Taking Shadow DoT Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -19886,7 +19886,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4.8% Damage",
+				"desc": "+5% Damage",
 				"name": "Blood Orb Damage",
 				"tags": [
 					"Keyword_Blood_Orb"
@@ -19929,7 +19929,7 @@
 						"stat_dword": 3828367010
 					}
 				},
-				"desc": "+7.2% Critical Strike Damage for Skill_Bone Skills",
+				"desc": "+7.5% Critical Strike Damage for Skill_Bone Skills",
 				"name": "Critical Damage Bone",
 				"tags": [
 					"Skill_Bone",
@@ -19951,7 +19951,7 @@
 						"stat_dword": 1781953454
 					}
 				},
-				"desc": "+4.8% Skill_Blood Skill Damage",
+				"desc": "+5% Skill_Blood Skill Damage",
 				"name": "Damage Blood",
 				"tags": [
 					"Skill_Blood"
@@ -19972,7 +19972,7 @@
 						"stat_dword": 3828367010
 					}
 				},
-				"desc": "+4.8% Skill_Bone Skill Damage",
+				"desc": "+5% Skill_Bone Skill Damage",
 				"name": "Damage Bone",
 				"tags": [
 					"Skill_Bone"
@@ -19993,7 +19993,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+4.8% Damage while Golem are Active",
+				"desc": "+5% Damage while Golem are Active",
 				"name": "Damage With Active Golem",
 				"tags": [
 					"Search_Minion"
@@ -20036,7 +20036,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+8% Golem Attack Speed",
+				"desc": "+8.3% Golem Attack Speed",
 				"name": "Golem Attack Speed",
 				"tags": [
 					"Search_Minion",
@@ -20058,7 +20058,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+8% Golem Damage",
+				"desc": "+8.3% Golem Damage",
 				"name": "Golem Damage",
 				"tags": [
 					"Search_Minion"
@@ -20124,7 +20124,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+8% SkeletonMage Damage",
+				"desc": "+8.3% SkeletonMage Damage",
 				"name": "Skeleton Mage Damage",
 				"tags": [
 					"Search_Minion"
@@ -20190,7 +20190,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+8% SkeletonWarrior Damage",
+				"desc": "+8.3% SkeletonWarrior Damage",
 				"name": "Skeleton Warrior Damage",
 				"tags": [
 					"Search_Minion"
@@ -20222,13 +20222,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Bone Skill Damage\n+10 Intelligence",
+				"desc": "+10% Skill_Bone Skill Damage\n+10 Intelligence",
 				"name": "Shaper of Bone",
 				"tags": [
 					"Skill_Bone",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+9.6% Skill_Bone Skill Damage",
+				"threshold_bonus": "+10% Skill_Bone Skill Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -20271,14 +20271,14 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Skill_Blood Skill Damage\n+4.8% Blood Orb Healing",
+				"desc": "+10% Skill_Blood Skill Damage\n+4.8% Blood Orb Healing",
 				"name": "Blood Zealot",
 				"tags": [
 					"Skill_Blood",
 					"Search_Healing",
 					"Keyword_Blood_Orb"
 				],
-				"threshold_bonus": "+9.6% Skill_Blood Skill Damage",
+				"threshold_bonus": "+10% Skill_Blood Skill Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -20358,13 +20358,13 @@
 						"stat_dword": 1781953454
 					}
 				},
-				"desc": "+9.6% Skill_Blood Skill Damage\n+4% Physical Damage",
+				"desc": "+10% Skill_Blood Skill Damage\n+4% Physical Damage",
 				"name": "Crimson Power",
 				"tags": [
 					"Skill_Blood",
 					"Search_Physical"
 				],
-				"threshold_bonus": "+9.6% Skill_Blood Skill Damage",
+				"threshold_bonus": "+10% Skill_Blood Skill Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -20401,13 +20401,13 @@
 						"stat_dword": 3828367010
 					}
 				},
-				"desc": "+14.4% Critical Strike Damage for Skill_Bone Skills\n+4% Skill_Bone Skill Damage",
+				"desc": "+15% Critical Strike Damage for Skill_Bone Skills\n+4% Skill_Bone Skill Damage",
 				"name": "Calcified",
 				"tags": [
 					"Skill_Bone",
 					"Search_Critical"
 				],
-				"threshold_bonus": "+14.4% Critical Strike Damage for Skill_Bone Skills",
+				"threshold_bonus": "+15% Critical Strike Damage for Skill_Bone Skills",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -20500,13 +20500,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage for {#} Seconds After Picking Up a Blood Orb\n+5% Damage While Healthy",
+				"desc": "+10% Damage for {#} Seconds After Picking Up a Blood Orb\n+5% Damage While Healthy",
 				"name": "Invigorated",
 				"tags": [
 					"Keyword_Blood_Orb",
 					"Keyword_Healthy"
 				],
-				"threshold_bonus": "+9.6% Damage for {#} Seconds After Picking Up a Blood Orb",
+				"threshold_bonus": "+10% Damage for {#} Seconds After Picking Up a Blood Orb",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -20627,13 +20627,13 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+9.6% Damage while Golem are Active\n+2% Bonus Armor while Golem are Active",
+				"desc": "+10% Damage while Golem are Active\n+2% Bonus Armor while Golem are Active",
 				"name": "Borrowed Strength",
 				"tags": [
 					"Search_Minion",
 					"Search_Armor"
 				],
-				"threshold_bonus": "+9.6% Damage while Golem are Active",
+				"threshold_bonus": "+10% Damage while Golem are Active",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -20764,13 +20764,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Minion Damage\n+10 Intelligence",
+				"desc": "+10% Minion Damage\n+10 Intelligence",
 				"name": "Overlord",
 				"tags": [
 					"Search_Minion",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+9.6% Minion Damage",
+				"threshold_bonus": "+10% Minion Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -20809,13 +20809,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+16% Golem Damage\n+10 Intelligence",
+				"desc": "+16.7% Golem Damage\n+10 Intelligence",
 				"name": "Mutation",
 				"tags": [
 					"Search_Minion",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+16% Golem Damage",
+				"threshold_bonus": "+16.7% Golem Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -20858,13 +20858,13 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+16% Golem Damage\n+6.7% Golem Attack Speed",
+				"desc": "+16.7% Golem Damage\n+6.7% Golem Attack Speed",
 				"name": "Frenzied Golem",
 				"tags": [
 					"Search_Minion",
 					"Search_AttackSpeed"
 				],
-				"threshold_bonus": "+16% Golem Damage",
+				"threshold_bonus": "+16.7% Golem Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -20950,13 +20950,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Minion Damage\n+4% Minion Attack Speed",
+				"desc": "+10% Minion Damage\n+4% Minion Attack Speed",
 				"name": "Puppeteer",
 				"tags": [
 					"Search_Minion",
 					"Search_AttackSpeed"
 				],
-				"threshold_bonus": "+9.6% Minion Damage",
+				"threshold_bonus": "+10% Minion Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -20993,14 +20993,14 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+16% SkeletonMage Damage\n16% SkeletonMage Resist All",
+				"desc": "+16.7% SkeletonMage Damage\n16% SkeletonMage Resist All",
 				"name": "Infused Caster",
 				"tags": [
 					"Search_Minion",
 					"Search_Resistance",
 					"Search_NonPhysical"
 				],
-				"threshold_bonus": "+16% SkeletonMage Damage",
+				"threshold_bonus": "+16.7% SkeletonMage Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -21034,13 +21034,13 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+16% SkeletonWarrior Damage\n+6.7% SkeletonWarrior Armor",
+				"desc": "+16.7% SkeletonWarrior Damage\n+6.7% SkeletonWarrior Armor",
 				"name": "Infused Warrior",
 				"tags": [
 					"Search_Minion",
 					"Search_Armor"
 				],
-				"threshold_bonus": "+16% SkeletonWarrior Damage",
+				"threshold_bonus": "+16.7% SkeletonWarrior Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -21074,13 +21074,13 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+16% Golem Damage\n+14% Golem Maximum Life",
+				"desc": "+16.7% Golem Damage\n+14% Golem Maximum Life",
 				"name": "Infused Golem",
 				"tags": [
 					"Search_Minion",
 					"Search_Life"
 				],
-				"threshold_bonus": "+16% Golem Damage",
+				"threshold_bonus": "+16.7% Golem Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -21174,13 +21174,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence",
+				"desc": "+10% Damage for {#} Seconds After Picking Up a Blood Orb\n+10 Intelligence",
 				"name": "Blood-infused",
 				"tags": [
 					"Keyword_Blood_Orb",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+9.6% Damage for {#} Seconds After Picking Up a Blood Orb",
+				"threshold_bonus": "+10% Damage for {#} Seconds After Picking Up a Blood Orb",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -21223,13 +21223,13 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+9.6% Shadow Damage Over Time\n+4% Shadow Damage",
+				"desc": "+10% Shadow Damage Over Time\n+4% Shadow Damage",
 				"name": "Lingering Shadows",
 				"tags": [
 					"Search_Shadow",
 					"Search_ShadowDOT"
 				],
-				"threshold_bonus": "+9.6% Shadow Damage Over Time",
+				"threshold_bonus": "+10% Shadow Damage Over Time",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -25385,7 +25385,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+7.2% Damage for Imbued Skills",
+				"desc": "+7.5% Damage for Imbued Skills",
 				"name": "Damage Imbued",
 				"tags": [
 					"Skill_Primary_Imbuements"
@@ -25427,7 +25427,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "+4.8% Damage To Enemies Affected by Skill_Trap Skills",
+				"desc": "+5% Damage To Enemies Affected by Skill_Trap Skills",
 				"name": "Damage To Trapped",
 				"tags": [
 					"Skill_Trap"
@@ -25448,7 +25448,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "+4.8% Skill_Trap Skill Damage",
+				"desc": "+5% Skill_Trap Skill Damage",
 				"name": "Damage Trap",
 				"tags": [
 					"Skill_Trap"
@@ -25524,13 +25524,13 @@
 						"stat_dword": 2834424330
 					}
 				},
-				"desc": "+13.4% Skill_Primary_Core Skill Damage\n+10 Dexterity",
+				"desc": "+14% Skill_Primary_Core Skill Damage\n+10 Dexterity",
 				"name": "Finisher",
 				"tags": [
 					"Skill_Primary_Core",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+13.4% Skill_Primary_Core Skill Damage",
+				"threshold_bonus": "+14% Skill_Primary_Core Skill Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -25598,13 +25598,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Damage for Imbued Skills\n+4% Non-Physical Damage",
+				"desc": "+15% Damage for Imbued Skills\n+4% Non-Physical Damage",
 				"name": "Imbuer",
 				"tags": [
 					"Skill_Primary_Imbuements",
 					"Search_NonPhysical"
 				],
-				"threshold_bonus": "+14.4% Damage for Imbued Skills",
+				"threshold_bonus": "+15% Damage for Imbued Skills",
 				"threshold_requirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -25638,14 +25638,14 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Non-Physical Damage\nPower_Cooldown_Reduction_Percent#Skill_Primary_Imbuements",
+				"desc": "+10% Non-Physical Damage\nPower_Cooldown_Reduction_Percent#Skill_Primary_Imbuements",
 				"name": "Ready Supply",
 				"tags": [
 					"Search_Cooldown",
 					"Skill_Primary_Imbuements",
 					"Search_NonPhysical"
 				],
-				"threshold_bonus": "+9.6% Non-Physical Damage",
+				"threshold_bonus": "+10% Non-Physical Damage",
 				"threshold_requirements": {
 					"Rogue": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Dexterity"
@@ -25706,13 +25706,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Damage for Imbued Skills\n+10 Dexterity",
+				"desc": "+15% Damage for Imbued Skills\n+10 Dexterity",
 				"name": "Potent",
 				"tags": [
 					"Skill_Primary_Imbuements",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+14.4% Damage for Imbued Skills",
+				"threshold_bonus": "+15% Damage for Imbued Skills",
 				"threshold_requirements": {
 					"Rogue": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -25746,12 +25746,12 @@
 						"stat_dword": 3340001955
 					}
 				},
-				"desc": "+32% Skill_Primary_Basic Skill Damage\n+4% Damage",
+				"desc": "+33.3% Skill_Primary_Basic Skill Damage\n+4% Damage",
 				"name": "Fundamentals",
 				"tags": [
 					"Skill_Primary_Basic"
 				],
-				"threshold_bonus": "+32% Skill_Primary_Basic Skill Damage",
+				"threshold_bonus": "+33.3% Skill_Primary_Basic Skill Damage",
 				"threshold_requirements": {
 					"Druid": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -25788,9 +25788,9 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+11.5% Damage To Close Enemies\n4.8% Close Damage Reduction",
+				"desc": "+12% Damage To Close Enemies\n4.8% Close Damage Reduction",
 				"name": "Brawler",
-				"threshold_bonus": "+11.5% Damage To Close Enemies",
+				"threshold_bonus": "+12% Damage To Close Enemies",
 				"threshold_requirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -25824,9 +25824,9 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Damage To Distant Enemies\n6% Distant Damage Reduction",
+				"desc": "+15% Damage To Distant Enemies\n6% Distant Damage Reduction",
 				"name": "Ranger",
-				"threshold_bonus": "+14.4% Damage To Distant Enemies",
+				"threshold_bonus": "+15% Damage To Distant Enemies",
 				"threshold_requirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -25859,13 +25859,13 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "+9.6% Damage To Enemies Affected by Skill_Trap Skills\n+10 Dexterity",
+				"desc": "+10% Damage To Enemies Affected by Skill_Trap Skills\n+10 Dexterity",
 				"name": "Engineering",
 				"tags": [
 					"Skill_Trap",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+9.6% Damage To Enemies Affected by Skill_Trap Skills",
+				"threshold_bonus": "+10% Damage To Enemies Affected by Skill_Trap Skills",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -25941,12 +25941,12 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "+14.4% Skill_Trap Skill Damage\n+4% Damage To Enemies Affected by Skill_Trap Skills",
+				"desc": "+15% Skill_Trap Skill Damage\n+4% Damage To Enemies Affected by Skill_Trap Skills",
 				"name": "Trapper",
 				"tags": [
 					"Skill_Trap"
 				],
-				"threshold_bonus": "+14.4% Skill_Trap Skill Damage",
+				"threshold_bonus": "+15% Skill_Trap Skill Damage",
 				"threshold_requirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -30737,7 +30737,7 @@
 						"stat_dword": 918887
 					}
 				},
-				"desc": "+8% Damage with Crackling Energy",
+				"desc": "+8.3% Damage with Crackling Energy",
 				"name": "Crackling Energy",
 				"tags": [
 					"Keyword_Resource_Pickup"
@@ -30770,13 +30770,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Cold Damage\n+4% to Chill Effects",
+				"desc": "+10% Cold Damage\n+4% to Chill Effects",
 				"name": "Cryomancy",
 				"tags": [
 					"Search_Cold",
 					"Keyword_Chill"
 				],
-				"threshold_bonus": "+9.6% Cold Damage",
+				"threshold_bonus": "+10% Cold Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -30813,13 +30813,13 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "+14.4% Damage to Chilled Enemies\n+4% Non-Physical Damage",
+				"desc": "+15% Damage to Chilled Enemies\n+4% Non-Physical Damage",
 				"name": "Polar Rime",
 				"tags": [
 					"Search_NonPhysical",
 					"Keyword_Chill"
 				],
-				"threshold_bonus": "+14.4% Damage to Chilled Enemies",
+				"threshold_bonus": "+15% Damage to Chilled Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -30913,13 +30913,13 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+9.6% Fire Damage\n+4% Fire Damage Over Time",
+				"desc": "+10% Fire Damage\n+4% Fire Damage Over Time",
 				"name": "Pyromancy",
 				"tags": [
 					"Search_Fire",
 					"Search_Burn"
 				],
-				"threshold_bonus": "+9.6% Fire Damage",
+				"threshold_bonus": "+10% Fire Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -30956,13 +30956,13 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+9.6% Damage To Burning Enemies\n+6.7% Damage to Elites",
+				"desc": "+10% Damage To Burning Enemies\n+6.7% Damage to Elites",
 				"name": "Kindling",
 				"tags": [
 					"Search_Burn",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+9.6% Damage To Burning Enemies",
+				"threshold_bonus": "+10% Damage To Burning Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -31001,13 +31001,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Fire Damage\n+10 Intelligence",
+				"desc": "+10% Fire Damage\n+10 Intelligence",
 				"name": "Flame-touched",
 				"tags": [
 					"Search_Fire",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+9.6% Fire Damage",
+				"threshold_bonus": "+10% Fire Damage",
 				"threshold_requirements": {
 					"Sorcerer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -31041,13 +31041,13 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+9.6% Lightning Damage\n+6% Critical Strike Damage",
+				"desc": "+10% Lightning Damage\n+6% Critical Strike Damage",
 				"name": "Electromancy",
 				"tags": [
 					"Search_Lightning",
 					"Search_Critical"
 				],
-				"threshold_bonus": "+9.6% Lightning Damage",
+				"threshold_bonus": "+10% Lightning Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{215 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -31084,13 +31084,13 @@
 						"stat_dword": 918887
 					}
 				},
-				"desc": "+16% Damage with Crackling Energy\n+4% Lightning Damage",
+				"desc": "+16.7% Damage with Crackling Energy\n+4% Lightning Damage",
 				"name": "Conduit",
 				"tags": [
 					"Skill_Lightning",
 					"Keyword_Resource_Pickup"
 				],
-				"threshold_bonus": "+16% Damage with Crackling Energy",
+				"threshold_bonus": "+16.7% Damage with Crackling Energy",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -31132,13 +31132,13 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+9.6% Lightning Damage\n+10 Dexterity",
+				"desc": "+10% Lightning Damage\n+10 Dexterity",
 				"name": "Spark-touched",
 				"tags": [
 					"Search_Lightning",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+9.6% Lightning Damage",
+				"threshold_bonus": "+10% Lightning Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -31268,13 +31268,13 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "+9.6% Damage to Vulnerable Enemies\n+6% Damage to Chilled Enemies",
+				"desc": "+10% Damage to Vulnerable Enemies\n+6% Damage to Chilled Enemies",
 				"name": "Icebreaker",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Keyword_Chill"
 				],
-				"threshold_bonus": "+9.6% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -31414,14 +31414,14 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Critical Strike Damage\n+10 Intelligence",
+				"desc": "+15% Critical Strike Damage\n+10 Intelligence",
 				"name": "Elemental Power",
 				"tags": [
 					"Search_Critical",
 					"Search_Intelligence",
 					"Search_NonPhysical"
 				],
-				"threshold_bonus": "+14.4% Critical Strike Damage",
+				"threshold_bonus": "+15% Critical Strike Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -31463,13 +31463,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Non-Physical Damage\n+10 Intelligence",
+				"desc": "+10% Non-Physical Damage\n+10 Intelligence",
 				"name": "Elemental Balance",
 				"tags": [
 					"Search_NonPhysical",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+9.6% Non-Physical Damage",
+				"threshold_bonus": "+10% Non-Physical Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -31512,13 +31512,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Non-Physical Damage\n4% Resistance to All Elements",
+				"desc": "+10% Non-Physical Damage\n4% Resistance to All Elements",
 				"name": "Keeper of Elements",
 				"tags": [
 					"Search_NonPhysical",
 					"Search_Resistance"
 				],
-				"threshold_bonus": "+9.6% Non-Physical Damage",
+				"threshold_bonus": "+10% Non-Physical Damage",
 				"threshold_requirements": {
 					"Necromancer": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -31555,13 +31555,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Lightning Damage\n+6.7% Damage to Elites",
+				"desc": "+10% Lightning Damage\n+6.7% Damage to Elites",
 				"name": "Overpowering Current",
 				"tags": [
 					"Search_Lightning",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+9.6% Lightning Damage",
+				"threshold_bonus": "+10% Lightning Damage",
 				"threshold_requirements": {
 					"Sorcerer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -31644,13 +31644,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Fire Damage\n+6% Critical Strike Damage",
+				"desc": "+10% Fire Damage\n+6% Critical Strike Damage",
 				"name": "Combustion",
 				"tags": [
 					"Search_Fire",
 					"Search_Critical"
 				],
-				"threshold_bonus": "+9.6% Fire Damage",
+				"threshold_bonus": "+10% Fire Damage",
 				"threshold_requirements": {
 					"Sorcerer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -31683,13 +31683,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+9.6% Damage To Burning Enemies\n+10 Intelligence",
+				"desc": "+10% Damage To Burning Enemies\n+10 Intelligence",
 				"name": "Cinders",
 				"tags": [
 					"Search_Burn",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+9.6% Damage To Burning Enemies",
+				"threshold_bonus": "+10% Damage To Burning Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -31728,13 +31728,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+14.4% Damage to Chilled Enemies\n+10 Intelligence",
+				"desc": "+15% Damage to Chilled Enemies\n+10 Intelligence",
 				"name": "Frosts",
 				"tags": [
 					"Keyword_Chill",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+14.4% Damage to Chilled Enemies",
+				"threshold_bonus": "+15% Damage to Chilled Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -31773,13 +31773,13 @@
 						"stat_dword": 918887
 					}
 				},
-				"desc": "+16% Damage with Crackling Energy\n+10 Intelligence",
+				"desc": "+16.7% Damage with Crackling Energy\n+10 Intelligence",
 				"name": "Galvanic Catalyst",
 				"tags": [
 					"Keyword_Resource_Pickup",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+16% Damage with Crackling Energy",
+				"threshold_bonus": "+16.7% Damage with Crackling Energy",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
