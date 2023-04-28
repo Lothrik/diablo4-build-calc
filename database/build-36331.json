@@ -12537,13 +12537,12 @@
 			"{PRIMARY_RESOURCE} Cost Reduction": "{PRIMARY_RESOURCE} Cost Reduction: {#}\n• Reduces the {PRIMARY_RESOURCE} cost of skills that consume resource."
 		},
 		"Item": {
-			"1HAxe_Rare_Barb_003_Q4BLOG": {
+			"1HDagger_QST_Frac_UnFlesh": {
 				"affixes": [
-					"INHERENT_Damage_to_HighLife",
-					"On_Kill_Health",
-					"Damage_to_Elite",
-					"Execute"
-				]
+					"INHERENT_Damage_to_Near"
+				],
+				"flavor": "Dried Blood has coalesced into jagged crystals surrounding the blade. This phenomenon must have occurred after dislodging the blade from Fedeor's chest.",
+				"name": "Blood-Barbed Blade"
 			},
 			"1HDagger_Rare_QST_Hawe_Marsh_05": {
 				"affixes": [
@@ -12551,146 +12550,9 @@
 					"Lucky_Hit_Stun",
 					"Damage_to_Poisoned",
 					"Damage_DoT"
-				]
-			},
-			"1HDagger_Rare_QST_Scos_Moors_04": {
-				"affixes": [
-					"INHERENT_Damage_to_Near",
-					"Damage_to_Vulnerable"
-				]
-			},
-			"1HShield_Any_Generic_001_Gambling": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Magic_Generic_002": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Magic_Necro_Crafted_10": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_None_Necro_Crafted_5": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Normal_Generic_001": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Normal_Generic_007": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Barb_Crafted_47": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Barb_Crafted_49": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Generic_003": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Generic_004": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Generic_005": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Generic_006": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Necro_Crafted_13": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Necro_Crafted_21": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Necro_Crafted_29": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Necro_Crafted_39": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Necro_Crafted_41": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Necro_Crafted_45": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
-			},
-			"1HShield_Rare_Necro_Crafted_49": {
-				"affixes": [
-					"Block",
-					"Shield_Damage_Bonus",
-					"INHERENT_Thorns"
-				]
+				],
+				"flavor": "Mohlon, the largest and most cunning of the Nangari, is said to have gained her intelligence from consuming the witch Zala, who once called the Scrying Pools her home.",
+				"name": "Mohlon's Fang"
 			},
 			"1HSword_Rare_QST_Hawe_ByThreeTheyCome": {
 				"affixes": [
@@ -12698,27 +12560,1161 @@
 					"Damage_Type_Bonus_Shadow",
 					"Damage_Tag_Melee",
 					"Damage_Tag_Blood"
-				]
+				],
+				"flavor": "\"By the blood of the willing, we call her home.\"",
+				"name": "One-Eyed Swordsman's Blade"
 			},
-			"1HWand_Magic_Generic_003_Q4BLOG": {
+			"2HMaul_QST_Step_TheGreatMaul": {
 				"affixes": [
-					"INHERENT_Luck",
-					"On_Kill_Health",
-					"Damage_to_Elite"
-				]
+					"INHERENT_Damage_to_HighLife"
+				],
+				"flavor": "Famed ancestral weapon of the Oxen Tribe stained with the blood of demons from the battle of Mt. Arreat.",
+				"name": "The Great Maul"
+			},
+			"2HStaff_QST_Scos_DeepForest_LeftinAshes": {
+				"flavor": "Carved with intricate runes and sanded perfectly smooth. Tender care was put into the crafting of this staff.",
+				"name": "Spirit of Éadaoin"
 			},
 			"Amulet_Magic_Prologue": {
 				"affixes": [
 					"Resistance_Jewelry_All",
 					"Health"
-				]
+				],
+				"flavor": "A too-tight choker worn by those faithful to the Cathedral of Light. Slight discomfort keeps one girded against impurity.",
+				"name": "Choker of Penance"
+			},
+			"Amulet_Magic_QST_Scos_LochRaeth_MessageinaBottle": {
+				"affixes": [
+					"Resistance_Jewelry_All"
+				],
+				"flavor": "An antique amulet which was sealed in a bottle and swept out to sea. Its well-worn surface bears a faint family crest and the remaining flecks of an indecipherable inscription.",
+				"name": "Druidic Heirloom Amulet"
+			},
+			"BountyMeta_Cache_Chaos": {
+				"flavor": "Are you feeling lucky?",
+				"name": "Cache of Chaos"
+			},
+			"BountyMeta_Cache_Chaos_Upgraded": {
+				"flavor": "Are you feeling lucky?",
+				"name": "[PH] Greater Cache of Chaos"
+			},
+			"CraftingMaterial_Herb_Common": {
+				"flavor": "Considered foundational to the study of alchemy, Gallowvine serves to bond and enhance other elixirs.",
+				"name": "Gallowvine"
+			},
+			"CraftingMaterial_Herb_Drysteppes": {
+				"flavor": "A curiosity among fungi, coveted by alchemists for its stimulating and energizing properties.",
+				"name": "Reddamine"
+			},
+			"CraftingMaterial_Herb_FracturedPeaks": {
+				"flavor": "A hard, bitter berry prized by alchemists for its use as both an enduring raisin and its vital and defensive qualities.",
+				"name": "Biteberry"
+			},
+			"CraftingMaterial_Herb_Hawezar": {
+				"flavor": "A toxic swamp lily, prized by alchemists for its foul and aggressive qualities.",
+				"name": "Blightshade"
+			},
+			"CraftingMaterial_Herb_Kehjistan": {
+				"flavor": "A native Kehjistani berry with an eerie face, prized by alchemists for its potent toxins and soporific effects.",
+				"name": "Lifesbane"
+			},
+			"CraftingMaterial_Herb_Rare": {
+				"flavor": "A precious and rare strain of lily-of-the-valley. Considered an alchemical catalyst of few peers.",
+				"name": "Angelbreath"
+			},
+			"CraftingMaterial_Herb_Scosglen": {
+				"flavor": "A hoary moss with a pungent, musky aroma, prized by alchemists for its vital and physical qualities.",
+				"name": "Howler Moss"
+			},
+			"CraftingMaterial_Herb_SuperRare": {
+				"flavor": "Only mostly toxic in spite of its beauty, but still regarded a peerless catalyst by alchemists.",
+				"name": "Fiend Rose"
+			},
+			"CraftingMaterial_Leather_Common": {
+				"flavor": "Coarse, rugged leather used for garments, tools, and toys for the hounds of Sanctuary.",
+				"name": "Rawhide"
+			},
+			"CraftingMaterial_Leather_Rare": {
+				"flavor": "Supple, rugged leather used for fine garments and even finer armor.",
+				"name": "Superior Leather"
+			},
+			"CraftingMaterial_MonsterDrop_Demon_Heart": {
+				"flavor": "Each Demon still carries a withered, beating heart that propels it forward. Rarely they are left in fine enough condition after the Demon is slain to use for other means.",
+				"name": "Demon's Heart"
+			},
+			"CraftingMaterial_MonsterDrop_Human_Tongue": {
+				"flavor": "The lies spouted by particularly black-hearted humans rarely manifest in turning their tongues a milky white.",
+				"name": "Paletongue"
+			},
+			"CraftingMaterial_MonsterDrop_Undead_Dust": {
+				"flavor": "Long exposure to the walking dead imbues this dust with their inverse vitality, used in necromantic alchemies.",
+				"name": "Grave Dust"
+			},
+			"CraftingMaterial_MonsterDrop_Wildlife_Bones": {
+				"flavor": "Within the bones of wild creatures dwells a raw potency used by alchemists to enhance physical properties.",
+				"name": "Crushed Beast Bones"
+			},
+			"CraftingMaterial_Ore_Common": {
+				"flavor": "A common, dark ore that while heavy results in clean, useful metal and used by artisans throughout Sanctuary.",
+				"name": "Iron Chunk"
+			},
+			"CraftingMaterial_Ore_Rare": {
+				"flavor": "Silver is prized by artisans for both its beauty and potency against dangerous creatures throughout Sanctuary.",
+				"name": "Silver Ore"
+			},
+			"CraftingMaterial_Rare_ScatteredPrism": {
+				"flavor": "Rare and hoarded by their previous owners, these prisms are often guarded jealously.",
+				"name": "Scattered Prism"
+			},
+			"CraftingMaterial_Salvage_Nightmare_Sigil_Powder": {
+				"flavor": "A mysterious powder that can be compressed into relics inviting peril for greater challenges and rewards.",
+				"name": "Sigil Powder"
+			},
+			"CraftingMaterial_Salvage_Rare": {
+				"flavor": "Occultists and enchanters commonly use these crystals to reorient or redirect magical energy. The process renders them inert, so many are needed.",
+				"name": "Veiled Crystal"
+			},
+			"CraftingScrap_EventReward_Leather_01": {
+				"flavor": "The dried pelts of several kinds of local creatures, bound tightly together and ready for salvage.",
+				"name": "Bundle of Hides"
+			},
+			"CraftingScrap_EventReward_Ore_01": {
+				"flavor": "This sack is filled with a bounty of of salvageable scrapmetal.",
+				"name": "Sack of Scrapmetal"
+			},
+			"DGN_Frac_CultistRefuge_Key": {
+				"flavor": "A metal key forged with demonic runes.",
+				"name": "Cultist Key"
+			},
+			"DGN_Frac_DefiledCatacomb_Key": {
+				"flavor": "A key obtained from the Gate Keep in Defiled Catacombs.",
+				"name": "Catacomb Key"
+			},
+			"DGN_Frac_DerelictLodge_Key": {
+				"flavor": "A key stained with dry blood.",
+				"name": "Bloodstained Key"
+			},
+			"DGN_Frac_ForsakenQuarry_Key": {
+				"flavor": "A key obtained from the Prisoner in the Forsaken Quarry",
+				"name": "Greasy Key"
+			},
+			"DGN_Frac_KorValarRamparts_Key": {
+				"flavor": "A metal key branded with Cathedral of Light sigil.",
+				"name": "Branded Key"
+			},
+			"DGN_Frac_KorValarRamparts_Key_02": {
+				"flavor": "A metal key branded with the Cathedral of Light sigil. Someone has attempted to cover over the Cathedral of Light sigil on the key with an unknown substance. The sigil however is embossed into the key and is still clearly visible.",
+				"name": "Stained Key"
+			},
+			"DGN_Frac_LightsWatch_Key": {
+				"flavor": "Obtained from a Watchman.",
+				"name": "Watchman's Key"
+			},
+			"DGN_Frac_RitualTower_Key": {
+				"flavor": "A key to the Malignant Stratum.",
+				"name": "Adalgrim's Key"
+			},
+			"DGN_Hawe_BelfryZakara_Key": {
+				"flavor": "A key obtained from the Anchorbound Chaplain.",
+				"name": "Rusted Key"
+			},
+			"DGN_Hawe_EndlessGates_Key": {
+				"flavor": "A key to an unknown door.",
+				"name": "Mage Key"
+			},
+			"DGN_Hawe_IronHold_Key": {
+				"flavor": "A key to a cell in the Slave Pens. Found near a breach in the Fetid Orifice.",
+				"name": "Jailer's Key"
+			},
+			"DGN_Hawe_LightsRefuge_Key": {
+				"flavor": "A worn key dropped from Rat Handler Clark.",
+				"name": "Handler's Key"
+			},
+			"DGN_Hawe_MaugansWorks_Key": {
+				"flavor": "A key obtained from the Executioner.",
+				"name": "Executioner's Key"
+			},
+			"DGN_Hawe_Oblivion_Key": {
+				"flavor": "A key that provides access to the Ritual Pens.",
+				"name": "Ritual Pens Key"
+			},
+			"DGN_Hawe_SteadfastBarracks_Key": {
+				"flavor": "A key obtained from Zorym, The Profane Summoner.",
+				"name": "Sanctum Key"
+			},
+			"DGN_Hawe_Witchwater_Key": {
+				"flavor": "A key to the Slithering Crawl. Chipped and covered with rust, this key has seen a lot of use.",
+				"name": "Worn Key"
+			},
+			"DGN_Kehj_Conclave_Key": {
+				"flavor": "The Laboratory is more a place for dark magic than science. Grotesque horrors await any who dare enter.",
+				"name": "Laboratory Key"
+			},
+			"DGN_Kehj_CrusadersCathedral_Key": {
+				"flavor": "A key that had been hidden away until now.",
+				"name": "Pristine Key"
+			},
+			"DGN_Kehj_HereticsAsylum_Key": {
+				"flavor": "A key to the Maximum Security chamber that is now home to the deserter knights' leaders.",
+				"name": "Maximum Security Key"
+			},
+			"DGN_Kehj_PrisonofCaldeum_Key": {
+				"flavor": "Opens the gate to the prison depths.",
+				"name": "Warden's Key"
+			},
+			"DGN_Kehj_RenegadesRetreat_Key": {
+				"flavor": "A key to the central treasure room.",
+				"name": "Treasure Room Key"
+			},
+			"DGN_Kehj_RenegadesRetreat_Key_2": {
+				"flavor": "A key to the central treasure room.",
+				"name": "Treasure Room Right Key"
+			},
+			"DGN_Kehj_SunkenLibrary_Key": {
+				"flavor": "Only the highest ranking librarian was allowed to carry the key.",
+				"name": "Archive Key"
+			},
+			"DGN_Kehj_TomboftheSaints_Key": {
+				"flavor": "A handcrafted key. It seems to only work with two of them together.",
+				"name": "Curved Key"
+			},
+			"DGN_Kehj_YshariSanctum_Scroll": {
+				"flavor": "An ancient key.",
+				"name": "Key of Yshari"
+			},
+			"DGN_Kehj_YshariSanctum_Tome": {
+				"flavor": "An ancient book containing knowledge of the Yshari and their arcane practices.",
+				"name": "Tome of Yshari Rituals"
+			},
+			"DGN_Scos_BrokenBulwark_Key": {
+				"flavor": "Key to the inner areas of the bulwark. It's passed between lieutenants at specific times of day to make it difficult for enemies to find it.",
+				"name": "Keep Key"
+			},
+			"DGN_Scos_CalibelsMine_Key": {
+				"flavor": "Ancient, but still intact.",
+				"name": "Ancient Miners Key"
+			},
+			"DGN_Scos_GaranHold_Key": {
+				"flavor": "Garan always kept this key with him, until he was eaten.",
+				"name": "Garan's Key"
+			},
+			"DGN_Scos_LubansRest_Key": {
+				"flavor": "Once used to keep graverobbers out, now it keeps the dead in.",
+				"name": "Crypt Key"
+			},
+			"DGN_Scos_Stockades_Key": {
+				"flavor": "A key to a heavy gate. It looks like it hasn't been used for years.",
+				"name": "Rusty Metal Key"
+			},
+			"DGN_Scos_VaultoftheForsaken_Key": {
+				"flavor": "A key to the Witch's Chamber.",
+				"name": "Chamber Key"
+			},
+			"DGN_Step_CharnelHouse_Key": {
+				"flavor": "A key to the Feeding Pit obtained from Vardo.",
+				"name": "Feeding Pit Key"
+			},
+			"DGN_Step_GuulrahnSlums_Key": {
+				"flavor": "A key to the Jail.",
+				"name": "Jail Key"
+			},
+			"DGN_Step_Guulrahn_Jailcells_key": {
+				"flavor": "An old worn key used to unlock cells in The Dregs. Its covered with dirt and dried blood.",
+				"name": "Guulrahn Prison Key"
+			},
+			"DGN_Step_Orbei_key": {
+				"flavor": "A key to the monk's private living area.",
+				"name": "Simple Key"
+			},
+			"DGN_Step_PallidDelve_Key": {
+				"flavor": "A salt encrusted key that provides access to the ancient corruption below.",
+				"name": "Salt Encrusted Key"
+			},
+			"DGN_Step_SealedArchives_Key": {
+				"flavor": "A key to the Archive depths. It's almost completely rotted away.",
+				"name": "Rotten Key"
+			},
+			"Elixir_Acrobatics_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Acrobatics Elixir"
+			},
+			"Elixir_Acrobatics_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Acrobatics Elixir"
+			},
+			"Elixir_Acrobatics_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Acrobatics Elixir"
+			},
+			"Elixir_Acrobatics_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Acrobatics Elixir"
+			},
+			"Elixir_Acrobatics_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Acrobatics Elixir"
+			},
+			"Elixir_Armor": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Iron Skin Elixir"
+			},
+			"Elixir_Assault_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Assault Elixir"
+			},
+			"Elixir_Assault_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Assault Elixir"
+			},
+			"Elixir_Assault_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Assault Elixir"
+			},
+			"Elixir_Assault_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Assault Elixir"
+			},
+			"Elixir_Assault_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Assault Elixir"
+			},
+			"Elixir_ColdResist_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Elixir of Cold Resistance"
+			},
+			"Elixir_ColdResist_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Cold Resistance"
+			},
+			"Elixir_ColdResist_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Elixir of Cold Resistance"
+			},
+			"Elixir_ColdResist_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Elixir of Cold Resistance"
+			},
+			"Elixir_ColdResist_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Elixir of Cold Resistance"
+			},
+			"Elixir_CritChance": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Cruelty"
+			},
+			"Elixir_CritDamage": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Savagery"
+			},
+			"Elixir_Crushing_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Crushing Elixir"
+			},
+			"Elixir_Crushing_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Crushing Elixir"
+			},
+			"Elixir_Crushing_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Crushing Elixir"
+			},
+			"Elixir_Crushing_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Crushing Elixir"
+			},
+			"Elixir_Crushing_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Crushing Elixir"
+			},
+			"Elixir_Curative": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Curative Elixir"
+			},
+			"Elixir_Family_Beasts": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Beast-slaying"
+			},
+			"Elixir_Family_Demons": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Demon-slaying"
+			},
+			"Elixir_Family_Humans": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Man-slaying"
+			},
+			"Elixir_Family_Undead": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Undead-slaying"
+			},
+			"Elixir_FireResist_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Elixir of Fire Resistance"
+			},
+			"Elixir_FireResist_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Fire Resistance"
+			},
+			"Elixir_FireResist_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Elixir of Fire Resistance"
+			},
+			"Elixir_FireResist_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Elixir of Fire Resistance"
+			},
+			"Elixir_FireResist_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Elixir of Fire Resistance"
+			},
+			"Elixir_HitEffect": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Combatant Fortune"
+			},
+			"Elixir_Ironbarb": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Iron Barb Elixir"
+			},
+			"Elixir_Ironbarb_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Iron Barb Elixir"
+			},
+			"Elixir_Ironbarb_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Iron Barb Elixir"
+			},
+			"Elixir_Ironbarb_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Iron Barb Elixir"
+			},
+			"Elixir_Ironbarb_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Iron Barb Elixir"
+			},
+			"Elixir_Ironbarb_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Iron Barb Elixir"
+			},
+			"Elixir_LightningResist_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Elixir of Lightning Resistance"
+			},
+			"Elixir_LightningResist_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Lightning Resistance"
+			},
+			"Elixir_LightningResist_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Elixir of Lightning Resistance"
+			},
+			"Elixir_LightningResist_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Elixir of Lightning Resistance"
+			},
+			"Elixir_LightningResist_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Elixir of Lightning Resistance"
+			},
+			"Elixir_MagicResist": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Magic Resist"
+			},
+			"Elixir_MaxLife": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Fortitude"
+			},
+			"Elixir_MaxResource": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Resourcefulness"
+			},
+			"Elixir_PoisonResist_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Elixir of Poison Resistance"
+			},
+			"Elixir_PoisonResist_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Poison Resistance"
+			},
+			"Elixir_PoisonResist_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Elixir of Poison Resistance"
+			},
+			"Elixir_PoisonResist_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Elixir of Poison Resistance"
+			},
+			"Elixir_PoisonResist_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Elixir of Poison Resistance"
+			},
+			"Elixir_Precision_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Precision Elixir"
+			},
+			"Elixir_Precision_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Precision Elixir"
+			},
+			"Elixir_Precision_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Precision Elixir"
+			},
+			"Elixir_Precision_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Precision Elixir"
+			},
+			"Elixir_Precision_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Precision Elixir"
+			},
+			"Elixir_RCR": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Expertise Elixir"
+			},
+			"Elixir_ShadowResist_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Elixir of Shadow Resistance"
+			},
+			"Elixir_ShadowResist_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Elixir of Shadow Resistance"
+			},
+			"Elixir_ShadowResist_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Elixir of Shadow Resistance"
+			},
+			"Elixir_ShadowResist_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Elixir of Shadow Resistance"
+			},
+			"Elixir_ShadowResist_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Elixir of Shadow Resistance"
+			},
+			"Elixir_ThirdEye_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Third Eye Elixir"
+			},
+			"Elixir_ThirdEye_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Third Eye Elixir"
+			},
+			"Elixir_ThirdEye_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Third Eye Elixir"
+			},
+			"Elixir_ThirdEye_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Third Eye Elixir"
+			},
+			"Elixir_ThirdEye_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Third Eye Elixir"
+			},
+			"Elixir_Vampirism_1": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Weak Vampirism Elixir"
+			},
+			"Elixir_Vampirism_2": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Vampirism Elixir"
+			},
+			"Elixir_Vampirism_3": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Strong Vampirism Elixir"
+			},
+			"Elixir_Vampirism_4": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Potent Vampirism Elixir"
+			},
+			"Elixir_Vampirism_5": {
+				"flavor": "You may only have one Elixir active at a time.",
+				"name": "Heady Vampirism Elixir"
+			},
+			"FTR_Cache_Armor": {
+				"flavor": "Even the finest weapon and the most violent attack halt before the mightiest armor.",
+				"name": "Armor Cache"
+			},
+			"FTR_Cache_Elixir": {
+				"flavor": "One of the oldest forms of magic is the brewing of potions. By far the most common of these are healing potions, but more exotic Elixirs exist.",
+				"name": "Elixir Cache"
+			},
+			"FTR_Cache_Gem": {
+				"flavor": "Precious gems embody innate magical abilities. When set into a socketed item these gems can add powerful magic effects. Higher grades of gems have stronger effects.",
+				"name": "Gem Cache"
+			},
+			"FTR_Cache_Gold": {
+				"flavor": "Gold has long served as the monetary means of trade in the world of Sanctuary. This precious metal is melted into small gold slugs that are flattened and stamped with the heraldry of the kingdom that created it.",
+				"name": "Gold Cache"
+			},
+			"FTR_Cache_Jewelry": {
+				"flavor": "Before gold coins were accepted as the universal currency, the wealthy fashioned gemstones and precious metals into jewelry in order to display their riches to others. Court mages eventually discovered that these adornments could be charged with magical enchantments.",
+				"name": "Jewelry Cache"
+			},
+			"FTR_Cache_Materials": {
+				"flavor": "Adventurers that want to survive need to adapt. Creating value out of scraps is key to that.",
+				"name": "Material Cache"
+			},
+			"FTR_Cache_Scroll": {
+				"flavor": "Over the centuries, many magical scrolls have been created which provide the reader with impossible abilities.",
+				"name": "Scroll Cache"
+			},
+			"FTR_Cache_Weapon": {
+				"flavor": "Weapons of all types, from the humble club to the magical staff have been lost throughout the violent history of Sanctuary. Pray they serve you better than their previous owners.",
+				"name": "Weapon Cache"
+			},
+			"GamblingCurrency_Key": {
+				"flavor": "Fragmented whispers of long forgotten secrets.",
+				"name": "Whispering Key"
+			},
+			"Gloves_Rare_QST_Scos_Astaroth_02": {
+				"affixes": [
+					"Damage_to_Far"
+				],
+				"flavor": "Seared in the flames of conflict long ago during the Days of Ash.",
+				"name": "(PH) Charred Gauntlets"
+			},
+			"Incense_III_00": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Chorus of War"
+			},
+			"Incense_III_01": {
+				"flavor": "Tier III Incense. Only one Incense per tier may be active at a time.",
+				"name": "The Creatures of Night (WIP)"
+			},
+			"Incense_II_00": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Reddamine Buzz"
+			},
+			"Incense_II_01": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Soothing Spices"
+			},
+			"Incense_II_02": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Spiral Morning"
+			},
+			"Incense_II_03": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Scents of the Desert Afternoon"
+			},
+			"Incense_I_00": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Storm of the Wilds"
+			},
+			"Incense_I_01": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Desert Escape"
+			},
+			"Incense_I_02": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Song of the Mountain"
+			},
+			"Incense_I_03": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Spirit Dance"
+			},
+			"Incense_I_04": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Ancient Times"
+			},
+			"Incense_I_05": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Sage's Whisper"
+			},
+			"Incense_I_06": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Queen's Supreme"
+			},
+			"Incense_I_07": {
+				"flavor": "Only one Incense may be active at a time.",
+				"name": "Blessed Guide"
+			},
+			"Kehj_Conv_Letter": {
+				"flavor": "A sealed letter from Lorath to Donan",
+				"name": "Letter to Donan"
+			},
+			"LE_RewardCache": {
+				"flavor": "Reward for completing an event",
+				"name": "Event Reward Cache"
+			},
+			"LE_RewardCache_Large": {
+				"flavor": "Reward for completing an event and its optional objective",
+				"name": "Large Event Reward Cache"
+			},
+			"Lorebook_Item_DS1": {
+				"flavor": "A guard petitions her captain to join the fight to save their capital city.",
+				"name": "Formal Request"
+			},
+			"Lorebook_Item_DS2": {
+				"flavor": "[PH] I knew not what I'd gotten myself into. The coin he offered was good. Too good; I should have seen it coming. All was quiet when I first entered this tomb, until the dead rose. I am trapped. I fear I will be one of them soon enough... Whatever curse haunts this damned place, I pray to any god listening that it finds him as well.",
+				"name": "Adventurer's Scribbles"
+			},
+			"Lorebook_Item_DS4": {
+				"flavor": "[PH] The stench carried by the northern winds grows stronger, day by day... The smell has driven my brother mad, his ravings of what he saw in that accursed chapel are endless. Those unable to bear it any longer have taken daggers to their noses, hollowing their visage. This must be the only way to end the suffering...",
+				"name": "[ph] Bloodied Journal"
+			},
+			"Lorebook_Item_DS5": {
+				"flavor": "[PH] The alchemist's incense used to mask the stench of human rot had no effect. Now that potion twiddling bastard has asked for a sample of whatever vile flesh lurks within the chapel. Tonight, while the savages sleep I will get him what he needs.",
+				"name": "[ph] Ravaged Journal"
+			},
+			"Lorebook_Item_DS6": {
+				"flavor": "[PH] The miners found the idol in a crumbling ruin in the depths of the salt mine. I instructed them to tell no-one. Shortly after, the whispers began. It was an alluring voice. It reassured me that I should not fear the Tyrant of Guulrahn. It told me that it would give us the power to protect ourselves from their savage onslaught... I don't know what other choice I have. How else are we to survive this?",
+				"name": "Elder Haerastus' Journal"
+			},
+			"Lorebook_Item_FP1": {
+				"flavor": "Our work in the tower is done, just as she showed us. A fine tribute. We will send more as we find them. Maybe that old man up on the ridge. We offered her the monk. She shared her gift with him, but he is stubborn. He will see the truth soon enough.",
+				"name": "Vani's Journal"
+			},
+			"Lorebook_Item_FP2": {
+				"flavor": "Short fangs. Young. Freshly turned. An easy kill. Further south than the others. They are spreading.",
+				"name": "Specimen Notes"
+			},
+			"Lorebook_Item_FP3": {
+				"flavor": "More knights funnel in by the hour. We have made camp before the great gate. To think the Prophet was able to cast it open with a mere wave of his hand... He is truly blessed. With the gate open, we no longer need that wretched passage below. I've sealed it with a simple cantrip. The keyword is \"Floodway.\"",
+				"name": "Scholar's Notes - Floodway"
+			},
+			"Lorebook_Item_FP6": {
+				"flavor": "You are hereby tasked with this solemn and holy duty: Travel to the town of Nevesk and search the crumbling tower for signs of evil or the taint of the demonic. Purge any creature that hides in the shadows of that place.",
+				"name": "Monk's Orders"
+			},
+			"Lorebook_Item_FP_Camp_KorDragan": {
+				"flavor": "[PH]",
+				"name": "Bloody Condemnation"
+			},
+			"Lorebook_Item_FP_Camp_Malnok": {
+				"flavor": "[PH]",
+				"name": "Frozen Journal"
+			},
+			"Lorebook_Item_Guulrahn_Prison": {
+				"flavor": "A Guulrahni villager's journal recounting the recent cannibal invasion.",
+				"name": "Dropped Journal"
+			},
+			"Lorebook_Item_H1": {
+				"flavor": "The Snakes of Hawezar. Forever changing. Never stagnant. They are strong where we are frail. The witch Zala, who lived on the edge of the town called it \"foolishness\". Fear, just another weakness to cast aside.",
+				"name": "The Scaled Tomes: Book I"
+			},
+			"Lorebook_Item_H2": {
+				"flavor": "We struck heavy bargains, and learned deep secrets. We called out through the marshes and swamps, and the snakes came to us. Many were consumed by the snakes, and will be given everlasting life! A miracle to behold.",
+				"name": "Cultist Writings"
+			},
+			"Lorebook_Item_H3": {
+				"flavor": "Mohlon, our queen, took Zala's ritual pools from her. Claimed them as her own, as she should by rights. From those caverns did she come to us, and there she rules, protected.",
+				"name": "Cultist Writings"
+			},
+			"Lorebook_Item_H4": {
+				"flavor": "I am convinced that this temple belonged to the Necromancers, or Priests of Rathma. However, it predates their existence by centuries. I suspect this was once a place of study for Rathma himself.",
+				"name": "Elias' Research Notes, Part 1"
+			},
+			"Lorebook_Item_H5": {
+				"flavor": "I've discovered that this place was used to test potential leaders of the Necromancer's order. After being selected as the next Deathspeaker, they would travel here to undergo rites and rituals designed to prove their worthiness. The weak perished, and lay here forgotten.",
+				"name": "Elias' Research Notes, Part 2"
+			},
+			"Lorebook_Item_H6": {
+				"flavor": "My search has finally born fruit. Long ago, Rathma spent decades here researching the cycle of life and death. Hidden among his works include forbidden rituals to disrupt that balance. The secret to unending life hides here, I am sure of it!",
+				"name": "Elias' Research Notes, Part 3"
+			},
+			"Lorebook_Item_H7": {
+				"flavor": "Finally! After many weeks of poring through crumbling manuscripts, I have unlocked the secret! It is not a single ritual that will grant me everlasting life, but the combination of three! Soon, there will be no force upon Sanctuary that can stop me.",
+				"name": "Elias' Research Notes, Part 4"
+			},
+			"Lorebook_Item_H8": {
+				"flavor": "Random scatterings of Timue's thoughts.",
+				"name": "Timue's Journal"
+			},
+			"Lorebook_Item_H9": {
+				"flavor": "A water stained collection of loose papers.",
+				"name": "Villager's Journal"
+			},
+			"Lorebook_Item_HoradricVault_Elias_Journal": {
+				"flavor": "A confession of sorts",
+				"name": "Strange Journal"
+			},
+			"Lorebook_Item_OrbeiJournal_01": {
+				"flavor": "Lo, the Great Beast Tathamet was struck down and its blackened husk sank below the abyss. There, it smoldered and festered, and from the ruin of its Seven Heads were born Seven Great Evils. Three Primes and Four Lessers. Enemies of all creation.",
+				"name": "The Birth of Hell"
+			},
+			"Lorebook_Item_OrbeiJournal_02": {
+				"flavor": "Throughout my time here, one thing has been a constant. The knowledge enters, it does not leave. We are bound by the vows for the rest of lives, a commitment none of us take lightly. But now, this man at our door says the knowledge we hold may save the world. My scholars look to me to guide them. They will be bound to the decision I make. It is a heavy burden.",
+				"name": "(PH) Abbot of Orbei Journal Entry 2"
+			},
+			"Lorebook_Item_OrbeiJournal_03": {
+				"flavor": "To Monk Miatin. Please ensure this memo gets out to all monks of the Monastery. All tomes related to demon summoning, the old culture's blood magic rituals, and any recent reports of the increase in demon sightings should be brought to the inner cloister for storage.",
+				"name": "(A note from the Abbot of Orbei to another Monk."
+			},
+			"Lorebook_Item_OrbeiJournal_04": {
+				"flavor": "I have sent messages to my old friend Lorath. The Horadrim that remains with us claims to not have met him, which is hardly surprising. Lorath was never social with his brethren, even in the best of times. He preferred walking with the people of Sanctuary to studying tomes and dusty parchment. Still, I hope he gets word back quickly, I'm reaching a decision, but I would value his judgement.",
+				"name": "(PH) Abbot of Orbei Journal Entry 4"
+			},
+			"Lorebook_Item_OrbeiJournal_05": {
+				"flavor": "Something has changed in Orbei. I feel a madness in the air. No, madness is incorrect. An anguish, unholy. All consuming. What I'd give to lie here and-- (The rest of this entry has been scratched out and smeared with blood)",
+				"name": "(PH) Abbot of Orbei Journal Entry 5"
+			},
+			"Lorebook_Item_OrbeiNote": {
+				"flavor": "I suppose it is ironic that for so many decades we've been kept safe by our relative seclusion from the rest of Sanctuary. Now it will be our downfall. I can hear my fellow monks screaming beyond the doors.  Monk Miatin is rallying those of us that are left; we cannot allow the knowledge to leave. What else can I do? I will fight.",
+				"name": "Blood-Soaked Handwritten Missive"
+			},
+			"Lorebook_Item_OrbeiNote2": {
+				"flavor": "Commissioned during the Time of Troubles, the Orbei Archive once served to codify heresies for the Inquisition. Since then, the Archive has expanded to the study of all evils, restricted to only the most devout Scholars of Zakarum.",
+				"name": "The Orbei Monastery, Part 1"
+			},
+			"Lorebook_Item_OrbeiNote3": {
+				"flavor": "Critics rightly fear the dangers of our scholarship, but ignorance of evil offers little protection from it. Our insights have proven invaluable to Paladins, Horadrim, and Angels alike in the fight against the darkness.",
+				"name": "The Orbei Monastery, Part 2"
+			},
+			"Lorebook_Item_OrbeiNote4": {
+				"flavor": "PH: A list of new recruits the monk is to train. A small note on how excited she is to see the scholarly arts are not fading.",
+				"name": "A large folded piece of parchement"
+			},
+			"Lorebook_Item_OrbeiNote4b": {
+				"flavor": "(PH) \"Something isn't right, the Abbot has allowed the stranger into the Inner Cloister. He told him the words of our founders! I heard him! Take this note to Monk Lahya and...\" The note ends with a scrawl and bloodstains.",
+				"name": "A small piece of scribbled parchment"
+			},
+			"Lorebook_Item_OrbeiNote5": {
+				"flavor": "(PH) Monk Sashtchen, the Abbot has me transcribing the history of the known demons worshipped by the ancient people of the Dry Steppes. BEFORE the Zakarum colonization. I think he wants to know if the religion was more of a passive ideation of beings of power as a form of protection or if there were specific evils they sought to emulate. Eitehr way, no, I cannot help you with your own tomes, ask Monk Miatin.",
+				"name": "A small piece of carefully folded parchment"
+			},
+			"Lorebook_Item_OrbeiNote6": {
+				"flavor": "(PH) More information on the history of the Monastery, specifically it's rules about secrecy and silence on any knowledge learned from the tomes it holds within.",
+				"name": "A large, well bound tome"
+			},
+			"Lorebook_Item_OrbeiNote7": {
+				"flavor": "(PH) The personal journal of a low level monk.",
+				"name": "A personal journal"
+			},
+			"Lorebook_Item_OrbeiNote_LogBook": {
+				"flavor": "Brother Horardim Elias, Year 1338. Traveling Scholar Kamien  (refused entry), Year  1337. Traveling Merchant Joren (refused entry), Year 1325. Brothers Horadrim Lorath and Elias, Year 1024.",
+				"name": "A Visitor Log Book"
+			},
+			"Lorebook_Item_QST_Conv_Vault_01": {
+				"flavor": "In the ancient days when the first Horadrim walked in Sanctuary, there were many who would do them harm. A great Vault was constructed as a place of study, and of safekeeping for the dangerous artifacts they collected. The entrance of this Vault was hidden with powerful enchantments, so that any who attempted to seek it without pure motive would be led astray and become lost.",
+				"name": "(PH) Chronicles of the Horadrim, Part One"
+			},
+			"Lorebook_Item_QST_Conv_Vault_02": {
+				"flavor": "After the defeat of the Prime Evils, the Horadrim cast about for work to put their hands to. Some say the members of  the order retired, fading into obscurity and departing the mortal world. Others claim that the cache of evil artifacts they possessed was too great a temptation for the weaker-willed among them, and some Horadrim became powerful necromancers, retreating into the dark corners of Sanctuary to practice their forbidden rites and bide their time.",
+				"name": "(PH) Chronicles of the Horadrim, Part Two"
+			},
+			"Lorebook_Item_QST_Conv_Vault_03": {
+				"flavor": "The fate of the Horadrim has always been entwined with that of the Archangels. After all, it was Tyrael himself who revived the order after its long dormancy. However, not all the Archangels are equally supportive of the Horadrim's activities. Some of the more reclusive ones appear to view the Horadrim with suspicion and distrust, but have not interfered, perhaps seeing them as a distasteful but necessary bulwark against the Prime Evils.",
+				"name": "(PH) Chronicles of the Horadrim, Part Three"
+			},
+			"Lorebook_Item_QST_EliasPalace_Elias_01": {
+				"flavor": "A tome written by Elias, describing the teachings and wisdom of Lilith.",
+				"name": "Gospel of the Mother"
+			},
+			"Lorebook_Item_QST_EliasPalace_Elias_02": {
+				"flavor": "A tome written by Elias, describing the teachings and wisdom of Lilith.",
+				"name": "Gospel of the Mother"
+			},
+			"Lorebook_Item_QST_EliasPalace_Elias_03": {
+				"flavor": "A tome written by Elias, describing the teachings and wisdom of Lilith.",
+				"name": "Gospel of the Mother"
+			},
+			"Lorebook_Item_QaraYisu_01": {
+				"flavor": "The cannibals took twelve more of us this week, but Elder Davan has finally gone to the mines. He will free the Ancient Spirit and we will claim its power. No one will threaten Qara Yisu again.",
+				"name": "Watchman's Log"
+			},
+			"Lorebook_Item_QaraYisu_02": {
+				"flavor": "A voice in the mines has answered our prayers! \"Free me from the salt,\" it said, \"and I shall raise three spires. Then, my power shall be yours.\"",
+				"name": "Miner's Journal"
+			},
+			"Lorebook_Item_RefugeesKillerContract": {
+				"flavor": "Taymiyyah. Your debt is paid. Be free, my little bird.\n\n--Ihsan",
+				"name": "Scrawled Note"
+			},
+			"Lorebook_Item_SC1": {
+				"flavor": "\"Attention, noble hunters of Scosglen!\"",
+				"name": "Cathedral Edict"
+			},
+			"Lorebook_Item_ZakFortKeep_Paladin_Lord": {
+				"flavor": "I will become maggot food if I don't-",
+				"name": "Old book"
+			},
+			"Lorebook_Item_ZakFortKeep_Paladin_Lord_Extras": {
+				"flavor": "A second missive from Lord Carthas",
+				"name": "Confessions of Lord Carthas"
+			},
+			"Lorebook_Item_ZakFortKeep_Paladin_Orders": {
+				"flavor": "A paladin laments their mission here",
+				"name": "Paladin's Record"
+			},
+			"OW_LostMap_Item": {
+				"flavor": "Next to the river, along the sea, a lonesome tree, stands guard for me.",
+				"name": "Treasure Note"
+			},
+			"QST_Class_Barb_Beast_Item": {
+				"flavor": "The Beast's head, encrusted with fried gore, still gives off an unnatural aura.",
+				"name": "Head of the Beast"
+			},
+			"QST_Class_Barb_Reward_Helm": {
+				"affixes": [
+					"SkillRankBonus_Barb_WeaponMastery"
+				],
+				"flavor": "The beast's bleached skull has accumulated an impressive collection of gouges and dents, both in life and afterwards.",
+				"name": "Bone Helm of the Beast"
+			},
+			"QST_Class_Necro_Bone": {
+				"flavor": "This bone looks worthy of crafting into the body of a Golem",
+				"name": "Unbroken Bone"
+			},
+			"QST_Class_Sorc_Item_Paper": {
+				"flavor": "Scribbled with camped lines of obscure runes",
+				"name": "Codex Page"
+			},
+			"QST_Class_Sorc_Page": {
+				"flavor": "Scribbled with camped lines of obscure runes",
+				"name": "Codex Page"
 			},
 			"QST_Class_Sorc_Reward_Focus": {
 				"affixes": [
 					"INHERENT_Luck",
 					"PassiveRankBonus_Sorc_Elemental_T1_N2",
 					"ElementalDamageReduction"
-				]
+				],
+				"flavor": "\"A loosely bundled collection of ancient pages, covered with obscure runes. The sheaf of papers has an odd, organic feel when grasped, as though alive in some way.\"",
+				"name": "Forgotten Codex"
+			},
+			"QST_Conv_Donan_Letter": {
+				"flavor": "This letter between two Horadrim is written is a script that you cannot decipher.",
+				"name": "A Letter from Lorath to Donan"
+			},
+			"QST_Convergence_Act_Amulet": {
+				"flavor": "The Star beguiles. The threads of fate converge, but its story is not done.",
+				"name": "The Nexus Star"
+			},
+			"QST_DryS_KedBardu_FetchMinor_01": {
+				"flavor": "[PH] Stolen food supplies from Ked Bardu Merchants",
+				"name": "Stolen Supplies"
+			},
+			"QST_Frac_BearTribeMedallion": {
+				"flavor": "Carried only by members of the Bear Tribe",
+				"name": "Medallion of the Bear"
+			},
+			"QST_Frac_BeastChal_Goat_Heart_Quest": {
+				"flavor": "The skull of Kauller is heavy for its size and appears fixed in a sightless snarl.",
+				"name": "Skull of Kauller"
+			},
+			"QST_Frac_Brothers_Lorebook_CaravanBody": {
+				"flavor": "The caravan has been destroyed. Bandits, curse their names. I escaped, but they're looking for me. One of them thinks I'm hiding secret riches. HA! Idiots. I think I saw a young man from the town with them. Did the town betray us? Those zealots refused to give us shelter and now look, everyone is dead. This journal may be all that's left of me. If anyone finds this, don't return to the town. There is a traitor there.",
+				"name": "Hastily Written Journal"
+			},
+			"QST_Frac_Brothers_Note_FarewellNote": {
+				"flavor": "Brother, I've done it. I've found a way to finally to turn our fortunes around. This one will work, I'm sure of it! I'm going to make us rich, our family will never go hungry again. Don't try to follow me. With love, Perithan.",
+				"name": "A Farewell Letter"
+			},
+			"QST_Frac_Cathedral_Vigo_FaithMedallion": {
+				"flavor": "This medallion is given to outsiders as a token of good faith. Iosef said it will grant access to Kor Valar.",
+				"name": "Knights Penitent Medallion of the Faithful"
+			},
+			"QST_Frac_Consecrator_Looted_Reward": {
+				"flavor": "This ruined staff was once an ornate status symbol for the Arch-Consecrator. Now it reeks of sulfur and burnt flesh.",
+				"name": "Charred Staff of the Arch-Confessor"
+			},
+			"QST_Frac_CutthroatsEscape_Key": {
+				"flavor": "The old mining tunnels were the perfect way to move goods--or people--through the mountains without attracting unwanted attention.",
+				"name": "Smuggler's Key"
+			},
+			"QST_Frac_DeadMill_GhoulHeart": {
+				"flavor": "The pulsing of this horrid heart secretes an oily mucus.",
+				"name": "Ghoul Heart"
+			},
+			"QST_Frac_DeadPilgrim_Journal": {
+				"flavor": "...I'm looking forward to my studies at the Cathedral. I hope to find peace amongst the books there and their well kept secrets. Priest Malone would expect nothing less before I return to Margrave. Perhaps he will see us as equals? Doubtful, but I will should at minimum earn his respect...",
+				"name": "Pilgrim's Journal"
+			},
+			"QST_Frac_DepthsOfDespair_Chalice": {
+				"flavor": "An ornate chalice of precious metal bearing the mark of the Cathedral of Light. There is a strange patina coating the inside of the bowl.",
+				"name": "Holy Chalice"
+			},
+			"QST_Frac_DreadMartyr_Lorebook": {
+				"flavor": "This damaged parchment appears to be written hastily in freshly dried blood presumably by Avitus, the vampire.",
+				"name": "Bloody Parchment"
+			},
+			"QST_Frac_FaithInBlood_BloodyChalice": {
+				"flavor": "An ornate chalice of precious metal bearing the mark of the Cathedral of Light. The inside of the bowl is coated with blood.",
+				"name": "Blood-Filled Chalice"
+			},
+			"QST_Frac_FaithInBlood_FinishedChalice": {
+				"flavor": "An ornate chalice of precious metal bearing the mark of the Cathedral of Light. There is a strange patina coating the inside of the bowl.",
+				"name": "Holy Chalice"
+			},
+			"QST_Frac_FaithInBlood_MundaneChalice": {
+				"flavor": "An ornate chalice of precious metal bearing the mark of the Cathedral of Light. It is well-polished and appears to have never been used.",
+				"name": "Silver Chalice"
+			},
+			"QST_Frac_FaithInBlood_OctaviaLetter": {
+				"flavor": "A hastily-written note from Sister Octavia. It describes her worsening health and suspicions that the demon you encountered in the sewers was not destroyed, but instead took her as its next host.",
+				"name": "Sister Octavia's Letter"
+			},
+			"QST_Frac_FaithInBlood_PrayerBook": {
+				"flavor": "A well-loved book of litanies, prayers and psalms. Certain words are underlined, perhaps due to a deeply personal significance to those passages.",
+				"name": "Sister Octavia's Prayer Book"
+			},
+			"QST_Frac_ForgiveMe_Note": {
+				"flavor": "Dearest Roza, it pains me to say that our plans, our hopes, our dreams, our lives together... they can be no longer. Something unforeseen has destroyed the one you once knew, and I fear that I am now damned. I beg you, please never come looking for me. I will love you forever. Sign, your Julek.",
+				"name": "Bloodied Note"
+			},
+			"QST_Frac_GaleValley_RareHarvest_Ore": {
+				"flavor": "A rare, gem-laden geode. A local jeweler sells has tools to open it.",
+				"name": "Icebound Geode"
+			},
+			"QST_Frac_GaleValley_RareHarvest_OreKit": {
+				"flavor": "This will help with opening one rare Fractured Peaks geode.",
+				"name": "Acid Flux"
+			},
+			"QST_Frac_Glac_Caretaker_Lorebook": {
+				"flavor": "The booklet marker is set to the final entry.",
+				"name": "Caretaker Emeryk's Journal"
+			},
+			"QST_Frac_Glac_Vamp_Lorebook": {
+				"flavor": "This damaged parchment appears to be written hastily in freshly dried blood presumably by Caretaker Emeryk of Saints College.",
+				"name": "Bloody Parchment"
+			},
+			"QST_Frac_GoldSpent_GemCache_Loot": {
+				"flavor": "Precious gems embody innate magical abilities. When set into a socketed item these gems can add powerful magic effects. Higher grades of gems have stronger effects.",
+				"name": "Merchant's Gem Cache"
+			},
+			"QST_Frac_GoldSpent_Gems": {
+				"flavor": "This large bag bears the mark of Merchant Meros and is heavy with a various gems inside.",
+				"name": "Payment of Gemstones"
+			},
+			"QST_Frac_HamGriz_BarbHammer_Reward": {
+				"affixes": [
+					"INHERENT_OverpowerDamage"
+				],
+				"flavor": "The fabled hammer is considered sacred to barbarians of the Bear Tribe.",
+				"name": "Hammer of the Grizzly"
+			},
+			"QST_Frac_HamGriz_Hammer_Quest": {
+				"flavor": "The fabled hammer is considered sacred to barbarians of the Bear Tribe.",
+				"name": "Hammer of the Grizzly"
+			},
+			"QST_Frac_HoradricBook": {
+				"flavor": "A worn and dusty book with a faded horadric seal on the cover",
+				"name": "Lesser Verses and Incantations"
+			},
+			"QST_Frac_Inheritance2_Axe": {
+				"flavor": "The axe is still slick with blood that seems to soak through any cloth wrapping the blade.",
+				"name": "The Woodsman's Axe"
+			},
+			"QST_Frac_Inheritance_Axe": {
+				"flavor": "The axe is still slick with blood that seems to soak through any cloth wrapping the blade.",
+				"name": "The Woodsman's Axe"
+			},
+			"QST_Frac_KhazraBone": {
+				"flavor": "Bones of Ice Clan khazra, splintered in combat. The young chieftain of the Bear Tribe barbarians, known for his fondness of crushing weapons, collects them with pride.",
+				"name": "Ice Clan Bones"
+			},
+			"QST_Frac_MaladyOfTheSoul_Chalice": {
+				"flavor": "An ornate chalice of precious metal bearing the mark of the Cathedral of Light. There is a strange patina coating the inside of the bowl.",
+				"name": "Holy Chalice"
+			},
+			"QST_Frac_MeneCoffers_Tithe": {
+				"flavor": "This ledger details a heavy tithing requirement due to the Church of Light. There are several tabbed sections noting inconsistencies and incorrect figures.",
+				"name": "Tithing Demands"
+			},
+			"QST_Frac_Minor03_Note": {
+				"flavor": "Written in a strange shorthand, this odd journal contains a single legible paragraph: \"Arek is insane if he thinks he can place bets with the business gold... We'll be in the infamous debtors prison of Menestad by sunrise! Did he think I wouldn't notice? It's time to cut ties.\"",
+				"name": "Samuel's Journal"
+			},
+			"QST_Frac_PaleKnightsKin_Journal_01": {
+				"flavor": "...the Inquisitor finds that of our knights are lacking in devotion. That is except for Knight Coste, she goes above and beyond in her duties to the Cathedral. He noted with exuberance about how she had not seen her family in years...",
+				"name": "Archivist's Journal: Volume I"
+			},
+			"QST_Frac_PaleKnightsKin_Journal_02": {
+				"flavor": "...regular teachings continue to struggle in light of the harsh realities of the world. How can one be tolerant in this environment? But the teachings are ever important as history shows us. If we are not unified, cooperating together, and tolerant of each other, we will not see many more sun rises...",
+				"name": "Archivist's Journal: Volume II"
+			},
+			"QST_Frac_PaleKnightsKin_Journal_03": {
+				"flavor": "...it is through the teachings of the Cathedral of Light that we must ensure humanity's survival. Without it, people are prone to succumb to their baser instincts. We must ensure people are good...",
+				"name": "Archivist's Journal: Volume III"
+			},
+			"QST_Frac_Prologue_ChapelKey": {
+				"flavor": "A small, well-worn key, smeared with its owner's blood.",
+				"name": "Chapel Key"
+			},
+			"QST_Frac_Prologue_LorathsAmulet": {
+				"flavor": "An old amulet of unique design. It shows wear from years of use, perhaps as a badge of office.",
+				"name": "Strange Amulet"
+			},
+			"QST_Frac_Prologue_LorathsPolearm": {
+				"flavor": "While clearly old, its ornate blade has been kept sharpened and polished as though it would be needed again at any moment.",
+				"name": "Lorath's Polearm"
+			},
+			"QST_Frac_Prologue_TabletAnger": {
+				"flavor": "An aromatic and well-polished piece of cedar wood inscribed with the word \"Anger\".",
+				"name": "Holy Cedar Tablet"
+			},
+			"QST_Frac_Prologue_TabletCowardice": {
+				"flavor": "An aromatic and well-polished piece of cedar wood inscribed with the word \"Fear\".",
+				"name": "Holy Cedar Tablet"
+			},
+			"QST_Frac_Prologue_TabletJealousy": {
+				"flavor": "An aromatic and well-polished piece of cedar wood inscribed with the word \"Greed\".",
+				"name": "Holy Cedar Tablet"
+			},
+			"QST_Frac_Prologue_TabletNothing": {
+				"flavor": "An aromatic and well-polished piece of cedar wood inscribed with nothing but scribbles.",
+				"name": "Holy Cedar Tablet"
+			},
+			"QST_Frac_Prologue_TabletPride": {
+				"flavor": "An aromatic and well-polished piece of cedar wood inscribed with the word \"Pride\".",
+				"name": "Holy Cedar Tablet"
+			},
+			"QST_Frac_SangChap_Book": {
+				"flavor": "The cursed chalice has a caked rich crimson lining the cup bowl.",
+				"name": "The Red Chalice"
+			},
+			"QST_Frac_SightMad_Eyeball_Necklace": {
+				"flavor": "This necklace contains a pair of eyeballs hooked into the small chain. While still wet to the touch, the pupils can also be observed dilating as if alive.",
+				"name": "Necklace of Eyes"
+			},
+			"QST_Frac_TaigaE_DropGift_Zalan01": {
+				"flavor": "This old painting of Margrave's town square has seen better days.",
+				"name": "Faded Old Painting"
+			},
+			"QST_Frac_TaigaE_DropGift_Zalan02": {
+				"flavor": "A traveling trader recorded their journeys and sales in this book.",
+				"name": "Handwritten Book"
+			},
+			"QST_Frac_TaigaE_DropGift_Zalan03": {
+				"flavor": "A weathered carving of a knight missing several pieces.",
+				"name": "Carved Wooden Knight"
+			},
+			"QST_Frac_TaigaW_Motes_Werewolves_CacheInert": {
+				"flavor": "\"Vengeance is my legacy. Take the spirits of werewolves and I will open.\"",
+				"name": "Hungering Bone Cache"
+			},
+			"QST_Frac_TaigaW_Motes_Werewolves_CacheLoot": {
+				"flavor": "Its thirst for vengeance slaked, the magic seal appears to have faded.",
+				"name": "Sated Bone Cache"
+			},
+			"QST_Frac_TaigaW_RareHarvest_Herbs_01": {
+				"flavor": "A stalk of small violet blooms gathered while harvesting other herbs.",
+				"name": "Frostbloom"
+			},
+			"QST_Frac_TundraN_Motes_Skeletons_CacheInert": {
+				"flavor": "\"Take the spirits of the restless dead and grant them peace in return.\"",
+				"name": "Sealed Exorcist's Cache"
+			},
+			"QST_Frac_TundraN_Motes_Skeletons_CacheLoot": {
+				"flavor": "Its mandate fulfilled, the box's magical seal has faded.",
+				"name": "Unsealed Exorcist's Cache"
+			},
+			"QST_Frac_Vault_Spellbook": {
+				"flavor": "Bound in black leather, necromantic runes along the spine of the grim tome.",
+				"name": "Death Harnessed: Theories of Rathma"
+			},
+			"QST_Frac_Woodsman_Axe": {
+				"flavor": "The axe is still slick with blood that seems to soak through any cloth wrapping the blade.",
+				"name": "The Woodsman's Axe"
+			},
+			"QST_Hawe_APriceToPay_Venom": {
+				"flavor": "An acrid and extremely potent venom.",
+				"name": "Spider Venom"
+			},
+			"QST_Hawe_Act_Helm": {
+				"flavor": "Worn by a king, a usurper, a thief? A macabre trophy. A gift from the tree.",
+				"name": "Crown of Whispers"
 			},
 			"QST_Hawe_Arc_Reward": {
 				"affixes": [
@@ -12728,7 +13724,53 @@
 					"PotionGrantsResource",
 					"Lucky_Hit_Immobilize",
 					"On_Kill_Health"
-				]
+				],
+				"flavor": "Upon pledging their life to serving the Tree of Whispers, witches of the swamp are gifted a root or branch to signify their accord.",
+				"name": "Staff of Whispers"
+			},
+			"QST_Hawe_AtAnyCost_Candles": {
+				"flavor": "A handful of musty smelling, half-melted candles.",
+				"name": "Half-Melted Candles"
+			},
+			"QST_Hawe_AtAnyCost_CorpseHead": {
+				"flavor": "The severed head of an Acolyte of Rathma. It speaks in a low moaning voice.",
+				"name": "Acolyte's Head"
+			},
+			"QST_Hawe_Bog_HeartsBurden_CorpseDrop": {
+				"flavor": "A worn dagger, spotted with rust and covered in blood.",
+				"name": "Rusted Dagger"
+			},
+			"QST_Hawe_Bog_Kres_01_Plant": {
+				"flavor": "A bundle of puffball reeds, named for the tight bundles of cotton-like flowers.",
+				"name": "Puffball Reed"
+			},
+			"QST_Hawe_Bog_Kres_02_TimueItem": {
+				"flavor": "A strange relic with unknown purpose. A small face is carved into a shard of bone, placed atop a gnarled root.",
+				"name": "Stolen Idol"
+			},
+			"QST_Hawe_Bog_Kres_02_TimueSalve": {
+				"flavor": "Timue created this salve from marsh snake venom. She claimed it would allow Kres to \"regain some of what he has lost.\"",
+				"name": "Timue's Salve"
+			},
+			"QST_Hawe_Bog_Motes_Snakes_CacheInert": {
+				"flavor": "Sealed by necromancy. Its lock hungers for the essence of death.",
+				"name": "Hungering Necrolyte's Cache"
+			},
+			"QST_Hawe_Bog_Motes_Snakes_CacheLoot": {
+				"flavor": "Its thirst for death slaked, the magic seal appears to have faded.",
+				"name": "Sated Necrolyte's Cache"
+			},
+			"QST_Hawe_ByThree_Booze": {
+				"flavor": "A bottle of mead from Scosglen. This honey wine is combined with biteberry juice to provide a pleasing shade of crimson and a robust flavor.",
+				"name": "Cerrigar Red Sky"
+			},
+			"QST_Hawe_ByThree_PrayerBook": {
+				"flavor": "A well-loved collection of observations and thoughts. Many of the pages had been lost, but you have collected and re-added them where they belonged.",
+				"name": "Symon's Tattered Journal"
+			},
+			"QST_Hawe_Coast_Lyndon_01_Item_Supplies": {
+				"flavor": "A sharp, pungent scent surrounds the crate, stinging your nostrils.",
+				"name": "\"Supplies\""
 			},
 			"QST_Hawe_Coast_PoisonedHearts_AmuletReward": {
 				"affixes": [
@@ -12736,7 +13778,21 @@
 					"Damage_Tag_Pyromancy",
 					"Damage_Type_Bonus_Fire",
 					"Lucky_Hit_Resource"
-				]
+				],
+				"flavor": "\"This simple necklace is emblazoned with the symbol of the Zakarum. However it has been scorched by flame to the point of being barely recognizable.\"",
+				"name": "Aneta's Keepsake"
+			},
+			"QST_Hawe_DarkPath_LockboxKey": {
+				"flavor": "A small worn key. It looks like it fits a chest or lockbox.",
+				"name": "Lockbox Key"
+			},
+			"QST_Hawe_DeadintheWater_Salvage": {
+				"flavor": "Various resources salvaged from the Forsaken Coast. They smell of rotting flesh.",
+				"name": "Salvaged Resources"
+			},
+			"QST_Hawe_Delta_EliasFinger": {
+				"flavor": "The preserved small finger from Elias' left hand. It emits a dark aura that sets you on edge.",
+				"name": "Elias' Mummified Finger"
 			},
 			"QST_Hawe_FaithInBlood_Reward": {
 				"affixes": [
@@ -12744,7 +13800,541 @@
 					"Damage_Type_Bonus_Cold",
 					"Resistance_Single_Frost",
 					"PotionGrantsResource"
-				]
+				],
+				"flavor": "A well-loved book of litanies, prayers and psalms. Certain words are underlined, perhaps due to a deeply personal significance to those passages. The soft leather cover is strangely cold to the touch.",
+				"name": "Sister Octavia's Prayer Book"
+			},
+			"QST_Hawe_Kres_02_Ingredient": {
+				"flavor": "A dark, thin fluid. An oily sheen catches the light.",
+				"name": "Marsh Snake Venom"
+			},
+			"QST_Hawe_Kres_03_DismemberedRemains": {
+				"flavor": "A burlap sack filled with human remains, dried and shriveled. The lack of blood and viscera has created a desiccated, leathery corpse.",
+				"name": "Exsanguinated Remains"
+			},
+			"QST_Hawe_LostVillager01_Item_01": {
+				"flavor": "A variety of edible mushroom that grows in parts of Hawezar",
+				"name": "Morel Mushroom"
+			},
+			"QST_Hawe_LostVillager01_Item_02": {
+				"flavor": "A variety of edible mushroom that grows in parts of Hawezar",
+				"name": "Chanterelle Mushroom"
+			},
+			"QST_Hawe_LostVillager01_Item_03": {
+				"flavor": "A variety of edible mushroom that grows in parts of Hawezar",
+				"name": "Chicken of the Woods Mushroom"
+			},
+			"QST_Hawe_M09_InvPage01": {
+				"flavor": "A section of a larger tome, it is largely illegible due to smears of blood and ashes.",
+				"name": "Inquisitor's Ledger, Chapter 1"
+			},
+			"QST_Hawe_M09_InvPage02": {
+				"flavor": "A section of a larger tome, it is largely illegible due to smears of blood and ashes.",
+				"name": "Inquisitor's Ledger, Chapter 2"
+			},
+			"QST_Hawe_M09_InvPage03": {
+				"flavor": "A section of a larger tome, it is largely illegible due to smears of blood and ashes.",
+				"name": "Inquisitor's Ledger, Chapter 3"
+			},
+			"QST_Hawe_M09_InvPage04": {
+				"flavor": "A section of a larger tome, it is largely illegible due to smears of blood and ashes.",
+				"name": "Inquisitor's Ledger, Chapter 4"
+			},
+			"QST_Hawe_Marsh_Incense": {
+				"flavor": "A bundle of dried herbs. The strong, earthy scent sticks in the back of your throat and makes your head swim.",
+				"name": "Mystic Incense"
+			},
+			"QST_Hawe_Marsh_TempleLeftEye": {
+				"flavor": "A palm-sized red gemstone removed from the engraved stone door in Yngovani. It glows with a fiery light.",
+				"name": "Serpent's Left Eye"
+			},
+			"QST_Hawe_Marsh_TempleRightEye": {
+				"flavor": "A palm-sized yellow gemstone removed from the engraved stone door in Yngovani. It glows with a sickly light.",
+				"name": "Serpent's Right Eye"
+			},
+			"QST_Hawe_PoisonedHearts_AnetasNecklace": {
+				"flavor": "\"This simple necklace is emblazoned with the symbol of the Zakarum. It bears significant scorch marks.\"",
+				"name": "Aneta's Keepsake"
+			},
+			"QST_Hawe_S04_Clue01_InvLetter": {
+				"flavor": "Written hastily and with many scribbled out sections, this shabby old note is hard to read.",
+				"name": "Kaan's Note"
+			},
+			"QST_Hawe_S04_Clue02_InvMusicBox": {
+				"flavor": "A set of hand-engraved windchime sails made with obvious care but modest skill.",
+				"name": "Windchime Sails"
+			},
+			"QST_Hawe_S04_Clue03_InvMusicCylinder": {
+				"flavor": "This bag contains a bunch of hand-carved windchime strikers.",
+				"name": "Windchime Strikers"
+			},
+			"QST_Hawe_S05_AldaraJournal": {
+				"flavor": "Aldara's journal is mostly a tally of names and payments.",
+				"name": "Aldara's Journal"
+			},
+			"QST_Hawe_S05_BrechtJournal": {
+				"flavor": "A scorched journal found on a corpse.",
+				"name": "Brecht's Journal"
+			},
+			"QST_Hawe_S05_ItemAmulet": {
+				"flavor": "This amulet looks oddly discolored and feels almost feverish to the touch.",
+				"name": "Aldara's Amulet"
+			},
+			"QST_Hawe_Soulrot_Eyeballs": {
+				"flavor": "The plucked eyeballs are wet as thick mucus coats the parts newly exposed.",
+				"name": "Oversized Snake Eyes"
+			},
+			"QST_Hawe_Soulrot_Fungus": {
+				"flavor": "The fungus glows a strange green and offers a pungent odor long after being harvested.",
+				"name": "Gano Fungus"
+			},
+			"QST_Hawe_Soulrot_Head": {
+				"flavor": "The head was severed a week ago, but the flesh is largely intact.",
+				"name": "Grotesque Head"
+			},
+			"QST_Hawe_Soulrot_Medicine": {
+				"flavor": "Medicine brewed with Gano Fungus. It has an earthy smell.",
+				"name": "Gano Fungus Medicine"
+			},
+			"QST_Hawe_Soulrot_MoldHeart": {
+				"flavor": "The mold-covered heart slowly pulses, sending a small puff into the air.",
+				"name": "Moldy Heart"
+			},
+			"QST_Hawe_TheHeretic_Flower01": {
+				"flavor": "The petals of this flower are blackened as if left too near a great heat.",
+				"name": "Singed Daisy"
+			},
+			"QST_Hawe_TheHeretic_Flower02": {
+				"flavor": "The stem droops under the weight of the sickly flowers. This plant would not have lasted long even before you picked it.",
+				"name": "Withered Delphinium"
+			},
+			"QST_Hawe_TheHeretic_Flower03": {
+				"flavor": "The petals fall from the flower the moment you touch it.",
+				"name": "Dying Rose"
+			},
+			"QST_Hawe_Verge3_Spell_Material": {
+				"flavor": "The vial glows with a penetrating white light.",
+				"name": "Vial of Purified Quicksilver"
+			},
+			"QST_Hawe_Verge5_Lotus": {
+				"flavor": "The Yellow Lotus leaves are covered in a sticky clear film.",
+				"name": "Yellow Lotus"
+			},
+			"QST_Hawe_Verge5_Maggot_Ichor": {
+				"flavor": "A foul corrosive ichor that can cause skin to itch and wither over a short time.",
+				"name": "Maggot Queen Ichor"
+			},
+			"QST_Hawe_Verge_Motes_Fallen_CacheInert": {
+				"flavor": "Sealed by necromancy. Its lock hungers for the essence of death.",
+				"name": "Hungering Necrolyte's Cache"
+			},
+			"QST_Hawe_Verge_Motes_Fallen_CacheLoot": {
+				"flavor": "Its thirst for death slaked, the magic seal appears to have faded.",
+				"name": "Sated Necrolyte's Cache"
+			},
+			"QST_Hawe_Verge_Taissa_01_Item_RitualSupplies": {
+				"flavor": "[PH]A collection of herbs for Taissa, to help with her pain.",
+				"name": "Medicinal Herbs"
+			},
+			"QST_Hawe_Verge_Taissa_02_Item_SkeletonKey": {
+				"flavor": "PH A key that grant entry to the Ritual Site at the Tree of whispers",
+				"name": "Skeleton Key"
+			},
+			"QST_Hawe_Verge_Taissa_02_SnakeBones": {
+				"flavor": "Eyes from the Nangari Oracles that live near the Tree of Whispers",
+				"name": "[PH] Snake Eye"
+			},
+			"QST_Hawe_Wetlands_FailedCrusader_01_JohannaArmor": {
+				"flavor": "An expertly crafted suit of armor. It hums with divine energy.",
+				"name": "Johanna's Armor"
+			},
+			"QST_Hawe_ZakFort_Carthas_CarthasNote": {
+				"flavor": "(PH) I was there when Sankekur fell. I felt Mephisto's magic clawing at my mind. Even today, when I remember that moment, I am unsure if the anger I feel comes from him or me. But that does not hinder my faith.\nRemember, brothers and sisters, the Light won that day. We rallied. We defeated a prime evil. And what's more, we did it together. The Darkness will never extinguish the Light. It is our duty to ensure that.\nThe day we discovered the corruption within our faith was the day we began anew. It was the day I knew I was truly fighting for the Light.",
+				"name": "Unsent Letter"
+			},
+			"QST_Hawe_ZakFort_SealedQuarters_MehphistoCorruption": {
+				"flavor": "Collect the manifestation of Mephisto's hatred to aid Ksenia's ritual.",
+				"name": "Mephisto's Corruption"
+			},
+			"QST_Hawe_ZakFort_SealedQuarters_MehphistoCorruption1": {
+				"flavor": "A churning mass of hatred. It tugs at your mind, filling your thoughts with violence and treachery.",
+				"name": "Mephisto's Corruption"
+			},
+			"QST_Hawe_ZakFort_SealedQuarters_MehphistoCorruption2": {
+				"flavor": "A churning mass of hatred. It tugs at your mind, filling your thoughts with violence and treachery.",
+				"name": "Mephisto's Corruption"
+			},
+			"QST_Hawe_ZakFort_SealedQuarters_MehphistoCorruption3": {
+				"flavor": "A churning mass of hatred. It tugs at your mind, filling your thoughts with violence and treachery.",
+				"name": "Mephisto's Corruption"
+			},
+			"QST_Hawe_ZakFort_SealedQuarters_Motes_MehphistoMote": {
+				"flavor": "Collect the manifestation of Mephisto's hatred to aid Ksenia's ritual.",
+				"name": "Mephisto's Corruption"
+			},
+			"QST_Hell_Act_Chest": {
+				"flavor": "Terror begets Hate and Hate begets Destruction, Destruction begets Terror..",
+				"name": "Cuirass of the Prime Evils"
+			},
+			"QST_ITM_Scos_ClawsattheThroat_WornInsignia": {
+				"flavor": "[PH] Quest Item Flavor",
+				"name": "Worn Insignia"
+			},
+			"QST_ITM_Step_AuguryofBones_BoneDust": {
+				"flavor": "[PH] Quest Item Flavor",
+				"name": "Bone Dust"
+			},
+			"QST_ITM_Step_HubrisSmilesBack_JawOffering": {
+				"flavor": "An ornamented jawbone offering. The sound of distant laughter seems to emanate from the bone itself.",
+				"name": "Baneful Oblation"
+			},
+			"QST_ITM_Step_RaisingSpears_CraneSpear": {
+				"flavor": "[PH] A weathered spear that has seen countless battles, bearing scars of both success and failure.",
+				"name": "Blood-Etched Spear"
+			},
+			"QST_Kehj_Armor_01_AlimArmor": {
+				"flavor": "The armor set of Alim, a fallen Iron Wolf. Three distinct puncture wounds tell of the soldier's final moments.",
+				"name": "Battered Iron Wolf Armor"
+			},
+			"QST_Kehj_Armor_01_TalaArmor": {
+				"flavor": "The armor set of Tala, a fallen Iron Wolf. Fresh crimson stains tell of the soldier's final moments.",
+				"name": "Bloody Iron Wolf Armor"
+			},
+			"QST_Kehj_Caldeum_DropGift_Barez01": {
+				"flavor": "A sword taken as a trophy by a Triune cultist. Barez will want to see it.",
+				"name": "Iron Wolf Sword"
+			},
+			"QST_Kehj_Caldeum_DropGift_Barez02": {
+				"flavor": "Though scratched and dented, Barez may want to see this Iron Wolf gear.",
+				"name": "Iron Wolf Armor"
+			},
+			"QST_Kehj_FinalStraw_BagofOats": {
+				"flavor": "These fresh oats would be a tempting delicacy for a hungry camel.",
+				"name": "Bag of Oats"
+			},
+			"QST_Kehj_GeaKul_FetchMinor_06_Trinkets": {
+				"flavor": "Scent Glands harvested from Khazra. They have a pungent, musky odor.",
+				"name": "Khazra Glands"
+			},
+			"QST_Kehj_HighDesert_ZakFetch_ThiefNote": {
+				"flavor": "Gavon\nHere's what you're after. It better be in good condition this time. Ihsan doesn't like scratches.",
+				"name": "Handwritten Note"
+			},
+			"QST_Kehj_HighDesert_ZakarumItem": {
+				"flavor": "An artifact precious to the Zakarum faith, now broken. The precious metals and jewels have been torn away, leaving behind splintered wood and a dull metal frame.",
+				"name": "Broken Zakarum Artifact"
+			},
+			"QST_Kehj_HighDesert_ZakarumItem2": {
+				"flavor": "The stolen Zakarum artifact. Recovered from a notorious tomb raider, there is a slight red tint from his blood.",
+				"name": "Zakarum Holy Symbol"
+			},
+			"QST_Kehj_Infection_01_CurePlant": {
+				"flavor": "The small, fragile flower of a kehjistan palm tree. Despite its beautiful colors, it has a pungent aroma like rotting flesh.",
+				"name": "Ghost Palm Flower"
+			},
+			"QST_Kehj_Item_PayDue_LockBox": {
+				"flavor": "A key-locked box, still heavy with coin. Judging by the tool marks, someone tried to pry it open.",
+				"name": "Miners' Lockbox"
+			},
+			"QST_Kehj_KIA_IronWolvesArmor": {
+				"flavor": "The armor set of a fallen Iron Wolf. Three distinct puncture wounds tell of the soldier's final moments.",
+				"name": "Battered Iron Wolf Armor"
+			},
+			"QST_Kehj_LonelyWolf_02_BanditNote": {
+				"flavor": "[PH] Be patient. Poison takes time, but the Iron Wolves will succumb.\n\nDo not do anything to draw attention. If they learn of us before we are ready, I will force you to drink your own brew.\n\n--Ihsan",
+				"name": "Crumpled Orders"
+			},
+			"QST_Kehj_LowDesert_DropGift_Baraim01": {
+				"flavor": "A lost shipment originally destined for Baraim, the Gea Kul innkeeper.",
+				"name": "Battered Crate"
+			},
+			"QST_Kehj_LowDesert_Motes_Goatmen_CacheInert": {
+				"flavor": "Sealed by Khazra magic. It hungers for sacrificial essence.",
+				"name": "Sealed Khazra Offering"
+			},
+			"QST_Kehj_LowDesert_Motes_Goatmen_CacheLoot": {
+				"flavor": "The secret compartment in this offering can be opened.",
+				"name": "Glowing Khazra Offering"
+			},
+			"QST_Kehj_LowDesert_RareHarvest_Herb": {
+				"flavor": "An unusual mushroom picked while harvesting herbs in Kehjistan.",
+				"name": "Spotted Mushroom"
+			},
+			"QST_Kehj_Oasis_DropGift_Baraim02": {
+				"flavor": "A letter that has been handled carelessly, addressed to Baraim.",
+				"name": "Waterstained Letter"
+			},
+			"QST_Kehj_Oasis_FetchMinor_02_Seaweed": {
+				"flavor": "[PH] Seaweed that's been digesting inside the Drowned. The smell is nauseating.",
+				"name": "Digested Seaweed"
+			},
+			"QST_Kehj_Oasis_Note_GeaKulNote": {
+				"flavor": "PH:  Our spiders have caught threads of an escape by some of our debtors. Ensure they do not make it to Dahlgur. Bring us their faces so that we may show the cost of avoiding your debts.",
+				"name": "Gea Kul Orders"
+			},
+			"QST_Kehj_Oasis_RareHarvest_Ore": {
+				"flavor": "An unexpected type of ore found while mining in Kehjistan.",
+				"name": "Unusual Ore"
+			},
+			"QST_Kehj_Penitent_02_Item": {
+				"flavor": "The Knights Penitent use these for identifying informants and other civilian allies.",
+				"name": "Inquisitor's Insignia"
+			},
+			"QST_Kehj_Penitent_Fish": {
+				"flavor": "A fragrant bouquet of the ocean's riches.",
+				"name": "Parcel of fish"
+			},
+			"QST_Kehj_PinchofPoison_ScorpionGlands": {
+				"flavor": "Venom is injected through the massive stinger at the tip. These must be handled carefully.",
+				"name": "Scorpion Venom Glands"
+			},
+			"QST_Kehj_Remnants_Note": {
+				"flavor": "Jazem, \nKnights have invaded the city and they found the Zakarum records. They think the church members are heretics. We need to get out of here. I will be waiting by the bazaar. Be careful. \nYours, Hader",
+				"name": "Crumpled Note"
+			},
+			"QST_Kehj_Ridge_Motes_Cultists_CacheInert": {
+				"flavor": "Sealed by necromancy. Its lock hungers for the essence of death.",
+				"name": "Hungering Necrolyte's Cache"
+			},
+			"QST_Kehj_Ridge_Motes_Cultists_CacheLoot": {
+				"flavor": "Its thirst for death slaked, the magic seal appears to have faded.",
+				"name": "Sated Necrolyte's Cache"
+			},
+			"QST_Kehj_TracesofIron_HealingItem": {
+				"flavor": "The amulet bears decades of small nicks and scratches. It was well loved.",
+				"name": "Jilan's Family Heirloom"
+			},
+			"QST_Kehj_TriuneRitual_BaalGem": {
+				"flavor": "[PH] Found in Altar of Ruin. This buzzing gem is hot to the touch. The Triune Cult may have used this for nefarious purposes, but those secrets are unknown.",
+				"name": "Bala's Stone of Creation"
+			},
+			"QST_Kehj_TriuneRitual_DiabloGem": {
+				"flavor": "[PH] Found in Sepulcher of the Forsworn This buzzing gem is hot to the touch. The Triune Cult may have used this for nefarious purposes, but those secrets are unknown.",
+				"name": "Dialon's Stone of Determination"
+			},
+			"QST_Kehj_TriuneRitual_MephistoGem": {
+				"flavor": "[PH] Found in Fields of Hatred Town. This buzzing gem is hot to the touch. The Triune Cult may have used this for nefarious purposes, but those secrets are unknown.",
+				"name": "Mefis' Stone of Love"
+			},
+			"QST_Lorebook_ScosLegacies_Deed": {
+				"flavor": "This deed contains the details of the family lineage of the Garan line.",
+				"name": "Garan Deed"
+			},
+			"QST_Orbei_LowerMonasteryKey": {
+				"flavor": "Well worn, brass key. Simple, without ornaments.",
+				"name": "Orbei Monastery Third Level Key"
+			},
+			"QST_Prologue_Act_Boots": {
+				"flavor": "Wearer be blessed. Keep steady feet and a true heart.",
+				"name": "Intrepid Reckoning"
+			},
+			"QST_Reward_Cache_Elixir": {
+				"flavor": "One of the oldest forms of magic is the brewing of potions. By far the most common of these are healing potions, but more exotic Elixirs exist.",
+				"name": "Elixir Cache"
+			},
+			"QST_Reward_Cache_Gem": {
+				"flavor": "Precious gems embody innate magical abilities. When set into a socketed item these gems can add powerful magic effects. Higher grades of gems have stronger effects.",
+				"name": "Gem Cache"
+			},
+			"QST_Reward_Cache_Herbs": {
+				"flavor": "PH - Herb Cache Flavor Text",
+				"name": "Herb Cache"
+			},
+			"QST_Reward_Cache_Leather": {
+				"flavor": "PH - Leather Cache Flavor Text",
+				"name": "Leather Cache"
+			},
+			"QST_Reward_Cache_Obols": {
+				"flavor": "PH - Obols Cache Flavor Text",
+				"name": "Murmuring Cache"
+			},
+			"QST_Reward_Cache_Ore": {
+				"flavor": "PH - Ore Cache Flavor Text",
+				"name": "Ore Cache"
+			},
+			"QST_Reward_Cache_Salvage": {
+				"flavor": "\"Never let good garbage go to waste.\" - The Junk Dealer",
+				"name": "Salvage Cache"
+			},
+			"QST_RogueInnerSight_Lorebook_BakiraNote": {
+				"flavor": "Leyrana, I'm sorry to do this to you. But I have at least partially succeeded in my quest. Search my corpse when you find me and take this seeing stone back to our Order. Try not to be too disappointed in me, the eagerness to see the end of this journey clouded my vision. Know that I weep for my dead colleagues. Live well, and die fulfilled sister.",
+				"name": "Hastily Written Note"
+			},
+			"QST_Scos_ASoddenPact_SoddenClump": {
+				"flavor": "[PH] A unsettling mass of sodden black hair. It seems to slowly writhe when held, as if alive.",
+				"name": "Clump of Sodden Hair"
+			},
+			"QST_Scos_BrinyFate_BenenLetter": {
+				"flavor": "A letter written to Fergus from Benen, telling him that he departed for distant shores to leave him behind. Benen speaks of the reality of their poor relationship.",
+				"name": "Rolled Letter"
+			},
+			"QST_Scos_Coast_Motes_Drowned_CacheInert": {
+				"flavor": "Sealed by necromancy. Its lock hungers for the essence of death.",
+				"name": "Hungering Necrolyte's Cache"
+			},
+			"QST_Scos_Coast_Motes_Drowned_CacheLoot": {
+				"flavor": "Its thirst for death slaked, the magic seal appears to have faded.",
+				"name": "Sated Necrolyte's Cache"
+			},
+			"QST_Scos_Druid_CQuest_Stag_Skull": {
+				"flavor": "This stag skull is covered in gore and feels unnaturally heavy.",
+				"name": "Stag Skull"
+			},
+			"QST_Scos_DunnsLetter": {
+				"flavor": "My dear pupil Shea, I'm sorry that I must refuse assisting you with this summon. These are forces that neither of us should be meddling with. I hope that you will come to understand this as I do, and return to Balagar soon to continue your lessons. Your master and mentor, Dunn.",
+				"name": "Letter from Dunn"
+			},
+			"QST_Scos_FeralMoon_MagicItem": {
+				"flavor": "\"Wherever the Faithful walk, they bring the Light of Inarius to protect against the darkness.\"",
+				"name": "Light Blessed Amulet"
+			},
+			"QST_Scos_FieldsofRuin_GoatmanHead": {
+				"flavor": "The decapitated head of a Goatman chieftain",
+				"name": "Goatman head"
+			},
+			"QST_Scos_Hills_Motes_Wildlife_CacheInert": {
+				"flavor": "Sealed by necromancy. Its lock hungers for the essence of death.",
+				"name": "Hungering Necrolyte's Cache"
+			},
+			"QST_Scos_Hills_Motes_Wildlife_CacheLoot": {
+				"flavor": "Its thirst for death slaked, the magic seal appears to have faded.",
+				"name": "Sated Necrolyte's Cache"
+			},
+			"QST_Scos_Hills_WeepingCairns_AiridahJournal01": {
+				"flavor": "[PH] Airidah details the sorrow she carries burying her kin in secret and silence.\nSo many times she wanted to lash out against the Knights, but she held her hand to prevent further violence.\nDonan said he would see it stopped, but some Knights still see to bloodshed.\nThis is the price of trusting the Cathedral in Scosglen. Many Knights Penitent see the druids as tainted folk harnessing profane magics. \nEven Donan…",
+				"name": "Writings of Airidah's Silence"
+			},
+			"QST_Scos_Hills_WeepingCairns_AiridahJournal02": {
+				"flavor": "[PH] Airidah is beside herself after burying so many brothers and sisters. \nThose she mentored, and who mentored her in kind, buried. Forgotten.\nWalking these halls, she feels the weight of their anger. It is excruciating. \nThe dead can only remain unanswered for so long…",
+				"name": "Writings of Airidah's Grief"
+			},
+			"QST_Scos_Item_DaughterOak": {
+				"flavor": "A clean cutting from the roots of the Great Oak. You can almost feel it move in your hand.",
+				"name": "Root Cutting"
+			},
+			"QST_Scos_LochRaeth_BottledLetter": {
+				"flavor": "Padrig,\n\nI know this may never reach you, but I couldn't live with myself if I didn't try. I've been forced into exile and will likely never see you or your mother again. I know things are hard right now, but one day, the Chieftain will pay for their lies.\n\nEnclosed is a special amulet passed down from my father. Stay strong, and know that I am and always will be proud of you. No distance could ever change that.\n\nTake care of your mum,\nDad",
+				"name": "Letter from Bottle"
+			},
+			"QST_Scos_OldWays_Artifact": {
+				"flavor": "This strange rock is inscribed with curious glyphs in language long forgotten.",
+				"name": "Ancient Artifact"
+			},
+			"QST_Scos_SignoftheTimes_GooseSign": {
+				"flavor": "A welcome sight to weary souls venturing through Scosglen, Under the Fat Goose Inn provides warmth when all else is extinguished.",
+				"name": "Sign for Under the Fat Goose Inn"
+			},
+			"QST_Scos_SignoftheTimes_ListofLastDeeds": {
+				"flavor": "Tavish's List of Last Deeds\n- Nick the sign from Under the Fat Goose.\n- Stare down the gateway statue of Maddux Watch.\n- Climb the old crane atop the waterfall in Old Heimberg\n- Claim and cozy up in a Highland bear's den.",
+				"name": "Tavish's List of Last Deeds"
+			},
+			"QST_Scos_SignoftheTimes_TavishDaggers": {
+				"flavor": "Nairne used to play tavern games of courage with Tavish with these daggers. A piece of blood-stained cloth from Tavish's remains is tightly tied around each of the hilts. A last memento to a departed friend.",
+				"name": "Mementos to Tavish"
+			},
+			"QST_Scos_TheDiviner_RuneStone": {
+				"flavor": "A stone that is part of a collection used to focus and draw from ley energy in the region.",
+				"name": "Runestone of Tur Dulra"
+			},
+			"QST_Scos_UnholyBloodlines_GoatmanBlood": {
+				"flavor": "Fresh blood from a dead Khazra",
+				"name": "Vial of Khazra Blood"
+			},
+			"QST_Scos_UnholyBloodlines_Totem": {
+				"flavor": "A small, stone statue carved into the likeness of a wolf.  \"To become the wolf is to become the hunter, fierce and free.  To return to mundanity thereafter is the real trial.\"",
+				"name": "Druid Totem"
+			},
+			"QST_Scos_UnholyBloodlines_WolfBlood": {
+				"flavor": "Blood from a cursed werewolf.  It is a dark, sickly color.",
+				"name": "Vial of Werewolf Blood"
+			},
+			"QST_Scos_VotivePassing_HandmadeTorc": {
+				"flavor": "This is a well made torc, with the name \"Maisie\" inscribed on the inside.",
+				"name": "Handmade Torc"
+			},
+			"QST_Step_AbahruRift_MerchantLetter": {
+				"flavor": "Thank you for helping Cousin Genbar. Times are hard for his stone-carving, but he is too stubborn to move his family and too proud to take charity. Give him a deal and I will pay the difference.",
+				"name": "Merchant's Letter"
+			},
+			"QST_Step_Act_Pants": {
+				"flavor": "Resplendent regalia tainted with the power of the corrupt.",
+				"name": "Breeches of the Primus"
+			},
+			"QST_Step_BloodAndSweat_doll_item": {
+				"flavor": "A worn and well-loved doll.  The word 'Tuya' is carved into it.",
+				"name": "Crude Doll"
+			},
+			"QST_Step_CentralCanyon_RareHarvest_Ore": {
+				"flavor": "A small, unusual piece of ore found while mining in the Dry Steppes.",
+				"name": "Strange Ore Sample"
+			},
+			"QST_Step_Central_Motes_Demons_CacheInert": {
+				"flavor": "\"Gerti forged the arms within for one who drinks the fury of foes.\"",
+				"name": "Sealed Oxen Tribe Cache"
+			},
+			"QST_Step_Central_Motes_Demons_CacheLoot": {
+				"flavor": "The seal has faded, leaving the cache safe to open.",
+				"name": "Unsealed Oxen Tribe Cache"
+			},
+			"QST_Step_Coast_DropGift_PriestErol01": {
+				"flavor": "A well worn book of Zakarum prayers and hymns. Show this to a priest.",
+				"name": "Old Zakarum Prayerbook"
+			},
+			"QST_Step_Coast_Motes_Undead_CacheInert": {
+				"flavor": "\"The way opens to those who make amends for past wrongs.\"",
+				"name": "Sealed Penitent's Cache"
+			},
+			"QST_Step_Coast_Motes_Undead_CacheLoot": {
+				"flavor": "The dead restored to their rest, the magic seal appears to have faded.",
+				"name": "Unsealed Penitent's Cache"
+			},
+			"QST_Step_DemonLedger_DebtBook": {
+				"flavor": "A leather bound ledger that is singed on the edges. Inside are many signed contracts, most of which have been scorched from the pages.\n\nSigned: Andreea of Lakren's Overlook",
+				"name": "Scorched Debt Ledger"
+			},
+			"QST_Step_DemonLedger_DebtBook_A": {
+				"flavor": "A leather bound ledger that is singed on the edges. Inside are many signed contracts, most of which have been scorched from the pages.\n\nSigned: Lyruk of Ked Bardu",
+				"name": "Scorched Debt Ledger"
+			},
+			"QST_Step_ExhumingFaith_Note_item": {
+				"flavor": "From the stern of the great wreck, walk towards the Light.  Where the ever-faithful watcher guards his master's possessions, turn dextral.  Twenty paces to the lone tree grasping towards the dying light.  Its reaching fingers point to the monument of the sinners' folly where you will find our resting place.",
+				"name": "Treasure Map"
+			},
+			"QST_Step_ForgingTheMaul_Ore": {
+				"flavor": "An extremely hard mineral used by the Oxen tribe blacksmiths",
+				"name": "Silver Fawxite"
+			},
+			"QST_Step_Grassland_RareHarvest_Herb": {
+				"flavor": "A bright yellow flower found while harvesting herbs in the Dry Steppes.",
+				"name": "Dust Daisy"
+			},
+			"QST_Step_Guulrahn02_Prison_Lorebook": {
+				"flavor": "A small journal stained with blood.",
+				"name": "Battered Journal"
+			},
+			"QST_Step_HungerforaNewLife_Proof": {
+				"flavor": "\"... but the hunger is growing like a fire inside me. Though all they offer us is human flesh, I fear soon this hunger will overtake me, and I will have no choice but to give in ...\"",
+				"name": "Oyuun's \"Proof\""
+			},
+			"QST_Step_Onyx_FetchMinor_02": {
+				"flavor": "[PH] Personal effects of the undead. Notes, jewelry, etc",
+				"name": "Personal Effects"
+			},
+			"QST_Step_Orbei_AbbotLetter_01": {
+				"flavor": "Lorath Nahr, how bizarre it is to hear from you. Your charming apprentice arrived just this morning with equally disturbing news, but he made no mention of you. Am I to assume you did not send him? Please join us at Orbei as soon as you are able.",
+				"name": "Message from the Abbot"
+			},
+			"QST_Step_Orbei_EliasLetter": {
+				"flavor": "The whole of human knowledge shall be shared among the children of Lilith, and no secret shall be kept from them. And the liars and learned thieves of the world shall perish in their regret.",
+				"name": "Book of Lilith"
+			},
+			"QST_Step_Orbei_ScholarsJournal": {
+				"flavor": "I was so excited when I walked into the Sacristy that day. Finally, my turn to speak the words and enter the Archive. Now I'd give anything to forget what I've learned. I don't think I'll ever sleep again.",
+				"name": "Scholar's Journal"
+			},
+			"QST_Step_PoundofFlesh_GibbetKey": {
+				"flavor": "An old brass key, worn from years of use.",
+				"name": "Gibbet Key"
 			},
 			"QST_Step_PoundofFlesh_Reward": {
 				"affixes": [
@@ -12752,7 +14342,160 @@
 					"Damage_Type_Bonus_Poison",
 					"Damage_to_Stunned",
 					"Lucky_Hit_Stun"
-				]
+				],
+				"flavor": "The last holdout of the Onyx Watchtower, Borza the Grim inspired great fear and great respect among his crew. Even given a second chance at freedom, his underlings would always come crawling back.",
+				"name": "Borza's Bonecrusher"
+			},
+			"QST_Step_QaraYisu_FetchMinor_04_Bones": {
+				"flavor": "[PH] These bones are told to wards off curses and evil spirits. Whether true or not, it will ease some anxious souls.",
+				"name": "Khazra Bones"
+			},
+			"QST_Step_SaltBegetsSalt_GoatBody": {
+				"flavor": "Eye's glazed white, salt covers the goat's muzzle",
+				"name": "Tuji's Body"
+			},
+			"QST_Step_ScholarsDilem_Ancient_Blade": {
+				"flavor": "The blade has been broken right where the blade forms above the hilt.",
+				"name": "Broken Ancient Blade"
+			},
+			"QST_Step_ScholarsDilem_Ancient_Blade_Reward": {
+				"affixes": [
+					"INHERENT_CritDamage"
+				],
+				"flavor": "The ancient blade has now been reformed by means unknown. The Shaman used this blade to take his own life for his failure to conjure the rains, and even the sight of it upsets them still.",
+				"name": "Restored Ancient Blade"
+			},
+			"QST_Step_SentimentalValue_Heirloom": {
+				"flavor": "[PH] Heirloom flavor text",
+				"name": "Ulagan's heirloom"
+			},
+			"QST_Step_Sooth_DropGift_Gesur02": {
+				"flavor": "The coins in this bag come from a variety of different cities.",
+				"name": "Bag of Old Coins"
+			},
+			"QST_Step_South_DropGift_Gesur01": {
+				"flavor": "This amulet's prayer of protection didn't help the traveler who owned it.",
+				"name": "Tarnished Amulet"
+			},
+			"QST_Step_WeightofSin_Bracelet01": {
+				"flavor": "Eagle wings span the underside of the bangle",
+				"name": "Carved Bracelet"
+			},
+			"QST_Step_WesternFlat_DropGift_PriestErol02": {
+				"flavor": "A religious medallion with symbols of the Zakarum faith.",
+				"name": "Zakarum Medallion"
+			},
+			"QST_Step_WhatRemains_remains": {
+				"flavor": "The grisly remains of a cannibal victim.",
+				"name": "Erdene's Remains"
+			},
+			"QST_Steps_ForgingTheMaul_DemonHorn": {
+				"flavor": "Torn from a servant of Hell the horn reeks of evil",
+				"name": "Demon Horn"
+			},
+			"QST_Steps_ForgingtheMaul_BrokenMaul": {
+				"flavor": "The Ancestral weapon of the Oxen Tribe now damaged and in pieces.",
+				"name": "Broken Maul"
+			},
+			"QST_Template_BranchingChoice": {
+				"flavor": "A scuffed and tarnished bronze loop",
+				"name": "Worn Ring"
+			},
+			"QST_Template_BranchingChoice_Reward": {
+				"flavor": "A scuffed and tarnished bronze loop",
+				"name": "Bede's Worn Ring"
+			},
+			"QST_Template_DGN_Side_Item_QuestChest": {
+				"flavor": "On the summoning and command of demonic felines.",
+				"name": "Nekonomicon"
+			},
+			"QST_Template_DeliverItem": {
+				"flavor": "The ancient symbol of the Horadrim, made of hammered copper",
+				"name": "Horadric Amulet"
+			},
+			"QST_Template_DeliverItem2": {
+				"flavor": "A crude amulet. You question why anyone would want this.",
+				"name": "Chotan's Necklace"
+			},
+			"QST_Template_DeliverItem3": {
+				"flavor": "\"Thousands of years ago, before bags were invented, humanity carried everything around in their cupped hands.\" - Turkatron",
+				"name": "Bag of Marbles"
+			},
+			"QST_Template_Item_Multiple": {
+				"flavor": "A super generic quest item.",
+				"name": "Brittle Bones"
+			},
+			"QST_Template_Motes_BasePop_Inert_Cache": {
+				"flavor": "Sealed by necromancy. Its lock hungers for the essence of death.",
+				"name": "Hungering Necrolyte's Cache"
+			},
+			"QST_Template_Motes_Reward_Cache": {
+				"flavor": "Its thirst for death slaked, the magic seal appears to have faded.",
+				"name": "Sated Necrolyte's Cache"
+			},
+			"QST_Template_PlaceItemGridWorld_Crate": {
+				"flavor": "It's heavy and splintery. Ouch oof.",
+				"name": "Wooden crate"
+			},
+			"QST_Volcano_FaithSoul": {
+				"flavor": "From the exterior, you'd never know who's soul this was or what their life was like.",
+				"name": "The Betrayer of Faith's Soul"
+			},
+			"QST_Volcano_TreacherousSoul": {
+				"flavor": "From the exterior, you'd never know who's soul this was or what their life was like.",
+				"name": "Tainted Soul"
+			},
+			"QST_ZakarumsPlight_Water": {
+				"flavor": "Bottle filled with water from the oasis for Zakarum Novitiate.",
+				"name": "Water-filled bottle"
+			},
+			"Ring_Rare_QST_Frac_GaleValley3_00": {
+				"flavor": "A daughter's lament for a mother lost ... Where madness begat tragedy ...",
+				"name": "(PH) Vhenard's Signet"
+			},
+			"SalvageScrap_Pelt_Bear": {
+				"flavor": "This heavy bear pelt is relatively unmarred by age or damage.",
+				"name": "Thick Hide"
+			},
+			"SalvageScrap_Pelt_Beast": {
+				"flavor": "This heavy beast pelt is relatively unmarred by age or damage.",
+				"name": "Heavy Pelt"
+			},
+			"SalvageScrap_Pelt_Bloodhawk": {
+				"flavor": "The skin of the Blood Hawk is thin yet surprisingly durable.",
+				"name": "Thin Skin"
+			},
+			"SalvageScrap_Pelt_CreepyCrawly_Adult": {
+				"flavor": "This thick chitin seems to be in good condition.",
+				"name": "Chitinous Plate"
+			},
+			"SalvageScrap_Pelt_CreepyCrawly_Mini": {
+				"flavor": "This insectoid carapace is tough and inflexible.",
+				"name": "Tiny Carapace"
+			},
+			"SalvageScrap_Pelt_Quillrat": {
+				"flavor": "This prickly quillrat hide is in reasonably good condition.",
+				"name": "Supple Skin"
+			},
+			"SalvageScrap_Pelt_Snake_Large": {
+				"flavor": "This snake's skin is tough yet flexible.",
+				"name": "Snake Skin"
+			},
+			"SalvageScrap_Pelt_Snake_Small": {
+				"flavor": "This snake's skin is tough yet flexible.",
+				"name": "Small Snake Skin"
+			},
+			"SalvageScrap_Pelt_Warg": {
+				"flavor": "This warg pelt is still damp with the creature's blood.",
+				"name": "Bloody Pelt"
+			},
+			"Treasure_Dungeon_FracturedPeaks_01": {
+				"flavor": "A pair of rusty, notched iron cleats. Broken and warped.",
+				"name": "Broken Climbing Cleats"
+			},
+			"Wedding_Ring": {
+				"flavor": "\"To Reyna. My love for you is like this ring. It has no end. - Donnell\"",
+				"name": "Reyna's Wedding Ring"
 			}
 		},
 		"Legendary": {
@@ -18716,14 +20459,6 @@
 				"desc": "Leaves a trail of frost that Chills enemies.\nChilled enemies take +{7/10}% more damage.",
 				"flavor": "Remorseful devotees of the Cathedral of Light must undertake a grueling pilgrimage, journeying across the frigid glacier known as the Serac Rapture. Only then may their gravest sins be forgiven.",
 				"name": "Penitent Greaves"
-			},
-			"Boots_Unique_Generic_001_Crafting": {
-				"affixes": [
-					"Evade_Charges",
-					"Boots_Unique_Generic_001_Crafting"
-				],
-				"category": 0,
-				"name": "(PH) Crafting Boots of Sockets"
 			},
 			"Chest_Unique_Generic_100": {
 				"affixes": [
