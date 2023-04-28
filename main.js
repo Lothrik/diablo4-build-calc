@@ -1143,9 +1143,9 @@ function resetParagonBoard(boardHeader) {
 
 	for (let i = 0, n = boardContainer.children.length; i < n; i++) handleMinusButton(boardContainer.children[i]);
 
-	moveParagonBoard(boardIndex, 0);
+	/*moveParagonBoard(boardIndex, 0);
 	rotateParagonBoard(boardIndex, 0);
-	setParagonBoardEquipIndex(boardIndex, 0);
+	setParagonBoardEquipIndex(boardIndex, 0);*/
 
 	delete paragonBoardGlyphData[boardIndex];
 	delete paragonBoardGlyphRankData[boardIndex];
