@@ -231,7 +231,7 @@ h1, h2, h3 {
 	appearance: none;
 }
 
-#classSelectBox span:hover, #extraInfo span:hover, #extraInfo a:hover {
+#classSelectBox > span:hover, #extraInfo > div > span:hover, #extraInfo > a:hover {
 	text-decoration: underline;
 	color: #f0f;
 	cursor: pointer;
