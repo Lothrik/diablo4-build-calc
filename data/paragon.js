@@ -4289,15 +4289,15 @@ let paragonData = {
 			},
 			"Barbarian_Magic_BerserkDamage": {
 				"name": "Berserk Damage",
-				"description": "+5% Damage while Berserking\n\nTags: Berserking, Damage."
+				"description": "+4.8% Damage while Berserking\n\nTags: Berserking, Damage."
 			},
 			"Barbarian_Magic_BerserkDuration": {
 				"name": "Berserk Duration",
-				"description": "+7.5% Berserking Duration\n\nTags: Berserking."
+				"description": "+7.2% Berserking Duration\n\nTags: Berserking."
 			},
 			"Barbarian_Magic_Fury": {
 				"name": "Fury",
-				"description": "+8 Maximum Fury\n\nTags: Fury."
+				"description": "+7.68 Maximum Fury\n\nTags: Fury."
 			},
 			"Barbarian_Magic_FuryOnKill": {
 				"name": "Fury On Kill",
@@ -4305,7 +4305,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_001": {
 				"name": "Iron Strength",
-				"description": "+240 Armor\n+10 Strength\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
+				"description": "+100 Armor\n+10 Strength\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -4320,7 +4320,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_003": {
 				"name": "Berserker",
-				"description": "+5% Damage while Berserking\n+6.7% Damage to Elites\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
+				"description": "+4.8% Damage while Berserking\n+6.7% Damage to Elites\n\nBonus: Another +4.8% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -4380,7 +4380,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_009": {
 				"name": "Vigor",
-				"description": "12% Damage Reduction while Healthy\n+10 Strength\n\nBonus: Another 12% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
+				"description": "5% Damage Reduction while Healthy\n+10 Strength\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -4398,7 +4398,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_010": {
 				"name": "Cold Conditioned",
-				"description": "28.8% Cold Resistance\n+100 Armor\n\nBonus: Another 28.8% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
+				"description": "12% Cold Resistance\n+100 Armor\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -4413,7 +4413,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_015": {
 				"name": "Tenacity",
-				"description": "+9.6% Life\n+100 Armor\n\nBonus: Another +9.6% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
+				"description": "+4% Life\n+100 Armor\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{200 + (130 * ParagonBoardEquipIndex)} Strength",
@@ -4435,7 +4435,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_016": {
 				"name": "Grit",
-				"description": "9.6% Damage Reduction from Enemies That Are Bleeding\n+10 Strength\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
+				"description": "4% Damage Reduction from Enemies That Are Bleeding\n+10 Strength\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -4450,7 +4450,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_018": {
 				"name": "Conditioned",
-				"description": "9.6% Resistance to All Elements\n+10 Strength\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
+				"description": "4% Resistance to All Elements\n+10 Strength\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower",
@@ -4471,7 +4471,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_019": {
 				"name": "Fire Conditioned",
-				"description": "28.8% Fire Resistance\n+100 Armor\n\nBonus: Another 28.8% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
+				"description": "12% Fire Resistance\n+100 Armor\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -4504,7 +4504,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_021": {
 				"name": "Lightning Conditioned",
-				"description": "28.8% Lightning Resistance\n+100 Armor\n\nBonus: Another 28.8% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
+				"description": "12% Lightning Resistance\n+100 Armor\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -4585,7 +4585,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_026": {
 				"name": "Poison Conditioned",
-				"description": "28.8% Poison Resistance\n+100 Armor\n\nBonus: Another 28.8% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
+				"description": "12% Poison Resistance\n+100 Armor\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -9044,47 +9044,47 @@ let paragonData = {
 			},
 			"Druid_Magic_CriticalDamageEarth": {
 				"name": "Critical Damage Earth",
-				"description": "+7.5% Critical Strike Damage with Earth Skills\n\nTags: Earth, Critical Strikes, Damage."
+				"description": "+7.2% Critical Strike Damage with Earth Skills\n\nTags: Earth, Critical Strikes, Damage."
 			},
 			"Druid_Magic_DamageBasic": {
 				"name": "Damage Basic",
-				"description": "+16.7% Basic Skill Damage\n\nTags: Basic, Damage."
+				"description": "+16% Basic Skill Damage\n\nTags: Basic, Damage."
 			},
 			"Druid_Magic_DamageBear": {
 				"name": "Damage Bear",
-				"description": "+5% Werebear Skill Damage\n\nTags: Werebear, Damage."
+				"description": "+4.8% Werebear Skill Damage\n\nTags: Werebear, Damage."
 			},
 			"Druid_Magic_DamageCore": {
 				"name": "Damage Core",
-				"description": "+7% Core Skill Damage\n\nTags: Core, Damage."
+				"description": "+6.7% Core Skill Damage\n\nTags: Core, Damage."
 			},
 			"Druid_Magic_DamageEarth": {
 				"name": "Damage Earth",
-				"description": "+5% Earth Skill Damage\n\nTags: Earth, Damage."
+				"description": "+4.8% Earth Skill Damage\n\nTags: Earth, Damage."
 			},
 			"Druid_Magic_DamageNature": {
 				"name": "Damage Nature",
-				"description": "+5% Nature Magic Skill Damage\n\nTags: Nature Magic, Damage."
+				"description": "+4.8% Nature Magic Skill Damage\n\nTags: Nature Magic, Damage."
 			},
 			"Druid_Magic_DamageShapeshifting": {
 				"name": "Damage Shapeshifting",
-				"description": "+5% Shapeshifting Skill Damage\n\nTags: Shapeshifting, Damage."
+				"description": "+4.8% Shapeshifting Skill Damage\n\nTags: Shapeshifting, Damage."
 			},
 			"Druid_Magic_DamageStorm": {
 				"name": "Damage Storm",
-				"description": "+5% Storm Skill Damage\n\nTags: Storm, Damage."
+				"description": "+4.8% Storm Skill Damage\n\nTags: Storm, Damage."
 			},
 			"Druid_Magic_DamageWhileBear": {
 				"name": "Damage While Bear",
-				"description": "+5% Damage while in Werebear Form\n\nTags: Werebear, Damage."
+				"description": "+4.8% Damage while in Werebear Form\n\nTags: Werebear, Damage."
 			},
 			"Druid_Magic_DamageWolf": {
 				"name": "Damage Wolf",
-				"description": "+5% Werewolf Skill Damage\n\nTags: Werewolf, Damage."
+				"description": "+4.8% Werewolf Skill Damage\n\nTags: Werewolf, Damage."
 			},
 			"Druid_Magic_Spirit": {
 				"name": "Spirit",
-				"description": "+8 Maximum Spirit\n\nTags: Spirit."
+				"description": "+7.68 Maximum Spirit\n\nTags: Spirit."
 			},
 			"Druid_Magic_SpiritOnKill": {
 				"name": "Spirit On Kill",
@@ -9110,7 +9110,7 @@ let paragonData = {
 			},
 			"Druid_Rare_004": {
 				"name": "Nature-born",
-				"description": "9.6% Damage Reduction from Enemies That Are Poisoned\n+10 Willpower\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
+				"description": "4% Damage Reduction from Enemies That Are Poisoned\n+10 Willpower\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
 				"thresholdRequirements": {
 					"Druid": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -9218,7 +9218,7 @@ let paragonData = {
 			},
 			"Druid_Rare_015": {
 				"name": "Natural Attunement",
-				"description": "+6.4 Maximum Spirit\n+9.6% Life\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
+				"description": "+6.4 Maximum Spirit\n+4% Life\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
 				"thresholdRequirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -9314,7 +9314,7 @@ let paragonData = {
 			},
 			"Druid_Rare_027": {
 				"name": "Battleworn Hide",
-				"description": "+4.8% Total Armor while in Werebear Form\n+10 Willpower\n\nBonus: Another +4.8% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
+				"description": "+2% Total Armor while in Werebear Form\n+10 Willpower\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -9477,215 +9477,215 @@ let paragonData = {
 			},
 			"Generic_Magic_Armor": {
 				"name": "Armor",
-				"description": "+125 Armor\n\nTags: Armor."
+				"description": "+50 Armor\n\nTags: Armor."
 			},
 			"Generic_Magic_ArmorWhileBear": {
 				"name": "Armor While Bear",
-				"description": "+2.5% Total Armor while in Werebear Form\n\nTags: Armor, Werebear."
+				"description": "+1% Total Armor while in Werebear Form\n\nTags: Armor, Werebear."
 			},
 			"Generic_Magic_AttackSpeed": {
 				"name": "Attack Speed",
-				"description": "+5% Attack Speed\n\nTags: Attack Speed."
+				"description": "+4.8% Attack Speed\n\nTags: Attack Speed."
 			},
 			"Generic_Magic_BonusFortify": {
 				"name": "Bonus Fortify",
-				"description": "+8.4% Fortify Generation\n\nTags: Fortify."
+				"description": "+3.3% Fortify Generation\n\nTags: Fortify."
 			},
 			"Generic_Magic_CCDurationReduction": {
 				"name": "CC Duration Reduction",
-				"description": "10% Control Impaired Duration Reduction\n\nTags: Crowd Control."
+				"description": "4% Control Impaired Duration Reduction\n\nTags: Crowd Control."
 			},
 			"Generic_Magic_Chill": {
 				"name": "Chill",
-				"description": "10% Chill Application\n\nTags: Chill, Crowd Control."
+				"description": "4% Chill Application\n\nTags: Chill, Crowd Control."
 			},
 			"Generic_Magic_CriticalDamage": {
 				"name": "Critical Damage",
-				"description": "+7.5% Critical Strike Damage\n\nTags: Critical Strikes, Damage."
+				"description": "+7.2% Critical Strike Damage\n\nTags: Critical Strikes, Damage."
 			},
 			"Generic_Magic_CriticalDamage1H": {
 				"name": "Critical Damage 1H",
-				"description": "+7.5% Critical Strike Damage with OneHanded\n\nTags: Critical Strikes, Damage, Dual Wield."
+				"description": "+7.2% Critical Strike Damage with OneHanded\n\nTags: Critical Strikes, Damage, Dual Wield."
 			},
 			"Generic_Magic_CriticalDamageToCC": {
 				"name": "Critical Damage To CC",
-				"description": "+10% Critical Strike Damage to Crowd Controlled Enemies\n\nTags: Critical Strikes, Damage, Crowd Control."
+				"description": "+9.6% Critical Strike Damage to Crowd Controlled Enemies\n\nTags: Critical Strikes, Damage, Crowd Control."
 			},
 			"Generic_Magic_Damage": {
 				"name": "Damage",
-				"description": "+5% Damage\n\nTags: Damage."
+				"description": "+4.8% Damage\n\nTags: Damage."
 			},
 			"Generic_Magic_Damage1H": {
 				"name": "Damage 1H",
-				"description": "+5% Damage with OneHanded\n\nTags: Damage, Dual Wield."
+				"description": "+4.8% Damage with OneHanded\n\nTags: Damage, Dual Wield."
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
 				"name": "Damage 2H Bludgeoning",
-				"description": "+5% Damage with TwoHandedBludgeoning\n\nTags: Damage, Bludgeoning, Two-Handed."
+				"description": "+4.8% Damage with TwoHandedBludgeoning\n\nTags: Damage, Bludgeoning, Two-Handed."
 			},
 			"Generic_Magic_Damage2HSlashing": {
 				"name": "Damage 2H Slashing",
-				"description": "+5% Damage with TwoHandedSlashing\n\nTags: Damage, Two-Handed, Slashing."
+				"description": "+4.8% Damage with TwoHandedSlashing\n\nTags: Damage, Two-Handed, Slashing."
 			},
 			"Generic_Magic_DamageAfterDodge": {
 				"name": "Damage After Dodge",
-				"description": "+5% Damage for {#} Seconds After Dodging an Attack\n\nTags: Dodge, Damage."
+				"description": "+4.8% Damage for {#} Seconds After Dodging an Attack\n\nTags: Dodge, Damage."
 			},
 			"Generic_Magic_DamageBleed": {
 				"name": "Damage Bleed",
-				"description": "+5% Physical Damage Over Time\n\nTags: Bleed, Damage."
+				"description": "+4.8% Physical Damage Over Time\n\nTags: Bleed, Damage."
 			},
 			"Generic_Magic_DamageBurn": {
 				"name": "Damage Burn",
-				"description": "+5% Fire Damage Over Time\n\nTags: Burn, Damage."
+				"description": "+4.8% Fire Damage Over Time\n\nTags: Burn, Damage."
 			},
 			"Generic_Magic_DamageCold": {
 				"name": "Damage Cold",
-				"description": "+5% Cold Damage\n\nTags: Cold, Damage."
+				"description": "+4.8% Cold Damage\n\nTags: Cold, Damage."
 			},
 			"Generic_Magic_DamageConjuration": {
 				"name": "Damage Conjuration",
-				"description": "+7.5% Conjuration Skill Damage\n\nTags: Damage, Conjuration."
+				"description": "+7.2% Conjuration Skill Damage\n\nTags: Damage, Conjuration."
 			},
 			"Generic_Magic_DamageElemental": {
 				"name": "Damage Elemental",
-				"description": "+5% Non-Physical Damage\n\nTags: Non-Physical, Damage."
+				"description": "+4.8% Non-Physical Damage\n\nTags: Non-Physical, Damage."
 			},
 			"Generic_Magic_DamageFire": {
 				"name": "Damage Fire",
-				"description": "+5% Fire Damage\n\nTags: Fire, Damage."
+				"description": "+4.8% Fire Damage\n\nTags: Fire, Damage."
 			},
 			"Generic_Magic_DamageLightning": {
 				"name": "Damage Lightning",
-				"description": "+5% Lightning Damage\n\nTags: Lightning, Damage."
+				"description": "+4.8% Lightning Damage\n\nTags: Lightning, Damage."
 			},
 			"Generic_Magic_DamagePhysical": {
 				"name": "Damage Physical",
-				"description": "+5% Physical Damage\n\nTags: Physical, Damage."
+				"description": "+4.8% Physical Damage\n\nTags: Physical, Damage."
 			},
 			"Generic_Magic_DamagePoison": {
 				"name": "Damage Poison",
-				"description": "+5% Poison Damage\n\nTags: Poison, Damage."
+				"description": "+4.8% Poison Damage\n\nTags: Poison, Damage."
 			},
 			"Generic_Magic_DamageReductionFromBleedingTarget": {
 				"name": "Damage Reduction From Bleeding Target",
-				"description": "5% Damage Reduction from Enemies That Are Bleeding\n\nTags: Bleed, Damage Reduction."
+				"description": "2% Damage Reduction from Enemies That Are Bleeding\n\nTags: Bleed, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromBurningTarget": {
 				"name": "Damage Reduction From Burning Target",
-				"description": "5% Damage Reduction from Enemies That Are Burning\n\nTags: Burn, Damage Reduction."
+				"description": "2% Damage Reduction from Enemies That Are Burning\n\nTags: Burn, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromChilledTarget": {
 				"name": "Damage Reduction From Chilled Target",
-				"description": "7.5% Damage Reduction from Chilled Enemies\n\nTags: Chill, Damage Reduction, Crowd Control."
+				"description": "3% Damage Reduction from Chilled Enemies\n\nTags: Chill, Damage Reduction, Crowd Control."
 			},
 			"Generic_Magic_DamageReductionFromDot": {
 				"name": "Damage Reduction From Dot",
-				"description": "8.3% Damage Taken Over Time Reduction\n\nTags: Damage Reduction."
+				"description": "3.3% Damage Taken Over Time Reduction\n\nTags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromElite": {
 				"name": "Damage Reduction From Elite",
-				"description": "8.3% Damage Reduction from Elites\n\nTags: Elite Monsters, Damage Reduction."
+				"description": "3.3% Damage Reduction from Elites\n\nTags: Elite Monsters, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromFar": {
 				"name": "Damage Reduction From Far",
-				"description": "7.5% Damage Reduction from Distant Enemies\n\nTags: Damage Reduction."
+				"description": "3% Damage Reduction from Distant Enemies\n\nTags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromNear": {
 				"name": "Damage Reduction From Near",
-				"description": "6% Damage Reduction from Close Enemies\n\nTags: Damage Reduction."
+				"description": "2.4% Damage Reduction from Close Enemies\n\nTags: Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromPoisonedTarget": {
 				"name": "Damage Reduction From Poisoned Target",
-				"description": "5% Damage Reduction from Enemies That Are Poisoned\n\nTags: Poison, Damage Reduction."
+				"description": "2% Damage Reduction from Enemies That Are Poisoned\n\nTags: Poison, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromShadowDoTed": {
 				"name": "Damage Reduction From Shadow DoTed",
-				"description": "5% Damage Reduction from Enemies That Are Taking Shadow DoT\n\nTags: Shadow Damage Over Time, Damage Reduction."
+				"description": "2% Damage Reduction from Enemies That Are Taking Shadow DoT\n\nTags: Shadow Damage Over Time, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromSlowedTarget": {
 				"name": "Damage Reduction From Slowed Target",
-				"description": "7.5% Damage Reduction from Slowed Enemies\n\nTags: Crowd Control, Damage Reduction."
+				"description": "3% Damage Reduction from Slowed Enemies\n\nTags: Crowd Control, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionFromVulnerable": {
 				"name": "Damage Reduction From Vulnerable",
-				"description": "5% Damage Reduction from Vulnerable Enemies\n\nTags: Vulnerable, Damage Reduction."
+				"description": "2% Damage Reduction from Vulnerable Enemies\n\nTags: Vulnerable, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionWhileFortified": {
 				"name": "Damage Reduction While Fortified",
-				"description": "5% Damage Reduction while Fortified\n\nTags: Fortify, Damage Reduction."
+				"description": "2% Damage Reduction while Fortified\n\nTags: Fortify, Damage Reduction."
 			},
 			"Generic_Magic_DamageReductionWhileHealthy": {
 				"name": "Damage Reduction While Healthy",
-				"description": "6.2% Damage Reduction while Healthy\n\nTags: Healthy, Damage Reduction."
+				"description": "2.5% Damage Reduction while Healthy\n\nTags: Healthy, Damage Reduction."
 			},
 			"Generic_Magic_DamageShadow": {
 				"name": "Damage Shadow",
-				"description": "+5% Shadow Damage\n\nTags: Shadow, Damage."
+				"description": "+4.8% Shadow Damage\n\nTags: Shadow, Damage."
 			},
 			"Generic_Magic_DamageShadowDoT": {
 				"name": "Damage Shadow DoT",
-				"description": "+5% Shadow Damage Over Time\n\nTags: Shadow Damage Over Time, Damage."
+				"description": "+4.8% Shadow Damage Over Time\n\nTags: Shadow Damage Over Time, Damage."
 			},
 			"Generic_Magic_DamageToBleed": {
 				"name": "Damage To Bleed",
-				"description": "+5% Damage to Bleeding Enemies\n\nTags: Bleed, Damage."
+				"description": "+4.8% Damage to Bleeding Enemies\n\nTags: Bleed, Damage."
 			},
 			"Generic_Magic_DamageToBurning": {
 				"name": "Damage To Burning",
-				"description": "+5% Damage to Burning Enemies\n\nTags: Burn, Damage."
+				"description": "+4.8% Damage to Burning Enemies\n\nTags: Burn, Damage."
 			},
 			"Generic_Magic_DamageToCC": {
 				"name": "Damage To CC",
-				"description": "+7.5% Damage to Crowd Controlled Enemies\n\nTags: Crowd Control, Damage."
+				"description": "+7.2% Damage to Crowd Controlled Enemies\n\nTags: Crowd Control, Damage."
 			},
 			"Generic_Magic_DamageToChill": {
 				"name": "Damage To Chill",
-				"description": "+7.5% Damage to Chilled Enemies\n\nTags: Chill, Damage, Crowd Control."
+				"description": "+7.2% Damage to Chilled Enemies\n\nTags: Chill, Damage, Crowd Control."
 			},
 			"Generic_Magic_DamageToElite": {
 				"name": "Damage To Elite",
-				"description": "+8.3% Damage to Elites\n\nTags: Elite Monsters, Damage."
+				"description": "+8% Damage to Elites\n\nTags: Elite Monsters, Damage."
 			},
 			"Generic_Magic_DamageToFar": {
 				"name": "Damage To Far",
-				"description": "+7.5% Damage to Distant Enemies\n\nTags: Damage."
+				"description": "+7.2% Damage to Distant Enemies\n\nTags: Damage."
 			},
 			"Generic_Magic_DamageToHigh": {
 				"name": "Damage To High",
-				"description": "+12.5% Damage to Healthy Enemies\n\nTags: Healthy, Damage."
+				"description": "+12% Damage to Healthy Enemies\n\nTags: Healthy, Damage."
 			},
 			"Generic_Magic_DamageToLow": {
 				"name": "Damage To Low",
-				"description": "+12.5% Damage to Injured Enemies\n\nTags: Injured, Damage."
+				"description": "+12% Damage to Injured Enemies\n\nTags: Injured, Damage."
 			},
 			"Generic_Magic_DamageToNear": {
 				"name": "Damage To Near",
-				"description": "+6% Damage to Close Enemies\n\nTags: Damage."
+				"description": "+5.8% Damage to Close Enemies\n\nTags: Damage."
 			},
 			"Generic_Magic_DamageToPoison": {
 				"name": "Damage To Poison",
-				"description": "+5% Damage to Poisoned Enemies\n\nTags: Poison, Damage."
+				"description": "+4.8% Damage to Poisoned Enemies\n\nTags: Poison, Damage."
 			},
 			"Generic_Magic_DamageToShadowDoTed": {
 				"name": "Damage To Shadow DoTed",
-				"description": "+5% Damage to Taking Shadow DoT Enemies\n\nTags: Shadow Damage Over Time, Damage."
+				"description": "+4.8% Damage to Taking Shadow DoT Enemies\n\nTags: Shadow Damage Over Time, Damage."
 			},
 			"Generic_Magic_DamageToStun": {
 				"name": "Damage To Stun",
-				"description": "+7.5% Damage to Stunned Enemies\n\nTags: Crowd Control, Damage."
+				"description": "+7.2% Damage to Stunned Enemies\n\nTags: Crowd Control, Damage."
 			},
 			"Generic_Magic_DamageToVulnerable": {
 				"name": "Damage To Vulnerable",
-				"description": "+5% Damage to Vulnerable Enemies\n\nTags: Vulnerable, Damage."
+				"description": "+4.8% Damage to Vulnerable Enemies\n\nTags: Vulnerable, Damage."
 			},
 			"Generic_Magic_DamageWhileFortified": {
 				"name": "Damage While Fortified",
-				"description": "+5% Damage while Fortified\n\nTags: Fortify, Damage."
+				"description": "+4.8% Damage while Fortified\n\nTags: Fortify, Damage."
 			},
 			"Generic_Magic_DamageWhileHealthy": {
 				"name": "Damage While Healthy",
-				"description": "+6.2% Damage while Healthy\n\nTags: Healthy, Damage."
+				"description": "+6% Damage while Healthy\n\nTags: Healthy, Damage."
 			},
 			"Generic_Magic_Dex": {
 				"name": "Dexterity",
@@ -9693,7 +9693,7 @@ let paragonData = {
 			},
 			"Generic_Magic_Essence": {
 				"name": "Essence",
-				"description": "+8 Maximum Essence\n\nTags: Essence."
+				"description": "+7.68 Maximum Essence\n\nTags: Essence."
 			},
 			"Generic_Magic_EssenceOnKill": {
 				"name": "Essence On Kill",
@@ -9701,19 +9701,19 @@ let paragonData = {
 			},
 			"Generic_Magic_Execute": {
 				"name": "Execute",
-				"description": "Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites\n\nTags: Execute, Injured, Lucky Hit."
+				"description": "Lucky Hit: Up to a +4.8% Chance to Execute Injured Non-Elites\n\nTags: Execute, Injured, Lucky Hit."
 			},
 			"Generic_Magic_HPPercent": {
 				"name": "HP Percent",
-				"description": "+5% Life\n\nTags: Life."
+				"description": "+2% Life\n\nTags: Life."
 			},
 			"Generic_Magic_HPRegen": {
 				"name": "HP Regen",
-				"description": "1.7% Healing Over Time\n\nTags: Healing."
+				"description": "0.7% Healing Over Time\n\nTags: Healing."
 			},
 			"Generic_Magic_HealingBonus": {
 				"name": "Healing Bonus",
-				"description": "+5% Healing Received\n\nTags: Healing."
+				"description": "+2% Healing Received\n\nTags: Healing."
 			},
 			"Generic_Magic_Int": {
 				"name": "Intelligence",
@@ -9721,67 +9721,67 @@ let paragonData = {
 			},
 			"Generic_Magic_LuckyHitBonus": {
 				"name": "Lucky Hit Bonus",
-				"description": "+2.5% Lucky Hit Chance\n\nTags: Lucky Hit."
+				"description": "+2.4% Lucky Hit Chance\n\nTags: Lucky Hit."
 			},
 			"Generic_Magic_Mana": {
 				"name": "Mana",
-				"description": "+8 Maximum Mana\n\nTags: Mana."
+				"description": "+7.68 Maximum Mana\n\nTags: Mana."
 			},
 			"Generic_Magic_MinionArmor": {
 				"name": "Minion Armor",
-				"description": "+5% Minion Armor\n\nTags: Armor, Minion."
+				"description": "+2% Minion Armor\n\nTags: Armor, Minion."
 			},
 			"Generic_Magic_MinionAttackSpeed": {
 				"name": "Minion Attack Speed",
-				"description": "+5% Minion Attack Speed\n\nTags: Minion, Attack Speed."
+				"description": "+4.8% Minion Attack Speed\n\nTags: Minion, Attack Speed."
 			},
 			"Generic_Magic_MinionDamage": {
 				"name": "Minion Damage",
-				"description": "+5% Minion Damage\n\nTags: Minion, Damage."
+				"description": "+4.8% Minion Damage\n\nTags: Minion, Damage."
 			},
 			"Generic_Magic_MinionDamageReduction": {
 				"name": "Minion Damage Reduction",
-				"description": "12.5% Damage Reduction for Your Minions\n\nTags: Minion, Damage Reduction."
+				"description": "5% Damage Reduction for Your Minions\n\nTags: Minion, Damage Reduction."
 			},
 			"Generic_Magic_MinionHP": {
 				"name": "Minion HP",
-				"description": "12.5% Maximum Minion Life\n\nTags: Minion, Life."
+				"description": "5% Maximum Minion Life\n\nTags: Minion, Life."
 			},
 			"Generic_Magic_MoveSpeedEliteKill": {
 				"name": "Move Speed Elite Kill",
-				"description": "+17.5% Movement Speed for {#} Seconds After Killing an Elite\n\nTags: Movement, Elite Monsters."
+				"description": "+7% Movement Speed for {#} Seconds After Killing an Elite\n\nTags: Movement, Elite Monsters."
 			},
 			"Generic_Magic_OverpowerDamage": {
 				"name": "Overpower Damage",
-				"description": "+15% Overpower Damage\n\nTags: Overpower, Damage."
+				"description": "+14.4% Overpower Damage\n\nTags: Overpower, Damage."
 			},
 			"Generic_Magic_PotionHealing": {
 				"name": "Potion Healing",
-				"description": "+5% Potion Healing\n\nTags: Healing."
+				"description": "+2% Potion Healing\n\nTags: Healing."
 			},
 			"Generic_Magic_ResistanceAll": {
 				"name": "Resistance All",
-				"description": "5% Resistance to All Elements\n\nTags: Resistance, Non-Physical."
+				"description": "2% Resistance to All Elements\n\nTags: Resistance, Non-Physical."
 			},
 			"Generic_Magic_ResistanceCold": {
 				"name": "Resistance Cold",
-				"description": "15% Cold Resistance\n\nTags: Resistance, Cold."
+				"description": "6% Cold Resistance\n\nTags: Resistance, Cold."
 			},
 			"Generic_Magic_ResistanceFire": {
 				"name": "Resistance Fire",
-				"description": "15% Fire Resistance\n\nTags: Resistance, Fire."
+				"description": "6% Fire Resistance\n\nTags: Resistance, Fire."
 			},
 			"Generic_Magic_ResistanceLightning": {
 				"name": "Resistance Lightning",
-				"description": "15% Lightning Resistance\n\nTags: Lightning, Resistance."
+				"description": "6% Lightning Resistance\n\nTags: Lightning, Resistance."
 			},
 			"Generic_Magic_ResistancePoison": {
 				"name": "Resistance Poison",
-				"description": "15% Poison Resistance\n\nTags: Resistance, Poison."
+				"description": "6% Poison Resistance\n\nTags: Resistance, Poison."
 			},
 			"Generic_Magic_ResistanceShadow": {
 				"name": "Resistance Shadow",
-				"description": "15% Shadow Resistance\n\nTags: Resistance, Shadow."
+				"description": "6% Shadow Resistance\n\nTags: Resistance, Shadow."
 			},
 			"Generic_Magic_Str": {
 				"name": "Strength",
@@ -9809,7 +9809,7 @@ let paragonData = {
 			},
 			"Generic_Rare_001": {
 				"name": "Resilience",
-				"description": "9.6% Resistance to All Elements\n+4% Life\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
+				"description": "4% Resistance to All Elements\n+4% Life\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Dexterity",
@@ -9852,7 +9852,7 @@ let paragonData = {
 			},
 			"Generic_Rare_006": {
 				"name": "Fleeting",
-				"description": "19.2% Control Impaired Duration Reduction\n6.7% Damage Taken Over Time Reduction\n\nBonus: Another 19.2% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
+				"description": "8% Control Impaired Duration Reduction\n6.7% Damage Taken Over Time Reduction\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -9928,7 +9928,7 @@ let paragonData = {
 			},
 			"Generic_Rare_012": {
 				"name": "Cold Resilience",
-				"description": "28.8% Cold Resistance\n+4% Life\n\nBonus: Another 28.8% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
+				"description": "12% Cold Resistance\n+4% Life\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10035,7 +10035,7 @@ let paragonData = {
 			},
 			"Generic_Rare_018": {
 				"name": "Safeguard",
-				"description": "16% Damage Reduction from Elites\n+100 Armor\n\nBonus: Another 16% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
+				"description": "6.7% Damage Reduction from Elites\n+100 Armor\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{200 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -10056,7 +10056,7 @@ let paragonData = {
 			},
 			"Generic_Rare_019": {
 				"name": "Suffused Resilience",
-				"description": "16% Damage Taken Over Time Reduction\n4% Resistance to All Elements\n\nBonus: Another 16% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
+				"description": "6.7% Damage Taken Over Time Reduction\n4% Resistance to All Elements\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10223,7 +10223,7 @@ let paragonData = {
 			},
 			"Generic_Rare_031": {
 				"name": "Fire Resilience",
-				"description": "28.8% Fire Resistance\n+4% Life\n\nBonus: Another 28.8% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
+				"description": "12% Fire Resistance\n+4% Life\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10244,7 +10244,7 @@ let paragonData = {
 			},
 			"Generic_Rare_032": {
 				"name": "Bulwark",
-				"description": "9.6% Damage Reduction while Fortified\n+6.7% Fortify Generation\n\nBonus: Another 9.6% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
+				"description": "4% Damage Reduction while Fortified\n+6.7% Fortify Generation\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower",
@@ -10263,7 +10263,7 @@ let paragonData = {
 			},
 			"Generic_Rare_033": {
 				"name": "Recuperate",
-				"description": "+9.6% Potion Healing\n1.3% Healing Over Time\n\nBonus: Another +9.6% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
+				"description": "+4% Potion Healing\n1.3% Healing Over Time\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10285,7 +10285,7 @@ let paragonData = {
 			},
 			"Generic_Rare_034": {
 				"name": "Lightning Resilience",
-				"description": "28.8% Lightning Resistance\n+4% Life\n\nBonus: Another 28.8% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
+				"description": "12% Lightning Resistance\n+4% Life\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10351,7 +10351,7 @@ let paragonData = {
 			},
 			"Generic_Rare_041": {
 				"name": "Poison Resilience",
-				"description": "28.8% Poison Resistance\n+4% Life\n\nBonus: Another 28.8% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
+				"description": "12% Poison Resistance\n+4% Life\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -10372,7 +10372,7 @@ let paragonData = {
 			},
 			"Generic_Rare_042": {
 				"name": "Restorative",
-				"description": "+9.6% Potion Healing\n+4% Life\n\nBonus: Another +9.6% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
+				"description": "+4% Potion Healing\n+4% Life\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10408,7 +10408,7 @@ let paragonData = {
 			},
 			"Generic_Rare_046": {
 				"name": "Shadow Resilience",
-				"description": "28.8% Shadow Resistance\n+4% Life\n\nBonus: Another 28.8% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
+				"description": "12% Shadow Resistance\n+4% Life\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10480,7 +10480,7 @@ let paragonData = {
 			},
 			"Generic_Rare_054": {
 				"name": "Erudite",
-				"description": "9.6% Resistance to All Elements\n+10 Intelligence\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
+				"description": "4% Resistance to All Elements\n+10 Intelligence\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10531,7 +10531,7 @@ let paragonData = {
 			},
 			"Generic_Rare_059": {
 				"name": "Brash",
-				"description": "11.5% Damage Reduction from Close Enemies\n+10 Strength\n\nBonus: Another 11.5% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
+				"description": "4.8% Damage Reduction from Close Enemies\n+10 Strength\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10555,7 +10555,7 @@ let paragonData = {
 			},
 			"Generic_Rare_061": {
 				"name": "Determination",
-				"description": "+240 Armor\n+10 Willpower\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
+				"description": "+100 Armor\n+10 Willpower\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
 				"thresholdRequirements": {
 					"Druid": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -10567,7 +10567,7 @@ let paragonData = {
 			},
 			"Generic_Rare_064": {
 				"name": "Lawless",
-				"description": "+240 Armor\n+10 Dexterity\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
+				"description": "+100 Armor\n+10 Dexterity\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
 				"thresholdRequirements": {
 					"Rogue": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -10603,7 +10603,7 @@ let paragonData = {
 			},
 			"Generic_Rare_067": {
 				"name": "Slayer",
-				"description": "+240 Armor\n+4% Potion Healing\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
+				"description": "+100 Armor\n+4% Potion Healing\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10621,7 +10621,7 @@ let paragonData = {
 			},
 			"Generic_Rare_068": {
 				"name": "Wiles",
-				"description": "14.4% Damage Reduction from Slowed Enemies\n+10 Dexterity\n\nBonus: Another 14.4% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
+				"description": "6% Damage Reduction from Slowed Enemies\n+10 Dexterity\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
 				"thresholdRequirements": {
 					"Rogue": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -10630,7 +10630,7 @@ let paragonData = {
 			},
 			"Generic_Rare_069": {
 				"name": "Arrogance",
-				"description": "9.6% Damage Reduction from Vulnerable Enemies\n+10 Strength\n\nBonus: Another 9.6% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
+				"description": "4% Damage Reduction from Vulnerable Enemies\n+10 Strength\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10705,7 +10705,7 @@ let paragonData = {
 			},
 			"Generic_Rare_074": {
 				"name": "Resolve",
-				"description": "9.6% Resistance to All Elements\n+10 Willpower\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
+				"description": "4% Resistance to All Elements\n+10 Willpower\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -10744,7 +10744,7 @@ let paragonData = {
 			},
 			"Generic_Rare_076": {
 				"name": "Hubris",
-				"description": "9.6% Damage Reduction from Vulnerable Enemies\n+10 Willpower\n\nBonus: Another 9.6% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
+				"description": "4% Damage Reduction from Vulnerable Enemies\n+10 Willpower\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
 				"thresholdRequirements": {
 					"Druid": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -10756,7 +10756,7 @@ let paragonData = {
 			},
 			"Generic_Rare_077": {
 				"name": "Courage",
-				"description": "+9.6% Life\n+10 Willpower\n\nBonus: Another +9.6% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
+				"description": "+4% Life\n+10 Willpower\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -10774,7 +10774,7 @@ let paragonData = {
 			},
 			"Generic_Rare_078": {
 				"name": "Regenerative",
-				"description": "+9.6% Healing Received\n+10 Willpower\n\nBonus: Another +9.6% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
+				"description": "+4% Healing Received\n+10 Willpower\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
 				"thresholdRequirements": {
 					"Druid": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -10822,7 +10822,7 @@ let paragonData = {
 			},
 			"Generic_Rare_081": {
 				"name": "Dosage",
-				"description": "+9.6% Potion Healing\n+10 Dexterity\n\nBonus: Another +9.6% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
+				"description": "+4% Potion Healing\n+10 Dexterity\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
 				"thresholdRequirements": {
 					"Druid": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -10834,7 +10834,7 @@ let paragonData = {
 			},
 			"Generic_Rare_082": {
 				"name": "Training",
-				"description": "+9.6% Life\n+10 Dexterity\n\nBonus: Another +9.6% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
+				"description": "+4% Life\n+10 Dexterity\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
 				"thresholdRequirements": {
 					"Rogue": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -10843,7 +10843,7 @@ let paragonData = {
 			},
 			"Generic_Rare_083": {
 				"name": "Tolerance",
-				"description": "9.6% Resistance to All Elements\n+10 Dexterity\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
+				"description": "4% Resistance to All Elements\n+10 Dexterity\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
 				"thresholdRequirements": {
 					"Rogue": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -10873,7 +10873,7 @@ let paragonData = {
 			},
 			"Generic_Rare_085": {
 				"name": "Preservation",
-				"description": "+240 Armor\n+10 Intelligence\n\nBonus: Another +240 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
+				"description": "+100 Armor\n+10 Intelligence\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -10939,7 +10939,7 @@ let paragonData = {
 			},
 			"Generic_Rare_089": {
 				"name": "Remedy",
-				"description": "+9.6% Healing Received\n+10 Intelligence\n\nBonus: Another +9.6% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
+				"description": "+4% Healing Received\n+10 Intelligence\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -10954,7 +10954,7 @@ let paragonData = {
 			},
 			"Generic_Rare_090": {
 				"name": "Gloom",
-				"description": "28.8% Shadow Resistance\n+10 Intelligence\n\nBonus: Another 28.8% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
+				"description": "12% Shadow Resistance\n+10 Intelligence\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -10972,7 +10972,7 @@ let paragonData = {
 			},
 			"Generic_Rare_091": {
 				"name": "Dragging Shadows",
-				"description": "9.6% Damage Reduction from Enemies That Are Taking Shadow DoT\n12% Shadow Resistance\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
+				"description": "4% Damage Reduction from Enemies That Are Taking Shadow DoT\n12% Shadow Resistance\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -11023,7 +11023,7 @@ let paragonData = {
 			},
 			"Generic_Rare_094": {
 				"name": "Advantage",
-				"description": "28.8% Cold Resistance\n+2% Lucky Hit Chance\n\nBonus: Another 28.8% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
+				"description": "12% Cold Resistance\n+2% Lucky Hit Chance\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
 				"thresholdRequirements": {
 					"Necromancer": [
 						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -15376,63 +15376,63 @@ let paragonData = {
 			},
 			"Necromancer_Magic_ArmorWithActiveGolem": {
 				"name": "Armor With Active Golem",
-				"description": "+2.5% Total Armor while Golem are Active\n\nTags: Minion, Armor."
+				"description": "+1% Total Armor while Golem are Active\n\nTags: Minion, Armor."
 			},
 			"Necromancer_Magic_BloodOrbDamage": {
 				"name": "Blood Orb Damage",
-				"description": "+5% Damage\n\nTags: Blood Orb, Damage."
+				"description": "+4.8% Damage\n\nTags: Blood Orb, Damage."
 			},
 			"Necromancer_Magic_BloodOrbHealing": {
 				"name": "Blood Orb Healing",
-				"description": "+6% Blood Orb Healing\n\nTags: Blood Orb, Healing."
+				"description": "+2.4% Blood Orb Healing\n\nTags: Blood Orb, Healing."
 			},
 			"Necromancer_Magic_CriticalDamageBone": {
 				"name": "Critical Damage Bone",
-				"description": "+7.5% Critical Strike Damage with Bone Skills\n\nTags: Bone, Critical Strikes, Damage."
+				"description": "+7.2% Critical Strike Damage with Bone Skills\n\nTags: Bone, Critical Strikes, Damage."
 			},
 			"Necromancer_Magic_DamageBone": {
 				"name": "Damage Bone",
-				"description": "+5% Bone Skill Damage\n\nTags: Bone, Damage."
+				"description": "+4.8% Bone Skill Damage\n\nTags: Bone, Damage."
 			},
 			"Necromancer_Magic_DamageWithActiveGolem": {
 				"name": "Damage With Active Golem",
-				"description": "+5% Damage while Golem are Active\n\nTags: Minion, Damage."
+				"description": "+4.8% Damage while Golem are Active\n\nTags: Minion, Damage."
 			},
 			"Necromancer_Magic_GolemArmor": {
 				"name": "Golem Armor",
-				"description": "+8.3% Golem Armor\n\nTags: Minion, Armor."
+				"description": "+3.3% Golem Armor\n\nTags: Minion, Armor."
 			},
 			"Necromancer_Magic_GolemAttackSpeed": {
 				"name": "Golem Attack Speed",
-				"description": "+8.3% Golem Attack Speed\n\nTags: Minion, Attack Speed."
+				"description": "+8% Golem Attack Speed\n\nTags: Minion, Attack Speed."
 			},
 			"Necromancer_Magic_GolemDamage": {
 				"name": "Golem Damage",
-				"description": "+8.3% Golem Damage\n\nTags: Minion, Damage."
+				"description": "+8% Golem Damage\n\nTags: Minion, Damage."
 			},
 			"Necromancer_Magic_GolemHP": {
 				"name": "Golem HP",
-				"description": "17.5% Golem Maximum Life\n\nTags: Minion, Life."
+				"description": "7% Golem Maximum Life\n\nTags: Minion, Life."
 			},
 			"Necromancer_Magic_GolemResistAll": {
 				"name": "Golem Resist All",
-				"description": "20% Golem Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical."
+				"description": "8% Golem Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical."
 			},
 			"Necromancer_Magic_SkeletonMageDamage": {
 				"name": "Skeleton Mage Damage",
-				"description": "+8.3% SkeletonMage Damage\n\nTags: Minion, Damage."
+				"description": "+8% SkeletonMage Damage\n\nTags: Minion, Damage."
 			},
 			"Necromancer_Magic_SkeletonMageResistAll": {
 				"name": "Skeleton Mage Resist All",
-				"description": "20% SkeletonMage Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical."
+				"description": "8% SkeletonMage Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical."
 			},
 			"Necromancer_Magic_SkeletonWarriorArmor": {
 				"name": "Skeleton Warrior Armor",
-				"description": "+8.3% SkeletonWarrior Armor\n\nTags: Minion, Armor."
+				"description": "+3.3% SkeletonWarrior Armor\n\nTags: Minion, Armor."
 			},
 			"Necromancer_Magic_SkeletonWarriorDamage": {
 				"name": "Skeleton Warrior Damage",
-				"description": "+8.3% SkeletonWarrior Damage\n\nTags: Minion, Damage."
+				"description": "+8% SkeletonWarrior Damage\n\nTags: Minion, Damage."
 			},
 			"Necromancer_Rare_001": {
 				"name": "Shaper of Bone",
@@ -15463,7 +15463,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_003": {
 				"name": "Blooddrinker",
-				"description": "+11.5% Blood Orb Healing\n+10 Intelligence\n\nBonus: Another +11.5% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
+				"description": "+4.8% Blood Orb Healing\n+10 Intelligence\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -15514,7 +15514,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_011": {
 				"name": "Unassailable",
-				"description": "9.6% Damage Reduction from Vulnerable Enemies\n+100 Armor\n\nBonus: Another 9.6% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
+				"description": "4% Damage Reduction from Vulnerable Enemies\n+100 Armor\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
 				"thresholdRequirements": {
 					"Necromancer": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity and {160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -15526,7 +15526,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_013": {
 				"name": "Vampiric",
-				"description": "+11.5% Blood Orb Healing\n+4% Life\n\nBonus: Another +11.5% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
+				"description": "+4.8% Blood Orb Healing\n+4% Life\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -15550,7 +15550,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_018": {
 				"name": "Armor-clad",
-				"description": "+9.6% Minion Armor\n10% Maximum Minion Life\n\nBonus: Another +9.6% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
+				"description": "+4% Minion Armor\n10% Maximum Minion Life\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -15568,7 +15568,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_020": {
 				"name": "Custody",
-				"description": "24% Damage Reduction for Your Minions\n+10 Intelligence\n\nBonus: Another 24% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
+				"description": "10% Damage Reduction for Your Minions\n+10 Intelligence\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -15634,7 +15634,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_025": {
 				"name": "Miscreation",
-				"description": "+16% Golem Armor\n+10 Intelligence\n\nBonus: Another +16% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
+				"description": "+6.7% Golem Armor\n+10 Intelligence\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -15688,7 +15688,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_031": {
 				"name": "Flesh-horror",
-				"description": "+16% Golem Armor\n16% Golem Resistance to All Elements\n\nBonus: Another +16% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
+				"description": "+6.7% Golem Armor\n16% Golem Resistance to All Elements\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -20165,27 +20165,27 @@ let paragonData = {
 			},
 			"Rogue_Magic_DamageImbued": {
 				"name": "Damage Imbued",
-				"description": "+7.5% Imbued Skill Damage\n\nTags: Imbuement, Damage."
+				"description": "+7.2% Imbued Skill Damage\n\nTags: Imbuement, Damage."
 			},
 			"Rogue_Magic_DamageReductionFromTrapped": {
 				"name": "Damage Reduction From Trapped",
-				"description": "5% Damage Reduction from Enemies Affected By Trap Skills\n\nTags: Trap, Damage Reduction."
+				"description": "2% Damage Reduction from Enemies Affected By Trap Skills\n\nTags: Trap, Damage Reduction."
 			},
 			"Rogue_Magic_DamageToTrapped": {
 				"name": "Damage To Trapped",
-				"description": "+5% Damage to Enemies Affected by Trap Skills\n\nTags: Trap, Damage."
+				"description": "+4.8% Damage to Enemies Affected by Trap Skills\n\nTags: Trap, Damage."
 			},
 			"Rogue_Magic_DamageTrap": {
 				"name": "Damage Trap",
-				"description": "+5% Trap Skill Damage\n\nTags: Trap, Damage."
+				"description": "+4.8% Trap Skill Damage\n\nTags: Trap, Damage."
 			},
 			"Rogue_Magic_ImbueCDR": {
 				"name": "Imbue CDR",
-				"description": "3.3% Imbuement Cooldown Reduction\n\nTags: Imbuement, Cooldown."
+				"description": "1.3% Imbuement Cooldown Reduction\n\nTags: Imbuement, Cooldown."
 			},
 			"Rogue_Magic_TrapCooldown": {
 				"name": "Trap Cooldown",
-				"description": "3.3% Trap Cooldown Reduction\n\nTags: Cooldown, Trap."
+				"description": "1.3% Trap Cooldown Reduction\n\nTags: Cooldown, Trap."
 			},
 			"Rogue_Rare_005": {
 				"name": "Finisher",
@@ -20201,7 +20201,7 @@ let paragonData = {
 			},
 			"Rogue_Rare_008": {
 				"name": "Spring-loaded",
-				"description": "6.4% Trap Cooldown Reduction\n\nBonus: Another 6.4% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
+				"description": "2.7% Trap Cooldown Reduction\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
 				"thresholdRequirements": {
 					"Druid": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -20291,7 +20291,7 @@ let paragonData = {
 			},
 			"Rogue_Rare_028": {
 				"name": "Cunning",
-				"description": "9.6% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\n\nBonus: Another 9.6% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
+				"description": "4% Damage Reduction from Enemies Affected By Trap Skills\n+10 Dexterity\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
 				"thresholdRequirements": {
 					"Rogue": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Strength"
@@ -24723,11 +24723,11 @@ let paragonData = {
 			},
 			"Sorcerer_Magic_CracklingEnergy": {
 				"name": "Crackling Energy",
-				"description": "+8.3% Damage with Crackling Energy\n\nTags: Crackling Energy, Damage."
+				"description": "+8% Damage with Crackling Energy\n\nTags: Crackling Energy, Damage."
 			},
 			"Sorcerer_Rare_002": {
 				"name": "Cryomancy",
-				"description": "+9.6% Cold Damage\n10% Chill Application\n\nBonus: Another +9.6% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
+				"description": "+9.6% Cold Damage\n4% Chill Application\n\nBonus: Another +9.6% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
 				"thresholdRequirements": {
 					"Necromancer": [
 						"{200 + (130 * ParagonBoardEquipIndex)} Intelligence"
@@ -24760,7 +24760,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_006": {
 				"name": "Chilling",
-				"description": "28.8% Cold Resistance\n+10 Intelligence\n\nBonus: Another 28.8% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
+				"description": "12% Cold Resistance\n+10 Intelligence\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -24868,7 +24868,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_013": {
 				"name": "Keeper of Flames",
-				"description": "9.6% Damage Reduction from Enemies That Are Burning\n12% Fire Resistance\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
+				"description": "4% Damage Reduction from Enemies That Are Burning\n12% Fire Resistance\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
 				"thresholdRequirements": {
 					"Sorcerer": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Intelligence and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -24877,7 +24877,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_014": {
 				"name": "Electro",
-				"description": "28.8% Lightning Resistance\n+10 Intelligence\n\nBonus: Another 28.8% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
+				"description": "12% Lightning Resistance\n+10 Intelligence\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -24910,7 +24910,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_016": {
 				"name": "Smoldering Embers",
-				"description": "9.6% Damage Reduction from Enemies That Are Burning\n+10 Intelligence\n\nBonus: Another 9.6% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
+				"description": "4% Damage Reduction from Enemies That Are Burning\n+10 Intelligence\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -24928,7 +24928,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_017": {
 				"name": "Keeper of Winter",
-				"description": "14.4% Damage Reduction from Chilled Enemies\n12% Cold Resistance\n\nBonus: Another 14.4% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
+				"description": "6% Damage Reduction from Chilled Enemies\n12% Cold Resistance\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -24985,7 +24985,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_023": {
 				"name": "Ashes",
-				"description": "28.8% Fire Resistance\n+10 Intelligence\n\nBonus: Another 28.8% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
+				"description": "12% Fire Resistance\n+10 Intelligence\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -25060,7 +25060,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_028": {
 				"name": "Frigid",
-				"description": "14.4% Damage Reduction from Chilled Enemies\n+10 Intelligence\n\nBonus: Another 14.4% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
+				"description": "6% Damage Reduction from Chilled Enemies\n+10 Intelligence\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -25096,7 +25096,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_034": {
 				"name": "Denial",
-				"description": "9.6% Resistance to All Elements\n+100 Armor\n\nBonus: Another 9.6% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
+				"description": "4% Resistance to All Elements\n+100 Armor\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{160 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -25117,7 +25117,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_035": {
 				"name": "Guarded",
-				"description": "9.6% Damage Reduction from Vulnerable Enemies\n12% Cold Resistance\n\nBonus: Another 9.6% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
+				"description": "4% Damage Reduction from Vulnerable Enemies\n12% Cold Resistance\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
 				"thresholdRequirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
