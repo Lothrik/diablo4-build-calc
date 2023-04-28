@@ -605,7 +605,7 @@ Smash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% dama
 Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 48,
 		maxPoints: 5,
-		values: [ "16", "33" ],
+		values: [ "{16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6}", "33" ],
 		x: 4.675,
 		y: -306.735
 	},
@@ -719,7 +719,7 @@ Become Unstoppable and rush forward, pushing enemies with you then swinging thro
 Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 58,
 		maxPoints: 5,
-		values: [ "17", "33" ],
+		values: [ "{17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2}", "33" ],
 		x: -652.69,
 		y: 158.534
 	},
@@ -840,7 +840,7 @@ Leap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58
 Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 69,
 		maxPoints: 5,
-		values: [ "17", "33" ],
+		values: [ "{17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2}", "33" ],
 		x: -402.935,
 		y: 315.986
 	},
@@ -887,7 +887,7 @@ Throw a powerful kick that deals 18% damage and Knocks Back enemies in front of 
 Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 73,
 		maxPoints: 5,
-		values: [ "17", "100" ],
+		values: [ "{17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2}", "100" ],
 		x: -3.2,
 		y: -277.614
 	},
@@ -987,7 +987,7 @@ Throw out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4
 Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 		id: 82,
 		maxPoints: 5,
-		values: [ "11", "25" ],
+		values: [ "{11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}", "25" ],
 		x: 416.495,
 		y: 219.35
 	},
@@ -1151,7 +1151,7 @@ Skewer enemies in front of you, dealing 13% damage, then rip your weapon out, da
 Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 		id: 97,
 		maxPoints: 5,
-		values: [ "10", "50" ],
+		values: [ "{10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6}", "50" ],
 		x: 408.44,
 		y: -222.34
 	},

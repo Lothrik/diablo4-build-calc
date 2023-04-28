@@ -586,7 +586,7 @@ Disperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed 
 Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduction.`,
 		id: 46,
 		maxPoints: 5,
-		values: [ "20", "9" ],
+		values: [ "{20/19/18/17/16/15.2/14.4/13.6/12.8/12}", "9" ],
 		x: 6.515,
 		y: -278.795
 	},
@@ -631,7 +631,7 @@ Unearth a prison of bone with {#} Life that surrounds the target area for 6 seco
 Tags: Macabre, Bone, Cooldown.`,
 		id: 50,
 		maxPoints: 5,
-		values: [ "20", "" ],
+		values: [ "{20/19/18/17/16/15.2/14.4/13.6/12.8/12}", "" ],
 		x: 411.49,
 		y: 218.61
 	},
@@ -823,7 +823,7 @@ Veins burst out of a Corpse, Pulling in enemies, Stunning them for 3 seconds, an
 Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 		id: 67,
 		maxPoints: 5,
-		values: [ "11", "20" ],
+		values: [ "{11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}", "20" ],
 		x: 444.22,
 		y: -228.515
 	},

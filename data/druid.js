@@ -637,7 +637,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "22" ],
+		values: [ "{22/20.9/19.8/18.7/17.6/16.72/15.84/14.96/14.08/13.2}" ],
 		x: 4.69,
 		y: 314.825
 	},

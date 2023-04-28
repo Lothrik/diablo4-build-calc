@@ -621,7 +621,7 @@ Dash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.
 Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown, Movement.`,
 		id: 47,
 		maxPoints: 5,
-		values: [ "10", "25" ],
+		values: [ "{10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6}", "25" ],
 		x: 9.47,
 		y: 289.26
 	},
