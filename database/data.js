@@ -72,6 +72,7 @@ $.getJSON("build-" + buildNumber + ".json", null, data => {
 				child.innerHTML = child.innerHTML.replace(/_/g, "<wbr>_");
 			} else if (child.classList.contains("json-value")) {
 				child.innerHTML = child.innerHTML.replace(/\n/g, "<br>");
+				child.innerHTML = child.innerHTML.replace(/\//g, "<wbr>/");
 				continue;
 			}
 			label.append(child);
