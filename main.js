@@ -2166,7 +2166,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 	const nodeBackground = updateExistingNode ? nodeContainer.children[0] : new PIXI.Graphics();
 	nodeBackground.clear();
-	nodeBackground.eventMode = "static";
+	nodeBackground.eventMode = "auto";
 	nodeBackground.beginFill(backgroundColor);
 	if (shapeType == "circle") {
 		nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
