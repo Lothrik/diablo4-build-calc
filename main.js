@@ -1017,7 +1017,9 @@ function handleReloadButton() {
 
 			delete nodeData.className;
 			function compareNodes(firstNode, secondNode) {
-				return nodeData[firstNode.nodeData.get("id")] - nodeData[secondNode.nodeData.get("id")];
+				const firstNodeId = firstNode.nodeData.get("id");
+				const secondNodeId = secondNode.nodeData.get("id");
+				return (firstNodeId in nodeData ? nodeData[firstNodeId] : 0) - (secondNodeId in nodeData ? nodeData[secondNodeId] : 0);
 			}
 			function processNode(curNode) {
 				if (curNode.groupName != undefined) {
@@ -2061,8 +2063,14 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		minusContainer.eventMode = "static";
 		if (!updateExistingNode) {
 			minusContainer
-				.on("click", () => handleMinusButton(node))
-				.on("tap", () => handleMinusButton(node));
+				.on("click", (e) => {
+					handleMinusButton(node);
+					e.stopPropagation();
+				})
+				.on("tap", (e) => {
+					handleMinusButton(node);
+					e.stopPropagation();
+				});
 		}
 		nodeText3 = pixiNodes.length > nodeIndex ? minusContainer.children[0] : new PIXI.Text();
 		nodeText3.text = "–";
@@ -2087,8 +2095,14 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		plusContainer.eventMode = "static";
 		if (!updateExistingNode) {
 			plusContainer
-				.on("click", () => handlePlusButton(node))
-				.on("tap", () => handlePlusButton(node));
+				.on("click", (e) => {
+					handlePlusButton(node);
+					e.stopPropagation();
+				})
+				.on("tap", (e) => {
+					handlePlusButton(node);
+					e.stopPropagation();
+				});
 		}
 		nodeText4 = updateExistingNode ? plusContainer.children[0] : new PIXI.Text();
 		nodeText4.text = "+";
@@ -2242,7 +2256,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		} else {
 			node.on("click", () => handlePlusButton(node));
 		}
-		node.on("rightclick", () => handleMinusButton(node));
+		if (nodeData.get("nodeType") != "Socket") node.on("rightclick", () => handleMinusButton(node));
 		node.cursor = "pointer";
 		nodeBackground.cursor = "pointer";
 
