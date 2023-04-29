@@ -2152,7 +2152,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 	const nodeBackground = updateExistingNode ? nodeContainer.children[0] : new PIXI.Graphics();
 	nodeBackground.clear();
-	nodeBackground.eventMode = "auto";
+	nodeBackground.eventMode = "static";
 	nodeBackground.beginFill(backgroundColor);
 	if (shapeType == "circle") {
 		nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
@@ -2239,9 +2239,12 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 					.on("click", () => handleToggleButton(node))
 					.on("tap", () => handleToggleButton(node));
 			}
-			node.cursor = "pointer";
-			nodeContainer.cursor = "pointer";
+		} else {
+			node.on("click", () => handlePlusButton(node));
 		}
+		node.on("rightclick", () => handleMinusButton(node));
+		node.cursor = "pointer";
+		nodeBackground.cursor = "pointer";
 
 		node.cullable = true;
 		node.eventMode = "static";
