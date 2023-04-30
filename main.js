@@ -175,6 +175,7 @@ const PARAGON_BOARD_RESET_PROMPT_PREFIX = "Are you sure you want to reset ";
 const PARAGON_BOARD_GRID_PROMPT_PREFIX = "Please select a grid location for the ";
 const PARAGON_BOARD_GRID_PROMPT_SUFFIX = " Paragon Board:\n";
 const PARAGON_BOARD_GRID_PROMPT_END = `If you're unsure what to enter, try 2 and look directly above [Start].`;
+const PARAGON_BOARD_EQUIP_PROMPT_HEADER = "Please select a paragon board to attach";
 const GLYPH_SELECT_PROMPT_PREFIX = "Please select a glyph to socket in ";
 const GLYPH_SELECT_PROMPT_SUFFIX = "(You cannot socket the same glyph multiple times.)";
 const ASSIGN_INDEX_LABEL_TEXT = "Assign Index";
@@ -658,7 +659,7 @@ function handleClampButton(event) {
 	resetFrameTimer();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-34";
+const localVersion = "0.8.1.39858-35";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1353,6 +1354,88 @@ function equipParagonBoardGlyph(curNode) {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 }
+function equipParagonBoard(curNode) {
+	const nodeData = curNode.nodeData;
+
+	const boardIndex = nodeData.get("_boardIndex");
+	const gridLocations = [["E", "F", "G", "H", "I"],
+						   ["D", "J", "K", "L", "M"],
+						   ["C", "7", "8", "9", "N"],
+						   ["B", "4", "5", "6", "O"],
+						   ["A", "1", "2", "3", "P"]];
+	let gridTarget = null;
+	if (boardIndex == 0) {
+		gridTarget = gridLocations[4][2];
+	} else if (boardIndex in paragonBoardGridData) {
+		const gridLocation = String(paragonBoardGridData[boardIndex]);
+		const _nodeId = nodeData.get("id").split("-");
+		let xPosition = Number(_nodeId[_nodeId.length - 2]);
+		let yPosition = Number(_nodeId[_nodeId.length - 1]);
+		[xPosition, yPosition] = rotateAngle(10, 10, xPosition, yPosition, curNode.angle);
+		[xPosition, yPosition] = [parseInt(xPosition), parseInt(yPosition)];
+		const gridX = gridLocations.findIndex(gridRow => gridRow.indexOf(gridLocation) >= 0);
+		const gridY = gridLocations[gridX].indexOf(gridLocation);
+		if (xPosition == 0) {
+			if (gridY > 0) gridTarget = gridLocations[gridX][gridY - 1];
+		} else if (xPosition == 20) {
+			if (gridY < 4) gridTarget = gridLocations[gridX][gridY + 1];
+		} else if (yPosition == 0) {
+			if (gridX > 0) gridTarget = gridLocations[gridX - 1][gridY];
+		} else {
+			if (gridX < 4) gridTarget = gridLocations[gridX + 1][gridY];
+		}
+	}
+	if (gridTarget == null) return;
+
+	const gridBoardIndex = Object.keys(paragonBoardGridData).find(key => paragonBoardGridData[key] == gridTarget);
+	if (gridBoardIndex != null) return;
+
+	const className = $(classString).val();
+	const classText = className[0].toUpperCase() + className.slice(1);
+
+	const paragonBoards = Object.keys(paragonData[classText]["Board"]);
+	let modalOptions = "";
+	let unsortedIndex = 0;
+	for (const boardName of paragonBoards) {
+		if (![0, boardIndex].includes(unsortedIndex)) {
+			const gridLocation = paragonBoardGridData[unsortedIndex];
+			const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == unsortedIndex);
+			const boardContainer = boardHeader.nodeData.get("boardContainer");
+			const legendaryNode = boardContainer.children.find(pixiNode => pixiNode.nodeData.get("nodeType") == "Legendary");
+			const legendaryDesc = legendaryNode.nodeDesc.split("\n")[0];
+			if (gridLocation == undefined) {
+				modalOptions += `<option value="${unsortedIndex}">${boardName} &mdash; ${legendaryDesc}</option>`;
+			} else {
+				modalOptions += `<option value="${unsortedIndex}">${boardName} &mdash; ${legendaryDesc} (Current location: [${gridLocation}])</option>`;
+			}
+		}
+		unsortedIndex++;
+	}
+
+	$("#fadeOverlay").removeClass("disabled");
+	$("#modalBox").html(`<div id="modalDiv1">${PARAGON_BOARD_EQUIP_PROMPT_HEADER}:</div>`
+		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions}</select></div>`
+		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
+		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
+
+	$("#modalSelect").select2({
+		dropdownParent: $("#modalDiv2")
+	});
+	$("#modalBox").on("select2:open", e => {
+		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())
+	})
+	applyZoomLevel(); // hacky workaround for select2 transform bug
+
+	$("#modalConfirm").on("click", () => {
+		moveParagonBoard($("#modalSelect").val(), gridTarget);
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+	$("#modalCancel").on("click", () => {
+		handleMinusButton(curNode);
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+}
+
 // returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
 function getNodePosition(curNode) {
 	if (curNode.groupName == undefined) {
@@ -1633,6 +1716,7 @@ function handlePlusButton(curNode) {
 				updateParagonAttributes(curNode, newPoints - allocatedPoints);
 				pixiAllocatedParagonPoints++;
 				updateCharacterLevel();
+				if (curNode.nodeData.get("nodeType") == "Gate") equipParagonBoard(curNode);
 			}
 		}
 	} else {
