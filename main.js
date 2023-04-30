@@ -175,7 +175,7 @@ const PARAGON_BOARD_RESET_PROMPT_PREFIX = "Are you sure you want to reset ";
 const PARAGON_BOARD_GRID_PROMPT_PREFIX = "Please select a grid location for the ";
 const PARAGON_BOARD_GRID_PROMPT_SUFFIX = " Paragon Board:\n";
 const PARAGON_BOARD_GRID_PROMPT_END = `If you're unsure what to enter, try 2 and look directly above [Start].`;
-const PARAGON_BOARD_EQUIP_PROMPT_HEADER = "Please select a paragon board to attach";
+const PARAGON_BOARD_EQUIP_PROMPT_HEADER = "Please select a paragon board to attach to ";
 const GLYPH_SELECT_PROMPT_PREFIX = "Please select a glyph to socket in ";
 const GLYPH_SELECT_PROMPT_SUFFIX = "(You cannot socket the same glyph multiple times.)";
 const ASSIGN_INDEX_LABEL_TEXT = "Assign Index";
@@ -1413,7 +1413,7 @@ function equipParagonBoard(curNode) {
 	}
 
 	$("#fadeOverlay").removeClass("disabled");
-	$("#modalBox").html(`<div id="modalDiv1">${PARAGON_BOARD_EQUIP_PROMPT_HEADER}:</div>`
+	$("#modalBox").html(`<div id="modalDiv1">${PARAGON_BOARD_EQUIP_PROMPT_HEADER}[${nodeData.get("_boardHeader").nodeName}]:</div>`
 		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions}</select></div>`
 		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
 		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
