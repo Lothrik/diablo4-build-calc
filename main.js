@@ -176,6 +176,7 @@ const PARAGON_BOARD_GRID_PROMPT_PREFIX = "Please select a grid location for the 
 const PARAGON_BOARD_GRID_PROMPT_SUFFIX = " Paragon Board:\n";
 const PARAGON_BOARD_GRID_PROMPT_END = `If you're unsure what to enter, try 2 and look directly above [Start].`;
 const PARAGON_BOARD_EQUIP_PROMPT_HEADER = "Please select a paragon board to attach to ";
+const CURRENT_GRID_LOCATION_TEXT = "Current grid location";
 const GLYPH_SELECT_PROMPT_PREFIX = "Please select a glyph to socket in ";
 const GLYPH_SELECT_PROMPT_SUFFIX = "(You cannot socket the same glyph multiple times.)";
 const ASSIGN_INDEX_LABEL_TEXT = "Assign Index";
@@ -1406,7 +1407,7 @@ function equipParagonBoard(curNode) {
 			if (gridLocation == undefined) {
 				modalOptions += `<option value="${unsortedIndex}">${boardName} &mdash; ${legendaryDesc}</option>`;
 			} else {
-				modalOptions += `<option value="${unsortedIndex}">${boardName} &mdash; ${legendaryDesc} (Current location: [${gridLocation}])</option>`;
+				modalOptions += `<option value="${unsortedIndex}">${boardName} &mdash; ${legendaryDesc} (${CURRENT_GRID_LOCATION_TEXT}: [${gridLocation}])</option>`;
 			}
 		}
 		unsortedIndex++;
