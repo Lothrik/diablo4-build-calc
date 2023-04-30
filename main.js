@@ -2208,8 +2208,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	const nodeBorder = updateExistingNode ? pixiNodes[nodeIndex].children[pixiNodes[nodeIndex].children.length - 1] : new PIXI.Graphics();
-	nodeBorder.clear();
+	nodeBorder.cursor = "pointer";
 	nodeBorder.eventMode = "auto";
+	nodeBorder.clear();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
 	if (([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
@@ -2246,11 +2247,13 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	const nodeContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0] : new PIXI.Container();
+	nodeContainer.cursor = "pointer";
 	nodeContainer.eventMode = "static";
 
 	const nodeBackground = updateExistingNode ? nodeContainer.children[0] : new PIXI.Graphics();
-	nodeBackground.clear();
+	nodeBackground.cursor = "pointer";
 	nodeBackground.eventMode = "auto";
+	nodeBackground.clear();
 	nodeBackground.beginFill(backgroundColor);
 	if (shapeType == "circle") {
 		nodeBackground.drawCircle(_nodeWidth * 0.5 * shapeSize, _nodeHeight * 0.5 * shapeSize, (_nodeWidth + _nodeHeight) * 0.5 * shapeSize);
@@ -2341,10 +2344,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			node.on("click", () => handlePlusButton(node));
 		}
 		if (nodeData.get("nodeType") != "Socket") node.on("rightclick", () => handleMinusButton(node));
-		node.cursor = "pointer";
-		nodeBackground.cursor = "pointer";
 
 		node.cullable = true;
+		node.cursor = "pointer";
 		node.eventMode = "static";
 
 		node.nodeName = nodeName;
