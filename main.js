@@ -1088,6 +1088,7 @@ function onDragStart(event) {
 	pixiJS.stage.sortChildren();
 }
 function onDragAllStart(event) {
+	$("#canvasContainer > canvas").css("cursor", "move");
 	pixiBackground.startX = event.global.x / pixiJS.stage.scale.x;
 	pixiBackground.startY = event.global.y / pixiJS.stage.scale.y;
 	for (let i = 0, n = pixiJS.stage.children.length; i < n; i++) {
@@ -1104,6 +1105,7 @@ function onDragEnd(event) {
 	pixiJS.stage.sortChildren();
 }
 function onDragAllEnd(event) {
+	$("#canvasContainer > canvas").css("cursor", "auto");
 	pixiDragging = null;
 }
 function onDragMove(event, dragOverride) {
@@ -3216,7 +3218,6 @@ function drawBackground() {
 	pixiBackground.y = -maxCanvasHeight;
 	pixiBackground.width = maxCanvasWidth * 2;
 	pixiBackground.height = maxCanvasHeight * 2;
-	pixiBackground.cursor = "move";
 	pixiBackground.eventMode = "static";
 	pixiBackground
 		.on("mousedown", onDragAllStart)
