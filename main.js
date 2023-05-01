@@ -1088,7 +1088,7 @@ function onDragStart(event) {
 	pixiJS.stage.sortChildren();
 }
 function onDragAllStart(event) {
-	$("#canvasContainer > canvas").css("cursor", "move");
+	$(pixiJS.renderer.view).css("cursor", "move");
 	pixiBackground.startX = event.global.x / pixiJS.stage.scale.x;
 	pixiBackground.startY = event.global.y / pixiJS.stage.scale.y;
 	for (let i = 0, n = pixiJS.stage.children.length; i < n; i++) {
@@ -1105,7 +1105,7 @@ function onDragEnd(event) {
 	pixiJS.stage.sortChildren();
 }
 function onDragAllEnd(event) {
-	$("#canvasContainer > canvas").css("cursor", "auto");
+	$(pixiJS.renderer.view).css("cursor", "auto");
 	pixiDragging = null;
 }
 function onDragMove(event, dragOverride) {
@@ -1124,6 +1124,7 @@ function onDragMove(event, dragOverride) {
 function onDragAllMove(event) {
 	if (!isTouching) {
 		if (pixiDragging == pixiBackground) {
+			if ($(pixiJS.renderer.view).css("cursor") != "move") $(pixiJS.renderer.view).css("cursor", "move");
 			for (let i = 0, n = pixiJS.stage.children.length; i < n; i++) {
 				const pixiChild = pixiJS.stage.children[i];
 				pixiChild.position.x = pixiChild.position.startX - pixiDragging.startX + event.global.x / pixiJS.stage.scale.x;
