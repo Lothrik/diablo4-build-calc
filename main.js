@@ -2209,7 +2209,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	const nodeBorder = updateExistingNode ? pixiNodes[nodeIndex].children[pixiNodes[nodeIndex].children.length - 1] : new PIXI.Graphics();
-	nodeBorder.cursor = "pointer";
+	nodeBorder.cursor = maxPoints > 0 ? "pointer" : "auto";
 	nodeBorder.eventMode = "auto";
 	nodeBorder.clear();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
@@ -2248,11 +2248,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	const nodeContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0] : new PIXI.Container();
-	nodeContainer.cursor = "pointer";
+	nodeContainer.cursor = maxPoints > 0 ? "pointer" : "auto";
 	nodeContainer.eventMode = "static";
 
 	const nodeBackground = updateExistingNode ? nodeContainer.children[0] : new PIXI.Graphics();
-	nodeBackground.cursor = "pointer";
+	nodeBackground.cursor = maxPoints > 0 ? "pointer" : "auto";
 	nodeBackground.eventMode = "auto";
 	nodeBackground.clear();
 	nodeBackground.beginFill(backgroundColor);
@@ -2347,7 +2347,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		if (nodeData.get("nodeType") != "Socket") node.on("rightclick", () => handleMinusButton(node));
 
 		node.cullable = true;
-		node.cursor = "pointer";
+		node.cursor = maxPoints > 0 ? "pointer" : "auto";
 		node.eventMode = "static";
 
 		node.nodeName = nodeName;
@@ -3216,6 +3216,7 @@ function drawBackground() {
 	pixiBackground.y = -maxCanvasHeight;
 	pixiBackground.width = maxCanvasWidth * 2;
 	pixiBackground.height = maxCanvasHeight * 2;
+	pixiBackground.cursor = "move";
 	pixiBackground.eventMode = "static";
 	pixiBackground
 		.on("mousedown", onDragAllStart)
@@ -3402,7 +3403,7 @@ $(document).ready(function() {
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup focus blur", handleSearchInput);
 
-	$("#detailsWindow").on("mousedown touchstart", handleDetailsEvent);
+	$("#detailsWindowHeader").on("mousedown touchstart", handleDetailsEvent);
 	$(window).on("mousemove touchmove mouseup touchend", handleDocumentEvent);
 
 	$("#canvasContainer").append(pixiJS.renderer.view);
