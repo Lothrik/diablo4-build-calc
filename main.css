@@ -104,7 +104,7 @@ h1, h2, h3 {
 
 #detailsWindowHeader {
 	border-bottom: 1px solid #fff;
-	cursor: move;
+	cursor: grab;
 	font-size: 28px;
 	font-variant: small-caps;
 	z-index: 7!important;

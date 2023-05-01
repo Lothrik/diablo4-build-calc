@@ -727,6 +727,7 @@ function handleDocumentEvent(event) {
 			case "mouseup":
 			case "touchend":
 				detailsWindowIsMoving = false;
+				$("#detailsWindowHeader").removeAttr("style");
 				detailsPreviousPosition = null;
 				break;
 		}
@@ -734,6 +735,7 @@ function handleDocumentEvent(event) {
 }
 function handleDetailsEvent(event) {
 	detailsWindowIsMoving = true;
+	$("#detailsWindowHeader").css("cursor", "grabbing");
 	if (event.type == "mousedown") {
 		detailsPreviousPosition = [event.clientX, event.clientY];
 	} else if (event.type == "touchstart") {
