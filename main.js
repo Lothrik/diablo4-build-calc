@@ -1105,11 +1105,7 @@ function onDragEnd(event) {
 	pixiJS.stage.sortChildren();
 }
 function onDragAllEnd(event) {
-	if (pixiTooltip.children.length > 0) {
-		$(pixiJS.renderer.view).css("cursor", pixiNodes[pixiTooltip.nodeIndex].cursor);
-	} else {
-		$(pixiJS.renderer.view).css("cursor", "auto");
-	}
+	$(pixiJS.renderer.view).css("cursor", pixiTooltip.children.length > 0 ? pixiNodes[pixiTooltip.nodeIndex].cursor : "auto");
 	pixiDragging = null;
 }
 function onDragMove(event, dragOverride) {
