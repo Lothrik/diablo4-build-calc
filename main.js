@@ -1090,7 +1090,6 @@ function onDragStart(event) {
 	pixiJS.stage.sortChildren();
 }
 function onDragAllStart(event) {
-	$(pixiJS.renderer.view).css("cursor", "move");
 	pixiBackground.startX = event.global.x / pixiJS.stage.scale.x;
 	pixiBackground.startY = event.global.y / pixiJS.stage.scale.y;
 	for (let i = 0, n = pixiJS.stage.children.length; i < n; i++) {
