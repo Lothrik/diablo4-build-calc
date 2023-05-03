@@ -1020,42 +1020,59 @@ function handleReloadButton() {
 			}
 
 			delete nodeData.className;
+
 			function compareNodes(firstNode, secondNode) {
-				const firstNodeId = firstNode.nodeData.get("id");
-				const secondNodeId = secondNode.nodeData.get("id");
-				return (firstNodeId in nodeData ? nodeData[firstNodeId] : 0) - (secondNodeId in nodeData ? nodeData[secondNodeId] : 0);
+				let firstNodeId = firstNode.nodeData.get("id");
+				let firstSavedPoints = 0;
+				if (firstNodeId in nodeData) {
+					firstSavedPoints = nodeData[firstNodeId];
+				} else {
+					firstNodeId = convertNodeId(firstNodeId, firstNode.groupName);
+					if (firstNodeId in nodeData) firstSavedPoints = nodeData[firstNodeId];
+				}
+
+				let secondNodeId = secondNode.nodeData.get("id");
+				let secondSavedPoints = 0;
+				if (secondNodeId in nodeData) {
+					secondSavedPoints = nodeData[secondNodeId];
+				} else {
+					secondNodeId = convertNodeId(secondNodeId, secondNode.groupName);
+					if (secondNodeId in nodeData) secondSavedPoints = nodeData[secondNodeId];
+				}
+
+				return firstSavedPoints - secondSavedPoints;
 			}
+
 			function processNode(curNode) {
-				if (curNode.groupName != undefined) {
-					let nodeId = curNode.nodeData.get("id");
-					let savedPoints = 0;
-					if (nodeId in nodeData) {
-						savedPoints = nodeData[nodeId];
-					} else {
-						nodeId = convertNodeId(nodeId, curNode.groupName);
-						if (nodeId in nodeData) savedPoints = nodeData[nodeId];
-					}
+				let nodeId = curNode.nodeData.get("id");
+				let savedPoints = 0;
+				if (nodeId in nodeData) {
+					savedPoints = nodeData[nodeId];
+				} else {
+					nodeId = convertNodeId(nodeId, curNode.groupName);
+					if (nodeId in nodeData) savedPoints = nodeData[nodeId];
+				}
 
-					const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-					const maxPoints = curNode.nodeData.get("maxPoints");
+				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+				const maxPoints = curNode.nodeData.get("maxPoints");
 
-					let newPoints = Math.max(Math.min(savedPoints, maxPoints), 0);
+				let newPoints = Math.max(Math.min(savedPoints, maxPoints), 0);
+				if (curNode.groupName == PARAGON_BOARD) {
+					newPoints = Math.min(newPoints, getUnusedPoints(true) + allocatedPoints);
+				} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+					newPoints = Math.min(newPoints, getUnusedPoints(false) + allocatedPoints);
+				}
+
+				if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
 					if (curNode.groupName == PARAGON_BOARD) {
-						newPoints = Math.min(newPoints, getUnusedPoints(true) + allocatedPoints);
+						pixiAllocatedParagonPoints = pixiAllocatedParagonPoints - allocatedPoints + newPoints;
 					} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
-						newPoints = Math.min(newPoints, getUnusedPoints(false) + allocatedPoints);
+						pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 					}
-
-					if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
-						if (curNode.groupName == PARAGON_BOARD) {
-							pixiAllocatedParagonPoints = pixiAllocatedParagonPoints - allocatedPoints + newPoints;
-						} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
-							pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
-						}
-						updateNodePoints(curNode, newPoints);
-					}
+					updateNodePoints(curNode, newPoints);
 				}
 			}
+
 			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
 			const sortedNodes = [...pixiNodes].filter(pixiNode => pixiNode.groupName != undefined).sort(compareNodes);
 			for (let i = 0, n = sortedNodes.length; i < n; i++) processNode(sortedNodes[i]);
