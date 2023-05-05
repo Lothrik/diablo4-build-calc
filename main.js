@@ -843,7 +843,7 @@ function handleSearchInput(event) {
 	const newSearchText = $("#searchInput").val().toLowerCase();
 
 	let nodeMatch = pixiNodes.filter(pixiNode => {
-		if (newSearchText.length >= 3) {
+		if (newSearchText.length >= 2) {
 			// search `nodeHeader` for `newSearchText`
 			let nodeHeader = pixiNode.nodeData.get("nameOverride");
 			if (nodeHeader == undefined) {
