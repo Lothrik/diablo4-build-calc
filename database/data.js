@@ -38,8 +38,6 @@ function traverse(node, callback) {
 	}
 }
 
-
-
 const localizationMarkers = [
 	"deDE",
 	"esES",
