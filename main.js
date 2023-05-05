@@ -847,7 +847,7 @@ function handleSearchInput(event) {
 			// search `nodeHeader` for `newSearchText`
 			let nodeHeader = pixiNode.nodeData.get("nameOverride");
 			if (nodeHeader == undefined) {
-				nodeHeader = pixiNode.nodeName;
+				nodeHeader = pixiNode.localizedName;
 				const itemSlot = pixiNode.nodeData.get("itemSlot");
 				const itemType = pixiNode.nodeData.get("itemType");
 				if (itemSlot != undefined) {
@@ -862,7 +862,7 @@ function handleSearchInput(event) {
 				return true;
 			} else {
 				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
-				const nodeDesc = "localizedDesc" in pixiNode ? pixiNode.localizedDesc : pixiNode.nodeDesc;
+				const nodeDesc = pixiNode.localizedDesc;
 				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText)) {
 					pixiNode.nodeData.set("searchQueryMatch", true);
 					setNodeStyleThick(pixiNode);
@@ -2391,9 +2391,16 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	if (!updateExistingNode) node.nodeDesc = nodeData.get("description");
-	if (nodeData.get("descriptionLocalized") != null && node.activeLocale != activeLocale) {
-		const localDesc = nodeData.get("descriptionLocalized").get(activeLocale);
-		node.localizedDesc = localDesc;
+	if (node.activeLocale != activeLocale) {
+		node.localizedName = (nodeData.get("nameLocalized") instanceof Map
+			&& nodeData.get("nameLocalized").has(activeLocale))
+			? nodeData.get("nameLocalized").get(activeLocale) : node.nodeName;
+		if (node.localizedName.includes("[") && node.localizedName.includes("]")) node.localizedName = node.localizedName.split("]")[1].split("[")[0];
+
+		node.localizedDesc = (nodeData.get("descriptionLocalized") instanceof Map
+			&& nodeData.get("descriptionLocalized").has(activeLocale))
+			? nodeData.get("descriptionLocalized").get(activeLocale) : node.nodeDesc;
+
 		node.activeLocale = activeLocale;
 	}
 
@@ -2886,19 +2893,6 @@ function drawTooltip(curNode, forceDraw) {
 		: curNode.localizedDesc;
 	if (nodeDesc == undefined) nodeDesc = "";
 
-	let localizedName = curNode.nodeName;
-	const activeLocale = readCookie("activeLocale", "enUS");
-	if (curNode.nodeData.get("nameLocalized") != null) {
-		const localName = curNode.nodeData.get("nameLocalized").get(activeLocale);
-		if (localName != null) {
-			if (localName.includes("[") && localName.includes("]")) {
-				localizedName = localName.split("]")[1].split("[")[0];
-			} else {
-				localizedName = localName;
-			}
-		}
-	}
-
 	const requiredPoints = curNode.nodeData.get("requiredPoints");
 	if (requiredPoints != undefined) {
 		let missingPoints = requiredPoints;
@@ -2963,6 +2957,7 @@ function drawTooltip(curNode, forceDraw) {
 					const glyphIndex = paragonBoardGlyphData[boardIndex];
 					const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
 					const glyphData = getGlyphData(glyphIndex);
+					const activeLocale = readCookie("activeLocale", "enUS");
 					const localizedGlyphName = activeLocale in glyphData.nameLocalized ? glyphData.nameLocalized[activeLocale] : glyphData.name;
 					const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
 						.replace(/{(.+?)}/g, (matchString, captureString) => {
@@ -2970,7 +2965,7 @@ function drawTooltip(curNode, forceDraw) {
 						return outputString[glyphRank > 0 ? Math.min(glyphRank, outputString.length) - 1 : 0];
 					});
 					const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
-					curNode.nodeData.set("nameOverride", `${localizedName} [${localizedGlyphName} — Rank ${glyphRank}]`);
+					curNode.nodeData.set("nameOverride", `${curNode.localizedName} [${localizedGlyphName} — Rank ${glyphRank}]`);
 					curNode.nodeData.set("thresholdRequirements", glyphData["thresholdRequirements"]);
 					nodeDesc = `${localizedGlyphDesc}\n\nAdditional Bonus: (if requirements met)\n${localizedGlyphBonus}\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}`;
 				} else {
@@ -3014,11 +3009,11 @@ function drawTooltip(curNode, forceDraw) {
 			});
 		}
 	}
-	if (curNode.displayName == localizedName && nodeDesc.length == 0) return;
+	if (curNode.displayName == curNode.localizedName && nodeDesc.length == 0) return;
 
 	let nodeHeader = curNode.nodeData.get("nameOverride");
 	if (nodeHeader == undefined) {
-		nodeHeader = localizedName;
+		nodeHeader = curNode.localizedName;
 		const itemSlot = curNode.nodeData.get("itemSlot");
 		const itemType = curNode.nodeData.get("itemType");
 		if (itemSlot != undefined) {
