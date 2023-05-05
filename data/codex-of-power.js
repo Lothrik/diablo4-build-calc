@@ -1,10 +1,10 @@
 let codexData = {
 	"Categories": {
-		"Defensive": "Shield, Helmet, Chest, Pants, Amulet [+50%].",
-		"Offensive": "1H Weapon, 2H Weapon [+100%], Off-Hand, Gloves, Amulet [+50%], Ring.",
-		"Utility": "Helmet, Chest, Boots, Gloves, Amulet [+50%].",
-		"Resource": "Helmet, Amulet [+50%], Ring.",
-		"Mobility": "Boots, Amulet [+50%].",
+		"Defensive": "Amulet [+50%], Chest, Helmet, Pants, Shield.",
+		"Offensive": "Amulet [+50%], Gloves, Ring, 1H Weapon, 2H Weapon [+100%].",
+		"Utility": "Amulet [+50%], Boots, Chest, Gloves, Helmet, Shield.",
+		"Resource": "Ring.",
+		"Mobility": "Amulet [+50%], Boots.",
 		"Other": "",
 		"Unknown": ""
 	},
