@@ -1,5 +1,5 @@
 const buildNumber = 39858;
-const localVersion = `0.8.1.${buildNumber}-35`;
+const localVersion = `0.8.1.${buildNumber}-36`;
 var remoteVersion = "";
 var versionInterval = null;
 
@@ -38,9 +38,38 @@ function traverse(node, callback) {
 	}
 }
 
-$.getJSON("build-" + buildNumber + ".json", null, data => {
+
+
+const localizationMarkers = [
+	"deDE",
+	"esES",
+	"esMX",
+	"frFR",
+	"itIT",
+	"jaJP",
+	"koKR",
+	"plPL",
+	"ptBR",
+	"ruRU",
+	"zhCN"
+];
+
+function processJSON(object) {
+	for (const key in object) {
+		if (localizationMarkers.some(marker => key.includes(marker)) || key.toLowerCase().includes("localized")) {
+			delete object[key];
+		} else if (typeof object[key] == "object") {
+			processJSON(object[key]);
+		}
+	}
+	return object;
+}
+
+$.getJSON("build-" + buildNumber + ".json", null, fullData => {
+	const processedJSON = processJSON(fullData);
+
 	const root = $("#root");
-	const tree = jsonview.create(data);
+	const tree = jsonview.create(processedJSON);
 
 	$("#loading").remove();
 

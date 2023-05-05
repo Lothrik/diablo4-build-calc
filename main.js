@@ -419,7 +419,11 @@ function setNodeStyleThin(curNode) {
 
 // event handlers
 const classString = "#classSelector option:selected";
-const groupString = "#groupSelector option:selected";
+function handleLocaleSelection(event) {
+	writeCookie("activeLocale", $("#localeSelector option:selected").val());
+	redrawAllNodes(false);
+	resetFrameTimer();
+}
 function handleTooltipCopy(event) {
 	const tooltipChildren = pixiTooltip.children.length;
 	if (tooltipChildren > 0) {
@@ -583,7 +587,7 @@ function applyZoomLevel() {
 
 	$("#detailsWindow").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
 	$("#extraFooter").css({ "transform": `scale(${Math.max(zoomLevel, 1)})`, "transform-origin": "center bottom" });
-	$(".select2-container").width((window.innerWidth * 0.9 - 22));
+	$("#modalBox .select2-container").width((window.innerWidth * 0.9 - 22));
 
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) pixiTooltipZoomLevel = zoomLevelTooltip;
@@ -660,7 +664,7 @@ function handleClampButton(event) {
 	resetFrameTimer();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-35";
+const localVersion = "0.8.1.39858-36";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -828,7 +832,7 @@ function handleClassSelection(event, postHookFunction = null) {
 	} else if (typeof postHookFunction == "function") postHookFunction();
 }
 function handleGroupSelection(event) {
-	const newGroupName = $(groupString).text();
+	const newGroupName = $("#groupSelector option:selected").text();
 	const newGroupNode = pixiNodes.find(pixiNode => pixiNode.nodeName == newGroupName);
 	if (newGroupNode != undefined) pixiJS.stage.pivot.set(newGroupNode.x - oldWidth / pixiJS.stage.scale.x * 0.5, newGroupNode.y - oldHeight / pixiJS.stage.scale.y * 0.5);
 	resetFrameTimer();
@@ -858,7 +862,7 @@ function handleSearchInput(event) {
 				return true;
 			} else {
 				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
-				const nodeDesc = pixiNode.nodeDesc;
+				const nodeDesc = "localizedDesc" in pixiNode ? pixiNode.localizedDesc : pixiNode.nodeDesc;
 				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText)) {
 					pixiNode.nodeData.set("searchQueryMatch", true);
 					setNodeStyleThick(pixiNode);
@@ -1272,6 +1276,7 @@ function equipParagonBoardGlyph(curNode) {
 	if (curNode.nodeData.get("allocatedPoints") == 0 && getUnusedPoints(true) == 0) return;
 	handlePlusButton(curNode);
 
+	const activeLocale = readCookie("activeLocale", "enUS");
 	const boardIndex = curNode.nodeData.get("_boardIndex");
 	const boardHeader = curNode.nodeData.get("_boardHeader");
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
@@ -1299,11 +1304,13 @@ function equipParagonBoardGlyph(curNode) {
 		if (glyphName + "_Sorc" in paragonGlyphs && classText == "Sorcerer") continue;
 		const glyphIndex = Number(glyphName.match(/\d+/)[0]);
 		const glyphBoard = Object.keys(paragonBoardGlyphData).find(key => paragonBoardGlyphData[key] == glyphIndex);
+		const localizedGlyphName = activeLocale in glyphData.nameLocalized ? glyphData.nameLocalized[activeLocale] : glyphData.name;
+		const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
 		if (glyphBoard == undefined) {
-			modalOptions += `<option value="${glyphIndex}">${glyphData.name} &mdash; ${glyphData.bonus}</option>`;
+			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}</option>`;
 		} else {
 			const socketHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == glyphBoard);
-			modalOptions += `<option value="${glyphIndex}">${glyphData.name} &mdash; ${glyphData.bonus} (Socketed in: [${socketHeader.nodeName}])</option>`;
+			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus} (Socketed in: [${socketHeader.nodeName}])</option>`;
 		}
 	}
 
@@ -1328,11 +1335,12 @@ function equipParagonBoardGlyph(curNode) {
 		const glyphIndex = Number($("#modalSelect").val());
 		const glyphRank = Number($("#modalSlider").val());
 		const glyphData = getGlyphData(glyphIndex);
-		const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchString, captureString) => {
+		const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
+			.replace(/{(.+?)}/g, (matchString, captureString) => {
 			const outputString = captureString.split("/");
 			return outputString[glyphRank > 0 ? Math.min(glyphRank, outputString.length) - 1 : 0];
 		});
-		$("#modalDiv4").text(`Rank ${glyphRank}: ${glyphDesc}`);
+		$("#modalDiv4").text(`Rank ${glyphRank}: ${localizedGlyphDesc}`);
 	}
 
 	$("#modalSelect").on("change", updateGlyphDescText);
@@ -1943,13 +1951,14 @@ function redrawAllNodes(idleMode = false) {
 }
 function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = pixiNodes.length, nodePosition = null) {
 	const scaleFactor = devicePixelRatio >= 2 ? 1 : (newRenderScale >= 0.45 ? 2 : 1) / devicePixelRatio * newRenderScale;
+	const activeLocale = readCookie("activeLocale", "enUS");
 
 	let node = null;
 	if (pixiNodes.length > nodeIndex) {
 		node = pixiNodes[nodeIndex];
 
 		// skip node redraw if we already have the correct one displayed
-		if (node.scaleFactor == scaleFactor) return;
+		if (node.scaleFactor == scaleFactor && node.activeLocale == activeLocale) return;
 	}
 	const updateExistingNode = node != null;
 
@@ -2379,12 +2388,23 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 		node.displayName = displayName;
 		node.displayNameSize = displayNameSize;
+	}
 
-		node.nodeDesc = nodeData.get("description");
-		if (node.nodeDesc != undefined && node.nodeDesc.length > 0 && requiredPoints == undefined) {
+	if (!updateExistingNode) node.nodeDesc = nodeData.get("description");
+	if (nodeData.get("descriptionLocalized") != null && node.activeLocale != activeLocale) {
+		const localDesc = nodeData.get("descriptionLocalized").get(activeLocale);
+		node.localizedDesc = localDesc;
+		node.activeLocale = activeLocale;
+	}
+
+	if (requiredPoints == undefined) {
+		if (!updateExistingNode) node.nodeDesc = processDescription(node.nodeDesc);
+		node.localizedDesc = processDescription(node.localizedDesc);
+		function processDescription(curDesc) {
+			if (curDesc == undefined || curDesc.length == 0) return curDesc;
 			let nodeValues = node.nodeData.get("values");
 			if (nodeValues != undefined) {
-				let [nodeDesc1, nodeDesc2] = node.nodeDesc.split(ENCHANTMENT_EFFECT_DESC);
+				let [nodeDesc1, nodeDesc2] = curDesc.split(ENCHANTMENT_EFFECT_DESC);
 				nodeValues = nodeValues.values();
 				for (const nodeValue of nodeValues) {
 					nodeDesc1 = nodeDesc1.replace(/{#}/, nodeValue.length > 0 ? nodeValue: "#");
@@ -2397,19 +2417,21 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 							nodeDesc2 = nodeDesc2.replace(/{#}/, extraValue.length > 0 ? extraValue: "#");
 						}
 					}
-					node.nodeDesc = nodeDesc1 + ENCHANTMENT_EFFECT_DESC + nodeDesc2;
+					curDesc = nodeDesc1 + ENCHANTMENT_EFFECT_DESC + nodeDesc2;
 				} else {
-					node.nodeDesc = nodeDesc1;
+					curDesc = nodeDesc1;
 				}
 			}
+			return curDesc;
 		}
+	}
 
+	if (!updateExistingNode) {
 		if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
 			node.addChild(nodeContainer, nodeText, nodeBorder);
 		} else {
 			node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
 		}
-
 		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
 	}
 
@@ -2666,11 +2688,15 @@ function drawAllNodes() {
 						if (nodeData.length > 0) {
 							let nodeName = nodeData;
 							let nodeDesc = "";
+							let nodeNameLocalized = null;
+							let nodeDescLocalized = null;
 							let thresholdRequirements = null;
 							for (const classKey in paragonData) {
 								if ("Node" in paragonData[classKey] && nodeData in paragonData[classKey]["Node"]) {
 									nodeName = paragonData[classKey]["Node"][nodeData]["name"];
 									nodeDesc = paragonData[classKey]["Node"][nodeData]["description"];
+									nodeNameLocalized = paragonData[classKey]["Node"][nodeData]["nameLocalized"];
+									nodeDescLocalized = paragonData[classKey]["Node"][nodeData]["descriptionLocalized"];
 									thresholdRequirements = paragonData[classKey]["Node"][nodeData]["thresholdRequirements"];
 									break;
 								}
@@ -2689,8 +2715,10 @@ function drawAllNodes() {
 								["_boardName", boardName],
 								["colorOverride", COLOR_OVERRIDE[nodeType]],
 								["description", nodeDesc],
+								["descriptionLocalized", nodeDescLocalized == null ? undefined : new Map(Object.entries(nodeDescLocalized))],
 								["id", `paragon-${unsortedIndex}-${xPosition}-${yPosition}`],
 								["maxPoints", 1],
+								["nameLocalized", nodeNameLocalized == null ? undefined : new Map(Object.entries(nodeNameLocalized))],
 								["nodeType", nodeType],
 								["thresholdRequirements", thresholdRequirements],
 								["widthOverride", nodeWidth],
@@ -2797,19 +2825,30 @@ function drawAllNodes() {
 						}
 
 						let powerDescription = codexPower.description;
+						let powerDescriptionLocalized = codexPower.descriptionLocalized;
 						let powerLocation = [];
 						if (codexPower.dungeon) powerLocation.push(codexPower.dungeon);
 						if (codexPower.region) powerLocation.push(codexPower.region);
-						if (powerLocation.length > 0) powerDescription += "\n\n— Location —\n" + powerLocation.join(" — ");
+						if (powerLocation.length > 0) {
+							powerDescription += "\n\n— Location —\n" + powerLocation.join(" — ");
+							if (powerDescriptionLocalized != null) {
+								const localKeys = Object.keys(powerDescriptionLocalized);
+								for (const localKey of localKeys) {
+									powerDescriptionLocalized[localKey] += "\n\n— Location —\n" + powerLocation.join(" — ");
+								}
+							}
+						}
 
 						const codexPowerNode = new Map([
 							["allocatedPoints", 0],
 							["codexCategory", codexCategoryName],
 							["description", powerDescription],
+							["descriptionLocalized", new Map(Object.entries(powerDescriptionLocalized))],
 							["id", `codex-${codexPower.id}`],
 							["itemSlot", codexPower.slot],
 							["itemType", codexPower.type],
 							["maxPoints", 1],
+							["nameLocalized", new Map(Object.entries(codexPower.nameLocalized))],
 							["widthOverride", nodeWidth],
 							["shapeSize", 1],
 							["shapeType", "rectangle"],
@@ -2840,8 +2879,25 @@ function drawTooltip(curNode, forceDraw) {
 
 	eraseTooltip();
 
-	let nodeDesc = debugMode ? `x: ${getNodePosition(curNode).join(" / y: ")}` : curNode.nodeDesc;
+	let nodeDesc = debugMode
+		? `x: ${getNodePosition(curNode).join(" / y: ")}`
+		: (curNode.localizedDesc == undefined || curNode.localizedDesc.length == 0)
+		? curNode.nodeDesc
+		: curNode.localizedDesc;
 	if (nodeDesc == undefined) nodeDesc = "";
+
+	let localizedName = curNode.nodeName;
+	const activeLocale = readCookie("activeLocale", "enUS");
+	if (curNode.nodeData.get("nameLocalized") != null) {
+		const localName = curNode.nodeData.get("nameLocalized").get(activeLocale);
+		if (localName != null) {
+			if (localName.includes("[") && localName.includes("]")) {
+				localizedName = localName.split("]")[1].split("[")[0];
+			} else {
+				localizedName = localName;
+			}
+		}
+	}
 
 	const requiredPoints = curNode.nodeData.get("requiredPoints");
 	if (requiredPoints != undefined) {
@@ -2907,15 +2963,18 @@ function drawTooltip(curNode, forceDraw) {
 					const glyphIndex = paragonBoardGlyphData[boardIndex];
 					const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
 					const glyphData = getGlyphData(glyphIndex);
-					curNode.nodeData.set("nameOverride", `${curNode.nodeName} [${glyphData["name"]} — Rank ${glyphRank}]`);
-					curNode.nodeData.set("thresholdRequirements", glyphData["thresholdRequirements"]);
-					const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchString, captureString) => {
+					const localizedGlyphName = activeLocale in glyphData.nameLocalized ? glyphData.nameLocalized[activeLocale] : glyphData.name;
+					const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
+						.replace(/{(.+?)}/g, (matchString, captureString) => {
 						const outputString = captureString.split("/");
 						return outputString[glyphRank > 0 ? Math.min(glyphRank, outputString.length) - 1 : 0];
 					});
-					nodeDesc = glyphDesc + "\n\n" + "Additional Bonus: (if requirements met)\n" + glyphData["bonus"] + "\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}";
+					const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
+					curNode.nodeData.set("nameOverride", `${localizedName} [${localizedGlyphName} — Rank ${glyphRank}]`);
+					curNode.nodeData.set("thresholdRequirements", glyphData["thresholdRequirements"]);
+					nodeDesc = `${localizedGlyphDesc}\n\nAdditional Bonus: (if requirements met)\n${localizedGlyphBonus}\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}`;
 				} else {
-					nodeDesc = "Allocate this node to see a list of available glyphs."
+					nodeDesc = "Allocate this node to see a list of available glyphs.";
 				}
 			} else if (nodeType == "Magic" || nodeType == "Rare") {
 				const glyphMultiplier = getNodeGlyphMultiplier(curNode);
@@ -2955,12 +3014,11 @@ function drawTooltip(curNode, forceDraw) {
 			});
 		}
 	}
-
-	if (curNode.displayName == curNode.nodeName && nodeDesc.length == 0) return;
+	if (curNode.displayName == localizedName && nodeDesc.length == 0) return;
 
 	let nodeHeader = curNode.nodeData.get("nameOverride");
 	if (nodeHeader == undefined) {
-		nodeHeader = curNode.nodeName;
+		nodeHeader = localizedName;
 		const itemSlot = curNode.nodeData.get("itemSlot");
 		const itemType = curNode.nodeData.get("itemType");
 		if (itemSlot != undefined) {
@@ -3405,6 +3463,10 @@ function writeCookie(name, value) {
 
 // finalize the page once DOM has loaded
 $(document).ready(function() {
+	$("#localeSelector").removeClass("disabled").select2();
+	$("#localeSelector").val(readCookie("activeLocale", "enUS")).trigger("change");
+	$("#localeSelector").on("change", handleLocaleSelection);
+
 	$("#versionLabel").on("click", handleVersionLabel);
 	handleVersionInterval();
 	versionInterval = setInterval(handleVersionInterval, 900000);

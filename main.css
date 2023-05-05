@@ -35,7 +35,7 @@
 
 body {
 	color: #fff;
-	font: 20px/23px Homenaje, Impact, sans-serif;
+	font: 20px/23px Homenaje, Calibri, Arial, Helvetica, sans-serif;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -153,6 +153,15 @@ h1, h2, h3 {
 
 #header h2 {
 	font-size: 80%;
+}
+
+#floatLeft {
+	margin: 4px;
+}
+
+#floatLeft > * {
+	float: left;
+	min-width: 160px;
 }
 
 .visible, .visible * {

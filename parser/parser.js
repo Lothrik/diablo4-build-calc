@@ -136,56 +136,6 @@ function levenshteinDistance(str1 = "", str2 = "") {
 	return track[len2][len1];
 };
 
-// UNUSED
-function sanitizeRawNodeDescription(descriptionText) {
-	if (descriptionText == undefined || descriptionText.length == 0) return descriptionText;
-	let sanitizedText = descriptionText
-		.replace(/{c_.+?}/gi, "")										// `{c_white}`, `{c_yellow}`, `{c_green}`, ...
-		.replace(/{\/c_.+?}/gi, "")										// `{/c_white}`, `{/c_yellow}`, `{/c_green}`, ...
-		.replace(/{\/c *?}/gi, "")										// `{/c}`, `{/c }`, ...
-		.replace(/{\/?u}/gi, "")										// `{u}` and `{/u}`.
-		.replace(/{icon.+?}/gi, "")										// `{icon:bullet}`, and similar.
-		.replace(/{if:.+?}[a-z]{0,2}{\/if}/gi, "")						// `{if:SF_21}s{/if}` and similar.
-		.replace(/{if:mod.+?}(.|\r?\n)+?({else}|{\/if})/gi, "")			// `{if:Mod.UpgradeA}` -> `{/if}`, and similar.
-		.replace(/{if:.+?}/gi, "")										// `{if:ADVANCED_TOOLTIP}`, and similar.
-		.replace(/{\/if}/gi, "")										// `{/if}`, exact.
-		.replace(/sLevel/g, "")											// `sLevel`, exact.
-		.replace(/\|4([^:]+):([^;]+);/g, "$2")							// `|4first:second;` => `second`.
-		.replace(/\|4([^:]+):([^\.]+)\./g, "$2.")						// `|4first:second.` => `second.`.
-		.replace(/\[([^\]\|]+)\|\d?(%?)\d?([x\+]?)\|\]/g, "$3[$1]$2")	// Replace `[...|%x|]` with `x[...]%`, and similar.
-		.replace(/\[([^\]\|]+)\|\d?([x\+]?)\d?(%?)\|\]/g, "$2[$1]$3")	// Replace `[...|x%|]` with `x[...]%`, and similar.
-		.replace(/ *\* */g, "")											// `*`, including any nearby whitespace.
-		.replace(/ *\| */g, "")											// `|`, including any nearby whitespace.
-		.replace(/ \./g, ".")											// Replace ` .` with `.`.
-		.replace(/{else}/gi, "\n")										// Replace `{else}` with a newline.
-		.replace(/{(dot|payload):.+?}/gi, "{#}%")						// Replace `{dot:...}` and `{payload:...}` with `{#}%`.
-		.replace(/ *{.+?} */g, "{#}")									// Replace anything inside curly brackets with `{#}`.
-		.replace(/ *\[.+?\] */g, "{#}")									// Replace anything inside square brackets with `{#}`.
-		.replace(/{.+?}{.+?}/g, "{#}")									// Replace `{#}{#}` with `{#}`.
-		.replace(/([^x+ ]+?){#}/g, "$1 {#}")							// Ensure there is a space between any character (except `x`, `+`, and ` `) and the start of `{#}`.
-		.replace(/{#}([a-z]+?)/gi, "{#} $1")							// Ensure there is a space between any letter (`a-z`, `A-Z`) and the end of `{#}`.
-		.replace(/\( *{/g, "({")										// Remove any whitespace between `(` and `{`.
-		.replace(/} *\)/g, "})")										// Remove any whitespace between `}` and `)`.
-		.replace(/{#} +(st|nd|rd|th) /g, "{#}$1 ")						// Remove any whitespace between {#} and (`st `, `nd `, `rd `, or `th `).
-		.replace(/ +(\r?\n)/g, "$1")									// Remove any whitespace at the end of a line.
-		.replace(/(dealing {#}%?)( per hit| each)/g, "$1 damage$2")		// Add ` damage` between `dealing {#}` and (`per hit`, or `each`) if not already present.
-																		// Add ` damage` between `poisons enemies for {#}` and ` over` if not already present.
-		.replace(/(bleeds|bleeding|burns|burning|zaps|zapping|poisons|poisoning)( surrounding)?( enemies for {#}%?)( over)/gi, "$1$2$3 damage$4")
-		.replace(/({#})( damage)/gi, "$1%$2")							// Add `%` between `{#}` and ` damage` if not already present.
-		.replace(/(cooldown: {#})(\r?\n)/gi, "$1 seconds$2")			// Add ` seconds` after `Cooldown: {#}` if not already present.
-		.replace(/(\r?\n)([^:\+]+)([a-z]+)$/gi, "$1$2$3.")				// Ensure the last line ends with a `.`, unless that line contains `:` or `+`, or ends with a character other than (`a-z`, `A-Z`).
-		.replace(/(if this kills.+cooldown is reset).+(if this kills.+charge is refunded)/gi, "$1")
-																		// Special handling for Death Blow conditional description logic.
-		.trim();
-
-	return sanitizedText;
-}
-
-function sanitizeNodeDescription(descriptionText) {
-	if (descriptionText == undefined || descriptionText.length == 0) return descriptionText;
-	return descriptionText.trim();
-}
-
 function namedConnections(rawConnections, currentNode, classData, fallbackNode) {
 	let namedConnections = "";
 	const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
@@ -297,13 +247,13 @@ function fixJSON(classData, curNode, rootNodeName) {
 	}
 }
 
-function updateSavedValues(className, rootNodeName, skillName, sanitizedDescription, extraValues = false) {
+function updateSavedValues(className, rootNodeName, skillName, currentDescription, extraValues = false) {
 	const extraLabel = className == "Sorcerer" ? "Enchantment" : "Extra";
 	const extraName = extraValues ? `${skillName} — ${extraLabel}` : skillName;
 	const savedValues = nodeValues[className][rootNodeName];
 	if (savedValues == undefined) savedValues = {};
 	if (savedValues[extraName] == undefined) savedValues[extraName] = [];
-	const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
+	const descLength = (currentDescription.match(/{#}/g) || []).length;
 
 	const skillValues = savedValues[extraName];
 	if (descLength > skillValues.length) {
@@ -347,7 +297,7 @@ function getCodexId(codexPowerName, codexCategoryName, className) {
 	}
 }
 
-function getCodexValues(codexPowerName, codexCategoryName, className, sanitizedDescription) {
+function getCodexValues(codexPowerName, codexCategoryName, className, currentDescription) {
 	if (!(className in codexValues)) codexValues[className] = {};
 	if (!(codexCategoryName in codexValues[className])) codexValues[className][codexCategoryName] = {};
 	if (!(codexPowerName in codexValues[className][codexCategoryName])) codexValues[className][codexCategoryName][codexPowerName] = {};
@@ -358,7 +308,7 @@ function getCodexValues(codexPowerName, codexCategoryName, className, sanitizedD
 	}
 	if (!("values" in codexMatch)) codexMatch["values"] = [];
 
-	const descLength = (sanitizedDescription.match(/{#}/g) || []).length;
+	const descLength = (currentDescription.match(/{#}/g) || []).length;
 
 	if (descLength > codexMatch["values"].length) {
 		codexMatch["values"].push(...Array(descLength - codexMatch["values"].length).fill(""));
@@ -366,7 +316,7 @@ function getCodexValues(codexPowerName, codexCategoryName, className, sanitizedD
 		codexMatch["values"].length = descLength;
 	}
 
-	if (sanitizedDescription.length > 0) codexMatch["recentlyAdded"] = true;
+	if (currentDescription.length > 0) codexMatch["recentlyAdded"] = true;
 	return codexMatch;
 }
 
@@ -382,22 +332,27 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 				if (!classProcessed[className]) fixJSON(classData, connectedNode, rootNodeName);
 				if (nodeData["power"] != undefined) {
 					const skillName = "skill_name" in nodeData["power"] ? nodeData["power"]["skill_name"] : nodeData["reward"]["reward_name"];
+					const skillNameLocalized = "skill_name_localized" in nodeData["power"] ? nodeData["power"]["skill_name_localized"] : null;
 					output += '\t"' + skillName + '": {\n';
 					const baseSkillName = nodeData["BASE_SKILL_NAME"];
 					if (baseSkillName != undefined) {
 						output += '\t\tbaseSkill: "' + baseSkillName + '",\n';
 					}
-					output += "		connections: " + namedConnections(nodeData["connections"], skillName, classData, rootNodeName) + ",\n";
-					let sanitizedDescription = sanitizeNodeDescription(nodeData["power"]["skill_desc"]);
+					output += "\t\tconnections: " + namedConnections(nodeData["connections"], skillName, classData, rootNodeName) + ",\n";
+					let currentDescription = nodeData["power"]["skill_desc"];
+					let currentDescriptionLocalized = "skill_desc_localized" in nodeData["power"] ? Object.assign({}, nodeData["power"]["skill_desc_localized"]) : null;
+					const localKeys = currentDescriptionLocalized == null ? [] : Object.keys(currentDescriptionLocalized);
 					if (nodeData["power"]["power_tags"] != undefined) {
 						const filteredTags = nodeData["power"]["power_tags"].filter(tag => !tag.includes("_")).join(", ");
 						if (filteredTags.length > 0) {
-							if (sanitizedDescription == undefined) {
-								sanitizedDescription = "";
+							if (currentDescription == undefined) {
+								currentDescription = "";
 							} else {
-								sanitizedDescription += "\n\n";
+								currentDescription += "\n\n";
 							}
-							sanitizedDescription += `Tags: ${filteredTags}.`;
+							const tagText = `Tags: ${filteredTags}.`;
+							currentDescription += tagText;
+							for (const localKey of localKeys) currentDescriptionLocalized[localKey] += `\n\n${tagText}`;
 						}
 					}
 					let extraDescription = "";
@@ -412,14 +367,21 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 								textDistance1 = textDistance2;
 							}
 						}
-						extraDescription = sanitizeNodeDescription(extraDescription);
+						extraDescription = extraDescription;
 						if (extraDescription.length > 0) {
-							output += "\t\tdescription: `" + sanitizedDescription + "\n\n— Enchantment Effect —\n" + extraDescription + "`,\n";
-						} else {
-							output += "\t\tdescription: `" + sanitizedDescription + "`,\n";
+							const enchantText = "\n\n— Enchantment Effect —\n" + extraDescription;
+							currentDescription += enchantText;
+							for (const localKey of localKeys) currentDescriptionLocalized[localKey] += enchantText;
 						}
+						output += "\t\tdescription: `" + currentDescription + "`,\n";
 					} else {
-						output += "\t\tdescription: `" + sanitizedDescription + "`,\n";
+						output += "\t\tdescription: `" + currentDescription + "`,\n";
+					}
+					if (skillNameLocalized != null) {
+						output += "\t\tnameLocalized: " + JSON.stringify(skillNameLocalized, null, "\t\t\t") + ",\n";
+					}
+					if (currentDescriptionLocalized != null) {
+						output += "\t\tdescriptionLocalized: " + JSON.stringify(currentDescriptionLocalized, null, "\t\t\t") + ",\n";
 					}
 					const nodeHistoricalId = nodeHistory[className][rootNodeName + ": " + skillName];
 					if (nodeHistoricalId != undefined) {
@@ -430,7 +392,7 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 						output += "\t\tid: " + nodeHistoryLength + ",\n";
 					}
 					output += "\t\tmaxPoints: " + nodeData["reward"]["max_talent_ranks"] + ",\n";
-					output += updateSavedValues(className, rootNodeName, skillName, sanitizedDescription);
+					output += updateSavedValues(className, rootNodeName, skillName, currentDescription);
 					if (extraDescription.length > 0) {
 						output += updateSavedValues(className, rootNodeName, skillName, extraDescription, true);
 					}
@@ -575,10 +537,10 @@ function runParser(downloadMode) {
 					}
 
 					formattedData += '\t\t"' + boonData["name"] + '": {\n';
-					const sanitizedDescription = sanitizeNodeDescription(boonData["desc"]);
-					const boonSavedValues = updateSavedValues(className, "Spirit Boons", boonData["name"], sanitizedDescription);
+					const currentDescription = boonData["desc"];
+					const boonSavedValues = updateSavedValues(className, "Spirit Boons", boonData["name"], currentDescription);
 					if (boonSavedValues.length > 0) formattedData += `\t${boonSavedValues}`;
-					formattedData += "\t\t\tdescription: `" + sanitizedDescription + "`,\n";
+					formattedData += "\t\t\tdescription: `" + currentDescription + "`,\n";
 					const nodeHistoricalId = nodeHistory[className]["Spirit Boons: " + boonData["name"]];
 					if (nodeHistoricalId != undefined) {
 						formattedData += "\t\t\tid: " + nodeHistoricalId + "\n";
@@ -622,22 +584,32 @@ function runParser(downloadMode) {
 		if ("Paragon (Node)" in classData) {
 			paragonData[className]["Node"] = {};
 			for (const [nodeName, nodeData] of Object.entries(classData["Paragon (Node)"])) {
-				let sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
-				if ("threshold_bonus" in nodeData) sanitizedDescription += "\n\nBonus: Another " + nodeData["threshold_bonus"] + " if requirements met:\n{thresholdRequirements}";
+				let currentDescription = nodeData["desc"];
+				let currentDescriptionLocalized = "desc_localized" in nodeData ? Object.assign({}, nodeData["desc_localized"]) : null;
+				const localKeys = currentDescriptionLocalized == null ? [] : Object.keys(currentDescriptionLocalized);
+				if ("threshold_bonus" in nodeData) {
+					const thresholdText = "\n\nBonus: Another " + nodeData["threshold_bonus"] + " if requirements met:\n{thresholdRequirements}";
+					currentDescription += thresholdText;
+					for (const localKey of localKeys) currentDescriptionLocalized[localKey] += thresholdText;
+				}
 				if ("tags" in nodeData) {
 					const filteredTags = nodeData["tags"].filter(tag => !tag.includes("_")).join(", ");
 					if (filteredTags.length > 0) {
-						if (sanitizedDescription == undefined) {
-							sanitizedDescription = "";
+						if (currentDescription == undefined) {
+							currentDescription = "";
 						} else {
-							sanitizedDescription += "\n\n";
+							currentDescription += "\n\n";
 						}
-						sanitizedDescription += `Tags: ${filteredTags}.`;
+						const tagText = `Tags: ${filteredTags}.`;
+						currentDescription += tagText;
+						for (const localKey of localKeys) currentDescriptionLocalized[localKey] += `\n\n${tagText}`;
 					}
 				}
 				paragonData[className]["Node"][nodeName] = {
 					name: nodeData["name"],
-					description: sanitizedDescription,
+					description: currentDescription,
+					nameLocalized: nodeData["name_localized"],
+					descriptionLocalized: currentDescriptionLocalized,
 					thresholdRequirements: nodeData["threshold_requirements"],
 				};
 			}
@@ -649,6 +621,9 @@ function runParser(downloadMode) {
 					name: nodeData["name"],
 					desc: nodeData["desc"],
 					bonus: nodeData["bonus"],
+					nameLocalized: nodeData["name_localized"],
+					descLocalized: nodeData["desc_localized"],
+					bonusLocalized: nodeData["bonus_localized"],
 					thresholdRequirements: nodeData["threshold_requirements"],
 				};
 			}
@@ -661,29 +636,36 @@ function runParser(downloadMode) {
 				const codexPowerName = nodeData["name"].startsWith("of ") ? `Aspect ${nodeData["name"]}` : `${nodeData["name"]} Aspect`;
 				const codexCategoryName = "category" in nodeData ? codexCategoryNames[nodeData["category"]] : "Unknown";
 
-				let sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
+				let currentDescription = nodeData["desc"];
+				let currentDescriptionLocalized = "desc_localized" in nodeData ? Object.assign({}, nodeData["desc_localized"]) : null;
+				const localKeys = currentDescriptionLocalized == null ? [] : Object.keys(currentDescriptionLocalized);
 				// currently unused
 				/*
 				if (nodeData["tags"] != undefined) {
 					const filteredTags = nodeData["tags"].filter(tag => !tag.includes("_")).join(", ");
 					if (filteredTags.length > 0) {
-						if (sanitizedDescription == undefined) {
-							sanitizedDescription = "";
+						if (currentDescription == undefined) {
+							currentDescription = "";
 						} else {
-							sanitizedDescription += "\n\n";
+							currentDescription += "\n\n";
 						}
-						sanitizedDescription += `Tags: ${filteredTags}.`;
+						const tagText = `Tags: ${filteredTags}.`;
+						currentDescription += tagText;
+						for (const localKey of localKeys) currentDescriptionLocalized[localKey] += `\n\n${tagText}`;
 					}
 				}
 				*/
 
-				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className, sanitizedDescription);
+				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className, currentDescription);
 				if (!(codexCategoryName in codexData[className])) codexData[className][codexCategoryName] = {};
 				codexData[className][codexCategoryName][codexPowerName] = {
 					id: getCodexId(codexPowerName, codexCategoryName, className),
 					type: "Legendary",
-					description: sanitizedDescription,
+					description: currentDescription,
 					flavor: nodeData["flavor"],
+					nameLocalized: nodeData["name_localized"],
+					descriptionLocalized: currentDescriptionLocalized,
+					flavorLocalized: nodeData["flavor_localized"],
 					dungeon: codexValues["dungeon"],
 					region: codexValues["region"]
 				};
@@ -698,15 +680,19 @@ function runParser(downloadMode) {
 			for (const [nodeName, nodeData] of Object.entries(classData["Unique"])) {
 				const codexPowerName = nodeData["name"];
 				const codexCategoryName = codexCategoryNames[nodeData["category"]];
-				const sanitizedDescription = sanitizeNodeDescription(nodeData["desc"]);
-				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className, sanitizedDescription);
+				const currentDescription = nodeData["desc"];
+				const currentDescriptionLocalized = "desc_localized" in nodeData ? nodeData["desc_localized"] : null;
+				const codexValues = getCodexValues(codexPowerName, codexCategoryName, className, currentDescription);
 				if (!(codexCategoryName in codexData[className])) codexData[className][codexCategoryName] = {};
 				codexData[className][codexCategoryName][codexPowerName] = {
 					id: getCodexId(codexPowerName, codexCategoryName, className),
 					type: "Unique",
 					slot: nodeName.split("_")[0].replace(/(1H?|2H?)(.+)/gi, "$1 $2").trim(),
-					description: sanitizedDescription,
-					flavor: nodeData["flavor"]
+					description: currentDescription,
+					flavor: nodeData["flavor"],
+					nameLocalized: nodeData["name_localized"],
+					descriptionLocalized: currentDescriptionLocalized,
+					flavorLocalized: nodeData["flavor_localized"],
 				};
 				if (codexValues["values"].length > 0) {
 					codexData[className][codexCategoryName][codexPowerName]["values"] = codexValues["values"];
