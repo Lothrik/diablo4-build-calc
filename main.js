@@ -422,7 +422,6 @@ const classString = "#classSelector option:selected";
 function handleLocaleSelection(event) {
 	writeCookie("activeLocale", $("#localeSelector option:selected").val());
 	redrawAllNodes(false);
-	resetFrameTimer();
 }
 function handleTooltipCopy(event) {
 	const tooltipChildren = pixiTooltip.children.length;
@@ -661,7 +660,6 @@ function handleClampButton(event) {
 	writeCookie("clampMode", clampMode);
 
 	repositionTooltip();
-	resetFrameTimer();
 	resizeSearchInput();
 }
 const localVersion = "0.8.1.39858-36";
@@ -736,6 +734,7 @@ function handleDocumentEvent(event) {
 				break;
 		}
 	}
+	resetFrameTimer();
 }
 function handleDetailsEvent(event) {
 	detailsWindowIsMoving = true;
@@ -835,7 +834,6 @@ function handleGroupSelection(event) {
 	const newGroupName = $("#groupSelector option:selected").text();
 	const newGroupNode = pixiNodes.find(pixiNode => pixiNode.nodeName == newGroupName);
 	if (newGroupNode != undefined) pixiJS.stage.pivot.set(newGroupNode.x - oldWidth / pixiJS.stage.scale.x * 0.5, newGroupNode.y - oldHeight / pixiJS.stage.scale.y * 0.5);
-	resetFrameTimer();
 }
 var oldSearchIdx = -1;
 var oldSearchText = "";
@@ -907,7 +905,6 @@ function handleSearchInput(event) {
 		}
 	}
 	oldSearchText = newSearchText;
-	resetFrameTimer();
 
 	if (event.type == "blur" || nodeCount == 0) {
 		const extraInfoHTML = $("#extraInfo").html();
@@ -1095,7 +1092,6 @@ function handleReloadButton() {
 			}
 
 			updateCharacterLevel();
-			resetFrameTimer();
 		}
 	}
 }
@@ -3405,7 +3401,6 @@ function rebuildCanvas() {
 	drawAllConnectors();
 
 	resizeCanvas();
-	resetFrameTimer();
 
 	$("#charLevel").text("1");
 	$("#renownLevel").empty();
@@ -3430,12 +3425,11 @@ function resizeCanvas() {
 		}
 		[oldWidth, oldHeight] = [newWidth, newHeight];
 
-		resetFrameTimer();
-
 		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 
 		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth($("#extraButtons2").width() - parseInt($("#groupSelector").css("padding-left")));
 		$("body").css({"width": newWidth, "height": newHeight }); // prevent undesirable mobile scrolling
+		resetFrameTimer();
 		applyZoomLevel();
 		resizeSearchInput();
 	}
