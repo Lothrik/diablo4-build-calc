@@ -164,6 +164,7 @@ h1, h2, h3 {
 }
 
 #floatLeft .fi, .fi-dropdown {
+	background-size: cover;
 	border: 1px solid #fff;
 	outline: 1px solid #000;
 	outline-offset: -2px;
