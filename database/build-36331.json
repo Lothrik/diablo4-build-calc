@@ -172,7 +172,7 @@
 			},
 			"legendary_barb_009": {
 				"category": 0,
-				"desc": "Increase Frenzy's maximum stacks by 2.  While you have maximum Frenzy, your other Skills gain +{10/20}% increased Attack Speed.",
+				"desc": "Increase Frenzy's maximum stacks by 2. While you have maximum Frenzy, your other Skills gain +{10/20}% increased Attack Speed.",
 				"name": "Frenzied",
 				"tags": [
 					"FILTER_Legendary_Offensive",
@@ -3564,7 +3564,7 @@
 						"Skill_Primary_Defensive",
 						"Skill_Shout"
 					],
-					"skill_desc": "Rallying Cry grants 10% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2% Base Life as Fortify each time you take or deal direct damage.",
+					"skill_desc": "Rallying Cry grants 10% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2% Base Life as Fortify each time you take or deal direct damage.",
 					"skill_name": "Strategic Rallying Cry"
 				},
 				"req_points": 0,
@@ -3991,7 +3991,7 @@
 					"power_tags": [
 						"Skill_Primary_Defensive"
 					],
-					"skill_desc": "Iron Skin also grants 9% Base Life as Fortify. Double this amount if cast while below 50% Life.",
+					"skill_desc": "Iron Skin also grants 9% Base Life as Fortify. Double this amount if cast while below 50% Life.",
 					"skill_name": "Strategic Iron Skin"
 				},
 				"req_points": 0,
@@ -5032,7 +5032,7 @@
 					],
 					"skill_desc": "Each time you take direct damage gain {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% Base Life as Fortify.",
 					"skill_name": "Thick Skin",
-					"skill_rankup_desc": "• Fortify Amount 🡑 {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% Base Life "
+					"skill_rankup_desc": "• Fortify Amount 🡑 {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% Base Life"
 				},
 				"req_points": 0,
 				"reward": {
@@ -20560,7 +20560,7 @@
 					"SF_16_3": "Active: Your Golem becomes Unstoppable and Taunts Nearby enemies and takes 30% reduced damage for the next 6 seconds.",
 					"SF_17": "The Golem absorbs 15% of damage you would take, and recovers Life when attacking.",
 					"SF_17_2": "Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing {40/44/48/52/56/60/64/68/72/76}% damage and healing {4/4.4/4.8/5.2/5.6/5.9/6.3/6.7/7.1/7.5}% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained.",
-					"SF_18": "Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds.  This has a [(NecroArmy_Spec_For_Pet_Type#2==2 and 10 or 16)] second cooldown."
+					"SF_18": "Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds. This has a [(NecroArmy_Spec_For_Pet_Type#2==2 and 10 or 16)] second cooldown."
 				},
 				"name": "Golem",
 				"rankup_desc": "Life increased to {#}. Attack damage increased to {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%."
