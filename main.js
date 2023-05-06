@@ -420,8 +420,33 @@ function setNodeStyleThin(curNode) {
 // event handlers
 const classString = "#classSelector option:selected";
 function handleLocaleSelection(event) {
-	writeCookie("activeLocale", $("#localeSelector option:selected").val());
-	redrawAllNodes(false);
+	if (event != undefined && event.type == "change") {
+		writeCookie("activeLocale", $("#localeSelector option:selected").val());
+		redrawAllNodes(false);
+	} else {
+		const localePairs = {
+			"deDE": "de",
+			"enUS": "us",
+			"esES": "es",
+			"esMX": "mx",
+			"frFR": "fr",
+			"itIT": "it",
+			"jaJP": "jp",
+			"koKR": "kr",
+			"plPL": "pl",
+			"ptBR": "br",
+			"ruRU": "ru",
+			"zhCN": "cn"
+		};
+		const currentSelection = $("#floatLeft .select2-selection__rendered");
+		currentSelection.html(`<span class="fi fi-${localePairs[readCookie("activeLocale", "enUS")]}"></span>`);
+		const dropdownOptions = $(".select2-results__option");
+		for (let i = 0, n = dropdownOptions.length; i < n; i++) {
+			for (const [localeFull, localeShort] of Object.entries(localePairs)) {
+				$(dropdownOptions[i]).html($(dropdownOptions[i]).html().replace(`[${localeFull}]`, `<span class="fi fi-${localeShort} fi-dropdown"></span>`));
+			}
+		}
+	}
 }
 function handleTooltipCopy(event) {
 	const tooltipChildren = pixiTooltip.children.length;
@@ -662,7 +687,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-36";
+const localVersion = "0.8.1.39858-37";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -3455,6 +3480,8 @@ $(document).ready(function() {
 	$("#localeSelector").removeClass("disabled").select2();
 	$("#localeSelector").val(readCookie("activeLocale", "enUS")).trigger("change");
 	$("#localeSelector").on("change", handleLocaleSelection);
+	$("#floatLeft *").on("click focus", handleLocaleSelection);
+	handleLocaleSelection();
 
 	$("#versionLabel").on("click", handleVersionLabel);
 	handleVersionInterval();

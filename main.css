@@ -161,7 +161,24 @@ h1, h2, h3 {
 
 #floatLeft > * {
 	float: left;
-	min-width: 160px;
+}
+
+#floatLeft .fi, .fi-dropdown {
+	border: 1px solid #fff;
+	outline: 1px solid #000;
+	outline-offset: -2px;
+}
+
+.fi-dropdown {
+	float: right;
+}
+
+#floatLeft .select2-container:not(.select2-container--open) {
+	width: 60px!important;
+}
+
+#floatLeft .select2-container--open, #floatLeft .select2-dropdown {
+	width: 160px!important;
 }
 
 .visible, .visible * {
