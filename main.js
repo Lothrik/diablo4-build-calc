@@ -3486,7 +3486,7 @@ $(document).ready(function() {
 	$("#localeSelector").removeClass("disabled").select2();
 	$("#localeSelector").val(readCookie("activeLocale", "enUS")).trigger("change");
 	$("#localeSelector").on("change", handleLocaleSelection);
-	$("#floatLeft .select2").on("click focus", updateLocaleSelector);
+	$("#floatLeft *").on("click focus", updateLocaleSelector);
 	updateLocaleSelector();
 
 	$("#versionLabel").on("click", handleVersionLabel);
