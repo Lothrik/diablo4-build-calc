@@ -420,31 +420,37 @@ function setNodeStyleThin(curNode) {
 // event handlers
 const classString = "#classSelector option:selected";
 function handleLocaleSelection(event) {
-	if (event != undefined && event.type == "change") {
-		writeCookie("activeLocale", $("#localeSelector option:selected").val());
-		redrawAllNodes(false);
-	} else {
-		const localePairs = {
-			"deDE": "de",
-			"enUS": "us",
-			"esES": "es",
-			"esMX": "mx",
-			"frFR": "fr",
-			"itIT": "it",
-			"jaJP": "jp",
-			"koKR": "kr",
-			"plPL": "pl",
-			"ptBR": "br",
-			"ruRU": "ru",
-			"zhCN": "cn"
-		};
-		const currentSelection = $("#floatLeft .select2-selection__rendered");
-		currentSelection.html(`<span class="fi fi-${localePairs[readCookie("activeLocale", "enUS")]}"></span>`);
-		const dropdownOptions = $(".select2-results__option");
-		for (let i = 0, n = dropdownOptions.length; i < n; i++) {
-			for (const [localeFull, localeShort] of Object.entries(localePairs)) {
-				$(dropdownOptions[i]).html($(dropdownOptions[i]).html().replace(`[${localeFull}]`, `<span class="fi fi-${localeShort} fi-dropdown"></span>`));
-			}
+	writeCookie("activeLocale", $("#localeSelector option:selected").val());
+	redrawAllNodes(false);
+}
+function updateLocaleSelector(event) {
+	if (this != undefined && $(this).hasClass("select2")) {
+		const searchField = $(".select2-search__field");
+		if (searchField.attr("has-flag-listener") != "true") {
+			searchField.on("input", updateLocaleSelector);
+			searchField.attr("has-flag-listener", "true");
+		}
+	}
+	const localePairs = {
+		"deDE": "de",
+		"enUS": "us",
+		"esES": "es",
+		"esMX": "mx",
+		"frFR": "fr",
+		"itIT": "it",
+		"jaJP": "jp",
+		"koKR": "kr",
+		"plPL": "pl",
+		"ptBR": "br",
+		"ruRU": "ru",
+		"zhCN": "cn"
+	};
+	const currentSelection = $("#floatLeft .select2-selection__rendered");
+	currentSelection.html(`<span class="fi fi-${localePairs[readCookie("activeLocale", "enUS")]}"></span>`);
+	const dropdownOptions = $(".select2-results__option");
+	for (let i = 0, n = dropdownOptions.length; i < n; i++) {
+		for (const [localeFull, localeShort] of Object.entries(localePairs)) {
+			$(dropdownOptions[i]).html($(dropdownOptions[i]).html().replace(`[${localeFull}]`, `<span class="fi fi-${localeShort} fi-dropdown"></span>`));
 		}
 	}
 }
@@ -3480,8 +3486,8 @@ $(document).ready(function() {
 	$("#localeSelector").removeClass("disabled").select2();
 	$("#localeSelector").val(readCookie("activeLocale", "enUS")).trigger("change");
 	$("#localeSelector").on("change", handleLocaleSelection);
-	$("#floatLeft *").on("click focus", handleLocaleSelection);
-	handleLocaleSelection();
+	$("#floatLeft .select2").on("click focus", updateLocaleSelector);
+	updateLocaleSelector();
 
 	$("#versionLabel").on("click", handleVersionLabel);
 	handleVersionInterval();
