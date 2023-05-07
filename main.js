@@ -264,12 +264,13 @@ const borderColor = 0xFFFFFF;//borderColorHEX.length == 8 ? Number(borderColorHE
 const borderOpacity = 1;//borderColorHEX.length == 8 ? 1 : (borderColorHEX & 0xFF) / 255;
 const activeConnectorColor = 0xFF0000;
 const activeNodeColor = 0xFF0000;
+const searchQueryMatchColor = 0x00FF00;
 
 const lineStyleThinSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: true, width: 1 };
 const lineStyleThinButt = { alpha: borderOpacity, cap: PIXI.LINE_CAP.BUTT, color: borderColor, native: true, width: 1 };
 const lineStyleThickSquareTooltip = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: borderColor, native: false, width: 8 };
-var lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: activeNodeColor, native: false, width: 8 };
-var lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
+const lineStyleThickSquare = { alpha: borderOpacity, cap: PIXI.LINE_CAP.SQUARE, color: activeNodeColor, native: false, width: 8 };
+const lineStyleThickButt = { alpha: 1, cap: PIXI.LINE_CAP.BUTT, color: activeConnectorColor, native: false, width: 8 };
 
 var pixiAllocatedPoints = new Map();
 var pixiAllocatedParagonPoints = 0;
@@ -361,24 +362,28 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 function setNodeStyleThick(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	const searchQueryMatch = curNode.nodeData.get("searchQueryMatch");
-	const desiredNodeStyle = `thick${allocatedPoints > 0 ? "-allocated" : ""}${searchQueryMatch ? "-invert" : ""}`;
+	const desiredNodeStyle = `thick${allocatedPoints > 0 ? "-allocated" : ""}${searchQueryMatch ? "-match" : ""}`;
+
 	if (curNode.activeNodeStyle == desiredNodeStyle) return;
+
+	const colorOverride = curNode.nodeData.get("colorOverride");
+	const _textColor = searchQueryMatch ? searchQueryMatchColor : colorOverride == undefined ? textColor : colorOverride;
 
 	let _lineStyleThickSquare = { ...lineStyleThickSquare };
 	if (searchQueryMatch) {
-		if ([0xFF0000, 0xFFFFFF].includes(_lineStyleThickSquare.color)) {
-			_lineStyleThickSquare.color = 0x00FF00;
-		} else {
-			_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
-		}
+		_lineStyleThickSquare.color = searchQueryMatchColor;
 	} else if (curNode.groupName == PARAGON_BOARD) {
 		_lineStyleThickSquare.color = COLOR_OVERRIDE["Allocated"];
-	} else if (curNode.nodeData.get("colorOverride") != undefined) {
-		_lineStyleThickSquare.color = curNode.nodeData.get("colorOverride");
+	} else if (colorOverride != undefined) {
+		_lineStyleThickSquare.color = colorOverride;
 	}
 
+	curNode.children[1].style.fill = _textColor;
 	if (allocatedPoints > 0) curNode.children[1].style.fontWeight = "bold";
 	if (curNode.children.length > 3) {
+		curNode.children[2].style.fill = _textColor;
+		curNode.children[3].children[0].style.fill = _textColor;
+		curNode.children[4].children[0].style.fill = _textColor;
 		if (allocatedPoints > 0) {
 			curNode.children[2].style.fontWeight = "bold";
 			curNode.children[3].children[0].style.fontWeight = "bold";
@@ -394,16 +399,24 @@ function setNodeStyleThick(curNode) {
 function setNodeStyleThin(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	const searchQueryMatch = curNode.nodeData.get("searchQueryMatch");
-	const desiredLineStyle = `thin${allocatedPoints == 0 ? "" : "-allocated"}${searchQueryMatch ? "-invert" : ""}`;
+	const desiredLineStyle = `thin${allocatedPoints == 0 ? "" : "-allocated"}${searchQueryMatch ? "-match" : ""}`;
+
 	if (curNode.activeNodeStyle == desiredLineStyle) return;
 
+	const colorOverride = curNode.nodeData.get("colorOverride");
+	const _textColor = searchQueryMatch ? searchQueryMatchColor : colorOverride == undefined ? textColor : colorOverride;
+
 	let _lineStyleThinSquare = { ...lineStyleThinSquare };
-	if (curNode.nodeData.get("colorOverride") != undefined) {
-		_lineStyleThinSquare.color = curNode.nodeData.get("colorOverride");
+	if (colorOverride != undefined) {
+		_lineStyleThinSquare.color = colorOverride;
 	}
 
+	curNode.children[1].style.fill = _textColor;
 	if (allocatedPoints == 0) curNode.children[1].style.fontWeight = "normal";
 	if (curNode.children.length > 3) {
+		curNode.children[2].style.fill = _textColor;
+		curNode.children[3].children[0].style.fill = _textColor;
+		curNode.children[4].children[0].style.fill = _textColor;
 		if (allocatedPoints == 0) {
 			curNode.children[2].style.fontWeight = "normal";
 			curNode.children[3].children[0].style.fontWeight = "normal";
@@ -693,7 +706,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-37";
+const localVersion = "0.8.1.39858-38";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2024,13 +2037,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	const maxPoints = nodeData.get("maxPoints");
 	const requiredPoints = nodeData.get("requiredPoints");
 
-	// `searchQueryMatch` implies `useThickNodeStyle` and `invertColor`; is set in `handleSearchInput(...)`; and is only used for restoring node style after `redrawNode` is called
 	const searchQueryMatch = nodeData.get("searchQueryMatch");
-
 	const useThickNodeStyle = searchQueryMatch || (groupName == undefined ? requiredPoints <= getAllocatedSkillPoints(nodeName) : allocatedPoints > 0);
 
 	const colorOverride = nodeData.get("colorOverride");
-	const _textColor = colorOverride != undefined ? colorOverride : textColor;
+	const _textColor = searchQueryMatch ? searchQueryMatchColor : colorOverride == undefined ? textColor : colorOverride;
 
 	let extraContainer, extraContainer2, extraContainer3, extraContainer4, extraContainer5;
 	if (extraData != null) {
@@ -2200,9 +2211,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		};
 		nodeText2.eventMode = "auto";
 		nodeText2.scale.set(1 / scaleFactor);
-		nodeText2.anchor.set(0.5);
-		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText2.width) * 0.5 - 5;
-		nodeText2.y = (nodeText2.height - _nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? -2 : 2);
+		nodeText2.anchor.set(1, 0);
+		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 - 10;
+		nodeText2.y = -(_nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? 1 : 7);
 
 		minusContainer = updateExistingNode ? pixiNodes[nodeIndex].children[3] : new PIXI.Container();
 		minusContainer.cursor = "pointer";
@@ -2231,9 +2242,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		};
 		nodeText3.eventMode = "auto";
 		nodeText3.scale.set(1 / scaleFactor);
-		nodeText3.anchor.set(0.5);
-		nodeText3.x = (nodeText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 4;
-		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText3.height) * 0.5 + (shapeType == "circle" ? 8 : 0);
+		nodeText3.anchor.set(0, 1);
+		nodeText3.x = -(_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 9;
+		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? 3 : -5);
 		if (!updateExistingNode) minusContainer.addChild(nodeText3);
 
 		plusContainer = updateExistingNode ? pixiNodes[nodeIndex].children[4] : new PIXI.Container();
@@ -2263,9 +2274,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		};
 		nodeText4.eventMode = "auto";
 		nodeText4.scale.set(1 / scaleFactor);
-		nodeText4.anchor.set(0.5);
-		nodeText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - nodeText4.width) * 0.5;
-		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor - nodeText4.height) * 0.5 + (shapeType == "circle" ? 12 : 4);
+		nodeText4.anchor.set(1, 1);
+		nodeText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 - 5;
+		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? 7 : -1);
 		if (!updateExistingNode) plusContainer.addChild(nodeText4);
 	}
 
@@ -2277,12 +2288,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
 	if (([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
 		let _lineStyleThickSquare = { ...lineStyleThickSquare };
-		if (searchQueryMatch) { // aka `invertColor`
-			if ([0xFF0000, 0xFFFFFF].includes(_lineStyleThickSquare.color)) {
-				_lineStyleThickSquare.color = 0x00FF00;
-			} else {
-				_lineStyleThickSquare.color = _lineStyleThickSquare.color ^ 0xFFFFFF;
-			}
+		if (searchQueryMatch) {
+			_lineStyleThickSquare.color = searchQueryMatchColor;
 		} else if (groupName == PARAGON_BOARD) {
 			_lineStyleThickSquare.color = COLOR_OVERRIDE["Allocated"];
 		} else if (colorOverride != undefined) {
@@ -2721,6 +2728,7 @@ function drawAllNodes() {
 				drawNode(boardName, paragonBoardNode, PARAGON_BOARD, unsortedIndex > 0 ? unsortedIndex : null);
 				const boardHeader = pixiNodes[pixiNodes.length - 1];
 
+				let socketData = null;
 				for (const [yPosition, rowData] of Object.entries(boardData)) {
 					for (const [xPosition, nodeData] of Object.entries(rowData)) {
 						if (nodeData.length > 0) {
@@ -2766,11 +2774,19 @@ function drawAllNodes() {
 								["x", nodeSpacingX * (Number(xPosition) - 10)],
 								["y", nodeSpacingY * (Number(yPosition) - 10)]
 							]);
-							drawNode(nodeName, boardNode, PARAGON_BOARD);
-							if (nodeType == "Socket") paragonBoardNode.set("glyphSocket", pixiNodes[pixiNodes.length - 1]);
-							boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
+							if (nodeType == "Socket") {
+								socketData = [nodeName, boardNode]; // defer drawing glyph socket (z-index texture workaround)
+							} else {
+								drawNode(nodeName, boardNode, PARAGON_BOARD);
+								boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
+							}
 						}
 					}
+				}
+				if (socketData != null) {
+					drawNode(socketData[0], socketData[1], PARAGON_BOARD);
+					paragonBoardNode.set("glyphSocket", pixiNodes[pixiNodes.length - 1]);
+					boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
 				}
 				boardContainer.startPosition = new PIXI.Point(boardX, boardY + nodeSpacingY * 11);
 				boardContainer.position.copyFrom(boardContainer.startPosition);
