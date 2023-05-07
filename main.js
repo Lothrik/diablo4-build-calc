@@ -793,16 +793,20 @@ function handleCanvasEvent(event) {
 					event.originalEvent.touches[0].clientY - event.originalEvent.touches[1].clientY);
 			}
 			break;
-		case "touchend":
-			touchTimer = null;
-			isTouching = false;
-			break;
+		case "mouseenter":
+		case "mouseleave":
+			if (!pixiDragging) eraseTooltip();
+			return;
 		case "touchmove":
 			if (touchTimer != null && Date.now() - touchTimer > 1500) {
 				touchTimer = null;
 				eraseTooltip();
 			}
 			break;
+		case "touchend":
+			touchTimer = null;
+			isTouching = false;
+			return;
 	}
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
 		if (event.type == "wheel") {
@@ -3511,7 +3515,7 @@ $(document).ready(function() {
 	$(window).on("mousemove touchmove mouseup touchend", handleDocumentEvent);
 
 	$("#canvasContainer").append(pixiJS.renderer.view);
-	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove mouseup touchend contextmenu", handleCanvasEvent);
+	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove mouseenter mouseleave mouseup touchend contextmenu", handleCanvasEvent);
 	$(window).on("copy", handleTooltipCopy);
 	$(window).on("resize", resizeCanvas);
 
