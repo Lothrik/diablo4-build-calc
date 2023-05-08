@@ -178,8 +178,9 @@ const COLOR_OVERRIDE = {
 	"Legendary": 0xFF7700,
 	"Start": 0xFF0000,
 	"Gate": 0xFF0000,
-	"Socket": 0xFF0000,
-	"Allocated": 0xFF0000
+	"Socket": 0xFF00FF,
+	"Allocated": 0xFF0000,
+	"Allocated Socket": 0xFF00FF,
 };
 
 // sorted object groups, mostly used for summary text processing
@@ -357,7 +358,7 @@ function setNodeStyleThick(curNode) {
 	if (searchQueryMatch) {
 		_lineStyleThickSquare.color = searchQueryMatchColor;
 	} else if (curNode.groupName == PARAGON_BOARD) {
-		_lineStyleThickSquare.color = COLOR_OVERRIDE["Allocated"];
+		_lineStyleThickSquare.color = COLOR_OVERRIDE[curNode.nodeData.get("nodeType") == "Socket" ? "Allocated Socket" : "Allocated"];
 	} else if (colorOverride != undefined) {
 		_lineStyleThickSquare.color = colorOverride;
 	}
@@ -2284,7 +2285,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		if (searchQueryMatch) {
 			_lineStyleThickSquare.color = searchQueryMatchColor;
 		} else if (groupName == PARAGON_BOARD) {
-			_lineStyleThickSquare.color = COLOR_OVERRIDE["Allocated"];
+			_lineStyleThickSquare.color = COLOR_OVERRIDE[nodeData.get("nodeType") == "Socket" ? "Allocated Socket" : "Allocated"];
 		} else if (colorOverride != undefined) {
 			_lineStyleThickSquare.color = colorOverride;
 		}
