@@ -695,7 +695,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-40";
+const localVersion = "0.8.1.39858-41";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -3496,7 +3496,7 @@ function readCookie(name, fallback = "") {
 function writeCookie(name, value) {
 	let date = new Date();
 	date.setFullYear(date.getFullYear() + 1);
-	document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
+	document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/;SameSite=None;Secure`;
 }
 
 // finalize the page once DOM has loaded
