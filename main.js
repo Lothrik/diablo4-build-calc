@@ -1374,9 +1374,9 @@ function equipParagonBoardGlyph(curNode) {
 	});
 	applyZoomLevel(); // hacky workaround for select2 transform bug
 
-	function updateGlyphDescText() {
+	function updateGlyphDescText(event) {
 		const glyphIndex = Number($("#modalSelect").val());
-		const glyphRank = Number(this && $(this) == $("#modalSlider") ? this.value : $("#modalSlider").val());
+		const glyphRank = Number(event && event.type == "input" ? this.value : $("#modalSlider").val());
 		const glyphData = getGlyphData(glyphIndex);
 		const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
 			.replace(/{(.+?)}/g, (matchString, captureString) => {
