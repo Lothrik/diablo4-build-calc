@@ -1379,7 +1379,7 @@ function equipParagonBoardGlyph(curNode) {
 
 	function updateGlyphDescText() {
 		const glyphIndex = Number($("#modalSelect").val());
-		const glyphRank = Number($("#modalSlider").val());
+		const glyphRank = this == undefined ? Number($("#modalSlider").val()) : Number(this.value);
 		const glyphData = getGlyphData(glyphIndex);
 		const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
 			.replace(/{(.+?)}/g, (matchString, captureString) => {
@@ -1390,7 +1390,7 @@ function equipParagonBoardGlyph(curNode) {
 	}
 
 	$("#modalSelect").on("change", updateGlyphDescText);
-	$("#modalSlider").on("change", updateGlyphDescText);
+	$("#modalSlider").on("input", updateGlyphDescText);
 
 	if (paragonBoardGlyphData[boardIndex] != undefined) $("#modalSelect").val(paragonBoardGlyphData[boardIndex]).trigger("change");
 	if (paragonBoardGlyphRankData[boardIndex] != undefined) $("#modalSlider").val(paragonBoardGlyphRankData[boardIndex]).trigger("change");

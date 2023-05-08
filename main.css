@@ -230,7 +230,7 @@ h1, h2, h3 {
 	top: -5px;
 	width: 330px;
 	height: 10px;
-	cursor: default;
+	cursor: ew-resize;
 	padding: 0;
 	border-radius: 2.5px;
 	background: rgba(255, 255, 255, 0.15);
@@ -253,7 +253,6 @@ h1, h2, h3 {
 #modalSlider::-webkit-slider-thumb {
 	width: 20px;
 	height: 20px;
-	cursor: pointer;
 	border-radius: 2.5px;
 	background-color: #fff;
 	appearance: none;
