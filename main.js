@@ -1367,9 +1367,6 @@ function equipParagonBoardGlyph(curNode) {
 		templateResult: data => data.text.replace("[br]", "<br>"),
 		templateSelection: data => data.text.replace("[br]", "<br>")
 	});
-	$("#modalBox").on("select2:open", e => {
-		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())
-	})
 	applyZoomLevel(); // hacky workaround for select2 transform bug
 
 	function updateGlyphDescText() {
@@ -1489,12 +1486,7 @@ function equipParagonBoard(curNode) {
 		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
 		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
 
-	$("#modalSelect").select2({
-		dropdownParent: $("#modalDiv2")
-	});
-	$("#modalBox").on("select2:open", e => {
-		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())
-	})
+	$("#modalSelect").select2({ dropdownParent: $("#modalDiv2") });
 	applyZoomLevel(); // hacky workaround for select2 transform bug
 
 	$("#modalConfirm").on("click", () => {
@@ -3531,6 +3523,7 @@ $(document).ready(function() {
 	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove mouseenter mouseleave mouseup touchend contextmenu", handleCanvasEvent);
 	$(window).on("copy", handleTooltipCopy);
 	$(window).on("resize", resizeCanvas);
+	$(window).on("select2:open", e => $(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus()));
 
 	refreshDetailsWindow();
 	try {
