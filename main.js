@@ -1337,14 +1337,14 @@ function equipParagonBoardGlyph(curNode) {
 			.replace(/{(.+?)}/g, (matchString, captureString) => {
 			const outputString = captureString.split("/");
 			return outputString[outputString.length - 1];
-		});
+		}) + ` (Requires: ${glyphData.thresholdRequirements})`;
 		const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
 		if (glyphBoard == undefined) {
 			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}[br]${localizedGlyphDesc}</option>`;
 		} else {
 			const socketHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == glyphBoard);
 			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}`;
-			if (localizedGlyphDesc.length > localizedGlyphName.length + localizedGlyphBonus.length) {
+			if (localizedGlyphName.length + localizedGlyphBonus.length < localizedGlyphDesc.length) {
 				modalOptions += ` (Socketed in: [${socketHeader.nodeName}])[br]${localizedGlyphDesc}</option>`;
 			} else {
 				modalOptions += `[br]${localizedGlyphDesc} (Socketed in: [${socketHeader.nodeName}])</option>`;
@@ -3010,7 +3010,7 @@ function drawTooltip(curNode, forceDraw) {
 					});
 					const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
 					curNode.nodeData.set("nameOverride", `${curNode.localizedName} [${localizedGlyphName} — Rank ${glyphRank}]`);
-					curNode.nodeData.set("thresholdRequirements", glyphData["thresholdRequirements"]);
+					curNode.nodeData.set("thresholdRequirements", glyphData.thresholdRequirements);
 					nodeDesc = `${localizedGlyphDesc}\n\nAdditional Bonus: (if requirements met)\n${localizedGlyphBonus}\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}`;
 				} else {
 					nodeDesc = "Allocate this node to see a list of available glyphs.";
