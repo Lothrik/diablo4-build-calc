@@ -1376,7 +1376,7 @@ function equipParagonBoardGlyph(curNode) {
 
 	function updateGlyphDescText() {
 		const glyphIndex = Number($("#modalSelect").val());
-		const glyphRank = Number(this == undefined ? $("#modalSlider").val() : this.value);
+		const glyphRank = Number(this && $(this) == $("#modalSlider") ? this.value : $("#modalSlider").val());
 		const glyphData = getGlyphData(glyphIndex);
 		const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
 			.replace(/{(.+?)}/g, (matchString, captureString) => {
