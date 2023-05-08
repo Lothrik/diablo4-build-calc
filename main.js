@@ -573,7 +573,15 @@ function handleSummaryButton(event) {
 			} else if (nodeType == "Rare") {
 				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: [${Object.keys(nodeData).join("], [")}].`;
 			} else if (nodeType == "Socket") {
-				paragonOutput += `\n\t\t${nodeTypeCount} glyph ${nodeType.toLowerCase()} allocated.`;
+				paragonOutput += `\n\t\t${nodeTypeCount} glyph ${nodeType.toLowerCase()} allocated`;
+				const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeName == boardName);
+				const boardIndex = boardHeader.nodeData.get("boardIndex");
+				if (boardIndex in paragonBoardGlyphData) {
+					const glyphData = getGlyphData(paragonBoardGlyphData[boardIndex]);
+					paragonOutput += `: [${glyphData.name}] — "${glyphData.bonus}"`;
+				} else {
+					paragonOutput += `.`;
+				}
 			} else if (nodeType == "Legendary") {
 				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: "${Object.values(nodeData)[0].split("\n\nTags:")[0]}"`;
 			}
