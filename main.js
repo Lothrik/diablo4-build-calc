@@ -633,7 +633,7 @@ function handleDetailsButton(event) {
 	refreshDetailsWindow();
 }
 function refreshDetailsWindow() {
-	const className = $(classString).val();
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (detailsMode && className != "none") {
 		let baseStr = 7;
 		let baseInt = 7;
@@ -844,13 +844,15 @@ function handleCanvasEvent(event) {
 	event.preventDefault();
 }
 function handleClassSelection(event, postHookFunction = null) {
-	const classText = $(classString).text();
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
+	const classText = className[0].toUpperCase() + className.slice(1);
+
 	if (classText != $("#className").text()) {
 		$("#classSelectBox").addClass("disabled");
-		if (classText != "None") $("#modalBox").text("[Loading...]").removeClass("disabled");
+		if (className != "none") $("#modalBox").text("[Loading...]").removeClass("disabled");
 		setTimeout(() => {
 			$("#className").text(classText);
-			if (classText == "None") {
+			if (className == "none") {
 				$("#header h2, #versionLabel, #extraButtons1, #extraButtons2, #groupSelector, #searchInput").addClass("disabled");
 				$("#classSelectBox").removeClass("disabled");
 				$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("disabled");
@@ -973,8 +975,12 @@ function closeExtraInfo() {
 	$("#extraInfo").empty().addClass("disabled");
 	$("#menuButton").text(OPEN_MENU_TEXT);
 }
+function handleResetButton() {
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
+	return className == "none" ? handleClassSelection() : rebuildCanvas();
+}
 function handleSaveButton() {
-	const className = $(classString).val();
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (className == "none") {
 		window.location.replace(window.location.href.split(/[#?&]/)[0]);
 	} else {
@@ -1010,7 +1016,7 @@ function handleSaveButton() {
 	}
 }
 function handleReloadButton() {
-	const className = $(classString).val();
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	const urlHash = window.location.hash.replace("#", "").split(/[?&]/)[0];
 
 	let nodeData = { className: className };
@@ -1027,8 +1033,7 @@ function handleReloadButton() {
 	}
 
 	if (nodeData.className == "none") {
-		$("#classSelectBox").removeClass("disabled");
-		$("#extraInfo").html(DATABASE_LINK_HTML).css("width", "auto").removeClass("disabled");
+		handleClassSelection();
 	} else {
 		$("#classSelector").val(nodeData.className);
 		handleClassSelection(null, finishLoading);
@@ -1313,7 +1318,8 @@ function equipParagonBoardGlyph(curNode) {
 	const boardIndex = curNode.nodeData.get("_boardIndex");
 	const boardHeader = curNode.nodeData.get("_boardHeader");
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
-	const className = $(classString).val();
+
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	const classText = className[0].toUpperCase() + className.slice(1);
 
 	const paragonGlyphs = paragonData[classText]["Glyph"];
@@ -1463,7 +1469,7 @@ function equipParagonBoard(curNode) {
 	const gridBoardIndex = Object.keys(paragonBoardGridData).find(key => paragonBoardGridData[key] == gridTarget);
 	if (gridBoardIndex != null) return;
 
-	const className = $(classString).val();
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	const classText = className[0].toUpperCase() + className.slice(1);
 
 	const paragonBoards = Object.keys(paragonData[classText]["Board"]);
@@ -1623,22 +1629,20 @@ function updateNodePoints(curNode, newPoints) {
 			setNodeStyleThick(curNode);
 		}
 
-		const className = $(classString).val();
+		const className = $(classString).length == 0 ? "none" : $(classString).val();
 		const classData = classMap.get(className);
-		if (classData != undefined) {
-			const trunkData = classData.get("Trunk Data");
-			pixiNodes.filter(pixiNode => pixiNode.groupName == undefined).forEach(groupNode => {
-				const requiredPoints = groupNode.nodeData.get("requiredPoints");
-				const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
-				validConnection ? setNodeStyleThick(groupNode) : setNodeStyleThin(groupNode);
-			});
-		}
+		const trunkData = classData.get("Trunk Data");
+		pixiNodes.filter(pixiNode => pixiNode.groupName == undefined).forEach(groupNode => {
+			const requiredPoints = groupNode.nodeData.get("requiredPoints");
+			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
+			validConnection ? setNodeStyleThick(groupNode) : setNodeStyleThin(groupNode);
+		});
 
 		pixiConnectors.forEach(connector => updateConnectorLineStyle(connector, connector.startNode, connector.endNode));
 	}
 }
 function getGlyphData(glyphIndex) {
-	const className = $(classString).val();
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	const classText = className[0].toUpperCase() + className.slice(1);
 
 	const paragonGlyphs = paragonData[classText]["Glyph"];
@@ -2480,441 +2484,441 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	node.scaleFactor = scaleFactor;
 }
 function drawAllNodes() {
-	const className = $(classString).val();
-	const classText = className[0].toUpperCase() + className.slice(1);
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
+
 	const classData = classMap.get(className);
-	if (classData != undefined) {
-		const trunkData = classData.get("Trunk Data");
-		$("#groupSelector").empty();
-		for (const [groupName, groupData] of classData) {
-			const branchData = trunkData.get(groupName);
-			if (branchData != undefined) {
-				$("#groupSelector").append(`<option value="${groupName.replace(/\s/g, "").toLowerCase()}">${groupName}</option>`);
-				// special logic for group node
-				const groupNode = new Map();
-				if (branchData.get("requiredPoints") != undefined) {
-					groupNode.set("description", REQUIRED_POINTS_DESC);
-				}
-				groupNode.set("shapeSize", 1 / Math.SQRT2 * 1.5);
-				groupNode.set("shapeType", "circle");
-				groupNode.set("requiredPoints", branchData.get("requiredPoints") || 0);
-				groupNode.set("x", branchData.get("x"));
-				groupNode.set("y", branchData.get("y"));
-				if (groupName == SPIRIT_BOONS) {
-					groupNode.set("colorOverride", 0xFFFFFF);
-					groupNode.set("shapeSize", 1);
-					groupNode.set("shapeType", "rectangle");
-					groupNode.set("widthOverride", 1700);
+	if (classData == undefined) return;
 
-					drawNode(groupName, groupNode);
+	const trunkData = classData.get("Trunk Data");
+	const classText = className[0].toUpperCase() + className.slice(1);
 
-					const nodeSpacingX = 350;
-					const nodeSpacingY = 150;
-					const nodeLimitX = 5;
-					const nodeLimitY = 2;
+	$("#groupSelector").empty();
+	for (const [groupName, groupData] of classData) {
+		const branchData = trunkData.get(groupName);
+		if (branchData != undefined) {
+			$("#groupSelector").append(`<option value="${groupName.replace(/\s/g, "").toLowerCase()}">${groupName}</option>`);
+			// special logic for group node
+			const groupNode = new Map();
+			if (branchData.get("requiredPoints") != undefined) {
+				groupNode.set("description", REQUIRED_POINTS_DESC);
+			}
+			groupNode.set("shapeSize", 1 / Math.SQRT2 * 1.5);
+			groupNode.set("shapeType", "circle");
+			groupNode.set("requiredPoints", branchData.get("requiredPoints") || 0);
+			groupNode.set("x", branchData.get("x"));
+			groupNode.set("y", branchData.get("y"));
+			if (groupName == SPIRIT_BOONS) {
+				groupNode.set("colorOverride", 0xFFFFFF);
+				groupNode.set("shapeSize", 1);
+				groupNode.set("shapeType", "rectangle");
+				groupNode.set("widthOverride", 1700);
 
-					const exclusiveBoonTypes = Array.from(groupData.keys()).map(boonTypeName => boonTypeName);
+				drawNode(groupName, groupNode);
 
-					let extraY = nodeSpacingY;
-					for (const [boonTypeName, _boonTypeData] of groupData) {
-						let extraX = -nodeSpacingX * 2;
-						const boonTypeNode = new Map([
+				const nodeSpacingX = 350;
+				const nodeSpacingY = 150;
+				const nodeLimitX = 5;
+				const nodeLimitY = 2;
+
+				const exclusiveBoonTypes = Array.from(groupData.keys()).map(boonTypeName => boonTypeName);
+
+				let extraY = nodeSpacingY;
+				for (const [boonTypeName, _boonTypeData] of groupData) {
+					let extraX = -nodeSpacingX * 2;
+					const boonTypeNode = new Map([
+						["allocatedPoints", 0],
+						["description", SPIRIT_BOON_DESC],
+						["exclusiveNodes", exclusiveBoonTypes],
+						["id", _boonTypeData.get("id")],
+						["maxPoints", 1],
+						["shapeSize", 1],
+						["shapeType", "rectangle"],
+						["widthOverride", 300],
+						["x", extraX],
+						["y", extraY]
+					]);
+
+					drawNode(boonTypeName, boonTypeNode, groupName, branchData);
+
+					let boonTypeData = new Map(_boonTypeData);
+					boonTypeData.delete("id");
+					const exclusiveBoons = Array.from(boonTypeData.keys()).map(boonData => boonData);
+
+					extraX += nodeSpacingX;
+					for (const [boonName, boonData] of boonTypeData) {
+						const boonModifiers = 4;
+						const boonNode = new Map([
 							["allocatedPoints", 0],
-							["description", SPIRIT_BOON_DESC],
-							["exclusiveNodes", exclusiveBoonTypes],
-							["id", _boonTypeData.get("id")],
+							["boonTypeName", boonTypeName],
+							["description", boonData.get("description")],
+							["exclusiveNodes", exclusiveBoons],
+							["id", boonData.get("id")],
 							["maxPoints", 1],
 							["shapeSize", 1],
 							["shapeType", "rectangle"],
+							["values", boonData.get("values")],
 							["widthOverride", 300],
 							["x", extraX],
 							["y", extraY]
 						]);
 
-						drawNode(boonTypeName, boonTypeNode, groupName, branchData);
-
-						let boonTypeData = new Map(_boonTypeData);
-						boonTypeData.delete("id");
-						const exclusiveBoons = Array.from(boonTypeData.keys()).map(boonData => boonData);
+						drawNode(boonName, boonNode, groupName, branchData);
 
 						extraX += nodeSpacingX;
-						for (const [boonName, boonData] of boonTypeData) {
-							const boonModifiers = 4;
-							const boonNode = new Map([
-								["allocatedPoints", 0],
-								["boonTypeName", boonTypeName],
-								["description", boonData.get("description")],
-								["exclusiveNodes", exclusiveBoons],
-								["id", boonData.get("id")],
-								["maxPoints", 1],
-								["shapeSize", 1],
-								["shapeType", "rectangle"],
-								["values", boonData.get("values")],
-								["widthOverride", 300],
-								["x", extraX],
-								["y", extraY]
-							]);
-
-							drawNode(boonName, boonNode, groupName, branchData);
-
-							extraX += nodeSpacingX;
-						}
-						extraY += nodeSpacingY * (nodeLimitY - 1);
 					}
-				} else if (groupName == BOOK_OF_THE_DEAD) {
-					groupNode.set("colorOverride", 0xFFFFFF);
-					groupNode.set("shapeSize", 1);
-					groupNode.set("shapeType", "rectangle");
-					groupNode.set("widthOverride", 1600);
-					drawNode(groupName, groupNode);
-					const nodeSpacingX = 150;
-					const nodeSpacingY = 150;
-					const nodeLimitX = 5;
-					const nodeLimitY = 2;
-					let extraX = -nodeSpacingX * (nodeLimitX - 1);
-					for (const [minionName, minionData] of groupData) {
-						const minionNode = new Map([
+					extraY += nodeSpacingY * (nodeLimitY - 1);
+				}
+			} else if (groupName == BOOK_OF_THE_DEAD) {
+				groupNode.set("colorOverride", 0xFFFFFF);
+				groupNode.set("shapeSize", 1);
+				groupNode.set("shapeType", "rectangle");
+				groupNode.set("widthOverride", 1600);
+				drawNode(groupName, groupNode);
+				const nodeSpacingX = 150;
+				const nodeSpacingY = 150;
+				const nodeLimitX = 5;
+				const nodeLimitY = 2;
+				let extraX = -nodeSpacingX * (nodeLimitX - 1);
+				for (const [minionName, minionData] of groupData) {
+					const minionNode = new Map([
+						["allocatedPoints", 0],
+						["description", minionData.get("description")],
+						["maxPoints", 0],
+						["nameOverride", minionData.get("name")],
+						["shapeSize", 1],
+						["shapeType", "rectangle"],
+						["widthOverride", 400],
+						["x", extraX],
+						["y", nodeSpacingY]
+					]);
+
+					drawNode(minionName, minionNode, groupName, branchData);
+
+					const exclusiveNodes = Array.from(minionData.keys());
+
+					let extraY = nodeSpacingY * (nodeLimitY - 0.5);
+					for (const [minionTypeName, minionTypeData] of minionData) {
+						if (["description", "name"].includes(minionTypeName)) continue;
+						const minionUpgrades = [minionTypeData.get("sacrifice"), ...minionTypeData.get("upgrades").values()];
+						const minionTypeNode = new Map([
 							["allocatedPoints", 0],
-							["description", minionData.get("description")],
-							["maxPoints", 0],
-							["nameOverride", minionData.get("name")],
+							["description", minionTypeData.get("description")],
+							["exclusiveNodes", exclusiveNodes],
+							["id", minionTypeData.get("id")],
+							["maxPoints", 1],
 							["shapeSize", 1],
 							["shapeType", "rectangle"],
-							["widthOverride", 400],
-							["x", extraX],
-							["y", nodeSpacingY]
+							["x", extraX - nodeSpacingX * Math.ceil(minionUpgrades.length * 0.5) * 0.5],
+							["y", nodeSpacingY + extraY]
 						]);
 
-						drawNode(minionName, minionNode, groupName, branchData);
+						drawNode(minionTypeName, minionTypeNode, groupName, branchData);
 
-						const exclusiveNodes = Array.from(minionData.keys());
+						let exclusiveUpgradeNodes = [];
+						let upgradeItr = 0;
+						for (const minionUpgrade of minionUpgrades) {
+							if (upgradeItr == 0) {
+								exclusiveUpgradeNodes.push(minionTypeName + " — Sacrifice");
+							} else {
+								exclusiveUpgradeNodes.push(minionTypeName + " — Upgrade " + upgradeItr);
+							}
+							upgradeItr++;
+						}
 
-						let extraY = nodeSpacingY * (nodeLimitY - 0.5);
-						for (const [minionTypeName, minionTypeData] of minionData) {
-							if (["description", "name"].includes(minionTypeName)) continue;
-							const minionUpgrades = [minionTypeData.get("sacrifice"), ...minionTypeData.get("upgrades").values()];
-							const minionTypeNode = new Map([
+						upgradeItr = 0;
+						for (const minionUpgrade of minionUpgrades) {
+							const minionUpgradeNode = new Map([
 								["allocatedPoints", 0],
-								["description", minionTypeData.get("description")],
-								["exclusiveNodes", exclusiveNodes],
-								["id", minionTypeData.get("id")],
+								["description", minionUpgrade],
+								["exclusiveNodes", exclusiveUpgradeNodes],
+								["id", `${minionTypeData.get("id")}-${upgradeItr}`],
 								["maxPoints", 1],
 								["shapeSize", 1],
 								["shapeType", "rectangle"],
-								["x", extraX - nodeSpacingX * Math.ceil(minionUpgrades.length * 0.5) * 0.5],
-								["y", nodeSpacingY + extraY]
+								["x", extraX + nodeSpacingX * (upgradeItr == 0 ? 1 : Math.ceil((upgradeItr - 2) * 0.5))],
+								["y", nodeSpacingY + extraY + (upgradeItr == 0 ? 0 : nodeSpacingY * (upgradeItr % 2 == 0 ? 0.5 : -0.5))]
 							]);
 
-							drawNode(minionTypeName, minionTypeNode, groupName, branchData);
+							drawNode(exclusiveUpgradeNodes[upgradeItr], minionUpgradeNode, groupName, branchData);
 
-							let exclusiveUpgradeNodes = [];
-							let upgradeItr = 0;
-							for (const minionUpgrade of minionUpgrades) {
-								if (upgradeItr == 0) {
-									exclusiveUpgradeNodes.push(minionTypeName + " — Sacrifice");
-								} else {
-									exclusiveUpgradeNodes.push(minionTypeName + " — Upgrade " + upgradeItr);
-								}
-								upgradeItr++;
-							}
-
-							upgradeItr = 0;
-							for (const minionUpgrade of minionUpgrades) {
-								const minionUpgradeNode = new Map([
-									["allocatedPoints", 0],
-									["description", minionUpgrade],
-									["exclusiveNodes", exclusiveUpgradeNodes],
-									["id", `${minionTypeData.get("id")}-${upgradeItr}`],
-									["maxPoints", 1],
-									["shapeSize", 1],
-									["shapeType", "rectangle"],
-									["x", extraX + nodeSpacingX * (upgradeItr == 0 ? 1 : Math.ceil((upgradeItr - 2) * 0.5))],
-									["y", nodeSpacingY + extraY + (upgradeItr == 0 ? 0 : nodeSpacingY * (upgradeItr % 2 == 0 ? 0.5 : -0.5))]
-								]);
-
-								drawNode(exclusiveUpgradeNodes[upgradeItr], minionUpgradeNode, groupName, branchData);
-
-								upgradeItr++;
-							}
-							extraY += nodeSpacingY * nodeLimitY;
+							upgradeItr++;
 						}
-						extraX += nodeSpacingX * (nodeLimitX - 1);
+						extraY += nodeSpacingY * nodeLimitY;
 					}
-				} else {
-					drawNode(groupName, groupNode);
-					pixiAllocatedPoints.set(groupName, 0);
-					for (const [nodeName, nodeData] of groupData) {
-						const curNode = groupData.get(nodeName);
-						curNode.set("allocatedPoints", 0);
-						if (curNode.get("baseSkill") != undefined) {
-							// active skill modifier
-							curNode.set("shapeType", "diamond");
-							curNode.set("shapeSize", 0.75);
-						} else if (curNode.get("maxPoints") == 3) {
-							// passive skill
-							curNode.set("shapeType", "circle");
-							curNode.set("shapeSize", 1 / Math.SQRT2 * 0.9);
-						} else if (groupName == KEY_PASSIVE) {
-							curNode.set("shapeType", "circle");
-							curNode.set("shapeSize", 1 / Math.SQRT2 * 1.1);
-						} else {
-							// active skill
-							curNode.set("shapeType", "rectangle");
-							curNode.set("shapeSize", 1.3);
-						}
-						if (curNode.get("maxPoints") == undefined) {
-							// default to 5 max points, if unspecified
-							curNode.set("maxPoints", 5);
-						}
-						drawNode(nodeName, curNode, groupName, branchData);
+					extraX += nodeSpacingX * (nodeLimitX - 1);
+				}
+			} else {
+				drawNode(groupName, groupNode);
+				pixiAllocatedPoints.set(groupName, 0);
+				for (const [nodeName, nodeData] of groupData) {
+					const curNode = groupData.get(nodeName);
+					curNode.set("allocatedPoints", 0);
+					if (curNode.get("baseSkill") != undefined) {
+						// active skill modifier
+						curNode.set("shapeType", "diamond");
+						curNode.set("shapeSize", 0.75);
+					} else if (curNode.get("maxPoints") == 3) {
+						// passive skill
+						curNode.set("shapeType", "circle");
+						curNode.set("shapeSize", 1 / Math.SQRT2 * 0.9);
+					} else if (groupName == KEY_PASSIVE) {
+						curNode.set("shapeType", "circle");
+						curNode.set("shapeSize", 1 / Math.SQRT2 * 1.1);
+					} else {
+						// active skill
+						curNode.set("shapeType", "rectangle");
+						curNode.set("shapeSize", 1.3);
 					}
+					if (curNode.get("maxPoints") == undefined) {
+						// default to 5 max points, if unspecified
+						curNode.set("maxPoints", 5);
+					}
+					drawNode(nodeName, curNode, groupName, branchData);
 				}
 			}
 		}
+	}
 
-		const paragonBoardCount = Object.keys(paragonData[classText]["Board"]).length;
-		if (paragonBoardCount > 0) {
-			const paragonBoardNodes = 21;
+	const paragonBoardCount = Object.keys(paragonData[classText]["Board"]).length;
+	if (paragonBoardCount > 0) {
+		const paragonBoardNodes = 21;
 
-			const nodeWidth = 125;
-			const nodeHeight = 125;
-			const nodeSpacingX = nodeWidth + 25;
-			const nodeSpacingY = nodeHeight + 25;
+		const nodeWidth = 125;
+		const nodeHeight = 125;
+		const nodeSpacingX = nodeWidth + 25;
+		const nodeSpacingY = nodeHeight + 25;
 
-			const paragonNode = new Map([
-				["colorOverride", 0xFFFFFF],
-				["requiredPoints", 0],
-				["widthOverride", paragonBoardNodes * nodeSpacingX], // (paragonBoardCount * paragonBoardNodes * nodeSpacingX) + (nodeSpacingX * (paragonBoardCount - 1) * 0.5)
+		const paragonNode = new Map([
+			["colorOverride", 0xFFFFFF],
+			["requiredPoints", 0],
+			["widthOverride", paragonBoardNodes * nodeSpacingX], // (paragonBoardCount * paragonBoardNodes * nodeSpacingX) + (nodeSpacingX * (paragonBoardCount - 1) * 0.5)
+			["shapeSize", 1],
+			["shapeType", "rectangle"],
+			["x", 0],
+			["y", -nodeSpacingY * (paragonBoardNodes + 1) - 950]
+		]);
+
+		drawNode(PARAGON_BOARD, paragonNode);
+
+		const unsortedBoards = Object.entries(paragonData[classText]["Board"]);
+		const unsortedMidpoint = Math.ceil(unsortedBoards.length / 2);
+		const sortedBoards = unsortedBoards.slice(1, unsortedMidpoint).concat([unsortedBoards[0]], unsortedBoards.slice(unsortedMidpoint));
+
+		let sortedIndex = 0;
+		for (const [boardName, boardData] of sortedBoards) {
+			const unsortedIndex = unsortedBoards.findIndex(unsortedBoard => unsortedBoard[0] == boardName);
+
+			const startX = (paragonBoardNodes + 0.5) * nodeSpacingX * (sortedIndex - (paragonBoardCount - 1) * 0.5);
+			const startY = -(paragonBoardNodes + 1) * nodeSpacingY - 800;
+
+			let [boardX, boardY] = [startX, startY];
+
+			const boardContainer = new PIXI.Container();
+
+			const paragonBoardNode = new Map([
+				["allocatedPoints", 0],
+				["boardContainer", boardContainer],
+				["boardIndex", unsortedIndex],
+				["widthOverride", nodeSpacingX * paragonBoardNodes],
+				["maxPoints", 0],
 				["shapeSize", 1],
 				["shapeType", "rectangle"],
-				["x", 0],
-				["y", -nodeSpacingY * (paragonBoardNodes + 1) - 950]
+				["x", boardX],
+				["y", boardY]
 			]);
+			drawNode(boardName, paragonBoardNode, PARAGON_BOARD, unsortedIndex > 0 ? unsortedIndex : null);
+			const boardHeader = pixiNodes[pixiNodes.length - 1];
 
-			drawNode(PARAGON_BOARD, paragonNode);
+			let socketData = null;
+			for (const [yPosition, rowData] of Object.entries(boardData)) {
+				for (const [xPosition, nodeData] of Object.entries(rowData)) {
+					if (nodeData.length > 0) {
+						let nodeName = nodeData;
+						let nodeDesc = "";
+						let nodeNameLocalized = null;
+						let nodeDescLocalized = null;
+						let thresholdRequirements = null;
+						for (const classKey in paragonData) {
+							if ("Node" in paragonData[classKey] && nodeData in paragonData[classKey]["Node"]) {
+								nodeName = paragonData[classKey]["Node"][nodeData]["name"];
+								nodeDesc = paragonData[classKey]["Node"][nodeData]["description"];
+								nodeNameLocalized = paragonData[classKey]["Node"][nodeData]["nameLocalized"];
+								nodeDescLocalized = paragonData[classKey]["Node"][nodeData]["descriptionLocalized"];
+								thresholdRequirements = paragonData[classKey]["Node"][nodeData]["thresholdRequirements"];
+								break;
+							}
+						}
+						const nodeType = nodeData.includes("_Normal_") ? "Normal"
+							: nodeData.includes("_Magic_") ? "Magic"
+							: nodeData.includes("_Rare_") ? "Rare"
+							: nodeData.includes("_Legendary_") ? "Legendary"
+							: nodeData.includes("StartNode") ? "Start"
+							: nodeData == "Generic_Gate" ? "Gate"
+							: nodeData == "Generic_Socket" ? "Socket" : "";
+						const boardNode = new Map([
+							["allocatedPoints", 0],
+							["_boardHeader", boardHeader],
+							["_boardIndex", unsortedIndex],
+							["_boardName", boardName],
+							["colorOverride", COLOR_OVERRIDE[nodeType]],
+							["description", nodeDesc],
+							["descriptionLocalized", nodeDescLocalized == null ? undefined : new Map(Object.entries(nodeDescLocalized))],
+							["id", `paragon-${unsortedIndex}-${xPosition}-${yPosition}`],
+							["maxPoints", 1],
+							["nameLocalized", nodeNameLocalized == null ? undefined : new Map(Object.entries(nodeNameLocalized))],
+							["nodeType", nodeType],
+							["thresholdRequirements", thresholdRequirements],
+							["widthOverride", nodeWidth],
+							["heightOverride", nodeHeight],
+							["shapeSize", 1],
+							["shapeType", "rectangle"],
+							["x", nodeSpacingX * (Number(xPosition) - 10)],
+							["y", nodeSpacingY * (Number(yPosition) - 10)]
+						]);
+						if (nodeType == "Socket") {
+							socketData = [nodeName, boardNode]; // defer drawing glyph socket (z-index texture workaround)
+						} else {
+							drawNode(nodeName, boardNode, PARAGON_BOARD);
+							boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
+						}
+					}
+				}
+			}
+			if (socketData != null) {
+				drawNode(socketData[0], socketData[1], PARAGON_BOARD);
+				paragonBoardNode.set("glyphSocket", pixiNodes[pixiNodes.length - 1]);
+				boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
+			}
+			boardContainer.startPosition = new PIXI.Point(boardX, boardY + nodeSpacingY * 11);
+			boardContainer.position.copyFrom(boardContainer.startPosition);
+			pixiJS.stage.addChild(boardContainer);
+			sortedIndex++;
+		}
+		$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
+	}
 
-			const unsortedBoards = Object.entries(paragonData[classText]["Board"]);
-			const unsortedMidpoint = Math.ceil(unsortedBoards.length / 2);
-			const sortedBoards = unsortedBoards.slice(1, unsortedMidpoint).concat([unsortedBoards[0]], unsortedBoards.slice(unsortedMidpoint));
+	const sortedCodexItemTypeIndex = {
+		"Legendary": 0,
+		"Unique": 1
+	};
 
-			let sortedIndex = 0;
-			for (const [boardName, boardData] of sortedBoards) {
-				const unsortedIndex = unsortedBoards.findIndex(unsortedBoard => unsortedBoard[0] == boardName);
+	const validSlotTypesGeneric = ["Amulet", "Ring", "Helm", "Chest", "Gloves", "Pants", "Boots"];
+	// TODO: some slot types might be missing
+	const validSlotTypes = {
+		"barbarian": validSlotTypesGeneric.concat(["2H Polearm", "2H Axe", "2H Sword", "2H Mace", "1H Axe", "1H Mace", "1H Sword"]),
+		"druid": validSlotTypesGeneric.concat(["2H Staff", "2H Axe", "2H Mace", "1H Axe", "1H Mace", "Totem"]),
+		"necromancer": validSlotTypesGeneric.concat(["2H Scythe", "1H Scythe", "2H Sword", "1H Sword", "1H Dagger", "1H Wand", "Shield", "Focus"]),
+		"rogue": validSlotTypesGeneric.concat(["2H Bow", "2H Crossbow", "1H Dagger", "1H Sword"]),
+		"sorcerer": validSlotTypesGeneric.concat(["2H Staff", "1H Wand", "Focus"]),
+	};
 
-				const startX = (paragonBoardNodes + 0.5) * nodeSpacingX * (sortedIndex - (paragonBoardCount - 1) * 0.5);
-				const startY = -(paragonBoardNodes + 1) * nodeSpacingY - 800;
+	const unsortedCodex = getCodexData(["Generic", classText], null, validSlotTypes[className]);
 
-				let [boardX, boardY] = [startX, startY];
+	if (Object.keys(unsortedCodex).length > 0) {
+		const startX = -4000;
+		const startY = 0;
+		const nodeWidth = 400;
+		const nodeSpacingX = nodeWidth + 50;
+		const nodeSpacingY = 150;
 
-				const boardContainer = new PIXI.Container();
+		let [codexX, codexY] = [startX, startY];
 
-				const paragonBoardNode = new Map([
+		const codexNode = new Map([
+			["colorOverride", 0xFFFFFF],
+			["requiredPoints", 0],
+			["widthOverride", nodeSpacingX * 4 - 50],
+			["shapeSize", 1],
+			["shapeType", "rectangle"],
+			["x", codexX],
+			["y", codexY]
+		]);
+
+		drawNode(CODEX_OF_POWER, codexNode);
+
+		for (const codexCategoryName of sortedCodexCategoryTypes) {
+			const codexCategory = unsortedCodex[codexCategoryName];
+			if (codexCategory == undefined) continue;
+			const numCodexPowers = Object.keys(codexCategory).length;
+			if (numCodexPowers > 0) {
+				codexY += nodeSpacingY;
+
+				let codexCategoryDesc = codexCategoryName == "Other" || codexCategoryName == "Unknown" ? "" : CODEX_OF_POWER_DESC_BEFORE;
+				if (codexData["Categories"][codexCategoryName] != undefined) codexCategoryDesc += codexData["Categories"][codexCategoryName];
+				codexCategoryDesc += codexCategoryDesc.length > 0 ? `\n\n${CODEX_OF_POWER_DESC_AFTER}` : CODEX_OF_POWER_DESC_AFTER;
+				const codexCategoryNode = new Map([
 					["allocatedPoints", 0],
-					["boardContainer", boardContainer],
-					["boardIndex", unsortedIndex],
-					["widthOverride", nodeSpacingX * paragonBoardNodes],
+					["description", codexCategoryDesc],
+					["widthOverride", nodeSpacingX * 4 - 50],
 					["maxPoints", 0],
 					["shapeSize", 1],
 					["shapeType", "rectangle"],
-					["x", boardX],
-					["y", boardY]
+					["x", startX],
+					["y", codexY]
 				]);
-				drawNode(boardName, paragonBoardNode, PARAGON_BOARD, unsortedIndex > 0 ? unsortedIndex : null);
-				const boardHeader = pixiNodes[pixiNodes.length - 1];
 
-				let socketData = null;
-				for (const [yPosition, rowData] of Object.entries(boardData)) {
-					for (const [xPosition, nodeData] of Object.entries(rowData)) {
-						if (nodeData.length > 0) {
-							let nodeName = nodeData;
-							let nodeDesc = "";
-							let nodeNameLocalized = null;
-							let nodeDescLocalized = null;
-							let thresholdRequirements = null;
-							for (const classKey in paragonData) {
-								if ("Node" in paragonData[classKey] && nodeData in paragonData[classKey]["Node"]) {
-									nodeName = paragonData[classKey]["Node"][nodeData]["name"];
-									nodeDesc = paragonData[classKey]["Node"][nodeData]["description"];
-									nodeNameLocalized = paragonData[classKey]["Node"][nodeData]["nameLocalized"];
-									nodeDescLocalized = paragonData[classKey]["Node"][nodeData]["descriptionLocalized"];
-									thresholdRequirements = paragonData[classKey]["Node"][nodeData]["thresholdRequirements"];
-									break;
-								}
-							}
-							const nodeType = nodeData.includes("_Normal_") ? "Normal"
-								: nodeData.includes("_Magic_") ? "Magic"
-								: nodeData.includes("_Rare_") ? "Rare"
-								: nodeData.includes("_Legendary_") ? "Legendary"
-								: nodeData.includes("StartNode") ? "Start"
-								: nodeData == "Generic_Gate" ? "Gate"
-								: nodeData == "Generic_Socket" ? "Socket" : "";
-							const boardNode = new Map([
-								["allocatedPoints", 0],
-								["_boardHeader", boardHeader],
-								["_boardIndex", unsortedIndex],
-								["_boardName", boardName],
-								["colorOverride", COLOR_OVERRIDE[nodeType]],
-								["description", nodeDesc],
-								["descriptionLocalized", nodeDescLocalized == null ? undefined : new Map(Object.entries(nodeDescLocalized))],
-								["id", `paragon-${unsortedIndex}-${xPosition}-${yPosition}`],
-								["maxPoints", 1],
-								["nameLocalized", nodeNameLocalized == null ? undefined : new Map(Object.entries(nodeNameLocalized))],
-								["nodeType", nodeType],
-								["thresholdRequirements", thresholdRequirements],
-								["widthOverride", nodeWidth],
-								["heightOverride", nodeHeight],
-								["shapeSize", 1],
-								["shapeType", "rectangle"],
-								["x", nodeSpacingX * (Number(xPosition) - 10)],
-								["y", nodeSpacingY * (Number(yPosition) - 10)]
-							]);
-							if (nodeType == "Socket") {
-								socketData = [nodeName, boardNode]; // defer drawing glyph socket (z-index texture workaround)
-							} else {
-								drawNode(nodeName, boardNode, PARAGON_BOARD);
-								boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
+				drawNode(codexCategoryName, codexCategoryNode, CODEX_OF_POWER);
+
+				const sortedCodexPowers = Object.keys(codexCategory).sort((a, b) => {
+					const aValue = sortedCodexItemTypeIndex[codexCategory[a].type];
+					const bValue = sortedCodexItemTypeIndex[codexCategory[b].type];
+					return aValue == bValue ? a.localeCompare(b) : aValue - bValue;
+				});
+
+				let codexPowerIdx = 0;
+				for (const codexPowerName of sortedCodexPowers) {
+					const codexPower = codexCategory[codexPowerName];
+					if (codexPowerIdx % 4 == 0) {
+						codexX = startX - nodeSpacingX * 1.5;
+						if (codexPowerIdx + 4 > numCodexPowers) codexX += nodeSpacingX * (2 - (0.5 * (numCodexPowers % 4)));
+						codexY += nodeSpacingY;
+					} else {
+						if (codexPowerIdx + 4 > numCodexPowers) {
+							codexX += nodeSpacingX;
+						} else {
+							codexX = startX - nodeSpacingX * 1.5 + nodeSpacingX * (codexPowerIdx % 4);
+						}
+					}
+
+					let powerDescription = codexPower.description;
+					let powerDescriptionLocalized = codexPower.descriptionLocalized;
+					let powerLocation = [];
+					if (codexPower.dungeon) powerLocation.push(codexPower.dungeon);
+					if (codexPower.region) powerLocation.push(codexPower.region);
+					if (powerLocation.length > 0) {
+						powerDescription += "\n\n— Location —\n" + powerLocation.join(" — ");
+						if (powerDescriptionLocalized != null) {
+							const localKeys = Object.keys(powerDescriptionLocalized);
+							for (const localKey of localKeys) {
+								powerDescriptionLocalized[localKey] += "\n\n— Location —\n" + powerLocation.join(" — ");
 							}
 						}
 					}
-				}
-				if (socketData != null) {
-					drawNode(socketData[0], socketData[1], PARAGON_BOARD);
-					paragonBoardNode.set("glyphSocket", pixiNodes[pixiNodes.length - 1]);
-					boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
-				}
-				boardContainer.startPosition = new PIXI.Point(boardX, boardY + nodeSpacingY * 11);
-				boardContainer.position.copyFrom(boardContainer.startPosition);
-				pixiJS.stage.addChild(boardContainer);
-				sortedIndex++;
-			}
-			$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
-		}
 
-		const sortedCodexItemTypeIndex = {
-			"Legendary": 0,
-			"Unique": 1
-		};
-
-		const validSlotTypesGeneric = ["Amulet", "Ring", "Helm", "Chest", "Gloves", "Pants", "Boots"];
-		// TODO: some slot types might be missing
-		const validSlotTypes = {
-			"barbarian": validSlotTypesGeneric.concat(["2H Polearm", "2H Axe", "2H Sword", "2H Mace", "1H Axe", "1H Mace", "1H Sword"]),
-			"druid": validSlotTypesGeneric.concat(["2H Staff", "2H Axe", "2H Mace", "1H Axe", "1H Mace", "Totem"]),
-			"necromancer": validSlotTypesGeneric.concat(["2H Scythe", "1H Scythe", "2H Sword", "1H Sword", "1H Dagger", "1H Wand", "Shield", "Focus"]),
-			"rogue": validSlotTypesGeneric.concat(["2H Bow", "2H Crossbow", "1H Dagger", "1H Sword"]),
-			"sorcerer": validSlotTypesGeneric.concat(["2H Staff", "1H Wand", "Focus"]),
-		};
-
-		const unsortedCodex = getCodexData(["Generic", classText], null, validSlotTypes[className]);
-
-		if (Object.keys(unsortedCodex).length > 0) {
-			const startX = -4000;
-			const startY = 0;
-			const nodeWidth = 400;
-			const nodeSpacingX = nodeWidth + 50;
-			const nodeSpacingY = 150;
-
-			let [codexX, codexY] = [startX, startY];
-
-			const codexNode = new Map([
-				["colorOverride", 0xFFFFFF],
-				["requiredPoints", 0],
-				["widthOverride", nodeSpacingX * 4 - 50],
-				["shapeSize", 1],
-				["shapeType", "rectangle"],
-				["x", codexX],
-				["y", codexY]
-			]);
-
-			drawNode(CODEX_OF_POWER, codexNode);
-
-			for (const codexCategoryName of sortedCodexCategoryTypes) {
-				const codexCategory = unsortedCodex[codexCategoryName];
-				if (codexCategory == undefined) continue;
-				const numCodexPowers = Object.keys(codexCategory).length;
-				if (numCodexPowers > 0) {
-					codexY += nodeSpacingY;
-
-					let codexCategoryDesc = codexCategoryName == "Other" || codexCategoryName == "Unknown" ? "" : CODEX_OF_POWER_DESC_BEFORE;
-					if (codexData["Categories"][codexCategoryName] != undefined) codexCategoryDesc += codexData["Categories"][codexCategoryName];
-					codexCategoryDesc += codexCategoryDesc.length > 0 ? `\n\n${CODEX_OF_POWER_DESC_AFTER}` : CODEX_OF_POWER_DESC_AFTER;
-					const codexCategoryNode = new Map([
+					const codexPowerNode = new Map([
 						["allocatedPoints", 0],
-						["description", codexCategoryDesc],
-						["widthOverride", nodeSpacingX * 4 - 50],
-						["maxPoints", 0],
+						["codexCategory", codexCategoryName],
+						["description", powerDescription],
+						["descriptionLocalized", new Map(Object.entries(powerDescriptionLocalized))],
+						["id", `codex-${codexPower.id}`],
+						["itemSlot", codexPower.slot],
+						["itemType", codexPower.type],
+						["maxPoints", 1],
+						["nameLocalized", new Map(Object.entries(codexPower.nameLocalized))],
+						["widthOverride", nodeWidth],
 						["shapeSize", 1],
 						["shapeType", "rectangle"],
-						["x", startX],
+						["values", codexPower.values],
+						["x", codexX],
 						["y", codexY]
 					]);
 
-					drawNode(codexCategoryName, codexCategoryNode, CODEX_OF_POWER);
+					drawNode(codexPowerName, codexPowerNode, CODEX_OF_POWER);
 
-					const sortedCodexPowers = Object.keys(codexCategory).sort((a, b) => {
-						const aValue = sortedCodexItemTypeIndex[codexCategory[a].type];
-						const bValue = sortedCodexItemTypeIndex[codexCategory[b].type];
-						return aValue == bValue ? a.localeCompare(b) : aValue - bValue;
-					});
-
-					let codexPowerIdx = 0;
-					for (const codexPowerName of sortedCodexPowers) {
-						const codexPower = codexCategory[codexPowerName];
-						if (codexPowerIdx % 4 == 0) {
-							codexX = startX - nodeSpacingX * 1.5;
-							if (codexPowerIdx + 4 > numCodexPowers) codexX += nodeSpacingX * (2 - (0.5 * (numCodexPowers % 4)));
-							codexY += nodeSpacingY;
-						} else {
-							if (codexPowerIdx + 4 > numCodexPowers) {
-								codexX += nodeSpacingX;
-							} else {
-								codexX = startX - nodeSpacingX * 1.5 + nodeSpacingX * (codexPowerIdx % 4);
-							}
-						}
-
-						let powerDescription = codexPower.description;
-						let powerDescriptionLocalized = codexPower.descriptionLocalized;
-						let powerLocation = [];
-						if (codexPower.dungeon) powerLocation.push(codexPower.dungeon);
-						if (codexPower.region) powerLocation.push(codexPower.region);
-						if (powerLocation.length > 0) {
-							powerDescription += "\n\n— Location —\n" + powerLocation.join(" — ");
-							if (powerDescriptionLocalized != null) {
-								const localKeys = Object.keys(powerDescriptionLocalized);
-								for (const localKey of localKeys) {
-									powerDescriptionLocalized[localKey] += "\n\n— Location —\n" + powerLocation.join(" — ");
-								}
-							}
-						}
-
-						const codexPowerNode = new Map([
-							["allocatedPoints", 0],
-							["codexCategory", codexCategoryName],
-							["description", powerDescription],
-							["descriptionLocalized", new Map(Object.entries(powerDescriptionLocalized))],
-							["id", `codex-${codexPower.id}`],
-							["itemSlot", codexPower.slot],
-							["itemType", codexPower.type],
-							["maxPoints", 1],
-							["nameLocalized", new Map(Object.entries(codexPower.nameLocalized))],
-							["widthOverride", nodeWidth],
-							["shapeSize", 1],
-							["shapeType", "rectangle"],
-							["values", codexPower.values],
-							["x", codexX],
-							["y", codexY]
-						]);
-
-						drawNode(codexPowerName, codexPowerNode, CODEX_OF_POWER);
-
-						codexPowerIdx++;
-					}
+					codexPowerIdx++;
 				}
 			}
-			$("#groupSelector").append(`<option value="${CODEX_OF_POWER.replace(/\s/g, "").toLowerCase()}">${CODEX_OF_POWER}</option>`);
 		}
-
-		resizeSearchInput();
+		$("#groupSelector").append(`<option value="${CODEX_OF_POWER.replace(/\s/g, "").toLowerCase()}">${CODEX_OF_POWER}</option>`);
 	}
 }
 function drawTooltip(curNode, forceDraw) {
@@ -2959,7 +2963,8 @@ function drawTooltip(curNode, forceDraw) {
 			});
 		} else {
 			const boardIndex = curNode.nodeData.get("_boardIndex");
-			const className = $(classString).val();
+
+			const className = $(classString).length == 0 ? "none" : $(classString).val();
 			const classText = className[0].toUpperCase() + className.slice(1);
 
 			const nodeType = curNode.nodeData.get("nodeType");
@@ -3280,51 +3285,53 @@ function drawConnector(startNode, endNode) {
 function drawAllConnectors() {
 	pixiConnectorPairs = [];
 	for (let i = pixiConnectors.length - 1; i >= 0; i--) pixiConnectors.pop().destroy(true);
-	const className = $(classString).val();
+
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
+
 	const classData = classMap.get(className);
-	if (classData != undefined) {
-		const trunkData = classData.get("Trunk Data");
-		let currentNodeItr = 1;
-		for (const [groupName, groupData] of classData) {
-			const branchData = trunkData.get(groupName);
-			if (branchData != undefined) {
-				let branchConnections = branchData.get("connections");
-				if (branchConnections) {
-					branchConnections = [...branchConnections.values()];
-					const maxConnectors = branchConnections.length;
+	if (classData == undefined) return;
+
+	const trunkData = classData.get("Trunk Data");
+	let currentNodeItr = 1;
+	for (const [groupName, groupData] of classData) {
+		const branchData = trunkData.get(groupName);
+		if (branchData != undefined) {
+			let branchConnections = branchData.get("connections");
+			if (branchConnections) {
+				branchConnections = [...branchConnections.values()];
+				const maxConnectors = branchConnections.length;
+				let drawnConnectors = 0;
+				for (let j = 0, n2 = pixiNodes.length; j < n2; j++) {
+					const pixiNode = pixiNodes[j];
+					if (branchConnections.includes(pixiNode.nodeName)) {
+						drawConnector(pixiNodes[currentNodeItr - 1], pixiNode);
+						drawnConnectors++;
+					}
+					if (drawnConnectors >= maxConnectors) break;
+				}
+			}
+			for (const [nodeName, nodeData] of groupData) {
+				const curNode = groupData.get(nodeName);
+				let nodeConnections = curNode.get("connections");
+				if (nodeConnections) {
+					nodeConnections = [...nodeConnections.values()];
+					const maxConnectors = nodeConnections.length;
 					let drawnConnectors = 0;
-					for (let j = 0, n2 = pixiNodes.length; j < n2; j++) {
-						const pixiNode = pixiNodes[j];
-						if (branchConnections.includes(pixiNode.nodeName)) {
-							drawConnector(pixiNodes[currentNodeItr - 1], pixiNode);
+					for (let k = 0, n3 = pixiNodes.length; k < n3; k++) {
+						const pixiNode = pixiNodes[k];
+						if (nodeConnections.includes(pixiNode.nodeName)) {
+							drawConnector(pixiNodes[currentNodeItr], pixiNode);
 							drawnConnectors++;
 						}
 						if (drawnConnectors >= maxConnectors) break;
 					}
 				}
-				for (const [nodeName, nodeData] of groupData) {
-					const curNode = groupData.get(nodeName);
-					let nodeConnections = curNode.get("connections");
-					if (nodeConnections) {
-						nodeConnections = [...nodeConnections.values()];
-						const maxConnectors = nodeConnections.length;
-						let drawnConnectors = 0;
-						for (let k = 0, n3 = pixiNodes.length; k < n3; k++) {
-							const pixiNode = pixiNodes[k];
-							if (nodeConnections.includes(pixiNode.nodeName)) {
-								drawConnector(pixiNodes[currentNodeItr], pixiNode);
-								drawnConnectors++;
-							}
-							if (drawnConnectors >= maxConnectors) break;
-						}
-					}
-					currentNodeItr++;
-				}
 				currentNodeItr++;
 			}
+			currentNodeItr++;
 		}
-		pixiJS.stage.sortChildren();
 	}
+	pixiJS.stage.sortChildren();
 }
 function drawBackground() {
 	pixiBackground.x = -maxCanvasWidth;
@@ -3443,6 +3450,7 @@ function rebuildCanvas() {
 
 	drawBackground();
 	drawAllNodes();
+	resizeSearchInput();
 	drawAllConnectors();
 
 	resizeCanvas();
@@ -3510,7 +3518,7 @@ $(document).ready(function() {
 	versionInterval = setInterval(handleVersionInterval, 900000);
 
 	$("#menuButton").on("click", handleMenuButton);
-	$("#resetButton").on("click", rebuildCanvas);
+	$("#resetButton").on("click", handleResetButton);
 	$("#saveButton").on("click", handleSaveButton);
 	$("#reloadButton").on("click", handleReloadButton);
 	$("#shareButton").on("click", handleShareButton);
