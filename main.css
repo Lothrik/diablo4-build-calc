@@ -237,6 +237,11 @@ h1, h2, h3 {
 	appearance: none;
 }
 
+#modalDiv2 .select2-results__option {
+	text-align: justify;
+	text-align-last: center;
+}
+
 #modalDiv3, #modalDiv4, #modalDiv5 {
 	font-size: 20px;
 }

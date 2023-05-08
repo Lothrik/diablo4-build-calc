@@ -695,7 +695,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-39";
+const localVersion = "0.8.1.39858-40";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1348,18 +1348,14 @@ function equipParagonBoardGlyph(curNode) {
 			.replace(/{(.+?)}/g, (matchString, captureString) => {
 			const outputString = captureString.split("/");
 			return outputString[outputString.length - 1];
-		}) + ` (Requires: ${glyphData.thresholdRequirements})`;
+		});
 		const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
+		modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}[br]${localizedGlyphDesc}[br]`;
 		if (glyphBoard == undefined) {
-			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}[br]${localizedGlyphDesc}</option>`;
+			modalOptions += ` Requires: ${glyphData.thresholdRequirements}.</option>`;
 		} else {
 			const socketHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == glyphBoard);
-			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}`;
-			if (localizedGlyphName.length + localizedGlyphBonus.length < localizedGlyphDesc.length) {
-				modalOptions += ` (Socketed in: [${socketHeader.nodeName}])[br]${localizedGlyphDesc}</option>`;
-			} else {
-				modalOptions += `[br]${localizedGlyphDesc} (Socketed in: [${socketHeader.nodeName}])</option>`;
-			}
+			modalOptions += ` Requires: ${glyphData.thresholdRequirements}. Current Board: [${socketHeader.nodeName}].</option>`;
 		}
 	}
 
@@ -1375,8 +1371,8 @@ function equipParagonBoardGlyph(curNode) {
 	$("#modalSelect").select2({
 		dropdownParent: $("#modalDiv2"),
 		escapeMarkup: data => data,
-		templateResult: data => data.text.replace("[br]", "<br>"),
-		templateSelection: data => data.text.replace("[br]", "<br>")
+		templateResult: data => data.text.replaceAll("[br]", oldWidth < 1400 ? " " : "<br>"),
+		templateSelection: data => data.text.replaceAll("[br]", oldWidth < 1400 ? " " : "<br>")
 	});
 	applyZoomLevel(); // hacky workaround for select2 transform bug
 
