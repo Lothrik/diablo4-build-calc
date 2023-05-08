@@ -3538,7 +3538,9 @@ $(document).ready(function() {
 	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove mouseenter mouseleave mouseup touchend contextmenu", handleCanvasEvent);
 	$(window).on("copy", handleTooltipCopy);
 	$(window).on("resize", resizeCanvas);
-	$(window).on("select2:open", e => $(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus()));
+	if (window.matchMedia("(any-pointer:fine)").matches) {
+		$(window).on("select2:open", e => $(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus()));
+	}
 
 	refreshDetailsWindow();
 	try {
