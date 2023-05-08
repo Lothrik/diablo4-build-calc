@@ -180,7 +180,7 @@ const COLOR_OVERRIDE = {
 	"Gate": 0xFF0000,
 	"Socket": 0xFF00FF,
 	"Allocated": 0xFF0000,
-	"Allocated Socket": 0xFF00FF,
+	"Allocated Socket": 0xFF00FF
 };
 
 // sorted object groups, mostly used for summary text processing
