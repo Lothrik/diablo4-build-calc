@@ -115,22 +115,6 @@ function rgba2hex(rgba) {
 	return `0x${rgba.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+\.{0,1}\d*))?\)$/).slice(1).map((n, i) => (i == 3 ? Math.round(parseFloat(n) * 255) : parseFloat(n)).toString(16).padStart(2, "0").replace("NaN", "")).join("")}`;
 }
 
-// same as $.on() but moves the binding to the front of the queue
-$.fn.onFirst = function (type, selector, data, fn) {
-    this.each(function () {
-        const $this = $(this);
-        const types = type.split(" ");
-
-        for (const t in types) {
-            $this.on(types[t], selector, data, fn);
-
-            const currentBindings = $._data(this, "events")[types[t]];
-            if ($.isArray(currentBindings)) currentBindings.unshift(currentBindings.pop());
-        }
-    });
-    return this;
-};
-
 // construct a nested map of all class data
 const classObj = { "barbarian": barbarianData, "druid": druidData, "necromancer": necromancerData, "rogue": rogueData, "sorcerer": sorcererData };
 var classMap = new Map();
@@ -706,7 +690,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-38";
+const localVersion = "0.8.1.39858-39";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1342,19 +1326,29 @@ function equipParagonBoardGlyph(curNode) {
 		if (glyphName.includes("_Rogue") && classText != "Rogue") continue;
 		if (glyphName.includes("_Sorc") && classText != "Sorcerer") continue;
 		if (glyphName + "_Barb" in paragonGlyphs && classText == "Barbarian") continue;
-		if (glyphName + "_Druid" in paragonGlyphs && classText == "Druid")  continue;
+		if (glyphName + "_Druid" in paragonGlyphs && classText == "Druid") continue;
 		if (glyphName + "_Necro" in paragonGlyphs && classText == "Necromancer") continue;
 		if (glyphName + "_Rogue" in paragonGlyphs && classText == "Rogue") continue;
 		if (glyphName + "_Sorc" in paragonGlyphs && classText == "Sorcerer") continue;
 		const glyphIndex = Number(glyphName.match(/\d+/)[0]);
 		const glyphBoard = Object.keys(paragonBoardGlyphData).find(key => paragonBoardGlyphData[key] == glyphIndex);
 		const localizedGlyphName = activeLocale in glyphData.nameLocalized ? glyphData.nameLocalized[activeLocale] : glyphData.name;
+		const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
+			.replace(/{(.+?)}/g, (matchString, captureString) => {
+			const outputString = captureString.split("/");
+			return outputString[outputString.length - 1];
+		});
 		const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
 		if (glyphBoard == undefined) {
-			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}</option>`;
+			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}[br]${localizedGlyphDesc}</option>`;
 		} else {
 			const socketHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == glyphBoard);
-			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus} (Socketed in: [${socketHeader.nodeName}])</option>`;
+			modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}`;
+			if (localizedGlyphDesc.length > localizedGlyphName.length + localizedGlyphBonus.length) {
+				modalOptions += ` (Socketed in: [${socketHeader.nodeName}])[br]${localizedGlyphDesc}</option>`;
+			} else {
+				modalOptions += `[br]${localizedGlyphDesc} (Socketed in: [${socketHeader.nodeName}])</option>`;
+			}
 		}
 	}
 
@@ -1364,11 +1358,14 @@ function equipParagonBoardGlyph(curNode) {
 		+ `<div id="modalDiv3"><input type="range" min="1" max="20" value="1" id="modalSlider"></div>`
 		+ `<div id="modalDiv4"></div>`
 		+ `<div id="modalDiv5">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
-		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
-		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
+		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button>`
+		+ `&nbsp;<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
 
 	$("#modalSelect").select2({
-		dropdownParent: $("#modalDiv2")
+		dropdownParent: $("#modalDiv2"),
+		escapeMarkup: data => data,
+		templateResult: data => data.text.replace("[br]", "<br>"),
+		templateSelection: data => data.text.replace("[br]", "<br>")
 	});
 	$("#modalBox").on("select2:open", e => {
 		$(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus())

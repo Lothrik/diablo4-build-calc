@@ -156,6 +156,7 @@ h1, h2, h3 {
 }
 
 #floatLeft {
+	max-width: 160px;
 	margin: 4px;
 }
 
@@ -174,11 +175,11 @@ h1, h2, h3 {
 	float: right;
 }
 
-#floatLeft .select2-container:not(.select2-container--open) {
+#floatLeft:has(.select2-container:not(.select2-container--open)), #floatLeft .select2-container:not(.select2-container--open) {
 	width: 60px!important;
 }
 
-#floatLeft .select2-container--open, #floatLeft .select2-dropdown {
+#floatLeft:has(.select2-container--open), #floatLeft .select2-container--open, #floatLeft .select2-dropdown {
 	width: 160px!important;
 }
 
@@ -228,7 +229,7 @@ h1, h2, h3 {
 	position: relative;
 	top: -5px;
 	width: 330px;
-	height: 5px;
+	height: 10px;
 	cursor: default;
 	padding: 0;
 	border-radius: 2.5px;
@@ -250,10 +251,10 @@ h1, h2, h3 {
 }
 
 #modalSlider::-webkit-slider-thumb {
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
 	cursor: pointer;
-	border-radius: 50%;
+	border-radius: 2.5px;
 	background-color: #fff;
 	appearance: none;
 }
@@ -419,7 +420,7 @@ button:active {
 	#modalSlider {
 		top: -1.2vw;
 		max-width: 86.4vw;
-		height: 1.2vw;
+		height: 2.4vw;
 	}
 	#modalDiv6 * {
 		height: auto;
