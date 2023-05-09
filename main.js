@@ -1345,9 +1345,9 @@ function equipParagonBoardGlyph(curNode) {
 		const glyphBoard = Object.keys(paragonBoardGlyphData).find(key => paragonBoardGlyphData[key] == glyphIndex);
 		const localizedGlyphName = activeLocale in glyphData.nameLocalized ? glyphData.nameLocalized[activeLocale] : glyphData.name;
 		const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
-			.replace(/{(.+?)}/g, (matchString, captureString) => {
-			const outputString = captureString.split("/");
-			return outputString[outputString.length - 1];
+			.replace(/{(.+?)}/g, (matchText, captureText) => {
+			const outputText = captureText.split("/");
+			return outputText[outputText.length - 1];
 		});
 		const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
 		modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}[br]${localizedGlyphDesc}[br]`;
@@ -1381,9 +1381,9 @@ function equipParagonBoardGlyph(curNode) {
 		const glyphRank = Number(event && event.type == "input" ? this.value : $("#modalSlider").val());
 		const glyphData = getGlyphData(glyphIndex);
 		const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
-			.replace(/{(.+?)}/g, (matchString, captureString) => {
-			const outputString = captureString.split("/");
-			return outputString[glyphRank > 0 ? Math.min(glyphRank, outputString.length) - 1 : 0];
+			.replace(/{(.+?)}/g, (matchText, captureText) => {
+			const outputText = captureText.split("/");
+			return outputText[glyphRank > 0 ? Math.min(glyphRank, outputText.length) - 1 : 0];
 		});
 		$("#modalDiv4").text(`Rank ${glyphRank}: ${localizedGlyphDesc}`);
 	}
@@ -1691,9 +1691,9 @@ function getNodeGlyphMultiplier(curNode) {
 			const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
 			const glyphData = getGlyphData(paragonBoardGlyphData[boardIndex]);
 			if (glyphData["desc"].toLowerCase().includes(`bonus to all ${nodeType.toLowerCase()} nodes`)) {
-				const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchString, captureString) => {
-					const outputString = captureString.split("/");
-					return outputString[glyphRank > 0 ? Math.min(glyphRank, outputString.length) - 1 : 0];
+				const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchText, captureText) => {
+					const outputText = captureText.split("/");
+					return outputText[glyphRank > 0 ? Math.min(glyphRank, outputText.length) - 1 : 0];
 				});
 				return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to all/i)) / 100;
 			}
@@ -2953,9 +2953,9 @@ function drawTooltip(curNode, forceDraw) {
 	} else {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		if (curNode.groupName == CODEX_OF_POWER) {
-			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
-				const outputString = captureString.split("/");
-				return `[${outputString.join(" - ")}]`;
+			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchText, captureText) => {
+				const outputText = captureText.split("/");
+				return `[${outputText.join(" - ")}]`;
 			});
 		} else {
 			const boardIndex = curNode.nodeData.get("_boardIndex");
@@ -3002,9 +3002,9 @@ function drawTooltip(curNode, forceDraw) {
 					const activeLocale = readCookie("activeLocale", "enUS");
 					const localizedGlyphName = activeLocale in glyphData.nameLocalized ? glyphData.nameLocalized[activeLocale] : glyphData.name;
 					const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
-						.replace(/{(.+?)}/g, (matchString, captureString) => {
-						const outputString = captureString.split("/");
-						return outputString[glyphRank > 0 ? Math.min(glyphRank, outputString.length) - 1 : 0];
+						.replace(/{(.+?)}/g, (matchText, captureText) => {
+						const outputText = captureText.split("/");
+						return outputText[glyphRank > 0 ? Math.min(glyphRank, outputText.length) - 1 : 0];
 					});
 					const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
 					curNode.nodeData.set("nameOverride", `${curNode.localizedName} [${localizedGlyphName} — Rank ${glyphRank}]`);
@@ -3015,39 +3015,39 @@ function drawTooltip(curNode, forceDraw) {
 				}
 			} else if (nodeType == "Magic" || nodeType == "Rare") {
 				const glyphMultiplier = getNodeGlyphMultiplier(curNode);
-				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)/g, (matchString, captureString) => Math.round(parseFloat(captureString) * glyphMultiplier * 2) / 2);
+				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)/g, (matchText, captureText) => Math.round(parseFloat(captureText) * glyphMultiplier * 2) / 2);
 			}
 
-			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchString, captureString) => {
-				if (captureString.includes("thresholdRequirements") && curNode.nodeData.has("thresholdRequirements")) {
-					captureString = curNode.nodeData.get("thresholdRequirements");
-					if (typeof captureString != "string") captureString = captureString[classText];
-					if (typeof captureString != "string") captureString = captureString.join("; or ");
+			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchText, captureText) => {
+				if (captureText.includes("thresholdRequirements") && curNode.nodeData.has("thresholdRequirements")) {
+					captureText = curNode.nodeData.get("thresholdRequirements");
+					if (typeof captureText != "string") captureText = captureText[classText];
+					if (typeof captureText != "string") captureText = captureText.join("; or ");
 					if (nodeType == "Socket") {
-						captureString = captureString.replace(/(\d+ Strength)/gi, `${Math.round(radiusAttributeTotals["Strength"] * 2) / 2} Strength | $1`);
-						captureString = captureString.replace(/(\d+ Intelligence)/gi, `${Math.round(radiusAttributeTotals["Intelligence"] * 2) / 2} Intelligence | $1`);
-						captureString = captureString.replace(/(\d+ Willpower)/gi, `${Math.round(radiusAttributeTotals["Willpower"] * 2) / 2} Willpower | $1`);
-						captureString = captureString.replace(/(\d+ Dexterity)/gi, `${Math.round(radiusAttributeTotals["Dexterity"] * 2) / 2} Dexterity | $1`);
+						captureText = captureText.replace(/(\d+ Strength)/gi, `${Math.round(radiusAttributeTotals["Strength"] * 2) / 2} Strength | $1`);
+						captureText = captureText.replace(/(\d+ Intelligence)/gi, `${Math.round(radiusAttributeTotals["Intelligence"] * 2) / 2} Intelligence | $1`);
+						captureText = captureText.replace(/(\d+ Willpower)/gi, `${Math.round(radiusAttributeTotals["Willpower"] * 2) / 2} Willpower | $1`);
+						captureText = captureText.replace(/(\d+ Dexterity)/gi, `${Math.round(radiusAttributeTotals["Dexterity"] * 2) / 2} Dexterity | $1`);
 					}
 				}
-				if (captureString.includes("ParagonBoardEquipIndex")) {
+				if (captureText.includes("ParagonBoardEquipIndex")) {
 					let equipIndex = "EquipIndex";
 					if (boardIndex == 0) {
 						equipIndex = "0";
 					} else if (boardIndex in paragonBoardEquipIndices) {
 						equipIndex = paragonBoardEquipIndices[boardIndex];
 					}
-					captureString = captureString.replace(/ParagonBoardEquipIndex/g, equipIndex);
+					captureText = captureText.replace(/ParagonBoardEquipIndex/g, equipIndex);
 					if (equipIndex != "EquipIndex") {
-						if (captureString.includes("{") && captureString.includes("}")) {
-							captureString = captureString.replace(/{([^{}]+)}/g, (subMatch, subCapture) => eval(subCapture));
+						if (captureText.includes("{") && captureText.includes("}")) {
+							captureText = captureText.replace(/{([^{}]+)}/g, (subMatch, subCapture) => eval(subCapture));
 						} else {
-							captureString = String(eval(captureString));
+							captureText = String(eval(captureText));
 						}
 					}
 				}
-				let outputString = captureString.split("/");
-				return outputString[allocatedPoints > 0 ? Math.min(allocatedPoints, outputString.length) - 1 : 0].replace("|", "/");
+				let outputText = captureText.split("/");
+				return outputText[allocatedPoints > 0 ? Math.min(allocatedPoints, outputText.length) - 1 : 0].replace("|", "/");
 			});
 		}
 	}
