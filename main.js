@@ -1350,12 +1350,13 @@ function equipParagonBoardGlyph(curNode) {
 			return outputText[outputText.length - 1];
 		});
 		const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
-		modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} &mdash; ${localizedGlyphBonus}[br]${localizedGlyphDesc}[br]`;
+		modalOptions += `<option value="${glyphIndex}">${localizedGlyphName} — ${localizedGlyphDesc}[br]`;
+		modalOptions += `${localizedGlyphBonus}[br]Requires: ${glyphData.thresholdRequirements}.`;
 		if (glyphBoard == undefined) {
-			modalOptions += ` Requires: ${glyphData.thresholdRequirements}.</option>`;
+			modalOptions += `</option>`;
 		} else {
 			const socketHeader = pixiNodes.find(pixiNode => pixiNode.nodeData.get("boardIndex") == glyphBoard);
-			modalOptions += ` Requires: ${glyphData.thresholdRequirements}. Current Board: [${socketHeader.nodeName}].</option>`;
+			modalOptions += ` Current Board: [${socketHeader.nodeName}].</option>`;
 		}
 	}
 
@@ -1372,7 +1373,11 @@ function equipParagonBoardGlyph(curNode) {
 		dropdownParent: $("#modalDiv2"),
 		escapeMarkup: data => data,
 		templateResult: data => data.text.replaceAll("[br]", oldWidth < 1400 ? " " : "<br>"),
-		templateSelection: data => data.text.replaceAll("[br]", oldWidth < 1400 ? " " : "<br>")
+		templateSelection: data => {
+			const selectionText1 = data.text.split(" — ");
+			const selectionText2 = selectionText1[1].split("[br]");
+			return `${selectionText1[0]} — ${selectionText2[1]} ${selectionText2[2]}`;
+		}
 	});
 	applyZoomLevel(); // hacky workaround for select2 transform bug
 
