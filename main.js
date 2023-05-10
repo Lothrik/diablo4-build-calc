@@ -877,7 +877,7 @@ function handleGroupSelection(event) {
 var oldSearchIdx = -1;
 var oldSearchText = "";
 function handleSearchInput(event) {
-	const newSearchText = $("#searchInput").val().toLowerCase();
+	const newSearchText = $("#searchInput").val().normalize("NFD").replace(/[\u0300-\u036F]/g, "").toLowerCase();
 
 	let nodeMatch = pixiNodes.filter(pixiNode => {
 		if (newSearchText.length >= 2) {
@@ -893,14 +893,15 @@ function handleSearchInput(event) {
 					nodeHeader += ` (${itemType})`;
 				}
 			}
-			if (nodeHeader.toLowerCase().includes(newSearchText)) {
+			if (nodeHeader.normalize("NFD").replace(/[\u0300-\u036F]/g, "").toLowerCase().includes(newSearchText)) {
 				pixiNode.nodeData.set("searchQueryMatch", true);
 				setNodeStyleThick(pixiNode);
 				return true;
 			} else {
 				// failed to find `newSearchText` in any `nodeName`, trying `nodeDesc` next
 				const nodeDesc = pixiNode.localizedDesc;
-				if (nodeDesc != undefined && nodeDesc.length > 0 && nodeDesc.toLowerCase().includes(newSearchText)) {
+				if (nodeDesc != undefined && nodeDesc.length > 0
+					&& nodeDesc.normalize("NFD").replace(/[\u0300-\u036F]/g, "").toLowerCase().includes(newSearchText)) {
 					pixiNode.nodeData.set("searchQueryMatch", true);
 					setNodeStyleThick(pixiNode);
 					return true;
