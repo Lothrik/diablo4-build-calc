@@ -4509,16 +4509,16 @@ let paragonData = {
 					"zhCN": "残杀者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Bei Angriffen mit zweihändigen Hiebwaffen besteht eine Chance von 10%, Gegner 2 Sek. lang verwundbar zu machen.\n\nTags: Verwundbar, Glückstreffer, [c]Geißel{d}, Zweihändig.",
+					"deDE": "Glückstreffer: Bei Angriffen mit zweihändigen Hiebwaffen besteht eine Chance von 10%, Gegner 2 Sek. lang verwundbar zu machen.\n\nTags: Verwundbar, Glückstreffer, Geißel{d}, Zweihändig.",
 					"esES": "Golpe de suerte: Los ataques con armas cortantes de dos manos tienen hasta un 10% de probabilidad de volver vulnerables a los enemigos durante 2 s.\n\nTags: Vulnerable, Golpe de suerte, Cortante, Dos manos.",
 					"esMX": "Golpe afortunado: Los ataques con armas blancas de dos manos tienen hasta un 10% de probabilidad de volver a los enemigos vulnerables durante 2 segundos.\n\nTags: Vulnerable, Golpe afortunado, Corte, Dos manos.",
-					"frFR": "Coup de chance: les attaques avec des armes tranchantes à deux mains ont jusqu'à 10% de chances de rendre les adversaires vulnérables pendant 2 s.\n\nTags: Vulnérable, Coup de chance, [fs]Division, Arme à deux mains.",
+					"frFR": "Coup de chance: les attaques avec des armes tranchantes à deux mains ont jusqu'à 10% de chances de rendre les adversaires vulnérables pendant 2 s.\n\nTags: Vulnérable, Coup de chance, Division, Arme à deux mains.",
 					"itIT": "Colpo fortunato: gli attacchi con armi taglienti a due mani hanno fino al 10% di probabilità di rendere i nemici vulnerabili per 2 s.\n\nTags: Vulnerabilità, Colpo fortunato, Tagliente, A due mani.",
 					"jaJP": "幸運の一撃: 両手斬撃武器による攻撃が最大10%の確率で敵を2秒間脆弱状態にする。\n\nTags: 脆弱, 幸運の一撃, 斬撃を放つ, 両手用.",
 					"koKR": "행운의 적중: 양손 베는 무기로 공격할 때 최대 10% 확률로 적이 2초 동안 취약해집니다.\n\nTags: 취약, 행운의 적중, 척살의, 양손 무기.",
-					"plPL": "Szczęśliwy traf: Ataki dwuręczną bronią sieczną mają do 10% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Odsłonięcie, Szczęśliwy Traf, [ns]Smagnięcie, Dwuręczna broń.",
+					"plPL": "Szczęśliwy traf: Ataki dwuręczną bronią sieczną mają do 10% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Odsłonięcie, Szczęśliwy Traf, Smagnięcie, Dwuręczna broń.",
 					"ptBR": "Golpe de Sorte: Ataques com armas de corte de duas mãos têm até 10% de chance de tornar os inimigos vulneráveis por 2 segundos.\n\nTags: Vulnerável, Golpe de Sorte, Corte, Duas mãos.",
-					"ruRU": "Удачный удар: атаки двуручным рубящим оружием с вероятностью до 10% делают противников уязвимыми на 2 сек.\n\nTags: Уязвимость, Удачный удар, [fs]рубка, Двуручное.",
+					"ruRU": "Удачный удар: атаки двуручным рубящим оружием с вероятностью до 10% делают противников уязвимыми на 2 сек.\n\nTags: Уязвимость, Удачный удар, рубка, Двуручное.",
 					"zhCN": "幸运一击:使用双手劈砍武器攻击最多有10%几率使敌人陷入易伤状态,持续2秒。\n\nTags: 易伤, 幸运一击, 劈斩, 双手."
 				}
 			},
@@ -5444,16 +5444,16 @@ let paragonData = {
 					"zhCN": "毁灭者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, [c]Geißel{d}, Zweihändig.",
+					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, Geißel{d}, Zweihändig.",
 					"esES": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Cortante, Dos manos.",
 					"esMX": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Corte, Dos manos.",
-					"frFR": "+10% de dégâts avec TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vulnérable, [fs]Division, Arme à deux mains.",
+					"frFR": "+10% de dégâts avec TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vulnérable, Division, Arme à deux mains.",
 					"itIT": "Danni con TwoHandedSlashing: +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Vulnerabilità, Tagliente, A due mani.",
 					"jaJP": "TwoHandedSlashing でのダメージ+10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 脆弱, 斬撃を放つ, 両手用.",
 					"koKR": "TwoHandedSlashing 의 공격력 +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 취약, 척살의, 양손 무기.",
-					"plPL": "+10% obrażeń typu: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Odsłonięcie, [ns]Smagnięcie, Dwuręczna broń.",
+					"plPL": "+10% obrażeń typu: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Odsłonięcie, Smagnięcie, Dwuręczna broń.",
 					"ptBR": "+10% de dano com TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Vulnerável, Corte, Duas mãos.",
-					"ruRU": "+10% к урону от свойства \"TwoHandedSlashing \"\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уязвимость, [fs]рубка, Двуручное.",
+					"ruRU": "+10% к урону от свойства \"TwoHandedSlashing \"\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уязвимость, рубка, Двуручное.",
 					"zhCN": "+10%使用TwoHandedSlashing 的伤害\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 易伤, 劈斩, 双手."
 				},
 				"thresholdRequirements": {

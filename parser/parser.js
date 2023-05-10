@@ -354,8 +354,12 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 							currentDescription += tagText;
 						}
 						for (const localKey of localKeys) {
-							const filteredTags = nodeData["power"]["power_tags_localized"][localKey].filter(tag => !tag.includes("_")).join(", ");
+							let filteredTags = nodeData["power"]["power_tags_localized"][localKey].filter(tag => !tag.includes("_"));
 							if (filteredTags.length == 0) continue;
+							for (let i = 0, n = filteredTags.length; i < n; i++) {
+								if (filteredTags[i].includes("[") && filteredTags[i].includes("]")) filteredTags[i] = filteredTags[i].split("]")[1].split("[")[0];
+							}
+							filteredTags = filteredTags.join(", ");
 							if (currentDescriptionLocalized[localKey] == undefined) {
 								currentDescriptionLocalized[localKey] = "";
 							} else {
@@ -619,8 +623,12 @@ function runParser(downloadMode) {
 						currentDescription += tagText;
 					}
 					for (const localKey of localKeys) {
-						const filteredTags = nodeData["tags_localized"][localKey].filter(tag => !tag.includes("_")).join(", ");
+						let filteredTags = nodeData["tags_localized"][localKey].filter(tag => !tag.includes("_"));
 						if (filteredTags.length == 0) continue;
+						for (let i = 0, n = filteredTags.length; i < n; i++) {
+							if (filteredTags[i].includes("[") && filteredTags[i].includes("]")) filteredTags[i] = filteredTags[i].split("]")[1].split("[")[0];
+						}
+						filteredTags = filteredTags.join(", ");
 						if (currentDescriptionLocalized[localKey] == undefined) {
 							currentDescriptionLocalized[localKey] = "";
 						} else {
