@@ -2021,7 +2021,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeData.set("_nodeWidth", _nodeWidth);
 	nodeData.set("_nodeHeight", _nodeHeight);
 
-	let displayName = nodeName;
+	let displayName = ["Strength", "Intelligence", "Willpower", "Dexterity"].includes(nodeName) ? nodeName[0] : nodeName;
 	let displayNameSize = 36;
 	if (updateExistingNode) {
 		displayName = node.displayName;
