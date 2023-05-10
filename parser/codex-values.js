@@ -716,11 +716,6 @@ let codexValues = {
 				"region": "",
 				"values": []
 			},
-			"Aspect of Explosive Mist": {
-				"dungeon": "",
-				"region": "",
-				"values": []
-			},
 			"Aspect of Frenzied Dead": {
 				"dungeon": "",
 				"region": "",
@@ -833,6 +828,11 @@ let codexValues = {
 				"values": []
 			},
 			"Aspect of the Void": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Aspect of Explosive Mist": {
 				"dungeon": "",
 				"region": "",
 				"values": []

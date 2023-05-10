@@ -695,7 +695,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.8.1.39858-43";
+const localVersion = "0.9.0.41193-1";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {

@@ -295,7 +295,11 @@ let nodeHistory = {
 		"Basic: Enhanced Earth Spike": 163,
 		"Basic: Wild Earth Spike": 164,
 		"Basic: Fierce Earth Spike": 165,
-		"Wrath: Envenom": 166
+		"Wrath: Envenom": 166,
+		"Companion: Poison Creeper": 167,
+		"Companion: Enhanced Poison Creeper": 168,
+		"Companion: Ferocious Poison Creeper": 169,
+		"Companion: Brutal Poison Creeper": 170
 	},
 	"Necromancer": {
 		"Basic: Decompose": 0,

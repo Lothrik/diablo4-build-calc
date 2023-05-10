@@ -291,7 +291,8 @@ let codexHistory = {
 	"Offensive: Esu's Heirloom": 289,
 	"Utility: Raiment of the Infinite": 290,
 	"Offensive: Gloves of the Illuminator": 291,
-	"Defensive: Iceheart Brais": 292
+	"Defensive: Iceheart Brais": 292,
+	"Utility: Aspect of Explosive Mist": 293
 }
 
 export { codexHistory };

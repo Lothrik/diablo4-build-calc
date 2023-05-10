@@ -92,8 +92,7 @@ let nodeValues = {
 				"40"
 			],
 			"Wrath of the Berserker": [
-				"60",
-				"40"
+				"60"
 			]
 		},
 		"Key Passive": {}
@@ -159,13 +158,13 @@ let nodeValues = {
 				"15",
 				"33"
 			],
-			"Vine Creeper": [
-				"20",
-				"40"
-			],
 			"Wolves": [
 				"14",
 				"50"
+			],
+			"Poison Creeper": [
+				"",
+				""
 			]
 		},
 		"Wrath": {
