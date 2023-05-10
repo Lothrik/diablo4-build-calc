@@ -517,7 +517,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"zhCN": "剥皮"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: {#}%\nSchindet den Gegner und fügt ihm {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% Schaden zu. Fügt im Verlauf von 5 Sek. {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Blutungsschaden zu.\n\nTags: Grundlegend, Blutung, Geißel, Wut, Schaden, Physisch.",
+			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: {#}%\nSchindet den Gegner und fügt ihm {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% Schaden zu. Fügt im Verlauf von 5 Sek. {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Blutungsschaden zu.\n\nTags: Grundlegend, Blutung, Geißel-, Wut, Schaden, Physisch.",
 			"esES": "Generación de furia: 9\nProbabilidad de golpe de suerte: {#}%\nLe arrancas la piel al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y aplica {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 s.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Físico.",
 			"esMX": "Generación de Furia: 9\nProbabilidad de golpe afortunado: {#}%\nDespellejas al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 segundos.\n\nTags: Básico, Sangrado, Corte, Furia, Daño, Físico.",
 			"frFR": "Fureur générée: 9\nChances de coup de chance: {#}%\nVous écorchez l'adversaire, ce qui lui inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% points de dégâts à l'impact et {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% points de dégâts de saignement en 5 s.\n\nTags: De base, Saignement, Division, Fureur, Dégâts, Dégâts physiques.",
@@ -555,7 +555,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"zhCN": "强化剥皮"
 },
 		descriptionLocalized: {
-			"deDE": "Schinden verfügt über eine Chance von 10%, den Gegner 2 Sek. lang verwundbar zu machen. Die Verwendung von Zweihandwaffen verdoppelt diese Chance.\n\nTags: Grundlegend, Blutung, Geißel, Wut, Schaden, Physisch.",
+			"deDE": "Schinden verfügt über eine Chance von 10%, den Gegner 2 Sek. lang verwundbar zu machen. Die Verwendung von Zweihandwaffen verdoppelt diese Chance.\n\nTags: Grundlegend, Blutung, Geißel-, Wut, Schaden, Physisch.",
 			"esES": "Desollar tiene un 10% de probabilidad de volver vulnerable al enemigo durante 2 s. Esta probabilidad se duplica al usar un arma de dos manos.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Físico.",
 			"esMX": "Despellejar tiene un 10% de probabilidad de volver al enemigo vulnerable durante 2 segundos. La probabilidad se duplica cuando usas un arma de dos manos.\n\nTags: Básico, Sangrado, Corte, Furia, Daño, Físico.",
 			"frFR": "Écorchement a 10% de chances de rendre l'adversaire vulnérable pendant 2 s. Ces chances sont doublées lorsque vous utilisez une arme à deux mains.\n\nTags: De base, Saignement, Division, Fureur, Dégâts, Dégâts physiques.",
@@ -592,7 +592,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"zhCN": "战斗剥皮"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Schinden einem Gegner direkten Schaden zufügt, erleidet er in den nächsten 3 Sek. x10% mehr Blutungsschaden durch Euch.\n\nTags: Grundlegend, Blutung, Geißel, Wut, Schaden, Physisch.",
+			"deDE": "Wenn Schinden einem Gegner direkten Schaden zufügt, erleidet er in den nächsten 3 Sek. x10% mehr Blutungsschaden durch Euch.\n\nTags: Grundlegend, Blutung, Geißel-, Wut, Schaden, Physisch.",
 			"esES": "Cuando Desollar inflige daño directo a un enemigo, le infliges un x10% más de daño de sangrado durante los siguientes 3 s.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Físico.",
 			"esMX": "Cuando Despellejar inflige daño directo a un enemigo, este recibe un x10% más de daño de sangrado de ti durante los próximos 3 segundos.\n\nTags: Básico, Sangrado, Corte, Furia, Daño, Físico.",
 			"frFR": "Lorsqu'Écorchement inflige des dégâts directs à une cible, celle-ci subit x10% de dégâts de saignement supplémentaires de votre part pendant les 3 s qui suivent.\n\nTags: De base, Saignement, Division, Fureur, Dégâts, Dégâts physiques.",
@@ -629,7 +629,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"zhCN": "争斗剥皮"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Schinden direkten Schaden zufügt erhaltet Ihr 3 Sek. lang 3% Schadensreduktion und 50 Dornen. Bis zu 4-mal stapelbar.\n\nTags: Grundlegend, Blutung, Geißel, Wut, Schaden, Physisch.",
+			"deDE": "Wenn Schinden direkten Schaden zufügt erhaltet Ihr 3 Sek. lang 3% Schadensreduktion und 50 Dornen. Bis zu 4-mal stapelbar.\n\nTags: Grundlegend, Blutung, Geißel-, Wut, Schaden, Physisch.",
 			"esES": "Cuando Desollar inflige daño directo a un enemigo, obtienes un 3% de reducción de daño y 50 espinas durante 3 s. Se acumula hasta 4 veces.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Físico.",
 			"esMX": "Cuando Despellejar inflige daño directo, obtienes un 3% de reducción de daño y 50 Espinas durante 3 segundos. Esto se acumula hasta 4 veces.\n\nTags: Básico, Sangrado, Corte, Furia, Daño, Físico.",
 			"frFR": "Lorsqu'Écorchement inflige des dégâts directs à une cible adverse, vous obtenez 3% de réduction des dégâts et 50 points de dégâts d'épines pendant 3 s. Cet effet peut se cumuler jusqu'à 4 fois.\n\nTags: De base, Saignement, Division, Fureur, Dégâts, Dégâts physiques.",
@@ -1156,7 +1156,7 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"zhCN": "痛割"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}\nGlückstrefferchance: {#}%\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Basis, Blutung, Schaden, Physisch, Wut, Geißel.",
+			"deDE": "Wutkosten: {#}\nGlückstrefferchance: {#}%\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Basis, Blutung, Schaden, Physisch, Wut, Geißel-.",
 			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: {#}%\nAsestas un tajo a los enemigos frente a ti para infligir {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y aplicar {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 s.\n\nTags: Principal, Sangrado, Daño, Físico, Furia, Cortante.",
 			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: {#}%\nHiendes a los enemigos frente a ti, les infliges {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 segundos.\n\nTags: Principal, Sangrado, Daño, Físico, Furia, Corte.",
 			"frFR": "Coût en fureur: {#}\nChances de coup de chance: {#}%\nVous frappez les adversaires devant vous, ce qui leur inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% points de dégâts à l'impact et {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% points de dégâts de saignement en 5 s.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Division.",
@@ -1194,7 +1194,7 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"zhCN": "强化痛割"
 },
 		descriptionLocalized: {
-			"deDE": "Direktschaden mit Zerteilen macht Gegner 2 Sek. länger verwundbar.\n\nTags: Basis, Blutung, Schaden, Physisch, Wut, Geißel.",
+			"deDE": "Direktschaden mit Zerteilen macht Gegner 2 Sek. länger verwundbar.\n\nTags: Basis, Blutung, Schaden, Physisch, Wut, Geißel-.",
 			"esES": "Infligir daño directo con Hender prolonga 2 s la duración de la vulnerabilidad de los enemigos.\n\nTags: Principal, Sangrado, Daño, Físico, Furia, Cortante.",
 			"esMX": "El daño directo con Tajar extiende 2 segundos la duración de la vulnerabilidad en los enemigos.\n\nTags: Principal, Sangrado, Daño, Físico, Furia, Corte.",
 			"frFR": "Infliger des dégâts directs avec Déchirure prolonge la vulnérabilité des adversaires de 2 s.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Division.",
@@ -1231,7 +1231,7 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"zhCN": "暴力痛割"
 },
 		descriptionLocalized: {
-			"deDE": "Zerteilen fügt verwundbaren Gegnern x12% mehr Schaden zu.\n\nTags: Basis, Blutung, Schaden, Physisch, Wut, Geißel.",
+			"deDE": "Zerteilen fügt verwundbaren Gegnern x12% mehr Schaden zu.\n\nTags: Basis, Blutung, Schaden, Physisch, Wut, Geißel-.",
 			"esES": "Hender inflige un x12% más de daño a enemigos vulnerables.\n\nTags: Principal, Sangrado, Daño, Físico, Furia, Cortante.",
 			"esMX": "Tajar inflige un x12% más de daño a los enemigos vulnerables.\n\nTags: Principal, Sangrado, Daño, Físico, Furia, Corte.",
 			"frFR": "Déchirure inflige x12% de dégâts supplémentaires aux adversaires vulnérables.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Division.",
@@ -1268,7 +1268,7 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"zhCN": "狂怒痛割"
 },
 		descriptionLocalized: {
-			"deDE": "Direkter Schaden mit Zerteilen verleiht 4 Wut pro getroffenem Gegner, bis maximal 20 Wut.\n\nTags: Basis, Blutung, Schaden, Physisch, Wut, Geißel.",
+			"deDE": "Direkter Schaden mit Zerteilen verleiht 4 Wut pro getroffenem Gegner, bis maximal 20 Wut.\n\nTags: Basis, Blutung, Schaden, Physisch, Wut, Geißel-.",
 			"esES": "El daño directo infligido con Hender otorga 4 de furia por cada enemigo golpeado, hasta un máximo de 20 de furia.\n\nTags: Principal, Sangrado, Daño, Físico, Furia, Cortante.",
 			"esMX": "El daño directo con Tajar otorga 4 de Furia por cada enemigo golpeado, hasta un máximo de 20 de Furia.\n\nTags: Principal, Sangrado, Daño, Físico, Furia, Corte.",
 			"frFR": "Infliger des dégâts directs avec Déchirure vous octroie 4 points de fureur par cible touchée, jusqu'à un maximum de 20 points.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Division.",
@@ -3685,7 +3685,7 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"zhCN": "割裂"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\n\nGlückstrefferchance: {#}%\nSpießt Gegner vor Euch auf, verursacht dabei 13% Schaden und reißt dann Eure Waffe heraus, wobei Ihr Gegnern Schaden in Höhe ihrer gesamten Blutungsmenge zufügt und sie vom gesamten Blutungsschaden befreit.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Geißel.",
+			"deDE": "Abklingzeit: {#} Sek.\n\nGlückstrefferchance: {#}%\nSpießt Gegner vor Euch auf, verursacht dabei 13% Schaden und reißt dann Eure Waffe heraus, wobei Ihr Gegnern Schaden in Höhe ihrer gesamten Blutungsmenge zufügt und sie vom gesamten Blutungsschaden befreit.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Geißel-.",
 			"esES": "Tiempo de reutilización: {#} s\n\nProbabilidad de golpe de suerte: {#}%\nEnsartas a los enemigos frente a ti y les infliges 13% de daño. Después, arrancas tu arma, lo que les inflige la cantidad total del daño de sangrado y elimina todo el daño de sangrado.\n\nTags: Dominio de las armas, Sangrado, Daño, Físico, Tiempo de reutilización, Cortante.",
 			"esMX": "Recuperación: {#} segundos\n\nProbabilidad de golpe afortunado: {#}%\nEmpalas a los enemigos que están frente a ti y les infliges 13% de daño. Después, retiras el arma, los desgarras, infliges daño de sangrado y el desangrado concluye.\n\nTags: Dominio de Arma, Sangrado, Daño, Físico, Recuperación, Corte.",
 			"frFR": "Temps de recharge: {#} s\n\nChances de coup de chance: {#}%\nVous embrochez les adversaires devant vous et leur infligez 13% points de dégâts, puis vous arrachez votre arme de leur corps, ce qui les blesse d'un montant égal à celui de leur saignement total et fait disparaître le saignement.\n\nTags: Maîtrise d'arme, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Division.",
@@ -3723,7 +3723,7 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"zhCN": "强化割裂"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr Eure Waffe während Blutspieß aus Gegnern herausreißt, wird eine Explosion ausgelöst, die im Verlauf von 5 Sek. 30% Blutungsschaden verursacht.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Geißel.",
+			"deDE": "Wenn Ihr Eure Waffe während Blutspieß aus Gegnern herausreißt, wird eine Explosion ausgelöst, die im Verlauf von 5 Sek. 30% Blutungsschaden verursacht.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Geißel-.",
 			"esES": "Arrancar tu arma de los enemigos durante Ruptura provoca una explosión que inflige 30% de daño de sangrado durante 5 s.\n\nTags: Dominio de las armas, Sangrado, Daño, Físico, Tiempo de reutilización, Cortante.",
 			"esMX": "Arrancar tu arma de los enemigos durante Ruptura causa una explosión que inflige 30% de daño de sangrado durante 5 segundos.\n\nTags: Dominio de Arma, Sangrado, Daño, Físico, Recuperación, Corte.",
 			"frFR": "Arracher votre arme du corps d'une cible pendant Rupture déclenche une explosion qui inflige 30% points de dégâts de saignement en 5 s.\n\nTags: Maîtrise d'arme, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Division.",
@@ -3760,7 +3760,7 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"zhCN": "斗士割裂"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr mindestens 1 Gegner mit Blutspieß trefft, werdet Ihr um 15% Eures maximalen Lebens geheilt.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Geißel.",
+			"deDE": "Wenn Ihr mindestens 1 Gegner mit Blutspieß trefft, werdet Ihr um 15% Eures maximalen Lebens geheilt.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Geißel-.",
 			"esES": "Golpear a al menos 1 enemigo con Ruptura te cura un 15% de tu vida máxima.\n\nTags: Dominio de las armas, Sangrado, Daño, Físico, Tiempo de reutilización, Cortante.",
 			"esMX": "Golpear al menos a 1 enemigo con Ruptura te sana un 15% de tu vida máxima.\n\nTags: Dominio de Arma, Sangrado, Daño, Físico, Recuperación, Corte.",
 			"frFR": "Toucher au moins 1 adversaire avec Rupture vous rend 15% de votre maximum de points de vie.\n\nTags: Maîtrise d'arme, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Division.",
@@ -3797,7 +3797,7 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"zhCN": "勇士割裂"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr mit Blutspieß Gegner trefft, erhöht sich Eure Angriffsgeschwindigkeit 4 Sek. lang um +20%.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Geißel.",
+			"deDE": "Wenn Ihr mit Blutspieß Gegner trefft, erhöht sich Eure Angriffsgeschwindigkeit 4 Sek. lang um +20%.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Geißel-.",
 			"esES": "Golpear a enemigos con Ruptura aumenta tu velocidad de ataque un +20% durante 4 s.\n\nTags: Dominio de las armas, Sangrado, Daño, Físico, Tiempo de reutilización, Cortante.",
 			"esMX": "Golpear enemigos con Ruptura aumenta tu velocidad de ataque un +20% durante 4 segundos.\n\nTags: Dominio de Arma, Sangrado, Daño, Físico, Recuperación, Corte.",
 			"frFR": "Toucher des adversaires avec Rupture augmente votre vitesse d'attaque de +20% pendant 4 s.\n\nTags: Maîtrise d'arme, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Division.",
@@ -4032,7 +4032,7 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"zhCN": "钢铁漩涡"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nAktiviert diese Fertigkeit dreimal, um Ketten an jeder Eurer Waffen zu befestigen und einen Angriff auszuführen:\n• Zuerst schmettert Ihr Eure zweihändige Wuchtwaffe auf den Boden, wobei Ihr 60% Schaden verursacht und Gegner 2 Sek. lang betäubt.\n• Beim zweiten Mal schwingt Ihr Eure zweihändige Hiebwaffe vor Euch umher, wobei Ihr 20% Schaden und im Verlauf von 5 Sek. 120% Blutungsschaden verursacht.\n• Beim dritten Mal schwingen Eure beidhändigen Waffen um Euch herum, wobei sie 32.5% Schaden pro Treffer verursachen.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Geißel.",
+			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nAktiviert diese Fertigkeit dreimal, um Ketten an jeder Eurer Waffen zu befestigen und einen Angriff auszuführen:\n• Zuerst schmettert Ihr Eure zweihändige Wuchtwaffe auf den Boden, wobei Ihr 60% Schaden verursacht und Gegner 2 Sek. lang betäubt.\n• Beim zweiten Mal schwingt Ihr Eure zweihändige Hiebwaffe vor Euch umher, wobei Ihr 20% Schaden und im Verlauf von 5 Sek. 120% Blutungsschaden verursacht.\n• Beim dritten Mal schwingen Eure beidhändigen Waffen um Euch herum, wobei sie 32.5% Schaden pro Treffer verursachen.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Geißel-.",
 			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: {#}%\nActiva la habilidad tres veces para acoplar cadenas a cada una de tus armas y ejecutar un ataque:\n• Primero: tu arma contundente de dos manos golpea el suelo para infligir 60% de daño y aturdir a los enemigos durante 2 s.\n• Segundo: tu arma cortante de dos manos da un tajo frente a ti para infligir 20% de daño y 120% de daño de sangrado durante 5 s.\n• Tercero: atacas a tu alrededor con tus armas de doble empuñadura para infligir 32.5% de daño por golpe.\n\nTags: Definitiva, Control de masas, Sangrado, Daño, Físico, Tiempo de reutilización, Dos manos, Contundente, Doble empuñadura, Cortante.",
 			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nActiva tres veces para enganchar cadenas a cada una de tus armas y realizar un ataque:\n• Primero, tu arma de impacto de dos manos golpea el suelo, lo que inflige 60% de daño y aturde a los enemigos durante 2 segundos.\n• Segundo, tu arma blanca de dos manos golpea frente a ti, lo que inflige 20% de daño y 120% de daño de sangrado durante 5 segundos.\n• Tercero, tus armas de ambidestreza azotan frente a ti e infligen 32.5% de daño por golpe.\n\nTags: Máxima, Control de multitudes, Sangrado, Daño, Físico, Recuperación, Dos manos, Impacto, Ambidestreza, Corte.",
 			"frFR": "Temps de recharge: {#} s\nChances de coup de chance: {#}%\nActivez trois fois cette compétence pour attacher des chaînes à chacune de vos armes et effectuer une attaque.\n• À la première activation, vous frappez le sol avec votre arme contondante à deux mains, ce qui inflige 60% points de dégâts aux adversaires et les étourdit pendant 2 s.\n• À la deuxième activation, vous effectuez une attaque de taille devant vous avec votre arme tranchante à deux mains, ce qui inflige 20% points de dégâts à l'impact et 120% points de dégâts de saignement en 5 s.\n• À la troisième activation, vous frappez les adversaires autour de vous avec vos deux armes, ce qui inflige 32.5% points de dégâts par coup.\n\nTags: Ultime, Perte de contrôle, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Arme à deux mains, Arme contondante, Deux armes, Division.",
@@ -4070,7 +4070,7 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"zhCN": "至尊钢铁漩涡"
 },
 		descriptionLocalized: {
-			"deDE": "Eiserner Mahlstrom erhält eine um +10% erhöhte kritische Trefferchance und verursacht x20% mehr kritischen Trefferschaden.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Geißel.",
+			"deDE": "Eiserner Mahlstrom erhält eine um +10% erhöhte kritische Trefferchance und verursacht x20% mehr kritischen Trefferschaden.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Geißel-.",
 			"esES": "Vorágine de hierro obtiene un +10% más de probabilidad de golpe crítico e inflige un x20% más de daño de golpe crítico.\n\nTags: Definitiva, Control de masas, Sangrado, Daño, Físico, Tiempo de reutilización, Dos manos, Contundente, Doble empuñadura, Cortante.",
 			"esMX": "Vorágine de Hierro obtiene un +10% más de probabilidad de golpe crítico e inflige un x20% más de daño de golpe crítico.\n\nTags: Máxima, Control de multitudes, Sangrado, Daño, Físico, Recuperación, Dos manos, Impacto, Ambidestreza, Corte.",
 			"frFR": "Maelström d'acier a +10% de chances supplémentaires d'infliger un coup critique et inflige x20% de dégâts critiques supplémentaires.\n\nTags: Ultime, Perte de contrôle, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Arme à deux mains, Arme contondante, Deux armes, Division.",
@@ -4107,7 +4107,7 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"zhCN": "至极钢铁漩涡"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr nach dem Wechseln Eurer Waffen einem Gegner direkten Schaden zufügt, verringert sich die Abklingzeit von Eiserner Mahlstrom um 1 Sek.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Geißel.",
+			"deDE": "Wenn Ihr nach dem Wechseln Eurer Waffen einem Gegner direkten Schaden zufügt, verringert sich die Abklingzeit von Eiserner Mahlstrom um 1 Sek.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Geißel-.",
 			"esES": "Infligir daño directo a un enemigo tras cambiar de armas reduce 1 s el tiempo de reutilización de Vorágine de hierro.\n\nTags: Definitiva, Control de masas, Sangrado, Daño, Físico, Tiempo de reutilización, Dos manos, Contundente, Doble empuñadura, Cortante.",
 			"esMX": "Infligir daño directo a un enemigo después de alternar armas reduce 1 segundo la recuperación de Vorágine de Hierro.\n\nTags: Máxima, Control de multitudes, Sangrado, Daño, Físico, Recuperación, Dos manos, Impacto, Ambidestreza, Corte.",
 			"frFR": "Lorsque vous infligez des dégâts directs à une cible après avoir changé d'arme, le temps de recharge de Maelström d'acier est réduit de 1 s.\n\nTags: Ultime, Perte de contrôle, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Arme à deux mains, Arme contondante, Deux armes, Division.",
@@ -4659,7 +4659,7 @@ Tags: Damage, Two-Handed, Dual Wield, Bludgeoning, Slashing.`,
 			"zhCN": "人形兵器"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr mit einer zweihändigen Wuchtwaffe, zweihändigen Hiebwaffe oder mit beidhändigen Waffen direkten Schaden verursacht, verursacht Ihr 6 Sek. lang x10% mehr Schaden.\n\nWenn alle drei Schadensboni aktiv sind, verursacht Ihr zusätzlich x15% mehr Schaden.\n\nTags: Schaden, Zweihändig, Zwei Waffen, Wuchtwaffe, Geißel.",
+			"deDE": "Wenn Ihr mit einer zweihändigen Wuchtwaffe, zweihändigen Hiebwaffe oder mit beidhändigen Waffen direkten Schaden verursacht, verursacht Ihr 6 Sek. lang x10% mehr Schaden.\n\nWenn alle drei Schadensboni aktiv sind, verursacht Ihr zusätzlich x15% mehr Schaden.\n\nTags: Schaden, Zweihändig, Zwei Waffen, Wuchtwaffe, Geißel-.",
 			"esES": "Infligir daño directo con armas contundentes de dos manos, armas cortantes de dos manos o armas de doble empuñadura otorga un x10% más de daño durante 6 s.\n\nMientras duran los tres bonus de daño, obtienes un x15% más de daño adicional.\n\nTags: Daño, Dos manos, Doble empuñadura, Contundente, Cortante.",
 			"esMX": "Infligir daño directo con un arma de impacto de dos manos, un arma blanca de dos manos o dos armas inflige un x10% más de daño durante 6 segundos.\n\nMientras las tres bonificaciones de daño están activas, obtienes un x15% más de daño adicional.\n\nTags: Daño, Dos manos, Ambidestreza, Impacto, Corte.",
 			"frFR": "Infliger des dégâts directs avec une arme contondante à deux mains, une arme tranchante à deux mains ou deux armes vous confère x10% de dégâts supplémentaires pendant 6 s.\n\nSi les trois bonus de dégâts sont actifs, vous bénéficiez de x15% de dégâts supplémentaires en plus.\n\nTags: Dégâts, Arme à deux mains, Deux armes, Arme contondante, Division.",

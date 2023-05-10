@@ -4509,7 +4509,7 @@ let paragonData = {
 					"zhCN": "残杀者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Bei Angriffen mit zweihändigen Hiebwaffen besteht eine Chance von 10%, Gegner 2 Sek. lang verwundbar zu machen.\n\nTags: Verwundbar, Glückstreffer, Geißel, Zweihändig.",
+					"deDE": "Glückstreffer: Bei Angriffen mit zweihändigen Hiebwaffen besteht eine Chance von 10%, Gegner 2 Sek. lang verwundbar zu machen.\n\nTags: Verwundbar, Glückstreffer, Geißel-, Zweihändig.",
 					"esES": "Golpe de suerte: Los ataques con armas cortantes de dos manos tienen hasta un 10% de probabilidad de volver vulnerables a los enemigos durante 2 s.\n\nTags: Vulnerable, Golpe de suerte, Cortante, Dos manos.",
 					"esMX": "Golpe afortunado: Los ataques con armas blancas de dos manos tienen hasta un 10% de probabilidad de volver a los enemigos vulnerables durante 2 segundos.\n\nTags: Vulnerable, Golpe afortunado, Corte, Dos manos.",
 					"frFR": "Coup de chance: les attaques avec des armes tranchantes à deux mains ont jusqu'à 10% de chances de rendre les adversaires vulnérables pendant 2 s.\n\nTags: Vulnérable, Coup de chance, Division, Arme à deux mains.",
@@ -5444,7 +5444,7 @@ let paragonData = {
 					"zhCN": "毁灭者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, Geißel, Zweihändig.",
+					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, Geißel-, Zweihändig.",
 					"esES": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Cortante, Dos manos.",
 					"esMX": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Corte, Dos manos.",
 					"frFR": "+10% de dégâts avec TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vulnérable, Division, Arme à deux mains.",

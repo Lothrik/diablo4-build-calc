@@ -48,7 +48,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "After generating 100.0 Fury your next Core Skill creates a Dust Devil that deals {100/180} damage to enemies behind the target.",
 				"nameLocalized": {
-					"deDE": "[ms]Teuflischer[fs]Teuflische[ns]Teuflisches[p]Teuflische[c]Teufels{d}",
+					"deDE": "[ms]Teuflischer[fs]Teuflische[ns]Teuflisches[p]Teuflische[c]Teufels-",
 					"esES": "[fs]endemoniada[ms]endemoniado[fp]endemoniadas[mp]endemoniados",
 					"esMX": "Diabólico",
 					"frFR": "[ms]diabolique[fs]diabolique[mp]diaboliques[fp]diaboliques",
@@ -147,7 +147,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Ground Stomp creates an Earthquake damaging enemies for {195/380} Physical damage over 4 seconds. While standing in Earthquakes, you deal x{5/15}% increased damage.",
 				"nameLocalized": {
-					"deDE": "[ms]Bebender[fs]Bebende[ns]Bebendes[p]Bebende[c]Erdbeben{d}",
+					"deDE": "[ms]Bebender[fs]Bebende[ns]Bebendes[p]Bebende[c]Erdbeben-",
 					"esES": "de terremoto",
 					"esMX": "Terremoto",
 					"frFR": "de tremblement de terre",
@@ -180,7 +180,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Stunning a Bleeding enemy deals {22/40}% of their total Bleeding amount to them as Physical damage.",
 				"nameLocalized": {
-					"deDE": "[ms]Schädelbrechender[fs]Schädelbrechende[ns]Schädelbrechendes[p]Schädelbrechende[c]Schädelbrecher{d}",
+					"deDE": "[ms]Schädelbrechender[fs]Schädelbrechende[ns]Schädelbrechendes[p]Schädelbrechende[c]Schädelbrecher-",
 					"esES": "de quebrantacráneos",
 					"esMX": "del Rompecráneos",
 					"frFR": "de brise-crâne",
@@ -246,7 +246,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Enemies damaged by Kick or Charge will explode if they are killed within the next 2.0 seconds, dealing {500/650} damage to surrounding enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Raufender[fs]Raufende[ns]Raufendes[p]Raufende[c]Raufbold{d}",
+					"deDE": "[ms]Raufender[fs]Raufende[ns]Raufendes[p]Raufende[c]Raufbold-",
 					"esES": "de luchador",
 					"esMX": "del Combatiente",
 					"frFR": "du combat",
@@ -279,7 +279,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Whirlwind leaves behind Dust Devils that deal {80/125} damage to surrounding enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Staubteufels[fs]Staubteufels[ns]Staubteufels[p]Staubteufels[c]Staubteufel{d}",
+					"deDE": "[ms]Staubteufels[fs]Staubteufels[ns]Staubteufels[p]Staubteufels[c]Staubteufel-",
 					"esES": "de tolvanera",
 					"esMX": "del Remolino de Polvo",
 					"frFR": "du tourbillon de poussière",
@@ -345,7 +345,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Gain {55/100} Thorns while Berserking.",
 				"nameLocalized": {
-					"deDE": "[ms]Todessehnsüchtiger[fs]Todessehnsüchtige[ns]Todessehnsüchtiges[p]Todessehnsüchtige[c]Todeswunsch{d}",
+					"deDE": "[ms]Todessehnsüchtiger[fs]Todessehnsüchtige[ns]Todessehnsüchtiges[p]Todessehnsüchtige[c]Todeswunsch-",
 					"esES": "de deseo de muerte",
 					"esMX": "Deseo de Muerte",
 					"frFR": "de pulsion de mort",
@@ -411,7 +411,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Casting Double Swing twice within 1.5 seconds creates a Dust Devil that deals {80/125} damage to enemies behind the target.",
 				"nameLocalized": {
-					"deDE": "[ms]Windpeitschender[fs]Windpeitschende[ns]Windpeitschendes[p]Windpeitschende[c]Windpeitscher{d}",
+					"deDE": "[ms]Windpeitschender[fs]Windpeitschende[ns]Windpeitschendes[p]Windpeitschende[c]Windpeitscher-",
 					"esES": "de azotavientos",
 					"esMX": "Azotador",
 					"frFR": "du fouette-vent",
@@ -510,7 +510,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "After swapping weapons 10.0 times, your next attack will Overpower and deal x{30/50}% increased Overpower damage.",
 				"nameLocalized": {
-					"deDE": "[ms]Erdwüters[fs]Erdwüters[ns]Erdwüters[p]Erdwüters[c]Erdwüter{d}",
+					"deDE": "[ms]Erdwüters[fs]Erdwüters[ns]Erdwüters[p]Erdwüters[c]Erdwüter-",
 					"esES": "de rompetierras",
 					"esMX": "del Golpe Terrestre",
 					"frFR": "du frappe-terre",
@@ -867,7 +867,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Your Weapon Mastery Skills have an additional Charge.\n\nLucky Hit: Damaging an enemy with a Weapon Mastery Skill has up to a {32/50}% chance to Stun them for 2 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Waffenmeisters[fs]Waffenmeisters[ns]Waffenmeisters[p]Waffenmeisters[c]Waffenmeister{d}",
+					"deDE": "[ms]Waffenmeisters[fs]Waffenmeisters[ns]Waffenmeisters[p]Waffenmeisters[c]Waffenmeister-",
 					"esES": "de dominio de las armas",
 					"esMX": "del Maestro de Armas",
 					"frFR": "de maître d'armes",
@@ -999,7 +999,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Gain x{12/20}% increased Lucky Hit Chance while all damage bonuses from the Walking Arsenal Key Passive are active.",
 				"nameLocalized": {
-					"deDE": "[ms]Glücksbringender[fs]Glücksbringende[ns]Glücksbringendes[p]Glücksbringende[c]Glücksbringer{d}",
+					"deDE": "[ms]Glücksbringender[fs]Glücksbringende[ns]Glücksbringendes[p]Glücksbringende[c]Glücksbringer-",
 					"esES": "de invocaventura",
 					"esMX": "Traesuerte",
 					"frFR": "porte-bonheur",
@@ -1034,7 +1034,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Gain {2/4}% Damage Reduction for each Nearby Bleeding enemy up to {10/20}% maximum.",
 				"nameLocalized": {
-					"deDE": "[ms]Eisenblütiger[fs]Eisenblütige[ns]Eisenblütiges[p]Eisenblütige[c]Eisenblut{d}",
+					"deDE": "[ms]Eisenblütiger[fs]Eisenblütige[ns]Eisenblütiges[p]Eisenblütige[c]Eisenblut-",
 					"esES": "de sangre de hierro",
 					"esMX": "Sangre de Hierro",
 					"frFR": "du sang de fer",
@@ -1234,7 +1234,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Gain Berserking for {1/2.5} seconds after swapping weapons 10.0 times.",
 				"nameLocalized": {
-					"deDE": "[ms]Kampfwütiger[fs]Kampfwütige[ns]Kampfwütiges[p]Kampfwütige[c]Kampfwut{d}",
+					"deDE": "[ms]Kampfwütiger[fs]Kampfwütige[ns]Kampfwütiges[p]Kampfwütige[c]Kampfwut-",
 					"esES": "de locura bélica",
 					"esMX": "Locura de Batalla",
 					"frFR": "de folie guerrière",
@@ -1592,7 +1592,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Killing an enemy while Berserking has a 40.0% chance to grant {16/32}% increased Cooldown Reduction to your Brawling Skills for 2.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Bärenklan-Berserkers[fs]Bärenklan-Berserkers[ns]Bärenklan-Berserkers[p]Bärenklan-Berserkers[c]Bärenklan-Berserker{d}",
+					"deDE": "[ms]Bärenklan-Berserkers[fs]Bärenklan-Berserkers[ns]Bärenklan-Berserkers[p]Bärenklan-Berserkers[c]Bärenklan-Berserker-",
 					"esES": "de vesania del Clan del Oso",
 					"esMX": "del Vesánico del Clan del Oso",
 					"frFR": "du berserker de l'Ours",
@@ -1664,7 +1664,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Lightning Storm Critical Strikes spawn 3.0 Dancing Bolts that seek enemies in the area dealing {250/300} Lightning damage.",
 				"nameLocalized": {
-					"deDE": "[ms]Blitztänzelnder[fs]Blitztänzelnde[ns]Blitztänzelndes[p]Blitztänzelnde[c]Blitztänzer{d}",
+					"deDE": "[ms]Blitztänzelnder[fs]Blitztänzelnde[ns]Blitztänzelndes[p]Blitztänzelnde[c]Blitztänzer-",
 					"esES": "de bailarín de rayos",
 					"esMX": "del Bailarín del Rayo",
 					"frFR": "de virevolte",
@@ -1697,7 +1697,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Grizzly Rage now shapeshifts you into a Dire Werewolf. As a Dire Werewolf you gain +{15/25}% Movement Speed instead of Damage Reduction and a {30/50}% Spirit cost reduction bonus. In addition, kills Heal you for 10.0% of your Maximum Life.",
 				"nameLocalized": {
-					"deDE": "[ms]Wölfischer[fs]Wölfische[ns]Wölfisches[p]Wölfische[c]Todeswolf{d}",
+					"deDE": "[ms]Wölfischer[fs]Wölfische[ns]Wölfisches[p]Wölfische[c]Todeswolf-",
 					"esES": "de lobo atroz",
 					"esMX": "del Lobo Temible",
 					"frFR": "de loup féroce",
@@ -1862,7 +1862,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Earth Skills deal x{40/50}% more Critical Strike Damage to Crowd Controlled enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Steinbrüchiger[fs]Steinbrüchige[ns]Steinbrüchiges[p]Steinbrüchige[c]Bruchstein{d}",
+					"deDE": "[ms]Steinbrüchiger[fs]Steinbrüchige[ns]Steinbrüchiges[p]Steinbrüchige[c]Bruchstein-",
 					"esES": "de piedra destrozada",
 					"esMX": "Piedra Aplastante",
 					"frFR": "de roche écrasante",
@@ -1961,7 +1961,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Earth Spike launches spikes in a line and has a {1.5/2.5} second Cooldown.",
 				"nameLocalized": {
-					"deDE": "[ms]Seismischer[fs]Seismische[ns]Seismisches[p]Seismische[c]Seismik{d}",
+					"deDE": "[ms]Seismischer[fs]Seismische[ns]Seismisches[p]Seismische[c]Seismik-",
 					"esES": "de movimiento sísmico",
 					"esMX": "Movimiento Sísmico",
 					"frFR": "d'activité sismique",
@@ -2027,7 +2027,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Critical Strikes with Shred deal {20/30}% of the damage dealt as Lightning damage to the target and surrounding enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Sturmklaues[fs]Sturmklaues[ns]Sturmklaues[p]Sturmklaues[c]Sturmklauen{d}",
+					"deDE": "[ms]Sturmklaues[fs]Sturmklaues[ns]Sturmklaues[p]Sturmklaues[c]Sturmklauen-",
 					"esES": "de garra de la tormenta",
 					"esMX": "de la Garra de Tormenta",
 					"frFR": "des griffes de la tempête",
@@ -2159,7 +2159,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Pulverize creates a shockwave that travels forward, dealing {90/130}% of its damage to targets in the path.",
 				"nameLocalized": {
-					"deDE": "[ms]Überrollender[fs]Überrollende[ns]Überrollendes[p]Überrollende[c]Schockwellen{d}",
+					"deDE": "[ms]Überrollender[fs]Überrollende[ns]Überrollendes[p]Überrollende[c]Schockwellen-",
 					"esES": "de onda de choque",
 					"esMX": "Onda de Choque",
 					"frFR": "d'onde de choc",
@@ -2225,7 +2225,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Blood Howl increases Critical Strike Chance by +{5/10}%. In addition, Blood Howl also affects Nearby Companions and Players for 3.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Nachtheulers[fs]Nachtheulers[ns]Nachtheulers[p]Nachtheulers[c]Nachtheuler{d}",
+					"deDE": "[ms]Nachtheulers[fs]Nachtheulers[ns]Nachtheulers[p]Nachtheulers[c]Nachtheuler-",
 					"esES": "de aullador nocturno",
 					"esMX": "del Aullador Nocturno",
 					"frFR": "du hurleur nocturne",
@@ -2291,7 +2291,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Core Skills deal an additional x{6/8}% damage for each active Companion.",
 				"nameLocalized": {
-					"deDE": "[ms]Schäfers[fs]Schäfers[ns]Schäfers[p]Schäfers[c]Schäfer{d}",
+					"deDE": "[ms]Schäfers[fs]Schäfers[ns]Schäfers[p]Schäfers[c]Schäfer-",
 					"esES": "de pastor",
 					"esMX": "del Pastor",
 					"frFR": "du berger",
@@ -2390,7 +2390,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Tornado will seek up to {1/5} targets.",
 				"nameLocalized": {
-					"deDE": "[ms]Sturmjagender[fs]Sturmjagende[ns]Sturmjagendes[p]Sturmjagende[c]Sturmjäger{d}",
+					"deDE": "[ms]Sturmjagender[fs]Sturmjagende[ns]Sturmjagendes[p]Sturmjagende[c]Sturmjäger-",
 					"esES": "de cazatormentas",
 					"esMX": "del Trotatormentas",
 					"frFR": "du traque-tempêtes",
@@ -2423,7 +2423,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Critical Strikes with Storm Skills charge the air around you for {1/2} seconds causing a Lightning Strike to periodically hit an enemy in the area for 500 Lightning damage. This duration can be extended by additional Critical Strikes.",
 				"nameLocalized": {
-					"deDE": "[ms]Runenbindender[fs]Runenbindende[ns]Runenbindendes[p]Runenbindende[c]Runenbinder{d}",
+					"deDE": "[ms]Runenbindender[fs]Runenbindende[ns]Runenbindendes[p]Runenbindende[c]Runenbinder-",
 					"esES": "de conducto de obrarrunas",
 					"esMX": "Conducto de Trabajador de Runa",
 					"frFR": "de conduction runomancienne",
@@ -3000,7 +3000,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "When you have Fortify your Earth Skills gain +2 Ranks.",
 				"nameLocalized": {
-					"deDE": "[ms]Ballistischer[fs]Ballistische[ns]Ballistisches[p]Ballistische[c]Ballistik{d}",
+					"deDE": "[ms]Ballistischer[fs]Ballistische[ns]Ballistisches[p]Ballistische[c]Ballistik-",
 					"esES": "[fs]furibunda[ms]furibundo[fp]furibundas[mp]furibundos",
 					"esMX": "Balístico",
 					"frFR": "[ms]balistique[fs]balistique[mp]balistiques[fp]balistiques",
@@ -3033,7 +3033,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "While Hurricane is active, gain +2 Ranks to your Shapeshifting Skills.",
 				"nameLocalized": {
-					"deDE": "[ms]Sturmwandelnder[fs]Sturmwandelnde[ns]Sturmwandelndes[p]Sturmwandelnde[c]Sturmwandler{d}",
+					"deDE": "[ms]Sturmwandelnder[fs]Sturmwandelnde[ns]Sturmwandelndes[p]Sturmwandelnde[c]Sturmwandler-",
 					"esES": "de cambiatormentas",
 					"esMX": "del Cambiaformas de Tormenta",
 					"frFR": "de change-tempête",
@@ -3134,7 +3134,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "When you use a Shapeshifting Skill that changes your form, gain {25/50} Life. If you are at full Life, gain the same amount as Fortify.",
 				"nameLocalized": {
-					"deDE": "[ms]Gestaltwandelnder[fs]Gestaltwandelnde[ns]Gestaltwandelndes[p]Gestaltwandelnde[c]Gestaltwandler{d}",
+					"deDE": "[ms]Gestaltwandelnder[fs]Gestaltwandelnde[ns]Gestaltwandelndes[p]Gestaltwandelnde[c]Gestaltwandler-",
 					"esES": "de caminapieles",
 					"esMX": "del Cambiapieles",
 					"frFR": "de marchepeau",
@@ -3233,7 +3233,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Gain {15/25}% bonus amount to your next Earthen Bulwark for each enemy you Crowd Control up to a maximum of 100.0%.",
 				"nameLocalized": {
-					"deDE": "[ms]Erdschützender[fs]Erdschützende[ns]Erdschützendes[p]Erdschützende[c]Erdwacht{d}",
+					"deDE": "[ms]Erdschützender[fs]Erdschützende[ns]Erdschützendes[p]Erdschützende[c]Erdwacht-",
 					"esES": "de guardatierra",
 					"esMX": "Guardia Terrestre",
 					"frFR": "[ms]castral[fs]castrale[mp]castraux[fp]castrales",
@@ -3362,7 +3362,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Critical Strikes with Core Skills increase your Attack Speed by +{20/40}% for 3.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Beschleunigender[fs]Beschleunigende[ns]Beschleunigendes[p]Beschleunigende[c]Beschleunigungs{d}",
+					"deDE": "[ms]Beschleunigender[fs]Beschleunigende[ns]Beschleunigendes[p]Beschleunigende[c]Beschleunigungs-",
 					"esES": "[fs]acelerante[ms]acelerante[fp]acelerantes[mp]acelerantes",
 					"esMX": "Acelerante",
 					"frFR": "d'accélération",
@@ -3428,7 +3428,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Deal x{23/33}% increased damage while you have a Barrier active.",
 				"nameLocalized": {
-					"deDE": "[ms]Eitler[fs]Eitle[ns]Eitles[p]Eitle[c]Eitelkeits{d}",
+					"deDE": "[ms]Eitler[fs]Eitle[ns]Eitles[p]Eitle[c]Eitelkeits-",
 					"esES": "[fs]engreída[ms]engreído[fp]engreídas[mp]engreídos",
 					"esMX": "Engreído",
 					"frFR": "d'arrogance",
@@ -3527,7 +3527,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Skills deal up to x{24/34}% increased damage based on your available Primary Resource when cast, receiving the maximum benefit while you have full Primary Resource.",
 				"nameLocalized": {
-					"deDE": "[ms]Klingenmeisters[fs]Klingenmeisters[ns]Klingenmeisters[p]Klingenmeisters[c]Klingenmeister{d}",
+					"deDE": "[ms]Klingenmeisters[fs]Klingenmeisters[ns]Klingenmeisters[p]Klingenmeisters[c]Klingenmeister-",
 					"esES": "de maestro de filos",
 					"esMX": "del Maestro del Filo",
 					"frFR": "de funambule",
@@ -3593,7 +3593,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Thorns damage dealt has a {20/40}% chance to deal damage to all enemies around you.",
 				"nameLocalized": {
-					"deDE": "[ms]Nadelfeuriger[fs]Nadelfeurige[ns]Nadelfeuriges[p]Nadelfeurige[c]Nadelfeuer{d}",
+					"deDE": "[ms]Nadelfeuriger[fs]Nadelfeurige[ns]Nadelfeuriges[p]Nadelfeurige[c]Nadelfeuer-",
 					"esES": "de erupción de agujas",
 					"esMX": "Estallido de Agujas",
 					"frFR": "d'hirsutisme",
@@ -3626,7 +3626,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "You have x{12.5/25}% increased Critical Strike Chance against Injured enemies. While you are Healthy, you gain x{25/50}% increased Crowd Control Duration.",
 				"nameLocalized": {
-					"deDE": "[ms]Schmetternder[fs]Schmetternde[ns]Schmetterndes[p]Schmetternde[c]Schmetter{d}",
+					"deDE": "[ms]Schmetternder[fs]Schmetternde[ns]Schmetterndes[p]Schmetternde[c]Schmetter-",
 					"esES": "[fs]fulminante[ms]fulminante[fp]fulminantes[mp]fulminantes",
 					"esMX": "Punitivo",
 					"frFR": "de châtiment",
@@ -3937,7 +3937,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "You have +20.0% increased Crowd Control Duration and deal x{20/50}% increased damage to Unstoppable enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Ausbeutender[fs]Ausbeutende[ns]Ausbeutendes[p]Ausbeutende[c]Ausbeuter{d}",
+					"deDE": "[ms]Ausbeutender[fs]Ausbeutende[ns]Ausbeutendes[p]Ausbeutende[c]Ausbeuter-",
 					"esES": "de explotador",
 					"esMX": "del Explotador",
 					"frFR": "d'abus",
@@ -4222,7 +4222,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Gain {10/20} of your Primary Resource for every 20.0% of your Life that you Heal.",
 				"nameLocalized": {
-					"deDE": "[ms]Sternenbeschienener[fs]Sternenbeschienene[ns]Sternenbeschienenes[p]Sternenbeschienene[c]Sternenlicht{d}",
+					"deDE": "[ms]Sternenbeschienener[fs]Sternenbeschienene[ns]Sternenbeschienenes[p]Sternenbeschienene[c]Sternenlicht-",
 					"esES": "de luz estelar",
 					"esMX": "Luz Estelar",
 					"frFR": "de lumière stellaire",
@@ -4288,7 +4288,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "You have +8.0% increased Dodge Chance versus enemies affected by Damage Over Time effects. When you Dodge you gain {5/10} of your Primary Resource.",
 				"nameLocalized": {
-					"deDE": "[ms]Assimilierender[fs]Assimilierende[ns]Assimilierendes[p]Assimilierende[c]Assimilierungs{d}",
+					"deDE": "[ms]Assimilierender[fs]Assimilierende[ns]Assimilierendes[p]Assimilierende[c]Assimilierungs-",
 					"esES": "de asimilación",
 					"esMX": "Asimilación",
 					"frFR": "d'assimilation",
@@ -4481,7 +4481,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "When hit while not Healthy, a magical bubble is summoned around you for {3/5} seconds. While standing in the bubble players are Immune. Can only occur once every 90.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Schützender[fs]Schützende[ns]Schützendes[p]Schützende[c]Schutz{d}",
+					"deDE": "[ms]Schützender[fs]Schützende[ns]Schützendes[p]Schützende[c]Schutz-",
 					"esES": "[fs]protectora[ms]protector[fp]protectoras[mp]protectores",
 					"esMX": "Protector",
 					"frFR": "[ms]protecteur[fs]protectrice[mp]protecteurs[fp]protectrices",
@@ -4661,7 +4661,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Critical Strikes grant +{8/16}% Movement Speed for 1.0 second, up to 6 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Windwütender[fs]Windwütende[ns]Windwütendes[p]Windwütende[c]Windwüter{d}",
+					"deDE": "[ms]Windwütender[fs]Windwütende[ns]Windwütendes[p]Windwütende[c]Windwüter-",
 					"esES": "de golpeador del viento",
 					"esMX": "Golpeador de Viento",
 					"frFR": "de la frappe du vent",
@@ -4694,7 +4694,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "While Unstoppable and for 2.0 seconds after, you gain +{10/25}% increased Movement Speed and can move freely through enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Geistwandelnder[fs]Geistwandelnde[ns]Geistwandelndes[p]Geistwandelnde[c]Geistwandler{d}",
+					"deDE": "[ms]Geistwandelnder[fs]Geistwandelnde[ns]Geistwandelndes[p]Geistwandelnde[c]Geistwandler-",
 					"esES": "de caminante fantasmal",
 					"esMX": "Caminante Fantasmal",
 					"frFR": "d'arpenteur spectral",
@@ -4830,7 +4830,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Bone Spear's primary attack makes enemies hit beyond the first Vulnerable for {1.5/2.5} seconds. Bone Shards from Bone Spear deal {50/100}% bonus damage to Vulnerable enemies and pierce them.",
 				"nameLocalized": {
-					"deDE": "[ms]Splitternder[fs]Splitternde[ns]Splitterndes[p]Splitternde[c]Splitter{d}",
+					"deDE": "[ms]Splitternder[fs]Splitternde[ns]Splitterndes[p]Splitternde[c]Splitter-",
 					"esES": "[fs]astilladora[ms]astillador[fp]astilladoras[mp]astilladores",
 					"esMX": "Astillado",
 					"frFR": "[ms]fracturant[fs]fracturante[mp]fracturants[fp]fracturantes",
@@ -4962,7 +4962,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Blood Lance deals x{15/25}% increased damage to its primary target per lanced enemy.",
 				"nameLocalized": {
-					"deDE": "[ms]Blutsuchender[fs]Blutsuchende[ns]Blutsuchendes[p]Blutsuchende[c]Blutsucher{d}",
+					"deDE": "[ms]Blutsuchender[fs]Blutsuchende[ns]Blutsuchendes[p]Blutsuchende[c]Blutsucher-",
 					"esES": "de buscador de sangre",
 					"esMX": "del Rastreasangre",
 					"frFR": "du chercheur de sang",
@@ -5226,7 +5226,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Bone Storm consumes up to 8 Corpses to increase its duration by up to {4/8} seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Knochenstürmender[fs]Knochenstürmende[ns]Knochenstürmendes[p]Knochenstürmende[c]Knochensturm{d}",
+					"deDE": "[ms]Knochenstürmender[fs]Knochenstürmende[ns]Knochenstürmendes[p]Knochenstürmende[c]Knochensturm-",
 					"esES": "de galerna ósea",
 					"esMX": "Vendaval Óseo",
 					"frFR": "du déluge d'os",
@@ -5490,7 +5490,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Your Sacrifice bonuses are increased by {15/25}%.",
 				"nameLocalized": {
-					"deDE": "[ms]Opfernder[fs]Opfernde[ns]Opferndes[p]Opfernde[c]Opfer{d}",
+					"deDE": "[ms]Opfernder[fs]Opfernde[ns]Opferndes[p]Opfernde[c]Opfer-",
 					"esES": "[fs]sacrificial[ms]sacrificial[fp]sacrificiales[mp]sacrificiales",
 					"esMX": "Sacrificial",
 					"frFR": "[ms]sacrificiel[fs]sacrificielle[mp]sacrificiels[fp]sacrificielles",
@@ -5556,7 +5556,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Consuming a Corpse increases the damage of your next Core Skill by x{5/10}%, up to x{25/50}%.",
 				"nameLocalized": {
-					"deDE": "[ms]Leichenhafter[fs]Leichenhafte[ns]Leichenhaftes[p]Leichenhafte[c]Leichen{d}",
+					"deDE": "[ms]Leichenhafter[fs]Leichenhafte[ns]Leichenhaftes[p]Leichenhafte[c]Leichen-",
 					"esES": "[fs]cadavérica[ms]cadavérico[fp]cadavéricas[mp]cadavéricos",
 					"esMX": "Cadavérico",
 					"frFR": "[ms]cadavérique[fs]cadavérique[mp]cadavériques[fp]cadavériques",
@@ -5637,7 +5637,7 @@ let codexData = {
 				"description": "Blood Surge casts a mini nova on your Minions, dealing {50/75} damage. Damage is increased by 10.0% per target drained by the initial cast, up to 50.0%.",
 				"flavor": "Once a sanctum for Rathma's studies, the Temple of the Deathspeaker became a proving grounds for potential leaders of his priesthood. Its halls are filled with the corpses of those who failed.",
 				"nameLocalized": {
-					"deDE": "[ms]Anhänger des Todes{d}sprechers",
+					"deDE": "[ms]Anhänger des Todes-sprechers",
 					"esES": "[ms]Colgante de Portavoz de la Muerte",
 					"esMX": "Pendiente del Parlamorte",
 					"frFR": "[ms]Pendentif de thanaturge",
@@ -5913,7 +5913,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "After Decompose spawns a Corpse, gain {10/20} Essence.",
 				"nameLocalized": {
-					"deDE": "[ms]Zerfleischender[fs]Zerfleischende[ns]Zerfleischendes[p]Zerfleischende[c]Zerfleischungs{d}",
+					"deDE": "[ms]Zerfleischender[fs]Zerfleischende[ns]Zerfleischendes[p]Zerfleischende[c]Zerfleischungs-",
 					"esES": "de desgarracarne",
 					"esMX": "Desgarrador de Carne",
 					"frFR": "de déchiquetage",
@@ -6012,7 +6012,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Blood Orbs reduce your Ultimate Cooldown by {0.5/1} seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Schnellblütiger[fs]Schnellblütige[ns]Schnellblütiges[p]Schnellblütige[c]Schnellblut{d}",
+					"deDE": "[ms]Schnellblütiger[fs]Schnellblütige[ns]Schnellblütiges[p]Schnellblütige[c]Schnellblut-",
 					"esES": "de sangre rápida",
 					"esMX": "Sangre Veloz",
 					"frFR": "d'hémorragie",
@@ -6078,7 +6078,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Your Golem has a {10/30}% chance to reduce its active Cooldown by 2.0 seconds and a {5/15}% chance to spawn a Corpse each time it damages an enemy with its normal attack.",
 				"nameLocalized": {
-					"deDE": "[ms]Hünenhafter[fs]Hünenhafte[ns]Hünenhaftes[p]Hünenhafte[c]Hünen{d}",
+					"deDE": "[ms]Hünenhafter[fs]Hünenhafte[ns]Hünenhaftes[p]Hünenhafte[c]Hünen-",
 					"esES": "[fs]descomunal[ms]descomunal[fp]descomunales[mp]descomunales",
 					"esMX": "Corpulento",
 					"frFR": "[ms]massif[fs]massive[mp]massifs[fp]massives",
@@ -6111,7 +6111,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "You gain {3/5} Maximum Essence per active Minion.",
 				"nameLocalized": {
-					"deDE": "[ms]Bestattender[fs]Bestattende[ns]Bestattendes[p]Bestattende[c]Requiem{d}",
+					"deDE": "[ms]Bestattender[fs]Bestattende[ns]Bestattendes[p]Bestattende[c]Requiem-",
 					"esES": "de réquiem",
 					"esMX": "Réquiem",
 					"frFR": "de requiem",
@@ -6179,7 +6179,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Every 10.0 seconds, your Cold Skeletal Mages cast a blizzard that deals {250/300} Cold damage and continuously Chills enemies for 8% over 6.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Kältebringender[fs]Kältebringende[ns]Kältebringendes[p]Kältebringende[c]Kältebringer{d}",
+					"deDE": "[ms]Kältebringender[fs]Kältebringende[ns]Kältebringendes[p]Kältebringende[c]Kältebringer-",
 					"esES": "de invocafrío",
 					"esMX": "Portador de Frío",
 					"frFR": "du porte-froid",
@@ -6245,7 +6245,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Your maximum number of Skeletal Warriors is increased by 2.",
 				"nameLocalized": {
-					"deDE": "[ms]Blutholender[fs]Blutholende[ns]Blutholendes[p]Blutholende[c]Blutholer{d}",
+					"deDE": "[ms]Blutholender[fs]Blutholende[ns]Blutholendes[p]Blutholende[c]Blutholer-",
 					"esES": "de sacasangre",
 					"esMX": "del Obtenedor de Sangre",
 					"frFR": "des cherche-sangs",
@@ -6462,7 +6462,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Rapid Fire has a {15/30}% chance to ricochet to another target.",
 				"nameLocalized": {
-					"deDE": "[ms]Wiederholender[fs]Wiederholende[ns]Wiederholendes[p]Wiederholende[c]Wiederholungs{d}",
+					"deDE": "[ms]Wiederholender[fs]Wiederholende[ns]Wiederholendes[p]Wiederholende[c]Wiederholungs-",
 					"esES": "de repetición",
 					"esMX": "Repetidor",
 					"frFR": "à répétition",
@@ -6528,7 +6528,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Whenever Penetrating Shot damages an enemy, 2 additional arrows split off to either side. These side arrows deal {30/40}% of Penetrating Shot's Base damage and do not split.",
 				"nameLocalized": {
-					"deDE": "[ms]Trickreicher[fs]Trickreiche[ns]Trickreiches[p]Trickreiche[c]Trickschuss{d}",
+					"deDE": "[ms]Trickreicher[fs]Trickreiche[ns]Trickreiches[p]Trickreiche[c]Trickschuss-",
 					"esES": "de disparo con truco",
 					"esMX": "Artero",
 					"frFR": "de fine gâchette",
@@ -6660,7 +6660,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Caltrops also throw a cluster of exploding Stun Grenades that deal {100/150} total Physical damage and Stun enemies for 0.5 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Täuschender[fs]Täuschende[ns]Täuschendes[p]Täuschende[c]Täuscher{d}",
+					"deDE": "[ms]Täuschender[fs]Täuschende[ns]Täuschendes[p]Täuschende[c]Täuscher-",
 					"esES": "de bromista",
 					"esMX": "del Embustero",
 					"frFR": "de la crapule",
@@ -6726,7 +6726,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Twisting Blades orbit for a short time after they return to you, dealing {10/20}% of Twisting Blades' return damage per hit. Based on the distance the blades returned, the orbit damage increases up to {20/40}% of the return damage.",
 				"nameLocalized": {
-					"deDE": "[ms]Klingentanzender[fs]Klingentanzende[ns]Klingentanzendes[p]Klingentanzende[c]Klingentänzer{d}",
+					"deDE": "[ms]Klingentanzender[fs]Klingentanzende[ns]Klingentanzendes[p]Klingentanzende[c]Klingentänzer-",
 					"esES": "de danzahojas",
 					"esMX": "del Bailarín de Cuchillas",
 					"frFR": "de la danse des lames",
@@ -6759,7 +6759,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Lucky Hit: Damaging a Poisoned enemy with a Shadow Imbued Skill has up to a 75% chance to create a toxic explosion that applies {40/67.5} Poisoning damage over 5.0 seconds to the target and surrounding enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Giftalchemischer[fs]Giftalchemische[ns]Giftalchemisches[p]Giftalchemische[c]Giftalchemisten{d}",
+					"deDE": "[ms]Giftalchemischer[fs]Giftalchemische[ns]Giftalchemisches[p]Giftalchemische[c]Giftalchemisten-",
 					"esES": "de alquimista tóxico",
 					"esMX": "del Alquimista Tóxico",
 					"frFR": "de l'alchimiste toxique",
@@ -6792,7 +6792,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Lucky Hit: Damaging a Chilled or Frozen enemy with a Shadow Imbued Skill has up to a 75.0% chance to release an explosion that deals {110/200} Cold damage to the target and surrounding enemies, Chilling them for 15.0%.",
 				"nameLocalized": {
-					"deDE": "[ms]Eisalchemischer[fs]Eisalchemische[ns]Eisalchemisches[p]Eisalchemische[c]Eisalchemisten{d}",
+					"deDE": "[ms]Eisalchemischer[fs]Eisalchemische[ns]Eisalchemisches[p]Eisalchemische[c]Eisalchemisten-",
 					"esES": "de alquimista helado",
 					"esMX": "del Alquimista Helado",
 					"frFR": "de l'alchimiste glacial",
@@ -6825,7 +6825,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "When you cast Dash, a Shadow Clone is spawned at your location that also casts Dash, dealing {25/35}% of the Base damage.",
 				"nameLocalized": {
-					"deDE": "[ms]Schattenschnitters[fs]Schattenschnitters[ns]Schattenschnitters[p]Schattenschnitters[c]Schattenschnitter{d}",
+					"deDE": "[ms]Schattenschnitters[fs]Schattenschnitters[ns]Schattenschnitters[p]Schattenschnitters[c]Schattenschnitter-",
 					"esES": "de cortasombras",
 					"esMX": "Rebanasombras",
 					"frFR": "du trancheur d'ombre",
@@ -6957,7 +6957,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Lucky Hit: Dealing direct damage to enemies affected by your Trap Skills has up to a {30/50}% chance to make them Vulnerable for 3.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Sprengfallenstellender[fs]Sprengfallenstellende[ns]Sprengfallenstellendes[p]Sprengfallenstellende[c]Sprengfallensteller{d}",
+					"deDE": "[ms]Sprengfallenstellender[fs]Sprengfallenstellende[ns]Sprengfallenstellendes[p]Sprengfallenstellende[c]Sprengfallensteller-",
 					"esES": "de trampero debilitante",
 					"esMX": "del Trampero Explosivo",
 					"frFR": "de piège explosif",
@@ -7023,7 +7023,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "When you break Stealth with an attack, you drop a cluster of exploding Stun Grenades around your location that deal {360/450} total Physical damage and Stun enemies for 0.5 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Opportuner[fs]Opportune[ns]Opportunes[p]Opportune[c]Opportunisten{d}",
+					"deDE": "[ms]Opportuner[fs]Opportune[ns]Opportunes[p]Opportune[c]Opportunisten-",
 					"esES": "de oportunista",
 					"esMX": "[ms]de Oportunista[fs]de Oportunista[mp]de Oportunista[fp]de Oportunista",
 					"frFR": "de l'opportuniste",
@@ -7122,7 +7122,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Poison Trap no longer breaks Stealth and triggers no Cooldown or arm time while you are in Stealth. All Poison Traps activate when you exit Stealth and Poison Trap's Cooldown will be {5/8} seconds per trap placed.",
 				"nameLocalized": {
-					"deDE": "[ms]Eindringender[fs]Eindringende[ns]Eindringendes[p]Eindringende[c]Eindringlings{d}",
+					"deDE": "[ms]Eindringender[fs]Eindringende[ns]Eindringendes[p]Eindringende[c]Eindringlings-",
 					"esES": "de infiltrador",
 					"esMX": "del Infiltrador",
 					"frFR": "d'infiltration",
@@ -7341,7 +7341,7 @@ let codexData = {
 				"description": "Lucky Hit: Damaging a Vulnerable enemy with a Marksman or Cutthroat Skill has up to a {20/30}% chance to summon a Shadow Clone that mimics your attack.",
 				"flavor": "Dark wisps creep hungrily across these gloves, like an assassin's blade seeking a life to steal on a moonless night.",
 				"nameLocalized": {
-					"deDE": "[fs]Schatten{d}berührung",
+					"deDE": "[fs]Schatten-berührung",
 					"esES": "[ms]Agarre de la sombra",
 					"esMX": "Agarre de la Sombra",
 					"frFR": "[fp]Poignes de l'ombre",
@@ -7433,7 +7433,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Each Chilled or Frozen enemy you Evade through grants you a Barrier that absorbs {25/50} damage for 5.0 seconds, absorbing up to a maximum of {125/250} damage.",
 				"nameLocalized": {
-					"deDE": "[ms]Schockgefrorener[fs]Schockgefrorene[ns]Schockgefrorenes[p]Schockgefrorene[c]Schockfrost{d}",
+					"deDE": "[ms]Schockgefrorener[fs]Schockgefrorene[ns]Schockgefrorenes[p]Schockgefrorene[c]Schockfrost-",
 					"esES": "de congelación instantánea",
 					"esMX": "Quiebre Gélido",
 					"frFR": "[ms]figé[fs]figée[mp]figés[fp]figées",
@@ -7466,7 +7466,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Gain a free Dark Shroud shadow every 3.0 seconds when standing still. Each Dark Shroud shadow grants {2/4}% increased Damage Reduction.",
 				"nameLocalized": {
-					"deDE": "[ms]Verhüllender[fs]Verhüllende[ns]Verhüllendes[p]Verhüllende[c]Verhüllungs{d}",
+					"deDE": "[ms]Verhüllender[fs]Verhüllende[ns]Verhüllendes[p]Verhüllende[c]Verhüllungs-",
 					"esES": "[fs]ocultadora[ms]ocultador[fp]ocultadoras[mp]ocultadores",
 					"esMX": "Envolvente",
 					"frFR": "[ms]embrumé[fs]embrumée[mp]embrumés[fp]embrumées",
@@ -7565,7 +7565,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Upon taking damage from surrounding enemies, you drop a Smoke Grenade and Dodge the next {2/7} attacks within 10.0 seconds. This effect can only occur once every 100.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Entfesselnder[fs]Entfesselnde[ns]Entfesselndes[p]Entfesselnde[c]Entfesslungskünstler{d}",
+					"deDE": "[ms]Entfesselnder[fs]Entfesselnde[ns]Entfesselndes[p]Entfesselnde[c]Entfesslungskünstler-",
 					"esES": "de artista del escapismo",
 					"esMX": "del Escapista",
 					"frFR": "de maître de l'évasion",
@@ -7631,7 +7631,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "You take {15/25}% less damage from Crowd Controlled enemies. Whenever a Crowd Controlled enemy deals direct damage to you, gain +15.0% Movement Speed for 2.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Betrügender[fs]Betrügende[ns]Betrügendes[p]Betrügende[c]Betrüger{d}",
+					"deDE": "[ms]Betrügender[fs]Betrügende[ns]Betrügendes[p]Betrügende[c]Betrüger-",
 					"esES": "de tramposo",
 					"esMX": "del Engaño",
 					"frFR": "de tromperie",
@@ -7697,7 +7697,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Lucky Hit: Critical Strikes with Marksman Skills have up to a {30/50}% chance to grant a free Dark Shroud shadow.",
 				"nameLocalized": {
-					"deDE": "[ms]Schattiger[fs]Schattige[ns]Schattiges[p]Schattige[c]Schatten{d}",
+					"deDE": "[ms]Schattiger[fs]Schattige[ns]Schattiges[p]Schattige[c]Schatten-",
 					"esES": "[fs]umbría[ms]umbrío[fp]umbrías[mp]umbríos",
 					"esMX": "Umbrío",
 					"frFR": "[ms]ombreux[fs]ombreuse[mp]ombreux[fp]ombreuses",
@@ -7932,7 +7932,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a {25/45}% chance to Daze them for 2.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Zerfleischers[fs]Zerfleischers[ns]Zerfleischers[p]Zerfleischers[c]Zerfleischer{d}",
+					"deDE": "[ms]Zerfleischers[fs]Zerfleischers[ns]Zerfleischers[p]Zerfleischers[c]Zerfleischer-",
 					"esES": "de mutilador",
 					"esMX": "del Mutilador",
 					"frFR": "de mutilation",
@@ -7998,7 +7998,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Chilled enemies hit by your Grenade Skills have a chance equal to double your Critical Strike Chance to be instantly Frozen for 2.0 seconds. You deal x{10/25}% increased Critical Strike Damage against Frozen enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Erfrorener[fs]Erfrorene[ns]Erfrorenes[p]Erfrorene[c]Erfrierungs{d}",
+					"deDE": "[ms]Erfrorener[fs]Erfrorene[ns]Erfrorenes[p]Erfrorene[c]Erfrierungs-",
 					"esES": "de hipotermia",
 					"esMX": "Congelado",
 					"frFR": "d'engelure",
@@ -8079,7 +8079,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Shadow Step has an additional Charge. Killing an enemy with Shadow Step refunds a Charge and increases the damage of Shadow Step by x{1/6}% for 2.0 seconds, up to x{5/30}%.",
 				"nameLocalized": {
-					"deDE": "[ms]Verwüstender[fs]Verwüstende[ns]Verwüstendes[p]Verwüstende[c]Verwüster{d}",
+					"deDE": "[ms]Verwüstender[fs]Verwüstende[ns]Verwüstendes[p]Verwüstende[c]Verwüster-",
 					"esES": "de devastador",
 					"esMX": "del Arrasador",
 					"frFR": "de ravage",
@@ -8362,7 +8362,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "You may have 1.0 additional Hydra active, but Hydra's duration is reduced by {20/25}%.",
 				"nameLocalized": {
-					"deDE": "[ms]Schlängelnder[fs]Schlängelnde[ns]Schlängelndes[p]Schlängelnde[c]Schlangen{d}",
+					"deDE": "[ms]Schlängelnder[fs]Schlängelnde[ns]Schlängelndes[p]Schlängelnde[c]Schlangen-",
 					"esES": "[fs]serpentina[ms]serpentino[fp]serpentinas[mp]serpentino",
 					"esMX": "Serpentino",
 					"frFR": "du serpent",
@@ -8560,7 +8560,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "When you cast Blizzard it will periodically spawn exploding Ice Spikes that deal {100/150} damage. Your Ice Spikes deal x25% increased damage to Frozen enemies.",
 				"nameLocalized": {
-					"deDE": "[ms]Vergletscherter[fs]Vergletscherte[ns]Vergletschertes[p]Vergletscherte[c]Gletscher{d}",
+					"deDE": "[ms]Vergletscherter[fs]Vergletscherte[ns]Vergletschertes[p]Vergletscherte[c]Gletscher-",
 					"esES": "[fs]glacial[ms]glacial[fp]glaciales[mp]glaciales",
 					"esMX": "Glacial",
 					"frFR": "[ms]glacial[fs]glaciale[mp]glaciaux[fp]glaciales",
@@ -8692,7 +8692,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "You deal x{11/20}% increased damage to Vulnerable enemies while you have a Barrier.",
 				"nameLocalized": {
-					"deDE": "[ms]Sturmschwellender[fs]Sturmschwellende[ns]Sturmschwellendes[p]Sturmschwellende[c]Sturmschwall{d}",
+					"deDE": "[ms]Sturmschwellender[fs]Sturmschwellende[ns]Sturmschwellendes[p]Sturmschwellende[c]Sturmschwall-",
 					"esES": "de crecimiento de la tormenta",
 					"esMX": "Oleaje de Tormenta",
 					"frFR": "de tempête grondante",
@@ -8791,7 +8791,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Ball Lightning orbits around you, but its damage is decreased by {10/20}%.",
 				"nameLocalized": {
-					"deDE": "[ms]Gravitativer[fs]Gravitative[ns]Gravitatives[p]Gravitative[c]Gravitations{d}",
+					"deDE": "[ms]Gravitativer[fs]Gravitative[ns]Gravitatives[p]Gravitative[c]Gravitations-",
 					"esES": "[fs]gravitacional[ms]gravitacional[fp]gravitacionales[mp]gravitacionales",
 					"esMX": "Gravitatorio",
 					"frFR": "de gravité",
@@ -8824,7 +8824,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "The Vyr's Mastery Key Passive's Damage Reduction is increased by {20/30}% for each Close enemy, up to {60/90}%.",
 				"nameLocalized": {
-					"deDE": "[ms]Magierfürstlicher[fs]Magierfürstliche[ns]Magierfürstliches[p]Magierfürstliche[c]Magierfürsten{d}",
+					"deDE": "[ms]Magierfürstlicher[fs]Magierfürstliche[ns]Magierfürstliches[p]Magierfürstliche[c]Magierfürsten-",
 					"esES": "de señor mago",
 					"esMX": "del Señor Mago",
 					"frFR": "du mage seigneurial",
@@ -8923,7 +8923,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "While Unstable Currents is not active, your Shock Skills have a {5/10}% chance to trigger a free cast from it.",
 				"nameLocalized": {
-					"deDE": "[ms]Stabiler[fs]Stabile[ns]Stabiles[p]Stabile[c]Stabilitäts{d}",
+					"deDE": "[ms]Stabiler[fs]Stabile[ns]Stabiles[p]Stabile[c]Stabilitäts-",
 					"esES": "[fs]estable[ms]estable[fp]estables[mp]estables",
 					"esMX": "Estable",
 					"frFR": "de stabilité",
@@ -8956,7 +8956,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Core or Mastery Skills cast at or above 100.0 Mana gain a +{20/40}% increased Critical Strike Chance.",
 				"nameLocalized": {
-					"deDE": "[ms]Elementarer[fs]Elementare[ns]Elementares[p]Elementare[c]Elementaristen{d}",
+					"deDE": "[ms]Elementarer[fs]Elementare[ns]Elementares[p]Elementare[c]Elementaristen-",
 					"esES": "de elementalista",
 					"esMX": "del Elementalista",
 					"frFR": "d'élémentaliste",
@@ -9447,7 +9447,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "While within your own Blizzard, you take {10/15}% less damage.",
 				"nameLocalized": {
-					"deDE": "[ms]Schneewachender[fs]Schneewachende[ns]Schneewachendes[p]Schneewachende[c]Schneewächter{d}",
+					"deDE": "[ms]Schneewachender[fs]Schneewachende[ns]Schneewachendes[p]Schneewachende[c]Schneewächter-",
 					"esES": "de guardanieves",
 					"esMX": "de la Guardia de Nieve",
 					"frFR": "du garde-neige",
@@ -9480,7 +9480,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Frost Nova gains an additional Charge but the Cooldown per Charge is increased by {30/40}%.",
 				"nameLocalized": {
-					"deDE": "[ms]Frostblitzender[fs]Frostblitzende[ns]Frostblitzendes[p]Frostblitzende[c]Frostblitz{d}",
+					"deDE": "[ms]Frostblitzender[fs]Frostblitzende[ns]Frostblitzendes[p]Frostblitzende[c]Frostblitz-",
 					"esES": "de bombardeo de escarcha",
 					"esMX": "Bombardeo Gélido",
 					"frFR": "de l'assaut de givre",
@@ -9513,7 +9513,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Casting Ice Armor makes you Unstoppable for {2/3} seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Schneeverschleierter[fs]Schneeverschleierte[ns]Schneeverschleiertes[p]Schneeverschleierte[c]Schneeschleier{d}",
+					"deDE": "[ms]Schneeverschleierter[fs]Schneeverschleierte[ns]Schneeverschleiertes[p]Schneeverschleierte[c]Schneeschleier-",
 					"esES": "de velo nevado",
 					"esMX": "Velo de Nieve",
 					"frFR": "du voile de neige",
@@ -9726,7 +9726,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Coming in contact with your Firewall grants you +{15/25}% Movement Speed for 4.0 seconds.",
 				"nameLocalized": {
-					"deDE": "[ms]Feuerwandlers[fs]Feuerwandlers[ns]Feuerwandlers[p]Feuerwandlers[c]Feuerwandler{d}",
+					"deDE": "[ms]Feuerwandlers[fs]Feuerwandlers[ns]Feuerwandlers[p]Feuerwandlers[c]Feuerwandler-",
 					"esES": "de caminallamas",
 					"esMX": "del Caminante Ígneo",
 					"frFR": "du marche-flammes",
@@ -9794,7 +9794,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Lucky Hit: Burning Damage has up to a {5/10}% chance to restore 10.0 Mana.",
 				"nameLocalized": {
-					"deDE": "[ms]Zündelnder[fs]Zündelnde[ns]Zündelndes[p]Zündelnde[c]Zündel{d}",
+					"deDE": "[ms]Zündelnder[fs]Zündelnde[ns]Zündelndes[p]Zündelnde[c]Zündel-",
 					"esES": "[fs]incendiaria[ms]incendiario[fp]incendiarias[mp]incendiarios",
 					"esMX": "Incendiario",
 					"frFR": "[ms]incendiaire[fs]incendiaire[mp]incendiaires[fp]incendiaires",
@@ -9827,7 +9827,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Each time Chain Lightning bounces off you, gain {4/6} Mana.",
 				"nameLocalized": {
-					"deDE": "[ms]Aufladender[fs]Aufladende[ns]Aufladendes[p]Aufladende[c]Aufladungs{d}",
+					"deDE": "[ms]Aufladender[fs]Aufladende[ns]Aufladendes[p]Aufladende[c]Aufladungs-",
 					"esES": "[fs]recargante[ms]recargante[fp]recargantes[mp]recargantes",
 					"esMX": "Recarga",
 					"frFR": "de rechargement",
