@@ -4263,17 +4263,17 @@ let paragonData = {
 					"zhCN": "出血"
 				},
 				"descriptionLocalized": {
-					"deDE": "Gegner, die mindestens 3 Sek. lang unter dem Einfluss Eurer Blutungseffekte stehen, erleiden durch Euch x15% mehr Schaden.\n\nTags: Bleed, Damage.",
-					"esES": "Durante 3 s infliges un x15% más de daño a los enemigos afectados por tu sangrado.\n\nTags: Bleed, Damage.",
-					"esMX": "Los enemigos afectados por tu sangrado durante 3 o más segundos reciben un x15% más de daño de ti.\n\nTags: Bleed, Damage.",
-					"frFR": "Vous infligez x15% de dégâts supplémentaires aux cibles qui ont été affectées par vos effets de saignement pendant au moins 3 s.\n\nTags: Bleed, Damage.",
-					"itIT": "I nemici colpiti dai tuoi effetti di sanguinamento per almeno 3 s subiscono il x15% di danni da te.\n\nTags: Bleed, Damage.",
-					"jaJP": "3秒以上にわたって出血の影響を受けた敵に対し、自身が与えるダメージがx15%増加する。\n\nTags: Bleed, Damage.",
-					"koKR": "자신의 출혈 효과에 3초 이상 영향을 받는 적이 자신에게 받는 피해가 x15% 증가합니다.\n\nTags: Bleed, Damage.",
-					"plPL": "Wrogowie, którzy są pod wpływem wywołanego przez ciebie krwawienia przez 3 lub więcej sekund, otrzymują od ciebie obrażenia zwiększone o x15%.\n\nTags: Bleed, Damage.",
-					"ptBR": "Inimigos afetados por sangramento por 3 ou mais segundos recebem 15% de dano aumentado de você.\n\nTags: Bleed, Damage.",
-					"ruRU": "Если ваш эффект кровотечения действует на цель хотя бы 3 сек., эта цель получает от вас на x15% больше урона.\n\nTags: Bleed, Damage.",
-					"zhCN": "受你的流血效果影响达到或超过3秒的敌人,受到来自你的伤害提高x15%。\n\nTags: Bleed, Damage."
+					"deDE": "Gegner, die mindestens 3 Sek. lang unter dem Einfluss Eurer Blutungseffekte stehen, erleiden durch Euch x15% mehr Schaden.\n\nTags: Blutung, Schaden.",
+					"esES": "Durante 3 s infliges un x15% más de daño a los enemigos afectados por tu sangrado.\n\nTags: Sangrado, Daño.",
+					"esMX": "Los enemigos afectados por tu sangrado durante 3 o más segundos reciben un x15% más de daño de ti.\n\nTags: Sangrado, Daño.",
+					"frFR": "Vous infligez x15% de dégâts supplémentaires aux cibles qui ont été affectées par vos effets de saignement pendant au moins 3 s.\n\nTags: Saignement, Dégâts.",
+					"itIT": "I nemici colpiti dai tuoi effetti di sanguinamento per almeno 3 s subiscono il x15% di danni da te.\n\nTags: Sanguinamento, Danni.",
+					"jaJP": "3秒以上にわたって出血の影響を受けた敵に対し、自身が与えるダメージがx15%増加する。\n\nTags: 流血, ダメージ.",
+					"koKR": "자신의 출혈 효과에 3초 이상 영향을 받는 적이 자신에게 받는 피해가 x15% 증가합니다.\n\nTags: 출혈, 피해.",
+					"plPL": "Wrogowie, którzy są pod wpływem wywołanego przez ciebie krwawienia przez 3 lub więcej sekund, otrzymują od ciebie obrażenia zwiększone o x15%.\n\nTags: Krwawienie, Obrażenia.",
+					"ptBR": "Inimigos afetados por sangramento por 3 ou mais segundos recebem 15% de dano aumentado de você.\n\nTags: Sangramento, Dano.",
+					"ruRU": "Если ваш эффект кровотечения действует на цель хотя бы 3 сек., эта цель получает от вас на x15% больше урона.\n\nTags: Кровотечение, Урон.",
+					"zhCN": "受你的流血效果影响达到或超过3秒的敌人,受到来自你的伤害提高x15%。\n\nTags: 流血, 伤害."
 				}
 			},
 			"Barbarian_Legendary_003": {
@@ -4309,17 +4309,17 @@ let paragonData = {
 					"zhCN": "血怒"
 				},
 				"descriptionLocalized": {
-					"deDE": "Beim Töten eines blutenden Gegners besteht eine Chance von 12%,5 Sek. lang in den Berserkermodus zu verfallen.\n\nTags: Bleed, Berserking.",
-					"esES": "Matar a un enemigo con sangrado tiene un 12% de probabilidad de otorgarte vesania durante 5 s.\n\nTags: Bleed, Berserking.",
-					"esMX": "Eliminar a un enemigo que sangra tiene un 12% de probabilidad de otorgar enajenación durante 5 segundos.\n\nTags: Bleed, Berserking.",
-					"frFR": "Tuer une cible qui saigne vous confère 12% de chances d'obtenir l'effet de Berserk pendant 5 s.\n\nTags: Bleed, Berserking.",
-					"itIT": "Uccidere un nemico sanguinante fornisce una probabilità del 12% di attivare Berserk per 5 s.\n\nTags: Bleed, Berserking.",
-					"jaJP": "出血状態の敵を倒すと、12%の確率で5秒間〈バーサーク〉状態になる。\n\nTags: Bleed, Berserking.",
-					"koKR": "출혈 상태의 적을 처치하면 12% 확률로 5초 동안 광폭화가 부여됩니다.\n\nTags: Bleed, Berserking.",
-					"plPL": "Zabicie krwawiącego wroga ma 12% szans na zapewnienie berserkowania na 5 sek.\n\nTags: Bleed, Berserking.",
-					"ptBR": "Matar um inimigo sangrando tem 12% de chance de conceder Berserk por 5 segundos.\n\nTags: Bleed, Berserking.",
-					"ruRU": "Когда вы убиваете истекающего кровью противника, вы с вероятностью 12% получаете эффект берсерк на 5 сек.\n\nTags: Bleed, Berserking.",
-					"zhCN": "消灭一名流血敌人有12%几率使你进入狂暴状态,持续5秒。\n\nTags: Bleed, Berserking."
+					"deDE": "Beim Töten eines blutenden Gegners besteht eine Chance von 12%,5 Sek. lang in den Berserkermodus zu verfallen.\n\nTags: Blutung, Berserkermodus.",
+					"esES": "Matar a un enemigo con sangrado tiene un 12% de probabilidad de otorgarte vesania durante 5 s.\n\nTags: Sangrado, Vesania.",
+					"esMX": "Eliminar a un enemigo que sangra tiene un 12% de probabilidad de otorgar enajenación durante 5 segundos.\n\nTags: Sangrado, Enajenación.",
+					"frFR": "Tuer une cible qui saigne vous confère 12% de chances d'obtenir l'effet de Berserk pendant 5 s.\n\nTags: Saignement, Rage du berserker.",
+					"itIT": "Uccidere un nemico sanguinante fornisce una probabilità del 12% di attivare Berserk per 5 s.\n\nTags: Sanguinamento, Berserk.",
+					"jaJP": "出血状態の敵を倒すと、12%の確率で5秒間〈バーサーク〉状態になる。\n\nTags: 流血, バーサーク状態.",
+					"koKR": "출혈 상태의 적을 처치하면 12% 확률로 5초 동안 광폭화가 부여됩니다.\n\nTags: 출혈, 광폭화.",
+					"plPL": "Zabicie krwawiącego wroga ma 12% szans na zapewnienie berserkowania na 5 sek.\n\nTags: Krwawienie, Berserkowanie.",
+					"ptBR": "Matar um inimigo sangrando tem 12% de chance de conceder Berserk por 5 segundos.\n\nTags: Sangramento, Berserk.",
+					"ruRU": "Когда вы убиваете истекающего кровью противника, вы с вероятностью 12% получаете эффект берсерк на 5 сек.\n\nTags: Кровотечение, Берсерк.",
+					"zhCN": "消灭一名流血敌人有12%几率使你进入狂暴状态,持续5秒。\n\nTags: 流血, 狂暴."
 				}
 			},
 			"Barbarian_Legendary_005": {
@@ -4339,17 +4339,17 @@ let paragonData = {
 					"zhCN": "天生领袖"
 				},
 				"descriptionLocalized": {
-					"deDE": "Erhöht die Macht Eurer Ruffertigkeiten um 35%.\n\nTags: Shout.",
-					"esES": "Aumenta un 35% la potencia de tus habilidades de grito.\n\nTags: Shout.",
-					"esMX": "Aumenta un 35% la potencia de tus habilidades de Grito.\n\nTags: Shout.",
-					"frFR": "Augmente la puissance de vos compétences de cri de 35%.\n\nTags: Shout.",
-					"itIT": "Aumenta la potenza delle tue abilità di urla del 35%.\n\nTags: Shout.",
-					"jaJP": "シャウトスキルのパワーが35%上昇する。\n\nTags: Shout.",
-					"koKR": "자신의 외침 기술의 위력이 35% 증가합니다.\n\nTags: Shout.",
-					"plPL": "Moc wszystkich twoich umiejętności Okrzyków jest zwiększona o 35%.\n\nTags: Shout.",
-					"ptBR": "Aumenta o poder das suas habilidades de Grito em 35%.\n\nTags: Shout.",
-					"ruRU": "Эффективность ваших умений категории \"Крик\" повышается на 35%.\n\nTags: Shout.",
-					"zhCN": "你的战吼技能的强度提高35%。\n\nTags: Shout."
+					"deDE": "Erhöht die Macht Eurer Ruffertigkeiten um 35%.\n\nTags: Ruf.",
+					"esES": "Aumenta un 35% la potencia de tus habilidades de grito.\n\nTags: Grito.",
+					"esMX": "Aumenta un 35% la potencia de tus habilidades de Grito.\n\nTags: Grito.",
+					"frFR": "Augmente la puissance de vos compétences de cri de 35%.\n\nTags: Cri.",
+					"itIT": "Aumenta la potenza delle tue abilità di urla del 35%.\n\nTags: Urla.",
+					"jaJP": "シャウトスキルのパワーが35%上昇する。\n\nTags: シャウト.",
+					"koKR": "자신의 외침 기술의 위력이 35% 증가합니다.\n\nTags: 외침.",
+					"plPL": "Moc wszystkich twoich umiejętności Okrzyków jest zwiększona o 35%.\n\nTags: Okrzyk.",
+					"ptBR": "Aumenta o poder das suas habilidades de Grito em 35%.\n\nTags: Grito.",
+					"ruRU": "Эффективность ваших умений категории \"Крик\" повышается на 35%.\n\nTags: Крик.",
+					"zhCN": "你的战吼技能的强度提高35%。\n\nTags: 战吼."
 				}
 			},
 			"Barbarian_Legendary_006": {
@@ -4401,17 +4401,17 @@ let paragonData = {
 					"zhCN": "屠戮者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Im Berserkermodus erhöhen kritische Treffer Eure Angriffsgeschwindigkeit 6 Sek. lang um +2%, bis maximal +10%.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"esES": "Mientras tienes vesania, los golpes críticos aumentan tu velocidad de ataque un +2%, hasta un máximo de un +10%, durante 6 s.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"esMX": "Mientras tienes enajenación, los golpes críticos aumentan tu velocidad de ataque un +2%, hasta un máximo del +10%, durante 6 segundos.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"frFR": "Sous l'effet de Rage du berserker, les coups critiques augmentent votre vitesse d'attaque de +2% pendant 6 s, jusqu'à un maximum de +10%.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"itIT": "Mentre Berserk è attivo, i colpi critici aumentano la tua velocità d'attacco del +2%, fino a un massimo del +10%, per 6 s.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"jaJP": "バーサーク中にクリティカルヒットが発生すると、攻撃速度が6秒間にわたり+2%上昇する。上昇量は最大+10%。\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"koKR": "광폭화 상태에서 공격이 극대화로 적중하면 6초 동안 공격 속도가 +2%만큼, 최대 +10%까지 증가합니다.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"plPL": "Podczas berserkowania trafienia krytyczne zwiększają twoją szybkość ataku o +2%, maksymalnie do +10%, na 6 sek.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"ptBR": "Sob efeito de Berserk, acertos críticos aumentam sua velocidade de ataque em +2%, até +10%, por 6 segundos.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"ruRU": "Пока вы находитесь в режиме берсерка, критические удары повышают вашу скорость атаки на +2%, вплоть до +10%, на 6 сек.\n\nTags: Berserking, Critical Strikes, Attack Speed.",
-					"zhCN": "狂暴状态下,暴击使你的攻击速度提高+2%,最多提高+10%,持续6秒。\n\nTags: Berserking, Critical Strikes, Attack Speed."
+					"deDE": "Im Berserkermodus erhöhen kritische Treffer Eure Angriffsgeschwindigkeit 6 Sek. lang um +2%, bis maximal +10%.\n\nTags: Berserkermodus, Kritische Treffer, Angriffsgeschwindigkeit.",
+					"esES": "Mientras tienes vesania, los golpes críticos aumentan tu velocidad de ataque un +2%, hasta un máximo de un +10%, durante 6 s.\n\nTags: Vesania, Golpes críticos, Velocidad de ataque.",
+					"esMX": "Mientras tienes enajenación, los golpes críticos aumentan tu velocidad de ataque un +2%, hasta un máximo del +10%, durante 6 segundos.\n\nTags: Enajenación, Golpes críticos, Velocidad de ataque.",
+					"frFR": "Sous l'effet de Rage du berserker, les coups critiques augmentent votre vitesse d'attaque de +2% pendant 6 s, jusqu'à un maximum de +10%.\n\nTags: Rage du berserker, Coups critiques, Vitesse d'attaque.",
+					"itIT": "Mentre Berserk è attivo, i colpi critici aumentano la tua velocità d'attacco del +2%, fino a un massimo del +10%, per 6 s.\n\nTags: Berserk, Colpi critici, Velocità d'attacco.",
+					"jaJP": "バーサーク中にクリティカルヒットが発生すると、攻撃速度が6秒間にわたり+2%上昇する。上昇量は最大+10%。\n\nTags: バーサーク状態, 致命の一撃, 攻撃速度.",
+					"koKR": "광폭화 상태에서 공격이 극대화로 적중하면 6초 동안 공격 속도가 +2%만큼, 최대 +10%까지 증가합니다.\n\nTags: 광폭화, 극대화, 공격 속도.",
+					"plPL": "Podczas berserkowania trafienia krytyczne zwiększają twoją szybkość ataku o +2%, maksymalnie do +10%, na 6 sek.\n\nTags: Berserkowanie, Trafienia Krytyczne, Szybkość Ataku.",
+					"ptBR": "Sob efeito de Berserk, acertos críticos aumentam sua velocidade de ataque em +2%, até +10%, por 6 segundos.\n\nTags: Berserk, Acertos Críticos, Velocidade de Ataque.",
+					"ruRU": "Пока вы находитесь в режиме берсерка, критические удары повышают вашу скорость атаки на +2%, вплоть до +10%, на 6 сек.\n\nTags: Берсерк, Критические удары, Скорость атаки.",
+					"zhCN": "狂暴状态下,暴击使你的攻击速度提高+2%,最多提高+10%,持续6秒。\n\nTags: 狂暴, 暴击, 攻击速度."
 				}
 			},
 			"Barbarian_Legendary_010": {
@@ -4447,17 +4447,17 @@ let paragonData = {
 					"zhCN": "战争使者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Jedes Mal, wenn Ihr 75 Wut verbraucht, erhaltet Ihr 20% Eures maximalen Lebens als Stählung.\n\nTags: Fury, Fortify.",
-					"esES": "Por cada 75 de furia que gastes, obtienes un 20% de tu vida máxima como fortificación.\n\nTags: Fury, Fortify.",
-					"esMX": "Por cada 75 de Furia que uses, obtienes un 20% de tu vida máxima como fortificación.\n\nTags: Fury, Fortify.",
-					"frFR": "Pour chaque tranche de 75 points de fureur dépensés, vous obtenez un montant de fortification égal à 20% de votre maximum de points de vie.\n\nTags: Fury, Fortify.",
-					"itIT": "Per ogni 75 Furia consumata, ottieni il 20% della tua Vita massima come Fortificazione.\n\nTags: Fury, Fortify.",
-					"jaJP": "怒気を75消費するごとに、最大ライフのにあたる20%の強化を獲得する。\n\nTags: Fury, Fortify.",
-					"koKR": "소모한 분노 75당 최대 생명력의 20%에 해당하는 생명력을 보강 효과로 얻습니다.\n\nTags: Fury, Fortify.",
-					"plPL": "Za każde wydane 75 pkt. furii zyskujesz 20% maksymalnego zdrowia jako umocnienie.\n\nTags: Fury, Fortify.",
-					"ptBR": "Para cada 75 de fúria que gastar, você recebe 20% da sua vida máxima como fortificação.\n\nTags: Fury, Fortify.",
-					"ruRU": "За каждые потраченные 75 ед. ярости вы получаете укрепление в объеме 20% максимального запаса здоровья.\n\nTags: Fury, Fortify.",
-					"zhCN": "你每消耗75点怒气,强固你20%生命上限。\n\nTags: Fury, Fortify."
+					"deDE": "Jedes Mal, wenn Ihr 75 Wut verbraucht, erhaltet Ihr 20% Eures maximalen Lebens als Stählung.\n\nTags: Wut, Stählung.",
+					"esES": "Por cada 75 de furia que gastes, obtienes un 20% de tu vida máxima como fortificación.\n\nTags: Furia, Fortificación.",
+					"esMX": "Por cada 75 de Furia que uses, obtienes un 20% de tu vida máxima como fortificación.\n\nTags: Furia, Fortificar.",
+					"frFR": "Pour chaque tranche de 75 points de fureur dépensés, vous obtenez un montant de fortification égal à 20% de votre maximum de points de vie.\n\nTags: Fureur, Fortification.",
+					"itIT": "Per ogni 75 Furia consumata, ottieni il 20% della tua Vita massima come Fortificazione.\n\nTags: Furia, Fortificazione.",
+					"jaJP": "怒気を75消費するごとに、最大ライフのにあたる20%の強化を獲得する。\n\nTags: 怒気, 強化.",
+					"koKR": "소모한 분노 75당 최대 생명력의 20%에 해당하는 생명력을 보강 효과로 얻습니다.\n\nTags: 분노, 보강.",
+					"plPL": "Za każde wydane 75 pkt. furii zyskujesz 20% maksymalnego zdrowia jako umocnienie.\n\nTags: Furia, Umocnienie.",
+					"ptBR": "Para cada 75 de fúria que gastar, você recebe 20% da sua vida máxima como fortificação.\n\nTags: Fúria, Fortificação.",
+					"ruRU": "За каждые потраченные 75 ед. ярости вы получаете укрепление в объеме 20% максимального запаса здоровья.\n\nTags: Ярость, Укрепление.",
+					"zhCN": "你每消耗75点怒气,强固你20%生命上限。\n\nTags: 怒气, 强固."
 				}
 			},
 			"Barbarian_Legendary_012": {
@@ -4509,17 +4509,17 @@ let paragonData = {
 					"zhCN": "残杀者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Bei Angriffen mit zweihändigen Hiebwaffen besteht eine Chance von 10%, Gegner 2 Sek. lang verwundbar zu machen.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"esES": "Golpe de suerte: Los ataques con armas cortantes de dos manos tienen hasta un 10% de probabilidad de volver vulnerables a los enemigos durante 2 s.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"esMX": "Golpe afortunado: Los ataques con armas blancas de dos manos tienen hasta un 10% de probabilidad de volver a los enemigos vulnerables durante 2 segundos.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"frFR": "Coup de chance: les attaques avec des armes tranchantes à deux mains ont jusqu'à 10% de chances de rendre les adversaires vulnérables pendant 2 s.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"itIT": "Colpo fortunato: gli attacchi con armi taglienti a due mani hanno fino al 10% di probabilità di rendere i nemici vulnerabili per 2 s.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"jaJP": "幸運の一撃: 両手斬撃武器による攻撃が最大10%の確率で敵を2秒間脆弱状態にする。\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"koKR": "행운의 적중: 양손 베는 무기로 공격할 때 최대 10% 확률로 적이 2초 동안 취약해집니다.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"plPL": "Szczęśliwy traf: Ataki dwuręczną bronią sieczną mają do 10% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"ptBR": "Golpe de Sorte: Ataques com armas de corte de duas mãos têm até 10% de chance de tornar os inimigos vulneráveis por 2 segundos.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"ruRU": "Удачный удар: атаки двуручным рубящим оружием с вероятностью до 10% делают противников уязвимыми на 2 сек.\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed.",
-					"zhCN": "幸运一击:使用双手劈砍武器攻击最多有10%几率使敌人陷入易伤状态,持续2秒。\n\nTags: Vulnerable, Lucky Hit, Slashing, Two-Handed."
+					"deDE": "Glückstreffer: Bei Angriffen mit zweihändigen Hiebwaffen besteht eine Chance von 10%, Gegner 2 Sek. lang verwundbar zu machen.\n\nTags: Verwundbar, Glückstreffer, [c]Geißel{d}, Zweihändig.",
+					"esES": "Golpe de suerte: Los ataques con armas cortantes de dos manos tienen hasta un 10% de probabilidad de volver vulnerables a los enemigos durante 2 s.\n\nTags: Vulnerable, Golpe de suerte, Cortante, Dos manos.",
+					"esMX": "Golpe afortunado: Los ataques con armas blancas de dos manos tienen hasta un 10% de probabilidad de volver a los enemigos vulnerables durante 2 segundos.\n\nTags: Vulnerable, Golpe afortunado, Corte, Dos manos.",
+					"frFR": "Coup de chance: les attaques avec des armes tranchantes à deux mains ont jusqu'à 10% de chances de rendre les adversaires vulnérables pendant 2 s.\n\nTags: Vulnérable, Coup de chance, [fs]Division, Arme à deux mains.",
+					"itIT": "Colpo fortunato: gli attacchi con armi taglienti a due mani hanno fino al 10% di probabilità di rendere i nemici vulnerabili per 2 s.\n\nTags: Vulnerabilità, Colpo fortunato, Tagliente, A due mani.",
+					"jaJP": "幸運の一撃: 両手斬撃武器による攻撃が最大10%の確率で敵を2秒間脆弱状態にする。\n\nTags: 脆弱, 幸運の一撃, 斬撃を放つ, 両手用.",
+					"koKR": "행운의 적중: 양손 베는 무기로 공격할 때 최대 10% 확률로 적이 2초 동안 취약해집니다.\n\nTags: 취약, 행운의 적중, 척살의, 양손 무기.",
+					"plPL": "Szczęśliwy traf: Ataki dwuręczną bronią sieczną mają do 10% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Odsłonięcie, Szczęśliwy Traf, [ns]Smagnięcie, Dwuręczna broń.",
+					"ptBR": "Golpe de Sorte: Ataques com armas de corte de duas mãos têm até 10% de chance de tornar os inimigos vulneráveis por 2 segundos.\n\nTags: Vulnerável, Golpe de Sorte, Corte, Duas mãos.",
+					"ruRU": "Удачный удар: атаки двуручным рубящим оружием с вероятностью до 10% делают противников уязвимыми на 2 сек.\n\nTags: Уязвимость, Удачный удар, [fs]рубка, Двуручное.",
+					"zhCN": "幸运一击:使用双手劈砍武器攻击最多有10%几率使敌人陷入易伤状态,持续2秒。\n\nTags: 易伤, 幸运一击, 劈斩, 双手."
 				}
 			},
 			"Barbarian_Legendary_015": {
@@ -4539,17 +4539,17 @@ let paragonData = {
 					"zhCN": "碎骨者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Das Überwältigen mit zweihändigen Wuchtwaffen betäubt Gegner {#} Sek. lang und verleiht Euch {#}% Eures maximalen Lebens als Stählung.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"esES": "Los arrollamientos con tu arma contundente de dos manos aturden a los enemigos durante {#} s y te otorgan un {#}% de tu vida máxima como fortificación.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"esMX": "Al abrumar a los enemigos con tu arma de impacto de dos manos, los aturdes durante {#} segundos y obtienes un {#}% de tu vida máxima como fortificación.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"frFR": "Accabler des adversaires avec votre arme contondante à deux mains les étourdit pendant {#} s et vous confère un montant de fortification égal à {#}% de votre maximum de points de vie.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"itIT": "Infliggere Sopraffazione con la tua arma contundente a due mani stordisce i nemici per {#} s e ti fornisce il {#}% della tua Vita massima come Fortificazione.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"jaJP": "両手殴打武器で攻撃すると、オーバーパワーになる確率が100%増える。\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"koKR": "양손 둔기로 제압 시 적을 {#}초 동안 기절시키고 자신의 최대 생명력의 {#}%만큼 보강됩니다.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"plPL": "Przytłoczenie wroga przy użyciu dwuręcznej broni obuchowej ogłusza go na {#} sek. i zapewnia ci {#}% maksymalnego zdrowia jako umocnienie.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"ptBR": "Desferir Golpes Brutais com sua arma de concussão de duas mãos atordoa inimigos por {#} segundos e concede a você {#}% da sua vida máxima como fortificação.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"ruRU": "Подавляющий урон двуручным дробящим оружием оглушает противников на {#} сек. И дает вам укрепление в объеме {#}% максимального запаса здоровья.\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning.",
-					"zhCN": "使用双手钝击武器攻击造成的压制击晕敌人{#}秒,并给予你{#}%生命上限,作为强固。\n\nTags: Overpower, Crowd Control, Fortify, Two-Handed, Bludgeoning."
+					"deDE": "Das Überwältigen mit zweihändigen Wuchtwaffen betäubt Gegner {#} Sek. lang und verleiht Euch {#}% Eures maximalen Lebens als Stählung.\n\nTags: Überwältigen, Kontrollverlust, Stählung, Zweihändig, Wuchtwaffe.",
+					"esES": "Los arrollamientos con tu arma contundente de dos manos aturden a los enemigos durante {#} s y te otorgan un {#}% de tu vida máxima como fortificación.\n\nTags: Arrollamiento, Control de masas, Fortificación, Dos manos, Contundente.",
+					"esMX": "Al abrumar a los enemigos con tu arma de impacto de dos manos, los aturdes durante {#} segundos y obtienes un {#}% de tu vida máxima como fortificación.\n\nTags: Abrumar, Control de multitudes, Fortificar, Dos manos, Impacto.",
+					"frFR": "Accabler des adversaires avec votre arme contondante à deux mains les étourdit pendant {#} s et vous confère un montant de fortification égal à {#}% de votre maximum de points de vie.\n\nTags: Accablement, Perte de contrôle, Fortification, Arme à deux mains, Arme contondante.",
+					"itIT": "Infliggere Sopraffazione con la tua arma contundente a due mani stordisce i nemici per {#} s e ti fornisce il {#}% della tua Vita massima come Fortificazione.\n\nTags: Sopraffazione, Effetti debilitanti, Fortificazione, A due mani, Contundente.",
+					"jaJP": "両手殴打武器で攻撃すると、オーバーパワーになる確率が100%増える。\n\nTags: オーバーパワー, 操作障害効果, 強化, 両手用, 殴打.",
+					"koKR": "양손 둔기로 제압 시 적을 {#}초 동안 기절시키고 자신의 최대 생명력의 {#}%만큼 보강됩니다.\n\nTags: 제압, 군중 제어, 보강, 양손 무기, 둔기.",
+					"plPL": "Przytłoczenie wroga przy użyciu dwuręcznej broni obuchowej ogłusza go na {#} sek. i zapewnia ci {#}% maksymalnego zdrowia jako umocnienie.\n\nTags: Przytłoczenie, Ograniczanie Kontroli, Umocnienie, Dwuręczna broń, Obuchowe.",
+					"ptBR": "Desferir Golpes Brutais com sua arma de concussão de duas mãos atordoa inimigos por {#} segundos e concede a você {#}% da sua vida máxima como fortificação.\n\nTags: Golpe Brutal, Controle de Grupo, Fortificação, Duas mãos, Concussão.",
+					"ruRU": "Подавляющий урон двуручным дробящим оружием оглушает противников на {#} сек. И дает вам укрепление в объеме {#}% максимального запаса здоровья.\n\nTags: Подавление, Контроль, Укрепление, Двуручное, Дробящее оружие.",
+					"zhCN": "使用双手钝击武器攻击造成的压制击晕敌人{#}秒,并给予你{#}%生命上限,作为强固。\n\nTags: 压制, 群控, 强固, 双手, 钝击."
 				}
 			},
 			"Barbarian_Legendary_016": {
@@ -4569,17 +4569,17 @@ let paragonData = {
 					"zhCN": "无瑕技法"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr Gegnern mit Einhandwaffen Schaden zufügt, wird Eure kritische Trefferchance 2 Sek. lang um x1% erhöht, bis zu x5%. Dieser Effekt kann nur einmal pro Einsatz oder zweimal pro Sekunde während des Kanalisierens von Wirbelwind auftreten.\n\nTags: Critical Strikes, Dual Wield.",
-					"esES": "Infligir daño a enemigos con armas de una mano aumenta tu probabilidad de golpe crítico un x1% durante 2 s, hasta un máximo de un x5%. Solo puede ocurrir una vez por cada lanzamiento de la habilidad, o dos veces por segundo mientras se canaliza Torbellino.\n\nTags: Critical Strikes, Dual Wield.",
-					"esMX": "Infligir daño a los enemigos con armas de una mano aumenta tu probabilidad de golpe crítico un x1% durante 2 segundos, hasta un máximo del x5%. Esto solo puede suceder una vez por habilidad lanzada o dos veces por segundo al canalizar Remolino.\n\nTags: Critical Strikes, Dual Wield.",
-					"frFR": "Infliger des dégâts aux adversaires avec des armes à une main augmente vos chances d'infliger un coup critique de x1% pendant 2 s, jusqu'a un maximum de x5%. Cet effet ne peut se produire qu'une fois par utilisation de compétence, ou deux fois par seconde pendant la canalisation de Tourbillon.\n\nTags: Critical Strikes, Dual Wield.",
-					"itIT": "Danneggiare i nemici con armi a una mano aumenta la tua probabilità di critico del x1% per 2 s, fino al x5%. Può attivarsi solo una volta per abilità utilizzata, o due volte al secondo durante la canalizzazione di Turbine.\n\nTags: Critical Strikes, Dual Wield.",
-					"jaJP": "片手武器で敵にダメージを与えると、クリティカルヒット率が2秒間、x1%増加する。増加量は最大x5%。この効果は1回のスキル使用につき一度のみ、または〈ワールウィンド〉使用中1秒に2回発生する。\n\nTags: Critical Strikes, Dual Wield.",
-					"koKR": "한손 무기로 적에게 피해를 주면 극대화 확률이 2초 동안 x1%만큼, 최대 x5%까지 증가합니다. 이 효과는 시전하는 기술 하나당 한 번씩만, 또는 소용돌이 정신 집중 시간 1초당 두 번씩만 발동합니다.\n\nTags: Critical Strikes, Dual Wield.",
-					"plPL": "Ranienie wrogów przy pomocy broni jednoręcznej zwiększa twoją szansę na trafienie krytyczne o x1% na 2 sek., maksymalnie do x5%. Efekt ten może wystąpić tylko raz na użycie umiejętności lub dwa razy na sekundę podczas podtrzymywania Trąby Powietrznej.\n\nTags: Critical Strikes, Dual Wield.",
-					"ptBR": "Causar dano a inimigos com armas de uma mão aumenta sua chance de acerto crítico em 1% por 2 segundos, até 5%. Isso só pode ocorrer uma vez por habilidade lançada ou duas vezes por segundo ao canalizar Redemoinho.\n\nTags: Critical Strikes, Dual Wield.",
-					"ruRU": "Когда вы наносите противникам урон одноручным оружием, вероятность критического удара повышается на x1% на 2 сек. вплоть до x5%. Срабатывает один раз за применение умения или два раза в секунду при поддержании \"Вихря\".\n\nTags: Critical Strikes, Dual Wield.",
-					"zhCN": "使用单手武器对敌人造成伤害会使你的暴击几率提高x1%,持续2秒,最多提高x5%。该效果在单次技能施放期间只能触发一次,在引导旋风斩时每秒可触发两次。\n\nTags: Critical Strikes, Dual Wield."
+					"deDE": "Wenn Ihr Gegnern mit Einhandwaffen Schaden zufügt, wird Eure kritische Trefferchance 2 Sek. lang um x1% erhöht, bis zu x5%. Dieser Effekt kann nur einmal pro Einsatz oder zweimal pro Sekunde während des Kanalisierens von Wirbelwind auftreten.\n\nTags: Kritische Treffer, Zwei Waffen.",
+					"esES": "Infligir daño a enemigos con armas de una mano aumenta tu probabilidad de golpe crítico un x1% durante 2 s, hasta un máximo de un x5%. Solo puede ocurrir una vez por cada lanzamiento de la habilidad, o dos veces por segundo mientras se canaliza Torbellino.\n\nTags: Golpes críticos, Doble empuñadura.",
+					"esMX": "Infligir daño a los enemigos con armas de una mano aumenta tu probabilidad de golpe crítico un x1% durante 2 segundos, hasta un máximo del x5%. Esto solo puede suceder una vez por habilidad lanzada o dos veces por segundo al canalizar Remolino.\n\nTags: Golpes críticos, Ambidestreza.",
+					"frFR": "Infliger des dégâts aux adversaires avec des armes à une main augmente vos chances d'infliger un coup critique de x1% pendant 2 s, jusqu'a un maximum de x5%. Cet effet ne peut se produire qu'une fois par utilisation de compétence, ou deux fois par seconde pendant la canalisation de Tourbillon.\n\nTags: Coups critiques, Deux armes.",
+					"itIT": "Danneggiare i nemici con armi a una mano aumenta la tua probabilità di critico del x1% per 2 s, fino al x5%. Può attivarsi solo una volta per abilità utilizzata, o due volte al secondo durante la canalizzazione di Turbine.\n\nTags: Colpi critici, Doppia arma.",
+					"jaJP": "片手武器で敵にダメージを与えると、クリティカルヒット率が2秒間、x1%増加する。増加量は最大x5%。この効果は1回のスキル使用につき一度のみ、または〈ワールウィンド〉使用中1秒に2回発生する。\n\nTags: 致命の一撃, 二刀流.",
+					"koKR": "한손 무기로 적에게 피해를 주면 극대화 확률이 2초 동안 x1%만큼, 최대 x5%까지 증가합니다. 이 효과는 시전하는 기술 하나당 한 번씩만, 또는 소용돌이 정신 집중 시간 1초당 두 번씩만 발동합니다.\n\nTags: 극대화, 쌍수 무기.",
+					"plPL": "Ranienie wrogów przy pomocy broni jednoręcznej zwiększa twoją szansę na trafienie krytyczne o x1% na 2 sek., maksymalnie do x5%. Efekt ten może wystąpić tylko raz na użycie umiejętności lub dwa razy na sekundę podczas podtrzymywania Trąby Powietrznej.\n\nTags: Trafienia Krytyczne, Broń w Każdej Ręce.",
+					"ptBR": "Causar dano a inimigos com armas de uma mão aumenta sua chance de acerto crítico em 1% por 2 segundos, até 5%. Isso só pode ocorrer uma vez por habilidade lançada ou duas vezes por segundo ao canalizar Redemoinho.\n\nTags: Acertos Críticos, Empunhadura Dupla.",
+					"ruRU": "Когда вы наносите противникам урон одноручным оружием, вероятность критического удара повышается на x1% на 2 сек. вплоть до x5%. Срабатывает один раз за применение умения или два раза в секунду при поддержании \"Вихря\".\n\nTags: Критические удары, Оружие в каждой руке.",
+					"zhCN": "使用单手武器对敌人造成伤害会使你的暴击几率提高x1%,持续2秒,最多提高x5%。该效果在单次技能施放期间只能触发一次,在引导旋风斩时每秒可触发两次。\n\nTags: 暴击, 双持."
 				}
 			},
 			"Barbarian_Legendary_017": {
@@ -4599,17 +4599,17 @@ let paragonData = {
 					"zhCN": "武器大师"
 				},
 				"descriptionLocalized": {
-					"deDE": "Beim Waffenwechsel erhaltet Ihr 3 Wut.\n\nTags: Fury.",
-					"esES": "Cambiar de armas te otorga 3 de furia.\n\nTags: Fury.",
-					"esMX": "Alternar armas te otorga 3 de Furia.\n\nTags: Fury.",
-					"frFR": "Changer d'arme vous octroie 3 points de fureur.\n\nTags: Fury.",
-					"itIT": "Scambiare le armi ti fornisce 3 furia.\n\nTags: Fury.",
-					"jaJP": "武器を切り替えると、怒気が3増加する。\n\nTags: Fury.",
-					"koKR": "무기를 교체하면 분노를 3 얻습니다.\n\nTags: Fury.",
-					"plPL": "Zamiana broni zapewnia ci 3 pkt. furii.\n\nTags: Fury.",
-					"ptBR": "Trocar de armas concede 3 de fúria.\n\nTags: Fury.",
-					"ruRU": "При смене оружия вы накапливаете 3 ед. ярости.\n\nTags: Fury.",
-					"zhCN": "切换武器使你获得3点怒气。\n\nTags: Fury."
+					"deDE": "Beim Waffenwechsel erhaltet Ihr 3 Wut.\n\nTags: Wut.",
+					"esES": "Cambiar de armas te otorga 3 de furia.\n\nTags: Furia.",
+					"esMX": "Alternar armas te otorga 3 de Furia.\n\nTags: Furia.",
+					"frFR": "Changer d'arme vous octroie 3 points de fureur.\n\nTags: Fureur.",
+					"itIT": "Scambiare le armi ti fornisce 3 furia.\n\nTags: Furia.",
+					"jaJP": "武器を切り替えると、怒気が3増加する。\n\nTags: 怒気.",
+					"koKR": "무기를 교체하면 분노를 3 얻습니다.\n\nTags: 분노.",
+					"plPL": "Zamiana broni zapewnia ci 3 pkt. furii.\n\nTags: Furia.",
+					"ptBR": "Trocar de armas concede 3 de fúria.\n\nTags: Fúria.",
+					"ruRU": "При смене оружия вы накапливаете 3 ед. ярости.\n\nTags: Ярость.",
+					"zhCN": "切换武器使你获得3点怒气。\n\nTags: 怒气."
 				}
 			},
 			"Barbarian_Magic_BerserkDamage": {
@@ -4649,17 +4649,17 @@ let paragonData = {
 					"zhCN": "钢铁力量"
 				},
 				"descriptionLocalized": {
-					"deDE": "+100 Rüstung\n+10 Stärke\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"esES": "+100 p. de armadura\n+10 p. de fuerza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"esMX": "+100 de armadura\n+10 de Fuerza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"frFR": "+100 à l'armure\n+10 force\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"itIT": "Armatura: +100\nForza: +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"jaJP": "アーマー+100\n筋力+10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"koKR": "방어도 +100\n힘 +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"plPL": "+100 pancerza\n+10 siły\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"ptBR": "+100 de armadura\n+10 de Força\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"ruRU": "+100 ед. брони\n+10 к силе\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength.",
-					"zhCN": "+100 护甲值\n+10点力量\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Strength."
+					"deDE": "+100 Rüstung\n+10 Stärke\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Rüstung, Stärke.",
+					"esES": "+100 p. de armadura\n+10 p. de fuerza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Fuerza.",
+					"esMX": "+100 de armadura\n+10 de Fuerza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Fuerza.",
+					"frFR": "+100 à l'armure\n+10 force\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armure, Force.",
+					"itIT": "Armatura: +100\nForza: +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armatura, Forza.",
+					"jaJP": "アーマー+100\n筋力+10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 装甲, 筋力.",
+					"koKR": "방어도 +100\n힘 +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 방어도, 힘.",
+					"plPL": "+100 pancerza\n+10 siły\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Pancerz, Siła.",
+					"ptBR": "+100 de armadura\n+10 de Força\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Força.",
+					"ruRU": "+100 ед. брони\n+10 к силе\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Броня, Сила.",
+					"zhCN": "+100 护甲值\n+10点力量\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 护甲, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -4690,17 +4690,17 @@ let paragonData = {
 					"zhCN": "狂战士"
 				},
 				"descriptionLocalized": {
-					"deDE": "+5% Damage while Berserking\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"esES": "+5% Damage while Berserking\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"esMX": "+5% Damage while Berserking\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"frFR": "+5% Damage while Berserking\n+6.7% de dégâts aux élites\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"itIT": "+5% Damage while Berserking\nDanni a élite: +6.7%\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"jaJP": "+5% Damage while Berserking\nエリートへのダメージ+6.7%\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"koKR": "+5% Damage while Berserking\n정예에게 주는 피해 +6.7%\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"plPL": "+5% Damage while Berserking\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"ptBR": "+5% Damage while Berserking\n+6.7% de dano contra elites\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"ruRU": "+5% Damage while Berserking\n+6.7% к урону особым противникам\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage.",
-					"zhCN": "+5% Damage while Berserking\n+6.7%对精英的伤害\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Elite Monsters, Damage."
+					"deDE": "+5% Damage while Berserking\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserkermodus, Elitemonster, Schaden.",
+					"esES": "+5% Damage while Berserking\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Vesania, Enemigos de élite, Daño.",
+					"esMX": "+5% Damage while Berserking\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Enajenación, Monstruos de Élite, Daño.",
+					"frFR": "+5% Damage while Berserking\n+6.7% de dégâts aux élites\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Rage du berserker, Monstres élites, Dégâts.",
+					"itIT": "+5% Damage while Berserking\nDanni a élite: +6.7%\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserk, Mostri élite, Danni.",
+					"jaJP": "+5% Damage while Berserking\nエリートへのダメージ+6.7%\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: バーサーク状態, エリート・モンスター, ダメージ.",
+					"koKR": "+5% Damage while Berserking\n정예에게 주는 피해 +6.7%\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: 광폭화, 정예 괴물, 피해.",
+					"plPL": "+5% Damage while Berserking\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserkowanie, Elitarne Potwory, Obrażenia.",
+					"ptBR": "+5% Damage while Berserking\n+6.7% de dano contra elites\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserk, Monstros de Elite, Dano.",
+					"ruRU": "+5% Damage while Berserking\n+6.7% к урону особым противникам\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Берсерк, Особые монстры, Урон.",
+					"zhCN": "+5% Damage while Berserking\n+6.7%对精英的伤害\n\nBonus: Another +5% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: 狂暴, 精英怪物, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -4731,17 +4731,17 @@ let paragonData = {
 					"zhCN": "剥皮者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Physical über Zeit\n+4% Schaden gegen Gegner, die von Bleeding betroffen sind\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"esES": "+10% de daño de Physical en el tiempo\n+4% de daño a enemigos en estado Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"esMX": "+10% de daño con el tiempo de Physical\n+4% de daño a enemigos Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"frFR": "+10% de dégâts de Physical sur la durée\n+4% de dégâts contre les cibles sous l'effet « Bleeding »\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"itIT": "Danni periodici da Physical: +10%\nDanni ai nemici Bleeding: +4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"jaJP": "Physical 継続ダメージ+10%\nBleeding の敵へのダメージ+4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"koKR": "지속 Physical 피해 +10%\nBleeding 적에게 주는 피해 +4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"plPL": "+10% obrażeń z upływem czasu typu: Physical\n+4% obrażeń zadawanych wrogom typu: Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"ptBR": "+10% de dano de Physical ao longo do tempo\n+4% de dano contra inimigos Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"ruRU": "+10% к периодическому урону (Physical )\n+4% к урону противникам под действием эффекта \"Bleeding \"\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage.",
-					"zhCN": "+10%Physical 持续性伤害\n+4%对Bleeding 敌人的伤害\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage."
+					"deDE": "+10% Schaden des Typs Physical über Zeit\n+4% Schaden gegen Gegner, die von Bleeding betroffen sind\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Schaden.",
+					"esES": "+10% de daño de Physical en el tiempo\n+4% de daño a enemigos en estado Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño.",
+					"esMX": "+10% de daño con el tiempo de Physical\n+4% de daño a enemigos Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño.",
+					"frFR": "+10% de dégâts de Physical sur la durée\n+4% de dégâts contre les cibles sous l'effet « Bleeding »\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Dégâts.",
+					"itIT": "Danni periodici da Physical: +10%\nDanni ai nemici Bleeding: +4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sanguinamento, Danni.",
+					"jaJP": "Physical 継続ダメージ+10%\nBleeding の敵へのダメージ+4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 流血, ダメージ.",
+					"koKR": "지속 Physical 피해 +10%\nBleeding 적에게 주는 피해 +4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 출혈, 피해.",
+					"plPL": "+10% obrażeń z upływem czasu typu: Physical\n+4% obrażeń zadawanych wrogom typu: Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Krwawienie, Obrażenia.",
+					"ptBR": "+10% de dano de Physical ao longo do tempo\n+4% de dano contra inimigos Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangramento, Dano.",
+					"ruRU": "+10% к периодическому урону (Physical )\n+4% к урону противникам под действием эффекта \"Bleeding \"\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Кровотечение, Урон.",
+					"zhCN": "+10%Physical 持续性伤害\n+4%对Bleeding 敌人的伤害\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 流血, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -4766,17 +4766,17 @@ let paragonData = {
 					"zhCN": "屠夫"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Physical über Zeit\n+10 Stärke\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"esES": "+10% de daño de Physical en el tiempo\n+10 p. de fuerza\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"esMX": "+10% de daño con el tiempo de Physical\n+10 de Fuerza\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"frFR": "+10% de dégâts de Physical sur la durée\n+10 force\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"itIT": "Danni periodici da Physical: +10%\nForza: +10\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"jaJP": "Physical 継続ダメージ+10%\n筋力+10\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"koKR": "지속 Physical 피해 +10%\n힘 +10\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"plPL": "+10% obrażeń z upływem czasu typu: Physical\n+10 siły\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"ptBR": "+10% de dano de Physical ao longo do tempo\n+10 de Força\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"ruRU": "+10% к периодическому урону (Physical )\n+10 к силе\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"zhCN": "+10%Physical 持续性伤害\n+10点力量\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength."
+					"deDE": "+10% Schaden des Typs Physical über Zeit\n+10 Stärke\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Schaden, Stärke.",
+					"esES": "+10% de daño de Physical en el tiempo\n+10 p. de fuerza\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño, Fuerza.",
+					"esMX": "+10% de daño con el tiempo de Physical\n+10 de Fuerza\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño, Fuerza.",
+					"frFR": "+10% de dégâts de Physical sur la durée\n+10 force\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Dégâts, Force.",
+					"itIT": "Danni periodici da Physical: +10%\nForza: +10\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sanguinamento, Danni, Forza.",
+					"jaJP": "Physical 継続ダメージ+10%\n筋力+10\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 流血, ダメージ, 筋力.",
+					"koKR": "지속 Physical 피해 +10%\n힘 +10\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 출혈, 피해, 힘.",
+					"plPL": "+10% obrażeń z upływem czasu typu: Physical\n+10 siły\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Krwawienie, Obrażenia, Siła.",
+					"ptBR": "+10% de dano de Physical ao longo do tempo\n+10 de Força\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangramento, Dano, Força.",
+					"ruRU": "+10% к периодическому урону (Physical )\n+10 к силе\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Кровотечение, Урон, Сила.",
+					"zhCN": "+10%Physical 持续性伤害\n+10点力量\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 流血, 伤害, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -4810,17 +4810,17 @@ let paragonData = {
 					"zhCN": "撕裂者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Physical über Zeit\n+4% Schaden des Typs Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"esES": "+10% de daño de Physical en el tiempo\n+4% de daño de Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"esMX": "+10% de daño con el tiempo de Physical\n+4% de daño de Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"frFR": "+10% de dégâts de Physical sur la durée\n+4% de dégâts de Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"itIT": "Danni periodici da Physical: +10%\nDanni da Physical: +4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"jaJP": "Physical 継続ダメージ+10%\nPhysical ダメージ+4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"koKR": "지속 Physical 피해 +10%\nPhysical 피해 +4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"plPL": "+10% obrażeń z upływem czasu typu: Physical\n+4% obrażeń typu: Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"ptBR": "+10% de dano de Physical ao longo do tempo\n+4% de dano de Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"ruRU": "+10% к периодическому урону (Physical )\n+4% к урону (Physical )\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage.",
-					"zhCN": "+10%Physical 持续性伤害\n+4%Physical 伤害\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Physical, Damage."
+					"deDE": "+10% Schaden des Typs Physical über Zeit\n+4% Schaden des Typs Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Physisch, Schaden.",
+					"esES": "+10% de daño de Physical en el tiempo\n+4% de daño de Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Físico, Daño.",
+					"esMX": "+10% de daño con el tiempo de Physical\n+4% de daño de Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Físico, Daño.",
+					"frFR": "+10% de dégâts de Physical sur la durée\n+4% de dégâts de Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Dégâts physiques, Dégâts.",
+					"itIT": "Danni periodici da Physical: +10%\nDanni da Physical: +4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sanguinamento, Fisico, Danni.",
+					"jaJP": "Physical 継続ダメージ+10%\nPhysical ダメージ+4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 流血, 物理, ダメージ.",
+					"koKR": "지속 Physical 피해 +10%\nPhysical 피해 +4%\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 출혈, 물리, 피해.",
+					"plPL": "+10% obrażeń z upływem czasu typu: Physical\n+4% obrażeń typu: Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Krwawienie, Fizyczne, Obrażenia.",
+					"ptBR": "+10% de dano de Physical ao longo do tempo\n+4% de dano de Physical\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangramento, Física, Dano.",
+					"ruRU": "+10% к периодическому урону (Physical )\n+4% к урону (Physical )\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Кровотечение, Физический урон, Урон.",
+					"zhCN": "+10%Physical 持续性伤害\n+4%Physical 伤害\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 流血, 物理, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -4845,17 +4845,17 @@ let paragonData = {
 					"zhCN": "钝击者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: TwoHandedBludgeoning\n+12% Überwältigungsschaden\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"esES": "+10% de daño con TwoHandedBludgeoning\n+12% de daño de arrollamiento\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"esMX": "+10% de daño con TwoHandedBludgeoning\n+12% de daño abrumador\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"frFR": "+10% de dégâts avec TwoHandedBludgeoning\n+12% de dégâts d'accablement\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"itIT": "Danni con TwoHandedBludgeoning: +10%\nDanni da Sopraffazione: +12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"jaJP": "TwoHandedBludgeoning でのダメージ+10%\nオーバーパワー・ダメージ+12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"koKR": "TwoHandedBludgeoning 의 공격력 +10%\n제압 피해 +12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"plPL": "+10% obrażeń typu: TwoHandedBludgeoning\n+12% obrażeń od przytłoczenia\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"ptBR": "+10% de dano com TwoHandedBludgeoning\n+12% de dano de Golpe Brutal\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"ruRU": "+10% к урону от свойства \"TwoHandedBludgeoning \"\n+12% к подавляющему урону\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
-					"zhCN": "+10%使用TwoHandedBludgeoning 的伤害\n+12%压制伤害\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning."
+					"deDE": "+10% Schaden mit: TwoHandedBludgeoning\n+12% Überwältigungsschaden\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Überwältigen, Schaden, Zweihändig, Wuchtwaffe.",
+					"esES": "+10% de daño con TwoHandedBludgeoning\n+12% de daño de arrollamiento\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Arrollamiento, Daño, Dos manos, Contundente.",
+					"esMX": "+10% de daño con TwoHandedBludgeoning\n+12% de daño abrumador\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Abrumar, Daño, Dos manos, Impacto.",
+					"frFR": "+10% de dégâts avec TwoHandedBludgeoning\n+12% de dégâts d'accablement\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Accablement, Dégâts, Arme à deux mains, Arme contondante.",
+					"itIT": "Danni con TwoHandedBludgeoning: +10%\nDanni da Sopraffazione: +12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Sopraffazione, Danni, A due mani, Contundente.",
+					"jaJP": "TwoHandedBludgeoning でのダメージ+10%\nオーバーパワー・ダメージ+12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: オーバーパワー, ダメージ, 両手用, 殴打.",
+					"koKR": "TwoHandedBludgeoning 의 공격력 +10%\n제압 피해 +12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: 제압, 피해, 양손 무기, 둔기.",
+					"plPL": "+10% obrażeń typu: TwoHandedBludgeoning\n+12% obrażeń od przytłoczenia\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Przytłoczenie, Obrażenia, Dwuręczna broń, Obuchowe.",
+					"ptBR": "+10% de dano com TwoHandedBludgeoning\n+12% de dano de Golpe Brutal\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Golpe Brutal, Dano, Duas mãos, Concussão.",
+					"ruRU": "+10% к урону от свойства \"TwoHandedBludgeoning \"\n+12% к подавляющему урону\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Подавление, Урон, Двуручное, Дробящее оружие.",
+					"zhCN": "+10%使用TwoHandedBludgeoning 的伤害\n+12%压制伤害\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: 压制, 伤害, 双手, 钝击."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -4880,17 +4880,17 @@ let paragonData = {
 					"zhCN": "精力"
 				},
 				"descriptionLocalized": {
-					"deDE": "5% Schadensreduktion bei voller Gesundheit\n+10 Stärke\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"esES": "5% de reducción de daño en estado saludable\n+10 p. de fuerza\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"esMX": "5% de reducción de daño mientras estás saludable\n+10 de Fuerza\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"frFR": "5% de réduction des dégâts en bonne santé.\n+10 force\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"itIT": "Riduzione danni mentre sei in salute: 5%\nForza: +10\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"jaJP": "健全状態時5%ダメージ減少\n筋力+10\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"koKR": "건강 상태에서 피해 감소 5%\n힘 +10\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"plPL": "5% redukcji obrażeń w pełni sił\n+10 siły\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"ptBR": "5% de redução de dano enquanto saudável\n+10 de Força\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"ruRU": "-5% к получаемому урону при высоком уровне здоровья\n+10 к силе\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength.",
-					"zhCN": "5%健康状态下的伤害减免\n+10点力量\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage Reduction, Strength."
+					"deDE": "5% Schadensreduktion bei voller Gesundheit\n+10 Stärke\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Gesund, Schadensreduktion, Stärke.",
+					"esES": "5% de reducción de daño en estado saludable\n+10 p. de fuerza\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saludable, Reducción de daño, Fuerza.",
+					"esMX": "5% de reducción de daño mientras estás saludable\n+10 de Fuerza\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saludable, Reducción de daño, Fuerza.",
+					"frFR": "5% de réduction des dégâts en bonne santé.\n+10 force\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: En bonne santé, Réduction des dégâts, Force.",
+					"itIT": "Riduzione danni mentre sei in salute: 5%\nForza: +10\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: In salute, Riduzione danni, Forza.",
+					"jaJP": "健全状態時5%ダメージ減少\n筋力+10\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 健全, ダメージ減少, 筋力.",
+					"koKR": "건강 상태에서 피해 감소 5%\n힘 +10\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 건강, 피해 감소, 힘.",
+					"plPL": "5% redukcji obrażeń w pełni sił\n+10 siły\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Pełnia Sił, Redukcja Obrażeń, Siła.",
+					"ptBR": "5% de redução de dano enquanto saudável\n+10 de Força\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saudável, Redução de Dano, Força.",
+					"ruRU": "-5% к получаемому урону при высоком уровне здоровья\n+10 к силе\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Высокое здоровье, Уменьшение урона, Сила.",
+					"zhCN": "5%健康状态下的伤害减免\n+10点力量\n\nBonus: Another 5% Damage Reduction while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 健康, 伤害减免, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -4924,17 +4924,17 @@ let paragonData = {
 					"zhCN": "适应严寒"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Cold\n+100 Rüstung\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"esES": "12% de resistencia a Cold\n+100 p. de armadura\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"esMX": "12% de resistencia a Cold\n+100 de armadura\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"frFR": "12% de résistance (Cold )\n+100 à l'armure\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"itIT": "Resistenza Cold: 12%\nArmatura: +100\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"jaJP": "Cold 耐性12%\nアーマー+100\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"koKR": "Cold 저항 12%\n방어도 +100\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"plPL": "12% odporności na Cold\n+100 pancerza\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"ptBR": "12% de resistência a Cold\n+100 de armadura\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"ruRU": "Сопротивление типу урона \"Cold \" – 12%\n+100 ед. брони\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor.",
-					"zhCN": "12%Cold 抗性\n+100 护甲值\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Resistance, Armor."
+					"deDE": "12% Widerstand gegen: Cold\n+100 Rüstung\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Kälte, Widerstand, Rüstung.",
+					"esES": "12% de resistencia a Cold\n+100 p. de armadura\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Frío, Resistencia, Armadura.",
+					"esMX": "12% de resistencia a Cold\n+100 de armadura\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Frío, Resistencia, Armadura.",
+					"frFR": "12% de résistance (Cold )\n+100 à l'armure\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Froid, Résistance, Armure.",
+					"itIT": "Resistenza Cold: 12%\nArmatura: +100\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Freddo, Resistenza, Armatura.",
+					"jaJP": "Cold 耐性12%\nアーマー+100\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 冷気, 耐性, 装甲.",
+					"koKR": "Cold 저항 12%\n방어도 +100\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 냉기, 저항, 방어도.",
+					"plPL": "12% odporności na Cold\n+100 pancerza\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Zimno, Odporność, Pancerz.",
+					"ptBR": "12% de resistência a Cold\n+100 de armadura\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Gelo, Resistência, Armadura.",
+					"ruRU": "Сопротивление типу урона \"Cold \" – 12%\n+100 ед. брони\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Холод, Сопротивление, Броня.",
+					"zhCN": "12%Cold 抗性\n+100 护甲值\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 冰霜, 抗性, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -4965,17 +4965,17 @@ let paragonData = {
 					"zhCN": "坚韧"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Leben\n+100 Rüstung\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"esES": "+4% de vida\n+100 p. de armadura\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"esMX": "+4% de vida\n+100 de armadura\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"frFR": "+4% de points de vie\n+100 à l'armure\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"itIT": "Punti vita: +4%\nArmatura: +100\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"jaJP": "ライフ+4%\nアーマー+100\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"koKR": "생명력 +4%\n방어도 +100\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"plPL": "+4% zdrowia\n+100 pancerza\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"ptBR": "+4% de vida\n+100 de armadura\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"ruRU": "+4% к здоровью\n+100 ед. брони\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor.",
-					"zhCN": "+4%生命\n+100 护甲值\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Armor."
+					"deDE": "+4% Leben\n+100 Rüstung\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Leben, Rüstung.",
+					"esES": "+4% de vida\n+100 p. de armadura\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Armadura.",
+					"esMX": "+4% de vida\n+100 de armadura\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Armadura.",
+					"frFR": "+4% de points de vie\n+100 à l'armure\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vie, Armure.",
+					"itIT": "Punti vita: +4%\nArmatura: +100\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vita, Armatura.",
+					"jaJP": "ライフ+4%\nアーマー+100\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: ライフ, 装甲.",
+					"koKR": "생명력 +4%\n방어도 +100\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: 생명력, 방어도.",
+					"plPL": "+4% zdrowia\n+100 pancerza\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Zdrowie, Pancerz.",
+					"ptBR": "+4% de vida\n+100 de armadura\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Armadura.",
+					"ruRU": "+4% к здоровью\n+100 ед. брони\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Здоровье, Броня.",
+					"zhCN": "+4%生命\n+100 护甲值\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: 生命, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5013,17 +5013,17 @@ let paragonData = {
 					"zhCN": "毅力"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch Gegner, die von Bleeding betroffen sind\n+10 Stärke\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"esES": "4% de reducción de daño de enemigos en estado Bleeding\n+10 p. de fuerza\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"esMX": "4% de reducción de daño de enemigos que están Bleeding\n+10 de Fuerza\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Bleeding »\n+10 force\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"itIT": "Riduzione danni subiti dai nemici Bleeding: 4%\nForza: +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"jaJP": "Bleeding 状態の敵から受けるダメージ減少率4%\n筋力+10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"koKR": "Bleeding 적에게 받는 피해 감소 4%\n힘 +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"plPL": "4% redukcji obrażeń od wrogów w stanie: Bleeding\n+10 siły\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"ptBR": "4% de redução de dano recebido de inimigos Bleeding\n+10 de Força\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"ruRU": "-4% к урону от противников под действием эффекта \"Bleeding \"\n+10 к силе\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength.",
-					"zhCN": "4%对Bleeding 敌人的伤害减免\n+10点力量\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage Reduction, Strength."
+					"deDE": "4% Reduktion von Schaden durch Gegner, die von Bleeding betroffen sind\n+10 Stärke\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Schadensreduktion, Stärke.",
+					"esES": "4% de reducción de daño de enemigos en estado Bleeding\n+10 p. de fuerza\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Reducción de daño, Fuerza.",
+					"esMX": "4% de reducción de daño de enemigos que están Bleeding\n+10 de Fuerza\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Reducción de daño, Fuerza.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Bleeding »\n+10 force\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Réduction des dégâts, Force.",
+					"itIT": "Riduzione danni subiti dai nemici Bleeding: 4%\nForza: +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Sanguinamento, Riduzione danni, Forza.",
+					"jaJP": "Bleeding 状態の敵から受けるダメージ減少率4%\n筋力+10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: 流血, ダメージ減少, 筋力.",
+					"koKR": "Bleeding 적에게 받는 피해 감소 4%\n힘 +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: 출혈, 피해 감소, 힘.",
+					"plPL": "4% redukcji obrażeń od wrogów w stanie: Bleeding\n+10 siły\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Krwawienie, Redukcja Obrażeń, Siła.",
+					"ptBR": "4% de redução de dano recebido de inimigos Bleeding\n+10 de Força\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Sangramento, Redução de Dano, Força.",
+					"ruRU": "-4% к урону от противников под действием эффекта \"Bleeding \"\n+10 к силе\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: Кровотечение, Уменьшение урона, Сила.",
+					"zhCN": "4%对Bleeding 敌人的伤害减免\n+10点力量\n\nBonus: Another 4% Damage Reduction from Enemies That Are Bleeding if requirements met:\n{thresholdRequirements}\n\nTags: 流血, 伤害减免, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5054,17 +5054,17 @@ let paragonData = {
 					"zhCN": "适应环境"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Widerstand gegen alle Schadensarten\n+10 Stärke\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"esES": "4% de resistencia a todos los elementos\n+10 p. de fuerza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"esMX": "4% de resistencia a todos los elementos\n+10 de Fuerza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"frFR": "4% de résistance à tous les éléments\n+10 force\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"itIT": "Resistenza a tutti gli elementi: 4%\nForza: +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"jaJP": "全属性耐性4%\n筋力+10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"koKR": "모든 원소 저항 4%\n힘 +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"plPL": "4% odporności na wszystkie żywioły\n+10 siły\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"ptBR": "4% de resistência a todos os elementos\n+10 de Força\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"ruRU": "Сопротивление стихиям – 4%\n+10 к силе\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical.",
-					"zhCN": "4%全元素抗性\n+10点力量\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Strength, Non-Physical."
+					"deDE": "4% Widerstand gegen alle Schadensarten\n+10 Stärke\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Stärke, Nichtphysisch.",
+					"esES": "4% de resistencia a todos los elementos\n+10 p. de fuerza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Fuerza, No física.",
+					"esMX": "4% de resistencia a todos los elementos\n+10 de Fuerza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Fuerza, No físico.",
+					"frFR": "4% de résistance à tous les éléments\n+10 force\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Force, Dégâts non physiques.",
+					"itIT": "Resistenza a tutti gli elementi: 4%\nForza: +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Forza, Non fisico.",
+					"jaJP": "全属性耐性4%\n筋力+10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 筋力, 非物理.",
+					"koKR": "모든 원소 저항 4%\n힘 +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 힘, 비물리.",
+					"plPL": "4% odporności na wszystkie żywioły\n+10 siły\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Siła, Niefizyczne.",
+					"ptBR": "4% de resistência a todos os elementos\n+10 de Força\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Força, Não física.",
+					"ruRU": "Сопротивление стихиям – 4%\n+10 к силе\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Сила, Нефизический урон.",
+					"zhCN": "4%全元素抗性\n+10点力量\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 力量, 非物理."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5101,17 +5101,17 @@ let paragonData = {
 					"zhCN": "适应火焰"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Fire\n+100 Rüstung\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"esES": "12% de resistencia a Fire\n+100 p. de armadura\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"esMX": "12% de resistencia a Fire\n+100 de armadura\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"frFR": "12% de résistance (Fire )\n+100 à l'armure\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"itIT": "Resistenza Fire: 12%\nArmatura: +100\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"jaJP": "Fire 耐性12%\nアーマー+100\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"koKR": "Fire 저항 12%\n방어도 +100\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"plPL": "12% odporności na Fire\n+100 pancerza\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"ptBR": "12% de resistência a Fire\n+100 de armadura\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"ruRU": "Сопротивление типу урона \"Fire \" – 12%\n+100 ед. брони\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire.",
-					"zhCN": "12%Fire 抗性\n+100 护甲值\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Fire."
+					"deDE": "12% Widerstand gegen: Fire\n+100 Rüstung\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Rüstung, Feuer.",
+					"esES": "12% de resistencia a Fire\n+100 p. de armadura\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Armadura, Fuego.",
+					"esMX": "12% de resistencia a Fire\n+100 de armadura\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Armadura, Fuego.",
+					"frFR": "12% de résistance (Fire )\n+100 à l'armure\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Armure, Feu.",
+					"itIT": "Resistenza Fire: 12%\nArmatura: +100\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Armatura, Fuoco.",
+					"jaJP": "Fire 耐性12%\nアーマー+100\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 装甲, 火炎.",
+					"koKR": "Fire 저항 12%\n방어도 +100\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 방어도, 화염.",
+					"plPL": "12% odporności na Fire\n+100 pancerza\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Pancerz, Ogień.",
+					"ptBR": "12% de resistência a Fire\n+100 de armadura\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Armadura, Fogo.",
+					"ruRU": "Сопротивление типу урона \"Fire \" – 12%\n+100 ед. брони\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Броня, Огонь.",
+					"zhCN": "12%Fire 抗性\n+100 护甲值\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 护甲, 火焰."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5145,17 +5145,17 @@ let paragonData = {
 					"zhCN": "饥饿怒火"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16 max. Fury\n2 Fury beim Töten eines Gegners\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"esES": "+16 p. de máximo de Fury\n2 de Fury al matar\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"esMX": "+16 de Fury como máximo\n2 de Fury con cada eliminación\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"frFR": "+16 |2%sFury maximum\n2 de ressource (Fury ) par victime\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"itIT": "Fury max: +16\nFury per uccisione: 2\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"jaJP": "最大Fury +16\nキル時に2のFury を獲得\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"koKR": "최대 Fury +16\n처치 시 2 Fury\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"plPL": "+16 maksimum: Fury\n2 przy zabiciu: Fury\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"ptBR": "+16 de máximo de Fury\n2 de Fury ao matar\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"ruRU": "+16 к максимуму ресурса \"Fury \"\n+2 к ресурсу \"Fury \" за каждое убийство\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury.",
-					"zhCN": "+16最大Fury\n消灭获得2Fury\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury."
+					"deDE": "+16 max. Fury\n2 Fury beim Töten eines Gegners\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Wut.",
+					"esES": "+16 p. de máximo de Fury\n2 de Fury al matar\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Furia.",
+					"esMX": "+16 de Fury como máximo\n2 de Fury con cada eliminación\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Furia.",
+					"frFR": "+16 |2%sFury maximum\n2 de ressource (Fury ) par victime\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fureur.",
+					"itIT": "Fury max: +16\nFury per uccisione: 2\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Furia.",
+					"jaJP": "最大Fury +16\nキル時に2のFury を獲得\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: 怒気.",
+					"koKR": "최대 Fury +16\n처치 시 2 Fury\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: 분노.",
+					"plPL": "+16 maksimum: Fury\n2 przy zabiciu: Fury\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Furia.",
+					"ptBR": "+16 de máximo de Fury\n2 de Fury ao matar\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fúria.",
+					"ruRU": "+16 к максимуму ресурса \"Fury \"\n+2 к ресурсу \"Fury \" за каждое убийство\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Ярость.",
+					"zhCN": "+16最大Fury\n消灭获得2Fury\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: 怒气."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5186,17 +5186,17 @@ let paragonData = {
 					"zhCN": "适应闪电"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Lightning\n+100 Rüstung\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"esES": "12% de resistencia a Lightning\n+100 p. de armadura\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"esMX": "12% de resistencia a Lightning\n+100 de armadura\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"frFR": "12% de résistance (Lightning )\n+100 à l'armure\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"itIT": "Resistenza Lightning: 12%\nArmatura: +100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"jaJP": "Lightning 耐性12%\nアーマー+100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"koKR": "Lightning 저항 12%\n방어도 +100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"plPL": "12% odporności na Lightning\n+100 pancerza\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"ptBR": "12% de resistência a Lightning\n+100 de armadura\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"ruRU": "Сопротивление типу урона \"Lightning \" – 12%\n+100 ед. брони\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor.",
-					"zhCN": "12%Lightning 抗性\n+100 护甲值\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Armor."
+					"deDE": "12% Widerstand gegen: Lightning\n+100 Rüstung\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Blitz, Rüstung.",
+					"esES": "12% de resistencia a Lightning\n+100 p. de armadura\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayos, Armadura.",
+					"esMX": "12% de resistencia a Lightning\n+100 de armadura\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayo, Armadura.",
+					"frFR": "12% de résistance (Lightning )\n+100 à l'armure\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Foudre, Armure.",
+					"itIT": "Resistenza Lightning: 12%\nArmatura: +100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fulmine, Armatura.",
+					"jaJP": "Lightning 耐性12%\nアーマー+100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 稲妻, 装甲.",
+					"koKR": "Lightning 저항 12%\n방어도 +100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 번개, 방어도.",
+					"plPL": "12% odporności na Lightning\n+100 pancerza\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Piorun, Pancerz.",
+					"ptBR": "12% de resistência a Lightning\n+100 de armadura\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Eletricidade, Armadura.",
+					"ruRU": "Сопротивление типу урона \"Lightning \" – 12%\n+100 ед. брони\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Броня.",
+					"zhCN": "12%Lightning 抗性\n+100 护甲值\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 闪电, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5230,17 +5230,17 @@ let paragonData = {
 					"zhCN": "膂力"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Physical\n+4% Leben\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"esES": "+10% de daño de Physical\n+4% de vida\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"esMX": "+10% de daño de Physical\n+4% de vida\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"frFR": "+10% de dégâts de Physical\n+4% de points de vie\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"itIT": "Danni da Physical: +10%\nPunti vita: +4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"jaJP": "Physical ダメージ+10%\nライフ+4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"koKR": "Physical 피해 +10%\n생명력 +4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"plPL": "+10% obrażeń typu: Physical\n+4% zdrowia\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"ptBR": "+10% de dano de Physical\n+4% de vida\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"ruRU": "+10% к урону (Physical )\n+4% к здоровью\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life.",
-					"zhCN": "+10%Physical 伤害\n+4%生命\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Life."
+					"deDE": "+10% Schaden des Typs Physical\n+4% Leben\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physisch, Schaden, Leben.",
+					"esES": "+10% de daño de Physical\n+4% de vida\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Físico, Daño, Vida.",
+					"esMX": "+10% de daño de Physical\n+4% de vida\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Físico, Daño, Vida.",
+					"frFR": "+10% de dégâts de Physical\n+4% de points de vie\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts physiques, Dégâts, Vie.",
+					"itIT": "Danni da Physical: +10%\nPunti vita: +4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fisico, Danni, Vita.",
+					"jaJP": "Physical ダメージ+10%\nライフ+4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 物理, ダメージ, ライフ.",
+					"koKR": "Physical 피해 +10%\n생명력 +4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 물리, 피해, 생명력.",
+					"plPL": "+10% obrażeń typu: Physical\n+4% zdrowia\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fizyczne, Obrażenia, Zdrowie.",
+					"ptBR": "+10% de dano de Physical\n+4% de vida\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Física, Dano, Vida.",
+					"ruRU": "+10% к урону (Physical )\n+4% к здоровью\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Физический урон, Урон, Здоровье.",
+					"zhCN": "+10%Physical 伤害\n+4%生命\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 物理, 伤害, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5265,17 +5265,17 @@ let paragonData = {
 					"zhCN": "凶暴"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage while Berserking\n+10 Stärke\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"esES": "+10% Damage while Berserking\n+10 p. de fuerza\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"esMX": "+10% Damage while Berserking\n+10 de Fuerza\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"frFR": "+10% Damage while Berserking\n+10 force\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"itIT": "+10% Damage while Berserking\nForza: +10\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"jaJP": "+10% Damage while Berserking\n筋力+10\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"koKR": "+10% Damage while Berserking\n힘 +10\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"plPL": "+10% Damage while Berserking\n+10 siły\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"ptBR": "+10% Damage while Berserking\n+10 de Força\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"ruRU": "+10% Damage while Berserking\n+10 к силе\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength.",
-					"zhCN": "+10% Damage while Berserking\n+10点力量\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserking, Damage, Strength."
+					"deDE": "+10% Damage while Berserking\n+10 Stärke\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserkermodus, Schaden, Stärke.",
+					"esES": "+10% Damage while Berserking\n+10 p. de fuerza\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Vesania, Daño, Fuerza.",
+					"esMX": "+10% Damage while Berserking\n+10 de Fuerza\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Enajenación, Daño, Fuerza.",
+					"frFR": "+10% Damage while Berserking\n+10 force\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Rage du berserker, Dégâts, Force.",
+					"itIT": "+10% Damage while Berserking\nForza: +10\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserk, Danni, Forza.",
+					"jaJP": "+10% Damage while Berserking\n筋力+10\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: バーサーク状態, ダメージ, 筋力.",
+					"koKR": "+10% Damage while Berserking\n힘 +10\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: 광폭화, 피해, 힘.",
+					"plPL": "+10% Damage while Berserking\n+10 siły\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserkowanie, Obrażenia, Siła.",
+					"ptBR": "+10% Damage while Berserking\n+10 de Força\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Berserk, Dano, Força.",
+					"ruRU": "+10% Damage while Berserking\n+10 к силе\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: Берсерк, Урон, Сила.",
+					"zhCN": "+10% Damage while Berserking\n+10点力量\n\nBonus: Another +10% Damage while Berserking if requirements met:\n{thresholdRequirements}\n\nTags: 狂暴, 伤害, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5309,17 +5309,17 @@ let paragonData = {
 					"zhCN": "沉重猛击"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden mit: OneHanded\n+10 Stärke\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"esES": "+15% de daño de golpe crítico con OneHanded\n+10 p. de fuerza\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"esMX": "+15% de daño de golpe crítico con OneHanded\n+10 de Fuerza\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"frFR": "+15% de dégâts critiques (OneHanded )\n+10 force\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"itIT": "Danni critici con OneHanded: +15%\nForza: +10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"jaJP": "OneHanded の致命の一撃のダメージ+15%\n筋力+10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"koKR": "OneHanded 의 극대화 피해 +15%\n힘 +10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"plPL": "+15% obrażeń od trafień krytycznych: OneHanded\n+10 siły\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"ptBR": "+15% de dano de acerto crítico com OneHanded\n+10 de Força\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"ruRU": "+15% к критическому урону от эффекта \"OneHanded \"\n+10 к силе\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
-					"zhCN": "+15%装备OneHanded 的暴击伤害\n+10点力量\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield."
+					"deDE": "+15% kritischer Trefferschaden mit: OneHanded\n+10 Stärke\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Schaden, Stärke, Zwei Waffen.",
+					"esES": "+15% de daño de golpe crítico con OneHanded\n+10 p. de fuerza\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Fuerza, Doble empuñadura.",
+					"esMX": "+15% de daño de golpe crítico con OneHanded\n+10 de Fuerza\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Fuerza, Ambidestreza.",
+					"frFR": "+15% de dégâts critiques (OneHanded )\n+10 force\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Dégâts, Force, Deux armes.",
+					"itIT": "Danni critici con OneHanded: +15%\nForza: +10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Danni, Forza, Doppia arma.",
+					"jaJP": "OneHanded の致命の一撃のダメージ+15%\n筋力+10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 致命の一撃, ダメージ, 筋力, 二刀流.",
+					"koKR": "OneHanded 의 극대화 피해 +15%\n힘 +10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 피해, 힘, 쌍수 무기.",
+					"plPL": "+15% obrażeń od trafień krytycznych: OneHanded\n+10 siły\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Obrażenia, Siła, Broń w Każdej Ręce.",
+					"ptBR": "+15% de dano de acerto crítico com OneHanded\n+10 de Força\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Dano, Força, Empunhadura Dupla.",
+					"ruRU": "+15% к критическому урону от эффекта \"OneHanded \"\n+10 к силе\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Урон, Сила, Оружие в каждой руке.",
+					"zhCN": "+15%装备OneHanded 的暴击伤害\n+10点力量\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 伤害, 力量, 双持."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5353,17 +5353,17 @@ let paragonData = {
 					"zhCN": "狂野之力"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: OneHanded\n+4% Angriffsgeschwindigkeit\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"esES": "+10% de daño con OneHanded\n+4% de velocidad de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"esMX": "+10% de daño con OneHanded\n+4% de velocidad de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"frFR": "+10% de dégâts avec OneHanded\n+4% à la vitesse d'attaque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"itIT": "Danni con OneHanded: +10%\nVelocità d'attacco +4%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"jaJP": "OneHanded でのダメージ+10%\n攻撃速度+4%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"koKR": "OneHanded 의 공격력 +10%\n공격 속도 +4%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"plPL": "+10% obrażeń typu: OneHanded\n+4% szybkości ataku\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"ptBR": "+10% de dano com OneHanded\n+4% de velocidade de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"ruRU": "+10% к урону от свойства \"OneHanded \"\n+4% к скорости атаки\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
-					"zhCN": "+10%使用OneHanded 的伤害\n+4%攻击速度\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield."
+					"deDE": "+10% Schaden mit: OneHanded\n+4% Angriffsgeschwindigkeit\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Angriffsgeschwindigkeit, Zwei Waffen.",
+					"esES": "+10% de daño con OneHanded\n+4% de velocidad de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Velocidad de ataque, Doble empuñadura.",
+					"esMX": "+10% de daño con OneHanded\n+4% de velocidad de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Velocidad de ataque, Ambidestreza.",
+					"frFR": "+10% de dégâts avec OneHanded\n+4% à la vitesse d'attaque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vitesse d'attaque, Deux armes.",
+					"itIT": "Danni con OneHanded: +10%\nVelocità d'attacco +4%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Velocità d'attacco, Doppia arma.",
+					"jaJP": "OneHanded でのダメージ+10%\n攻撃速度+4%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 攻撃速度, 二刀流.",
+					"koKR": "OneHanded 의 공격력 +10%\n공격 속도 +4%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 공격 속도, 쌍수 무기.",
+					"plPL": "+10% obrażeń typu: OneHanded\n+4% szybkości ataku\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Szybkość Ataku, Broń w Każdej Ręce.",
+					"ptBR": "+10% de dano com OneHanded\n+4% de velocidade de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Velocidade de Ataque, Empunhadura Dupla.",
+					"ruRU": "+10% к урону от свойства \"OneHanded \"\n+4% к скорости атаки\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Скорость атаки, Оружие в каждой руке.",
+					"zhCN": "+10%使用OneHanded 的伤害\n+4%攻击速度\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 攻击速度, 双持."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5397,17 +5397,17 @@ let paragonData = {
 					"zhCN": "适应毒素"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Poison\n+100 Rüstung\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"esES": "12% de resistencia a Poison\n+100 p. de armadura\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"esMX": "12% de resistencia a Poison\n+100 de armadura\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"frFR": "12% de résistance (Poison )\n+100 à l'armure\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"itIT": "Resistenza Poison: 12%\nArmatura: +100\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"jaJP": "Poison 耐性12%\nアーマー+100\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"koKR": "Poison 저항 12%\n방어도 +100\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"plPL": "12% odporności na Poison\n+100 pancerza\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"ptBR": "12% de resistência a Poison\n+100 de armadura\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"ruRU": "Сопротивление типу урона \"Poison \" – 12%\n+100 ед. брони\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison.",
-					"zhCN": "12%Poison 抗性\n+100 护甲值\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Poison."
+					"deDE": "12% Widerstand gegen: Poison\n+100 Rüstung\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Rüstung, Gift.",
+					"esES": "12% de resistencia a Poison\n+100 p. de armadura\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Armadura, Veneno.",
+					"esMX": "12% de resistencia a Poison\n+100 de armadura\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Armadura, Veneno.",
+					"frFR": "12% de résistance (Poison )\n+100 à l'armure\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Armure, Poison.",
+					"itIT": "Resistenza Poison: 12%\nArmatura: +100\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Armatura, Veleno.",
+					"jaJP": "Poison 耐性12%\nアーマー+100\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 装甲, 毒.",
+					"koKR": "Poison 저항 12%\n방어도 +100\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 방어도, 독.",
+					"plPL": "12% odporności na Poison\n+100 pancerza\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Pancerz, Trucizna.",
+					"ptBR": "12% de resistência a Poison\n+100 de armadura\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Armadura, Veneno.",
+					"ruRU": "Сопротивление типу урона \"Poison \" – 12%\n+100 ед. брони\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Броня, Яд.",
+					"zhCN": "12%Poison 抗性\n+100 护甲值\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 护甲, 毒素."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5444,17 +5444,17 @@ let paragonData = {
 					"zhCN": "毁灭者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"esES": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"esMX": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"frFR": "+10% de dégâts avec TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"itIT": "Danni con TwoHandedSlashing: +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"jaJP": "TwoHandedSlashing でのダメージ+10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"koKR": "TwoHandedSlashing 의 공격력 +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"plPL": "+10% obrażeń typu: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"ptBR": "+10% de dano com TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"ruRU": "+10% к урону от свойства \"TwoHandedSlashing \"\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
-					"zhCN": "+10%使用TwoHandedSlashing 的伤害\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed."
+					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, [c]Geißel{d}, Zweihändig.",
+					"esES": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Cortante, Dos manos.",
+					"esMX": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Corte, Dos manos.",
+					"frFR": "+10% de dégâts avec TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vulnérable, [fs]Division, Arme à deux mains.",
+					"itIT": "Danni con TwoHandedSlashing: +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Vulnerabilità, Tagliente, A due mani.",
+					"jaJP": "TwoHandedSlashing でのダメージ+10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 脆弱, 斬撃を放つ, 両手用.",
+					"koKR": "TwoHandedSlashing 의 공격력 +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 취약, 척살의, 양손 무기.",
+					"plPL": "+10% obrażeń typu: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Odsłonięcie, [ns]Smagnięcie, Dwuręczna broń.",
+					"ptBR": "+10% de dano com TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Vulnerável, Corte, Duas mãos.",
+					"ruRU": "+10% к урону от свойства \"TwoHandedSlashing \"\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уязвимость, [fs]рубка, Двуручное.",
+					"zhCN": "+10%使用TwoHandedSlashing 的伤害\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 易伤, 劈斩, 双手."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -10686,17 +10686,17 @@ let paragonData = {
 					"zhCN": "雷霆打击"
 				},
 				"descriptionLocalized": {
-					"deDE": "Sturmfertigkeiten fügen verwundbaren oder bewegungsunfähigen Gegnern x30% mehr kritischen Trefferschaden zu.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"esES": "Las habilidades de tormenta infligen un x30% más de daño de golpe crítico contra enemigos vulnerables o inmovilizados.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"esMX": "Las habilidades de Tormenta infligen un x30% más de daño de golpe crítico contra enemigos vulnerables o inmovilizados.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"frFR": "Vos compétences de tempête infligent x30% de dégâts critiques supplémentaires aux cibles vulnérables ou immobilisées.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"itIT": "Le abilità di tempesta infliggono il x30% di danni critici aggiuntivi ai nemici vulnerabili o immobilizzati.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"jaJP": "脆弱または移動不能状態の敵に対する嵐スキルのクリティカルヒットダメージがx30%増加する。\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"koKR": "폭풍 기술이 취약 또는 이동 불가 상태의 적에게 주는 극대화 피해가 x30% 증가합니다.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"plPL": "Umiejętności Burzy zadają zwiększone o x30% obrażenia od trafień krytycznych odsłoniętym lub unieruchomionym wrogom.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"ptBR": "Habilidades de Tempestade causam 30% de dano de acerto crítico aumentado contra inimigos vulneráveis ou imobilizados.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"ruRU": "Умения бури наносят на x30% больше критического урона уязвимым или обездвиженным противникам.\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage.",
-					"zhCN": "风暴技能对易伤或定身敌人造成的暴击伤害提高x30%。\n\nTags: Storm, Vulnerable, Crowd Control, Critical Strikes, Damage."
+					"deDE": "Sturmfertigkeiten fügen verwundbaren oder bewegungsunfähigen Gegnern x30% mehr kritischen Trefferschaden zu.\n\nTags: Sturm, Verwundbar, Kontrollverlust, Kritische Treffer, Schaden.",
+					"esES": "Las habilidades de tormenta infligen un x30% más de daño de golpe crítico contra enemigos vulnerables o inmovilizados.\n\nTags: Tormenta, Vulnerable, Control de masas, Golpes críticos, Daño.",
+					"esMX": "Las habilidades de Tormenta infligen un x30% más de daño de golpe crítico contra enemigos vulnerables o inmovilizados.\n\nTags: Tormenta, Vulnerable, Control de multitudes, Golpes críticos, Daño.",
+					"frFR": "Vos compétences de tempête infligent x30% de dégâts critiques supplémentaires aux cibles vulnérables ou immobilisées.\n\nTags: Tempête, Vulnérable, Perte de contrôle, Coups critiques, Dégâts.",
+					"itIT": "Le abilità di tempesta infliggono il x30% di danni critici aggiuntivi ai nemici vulnerabili o immobilizzati.\n\nTags: Tempesta, Vulnerabilità, Effetti debilitanti, Colpi critici, Danni.",
+					"jaJP": "脆弱または移動不能状態の敵に対する嵐スキルのクリティカルヒットダメージがx30%増加する。\n\nTags: 嵐, 脆弱, 操作障害効果, 致命の一撃, ダメージ.",
+					"koKR": "폭풍 기술이 취약 또는 이동 불가 상태의 적에게 주는 극대화 피해가 x30% 증가합니다.\n\nTags: 폭풍, 취약, 군중 제어, 극대화, 피해.",
+					"plPL": "Umiejętności Burzy zadają zwiększone o x30% obrażenia od trafień krytycznych odsłoniętym lub unieruchomionym wrogom.\n\nTags: Burza, Odsłonięcie, Ograniczanie Kontroli, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "Habilidades de Tempestade causam 30% de dano de acerto crítico aumentado contra inimigos vulneráveis ou imobilizados.\n\nTags: Tempestade, Vulnerável, Controle de Grupo, Acertos Críticos, Dano.",
+					"ruRU": "Умения бури наносят на x30% больше критического урона уязвимым или обездвиженным противникам.\n\nTags: Буря, Уязвимость, Контроль, Критические удары, Урон.",
+					"zhCN": "风暴技能对易伤或定身敌人造成的暴击伤害提高x30%。\n\nTags: 风暴, 易伤, 群控, 暴击, 伤害."
 				}
 			},
 			"Druid_Legendary_004": {
@@ -10748,17 +10748,17 @@ let paragonData = {
 					"zhCN": "大地灭绝"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Erdfertigkeiten fügen Gegnern, die von Kontrollverlusteffekten betroffen sind, x30% mehr Schaden zu.\n\nTags: Earth, Crowd Control, Damage.",
-					"esES": "Tus habilidades de tierra infligen un x30% más de daño a enemigos afectados por control de masas.\n\nTags: Earth, Crowd Control, Damage.",
-					"esMX": "Tus habilidades de Tierra infligen un x30% más de daño a los enemigos afectados por control de multitudes.\n\nTags: Earth, Crowd Control, Damage.",
-					"frFR": "Vos compétences de terre infligent x30% de dégâts supplémentaires aux adversaires victimes d'effets de perte de contrôle.\n\nTags: Earth, Crowd Control, Damage.",
-					"itIT": "Le tue abilità di terra infliggono il x30% di danni aggiuntivi ai nemici sotto effetti debilitanti.\n\nTags: Earth, Crowd Control, Damage.",
-					"jaJP": "操作障害効果を受けた敵に対する土スキルのダメージがx30%増加する。\n\nTags: Earth, Crowd Control, Damage.",
-					"koKR": "대지 기술이 군중 제어 효과에 걸린 적에게 주는 피해가 x30% 증가합니다.\n\nTags: Earth, Crowd Control, Damage.",
-					"plPL": "Twoje umiejętności Ziemi zadają wrogom o ograniczonej kontroli obrażenia zwiększone o x30%.\n\nTags: Earth, Crowd Control, Damage.",
-					"ptBR": "Suas habilidades de Terra causam 30% de dano aumentado a inimigos atingidos por controle de grupo.\n\nTags: Earth, Crowd Control, Damage.",
-					"ruRU": "Ваши умения земли наносят на x30% больше урона целям, находящимся под действием эффектов контроля.\n\nTags: Earth, Crowd Control, Damage.",
-					"zhCN": "你的大地技能对被群控的目标造成的伤害提高x30%。\n\nTags: Earth, Crowd Control, Damage."
+					"deDE": "Eure Erdfertigkeiten fügen Gegnern, die von Kontrollverlusteffekten betroffen sind, x30% mehr Schaden zu.\n\nTags: Erde, Kontrollverlust, Schaden.",
+					"esES": "Tus habilidades de tierra infligen un x30% más de daño a enemigos afectados por control de masas.\n\nTags: Tierra, Control de masas, Daño.",
+					"esMX": "Tus habilidades de Tierra infligen un x30% más de daño a los enemigos afectados por control de multitudes.\n\nTags: Tierra, Control de multitudes, Daño.",
+					"frFR": "Vos compétences de terre infligent x30% de dégâts supplémentaires aux adversaires victimes d'effets de perte de contrôle.\n\nTags: Terre, Perte de contrôle, Dégâts.",
+					"itIT": "Le tue abilità di terra infliggono il x30% di danni aggiuntivi ai nemici sotto effetti debilitanti.\n\nTags: Terra, Effetti debilitanti, Danni.",
+					"jaJP": "操作障害効果を受けた敵に対する土スキルのダメージがx30%増加する。\n\nTags: 地, 操作障害効果, ダメージ.",
+					"koKR": "대지 기술이 군중 제어 효과에 걸린 적에게 주는 피해가 x30% 증가합니다.\n\nTags: 대지, 군중 제어, 피해.",
+					"plPL": "Twoje umiejętności Ziemi zadają wrogom o ograniczonej kontroli obrażenia zwiększone o x30%.\n\nTags: Ziemia, Ograniczanie Kontroli, Obrażenia.",
+					"ptBR": "Suas habilidades de Terra causam 30% de dano aumentado a inimigos atingidos por controle de grupo.\n\nTags: Terra, Controle de Grupo, Dano.",
+					"ruRU": "Ваши умения земли наносят на x30% больше урона целям, находящимся под действием эффектов контроля.\n\nTags: Земля, Контроль, Урон.",
+					"zhCN": "你的大地技能对被群控的目标造成的伤害提高x30%。\n\nTags: 大地, 群控, 伤害."
 				}
 			},
 			"Druid_Legendary_007": {
@@ -10778,17 +10778,17 @@ let paragonData = {
 					"zhCN": "生存本能"
 				},
 				"descriptionLocalized": {
-					"deDE": "In Werbärgestalt verursacht Ihr je 1% Unterschied zwischen Eurem aktuellen prozentualen Leben und dem des Gegners x1% mehr Schaden, bis maximal x50%.\n\nTags: Werebear, Damage, Life.",
-					"esES": "Mientras estás en forma de hombre oso, infliges un x1% más de daño, hasta un máximo de un x50%, por cada 1% de diferencia en el porcentaje de vida actual entre tu enemigo y tú.\n\nTags: Werebear, Damage, Life.",
-					"esMX": "Mientras estás en forma de hombre oso, infliges un x1% más de daño, hasta un x50% por cada 1% de diferencia entre tu porcentaje de vida actual y la del enemigo.\n\nTags: Werebear, Damage, Life.",
-					"frFR": "Sous forme ursoïde, vous infligez x1% de dégâts supplémentaires pour chaque tranche de 1% d'écart entre votre pourcentage de points de vie actuels et celui de votre cible, jusqu'à un maximum de x50%.\n\nTags: Werebear, Damage, Life.",
-					"itIT": "In forma di Orso Mannaro, infliggi il x1% di danni aggiuntivi, fino a un massimo del x50%, per ogni 1% di differenza tra la Vita attuale tua e del tuo nemico.\n\nTags: Werebear, Damage, Life.",
-					"jaJP": "人熊形態でいる間は、与えるダメージが現在の自身のライフと敵のライフの差1%ごとにx1%増加する。増加量は最大x50%。\n\nTags: Werebear, Damage, Life.",
-					"koKR": "곰인간 형상일 때 자신과 적의 현재 생명력 비율 차 1%당 때마다 주는 피해가 x1%만큼, 최대 x50%까지 증가합니다.\n\nTags: Werebear, Damage, Life.",
-					"plPL": "Pod postacią niedźwiedziołaka zadajesz obrażenia zwiększone o x1%, maksymalnie do x50%, za każde 1% różnicy między twoim obecnym poziomem zdrowia a poziomem zdrowia wroga.\n\nTags: Werebear, Damage, Life.",
-					"ptBR": "Enquanto está na forma de urso, você causa 1% de dano aumentado, até 50%, para cada diferença de 1% na porcentagem de vida atual entre você e o inimigo.\n\nTags: Werebear, Damage, Life.",
-					"ruRU": "В облике медведя наносимый вами урон увеличивается на x1% вплоть до x50% за каждые 1% разницы между вашим текущим уровнем здоровья и уровнем здоровья цели.\n\nTags: Werebear, Damage, Life.",
-					"zhCN": "处于熊人形态时,每与敌人的当前生命百分比相差1%,你造成的伤害就提高x1%,最多提高x50%。\n\nTags: Werebear, Damage, Life."
+					"deDE": "In Werbärgestalt verursacht Ihr je 1% Unterschied zwischen Eurem aktuellen prozentualen Leben und dem des Gegners x1% mehr Schaden, bis maximal x50%.\n\nTags: Werbär, Schaden, Leben.",
+					"esES": "Mientras estás en forma de hombre oso, infliges un x1% más de daño, hasta un máximo de un x50%, por cada 1% de diferencia en el porcentaje de vida actual entre tu enemigo y tú.\n\nTags: Hombre oso, Daño, Vida.",
+					"esMX": "Mientras estás en forma de hombre oso, infliges un x1% más de daño, hasta un x50% por cada 1% de diferencia entre tu porcentaje de vida actual y la del enemigo.\n\nTags: Hombre Oso, Daño, Vida.",
+					"frFR": "Sous forme ursoïde, vous infligez x1% de dégâts supplémentaires pour chaque tranche de 1% d'écart entre votre pourcentage de points de vie actuels et celui de votre cible, jusqu'à un maximum de x50%.\n\nTags: Ursoïde, Dégâts, Vie.",
+					"itIT": "In forma di Orso Mannaro, infliggi il x1% di danni aggiuntivi, fino a un massimo del x50%, per ogni 1% di differenza tra la Vita attuale tua e del tuo nemico.\n\nTags: Orso Mannaro, Danni, Vita.",
+					"jaJP": "人熊形態でいる間は、与えるダメージが現在の自身のライフと敵のライフの差1%ごとにx1%増加する。増加量は最大x50%。\n\nTags: 人熊, ダメージ, ライフ.",
+					"koKR": "곰인간 형상일 때 자신과 적의 현재 생명력 비율 차 1%당 때마다 주는 피해가 x1%만큼, 최대 x50%까지 증가합니다.\n\nTags: 곰인간, 피해, 생명력.",
+					"plPL": "Pod postacią niedźwiedziołaka zadajesz obrażenia zwiększone o x1%, maksymalnie do x50%, za każde 1% różnicy między twoim obecnym poziomem zdrowia a poziomem zdrowia wroga.\n\nTags: Niedźwiedziołak, Obrażenia, Zdrowie.",
+					"ptBR": "Enquanto está na forma de urso, você causa 1% de dano aumentado, até 50%, para cada diferença de 1% na porcentagem de vida atual entre você e o inimigo.\n\nTags: Urso, Dano, Vida.",
+					"ruRU": "В облике медведя наносимый вами урон увеличивается на x1% вплоть до x50% за каждые 1% разницы между вашим текущим уровнем здоровья и уровнем здоровья цели.\n\nTags: Медведь, Урон, Здоровье.",
+					"zhCN": "处于熊人形态时,每与敌人的当前生命百分比相差1%,你造成的伤害就提高x1%,最多提高x50%。\n\nTags: 熊人, 伤害, 生命."
 				}
 			},
 			"Druid_Legendary_008": {
@@ -10840,17 +10840,17 @@ let paragonData = {
 					"zhCN": "杀戮欲望"
 				},
 				"descriptionLocalized": {
-					"deDE": "Kritische Treffer mit Werwolffertigkeiten stellen 2 Geisteskraft wieder her.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"esES": "Los golpes críticos con habilidades de hombre lobo restauran 2 de espíritu.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"esMX": "Los golpes críticos con habilidades de Hombre Lobo restauran 2 de Espíritu.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"frFR": "Les coups critiques avec les compétences de lycanthrope vous rendent 2 points d'esprit.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"itIT": "I colpi critici con le abilità da Lupo Mannaro rigenerano 2 spirito.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"jaJP": "人熊スキルでクリティカルヒットが発生すると、精神力が2回復する。\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"koKR": "늑대인간 기술이 극대화로 적중하면 영력이 2 회복됩니다.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"plPL": "Trafienia krytyczne umiejętnościami Wilkołaka przywracają 2 pkt. siły duchowej.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"ptBR": "Acertos críticos com habilidades de Lobisomem recuperam 2 de espírito.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"ruRU": "Критические эффекты навыков в облике волка восполняют 2 ед. силы духа.\n\nTags: Werewolf, Critical Strikes, Spirit.",
-					"zhCN": "狼人技能暴击时恢复2点灵力。\n\nTags: Werewolf, Critical Strikes, Spirit."
+					"deDE": "Kritische Treffer mit Werwolffertigkeiten stellen 2 Geisteskraft wieder her.\n\nTags: Werwolf, Kritische Treffer, Geisteskraft.",
+					"esES": "Los golpes críticos con habilidades de hombre lobo restauran 2 de espíritu.\n\nTags: Hombre lobo, Golpes críticos, Espíritu.",
+					"esMX": "Los golpes críticos con habilidades de Hombre Lobo restauran 2 de Espíritu.\n\nTags: Hombre Lobo, Golpes críticos, Espíritu.",
+					"frFR": "Les coups critiques avec les compétences de lycanthrope vous rendent 2 points d'esprit.\n\nTags: Lycanthrope, Coups critiques, Esprit.",
+					"itIT": "I colpi critici con le abilità da Lupo Mannaro rigenerano 2 spirito.\n\nTags: Lupo Mannaro, Colpi critici, Spirito.",
+					"jaJP": "人熊スキルでクリティカルヒットが発生すると、精神力が2回復する。\n\nTags: 人狼, 致命の一撃, 精神力.",
+					"koKR": "늑대인간 기술이 극대화로 적중하면 영력이 2 회복됩니다.\n\nTags: 늑대인간, 극대화, 영력.",
+					"plPL": "Trafienia krytyczne umiejętnościami Wilkołaka przywracają 2 pkt. siły duchowej.\n\nTags: Wilkołak, Trafienia Krytyczne, Siła Duchowa.",
+					"ptBR": "Acertos críticos com habilidades de Lobisomem recuperam 2 de espírito.\n\nTags: Lobisomem, Acertos Críticos, Espírito.",
+					"ruRU": "Критические эффекты навыков в облике волка восполняют 2 ед. силы духа.\n\nTags: Облик волка, Критические удары, Сила духа.",
+					"zhCN": "狼人技能暴击时恢复2点灵力。\n\nTags: 狼人, 暴击, 灵力."
 				}
 			},
 			"Druid_Legendary_011": {
@@ -10886,17 +10886,17 @@ let paragonData = {
 					"zhCN": "恶念加重"
 				},
 				"descriptionLocalized": {
-					"deDE": "Solange mindestens 3 vergiftete Gegner in der Nähe sind, verursacht Ihr x45% mehr Schaden.\n\nTags: Poison, Damage.",
-					"esES": "Mientras haya 3 enemigos envenenados o más cerca, infliges un x45% más de daño.\n\nTags: Poison, Damage.",
-					"esMX": "Mientras haya 3 o más objetivos envenenados cercanos, infligirás un x45% más de daño.\n\nTags: Poison, Damage.",
-					"frFR": "Tant qu'il y a au moins 3 cibles empoisonnées à proximité, vous infligez x45% de dégâts supplémentaires.\n\nTags: Poison, Damage.",
-					"itIT": "Quando ci sono 3 o più nemici avvelenati nelle vicinanze, infliggi il x45% di danni aggiuntivi.\n\nTags: Poison, Damage.",
-					"jaJP": "付近に3体以上の毒状態の敵がいると、与えるダメージがx45%増加する。\n\nTags: Poison, Damage.",
-					"koKR": "근처에 있는 중독된 적의 수가 3마리 이상일 때 주는 피해가 x45% 증가합니다.\n\nTags: Poison, Damage.",
-					"plPL": "Kiedy w pobliżu znajduje się co najmniej 3 zatrutych wrogów, zadajesz obrażenia zwiększone o x45%.\n\nTags: Poison, Damage.",
-					"ptBR": "Enquanto houver 3 ou mais inimigos envenenados por perto, você causa 45% de dano aumentado.\n\nTags: Poison, Damage.",
-					"ruRU": "Когда рядом с вами находится не менее 3 отравленных противников, наносимый вами урон увеличивается на x45%.\n\nTags: Poison, Damage.",
-					"zhCN": "附近有3个或更多中毒的敌人时,你造成的伤害提高x45%。\n\nTags: Poison, Damage."
+					"deDE": "Solange mindestens 3 vergiftete Gegner in der Nähe sind, verursacht Ihr x45% mehr Schaden.\n\nTags: Gift, Schaden.",
+					"esES": "Mientras haya 3 enemigos envenenados o más cerca, infliges un x45% más de daño.\n\nTags: Veneno, Daño.",
+					"esMX": "Mientras haya 3 o más objetivos envenenados cercanos, infligirás un x45% más de daño.\n\nTags: Veneno, Daño.",
+					"frFR": "Tant qu'il y a au moins 3 cibles empoisonnées à proximité, vous infligez x45% de dégâts supplémentaires.\n\nTags: Poison, Dégâts.",
+					"itIT": "Quando ci sono 3 o più nemici avvelenati nelle vicinanze, infliggi il x45% di danni aggiuntivi.\n\nTags: Veleno, Danni.",
+					"jaJP": "付近に3体以上の毒状態の敵がいると、与えるダメージがx45%増加する。\n\nTags: 毒, ダメージ.",
+					"koKR": "근처에 있는 중독된 적의 수가 3마리 이상일 때 주는 피해가 x45% 증가합니다.\n\nTags: 독, 피해.",
+					"plPL": "Kiedy w pobliżu znajduje się co najmniej 3 zatrutych wrogów, zadajesz obrażenia zwiększone o x45%.\n\nTags: Trucizna, Obrażenia.",
+					"ptBR": "Enquanto houver 3 ou mais inimigos envenenados por perto, você causa 45% de dano aumentado.\n\nTags: Veneno, Dano.",
+					"ruRU": "Когда рядом с вами находится не менее 3 отравленных противников, наносимый вами урон увеличивается на x45%.\n\nTags: Яд, Урон.",
+					"zhCN": "附近有3个或更多中毒的敌人时,你造成的伤害提高x45%。\n\nTags: 毒素, 伤害."
 				}
 			},
 			"Druid_Legendary_013": {
@@ -10916,17 +10916,17 @@ let paragonData = {
 					"zhCN": "内心的野兽"
 				},
 				"descriptionLocalized": {
-					"deDE": "Nach dem Gestaltwandeln sind Eure Geisteskraftkosen 5 Sek. lang um 30% verringert, bis maximal 10%.\n\nTags: Shapeshifting, Spirit.",
-					"esES": "Tras transformarte, tus costes de espíritu se reducen un 10% durante 5 s, hasta un máximo de un 30%.\n\nTags: Shapeshifting, Spirit.",
-					"esMX": "Después de cambiar de forma, tus costos de Espíritu se reducen un 10% durante 5 segundos, hasta un 30%.\n\nTags: Shapeshifting, Spirit.",
-					"frFR": "Après avoir changé de forme, les coûts en esprit de vos compétences sont réduits de 10% pendant 5 s, jusqu'à un maximum de 30%.\n\nTags: Shapeshifting, Spirit.",
-					"itIT": "Dopo aver mutato forma, i costi in spirito sono ridotti del 10% per 5 s, fino al 30%.\n\nTags: Shapeshifting, Spirit.",
-					"jaJP": "変身後、5秒間にわたり、精神力消費が10%軽減される(最大30%)。\n\nTags: Shapeshifting, Spirit.",
-					"koKR": "변신 후 5초 동안 영력 소모량이 10%만큼, 최대 30%까지 감소합니다.\n\nTags: Shapeshifting, Spirit.",
-					"plPL": "Po zmianie kształtu koszt siły duchowej zostaje zmniejszony o 10% na 5 sek., maksymalnie do 30%.\n\nTags: Shapeshifting, Spirit.",
-					"ptBR": "Depois de se transformar, seus custos de espírito são reduzidos em 10% por 5 segundos, até30%.\n\nTags: Shapeshifting, Spirit.",
-					"ruRU": "Когда вы меняете облик, затраты духа уменьшаются на 10% на 5 сек., вплоть до 30%.\n\nTags: Shapeshifting, Spirit.",
-					"zhCN": "变形后,你的灵力消耗降低10%,持续5秒,最多降低30%。\n\nTags: Shapeshifting, Spirit."
+					"deDE": "Nach dem Gestaltwandeln sind Eure Geisteskraftkosen 5 Sek. lang um 30% verringert, bis maximal 10%.\n\nTags: Gestaltwandeln, Geisteskraft.",
+					"esES": "Tras transformarte, tus costes de espíritu se reducen un 10% durante 5 s, hasta un máximo de un 30%.\n\nTags: Cambio de forma, Espíritu.",
+					"esMX": "Después de cambiar de forma, tus costos de Espíritu se reducen un 10% durante 5 segundos, hasta un 30%.\n\nTags: Metamorfosis, Espíritu.",
+					"frFR": "Après avoir changé de forme, les coûts en esprit de vos compétences sont réduits de 10% pendant 5 s, jusqu'à un maximum de 30%.\n\nTags: Métamorphose, Esprit.",
+					"itIT": "Dopo aver mutato forma, i costi in spirito sono ridotti del 10% per 5 s, fino al 30%.\n\nTags: Mutaforma, Spirito.",
+					"jaJP": "変身後、5秒間にわたり、精神力消費が10%軽減される(最大30%)。\n\nTags: 変身, 精神力.",
+					"koKR": "변신 후 5초 동안 영력 소모량이 10%만큼, 최대 30%까지 감소합니다.\n\nTags: 변신, 영력.",
+					"plPL": "Po zmianie kształtu koszt siły duchowej zostaje zmniejszony o 10% na 5 sek., maksymalnie do 30%.\n\nTags: Zmiennokształtność, Siła Duchowa.",
+					"ptBR": "Depois de se transformar, seus custos de espírito são reduzidos em 10% por 5 segundos, até30%.\n\nTags: Metamorfose, Espírito.",
+					"ruRU": "Когда вы меняете облик, затраты духа уменьшаются на 10% на 5 сек., вплоть до 30%.\n\nTags: Смена облика, Сила духа.",
+					"zhCN": "变形后,你的灵力消耗降低10%,持续5秒,最多降低30%。\n\nTags: 变形, 灵力."
 				}
 			},
 			"Druid_Legendary_014": {
@@ -10994,17 +10994,17 @@ let paragonData = {
 					"zhCN": "紧缩卷须"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Naturmagiefertigkeiten verfügen über eine Chance von 15%, den Gegner mit Ranken zu umschlingen, die ihn 2 Sek. lang bewegungsunfähig machen, vergiften und im Verlauf von 4 Sek. 120% des Basisschadens zufügen.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"esES": "Golpe de suerte: Las habilidades de magia de la naturaleza tienen hasta un 15% de probabilidad de envolver al enemigo con enredaderas, lo que lo inmoviliza durante 2 s y lo envenena para infligirle un 120% del daño base durante 4 s.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"esMX": "Golpe afortunado: Las habilidades de Magia de la Naturaleza tienen hasta un 15% de probabilidad de enredar al enemigo con lianas, que lo inmovilizan durante 2 segundos y lo envenenan, lo que inflige un 120% del daño de base infligido durante 4 segundos.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"frFR": "Coup de chance: vos compétences de magie naturelle ont jusqu'à 15% de chances d'entraver l'adversaire avec des lianes, ce qui l'immobilise pendant 2 s et l'empoisonne en infligeant 120% des dégâts de base en 4 s.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"itIT": "Colpo fortunato: Le tue abilità di magia naturale hanno fino al 15% di probabilità di intralciare il nemico con dei rampicanti, immobilizzandoli per 2 s e avvelenandoli per il 120% del danno base per 4 s.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"jaJP": "幸運の一撃: 自然魔法スキルが15%の確率でつる草で敵を絡め取り、2秒間、移動不能にする。また毒を付与し、4秒かけて与えた基礎ダメージの120%のダメージを与える。\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"koKR": "행운의 적중: 자연 마법 기술이 최대 15% 확률로 적을 덩굴로 옭아매, 2초 동안 이동 불가 상태로 만들고 중독시켜 4초에 걸쳐 기본 공격력의 120%에 해당하는 피해를 줍니다.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"plPL": "Szczęśliwy traf: Umiejętności Magii Natury mają maksymalnie 15% szans na oplątanie wrogów pnączami. Pnącza unieruchamiają przeciwnika na 2 sek. i zatruwają go, zadając równowartość 120% obrażeń podstawowych w ciągu 4 sek.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"ptBR": "Golpe de Sorte: Habilidades de Magia da Natureza têm até 15% de chance de prender o inimigo com vinhas, imobilizando-o por 2 segundos e envenenando-o, causando 120% do dano-base causado ao longo de 4 segundos.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"ruRU": "Удачный удар: умения сил природы с вероятностью до 15% опутывают цель лианами, обездвиживая ее на 2 сек. и нанося дополнительный урон от отравления в объеме 120% базового урона за 4 сек.\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage.",
-					"zhCN": "幸运一击:自然魔法技能最多有15%几率用藤蔓绞杀目标,使其定身2秒并在4秒内对其造成120%的基础伤害(作为毒素伤害)。\n\nTags: Nature Magic, Poison, Crowd Control, Lucky Hit, Damage."
+					"deDE": "Glückstreffer: Naturmagiefertigkeiten verfügen über eine Chance von 15%, den Gegner mit Ranken zu umschlingen, die ihn 2 Sek. lang bewegungsunfähig machen, vergiften und im Verlauf von 4 Sek. 120% des Basisschadens zufügen.\n\nTags: Naturmagie, Gift, Kontrollverlust, Glückstreffer, Schaden.",
+					"esES": "Golpe de suerte: Las habilidades de magia de la naturaleza tienen hasta un 15% de probabilidad de envolver al enemigo con enredaderas, lo que lo inmoviliza durante 2 s y lo envenena para infligirle un 120% del daño base durante 4 s.\n\nTags: Magia de la naturaleza, Veneno, Control de masas, Golpe de suerte, Daño.",
+					"esMX": "Golpe afortunado: Las habilidades de Magia de la Naturaleza tienen hasta un 15% de probabilidad de enredar al enemigo con lianas, que lo inmovilizan durante 2 segundos y lo envenenan, lo que inflige un 120% del daño de base infligido durante 4 segundos.\n\nTags: Magia de la naturaleza, Veneno, Control de multitudes, Golpe afortunado, Daño.",
+					"frFR": "Coup de chance: vos compétences de magie naturelle ont jusqu'à 15% de chances d'entraver l'adversaire avec des lianes, ce qui l'immobilise pendant 2 s et l'empoisonne en infligeant 120% des dégâts de base en 4 s.\n\nTags: Magie naturelle, Poison, Perte de contrôle, Coup de chance, Dégâts.",
+					"itIT": "Colpo fortunato: Le tue abilità di magia naturale hanno fino al 15% di probabilità di intralciare il nemico con dei rampicanti, immobilizzandoli per 2 s e avvelenandoli per il 120% del danno base per 4 s.\n\nTags: Magia naturale, Veleno, Effetti debilitanti, Colpo fortunato, Danni.",
+					"jaJP": "幸運の一撃: 自然魔法スキルが15%の確率でつる草で敵を絡め取り、2秒間、移動不能にする。また毒を付与し、4秒かけて与えた基礎ダメージの120%のダメージを与える。\n\nTags: 自然魔法, 毒, 操作障害効果, 幸運の一撃, ダメージ.",
+					"koKR": "행운의 적중: 자연 마법 기술이 최대 15% 확률로 적을 덩굴로 옭아매, 2초 동안 이동 불가 상태로 만들고 중독시켜 4초에 걸쳐 기본 공격력의 120%에 해당하는 피해를 줍니다.\n\nTags: 자연 마법, 독, 군중 제어, 행운의 적중, 피해.",
+					"plPL": "Szczęśliwy traf: Umiejętności Magii Natury mają maksymalnie 15% szans na oplątanie wrogów pnączami. Pnącza unieruchamiają przeciwnika na 2 sek. i zatruwają go, zadając równowartość 120% obrażeń podstawowych w ciągu 4 sek.\n\nTags: Magia Natury, Trucizna, Ograniczanie Kontroli, Szczęśliwy Traf, Obrażenia.",
+					"ptBR": "Golpe de Sorte: Habilidades de Magia da Natureza têm até 15% de chance de prender o inimigo com vinhas, imobilizando-o por 2 segundos e envenenando-o, causando 120% do dano-base causado ao longo de 4 segundos.\n\nTags: Magia da Natureza, Veneno, Controle de Grupo, Golpe de Sorte, Dano.",
+					"ruRU": "Удачный удар: умения сил природы с вероятностью до 15% опутывают цель лианами, обездвиживая ее на 2 сек. и нанося дополнительный урон от отравления в объеме 120% базового урона за 4 сек.\n\nTags: Силы природы, Яд, Контроль, Удачный удар, Урон.",
+					"zhCN": "幸运一击:自然魔法技能最多有15%几率用藤蔓绞杀目标,使其定身2秒并在4秒内对其造成120%的基础伤害(作为毒素伤害)。\n\nTags: 自然魔法, 毒素, 群控, 幸运一击, 伤害."
 				}
 			},
 			"Druid_Legendary_018": {
@@ -11024,34 +11024,34 @@ let paragonData = {
 					"zhCN": "先祖指引"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr 75 Geisteskraft verbraucht, verursacht Ihr 5 Sek. lang x30% mehr Schaden.\n\nTags: Spirit, Damage.",
-					"esES": "Tras gastar 75 de espíritu, infliges un x30% más de daño durante 5 s.\n\nTags: Spirit, Damage.",
-					"esMX": "Después de usar 75 de Espíritu, infliges un x30% más de daño durante 5 segundos.\n\nTags: Spirit, Damage.",
-					"frFR": "Après avoir dépensé 75 points d'esprit, vous infligez x30% de dégâts supplémentaires pendant 5 s.\n\nTags: Spirit, Damage.",
-					"itIT": "Dopo aver consumato 75 spirito, infliggi il x30% di danni aggiuntivi per 5 s.\n\nTags: Spirit, Damage.",
-					"jaJP": "精神力を75消費した後の5秒間、与えるダメージがx30%増加する。\n\nTags: Spirit, Damage.",
-					"koKR": "영력을 75 소모하면 5초 동안 주는 피해가 x30% 증가합니다.\n\nTags: Spirit, Damage.",
-					"plPL": "Po wykorzystaniu 75 pkt. siły duchowej zadajesz obrażenia zwiększone o x30% przez 5 sek.\n\nTags: Spirit, Damage.",
-					"ptBR": "Depois de gastar 75 de espírito, você causa 30% de dano aumentado por 5 segundos.\n\nTags: Spirit, Damage.",
-					"ruRU": "Когда вы тратите 75 ед. силы духа, наносимый вами урон увеличивается на x30% на 5 сек.\n\nTags: Spirit, Damage.",
-					"zhCN": "消耗75点灵力后,你造成的伤害提高x30%,持续5秒。\n\nTags: Spirit, Damage."
+					"deDE": "Wenn Ihr 75 Geisteskraft verbraucht, verursacht Ihr 5 Sek. lang x30% mehr Schaden.\n\nTags: Geisteskraft, Schaden.",
+					"esES": "Tras gastar 75 de espíritu, infliges un x30% más de daño durante 5 s.\n\nTags: Espíritu, Daño.",
+					"esMX": "Después de usar 75 de Espíritu, infliges un x30% más de daño durante 5 segundos.\n\nTags: Espíritu, Daño.",
+					"frFR": "Après avoir dépensé 75 points d'esprit, vous infligez x30% de dégâts supplémentaires pendant 5 s.\n\nTags: Esprit, Dégâts.",
+					"itIT": "Dopo aver consumato 75 spirito, infliggi il x30% di danni aggiuntivi per 5 s.\n\nTags: Spirito, Danni.",
+					"jaJP": "精神力を75消費した後の5秒間、与えるダメージがx30%増加する。\n\nTags: 精神力, ダメージ.",
+					"koKR": "영력을 75 소모하면 5초 동안 주는 피해가 x30% 증가합니다.\n\nTags: 영력, 피해.",
+					"plPL": "Po wykorzystaniu 75 pkt. siły duchowej zadajesz obrażenia zwiększone o x30% przez 5 sek.\n\nTags: Siła Duchowa, Obrażenia.",
+					"ptBR": "Depois de gastar 75 de espírito, você causa 30% de dano aumentado por 5 segundos.\n\nTags: Espírito, Dano.",
+					"ruRU": "Когда вы тратите 75 ед. силы духа, наносимый вами урон увеличивается на x30% на 5 сек.\n\nTags: Сила духа, Урон.",
+					"zhCN": "消耗75点灵力后,你造成的伤害提高x30%,持续5秒。\n\nTags: 灵力, 伤害."
 				}
 			},
 			"Druid_Magic_CriticalDamageEarth": {
 				"name": "Critical Damage Earth",
 				"description": "+7.5% Critical Strike Damage with Earth Skills\n\nTags: Earth, Critical Strikes, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+7.5% kritischer Trefferschaden mit Erde -Fertigkeiten\n\nTags: Earth, Critical Strikes, Damage.",
-					"esES": "+7.5% de daño de golpe crítico con habilidades de Tierra\n\nTags: Earth, Critical Strikes, Damage.",
-					"esMX": "+7.5% de daño de golpe crítico con habilidades de Tierra\n\nTags: Earth, Critical Strikes, Damage.",
-					"frFR": "+7.5% de dégâts critiques avec les compétences de Terre\n\nTags: Earth, Critical Strikes, Damage.",
-					"itIT": "Danni critici con abilità Terra: +7.5%\n\nTags: Earth, Critical Strikes, Damage.",
-					"jaJP": "地 スキルのクリティカルヒットダメージ+7.5%\n\nTags: Earth, Critical Strikes, Damage.",
-					"koKR": "대지 기술의 극대화 피해 +7.5%\n\nTags: Earth, Critical Strikes, Damage.",
-					"plPL": "+7.5% obrażeń od trafień krytycznych od umiejętności: Ziemia\n\nTags: Earth, Critical Strikes, Damage.",
-					"ptBR": "+7.5% de dano de acerto crítico com habilidades de Terra\n\nTags: Earth, Critical Strikes, Damage.",
-					"ruRU": "+7.5% к критическому урону для умений категории \"Земля \"\n\nTags: Earth, Critical Strikes, Damage.",
-					"zhCN": "+7.5%大地 技能的暴击伤害\n\nTags: Earth, Critical Strikes, Damage."
+					"deDE": "+7.5% kritischer Trefferschaden mit Erde -Fertigkeiten\n\nTags: Erde, Kritische Treffer, Schaden.",
+					"esES": "+7.5% de daño de golpe crítico con habilidades de Tierra\n\nTags: Tierra, Golpes críticos, Daño.",
+					"esMX": "+7.5% de daño de golpe crítico con habilidades de Tierra\n\nTags: Tierra, Golpes críticos, Daño.",
+					"frFR": "+7.5% de dégâts critiques avec les compétences de Terre\n\nTags: Terre, Coups critiques, Dégâts.",
+					"itIT": "Danni critici con abilità Terra: +7.5%\n\nTags: Terra, Colpi critici, Danni.",
+					"jaJP": "地 スキルのクリティカルヒットダメージ+7.5%\n\nTags: 地, 致命の一撃, ダメージ.",
+					"koKR": "대지 기술의 극대화 피해 +7.5%\n\nTags: 대지, 극대화, 피해.",
+					"plPL": "+7.5% obrażeń od trafień krytycznych od umiejętności: Ziemia\n\nTags: Ziemia, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+7.5% de dano de acerto crítico com habilidades de Terra\n\nTags: Terra, Acertos Críticos, Dano.",
+					"ruRU": "+7.5% к критическому урону для умений категории \"Земля \"\n\nTags: Земля, Критические удары, Урон.",
+					"zhCN": "+7.5%大地 技能的暴击伤害\n\nTags: 大地, 暴击, 伤害."
 				}
 			},
 			"Druid_Magic_DamageBasic": {
@@ -11098,17 +11098,17 @@ let paragonData = {
 				"name": "Damage Wolf",
 				"description": "+5% Werewolf Skill Damage\n\nTags: Werewolf, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden für Fertigkeiten der Kategorie Werwolf\n\nTags: Werewolf, Damage.",
-					"esES": "+5% de daño de habilidades de Hombre lobo\n\nTags: Werewolf, Damage.",
-					"esMX": "+5% de daño de habilidad Hombre Lobo\n\nTags: Werewolf, Damage.",
-					"frFR": "+5% de dégâts de compétence (Lycanthrope )\n\nTags: Werewolf, Damage.",
-					"itIT": "Danni abilità di Lupo Mannaro: +5%\n\nTags: Werewolf, Damage.",
-					"jaJP": "スキルダメージ+5% 人狼\n\nTags: Werewolf, Damage.",
-					"koKR": "늑대인간 기술 피해 +5%\n\nTags: Werewolf, Damage.",
-					"plPL": "+5% obrażeń od umiejętności (Wilkołak )\n\nTags: Werewolf, Damage.",
-					"ptBR": "+5% de dano de habilidade Lobisomem\n\nTags: Werewolf, Damage.",
-					"ruRU": "+5% к урону от умений категории \"Облик волка \"\n\nTags: Werewolf, Damage.",
-					"zhCN": "+5%狼人 技能伤害\n\nTags: Werewolf, Damage."
+					"deDE": "+5% Schaden für Fertigkeiten der Kategorie Werwolf\n\nTags: Werwolf, Schaden.",
+					"esES": "+5% de daño de habilidades de Hombre lobo\n\nTags: Hombre lobo, Daño.",
+					"esMX": "+5% de daño de habilidad Hombre Lobo\n\nTags: Hombre Lobo, Daño.",
+					"frFR": "+5% de dégâts de compétence (Lycanthrope )\n\nTags: Lycanthrope, Dégâts.",
+					"itIT": "Danni abilità di Lupo Mannaro: +5%\n\nTags: Lupo Mannaro, Danni.",
+					"jaJP": "スキルダメージ+5% 人狼\n\nTags: 人狼, ダメージ.",
+					"koKR": "늑대인간 기술 피해 +5%\n\nTags: 늑대인간, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Wilkołak )\n\nTags: Wilkołak, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Lobisomem\n\nTags: Lobisomem, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Облик волка \"\n\nTags: Облик волка, Урон.",
+					"zhCN": "+5%狼人 技能伤害\n\nTags: 狼人, 伤害."
 				}
 			},
 			"Druid_Magic_Spirit": {
@@ -11138,17 +11138,17 @@ let paragonData = {
 					"zhCN": "风暴召唤者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Sturm\n+10 Willenskraft\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"esES": "+10% de daño de habilidades de Tormenta\n+10 p. de voluntad\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"esMX": "+10% de daño de habilidad Tormenta\n+10 de Voluntad\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"frFR": "+10% de dégâts de compétence (Tempête )\n+10 volonté\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"itIT": "Danni abilità di Tempesta: +10%\nVolontà: +10\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"jaJP": "スキルダメージ+10% 嵐\n意志力+10\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"koKR": "폭풍 기술 피해 +10%\n의지력 +10\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"plPL": "+10% obrażeń od umiejętności (Burza )\n+10 siły woli\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"ptBR": "+10% de dano de habilidade Tempestade\n+10 de Determinação\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"ruRU": "+10% к урону от умений категории \"Буря \"\n+10 к силе воли\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
-					"zhCN": "+10%风暴 技能伤害\n+10点意力\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Sturm\n+10 Willenskraft\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sturm, Schaden, Willenskraft.",
+					"esES": "+10% de daño de habilidades de Tormenta\n+10 p. de voluntad\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tormenta, Daño, Voluntad.",
+					"esMX": "+10% de daño de habilidad Tormenta\n+10 de Voluntad\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tormenta, Daño, Voluntad.",
+					"frFR": "+10% de dégâts de compétence (Tempête )\n+10 volonté\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tempête, Dégâts, Volonté.",
+					"itIT": "Danni abilità di Tempesta: +10%\nVolontà: +10\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tempesta, Danni, Volontà.",
+					"jaJP": "スキルダメージ+10% 嵐\n意志力+10\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 嵐, ダメージ, 意志力.",
+					"koKR": "폭풍 기술 피해 +10%\n의지력 +10\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 폭풍, 피해, 의지력.",
+					"plPL": "+10% obrażeń od umiejętności (Burza )\n+10 siły woli\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Burza, Obrażenia, Siła Woli.",
+					"ptBR": "+10% de dano de habilidade Tempestade\n+10 de Determinação\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tempestade, Dano, Determinação.",
+					"ruRU": "+10% к урону от умений категории \"Буря \"\n+10 к силе воли\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Буря, Урон, Сила воли.",
+					"zhCN": "+10%风暴 技能伤害\n+10点意力\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 风暴, 伤害, 意力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -11182,17 +11182,17 @@ let paragonData = {
 					"zhCN": "先天之性"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch Gegner, die von Poisoned betroffen sind\n+10 Willenskraft\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"esES": "4% de reducción de daño de enemigos en estado Poisoned\n+10 p. de voluntad\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"esMX": "4% de reducción de daño de enemigos que están Poisoned\n+10 de Voluntad\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Poisoned »\n+10 volonté\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"itIT": "Riduzione danni subiti dai nemici Poisoned: 4%\nVolontà: +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"jaJP": "Poisoned 状態の敵から受けるダメージ減少率4%\n意志力+10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"koKR": "Poisoned 적에게 받는 피해 감소 4%\n의지력 +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"plPL": "4% redukcji obrażeń od wrogów w stanie: Poisoned\n+10 siły woli\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"ptBR": "4% de redução de dano recebido de inimigos Poisoned\n+10 de Determinação\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"ruRU": "-4% к урону от противников под действием эффекта \"Poisoned \"\n+10 к силе воли\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower.",
-					"zhCN": "4%对Poisoned 敌人的伤害减免\n+10点意力\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage Reduction, Willpower."
+					"deDE": "4% Reduktion von Schaden durch Gegner, die von Poisoned betroffen sind\n+10 Willenskraft\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schadensreduktion, Willenskraft.",
+					"esES": "4% de reducción de daño de enemigos en estado Poisoned\n+10 p. de voluntad\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Reducción de daño, Voluntad.",
+					"esMX": "4% de reducción de daño de enemigos que están Poisoned\n+10 de Voluntad\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Reducción de daño, Voluntad.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Poisoned »\n+10 volonté\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Réduction des dégâts, Volonté.",
+					"itIT": "Riduzione danni subiti dai nemici Poisoned: 4%\nVolontà: +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Veleno, Riduzione danni, Volontà.",
+					"jaJP": "Poisoned 状態の敵から受けるダメージ減少率4%\n意志力+10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: 毒, ダメージ減少, 意志力.",
+					"koKR": "Poisoned 적에게 받는 피해 감소 4%\n의지력 +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: 독, 피해 감소, 의지력.",
+					"plPL": "4% redukcji obrażeń od wrogów w stanie: Poisoned\n+10 siły woli\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Trucizna, Redukcja Obrażeń, Siła Woli.",
+					"ptBR": "4% de redução de dano recebido de inimigos Poisoned\n+10 de Determinação\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Redução de Dano, Determinação.",
+					"ruRU": "-4% к урону от противников под действием эффекта \"Poisoned \"\n+10 к силе воли\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: Яд, Уменьшение урона, Сила воли.",
+					"zhCN": "4%对Poisoned 敌人的伤害减免\n+10点意力\n\nBonus: Another 4% Damage Reduction from Enemies That Are Poisoned if requirements met:\n{thresholdRequirements}\n\nTags: 毒素, 伤害减免, 意力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11220,17 +11220,17 @@ let paragonData = {
 					"zhCN": "剧毒克星"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Poisoned betroffen sind\n+4% Schaden des Typs Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"esES": "+10% de daño a enemigos en estado Poisoned\n+4% de daño de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"esMX": "+10% de daño a enemigos Poisoned\n+4% de daño de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"frFR": "+10% de dégâts contre les cibles sous l'effet « Poisoned »\n+4% de dégâts de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"itIT": "Danni ai nemici Poisoned: +10%\nDanni da Poison: +4%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"jaJP": "Poisoned の敵へのダメージ+10%\nPoison ダメージ+4%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"koKR": "Poisoned 적에게 주는 피해 +10%\nPoison 피해 +4%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"plPL": "+10% obrażeń zadawanych wrogom typu: Poisoned\n+4% obrażeń typu: Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"ptBR": "+10% de dano contra inimigos Poisoned\n+4% de dano de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"ruRU": "+10% к урону противникам под действием эффекта \"Poisoned \"\n+4% к урону (Poison )\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage.",
-					"zhCN": "+10%对Poisoned 敌人的伤害\n+4%Poison 伤害\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage."
+					"deDE": "+10% Schaden gegen Gegner, die von Poisoned betroffen sind\n+4% Schaden des Typs Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schaden.",
+					"esES": "+10% de daño a enemigos en estado Poisoned\n+4% de daño de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño.",
+					"esMX": "+10% de daño a enemigos Poisoned\n+4% de daño de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño.",
+					"frFR": "+10% de dégâts contre les cibles sous l'effet « Poisoned »\n+4% de dégâts de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Dégâts.",
+					"itIT": "Danni ai nemici Poisoned: +10%\nDanni da Poison: +4%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veleno, Danni.",
+					"jaJP": "Poisoned の敵へのダメージ+10%\nPoison ダメージ+4%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒, ダメージ.",
+					"koKR": "Poisoned 적에게 주는 피해 +10%\nPoison 피해 +4%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 독, 피해.",
+					"plPL": "+10% obrażeń zadawanych wrogom typu: Poisoned\n+4% obrażeń typu: Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Trucizna, Obrażenia.",
+					"ptBR": "+10% de dano contra inimigos Poisoned\n+4% de dano de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Dano.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Poisoned \"\n+4% к урону (Poison )\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Яд, Урон.",
+					"zhCN": "+10%对Poisoned 敌人的伤害\n+4%Poison 伤害\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒素, 伤害."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11255,17 +11255,17 @@ let paragonData = {
 					"zhCN": "警惕前行"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden\n+6.7% Stählungserzeugung\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"esES": "+10% de daño\n+6.7% de generación de fortificación\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"esMX": "+10% de daño\n+6.7% de generación de fortificación\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"frFR": "+10% de dégâts\n+6.7% à la génération de fortification\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"itIT": "Danni: +10%\nGenerazione Fortificazione: +6.7%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"jaJP": "ダメージ +10%\n強化生成量+6.7%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"koKR": "공격력 +10%\n보강 재생량 +6.7%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"plPL": "+10% obrażeń\n+6.7% do generowania umocnienia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"ptBR": "+10% de dano\n+6.7% de geração de fortificação\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"ruRU": "+10% к урону\n+6.7% к укреплению\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage.",
-					"zhCN": "+10%伤害\n+6.7%强固生成量\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage."
+					"deDE": "+10% Schaden\n+6.7% Stählungserzeugung\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Stählung, Schaden.",
+					"esES": "+10% de daño\n+6.7% de generación de fortificación\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortificación, Daño.",
+					"esMX": "+10% de daño\n+6.7% de generación de fortificación\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortificar, Daño.",
+					"frFR": "+10% de dégâts\n+6.7% à la génération de fortification\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortification, Dégâts.",
+					"itIT": "Danni: +10%\nGenerazione Fortificazione: +6.7%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortificazione, Danni.",
+					"jaJP": "ダメージ +10%\n強化生成量+6.7%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 強化, ダメージ.",
+					"koKR": "공격력 +10%\n보강 재생량 +6.7%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 보강, 피해.",
+					"plPL": "+10% obrażeń\n+6.7% do generowania umocnienia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Umocnienie, Obrażenia.",
+					"ptBR": "+10% de dano\n+6.7% de geração de fortificação\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Dano.",
+					"ruRU": "+10% к урону\n+6.7% к укреплению\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Урон.",
+					"zhCN": "+10%伤害\n+6.7%强固生成量\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -11302,17 +11302,17 @@ let paragonData = {
 					"zhCN": "破碎大地"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Erde\n+6% kritischer Trefferschaden bei Gegnern, die unter Kontrollverlust leiden\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"esES": "+10% de daño de habilidades de Tierra\n+6% de daño de golpe crítico a enemigos afectados por control de masas\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"esMX": "+10% de daño de habilidad Tierra\n+6% de daño de golpe crítico a enemigos bajo los efectos de control de multitudes\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"frFR": "+10% de dégâts de compétence (Terre )\n+6% de dégâts critiques contre les cibles subissant un effet de perte de contrôle\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"itIT": "Danni abilità di Terra: +10%\nDanni critici ai nemici sotto effetti debilitanti: +6%\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"jaJP": "スキルダメージ+10% 地\n操作障害状態の敵への致命の一撃のダメージ+6%\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"koKR": "대지 기술 피해 +10%\n군중 제어 효과의 영향을 받는 적에게 주는 극대화 피해 +6%\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"plPL": "+10% obrażeń od umiejętności (Ziemia )\n+6% obrażeń od trafień krytycznych zadawanych wrogom z ograniczoną kontrolą\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"ptBR": "+10% de dano de habilidade Terra\n+6% de dano de acerto crítico contra inimigos sob controle de grupo\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"ruRU": "+10% к урону от умений категории \"Земля \"\n+6% к критическому урону противникам под действием эффектов контроля\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes.",
-					"zhCN": "+10%大地 技能伤害\n+6%对被群控敌人的暴击伤害\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Earth, Crowd Control, Damage, Critical Strikes."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Erde\n+6% kritischer Trefferschaden bei Gegnern, die unter Kontrollverlust leiden\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Erde, Kontrollverlust, Schaden, Kritische Treffer.",
+					"esES": "+10% de daño de habilidades de Tierra\n+6% de daño de golpe crítico a enemigos afectados por control de masas\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tierra, Control de masas, Daño, Golpes críticos.",
+					"esMX": "+10% de daño de habilidad Tierra\n+6% de daño de golpe crítico a enemigos bajo los efectos de control de multitudes\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tierra, Control de multitudes, Daño, Golpes críticos.",
+					"frFR": "+10% de dégâts de compétence (Terre )\n+6% de dégâts critiques contre les cibles subissant un effet de perte de contrôle\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Terre, Perte de contrôle, Dégâts, Coups critiques.",
+					"itIT": "Danni abilità di Terra: +10%\nDanni critici ai nemici sotto effetti debilitanti: +6%\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Terra, Effetti debilitanti, Danni, Colpi critici.",
+					"jaJP": "スキルダメージ+10% 地\n操作障害状態の敵への致命の一撃のダメージ+6%\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 地, 操作障害効果, ダメージ, 致命の一撃.",
+					"koKR": "대지 기술 피해 +10%\n군중 제어 효과의 영향을 받는 적에게 주는 극대화 피해 +6%\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 대지, 군중 제어, 피해, 극대화.",
+					"plPL": "+10% obrażeń od umiejętności (Ziemia )\n+6% obrażeń od trafień krytycznych zadawanych wrogom z ograniczoną kontrolą\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ziemia, Ograniczanie Kontroli, Obrażenia, Trafienia Krytyczne.",
+					"ptBR": "+10% de dano de habilidade Terra\n+6% de dano de acerto crítico contra inimigos sob controle de grupo\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Terra, Controle de Grupo, Dano, Acertos Críticos.",
+					"ruRU": "+10% к урону от умений категории \"Земля \"\n+6% к критическому урону противникам под действием эффектов контроля\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Земля, Контроль, Урон, Критические удары.",
+					"zhCN": "+10%大地 技能伤害\n+6%对被群控敌人的暴击伤害\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 大地, 群控, 伤害, 暴击."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11337,17 +11337,17 @@ let paragonData = {
 					"zhCN": "大地之力"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden mit Erde -Fertigkeiten\n+10 Willenskraft\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"esES": "+15% de daño de golpe crítico con habilidades de Tierra\n+10 p. de voluntad\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"esMX": "+15% de daño de golpe crítico con habilidades de Tierra\n+10 de Voluntad\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"frFR": "+15% de dégâts critiques avec les compétences de Terre\n+10 volonté\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"itIT": "Danni critici con abilità Terra: +15%\nVolontà: +10\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"jaJP": "地 スキルのクリティカルヒットダメージ+15%\n意志力+10\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"koKR": "대지 기술의 극대화 피해 +15%\n의지력 +10\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"plPL": "+15% obrażeń od trafień krytycznych od umiejętności: Ziemia\n+10 siły woli\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"ptBR": "+15% de dano de acerto crítico com habilidades de Terra\n+10 de Determinação\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"ruRU": "+15% к критическому урону для умений категории \"Земля \"\n+10 к силе воли\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower.",
-					"zhCN": "+15%大地 技能的暴击伤害\n+10点意力\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Earth, Willpower."
+					"deDE": "+15% kritischer Trefferschaden mit Erde -Fertigkeiten\n+10 Willenskraft\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Schaden, Erde, Willenskraft.",
+					"esES": "+15% de daño de golpe crítico con habilidades de Tierra\n+10 p. de voluntad\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Tierra, Voluntad.",
+					"esMX": "+15% de daño de golpe crítico con habilidades de Tierra\n+10 de Voluntad\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Tierra, Voluntad.",
+					"frFR": "+15% de dégâts critiques avec les compétences de Terre\n+10 volonté\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Dégâts, Terre, Volonté.",
+					"itIT": "Danni critici con abilità Terra: +15%\nVolontà: +10\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Danni, Terra, Volontà.",
+					"jaJP": "地 スキルのクリティカルヒットダメージ+15%\n意志力+10\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: 致命の一撃, ダメージ, 地, 意志力.",
+					"koKR": "대지 기술의 극대화 피해 +15%\n의지력 +10\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 피해, 대지, 의지력.",
+					"plPL": "+15% obrażeń od trafień krytycznych od umiejętności: Ziemia\n+10 siły woli\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Obrażenia, Ziemia, Siła Woli.",
+					"ptBR": "+15% de dano de acerto crítico com habilidades de Terra\n+10 de Determinação\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Dano, Terra, Determinação.",
+					"ruRU": "+15% к критическому урону для умений категории \"Земля \"\n+10 к силе воли\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Урон, Земля, Сила воли.",
+					"zhCN": "+15%大地 技能的暴击伤害\n+10点意力\n\nBonus: Another +15% Critical Strike Damage with Earth Skills if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 伤害, 大地, 意力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11375,17 +11375,17 @@ let paragonData = {
 					"zhCN": "自然的意志"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Naturmagie\n+10 Willenskraft\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"esES": "+10% de daño de habilidades de Magia de la naturaleza\n+10 p. de voluntad\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"esMX": "+10% de daño de habilidad Magia de la naturaleza\n+10 de Voluntad\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"frFR": "+10% de dégâts de compétence (Magie naturelle )\n+10 volonté\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"itIT": "Danni abilità di Magia naturale: +10%\nVolontà: +10\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"jaJP": "スキルダメージ+10% 自然魔法\n意志力+10\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"koKR": "자연 마법 기술 피해 +10%\n의지력 +10\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"plPL": "+10% obrażeń od umiejętności (Magia Natury )\n+10 siły woli\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"ptBR": "+10% de dano de habilidade Magia da Natureza\n+10 de Determinação\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"ruRU": "+10% к урону от умений категории \"Силы природы \"\n+10 к силе воли\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower.",
-					"zhCN": "+10%自然魔法 技能伤害\n+10点意力\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Willpower."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Naturmagie\n+10 Willenskraft\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Naturmagie, Schaden, Willenskraft.",
+					"esES": "+10% de daño de habilidades de Magia de la naturaleza\n+10 p. de voluntad\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia de la naturaleza, Daño, Voluntad.",
+					"esMX": "+10% de daño de habilidad Magia de la naturaleza\n+10 de Voluntad\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia de la naturaleza, Daño, Voluntad.",
+					"frFR": "+10% de dégâts de compétence (Magie naturelle )\n+10 volonté\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magie naturelle, Dégâts, Volonté.",
+					"itIT": "Danni abilità di Magia naturale: +10%\nVolontà: +10\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia naturale, Danni, Volontà.",
+					"jaJP": "スキルダメージ+10% 自然魔法\n意志力+10\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 自然魔法, ダメージ, 意志力.",
+					"koKR": "자연 마법 기술 피해 +10%\n의지력 +10\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 자연 마법, 피해, 의지력.",
+					"plPL": "+10% obrażeń od umiejętności (Magia Natury )\n+10 siły woli\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia Natury, Obrażenia, Siła Woli.",
+					"ptBR": "+10% de dano de habilidade Magia da Natureza\n+10 de Determinação\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia da Natureza, Dano, Determinação.",
+					"ruRU": "+10% к урону от умений категории \"Силы природы \"\n+10 к силе воли\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Силы природы, Урон, Сила воли.",
+					"zhCN": "+10%自然魔法 技能伤害\n+10点意力\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 自然魔法, 伤害, 意力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11413,17 +11413,17 @@ let paragonData = {
 					"zhCN": "灭绝"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Naturmagie\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"esES": "+10% de daño de habilidades de Magia de la naturaleza\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"esMX": "+10% de daño de habilidad Magia de la naturaleza\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"frFR": "+10% de dégâts de compétence (Magie naturelle )\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"itIT": "Danni abilità di Magia naturale: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"jaJP": "スキルダメージ+10% 自然魔法\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"koKR": "자연 마법 기술 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"plPL": "+10% obrażeń od umiejętności (Magia Natury )\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"ptBR": "+10% de dano de habilidade Magia da Natureza\n+6.7% de dano contra elites\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"ruRU": "+10% к урону от умений категории \"Силы природы \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters.",
-					"zhCN": "+10%自然魔法 技能伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nature Magic, Damage, Elite Monsters."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Naturmagie\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Naturmagie, Schaden, Elitemonster.",
+					"esES": "+10% de daño de habilidades de Magia de la naturaleza\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia de la naturaleza, Daño, Enemigos de élite.",
+					"esMX": "+10% de daño de habilidad Magia de la naturaleza\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia de la naturaleza, Daño, Monstruos de Élite.",
+					"frFR": "+10% de dégâts de compétence (Magie naturelle )\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magie naturelle, Dégâts, Monstres élites.",
+					"itIT": "Danni abilità di Magia naturale: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia naturale, Danni, Mostri élite.",
+					"jaJP": "スキルダメージ+10% 自然魔法\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 自然魔法, ダメージ, エリート・モンスター.",
+					"koKR": "자연 마법 기술 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 자연 마법, 피해, 정예 괴물.",
+					"plPL": "+10% obrażeń od umiejętności (Magia Natury )\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia Natury, Obrażenia, Elitarne Potwory.",
+					"ptBR": "+10% de dano de habilidade Magia da Natureza\n+6.7% de dano contra elites\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Magia da Natureza, Dano, Monstros de Elite.",
+					"ruRU": "+10% к урону от умений категории \"Силы природы \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Силы природы, Урон, Особые монстры.",
+					"zhCN": "+10%自然魔法 技能伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Nature Magic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 自然魔法, 伤害, 精英怪物."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11451,17 +11451,17 @@ let paragonData = {
 					"zhCN": "灵性之力"
 				},
 				"descriptionLocalized": {
-					"deDE": "+13.3% Schaden für Fertigkeiten der Kategorie Grundlegend\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"esES": "+13.3% de daño de habilidades de Básica\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"esMX": "+13.3% de daño de habilidad Básico\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"frFR": "+13.3% de dégâts de compétence (De base )\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"itIT": "Danni abilità di Base: +13.3%\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"jaJP": "スキルダメージ+13.3% 基本\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"koKR": "기본 기술 피해 +13.3%\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"plPL": "+13.3% obrażeń od umiejętności (Podstawowe )\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"ptBR": "+13.3% de dano de habilidade Básica\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"ruRU": "+13.3% к урону от умений категории \"Базовые \"\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
-					"zhCN": "+13.3%基础 技能伤害\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic."
+					"deDE": "+13.3% Schaden für Fertigkeiten der Kategorie Grundlegend\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basis, Schaden, Grundlegend.",
+					"esES": "+13.3% de daño de habilidades de Básica\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Daño, Básica.",
+					"esMX": "+13.3% de daño de habilidad Básico\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Daño, Básico.",
+					"frFR": "+13.3% de dégâts de compétence (De base )\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principale, Dégâts, De base.",
+					"itIT": "Danni abilità di Base: +13.3%\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Primaria, Danni, Base.",
+					"jaJP": "スキルダメージ+13.3% 基本\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: コア, ダメージ, 基本.",
+					"koKR": "기본 기술 피해 +13.3%\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 핵심, 피해, 기본.",
+					"plPL": "+13.3% obrażeń od umiejętności (Podstawowe )\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Główne, Obrażenia, Podstawowe.",
+					"ptBR": "+13.3% de dano de habilidade Básica\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Dano, Básica.",
+					"ruRU": "+13.3% к урону от умений категории \"Базовые \"\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Основные, Урон, Базовые.",
+					"zhCN": "+13.3%基础 技能伤害\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 伤害, 基础."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11486,17 +11486,17 @@ let paragonData = {
 					"zhCN": "灰熊之力"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden in folgender Gestalt: Werebear Form\n+10 Willenskraft\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"esES": "+10% de daño durante Werebear Form\n+10 p. de voluntad\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"esMX": "+10% de daño mientras estás en Werebear Form\n+10 de Voluntad\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"frFR": "+10% de dégâts sous forme Werebear Form\n+10 volonté\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"itIT": "Danni in forma di Werebear Form: +10%\nVolontà: +10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"jaJP": "Werebear Form 内のダメージ+10%\n意志力+10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"koKR": "Werebear Form 일 때 공격력 +10%\n의지력 +10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"plPL": "+10% obrażeń podczas: Werebear Form\n+10 siły woli\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"ptBR": "+10% de dano na forma de Werebear Form\n+10 de Determinação\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"ruRU": "+10% к урону под действием эффекта \"Werebear Form \"\n+10 к силе воли\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
-					"zhCN": "+10%在Werebear Form 中时伤害\n+10点意力\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower."
+					"deDE": "+10% Schaden in folgender Gestalt: Werebear Form\n+10 Willenskraft\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werbär, Schaden, Willenskraft.",
+					"esES": "+10% de daño durante Werebear Form\n+10 p. de voluntad\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Hombre oso, Daño, Voluntad.",
+					"esMX": "+10% de daño mientras estás en Werebear Form\n+10 de Voluntad\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Hombre Oso, Daño, Voluntad.",
+					"frFR": "+10% de dégâts sous forme Werebear Form\n+10 volonté\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Ursoïde, Dégâts, Volonté.",
+					"itIT": "Danni in forma di Werebear Form: +10%\nVolontà: +10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Orso Mannaro, Danni, Volontà.",
+					"jaJP": "Werebear Form 内のダメージ+10%\n意志力+10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 人熊, ダメージ, 意志力.",
+					"koKR": "Werebear Form 일 때 공격력 +10%\n의지력 +10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 곰인간, 피해, 의지력.",
+					"plPL": "+10% obrażeń podczas: Werebear Form\n+10 siły woli\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Niedźwiedziołak, Obrażenia, Siła Woli.",
+					"ptBR": "+10% de dano na forma de Werebear Form\n+10 de Determinação\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Urso, Dano, Determinação.",
+					"ruRU": "+10% к урону под действием эффекта \"Werebear Form \"\n+10 к силе воли\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Медведь, Урон, Сила воли.",
+					"zhCN": "+10%在Werebear Form 中时伤害\n+10点意力\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 熊人, 伤害, 意力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11524,17 +11524,17 @@ let paragonData = {
 					"zhCN": "自然调谐"
 				},
 				"descriptionLocalized": {
-					"deDE": "+6.4 max. Spirit\n+4% Leben\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"esES": "+6.4 p. de máximo de Spirit\n+4% de vida\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"esMX": "+6.4 de Spirit como máximo\n+4% de vida\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"frFR": "+6.4 |2%sSpirit maximum\n+4% de points de vie\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"itIT": "Spirit max: +6.4\nPunti vita: +4%\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"jaJP": "最大Spirit +6.4\nライフ+4%\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"koKR": "최대 Spirit +6.4\n생명력 +4%\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"plPL": "+6.4 maksimum: Spirit\n+4% zdrowia\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"ptBR": "+6.4 de máximo de Spirit\n+4% de vida\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"ruRU": "+6.4 к максимуму ресурса \"Spirit \"\n+4% к здоровью\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit.",
-					"zhCN": "+6.4最大Spirit\n+4%生命\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Life, Spirit."
+					"deDE": "+6.4 max. Spirit\n+4% Leben\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Leben, Geisteskraft.",
+					"esES": "+6.4 p. de máximo de Spirit\n+4% de vida\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Espíritu.",
+					"esMX": "+6.4 de Spirit como máximo\n+4% de vida\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Espíritu.",
+					"frFR": "+6.4 |2%sSpirit maximum\n+4% de points de vie\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Vie, Esprit.",
+					"itIT": "Spirit max: +6.4\nPunti vita: +4%\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Vita, Spirito.",
+					"jaJP": "最大Spirit +6.4\nライフ+4%\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: ライフ, 精神力.",
+					"koKR": "최대 Spirit +6.4\n생명력 +4%\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: 생명력, 영력.",
+					"plPL": "+6.4 maksimum: Spirit\n+4% zdrowia\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Zdrowie, Siła Duchowa.",
+					"ptBR": "+6.4 de máximo de Spirit\n+4% de vida\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Espírito.",
+					"ruRU": "+6.4 к максимуму ресурса \"Spirit \"\n+4% к здоровью\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Здоровье, Сила духа.",
+					"zhCN": "+6.4最大Spirit\n+4%生命\n\nBonus: Another +6.4 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: 生命, 灵力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11562,17 +11562,17 @@ let paragonData = {
 					"zhCN": "驯化"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16 max. Spirit\n2 Spirit beim Töten eines Gegners\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"esES": "+16 p. de máximo de Spirit\n2 de Spirit al matar\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"esMX": "+16 de Spirit como máximo\n2 de Spirit con cada eliminación\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"frFR": "+16 |2%sSpirit maximum\n2 de ressource (Spirit ) par victime\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"itIT": "Spirit max: +16\nSpirit per uccisione: 2\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"jaJP": "最大Spirit +16\nキル時に2のSpirit を獲得\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"koKR": "최대 Spirit +16\n처치 시 2 Spirit\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"plPL": "+16 maksimum: Spirit\n2 przy zabiciu: Spirit\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"ptBR": "+16 de máximo de Spirit\n2 de Spirit ao matar\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"ruRU": "+16 к максимуму ресурса \"Spirit \"\n+2 к ресурсу \"Spirit \" за каждое убийство\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit.",
-					"zhCN": "+16最大Spirit\n消灭获得2Spirit\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirit."
+					"deDE": "+16 max. Spirit\n2 Spirit beim Töten eines Gegners\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Geisteskraft.",
+					"esES": "+16 p. de máximo de Spirit\n2 de Spirit al matar\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Espíritu.",
+					"esMX": "+16 de Spirit como máximo\n2 de Spirit con cada eliminación\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Espíritu.",
+					"frFR": "+16 |2%sSpirit maximum\n2 de ressource (Spirit ) par victime\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Esprit.",
+					"itIT": "Spirit max: +16\nSpirit per uccisione: 2\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Spirito.",
+					"jaJP": "最大Spirit +16\nキル時に2のSpirit を獲得\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: 精神力.",
+					"koKR": "최대 Spirit +16\n처치 시 2 Spirit\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: 영력.",
+					"plPL": "+16 maksimum: Spirit\n2 przy zabiciu: Spirit\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Siła Duchowa.",
+					"ptBR": "+16 de máximo de Spirit\n2 de Spirit ao matar\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Espírito.",
+					"ruRU": "+16 к максимуму ресурса \"Spirit \"\n+2 к ресурсу \"Spirit \" за каждое убийство\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: Сила духа.",
+					"zhCN": "+16最大Spirit\n消灭获得2Spirit\n\nBonus: Another +16 Maximum Spirit if requirements met:\n{thresholdRequirements}\n\nTags: 灵力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11600,17 +11600,17 @@ let paragonData = {
 					"zhCN": "深咬利齿"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Schaden gegen Gegner, die von Poisoned betroffen sind\n+10 Willenskraft\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"esES": "+4% de daño a enemigos en estado Poisoned\n+10 p. de voluntad\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"esMX": "+4% de daño a enemigos Poisoned\n+10 de Voluntad\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"frFR": "+4% de dégâts contre les cibles sous l'effet « Poisoned »\n+10 volonté\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"itIT": "Danni ai nemici Poisoned: +4%\nVolontà: +10\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"jaJP": "Poisoned の敵へのダメージ+4%\n意志力+10\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"koKR": "Poisoned 적에게 주는 피해 +4%\n의지력 +10\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"plPL": "+4% obrażeń zadawanych wrogom typu: Poisoned\n+10 siły woli\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"ptBR": "+4% de dano contra inimigos Poisoned\n+10 de Determinação\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"ruRU": "+4% к урону противникам под действием эффекта \"Poisoned \"\n+10 к силе воли\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
-					"zhCN": "+4%对Poisoned 敌人的伤害\n+10点意力\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower."
+					"deDE": "+4% Schaden gegen Gegner, die von Poisoned betroffen sind\n+10 Willenskraft\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schaden, Willenskraft.",
+					"esES": "+4% de daño a enemigos en estado Poisoned\n+10 p. de voluntad\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño, Voluntad.",
+					"esMX": "+4% de daño a enemigos Poisoned\n+10 de Voluntad\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño, Voluntad.",
+					"frFR": "+4% de dégâts contre les cibles sous l'effet « Poisoned »\n+10 volonté\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Dégâts, Volonté.",
+					"itIT": "Danni ai nemici Poisoned: +4%\nVolontà: +10\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veleno, Danni, Volontà.",
+					"jaJP": "Poisoned の敵へのダメージ+4%\n意志力+10\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒, ダメージ, 意志力.",
+					"koKR": "Poisoned 적에게 주는 피해 +4%\n의지력 +10\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 독, 피해, 의지력.",
+					"plPL": "+4% obrażeń zadawanych wrogom typu: Poisoned\n+10 siły woli\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Trucizna, Obrażenia, Siła Woli.",
+					"ptBR": "+4% de dano contra inimigos Poisoned\n+10 de Determinação\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Dano, Determinação.",
+					"ruRU": "+4% к урону противникам под действием эффекта \"Poisoned \"\n+10 к силе воли\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Яд, Урон, Сила воли.",
+					"zhCN": "+4%对Poisoned 敌人的伤害\n+10点意力\n\nBonus: Another +4% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒素, 伤害, 意力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -11644,17 +11644,17 @@ let paragonData = {
 					"zhCN": "变形者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Gestaltwandeln\n+10 Willenskraft\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"esES": "+10% de daño de habilidades de Cambio de forma\n+10 p. de voluntad\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"esMX": "+10% de daño de habilidad Metamorfosis\n+10 de Voluntad\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"frFR": "+10% de dégâts de compétence (Métamorphose )\n+10 volonté\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"itIT": "Danni abilità di Mutaforma: +10%\nVolontà: +10\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"jaJP": "スキルダメージ+10% 変身\n意志力+10\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"koKR": "변신 기술 피해 +10%\n의지력 +10\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"plPL": "+10% obrażeń od umiejętności (Zmiennokształtność )\n+10 siły woli\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"ptBR": "+10% de dano de habilidade Metamorfose\n+10 de Determinação\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"ruRU": "+10% к урону от умений категории \"Смена облика \"\n+10 к силе воли\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower.",
-					"zhCN": "+10%变形 技能伤害\n+10点意力\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shapeshifting, Damage, Willpower."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Gestaltwandeln\n+10 Willenskraft\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Gestaltwandeln, Schaden, Willenskraft.",
+					"esES": "+10% de daño de habilidades de Cambio de forma\n+10 p. de voluntad\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cambio de forma, Daño, Voluntad.",
+					"esMX": "+10% de daño de habilidad Metamorfosis\n+10 de Voluntad\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Metamorfosis, Daño, Voluntad.",
+					"frFR": "+10% de dégâts de compétence (Métamorphose )\n+10 volonté\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Métamorphose, Dégâts, Volonté.",
+					"itIT": "Danni abilità di Mutaforma: +10%\nVolontà: +10\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Mutaforma, Danni, Volontà.",
+					"jaJP": "スキルダメージ+10% 変身\n意志力+10\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 変身, ダメージ, 意志力.",
+					"koKR": "변신 기술 피해 +10%\n의지력 +10\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 변신, 피해, 의지력.",
+					"plPL": "+10% obrażeń od umiejętności (Zmiennokształtność )\n+10 siły woli\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Zmiennokształtność, Obrażenia, Siła Woli.",
+					"ptBR": "+10% de dano de habilidade Metamorfose\n+10 de Determinação\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Metamorfose, Dano, Determinação.",
+					"ruRU": "+10% к урону от умений категории \"Смена облика \"\n+10 к силе воли\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Смена облика, Урон, Сила воли.",
+					"zhCN": "+10%变形 技能伤害\n+10点意力\n\nBonus: Another +10% Shapeshifting Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 变形, 伤害, 意力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -11688,17 +11688,17 @@ let paragonData = {
 					"zhCN": "大洪水"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden\n+6% Schaden gegen folgende Gegner: Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"esES": "+15% de daño de golpe crítico\n+6% de daño a enemigos con el estado Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"esMX": "+15% de daño de golpe crítico\n+6% de daño a enemigos Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"frFR": "+15% de dégâts critiques\n+6% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"itIT": "Danni critici: +15%\nDanni ai nemici Crowd Controlled: +6%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"jaJP": "クリティカル・ダメージ+15%\nCrowd Controlled の敵へのダメージ+6%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"koKR": "극대화 피해 +15%\nCrowd Controlled 적에게 주는 피해 +6%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"plPL": "+15% obrażeń od trafień krytycznych\n+6% obrażeń zadawanych wrogom typu: Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"ptBR": "+15% de dano de acerto crítico\n+6% de dano contra inimigos Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"ruRU": "+15% к критическому урону\n+6% к урону противникам под действием эффекта \"Crowd Controlled \"\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control.",
-					"zhCN": "+15%暴击伤害\n+6%对Crowd Controlled 敌人的伤害\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Crowd Control."
+					"deDE": "+15% kritischer Trefferschaden\n+6% Schaden gegen folgende Gegner: Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Schaden, Kontrollverlust.",
+					"esES": "+15% de daño de golpe crítico\n+6% de daño a enemigos con el estado Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Control de masas.",
+					"esMX": "+15% de daño de golpe crítico\n+6% de daño a enemigos Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Control de multitudes.",
+					"frFR": "+15% de dégâts critiques\n+6% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Dégâts, Perte de contrôle.",
+					"itIT": "Danni critici: +15%\nDanni ai nemici Crowd Controlled: +6%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Danni, Effetti debilitanti.",
+					"jaJP": "クリティカル・ダメージ+15%\nCrowd Controlled の敵へのダメージ+6%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 致命の一撃, ダメージ, 操作障害効果.",
+					"koKR": "극대화 피해 +15%\nCrowd Controlled 적에게 주는 피해 +6%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 피해, 군중 제어.",
+					"plPL": "+15% obrażeń od trafień krytycznych\n+6% obrażeń zadawanych wrogom typu: Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Obrażenia, Ograniczanie Kontroli.",
+					"ptBR": "+15% de dano de acerto crítico\n+6% de dano contra inimigos Crowd Controlled\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Dano, Controle de Grupo.",
+					"ruRU": "+15% к критическому урону\n+6% к урону противникам под действием эффекта \"Crowd Controlled \"\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Урон, Контроль.",
+					"zhCN": "+15%暴击伤害\n+6%对Crowd Controlled 敌人的伤害\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 伤害, 群控."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11723,17 +11723,17 @@ let paragonData = {
 					"zhCN": "凶猛"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Werwolf\n+6% kritischer Trefferschaden\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"esES": "+10% de daño de habilidades de Hombre lobo\n+6% de daño de golpe crítico\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"esMX": "+10% de daño de habilidad Hombre Lobo\n+6% de daño de golpe crítico\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"frFR": "+10% de dégâts de compétence (Lycanthrope )\n+6% de dégâts critiques\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"itIT": "Danni abilità di Lupo Mannaro: +10%\nDanni critici: +6%\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"jaJP": "スキルダメージ+10% 人狼\nクリティカル・ダメージ+6%\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"koKR": "늑대인간 기술 피해 +10%\n극대화 피해 +6%\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"plPL": "+10% obrażeń od umiejętności (Wilkołak )\n+6% obrażeń od trafień krytycznych\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"ptBR": "+10% de dano de habilidade Lobisomem\n+6% de dano de acerto crítico\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"ruRU": "+10% к урону от умений категории \"Облик волка \"\n+6% к критическому урону\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes.",
-					"zhCN": "+10%狼人 技能伤害\n+6%暴击伤害\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Critical Strikes."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Werwolf\n+6% kritischer Trefferschaden\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werwolf, Schaden, Kritische Treffer.",
+					"esES": "+10% de daño de habilidades de Hombre lobo\n+6% de daño de golpe crítico\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hombre lobo, Daño, Golpes críticos.",
+					"esMX": "+10% de daño de habilidad Hombre Lobo\n+6% de daño de golpe crítico\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hombre Lobo, Daño, Golpes críticos.",
+					"frFR": "+10% de dégâts de compétence (Lycanthrope )\n+6% de dégâts critiques\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lycanthrope, Dégâts, Coups critiques.",
+					"itIT": "Danni abilità di Lupo Mannaro: +10%\nDanni critici: +6%\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lupo Mannaro, Danni, Colpi critici.",
+					"jaJP": "スキルダメージ+10% 人狼\nクリティカル・ダメージ+6%\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 人狼, ダメージ, 致命の一撃.",
+					"koKR": "늑대인간 기술 피해 +10%\n극대화 피해 +6%\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 늑대인간, 피해, 극대화.",
+					"plPL": "+10% obrażeń od umiejętności (Wilkołak )\n+6% obrażeń od trafień krytycznych\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Wilkołak, Obrażenia, Trafienia Krytyczne.",
+					"ptBR": "+10% de dano de habilidade Lobisomem\n+6% de dano de acerto crítico\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lobisomem, Dano, Acertos Críticos.",
+					"ruRU": "+10% к урону от умений категории \"Облик волка \"\n+6% к критическому урону\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Облик волка, Урон, Критические удары.",
+					"zhCN": "+10%狼人 技能伤害\n+6%暴击伤害\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 狼人, 伤害, 暴击."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11758,17 +11758,17 @@ let paragonData = {
 					"zhCN": "野性召唤"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Angriffsgeschwindigkeit\n+6.4 max. Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"esES": "+10% de velocidad de ataque\n+6.4 p. de máximo de Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"esMX": "+10% de velocidad de ataque\n+6.4 de Spirit como máximo\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"frFR": "+10% à la vitesse d'attaque\n+6.4 |2%sSpirit maximum\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"itIT": "Velocità d'attacco +10%\nSpirit max: +6.4\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"jaJP": "攻撃速度+10%\n最大Spirit +6.4\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"koKR": "공격 속도 +10%\n최대 Spirit +6.4\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"plPL": "+10% szybkości ataku\n+6.4 maksimum: Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"ptBR": "+10% de velocidade de ataque\n+6.4 de máximo de Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"ruRU": "+10% к скорости атаки\n+6.4 к максимуму ресурса \"Spirit \"\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit.",
-					"zhCN": "+10%攻击速度\n+6.4最大Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Spirit."
+					"deDE": "+10% Angriffsgeschwindigkeit\n+6.4 max. Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Angriffsgeschwindigkeit, Geisteskraft.",
+					"esES": "+10% de velocidad de ataque\n+6.4 p. de máximo de Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidad de ataque, Espíritu.",
+					"esMX": "+10% de velocidad de ataque\n+6.4 de Spirit como máximo\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidad de ataque, Espíritu.",
+					"frFR": "+10% à la vitesse d'attaque\n+6.4 |2%sSpirit maximum\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Vitesse d'attaque, Esprit.",
+					"itIT": "Velocità d'attacco +10%\nSpirit max: +6.4\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocità d'attacco, Spirito.",
+					"jaJP": "攻撃速度+10%\n最大Spirit +6.4\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 攻撃速度, 精神力.",
+					"koKR": "공격 속도 +10%\n최대 Spirit +6.4\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 공격 속도, 영력.",
+					"plPL": "+10% szybkości ataku\n+6.4 maksimum: Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Szybkość Ataku, Siła Duchowa.",
+					"ptBR": "+10% de velocidade de ataque\n+6.4 de máximo de Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidade de Ataque, Espírito.",
+					"ruRU": "+10% к скорости атаки\n+6.4 к максимуму ресурса \"Spirit \"\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Скорость атаки, Сила духа.",
+					"zhCN": "+10%攻击速度\n+6.4最大Spirit\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 攻击速度, 灵力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11793,17 +11793,17 @@ let paragonData = {
 					"zhCN": "熊性勃发"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Werbär\n+12% Überwältigungsschaden\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"esES": "+10% de daño de habilidades de Hombre oso\n+12% de daño de arrollamiento\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"esMX": "+10% de daño de habilidad Hombre Oso\n+12% de daño abrumador\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"frFR": "+10% de dégâts de compétence (Ursoïde )\n+12% de dégâts d'accablement\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"itIT": "Danni abilità di Orso Mannaro: +10%\nDanni da Sopraffazione: +12%\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"jaJP": "スキルダメージ+10% 人熊\nオーバーパワー・ダメージ+12%\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"koKR": "곰인간 기술 피해 +10%\n제압 피해 +12%\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"plPL": "+10% obrażeń od umiejętności (Niedźwiedziołak )\n+12% obrażeń od przytłoczenia\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"ptBR": "+10% de dano de habilidade Urso\n+12% de dano de Golpe Brutal\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"ruRU": "+10% к урону от умений категории \"Медведь \"\n+12% к подавляющему урону\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower.",
-					"zhCN": "+10%熊人 技能伤害\n+12%压制伤害\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Overpower."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Werbär\n+12% Überwältigungsschaden\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werbär, Schaden, Überwältigen.",
+					"esES": "+10% de daño de habilidades de Hombre oso\n+12% de daño de arrollamiento\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hombre oso, Daño, Arrollamiento.",
+					"esMX": "+10% de daño de habilidad Hombre Oso\n+12% de daño abrumador\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hombre Oso, Daño, Abrumar.",
+					"frFR": "+10% de dégâts de compétence (Ursoïde )\n+12% de dégâts d'accablement\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ursoïde, Dégâts, Accablement.",
+					"itIT": "Danni abilità di Orso Mannaro: +10%\nDanni da Sopraffazione: +12%\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Orso Mannaro, Danni, Sopraffazione.",
+					"jaJP": "スキルダメージ+10% 人熊\nオーバーパワー・ダメージ+12%\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 人熊, ダメージ, オーバーパワー.",
+					"koKR": "곰인간 기술 피해 +10%\n제압 피해 +12%\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 곰인간, 피해, 제압.",
+					"plPL": "+10% obrażeń od umiejętności (Niedźwiedziołak )\n+12% obrażeń od przytłoczenia\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Niedźwiedziołak, Obrażenia, Przytłoczenie.",
+					"ptBR": "+10% de dano de habilidade Urso\n+12% de dano de Golpe Brutal\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Urso, Dano, Golpe Brutal.",
+					"ruRU": "+10% к урону от умений категории \"Медведь \"\n+12% к подавляющему урону\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Медведь, Урон, Подавление.",
+					"zhCN": "+10%熊人 技能伤害\n+12%压制伤害\n\nBonus: Another +10% Werebear Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 熊人, 伤害, 压制."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11828,17 +11828,17 @@ let paragonData = {
 					"zhCN": "征战之皮"
 				},
 				"descriptionLocalized": {
-					"deDE": "+2% gesamte Rüstung in Werbärgestalt\n+10 Willenskraft\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"esES": "+2% de armadura total en forma de hombre oso\n+10 p. de voluntad\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"esMX": "+2% de armadura total mientras estás en forma de hombre oso\n+10 de Voluntad\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"frFR": "+2% d'armure sous forme d'ursoïde\n+10 volonté\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"itIT": "Armatura totale in forma di Orso Mannaro: +2%\nVolontà: +10\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"jaJP": "人熊形態時の合計防御力+2%\n意志力+10\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"koKR": "곰인간 형상일 때 총 방어도 +2%\n의지력 +10\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"plPL": "+2% całkowitego pancerza w postaci niedźwiedziołaka\n+10 siły woli\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"ptBR": "+2% de armadura total na forma de urso\n+10 de Determinação\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"ruRU": "+2% к общей броне в облике медведя\n+10 к силе воли\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower.",
-					"zhCN": "+2%熊人形态时的总护甲\n+10点意力\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Werebear, Willpower."
+					"deDE": "+2% gesamte Rüstung in Werbärgestalt\n+10 Willenskraft\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Rüstung, Werbär, Willenskraft.",
+					"esES": "+2% de armadura total en forma de hombre oso\n+10 p. de voluntad\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Hombre oso, Voluntad.",
+					"esMX": "+2% de armadura total mientras estás en forma de hombre oso\n+10 de Voluntad\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Hombre Oso, Voluntad.",
+					"frFR": "+2% d'armure sous forme d'ursoïde\n+10 volonté\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armure, Ursoïde, Volonté.",
+					"itIT": "Armatura totale in forma di Orso Mannaro: +2%\nVolontà: +10\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armatura, Orso Mannaro, Volontà.",
+					"jaJP": "人熊形態時の合計防御力+2%\n意志力+10\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 装甲, 人熊, 意志力.",
+					"koKR": "곰인간 형상일 때 총 방어도 +2%\n의지력 +10\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 방어도, 곰인간, 의지력.",
+					"plPL": "+2% całkowitego pancerza w postaci niedźwiedziołaka\n+10 siły woli\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Pancerz, Niedźwiedziołak, Siła Woli.",
+					"ptBR": "+2% de armadura total na forma de urso\n+10 de Determinação\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Urso, Determinação.",
+					"ruRU": "+2% к общей броне в облике медведя\n+10 к силе воли\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Броня, Медведь, Сила воли.",
+					"zhCN": "+2%熊人形态时的总护甲\n+10点意力\n\nBonus: Another +2% Total Armor while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 护甲, 熊人, 意力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -11872,17 +11872,17 @@ let paragonData = {
 					"zhCN": "和谐"
 				},
 				"descriptionLocalized": {
-					"deDE": "+14% Schaden für Fertigkeiten der Kategorie Basis\n+10 Willenskraft\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"esES": "+14% de daño de habilidades de Principal\n+10 p. de voluntad\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"esMX": "+14% de daño de habilidad Principal\n+10 de Voluntad\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"frFR": "+14% de dégâts de compétence (Principale )\n+10 volonté\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"itIT": "Danni abilità di Primaria: +14%\nVolontà: +10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"jaJP": "スキルダメージ+14% コア\n意志力+10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"koKR": "핵심 기술 피해 +14%\n의지력 +10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"plPL": "+14% obrażeń od umiejętności (Główne )\n+10 siły woli\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"ptBR": "+14% de dano de habilidade Principal\n+10 de Determinação\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"ruRU": "+14% к урону от умений категории \"Основные \"\n+10 к силе воли\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage.",
-					"zhCN": "+14%核心 技能伤害\n+10点意力\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Willpower, Damage."
+					"deDE": "+14% Schaden für Fertigkeiten der Kategorie Basis\n+10 Willenskraft\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basis, Willenskraft, Schaden.",
+					"esES": "+14% de daño de habilidades de Principal\n+10 p. de voluntad\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Voluntad, Daño.",
+					"esMX": "+14% de daño de habilidad Principal\n+10 de Voluntad\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Voluntad, Daño.",
+					"frFR": "+14% de dégâts de compétence (Principale )\n+10 volonté\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principale, Volonté, Dégâts.",
+					"itIT": "Danni abilità di Primaria: +14%\nVolontà: +10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Primaria, Volontà, Danni.",
+					"jaJP": "スキルダメージ+14% コア\n意志力+10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: コア, 意志力, ダメージ.",
+					"koKR": "핵심 기술 피해 +14%\n의지력 +10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 핵심, 의지력, 피해.",
+					"plPL": "+14% obrażeń od umiejętności (Główne )\n+10 siły woli\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Główne, Siła Woli, Obrażenia.",
+					"ptBR": "+14% de dano de habilidade Principal\n+10 de Determinação\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Determinação, Dano.",
+					"ruRU": "+14% к урону от умений категории \"Основные \"\n+10 к силе воли\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Основные, Сила воли, Урон.",
+					"zhCN": "+14%核心 技能伤害\n+10点意力\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 意力, 伤害."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -12833,17 +12833,17 @@ let paragonData = {
 					"zhCN": "面板连接关口"
 				},
 				"descriptionLocalized": {
-					"deDE": "+5 Stärke\n+5 Intelligenz\n+5 Willenskraft\n+5 Geschicklichkeit\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"esES": "+5 p. de fuerza\n+5 p. de inteligencia\n+5 p. de voluntad\n+5 p. de destreza\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"esMX": "+5 de Fuerza\n+5 de Inteligencia\n+5 de Voluntad\n+5 de Destreza\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"frFR": "+5 force\n+5 intelligence\n+5 volonté\n+5 dextérité\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"itIT": "Forza: +5\nIntelligenza: +5\nVolontà: +5\nDestrezza: +5\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"jaJP": "筋力+5\n知力+5\n意志力+5\n敏捷性+5\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"koKR": "힘 +5\n지능 +5\n의지력 +5\n민첩 +5\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"plPL": "+5 siły\n+5 inteligencji\n+5 siły woli\n+5 zręczności\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"ptBR": "+5 de Força\n+5 de Inteligência\n+5 de Determinação\n+5 de Destreza\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"ruRU": "+5 к силе\n+5 к интеллекту\n+5 к силе воли\n+5 к ловкости\n\nTags: Strength, Intelligence, Willpower, Dexterity.",
-					"zhCN": "+5点力量\n+5点智力\n+5点意力\n+5点敏捷\n\nTags: Strength, Intelligence, Willpower, Dexterity."
+					"deDE": "+5 Stärke\n+5 Intelligenz\n+5 Willenskraft\n+5 Geschicklichkeit\n\nTags: Stärke, Intelligenz, Willenskraft, Geschicklichkeit.",
+					"esES": "+5 p. de fuerza\n+5 p. de inteligencia\n+5 p. de voluntad\n+5 p. de destreza\n\nTags: Fuerza, Inteligencia, Voluntad, Destreza.",
+					"esMX": "+5 de Fuerza\n+5 de Inteligencia\n+5 de Voluntad\n+5 de Destreza\n\nTags: Fuerza, Inteligencia, Voluntad, Destreza.",
+					"frFR": "+5 force\n+5 intelligence\n+5 volonté\n+5 dextérité\n\nTags: Force, Intelligence, Volonté, Dextérité.",
+					"itIT": "Forza: +5\nIntelligenza: +5\nVolontà: +5\nDestrezza: +5\n\nTags: Forza, Intelligenza, Volontà, Destrezza.",
+					"jaJP": "筋力+5\n知力+5\n意志力+5\n敏捷性+5\n\nTags: 筋力, 知力, 意志力, 敏捷性.",
+					"koKR": "힘 +5\n지능 +5\n의지력 +5\n민첩 +5\n\nTags: 힘, 지능, 의지력, 민첩.",
+					"plPL": "+5 siły\n+5 inteligencji\n+5 siły woli\n+5 zręczności\n\nTags: Siła, Inteligencja, Siła Woli, Zręczność.",
+					"ptBR": "+5 de Força\n+5 de Inteligência\n+5 de Determinação\n+5 de Destreza\n\nTags: Força, Inteligência, Determinação, Destreza.",
+					"ruRU": "+5 к силе\n+5 к интеллекту\n+5 к силе воли\n+5 к ловкости\n\nTags: Сила, Интеллект, Сила воли, Ловкость.",
+					"zhCN": "+5点力量\n+5点智力\n+5点意力\n+5点敏捷\n\nTags: 力量, 智力, 意力, 敏捷."
 				}
 			},
 			"Generic_Magic_Armor": {
@@ -12935,17 +12935,17 @@ let paragonData = {
 				"name": "Damage Conjuration",
 				"description": "+7.5% Conjuration Skill Damage\n\nTags: Damage, Conjuration.",
 				"descriptionLocalized": {
-					"deDE": "+7.5% Schaden für Fertigkeiten der Kategorie Beschwörung\n\nTags: Damage, Conjuration.",
-					"esES": "+7.5% de daño de habilidades de Evocación\n\nTags: Damage, Conjuration.",
-					"esMX": "+7.5% de daño de habilidad Conjuración\n\nTags: Damage, Conjuration.",
-					"frFR": "+7.5% de dégâts de compétence (Conjuration )\n\nTags: Damage, Conjuration.",
-					"itIT": "Danni abilità di Invocazione: +7.5%\n\nTags: Damage, Conjuration.",
-					"jaJP": "スキルダメージ+7.5% 召喚\n\nTags: Damage, Conjuration.",
-					"koKR": "구현 기술 피해 +7.5%\n\nTags: Damage, Conjuration.",
-					"plPL": "+7.5% obrażeń od umiejętności (Przyzywanie )\n\nTags: Damage, Conjuration.",
-					"ptBR": "+7.5% de dano de habilidade Conjuração\n\nTags: Damage, Conjuration.",
-					"ruRU": "+7.5% к урону от умений категории \"Колдовство \"\n\nTags: Damage, Conjuration.",
-					"zhCN": "+7.5%召唤魔法 技能伤害\n\nTags: Damage, Conjuration."
+					"deDE": "+7.5% Schaden für Fertigkeiten der Kategorie Beschwörung\n\nTags: Schaden, Beschwörung.",
+					"esES": "+7.5% de daño de habilidades de Evocación\n\nTags: Daño, Evocación.",
+					"esMX": "+7.5% de daño de habilidad Conjuración\n\nTags: Daño, Conjuración.",
+					"frFR": "+7.5% de dégâts de compétence (Conjuration )\n\nTags: Dégâts, Conjuration.",
+					"itIT": "Danni abilità di Invocazione: +7.5%\n\nTags: Danni, Invocazione.",
+					"jaJP": "スキルダメージ+7.5% 召喚\n\nTags: ダメージ, 召喚.",
+					"koKR": "구현 기술 피해 +7.5%\n\nTags: 피해, 구현.",
+					"plPL": "+7.5% obrażeń od umiejętności (Przyzywanie )\n\nTags: Obrażenia, Przyzywanie.",
+					"ptBR": "+7.5% de dano de habilidade Conjuração\n\nTags: Dano, Conjuração.",
+					"ruRU": "+7.5% к урону от умений категории \"Колдовство \"\n\nTags: Урон, Колдовство.",
+					"zhCN": "+7.5%召唤魔法 技能伤害\n\nTags: 伤害, 召唤魔法."
 				}
 			},
 			"Generic_Magic_DamageElemental": {
@@ -13107,17 +13107,17 @@ let paragonData = {
 				"name": "Damage To Stun",
 				"description": "+7.5% Damage to Stunned Enemies\n\nTags: Crowd Control, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+7.5% Schaden gegen folgende Gegner: Stunned\n\nTags: Crowd Control, Damage.",
-					"esES": "+7.5% de daño a enemigos con el estado Stunned\n\nTags: Crowd Control, Damage.",
-					"esMX": "+7.5% de daño a enemigos Stunned\n\nTags: Crowd Control, Damage.",
-					"frFR": "+7.5% de dégâts contre les cibles sous l'effet « Stunned »\n\nTags: Crowd Control, Damage.",
-					"itIT": "Danni ai nemici Stunned: +7.5%\n\nTags: Crowd Control, Damage.",
-					"jaJP": "Stunned の敵へのダメージ+7.5%\n\nTags: Crowd Control, Damage.",
-					"koKR": "Stunned 적에게 주는 피해 +7.5%\n\nTags: Crowd Control, Damage.",
-					"plPL": "+7.5% obrażeń zadawanych wrogom typu: Stunned\n\nTags: Crowd Control, Damage.",
-					"ptBR": "+7.5% de dano contra inimigos Stunned\n\nTags: Crowd Control, Damage.",
-					"ruRU": "+7.5% к урону противникам под действием эффекта \"Stunned \"\n\nTags: Crowd Control, Damage.",
-					"zhCN": "+7.5%对Stunned 敌人的伤害\n\nTags: Crowd Control, Damage."
+					"deDE": "+7.5% Schaden gegen folgende Gegner: Stunned\n\nTags: Kontrollverlust, Schaden.",
+					"esES": "+7.5% de daño a enemigos con el estado Stunned\n\nTags: Control de masas, Daño.",
+					"esMX": "+7.5% de daño a enemigos Stunned\n\nTags: Control de multitudes, Daño.",
+					"frFR": "+7.5% de dégâts contre les cibles sous l'effet « Stunned »\n\nTags: Perte de contrôle, Dégâts.",
+					"itIT": "Danni ai nemici Stunned: +7.5%\n\nTags: Effetti debilitanti, Danni.",
+					"jaJP": "Stunned の敵へのダメージ+7.5%\n\nTags: 操作障害効果, ダメージ.",
+					"koKR": "Stunned 적에게 주는 피해 +7.5%\n\nTags: 군중 제어, 피해.",
+					"plPL": "+7.5% obrażeń zadawanych wrogom typu: Stunned\n\nTags: Ograniczanie Kontroli, Obrażenia.",
+					"ptBR": "+7.5% de dano contra inimigos Stunned\n\nTags: Controle de Grupo, Dano.",
+					"ruRU": "+7.5% к урону противникам под действием эффекта \"Stunned \"\n\nTags: Контроль, Урон.",
+					"zhCN": "+7.5%对Stunned 敌人的伤害\n\nTags: 群控, 伤害."
 				}
 			},
 			"Generic_Magic_DamageToVulnerable": {
@@ -13179,17 +13179,17 @@ let paragonData = {
 				"name": "Lucky Hit Bonus",
 				"description": "+2.5% Lucky Hit Chance\n\nTags: Lucky Hit.",
 				"descriptionLocalized": {
-					"deDE": "+2.5% Glückstrefferchance\n\nTags: Lucky Hit.",
-					"esES": "+2.5% de probabilidad de golpe de suerte\n\nTags: Lucky Hit.",
-					"esMX": "+2.5% de probabilidad de golpe afortunado\n\nTags: Lucky Hit.",
-					"frFR": "+2.5% de chances d'obtenir un Coup de chance\n\nTags: Lucky Hit.",
-					"itIT": "Probabilità di colpo fortunato: +2.5%\n\nTags: Lucky Hit.",
-					"jaJP": "幸運の一撃発生率+2.5%\n\nTags: Lucky Hit.",
-					"koKR": "행운의 적중 확률 +2.5%\n\nTags: Lucky Hit.",
-					"plPL": "+2.5% szansy na szczęśliwy traf\n\nTags: Lucky Hit.",
-					"ptBR": "+2.5% de chance de Golpe de Sorte\n\nTags: Lucky Hit.",
-					"ruRU": "+2.5% к вероятности удачного удара\n\nTags: Lucky Hit.",
-					"zhCN": "+2.5%幸运一击几率\n\nTags: Lucky Hit."
+					"deDE": "+2.5% Glückstrefferchance\n\nTags: Glückstreffer.",
+					"esES": "+2.5% de probabilidad de golpe de suerte\n\nTags: Golpe de suerte.",
+					"esMX": "+2.5% de probabilidad de golpe afortunado\n\nTags: Golpe afortunado.",
+					"frFR": "+2.5% de chances d'obtenir un Coup de chance\n\nTags: Coup de chance.",
+					"itIT": "Probabilità di colpo fortunato: +2.5%\n\nTags: Colpo fortunato.",
+					"jaJP": "幸運の一撃発生率+2.5%\n\nTags: 幸運の一撃.",
+					"koKR": "행운의 적중 확률 +2.5%\n\nTags: 행운의 적중.",
+					"plPL": "+2.5% szansy na szczęśliwy traf\n\nTags: Szczęśliwy Traf.",
+					"ptBR": "+2.5% de chance de Golpe de Sorte\n\nTags: Golpe de Sorte.",
+					"ruRU": "+2.5% к вероятности удачного удара\n\nTags: Удачный удар.",
+					"zhCN": "+2.5%幸运一击几率\n\nTags: 幸运一击."
 				}
 			},
 			"Generic_Magic_Mana": {
@@ -13314,17 +13314,17 @@ let paragonData = {
 					"zhCN": "韧性"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Widerstand gegen alle Schadensarten\n+4% Leben\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"esES": "4% de resistencia a todos los elementos\n+4% de vida\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"esMX": "4% de resistencia a todos los elementos\n+4% de vida\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"frFR": "4% de résistance à tous les éléments\n+4% de points de vie\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"itIT": "Resistenza a tutti gli elementi: 4%\nPunti vita: +4%\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"jaJP": "全属性耐性4%\nライフ+4%\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"koKR": "모든 원소 저항 4%\n생명력 +4%\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"plPL": "4% odporności na wszystkie żywioły\n+4% zdrowia\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"ptBR": "4% de resistência a todos os elementos\n+4% de vida\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"ruRU": "Сопротивление стихиям – 4%\n+4% к здоровью\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical.",
-					"zhCN": "4%全元素抗性\n+4%生命\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Life, Non-Physical."
+					"deDE": "4% Widerstand gegen alle Schadensarten\n+4% Leben\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Leben, Nichtphysisch.",
+					"esES": "4% de resistencia a todos los elementos\n+4% de vida\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Vida, No física.",
+					"esMX": "4% de resistencia a todos los elementos\n+4% de vida\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Vida, No físico.",
+					"frFR": "4% de résistance à tous les éléments\n+4% de points de vie\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Vie, Dégâts non physiques.",
+					"itIT": "Resistenza a tutti gli elementi: 4%\nPunti vita: +4%\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Vita, Non fisico.",
+					"jaJP": "全属性耐性4%\nライフ+4%\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, ライフ, 非物理.",
+					"koKR": "모든 원소 저항 4%\n생명력 +4%\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 생명력, 비물리.",
+					"plPL": "4% odporności na wszystkie żywioły\n+4% zdrowia\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Zdrowie, Niefizyczne.",
+					"ptBR": "4% de resistência a todos os elementos\n+4% de vida\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Vida, Não física.",
+					"ruRU": "Сопротивление стихиям – 4%\n+4% к здоровью\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Здоровье, Нефизический урон.",
+					"zhCN": "4%全元素抗性\n+4%生命\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 生命, 非物理."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13362,17 +13362,17 @@ let paragonData = {
 					"zhCN": "轻盈"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Angriffsgeschwindigkeit\n+4% Schaden\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"esES": "+10% de velocidad de ataque\n+4% de daño\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"esMX": "+10% de velocidad de ataque\n+4% de daño\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"frFR": "+10% à la vitesse d'attaque\n+4% de dégâts\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"itIT": "Velocità d'attacco +10%\nDanni: +4%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"jaJP": "攻撃速度+10%\nダメージ +4%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"koKR": "공격 속도 +10%\n공격력 +4%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"plPL": "+10% szybkości ataku\n+4% obrażeń\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"ptBR": "+10% de velocidade de ataque\n+4% de dano\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"ruRU": "+10% к скорости атаки\n+4% к урону\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage.",
-					"zhCN": "+10%攻击速度\n+4%伤害\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage."
+					"deDE": "+10% Angriffsgeschwindigkeit\n+4% Schaden\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Angriffsgeschwindigkeit, Schaden.",
+					"esES": "+10% de velocidad de ataque\n+4% de daño\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidad de ataque, Daño.",
+					"esMX": "+10% de velocidad de ataque\n+4% de daño\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidad de ataque, Daño.",
+					"frFR": "+10% à la vitesse d'attaque\n+4% de dégâts\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Vitesse d'attaque, Dégâts.",
+					"itIT": "Velocità d'attacco +10%\nDanni: +4%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocità d'attacco, Danni.",
+					"jaJP": "攻撃速度+10%\nダメージ +4%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 攻撃速度, ダメージ.",
+					"koKR": "공격 속도 +10%\n공격력 +4%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 공격 속도, 피해.",
+					"plPL": "+10% szybkości ataku\n+4% obrażeń\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Szybkość Ataku, Obrażenia.",
+					"ptBR": "+10% de velocidade de ataque\n+4% de dano\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidade de Ataque, Dano.",
+					"ruRU": "+10% к скорости атаки\n+4% к урону\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Скорость атаки, Урон.",
+					"zhCN": "+10%攻击速度\n+4%伤害\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 攻击速度, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13409,17 +13409,17 @@ let paragonData = {
 					"zhCN": "飞驰"
 				},
 				"descriptionLocalized": {
-					"deDE": "8% Verringerung der Dauer von Kontrollverlusteffekten\n6.7% Reduktion von erlittenem Schaden über Zeit des Typs\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"esES": "8% de reducción de duración de pérdida de control\n6.7% de reducción de daño de sufrido en el tiempo\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"esMX": "8% de reducción de la duración de pérdida de control\n6.7% de reducción de daño de recibido con el tiempo\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"frFR": "8% de réduction de la durée des effets de perte le contrôle\n6.7% de réduction des dégâts () subis sur la durée\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"itIT": "Riduzione durata effetti di controllo delle creature: 8%\nRiduzione danni da periodici subiti: 6.7%\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"jaJP": "操作不能持続時間減少8%\nの継続ダメージの減少率6.7%\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"koKR": "제어 방해 지속시간 감소 8%\n지속 피해 감소 6.7%\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"plPL": "8% redukcji trwania ograniczenia kontroli\n6.7% redukcji obrażeń z upływem czasu:\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"ptBR": "8% de redução de duração de efeitos de controle\n6.7% de redução de dano recebido ao longo do tempo\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"ruRU": "Снижение длительности эффектов контроля на 8%\n-6.7% к урону от эффектов с периодическим уроном ()\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction.",
-					"zhCN": "8%控制受限时间缩短\n6.7%受到的持续伤害减免\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction."
+					"deDE": "8% Verringerung der Dauer von Kontrollverlusteffekten\n6.7% Reduktion von erlittenem Schaden über Zeit des Typs\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Kontrollverlust, Schadensreduktion.",
+					"esES": "8% de reducción de duración de pérdida de control\n6.7% de reducción de daño de sufrido en el tiempo\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Control de masas, Reducción de daño.",
+					"esMX": "8% de reducción de la duración de pérdida de control\n6.7% de reducción de daño de recibido con el tiempo\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Control de multitudes, Reducción de daño.",
+					"frFR": "8% de réduction de la durée des effets de perte le contrôle\n6.7% de réduction des dégâts () subis sur la durée\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Perte de contrôle, Réduction des dégâts.",
+					"itIT": "Riduzione durata effetti di controllo delle creature: 8%\nRiduzione danni da periodici subiti: 6.7%\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Effetti debilitanti, Riduzione danni.",
+					"jaJP": "操作不能持続時間減少8%\nの継続ダメージの減少率6.7%\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 操作障害効果, ダメージ減少.",
+					"koKR": "제어 방해 지속시간 감소 8%\n지속 피해 감소 6.7%\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 군중 제어, 피해 감소.",
+					"plPL": "8% redukcji trwania ograniczenia kontroli\n6.7% redukcji obrażeń z upływem czasu:\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Ograniczanie Kontroli, Redukcja Obrażeń.",
+					"ptBR": "8% de redução de duração de efeitos de controle\n6.7% de redução de dano recebido ao longo do tempo\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Controle de Grupo, Redução de Dano.",
+					"ruRU": "Снижение длительности эффектов контроля на 8%\n-6.7% к урону от эффектов с периодическим уроном ()\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Контроль, Уменьшение урона.",
+					"zhCN": "8%控制受限时间缩短\n6.7%受到的持续伤害减免\n\nBonus: Another 8% Control Impaired Duration Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 群控, 伤害减免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13457,17 +13457,17 @@ let paragonData = {
 					"zhCN": "集中"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Schaden gegen Elitegegner\n+10 Geschicklichkeit\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"esES": "+16.7% de daño contra enemigos de élite\n+10 p. de destreza\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"esMX": "+16.7% de daño a enemigos de Élite\n+10 de Destreza\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"frFR": "+16.7% de dégâts aux élites\n+10 dextérité\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"itIT": "Danni a élite: +16.7%\nDestrezza: +10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"jaJP": "エリートへのダメージ+16.7%\n敏捷性+10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"koKR": "정예에게 주는 피해 +16.7%\n민첩 +10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"plPL": "+16.7% obrażeń zadawanych elitarnym wrogom\n+10 zręczności\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"ptBR": "+16.7% de dano contra elites\n+10 de Destreza\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"ruRU": "+16.7% к урону особым противникам\n+10 к ловкости\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity.",
-					"zhCN": "+16.7%对精英的伤害\n+10点敏捷\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Dexterity."
+					"deDE": "+16.7% Schaden gegen Elitegegner\n+10 Geschicklichkeit\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elitemonster, Schaden, Geschicklichkeit.",
+					"esES": "+16.7% de daño contra enemigos de élite\n+10 p. de destreza\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Enemigos de élite, Daño, Destreza.",
+					"esMX": "+16.7% de daño a enemigos de Élite\n+10 de Destreza\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstruos de Élite, Daño, Destreza.",
+					"frFR": "+16.7% de dégâts aux élites\n+10 dextérité\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstres élites, Dégâts, Dextérité.",
+					"itIT": "Danni a élite: +16.7%\nDestrezza: +10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Mostri élite, Danni, Destrezza.",
+					"jaJP": "エリートへのダメージ+16.7%\n敏捷性+10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: エリート・モンスター, ダメージ, 敏捷性.",
+					"koKR": "정예에게 주는 피해 +16.7%\n민첩 +10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 정예 괴물, 피해, 민첩.",
+					"plPL": "+16.7% obrażeń zadawanych elitarnym wrogom\n+10 zręczności\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elitarne Potwory, Obrażenia, Zręczność.",
+					"ptBR": "+16.7% de dano contra elites\n+10 de Destreza\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstros de Elite, Dano, Destreza.",
+					"ruRU": "+16.7% к урону особым противникам\n+10 к ловкости\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Особые монстры, Урон, Ловкость.",
+					"zhCN": "+16.7%对精英的伤害\n+10点敏捷\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 伤害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -13495,17 +13495,17 @@ let paragonData = {
 					"zhCN": "压制"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Crowd Controlled\n+6% kritischer Trefferschaden bei Gegnern, die unter Kontrollverlust leiden\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"esES": "+15% de daño a enemigos con el estado Crowd Controlled\n+6% de daño de golpe crítico a enemigos afectados por control de masas\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"esMX": "+15% de daño a enemigos Crowd Controlled\n+6% de daño de golpe crítico a enemigos bajo los efectos de control de multitudes\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n+6% de dégâts critiques contre les cibles subissant un effet de perte de contrôle\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"itIT": "Danni ai nemici Crowd Controlled: +15%\nDanni critici ai nemici sotto effetti debilitanti: +6%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"jaJP": "Crowd Controlled の敵へのダメージ+15%\n操作障害状態の敵への致命の一撃のダメージ+6%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"koKR": "Crowd Controlled 적에게 주는 피해 +15%\n군중 제어 효과의 영향을 받는 적에게 주는 극대화 피해 +6%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Crowd Controlled\n+6% obrażeń od trafień krytycznych zadawanych wrogom z ograniczoną kontrolą\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+6% de dano de acerto crítico contra inimigos sob controle de grupo\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+6% к критическому урону противникам под действием эффектов контроля\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage.",
-					"zhCN": "+15%对Crowd Controlled 敌人的伤害\n+6%对被群控敌人的暴击伤害\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Critical Strikes, Damage."
+					"deDE": "+15% Schaden gegen folgende Gegner: Crowd Controlled\n+6% kritischer Trefferschaden bei Gegnern, die unter Kontrollverlust leiden\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Kontrollverlust, Kritische Treffer, Schaden.",
+					"esES": "+15% de daño a enemigos con el estado Crowd Controlled\n+6% de daño de golpe crítico a enemigos afectados por control de masas\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de masas, Golpes críticos, Daño.",
+					"esMX": "+15% de daño a enemigos Crowd Controlled\n+6% de daño de golpe crítico a enemigos bajo los efectos de control de multitudes\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de multitudes, Golpes críticos, Daño.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n+6% de dégâts critiques contre les cibles subissant un effet de perte de contrôle\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Perte de contrôle, Coups critiques, Dégâts.",
+					"itIT": "Danni ai nemici Crowd Controlled: +15%\nDanni critici ai nemici sotto effetti debilitanti: +6%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Effetti debilitanti, Colpi critici, Danni.",
+					"jaJP": "Crowd Controlled の敵へのダメージ+15%\n操作障害状態の敵への致命の一撃のダメージ+6%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 操作障害効果, 致命の一撃, ダメージ.",
+					"koKR": "Crowd Controlled 적에게 주는 피해 +15%\n군중 제어 효과의 영향을 받는 적에게 주는 극대화 피해 +6%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 군중 제어, 극대화, 피해.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Crowd Controlled\n+6% obrażeń od trafień krytycznych zadawanych wrogom z ograniczoną kontrolą\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ograniczanie Kontroli, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+6% de dano de acerto crítico contra inimigos sob controle de grupo\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Controle de Grupo, Acertos Críticos, Dano.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+6% к критическому урону противникам под действием эффектов контроля\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Контроль, Критические удары, Урон.",
+					"zhCN": "+15%对Crowd Controlled 敌人的伤害\n+6%对被群控敌人的暴击伤害\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 群控, 暴击, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13542,17 +13542,17 @@ let paragonData = {
 					"zhCN": "矛尖"
 				},
 				"descriptionLocalized": {
-					"deDE": "+25% Schaden gegen gesunde Gegner\n+100 Rüstung\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"esES": "+25% de daño a enemigos saludables\n+100 p. de armadura\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"esMX": "+25% de daño a enemigos saludables\n+100 de armadura\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"frFR": "+25% de dégâts contre les cibles en bonne santé\n+100 à l'armure\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"itIT": "Danni ai nemici in salute: +25%\nArmatura: +100\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"jaJP": "健全状態の敵へのダメージ+25%\nアーマー+100\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"koKR": "건강 상태의 적에게 주는 피해 +25%\n방어도 +100\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"plPL": "+25% obrażeń zadawanych zdrowym wrogom\n+100 pancerza\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"ptBR": "+25% de dano contra inimigos saudáveis\n+100 de armadura\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"ruRU": "+25% к урону противникам с высоким уровнем здоровья\n+100 ед. брони\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage.",
-					"zhCN": "+25%对健康敌人的伤害\n+100 护甲值\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Armor, Damage."
+					"deDE": "+25% Schaden gegen gesunde Gegner\n+100 Rüstung\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gesund, Rüstung, Schaden.",
+					"esES": "+25% de daño a enemigos saludables\n+100 p. de armadura\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Saludable, Armadura, Daño.",
+					"esMX": "+25% de daño a enemigos saludables\n+100 de armadura\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Saludable, Armadura, Daño.",
+					"frFR": "+25% de dégâts contre les cibles en bonne santé\n+100 à l'armure\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: En bonne santé, Armure, Dégâts.",
+					"itIT": "Danni ai nemici in salute: +25%\nArmatura: +100\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: In salute, Armatura, Danni.",
+					"jaJP": "健全状態の敵へのダメージ+25%\nアーマー+100\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 健全, 装甲, ダメージ.",
+					"koKR": "건강 상태의 적에게 주는 피해 +25%\n방어도 +100\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 건강, 방어도, 피해.",
+					"plPL": "+25% obrażeń zadawanych zdrowym wrogom\n+100 pancerza\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Pełnia Sił, Pancerz, Obrażenia.",
+					"ptBR": "+25% de dano contra inimigos saudáveis\n+100 de armadura\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Saudável, Armadura, Dano.",
+					"ruRU": "+25% к урону противникам с высоким уровнем здоровья\n+100 ед. брони\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Высокое здоровье, Броня, Урон.",
+					"zhCN": "+25%对健康敌人的伤害\n+100 护甲值\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 健康, 护甲, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13589,17 +13589,17 @@ let paragonData = {
 					"zhCN": "寒冷抵御"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Cold\n+4% Leben\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"esES": "12% de resistencia a Cold\n+4% de vida\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"esMX": "12% de resistencia a Cold\n+4% de vida\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"frFR": "12% de résistance (Cold )\n+4% de points de vie\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"itIT": "Resistenza Cold: 12%\nPunti vita: +4%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"jaJP": "Cold 耐性12%\nライフ+4%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"koKR": "Cold 저항 12%\n생명력 +4%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"plPL": "12% odporności na Cold\n+4% zdrowia\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"ptBR": "12% de resistência a Cold\n+4% de vida\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"ruRU": "Сопротивление типу урона \"Cold \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life.",
-					"zhCN": "12%Cold 抗性\n+4%生命\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Life."
+					"deDE": "12% Widerstand gegen: Cold\n+4% Leben\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Kälte, Leben.",
+					"esES": "12% de resistencia a Cold\n+4% de vida\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Frío, Vida.",
+					"esMX": "12% de resistencia a Cold\n+4% de vida\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Frío, Vida.",
+					"frFR": "12% de résistance (Cold )\n+4% de points de vie\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Froid, Vie.",
+					"itIT": "Resistenza Cold: 12%\nPunti vita: +4%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Freddo, Vita.",
+					"jaJP": "Cold 耐性12%\nライフ+4%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 冷気, ライフ.",
+					"koKR": "Cold 저항 12%\n생명력 +4%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 냉기, 생명력.",
+					"plPL": "12% odporności na Cold\n+4% zdrowia\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Zimno, Zdrowie.",
+					"ptBR": "12% de resistência a Cold\n+4% de vida\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Gelo, Vida.",
+					"ruRU": "Сопротивление типу урона \"Cold \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Холод, Здоровье.",
+					"zhCN": "12%Cold 抗性\n+4%生命\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰霜, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13636,17 +13636,17 @@ let paragonData = {
 					"zhCN": "浩劫"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden\n+4% Schaden des Typs Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"esES": "+15% de daño de golpe crítico\n+4% de daño de Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"esMX": "+15% de daño de golpe crítico\n+4% de daño de Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"frFR": "+15% de dégâts critiques\n+4% de dégâts de Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"itIT": "Danni critici: +15%\nDanni da Physical: +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"jaJP": "クリティカル・ダメージ+15%\nPhysical ダメージ+4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"koKR": "극대화 피해 +15%\nPhysical 피해 +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"plPL": "+15% obrażeń od trafień krytycznych\n+4% obrażeń typu: Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"ptBR": "+15% de dano de acerto crítico\n+4% de dano de Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"ruRU": "+15% к критическому урону\n+4% к урону (Physical )\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage.",
-					"zhCN": "+15%暴击伤害\n+4%Physical 伤害\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Physical, Damage."
+					"deDE": "+15% kritischer Trefferschaden\n+4% Schaden des Typs Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Physisch, Schaden.",
+					"esES": "+15% de daño de golpe crítico\n+4% de daño de Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Físico, Daño.",
+					"esMX": "+15% de daño de golpe crítico\n+4% de daño de Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Físico, Daño.",
+					"frFR": "+15% de dégâts critiques\n+4% de dégâts de Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Dégâts physiques, Dégâts.",
+					"itIT": "Danni critici: +15%\nDanni da Physical: +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Fisico, Danni.",
+					"jaJP": "クリティカル・ダメージ+15%\nPhysical ダメージ+4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 致命の一撃, 物理, ダメージ.",
+					"koKR": "극대화 피해 +15%\nPhysical 피해 +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 물리, 피해.",
+					"plPL": "+15% obrażeń od trafień krytycznych\n+4% obrażeń typu: Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Fizyczne, Obrażenia.",
+					"ptBR": "+15% de dano de acerto crítico\n+4% de dano de Physical\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Física, Dano.",
+					"ruRU": "+15% к критическому урону\n+4% к урону (Physical )\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Физический урон, Урон.",
+					"zhCN": "+15%暴击伤害\n+4%Physical 伤害\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 物理, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13684,17 +13684,17 @@ let paragonData = {
 					"zhCN": "破坏"
 				},
 				"descriptionLocalized": {
-					"deDE": "+25% Schaden gegen gesunde Gegner\n+6% kritischer Trefferschaden\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"esES": "+25% de daño a enemigos saludables\n+6% de daño de golpe crítico\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"esMX": "+25% de daño a enemigos saludables\n+6% de daño de golpe crítico\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"frFR": "+25% de dégâts contre les cibles en bonne santé\n+6% de dégâts critiques\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"itIT": "Danni ai nemici in salute: +25%\nDanni critici: +6%\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"jaJP": "健全状態の敵へのダメージ+25%\nクリティカル・ダメージ+6%\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"koKR": "건강 상태의 적에게 주는 피해 +25%\n극대화 피해 +6%\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"plPL": "+25% obrażeń zadawanych zdrowym wrogom\n+6% obrażeń od trafień krytycznych\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"ptBR": "+25% de dano contra inimigos saudáveis\n+6% de dano de acerto crítico\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"ruRU": "+25% к урону противникам с высоким уровнем здоровья\n+6% к критическому урону\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage.",
-					"zhCN": "+25%对健康敌人的伤害\n+6%暴击伤害\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Healthy, Damage."
+					"deDE": "+25% Schaden gegen gesunde Gegner\n+6% kritischer Trefferschaden\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Gesund, Schaden.",
+					"esES": "+25% de daño a enemigos saludables\n+6% de daño de golpe crítico\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Saludable, Daño.",
+					"esMX": "+25% de daño a enemigos saludables\n+6% de daño de golpe crítico\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Saludable, Daño.",
+					"frFR": "+25% de dégâts contre les cibles en bonne santé\n+6% de dégâts critiques\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, En bonne santé, Dégâts.",
+					"itIT": "Danni ai nemici in salute: +25%\nDanni critici: +6%\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, In salute, Danni.",
+					"jaJP": "健全状態の敵へのダメージ+25%\nクリティカル・ダメージ+6%\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 致命の一撃, 健全, ダメージ.",
+					"koKR": "건강 상태의 적에게 주는 피해 +25%\n극대화 피해 +6%\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 건강, 피해.",
+					"plPL": "+25% obrażeń zadawanych zdrowym wrogom\n+6% obrażeń od trafień krytycznych\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Pełnia Sił, Obrażenia.",
+					"ptBR": "+25% de dano contra inimigos saudáveis\n+6% de dano de acerto crítico\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Saudável, Dano.",
+					"ruRU": "+25% к урону противникам с высоким уровнем здоровья\n+6% к критическому урону\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Высокое здоровье, Урон.",
+					"zhCN": "+25%对健康敌人的伤害\n+6%暴击伤害\n\nBonus: Another +25% Damage to Healthy Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 健康, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13732,17 +13732,17 @@ let paragonData = {
 					"zhCN": "扼杀"
 				},
 				"descriptionLocalized": {
-					"deDE": "+25% Schaden gegen verletzte Gegner\n+6% kritischer Trefferschaden\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"esES": "+25% de daño a enemigos heridos\n+6% de daño de golpe crítico\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"esMX": "+25% de daño a enemigos heridos\n+6% de daño de golpe crítico\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"frFR": "+25% de dégâts contre les cibles blessées\n+6% de dégâts critiques\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"itIT": "Danni ai nemici feriti: +25%\nDanni critici: +6%\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"jaJP": "負傷した敵へのダメージ+25%\nクリティカル・ダメージ+6%\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"koKR": "부상당한 적에게 주는 피해 +25%\n극대화 피해 +6%\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"plPL": "+25% obrażeń zadawanych rannym wrogom\n+6% obrażeń od trafień krytycznych\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"ptBR": "+25% de dano contra inimigos feridos\n+6% de dano de acerto crítico\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"ruRU": "+25% к урону раненым противникам\n+6% к критическому урону\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage.",
-					"zhCN": "+25%对受伤敌人的伤害\n+6%暴击伤害\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Critical Strikes, Damage."
+					"deDE": "+25% Schaden gegen verletzte Gegner\n+6% kritischer Trefferschaden\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verletzt, Kritische Treffer, Schaden.",
+					"esES": "+25% de daño a enemigos heridos\n+6% de daño de golpe crítico\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Herido, Golpes críticos, Daño.",
+					"esMX": "+25% de daño a enemigos heridos\n+6% de daño de golpe crítico\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Herido, Golpes críticos, Daño.",
+					"frFR": "+25% de dégâts contre les cibles blessées\n+6% de dégâts critiques\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blessure, Coups critiques, Dégâts.",
+					"itIT": "Danni ai nemici feriti: +25%\nDanni critici: +6%\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ferita, Colpi critici, Danni.",
+					"jaJP": "負傷した敵へのダメージ+25%\nクリティカル・ダメージ+6%\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 負傷, 致命の一撃, ダメージ.",
+					"koKR": "부상당한 적에게 주는 피해 +25%\n극대화 피해 +6%\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 부상, 극대화, 피해.",
+					"plPL": "+25% obrażeń zadawanych rannym wrogom\n+6% obrażeń od trafień krytycznych\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Okaleczenie, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+25% de dano contra inimigos feridos\n+6% de dano de acerto crítico\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ferido, Acertos Críticos, Dano.",
+					"ruRU": "+25% к урону раненым противникам\n+6% к критическому урону\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ранение, Критические удары, Урон.",
+					"zhCN": "+25%对受伤敌人的伤害\n+6%暴击伤害\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 受伤, 暴击, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13776,17 +13776,17 @@ let paragonData = {
 					"zhCN": "阴险"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Crowd Controlled\n+10 Geschicklichkeit\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"esES": "+15% de daño a enemigos con el estado Crowd Controlled\n+10 p. de destreza\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"esMX": "+15% de daño a enemigos Crowd Controlled\n+10 de Destreza\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n+10 dextérité\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"itIT": "Danni ai nemici Crowd Controlled: +15%\nDestrezza: +10\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"jaJP": "Crowd Controlled の敵へのダメージ+15%\n敏捷性+10\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"koKR": "Crowd Controlled 적에게 주는 피해 +15%\n민첩 +10\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Crowd Controlled\n+10 zręczności\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+10 de Destreza\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+10 к ловкости\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity.",
-					"zhCN": "+15%对Crowd Controlled 敌人的伤害\n+10点敏捷\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Dexterity."
+					"deDE": "+15% Schaden gegen folgende Gegner: Crowd Controlled\n+10 Geschicklichkeit\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Kontrollverlust, Schaden, Geschicklichkeit.",
+					"esES": "+15% de daño a enemigos con el estado Crowd Controlled\n+10 p. de destreza\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de masas, Daño, Destreza.",
+					"esMX": "+15% de daño a enemigos Crowd Controlled\n+10 de Destreza\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de multitudes, Daño, Destreza.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n+10 dextérité\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Perte de contrôle, Dégâts, Dextérité.",
+					"itIT": "Danni ai nemici Crowd Controlled: +15%\nDestrezza: +10\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Effetti debilitanti, Danni, Destrezza.",
+					"jaJP": "Crowd Controlled の敵へのダメージ+15%\n敏捷性+10\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 操作障害効果, ダメージ, 敏捷性.",
+					"koKR": "Crowd Controlled 적에게 주는 피해 +15%\n민첩 +10\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 군중 제어, 피해, 민첩.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Crowd Controlled\n+10 zręczności\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ograniczanie Kontroli, Obrażenia, Zręczność.",
+					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+10 de Destreza\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Controle de Grupo, Dano, Destreza.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+10 к ловкости\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Контроль, Урон, Ловкость.",
+					"zhCN": "+15%对Crowd Controlled 敌人的伤害\n+10点敏捷\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 群控, 伤害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -13814,17 +13814,17 @@ let paragonData = {
 					"zhCN": "佯攻"
 				},
 				"descriptionLocalized": {
-					"deDE": "{#} Sek. lang +10% Schaden nach Ausweichen eines Angriffs\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"esES": "+10% de daño durante {#} s tras esquivar un ataque\n+10 p. de destreza\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"esMX": "+10% de daño durante {#} segundos después de esquivar un ataque\n+10 de Destreza\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"frFR": "+10% de dégâts pendant {#} s après avoir esquivé une attaque\n+10 dextérité\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"itIT": "Danni per {#} s dopo la schivata di un attacco: +10%\nDestrezza: +10\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"jaJP": "攻撃を回避した後{#} 秒間、ダメージ+10%\n敏捷性+10\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"koKR": "공격 회피 후 {#} 초 동안 공격력 +10%\n민첩 +10\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"plPL": "+10% obrażeń przez {#} sek. po uniknięciu ataku\n+10 zręczności\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"ptBR": "+10% de dano por {#} segundos depois de se esquivar de um ataque\n+10 de Destreza\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"ruRU": "+10% к урону на {#} сек. после удачного уклонения\n+10 к ловкости\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity.",
-					"zhCN": "+10%躲闪攻击后{#} 秒内获得的伤害加成\n+10点敏捷\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Dodge, Damage, Dexterity."
+					"deDE": "{#} Sek. lang +10% Schaden nach Ausweichen eines Angriffs\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Ausweichen, Schaden, Geschicklichkeit.",
+					"esES": "+10% de daño durante {#} s tras esquivar un ataque\n+10 p. de destreza\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Esquivar, Daño, Destreza.",
+					"esMX": "+10% de daño durante {#} segundos después de esquivar un ataque\n+10 de Destreza\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Evasión, Daño, Destreza.",
+					"frFR": "+10% de dégâts pendant {#} s après avoir esquivé une attaque\n+10 dextérité\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Esquive, Dégâts, Dextérité.",
+					"itIT": "Danni per {#} s dopo la schivata di un attacco: +10%\nDestrezza: +10\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Schivata, Danni, Destrezza.",
+					"jaJP": "攻撃を回避した後{#} 秒間、ダメージ+10%\n敏捷性+10\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: 回避, ダメージ, 敏捷性.",
+					"koKR": "공격 회피 후 {#} 초 동안 공격력 +10%\n민첩 +10\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: 회피, 피해, 민첩.",
+					"plPL": "+10% obrażeń przez {#} sek. po uniknięciu ataku\n+10 zręczności\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Unik, Obrażenia, Zręczność.",
+					"ptBR": "+10% de dano por {#} segundos depois de se esquivar de um ataque\n+10 de Destreza\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Esquiva, Dano, Destreza.",
+					"ruRU": "+10% к урону на {#} сек. после удачного уклонения\n+10 к ловкости\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Уклонение, Урон, Ловкость.",
+					"zhCN": "+10%躲闪攻击后{#} 秒内获得的伤害加成\n+10点敏捷\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: 躲闪, 伤害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -13852,17 +13852,17 @@ let paragonData = {
 					"zhCN": "护卫"
 				},
 				"descriptionLocalized": {
-					"deDE": "6.7% Reduktion von Schaden durch Elitegegner\n+100 Rüstung\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"esES": "6.7% de reducción de daño contra enemigos de élite\n+100 p. de armadura\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"esMX": "6.7% de reducción de daño de enemigos de Élite\n+100 de armadura\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"frFR": "6.7% de réduction des dégâts infligés par les élites\n+100 à l'armure\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"itIT": "Riduzione danni subiti dagli élite: 6.7%\nArmatura: +100\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"jaJP": "エリートからのダメージ減少率6.7%\nアーマー+100\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"koKR": "정예에게 받는 피해 감소 6.7%\n방어도 +100\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"plPL": "6.7% redukcji obrażeń od elitarnych wrogów\n+100 pancerza\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"ptBR": "6.7% de redução de dano recebido de elites\n+100 de armadura\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"ruRU": "-6.7% к урону от особых противников\n+100 ед. брони\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor.",
-					"zhCN": "6.7%精英怪伤害减免\n+100 护甲值\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage Reduction, Armor."
+					"deDE": "6.7% Reduktion von Schaden durch Elitegegner\n+100 Rüstung\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elitemonster, Schadensreduktion, Rüstung.",
+					"esES": "6.7% de reducción de daño contra enemigos de élite\n+100 p. de armadura\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Enemigos de élite, Reducción de daño, Armadura.",
+					"esMX": "6.7% de reducción de daño de enemigos de Élite\n+100 de armadura\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstruos de Élite, Reducción de daño, Armadura.",
+					"frFR": "6.7% de réduction des dégâts infligés par les élites\n+100 à l'armure\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstres élites, Réduction des dégâts, Armure.",
+					"itIT": "Riduzione danni subiti dagli élite: 6.7%\nArmatura: +100\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Mostri élite, Riduzione danni, Armatura.",
+					"jaJP": "エリートからのダメージ減少率6.7%\nアーマー+100\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: エリート・モンスター, ダメージ減少, 装甲.",
+					"koKR": "정예에게 받는 피해 감소 6.7%\n방어도 +100\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: 정예 괴물, 피해 감소, 방어도.",
+					"plPL": "6.7% redukcji obrażeń od elitarnych wrogów\n+100 pancerza\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elitarne Potwory, Redukcja Obrażeń, Pancerz.",
+					"ptBR": "6.7% de redução de dano recebido de elites\n+100 de armadura\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstros de Elite, Redução de Dano, Armadura.",
+					"ruRU": "-6.7% к урону от особых противников\n+100 ед. брони\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: Особые монстры, Уменьшение урона, Броня.",
+					"zhCN": "6.7%精英怪伤害减免\n+100 护甲值\n\nBonus: Another 6.7% Damage Reduction from Elites if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 伤害减免, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13899,17 +13899,17 @@ let paragonData = {
 					"zhCN": "韧性十足"
 				},
 				"descriptionLocalized": {
-					"deDE": "6.7% Reduktion von erlittenem Schaden über Zeit des Typs\n4% Widerstand gegen alle Schadensarten\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"esES": "6.7% de reducción de daño de sufrido en el tiempo\n4% de resistencia a todos los elementos\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"esMX": "6.7% de reducción de daño de recibido con el tiempo\n4% de resistencia a todos los elementos\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"frFR": "6.7% de réduction des dégâts () subis sur la durée\n4% de résistance à tous les éléments\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"itIT": "Riduzione danni da periodici subiti: 6.7%\nResistenza a tutti gli elementi: 4%\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"jaJP": "の継続ダメージの減少率6.7%\n全属性耐性4%\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"koKR": "지속 피해 감소 6.7%\n모든 원소 저항 4%\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"plPL": "6.7% redukcji obrażeń z upływem czasu:\n4% odporności na wszystkie żywioły\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"ptBR": "6.7% de redução de dano recebido ao longo do tempo\n4% de resistência a todos os elementos\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"ruRU": "-6.7% к урону от эффектов с периодическим уроном ()\nСопротивление стихиям – 4%\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction.",
-					"zhCN": "6.7%受到的持续伤害减免\n4%全元素抗性\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Non-Physical, Damage Reduction."
+					"deDE": "6.7% Reduktion von erlittenem Schaden über Zeit des Typs\n4% Widerstand gegen alle Schadensarten\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Nichtphysisch, Schadensreduktion.",
+					"esES": "6.7% de reducción de daño de sufrido en el tiempo\n4% de resistencia a todos los elementos\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, No física, Reducción de daño.",
+					"esMX": "6.7% de reducción de daño de recibido con el tiempo\n4% de resistencia a todos los elementos\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, No físico, Reducción de daño.",
+					"frFR": "6.7% de réduction des dégâts () subis sur la durée\n4% de résistance à tous les éléments\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Dégâts non physiques, Réduction des dégâts.",
+					"itIT": "Riduzione danni da periodici subiti: 6.7%\nResistenza a tutti gli elementi: 4%\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Non fisico, Riduzione danni.",
+					"jaJP": "の継続ダメージの減少率6.7%\n全属性耐性4%\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 非物理, ダメージ減少.",
+					"koKR": "지속 피해 감소 6.7%\n모든 원소 저항 4%\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 비물리, 피해 감소.",
+					"plPL": "6.7% redukcji obrażeń z upływem czasu:\n4% odporności na wszystkie żywioły\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Niefizyczne, Redukcja Obrażeń.",
+					"ptBR": "6.7% de redução de dano recebido ao longo do tempo\n4% de resistência a todos os elementos\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Não física, Redução de Dano.",
+					"ruRU": "-6.7% к урону от эффектов с периодическим уроном ()\nСопротивление стихиям – 4%\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Нефизический урон, Уменьшение урона.",
+					"zhCN": "6.7%受到的持续伤害减免\n4%全元素抗性\n\nBonus: Another 6.7% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 非物理, 伤害减免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13947,17 +13947,17 @@ let paragonData = {
 					"zhCN": "心思缜密"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Crowd Controlled\n+100 Rüstung\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"esES": "+15% de daño a enemigos con el estado Crowd Controlled\n+100 p. de armadura\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"esMX": "+15% de daño a enemigos Crowd Controlled\n+100 de armadura\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n+100 à l'armure\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"itIT": "Danni ai nemici Crowd Controlled: +15%\nArmatura: +100\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"jaJP": "Crowd Controlled の敵へのダメージ+15%\nアーマー+100\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"koKR": "Crowd Controlled 적에게 주는 피해 +15%\n방어도 +100\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Crowd Controlled\n+100 pancerza\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+100 de armadura\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+100 ед. брони\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor.",
-					"zhCN": "+15%对Crowd Controlled 敌人的伤害\n+100 护甲值\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Armor."
+					"deDE": "+15% Schaden gegen folgende Gegner: Crowd Controlled\n+100 Rüstung\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Kontrollverlust, Schaden, Rüstung.",
+					"esES": "+15% de daño a enemigos con el estado Crowd Controlled\n+100 p. de armadura\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de masas, Daño, Armadura.",
+					"esMX": "+15% de daño a enemigos Crowd Controlled\n+100 de armadura\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de multitudes, Daño, Armadura.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n+100 à l'armure\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Perte de contrôle, Dégâts, Armure.",
+					"itIT": "Danni ai nemici Crowd Controlled: +15%\nArmatura: +100\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Effetti debilitanti, Danni, Armatura.",
+					"jaJP": "Crowd Controlled の敵へのダメージ+15%\nアーマー+100\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 操作障害効果, ダメージ, 装甲.",
+					"koKR": "Crowd Controlled 적에게 주는 피해 +15%\n방어도 +100\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 군중 제어, 피해, 방어도.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Crowd Controlled\n+100 pancerza\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ograniczanie Kontroli, Obrażenia, Pancerz.",
+					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+100 de armadura\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Controle de Grupo, Dano, Armadura.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+100 ед. брони\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Контроль, Урон, Броня.",
+					"zhCN": "+15%对Crowd Controlled 敌人的伤害\n+100 护甲值\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 群控, 伤害, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13995,17 +13995,17 @@ let paragonData = {
 					"zhCN": "屠猎者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Schaden gegen Elitegegner\n{#} Sek. lang +14% Bewegungsgeschwindigkeit nach Töten eines Elitegegners\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"esES": "+16.7% de daño contra enemigos de élite\n+14% de velocidad de movimiento durante {#} s tras matar a un enemigo de élite\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"esMX": "+16.7% de daño a enemigos de Élite\n+14% de velocidad de movimiento durante {#} segundos después de matar a un enemigo de Élite\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"frFR": "+16.7% de dégâts aux élites\n+14% à la vitesse de déplacement pendant {#} s après avoir tué une élite\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"itIT": "Danni a élite: +16.7%\nVelocità di movimento per {#} s dopo aver ucciso un élite: +14%\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"jaJP": "エリートへのダメージ+16.7%\nエリートを倒した後の{#} 秒間、移動速度+14%\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"koKR": "정예에게 주는 피해 +16.7%\n정예 처치 후 {#} 초 동안 이동 속도 +14%\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"plPL": "+16.7% obrażeń zadawanych elitarnym wrogom\n+14% szybkości ruchu na {#} sek. po zabiciu elity\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"ptBR": "+16.7% de dano contra elites\n+14% de velocidade de movimento por {#} segundos depois de matar um elite\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"ruRU": "+16.7% к урону особым противникам\n+14% к скорости передвижения на {#} сек. после убийства особого противника\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement.",
-					"zhCN": "+16.7%对精英的伤害\n+14%移动速度在消灭一个精英怪后,持续{#} 秒\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Movement."
+					"deDE": "+16.7% Schaden gegen Elitegegner\n{#} Sek. lang +14% Bewegungsgeschwindigkeit nach Töten eines Elitegegners\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elitemonster, Schaden, Bewegungsgeschwindigkeit.",
+					"esES": "+16.7% de daño contra enemigos de élite\n+14% de velocidad de movimiento durante {#} s tras matar a un enemigo de élite\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Enemigos de élite, Daño, Movimiento.",
+					"esMX": "+16.7% de daño a enemigos de Élite\n+14% de velocidad de movimiento durante {#} segundos después de matar a un enemigo de Élite\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstruos de Élite, Daño, Movimiento.",
+					"frFR": "+16.7% de dégâts aux élites\n+14% à la vitesse de déplacement pendant {#} s après avoir tué une élite\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstres élites, Dégâts, Vitesse de déplacement.",
+					"itIT": "Danni a élite: +16.7%\nVelocità di movimento per {#} s dopo aver ucciso un élite: +14%\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Mostri élite, Danni, Movimento.",
+					"jaJP": "エリートへのダメージ+16.7%\nエリートを倒した後の{#} 秒間、移動速度+14%\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: エリート・モンスター, ダメージ, 移動速度.",
+					"koKR": "정예에게 주는 피해 +16.7%\n정예 처치 후 {#} 초 동안 이동 속도 +14%\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 정예 괴물, 피해, 이동 속도.",
+					"plPL": "+16.7% obrażeń zadawanych elitarnym wrogom\n+14% szybkości ruchu na {#} sek. po zabiciu elity\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elitarne Potwory, Obrażenia, Szybkość Ruchu.",
+					"ptBR": "+16.7% de dano contra elites\n+14% de velocidade de movimento por {#} segundos depois de matar um elite\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstros de Elite, Dano, Movimento.",
+					"ruRU": "+16.7% к урону особым противникам\n+14% к скорости передвижения на {#} сек. после убийства особого противника\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Особые монстры, Урон, Скорость передвижения.",
+					"zhCN": "+16.7%对精英的伤害\n+14%移动速度在消灭一个精英怪后,持续{#} 秒\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 伤害, 移动."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14042,17 +14042,17 @@ let paragonData = {
 					"zhCN": "死亡使者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+25% Schaden gegen verletzte Gegner\n+100 Rüstung\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"esES": "+25% de daño a enemigos heridos\n+100 p. de armadura\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"esMX": "+25% de daño a enemigos heridos\n+100 de armadura\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"frFR": "+25% de dégâts contre les cibles blessées\n+100 à l'armure\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"itIT": "Danni ai nemici feriti: +25%\nArmatura: +100\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"jaJP": "負傷した敵へのダメージ+25%\nアーマー+100\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"koKR": "부상당한 적에게 주는 피해 +25%\n방어도 +100\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"plPL": "+25% obrażeń zadawanych rannym wrogom\n+100 pancerza\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"ptBR": "+25% de dano contra inimigos feridos\n+100 de armadura\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"ruRU": "+25% к урону раненым противникам\n+100 ед. брони\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor.",
-					"zhCN": "+25%对受伤敌人的伤害\n+100 护甲值\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Armor."
+					"deDE": "+25% Schaden gegen verletzte Gegner\n+100 Rüstung\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verletzt, Schaden, Rüstung.",
+					"esES": "+25% de daño a enemigos heridos\n+100 p. de armadura\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Herido, Daño, Armadura.",
+					"esMX": "+25% de daño a enemigos heridos\n+100 de armadura\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Herido, Daño, Armadura.",
+					"frFR": "+25% de dégâts contre les cibles blessées\n+100 à l'armure\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blessure, Dégâts, Armure.",
+					"itIT": "Danni ai nemici feriti: +25%\nArmatura: +100\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ferita, Danni, Armatura.",
+					"jaJP": "負傷した敵へのダメージ+25%\nアーマー+100\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 負傷, ダメージ, 装甲.",
+					"koKR": "부상당한 적에게 주는 피해 +25%\n방어도 +100\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 부상, 피해, 방어도.",
+					"plPL": "+25% obrażeń zadawanych rannym wrogom\n+100 pancerza\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Okaleczenie, Obrażenia, Pancerz.",
+					"ptBR": "+25% de dano contra inimigos feridos\n+100 de armadura\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ferido, Dano, Armadura.",
+					"ruRU": "+25% к урону раненым противникам\n+100 ед. брони\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ранение, Урон, Броня.",
+					"zhCN": "+25%对受伤敌人的伤害\n+100 护甲值\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 受伤, 伤害, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14090,17 +14090,17 @@ let paragonData = {
 					"zhCN": "掠夺"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+100 Rüstung\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+100 p. de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+100 de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+100 à l'armure\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nArmatura: +100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\nアーマー+100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n방어도 +100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+100 pancerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+100 de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+100 ед. брони\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+100 护甲值\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor."
+					"deDE": "+10% Damage to Vulnerable Enemies\n+100 Rüstung\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Rüstung.",
+					"esES": "+10% Damage to Vulnerable Enemies\n+100 p. de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Armadura.",
+					"esMX": "+10% Damage to Vulnerable Enemies\n+100 de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Armadura.",
+					"frFR": "+10% Damage to Vulnerable Enemies\n+100 à l'armure\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Armure.",
+					"itIT": "+10% Damage to Vulnerable Enemies\nArmatura: +100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Armatura.",
+					"jaJP": "+10% Damage to Vulnerable Enemies\nアーマー+100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 装甲.",
+					"koKR": "+10% Damage to Vulnerable Enemies\n방어도 +100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 방어도.",
+					"plPL": "+10% Damage to Vulnerable Enemies\n+100 pancerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Pancerz.",
+					"ptBR": "+10% Damage to Vulnerable Enemies\n+100 de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Armadura.",
+					"ruRU": "+10% Damage to Vulnerable Enemies\n+100 ед. брони\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Броня.",
+					"zhCN": "+10% Damage to Vulnerable Enemies\n+100 护甲值\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14128,17 +14128,17 @@ let paragonData = {
 					"zhCN": "内在之力"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden, während Ihr gestählt seid\n+5% Schaden bei hohem Leben\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"esES": "+10% de daño con fortificación\n+5% de daño en estado saludable\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"esMX": "+10% de daño mientras tengas fortificación\n+5% de daño mientras estás saludable\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"frFR": "+10% de dégâts pendant la fortification\n+5% de dégâts lorsque vous êtes en bonne santé\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"itIT": "Danni durante Fortificazione: +10%\nDanni mentre sei in salute: +5%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"jaJP": "強化中のダメージ+10%\n健全状態時のダメージ+5%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"koKR": "보강 상태에서 공격력 +10%\n건강 상태일 때 공격력 +5%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"plPL": "+10% obrażeń podczas wzmocnienia\n+5% zadawanych obrażeń, jeśli postać jest w pełni sił\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"ptBR": "+10% de dano sob fortificação\n+5% de dano enquanto saudável\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"ruRU": "+10% к урону при действующем эффекте укрепления\n+5% к урону при высоком уровне здоровья\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage.",
-					"zhCN": "+10%强固时伤害\n+5%健康时伤害\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Healthy, Damage."
+					"deDE": "+10% Schaden, während Ihr gestählt seid\n+5% Schaden bei hohem Leben\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Stählung, Gesund, Schaden.",
+					"esES": "+10% de daño con fortificación\n+5% de daño en estado saludable\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificación, Saludable, Daño.",
+					"esMX": "+10% de daño mientras tengas fortificación\n+5% de daño mientras estás saludable\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificar, Saludable, Daño.",
+					"frFR": "+10% de dégâts pendant la fortification\n+5% de dégâts lorsque vous êtes en bonne santé\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortification, En bonne santé, Dégâts.",
+					"itIT": "Danni durante Fortificazione: +10%\nDanni mentre sei in salute: +5%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificazione, In salute, Danni.",
+					"jaJP": "強化中のダメージ+10%\n健全状態時のダメージ+5%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 強化, 健全, ダメージ.",
+					"koKR": "보강 상태에서 공격력 +10%\n건강 상태일 때 공격력 +5%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 보강, 건강, 피해.",
+					"plPL": "+10% obrażeń podczas wzmocnienia\n+5% zadawanych obrażeń, jeśli postać jest w pełni sił\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Umocnienie, Pełnia Sił, Obrażenia.",
+					"ptBR": "+10% de dano sob fortificação\n+5% de dano enquanto saudável\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Saudável, Dano.",
+					"ruRU": "+10% к урону при действующем эффекте укрепления\n+5% к урону при высоком уровне здоровья\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Высокое здоровье, Урон.",
+					"zhCN": "+10%强固时伤害\n+5%健康时伤害\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 健康, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14172,17 +14172,17 @@ let paragonData = {
 					"zhCN": "侵犯"
 				},
 				"descriptionLocalized": {
-					"deDE": "+30% Überwältigungsschaden\n+4% Schaden\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"esES": "+30% de daño de arrollamiento\n+4% de daño\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"esMX": "+30% de daño abrumador\n+4% de daño\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"frFR": "+30% de dégâts d'accablement\n+4% de dégâts\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"itIT": "Danni da Sopraffazione: +30%\nDanni: +4%\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"jaJP": "オーバーパワー・ダメージ+30%\nダメージ +4%\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"koKR": "제압 피해 +30%\n공격력 +4%\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"plPL": "+30% obrażeń od przytłoczenia\n+4% obrażeń\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"ptBR": "+30% de dano de Golpe Brutal\n+4% de dano\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"ruRU": "+30% к подавляющему урону\n+4% к урону\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage.",
-					"zhCN": "+30%压制伤害\n+4%伤害\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage."
+					"deDE": "+30% Überwältigungsschaden\n+4% Schaden\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Überwältigen, Schaden.",
+					"esES": "+30% de daño de arrollamiento\n+4% de daño\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Arrollamiento, Daño.",
+					"esMX": "+30% de daño abrumador\n+4% de daño\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Abrumar, Daño.",
+					"frFR": "+30% de dégâts d'accablement\n+4% de dégâts\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Accablement, Dégâts.",
+					"itIT": "Danni da Sopraffazione: +30%\nDanni: +4%\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sopraffazione, Danni.",
+					"jaJP": "オーバーパワー・ダメージ+30%\nダメージ +4%\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: オーバーパワー, ダメージ.",
+					"koKR": "제압 피해 +30%\n공격력 +4%\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: 제압, 피해.",
+					"plPL": "+30% obrażeń od przytłoczenia\n+4% obrażeń\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Przytłoczenie, Obrażenia.",
+					"ptBR": "+30% de dano de Golpe Brutal\n+4% de dano\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpe Brutal, Dano.",
+					"ruRU": "+30% к подавляющему урону\n+4% к урону\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Подавление, Урон.",
+					"zhCN": "+30%压制伤害\n+4%伤害\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: 压制, 伤害."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -14213,17 +14213,17 @@ let paragonData = {
 					"zhCN": "元素师"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% nichtphysischer Schaden\n+4% Leben\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"esES": "+10% de daño no físico\n+4% de vida\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"esMX": "+10% de daño no físico\n+4% de vida\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"frFR": "+10% de dégâts non physiques\n+4% de points de vie\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"itIT": "Danni non fisici: +10%\nPunti vita: +4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"jaJP": "非物理ダメージ+10%\nライフ+4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"koKR": "비물리 피해 +10%\n생명력 +4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"plPL": "+10% obrażeń niefizycznych\n+4% zdrowia\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"ptBR": "+10% de dano não físico\n+4% de vida\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"ruRU": "+10% к нефизическому урону\n+4% к здоровью\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life.",
-					"zhCN": "+10%非物理伤害\n+4%生命\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Life."
+					"deDE": "+10% nichtphysischer Schaden\n+4% Leben\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nichtphysisch, Schaden, Leben.",
+					"esES": "+10% de daño no físico\n+4% de vida\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: No física, Daño, Vida.",
+					"esMX": "+10% de daño no físico\n+4% de vida\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: No físico, Daño, Vida.",
+					"frFR": "+10% de dégâts non physiques\n+4% de points de vie\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts non physiques, Dégâts, Vie.",
+					"itIT": "Danni non fisici: +10%\nPunti vita: +4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non fisico, Danni, Vita.",
+					"jaJP": "非物理ダメージ+10%\nライフ+4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, ダメージ, ライフ.",
+					"koKR": "비물리 피해 +10%\n생명력 +4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 비물리, 피해, 생명력.",
+					"plPL": "+10% obrażeń niefizycznych\n+4% zdrowia\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Niefizyczne, Obrażenia, Zdrowie.",
+					"ptBR": "+10% de dano não físico\n+4% de vida\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Não física, Dano, Vida.",
+					"ruRU": "+10% к нефизическому урону\n+4% к здоровью\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Нефизический урон, Урон, Здоровье.",
+					"zhCN": "+10%非物理伤害\n+4%生命\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 伤害, 生命."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -14251,17 +14251,17 @@ let paragonData = {
 					"zhCN": "剔除者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Chance von bis zu +10%, verletzte Nicht-Elitegegner hinzurichten\n+4% Angriffsgeschwindigkeit\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"esES": "Golpe de suerte: Hasta un +10% de probabilidad de ejecutar a los enemigos heridos que no sean de élite\n+4% de velocidad de ataque\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"esMX": "Golpe afortunado: Tienes hasta un +10% de probabilidad de ejecutar a enemigos heridos que no son de Élite\n+4% de velocidad de ataque\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"frFR": "Coup de chance: vous avez jusqu'à +10% de chances d'exécuter les cibles non élites blessées\n+4% à la vitesse d'attaque\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"itIT": "Colpo fortunato: fino al +10% di probabilità di uccidere istantaneamente i nemici non élite feriti.\nVelocità d'attacco +4%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"jaJP": "幸運の一撃: 最大+10%の確率で負傷した非エリートを処刑する\n攻撃速度+4%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"koKR": "행운의 적중: 부상당한 비정예 적 처형 확률 최대 +10%\n공격 속도 +4%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"plPL": "Szczęśliwy traf: Maksymalnie +10% szansy na egzekucję okaleczonych wrogów nieelitarnych\n+4% szybkości ataku\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"ptBR": "Golpe de Sorte: Até +10% de chance de executar não elites feridos\n+4% de velocidade de ataque\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"ruRU": "Удачный удар: до +10% к вероятности казнить раненых обычных противников\n+4% к скорости атаки\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit.",
-					"zhCN": "幸运一击:最多有+10%几率斩杀受伤的非精英敌人\n+4%攻击速度\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execute, Attack Speed, Injured, Lucky Hit."
+					"deDE": "Glückstreffer: Chance von bis zu +10%, verletzte Nicht-Elitegegner hinzurichten\n+4% Angriffsgeschwindigkeit\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Hinrichten, Angriffsgeschwindigkeit, Verletzt, Glückstreffer.",
+					"esES": "Golpe de suerte: Hasta un +10% de probabilidad de ejecutar a los enemigos heridos que no sean de élite\n+4% de velocidad de ataque\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Ejecución, Velocidad de ataque, Herido, Golpe de suerte.",
+					"esMX": "Golpe afortunado: Tienes hasta un +10% de probabilidad de ejecutar a enemigos heridos que no son de Élite\n+4% de velocidad de ataque\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Ejecutar, Velocidad de ataque, Herido, Golpe afortunado.",
+					"frFR": "Coup de chance: vous avez jusqu'à +10% de chances d'exécuter les cibles non élites blessées\n+4% à la vitesse d'attaque\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Exécution, Vitesse d'attaque, Blessure, Coup de chance.",
+					"itIT": "Colpo fortunato: fino al +10% di probabilità di uccidere istantaneamente i nemici non élite feriti.\nVelocità d'attacco +4%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Esecuzione, Velocità d'attacco, Ferita, Colpo fortunato.",
+					"jaJP": "幸運の一撃: 最大+10%の確率で負傷した非エリートを処刑する\n攻撃速度+4%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 処刑, 攻撃速度, 負傷, 幸運の一撃.",
+					"koKR": "행운의 적중: 부상당한 비정예 적 처형 확률 최대 +10%\n공격 속도 +4%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 처형, 공격 속도, 부상, 행운의 적중.",
+					"plPL": "Szczęśliwy traf: Maksymalnie +10% szansy na egzekucję okaleczonych wrogów nieelitarnych\n+4% szybkości ataku\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Egzekucja, Szybkość Ataku, Okaleczenie, Szczęśliwy Traf.",
+					"ptBR": "Golpe de Sorte: Até +10% de chance de executar não elites feridos\n+4% de velocidade de ataque\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Execução, Velocidade de Ataque, Ferido, Golpe de Sorte.",
+					"ruRU": "Удачный удар: до +10% к вероятности казнить раненых обычных противников\n+4% к скорости атаки\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Казнь, Скорость атаки, Ранение, Удачный удар.",
+					"zhCN": "幸运一击:最多有+10%几率斩杀受伤的非精英敌人\n+4%攻击速度\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 斩杀, 攻击速度, 受伤, 幸运一击."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14300,17 +14300,17 @@ let paragonData = {
 					"zhCN": "火焰抵御"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Fire\n+4% Leben\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"esES": "12% de resistencia a Fire\n+4% de vida\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"esMX": "12% de resistencia a Fire\n+4% de vida\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"frFR": "12% de résistance (Fire )\n+4% de points de vie\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"itIT": "Resistenza Fire: 12%\nPunti vita: +4%\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"jaJP": "Fire 耐性12%\nライフ+4%\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"koKR": "Fire 저항 12%\n생명력 +4%\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"plPL": "12% odporności na Fire\n+4% zdrowia\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"ptBR": "12% de resistência a Fire\n+4% de vida\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"ruRU": "Сопротивление типу урона \"Fire \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life.",
-					"zhCN": "12%Fire 抗性\n+4%生命\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Fire, Life."
+					"deDE": "12% Widerstand gegen: Fire\n+4% Leben\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Feuer, Leben.",
+					"esES": "12% de resistencia a Fire\n+4% de vida\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Fuego, Vida.",
+					"esMX": "12% de resistencia a Fire\n+4% de vida\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Fuego, Vida.",
+					"frFR": "12% de résistance (Fire )\n+4% de points de vie\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Feu, Vie.",
+					"itIT": "Resistenza Fire: 12%\nPunti vita: +4%\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fuoco, Vita.",
+					"jaJP": "Fire 耐性12%\nライフ+4%\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 火炎, ライフ.",
+					"koKR": "Fire 저항 12%\n생명력 +4%\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 화염, 생명력.",
+					"plPL": "12% odporności na Fire\n+4% zdrowia\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Ogień, Zdrowie.",
+					"ptBR": "12% de resistência a Fire\n+4% de vida\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Fogo, Vida.",
+					"ruRU": "Сопротивление типу урона \"Fire \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Огонь, Здоровье.",
+					"zhCN": "12%Fire 抗性\n+4%生命\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 火焰, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14347,17 +14347,17 @@ let paragonData = {
 					"zhCN": "壁垒"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Schadensreduktion, während Ihr gestählt seid\n+6.7% Stählungserzeugung\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"esES": "4% de reducción de daño con fortificación\n+6.7% de generación de fortificación\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"esMX": "4% de reducción de daño mientras tengas fortificación\n+6.7% de generación de fortificación\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"frFR": "4% de réduction des dégâts pendant la fortification\n+6.7% à la génération de fortification\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"itIT": "Riduzione danni durante Fortificazione: 4%\nGenerazione Fortificazione: +6.7%\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"jaJP": "強化中のダメージ減少率4%\n強化生成量+6.7%\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"koKR": "보강 상태에서 피해 감소 4%\n보강 재생량 +6.7%\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"plPL": "4% redukcji obrażeń podczas umocnienia\n+6.7% do generowania umocnienia\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"ptBR": "4% de redução de dano sob fortificação\n+6.7% de geração de fortificação\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"ruRU": "-4% к получаемому урону при действующем эффекте укрепления\n+6.7% к укреплению\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction.",
-					"zhCN": "4%强固时伤害减免\n+6.7%强固生成量\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage Reduction."
+					"deDE": "4% Schadensreduktion, während Ihr gestählt seid\n+6.7% Stählungserzeugung\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Stählung, Schadensreduktion.",
+					"esES": "4% de reducción de daño con fortificación\n+6.7% de generación de fortificación\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificación, Reducción de daño.",
+					"esMX": "4% de reducción de daño mientras tengas fortificación\n+6.7% de generación de fortificación\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificar, Reducción de daño.",
+					"frFR": "4% de réduction des dégâts pendant la fortification\n+6.7% à la génération de fortification\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortification, Réduction des dégâts.",
+					"itIT": "Riduzione danni durante Fortificazione: 4%\nGenerazione Fortificazione: +6.7%\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificazione, Riduzione danni.",
+					"jaJP": "強化中のダメージ減少率4%\n強化生成量+6.7%\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 強化, ダメージ減少.",
+					"koKR": "보강 상태에서 피해 감소 4%\n보강 재생량 +6.7%\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 보강, 피해 감소.",
+					"plPL": "4% redukcji obrażeń podczas umocnienia\n+6.7% do generowania umocnienia\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Umocnienie, Redukcja Obrażeń.",
+					"ptBR": "4% de redução de dano sob fortificação\n+6.7% de geração de fortificação\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Redução de Dano.",
+					"ruRU": "-4% к получаемому урону при действующем эффекте укрепления\n+6.7% к укреплению\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Уменьшение урона.",
+					"zhCN": "4%强固时伤害减免\n+6.7%强固生成量\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害减免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14392,17 +14392,17 @@ let paragonData = {
 					"zhCN": "复原"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Heilung durch Tränke\n1.3% Heilung über Zeit\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"esES": "+4% de curación de pociones\n1.3% de curación en el tiempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"esMX": "+4% de sanación de pociones\n1.3% de sanación con el tiempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"frFR": "+4% de soins de la potion\n1.3% de soins sur la durée\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"itIT": "Cure pozione: +4%\nGuarigione periodica: 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"jaJP": "ポーションによる回復+4%\n時間経過のライフ回復量1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"koKR": "물약 치유량 +4%\n지속 치유량 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"plPL": "+4% do leczenia miksturą\n1.3% leczenia z upływem czasu\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"ptBR": "+4% de cura de poção\n1.3% de cura ao longo do tempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"ruRU": "+4% к исцелению от зелий\nПериодическое исцеление – 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
-					"zhCN": "4%药水恢复效果\n1.3%持续治疗效果\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing."
+					"deDE": "+4% Heilung durch Tränke\n1.3% Heilung über Zeit\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Heilung.",
+					"esES": "+4% de curación de pociones\n1.3% de curación en el tiempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Curación.",
+					"esMX": "+4% de sanación de pociones\n1.3% de sanación con el tiempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Sanación.",
+					"frFR": "+4% de soins de la potion\n1.3% de soins sur la durée\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Soins.",
+					"itIT": "Cure pozione: +4%\nGuarigione periodica: 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione.",
+					"jaJP": "ポーションによる回復+4%\n時間経過のライフ回復量1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 回復.",
+					"koKR": "물약 치유량 +4%\n지속 치유량 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 치유.",
+					"plPL": "+4% do leczenia miksturą\n1.3% leczenia z upływem czasu\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie.",
+					"ptBR": "+4% de cura de poção\n1.3% de cura ao longo do tempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Cura.",
+					"ruRU": "+4% к исцелению от зелий\nПериодическое исцеление – 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление.",
+					"zhCN": "4%药水恢复效果\n1.3%持续治疗效果\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 治疗."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14440,17 +14440,17 @@ let paragonData = {
 					"zhCN": "闪电抵御"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Lightning\n+4% Leben\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"esES": "12% de resistencia a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"esMX": "12% de resistencia a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"frFR": "12% de résistance (Lightning )\n+4% de points de vie\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"itIT": "Resistenza Lightning: 12%\nPunti vita: +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"jaJP": "Lightning 耐性12%\nライフ+4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"koKR": "Lightning 저항 12%\n생명력 +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"plPL": "12% odporności na Lightning\n+4% zdrowia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"ptBR": "12% de resistência a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"ruRU": "Сопротивление типу урона \"Lightning \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
-					"zhCN": "12%Lightning 抗性\n+4%生命\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life."
+					"deDE": "12% Widerstand gegen: Lightning\n+4% Leben\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Blitz, Leben.",
+					"esES": "12% de resistencia a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayos, Vida.",
+					"esMX": "12% de resistencia a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayo, Vida.",
+					"frFR": "12% de résistance (Lightning )\n+4% de points de vie\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Foudre, Vie.",
+					"itIT": "Resistenza Lightning: 12%\nPunti vita: +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fulmine, Vita.",
+					"jaJP": "Lightning 耐性12%\nライフ+4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 稲妻, ライフ.",
+					"koKR": "Lightning 저항 12%\n생명력 +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 번개, 생명력.",
+					"plPL": "12% odporności na Lightning\n+4% zdrowia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Piorun, Zdrowie.",
+					"ptBR": "12% de resistência a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Eletricidade, Vida.",
+					"ruRU": "Сопротивление типу урона \"Lightning \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Здоровье.",
+					"zhCN": "12%Lightning 抗性\n+4%生命\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 闪电, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14487,17 +14487,17 @@ let paragonData = {
 					"zhCN": "破坏成性"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% nichtphysischer Schaden\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"esES": "+10% de daño no físico\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"esMX": "+10% de daño no físico\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"frFR": "+10% de dégâts non physiques\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"itIT": "Danni non fisici: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"jaJP": "非物理ダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"koKR": "비물리 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"plPL": "+10% obrażeń niefizycznych\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"ptBR": "+10% de dano não físico\n+6.7% de dano contra elites\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"ruRU": "+10% к нефизическому урону\n+6.7% к урону особым противникам\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters.",
-					"zhCN": "+10%非物理伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Non-Physical, Elite Monsters."
+					"deDE": "+10% nichtphysischer Schaden\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Nichtphysisch, Elitemonster.",
+					"esES": "+10% de daño no físico\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, No física, Enemigos de élite.",
+					"esMX": "+10% de daño no físico\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, No físico, Monstruos de Élite.",
+					"frFR": "+10% de dégâts non physiques\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Dégâts non physiques, Monstres élites.",
+					"itIT": "Danni non fisici: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Non fisico, Mostri élite.",
+					"jaJP": "非物理ダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 非物理, エリート・モンスター.",
+					"koKR": "비물리 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 비물리, 정예 괴물.",
+					"plPL": "+10% obrażeń niefizycznych\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Niefizyczne, Elitarne Potwory.",
+					"ptBR": "+10% de dano não físico\n+6.7% de dano contra elites\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Não física, Monstros de Elite.",
+					"ruRU": "+10% к нефизическому урону\n+6.7% к урону особым противникам\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Нефизический урон, Особые монстры.",
+					"zhCN": "+10%非物理伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 非物理, 精英怪物."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14528,17 +14528,17 @@ let paragonData = {
 					"zhCN": "蓄能池"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16 max. Mana\n+4% Leben\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"esES": "+16 p. de máximo de Mana\n+4% de vida\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"esMX": "+16 de Mana como máximo\n+4% de vida\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"frFR": "+16 |2%sMana maximum\n+4% de points de vie\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"itIT": "Mana max: +16\nPunti vita: +4%\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"jaJP": "最大Mana +16\nライフ+4%\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"koKR": "최대 Mana +16\n생명력 +4%\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"plPL": "+16 maksimum: Mana\n+4% zdrowia\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"ptBR": "+16 de máximo de Mana\n+4% de vida\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"ruRU": "+16 к максимуму ресурса \"Mana \"\n+4% к здоровью\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life.",
-					"zhCN": "+16最大Mana\n+4%生命\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Life."
+					"deDE": "+16 max. Mana\n+4% Leben\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Leben.",
+					"esES": "+16 p. de máximo de Mana\n+4% de vida\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Maná, Vida.",
+					"esMX": "+16 de Mana como máximo\n+4% de vida\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Maná, Vida.",
+					"frFR": "+16 |2%sMana maximum\n+4% de points de vie\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Vie.",
+					"itIT": "Mana max: +16\nPunti vita: +4%\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Vita.",
+					"jaJP": "最大Mana +16\nライフ+4%\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: マナ, ライフ.",
+					"koKR": "최대 Mana +16\n생명력 +4%\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: 마나, 생명력.",
+					"plPL": "+16 maksimum: Mana\n+4% zdrowia\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Zdrowie.",
+					"ptBR": "+16 de máximo de Mana\n+4% de vida\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Vida.",
+					"ruRU": "+16 к максимуму ресурса \"Mana \"\n+4% к здоровью\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: Мана, Здоровье.",
+					"zhCN": "+16最大Mana\n+4%生命\n\nBonus: Another +16 Maximum Mana if requirements met:\n{thresholdRequirements}\n\nTags: 法力, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14569,17 +14569,17 @@ let paragonData = {
 					"zhCN": "核心储备"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16 max. Fury\n+4% Leben\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"esES": "+16 p. de máximo de Fury\n+4% de vida\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"esMX": "+16 de Fury como máximo\n+4% de vida\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"frFR": "+16 |2%sFury maximum\n+4% de points de vie\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"itIT": "Fury max: +16\nPunti vita: +4%\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"jaJP": "最大Fury +16\nライフ+4%\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"koKR": "최대 Fury +16\n생명력 +4%\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"plPL": "+16 maksimum: Fury\n+4% zdrowia\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"ptBR": "+16 de máximo de Fury\n+4% de vida\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"ruRU": "+16 к максимуму ресурса \"Fury \"\n+4% к здоровью\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life.",
-					"zhCN": "+16最大Fury\n+4%生命\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fury, Life."
+					"deDE": "+16 max. Fury\n+4% Leben\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Wut, Leben.",
+					"esES": "+16 p. de máximo de Fury\n+4% de vida\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Furia, Vida.",
+					"esMX": "+16 de Fury como máximo\n+4% de vida\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Furia, Vida.",
+					"frFR": "+16 |2%sFury maximum\n+4% de points de vie\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fureur, Vie.",
+					"itIT": "Fury max: +16\nPunti vita: +4%\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Furia, Vita.",
+					"jaJP": "最大Fury +16\nライフ+4%\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: 怒気, ライフ.",
+					"koKR": "최대 Fury +16\n생명력 +4%\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: 분노, 생명력.",
+					"plPL": "+16 maksimum: Fury\n+4% zdrowia\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Furia, Zdrowie.",
+					"ptBR": "+16 de máximo de Fury\n+4% de vida\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Fúria, Vida.",
+					"ruRU": "+16 к максимуму ресурса \"Fury \"\n+4% к здоровью\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: Ярость, Здоровье.",
+					"zhCN": "+16最大Fury\n+4%生命\n\nBonus: Another +16 Maximum Fury if requirements met:\n{thresholdRequirements}\n\nTags: 怒气, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14610,17 +14610,17 @@ let paragonData = {
 					"zhCN": "毒素抵御"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Poison\n+4% Leben\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"esES": "12% de resistencia a Poison\n+4% de vida\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"esMX": "12% de resistencia a Poison\n+4% de vida\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"frFR": "12% de résistance (Poison )\n+4% de points de vie\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"itIT": "Resistenza Poison: 12%\nPunti vita: +4%\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"jaJP": "Poison 耐性12%\nライフ+4%\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"koKR": "Poison 저항 12%\n생명력 +4%\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"plPL": "12% odporności na Poison\n+4% zdrowia\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"ptBR": "12% de resistência a Poison\n+4% de vida\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"ruRU": "Сопротивление типу урона \"Poison \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life.",
-					"zhCN": "12%Poison 抗性\n+4%生命\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Poison, Life."
+					"deDE": "12% Widerstand gegen: Poison\n+4% Leben\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Gift, Leben.",
+					"esES": "12% de resistencia a Poison\n+4% de vida\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Veneno, Vida.",
+					"esMX": "12% de resistencia a Poison\n+4% de vida\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Veneno, Vida.",
+					"frFR": "12% de résistance (Poison )\n+4% de points de vie\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Poison, Vie.",
+					"itIT": "Resistenza Poison: 12%\nPunti vita: +4%\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Veleno, Vita.",
+					"jaJP": "Poison 耐性12%\nライフ+4%\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 毒, ライフ.",
+					"koKR": "Poison 저항 12%\n생명력 +4%\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 독, 생명력.",
+					"plPL": "12% odporności na Poison\n+4% zdrowia\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Trucizna, Zdrowie.",
+					"ptBR": "12% de resistência a Poison\n+4% de vida\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Veneno, Vida.",
+					"ruRU": "Сопротивление типу урона \"Poison \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Яд, Здоровье.",
+					"zhCN": "12%Poison 抗性\n+4%生命\n\nBonus: Another 12% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 毒素, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14657,17 +14657,17 @@ let paragonData = {
 					"zhCN": "恢复"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Heilung durch Tränke\n+4% Leben\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"esES": "+4% de curación de pociones\n+4% de vida\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"esMX": "+4% de sanación de pociones\n+4% de vida\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"frFR": "+4% de soins de la potion\n+4% de points de vie\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"itIT": "Cure pozione: +4%\nPunti vita: +4%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"jaJP": "ポーションによる回復+4%\nライフ+4%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"koKR": "물약 치유량 +4%\n생명력 +4%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"plPL": "+4% do leczenia miksturą\n+4% zdrowia\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"ptBR": "+4% de cura de poção\n+4% de vida\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"ruRU": "+4% к исцелению от зелий\n+4% к здоровью\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life.",
-					"zhCN": "4%药水恢复效果\n+4%生命\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Life."
+					"deDE": "+4% Heilung durch Tränke\n+4% Leben\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Heilung, Leben.",
+					"esES": "+4% de curación de pociones\n+4% de vida\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Curación, Vida.",
+					"esMX": "+4% de sanación de pociones\n+4% de vida\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Sanación, Vida.",
+					"frFR": "+4% de soins de la potion\n+4% de points de vie\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Soins, Vie.",
+					"itIT": "Cure pozione: +4%\nPunti vita: +4%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione, Vita.",
+					"jaJP": "ポーションによる回復+4%\nライフ+4%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 回復, ライフ.",
+					"koKR": "물약 치유량 +4%\n생명력 +4%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 치유, 생명력.",
+					"plPL": "+4% do leczenia miksturą\n+4% zdrowia\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie, Zdrowie.",
+					"ptBR": "+4% de cura de poção\n+4% de vida\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Cura, Vida.",
+					"ruRU": "+4% к исцелению от зелий\n+4% к здоровью\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление, Здоровье.",
+					"zhCN": "4%药水恢复效果\n+4%生命\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 治疗, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14704,17 +14704,17 @@ let paragonData = {
 					"zhCN": "雷暴"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"esES": "+15% de daño de golpe crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"esMX": "+15% de daño de golpe crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"frFR": "+15% de dégâts critiques\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"itIT": "Danni critici: +15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"jaJP": "クリティカル・ダメージ+15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"koKR": "극대화 피해 +15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"plPL": "+15% obrażeń od trafień krytycznych\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"ptBR": "+15% de dano de acerto crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"ruRU": "+15% к критическому урону\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
-					"zhCN": "+15%暴击伤害\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage."
+					"deDE": "+15% kritischer Trefferschaden\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Verwundbar, Schaden.",
+					"esES": "+15% de daño de golpe crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Vulnerable, Daño.",
+					"esMX": "+15% de daño de golpe crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Vulnerable, Daño.",
+					"frFR": "+15% de dégâts critiques\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Vulnérable, Dégâts.",
+					"itIT": "Danni critici: +15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Vulnerabilità, Danni.",
+					"jaJP": "クリティカル・ダメージ+15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 致命の一撃, 脆弱, ダメージ.",
+					"koKR": "극대화 피해 +15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 취약, 피해.",
+					"plPL": "+15% obrażeń od trafień krytycznych\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Odsłonięcie, Obrażenia.",
+					"ptBR": "+15% de dano de acerto crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Vulnerável, Dano.",
+					"ruRU": "+15% к критическому урону\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Уязвимость, Урон.",
+					"zhCN": "+15%暴击伤害\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 易伤, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14745,17 +14745,17 @@ let paragonData = {
 					"zhCN": "暗抗"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Shadow\n+4% Leben\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"esES": "12% de resistencia a Shadow\n+4% de vida\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"esMX": "12% de resistencia a Shadow\n+4% de vida\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"frFR": "12% de résistance (Shadow )\n+4% de points de vie\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"itIT": "Resistenza Shadow: 12%\nPunti vita: +4%\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"jaJP": "Shadow 耐性12%\nライフ+4%\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"koKR": "Shadow 저항 12%\n생명력 +4%\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"plPL": "12% odporności na Shadow\n+4% zdrowia\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"ptBR": "12% de resistência a Shadow\n+4% de vida\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"ruRU": "Сопротивление типу урона \"Shadow \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life.",
-					"zhCN": "12%Shadow 抗性\n+4%生命\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Life."
+					"deDE": "12% Widerstand gegen: Shadow\n+4% Leben\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Schatten, Leben.",
+					"esES": "12% de resistencia a Shadow\n+4% de vida\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Sombra, Vida.",
+					"esMX": "12% de resistencia a Shadow\n+4% de vida\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Sombra, Vida.",
+					"frFR": "12% de résistance (Shadow )\n+4% de points de vie\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Ombre, Vie.",
+					"itIT": "Resistenza Shadow: 12%\nPunti vita: +4%\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Ombra, Vita.",
+					"jaJP": "Shadow 耐性12%\nライフ+4%\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, シャドウ, ライフ.",
+					"koKR": "Shadow 저항 12%\n생명력 +4%\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 암흑, 생명력.",
+					"plPL": "12% odporności na Shadow\n+4% zdrowia\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Cień, Zdrowie.",
+					"ptBR": "12% de resistência a Shadow\n+4% de vida\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Sombra, Vida.",
+					"ruRU": "Сопротивление типу урона \"Shadow \" – 12%\n+4% к здоровью\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Темная магия, Здоровье.",
+					"zhCN": "12%Shadow 抗性\n+4%生命\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14792,17 +14792,17 @@ let paragonData = {
 					"zhCN": "优越"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Crowd Controlled\n+4% Leben\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"esES": "+15% de daño a enemigos con el estado Crowd Controlled\n+4% de vida\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"esMX": "+15% de daño a enemigos Crowd Controlled\n+4% de vida\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n+4% de points de vie\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"itIT": "Danni ai nemici Crowd Controlled: +15%\nPunti vita: +4%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"jaJP": "Crowd Controlled の敵へのダメージ+15%\nライフ+4%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"koKR": "Crowd Controlled 적에게 주는 피해 +15%\n생명력 +4%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Crowd Controlled\n+4% zdrowia\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+4% de vida\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+4% к здоровью\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage.",
-					"zhCN": "+15%对Crowd Controlled 敌人的伤害\n+4%生命\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Life, Crowd Control, Damage."
+					"deDE": "+15% Schaden gegen folgende Gegner: Crowd Controlled\n+4% Leben\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Leben, Kontrollverlust, Schaden.",
+					"esES": "+15% de daño a enemigos con el estado Crowd Controlled\n+4% de vida\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Control de masas, Daño.",
+					"esMX": "+15% de daño a enemigos Crowd Controlled\n+4% de vida\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Control de multitudes, Daño.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Crowd Controlled »\n+4% de points de vie\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vie, Perte de contrôle, Dégâts.",
+					"itIT": "Danni ai nemici Crowd Controlled: +15%\nPunti vita: +4%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vita, Effetti debilitanti, Danni.",
+					"jaJP": "Crowd Controlled の敵へのダメージ+15%\nライフ+4%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: ライフ, 操作障害効果, ダメージ.",
+					"koKR": "Crowd Controlled 적에게 주는 피해 +15%\n생명력 +4%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 생명력, 군중 제어, 피해.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Crowd Controlled\n+4% zdrowia\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Zdrowie, Ograniczanie Kontroli, Obrażenia.",
+					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+4% de vida\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Controle de Grupo, Dano.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+4% к здоровью\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Здоровье, Контроль, Урон.",
+					"zhCN": "+15%对Crowd Controlled 敌人的伤害\n+4%生命\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 生命, 群控, 伤害."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -14833,17 +14833,17 @@ let paragonData = {
 					"zhCN": "利用"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+10% Schaden gegen verletzte Gegner\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+10% de daño a enemigos heridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+10% de daño a enemigos heridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+10% de dégâts contre les cibles blessées\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nDanni ai nemici feriti: +10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n負傷した敵へのダメージ+10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n부상당한 적에게 주는 피해 +10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+10% obrażeń zadawanych rannym wrogom\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+10% de dano contra inimigos feridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+10% к урону раненым противникам\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+10%对受伤敌人的伤害\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage."
+					"deDE": "+10% Damage to Vulnerable Enemies\n+10% Schaden gegen verletzte Gegner\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Verletzt, Schaden.",
+					"esES": "+10% Damage to Vulnerable Enemies\n+10% de daño a enemigos heridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Herido, Daño.",
+					"esMX": "+10% Damage to Vulnerable Enemies\n+10% de daño a enemigos heridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Herido, Daño.",
+					"frFR": "+10% Damage to Vulnerable Enemies\n+10% de dégâts contre les cibles blessées\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Blessure, Dégâts.",
+					"itIT": "+10% Damage to Vulnerable Enemies\nDanni ai nemici feriti: +10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Ferita, Danni.",
+					"jaJP": "+10% Damage to Vulnerable Enemies\n負傷した敵へのダメージ+10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, 負傷, ダメージ.",
+					"koKR": "+10% Damage to Vulnerable Enemies\n부상당한 적에게 주는 피해 +10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 부상, 피해.",
+					"plPL": "+10% Damage to Vulnerable Enemies\n+10% obrażeń zadawanych rannym wrogom\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Okaleczenie, Obrażenia.",
+					"ptBR": "+10% Damage to Vulnerable Enemies\n+10% de dano contra inimigos feridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Ferido, Dano.",
+					"ruRU": "+10% Damage to Vulnerable Enemies\n+10% к урону раненым противникам\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Ранение, Урон.",
+					"zhCN": "+10% Damage to Vulnerable Enemies\n+10%对受伤敌人的伤害\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 受伤, 伤害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -14868,17 +14868,17 @@ let paragonData = {
 					"zhCN": "熟练"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"esES": "+10% de daño\n+10 p. de destreza\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"esMX": "+10% de daño\n+10 de Destreza\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"frFR": "+10% de dégâts\n+10 dextérité\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"itIT": "Danni: +10%\nDestrezza: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"jaJP": "ダメージ +10%\n敏捷性+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"koKR": "공격력 +10%\n민첩 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"plPL": "+10% obrażeń\n+10 zręczności\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"ptBR": "+10% de dano\n+10 de Destreza\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"ruRU": "+10% к урону\n+10 к ловкости\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage.",
-					"zhCN": "+10%伤害\n+10点敏捷\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dexterity, Damage."
+					"deDE": "+10% Schaden\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Geschicklichkeit, Schaden.",
+					"esES": "+10% de daño\n+10 p. de destreza\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Destreza, Daño.",
+					"esMX": "+10% de daño\n+10 de Destreza\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Destreza, Daño.",
+					"frFR": "+10% de dégâts\n+10 dextérité\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dextérité, Dégâts.",
+					"itIT": "Danni: +10%\nDestrezza: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Destrezza, Danni.",
+					"jaJP": "ダメージ +10%\n敏捷性+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 敏捷性, ダメージ.",
+					"koKR": "공격력 +10%\n민첩 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 민첩, 피해.",
+					"plPL": "+10% obrażeń\n+10 zręczności\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Zręczność, Obrażenia.",
+					"ptBR": "+10% de dano\n+10 de Destreza\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Destreza, Dano.",
+					"ruRU": "+10% к урону\n+10 к ловкости\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ловкость, Урон.",
+					"zhCN": "+10%伤害\n+10点敏捷\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 敏捷, 伤害."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -14906,17 +14906,17 @@ let paragonData = {
 					"zhCN": "振作"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16 max. Essence\n2 Essence beim Töten eines Gegners\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"esES": "+16 p. de máximo de Essence\n2 de Essence al matar\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"esMX": "+16 de Essence como máximo\n2 de Essence con cada eliminación\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
+					"deDE": "+16 max. Essence\n2 Essence beim Töten eines Gegners\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essenz.",
+					"esES": "+16 p. de máximo de Essence\n2 de Essence al matar\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Esencia.",
+					"esMX": "+16 de Essence como máximo\n2 de Essence con cada eliminación\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Esencia.",
 					"frFR": "+16 |2%sEssence maximum\n2 de ressource (Essence ) par victime\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"itIT": "Essence max: +16\nEssence per uccisione: 2\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"jaJP": "最大Essence +16\nキル時に2のEssence を獲得\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"koKR": "최대 Essence +16\n처치 시 2 Essence\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"plPL": "+16 maksimum: Essence\n2 przy zabiciu: Essence\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"ptBR": "+16 de máximo de Essence\n2 de Essence ao matar\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"ruRU": "+16 к максимуму ресурса \"Essence \"\n+2 к ресурсу \"Essence \" за каждое убийство\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence.",
-					"zhCN": "+16最大Essence\n消灭获得2Essence\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essence."
+					"itIT": "Essence max: +16\nEssence per uccisione: 2\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essenza.",
+					"jaJP": "最大Essence +16\nキル時に2のEssence を獲得\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: 精髄.",
+					"koKR": "최대 Essence +16\n처치 시 2 Essence\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: 정수.",
+					"plPL": "+16 maksimum: Essence\n2 przy zabiciu: Essence\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Esencja.",
+					"ptBR": "+16 de máximo de Essence\n2 de Essence ao matar\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Essência.",
+					"ruRU": "+16 к максимуму ресурса \"Essence \"\n+2 к ресурсу \"Essence \" за каждое убийство\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: Эссенция.",
+					"zhCN": "+16最大Essence\n消灭获得2Essence\n\nBonus: Another +16 Maximum Essence if requirements met:\n{thresholdRequirements}\n\nTags: 精魂."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14947,17 +14947,17 @@ let paragonData = {
 					"zhCN": "博学"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Widerstand gegen alle Schadensarten\n+10 Intelligenz\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"esES": "4% de resistencia a todos los elementos\n+10 p. de inteligencia\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"esMX": "4% de resistencia a todos los elementos\n+10 de Inteligencia\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"frFR": "4% de résistance à tous les éléments\n+10 intelligence\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"itIT": "Resistenza a tutti gli elementi: 4%\nIntelligenza: +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"jaJP": "全属性耐性4%\n知力+10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"koKR": "모든 원소 저항 4%\n지능 +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"plPL": "4% odporności na wszystkie żywioły\n+10 inteligencji\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"ptBR": "4% de resistência a todos os elementos\n+10 de Inteligência\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"ruRU": "Сопротивление стихиям – 4%\n+10 к интеллекту\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence.",
-					"zhCN": "4%全元素抗性\n+10点智力\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Resistance, Intelligence."
+					"deDE": "4% Widerstand gegen alle Schadensarten\n+10 Intelligenz\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Nichtphysisch, Widerstand, Intelligenz.",
+					"esES": "4% de resistencia a todos los elementos\n+10 p. de inteligencia\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: No física, Resistencia, Inteligencia.",
+					"esMX": "4% de resistencia a todos los elementos\n+10 de Inteligencia\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: No físico, Resistencia, Inteligencia.",
+					"frFR": "4% de résistance à tous les éléments\n+10 intelligence\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts non physiques, Résistance, Intelligence.",
+					"itIT": "Resistenza a tutti gli elementi: 4%\nIntelligenza: +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Non fisico, Resistenza, Intelligenza.",
+					"jaJP": "全属性耐性4%\n知力+10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 耐性, 知力.",
+					"koKR": "모든 원소 저항 4%\n지능 +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 비물리, 저항, 지능.",
+					"plPL": "4% odporności na wszystkie żywioły\n+10 inteligencji\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Niefizyczne, Odporność, Inteligencja.",
+					"ptBR": "4% de resistência a todos os elementos\n+10 de Inteligência\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Não física, Resistência, Inteligência.",
+					"ruRU": "Сопротивление стихиям – 4%\n+10 к интеллекту\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Нефизический урон, Сопротивление, Интеллект.",
+					"zhCN": "4%全元素抗性\n+10点智力\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 抗性, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14988,17 +14988,17 @@ let paragonData = {
 					"zhCN": "渴求"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Bleeding betroffen sind\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"esES": "+10% de daño a enemigos en estado Bleeding\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"esMX": "+10% de daño a enemigos Bleeding\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"frFR": "+10% de dégâts contre les cibles sous l'effet « Bleeding »\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"itIT": "Danni ai nemici Bleeding: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"jaJP": "Bleeding の敵へのダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"koKR": "Bleeding 적에게 주는 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"plPL": "+10% obrażeń zadawanych wrogom typu: Bleeding\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"ptBR": "+10% de dano contra inimigos Bleeding\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"ruRU": "+10% к урону противникам под действием эффекта \"Bleeding \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage.",
-					"zhCN": "+10%对Bleeding 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Elite Monsters, Damage."
+					"deDE": "+10% Schaden gegen Gegner, die von Bleeding betroffen sind\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Elitemonster, Schaden.",
+					"esES": "+10% de daño a enemigos en estado Bleeding\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Enemigos de élite, Daño.",
+					"esMX": "+10% de daño a enemigos Bleeding\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Monstruos de Élite, Daño.",
+					"frFR": "+10% de dégâts contre les cibles sous l'effet « Bleeding »\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Monstres élites, Dégâts.",
+					"itIT": "Danni ai nemici Bleeding: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sanguinamento, Mostri élite, Danni.",
+					"jaJP": "Bleeding の敵へのダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 流血, エリート・モンスター, ダメージ.",
+					"koKR": "Bleeding 적에게 주는 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 출혈, 정예 괴물, 피해.",
+					"plPL": "+10% obrażeń zadawanych wrogom typu: Bleeding\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Krwawienie, Elitarne Potwory, Obrażenia.",
+					"ptBR": "+10% de dano contra inimigos Bleeding\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangramento, Monstros de Elite, Dano.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Bleeding \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Кровотечение, Особые монстры, Урон.",
+					"zhCN": "+10%对Bleeding 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 流血, 精英怪物, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15032,17 +15032,17 @@ let paragonData = {
 					"zhCN": "狂欢"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Bleeding betroffen sind\n+10 Stärke\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"esES": "+10% de daño a enemigos en estado Bleeding\n+10 p. de fuerza\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"esMX": "+10% de daño a enemigos Bleeding\n+10 de Fuerza\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"frFR": "+10% de dégâts contre les cibles sous l'effet « Bleeding »\n+10 force\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"itIT": "Danni ai nemici Bleeding: +10%\nForza: +10\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"jaJP": "Bleeding の敵へのダメージ+10%\n筋力+10\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"koKR": "Bleeding 적에게 주는 피해 +10%\n힘 +10\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"plPL": "+10% obrażeń zadawanych wrogom typu: Bleeding\n+10 siły\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"ptBR": "+10% de dano contra inimigos Bleeding\n+10 de Força\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"ruRU": "+10% к урону противникам под действием эффекта \"Bleeding \"\n+10 к силе\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength.",
-					"zhCN": "+10%对Bleeding 敌人的伤害\n+10点力量\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bleed, Damage, Strength."
+					"deDE": "+10% Schaden gegen Gegner, die von Bleeding betroffen sind\n+10 Stärke\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Schaden, Stärke.",
+					"esES": "+10% de daño a enemigos en estado Bleeding\n+10 p. de fuerza\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño, Fuerza.",
+					"esMX": "+10% de daño a enemigos Bleeding\n+10 de Fuerza\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño, Fuerza.",
+					"frFR": "+10% de dégâts contre les cibles sous l'effet « Bleeding »\n+10 force\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Dégâts, Force.",
+					"itIT": "Danni ai nemici Bleeding: +10%\nForza: +10\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sanguinamento, Danni, Forza.",
+					"jaJP": "Bleeding の敵へのダメージ+10%\n筋力+10\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 流血, ダメージ, 筋力.",
+					"koKR": "Bleeding 적에게 주는 피해 +10%\n힘 +10\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 출혈, 피해, 힘.",
+					"plPL": "+10% obrażeń zadawanych wrogom typu: Bleeding\n+10 siły\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Krwawienie, Obrażenia, Siła.",
+					"ptBR": "+10% de dano contra inimigos Bleeding\n+10 de Força\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangramento, Dano, Força.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Bleeding \"\n+10 к силе\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Кровотечение, Урон, Сила.",
+					"zhCN": "+10%对Bleeding 敌人的伤害\n+10点力量\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 流血, 伤害, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15076,17 +15076,17 @@ let paragonData = {
 					"zhCN": "张狂"
 				},
 				"descriptionLocalized": {
-					"deDE": "4.8% Reduktion von Schaden durch Gegner in der Nähe\n+10 Stärke\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"esES": "4.8% de reducción de daño de enemigos cercanos\n+10 p. de fuerza\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"esMX": "4.8% de reducción de daño de enemigos cercanos\n+10 de Fuerza\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"frFR": "4.8% de réduction des dégâts infligés par les cibles à proximité\n+10 force\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"itIT": "Riduzione danni da nemici vicini: 4.8%\nForza: +10\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"jaJP": "近距離の敵から受けるダメージ減少率4.8%\n筋力+10\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"koKR": "근거리에 있는 적에게 받는 피해 감소 4.8%\n힘 +10\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"plPL": "4.8% redukcji obrażeń od pobliskich wrogów\n+10 siły\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"ptBR": "4.8% de redução de dano recebido de inimigos próximos\n+10 de Força\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"ruRU": "-4.8% к урону от противников вблизи\n+10 к силе\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength.",
-					"zhCN": "4.8%来自近距离敌人的伤害减免\n+10点力量\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage Reduction, Strength."
+					"deDE": "4.8% Reduktion von Schaden durch Gegner in der Nähe\n+10 Stärke\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Schadensreduktion, Stärke.",
+					"esES": "4.8% de reducción de daño de enemigos cercanos\n+10 p. de fuerza\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Reducción de daño, Fuerza.",
+					"esMX": "4.8% de reducción de daño de enemigos cercanos\n+10 de Fuerza\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Reducción de daño, Fuerza.",
+					"frFR": "4.8% de réduction des dégâts infligés par les cibles à proximité\n+10 force\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Réduction des dégâts, Force.",
+					"itIT": "Riduzione danni da nemici vicini: 4.8%\nForza: +10\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Riduzione danni, Forza.",
+					"jaJP": "近距離の敵から受けるダメージ減少率4.8%\n筋力+10\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ減少, 筋力.",
+					"koKR": "근거리에 있는 적에게 받는 피해 감소 4.8%\n힘 +10\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 피해 감소, 힘.",
+					"plPL": "4.8% redukcji obrażeń od pobliskich wrogów\n+10 siły\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Redukcja Obrażeń, Siła.",
+					"ptBR": "4.8% de redução de dano recebido de inimigos próximos\n+10 de Força\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Redução de Dano, Força.",
+					"ruRU": "-4.8% к урону от противников вблизи\n+10 к силе\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уменьшение урона, Сила.",
+					"zhCN": "4.8%来自近距离敌人的伤害减免\n+10点力量\n\nBonus: Another 4.8% Damage Reduction from Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 伤害减免, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15117,17 +15117,17 @@ let paragonData = {
 					"zhCN": "暴徒"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Physical\n+4% Angriffsgeschwindigkeit\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"esES": "+10% de daño de Physical\n+4% de velocidad de ataque\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"esMX": "+10% de daño de Physical\n+4% de velocidad de ataque\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"frFR": "+10% de dégâts de Physical\n+4% à la vitesse d'attaque\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"itIT": "Danni da Physical: +10%\nVelocità d'attacco +4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"jaJP": "Physical ダメージ+10%\n攻撃速度+4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"koKR": "Physical 피해 +10%\n공격 속도 +4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"plPL": "+10% obrażeń typu: Physical\n+4% szybkości ataku\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"ptBR": "+10% de dano de Physical\n+4% de velocidade de ataque\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"ruRU": "+10% к урону (Physical )\n+4% к скорости атаки\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed.",
-					"zhCN": "+10%Physical 伤害\n+4%攻击速度\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Attack Speed."
+					"deDE": "+10% Schaden des Typs Physical\n+4% Angriffsgeschwindigkeit\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physisch, Schaden, Angriffsgeschwindigkeit.",
+					"esES": "+10% de daño de Physical\n+4% de velocidad de ataque\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Físico, Daño, Velocidad de ataque.",
+					"esMX": "+10% de daño de Physical\n+4% de velocidad de ataque\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Físico, Daño, Velocidad de ataque.",
+					"frFR": "+10% de dégâts de Physical\n+4% à la vitesse d'attaque\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts physiques, Dégâts, Vitesse d'attaque.",
+					"itIT": "Danni da Physical: +10%\nVelocità d'attacco +4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fisico, Danni, Velocità d'attacco.",
+					"jaJP": "Physical ダメージ+10%\n攻撃速度+4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 物理, ダメージ, 攻撃速度.",
+					"koKR": "Physical 피해 +10%\n공격 속도 +4%\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 물리, 피해, 공격 속도.",
+					"plPL": "+10% obrażeń typu: Physical\n+4% szybkości ataku\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fizyczne, Obrażenia, Szybkość Ataku.",
+					"ptBR": "+10% de dano de Physical\n+4% de velocidade de ataque\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Física, Dano, Velocidade de Ataque.",
+					"ruRU": "+10% к урону (Physical )\n+4% к скорости атаки\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Физический урон, Урон, Скорость атаки.",
+					"zhCN": "+10%Physical 伤害\n+4%攻击速度\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 物理, 伤害, 攻击速度."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15152,17 +15152,17 @@ let paragonData = {
 					"zhCN": "决心"
 				},
 				"descriptionLocalized": {
-					"deDE": "+100 Rüstung\n+10 Willenskraft\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"esES": "+100 p. de armadura\n+10 p. de voluntad\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"esMX": "+100 de armadura\n+10 de Voluntad\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"frFR": "+100 à l'armure\n+10 volonté\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"itIT": "Armatura: +100\nVolontà: +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"jaJP": "アーマー+100\n意志力+10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"koKR": "방어도 +100\n의지력 +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"plPL": "+100 pancerza\n+10 siły woli\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"ptBR": "+100 de armadura\n+10 de Determinação\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"ruRU": "+100 ед. брони\n+10 к силе воли\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower.",
-					"zhCN": "+100 护甲值\n+10点意力\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Willpower."
+					"deDE": "+100 Rüstung\n+10 Willenskraft\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Rüstung, Willenskraft.",
+					"esES": "+100 p. de armadura\n+10 p. de voluntad\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Voluntad.",
+					"esMX": "+100 de armadura\n+10 de Voluntad\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Voluntad.",
+					"frFR": "+100 à l'armure\n+10 volonté\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armure, Volonté.",
+					"itIT": "Armatura: +100\nVolontà: +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armatura, Volontà.",
+					"jaJP": "アーマー+100\n意志力+10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 装甲, 意志力.",
+					"koKR": "방어도 +100\n의지력 +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 방어도, 의지력.",
+					"plPL": "+100 pancerza\n+10 siły woli\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Pancerz, Siła Woli.",
+					"ptBR": "+100 de armadura\n+10 de Determinação\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Determinação.",
+					"ruRU": "+100 ед. брони\n+10 к силе воли\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Броня, Сила воли.",
+					"zhCN": "+100 护甲值\n+10点意力\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 护甲, 意力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -15190,17 +15190,17 @@ let paragonData = {
 					"zhCN": "不法者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+100 Rüstung\n+10 Geschicklichkeit\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"esES": "+100 p. de armadura\n+10 p. de destreza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"esMX": "+100 de armadura\n+10 de Destreza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"frFR": "+100 à l'armure\n+10 dextérité\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"itIT": "Armatura: +100\nDestrezza: +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"jaJP": "アーマー+100\n敏捷性+10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"koKR": "방어도 +100\n민첩 +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"plPL": "+100 pancerza\n+10 zręczności\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"ptBR": "+100 de armadura\n+10 de Destreza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"ruRU": "+100 ед. брони\n+10 к ловкости\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity.",
-					"zhCN": "+100 护甲值\n+10点敏捷\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Dexterity."
+					"deDE": "+100 Rüstung\n+10 Geschicklichkeit\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Rüstung, Geschicklichkeit.",
+					"esES": "+100 p. de armadura\n+10 p. de destreza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Destreza.",
+					"esMX": "+100 de armadura\n+10 de Destreza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Destreza.",
+					"frFR": "+100 à l'armure\n+10 dextérité\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armure, Dextérité.",
+					"itIT": "Armatura: +100\nDestrezza: +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armatura, Destrezza.",
+					"jaJP": "アーマー+100\n敏捷性+10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 装甲, 敏捷性.",
+					"koKR": "방어도 +100\n민첩 +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 방어도, 민첩.",
+					"plPL": "+100 pancerza\n+10 zręczności\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Pancerz, Zręczność.",
+					"ptBR": "+100 de armadura\n+10 de Destreza\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Destreza.",
+					"ruRU": "+100 ед. брони\n+10 к ловкости\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Броня, Ловкость.",
+					"zhCN": "+100 护甲值\n+10点敏捷\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 护甲, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -15225,17 +15225,17 @@ let paragonData = {
 					"zhCN": "眼光敏锐"
 				},
 				"descriptionLocalized": {
-					"deDE": "{#} Sek. lang +10% Schaden nach Ausweichen eines Angriffs\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"esES": "+10% de daño durante {#} s tras esquivar un ataque\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"esMX": "+10% de daño durante {#} segundos después de esquivar un ataque\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"frFR": "+10% de dégâts pendant {#} s après avoir esquivé une attaque\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"itIT": "Danni per {#} s dopo la schivata di un attacco: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"jaJP": "攻撃を回避した後{#} 秒間、ダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"koKR": "공격 회피 후 {#} 초 동안 공격력 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"plPL": "+10% obrażeń przez {#} sek. po uniknięciu ataku\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"ptBR": "+10% de dano por {#} segundos depois de se esquivar de um ataque\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"ruRU": "+10% к урону на {#} сек. после удачного уклонения\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage.",
-					"zhCN": "+10%躲闪攻击后{#} 秒内获得的伤害加成\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Dodge, Damage."
+					"deDE": "{#} Sek. lang +10% Schaden nach Ausweichen eines Angriffs\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elitemonster, Ausweichen, Schaden.",
+					"esES": "+10% de daño durante {#} s tras esquivar un ataque\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Enemigos de élite, Esquivar, Daño.",
+					"esMX": "+10% de daño durante {#} segundos después de esquivar un ataque\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Monstruos de Élite, Evasión, Daño.",
+					"frFR": "+10% de dégâts pendant {#} s après avoir esquivé une attaque\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Monstres élites, Esquive, Dégâts.",
+					"itIT": "Danni per {#} s dopo la schivata di un attacco: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Mostri élite, Schivata, Danni.",
+					"jaJP": "攻撃を回避した後{#} 秒間、ダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: エリート・モンスター, 回避, ダメージ.",
+					"koKR": "공격 회피 후 {#} 초 동안 공격력 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: 정예 괴물, 회피, 피해.",
+					"plPL": "+10% obrażeń przez {#} sek. po uniknięciu ataku\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Elitarne Potwory, Unik, Obrażenia.",
+					"ptBR": "+10% de dano por {#} segundos depois de se esquivar de um ataque\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Monstros de Elite, Esquiva, Dano.",
+					"ruRU": "+10% к урону на {#} сек. после удачного уклонения\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: Особые монстры, Уклонение, Урон.",
+					"zhCN": "+10%躲闪攻击后{#} 秒内获得的伤害加成\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage for {#} Seconds After Dodging an Attack if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 躲闪, 伤害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -15260,17 +15260,17 @@ let paragonData = {
 					"zhCN": "原始力量"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Physical\n+10 Stärke\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"esES": "+10% de daño de Physical\n+10 p. de fuerza\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"esMX": "+10% de daño de Physical\n+10 de Fuerza\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"frFR": "+10% de dégâts de Physical\n+10 force\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"itIT": "Danni da Physical: +10%\nForza: +10\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"jaJP": "Physical ダメージ+10%\n筋力+10\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"koKR": "Physical 피해 +10%\n힘 +10\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"plPL": "+10% obrażeń typu: Physical\n+10 siły\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"ptBR": "+10% de dano de Physical\n+10 de Força\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"ruRU": "+10% к урону (Physical )\n+10 к силе\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength.",
-					"zhCN": "+10%Physical 伤害\n+10点力量\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physical, Damage, Strength."
+					"deDE": "+10% Schaden des Typs Physical\n+10 Stärke\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Physisch, Schaden, Stärke.",
+					"esES": "+10% de daño de Physical\n+10 p. de fuerza\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Físico, Daño, Fuerza.",
+					"esMX": "+10% de daño de Physical\n+10 de Fuerza\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Físico, Daño, Fuerza.",
+					"frFR": "+10% de dégâts de Physical\n+10 force\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts physiques, Dégâts, Force.",
+					"itIT": "Danni da Physical: +10%\nForza: +10\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fisico, Danni, Forza.",
+					"jaJP": "Physical ダメージ+10%\n筋力+10\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 物理, ダメージ, 筋力.",
+					"koKR": "Physical 피해 +10%\n힘 +10\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 물리, 피해, 힘.",
+					"plPL": "+10% obrażeń typu: Physical\n+10 siły\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fizyczne, Obrażenia, Siła.",
+					"ptBR": "+10% de dano de Physical\n+10 de Força\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Física, Dano, Força.",
+					"ruRU": "+10% к урону (Physical )\n+10 к силе\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Физический урон, Урон, Сила.",
+					"zhCN": "+10%Physical 伤害\n+10点力量\n\nBonus: Another +10% Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 物理, 伤害, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15304,17 +15304,17 @@ let paragonData = {
 					"zhCN": "杀戮"
 				},
 				"descriptionLocalized": {
-					"deDE": "+100 Rüstung\n+4% Heilung durch Tränke\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"esES": "+100 p. de armadura\n+4% de curación de pociones\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"esMX": "+100 de armadura\n+4% de sanación de pociones\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"frFR": "+100 à l'armure\n+4% de soins de la potion\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"itIT": "Armatura: +100\nCure pozione: +4%\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"jaJP": "アーマー+100\nポーションによる回復+4%\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"koKR": "방어도 +100\n물약 치유량 +4%\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"plPL": "+100 pancerza\n+4% do leczenia miksturą\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"ptBR": "+100 de armadura\n+4% de cura de poção\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"ruRU": "+100 ед. брони\n+4% к исцелению от зелий\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor.",
-					"zhCN": "+100 护甲值\n4%药水恢复效果\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Armor."
+					"deDE": "+100 Rüstung\n+4% Heilung durch Tränke\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Heilung, Rüstung.",
+					"esES": "+100 p. de armadura\n+4% de curación de pociones\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Curación, Armadura.",
+					"esMX": "+100 de armadura\n+4% de sanación de pociones\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Sanación, Armadura.",
+					"frFR": "+100 à l'armure\n+4% de soins de la potion\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Soins, Armure.",
+					"itIT": "Armatura: +100\nCure pozione: +4%\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione, Armatura.",
+					"jaJP": "アーマー+100\nポーションによる回復+4%\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 回復, 装甲.",
+					"koKR": "방어도 +100\n물약 치유량 +4%\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 치유, 방어도.",
+					"plPL": "+100 pancerza\n+4% do leczenia miksturą\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie, Pancerz.",
+					"ptBR": "+100 de armadura\n+4% de cura de poção\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Cura, Armadura.",
+					"ruRU": "+100 ед. брони\n+4% к исцелению от зелий\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление, Броня.",
+					"zhCN": "+100 护甲值\n4%药水恢复效果\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 治疗, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15348,17 +15348,17 @@ let paragonData = {
 					"zhCN": "诡计"
 				},
 				"descriptionLocalized": {
-					"deDE": "6% Reduktion von Schaden durch Gegner, die von Slowed betroffen sind\n+10 Geschicklichkeit\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"esES": "6% de reducción de daño de enemigos en estado Slowed\n+10 p. de destreza\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"esMX": "6% de reducción de daño de enemigos Slowed\n+10 de Destreza\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"frFR": "6% de réduction des dégâts infligés par les cibles sous l'effet « Slowed »\n+10 dextérité\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"itIT": "Riduzione danni subiti dai nemici Slowed: 6%\nDestrezza: +10\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"jaJP": "Slowed の敵からのダメージ減少率6%\n敏捷性+10\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"koKR": "Slowed 적에게 받는 피해 감소 6%\n민첩 +10\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"plPL": "6% redukcji obrażeń od wrogów: Slowed\n+10 zręczności\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"ptBR": "6% de redução de dano recebido de inimigos sob Slowed\n+10 de Destreza\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"ruRU": "-6% к урону от противников, находящихся под действием эффекта \"Slowed \"\n+10 к ловкости\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity.",
-					"zhCN": "6%Slowed 敌人伤害减免\n+10点敏捷\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage Reduction, Dexterity."
+					"deDE": "6% Reduktion von Schaden durch Gegner, die von Slowed betroffen sind\n+10 Geschicklichkeit\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Kontrollverlust, Schadensreduktion, Geschicklichkeit.",
+					"esES": "6% de reducción de daño de enemigos en estado Slowed\n+10 p. de destreza\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de masas, Reducción de daño, Destreza.",
+					"esMX": "6% de reducción de daño de enemigos Slowed\n+10 de Destreza\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de multitudes, Reducción de daño, Destreza.",
+					"frFR": "6% de réduction des dégâts infligés par les cibles sous l'effet « Slowed »\n+10 dextérité\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Perte de contrôle, Réduction des dégâts, Dextérité.",
+					"itIT": "Riduzione danni subiti dai nemici Slowed: 6%\nDestrezza: +10\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Effetti debilitanti, Riduzione danni, Destrezza.",
+					"jaJP": "Slowed の敵からのダメージ減少率6%\n敏捷性+10\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 操作障害効果, ダメージ減少, 敏捷性.",
+					"koKR": "Slowed 적에게 받는 피해 감소 6%\n민첩 +10\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 군중 제어, 피해 감소, 민첩.",
+					"plPL": "6% redukcji obrażeń od wrogów: Slowed\n+10 zręczności\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ograniczanie Kontroli, Redukcja Obrażeń, Zręczność.",
+					"ptBR": "6% de redução de dano recebido de inimigos sob Slowed\n+10 de Destreza\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Controle de Grupo, Redução de Dano, Destreza.",
+					"ruRU": "-6% к урону от противников, находящихся под действием эффекта \"Slowed \"\n+10 к ловкости\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Контроль, Уменьшение урона, Ловкость.",
+					"zhCN": "6%Slowed 敌人伤害减免\n+10点敏捷\n\nBonus: Another 6% Damage Reduction from Slowed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 群控, 伤害减免, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -15383,17 +15383,17 @@ let paragonData = {
 					"zhCN": "傲慢"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch verwundbare Gegner\n+10 Stärke\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"esES": "4% de reducción de daño de enemigos vulnerables\n+10 p. de fuerza\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"esMX": "4% de reducción de daño de enemigos vulnerables\n+10 de Fuerza\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n+10 force\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nForza: +10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"jaJP": "脆弱状態の敵からのダメージ減少率4%\n筋力+10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"koKR": "취약한 적에 대한 피해 감소 4%\n힘 +10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n+10 siły\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n+10 de Força\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"ruRU": "-4% к урону от уязвимых противников\n+10 к силе\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength.",
-					"zhCN": "4%对易伤敌人的伤害减免\n+10点力量\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Strength."
+					"deDE": "4% Reduktion von Schaden durch verwundbare Gegner\n+10 Stärke\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schadensreduktion, Stärke.",
+					"esES": "4% de reducción de daño de enemigos vulnerables\n+10 p. de fuerza\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Fuerza.",
+					"esMX": "4% de reducción de daño de enemigos vulnerables\n+10 de Fuerza\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Fuerza.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n+10 force\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Réduction des dégâts, Force.",
+					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nForza: +10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Riduzione danni, Forza.",
+					"jaJP": "脆弱状態の敵からのダメージ減少率4%\n筋力+10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ減少, 筋力.",
+					"koKR": "취약한 적에 대한 피해 감소 4%\n힘 +10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해 감소, 힘.",
+					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n+10 siły\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Redukcja Obrażeń, Siła.",
+					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n+10 de Força\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Redução de Dano, Força.",
+					"ruRU": "-4% к урону от уязвимых противников\n+10 к силе\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Уменьшение урона, Сила.",
+					"zhCN": "4%对易伤敌人的伤害减免\n+10点力量\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15424,17 +15424,17 @@ let paragonData = {
 					"zhCN": "毁坏"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Stärke\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+10 p. de fuerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Fuerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+10 force\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nForza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n筋力+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n힘 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+10 siły\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Força\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к силе\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+10点力量\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength."
+					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Stärke\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Stärke.",
+					"esES": "+10% Damage to Vulnerable Enemies\n+10 p. de fuerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Fuerza.",
+					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Fuerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Fuerza.",
+					"frFR": "+10% Damage to Vulnerable Enemies\n+10 force\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Force.",
+					"itIT": "+10% Damage to Vulnerable Enemies\nForza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Forza.",
+					"jaJP": "+10% Damage to Vulnerable Enemies\n筋力+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 筋力.",
+					"koKR": "+10% Damage to Vulnerable Enemies\n힘 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 힘.",
+					"plPL": "+10% Damage to Vulnerable Enemies\n+10 siły\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Siła.",
+					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Força\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Força.",
+					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к силе\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Сила.",
+					"zhCN": "+10% Damage to Vulnerable Enemies\n+10点力量\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15468,17 +15468,17 @@ let paragonData = {
 					"zhCN": "精力充沛"
 				},
 				"descriptionLocalized": {
-					"deDE": "+12.5% Schaden bei hohem Leben\n+12% Überwältigungsschaden\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"esES": "+12.5% de daño en estado saludable\n+12% de daño de arrollamiento\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"esMX": "+12.5% de daño mientras estás saludable\n+12% de daño abrumador\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"frFR": "+12.5% de dégâts lorsque vous êtes en bonne santé\n+12% de dégâts d'accablement\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"itIT": "Danni mentre sei in salute: +12.5%\nDanni da Sopraffazione: +12%\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"jaJP": "健全状態時のダメージ+12.5%\nオーバーパワー・ダメージ+12%\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"koKR": "건강 상태일 때 공격력 +12.5%\n제압 피해 +12%\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"plPL": "+12.5% zadawanych obrażeń, jeśli postać jest w pełni sił\n+12% obrażeń od przytłoczenia\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"ptBR": "+12.5% de dano enquanto saudável\n+12% de dano de Golpe Brutal\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"ruRU": "+12.5% к урону при высоком уровне здоровья\n+12% к подавляющему урону\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage.",
-					"zhCN": "+12.5%健康时伤害\n+12%压制伤害\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Overpower, Damage."
+					"deDE": "+12.5% Schaden bei hohem Leben\n+12% Überwältigungsschaden\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Gesund, Überwältigen, Schaden.",
+					"esES": "+12.5% de daño en estado saludable\n+12% de daño de arrollamiento\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saludable, Arrollamiento, Daño.",
+					"esMX": "+12.5% de daño mientras estás saludable\n+12% de daño abrumador\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saludable, Abrumar, Daño.",
+					"frFR": "+12.5% de dégâts lorsque vous êtes en bonne santé\n+12% de dégâts d'accablement\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: En bonne santé, Accablement, Dégâts.",
+					"itIT": "Danni mentre sei in salute: +12.5%\nDanni da Sopraffazione: +12%\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: In salute, Sopraffazione, Danni.",
+					"jaJP": "健全状態時のダメージ+12.5%\nオーバーパワー・ダメージ+12%\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 健全, オーバーパワー, ダメージ.",
+					"koKR": "건강 상태일 때 공격력 +12.5%\n제압 피해 +12%\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 건강, 제압, 피해.",
+					"plPL": "+12.5% zadawanych obrażeń, jeśli postać jest w pełni sił\n+12% obrażeń od przytłoczenia\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Pełnia Sił, Przytłoczenie, Obrażenia.",
+					"ptBR": "+12.5% de dano enquanto saudável\n+12% de dano de Golpe Brutal\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saudável, Golpe Brutal, Dano.",
+					"ruRU": "+12.5% к урону при высоком уровне здоровья\n+12% к подавляющему урону\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Высокое здоровье, Подавление, Урон.",
+					"zhCN": "+12.5%健康时伤害\n+12%压制伤害\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 健康, 压制, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15509,17 +15509,17 @@ let paragonData = {
 					"zhCN": "残忍"
 				},
 				"descriptionLocalized": {
-					"deDE": "+30% Überwältigungsschaden\n+10 Stärke\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"esES": "+30% de daño de arrollamiento\n+10 p. de fuerza\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"esMX": "+30% de daño abrumador\n+10 de Fuerza\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"frFR": "+30% de dégâts d'accablement\n+10 force\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"itIT": "Danni da Sopraffazione: +30%\nForza: +10\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"jaJP": "オーバーパワー・ダメージ+30%\n筋力+10\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"koKR": "제압 피해 +30%\n힘 +10\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"plPL": "+30% obrażeń od przytłoczenia\n+10 siły\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"ptBR": "+30% de dano de Golpe Brutal\n+10 de Força\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"ruRU": "+30% к подавляющему урону\n+10 к силе\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength.",
-					"zhCN": "+30%压制伤害\n+10点力量\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Strength."
+					"deDE": "+30% Überwältigungsschaden\n+10 Stärke\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Überwältigen, Schaden, Stärke.",
+					"esES": "+30% de daño de arrollamiento\n+10 p. de fuerza\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Arrollamiento, Daño, Fuerza.",
+					"esMX": "+30% de daño abrumador\n+10 de Fuerza\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Abrumar, Daño, Fuerza.",
+					"frFR": "+30% de dégâts d'accablement\n+10 force\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Accablement, Dégâts, Force.",
+					"itIT": "Danni da Sopraffazione: +30%\nForza: +10\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sopraffazione, Danni, Forza.",
+					"jaJP": "オーバーパワー・ダメージ+30%\n筋力+10\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: オーバーパワー, ダメージ, 筋力.",
+					"koKR": "제압 피해 +30%\n힘 +10\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: 제압, 피해, 힘.",
+					"plPL": "+30% obrażeń od przytłoczenia\n+10 siły\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Przytłoczenie, Obrażenia, Siła.",
+					"ptBR": "+30% de dano de Golpe Brutal\n+10 de Força\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpe Brutal, Dano, Força.",
+					"ruRU": "+30% к подавляющему урону\n+10 к силе\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: Подавление, Урон, Сила.",
+					"zhCN": "+30%压制伤害\n+10点力量\n\nBonus: Another +30% Overpower Damage if requirements met:\n{thresholdRequirements}\n\nTags: 压制, 伤害, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15550,17 +15550,17 @@ let paragonData = {
 					"zhCN": "强迫"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden\n+10 Willenskraft\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"esES": "+10% de daño\n+10 p. de voluntad\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"esMX": "+10% de daño\n+10 de Voluntad\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"frFR": "+10% de dégâts\n+10 volonté\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"itIT": "Danni: +10%\nVolontà: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"jaJP": "ダメージ +10%\n意志力+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"koKR": "공격력 +10%\n의지력 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"plPL": "+10% obrażeń\n+10 siły woli\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"ptBR": "+10% de dano\n+10 de Determinação\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"ruRU": "+10% к урону\n+10 к силе воли\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower.",
-					"zhCN": "+10%伤害\n+10点意力\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Willpower."
+					"deDE": "+10% Schaden\n+10 Willenskraft\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Willenskraft.",
+					"esES": "+10% de daño\n+10 p. de voluntad\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Voluntad.",
+					"esMX": "+10% de daño\n+10 de Voluntad\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Voluntad.",
+					"frFR": "+10% de dégâts\n+10 volonté\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Volonté.",
+					"itIT": "Danni: +10%\nVolontà: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Volontà.",
+					"jaJP": "ダメージ +10%\n意志力+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 意志力.",
+					"koKR": "공격력 +10%\n의지력 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 의지력.",
+					"plPL": "+10% obrażeń\n+10 siły woli\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Siła Woli.",
+					"ptBR": "+10% de dano\n+10 de Determinação\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Determinação.",
+					"ruRU": "+10% к урону\n+10 к силе воли\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Сила воли.",
+					"zhCN": "+10%伤害\n+10点意力\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 意力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -15588,17 +15588,17 @@ let paragonData = {
 					"zhCN": "决断"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Widerstand gegen alle Schadensarten\n+10 Willenskraft\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"esES": "4% de resistencia a todos los elementos\n+10 p. de voluntad\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"esMX": "4% de resistencia a todos los elementos\n+10 de Voluntad\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"frFR": "4% de résistance à tous les éléments\n+10 volonté\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"itIT": "Resistenza a tutti gli elementi: 4%\nVolontà: +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"jaJP": "全属性耐性4%\n意志力+10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"koKR": "모든 원소 저항 4%\n의지력 +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"plPL": "4% odporności na wszystkie żywioły\n+10 siły woli\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"ptBR": "4% de resistência a todos os elementos\n+10 de Determinação\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"ruRU": "Сопротивление стихиям – 4%\n+10 к силе воли\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical.",
-					"zhCN": "4%全元素抗性\n+10点意力\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Willpower, Non-Physical."
+					"deDE": "4% Widerstand gegen alle Schadensarten\n+10 Willenskraft\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Willenskraft, Nichtphysisch.",
+					"esES": "4% de resistencia a todos los elementos\n+10 p. de voluntad\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Voluntad, No física.",
+					"esMX": "4% de resistencia a todos los elementos\n+10 de Voluntad\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Voluntad, No físico.",
+					"frFR": "4% de résistance à tous les éléments\n+10 volonté\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Volonté, Dégâts non physiques.",
+					"itIT": "Resistenza a tutti gli elementi: 4%\nVolontà: +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Volontà, Non fisico.",
+					"jaJP": "全属性耐性4%\n意志力+10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 意志力, 非物理.",
+					"koKR": "모든 원소 저항 4%\n의지력 +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 의지력, 비물리.",
+					"plPL": "4% odporności na wszystkie żywioły\n+10 siły woli\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Siła Woli, Niefizyczne.",
+					"ptBR": "4% de resistência a todos os elementos\n+10 de Determinação\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Determinação, Não física.",
+					"ruRU": "Сопротивление стихиям – 4%\n+10 к силе воли\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Сила воли, Нефизический урон.",
+					"zhCN": "4%全元素抗性\n+10点意力\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 意力, 非物理."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15632,17 +15632,17 @@ let paragonData = {
 					"zhCN": "至尊"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden\n+4% Leben\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"esES": "+10% de daño\n+4% de vida\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"esMX": "+10% de daño\n+4% de vida\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"frFR": "+10% de dégâts\n+4% de points de vie\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"itIT": "Danni: +10%\nPunti vita: +4%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"jaJP": "ダメージ +10%\nライフ+4%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"koKR": "공격력 +10%\n생명력 +4%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"plPL": "+10% obrażeń\n+4% zdrowia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"ptBR": "+10% de dano\n+4% de vida\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"ruRU": "+10% к урону\n+4% к здоровью\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life.",
-					"zhCN": "+10%伤害\n+4%生命\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Life."
+					"deDE": "+10% Schaden\n+4% Leben\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Leben.",
+					"esES": "+10% de daño\n+4% de vida\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vida.",
+					"esMX": "+10% de daño\n+4% de vida\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vida.",
+					"frFR": "+10% de dégâts\n+4% de points de vie\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vie.",
+					"itIT": "Danni: +10%\nPunti vita: +4%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Vita.",
+					"jaJP": "ダメージ +10%\nライフ+4%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, ライフ.",
+					"koKR": "공격력 +10%\n생명력 +4%\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 생명력.",
+					"plPL": "+10% obrażeń\n+4% zdrowia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Zdrowie.",
+					"ptBR": "+10% de dano\n+4% de vida\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Vida.",
+					"ruRU": "+10% к урону\n+4% к здоровью\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Здоровье.",
+					"zhCN": "+10%伤害\n+4%生命\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15679,17 +15679,17 @@ let paragonData = {
 					"zhCN": "嚣狂"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch verwundbare Gegner\n+10 Willenskraft\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"esES": "4% de reducción de daño de enemigos vulnerables\n+10 p. de voluntad\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"esMX": "4% de reducción de daño de enemigos vulnerables\n+10 de Voluntad\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n+10 volonté\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nVolontà: +10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"jaJP": "脆弱状態の敵からのダメージ減少率4%\n意志力+10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"koKR": "취약한 적에 대한 피해 감소 4%\n의지력 +10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n+10 siły woli\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n+10 de Determinação\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"ruRU": "-4% к урону от уязвимых противников\n+10 к силе воли\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower.",
-					"zhCN": "4%对易伤敌人的伤害减免\n+10点意力\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Willpower."
+					"deDE": "4% Reduktion von Schaden durch verwundbare Gegner\n+10 Willenskraft\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schadensreduktion, Willenskraft.",
+					"esES": "4% de reducción de daño de enemigos vulnerables\n+10 p. de voluntad\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Voluntad.",
+					"esMX": "4% de reducción de daño de enemigos vulnerables\n+10 de Voluntad\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Voluntad.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n+10 volonté\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Réduction des dégâts, Volonté.",
+					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nVolontà: +10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Riduzione danni, Volontà.",
+					"jaJP": "脆弱状態の敵からのダメージ減少率4%\n意志力+10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ減少, 意志力.",
+					"koKR": "취약한 적에 대한 피해 감소 4%\n의지력 +10\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해 감소, 의지력.",
+					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n+10 siły woli\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Redukcja Obrażeń, Siła Woli.",
+					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n+10 de Determinação\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Redução de Dano, Determinação.",
+					"ruRU": "-4% к урону от уязвимых противников\n+10 к силе воли\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Уменьшение урона, Сила воли.",
+					"zhCN": "4%对易伤敌人的伤害减免\n+10点意力\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 意力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -15717,17 +15717,17 @@ let paragonData = {
 					"zhCN": "勇气"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Leben\n+10 Willenskraft\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"esES": "+4% de vida\n+10 p. de voluntad\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"esMX": "+4% de vida\n+10 de Voluntad\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"frFR": "+4% de points de vie\n+10 volonté\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"itIT": "Punti vita: +4%\nVolontà: +10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"jaJP": "ライフ+4%\n意志力+10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"koKR": "생명력 +4%\n의지력 +10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"plPL": "+4% zdrowia\n+10 siły woli\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"ptBR": "+4% de vida\n+10 de Determinação\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"ruRU": "+4% к здоровью\n+10 к силе воли\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower.",
-					"zhCN": "+4%生命\n+10点意力\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Willpower."
+					"deDE": "+4% Leben\n+10 Willenskraft\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Leben, Willenskraft.",
+					"esES": "+4% de vida\n+10 p. de voluntad\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Voluntad.",
+					"esMX": "+4% de vida\n+10 de Voluntad\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Voluntad.",
+					"frFR": "+4% de points de vie\n+10 volonté\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vie, Volonté.",
+					"itIT": "Punti vita: +4%\nVolontà: +10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vita, Volontà.",
+					"jaJP": "ライフ+4%\n意志力+10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: ライフ, 意志力.",
+					"koKR": "생명력 +4%\n의지력 +10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: 생명력, 의지력.",
+					"plPL": "+4% zdrowia\n+10 siły woli\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Zdrowie, Siła Woli.",
+					"ptBR": "+4% de vida\n+10 de Determinação\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Determinação.",
+					"ruRU": "+4% к здоровью\n+10 к силе воли\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Здоровье, Сила воли.",
+					"zhCN": "+4%生命\n+10点意力\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: 生命, 意力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15761,17 +15761,17 @@ let paragonData = {
 					"zhCN": "再生"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% erhaltene Heilung\n+10 Willenskraft\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"esES": "+4% de curación recibida\n+10 p. de voluntad\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"esMX": "+4% de sanación recibida\n+10 de Voluntad\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"frFR": "+4% de soins reçus\n+10 volonté\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"itIT": "Cure ricevute: +4%\nVolontà: +10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"jaJP": "受ける回復量+4%\n意志力+10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"koKR": "받는 치유량 +4%\n의지력 +10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"plPL": "+4% otrzymywanego leczenia\n+10 siły woli\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"ptBR": "+4% de cura recebida\n+10 de Determinação\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"ruRU": "+0.04 *100|1%|] к получаемому исцелению\n+10 к силе воли\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower.",
-					"zhCN": "+4%受到的治疗\n+10点意力\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Willpower."
+					"deDE": "+4% erhaltene Heilung\n+10 Willenskraft\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Heilung, Willenskraft.",
+					"esES": "+4% de curación recibida\n+10 p. de voluntad\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Curación, Voluntad.",
+					"esMX": "+4% de sanación recibida\n+10 de Voluntad\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Sanación, Voluntad.",
+					"frFR": "+4% de soins reçus\n+10 volonté\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Soins, Volonté.",
+					"itIT": "Cure ricevute: +4%\nVolontà: +10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione, Volontà.",
+					"jaJP": "受ける回復量+4%\n意志力+10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: 回復, 意志力.",
+					"koKR": "받는 치유량 +4%\n의지력 +10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: 치유, 의지력.",
+					"plPL": "+4% otrzymywanego leczenia\n+10 siły woli\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie, Siła Woli.",
+					"ptBR": "+4% de cura recebida\n+10 de Determinação\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Cura, Determinação.",
+					"ruRU": "+0.04 *100|1%|] к получаемому исцелению\n+10 к силе воли\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление, Сила воли.",
+					"zhCN": "+4%受到的治疗\n+10点意力\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: 治疗, 意力."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -15799,17 +15799,17 @@ let paragonData = {
 					"zhCN": "狂野"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Werwolf\n+10 Willenskraft\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"esES": "+10% de daño de habilidades de Hombre lobo\n+10 p. de voluntad\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"esMX": "+10% de daño de habilidad Hombre Lobo\n+10 de Voluntad\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"frFR": "+10% de dégâts de compétence (Lycanthrope )\n+10 volonté\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"itIT": "Danni abilità di Lupo Mannaro: +10%\nVolontà: +10\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"jaJP": "スキルダメージ+10% 人狼\n意志力+10\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"koKR": "늑대인간 기술 피해 +10%\n의지력 +10\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"plPL": "+10% obrażeń od umiejętności (Wilkołak )\n+10 siły woli\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"ptBR": "+10% de dano de habilidade Lobisomem\n+10 de Determinação\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"ruRU": "+10% к урону от умений категории \"Облик волка \"\n+10 к силе воли\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower.",
-					"zhCN": "+10%狼人 技能伤害\n+10点意力\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werewolf, Damage, Willpower."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Werwolf\n+10 Willenskraft\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werwolf, Schaden, Willenskraft.",
+					"esES": "+10% de daño de habilidades de Hombre lobo\n+10 p. de voluntad\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hombre lobo, Daño, Voluntad.",
+					"esMX": "+10% de daño de habilidad Hombre Lobo\n+10 de Voluntad\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hombre Lobo, Daño, Voluntad.",
+					"frFR": "+10% de dégâts de compétence (Lycanthrope )\n+10 volonté\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lycanthrope, Dégâts, Volonté.",
+					"itIT": "Danni abilità di Lupo Mannaro: +10%\nVolontà: +10\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lupo Mannaro, Danni, Volontà.",
+					"jaJP": "スキルダメージ+10% 人狼\n意志力+10\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 人狼, ダメージ, 意志力.",
+					"koKR": "늑대인간 기술 피해 +10%\n의지력 +10\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 늑대인간, 피해, 의지력.",
+					"plPL": "+10% obrażeń od umiejętności (Wilkołak )\n+10 siły woli\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Wilkołak, Obrażenia, Siła Woli.",
+					"ptBR": "+10% de dano de habilidade Lobisomem\n+10 de Determinação\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lobisomem, Dano, Determinação.",
+					"ruRU": "+10% к урону от умений категории \"Облик волка \"\n+10 к силе воли\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Облик волка, Урон, Сила воли.",
+					"zhCN": "+10%狼人 技能伤害\n+10点意力\n\nBonus: Another +10% Werewolf Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 狼人, 伤害, 意力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15843,17 +15843,17 @@ let paragonData = {
 					"zhCN": "颠覆"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Poisoned betroffen sind\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"esES": "+10% de daño a enemigos en estado Poisoned\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"esMX": "+10% de daño a enemigos Poisoned\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"frFR": "+10% de dégâts contre les cibles sous l'effet « Poisoned »\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"itIT": "Danni ai nemici Poisoned: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"jaJP": "Poisoned の敵へのダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"koKR": "Poisoned 적에게 주는 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"plPL": "+10% obrażeń zadawanych wrogom typu: Poisoned\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"ptBR": "+10% de dano contra inimigos Poisoned\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"ruRU": "+10% к урону противникам под действием эффекта \"Poisoned \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage.",
-					"zhCN": "+10%对Poisoned 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Elite Monsters, Damage."
+					"deDE": "+10% Schaden gegen Gegner, die von Poisoned betroffen sind\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Elitemonster, Schaden.",
+					"esES": "+10% de daño a enemigos en estado Poisoned\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Enemigos de élite, Daño.",
+					"esMX": "+10% de daño a enemigos Poisoned\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Monstruos de Élite, Daño.",
+					"frFR": "+10% de dégâts contre les cibles sous l'effet « Poisoned »\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Monstres élites, Dégâts.",
+					"itIT": "Danni ai nemici Poisoned: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veleno, Mostri élite, Danni.",
+					"jaJP": "Poisoned の敵へのダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒, エリート・モンスター, ダメージ.",
+					"koKR": "Poisoned 적에게 주는 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 독, 정예 괴물, 피해.",
+					"plPL": "+10% obrażeń zadawanych wrogom typu: Poisoned\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Trucizna, Elitarne Potwory, Obrażenia.",
+					"ptBR": "+10% de dano contra inimigos Poisoned\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Monstros de Elite, Dano.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Poisoned \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Яд, Особые монстры, Урон.",
+					"zhCN": "+10%对Poisoned 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒素, 精英怪物, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15887,17 +15887,17 @@ let paragonData = {
 					"zhCN": "剂量"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Heilung durch Tränke\n+10 Geschicklichkeit\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"esES": "+4% de curación de pociones\n+10 p. de destreza\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"esMX": "+4% de sanación de pociones\n+10 de Destreza\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"frFR": "+4% de soins de la potion\n+10 dextérité\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"itIT": "Cure pozione: +4%\nDestrezza: +10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"jaJP": "ポーションによる回復+4%\n敏捷性+10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"koKR": "물약 치유량 +4%\n민첩 +10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"plPL": "+4% do leczenia miksturą\n+10 zręczności\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"ptBR": "+4% de cura de poção\n+10 de Destreza\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"ruRU": "+4% к исцелению от зелий\n+10 к ловкости\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity.",
-					"zhCN": "4%药水恢复效果\n+10点敏捷\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Dexterity."
+					"deDE": "+4% Heilung durch Tränke\n+10 Geschicklichkeit\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Heilung, Geschicklichkeit.",
+					"esES": "+4% de curación de pociones\n+10 p. de destreza\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Curación, Destreza.",
+					"esMX": "+4% de sanación de pociones\n+10 de Destreza\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Sanación, Destreza.",
+					"frFR": "+4% de soins de la potion\n+10 dextérité\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Soins, Dextérité.",
+					"itIT": "Cure pozione: +4%\nDestrezza: +10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione, Destrezza.",
+					"jaJP": "ポーションによる回復+4%\n敏捷性+10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 回復, 敏捷性.",
+					"koKR": "물약 치유량 +4%\n민첩 +10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 치유, 민첩.",
+					"plPL": "+4% do leczenia miksturą\n+10 zręczności\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie, Zręczność.",
+					"ptBR": "+4% de cura de poção\n+10 de Destreza\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Cura, Destreza.",
+					"ruRU": "+4% к исцелению от зелий\n+10 к ловкости\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление, Ловкость.",
+					"zhCN": "4%药水恢复效果\n+10点敏捷\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 治疗, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -15925,17 +15925,17 @@ let paragonData = {
 					"zhCN": "训练"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Leben\n+10 Geschicklichkeit\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"esES": "+4% de vida\n+10 p. de destreza\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"esMX": "+4% de vida\n+10 de Destreza\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"frFR": "+4% de points de vie\n+10 dextérité\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"itIT": "Punti vita: +4%\nDestrezza: +10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"jaJP": "ライフ+4%\n敏捷性+10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"koKR": "생명력 +4%\n민첩 +10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"plPL": "+4% zdrowia\n+10 zręczności\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"ptBR": "+4% de vida\n+10 de Destreza\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"ruRU": "+4% к здоровью\n+10 к ловкости\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity.",
-					"zhCN": "+4%生命\n+10点敏捷\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Life, Dexterity."
+					"deDE": "+4% Leben\n+10 Geschicklichkeit\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Leben, Geschicklichkeit.",
+					"esES": "+4% de vida\n+10 p. de destreza\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Destreza.",
+					"esMX": "+4% de vida\n+10 de Destreza\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Destreza.",
+					"frFR": "+4% de points de vie\n+10 dextérité\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vie, Dextérité.",
+					"itIT": "Punti vita: +4%\nDestrezza: +10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vita, Destrezza.",
+					"jaJP": "ライフ+4%\n敏捷性+10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: ライフ, 敏捷性.",
+					"koKR": "생명력 +4%\n민첩 +10\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: 생명력, 민첩.",
+					"plPL": "+4% zdrowia\n+10 zręczności\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Zdrowie, Zręczność.",
+					"ptBR": "+4% de vida\n+10 de Destreza\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Vida, Destreza.",
+					"ruRU": "+4% к здоровью\n+10 к ловкости\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: Здоровье, Ловкость.",
+					"zhCN": "+4%生命\n+10点敏捷\n\nBonus: Another +4% Life if requirements met:\n{thresholdRequirements}\n\nTags: 生命, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -15960,17 +15960,17 @@ let paragonData = {
 					"zhCN": "容忍"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Widerstand gegen alle Schadensarten\n+10 Geschicklichkeit\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"esES": "4% de resistencia a todos los elementos\n+10 p. de destreza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"esMX": "4% de resistencia a todos los elementos\n+10 de Destreza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"frFR": "4% de résistance à tous les éléments\n+10 dextérité\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"itIT": "Resistenza a tutti gli elementi: 4%\nDestrezza: +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"jaJP": "全属性耐性4%\n敏捷性+10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"koKR": "모든 원소 저항 4%\n민첩 +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"plPL": "4% odporności na wszystkie żywioły\n+10 zręczności\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"ptBR": "4% de resistência a todos os elementos\n+10 de Destreza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"ruRU": "Сопротивление стихиям – 4%\n+10 к ловкости\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical.",
-					"zhCN": "4%全元素抗性\n+10点敏捷\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Dexterity, Non-Physical."
+					"deDE": "4% Widerstand gegen alle Schadensarten\n+10 Geschicklichkeit\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Geschicklichkeit, Nichtphysisch.",
+					"esES": "4% de resistencia a todos los elementos\n+10 p. de destreza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Destreza, No física.",
+					"esMX": "4% de resistencia a todos los elementos\n+10 de Destreza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Destreza, No físico.",
+					"frFR": "4% de résistance à tous les éléments\n+10 dextérité\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Dextérité, Dégâts non physiques.",
+					"itIT": "Resistenza a tutti gli elementi: 4%\nDestrezza: +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Destrezza, Non fisico.",
+					"jaJP": "全属性耐性4%\n敏捷性+10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 敏捷性, 非物理.",
+					"koKR": "모든 원소 저항 4%\n민첩 +10\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 민첩, 비물리.",
+					"plPL": "4% odporności na wszystkie żywioły\n+10 zręczności\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Zręczność, Niefizyczne.",
+					"ptBR": "4% de resistência a todos os elementos\n+10 de Destreza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Destreza, Não física.",
+					"ruRU": "Сопротивление стихиям – 4%\n+10 к ловкости\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Ловкость, Нефизический урон.",
+					"zhCN": "4%全元素抗性\n+10点敏捷\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 敏捷, 非物理."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -15995,17 +15995,17 @@ let paragonData = {
 					"zhCN": "知识"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden\n+10 Intelligenz\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"esES": "+10% de daño\n+10 p. de inteligencia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"esMX": "+10% de daño\n+10 de Inteligencia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"frFR": "+10% de dégâts\n+10 intelligence\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"itIT": "Danni: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"jaJP": "ダメージ +10%\n知力+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"koKR": "공격력 +10%\n지능 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"plPL": "+10% obrażeń\n+10 inteligencji\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"ptBR": "+10% de dano\n+10 de Inteligência\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"ruRU": "+10% к урону\n+10 к интеллекту\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence.",
-					"zhCN": "+10%伤害\n+10点智力\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence."
+					"deDE": "+10% Schaden\n+10 Intelligenz\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Intelligenz.",
+					"esES": "+10% de daño\n+10 p. de inteligencia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Inteligencia.",
+					"esMX": "+10% de daño\n+10 de Inteligencia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Inteligencia.",
+					"frFR": "+10% de dégâts\n+10 intelligence\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Intelligence.",
+					"itIT": "Danni: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Intelligenza.",
+					"jaJP": "ダメージ +10%\n知力+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 知力.",
+					"koKR": "공격력 +10%\n지능 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 지능.",
+					"plPL": "+10% obrażeń\n+10 inteligencji\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano\n+10 de Inteligência\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Inteligência.",
+					"ruRU": "+10% к урону\n+10 к интеллекту\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Интеллект.",
+					"zhCN": "+10%伤害\n+10点智力\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16042,17 +16042,17 @@ let paragonData = {
 					"zhCN": "保护"
 				},
 				"descriptionLocalized": {
-					"deDE": "+100 Rüstung\n+10 Intelligenz\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"esES": "+100 p. de armadura\n+10 p. de inteligencia\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"esMX": "+100 de armadura\n+10 de Inteligencia\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"frFR": "+100 à l'armure\n+10 intelligence\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"itIT": "Armatura: +100\nIntelligenza: +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"jaJP": "アーマー+100\n知力+10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"koKR": "방어도 +100\n지능 +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"plPL": "+100 pancerza\n+10 inteligencji\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"ptBR": "+100 de armadura\n+10 de Inteligência\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"ruRU": "+100 ед. брони\n+10 к интеллекту\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence.",
-					"zhCN": "+100 护甲值\n+10点智力\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armor, Intelligence."
+					"deDE": "+100 Rüstung\n+10 Intelligenz\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Rüstung, Intelligenz.",
+					"esES": "+100 p. de armadura\n+10 p. de inteligencia\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Inteligencia.",
+					"esMX": "+100 de armadura\n+10 de Inteligencia\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Inteligencia.",
+					"frFR": "+100 à l'armure\n+10 intelligence\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armure, Intelligence.",
+					"itIT": "Armatura: +100\nIntelligenza: +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armatura, Intelligenza.",
+					"jaJP": "アーマー+100\n知力+10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 装甲, 知力.",
+					"koKR": "방어도 +100\n지능 +10\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 방어도, 지능.",
+					"plPL": "+100 pancerza\n+10 inteligencji\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Pancerz, Inteligencja.",
+					"ptBR": "+100 de armadura\n+10 de Inteligência\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Armadura, Inteligência.",
+					"ruRU": "+100 ед. брони\n+10 к интеллекту\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: Броня, Интеллект.",
+					"zhCN": "+100 护甲值\n+10点智力\n\nBonus: Another +100 Armor if requirements met:\n{thresholdRequirements}\n\nTags: 护甲, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16086,17 +16086,17 @@ let paragonData = {
 					"zhCN": "被标记"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Schaden gegen Elitegegner\n+10 Intelligenz\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"esES": "+16.7% de daño contra enemigos de élite\n+10 p. de inteligencia\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"esMX": "+16.7% de daño a enemigos de Élite\n+10 de Inteligencia\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"frFR": "+16.7% de dégâts aux élites\n+10 intelligence\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"itIT": "Danni a élite: +16.7%\nIntelligenza: +10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"jaJP": "エリートへのダメージ+16.7%\n知力+10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"koKR": "정예에게 주는 피해 +16.7%\n지능 +10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"plPL": "+16.7% obrażeń zadawanych elitarnym wrogom\n+10 inteligencji\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"ptBR": "+16.7% de dano contra elites\n+10 de Inteligência\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"ruRU": "+16.7% к урону особым противникам\n+10 к интеллекту\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence.",
-					"zhCN": "+16.7%对精英的伤害\n+10点智力\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Intelligence."
+					"deDE": "+16.7% Schaden gegen Elitegegner\n+10 Intelligenz\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elitemonster, Schaden, Intelligenz.",
+					"esES": "+16.7% de daño contra enemigos de élite\n+10 p. de inteligencia\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Enemigos de élite, Daño, Inteligencia.",
+					"esMX": "+16.7% de daño a enemigos de Élite\n+10 de Inteligencia\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstruos de Élite, Daño, Inteligencia.",
+					"frFR": "+16.7% de dégâts aux élites\n+10 intelligence\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstres élites, Dégâts, Intelligence.",
+					"itIT": "Danni a élite: +16.7%\nIntelligenza: +10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Mostri élite, Danni, Intelligenza.",
+					"jaJP": "エリートへのダメージ+16.7%\n知力+10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: エリート・モンスター, ダメージ, 知力.",
+					"koKR": "정예에게 주는 피해 +16.7%\n지능 +10\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 정예 괴물, 피해, 지능.",
+					"plPL": "+16.7% obrażeń zadawanych elitarnym wrogom\n+10 inteligencji\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Elitarne Potwory, Obrażenia, Inteligencja.",
+					"ptBR": "+16.7% de dano contra elites\n+10 de Inteligência\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstros de Elite, Dano, Inteligência.",
+					"ruRU": "+16.7% к урону особым противникам\n+10 к интеллекту\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Особые монстры, Урон, Интеллект.",
+					"zhCN": "+16.7%对精英的伤害\n+10点智力\n\nBonus: Another +16.7% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16130,17 +16130,17 @@ let paragonData = {
 					"zhCN": "矫正"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden\n+4% Heilung durch Tränke\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"esES": "+15% de daño de golpe crítico\n+4% de curación de pociones\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"esMX": "+15% de daño de golpe crítico\n+4% de sanación de pociones\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"frFR": "+15% de dégâts critiques\n+4% de soins de la potion\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"itIT": "Danni critici: +15%\nCure pozione: +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"jaJP": "クリティカル・ダメージ+15%\nポーションによる回復+4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"koKR": "극대화 피해 +15%\n물약 치유량 +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"plPL": "+15% obrażeń od trafień krytycznych\n+4% do leczenia miksturą\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"ptBR": "+15% de dano de acerto crítico\n+4% de cura de poção\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"ruRU": "+15% к критическому урону\n+4% к исцелению от зелий\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing.",
-					"zhCN": "+15%暴击伤害\n4%药水恢复效果\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Healing."
+					"deDE": "+15% kritischer Trefferschaden\n+4% Heilung durch Tränke\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Schaden, Heilung.",
+					"esES": "+15% de daño de golpe crítico\n+4% de curación de pociones\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Curación.",
+					"esMX": "+15% de daño de golpe crítico\n+4% de sanación de pociones\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Sanación.",
+					"frFR": "+15% de dégâts critiques\n+4% de soins de la potion\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Dégâts, Soins.",
+					"itIT": "Danni critici: +15%\nCure pozione: +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Danni, Guarigione.",
+					"jaJP": "クリティカル・ダメージ+15%\nポーションによる回復+4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 致命の一撃, ダメージ, 回復.",
+					"koKR": "극대화 피해 +15%\n물약 치유량 +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 피해, 치유.",
+					"plPL": "+15% obrażeń od trafień krytycznych\n+4% do leczenia miksturą\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Obrażenia, Leczenie.",
+					"ptBR": "+15% de dano de acerto crítico\n+4% de cura de poção\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Dano, Cura.",
+					"ruRU": "+15% к критическому урону\n+4% к исцелению от зелий\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Урон, Исцеление.",
+					"zhCN": "+15%暴击伤害\n4%药水恢复效果\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 伤害, 治疗."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16171,17 +16171,17 @@ let paragonData = {
 					"zhCN": "死亡标记"
 				},
 				"descriptionLocalized": {
-					"deDE": "+25% Schaden gegen verletzte Gegner\n+10 Intelligenz\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"esES": "+25% de daño a enemigos heridos\n+10 p. de inteligencia\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"esMX": "+25% de daño a enemigos heridos\n+10 de Inteligencia\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"frFR": "+25% de dégâts contre les cibles blessées\n+10 intelligence\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"itIT": "Danni ai nemici feriti: +25%\nIntelligenza: +10\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"jaJP": "負傷した敵へのダメージ+25%\n知力+10\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"koKR": "부상당한 적에게 주는 피해 +25%\n지능 +10\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"plPL": "+25% obrażeń zadawanych rannym wrogom\n+10 inteligencji\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"ptBR": "+25% de dano contra inimigos feridos\n+10 de Inteligência\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"ruRU": "+25% к урону раненым противникам\n+10 к интеллекту\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence.",
-					"zhCN": "+25%对受伤敌人的伤害\n+10点智力\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Injured, Damage, Intelligence."
+					"deDE": "+25% Schaden gegen verletzte Gegner\n+10 Intelligenz\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verletzt, Schaden, Intelligenz.",
+					"esES": "+25% de daño a enemigos heridos\n+10 p. de inteligencia\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Herido, Daño, Inteligencia.",
+					"esMX": "+25% de daño a enemigos heridos\n+10 de Inteligencia\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Herido, Daño, Inteligencia.",
+					"frFR": "+25% de dégâts contre les cibles blessées\n+10 intelligence\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blessure, Dégâts, Intelligence.",
+					"itIT": "Danni ai nemici feriti: +25%\nIntelligenza: +10\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ferita, Danni, Intelligenza.",
+					"jaJP": "負傷した敵へのダメージ+25%\n知力+10\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 負傷, ダメージ, 知力.",
+					"koKR": "부상당한 적에게 주는 피해 +25%\n지능 +10\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 부상, 피해, 지능.",
+					"plPL": "+25% obrażeń zadawanych rannym wrogom\n+10 inteligencji\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Okaleczenie, Obrażenia, Inteligencja.",
+					"ptBR": "+25% de dano contra inimigos feridos\n+10 de Inteligência\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ferido, Dano, Inteligência.",
+					"ruRU": "+25% к урону раненым противникам\n+10 к интеллекту\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ранение, Урон, Интеллект.",
+					"zhCN": "+25%对受伤敌人的伤害\n+10点智力\n\nBonus: Another +25% Damage to Injured Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 受伤, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16212,17 +16212,17 @@ let paragonData = {
 					"zhCN": "治疗"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% erhaltene Heilung\n+10 Intelligenz\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"esES": "+4% de curación recibida\n+10 p. de inteligencia\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"esMX": "+4% de sanación recibida\n+10 de Inteligencia\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"frFR": "+4% de soins reçus\n+10 intelligence\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"itIT": "Cure ricevute: +4%\nIntelligenza: +10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"jaJP": "受ける回復量+4%\n知力+10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"koKR": "받는 치유량 +4%\n지능 +10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"plPL": "+4% otrzymywanego leczenia\n+10 inteligencji\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"ptBR": "+4% de cura recebida\n+10 de Inteligência\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"ruRU": "+0.04 *100|1%|] к получаемому исцелению\n+10 к интеллекту\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence.",
-					"zhCN": "+4%受到的治疗\n+10点智力\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Intelligence."
+					"deDE": "+4% erhaltene Heilung\n+10 Intelligenz\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Heilung, Intelligenz.",
+					"esES": "+4% de curación recibida\n+10 p. de inteligencia\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Curación, Inteligencia.",
+					"esMX": "+4% de sanación recibida\n+10 de Inteligencia\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Sanación, Inteligencia.",
+					"frFR": "+4% de soins reçus\n+10 intelligence\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Soins, Intelligence.",
+					"itIT": "Cure ricevute: +4%\nIntelligenza: +10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione, Intelligenza.",
+					"jaJP": "受ける回復量+4%\n知力+10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: 回復, 知力.",
+					"koKR": "받는 치유량 +4%\n지능 +10\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: 치유, 지능.",
+					"plPL": "+4% otrzymywanego leczenia\n+10 inteligencji\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie, Inteligencja.",
+					"ptBR": "+4% de cura recebida\n+10 de Inteligência\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Cura, Inteligência.",
+					"ruRU": "+0.04 *100|1%|] к получаемому исцелению\n+10 к интеллекту\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление, Интеллект.",
+					"zhCN": "+4%受到的治疗\n+10点智力\n\nBonus: Another +4% Healing Received if requirements met:\n{thresholdRequirements}\n\nTags: 治疗, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16253,17 +16253,17 @@ let paragonData = {
 					"zhCN": "阴霾"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Shadow\n+10 Intelligenz\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"esES": "12% de resistencia a Shadow\n+10 p. de inteligencia\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"esMX": "12% de resistencia a Shadow\n+10 de Inteligencia\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"frFR": "12% de résistance (Shadow )\n+10 intelligence\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"itIT": "Resistenza Shadow: 12%\nIntelligenza: +10\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"jaJP": "Shadow 耐性12%\n知力+10\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"koKR": "Shadow 저항 12%\n지능 +10\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"plPL": "12% odporności na Shadow\n+10 inteligencji\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"ptBR": "12% de resistência a Shadow\n+10 de Inteligência\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"ruRU": "Сопротивление типу урона \"Shadow \" – 12%\n+10 к интеллекту\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence.",
-					"zhCN": "12%Shadow 抗性\n+10点智力\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Intelligence."
+					"deDE": "12% Widerstand gegen: Shadow\n+10 Intelligenz\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Schatten, Intelligenz.",
+					"esES": "12% de resistencia a Shadow\n+10 p. de inteligencia\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Sombra, Inteligencia.",
+					"esMX": "12% de resistencia a Shadow\n+10 de Inteligencia\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Sombra, Inteligencia.",
+					"frFR": "12% de résistance (Shadow )\n+10 intelligence\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Ombre, Intelligence.",
+					"itIT": "Resistenza Shadow: 12%\nIntelligenza: +10\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Ombra, Intelligenza.",
+					"jaJP": "Shadow 耐性12%\n知力+10\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, シャドウ, 知力.",
+					"koKR": "Shadow 저항 12%\n지능 +10\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 암흑, 지능.",
+					"plPL": "12% odporności na Shadow\n+10 inteligencji\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Cień, Inteligencja.",
+					"ptBR": "12% de resistência a Shadow\n+10 de Inteligência\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Sombra, Inteligência.",
+					"ruRU": "Сопротивление типу урона \"Shadow \" – 12%\n+10 к интеллекту\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Темная магия, Интеллект.",
+					"zhCN": "12%Shadow 抗性\n+10点智力\n\nBonus: Another 12% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16297,17 +16297,17 @@ let paragonData = {
 					"zhCN": "牵引暗影"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch Gegner, die von Taking Shadow DoT betroffen sind\n12% Widerstand gegen: Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"esES": "4% de reducción de daño de enemigos en estado Taking Shadow DoT\n12% de resistencia a Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"esMX": "4% de reducción de daño de enemigos que están Taking Shadow DoT\n12% de resistencia a Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Taking Shadow DoT »\n12% de résistance (Shadow )\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"itIT": "Riduzione danni subiti dai nemici Taking Shadow DoT: 4%\nResistenza Shadow: 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"jaJP": "Taking Shadow DoT 状態の敵から受けるダメージ減少率4%\nShadow 耐性12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"koKR": "Taking Shadow DoT 적에게 받는 피해 감소 4%\nShadow 저항 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"plPL": "4% redukcji obrażeń od wrogów w stanie: Taking Shadow DoT\n12% odporności na Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"ptBR": "4% de redução de dano recebido de inimigos Taking Shadow DoT\n12% de resistência a Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"ruRU": "-4% к урону от противников под действием эффекта \"Taking Shadow DoT \"\nСопротивление типу урона \"Shadow \" – 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction.",
-					"zhCN": "4%对Taking Shadow DoT 敌人的伤害减免\n12%Shadow 抗性\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Shadow, Shadow Damage Over Time, Damage Reduction."
+					"deDE": "4% Reduktion von Schaden durch Gegner, die von Taking Shadow DoT betroffen sind\n12% Widerstand gegen: Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Schatten, Schattenschaden über Zeit, Schadensreduktion.",
+					"esES": "4% de reducción de daño de enemigos en estado Taking Shadow DoT\n12% de resistencia a Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Sombra, Daño de sombra en el tiempo, Reducción de daño.",
+					"esMX": "4% de reducción de daño de enemigos que están Taking Shadow DoT\n12% de resistencia a Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Sombra, Daño de sombra con el tiempo, Reducción de daño.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Taking Shadow DoT »\n12% de résistance (Shadow )\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Ombre, Dégâts d'ombre sur la durée, Réduction des dégâts.",
+					"itIT": "Riduzione danni subiti dai nemici Taking Shadow DoT: 4%\nResistenza Shadow: 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Ombra, Danni da ombra periodici, Riduzione danni.",
+					"jaJP": "Taking Shadow DoT 状態の敵から受けるダメージ減少率4%\nShadow 耐性12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, シャドウ, シャドウの継続ダメージ, ダメージ減少.",
+					"koKR": "Taking Shadow DoT 적에게 받는 피해 감소 4%\nShadow 저항 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 암흑, 지속 암흑 피해, 피해 감소.",
+					"plPL": "4% redukcji obrażeń od wrogów w stanie: Taking Shadow DoT\n12% odporności na Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Cień, Obrażenia Cienia z upływem czasu, Redukcja Obrażeń.",
+					"ptBR": "4% de redução de dano recebido de inimigos Taking Shadow DoT\n12% de resistência a Shadow\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Sombra, Dano de Sombra ao Longo do Tempo, Redução de Dano.",
+					"ruRU": "-4% к урону от противников под действием эффекта \"Taking Shadow DoT \"\nСопротивление типу урона \"Shadow \" – 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Темная магия, Периодический урон от темной магии, Уменьшение урона.",
+					"zhCN": "4%对Taking Shadow DoT 敌人的伤害减免\n12%Shadow 抗性\n\nBonus: Another 4% Damage Reduction from Enemies That Are Taking Shadow DoT if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 持续性暗影伤害, 伤害减免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16341,17 +16341,17 @@ let paragonData = {
 					"zhCN": "啃噬黑暗"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Taking Shadow DoT betroffen sind\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"esES": "+10% de daño a enemigos en estado Taking Shadow DoT\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"esMX": "+10% de daño a enemigos Taking Shadow DoT\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"frFR": "+10% de dégâts contre les cibles sous l'effet « Taking Shadow DoT »\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"itIT": "Danni ai nemici Taking Shadow DoT: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"jaJP": "Taking Shadow DoT の敵へのダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"koKR": "Taking Shadow DoT 적에게 주는 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"plPL": "+10% obrażeń zadawanych wrogom typu: Taking Shadow DoT\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"ptBR": "+10% de dano contra inimigos Taking Shadow DoT\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"ruRU": "+10% к урону противникам под действием эффекта \"Taking Shadow DoT \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage.",
-					"zhCN": "+10%对Taking Shadow DoT 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Shadow Damage Over Time, Elite Monsters, Damage."
+					"deDE": "+10% Schaden gegen Gegner, die von Taking Shadow DoT betroffen sind\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Schattenschaden über Zeit, Elitemonster, Schaden.",
+					"esES": "+10% de daño a enemigos en estado Taking Shadow DoT\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Daño de sombra en el tiempo, Enemigos de élite, Daño.",
+					"esMX": "+10% de daño a enemigos Taking Shadow DoT\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Daño de sombra con el tiempo, Monstruos de Élite, Daño.",
+					"frFR": "+10% de dégâts contre les cibles sous l'effet « Taking Shadow DoT »\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts d'ombre sur la durée, Monstres élites, Dégâts.",
+					"itIT": "Danni ai nemici Taking Shadow DoT: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Danni da ombra periodici, Mostri élite, Danni.",
+					"jaJP": "Taking Shadow DoT の敵へのダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: シャドウの継続ダメージ, エリート・モンスター, ダメージ.",
+					"koKR": "Taking Shadow DoT 적에게 주는 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 지속 암흑 피해, 정예 괴물, 피해.",
+					"plPL": "+10% obrażeń zadawanych wrogom typu: Taking Shadow DoT\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia Cienia z upływem czasu, Elitarne Potwory, Obrażenia.",
+					"ptBR": "+10% de dano contra inimigos Taking Shadow DoT\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Dano de Sombra ao Longo do Tempo, Monstros de Elite, Dano.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Taking Shadow DoT \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Периодический урон от темной магии, Особые монстры, Урон.",
+					"zhCN": "+10%对Taking Shadow DoT 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage to Taking Shadow DoT Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 持续性暗影伤害, 精英怪物, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16385,17 +16385,17 @@ let paragonData = {
 					"zhCN": "咒骂"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Shadow\n+10 Intelligenz\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"esES": "+10% de daño de Shadow\n+10 p. de inteligencia\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"esMX": "+10% de daño de Shadow\n+10 de Inteligencia\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"frFR": "+10% de dégâts de Shadow\n+10 intelligence\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"itIT": "Danni da Shadow: +10%\nIntelligenza: +10\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"jaJP": "Shadow ダメージ+10%\n知力+10\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"koKR": "Shadow 피해 +10%\n지능 +10\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"plPL": "+10% obrażeń typu: Shadow\n+10 inteligencji\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"ptBR": "+10% de dano de Shadow\n+10 de Inteligência\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"ruRU": "+10% к урону (Shadow )\n+10 к интеллекту\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence.",
-					"zhCN": "+10%Shadow 伤害\n+10点智力\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Damage, Intelligence."
+					"deDE": "+10% Schaden des Typs Shadow\n+10 Intelligenz\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Schatten, Schaden, Intelligenz.",
+					"esES": "+10% de daño de Shadow\n+10 p. de inteligencia\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sombra, Daño, Inteligencia.",
+					"esMX": "+10% de daño de Shadow\n+10 de Inteligencia\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sombra, Daño, Inteligencia.",
+					"frFR": "+10% de dégâts de Shadow\n+10 intelligence\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ombre, Dégâts, Intelligence.",
+					"itIT": "Danni da Shadow: +10%\nIntelligenza: +10\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ombra, Danni, Intelligenza.",
+					"jaJP": "Shadow ダメージ+10%\n知力+10\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: シャドウ, ダメージ, 知力.",
+					"koKR": "Shadow 피해 +10%\n지능 +10\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: 암흑, 피해, 지능.",
+					"plPL": "+10% obrażeń typu: Shadow\n+10 inteligencji\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cień, Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano de Shadow\n+10 de Inteligência\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sombra, Dano, Inteligência.",
+					"ruRU": "+10% к урону (Shadow )\n+10 к интеллекту\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: Темная магия, Урон, Интеллект.",
+					"zhCN": "+10%Shadow 伤害\n+10点智力\n\nBonus: Another +10% Shadow Damage if requirements met:\n{thresholdRequirements}\n\nTags: 暗影, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16426,17 +16426,17 @@ let paragonData = {
 					"zhCN": "优势"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Cold\n+2% Glückstrefferchance\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"esES": "12% de resistencia a Cold\n+2% de probabilidad de golpe de suerte\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"esMX": "12% de resistencia a Cold\n+2% de probabilidad de golpe afortunado\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"frFR": "12% de résistance (Cold )\n+2% de chances d'obtenir un Coup de chance\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"itIT": "Resistenza Cold: 12%\nProbabilità di colpo fortunato: +2%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"jaJP": "Cold 耐性12%\n幸運の一撃発生率+2%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"koKR": "Cold 저항 12%\n행운의 적중 확률 +2%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"plPL": "12% odporności na Cold\n+2% szansy na szczęśliwy traf\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"ptBR": "12% de resistência a Cold\n+2% de chance de Golpe de Sorte\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"ruRU": "Сопротивление типу урона \"Cold \" – 12%\n+2% к вероятности удачного удара\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit.",
-					"zhCN": "12%Cold 抗性\n+2%幸运一击几率\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Cold, Lucky Hit."
+					"deDE": "12% Widerstand gegen: Cold\n+2% Glückstrefferchance\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Kälte, Glückstreffer.",
+					"esES": "12% de resistencia a Cold\n+2% de probabilidad de golpe de suerte\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Frío, Golpe de suerte.",
+					"esMX": "12% de resistencia a Cold\n+2% de probabilidad de golpe afortunado\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Frío, Golpe afortunado.",
+					"frFR": "12% de résistance (Cold )\n+2% de chances d'obtenir un Coup de chance\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Froid, Coup de chance.",
+					"itIT": "Resistenza Cold: 12%\nProbabilità di colpo fortunato: +2%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Freddo, Colpo fortunato.",
+					"jaJP": "Cold 耐性12%\n幸運の一撃発生率+2%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 冷気, 幸運の一撃.",
+					"koKR": "Cold 저항 12%\n행운의 적중 확률 +2%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 냉기, 행운의 적중.",
+					"plPL": "12% odporności na Cold\n+2% szansy na szczęśliwy traf\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Zimno, Szczęśliwy Traf.",
+					"ptBR": "12% de resistência a Cold\n+2% de chance de Golpe de Sorte\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Gelo, Golpe de Sorte.",
+					"ruRU": "Сопротивление типу урона \"Cold \" – 12%\n+2% к вероятности удачного удара\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Холод, Удачный удар.",
+					"zhCN": "12%Cold 抗性\n+2%幸运一击几率\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰霜, 幸运一击."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -16464,17 +16464,17 @@ let paragonData = {
 					"zhCN": "弱点"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Intelligenz\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+10 p. de inteligencia\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Inteligencia\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+10 intelligence\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nIntelligenza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n知力+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n지능 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+10 inteligencji\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Inteligência\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к интеллекту\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+10点智力\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable."
+					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Intelligenz\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligenz, Schaden, Verwundbar.",
+					"esES": "+10% Damage to Vulnerable Enemies\n+10 p. de inteligencia\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencia, Daño, Vulnerable.",
+					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Inteligencia\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencia, Daño, Vulnerable.",
+					"frFR": "+10% Damage to Vulnerable Enemies\n+10 intelligence\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Dégâts, Vulnérable.",
+					"itIT": "+10% Damage to Vulnerable Enemies\nIntelligenza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligenza, Danni, Vulnerabilità.",
+					"jaJP": "+10% Damage to Vulnerable Enemies\n知力+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 知力, ダメージ, 脆弱.",
+					"koKR": "+10% Damage to Vulnerable Enemies\n지능 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 지능, 피해, 취약.",
+					"plPL": "+10% Damage to Vulnerable Enemies\n+10 inteligencji\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencja, Obrażenia, Odsłonięcie.",
+					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Inteligência\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Inteligência, Dano, Vulnerável.",
+					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к интеллекту\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Интеллект, Урон, Уязвимость.",
+					"zhCN": "+10% Damage to Vulnerable Enemies\n+10点智力\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 智力, 伤害, 易伤."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16505,17 +16505,17 @@ let paragonData = {
 					"zhCN": "诡计"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+10 p. de destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+10 dextérité\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nDestrezza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n敏捷性+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n민첩 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+10 zręczności\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к ловкости\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+10点敏捷\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity."
+					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Geschicklichkeit.",
+					"esES": "+10% Damage to Vulnerable Enemies\n+10 p. de destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Destreza.",
+					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Destreza.",
+					"frFR": "+10% Damage to Vulnerable Enemies\n+10 dextérité\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Dextérité.",
+					"itIT": "+10% Damage to Vulnerable Enemies\nDestrezza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Destrezza.",
+					"jaJP": "+10% Damage to Vulnerable Enemies\n敏捷性+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 敏捷性.",
+					"koKR": "+10% Damage to Vulnerable Enemies\n민첩 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 민첩.",
+					"plPL": "+10% Damage to Vulnerable Enemies\n+10 zręczności\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Zręczność.",
+					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Destreza.",
+					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к ловкости\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Ловкость.",
+					"zhCN": "+10% Damage to Vulnerable Enemies\n+10点敏捷\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -16540,17 +16540,17 @@ let paragonData = {
 					"zhCN": "狂热"
 				},
 				"descriptionLocalized": {
-					"deDE": "+12.5% Schaden bei hohem Leben\n+100 Rüstung\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"esES": "+12.5% de daño en estado saludable\n+100 p. de armadura\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"esMX": "+12.5% de daño mientras estás saludable\n+100 de armadura\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"frFR": "+12.5% de dégâts lorsque vous êtes en bonne santé\n+100 à l'armure\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"itIT": "Danni mentre sei in salute: +12.5%\nArmatura: +100\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"jaJP": "健全状態時のダメージ+12.5%\nアーマー+100\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"koKR": "건강 상태일 때 공격력 +12.5%\n방어도 +100\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"plPL": "+12.5% zadawanych obrażeń, jeśli postać jest w pełni sił\n+100 pancerza\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"ptBR": "+12.5% de dano enquanto saudável\n+100 de armadura\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"ruRU": "+12.5% к урону при высоком уровне здоровья\n+100 ед. брони\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor.",
-					"zhCN": "+12.5%健康时伤害\n+100 护甲值\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Healthy, Damage, Armor."
+					"deDE": "+12.5% Schaden bei hohem Leben\n+100 Rüstung\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Gesund, Schaden, Rüstung.",
+					"esES": "+12.5% de daño en estado saludable\n+100 p. de armadura\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saludable, Daño, Armadura.",
+					"esMX": "+12.5% de daño mientras estás saludable\n+100 de armadura\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saludable, Daño, Armadura.",
+					"frFR": "+12.5% de dégâts lorsque vous êtes en bonne santé\n+100 à l'armure\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: En bonne santé, Dégâts, Armure.",
+					"itIT": "Danni mentre sei in salute: +12.5%\nArmatura: +100\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: In salute, Danni, Armatura.",
+					"jaJP": "健全状態時のダメージ+12.5%\nアーマー+100\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 健全, ダメージ, 装甲.",
+					"koKR": "건강 상태일 때 공격력 +12.5%\n방어도 +100\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 건강, 피해, 방어도.",
+					"plPL": "+12.5% zadawanych obrażeń, jeśli postać jest w pełni sił\n+100 pancerza\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Pełnia Sił, Obrażenia, Pancerz.",
+					"ptBR": "+12.5% de dano enquanto saudável\n+100 de armadura\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Saudável, Dano, Armadura.",
+					"ruRU": "+12.5% к урону при высоком уровне здоровья\n+100 ед. брони\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: Высокое здоровье, Урон, Броня.",
+					"zhCN": "+12.5%健康时伤害\n+100 护甲值\n\nBonus: Another +12.5% Damage while Healthy if requirements met:\n{thresholdRequirements}\n\nTags: 健康, 伤害, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -20838,17 +20838,17 @@ let paragonData = {
 					"zhCN": "邪信领袖"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Diener verursachen x10% mehr Schaden pro aktivem Dienertyp. Dies gilt nur für folgende Dienertypen: Skelettkrieger, Skelettmagier und Golem.\n\nTags: Minion, Damage.",
-					"esES": "Tus esbirros infligen un x10% más de daño por cada tipo de esbirro que tengas activo. Esto solo se aplica a los esbirros de tipo guerrero esquelético, mago esquelético y gólem.\n\nTags: Minion, Damage.",
-					"esMX": "Tus esbirros infligen un x10% más de daño por cada tipo de esbirro activo. Esto solo aplica a los tipos de esbirros: Guerrero Esquelético, Mago Esquelético y Gólem.\n\nTags: Minion, Damage.",
-					"frFR": "Vos serviteurs infligent x10% de dégâts supplémentaires pour chaque type de serviteur actif sous votre contrôle. Cet effet s'applique uniquement aux serviteurs de ces types: guerrier squelette, mage squelette et golem.\n\nTags: Minion, Damage.",
-					"itIT": "I tuoi servitori infliggono il x10% di danni aggiuntivi per ogni tipo di servitore attivo. Si applica solo ai tipi di servitori: Guerriero Scheletrico, Mago Scheletrico e Golem.\n\nTags: Minion, Damage.",
-					"jaJP": "自分のミニオンが与えるダメージが、使役中のミニオンのタイプ1種につきx10%増加する。対象となるミニオンのタイプはスケルトンウォーリア、スケルトンメイジ、ゴーレムのみ。\n\nTags: Minion, Damage.",
-					"koKR": "현재 활성화된 하수인 유형 하나당 하수인이 주는 피해가 x10% 증가합니다. 이 효과는 해골 전사, 해골 마법학자, 골렘에게만 적용됩니다.\n\nTags: Minion, Damage.",
-					"plPL": "Twoje sługi zadają obrażenia zwiększone o x10% za każdy aktywny rodzaj sługi. Efekt ten obejmuje szkieletowych wojowników, szkieletowych magów oraz golemy.\n\nTags: Minion, Damage.",
-					"ptBR": "Seus lacaios causam 10% de dano aumentado por cada tipo de lacaio ativo. Isso só se aplica a estes tipos de lacaios: Guerreiro Esqueleto, Mago Esqueleto e Golem.\n\nTags: Minion, Damage.",
-					"ruRU": "Ваши прислужники наносят на x10% больше урона за каждый тип прислужников под вашим контролем. Учитываются только следующие типы прислужников: скелеты-воины, скелеты-маги и големы.\n\nTags: Minion, Damage.",
-					"zhCN": "每有一种激活的仆从,你的仆从造成的伤害提高x10%。该效果只对以下仆从类型生效:骷髅战士、骷髅法师、傀儡。\n\nTags: Minion, Damage."
+					"deDE": "Eure Diener verursachen x10% mehr Schaden pro aktivem Dienertyp. Dies gilt nur für folgende Dienertypen: Skelettkrieger, Skelettmagier und Golem.\n\nTags: Diener, Schaden.",
+					"esES": "Tus esbirros infligen un x10% más de daño por cada tipo de esbirro que tengas activo. Esto solo se aplica a los esbirros de tipo guerrero esquelético, mago esquelético y gólem.\n\nTags: Esbirro, Daño.",
+					"esMX": "Tus esbirros infligen un x10% más de daño por cada tipo de esbirro activo. Esto solo aplica a los tipos de esbirros: Guerrero Esquelético, Mago Esquelético y Gólem.\n\nTags: Esbirro, Daño.",
+					"frFR": "Vos serviteurs infligent x10% de dégâts supplémentaires pour chaque type de serviteur actif sous votre contrôle. Cet effet s'applique uniquement aux serviteurs de ces types: guerrier squelette, mage squelette et golem.\n\nTags: Serviteur, Dégâts.",
+					"itIT": "I tuoi servitori infliggono il x10% di danni aggiuntivi per ogni tipo di servitore attivo. Si applica solo ai tipi di servitori: Guerriero Scheletrico, Mago Scheletrico e Golem.\n\nTags: Servitori, Danni.",
+					"jaJP": "自分のミニオンが与えるダメージが、使役中のミニオンのタイプ1種につきx10%増加する。対象となるミニオンのタイプはスケルトンウォーリア、スケルトンメイジ、ゴーレムのみ。\n\nTags: ミニオン, ダメージ.",
+					"koKR": "현재 활성화된 하수인 유형 하나당 하수인이 주는 피해가 x10% 증가합니다. 이 효과는 해골 전사, 해골 마법학자, 골렘에게만 적용됩니다.\n\nTags: 하수인, 피해.",
+					"plPL": "Twoje sługi zadają obrażenia zwiększone o x10% za każdy aktywny rodzaj sługi. Efekt ten obejmuje szkieletowych wojowników, szkieletowych magów oraz golemy.\n\nTags: Sługa, Obrażenia.",
+					"ptBR": "Seus lacaios causam 10% de dano aumentado por cada tipo de lacaio ativo. Isso só se aplica a estes tipos de lacaios: Guerreiro Esqueleto, Mago Esqueleto e Golem.\n\nTags: Lacaio, Dano.",
+					"ruRU": "Ваши прислужники наносят на x10% больше урона за каждый тип прислужников под вашим контролем. Учитываются только следующие типы прислужников: скелеты-воины, скелеты-маги и големы.\n\nTags: Прислужник, Урон.",
+					"zhCN": "每有一种激活的仆从,你的仆从造成的伤害提高x10%。该效果只对以下仆从类型生效:骷髅战士、骷髅法师、傀儡。\n\nTags: 爪牙, 伤害."
 				}
 			},
 			"Necromancer_Legendary_002": {
@@ -20916,17 +20916,17 @@ let paragonData = {
 					"zhCN": "魁梧畸体"
 				},
 				"descriptionLocalized": {
-					"deDE": "Euer Golem verfügt über ein um x30% erhöhtes maximales Leben und verursacht x30% mehr Schaden.\n\nTags: Minion, Life, Damage.",
-					"esES": "Tu gólem tiene un x30% más de vida máxima e inflige un x30% más de daño.\n\nTags: Minion, Life, Damage.",
-					"esMX": "Tu Gólem tiene un x30% más de vida máxima e inflige un x30% más de daño.\n\nTags: Minion, Life, Damage.",
-					"frFR": "Le maximum de points de vie de votre golem est augmenté de x30%, et il inflige x30% de dégâts supplémentaires.\n\nTags: Minion, Life, Damage.",
-					"itIT": "Il tuo Golem ha il x30% di Vita massima aggiuntiva e infligge il x30% di danni aggiuntivi.\n\nTags: Minion, Life, Damage.",
-					"jaJP": "自身のゴーレムのライフ最大値にx30%のボーナスが付与され、与えるダメージがx30%増加する。\n\nTags: Minion, Life, Damage.",
-					"koKR": "골렘이 최대 생명력이 x30% 증가하고 주는 피해가 x30% 증가합니다.\n\nTags: Minion, Life, Damage.",
-					"plPL": "Maksymalne zdrowie twojego golema jest zwiększone o x30%. Zadaje on obrażenia zwiększone o x30%.\n\nTags: Minion, Life, Damage.",
-					"ptBR": "Seu golem tem 30% de vida máxima aumentada e causa 30% de dano aumentado.\n\nTags: Minion, Life, Damage.",
-					"ruRU": "Максимальный запас здоровья вашего голема увеличивается на x30%, а наносимый им урон – на x30%.\n\nTags: Minion, Life, Damage.",
-					"zhCN": "你傀儡的生命上限提高x30%,造成的伤害提高x30%。\n\nTags: Minion, Life, Damage."
+					"deDE": "Euer Golem verfügt über ein um x30% erhöhtes maximales Leben und verursacht x30% mehr Schaden.\n\nTags: Diener, Leben, Schaden.",
+					"esES": "Tu gólem tiene un x30% más de vida máxima e inflige un x30% más de daño.\n\nTags: Esbirro, Vida, Daño.",
+					"esMX": "Tu Gólem tiene un x30% más de vida máxima e inflige un x30% más de daño.\n\nTags: Esbirro, Vida, Daño.",
+					"frFR": "Le maximum de points de vie de votre golem est augmenté de x30%, et il inflige x30% de dégâts supplémentaires.\n\nTags: Serviteur, Vie, Dégâts.",
+					"itIT": "Il tuo Golem ha il x30% di Vita massima aggiuntiva e infligge il x30% di danni aggiuntivi.\n\nTags: Servitori, Vita, Danni.",
+					"jaJP": "自身のゴーレムのライフ最大値にx30%のボーナスが付与され、与えるダメージがx30%増加する。\n\nTags: ミニオン, ライフ, ダメージ.",
+					"koKR": "골렘이 최대 생명력이 x30% 증가하고 주는 피해가 x30% 증가합니다.\n\nTags: 하수인, 생명력, 피해.",
+					"plPL": "Maksymalne zdrowie twojego golema jest zwiększone o x30%. Zadaje on obrażenia zwiększone o x30%.\n\nTags: Sługa, Zdrowie, Obrażenia.",
+					"ptBR": "Seu golem tem 30% de vida máxima aumentada e causa 30% de dano aumentado.\n\nTags: Lacaio, Vida, Dano.",
+					"ruRU": "Максимальный запас здоровья вашего голема увеличивается на x30%, а наносимый им урон – на x30%.\n\nTags: Прислужник, Здоровье, Урон.",
+					"zhCN": "你傀儡的生命上限提高x30%,造成的伤害提高x30%。\n\nTags: 爪牙, 生命, 伤害."
 				}
 			},
 			"Necromancer_Legendary_006": {
@@ -20962,17 +20962,17 @@ let paragonData = {
 					"zhCN": "死亡气息"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn sich mindestens 2 Leichen in der Nähe befinden, erhaltet Ihr 15% Schadensreduktion. Wenn sich keine Leichen in der Nähe befinden, verursacht Ihr x15% mehr Schaden.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"esES": "Mientras haya al menos 2 cadáveres cerca, obtienes un 15% de reducción de daño. Si no hay cadáveres cerca, infliges un x15% más de daño.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"esMX": "Si hay al menos 2 cadáveres cercanos, obtienes un 15% de reducción de daño. Si no hay cadáveres cercanos, infliges un x15% más de daño.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"frFR": "Lorsqu'il y a au moins 2 cadavres à proximité, vous obtenez 15% de réduction des dégâts. Lorsqu'il n'y a aucun cadavre à proximité, vous infligez x15% de dégâts supplémentaires.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"itIT": "Con almeno 2 cadaveri vicini, ottieni il 15% riduzione danni. Senza cadaveri vicini, infliggi il x15% di danni aggiuntivi.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"jaJP": "付近に少なくとも2体の死体があると、受けるダメージが15%減少する。付近に死体がない場合、与えるダメージがx15%増加する。\n\nTags: Damage Reduction, Damage, Corpse.",
-					"koKR": "주위에 있는 시체가 2구 이상이면 피해 감소가 15% 증가합니다. 주위에 시체가 없으면 공격력이 x15% 증가합니다.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"plPL": "Zyskujesz 15% do redukcji obrażeń, kiedy w pobliżu znajdują się zwłoki (co najmniej 2). Kiedy w pobliżu nie ma żadnych zwłok, zadajesz obrażenia zwiększone o x15%.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"ptBR": "Com pelo menos 2 cadáveres por perto, você recebe 15% de redução de dano. Sem cadáveres por perto, você recebe 15% de dano aumentado.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"ruRU": "Если поблизости есть хотя бы 2 трупа:трупов, вы получаете на 15% меньше урона. Если рядом нет трупов, вы наносите на x15% больше урона.\n\nTags: Damage Reduction, Damage, Corpse.",
-					"zhCN": "附近有至少2具亡骸时,你获得15%伤害减免。附近没有亡骸时,你造成的伤害提高x15%。\n\nTags: Damage Reduction, Damage, Corpse."
+					"deDE": "Wenn sich mindestens 2 Leichen in der Nähe befinden, erhaltet Ihr 15% Schadensreduktion. Wenn sich keine Leichen in der Nähe befinden, verursacht Ihr x15% mehr Schaden.\n\nTags: Schadensreduktion, Schaden, Leiche.",
+					"esES": "Mientras haya al menos 2 cadáveres cerca, obtienes un 15% de reducción de daño. Si no hay cadáveres cerca, infliges un x15% más de daño.\n\nTags: Reducción de daño, Daño, Cadáver.",
+					"esMX": "Si hay al menos 2 cadáveres cercanos, obtienes un 15% de reducción de daño. Si no hay cadáveres cercanos, infliges un x15% más de daño.\n\nTags: Reducción de daño, Daño, Cadáver.",
+					"frFR": "Lorsqu'il y a au moins 2 cadavres à proximité, vous obtenez 15% de réduction des dégâts. Lorsqu'il n'y a aucun cadavre à proximité, vous infligez x15% de dégâts supplémentaires.\n\nTags: Réduction des dégâts, Dégâts, Cadavres.",
+					"itIT": "Con almeno 2 cadaveri vicini, ottieni il 15% riduzione danni. Senza cadaveri vicini, infliggi il x15% di danni aggiuntivi.\n\nTags: Riduzione danni, Danni, Cadavere.",
+					"jaJP": "付近に少なくとも2体の死体があると、受けるダメージが15%減少する。付近に死体がない場合、与えるダメージがx15%増加する。\n\nTags: ダメージ減少, ダメージ, 死体.",
+					"koKR": "주위에 있는 시체가 2구 이상이면 피해 감소가 15% 증가합니다. 주위에 시체가 없으면 공격력이 x15% 증가합니다.\n\nTags: 피해 감소, 피해, 시체.",
+					"plPL": "Zyskujesz 15% do redukcji obrażeń, kiedy w pobliżu znajdują się zwłoki (co najmniej 2). Kiedy w pobliżu nie ma żadnych zwłok, zadajesz obrażenia zwiększone o x15%.\n\nTags: Redukcja Obrażeń, Obrażenia, Zwłoki.",
+					"ptBR": "Com pelo menos 2 cadáveres por perto, você recebe 15% de redução de dano. Sem cadáveres por perto, você recebe 15% de dano aumentado.\n\nTags: Redução de Dano, Dano, Cadáver.",
+					"ruRU": "Если поблизости есть хотя бы 2 трупа:трупов, вы получаете на 15% меньше урона. Если рядом нет трупов, вы наносите на x15% больше урона.\n\nTags: Уменьшение урона, Урон, Труп.",
+					"zhCN": "附近有至少2具亡骸时,你获得15%伤害减免。附近没有亡骸时,你造成的伤害提高x15%。\n\nTags: 伤害减免, 伤害, 尸骸."
 				}
 			},
 			"Necromancer_Legendary_008": {
@@ -20992,17 +20992,17 @@ let paragonData = {
 					"zhCN": "肉食者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Der Verbrauch von 5 Leichen verleiht 6 Sek. lang x40% mehr Schaden.\n\nTags: Damage, Corpse.",
-					"esES": "Consumir 5 cadáveres te otorga un x40% más de daño durante 6 s.\n\nTags: Damage, Corpse.",
-					"esMX": "Consumir 5 cadáveres te otorga un x40% más de daño durante 6 segundos.\n\nTags: Damage, Corpse.",
-					"frFR": "Lorsque vous consommez 5 cadavres, vous infligez x40% de dégâts supplémentaires pendant 6 s.\n\nTags: Damage, Corpse.",
-					"itIT": "Consumare 5 cadaveri fornisce il x40% di danni aggiuntivi per 6 s.\n\nTags: Damage, Corpse.",
-					"jaJP": "5体の死体を消費すると6秒間、与えるダメージがx40%増加する。\n\nTags: Damage, Corpse.",
-					"koKR": "시체를 5구 섭취하면 6초 동안 공격력이 x40% 증가합니다.\n\nTags: Damage, Corpse.",
-					"plPL": "Pochłonięcie 5 zwłok zwiększa obrażenia o x40% na 6 sek.\n\nTags: Damage, Corpse.",
-					"ptBR": "Consumir 5 cadáveres concede 40% de dano aumentado por 6 segundos.\n\nTags: Damage, Corpse.",
-					"ruRU": "Когда вы расходуете 5 трупа:трупов, наносимый вами урон увеличивается на x40% на 6 сек.\n\nTags: Damage, Corpse.",
-					"zhCN": "消耗5具亡骸使你造成的伤害提高x40%,持续6秒。\n\nTags: Damage, Corpse."
+					"deDE": "Der Verbrauch von 5 Leichen verleiht 6 Sek. lang x40% mehr Schaden.\n\nTags: Schaden, Leiche.",
+					"esES": "Consumir 5 cadáveres te otorga un x40% más de daño durante 6 s.\n\nTags: Daño, Cadáver.",
+					"esMX": "Consumir 5 cadáveres te otorga un x40% más de daño durante 6 segundos.\n\nTags: Daño, Cadáver.",
+					"frFR": "Lorsque vous consommez 5 cadavres, vous infligez x40% de dégâts supplémentaires pendant 6 s.\n\nTags: Dégâts, Cadavres.",
+					"itIT": "Consumare 5 cadaveri fornisce il x40% di danni aggiuntivi per 6 s.\n\nTags: Danni, Cadavere.",
+					"jaJP": "5体の死体を消費すると6秒間、与えるダメージがx40%増加する。\n\nTags: ダメージ, 死体.",
+					"koKR": "시체를 5구 섭취하면 6초 동안 공격력이 x40% 증가합니다.\n\nTags: 피해, 시체.",
+					"plPL": "Pochłonięcie 5 zwłok zwiększa obrażenia o x40% na 6 sek.\n\nTags: Obrażenia, Zwłoki.",
+					"ptBR": "Consumir 5 cadáveres concede 40% de dano aumentado por 6 segundos.\n\nTags: Dano, Cadáver.",
+					"ruRU": "Когда вы расходуете 5 трупа:трупов, наносимый вами урон увеличивается на x40% на 6 сек.\n\nTags: Урон, Труп.",
+					"zhCN": "消耗5具亡骸使你造成的伤害提高x40%,持续6秒。\n\nTags: 伤害, 尸骸."
 				}
 			},
 			"Necromancer_Legendary_009": {
@@ -21038,17 +21038,17 @@ let paragonData = {
 					"zhCN": "血浴"
 				},
 				"descriptionLocalized": {
-					"deDE": "Angriffe, die garantiert überwältigen, verursachen x50% mehr Überwältigungsschaden.\n\nTags: Overpower, Damage.",
-					"esES": "Los ataques con arrollamiento garantizado infligen un x50% más de daño de arrollamiento.\n\nTags: Overpower, Damage.",
-					"esMX": "Los ataques que sin dudas abrumarán infligen un x50% más de daño abrumador.\n\nTags: Overpower, Damage.",
-					"frFR": "Les attaques qui sont garanties d'accabler infligent x50% de dégâts d'accablement supplémentaires.\n\nTags: Overpower, Damage.",
-					"itIT": "Gli attacchi con Sopraffazione garantita infliggono il x50% di danni da Sopraffazione aggiuntivi.\n\nTags: Overpower, Damage.",
-					"jaJP": "オーバーパワー発動が確定している攻撃によるオーバーパワーのダメージが、x50%増加する。\n\nTags: Overpower, Damage.",
-					"koKR": "확정적으로 제압하는 기술이 주는 제압 피해가 x50% 증가합니다.\n\nTags: Overpower, Damage.",
-					"plPL": "Ataki gwarantujące przytłoczenie zadają obrażenia od obezwładnienia zwiększone o x50%.\n\nTags: Overpower, Damage.",
-					"ptBR": "Ataques que têm garantia de Golpe Brutal causam 50% de dano aumentado de Golpe Brutal.\n\nTags: Overpower, Damage.",
-					"ruRU": "Атаки, гарантированно подавляющие врагов, наносят на x50% больше подавляющего урона.\n\nTags: Overpower, Damage.",
-					"zhCN": "必定压制的攻击造成的压制伤害提高x50%。\n\nTags: Overpower, Damage."
+					"deDE": "Angriffe, die garantiert überwältigen, verursachen x50% mehr Überwältigungsschaden.\n\nTags: Überwältigen, Schaden.",
+					"esES": "Los ataques con arrollamiento garantizado infligen un x50% más de daño de arrollamiento.\n\nTags: Arrollamiento, Daño.",
+					"esMX": "Los ataques que sin dudas abrumarán infligen un x50% más de daño abrumador.\n\nTags: Abrumar, Daño.",
+					"frFR": "Les attaques qui sont garanties d'accabler infligent x50% de dégâts d'accablement supplémentaires.\n\nTags: Accablement, Dégâts.",
+					"itIT": "Gli attacchi con Sopraffazione garantita infliggono il x50% di danni da Sopraffazione aggiuntivi.\n\nTags: Sopraffazione, Danni.",
+					"jaJP": "オーバーパワー発動が確定している攻撃によるオーバーパワーのダメージが、x50%増加する。\n\nTags: オーバーパワー, ダメージ.",
+					"koKR": "확정적으로 제압하는 기술이 주는 제압 피해가 x50% 증가합니다.\n\nTags: 제압, 피해.",
+					"plPL": "Ataki gwarantujące przytłoczenie zadają obrażenia od obezwładnienia zwiększone o x50%.\n\nTags: Przytłoczenie, Obrażenia.",
+					"ptBR": "Ataques que têm garantia de Golpe Brutal causam 50% de dano aumentado de Golpe Brutal.\n\nTags: Golpe Brutal, Dano.",
+					"ruRU": "Атаки, гарантированно подавляющие врагов, наносят на x50% больше подавляющего урона.\n\nTags: Подавление, Урон.",
+					"zhCN": "必定压制的攻击造成的压制伤害提高x50%。\n\nTags: 压制, 伤害."
 				}
 			},
 			"Necromancer_Legendary_011": {
@@ -21068,17 +21068,17 @@ let paragonData = {
 					"zhCN": "气血双生"
 				},
 				"descriptionLocalized": {
-					"deDE": "Blutkugeln verleihen 5 Sek. lang x5% mehr Schaden, bis maximal x15%.\n\nTags: Blood Orb, Damage.",
-					"esES": "Los orbes de sangre otorgan un x5% más de daño, hasta un máximo de un x15%, durante 5 s.\n\nTags: Blood Orb, Damage.",
-					"esMX": "Los Orbes de Sangre otorgan un x5% más de daño, hasta un máximo del x15%, durante 5 segundos.\n\nTags: Blood Orb, Damage.",
-					"frFR": "Les orbes de sang augmentent vos dégâts de x5% pendant 5 s, jusqu'à un maximum de x15%.\n\nTags: Blood Orb, Damage.",
-					"itIT": "I Globi di Sangue forniscono il x5% di danni aggiuntivi, fino a un massimo del x15%, per 5 s.\n\nTags: Blood Orb, Damage.",
-					"jaJP": "〈血のオーブ〉取得時、与えるダメージが5秒間にわたりx5%増加する。増加量は最大x15%。\n\nTags: Blood Orb, Damage.",
-					"koKR": "피의 구슬 습득 시 5초 동안 피해가 x5%만큼, 최대 x15%까지 증가합니다.\n\nTags: Blood Orb, Damage.",
-					"plPL": "Krwawe kule zwiększają obrażenia o x5%, maksymalnie do x15%, na 5 sek.\n\nTags: Blood Orb, Damage.",
-					"ptBR": "Orbes de sangue concedem 5% de dano aumentado, até 15%, por 5 segundos.\n\nTags: Blood Orb, Damage.",
-					"ruRU": "Сферы крови на 5 сек. увеличивают урон на x5%, вплоть до x15%.\n\nTags: Blood Orb, Damage.",
-					"zhCN": "生命球使造成的伤害提高x5%,最多提高x15%,持续5秒。\n\nTags: Blood Orb, Damage."
+					"deDE": "Blutkugeln verleihen 5 Sek. lang x5% mehr Schaden, bis maximal x15%.\n\nTags: Blutkugel, Schaden.",
+					"esES": "Los orbes de sangre otorgan un x5% más de daño, hasta un máximo de un x15%, durante 5 s.\n\nTags: Orbe de sangre, Daño.",
+					"esMX": "Los Orbes de Sangre otorgan un x5% más de daño, hasta un máximo del x15%, durante 5 segundos.\n\nTags: Orbe de Sangre, Daño.",
+					"frFR": "Les orbes de sang augmentent vos dégâts de x5% pendant 5 s, jusqu'à un maximum de x15%.\n\nTags: Orbe de sang, Dégâts.",
+					"itIT": "I Globi di Sangue forniscono il x5% di danni aggiuntivi, fino a un massimo del x15%, per 5 s.\n\nTags: Globo di Sangue, Danni.",
+					"jaJP": "〈血のオーブ〉取得時、与えるダメージが5秒間にわたりx5%増加する。増加量は最大x15%。\n\nTags: 血のオーブ, ダメージ.",
+					"koKR": "피의 구슬 습득 시 5초 동안 피해가 x5%만큼, 최대 x15%까지 증가합니다.\n\nTags: 피의 구슬, 피해.",
+					"plPL": "Krwawe kule zwiększają obrażenia o x5%, maksymalnie do x15%, na 5 sek.\n\nTags: Krwawa Kula, Obrażenia.",
+					"ptBR": "Orbes de sangue concedem 5% de dano aumentado, até 15%, por 5 segundos.\n\nTags: Orbe de Sangue, Dano.",
+					"ruRU": "Сферы крови на 5 сек. увеличивают урон на x5%, вплоть до x15%.\n\nTags: Сфера крови, Урон.",
+					"zhCN": "生命球使造成的伤害提高x5%,最多提高x15%,持续5秒。\n\nTags: 生命球, 伤害."
 				}
 			},
 			"Necromancer_Legendary_012": {
@@ -21162,17 +21162,17 @@ let paragonData = {
 					"zhCN": "枯萎凋零"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Effekte durch Schattenschaden über Zeit haben eine Chance von x5%, mit jedem Treffer x50% Bonusschaden zu verursachen. Pro x1% Willenskraft, die Ihr besitzt, wird diese Chance um x2.5% und der Bonusschaden um 50 erhöht.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"esES": "Tus efectos de daño de sombra en el tiempo tienen un x5% de probabilidad de infligir un x50% de daño adicional cada vez que infligen daño. Esta probabilidad aumenta un x1% y el daño adicional aumenta un x2.5% por cada 50 de voluntad que tengas.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"esMX": "Tus efectos de daño de sombra con el tiempo tienen un x5% de probabilidad de infligir un x50% de daño bonificado cada vez que infligen daño. Esta probabilidad aumenta un x1% y el daño bonificado aumenta un x2.5% por cada 50 de Voluntad que tengas.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"frFR": "Vos effets infligeant des dégâts d'ombre sur la durée ont x5% de chances d'infliger x50% de dégâts supplémentaires chaque fois qu'ils infligent des dégâts. Ces chances sont augmentées de x1% et les dégâts supplémentaires de x2.5% par tranche de 50 points de volonté dont vous disposez.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"itIT": "Gli effetti dei tuoi danni da ombra periodici hanno una probabilità del x5% di infliggere il x50% danni aggiuntivi ogni volta che infliggono danni. Questa probabilità aumenta del x1% e i danni aggiuntivi aumentano del x2.5% per ogni 50 Volontà.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"jaJP": "シャドウ属性の継続ダメージ効果が、ダメージを与えるたびにx5%の確率でx50%のボーナスダメージを与える。 意志力50ごとに発生率がx1%、ボーナスダメージがx2.5%増加する。\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"koKR": "지속 암흑 피해 효과가 피해를 줄 때마다 x5% 확률로 x50%의 추가 피해를 줍니다. 의지력 50당 확률이 x1%, 추가 피해가 x2.5% 증가합니다.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"plPL": "Twoje efekty wywołujące obrażenia Cienia z upływem czasu mają x5% szans na zadanie dodatkowo x50% pkt. obrażeń za każdym razem, gdy wywołują obrażenia. Szansa ta wzrasta o x1%, a premia do obrażeń o x2.5% za każde posiadane przez ciebie 50 pkt. siły woli.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"ptBR": "Os efeitos de dano de sombra ao longo do tempo têm 5% de chance de causar 50% de bônus de dano cada vez que causam dano. Essa chance é aumentada em 1% e o bônus de dano é aumentado em 2.5% para cada 50 de Determinação que você tiver.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"ruRU": "Ваши эффекты периодического урона от темной магии с вероятностью x5% наносят x50% дополнительного урона каждым тактом. Вероятность повышается на x1%, а бонус к урону – на x2.5% за каждые 50 ед. силы воли героя.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
-					"zhCN": "你的持续性暗影伤害效果每次造成伤害时都有x5%几率造成x50%额外伤害。你每拥有50点意力,该几率就会提高x1%且伤害额外提高x2.5%。\n\nTags: Shadow Damage Over Time, Damage, Willpower."
+					"deDE": "Eure Effekte durch Schattenschaden über Zeit haben eine Chance von x5%, mit jedem Treffer x50% Bonusschaden zu verursachen. Pro x1% Willenskraft, die Ihr besitzt, wird diese Chance um x2.5% und der Bonusschaden um 50 erhöht.\n\nTags: Schattenschaden über Zeit, Schaden, Willenskraft.",
+					"esES": "Tus efectos de daño de sombra en el tiempo tienen un x5% de probabilidad de infligir un x50% de daño adicional cada vez que infligen daño. Esta probabilidad aumenta un x1% y el daño adicional aumenta un x2.5% por cada 50 de voluntad que tengas.\n\nTags: Daño de sombra en el tiempo, Daño, Voluntad.",
+					"esMX": "Tus efectos de daño de sombra con el tiempo tienen un x5% de probabilidad de infligir un x50% de daño bonificado cada vez que infligen daño. Esta probabilidad aumenta un x1% y el daño bonificado aumenta un x2.5% por cada 50 de Voluntad que tengas.\n\nTags: Daño de sombra con el tiempo, Daño, Voluntad.",
+					"frFR": "Vos effets infligeant des dégâts d'ombre sur la durée ont x5% de chances d'infliger x50% de dégâts supplémentaires chaque fois qu'ils infligent des dégâts. Ces chances sont augmentées de x1% et les dégâts supplémentaires de x2.5% par tranche de 50 points de volonté dont vous disposez.\n\nTags: Dégâts d'ombre sur la durée, Dégâts, Volonté.",
+					"itIT": "Gli effetti dei tuoi danni da ombra periodici hanno una probabilità del x5% di infliggere il x50% danni aggiuntivi ogni volta che infliggono danni. Questa probabilità aumenta del x1% e i danni aggiuntivi aumentano del x2.5% per ogni 50 Volontà.\n\nTags: Danni da ombra periodici, Danni, Volontà.",
+					"jaJP": "シャドウ属性の継続ダメージ効果が、ダメージを与えるたびにx5%の確率でx50%のボーナスダメージを与える。 意志力50ごとに発生率がx1%、ボーナスダメージがx2.5%増加する。\n\nTags: シャドウの継続ダメージ, ダメージ, 意志力.",
+					"koKR": "지속 암흑 피해 효과가 피해를 줄 때마다 x5% 확률로 x50%의 추가 피해를 줍니다. 의지력 50당 확률이 x1%, 추가 피해가 x2.5% 증가합니다.\n\nTags: 지속 암흑 피해, 피해, 의지력.",
+					"plPL": "Twoje efekty wywołujące obrażenia Cienia z upływem czasu mają x5% szans na zadanie dodatkowo x50% pkt. obrażeń za każdym razem, gdy wywołują obrażenia. Szansa ta wzrasta o x1%, a premia do obrażeń o x2.5% za każde posiadane przez ciebie 50 pkt. siły woli.\n\nTags: Obrażenia Cienia z upływem czasu, Obrażenia, Siła Woli.",
+					"ptBR": "Os efeitos de dano de sombra ao longo do tempo têm 5% de chance de causar 50% de bônus de dano cada vez que causam dano. Essa chance é aumentada em 1% e o bônus de dano é aumentado em 2.5% para cada 50 de Determinação que você tiver.\n\nTags: Dano de Sombra ao Longo do Tempo, Dano, Determinação.",
+					"ruRU": "Ваши эффекты периодического урона от темной магии с вероятностью x5% наносят x50% дополнительного урона каждым тактом. Вероятность повышается на x1%, а бонус к урону – на x2.5% за каждые 50 ед. силы воли героя.\n\nTags: Периодический урон от темной магии, Урон, Сила воли.",
+					"zhCN": "你的持续性暗影伤害效果每次造成伤害时都有x5%几率造成x50%额外伤害。你每拥有50点意力,该几率就会提高x1%且伤害额外提高x2.5%。\n\nTags: 持续性暗影伤害, 伤害, 意力."
 				}
 			},
 			"Necromancer_Legendary_017": {
@@ -21192,17 +21192,17 @@ let paragonData = {
 					"zhCN": "骨骼移植"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr Gegner mit Knochenfertigkeiten trefft, erhöht sich 8 Sek. lang Euer Schaden um x1% und Eure maximale Essenz um 3, bis maximal x7.5% mehr Schaden und 22.5 maximale Essenz.\n\nTags: Bone, Essence, Damage.",
-					"esES": "Golpear a enemigos con habilidades de hueso aumenta tu daño un x1% y tu esencia máxima en 3 durante 8 s. Se acumula hasta un máximo de un x7.5% más de daño y 22.5 de esencia máxima.\n\nTags: Bone, Essence, Damage.",
-					"esMX": "Golpear a los enemigos con habilidades de Hueso aumenta tu daño un x1% y tu Esencia máxima en 3 durante 8 segundos. El efecto se acumula hasta un x7.5% más de daño y 22.5 de Esencia máxima.\n\nTags: Bone, Essence, Damage.",
-					"frFR": "Toucher des adversaires avec des compétences d'os augmente vos dégâts de x1% et votre essence maximale de 3 points pendant 8 s, jusqu'à une augmentation de x7.5% de dégâts et de 22.5 points d'essence maximale.\n\nTags: Bone, Essence, Damage.",
-					"itIT": "Colpire i nemici con abilità d'ossa aumenta i tuoi danni del x1% e la tua essenza massima di 3 per 8 s, fino a un massimo del x7.5% di danni aggiuntivi e di 22.5 di essenza massima.\n\nTags: Bone, Essence, Damage.",
-					"jaJP": "骨スキルを敵に命中させると、ダメージがx1%増加し、精髄最大値が8秒間3増加する。ダメージ増加はx7.5%、精髄最大値は22.5まで蓄積する。\n\nTags: Bone, Essence, Damage.",
-					"koKR": "뼈 기술로 적을 적중하면 8초 동안 공격력이 x1%, 최대 정수가 3 증가합니다. 이 효과는 중첩되어 공격력은 x7.5%, 최대 정수는 22.5까지 증가합니다.\n\nTags: Bone, Essence, Damage.",
-					"plPL": "Trafienie wrogów umiejętnościami Kości zwiększa zadawane przez ciebie obrażenia o x1%, a maksymalną wartość twojej esencji o 3 pkt. na 8 sek. Efekt ten się kumuluje. Maksymalna premia wynosi +x7.5% do obrażeń oraz +22.5 do maksymalnej esencji.\n\nTags: Bone, Essence, Damage.",
-					"ptBR": "Atingir inimigos com habilidades de Osso aumenta o dano causado por você em 1% e sua essência máxima em 3 por 8 segundos, acumulando até 7.5% de dano aumentado e 22.5 de essência máxima.\n\nTags: Bone, Essence, Damage.",
-					"ruRU": "Когда вы поражаете противников умениями категории \"Кости\", наносимый вами урон увеличивается на x1%, а максимальный запас эссенции – на 3 ед. на 8 сек. Максимальная прибавка – x7.5% к урону и 22.5 ед. к запасу эссенции.\n\nTags: Bone, Essence, Damage.",
-					"zhCN": "使用白骨技能击中敌人令你造成的伤害提高x1%,精魂上限提高3点,持续8秒,最多可叠加至x7.5%增伤和22.5点精魂上限。\n\nTags: Bone, Essence, Damage."
+					"deDE": "Wenn Ihr Gegner mit Knochenfertigkeiten trefft, erhöht sich 8 Sek. lang Euer Schaden um x1% und Eure maximale Essenz um 3, bis maximal x7.5% mehr Schaden und 22.5 maximale Essenz.\n\nTags: Knochen, Essenz, Schaden.",
+					"esES": "Golpear a enemigos con habilidades de hueso aumenta tu daño un x1% y tu esencia máxima en 3 durante 8 s. Se acumula hasta un máximo de un x7.5% más de daño y 22.5 de esencia máxima.\n\nTags: Hueso, Esencia, Daño.",
+					"esMX": "Golpear a los enemigos con habilidades de Hueso aumenta tu daño un x1% y tu Esencia máxima en 3 durante 8 segundos. El efecto se acumula hasta un x7.5% más de daño y 22.5 de Esencia máxima.\n\nTags: Hueso, Esencia, Daño.",
+					"frFR": "Toucher des adversaires avec des compétences d'os augmente vos dégâts de x1% et votre essence maximale de 3 points pendant 8 s, jusqu'à une augmentation de x7.5% de dégâts et de 22.5 points d'essence maximale.\n\nTags: Os, Essence, Dégâts.",
+					"itIT": "Colpire i nemici con abilità d'ossa aumenta i tuoi danni del x1% e la tua essenza massima di 3 per 8 s, fino a un massimo del x7.5% di danni aggiuntivi e di 22.5 di essenza massima.\n\nTags: Ossa, Essenza, Danni.",
+					"jaJP": "骨スキルを敵に命中させると、ダメージがx1%増加し、精髄最大値が8秒間3増加する。ダメージ増加はx7.5%、精髄最大値は22.5まで蓄積する。\n\nTags: 骨, 精髄, ダメージ.",
+					"koKR": "뼈 기술로 적을 적중하면 8초 동안 공격력이 x1%, 최대 정수가 3 증가합니다. 이 효과는 중첩되어 공격력은 x7.5%, 최대 정수는 22.5까지 증가합니다.\n\nTags: 뼈, 정수, 피해.",
+					"plPL": "Trafienie wrogów umiejętnościami Kości zwiększa zadawane przez ciebie obrażenia o x1%, a maksymalną wartość twojej esencji o 3 pkt. na 8 sek. Efekt ten się kumuluje. Maksymalna premia wynosi +x7.5% do obrażeń oraz +22.5 do maksymalnej esencji.\n\nTags: Kość, Esencja, Obrażenia.",
+					"ptBR": "Atingir inimigos com habilidades de Osso aumenta o dano causado por você em 1% e sua essência máxima em 3 por 8 segundos, acumulando até 7.5% de dano aumentado e 22.5 de essência máxima.\n\nTags: Osso, Essência, Dano.",
+					"ruRU": "Когда вы поражаете противников умениями категории \"Кости\", наносимый вами урон увеличивается на x1%, а максимальный запас эссенции – на 3 ед. на 8 сек. Максимальная прибавка – x7.5% к урону и 22.5 ед. к запасу эссенции.\n\nTags: Кости, Эссенция, Урон.",
+					"zhCN": "使用白骨技能击中敌人令你造成的伤害提高x1%,精魂上限提高3点,持续8秒,最多可叠加至x7.5%增伤和22.5点精魂上限。\n\nTags: 白骨, 精魂, 伤害."
 				}
 			},
 			"Necromancer_Magic_ArmorWithActiveGolem": {
@@ -21214,51 +21214,51 @@ let paragonData = {
 				"name": "Blood Orb Damage",
 				"description": "+5% Damage\n\nTags: Blood Orb, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden\n\nTags: Blood Orb, Damage.",
-					"esES": "+5% de daño\n\nTags: Blood Orb, Damage.",
-					"esMX": "+5% de daño\n\nTags: Blood Orb, Damage.",
-					"frFR": "+5% de dégâts\n\nTags: Blood Orb, Damage.",
-					"itIT": "Danni: +5%\n\nTags: Blood Orb, Damage.",
-					"jaJP": "ダメージ +5%\n\nTags: Blood Orb, Damage.",
-					"koKR": "공격력 +5%\n\nTags: Blood Orb, Damage.",
-					"plPL": "+5% obrażeń\n\nTags: Blood Orb, Damage.",
-					"ptBR": "+5% de dano\n\nTags: Blood Orb, Damage.",
-					"ruRU": "+5% к урону\n\nTags: Blood Orb, Damage.",
-					"zhCN": "+5%伤害\n\nTags: Blood Orb, Damage."
+					"deDE": "+5% Schaden\n\nTags: Blutkugel, Schaden.",
+					"esES": "+5% de daño\n\nTags: Orbe de sangre, Daño.",
+					"esMX": "+5% de daño\n\nTags: Orbe de Sangre, Daño.",
+					"frFR": "+5% de dégâts\n\nTags: Orbe de sang, Dégâts.",
+					"itIT": "Danni: +5%\n\nTags: Globo di Sangue, Danni.",
+					"jaJP": "ダメージ +5%\n\nTags: 血のオーブ, ダメージ.",
+					"koKR": "공격력 +5%\n\nTags: 피의 구슬, 피해.",
+					"plPL": "+5% obrażeń\n\nTags: Krwawa Kula, Obrażenia.",
+					"ptBR": "+5% de dano\n\nTags: Orbe de Sangue, Dano.",
+					"ruRU": "+5% к урону\n\nTags: Сфера крови, Урон.",
+					"zhCN": "+5%伤害\n\nTags: 生命球, 伤害."
 				}
 			},
 			"Necromancer_Magic_BloodOrbHealing": {
 				"name": "Blood Orb Healing",
 				"description": "+2.4% Blood Orb Healing\n\nTags: Blood Orb, Healing.",
 				"descriptionLocalized": {
-					"deDE": "+2.4% Heilung durch Blutkugeln\n\nTags: Blood Orb, Healing.",
-					"esES": "+2.4% de curación de Orbe de sangre\n\nTags: Blood Orb, Healing.",
-					"esMX": "+2.4% de sanación de Orbe de Sangre\n\nTags: Blood Orb, Healing.",
-					"frFR": "+2.4% de soins reçus des orbes de sang\n\nTags: Blood Orb, Healing.",
-					"itIT": "Cura Globi di Sangue: +2.4%\n\nTags: Blood Orb, Healing.",
-					"jaJP": "血のオーブの回復量+2.4%\n\nTags: Blood Orb, Healing.",
-					"koKR": "피의 구슬 치유량 +2.4%\n\nTags: Blood Orb, Healing.",
-					"plPL": "+2.4% leczenia krwawą kulą\n\nTags: Blood Orb, Healing.",
-					"ptBR": "+2.4% de cura de orbes de sangue\n\nTags: Blood Orb, Healing.",
-					"ruRU": "+2.4% к исцелению сферами крови\n\nTags: Blood Orb, Healing.",
-					"zhCN": "+2.4%生命球治疗效果\n\nTags: Blood Orb, Healing."
+					"deDE": "+2.4% Heilung durch Blutkugeln\n\nTags: Blutkugel, Heilung.",
+					"esES": "+2.4% de curación de Orbe de sangre\n\nTags: Orbe de sangre, Curación.",
+					"esMX": "+2.4% de sanación de Orbe de Sangre\n\nTags: Orbe de Sangre, Sanación.",
+					"frFR": "+2.4% de soins reçus des orbes de sang\n\nTags: Orbe de sang, Soins.",
+					"itIT": "Cura Globi di Sangue: +2.4%\n\nTags: Globo di Sangue, Guarigione.",
+					"jaJP": "血のオーブの回復量+2.4%\n\nTags: 血のオーブ, 回復.",
+					"koKR": "피의 구슬 치유량 +2.4%\n\nTags: 피의 구슬, 치유.",
+					"plPL": "+2.4% leczenia krwawą kulą\n\nTags: Krwawa Kula, Leczenie.",
+					"ptBR": "+2.4% de cura de orbes de sangue\n\nTags: Orbe de Sangue, Cura.",
+					"ruRU": "+2.4% к исцелению сферами крови\n\nTags: Сфера крови, Исцеление.",
+					"zhCN": "+2.4%生命球治疗效果\n\nTags: 生命球, 治疗."
 				}
 			},
 			"Necromancer_Magic_CriticalDamageBone": {
 				"name": "Critical Damage Bone",
 				"description": "+7.5% Critical Strike Damage with Bone Skills\n\nTags: Bone, Critical Strikes, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+7.5% kritischer Trefferschaden mit Knochen -Fertigkeiten\n\nTags: Bone, Critical Strikes, Damage.",
-					"esES": "+7.5% de daño de golpe crítico con habilidades de Hueso\n\nTags: Bone, Critical Strikes, Damage.",
-					"esMX": "+7.5% de daño de golpe crítico con habilidades de Hueso\n\nTags: Bone, Critical Strikes, Damage.",
-					"frFR": "+7.5% de dégâts critiques avec les compétences de Os\n\nTags: Bone, Critical Strikes, Damage.",
-					"itIT": "Danni critici con abilità Ossa: +7.5%\n\nTags: Bone, Critical Strikes, Damage.",
-					"jaJP": "骨 スキルのクリティカルヒットダメージ+7.5%\n\nTags: Bone, Critical Strikes, Damage.",
-					"koKR": "뼈 기술의 극대화 피해 +7.5%\n\nTags: Bone, Critical Strikes, Damage.",
-					"plPL": "+7.5% obrażeń od trafień krytycznych od umiejętności: Kość\n\nTags: Bone, Critical Strikes, Damage.",
-					"ptBR": "+7.5% de dano de acerto crítico com habilidades de Osso\n\nTags: Bone, Critical Strikes, Damage.",
-					"ruRU": "+7.5% к критическому урону для умений категории \"Кости \"\n\nTags: Bone, Critical Strikes, Damage.",
-					"zhCN": "+7.5%白骨 技能的暴击伤害\n\nTags: Bone, Critical Strikes, Damage."
+					"deDE": "+7.5% kritischer Trefferschaden mit Knochen -Fertigkeiten\n\nTags: Knochen, Kritische Treffer, Schaden.",
+					"esES": "+7.5% de daño de golpe crítico con habilidades de Hueso\n\nTags: Hueso, Golpes críticos, Daño.",
+					"esMX": "+7.5% de daño de golpe crítico con habilidades de Hueso\n\nTags: Hueso, Golpes críticos, Daño.",
+					"frFR": "+7.5% de dégâts critiques avec les compétences de Os\n\nTags: Os, Coups critiques, Dégâts.",
+					"itIT": "Danni critici con abilità Ossa: +7.5%\n\nTags: Ossa, Colpi critici, Danni.",
+					"jaJP": "骨 スキルのクリティカルヒットダメージ+7.5%\n\nTags: 骨, 致命の一撃, ダメージ.",
+					"koKR": "뼈 기술의 극대화 피해 +7.5%\n\nTags: 뼈, 극대화, 피해.",
+					"plPL": "+7.5% obrażeń od trafień krytycznych od umiejętności: Kość\n\nTags: Kość, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+7.5% de dano de acerto crítico com habilidades de Osso\n\nTags: Osso, Acertos Críticos, Dano.",
+					"ruRU": "+7.5% к критическому урону для умений категории \"Кости \"\n\nTags: Кости, Критические удары, Урон.",
+					"zhCN": "+7.5%白骨 技能的暴击伤害\n\nTags: 白骨, 暴击, 伤害."
 				}
 			},
 			"Necromancer_Magic_DamageBone": {
@@ -21333,17 +21333,17 @@ let paragonData = {
 					"zhCN": "塑骨者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Knochen\n+10 Intelligenz\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"esES": "+10% de daño de habilidades de Hueso\n+10 p. de inteligencia\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"esMX": "+10% de daño de habilidad Hueso\n+10 de Inteligencia\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"frFR": "+10% de dégâts de compétence (Os )\n+10 intelligence\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"itIT": "Danni abilità di Ossa: +10%\nIntelligenza: +10\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"jaJP": "スキルダメージ+10% 骨\n知力+10\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"koKR": "뼈 기술 피해 +10%\n지능 +10\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"plPL": "+10% obrażeń od umiejętności (Kość )\n+10 inteligencji\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"ptBR": "+10% de dano de habilidade Osso\n+10 de Inteligência\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"ruRU": "+10% к урону от умений категории \"Кости \"\n+10 к интеллекту\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
-					"zhCN": "+10%白骨 技能伤害\n+10点智力\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence."
+					"deDE": "+10% Schaden für Fertigkeiten der Kategorie Knochen\n+10 Intelligenz\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Knochen, Schaden, Intelligenz.",
+					"esES": "+10% de daño de habilidades de Hueso\n+10 p. de inteligencia\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hueso, Daño, Inteligencia.",
+					"esMX": "+10% de daño de habilidad Hueso\n+10 de Inteligencia\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hueso, Daño, Inteligencia.",
+					"frFR": "+10% de dégâts de compétence (Os )\n+10 intelligence\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Os, Dégâts, Intelligence.",
+					"itIT": "Danni abilità di Ossa: +10%\nIntelligenza: +10\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ossa, Danni, Intelligenza.",
+					"jaJP": "スキルダメージ+10% 骨\n知力+10\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 骨, ダメージ, 知力.",
+					"koKR": "뼈 기술 피해 +10%\n지능 +10\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 뼈, 피해, 지능.",
+					"plPL": "+10% obrażeń od umiejętności (Kość )\n+10 inteligencji\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kość, Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano de habilidade Osso\n+10 de Inteligência\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Osso, Dano, Inteligência.",
+					"ruRU": "+10% к урону от умений категории \"Кости \"\n+10 к интеллекту\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Кости, Урон, Интеллект.",
+					"zhCN": "+10%白骨 技能伤害\n+10点智力\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 白骨, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21377,17 +21377,17 @@ let paragonData = {
 					"zhCN": "厚皮"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden, während Ihr gestählt seid\n+4% Leben\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"esES": "+10% de daño con fortificación\n+4% de vida\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"esMX": "+10% de daño mientras tengas fortificación\n+4% de vida\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"frFR": "+10% de dégâts pendant la fortification\n+4% de points de vie\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"itIT": "Danni durante Fortificazione: +10%\nPunti vita: +4%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"jaJP": "強化中のダメージ+10%\nライフ+4%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"koKR": "보강 상태에서 공격력 +10%\n생명력 +4%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"plPL": "+10% obrażeń podczas wzmocnienia\n+4% zdrowia\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"ptBR": "+10% de dano sob fortificação\n+4% de vida\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"ruRU": "+10% к урону при действующем эффекте укрепления\n+4% к здоровью\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life.",
-					"zhCN": "+10%强固时伤害\n+4%生命\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Life."
+					"deDE": "+10% Schaden, während Ihr gestählt seid\n+4% Leben\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Stählung, Schaden, Leben.",
+					"esES": "+10% de daño con fortificación\n+4% de vida\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificación, Daño, Vida.",
+					"esMX": "+10% de daño mientras tengas fortificación\n+4% de vida\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificar, Daño, Vida.",
+					"frFR": "+10% de dégâts pendant la fortification\n+4% de points de vie\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortification, Dégâts, Vie.",
+					"itIT": "Danni durante Fortificazione: +10%\nPunti vita: +4%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificazione, Danni, Vita.",
+					"jaJP": "強化中のダメージ+10%\nライフ+4%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 強化, ダメージ, ライフ.",
+					"koKR": "보강 상태에서 공격력 +10%\n생명력 +4%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 보강, 피해, 생명력.",
+					"plPL": "+10% obrażeń podczas wzmocnienia\n+4% zdrowia\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Umocnienie, Obrażenia, Zdrowie.",
+					"ptBR": "+10% de dano sob fortificação\n+4% de vida\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Dano, Vida.",
+					"ruRU": "+10% к урону при действующем эффекте укрепления\n+4% к здоровью\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Урон, Здоровье.",
+					"zhCN": "+10%强固时伤害\n+4%生命\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害, 生命."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -21412,17 +21412,17 @@ let paragonData = {
 					"zhCN": "饮血者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4.8% Heilung durch Blutkugeln\n+10 Intelligenz\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"esES": "+4.8% de curación de Orbe de sangre\n+10 p. de inteligencia\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"esMX": "+4.8% de sanación de Orbe de Sangre\n+10 de Inteligencia\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"frFR": "+4.8% de soins reçus des orbes de sang\n+10 intelligence\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"itIT": "Cura Globi di Sangue: +4.8%\nIntelligenza: +10\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"jaJP": "血のオーブの回復量+4.8%\n知力+10\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"koKR": "피의 구슬 치유량 +4.8%\n지능 +10\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"plPL": "+4.8% leczenia krwawą kulą\n+10 inteligencji\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"ptBR": "+4.8% de cura de orbes de sangue\n+10 de Inteligência\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"ruRU": "+4.8% к исцелению сферами крови\n+10 к интеллекту\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence.",
-					"zhCN": "+4.8%生命球治疗效果\n+10点智力\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Intelligence."
+					"deDE": "+4.8% Heilung durch Blutkugeln\n+10 Intelligenz\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blutkugel, Heilung, Intelligenz.",
+					"esES": "+4.8% de curación de Orbe de sangre\n+10 p. de inteligencia\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de sangre, Curación, Inteligencia.",
+					"esMX": "+4.8% de sanación de Orbe de Sangre\n+10 de Inteligencia\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de Sangre, Sanación, Inteligencia.",
+					"frFR": "+4.8% de soins reçus des orbes de sang\n+10 intelligence\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de sang, Soins, Intelligence.",
+					"itIT": "Cura Globi di Sangue: +4.8%\nIntelligenza: +10\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Globo di Sangue, Guarigione, Intelligenza.",
+					"jaJP": "血のオーブの回復量+4.8%\n知力+10\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: 血のオーブ, 回復, 知力.",
+					"koKR": "피의 구슬 치유량 +4.8%\n지능 +10\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: 피의 구슬, 치유, 지능.",
+					"plPL": "+4.8% leczenia krwawą kulą\n+10 inteligencji\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Krwawa Kula, Leczenie, Inteligencja.",
+					"ptBR": "+4.8% de cura de orbes de sangue\n+10 de Inteligência\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de Sangue, Cura, Inteligência.",
+					"ruRU": "+4.8% к исцелению сферами крови\n+10 к интеллекту\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Сфера крови, Исцеление, Интеллект.",
+					"zhCN": "+4.8%生命球治疗效果\n+10点智力\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: 生命球, 治疗, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21453,17 +21453,17 @@ let paragonData = {
 					"zhCN": "钙化"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden mit Knochen -Fertigkeiten\n+4% Schaden für Fertigkeiten der Kategorie Knochen\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"esES": "+15% de daño de golpe crítico con habilidades de Hueso\n+4% de daño de habilidades de Hueso\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"esMX": "+15% de daño de golpe crítico con habilidades de Hueso\n+4% de daño de habilidad Hueso\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"frFR": "+15% de dégâts critiques avec les compétences de Os\n+4% de dégâts de compétence (Os )\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"itIT": "Danni critici con abilità Ossa: +15%\nDanni abilità di Ossa: +4%\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"jaJP": "骨 スキルのクリティカルヒットダメージ+15%\nスキルダメージ+4% 骨\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"koKR": "뼈 기술의 극대화 피해 +15%\n뼈 기술 피해 +4%\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"plPL": "+15% obrażeń od trafień krytycznych od umiejętności: Kość\n+4% obrażeń od umiejętności (Kość )\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"ptBR": "+15% de dano de acerto crítico com habilidades de Osso\n+4% de dano de habilidade Osso\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"ruRU": "+15% к критическому урону для умений категории \"Кости \"\n+4% к урону от умений категории \"Кости \"\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage.",
-					"zhCN": "+15%白骨 技能的暴击伤害\n+4%白骨 技能伤害\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Critical Strikes, Damage."
+					"deDE": "+15% kritischer Trefferschaden mit Knochen -Fertigkeiten\n+4% Schaden für Fertigkeiten der Kategorie Knochen\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Knochen, Kritische Treffer, Schaden.",
+					"esES": "+15% de daño de golpe crítico con habilidades de Hueso\n+4% de daño de habilidades de Hueso\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Hueso, Golpes críticos, Daño.",
+					"esMX": "+15% de daño de golpe crítico con habilidades de Hueso\n+4% de daño de habilidad Hueso\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Hueso, Golpes críticos, Daño.",
+					"frFR": "+15% de dégâts critiques avec les compétences de Os\n+4% de dégâts de compétence (Os )\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Os, Coups critiques, Dégâts.",
+					"itIT": "Danni critici con abilità Ossa: +15%\nDanni abilità di Ossa: +4%\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Ossa, Colpi critici, Danni.",
+					"jaJP": "骨 スキルのクリティカルヒットダメージ+15%\nスキルダメージ+4% 骨\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: 骨, 致命の一撃, ダメージ.",
+					"koKR": "뼈 기술의 극대화 피해 +15%\n뼈 기술 피해 +4%\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: 뼈, 극대화, 피해.",
+					"plPL": "+15% obrażeń od trafień krytycznych od umiejętności: Kość\n+4% obrażeń od umiejętności (Kość )\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Kość, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+15% de dano de acerto crítico com habilidades de Osso\n+4% de dano de habilidade Osso\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Osso, Acertos Críticos, Dano.",
+					"ruRU": "+15% к критическому урону для умений категории \"Кости \"\n+4% к урону от умений категории \"Кости \"\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Кости, Критические удары, Урон.",
+					"zhCN": "+15%白骨 技能的暴击伤害\n+4%白骨 技能伤害\n\nBonus: Another +15% Critical Strike Damage with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: 白骨, 暴击, 伤害."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -21488,17 +21488,17 @@ let paragonData = {
 					"zhCN": "刚毅"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden, während Ihr gestählt seid\n+10 Intelligenz\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"esES": "+10% de daño con fortificación\n+10 p. de inteligencia\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"esMX": "+10% de daño mientras tengas fortificación\n+10 de Inteligencia\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"frFR": "+10% de dégâts pendant la fortification\n+10 intelligence\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"itIT": "Danni durante Fortificazione: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"jaJP": "強化中のダメージ+10%\n知力+10\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"koKR": "보강 상태에서 공격력 +10%\n지능 +10\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"plPL": "+10% obrażeń podczas wzmocnienia\n+10 inteligencji\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"ptBR": "+10% de dano sob fortificação\n+10 de Inteligência\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"ruRU": "+10% к урону при действующем эффекте укрепления\n+10 к интеллекту\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence.",
-					"zhCN": "+10%强固时伤害\n+10点智力\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortify, Damage, Intelligence."
+					"deDE": "+10% Schaden, während Ihr gestählt seid\n+10 Intelligenz\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Stählung, Schaden, Intelligenz.",
+					"esES": "+10% de daño con fortificación\n+10 p. de inteligencia\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificación, Daño, Inteligencia.",
+					"esMX": "+10% de daño mientras tengas fortificación\n+10 de Inteligencia\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificar, Daño, Inteligencia.",
+					"frFR": "+10% de dégâts pendant la fortification\n+10 intelligence\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortification, Dégâts, Intelligence.",
+					"itIT": "Danni durante Fortificazione: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificazione, Danni, Intelligenza.",
+					"jaJP": "強化中のダメージ+10%\n知力+10\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 強化, ダメージ, 知力.",
+					"koKR": "보강 상태에서 공격력 +10%\n지능 +10\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 보강, 피해, 지능.",
+					"plPL": "+10% obrażeń podczas wzmocnienia\n+10 inteligencji\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Umocnienie, Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano sob fortificação\n+10 de Inteligência\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Dano, Inteligência.",
+					"ruRU": "+10% к урону при действующем эффекте укрепления\n+10 к интеллекту\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Урон, Интеллект.",
+					"zhCN": "+10%强固时伤害\n+10点智力\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21532,17 +21532,17 @@ let paragonData = {
 					"zhCN": "苏生"
 				},
 				"descriptionLocalized": {
-					"deDE": "{#} Sek. lang +10% Schaden nach Aufheben einer Blutkugel\n+5% Schaden bei hohem Leben\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"esES": "+10% de daño durante {#} s tras recoger un orbe de sangre\n+5% de daño en estado saludable\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"esMX": "+10% de daño durante {#} segundos luego de recoger un Orbe de Sangre\n+5% de daño mientras estás saludable\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"frFR": "+10% de dégâts pendant {#} s après avoir ramassé un orbe de sang\n+5% de dégâts lorsque vous êtes en bonne santé\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"itIT": "Danni per {#} s dopo aver raccolto un Globo di Sangue: +10%\nDanni mentre sei in salute: +5%\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"jaJP": "血のオーブを拾った後{#} 秒間、ダメージ+10%\n健全状態時のダメージ+5%\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"koKR": "피의 구슬을 주운 후 {#} 초 동안 공격력 +10%\n건강 상태일 때 공격력 +5%\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"plPL": "+10% obrażeń przez {#} sek. po podniesieniu krwawej kuli\n+5% zadawanych obrażeń, jeśli postać jest w pełni sił\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"ptBR": "+10% de dano por {#} segundos depois de coletar um orbe de sangue\n+5% de dano enquanto saudável\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"ruRU": "+10% к урону на {#} сек. после использования сферы крови\n+5% к урону при высоком уровне здоровья\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage.",
-					"zhCN": "+10%拾取生命球后的伤害,持续{#} 秒\n+5%健康时伤害\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healthy, Damage."
+					"deDE": "{#} Sek. lang +10% Schaden nach Aufheben einer Blutkugel\n+5% Schaden bei hohem Leben\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Blutkugel, Gesund, Schaden.",
+					"esES": "+10% de daño durante {#} s tras recoger un orbe de sangre\n+5% de daño en estado saludable\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de sangre, Saludable, Daño.",
+					"esMX": "+10% de daño durante {#} segundos luego de recoger un Orbe de Sangre\n+5% de daño mientras estás saludable\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de Sangre, Saludable, Daño.",
+					"frFR": "+10% de dégâts pendant {#} s après avoir ramassé un orbe de sang\n+5% de dégâts lorsque vous êtes en bonne santé\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de sang, En bonne santé, Dégâts.",
+					"itIT": "Danni per {#} s dopo aver raccolto un Globo di Sangue: +10%\nDanni mentre sei in salute: +5%\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Globo di Sangue, In salute, Danni.",
+					"jaJP": "血のオーブを拾った後{#} 秒間、ダメージ+10%\n健全状態時のダメージ+5%\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: 血のオーブ, 健全, ダメージ.",
+					"koKR": "피의 구슬을 주운 후 {#} 초 동안 공격력 +10%\n건강 상태일 때 공격력 +5%\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: 피의 구슬, 건강, 피해.",
+					"plPL": "+10% obrażeń przez {#} sek. po podniesieniu krwawej kuli\n+5% zadawanych obrażeń, jeśli postać jest w pełni sił\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Krwawa Kula, Pełnia Sił, Obrażenia.",
+					"ptBR": "+10% de dano por {#} segundos depois de coletar um orbe de sangue\n+5% de dano enquanto saudável\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de Sangue, Saudável, Dano.",
+					"ruRU": "+10% к урону на {#} сек. после использования сферы крови\n+5% к урону при высоком уровне здоровья\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Сфера крови, Высокое здоровье, Урон.",
+					"zhCN": "+10%拾取生命球后的伤害,持续{#} 秒\n+5%健康时伤害\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: 生命球, 健康, 伤害."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -21567,17 +21567,17 @@ let paragonData = {
 					"zhCN": "无懈可击"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch verwundbare Gegner\n+100 Rüstung\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"esES": "4% de reducción de daño de enemigos vulnerables\n+100 p. de armadura\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"esMX": "4% de reducción de daño de enemigos vulnerables\n+100 de armadura\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n+100 à l'armure\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nArmatura: +100\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"jaJP": "脆弱状態の敵からのダメージ減少率4%\nアーマー+100\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"koKR": "취약한 적에 대한 피해 감소 4%\n방어도 +100\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n+100 pancerza\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n+100 de armadura\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"ruRU": "-4% к урону от уязвимых противников\n+100 ед. брони\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor.",
-					"zhCN": "4%对易伤敌人的伤害减免\n+100 护甲值\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Armor."
+					"deDE": "4% Reduktion von Schaden durch verwundbare Gegner\n+100 Rüstung\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schadensreduktion, Rüstung.",
+					"esES": "4% de reducción de daño de enemigos vulnerables\n+100 p. de armadura\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Armadura.",
+					"esMX": "4% de reducción de daño de enemigos vulnerables\n+100 de armadura\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Armadura.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n+100 à l'armure\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Réduction des dégâts, Armure.",
+					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nArmatura: +100\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Riduzione danni, Armatura.",
+					"jaJP": "脆弱状態の敵からのダメージ減少率4%\nアーマー+100\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ減少, 装甲.",
+					"koKR": "취약한 적에 대한 피해 감소 4%\n방어도 +100\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해 감소, 방어도.",
+					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n+100 pancerza\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Redukcja Obrażeń, Pancerz.",
+					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n+100 de armadura\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Redução de Dano, Armadura.",
+					"ruRU": "-4% к урону от уязвимых противников\n+100 ед. брони\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Уменьшение урона, Броня.",
+					"zhCN": "4%对易伤敌人的伤害减免\n+100 护甲值\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 护甲."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -21605,17 +21605,17 @@ let paragonData = {
 					"zhCN": "吸血"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4.8% Heilung durch Blutkugeln\n+4% Leben\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"esES": "+4.8% de curación de Orbe de sangre\n+4% de vida\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"esMX": "+4.8% de sanación de Orbe de Sangre\n+4% de vida\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"frFR": "+4.8% de soins reçus des orbes de sang\n+4% de points de vie\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"itIT": "Cura Globi di Sangue: +4.8%\nPunti vita: +4%\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"jaJP": "血のオーブの回復量+4.8%\nライフ+4%\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"koKR": "피의 구슬 치유량 +4.8%\n생명력 +4%\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"plPL": "+4.8% leczenia krwawą kulą\n+4% zdrowia\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"ptBR": "+4.8% de cura de orbes de sangue\n+4% de vida\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"ruRU": "+4.8% к исцелению сферами крови\n+4% к здоровью\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life.",
-					"zhCN": "+4.8%生命球治疗效果\n+4%生命\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blood Orb, Healing, Life."
+					"deDE": "+4.8% Heilung durch Blutkugeln\n+4% Leben\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Blutkugel, Heilung, Leben.",
+					"esES": "+4.8% de curación de Orbe de sangre\n+4% de vida\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de sangre, Curación, Vida.",
+					"esMX": "+4.8% de sanación de Orbe de Sangre\n+4% de vida\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de Sangre, Sanación, Vida.",
+					"frFR": "+4.8% de soins reçus des orbes de sang\n+4% de points de vie\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de sang, Soins, Vie.",
+					"itIT": "Cura Globi di Sangue: +4.8%\nPunti vita: +4%\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Globo di Sangue, Guarigione, Vita.",
+					"jaJP": "血のオーブの回復量+4.8%\nライフ+4%\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: 血のオーブ, 回復, ライフ.",
+					"koKR": "피의 구슬 치유량 +4.8%\n생명력 +4%\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: 피의 구슬, 치유, 생명력.",
+					"plPL": "+4.8% leczenia krwawą kulą\n+4% zdrowia\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Krwawa Kula, Leczenie, Zdrowie.",
+					"ptBR": "+4.8% de cura de orbes de sangue\n+4% de vida\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Orbe de Sangue, Cura, Vida.",
+					"ruRU": "+4.8% к исцелению сферами крови\n+4% к здоровью\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: Сфера крови, Исцеление, Здоровье.",
+					"zhCN": "+4.8%生命球治疗效果\n+4%生命\n\nBonus: Another +4.8% Blood Orb Healing if requirements met:\n{thresholdRequirements}\n\nTags: 生命球, 治疗, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21646,17 +21646,17 @@ let paragonData = {
 					"zhCN": "借力"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden, solange Golem aktiv sind\n+2% gesamte Rüstung, solange folgende Gefährten aktiv sind: Golem\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"esES": "+10% de daño mientras duran las mascotas Golem\n+2% de armadura total mientras duran las mascotas Golem\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"esMX": "+10% de daño mientras Golem está activa\n+2% de armadura total mientras Golem está activa\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"frFR": "+10% de dégâts tant que les serviteurs (Golem ) sont actifs\n+2% à l'armure totale tant que les serviteurs (Golem ) sont actifs\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"itIT": "Danni mentre Golem è attivo: +10%\nArmatura totale con Golem in attività: +2%\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"jaJP": "Golem 発動時のダメージ+10%\nGolem 発動中の合計防御力+2%\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"koKR": "Golem |1이;가; 활성화되어 있는 동안 공격력 +10%\nGolem |1이;가; 활성화되어 있는 동안 총 방어도 +2%\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"plPL": "+10% obrażeń, gdy aktywne jest: Golem\n+2% całkowitego pancerza, gdy aktywne jest: Golem\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"ptBR": "+10% de dano com Golem em atividade\n+2% de armadura total com Golem em atividade\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"ruRU": "+10% к урону во время активности прислужников категории \"Golem \"\n+2% к общей броне во время активности прислужников \"Golem \"\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"zhCN": "+10%Golem 激活时的伤害\n+2%激活Golem 时的总护甲加成\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor."
+					"deDE": "+10% Schaden, solange Golem aktiv sind\n+2% gesamte Rüstung, solange folgende Gefährten aktiv sind: Golem\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Rüstung.",
+					"esES": "+10% de daño mientras duran las mascotas Golem\n+2% de armadura total mientras duran las mascotas Golem\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Armadura.",
+					"esMX": "+10% de daño mientras Golem está activa\n+2% de armadura total mientras Golem está activa\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Armadura.",
+					"frFR": "+10% de dégâts tant que les serviteurs (Golem ) sont actifs\n+2% à l'armure totale tant que les serviteurs (Golem ) sont actifs\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Armure.",
+					"itIT": "Danni mentre Golem è attivo: +10%\nArmatura totale con Golem in attività: +2%\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Armatura.",
+					"jaJP": "Golem 発動時のダメージ+10%\nGolem 発動中の合計防御力+2%\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 装甲.",
+					"koKR": "Golem |1이;가; 활성화되어 있는 동안 공격력 +10%\nGolem |1이;가; 활성화되어 있는 동안 총 방어도 +2%\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 방어도.",
+					"plPL": "+10% obrażeń, gdy aktywne jest: Golem\n+2% całkowitego pancerza, gdy aktywne jest: Golem\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Pancerz.",
+					"ptBR": "+10% de dano com Golem em atividade\n+2% de armadura total com Golem em atividade\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Armadura.",
+					"ruRU": "+10% к урону во время активности прислужников категории \"Golem \"\n+2% к общей броне во время активности прислужников \"Golem \"\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Броня.",
+					"zhCN": "+10%Golem 激活时的伤害\n+2%激活Golem 时的总护甲加成\n\nBonus: Another +10% Damage while Golem are Active if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 护甲."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -21681,17 +21681,17 @@ let paragonData = {
 					"zhCN": "披甲"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Dienerrüstung\n10% maximales Leben für Diener\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"esES": "+4% de armadura de esbirros\n10% de vida máxima de esbirro\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"esMX": "+4% de armadura de esbirros\n10% de vida máxima de esbirro\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"frFR": "+4% à l'armure des serviteurs\n10% de maximum de vie de vos serviteurs\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"itIT": "Armatura servitori: +4%\nVita massima dei servitori: 10%\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"jaJP": "ミニオンのアーマー+4%\nミニオンの最大ライフ10%\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"koKR": "하수인 방어도 +4%\n최대 하수인 생명력 10%\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"plPL": "+4% pancerza u sług\n10% maksymalnego zdrowia sługi\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"ptBR": "+4% de armadura de lacaios\n10% de vida máxima para lacaios\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"ruRU": "+4% к броне прислужников\nЗдоровье прислужников – 10%\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life.",
-					"zhCN": "+4%仆从护甲\n10%仆从生命上限\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Life."
+					"deDE": "+4% Dienerrüstung\n10% maximales Leben für Diener\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Rüstung, Leben.",
+					"esES": "+4% de armadura de esbirros\n10% de vida máxima de esbirro\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Armadura, Vida.",
+					"esMX": "+4% de armadura de esbirros\n10% de vida máxima de esbirro\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Armadura, Vida.",
+					"frFR": "+4% à l'armure des serviteurs\n10% de maximum de vie de vos serviteurs\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Armure, Vie.",
+					"itIT": "Armatura servitori: +4%\nVita massima dei servitori: 10%\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Armatura, Vita.",
+					"jaJP": "ミニオンのアーマー+4%\nミニオンの最大ライフ10%\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, 装甲, ライフ.",
+					"koKR": "하수인 방어도 +4%\n최대 하수인 생명력 10%\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 방어도, 생명력.",
+					"plPL": "+4% pancerza u sług\n10% maksymalnego zdrowia sługi\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Pancerz, Zdrowie.",
+					"ptBR": "+4% de armadura de lacaios\n10% de vida máxima para lacaios\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Armadura, Vida.",
+					"ruRU": "+4% к броне прислужников\nЗдоровье прислужников – 10%\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Броня, Здоровье.",
+					"zhCN": "+4%仆从护甲\n10%仆从生命上限\n\nBonus: Another +4% Minion Armor if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 护甲, 生命."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21725,17 +21725,17 @@ let paragonData = {
 					"zhCN": "监禁"
 				},
 				"descriptionLocalized": {
-					"deDE": "10% Schadensreduktion für Eure Diener\n+10 Intelligenz\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"esES": "10% de reducción de daño para tus esbirros\n+10 p. de inteligencia\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"esMX": "10% de reducción de daño para tus esbirros\n+10 de Inteligencia\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"frFR": "10% de réduction des dégâts subis par vos serviteurs\n+10 intelligence\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"itIT": "Riduzione danni per i servitori: 10%\nIntelligenza: +10\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"jaJP": "ミニオンへのダメージ減少率10%\n知力+10\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"koKR": "하수인의 피해 감소 10%\n지능 +10\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"plPL": "10% redukcji obrażeń dla twoich sług\n+10 inteligencji\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"ptBR": "10% de redução de dano para seus lacaios\n+10 de Inteligência\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"ruRU": "-10% к урону, получаемому прислужниками\n+10 к интеллекту\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence.",
-					"zhCN": "10%仆从伤害减免\n+10点智力\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage Reduction, Intelligence."
+					"deDE": "10% Schadensreduktion für Eure Diener\n+10 Intelligenz\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schadensreduktion, Intelligenz.",
+					"esES": "10% de reducción de daño para tus esbirros\n+10 p. de inteligencia\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Reducción de daño, Inteligencia.",
+					"esMX": "10% de reducción de daño para tus esbirros\n+10 de Inteligencia\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Reducción de daño, Inteligencia.",
+					"frFR": "10% de réduction des dégâts subis par vos serviteurs\n+10 intelligence\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Réduction des dégâts, Intelligence.",
+					"itIT": "Riduzione danni per i servitori: 10%\nIntelligenza: +10\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Riduzione danni, Intelligenza.",
+					"jaJP": "ミニオンへのダメージ減少率10%\n知力+10\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ減少, 知力.",
+					"koKR": "하수인의 피해 감소 10%\n지능 +10\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해 감소, 지능.",
+					"plPL": "10% redukcji obrażeń dla twoich sług\n+10 inteligencji\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Redukcja Obrażeń, Inteligencja.",
+					"ptBR": "10% de redução de dano para seus lacaios\n+10 de Inteligência\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Redução de Dano, Inteligência.",
+					"ruRU": "-10% к урону, получаемому прислужниками\n+10 к интеллекту\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Уменьшение урона, Интеллект.",
+					"zhCN": "10%仆从伤害减免\n+10点智力\n\nBonus: Another 10% Damage Reduction for Your Minions if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害减免, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21769,17 +21769,17 @@ let paragonData = {
 					"zhCN": "领主"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Dienerschaden\n+10 Intelligenz\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"esES": "+10% de daño de esbirros\n+10 p. de inteligencia\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"esMX": "+10% de daño de esbirros\n+10 de Inteligencia\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"frFR": "+10% aux dégâts des serviteurs\n+10 intelligence\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"itIT": "Danni dei servitori: +10%\nIntelligenza: +10\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"jaJP": "ミニオンのダメージ+10%\n知力+10\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"koKR": "하수인 공격력 +10%\n지능 +10\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"plPL": "+10% obrażeń stronników\n+10 inteligencji\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"ptBR": "+10% de dano de lacaio\n+10 de Inteligência\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"ruRU": "+10% к урону прислужников\n+10 к интеллекту\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"zhCN": "+10%仆从伤害\n+10点智力\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence."
+					"deDE": "+10% Dienerschaden\n+10 Intelligenz\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Intelligenz.",
+					"esES": "+10% de daño de esbirros\n+10 p. de inteligencia\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Inteligencia.",
+					"esMX": "+10% de daño de esbirros\n+10 de Inteligencia\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Inteligencia.",
+					"frFR": "+10% aux dégâts des serviteurs\n+10 intelligence\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Intelligence.",
+					"itIT": "Danni dei servitori: +10%\nIntelligenza: +10\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Intelligenza.",
+					"jaJP": "ミニオンのダメージ+10%\n知力+10\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 知力.",
+					"koKR": "하수인 공격력 +10%\n지능 +10\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 지능.",
+					"plPL": "+10% obrażeń stronników\n+10 inteligencji\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano de lacaio\n+10 de Inteligência\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Inteligência.",
+					"ruRU": "+10% к урону прислужников\n+10 к интеллекту\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Интеллект.",
+					"zhCN": "+10%仆从伤害\n+10点智力\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21810,17 +21810,17 @@ let paragonData = {
 					"zhCN": "变异"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Schaden des Typs Golem\n+10 Intelligenz\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"esES": "+16.7% de daño de Golem\n+10 p. de inteligencia\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"esMX": "+16.7% de daño de Golem\n+10 de Inteligencia\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"frFR": "+16.7% de dégâts de Golem\n+10 intelligence\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"itIT": "Danni da Golem: +16.7%\nIntelligenza: +10\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"jaJP": "Golem ダメージ+16.7%\n知力+10\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"koKR": "Golem 피해 +16.7%\n지능 +10\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"plPL": "+16.7% obrażeń typu Golem\n+10 inteligencji\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"ptBR": "+16.7% de dano de Golem\n+10 de Inteligência\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"ruRU": "+16.7% к урону (Golem )\n+10 к интеллекту\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence.",
-					"zhCN": "+16.7%Golem 伤害\n+10点智力\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Intelligence."
+					"deDE": "+16.7% Schaden des Typs Golem\n+10 Intelligenz\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Intelligenz.",
+					"esES": "+16.7% de daño de Golem\n+10 p. de inteligencia\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Inteligencia.",
+					"esMX": "+16.7% de daño de Golem\n+10 de Inteligencia\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Inteligencia.",
+					"frFR": "+16.7% de dégâts de Golem\n+10 intelligence\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Intelligence.",
+					"itIT": "Danni da Golem: +16.7%\nIntelligenza: +10\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Intelligenza.",
+					"jaJP": "Golem ダメージ+16.7%\n知力+10\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 知力.",
+					"koKR": "Golem 피해 +16.7%\n지능 +10\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 지능.",
+					"plPL": "+16.7% obrażeń typu Golem\n+10 inteligencji\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Inteligencja.",
+					"ptBR": "+16.7% de dano de Golem\n+10 de Inteligência\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Inteligência.",
+					"ruRU": "+16.7% к урону (Golem )\n+10 к интеллекту\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Интеллект.",
+					"zhCN": "+16.7%Golem 伤害\n+10点智力\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21854,17 +21854,17 @@ let paragonData = {
 					"zhCN": "疯狂傀儡"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Schaden des Typs Golem\n+6.7% Angriffsgeschwindigkeit für: Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"esES": "+16.7% de daño de Golem\n+6.7% de velocidad de ataque de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"esMX": "+16.7% de daño de Golem\n+6.7% de velocidad de ataque de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"frFR": "+16.7% de dégâts de Golem\n+6.7% à la vitesse d'attaque de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"itIT": "Danni da Golem: +16.7%\nVelocità d'attacco Golem: +6.7%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"jaJP": "Golem ダメージ+16.7%\n攻撃速度+6.7% Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"koKR": "Golem 피해 +16.7%\nGolem 공격 속도 +6.7%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"plPL": "+16.7% obrażeń typu Golem\n+6.7% Golem szybkości ataku\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"ptBR": "+16.7% de dano de Golem\n+6.7% de velocidade de ataque de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"ruRU": "+16.7% к урону (Golem )\n+6.7% к скорости атаки (Golem )\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"zhCN": "+16.7%Golem 伤害\n+6.7%Golem 攻击速度\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed."
+					"deDE": "+16.7% Schaden des Typs Golem\n+6.7% Angriffsgeschwindigkeit für: Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Angriffsgeschwindigkeit.",
+					"esES": "+16.7% de daño de Golem\n+6.7% de velocidad de ataque de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Velocidad de ataque.",
+					"esMX": "+16.7% de daño de Golem\n+6.7% de velocidad de ataque de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Velocidad de ataque.",
+					"frFR": "+16.7% de dégâts de Golem\n+6.7% à la vitesse d'attaque de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Vitesse d'attaque.",
+					"itIT": "Danni da Golem: +16.7%\nVelocità d'attacco Golem: +6.7%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Velocità d'attacco.",
+					"jaJP": "Golem ダメージ+16.7%\n攻撃速度+6.7% Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 攻撃速度.",
+					"koKR": "Golem 피해 +16.7%\nGolem 공격 속도 +6.7%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 공격 속도.",
+					"plPL": "+16.7% obrażeń typu Golem\n+6.7% Golem szybkości ataku\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Szybkość Ataku.",
+					"ptBR": "+16.7% de dano de Golem\n+6.7% de velocidade de ataque de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Velocidade de Ataque.",
+					"ruRU": "+16.7% к урону (Golem )\n+6.7% к скорости атаки (Golem )\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Скорость атаки.",
+					"zhCN": "+16.7%Golem 伤害\n+6.7%Golem 攻击速度\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 攻击速度."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21895,17 +21895,17 @@ let paragonData = {
 					"zhCN": "邪恶造物"
 				},
 				"descriptionLocalized": {
-					"deDE": "+6.7% Rüstung des Typs Golem\n+10 Intelligenz\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"esES": "+6.7% de armadura de Golem\n+10 p. de inteligencia\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"esMX": "+6.7% de armadura de Golem\n+10 de Inteligencia\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"frFR": "+6.7% Golem à l'armure\n+10 intelligence\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"itIT": "Armatura Golem: +6.7%\nIntelligenza: +10\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"jaJP": "Golem アーマー+6.7%\n知力+10\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"koKR": "Golem 방어도 +6.7%\n지능 +10\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"plPL": "+6.7% pancerza: Golem\n+10 inteligencji\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"ptBR": "+6.7% Golem de armadura\n+10 de Inteligência\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"ruRU": "+6.7% к броне (Golem )\n+10 к интеллекту\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence.",
-					"zhCN": "+6.7%Golem 护甲\n+10点智力\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Armor, Intelligence."
+					"deDE": "+6.7% Rüstung des Typs Golem\n+10 Intelligenz\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Rüstung, Intelligenz.",
+					"esES": "+6.7% de armadura de Golem\n+10 p. de inteligencia\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Armadura, Inteligencia.",
+					"esMX": "+6.7% de armadura de Golem\n+10 de Inteligencia\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Armadura, Inteligencia.",
+					"frFR": "+6.7% Golem à l'armure\n+10 intelligence\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Armure, Intelligence.",
+					"itIT": "Armatura Golem: +6.7%\nIntelligenza: +10\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Armatura, Intelligenza.",
+					"jaJP": "Golem アーマー+6.7%\n知力+10\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, 装甲, 知力.",
+					"koKR": "Golem 방어도 +6.7%\n지능 +10\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 방어도, 지능.",
+					"plPL": "+6.7% pancerza: Golem\n+10 inteligencji\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Pancerz, Inteligencja.",
+					"ptBR": "+6.7% Golem de armadura\n+10 de Inteligência\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Armadura, Inteligência.",
+					"ruRU": "+6.7% к броне (Golem )\n+10 к интеллекту\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Броня, Интеллект.",
+					"zhCN": "+6.7%Golem 护甲\n+10点智力\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 护甲, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -21936,17 +21936,17 @@ let paragonData = {
 					"zhCN": "傀儡师"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Dienerschaden\n+4% Angriffsgeschwindigkeit von Dienern\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"esES": "+10% de daño de esbirros\n+4% de velocidad de ataque de esbirros\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"esMX": "+10% de daño de esbirros\n+4% de velocidad de ataque de esbirros\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"frFR": "+10% aux dégâts des serviteurs\n+4% à la vitesse d'attaque des serviteurs\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"itIT": "Danni dei servitori: +10%\nVelocità d'attacco dei servitori: +4%\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"jaJP": "ミニオンのダメージ+10%\nミニオンの攻撃速度+4%\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"koKR": "하수인 공격력 +10%\n하수인 공격 속도 +4%\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"plPL": "+10% obrażeń stronników\n+4% szybkości ataku stronników\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"ptBR": "+10% de dano de lacaio\n+4% de velocidade de ataque de lacaios\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"ruRU": "+10% к урону прислужников\n+4% к скорости атаки прислужников\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
-					"zhCN": "+10%仆从伤害\n+4%仆从攻击速度\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed."
+					"deDE": "+10% Dienerschaden\n+4% Angriffsgeschwindigkeit von Dienern\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Angriffsgeschwindigkeit.",
+					"esES": "+10% de daño de esbirros\n+4% de velocidad de ataque de esbirros\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Velocidad de ataque.",
+					"esMX": "+10% de daño de esbirros\n+4% de velocidad de ataque de esbirros\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Velocidad de ataque.",
+					"frFR": "+10% aux dégâts des serviteurs\n+4% à la vitesse d'attaque des serviteurs\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Vitesse d'attaque.",
+					"itIT": "Danni dei servitori: +10%\nVelocità d'attacco dei servitori: +4%\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Velocità d'attacco.",
+					"jaJP": "ミニオンのダメージ+10%\nミニオンの攻撃速度+4%\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 攻撃速度.",
+					"koKR": "하수인 공격력 +10%\n하수인 공격 속도 +4%\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 공격 속도.",
+					"plPL": "+10% obrażeń stronników\n+4% szybkości ataku stronników\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Szybkość Ataku.",
+					"ptBR": "+10% de dano de lacaio\n+4% de velocidade de ataque de lacaios\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Velocidade de Ataque.",
+					"ruRU": "+10% к урону прислужников\n+4% к скорости атаки прислужников\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Скорость атаки.",
+					"zhCN": "+10%仆从伤害\n+4%仆从攻击速度\n\nBonus: Another +10% Minion Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 攻击速度."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -21974,17 +21974,17 @@ let paragonData = {
 					"zhCN": "灌魔施法者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Schaden des Typs SkeletonMage\n16% SkeletonMage Widerstand gegen alle Schadensarten\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"esES": "+16.7% de daño de SkeletonMage\n16% de resistencia de SkeletonMage a todos los elementos\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"esMX": "+16.7% de daño de SkeletonMage\n16% de resistencia de SkeletonMage a todos los elementos\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"frFR": "+16.7% de dégâts de SkeletonMage\n16% de résistance à tous les éléments (SkeletonMage )\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"itIT": "Danni da SkeletonMage: +16.7%\nResistenza a tutti gli elementi per SkeletonMage: 16%\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"jaJP": "SkeletonMage ダメージ+16.7%\n全属性に対するSkeletonMage 耐性16%\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"koKR": "SkeletonMage 피해 +16.7%\n모든 원소에 대한 SkeletonMage 저항 16%\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"plPL": "+16.7% obrażeń typu SkeletonMage\n16% odporności na wszystkie żywioły: SkeletonMage\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"ptBR": "+16.7% de dano de SkeletonMage\n16% de resistência a todos os elementos para SkeletonMage\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"ruRU": "+16.7% к урону (SkeletonMage )\nСопротивление стихиям – 16% (SkeletonMage )\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
-					"zhCN": "+16.7%SkeletonMage 伤害\n16%SkeletonMage 全元素抗性\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical."
+					"deDE": "+16.7% Schaden des Typs SkeletonMage\n16% SkeletonMage Widerstand gegen alle Schadensarten\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Widerstand, Nichtphysisch.",
+					"esES": "+16.7% de daño de SkeletonMage\n16% de resistencia de SkeletonMage a todos los elementos\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Resistencia, No física.",
+					"esMX": "+16.7% de daño de SkeletonMage\n16% de resistencia de SkeletonMage a todos los elementos\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Resistencia, No físico.",
+					"frFR": "+16.7% de dégâts de SkeletonMage\n16% de résistance à tous les éléments (SkeletonMage )\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Résistance, Dégâts non physiques.",
+					"itIT": "Danni da SkeletonMage: +16.7%\nResistenza a tutti gli elementi per SkeletonMage: 16%\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Resistenza, Non fisico.",
+					"jaJP": "SkeletonMage ダメージ+16.7%\n全属性に対するSkeletonMage 耐性16%\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 耐性, 非物理.",
+					"koKR": "SkeletonMage 피해 +16.7%\n모든 원소에 대한 SkeletonMage 저항 16%\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 저항, 비물리.",
+					"plPL": "+16.7% obrażeń typu SkeletonMage\n16% odporności na wszystkie żywioły: SkeletonMage\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Odporność, Niefizyczne.",
+					"ptBR": "+16.7% de dano de SkeletonMage\n16% de resistência a todos os elementos para SkeletonMage\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Resistência, Não física.",
+					"ruRU": "+16.7% к урону (SkeletonMage )\nСопротивление стихиям – 16% (SkeletonMage )\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Сопротивление, Нефизический урон.",
+					"zhCN": "+16.7%SkeletonMage 伤害\n16%SkeletonMage 全元素抗性\n\nBonus: Another +16.7% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 抗性, 非物理."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -22009,17 +22009,17 @@ let paragonData = {
 					"zhCN": "灌魔战士"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Schaden des Typs SkeletonWarrior\n+6.7% Rüstung des Typs SkeletonWarrior\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"esES": "+16.7% de daño de SkeletonWarrior\n+6.7% de armadura de SkeletonWarrior\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"esMX": "+16.7% de daño de SkeletonWarrior\n+6.7% de armadura de SkeletonWarrior\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"frFR": "+16.7% de dégâts de SkeletonWarrior\n+6.7% SkeletonWarrior à l'armure\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"itIT": "Danni da SkeletonWarrior: +16.7%\nArmatura SkeletonWarrior: +6.7%\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"jaJP": "SkeletonWarrior ダメージ+16.7%\nSkeletonWarrior アーマー+6.7%\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"koKR": "SkeletonWarrior 피해 +16.7%\nSkeletonWarrior 방어도 +6.7%\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"plPL": "+16.7% obrażeń typu SkeletonWarrior\n+6.7% pancerza: SkeletonWarrior\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"ptBR": "+16.7% de dano de SkeletonWarrior\n+6.7% SkeletonWarrior de armadura\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"ruRU": "+16.7% к урону (SkeletonWarrior )\n+6.7% к броне (SkeletonWarrior )\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor.",
-					"zhCN": "+16.7%SkeletonWarrior 伤害\n+6.7%SkeletonWarrior 护甲\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Armor."
+					"deDE": "+16.7% Schaden des Typs SkeletonWarrior\n+6.7% Rüstung des Typs SkeletonWarrior\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Rüstung.",
+					"esES": "+16.7% de daño de SkeletonWarrior\n+6.7% de armadura de SkeletonWarrior\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Armadura.",
+					"esMX": "+16.7% de daño de SkeletonWarrior\n+6.7% de armadura de SkeletonWarrior\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Armadura.",
+					"frFR": "+16.7% de dégâts de SkeletonWarrior\n+6.7% SkeletonWarrior à l'armure\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Armure.",
+					"itIT": "Danni da SkeletonWarrior: +16.7%\nArmatura SkeletonWarrior: +6.7%\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Armatura.",
+					"jaJP": "SkeletonWarrior ダメージ+16.7%\nSkeletonWarrior アーマー+6.7%\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 装甲.",
+					"koKR": "SkeletonWarrior 피해 +16.7%\nSkeletonWarrior 방어도 +6.7%\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 방어도.",
+					"plPL": "+16.7% obrażeń typu SkeletonWarrior\n+6.7% pancerza: SkeletonWarrior\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Pancerz.",
+					"ptBR": "+16.7% de dano de SkeletonWarrior\n+6.7% SkeletonWarrior de armadura\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Armadura.",
+					"ruRU": "+16.7% к урону (SkeletonWarrior )\n+6.7% к броне (SkeletonWarrior )\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Броня.",
+					"zhCN": "+16.7%SkeletonWarrior 伤害\n+6.7%SkeletonWarrior 护甲\n\nBonus: Another +16.7% SkeletonWarrior Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 护甲."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -22044,17 +22044,17 @@ let paragonData = {
 					"zhCN": "灌魔傀儡"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Schaden des Typs Golem\n14% maximales Leben für Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"esES": "+16.7% de daño de Golem\n14% de vida máxima de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"esMX": "+16.7% de daño de Golem\n14% de vida máxima de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"frFR": "+16.7% de dégâts de Golem\n14% du maximum de vie (Golem )\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"itIT": "Danni da Golem: +16.7%\nVita massima Golem: 14%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"jaJP": "Golem ダメージ+16.7%\nライフ最大値+14% Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"koKR": "Golem 피해 +16.7%\nGolem 최대 생명력 +14%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"plPL": "+16.7% obrażeń typu Golem\n14% maksymalnego zdrowia: Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"ptBR": "+16.7% de dano de Golem\n14% de vida máxima para Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"ruRU": "+16.7% к урону (Golem )\nМаксимальный запас здоровья (Golem ) – 14%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life.",
-					"zhCN": "+16.7%Golem 伤害\n14%Golem 生命上限\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Life."
+					"deDE": "+16.7% Schaden des Typs Golem\n14% maximales Leben für Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Leben.",
+					"esES": "+16.7% de daño de Golem\n14% de vida máxima de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Vida.",
+					"esMX": "+16.7% de daño de Golem\n14% de vida máxima de Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Vida.",
+					"frFR": "+16.7% de dégâts de Golem\n14% du maximum de vie (Golem )\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Vie.",
+					"itIT": "Danni da Golem: +16.7%\nVita massima Golem: 14%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Vita.",
+					"jaJP": "Golem ダメージ+16.7%\nライフ最大値+14% Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, ライフ.",
+					"koKR": "Golem 피해 +16.7%\nGolem 최대 생명력 +14%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 생명력.",
+					"plPL": "+16.7% obrażeń typu Golem\n14% maksymalnego zdrowia: Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Zdrowie.",
+					"ptBR": "+16.7% de dano de Golem\n14% de vida máxima para Golem\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Vida.",
+					"ruRU": "+16.7% к урону (Golem )\nМаксимальный запас здоровья (Golem ) – 14%\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Здоровье.",
+					"zhCN": "+16.7%Golem 伤害\n14%Golem 生命上限\n\nBonus: Another +16.7% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 生命."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -22079,17 +22079,17 @@ let paragonData = {
 					"zhCN": "血肉骇物"
 				},
 				"descriptionLocalized": {
-					"deDE": "+6.7% Rüstung des Typs Golem\n16% Golem Widerstand gegen alle Schadensarten\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"esES": "+6.7% de armadura de Golem\n16% de resistencia de Golem a todos los elementos\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"esMX": "+6.7% de armadura de Golem\n16% de resistencia de Golem a todos los elementos\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"frFR": "+6.7% Golem à l'armure\n16% de résistance à tous les éléments (Golem )\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"itIT": "Armatura Golem: +6.7%\nResistenza a tutti gli elementi per Golem: 16%\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"jaJP": "Golem アーマー+6.7%\n全属性に対するGolem 耐性16%\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"koKR": "Golem 방어도 +6.7%\n모든 원소에 대한 Golem 저항 16%\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"plPL": "+6.7% pancerza: Golem\n16% odporności na wszystkie żywioły: Golem\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"ptBR": "+6.7% Golem de armadura\n16% de resistência a todos os elementos para Golem\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"ruRU": "+6.7% к броне (Golem )\nСопротивление стихиям – 16% (Golem )\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
-					"zhCN": "+6.7%Golem 护甲\n16%Golem 全元素抗性\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor."
+					"deDE": "+6.7% Rüstung des Typs Golem\n16% Golem Widerstand gegen alle Schadensarten\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Widerstand, Nichtphysisch, Rüstung.",
+					"esES": "+6.7% de armadura de Golem\n16% de resistencia de Golem a todos los elementos\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Resistencia, No física, Armadura.",
+					"esMX": "+6.7% de armadura de Golem\n16% de resistencia de Golem a todos los elementos\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Resistencia, No físico, Armadura.",
+					"frFR": "+6.7% Golem à l'armure\n16% de résistance à tous les éléments (Golem )\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Résistance, Dégâts non physiques, Armure.",
+					"itIT": "Armatura Golem: +6.7%\nResistenza a tutti gli elementi per Golem: 16%\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Resistenza, Non fisico, Armatura.",
+					"jaJP": "Golem アーマー+6.7%\n全属性に対するGolem 耐性16%\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, 耐性, 非物理, 装甲.",
+					"koKR": "Golem 방어도 +6.7%\n모든 원소에 대한 Golem 저항 16%\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 저항, 비물리, 방어도.",
+					"plPL": "+6.7% pancerza: Golem\n16% odporności na wszystkie żywioły: Golem\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Odporność, Niefizyczne, Pancerz.",
+					"ptBR": "+6.7% Golem de armadura\n16% de resistência a todos os elementos para Golem\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Resistência, Não física, Armadura.",
+					"ruRU": "+6.7% к броне (Golem )\nСопротивление стихиям – 16% (Golem )\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Сопротивление, Нефизический урон, Броня.",
+					"zhCN": "+6.7%Golem 护甲\n16%Golem 全元素抗性\n\nBonus: Another +6.7% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 抗性, 非物理, 护甲."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -22123,17 +22123,17 @@ let paragonData = {
 					"zhCN": "鲜血强化"
 				},
 				"descriptionLocalized": {
-					"deDE": "{#} Sek. lang +10% Schaden nach Aufheben einer Blutkugel\n+10 Intelligenz\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"esES": "+10% de daño durante {#} s tras recoger un orbe de sangre\n+10 p. de inteligencia\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"esMX": "+10% de daño durante {#} segundos luego de recoger un Orbe de Sangre\n+10 de Inteligencia\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"frFR": "+10% de dégâts pendant {#} s après avoir ramassé un orbe de sang\n+10 intelligence\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"itIT": "Danni per {#} s dopo aver raccolto un Globo di Sangue: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"jaJP": "血のオーブを拾った後{#} 秒間、ダメージ+10%\n知力+10\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"koKR": "피의 구슬을 주운 후 {#} 초 동안 공격력 +10%\n지능 +10\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"plPL": "+10% obrażeń przez {#} sek. po podniesieniu krwawej kuli\n+10 inteligencji\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"ptBR": "+10% de dano por {#} segundos depois de coletar um orbe de sangue\n+10 de Inteligência\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"ruRU": "+10% к урону на {#} сек. после использования сферы крови\n+10 к интеллекту\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb.",
-					"zhCN": "+10%拾取生命球后的伤害,持续{#} 秒\n+10点智力\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Intelligence, Blood Orb."
+					"deDE": "{#} Sek. lang +10% Schaden nach Aufheben einer Blutkugel\n+10 Intelligenz\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Intelligenz, Blutkugel.",
+					"esES": "+10% de daño durante {#} s tras recoger un orbe de sangre\n+10 p. de inteligencia\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Inteligencia, Orbe de sangre.",
+					"esMX": "+10% de daño durante {#} segundos luego de recoger un Orbe de Sangre\n+10 de Inteligencia\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Inteligencia, Orbe de Sangre.",
+					"frFR": "+10% de dégâts pendant {#} s après avoir ramassé un orbe de sang\n+10 intelligence\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Intelligence, Orbe de sang.",
+					"itIT": "Danni per {#} s dopo aver raccolto un Globo di Sangue: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Intelligenza, Globo di Sangue.",
+					"jaJP": "血のオーブを拾った後{#} 秒間、ダメージ+10%\n知力+10\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 知力, 血のオーブ.",
+					"koKR": "피의 구슬을 주운 후 {#} 초 동안 공격력 +10%\n지능 +10\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 지능, 피의 구슬.",
+					"plPL": "+10% obrażeń przez {#} sek. po podniesieniu krwawej kuli\n+10 inteligencji\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Inteligencja, Krwawa Kula.",
+					"ptBR": "+10% de dano por {#} segundos depois de coletar um orbe de sangue\n+10 de Inteligência\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Inteligência, Orbe de Sangue.",
+					"ruRU": "+10% к урону на {#} сек. после использования сферы крови\n+10 к интеллекту\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Интеллект, Сфера крови.",
+					"zhCN": "+10%拾取生命球后的伤害,持续{#} 秒\n+10点智力\n\nBonus: Another +10% Damage for {#} Seconds After Picking Up a Blood Orb if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 智力, 生命球."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -22167,17 +22167,17 @@ let paragonData = {
 					"zhCN": "萦绕暗影"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Shadow über Zeit\n+4% Schaden des Typs Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"esES": "+10% de daño de Shadow en el tiempo\n+4% de daño de Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"esMX": "+10% de daño con el tiempo de Shadow\n+4% de daño de Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"frFR": "+10% de dégâts de Shadow sur la durée\n+4% de dégâts de Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"itIT": "Danni periodici da Shadow: +10%\nDanni da Shadow: +4%\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"jaJP": "Shadow 継続ダメージ+10%\nShadow ダメージ+4%\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"koKR": "지속 Shadow 피해 +10%\nShadow 피해 +4%\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"plPL": "+10% obrażeń z upływem czasu typu: Shadow\n+4% obrażeń typu: Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"ptBR": "+10% de dano de Shadow ao longo do tempo\n+4% de dano de Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"ruRU": "+10% к периодическому урону (Shadow )\n+4% к урону (Shadow )\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage.",
-					"zhCN": "+10%Shadow 持续性伤害\n+4%Shadow 伤害\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Shadow, Shadow Damage Over Time, Damage."
+					"deDE": "+10% Schaden des Typs Shadow über Zeit\n+4% Schaden des Typs Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Schatten, Schattenschaden über Zeit, Schaden.",
+					"esES": "+10% de daño de Shadow en el tiempo\n+4% de daño de Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sombra, Daño de sombra en el tiempo, Daño.",
+					"esMX": "+10% de daño con el tiempo de Shadow\n+4% de daño de Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sombra, Daño de sombra con el tiempo, Daño.",
+					"frFR": "+10% de dégâts de Shadow sur la durée\n+4% de dégâts de Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Ombre, Dégâts d'ombre sur la durée, Dégâts.",
+					"itIT": "Danni periodici da Shadow: +10%\nDanni da Shadow: +4%\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Ombra, Danni da ombra periodici, Danni.",
+					"jaJP": "Shadow 継続ダメージ+10%\nShadow ダメージ+4%\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: シャドウ, シャドウの継続ダメージ, ダメージ.",
+					"koKR": "지속 Shadow 피해 +10%\nShadow 피해 +4%\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 암흑, 지속 암흑 피해, 피해.",
+					"plPL": "+10% obrażeń z upływem czasu typu: Shadow\n+4% obrażeń typu: Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Cień, Obrażenia Cienia z upływem czasu, Obrażenia.",
+					"ptBR": "+10% de dano de Shadow ao longo do tempo\n+4% de dano de Shadow\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sombra, Dano de Sombra ao Longo do Tempo, Dano.",
+					"ruRU": "+10% к периодическому урону (Shadow )\n+4% к урону (Shadow )\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Темная магия, Периодический урон от темной магии, Урон.",
+					"zhCN": "+10%Shadow 持续性伤害\n+4%Shadow 伤害\n\nBonus: Another +10% Shadow Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: 暗影, 持续性暗影伤害, 伤害."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -22205,17 +22205,17 @@ let paragonData = {
 					"zhCN": "埋葬"
 				},
 				"descriptionLocalized": {
-					"deDE": "+2% kritische Trefferchance mit Knochen -Fertigkeiten\n+4% Heilung durch Tränke\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"esES": "+2% de probabilidad de golpe crítico con habilidades de Hueso\n+4% de curación de pociones\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"esMX": "+2% de probabilidad de golpe crítico con habilidades de Hueso\n+4% de sanación de pociones\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"frFR": "+2% de chances d'infliger un coup critique avec les compétences de Os\n+4% de soins de la potion\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"itIT": "Probabilità di critico con abilità di Ossa: +2%\nCure pozione: +4%\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"jaJP": "骨 スキルでの致命の一撃発生率+2%\nポーションによる回復+4%\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"koKR": "뼈 기술의 극대화 확률 +2%\n물약 치유량 +4%\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"plPL": "+2% szansy na trafienie krytyczne od umiejętności: Kość\n+4% do leczenia miksturą\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"ptBR": "+2% de chance de acerto crítico com habilidades Osso\n+4% de cura de poção\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"ruRU": "+2% к вероятности критического удара для умений категории \"Кости \"\n+4% к исцелению от зелий\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes.",
-					"zhCN": "+2%白骨 技能的暴击几率\n4%药水恢复效果\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Healing, Bone, Critical Strikes."
+					"deDE": "+2% kritische Trefferchance mit Knochen -Fertigkeiten\n+4% Heilung durch Tränke\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Heilung, Knochen, Kritische Treffer.",
+					"esES": "+2% de probabilidad de golpe crítico con habilidades de Hueso\n+4% de curación de pociones\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Curación, Hueso, Golpes críticos.",
+					"esMX": "+2% de probabilidad de golpe crítico con habilidades de Hueso\n+4% de sanación de pociones\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Sanación, Hueso, Golpes críticos.",
+					"frFR": "+2% de chances d'infliger un coup critique avec les compétences de Os\n+4% de soins de la potion\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Soins, Os, Coups critiques.",
+					"itIT": "Probabilità di critico con abilità di Ossa: +2%\nCure pozione: +4%\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione, Ossa, Colpi critici.",
+					"jaJP": "骨 スキルでの致命の一撃発生率+2%\nポーションによる回復+4%\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: 回復, 骨, 致命の一撃.",
+					"koKR": "뼈 기술의 극대화 확률 +2%\n물약 치유량 +4%\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: 치유, 뼈, 극대화.",
+					"plPL": "+2% szansy na trafienie krytyczne od umiejętności: Kość\n+4% do leczenia miksturą\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie, Kość, Trafienia Krytyczne.",
+					"ptBR": "+2% de chance de acerto crítico com habilidades Osso\n+4% de cura de poção\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Cura, Osso, Acertos Críticos.",
+					"ruRU": "+2% к вероятности критического удара для умений категории \"Кости \"\n+4% к исцелению от зелий\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление, Кости, Критические удары.",
+					"zhCN": "+2%白骨 技能的暴击几率\n4%药水恢复效果\n\nBonus: Another +2% Critical Strike Chance with Bone Skills if requirements met:\n{thresholdRequirements}\n\nTags: 治疗, 白骨, 暴击."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -27414,17 +27414,17 @@ let paragonData = {
 					"zhCN": "怪异赏金"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr mit Fertigkeiten mit Infusionen angreift, erhaltet Ihr 6 Sek. lang 20% Widerstand und x20% mehr Schaden für das Element dieser Infusion.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"esES": "Cuando atacas con una habilidad imbuida, obtienes un 20% de resistencia y un x20% más de daño del elemento de esa imbuición durante 6 s.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"esMX": "Al atacar con una habilidad de Imbuición, obtienes un 20% de resistencia y un x20% de daño adicional para el elemento de esa Imbuición durante 6 segundos.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"frFR": "Lorsque vous attaquez avec une compétence imprégnée d'un élément, vous obtenez un bonus de 20% à la résistance et de x20% aux dégâts pour cet élément pendant 6 s.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"itIT": "Quando attacchi con un'abilità infusa ottieni il 20% di resistenza e il x20% di danni aggiuntivi per l'elemento dell'infusione per 6 s.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"jaJP": "注入状態のスキルで攻撃すると、6秒間、注入した属性の耐性が20%、と与ダメージがx20%増加する。\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"koKR": "주입 기술로 공격하면 6초 동안 해당 주입의 원소에 대한 저항이 20%, 해당 원소의 피해가 x20%증가합니다.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"plPL": "Kiedy atakujesz nasyconą umiejętnością, zyskujesz premię 20% do odporności i zadajesz zwiększone o x20% obrażenia od żywiołu tego nasycenia na 6 sek.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"ptBR": "Ao atacar com uma habilidade de Imbuição, você recebe 20% de resistência e 20% de dano aumentado para o elemento da Imbuição por 6 segundos.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"ruRU": "Когда вы атакуете насыщенным умением, вы получаете +20% к соответствующему сопротивлению и наносите на x20% больше соответствующего урона, связанного с этим насыщением. Время действия – 6 сек.\n\nTags: Imbuement, Resistance, Damage, Non-Physical.",
-					"zhCN": "当使用灌注技能攻击时,你获得20%的抗性,所灌注元素的伤害提高x20%,持续6秒。\n\nTags: Imbuement, Resistance, Damage, Non-Physical."
+					"deDE": "Wenn Ihr mit Fertigkeiten mit Infusionen angreift, erhaltet Ihr 6 Sek. lang 20% Widerstand und x20% mehr Schaden für das Element dieser Infusion.\n\nTags: Infusion, Widerstand, Schaden, Nichtphysisch.",
+					"esES": "Cuando atacas con una habilidad imbuida, obtienes un 20% de resistencia y un x20% más de daño del elemento de esa imbuición durante 6 s.\n\nTags: Imbuición, Resistencia, Daño, No física.",
+					"esMX": "Al atacar con una habilidad de Imbuición, obtienes un 20% de resistencia y un x20% de daño adicional para el elemento de esa Imbuición durante 6 segundos.\n\nTags: Imbuición, Resistencia, Daño, No físico.",
+					"frFR": "Lorsque vous attaquez avec une compétence imprégnée d'un élément, vous obtenez un bonus de 20% à la résistance et de x20% aux dégâts pour cet élément pendant 6 s.\n\nTags: Imprégnation, Résistance, Dégâts, Dégâts non physiques.",
+					"itIT": "Quando attacchi con un'abilità infusa ottieni il 20% di resistenza e il x20% di danni aggiuntivi per l'elemento dell'infusione per 6 s.\n\nTags: Infusione, Resistenza, Danni, Non fisico.",
+					"jaJP": "注入状態のスキルで攻撃すると、6秒間、注入した属性の耐性が20%、と与ダメージがx20%増加する。\n\nTags: 合成, 耐性, ダメージ, 非物理.",
+					"koKR": "주입 기술로 공격하면 6초 동안 해당 주입의 원소에 대한 저항이 20%, 해당 원소의 피해가 x20%증가합니다.\n\nTags: 주입, 저항, 피해, 비물리.",
+					"plPL": "Kiedy atakujesz nasyconą umiejętnością, zyskujesz premię 20% do odporności i zadajesz zwiększone o x20% obrażenia od żywiołu tego nasycenia na 6 sek.\n\nTags: Nasycenie, Odporność, Obrażenia, Niefizyczne.",
+					"ptBR": "Ao atacar com uma habilidade de Imbuição, você recebe 20% de resistência e 20% de dano aumentado para o elemento da Imbuição por 6 segundos.\n\nTags: Imbuição, Resistência, Dano, Não física.",
+					"ruRU": "Когда вы атакуете насыщенным умением, вы получаете +20% к соответствующему сопротивлению и наносите на x20% больше соответствующего урона, связанного с этим насыщением. Время действия – 6 сек.\n\nTags: Насыщение, Сопротивление, Урон, Нефизический урон.",
+					"zhCN": "当使用灌注技能攻击时,你获得20%的抗性,所灌注元素的伤害提高x20%,持续6秒。\n\nTags: 灌注, 抗性, 伤害, 非物理."
 				}
 			},
 			"Rogue_Legendary_003": {
@@ -27492,17 +27492,17 @@ let paragonData = {
 					"zhCN": "交易骗术"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Präzisionsfertigkeiten verleihen Eurer nächsten Meuchelfertigkeit x25% mehr Schaden. Eure Meuchelfertigkeiten verleihen Eurer nächsten Präzisionsfertigkeit x25% mehr Schaden.\n\nTags: Marksman, Cutthroat, Damage.",
-					"esES": "Tus habilidades de tirador otorgan un x25% más de daño a tu siguiente habilidad de degollador. Tus habilidades de degollador otorgan un x25% más de daño a tu siguiente habilidad de tirador.\n\nTags: Marksman, Cutthroat, Damage.",
-					"esMX": "Tus habilidades de Tirador otorgan a tu siguiente habilidad de Degollador un x25% más de daño. Tus habilidades de Degollador otorgan a tu siguiente habilidad de Tirador un x25% más de daño.\n\nTags: Marksman, Cutthroat, Damage.",
-					"frFR": "Vos compétences de tir d'élite augmentent de x25% les dégâts de votre prochaine compétence de coupe-jarret. Vos compétences de coupe-jarret augmentent de x25% les dégâts de votre prochaine compétence de tir d'élite.\n\nTags: Marksman, Cutthroat, Damage.",
-					"itIT": "Le tue abilità da tiratore scelto aumentano i danni inflitti dalla tua successiva abilità da sgozzatore del x25%. Le tue abilità da sgozzatore aumentano i danni inflitti dalla tua successiva abilità da tiratore scelto del x25%.\n\nTags: Marksman, Cutthroat, Damage.",
-					"jaJP": "射手スキルを使用すると、次に使用する喉かきスキルのダメージがx25%増加する。喉かきスキルを使用すると、次に使用する射手スキルのダメージがx25%増加する。\n\nTags: Marksman, Cutthroat, Damage.",
-					"koKR": "명사수 기술이 다음 암살 기술이 주는 피해를 x25% 증가시킵니다.암살 기술이 다음 명사수 기술이 주는 피해를 x25% 증가시킵니다.\n\nTags: Marksman, Cutthroat, Damage.",
-					"plPL": "Twoje umiejętności Strzelectwa zapewniają twojej kolejnej umiejętności Napaści premię x25% do obrażeń. Twoje umiejętności Napaści zapewniają twojej kolejnej umiejętności Strzelectwa premię x25% do obrażeń.\n\nTags: Marksman, Cutthroat, Damage.",
-					"ptBR": "Suas habilidades de Precisão concedem 25% de dano aumentado à sua próxima habilidade de Degola. Suas habilidades de Degola concedem 25% de dano aumentado à sua próxima habilidade de Precisão.\n\nTags: Marksman, Cutthroat, Damage.",
-					"ruRU": "Ваши навыки стрелка увеличивают урон от следующего навыка головореза на x25%. Ваши навыки головореза увеличивают урон от следующего навыка стрелка на x25%.\n\nTags: Marksman, Cutthroat, Damage.",
-					"zhCN": "你的神射手技能使你的下一个刺杀技能造成的伤害提高x25%。你的刺杀技能使你的下一个神射手技能造成的伤害提高x25%。\n\nTags: Marksman, Cutthroat, Damage."
+					"deDE": "Eure Präzisionsfertigkeiten verleihen Eurer nächsten Meuchelfertigkeit x25% mehr Schaden. Eure Meuchelfertigkeiten verleihen Eurer nächsten Präzisionsfertigkeit x25% mehr Schaden.\n\nTags: Präzision, Meucheln, Schaden.",
+					"esES": "Tus habilidades de tirador otorgan un x25% más de daño a tu siguiente habilidad de degollador. Tus habilidades de degollador otorgan un x25% más de daño a tu siguiente habilidad de tirador.\n\nTags: Tirador, Degollación, Daño.",
+					"esMX": "Tus habilidades de Tirador otorgan a tu siguiente habilidad de Degollador un x25% más de daño. Tus habilidades de Degollador otorgan a tu siguiente habilidad de Tirador un x25% más de daño.\n\nTags: Tirador, Degollador, Daño.",
+					"frFR": "Vos compétences de tir d'élite augmentent de x25% les dégâts de votre prochaine compétence de coupe-jarret. Vos compétences de coupe-jarret augmentent de x25% les dégâts de votre prochaine compétence de tir d'élite.\n\nTags: Tir d'élite, Coupe-jarret, Dégâts.",
+					"itIT": "Le tue abilità da tiratore scelto aumentano i danni inflitti dalla tua successiva abilità da sgozzatore del x25%. Le tue abilità da sgozzatore aumentano i danni inflitti dalla tua successiva abilità da tiratore scelto del x25%.\n\nTags: Tiratore scelto, Sgozzatore, Danni.",
+					"jaJP": "射手スキルを使用すると、次に使用する喉かきスキルのダメージがx25%増加する。喉かきスキルを使用すると、次に使用する射手スキルのダメージがx25%増加する。\n\nTags: 射手, 喉かき, ダメージ.",
+					"koKR": "명사수 기술이 다음 암살 기술이 주는 피해를 x25% 증가시킵니다.암살 기술이 다음 명사수 기술이 주는 피해를 x25% 증가시킵니다.\n\nTags: 명사수, 암살, 피해.",
+					"plPL": "Twoje umiejętności Strzelectwa zapewniają twojej kolejnej umiejętności Napaści premię x25% do obrażeń. Twoje umiejętności Napaści zapewniają twojej kolejnej umiejętności Strzelectwa premię x25% do obrażeń.\n\nTags: Strzelectwo, Napaść, Obrażenia.",
+					"ptBR": "Suas habilidades de Precisão concedem 25% de dano aumentado à sua próxima habilidade de Degola. Suas habilidades de Degola concedem 25% de dano aumentado à sua próxima habilidade de Precisão.\n\nTags: Precisão, Degola, Dano.",
+					"ruRU": "Ваши навыки стрелка увеличивают урон от следующего навыка головореза на x25%. Ваши навыки головореза увеличивают урон от следующего навыка стрелка на x25%.\n\nTags: Стрелок, Головорез, Урон.",
+					"zhCN": "你的神射手技能使你的下一个刺杀技能造成的伤害提高x25%。你的刺杀技能使你的下一个神射手技能造成的伤害提高x25%。\n\nTags: 神射手, 刺杀, 伤害."
 				}
 			},
 			"Rogue_Legendary_007": {
@@ -27522,17 +27522,17 @@ let paragonData = {
 					"zhCN": "卑鄙招数"
 				},
 				"descriptionLocalized": {
-					"deDE": "Ihr fügt jedem Gegner in der Nähe, der unter Kontrollverlusteffekten leidet, x5% mehr Schaden zu, bis maximal x25%.\n\nTags: Crowd Control, Damage.",
-					"esES": "Infliges un x5% más de daño por cada enemigo cercano afectado por control de masas, hasta un máximo de un x25%.\n\nTags: Crowd Control, Damage.",
-					"esMX": "Infliges un x5% más de daño por cada enemigo cercano con control de multitudes, hasta un x25%.\n\nTags: Crowd Control, Damage.",
-					"frFR": "Vous infligez x5% de dégâts supplémentaires pour chaque adversaire à proximité subissant un effet de perte de contrôle, jusqu'à un maximum de x25%.\n\nTags: Crowd Control, Damage.",
-					"itIT": "Infliggi il x5% di danni aggiuntivi per ogni nemico vicino sotto effetti debilitanti, fino a un massimo del x25%.\n\nTags: Crowd Control, Damage.",
-					"jaJP": "操作障害効果を受けた周囲の敵1体ごとに、与えるダメージがx5%から最大x25%上昇する。\n\nTags: Crowd Control, Damage.",
-					"koKR": "군중 제어의 영향을 받는 근처의 적 하나당 주는 피해가 x5%만큼, 최대 x25%까지 증가합니다.\n\nTags: Crowd Control, Damage.",
-					"plPL": "Zadajesz obrażenia zwiększone o x5% za każdego pobliskiego wroga o ograniczenia kontroli. Maksymalna premia do obrażeń wynosi x25%.\n\nTags: Crowd Control, Damage.",
-					"ptBR": "Você causa 5% de dano aumentado por cada inimigo próximo sob controle de grupo, até 25%.\n\nTags: Crowd Control, Damage.",
-					"ruRU": "Наносимый вами урон увеличивается на x5% за каждого находящегося рядом противника под действием эффекта контроля. Максимальный бонус – x25%.\n\nTags: Crowd Control, Damage.",
-					"zhCN": "附近每有一个被群控的敌人,你造成的伤害就提高x5%,最多提高x25%。\n\nTags: Crowd Control, Damage."
+					"deDE": "Ihr fügt jedem Gegner in der Nähe, der unter Kontrollverlusteffekten leidet, x5% mehr Schaden zu, bis maximal x25%.\n\nTags: Kontrollverlust, Schaden.",
+					"esES": "Infliges un x5% más de daño por cada enemigo cercano afectado por control de masas, hasta un máximo de un x25%.\n\nTags: Control de masas, Daño.",
+					"esMX": "Infliges un x5% más de daño por cada enemigo cercano con control de multitudes, hasta un x25%.\n\nTags: Control de multitudes, Daño.",
+					"frFR": "Vous infligez x5% de dégâts supplémentaires pour chaque adversaire à proximité subissant un effet de perte de contrôle, jusqu'à un maximum de x25%.\n\nTags: Perte de contrôle, Dégâts.",
+					"itIT": "Infliggi il x5% di danni aggiuntivi per ogni nemico vicino sotto effetti debilitanti, fino a un massimo del x25%.\n\nTags: Effetti debilitanti, Danni.",
+					"jaJP": "操作障害効果を受けた周囲の敵1体ごとに、与えるダメージがx5%から最大x25%上昇する。\n\nTags: 操作障害効果, ダメージ.",
+					"koKR": "군중 제어의 영향을 받는 근처의 적 하나당 주는 피해가 x5%만큼, 최대 x25%까지 증가합니다.\n\nTags: 군중 제어, 피해.",
+					"plPL": "Zadajesz obrażenia zwiększone o x5% za każdego pobliskiego wroga o ograniczenia kontroli. Maksymalna premia do obrażeń wynosi x25%.\n\nTags: Ograniczanie Kontroli, Obrażenia.",
+					"ptBR": "Você causa 5% de dano aumentado por cada inimigo próximo sob controle de grupo, até 25%.\n\nTags: Controle de Grupo, Dano.",
+					"ruRU": "Наносимый вами урон увеличивается на x5% за каждого находящегося рядом противника под действием эффекта контроля. Максимальный бонус – x25%.\n\nTags: Контроль, Урон.",
+					"zhCN": "附近每有一个被群控的敌人,你造成的伤害就提高x5%,最多提高x25%。\n\nTags: 群控, 伤害."
 				}
 			},
 			"Rogue_Legendary_008": {
@@ -27552,17 +27552,17 @@ let paragonData = {
 					"zhCN": "致命伏击"
 				},
 				"descriptionLocalized": {
-					"deDE": "Ihr fügt Gegnern, die von Euren Fallenfertigkeiten betroffen sind, x22.5% mehr kritischen Trefferschaden zu.\n\nTags: Trap, Critical Strikes, Damage.",
-					"esES": "Infliges un x22.5% más de daño de golpe crítico a enemigos afectados por tus habilidades de trampa.\n\nTags: Trap, Critical Strikes, Damage.",
-					"esMX": "Infliges un x22.5% más de daño de golpe crítico a los enemigos afectados por tus habilidades de Trampa.\n\nTags: Trap, Critical Strikes, Damage.",
-					"frFR": "Vous infligez x22.5% de dégâts critiques supplémentaires aux cibles affectés par vos compétences de piège.\n\nTags: Trap, Critical Strikes, Damage.",
-					"itIT": "Infliggi il x22.5% di danni critici aggiuntivi ai nemici affetti da una delle tue abilità di trappole.\n\nTags: Trap, Critical Strikes, Damage.",
-					"jaJP": "自身の罠スキルの影響を受けた敵へのクリティカルヒットダメージがx22.5%上昇する。\n\nTags: Trap, Critical Strikes, Damage.",
-					"koKR": "덫 기술의 영향을 받는 적에게 주는 극대화 피해가 x22.5% 증가합니다.\n\nTags: Trap, Critical Strikes, Damage.",
-					"plPL": "Zadajesz obrażenia od trafień krytycznych zwiększone o x22.5% wrogom objętym działaniem twoich umiejętności Pułapek.\n\nTags: Trap, Critical Strikes, Damage.",
-					"ptBR": "Você causa 22.5% de dano de acerto crítico aumentado a inimigos afetados pelas suas habilidades de Armadilha.\n\nTags: Trap, Critical Strikes, Damage.",
-					"ruRU": "Вы наносите на x22.5% больше критического урона противника, на которые действуют ваши ловушки.\n\nTags: Trap, Critical Strikes, Damage.",
-					"zhCN": "你对受到你陷阱技能影响的敌人造成的暴击伤害提高x22.5%。\n\nTags: Trap, Critical Strikes, Damage."
+					"deDE": "Ihr fügt Gegnern, die von Euren Fallenfertigkeiten betroffen sind, x22.5% mehr kritischen Trefferschaden zu.\n\nTags: Falle, Kritische Treffer, Schaden.",
+					"esES": "Infliges un x22.5% más de daño de golpe crítico a enemigos afectados por tus habilidades de trampa.\n\nTags: Trampa, Golpes críticos, Daño.",
+					"esMX": "Infliges un x22.5% más de daño de golpe crítico a los enemigos afectados por tus habilidades de Trampa.\n\nTags: Trampa, Golpes críticos, Daño.",
+					"frFR": "Vous infligez x22.5% de dégâts critiques supplémentaires aux cibles affectés par vos compétences de piège.\n\nTags: Piège, Coups critiques, Dégâts.",
+					"itIT": "Infliggi il x22.5% di danni critici aggiuntivi ai nemici affetti da una delle tue abilità di trappole.\n\nTags: Trappole, Colpi critici, Danni.",
+					"jaJP": "自身の罠スキルの影響を受けた敵へのクリティカルヒットダメージがx22.5%上昇する。\n\nTags: 罠, 致命の一撃, ダメージ.",
+					"koKR": "덫 기술의 영향을 받는 적에게 주는 극대화 피해가 x22.5% 증가합니다.\n\nTags: 덫, 극대화, 피해.",
+					"plPL": "Zadajesz obrażenia od trafień krytycznych zwiększone o x22.5% wrogom objętym działaniem twoich umiejętności Pułapek.\n\nTags: Pułapki, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "Você causa 22.5% de dano de acerto crítico aumentado a inimigos afetados pelas suas habilidades de Armadilha.\n\nTags: Armadilha, Acertos Críticos, Dano.",
+					"ruRU": "Вы наносите на x22.5% больше критического урона противника, на которые действуют ваши ловушки.\n\nTags: Ловушка, Критические удары, Урон.",
+					"zhCN": "你对受到你陷阱技能影响的敌人造成的暴击伤害提高x22.5%。\n\nTags: 陷阱, 暴击, 伤害."
 				}
 			},
 			"Rogue_Legendary_009": {
@@ -27582,17 +27582,17 @@ let paragonData = {
 					"zhCN": "莱拉娜的本能"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn die Leiste von Inneres Auge aufgefüllt ist, erhaltet Ihr 1.5 Sek. lang +100% Ausweichchance.\n\nTags: Dodge.",
-					"esES": "Cuando la barra de Vista interior se llena, obtienes un +100% de probabilidad de esquivar durante 1.5 s.\n\nTags: Dodge.",
-					"esMX": "Cuando el indicador de Percepción se llena, obtienes un +100% de probabilidad de esquivar durante 1.5 segundos.\n\nTags: Dodge.",
-					"frFR": "Quand la jauge de Vision intérieure est pleine, vos chances d'esquiver augmentent de +100% pendant 1.5 s.\n\nTags: Dodge.",
-					"itIT": "Quando la barra di Vista Interiore è piena, la probabilità di schivata aumenta del +100% per 1.5 s.\n\nTags: Dodge.",
-					"jaJP": "〈内なる目〉のゲージが満タンになると、1.5秒間にわたり回避率が+100%上昇する。\n\nTags: Dodge.",
-					"koKR": "내면의 시야 게이지가 가득 차면 1.5초 동안 회피 확률이 +100% 증가합니다.\n\nTags: Dodge.",
-					"plPL": "Kiedy Wewnętrzne Spojrzenie w pełni się naładuje, zyskasz +100% szans na unik na 1.5 sek.\n\nTags: Dodge.",
-					"ptBR": "Quando o medidor de Visão Interior fica cheio, você recebe +100% de chance de esquiva por 1.5 segundos.\n\nTags: Dodge.",
-					"ruRU": "Если шкала внутреннего зрения заполняется полностью, ваша вероятность уклонения повышается на +100% на 1.5 сек.\n\nTags: Dodge.",
-					"zhCN": "心眼进度条变满时,你的躲闪几率提高+100%,持续1.5秒。\n\nTags: Dodge."
+					"deDE": "Wenn die Leiste von Inneres Auge aufgefüllt ist, erhaltet Ihr 1.5 Sek. lang +100% Ausweichchance.\n\nTags: Ausweichen.",
+					"esES": "Cuando la barra de Vista interior se llena, obtienes un +100% de probabilidad de esquivar durante 1.5 s.\n\nTags: Esquivar.",
+					"esMX": "Cuando el indicador de Percepción se llena, obtienes un +100% de probabilidad de esquivar durante 1.5 segundos.\n\nTags: Evasión.",
+					"frFR": "Quand la jauge de Vision intérieure est pleine, vos chances d'esquiver augmentent de +100% pendant 1.5 s.\n\nTags: Esquive.",
+					"itIT": "Quando la barra di Vista Interiore è piena, la probabilità di schivata aumenta del +100% per 1.5 s.\n\nTags: Schivata.",
+					"jaJP": "〈内なる目〉のゲージが満タンになると、1.5秒間にわたり回避率が+100%上昇する。\n\nTags: 回避.",
+					"koKR": "내면의 시야 게이지가 가득 차면 1.5초 동안 회피 확률이 +100% 증가합니다.\n\nTags: 회피.",
+					"plPL": "Kiedy Wewnętrzne Spojrzenie w pełni się naładuje, zyskasz +100% szans na unik na 1.5 sek.\n\nTags: Unik.",
+					"ptBR": "Quando o medidor de Visão Interior fica cheio, você recebe +100% de chance de esquiva por 1.5 segundos.\n\nTags: Esquiva.",
+					"ruRU": "Если шкала внутреннего зрения заполняется полностью, ваша вероятность уклонения повышается на +100% на 1.5 сек.\n\nTags: Уклонение.",
+					"zhCN": "心眼进度条变满时,你的躲闪几率提高+100%,持续1.5秒。\n\nTags: 躲闪."
 				}
 			},
 			"Rogue_Legendary_010": {
@@ -27612,17 +27612,17 @@ let paragonData = {
 					"zhCN": "直击弱点"
 				},
 				"descriptionLocalized": {
-					"deDE": "Immer, wenn Ihr einem verwundbaren Gegner Schaden zufügt, erleidet er 6 Sek. lang x1% mehr Schaden von Euch, bis zu einem Maximum von x15%.\n\nTags: Vulnerable, Damage.",
-					"esES": "Cada vez que infliges daño a un enemigo vulnerable, le infliges un x1% más de daño durante 6 s, hasta un máximo de un x15%.\n\nTags: Vulnerable, Damage.",
-					"esMX": "Cuando infliges daño a un enemigo vulnerable, dicho enemigo recibe un x1% más de daño, hasta un x15% durante 6 segundos.\n\nTags: Vulnerable, Damage.",
-					"frFR": "Chaque fois que vous infligez des dégâts à une cible vulnérable, les dégâts que vous lui infligez sont augmentés de x1% pendant 6 s, jusqu'à un maximum de x15%.\n\nTags: Vulnerable, Damage.",
-					"itIT": "Quando infliggi danni a un nemico vulnerabile, quest'ultimo subisce il x1% di danni aggiuntivi per 6 s, fino a un massimo del x15%.\n\nTags: Vulnerable, Damage.",
-					"jaJP": "脆弱状態の敵にダメージを与えると、自身がその敵に与えるダメージがx1%増加する。効果は6~x15%秒間続く。\n\nTags: Vulnerable, Damage.",
-					"koKR": "취약 상태인 적에게 피해를 줄 때마다 6초 동안 해당 적이 받는 피해가 x1%만큼, 최대 x15%까지 증가합니다.\n\nTags: Vulnerable, Damage.",
-					"plPL": "Za każdym razem, gdy zranisz odsłoniętego wroga, będzie on otrzymywać przez 6 sek. obrażenia zwiększone o x1%, maksymalnie do x15%.\n\nTags: Vulnerable, Damage.",
-					"ptBR": "Sempre que você causar dano a um inimigovulnerável, ele recebe 1% de dano aumentado de você por 6 segundos, até 15%.\n\nTags: Vulnerable, Damage.",
-					"ruRU": "Когда вы наносите урон уязвимому противнику, он получает от вас на x1% больше урона в течение 6 сек., вплоть до x15%.\n\nTags: Vulnerable, Damage.",
-					"zhCN": "每当你对易伤敌人造成伤害,其受到来自你的伤害提高x1%,持续6秒,最多提高x15%。\n\nTags: Vulnerable, Damage."
+					"deDE": "Immer, wenn Ihr einem verwundbaren Gegner Schaden zufügt, erleidet er 6 Sek. lang x1% mehr Schaden von Euch, bis zu einem Maximum von x15%.\n\nTags: Verwundbar, Schaden.",
+					"esES": "Cada vez que infliges daño a un enemigo vulnerable, le infliges un x1% más de daño durante 6 s, hasta un máximo de un x15%.\n\nTags: Vulnerable, Daño.",
+					"esMX": "Cuando infliges daño a un enemigo vulnerable, dicho enemigo recibe un x1% más de daño, hasta un x15% durante 6 segundos.\n\nTags: Vulnerable, Daño.",
+					"frFR": "Chaque fois que vous infligez des dégâts à une cible vulnérable, les dégâts que vous lui infligez sont augmentés de x1% pendant 6 s, jusqu'à un maximum de x15%.\n\nTags: Vulnérable, Dégâts.",
+					"itIT": "Quando infliggi danni a un nemico vulnerabile, quest'ultimo subisce il x1% di danni aggiuntivi per 6 s, fino a un massimo del x15%.\n\nTags: Vulnerabilità, Danni.",
+					"jaJP": "脆弱状態の敵にダメージを与えると、自身がその敵に与えるダメージがx1%増加する。効果は6~x15%秒間続く。\n\nTags: 脆弱, ダメージ.",
+					"koKR": "취약 상태인 적에게 피해를 줄 때마다 6초 동안 해당 적이 받는 피해가 x1%만큼, 최대 x15%까지 증가합니다.\n\nTags: 취약, 피해.",
+					"plPL": "Za każdym razem, gdy zranisz odsłoniętego wroga, będzie on otrzymywać przez 6 sek. obrażenia zwiększone o x1%, maksymalnie do x15%.\n\nTags: Odsłonięcie, Obrażenia.",
+					"ptBR": "Sempre que você causar dano a um inimigovulnerável, ele recebe 1% de dano aumentado de você por 6 segundos, até 15%.\n\nTags: Vulnerável, Dano.",
+					"ruRU": "Когда вы наносите урон уязвимому противнику, он получает от вас на x1% больше урона в течение 6 сек., вплоть до x15%.\n\nTags: Уязвимость, Урон.",
+					"zhCN": "每当你对易伤敌人造成伤害,其受到来自你的伤害提高x1%,持续6秒,最多提高x15%。\n\nTags: 易伤, 伤害."
 				}
 			},
 			"Rogue_Legendary_011": {
@@ -27642,17 +27642,17 @@ let paragonData = {
 					"zhCN": "不留证人"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure ultimativen Fertigkeiten verursachen x30% mehr Schaden und gewähren Euch beim Wirken 20 Sek. lang x10% erhöhten Schaden.\n\nTags: Ultimate, Damage.",
-					"esES": "Tu habilidad definitiva inflige un x30% más de daño y, al lanzarla, te otorga un x10% más de daño durante 20 s.\n\nTags: Ultimate, Damage.",
-					"esMX": "Tus habilidades máximas infligen un x30% más de daño y te otorgan un x10% más de daño durante 20 segundos al lanzarlas.\n\nTags: Ultimate, Damage.",
-					"frFR": "Vos compétences ultimes infligent x30% de dégâts supplémentaires et augmentent les dégâts que vous infligez de x10% pendant les 20 s qui suivent l'utilisation.\n\nTags: Ultimate, Damage.",
-					"itIT": "La tua abilità Ultra infligge il x30% di danni aggiuntivi e ti fornisce il x10% di danni aggiuntivi per 20 s quando la utilizzi.\n\nTags: Ultimate, Damage.",
-					"jaJP": "奥義スキルのダメージがx30%増加し、使用すると、20秒間にわたり、ダメージがx10%増加する。\n\nTags: Ultimate, Damage.",
-					"koKR": "궁극기 기술로 주는 피해가 x30% 증가하고, 시전 시 20초 동안 주는 피해가 x10% 증가합니다.\n\nTags: Ultimate, Damage.",
-					"plPL": "Twoje Moce Specjalne zadają obrażenia zwiększone o x30% i zwiększają zadawane przez ciebie obrażenia o x10% na 20 sek. po użyciu.\n\nTags: Ultimate, Damage.",
-					"ptBR": "Suas habilidades supremas causam 30% de dano aumentado e concedem a você 10% de dano aumentado por 20 segundos quando lançadas.\n\nTags: Ultimate, Damage.",
-					"ruRU": "Ваши мощные навыки наносят на x30% больше урона. Наносимый вами урон увеличивается на x10% на 20 сек. при применении.\n\nTags: Ultimate, Damage.",
-					"zhCN": "你的终极技能造成的伤害提高x30%并使你在施放后造成的伤害提高x10%,持续20秒。\n\nTags: Ultimate, Damage."
+					"deDE": "Eure ultimativen Fertigkeiten verursachen x30% mehr Schaden und gewähren Euch beim Wirken 20 Sek. lang x10% erhöhten Schaden.\n\nTags: Ultimativ, Schaden.",
+					"esES": "Tu habilidad definitiva inflige un x30% más de daño y, al lanzarla, te otorga un x10% más de daño durante 20 s.\n\nTags: Definitiva, Daño.",
+					"esMX": "Tus habilidades máximas infligen un x30% más de daño y te otorgan un x10% más de daño durante 20 segundos al lanzarlas.\n\nTags: Máxima, Daño.",
+					"frFR": "Vos compétences ultimes infligent x30% de dégâts supplémentaires et augmentent les dégâts que vous infligez de x10% pendant les 20 s qui suivent l'utilisation.\n\nTags: Ultime, Dégâts.",
+					"itIT": "La tua abilità Ultra infligge il x30% di danni aggiuntivi e ti fornisce il x10% di danni aggiuntivi per 20 s quando la utilizzi.\n\nTags: Ultra, Danni.",
+					"jaJP": "奥義スキルのダメージがx30%増加し、使用すると、20秒間にわたり、ダメージがx10%増加する。\n\nTags: 奥義, ダメージ.",
+					"koKR": "궁극기 기술로 주는 피해가 x30% 증가하고, 시전 시 20초 동안 주는 피해가 x10% 증가합니다.\n\nTags: 궁극기, 피해.",
+					"plPL": "Twoje Moce Specjalne zadają obrażenia zwiększone o x30% i zwiększają zadawane przez ciebie obrażenia o x10% na 20 sek. po użyciu.\n\nTags: Specjalne, Obrażenia.",
+					"ptBR": "Suas habilidades supremas causam 30% de dano aumentado e concedem a você 10% de dano aumentado por 20 segundos quando lançadas.\n\nTags: Suprema, Dano.",
+					"ruRU": "Ваши мощные навыки наносят на x30% больше урона. Наносимый вами урон увеличивается на x10% на 20 сек. при применении.\n\nTags: Мощное умение, Урон.",
+					"zhCN": "你的终极技能造成的伤害提高x30%并使你在施放后造成的伤害提高x10%,持续20秒。\n\nTags: 终极技能, 伤害."
 				}
 			},
 			"Rogue_Legendary_012": {
@@ -27753,51 +27753,51 @@ let paragonData = {
 				"name": "Damage Imbued",
 				"description": "+7.5% Imbued Skill Damage\n\nTags: Imbuement, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+7.5% Schaden für Fertigkeiten mit Infusionen\n\nTags: Imbuement, Damage.",
-					"esES": "+7.5% de daño de habilidades imbuidas\n\nTags: Imbuement, Damage.",
-					"esMX": "+7.5% de daño de habilidades de Imbuición\n\nTags: Imbuement, Damage.",
-					"frFR": "+7.5% de dégâts des compétences imprégnées\n\nTags: Imbuement, Damage.",
-					"itIT": "Danni delle abilità di infusione: +7.5%\n\nTags: Imbuement, Damage.",
-					"jaJP": "注入スキルのダメージ+7.5%\n\nTags: Imbuement, Damage.",
-					"koKR": "주입 기술의 피해 +7.5%\n\nTags: Imbuement, Damage.",
-					"plPL": "+7.5% obrażeń od nasyconej umiejętności\n\nTags: Imbuement, Damage.",
-					"ptBR": "+7.5% de dano de habilidades de Imbuição\n\nTags: Imbuement, Damage.",
-					"ruRU": "+7.5% к урону от насыщенных силой умений\n\nTags: Imbuement, Damage.",
-					"zhCN": "+7.5%灌注技能伤害\n\nTags: Imbuement, Damage."
+					"deDE": "+7.5% Schaden für Fertigkeiten mit Infusionen\n\nTags: Infusion, Schaden.",
+					"esES": "+7.5% de daño de habilidades imbuidas\n\nTags: Imbuición, Daño.",
+					"esMX": "+7.5% de daño de habilidades de Imbuición\n\nTags: Imbuición, Daño.",
+					"frFR": "+7.5% de dégâts des compétences imprégnées\n\nTags: Imprégnation, Dégâts.",
+					"itIT": "Danni delle abilità di infusione: +7.5%\n\nTags: Infusione, Danni.",
+					"jaJP": "注入スキルのダメージ+7.5%\n\nTags: 合成, ダメージ.",
+					"koKR": "주입 기술의 피해 +7.5%\n\nTags: 주입, 피해.",
+					"plPL": "+7.5% obrażeń od nasyconej umiejętności\n\nTags: Nasycenie, Obrażenia.",
+					"ptBR": "+7.5% de dano de habilidades de Imbuição\n\nTags: Imbuição, Dano.",
+					"ruRU": "+7.5% к урону от насыщенных силой умений\n\nTags: Насыщение, Урон.",
+					"zhCN": "+7.5%灌注技能伤害\n\nTags: 灌注, 伤害."
 				}
 			},
 			"Rogue_Magic_DamageReductionFromTrapped": {
 				"name": "Damage Reduction From Trapped",
 				"description": "2% Damage Reduction from Enemies Affected By Trap Skills\n\nTags: Trap, Damage Reduction.",
 				"descriptionLocalized": {
-					"deDE": "2% Schadensreduktion gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n\nTags: Trap, Damage Reduction.",
-					"esES": "2% de reducción de daño de los enemigos afectados por habilidades de Trampa\n\nTags: Trap, Damage Reduction.",
-					"esMX": "2% de reducción de daño infligido por enemigos afectados por habilidades de Trampa\n\nTags: Trap, Damage Reduction.",
-					"frFR": "2% de réduction des dégâts infligés par les cibles affectées par les compétences de Piège\n\nTags: Trap, Damage Reduction.",
-					"itIT": "Riduzione danni ricevuti dai nemici affetti da abilità Trappole: 2%\n\nTags: Trap, Damage Reduction.",
-					"jaJP": "罠 スキルの影響を受けた敵からのダメージ減少率2%\n\nTags: Trap, Damage Reduction.",
-					"koKR": "덫 기술의 영향을 받은 적에게 받는 피해 감소 2%\n\nTags: Trap, Damage Reduction.",
-					"plPL": "2% redukcji obrażeń od wroga pod wpływem umiejętności: Pułapki\n\nTags: Trap, Damage Reduction.",
-					"ptBR": "2% de redução de dano recebido de inimigos sob efeito de habilidades de Armadilha\n\nTags: Trap, Damage Reduction.",
-					"ruRU": "На 2% меньше урона от противников, на которых действуют умения категории \"Ловушка \"\n\nTags: Trap, Damage Reduction.",
-					"zhCN": "2%对你受到来自陷阱 技能影响的敌人的伤害减免\n\nTags: Trap, Damage Reduction."
+					"deDE": "2% Schadensreduktion gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n\nTags: Falle, Schadensreduktion.",
+					"esES": "2% de reducción de daño de los enemigos afectados por habilidades de Trampa\n\nTags: Trampa, Reducción de daño.",
+					"esMX": "2% de reducción de daño infligido por enemigos afectados por habilidades de Trampa\n\nTags: Trampa, Reducción de daño.",
+					"frFR": "2% de réduction des dégâts infligés par les cibles affectées par les compétences de Piège\n\nTags: Piège, Réduction des dégâts.",
+					"itIT": "Riduzione danni ricevuti dai nemici affetti da abilità Trappole: 2%\n\nTags: Trappole, Riduzione danni.",
+					"jaJP": "罠 スキルの影響を受けた敵からのダメージ減少率2%\n\nTags: 罠, ダメージ減少.",
+					"koKR": "덫 기술의 영향을 받은 적에게 받는 피해 감소 2%\n\nTags: 덫, 피해 감소.",
+					"plPL": "2% redukcji obrażeń od wroga pod wpływem umiejętności: Pułapki\n\nTags: Pułapki, Redukcja Obrażeń.",
+					"ptBR": "2% de redução de dano recebido de inimigos sob efeito de habilidades de Armadilha\n\nTags: Armadilha, Redução de Dano.",
+					"ruRU": "На 2% меньше урона от противников, на которых действуют умения категории \"Ловушка \"\n\nTags: Ловушка, Уменьшение урона.",
+					"zhCN": "2%对你受到来自陷阱 技能影响的敌人的伤害减免\n\nTags: 陷阱, 伤害减免."
 				}
 			},
 			"Rogue_Magic_DamageToTrapped": {
 				"name": "Damage To Trapped",
 				"description": "+5% Damage to Enemies Affected by Trap Skills\n\nTags: Trap, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n\nTags: Trap, Damage.",
-					"esES": "+5% de daño a enemigos afectados por habilidades de Trampa\n\nTags: Trap, Damage.",
-					"esMX": "+5% de daño a enemigos afectados por habilidades de Trampa\n\nTags: Trap, Damage.",
-					"frFR": "+5% de dégâts contre les cibles affectées par les compétences (Piège )\n\nTags: Trap, Damage.",
-					"itIT": "Danni ai nemici affetti da abilità di Trappole: +5%\n\nTags: Trap, Damage.",
-					"jaJP": "罠 スキルの影響を受けた敵へのダメージ+5%\n\nTags: Trap, Damage.",
-					"koKR": "덫 기술의 영향을 받는 적에게 주는 피해 +5%\n\nTags: Trap, Damage.",
-					"plPL": "+5% obrażeń zadawanych wrogom pod wpływem umiejętności: Pułapki\n\nTags: Trap, Damage.",
-					"ptBR": "+5% de dano contra inimigos afetados por habilidades Armadilha\n\nTags: Trap, Damage.",
-					"ruRU": "+5% к урону противникам, на которых действуют умения категории \"Ловушка \"\n\nTags: Trap, Damage.",
-					"zhCN": "+5%对受陷阱 技能影响敌人的伤害\n\nTags: Trap, Damage."
+					"deDE": "+5% Schaden gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n\nTags: Falle, Schaden.",
+					"esES": "+5% de daño a enemigos afectados por habilidades de Trampa\n\nTags: Trampa, Daño.",
+					"esMX": "+5% de daño a enemigos afectados por habilidades de Trampa\n\nTags: Trampa, Daño.",
+					"frFR": "+5% de dégâts contre les cibles affectées par les compétences (Piège )\n\nTags: Piège, Dégâts.",
+					"itIT": "Danni ai nemici affetti da abilità di Trappole: +5%\n\nTags: Trappole, Danni.",
+					"jaJP": "罠 スキルの影響を受けた敵へのダメージ+5%\n\nTags: 罠, ダメージ.",
+					"koKR": "덫 기술의 영향을 받는 적에게 주는 피해 +5%\n\nTags: 덫, 피해.",
+					"plPL": "+5% obrażeń zadawanych wrogom pod wpływem umiejętności: Pułapki\n\nTags: Pułapki, Obrażenia.",
+					"ptBR": "+5% de dano contra inimigos afetados por habilidades Armadilha\n\nTags: Armadilha, Dano.",
+					"ruRU": "+5% к урону противникам, на которых действуют умения категории \"Ловушка \"\n\nTags: Ловушка, Урон.",
+					"zhCN": "+5%对受陷阱 技能影响敌人的伤害\n\nTags: 陷阱, 伤害."
 				}
 			},
 			"Rogue_Magic_DamageTrap": {
@@ -27814,17 +27814,17 @@ let paragonData = {
 				"name": "Trap Cooldown",
 				"description": "1.3% Trap Cooldown Reduction\n\nTags: Cooldown, Trap.",
 				"descriptionLocalized": {
-					"deDE": "1.3% Abklingzeitreduktion für Falle\n\nTags: Cooldown, Trap.",
-					"esES": "1.3%Trampa de reducción de tiempo de reutilización\n\nTags: Cooldown, Trap.",
-					"esMX": "1.3% de reducción de recuperación de Trampa\n\nTags: Cooldown, Trap.",
-					"frFR": "1.3% de réduction du temps de recharge (Piège )\n\nTags: Cooldown, Trap.",
-					"itIT": "Riduzione tempo di recupero Trappole: 1.3%\n\nTags: Cooldown, Trap.",
-					"jaJP": "罠 のクールダウン短縮1.3%\n\nTags: Cooldown, Trap.",
-					"koKR": "덫 재사용 대기시간 감소 1.3%\n\nTags: Cooldown, Trap.",
-					"plPL": "1.3% redukcji czasu odnowienia: Pułapki\n\nTags: Cooldown, Trap.",
-					"ptBR": "1.3% de redução de recarga de Armadilha\n\nTags: Cooldown, Trap.",
-					"ruRU": "Время восстановления эффекта \"Ловушка \" снижается на 1.3%\n\nTags: Cooldown, Trap.",
-					"zhCN": "1.3%陷阱 冷却时间缩减\n\nTags: Cooldown, Trap."
+					"deDE": "1.3% Abklingzeitreduktion für Falle\n\nTags: Abklingzeit, Falle.",
+					"esES": "1.3%Trampa de reducción de tiempo de reutilización\n\nTags: Tiempo de reutilización, Trampa.",
+					"esMX": "1.3% de reducción de recuperación de Trampa\n\nTags: Recuperación, Trampa.",
+					"frFR": "1.3% de réduction du temps de recharge (Piège )\n\nTags: Temps de recharge, Piège.",
+					"itIT": "Riduzione tempo di recupero Trappole: 1.3%\n\nTags: Tempo di recupero, Trappole.",
+					"jaJP": "罠 のクールダウン短縮1.3%\n\nTags: クールダウン, 罠.",
+					"koKR": "덫 재사용 대기시간 감소 1.3%\n\nTags: 재사용 대기시간, 덫.",
+					"plPL": "1.3% redukcji czasu odnowienia: Pułapki\n\nTags: Odnowienie, Pułapki.",
+					"ptBR": "1.3% de redução de recarga de Armadilha\n\nTags: Recarga, Armadilha.",
+					"ruRU": "Время восстановления эффекта \"Ловушка \" снижается на 1.3%\n\nTags: Время восстановления, Ловушка.",
+					"zhCN": "1.3%陷阱 冷却时间缩减\n\nTags: 冷却时间, 陷阱."
 				}
 			},
 			"Rogue_Rare_005": {
@@ -27844,17 +27844,17 @@ let paragonData = {
 					"zhCN": "封喉者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+14% Schaden für Fertigkeiten der Kategorie Basis\n+10 Geschicklichkeit\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"esES": "+14% de daño de habilidades de Principal\n+10 p. de destreza\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"esMX": "+14% de daño de habilidad Principal\n+10 de Destreza\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"frFR": "+14% de dégâts de compétence (Principale )\n+10 dextérité\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"itIT": "Danni abilità di Primaria: +14%\nDestrezza: +10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"jaJP": "スキルダメージ+14% コア\n敏捷性+10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"koKR": "핵심 기술 피해 +14%\n민첩 +10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"plPL": "+14% obrażeń od umiejętności (Główne )\n+10 zręczności\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"ptBR": "+14% de dano de habilidade Principal\n+10 de Destreza\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"ruRU": "+14% к урону от умений категории \"Основные \"\n+10 к ловкости\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
-					"zhCN": "+14%核心 技能伤害\n+10点敏捷\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity."
+					"deDE": "+14% Schaden für Fertigkeiten der Kategorie Basis\n+10 Geschicklichkeit\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basis, Schaden, Geschicklichkeit.",
+					"esES": "+14% de daño de habilidades de Principal\n+10 p. de destreza\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Daño, Destreza.",
+					"esMX": "+14% de daño de habilidad Principal\n+10 de Destreza\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Daño, Destreza.",
+					"frFR": "+14% de dégâts de compétence (Principale )\n+10 dextérité\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principale, Dégâts, Dextérité.",
+					"itIT": "Danni abilità di Primaria: +14%\nDestrezza: +10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Primaria, Danni, Destrezza.",
+					"jaJP": "スキルダメージ+14% コア\n敏捷性+10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: コア, ダメージ, 敏捷性.",
+					"koKR": "핵심 기술 피해 +14%\n민첩 +10\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 핵심, 피해, 민첩.",
+					"plPL": "+14% obrażeń od umiejętności (Główne )\n+10 zręczności\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Główne, Obrażenia, Zręczność.",
+					"ptBR": "+14% de dano de habilidade Principal\n+10 de Destreza\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Dano, Destreza.",
+					"ruRU": "+14% к урону от умений категории \"Основные \"\n+10 к ловкости\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Основные, Урон, Ловкость.",
+					"zhCN": "+14%核心 技能伤害\n+10点敏捷\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 伤害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -27882,17 +27882,17 @@ let paragonData = {
 					"zhCN": "动如脱兔"
 				},
 				"descriptionLocalized": {
-					"deDE": "2.7% Abklingzeitreduktion für Falle\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"esES": "2.7%Trampa de reducción de tiempo de reutilización\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"esMX": "2.7% de reducción de recuperación de Trampa\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"frFR": "2.7% de réduction du temps de recharge (Piège )\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"itIT": "Riduzione tempo di recupero Trappole: 2.7%\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"jaJP": "罠 のクールダウン短縮2.7%\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"koKR": "덫 재사용 대기시간 감소 2.7%\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"plPL": "2.7% redukcji czasu odnowienia: Pułapki\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"ptBR": "2.7% de redução de recarga de Armadilha\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"ruRU": "Время восстановления эффекта \"Ловушка \" снижается на 2.7%\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown.",
-					"zhCN": "2.7%陷阱 冷却时间缩减\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Cooldown."
+					"deDE": "2.7% Abklingzeitreduktion für Falle\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Falle, Abklingzeit.",
+					"esES": "2.7%Trampa de reducción de tiempo de reutilización\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trampa, Tiempo de reutilización.",
+					"esMX": "2.7% de reducción de recuperación de Trampa\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trampa, Recuperación.",
+					"frFR": "2.7% de réduction du temps de recharge (Piège )\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Piège, Temps de recharge.",
+					"itIT": "Riduzione tempo di recupero Trappole: 2.7%\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Trappole, Tempo di recupero.",
+					"jaJP": "罠 のクールダウン短縮2.7%\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 罠, クールダウン.",
+					"koKR": "덫 재사용 대기시간 감소 2.7%\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 덫, 재사용 대기시간.",
+					"plPL": "2.7% redukcji czasu odnowienia: Pułapki\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Pułapki, Odnowienie.",
+					"ptBR": "2.7% de redução de recarga de Armadilha\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Armadilha, Recarga.",
+					"ruRU": "Время восстановления эффекта \"Ловушка \" снижается на 2.7%\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Ловушка, Время восстановления.",
+					"zhCN": "2.7%陷阱 冷却时间缩减\n\nBonus: Another 2.7% Trap Cooldown Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 陷阱, 冷却时间."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -27920,17 +27920,17 @@ let paragonData = {
 					"zhCN": "灌注大师"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden für Fertigkeiten mit Infusionen\n+4% nichtphysischer Schaden\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"esES": "+15% de daño de habilidades imbuidas\n+4% de daño no físico\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"esMX": "+15% de daño de habilidades de Imbuición\n+4% de daño no físico\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"frFR": "+15% de dégâts des compétences imprégnées\n+4% de dégâts non physiques\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"itIT": "Danni delle abilità di infusione: +15%\nDanni non fisici: +4%\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"jaJP": "注入スキルのダメージ+15%\n非物理ダメージ+4%\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"koKR": "주입 기술의 피해 +15%\n비물리 피해 +4%\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"plPL": "+15% obrażeń od nasyconej umiejętności\n+4% obrażeń niefizycznych\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"ptBR": "+15% de dano de habilidades de Imbuição\n+4% de dano não físico\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"ruRU": "+15% к урону от насыщенных силой умений\n+4% к нефизическому урону\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage.",
-					"zhCN": "+15%灌注技能伤害\n+4%非物理伤害\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Non-Physical, Damage."
+					"deDE": "+15% Schaden für Fertigkeiten mit Infusionen\n+4% nichtphysischer Schaden\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Infusion, Nichtphysisch, Schaden.",
+					"esES": "+15% de daño de habilidades imbuidas\n+4% de daño no físico\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuición, No física, Daño.",
+					"esMX": "+15% de daño de habilidades de Imbuición\n+4% de daño no físico\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuición, No físico, Daño.",
+					"frFR": "+15% de dégâts des compétences imprégnées\n+4% de dégâts non physiques\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imprégnation, Dégâts non physiques, Dégâts.",
+					"itIT": "Danni delle abilità di infusione: +15%\nDanni non fisici: +4%\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Infusione, Non fisico, Danni.",
+					"jaJP": "注入スキルのダメージ+15%\n非物理ダメージ+4%\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 合成, 非物理, ダメージ.",
+					"koKR": "주입 기술의 피해 +15%\n비물리 피해 +4%\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 주입, 비물리, 피해.",
+					"plPL": "+15% obrażeń od nasyconej umiejętności\n+4% obrażeń niefizycznych\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nasycenie, Niefizyczne, Obrażenia.",
+					"ptBR": "+15% de dano de habilidades de Imbuição\n+4% de dano não físico\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuição, Não física, Dano.",
+					"ruRU": "+15% к урону от насыщенных силой умений\n+4% к нефизическому урону\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Насыщение, Нефизический урон, Урон.",
+					"zhCN": "+15%灌注技能伤害\n+4%非物理伤害\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 灌注, 非物理, 伤害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -27955,17 +27955,17 @@ let paragonData = {
 					"zhCN": "资源充沛"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% nichtphysischer Schaden\n2.7% Abklingzeitreduktion für Infusion\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"esES": "+10% de daño no físico\n2.7%Imbuición de reducción de tiempo de reutilización\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"esMX": "+10% de daño no físico\n2.7% de reducción de recuperación de Imbuición\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"frFR": "+10% de dégâts non physiques\n2.7% de réduction du temps de recharge (Imprégnation )\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"itIT": "Danni non fisici: +10%\nRiduzione tempo di recupero Infusione: 2.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"jaJP": "非物理ダメージ+10%\n合成 のクールダウン短縮2.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"koKR": "비물리 피해 +10%\n주입 재사용 대기시간 감소 2.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"plPL": "+10% obrażeń niefizycznych\n2.7% redukcji czasu odnowienia: Nasycenie\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"ptBR": "+10% de dano não físico\n2.7% de redução de recarga de Imbuição\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"ruRU": "+10% к нефизическому урону\nВремя восстановления эффекта \"Насыщение \" снижается на 2.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage.",
-					"zhCN": "+10%非物理伤害\n2.7%灌注 冷却时间缩减\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cooldown, Imbuement, Non-Physical, Damage."
+					"deDE": "+10% nichtphysischer Schaden\n2.7% Abklingzeitreduktion für Infusion\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Abklingzeit, Infusion, Nichtphysisch, Schaden.",
+					"esES": "+10% de daño no físico\n2.7%Imbuición de reducción de tiempo de reutilización\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tiempo de reutilización, Imbuición, No física, Daño.",
+					"esMX": "+10% de daño no físico\n2.7% de reducción de recuperación de Imbuición\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Recuperación, Imbuición, No físico, Daño.",
+					"frFR": "+10% de dégâts non physiques\n2.7% de réduction du temps de recharge (Imprégnation )\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Temps de recharge, Imprégnation, Dégâts non physiques, Dégâts.",
+					"itIT": "Danni non fisici: +10%\nRiduzione tempo di recupero Infusione: 2.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Tempo di recupero, Infusione, Non fisico, Danni.",
+					"jaJP": "非物理ダメージ+10%\n合成 のクールダウン短縮2.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: クールダウン, 合成, 非物理, ダメージ.",
+					"koKR": "비물리 피해 +10%\n주입 재사용 대기시간 감소 2.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 재사용 대기시간, 주입, 비물리, 피해.",
+					"plPL": "+10% obrażeń niefizycznych\n2.7% redukcji czasu odnowienia: Nasycenie\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Odnowienie, Nasycenie, Niefizyczne, Obrażenia.",
+					"ptBR": "+10% de dano não físico\n2.7% de redução de recarga de Imbuição\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Recarga, Imbuição, Não física, Dano.",
+					"ruRU": "+10% к нефизическому урону\nВремя восстановления эффекта \"Насыщение \" снижается на 2.7%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Время восстановления, Насыщение, Нефизический урон, Урон.",
+					"zhCN": "+10%非物理伤害\n2.7%灌注 冷却时间缩减\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 冷却时间, 灌注, 非物理, 伤害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -27990,17 +27990,17 @@ let paragonData = {
 					"zhCN": "支配"
 				},
 				"descriptionLocalized": {
-					"deDE": "+13.3% Schaden für Fertigkeiten der Kategorie Grundlegend\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"esES": "+13.3% de daño de habilidades de Básica\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"esMX": "+13.3% de daño de habilidad Básico\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"frFR": "+13.3% de dégâts de compétence (De base )\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"itIT": "Danni abilità di Base: +13.3%\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"jaJP": "スキルダメージ+13.3% 基本\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"koKR": "기본 기술 피해 +13.3%\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"plPL": "+13.3% obrażeń od umiejętności (Podstawowe )\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"ptBR": "+13.3% de dano de habilidade Básica\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"ruRU": "+13.3% к урону от умений категории \"Базовые \"\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
-					"zhCN": "+13.3%基础 技能伤害\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage."
+					"deDE": "+13.3% Schaden für Fertigkeiten der Kategorie Grundlegend\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basis, Grundlegend, Schaden.",
+					"esES": "+13.3% de daño de habilidades de Básica\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básica, Daño.",
+					"esMX": "+13.3% de daño de habilidad Básico\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básico, Daño.",
+					"frFR": "+13.3% de dégâts de compétence (De base )\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principale, De base, Dégâts.",
+					"itIT": "Danni abilità di Base: +13.3%\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Primaria, Base, Danni.",
+					"jaJP": "スキルダメージ+13.3% 基本\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: コア, 基本, ダメージ.",
+					"koKR": "기본 기술 피해 +13.3%\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 핵심, 기본, 피해.",
+					"plPL": "+13.3% obrażeń od umiejętności (Podstawowe )\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Główne, Podstawowe, Obrażenia.",
+					"ptBR": "+13.3% de dano de habilidade Básica\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básica, Dano.",
+					"ruRU": "+13.3% к урону от умений категории \"Базовые \"\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Основные, Базовые, Урон.",
+					"zhCN": "+13.3%基础 技能伤害\n\nBonus: Another +13.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 基础, 伤害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -28025,17 +28025,17 @@ let paragonData = {
 					"zhCN": "强力药效"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden für Fertigkeiten mit Infusionen\n+10 Geschicklichkeit\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"esES": "+15% de daño de habilidades imbuidas\n+10 p. de destreza\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"esMX": "+15% de daño de habilidades de Imbuición\n+10 de Destreza\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"frFR": "+15% de dégâts des compétences imprégnées\n+10 dextérité\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"itIT": "Danni delle abilità di infusione: +15%\nDestrezza: +10\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"jaJP": "注入スキルのダメージ+15%\n敏捷性+10\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"koKR": "주입 기술의 피해 +15%\n민첩 +10\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"plPL": "+15% obrażeń od nasyconej umiejętności\n+10 zręczności\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"ptBR": "+15% de dano de habilidades de Imbuição\n+10 de Destreza\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"ruRU": "+15% к урону от насыщенных силой умений\n+10 к ловкости\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity.",
-					"zhCN": "+15%灌注技能伤害\n+10点敏捷\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuement, Damage, Dexterity."
+					"deDE": "+15% Schaden für Fertigkeiten mit Infusionen\n+10 Geschicklichkeit\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Infusion, Schaden, Geschicklichkeit.",
+					"esES": "+15% de daño de habilidades imbuidas\n+10 p. de destreza\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuición, Daño, Destreza.",
+					"esMX": "+15% de daño de habilidades de Imbuición\n+10 de Destreza\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuición, Daño, Destreza.",
+					"frFR": "+15% de dégâts des compétences imprégnées\n+10 dextérité\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imprégnation, Dégâts, Dextérité.",
+					"itIT": "Danni delle abilità di infusione: +15%\nDestrezza: +10\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Infusione, Danni, Destrezza.",
+					"jaJP": "注入スキルのダメージ+15%\n敏捷性+10\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 合成, ダメージ, 敏捷性.",
+					"koKR": "주입 기술의 피해 +15%\n민첩 +10\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 주입, 피해, 민첩.",
+					"plPL": "+15% obrażeń od nasyconej umiejętności\n+10 zręczności\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nasycenie, Obrażenia, Zręczność.",
+					"ptBR": "+15% de dano de habilidades de Imbuição\n+10 de Destreza\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuição, Dano, Destreza.",
+					"ruRU": "+15% к урону от насыщенных силой умений\n+10 к ловкости\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Насыщение, Урон, Ловкость.",
+					"zhCN": "+15%灌注技能伤害\n+10点敏捷\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 灌注, 伤害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -28060,17 +28060,17 @@ let paragonData = {
 					"zhCN": "基础学识"
 				},
 				"descriptionLocalized": {
-					"deDE": "+33.3% Schaden für Fertigkeiten der Kategorie Grundlegend\n+4% Schaden\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"esES": "+33.3% de daño de habilidades de Básica\n+4% de daño\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"esMX": "+33.3% de daño de habilidad Básico\n+4% de daño\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"frFR": "+33.3% de dégâts de compétence (De base )\n+4% de dégâts\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"itIT": "Danni abilità di Base: +33.3%\nDanni: +4%\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"jaJP": "スキルダメージ+33.3% 基本\nダメージ +4%\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"koKR": "기본 기술 피해 +33.3%\n공격력 +4%\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"plPL": "+33.3% obrażeń od umiejętności (Podstawowe )\n+4% obrażeń\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"ptBR": "+33.3% de dano de habilidade Básica\n+4% de dano\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"ruRU": "+33.3% к урону от умений категории \"Базовые \"\n+4% к урону\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage.",
-					"zhCN": "+33.3%基础 技能伤害\n+4%伤害\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Basic, Damage."
+					"deDE": "+33.3% Schaden für Fertigkeiten der Kategorie Grundlegend\n+4% Schaden\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Grundlegend, Schaden.",
+					"esES": "+33.3% de daño de habilidades de Básica\n+4% de daño\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Básica, Daño.",
+					"esMX": "+33.3% de daño de habilidad Básico\n+4% de daño\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Básico, Daño.",
+					"frFR": "+33.3% de dégâts de compétence (De base )\n+4% de dégâts\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: De base, Dégâts.",
+					"itIT": "Danni abilità di Base: +33.3%\nDanni: +4%\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Base, Danni.",
+					"jaJP": "スキルダメージ+33.3% 基本\nダメージ +4%\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 基本, ダメージ.",
+					"koKR": "기본 기술 피해 +33.3%\n공격력 +4%\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 기본, 피해.",
+					"plPL": "+33.3% obrażeń od umiejętności (Podstawowe )\n+4% obrażeń\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Podstawowe, Obrażenia.",
+					"ptBR": "+33.3% de dano de habilidade Básica\n+4% de dano\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Básica, Dano.",
+					"ruRU": "+33.3% к урону от умений категории \"Базовые \"\n+4% к урону\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Базовые, Урон.",
+					"zhCN": "+33.3%基础 技能伤害\n+4%伤害\n\nBonus: Another +33.3% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 基础, 伤害."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -28098,17 +28098,17 @@ let paragonData = {
 					"zhCN": "拳师"
 				},
 				"descriptionLocalized": {
-					"deDE": "+12% Schaden gegen Gegner in der Nähe\n4.8% Reduktion von Schaden durch Gegner in der Nähe\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"esES": "+12% de daño a enemigos cercanos\n4.8% de reducción de daño de enemigos cercanos\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"esMX": "+12% de daño a enemigos cercanos\n4.8% de reducción de daño de enemigos cercanos\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"frFR": "+12% de dégâts contre les cibles proches\n4.8% de réduction des dégâts infligés par les cibles à proximité\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"itIT": "Danni ai nemici vicini: +12%\nRiduzione danni da nemici vicini: 4.8%\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"jaJP": "近距離の敵へのダメージ+12%\n近距離の敵から受けるダメージ減少率4.8%\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"koKR": "근거리에 있는 적에게 주는 피해 +12%\n근거리에 있는 적에게 받는 피해 감소 4.8%\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"plPL": "+12% obrażeń zadawanych pobliskim wrogom\n4.8% redukcji obrażeń od pobliskich wrogów\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"ptBR": "+12% de dano contra inimigos próximos\n4.8% de redução de dano recebido de inimigos próximos\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"ruRU": "+12% к урону противникам вблизи\n-4.8% к урону от противников вблизи\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"zhCN": "+12%对近距敌人的伤害\n4.8%来自近距离敌人的伤害减免\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction."
+					"deDE": "+12% Schaden gegen Gegner in der Nähe\n4.8% Reduktion von Schaden durch Gegner in der Nähe\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Schadensreduktion.",
+					"esES": "+12% de daño a enemigos cercanos\n4.8% de reducción de daño de enemigos cercanos\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Reducción de daño.",
+					"esMX": "+12% de daño a enemigos cercanos\n4.8% de reducción de daño de enemigos cercanos\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Reducción de daño.",
+					"frFR": "+12% de dégâts contre les cibles proches\n4.8% de réduction des dégâts infligés par les cibles à proximité\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Réduction des dégâts.",
+					"itIT": "Danni ai nemici vicini: +12%\nRiduzione danni da nemici vicini: 4.8%\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Riduzione danni.",
+					"jaJP": "近距離の敵へのダメージ+12%\n近距離の敵から受けるダメージ減少率4.8%\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, ダメージ減少.",
+					"koKR": "근거리에 있는 적에게 주는 피해 +12%\n근거리에 있는 적에게 받는 피해 감소 4.8%\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 피해 감소.",
+					"plPL": "+12% obrażeń zadawanych pobliskim wrogom\n4.8% redukcji obrażeń od pobliskich wrogów\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Redukcja Obrażeń.",
+					"ptBR": "+12% de dano contra inimigos próximos\n4.8% de redução de dano recebido de inimigos próximos\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Redução de Dano.",
+					"ruRU": "+12% к урону противникам вблизи\n-4.8% к урону от противников вблизи\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уменьшение урона.",
+					"zhCN": "+12%对近距敌人的伤害\n4.8%来自近距离敌人的伤害减免\n\nBonus: Another +12% Damage to Close Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 伤害减免."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -28133,17 +28133,17 @@ let paragonData = {
 					"zhCN": "巡游侠"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen entfernte Gegner\n6% Reduktion von Schaden durch entfernte Gegner\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"esES": "+15% de daño a enemigos lejanos\n6% de reducción de daño de enemigos lejanos\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"esMX": "+15% de daño a enemigos lejanos\n6% de reducción de daño de enemigos lejanos\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"frFR": "+15% de dégâts contre les cibles à distance\n6% de réduction des dégâts infligés par les cibles à distance\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"itIT": "Danni ai nemici lontani: +15%\nRiduzione danni dai nemici lontani: 6%\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"jaJP": "遠距離の敵へのダメージ+15%\n遠距離の敵からのダメージ減少率6%\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"koKR": "원거리에 있는 적에게 주는 피해 +15%\n원거리에 있는 적에게 받는 피해 감소 6%\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"plPL": "+15% obrażeń zadawanych odległym wrogom\n6% redukcji obrażeń od odległych wrogów\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"ptBR": "+15% de dano contra inimigos distantes\n6% de redução de dano recebido de inimigos distantes\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"ruRU": "+15% к урону целям вдалеке\n-6% к урону от атак дальнего боя\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction.",
-					"zhCN": "+15%对远距敌人的伤害\n6%来自远距离敌人的伤害减免\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Damage Reduction."
+					"deDE": "+15% Schaden gegen entfernte Gegner\n6% Reduktion von Schaden durch entfernte Gegner\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Schadensreduktion.",
+					"esES": "+15% de daño a enemigos lejanos\n6% de reducción de daño de enemigos lejanos\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Reducción de daño.",
+					"esMX": "+15% de daño a enemigos lejanos\n6% de reducción de daño de enemigos lejanos\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Reducción de daño.",
+					"frFR": "+15% de dégâts contre les cibles à distance\n6% de réduction des dégâts infligés par les cibles à distance\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Réduction des dégâts.",
+					"itIT": "Danni ai nemici lontani: +15%\nRiduzione danni dai nemici lontani: 6%\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Riduzione danni.",
+					"jaJP": "遠距離の敵へのダメージ+15%\n遠距離の敵からのダメージ減少率6%\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, ダメージ減少.",
+					"koKR": "원거리에 있는 적에게 주는 피해 +15%\n원거리에 있는 적에게 받는 피해 감소 6%\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 피해 감소.",
+					"plPL": "+15% obrażeń zadawanych odległym wrogom\n6% redukcji obrażeń od odległych wrogów\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Redukcja Obrażeń.",
+					"ptBR": "+15% de dano contra inimigos distantes\n6% de redução de dano recebido de inimigos distantes\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Redução de Dano.",
+					"ruRU": "+15% к урону целям вдалеке\n-6% к урону от атак дальнего боя\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уменьшение урона.",
+					"zhCN": "+15%对远距敌人的伤害\n6%来自远距离敌人的伤害减免\n\nBonus: Another +15% Damage to Distant Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 伤害减免."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -28168,17 +28168,17 @@ let paragonData = {
 					"zhCN": "工程学"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"esES": "+10% de daño a enemigos afectados por habilidades de Trampa\n+10 p. de destreza\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"esMX": "+10% de daño a enemigos afectados por habilidades de Trampa\n+10 de Destreza\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"frFR": "+10% de dégâts contre les cibles affectées par les compétences (Piège )\n+10 dextérité\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"itIT": "Danni ai nemici affetti da abilità di Trappole: +10%\nDestrezza: +10\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"jaJP": "罠 スキルの影響を受けた敵へのダメージ+10%\n敏捷性+10\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"koKR": "덫 기술의 영향을 받는 적에게 주는 피해 +10%\n민첩 +10\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"plPL": "+10% obrażeń zadawanych wrogom pod wpływem umiejętności: Pułapki\n+10 zręczności\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"ptBR": "+10% de dano contra inimigos afetados por habilidades Armadilha\n+10 de Destreza\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"ruRU": "+10% к урону противникам, на которых действуют умения категории \"Ловушка \"\n+10 к ловкости\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity.",
-					"zhCN": "+10%对受陷阱 技能影响敌人的伤害\n+10点敏捷\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage, Dexterity."
+					"deDE": "+10% Schaden gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Falle, Schaden, Geschicklichkeit.",
+					"esES": "+10% de daño a enemigos afectados por habilidades de Trampa\n+10 p. de destreza\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trampa, Daño, Destreza.",
+					"esMX": "+10% de daño a enemigos afectados por habilidades de Trampa\n+10 de Destreza\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trampa, Daño, Destreza.",
+					"frFR": "+10% de dégâts contre les cibles affectées par les compétences (Piège )\n+10 dextérité\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Piège, Dégâts, Dextérité.",
+					"itIT": "Danni ai nemici affetti da abilità di Trappole: +10%\nDestrezza: +10\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trappole, Danni, Destrezza.",
+					"jaJP": "罠 スキルの影響を受けた敵へのダメージ+10%\n敏捷性+10\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: 罠, ダメージ, 敏捷性.",
+					"koKR": "덫 기술의 영향을 받는 적에게 주는 피해 +10%\n민첩 +10\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: 덫, 피해, 민첩.",
+					"plPL": "+10% obrażeń zadawanych wrogom pod wpływem umiejętności: Pułapki\n+10 zręczności\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Pułapki, Obrażenia, Zręczność.",
+					"ptBR": "+10% de dano contra inimigos afetados por habilidades Armadilha\n+10 de Destreza\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Armadilha, Dano, Destreza.",
+					"ruRU": "+10% к урону противникам, на которых действуют умения категории \"Ловушка \"\n+10 к ловкости\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Ловушка, Урон, Ловкость.",
+					"zhCN": "+10%对受陷阱 技能影响敌人的伤害\n+10点敏捷\n\nBonus: Another +10% Damage to Enemies Affected by Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: 陷阱, 伤害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -28206,17 +28206,17 @@ let paragonData = {
 					"zhCN": "狡诈"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Schadensreduktion gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n+10 Geschicklichkeit\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"esES": "4% de reducción de daño de los enemigos afectados por habilidades de Trampa\n+10 p. de destreza\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"esMX": "4% de reducción de daño infligido por enemigos afectados por habilidades de Trampa\n+10 de Destreza\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles affectées par les compétences de Piège\n+10 dextérité\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"itIT": "Riduzione danni ricevuti dai nemici affetti da abilità Trappole: 4%\nDestrezza: +10\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"jaJP": "罠 スキルの影響を受けた敵からのダメージ減少率4%\n敏捷性+10\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"koKR": "덫 기술의 영향을 받은 적에게 받는 피해 감소 4%\n민첩 +10\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"plPL": "4% redukcji obrażeń od wroga pod wpływem umiejętności: Pułapki\n+10 zręczności\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"ptBR": "4% de redução de dano recebido de inimigos sob efeito de habilidades de Armadilha\n+10 de Destreza\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"ruRU": "На 4% меньше урона от противников, на которых действуют умения категории \"Ловушка \"\n+10 к ловкости\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity.",
-					"zhCN": "4%对你受到来自陷阱 技能影响的敌人的伤害减免\n+10点敏捷\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage Reduction, Dexterity."
+					"deDE": "4% Schadensreduktion gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n+10 Geschicklichkeit\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Falle, Schadensreduktion, Geschicklichkeit.",
+					"esES": "4% de reducción de daño de los enemigos afectados por habilidades de Trampa\n+10 p. de destreza\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trampa, Reducción de daño, Destreza.",
+					"esMX": "4% de reducción de daño infligido por enemigos afectados por habilidades de Trampa\n+10 de Destreza\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trampa, Reducción de daño, Destreza.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles affectées par les compétences de Piège\n+10 dextérité\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Piège, Réduction des dégâts, Dextérité.",
+					"itIT": "Riduzione danni ricevuti dai nemici affetti da abilità Trappole: 4%\nDestrezza: +10\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Trappole, Riduzione danni, Destrezza.",
+					"jaJP": "罠 スキルの影響を受けた敵からのダメージ減少率4%\n敏捷性+10\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: 罠, ダメージ減少, 敏捷性.",
+					"koKR": "덫 기술의 영향을 받은 적에게 받는 피해 감소 4%\n민첩 +10\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: 덫, 피해 감소, 민첩.",
+					"plPL": "4% redukcji obrażeń od wroga pod wpływem umiejętności: Pułapki\n+10 zręczności\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Pułapki, Redukcja Obrażeń, Zręczność.",
+					"ptBR": "4% de redução de dano recebido de inimigos sob efeito de habilidades de Armadilha\n+10 de Destreza\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Armadilha, Redução de Dano, Destreza.",
+					"ruRU": "На 4% меньше урона от противников, на которых действуют умения категории \"Ловушка \"\n+10 к ловкости\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: Ловушка, Уменьшение урона, Ловкость.",
+					"zhCN": "4%对你受到来自陷阱 技能影响的敌人的伤害减免\n+10点敏捷\n\nBonus: Another 4% Damage Reduction from Enemies Affected By Trap Skills if requirements met:\n{thresholdRequirements}\n\nTags: 陷阱, 伤害减免, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -28241,17 +28241,17 @@ let paragonData = {
 					"zhCN": "布陷高手"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden für Fertigkeiten der Kategorie Falle\n+4% Schaden gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"esES": "+15% de daño de habilidades de Trampa\n+4% de daño a enemigos afectados por habilidades de Trampa\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"esMX": "+15% de daño de habilidad Trampa\n+4% de daño a enemigos afectados por habilidades de Trampa\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"frFR": "+15% de dégâts de compétence (Piège )\n+4% de dégâts contre les cibles affectées par les compétences (Piège )\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"itIT": "Danni abilità di Trappole: +15%\nDanni ai nemici affetti da abilità di Trappole: +4%\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"jaJP": "スキルダメージ+15% 罠\n罠 スキルの影響を受けた敵へのダメージ+4%\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"koKR": "덫 기술 피해 +15%\n덫 기술의 영향을 받는 적에게 주는 피해 +4%\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"plPL": "+15% obrażeń od umiejętności (Pułapki )\n+4% obrażeń zadawanych wrogom pod wpływem umiejętności: Pułapki\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"ptBR": "+15% de dano de habilidade Armadilha\n+4% de dano contra inimigos afetados por habilidades Armadilha\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"ruRU": "+15% к урону от умений категории \"Ловушка \"\n+4% к урону противникам, на которых действуют умения категории \"Ловушка \"\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage.",
-					"zhCN": "+15%陷阱 技能伤害\n+4%对受陷阱 技能影响敌人的伤害\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trap, Damage."
+					"deDE": "+15% Schaden für Fertigkeiten der Kategorie Falle\n+4% Schaden gegen Gegner, die von Fertigkeiten der Kategorie Falle betroffen sind\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Falle, Schaden.",
+					"esES": "+15% de daño de habilidades de Trampa\n+4% de daño a enemigos afectados por habilidades de Trampa\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trampa, Daño.",
+					"esMX": "+15% de daño de habilidad Trampa\n+4% de daño a enemigos afectados por habilidades de Trampa\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trampa, Daño.",
+					"frFR": "+15% de dégâts de compétence (Piège )\n+4% de dégâts contre les cibles affectées par les compétences (Piège )\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Piège, Dégâts.",
+					"itIT": "Danni abilità di Trappole: +15%\nDanni ai nemici affetti da abilità di Trappole: +4%\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trappole, Danni.",
+					"jaJP": "スキルダメージ+15% 罠\n罠 スキルの影響を受けた敵へのダメージ+4%\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 罠, ダメージ.",
+					"koKR": "덫 기술 피해 +15%\n덫 기술의 영향을 받는 적에게 주는 피해 +4%\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 덫, 피해.",
+					"plPL": "+15% obrażeń od umiejętności (Pułapki )\n+4% obrażeń zadawanych wrogom pod wpływem umiejętności: Pułapki\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Pułapki, Obrażenia.",
+					"ptBR": "+15% de dano de habilidade Armadilha\n+4% de dano contra inimigos afetados por habilidades Armadilha\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Armadilha, Dano.",
+					"ruRU": "+15% к урону от умений категории \"Ловушка \"\n+4% к урону противникам, на которых действуют умения категории \"Ловушка \"\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ловушка, Урон.",
+					"zhCN": "+15%陷阱 技能伤害\n+4%对受陷阱 技能影响敌人的伤害\n\nBonus: Another +15% Trap Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 陷阱, 伤害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -33428,17 +33428,17 @@ let paragonData = {
 					"zhCN": "燃烧本能"
 				},
 				"descriptionLocalized": {
-					"deDE": "Euer Verbrennungsschaden wird um 40% Eures kritischen Trefferschadens und um 5% pro 20 Intelligenz erhöht. (Aktueller Bonus: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"esES": "Tu daño de quemadura aumenta una cantidad equivalente a un 40% de tu daño de golpe crítico y aumenta un 5% más por cada 20 de inteligencia que tengas. (Bonus actual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"esMX": "Tu daño de quemadura aumenta un 40% de tu daño de golpe crítico, y se incrementa aún más un 5% por cada 20 de Inteligencia que tengas. (Bonificación actual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"frFR": "Vos dégâts de brûlure sont augmentés d'un montant égal à 40% vos dégâts critiques. Ce montant est augmenté de 5% supplémentaires par tranche de 20 points d'intelligence que vous avez. (Bonus actuel: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"itIT": "I tuoi danni da fiamme sono aumentati del 40% dei tuoi danni critici e vengono aumentati ulteriormente del 5% per ogni 20 Intelligenza. (Bonus attuale: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"jaJP": "与える炎上ダメージがクリティカルヒットダメージの40%分増加する。知力20ごとに、ダメージがさらに5%増加する。(現在のボーナス: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"koKR": "연소 피해가 극대화 피해의 40%만큼 증가하고, 지능 20당 5% 추가로 증가합니다. (현재 증가량: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"plPL": "Zadawane przez ciebie obrażenia od podpalenia są zwiększone o równowartość 40% twoich obrażeń od trafień krytycznych oraz dodatkowo o 5% za każde posiadane 20 pkt. inteligencji. (Aktualna premia: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"ptBR": "Seu dano flamejante é aumentado em 40% do seu dano de acerto crítico, sendo aumentado ainda mais em 5% para cada 20 de Inteligência que você tenha (bônus atual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"ruRU": "Наносимый вами урон от горения увеличивается на 40% от вашего бонуса к критическому урону, а также на 5% за каждые 20 ед. интеллекта героя. (Текущий бонус: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence.",
-					"zhCN": "你的燃烧伤害提高,相当于暴击伤害的40%,每有20点智力进一步提高5%。(当前加成:[Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Burn, Damage, Critical Strikes, Intelligence."
+					"deDE": "Euer Verbrennungsschaden wird um 40% Eures kritischen Trefferschadens und um 5% pro 20 Intelligenz erhöht. (Aktueller Bonus: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Verbrennung, Schaden, Kritische Treffer, Intelligenz.",
+					"esES": "Tu daño de quemadura aumenta una cantidad equivalente a un 40% de tu daño de golpe crítico y aumenta un 5% más por cada 20 de inteligencia que tengas. (Bonus actual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
+					"esMX": "Tu daño de quemadura aumenta un 40% de tu daño de golpe crítico, y se incrementa aún más un 5% por cada 20 de Inteligencia que tengas. (Bonificación actual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
+					"frFR": "Vos dégâts de brûlure sont augmentés d'un montant égal à 40% vos dégâts critiques. Ce montant est augmenté de 5% supplémentaires par tranche de 20 points d'intelligence que vous avez. (Bonus actuel: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Brûlure, Dégâts, Coups critiques, Intelligence.",
+					"itIT": "I tuoi danni da fiamme sono aumentati del 40% dei tuoi danni critici e vengono aumentati ulteriormente del 5% per ogni 20 Intelligenza. (Bonus attuale: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Bruciatura, Danni, Colpi critici, Intelligenza.",
+					"jaJP": "与える炎上ダメージがクリティカルヒットダメージの40%分増加する。知力20ごとに、ダメージがさらに5%増加する。(現在のボーナス: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 炎上, ダメージ, 致命の一撃, 知力.",
+					"koKR": "연소 피해가 극대화 피해의 40%만큼 증가하고, 지능 20당 5% 추가로 증가합니다. (현재 증가량: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 불태우기, 피해, 극대화, 지능.",
+					"plPL": "Zadawane przez ciebie obrażenia od podpalenia są zwiększone o równowartość 40% twoich obrażeń od trafień krytycznych oraz dodatkowo o 5% za każde posiadane 20 pkt. inteligencji. (Aktualna premia: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Podpalenie, Obrażenia, Trafienia Krytyczne, Inteligencja.",
+					"ptBR": "Seu dano flamejante é aumentado em 40% do seu dano de acerto crítico, sendo aumentado ainda mais em 5% para cada 20 de Inteligência que você tenha (bônus atual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Queimadura, Dano, Acertos Críticos, Inteligência.",
+					"ruRU": "Наносимый вами урон от горения увеличивается на 40% от вашего бонуса к критическому урону, а также на 5% за каждые 20 ед. интеллекта героя. (Текущий бонус: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Горение, Урон, Критические удары, Интеллект.",
+					"zhCN": "你的燃烧伤害提高,相当于暴击伤害的40%,每有20点智力进一步提高5%。(当前加成:[Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 燃烧, 伤害, 暴击, 智力."
 				}
 			},
 			"Sorcerer_Legendary_002": {
@@ -33458,17 +33458,17 @@ let paragonData = {
 					"zhCN": "灼烧之热"
 				},
 				"descriptionLocalized": {
-					"deDE": "Das Wirken von Feuerball oder Meteor erhöht die kritische Trefferchance bei weiteren Einsätzen dieser Fertigkeit 5 Sek. lang um +5%, bis maximal +15%. Zusätzliche Stapel setzen diesen Timer nicht zurück.\n\nTags: Critical Strikes.",
-					"esES": "Lanzar Bola de fuego o Meteorito aumenta la probabilidad de golpe crítico de los siguientes lanzamientos de dicha habilidad un +5% durante 5 s, hasta un máximo de un +15%. Las acumulaciones adicionales no reinician este temporizador.\n\nTags: Critical Strikes.",
-					"esMX": "Lanzar Bola de Fuego o Meteoro aumenta la probabilidad de golpe crítico de próximos lanzamientos de esa habilidad un +5% durante 5 segundos, hasta un +15%. Acumulaciones adicionales no actualizan este temporizador.\n\nTags: Critical Strikes.",
-					"frFR": "Lancer Boule de feu ou Météore augmente les chances d'infliger un coup critique des prochaines utilisations de cette compétence de +5% pendant 5 s, jusqu'à un maximum de +15%. Les cumuls supplémentaires ne réinitialisent pas cette durée.\n\nTags: Critical Strikes.",
-					"itIT": "Lanciare Palla di Fuoco o Meteora aumenta la probabilità di critico dei lanci successivi di quell'abilità del +5% per 5 s, fino a un massimo del +15%. Gli accumuli aggiuntivi non ripristinano questo periodo di tempo.\n\nTags: Critical Strikes.",
-					"jaJP": "〈火の玉〉か〈メテオ〉を使用すると、5秒間にわたり、当該スキルを次回使用した際にクリティカルヒット率が+5%増加する。増加量は最大+15%。効果が蓄積しても効果時間は延長されない。\n\nTags: Critical Strikes.",
-					"koKR": "화염구 또는 운석 낙하를 시전하면 해당 기술 추가 시전 시 극대화 확률이 5초 동안 +5%만큼, 최대 +15%까지 증가합니다. 추가 중첩이 발생해도 이 타이머가 초기화되지 않습니다.\n\nTags: Critical Strikes.",
-					"plPL": "Użycie Kuli Ognia lub Meteorytu zwiększa szansę na trafienie krytyczne przy kolejnym użyciu tych umiejętności o +5% na 5 sek., maksymalnie do +15%. Dodatkowe poziomy kumulacji nie odświeżają tego czasu.\n\nTags: Critical Strikes.",
-					"ptBR": "Lançar Bola de Fogo ou Meteoro aumenta a chance de acerto crítico de lançamentos adicionais da habilidade em +5% por 5 segundos, até +15%. Aplicações adicionais não reiniciam o contador.\n\nTags: Critical Strikes.",
-					"ruRU": "\"Огненный шар\" и \"Метеорит\" повышают вероятность критического удара того же умения на +5% на 5 сек. вплоть до +15%. Новые эффекты не обновляют время действия уже полученных.\n\nTags: Critical Strikes.",
-					"zhCN": "施放火球或陨石术使后续施放该技能的暴击几率提高+5%,持续5秒,最多提高+15%。额外的层数不会刷新此计时器。\n\nTags: Critical Strikes."
+					"deDE": "Das Wirken von Feuerball oder Meteor erhöht die kritische Trefferchance bei weiteren Einsätzen dieser Fertigkeit 5 Sek. lang um +5%, bis maximal +15%. Zusätzliche Stapel setzen diesen Timer nicht zurück.\n\nTags: Kritische Treffer.",
+					"esES": "Lanzar Bola de fuego o Meteorito aumenta la probabilidad de golpe crítico de los siguientes lanzamientos de dicha habilidad un +5% durante 5 s, hasta un máximo de un +15%. Las acumulaciones adicionales no reinician este temporizador.\n\nTags: Golpes críticos.",
+					"esMX": "Lanzar Bola de Fuego o Meteoro aumenta la probabilidad de golpe crítico de próximos lanzamientos de esa habilidad un +5% durante 5 segundos, hasta un +15%. Acumulaciones adicionales no actualizan este temporizador.\n\nTags: Golpes críticos.",
+					"frFR": "Lancer Boule de feu ou Météore augmente les chances d'infliger un coup critique des prochaines utilisations de cette compétence de +5% pendant 5 s, jusqu'à un maximum de +15%. Les cumuls supplémentaires ne réinitialisent pas cette durée.\n\nTags: Coups critiques.",
+					"itIT": "Lanciare Palla di Fuoco o Meteora aumenta la probabilità di critico dei lanci successivi di quell'abilità del +5% per 5 s, fino a un massimo del +15%. Gli accumuli aggiuntivi non ripristinano questo periodo di tempo.\n\nTags: Colpi critici.",
+					"jaJP": "〈火の玉〉か〈メテオ〉を使用すると、5秒間にわたり、当該スキルを次回使用した際にクリティカルヒット率が+5%増加する。増加量は最大+15%。効果が蓄積しても効果時間は延長されない。\n\nTags: 致命の一撃.",
+					"koKR": "화염구 또는 운석 낙하를 시전하면 해당 기술 추가 시전 시 극대화 확률이 5초 동안 +5%만큼, 최대 +15%까지 증가합니다. 추가 중첩이 발생해도 이 타이머가 초기화되지 않습니다.\n\nTags: 극대화.",
+					"plPL": "Użycie Kuli Ognia lub Meteorytu zwiększa szansę na trafienie krytyczne przy kolejnym użyciu tych umiejętności o +5% na 5 sek., maksymalnie do +15%. Dodatkowe poziomy kumulacji nie odświeżają tego czasu.\n\nTags: Trafienia Krytyczne.",
+					"ptBR": "Lançar Bola de Fogo ou Meteoro aumenta a chance de acerto crítico de lançamentos adicionais da habilidade em +5% por 5 segundos, até +15%. Aplicações adicionais não reiniciam o contador.\n\nTags: Acertos Críticos.",
+					"ruRU": "\"Огненный шар\" и \"Метеорит\" повышают вероятность критического удара того же умения на +5% на 5 сек. вплоть до +15%. Новые эффекты не обновляют время действия уже полученных.\n\nTags: Критические удары.",
+					"zhCN": "施放火球或陨石术使后续施放该技能的暴击几率提高+5%,持续5秒,最多提高+15%。额外的层数不会刷新此计时器。\n\nTags: 暴击."
 				}
 			},
 			"Sorcerer_Legendary_003": {
@@ -33520,17 +33520,17 @@ let paragonData = {
 					"zhCN": "冰冷命运"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr einem verwundbaren Gegner Kälteschaden zufügt, erhöht sich Eure Glückstrefferchance 5 Sek. lang um +1%, bis maximal +15%.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"esES": "Infligir daño de frío a enemigos vulnerables aumenta tu probabilidad de golpe de suerte un +1% durante 5 s, hasta un máximo de un +15%.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"esMX": "Infligir daño de frío a enemigos vulnerables aumenta la probabilidad de golpe afortunado un +1% durante 5 segundos, hasta un +15%.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"frFR": "Infliger des dégâts de froid à des cibles vulnérables augmente vos chances de coup de chance de +1% pendant 5 s, jusqu'à un maximum de +15%.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"itIT": "Infliggere danni da freddo a nemici vulnerabili aumenta le tue probabilità di colpo fortunato del +1% per 5 s, fino a un massimo del +15%.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"jaJP": "脆弱状態の敵に冷気ダメージを与えると、5秒間にわたり、幸運の一撃発生率が+1%増加する。増加量は最大+15%。\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"koKR": "취약 상태의 적에게 냉기 피해를 주면 행운의 적중 확률이 5초 동안 +1%만큼, 최대 +15%까지 증가합니다.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"plPL": "Zadawanie obrażeń od Zimna odsłoniętym wrogom zwiększa twoją szansę na szczęśliwy traf o +1% na 5 sek., maksymalnie do +15%.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"ptBR": "Causar dano gélido a inimigos vulneráveis aumenta sua chance de Golpe de Sorte em +1% por 5 segundos, até +15%.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"ruRU": "Когда вы наносите урон от холода уязвимым противникам, вероятность удачного удара повышается на +1% на 5 сек. вплоть до +15%.\n\nTags: Vulnerable, Cold, Lucky Hit.",
-					"zhCN": "对易伤敌人造成冰霜伤害将使你的幸运一击几率提高+1%,持续5秒,最多提高+15%。\n\nTags: Vulnerable, Cold, Lucky Hit."
+					"deDE": "Wenn Ihr einem verwundbaren Gegner Kälteschaden zufügt, erhöht sich Eure Glückstrefferchance 5 Sek. lang um +1%, bis maximal +15%.\n\nTags: Verwundbar, Kälte, Glückstreffer.",
+					"esES": "Infligir daño de frío a enemigos vulnerables aumenta tu probabilidad de golpe de suerte un +1% durante 5 s, hasta un máximo de un +15%.\n\nTags: Vulnerable, Frío, Golpe de suerte.",
+					"esMX": "Infligir daño de frío a enemigos vulnerables aumenta la probabilidad de golpe afortunado un +1% durante 5 segundos, hasta un +15%.\n\nTags: Vulnerable, Frío, Golpe afortunado.",
+					"frFR": "Infliger des dégâts de froid à des cibles vulnérables augmente vos chances de coup de chance de +1% pendant 5 s, jusqu'à un maximum de +15%.\n\nTags: Vulnérable, Froid, Coup de chance.",
+					"itIT": "Infliggere danni da freddo a nemici vulnerabili aumenta le tue probabilità di colpo fortunato del +1% per 5 s, fino a un massimo del +15%.\n\nTags: Vulnerabilità, Freddo, Colpo fortunato.",
+					"jaJP": "脆弱状態の敵に冷気ダメージを与えると、5秒間にわたり、幸運の一撃発生率が+1%増加する。増加量は最大+15%。\n\nTags: 脆弱, 冷気, 幸運の一撃.",
+					"koKR": "취약 상태의 적에게 냉기 피해를 주면 행운의 적중 확률이 5초 동안 +1%만큼, 최대 +15%까지 증가합니다.\n\nTags: 취약, 냉기, 행운의 적중.",
+					"plPL": "Zadawanie obrażeń od Zimna odsłoniętym wrogom zwiększa twoją szansę na szczęśliwy traf o +1% na 5 sek., maksymalnie do +15%.\n\nTags: Odsłonięcie, Zimno, Szczęśliwy Traf.",
+					"ptBR": "Causar dano gélido a inimigos vulneráveis aumenta sua chance de Golpe de Sorte em +1% por 5 segundos, até +15%.\n\nTags: Vulnerável, Gelo, Golpe de Sorte.",
+					"ruRU": "Когда вы наносите урон от холода уязвимым противникам, вероятность удачного удара повышается на +1% на 5 сек. вплоть до +15%.\n\nTags: Уязвимость, Холод, Удачный удар.",
+					"zhCN": "对易伤敌人造成冰霜伤害将使你的幸运一击几率提高+1%,持续5秒,最多提高+15%。\n\nTags: 易伤, 冰霜, 幸运一击."
 				}
 			},
 			"Sorcerer_Legendary_006": {
@@ -33550,17 +33550,17 @@ let paragonData = {
 					"zhCN": "陨冰"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr einen eingefrorenen Gegner tötet, erhaltet Ihr 5 Sek. lang 15% Eures maximalen Lebens als Barriere.\n\nTags: Frozen, Barrier.",
-					"esES": "Matar a un enemigo congelado te otorga un 15% de tu vida máxima como barrera durante 5 s.\n\nTags: Frozen, Barrier.",
-					"esMX": "Matar a un enemigo congelado te otorga un 15% de tu vida máxima como una barrera durante 5 segundos.\n\nTags: Frozen, Barrier.",
-					"frFR": "Tuer une cible gelée vous octroie une barrière égale à 15% de votre maximum de points de vie pendant 5 s.\n\nTags: Frozen, Barrier.",
-					"itIT": "Uccidere un nemico congelato ti fornisce il 15% della tua Vita massima come barriera per 5 s.\n\nTags: Frozen, Barrier.",
-					"jaJP": "凍結状態の敵を倒すとc_number}5秒間、ライフ最大値の15%にあたるの障壁を得る。\n\nTags: Frozen, Barrier.",
-					"koKR": "빙결된 적을 처치하면 5초 동안 최대 생명력의 15%를 보호막으로 얻습니다.\n\nTags: Frozen, Barrier.",
-					"plPL": "Zabicie zamrożonego wroga zapewnia ci barierę o mocy równej 15% twojego maksymalnego zdrowia na 5 sek.\n\nTags: Frozen, Barrier.",
-					"ptBR": "Matar um inimigo congelado concede 15% da sua vida máxima como barreira por 5 segundos.\n\nTags: Frozen, Barrier.",
-					"ruRU": "Убивая замороженных противников, вы получаете барьер с прочностью, равной 15% максимального запаса здоровья. Время действия – 5 сек.\n\nTags: Frozen, Barrier.",
-					"zhCN": "消灭一个被冻结的敌人使你获得一层相当于生命上限15%的屏障,持续5秒。\n\nTags: Frozen, Barrier."
+					"deDE": "Wenn Ihr einen eingefrorenen Gegner tötet, erhaltet Ihr 5 Sek. lang 15% Eures maximalen Lebens als Barriere.\n\nTags: Eingefroren, Barriere.",
+					"esES": "Matar a un enemigo congelado te otorga un 15% de tu vida máxima como barrera durante 5 s.\n\nTags: Congelación, Barrera.",
+					"esMX": "Matar a un enemigo congelado te otorga un 15% de tu vida máxima como una barrera durante 5 segundos.\n\nTags: Congelado, Barrera.",
+					"frFR": "Tuer une cible gelée vous octroie une barrière égale à 15% de votre maximum de points de vie pendant 5 s.\n\nTags: Gel, Barrière.",
+					"itIT": "Uccidere un nemico congelato ti fornisce il 15% della tua Vita massima come barriera per 5 s.\n\nTags: Congelamento, Barriera.",
+					"jaJP": "凍結状態の敵を倒すとc_number}5秒間、ライフ最大値の15%にあたるの障壁を得る。\n\nTags: 凍結, 障壁.",
+					"koKR": "빙결된 적을 처치하면 5초 동안 최대 생명력의 15%를 보호막으로 얻습니다.\n\nTags: 빙결, 보호막.",
+					"plPL": "Zabicie zamrożonego wroga zapewnia ci barierę o mocy równej 15% twojego maksymalnego zdrowia na 5 sek.\n\nTags: Zamrażanie, Bariera.",
+					"ptBR": "Matar um inimigo congelado concede 15% da sua vida máxima como barreira por 5 segundos.\n\nTags: Congelado, Barreira.",
+					"ruRU": "Убивая замороженных противников, вы получаете барьер с прочностью, равной 15% максимального запаса здоровья. Время действия – 5 сек.\n\nTags: Заморозка, Барьер.",
+					"zhCN": "消灭一个被冻结的敌人使你获得一层相当于生命上限15%的屏障,持续5秒。\n\nTags: 冻结, 屏障."
 				}
 			},
 			"Sorcerer_Legendary_007": {
@@ -33580,17 +33580,17 @@ let paragonData = {
 					"zhCN": "静电奔涌"
 				},
 				"descriptionLocalized": {
-					"deDE": "Die Betäubung von Gegnern in der Nähe stellt 10 Mana wieder her.\n\nTags: Crowd Control, Mana.",
-					"esES": "Aturdir enemigos cercanos restaura 10 de maná.\n\nTags: Crowd Control, Mana.",
-					"esMX": "Aturdir a enemigos cercanos restaura 10 de maná.\n\nTags: Crowd Control, Mana.",
-					"frFR": "Étourdir des adversaires à proximité vous rend 10 points de mana.\n\nTags: Crowd Control, Mana.",
-					"itIT": "Stordire i nemici vicini fa recuperare 10 mana.\n\nTags: Crowd Control, Mana.",
-					"jaJP": "近くにいる敵をスタンさせるとマナが10回復する。\n\nTags: Crowd Control, Mana.",
-					"koKR": "근거리에 있는 적을 기절시키면 마나가 10 회복됩니다.\n\nTags: Crowd Control, Mana.",
-					"plPL": "Ogłuszenie pobliskich wrogów przywraca 10 pkt. many.\n\nTags: Crowd Control, Mana.",
-					"ptBR": "Atordoar inimigos próximos restaura 10 de mana.\n\nTags: Crowd Control, Mana.",
-					"ruRU": "Оглушая находящихся рядом противников, вы восполняете 10 ед. маны.\n\nTags: Crowd Control, Mana.",
-					"zhCN": "击晕近距敌人恢复10点法力。\n\nTags: Crowd Control, Mana."
+					"deDE": "Die Betäubung von Gegnern in der Nähe stellt 10 Mana wieder her.\n\nTags: Kontrollverlust, Mana.",
+					"esES": "Aturdir enemigos cercanos restaura 10 de maná.\n\nTags: Control de masas, Maná.",
+					"esMX": "Aturdir a enemigos cercanos restaura 10 de maná.\n\nTags: Control de multitudes, Maná.",
+					"frFR": "Étourdir des adversaires à proximité vous rend 10 points de mana.\n\nTags: Perte de contrôle, Mana.",
+					"itIT": "Stordire i nemici vicini fa recuperare 10 mana.\n\nTags: Effetti debilitanti, Mana.",
+					"jaJP": "近くにいる敵をスタンさせるとマナが10回復する。\n\nTags: 操作障害効果, マナ.",
+					"koKR": "근거리에 있는 적을 기절시키면 마나가 10 회복됩니다.\n\nTags: 군중 제어, 마나.",
+					"plPL": "Ogłuszenie pobliskich wrogów przywraca 10 pkt. many.\n\nTags: Ograniczanie Kontroli, Mana.",
+					"ptBR": "Atordoar inimigos próximos restaura 10 de mana.\n\nTags: Controle de Grupo, Mana.",
+					"ruRU": "Оглушая находящихся рядом противников, вы восполняете 10 ед. маны.\n\nTags: Контроль, Мана.",
+					"zhCN": "击晕近距敌人恢复10点法力。\n\nTags: 群控, 法力."
 				}
 			},
 			"Sorcerer_Legendary_008": {
@@ -33610,17 +33610,17 @@ let paragonData = {
 					"zhCN": "不灭导体"
 				},
 				"descriptionLocalized": {
-					"deDE": "Knisternde Energie verfügt über eine Chance von 25%, bei Auslösung keine Ladung zu verbrauchen. Der Schaden von Knisternde Energie wird pro 20 Eurer Gesamtintelligenz um x2% erhöht (Aktueller Bonus: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"esES": "La energía crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de la energía crepitante aumenta un x2% por cada 20 de inteligencia total que tengas. (Bonus actual: x[floor(Intelligence_Total / 20) * 0.02 * 100]%).\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"esMX": "Energía Crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de Energía Crepitante aumenta un x2% por 20 de la Inteligencia total que tengas. (Bonificación actual: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"frFR": "L'énergie crépitante a 25% de chances de ne pas consommer de charge lorsqu'elle est déclenchée. Les dégâts de l'énergie crépitante sont augmentés de x2% par tranche de 20 points d'intelligence que vous avez. (Bonus actuel: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"itIT": "Energia Crepitante ha il 25% di probabilità di non consumare una carica quando viene utilizzata. I danni di Energia Crepitante sono aumentati del x2% per ogni 20 Intelligenza. (Bonus attuale: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"jaJP": "〈帯び出す電気〉発動時、25%の確率でチャージを消費しない。自分の合計知力20ごとに〈帯び出す電気〉のダメージがx2%増加する。(現在のボーナス: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"koKR": "짜릿한 에너지가 발동했을 때 25% 확률로 중첩이 소모되지 않습니다. 짜릿한 에너지가 주는 피해가 총 지능 20당 x2% 증가합니다. (현재 증가량: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"plPL": "Istnieje 25% szans na to, że aktywacja Roziskrzonej Energii nie zużyje ładunku. Obrażenia od Roziskrzonej Energii wzrastają o x2% za każde posiadane przez ciebie 20 pkt. inteligencji. (Aktualna premia: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"ptBR": "Energia Crepitante tem 25% de chance de não consumir uma carga ao ser acionada. O dano de Energia Crepitante é aumentado em 2% por 20 de Inteligência total que você tiver (bônus atual: [floor(Intelligence_Total / 20) * 0.02 * 100]%).\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"ruRU": "Искрящийся заряд энергии с вероятностью 25% не поглощает заряд при активации. Урон от Искрящегося заряда энергии увеличивается на x2% за каждые 20 ед. интеллекта героя. (Текущий бонус: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"zhCN": "爆裂电花有25%几率在触发时不消耗层数。你每拥有20点总智力,爆裂电花的伤害就提高x2%。(当前加成:x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Crackling Energy, Damage, Intelligence."
+					"deDE": "Knisternde Energie verfügt über eine Chance von 25%, bei Auslösung keine Ladung zu verbrauchen. Der Schaden von Knisternde Energie wird pro 20 Eurer Gesamtintelligenz um x2% erhöht (Aktueller Bonus: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Knisternde Energie, Schaden, Intelligenz.",
+					"esES": "La energía crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de la energía crepitante aumenta un x2% por cada 20 de inteligencia total que tengas. (Bonus actual: x[floor(Intelligence_Total / 20) * 0.02 * 100]%).\n\nTags: Energía crepitante, Daño, Inteligencia.",
+					"esMX": "Energía Crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de Energía Crepitante aumenta un x2% por 20 de la Inteligencia total que tengas. (Bonificación actual: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Energía Crepitante, Daño, Inteligencia.",
+					"frFR": "L'énergie crépitante a 25% de chances de ne pas consommer de charge lorsqu'elle est déclenchée. Les dégâts de l'énergie crépitante sont augmentés de x2% par tranche de 20 points d'intelligence que vous avez. (Bonus actuel: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Énergie crépitante, Dégâts, Intelligence.",
+					"itIT": "Energia Crepitante ha il 25% di probabilità di non consumare una carica quando viene utilizzata. I danni di Energia Crepitante sono aumentati del x2% per ogni 20 Intelligenza. (Bonus attuale: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Energia Crepitante, Danni, Intelligenza.",
+					"jaJP": "〈帯び出す電気〉発動時、25%の確率でチャージを消費しない。自分の合計知力20ごとに〈帯び出す電気〉のダメージがx2%増加する。(現在のボーナス: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: 帯び出す電気, ダメージ, 知力.",
+					"koKR": "짜릿한 에너지가 발동했을 때 25% 확률로 중첩이 소모되지 않습니다. 짜릿한 에너지가 주는 피해가 총 지능 20당 x2% 증가합니다. (현재 증가량: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: 짜릿한 에너지, 피해, 지능.",
+					"plPL": "Istnieje 25% szans na to, że aktywacja Roziskrzonej Energii nie zużyje ładunku. Obrażenia od Roziskrzonej Energii wzrastają o x2% za każde posiadane przez ciebie 20 pkt. inteligencji. (Aktualna premia: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Roziskrzona Energia, Obrażenia, Inteligencja.",
+					"ptBR": "Energia Crepitante tem 25% de chance de não consumir uma carga ao ser acionada. O dano de Energia Crepitante é aumentado em 2% por 20 de Inteligência total que você tiver (bônus atual: [floor(Intelligence_Total / 20) * 0.02 * 100]%).\n\nTags: Energia Crepitante, Dano, Inteligência.",
+					"ruRU": "Искрящийся заряд энергии с вероятностью 25% не поглощает заряд при активации. Урон от Искрящегося заряда энергии увеличивается на x2% за каждые 20 ед. интеллекта героя. (Текущий бонус: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Искрящийся заряд энергии, Урон, Интеллект.",
+					"zhCN": "爆裂电花有25%几率在触发时不消耗层数。你每拥有20点总智力,爆裂电花的伤害就提高x2%。(当前加成:x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: 爆裂电花, 伤害, 智力."
 				}
 			},
 			"Sorcerer_Legendary_009": {
@@ -33672,17 +33672,17 @@ let paragonData = {
 					"zhCN": "元素召唤师"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Beschwörungsfertigkeiten haben pro ausgerüsteter Beschwörungsfertigkeit um 10% verringerte Abklingzeiten oder Manakosten.\n\nTags: Conjuration, Mana, Cooldown.",
-					"esES": "Tus habilidades de evocación tienen un 10% menos de tiempo de reutilización o coste de maná por cada habilidad de evocación que tengas equipada.\n\nTags: Conjuration, Mana, Cooldown.",
-					"esMX": "Tus habilidades de Conjuración tienen un 10% de reducción de recuperación o costo de maná por habilidad de Conjuración que tengas equipada.\n\nTags: Conjuration, Mana, Cooldown.",
-					"frFR": "Vos compétences de conjuration ont un temps de recharge ou un coût de mana réduit de 10% par compétence de conjuration équipée.\n\nTags: Conjuration, Mana, Cooldown.",
-					"itIT": "Le tue abilità d'invocazione hanno un tempo di recupero o costo in mana ridotto del 10% per ogni abilità d'invocazione che hai equipaggiato.\n\nTags: Conjuration, Mana, Cooldown.",
-					"jaJP": "装備している召喚スキル1つごとに、召喚スキルのクールダウンとマナ消費量が10%減少する。\n\nTags: Conjuration, Mana, Cooldown.",
-					"koKR": "장착 중인 구현 기술 하나당 구현 기술들의 재사용 대기시간 또는 마나 소모량이 10% 감소합니다.\n\nTags: Conjuration, Mana, Cooldown.",
-					"plPL": "Czas odnowienia lub koszt many twoich umiejętności Przyzywania jest zmniejszony o 10% za każdą wyposażoną umiejętność Przyzywania.\n\nTags: Conjuration, Mana, Cooldown.",
-					"ptBR": "Suas habilidades de Conjuração têm redução 10% de recarga ou custo de mana por habilidade de Conjuração equipada.\n\nTags: Conjuration, Mana, Cooldown.",
-					"ruRU": "Сокращает время восстановления колдовских умений и расходы маны на их применение на 10% за каждое выбранное вами умение категории \"Колдовство\".\n\nTags: Conjuration, Mana, Cooldown.",
-					"zhCN": "每装备一个召唤魔法技能,你的召唤魔法技能的冷却时间或法力消耗就会降低10%。\n\nTags: Conjuration, Mana, Cooldown."
+					"deDE": "Eure Beschwörungsfertigkeiten haben pro ausgerüsteter Beschwörungsfertigkeit um 10% verringerte Abklingzeiten oder Manakosten.\n\nTags: Beschwörung, Mana, Abklingzeit.",
+					"esES": "Tus habilidades de evocación tienen un 10% menos de tiempo de reutilización o coste de maná por cada habilidad de evocación que tengas equipada.\n\nTags: Evocación, Maná, Tiempo de reutilización.",
+					"esMX": "Tus habilidades de Conjuración tienen un 10% de reducción de recuperación o costo de maná por habilidad de Conjuración que tengas equipada.\n\nTags: Conjuración, Maná, Recuperación.",
+					"frFR": "Vos compétences de conjuration ont un temps de recharge ou un coût de mana réduit de 10% par compétence de conjuration équipée.\n\nTags: Conjuration, Mana, Temps de recharge.",
+					"itIT": "Le tue abilità d'invocazione hanno un tempo di recupero o costo in mana ridotto del 10% per ogni abilità d'invocazione che hai equipaggiato.\n\nTags: Invocazione, Mana, Tempo di recupero.",
+					"jaJP": "装備している召喚スキル1つごとに、召喚スキルのクールダウンとマナ消費量が10%減少する。\n\nTags: 召喚, マナ, クールダウン.",
+					"koKR": "장착 중인 구현 기술 하나당 구현 기술들의 재사용 대기시간 또는 마나 소모량이 10% 감소합니다.\n\nTags: 구현, 마나, 재사용 대기시간.",
+					"plPL": "Czas odnowienia lub koszt many twoich umiejętności Przyzywania jest zmniejszony o 10% za każdą wyposażoną umiejętność Przyzywania.\n\nTags: Przyzywanie, Mana, Odnowienie.",
+					"ptBR": "Suas habilidades de Conjuração têm redução 10% de recarga ou custo de mana por habilidade de Conjuração equipada.\n\nTags: Conjuração, Mana, Recarga.",
+					"ruRU": "Сокращает время восстановления колдовских умений и расходы маны на их применение на 10% за каждое выбранное вами умение категории \"Колдовство\".\n\nTags: Колдовство, Мана, Время восстановления.",
+					"zhCN": "每装备一个召唤魔法技能,你的召唤魔法技能的冷却时间或法力消耗就会降低10%。\n\nTags: 召唤魔法, 法力, 冷却时间."
 				}
 			},
 			"Sorcerer_Legendary_012": {
@@ -33801,17 +33801,17 @@ let paragonData = {
 					"zhCN": "极度深寒"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Cold\n4% Unterkühlungsanwendung\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"esES": "+10% de daño de Cold\n4% de aplicación de helada\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"esMX": "+10% de daño de Cold\n4% de aplicación de helamiento\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"frFR": "+10% de dégâts de Cold\n4% d'application des effets glaçants\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"itIT": "Danni da Cold: +10%\nApplicazione di raggelamento: 4%\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"jaJP": "Cold ダメージ+10%\n冷気効果4%\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"koKR": "Cold 피해 +10%\n4%의 오한 적용\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"plPL": "+10% obrażeń typu: Cold\n4% stosowanego wyziębienia\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"ptBR": "+10% de dano de Cold\n+4% de bônus de gelidez\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"ruRU": "+10% к урону (Cold )\nВероятность вызвать окоченение – 4%\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control.",
-					"zhCN": "+10%Cold 伤害\n4%冻伤程度\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Cold, Damage, Chill, Crowd Control."
+					"deDE": "+10% Schaden des Typs Cold\n4% Unterkühlungsanwendung\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kälte, Schaden, Unterkühlen, Kontrollverlust.",
+					"esES": "+10% de daño de Cold\n4% de aplicación de helada\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Frío, Daño, Helada, Control de masas.",
+					"esMX": "+10% de daño de Cold\n4% de aplicación de helamiento\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Frío, Daño, Helar, Control de multitudes.",
+					"frFR": "+10% de dégâts de Cold\n4% d'application des effets glaçants\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Froid, Dégâts, Glace, Perte de contrôle.",
+					"itIT": "Danni da Cold: +10%\nApplicazione di raggelamento: 4%\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Freddo, Danni, Raggelamento, Effetti debilitanti.",
+					"jaJP": "Cold ダメージ+10%\n冷気効果4%\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: 冷気, ダメージ, 冷気, 操作障害効果.",
+					"koKR": "Cold 피해 +10%\n4%의 오한 적용\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: 냉기, 피해, 오한, 군중 제어.",
+					"plPL": "+10% obrażeń typu: Cold\n4% stosowanego wyziębienia\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Zimno, Obrażenia, Wyziębienie, Ograniczanie Kontroli.",
+					"ptBR": "+10% de dano de Cold\n+4% de bônus de gelidez\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Gelo, Dano, Gelidez, Controle de Grupo.",
+					"ruRU": "+10% к урону (Cold )\nВероятность вызвать окоченение – 4%\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Холод, Урон, Окоченение, Контроль.",
+					"zhCN": "+10%Cold 伤害\n4%冻伤程度\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: 冰霜, 伤害, 冻伤, 群控."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -33839,17 +33839,17 @@ let paragonData = {
 					"zhCN": "极地雾凇"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Chilled\n+4% nichtphysischer Schaden\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"esES": "+15% de daño a enemigos con el estado Chilled\n+4% de daño no físico\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"esMX": "+15% de daño a enemigos Chilled\n+4% de daño no físico\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Chilled »\n+4% de dégâts non physiques\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"itIT": "Danni ai nemici Chilled: +15%\nDanni non fisici: +4%\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"jaJP": "Chilled の敵へのダメージ+15%\n非物理ダメージ+4%\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"koKR": "Chilled 적에게 주는 피해 +15%\n비물리 피해 +4%\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Chilled\n+4% obrażeń niefizycznych\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"ptBR": "+15% de dano contra inimigos Chilled\n+4% de dano não físico\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Chilled \"\n+4% к нефизическому урону\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control.",
-					"zhCN": "+15%对Chilled 敌人的伤害\n+4%非物理伤害\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Chill, Damage, Crowd Control."
+					"deDE": "+15% Schaden gegen folgende Gegner: Chilled\n+4% nichtphysischer Schaden\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Nichtphysisch, Unterkühlen, Schaden, Kontrollverlust.",
+					"esES": "+15% de daño a enemigos con el estado Chilled\n+4% de daño no físico\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: No física, Helada, Daño, Control de masas.",
+					"esMX": "+15% de daño a enemigos Chilled\n+4% de daño no físico\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: No físico, Helar, Daño, Control de multitudes.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Chilled »\n+4% de dégâts non physiques\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts non physiques, Glace, Dégâts, Perte de contrôle.",
+					"itIT": "Danni ai nemici Chilled: +15%\nDanni non fisici: +4%\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Non fisico, Raggelamento, Danni, Effetti debilitanti.",
+					"jaJP": "Chilled の敵へのダメージ+15%\n非物理ダメージ+4%\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 冷気, ダメージ, 操作障害効果.",
+					"koKR": "Chilled 적에게 주는 피해 +15%\n비물리 피해 +4%\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 비물리, 오한, 피해, 군중 제어.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Chilled\n+4% obrażeń niefizycznych\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Niefizyczne, Wyziębienie, Obrażenia, Ograniczanie Kontroli.",
+					"ptBR": "+15% de dano contra inimigos Chilled\n+4% de dano não físico\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Não física, Gelidez, Dano, Controle de Grupo.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Chilled \"\n+4% к нефизическому урону\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Нефизический урон, Окоченение, Урон, Контроль.",
+					"zhCN": "+15%对Chilled 敌人的伤害\n+4%非物理伤害\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 冻伤, 伤害, 群控."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -33886,17 +33886,17 @@ let paragonData = {
 					"zhCN": "冻伤"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Cold\n+10 Intelligenz\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"esES": "12% de resistencia a Cold\n+10 p. de inteligencia\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"esMX": "12% de resistencia a Cold\n+10 de Inteligencia\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"frFR": "12% de résistance (Cold )\n+10 intelligence\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"itIT": "Resistenza Cold: 12%\nIntelligenza: +10\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"jaJP": "Cold 耐性12%\n知力+10\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"koKR": "Cold 저항 12%\n지능 +10\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"plPL": "12% odporności na Cold\n+10 inteligencji\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"ptBR": "12% de resistência a Cold\n+10 de Inteligência\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"ruRU": "Сопротивление типу урона \"Cold \" – 12%\n+10 к интеллекту\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold.",
-					"zhCN": "12%Cold 抗性\n+10点智力\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Intelligence, Cold."
+					"deDE": "12% Widerstand gegen: Cold\n+10 Intelligenz\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Intelligenz, Kälte.",
+					"esES": "12% de resistencia a Cold\n+10 p. de inteligencia\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Inteligencia, Frío.",
+					"esMX": "12% de resistencia a Cold\n+10 de Inteligencia\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Inteligencia, Frío.",
+					"frFR": "12% de résistance (Cold )\n+10 intelligence\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Intelligence, Froid.",
+					"itIT": "Resistenza Cold: 12%\nIntelligenza: +10\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Intelligenza, Freddo.",
+					"jaJP": "Cold 耐性12%\n知力+10\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 知力, 冷気.",
+					"koKR": "Cold 저항 12%\n지능 +10\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 지능, 냉기.",
+					"plPL": "12% odporności na Cold\n+10 inteligencji\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Inteligencja, Zimno.",
+					"ptBR": "12% de resistência a Cold\n+10 de Inteligência\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Inteligência, Gelo.",
+					"ruRU": "Сопротивление типу урона \"Cold \" – 12%\n+10 к интеллекту\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Интеллект, Холод.",
+					"zhCN": "12%Cold 抗性\n+10点智力\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 智力, 冰霜."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -33930,17 +33930,17 @@ let paragonData = {
 					"zhCN": "爆焰"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Fire\n+4% Schaden des Typs Fire über Zeit\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"esES": "+10% de daño de Fire\n+4% de daño de Fire en el tiempo\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"esMX": "+10% de daño de Fire\n+4% de daño con el tiempo de Fire\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"frFR": "+10% de dégâts de Fire\n+4% de dégâts de Fire sur la durée\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"itIT": "Danni da Fire: +10%\nDanni periodici da Fire: +4%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"jaJP": "Fire ダメージ+10%\nFire 継続ダメージ+4%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"koKR": "Fire 피해 +10%\n지속 Fire 피해 +4%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"plPL": "+10% obrażeń typu: Fire\n+4% obrażeń z upływem czasu typu: Fire\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"ptBR": "+10% de dano de Fire\n+4% de dano de Fire ao longo do tempo\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"ruRU": "+10% к урону (Fire )\n+4% к периодическому урону (Fire )\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage.",
-					"zhCN": "+10%Fire 伤害\n+4%Fire 持续性伤害\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Burn, Damage."
+					"deDE": "+10% Schaden des Typs Fire\n+4% Schaden des Typs Fire über Zeit\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Feuer, Verbrennung, Schaden.",
+					"esES": "+10% de daño de Fire\n+4% de daño de Fire en el tiempo\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuego, Quemadura, Daño.",
+					"esMX": "+10% de daño de Fire\n+4% de daño con el tiempo de Fire\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuego, Quemadura, Daño.",
+					"frFR": "+10% de dégâts de Fire\n+4% de dégâts de Fire sur la durée\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Feu, Brûlure, Dégâts.",
+					"itIT": "Danni da Fire: +10%\nDanni periodici da Fire: +4%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuoco, Bruciatura, Danni.",
+					"jaJP": "Fire ダメージ+10%\nFire 継続ダメージ+4%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 火炎, 炎上, ダメージ.",
+					"koKR": "Fire 피해 +10%\n지속 Fire 피해 +4%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 화염, 불태우기, 피해.",
+					"plPL": "+10% obrażeń typu: Fire\n+4% obrażeń z upływem czasu typu: Fire\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ogień, Podpalenie, Obrażenia.",
+					"ptBR": "+10% de dano de Fire\n+4% de dano de Fire ao longo do tempo\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fogo, Queimadura, Dano.",
+					"ruRU": "+10% к урону (Fire )\n+4% к периодическому урону (Fire )\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Огонь, Горение, Урон.",
+					"zhCN": "+10%Fire 伤害\n+4%Fire 持续性伤害\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 火焰, 燃烧, 伤害."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -33968,17 +33968,17 @@ let paragonData = {
 					"zhCN": "引火"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Burning betroffen sind\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"esES": "+10% de daño a enemigos en estado Burning\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"esMX": "+10% de daño a enemigos Burning\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"frFR": "+10% de dégâts contre les cibles sous l'effet « Burning »\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"itIT": "Danni ai nemici Burning: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"jaJP": "Burning の敵へのダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"koKR": "Burning 적에게 주는 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"plPL": "+10% obrażeń zadawanych wrogom typu: Burning\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"ptBR": "+10% de dano contra inimigos Burning\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"ruRU": "+10% к урону противникам под действием эффекта \"Burning \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage.",
-					"zhCN": "+10%对Burning 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Elite Monsters, Damage."
+					"deDE": "+10% Schaden gegen Gegner, die von Burning betroffen sind\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Elitemonster, Schaden.",
+					"esES": "+10% de daño a enemigos en estado Burning\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Enemigos de élite, Daño.",
+					"esMX": "+10% de daño a enemigos Burning\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Monstruos de Élite, Daño.",
+					"frFR": "+10% de dégâts contre les cibles sous l'effet « Burning »\n+6.7% de dégâts aux élites\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Monstres élites, Dégâts.",
+					"itIT": "Danni ai nemici Burning: +10%\nDanni a élite: +6.7%\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Mostri élite, Danni.",
+					"jaJP": "Burning の敵へのダメージ+10%\nエリートへのダメージ+6.7%\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, エリート・モンスター, ダメージ.",
+					"koKR": "Burning 적에게 주는 피해 +10%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 정예 괴물, 피해.",
+					"plPL": "+10% obrażeń zadawanych wrogom typu: Burning\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Elitarne Potwory, Obrażenia.",
+					"ptBR": "+10% de dano contra inimigos Burning\n+6.7% de dano contra elites\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Monstros de Elite, Dano.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Burning \"\n+6.7% к урону особым противникам\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Особые монстры, Урон.",
+					"zhCN": "+10%对Burning 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 精英怪物, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34009,17 +34009,17 @@ let paragonData = {
 					"zhCN": "烈焰之触"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Fire\n+10 Intelligenz\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"esES": "+10% de daño de Fire\n+10 p. de inteligencia\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"esMX": "+10% de daño de Fire\n+10 de Inteligencia\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"frFR": "+10% de dégâts de Fire\n+10 intelligence\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"itIT": "Danni da Fire: +10%\nIntelligenza: +10\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"jaJP": "Fire ダメージ+10%\n知力+10\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"koKR": "Fire 피해 +10%\n지능 +10\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"plPL": "+10% obrażeń typu: Fire\n+10 inteligencji\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"ptBR": "+10% de dano de Fire\n+10 de Inteligência\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"ruRU": "+10% к урону (Fire )\n+10 к интеллекту\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence.",
-					"zhCN": "+10%Fire 伤害\n+10点智力\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Damage, Intelligence."
+					"deDE": "+10% Schaden des Typs Fire\n+10 Intelligenz\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Feuer, Schaden, Intelligenz.",
+					"esES": "+10% de daño de Fire\n+10 p. de inteligencia\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuego, Daño, Inteligencia.",
+					"esMX": "+10% de daño de Fire\n+10 de Inteligencia\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuego, Daño, Inteligencia.",
+					"frFR": "+10% de dégâts de Fire\n+10 intelligence\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Feu, Dégâts, Intelligence.",
+					"itIT": "Danni da Fire: +10%\nIntelligenza: +10\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuoco, Danni, Intelligenza.",
+					"jaJP": "Fire ダメージ+10%\n知力+10\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 火炎, ダメージ, 知力.",
+					"koKR": "Fire 피해 +10%\n지능 +10\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 화염, 피해, 지능.",
+					"plPL": "+10% obrażeń typu: Fire\n+10 inteligencji\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ogień, Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano de Fire\n+10 de Inteligência\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fogo, Dano, Inteligência.",
+					"ruRU": "+10% к урону (Fire )\n+10 к интеллекту\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Огонь, Урон, Интеллект.",
+					"zhCN": "+10%Fire 伤害\n+10点智力\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 火焰, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34050,17 +34050,17 @@ let paragonData = {
 					"zhCN": "麻痹"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Stunned\n+6.4 max. Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"esES": "+15% de daño a enemigos con el estado Stunned\n+6.4 p. de máximo de Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"esMX": "+15% de daño a enemigos Stunned\n+6.4 de Mana como máximo\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Stunned »\n+6.4 |2%sMana maximum\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"itIT": "Danni ai nemici Stunned: +15%\nMana max: +6.4\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"jaJP": "Stunned の敵へのダメージ+15%\n最大Mana +6.4\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"koKR": "Stunned 적에게 주는 피해 +15%\n최대 Mana +6.4\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Stunned\n+6.4 maksimum: Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"ptBR": "+15% de dano contra inimigos Stunned\n+6.4 de máximo de Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Stunned \"\n+6.4 к максимуму ресурса \"Mana \"\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage.",
-					"zhCN": "+15%对Stunned 敌人的伤害\n+6.4最大Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Crowd Control, Damage."
+					"deDE": "+15% Schaden gegen folgende Gegner: Stunned\n+6.4 max. Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Kontrollverlust, Schaden.",
+					"esES": "+15% de daño a enemigos con el estado Stunned\n+6.4 p. de máximo de Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Maná, Control de masas, Daño.",
+					"esMX": "+15% de daño a enemigos Stunned\n+6.4 de Mana como máximo\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Maná, Control de multitudes, Daño.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Stunned »\n+6.4 |2%sMana maximum\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Perte de contrôle, Dégâts.",
+					"itIT": "Danni ai nemici Stunned: +15%\nMana max: +6.4\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Effetti debilitanti, Danni.",
+					"jaJP": "Stunned の敵へのダメージ+15%\n最大Mana +6.4\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: マナ, 操作障害効果, ダメージ.",
+					"koKR": "Stunned 적에게 주는 피해 +15%\n최대 Mana +6.4\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 마나, 군중 제어, 피해.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Stunned\n+6.4 maksimum: Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Ograniczanie Kontroli, Obrażenia.",
+					"ptBR": "+15% de dano contra inimigos Stunned\n+6.4 de máximo de Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mana, Controle de Grupo, Dano.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Stunned \"\n+6.4 к максимуму ресурса \"Mana \"\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Мана, Контроль, Урон.",
+					"zhCN": "+15%对Stunned 敌人的伤害\n+6.4最大Mana\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 法力, 群控, 伤害."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -34088,17 +34088,17 @@ let paragonData = {
 					"zhCN": "导电体"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Damage with Crackling Energy\n+4% Schaden des Typs Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"esES": "+16.7% Damage with Crackling Energy\n+4% de daño de Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"esMX": "+16.7% Damage with Crackling Energy\n+4% de daño de Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"frFR": "+16.7% Damage with Crackling Energy\n+4% de dégâts de Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"itIT": "+16.7% Damage with Crackling Energy\nDanni da Lightning: +4%\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"jaJP": "+16.7% Damage with Crackling Energy\nLightning ダメージ+4%\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"koKR": "+16.7% Damage with Crackling Energy\nLightning 피해 +4%\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"plPL": "+16.7% Damage with Crackling Energy\n+4% obrażeń typu: Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"ptBR": "+16.7% Damage with Crackling Energy\n+4% de dano de Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"ruRU": "+16.7% Damage with Crackling Energy\n+4% к урону (Lightning )\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage.",
-					"zhCN": "+16.7% Damage with Crackling Energy\n+4%Lightning 伤害\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Shock, Crackling Energy, Damage."
+					"deDE": "+16.7% Damage with Crackling Energy\n+4% Schaden des Typs Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Schock, Knisternde Energie, Schaden.",
+					"esES": "+16.7% Damage with Crackling Energy\n+4% de daño de Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Electrocución, Energía crepitante, Daño.",
+					"esMX": "+16.7% Damage with Crackling Energy\n+4% de daño de Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Choque, Energía Crepitante, Daño.",
+					"frFR": "+16.7% Damage with Crackling Energy\n+4% de dégâts de Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Foudre, Énergie crépitante, Dégâts.",
+					"itIT": "+16.7% Damage with Crackling Energy\nDanni da Lightning: +4%\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Folgore, Energia Crepitante, Danni.",
+					"jaJP": "+16.7% Damage with Crackling Energy\nLightning ダメージ+4%\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: 電撃, 帯び出す電気, ダメージ.",
+					"koKR": "+16.7% Damage with Crackling Energy\nLightning 피해 +4%\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: 감전, 짜릿한 에너지, 피해.",
+					"plPL": "+16.7% Damage with Crackling Energy\n+4% obrażeń typu: Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Porażenie, Roziskrzona Energia, Obrażenia.",
+					"ptBR": "+16.7% Damage with Crackling Energy\n+4% de dano de Lightning\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Choque, Energia Crepitante, Dano.",
+					"ruRU": "+16.7% Damage with Crackling Energy\n+4% к урону (Lightning )\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Шок, Искрящийся заряд энергии, Урон.",
+					"zhCN": "+16.7% Damage with Crackling Energy\n+4%Lightning 伤害\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: 电冲, 爆裂电花, 伤害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34132,17 +34132,17 @@ let paragonData = {
 					"zhCN": "伤残"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Stunned\n+10 Intelligenz\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"esES": "+15% de daño a enemigos con el estado Stunned\n+10 p. de inteligencia\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"esMX": "+15% de daño a enemigos Stunned\n+10 de Inteligencia\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Stunned »\n+10 intelligence\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"itIT": "Danni ai nemici Stunned: +15%\nIntelligenza: +10\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"jaJP": "Stunned の敵へのダメージ+15%\n知力+10\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"koKR": "Stunned 적에게 주는 피해 +15%\n지능 +10\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Stunned\n+10 inteligencji\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"ptBR": "+15% de dano contra inimigos Stunned\n+10 de Inteligência\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Stunned \"\n+10 к интеллекту\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence.",
-					"zhCN": "+15%对Stunned 敌人的伤害\n+10点智力\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Crowd Control, Damage, Intelligence."
+					"deDE": "+15% Schaden gegen folgende Gegner: Stunned\n+10 Intelligenz\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Kontrollverlust, Schaden, Intelligenz.",
+					"esES": "+15% de daño a enemigos con el estado Stunned\n+10 p. de inteligencia\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de masas, Daño, Inteligencia.",
+					"esMX": "+15% de daño a enemigos Stunned\n+10 de Inteligencia\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Control de multitudes, Daño, Inteligencia.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Stunned »\n+10 intelligence\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Perte de contrôle, Dégâts, Intelligence.",
+					"itIT": "Danni ai nemici Stunned: +15%\nIntelligenza: +10\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Effetti debilitanti, Danni, Intelligenza.",
+					"jaJP": "Stunned の敵へのダメージ+15%\n知力+10\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 操作障害効果, ダメージ, 知力.",
+					"koKR": "Stunned 적에게 주는 피해 +15%\n지능 +10\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 군중 제어, 피해, 지능.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Stunned\n+10 inteligencji\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Ograniczanie Kontroli, Obrażenia, Inteligencja.",
+					"ptBR": "+15% de dano contra inimigos Stunned\n+10 de Inteligência\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Controle de Grupo, Dano, Inteligência.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Stunned \"\n+10 к интеллекту\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Контроль, Урон, Интеллект.",
+					"zhCN": "+15%对Stunned 敌人的伤害\n+10点智力\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 群控, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34176,17 +34176,17 @@ let paragonData = {
 					"zhCN": "火焰守护者"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch Gegner, die von Burning betroffen sind\n12% Widerstand gegen: Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"esES": "4% de reducción de daño de enemigos en estado Burning\n12% de resistencia a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"esMX": "4% de reducción de daño de enemigos que están Burning\n12% de resistencia a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n12% de résistance (Fire )\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"itIT": "Riduzione danni subiti dai nemici Burning: 4%\nResistenza Fire: 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"jaJP": "Burning 状態の敵から受けるダメージ減少率4%\nFire 耐性12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"koKR": "Burning 적에게 받는 피해 감소 4%\nFire 저항 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"plPL": "4% redukcji obrażeń od wrogów w stanie: Burning\n12% odporności na Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"ptBR": "4% de redução de dano recebido de inimigos Burning\n12% de resistência a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"ruRU": "-4% к урону от противников под действием эффекта \"Burning \"\nСопротивление типу урона \"Fire \" – 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
-					"zhCN": "4%对Burning 敌人的伤害减免\n12%Fire 抗性\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance."
+					"deDE": "4% Reduktion von Schaden durch Gegner, die von Burning betroffen sind\n12% Widerstand gegen: Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schadensreduktion, Feuer, Widerstand.",
+					"esES": "4% de reducción de daño de enemigos en estado Burning\n12% de resistencia a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Fuego, Resistencia.",
+					"esMX": "4% de reducción de daño de enemigos que están Burning\n12% de resistencia a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Fuego, Resistencia.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n12% de résistance (Fire )\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Réduction des dégâts, Feu, Résistance.",
+					"itIT": "Riduzione danni subiti dai nemici Burning: 4%\nResistenza Fire: 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Riduzione danni, Fuoco, Resistenza.",
+					"jaJP": "Burning 状態の敵から受けるダメージ減少率4%\nFire 耐性12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ減少, 火炎, 耐性.",
+					"koKR": "Burning 적에게 받는 피해 감소 4%\nFire 저항 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해 감소, 화염, 저항.",
+					"plPL": "4% redukcji obrażeń od wrogów w stanie: Burning\n12% odporności na Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Redukcja Obrażeń, Ogień, Odporność.",
+					"ptBR": "4% de redução de dano recebido de inimigos Burning\n12% de resistência a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Redução de Dano, Fogo, Resistência.",
+					"ruRU": "-4% к урону от противников под действием эффекта \"Burning \"\nСопротивление типу урона \"Fire \" – 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Уменьшение урона, Огонь, Сопротивление.",
+					"zhCN": "4%对Burning 敌人的伤害减免\n12%Fire 抗性\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害减免, 火焰, 抗性."
 				},
 				"thresholdRequirements": {
 					"Sorcerer": [
@@ -34211,17 +34211,17 @@ let paragonData = {
 					"zhCN": "控电师"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Lightning\n+10 Intelligenz\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"esES": "12% de resistencia a Lightning\n+10 p. de inteligencia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"esMX": "12% de resistencia a Lightning\n+10 de Inteligencia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"frFR": "12% de résistance (Lightning )\n+10 intelligence\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"itIT": "Resistenza Lightning: 12%\nIntelligenza: +10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"jaJP": "Lightning 耐性12%\n知力+10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"koKR": "Lightning 저항 12%\n지능 +10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"plPL": "12% odporności na Lightning\n+10 inteligencji\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"ptBR": "12% de resistência a Lightning\n+10 de Inteligência\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"ruRU": "Сопротивление типу урона \"Lightning \" – 12%\n+10 к интеллекту\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence.",
-					"zhCN": "12%Lightning 抗性\n+10点智力\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Lightning, Resistance, Intelligence."
+					"deDE": "12% Widerstand gegen: Lightning\n+10 Intelligenz\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Blitz, Widerstand, Intelligenz.",
+					"esES": "12% de resistencia a Lightning\n+10 p. de inteligencia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Rayos, Resistencia, Inteligencia.",
+					"esMX": "12% de resistencia a Lightning\n+10 de Inteligencia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Rayo, Resistencia, Inteligencia.",
+					"frFR": "12% de résistance (Lightning )\n+10 intelligence\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Foudre, Résistance, Intelligence.",
+					"itIT": "Resistenza Lightning: 12%\nIntelligenza: +10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fulmine, Resistenza, Intelligenza.",
+					"jaJP": "Lightning 耐性12%\n知力+10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 稲妻, 耐性, 知力.",
+					"koKR": "Lightning 저항 12%\n지능 +10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 번개, 저항, 지능.",
+					"plPL": "12% odporności na Lightning\n+10 inteligencji\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Piorun, Odporność, Inteligencja.",
+					"ptBR": "12% de resistência a Lightning\n+10 de Inteligência\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Eletricidade, Resistência, Inteligência.",
+					"ruRU": "Сопротивление типу урона \"Lightning \" – 12%\n+10 к интеллекту\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Молния, Сопротивление, Интеллект.",
+					"zhCN": "12%Lightning 抗性\n+10点智力\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 闪电, 抗性, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34252,17 +34252,17 @@ let paragonData = {
 					"zhCN": "压迫"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n4% Reduktion von Schaden durch verwundbare Gegner\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"esES": "+10% Damage to Vulnerable Enemies\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n4% de réduction des dégâts infligés par les cibles vulnérables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nRiduzione danni da nemici vulnerabili: 4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n脆弱状態の敵からのダメージ減少率4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n취약한 적에 대한 피해 감소 4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n4% redukcji obrażeń od odsłoniętych wrogów\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n4% de redução de dano recebido de inimigos vulneráveis\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n-4% к урону от уязвимых противников\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n4%对易伤敌人的伤害减免\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction."
+					"deDE": "+10% Damage to Vulnerable Enemies\n4% Reduktion von Schaden durch verwundbare Gegner\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Schadensreduktion.",
+					"esES": "+10% Damage to Vulnerable Enemies\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
+					"esMX": "+10% Damage to Vulnerable Enemies\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
+					"frFR": "+10% Damage to Vulnerable Enemies\n4% de réduction des dégâts infligés par les cibles vulnérables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Réduction des dégâts.",
+					"itIT": "+10% Damage to Vulnerable Enemies\nRiduzione danni da nemici vulnerabili: 4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Riduzione danni.",
+					"jaJP": "+10% Damage to Vulnerable Enemies\n脆弱状態の敵からのダメージ減少率4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, ダメージ減少.",
+					"koKR": "+10% Damage to Vulnerable Enemies\n취약한 적에 대한 피해 감소 4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 피해 감소.",
+					"plPL": "+10% Damage to Vulnerable Enemies\n4% redukcji obrażeń od odsłoniętych wrogów\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Redukcja Obrażeń.",
+					"ptBR": "+10% Damage to Vulnerable Enemies\n4% de redução de dano recebido de inimigos vulneráveis\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Redução de Dano.",
+					"ruRU": "+10% Damage to Vulnerable Enemies\n-4% к урону от уязвимых противников\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Уменьшение урона.",
+					"zhCN": "+10% Damage to Vulnerable Enemies\n4%对易伤敌人的伤害减免\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 伤害减免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34296,17 +34296,17 @@ let paragonData = {
 					"zhCN": "闷燃余烬"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch Gegner, die von Burning betroffen sind\n+10 Intelligenz\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"esES": "4% de reducción de daño de enemigos en estado Burning\n+10 p. de inteligencia\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"esMX": "4% de reducción de daño de enemigos que están Burning\n+10 de Inteligencia\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n+10 intelligence\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"itIT": "Riduzione danni subiti dai nemici Burning: 4%\nIntelligenza: +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"jaJP": "Burning 状態の敵から受けるダメージ減少率4%\n知力+10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"koKR": "Burning 적에게 받는 피해 감소 4%\n지능 +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"plPL": "4% redukcji obrażeń od wrogów w stanie: Burning\n+10 inteligencji\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"ptBR": "4% de redução de dano recebido de inimigos Burning\n+10 de Inteligência\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"ruRU": "-4% к урону от противников под действием эффекта \"Burning \"\n+10 к интеллекту\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
-					"zhCN": "4%对Burning 敌人的伤害减免\n+10点智力\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence."
+					"deDE": "4% Reduktion von Schaden durch Gegner, die von Burning betroffen sind\n+10 Intelligenz\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schadensreduktion, Intelligenz.",
+					"esES": "4% de reducción de daño de enemigos en estado Burning\n+10 p. de inteligencia\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Inteligencia.",
+					"esMX": "4% de reducción de daño de enemigos que están Burning\n+10 de Inteligencia\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Inteligencia.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n+10 intelligence\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Réduction des dégâts, Intelligence.",
+					"itIT": "Riduzione danni subiti dai nemici Burning: 4%\nIntelligenza: +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Riduzione danni, Intelligenza.",
+					"jaJP": "Burning 状態の敵から受けるダメージ減少率4%\n知力+10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ減少, 知力.",
+					"koKR": "Burning 적에게 받는 피해 감소 4%\n지능 +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해 감소, 지능.",
+					"plPL": "4% redukcji obrażeń od wrogów w stanie: Burning\n+10 inteligencji\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Redukcja Obrażeń, Inteligencja.",
+					"ptBR": "4% de redução de dano recebido de inimigos Burning\n+10 de Inteligência\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Redução de Dano, Inteligência.",
+					"ruRU": "-4% к урону от противников под действием эффекта \"Burning \"\n+10 к интеллекту\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Уменьшение урона, Интеллект.",
+					"zhCN": "4%对Burning 敌人的伤害减免\n+10点智力\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害减免, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34340,17 +34340,17 @@ let paragonData = {
 					"zhCN": "寒冬守护者"
 				},
 				"descriptionLocalized": {
-					"deDE": "6% Reduktion von Schaden durch Gegner, die von Chilled betroffen sind\n12% Widerstand gegen: Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"esES": "6% de reducción de daño de enemigos en estado Chilled\n12% de resistencia a Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"esMX": "6% de reducción de daño de enemigos Chilled\n12% de resistencia a Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"frFR": "6% de réduction des dégâts infligés par les cibles sous l'effet « Chilled »\n12% de résistance (Cold )\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"itIT": "Riduzione danni subiti dai nemici Chilled: 6%\nResistenza Cold: 12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"jaJP": "Chilled の敵からのダメージ減少率6%\nCold 耐性12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"koKR": "Chilled 적에게 받는 피해 감소 6%\nCold 저항 12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"plPL": "6% redukcji obrażeń od wrogów: Chilled\n12% odporności na Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"ptBR": "6% de redução de dano recebido de inimigos sob Chilled\n12% de resistência a Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"ruRU": "-6% к урону от противников, находящихся под действием эффекта \"Chilled \"\nСопротивление типу урона \"Cold \" – 12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control.",
-					"zhCN": "6%Chilled 敌人伤害减免\n12%Cold 抗性\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Resistance, Cold, Crowd Control."
+					"deDE": "6% Reduktion von Schaden durch Gegner, die von Chilled betroffen sind\n12% Widerstand gegen: Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Unterkühlen, Schadensreduktion, Widerstand, Kälte, Kontrollverlust.",
+					"esES": "6% de reducción de daño de enemigos en estado Chilled\n12% de resistencia a Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Helada, Reducción de daño, Resistencia, Frío, Control de masas.",
+					"esMX": "6% de reducción de daño de enemigos Chilled\n12% de resistencia a Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Helar, Reducción de daño, Resistencia, Frío, Control de multitudes.",
+					"frFR": "6% de réduction des dégâts infligés par les cibles sous l'effet « Chilled »\n12% de résistance (Cold )\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Glace, Réduction des dégâts, Résistance, Froid, Perte de contrôle.",
+					"itIT": "Riduzione danni subiti dai nemici Chilled: 6%\nResistenza Cold: 12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Raggelamento, Riduzione danni, Resistenza, Freddo, Effetti debilitanti.",
+					"jaJP": "Chilled の敵からのダメージ減少率6%\nCold 耐性12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冷気, ダメージ減少, 耐性, 冷気, 操作障害効果.",
+					"koKR": "Chilled 적에게 받는 피해 감소 6%\nCold 저항 12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 오한, 피해 감소, 저항, 냉기, 군중 제어.",
+					"plPL": "6% redukcji obrażeń od wrogów: Chilled\n12% odporności na Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Wyziębienie, Redukcja Obrażeń, Odporność, Zimno, Ograniczanie Kontroli.",
+					"ptBR": "6% de redução de dano recebido de inimigos sob Chilled\n12% de resistência a Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gelidez, Redução de Dano, Resistência, Gelo, Controle de Grupo.",
+					"ruRU": "-6% к урону от противников, находящихся под действием эффекта \"Chilled \"\nСопротивление типу урона \"Cold \" – 12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Окоченение, Уменьшение урона, Сопротивление, Холод, Контроль.",
+					"zhCN": "6%Chilled 敌人伤害减免\n12%Cold 抗性\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冻伤, 伤害减免, 抗性, 冰霜, 群控."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34384,17 +34384,17 @@ let paragonData = {
 					"zhCN": "元素平衡"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% nichtphysischer Schaden\n+10 Intelligenz\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"esES": "+10% de daño no físico\n+10 p. de inteligencia\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"esMX": "+10% de daño no físico\n+10 de Inteligencia\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"frFR": "+10% de dégâts non physiques\n+10 intelligence\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"itIT": "Danni non fisici: +10%\nIntelligenza: +10\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"jaJP": "非物理ダメージ+10%\n知力+10\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"koKR": "비물리 피해 +10%\n지능 +10\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"plPL": "+10% obrażeń niefizycznych\n+10 inteligencji\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"ptBR": "+10% de dano não físico\n+10 de Inteligência\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"ruRU": "+10% к нефизическому урону\n+10 к интеллекту\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence.",
-					"zhCN": "+10%非物理伤害\n+10点智力\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Intelligence."
+					"deDE": "+10% nichtphysischer Schaden\n+10 Intelligenz\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nichtphysisch, Schaden, Intelligenz.",
+					"esES": "+10% de daño no físico\n+10 p. de inteligencia\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: No física, Daño, Inteligencia.",
+					"esMX": "+10% de daño no físico\n+10 de Inteligencia\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: No físico, Daño, Inteligencia.",
+					"frFR": "+10% de dégâts non physiques\n+10 intelligence\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts non physiques, Dégâts, Intelligence.",
+					"itIT": "Danni non fisici: +10%\nIntelligenza: +10\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non fisico, Danni, Intelligenza.",
+					"jaJP": "非物理ダメージ+10%\n知力+10\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, ダメージ, 知力.",
+					"koKR": "비물리 피해 +10%\n지능 +10\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 비물리, 피해, 지능.",
+					"plPL": "+10% obrażeń niefizycznych\n+10 inteligencji\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Niefizyczne, Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano não físico\n+10 de Inteligência\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Não física, Dano, Inteligência.",
+					"ruRU": "+10% к нефизическому урону\n+10 к интеллекту\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Нефизический урон, Урон, Интеллект.",
+					"zhCN": "+10%非物理伤害\n+10点智力\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34428,17 +34428,17 @@ let paragonData = {
 					"zhCN": "元素守护者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% nichtphysischer Schaden\n4% Widerstand gegen alle Schadensarten\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"esES": "+10% de daño no físico\n4% de resistencia a todos los elementos\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"esMX": "+10% de daño no físico\n4% de resistencia a todos los elementos\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"frFR": "+10% de dégâts non physiques\n4% de résistance à tous les éléments\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"itIT": "Danni non fisici: +10%\nResistenza a tutti gli elementi: 4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"jaJP": "非物理ダメージ+10%\n全属性耐性4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"koKR": "비물리 피해 +10%\n모든 원소 저항 4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"plPL": "+10% obrażeń niefizycznych\n4% odporności na wszystkie żywioły\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"ptBR": "+10% de dano não físico\n4% de resistência a todos os elementos\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"ruRU": "+10% к нефизическому урону\nСопротивление стихиям – 4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance.",
-					"zhCN": "+10%非物理伤害\n4%全元素抗性\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non-Physical, Damage, Resistance."
+					"deDE": "+10% nichtphysischer Schaden\n4% Widerstand gegen alle Schadensarten\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Nichtphysisch, Schaden, Widerstand.",
+					"esES": "+10% de daño no físico\n4% de resistencia a todos los elementos\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: No física, Daño, Resistencia.",
+					"esMX": "+10% de daño no físico\n4% de resistencia a todos los elementos\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: No físico, Daño, Resistencia.",
+					"frFR": "+10% de dégâts non physiques\n4% de résistance à tous les éléments\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts non physiques, Dégâts, Résistance.",
+					"itIT": "Danni non fisici: +10%\nResistenza a tutti gli elementi: 4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Non fisico, Danni, Resistenza.",
+					"jaJP": "非物理ダメージ+10%\n全属性耐性4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, ダメージ, 耐性.",
+					"koKR": "비물리 피해 +10%\n모든 원소 저항 4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 비물리, 피해, 저항.",
+					"plPL": "+10% obrażeń niefizycznych\n4% odporności na wszystkie żywioły\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Niefizyczne, Obrażenia, Odporność.",
+					"ptBR": "+10% de dano não físico\n4% de resistência a todos os elementos\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Não física, Dano, Resistência.",
+					"ruRU": "+10% к нефизическому урону\nСопротивление стихиям – 4%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Нефизический урон, Урон, Сопротивление.",
+					"zhCN": "+10%非物理伤害\n4%全元素抗性\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 伤害, 抗性."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -34466,17 +34466,17 @@ let paragonData = {
 					"zhCN": "能量爆溢"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Stunned\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"esES": "+15% de daño a enemigos con el estado Stunned\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"esMX": "+15% de daño a enemigos Stunned\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Stunned »\n+6.7% de dégâts aux élites\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"itIT": "Danni ai nemici Stunned: +15%\nDanni a élite: +6.7%\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"jaJP": "Stunned の敵へのダメージ+15%\nエリートへのダメージ+6.7%\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"koKR": "Stunned 적에게 주는 피해 +15%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Stunned\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"ptBR": "+15% de dano contra inimigos Stunned\n+6.7% de dano contra elites\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Stunned \"\n+6.7% к урону особым противникам\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control.",
-					"zhCN": "+15%对Stunned 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elite Monsters, Damage, Crowd Control."
+					"deDE": "+15% Schaden gegen folgende Gegner: Stunned\n+6.7% Schaden gegen Elitegegner\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elitemonster, Schaden, Kontrollverlust.",
+					"esES": "+15% de daño a enemigos con el estado Stunned\n+6.7% de daño contra enemigos de élite\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Enemigos de élite, Daño, Control de masas.",
+					"esMX": "+15% de daño a enemigos Stunned\n+6.7% de daño a enemigos de Élite\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Monstruos de Élite, Daño, Control de multitudes.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Stunned »\n+6.7% de dégâts aux élites\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Monstres élites, Dégâts, Perte de contrôle.",
+					"itIT": "Danni ai nemici Stunned: +15%\nDanni a élite: +6.7%\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Mostri élite, Danni, Effetti debilitanti.",
+					"jaJP": "Stunned の敵へのダメージ+15%\nエリートへのダメージ+6.7%\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: エリート・モンスター, ダメージ, 操作障害効果.",
+					"koKR": "Stunned 적에게 주는 피해 +15%\n정예에게 주는 피해 +6.7%\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 정예 괴물, 피해, 군중 제어.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Stunned\n+6.7% obrażeń zadawanych elitarnym wrogom\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Elitarne Potwory, Obrażenia, Ograniczanie Kontroli.",
+					"ptBR": "+15% de dano contra inimigos Stunned\n+6.7% de dano contra elites\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Monstros de Elite, Dano, Controle de Grupo.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Stunned \"\n+6.7% к урону особым противникам\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Особые монстры, Урон, Контроль.",
+					"zhCN": "+15%对Stunned 敌人的伤害\n+6.7%对精英的伤害\n\nBonus: Another +15% Damage to Stunned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 伤害, 群控."
 				},
 				"thresholdRequirements": {
 					"Sorcerer": [
@@ -34501,17 +34501,17 @@ let paragonData = {
 					"zhCN": "灰烬"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Fire\n+10 Intelligenz\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"esES": "12% de resistencia a Fire\n+10 p. de inteligencia\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"esMX": "12% de resistencia a Fire\n+10 de Inteligencia\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"frFR": "12% de résistance (Fire )\n+10 intelligence\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"itIT": "Resistenza Fire: 12%\nIntelligenza: +10\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"jaJP": "Fire 耐性12%\n知力+10\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"koKR": "Fire 저항 12%\n지능 +10\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"plPL": "12% odporności na Fire\n+10 inteligencji\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"ptBR": "12% de resistência a Fire\n+10 de Inteligência\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"ruRU": "Сопротивление типу урона \"Fire \" – 12%\n+10 к интеллекту\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence.",
-					"zhCN": "12%Fire 抗性\n+10点智力\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Resistance, Intelligence."
+					"deDE": "12% Widerstand gegen: Fire\n+10 Intelligenz\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Feuer, Widerstand, Intelligenz.",
+					"esES": "12% de resistencia a Fire\n+10 p. de inteligencia\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fuego, Resistencia, Inteligencia.",
+					"esMX": "12% de resistencia a Fire\n+10 de Inteligencia\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fuego, Resistencia, Inteligencia.",
+					"frFR": "12% de résistance (Fire )\n+10 intelligence\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Feu, Résistance, Intelligence.",
+					"itIT": "Resistenza Fire: 12%\nIntelligenza: +10\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fuoco, Resistenza, Intelligenza.",
+					"jaJP": "Fire 耐性12%\n知力+10\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 火炎, 耐性, 知力.",
+					"koKR": "Fire 저항 12%\n지능 +10\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 화염, 저항, 지능.",
+					"plPL": "12% odporności na Fire\n+10 inteligencji\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Ogień, Odporność, Inteligencja.",
+					"ptBR": "12% de resistência a Fire\n+10 de Inteligência\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fogo, Resistência, Inteligência.",
+					"ruRU": "Сопротивление типу урона \"Fire \" – 12%\n+10 к интеллекту\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Огонь, Сопротивление, Интеллект.",
+					"zhCN": "12%Fire 抗性\n+10点智力\n\nBonus: Another 12% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 火焰, 抗性, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34545,17 +34545,17 @@ let paragonData = {
 					"zhCN": "爆燃"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden des Typs Fire\n+6% kritischer Trefferschaden\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"esES": "+10% de daño de Fire\n+6% de daño de golpe crítico\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"esMX": "+10% de daño de Fire\n+6% de daño de golpe crítico\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"frFR": "+10% de dégâts de Fire\n+6% de dégâts critiques\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"itIT": "Danni da Fire: +10%\nDanni critici: +6%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"jaJP": "Fire ダメージ+10%\nクリティカル・ダメージ+6%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"koKR": "Fire 피해 +10%\n극대화 피해 +6%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"plPL": "+10% obrażeń typu: Fire\n+6% obrażeń od trafień krytycznych\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"ptBR": "+10% de dano de Fire\n+6% de dano de acerto crítico\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"ruRU": "+10% к урону (Fire )\n+6% к критическому урону\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage.",
-					"zhCN": "+10%Fire 伤害\n+6%暴击伤害\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fire, Critical Strikes, Damage."
+					"deDE": "+10% Schaden des Typs Fire\n+6% kritischer Trefferschaden\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Feuer, Kritische Treffer, Schaden.",
+					"esES": "+10% de daño de Fire\n+6% de daño de golpe crítico\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuego, Golpes críticos, Daño.",
+					"esMX": "+10% de daño de Fire\n+6% de daño de golpe crítico\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuego, Golpes críticos, Daño.",
+					"frFR": "+10% de dégâts de Fire\n+6% de dégâts critiques\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Feu, Coups critiques, Dégâts.",
+					"itIT": "Danni da Fire: +10%\nDanni critici: +6%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fuoco, Colpi critici, Danni.",
+					"jaJP": "Fire ダメージ+10%\nクリティカル・ダメージ+6%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 火炎, 致命の一撃, ダメージ.",
+					"koKR": "Fire 피해 +10%\n극대화 피해 +6%\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 화염, 극대화, 피해.",
+					"plPL": "+10% obrażeń typu: Fire\n+6% obrażeń od trafień krytycznych\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ogień, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+10% de dano de Fire\n+6% de dano de acerto crítico\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fogo, Acertos Críticos, Dano.",
+					"ruRU": "+10% к урону (Fire )\n+6% к критическому урону\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: Огонь, Критические удары, Урон.",
+					"zhCN": "+10%Fire 伤害\n+6%暴击伤害\n\nBonus: Another +10% Fire Damage if requirements met:\n{thresholdRequirements}\n\nTags: 火焰, 暴击, 伤害."
 				},
 				"thresholdRequirements": {
 					"Sorcerer": [
@@ -34580,17 +34580,17 @@ let paragonData = {
 					"zhCN": "余烬"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Burning betroffen sind\n+10 Intelligenz\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"esES": "+10% de daño a enemigos en estado Burning\n+10 p. de inteligencia\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"esMX": "+10% de daño a enemigos Burning\n+10 de Inteligencia\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"frFR": "+10% de dégâts contre les cibles sous l'effet « Burning »\n+10 intelligence\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"itIT": "Danni ai nemici Burning: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"jaJP": "Burning の敵へのダメージ+10%\n知力+10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"koKR": "Burning 적에게 주는 피해 +10%\n지능 +10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"plPL": "+10% obrażeń zadawanych wrogom typu: Burning\n+10 inteligencji\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"ptBR": "+10% de dano contra inimigos Burning\n+10 de Inteligência\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"ruRU": "+10% к урону противникам под действием эффекта \"Burning \"\n+10 к интеллекту\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
-					"zhCN": "+10%对Burning 敌人的伤害\n+10点智力\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence."
+					"deDE": "+10% Schaden gegen Gegner, die von Burning betroffen sind\n+10 Intelligenz\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schaden, Intelligenz.",
+					"esES": "+10% de daño a enemigos en estado Burning\n+10 p. de inteligencia\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Daño, Inteligencia.",
+					"esMX": "+10% de daño a enemigos Burning\n+10 de Inteligencia\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Daño, Inteligencia.",
+					"frFR": "+10% de dégâts contre les cibles sous l'effet « Burning »\n+10 intelligence\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Dégâts, Intelligence.",
+					"itIT": "Danni ai nemici Burning: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Danni, Intelligenza.",
+					"jaJP": "Burning の敵へのダメージ+10%\n知力+10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ, 知力.",
+					"koKR": "Burning 적에게 주는 피해 +10%\n지능 +10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해, 지능.",
+					"plPL": "+10% obrażeń zadawanych wrogom typu: Burning\n+10 inteligencji\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano contra inimigos Burning\n+10 de Inteligência\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Dano, Inteligência.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Burning \"\n+10 к интеллекту\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Урон, Интеллект.",
+					"zhCN": "+10%对Burning 敌人的伤害\n+10点智力\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34621,17 +34621,17 @@ let paragonData = {
 					"zhCN": "冰霜"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden gegen folgende Gegner: Chilled\n+10 Intelligenz\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"esES": "+15% de daño a enemigos con el estado Chilled\n+10 p. de inteligencia\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"esMX": "+15% de daño a enemigos Chilled\n+10 de Inteligencia\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"frFR": "+15% de dégâts contre les cibles sous l'effet « Chilled »\n+10 intelligence\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"itIT": "Danni ai nemici Chilled: +15%\nIntelligenza: +10\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"jaJP": "Chilled の敵へのダメージ+15%\n知力+10\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"koKR": "Chilled 적에게 주는 피해 +15%\n지능 +10\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"plPL": "+15% obrażeń zadawanych wrogom typu: Chilled\n+10 inteligencji\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"ptBR": "+15% de dano contra inimigos Chilled\n+10 de Inteligência\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"ruRU": "+15% к урону противникам под действием эффекта \"Chilled \"\n+10 к интеллекту\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control.",
-					"zhCN": "+15%对Chilled 敌人的伤害\n+10点智力\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage, Intelligence, Crowd Control."
+					"deDE": "+15% Schaden gegen folgende Gegner: Chilled\n+10 Intelligenz\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Unterkühlen, Schaden, Intelligenz, Kontrollverlust.",
+					"esES": "+15% de daño a enemigos con el estado Chilled\n+10 p. de inteligencia\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Helada, Daño, Inteligencia, Control de masas.",
+					"esMX": "+15% de daño a enemigos Chilled\n+10 de Inteligencia\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Helar, Daño, Inteligencia, Control de multitudes.",
+					"frFR": "+15% de dégâts contre les cibles sous l'effet « Chilled »\n+10 intelligence\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Glace, Dégâts, Intelligence, Perte de contrôle.",
+					"itIT": "Danni ai nemici Chilled: +15%\nIntelligenza: +10\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Raggelamento, Danni, Intelligenza, Effetti debilitanti.",
+					"jaJP": "Chilled の敵へのダメージ+15%\n知力+10\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冷気, ダメージ, 知力, 操作障害効果.",
+					"koKR": "Chilled 적에게 주는 피해 +15%\n지능 +10\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 오한, 피해, 지능, 군중 제어.",
+					"plPL": "+15% obrażeń zadawanych wrogom typu: Chilled\n+10 inteligencji\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Wyziębienie, Obrażenia, Inteligencja, Ograniczanie Kontroli.",
+					"ptBR": "+15% de dano contra inimigos Chilled\n+10 de Inteligência\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gelidez, Dano, Inteligência, Controle de Grupo.",
+					"ruRU": "+15% к урону противникам под действием эффекта \"Chilled \"\n+10 к интеллекту\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Окоченение, Урон, Интеллект, Контроль.",
+					"zhCN": "+15%对Chilled 敌人的伤害\n+10点智力\n\nBonus: Another +15% Damage to Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冻伤, 伤害, 智力, 群控."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34662,17 +34662,17 @@ let paragonData = {
 					"zhCN": "电能触媒"
 				},
 				"descriptionLocalized": {
-					"deDE": "+16.7% Damage with Crackling Energy\n+10 Intelligenz\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"esES": "+16.7% Damage with Crackling Energy\n+10 p. de inteligencia\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"esMX": "+16.7% Damage with Crackling Energy\n+10 de Inteligencia\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"frFR": "+16.7% Damage with Crackling Energy\n+10 intelligence\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"itIT": "+16.7% Damage with Crackling Energy\nIntelligenza: +10\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"jaJP": "+16.7% Damage with Crackling Energy\n知力+10\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"koKR": "+16.7% Damage with Crackling Energy\n지능 +10\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"plPL": "+16.7% Damage with Crackling Energy\n+10 inteligencji\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"ptBR": "+16.7% Damage with Crackling Energy\n+10 de Inteligência\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"ruRU": "+16.7% Damage with Crackling Energy\n+10 к интеллекту\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence.",
-					"zhCN": "+16.7% Damage with Crackling Energy\n+10点智力\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Crackling Energy, Damage, Intelligence."
+					"deDE": "+16.7% Damage with Crackling Energy\n+10 Intelligenz\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Knisternde Energie, Schaden, Intelligenz.",
+					"esES": "+16.7% Damage with Crackling Energy\n+10 p. de inteligencia\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Energía crepitante, Daño, Inteligencia.",
+					"esMX": "+16.7% Damage with Crackling Energy\n+10 de Inteligencia\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Energía Crepitante, Daño, Inteligencia.",
+					"frFR": "+16.7% Damage with Crackling Energy\n+10 intelligence\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Énergie crépitante, Dégâts, Intelligence.",
+					"itIT": "+16.7% Damage with Crackling Energy\nIntelligenza: +10\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Energia Crepitante, Danni, Intelligenza.",
+					"jaJP": "+16.7% Damage with Crackling Energy\n知力+10\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: 帯び出す電気, ダメージ, 知力.",
+					"koKR": "+16.7% Damage with Crackling Energy\n지능 +10\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: 짜릿한 에너지, 피해, 지능.",
+					"plPL": "+16.7% Damage with Crackling Energy\n+10 inteligencji\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Roziskrzona Energia, Obrażenia, Inteligencja.",
+					"ptBR": "+16.7% Damage with Crackling Energy\n+10 de Inteligência\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Energia Crepitante, Dano, Inteligência.",
+					"ruRU": "+16.7% Damage with Crackling Energy\n+10 к интеллекту\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: Искрящийся заряд энергии, Урон, Интеллект.",
+					"zhCN": "+16.7% Damage with Crackling Energy\n+10点智力\n\nBonus: Another +16.7% Damage with Crackling Energy if requirements met:\n{thresholdRequirements}\n\nTags: 爆裂电花, 伤害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34706,17 +34706,17 @@ let paragonData = {
 					"zhCN": "僵冻"
 				},
 				"descriptionLocalized": {
-					"deDE": "6% Reduktion von Schaden durch Gegner, die von Chilled betroffen sind\n+10 Intelligenz\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"esES": "6% de reducción de daño de enemigos en estado Chilled\n+10 p. de inteligencia\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"esMX": "6% de reducción de daño de enemigos Chilled\n+10 de Inteligencia\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"frFR": "6% de réduction des dégâts infligés par les cibles sous l'effet « Chilled »\n+10 intelligence\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"itIT": "Riduzione danni subiti dai nemici Chilled: 6%\nIntelligenza: +10\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"jaJP": "Chilled の敵からのダメージ減少率6%\n知力+10\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"koKR": "Chilled 적에게 받는 피해 감소 6%\n지능 +10\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"plPL": "6% redukcji obrażeń od wrogów: Chilled\n+10 inteligencji\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"ptBR": "6% de redução de dano recebido de inimigos sob Chilled\n+10 de Inteligência\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"ruRU": "-6% к урону от противников, находящихся под действием эффекта \"Chilled \"\n+10 к интеллекту\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control.",
-					"zhCN": "6%Chilled 敌人伤害减免\n+10点智力\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Chill, Damage Reduction, Intelligence, Crowd Control."
+					"deDE": "6% Reduktion von Schaden durch Gegner, die von Chilled betroffen sind\n+10 Intelligenz\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Unterkühlen, Schadensreduktion, Intelligenz, Kontrollverlust.",
+					"esES": "6% de reducción de daño de enemigos en estado Chilled\n+10 p. de inteligencia\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Helada, Reducción de daño, Inteligencia, Control de masas.",
+					"esMX": "6% de reducción de daño de enemigos Chilled\n+10 de Inteligencia\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Helar, Reducción de daño, Inteligencia, Control de multitudes.",
+					"frFR": "6% de réduction des dégâts infligés par les cibles sous l'effet « Chilled »\n+10 intelligence\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Glace, Réduction des dégâts, Intelligence, Perte de contrôle.",
+					"itIT": "Riduzione danni subiti dai nemici Chilled: 6%\nIntelligenza: +10\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Raggelamento, Riduzione danni, Intelligenza, Effetti debilitanti.",
+					"jaJP": "Chilled の敵からのダメージ減少率6%\n知力+10\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冷気, ダメージ減少, 知力, 操作障害効果.",
+					"koKR": "Chilled 적에게 받는 피해 감소 6%\n지능 +10\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 오한, 피해 감소, 지능, 군중 제어.",
+					"plPL": "6% redukcji obrażeń od wrogów: Chilled\n+10 inteligencji\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Wyziębienie, Redukcja Obrażeń, Inteligencja, Ograniczanie Kontroli.",
+					"ptBR": "6% de redução de dano recebido de inimigos sob Chilled\n+10 de Inteligência\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gelidez, Redução de Dano, Inteligência, Controle de Grupo.",
+					"ruRU": "-6% к урону от противников, находящихся под действием эффекта \"Chilled \"\n+10 к интеллекту\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Окоченение, Уменьшение урона, Интеллект, Контроль.",
+					"zhCN": "6%Chilled 敌人伤害减免\n+10点智力\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冻伤, 伤害减免, 智力, 群控."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34750,17 +34750,17 @@ let paragonData = {
 					"zhCN": "咒术师"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% Schaden für Fertigkeiten der Kategorie Beschwörung\n+10 Intelligenz\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"esES": "+15% de daño de habilidades de Evocación\n+10 p. de inteligencia\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"esMX": "+15% de daño de habilidad Conjuración\n+10 de Inteligencia\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"frFR": "+15% de dégâts de compétence (Conjuration )\n+10 intelligence\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"itIT": "Danni abilità di Invocazione: +15%\nIntelligenza: +10\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"jaJP": "スキルダメージ+15% 召喚\n知力+10\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"koKR": "구현 기술 피해 +15%\n지능 +10\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"plPL": "+15% obrażeń od umiejętności (Przyzywanie )\n+10 inteligencji\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"ptBR": "+15% de dano de habilidade Conjuração\n+10 de Inteligência\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"ruRU": "+15% к урону от умений категории \"Колдовство \"\n+10 к интеллекту\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence.",
-					"zhCN": "+15%召唤魔法 技能伤害\n+10点智力\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Conjuration, Intelligence."
+					"deDE": "+15% Schaden für Fertigkeiten der Kategorie Beschwörung\n+10 Intelligenz\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Beschwörung, Intelligenz.",
+					"esES": "+15% de daño de habilidades de Evocación\n+10 p. de inteligencia\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Evocación, Inteligencia.",
+					"esMX": "+15% de daño de habilidad Conjuración\n+10 de Inteligencia\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Conjuración, Inteligencia.",
+					"frFR": "+15% de dégâts de compétence (Conjuration )\n+10 intelligence\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Conjuration, Intelligence.",
+					"itIT": "Danni abilità di Invocazione: +15%\nIntelligenza: +10\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Invocazione, Intelligenza.",
+					"jaJP": "スキルダメージ+15% 召喚\n知力+10\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 召喚, 知力.",
+					"koKR": "구현 기술 피해 +15%\n지능 +10\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 구현, 지능.",
+					"plPL": "+15% obrażeń od umiejętności (Przyzywanie )\n+10 inteligencji\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Przyzywanie, Inteligencja.",
+					"ptBR": "+15% de dano de habilidade Conjuração\n+10 de Inteligência\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Conjuração, Inteligência.",
+					"ruRU": "+15% к урону от умений категории \"Колдовство \"\n+10 к интеллекту\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Колдовство, Интеллект.",
+					"zhCN": "+15%召唤魔法 技能伤害\n+10点智力\n\nBonus: Another +15% Conjuration Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 召唤魔法, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34794,17 +34794,17 @@ let paragonData = {
 					"zhCN": "阻御"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Widerstand gegen alle Schadensarten\n+100 Rüstung\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"esES": "4% de resistencia a todos los elementos\n+100 p. de armadura\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"esMX": "4% de resistencia a todos los elementos\n+100 de armadura\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"frFR": "4% de résistance à tous les éléments\n+100 à l'armure\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"itIT": "Resistenza a tutti gli elementi: 4%\nArmatura: +100\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"jaJP": "全属性耐性4%\nアーマー+100\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"koKR": "모든 원소 저항 4%\n방어도 +100\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"plPL": "4% odporności na wszystkie żywioły\n+100 pancerza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"ptBR": "4% de resistência a todos os elementos\n+100 de armadura\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"ruRU": "Сопротивление стихиям – 4%\n+100 ед. брони\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical.",
-					"zhCN": "4%全元素抗性\n+100 护甲值\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Armor, Non-Physical."
+					"deDE": "4% Widerstand gegen alle Schadensarten\n+100 Rüstung\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Rüstung, Nichtphysisch.",
+					"esES": "4% de resistencia a todos los elementos\n+100 p. de armadura\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Armadura, No física.",
+					"esMX": "4% de resistencia a todos los elementos\n+100 de armadura\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Armadura, No físico.",
+					"frFR": "4% de résistance à tous les éléments\n+100 à l'armure\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Armure, Dégâts non physiques.",
+					"itIT": "Resistenza a tutti gli elementi: 4%\nArmatura: +100\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Armatura, Non fisico.",
+					"jaJP": "全属性耐性4%\nアーマー+100\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 装甲, 非物理.",
+					"koKR": "모든 원소 저항 4%\n방어도 +100\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 방어도, 비물리.",
+					"plPL": "4% odporności na wszystkie żywioły\n+100 pancerza\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Pancerz, Niefizyczne.",
+					"ptBR": "4% de resistência a todos os elementos\n+100 de armadura\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Armadura, Não física.",
+					"ruRU": "Сопротивление стихиям – 4%\n+100 ед. брони\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Броня, Нефизический урон.",
+					"zhCN": "4%全元素抗性\n+100 护甲值\n\nBonus: Another 4% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 护甲, 非物理."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34841,17 +34841,17 @@ let paragonData = {
 					"zhCN": "警觉"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% Reduktion von Schaden durch verwundbare Gegner\n12% Widerstand gegen: Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"esES": "4% de reducción de daño de enemigos vulnerables\n12% de resistencia a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"esMX": "4% de reducción de daño de enemigos vulnerables\n12% de resistencia a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n12% de résistance (Cold )\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nResistenza Cold: 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"jaJP": "脆弱状態の敵からのダメージ減少率4%\nCold 耐性12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"koKR": "취약한 적에 대한 피해 감소 4%\nCold 저항 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n12% odporności na Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n12% de resistência a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"ruRU": "-4% к урону от уязвимых противников\nСопротивление типу урона \"Cold \" – 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
-					"zhCN": "4%对易伤敌人的伤害减免\n12%Cold 抗性\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance."
+					"deDE": "4% Reduktion von Schaden durch verwundbare Gegner\n12% Widerstand gegen: Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schadensreduktion, Kälte, Widerstand.",
+					"esES": "4% de reducción de daño de enemigos vulnerables\n12% de resistencia a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Frío, Resistencia.",
+					"esMX": "4% de reducción de daño de enemigos vulnerables\n12% de resistencia a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Frío, Resistencia.",
+					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n12% de résistance (Cold )\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Réduction des dégâts, Froid, Résistance.",
+					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nResistenza Cold: 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Riduzione danni, Freddo, Resistenza.",
+					"jaJP": "脆弱状態の敵からのダメージ減少率4%\nCold 耐性12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ減少, 冷気, 耐性.",
+					"koKR": "취약한 적에 대한 피해 감소 4%\nCold 저항 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해 감소, 냉기, 저항.",
+					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n12% odporności na Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Redukcja Obrażeń, Zimno, Odporność.",
+					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n12% de resistência a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Redução de Dano, Gelo, Resistência.",
+					"ruRU": "-4% к урону от уязвимых противников\nСопротивление типу урона \"Cold \" – 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Уменьшение урона, Холод, Сопротивление.",
+					"zhCN": "4%对易伤敌人的伤害减免\n12%Cold 抗性\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 冰霜, 抗性."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -34885,17 +34885,17 @@ let paragonData = {
 					"zhCN": "迅疾咒术师"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Angriffsgeschwindigkeit\n+6% Schaden für Fertigkeiten der Kategorie Beschwörung\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"esES": "+10% de velocidad de ataque\n+6% de daño de habilidades de Evocación\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"esMX": "+10% de velocidad de ataque\n+6% de daño de habilidad Conjuración\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"frFR": "+10% à la vitesse d'attaque\n+6% de dégâts de compétence (Conjuration )\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"itIT": "Velocità d'attacco +10%\nDanni abilità di Invocazione: +6%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"jaJP": "攻撃速度+10%\nスキルダメージ+6% 召喚\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"koKR": "공격 속도 +10%\n구현 기술 피해 +6%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"plPL": "+10% szybkości ataku\n+6% obrażeń od umiejętności (Przyzywanie )\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"ptBR": "+10% de velocidade de ataque\n+6% de dano de habilidade Conjuração\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"ruRU": "+10% к скорости атаки\n+6% к урону от умений категории \"Колдовство \"\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration.",
-					"zhCN": "+10%攻击速度\n+6%召唤魔法 技能伤害\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Attack Speed, Damage, Conjuration."
+					"deDE": "+10% Angriffsgeschwindigkeit\n+6% Schaden für Fertigkeiten der Kategorie Beschwörung\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Angriffsgeschwindigkeit, Schaden, Beschwörung.",
+					"esES": "+10% de velocidad de ataque\n+6% de daño de habilidades de Evocación\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidad de ataque, Daño, Evocación.",
+					"esMX": "+10% de velocidad de ataque\n+6% de daño de habilidad Conjuración\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidad de ataque, Daño, Conjuración.",
+					"frFR": "+10% à la vitesse d'attaque\n+6% de dégâts de compétence (Conjuration )\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Vitesse d'attaque, Dégâts, Conjuration.",
+					"itIT": "Velocità d'attacco +10%\nDanni abilità di Invocazione: +6%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocità d'attacco, Danni, Invocazione.",
+					"jaJP": "攻撃速度+10%\nスキルダメージ+6% 召喚\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 攻撃速度, ダメージ, 召喚.",
+					"koKR": "공격 속도 +10%\n구현 기술 피해 +6%\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 공격 속도, 피해, 구현.",
+					"plPL": "+10% szybkości ataku\n+6% obrażeń od umiejętności (Przyzywanie )\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Szybkość Ataku, Obrażenia, Przyzywanie.",
+					"ptBR": "+10% de velocidade de ataque\n+6% de dano de habilidade Conjuração\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Velocidade de Ataque, Dano, Conjuração.",
+					"ruRU": "+10% к скорости атаки\n+6% к урону от умений категории \"Колдовство \"\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: Скорость атаки, Урон, Колдовство.",
+					"zhCN": "+10%攻击速度\n+6%召唤魔法 技能伤害\n\nBonus: Another +10% Attack Speed if requirements met:\n{thresholdRequirements}\n\nTags: 攻击速度, 伤害, 召唤魔法."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [

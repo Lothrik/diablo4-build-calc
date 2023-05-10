@@ -352,10 +352,21 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 							}
 							const tagText = `Tags: ${filteredTags}.`;
 							currentDescription += tagText;
-							for (const localKey of localKeys) currentDescriptionLocalized[localKey] += `\n\n${tagText}`;
+						}
+						for (const localKey of localKeys) {
+							const filteredTags = nodeData["power"]["power_tags_localized"][localKey].filter(tag => !tag.includes("_")).join(", ");
+							if (filteredTags.length == 0) continue;
+							if (currentDescriptionLocalized[localKey] == undefined) {
+								currentDescriptionLocalized[localKey] = "";
+							} else {
+								currentDescriptionLocalized[localKey] += "\n\n";
+							}
+							const tagText = `Tags: ${filteredTags}.`;
+							currentDescriptionLocalized[localKey] += tagText;
 						}
 					}
 					let extraDescription = "";
+					let extraDescriptionLocalized = {};
 					if (className == "Sorcerer" && nodeData["reward"]["max_talent_ranks"] == 5) {
 						const MAX_TEXT_DISTANCE = 4;
 						const sorcererEnchants = classData["Enchantment"];
@@ -364,14 +375,18 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 							const textDistance2 = levenshteinDistance(enchantKey.split("_").at(-1).toLowerCase(), skillName.toLowerCase());
 							if (textDistance2 < textDistance1 && textDistance2 < MAX_TEXT_DISTANCE) {
 								extraDescription = enchantValue["desc"];
+								extraDescriptionLocalized = enchantValue["desc_localized"];
 								textDistance1 = textDistance2;
 							}
 						}
-						extraDescription = extraDescription;
 						if (extraDescription.length > 0) {
 							const enchantText = "\n\n— Enchantment Effect —\n" + extraDescription;
 							currentDescription += enchantText;
-							for (const localKey of localKeys) currentDescriptionLocalized[localKey] += enchantText;
+						}
+						for (const localKey of localKeys) {
+							if (extraDescriptionLocalized[localKey].length == 0) continue;
+							const enchantText = "\n\n— Enchantment Effect —\n" + extraDescriptionLocalized[localKey];
+							currentDescriptionLocalized[localKey] += enchantText;
 						}
 						output += "\t\tdescription: `" + currentDescription + "`,\n";
 					} else {
@@ -602,7 +617,17 @@ function runParser(downloadMode) {
 						}
 						const tagText = `Tags: ${filteredTags}.`;
 						currentDescription += tagText;
-						for (const localKey of localKeys) currentDescriptionLocalized[localKey] += `\n\n${tagText}`;
+					}
+					for (const localKey of localKeys) {
+						const filteredTags = nodeData["tags_localized"][localKey].filter(tag => !tag.includes("_")).join(", ");
+						if (filteredTags.length == 0) continue;
+						if (currentDescriptionLocalized[localKey] == undefined) {
+							currentDescriptionLocalized[localKey] = "";
+						} else {
+							currentDescriptionLocalized[localKey] += "\n\n";
+						}
+						const tagText = `Tags: ${filteredTags}.`;
+						currentDescriptionLocalized[localKey] += tagText;
 					}
 				}
 				paragonData[className]["Node"][nodeName] = {
