@@ -893,8 +893,7 @@
 		},
 		"Paragon (Node)": {
 			"Barbarian_Legendary_001": {
-				"desc": "Bleeding enemies you kill explode, dealing 10% of their max life to nearby enemies.",
-				"name": "[UNDEFINED]"
+				"desc": "Bleeding enemies you kill explode, dealing 10% of their max life to nearby enemies."
 			},
 			"Barbarian_Legendary_002": {
 				"desc": "Enemies that have been affected by your Bleeding for 3 or more seconds take x15% increased Bleeding damage from you.",
@@ -904,8 +903,7 @@
 				]
 			},
 			"Barbarian_Legendary_003": {
-				"desc": "Bleeding you inflict deals damage 30% faster.",
-				"name": "[UNDEFINED]"
+				"desc": "Bleeding you inflict deals damage 30% faster."
 			},
 			"Barbarian_Legendary_004": {
 				"desc": "Killing a Bleeding target has 12% chance to grant Berserking for 5 seconds.",
@@ -923,16 +921,13 @@
 				]
 			},
 			"Barbarian_Legendary_006": {
-				"desc": "Shout skills fortify you for 30% of your maximum life.",
-				"name": "[UNDEFINED]"
+				"desc": "Shout skills fortify you for 30% of your maximum life."
 			},
 			"Barbarian_Legendary_007": {
-				"desc": "When you are under any Shout effect, you deal x20% increased damage and take 20% less damage.",
-				"name": "[UNDEFINED]"
+				"desc": "When you are under any Shout effect, you deal x20% increased damage and take 20% less damage."
 			},
 			"Barbarian_Legendary_008": {
-				"desc": "While Berserk, you take 1% of your maximum life as Bleed damage per second, but deal x30% increased damage.",
-				"name": "[UNDEFINED]"
+				"desc": "While Berserk, you take 1% of your maximum life as Bleed damage per second, but deal x30% increased damage."
 			},
 			"Barbarian_Legendary_009": {
 				"desc": "While Berserking, critical strikes increase your attack speed by 2%, up to 10%, for 6 seconds.",
@@ -944,8 +939,7 @@
 				]
 			},
 			"Barbarian_Legendary_010": {
-				"desc": "While Berserk, your Defensive skills recharge 50% faster.",
-				"name": "[UNDEFINED]"
+				"desc": "While Berserk, your Defensive skills recharge 50% faster."
 			},
 			"Barbarian_Legendary_011": {
 				"desc": "For every 75 Fury you spend, gain 20% of your Maximum Life as Fortify.",
@@ -956,12 +950,10 @@
 				]
 			},
 			"Barbarian_Legendary_012": {
-				"desc": "You take 45% less damage from all sources, but can no longer dodge attacks.",
-				"name": "[UNDEFINED]"
+				"desc": "You take 45% less damage from all sources, but can no longer dodge attacks."
 			},
 			"Barbarian_Legendary_013": {
-				"desc": "While standing still, you gain 20% extra damage reduction, and have 50% reduced CC duration.",
-				"name": "[UNDEFINED]"
+				"desc": "While standing still, you gain 20% extra damage reduction, and have 50% reduced CC duration."
 			},
 			"Barbarian_Legendary_014": {
 				"desc": "Lucky Hit: Two-Handed Slashing Weapon attacks have up to a 10% chance to make enemies Vulnerable for 2 seconds.",
@@ -6631,12 +6623,10 @@
 		},
 		"Paragon (Node)": {
 			"Druid_Legendary_001": {
-				"desc": "Critical Strikes from your Storm skills make enemies Vulnerable for 1 seconds. Enemies that are already Vulnerable have its duration extended by 0.5 seconds instead.",
-				"name": "[UNDEFINED]"
+				"desc": "Critical Strikes from your Storm skills make enemies Vulnerable for 1 seconds. Enemies that are already Vulnerable have its duration extended by 0.5 seconds instead."
 			},
 			"Druid_Legendary_002": {
-				"desc": "Hurricane and Cataclysm create a Tornado every 2.5 seconds while they are active.",
-				"name": "[UNDEFINED]"
+				"desc": "Hurricane and Cataclysm create a Tornado every 2.5 seconds while they are active."
 			},
 			"Druid_Legendary_003": {
 				"desc": "Storm skills deal x30% increased Critical Strike damage against Vulnerable or Immobilized targets.",
@@ -6647,12 +6637,10 @@
 				]
 			},
 			"Druid_Legendary_004": {
-				"desc": "Your Earth skills have an additional 30% chance to Overpower.",
-				"name": "[UNDEFINED]"
+				"desc": "Your Earth skills have an additional 30% chance to Overpower."
 			},
 			"Druid_Legendary_005": {
-				"desc": "When you kill an enemy with an Overpowering hit, you automatically gain Earthen Bulwark. This can only happen once every 10 seconds.",
-				"name": "[UNDEFINED]"
+				"desc": "When you kill an enemy with an Overpowering hit, you automatically gain Earthen Bulwark. This can only happen once every 10 seconds."
 			},
 			"Druid_Legendary_006": {
 				"desc": "Your Earth skills deal x30% increased damage to targets afflicted by movement impairing effects.",
@@ -6671,12 +6659,10 @@
 				]
 			},
 			"Druid_Legendary_008": {
-				"desc": "(REDESIGN)Werebear skills have an additional 25% chance to Overpower and Knockdown for 1.5 seconds.",
-				"name": "[UNDEFINED]"
+				"desc": "(REDESIGN)Werebear skills have an additional 25% chance to Overpower and Knockdown for 1.5 seconds."
 			},
 			"Druid_Legendary_009": {
-				"desc": "While in Werebear form, you apply 30% bonus Fortify.",
-				"name": "[UNDEFINED]"
+				"desc": "While in Werebear form, you apply 30% bonus Fortify."
 			},
 			"Druid_Legendary_010": {
 				"desc": "Critical Strikes with Werewolf skills restore 2 Spirit.",
@@ -6688,8 +6674,7 @@
 				]
 			},
 			"Druid_Legendary_011": {
-				"desc": "Your Werewolf skills gain an additional 30% Critical Strike Chance against poisoned targets.",
-				"name": "[UNDEFINED]"
+				"desc": "Your Werewolf skills gain an additional 30% Critical Strike Chance against poisoned targets."
 			},
 			"Druid_Legendary_012": {
 				"desc": "While there are 3 or more poisoned enemies Nearby, you deal x45% increased damage.",
@@ -6707,16 +6692,13 @@
 				]
 			},
 			"Druid_Legendary_014": {
-				"desc": "Casting a Storm skill increases the critical strike chance of your next Werewolf skill by 30%.\n\nCasting an {c_important{Earth skill increases the critical strike damage of your next Werebear skill by x45%.",
-				"name": "[UNDEFINED]"
+				"desc": "Casting a Storm skill increases the critical strike chance of your next Werewolf skill by 30%.\n\nCasting an {c_important{Earth skill increases the critical strike damage of your next Werebear skill by x45%."
 			},
 			"Druid_Legendary_015": {
-				"desc": "Your Earth skills have an additional 30% chance to Overpower targets that are Vulnerable.",
-				"name": "[UNDEFINED]"
+				"desc": "Your Earth skills have an additional 30% chance to Overpower targets that are Vulnerable."
 			},
 			"Druid_Legendary_016": {
-				"desc": "Your Nature Magic skills deal x60% increased damage against enemies affected by your Debilitating Roar.",
-				"name": "[UNDEFINED]"
+				"desc": "Your Nature Magic skills deal x60% increased damage against enemies affected by your Debilitating Roar."
 			},
 			"Druid_Legendary_017": {
 				"desc": "Lucky Hit: Nature Magic skills have up to a 15% chance to entangle the target with vines, Immobilizing them for 2 seconds and poisoning them for 120% of the base damage dealt over 4 seconds.",
@@ -22260,16 +22242,13 @@
 				]
 			},
 			"Necromancer_Legendary_002": {
-				"desc": "Lucky Hit: Your Minions have a 10% chance to grant you a barrier for 6% of your Max Life for 5 seconds.",
-				"name": "[UNDEFINED]"
+				"desc": "Lucky Hit: Your Minions have a 10% chance to grant you a barrier for 6% of your Max Life for 5 seconds."
 			},
 			"Necromancer_Legendary_003": {
-				"desc": "When your Minions die, they explode and deal 30% of their Max Life as Shadow damage to nearby enemies.",
-				"name": "[UNDEFINED]"
+				"desc": "When your Minions die, they explode and deal 30% of their Max Life as Shadow damage to nearby enemies."
 			},
 			"Necromancer_Legendary_004": {
-				"desc": "Your Minions have 25% less Max Life but deal x45% increased damage.",
-				"name": "[UNDEFINED]"
+				"desc": "Your Minions have 25% less Max Life but deal x45% increased damage."
 			},
 			"Necromancer_Legendary_005": {
 				"desc": "Your Golem has 30% increased maximum Life and deals x30% increased damage.",
@@ -22280,8 +22259,7 @@
 				]
 			},
 			"Necromancer_Legendary_006": {
-				"desc": "Consuming a corpse slows enemies around it by 30% for 6 seconds. Your Corpse skills deal x30% increased damage to crowd controlled enemies.",
-				"name": "[UNDEFINED]"
+				"desc": "Consuming a corpse slows enemies around it by 30% for 6 seconds. Your Corpse skills deal x30% increased damage to crowd controlled enemies."
 			},
 			"Necromancer_Legendary_007": {
 				"desc": "With at least 3 corpses Nearby, you take 15% less damage.",
@@ -22292,8 +22270,7 @@
 				"name": "Cannibalize"
 			},
 			"Necromancer_Legendary_009": {
-				"desc": "When your Minion is killed, it has a 50% chance to leave a corpse.",
-				"name": "[UNDEFINED]"
+				"desc": "When your Minion is killed, it has a 50% chance to leave a corpse."
 			},
 			"Necromancer_Legendary_010": {
 				"desc": "Blood skills deal x18% increased damage but cost an additional 0.1% of the skill's Essence cost or Cooldown as a percent of your maximum Life.",
@@ -22311,20 +22288,16 @@
 				]
 			},
 			"Necromancer_Legendary_012": {
-				"desc": "Blood Orbs also restore 35 Essence when picked up.",
-				"name": "[UNDEFINED]"
+				"desc": "Blood Orbs also restore 35 Essence when picked up."
 			},
 			"Necromancer_Legendary_013": {
-				"desc": "Bone skills grant you 9% damage reduction, up to 45%, for the next 5 seconds.",
-				"name": "[UNDEFINED]"
+				"desc": "Bone skills grant you 9% damage reduction, up to 45%, for the next 5 seconds."
 			},
 			"Necromancer_Legendary_014": {
-				"desc": "Lucky Hit: Your Bone skills have a 50% chance to make enemies Vulnerable for 2 seconds.",
-				"name": "[UNDEFINED]"
+				"desc": "Lucky Hit: Your Bone skills have a 50% chance to make enemies Vulnerable for 2 seconds."
 			},
 			"Necromancer_Legendary_015": {
-				"desc": "Whenever you consume a corpse, a Bone Spirit is spawned at its location.",
-				"name": "[UNDEFINED]"
+				"desc": "Whenever you consume a corpse, a Bone Spirit is spawned at its location."
 			},
 			"Necromancer_Legendary_016": {
 				"desc": "You and your Minions deal x15% increased damage to targets affected by Shadow damage over time effects.",
@@ -27781,8 +27754,7 @@
 		},
 		"Paragon (Node)": {
 			"Rogue_Legendary_001": {
-				"desc": "After taking Poison, Cold, or Shadow damage, the target takes 20% less damage from you from that type, and 50% more damage from the other two types for the next 4 seconds.",
-				"name": "[UNDEFINED]"
+				"desc": "After taking Poison, Cold, or Shadow damage, the target takes 20% less damage from you from that type, and 50% more damage from the other two types for the next 4 seconds."
 			},
 			"Rogue_Legendary_002": {
 				"desc": "Your Imbues apply to 1 additional attack.",
@@ -27792,16 +27764,13 @@
 				]
 			},
 			"Rogue_Legendary_003": {
-				"desc": "While any of your Imbues are on cooldown, your Imbue-able attacks have a 25% chance to gain one of those Imbue effects.",
-				"name": "[UNDEFINED]"
+				"desc": "While any of your Imbues are on cooldown, your Imbue-able attacks have a 25% chance to gain one of those Imbue effects."
 			},
 			"Rogue_Legendary_004": {
-				"desc": "You deal x45% increased damage to Distant enemies but deal x20% decreased damage to Close enemies.",
-				"name": "[UNDEFINED]"
+				"desc": "You deal x45% increased damage to Distant enemies but deal x20% decreased damage to Close enemies."
 			},
 			"Rogue_Legendary_005": {
-				"desc": "You deal x45% increased damage to Close enemies but deal x20% decreased damage to Distant enemies.",
-				"name": "[UNDEFINED]"
+				"desc": "You deal x45% increased damage to Close enemies but deal x20% decreased damage to Distant enemies."
 			},
 			"Rogue_Legendary_006": {
 				"desc": "Your Ranged skills grant your next Melee skill x25% increased damage.\n\nYour Melee skills grant your next Ranged skill x25% increased damage.",
@@ -27855,20 +27824,16 @@
 				]
 			},
 			"Rogue_Legendary_013": {
-				"desc": "For each Close enemy, your Dodge Chance is increased by 5%, up to 25%.",
-				"name": "[UNDEFINED]"
+				"desc": "For each Close enemy, your Dodge Chance is increased by 5%, up to 25%."
 			},
 			"Rogue_Legendary_014": {
-				"desc": "When you kill a Poisoned enemy, they leave a pool of poison on the ground that deals 15% of that enemy's Max Life as poison damage over 6 seconds.",
-				"name": "[UNDEFINED]"
+				"desc": "When you kill a Poisoned enemy, they leave a pool of poison on the ground that deals 15% of that enemy's Max Life as poison damage over 6 seconds."
 			},
 			"Rogue_Legendary_015": {
-				"desc": "For each enemy that is Chilled in the area, you deal x10% increased damage, up to x50%.",
-				"name": "[UNDEFINED]"
+				"desc": "For each enemy that is Chilled in the area, you deal x10% increased damage, up to x50%."
 			},
 			"Rogue_Legendary_016": {
-				"desc": "You deal x30% increased damage to enemies affected by Shadow Imbuement's debuff.",
-				"name": "[UNDEFINED]"
+				"desc": "You deal x30% increased damage to enemies affected by Shadow Imbuement's debuff."
 			},
 			"Rogue_Magic_DamageImbued": {
 				"attributes": {
@@ -33151,12 +33116,10 @@
 				]
 			},
 			"Sorcerer_Legendary_003": {
-				"desc": "Burning enemies you kill explode, dealing 10% of their Max Life to enemies nearby.",
-				"name": "[UNDEFINED]"
+				"desc": "Burning enemies you kill explode, dealing 10% of their Max Life to enemies nearby."
 			},
 			"Sorcerer_Legendary_004": {
-				"desc": "Your Elemental attacks deal x100% increased critical strike damage against Frozen targets.",
-				"name": "[UNDEFINED]"
+				"desc": "Your Elemental attacks deal x100% increased critical strike damage against Frozen targets."
 			},
 			"Sorcerer_Legendary_005": {
 				"desc": "You deal x22.5% increased damage to Chilled and Frozen targets.",
@@ -33190,12 +33153,10 @@
 				]
 			},
 			"Sorcerer_Legendary_009": {
-				"desc": "Lucky Hit: Your Shock skills have a {#}% chance to release {#} lightning sparks that each deal {#}% damage.",
-				"name": "[UNDEFINED]"
+				"desc": "Lucky Hit: Your Shock skills have a {#}% chance to release {#} lightning sparks that each deal {#}% damage."
 			},
 			"Sorcerer_Legendary_010": {
-				"desc": "You deal x45% increased damage to targets that are both Burning and Chilled.",
-				"name": "[UNDEFINED]"
+				"desc": "You deal x45% increased damage to targets that are both Burning and Chilled."
 			},
 			"Sorcerer_Legendary_011": {
 				"desc": "Lucky Hit: Core skills have up to a 30% chance to make your next Mastery skill deal x50% increased damage.",
@@ -33206,16 +33167,13 @@
 				]
 			},
 			"Sorcerer_Legendary_012": {
-				"desc": "After using an Elemental skill, you gain 45% Resistance against that element for 4 seconds.",
-				"name": "[UNDEFINED]"
+				"desc": "After using an Elemental skill, you gain 45% Resistance against that element for 4 seconds."
 			},
 			"Sorcerer_Legendary_013": {
-				"desc": "Nearby enemies take x20% increased Elemental damage. You and nearby allies gain 15% Elemental Resistance.",
-				"name": "[UNDEFINED]"
+				"desc": "Nearby enemies take x20% increased Elemental damage. You and nearby allies gain 15% Elemental Resistance."
 			},
 			"Sorcerer_Legendary_014": {
-				"desc": "While moving, you regenerate Mana 35% faster. While standing still, you gain x8% increased Fire, Cold, and Lightning damage every second, up to x40%.",
-				"name": "[UNDEFINED]"
+				"desc": "While moving, you regenerate Mana 35% faster. While standing still, you gain x8% increased Fire, Cold, and Lightning damage every second, up to x40%."
 			},
 			"Sorcerer_Legendary_015": {
 				"desc": "After spending 80 Mana, you gain 15% of your Maximum Life as Barrier for 6 seconds.",
@@ -33227,8 +33185,7 @@
 				]
 			},
 			"Sorcerer_Legendary_016": {
-				"desc": "While you have a barrier, you take 30% less damage and gain 15% increased movement speed.",
-				"name": "[UNDEFINED]"
+				"desc": "While you have a barrier, you take 30% less damage and gain 15% increased movement speed."
 			},
 			"Sorcerer_Magic_CracklingEnergy": {
 				"attributes": {
