@@ -840,7 +840,7 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 druidData["Spirit"] = {
 	"Landslide": {
 		connections: [ "Spirit", "Enhanced Landslide" ],
-		description: `Spirit Cost: {#}
+		description: `Spirit Cost: 30
 Lucky Hit Chance: 20%
 Crush enemies between 2 pillars of earth, dealing up to {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% damage.
 
@@ -860,22 +860,21 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"zhTW": "崩石裂土"
 },
 		descriptionLocalized: {
-			"deDE": "Geisteskraftkosten: {#}\nGlückstrefferchance: 20%\nZerschmettert Gegner zwischen 2 Erdsäulen und verursacht bis zu {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% Schaden.\n\nTags: Kern, Naturmagie, Erde, Geisteskraft, Schaden.",
-			"esES": "Coste de espíritu: {#}\nProbabilidad de golpe de suerte: 20%\nAplastas a los enemigos entre 2 pilares de tierra, lo que inflige hasta {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tierra, Espíritu, Daño.",
-			"esMX": "Costo de Espíritu: {#}\nProbabilidad de golpe afortunado: 20%\nAplastas a los enemigos entre 2 pilares de tierra, que infligen hasta un máximo de {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tierra, Espíritu, Daño.",
-			"frFR": "Coût en esprit: {#}\nChances d'obtenir un coup de chance: 20%\nVous écrasez les adversaires entre 2 piliers de terre, ce qui leur inflige jusqu'à {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% points de dégâts.\n\nTags: Principale, Magie naturelle, Terre, Esprit, Dégâts.",
-			"itIT": "Costo in spirito: {#}\nProbabilità di colpo fortunato: 20%\nSchiacci i nemici tra 2 pilastri di terra, infliggendo fino a {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% danni.\n\nTags: Primaria, Magia naturale, Terra, Spirito, Danni.",
-			"jaJP": "精神力消費量: {#}\n幸運の一撃発生率: 20%\n2本の土の柱で敵を挟み、最大{75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}%のダメージを与える。\n\nTags: コア, 自然魔法, 地, 精神力, ダメージ.",
-			"koKR": "소모: 영력 {#}\n행운의 적중 확률: 20%\n2개의 흙 기둥으로 적을 짓뭉개 최대 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}%의 피해를 줍니다.\n\nTags: 핵심, 자연 마법, 대지, 영력, 피해.",
-			"plPL": "Koszt: {#} pkt. siły duchowej.\nSzansa na szczęśliwy traf: 20%\nMiażdżysz wrogów 2 ziemnymi filarami i zadajesz do {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% pkt. obrażeń.\n\nTags: Główne, Magia Natury, Ziemia, Siła Duchowa, Obrażenia.",
-			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 20%\nEsmaga inimigos entre 2 pilares de terra, causando até {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de dano.\n\nTags: Principal, Magia da Natureza, Terra, Espírito, Dano.",
-			"ruRU": "Затраты духа: {#} ед.\nВероятность удачного удара: 20%.\n2 земляных столпа сокрушают противников, нанося до {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% ед. урона.\n\nTags: Основное, Силы природы, Земля, Дух, Урон.",
-			"zhCN": "灵力消耗: {#}\n幸运一击几率: 20%\n碾压 2 根大地之柱之间的敌人, 最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 点伤害。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害.",
-			"zhTW": "靈力消耗:{#}\n幸運觸發機率:20%\n召喚 2 道泥漿洪流淹沒敵人,最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 點傷害。\n\nTags: 核心, 自然魔法, 大地, 靈力, 傷害."
+			"deDE": "Geisteskraftkosten: 30\nGlückstrefferchance: 20%\nZerschmettert Gegner zwischen 2 Erdsäulen und verursacht bis zu {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% Schaden.\n\nTags: Kern, Naturmagie, Erde, Geisteskraft, Schaden.",
+			"esES": "Coste de espíritu: 30\nProbabilidad de golpe de suerte: 20%\nAplastas a los enemigos entre 2 pilares de tierra, lo que inflige hasta {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tierra, Espíritu, Daño.",
+			"esMX": "Costo de Espíritu: 30\nProbabilidad de golpe afortunado: 20%\nAplastas a los enemigos entre 2 pilares de tierra, que infligen hasta un máximo de {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tierra, Espíritu, Daño.",
+			"frFR": "Coût en esprit: 30\nChances d'obtenir un coup de chance: 20%\nVous écrasez les adversaires entre 2 piliers de terre, ce qui leur inflige jusqu'à {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% points de dégâts.\n\nTags: Principale, Magie naturelle, Terre, Esprit, Dégâts.",
+			"itIT": "Costo in spirito: 30\nProbabilità di colpo fortunato: 20%\nSchiacci i nemici tra 2 pilastri di terra, infliggendo fino a {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% danni.\n\nTags: Primaria, Magia naturale, Terra, Spirito, Danni.",
+			"jaJP": "精神力消費量: 30\n幸運の一撃発生率: 20%\n2本の土の柱で敵を挟み、最大{75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}%のダメージを与える。\n\nTags: コア, 自然魔法, 地, 精神力, ダメージ.",
+			"koKR": "소모: 영력 30\n행운의 적중 확률: 20%\n2개의 흙 기둥으로 적을 짓뭉개 최대 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}%의 피해를 줍니다.\n\nTags: 핵심, 자연 마법, 대지, 영력, 피해.",
+			"plPL": "Koszt: 30 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 20%\nMiażdżysz wrogów 2 ziemnymi filarami i zadajesz do {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% pkt. obrażeń.\n\nTags: Główne, Magia Natury, Ziemia, Siła Duchowa, Obrażenia.",
+			"ptBR": "Custo de espírito: 30\nChance de Golpe de Sorte: 20%\nEsmaga inimigos entre 2 pilares de terra, causando até {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de dano.\n\nTags: Principal, Magia da Natureza, Terra, Espírito, Dano.",
+			"ruRU": "Затраты духа: 30 ед.\nВероятность удачного удара: 20%.\n2 земляных столпа сокрушают противников, нанося до {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% ед. урона.\n\nTags: Основное, Силы природы, Земля, Дух, Урон.",
+			"zhCN": "灵力消耗: 30\n幸运一击几率: 20%\n碾压 2 根大地之柱之间的敌人, 最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 点伤害。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害.",
+			"zhTW": "靈力消耗:30\n幸運觸發機率:20%\n召喚 2 道泥漿洪流淹沒敵人,最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 點傷害。\n\nTags: 核心, 自然魔法, 大地, 靈力, 傷害."
 },
 		id: 20,
 		maxPoints: 5,
-		values: [ "30" ],
 		x: 527.495,
 		y: -1.355
 	},
@@ -998,7 +997,7 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 	},
 	"Pulverize": {
 		connections: [ "Spirit", "Enhanced Pulverize" ],
-		description: `Spirit Cost: {#}
+		description: `Spirit Cost: 35
 Lucky Hit Chance: 33%
 Shapeshift into a Werebear and slam the ground, dealing {50/55/60/65/70/75/80/85/90/95}% damage to surrounding enemies.
 
@@ -1018,22 +1017,21 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"zhTW": "粉碎"
 },
 		descriptionLocalized: {
-			"deDE": "Geisteskraftkosten: {#}\nGlückstrefferchance: 33%\nVerwandelt Euch in einen Werbären, schmettert auf den Boden und fügt Gegnern in der Nähe {50/55/60/65/70/75/80/85/90/95}% Schaden zu.\n\nTags: Kern, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
-			"esES": "Coste de espíritu: {#}\nProbabilidad de golpe de suerte: 33%\nTe transformas en un hombre oso y golpeas el suelo, lo que inflige {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos cercanos.\n\nTags: Principal, Cambio de forma, Hombre oso, Espíritu, Daño, Física.",
-			"esMX": "Costo de Espíritu: {#}\nProbabilidad de golpe afortunado: 33%\nCambias de forma a un hombre oso, golpeas el suelo e infliges {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos circundantes.\n\nTags: Principal, Metamorfosis, Hombre oso, Espíritu, Daño, Física.",
-			"frFR": "Coût en esprit: {#}\nChances d'obtenir un coup de chance: 33%\nVous vous transformez en ursoïde et frappez le sol, ce qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts aux adversaires à proximité.\n\nTags: Principale, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
-			"itIT": "Costo in spirito: {#}\nProbabilità di colpo fortunato: 33%\nMuti in un Orso Mannaro e colpisci il terreno, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni ai nemici circostanti.\n\nTags: Primaria, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
-			"jaJP": "精神力消費量: {#}\n幸運の一撃発生率: 33%\n人熊に変身して地面を殴りつけ、周囲の敵に{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 変身, 人熊, 精神力, ダメージ, 物理.",
-			"koKR": "소모: 영력 {#}\n행운의 적중 확률: 33%\n곰인간으로 변신하고 땅을 내려쳐 주위 적들에게 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 변신, 곰인간, 영력, 피해, 물리.",
-			"plPL": "Koszt: {#} pkt. siły duchowej.\nSzansa na szczęśliwy traf: 33%\nPrzemieniasz się w niedźwiedziołaka i uderzasz w ziemię, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń wrogom wokół.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
-			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 33%\nTransforma-se em um urso e bate no chão, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
-			"ruRU": "Затраты духа: {#} ед.\nВероятность удачного удара: 33%.\nВы принимаете облик медведя и с силой бьете по земле, нанося противникам вокруг {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "灵力消耗: {#}\n幸运一击几率: 33%\n变成熊人并猛击地面, 对周围敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理.",
-			"zhTW": "靈力消耗:{#}\n幸運觸發機率:33%\n變身為熊人猛擊地面,對附近的敵人造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 核心, 變形, 熊人, 靈力, 傷害, 物理."
+			"deDE": "Geisteskraftkosten: 35\nGlückstrefferchance: 33%\nVerwandelt Euch in einen Werbären, schmettert auf den Boden und fügt Gegnern in der Nähe {50/55/60/65/70/75/80/85/90/95}% Schaden zu.\n\nTags: Kern, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
+			"esES": "Coste de espíritu: 35\nProbabilidad de golpe de suerte: 33%\nTe transformas en un hombre oso y golpeas el suelo, lo que inflige {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos cercanos.\n\nTags: Principal, Cambio de forma, Hombre oso, Espíritu, Daño, Física.",
+			"esMX": "Costo de Espíritu: 35\nProbabilidad de golpe afortunado: 33%\nCambias de forma a un hombre oso, golpeas el suelo e infliges {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos circundantes.\n\nTags: Principal, Metamorfosis, Hombre oso, Espíritu, Daño, Física.",
+			"frFR": "Coût en esprit: 35\nChances d'obtenir un coup de chance: 33%\nVous vous transformez en ursoïde et frappez le sol, ce qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts aux adversaires à proximité.\n\nTags: Principale, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
+			"itIT": "Costo in spirito: 35\nProbabilità di colpo fortunato: 33%\nMuti in un Orso Mannaro e colpisci il terreno, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni ai nemici circostanti.\n\nTags: Primaria, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
+			"jaJP": "精神力消費量: 35\n幸運の一撃発生率: 33%\n人熊に変身して地面を殴りつけ、周囲の敵に{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 変身, 人熊, 精神力, ダメージ, 物理.",
+			"koKR": "소모: 영력 35\n행운의 적중 확률: 33%\n곰인간으로 변신하고 땅을 내려쳐 주위 적들에게 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 변신, 곰인간, 영력, 피해, 물리.",
+			"plPL": "Koszt: 35 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 33%\nPrzemieniasz się w niedźwiedziołaka i uderzasz w ziemię, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń wrogom wokół.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
+			"ptBR": "Custo de espírito: 35\nChance de Golpe de Sorte: 33%\nTransforma-se em um urso e bate no chão, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
+			"ruRU": "Затраты духа: 35 ед.\nВероятность удачного удара: 33%.\nВы принимаете облик медведя и с силой бьете по земле, нанося противникам вокруг {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
+			"zhCN": "灵力消耗: 35\n幸运一击几率: 33%\n变成熊人并猛击地面, 对周围敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "靈力消耗:35\n幸運觸發機率:33%\n變身為熊人猛擊地面,對附近的敵人造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 核心, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 24,
 		maxPoints: 5,
-		values: [ "35" ],
 		x: -662.09,
 		y: 108.51
 	},
@@ -1156,7 +1154,7 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 	},
 	"Tornado": {
 		connections: [ "Spirit", "Enhanced Tornado" ],
-		description: `Spirit Cost: {#}
+		description: `Spirit Cost: 40
 Lucky Hit Chance: 8%
 Conjure a swirling tornado that deals {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.
 
@@ -1176,22 +1174,21 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"zhTW": "龍捲風"
 },
 		descriptionLocalized: {
-			"deDE": "Geisteskraftkosten: {#}\nGlückstrefferchance: 8%\nBeschwört einen wirbelnden Tornado, der {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden verursacht.\n\nTags: Kern, Naturmagie, Sturm, Geisteskraft, Schaden, Physisch.",
-			"esES": "Coste de espíritu: {#}\nProbabilidad de golpe de suerte: 8%\nCreas un tornado que inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Espíritu, Daño, Física.",
-			"esMX": "Costo de Espíritu: {#}\nProbabilidad de golpe afortunado: 8%\nConjuras un tornado que inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Espíritu, Daño, Física.",
-			"frFR": "Coût en esprit: {#}\nChances d'obtenir un coup de chance: 8%\nVous invoquez une tornade qui inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% points de dégâts.\n\nTags: Principale, Magie naturelle, Tempête, Esprit, Dégâts, Dégâts physiques.",
-			"itIT": "Costo in spirito: {#}\nProbabilità di colpo fortunato: 8%\nInvochi un tornado che infligge {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% danni.\n\nTags: Primaria, Magia naturale, Tempesta, Spirito, Danni, Fisico.",
-			"jaJP": "精神力消費量: {#}\n幸運の一撃発生率: 8%\n渦巻く竜巻を呼び出して{35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%のダメージを与える。\n\nTags: コア, 自然魔法, 嵐, 精神力, ダメージ, 物理.",
-			"koKR": "소모: 영력 {#}\n행운의 적중 확률: 8%\n소용돌이치는 회오리바람을 생성하여 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%의 피해를 줍니다.\n\nTags: 핵심, 자연 마법, 폭풍, 영력, 피해, 물리.",
-			"plPL": "Koszt: {#} pkt. siły duchowej\nSzansa na szczęśliwy traf: 8%\nPrzyzywasz wirujące tornado, które zadaje {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń.\n\nTags: Główne, Magia Natury, Burza, Siła Duchowa, Obrażenia, Fizyczne.",
-			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 8%\nConjura um tornado rodopiante que causa {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano.\n\nTags: Principal, Magia da Natureza, Tempestade, Espírito, Dano, Física.",
-			"ruRU": "Затраты духа: {#} ед.\nВероятность удачного удара: 8%.\nВы создаете кружащийся смерч, который наносит {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона.\n\nTags: Основное, Силы природы, Буря, Дух, Урон, Физический урон.",
-			"zhCN": "灵力消耗: {#}\n幸运一击几率: 8%\n召唤旋转的龙卷风, 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理.",
-			"zhTW": "靈力消耗:{#}\n幸運觸發機率:8%\n呼喚旋轉的龍捲風,造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害。\n\nTags: 核心, 自然魔法, 風暴, 靈力, 傷害, 物理."
+			"deDE": "Geisteskraftkosten: 40\nGlückstrefferchance: 8%\nBeschwört einen wirbelnden Tornado, der {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden verursacht.\n\nTags: Kern, Naturmagie, Sturm, Geisteskraft, Schaden, Physisch.",
+			"esES": "Coste de espíritu: 40\nProbabilidad de golpe de suerte: 8%\nCreas un tornado que inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Espíritu, Daño, Física.",
+			"esMX": "Costo de Espíritu: 40\nProbabilidad de golpe afortunado: 8%\nConjuras un tornado que inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Espíritu, Daño, Física.",
+			"frFR": "Coût en esprit: 40\nChances d'obtenir un coup de chance: 8%\nVous invoquez une tornade qui inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% points de dégâts.\n\nTags: Principale, Magie naturelle, Tempête, Esprit, Dégâts, Dégâts physiques.",
+			"itIT": "Costo in spirito: 40\nProbabilità di colpo fortunato: 8%\nInvochi un tornado che infligge {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% danni.\n\nTags: Primaria, Magia naturale, Tempesta, Spirito, Danni, Fisico.",
+			"jaJP": "精神力消費量: 40\n幸運の一撃発生率: 8%\n渦巻く竜巻を呼び出して{35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%のダメージを与える。\n\nTags: コア, 自然魔法, 嵐, 精神力, ダメージ, 物理.",
+			"koKR": "소모: 영력 40\n행운의 적중 확률: 8%\n소용돌이치는 회오리바람을 생성하여 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%의 피해를 줍니다.\n\nTags: 핵심, 자연 마법, 폭풍, 영력, 피해, 물리.",
+			"plPL": "Koszt: 40 pkt. siły duchowej\nSzansa na szczęśliwy traf: 8%\nPrzyzywasz wirujące tornado, które zadaje {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń.\n\nTags: Główne, Magia Natury, Burza, Siła Duchowa, Obrażenia, Fizyczne.",
+			"ptBR": "Custo de espírito: 40\nChance de Golpe de Sorte: 8%\nConjura um tornado rodopiante que causa {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano.\n\nTags: Principal, Magia da Natureza, Tempestade, Espírito, Dano, Física.",
+			"ruRU": "Затраты духа: 40 ед.\nВероятность удачного удара: 8%.\nВы создаете кружащийся смерч, который наносит {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона.\n\nTags: Основное, Силы природы, Буря, Дух, Урон, Физический урон.",
+			"zhCN": "灵力消耗: 40\n幸运一击几率: 8%\n召唤旋转的龙卷风, 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理.",
+			"zhTW": "靈力消耗:40\n幸運觸發機率:8%\n呼喚旋轉的龍捲風,造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害。\n\nTags: 核心, 自然魔法, 風暴, 靈力, 傷害, 物理."
 },
 		id: 28,
 		maxPoints: 5,
-		values: [ "40" ],
 		x: -658.16,
 		y: -95.45
 	},
@@ -1314,7 +1311,7 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 	},
 	"Shred": {
 		connections: [ "Spirit", "Enhanced Shred" ],
-		description: `Spirit Cost: {#}
+		description: `Spirit Cost: 35
 Lucky Hit Chance: 20%
 Shapeshift into a Werewolf and perform a trio of combo attacks:
 • 1st Attack: Dash towards the target and deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.
@@ -1337,22 +1334,21 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"zhTW": "撕碎"
 },
 		descriptionLocalized: {
-			"deDE": "Geisteskraftkosten: {#}\nGlückstrefferchance: 20%\nVerwandelt Euch in einen Werwolf und führt eine Kombo aus drei Angriffen:\n• 1. Angriff: Stürmt auf das Ziel zu und verursacht {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden.\n• 2. Angriff: Verursacht {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden.\n• 3. Angriff: Führt einen mächtigen Finishing-Move aus, der {60/66/72/78/84/90/96/102/108/114}% Schaden verursacht.\n\nTags: Kern, Gestaltwandeln, Werwolf, Geisteskraft, Schaden, Physisch.",
-			"esES": "Coste de espíritu: {#}\nProbabilidad de golpe de suerte: 20%\nTe transformas en un hombre lobo y ejecutas un combo triple:\n• Primer ataque:Corres hacia el objetivo e infliges {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño.\n• Segundo ataque: Infliges {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño.\n• Tercer ataque: Ejecutas un remate mayor que inflige {60/66/72/78/84/90/96/102/108/114}% de daños.\n\nTags: Principal, Cambio de forma, Hombre lobo, Espíritu, Daño, Física.",
-			"esMX": "Costo de Espíritu: {#}\nProbabilidad de golpe afortunado: 20%\nCambias de forma a un hombre lobo y realizas un trío de ataques de combo:\n• Primer ataque: Arremete contra el objetivo e inflige {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño.\n• Segundo ataque: Inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño.\n• Tercer ataque: Realizas un ataque final mayor que inflige {60/66/72/78/84/90/96/102/108/114}% de daño.\n\nTags: Principal, Metamorfosis, Hombre lobo, Espíritu, Daño, Física.",
-			"frFR": "Coût en esprit: {#}\nChances d'obtenir un coup de chance: 20%\nVous vous transformez en lycanthrope et effectuez un combo de trois attaques :\n• 1re attaque: Vous foncez sur la cible et infligez {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% points de dégâts.\n• 2e attaque: Vous infligez {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% points de dégâts.\n• 3e attaque: Vous effectuez un grand coup final qui inflige {60/66/72/78/84/90/96/102/108/114}% points de dégâts.\n\nTags: Principale, Métamorphose, Lycanthrope, Esprit, Dégâts, Dégâts physiques.",
-			"itIT": "Costo in spirito: {#}\nProbabilità di colpo fortunato: 20%\nMuti in un Lupo Mannaro ed esegui tre attacchi:\n• Primo attacco: Scatti verso il bersaglio e infliggi {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% danni.\n• Secondo attacco: Infliggi {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% danni.\n• Terzo attacco: Esegui un'ampia mossa finale che infligge {60/66/72/78/84/90/96/102/108/114}% danni.\n\nTags: Primaria, Mutaforma, Lupo Mannaro, Spirito, Danni, Fisico.",
-			"jaJP": "精神力消費量: {#}\n幸運の一撃発生率: 20%\n人狼に変身して三段階のコンボ攻撃を行う:\n• 1回目の攻撃: {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%ダメージを与える。\n• 2回目の攻撃: {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%ダメージを与える。\n• 3回目の攻撃: 強力な必殺技を放ち、{60/66/72/78/84/90/96/102/108/114}%ダメージを与える。\n\nTags: コア, 変身, 人狼, 精神力, ダメージ, 物理.",
-			"koKR": "소모: 영력 {#}\n행운의 적중 확률: 20%\n늑대인간으로 변신하여 3번의 연계 공격을 가합니다.\n• 1번째 공격: {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%의 피해를 줍니다.\n• 2번째 공격: {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%의 피해를 줍니다.\n• 3번째 공격: 더 넓은 범위에 필살기를 가해 {60/66/72/78/84/90/96/102/108/114}%의 피해를 줍니다.\n\nTags: 핵심, 변신, 늑대인간, 영력, 피해, 물리.",
-			"plPL": "Koszt: {#} pkt. siły duchowej\nSzansa na szczęśliwy traf: 20%\nPrzemieniasz się w wilkołaka, pędzisz do celu i wykonujesz kombinację trzech ataków:\n• 1 atak: Pęd w kierunku celu i zadajesz {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń.\n• 2 atak: Zadajesz {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń.\n• 3 atak: Wykonujesz potężny cios kończący, który zadaje {60/66/72/78/84/90/96/102/108/114}% pkt. obrażeń.\n\nTags: Główne, Zmiennokształtność, Wilkołak, Siła Duchowa, Obrażenia, Fizyczne.",
-			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 20%\nTransforma-se em um lobisomem e realiza três ataques em combo:\n• 1º ataque:Avança contra o alvo e causa {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano.\n• 2º ataque: Causa {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano.\n• 3º ataque: Realiza uma finalização maior, causando {60/66/72/78/84/90/96/102/108/114}% de dano.\n\nTags: Principal, Metamorfose, Lobisomem, Espírito, Dano, Física.",
-			"ruRU": "Затраты духа: {#}\nВероятность удачного удара: 20%\nВы принимаете облик волка и проводите серию из трех атак:\n• 1-я атака: совершает рывок к цели и наносит {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона.\n• 2-я атака: наносит {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона.\n• 3-я атака: мощный завершающий прием наносит {60/66/72/78/84/90/96/102/108/114}% ед. урона.\n\nTags: Основное, Смена облика, Облик волка, Дух, Урон, Физический урон.",
-			"zhCN": "灵力消耗: {#}\n幸运一击几率: 20%\n变成狼人并发动三连击:\n• 第一次攻击: 朝目标疾奔并造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n• 第二次攻击: 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n• 第三次攻击: 发动一次更强大的终结技能, 造成 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理.",
-			"zhTW": "靈力消耗:{#}\n幸運觸發機率:20%\n變身為狼人並使出三連擊:\n• 第 1 次攻擊:衝向目標並造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。\n• 第 2 次攻擊:造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害。\n• 第 3 次攻擊:使出強力終結攻擊,造成 {60/66/72/78/84/90/96/102/108/114}% 點傷害。\n\nTags: 核心, 變形, 狼人, 靈力, 傷害, 物理."
+			"deDE": "Geisteskraftkosten: 35\nGlückstrefferchance: 20%\nVerwandelt Euch in einen Werwolf und führt eine Kombo aus drei Angriffen:\n• 1. Angriff: Stürmt auf das Ziel zu und verursacht {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden.\n• 2. Angriff: Verursacht {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden.\n• 3. Angriff: Führt einen mächtigen Finishing-Move aus, der {60/66/72/78/84/90/96/102/108/114}% Schaden verursacht.\n\nTags: Kern, Gestaltwandeln, Werwolf, Geisteskraft, Schaden, Physisch.",
+			"esES": "Coste de espíritu: 35\nProbabilidad de golpe de suerte: 20%\nTe transformas en un hombre lobo y ejecutas un combo triple:\n• Primer ataque:Corres hacia el objetivo e infliges {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño.\n• Segundo ataque: Infliges {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño.\n• Tercer ataque: Ejecutas un remate mayor que inflige {60/66/72/78/84/90/96/102/108/114}% de daños.\n\nTags: Principal, Cambio de forma, Hombre lobo, Espíritu, Daño, Física.",
+			"esMX": "Costo de Espíritu: 35\nProbabilidad de golpe afortunado: 20%\nCambias de forma a un hombre lobo y realizas un trío de ataques de combo:\n• Primer ataque: Arremete contra el objetivo e inflige {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño.\n• Segundo ataque: Inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño.\n• Tercer ataque: Realizas un ataque final mayor que inflige {60/66/72/78/84/90/96/102/108/114}% de daño.\n\nTags: Principal, Metamorfosis, Hombre lobo, Espíritu, Daño, Física.",
+			"frFR": "Coût en esprit: 35\nChances d'obtenir un coup de chance: 20%\nVous vous transformez en lycanthrope et effectuez un combo de trois attaques :\n• 1re attaque: Vous foncez sur la cible et infligez {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% points de dégâts.\n• 2e attaque: Vous infligez {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% points de dégâts.\n• 3e attaque: Vous effectuez un grand coup final qui inflige {60/66/72/78/84/90/96/102/108/114}% points de dégâts.\n\nTags: Principale, Métamorphose, Lycanthrope, Esprit, Dégâts, Dégâts physiques.",
+			"itIT": "Costo in spirito: 35\nProbabilità di colpo fortunato: 20%\nMuti in un Lupo Mannaro ed esegui tre attacchi:\n• Primo attacco: Scatti verso il bersaglio e infliggi {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% danni.\n• Secondo attacco: Infliggi {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% danni.\n• Terzo attacco: Esegui un'ampia mossa finale che infligge {60/66/72/78/84/90/96/102/108/114}% danni.\n\nTags: Primaria, Mutaforma, Lupo Mannaro, Spirito, Danni, Fisico.",
+			"jaJP": "精神力消費量: 35\n幸運の一撃発生率: 20%\n人狼に変身して三段階のコンボ攻撃を行う:\n• 1回目の攻撃: {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%ダメージを与える。\n• 2回目の攻撃: {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%ダメージを与える。\n• 3回目の攻撃: 強力な必殺技を放ち、{60/66/72/78/84/90/96/102/108/114}%ダメージを与える。\n\nTags: コア, 変身, 人狼, 精神力, ダメージ, 物理.",
+			"koKR": "소모: 영력 35\n행운의 적중 확률: 20%\n늑대인간으로 변신하여 3번의 연계 공격을 가합니다.\n• 1번째 공격: {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%의 피해를 줍니다.\n• 2번째 공격: {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%의 피해를 줍니다.\n• 3번째 공격: 더 넓은 범위에 필살기를 가해 {60/66/72/78/84/90/96/102/108/114}%의 피해를 줍니다.\n\nTags: 핵심, 변신, 늑대인간, 영력, 피해, 물리.",
+			"plPL": "Koszt: 35 pkt. siły duchowej\nSzansa na szczęśliwy traf: 20%\nPrzemieniasz się w wilkołaka, pędzisz do celu i wykonujesz kombinację trzech ataków:\n• 1 atak: Pęd w kierunku celu i zadajesz {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń.\n• 2 atak: Zadajesz {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń.\n• 3 atak: Wykonujesz potężny cios kończący, który zadaje {60/66/72/78/84/90/96/102/108/114}% pkt. obrażeń.\n\nTags: Główne, Zmiennokształtność, Wilkołak, Siła Duchowa, Obrażenia, Fizyczne.",
+			"ptBR": "Custo de espírito: 35\nChance de Golpe de Sorte: 20%\nTransforma-se em um lobisomem e realiza três ataques em combo:\n• 1º ataque:Avança contra o alvo e causa {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano.\n• 2º ataque: Causa {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano.\n• 3º ataque: Realiza uma finalização maior, causando {60/66/72/78/84/90/96/102/108/114}% de dano.\n\nTags: Principal, Metamorfose, Lobisomem, Espírito, Dano, Física.",
+			"ruRU": "Затраты духа: 35\nВероятность удачного удара: 20%\nВы принимаете облик волка и проводите серию из трех атак:\n• 1-я атака: совершает рывок к цели и наносит {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона.\n• 2-я атака: наносит {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона.\n• 3-я атака: мощный завершающий прием наносит {60/66/72/78/84/90/96/102/108/114}% ед. урона.\n\nTags: Основное, Смена облика, Облик волка, Дух, Урон, Физический урон.",
+			"zhCN": "灵力消耗: 35\n幸运一击几率: 20%\n变成狼人并发动三连击:\n• 第一次攻击: 朝目标疾奔并造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n• 第二次攻击: 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n• 第三次攻击: 发动一次更强大的终结技能, 造成 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理.",
+			"zhTW": "靈力消耗:35\n幸運觸發機率:20%\n變身為狼人並使出三連擊:\n• 第 1 次攻擊:衝向目標並造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。\n• 第 2 次攻擊:造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害。\n• 第 3 次攻擊:使出強力終結攻擊,造成 {60/66/72/78/84/90/96/102/108/114}% 點傷害。\n\nTags: 核心, 變形, 狼人, 靈力, 傷害, 物理."
 },
 		id: 33,
 		maxPoints: 5,
-		values: [ "35" ],
 		x: -446.83,
 		y: 275.82
 	},
@@ -1475,7 +1471,7 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 	},
 	"Lightning Storm": {
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
-		description: `Spirit Cost: {#} per strike
+		description: `Spirit Cost: 15 per strike
 Lucky Hit Chance: 15%
 Conjure a growing lightning storm that deals {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage per strike. The number of strikes increase the longer the storm is channeled up to a maximum of 5 at once.
 
@@ -1495,22 +1491,21 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"zhTW": "閃電風暴"
 },
 		descriptionLocalized: {
-			"deDE": "Geisteskraftkosten: {#} pro Angriff\nGlückstrefferchance: 15%\nBeschwört einen wachsenden Gewittersturm, der {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% Schaden pro Angriff verursacht. Die Anzahl der Angriffe wird erhöht, solange der Sturm kanalisiert wird, bis zu einem Maximum von 5 gleichzeitig.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
-			"esES": "Coste de espíritu: {#} por golpe\nProbabilidad de golpe de suerte: 15%\nCreas una tormenta de rayos creciente que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizada, Espíritu, Daño, Rayos.",
-			"esMX": "Costo de Espíritu: {#} por golpe\nProbabilidad de golpe afortunado: 15%\nConjuras una tormenta eléctrica creciente que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizado, Espíritu, Daño, Rayo.",
-			"frFR": "Coût en esprit: {#} par frappe.\nChances d'obtenir un coup de chance: 15%\nVous invoquez un orage grandissant qui inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% points de dégâts par coup de foudre. Le nombre de coups de foudre augmente avec la durée de canalisation de l'orage, jusqu'à un maximum de 5 coups à la fois.\n\nTags: Principale, Magie naturelle, Tempête, Canalisation, Esprit, Dégâts, Foudre.",
-			"itIT": "Costo in spirito: {#} per fulmine\nProbabilità di colpo fortunato: 15%\nInvochi una tempesta di fulmini crescente che infligge {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% danni per fulmine. Il numero di fulmini aumenta in base alla durata della canalizzazione della tempesta, fino a un massimo di 5 simultanei.\n\nTags: Primaria, Magia naturale, Tempesta, Canalizzazione, Spirito, Danni, Fulmine.",
-			"jaJP": "精神力消費量: 一撃ごとに{#}\n幸運の一撃発生率: 15%\n成長する稲妻の嵐を呼び出し、1撃ごとに{32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%のダメージを与える。嵐の召喚が長いほど命中回数が増加し、一度に最大5回まで命中する。\n\nTags: コア, 自然魔法, 嵐, 連続発動, 精神力, ダメージ, 稲妻.",
-			"koKR": "소모: 공격당 영력 {#}\n행운의 적중 확률: 15%\n점점 커지는 번개 폭풍을 생성하여 공격당 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%의 피해를 줍니다. 정신 집중이 계속되면 번개 폭풍의 공격 횟수가 한 번에 최대 5까지 증가합니다.\n\nTags: 핵심, 자연 마법, 폭풍, 정신 집중, 영력, 피해, 번개.",
-			"plPL": "Koszt: {#} pkt. siły duchowej za każde trafienie\nSzansa na szczęśliwy traf: 15%\nPrzywołujesz rozrastającą się burzę z piorunami, które zadają {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń przy każdym uderzeniu. Liczba uderzeń wzrasta wraz z czasem podtrzymywania, maksymalnie do 5 naraz.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
-			"ptBR": "Custo de espírito: {#} por acerto\nChance de Golpe de Sorte: 15%\nConjura uma tempestade de raios crescente que causa {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de dano por raio. O número de raios aumenta conforme o tempo de canalização da tempestade, até o máximo de 5 ao mesmo tempo.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
-			"ruRU": "Затраты духа: {#} ед. за удар.\nВероятность удачного удара: 15%.\nПризывает растущий грозовой шторм, наносящий {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона за каждый удар. Количество ударов увеличивается с поддержанием умения вплоть до 5.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
-			"zhCN": "灵力消耗: 每次打击消耗{#}点\n幸运一击几率: 15%\n召唤一阵不断变强的雷暴, 每一击造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害, 并且引导时间越长, 命中目标的数量越多, 最多可同时命中 5 个目标。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
-			"zhTW": "每次雷擊靈力消耗:{#}\n幸運觸發機率:15%\n呼喚不斷成長的閃電風暴,每次雷擊造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 點傷害。風暴引導的時間越長,雷擊的次數就越多,一次引導最多可提高至 5 次。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 電擊."
+			"deDE": "Geisteskraftkosten: 15 pro Angriff\nGlückstrefferchance: 15%\nBeschwört einen wachsenden Gewittersturm, der {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% Schaden pro Angriff verursacht. Die Anzahl der Angriffe wird erhöht, solange der Sturm kanalisiert wird, bis zu einem Maximum von 5 gleichzeitig.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
+			"esES": "Coste de espíritu: 15 por golpe\nProbabilidad de golpe de suerte: 15%\nCreas una tormenta de rayos creciente que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizada, Espíritu, Daño, Rayos.",
+			"esMX": "Costo de Espíritu: 15 por golpe\nProbabilidad de golpe afortunado: 15%\nConjuras una tormenta eléctrica creciente que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizado, Espíritu, Daño, Rayo.",
+			"frFR": "Coût en esprit: 15 par frappe.\nChances d'obtenir un coup de chance: 15%\nVous invoquez un orage grandissant qui inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% points de dégâts par coup de foudre. Le nombre de coups de foudre augmente avec la durée de canalisation de l'orage, jusqu'à un maximum de 5 coups à la fois.\n\nTags: Principale, Magie naturelle, Tempête, Canalisation, Esprit, Dégâts, Foudre.",
+			"itIT": "Costo in spirito: 15 per fulmine\nProbabilità di colpo fortunato: 15%\nInvochi una tempesta di fulmini crescente che infligge {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% danni per fulmine. Il numero di fulmini aumenta in base alla durata della canalizzazione della tempesta, fino a un massimo di 5 simultanei.\n\nTags: Primaria, Magia naturale, Tempesta, Canalizzazione, Spirito, Danni, Fulmine.",
+			"jaJP": "精神力消費量: 一撃ごとに15\n幸運の一撃発生率: 15%\n成長する稲妻の嵐を呼び出し、1撃ごとに{32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%のダメージを与える。嵐の召喚が長いほど命中回数が増加し、一度に最大5回まで命中する。\n\nTags: コア, 自然魔法, 嵐, 連続発動, 精神力, ダメージ, 稲妻.",
+			"koKR": "소모: 공격당 영력 15\n행운의 적중 확률: 15%\n점점 커지는 번개 폭풍을 생성하여 공격당 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%의 피해를 줍니다. 정신 집중이 계속되면 번개 폭풍의 공격 횟수가 한 번에 최대 5까지 증가합니다.\n\nTags: 핵심, 자연 마법, 폭풍, 정신 집중, 영력, 피해, 번개.",
+			"plPL": "Koszt: 15 pkt. siły duchowej za każde trafienie\nSzansa na szczęśliwy traf: 15%\nPrzywołujesz rozrastającą się burzę z piorunami, które zadają {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń przy każdym uderzeniu. Liczba uderzeń wzrasta wraz z czasem podtrzymywania, maksymalnie do 5 naraz.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
+			"ptBR": "Custo de espírito: 15 por acerto\nChance de Golpe de Sorte: 15%\nConjura uma tempestade de raios crescente que causa {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de dano por raio. O número de raios aumenta conforme o tempo de canalização da tempestade, até o máximo de 5 ao mesmo tempo.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
+			"ruRU": "Затраты духа: 15 ед. за удар.\nВероятность удачного удара: 15%.\nПризывает растущий грозовой шторм, наносящий {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона за каждый удар. Количество ударов увеличивается с поддержанием умения вплоть до 5.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
+			"zhCN": "灵力消耗: 每次打击消耗15点\n幸运一击几率: 15%\n召唤一阵不断变强的雷暴, 每一击造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害, 并且引导时间越长, 命中目标的数量越多, 最多可同时命中 5 个目标。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
+			"zhTW": "每次雷擊靈力消耗:15\n幸運觸發機率:15%\n呼喚不斷成長的閃電風暴,每次雷擊造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 點傷害。風暴引導的時間越長,雷擊的次數就越多,一次引導最多可提高至 5 次。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 電擊."
 },
 		id: 37,
 		maxPoints: 5,
-		values: [ "15" ],
 		x: -452.28,
 		y: -268.415
 	},

@@ -681,7 +681,7 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 necromancerData["Core"] = {
 	"Blight": {
 		connections: [ "Enhanced Blight", "Core" ],
-		description: `Essence Cost: {#}
+		description: `Essence Cost: 25
 Lucky Hit Chance: 40%
 Unleash concentrated blight that deals {30/33/36/39/42/45/48/51/54/57}% damage and leaves behind a defiled area, dealing {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% damage over 6 seconds.
 
@@ -701,22 +701,21 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"zhTW": "荒疫"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 40%\nEntfesselt eine konzentrierte Pest, die {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und ein verunreinigtes Gebiet zurücklässt, das im Verlauf von 6 Sek. {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% Schaden verursacht.\n\nTags: Kern, Dunkelheit, Schaden, Schattenschaden über Zeit, Essenz.",
-			"esES": "Coste de esencia: {#}\nProbabilidad de golpe de suerte: 40%\nLanzas una peste concentrada que inflige {30/33/36/39/42/45/48/51/54/57}% de daño y deja tras de sí una zona ultrajada que inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de daño durante 6 s.\n\nTags: Principal, Oscuridad, Daño, Daño de sombra en el tiempo, Esencia.",
-			"esMX": "Costo de Esencia: {#}\nProbabilidad de golpea afortunado: 40%\nLiberas una infestación concentrada que inflige {30/33/36/39/42/45/48/51/54/57}% de daño y contamina un área, lo que a su vez inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de daño durante 6 segundos.\n\nTags: Principal, Oscuridad, Daño, Daño de sombra con el tiempo, Esencia.",
-			"frFR": "Coût en essence: {#}\nChances d'obtenir un coup de chance: 40%\nVous libérez un chancre concentré qui inflige {30/33/36/39/42/45/48/51/54/57}% points de dégâts à l'impact et laisse derrière lui une zone souillée qui inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% points de dégâts en 6 s.\n\nTags: Principale, Ténèbres, Dégâts, Dégâts d'ombre sur la durée, Essence.",
-			"itIT": "Costo in essenza: {#}\nProbabilità di colpo fortunato: 40%\nScateni del morbo concentrato che infligge {30/33/36/39/42/45/48/51/54/57}% danni e lascia dietro di sé un'area corrotta, infliggendo {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% danni in 6 s.\n\nTags: Primaria, Oscurità, Danni, Danni da ombra periodici, Essenza.",
-			"jaJP": "精髄消費量: {#}\n幸運の一撃発生率: 40%\n濃縮した〈病害〉を解き放って{30/33/36/39/42/45/48/51/54/57}%のダメージを与え、さらに一帯を汚して6秒間かけて{79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%のダメージを与える。\n\nTags: コア, 闇, ダメージ, 継続影ダメージ, 精髄.",
-			"koKR": "소모: 정수 {#}\n행운의 적중 확률: 40%\n집중된 마름병을 방출하여 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고, 부정한 지대를 남겨 6초에 걸쳐 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%의 피해를 줍니다.\n\nTags: 핵심, 어둠, 피해, 지속 암흑 피해, 정수.",
-			"plPL": "Koszt: {#} pkt. esencji\nSzansa na szczęśliwy traf: 40%\nWyzwalasz skoncentrowaną energię moru, która zadaje {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i pozostawia skażony obszar zadający {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% pkt. obrażeń w ciągu 6 sek.\n\nTags: Główne, Ciemność, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja.",
-			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 40%\nLibera uma praga concentrada que causa {30/33/36/39/42/45/48/51/54/57}% de dano e deixa para trás uma área corrompida, causando {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de dano ao longo de 6 segundos.\n\nTags: Principal, Escuridão, Dano, Dano de Sombra ao Longo do Tempo, Essência.",
-			"ruRU": "Затраты эссенции: {#} ед.\nВероятность удачного удара: 40%.\nВы выпускаете концентрированную гниль, наносящую {30/33/36/39/42/45/48/51/54/57}% ед. урона и оставляющую область порчи, которая наносит {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% ед. урона за 6 сек.\n\nTags: Основное, Тьма, Урон, Периодический урон от темной магии, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 40%\n释放浓缩枯萎, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并留下一片亵渎区域, 在 6 秒内造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂.",
-			"zhTW": "魂能消耗:{#}\n幸運觸發機率:40%\n釋放一團強烈的凋萎能量,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並留下在 6 秒內造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 點傷害的汙染區域。\n\nTags: 核心, 黑暗, 傷害, 暗影持續傷害, 魂能."
+			"deDE": "Essenzkosten: 25\nGlückstrefferchance: 40%\nEntfesselt eine konzentrierte Pest, die {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und ein verunreinigtes Gebiet zurücklässt, das im Verlauf von 6 Sek. {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% Schaden verursacht.\n\nTags: Kern, Dunkelheit, Schaden, Schattenschaden über Zeit, Essenz.",
+			"esES": "Coste de esencia: 25\nProbabilidad de golpe de suerte: 40%\nLanzas una peste concentrada que inflige {30/33/36/39/42/45/48/51/54/57}% de daño y deja tras de sí una zona ultrajada que inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de daño durante 6 s.\n\nTags: Principal, Oscuridad, Daño, Daño de sombra en el tiempo, Esencia.",
+			"esMX": "Costo de Esencia: 25\nProbabilidad de golpea afortunado: 40%\nLiberas una infestación concentrada que inflige {30/33/36/39/42/45/48/51/54/57}% de daño y contamina un área, lo que a su vez inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de daño durante 6 segundos.\n\nTags: Principal, Oscuridad, Daño, Daño de sombra con el tiempo, Esencia.",
+			"frFR": "Coût en essence: 25\nChances d'obtenir un coup de chance: 40%\nVous libérez un chancre concentré qui inflige {30/33/36/39/42/45/48/51/54/57}% points de dégâts à l'impact et laisse derrière lui une zone souillée qui inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% points de dégâts en 6 s.\n\nTags: Principale, Ténèbres, Dégâts, Dégâts d'ombre sur la durée, Essence.",
+			"itIT": "Costo in essenza: 25\nProbabilità di colpo fortunato: 40%\nScateni del morbo concentrato che infligge {30/33/36/39/42/45/48/51/54/57}% danni e lascia dietro di sé un'area corrotta, infliggendo {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% danni in 6 s.\n\nTags: Primaria, Oscurità, Danni, Danni da ombra periodici, Essenza.",
+			"jaJP": "精髄消費量: 25\n幸運の一撃発生率: 40%\n濃縮した〈病害〉を解き放って{30/33/36/39/42/45/48/51/54/57}%のダメージを与え、さらに一帯を汚して6秒間かけて{79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%のダメージを与える。\n\nTags: コア, 闇, ダメージ, 継続影ダメージ, 精髄.",
+			"koKR": "소모: 정수 25\n행운의 적중 확률: 40%\n집중된 마름병을 방출하여 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고, 부정한 지대를 남겨 6초에 걸쳐 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%의 피해를 줍니다.\n\nTags: 핵심, 어둠, 피해, 지속 암흑 피해, 정수.",
+			"plPL": "Koszt: 25 pkt. esencji\nSzansa na szczęśliwy traf: 40%\nWyzwalasz skoncentrowaną energię moru, która zadaje {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i pozostawia skażony obszar zadający {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% pkt. obrażeń w ciągu 6 sek.\n\nTags: Główne, Ciemność, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja.",
+			"ptBR": "Custo de essência: 25\nChance de Golpe de Sorte: 40%\nLibera uma praga concentrada que causa {30/33/36/39/42/45/48/51/54/57}% de dano e deixa para trás uma área corrompida, causando {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de dano ao longo de 6 segundos.\n\nTags: Principal, Escuridão, Dano, Dano de Sombra ao Longo do Tempo, Essência.",
+			"ruRU": "Затраты эссенции: 25 ед.\nВероятность удачного удара: 40%.\nВы выпускаете концентрированную гниль, наносящую {30/33/36/39/42/45/48/51/54/57}% ед. урона и оставляющую область порчи, которая наносит {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% ед. урона за 6 сек.\n\nTags: Основное, Тьма, Урон, Периодический урон от темной магии, Эссенция.",
+			"zhCN": "精魂消耗: 25\n幸运一击几率: 40%\n释放浓缩枯萎, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并留下一片亵渎区域, 在 6 秒内造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂.",
+			"zhTW": "魂能消耗:25\n幸運觸發機率:40%\n釋放一團強烈的凋萎能量,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並留下在 6 秒內造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 點傷害的汙染區域。\n\nTags: 核心, 黑暗, 傷害, 暗影持續傷害, 魂能."
 },
 		id: 16,
 		maxPoints: 5,
-		values: [ "25" ],
 		x: -543.69,
 		y: 87.56
 	},
@@ -839,7 +838,7 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 	},
 	"Sever": {
 		connections: [ "Enhanced Sever", "Core" ],
-		description: `Essence Cost: {#}
+		description: `Essence Cost: 20
 Lucky Hit Chance: 20%
 A specter of you charges forward and attacks with its scythe for {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% damage then returns to you and attacks again for {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage.
 
@@ -859,22 +858,21 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"zhTW": "斬裂"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 20%\nEin Phantom von Euch stürmt vorwärts, greift mit seiner Sense an und verursacht {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% Schaden, bevor es zu Euch zurückkehrt, erneut angreift und {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% Schaden verursacht.\n\nTags: Kern, Dunkelheit, Schaden, Schatten, Essenz.",
-			"esES": "Coste de esencia: {#}\nProbabilidad de golpe de suerte: 20%\nUn espectro tuyo carga hacia delante, ataca con su guadaña e inflige {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% de daño. Después regresa a tu lado y vuelve a atacar para infligir {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% de daño.\n\nTags: Principal, Oscuridad, Daño, Sombra, Esencia.",
-			"esMX": "Costo de Esencia: {#}\nProbabilidad de golpe afortunado: 20%\nUn espectro de ti arremete hacia adelante, ataca con su guadaña e inflige {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% de daño. Luego regresa hacia ti, ataca de nuevo e inflige {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% de daño.\n\nTags: Principal, Oscuridad, Daño, Sombra, Esencia.",
-			"frFR": "Coût en essence: {#}\nChances d'obtenir un coup de chance: 20%\nVotre forme spectrale charge vers l'avant en infligeant {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% points de dégâts avec sa faux puis revient vers vous en infligeant {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% points de dégâts.\n\nTags: Principale, Ténèbres, Dégâts, Ombre, Essence.",
-			"itIT": "Costo in essenza: {#}\nProbabilità di colpo fortunato: 20%\nUn tuo spettro carica in avanti e attacca con la falce infliggendo {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% danni, per poi tornare verso di te e attaccare nuovamente infliggendo {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% danni.\n\nTags: Primaria, Oscurità, Danni, Ombra, Essenza.",
-			"jaJP": "精髄消費量: {#}\n幸運の一撃発生率: 20%\n自身の生き霊が前方に突進し、鎌で攻撃して{63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}%のダメージを与えた後、戻ってきてから再度攻撃して{21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%のダメージを与える。\n\nTags: コア, 闇, ダメージ, 影, 精髄.",
-			"koKR": "소모: 정수 {#}\n행운의 적중 확률: 20%\n자신의 혼령이 앞으로 돌진하며 낫으로 공격해 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}%의 피해를 주고, 자신에게 돌아오며 다시 공격해 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%의 피해를 줍니다.\n\nTags: 핵심, 어둠, 피해, 암흑, 정수.",
-			"plPL": "Koszt: {#} pkt. esencji.\nSzansa na szczęśliwy traf: 20%\nTwoje widmo rusza gwałtownie naprzód i atakuje swoją kosą, zadając {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% pkt. obrażeń, a następnie wraca do ciebie i zadaje ponownie {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% pkt. obrażeń.\n\nTags: Główne, Ciemność, Obrażenia, Cień, Esencja.",
-			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 20%\nUm espectro seu avança e ataca com sua foice, causando {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% de dano. Depois ele retorna até você e ataca novamente, causando {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% de dano.\n\nTags: Principal, Escuridão, Dano, Sombra, Essência.",
-			"ruRU": "Затраты эссенции: {#} ед.\nВероятность удачного удара: 20%.\nВаша призрачная копия совершает рывок вперед и взмахивает косой, нанося {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% ед. урона, а затем возвращается к вам и совершает еще один удар, наносящий {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% ед. урона.\n\nTags: Основное, Тьма, Урон, Темная магия, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 20%\n你的幽魂向前冲锋并用镰刀发动攻击, 造成 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% 点伤害, 然后返回到你身边时再次攻击, 造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂.",
-			"zhTW": "魂能消耗:{#}\n幸運觸發機率:20%\n你的幽魂向前衝鋒並以鐮刀揮擊,造成 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% 點傷害,然後返回你身邊並再次攻擊,造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 點傷害。\n\nTags: 核心, 黑暗, 傷害, 暗影, 魂能."
+			"deDE": "Essenzkosten: 20\nGlückstrefferchance: 20%\nEin Phantom von Euch stürmt vorwärts, greift mit seiner Sense an und verursacht {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% Schaden, bevor es zu Euch zurückkehrt, erneut angreift und {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% Schaden verursacht.\n\nTags: Kern, Dunkelheit, Schaden, Schatten, Essenz.",
+			"esES": "Coste de esencia: 20\nProbabilidad de golpe de suerte: 20%\nUn espectro tuyo carga hacia delante, ataca con su guadaña e inflige {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% de daño. Después regresa a tu lado y vuelve a atacar para infligir {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% de daño.\n\nTags: Principal, Oscuridad, Daño, Sombra, Esencia.",
+			"esMX": "Costo de Esencia: 20\nProbabilidad de golpe afortunado: 20%\nUn espectro de ti arremete hacia adelante, ataca con su guadaña e inflige {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% de daño. Luego regresa hacia ti, ataca de nuevo e inflige {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% de daño.\n\nTags: Principal, Oscuridad, Daño, Sombra, Esencia.",
+			"frFR": "Coût en essence: 20\nChances d'obtenir un coup de chance: 20%\nVotre forme spectrale charge vers l'avant en infligeant {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% points de dégâts avec sa faux puis revient vers vous en infligeant {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% points de dégâts.\n\nTags: Principale, Ténèbres, Dégâts, Ombre, Essence.",
+			"itIT": "Costo in essenza: 20\nProbabilità di colpo fortunato: 20%\nUn tuo spettro carica in avanti e attacca con la falce infliggendo {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% danni, per poi tornare verso di te e attaccare nuovamente infliggendo {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% danni.\n\nTags: Primaria, Oscurità, Danni, Ombra, Essenza.",
+			"jaJP": "精髄消費量: 20\n幸運の一撃発生率: 20%\n自身の生き霊が前方に突進し、鎌で攻撃して{63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}%のダメージを与えた後、戻ってきてから再度攻撃して{21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%のダメージを与える。\n\nTags: コア, 闇, ダメージ, 影, 精髄.",
+			"koKR": "소모: 정수 20\n행운의 적중 확률: 20%\n자신의 혼령이 앞으로 돌진하며 낫으로 공격해 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}%의 피해를 주고, 자신에게 돌아오며 다시 공격해 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%의 피해를 줍니다.\n\nTags: 핵심, 어둠, 피해, 암흑, 정수.",
+			"plPL": "Koszt: 20 pkt. esencji.\nSzansa na szczęśliwy traf: 20%\nTwoje widmo rusza gwałtownie naprzód i atakuje swoją kosą, zadając {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% pkt. obrażeń, a następnie wraca do ciebie i zadaje ponownie {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% pkt. obrażeń.\n\nTags: Główne, Ciemność, Obrażenia, Cień, Esencja.",
+			"ptBR": "Custo de essência: 20\nChance de Golpe de Sorte: 20%\nUm espectro seu avança e ataca com sua foice, causando {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% de dano. Depois ele retorna até você e ataca novamente, causando {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% de dano.\n\nTags: Principal, Escuridão, Dano, Sombra, Essência.",
+			"ruRU": "Затраты эссенции: 20 ед.\nВероятность удачного удара: 20%.\nВаша призрачная копия совершает рывок вперед и взмахивает косой, нанося {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% ед. урона, а затем возвращается к вам и совершает еще один удар, наносящий {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% ед. урона.\n\nTags: Основное, Тьма, Урон, Темная магия, Эссенция.",
+			"zhCN": "精魂消耗: 20\n幸运一击几率: 20%\n你的幽魂向前冲锋并用镰刀发动攻击, 造成 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% 点伤害, 然后返回到你身边时再次攻击, 造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂.",
+			"zhTW": "魂能消耗:20\n幸運觸發機率:20%\n你的幽魂向前衝鋒並以鐮刀揮擊,造成 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% 點傷害,然後返回你身邊並再次攻擊,造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 點傷害。\n\nTags: 核心, 黑暗, 傷害, 暗影, 魂能."
 },
 		id: 20,
 		maxPoints: 5,
-		values: [ "20" ],
 		x: -281.15,
 		y: 258.115
 	},
@@ -997,7 +995,7 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 	},
 	"Blood Surge": {
 		connections: [ "Enhanced Blood Surge", "Core" ],
-		description: `Essence Cost: {#}
+		description: `Essence Cost: 30
 Lucky Hit Chance: 12%
 Draw blood from enemies, dealing {20/22/24/26/28/30/32/34/36/38}% damage, and expel a blood nova, dealing {50/55/60/65/70/75/80/85/90/95}% damage. Blood Surge's nova damage is increased by x10% per enemy drained, up to x50%.
 
@@ -1017,22 +1015,21 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"zhTW": "鮮血奔湧"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 12%\nEntzieht Gegnern Blut, was {20/22/24/26/28/30/32/34/36/38}% Schaden verursacht, und erzeugt eine Blutnova, die {50/55/60/65/70/75/80/85/90/95}% Schaden verursacht. Der Schaden der Nova von Blutwoge erhöht sich um x10% pro blutentleertem Gegner, bis maximal x50%.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
-			"esES": "Coste de esencia: {#}\nProbabilidad de golpe de suerte: 12%\nDrenas sangre de los enemigos para infligirles {20/22/24/26/28/30/32/34/36/38}% de daño y generar una nova de sangre que inflige {50/55/60/65/70/75/80/85/90/95}% de daño. El daño de la nova de Andanada de sangre aumenta un x10% por cada enemigo drenado, hasta un máximo de un x50%.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
-			"esMX": "Costo de Esencia: {#}\nProbabilidad de golpe afortunado: 12%\nSuccionas la sangre de los enemigos, les infliges {20/22/24/26/28/30/32/34/36/38}% de daño y expulsas una nova de sangre que inflige {50/55/60/65/70/75/80/85/90/95}% de daño. El daño de la nova de Torrente Sanguíneo aumenta un x10% por cada enemigo drenado, hasta un máximo del x50%.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
-			"frFR": "Coût en essence: {#}\nChances d'obtenir un coup de chance: 12%\nVous drainez le sang des adversaires, ce qui leur inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts et émet une nova de sang qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts. Les dégâts de la nova d'Afflux sanguin sont augmentés de x10% par cible drainée, jusqu'à un maximum de x50%.\n\nTags: Principale, Sang, Dégâts, Dégâts physiques, Essence.",
-			"itIT": "Costo in essenza: {#}\nProbabilità di colpo fortunato: 12%\nRisucchi il sangue dai nemici, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni e creando una Nova di Sangue che infligge {50/55/60/65/70/75/80/85/90/95}% danni. I danni della nova di Scarica di Sangue aumentano del x10% per ogni nemico dissanguato, fino a un massimo del x50%.\n\nTags: Primaria, Sangue, Danni, Fisico, Essenza.",
-			"jaJP": "精髄消費量: {#}\n幸運の一撃発生率: 12%\n敵から血液を抜き出して{20/22/24/26/28/30/32/34/36/38}%のダメージを与え、ブラッド・ノヴァを発射して{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。〈ブラッド・サージ〉のノヴァのダメージは血を抜き出した敵1体あたりx10%増加する。増加率は最大x50%。\n\nTags: コア, 血, ダメージ, 物理, 精髄.",
-			"koKR": "소모: 정수 {#}\n행운의 적중 확률: 12%\n적에게서 피를 뽑아, {20/22/24/26/28/30/32/34/36/38}%의 피해를 주고 피의 회오리를 방출하여 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다. 피를 뽑는 적 하나당 피의 쇄도 회오리의 공격력이 x10%만큼, 최대 x50%까지 증가합니다.\n\nTags: 핵심, 피, 피해, 물리, 정수.",
-			"plPL": "Koszt: {#} pkt. esencji.\nSzansa na szczęśliwy traf: 12%\nWysysasz krew z wrogów i zadajesz im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń, a następnie wywołujesz Novę Krwi, która zadaje {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń. Obrażenia od Novy za Napływ Krwi są zwiększane o x10% za każdego pozbawionego krwi wroga, aż do x50%.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
-			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 12%\nExtrai sangue dos inimigos, causando {20/22/24/26/28/30/32/34/36/38}% de dano, e expele uma nova de sangue, causando {50/55/60/65/70/75/80/85/90/95}% de dano. O dano da nova de Surto de Sangue é aumentado em 10% por inimigo drenado, até 50%.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
-			"ruRU": "Затраты эссенции: {#}\nВероятность удачного удара: 12%\nВы вытягиваете кровь противников, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона, и исторгаете кольцо крови, наносящее {50/55/60/65/70/75/80/85/90/95}% ед. урона. Урон от кольца \"Волнения крови\" увеличивается на x10% за каждого обескровленного противника вплоть до x50%.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 12%\n从敌人身上吸取鲜血, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害并释放一次鲜血新星, 造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。每吸取一名敌人的鲜血, 血涌的新星伤害提高 x10%, 最多提高 x50%。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
-			"zhTW": "魂能消耗:{#}\n幸運觸發機率:12%\n從敵人身上榨取鮮血,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害,並且放出血濤新星造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。每榨取一個敵人可使鮮血奔湧的新星傷害提高 x10%,最高可達 x50%。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
+			"deDE": "Essenzkosten: 30\nGlückstrefferchance: 12%\nEntzieht Gegnern Blut, was {20/22/24/26/28/30/32/34/36/38}% Schaden verursacht, und erzeugt eine Blutnova, die {50/55/60/65/70/75/80/85/90/95}% Schaden verursacht. Der Schaden der Nova von Blutwoge erhöht sich um x10% pro blutentleertem Gegner, bis maximal x50%.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
+			"esES": "Coste de esencia: 30\nProbabilidad de golpe de suerte: 12%\nDrenas sangre de los enemigos para infligirles {20/22/24/26/28/30/32/34/36/38}% de daño y generar una nova de sangre que inflige {50/55/60/65/70/75/80/85/90/95}% de daño. El daño de la nova de Andanada de sangre aumenta un x10% por cada enemigo drenado, hasta un máximo de un x50%.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
+			"esMX": "Costo de Esencia: 30\nProbabilidad de golpe afortunado: 12%\nSuccionas la sangre de los enemigos, les infliges {20/22/24/26/28/30/32/34/36/38}% de daño y expulsas una nova de sangre que inflige {50/55/60/65/70/75/80/85/90/95}% de daño. El daño de la nova de Torrente Sanguíneo aumenta un x10% por cada enemigo drenado, hasta un máximo del x50%.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
+			"frFR": "Coût en essence: 30\nChances d'obtenir un coup de chance: 12%\nVous drainez le sang des adversaires, ce qui leur inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts et émet une nova de sang qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts. Les dégâts de la nova d'Afflux sanguin sont augmentés de x10% par cible drainée, jusqu'à un maximum de x50%.\n\nTags: Principale, Sang, Dégâts, Dégâts physiques, Essence.",
+			"itIT": "Costo in essenza: 30\nProbabilità di colpo fortunato: 12%\nRisucchi il sangue dai nemici, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni e creando una Nova di Sangue che infligge {50/55/60/65/70/75/80/85/90/95}% danni. I danni della nova di Scarica di Sangue aumentano del x10% per ogni nemico dissanguato, fino a un massimo del x50%.\n\nTags: Primaria, Sangue, Danni, Fisico, Essenza.",
+			"jaJP": "精髄消費量: 30\n幸運の一撃発生率: 12%\n敵から血液を抜き出して{20/22/24/26/28/30/32/34/36/38}%のダメージを与え、ブラッド・ノヴァを発射して{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。〈ブラッド・サージ〉のノヴァのダメージは血を抜き出した敵1体あたりx10%増加する。増加率は最大x50%。\n\nTags: コア, 血, ダメージ, 物理, 精髄.",
+			"koKR": "소모: 정수 30\n행운의 적중 확률: 12%\n적에게서 피를 뽑아, {20/22/24/26/28/30/32/34/36/38}%의 피해를 주고 피의 회오리를 방출하여 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다. 피를 뽑는 적 하나당 피의 쇄도 회오리의 공격력이 x10%만큼, 최대 x50%까지 증가합니다.\n\nTags: 핵심, 피, 피해, 물리, 정수.",
+			"plPL": "Koszt: 30 pkt. esencji.\nSzansa na szczęśliwy traf: 12%\nWysysasz krew z wrogów i zadajesz im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń, a następnie wywołujesz Novę Krwi, która zadaje {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń. Obrażenia od Novy za Napływ Krwi są zwiększane o x10% za każdego pozbawionego krwi wroga, aż do x50%.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
+			"ptBR": "Custo de essência: 30\nChance de Golpe de Sorte: 12%\nExtrai sangue dos inimigos, causando {20/22/24/26/28/30/32/34/36/38}% de dano, e expele uma nova de sangue, causando {50/55/60/65/70/75/80/85/90/95}% de dano. O dano da nova de Surto de Sangue é aumentado em 10% por inimigo drenado, até 50%.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
+			"ruRU": "Затраты эссенции: 30\nВероятность удачного удара: 12%\nВы вытягиваете кровь противников, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона, и исторгаете кольцо крови, наносящее {50/55/60/65/70/75/80/85/90/95}% ед. урона. Урон от кольца \"Волнения крови\" увеличивается на x10% за каждого обескровленного противника вплоть до x50%.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
+			"zhCN": "精魂消耗: 30\n幸运一击几率: 12%\n从敌人身上吸取鲜血, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害并释放一次鲜血新星, 造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。每吸取一名敌人的鲜血, 血涌的新星伤害提高 x10%, 最多提高 x50%。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "魂能消耗:30\n幸運觸發機率:12%\n從敵人身上榨取鮮血,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害,並且放出血濤新星造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。每榨取一個敵人可使鮮血奔湧的新星傷害提高 x10%,最高可達 x50%。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 24,
 		maxPoints: 5,
-		values: [ "30" ],
 		x: -542.58,
 		y: -124.71
 	},
@@ -1155,7 +1152,7 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 	},
 	"Blood Lance": {
 		connections: [ "Enhanced Blood Lance", "Core" ],
-		description: `Essence Cost: {#}
+		description: `Essence Cost: 15
 Lucky Hit Chance: 33%
 Throw a blood lance that lingers in an enemy for 3 seconds, dealing {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% damage to the enemy and all other lanced enemies.
 
@@ -1175,22 +1172,21 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"zhTW": "鮮血之槍"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 33%\nWerft eine Blutlanze, die 3 Sek. lang in einem Gegner verbleibt und diesem und allen anderen betroffenen Gegnern {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% Schaden zufügt.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
-			"esES": "Coste de esencia: {#}\nProbabilidad de golpe de suerte: 33%\nArrojas una lanza de sangre que permanece en el enemigo durante 3 s e inflige {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de daño al enemigo y al resto de enemigos atravesados.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
-			"esMX": "Costo de Esencia: {#}\nProbabilidad de golpe afortunado: 33%\nArrojas una lanza sangrienta que permanece clavada en un enemigo durante 3 segundos e inflige {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de daño al enemigo y a los demás enemigos atravesados por la lanza.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
-			"frFR": "Coût en essence: {#}\nChances d'obtenir un coup de chance: 33%\nVous projetez une lance de sang qui reste plantée dans l'adversaire pendant 3 s, infligeant {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% points de dégâts à cette cible ainsi qu'à toutes les autres cibles empalées.\n\nTags: Principale, Sang, Dégâts, Dégâts physiques, Essence.",
-			"itIT": "Costo in essenza: {#}\nProbabilità di colpo fortunato: 33%\nScagli una lancia di sangue che infilza un nemico per 3 s. La lancia infligge {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% danni al bersaglio e a tutti gli altri nemici infilzati.\n\nTags: Primaria, Sangue, Danni, Fisico, Essenza.",
-			"jaJP": "精髄消費量: {#}\n幸運の一撃発生率: 33%\n敵に3秒間残る〈ブラッド・ランス〉を放って、対象の敵および貫通したすべての敵に{67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}%のダメージを与える。\n\nTags: コア, 血, ダメージ, 物理, 精髄.",
-			"koKR": "소모: 정수 {#}\n행운의 적중 확률: 33%\n피의 창을 던집니다. 창은 3초 동안 적에게 꽂혀 있으면서 해당 적과 창이 꽂힌 모든 적에게 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}%의 피해를 줍니다.\n\nTags: 핵심, 피, 피해, 물리, 정수.",
-			"plPL": "Koszt: {#} pkt. esencji\nSzansa na szczęśliwy traf: 33%\nMiotasz krwawą lancą, która tkwi w przeciwniku przez 3 sek., zadając {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% pkt. obrażeń temu wrogowi i wszystkim pozostałym wrogom, którzy są przebici lancą.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
-			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 33%\nArremessa uma lança de sangue que permanece em um inimigo por 3 segundos, causando {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de dano ao inimigo e a todos os outros inimigos atingidos por lança.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
-			"ruRU": "Затраты эссенции: {#} ед.\nВероятность удачного удара: 33%.\nВы бросаете окровавленное копье, которое остается в теле противника в течение 3 сек. и наносит {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% ед. урона цели и остальным пронзенным противникам.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 33%\n投掷一支留在敌人体内 3 秒的血矛, 对该敌人和所有其他被血矛刺中的敌人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 点伤害。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
-			"zhTW": "魂能消耗:{#}\n幸運觸發機率:33%\n投擲一把鮮血之槍,它會留在敵人身上 3 秒,對該敵人與其他被刺中的敵人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 點傷害。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
+			"deDE": "Essenzkosten: 15\nGlückstrefferchance: 33%\nWerft eine Blutlanze, die 3 Sek. lang in einem Gegner verbleibt und diesem und allen anderen betroffenen Gegnern {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% Schaden zufügt.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
+			"esES": "Coste de esencia: 15\nProbabilidad de golpe de suerte: 33%\nArrojas una lanza de sangre que permanece en el enemigo durante 3 s e inflige {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de daño al enemigo y al resto de enemigos atravesados.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
+			"esMX": "Costo de Esencia: 15\nProbabilidad de golpe afortunado: 33%\nArrojas una lanza sangrienta que permanece clavada en un enemigo durante 3 segundos e inflige {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de daño al enemigo y a los demás enemigos atravesados por la lanza.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
+			"frFR": "Coût en essence: 15\nChances d'obtenir un coup de chance: 33%\nVous projetez une lance de sang qui reste plantée dans l'adversaire pendant 3 s, infligeant {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% points de dégâts à cette cible ainsi qu'à toutes les autres cibles empalées.\n\nTags: Principale, Sang, Dégâts, Dégâts physiques, Essence.",
+			"itIT": "Costo in essenza: 15\nProbabilità di colpo fortunato: 33%\nScagli una lancia di sangue che infilza un nemico per 3 s. La lancia infligge {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% danni al bersaglio e a tutti gli altri nemici infilzati.\n\nTags: Primaria, Sangue, Danni, Fisico, Essenza.",
+			"jaJP": "精髄消費量: 15\n幸運の一撃発生率: 33%\n敵に3秒間残る〈ブラッド・ランス〉を放って、対象の敵および貫通したすべての敵に{67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}%のダメージを与える。\n\nTags: コア, 血, ダメージ, 物理, 精髄.",
+			"koKR": "소모: 정수 15\n행운의 적중 확률: 33%\n피의 창을 던집니다. 창은 3초 동안 적에게 꽂혀 있으면서 해당 적과 창이 꽂힌 모든 적에게 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}%의 피해를 줍니다.\n\nTags: 핵심, 피, 피해, 물리, 정수.",
+			"plPL": "Koszt: 15 pkt. esencji\nSzansa na szczęśliwy traf: 33%\nMiotasz krwawą lancą, która tkwi w przeciwniku przez 3 sek., zadając {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% pkt. obrażeń temu wrogowi i wszystkim pozostałym wrogom, którzy są przebici lancą.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
+			"ptBR": "Custo de essência: 15\nChance de Golpe de Sorte: 33%\nArremessa uma lança de sangue que permanece em um inimigo por 3 segundos, causando {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de dano ao inimigo e a todos os outros inimigos atingidos por lança.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
+			"ruRU": "Затраты эссенции: 15 ед.\nВероятность удачного удара: 33%.\nВы бросаете окровавленное копье, которое остается в теле противника в течение 3 сек. и наносит {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% ед. урона цели и остальным пронзенным противникам.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
+			"zhCN": "精魂消耗: 15\n幸运一击几率: 33%\n投掷一支留在敌人体内 3 秒的血矛, 对该敌人和所有其他被血矛刺中的敌人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 点伤害。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "魂能消耗:15\n幸運觸發機率:33%\n投擲一把鮮血之槍,它會留在敵人身上 3 秒,對該敵人與其他被刺中的敵人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 點傷害。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 28,
 		maxPoints: 5,
-		values: [ "15" ],
 		x: -278.15,
 		y: -274.3
 	},
@@ -1313,7 +1309,7 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 	},
 	"Bone Spear": {
 		connections: [ "Enhanced Bone Spear", "Core" ],
-		description: `Essence Cost: {#}
+		description: `Essence Cost: 25
 Lucky Hit Chance: 50%
 Conjure a bone spear from the ground, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage and piercing through enemies.
 
@@ -1333,22 +1329,21 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"zhTW": "骨矛"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 50%\nBeschwört einen Knochenspeer aus dem Boden, der {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% Schaden verursacht und Gegner durchschlägt.\n\nTags: Kern, Knochen, Schaden, Physisch, Essenz.",
-			"esES": "Coste de esencia: {#}\nProbabilidad de golpe de suerte: 50%\nGeneras desde el suelo una lanza de hueso que inflige {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% de daño y atraviesa a los enemigos.\n\nTags: Principal, Hueso, Daño, Física, Esencia.",
-			"esMX": "Costo de Esencia: {#}\nProbabilidad de golpe afortunado: 50%\nConjuras una lanza ósea desde el suelo, lo que inflige {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% de daño y perfora a los enemigos.\n\nTags: Principal, Hueso, Daño, Física, Esencia.",
-			"frFR": "Coût en essence: {#}\nChances d'obtenir un coup de chance: 50%\nVous faites jaillir du sol une lance d'os qui inflige {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% points de dégâts et transperce les adversaires.\n\nTags: Principale, Os, Dégâts, Dégâts physiques, Essence.",
-			"itIT": "Costo in essenza: {#}\nProbabilità di colpo fortunato: 50%\nInvochi una lancia d'ossa dal terreno, infliggendo {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% danni e perforando i nemici.\n\nTags: Primaria, Ossa, Danni, Fisico, Essenza.",
-			"jaJP": "精髄消費量: {#}\n幸運の一撃発生率: 50%\n〈ボーン・スピア〉を地面から生やし、{85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%のダメージを与えて複数の敵を貫通する。\n\nTags: コア, 骨, ダメージ, 物理, 精髄.",
-			"koKR": "소모: 정수 {#}\n행운의 적중 확률: 50%\n지면에서 뼈 창을 구현하여 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%의 피해를 주고 적을 관통합니다.\n\nTags: 핵심, 뼈, 피해, 물리, 정수.",
-			"plPL": "Koszt: {#} pkt. esencji\nSzansa na szczęśliwy traf: 50%\nPrzyzywasz z ziemi kościaną włócznię, która zadaje {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% pkt. obrażeń i przebija wrogów.\n\nTags: Główne, Kości, Obrażenia, Fizyczne, Esencja.",
-			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 50%\nConjura uma lança de ossos do chão, causando {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% de dano e perfurando inimigos.\n\nTags: Principal, Osso, Dano, Física, Essência.",
-			"ruRU": "Затраты эссенции: {#} ед.\nВероятность удачного удара: 50%.\nПризывает из-под земли костяное копье, наносящее {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% ед. урона и пронзающее противников.\n\nTags: Основное, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 50%\n从地面召唤一支骨矛, 造成 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% 点伤害并刺穿敌人。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂.",
-			"zhTW": "魂能消耗:{#}\n幸運觸發機率:50%\n從地面呼喚骨矛貫穿敵人,造成 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% 點傷害。\n\nTags: 核心, 骸骨, 傷害, 物理, 魂能."
+			"deDE": "Essenzkosten: 25\nGlückstrefferchance: 50%\nBeschwört einen Knochenspeer aus dem Boden, der {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% Schaden verursacht und Gegner durchschlägt.\n\nTags: Kern, Knochen, Schaden, Physisch, Essenz.",
+			"esES": "Coste de esencia: 25\nProbabilidad de golpe de suerte: 50%\nGeneras desde el suelo una lanza de hueso que inflige {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% de daño y atraviesa a los enemigos.\n\nTags: Principal, Hueso, Daño, Física, Esencia.",
+			"esMX": "Costo de Esencia: 25\nProbabilidad de golpe afortunado: 50%\nConjuras una lanza ósea desde el suelo, lo que inflige {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% de daño y perfora a los enemigos.\n\nTags: Principal, Hueso, Daño, Física, Esencia.",
+			"frFR": "Coût en essence: 25\nChances d'obtenir un coup de chance: 50%\nVous faites jaillir du sol une lance d'os qui inflige {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% points de dégâts et transperce les adversaires.\n\nTags: Principale, Os, Dégâts, Dégâts physiques, Essence.",
+			"itIT": "Costo in essenza: 25\nProbabilità di colpo fortunato: 50%\nInvochi una lancia d'ossa dal terreno, infliggendo {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% danni e perforando i nemici.\n\nTags: Primaria, Ossa, Danni, Fisico, Essenza.",
+			"jaJP": "精髄消費量: 25\n幸運の一撃発生率: 50%\n〈ボーン・スピア〉を地面から生やし、{85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%のダメージを与えて複数の敵を貫通する。\n\nTags: コア, 骨, ダメージ, 物理, 精髄.",
+			"koKR": "소모: 정수 25\n행운의 적중 확률: 50%\n지면에서 뼈 창을 구현하여 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%의 피해를 주고 적을 관통합니다.\n\nTags: 핵심, 뼈, 피해, 물리, 정수.",
+			"plPL": "Koszt: 25 pkt. esencji\nSzansa na szczęśliwy traf: 50%\nPrzyzywasz z ziemi kościaną włócznię, która zadaje {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% pkt. obrażeń i przebija wrogów.\n\nTags: Główne, Kości, Obrażenia, Fizyczne, Esencja.",
+			"ptBR": "Custo de essência: 25\nChance de Golpe de Sorte: 50%\nConjura uma lança de ossos do chão, causando {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% de dano e perfurando inimigos.\n\nTags: Principal, Osso, Dano, Física, Essência.",
+			"ruRU": "Затраты эссенции: 25 ед.\nВероятность удачного удара: 50%.\nПризывает из-под земли костяное копье, наносящее {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% ед. урона и пронзающее противников.\n\nTags: Основное, Кости, Урон, Физический урон, Эссенция.",
+			"zhCN": "精魂消耗: 25\n幸运一击几率: 50%\n从地面召唤一支骨矛, 造成 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% 点伤害并刺穿敌人。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "魂能消耗:25\n幸運觸發機率:50%\n從地面呼喚骨矛貫穿敵人,造成 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% 點傷害。\n\nTags: 核心, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 32,
 		maxPoints: 5,
-		values: [ "25" ],
 		x: 551.14,
 		y: -0.17
 	},
@@ -2215,7 +2210,7 @@ Tags: Minion, Damage, Life.`,
 necromancerData["Corruption"] = {
 	"Iron Maiden": {
 		connections: [ "Enhanced Iron Maiden", "Corruption" ],
-		description: `Essence Cost: {#}
+		description: `Essence Cost: 10
 Curse the target area. Enemies afflicted by Iron Maiden take {10/11/12/13/14/15/16/17/18/19}% damage each time they deal direct damage. Lasts 10 seconds.
 
 Tags: Curse, Corruption, Essence, Damage.`,
@@ -2234,22 +2229,21 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"zhTW": "攻擊反噬"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: {#}\nVerflucht den Zielbereich. Von Eiserne Jungfrau betroffene Gegner erleiden jedes Mal {10/11/12/13/14/15/16/17/18/19}% Schaden, wenn sie direkten Schaden verursachen. Hält bis zu 10 Sek. an.\n\nTags: Fluch, Verderbnis, Essenz, Schaden.",
-			"esES": "Coste de esencia: {#}\nMaldices la zona seleccionada. Los enemigos afectados por Doncella de hierro sufren {10/11/12/13/14/15/16/17/18/19}% de daño cada vez que infligen daño directo. Dura 10 s.\n\nTags: Maldición, Corrupción, Esencia, Daño.",
-			"esMX": "Costo de Esencia: {#}\nEchas una maldición en el área objetivo. Los enemigos afectados por Doncella de Hierro reciben {10/11/12/13/14/15/16/17/18/19}% de daño cada vez que infligen daño directo. Dura 10 segundos.\n\nTags: Maldición, Corrupción, Esencia, Daño.",
-			"frFR": "Coût en essence: {#}\nVous maudissez la zone ciblée. Les cibles affligées par Vierge de fer subissent {10/11/12/13/14/15/16/17/18/19}% points de dégâts chaque fois qu'elles infligent des dégâts directs. Dure 10 s.\n\nTags: Malédiction, Corruption, Essence, Dégâts.",
-			"itIT": "Costo in essenza: {#}\nMaledice l'area bersaglio. I nemici affetti da Vergine di Ferro subiscono {10/11/12/13/14/15/16/17/18/19}% danni ogni volta che infliggono danni a te o a un alleato. Dura 10 s.\n\nTags: Maledizione, Corruzione, Essenza, Danni.",
-			"jaJP": "精髄消費量: {#}\n標的エリアに呪いをかける。〈アイアンメイデン〉の影響を受けた敵は、直接ダメージを与えるたびに{10/11/12/13/14/15/16/17/18/19}%のダメージを受ける。この効果は10秒間持続する。\n\nTags: 呪い, 腐敗, 精髄, ダメージ.",
-			"koKR": "소모: 정수 {#}\n대상 지역에 저주를 내립니다. 가시 박힌 철관의 영향을 받는 적은 직접 피해를 줄 때마다 {10/11/12/13/14/15/16/17/18/19}%의 피해를 받습니다. 10초 동안 지속됩니다\n\nTags: 저주, 타락, 정수, 피해.",
-			"plPL": "Koszt: {#} pkt. esencji\nPrzeklinasz wybrany obszar. Wrogowie pod wpływem Żelaznej Dziewicy otrzymują {10/11/12/13/14/15/16/17/18/19}% pkt. obrażeń za każdym razem, gdy zadają bezpośrednie obrażenia. Czas działania: 10 sek.\n\nTags: Klątwy, Spaczenie, Esencja, Obrażenia.",
-			"ptBR": "Custo de essência: {#}\nAmaldiçoa a área selecionada. Inimigos afetados por Dama de Ferro recebem {10/11/12/13/14/15/16/17/18/19}% de dano sempre que causam dano direto. Dura 10 segundos.\n\nTags: Maldição, Corrupção, Essência, Dano.",
-			"ruRU": "Затраты эссенции: {#} ед.\nВы проклинаете указанную область. Противники под действием \"Железной девы\" получают {10/11/12/13/14/15/16/17/18/19}% ед. урона каждый раз, когда наносят прямой урон. Время действия – 10 сек.\n\nTags: Проклятие, Осквернение, Эссенция, Урон.",
-			"zhCN": "精魂消耗: {#}\n诅咒目标区域。受到铁处女影响的敌人每次造成直接伤害都会受到 {10/11/12/13/14/15/16/17/18/19}% 点伤害, 持续 10 秒。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害.",
-			"zhTW": "魂能消耗:{#}\n詛咒目標區域。每當受攻擊反噬影響的敵人造成傷害時,敵人會受到 {10/11/12/13/14/15/16/17/18/19}% 點傷害,持續 10 秒。\n\nTags: 詛咒, 腐化, 魂能, 傷害."
+			"deDE": "Essenzkosten: 10\nVerflucht den Zielbereich. Von Eiserne Jungfrau betroffene Gegner erleiden jedes Mal {10/11/12/13/14/15/16/17/18/19}% Schaden, wenn sie direkten Schaden verursachen. Hält bis zu 10 Sek. an.\n\nTags: Fluch, Verderbnis, Essenz, Schaden.",
+			"esES": "Coste de esencia: 10\nMaldices la zona seleccionada. Los enemigos afectados por Doncella de hierro sufren {10/11/12/13/14/15/16/17/18/19}% de daño cada vez que infligen daño directo. Dura 10 s.\n\nTags: Maldición, Corrupción, Esencia, Daño.",
+			"esMX": "Costo de Esencia: 10\nEchas una maldición en el área objetivo. Los enemigos afectados por Doncella de Hierro reciben {10/11/12/13/14/15/16/17/18/19}% de daño cada vez que infligen daño directo. Dura 10 segundos.\n\nTags: Maldición, Corrupción, Esencia, Daño.",
+			"frFR": "Coût en essence: 10\nVous maudissez la zone ciblée. Les cibles affligées par Vierge de fer subissent {10/11/12/13/14/15/16/17/18/19}% points de dégâts chaque fois qu'elles infligent des dégâts directs. Dure 10 s.\n\nTags: Malédiction, Corruption, Essence, Dégâts.",
+			"itIT": "Costo in essenza: 10\nMaledice l'area bersaglio. I nemici affetti da Vergine di Ferro subiscono {10/11/12/13/14/15/16/17/18/19}% danni ogni volta che infliggono danni a te o a un alleato. Dura 10 s.\n\nTags: Maledizione, Corruzione, Essenza, Danni.",
+			"jaJP": "精髄消費量: 10\n標的エリアに呪いをかける。〈アイアンメイデン〉の影響を受けた敵は、直接ダメージを与えるたびに{10/11/12/13/14/15/16/17/18/19}%のダメージを受ける。この効果は10秒間持続する。\n\nTags: 呪い, 腐敗, 精髄, ダメージ.",
+			"koKR": "소모: 정수 10\n대상 지역에 저주를 내립니다. 가시 박힌 철관의 영향을 받는 적은 직접 피해를 줄 때마다 {10/11/12/13/14/15/16/17/18/19}%의 피해를 받습니다. 10초 동안 지속됩니다\n\nTags: 저주, 타락, 정수, 피해.",
+			"plPL": "Koszt: 10 pkt. esencji\nPrzeklinasz wybrany obszar. Wrogowie pod wpływem Żelaznej Dziewicy otrzymują {10/11/12/13/14/15/16/17/18/19}% pkt. obrażeń za każdym razem, gdy zadają bezpośrednie obrażenia. Czas działania: 10 sek.\n\nTags: Klątwy, Spaczenie, Esencja, Obrażenia.",
+			"ptBR": "Custo de essência: 10\nAmaldiçoa a área selecionada. Inimigos afetados por Dama de Ferro recebem {10/11/12/13/14/15/16/17/18/19}% de dano sempre que causam dano direto. Dura 10 segundos.\n\nTags: Maldição, Corrupção, Essência, Dano.",
+			"ruRU": "Затраты эссенции: 10 ед.\nВы проклинаете указанную область. Противники под действием \"Железной девы\" получают {10/11/12/13/14/15/16/17/18/19}% ед. урона каждый раз, когда наносят прямой урон. Время действия – 10 сек.\n\nTags: Проклятие, Осквернение, Эссенция, Урон.",
+			"zhCN": "精魂消耗: 10\n诅咒目标区域。受到铁处女影响的敌人每次造成直接伤害都会受到 {10/11/12/13/14/15/16/17/18/19}% 点伤害, 持续 10 秒。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害.",
+			"zhTW": "魂能消耗:10\n詛咒目標區域。每當受攻擊反噬影響的敵人造成傷害時,敵人會受到 {10/11/12/13/14/15/16/17/18/19}% 點傷害,持續 10 秒。\n\nTags: 詛咒, 腐化, 魂能, 傷害."
 },
 		id: 55,
 		maxPoints: 5,
-		values: [ "10" ],
 		x: -452.675,
 		y: -233.982
 	},
@@ -2448,7 +2442,7 @@ Tags: Damage, Curse.`,
 	},
 	"Decrepify": {
 		connections: [ "Enhanced Decrepify", "Corruption" ],
-		description: `Essence Cost: {#}
+		description: `Essence Cost: 10
 Curse the target area. Enemies afflicted by Decrepify are Slowed by {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% and deal {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% less damage for 10 seconds.
 
 Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
@@ -2467,22 +2461,21 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"zhTW": "衰老"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: {#}\nVerflucht den Zielbereich. Von Altern betroffene Gegner werden 10 Sek. lang um {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% verlangsamt und verursachen {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% weniger Schaden.\n\nTags: Fluch, Verderbnis, Kontrollverlust, Essenz, Schadensreduktion.",
-			"esES": "Coste de esencia: {#}\nMaldices la zona seleccionada. Los enemigos afectados por Decrepitud quedan ralentizados un {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e infligen un {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% menos de daño durante 10 s.\n\nTags: Maldición, Corrupción, Control de masas, Esencia, Reducción de daño.",
-			"esMX": "Costo de Esencia: {#}\nEchas una maldición en el área objetivo. Los enemigos afectados por Decrepitar quedan ralentizados un {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e infligen un {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% menos de daño durante 10 segundos.\n\nTags: Maldición, Corrupción, Control de multitudes, Esencia, Reducción de daño.",
-			"frFR": "Coût en essence: {#}\nVous maudissez la zone ciblée. Les cibles affligées par Décrépitude sont ralenties de {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% et infligent {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% de dégâts en moins pendant 10 s.\n\nTags: Malédiction, Corruption, Perte de contrôle, Essence, Réduction des dégâts.",
-			"itIT": "Costo in essenza: {#}\nMaledici l'area bersaglio. I nemici affetti da Decadimento sono rallentati del {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e infliggono il {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% di danni in meno per 10 s.\n\nTags: Maledizione, Corruzione, Effetti debilitanti, Essenza, Riduzione danni.",
-			"jaJP": "精髄消費量: {#}\n標的エリアに呪いをかける。〈衰弱〉の影響を受けた敵は10秒間、移動速度が{40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%、与ダメージが{20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%減少する。\n\nTags: 呪い, 腐敗, 操作障害効果, 精髄, ダメージ減少.",
-			"koKR": "소모: 정수 {#}\n대상 지역에 저주를 내립니다. 노화의 영향을 받는 적은 10초 동안 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% 감속되고, 공격력이 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% 감소합니다.\n\nTags: 저주, 타락, 군중 제어, 정수, 피해 감소.",
-			"plPL": "Koszt: {#} pkt. esencji\nPrzeklinasz wskazany obszar. Przeciwnicy dotknięci Zniedołężnieniem są spowolnieni o {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% i zadają o {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% mniej obrażeń przez 10 sek.\n\nTags: Klątwy, Spaczenie, Ograniczanie Kontroli, Esencja, Redukcja Obrażeń.",
-			"ptBR": "Custo de essência: {#}\nAmaldiçoa a área selecionada. Inimigos afetados por Decrepitar são desacelerados em {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e causam {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% de dano reduzido por 10 segundos.\n\nTags: Maldição, Corrupção, Controle de Grupo, Essência, Redução de Dano.",
-			"ruRU": "Затраты эссенции: {#}\nВы проклинаете указанную область. Противники под действием \"Немощи\" замедляются на {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% и наносят на {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% меньше урона в течение 10 сек.\n\nTags: Проклятие, Осквернение, Контроль, Эссенция, Уменьшение урона.",
-			"zhCN": "精魂消耗: {#}\n诅咒目标区域。受到衰老影响的敌人会被减速 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%, 并且造成的伤害降低 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%, 持续 10 秒。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免.",
-			"zhTW": "魂能消耗:{#}\n詛咒目標區域。被衰老影響的敵人緩速 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%,且造成的傷害降低 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%,持續 10 秒。\n\nTags: 詛咒, 腐化, 控場, 魂能, 傷害減免."
+			"deDE": "Essenzkosten: 10\nVerflucht den Zielbereich. Von Altern betroffene Gegner werden 10 Sek. lang um {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% verlangsamt und verursachen {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% weniger Schaden.\n\nTags: Fluch, Verderbnis, Kontrollverlust, Essenz, Schadensreduktion.",
+			"esES": "Coste de esencia: 10\nMaldices la zona seleccionada. Los enemigos afectados por Decrepitud quedan ralentizados un {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e infligen un {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% menos de daño durante 10 s.\n\nTags: Maldición, Corrupción, Control de masas, Esencia, Reducción de daño.",
+			"esMX": "Costo de Esencia: 10\nEchas una maldición en el área objetivo. Los enemigos afectados por Decrepitar quedan ralentizados un {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e infligen un {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% menos de daño durante 10 segundos.\n\nTags: Maldición, Corrupción, Control de multitudes, Esencia, Reducción de daño.",
+			"frFR": "Coût en essence: 10\nVous maudissez la zone ciblée. Les cibles affligées par Décrépitude sont ralenties de {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% et infligent {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% de dégâts en moins pendant 10 s.\n\nTags: Malédiction, Corruption, Perte de contrôle, Essence, Réduction des dégâts.",
+			"itIT": "Costo in essenza: 10\nMaledici l'area bersaglio. I nemici affetti da Decadimento sono rallentati del {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e infliggono il {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% di danni in meno per 10 s.\n\nTags: Maledizione, Corruzione, Effetti debilitanti, Essenza, Riduzione danni.",
+			"jaJP": "精髄消費量: 10\n標的エリアに呪いをかける。〈衰弱〉の影響を受けた敵は10秒間、移動速度が{40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%、与ダメージが{20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%減少する。\n\nTags: 呪い, 腐敗, 操作障害効果, 精髄, ダメージ減少.",
+			"koKR": "소모: 정수 10\n대상 지역에 저주를 내립니다. 노화의 영향을 받는 적은 10초 동안 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% 감속되고, 공격력이 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% 감소합니다.\n\nTags: 저주, 타락, 군중 제어, 정수, 피해 감소.",
+			"plPL": "Koszt: 10 pkt. esencji\nPrzeklinasz wskazany obszar. Przeciwnicy dotknięci Zniedołężnieniem są spowolnieni o {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% i zadają o {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% mniej obrażeń przez 10 sek.\n\nTags: Klątwy, Spaczenie, Ograniczanie Kontroli, Esencja, Redukcja Obrażeń.",
+			"ptBR": "Custo de essência: 10\nAmaldiçoa a área selecionada. Inimigos afetados por Decrepitar são desacelerados em {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e causam {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% de dano reduzido por 10 segundos.\n\nTags: Maldição, Corrupção, Controle de Grupo, Essência, Redução de Dano.",
+			"ruRU": "Затраты эссенции: 10\nВы проклинаете указанную область. Противники под действием \"Немощи\" замедляются на {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% и наносят на {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% меньше урона в течение 10 сек.\n\nTags: Проклятие, Осквернение, Контроль, Эссенция, Уменьшение урона.",
+			"zhCN": "精魂消耗: 10\n诅咒目标区域。受到衰老影响的敌人会被减速 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%, 并且造成的伤害降低 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%, 持续 10 秒。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免.",
+			"zhTW": "魂能消耗:10\n詛咒目標區域。被衰老影響的敵人緩速 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%,且造成的傷害降低 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%,持續 10 秒。\n\nTags: 詛咒, 腐化, 控場, 魂能, 傷害減免."
 },
 		id: 61,
 		maxPoints: 5,
-		values: [ "10" ],
 		x: -457.14,
 		y: 240.226
 	},

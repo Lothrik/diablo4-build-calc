@@ -679,7 +679,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 barbarianData["Core"] = {
 	"Hammer of the Ancients": {
 		connections: [ "Core", "Enhanced Hammer of the Ancients" ],
-		description: `Fury Cost: {#}
+		description: `Fury Cost: 35
 Lucky Hit Chance: 50%
 Slam your hammer down with the fury of the Ancients, dealing {50/55/60/65/70/75/80/85/90/95}% damage to a concentrated area.
 
@@ -699,22 +699,21 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"zhTW": "先祖之鎚"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 50%\nSchmettert Euren Hammer mit dem Zorn der Urahnen nach unten und verursacht {50/55/60/65/70/75/80/85/90/95}% Schaden in einem konzentrierten Bereich.\n\nTags: Kern, Wuchtwaffe, Wut, Physisch, Schaden, Zweihändig.",
-			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: 50%\nTu martillo golpea con la furia de los Ancestros e inflige {50/55/60/65/70/75/80/85/90/95}% de daño en una zona concentrada.\n\nTags: Principal, Contundente, Furia, Física, Daño, Dos manos.",
-			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: 50%\nGolpeas el suelo con tu arma con la furia de los Ancestros e infliges {50/55/60/65/70/75/80/85/90/95}% de daño en un área concentrada.\n\nTags: Principal, Impacto, Furia, Física, Daño, Dos manos.",
-			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: 50%\nVous abattez votre marteau avec la fureur des Anciens et infligez {50/55/60/65/70/75/80/85/90/95}% points de dégâts dans une zone précise.\n\nTags: Principale, Arme contondante, Fureur, Dégâts physiques, Dégâts, Arme à deux mains.",
-			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: 50%\nAbbatti il tuo martello con la furia degli Antichi, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni in un'area concentrata.\n\nTags: Primaria, Contundente, Furia, Fisico, Danni, A due mani.",
-			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: 50%\n古代の民の怒りと共に武器を叩きつけ、集中したエリアに{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 殴打, 怒気, 物理, ダメージ, 両手用武器.",
-			"koKR": "소모: 분노 {#}\n행운의 적중 확률: 50%\n무기에 선조의 분노를 담아 내려쳐 좁은 지역에 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 둔기, 분노, 물리, 피해, 양손 무기.",
-			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 50%\nUderzasz młotem z furią starożytnych, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń na konkretnym obszarze.\n\nTags: Główne, Obuchowe, Furia, Fizyczne, Obrażenia, Dwuręczne.",
-			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte:50%\nGolpeia com seu martelo com a fúria dos Ancestrais, causando {50/55/60/65/70/75/80/85/90/95}% de dano em uma área concentrada.\n\nTags: Principal, Concussão, Fúria, Física, Dano, Duas mãos.",
-			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 50%.\nВы обрушиваете свое оружие с яростью Древних, нанося {50/55/60/65/70/75/80/85/90/95}% ед. урона целям в небольшой области.\n\nTags: Основное, Дробящее оружие, Ярость, Физический урон, Урон, Двуручное.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: 50%\n带着先祖的怒火砸下你的锤子, 对一片集中区域造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手.",
-			"zhTW": "怒氣消耗:{#}\n幸運觸發機率:50%\n使出先祖的憤怒砸下重鎚,對集中區域造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 核心, 鈍擊, 怒氣, 物理, 傷害, 雙手."
+			"deDE": "Wutkosten: 35\nGlückstrefferchance: 50%\nSchmettert Euren Hammer mit dem Zorn der Urahnen nach unten und verursacht {50/55/60/65/70/75/80/85/90/95}% Schaden in einem konzentrierten Bereich.\n\nTags: Kern, Wuchtwaffe, Wut, Physisch, Schaden, Zweihändig.",
+			"esES": "Coste de furia: 35\nProbabilidad de golpe de suerte: 50%\nTu martillo golpea con la furia de los Ancestros e inflige {50/55/60/65/70/75/80/85/90/95}% de daño en una zona concentrada.\n\nTags: Principal, Contundente, Furia, Física, Daño, Dos manos.",
+			"esMX": "Costo de Furia: 35\nProbabilidad de golpe afortunado: 50%\nGolpeas el suelo con tu arma con la furia de los Ancestros e infliges {50/55/60/65/70/75/80/85/90/95}% de daño en un área concentrada.\n\nTags: Principal, Impacto, Furia, Física, Daño, Dos manos.",
+			"frFR": "Coût en fureur: 35\nChances d'obtenir un coup de chance: 50%\nVous abattez votre marteau avec la fureur des Anciens et infligez {50/55/60/65/70/75/80/85/90/95}% points de dégâts dans une zone précise.\n\nTags: Principale, Arme contondante, Fureur, Dégâts physiques, Dégâts, Arme à deux mains.",
+			"itIT": "Costo in furia: 35\nProbabilità di colpo fortunato: 50%\nAbbatti il tuo martello con la furia degli Antichi, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni in un'area concentrata.\n\nTags: Primaria, Contundente, Furia, Fisico, Danni, A due mani.",
+			"jaJP": "怒気コスト: 35\n幸運の一撃発生率: 50%\n古代の民の怒りと共に武器を叩きつけ、集中したエリアに{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 殴打, 怒気, 物理, ダメージ, 両手用武器.",
+			"koKR": "소모: 분노 35\n행운의 적중 확률: 50%\n무기에 선조의 분노를 담아 내려쳐 좁은 지역에 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 둔기, 분노, 물리, 피해, 양손 무기.",
+			"plPL": "Koszt: 35 pkt. furii.\nSzansa na szczęśliwy traf: 50%\nUderzasz młotem z furią starożytnych, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń na konkretnym obszarze.\n\nTags: Główne, Obuchowe, Furia, Fizyczne, Obrażenia, Dwuręczne.",
+			"ptBR": "Custo de fúria: 35\nChance de Golpe de Sorte:50%\nGolpeia com seu martelo com a fúria dos Ancestrais, causando {50/55/60/65/70/75/80/85/90/95}% de dano em uma área concentrada.\n\nTags: Principal, Concussão, Fúria, Física, Dano, Duas mãos.",
+			"ruRU": "Затраты ярости: 35 ед.\nВероятность удачного удара: 50%.\nВы обрушиваете свое оружие с яростью Древних, нанося {50/55/60/65/70/75/80/85/90/95}% ед. урона целям в небольшой области.\n\nTags: Основное, Дробящее оружие, Ярость, Физический урон, Урон, Двуручное.",
+			"zhCN": "怒气消耗: 35\n幸运一击几率: 50%\n带着先祖的怒火砸下你的锤子, 对一片集中区域造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手.",
+			"zhTW": "怒氣消耗:35\n幸運觸發機率:50%\n使出先祖的憤怒砸下重鎚,對集中區域造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 核心, 鈍擊, 怒氣, 物理, 傷害, 雙手."
 },
 		id: 16,
 		maxPoints: 5,
-		values: [ "35" ],
 		x: -418.74,
 		y: -259.245
 	},
@@ -837,7 +836,7 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 	},
 	"Upheaval": {
 		connections: [ "Core", "Enhanced Upheaval" ],
-		description: `Fury Cost: {#}
+		description: `Fury Cost: 40
 Lucky Hit Chance: 25%
 Tear into the ground with your weapon and fling debris forward, dealing {70/77/84/91/98/105/112/119/126/133}% damage.
 
@@ -857,22 +856,21 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"zhTW": "動盪震擊"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 25%\nBohrt Eure Waffe in den Boden und schleudert Geröll nach vorn, das {70/77/84/91/98/105/112/119/126/133}% Schaden verursacht.\n\nTags: Kern, Schaden, Physisch, Wut, Zweihändig.",
-			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: 25%\nDesgarras el suelo con tu arma y lanzas escombros hacia adelante, lo que inflige {70/77/84/91/98/105/112/119/126/133}% de daño.\n\nTags: Principal, Daño, Física, Furia, Dos manos.",
-			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: 25%\nRompes el suelo con tu arma, lanzas restos hacia adelante e infliges {70/77/84/91/98/105/112/119/126/133}% de daño.\n\nTags: Principal, Daño, Física, Furia, Dos manos.",
-			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: 25%\nVous déchirez le sol avec votre arme et projetez des débris vers l'avant, ce qui inflige {70/77/84/91/98/105/112/119/126/133}% points de dégâts.\n\nTags: Principale, Dégâts, Dégâts physiques, Fureur, Arme à deux mains.",
-			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: 25%\nSpacchi il terreno con la tua arma e lanci i detriti in avanti, infliggendo {70/77/84/91/98/105/112/119/126/133}% danni.\n\nTags: Primaria, Danni, Fisico, Furia, A due mani.",
-			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: 25%\n武器で地面を切り裂いて破片を前方に打ち出し、{70/77/84/91/98/105/112/119/126/133}%のダメージを与える。\n\nTags: コア, ダメージ, 物理, 怒気, 両手用武器.",
-			"koKR": "소모: 분노 {#}\n행운의 적중 확률: 25%\n무기로 땅을 파고든 후 전방에 파편을 날려 {70/77/84/91/98/105/112/119/126/133}%의 피해를 줍니다.\n\nTags: 핵심, 피해, 물리, 분노, 양손 무기.",
-			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 25%\nRozdzierasz bronią grunt pod sobą i ciskasz grudami ziemi, zadając {70/77/84/91/98/105/112/119/126/133}% pkt. obrażeń.\n\nTags: Główne, Obrażenia, Fizyczne, Furia, Dwuręczne.",
-			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: 25%\nVocê rasga o chão com sua arma e arremessa detritos para frente, causando {70/77/84/91/98/105/112/119/126/133}% de dano.\n\nTags: Principal, Dano, Física, Fúria, Duas mãos.",
-			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 25%.\nВы разрываете землю и запускаете вперед обломки, наносящие {70/77/84/91/98/105/112/119/126/133}% ед. урона.\n\nTags: Основное, Урон, Физический урон, Ярость, Двуручное.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: 25%\n用你的武器撕裂大地并向前方扬起碎片, 造成 {70/77/84/91/98/105/112/119/126/133}% 点伤害。\n\nTags: 核心, 伤害, 物理, 怒气, 双手.",
-			"zhTW": "怒氣消耗:{#}\n幸運觸發機率:25%\n用武器劈開地面,彈飛的石塊往前砸向敵人,造成 {70/77/84/91/98/105/112/119/126/133}% 點傷害。\n\nTags: 核心, 傷害, 物理, 怒氣, 雙手."
+			"deDE": "Wutkosten: 40\nGlückstrefferchance: 25%\nBohrt Eure Waffe in den Boden und schleudert Geröll nach vorn, das {70/77/84/91/98/105/112/119/126/133}% Schaden verursacht.\n\nTags: Kern, Schaden, Physisch, Wut, Zweihändig.",
+			"esES": "Coste de furia: 40\nProbabilidad de golpe de suerte: 25%\nDesgarras el suelo con tu arma y lanzas escombros hacia adelante, lo que inflige {70/77/84/91/98/105/112/119/126/133}% de daño.\n\nTags: Principal, Daño, Física, Furia, Dos manos.",
+			"esMX": "Costo de Furia: 40\nProbabilidad de golpe afortunado: 25%\nRompes el suelo con tu arma, lanzas restos hacia adelante e infliges {70/77/84/91/98/105/112/119/126/133}% de daño.\n\nTags: Principal, Daño, Física, Furia, Dos manos.",
+			"frFR": "Coût en fureur: 40\nChances d'obtenir un coup de chance: 25%\nVous déchirez le sol avec votre arme et projetez des débris vers l'avant, ce qui inflige {70/77/84/91/98/105/112/119/126/133}% points de dégâts.\n\nTags: Principale, Dégâts, Dégâts physiques, Fureur, Arme à deux mains.",
+			"itIT": "Costo in furia: 40\nProbabilità di colpo fortunato: 25%\nSpacchi il terreno con la tua arma e lanci i detriti in avanti, infliggendo {70/77/84/91/98/105/112/119/126/133}% danni.\n\nTags: Primaria, Danni, Fisico, Furia, A due mani.",
+			"jaJP": "怒気コスト: 40\n幸運の一撃発生率: 25%\n武器で地面を切り裂いて破片を前方に打ち出し、{70/77/84/91/98/105/112/119/126/133}%のダメージを与える。\n\nTags: コア, ダメージ, 物理, 怒気, 両手用武器.",
+			"koKR": "소모: 분노 40\n행운의 적중 확률: 25%\n무기로 땅을 파고든 후 전방에 파편을 날려 {70/77/84/91/98/105/112/119/126/133}%의 피해를 줍니다.\n\nTags: 핵심, 피해, 물리, 분노, 양손 무기.",
+			"plPL": "Koszt: 40 pkt. furii.\nSzansa na szczęśliwy traf: 25%\nRozdzierasz bronią grunt pod sobą i ciskasz grudami ziemi, zadając {70/77/84/91/98/105/112/119/126/133}% pkt. obrażeń.\n\nTags: Główne, Obrażenia, Fizyczne, Furia, Dwuręczne.",
+			"ptBR": "Custo de fúria: 40\nChance de Golpe de Sorte: 25%\nVocê rasga o chão com sua arma e arremessa detritos para frente, causando {70/77/84/91/98/105/112/119/126/133}% de dano.\n\nTags: Principal, Dano, Física, Fúria, Duas mãos.",
+			"ruRU": "Затраты ярости: 40 ед.\nВероятность удачного удара: 25%.\nВы разрываете землю и запускаете вперед обломки, наносящие {70/77/84/91/98/105/112/119/126/133}% ед. урона.\n\nTags: Основное, Урон, Физический урон, Ярость, Двуручное.",
+			"zhCN": "怒气消耗: 40\n幸运一击几率: 25%\n用你的武器撕裂大地并向前方扬起碎片, 造成 {70/77/84/91/98/105/112/119/126/133}% 点伤害。\n\nTags: 核心, 伤害, 物理, 怒气, 双手.",
+			"zhTW": "怒氣消耗:40\n幸運觸發機率:25%\n用武器劈開地面,彈飛的石塊往前砸向敵人,造成 {70/77/84/91/98/105/112/119/126/133}% 點傷害。\n\nTags: 核心, 傷害, 物理, 怒氣, 雙手."
 },
 		id: 20,
 		maxPoints: 5,
-		values: [ "40" ],
 		x: -584.54,
 		y: 150.91
 	},
@@ -1191,7 +1189,7 @@ Tags: Vulnerable, Core, Lucky Hit.`,
 	},
 	"Rend": {
 		connections: [ "Core", "Enhanced Rend" ],
-		description: `Fury Cost: {#}
+		description: `Fury Cost: 35
 Lucky Hit Chance: 33%
 Cleave enemies in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage and inflicting {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Bleeding damage over 5 seconds.
 
@@ -1211,22 +1209,21 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"zhTW": "撕裂"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 33%\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
-			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: 33%\nAsestas un tajo a los enemigos frente a ti para infligir {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y aplicar {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 s.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Cortante.",
-			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: 33%\nHiendes a los enemigos frente a ti, les infliges {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 segundos.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Corte.",
-			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: 33%\nVous frappez les adversaires devant vous, ce qui leur inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% points de dégâts à l'impact et {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% points de dégâts de saignement en 5 s.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Tranchant.",
-			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: 33%\nFendi i nemici frontali, infliggendo {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% danni e {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% danni da sanguinamento in 5 s.\n\nTags: Primaria, Sanguinamento, Danni, Fisico, Furia, Tagliente.",
-			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: 33%\n前方の敵を切り払って{12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%のダメージを与え、さらに5秒かけて{96/105.5/115/125/134.5/144/153.5/163/173/182.5}%の出血ダメージを与える。\n\nTags: コア, 出血, ダメージ, 物理, 怒気, 斬撃.",
-			"koKR": "소모: 분노 {#}\n행운의 적중 확률: 33%\n전방의 적을 한꺼번에 공격하여 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%의 피해를 주고 5초에 걸쳐 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}%의 출혈 피해를 줍니다.\n\nTags: 핵심, 출혈, 피해, 물리, 분노, 베는 무기.",
-			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 33%\nRozpłatujesz wrogów przed sobą, zadając im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń i powodując {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
-			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: 33%\nCorta os inimigos à sua frente, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano e aplicando {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
-			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 33%.\nВы рубите противников перед собой, нанося им {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона мгновенно и еще {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: 33%\n对面前的敌人发动顺劈斩, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害并在 5 秒内造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 点流血伤害。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩.",
-			"zhTW": "怒氣消耗:{#}\n幸運觸發機率:33%\n劈斬你前方的敵人,造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 點傷害並在 5 秒內對敵人造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 點流血傷害。\n\nTags: 核心, 流血, 傷害, 物理, 怒氣, 斬擊."
+			"deDE": "Wutkosten: 35\nGlückstrefferchance: 33%\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
+			"esES": "Coste de furia: 35\nProbabilidad de golpe de suerte: 33%\nAsestas un tajo a los enemigos frente a ti para infligir {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y aplicar {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 s.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Cortante.",
+			"esMX": "Costo de Furia: 35\nProbabilidad de golpe afortunado: 33%\nHiendes a los enemigos frente a ti, les infliges {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 segundos.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Corte.",
+			"frFR": "Coût en fureur: 35\nChances d'obtenir un coup de chance: 33%\nVous frappez les adversaires devant vous, ce qui leur inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% points de dégâts à l'impact et {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% points de dégâts de saignement en 5 s.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Tranchant.",
+			"itIT": "Costo in furia: 35\nProbabilità di colpo fortunato: 33%\nFendi i nemici frontali, infliggendo {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% danni e {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% danni da sanguinamento in 5 s.\n\nTags: Primaria, Sanguinamento, Danni, Fisico, Furia, Tagliente.",
+			"jaJP": "怒気コスト: 35\n幸運の一撃発生率: 33%\n前方の敵を切り払って{12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%のダメージを与え、さらに5秒かけて{96/105.5/115/125/134.5/144/153.5/163/173/182.5}%の出血ダメージを与える。\n\nTags: コア, 出血, ダメージ, 物理, 怒気, 斬撃.",
+			"koKR": "소모: 분노 35\n행운의 적중 확률: 33%\n전방의 적을 한꺼번에 공격하여 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%의 피해를 주고 5초에 걸쳐 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}%의 출혈 피해를 줍니다.\n\nTags: 핵심, 출혈, 피해, 물리, 분노, 베는 무기.",
+			"plPL": "Koszt: 35 pkt. furii.\nSzansa na szczęśliwy traf: 33%\nRozpłatujesz wrogów przed sobą, zadając im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń i powodując {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
+			"ptBR": "Custo de fúria: 35\nChance de Golpe de Sorte: 33%\nCorta os inimigos à sua frente, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano e aplicando {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
+			"ruRU": "Затраты ярости: 35 ед.\nВероятность удачного удара: 33%.\nВы рубите противников перед собой, нанося им {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона мгновенно и еще {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
+			"zhCN": "怒气消耗: 35\n幸运一击几率: 33%\n对面前的敌人发动顺劈斩, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害并在 5 秒内造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 点流血伤害。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩.",
+			"zhTW": "怒氣消耗:35\n幸運觸發機率:33%\n劈斬你前方的敵人,造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 點傷害並在 5 秒內對敵人造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 點流血傷害。\n\nTags: 核心, 流血, 傷害, 物理, 怒氣, 斬擊."
 },
 		id: 29,
 		maxPoints: 5,
-		values: [ "35" ],
 		x: 517.835,
 		y: 0.645
 	},
@@ -1349,7 +1346,7 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 	},
 	"Whirlwind": {
 		connections: [ "Core", "Enhanced Whirlwind" ],
-		description: `Fury Cost: {#} per second
+		description: `Fury Cost: 25 per second
 Lucky Hit Chance: 20%
 Rapidly attack surrounding enemies for {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% damage.
 
@@ -1369,22 +1366,21 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"zhTW": "旋風斬"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#} pro Sek.\nGlückstrefferchance: 20%\nGreift Gegner in der Nähe schnell an und verursacht {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% Schaden.\n\nTags: Kern, Kanalisiert, Wut, Physisch, Schaden.",
-			"esES": "Coste de furia: {#} por segundo\nProbabilidad de golpe de suerte: 20%\nAtacas rápidamente a los enemigos cercanos y les infliges {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de daño.\n\nTags: Principal, Canalizada, Furia, Física, Daño.",
-			"esMX": "Costo de Furia: {#} por segundo\nProbabilidad de golpe afortunado: 20%\nAtacas con rapidez a los enemigos circundantes y les infliges {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de daño.\n\nTags: Principal, Canalizado, Furia, Física, Daño.",
-			"frFR": "Coût en fureur: {#} par seconde\nChances d'obtenir un coup de chance: 20%\nVous attaquez rapidement les adversaires à proximité et leur infligez {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% points de dégâts.\n\nTags: Principale, Canalisation, Fureur, Dégâts physiques, Dégâts.",
-			"itIT": "Costo in furia: {#} ogni secondo\nProbabilità di colpo fortunato: 20%\nAttacchi rapidamente i nemici circostanti, infliggendo {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% danni.\n\nTags: Primaria, Canalizzazione, Furia, Fisico, Danni.",
-			"jaJP": "怒気コスト: 毎秒{#}\n幸運の一撃発生率: 20%\n付近の敵を高速で攻撃し、{17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}%のダメージを与える。\n\nTags: コア, 連続発動, 怒気, 物理, ダメージ.",
-			"koKR": "소모: 초당 분노 {#}\n행운의 적중 확률: 20%\n주위 적들을 빠르게 공격하여 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}%의 피해를 줍니다.\n\nTags: 핵심, 정신 집중, 분노, 물리, 피해.",
-			"plPL": "Koszt: {#} pkt. furii na sekundę.\nSzansa na szczęśliwy traf: 20%\nBłyskawiczny atak na wrogów wokół, zadający {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% pkt. obrażeń.\n\nTags: Główne, Podtrzymanie, Furia, Fizyczne, Obrażenia.",
-			"ptBR": "Custo de fúria: {#} por segundo\nChance de Golpe de Sorte: 20%\nAtaca rapidamente inimigos ao redor, causando {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de dano.\n\nTags: Principal, Canalizada, Fúria, Física, Dano.",
-			"ruRU": "Затраты ярости: {#} ед. в секунду.\nВероятность удачного удара: 20%.\nВы стремительно атакуете ближайших противников, нанося {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% ед. урона.\n\nTags: Основное, Поддерживаемое, Ярость, Физический урон, Урон.",
-			"zhCN": "怒气消耗: {#}点每秒\n幸运一击几率: 20%\n快速攻击周围的敌人, 造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 点伤害。\n\nTags: 核心, 引导, 怒气, 物理, 伤害.",
-			"zhTW": "怒氣消耗:每秒 {#}\n幸運觸發機率:20%\n快速攻擊附近敵人,造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 點傷害。\n\nTags: 核心, 引導, 怒氣, 物理, 傷害."
+			"deDE": "Wutkosten: 25 pro Sek.\nGlückstrefferchance: 20%\nGreift Gegner in der Nähe schnell an und verursacht {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% Schaden.\n\nTags: Kern, Kanalisiert, Wut, Physisch, Schaden.",
+			"esES": "Coste de furia: 25 por segundo\nProbabilidad de golpe de suerte: 20%\nAtacas rápidamente a los enemigos cercanos y les infliges {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de daño.\n\nTags: Principal, Canalizada, Furia, Física, Daño.",
+			"esMX": "Costo de Furia: 25 por segundo\nProbabilidad de golpe afortunado: 20%\nAtacas con rapidez a los enemigos circundantes y les infliges {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de daño.\n\nTags: Principal, Canalizado, Furia, Física, Daño.",
+			"frFR": "Coût en fureur: 25 par seconde\nChances d'obtenir un coup de chance: 20%\nVous attaquez rapidement les adversaires à proximité et leur infligez {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% points de dégâts.\n\nTags: Principale, Canalisation, Fureur, Dégâts physiques, Dégâts.",
+			"itIT": "Costo in furia: 25 ogni secondo\nProbabilità di colpo fortunato: 20%\nAttacchi rapidamente i nemici circostanti, infliggendo {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% danni.\n\nTags: Primaria, Canalizzazione, Furia, Fisico, Danni.",
+			"jaJP": "怒気コスト: 毎秒25\n幸運の一撃発生率: 20%\n付近の敵を高速で攻撃し、{17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}%のダメージを与える。\n\nTags: コア, 連続発動, 怒気, 物理, ダメージ.",
+			"koKR": "소모: 초당 분노 25\n행운의 적중 확률: 20%\n주위 적들을 빠르게 공격하여 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}%의 피해를 줍니다.\n\nTags: 핵심, 정신 집중, 분노, 물리, 피해.",
+			"plPL": "Koszt: 25 pkt. furii na sekundę.\nSzansa na szczęśliwy traf: 20%\nBłyskawiczny atak na wrogów wokół, zadający {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% pkt. obrażeń.\n\nTags: Główne, Podtrzymanie, Furia, Fizyczne, Obrażenia.",
+			"ptBR": "Custo de fúria: 25 por segundo\nChance de Golpe de Sorte: 20%\nAtaca rapidamente inimigos ao redor, causando {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de dano.\n\nTags: Principal, Canalizada, Fúria, Física, Dano.",
+			"ruRU": "Затраты ярости: 25 ед. в секунду.\nВероятность удачного удара: 20%.\nВы стремительно атакуете ближайших противников, нанося {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% ед. урона.\n\nTags: Основное, Поддерживаемое, Ярость, Физический урон, Урон.",
+			"zhCN": "怒气消耗: 25点每秒\n幸运一击几率: 20%\n快速攻击周围的敌人, 造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 点伤害。\n\nTags: 核心, 引导, 怒气, 物理, 伤害.",
+			"zhTW": "怒氣消耗:每秒 25\n幸運觸發機率:20%\n快速攻擊附近敵人,造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 點傷害。\n\nTags: 核心, 引導, 怒氣, 物理, 傷害."
 },
 		id: 33,
 		maxPoints: 5,
-		values: [ "25" ],
 		x: -0.76,
 		y: -323.275
 	},
