@@ -4124,14 +4124,14 @@ Once all of your Skeletons have been summoned, Raise Skeleton briefly summons a 
 			id: 111,
 			sacrifice: `You gain 15% Non-Physical Resistance, but you can no longer raise Skeletal Warriors.`,
 			upgrades: [
-				`Every 8 seconds your Skeletal Defenders negate the next instance of Direct Damage they would take.`,
-				`Increase the amount of Thorns that Defender Warriors inherit from you from 30% to 50%.`
+				`Every 6 seconds your Skeletal Defenders negate the next instance of Direct Damage they would take.`,
+				`Increase the amount of Thorns that Defender Warriors inherit from you from 30% to 40%.`
 			]
 		},
 		"Skeletal Reapers": {
 			description: `Deals area damage with a slow and powerful scythe, and has a special wind-up attack, dealing heavy damage every 10 seconds.`,
 			id: 112,
-			sacrifice: `You deal x10% increased Shadow Damage, but you can no longer raise Skeletal Warriors.`,
+			sacrifice: `You deal x15% increased Shadow Damage, but you can no longer raise Skeletal Warriors.`,
 			upgrades: [
 				`Reaper attacks against enemies who are Immobilized, Slowed, Stunned, or Vulnerable reduce the cooldown of their powerful wind-up attack by 2 seconds.`,
 				`Reapers have a 15% chance to carve the flesh off enemies, forming a Corpse.`
@@ -4149,7 +4149,7 @@ Once all of your Skeletons have been summoned, Raise Skeleton briefly summons a 
 			sacrifice: `Your maximum Essence is increased by 15, but you can no longer raise Skeletal Mages.`,
 			upgrades: [
 				`Shadow Mage attacks have a 10% chance to Stun for 2 seconds. This cannot happen on the same enemy more than once every 5 seconds.`,
-				`Shadow Mages fire an additional shadow bolt every 6th attack.`
+				`Shadow Mages fire an additional shadow bolt every 5th attack.`
 			]
 		},
 		"Cold Mages": {
@@ -4158,13 +4158,13 @@ Once all of your Skeletons have been summoned, Raise Skeleton briefly summons a 
 			sacrifice: `You deal x15% increased damage to Vulnerable enemies, but you can no longer raise Skeletal Mages.`,
 			upgrades: [
 				`Each time your Cold Mages damage enemies with their primary attack, you gain 2 Essence.`,
-				`Enemies who are Frozen by or damaged while Frozen by your Cold Mages' primary attack are made Vulnerable for 3 seconds.`
+				`Enemies who are Frozen by or damaged while Frozen by your Cold Mages' primary attack are made Vulnerable for 4 seconds.`
 			]
 		},
 		"Bone Mages": {
 			description: `Uses its own bones as projectiles, dealing heavy damage for a Life cost.`,
 			id: 115,
-			sacrifice: `Your Overpower damage is increased by x30%, but you can no longer raise Skeletal Mages.`,
+			sacrifice: `Your Overpower damage is increased by x40%, but you can no longer raise Skeletal Mages.`,
 			upgrades: [
 				`Reduce the Life cost of your Bone Mages' attacks from 15% to 10%. After being alive for 5 seconds, Bone Mages deal x40% increased damage.`,
 				`Each time a Bone Mage dies from its own attack, they leave behind a Corpse and Fortify you for 11% of your Base Life.`
@@ -4199,7 +4199,7 @@ When your Golem dies, it respawns after 20 seconds.`,
 			id: 118,
 			sacrifice: `You deal x30% increased Critical Strike Damage, but you lose the ability to summon a Golem.`,
 			upgrades: [
-				`Every 5th Iron Golem attack causes a shockwave, dealing 16% damage to the primary enemy and to enemies behind them.`,
+				`Every 5th Iron Golem attack causes a shockwave, dealing 30% damage to the primary enemy and to enemies behind them.`,
 				`Your Iron Golem's slam attack also makes enemies Vulnerable for 3 seconds.`
 			]
 		},

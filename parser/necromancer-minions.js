@@ -12,13 +12,13 @@ let necromancerMinions = {
 			"Description": `Durable shield-bearers with 15% increased Life.`,
 			"Sacrifice": `You gain 15% Non-Physical Resistance, but you can no longer raise Skeletal Warriors.`,
 			"Upgrades": [
-				`Every 8 seconds your Skeletal Defenders negate the next instance of Direct Damage they would take.`,
-				`Increase the amount of Thorns that Defender Warriors inherit from you from 30% to 50%.`
+				`Every 6 seconds your Skeletal Defenders negate the next instance of Direct Damage they would take.`,
+				`Increase the amount of Thorns that Defender Warriors inherit from you from 30% to 40%.`
 			]
 		},
 		"Skeletal Reapers": {
 			"Description": `Deals area damage with a slow and powerful scythe, and has a special wind-up attack, dealing heavy damage every 10 seconds.`,
-			"Sacrifice": `You deal x10% increased Shadow Damage, but you can no longer raise Skeletal Warriors.`,
+			"Sacrifice": `You deal x15% increased Shadow Damage, but you can no longer raise Skeletal Warriors.`,
 			"Upgrades": [
 				`Reaper attacks against enemies who are Immobilized, Slowed, Stunned, or Vulnerable reduce the cooldown of their powerful wind-up attack by 2 seconds.`,
 				`Reapers have a 15% chance to carve the flesh off enemies, forming a Corpse.`
@@ -31,7 +31,7 @@ let necromancerMinions = {
 			"Sacrifice": `Your maximum Essence is increased by 15, but you can no longer raise Skeletal Mages.`,
 			"Upgrades": [
 				`Shadow Mage attacks have a 10% chance to Stun for 2 seconds. This cannot happen on the same enemy more than once every 5 seconds.`,
-				`Shadow Mages fire an additional shadow bolt every 6th attack.`
+				`Shadow Mages fire an additional shadow bolt every 5th attack.`
 			]
 		},
 		"Cold Mages": {
@@ -39,12 +39,12 @@ let necromancerMinions = {
 			"Sacrifice": `You deal x15% increased damage to Vulnerable enemies, but you can no longer raise Skeletal Mages.`,
 			"Upgrades": [
 				`Each time your Cold Mages damage enemies with their primary attack, you gain 2 Essence.`,
-				`Enemies who are Frozen by or damaged while Frozen by your Cold Mages' primary attack are made Vulnerable for 3 seconds.`
+				`Enemies who are Frozen by or damaged while Frozen by your Cold Mages' primary attack are made Vulnerable for 4 seconds.`
 			]
 		},
 		"Bone Mages": {
 			"Description": `Uses its own bones as projectiles, dealing heavy damage for a Life cost.`,
-			"Sacrifice": `Your Overpower damage is increased by x30%, but you can no longer raise Skeletal Mages.`,
+			"Sacrifice": `Your Overpower damage is increased by x40%, but you can no longer raise Skeletal Mages.`,
 			"Upgrades": [
 				`Reduce the Life cost of your Bone Mages' attacks from 15% to 10%. After being alive for 5 seconds, Bone Mages deal x40% increased damage.`,
 				`Each time a Bone Mage dies from its own attack, they leave behind a Corpse and Fortify you for 11% of your Base Life.`
@@ -72,7 +72,7 @@ let necromancerMinions = {
 			"Description": `Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds. This has a 16 second cooldown.`,
 			"Sacrifice": `You deal x30% increased Critical Strike Damage, but you lose the ability to summon a Golem.`,
 			"Upgrades": [
-				`Every 5th Iron Golem attack causes a shockwave, dealing 16% damage to the primary enemy and to enemies behind them.`,
+				`Every 5th Iron Golem attack causes a shockwave, dealing 30% damage to the primary enemy and to enemies behind them.`,
 				`Your Iron Golem's slam attack also makes enemies Vulnerable for 3 seconds.`
 			]
 		}

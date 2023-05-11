@@ -187,17 +187,17 @@ let nodeValues = {
 		},
 		"Ultimate": {
 			"Grizzly Rage": [
-				"60"
+				"50"
 			],
 			"Petrify": [
-				"60"
+				"50"
 			],
 			"Lacerate": [
-				"50",
-				"15"
+				"45",
+				"7"
 			],
 			"Cataclysm": [
-				"80",
+				"60",
 				"82"
 			]
 		},

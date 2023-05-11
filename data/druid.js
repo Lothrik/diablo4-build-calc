@@ -4134,7 +4134,7 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 },
 		id: 107,
 		maxPoints: 1,
-		values: [ "60" ],
+		values: [ "50" ],
 		x: 4.395,
 		y: 301.055
 	},
@@ -4248,7 +4248,7 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 },
 		id: 110,
 		maxPoints: 1,
-		values: [ "60" ],
+		values: [ "50" ],
 		x: 3.895,
 		y: -279.14
 	},
@@ -4613,7 +4613,7 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 },
 		id: 120,
 		maxPoints: 1,
-		values: [ "50", "15" ],
+		values: [ "45", "7" ],
 		x: -581.85,
 		y: 142.205
 	},
@@ -4726,7 +4726,7 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 },
 		id: 123,
 		maxPoints: 1,
-		values: [ "80", "82" ],
+		values: [ "60", "82" ],
 		x: -581.665,
 		y: -104.025
 	},
