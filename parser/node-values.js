@@ -32,7 +32,7 @@ let nodeValues = {
 				"33"
 			],
 			"Whirlwind": [
-				"20",
+				"25",
 				"20"
 			]
 		},
@@ -364,15 +364,15 @@ let nodeValues = {
 		},
 		"Imbuements": {
 			"Poison Imbuement": [
-				"9",
+				"13",
 				"33"
 			],
 			"Shadow Imbuement": [
-				"9",
+				"13",
 				"33"
 			],
 			"Cold Imbuement": [
-				"9"
+				"13"
 			]
 		},
 		"Ultimate": {

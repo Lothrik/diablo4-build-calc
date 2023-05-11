@@ -4231,7 +4231,7 @@ let paragonData = {
 		},
 		"Node": {
 			"Barbarian_Legendary_001": {
-				"name": "{Placeholder}",
+				"name": "[UNDEFINED]",
 				"description": "Bleeding enemies you kill explode, dealing 10% of their max life to surrounding enemies.",
 				"descriptionLocalized": {
 					"deDE": "Wenn Ihr blutende Gegner tötet, explodieren sie und fügen Gegnern in der Nähe Schaden in Höhe von 10% ihres maximalen Lebens zu.",
@@ -4368,7 +4368,7 @@ let paragonData = {
 				}
 			},
 			"Barbarian_Legendary_010": {
-				"name": "{Placeholder}",
+				"name": "[UNDEFINED]",
 				"description": "While Berserk, your Defensive Skills recharge 50% faster.",
 				"descriptionLocalized": {
 					"deDE": "Im Berserkermodus laden sich Eure defensiven Fertigkeiten 50% schneller auf.",

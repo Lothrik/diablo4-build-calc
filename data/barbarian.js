@@ -1320,7 +1320,7 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 },
 		id: 33,
 		maxPoints: 5,
-		values: [ "20", "20" ],
+		values: [ "25", "20" ],
 		x: -0.76,
 		y: -323.275
 	},
