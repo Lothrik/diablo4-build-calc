@@ -433,7 +433,8 @@ const localeFlagPairs = {
 	"plPL": "pl",
 	"ptBR": "br",
 	"ruRU": "ru",
-	"zhCN": "cn"
+	"zhCN": "cn",
+	"zhTW": "tw"
 };
 const localeFlagPairEntries = Object.entries(localeFlagPairs);
 function handleLocaleTemplateResult(data) {
@@ -695,7 +696,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41193-6";
+const localVersion = "0.9.0.41193-7";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {

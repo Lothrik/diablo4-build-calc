@@ -66,7 +66,8 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"plPL": "Rozkład",
 			"ptBR": "Decomposição",
 			"ruRU": "Распад",
-			"zhCN": "分解"
+			"zhCN": "分解",
+			"zhTW": "分解"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Essenz: 7 pro Sekunde\nGlückstrefferchance: 40%\nReißt das Fleisch von den Knochen eines Gegners, verursacht {30/33/36/39/42/45/48/51/54/57}% Schaden pro Sekunde und bildet aus dem Fleisch alle 2.5 Sek. eine nutzbare Leiche.\n\nTags: Basis, Dunkelheit, Kanalisiert, Schaden, Schattenschaden über Zeit, Essenz, Leiche.",
@@ -79,7 +80,8 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"plPL": "Generuje: 7 pkt. esencji na sek.\nSzansa na szczęśliwy traf: 40%\nWydzierasz wrogowi płaty ciała, zadając mu {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń na sekundę. Z wydartego ciała co 2.5 sek. tworzysz możliwe do wykorzystania zwłoki.\n\nTags: Podstawowe, Ciemność, Podtrzymanie, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja, Zwłoki.",
 			"ptBR": "Gerar Essência: 7 por segundo\nChance de Golpe de Sorte: 40%\nArranca a carne de um inimigo, causando {30/33/36/39/42/45/48/51/54/57}% de dano por segundo e formando um cadáver utilizável com a carne a cada 2.5 segundos.\n\nTags: Básica, Escuridão, Canalizada, Dano, Dano de Sombra ao Longo do Tempo, Essência, Cadáver.",
 			"ruRU": "Дает эссенцию: 7 ед. в сек.\nВероятность удачного удара: 40%.\nВы вырываете плоть противника, нанося {30/33/36/39/42/45/48/51/54/57}% ед. урона в секунду. Создает труп раз в 2.5 сек.\n\nTags: Базовое, Тьма, Поддерживаемое, Урон, Периодический урон от темной магии, Эссенция, Труп.",
-			"zhCN": "生成精魂: 每秒 7 点\n幸运一击几率: 40%\n从敌人身上撕扯血肉, 每秒造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害, 并且每 2.5 秒用这些血肉塑成一具可以使用的亡骸。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸."
+			"zhCN": "生成精魂: 每秒 7 点\n幸运一击几率: 40%\n从敌人身上撕扯血肉, 每秒造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害, 并且每 2.5 秒用这些血肉塑成一具可以使用的亡骸。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸.",
+			"zhTW": "產生魂能:每秒 7 點\n幸運觸發機率:40%\n撕裂敵人的血肉,每秒造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,且每 2.5 秒利用血肉生成一具可使用的屍體。\n\nTags: 基本, 黑暗, 引導, 傷害, 暗影持續傷害, 魂能, 屍體."
 },
 		id: 0,
 		maxPoints: 5,
@@ -103,7 +105,8 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"plPL": "Wzmocniony Rozkład",
 			"ptBR": "Decomposição Aperfeiçoada",
 			"ruRU": "Усиленный распад",
-			"zhCN": "强化分解"
+			"zhCN": "强化分解",
+			"zhTW": "強化分解"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn ein Gegner stirbt, während er zersetzt ist, erhaltet Ihr 10 Essenz.\n\nTags: Basis, Dunkelheit, Kanalisiert, Schaden, Schattenschaden über Zeit, Essenz, Leiche.",
@@ -116,7 +119,8 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"plPL": "Jeśli wróg zginie podczas Rozkładu, zyskasz 10 pkt. esencji.\n\nTags: Podstawowe, Ciemność, Podtrzymanie, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja, Zwłoki.",
 			"ptBR": "Se um inimigo morrer sob efeito de decomposição, você recebe 10 de essência.\n\nTags: Básica, Escuridão, Canalizada, Dano, Dano de Sombra ao Longo do Tempo, Essência, Cadáver.",
 			"ruRU": "Если противник погибает под действием \"Распада\", вы накапливаете 10 ед. эссенции.\n\nTags: Базовое, Тьма, Поддерживаемое, Урон, Периодический урон от темной магии, Эссенция, Труп.",
-			"zhCN": "如果一名敌人在被分解时死亡, 你获得 10 点精魂。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸."
+			"zhCN": "如果一名敌人在被分解时死亡, 你获得 10 点精魂。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸.",
+			"zhTW": "敵人在分解狀態下死亡時,你獲得 10 點魂能。\n\nTags: 基本, 黑暗, 引導, 傷害, 暗影持續傷害, 魂能, 屍體."
 },
 		id: 1,
 		maxPoints: 1,
@@ -140,7 +144,8 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"plPL": "Akolicki Rozkład",
 			"ptBR": "Decomposição do Acólito",
 			"ruRU": "Распад послушника",
-			"zhCN": "助祭的分解"
+			"zhCN": "助祭的分解",
+			"zhTW": "侍僧之分解"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr und Eure Diener fügen Gegnern, die zersetzt werden, x10% mehr nichtphysischen Schaden zu.\n\nTags: Basis, Dunkelheit, Kanalisiert, Schaden, Schattenschaden über Zeit, Essenz, Leiche.",
@@ -153,7 +158,8 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"plPL": "Ty i twoje sługi zadajecie obrażenia niefizyczne zwiększone o x10% wrogom objętym Rozkładem.\n\nTags: Podstawowe, Ciemność, Podtrzymanie, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja, Zwłoki.",
 			"ptBR": "Você e seus lacaios causam 10% de dano aumentado a inimigos em decomposição.\n\nTags: Básica, Escuridão, Canalizada, Dano, Dano de Sombra ao Longo do Tempo, Essência, Cadáver.",
 			"ruRU": "Вы и ваши прислужники наносите на x10% больше урона противникам под действием \"Распада\".\n\nTags: Базовое, Тьма, Поддерживаемое, Урон, Периодический урон от темной магии, Эссенция, Труп.",
-			"zhCN": "你和你的仆从对被分解的敌人造成的伤害提高 x10%。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸."
+			"zhCN": "你和你的仆从对被分解的敌人造成的伤害提高 x10%。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸.",
+			"zhTW": "你和你的僕從對遭到分解的敵人造成的傷害提高 x10%。\n\nTags: 基本, 黑暗, 引導, 傷害, 暗影持續傷害, 魂能, 屍體."
 },
 		id: 2,
 		maxPoints: 1,
@@ -177,7 +183,8 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"plPL": "Nowicjuszowski Rozkład",
 			"ptBR": "Decomposição do Iniciado",
 			"ruRU": "Распад новичка",
-			"zhCN": "学徒的分解"
+			"zhCN": "学徒的分解",
+			"zhTW": "輔祭之分解"
 },
 		descriptionLocalized: {
 			"deDE": "Zersetzen verlangsamt Gegner um 30%.\n\nTags: Basis, Dunkelheit, Kanalisiert, Schaden, Schattenschaden über Zeit, Essenz, Leiche.",
@@ -190,7 +197,8 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"plPL": "Rozkład spowalnia wrogów o 30%.\n\nTags: Podstawowe, Ciemność, Podtrzymanie, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja, Zwłoki.",
 			"ptBR": "Decomposição desacelera inimigos em 30%.\n\nTags: Básica, Escuridão, Canalizada, Dano, Dano de Sombra ao Longo do Tempo, Essência, Cadáver.",
 			"ruRU": "\"Распад\" замедляет противников на 30%.\n\nTags: Базовое, Тьма, Поддерживаемое, Урон, Периодический урон от темной магии, Эссенция, Труп.",
-			"zhCN": "分解使敌人减速 30%。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸."
+			"zhCN": "分解使敌人减速 30%。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸.",
+			"zhTW": "分解會使敵人緩速 30%。\n\nTags: 基本, 黑暗, 引導, 傷害, 暗影持續傷害, 魂能, 屍體."
 },
 		id: 3,
 		maxPoints: 1,
@@ -215,7 +223,8 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 			"plPL": "Żniwa",
 			"ptBR": "Ceifar",
 			"ruRU": "Жатва",
-			"zhCN": "收割"
+			"zhCN": "收割",
+			"zhTW": "收割"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Essenz: 4 pro getroffenem Gegner\nGlückstrefferchance: 16.667%\nSchwingt eine geisterhafte Sense vor Euch und verursacht {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden. Wenn Ihr einen Gegner mit Blutige Ernte trefft, erhöht sich Eure Schadensreduktion 2 Sek. lang um 15%.\n\nTags: Basis, Dunkelheit, Schaden, Schatten, Essenz, Schadensreduktion.",
@@ -228,7 +237,8 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 			"plPL": "Generuje: 4 pkt. esencji za każdego trafionego wroga\nSzansa na szczęśliwy traf: 16.667%\nWykonujesz przed sobą cięcie widmową kosą i zadajesz {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń. Trafienie przeciwnika Żniwami zwiększa redukcję otrzymywanych przez ciebie obrażeń o 15% na 2 sek.\n\nTags: Podstawowe, Ciemność, Obrażenia, Cień, Esencja, Redukcja Obrażeń.",
 			"ptBR": "Gerar Essência: 4 por inimigo atingido\nChance de Golpe de Sorte: 16.667%\nVocê golpeia com uma foice etérea à sua frente, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano. Atingir um inimigo com Ceifar aumenta sua redução de dano em 15% por 2 segundos.\n\nTags: Básica, Escuridão, Dano, Sombra, Essência, Redução de Dano.",
 			"ruRU": "Дает эссенцию: 4 ед. за каждого пораженного противника.\nВероятность удачного удара: 16.667%.\nВы взмахиваете перед собой призрачной косой, нанося {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона. Когда \"Жатва\" поражает противника, получаемый вами урон уменьшается на 15% на 2 сек.\n\nTags: Базовое, Тьма, Урон, Темная магия, Эссенция, Уменьшение урона.",
-			"zhCN": "生成精魂: 每命中一名敌人 4 点\n幸运一击几率: 16.667%\n在你面前挥舞一把无形的镰刀, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害。使用收割命中敌人会使你的伤害减免效果提高 15%, 持续 2 秒。\n\nTags: 基础, 黑暗, 伤害, 暗影, 精魂, 伤害减免."
+			"zhCN": "生成精魂: 每命中一名敌人 4 点\n幸运一击几率: 16.667%\n在你面前挥舞一把无形的镰刀, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害。使用收割命中敌人会使你的伤害减免效果提高 15%, 持续 2 秒。\n\nTags: 基础, 黑暗, 伤害, 暗影, 精魂, 伤害减免.",
+			"zhTW": "產生魂能:每擊中一個敵人產生 4 點\n幸運觸發機率:16.667%\n使用幽靈鐮刀朝你的前方揮擊,造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 點傷害。以收割擊中敵人時,會使你的傷害減免提高 15%,持續 2 秒。\n\nTags: 基本, 黑暗, 傷害, 暗影, 魂能, 傷害減免."
 },
 		id: 4,
 		maxPoints: 5,
@@ -252,7 +262,8 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 			"plPL": "Wzmocnione Żniwa",
 			"ptBR": "Ceifar Aperfeiçoado",
 			"ruRU": "Усиленная жатва",
-			"zhCN": "强化收割"
+			"zhCN": "强化收割",
+			"zhTW": "強化收割"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn ein Gegner, der von Blutige Ernte getroffen wurde, innerhalb von 2 Sek. stirbt, erhaltet Ihr 3 Sek. lang +30% Angriffsgeschwindigkeit.\n\nTags: Basis, Dunkelheit, Schaden, Schatten, Essenz, Schadensreduktion.",
@@ -265,7 +276,8 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 			"plPL": "Jeśli wróg trafiony Żniwami umrze w ciągu 2 sek., zyskasz +30% do szybkości ataku na 3 sek.\n\nTags: Podstawowe, Ciemność, Obrażenia, Cień, Esencja, Redukcja Obrażeń.",
 			"ptBR": "Se um inimigo atingido por Ceifar morrer em 2 segundos, você recebe +30% de velocidade de ataque por 3 segundos.\n\nTags: Básica, Escuridão, Dano, Sombra, Essência, Redução de Dano.",
 			"ruRU": "Когда противник, пораженный \"Жатвой\", погибает в течение 2 сек. после получения эффекта, ваша скорость атаки повышается на +30% на 3 сек.\n\nTags: Базовое, Тьма, Урон, Темная магия, Эссенция, Уменьшение урона.",
-			"zhCN": "如果被收割命中的敌人在 2 秒内死亡, 你的攻击速度提高 +30%, 持续 3 秒。\n\nTags: 基础, 黑暗, 伤害, 暗影, 精魂, 伤害减免."
+			"zhCN": "如果被收割命中的敌人在 2 秒内死亡, 你的攻击速度提高 +30%, 持续 3 秒。\n\nTags: 基础, 黑暗, 伤害, 暗影, 精魂, 伤害减免.",
+			"zhTW": "若被收割擊中的敵人在 2 秒內死亡,你獲得 +30% 攻擊速度,持續 3 秒。\n\nTags: 基本, 黑暗, 傷害, 暗影, 魂能, 傷害減免."
 },
 		id: 5,
 		maxPoints: 1,
@@ -289,7 +301,8 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 			"plPL": "Nowicjuszowskie Żniwa",
 			"ptBR": "Ceifar do Iniciado",
 			"ruRU": "Жатва новичка",
-			"zhCN": "学徒的收割"
+			"zhCN": "学徒的收割",
+			"zhTW": "輔祭之收割"
 },
 		descriptionLocalized: {
 			"deDE": "Blutige Ernte tötet Gegner, die weniger als 5% Leben haben, sofort. Nicht bei Bossen und Spielercharakteren anwendbar.\n\nTags: Basis, Dunkelheit, Schaden, Schatten, Essenz, Schadensreduktion.",
@@ -302,7 +315,8 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 			"plPL": "Żniwa natychmiast zabijają wrogów, którzy mają mniej niż 5% zdrowia. Efekt ten nie działa na bossów i graczy.\n\nTags: Podstawowe, Ciemność, Obrażenia, Cień, Esencja, Redukcja Obrażeń.",
 			"ptBR": "Ceifar mata instantaneamente inimigos com menos de 5% de vida. Não funciona em chefes ou jogadores.\n\nTags: Básica, Escuridão, Dano, Sombra, Essência, Redução de Dano.",
 			"ruRU": "\"Жатва\" мгновенно добивает противников с уровнем здоровья ниже 5%. Не действует на боссов и игроков.\n\nTags: Базовое, Тьма, Урон, Темная магия, Эссенция, Уменьшение урона.",
-			"zhCN": "收割会立即消灭生命低于 5% 的敌人。对首领或玩家无效。\n\nTags: 基础, 黑暗, 伤害, 暗影, 精魂, 伤害减免."
+			"zhCN": "收割会立即消灭生命低于 5% 的敌人。对首领或玩家无效。\n\nTags: 基础, 黑暗, 伤害, 暗影, 精魂, 伤害减免.",
+			"zhTW": "收割會立刻殺死生命值低於 5% 的敵人。此效果不適用於首領或玩家。\n\nTags: 基本, 黑暗, 傷害, 暗影, 魂能, 傷害減免."
 },
 		id: 6,
 		maxPoints: 1,
@@ -326,7 +340,8 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 			"plPL": "Akolickie Żniwa",
 			"ptBR": "Ceifar do Acólito",
 			"ruRU": "Жатва послушника",
-			"zhCN": "助祭的收割"
+			"zhCN": "助祭的收割",
+			"zhTW": "侍僧之收割"
 },
 		descriptionLocalized: {
 			"deDE": "Blutige Ernte erschafft eine Leiche unter dem ersten getroffenen Gegner. Kann nur einmal alle 5 Sek. auftreten.\n\nTags: Basis, Dunkelheit, Schaden, Schatten, Essenz, Schadensreduktion.",
@@ -339,7 +354,8 @@ Tags: Basic, Darkness, Damage, Shadow, Essence, Damage Reduction.`,
 			"plPL": "Żniwa tworzą zwłoki pod pierwszym trafionym wrogiem. Efekt ten może wystąpić raz na 5 sek.\n\nTags: Podstawowe, Ciemność, Obrażenia, Cień, Esencja, Redukcja Obrażeń.",
 			"ptBR": "Ceifar forma um cadáver embaixo do primeiro inimigo atingido. Só pode ocorrer a cada 5 segundos.\n\nTags: Básica, Escuridão, Dano, Sombra, Essência, Redução de Dano.",
 			"ruRU": "\"Жатва\" создает труп под первым пораженным противником. Срабатывает не чаще раза в 5 сек.\n\nTags: Базовое, Тьма, Урон, Темная магия, Эссенция, Уменьшение урона.",
-			"zhCN": "收割命中第一名敌人时生成一具亡骸。该效果每 5 秒只能触发一次。\n\nTags: 基础, 黑暗, 伤害, 暗影, 精魂, 伤害减免."
+			"zhCN": "收割命中第一名敌人时生成一具亡骸。该效果每 5 秒只能触发一次。\n\nTags: 基础, 黑暗, 伤害, 暗影, 精魂, 伤害减免.",
+			"zhTW": "收割會在第一個擊中的敵人下方生成屍體。此效果每 5 秒只能觸發一次。\n\nTags: 基本, 黑暗, 傷害, 暗影, 魂能, 傷害減免."
 },
 		id: 7,
 		maxPoints: 1,
@@ -364,7 +380,8 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 			"plPL": "Krwotok",
 			"ptBR": "Hemorragia",
 			"ruRU": "Кровоизлияние",
-			"zhCN": "出血"
+			"zhCN": "出血",
+			"zhTW": "出血"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Essenz: 8\nGlückstrefferchance: 35%\nVerspritzt das Blut eines Gegners und fügt ihm {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden zu. Blutsturz hat eine Chance von 20%, eine Blutkugel zu erzeugen.\n\nTags: Basis, Blut, Blutkugel, Schaden, Physisch, Essenz.",
@@ -377,7 +394,8 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 			"plPL": "Generuje: 8 pkt. esencji\nSzansa na szczęśliwy traf: 35%\nPowodujesz eksplozję krwi wroga, zadając {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń. Krwotok ma o 20% zwiększoną szansę na utworzenie krwawej kuli.\n\nTags: Podstawowe, Krew, Krwawa Kula, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Gerar Essência: 8\nChance de Golpe de Sorte: 35%\nExplode o sangue de um inimigo, causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano. Hemorragia tem 20% de chance de formar um orbe de sangue.\n\nTags: Básica, Sangue, Orbe de Sangue, Dano, Física, Essência.",
 			"ruRU": "Дает эссенцию: 8 ед.\nВероятность удачного удара: 35%.\nВы пускаете противнику кровь, нанося {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона. \"Кровоизлияние\" с вероятностью 20% создает сферу крови.\n\nTags: Базовое, Кровь, Сфера крови, Урон, Физический урон, Эссенция.",
-			"zhCN": "生成精魂: 8\n幸运一击几率: 35%\n使一名敌人出血, 造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。出血额外有 20% 几率生成一颗生命球。\n\nTags: 基础, 鲜血, 生命球, 伤害, 物理, 精魂."
+			"zhCN": "生成精魂: 8\n幸运一击几率: 35%\n使一名敌人出血, 造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。出血额外有 20% 几率生成一颗生命球。\n\nTags: 基础, 鲜血, 生命球, 伤害, 物理, 精魂.",
+			"zhTW": "產生魂能:8\n幸運觸發機率:35%\n使敵人大量出血,造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。出血有 20% 機率生成生命之球。\n\nTags: 基本, 鮮血, 生命之球, 傷害, 物理, 魂能."
 },
 		id: 8,
 		maxPoints: 5,
@@ -401,7 +419,8 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 			"plPL": "Wzmocniony Krwotok",
 			"ptBR": "Hemorragia Aperfeiçoada",
 			"ruRU": "Усиленное кровоизлияние",
-			"zhCN": "强化出血"
+			"zhCN": "强化出血",
+			"zhTW": "強化出血"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Ihr eine Blutkugel aufgesammelt habt, fügt Euer nächster Blutsturz auch Gegnern in der Nähe Eures Ziels Schaden zu und gewährt 2 zusätzliche Essenz für jeden getroffenen Gegner.\n\nTags: Basis, Blut, Blutkugel, Schaden, Physisch, Essenz.",
@@ -414,7 +433,8 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 			"plPL": "Po podniesieniu krwawej kuli twój następny Krwotok zada również obrażenia wrogom wokół twojego celu i zapewni dodatkowo 2 pkt. esencji za każdego trafionego przeciwnika.\n\nTags: Podstawowe, Krew, Krwawa Kula, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Depois de coletar um orbe de sangue, sua próxima Hemorragia também causa dano a inimigos ao redor do alvo e concede 2 de essência adicional por inimigo atingido.\n\nTags: Básica, Sangue, Orbe de Sangue, Dano, Física, Essência.",
 			"ruRU": "Когда вы подбираете сферу крови, следующее \"Кровоизлияние\" также наносит урон противникам вокруг цели и дает еще 2 ед. эссенции за каждого пораженного противника.\n\nTags: Базовое, Кровь, Сфера крови, Урон, Физический урон, Эссенция.",
-			"zhCN": "拾取一颗生命球后, 你下一个出血也会对你目标周围的敌人造成伤害, 并且每命中一名敌人额外获得 2 点精魂。\n\nTags: 基础, 鲜血, 生命球, 伤害, 物理, 精魂."
+			"zhCN": "拾取一颗生命球后, 你下一个出血也会对你目标周围的敌人造成伤害, 并且每命中一名敌人额外获得 2 点精魂。\n\nTags: 基础, 鲜血, 生命球, 伤害, 物理, 精魂.",
+			"zhTW": "拾取生命之球後,你的下一個出血會對你目標附近的敵人造成傷害,且每擊中一個敵人便賦予 2 點額外魂能。\n\nTags: 基本, 鮮血, 生命之球, 傷害, 物理, 魂能."
 },
 		id: 9,
 		maxPoints: 1,
@@ -438,7 +458,8 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 			"plPL": "Akolicki Krwotok",
 			"ptBR": "Hemorragia do Acólito",
 			"ruRU": "Кровоизлияние послушника",
-			"zhCN": "助祭的出血"
+			"zhCN": "助祭的出血",
+			"zhTW": "侍僧之出血"
 },
 		descriptionLocalized: {
 			"deDE": "Blutsturz erhält zusätzlich +20% Angriffsgeschwindigkeit, während Ihr gesund seid.\n\nTags: Basis, Blut, Blutkugel, Schaden, Physisch, Essenz.",
@@ -451,7 +472,8 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 			"plPL": "Krwotok zapewnia dodatkową premię +20% do szybkości ataku, gdy jesteś w pełni sił.\n\nTags: Podstawowe, Krew, Krwawa Kula, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Hemorragia recebe +20% de velocidade de ataque adicional enquanto saudável.\n\nTags: Básica, Sangue, Orbe de Sangue, Dano, Física, Essência.",
 			"ruRU": "Пока у вас высокий уровень здоровья, скорость атаки \"Кровоизлияния\" повышается на +20%.\n\nTags: Базовое, Кровь, Сфера крови, Урон, Физический урон, Эссенция.",
-			"zhCN": "健康状态下, 出血额外获得 +20% 攻击速度加成。\n\nTags: 基础, 鲜血, 生命球, 伤害, 物理, 精魂."
+			"zhCN": "健康状态下, 出血额外获得 +20% 攻击速度加成。\n\nTags: 基础, 鲜血, 生命球, 伤害, 物理, 精魂.",
+			"zhTW": "在健康狀態下施放出血,可額外獲得 +20% 攻擊速度。\n\nTags: 基本, 鮮血, 生命之球, 傷害, 物理, 魂能."
 },
 		id: 10,
 		maxPoints: 1,
@@ -475,7 +497,8 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 			"plPL": "Nowicjuszowski Krwotok",
 			"ptBR": "Hemorragia do Iniciado",
 			"ruRU": "Кровоизлияние новичка",
-			"zhCN": "学徒的出血"
+			"zhCN": "学徒的出血",
+			"zhTW": "輔祭之出血"
 },
 		descriptionLocalized: {
 			"deDE": "Blutsturz verleiht jedes Mal, wenn ein Gegner getroffen wird, 1.6% Basisleben als Stählung und verfügt über eine Chance von 1.5% für jeden getroffenen Gegner, Stählung in Höhe von 100% Eures Basislebens zu verleihen.\n\nTags: Basis, Blut, Blutkugel, Schaden, Physisch, Essenz.",
@@ -488,7 +511,8 @@ Tags: Basic, Blood, Blood Orb, Damage, Physical, Essence.`,
 			"plPL": "Krwotok zapewnia 1.6% podstawowego zdrowia jako umocnienie za każdym razem, gdy trafi wroga. W przypadku każdego trafionego wroga zapewnia 1.5% szans na umocnienie równe 100% twojego podstawowego zdrowia.\n\nTags: Podstawowe, Krew, Krwawa Kula, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Hemorragia concede 1.6% de vida básica como fortificação sempre que atinge um inimigo e tem 1.5% de chance por inimigo atingido de fortificar você em 100% da vida básica.\n\nTags: Básica, Sangue, Orbe de Sangue, Dano, Física, Essência.",
 			"ruRU": "\"Кровоизлияние\" дает вам укрепление в объеме 1.6% базового запаса здоровья каждый раз, когда поражает противника, а также с вероятностью 1.5% за каждого пораженного противника может дать вам укрепление в объеме 100% базового запаса здоровья.\n\nTags: Базовое, Кровь, Сфера крови, Урон, Физический урон, Эссенция.",
-			"zhCN": "出血每次命中敌人, 强固你 1.6% 基础生命, 而且每命中一名敌人有 1.5% 几率强固你 100% 基础生命。\n\nTags: 基础, 鲜血, 生命球, 伤害, 物理, 精魂."
+			"zhCN": "出血每次命中敌人, 强固你 1.6% 基础生命, 而且每命中一名敌人有 1.5% 几率强固你 100% 基础生命。\n\nTags: 基础, 鲜血, 生命球, 伤害, 物理, 精魂.",
+			"zhTW": "出血每次擊中敵人,會賦予你相當於 1.6% 基礎生命值的強韌。且每擊中一個敵人有 1.5% 機率賦予你相當於 100% 基礎生命值的強韌。\n\nTags: 基本, 鮮血, 生命之球, 傷害, 物理, 魂能."
 },
 		id: 11,
 		maxPoints: 1,
@@ -513,7 +537,8 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 			"plPL": "Kościane Odłamki",
 			"ptBR": "Estilhaços Ósseos",
 			"ruRU": "Костяные осколки",
-			"zhCN": "白骨碎片"
+			"zhCN": "白骨碎片",
+			"zhTW": "骸骨裂片"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Essenz: 6\nGlückstrefferchance: 17%\nFeuert 3 Knochensplitter ab, die jeweils {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Schaden verursachen. Jedes Mal, wenn ein Gegner vom selben Einsatz von Knochensplitter getroffen wird, erhaltet Ihr 1 Essenz.\n\nTags: Basis, Knochen, Schaden, Physisch, Essenz.",
@@ -526,7 +551,8 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 			"plPL": "Generuje: 6 pkt. esencji\nSzansa na szczęśliwy traf: 17%\nWypuszczasz 3 Kościane Odłamki, zadając {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% pkt. obrażeń każdym. Za każdym razem, gdy kolejny wróg zostanie trafiony tymi samymi odłamkami, zyskujesz 1 pkt. esencji.\n\nTags: Podstawowe, Kości, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Gerar Essência: 6\nChance de Golpe de Sorte: 17%\nDispara 3 estilhaços ósseos. Cada um causa {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de dano. Cada vez subsequente que um inimigo é atingido pelo mesmo lançamento de Estilhaços Ósseos, você recebe 1 de essência.\n\nTags: Básica, Osso, Dano, Física, Essência.",
 			"ruRU": "Дает эссенцию: 6 ед.\nВероятность удачного удара: 17%.\nВы выпускаете 3 костяных осколка, наносящих по {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% ед. урона. Когда \"Костяные осколки\", вызванные одним применением, поражают одну и ту же цель более одного раза, вы накапливаете по 1 ед. эссенции.\n\nTags: Базовое, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "生成精魂: 6\n幸运一击几率: 17%\n发射 3 枚白骨碎片, 每枚碎片造成 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 点伤害。随后每次敌人被单次施放的白骨碎片命中时, 你都会获得 1 点精魂。\n\nTags: 基础, 白骨, 伤害, 物理, 精魂."
+			"zhCN": "生成精魂: 6\n幸运一击几率: 17%\n发射 3 枚白骨碎片, 每枚碎片造成 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 点伤害。随后每次敌人被单次施放的白骨碎片命中时, 你都会获得 1 点精魂。\n\nTags: 基础, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "產生魂能:6\n幸運觸發機率:17%\n發射 3 塊骸骨裂片,每片造成 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 點傷害。同一次施放骸骨裂片時,若有敵人遭多次擊中,則每次擊中使你獲得 1 點魂能。\n\nTags: 基本, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 12,
 		maxPoints: 5,
@@ -550,7 +576,8 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 			"plPL": "Wzmocnione Kościane Odłamki",
 			"ptBR": "Estilhaços Ósseos Aperfeiçoados",
 			"ruRU": "Усиленные костяные осколки",
-			"zhCN": "强化白骨碎片"
+			"zhCN": "强化白骨碎片",
+			"zhTW": "強化骸骨裂片"
 },
 		descriptionLocalized: {
 			"deDE": "Knochensplitter verfügt über eine Chance von 25%, 2 zusätzliche Projekte abzufeuern, wenn Ihr beim Wirken mindestens 50 Essenz habt.\n\nTags: Basis, Knochen, Schaden, Physisch, Essenz.",
@@ -563,7 +590,8 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 			"plPL": "Kościane Odłamki mają 25% szans na wystrzelenie dodatkowych pocisków (2), jeśli użyjesz umiejętności, mając co najmniej 50 pkt. esencji.\n\nTags: Podstawowe, Kości, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Estilhaços Ósseos tem 25% de chance de disparar 2 projéteis adicionais se a habilidade for lançada enquanto você tem 50 ou mais de essência.\n\nTags: Básica, Osso, Dano, Física, Essência.",
 			"ruRU": "\"Костяные осколки\" с вероятностью 25% выпускают еще 2 снаряда:снарядов, если на момент применения у вас есть 50 ед. эссенции или более.\n\nTags: Базовое, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "释放技能时, 如果你拥有 50 点及更多精魂, 白骨碎片 则有 25% 几率额外发射 2 枚投射物。\n\nTags: 基础, 白骨, 伤害, 物理, 精魂."
+			"zhCN": "释放技能时, 如果你拥有 50 点及更多精魂, 白骨碎片 则有 25% 几率额外发射 2 枚投射物。\n\nTags: 基础, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "若你在 50 點魂能以上時施放骸骨裂片,有 25% 機率發射 2 個額外的飛射物。\n\nTags: 基本, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 13,
 		maxPoints: 1,
@@ -587,7 +615,8 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 			"plPL": "Akolickie Kościane Odłamki",
 			"ptBR": "Estilhaços Ósseos do Acólito",
 			"ruRU": "Костяные осколки послушника",
-			"zhCN": "助祭白骨碎片"
+			"zhCN": "助祭白骨碎片",
+			"zhTW": "侍僧之骸骨裂片"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr denselben Gegner mindestens 3-mal mit demselben Wirken von Knochensplitter trefft, werden 4 Sek. lang +8% kritische Trefferchance gewährt.\n\nTags: Basis, Knochen, Schaden, Physisch, Essenz.",
@@ -600,7 +629,8 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 			"plPL": "Trafienie tego samego wroga przynajmniej 3 razy jednym użyciem Kościanych Odłamków zapewnia premię +8% do szansy na trafienie krytyczne na 4 sek.\n\nTags: Podstawowe, Kości, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Atingir o mesmo inimigo pelo menos 3 vezes com o mesmo lançamento de Estilhaços Ósseos concede +8% de chance de acerto crítico por 4 segundos.\n\nTags: Básica, Osso, Dano, Física, Essência.",
 			"ruRU": "Когда \"Костяные осколки\" поражают одного противника 3 раза:раз за одно применение, вероятность критического удара повышается на +8% на 4 сек.\n\nTags: Базовое, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "同一次施放的白骨碎片命中相同敌人至少 3 次后, 获得 +8% 暴击几率加成, 持续 4 秒。\n\nTags: 基础, 白骨, 伤害, 物理, 精魂."
+			"zhCN": "同一次施放的白骨碎片命中相同敌人至少 3 次后, 获得 +8% 暴击几率加成, 持续 4 秒。\n\nTags: 基础, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "同一次施放骸骨裂片時,若擊中同一名敵人至少 3 次,可賦予你 +8% 爆擊機率,持續 4 秒。\n\nTags: 基本, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 14,
 		maxPoints: 1,
@@ -624,7 +654,8 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 			"plPL": "Nowicjuszowskie Kościane Odłamki",
 			"ptBR": "Estilhaços Ósseos do Iniciado",
 			"ruRU": "Костяные осколки новичка",
-			"zhCN": "学徒的白骨碎片"
+			"zhCN": "学徒的白骨碎片",
+			"zhTW": "輔祭之骸骨裂片"
 },
 		descriptionLocalized: {
 			"deDE": "Knochensplitter verfügt über eine Chance von 20%, Gegner 2 Sek. lang verwundbar zu machen.\n\nTags: Basis, Knochen, Schaden, Physisch, Essenz.",
@@ -637,7 +668,8 @@ Tags: Basic, Bone, Damage, Physical, Essence.`,
 			"plPL": "Każde trafienie Kościanymi Odłamkami ma 20% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Podstawowe, Kości, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Estilhaços Ósseos tem 20% de chance por acerto de tornar os inimigos vulneráveis por 2 segundos.\n\nTags: Básica, Osso, Dano, Física, Essência.",
 			"ruRU": "\"Костяные осколки\" с вероятностью 20% за попадание делают противников уязвимыми на 2 сек.\n\nTags: Базовое, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "白骨碎片每次命中都有 20% 几率使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 基础, 白骨, 伤害, 物理, 精魂."
+			"zhCN": "白骨碎片每次命中都有 20% 几率使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 基础, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "骸骨裂片有 20% 機率使敵人易傷,持續 2 秒。\n\nTags: 基本, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 15,
 		maxPoints: 1,
@@ -665,7 +697,8 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"plPL": "Mór",
 			"ptBR": "Praga",
 			"ruRU": "Тлен",
-			"zhCN": "枯萎"
+			"zhCN": "枯萎",
+			"zhTW": "荒疫"
 },
 		descriptionLocalized: {
 			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 40%\nEntfesselt eine konzentrierte Pest, die {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und ein verunreinigtes Gebiet zurücklässt, das im Verlauf von 6 Sek. {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% Schaden verursacht.\n\nTags: Kern, Dunkelheit, Schaden, Schattenschaden über Zeit, Essenz.",
@@ -678,7 +711,8 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"plPL": "Koszt: {#} pkt. esencji\nSzansa na szczęśliwy traf: 40%\nWyzwalasz skoncentrowaną energię moru, która zadaje {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i pozostawia skażony obszar zadający {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% pkt. obrażeń w ciągu 6 sek.\n\nTags: Główne, Ciemność, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja.",
 			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 40%\nLibera uma praga concentrada que causa {30/33/36/39/42/45/48/51/54/57}% de dano e deixa para trás uma área corrompida, causando {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de dano ao longo de 6 segundos.\n\nTags: Principal, Escuridão, Dano, Dano de Sombra ao Longo do Tempo, Essência.",
 			"ruRU": "Затраты эссенции: {#} ед.\nВероятность удачного удара: 40%.\nВы выпускаете концентрированную гниль, наносящую {30/33/36/39/42/45/48/51/54/57}% ед. урона и оставляющую область порчи, которая наносит {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% ед. урона за 6 сек.\n\nTags: Основное, Тьма, Урон, Периодический урон от темной магии, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 40%\n释放浓缩枯萎, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并留下一片亵渎区域, 在 6 秒内造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂."
+			"zhCN": "精魂消耗: {#}\n幸运一击几率: 40%\n释放浓缩枯萎, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并留下一片亵渎区域, 在 6 秒内造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂.",
+			"zhTW": "魂能消耗:{#}\n幸運觸發機率:40%\n釋放一團強烈的凋萎能量,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並留下在 6 秒內造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 點傷害的汙染區域。\n\nTags: 核心, 黑暗, 傷害, 暗影持續傷害, 魂能."
 },
 		id: 16,
 		maxPoints: 5,
@@ -703,7 +737,8 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"plPL": "Wzmocniony Mór",
 			"ptBR": "Praga Aperfeiçoada",
 			"ruRU": "Усиленный тлен",
-			"zhCN": "强化枯萎"
+			"zhCN": "强化枯萎",
+			"zhTW": "強化荒疫"
 },
 		descriptionLocalized: {
 			"deDE": "Pest verlangsamt Gegner um 25%.\n\nTags: Kern, Dunkelheit, Schaden, Schattenschaden über Zeit, Essenz.",
@@ -716,7 +751,8 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"plPL": "Mór spowalnia wrogów o 25%.\n\nTags: Główne, Ciemność, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja.",
 			"ptBR": "Praga desacelera inimigos em 25%.\n\nTags: Principal, Escuridão, Dano, Dano de Sombra ao Longo do Tempo, Essência.",
 			"ruRU": "\"Тлен\" замедляет противников на 25%.\n\nTags: Основное, Тьма, Урон, Периодический урон от темной магии, Эссенция.",
-			"zhCN": "枯萎使敌人减速 25%。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂."
+			"zhCN": "枯萎使敌人减速 25%。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂.",
+			"zhTW": "荒疫會使敵人緩速 25%。\n\nTags: 核心, 黑暗, 傷害, 暗影持續傷害, 魂能."
 },
 		id: 17,
 		maxPoints: 1,
@@ -740,7 +776,8 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"plPL": "Paranormalny Mór",
 			"ptBR": "Praga Paranormal",
 			"ruRU": "Паранормальный тлен",
-			"zhCN": "灵异枯萎"
+			"zhCN": "灵异枯萎",
+			"zhTW": "靈異荒疫"
 },
 		descriptionLocalized: {
 			"deDE": "Pest verfügt über eine Chance von 30%, Gegner beim Aufprall 1.5 Sek. lang bewegungsunfähig zu machen.\n\nTags: Kern, Dunkelheit, Schaden, Schattenschaden über Zeit, Essenz.",
@@ -753,7 +790,8 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"plPL": "Mór ma 30% szans na unieruchomienie wrogów na 1.5 sek. po ich trafieniu.\n\nTags: Główne, Ciemność, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja.",
 			"ptBR": "Praga tem 30% de chance de imobilizar inimigos por 1.5 segundos no impacto.\n\nTags: Principal, Escuridão, Dano, Dano de Sombra ao Longo do Tempo, Essência.",
 			"ruRU": "При попадании \"Тлен\" с вероятностью 30% обездвиживает цель на 1.5 сек.\n\nTags: Основное, Тьма, Урон, Периодический урон от темной магии, Эссенция.",
-			"zhCN": "枯萎命中敌人时有 30% 几率使其定身 1.5 秒。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂."
+			"zhCN": "枯萎命中敌人时有 30% 几率使其定身 1.5 秒。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂.",
+			"zhTW": "荒疫有 30% 機率使擊中的敵人定身,持續 1.5 秒。\n\nTags: 核心, 黑暗, 傷害, 暗影持續傷害, 魂能."
 },
 		id: 18,
 		maxPoints: 1,
@@ -777,7 +815,8 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"plPL": "Nadnaturalny Mór",
 			"ptBR": "Praga Sobrenatural",
 			"ruRU": "Сверхъестественный тлен",
-			"zhCN": "超自然枯萎"
+			"zhCN": "超自然枯萎",
+			"zhTW": "超自然荒疫"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr und Eure Diener fügen Gegnern in Reichweite von Pest x15% mehr Schaden zu.\n\nTags: Kern, Dunkelheit, Schaden, Schattenschaden über Zeit, Essenz.",
@@ -790,7 +829,8 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"plPL": "Ty i twoje sługi zadajecie obrażenia niefizyczne zwiększone o x15% wrogom objętym Morem.\n\nTags: Główne, Ciemność, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja.",
 			"ptBR": "Você e seus lacaios causam 15% de dano aumentado a inimigos na área de Praga.\n\nTags: Principal, Escuridão, Dano, Dano de Sombra ao Longo do Tempo, Essência.",
 			"ruRU": "Вы и ваши прислужники наносите на x15% больше урона противникам в области действия \"Тлена\".\n\nTags: Основное, Тьма, Урон, Периодический урон от темной магии, Эссенция.",
-			"zhCN": "你和你的仆从对枯萎范围内的敌人造成的伤害提高 x15%。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂."
+			"zhCN": "你和你的仆从对枯萎范围内的敌人造成的伤害提高 x15%。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂.",
+			"zhTW": "你和你的僕從對荒疫範圍內的敵人造成的傷害提高 x15%。\n\nTags: 核心, 黑暗, 傷害, 暗影持續傷害, 魂能."
 },
 		id: 19,
 		maxPoints: 1,
@@ -815,7 +855,8 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"plPL": "Rozdarcie",
 			"ptBR": "Decepar",
 			"ruRU": "Отсечение",
-			"zhCN": "挥斩"
+			"zhCN": "挥斩",
+			"zhTW": "斬裂"
 },
 		descriptionLocalized: {
 			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 20%\nEin Phantom von Euch stürmt vorwärts, greift mit seiner Sense an und verursacht {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% Schaden, bevor es zu Euch zurückkehrt, erneut angreift und {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% Schaden verursacht.\n\nTags: Kern, Dunkelheit, Schaden, Schatten, Essenz.",
@@ -828,7 +869,8 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"plPL": "Koszt: {#} pkt. esencji.\nSzansa na szczęśliwy traf: 20%\nTwoje widmo rusza gwałtownie naprzód i atakuje swoją kosą, zadając {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% pkt. obrażeń, a następnie wraca do ciebie i zadaje ponownie {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% pkt. obrażeń.\n\nTags: Główne, Ciemność, Obrażenia, Cień, Esencja.",
 			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 20%\nUm espectro seu avança e ataca com sua foice, causando {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% de dano. Depois ele retorna até você e ataca novamente, causando {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% de dano.\n\nTags: Principal, Escuridão, Dano, Sombra, Essência.",
 			"ruRU": "Затраты эссенции: {#} ед.\nВероятность удачного удара: 20%.\nВаша призрачная копия совершает рывок вперед и взмахивает косой, нанося {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% ед. урона, а затем возвращается к вам и совершает еще один удар, наносящий {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% ед. урона.\n\nTags: Основное, Тьма, Урон, Темная магия, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 20%\n你的幽魂向前冲锋并用镰刀发动攻击, 造成 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% 点伤害, 然后返回到你身边时再次攻击, 造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂."
+			"zhCN": "精魂消耗: {#}\n幸运一击几率: 20%\n你的幽魂向前冲锋并用镰刀发动攻击, 造成 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% 点伤害, 然后返回到你身边时再次攻击, 造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂.",
+			"zhTW": "魂能消耗:{#}\n幸運觸發機率:20%\n你的幽魂向前衝鋒並以鐮刀揮擊,造成 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% 點傷害,然後返回你身邊並再次攻擊,造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 點傷害。\n\nTags: 核心, 黑暗, 傷害, 暗影, 魂能."
 },
 		id: 20,
 		maxPoints: 5,
@@ -853,7 +895,8 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"plPL": "Wzmocnione Rozdarcie",
 			"ptBR": "Decepar Aperfeiçoado",
 			"ruRU": "Усиленное отсечение",
-			"zhCN": "强化挥斩"
+			"zhCN": "强化挥斩",
+			"zhTW": "強化斬裂"
 },
 		descriptionLocalized: {
 			"deDE": "Schnitter fügt Gegnern auf seinem Weg Schaden in Höhe von 25% des anfänglichen Schadens zu.\n\nTags: Kern, Dunkelheit, Schaden, Schatten, Essenz.",
@@ -866,7 +909,8 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"plPL": "Rozdarcie rani także wrogów na swojej drodze, zadając im równowartość 25% początkowych obrażeń.\n\nTags: Główne, Ciemność, Obrażenia, Cień, Esencja.",
 			"ptBR": "Decepar causa dano aos inimigos no caminho equivalente a 25% do dano.\n\nTags: Principal, Escuridão, Dano, Sombra, Essência.",
 			"ruRU": "Призванный \"Отсечением\" призрак наносит противникам на своем пути 25% изначального урона.\n\nTags: Основное, Тьма, Урон, Темная магия, Эссенция.",
-			"zhCN": "挥斩会对路径上的敌人造成 25% 的初始伤害。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂."
+			"zhCN": "挥斩会对路径上的敌人造成 25% 的初始伤害。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂.",
+			"zhTW": "斬裂會對路徑上的敵人造成起始傷害 25% 的傷害。\n\nTags: 核心, 黑暗, 傷害, 暗影, 魂能."
 },
 		id: 21,
 		maxPoints: 1,
@@ -890,7 +934,8 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"plPL": "Paranormalne Rozdarcie",
 			"ptBR": "Decepar Paranormal",
 			"ruRU": "Паранормальное отсечение",
-			"zhCN": "灵异挥斩"
+			"zhCN": "灵异挥斩",
+			"zhTW": "靈異斬裂"
 },
 		descriptionLocalized: {
 			"deDE": "Jeder 4. Einsatz von Schnitter macht Gegner 2 Sek. lang verwundbar.\n\nTags: Kern, Dunkelheit, Schaden, Schatten, Essenz.",
@@ -903,7 +948,8 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"plPL": "Co 4 rzucenie Rozdarcia sprawia, że wrogowie są odsłonięci przez 2 sek.\n\nTags: Główne, Ciemność, Obrażenia, Cień, Esencja.",
 			"ptBR": "Cada 4° lançamento de Decepar torna os inimigos vulneráveis por 2 segundos.\n\nTags: Principal, Escuridão, Dano, Sombra, Essência.",
 			"ruRU": "При каждом 4-м применении \"Отсечение\" делает пораженных противников уязвимыми на 2 сек.\n\nTags: Основное, Тьма, Урон, Темная магия, Эссенция.",
-			"zhCN": "每 4 次施放挥斩会使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂."
+			"zhCN": "每 4 次施放挥斩会使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂.",
+			"zhTW": "每第 4 次施放的斬裂,會使其擊中的敵人易傷,持續 2 秒。\n\nTags: 核心, 黑暗, 傷害, 暗影, 魂能."
 },
 		id: 22,
 		maxPoints: 1,
@@ -927,7 +973,8 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"plPL": "Nadnaturalne Rozdarcie",
 			"ptBR": "Decepar Sobrenatural",
 			"ruRU": "Сверхъестественное отсечение",
-			"zhCN": "超自然挥斩"
+			"zhCN": "超自然挥斩",
+			"zhTW": "超自然斬裂"
 },
 		descriptionLocalized: {
 			"deDE": "Schnitter verursacht x2% mehr Schaden für jeden Diener, den Ihr beim Wirken besitzt.\n\nTags: Kern, Dunkelheit, Schaden, Schatten, Essenz.",
@@ -940,7 +987,8 @@ Tags: Core, Darkness, Damage, Shadow, Essence.`,
 			"plPL": "Rozdarcie zadaje obrażenia zwiększone o x2% za każdego sługę, jakiego posiadasz podczas używania umiejętności.\n\nTags: Główne, Ciemność, Obrażenia, Cień, Esencja.",
 			"ptBR": "Decepar causa 2% de dano aumentado por cada lacaio que você tiver ao lançar.\n\nTags: Principal, Escuridão, Dano, Sombra, Essência.",
 			"ruRU": "\"Отсечение\" наносит на x2% больше урона за каждого прислужника под вашим контролем.\n\nTags: Основное, Тьма, Урон, Темная магия, Эссенция.",
-			"zhCN": "你每拥有一名仆从, 挥斩的伤害提高 x2%。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂."
+			"zhCN": "你每拥有一名仆从, 挥斩的伤害提高 x2%。\n\nTags: 核心, 黑暗, 伤害, 暗影, 精魂.",
+			"zhTW": "施放斬裂時,你的每個僕從可使其造成的傷害提高 x2%。\n\nTags: 核心, 黑暗, 傷害, 暗影, 魂能."
 },
 		id: 23,
 		maxPoints: 1,
@@ -965,7 +1013,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Napływ Krwi",
 			"ptBR": "Surto de Sangue",
 			"ruRU": "Волнение крови",
-			"zhCN": "血涌"
+			"zhCN": "血涌",
+			"zhTW": "鮮血奔湧"
 },
 		descriptionLocalized: {
 			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 12%\nEntzieht Gegnern Blut, was {20/22/24/26/28/30/32/34/36/38}% Schaden verursacht, und erzeugt eine Blutnova, die {50/55/60/65/70/75/80/85/90/95}% Schaden verursacht. Der Schaden der Nova von Blutwoge erhöht sich um x10% pro blutentleertem Gegner, bis maximal x50%.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
@@ -978,7 +1027,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Koszt: {#} pkt. esencji.\nSzansa na szczęśliwy traf: 12%\nWysysasz krew z wrogów i zadajesz im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń, a następnie wywołujesz Novę Krwi, która zadaje {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń. Obrażenia od Novy za Napływ Krwi są zwiększane o x10% za każdego pozbawionego krwi wroga, aż do x50%.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 12%\nExtrai sangue dos inimigos, causando {20/22/24/26/28/30/32/34/36/38}% de dano, e expele uma nova de sangue, causando {50/55/60/65/70/75/80/85/90/95}% de dano. O dano da nova de Surto de Sangue é aumentado em 10% por inimigo drenado, até 50%.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
 			"ruRU": "Затраты эссенции: {#}\nВероятность удачного удара: 12%\nВы вытягиваете кровь противников, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона, и исторгаете кольцо крови, наносящее {50/55/60/65/70/75/80/85/90/95}% ед. урона. Урон от кольца \"Волнения крови\" увеличивается на x10% за каждого обескровленного противника вплоть до x50%.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 12%\n从敌人身上吸取鲜血, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害并释放一次鲜血新星, 造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。每吸取一名敌人的鲜血, 血涌的新星伤害提高 x10%, 最多提高 x50%。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂."
+			"zhCN": "精魂消耗: {#}\n幸运一击几率: 12%\n从敌人身上吸取鲜血, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害并释放一次鲜血新星, 造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。每吸取一名敌人的鲜血, 血涌的新星伤害提高 x10%, 最多提高 x50%。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "魂能消耗:{#}\n幸運觸發機率:12%\n從敵人身上榨取鮮血,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害,並且放出血濤新星造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。每榨取一個敵人可使鮮血奔湧的新星傷害提高 x10%,最高可達 x50%。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 24,
 		maxPoints: 5,
@@ -1003,7 +1053,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Wzmocniony Napływ Krwi",
 			"ptBR": "Surto de Sangue Aperfeiçoado",
 			"ruRU": "Усиленное волнение крови",
-			"zhCN": "强化血涌"
+			"zhCN": "强化血涌",
+			"zhTW": "強化鮮血奔湧"
 },
 		descriptionLocalized: {
 			"deDE": "Blutwoge heilt Euch um 2.5% Eures maximalen Lebens, wenn Ihr Gegnern Blut entzieht. Wenn mindestens 4 Gegnern Blut entzogen wird, werdet Ihr um zusätzliche 2.5% Eures maximalen Lebens geheilt.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
@@ -1016,7 +1067,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Napływ Krwi przywraca ci 2.5% maksymalnego zdrowia, kiedy czerpiesz krew z wrogów. Jeśli co najmniej 4 wrogów zostanie tym dotkniętych, odzyskasz dodatkowo 2.5% maksymalnego zdrowia.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Surto de Sangue cura 2.5% da sua vida máxima ao extrair sangue de inimigos. Se 4 ou mais inimigos forem drenados, então cura mais 2.5% da sua vida máxima.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
 			"ruRU": "Когда \"Волнение крови\" вытягивает из противников кровь, вы восполняете 2.5% максимального запаса здоровья. Если умение иссушает 4 или более противников, вы восполняете еще 2.5% максимального запаса здоровья.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "血涌吸取敌人鲜血, 可以为你恢复 2.5% 生命上限。如果吸取了 4 个或更多敌人的鲜血, 则额外为你恢复 2.5% 生命上限。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂."
+			"zhCN": "血涌吸取敌人鲜血, 可以为你恢复 2.5% 生命上限。如果吸取了 4 个或更多敌人的鲜血, 则额外为你恢复 2.5% 生命上限。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "使用鮮血奔湧榨取敵人鮮血時,可恢復你生命值上限的 2.5%。若榨取了 4 個以上敵人的鮮血,則額外恢復你生命值上限的 2.5%。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 25,
 		maxPoints: 1,
@@ -1040,7 +1092,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Nadnaturalny Napływ Krwi",
 			"ptBR": "Surto de Sangue Sobrenatural",
 			"ruRU": "Сверхъестественное волнение крови",
-			"zhCN": "超自然血涌"
+			"zhCN": "超自然血涌",
+			"zhTW": "超自然鮮血奔湧"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn ein Gegner von der Nova von Blutwoge getroffen wird, erhaltet Ihr Stählung in Höhe von 1.1% Eures Basislebens. Solange Ihr um mindestens 50% Eures maximalen Lebens gestählt seid, fügt Blutwoge x20% mehr Schaden zu.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
@@ -1053,7 +1106,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Za każdym razem, gdy wróg zostaje trafiony novą wywołaną przez Napływ Krwi, zyskujesz umocnienie równe 1.1% podstawowego zdrowia. Kiedy twoja postać jest umocniona o równowartość ponad 50% twojego maksymalnego zdrowia, Napływ Krwi zadaje x20% więcej obrażeń.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Sempre que um inimigo é atingido pela nova de Surto de Sangue, você se fortifica em 1.1% da vida básica. Enquanto tiver fortificação em mais de 50% da sua vida máxima, Surto de Sangue causa 20% de dano aumentado.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
 			"ruRU": "Когда кольцо \"Волнения крови\" поражает противников, вы получаете укрепление в объеме 1.1% базового запаса здоровья. Когда ваш показатель укрепления превышает 50% максимального запаса здоровья, \"Волнение крови\" наносит на x20% больше урона.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "血涌的鲜血新星每命中一名敌人就会强固你 1.1% 基础生命。当你的强固效果超过生命上限的 50%, 血涌造成的伤害提高 x20%。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂."
+			"zhCN": "血涌的鲜血新星每命中一名敌人就会强固你 1.1% 基础生命。当你的强固效果超过生命上限的 50%, 血涌造成的伤害提高 x20%。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "每次敵人被鮮血奔湧的新星擊中時,會賦予你相當於 1.1% 基礎生命值的強韌。當你的強韌效果超過生命值上限的 50% 時,鮮血奔湧造成的傷害提高 x20%。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 26,
 		maxPoints: 1,
@@ -1077,7 +1131,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Paranormalny Napływ Krwi",
 			"ptBR": "Surto de Sangue Paranormal",
 			"ruRU": "Паранормальное волнение крови",
-			"zhCN": "灵异血涌"
+			"zhCN": "灵异血涌",
+			"zhTW": "靈異鮮血奔湧"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn ein Gegner von der Nova von Blutwoge getroffen wird, während Ihr gesund seid, erhaltet Ihr 1 Stapel erdrückendes Blut. Wenn Ihr 5 Stapel erdrückendes Blut habt, überwältigt Eure nächste Blutwoge.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
@@ -1090,7 +1145,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Jeśli wróg otrzyma obrażenia od novy Napływu Krwi, gdy jesteś w pełni sił, zyskujesz 1 poziom kumulacji Przytłaczającej Krwi. Kiedy masz 5 poziomów kumulacji Przytłaczającej Krwi, twój następny Napływ Krwi przytłoczy.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Se um inimigo for atingido pela nova de Surto de Sangue enquanto você estiver saudável, você recebe 1 aplicação de Sangue Avassalador. Quando você tem 5 aplicações de Sangue Avassalador, seu próximo Surto de Sangue desfere Golpe Brutal.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
 			"ruRU": "Если кольцо \"Волнения крови\" поражает противника, когда у вас высокий уровень здоровья, вы получаете 1 эффект \"Подавляющей крови\". Когда вы накапливаете 5 эффектов \"Подавляющей крови\", ваше следующее \"Волнение крови\" наносит подавляющий урон.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "当你在健康状态下使用血涌的新星对敌人造成伤害后, 获得 1 层压制血液。当你拥有 5 层压制血液, 你的下一次血涌造成压制。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂."
+			"zhCN": "当你在健康状态下使用血涌的新星对敌人造成伤害后, 获得 1 层压制血液。当你拥有 5 层压制血液, 你的下一次血涌造成压制。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "當你健康時,若敵人遭到鮮血奔湧的新星傷害,便可獲得 1 層洶湧之血。當你擁有 5 洶湧之血時,你的下一個鮮血奔湧會壓制。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 27,
 		maxPoints: 1,
@@ -1115,7 +1171,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Krwawa Lanca",
 			"ptBR": "Lança de Sangue",
 			"ruRU": "Окровавленное копье",
-			"zhCN": "血矛"
+			"zhCN": "血矛",
+			"zhTW": "鮮血之槍"
 },
 		descriptionLocalized: {
 			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 33%\nWerft eine Blutlanze, die 3 Sek. lang in einem Gegner verbleibt und diesem und allen anderen betroffenen Gegnern {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% Schaden zufügt.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
@@ -1128,7 +1185,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Koszt: {#} pkt. esencji\nSzansa na szczęśliwy traf: 33%\nMiotasz krwawą lancą, która tkwi w przeciwniku przez 3 sek., zadając {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% pkt. obrażeń temu wrogowi i wszystkim pozostałym wrogom, którzy są przebici lancą.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 33%\nArremessa uma lança de sangue que permanece em um inimigo por 3 segundos, causando {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de dano ao inimigo e a todos os outros inimigos atingidos por lança.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
 			"ruRU": "Затраты эссенции: {#} ед.\nВероятность удачного удара: 33%.\nВы бросаете окровавленное копье, которое остается в теле противника в течение 3 сек. и наносит {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% ед. урона цели и остальным пронзенным противникам.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 33%\n投掷一支留在敌人体内 3 秒的血矛, 对该敌人和所有其他被血矛刺中的敌人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 点伤害。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂."
+			"zhCN": "精魂消耗: {#}\n幸运一击几率: 33%\n投掷一支留在敌人体内 3 秒的血矛, 对该敌人和所有其他被血矛刺中的敌人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 点伤害。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "魂能消耗:{#}\n幸運觸發機率:33%\n投擲一把鮮血之槍,它會留在敵人身上 3 秒,對該敵人與其他被刺中的敵人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 點傷害。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 28,
 		maxPoints: 5,
@@ -1153,7 +1211,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Wzmocniona Krwawa Lanca",
 			"ptBR": "Lança de Sangue Aperfeiçoada",
 			"ruRU": "Усиленное окровавленное копье",
-			"zhCN": "强化血矛"
+			"zhCN": "强化血矛",
+			"zhTW": "強化鮮血之槍"
 },
 		descriptionLocalized: {
 			"deDE": "Blutlanze durchschlägt Gegner, die bereits aufgespießt sind, und fügt allen Gegnern nach dem ersten 15% weniger Schaden zu.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
@@ -1166,7 +1225,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Krwawa Lanca przebija wrogów, którzy są na nią nadziani, zadając drugiemu i kolejnym celom obrażenia zmniejszone o 15%.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Lança de Sangue atravessa os inimigos atingidos por lança, causando 15% de dano reduzido a inimigos subsequentes após o primeiro.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
 			"ruRU": "\"Окровавленное копье\" пробивает насквозь противников, уже пронзенных другим копьем, нанося на 15% меньше урона целям после первой.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "血矛会穿过已经被刺穿的敌人, 在对第一名敌人造成伤害后, 对后续敌人造成的伤害降低 15%。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂."
+			"zhCN": "血矛会穿过已经被刺穿的敌人, 在对第一名敌人造成伤害后, 对后续敌人造成的伤害降低 15%。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "鮮血之槍貫穿目前被刺中的敵人,對後續敵人造成的傷害會比第一個敵人少 15%。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 29,
 		maxPoints: 1,
@@ -1190,7 +1250,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Nadnaturalna Krwawa Lanca",
 			"ptBR": "Lança de Sangue Sobrenatural",
 			"ruRU": "Сверхъестественное окровавленное копье",
-			"zhCN": "超自然血矛"
+			"zhCN": "超自然血矛",
+			"zhTW": "超自然鮮血之槍"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Ihr Blutlanze 8-mal gewirkt habt, überwältigt Eure nächste Blutlanze garantiert und erzeugt unter dem ersten getroffenen Gegner eine Blutkugel.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
@@ -1203,7 +1264,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Po użyciu Krwawej Lancy 8 razy następne jej użycie gwarantuje przytłoczenie i tworzy krwawą kulę pod pierwszym trafionym wrogiem.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Depois de lançar Lança de Sangue 8 vezes, seu próximo lançamento de Lança de Sangue desfere Golpe Brutal garantido e gera um orbe de sangue embaixo do primeiro inimigo atingido.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
 			"ruRU": "Когда вы применяете \"Окровавленное копье\" 8 раза:раз, ваше следующее \"Окровавленное копье\" гарантированно наносит подавляющий урон и создает сферу крови на месте первого пораженного противника.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "施放 8 次血矛后, 你的下一次血矛必定造成压制, 并且在命中的第一个敌人脚下生成一颗生命球。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂."
+			"zhCN": "施放 8 次血矛后, 你的下一次血矛必定造成压制, 并且在命中的第一个敌人脚下生成一颗生命球。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "施放鮮血之槍 8 次後,你下次施放鮮血之槍必定壓制,且會在第一個擊中的敵人下方生成一個生命之球。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 30,
 		maxPoints: 1,
@@ -1227,7 +1289,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Paranormalna Krwawa Lanca",
 			"ptBR": "Lança de Sangue Paranormal",
 			"ruRU": "Паранормальное окровавленное копье",
-			"zhCN": "灵异血矛"
+			"zhCN": "灵异血矛",
+			"zhTW": "靈異鮮血之槍"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn mindestens 2 Gegner von Blutlanze betroffen sind, erhaltet Ihr +15% Angriffsgeschwindigkeit und die Essenzkosten von Blutlanze sind um 3 reduziert.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
@@ -1240,7 +1303,8 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"plPL": "Gdy co najmniej 2 wrogów lub boss znajduje się pod wpływem działania Krwawej Lancy, zyskujesz +15% do szybkości ataku, zaś koszt Krwawej Lancy jest zmniejszony o 3.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Enquanto pelo menos 2 inimigos ou um chefe estão afetados por Lança de Sangue, você recebe +15% de velocidade de ataque e o custo de essência de Lança de Sangue é reduzido em 3.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
 			"ruRU": "Пока \"Окровавленное копье\" пронзает не менее 2 противников:противников, затраты эссенции на его применение сокращаются на 3 ед., а скорость атаки повышается на +15%.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"zhCN": "至少有 2 名敌人或一名首领受血矛影响时, 你的攻击速度提高 +15%, 血矛的精魂消耗降低 3 点。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂."
+			"zhCN": "至少有 2 名敌人或一名首领受血矛影响时, 你的攻击速度提高 +15%, 血矛的精魂消耗降低 3 点。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "當至少有 2 個敵人或首領受到鮮血之槍影響時,你的攻擊速度提高 +15%,並使鮮血之槍的魂能消耗降低 3 點。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 31,
 		maxPoints: 1,
@@ -1265,7 +1329,8 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"plPL": "Włócznia z Kości",
 			"ptBR": "Lança de Ossos",
 			"ruRU": "Костяное копье",
-			"zhCN": "骨矛"
+			"zhCN": "骨矛",
+			"zhTW": "骨矛"
 },
 		descriptionLocalized: {
 			"deDE": "Essenzkosten: {#}\nGlückstrefferchance: 50%\nBeschwört einen Knochenspeer aus dem Boden, der {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% Schaden verursacht und Gegner durchschlägt.\n\nTags: Kern, Knochen, Schaden, Physisch, Essenz.",
@@ -1278,7 +1343,8 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"plPL": "Koszt: {#} pkt. esencji\nSzansa na szczęśliwy traf: 50%\nPrzyzywasz z ziemi kościaną włócznię, która zadaje {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% pkt. obrażeń i przebija wrogów.\n\nTags: Główne, Kości, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Custo de essência: {#}\nChance de Golpe de Sorte: 50%\nConjura uma lança de ossos do chão, causando {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% de dano e perfurando inimigos.\n\nTags: Principal, Osso, Dano, Física, Essência.",
 			"ruRU": "Затраты эссенции: {#} ед.\nВероятность удачного удара: 50%.\nПризывает из-под земли костяное копье, наносящее {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% ед. урона и пронзающее противников.\n\nTags: Основное, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "精魂消耗: {#}\n幸运一击几率: 50%\n从地面召唤一支骨矛, 造成 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% 点伤害并刺穿敌人。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂."
+			"zhCN": "精魂消耗: {#}\n幸运一击几率: 50%\n从地面召唤一支骨矛, 造成 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% 点伤害并刺穿敌人。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "魂能消耗:{#}\n幸運觸發機率:50%\n從地面呼喚骨矛貫穿敵人,造成 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% 點傷害。\n\nTags: 核心, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 32,
 		maxPoints: 5,
@@ -1303,7 +1369,8 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"plPL": "Wzmocniona Włócznia z Kości",
 			"ptBR": "Lança de Ossos Aperfeiçoada",
 			"ruRU": "Усиленное костяное копье",
-			"zhCN": "强化骨矛"
+			"zhCN": "强化骨矛",
+			"zhTW": "強化骨矛"
 },
 		descriptionLocalized: {
 			"deDE": "Bei der Zerstörung von Knochenspeer entstehen 3 Splitter, die jeweils {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden verursachen.\n\nTags: Kern, Knochen, Schaden, Physisch, Essenz.",
@@ -1316,7 +1383,8 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"plPL": "Włócznia z Kości po zniszczeniu rozpada się na odłamki (3). Każdy z nich zadaje {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń.\n\nTags: Główne, Kości, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Lança de Ossos estilhaça em 3 pedaços quando destruída, e cada estilhaço causa {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano.\n\nTags: Principal, Osso, Dano, Física, Essência.",
 			"ruRU": "Разрушаясь, \"Костяное копье\" раскалывается на 3 осколка, наносящие:осколков, наносящих по {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона.\n\nTags: Основное, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "骨矛被摧毁时会分裂成 3 枚碎片, 每片造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂."
+			"zhCN": "骨矛被摧毁时会分裂成 3 枚碎片, 每片造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "骨矛摧毀時碎成 3 塊裂片,每塊造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。\n\nTags: 核心, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 33,
 		maxPoints: 1,
@@ -1340,7 +1408,8 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"plPL": "Paranormalna Włócznia z Kości",
 			"ptBR": "Lança de Ossos Paranormal",
 			"ruRU": "Паранормальное костяное копье",
-			"zhCN": "灵异骨矛"
+			"zhCN": "灵异骨矛",
+			"zhTW": "靈異骨矛"
 },
 		descriptionLocalized: {
 			"deDE": "Die kritische Trefferchance von Knochenspeer ist um +5% erhöht. Wenn das primäre Projektil von Knochenspeer einen kritischen Treffer erzielt, feuert es bei seiner Zerstörung 2 zusätzliche Knochensplitter ab.\n\nTags: Kern, Knochen, Schaden, Physisch, Essenz.",
@@ -1353,7 +1422,8 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"plPL": "Istnieje o +5% większa szansa na trafienie krytyczne Włócznią z Kości. Jeśli podstawowy pocisk Włóczni z Kości wywołuje trafienie krytyczne, w chwili jej zniszczenia wypuszczone zostaną dodatkowe odłamki (2).\n\nTags: Główne, Kości, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Lança de Ossos tem +5% de chance de acerto crítico aumentada. Se o primeiro projétil de Lança de Ossos desferir um acerto crítico, dispara 2 estilhaços ósseos adicionais ao ser destruída.\n\nTags: Principal, Osso, Dano, Física, Essência.",
 			"ruRU": "Вероятность критического удара \"Костяного копья\" повышается на +5%. Когда основной снаряд \"Костяного копья\" наносит критический урон, после разрушения он выпускает еще 2 костяных осколка:костяных осколков.\n\nTags: Основное, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "骨矛的暴击几率提高 +5%。如果骨矛的主要投射物造成暴击, 其在被摧毁时会额外发射 2 枚白骨碎片。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂."
+			"zhCN": "骨矛的暴击几率提高 +5%。如果骨矛的主要投射物造成暴击, 其在被摧毁时会额外发射 2 枚白骨碎片。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "骨矛的爆擊機率提高 +5%。若骨矛的主要遠程攻擊造成爆擊,則會在遭到摧毀時額外射出 2 枚額外的骸骨碎片。\n\nTags: 核心, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 34,
 		maxPoints: 1,
@@ -1377,7 +1447,8 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"plPL": "Nadnaturalna Włócznia z Kości",
 			"ptBR": "Lança de Ossos Sobrenatural",
 			"ruRU": "Сверхъестественное костяное копье",
-			"zhCN": "超自然骨矛"
+			"zhCN": "超自然骨矛",
+			"zhTW": "超自然骨矛"
 },
 		descriptionLocalized: {
 			"deDE": "Knochenspeer macht den ersten getroffen Gegner 3 Sek. lang verwundbar.\n\nTags: Kern, Knochen, Schaden, Physisch, Essenz.",
@@ -1390,7 +1461,8 @@ Tags: Core, Bone, Damage, Physical, Essence.`,
 			"plPL": "Włócznia z Kości sprawia, że pierwszy trafiony wróg zostaje odsłonięty na 3 sek.\n\nTags: Główne, Kości, Obrażenia, Fizyczne, Esencja.",
 			"ptBR": "Lança de Ossos torna o primeiro inimigo atingido vulnerável por 3 segundos.\n\nTags: Principal, Osso, Dano, Física, Essência.",
 			"ruRU": "\"Костяное копье\" делает первого пораженного противника уязвимым на 3 сек.\n\nTags: Основное, Кости, Урон, Физический урон, Эссенция.",
-			"zhCN": "骨矛会使第一个命中的敌人陷入易伤状态, 持续 3 秒。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂."
+			"zhCN": "骨矛会使第一个命中的敌人陷入易伤状态, 持续 3 秒。\n\nTags: 核心, 白骨, 伤害, 物理, 精魂.",
+			"zhTW": "骨矛會使擊中的第一個敵人易傷,持續 3 秒。\n\nTags: 核心, 骸骨, 傷害, 物理, 魂能."
 },
 		id: 35,
 		maxPoints: 1,
@@ -1413,7 +1485,8 @@ Tags: Essence.`,
 			"plPL": "Martwa Energia",
 			"ptBR": "Energia Finada",
 			"ruRU": "Неживая энергия",
-			"zhCN": "无生能量"
+			"zhCN": "无生能量",
+			"zhTW": "無生能量"
 },
 		descriptionLocalized: {
 			"deDE": "Eure maximale Essenz ist um {3/6/9/12/15/18/21/24/27/30} erhöht.\n\nTags: Essenz.",
@@ -1426,7 +1499,8 @@ Tags: Essence.`,
 			"plPL": "Twoja maksymalna esencja jest zwiększona o {3/6/9/12/15/18/21/24/27/30} pkt.\n\nTags: Esencja.",
 			"ptBR": "Sua essência máxima é aumentada em {3/6/9/12/15/18/21/24/27/30}.\n\nTags: Essência.",
 			"ruRU": "Максимальный запас эссенции увеличивается на {3/6/9/12/15/18/21/24/27/30} ед.\n\nTags: Эссенция.",
-			"zhCN": "你的精魂上限提高 {3/6/9/12/15/18/21/24/27/30} 点。\n\nTags: 精魂."
+			"zhCN": "你的精魂上限提高 {3/6/9/12/15/18/21/24/27/30} 点。\n\nTags: 精魂.",
+			"zhTW": "你的魂能上限提高 {3/6/9/12/15/18/21/24/27/30}。\n\nTags: 魂能."
 },
 		id: 36,
 		maxPoints: 3,
@@ -1449,7 +1523,8 @@ Tags: Damage, Essence.`,
 			"plPL": "Niedoskonała Równowaga",
 			"ptBR": "Imperfeitamente Equilibrado",
 			"ruRU": "Хрупкий баланс",
-			"zhCN": "不完美平衡"
+			"zhCN": "不完美平衡",
+			"zhTW": "不完美平衡"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Kernfertigkeiten kosten x{3/6/9/12/15/18/21/24/27/30}% mehr Essenz, aber verursachen x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden.\n\nTags: Schaden, Essenz.",
@@ -1462,7 +1537,8 @@ Tags: Damage, Essence.`,
 			"plPL": "Twoje umiejętności Główne zużywają o x{3/6/9/12/15/18/21/24/27/30}% więcej esencji, ale zadają o x{5/10/15/20/25/30/35/40/45/50}% więcej obrażeń.\n\nTags: Obrażenia, Esencja.",
 			"ptBR": "Suas habilidades principais custam {3/6/9/12/15/18/21/24/27/30}% mais essência, mas causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado.\n\nTags: Dano, Essência.",
 			"ruRU": "Основные умения расходуют на x{3/6/9/12/15/18/21/24/27/30}% больше эссенции, но наносят на x{5/10/15/20/25/30/35/40/45/50}% больше урона.\n\nTags: Урон, Эссенция.",
-			"zhCN": "你的核心技能消耗的精魂提高 x{3/6/9/12/15/18/21/24/27/30}%, 但造成的伤害也会提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害, 精魂."
+			"zhCN": "你的核心技能消耗的精魂提高 x{3/6/9/12/15/18/21/24/27/30}%, 但造成的伤害也会提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害, 精魂.",
+			"zhTW": "你的核心技能會額外消耗 x{3/6/9/12/15/18/21/24/27/30}% 魂能,但造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 傷害, 魂能."
 },
 		id: 37,
 		maxPoints: 3,
@@ -1487,7 +1563,8 @@ Tags: Lucky Hit, Corpse.`,
 			"plPL": "Okrawane Mięso",
 			"ptBR": "Carne Cortada",
 			"ruRU": "Обрезки плоти",
-			"zhCN": "凿削血肉"
+			"zhCN": "凿削血肉",
+			"zhTW": "劈砍血肉"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Euer Schaden verfügt über eine Chance von bis zu {4/8/12/16/20/24/28/32/36/40}%, an der Position des Ziels eine Leiche zu erschaffen.\n\nGegen Bosse verdoppelt sich diese Chance.\n\nTags: Glückstreffer, Leiche.",
@@ -1500,7 +1577,8 @@ Tags: Lucky Hit, Corpse.`,
 			"plPL": "Szczęśliwy traf: Zadane przez ciebie obrażenia mają maksymalnie {4/8/12/16/20/24/28/32/36/40}% szans na stworzenie zwłok w wyznaczonym miejscu.\n\nSzansa ta jest podwojona w przypadku bossów.\n\nTags: Szczęśliwy Traf, Zwłoki.",
 			"ptBR": "Golpe de Sorte: Seu dano tem até {4/8/12/16/20/24/28/32/36/40}% de chance de criar um cadáver no local do alvo.\n\nA chance é dobrada contra chefes.\n\nTags: Golpe de Sorte, Cadáver.",
 			"ruRU": "Удачный удар: нанося урон, вы с вероятностью до {4/8/12/16/20/24/28/32/36/40}% создаете труп под целью.\n\nВероятность удваивается, если цель является боссом.\n\nTags: Удачный удар, Труп.",
-			"zhCN": "幸运一击: 你的伤害最多有 {4/8/12/16/20/24/28/32/36/40}% 几率在目标位置生成一具亡骸。\n\n在面对首领时该几率翻倍。\n\nTags: 幸运一击, 亡骸."
+			"zhCN": "幸运一击: 你的伤害最多有 {4/8/12/16/20/24/28/32/36/40}% 几率在目标位置生成一具亡骸。\n\n在面对首领时该几率翻倍。\n\nTags: 幸运一击, 亡骸.",
+			"zhTW": "幸運觸發:你的傷害最高有 {4/8/12/16/20/24/28/32/36/40}% 機率在目標位置產生一具屍體。\n\n對首領時此機率加倍。\n\nTags: 幸運觸發, 屍體."
 },
 		id: 121,
 		maxPoints: 3,
@@ -1527,7 +1605,8 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"plPL": "Wybuch Zwłok",
 			"ptBR": "Explodir Cadáver",
 			"ruRU": "Взрыв трупа",
-			"zhCN": "邪爆"
+			"zhCN": "邪爆",
+			"zhTW": "屍爆"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstrefferchance: 40%\nSprengt eine Leiche und fügt Gegnern in der Nähe {50/55/60/65/70/75/80/85/90/95}% Schaden zu.\n\nTags: Leiche, Verderbnis, Schaden, Physisch, Abklingzeit.",
@@ -1540,7 +1619,8 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"plPL": "Szansa na szczęśliwy traf: 40%\nWybuchając, zwłoki zadają {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń pobliskim wrogom.\n\nTags: Zwłoki, Spaczenie, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Chance de Golpe de Sorte: 40%\nExplode um cadáver, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Cadáver, Corrupção, Dano, Física, Recarga.",
 			"ruRU": "Вероятность удачного удара: 40%.\nВзрывает труп, нанося ближайшим противникам {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Труп, Осквернение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "幸运一击几率: 40%\n引爆一具亡骸, 对周围的敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间."
+			"zhCN": "幸运一击几率: 40%\n引爆一具亡骸, 对周围的敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间.",
+			"zhTW": "幸運觸發機率:40%\n引爆一具屍體,對附近敵人造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 屍體, 腐化, 傷害, 物理, 冷卻時間."
 },
 		id: 39,
 		maxPoints: 5,
@@ -1564,7 +1644,8 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocniony Wybuch Zwłok",
 			"ptBR": "Explodir Cadáver Aperfeiçoado",
 			"ruRU": "Усиленный взрыв трупа",
-			"zhCN": "强化邪爆"
+			"zhCN": "强化邪爆",
+			"zhTW": "強化屍爆"
 },
 		descriptionLocalized: {
 			"deDE": "Der Radius von Leichenexplosion erhöht sich um 15%.\n\nTags: Leiche, Verderbnis, Schaden, Physisch, Abklingzeit.",
@@ -1577,7 +1658,8 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"plPL": "Zwiększa promień Wybuchu Zwłok o 15%.\n\nTags: Zwłoki, Spaczenie, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "O raio de Explodir Cadáver é aumentado em 15%.\n\nTags: Cadáver, Corrupção, Dano, Física, Recarga.",
 			"ruRU": "Радиус \"Взрыва трупа\" увеличивается на x15%.\n\nTags: Труп, Осквернение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "邪爆范围扩大 15%。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间."
+			"zhCN": "邪爆范围扩大 15%。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间.",
+			"zhTW": "屍爆的半徑延長 15%。\n\nTags: 屍體, 腐化, 傷害, 物理, 冷卻時間."
 },
 		id: 40,
 		maxPoints: 1,
@@ -1601,7 +1683,8 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"plPL": "Morowy Wybuch Zwłok",
 			"ptBR": "Explodir Cadáver Empesteado",
 			"ruRU": "Гнилостный взрыв трупа",
-			"zhCN": "枯萎邪爆"
+			"zhCN": "枯萎邪爆",
+			"zhTW": "荒疫屍爆"
 },
 		descriptionLocalized: {
 			"deDE": "Leichenexplosion wird zur Dunkelheitsfertigkeit. Anstatt zu explodieren, verströmt sie ein abscheuliches Miasma, das im Verlauf von 6 Sek. {109.8/121.2/132/142.8/154.2/165/175.8/187.2/198/208.8}% Schattenschaden verursacht.\n\nTags: Leiche, Verderbnis, Schaden, Physisch, Abklingzeit.",
@@ -1614,7 +1697,8 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"plPL": "Wybuch Zwłok staje się umiejętnością Ciemności. Zamiast eksplozji wyzwolone zostają cuchnące miazmaty, które zadają {109.8/121.2/132/142.8/154.2/165/175.8/187.2/198/208.8}% pkt. obrażeń od Cienia w ciągu 6 sek.\n\nTags: Zwłoki, Spaczenie, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Explodir Cadáver torna-se uma habilidade de Escuridão e, em vez de explodir, libera um miasma vil, causando {109.8/121.2/132/142.8/154.2/165/175.8/187.2/198/208.8}% dano de sombra ao longo de 6 segundos.\n\nTags: Cadáver, Corrupção, Dano, Física, Recarga.",
 			"ruRU": "\"Взрыв трупа\" становится умением тьмы и больше не производит взрыв, а высвобождает из тела ужасные миазмы, наносящие {109.8/121.2/132/142.8/154.2/165/175.8/187.2/198/208.8}% ед. урона от темной магии за 6 сек.\n\nTags: Труп, Осквернение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "邪爆变为黑暗技能并且不再产生爆炸, 而是释放一股邪恶的瘴气, 在 6 秒内造成 {109.8/121.2/132/142.8/154.2/165/175.8/187.2/198/208.8}% 点暗影伤害。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间."
+			"zhCN": "邪爆变为黑暗技能并且不再产生爆炸, 而是释放一股邪恶的瘴气, 在 6 秒内造成 {109.8/121.2/132/142.8/154.2/165/175.8/187.2/198/208.8}% 点暗影伤害。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间.",
+			"zhTW": "屍爆變成黑暗技能,不再爆炸且改為放出汙穢瘴氣,在 6 秒內造成 {109.8/121.2/132/142.8/154.2/165/175.8/187.2/198/208.8}% 點暗影傷害。\n\nTags: 屍體, 腐化, 傷害, 物理, 冷卻時間."
 },
 		id: 122,
 		maxPoints: 1,
@@ -1638,7 +1722,8 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"plPL": "Zaraźliwy Wybuch Zwłok",
 			"ptBR": "Explodir Cadáver Pestilento",
 			"ruRU": "Чумной взрыв трупа",
-			"zhCN": "疫病邪爆"
+			"zhCN": "疫病邪爆",
+			"zhTW": "瘟疫屍爆"
 },
 		descriptionLocalized: {
 			"deDE": "Leichenexplosion fügt verlangsamten, betäubten oder verwundbaren Gegnern x8% mehr Schaden zu. Diese Schadensboni sind stapelbar.\n\nTags: Leiche, Verderbnis, Schaden, Physisch, Abklingzeit.",
@@ -1651,7 +1736,8 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"plPL": "Wybuch Zwłok zadaje spowolnionym, ogłuszonym lub odsłoniętym wrogom obrażenia zwiększone o x8%. Te premie do obrażeń mogą się kumulować.\n\nTags: Zwłoki, Spaczenie, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Explodir Cadáver causa 8% de dano aumentado a inimigos desacelerados, atordoados ou vulneráveis. Esses bônus de dano podem acumular.\n\nTags: Cadáver, Corrupção, Dano, Física, Recarga.",
 			"ruRU": "\"Взрыв трупа\" наносит на x8% больше урона замедленным, оглушенным или уязвимым противникам. Бонусы к урону суммируются.\n\nTags: Труп, Осквернение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "邪爆对处于减速、昏迷或易伤状态的敌人造成的伤害提高 x8%。这些伤害加成可以叠加。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间."
+			"zhCN": "邪爆对处于减速、昏迷或易伤状态的敌人造成的伤害提高 x8%。这些伤害加成可以叠加。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间.",
+			"zhTW": "屍爆對緩速、昏迷或易傷的敵人造成的傷害提高 x8%。此傷害加成可堆疊。\n\nTags: 屍體, 腐化, 傷害, 物理, 冷卻時間."
 },
 		id: 123,
 		maxPoints: 1,
@@ -1674,7 +1760,8 @@ Tags: Essence, Corpse.`,
 			"plPL": "Ponure Żniwa",
 			"ptBR": "Colheita Sinistra",
 			"ruRU": "Мрачный урожай",
-			"zhCN": "恐怖收割"
+			"zhCN": "恐怖收割",
+			"zhTW": "陰森收割"
 },
 		descriptionLocalized: {
 			"deDE": "Der Verbrauch einer Leiche erzeugt {3/6/9/12/15/18/21/24/27/30} Essenz.\n\nTags: Essenz, Leiche.",
@@ -1687,7 +1774,8 @@ Tags: Essence, Corpse.`,
 			"plPL": "Pochłanianie zwłok generuje {3/6/9/12/15/18/21/24/27/30} pkt. esencji.\n\nTags: Esencja, Zwłoki.",
 			"ptBR": "Consumir um cadáver gera {3/6/9/12/15/18/21/24/27/30} de essência.\n\nTags: Essência, Cadáver.",
 			"ruRU": "Расходуя труп, вы получаете {3/6/9/12/15/18/21/24/27/30} ед. эссенции.\n\nTags: Эссенция, Труп.",
-			"zhCN": "消耗一具亡骸生成 {3/6/9/12/15/18/21/24/27/30} 点精魂。\n\nTags: 精魂, 亡骸."
+			"zhCN": "消耗一具亡骸生成 {3/6/9/12/15/18/21/24/27/30} 点精魂。\n\nTags: 精魂, 亡骸.",
+			"zhTW": "消耗一具屍體會獲得 {3/6/9/12/15/18/21/24/27/30} 點魂能。\n\nTags: 魂能, 屍體."
 },
 		id: 43,
 		maxPoints: 3,
@@ -1710,7 +1798,8 @@ Tags: Damage, Corpse.`,
 			"plPL": "Paliwo Śmierci",
 			"ptBR": "Energia Mortal",
 			"ruRU": "Смерть придает силы",
-			"zhCN": "死亡增力"
+			"zhCN": "死亡增力",
+			"zhTW": "死亡之力"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr verursacht nach dem Verbrauch einer Leiche 6 Sek. lang x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden.\n\nTags: Schaden, Leiche.",
@@ -1723,7 +1812,8 @@ Tags: Damage, Corpse.`,
 			"plPL": "Po pochłonięciu zwłok zadajesz o x{3/6/9/12/15/18/21/24/27/30}% więcej obrażeń przez 6 sek.\n\nTags: Obrażenia, Zwłoki.",
 			"ptBR": "Você causa {3/6/9/12/15/18/21/24/27/30}% de dano aumentado por 6 segundos depois de consumir um cadáver.\n\nTags: Dano, Cadáver.",
 			"ruRU": "Наносимый урон увеличивается на x{3/6/9/12/15/18/21/24/27/30}% на 6 сек. после того как вы расходуете труп.\n\nTags: Урон, Труп.",
-			"zhCN": "消耗一具亡骸后, 你造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%, 持续 6 秒。\n\nTags: 伤害, 亡骸."
+			"zhCN": "消耗一具亡骸后, 你造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%, 持续 6 秒。\n\nTags: 伤害, 亡骸.",
+			"zhTW": "消耗一具屍體後,你造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%,持續 6 秒。\n\nTags: 傷害, 屍體."
 },
 		id: 44,
 		maxPoints: 3,
@@ -1746,7 +1836,8 @@ Tags: Thorns.`,
 			"plPL": "Kolczasty Pancerz",
 			"ptBR": "Armadura com Espinhos",
 			"ruRU": "Шипастый доспех",
-			"zhCN": "尖刺护甲"
+			"zhCN": "尖刺护甲",
+			"zhTW": "尖刺護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet {40/80/120/160/200/240/280/320/360/400} Dornen.\n\nTags: Dornen.",
@@ -1759,7 +1850,8 @@ Tags: Thorns.`,
 			"plPL": "Zyskujesz premię {40/80/120/160/200/240/280/320/360/400} pkt. do obrażeń od cierni.\n\nTags: Ciernie.",
 			"ptBR": "Recebe {40/80/120/160/200/240/280/320/360/400} espinhos.\n\nTags: Espinhos.",
 			"ruRU": "Вы получаете {40/80/120/160/200/240/280/320/360/400} к показателю эффекта шипов.\n\nTags: Шипы.",
-			"zhCN": "获得 {40/80/120/160/200/240/280/320/360/400} 点荆棘。\n\nTags: 荆棘."
+			"zhCN": "获得 {40/80/120/160/200/240/280/320/360/400} 点荆棘。\n\nTags: 荆棘.",
+			"zhTW": "獲得 {40/80/120/160/200/240/280/320/360/400} 點荊棘。\n\nTags: 荊棘."
 },
 		id: 124,
 		maxPoints: 3,
@@ -1784,7 +1876,8 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"plPL": "Krwawa Mgła",
 			"ptBR": "Névoa de Sangue",
 			"ruRU": "Кровавый туман",
-			"zhCN": "血雾"
+			"zhCN": "血雾",
+			"zhTW": "血霧"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 8.733%\nLöst Euch in einen blutigen Nebel auf und werdet 3 Sek. lang immun. Eure Bewegungsgeschwindigkeit ist um 20% reduziert und Ihr fügt Gegnern in regelmäßigen Abständen 1.7% Schaden zu und heilt Euch um {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% Eures maximalen Lebens.\n\nTags: Makaber, Blut, Immun, Schaden, Physisch, Abklingzeit, Heilung, Schadensreduktion.",
@@ -1797,7 +1890,8 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 8.733%\nZamieniasz się w krwawą mgłę i otrzymujesz niewrażliwość na 3 sek. Twoja szybkość ruchu jest zmniejszona o 20% i co jakiś czas zadajesz wrogom 1.7% pkt. obrażeń oraz przywracasz sobie {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% maksymalnego zdrowia.\n\nTags: Makabra, Krew, Niewrażliwość, Obrażenia, Fizyczne, Odnowienie, Leczenie, Redukcja Obrażeń.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 8.733%\nDispersa-se em uma névoa sangrenta, tornando-se imune por 3 segundos. Sua velocidade de movimento é reduzida em 20%, você periodicamente causa 1.7% de dano aos inimigos e cura-se em {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% da sua vida máxima.\n\nTags: Macabra, Sangue, Imune, Dano, Física, Recarga, Cura, Redução de Dano.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 8.733%.\nВы превращаетесь в кровавый туман и получаете невосприимчивость на 3 сек. Ваша скорость передвижения снижается на 20%, вы время от времени наносите противникам 1.7% ед. урона и восполняете {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% максимального запаса здоровья.\n\nTags: Макабр, Кровь, Невосприимчивость, Урон, Физический урон, Время восстановления, Исцеление, Уменьшение урона.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 8.733%\n化作一片血雾, 在 3 秒内获得免疫。你的移动速度降低 20%, 并且周期性对敌人造成 1.7% 点伤害, 恢复你 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% 生命上限。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 8.733%\n化作一片血雾, 在 3 秒内获得免疫。你的移动速度降低 20%, 并且周期性对敌人造成 1.7% 点伤害, 恢复你 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% 生命上限。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:8.733%\n化身為血霧,獲得免疫狀態,持續 3 秒。你的移動速度降低 20%,定期對敵人造成 1.7% 點傷害,並恢復生命值上限的 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}%。\n\nTags: 亡駭, 鮮血, 免疫, 傷害, 物理, 冷卻時間, 治療, 傷害減免."
 },
 		id: 46,
 		maxPoints: 5,
@@ -1822,7 +1916,8 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"plPL": "Wzmocniona Krwawa Mgła",
 			"ptBR": "Névoa de Sangue Aperfeiçoada",
 			"ruRU": "Усиленный кровавый туман",
-			"zhCN": "强化血雾"
+			"zhCN": "强化血雾",
+			"zhTW": "強化血霧"
 },
 		descriptionLocalized: {
 			"deDE": "Das Wirken einer Fertigkeit, die überwältigt, reduziert die Abklingzeit von Blutnebel um 2 Sek.\n\nTags: Makaber, Blut, Immun, Schaden, Physisch, Abklingzeit, Heilung, Schadensreduktion.",
@@ -1835,7 +1930,8 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"plPL": "Użycie umiejętności, która przytłacza, skraca czas odnowienia Krwawej Mgły o 2 sek.\n\nTags: Makabra, Krew, Niewrażliwość, Obrażenia, Fizyczne, Odnowienie, Leczenie, Redukcja Obrażeń.",
 			"ptBR": "Lançar uma habilidade que desfere Golpe Brutal reduz a recarga de Névoa de Sangue em 2 segundos.\n\nTags: Macabra, Sangue, Imune, Dano, Física, Recarga, Cura, Redução de Dano.",
 			"ruRU": "Умения, подавляющие противников, сокращают время восстановления \"Кровавого тумана\" на 2 сек.\n\nTags: Макабр, Кровь, Невосприимчивость, Урон, Физический урон, Время восстановления, Исцеление, Уменьшение урона.",
-			"zhCN": "施放一个压制技能可以使血雾的冷却时间缩短 2 秒。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免."
+			"zhCN": "施放一个压制技能可以使血雾的冷却时间缩短 2 秒。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免.",
+			"zhTW": "施放有壓制效果的技能會使血霧的冷卻時間降低 2 秒。\n\nTags: 亡駭, 鮮血, 免疫, 傷害, 物理, 冷卻時間, 治療, 傷害減免."
 },
 		id: 47,
 		maxPoints: 1,
@@ -1859,7 +1955,8 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"plPL": "Upiorna Krwawa Mgła",
 			"ptBR": "Névoa de Sangue Hedionda",
 			"ruRU": "Зловещий кровавый туман",
-			"zhCN": "惊骇血雾"
+			"zhCN": "惊骇血雾",
+			"zhTW": "陰森血霧"
 },
 		descriptionLocalized: {
 			"deDE": "Blutnebel hinterlässt alle 0.95 Sek. eine Leiche.\n\nTags: Makaber, Blut, Immun, Schaden, Physisch, Abklingzeit, Heilung, Schadensreduktion.",
@@ -1872,7 +1969,8 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"plPL": "Krwawa Mgła pozostawia za sobą zwłoki co 0.95 sek.\n\nTags: Makabra, Krew, Niewrażliwość, Obrażenia, Fizyczne, Odnowienie, Leczenie, Redukcja Obrażeń.",
 			"ptBR": "Névoa de Sangue deixa para trás um cadáver a cada 0.95 segundo.\n\nTags: Macabra, Sangue, Imune, Dano, Física, Recarga, Cura, Redução de Dano.",
 			"ruRU": "\"Кровавый туман\" раз в 0.95 сек. создает труп.\n\nTags: Макабр, Кровь, Невосприимчивость, Урон, Физический урон, Время восстановления, Исцеление, Уменьшение урона.",
-			"zhCN": "血雾每 0.95 秒留下一具亡骸。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免."
+			"zhCN": "血雾每 0.95 秒留下一具亡骸。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免.",
+			"zhTW": "血霧每 0.95 秒留下一具屍體。\n\nTags: 亡駭, 鮮血, 免疫, 傷害, 物理, 冷卻時間, 治療, 傷害減免."
 },
 		id: 48,
 		maxPoints: 1,
@@ -1896,7 +1994,8 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"plPL": "Przerażająca Krwawa Mgła",
 			"ptBR": "Névoa de Sangue Pavorosa",
 			"ruRU": "Кошмарный кровавый туман",
-			"zhCN": "可怖血雾"
+			"zhCN": "可怖血雾",
+			"zhTW": "怖懼血霧"
 },
 		descriptionLocalized: {
 			"deDE": "Blutnebel verleiht Euch mit jedem getroffenen Gegner Stählung in Höhe von 0.5% Eures Basislebens.\n\nTags: Makaber, Blut, Immun, Schaden, Physisch, Abklingzeit, Heilung, Schadensreduktion.",
@@ -1909,7 +2008,8 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"plPL": "Za każdym razem, gdy Krwawa Mgła trafia wroga, zapewnia ci umocnienie równe 0.5% twojego podstawowego zdrowia.\n\nTags: Makabra, Krew, Niewrażliwość, Obrażenia, Fizyczne, Odnowienie, Leczenie, Redukcja Obrażeń.",
 			"ptBR": "Névoa de Sangue fortifica você em 0.5% da vida básica sempre que atinge um inimigo.\n\nTags: Macabra, Sangue, Imune, Dano, Física, Recarga, Cura, Redução de Dano.",
 			"ruRU": "Каждый раз, когда \"Кровавый туман\" наносит урон, вы получаете укрепление в объеме 0.5% базового запаса здоровья.\n\nTags: Макабр, Кровь, Невосприимчивость, Урон, Физический урон, Время восстановления, Исцеление, Уменьшение урона.",
-			"zhCN": "血雾强固你 0.5% 基础生命。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免."
+			"zhCN": "血雾强固你 0.5% 基础生命。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免.",
+			"zhTW": "血霧每次擊中敵人,會賦予你相當於 0.5% 基礎生命值的強韌。\n\nTags: 亡駭, 鮮血, 免疫, 傷害, 物理, 冷卻時間, 治療, 傷害減免."
 },
 		id: 49,
 		maxPoints: 1,
@@ -1933,7 +2033,8 @@ Tags: Macabre, Bone, Cooldown.`,
 			"plPL": "Więzienie z Kości",
 			"ptBR": "Prisão de Ossos",
 			"ruRU": "Костяная тюрьма",
-			"zhCN": "骨牢"
+			"zhCN": "骨牢",
+			"zhTW": "骨牢"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nLasst ein Knochengefängnis mit {#} Leben aus dem Boden steigen, das den Zielbereich 6 Sek. lang umgibt.\n\nTags: Makaber, Knochen, Abklingzeit.",
@@ -1946,7 +2047,8 @@ Tags: Macabre, Bone, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nPrzywołujesz spod ziemi więzienie z kości, które ma {#} pkt. wytrzymałości i otacza wskazany obszar na 6 sek.\n\nTags: Makabra, Kości, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nDesenterra uma prisão de ossos com {#} de vida ao redor da área selecionada por 6 segundos.\n\nTags: Macabra, Osso, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nПоднимает из-под земли костяную тюрьму с {#} ед. прочности, которая огораживает указанную область в течение 6 сек.\n\nTags: Макабр, Кости, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n从地面召唤一道具有 {#} 点生命的骨牢包围目标区域, 持续 6 秒。\n\nTags: 骇术, 白骨, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n从地面召唤一道具有 {#} 点生命的骨牢包围目标区域, 持续 6 秒。\n\nTags: 骇术, 白骨, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n呼喚破土而出的骸骨牢籠,其擁有 {#} 點生命值,會包圍指定地點 6 秒。\n\nTags: 亡駭, 骸骨, 冷卻時間."
 },
 		id: 50,
 		maxPoints: 5,
@@ -1971,7 +2073,8 @@ Tags: Macabre, Bone, Cooldown.`,
 			"plPL": "Wzmocnione Więzienie z Kości",
 			"ptBR": "Prisão de Ossos Aperfeiçoada",
 			"ruRU": "Усиленная костяная тюрьма",
-			"zhCN": "强化骨牢"
+			"zhCN": "强化骨牢",
+			"zhTW": "強化骨牢"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn ein Gegner im Knochengefängnis eingeschlossen ist, erhaltet Ihr 15 Essenz, sowie zusätzliche 5 für jeden eingeschlossenen Gegner.\n\nTags: Makaber, Knochen, Abklingzeit.",
@@ -1984,7 +2087,8 @@ Tags: Macabre, Bone, Cooldown.`,
 			"plPL": "Jeśli wróg zostanie uwięziony przez Więzienie z Kości, zyskujesz 15 pkt. esencji oraz dodatkowe 5 za każdego uwięzionego wroga.\n\nTags: Makabra, Kości, Odnowienie.",
 			"ptBR": "Se um inimigo for preso por Prisão de Ossos, recebe 15 de essência, além de 5 adicional por inimigo preso.\n\nTags: Macabra, Osso, Recarga.",
 			"ruRU": "Заточая противника в костяную тюрьму, вы накапливаете 15 ед. эссенции. За каждого заточенного противника дополнительно накапливается еще 5 ед. эссенции.\n\nTags: Макабр, Кости, Время восстановления.",
-			"zhCN": "如果骨牢困住一名敌人, 则获得 15 点精魂, 每困住一名敌人额外获得 5 点精魂。\n\nTags: 骇术, 白骨, 冷却时间."
+			"zhCN": "如果骨牢困住一名敌人, 则获得 15 点精魂, 每困住一名敌人额外获得 5 点精魂。\n\nTags: 骇术, 白骨, 冷却时间.",
+			"zhTW": "若敵人困在骨牢中,獲得 15 點魂能。每多困住一個敵人額外增加 5 點魂能。\n\nTags: 亡駭, 骸骨, 冷卻時間."
 },
 		id: 51,
 		maxPoints: 1,
@@ -2008,7 +2112,8 @@ Tags: Macabre, Bone, Cooldown.`,
 			"plPL": "Upiorne Więzienie z Kości",
 			"ptBR": "Prisão de Ossos Hedionda",
 			"ruRU": "Зловещая костяная тюрьма",
-			"zhCN": "惊骇骨牢"
+			"zhCN": "惊骇骨牢",
+			"zhTW": "陰森骨牢"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner im Knochengefängnis sind verwundbar.\n\nTags: Makaber, Knochen, Abklingzeit.",
@@ -2021,7 +2126,8 @@ Tags: Macabre, Bone, Cooldown.`,
 			"plPL": "Wrogowie w Więzieniu z Kości stają się odsłonięci.\n\nTags: Makabra, Kości, Odnowienie.",
 			"ptBR": "Inimigos dentro de Prisão de Ossos ficam vulneráveis.\n\nTags: Macabra, Osso, Recarga.",
 			"ruRU": "Противники в костяной тюрьме становятся уязвимыми.\n\nTags: Макабр, Кости, Время восстановления.",
-			"zhCN": "骨牢中的敌人会陷入易伤状态。\n\nTags: 骇术, 白骨, 冷却时间."
+			"zhCN": "骨牢中的敌人会陷入易伤状态。\n\nTags: 骇术, 白骨, 冷却时间.",
+			"zhTW": "骨牢中的敵人易傷。\n\nTags: 亡駭, 骸骨, 冷卻時間."
 },
 		id: 52,
 		maxPoints: 1,
@@ -2045,7 +2151,8 @@ Tags: Macabre, Bone, Cooldown.`,
 			"plPL": "Przerażające Więzienie z Kości",
 			"ptBR": "Prisão de Ossos Pavorosa",
 			"ruRU": "Кошмарная костяная тюрьма",
-			"zhCN": "可怖骨牢"
+			"zhCN": "可怖骨牢",
+			"zhTW": "怖懼骨牢"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet Stählung in Höhe von 5% Basisleben für jeden Gegner, der im Knochengefängnis eingeschlossen ist.\n\nTags: Makaber, Knochen, Abklingzeit.",
@@ -2058,7 +2165,8 @@ Tags: Macabre, Bone, Cooldown.`,
 			"plPL": "Zyskujesz umocnienie równe 5% twojego podstawowego zdrowia za każdego wroga schwytanego w Więzieniu z Kości.\n\nTags: Makabra, Kości, Odnowienie.",
 			"ptBR": "Fortifica em 5% da vida básica por cada inimigo preso por Prisão de Ossos.\n\nTags: Macabra, Osso, Recarga.",
 			"ruRU": "Вы получаете укрепление в объеме 5% базового запаса здоровья за каждого противника, заточенного в костяной тюрьме.\n\nTags: Макабр, Кости, Время восстановления.",
-			"zhCN": "骨牢每困住一名敌人, 强固你 5% 基础生命。\n\nTags: 骇术, 白骨, 冷却时间."
+			"zhCN": "骨牢每困住一名敌人, 强固你 5% 基础生命。\n\nTags: 骇术, 白骨, 冷却时间.",
+			"zhTW": "每個被骨牢困住的敵人,會賦予你相當於 5% 基礎生命值的強韌。\n\nTags: 亡駭, 骸骨, 冷卻時間."
 },
 		id: 53,
 		maxPoints: 1,
@@ -2081,7 +2189,8 @@ Tags: Minion, Damage, Life.`,
 			"plPL": "Mistrzostwo Szkieletowych Wojowników",
 			"ptBR": "Maestria do Guerreiro Esqueleto",
 			"ruRU": "Мастер скелетов-воинов",
-			"zhCN": "骷髅战士精通"
+			"zhCN": "骷髅战士精通",
+			"zhTW": "骷髏戰士精通"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht Schaden und Leben Eurer Skelettkrieger um x{15/30/45/60/75/90/105/120/135/150}%.\n\nTags: Diener, Schaden, Leben.",
@@ -2094,7 +2203,8 @@ Tags: Minion, Damage, Life.`,
 			"plPL": "Obrażenia zadawane przez twoich szkieletowych wojowników oraz ich zdrowie są zwiększone o x{15/30/45/60/75/90/105/120/135/150}%.\n\nTags: Sługa, Obrażenia, Zdrowie.",
 			"ptBR": "Aumenta o dano e a vida dos seus Guerreiros Esqueletos em {15/30/45/60/75/90/105/120/135/150}%.\n\nTags: Lacaio, Dano, Vida.",
 			"ruRU": "Наносимый урон и запас здоровья скелетов-воинов увеличиваются на x{15/30/45/60/75/90/105/120/135/150}%.\n\nTags: Прислужник, Урон, Здоровье.",
-			"zhCN": "你的骷髅战士的伤害和生命提高 x{15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 爪牙, 伤害, 生命."
+			"zhCN": "你的骷髅战士的伤害和生命提高 x{15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 爪牙, 伤害, 生命.",
+			"zhTW": "使骷髏戰士的傷害和生命值提高 x{15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 僕從, 傷害, 生命值."
 },
 		id: 54,
 		maxPoints: 3,
@@ -2121,7 +2231,8 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"plPL": "Żelazna Dziewica",
 			"ptBR": "Dama de Ferro",
 			"ruRU": "Железная дева",
-			"zhCN": "铁处女"
+			"zhCN": "铁处女",
+			"zhTW": "攻擊反噬"
 },
 		descriptionLocalized: {
 			"deDE": "Essenzkosten: {#}\nVerflucht den Zielbereich. Von Eiserne Jungfrau betroffene Gegner erleiden jedes Mal {10/11/12/13/14/15/16/17/18/19}% Schaden, wenn sie direkten Schaden verursachen. Hält bis zu 10 Sek. an.\n\nTags: Fluch, Verderbnis, Essenz, Schaden.",
@@ -2134,7 +2245,8 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"plPL": "Koszt: {#} pkt. esencji\nPrzeklinasz wybrany obszar. Wrogowie pod wpływem Żelaznej Dziewicy otrzymują {10/11/12/13/14/15/16/17/18/19}% pkt. obrażeń za każdym razem, gdy zadają bezpośrednie obrażenia. Czas działania: 10 sek.\n\nTags: Klątwy, Spaczenie, Esencja, Obrażenia.",
 			"ptBR": "Custo de essência: {#}\nAmaldiçoa a área selecionada. Inimigos afetados por Dama de Ferro recebem {10/11/12/13/14/15/16/17/18/19}% de dano sempre que causam dano direto. Dura 10 segundos.\n\nTags: Maldição, Corrupção, Essência, Dano.",
 			"ruRU": "Затраты эссенции: {#} ед.\nВы проклинаете указанную область. Противники под действием \"Железной девы\" получают {10/11/12/13/14/15/16/17/18/19}% ед. урона каждый раз, когда наносят прямой урон. Время действия – 10 сек.\n\nTags: Проклятие, Осквернение, Эссенция, Урон.",
-			"zhCN": "精魂消耗: {#}\n诅咒目标区域。受到铁处女影响的敌人每次造成直接伤害都会受到 {10/11/12/13/14/15/16/17/18/19}% 点伤害, 持续 10 秒。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害."
+			"zhCN": "精魂消耗: {#}\n诅咒目标区域。受到铁处女影响的敌人每次造成直接伤害都会受到 {10/11/12/13/14/15/16/17/18/19}% 点伤害, 持续 10 秒。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害.",
+			"zhTW": "魂能消耗:{#}\n詛咒目標區域。每當受攻擊反噬影響的敵人造成傷害時,敵人會受到 {10/11/12/13/14/15/16/17/18/19}% 點傷害,持續 10 秒。\n\nTags: 詛咒, 腐化, 魂能, 傷害."
 },
 		id: 55,
 		maxPoints: 5,
@@ -2159,7 +2271,8 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"plPL": "Wzmocniona Żelazna Dziewica",
 			"ptBR": "Dama de Ferro Aperfeiçoada",
 			"ruRU": "Усиленная железная дева",
-			"zhCN": "强化铁处女"
+			"zhCN": "强化铁处女",
+			"zhTW": "強化攻擊反噬"
 },
 		descriptionLocalized: {
 			"deDE": "Eiserne Jungfrau kostet keine Essenz mehr. Stattdessen erhaltet Ihr 5 Essenz für jeden verfluchten Gegner. Wirkt nicht bei Gegnern, die bereits von Eiserne Jungfrau verflucht sind.\n\nTags: Fluch, Verderbnis, Essenz, Schaden.",
@@ -2172,7 +2285,8 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"plPL": "Żelazna Dziewica nie zużywa już esencji. Zamiast tego zyskujesz 5 pkt. esencji za każdego przeklętego wroga. Nie działa na wrogów, którzy zostali już przeklęci przez Żelazną Dziewicę.\n\nTags: Klątwy, Spaczenie, Esencja, Obrażenia.",
 			"ptBR": "Dama de Ferro deixa de custar essência. Em vez disso, recebe 5 de essência por cada inimigo amaldiçoado. Não funciona com inimigos que já estão amaldiçoados com Dama de Ferro.\n\nTags: Maldição, Corrupção, Essência, Dano.",
 			"ruRU": "\"Железная дева\" больше не расходует эссенцию. Вместо этого вы накапливаете 5 ед. эссенции за каждого проклятого противника. Эффект не срабатывает, если противник уже проклят \"Железной девой\".\n\nTags: Проклятие, Осквернение, Эссенция, Урон.",
-			"zhCN": "铁处女不再消耗精魂, 而是每诅咒一名敌人, 获得 5 点精魂。该效果对已经被铁处女诅咒的敌人无效。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害."
+			"zhCN": "铁处女不再消耗精魂, 而是每诅咒一名敌人, 获得 5 点精魂。该效果对已经被铁处女诅咒的敌人无效。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害.",
+			"zhTW": "攻擊反噬不再消耗魂能,而是每詛咒一個敵人就獲得 5 點魂能。已受到攻擊反噬詛咒的敵人不適用。\n\nTags: 詛咒, 腐化, 魂能, 傷害."
 },
 		id: 56,
 		maxPoints: 1,
@@ -2196,7 +2310,8 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"plPL": "Straszliwa Żelazna Dziewica",
 			"ptBR": "Dama de Ferro Horrenda",
 			"ruRU": "Ужасная железная дева",
-			"zhCN": "悚然铁处女"
+			"zhCN": "悚然铁处女",
+			"zhTW": "怨惡攻擊反噬"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn mindestens 3 Gegner von Eiserne Jungfrau betroffen sind, erhöht sich der Schaden um x15%.\n\nTags: Fluch, Verderbnis, Essenz, Schaden.",
@@ -2209,7 +2324,8 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"plPL": "Kiedy co najmniej 3 wrogów jest objętych działaniem Żelaznej Dziewicy, jej obrażenia są zwiększone o x15%.\n\nTags: Klątwy, Spaczenie, Esencja, Obrażenia.",
 			"ptBR": "Quando pelo menos 3 inimigos são afetados por Dama de Ferro, o dano é aumentado em 15%.\n\nTags: Maldição, Corrupção, Essência, Dano.",
 			"ruRU": "Если \"Железная дева\" действует хотя бы на 3 противников, урон от проклятия увеличивается на x15%.\n\nTags: Проклятие, Осквернение, Эссенция, Урон.",
-			"zhCN": "铁处女至少影响 3 名敌人时, 伤害提高 x15%。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害."
+			"zhCN": "铁处女至少影响 3 名敌人时, 伤害提高 x15%。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害.",
+			"zhTW": "當至少 3 個敵人受攻擊反噬影響時,傷害提高 x15%。\n\nTags: 詛咒, 腐化, 魂能, 傷害."
 },
 		id: 57,
 		maxPoints: 1,
@@ -2233,7 +2349,8 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"plPL": "Odrażająca Żelazna Dziewica",
 			"ptBR": "Dama de Ferro Repugnante",
 			"ruRU": "Омерзительная железная дева",
-			"zhCN": "可憎铁处女"
+			"zhCN": "可憎铁处女",
+			"zhTW": "厭憎攻擊反噬"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn ein von Eiserne Jungfrau betroffener Gegner stirbt, werdet Ihr um 5% Eures maximalen Lebens geheilt.\n\nTags: Fluch, Verderbnis, Essenz, Schaden.",
@@ -2246,7 +2363,8 @@ Tags: Curse, Corruption, Essence, Damage.`,
 			"plPL": "Kiedy ginie wróg, który jest pod wpływem Żelaznej Dziewicy, odzyskujesz 5% maksymalnego zdrowia.\n\nTags: Klątwy, Spaczenie, Esencja, Obrażenia.",
 			"ptBR": "Cura 5% da sua vida máxima quando um inimigo morre sob efeito de Dama de Ferro.\n\nTags: Maldição, Corrupção, Essência, Dano.",
 			"ruRU": "Когда противник под действием \"Железной девы\" погибает, вы восполняете 5% максимального запаса здоровья.\n\nTags: Проклятие, Осквернение, Эссенция, Урон.",
-			"zhCN": "受到铁处女影响的一名敌人死亡时, 会使你恢复 5% 生命上限。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害."
+			"zhCN": "受到铁处女影响的一名敌人死亡时, 会使你恢复 5% 生命上限。\n\nTags: 诅咒, 腐蚀, 精魂, 伤害.",
+			"zhTW": "敵人受攻擊反噬影響並死亡時,你會恢復生命值上限的 5%。\n\nTags: 詛咒, 腐化, 魂能, 傷害."
 },
 		id: 58,
 		maxPoints: 1,
@@ -2269,7 +2387,8 @@ Tags: Damage, Life, Minion.`,
 			"plPL": "Mistrzostwo Szkieletowych Magów",
 			"ptBR": "Maestria do Mago Esqueleto",
 			"ruRU": "Мастер скелетов-магов",
-			"zhCN": "骷髅法师精通"
+			"zhCN": "骷髅法师精通",
+			"zhTW": "骷髏法師精通"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht Schaden und Leben Eurer Skelettmagier um x{20/40/60/80/100/120/140/160/180/200}%.\n\nTags: Schaden, Leben, Diener.",
@@ -2282,7 +2401,8 @@ Tags: Damage, Life, Minion.`,
 			"plPL": "Obrażenia zadawane przez twoich szkieletowych magów oraz ich zdrowie są zwiększone o x{20/40/60/80/100/120/140/160/180/200}%.\n\nTags: Obrażenia, Zdrowie, Sługa.",
 			"ptBR": "Aumenta o dano e a vida dos seus Magos Esqueletos em {20/40/60/80/100/120/140/160/180/200}%.\n\nTags: Dano, Vida, Lacaio.",
 			"ruRU": "Наносимый урон и запас здоровья скелетов-магов увеличиваются на x{20/40/60/80/100/120/140/160/180/200}%.\n\nTags: Урон, Здоровье, Прислужник.",
-			"zhCN": "你的骷髅法师的伤害和生命提高 x{20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 伤害, 生命, 爪牙."
+			"zhCN": "你的骷髅法师的伤害和生命提高 x{20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 伤害, 生命, 爪牙.",
+			"zhTW": "使骷髏法師的傷害和生命值提高 x{20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 傷害, 生命值, 僕從."
 },
 		id: 59,
 		maxPoints: 3,
@@ -2305,7 +2425,8 @@ Tags: Damage, Curse.`,
 			"plPL": "Zwiększenie Obrażeń",
 			"ptBR": "Amplificar Dano",
 			"ruRU": "Усиление урона",
-			"zhCN": "伤害增效"
+			"zhCN": "伤害增效",
+			"zhTW": "傷害加深"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt verfluchten Gegnern x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden zu.\n\nTags: Schaden, Fluch.",
@@ -2318,7 +2439,8 @@ Tags: Damage, Curse.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{3/6/9/12/15/18/21/24/27/30}% przeklętym wrogom.\n\nTags: Obrażenia, Klątwy.",
 			"ptBR": "Você causa {3/6/9/12/15/18/21/24/27/30}% de dano aumentado a inimigos amaldiçoados.\n\nTags: Dano, Maldição.",
 			"ruRU": "Вы наносите на x{3/6/9/12/15/18/21/24/27/30}% больше урона проклятым противникам.\n\nTags: Урон, Проклятие.",
-			"zhCN": "你对被诅咒的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害, 诅咒."
+			"zhCN": "你对被诅咒的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害, 诅咒.",
+			"zhTW": "你對遭詛咒的敵人造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 傷害, 詛咒."
 },
 		id: 60,
 		maxPoints: 3,
@@ -2342,7 +2464,8 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"plPL": "Zniedołężnienie",
 			"ptBR": "Decrepitar",
 			"ruRU": "Немощь",
-			"zhCN": "衰老"
+			"zhCN": "衰老",
+			"zhTW": "衰老"
 },
 		descriptionLocalized: {
 			"deDE": "Essenzkosten: {#}\nVerflucht den Zielbereich. Von Altern betroffene Gegner werden 10 Sek. lang um {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% verlangsamt und verursachen {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% weniger Schaden.\n\nTags: Fluch, Verderbnis, Kontrollverlust, Essenz, Schadensreduktion.",
@@ -2355,7 +2478,8 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"plPL": "Koszt: {#} pkt. esencji\nPrzeklinasz wskazany obszar. Przeciwnicy dotknięci Zniedołężnieniem są spowolnieni o {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% i zadają o {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% mniej obrażeń przez 10 sek.\n\nTags: Klątwy, Spaczenie, Ograniczanie Kontroli, Esencja, Redukcja Obrażeń.",
 			"ptBR": "Custo de essência: {#}\nAmaldiçoa a área selecionada. Inimigos afetados por Decrepitar são desacelerados em {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% e causam {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% de dano reduzido por 10 segundos.\n\nTags: Maldição, Corrupção, Controle de Grupo, Essência, Redução de Dano.",
 			"ruRU": "Затраты эссенции: {#}\nВы проклинаете указанную область. Противники под действием \"Немощи\" замедляются на {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}% и наносят на {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}% меньше урона в течение 10 сек.\n\nTags: Проклятие, Осквернение, Контроль, Эссенция, Уменьшение урона.",
-			"zhCN": "精魂消耗: {#}\n诅咒目标区域。受到衰老影响的敌人会被减速 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%, 并且造成的伤害降低 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%, 持续 10 秒。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免."
+			"zhCN": "精魂消耗: {#}\n诅咒目标区域。受到衰老影响的敌人会被减速 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%, 并且造成的伤害降低 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%, 持续 10 秒。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免.",
+			"zhTW": "魂能消耗:{#}\n詛咒目標區域。被衰老影響的敵人緩速 {40/43/45.8/48.5/51.1/53.5/55.8/58/60.1/62.1}%,且造成的傷害降低 {20/20.9/22/22.9/23.8/24.6/25.4/26/26.6/27.3/28/28.7/29.1/29.4/29.8/30.2/30.4/30.6/30.8/31.1}%,持續 10 秒。\n\nTags: 詛咒, 腐化, 控場, 魂能, 傷害減免."
 },
 		id: 61,
 		maxPoints: 5,
@@ -2380,7 +2504,8 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"plPL": "Wzmocnione Zniedołężnienie",
 			"ptBR": "Decrepitar Aperfeiçoado",
 			"ruRU": "Усиленная немощь",
-			"zhCN": "强化衰老"
+			"zhCN": "强化衰老",
+			"zhTW": "強化衰老"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Treffer bei von Altern betroffenen Gegner haben eine Chance von bis zu 10%, sie 2 Sek. lang zu betäuben.\n\nTags: Fluch, Verderbnis, Kontrollverlust, Essenz, Schadensreduktion.",
@@ -2393,7 +2518,8 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"plPL": "Szczęśliwy traf: Wrogowie trafieni, gdy znajdują się pod wpływem Zniedołężnienia, mają do 10% szans, by zostali ogłuszeni na 2 sek.\n\nTags: Klątwy, Spaczenie, Ograniczanie Kontroli, Esencja, Redukcja Obrażeń.",
 			"ptBR": "Golpe de Sorte: Inimigos atingidos enquanto afetados por Decrepitar têm até 10% de chance de serem atordoados por 2 segundos.\n\nTags: Maldição, Corrupção, Controle de Grupo, Essência, Redução de Dano.",
 			"ruRU": "Удачный удар: пораженные противники, на которых действует эффект \"Немощь\", с вероятностью до 10% оглушаются на 2 сек.\n\nTags: Проклятие, Осквернение, Контроль, Эссенция, Уменьшение урона.",
-			"zhCN": "幸运一击: 攻击衰老的敌人最多有 10% 几率使其昏迷 2 秒。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免."
+			"zhCN": "幸运一击: 攻击衰老的敌人最多有 10% 几率使其昏迷 2 秒。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免.",
+			"zhTW": "幸運觸發:擊中被衰老影響的敵人時,有最高 10% 機率擊昏他們 2 秒。\n\nTags: 詛咒, 腐化, 控場, 魂能, 傷害減免."
 },
 		id: 62,
 		maxPoints: 1,
@@ -2417,7 +2543,8 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"plPL": "Odrażające Zniedołężnienie",
 			"ptBR": "Decrepitar Repugnante",
 			"ruRU": "Омерзительная немощь",
-			"zhCN": "可憎衰老"
+			"zhCN": "可憎衰老",
+			"zhTW": "厭憎衰老"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Treffer gegen von Altern betroffene Gegner haben eine Chance von bis zu 15%, Eure aktiven Abklingzeiten um 1 Sek. zu reduzieren.\n\nTags: Fluch, Verderbnis, Kontrollverlust, Essenz, Schadensreduktion.",
@@ -2430,7 +2557,8 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"plPL": "Szczęśliwy traf: Wrogowie trafieni, gdy znajdują się pod wpływem Zniedołężnienia, mają 15% szans na skrócenie aktywnych czasów odnowienia twoich umiejętności o 1 sek.\n\nTags: Klątwy, Spaczenie, Ograniczanie Kontroli, Esencja, Redukcja Obrażeń.",
 			"ptBR": "Golpe de Sorte: Inimigos atingidos enquanto afetados por Decrepitar têm até 15% de chance de reduzir suas recargas ativas em 1 segundo.\n\nTags: Maldição, Corrupção, Controle de Grupo, Essência, Redução de Dano.",
 			"ruRU": "Удачный удар: когда вы поражаете противников, на которых действует \"Немощь\", время восстановления ваших умений с вероятностью до 15% сокращается на 1 сек.\n\nTags: Проклятие, Осквернение, Контроль, Эссенция, Уменьшение урона.",
-			"zhCN": "幸运一击: 攻击受到衰老影响的敌人最多有 15% 几率使你的剩余冷却时间缩短 1 秒。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免."
+			"zhCN": "幸运一击: 攻击受到衰老影响的敌人最多有 15% 几率使你的剩余冷却时间缩短 1 秒。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免.",
+			"zhTW": "幸運觸發:擊中被衰老影響的敵人時,有最高 15% 機率使你的作用中的冷卻時間縮短 1 秒。\n\nTags: 詛咒, 腐化, 控場, 魂能, 傷害減免."
 },
 		id: 63,
 		maxPoints: 1,
@@ -2454,7 +2582,8 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"plPL": "Straszliwe Zniedołężnienie",
 			"ptBR": "Decrepitar Horrendo",
 			"ruRU": "Ужасная немощь",
-			"zhCN": "悚然衰老"
+			"zhCN": "悚然衰老",
+			"zhTW": "怨惡衰老"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr oder Eure Diener einen von Altern betroffenen Gegner trefft, der weniger als 10% Leben hat, stirbt dieser sofort. Gilt nicht für Bosse.\n\nTags: Fluch, Verderbnis, Kontrollverlust, Essenz, Schadensreduktion.",
@@ -2467,7 +2596,8 @@ Tags: Curse, Corruption, Crowd Control, Essence, Damage Reduction.`,
 			"plPL": "Kiedy ty lub twoje sługi trafiacie wroga objętego działaniem Zniedołężnienia i posiadającego mniej niż 10% zdrowia, cel ten natychmiast ginie. Nie działa na bossów.\n\nTags: Klątwy, Spaczenie, Ograniczanie Kontroli, Esencja, Redukcja Obrażeń.",
 			"ptBR": "Quando você ou seus lacaios atingem um inimigo afetado por Decrepitar e com menos de 10% de vida, ele morre instantaneamente. Não funciona em chefes.\n\nTags: Maldição, Corrupção, Controle de Grupo, Essência, Redução de Dano.",
 			"ruRU": "Когда вы или ваши прислужники поражаете противника, на которого действует эффект \"Немощь\", с уровнем здоровья ниже 10%, вы мгновенно убиваете его. Не действует на боссов.\n\nTags: Проклятие, Осквернение, Контроль, Эссенция, Уменьшение урона.",
-			"zhCN": "你和你的仆从攻击生命低于 10% 且受到衰老影响的敌人时, 会立即消灭目标。该效果对首领无效。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免."
+			"zhCN": "你和你的仆从攻击生命低于 10% 且受到衰老影响的敌人时, 会立即消灭目标。该效果对首领无效。\n\nTags: 诅咒, 腐蚀, 群控, 精魂, 伤害减免.",
+			"zhTW": "當你或你的僕從擊中被衰老影響的敵人,且其生命值低於 10% 時,敵人會立刻死亡。此效果對首領無效。\n\nTags: 詛咒, 腐化, 控場, 魂能, 傷害減免."
 },
 		id: 64,
 		maxPoints: 1,
@@ -2490,7 +2620,8 @@ Tags: Damage, Damage Reduction.`,
 			"plPL": "Objęcia Śmierci",
 			"ptBR": "Abraço da Morte",
 			"ruRU": "Объятия смерти",
-			"zhCN": "死亡之拥"
+			"zhCN": "死亡之拥",
+			"zhTW": "死亡之擁"
 },
 		descriptionLocalized: {
 			"deDE": "Nahe Gegner erleiden durch Euch x{2/4/6/8/10/12/14/16/18/20}% mehr Schaden und fügen Euch {3/6/9/12/15/18/21/24/27/30}% weniger Schaden zu.\n\nTags: Schaden, Schadensreduktion.",
@@ -2503,7 +2634,8 @@ Tags: Damage, Damage Reduction.`,
 			"plPL": "Pobliscy wrogowie otrzymują od ciebie o x{2/4/6/8/10/12/14/16/18/20}% więcej obrażeń i zadają ci o {3/6/9/12/15/18/21/24/27/30}% mniej obrażeń.\n\nTags: Obrażenia, Redukcja Obrażeń.",
 			"ptBR": "Inimigos próximos recebem {2/4/6/8/10/12/14/16/18/20}% de dano aumentado e causam {3/6/9/12/15/18/21/24/27/30}% de dano reduzido a você.\n\nTags: Dano, Redução de Dano.",
 			"ruRU": "Вы наносите на x{2/4/6/8/10/12/14/16/18/20}% больше урона находящимся вблизи противникам и получаете от них на {3/6/9/12/15/18/21/24/27/30}% меньше урона.\n\nTags: Урон, Уменьшение урона.",
-			"zhCN": "近距敌人受到来自你的伤害提高 x{2/4/6/8/10/12/14/16/18/20}%, 对你造成的伤害降低 {3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害, 伤害减免."
+			"zhCN": "近距敌人受到来自你的伤害提高 x{2/4/6/8/10/12/14/16/18/20}%, 对你造成的伤害降低 {3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害, 伤害减免.",
+			"zhTW": "你對近距離敵人造成的傷害提高 x{2/4/6/8/10/12/14/16/18/20}%,其對你造成的傷害降低 {3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 傷害, 傷害減免."
 },
 		id: 65,
 		maxPoints: 3,
@@ -2526,7 +2658,8 @@ Tags: Damage.`,
 			"plPL": "Długie Ramię Śmierci",
 			"ptBR": "Alcance da Morte",
 			"ruRU": "Предел смерти",
-			"zhCN": "死亡延伸"
+			"zhCN": "死亡延伸",
+			"zhTW": "死亡之距"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt entfernten Gegnern x{4/8/12/16/20/24/28/32/36/40}% mehr Schaden zu.\n\nTags: Schaden.",
@@ -2539,7 +2672,8 @@ Tags: Damage.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{4/8/12/16/20/24/28/32/36/40}% odległym wrogom.\n\nTags: Obrażenia.",
 			"ptBR": "Você causa {4/8/12/16/20/24/28/32/36/40}% de dano aumentado a inimigos distantes.\n\nTags: Dano.",
 			"ruRU": "Вы наносите на x{4/8/12/16/20/24/28/32/36/40}% больше урона противникам вдалеке.\n\nTags: Урон.",
-			"zhCN": "你对远距敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 伤害."
+			"zhCN": "你对远距敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 伤害.",
+			"zhTW": "對遠距離敵人造成的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 傷害."
 },
 		id: 66,
 		maxPoints: 3,
@@ -2567,7 +2701,8 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"plPL": "Trupie Macki",
 			"ptBR": "Tentáculos Cadavéricos",
 			"ruRU": "Трупные щупальца",
-			"zhCN": "亡骸卷须"
+			"zhCN": "亡骸卷须",
+			"zhTW": "屍體觸鬚"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 20%\nAdern brechen aus einer Leiche hervor, ziehen Gegner zu sich, betäuben sie 3 Sek. lang und fügen ihnen {20/22/24/26/28/30/32/34/36/38}% Schaden zu. Dies verbraucht den Leichnam nicht.\n\nTags: Leiche, Verderbnis, Abklingzeit, Schaden, Kontrollverlust, Physisch.",
@@ -2580,7 +2715,8 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 20%\nZe zwłok wystrzeliwują żyły przyciągające wrogów, które ogłuszają ich na 3 sek. oraz zadają im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń. Umiejętność nie pochłania zwłok.\n\nTags: Zwłoki, Spaczenie, Odnowienie, Obrażenia, Ograniczanie Kontroli, Fizyczne.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 20%\nVeias irrompem de um cadáver, puxando inimigos, atordoando-os por 3 segundos e causando {20/22/24/26/28/30/32/34/36/38}% de dano a eles. Não consome o cadáver.\n\nTags: Cadáver, Corrupção, Recarga, Dano, Controle de Grupo, Física.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 20%.\nИз трупа вырываются вены, притягивающие противников и оглушающие их на 3 сек., нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона. При этом труп не уничтожается.\n\nTags: Труп, Осквернение, Время восстановления, Урон, Контроль, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n亡骸迸发血脉并藉此拖拽敌人, 使其昏迷 3 秒并对其造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。不消耗亡骸。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n亡骸迸发血脉并藉此拖拽敌人, 使其昏迷 3 秒并对其造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。不消耗亡骸。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:20%\n觸鬚穿出屍體,將敵人拉近並擊昏他們 3 秒,對其造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。不會消耗屍體。\n\nTags: 屍體, 腐化, 冷卻時間, 傷害, 控場, 物理."
 },
 		id: 67,
 		maxPoints: 5,
@@ -2605,7 +2741,8 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"plPL": "Wzmocnione Trupie Macki",
 			"ptBR": "Tentáculos Cadavéricos Aperfeiçoados",
 			"ruRU": "Усиленные трупные щупальца",
-			"zhCN": "强化亡骸卷须"
+			"zhCN": "强化亡骸卷须",
+			"zhTW": "強化屍體觸鬚"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner in Reichweite von Leichenranken werden um 50% verlangsamt, bevor sie herangezogen werden.\n\nTags: Leiche, Verderbnis, Abklingzeit, Schaden, Kontrollverlust, Physisch.",
@@ -2618,7 +2755,8 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"plPL": "Wrogowie znajdujący się w zasięgu Trupich Macek zostają spowolnieni o 50% przed przyciągnięciem.\n\nTags: Zwłoki, Spaczenie, Odnowienie, Obrażenia, Ograniczanie Kontroli, Fizyczne.",
 			"ptBR": "Inimigos no alcance de Tentáculos Cadavéricos são desacelerados em 50% antes de serem puxados.\n\nTags: Cadáver, Corrupção, Recarga, Dano, Controle de Grupo, Física.",
 			"ruRU": "\"Трупные щупальца\" замедляют противников в области поражения на 50% перед тем, как притянуть их.\n\nTags: Труп, Осквернение, Время восстановления, Урон, Контроль, Физический урон.",
-			"zhCN": "亡骸卷须在拖拽范围内的敌人之前会使其减速 50%。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理."
+			"zhCN": "亡骸卷须在拖拽范围内的敌人之前会使其减速 50%。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理.",
+			"zhTW": "在屍體觸鬚範圍內的敵人被拉近前會緩速 50%。\n\nTags: 屍體, 腐化, 冷卻時間, 傷害, 控場, 物理."
 },
 		id: 68,
 		maxPoints: 1,
@@ -2642,7 +2780,8 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"plPL": "Zaraźliwe Trupie Macki",
 			"ptBR": "Tentáculos Cadavéricos Pestilentos",
 			"ruRU": "Чумные трупные щупальца",
-			"zhCN": "疫病亡骸卷须"
+			"zhCN": "疫病亡骸卷须",
+			"zhTW": "瘟疫屍體觸鬚"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, denen von Leichenranken Schaden zugefügt wird, werden 3 Sek. lang verwundbar.\n\nTags: Leiche, Verderbnis, Abklingzeit, Schaden, Kontrollverlust, Physisch.",
@@ -2655,7 +2794,8 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"plPL": "Wrogowie zranieni Trupimi Mackami zostają odsłonięci na 3 sek.\n\nTags: Zwłoki, Spaczenie, Odnowienie, Obrażenia, Ograniczanie Kontroli, Fizyczne.",
 			"ptBR": "Os inimigos atingidos por Tentáculos Cadavéricos ficam vulneráveis por 3 segundos.\n\nTags: Cadáver, Corrupção, Recarga, Dano, Controle de Grupo, Física.",
 			"ruRU": "Противники, пораженные \"Трупными щупальцами\", становятся уязвимыми на 3 сек.\n\nTags: Труп, Осквернение, Время восстановления, Урон, Контроль, Физический урон.",
-			"zhCN": "亡骸卷须对敌人造成伤害时会使其陷入易伤状态, 持续 3 秒。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理."
+			"zhCN": "亡骸卷须对敌人造成伤害时会使其陷入易伤状态, 持续 3 秒。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理.",
+			"zhTW": "受到屍體觸鬚傷害的敵人會易傷,持續 3 秒。\n\nTags: 屍體, 腐化, 冷卻時間, 傷害, 控場, 物理."
 },
 		id: 125,
 		maxPoints: 1,
@@ -2679,7 +2819,8 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"plPL": "Morowe Trupie Macki",
 			"ptBR": "Tentáculos Cadavéricos Empesteados",
 			"ruRU": "Гнилостные трупные щупальца",
-			"zhCN": "枯萎亡骸卷须"
+			"zhCN": "枯萎亡骸卷须",
+			"zhTW": "荒疫屍體觸鬚"
 },
 		descriptionLocalized: {
 			"deDE": "Leichenranken hat eine Chance von 30%, eine Blutkugel zu hinterlassen, wenn Gegnern Schaden zugefügt wird.\n\nTags: Leiche, Verderbnis, Abklingzeit, Schaden, Kontrollverlust, Physisch.",
@@ -2692,7 +2833,8 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"plPL": "Istnieje 30% szans, że Trupie Macki pozostawią krwawą kulę, gdy zadadzą wrogom obrażenia.\n\nTags: Zwłoki, Spaczenie, Odnowienie, Obrażenia, Ograniczanie Kontroli, Fizyczne.",
 			"ptBR": "Tentáculos Cadavéricos tem 30% de chance de largar um orbe de sangue ao causar dano a inimigos.\n\nTags: Cadáver, Corrupção, Recarga, Dano, Controle de Grupo, Física.",
 			"ruRU": "Когда \"Трупные щупальца\" поражают противников, с вероятностью 30% появляется сфера крови.\n\nTags: Труп, Осквернение, Время восстановления, Урон, Контроль, Физический урон.",
-			"zhCN": "亡骸卷须对敌人造成伤害时有 30% 几率掉落一颗生命球。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理."
+			"zhCN": "亡骸卷须对敌人造成伤害时有 30% 几率掉落一颗生命球。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理.",
+			"zhTW": "屍體觸鬚對敵人造成傷害時,有 30% 機率掉落生命之球。\n\nTags: 屍體, 腐化, 冷卻時間, 傷害, 控場, 物理."
 },
 		id: 126,
 		maxPoints: 1,
@@ -2715,7 +2857,8 @@ Tags: Movement, Darkness.`,
 			"plPL": "Pogoń Żniwiarza",
 			"ptBR": "Perseguição Fatal",
 			"ruRU": "Преследующий жнец",
-			"zhCN": "夺魂者的追击"
+			"zhCN": "夺魂者的追击",
+			"zhTW": "奪魂追擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Gegnern mit Dunkelheitsfertigkeiten Schaden zufügt, ist Eure Bewegungsgeschwindigkeit 3 Sek. lang um +{5/10/15/20/25/30/35/40/45/50}% erhöht.\n\nTags: Bewegung, Dunkelheit.",
@@ -2728,7 +2871,8 @@ Tags: Movement, Darkness.`,
 			"plPL": "Ranienie wrogów umiejętnościami Ciemności zwiększa twoją szybkość ruchu o +{5/10/15/20/25/30/35/40/45/50}% na 3 sek.\n\nTags: Ruch, Ciemność.",
 			"ptBR": "Causar dano a inimigos com habilidades de Escuridão aumenta sua velocidade de movimento em +{5/10/15/20/25/30/35/40/45/50}% por 3 segundos.\n\nTags: Movimento, Escuridão.",
 			"ruRU": "Когда умения тьмы наносят противникам урон, ваша скорость передвижения повышается на +{5/10/15/20/25/30/35/40/45/50}% на 3 сек.\n\nTags: Движение, Тьма.",
-			"zhCN": "使用黑暗技能对敌人造成伤害会使你的移动速度提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 3 秒。\n\nTags: 移动, 黑暗."
+			"zhCN": "使用黑暗技能对敌人造成伤害会使你的移动速度提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 3 秒。\n\nTags: 移动, 黑暗.",
+			"zhTW": "以黑暗技能傷害敵人,能使你的移動速度提高 +{5/10/15/20/25/30/35/40/45/50}%,持續 3 秒。\n\nTags: 移動, 黑暗."
 },
 		id: 71,
 		maxPoints: 3,
@@ -2751,7 +2895,8 @@ Tags: Damage, Shadow, Minion, Darkness.`,
 			"plPL": "Smuga Cienia",
 			"ptBR": "Melancolia",
 			"ruRU": "Сумрак",
-			"zhCN": "阴霾"
+			"zhCN": "阴霾",
+			"zhTW": "幽暗"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Gegnern mit Dunkelheitsfertigkeiten Schaden zufügt, erleiden sie 2 Sek. lang x{2/4/6/8/10/12/14/16/18/20}% mehr Schattenschaden durch Euch und Eure Diener (bis zu 3-mal stapelbar).\n\nTags: Schaden, Schatten, Diener, Dunkelheit.",
@@ -2764,7 +2909,8 @@ Tags: Damage, Shadow, Minion, Darkness.`,
 			"plPL": "Kiedy zadajesz wrogom obrażenia twoimi umiejętnościami Ciemności, otrzymują oni od ciebie i twoich sług zwiększone o x{2/4/6/8/10/12/14/16/18/20}% obrażenia od Cienia przez 2 sek. Efekt kumuluje się maksymalnie 3 razy.\n\nTags: Obrażenia, Cień, Sługa, Ciemność.",
 			"ptBR": "Ao causar dano a inimigos com habilidades de Escuridão, eles recebem {2/4/6/8/10/12/14/16/18/20}% de dano de sombra aumentado de você e seus lacaios por 2 segundos, acumulando até 3 vezes.\n\nTags: Dano, Sombra, Lacaio, Escuridão.",
 			"ruRU": "Когда ваши умения тьмы наносят урон противникам, пораженные цели в течение 2 сек. получают на x{2/4/6/8/10/12/14/16/18/20}% больше урона от темной магии от вас и ваших прислужников. Эффект суммируется до 3 раз.\n\nTags: Урон, Темная магия, Прислужник, Тьма.",
-			"zhCN": "你的黑暗技能对敌人造成伤害时, 你和你的仆从对其造成的暗影伤害提高 x{2/4/6/8/10/12/14/16/18/20}%, 持续 2 秒, 该效果最多可叠加 3 次。\n\nTags: 伤害, 暗影, 爪牙, 黑暗."
+			"zhCN": "你的黑暗技能对敌人造成伤害时, 你和你的仆从对其造成的暗影伤害提高 x{2/4/6/8/10/12/14/16/18/20}%, 持续 2 秒, 该效果最多可叠加 3 次。\n\nTags: 伤害, 暗影, 爪牙, 黑暗.",
+			"zhTW": "當你以黑暗技能傷害敵人時,你與僕從對其造成的暗影傷害提高 x{2/4/6/8/10/12/14/16/18/20}%,持續 2 秒,最多可堆疊 3 次。\n\nTags: 傷害, 暗影, 僕從, 黑暗."
 },
 		id: 72,
 		maxPoints: 3,
@@ -2787,7 +2933,8 @@ Tags: Crowd Control, Damage, Shadow, Darkness, Minion.`,
 			"plPL": "Groza",
 			"ptBR": "Terror",
 			"ruRU": "Устрашение",
-			"zhCN": "畏惧"
+			"zhCN": "畏惧",
+			"zhTW": "恐懼"
 },
 		descriptionLocalized: {
 			"deDE": "Dunkelheitsfertigkeiten fügen verlangsamten Gegnern x{3/6/9/12/15/18/21/24/27/30}% Bonusschaden und betäubten oder bewegungsunfähigen Gegnern x{3/6/9/12/15/18/21/24/27/30}% Bonusschaden zu. Diese Boni sind stapelbar und wirken sich auf den Schattenschaden Eurer Diener aus.\n\nTags: Kontrollverlust, Schaden, Schatten, Dunkelheit, Diener.",
@@ -2800,7 +2947,8 @@ Tags: Crowd Control, Damage, Shadow, Darkness, Minion.`,
 			"plPL": "Umiejętności Ciemności zadają x{3/6/9/12/15/18/21/24/27/30}% dodatkowych obrażeń wrogom, którzy są spowolnieni, i x{3/6/9/12/15/18/21/24/27/30}% dodatkowych obrażeń wrogom, którzy są ogłuszeni lub unieruchomieni. Te premie kumulują się i mają zastosowanie do obrażeń od Cienia zadawanych przez twoje sługi.\n\nTags: Ograniczanie Kontroli, Obrażenia, Cień, Ciemność, Sługa.",
 			"ptBR": "Habilidades de Escuridão causam {3/6/9/12/15/18/21/24/27/30}% de bônus de dano a inimigos desacelerados e {3/6/9/12/15/18/21/24/27/30}% de bônus de dano a inimigos atordoados ou imobilizados. Esses bônus acumulam e aplicam-se ao dano de sombra causado por seus lacaios.\n\nTags: Controle de Grupo, Dano, Sombra, Escuridão, Lacaio.",
 			"ruRU": "Умения тьмы наносят на x{3/6/9/12/15/18/21/24/27/30}% больше урона замедленным противникам и на x{3/6/9/12/15/18/21/24/27/30}% больше урона оглушенным или обездвиженным противникам. Этот эффект суммируется и также действует для урона от темной магии, который наносят ваши прислужники.\n\nTags: Контроль, Урон, Темная магия, Тьма, Прислужник.",
-			"zhCN": "黑暗技能对被减速的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%, 并且对昏迷或定身的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。该加成可以叠加并且也会对你仆从造成的暗影伤害生效。\n\nTags: 群控, 伤害, 暗影, 黑暗, 爪牙."
+			"zhCN": "黑暗技能对被减速的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%, 并且对昏迷或定身的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。该加成可以叠加并且也会对你仆从造成的暗影伤害生效。\n\nTags: 群控, 伤害, 暗影, 黑暗, 爪牙.",
+			"zhTW": "黑暗技能對緩速的敵人造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%,對昏迷或定身的敵人造成的傷害則提高 x{3/6/9/12/15/18/21/24/27/30}%。此加成效果可堆疊,且你的僕從造成的暗影傷害也適用於此效果。\n\nTags: 控場, 傷害, 暗影, 黑暗, 僕從."
 },
 		id: 73,
 		maxPoints: 3,
@@ -2823,7 +2971,8 @@ Tags: Crowd Control, Darkness, Lucky Hit.`,
 			"plPL": "Wyniszczająca Ciemność",
 			"ptBR": "Escuridão Incapacitante",
 			"ruRU": "Жестокая тьма",
-			"zhCN": "致残黑暗"
+			"zhCN": "致残黑暗",
+			"zhTW": "致殘黑暗"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Dunkelheitsfertigkeiten verfügen über eine Chance von bis zu 15%, Gegner {1/2/3/4/5/6/7/8/9/10} Sek. lang zu betäuben.\n\nTags: Kontrollverlust, Dunkelheit, Glückstreffer.",
@@ -2836,7 +2985,8 @@ Tags: Crowd Control, Darkness, Lucky Hit.`,
 			"plPL": "Szczęśliwy traf: Umiejętności Ciemności mają maksymalnie 15% szans na ogłuszenie wrogów na {1/2/3/4/5/6/7/8/9/10} sek.\n\nTags: Ograniczanie Kontroli, Ciemność, Szczęśliwy Traf.",
 			"ptBR": "Golpe de Sorte: Habilidades de Escuridão têm até 15% de chance de atordoar por {1/2/3/4/5/6/7/8/9/10} segundos.\n\nTags: Controle de Grupo, Escuridão, Golpe de Sorte.",
 			"ruRU": "Удачный удар: умения тьмы с вероятностью до 15% оглушают противников на {1/2/3/4/5/6/7/8/9/10} сек.\n\nTags: Контроль, Тьма, Удачный удар.",
-			"zhCN": "幸运一击: 黑暗技能最多有 15% 几率使敌人昏迷 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 群控, 黑暗, 幸运一击."
+			"zhCN": "幸运一击: 黑暗技能最多有 15% 几率使敌人昏迷 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 群控, 黑暗, 幸运一击.",
+			"zhTW": "幸運觸發:黑暗技能最多有 15% 機率擊昏敵人 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 控場, 黑暗, 幸運觸發."
 },
 		id: 74,
 		maxPoints: 3,
@@ -2859,7 +3009,8 @@ Tags: Life, Healing.`,
 			"plPL": "Makabryczne Zasklepienie",
 			"ptBR": "Reparação Terrível",
 			"ruRU": "Зловещее исцеление",
-			"zhCN": "阴森愈合"
+			"zhCN": "阴森愈合",
+			"zhTW": "陰森癒合"
 },
 		descriptionLocalized: {
 			"deDE": "Bei weniger als 50% Leben erhaltet Ihr +{10/20/30/40/50/60/70/80/90/100}% mehr Heilung aus allen Quellen.\n\nTags: Leben, Heilung.",
@@ -2872,7 +3023,8 @@ Tags: Life, Healing.`,
 			"plPL": "Kiedy masz poniżej 50% zdrowia, otrzymujesz o +{10/20/30/40/50/60/70/80/90/100}% więcej leczenia ze wszystkich źródeł.\n\nTags: Zdrowie, Leczenie.",
 			"ptBR": "Enquanto estiver abaixo de 50% de vida, você recebe +{10/20/30/40/50/60/70/80/90/100}% de cura adicional de todas as fontes.\n\nTags: Vida, Cura.",
 			"ruRU": "Пока ваш уровень здоровья ниже 50%, вы получаете на +{10/20/30/40/50/60/70/80/90/100}% больше исцеления от любых источников.\n\nTags: Здоровье, Исцеление.",
-			"zhCN": "生命低于 50% 时, 从所有来源获得的生命恢复效果提高 +{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 生命, 治疗."
+			"zhCN": "生命低于 50% 时, 从所有来源获得的生命恢复效果提高 +{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 生命, 治疗.",
+			"zhTW": "當生命值低於 50% 時,你從所有來源獲得的治療效果提高 +{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 生命值, 治療."
 },
 		id: 127,
 		maxPoints: 3,
@@ -2895,7 +3047,8 @@ Tags: Blood Orb, Minion, Healing.`,
 			"plPL": "Transfuzja",
 			"ptBR": "Transfusão",
 			"ruRU": "Переливание",
-			"zhCN": "鲜血输送"
+			"zhCN": "鲜血输送",
+			"zhTW": "注血"
 },
 		descriptionLocalized: {
 			"deDE": "Blutkugeln heilen außerdem Eure Diener in Höhe von {15/30/45/60/75/90/105/120/135/150}% der ursprünglichen Menge.\n\nTags: Blutkugel, Diener, Heilung.",
@@ -2908,7 +3061,8 @@ Tags: Blood Orb, Minion, Healing.`,
 			"plPL": "Krwawe kule leczą również twoje sługi, przywracając im {15/30/45/60/75/90/105/120/135/150}% wartości leczenia.\n\nTags: Krwawa Kula, Sługa, Leczenie.",
 			"ptBR": "Orbes de sangue também curam seus lacaios em {15/30/45/60/75/90/105/120/135/150}% do valor.\n\nTags: Orbe de Sangue, Lacaio, Cura.",
 			"ruRU": "Сферы крови также восполняют вашим прислужникам {15/30/45/60/75/90/105/120/135/150}% обычного объема здоровья.\n\nTags: Сфера крови, Прислужник, Исцеление.",
-			"zhCN": "生命球也会为你的仆从恢复 {15/30/45/60/75/90/105/120/135/150}% 的治疗量。\n\nTags: 生命球, 爪牙, 治疗."
+			"zhCN": "生命球也会为你的仆从恢复 {15/30/45/60/75/90/105/120/135/150}% 的治疗量。\n\nTags: 生命球, 爪牙, 治疗.",
+			"zhTW": "生命之球也會治療你的僕從,恢復相當於總量 {15/30/45/60/75/90/105/120/135/150}% 的生命值。\n\nTags: 生命之球, 僕從, 治療."
 },
 		id: 77,
 		maxPoints: 3,
@@ -2931,7 +3085,8 @@ Tags: Healthy, Overpower, Blood, Damage.`,
 			"plPL": "Krwawy Przypływ",
 			"ptBR": "Maré de Sangue",
 			"ruRU": "Волны крови",
-			"zhCN": "鲜血之潮"
+			"zhCN": "鲜血之潮",
+			"zhTW": "血潮"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Blutfertigkeiten verursachen x{5/10/15/20/25/30/35/40/45/50}% mehr Überwältigungsschaden. Während Ihr gesund seid, wird dieser Bonus verdoppelt.\n\nTags: Gesund, Überwältigen, Blut, Schaden.",
@@ -2944,7 +3099,8 @@ Tags: Healthy, Overpower, Blood, Damage.`,
 			"plPL": "Obrażenia od przytłoczenia zadawane przez twoje umiejętności Krwi są zwiększone o x{5/10/15/20/25/30/35/40/45/50}%. Premia ta zostaje podwojona, gdy jesteś w pełni sił.\n\nTags: Pełnia Sił, Przytłoczenie, Krew, Obrażenia.",
 			"ptBR": "Suas habilidades de Sangue causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado de Golpe Brutal. O bônus é dobrado enquanto você estiver saudável.\n\nTags: Saudável, Golpe Brutal, Sangue, Dano.",
 			"ruRU": "Ваши умения крови наносят на x{5/10/15/20/25/30/35/40/45/50}% больше подавляющего урона. Бонус удваивается, пока у вас высокий уровень здоровья.\n\nTags: Высокое здоровье, Подавление, Кровь, Урон.",
-			"zhCN": "你的鲜血技能造成的压制伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。该加成在你处于健康状态下翻倍。\n\nTags: 健康, 压制, 鲜血, 伤害."
+			"zhCN": "你的鲜血技能造成的压制伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。该加成在你处于健康状态下翻倍。\n\nTags: 健康, 压制, 鲜血, 伤害.",
+			"zhTW": "你的鮮血技能造成的壓制傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。若你處於健康狀態,則此加成效果加倍。\n\nTags: 健康, 壓制, 鮮血, 傷害."
 },
 		id: 78,
 		maxPoints: 3,
@@ -2967,7 +3123,8 @@ Tags: Healthy, Damage, Blood.`,
 			"plPL": "Zakrzepła Krew",
 			"ptBR": "Aglutinação Sanguínea",
 			"ruRU": "Сгусток крови",
-			"zhCN": "凝结之血"
+			"zhCN": "凝结之血",
+			"zhTW": "聚合之血"
 },
 		descriptionLocalized: {
 			"deDE": "Während Ihr gesund seid, verursachen Eure Blutfertigkeiten x{6/12/18/24/30/36/42/48/54/60}% mehr Schaden.\n\nTags: Gesund, Schaden, Blut.",
@@ -2980,7 +3137,8 @@ Tags: Healthy, Damage, Blood.`,
 			"plPL": "Kiedy jesteś w pełni sił twoje umiejętności Krwi zadają x{6/12/18/24/30/36/42/48/54/60}% więcej obrażeń.\n\nTags: Pełnia Sił, Obrażenia, Krew.",
 			"ptBR": "Enquanto estiver saudável, suas habilidades de Sangue causam {6/12/18/24/30/36/42/48/54/60}% de dano aumentado.\n\nTags: Saudável, Dano, Sangue.",
 			"ruRU": "Пока у вас высокий уровень здоровья, ваши умения крови наносят на x{6/12/18/24/30/36/42/48/54/60}% больше урона.\n\nTags: Высокое здоровье, Урон, Кровь.",
-			"zhCN": "处于健康状态时, 你的鲜血技能造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 健康, 伤害, 鲜血."
+			"zhCN": "处于健康状态时, 你的鲜血技能造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 健康, 伤害, 鲜血.",
+			"zhTW": "在健康狀態下,你的鮮血技能造成的傷害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 健康, 傷害, 鮮血."
 },
 		id: 76,
 		maxPoints: 3,
@@ -3003,7 +3161,8 @@ Tags: Fortify, Lucky Hit, Blood.`,
 			"plPL": "Wyssanie Witalności",
 			"ptBR": "Drenar Vitalidade",
 			"ruRU": "Иссушение жизненной силы",
-			"zhCN": "吸取活力"
+			"zhCN": "吸取活力",
+			"zhTW": "吸取活力"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Wenn Ihr Gegner mit Blutfertigkeiten trefft, besteht eine Chance von bis zu 25%, Stählung in Höhe von {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}% Eures Basislebens zu erhalten.\n\nTags: Stählung, Glückstreffer, Blut.",
@@ -3016,7 +3175,8 @@ Tags: Fortify, Lucky Hit, Blood.`,
 			"plPL": "Szczęśliwy traf: Trafienie wrogów umiejętnościami Krwi ma maksymalnie 25% szans na zapewnienie ci umocnienia równego {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}% twojego podstawowego zdrowia.\n\nTags: Umocnienie, Szczęśliwy Traf, Krew.",
 			"ptBR": "Golpe de Sorte: Atingir inimigos com habilidades de Sangue tem até 25% de chance de fortificar você em {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}% da vida básica.\n\nTags: Fortificação, Golpe de Sorte, Sangue.",
 			"ruRU": "Удачный удар: поражая противников умениями крови, вы с вероятностью до 25% получаете укрепление в объеме {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}% базового запаса здоровья.\n\nTags: Укрепление, Удачный удар, Кровь.",
-			"zhCN": "幸运一击: 使用鲜血技能命中敌人最多有 25% 几率强固你 {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}% 基础生命。\n\nTags: 强固, 幸运一击, 鲜血."
+			"zhCN": "幸运一击: 使用鲜血技能命中敌人最多有 25% 几率强固你 {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}% 基础生命。\n\nTags: 强固, 幸运一击, 鲜血.",
+			"zhTW": "幸運觸發:以鮮血技能擊中敵人時,最高有 25% 機率賦予你相當於 {2.5/5/7.5/10/12.5/15/17.5/20/22.5/25}% 基礎生命值的強韌。\n\nTags: 強韌, 幸運觸發, 鮮血."
 },
 		id: 79,
 		maxPoints: 3,
@@ -3042,7 +3202,8 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"plPL": "Kościane Widmo",
 			"ptBR": "Espírito de Ossos",
 			"ruRU": "Костяной дух",
-			"zhCN": "骨灵"
+			"zhCN": "骨灵",
+			"zhTW": "骸骨之魂"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nEssenzkosten: Gesamte verbleibende Essenz\nGlückstrefferchance: 33%\nVerbraucht all Eure Essenz, um einen Knochengeist zu beschwören, der Gegner aufspürt. Wenn er einen Gegner erreicht, explodiert der Geist und fügt dem Ziel sowie allen Gegnern in der Nähe {80/88/96/104/112/120/128/136/144/152}% Schaden zu. Der Schaden erhöht sich für jeden bei der Wirkung von Knochengeist verbrauchten Essenzpunkt um x3%.\n\nTags: Makaber, Knochen, Schaden, Abklingzeit, Essenz, Physisch.",
@@ -3055,7 +3216,8 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"plPL": "Czas odnowienia: {#} sek.\nKoszt esencji: cała posiadana.\nSzansa na szczęśliwy traf: 33%\nPochłaniasz całą swoją esencję, by przyzwać kościanego ducha, który wyszukuje wrogów. Po dosięgnięciu przeciwnika duch wybucha, zadając {80/88/96/104/112/120/128/136/144/152}% pkt. obrażeń celowi i wszystkim wrogom wokół. Obrażenia te są zwiększone o x3% za każdy punkt esencji wydany na użycie Kościanego Widma.\n\nTags: Makabra, Kości, Obrażenia, Odnowienie, Esencja, Fizyczne.",
 			"ptBR": "Recarga: {#} segundos\nCusto de essência: Toda a essência restante\nChance de Golpe de Sorte: 33%\nConsome toda a sua essência para conjurar um espírito de ossos que busca inimigos. Ao alcançar um inimigo, o espírito explode, causando {80/88/96/104/112/120/128/136/144/152}% de dano ao alvo e a todos os inimigos ao redor. O dano é aumentado em 3% por cada ponto de essência gasto ao lançar Espírito de Ossos.\n\nTags: Macabra, Osso, Dano, Recarga, Essência, Física.",
 			"ruRU": "Время восстановления: {#} сек.\nЗатраты эссенции: весь оставшийся запас.\nВероятность удачного удара: 33%.\nВы расходуете весь запас эссенции и призываете костяного духа, преследующего противников. Достигнув цели, дух взрывается, нанося {80/88/96/104/112/120/128/136/144/152}% ед. урона ей и ближайшим противникам. Урон увеличивается на x3% за каждую ед. эссенции, затраченную на призыв \"Костяного духа\".\n\nTags: Макабр, Кости, Урон, Время восстановления, Эссенция, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n精魂消耗: 剩余所有精魂\n幸运一击几率: 33%\n消耗所有精魂召唤一只能够寻找敌人的骨灵。骨灵在到达敌人身边时发生爆炸, 对目标和周围所有敌人造成 {80/88/96/104/112/120/128/136/144/152}% 点伤害。施放骨灵时, 每消耗一点精魂都会使其伤害提高 x3%。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理."
+			"zhCN": "冷却时间: {#} 秒\n精魂消耗: 剩余所有精魂\n幸运一击几率: 33%\n消耗所有精魂召唤一只能够寻找敌人的骨灵。骨灵在到达敌人身边时发生爆炸, 对目标和周围所有敌人造成 {80/88/96/104/112/120/128/136/144/152}% 点伤害。施放骨灵时, 每消耗一点精魂都会使其伤害提高 x3%。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理.",
+			"zhTW": "冷卻時間:{#} 秒\n魂能消耗:耗盡剩下的魂能\n幸運觸發機率:33%\n消耗你的所有魂能,呼喚出一個會追擊敵人的骸骨之魂。骸骨之魂會在接觸敵人時爆炸,對目標與附近所有敵人造成 {80/88/96/104/112/120/128/136/144/152}% 點傷害。施放骸骨之魂時每消耗一點魂能,此傷害提高 x3%。\n\nTags: 亡駭, 骸骨, 傷害, 冷卻時間, 魂能, 物理."
 },
 		id: 80,
 		maxPoints: 5,
@@ -3080,7 +3242,8 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"plPL": "Wzmocnione Kościane Widmo",
 			"ptBR": "Espírito de Ossos Aperfeiçoado",
 			"ruRU": "Усиленный костяной дух",
-			"zhCN": "强化骨灵"
+			"zhCN": "强化骨灵",
+			"zhTW": "強化骸骨之魂"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Knochengeist einen kritischen Treffer erzielt, wird die Abklingzeit um 6 Sek reduziert. Dieser Effekt kann nur einmal pro Einsatz auftreten.\n\nTags: Makaber, Knochen, Schaden, Abklingzeit, Essenz, Physisch.",
@@ -3093,7 +3256,8 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"plPL": "Jeśli Kościane Widmo wywołuje trafienie krytyczne, jego czas odnowienia zostaje skrócony o 6 sek. Efekt ten może wystąpić tylko raz na użycie zdolności.\n\nTags: Makabra, Kości, Obrażenia, Odnowienie, Esencja, Fizyczne.",
 			"ptBR": "Se Espírito de Ossos desfere um acerto crítico, a recarga é reduzida em 6 segundos. Este efeito só pode ocorrer uma vez por lançamento.\n\nTags: Macabra, Osso, Dano, Recarga, Essência, Física.",
 			"ruRU": "Когда \"Костяной дух\" наносит критический удар, время восстановления умения сокращается на 6 сек. Эффект срабатывает только раз за одно применение.\n\nTags: Макабр, Кости, Урон, Время восстановления, Эссенция, Физический урон.",
-			"zhCN": "骨灵暴击时, 法术冷却时间缩短 6 秒。该效果每次施法只能触发一次。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理."
+			"zhCN": "骨灵暴击时, 法术冷却时间缩短 6 秒。该效果每次施法只能触发一次。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理.",
+			"zhTW": "骸骨之魂爆擊時,其冷卻時間縮短 6 秒。此效果每次施放只會發生一次。\n\nTags: 亡駭, 骸骨, 傷害, 冷卻時間, 魂能, 物理."
 },
 		id: 81,
 		maxPoints: 1,
@@ -3117,7 +3281,8 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"plPL": "Upiorne Kościane Widmo",
 			"ptBR": "Espírito de Ossos Hediondo",
 			"ruRU": "Зловещий костяной дух",
-			"zhCN": "惊骇骨灵"
+			"zhCN": "惊骇骨灵",
+			"zhTW": "陰森骸骨之魂"
 },
 		descriptionLocalized: {
 			"deDE": "Knochengeist erhält eine zusätzliche kritische Trefferchance von +10%.\n\nTags: Makaber, Knochen, Schaden, Abklingzeit, Essenz, Physisch.",
@@ -3130,7 +3295,8 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"plPL": "Kościane Widmo ma dodatkowo +10% szans na trafienie krytyczne.\n\nTags: Makabra, Kości, Obrażenia, Odnowienie, Esencja, Fizyczne.",
 			"ptBR": "Espírito de Ossos tem +10% de chance de acerto crítico aumentada.\n\nTags: Macabra, Osso, Dano, Recarga, Essência, Física.",
 			"ruRU": "Вероятность критического удара \"Костяного духа\" повышается на +10%.\n\nTags: Макабр, Кости, Урон, Время восстановления, Эссенция, Физический урон.",
-			"zhCN": "骨灵有额外 +10% 几率造成暴击。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理."
+			"zhCN": "骨灵有额外 +10% 几率造成暴击。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理.",
+			"zhTW": "骸骨之魂有額外 10% 的爆擊機率。\n\nTags: 亡駭, 骸骨, 傷害, 冷卻時間, 魂能, 物理."
 },
 		id: 82,
 		maxPoints: 1,
@@ -3154,7 +3320,8 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"plPL": "Przerażające Kościane Widmo",
 			"ptBR": "Espírito de Ossos Pavoroso",
 			"ruRU": "Кошмарный костяной дух",
-			"zhCN": "可怖骨灵"
+			"zhCN": "可怖骨灵",
+			"zhTW": "怖懼骸骨之魂"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Knochengeist einen Gegner trifft, erzeugt Ihr im Verlauf der nächsten 4 Sek. 30 Essenz.\n\nTags: Makaber, Knochen, Schaden, Abklingzeit, Essenz, Physisch.",
@@ -3167,7 +3334,8 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"plPL": "Po trafieniu wroga Kościanym Widmem generujesz 30 pkt. esencji w ciągu kolejnych 4 sek.\n\nTags: Makabra, Kości, Obrażenia, Odnowienie, Esencja, Fizyczne.",
 			"ptBR": "Quando Espírito de Ossos atinge um inimigo, você gera 30 de essência ao longo dos próximos 4 segundos.\n\nTags: Macabra, Osso, Dano, Recarga, Essência, Física.",
 			"ruRU": "Когда \"Костяной дух\" поражает противника, вы накапливаете 30 ед. эссенции за 4 сек.\n\nTags: Макабр, Кости, Урон, Время восстановления, Эссенция, Физический урон.",
-			"zhCN": "骨灵命中一名敌人后, 你会在接下来的 4 秒内回复 30 点精魂。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理."
+			"zhCN": "骨灵命中一名敌人后, 你会在接下来的 4 秒内回复 30 点精魂。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理.",
+			"zhTW": "骸骨之魂擊中敵人後,你在接下來的 4 秒內產生 30 點魂能。\n\nTags: 亡駭, 骸骨, 傷害, 冷卻時間, 魂能, 物理."
 },
 		id: 83,
 		maxPoints: 1,
@@ -3190,7 +3358,8 @@ Tags: Critical Strikes, Essence, Bone.`,
 			"plPL": "Ząbkowane Ostrze",
 			"ptBR": "Serrilha",
 			"ruRU": "Зазубрины",
-			"zhCN": "齿状骨刺"
+			"zhCN": "齿状骨刺",
+			"zhTW": "鋒銳鋸齒"
 },
 		descriptionLocalized: {
 			"deDE": "Die kritische Trefferchance Eurer Knochenfertigkeiten erhöht sich je 10 Essenz, die Ihr beim Wirken besitzt, um +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%.\n\nTags: Kritische Treffer, Essenz, Knochen.",
@@ -3203,7 +3372,8 @@ Tags: Critical Strikes, Essence, Bone.`,
 			"plPL": "Twoje umiejętności Kości mają o +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% większą szansę na trafienie krytyczne za każde 10 pkt. esencji posiadane w momencie użycia umiejętności.\n\nTags: Trafienia Krytyczne, Esencja, Kości.",
 			"ptBR": "Suas habilidades de Osso têm +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% de chance de acerto crítico aumentada por cada 10 de essência que você tiver ao lançar.\n\nTags: Acertos Críticos, Essência, Osso.",
 			"ruRU": "Вероятность нанести критический урон умениями костей увеличивается на +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% за каждые 10 ед. эссенции, накопленные на момент применения умения.\n\nTags: Критические удары, Эссенция, Кости.",
-			"zhCN": "施放白骨技能时, 每有 10 点精魂都能使你的白骨技能暴击几率提高 +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%。\n\nTags: 暴击, 精魂, 白骨."
+			"zhCN": "施放白骨技能时, 每有 10 点精魂都能使你的白骨技能暴击几率提高 +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%。\n\nTags: 暴击, 精魂, 白骨.",
+			"zhTW": "施放骸骨技能時,你每擁有 10 點魂能,可使骸骨技能爆擊機率提高 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%。\n\nTags: 爆擊, 魂能, 骸骨."
 },
 		id: 84,
 		maxPoints: 3,
@@ -3226,7 +3396,8 @@ Tags: Essence, Cooldown, Bone.`,
 			"plPL": "Błyskawiczne Skostnienie",
 			"ptBR": "Ossificação Rápida",
 			"ruRU": "Быстрое окостенение",
-			"zhCN": "快速骨化"
+			"zhCN": "快速骨化",
+			"zhTW": "急速骨化"
 },
 		descriptionLocalized: {
 			"deDE": "Jede 100 Essenz, die Ihr verbraucht, reduziert die Abklingzeiten Eurer Knochenfertigkeiten um {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} Sek.\n\nTags: Essenz, Abklingzeit, Knochen.",
@@ -3239,7 +3410,8 @@ Tags: Essence, Cooldown, Bone.`,
 			"plPL": "Każde użyte przez ciebie 100 pkt. esencji skraca czas odnowienia twoich umiejętności Kości o {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} sek.\n\nTags: Esencja, Odnowienie, Kości.",
 			"ptBR": "Cada 100 de essência que você gasta reduz as recargas das suas habilidades de Osso em {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} segundos.\n\nTags: Essência, Recarga, Osso.",
 			"ruRU": "За каждые потраченные 100 ед. эссенции время восстановления умений костей сокращается на {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} сек.\n\nTags: Эссенция, Время восстановления, Кости.",
-			"zhCN": "每消耗 100 点精魂, 你的白骨技能的冷却时间缩短 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 精魂, 冷却时间, 白骨."
+			"zhCN": "每消耗 100 点精魂, 你的白骨技能的冷却时间缩短 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 精魂, 冷却时间, 白骨.",
+			"zhTW": "你每使用 100 點魂能,可使骸骨技能冷卻時間縮短 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 魂能, 冷卻時間, 骸骨."
 },
 		id: 85,
 		maxPoints: 3,
@@ -3262,7 +3434,8 @@ Tags: Vulnerable, Critical Strikes, Damage, Bone.`,
 			"plPL": "Strzępy",
 			"ptBR": "Extração",
 			"ruRU": "Искоренение",
-			"zhCN": "敲骨吸髓"
+			"zhCN": "敲骨吸髓",
+			"zhTW": "拆骨"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Knochenfertigkeiten fügen verwundbaren Gegnern x{6/12/18/24/30/36/42/48/54/60}% mehr kritischen Trefferschaden zu.\n\nTags: Verwundbar, Kritische Treffer, Schaden, Knochen.",
@@ -3275,7 +3448,8 @@ Tags: Vulnerable, Critical Strikes, Damage, Bone.`,
 			"plPL": "Twoje umiejętności Kości zadają odsłoniętym wrogom obrażenia od trafień krytycznych zwiększone o x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Odsłonięcie, Trafienia Krytyczne, Obrażenia, Kości.",
 			"ptBR": "Suas habilidades de Osso causam {6/12/18/24/30/36/42/48/54/60}% de dano de acerto crítico aumentado a inimigos vulneráveis.\n\nTags: Vulnerável, Acertos Críticos, Dano, Osso.",
 			"ruRU": "Ваши умения категории \"Кости\" наносят на x{6/12/18/24/30/36/42/48/54/60}% больше критического урона уязвимым противникам.\n\nTags: Уязвимость, Критические удары, Урон, Кости.",
-			"zhCN": "你的白骨技能对处于易伤状态的敌人造成的暴击伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 易伤, 暴击, 伤害, 白骨."
+			"zhCN": "你的白骨技能对处于易伤状态的敌人造成的暴击伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 易伤, 暴击, 伤害, 白骨.",
+			"zhTW": "你的骸骨技能對易傷敵人的爆擊傷害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 易傷, 爆擊, 傷害, 骸骨."
 },
 		id: 86,
 		maxPoints: 3,
@@ -3298,7 +3472,8 @@ Tags: Critical Strikes, Damage, Bone.`,
 			"plPL": "Złamanie z Przemieszczeniem",
 			"ptBR": "Fratura Exposta",
 			"ruRU": "Сложный перелом",
-			"zhCN": "有创骨折"
+			"zhCN": "有创骨折",
+			"zhTW": "碎裂骸骨"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr mit Knochenfertigkeiten 10 kritische Treffer erzielt habt, verursachen Eure Knochenfertigkeiten 5 Sek. lang x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden.\n\nTags: Kritische Treffer, Schaden, Knochen.",
@@ -3311,7 +3486,8 @@ Tags: Critical Strikes, Damage, Bone.`,
 			"plPL": "Po wykonaniu 10 trafień krytycznych umiejętnościami Kości te umiejętności zadają obrażenia zwiększone o x{5/10/15/20/25/30/35/40/45/50}% w ciągu kolejnych 5 sek.\n\nTags: Trafienia Krytyczne, Obrażenia, Kości.",
 			"ptBR": "Depois de 10 acertos críticos com habilidades de Osso, suas habilidades de Osso causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado por 5 segundos.\n\nTags: Acertos Críticos, Dano, Osso.",
 			"ruRU": "После того как вы наносите 10 критических удара:критических ударов умениями костей, наносимый урон от умений этой категории увеличивается на x{5/10/15/20/25/30/35/40/45/50}% на 5 сек.\n\nTags: Критические удары, Урон, Кости.",
-			"zhCN": "当你使用白骨技能造成 10 次暴击后, 你的白骨技能造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%, 持续 5 秒。\n\nTags: 暴击, 伤害, 白骨."
+			"zhCN": "当你使用白骨技能造成 10 次暴击后, 你的白骨技能造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%, 持续 5 秒。\n\nTags: 暴击, 伤害, 白骨.",
+			"zhTW": "以骸骨技能造成 10 次爆擊後,你的骸骨技能造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%,持續 5 秒。\n\nTags: 爆擊, 傷害, 骸骨."
 },
 		id: 87,
 		maxPoints: 3,
@@ -3334,7 +3510,8 @@ Tags: Fortify, Corpse, Minion.`,
 			"plPL": "Nekrotyczny Karapaks",
 			"ptBR": "Carapaça Necrótica",
 			"ruRU": "Некротический панцирь",
-			"zhCN": "死疽甲壳"
+			"zhCN": "死疽甲壳",
+			"zhTW": "死靈軀殼"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn eine Eurer Fertigkeiten oder Diener eine Leiche erzeugt, erhaltet Ihr Stählung in Höhe von {2/4/6/8/10/12/14/16/18/20}% Eures Basislebens.\n\nTags: Stählung, Leiche, Diener.",
@@ -3347,7 +3524,8 @@ Tags: Fortify, Corpse, Minion.`,
 			"plPL": "Kiedy tworzysz zwłoki z pomocą umiejętności lub sług, zyskujesz umocnienie równe {2/4/6/8/10/12/14/16/18/20}% twojego podstawowego zdrowia.\n\nTags: Umocnienie, Zwłoki, Sługa.",
 			"ptBR": "Quando um cadáver é formado a partir das suas habilidades ou dos seus lacaios, você se fortifica em {2/4/6/8/10/12/14/16/18/20}% da vida básica.\n\nTags: Fortificação, Cadáver, Lacaio.",
 			"ruRU": "Когда ваши умения или прислужники создают труп, вы получаете укрепление в объеме {2/4/6/8/10/12/14/16/18/20}% базового запаса здоровья.\n\nTags: Укрепление, Труп, Прислужник.",
-			"zhCN": "如果你的技能或仆从生成了一具亡骸, 强固你 {2/4/6/8/10/12/14/16/18/20}% 基础生命。\n\nTags: 强固, 亡骸, 爪牙."
+			"zhCN": "如果你的技能或仆从生成了一具亡骸, 强固你 {2/4/6/8/10/12/14/16/18/20}% 基础生命。\n\nTags: 强固, 亡骸, 爪牙.",
+			"zhTW": "技能或僕從產生屍體時,會賦予你相當於 {2/4/6/8/10/12/14/16/18/20}% 基礎生命值的強韌。\n\nTags: 強韌, 屍體, 僕從."
 },
 		id: 128,
 		maxPoints: 3,
@@ -3373,7 +3551,8 @@ Tags: Minion, Healing.`,
 			"plPL": "Więź Esencji",
 			"ptBR": "Vínculo Essencial",
 			"ruRU": "Связанные одной эссенцией",
-			"zhCN": "精魂纽带"
+			"zhCN": "精魂纽带",
+			"zhTW": "繫縛精華"
 },
 		descriptionLocalized: {
 			"deDE": "Alle 5 Sek. heilt die Heilung Eures Skelettpriesters Eure Skelette um zusätzlich {20/40/60/80/100/120/140/160/180/200}% ihres maximalen Lebens.\n\nTags: Diener, Heilung.",
@@ -3386,7 +3565,8 @@ Tags: Minion, Healing.`,
 			"plPL": "Co 5 sek. twoi Szkieletowi Kapłani leczą twoje Szkielety, przywracając im dodatkowo {20/40/60/80/100/120/140/160/180/200}% maksymalnego zdrowia.\n\nTags: Sługa, Leczenie.",
 			"ptBR": "A cada 5 segundos, seu Sacerdote Esqueleto curará seus esqueletos em mais {20/40/60/80/100/120/140/160/180/200}% de suas vidas máximas.\n\nTags: Lacaio, Cura.",
 			"ruRU": "Раз в 5 сек. ваши скелеты-жрецы восполняют вашим скелетам еще {20/40/60/80/100/120/140/160/180/200}% их максимального запаса здоровья.\n\nTags: Прислужник, Исцеление.",
-			"zhCN": "每隔 5 秒, 你的骷髅祭司的恢复效果会为你的骷髅额外恢复生命上限的 {20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 爪牙, 治疗."
+			"zhCN": "每隔 5 秒, 你的骷髅祭司的恢复效果会为你的骷髅额外恢复生命上限的 {20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 爪牙, 治疗.",
+			"zhTW": "骷髏祭司的治療每 5 秒會為你的骷髏額外恢復其生命值上限的 {20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 僕從, 治療."
 },
 		id: 89,
 		maxPoints: 3,
@@ -3409,7 +3589,8 @@ Tags: Life, Damage Reduction, Minion.`,
 			"plPL": "Śmiertelna Obrona",
 			"ptBR": "Defesa da Morte",
 			"ruRU": "Защита смерти",
-			"zhCN": "亡者之御"
+			"zhCN": "亡者之御",
+			"zhTW": "死亡防禦"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Diener können durch eine einzige Schadensinstanz nicht mehr als {75/60/45/30/15/0/-15/-30/-45/-60}% ihres maximalen Lebens verlieren.\n\nTags: Leben, Schadensreduktion, Diener.",
@@ -3422,7 +3603,8 @@ Tags: Life, Damage Reduction, Minion.`,
 			"plPL": "Twoje sługi nie mogą stracić więcej niż {75/60/45/30/15/0/-15/-30/-45/-60}% swojego maksymalnego zdrowia od pojedynczego źródła obrażeń.\n\nTags: Zdrowie, Redukcja Obrażeń, Sługa.",
 			"ptBR": "Seus lacaios não podem perder mais do que {75/60/45/30/15/0/-15/-30/-45/-60}% da vida máxima a partir de uma única ocorrência de dano.\n\nTags: Vida, Redução de Dano, Lacaio.",
 			"ruRU": "Ваши прислужники не могут потерять больше {75/60/45/30/15/0/-15/-30/-45/-60}% максимального запаса здоровья от одного удара.\n\nTags: Здоровье, Уменьшение урона, Прислужник.",
-			"zhCN": "你的仆从不会从单次攻命中受到超过生命上限 {75/60/45/30/15/0/-15/-30/-45/-60}% 的伤害。\n\nTags: 生命, 伤害减免, 爪牙."
+			"zhCN": "你的仆从不会从单次攻命中受到超过生命上限 {75/60/45/30/15/0/-15/-30/-45/-60}% 的伤害。\n\nTags: 生命, 伤害减免, 爪牙.",
+			"zhTW": "你的僕從受到單次攻擊時,損失的生命值不會超過其生命值上限的 {75/60/45/30/15/0/-15/-30/-45/-60}%。\n\nTags: 生命值, 傷害減免, 僕從."
 },
 		id: 90,
 		maxPoints: 3,
@@ -3445,7 +3627,8 @@ Tags: Healthy, Minion, Attack Speed.`,
 			"plPL": "Inspirujące Przywództwo",
 			"ptBR": "Liderança Inspiradora",
 			"ruRU": "Пример для подражания",
-			"zhCN": "鼓舞领袖"
+			"zhCN": "鼓舞领袖",
+			"zhTW": "激勵統率"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Ihr mindestens 4 Sek. gesund gewesen seid, erhaltet Ihr und Eure Diener +{4/8/12/16/20/24/28/32/36/40}% Angriffsgeschwindigkeit.\n\nTags: Gesund, Diener, Angriffsgeschwindigkeit.",
@@ -3458,7 +3641,8 @@ Tags: Healthy, Minion, Attack Speed.`,
 			"plPL": "Jeśli jesteś w pełni sił przez co najmniej 4 sek., ty i twoje sługi zyskujecie premię +{4/8/12/16/20/24/28/32/36/40}% do szybkości ataku.\n\nTags: Pełnia Sił, Sługa, Szybkość Ataku.",
 			"ptBR": "Depois de ficar saudável por pelo menos 4 segundos, você e seus lacaios recebem +{4/8/12/16/20/24/28/32/36/40}% de velocidade de ataque.\n\nTags: Saudável, Lacaio, Velocidade de Ataque.",
 			"ruRU": "Если вы поддерживаете высокий уровень здоровья в течение как минимум 4 сек., скорость атаки повышается на +{4/8/12/16/20/24/28/32/36/40}% для вас и ваших прислужников.\n\nTags: Высокое здоровье, Прислужник, Скорость атаки.",
-			"zhCN": "处于健康状态至少 4 秒后, 你和你仆从的攻击速度提高 +{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 健康, 爪牙, 攻击速度."
+			"zhCN": "处于健康状态至少 4 秒后, 你和你仆从的攻击速度提高 +{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 健康, 爪牙, 攻击速度.",
+			"zhTW": "在你保持健康狀態至少 4 秒後,你和僕從的攻擊速度提高 +{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 健康, 僕從, 攻擊速度."
 },
 		id: 129,
 		maxPoints: 3,
@@ -3481,7 +3665,8 @@ Tags: Damage, Minion.`,
 			"plPL": "Piekielny Dowódca",
 			"ptBR": "Comandante Tenaz",
 			"ruRU": "Одержимый командир",
-			"zhCN": "冷面指挥官"
+			"zhCN": "冷面指挥官",
+			"zhTW": "堅決指揮者"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Diener verursachen x{10/20/30/40/50/60/70/80/90/100}% mehr Schaden, solange Ihr in der Nähe seid.\n\nTags: Schaden, Diener.",
@@ -3494,7 +3679,8 @@ Tags: Damage, Minion.`,
 			"plPL": "Twoje sługi zadają o x{10/20/30/40/50/60/70/80/90/100}% więcej obrażeń, gdy znajdujesz się w ich pobliżu.\n\nTags: Obrażenia, Sługa.",
 			"ptBR": "Seus lacaios causam {10/20/30/40/50/60/70/80/90/100}% de dano aumentado enquanto você está perto deles.\n\nTags: Dano, Lacaio.",
 			"ruRU": "Ваши прислужники наносят на x{10/20/30/40/50/60/70/80/90/100}% больше урона, пока вы рядом с ними.\n\nTags: Урон, Прислужник.",
-			"zhCN": "你的仆从在你身边时造成的伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 伤害, 爪牙."
+			"zhCN": "你的仆从在你身边时造成的伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 伤害, 爪牙.",
+			"zhTW": "當你在僕從附近時,其造成的傷害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 傷害, 僕從."
 },
 		id: 91,
 		maxPoints: 3,
@@ -3519,7 +3705,8 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 			"plPL": "Armia Umarłych",
 			"ptBR": "Exército dos Mortos",
 			"ruRU": "Армия мертвецов",
-			"zhCN": "亡者大军"
+			"zhCN": "亡者大军",
+			"zhTW": "死亡軍團"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 63.796%\nRuft die tief vergrabenen Toten herbei. Die nächsten 7 Sek. erscheinen unberechenbare Skelette, explodieren in der Nähe von Gegnern und verursachen 30% Schaden.\n\nTags: Ultimativ, Schaden, Abklingzeit, Physisch.",
@@ -3532,7 +3719,8 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 63.796%\nPrzyzywasz głęboko pogrzebane zwłoki. Przez następne 7 sek. pojawiają się rozszalałe szkielety, które wybuchają w pobliżu wrogów, zadając im 30% pkt. obrażeń.\n\nTags: Specjalne, Obrażenia, Odnowienie, Fizyczne.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 63.796%\nChama os mortos enterrados nas profundezas. Esqueletos voláteis emergem ao longo dos próximos 7 segundos e explodem quando inimigos estão ao redor, causando 30% de dano.\n\nTags: Suprema, Dano, Recarga, Física.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 63.796%.\nВы призываете мертвецов, погребенных глубоко под землей. Через 7 сек. из-под земли появляются нестабильные скелеты, которые взрываются рядом с противниками, нанося 30% ед. урона.\n\nTags: Мощное умение, Урон, Время восстановления, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 63.796%\n召唤深埋地下的亡灵。易爆骷髅会在接下来的 7 秒内出现并爆炸, 对附近的敌人造成 30% 点伤害。\n\nTags: 终极技能, 伤害, 冷却时间, 物理."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 63.796%\n召唤深埋地下的亡灵。易爆骷髅会在接下来的 7 秒内出现并爆炸, 对附近的敌人造成 30% 点伤害。\n\nTags: 终极技能, 伤害, 冷却时间, 物理.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:63.796%\n召喚深埋地底的死者。在接下來的 7 秒內出現易爆骷髏,在附近有敵人時爆炸,造成 30% 點傷害。\n\nTags: 絕招, 傷害, 冷卻時間, 物理."
 },
 		id: 93,
 		maxPoints: 1,
@@ -3557,7 +3745,8 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 			"plPL": "Większa Armia Umarłych",
 			"ptBR": "Exército dos Mortos Primordial",
 			"ruRU": "Первородная армия мертвецов",
-			"zhCN": "至尊亡者大军"
+			"zhCN": "至尊亡者大军",
+			"zhTW": "強烈死亡軍團"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn die Unberechenbaren Skelette von Armee der Toten explodieren, besteht eine Chance von 15%, dass sie ein Leiche hinterlassen.\n\nTags: Ultimativ, Schaden, Abklingzeit, Physisch.",
@@ -3570,7 +3759,8 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 			"plPL": "Kiedy rozszalałe szkielety z Armii Umarłych wybuchają, mają 15% szans na pozostawienie po sobie zwłok.\n\nTags: Specjalne, Obrażenia, Odnowienie, Fizyczne.",
 			"ptBR": "Quando os esqueletos voláteis de Exército dos Mortos explodem, eles têm 15% de chance de deixar para trás um cadáver.\n\nTags: Suprema, Dano, Recarga, Física.",
 			"ruRU": "Взрывающиеся скелеты, призванные \"Армией мертвецов\", с вероятностью 15% оставляют после взрыва труп.\n\nTags: Мощное умение, Урон, Время восстановления, Физический урон.",
-			"zhCN": "亡者大军的易爆骷髅爆炸时, 有 15% 几率留下一具亡骸。\n\nTags: 终极技能, 伤害, 冷却时间, 物理."
+			"zhCN": "亡者大军的易爆骷髅爆炸时, 有 15% 几率留下一具亡骸。\n\nTags: 终极技能, 伤害, 冷却时间, 物理.",
+			"zhTW": "死亡軍團的易爆骷髏爆炸時,有 15% 機率留下一具屍體。\n\nTags: 絕招, 傷害, 冷卻時間, 物理."
 },
 		id: 94,
 		maxPoints: 1,
@@ -3594,7 +3784,8 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 			"plPL": "Największa Armia Umarłych",
 			"ptBR": "Exército dos Mortos Supremo",
 			"ruRU": "Неотвратимая армия мертвецов",
-			"zhCN": "至极亡者大军"
+			"zhCN": "至极亡者大军",
+			"zhTW": "終極死亡軍團"
 },
 		descriptionLocalized: {
 			"deDE": "Armee der Toten erweckt auch Eure Skelettkrieger und Skelettmagier.\n\nTags: Ultimativ, Schaden, Abklingzeit, Physisch.",
@@ -3607,7 +3798,8 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 			"plPL": "Armia Umarłych powoduje również wskrzeszenie Szkieletowych Wojowników oraz Szkieletowych Magów.\n\nTags: Specjalne, Obrażenia, Odnowienie, Fizyczne.",
 			"ptBR": "Exército dos Mortos também revive seus Guerreiros Esqueletos e Magos Esqueletos.\n\nTags: Suprema, Dano, Recarga, Física.",
 			"ruRU": "\"Армия мертвецов\" также воскрешает ваших скелетов-воинов и скелетов-магов.\n\nTags: Мощное умение, Урон, Время восстановления, Физический урон.",
-			"zhCN": "亡者大军也会复活你的骷髅战士和骷髅法师。\n\nTags: 终极技能, 伤害, 冷却时间, 物理."
+			"zhCN": "亡者大军也会复活你的骷髅战士和骷髅法师。\n\nTags: 终极技能, 伤害, 冷却时间, 物理.",
+			"zhTW": "死亡軍團也會復活你的骷髏戰士和骷髏法師。\n\nTags: 絕招, 傷害, 冷卻時間, 物理."
 },
 		id: 95,
 		maxPoints: 1,
@@ -3632,7 +3824,8 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 			"plPL": "Fala Krwi",
 			"ptBR": "Onda de Sangue",
 			"ruRU": "Кровавая волна",
-			"zhCN": "血潮"
+			"zhCN": "血潮",
+			"zhTW": "血浪"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 20%\nBeschwört eine Flutwelle aus Blut, die 90% Schaden verursacht und Gegner zurückstößt.\n\nTags: Ultimativ, Blut, Schaden, Abklingzeit, Kontrollverlust, Physisch.",
@@ -3645,7 +3838,8 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 20%\nTworzysz uderzeniową falę krwi, która zadaje 90% pkt. obrażeń i odrzuca wrogów.\n\nTags: Specjalne, Krew, Obrażenia, Odnowienie, Ograniczanie Kontroli, Fizyczne.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 20%\nConjura uma onda de sangue que causa 90% de dano e repele inimigos.\n\nTags: Suprema, Sangue, Dano, Recarga, Controle de Grupo, Física.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 20%.\nСоздает волну крови, наносящую 90% ед. урона и отбрасывающую противников.\n\nTags: Мощное умение, Кровь, Урон, Время восстановления, Контроль, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n召唤一道鲜血浪潮, 造成 90% 点伤害并将敌人击退。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n召唤一道鲜血浪潮, 造成 90% 点伤害并将敌人击退。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:20%\n呼喚一波血浪,造成 90% 點傷害並擊退敵人。\n\nTags: 絕招, 鮮血, 傷害, 冷卻時間, 控場, 物理."
 },
 		id: 96,
 		maxPoints: 1,
@@ -3670,7 +3864,8 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 			"plPL": "Większa Fala Krwi",
 			"ptBR": "Onda de Sangue Primordial",
 			"ruRU": "Первородная кровавая волна",
-			"zhCN": "至尊血潮"
+			"zhCN": "至尊血潮",
+			"zhTW": "強烈血浪"
 },
 		descriptionLocalized: {
 			"deDE": "Blutwelle verlangsamt Gegner 4 Sek. lang um 50%.\n\nTags: Ultimativ, Blut, Schaden, Abklingzeit, Kontrollverlust, Physisch.",
@@ -3683,7 +3878,8 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 			"plPL": "Fala Krwi spowalnia wrogów o 50% na 4 sek.\n\nTags: Specjalne, Krew, Obrażenia, Odnowienie, Ograniczanie Kontroli, Fizyczne.",
 			"ptBR": "Onda de Sangue desacelera inimigos em 50% por 4 segundos.\n\nTags: Suprema, Sangue, Dano, Recarga, Controle de Grupo, Física.",
 			"ruRU": "\"Кровавая волна\" замедляет противников на 50% на 4 сек.\n\nTags: Мощное умение, Кровь, Урон, Время восстановления, Контроль, Физический урон.",
-			"zhCN": "血潮使敌人减速 50%, 持续 4 秒。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理."
+			"zhCN": "血潮使敌人减速 50%, 持续 4 秒。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理.",
+			"zhTW": "血浪使敵人緩速 50%,持續 4 秒。\n\nTags: 絕招, 鮮血, 傷害, 冷卻時間, 控場, 物理."
 },
 		id: 97,
 		maxPoints: 1,
@@ -3707,7 +3903,8 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 			"plPL": "Największa Fala Krwi",
 			"ptBR": "Onda de Sangue Suprema",
 			"ruRU": "Неотвратимая кровавая волна",
-			"zhCN": "至极血潮"
+			"zhCN": "至极血潮",
+			"zhTW": "終極血浪"
 },
 		descriptionLocalized: {
 			"deDE": "Blutwelle hinterlässt entlang des Weges 3 Blutkugeln.\n\nTags: Ultimativ, Blut, Schaden, Abklingzeit, Kontrollverlust, Physisch.",
@@ -3720,7 +3917,8 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 			"plPL": "Fala Krwi pozostawia na swojej drodze 3 krwawe kule.\n\nTags: Specjalne, Krew, Obrażenia, Odnowienie, Ograniczanie Kontroli, Fizyczne.",
 			"ptBR": "Onda de Sangue deixa para trás 3 orbes de sangue durante o trajeto.\n\nTags: Suprema, Sangue, Dano, Recarga, Controle de Grupo, Física.",
 			"ruRU": "\"Кровавая волна\" оставляет 3 сферы крови на своем пути.\n\nTags: Мощное умение, Кровь, Урон, Время восстановления, Контроль, Физический урон.",
-			"zhCN": "血潮会在其路径上留下 3 颗生命球。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理."
+			"zhCN": "血潮会在其路径上留下 3 颗生命球。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理.",
+			"zhTW": "血浪會在行經路徑上留下 3 個生命之球。\n\nTags: 絕招, 鮮血, 傷害, 冷卻時間, 控場, 物理."
 },
 		id: 98,
 		maxPoints: 1,
@@ -3743,7 +3941,8 @@ Tags: Damage Reduction, Minion.`,
 			"plPL": "Samotna Warta",
 			"ptBR": "Independência",
 			"ruRU": "Одиночка",
-			"zhCN": "独行者"
+			"zhCN": "独行者",
+			"zhTW": "孤軍奮戰"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht die Schadensreduktion um {6/12/18/24/30/36/42/48/54/60}%. Jeder aktive Diener reduziert diesen Bonus um 2%.\n\nTags: Schadensreduktion, Diener.",
@@ -3756,7 +3955,8 @@ Tags: Damage Reduction, Minion.`,
 			"plPL": "Redukcja obrażeń jest zwiększona o {6/12/18/24/30/36/42/48/54/60}%, ale wartość ta jest zmniejszona o 2% za każdego aktywnego sługę.\n\nTags: Redukcja Obrażeń, Sługa.",
 			"ptBR": "Aumenta a redução de dano em {6/12/18/24/30/36/42/48/54/60}%, reduzida em 2% por cada lacaio ativo.\n\nTags: Redução de Dano, Lacaio.",
 			"ruRU": "Получаемый урон уменьшается на {6/12/18/24/30/36/42/48/54/60}%. Эффективность бонуса снижается на 2% за каждого активного прислужника.\n\nTags: Уменьшение урона, Прислужник.",
-			"zhCN": "伤害减免提高 {6/12/18/24/30/36/42/48/54/60}%, 每有一个激活的仆从降低 2%。\n\nTags: 伤害减免, 爪牙."
+			"zhCN": "伤害减免提高 {6/12/18/24/30/36/42/48/54/60}%, 每有一个激活的仆从降低 2%。\n\nTags: 伤害减免, 爪牙.",
+			"zhTW": "傷害減免效果提高 {6/12/18/24/30/36/42/48/54/60}%,每擁有一名僕從減少 2%。\n\nTags: 傷害減免, 僕從."
 },
 		id: 99,
 		maxPoints: 3,
@@ -3779,7 +3979,8 @@ Tags: Minion.`,
 			"plPL": "Memento Mori",
 			"ptBR": "Memento Mori",
 			"ruRU": "Помни о смерти",
-			"zhCN": "死亡警告"
+			"zhCN": "死亡警告",
+			"zhTW": "死亡警告"
 },
 		descriptionLocalized: {
 			"deDE": "Das Opfern von sowohl Skelettkriegern als auch Skelettmagiern erhöht ihre Opferboni um {20/40/60/80/100/120/140/160/180/200}%.\n\nTags: Diener.",
@@ -3792,7 +3993,8 @@ Tags: Minion.`,
 			"plPL": "Złożenie w ofierze zarówno szkieletowych wojowników oraz szkieletowych magów zwiększa ich premię za Ofiarę o {20/40/60/80/100/120/140/160/180/200}%.\n\nTags: Sługa.",
 			"ptBR": "Sacrificar tanto Guerreiros Esqueletos quanto Magos Esqueletos aumenta seus bônus de sacrifício em {20/40/60/80/100/120/140/160/180/200}%.\n\nTags: Lacaio.",
 			"ruRU": "Если вы приносите в жертву и скелетов-воинов, и скелетов-магов, эффективность соответствующих бонусов повышается на {20/40/60/80/100/120/140/160/180/200}%.\n\nTags: Прислужник.",
-			"zhCN": "同时牺牲骷髅战士和骷髅法师会使其牺牲加成提高 {20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 爪牙."
+			"zhCN": "同时牺牲骷髅战士和骷髅法师会使其牺牲加成提高 {20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 爪牙.",
+			"zhTW": "如果同時獻祭骷髏戰士和骷髏法師,其獻祭加成效果提高 {20/40/60/80/100/120/140/160/180/200}%。\n\nTags: 僕從."
 },
 		id: 100,
 		maxPoints: 3,
@@ -3817,7 +4019,8 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 			"plPL": "Nawałnica Kości",
 			"ptBR": "Tempestade de Ossos",
 			"ruRU": "Буря костей",
-			"zhCN": "白骨风暴"
+			"zhCN": "白骨风暴",
+			"zhTW": "骸骨風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 39.608%\nEin wirbelnder Sturm aus Knochen umgibt Euch und Euren Golem und fügt Gegnern in der Nähe im Verlauf von 10 Sek. 180% Schaden zu.\n\nTags: Ultimativ, Knochen, Physisch, Abklingzeit, Schaden, Diener.",
@@ -3830,7 +4033,8 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 39.608%\nWirująca nawałnica kości otacza ciebie i twojego golema, zadając 180% pkt. obrażeń wrogom wokół w ciągu 10 sek.\n\nTags: Specjalne, Kości, Fizyczne, Odnowienie, Obrażenia, Sługa.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 39.608%\nUma tempestade rodopiante de ossos cerca você e seu golem, causando 180% de dano a inimigos ao redor ao longo de 10 segundos.\n\nTags: Suprema, Osso, Física, Recarga, Dano, Lacaio.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 39.608%.\nВокруг вас и вашего голема образуется буря костей, наносящая противникам 180% ед. урона за 10 сек.\n\nTags: Мощное умение, Кости, Физический урон, Время восстановления, Урон, Прислужник.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 39.608%\n用一阵白骨风暴环绕你和你的傀儡, 在 10 秒内对周围敌人造成 180% 点伤害。\n\nTags: 终极技能, 白骨, 物理, 冷却时间, 伤害, 爪牙."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 39.608%\n用一阵白骨风暴环绕你和你的傀儡, 在 10 秒内对周围敌人造成 180% 点伤害。\n\nTags: 终极技能, 白骨, 物理, 冷却时间, 伤害, 爪牙.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:39.608%\n一陣飛旋的骸骨圍繞著你和你的魔像,在 10 秒內對附近敵人造成 180% 點傷害。\n\nTags: 絕招, 骸骨, 物理, 冷卻時間, 傷害, 僕從."
 },
 		id: 101,
 		maxPoints: 1,
@@ -3855,7 +4059,8 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 			"plPL": "Większa Nawałnica Kości",
 			"ptBR": "Tempestade de Ossos Primordial",
 			"ruRU": "Первородная буря костей",
-			"zhCN": "至尊白骨风暴"
+			"zhCN": "至尊白骨风暴",
+			"zhTW": "強烈骸骨風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Schadensreduktion ist um 15% erhöht, solange Knochensturm aktiv ist.\n\nTags: Ultimativ, Knochen, Physisch, Abklingzeit, Schaden, Diener.",
@@ -3868,7 +4073,8 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 			"plPL": "Twoja redukcja obrażeń jest zwiększona o 15%, kiedy aktywna jest Nawałnica Kości.\n\nTags: Specjalne, Kości, Fizyczne, Odnowienie, Obrażenia, Sługa.",
 			"ptBR": "Sua redução de dano é aumentada em 15% enquanto Tempestade de Ossos está ativa.\n\nTags: Suprema, Osso, Física, Recarga, Dano, Lacaio.",
 			"ruRU": "Пока действует \"Буря костей\", вы получаете на 15% меньше урона.\n\nTags: Мощное умение, Кости, Физический урон, Время восстановления, Урон, Прислужник.",
-			"zhCN": "白骨风暴激活时, 你的伤害减免效果提高 15%。\n\nTags: 终极技能, 白骨, 物理, 冷却时间, 伤害, 爪牙."
+			"zhCN": "白骨风暴激活时, 你的伤害减免效果提高 15%。\n\nTags: 终极技能, 白骨, 物理, 冷却时间, 伤害, 爪牙.",
+			"zhTW": "在骸骨風暴啟動時,你的傷害減免效果提高 15%。\n\nTags: 絕招, 骸骨, 物理, 冷卻時間, 傷害, 僕從."
 },
 		id: 102,
 		maxPoints: 1,
@@ -3892,7 +4098,8 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 			"plPL": "Największa Nawałnica Kości",
 			"ptBR": "Tempestade de Ossos Suprema",
 			"ruRU": "Неотвратимая буря костей",
-			"zhCN": "至极白骨风暴"
+			"zhCN": "至极白骨风暴",
+			"zhTW": "終極骸骨風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Eure kritische Trefferchance ist um +20% erhöht, solange Knochensturm aktiv ist.\n\nTags: Ultimativ, Knochen, Physisch, Abklingzeit, Schaden, Diener.",
@@ -3905,7 +4112,8 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 			"plPL": "Twoja szansa na trafienie krytyczne zostaje zwiększona o +20%, kiedy aktywna jest Nawałnica Kości.\n\nTags: Specjalne, Kości, Fizyczne, Odnowienie, Obrażenia, Sługa.",
 			"ptBR": "Sua chance de acerto crítico é aumentada em +20% enquanto Tempestade de Ossos está ativa.\n\nTags: Suprema, Osso, Física, Recarga, Dano, Lacaio.",
 			"ruRU": "Пока действует \"Буря костей\", ваша вероятность критического удара повышается на 20%.\n\nTags: Мощное умение, Кости, Физический урон, Время восстановления, Урон, Прислужник.",
-			"zhCN": "白骨风暴激活时, 你的暴击几率提高 +20%。\n\nTags: 终极技能, 白骨, 物理, 冷却时间, 伤害, 爪牙."
+			"zhCN": "白骨风暴激活时, 你的暴击几率提高 +20%。\n\nTags: 终极技能, 白骨, 物理, 冷却时间, 伤害, 爪牙.",
+			"zhTW": "骸骨風暴啟動時,你的爆擊機率提高 +20%。\n\nTags: 絕招, 骸骨, 物理, 冷卻時間, 傷害, 僕從."
 },
 		id: 103,
 		maxPoints: 1,
@@ -3928,7 +4136,8 @@ Tags: Life, Minion, Damage.`,
 			"plPL": "Mistrzostwo Golemów",
 			"ptBR": "Maestria do Golem",
 			"ruRU": "Мастер големов",
-			"zhCN": "傀儡精通"
+			"zhCN": "傀儡精通",
+			"zhTW": "魔像精通"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht Schaden und Leben Eures Golems um x{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Leben, Diener, Schaden.",
@@ -3941,7 +4150,8 @@ Tags: Life, Minion, Damage.`,
 			"plPL": "Obrażenia zadawane przez twojego golema oraz jego zdrowie są zwiększone o x{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Zdrowie, Sługa, Obrażenia.",
 			"ptBR": "Aumenta o dano e a vida do seu golem em {25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Vida, Lacaio, Dano.",
 			"ruRU": "Наносимый урон и запас здоровья голема увеличиваются на x{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Здоровье, Прислужник, Урон.",
-			"zhCN": "傀儡的伤害和生命提高 x{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 生命, 爪牙, 伤害."
+			"zhCN": "傀儡的伤害和生命提高 x{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 生命, 爪牙, 伤害.",
+			"zhTW": "使魔像的傷害和生命值提高 x{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 生命值, 僕從, 傷害."
 },
 		id: 104,
 		maxPoints: 3,
@@ -3967,7 +4177,8 @@ Tags: Damage, Essence, Bone.`,
 			"plPL": "Skostniała Esencja",
 			"ptBR": "Essência Calcificada",
 			"ruRU": "Окостеневшая эссенция",
-			"zhCN": "骨化精魂"
+			"zhCN": "骨化精魂",
+			"zhTW": "骨質精華"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Knochenfertigkeiten verursachen x1% mehr Schaden für jeden Essenzpunkt über 50, den Ihr beim Wirken besitzt.\n\nTags: Schaden, Essenz, Knochen.",
@@ -3980,7 +4191,8 @@ Tags: Damage, Essence, Bone.`,
 			"plPL": "Twoje umiejętności Kości zadają obrażenia zwiększone o x1% za każdy punkt esencji powyżej 50 posiadany w momencie użycia umiejętności.\n\nTags: Obrażenia, Esencja, Kości.",
 			"ptBR": "Suas habilidades de Osso causam 1% de dano aumentado por cada ponto de essência que você tiver acima de 50 ao lançar.\n\nTags: Dano, Essência, Osso.",
 			"ruRU": "Ваши умения костей наносят на x1% больше урона за каждую единицу эссенции, превышающую объем в 50 ед. на момент применения умения.\n\nTags: Урон, Эссенция, Кости.",
-			"zhCN": "精魂高于 50 点时, 每多出1点精魂, 就会使你施放的白骨技能造成的伤害提高 x1%。\n\nTags: 伤害, 精魂, 白骨."
+			"zhCN": "精魂高于 50 点时, 每多出1点精魂, 就会使你施放的白骨技能造成的伤害提高 x1%。\n\nTags: 伤害, 精魂, 白骨.",
+			"zhTW": "如果你施放技能時擁有的魂能多於 50 點,每多出一點可使骸骨技能造成的傷害提高 x1%。\n\nTags: 傷害, 魂能, 骸骨."
 },
 		id: 105,
 		maxPoints: 1,
@@ -4005,7 +4217,8 @@ Tags: Damage, Shadow, Minion.`,
 			"plPL": "Skaza Cienia",
 			"ptBR": "Praga das Sombras",
 			"ruRU": "Чума тьмы",
-			"zhCN": "暗影凋零"
+			"zhCN": "暗影凋零",
+			"zhTW": "暗影荒疫"
 },
 		descriptionLocalized: {
 			"deDE": "Schattenschaden infiziert Gegner 2 Sek. lang mit Schattenseuche. Ihr und Eure Diener fügen Gegnern mit Schattenseuche x10% Bonusschaden zu.\n\nJedes 10. Mal, wenn ein von Schattenseuche betroffener Gegner durch Euch oder Eure Diener Schattenschaden erleidet, erleidet er zusätzlich 20% Schattenschaden.\n\nTags: Schaden, Schatten, Diener.",
@@ -4018,7 +4231,8 @@ Tags: Damage, Shadow, Minion.`,
 			"plPL": "Obrażenia Cienia zarażają wrogów Skazą Cienia na 2 sek. Ty i twoje sługi zadajecie dodatkowe x10% obrażeń wrogom ze Skazą Cienia.\n\nKiedy wróg jest objęty działaniem Skazy Cienia, co 10 otrzymane przezeń obrażenia od Cienia od ciebie lub twoich sług powoduje u niego eksplozję zadającą 20% pkt. obrażeń od Cienia.\n\nTags: Obrażenia, Cień, Sługa.",
 			"ptBR": "Dano de sombra infecta inimigos com Praga das Sombras por 2 segundos. Você e seus lacaios causam 10% de bônus de dano a inimigos com Praga das Sombras.\n\nA cada 10 vezes que um inimigo recebe dano de sombra de você ou dos seus lacaios enquanto afetado por Praga das Sombras, ele recebe 20% de dano de sombra adicional.\n\nTags: Dano, Sombra, Lacaio.",
 			"ruRU": "Урон от темной магии заражает противников \"Чумой тьмы\" на 2 сек. Вы и ваши прислужники наносите на x10% больше урона противникам, зараженным \"Чумой тьмы\".\n\nПротивники с эффектом \"Чума тьмы\" получают 20% ед. дополнительного урона от темной магии после того, как вы или ваши прислужники наносите им урон от темной магии 10 раз.\n\nTags: Урон, Темная магия, Прислужник.",
-			"zhCN": "暗影伤害使敌人感染暗影凋零, 持续 2 秒。你和你的仆从对受暗影凋零影响的敌人造成的伤害提高 x10%。\n\n受到暗影凋零影响的敌人每第 10 次受到来自你或你仆从的暗影伤害, 就会额外受到 20% 点暗影伤害。\n\nTags: 伤害, 暗影, 爪牙."
+			"zhCN": "暗影伤害使敌人感染暗影凋零, 持续 2 秒。你和你的仆从对受暗影凋零影响的敌人造成的伤害提高 x10%。\n\n受到暗影凋零影响的敌人每第 10 次受到来自你或你仆从的暗影伤害, 就会额外受到 20% 点暗影伤害。\n\nTags: 伤害, 暗影, 爪牙.",
+			"zhTW": "暗影傷害會使敵人感染暗影荒疫,持續 2 秒。你和你的僕從對感染暗影荒疫的敵人造成 x10% 額外傷害。\n\n你和你的僕從每第 10 次對感染暗影荒疫敵人造成暗影傷害時,該敵人會額外受到 20% 點暗影傷害。\n\nTags: 傷害, 暗影, 僕從."
 },
 		id: 106,
 		maxPoints: 1,
@@ -4041,7 +4255,8 @@ Tags: Healthy, Overpower, Life, Blood.`,
 			"plPL": "Wigor Rathmy",
 			"ptBR": "Vigor de Rathma",
 			"ruRU": "Бодрость Ратмы",
-			"zhCN": "拉斯玛的活力"
+			"zhCN": "拉斯玛的活力",
+			"zhTW": "拉斯瑪的活力"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht Euer maximales Leben um x10%. Wenn Ihr 15 Sek. lang gesund gewesen seid, überwältigt Eure nächste Blutfertigkeit.\n\nTags: Gesund, Überwältigen, Leben, Blut.",
@@ -4054,7 +4269,8 @@ Tags: Healthy, Overpower, Life, Blood.`,
 			"plPL": "Twoje maksymalne zdrowie jest zwiększone o x10%. Jeśli jesteś w pełni sił przez 15 sek., twoja następna umiejętność Krwi przytłacza.\n\nTags: Pełnia Sił, Przytłoczenie, Zdrowie, Krew.",
 			"ptBR": "Aumenta sua vida máxima em 10%. Depois de ficar saudável por 15 segundos, sua próxima habilidade de Sangue desfere um Golpe Brutal.\n\nTags: Saudável, Golpe Brutal, Vida, Sangue.",
 			"ruRU": "Ваш максимальный запас здоровья увеличивается на 10%. Если высокий уровень здоровья сохраняется в течение 15 сек., следующее умение крови наносит подавляющий урон.\n\nTags: Высокое здоровье, Подавление, Здоровье, Кровь.",
-			"zhCN": "你的生命上限提高 x10%。保持健康状态 15 秒后, 你的下一个鲜血技能造成压制。\n\nTags: 健康, 压制, 生命, 鲜血."
+			"zhCN": "你的生命上限提高 x10%。保持健康状态 15 秒后, 你的下一个鲜血技能造成压制。\n\nTags: 健康, 压制, 生命, 鲜血.",
+			"zhTW": "生命值上限提高 x10%。在健康狀態 15 秒後,你的下一個鮮血技能會壓制。\n\nTags: 健康, 壓制, 生命值, 鮮血."
 },
 		id: 107,
 		maxPoints: 1,
@@ -4077,7 +4293,8 @@ Tags: Attack Speed, Minion.`,
 			"plPL": "Edykt Kalana",
 			"ptBR": "Decreto de Kalan",
 			"ruRU": "Эдикт Калана",
-			"zhCN": "卡兰的法令"
+			"zhCN": "卡兰的法令",
+			"zhTW": "卡蘭的敕令"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr in den letzten 3 Sek. keinen Schaden erlitten habt, erhalten Eure Diener +15% Angriffsgeschwindigkeit. Wenn Ihr über mindestens 7 Diener verfügt, verdoppelt sich dieser Bonus.\n\nTags: Angriffsgeschwindigkeit, Diener.",
@@ -4090,7 +4307,8 @@ Tags: Attack Speed, Minion.`,
 			"plPL": "Jeśli nie zadano ci obrażeń w ciągu ostatnich 3 sek., twoje sługi zyskują +15% do szybkości ataku. Jeśli liczba twoich sług wynosi co najmniej 7, premia zostaje podwojona.\n\nTags: Szybkość Ataku, Sługa.",
 			"ptBR": "Depois de você não receber dano nos últimos 3 segundos, seus lacaios recebem +15% de velocidade de ataque. Enquanto você tiver pelo menos 7 lacaios, esse bônus é dobrado.\n\nTags: Velocidade de Ataque, Lacaio.",
 			"ruRU": "Если вы не получаете урон в течение 3 сек., скорость атаки ваших прислужников повышается на +15%. Бонус удваивается, если у вас есть хотя бы 7 прислужника:прислужников.\n\nTags: Скорость атаки, Прислужник.",
-			"zhCN": "在 3 秒内没有受到伤害后, 你仆从的攻击速度提高 +15%。当你至少有 7 个仆从时, 该加成翻倍。\n\nTags: 攻击速度, 爪牙."
+			"zhCN": "在 3 秒内没有受到伤害后, 你仆从的攻击速度提高 +15%。当你至少有 7 个仆从时, 该加成翻倍。\n\nTags: 攻击速度, 爪牙.",
+			"zhTW": "你未受到傷害 3 秒後,你的僕從攻擊速度提高 +15%。若你有至少 7 個僕從,此加成效果加倍。\n\nTags: 攻擊速度, 僕從."
 },
 		id: 130,
 		maxPoints: 1,

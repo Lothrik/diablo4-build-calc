@@ -62,7 +62,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"plPL": "Grzmotnięcie",
 			"ptBR": "Trombar",
 			"ruRU": "Сокрушающий удар",
-			"zhCN": "猛击"
+			"zhCN": "猛击",
+			"zhTW": "猛擊"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Wut: 10\nGlückstrefferchance: 50%\nVersetzt dem Gegner einen Hieb mit Eurer Waffe und verursacht {30/33/36/39/42/45/48/51/54/57}% Schaden. Wenn Ihr Gegner 4 Mal getroffen habt, betäubt Euer nächster Hieb 1.25 Sek. lang. Wird auf 2 Sek. erhöht, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
@@ -75,7 +76,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"plPL": "Generuje: 10 pkt. furii\nSzansa na szczęśliwy traf: 50%\nGrzmotnij wroga bronią, zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń. Po grzmotnięciu wrogów 4 razy twoje następne Grzmotnięcie ogłuszy na 1.25 sek., a efekt wydłuży się do 2 sek., jeśli korzystasz z broni dwuręcznej.\n\nTags: Podstawowe, Obuchowe, Furia, Fizyczne, Obrażenia, Ograniczanie Kontroli, Dwuręczne.",
 			"ptBR": "Gerar Fúria: 10\nChance de Golpe de Sorte: 50%\nGolpeia o inimigo com sua arma, causando {30/33/36/39/42/45/48/51/54/57}% de dano. Depois de golpear inimigos 4 vezes, seu próximo Trombar atordoará por 1.25 segundos. Isso aumenta para 2 segundos se estiver usando uma arma de duas mãos.\n\nTags: Básica, Concussão, Fúria, Física, Dano, Controle de Grupo, Duas mãos.",
 			"ruRU": "Дает ярость: 10 ед.\nВероятность удачного удара: 50%.\nВы совершаете сокрушающий удар оружием, нанося противнику {30/33/36/39/42/45/48/51/54/57}% ед. урона. После 4 попаданий следующий \"Сокрушающий удар\" оглушает цель на 1.25 сек. Оглушение продлевается до 2 сек., если вы атакуете двуручным оружием.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
-			"zhCN": "生成怒气: 10\n幸运一击几率: 50%\n使用你的武器猛击敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。猛击敌人 4 次后, 你的下一个猛击会击晕敌人 1.25 秒, 如果使用双手武器该效果提高至 2 秒。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手."
+			"zhCN": "生成怒气: 10\n幸运一击几率: 50%\n使用你的武器猛击敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。猛击敌人 4 次后, 你的下一个猛击会击晕敌人 1.25 秒, 如果使用双手武器该效果提高至 2 秒。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手.",
+			"zhTW": "產生怒氣:10\n幸運觸發機率:50%\n使用武器猛擊敵人時,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。猛擊敵人 4 次後,你的下一個猛擊會擊昏 1.25 秒,若使用雙手武器則提高至 2 秒。\n\nTags: 基本, 鈍擊, 怒氣, 物理, 傷害, 控場, 雙手."
 },
 		id: 0,
 		maxPoints: 5,
@@ -99,7 +101,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"plPL": "Wzmocnione Grzmotnięcie",
 			"ptBR": "Trombar Aperfeiçoado",
 			"ruRU": "Усиленный сокрушающий удар",
-			"zhCN": "强化猛击"
+			"zhCN": "强化猛击",
+			"zhTW": "強化猛擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem betäubten Gegner mit Hieb Schaden zufügt, erhaltet Ihr 10% Eures Basislebens als Stählung. Diese Menge verdoppelt sich, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
@@ -112,7 +115,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"plPL": "Zranienie ogłuszonego wroga Grzmotnięciem zapewnia ci 10% podstawowego zdrowia jako umocnienie. Wartość ta podwaja się w przypadku korzystania z broni dwuręcznej.\n\nTags: Podstawowe, Obuchowe, Furia, Fizyczne, Obrażenia, Ograniczanie Kontroli, Dwuręczne.",
 			"ptBR": "Causar dano a um inimigo atordoado com Trombar concede a você 10% de vida básica como fortificação. O valor é dobrado ao usar uma arma de duas mãos.\n\nTags: Básica, Concussão, Fúria, Física, Dano, Controle de Grupo, Duas mãos.",
 			"ruRU": "Когда \"Сокрушающий удар\" наносит урон оглушенному противнику, вы получаете укрепление в объеме 10% базового запаса здоровья. Этот объем удваивается при использовании двуручного оружия.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
-			"zhCN": "使用猛击对一名昏迷敌人造成伤害给予你 10% 基础生命 作为强固。使用双手武器时该数值翻倍。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手."
+			"zhCN": "使用猛击对一名昏迷敌人造成伤害给予你 10% 基础生命 作为强固。使用双手武器时该数值翻倍。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手.",
+			"zhTW": "以猛擊對昏迷的敵人造成傷害,可賦予你相當於 10% 基礎生命值的強韌。使用雙手武器會使此效果加倍。\n\nTags: 基本, 鈍擊, 怒氣, 物理, 傷害, 控場, 雙手."
 },
 		id: 1,
 		maxPoints: 1,
@@ -136,7 +140,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"plPL": "Bitewne Grzmotnięcie",
 			"ptBR": "Trombar de Batalha",
 			"ruRU": "Резкий сокрушающий удар",
-			"zhCN": "战斗猛击"
+			"zhCN": "战斗猛击",
+			"zhTW": "戰鬥猛擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem betäubten Gegner mit Hieb Schaden zufügt, werden zusätzlich 3 Wut erzeugt oder 4 Wut, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
@@ -149,7 +154,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"plPL": "Zranienie ogłuszonego wroga Grzmotnięciem generuje dodatkowo 3 pkt. furii lub 4 pkt. furii, jeśli korzystasz z broni dwuręcznej.\n\nTags: Podstawowe, Obuchowe, Furia, Fizyczne, Obrażenia, Ograniczanie Kontroli, Dwuręczne.",
 			"ptBR": "Causar dano a um inimigo atordoado com Trombar gera 3 de fúria adicional ou 4 de fúria se estiver usando uma arma de duas mãos.\n\nTags: Básica, Concussão, Fúria, Física, Dano, Controle de Grupo, Duas mãos.",
 			"ruRU": "Когда \"Сокрушающий удар\" наносит урон оглушенному противнику, он дает на 3 ед. больше ярости – на 4, если вы атакуете двуручным оружием.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
-			"zhCN": "使用猛击对一名昏迷敌人造成伤害可以额外生成 3 点怒气, 或者使用双手武器时生成 4 点怒气。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手."
+			"zhCN": "使用猛击对一名昏迷敌人造成伤害可以额外生成 3 点怒气, 或者使用双手武器时生成 4 点怒气。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手.",
+			"zhTW": "以猛擊對昏迷的敵人造成傷害,會產生額外 3 點怒氣,若使用雙手武器則為 4 點怒氣。\n\nTags: 基本, 鈍擊, 怒氣, 物理, 傷害, 控場, 雙手."
 },
 		id: 2,
 		maxPoints: 1,
@@ -173,7 +179,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"plPL": "Waleczne Grzmotnięcie",
 			"ptBR": "Trombar de Combate",
 			"ruRU": "Сильный сокрушающий удар",
-			"zhCN": "争斗猛击"
+			"zhCN": "争斗猛击",
+			"zhTW": "作戰猛擊"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Ihr 4-mal mit Hieb mit einer Zweihandwaffe einen kritischen Treffer verursacht habt, wird Eure nächste Basis- oder Waffenbeherrschungs-Fertigkeit überwältigen.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
@@ -186,7 +193,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"plPL": "Po trafieniu krytycznym 4 razy z użyciem Grzmotnięcia i broni dwuręcznej twoja następna umiejętność Główna lub Mistrzostwa Broni spowoduje przytłoczenie.\n\nTags: Podstawowe, Obuchowe, Furia, Fizyczne, Obrażenia, Ograniczanie Kontroli, Dwuręczne.",
 			"ptBR": "Depois de desferir um acerto crítico 4 vezes com Trombar usando uma arma de duas mãos, sua próxima habilidade principal ou de Maestria em Armas desfere Golpe Brutal.\n\nTags: Básica, Concussão, Fúria, Física, Dano, Controle de Grupo, Duas mãos.",
 			"ruRU": "После 4 критических эффектов:критических эффектов \"Сокрушающего удара\" с двуручным оружием следующее основное умение или умение категории \"Мастер оружия\" наносит подавляющий урон.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
-			"zhCN": "使用双手武器的猛击造成 4 次暴击后, 你接下来的核心或武器精通技能会造成压制。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手."
+			"zhCN": "使用双手武器的猛击造成 4 次暴击后, 你接下来的核心或武器精通技能会造成压制。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手.",
+			"zhTW": "使用雙手武器進行猛擊並爆擊 4 次後,你的下一個核心或武器專精技能將會壓制。\n\nTags: 基本, 鈍擊, 怒氣, 物理, 傷害, 控場, 雙手."
 },
 		id: 3,
 		maxPoints: 1,
@@ -211,7 +219,8 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"plPL": "Nagła Szarża",
 			"ptBR": "Ataque Repentino",
 			"ruRU": "Выпад",
-			"zhCN": "突刺打击"
+			"zhCN": "突刺打击",
+			"zhTW": "猛撲攻擊"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: 50%\nStürzt Euch nach vorn, schlagt einen Gegner und fügt ihm {30/33/36/39/42/45/48/51/54/57}% Schaden zu.\n\nTags: Basis, Schaden, Physisch, Wut, Bewegung.",
@@ -224,7 +233,8 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"plPL": "Generuje: 9 pkt. furii.\nSzansa na szczęśliwy traf: 50%\nRzucasz się do przodu i atakujesz wroga, zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nTags: Podstawowe, Obrażenia, Fizyczne, Furia, Ruch.",
 			"ptBR": "Gerar Fúria: 9\nChance de Golpe de Sorte: 50%\nGolpeia um inimigo à sua frente, causando {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nTags: Básica, Dano, Física, Fúria, Movimento.",
 			"ruRU": "Дает ярость: 9 ед.\nВероятность удачного удара: 50%.\nВы делаете выпад и наносите противнику {30/33/36/39/42/45/48/51/54/57}% ед. урона.\n\nTags: Базовое, Урон, Физический урон, Ярость, Движение.",
-			"zhCN": "生成怒气: 9\n幸运一击几率: 50%\n向前突刺并打击一名敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。\n\nTags: 基础, 伤害, 物理, 怒气, 移动."
+			"zhCN": "生成怒气: 9\n幸运一击几率: 50%\n向前突刺并打击一名敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。\n\nTags: 基础, 伤害, 物理, 怒气, 移动.",
+			"zhTW": "產生怒氣:9\n幸運觸發機率:50%\n向前猛撲發動攻擊,對敵人造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。\n\nTags: 基本, 傷害, 物理, 怒氣, 移動."
 },
 		id: 4,
 		maxPoints: 5,
@@ -248,7 +258,8 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"plPL": "Wzmocniona Nagła Szarża",
 			"ptBR": "Ataque Repentino Aperfeiçoado",
 			"ruRU": "Усиленный выпад",
-			"zhCN": "强化突刺打击"
+			"zhCN": "强化突刺打击",
+			"zhTW": "強化猛撲攻擊"
 },
 		descriptionLocalized: {
 			"deDE": "Sprungschlag verursacht x30% mehr Schaden und heilt Euch um 2% des maximalen Lebens, wenn die Fertigkeit einem gesunden Gegner Schaden zufügt.\n\nTags: Basis, Schaden, Physisch, Wut, Bewegung.",
@@ -261,7 +272,8 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"plPL": "Nagła Szarża zadaje obrażenia zwiększone o x30% i przywraca ci 2% maksymalnego zdrowia, kiedy zadaje obrażenia wrogowi w pełni sił.\n\nTags: Podstawowe, Obrażenia, Fizyczne, Furia, Ruch.",
 			"ptBR": "Ataque Repentino causa 30% de dano aumentado e cura 2% da sua vida máxima quando atinge um inimigo saudável.\n\nTags: Básica, Dano, Física, Fúria, Movimento.",
 			"ruRU": "\"Выпад\" наносит на x30% больше урона и восполняет вам 2% максимального запаса здоровья, когда поражает противника с высоким уровнем здоровья.\n\nTags: Базовое, Урон, Физический урон, Ярость, Движение.",
-			"zhCN": "突刺打击对健康的敌人造成伤害时, 伤害提高 x30% 并为你恢复 2% 生命上限。\n\nTags: 基础, 伤害, 物理, 怒气, 移动."
+			"zhCN": "突刺打击对健康的敌人造成伤害时, 伤害提高 x30% 并为你恢复 2% 生命上限。\n\nTags: 基础, 伤害, 物理, 怒气, 移动.",
+			"zhTW": "猛撲攻擊對健康狀態的敵人造成傷害時,其傷害提高 x30%,並使你恢復生命值上限的 2%。\n\nTags: 基本, 傷害, 物理, 怒氣, 移動."
 },
 		id: 5,
 		maxPoints: 1,
@@ -285,7 +297,8 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"plPL": "Waleczna Nagła Szarża",
 			"ptBR": "Ataque Repentino de Combate",
 			"ruRU": "Сильный выпад",
-			"zhCN": "争斗突刺打击"
+			"zhCN": "争斗突刺打击",
+			"zhTW": "作戰猛撲攻擊"
 },
 		descriptionLocalized: {
 			"deDE": "Kritische Treffer mit Sprungschlag versetzen Euch 1.5 Sek. lang in den Berserkermodus.\n\nTags: Basis, Schaden, Physisch, Wut, Bewegung.",
@@ -298,7 +311,8 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"plPL": "Trafienia krytyczne wywołane przy pomocy Nagłej Szarży sprawiają, że berserkujesz przez 1.5 sek.\n\nTags: Podstawowe, Obrażenia, Fizyczne, Furia, Ruch.",
 			"ptBR": "Acertos críticos com Ataque Repentino concedem Berserk por 1.5 segundos.\n\nTags: Básica, Dano, Física, Fúria, Movimento.",
 			"ruRU": "Критические удары \"Выпадом\" дают вам эффект берсерк на 1.5 сек.\n\nTags: Базовое, Урон, Физический урон, Ярость, Движение.",
-			"zhCN": "突刺打击造成暴击可以使你获得狂暴, 持续 1.5 秒。\n\nTags: 基础, 伤害, 物理, 怒气, 移动."
+			"zhCN": "突刺打击造成暴击可以使你获得狂暴, 持续 1.5 秒。\n\nTags: 基础, 伤害, 物理, 怒气, 移动.",
+			"zhTW": "猛撲攻擊爆擊時,會使你狂暴,持續 1.5 秒。\n\nTags: 基本, 傷害, 物理, 怒氣, 移動."
 },
 		id: 6,
 		maxPoints: 1,
@@ -322,7 +336,8 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"plPL": "Bitewna Nagła Szarża",
 			"ptBR": "Ataque Repentino de Batalha",
 			"ruRU": "Резкий выпад",
-			"zhCN": "战斗突刺打击"
+			"zhCN": "战斗突刺打击",
+			"zhTW": "戰鬥猛撲攻擊"
 },
 		descriptionLocalized: {
 			"deDE": "Sprungschlag verursacht im Verlauf von 5 Sek. außerdem {20/22/24/26/28/30/32/34/36/38}% Blutungsschaden.\n\nTags: Basis, Schaden, Physisch, Wut, Bewegung.",
@@ -335,7 +350,8 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"plPL": "Nagła Szarża zadaje również {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Podstawowe, Obrażenia, Fizyczne, Furia, Ruch.",
 			"ptBR": "Ataque Repentino também aplica {20/22/24/26/28/30/32/34/36/38}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Básica, Dano, Física, Fúria, Movimento.",
 			"ruRU": "\"Выпад\" также наносит {20/22/24/26/28/30/32/34/36/38}% ед. урона от кровотечения за 5 сек.\n\nTags: Базовое, Урон, Физический урон, Ярость, Движение.",
-			"zhCN": "突刺打击也会在 5 秒内造成 {20/22/24/26/28/30/32/34/36/38}% 点流血伤害。\n\nTags: 基础, 伤害, 物理, 怒气, 移动."
+			"zhCN": "突刺打击也会在 5 秒内造成 {20/22/24/26/28/30/32/34/36/38}% 点流血伤害。\n\nTags: 基础, 伤害, 物理, 怒气, 移动.",
+			"zhTW": "猛撲攻擊也會在 5 秒內施加 {20/22/24/26/28/30/32/34/36/38}% 點流血傷害。\n\nTags: 基本, 傷害, 物理, 怒氣, 移動."
 },
 		id: 7,
 		maxPoints: 1,
@@ -362,7 +378,8 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"plPL": "Amok",
 			"ptBR": "Frenesi",
 			"ruRU": "Бешенство",
-			"zhCN": "狂乱"
+			"zhCN": "狂乱",
+			"zhTW": "狂亂"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Wut: 4\nGlückstrefferchance: 30%\nÜberzieht Gegner mit vielen raschen Schlägen, die mit jedem Trefferpaar {20/22/24/26/28/30/32/34/36/38}% Schaden verursachen.\n\nWenn Raserei einen Gegner trifft, erhöht sich ihre Angriffsgeschwindigkeit 3 Sek. lang um +20% bis maximal +60%.\n\nTags: Basis, Zwei Waffen, Wut, Physisch, Schaden, Angriffsgeschwindigkeit.",
@@ -375,7 +392,8 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"plPL": "Generuje: 4 pkt. furii.\nSzansa na szczęśliwy traf: 30%\nWyzwalasz błyskawiczną nawałnicę ciosów, zadając każdymi dwoma trafieniami {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nJeśli Amok trafi wroga, szybkość ataku umiejętności wzrasta o +20% na 3 sek., maksymalnie do +60%.\n\nTags: Podstawowe, Broń w Każdej Ręce, Furia, Fizyczne, Obrażenia, Szybkość Ataku.",
 			"ptBR": "Gerar Fúria: 4\nChance de Golpe de Sorte: 30%\nLibera um rápido turbilhão de golpes, causando {20/22/24/26/28/30/32/34/36/38}% de dano com cada par de acertos.\n\nSe Frenesi atingir um inimigo, a velocidade de ataque é aumentada em +20% por 3 segundos, até +60%.\n\nTags: Básica, Empunhadura Dupla, Fúria, Física, Dano, Velocidade de Ataque.",
 			"ruRU": "Дает ярость: 4 ед.\nВероятность удачного удара: 30%.\nВы обрушиваете на цель шквал стремительных ударов, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона за каждую пару ударов.\n\nКогда \"Бешенство\" поражает противника, скорость атаки этого умения повышается на +20% на 3 сек. вплоть до +60%.\n\nTags: Базовое, Оружие в каждой руке, Ярость, Физический урон, Урон, Скорость атаки.",
-			"zhCN": "生成怒气: 4\n幸运一击几率: 30%\n发动一连串快速打击, 每一组攻击造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\n如果狂乱命中敌人, 其攻击速度提高 +20%, 持续 3 秒, 最多提高 +60%。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度."
+			"zhCN": "生成怒气: 4\n幸运一击几率: 30%\n发动一连串快速打击, 每一组攻击造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\n如果狂乱命中敌人, 其攻击速度提高 +20%, 持续 3 秒, 最多提高 +60%。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度.",
+			"zhTW": "產生怒氣:4\n幸運觸發機率:30%\n快速連續攻擊,每組攻擊造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。\n\n若狂亂擊中敵人,其攻擊速度提高 +20%,持續 3 秒,最多提高 +60%。\n\nTags: 基本, 雙持, 怒氣, 物理, 傷害, 攻擊速度."
 },
 		id: 8,
 		maxPoints: 5,
@@ -399,7 +417,8 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"plPL": "Wzmocniony Amok",
 			"ptBR": "Frenesi Aperfeiçoado",
 			"ruRU": "Усиленное бешенство",
-			"zhCN": "强化狂乱"
+			"zhCN": "强化狂乱",
+			"zhTW": "強化狂亂"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Raserei +60% zusätzliche Angriffsgeschwindigkeit verleiht, generiert sie auch 2 zusätzliche Wut.\n\nTags: Basis, Zwei Waffen, Wut, Physisch, Schaden, Angriffsgeschwindigkeit.",
@@ -412,7 +431,8 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"plPL": "Kiedy Amok zapewnia ci premię +60% do szybkości ataku oraz generuje dodatkowo 2 pkt. furii.\n\nTags: Podstawowe, Broń w Każdej Ręce, Furia, Fizyczne, Obrażenia, Szybkość Ataku.",
 			"ptBR": "Enquanto Frenesi concede +60% de bônus de velocidade de ataque, também gera 2 de fúria adicional.\n\nTags: Básica, Empunhadura Dupla, Fúria, Física, Dano, Velocidade de Ataque.",
 			"ruRU": "Если прибавка к скорости атаки от \"Бешенства\" достигает +60%, вы также накапливаете на 2 ед. больше ярости.\n\nTags: Базовое, Оружие в каждой руке, Ярость, Физический урон, Урон, Скорость атаки.",
-			"zhCN": "狂乱 使攻击速度提高 +60%, 也会额外生成 2 点怒气。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度."
+			"zhCN": "狂乱 使攻击速度提高 +60%, 也会额外生成 2 点怒气。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度.",
+			"zhTW": "狂亂使攻擊速度提高 +60% 時,也會額外產生 2 點怒氣。\n\nTags: 基本, 雙持, 怒氣, 物理, 傷害, 攻擊速度."
 },
 		id: 9,
 		maxPoints: 1,
@@ -436,7 +456,8 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"plPL": "Bitewny Amok",
 			"ptBR": "Frenesi de Batalha",
 			"ruRU": "Резкое бешенство",
-			"zhCN": "战斗狂乱"
+			"zhCN": "战斗狂乱",
+			"zhTW": "戰鬥狂亂"
 },
 		descriptionLocalized: {
 			"deDE": "Im Berserkermodus erhalten Eure anderen Fertigkeiten +5% Angriffsgeschwindigkeit für jeden Stapel von Raserei.\n\nTags: Basis, Zwei Waffen, Wut, Physisch, Schaden, Angriffsgeschwindigkeit.",
@@ -449,7 +470,8 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"plPL": "Podczas berserkowania, twoje inne umiejętności zyskują premię +5% do szybkości ruchu za każdy posiadany poziom kumulacji Amoku.\n\nTags: Podstawowe, Broń w Każdej Ręce, Furia, Fizyczne, Obrażenia, Szybkość Ataku.",
 			"ptBR": "Sob efeito de Berserk, suas outras habilidades recebem +5% de velocidade de ataque por cada aplicação de Frenesi que você tiver.\n\nTags: Básica, Empunhadura Dupla, Fúria, Física, Dano, Velocidade de Ataque.",
 			"ruRU": "В состоянии берсерка скорость атаки ваших других умений повышается на +5% за каждый активный эффект \"Бешенства\".\n\nTags: Базовое, Оружие в каждой руке, Ярость, Физический урон, Урон, Скорость атаки.",
-			"zhCN": "狂暴状态下, 每有一层狂乱, 你的其他技能的攻击速度提高 +5%。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度."
+			"zhCN": "狂暴状态下, 每有一层狂乱, 你的其他技能的攻击速度提高 +5%。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度.",
+			"zhTW": "狂暴時,每層狂亂可使你的其他技能獲得 +5% 攻擊速度。\n\nTags: 基本, 雙持, 怒氣, 物理, 傷害, 攻擊速度."
 },
 		id: 10,
 		maxPoints: 1,
@@ -473,7 +495,8 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"plPL": "Waleczny Amok",
 			"ptBR": "Frenesi de Combate",
 			"ruRU": "Боевое бешенство",
-			"zhCN": "争斗狂乱"
+			"zhCN": "争斗狂乱",
+			"zhTW": "作戰狂亂"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr erhaltet eine Schadensreduktion von 8% für jeden Stapel Raserei, den Ihr aktuell besitzt.\n\nTags: Basis, Zwei Waffen, Wut, Physisch, Schaden, Angriffsgeschwindigkeit.",
@@ -486,7 +509,8 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"plPL": "Twoja redukcja obrażeń jest zwiększona o 8% za każdy aktualny poziom kumulacji Amoku.\n\nTags: Podstawowe, Broń w Każdej Ręce, Furia, Fizyczne, Obrażenia, Szybkość Ataku.",
 			"ptBR": "Você recebe 8% de redução de dano por cada aplicação de Frenesi que tem no momento.\n\nTags: Básica, Empunhadura Dupla, Fúria, Física, Dano, Velocidade de Ataque.",
 			"ruRU": "Вы получаете на 8% меньше урона за каждый активный эффект \"Бешенства\".\n\nTags: Базовое, Оружие в каждой руке, Ярость, Физический урон, Урон, Скорость атаки.",
-			"zhCN": "当前拥有的每层狂乱可以使你获得 8% 伤害减免。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度."
+			"zhCN": "当前拥有的每层狂乱可以使你获得 8% 伤害减免。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度.",
+			"zhTW": "你每擁有一層狂亂,可獲得 8% 傷害減免效果。\n\nTags: 基本, 雙持, 怒氣, 物理, 傷害, 攻擊速度."
 },
 		id: 11,
 		maxPoints: 1,
@@ -511,7 +535,8 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"plPL": "Obdarcie",
 			"ptBR": "Esfolar",
 			"ruRU": "Свежевание",
-			"zhCN": "剥皮"
+			"zhCN": "剥皮",
+			"zhTW": "剝皮"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: 50%\nSchindet den Gegner und fügt ihm {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% Schaden zu. Fügt im Verlauf von 5 Sek. {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Blutungsschaden zu.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
@@ -524,7 +549,8 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"plPL": "Generuje: 9 pkt. furii\nSzansa na szczęśliwy traf: 50%\nObdzierasz wroga ze skóry, zadając {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% pkt. obrażeń i wywołując {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% pkt. obrażeń od krwawienia przez 5 sek.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
 			"ptBR": "Gerar Fúria: 9\nChance de Golpe de Sorte: 50%\nEsfola o inimigo, causando {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de dano e aplicando {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
 			"ruRU": "Дает ярость: 9 ед.\nВероятность удачного удара: 50%.\nВы сдираете с противника кожу, нанося {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% ед. урона мгновенно и еще {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
-			"zhCN": "生成怒气: 9\n幸运一击几率: 50%\n剥掉敌人的皮, 造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 点伤害, 并在 5 秒内造成 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 点流血伤害。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理."
+			"zhCN": "生成怒气: 9\n幸运一击几率: 50%\n剥掉敌人的皮, 造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 点伤害, 并在 5 秒内造成 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 点流血伤害。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理.",
+			"zhTW": "產生怒氣:9\n幸運觸發機率:50%\n將敵人剝皮,造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 點傷害,並使其在 5 秒內受到 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 點流血傷害。\n\nTags: 基本, 流血, 斬擊, 怒氣, 傷害, 物理."
 },
 		id: 12,
 		maxPoints: 5,
@@ -548,7 +574,8 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"plPL": "Wzmocnione Obdarcie",
 			"ptBR": "Esfolar Aperfeiçoado",
 			"ruRU": "Усиленное свежевание",
-			"zhCN": "强化剥皮"
+			"zhCN": "强化剥皮",
+			"zhTW": "強化剝皮"
 },
 		descriptionLocalized: {
 			"deDE": "Schinden verfügt über eine Chance von 10%, den Gegner 2 Sek. lang verwundbar zu machen. Die Verwendung von Zweihandwaffen verdoppelt diese Chance.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
@@ -561,7 +588,8 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"plPL": "Obdarcie ma 10% szans na wywołanie u celu odsłonięcia na 2 sek. Szansa ta jest podwojona w przypadku korzystania z broni dwuręcznej.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
 			"ptBR": "Esfolar tem 10% de chance de tornar os inimigos vulneráveis por 2 segundos. A chance é dobrada ao usar uma arma de duas mãos.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
 			"ruRU": "\"Свежевание\" с вероятностью 10% делает цель уязвимой на 2 сек. Эта вероятность удваивается при использовании двуручного оружия.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
-			"zhCN": "剥皮有 10% 几率使敌人陷入易伤状态, 持续 2 秒。使用双手武器时该几率翻倍。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理."
+			"zhCN": "剥皮有 10% 几率使敌人陷入易伤状态, 持续 2 秒。使用双手武器时该几率翻倍。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理.",
+			"zhTW": "剝皮有 10% 機率使敵人易傷,持續 2 秒。使用雙手武器時該機率加倍。\n\nTags: 基本, 流血, 斬擊, 怒氣, 傷害, 物理."
 },
 		id: 13,
 		maxPoints: 1,
@@ -585,7 +613,8 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"plPL": "Bitewne Obdarcie",
 			"ptBR": "Esfolar de Batalha",
 			"ruRU": "Резкое свежевание",
-			"zhCN": "战斗剥皮"
+			"zhCN": "战斗剥皮",
+			"zhTW": "戰鬥剝皮"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Schinden einem Gegner direkten Schaden zufügt, erleidet er in den nächsten 3 Sek. x10% mehr Blutungsschaden durch Euch.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
@@ -598,7 +627,8 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"plPL": "Kiedy Obdarcie zadaje bezpośrednie obrażenia wrogowi, otrzymuje on od ciebie obrażenia od krwawienia zwiększone o x10% przez następne 3 sek.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
 			"ptBR": "Quando Esfolar causa dano direto a um inimigo, ele recebe 10% de dano de sangramento aumentado de você pelos próximos 3 segundos.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
 			"ruRU": "Когда \"Свежевание\" наносит противнику прямой урон, он в течение 3 сек. получает на x10% больше урона от ваших эффектов кровотечения.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
-			"zhCN": "剥皮对一名敌人造成直接伤害时, 使其在接下来的 3 秒内受到来自你的流血伤害提高 x10%。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理."
+			"zhCN": "剥皮对一名敌人造成直接伤害时, 使其在接下来的 3 秒内受到来自你的流血伤害提高 x10%。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理.",
+			"zhTW": "剝皮對敵人造成直接傷害時,在接下來的 3 秒內其受到你造成的流血傷害提高 x10%。\n\nTags: 基本, 流血, 斬擊, 怒氣, 傷害, 物理."
 },
 		id: 14,
 		maxPoints: 1,
@@ -622,7 +652,8 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"plPL": "Waleczne Obdarcie",
 			"ptBR": "Esfolar de Combate",
 			"ruRU": "Сильное свежевание",
-			"zhCN": "争斗剥皮"
+			"zhCN": "争斗剥皮",
+			"zhTW": "作戰剝皮"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Schinden einem Gegner direkten Schaden zufügt, erhaltet Ihr 3 Sek. lang 3% Schadensreduktion und 50 Dornen. Bis zu 4-mal stapelbar.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
@@ -635,7 +666,8 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"plPL": "Kiedy Obdarcie zadaje wrogowi bezpośrednie obrażenia, zyskujesz 3% redukcji obrażeń oraz Ciernie (50) na 3 sek. Efekt ten kumuluje się 4 razy.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
 			"ptBR": "Quando Esfolar causa dano direto a um inimigo, você recebe 3% de redução de dano e 50 espinhos por 3 segundos. Isso acumula até 4 vezes.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
 			"ruRU": "Когда \"Свежевание\" наносит противнику прямой урон, получаемый вами урон уменьшается на 3% и вы получаете эффект шипов в объеме 50 ед. на 3 сек. Эффект суммируется до 4 раз.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
-			"zhCN": "当剥皮对敌人造成直接伤害时, 你获得 3%伤害减免和 50 点荆棘, 持续 3 秒。该效果最多可叠加 4 次。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理."
+			"zhCN": "当剥皮对敌人造成直接伤害时, 你获得 3%伤害减免和 50 点荆棘, 持续 3 秒。该效果最多可叠加 4 次。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理.",
+			"zhTW": "剝皮對敵人造成直接傷害時,你獲得 3% 傷害減免和 50 點荊棘,持續 3 秒。此效果最多可堆疊 4 次。\n\nTags: 基本, 流血, 斬擊, 怒氣, 傷害, 物理."
 },
 		id: 15,
 		maxPoints: 1,
@@ -663,7 +695,8 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"plPL": "Młot Starożytnych",
 			"ptBR": "Martelo dos Ancestrais",
 			"ruRU": "Молот Древних",
-			"zhCN": "先祖之锤"
+			"zhCN": "先祖之锤",
+			"zhTW": "先祖之鎚"
 },
 		descriptionLocalized: {
 			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 50%\nSchmettert Euren Hammer mit dem Zorn der Urahnen nach unten und verursacht {50/55/60/65/70/75/80/85/90/95}% Schaden in einem konzentrierten Bereich.\n\nTags: Kern, Wuchtwaffe, Wut, Physisch, Schaden, Zweihändig.",
@@ -676,7 +709,8 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 50%\nUderzasz młotem z furią starożytnych, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń na konkretnym obszarze.\n\nTags: Główne, Obuchowe, Furia, Fizyczne, Obrażenia, Dwuręczne.",
 			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte:50%\nGolpeia com seu martelo com a fúria dos Ancestrais, causando {50/55/60/65/70/75/80/85/90/95}% de dano em uma área concentrada.\n\nTags: Principal, Concussão, Fúria, Física, Dano, Duas mãos.",
 			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 50%.\nВы обрушиваете свое оружие с яростью Древних, нанося {50/55/60/65/70/75/80/85/90/95}% ед. урона целям в небольшой области.\n\nTags: Основное, Дробящее оружие, Ярость, Физический урон, Урон, Двуручное.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: 50%\n带着先祖的怒火砸下你的锤子, 对一片集中区域造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手."
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 50%\n带着先祖的怒火砸下你的锤子, 对一片集中区域造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手.",
+			"zhTW": "怒氣消耗:{#}\n幸運觸發機率:50%\n使出先祖的憤怒砸下重鎚,對集中區域造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 核心, 鈍擊, 怒氣, 物理, 傷害, 雙手."
 },
 		id: 16,
 		maxPoints: 5,
@@ -701,7 +735,8 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"plPL": "Wzmocniony Młot Starożytnych",
 			"ptBR": "Martelo dos Ancestrais Aperfeiçoado",
 			"ruRU": "Усиленный молот Древних",
-			"zhCN": "强化先祖之锤"
+			"zhCN": "强化先祖之锤",
+			"zhTW": "強化先祖之鎚"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugt 5 Sek. lang x3% mehr Wut für jeden Gegner, der von Hammer der Urahnen getroffen wurde. Bis zu 10-mal stapelbar.\n\nTags: Kern, Wuchtwaffe, Wut, Physisch, Schaden, Zweihändig.",
@@ -714,7 +749,8 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"plPL": "Zyskujesz dodatkowo x3% furii na 5 sek. za każdego wroga zranionego Młotem Starożytnych. Efekt ten kumuluje się maksymalnie 10 razy.\n\nTags: Główne, Obuchowe, Furia, Fizyczne, Obrażenia, Dwuręczne.",
 			"ptBR": "Recebe 3% de fúria adicional por 5 segundos por cada inimigo atingido por Martelo dos Ancestrais, acumulando até 10 vezes.\n\nTags: Principal, Concussão, Fúria, Física, Dano, Duas mãos.",
 			"ruRU": "Когда \"Молот Древних\" наносит урон, вы накапливаете на x3% ед. больше ярости в течение 5 сек. за каждого пораженного противника. Эффект суммируется до 10 раз.\n\nTags: Основное, Дробящее оружие, Ярость, Физический урон, Урон, Двуручное.",
-			"zhCN": "每有一个被先祖之锤伤害的敌人, 便可额外获得 x3% 怒气, 持续 5 秒, 最多可叠加 10 次。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手."
+			"zhCN": "每有一个被先祖之锤伤害的敌人, 便可额外获得 x3% 怒气, 持续 5 秒, 最多可叠加 10 次。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手.",
+			"zhTW": "先祖之鎚每對一個敵人造成傷害,就獲得 x3% 額外怒氣,持續 5 秒,最多可堆疊 10 次。\n\nTags: 核心, 鈍擊, 怒氣, 物理, 傷害, 雙手."
 },
 		id: 17,
 		maxPoints: 1,
@@ -738,7 +774,8 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"plPL": "Gwałtowny Młot Starożytnych",
 			"ptBR": "Martelo dos Ancestrais Violento",
 			"ruRU": "Жестокий молот Древних",
-			"zhCN": "暴力先祖之锤"
+			"zhCN": "暴力先祖之锤",
+			"zhTW": "凶暴先祖之鎚"
 },
 		descriptionLocalized: {
 			"deDE": "Nach Überwältigen mit Hammer der Urahnen verursacht Ihr 5 Sek. lang x30% mehr Schaden.\n\nTags: Kern, Wuchtwaffe, Wut, Physisch, Schaden, Zweihändig.",
@@ -751,7 +788,8 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"plPL": "Po przytłoczeniu z użyciem Młota Starożytnych zadajesz obrażenia zwiększone o x30% przez 5 sek.\n\nTags: Główne, Obuchowe, Furia, Fizyczne, Obrażenia, Dwuręczne.",
 			"ptBR": "Depois de desferir um Golpe Brutal com Martelo dos Ancestrais, você causa 30% de dano aumentado por 5 segundos.\n\nTags: Principal, Concussão, Fúria, Física, Dano, Duas mãos.",
 			"ruRU": "Когда \"Молот Древних\" наносит подавляющий урон, наносимый вами урон увеличивается на x30% на 5 сек.\n\nTags: Основное, Дробящее оружие, Ярость, Физический урон, Урон, Двуручное.",
-			"zhCN": "使用先祖之锤造成压制后, 你造成的伤害提高 x30%, 持续 5 秒。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手."
+			"zhCN": "使用先祖之锤造成压制后, 你造成的伤害提高 x30%, 持续 5 秒。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手.",
+			"zhTW": "以先祖之鎚壓制後,你造成的傷害提高 x30%,持續 5 秒。\n\nTags: 核心, 鈍擊, 怒氣, 物理, 傷害, 雙手."
 },
 		id: 18,
 		maxPoints: 1,
@@ -775,7 +813,8 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"plPL": "Wściekły Młot Starożytnych",
 			"ptBR": "Martelo dos Ancestrais Furioso",
 			"ruRU": "Яростный молот Древних",
-			"zhCN": "狂怒先祖之锤"
+			"zhCN": "狂怒先祖之锤",
+			"zhTW": "狂怒先祖之鎚"
 },
 		descriptionLocalized: {
 			"deDE": "Hammer der Urahnen fügt x1% zusätzlichen Schaden für jeden Wutpunkt zu, den Ihr bei Aktivierung hattet.\n\nTags: Kern, Wuchtwaffe, Wut, Physisch, Schaden, Zweihändig.",
@@ -788,7 +827,8 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"plPL": "Młot Starożytnych zadaje dodatkowe x1% pkt. obrażeń za każdy punkt furii posiadany w chwili użycia tej umiejętności.\n\nTags: Główne, Obuchowe, Furia, Fizyczne, Obrażenia, Dwuręczne.",
 			"ptBR": "Martelo dos Ancestrais causa 1% de dano adicional por cada ponto de fúria que você tinha ao usá-lo.\n\nTags: Principal, Concussão, Fúria, Física, Dano, Duas mãos.",
 			"ruRU": "\"Молот Древних\" наносит на x1% больше урона за каждую единицу ярости, накопленную на момент применения умения.\n\nTags: Основное, Дробящее оружие, Ярость, Физический урон, Урон, Двуручное.",
-			"zhCN": "使用先祖之锤时, 每有一点怒气, 造成的伤害提高 x1%。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手."
+			"zhCN": "使用先祖之锤时, 每有一点怒气, 造成的伤害提高 x1%。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手.",
+			"zhTW": "使用先祖之鎚時,你每擁有一點怒氣,可造成 x1% 額外傷害。\n\nTags: 核心, 鈍擊, 怒氣, 物理, 傷害, 雙手."
 },
 		id: 19,
 		maxPoints: 1,
@@ -813,7 +853,8 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"plPL": "Wypiętrzenie",
 			"ptBR": "Revolta",
 			"ruRU": "Выброс земли",
-			"zhCN": "扬石飞沙"
+			"zhCN": "扬石飞沙",
+			"zhTW": "動盪震擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 25%\nBohrt Eure Waffe in den Boden und schleudert Geröll nach vorn, das {70/77/84/91/98/105/112/119/126/133}% Schaden verursacht.\n\nTags: Kern, Schaden, Physisch, Wut, Zweihändig.",
@@ -826,7 +867,8 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 25%\nRozdzierasz bronią grunt pod sobą i ciskasz grudami ziemi, zadając {70/77/84/91/98/105/112/119/126/133}% pkt. obrażeń.\n\nTags: Główne, Obrażenia, Fizyczne, Furia, Dwuręczne.",
 			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: 25%\nVocê rasga o chão com sua arma e arremessa detritos para frente, causando {70/77/84/91/98/105/112/119/126/133}% de dano.\n\nTags: Principal, Dano, Física, Fúria, Duas mãos.",
 			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 25%.\nВы разрываете землю и запускаете вперед обломки, наносящие {70/77/84/91/98/105/112/119/126/133}% ед. урона.\n\nTags: Основное, Урон, Физический урон, Ярость, Двуручное.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: 25%\n用你的武器撕裂大地并向前方扬起碎片, 造成 {70/77/84/91/98/105/112/119/126/133}% 点伤害。\n\nTags: 核心, 伤害, 物理, 怒气, 双手."
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 25%\n用你的武器撕裂大地并向前方扬起碎片, 造成 {70/77/84/91/98/105/112/119/126/133}% 点伤害。\n\nTags: 核心, 伤害, 物理, 怒气, 双手.",
+			"zhTW": "怒氣消耗:{#}\n幸運觸發機率:25%\n用武器劈開地面,彈飛的石塊往前砸向敵人,造成 {70/77/84/91/98/105/112/119/126/133}% 點傷害。\n\nTags: 核心, 傷害, 物理, 怒氣, 雙手."
 },
 		id: 20,
 		maxPoints: 5,
@@ -851,7 +893,8 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"plPL": "Wzmocnione Wypiętrzenie",
 			"ptBR": "Revolta Aperfeiçoada",
 			"ruRU": "Усиленный выброс земли",
-			"zhCN": "强化扬石飞沙"
+			"zhCN": "强化扬石飞沙",
+			"zhTW": "強化動盪震擊"
 },
 		descriptionLocalized: {
 			"deDE": "Aufwühlen verfügt über eine Chance von 20%, alle Gegner, denen die Fertigkeit Schaden zufügt, 2.5 Sek. lang zu betäuben.\n\nTags: Kern, Schaden, Physisch, Wut, Zweihändig.",
@@ -864,7 +907,8 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"plPL": "Wypiętrzenie ma 20% szans na ogłuszenie wszystkich zranionych wrogów na 2.5 sek.\n\nTags: Główne, Obrażenia, Fizyczne, Furia, Dwuręczne.",
 			"ptBR": "Revolta tem 20% de chance de atordoar todos os inimigos atingidos por 2.5 segundos.\n\nTags: Principal, Dano, Física, Fúria, Duas mãos.",
 			"ruRU": "\"Выброс земли\" с вероятностью 20% оглушает пораженных противников на 2.5 сек.\n\nTags: Основное, Урон, Физический урон, Ярость, Двуручное.",
-			"zhCN": "扬石飞沙造成伤害时有 20% 几率击晕所有敌人, 持续 2.5 秒。\n\nTags: 核心, 伤害, 物理, 怒气, 双手."
+			"zhCN": "扬石飞沙造成伤害时有 20% 几率击晕所有敌人, 持续 2.5 秒。\n\nTags: 核心, 伤害, 物理, 怒气, 双手.",
+			"zhTW": "動盪震擊有 20% 機率擊昏所有其造成傷害的敵人,持續 2.5 秒。\n\nTags: 核心, 傷害, 物理, 怒氣, 雙手."
 },
 		id: 21,
 		maxPoints: 1,
@@ -888,7 +932,8 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"plPL": "Gwałtowne Wypiętrzenie",
 			"ptBR": "Revolta Violenta",
 			"ruRU": "Жестокий выброс земли",
-			"zhCN": "狂暴扬石飞沙"
+			"zhCN": "狂暴扬石飞沙",
+			"zhTW": "凶暴動盪震擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Aufwühlen mindestens 2 Gegnern Schaden zufügt, verfallt Ihr 2 Sek. lang in den Berserkermodus. Die Dauer erhöht sich auf 3 Sek., wenn die Fertigkeit mindestens 4 Gegnern Schaden zufügt.\n\nTags: Kern, Schaden, Physisch, Wut, Zweihändig.",
@@ -901,7 +946,8 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"plPL": "Jeśli Wypiętrzenie zrani co najmniej 2 wrogów, zyskasz berserkowanie na 2 sek. Czas ten jest wydłużony do 3 sek., gdy umiejętność rani co najmniej 4 wrogów.\n\nTags: Główne, Obrażenia, Fizyczne, Furia, Dwuręczne.",
 			"ptBR": "Se Revolta causar dano a pelo menos 2 inimigos, você receberá Berserk por 2 segundos, com aumento para 3 segundos se causar dano a pelo menos 4 inimigos.\n\nTags: Principal, Dano, Física, Fúria, Duas mãos.",
 			"ruRU": "Когда \"Выброс земли\" наносит урон 2 или более противникам, вы переходите в состояние берсерка на 2 сек. Если способность поражает хотя бы 4 противников, время действия продлевается до 3 сек.\n\nTags: Основное, Урон, Физический урон, Ярость, Двуручное.",
-			"zhCN": "如果扬石飞沙至少对 2 名敌人造成伤害, 你获得狂暴, 持续 2 秒。如果至少对 4 名敌人造成伤害则延长至 3 秒。\n\nTags: 核心, 伤害, 物理, 怒气, 双手."
+			"zhCN": "如果扬石飞沙至少对 2 名敌人造成伤害, 你获得狂暴, 持续 2 秒。如果至少对 4 名敌人造成伤害则延长至 3 秒。\n\nTags: 核心, 伤害, 物理, 怒气, 双手.",
+			"zhTW": "若動盪震擊對至少 2 個敵人造成傷害,你會獲得狂暴 2 秒。若對至少 4 個敵人造成傷害,則提高至 3 秒。\n\nTags: 核心, 傷害, 物理, 怒氣, 雙手."
 },
 		id: 22,
 		maxPoints: 1,
@@ -925,7 +971,8 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"plPL": "Wściekłe Wypiętrzenie",
 			"ptBR": "Revolta Furiosa",
 			"ruRU": "Яростный выброс земли",
-			"zhCN": "狂怒扬石飞沙"
+			"zhCN": "狂怒扬石飞沙",
+			"zhTW": "狂怒動盪震擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem Gegner mit einer anderen Fertigkeit als Aufwühlen direkten Schaden zufügt, verursacht Euer nächster Einsatz von Aufwühlen x3% mehr Schaden (bis zu 10-mal stapelbar).\n\nTags: Kern, Schaden, Physisch, Wut, Zweihändig.",
@@ -938,7 +985,8 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"plPL": "Zadawanie wrogowi bezpośrednich obrażeń umiejętnością inną niż Wypiętrzenie sprawia, że przy kolejnym użyciu Wypiętrzenie zada obrażenia zwiększone o x3%. Efekt ten kumuluje się maksymalnie 10 razy.\n\nTags: Główne, Obrażenia, Fizyczne, Furia, Dwuręczne.",
 			"ptBR": "Causar dano direto a um inimigo com uma habilidade que não seja Revolta faz com que seu próximo lançamento de Revolta cause 3% de dano aumentado, acumulando até 10 vezes.\n\nTags: Principal, Dano, Física, Fúria, Duas mãos.",
 			"ruRU": "Когда вы наносите прямой урон любым умением, кроме \"Выброса земли\", ваш следующий \"Выброс земли\" наносит на x3% больше урона. Эффект суммируется до 10 раз.\n\nTags: Основное, Урон, Физический урон, Ярость, Двуручное.",
-			"zhCN": "使用扬石飞沙之外的技能对敌人造成直接伤害, 可以使你的下一次扬石飞沙造成的伤害提高 x3%, 该效果最多可叠加 10 次。\n\nTags: 核心, 伤害, 物理, 怒气, 双手."
+			"zhCN": "使用扬石飞沙之外的技能对敌人造成直接伤害, 可以使你的下一次扬石飞沙造成的伤害提高 x3%, 该效果最多可叠加 10 次。\n\nTags: 核心, 伤害, 物理, 怒气, 双手.",
+			"zhTW": "使用動盪震擊以外的技能對敵人造成直接傷害,會使你下一次施放動盪震擊造成的傷害提高 x3%,最多可堆疊 10 次。\n\nTags: 核心, 傷害, 物理, 怒氣, 雙手."
 },
 		id: 23,
 		maxPoints: 1,
@@ -963,7 +1011,8 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"plPL": "Podwójne Uderzenie",
 			"ptBR": "Golpe Duplo",
 			"ruRU": "Двойной удар",
-			"zhCN": "双重横扫"
+			"zhCN": "双重横扫",
+			"zhTW": "雙手揮擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 30%\nSchwingt Eure Waffen aus entgegengesetzten Richtungen und verursacht mit jeder Waffe {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Schaden. Gegner in der Mitte erleiden durch beide Waffen Schaden.\n\nTags: Kern, Zwei Waffen, Schaden, Physisch, Wut.",
@@ -976,7 +1025,8 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 30%\nWykonujesz zamach z przeciwnych stron dwiema sztukami broni jednocześnie, zadając każdą z nich {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń. Wrogowie znajdujący się w centrum ciosu otrzymują obrażenia od obu.\n\nTags: Główne, Broń w Każdej Ręce, Obrażenia, Fizyczne, Furia.",
 			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: 30%\nVocê golpeia com suas armas em direções opostas, causando {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano com cada arma. Inimigos presos no centro recebem dano das duas armas.\n\nTags: Principal, Empunhadura Dupla, Dano, Física, Fúria.",
 			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 30%.\nВы атакуете оружием в обеих руках, нанося по {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона каждым оружием. Противники в центре получают урон от обоих ударов.\n\nTags: Основное, Оружие в каждой руке, Урон, Физический урон, Ярость.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: 30%\n从两侧挥动你的武器, 每把武器造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点伤害。在中间的敌人会同时受到两把武器的伤害。\n\nTags: 核心, 双持, 伤害, 物理, 怒气."
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 30%\n从两侧挥动你的武器, 每把武器造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点伤害。在中间的敌人会同时受到两把武器的伤害。\n\nTags: 核心, 双持, 伤害, 物理, 怒气.",
+			"zhTW": "怒氣消耗:{#}\n幸運觸發機率:30%\n使用武器交叉揮擊,每把武器造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 點傷害。在攻擊範圍中央的敵人會被兩把武器擊中。\n\nTags: 核心, 雙持, 傷害, 物理, 怒氣."
 },
 		id: 24,
 		maxPoints: 5,
@@ -1001,7 +1051,8 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"plPL": "Wzmocnione Podwójne Uderzenie",
 			"ptBR": "Golpe Duplo Aperfeiçoado",
 			"ruRU": "Усиленный двойной удар",
-			"zhCN": "强化双重横扫"
+			"zhCN": "强化双重横扫",
+			"zhTW": "強化雙手揮擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Doppelschwung einem betäubten oder zurückgestoßenen Gegner Schaden zufügt, erhaltet Ihr 25 Wut.\n\nTags: Kern, Zwei Waffen, Schaden, Physisch, Wut.",
@@ -1014,7 +1065,8 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"plPL": "Jeśli Podwójne Uderzenie zada obrażenia ogłuszonemu lub powalonemu wrogowi, zyskujesz 25 pkt. furii.\n\nTags: Główne, Broń w Każdej Ręce, Obrażenia, Fizyczne, Furia.",
 			"ptBR": "Se Golpe Duplo causar dano a um inimigo atordoado ou nocauteado, você receberá 25 de fúria.\n\nTags: Principal, Empunhadura Dupla, Dano, Física, Fúria.",
 			"ruRU": "Если \"Двойной удар\" наносит урон оглушенному или сбитому с ног противнику, вы получаете 25 ед. ярости.\n\nTags: Основное, Оружие в каждой руке, Урон, Физический урон, Ярость.",
-			"zhCN": "如果双重横扫的伤害击晕或击倒敌人, 获得 25 点怒气。\n\nTags: 核心, 双持, 伤害, 物理, 怒气."
+			"zhCN": "如果双重横扫的伤害击晕或击倒敌人, 获得 25 点怒气。\n\nTags: 核心, 双持, 伤害, 物理, 怒气.",
+			"zhTW": "雙手揮擊對昏迷或被擊倒的敵人造成傷害時,獲得 25 點怒氣。\n\nTags: 核心, 雙持, 傷害, 物理, 怒氣."
 },
 		id: 25,
 		maxPoints: 1,
@@ -1038,7 +1090,8 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"plPL": "Wściekłe Podwójne Uderzenie",
 			"ptBR": "Golpe Duplo Furioso",
 			"ruRU": "Яростный двойной удар",
-			"zhCN": "狂怒双重横扫"
+			"zhCN": "狂怒双重横扫",
+			"zhTW": "狂怒雙手揮擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr im Berserkermodus Doppelschwung wirkt, hält der Berserkermodus 2 Sek. länger an.\n\nTags: Kern, Zwei Waffen, Schaden, Physisch, Wut.",
@@ -1051,7 +1104,8 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"plPL": "Użycie Podwójnego Uderzenia podczas berserkowania zapewnia dodatkowo 2 sek. berserkowania.\n\nTags: Główne, Broń w Każdej Ręce, Obrażenia, Fizyczne, Furia.",
 			"ptBR": "Lançar Golpe Duplo sob efeito de Berserk concede 2 segundos adicionais de Berserk.\n\nTags: Principal, Empunhadura Dupla, Dano, Física, Fúria.",
 			"ruRU": "Когда вы применяете \"Двойной удар\" в состоянии берсерка, время действия берсерка продлевается на 2 сек.\n\nTags: Основное, Оружие в каждой руке, Урон, Физический урон, Ярость.",
-			"zhCN": "狂暴状态下施放双重横扫可以获得额外 2 秒狂暴。\n\nTags: 核心, 双持, 伤害, 物理, 怒气."
+			"zhCN": "狂暴状态下施放双重横扫可以获得额外 2 秒狂暴。\n\nTags: 核心, 双持, 伤害, 物理, 怒气.",
+			"zhTW": "狂暴時施放雙手揮擊會使狂暴延長 2 秒。\n\nTags: 核心, 雙持, 傷害, 物理, 怒氣."
 },
 		id: 26,
 		maxPoints: 1,
@@ -1075,7 +1129,8 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"plPL": "Gwałtowne Podwójne Uderzenie",
 			"ptBR": "Golpe Duplo Violento",
 			"ruRU": "Жестокий двойной удар",
-			"zhCN": "暴力双重横扫"
+			"zhCN": "暴力双重横扫",
+			"zhTW": "凶暴雙手揮擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen Gegner mit beiden Treffern von Doppelschwung trefft, wird dieser 1 Sek. lang verwundbar.\n\nTags: Kern, Zwei Waffen, Schaden, Physisch, Wut.",
@@ -1088,7 +1143,8 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"plPL": "Wróg trafiony obydwoma atakami Podwójnego Uderzenia staje się odsłonięty na 1 sek.\n\nTags: Główne, Broń w Każdej Ręce, Obrażenia, Fizyczne, Furia.",
 			"ptBR": "Acertar um inimigo com ambos os golpes de Golpe Duplo torna-o vulnerável por 1 segundos.\n\nTags: Principal, Empunhadura Dupla, Dano, Física, Fúria.",
 			"ruRU": "Противники, пораженные обеими атаками \"Двойного удара\", становятся уязвимыми на 1 сек.\n\nTags: Основное, Оружие в каждой руке, Урон, Физический урон, Ярость.",
-			"zhCN": "双重横扫的两次攻击对一名敌人造成伤害的同时也会使其陷入易伤状态, 持续 1 秒。\n\nTags: 核心, 双持, 伤害, 物理, 怒气."
+			"zhCN": "双重横扫的两次攻击对一名敌人造成伤害的同时也会使其陷入易伤状态, 持续 1 秒。\n\nTags: 核心, 双持, 伤害, 物理, 怒气.",
+			"zhTW": "雙手揮擊兩次攻擊打中同一名敵人時,會使其易傷 1 秒。\n\nTags: 核心, 雙持, 傷害, 物理, 怒氣."
 },
 		id: 27,
 		maxPoints: 1,
@@ -1111,7 +1167,8 @@ Tags: Vulnerable, Core, Lucky Hit.`,
 			"plPL": "Punkt Uciskowy",
 			"ptBR": "Ponto de Pressão",
 			"ruRU": "Уязвимая точка",
-			"zhCN": "点穴打击"
+			"zhCN": "点穴打击",
+			"zhTW": "施壓"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Eure Kernfertigkeiten verfügen über eine Chance von {10/20/30/40/50/60/70/80/90/100}%, Gegner 2 Sek. lang verwundbar zu machen.\n\nTags: Verwundbar, Kern, Glückstreffer.",
@@ -1124,7 +1181,8 @@ Tags: Vulnerable, Core, Lucky Hit.`,
 			"plPL": "Szczęśliwy traf: Twoje umiejętności Główne mają {10/20/30/40/50/60/70/80/90/100}% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Odsłonięcie, Główne, Szczęśliwy Traf.",
 			"ptBR": "Golpe de Sorte: Suas habilidades principais têm até {10/20/30/40/50/60/70/80/90/100}% de chance de tornar os inimigos vulneráveis por 2 segundos.\n\nTags: Vulnerável, Principal, Golpe de Sorte.",
 			"ruRU": "Удачный удар: ваши основные умения с вероятностью до {10/20/30/40/50/60/70/80/90/100}% делают противников уязвимыми на 2 сек.\n\nTags: Уязвимость, Основное, Удачный удар.",
-			"zhCN": "幸运一击: 你的核心技能最多有 {10/20/30/40/50/60/70/80/90/100}% 几率使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 易伤, 核心, 幸运一击."
+			"zhCN": "幸运一击: 你的核心技能最多有 {10/20/30/40/50/60/70/80/90/100}% 几率使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 易伤, 核心, 幸运一击.",
+			"zhTW": "幸運觸發:你的核心技能最高有 {10/20/30/40/50/60/70/80/90/100}% 機率讓敵人易傷,持續 2 秒。\n\nTags: 易傷, 核心, 幸運觸發."
 },
 		id: 28,
 		maxPoints: 3,
@@ -1149,7 +1207,8 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"plPL": "Rozprucie",
 			"ptBR": "Despedaçar",
 			"ruRU": "Рваные раны",
-			"zhCN": "痛割"
+			"zhCN": "痛割",
+			"zhTW": "撕裂"
 },
 		descriptionLocalized: {
 			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 33%\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
@@ -1162,7 +1221,8 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 33%\nRozpłatujesz wrogów przed sobą, zadając im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń i powodując {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
 			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: 33%\nCorta os inimigos à sua frente, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano e aplicando {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
 			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 33%.\nВы рубите противников перед собой, нанося им {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона мгновенно и еще {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: 33%\n对面前的敌人发动顺劈斩, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害并在 5 秒内造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 点流血伤害。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩."
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 33%\n对面前的敌人发动顺劈斩, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害并在 5 秒内造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 点流血伤害。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩.",
+			"zhTW": "怒氣消耗:{#}\n幸運觸發機率:33%\n劈斬你前方的敵人,造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 點傷害並在 5 秒內對敵人造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 點流血傷害。\n\nTags: 核心, 流血, 傷害, 物理, 怒氣, 斬擊."
 },
 		id: 29,
 		maxPoints: 5,
@@ -1187,7 +1247,8 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"plPL": "Wzmocnione Rozprucie",
 			"ptBR": "Despedaçar Aperfeiçoado",
 			"ruRU": "Усиленные рваные раны",
-			"zhCN": "强化痛割"
+			"zhCN": "强化痛割",
+			"zhTW": "強化撕裂"
 },
 		descriptionLocalized: {
 			"deDE": "Direktschaden mit Zerfleischen macht Gegner 2 Sek. länger verwundbar.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
@@ -1200,7 +1261,8 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"plPL": "Zadawanie bezpośrednich obrażeń Rozpruciem wydłuża czas działania efektu odsłonięcia wrogów o 2 sek.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
 			"ptBR": "Causar dano direto com Despedaçar aumenta a duração de vulnerabilidade dos inimigos em 2 segundos.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
 			"ruRU": "Прямой урон от \"Рваных ран\" продлевает действующие на противников эффекты уязвимости на 2 сек.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
-			"zhCN": "痛割造成直接伤害会使敌人身上的易伤效果延长 2 秒。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩."
+			"zhCN": "痛割造成直接伤害会使敌人身上的易伤效果延长 2 秒。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩.",
+			"zhTW": "撕裂造成直接傷害時,會使敵人的易傷效果持續時間延長 2 秒。\n\nTags: 核心, 流血, 傷害, 物理, 怒氣, 斬擊."
 },
 		id: 30,
 		maxPoints: 1,
@@ -1224,7 +1286,8 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"plPL": "Gwałtowne Rozprucie",
 			"ptBR": "Despedaçar Violento",
 			"ruRU": "Жестокие рваные раны",
-			"zhCN": "暴力痛割"
+			"zhCN": "暴力痛割",
+			"zhTW": "凶暴撕裂"
 },
 		descriptionLocalized: {
 			"deDE": "Zerfleischen fügt verwundbaren Gegnern x12% mehr Schaden zu.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
@@ -1237,7 +1300,8 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"plPL": "Rozprucie zadaje odsłoniętym wrogom obrażenia zwiększone o x12%.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
 			"ptBR": "Despedaçar causa 12% de dano aumentado a inimigos vulneráveis.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
 			"ruRU": "\"Рваные раны\" наносят на x12% больше урона уязвимым противникам.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
-			"zhCN": "痛割对处于易伤状态的敌人造成的伤害提高 x12%。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩."
+			"zhCN": "痛割对处于易伤状态的敌人造成的伤害提高 x12%。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩.",
+			"zhTW": "撕裂對易傷的敵人造成的傷害提高 x12%。\n\nTags: 核心, 流血, 傷害, 物理, 怒氣, 斬擊."
 },
 		id: 31,
 		maxPoints: 1,
@@ -1261,7 +1325,8 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"plPL": "Wściekłe Rozprucie",
 			"ptBR": "Despedaçar Furioso",
 			"ruRU": "Яростные рваные раны",
-			"zhCN": "狂怒痛割"
+			"zhCN": "狂怒痛割",
+			"zhTW": "狂怒撕裂"
 },
 		descriptionLocalized: {
 			"deDE": "Direkter Schaden mit Zerfleischen verleiht 4 Wut pro getroffenem Gegner, bis maximal 20 Wut.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
@@ -1274,7 +1339,8 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"plPL": "Bezpośrednie obrażenia zadane Rozpruciem zapewniają 4 pkt. furii za każdego trafionego wroga, do maksymalnie 20 pkt. furii.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
 			"ptBR": "Dano direto com Despedaçar concede 4 de fúria por inimigo atingido, até o máximo de 20 de fúria.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
 			"ruRU": "Прямой урон от \"Рваных ран\" дает 4 ед. ярости за каждого пораженного противника вплоть до 20 ед. ярости.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
-			"zhCN": "痛割的直接伤害每命中一名敌人获得 4 点怒气, 最多获得 20 点怒气。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩."
+			"zhCN": "痛割的直接伤害每命中一名敌人获得 4 点怒气, 最多获得 20 点怒气。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩.",
+			"zhTW": "撕裂的直接傷害每擊中一個敵人可讓你獲得 4 點怒氣,最多 20 點怒氣。\n\nTags: 核心, 流血, 傷害, 物理, 怒氣, 斬擊."
 },
 		id: 32,
 		maxPoints: 1,
@@ -1299,7 +1365,8 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"plPL": "Trąba Powietrzna",
 			"ptBR": "Redemoinho",
 			"ruRU": "Вихрь",
-			"zhCN": "旋风斩"
+			"zhCN": "旋风斩",
+			"zhTW": "旋風斬"
 },
 		descriptionLocalized: {
 			"deDE": "Wutkosten: {#}pro Sek\nGlückstrefferchance: 20%\nGreift Gegner in der Nähe schnell an und verursacht {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% Schaden.\n\nTags: Kern, Kanalisiert, Wut, Physisch, Schaden.",
@@ -1312,7 +1379,8 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"plPL": "Koszt: {#} pkt furii na sekund\nSzansa na szczęśliwy traf: 20%\nBłyskawiczny atak na wrogów wokół, zadający {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% pkt. obrażeń.\n\nTags: Główne, Podtrzymanie, Furia, Fizyczne, Obrażenia.",
 			"ptBR": "Custo de fúria: {#} por segundo\nChance de Golpe de Sorte: 20%\nAtaca rapidamente inimigos ao redor, causando {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de dano.\n\nTags: Principal, Canalizada, Fúria, Física, Dano.",
 			"ruRU": "Затраты ярости: {#} .\nВероятность удачного удара: 20%.\nВы стремительно атакуете ближайших противников, нанося {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% ед. урона.\n\nTags: Основное, Поддерживаемое, Ярость, Физический урон, Урон.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: 20%\n快速攻击周围的敌人, 造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 点伤害。\n\nTags: 核心, 引导, 怒气, 物理, 伤害."
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 20%\n快速攻击周围的敌人, 造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 点伤害。\n\nTags: 核心, 引导, 怒气, 物理, 伤害.",
+			"zhTW": "怒氣消耗:每秒 {#}\n幸運觸發機率:20%\n快速攻擊附近敵人,造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 點傷害。\n\nTags: 核心, 引導, 怒氣, 物理, 傷害."
 },
 		id: 33,
 		maxPoints: 5,
@@ -1337,7 +1405,8 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"plPL": "Wzmocniona Trąba Powietrzna",
 			"ptBR": "Redemoinho Aperfeiçoado",
 			"ruRU": "Усиленный вихрь",
-			"zhCN": "强化旋风斩"
+			"zhCN": "强化旋风斩",
+			"zhTW": "強化旋風斬"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet 1 Wut, wann immer Wirbelwind einem Gegner direkten Schaden zufügt – oder 4 Wut gegen Elitegegner.\n\nTags: Kern, Kanalisiert, Wut, Physisch, Schaden.",
@@ -1350,7 +1419,8 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"plPL": "Zyskujesz 1 pkt. furii za każdym razem, gdy Trąba Powietrzna zadaje bezpośrednie obrażenia wrogowi, albo 4 pkt. furii, jeśli wróg jest elitarny.\n\nTags: Główne, Podtrzymanie, Furia, Fizyczne, Obrażenia.",
 			"ptBR": "Recebe 1 de fúria sempre que Redemoinho causa dano direto a um inimigo, ou 4 de fúria contra inimigos de elite.\n\nTags: Principal, Canalizada, Fúria, Física, Dano.",
 			"ruRU": "Вы накапливаете 1 ед. ярости, когда \"Вихрь\" наносит прямой урон, и 4 ед. ярости, если урон получает особый противник.\n\nTags: Основное, Поддерживаемое, Ярость, Физический урон, Урон.",
-			"zhCN": "旋风斩每次对一名敌人造成直接伤害时获得 1 点怒气, 对精英敌人造成伤害则获得 4 点怒气。\n\nTags: 核心, 引导, 怒气, 物理, 伤害."
+			"zhCN": "旋风斩每次对一名敌人造成直接伤害时获得 1 点怒气, 对精英敌人造成伤害则获得 4 点怒气。\n\nTags: 核心, 引导, 怒气, 物理, 伤害.",
+			"zhTW": "旋風斬每次對敵人造成直接傷害時獲得 1 點怒氣,對精英敵人則獲得 4 點怒氣。\n\nTags: 核心, 引導, 怒氣, 物理, 傷害."
 },
 		id: 34,
 		maxPoints: 1,
@@ -1374,7 +1444,8 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"plPL": "Wściekła Trąba Powietrzna",
 			"ptBR": "Redemoinho Furioso",
 			"ruRU": "Яростный вихрь",
-			"zhCN": "狂怒旋风斩"
+			"zhCN": "狂怒旋风斩",
+			"zhTW": "狂怒旋風斬"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr eine Hiebwaffe führt, verursacht Wirbelwind im Verlauf von 5 Sek. zusätzlich 40% des Basisschadens als Blutungsschaden.\n\nTags: Kern, Kanalisiert, Wut, Physisch, Schaden.",
@@ -1387,7 +1458,8 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"plPL": "Kiedy korzystasz z broni siecznej, Trąba Powietrzna zadaje również 40% podstawowych obrażeń jako obrażenia od krwawienia w ciągu 5 sek.\n\nTags: Główne, Podtrzymanie, Furia, Fizyczne, Obrażenia.",
 			"ptBR": "Ao usar uma arma de corte, Redemoinho também aplica 40% do dano-base como dano de sangramento ao longo de 5 segundos.\n\nTags: Principal, Canalizada, Fúria, Física, Dano.",
 			"ruRU": "При использовании рубящего оружия \"Вихрь\" также наносит урон от кровотечения в объеме 40% базового урона за 5 сек.\n\nTags: Основное, Поддерживаемое, Ярость, Физический урон, Урон.",
-			"zhCN": "使用劈砍武器时, 旋风斩也会在 5 秒内造成 40% 基础伤害的流血伤害。\n\nTags: 核心, 引导, 怒气, 物理, 伤害."
+			"zhCN": "使用劈砍武器时, 旋风斩也会在 5 秒内造成 40% 基础伤害的流血伤害。\n\nTags: 核心, 引导, 怒气, 物理, 伤害.",
+			"zhTW": "使用斬擊武器時,旋風斬會在 5 秒內額外施加相當於其基礎傷害 40% 的流血傷害。\n\nTags: 核心, 引導, 怒氣, 物理, 傷害."
 },
 		id: 35,
 		maxPoints: 1,
@@ -1411,7 +1483,8 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"plPL": "Gwałtowna Trąba Powietrzna",
 			"ptBR": "Redemoinho Violento",
 			"ruRU": "Жестокий вихрь",
-			"zhCN": "狂暴旋风斩"
+			"zhCN": "狂暴旋风斩",
+			"zhTW": "凶暴旋風斬"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Wirbelwind 2 Sek. lang eingesetzt wurde, verursacht Wirbelwind x30% mehr Schaden, bis er abgebrochen wird.\n\nTags: Kern, Kanalisiert, Wut, Physisch, Schaden.",
@@ -1424,7 +1497,8 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"plPL": "Jeśli używasz Trąby Powietrznej przez 2 sek., umiejętność ta zadaje obrażenia zwiększone o x30% do czasu jej anulowania.\n\nTags: Główne, Podtrzymanie, Furia, Fizyczne, Obrażenia.",
 			"ptBR": "Depois de usar Redemoinho por 2 segundos, Redemoinho causa 30% de dano aumentado até ser cancelado.\n\nTags: Principal, Canalizada, Fúria, Física, Dano.",
 			"ruRU": "Когда время действия \"Вихря\" достигает 2 сек., наносимый им урон увеличивается на x30% до отмены умения.\n\nTags: Основное, Поддерживаемое, Ярость, Физический урон, Урон.",
-			"zhCN": "使用旋风斩持续 2 秒后, 旋风斩造成的伤害提高 x30%, 该效果会一直持续到取消该技能。\n\nTags: 核心, 引导, 怒气, 物理, 伤害."
+			"zhCN": "使用旋风斩持续 2 秒后, 旋风斩造成的伤害提高 x30%, 该效果会一直持续到取消该技能。\n\nTags: 核心, 引导, 怒气, 物理, 伤害.",
+			"zhTW": "使用旋風斬後的 2 秒內,旋風斬造成的傷害提高 x30%,直到解除為止。\n\nTags: 核心, 引導, 怒氣, 物理, 傷害."
 },
 		id: 36,
 		maxPoints: 1,
@@ -1447,7 +1521,8 @@ Tags: Fury, Basic, Two-Handed.`,
 			"plPL": "Nieskończona Furia",
 			"ptBR": "Raiva Infinita",
 			"ruRU": "Бесконечная ярость",
-			"zhCN": "无尽怒气"
+			"zhCN": "无尽怒气",
+			"zhTW": "無盡狂怒"
 },
 		descriptionLocalized: {
 			"deDE": "Basisfertigkeiten erzeugen x{5/10/15/20/25/30/35/40/45/50}% mehr Wut, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Wut, Basis, Zweihändig.",
@@ -1460,7 +1535,8 @@ Tags: Fury, Basic, Two-Handed.`,
 			"plPL": "Umiejętności Podstawowe generują o x{5/10/15/20/25/30/35/40/45/50}% więcej furii, kiedy korzystasz z broni dwuręcznej.\n\nTags: Furia, Podstawowe, Dwuręczne.",
 			"ptBR": "Habilidades básicas geram {5/10/15/20/25/30/35/40/45/50}% de fúria adicional ao usar armas de duas mãos.\n\nTags: Fúria, Básica, Duas mãos.",
 			"ruRU": "Базовые умения позволяют накопить на x{5/10/15/20/25/30/35/40/45/50}% больше ярости при использовании двуручного оружия.\n\nTags: Ярость, Базовое, Двуручное.",
-			"zhCN": "使用双手武器时, 基础技能生成的怒气提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 怒气, 基础, 双手."
+			"zhCN": "使用双手武器时, 基础技能生成的怒气提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 怒气, 基础, 双手.",
+			"zhTW": "使用雙手武器時,基本技能產生的怒氣提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 怒氣, 基本, 雙手."
 },
 		id: 37,
 		maxPoints: 3,
@@ -1487,7 +1563,8 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"plPL": "Wyzywający Okrzyk",
 			"ptBR": "Brado Desafiador",
 			"ruRU": "Подстрекающий крик",
-			"zhCN": "挑战怒吼"
+			"zhCN": "挑战怒吼",
+			"zhTW": "挑戰怒吼"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nVerspottet Gegner in der Nähe und erhaltet 6 Sek. lang {40/44/48/52/56/60/64/68/72/76}% Schadensreduktion.\n\nTags: Defensiv, Ruf, Kontrollverlust, Schadensreduktion, Abklingzeit.",
@@ -1500,7 +1577,8 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nProwokujesz pobliskich wrogów i zyskujesz {40/44/48/52/56/60/64/68/72/76}% do redukcji obrażeń przez 6 sek.\n\nTags: Defensywa, Okrzyk, Ograniczanie Kontroli, Redukcja Obrażeń, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nProvoca inimigos próximos e recebe {40/44/48/52/56/60/64/68/72/76}% de redução de dano por 6 segundos.\n\nTags: Defesa, Grito, Controle de Grupo, Redução de Dano, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВы провоцируете ближайших противников и получаете на {40/44/48/52/56/60/64/68/72/76}% меньше урона в течение 6 сек.\n\nTags: Защита, Крик, Контроль, Уменьшение урона, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n嘲讽附近的敌人并获得 {40/44/48/52/56/60/64/68/72/76}% 伤害减免, 持续 6 秒。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n嘲讽附近的敌人并获得 {40/44/48/52/56/60/64/68/72/76}% 伤害减免, 持续 6 秒。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n嘲諷附近的敵人,獲得 {40/44/48/52/56/60/64/68/72/76}% 傷害減免效果,持續 6 秒。\n\nTags: 防禦, 怒吼, 控場, 傷害減免, 冷卻時間."
 },
 		id: 38,
 		maxPoints: 5,
@@ -1525,7 +1603,8 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"plPL": "Wzmocniony Wyzywający Okrzyk",
 			"ptBR": "Brado Desafiador Aperfeiçoado",
 			"ruRU": "Усиленный подстрекающий крик",
-			"zhCN": "强化挑战怒吼"
+			"zhCN": "强化挑战怒吼",
+			"zhTW": "強化挑戰怒吼"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Herausforderungsruf aktiv ist, wird Euer maximales Leben um x20% erhöht.\n\nTags: Defensiv, Ruf, Kontrollverlust, Schadensreduktion, Abklingzeit.",
@@ -1538,7 +1617,8 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"plPL": "Kiedy Wyzywający Okrzyk jest aktywny, zyskujesz premię x20% do maksymalnego zdrowia.\n\nTags: Defensywa, Okrzyk, Ograniczanie Kontroli, Redukcja Obrażeń, Odnowienie.",
 			"ptBR": "Enquanto Brado Desafiador está ativo, recebe 20% de bônus de vida máxima.\n\nTags: Defesa, Grito, Controle de Grupo, Redução de Dano, Recarga.",
 			"ruRU": "Пока действует \"Подстрекающий крик\", ваш максимальный запас здоровья увеличивается на x20%.\n\nTags: Защита, Крик, Контроль, Уменьшение урона, Время восстановления.",
-			"zhCN": "挑战怒吼激活时, 生命上限获得 x20% 加成。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间."
+			"zhCN": "挑战怒吼激活时, 生命上限获得 x20% 加成。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间.",
+			"zhTW": "挑戰怒吼生效時,你會獲得 x20% 額外生命值上限。\n\nTags: 防禦, 怒吼, 控場, 傷害減免, 冷卻時間."
 },
 		id: 39,
 		maxPoints: 1,
@@ -1562,7 +1642,8 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"plPL": "Strategiczny Wyzywający Okrzyk",
 			"ptBR": "Brado Desafiador Estratégico",
 			"ruRU": "Стратегический подстрекающий крик",
-			"zhCN": "战略挑战怒吼"
+			"zhCN": "战略挑战怒吼",
+			"zhTW": "戰略挑戰怒吼"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Herausforderungsruf aktiv ist, erhaltet Ihr Dornen in Höhe von 30% Eures maximalen Lebens.\n\nTags: Defensiv, Ruf, Kontrollverlust, Schadensreduktion, Abklingzeit.",
@@ -1575,7 +1656,8 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"plPL": "Kiedy Wyzywający Okrzyk jest aktywny, zyskujesz ciernie równe 30% twojego maksymalnego zdrowia.\n\nTags: Defensywa, Okrzyk, Ograniczanie Kontroli, Redukcja Obrażeń, Odnowienie.",
 			"ptBR": "Enquanto Brado Desafiador está ativo, recebe uma quantidade de espinhos equivalente a 30% da sua vida máxima.\n\nTags: Defesa, Grito, Controle de Grupo, Redução de Dano, Recarga.",
 			"ruRU": "Пока действует \"Подстрекающий крик\", вы получаете эффект шипов в объеме 30% максимального запаса здоровья.\n\nTags: Защита, Крик, Контроль, Уменьшение урона, Время восстановления.",
-			"zhCN": "挑战怒吼激活时, 获得相当于 30% 生命上限的荆棘。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间."
+			"zhCN": "挑战怒吼激活时, 获得相当于 30% 生命上限的荆棘。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间.",
+			"zhTW": "在挑戰怒吼生效時,獲得等同於生命值上限 30% 的荊棘效果。\n\nTags: 防禦, 怒吼, 控場, 傷害減免, 冷卻時間."
 },
 		id: 40,
 		maxPoints: 1,
@@ -1599,7 +1681,8 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"plPL": "Taktyczny Wyzywający Okrzyk",
 			"ptBR": "Brado Desafiador Tático",
 			"ruRU": "Тактический подстрекающий крик",
-			"zhCN": "战术挑战怒吼"
+			"zhCN": "战术挑战怒吼",
+			"zhTW": "戰術挑戰怒吼"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Herausforderungsruf aktiv ist, erhaltet Ihr jedes Mal, wenn Ihr Schaden erleidet, 3 Wut.\n\nTags: Defensiv, Ruf, Kontrollverlust, Schadensreduktion, Abklingzeit.",
@@ -1612,7 +1695,8 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"plPL": "Kiedy Wyzywający Okrzyk jest aktywny, zapewnia 3 pkt. furii za każdym razem, gdy otrzymasz obrażenia.\n\nTags: Defensywa, Okrzyk, Ograniczanie Kontroli, Redukcja Obrażeń, Odnowienie.",
 			"ptBR": "Enquanto Brado Desafiador está ativo, você recebe 3 de fúria sempre que recebe dano.\n\nTags: Defesa, Grito, Controle de Grupo, Redução de Dano, Recarga.",
 			"ruRU": "Пока действует \"Подстрекающий крик\", вы накапливаете 3 ед. ярости каждый раз, когда получаете урон.\n\nTags: Защита, Крик, Контроль, Уменьшение урона, Время восстановления.",
-			"zhCN": "挑战怒吼激活时, 每次受到伤害都会获得 3 点怒气。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间."
+			"zhCN": "挑战怒吼激活时, 每次受到伤害都会获得 3 点怒气。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间.",
+			"zhTW": "挑戰怒吼生效時,你每次受到傷害都會產生 3 點怒氣。\n\nTags: 防禦, 怒吼, 控場, 傷害減免, 冷卻時間."
 },
 		id: 41,
 		maxPoints: 1,
@@ -1636,7 +1720,8 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"plPL": "Żelazna Skóra",
 			"ptBR": "Pele de Ferro",
 			"ruRU": "Железная кожа",
-			"zhCN": "钢铁之肤"
+			"zhCN": "钢铁之肤",
+			"zhTW": "鋼鐵之膚"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nStählt Euch und erhaltet eine Barriere, die 5 Sek. lang {50/55/60/65/70/75/80/85/90/95}% Eures verlorenen Lebens absorbiert.\n\nTags: Defensiv, Barriere, Abklingzeit, Leben.",
@@ -1649,7 +1734,8 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"plPL": "Czas odnowienia: {#} sek.\nOsłaniasz się barierą, która pochłania obrażenia równe {50/55/60/65/70/75/80/85/90/95}% twojego brakującego zdrowia w ciągu 5 sek.\n\nTags: Defensywa, Bariera, Odnowienie, Zdrowie.",
 			"ptBR": "Recarga: {#} segundos\nVocê se prepara, recebendo uma barreira que absorve {50/55/60/65/70/75/80/85/90/95}% da sua vida perdida por 5 segundos.\n\nTags: Defesa, Barreira, Recarga, Vida.",
 			"ruRU": "Время восстановления: {#} сек.\nВы собираетесь с силами и окружаете себя барьером, который поглощает урон в объеме {50/55/60/65/70/75/80/85/90/95}% недостающего у вас здоровья. Время действия барьера – 5 сек.\n\nTags: Защита, Барьер, Время восстановления, Здоровье.",
-			"zhCN": "冷却时间: {#} 秒\n强化自己, 获得一个能吸收相当于已损失生命 {50/55/60/65/70/75/80/85/90/95}% 的屏障, 持续 5 秒。\n\nTags: 防御, 屏障, 冷却时间, 生命."
+			"zhCN": "冷却时间: {#} 秒\n强化自己, 获得一个能吸收相当于已损失生命 {50/55/60/65/70/75/80/85/90/95}% 的屏障, 持续 5 秒。\n\nTags: 防御, 屏障, 冷却时间, 生命.",
+			"zhTW": "冷卻時間:{#} 秒\n產生鐵壁一般的防禦,獲得一道能吸收相當於失去生命值 {50/55/60/65/70/75/80/85/90/95}% 的屏障,持續 5 秒。\n\nTags: 防禦, 屏障, 冷卻時間, 生命值."
 },
 		id: 42,
 		maxPoints: 5,
@@ -1674,7 +1760,8 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"plPL": "Wzmocniona Żelazna Skóra",
 			"ptBR": "Pele de Ferro Aperfeiçoada",
 			"ruRU": "Усиленная железная кожа",
-			"zhCN": "强化钢铁之肤"
+			"zhCN": "强化钢铁之肤",
+			"zhTW": "強化鋼鐵之膚"
 },
 		descriptionLocalized: {
 			"deDE": "Die Barriere von Eisenhaut absorbiert 10% des maximalen Lebens mehr.\n\nTags: Defensiv, Barriere, Abklingzeit, Leben.",
@@ -1687,7 +1774,8 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"plPL": "Bariera zapewniana przez Żelazną Skórę pochłania o 10% więcej twojego maksymalnego zdrowia.\n\nTags: Defensywa, Bariera, Odnowienie, Zdrowie.",
 			"ptBR": "A barreira de Pele de Ferro absorve 10% mais da sua vida máxima.\n\nTags: Defesa, Barreira, Recarga, Vida.",
 			"ruRU": "Барьер \"Железной кожи\" дополнительно поглощает урон в размере еще 10% вашего максимального запаса здоровья.\n\nTags: Защита, Барьер, Время восстановления, Здоровье.",
-			"zhCN": "钢铁之肤的屏障额外吸收你的生命上限的 10%。\n\nTags: 防御, 屏障, 冷却时间, 生命."
+			"zhCN": "钢铁之肤的屏障额外吸收你的生命上限的 10%。\n\nTags: 防御, 屏障, 冷却时间, 生命.",
+			"zhTW": "鋼鐵之膚的屏障會額外吸收相當於你生命值上限 10% 的傷害。\n\nTags: 防禦, 屏障, 冷卻時間, 生命值."
 },
 		id: 43,
 		maxPoints: 1,
@@ -1711,7 +1799,8 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"plPL": "Taktyczna Żelazna Skóra",
 			"ptBR": "Pele de Ferro Tática",
 			"ruRU": "Тактическая железная кожа",
-			"zhCN": "战术钢铁之肤"
+			"zhCN": "战术钢铁之肤",
+			"zhTW": "戰術鋼鐵之膚"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Eisenhaut aktiv ist, werdet Ihr pro Sekunde um 10% der ursprünglichen Höhe der Barriere als Leben pro Sekunde geheilt.\n\nTags: Defensiv, Barriere, Abklingzeit, Leben.",
@@ -1724,7 +1813,8 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"plPL": "Kiedy Żelazna Skóra jest aktywna, co sekundę odzyskujesz w postaci zdrowia równowartość 10% pierwotnej mocy bariery.\n\nTags: Defensywa, Bariera, Odnowienie, Zdrowie.",
 			"ptBR": "Enquanto Pele de Ferro está ativa, cura 10% do valor original da barreira por segundo.\n\nTags: Defesa, Barreira, Recarga, Vida.",
 			"ruRU": "Пока действует \"Железная кожа\", вы раз в секунду восполняете здоровье, равное 10% изначальной прочности барьера.\n\nTags: Защита, Барьер, Время восстановления, Здоровье.",
-			"zhCN": "钢铁之肤激活时, 每秒恢复相当于屏障初始数值 10% 的生命。\n\nTags: 防御, 屏障, 冷却时间, 生命."
+			"zhCN": "钢铁之肤激活时, 每秒恢复相当于屏障初始数值 10% 的生命。\n\nTags: 防御, 屏障, 冷却时间, 生命.",
+			"zhTW": "在鋼鐵之膚啟動時,每秒治療相當於屏障原始數值 10% 的生命值。\n\nTags: 防禦, 屏障, 冷卻時間, 生命值."
 },
 		id: 44,
 		maxPoints: 1,
@@ -1748,7 +1838,8 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"plPL": "Strategiczna Żelazna Skóra",
 			"ptBR": "Pele de Ferro Estratégica",
 			"ruRU": "Стратегическая железная кожа",
-			"zhCN": "战略钢铁之肤"
+			"zhCN": "战略钢铁之肤",
+			"zhTW": "戰略鋼鐵之膚"
 },
 		descriptionLocalized: {
 			"deDE": "Eisenhaut verleiht außerdem 15% Eures Basislebens als Stählung. Die Menge verdoppelt sich, wenn Ihr beim Einsatz weniger als 50% Leben habt.\n\nTags: Defensiv, Barriere, Abklingzeit, Leben.",
@@ -1761,7 +1852,8 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"plPL": "Żelazna Skóra zapewnia również 15% podstawowego zdrowia jako umocnienie. Wartość ta jest podwojona, jeśli użyjesz umiejętności, gdy masz mniej niż 50% zdrowia.\n\nTags: Defensywa, Bariera, Odnowienie, Zdrowie.",
 			"ptBR": "Pele de Ferro também concede 15% de vida básica como fortificação. O valor é dobrado se lançar com vida abaixo de 50%.\n\nTags: Defesa, Barreira, Recarga, Vida.",
 			"ruRU": "\"Железная кожа\" также дает вам укрепление в объеме 15% базового запаса здоровья. Этот объем удваивается, если ваш уровень здоровья ниже 50%.\n\nTags: Защита, Барьер, Время восстановления, Здоровье.",
-			"zhCN": "钢铁之肤也会强固你 15% 的基础生命。生命低于 50% 时, 该数值翻倍。\n\nTags: 防御, 屏障, 冷却时间, 生命."
+			"zhCN": "钢铁之肤也会强固你 15% 的基础生命。生命低于 50% 时, 该数值翻倍。\n\nTags: 防御, 屏障, 冷却时间, 生命.",
+			"zhTW": "鋼鐵之膚也會賦予相當於 15% 基礎生命值的強韌。在生命值低於 50% 時施放可使此效果加倍。\n\nTags: 防禦, 屏障, 冷卻時間, 生命值."
 },
 		id: 45,
 		maxPoints: 1,
@@ -1784,7 +1876,8 @@ Tags: Life, Thorns.`,
 			"plPL": "Wybuch Gniewu",
 			"ptBR": "Estouro",
 			"ruRU": "Вспышка гнева",
-			"zhCN": "血气外冲"
+			"zhCN": "血气外冲",
+			"zhTW": "爆發"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet {20/40/60/80/100/120/140/160/180/200} Dornen. Erhaltet zusätzlich 10 Dornen pro 50 zusätzlichem maximalen Leben.\n\nTags: Leben, Dornen.",
@@ -1797,7 +1890,8 @@ Tags: Life, Thorns.`,
 			"plPL": "Zyskujesz premię {20/40/60/80/100/120/140/160/180/200} do cierni. Ponadto zyskujesz premię 10 do cierni za każde posiadane 50 pkt. premii do maksymalnego zdrowia.\n\nTags: Zdrowie, Ciernie.",
 			"ptBR": "Recebe {20/40/60/80/100/120/140/160/180/200} espinhos. Também recebe 10 espinhos por cada 50 de bônus de vida máxima que você tiver.\n\nTags: Vida, Espinhos.",
 			"ruRU": "Вы получаете {20/40/60/80/100/120/140/160/180/200} к показателю эффекта шипов. Вы также получаете 10 к показателю эффекта шипов за каждые 50 ед. здоровья, прибавленные к максимальному запасу.\n\nTags: Здоровье, Шипы.",
-			"zhCN": "获得 {20/40/60/80/100/120/140/160/180/200} 点荆棘。每拥有 50 点生命上限加成, 也会获得 10 点荆棘。\n\nTags: 生命, 荆棘."
+			"zhCN": "获得 {20/40/60/80/100/120/140/160/180/200} 点荆棘。每拥有 50 点生命上限加成, 也会获得 10 点荆棘。\n\nTags: 生命, 荆棘.",
+			"zhTW": "獲得 {20/40/60/80/100/120/140/160/180/200} 點荊棘。生命值上限每提高 50 點可獲得 10 點荊棘。\n\nTags: 生命值, 荊棘."
 },
 		id: 46,
 		maxPoints: 3,
@@ -1820,7 +1914,8 @@ Tags: Bleed, Thorns, Damage.`,
 			"plPL": "Wyprawiona Skóra",
 			"ptBR": "Forte como Aço",
 			"ruRU": "Шипастый щит",
-			"zhCN": "坚如钢钉"
+			"zhCN": "坚如钢钉",
+			"zhTW": "意志堅定"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht Eure Dornen um +{3/6/9/12/15/18/21/24/27/30}%. Wenn Gegner Euch treffen, erleiden sie im Verlauf von 5 Sek. 10% Eures Dornenschadens als Blutung.\n\nTags: Blutung, Dornen, Schaden.",
@@ -1833,7 +1928,8 @@ Tags: Bleed, Thorns, Damage.`,
 			"plPL": "Zwiększa obrażenia od twoich cierni o +{3/6/9/12/15/18/21/24/27/30}%. Kiedy wrogowie cię trafiają, otrzymują dodatkowo obrażenia od krwawienia równe 10% obrażeń od twoich cierni w ciągu 5 sek.\n\nTags: Krwawienie, Ciernie, Obrażenia.",
 			"ptBR": "Aumenta seus espinhos em +{3/6/9/12/15/18/21/24/27/30}%. Quando inimigos acertam você, eles recebem 10% de dano de espinhos adicional como sangramento ao longo de 5 segundos.\n\nTags: Sangramento, Espinhos, Dano.",
 			"ruRU": "Эффект шипов усиливается на +{3/6/9/12/15/18/21/24/27/30}%. Атакующие вас противники получают еще 10% урона от эффекта шипов как урон от кровотечения за 5 сек.\n\nTags: Кровотечение, Шипы, Урон.",
-			"zhCN": "你的荆棘提高 +{3/6/9/12/15/18/21/24/27/30}%。命中你的敌人会在 5 秒内额外受到流血伤害,数值相当于你荆棘的 10%。\n\nTags: 流血, 荆棘, 伤害."
+			"zhCN": "你的荆棘提高 +{3/6/9/12/15/18/21/24/27/30}%。命中你的敌人会在 5 秒内额外受到流血伤害,数值相当于你荆棘的 10%。\n\nTags: 流血, 荆棘, 伤害.",
+			"zhTW": "你的荊棘提高 +{3/6/9/12/15/18/21/24/27/30}%。當敵人擊中你時,其會額外在 5 秒內受到相當於你 10% 荊棘的流血傷害。\n\nTags: 流血, 荊棘, 傷害."
 },
 		id: 47,
 		maxPoints: 3,
@@ -1858,7 +1954,8 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Tąpnięcie",
 			"ptBR": "Pisada Poderosa",
 			"ruRU": "Топот",
-			"zhCN": "大地践踏"
+			"zhCN": "大地践踏",
+			"zhTW": "震地踐踏"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 33%\nStampft auf den Boden, verursacht {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% Schaden und betäubt 3 Sek. lang Gegner in der Nähe.\n\nTags: Defensiv, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -1871,7 +1968,8 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 33%\nWstrząsasz ziemią, zadając {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% pkt. obrażeń i ogłuszając pobliskich wrogów na 3 sek.\n\nTags: Defensywa, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 33%\nGolpeia o chão, causando {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% de dano e atordoando inimigos ao redor por 3 segundos.\n\nTags: Defesa, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 33%.\nВы с силой бьете по земле, нанося ближайшим противникам {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% ед. урона и оглушая их на 3 сек.\n\nTags: Защита, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n砸击地面, 造成 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% 点伤害并使周围所有敌人昏迷 3 秒。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n砸击地面, 造成 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% 点伤害并使周围所有敌人昏迷 3 秒。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:33%\n猛擊地面,造成 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% 點傷害並擊昏附近的敵人,持續 3 秒。\n\nTags: 防禦, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 48,
 		maxPoints: 5,
@@ -1896,7 +1994,8 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocnione Tąpnięcie",
 			"ptBR": "Pisada Poderosa Aperfeiçoada",
 			"ruRU": "Усиленный топот",
-			"zhCN": "强化大地践踏"
+			"zhCN": "强化大地践踏",
+			"zhTW": "強化震地踐踏"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht die Dauer von Aufstampfen um 1 Sek.\n\nTags: Defensiv, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -1909,7 +2008,8 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Czas działania Tąpnięcia jest wydłużony o 1 sek.\n\nTags: Defensywa, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Aumenta a duração de Pisada Poderosa em 1 segundo.\n\nTags: Defesa, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Время действия \"Топота\" увеличивается на 1 сек.\n\nTags: Защита, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "大地践踏的持续时间延长 1 秒。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "大地践踏的持续时间延长 1 秒。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "震地踐踏的持續時間延長 1 秒。\n\nTags: 防禦, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 49,
 		maxPoints: 1,
@@ -1933,7 +2033,8 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Taktyczne Tąpnięcie",
 			"ptBR": "Pisada Poderosa Tática",
 			"ruRU": "Тактический топот",
-			"zhCN": "战术大地践踏"
+			"zhCN": "战术大地践踏",
+			"zhTW": "戰術震地踐踏"
 },
 		descriptionLocalized: {
 			"deDE": "Aufstampfen erzeugt 25 Wut.\n\nTags: Defensiv, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -1946,7 +2047,8 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Tąpnięcie generuje 25 pkt. furii.\n\nTags: Defensywa, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Pisada Poderosa gera 25 de fúria.\n\nTags: Defesa, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "\"Топот\" дает 25 ед. ярости.\n\nTags: Защита, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "大地践踏生成 25 点怒气。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "大地践踏生成 25 点怒气。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "震地踐踏會產生 25 點怒氣。\n\nTags: 防禦, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 50,
 		maxPoints: 1,
@@ -1970,7 +2072,8 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Strategiczne Tąpnięcie",
 			"ptBR": "Pisada Poderosa Estratégica",
 			"ruRU": "Стратегический топот",
-			"zhCN": "战略大地践踏"
+			"zhCN": "战略大地践踏",
+			"zhTW": "戰略震地踐踏"
 },
 		descriptionLocalized: {
 			"deDE": "Verringert die Abklingzeit für Eure ultimative Fertigkeit für jeden Gegner, der durch Aufstampfen Schaden erleidet, um 1 Sek.\n\nTags: Defensiv, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -1983,7 +2086,8 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia twojej Mocy Specjalnej jest skrócony o 1 sek. za każdego wroga zranionego Tąpnięciem.\n\nTags: Defensywa, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Reduz a recarga da sua habilidade suprema em 1 segundo por cada inimigo atingido por Pisada Poderosa.\n\nTags: Defesa, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления мощного умения сокращается на 1 сек. за каждого противника, пораженного \"Топотом\".\n\nTags: Защита, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用大地践踏每对一名敌人造成伤害, 可以使你终极技能的冷却时间缩短 1 秒。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "使用大地践踏每对一名敌人造成伤害, 可以使你终极技能的冷却时间缩短 1 秒。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "震地踐踏每對一個敵人造成傷害,都會使你的絕招冷卻時間縮短 1 秒。\n\nTags: 防禦, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 51,
 		maxPoints: 1,
@@ -2007,7 +2111,8 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 			"plPL": "Okrzyk Bojowy",
 			"ptBR": "Brado de Convocação",
 			"ruRU": "Воодушевляющий клич",
-			"zhCN": "集结呐喊"
+			"zhCN": "集结呐喊",
+			"zhTW": "振奮戰吼"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nLasst einen Schlachtruf erschallen, der 6 Sek. lang Eure Bewegungsgeschwindigkeit um x{40/44/48/52/56/60/64/68/72/76}% und Eure Ressourcenerzeugung um +30% erhöht. Die Bewegungsgeschwindigkeit und Ressourcenerzeugung von Verbündeten in der Nähe wird 3 Sek. lang erhöht.\n\nTags: Defensiv, Ruf, Wut, Bewegung, Abklingzeit.",
@@ -2020,7 +2125,8 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nWydajesz gromki okrzyk bojowy, który zwiększa twoją szybkość ruchu o +30% oraz generowanie zasobów o x{40/44/48/52/56/60/64/68/72/76}% na 6 sek. Dla pobliskich sojuszników czas działania premii wynosi 3 sek.\n\nTags: Defensywa, Okrzyk, Furia, Ruch, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nSolta um brado de convocação, aumentando sua velocidade de movimento em +30% e a geração de recursos em {40/44/48/52/56/60/64/68/72/76}% por 6 segundos, enquanto os aliados próximos recebem aumento por 3 segundos.\n\nTags: Defesa, Grito, Fúria, Movimento, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nОбодряющий клич повышает вашу скорость передвижения на +30%, а скорость накопления ресурса – на x{40/44/48/52/56/60/64/68/72/76}% на 6 сек. Также усиливает находящихся рядом союзников на 3 сек.\n\nTags: Защита, Крик, Ярость, Движение, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n高呼集结呐喊, 使你的移动速度提高 +30%, 资源生成速度提高 x{40/44/48/52/56/60/64/68/72/76}%, 持续 6 秒, 附近盟友的效果为 3 秒。\n\nTags: 防御, 战吼, 怒气, 移动, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n高呼集结呐喊, 使你的移动速度提高 +30%, 资源生成速度提高 x{40/44/48/52/56/60/64/68/72/76}%, 持续 6 秒, 附近盟友的效果为 3 秒。\n\nTags: 防御, 战吼, 怒气, 移动, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n發出振奮士氣的戰吼,使你和附近盟友的移動速度提高 +30%,資源產生效率提高 x{40/44/48/52/56/60/64/68/72/76}%。你身上的效果持續 6 秒,盟友身上的效果持續 3 秒。\n\nTags: 防禦, 怒吼, 怒氣, 移動, 冷卻時間."
 },
 		id: 52,
 		maxPoints: 5,
@@ -2045,7 +2151,8 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 			"plPL": "Wzmocniony Okrzyk Bojowy",
 			"ptBR": "Brado de Convocação Aperfeiçoado",
 			"ruRU": "Усиленный воодушевляющий клич",
-			"zhCN": "强化集结呐喊"
+			"zhCN": "强化集结呐喊",
+			"zhTW": "強化振奮戰吼"
 },
 		descriptionLocalized: {
 			"deDE": "Schlachtruf macht Euch unaufhaltsam, solange er aktiv ist.\n\nTags: Defensiv, Ruf, Wut, Bewegung, Abklingzeit.",
@@ -2058,7 +2165,8 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 			"plPL": "Okrzyk Bojowy zapewnia nieustępliwość, kiedy jest aktywny.\n\nTags: Defensywa, Okrzyk, Furia, Ruch, Odnowienie.",
 			"ptBR": "Enquanto Brado de Convocação está ativo, concede implacável.\n\nTags: Defesa, Grito, Fúria, Movimento, Recarga.",
 			"ruRU": "\"Воодушевляющий клич\" также дает вам неудержимость.\n\nTags: Защита, Крик, Ярость, Движение, Время восстановления.",
-			"zhCN": "集结呐喊激活时使你获得不可阻挡。\n\nTags: 防御, 战吼, 怒气, 移动, 冷却时间."
+			"zhCN": "集结呐喊激活时使你获得不可阻挡。\n\nTags: 防御, 战吼, 怒气, 移动, 冷却时间.",
+			"zhTW": "振奮戰吼啟動時會賦予你無阻效果。\n\nTags: 防禦, 怒吼, 怒氣, 移動, 冷卻時間."
 },
 		id: 53,
 		maxPoints: 1,
@@ -2082,7 +2190,8 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 			"plPL": "Strategiczny Okrzyk Bojowy",
 			"ptBR": "Brado de Convocação Estratégico",
 			"ruRU": "Стратегический воодушевляющий клич",
-			"zhCN": "战略集结呐喊"
+			"zhCN": "战略集结呐喊",
+			"zhTW": "戰略振奮戰吼"
 },
 		descriptionLocalized: {
 			"deDE": "Schlachtruf verleiht Euch 10% Eures Basislebens als Stählung. Während Schlachtruf aktiv ist, erhaltet Ihr jedes Mal, wenn Ihr direkten Schaden erleidet oder verursacht, zusätzlich 2% Eures Basislebens als Stählung.\n\nTags: Defensiv, Ruf, Wut, Bewegung, Abklingzeit.",
@@ -2095,7 +2204,8 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 			"plPL": "Okrzyk Bojowy zapewnia 10% podstawowego zdrowia jako umocnienie. Kiedy Okrzyk Bojowy jest aktywny, zyskujesz dodatkowo 2% podstawowego zdrowia jako umocnienie za każdym razem, gdy zadajesz lub otrzymujesz bezpośrednie obrażenia.\n\nTags: Defensywa, Okrzyk, Furia, Ruch, Odnowienie.",
 			"ptBR": "Brado de Convocação concede 10% de vida básica como fortificação. Enquanto Brado de Convocação está ativo, você recebe 2% de vida básica adicional como fortificação sempre que receber ou causar dano direto.\n\nTags: Defesa, Grito, Fúria, Movimento, Recarga.",
 			"ruRU": "\"Воодушевляющий клич\" дает вам укрепление в объеме 10% базового запаса здоровья. Пока действует \"Воодушевляющий клич\", вы дополнительно получаете укрепление в объеме 2% базового запаса здоровья, когда получаете или наносите прямой урон.\n\nTags: Защита, Крик, Ярость, Движение, Время восстановления.",
-			"zhCN": "集结呐喊强固你 10% 基础生命。集结呐喊激活时, 你每次受到或造成直接伤害, 都会额外强固你 2% 基础生命。\n\nTags: 防御, 战吼, 怒气, 移动, 冷却时间."
+			"zhCN": "集结呐喊强固你 10% 基础生命。集结呐喊激活时, 你每次受到或造成直接伤害, 都会额外强固你 2% 基础生命。\n\nTags: 防御, 战吼, 怒气, 移动, 冷却时间.",
+			"zhTW": "振奮戰吼可賦予你相當於 10% 基礎生命值的強韌。振奮戰吼生效時,你每次受到或造成直接傷害,可額外賦予你相當於 2% 基礎生命值的強韌。\n\nTags: 防禦, 怒吼, 怒氣, 移動, 冷卻時間."
 },
 		id: 54,
 		maxPoints: 1,
@@ -2119,7 +2229,8 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 			"plPL": "Taktyczny Okrzyk Bojowy",
 			"ptBR": "Brado de Convocação Tático",
 			"ruRU": "Тактический воодушевляющий клич",
-			"zhCN": "战术集结呐喊"
+			"zhCN": "战术集结呐喊",
+			"zhTW": "戰術振奮戰吼"
 },
 		descriptionLocalized: {
 			"deDE": "Schlachtruf erzeugt 20 Wut und gewährt Euch zusätzliche x20% Ressourcenerzeugung.\n\nTags: Defensiv, Ruf, Wut, Bewegung, Abklingzeit.",
@@ -2132,7 +2243,8 @@ Tags: Defensive, Shout, Fury, Movement, Cooldown.`,
 			"plPL": "Okrzyk Bojowy generuje 20 pkt. furii i zapewnia dodatkową premię x20% do generowania zasobów.\n\nTags: Defensywa, Okrzyk, Furia, Ruch, Odnowienie.",
 			"ptBR": "Brado de Convocação gera 20 de fúria e concede 20% de geração de recursos adicional.\n\nTags: Defesa, Grito, Fúria, Movimento, Recarga.",
 			"ruRU": "\"Воодушевляющий клич\" дает 20 ед. ярости и повышает скорость восполнения ресурсов на x20%.\n\nTags: Защита, Крик, Ярость, Движение, Время восстановления.",
-			"zhCN": "集结呐喊生成 20 点怒气, 并使你的资源生成速度提高 x20%。\n\nTags: 防御, 战吼, 怒气, 移动, 冷却时间."
+			"zhCN": "集结呐喊生成 20 点怒气, 并使你的资源生成速度提高 x20%。\n\nTags: 防御, 战吼, 怒气, 移动, 冷却时间.",
+			"zhTW": "振奮戰吼會產生 20 點怒氣,並賦予你額外 x20% 資源產生效率。\n\nTags: 防禦, 怒吼, 怒氣, 移動, 冷卻時間."
 },
 		id: 55,
 		maxPoints: 1,
@@ -2155,7 +2267,8 @@ Tags: Life.`,
 			"plPL": "Imponująca Obecność",
 			"ptBR": "Presença Imponente",
 			"ruRU": "Довлеющее присутствие",
-			"zhCN": "杀气凌人"
+			"zhCN": "杀气凌人",
+			"zhTW": "氣勢不凡"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet zusätzlich x{5/10/15/20/25/30/35/40/45/50}% maximales Leben.\n\nTags: Leben.",
@@ -2168,7 +2281,8 @@ Tags: Life.`,
 			"plPL": "Zyskujesz dodatkowe x{5/10/15/20/25/30/35/40/45/50}% do maksymalnego zdrowia.\n\nTags: Zdrowie.",
 			"ptBR": "Recebe {5/10/15/20/25/30/35/40/45/50}% de vida máxima adicional.\n\nTags: Vida.",
 			"ruRU": "Максимальный запас здоровья увеличивается на x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Здоровье.",
-			"zhCN": "生命上限额外提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 生命."
+			"zhCN": "生命上限额外提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 生命.",
+			"zhTW": "生命值上限提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 生命值."
 },
 		id: 56,
 		maxPoints: 3,
@@ -2191,7 +2305,8 @@ Tags: Damage Reduction, Elite Monsters.`,
 			"plPL": "Bitewny Wigor",
 			"ptBR": "Vigor Marcial",
 			"ruRU": "Боевой азарт",
-			"zhCN": "勇武活力"
+			"zhCN": "勇武活力",
+			"zhTW": "戰爭活力"
 },
 		descriptionLocalized: {
 			"deDE": "Die Schadensreduktion gegen Elitegegner erhöht sich um {3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Schadensreduktion, Elitemonster.",
@@ -2204,7 +2319,8 @@ Tags: Damage Reduction, Elite Monsters.`,
 			"plPL": "Redukcja obrażeń od wrogów elitarnych jest zwiększona o {3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Redukcja Obrażeń, Elitarne Potwory.",
 			"ptBR": "A redução de dano contra elites é aumentada em {3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Redução de Dano, Monstros de Elite.",
 			"ruRU": "Урон от особых противников уменьшается на {3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Уменьшение урона, Особые монстры.",
-			"zhCN": "面对精英怪时获得的伤害减免提高 {3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害减免, 精英怪物."
+			"zhCN": "面对精英怪时获得的伤害减免提高 {3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害减免, 精英怪物.",
+			"zhTW": "對精英怪的傷害減免效果提高 {3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 傷害減免, 精英怪物."
 },
 		id: 57,
 		maxPoints: 3,
@@ -2232,7 +2348,8 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Szarża",
 			"ptBR": "Investida",
 			"ruRU": "Натиск",
-			"zhCN": "冲锋"
+			"zhCN": "冲锋",
+			"zhTW": "衝鋒"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 33%\nWerdet unaufhaltsam und stürmt nach vorn, wobei Ihr Gegner mitstoßt und ihnen dann einen Hieb in Höhe von {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden versetzt und sie zurückstoßt.\n\nTags: Raufbold, Unaufhaltsam, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2245,7 +2362,8 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 33%\nZyskujesz nieustępliwość i pędzisz naprzód, popychając wrogów, a następnie wyprowadzasz zamaszysty cios, który zadaje {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń i ich odrzuca.\n\nTags: Bijatyka, Nieustępliwość, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 33%\nTorna-se implacável e avança, empurrando inimigos, causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano a eles e repelindo-os.\n\nTags: Briga, Implacável, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 33%.\nВы получаете неудержимость и устремляетесь вперед, толкая противников, а затем взмахиваете оружием, нанося врагам {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона и отбрасывая их.\n\nTags: Бой без правил, Неудержимость, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n变得不可阻挡并向前冲锋, 推动接触到的敌人然后从其中间穿过, 造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害并将其击退。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n变得不可阻挡并向前冲锋, 推动接触到的敌人然后从其中间穿过, 造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害并将其击退。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:33%\n獲得無阻狀態,向前衝刺推開敵人,然後在穿越敵人時揮擊,造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害並擊退他們。\n\nTags: 爭鬥, 無阻, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 58,
 		maxPoints: 5,
@@ -2270,7 +2388,8 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocniona Szarża",
 			"ptBR": "Investida Aperfeiçoada",
 			"ruRU": "Усиленный натиск",
-			"zhCN": "强化冲锋"
+			"zhCN": "强化冲锋",
+			"zhTW": "強化衝鋒"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die von Ansturm in Terrain gestoßen werden, erleiden 15% Schaden und sind 3 Sek. lang betäubt.\n\nTags: Raufbold, Unaufhaltsam, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2283,7 +2402,8 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wrogowie odrzuceni przez Szarżę, którzy zderzą się z przeszkodami terenu, otrzymują 15% pkt. obrażeń i są ogłuszeni na 3 sek.\n\nTags: Bijatyka, Nieustępliwość, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Inimigos repelidos ao chão por Investida recebem 15% de dano e ficam atordoados por 3 segundos.\n\nTags: Briga, Implacável, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "При столкновении с препятствиями отброшенные \"Натиском\" противники получают 15% ед. урона и оглушаются на 3 сек.\n\nTags: Бой без правил, Неудержимость, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "被冲锋的击退效果撞到地形上的敌人受到 15% 点伤害并陷入昏迷状态, 持续 3 秒。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "被冲锋的击退效果撞到地形上的敌人受到 15% 点伤害并陷入昏迷状态, 持续 3 秒。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "被衝鋒擊退撞到地形的敵人會受到 15% 點傷害並被擊昏 3 秒。\n\nTags: 爭鬥, 無阻, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 59,
 		maxPoints: 1,
@@ -2307,7 +2427,8 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Potężna Szarża",
 			"ptBR": "Investida Potente",
 			"ruRU": "Внушительный натиск",
-			"zhCN": "强力冲锋"
+			"zhCN": "强力冲锋",
+			"zhTW": "強力衝鋒"
 },
 		descriptionLocalized: {
 			"deDE": "Reduziert die Abklingzeit von Ansturm um 3 Sek., wenn ein Gegner in Terrain gestoßen wird.\n\nTags: Raufbold, Unaufhaltsam, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2320,7 +2441,8 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia Szarży jest skrócony o 3 sek., jeśli Szarża odrzuci i pchnie wroga na element otoczenia.\n\nTags: Bijatyka, Nieustępliwość, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Reduz a recarga de Investida em 3 segundos se repelir um inimigo ao chão.\n\nTags: Briga, Implacável, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Когда \"Натиск\" отбрасывает противника в препятствие, время восстановления этого умения сокращается на 3 сек.\n\nTags: Бой без правил, Неудержимость, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "如果将敌人击退至地形上, 则冲锋的冷却时间缩短 3 秒。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "如果将敌人击退至地形上, 则冲锋的冷却时间缩短 3 秒。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "若衝鋒將敵人擊退並撞至地形上,使其冷卻時間縮短 3 秒。\n\nTags: 爭鬥, 無阻, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 60,
 		maxPoints: 1,
@@ -2344,7 +2466,8 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Mocarna Szarża",
 			"ptBR": "Investida Poderosa",
 			"ruRU": "Могучий натиск",
-			"zhCN": "强劲冲锋"
+			"zhCN": "强劲冲锋",
+			"zhTW": "巨力衝鋒"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Gegnern mit Ansturm Schaden zufügt, sind sie 2 Sek. lang verwundbar.\n\nTags: Raufbold, Unaufhaltsam, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2357,7 +2480,8 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Zranienie wrogów Szarżą sprawia, że zostają odsłonięci na 2 sek.\n\nTags: Bijatyka, Nieustępliwość, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Causar dano a inimigos com Investida deixa-os vulneráveis por 2 segundos.\n\nTags: Briga, Implacável, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Противники, пораженные \"Натиском\", становятся уязвимыми на 2 сек.\n\nTags: Бой без правил, Неудержимость, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冲锋对敌人造成伤害的同时也会使其陷入易伤状态, 持续 2 秒。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "冲锋对敌人造成伤害的同时也会使其陷入易伤状态, 持续 2 秒。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "受到衝鋒傷害的敵人會易傷 2 秒。\n\nTags: 爭鬥, 無阻, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 61,
 		maxPoints: 1,
@@ -2381,7 +2505,8 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 			"plPL": "Okrzyk Wojenny",
 			"ptBR": "Grito de Guerra",
 			"ruRU": "Воинственный клич",
-			"zhCN": "战吼"
+			"zhCN": "战吼",
+			"zhTW": "戰吼"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nLasst einen mächtigen Schlachtruf erschallen, der 6 Sek. lang Euren verursachten Schaden um x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% erhöht. Der verursachte Schaden von Verbündeten in der Nähe wird 3 Sek. lang erhöht.\n\nTags: Raufbold, Ruf, Schaden, Abklingzeit.",
@@ -2394,7 +2519,8 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nWydajesz gromki okrzyk wojenny, który zwiększa zadawane przez ciebie obrażenia o x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% na 6 sek., a obrażenia zadawane przez pobliskich sojuszników na 3 sek.\n\nTags: Bijatyka, Okrzyk, Obrażenia, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nSolta um poderoso grito de guerra, aumentando seu dano causado em {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% por 6 segundos e o de aliados próximos por 3 segundos.\n\nTags: Briga, Grito, Dano, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nМощный воинственный клич увеличивает наносимый вами урон на x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% на 6 сек. Усиливает находящихся рядом союзников на 3 сек.\n\nTags: Бой без правил, Крик, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n发出震天动地的战吼。你造成的伤害提高 x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%, 持续 6 秒, 附近的盟友持续 3 秒。\n\nTags: 搏斗, 战吼, 伤害, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n发出震天动地的战吼。你造成的伤害提高 x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%, 持续 6 秒, 附近的盟友持续 3 秒。\n\nTags: 搏斗, 战吼, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間: {#} 秒\n發出強力戰吼。使你和附近盟友造成的傷害提高 x{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%。你的效果持續 6 秒,附近盟友的效果持續 3 秒。\n\nTags: 爭鬥, 怒吼, 傷害, 冷卻時間."
 },
 		id: 62,
 		maxPoints: 5,
@@ -2419,7 +2545,8 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 			"plPL": "Wzmocniony Okrzyk Wojenny",
 			"ptBR": "Grito de Guerra Aperfeiçoado",
 			"ruRU": "Усиленный воинственный клич",
-			"zhCN": "强化战吼"
+			"zhCN": "强化战吼",
+			"zhTW": "強化戰吼"
 },
 		descriptionLocalized: {
 			"deDE": "Kriegsschrei versetzt Euch 4 Sek. lang in den Berserkermodus.\n\nTags: Raufbold, Ruf, Schaden, Abklingzeit.",
@@ -2432,7 +2559,8 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 			"plPL": "Okrzyk Wojenny zapewnia ci berserkowanie na 4 sek.\n\nTags: Bijatyka, Okrzyk, Obrażenia, Odnowienie.",
 			"ptBR": "Grito de Guerra concede Berserk por 4 segundos.\n\nTags: Briga, Grito, Dano, Recarga.",
 			"ruRU": "\"Воинственный клич\" дает вам эффект берсерк на 4 сек.\n\nTags: Бой без правил, Крик, Урон, Время восстановления.",
-			"zhCN": "战吼使你获得狂暴, 持续 4 秒。\n\nTags: 搏斗, 战吼, 伤害, 冷却时间."
+			"zhCN": "战吼使你获得狂暴, 持续 4 秒。\n\nTags: 搏斗, 战吼, 伤害, 冷却时间.",
+			"zhTW": "戰吼使你狂暴,持續 4 秒。\n\nTags: 爭鬥, 怒吼, 傷害, 冷卻時間."
 },
 		id: 63,
 		maxPoints: 1,
@@ -2456,7 +2584,8 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 			"plPL": "Potężny Okrzyk Wojenny",
 			"ptBR": "Grito de Guerra Potente",
 			"ruRU": "Внушительный воинственный клич",
-			"zhCN": "强力战吼"
+			"zhCN": "强力战吼",
+			"zhTW": "強力戰吼"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn sich beim Wirken von Kriegsschrei mindestens 6 Gegner in der Nähe befinden, erhöht sich Euer Schadensbonus zusätzlich um x10%.\n\nTags: Raufbold, Ruf, Schaden, Abklingzeit.",
@@ -2469,7 +2598,8 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 			"plPL": "Jeśli podczas użycia Okrzyku Wojennego w pobliżu znajduje się co najmniej 6 wrogów, twoja premia do obrażeń wzrasta dodatkowo o x10%.\n\nTags: Bijatyka, Okrzyk, Obrażenia, Odnowienie.",
 			"ptBR": "Se pelo menos 6 inimigos estiverem próximos quando você lançar Grito de Guerra, seu bônus de dano será aumentado em mais 10%.\n\nTags: Briga, Grito, Dano, Recarga.",
 			"ruRU": "Если вы применяете \"Воинственный клич\", когда рядом есть не менее 6 противников, наносимый урон увеличивается еще на x10%.\n\nTags: Бой без правил, Крик, Урон, Время восстановления.",
-			"zhCN": "如果施放战吼时附近有至少 6 名敌人, 你的伤害加成额外提高 x10%。\n\nTags: 搏斗, 战吼, 伤害, 冷却时间."
+			"zhCN": "如果施放战吼时附近有至少 6 名敌人, 你的伤害加成额外提高 x10%。\n\nTags: 搏斗, 战吼, 伤害, 冷却时间.",
+			"zhTW": "如果施放戰吼時附近有至少 6 個敵人,你的傷害加成額外提高至 x10%。\n\nTags: 爭鬥, 怒吼, 傷害, 冷卻時間."
 },
 		id: 64,
 		maxPoints: 1,
@@ -2493,7 +2623,8 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 			"plPL": "Mocarny Okrzyk Wojenny",
 			"ptBR": "Grito de Guerra Poderoso",
 			"ruRU": "Мощный воинственный клич",
-			"zhCN": "强劲战吼"
+			"zhCN": "强劲战吼",
+			"zhTW": "巨力戰吼"
 },
 		descriptionLocalized: {
 			"deDE": "Kriegsschrei verleiht Euch 15% Basisleben als Stählung.\n\nTags: Raufbold, Ruf, Schaden, Abklingzeit.",
@@ -2506,7 +2637,8 @@ Tags: Brawling, Shout, Damage, Cooldown.`,
 			"plPL": "Okrzyk Wojenny zapewnia ci 15% podstawowego zdrowia jako umocnienie.\n\nTags: Bijatyka, Okrzyk, Obrażenia, Odnowienie.",
 			"ptBR": "Grito de Guerra concede 15% de vida básica como fortificação.\n\nTags: Briga, Grito, Dano, Recarga.",
 			"ruRU": "\"Воинственный клич\" дает вам укрепление в объеме 15% базового запаса здоровья.\n\nTags: Бой без правил, Крик, Урон, Время восстановления.",
-			"zhCN": "战吼强固你 15% 基础生命。\n\nTags: 搏斗, 战吼, 伤害, 冷却时间."
+			"zhCN": "战吼强固你 15% 基础生命。\n\nTags: 搏斗, 战吼, 伤害, 冷却时间.",
+			"zhTW": "戰吼可賦予你相當於 15% 基礎生命值的強韌。\n\nTags: 爭鬥, 怒吼, 傷害, 冷卻時間."
 },
 		id: 65,
 		maxPoints: 1,
@@ -2529,7 +2661,8 @@ Tags: Shout.`,
 			"plPL": "Grzmiący Głos",
 			"ptBR": "Voz Estrondosa",
 			"ruRU": "Громогласность",
-			"zhCN": "震耳嗓音"
+			"zhCN": "震耳嗓音",
+			"zhTW": "震耳迴盪"
 },
 		descriptionLocalized: {
 			"deDE": "Die Dauer Eurer Rufeffekte erhöht sich um x{8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Ruf.",
@@ -2542,7 +2675,8 @@ Tags: Shout.`,
 			"plPL": "Czas działania efektów umiejętności Okrzyków jest wydłużony o x{8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Okrzyk.",
 			"ptBR": "As durações de efeito de habilidades de Grito são aumentadas em {8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Grito.",
 			"ruRU": "Ваши \"Крики\" действуют на x{8/16/24/32/40/48/56/64/72/80}% дольше.\n\nTags: Крик.",
-			"zhCN": "你的战吼技能效果的持续时间延长 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 战吼."
+			"zhCN": "你的战吼技能效果的持续时间延长 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 战吼.",
+			"zhTW": "你的怒吼技能效果持續時間延長 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 怒吼."
 },
 		id: 66,
 		maxPoints: 3,
@@ -2565,7 +2699,8 @@ Tags: Shout, Healing.`,
 			"plPL": "Dowodzenie Rajdem",
 			"ptBR": "Líder de Invasão",
 			"ruRU": "Лидер рейда",
-			"zhCN": "团战领袖"
+			"zhCN": "团战领袖",
+			"zhTW": "團隊領袖"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Rufe heilen außerdem Eure Verbündeten um {1/2/3/4/5/6/7/8/9/10}% ihres maximalen Lebens pro Sekunde.\n\nTags: Ruf, Heilung.",
@@ -2578,7 +2713,8 @@ Tags: Shout, Healing.`,
 			"plPL": "Twoje Okrzyki przywracają również sojusznikom {1/2/3/4/5/6/7/8/9/10}% maksymalnego zdrowia na sek.\n\nTags: Okrzyk, Leczenie.",
 			"ptBR": "Seus Gritos também curam aliados em {1/2/3/4/5/6/7/8/9/10}% de suas vidas máximas por segundo.\n\nTags: Grito, Cura.",
 			"ruRU": "Ваши боевые крики также восполняют союзникам {1/2/3/4/5/6/7/8/9/10}% максимального запаса здоровья раз в секунду.\n\nTags: Крик, Исцеление.",
-			"zhCN": "你的战吼也会使盟友每秒恢复 {1/2/3/4/5/6/7/8/9/10}%生命上限。\n\nTags: 战吼, 治疗."
+			"zhCN": "你的战吼也会使盟友每秒恢复 {1/2/3/4/5/6/7/8/9/10}%生命上限。\n\nTags: 战吼, 治疗.",
+			"zhTW": "你的怒吼也會使盟友每秒恢復其生命值上限的 {1/2/3/4/5/6/7/8/9/10}%。\n\nTags: 怒吼, 治療."
 },
 		id: 67,
 		maxPoints: 3,
@@ -2601,7 +2737,8 @@ Tags: Damage Reduction, Shout.`,
 			"plPL": "Gardłowy Ryk",
 			"ptBR": "Grito Gutural",
 			"ruRU": "Утробный рев",
-			"zhCN": "低沉咆哮"
+			"zhCN": "低沉咆哮",
+			"zhTW": "嘶聲狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Ruffertigkeiten lassen Gegner 5 Sek. lang {4/8/12/16/20/24/28/32/36/40}% weniger Schaden verursachen.\n\nTags: Schadensreduktion, Ruf.",
@@ -2614,7 +2751,8 @@ Tags: Damage Reduction, Shout.`,
 			"plPL": "Twoje umiejętności Okrzyków sprawiają, że wrogowie zadają obrażenia zmniejszone o {4/8/12/16/20/24/28/32/36/40}% przez 5 sek.\n\nTags: Redukcja Obrażeń, Okrzyk.",
 			"ptBR": "Suas habilidades de Grito fazem os inimigos causarem {4/8/12/16/20/24/28/32/36/40}% de dano reduzido por 5 segundos.\n\nTags: Redução de Dano, Grito.",
 			"ruRU": "Ваши \"Крики\" уменьшают наносимый противниками урон на {4/8/12/16/20/24/28/32/36/40}% на 5 сек.\n\nTags: Уменьшение урона, Крик.",
-			"zhCN": "你的战吼技能使敌人造成的伤害降低 {4/8/12/16/20/24/28/32/36/40}%, 持续 5 秒。\n\nTags: 伤害减免, 战吼."
+			"zhCN": "你的战吼技能使敌人造成的伤害降低 {4/8/12/16/20/24/28/32/36/40}%, 持续 5 秒。\n\nTags: 伤害减免, 战吼.",
+			"zhTW": "你的怒吼技能會使敵人造成的傷害降低 {4/8/12/16/20/24/28/32/36/40}%,持續 5 秒。\n\nTags: 傷害減免, 怒吼."
 },
 		id: 68,
 		maxPoints: 3,
@@ -2639,7 +2777,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Skok",
 			"ptBR": "Salto",
 			"ruRU": "Прыжок",
-			"zhCN": "腾空斩"
+			"zhCN": "腾空斩",
+			"zhTW": "躍擊"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 66%\nSpringt nach vorn und schmettert nach unten, um Gegnern in der Nähe beim Aufprall {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% Schaden zuzufügen und sie zurückzustoßen.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2652,7 +2791,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 66%\nSkaczesz do przodu i uderzasz z wielką siłą, zadając {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% pkt. obrażeń i odrzucając pobliskich wrogów przy trafieniu.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 66%\nSalta para frente e depois golpeia o chão, causando {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% de dano e repelindo inimigos ao redor no impacto.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 66%.\nВы прыгаете вперед и проводите удар, нанося {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% ед. урона и отбрасывая противников в точке приземления.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 66%\n向前跳跃然后落地猛击, 造成 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% 点伤害并在命中时击退周围的敌人。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 66%\n向前跳跃然后落地猛击, 造成 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% 点伤害并在命中时击退周围的敌人。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:66%\n猛力一躍並向下重擊,落地時造成 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% 傷害並擊退附近的敵人。\n\nTags: 爭鬥, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 69,
 		maxPoints: 5,
@@ -2677,7 +2817,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocniony Skok",
 			"ptBR": "Salto Aperfeiçoado",
 			"ruRU": "Усиленный прыжок",
-			"zhCN": "强化腾空斩"
+			"zhCN": "强化腾空斩",
+			"zhTW": "強化躍擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Sprung keinen Gegnern Schaden zufügt, verringert sich die Abklingzeit um 4 Sek.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2690,7 +2831,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Jeśli Skok nie trafi żadnego wroga, jego czas odnowienia jest skrócony o 4 sek.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Se Salto não atinge nenhum inimigo, sua recarga é reduzida em 4 segundos.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Если \"Прыжок\" не наносит урон ни одному противнику, его время восстановления сокращается на 4 сек.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "如果腾空斩没有对任何敌人造成伤害, 则其冷却时间缩短 4 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "如果腾空斩没有对任何敌人造成伤害, 则其冷却时间缩短 4 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "如果躍擊未對敵人造成傷害,冷卻時間會縮短 4 秒。\n\nTags: 爭鬥, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 70,
 		maxPoints: 1,
@@ -2714,7 +2856,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Mocarny Skok",
 			"ptBR": "Salto Poderoso",
 			"ruRU": "Могучий прыжок",
-			"zhCN": "强劲腾空斩"
+			"zhCN": "强劲腾空斩",
+			"zhTW": "巨力躍擊"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die durch Sprung Schaden erleiden, werden 5 Sek. lang um 50% verlangsamt.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2727,7 +2870,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wrogowie zranieni Skokiem zostają spowolnieni o 50% na 5 sek.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Inimigos atingidos por Salto são desacelerados em 50% por 5 segundos.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Нанеся урон противникам, \"Прыжок\" замедляет их на 50% на 5 сек.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "腾空斩对敌人造成伤害会使其减速 50%, 持续 5 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "腾空斩对敌人造成伤害会使其减速 50%, 持续 5 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "受到躍擊傷害的敵人緩速 50%,持續 5 秒。\n\nTags: 爭鬥, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 71,
 		maxPoints: 1,
@@ -2751,7 +2895,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Potężny Skok",
 			"ptBR": "Salto Potente",
 			"ruRU": "Внушительный прыжок",
-			"zhCN": "强力腾空斩"
+			"zhCN": "强力腾空斩",
+			"zhTW": "強力躍擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Sprung mindestens einem Gegner Schaden zufügt, erhaltet Ihr 40 Wut.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2764,7 +2909,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Jeśli Skok zada obrażenia co najmniej jednemu wrogowi, zyskujesz 40 pkt. furii.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Se Salto causar dano a pelo menos um inimigo, você receberá 40 de fúria.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Если \"Прыжок\" наносит урон хотя бы одному противнику, вы накапливаете 40 ед. ярости.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "如果腾空斩对至少一名敌人造成伤害, 则获得 40 点怒气。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "如果腾空斩对至少一名敌人造成伤害, 则获得 40 点怒气。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "躍擊對至少一個敵人造成傷害時,你會獲得 40 點怒氣。\n\nTags: 爭鬥, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 72,
 		maxPoints: 1,
@@ -2790,7 +2936,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Kopnięcie",
 			"ptBR": "Chute",
 			"ruRU": "Удар ногой",
-			"zhCN": "踢击"
+			"zhCN": "踢击",
+			"zhTW": "踢擊"
 },
 		descriptionLocalized: {
 			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: 40%\nFührt einen kräftigen Tritt aus, der 18% Schaden verursacht und Gegner vor Euch zurückstößt. Gegner, die in Terrain gestoßen werden, erleiden 54% Schaden und sind 3 Sek. lang betäubt.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2803,7 +2950,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: 40%\nWyprowadzasz potężne kopnięcie, które zadaje 18% pkt. obrażeń i odrzuca wrogów przez tobą. Odrzuceni wrogowie, którzy zderzą się z przeszkodami terenu, otrzymują dodatkowo 54% pkt. obrażeń i są ogłuszeni na 3 sek.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: 40%\nDesfere um chute poderoso que causa 18% de dano e repele inimigos à sua frente. Inimigos repelidos ao chão recebem 54% de dano adicional e ficam atordoados por 3 segundos.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: 40%.\nВы с силой бьете ногой, нанося 18% ед. урона и отбрасывая противников перед собой. При столкновении с препятствиями отброшенные противники получают еще 54% ед. урона и оглушаются на 3 сек.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 40%\n发起一次强力踢击, 对你面前的敌人造成 18% 点伤害并将其击退。被击退至地形上的敌人额外受到 54% 点伤害并陷入昏迷, 持续 3 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 40%\n发起一次强力踢击, 对你面前的敌人造成 18% 点伤害并将其击退。被击退至地形上的敌人额外受到 54% 点伤害并陷入昏迷, 持续 3 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "使用次數:2\n使用次數冷卻時間:{#} 秒\n幸運觸發機率:40%\n對你前方的敵人施展踢擊,造成 18% 點傷害並將敵人擊退。遭擊退時撞到地形的敵人會額外受到 54% 點傷害,並被擊昏 3 秒。\n\nTags: 爭鬥, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 73,
 		maxPoints: 5,
@@ -2828,7 +2976,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocnione Kopnięcie",
 			"ptBR": "Chute Aperfeiçoado",
 			"ruRU": "Усиленный удар ногой",
-			"zhCN": "强化踢击"
+			"zhCN": "强化踢击",
+			"zhTW": "強化踢擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Gegnern mit Tritt Schaden zufügt, sind sie 4 Sek. lang verwundbar.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2841,7 +2990,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Ranienie wrogów Kopnięciem sprawia, że zostają odsłonięci na 4 sek.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Causar dano a inimigos com Chute deixa-os vulneráveis por 4 segundos.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Противники, пораженные \"Ударом ногой\", становятся уязвимыми на 4 сек.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "踢击对敌人造成伤害的同时也会使其陷入易伤状态, 持续 4 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "踢击对敌人造成伤害的同时也会使其陷入易伤状态, 持续 4 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "受到踢擊傷害的敵人會易傷,持續 4 秒。\n\nTags: 爭鬥, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 74,
 		maxPoints: 1,
@@ -2865,7 +3015,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Mocarne Kopnięcie",
 			"ptBR": "Chute Poderoso",
 			"ruRU": "Могучий удар ногой",
-			"zhCN": "强劲踢击"
+			"zhCN": "强劲踢击",
+			"zhTW": "巨力踢擊"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die von Tritt getroffen und zurückgestoßen wurden, fügen Gegnern, mit denen sie zusammenstoßen, 54% Schaden zu. Gegner, die auf diese Art Schaden erleiden, werden 2 Sek. lang niedergeschlagen.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2878,7 +3029,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Kopnięci wrogowie zadają 54% pkt. obrażeń przeciwnikom, na których wpadną podczas odrzucania. Wrogowie, którzy otrzymają w ten sposób obrażenia, zostają powaleni na 2 sek.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Inimigos que receberam Chute causam 54% de dano aos inimigos com que colidem enquanto são repelidos. Os inimigos atingidos dessa forma são nocauteados por 2 segundos.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Противники, отброшенные \"Ударом ногой\", наносят 54% ед. урона целям, с которыми они сталкиваются по пути. Тех, в свою очередь, столкновение сбивает с ног на 2 сек.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "被踢击击退的敌人碰撞到其他敌人时对其造成 54% 点伤害。受到该伤害的敌人会被击倒 2 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "被踢击击退的敌人碰撞到其他敌人时对其造成 54% 点伤害。受到该伤害的敌人会被击倒 2 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "遭踢擊擊退的敵人撞到其他敵人時會造成 54% 點傷害。受到此傷害的敵人會被擊倒 2 秒。\n\nTags: 爭鬥, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 75,
 		maxPoints: 1,
@@ -2902,7 +3054,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Potężne Kopnięcie",
 			"ptBR": "Chute Potente",
 			"ruRU": "Внушительный удар ногой",
-			"zhCN": "强力踢击"
+			"zhCN": "强力踢击",
+			"zhTW": "強力踢擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Tritt einem Gegner Schaden zufügt, verbraucht die Fertigkeit Eure gesamte Wut und verursacht zusätzlich 20% Schaden pro 10 verbrauchter Wut. Tritt stößt Gegner nicht länger zurück.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2915,7 +3068,8 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Jeśli Kopnięcie zada obrażenia wrogowi, pochłania całą twoją furię i zadaje dodatkowe 20% pkt. obrażeń za każde wydane 10 pkt. furii. Kopnięcie nie odrzuca już wrogów.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Se Chute causar dano a um inimigo, consumirá toda a sua fúria e causará 20% de dano adicional por 10 de fúria gasta. Chute deixa de repelir inimigos.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Когда \"Удар ногой\" наносит противнику урон, он поглощает весь запас ярости и наносит еще по 20% ед. урона за 10 ед. потраченной ярости. \"Удар ногой\" больше не отбрасывает противников.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "踢击对一名敌人造成伤害会消耗你的所有怒气, 并且每消耗 10 点怒气造成额外 20% 点伤害。踢击不再击退敌人。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "踢击对一名敌人造成伤害会消耗你的所有怒气, 并且每消耗 10 点怒气造成额外 20% 点伤害。踢击不再击退敌人。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "踢擊對敵人造成傷害時會消耗所有怒氣,每消耗 10 點怒氣便額外造成 20% 點傷害。但踢擊不再擊退敵人。\n\nTags: 爭鬥, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 76,
 		maxPoints: 1,
@@ -2938,7 +3092,8 @@ Tags: Berserking, Damage Reduction.`,
 			"plPL": "Agresywny Opór",
 			"ptBR": "Resistência Agressiva",
 			"ruRU": "Яростное сопротивление",
-			"zhCN": "以攻为守"
+			"zhCN": "以攻为守",
+			"zhTW": "激烈抵抗"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet im Berserkermodus {3/6/9/12/15/18/21/24/27/30}% Schadensreduktion.\n\nTags: Berserkermodus, Schadensreduktion.",
@@ -2951,7 +3106,8 @@ Tags: Berserking, Damage Reduction.`,
 			"plPL": "Zyskujesz premię {3/6/9/12/15/18/21/24/27/30}% do redukcji obrażeń podczas berserkowania.\n\nTags: Berserkowanie, Redukcja Obrażeń.",
 			"ptBR": "Recebe {3/6/9/12/15/18/21/24/27/30}% de redução de dano durante Berserk.\n\nTags: Berserk, Redução de Dano.",
 			"ruRU": "В состоянии берсерка вы получаете на {3/6/9/12/15/18/21/24/27/30}% меньше урона.\n\nTags: Берсерк, Уменьшение урона.",
-			"zhCN": "狂暴状态下获得 {3/6/9/12/15/18/21/24/27/30}% 伤害减免。\n\nTags: 狂暴, 伤害减免."
+			"zhCN": "狂暴状态下获得 {3/6/9/12/15/18/21/24/27/30}% 伤害减免。\n\nTags: 狂暴, 伤害减免.",
+			"zhTW": "狂暴時,你獲得 {3/6/9/12/15/18/21/24/27/30}% 傷害減免。\n\nTags: 狂暴, 傷害減免."
 },
 		id: 77,
 		maxPoints: 3,
@@ -2974,7 +3130,8 @@ Tags: Berserking, Fury.`,
 			"plPL": "Bujna Furia",
 			"ptBR": "Fúria Prolífica",
 			"ruRU": "Живительная ярость",
-			"zhCN": "充沛怒气"
+			"zhCN": "充沛怒气",
+			"zhTW": "怒氣湧現"
 },
 		descriptionLocalized: {
 			"deDE": "Im Berserkermodus erhöht sich Eure Wuterzeugung um x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Berserkermodus, Wut.",
@@ -2987,7 +3144,8 @@ Tags: Berserking, Fury.`,
 			"plPL": "Podczas berserkowania, generowanie furii jest zwiększone o x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Berserkowanie, Furia.",
 			"ptBR": "Sob efeito de Berserk, a geração de fúria é aumentada em {6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Berserk, Fúria.",
 			"ruRU": "В состоянии берсерка вы накапливаете на x{6/12/18/24/30/36/42/48/54/60}% больше ярости.\n\nTags: Берсерк, Ярость.",
-			"zhCN": "狂暴状态下, 怒气生成速度提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 狂暴, 怒气."
+			"zhCN": "狂暴状态下, 怒气生成速度提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 狂暴, 怒气.",
+			"zhTW": "在狂暴持續期間,怒氣產生效率提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 狂暴, 怒氣."
 },
 		id: 78,
 		maxPoints: 3,
@@ -3010,7 +3168,8 @@ Tags: Berserking, Brawling.`,
 			"plPL": "Bitewny Zapał",
 			"ptBR": "Fervor de Batalha",
 			"ruRU": "Боевое рвение",
-			"zhCN": "战斗狂热"
+			"zhCN": "战斗狂热",
+			"zhTW": "戰鬥狂熱"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn eine Raufboldfertigkeit mindestens einem Gegner Schaden zufügt, verfallt Ihr {1/2/3/4/5/6/7/8/9/10} Sek. lang in den Berserkermodus.\n\nTags: Berserkermodus, Raufbold.",
@@ -3023,7 +3182,8 @@ Tags: Berserking, Brawling.`,
 			"plPL": "Gdy umiejętność Bijatyki zadaje obrażenia co najmniej jednemu wrogowi, zyskujesz berserkowanie na {1/2/3/4/5/6/7/8/9/10} sek.\n\nTags: Berserkowanie, Bijatyka.",
 			"ptBR": "Quando uma habilidade de Briga causar dano a pelo menos um inimigo, você receberá Berserk por {1/2/3/4/5/6/7/8/9/10} segundos.\n\nTags: Berserk, Briga.",
 			"ruRU": "Когда вы поражаете хотя бы одного противника умением категории \"Бой без правил\", вы получаете эффект берсерк на {1/2/3/4/5/6/7/8/9/10} сек.\n\nTags: Берсерк, Бой без правил.",
-			"zhCN": "搏斗技能至少对一名敌人造成伤害时获得狂暴效果, 持续 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 狂暴, 搏斗."
+			"zhCN": "搏斗技能至少对一名敌人造成伤害时获得狂暴效果, 持续 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 狂暴, 搏斗.",
+			"zhTW": "爭鬥技能對至少一個敵人造成傷害時,可獲得狂暴,持續 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 狂暴, 爭鬥."
 },
 		id: 125,
 		maxPoints: 3,
@@ -3046,7 +3206,8 @@ Tags: Movement.`,
 			"plPL": "Chyżość",
 			"ptBR": "Rapidez",
 			"ruRU": "Быстрота",
-			"zhCN": "身手矫健"
+			"zhCN": "身手矫健",
+			"zhTW": "迅捷"
 },
 		descriptionLocalized: {
 			"deDE": "Bewegungsgeschwindigkeit erhöht sich um +{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Bewegung.",
@@ -3059,7 +3220,8 @@ Tags: Movement.`,
 			"plPL": "Szybkość ruchu jest zwiększona o +{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Ruch.",
 			"ptBR": "A velocidade de movimento é aumentada em +{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Movimento.",
 			"ruRU": "Скорость передвижения повышается на +{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Движение.",
-			"zhCN": "移动速度提高 +{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 移动."
+			"zhCN": "移动速度提高 +{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 移动.",
+			"zhTW": "移動速度提高 +{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 移動."
 },
 		id: 80,
 		maxPoints: 3,
@@ -3082,7 +3244,8 @@ Tags: Crowd Control.`,
 			"plPL": "Szybkie Impulsy",
 			"ptBR": "Impulsos Rápidos",
 			"ruRU": "Стремительные инстинкты",
-			"zhCN": "怒发冲冠"
+			"zhCN": "怒发冲冠",
+			"zhTW": "血氣方剛"
 },
 		descriptionLocalized: {
 			"deDE": "Reduziert die Dauer von Kontrollverlusteffekten um {6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Kontrollverlust.",
@@ -3095,7 +3258,8 @@ Tags: Crowd Control.`,
 			"plPL": "Skraca działania czas ograniczenia kontroli o {6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Ograniczanie Kontroli.",
 			"ptBR": "Reduz a duração de efeitos de controle em {6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Controle de Grupo.",
 			"ruRU": "Время действия эффектов контроля сокращается на {6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Контроль.",
-			"zhCN": "控制类限制效果的持续时间缩短 {6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 群控."
+			"zhCN": "控制类限制效果的持续时间缩短 {6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 群控.",
+			"zhTW": "控場效果的持續時間縮短 {6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 控場."
 },
 		id: 81,
 		maxPoints: 3,
@@ -3124,7 +3288,8 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Stalowy Potrzask",
 			"ptBR": "Garra de Aço",
 			"ruRU": "Железная хватка",
-			"zhCN": "钢铁之握"
+			"zhCN": "钢铁之握",
+			"zhTW": "鋼鐵鎖縛"
 },
 		descriptionLocalized: {
 			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: 25%\nWerft drei Ketten aus, die {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% Schaden verursachen und Gegner heranziehen.\n\nTags: Waffenbeherrschung, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -3137,7 +3302,8 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: 25%\nCiskasz trzema łańcuchami, które zadają {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% pkt. obrażeń i przyciągają wrogów.\n\nTags: Mistrzostwo Broni, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: 25%\nLança um trio de correntes que causa {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de dano e puxa os inimigos.\n\nTags: Maestria em Armas, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: 25%.\nВы бросаете вперед три цепи, наносящие {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% ед. урона и притягивающие противников.\n\nTags: Мастер оружия, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n扔出三段锁链, 造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害并将敌人拉向你的位置。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n扔出三段锁链, 造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害并将敌人拉向你的位置。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "使用次數: 2\n使用次數冷卻時間: {#} 秒\n幸運觸發機率:25%\n丟出三條鎖鏈,造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 點傷害並拉近敵人。\n\nTags: 武器專精, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 82,
 		maxPoints: 5,
@@ -3162,7 +3328,8 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocniony Stalowy Potrzask",
 			"ptBR": "Garra de Aço Aperfeiçoada",
 			"ruRU": "Усиленная железная хватка",
-			"zhCN": "强化钢铁之握"
+			"zhCN": "强化钢铁之握",
+			"zhTW": "強化鋼鐵鎖縛"
 },
 		descriptionLocalized: {
 			"deDE": "Stahlgriff macht Gegner auch 2.5 Sek. lang verwundbar.\n\nTags: Waffenbeherrschung, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -3175,7 +3342,8 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Stalowy Potrzask sprawia również, że wrogowie są odsłonięci przez 2.5 sek.\n\nTags: Mistrzostwo Broni, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Garra de Aço também deixa os inimigos vulneráveis por 2.5 segundos.\n\nTags: Maestria em Armas, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "\"Железная хватка\" также делает противников уязвимыми на 2.5 сек.\n\nTags: Мастер оружия, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "钢铁之握也会使敌人陷入易伤状态, 持续 2.5 秒。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "钢铁之握也会使敌人陷入易伤状态, 持续 2.5 秒。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "鋼鐵鎖縛會使敵人易傷 2.5 秒。\n\nTags: 武器專精, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 83,
 		maxPoints: 1,
@@ -3199,7 +3367,8 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wojowniczy Stalowy Potrzask",
 			"ptBR": "Garra de Aço do Guerreiro",
 			"ruRU": "Воинская железная хватка",
-			"zhCN": "勇士钢铁之握"
+			"zhCN": "勇士钢铁之握",
+			"zhTW": "戰士鋼鐵鎖縛"
 },
 		descriptionLocalized: {
 			"deDE": "Stahlgriff erhält 1 zusätzliche Aufladung.\n\nTags: Waffenbeherrschung, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -3212,7 +3381,8 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Stalowy Potrzask zyskuje 1 dodatkowy ładunek.\n\nTags: Mistrzostwo Broni, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Garra de Aço recebe 1 carga adicional.\n\nTags: Maestria em Armas, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Количество зарядов \"Железной хватки\" увеличивается на 1.\n\nTags: Мастер оружия, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "钢铁之握额外获得 1 次使用次数。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "钢铁之握额外获得 1 次使用次数。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "鋼鐵鎖縛獲得額外 1 次使用次數。\n\nTags: 武器專精, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 84,
 		maxPoints: 1,
@@ -3236,7 +3406,8 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Porywczy Stalowy Potrzask",
 			"ptBR": "Garra de Aço do Lutador",
 			"ruRU": "Бойцовская железная хватка",
-			"zhCN": "斗士钢铁之握"
+			"zhCN": "斗士钢铁之握",
+			"zhTW": "鬥士鋼鐵鎖縛"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Stahlgriff einem Gegner Schaden zufügt, verfallt Ihr 2 Sek. lang in den Berserkermodus.\n\nTags: Waffenbeherrschung, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -3249,7 +3420,8 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Jeśli Stalowy Potrzask zrani wroga, zyskasz berserkowanie na 2 sek.\n\nTags: Mistrzostwo Broni, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Se Garra de Aço causar dano a um inimigo, você fica sob efeito de Berserk por 2 segundos.\n\nTags: Maestria em Armas, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Когда \"Железная хватка\" поражает противника, вы на 2 сек. переходите в состояние берсерка.\n\nTags: Мастер оружия, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "钢铁之握对一名敌人造成伤害即可获得狂暴, 持续 2 秒。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "钢铁之握对一名敌人造成伤害即可获得狂暴, 持续 2 秒。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "若鋼鐵鎖縛對敵人造成傷害,會獲得狂暴,持續 2 秒。\n\nTags: 武器專精, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 85,
 		maxPoints: 1,
@@ -3272,7 +3444,8 @@ Tags: Fortify.`,
 			"plPL": "Twarda Skóra",
 			"ptBR": "Pele Espessa",
 			"ruRU": "Плотная кожа",
-			"zhCN": "皮糙肉厚"
+			"zhCN": "皮糙肉厚",
+			"zhTW": "粗厚外皮"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Ihr direkten Schaden erleidet, erhaltet Ihr {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% Basisleben als Stählung.\n\nTags: Stählung.",
@@ -3285,7 +3458,8 @@ Tags: Fortify.`,
 			"plPL": "Za każdym razem, gdy otrzymujesz bezpośrednie obrażenia, zyskujesz {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% podstawowego zdrowia jako umocnienie.\n\nTags: Umocnienie.",
 			"ptBR": "Sempre que receber dano direto, você recebe {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% de vida básica como fortificação.\n\nTags: Fortificação.",
 			"ruRU": "Когда вам наносят прямой урон, вы получаете укрепление в объеме {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% базового запаса здоровья.\n\nTags: Укрепление.",
-			"zhCN": "你每次受到直接伤害都会强固你 {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% 基础生命。\n\nTags: 强固."
+			"zhCN": "你每次受到直接伤害都会强固你 {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% 基础生命。\n\nTags: 强固.",
+			"zhTW": "你每次受到直接傷害時會獲得相當於 {0.4/0.7/1.1/1.4/1.8/2.2/2.5/2.9/3.2/3.6}% 基礎生命值的強韌。\n\nTags: 強韌."
 },
 		id: 86,
 		maxPoints: 3,
@@ -3308,7 +3482,8 @@ Tags: Fortify, Life, Damage.`,
 			"plPL": "Kontratak",
 			"ptBR": "Contraofensiva",
 			"ruRU": "Контрнаступление",
-			"zhCN": "反攻"
+			"zhCN": "反攻",
+			"zhTW": "反攻"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Ihr um mindestens 50% Eures maximalen Lebens gestählt seid, verursacht Ihr x{4/8/12/16/20/24/28/32/36/40}% mehr Schaden.\n\nTags: Stählung, Leben, Schaden.",
@@ -3321,7 +3496,8 @@ Tags: Fortify, Life, Damage.`,
 			"plPL": "Kiedy masz umocnienie równe ponad 50% maksymalnego zdrowia, zadajesz obrażenia zwiększone o x{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Umocnienie, Zdrowie, Obrażenia.",
 			"ptBR": "Enquanto tiver fortificação em mais de 50% da sua vida máxima, você causa {4/8/12/16/20/24/28/32/36/40}% de dano aumentado.\n\nTags: Fortificação, Vida, Dano.",
 			"ruRU": "Пока ваш эффект укрепления превышает 50% максимального запаса здоровья, наносимый вами урон увеличивается на x{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Укрепление, Здоровье, Урон.",
-			"zhCN": "当你获得的强固超过 50% 生命上限时, 你造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 强固, 生命, 伤害."
+			"zhCN": "当你获得的强固超过 50% 生命上限时, 你造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 强固, 生命, 伤害.",
+			"zhTW": "當強韌高於生命值上限的 50% 時,你造成的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 強韌, 生命值, 傷害."
 },
 		id: 87,
 		maxPoints: 3,
@@ -3344,7 +3520,8 @@ Tags: Fortify, Damage Reduction.`,
 			"plPL": "Postawa Obronna",
 			"ptBR": "Postura Defensiva",
 			"ruRU": "Защитная позиция",
-			"zhCN": "防御姿态"
+			"zhCN": "防御姿态",
+			"zhTW": "防禦姿態"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht die verliehene Schadensreduktion, während Ihr gestählt seid, um zusätzlich {2/4/6/8/10/12/14/16/18/20}%.\n\nTags: Stählung, Schadensreduktion.",
@@ -3357,7 +3534,8 @@ Tags: Fortify, Damage Reduction.`,
 			"plPL": "Redukcja obrażeń otrzymana w stanie umocnienia jest dodatkowo zwiększona o {2/4/6/8/10/12/14/16/18/20}%.\n\nTags: Umocnienie, Redukcja Obrażeń.",
 			"ptBR": "Aumenta a redução de dano recebida enquanto tiver fortificação em mais {2/4/6/8/10/12/14/16/18/20}%.\n\nTags: Fortificação, Redução de Dano.",
 			"ruRU": "Укрепление уменьшает получаемый урон еще на {2/4/6/8/10/12/14/16/18/20}%.\n\nTags: Укрепление, Уменьшение урона.",
-			"zhCN": "获得强固时, 伤害减免额外提高 {2/4/6/8/10/12/14/16/18/20}%。\n\nTags: 强固, 伤害减免."
+			"zhCN": "获得强固时, 伤害减免额外提高 {2/4/6/8/10/12/14/16/18/20}%。\n\nTags: 强固, 伤害减免.",
+			"zhTW": "在強韌狀態下,你獲得的傷害減免效果額外提高 {2/4/6/8/10/12/14/16/18/20}%。\n\nTags: 強韌, 傷害減免."
 },
 		id: 126,
 		maxPoints: 3,
@@ -3384,7 +3562,8 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"plPL": "Śmiertelny Cios",
 			"ptBR": "Golpe Mortal",
 			"ruRU": "Смертельный удар",
-			"zhCN": "死亡重击"
+			"zhCN": "死亡重击",
+			"zhTW": "死亡之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 50%\nVersucht Euch an einem tödlichen Schlag, der Gegnern vor Euch {120/132/144/156/168/180/192/204/216/228}% Schaden zufügt.\n\nStirbt ein Gegner durch diese Fertigkeit, wird die Abklingzeit abgeschlossen.\n\nTags: Waffenbeherrschung, Schaden, Physisch, Abklingzeit.",
@@ -3397,7 +3576,8 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 50%\nPróbujesz wykonać zabójczy cios i zadajesz {120/132/144/156/168/180/192/204/216/228}% pkt. obrażeń wrogom przed tobą.\n\nJeśli zabijesz w ten sposób wroga, czas odnowienia zostanie wyzerowany.\n\nTags: Mistrzostwo Broni, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 50%\nVocê tenta um golpe mortal, causando {120/132/144/156/168/180/192/204/216/228}% de dano aos inimigos à sua frente.\n\nSe isso matar um inimigo, a recarga será reiniciada.\n\nTags: Maestria em Armas, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 50%.\nСмертельный удар наносит {120/132/144/156/168/180/192/204/216/228}% ед. урона целям в секторе перед вами.\n\nЕсли противник умирает, умение мгновенно восстанавливается.\n\nTags: Мастер оружия, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n试图发动一次致命攻击, 对面前的敌人造成 {120/132/144/156/168/180/192/204/216/228}% 点伤害。\n\n如果该技能消灭了一名敌人, 则重置其冷却时间。\n\nTags: 武器精通, 伤害, 物理, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n试图发动一次致命攻击, 对面前的敌人造成 {120/132/144/156/168/180/192/204/216/228}% 点伤害。\n\n如果该技能消灭了一名敌人, 则重置其冷却时间。\n\nTags: 武器精通, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:50%\n使出致命打擊,對你前方的敵人造成 {120/132/144/156/168/180/192/204/216/228}% 點傷害。\n\n若此技能擊殺了敵人,重置其冷卻時間。\n\nTags: 武器專精, 傷害, 物理, 冷卻時間."
 },
 		id: 89,
 		maxPoints: 5,
@@ -3422,7 +3602,8 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocniony Śmiertelny Cios",
 			"ptBR": "Golpe Mortal Aperfeiçoado",
 			"ruRU": "Усиленный смертельный удар",
-			"zhCN": "强化死亡重击"
+			"zhCN": "强化死亡重击",
+			"zhTW": "強化死亡之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Todesstoß fügt Bossen x100% mehr Schaden zu.\n\nTags: Waffenbeherrschung, Schaden, Physisch, Abklingzeit.",
@@ -3435,7 +3616,8 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"plPL": "Śmiertelny Cios zadaje bossom obrażenia zwiększone o x100%.\n\nTags: Mistrzostwo Broni, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Golpe Mortal causa 100% de dano aumentado contra chefes.\n\nTags: Maestria em Armas, Dano, Física, Recarga.",
 			"ruRU": "\"Смертельный удар\" наносит на x100% больше урона боссам.\n\nTags: Мастер оружия, Урон, Физический урон, Время восстановления.",
-			"zhCN": "死亡重击对首领造成的伤害提高 x100%。\n\nTags: 武器精通, 伤害, 物理, 冷却时间."
+			"zhCN": "死亡重击对首领造成的伤害提高 x100%。\n\nTags: 武器精通, 伤害, 物理, 冷却时间.",
+			"zhTW": "死亡之擊對首領造成的傷害提高 x100%。\n\nTags: 武器專精, 傷害, 物理, 冷卻時間."
 },
 		id: 90,
 		maxPoints: 1,
@@ -3459,7 +3641,8 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"plPL": "Wojowniczy Śmiertelny Cios",
 			"ptBR": "Golpe Mortal do Guerreiro",
 			"ruRU": "Воинский смертельный удар",
-			"zhCN": "勇士死亡重击"
+			"zhCN": "勇士死亡重击",
+			"zhTW": "戰士死亡之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Todesstoß mindestens einem Gegner Schaden zufügt, verfallt Ihr 3 Sek. lang in den Berserkermodus.\n\nTags: Waffenbeherrschung, Schaden, Physisch, Abklingzeit.",
@@ -3472,7 +3655,8 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"plPL": "Jeśli Śmiertelny Cios zada obrażenia co najmniej jednemu wrogowi, zyskujesz berserkowanie na 3 sek.\n\nTags: Mistrzostwo Broni, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Se Golpe Mortal causar dano a pelo menos um inimigo, você receberá Berserk por 3 segundos.\n\nTags: Maestria em Armas, Dano, Física, Recarga.",
 			"ruRU": "Если \"Смертельный удар\" наносит урон хотя бы одному противнику, вы получаете эффект берсерк на 3 сек.\n\nTags: Мастер оружия, Урон, Физический урон, Время восстановления.",
-			"zhCN": "如果死亡重击对至少一名敌人造成伤害, 则获得狂暴效果, 持续 3 秒。\n\nTags: 武器精通, 伤害, 物理, 冷却时间."
+			"zhCN": "如果死亡重击对至少一名敌人造成伤害, 则获得狂暴效果, 持续 3 秒。\n\nTags: 武器精通, 伤害, 物理, 冷却时间.",
+			"zhTW": "死亡之擊擊中至少一個敵人時,可使你獲得狂暴,持續 3 秒。\n\nTags: 武器專精, 傷害, 物理, 冷卻時間."
 },
 		id: 91,
 		maxPoints: 1,
@@ -3496,7 +3680,8 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"plPL": "Porywczy Śmiertelny Cios",
 			"ptBR": "Golpe Mortal do Lutador",
 			"ruRU": "Бойцовский смертельный удар",
-			"zhCN": "斗士死亡重击"
+			"zhCN": "斗士死亡重击",
+			"zhTW": "鬥士死亡之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Todesstoß mindestens einem Gegner Schaden zufügt, erhaltet Ihr 20 Wut.\n\nTags: Waffenbeherrschung, Schaden, Physisch, Abklingzeit.",
@@ -3509,7 +3694,8 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"plPL": "Jeśli Śmiertelny Cios zada obrażenia co najmniej jednemu wrogowi, zyskujesz 20 pkt. furii.\n\nTags: Mistrzostwo Broni, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Se Golpe Mortal causar dano a pelo menos um inimigo, você receberá 20 de fúria.\n\nTags: Maestria em Armas, Dano, Física, Recarga.",
 			"ruRU": "Если \"Смертельный удар\" наносит урон хотя бы одному противнику, вы получаете 20 ед. ярости.\n\nTags: Мастер оружия, Урон, Физический урон, Время восстановления.",
-			"zhCN": "如果死亡重击至少对一名敌人造成伤害, 获得 20 点怒气。\n\nTags: 武器精通, 伤害, 物理, 冷却时间."
+			"zhCN": "如果死亡重击至少对一名敌人造成伤害, 获得 20 点怒气。\n\nTags: 武器精通, 伤害, 物理, 冷却时间.",
+			"zhTW": "死亡之擊擊中至少一個敵人時,可產生 20 點怒氣。\n\nTags: 武器專精, 傷害, 物理, 冷卻時間."
 },
 		id: 92,
 		maxPoints: 1,
@@ -3532,7 +3718,8 @@ Tags: Damage Reduction, Damage.`,
 			"plPL": "Walka Arenowa",
 			"ptBR": "Luta de Fosso",
 			"ruRU": "Боец арены",
-			"zhCN": "深坑斗士"
+			"zhCN": "深坑斗士",
+			"zhTW": "角鬥士"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt Gegnern in der Nähe x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden zu und erhaltet {2/4/6/8/10/12/14/16/18/20}% Schadensreduktion im Fernkampf.\n\nTags: Schadensreduktion, Schaden.",
@@ -3545,7 +3732,8 @@ Tags: Damage Reduction, Damage.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{3/6/9/12/15/18/21/24/27/30}% pobliskim wrogom i zyskujesz {2/4/6/8/10/12/14/16/18/20}% redukcji obrażeń otrzymywanych z dystansu.\n\nTags: Redukcja Obrażeń, Obrażenia.",
 			"ptBR": "Você causa {3/6/9/12/15/18/21/24/27/30}% de dano aumentado a inimigos próximos e recebe {2/4/6/8/10/12/14/16/18/20}% de redução de dano de longa distância.\n\nTags: Redução de Dano, Dano.",
 			"ruRU": "Вы наносите на x{3/6/9/12/15/18/21/24/27/30}% больше урона противникам в области ближнего боя и получаете на {2/4/6/8/10/12/14/16/18/20}% меньше урона от атак дальнего боя.\n\nTags: Уменьшение урона, Урон.",
-			"zhCN": "你对近距敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%, 获得 {2/4/6/8/10/12/14/16/18/20}% 远程伤害减免。\n\nTags: 伤害减免, 伤害."
+			"zhCN": "你对近距敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%, 获得 {2/4/6/8/10/12/14/16/18/20}% 远程伤害减免。\n\nTags: 伤害减免, 伤害.",
+			"zhTW": "你對近距離敵人造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%,且獲得 {2/4/6/8/10/12/14/16/18/20}% 遠程傷害減免。\n\nTags: 傷害減免, 傷害."
 },
 		id: 93,
 		maxPoints: 3,
@@ -3568,7 +3756,8 @@ Tags: Injured, Damage.`,
 			"plPL": "Morderczy Atak",
 			"ptBR": "Golpe Matador",
 			"ruRU": "Разящий удар",
-			"zhCN": "杀戮打击"
+			"zhCN": "杀戮打击",
+			"zhTW": "痛下殺手"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt verwundeten Gegnern x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% mehr Schaden zu.\n\nTags: Verletzt, Schaden.",
@@ -3581,7 +3770,8 @@ Tags: Injured, Damage.`,
 			"plPL": "Zadajesz okaleczonym wrogom obrażenia zwiększone o x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}%.\n\nTags: Okaleczenie, Obrażenia.",
 			"ptBR": "Você causa {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% de dano aumentado contra inimigos feridos.\n\nTags: Ferido, Dano.",
 			"ruRU": "Вы наносите на x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% больше урона противникам с низким уровнем здоровья.\n\nTags: Ранение, Урон.",
-			"zhCN": "你对受伤的敌人造成的伤害提高 x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}%。\n\nTags: 受伤, 伤害."
+			"zhCN": "你对受伤的敌人造成的伤害提高 x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}%。\n\nTags: 受伤, 伤害.",
+			"zhTW": "你對受傷的敵人造成的傷害提高 x{7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}%。\n\nTags: 受傷, 傷害."
 },
 		id: 94,
 		maxPoints: 3,
@@ -3604,7 +3794,8 @@ Tags: Vulnerable, Core, Weapon Mastery.`,
 			"plPL": "Odsłonięcie Wrażliwości",
 			"ptBR": "Expor Vulnerabilidade",
 			"ruRU": "Найти слабости",
-			"zhCN": "揭示弱点"
+			"zhCN": "揭示弱点",
+			"zhTW": "暴露破綻"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr mit einer Waffenbeherrschungsfertigkeit direkten Schaden verursacht, macht Eure nächste Kernfertigkeit Gegner {1/2/3/4/5/6/7/8/9/10} Sek. lang verwundbar.\n\nTags: Verwundbar, Kern, Waffenbeherrschung.",
@@ -3617,7 +3808,8 @@ Tags: Vulnerable, Core, Weapon Mastery.`,
 			"plPL": "Zadanie wrogowi obrażeń umiejętnością Mistrzostwa Broni sprawia, że twoja kolejna umiejętność Główna powoduje u wrogów odsłonięcie na {1/2/3/4/5/6/7/8/9/10} sek.\n\nTags: Odsłonięcie, Główne, Mistrzostwo Broni.",
 			"ptBR": "Causar dano direto com uma habilidade de Maestria em Armas faz com que sua próxima habilidade principal torne os inimigos vulneráveis por {1/2/3/4/5/6/7/8/9/10} segundos.\n\nTags: Vulnerável, Principal, Maestria em Armas.",
 			"ruRU": "Когда умение категории \"Мастер оружия\" наносит прямой урон, ваше следующее основное умение делает противников уязвимыми на {1/2/3/4/5/6/7/8/9/10} сек.\n\nTags: Уязвимость, Основное, Мастер оружия.",
-			"zhCN": "用武器精通技能造成直接伤害后, 你的下一个核心技能会使敌人陷入易伤状态, 持续 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 易伤, 核心, 武器精通."
+			"zhCN": "用武器精通技能造成直接伤害后, 你的下一个核心技能会使敌人陷入易伤状态, 持续 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 易伤, 核心, 武器精通.",
+			"zhTW": "以武器專精技能造成直接傷害,會使你的下一個核心技能對敵人造成易傷,持續 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 易傷, 核心, 武器專精."
 },
 		id: 95,
 		maxPoints: 3,
@@ -3640,7 +3832,8 @@ Tags: Critical Strikes, Crowd Control.`,
 			"plPL": "Brak Litości",
 			"ptBR": "Sem Piedade",
 			"ruRU": "Никакой пощады",
-			"zhCN": "绝不留情"
+			"zhCN": "绝不留情",
+			"zhTW": "毫不留情"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr habt eine +{3/6/9/12/15/18/21/24/27/30}% höhere kritische Trefferchance gegen bewegungsunfähige, betäubte oder verlangsamte Gegner.\n\nTags: Kritische Treffer, Kontrollverlust.",
@@ -3653,7 +3846,8 @@ Tags: Critical Strikes, Crowd Control.`,
 			"plPL": "Masz premię +{3/6/9/12/15/18/21/24/27/30}% do szansy na trafienie krytyczne przeciwko unieruchomionym, ogłuszonym i spowolnionym wrogom.\n\nTags: Trafienia Krytyczne, Ograniczanie Kontroli.",
 			"ptBR": "Você tem +{3/6/9/12/15/18/21/24/27/30}% de chance de acerto crítico aumentada contra inimigos imobilizados, atordoados ou desacelerados.\n\nTags: Acertos Críticos, Controle de Grupo.",
 			"ruRU": "Когда вы атакуете обездвиженных, оглушенных или замедленных противников, вероятность критического удара повышается на +{3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Критические удары, Контроль.",
-			"zhCN": "你对处于定身、昏迷或减速状态的敌人造成暴击的几率提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 暴击, 群控."
+			"zhCN": "你对处于定身、昏迷或减速状态的敌人造成暴击的几率提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 暴击, 群控.",
+			"zhTW": "你對定身、昏迷或緩速敵人的爆擊機率提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 爆擊, 控場."
 },
 		id: 96,
 		maxPoints: 3,
@@ -3678,7 +3872,8 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"plPL": "Rozerwanie",
 			"ptBR": "Ruptura",
 			"ruRU": "Разрыв",
-			"zhCN": "割裂"
+			"zhCN": "割裂",
+			"zhTW": "血肉橫飛"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\n\nGlückstrefferchance: 50%\nSpießt Gegner vor Euch auf, verursacht dabei 13% Schaden und reißt dann Eure Waffe heraus, wobei Ihr Gegnern Schaden in Höhe ihrer gesamten Blutungsmenge zufügt und sie vom gesamten Blutungsschaden befreit.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Hiebwaffe.",
@@ -3691,7 +3886,8 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"plPL": "Czas odnowienia: {#} sek.\n\nSzansa na szczęśliwy traf: 50%\nPrzeszywasz wrogów przed sobą, zadając im 13% pkt. obrażeń, po czym wyrywasz z nich broń, zadając wrogom pełne obrażenia od krwawienia i usuwając z nich krwawienie.\n\nTags: Mistrzostwo Broni, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Sieczne.",
 			"ptBR": "Recarga: {#} segundos\n\nChance de Golpe de Sorte: 50%\nEspeta inimigos à sua frente, causando 13% de dano. Então você arranca a arma, causando aos inimigos dano equivalente ao valor total de sangramento e removendo todo o dano de sangramento deles.\n\nTags: Maestria em Armas, Sangramento, Dano, Física, Recarga, Corte.",
 			"ruRU": "Время восстановления: {#} сек.\n\nВероятность удачного удара: 50%.\nВы пронзаете противников перед собой, нанося 13% ед. урона, а затем выдергиваете оружие, снимая действующие на врагов эффекты кровотечения и нанося оставшийся урон от этих эффектов.\n\nTags: Мастер оружия, Кровотечение, Урон, Физический урон, Время восстановления, Рубящее.",
-			"zhCN": "冷却时间: {#} 秒\n\n幸运一击几率: 50%\n刺穿面前的敌人, 造成 13% 点伤害, 然后拔出你的武器, 结算敌人身上的全部流血伤害并移除所有流血效果。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩."
+			"zhCN": "冷却时间: {#} 秒\n\n幸运一击几率: 50%\n刺穿面前的敌人, 造成 13% 点伤害, 然后拔出你的武器, 结算敌人身上的全部流血伤害并移除所有流血效果。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩.",
+			"zhTW": "冷卻時間:{#} 秒\n\n幸運觸發機率:50%\n刺穿你前方的敵人,造成 13% 點傷害,接著拔出武器,對敵人造成總流血量的傷害並移除流血狀態。\n\nTags: 武器專精, 流血, 傷害, 物理, 冷卻時間, 斬擊."
 },
 		id: 97,
 		maxPoints: 5,
@@ -3716,7 +3912,8 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"plPL": "Wzmocnione Rozerwanie",
 			"ptBR": "Ruptura Aperfeiçoada",
 			"ruRU": "Усиленный разрыв",
-			"zhCN": "强化割裂"
+			"zhCN": "强化割裂",
+			"zhTW": "強化血肉橫飛"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Eure Waffe während Blutspieß aus Gegnern herausreißt, wird eine Explosion ausgelöst, die im Verlauf von 5 Sek. 30% Blutungsschaden verursacht.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Hiebwaffe.",
@@ -3729,7 +3926,8 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"plPL": "Wyrwanie broni z wroga podczas Rozerwania powoduje eksplozję, która zadaje 30% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Mistrzostwo Broni, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Sieczne.",
 			"ptBR": "Arrancar sua arma de inimigos durante Ruptura provoca uma explosão que causa 30% de dano de sangramento ao longo de 5 segundos.\n\nTags: Maestria em Armas, Sangramento, Dano, Física, Recarga, Corte.",
 			"ruRU": "Когда вы вырываете оружие из противника, пронзенного \"Разрывом\", происходит взрыв, наносящий 30% ед. урона от кровотечения за 5 сек.\n\nTags: Мастер оружия, Кровотечение, Урон, Физический урон, Время восстановления, Рубящее.",
-			"zhCN": "在敌人被割裂 期间拔出你的武器会导致一次爆炸, 在 5 秒内造成 30% 点流血伤害。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩."
+			"zhCN": "在敌人被割裂 期间拔出你的武器会导致一次爆炸, 在 5 秒内造成 30% 点流血伤害。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩.",
+			"zhTW": "在血肉橫飛期間從敵人身上抽出武器,會造成爆炸,在 5 秒內造成 30% 點流血傷害。\n\nTags: 武器專精, 流血, 傷害, 物理, 冷卻時間, 斬擊."
 },
 		id: 98,
 		maxPoints: 1,
@@ -3753,7 +3951,8 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"plPL": "Porywcze Rozerwanie",
 			"ptBR": "Ruptura do Lutador",
 			"ruRU": "Бойцовский разрыв",
-			"zhCN": "斗士割裂"
+			"zhCN": "斗士割裂",
+			"zhTW": "鬥士血肉橫飛"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr mindestens 1 Gegner mit Blutspieß trefft, werdet Ihr um 15% Eures maximalen Lebens geheilt.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Hiebwaffe.",
@@ -3766,7 +3965,8 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"plPL": "Trafienie co najmniej 1 wroga Rozerwaniem przywraca 15% twojego maksymalnego zdrowia.\n\nTags: Mistrzostwo Broni, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Sieczne.",
 			"ptBR": "Atingir pelo menos 1 inimigo com Ruptura cura 15% da sua vida máxima.\n\nTags: Maestria em Armas, Sangramento, Dano, Física, Recarga, Corte.",
 			"ruRU": "Поразив хотя бы 1 противника \"Разрывом\", вы восполняете 15% максимального запаса здоровья.\n\nTags: Мастер оружия, Кровотечение, Урон, Физический урон, Время восстановления, Рубящее.",
-			"zhCN": "割裂命中至少 1 名敌人可以为你恢复 15% 生命上限。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩."
+			"zhCN": "割裂命中至少 1 名敌人可以为你恢复 15% 生命上限。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩.",
+			"zhTW": "以血肉橫飛擊中至少 1 個敵人,可使你恢復生命值上限的 15%。\n\nTags: 武器專精, 流血, 傷害, 物理, 冷卻時間, 斬擊."
 },
 		id: 99,
 		maxPoints: 1,
@@ -3790,7 +3990,8 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"plPL": "Wojownicze Rozerwanie",
 			"ptBR": "Ruptura do Guerreiro",
 			"ruRU": "Воинский разрыв",
-			"zhCN": "勇士割裂"
+			"zhCN": "勇士割裂",
+			"zhTW": "戰士血肉橫飛"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr mit Blutspieß Gegner trefft, erhöht sich Eure Angriffsgeschwindigkeit 4 Sek. lang um +20%.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Hiebwaffe.",
@@ -3803,7 +4004,8 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"plPL": "Trafianie wrogów Rozerwaniem zwiększa twoją szybkość ataku o +20% na 4 sek.\n\nTags: Mistrzostwo Broni, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Sieczne.",
 			"ptBR": "Atingir inimigos com Ruptura aumenta sua velocidade de ataque em +20% por 4 segundos.\n\nTags: Maestria em Armas, Sangramento, Dano, Física, Recarga, Corte.",
 			"ruRU": "Когда вы поражаете противников \"Разрывом\", ваша скорость атаки повышается на +20% на 4 сек.\n\nTags: Мастер оружия, Кровотечение, Урон, Физический урон, Время восстановления, Рубящее.",
-			"zhCN": "割裂命中敌人会使你的攻击速度提高 +20%, 持续 4 秒。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩."
+			"zhCN": "割裂命中敌人会使你的攻击速度提高 +20%, 持续 4 秒。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩.",
+			"zhTW": "以血肉橫飛擊中敵人會使你攻擊速度提高 +20%,持續 4 秒。\n\nTags: 武器專精, 流血, 傷害, 物理, 冷卻時間, 斬擊."
 },
 		id: 100,
 		maxPoints: 1,
@@ -3826,7 +4028,8 @@ Tags: Bleed, Crowd Control.`,
 			"plPL": "Okulawienie",
 			"ptBR": "Cortar Tendão",
 			"ruRU": "Подрезание сухожилий",
-			"zhCN": "断筋"
+			"zhCN": "断筋",
+			"zhTW": "斷筋"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Blutungseffekte verlangsamen Gegner um {10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Blutung, Kontrollverlust.",
@@ -3839,7 +4042,8 @@ Tags: Bleed, Crowd Control.`,
 			"plPL": "Twoje efekty krwawienia spowalniają wrogów o {10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Krwawienie, Ograniczanie Kontroli.",
 			"ptBR": "Seus efeitos de sangramento desaceleram os inimigos em {10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Sangramento, Controle de Grupo.",
 			"ruRU": "Ваши эффекты кровотечения замедляют противников на {10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Кровотечение, Контроль.",
-			"zhCN": "你的流血效果使敌人减速 {10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 流血, 群控."
+			"zhCN": "你的流血效果使敌人减速 {10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 流血, 群控.",
+			"zhTW": "你的流血效果會使敵人緩速 {10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 流血, 控場."
 },
 		id: 101,
 		maxPoints: 3,
@@ -3862,7 +4066,8 @@ Tags: Vulnerable, Bleed, Damage.`,
 			"plPL": "Głębokie Cięcie",
 			"ptBR": "Cortar até o Osso",
 			"ruRU": "Порез до кости",
-			"zhCN": "削骨"
+			"zhCN": "削骨",
+			"zhTW": "入骨之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Blutungseffekte fügen verwundbaren Gegnern x{6/12/18/24/30/36/42/48/54/60}% mehr Schaden zu.\n\nTags: Verwundbar, Blutung, Schaden.",
@@ -3875,7 +4080,8 @@ Tags: Vulnerable, Bleed, Damage.`,
 			"plPL": "Twoje efekty krwawienia zadają obrażenia zwiększone o x{6/12/18/24/30/36/42/48/54/60}% odsłoniętym wrogom.\n\nTags: Odsłonięcie, Krwawienie, Obrażenia.",
 			"ptBR": "Seus efeitos de sangramento causam {6/12/18/24/30/36/42/48/54/60}% de dano aumentado contra inimigos vulneráveis.\n\nTags: Vulnerável, Sangramento, Dano.",
 			"ruRU": "Ваши эффекты кровотечения наносят на x{6/12/18/24/30/36/42/48/54/60}% больше урона уязвимым противникам.\n\nTags: Уязвимость, Кровотечение, Урон.",
-			"zhCN": "你的流血效果对处于易伤状态的敌人造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 易伤, 流血, 伤害."
+			"zhCN": "你的流血效果对处于易伤状态的敌人造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 易伤, 流血, 伤害.",
+			"zhTW": "你的流血效果對易傷敵人造成的傷害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 易傷, 流血, 傷害."
 },
 		id: 102,
 		maxPoints: 3,
@@ -3906,7 +4112,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Zew Starożytnych",
 			"ptBR": "Chamado dos Ancestrais",
 			"ruRU": "Зов Древних",
-			"zhCN": "先祖召唤"
+			"zhCN": "先祖召唤",
+			"zhTW": "先祖召喚"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 30%\nBeschwört 3 Urahnen, die Euch 6 Sek. lang im Kampf unterstützen.\n• Korlic springt Gegner an, verursacht 104% Schaden und schwingt wild seine Waffen, die 39% Schaden pro Treffer verursachen.\n• Talic wirbelt umher und fügt Gegnern dabei 65% Schaden zu.\n• Madawc wühlt den Boden auf und verursacht 195% Schaden.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
@@ -3919,7 +4126,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 30%\nWzywasz 3 starożytnych, którzy będą walczyć u twego boku przez 6 sek.\n• Korlik doskakuje do wrogów i zadaje im 104% pkt. obrażeń, a następnie wykonuje serię ciosów bronią, zadając przy każdym trafieniu 39% pkt. obrażeń.\n• Talik wiruje i wykonuje błyskawiczne ataki wymierzone we wrogów, zadając im 65% pkt. obrażeń.\n• Madok rozdziera ziemię pod nogami wrogów, zadając im 195% pkt. obrażeń.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 30%\nChama 3 Ancestrais para ajudar você em batalha por 6 segundos.\n• Korlic salta nos inimigos, causando 104% de dano e golpeia com suas armas em um frenesi, causando 39% de dano por acerto.\n• Talic gira em um redemoinho, atacando inimigos rapidamente e causando 65% de dano.\n• Madawc perturba o solo, causando 195% de dano.\n\nTags: Suprema, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 30%\nПризывает на помощь 3 Древних на 6 сек.\n• Корлик прыгает на врагов, нанося 104% ед. урона, и бешено размахивает оружием, нанося 39% ед. урона каждым ударом.\n• Талик крутится в вихре стали, быстро нанося врагам по 65% ед. урона.\n• Мадавк сотрясает землю, нанося врагам 195% ед. урона.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 30%\n召唤三位先祖协助你进行战斗, 持续 6 秒。\n• 科里克发动腾空斩跃向敌人, 造成 104% 点伤害并狂乱挥舞他的武器, 每一击造成 39% 点伤害。\n• 塔里克发动旋风斩快速攻击敌人, 造成 65% 点伤害。\n• 马道克发动扬石飞沙, 造成 195% 点伤害。\n\nTags: 终极技能, 伤害, 物理, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 30%\n召唤三位先祖协助你进行战斗, 持续 6 秒。\n• 科里克发动腾空斩跃向敌人, 造成 104% 点伤害并狂乱挥舞他的武器, 每一击造成 39% 点伤害。\n• 塔里克发动旋风斩快速攻击敌人, 造成 65% 点伤害。\n• 马道克发动扬石飞沙, 造成 195% 点伤害。\n\nTags: 终极技能, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間: {#} 秒\n幸運觸發機率:30%\n召喚最多 3 名先祖協助作戰,持續 6 秒。\n• 科力克向敵人躍擊,造成 104% 點傷害,並狂亂揮動武器,每次擊中造成 39% 點傷害。\n• 塔力克以旋風之姿快刀亂斬敵人,造成 65% 點傷害。\n• 馬道克掀起地面,造成 195% 點傷害。\n\nTags: 絕招, 傷害, 物理, 冷卻時間."
 },
 		id: 103,
 		maxPoints: 1,
@@ -3944,7 +4152,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Większy Zew Starożytnych",
 			"ptBR": "Chamado dos Ancestrais Primordial",
 			"ruRU": "Первородный зов Древних",
-			"zhCN": "至尊先祖召唤"
+			"zhCN": "至尊先祖召唤",
+			"zhTW": "強烈先祖召喚"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Anrufung der Urahnen aktiv ist, erhaltet Ihr zusätzlich +10% Angriffsgeschwindigkeit und verursacht x10% mehr Schaden.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
@@ -3957,7 +4166,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Kiedy Zew Starożytnych jest aktywny, zyskujesz premię +10% do szybkości ataku oraz x10% do zadawanych obrażeń.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Enquanto Chamado dos Ancestrais está ativo, recebe +10% de bônus de velocidade de ataque e 10% de dano aumentado.\n\nTags: Suprema, Dano, Física, Recarga.",
 			"ruRU": "Пока действует \"Зов Древних\", ваша скорость атаки повышается на +10%, а наносимый урон увеличивается на x10%.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "先祖召唤激活时, 攻击速度提高 +10%, 造成的伤害提高 x10%。\n\nTags: 终极技能, 伤害, 物理, 冷却时间."
+			"zhCN": "先祖召唤激活时, 攻击速度提高 +10%, 造成的伤害提高 x10%。\n\nTags: 终极技能, 伤害, 物理, 冷却时间.",
+			"zhTW": "在先祖召喚生效時,獲得 +10% 攻擊速度加成,且傷害提高 x10%。\n\nTags: 絕招, 傷害, 物理, 冷卻時間."
 },
 		id: 104,
 		maxPoints: 1,
@@ -3984,7 +4194,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Największy Zew Starożytnych",
 			"ptBR": "Chamado dos Ancestrais Supremo",
 			"ruRU": "Неотвратимый зов Древних",
-			"zhCN": "至极先祖召唤"
+			"zhCN": "至极先祖召唤",
+			"zhTW": "終極先祖召喚"
 },
 		descriptionLocalized: {
 			"deDE": "Alle Urahnen erhalten zusätzliche Fähigkeiten:\nKorlic: Jedes Mal, wenn Korlic einem Gegner mit Raserei Schaden zufügt, erhaltet Ihr 10 Wut.\nTalic: Gegner werden 1 Sek. lang um 50% verlangsamt, wenn sie durch seinen Wirbelwind Schaden erleiden.\nMadawc: Chance von 30%, Gegner beim Einsatz von Aufwühlen 3 Sek. lang zu betäuben.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
@@ -3997,7 +4208,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Każdy ze Starożytnych zyskuje dodatkową moc:\nKorlik: Otrzymujesz 10 pkt. furii za każdym razem, gdy Korlik zrani wroga, używając Amoku.\nTalik: Wrogowie zostają spowolnieni o 50% na 1 sek., gdy zrani ich Trąbą Powietrzną.\nMadok: Ma 30% szans na ogłuszenie wrogów na 3 sek., kiedy używa Wypiętrzenia.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Cada um dos Ancestrais recebe poder adicional:\nKorlic: Você recebe 10 de fúria sempre que Korlic causa dano a um inimigo com Frenesi.\nTalic: Inimigos são desacelerados em 50% por 1 segundo ao serem atingidos por Redemoinho.\nMadawc: Tem 30% de chance de atordoar inimigos por 3 segundos ao usar Revolta.\n\nTags: Suprema, Dano, Física, Recarga.",
 			"ruRU": "Каждый из Древних получает дополнительное свойство:\nКорлик: вы накапливаете 10 ед. ярости каждый раз, когда Корлик наносит противнику урон \"Бешенством\".\nТалик: \"Вихрь\" замедляет противников на 50% на 1 сек.\nМадавк: \"Выброс земли\" с вероятностью 30% оглушает противников на 3 сек.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "每位先祖可以获得额外能力:\n科里克: 科里克每次使用狂乱对一名敌人造成伤害时, 你获得 10 点怒气。\n塔里克: 塔里克使用旋风斩对敌人造成伤害时, 使其减速 50%, 持续 1 秒。\n马道克: 马道克使用扬石飞沙时有 30% 几率使敌人昏迷 3 秒。\n\nTags: 终极技能, 伤害, 物理, 冷却时间."
+			"zhCN": "每位先祖可以获得额外能力:\n科里克: 科里克每次使用狂乱对一名敌人造成伤害时, 你获得 10 点怒气。\n塔里克: 塔里克使用旋风斩对敌人造成伤害时, 使其减速 50%, 持续 1 秒。\n马道克: 马道克使用扬石飞沙时有 30% 几率使敌人昏迷 3 秒。\n\nTags: 终极技能, 伤害, 物理, 冷却时间.",
+			"zhTW": "每位先祖都會獲得額外能力:\n科力克:每當科力克以狂亂對敵人造成傷害時,你會獲得 10 點怒氣。\n塔力克:以旋風斬傷害敵人會使敵人緩速 50%,持續 1 秒。\n馬道克:使用動盪震擊時有 30% 機率擊昏敵人 3 秒。\n\nTags: 絕招, 傷害, 物理, 冷卻時間."
 },
 		id: 105,
 		maxPoints: 1,
@@ -4025,7 +4237,8 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"plPL": "Żelazna Nawałnica",
 			"ptBR": "Maelstrom de Ferro",
 			"ruRU": "Круговорот стали",
-			"zhCN": "钢铁漩涡"
+			"zhCN": "钢铁漩涡",
+			"zhTW": "鋼鐵漩渦"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 24.167%\nAktiviert diese Fertigkeit dreimal, um Ketten an jeder Eurer Waffen zu befestigen und einen Angriff auszuführen:\n• Zuerst schmettert Ihr Eure zweihändige Wuchtwaffe auf den Boden, wobei Ihr 60% Schaden verursacht und Gegner 2 Sek. lang betäubt.\n• Danach schwingt Ihr Eure zweihändige Hiebwaffe vor Euch umher, wobei Ihr 20% Schaden und im Verlauf von 5 Sek. 120% Blutungsschaden verursacht.\n• Zuletzt schwingen Eure beidhändigen Waffen um Euch herum, wobei sie 32.5% Schaden pro Treffer verursachen.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Hiebwaffe.",
@@ -4038,7 +4251,8 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 24.167%\nAktywuj 3 razy, aby przytwierdzić łańcuch do swojej broni i wykonać atak:\n• Najpierw uderzasz swoją dwuręczną bronią obuchową w ziemię i zadajesz wrogom 60% pkt. obrażeń oraz ogłuszasz ich na 2 sek.\n• Potem wykonujesz przed sobą zamach dwuręczną bronią sieczną, zadając wrogom 20% pkt. obrażeń i wywołując u nich 120% pkt. obrażeń od krwawienia w ciągu 5 sek.\n• Na koniec wykonujesz wokół siebie atak bronią w każdej ręce i zadajesz przy każdym trafieniu 32.5% pkt. obrażeń.\n\nTags: Specjalne, Ograniczanie Kontroli, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Dwuręczne, Obuchowe, Broń w Każdej Ręce, Sieczne.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 24.167%\nAtive três vezes para prender correntes a cada uma de suas armas e realizar um ataque:\n• Primeiro, sua arma de concussão de duas mãos golpeia o chão, causando 60% de dano e atordoando inimigos por 2 segundos.\n• Na ativação seguinte, sua arma de corte de duas mãos golpeia à sua frente, causando 20% de dano e aplicando 120% de dano de sangramento ao longo de 5 segundos.\n• Por fim, suas armas de empunhadura dupla golpeiam ao seu redor, causando 32.5% de dano por acerto.\n\nTags: Suprema, Controle de Grupo, Sangramento, Dano, Física, Recarga, Duas mãos, Concussão, Empunhadura Dupla, Corte.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 24.167%\nВы 3 раза прикрепляете цепи к оружию и атакуете:\n• Сперва вы бьете по земле двуручным дробящим оружием, нанося 60% ед. урона и оглушая врагов на 2 сек.\n• Затем вы раскручиваете двуручное рубящее оружие, нанося 20% ед. урона и нанося 120% ед. урона от кровотечения за 5 сек.\n• И наконец, вы раскручиваете одноручное оружие, нанося 32.5% ед. урона каждым попаданием.\n\nTags: Мощное умение, Контроль, Кровотечение, Урон, Физический урон, Время восстановления, Двуручное, Дробящее оружие, Оружие в каждой руке, Рубящее.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 24.167%\n在每把武器上附加锁链并实施攻击, 共计三次:\n• 第一次, 你的双手钝击武器猛砸地面, 造成 60% 点伤害并使敌人昏迷 2 秒。\n• 第二次, 你的双手劈砍武器挥向前方, 造成 20% 点伤害并在接下来的 5 秒内造成 120% 点流血伤害。\n• 第三次, 你的双持武器在身边挥舞, 每次命中造成 32.5% 点伤害。\n\nTags: 终极技能, 群控, 流血, 伤害, 物理, 冷却时间, 双手, 钝击, 双持, 劈斩."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 24.167%\n在每把武器上附加锁链并实施攻击, 共计三次:\n• 第一次, 你的双手钝击武器猛砸地面, 造成 60% 点伤害并使敌人昏迷 2 秒。\n• 第二次, 你的双手劈砍武器挥向前方, 造成 20% 点伤害并在接下来的 5 秒内造成 120% 点流血伤害。\n• 第三次, 你的双持武器在身边挥舞, 每次命中造成 32.5% 点伤害。\n\nTags: 终极技能, 群控, 流血, 伤害, 物理, 冷却时间, 双手, 钝击, 双持, 劈斩.",
+			"zhTW": "冷卻時間: {#} 秒\n幸運觸發機率:24.167%\n啟動三次會為你的每一把武器附加鎖鍊並進行一次攻擊:\n• 首先,你使用雙手鈍擊武器重擊地面,造成 60% 點傷害並擊昏敵人,持續 2 秒。\n• 接著,你使用雙手斬擊武器在你前方掃擊,造成 20% 點傷害,並在 5 秒內施加 120% 點流血傷害。\n• 最後,你使用雙持武器在你周圍揮擊,每次命中造成 32.5% 點傷害。\n\nTags: 絕招, 控場, 流血, 傷害, 物理, 冷卻時間, 雙手, 鈍擊, 雙持, 斬擊."
 },
 		id: 106,
 		maxPoints: 1,
@@ -4063,7 +4277,8 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"plPL": "Większa Żelazna Nawałnica",
 			"ptBR": "Maelstrom de Ferro Primordial",
 			"ruRU": "Первозданный круговорот стали",
-			"zhCN": "至尊钢铁漩涡"
+			"zhCN": "至尊钢铁漩涡",
+			"zhTW": "強烈鋼鐵漩渦"
 },
 		descriptionLocalized: {
 			"deDE": "Eiserner Mahlstrom erhält eine um +10% erhöhte kritische Trefferchance und verursacht x20% mehr kritischen Trefferschaden.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Hiebwaffe.",
@@ -4076,7 +4291,8 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"plPL": "Żelazna Nawałnica ma szansę na trafienie krytyczne zwiększoną o +10% i zadaje obrażenia od trafień krytycznych zwiększone o x20%.\n\nTags: Specjalne, Ograniczanie Kontroli, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Dwuręczne, Obuchowe, Broń w Każdej Ręce, Sieczne.",
 			"ptBR": "Maelstrom de Ferro recebe +10% de chance de acerto crítico aumentada e causa 20% de dano de acerto crítico aumentado.\n\nTags: Suprema, Controle de Grupo, Sangramento, Dano, Física, Recarga, Duas mãos, Concussão, Empunhadura Dupla, Corte.",
 			"ruRU": "Вероятность критического эффекта \"Круговорота стали\" повышается на +10%, а критический урон увеличивается на x20%.\n\nTags: Мощное умение, Контроль, Кровотечение, Урон, Физический урон, Время восстановления, Двуручное, Дробящее оружие, Оружие в каждой руке, Рубящее.",
-			"zhCN": "钢铁漩涡的暴击几率提高 +10%, 暴击伤害提高 x20%。\n\nTags: 终极技能, 群控, 流血, 伤害, 物理, 冷却时间, 双手, 钝击, 双持, 劈斩."
+			"zhCN": "钢铁漩涡的暴击几率提高 +10%, 暴击伤害提高 x20%。\n\nTags: 终极技能, 群控, 流血, 伤害, 物理, 冷却时间, 双手, 钝击, 双持, 劈斩.",
+			"zhTW": "鋼鐵漩渦的爆擊機率提高 +10%,造成的爆擊傷害提高 x20%。\n\nTags: 絕招, 控場, 流血, 傷害, 物理, 冷卻時間, 雙手, 鈍擊, 雙持, 斬擊."
 },
 		id: 107,
 		maxPoints: 1,
@@ -4100,7 +4316,8 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"plPL": "Największa Żelazna Nawałnica",
 			"ptBR": "Maelstrom de Ferro Supremo",
 			"ruRU": "Неотвратимый круговорот стали",
-			"zhCN": "至极钢铁漩涡"
+			"zhCN": "至极钢铁漩涡",
+			"zhTW": "終極鋼鐵漩渦"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr nach dem Wechseln Eurer Waffen einem Gegner direkten Schaden zufügt, verringert sich die Abklingzeit von Eiserner Mahlstrom um 1 Sek.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Hiebwaffe.",
@@ -4113,7 +4330,8 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"plPL": "Zadawanie bezpośrednich obrażeń wrogowi po zmianie broni skraca czas odnowienia Żelaznej Nawałnicy o 1 sek.\n\nTags: Specjalne, Ograniczanie Kontroli, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Dwuręczne, Obuchowe, Broń w Każdej Ręce, Sieczne.",
 			"ptBR": "Causar dano direto a um inimigo depois de trocar de armas reduz a recarga de Maelstrom de Ferro em 1 segundo.\n\nTags: Suprema, Controle de Grupo, Sangramento, Dano, Física, Recarga, Duas mãos, Concussão, Empunhadura Dupla, Corte.",
 			"ruRU": "При нанесении прямого урона сразу после смены оружия время восстановления \"Круговорота стали\" сокращается на 1 сек.\n\nTags: Мощное умение, Контроль, Кровотечение, Урон, Физический урон, Время восстановления, Двуручное, Дробящее оружие, Оружие в каждой руке, Рубящее.",
-			"zhCN": "切换武器后对一名敌人造成直接伤害, 可以使钢铁漩涡的冷却时间缩短 1 秒。\n\nTags: 终极技能, 群控, 流血, 伤害, 物理, 冷却时间, 双手, 钝击, 双持, 劈斩."
+			"zhCN": "切换武器后对一名敌人造成直接伤害, 可以使钢铁漩涡的冷却时间缩短 1 秒。\n\nTags: 终极技能, 群控, 流血, 伤害, 物理, 冷却时间, 双手, 钝击, 双持, 劈斩.",
+			"zhTW": "在切換武器後對敵人造成直接傷害可使鋼鐵漩渦的冷卻時間縮短 1 秒。\n\nTags: 絕招, 控場, 流血, 傷害, 物理, 冷卻時間, 雙手, 鈍擊, 雙持, 斬擊."
 },
 		id: 108,
 		maxPoints: 1,
@@ -4136,7 +4354,8 @@ Tags: Attack Speed, Dual Wield.`,
 			"plPL": "Zawodnik",
 			"ptBR": "Duelista",
 			"ruRU": "Дуэлянт",
-			"zhCN": "决斗家"
+			"zhCN": "决斗家",
+			"zhTW": "決鬥者"
 },
 		descriptionLocalized: {
 			"deDE": "Bei der Verwendung von Einhandwaffen erhöht sich die Angriffsgeschwindigkeit um +{3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Angriffsgeschwindigkeit, Zwei Waffen.",
@@ -4149,7 +4368,8 @@ Tags: Attack Speed, Dual Wield.`,
 			"plPL": "Szybkość ataku wzrasta o +{3/6/9/12/15/18/21/24/27/30}%, gdy korzystasz z broni jednoręcznej.\n\nTags: Szybkość Ataku, Broń w Każdej Ręce.",
 			"ptBR": "A velocidade de ataque é aumentada em +{3/6/9/12/15/18/21/24/27/30}% ao usar armas de uma mão.\n\nTags: Velocidade de Ataque, Empunhadura Dupla.",
 			"ruRU": "При использовании одноручного оружия ваша скорость атаки повышается на +{3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Скорость атаки, Оружие в каждой руке.",
-			"zhCN": "使用单手武器时攻击速度提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 攻击速度, 双持."
+			"zhCN": "使用单手武器时攻击速度提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 攻击速度, 双持.",
+			"zhTW": "使用單手武器時,攻擊速度提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 攻擊速度, 雙持."
 },
 		id: 109,
 		maxPoints: 3,
@@ -4173,7 +4393,8 @@ Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 			"plPL": "Gniew Berserkera",
 			"ptBR": "Fúria do Berserker",
 			"ruRU": "Гнев берсерка",
-			"zhCN": "狂战士之怒"
+			"zhCN": "狂战士之怒",
+			"zhTW": "狂戰之怒"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nExplodiert vor Wut und stoßt Gegner in der Nähe zurück. Ihr verfallt 5 Sek. lang in den Berserkermodus und werdet unaufhaltsam. Im Verlauf der nächsten 10 Sek. verfallt Ihr jedes Mal 5 Sek. lang in den Berserkermodus, wenn Ihr mit Basisfertigkeiten direkten Schaden verursacht.\n\nTags: Ultimativ, Unaufhaltsam, Berserkermodus, Abklingzeit, Basis.",
@@ -4186,7 +4407,8 @@ Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 			"plPL": "Czas odnowienia: {#} sek.\nWybuchasz gniewem, odrzucając pobliskich wrogów, i zyskujesz berserkowanie oraz nieustępliwość na 5 sek. Przez następne 10 sek. zadawanie bezpośrednich obrażeń umiejętnościami Podstawowymi zapewnia berserkowanie na 5 sek.\n\nTags: Specjalne, Nieustępliwość, Berserkowanie, Odnowienie, Podstawowe.",
 			"ptBR": "Recarga: {#} segundos\nExplode em um estado de fúria, repelindo inimigos ao redor, recebendo Berserk e tornando-se implacável por 5 segundos. Pelos próximos 10 segundos, causar dano direto com habilidades básicas concede Berserk por 5 segundos.\n\nTags: Suprema, Implacável, Berserk, Recarga, Básica.",
 			"ruRU": "Время восстановления: {#} сек.\nПри вспышке ярости вы отбрасываете противников поблизости, а также получаете эффекты берсерк и неудержимость на 5 сек. В течение следующих 10 сек. прямой урон от базовых умений продлевает действие берсерка на 5 сек.\n\nTags: Мощное умение, Неудержимость, Берсерк, Время восстановления, Базовое.",
-			"zhCN": "冷却时间:{#} 秒\n变得怒不可遏,击退周围的敌人并获得狂暴和不可阻挡,持续 5 秒。在接下来的 10 秒内,使用基础技能造成直接伤害可以获得狂暴,持续 5 秒。\n\nTags: 终极技能, 不可阻挡, 狂暴, 冷却时间, 基础."
+			"zhCN": "冷却时间:{#} 秒\n变得怒不可遏,击退周围的敌人并获得狂暴和不可阻挡,持续 5 秒。在接下来的 10 秒内,使用基础技能造成直接伤害可以获得狂暴,持续 5 秒。\n\nTags: 终极技能, 不可阻挡, 狂暴, 冷却时间, 基础.",
+			"zhTW": "冷卻時間:{#} 秒\n陷入狂怒,擊退附近的敵人並獲得狂暴與無阻狀態,持續 5 秒。在接下來 10 秒內,以基本技能造成直接傷害可獲得狂暴,持續 5秒。\n\nTags: 絕招, 無阻, 狂暴, 冷卻時間, 基本."
 },
 		id: 110,
 		maxPoints: 1,
@@ -4211,7 +4433,8 @@ Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 			"plPL": "Większy Gniew Berserkera",
 			"ptBR": "Fúria do Berserker Primordial",
 			"ruRU": "Первозданный гнев берсерка",
-			"zhCN": "至尊狂战士之怒"
+			"zhCN": "至尊狂战士之怒",
+			"zhTW": "強烈狂戰之怒"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Zorn des Berserkers aktiv ist, erhaltet Ihr +20% erhöhte Bewegungsgeschwindigkeit und die Wuterzeugung erhöht sich um x30%.\n\nTags: Ultimativ, Unaufhaltsam, Berserkermodus, Abklingzeit, Basis.",
@@ -4224,7 +4447,8 @@ Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 			"plPL": "Kiedy Gniew Berserkera jest aktywny, zyskujesz +20% do szybkości ruchu, a generowanie furii jest zwiększone o x30%.\n\nTags: Specjalne, Nieustępliwość, Berserkowanie, Odnowienie, Podstawowe.",
 			"ptBR": "Enquanto Fúria do Berserker está ativa, recebe +20% de velocidade de movimento aumentada e aumenta a geração de fúria em 30%.\n\nTags: Suprema, Implacável, Berserk, Recarga, Básica.",
 			"ruRU": "Пока действует \"Гнев берсерка\", ваша скорость передвижения повышается на +20%, а скорость восстановления ярости – на x30%.\n\nTags: Мощное умение, Неудержимость, Берсерк, Время восстановления, Базовое.",
-			"zhCN": "狂战士之怒激活时, 移动速度提高 +20%, 怒气生成速度提高 x30%。\n\nTags: 终极技能, 不可阻挡, 狂暴, 冷却时间, 基础."
+			"zhCN": "狂战士之怒激活时, 移动速度提高 +20%, 怒气生成速度提高 x30%。\n\nTags: 终极技能, 不可阻挡, 狂暴, 冷却时间, 基础.",
+			"zhTW": "在狂戰之怒效果期間,移動速度額外提高 +20%,且怒氣產生效率提高 x30%。\n\nTags: 絕招, 無阻, 狂暴, 冷卻時間, 基本."
 },
 		id: 112,
 		maxPoints: 1,
@@ -4248,7 +4472,8 @@ Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 			"plPL": "Największy Gniew Berserkera",
 			"ptBR": "Fúria do Berserker Suprema",
 			"ruRU": "Неотвратимый гнев берсерка",
-			"zhCN": "至极狂战士之怒"
+			"zhCN": "至极狂战士之怒",
+			"zhTW": "終極狂戰之怒"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Zorn des Berserkers aktiv ist, wird der Schadensbonus von Berserker je 50 verbrauchter Wutpunkte um x25% erhöht.\n\nTags: Ultimativ, Unaufhaltsam, Berserkermodus, Abklingzeit, Basis.",
@@ -4261,7 +4486,8 @@ Tags: Ultimate, Unstoppable, Berserking, Cooldown, Basic.`,
 			"plPL": "Kiedy Gniew Berserkera jest aktywny, za każde wykorzystane przez ciebie 50 pkt. furii premia do obrażeń od Berserkera jest zwiększona o x25%.\n\nTags: Specjalne, Nieustępliwość, Berserkowanie, Odnowienie, Podstawowe.",
 			"ptBR": "Enquanto Fúria do Berserker está ativa, cada 50 de fúria que você gastar aumenta o bônus de dano de Berserk em 25%.\n\nTags: Suprema, Implacável, Berserk, Recarga, Básica.",
 			"ruRU": "Пока действует \"Гнев берсерка\", бонус к урону от берсерка увеличивается на x25% за каждые затраченные 50 ед. ярости.\n\nTags: Мощное умение, Неудержимость, Берсерк, Время восстановления, Базовое.",
-			"zhCN": "狂战士之怒激活时, 每消耗 50 点怒气可以使狂暴的伤害加成提高 x25%。\n\nTags: 终极技能, 不可阻挡, 狂暴, 冷却时间, 基础."
+			"zhCN": "狂战士之怒激活时, 每消耗 50 点怒气可以使狂暴的伤害加成提高 x25%。\n\nTags: 终极技能, 不可阻挡, 狂暴, 冷却时间, 基础.",
+			"zhTW": "在狂戰之怒啟動期間,你每消耗 50 點怒氣,就會使狂暴的傷害加成提高 x25%。\n\nTags: 絕招, 無阻, 狂暴, 冷卻時間, 基本."
 },
 		id: 111,
 		maxPoints: 1,
@@ -4284,7 +4510,8 @@ Tags: Fury.`,
 			"plPL": "Hartowana Furia",
 			"ptBR": "Fúria Controlada",
 			"ruRU": "Усмиренная ярость",
-			"zhCN": "愤怒有制"
+			"zhCN": "愤怒有制",
+			"zhTW": "淬鍊怒火"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht Eure maximale Wut um {3/6/9/12/15/18/21/24/27/30}.\n\nTags: Wut.",
@@ -4297,7 +4524,8 @@ Tags: Fury.`,
 			"plPL": "Maksymalna wartość furii jest zwiększona o {3/6/9/12/15/18/21/24/27/30} pkt.\n\nTags: Furia.",
 			"ptBR": "Aumenta sua fúria máxima em {3/6/9/12/15/18/21/24/27/30}.\n\nTags: Fúria.",
 			"ruRU": "Максимальный запас ярости увеличивается на {3/6/9/12/15/18/21/24/27/30} ед.\n\nTags: Ярость.",
-			"zhCN": "你的怒气上限提高 {3/6/9/12/15/18/21/24/27/30} 点。\n\nTags: 怒气."
+			"zhCN": "你的怒气上限提高 {3/6/9/12/15/18/21/24/27/30} 点。\n\nTags: 怒气.",
+			"zhTW": "你的怒氣上限提高 {3/6/9/12/15/18/21/24/27/30}。\n\nTags: 怒氣."
 },
 		id: 113,
 		maxPoints: 3,
@@ -4320,7 +4548,8 @@ Tags: Fury, Healing.`,
 			"plPL": "Ożywcza Furia",
 			"ptBR": "Fúria Revigorante",
 			"ruRU": "Бодрящая ярость",
-			"zhCN": "怒意充沛"
+			"zhCN": "怒意充沛",
+			"zhTW": "振奮怒火"
 },
 		descriptionLocalized: {
 			"deDE": "Heilt Euch jedes Mal, wenn Ihr 100 Wut verbraucht, um {3/6/9/12/15/18/21/24/27/30}% Eures maximalen Lebens.\n\nTags: Wut, Heilung.",
@@ -4333,7 +4562,8 @@ Tags: Fury, Healing.`,
 			"plPL": "Odzyskujesz {3/6/9/12/15/18/21/24/27/30}% maksymalnego zdrowia za każde wykorzystane 100 pkt. furii.\n\nTags: Furia, Leczenie.",
 			"ptBR": "Cura {3/6/9/12/15/18/21/24/27/30}% da sua vida máxima por cada 100 de fúria gasta.\n\nTags: Fúria, Cura.",
 			"ruRU": "Вы восполняете {3/6/9/12/15/18/21/24/27/30}% максимального запаса здоровья за каждые затраченные 100 ед. ярости.\n\nTags: Ярость, Исцеление.",
-			"zhCN": "每消耗 100 点怒气可以为你恢复 {3/6/9/12/15/18/21/24/27/30}%生命上限。\n\nTags: 怒气, 治疗."
+			"zhCN": "每消耗 100 点怒气可以为你恢复 {3/6/9/12/15/18/21/24/27/30}%生命上限。\n\nTags: 怒气, 治疗.",
+			"zhTW": "每消耗 100 點怒氣,可恢復生命值上限的 {3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 怒氣, 治療."
 },
 		id: 114,
 		maxPoints: 3,
@@ -4356,7 +4586,8 @@ Tags: Fury.`,
 			"plPL": "Wściekły Impuls",
 			"ptBR": "Impulso Furioso",
 			"ruRU": "Яростный порыв",
-			"zhCN": "怒意冲动"
+			"zhCN": "怒意冲动",
+			"zhTW": "狂怒衝動"
 },
 		descriptionLocalized: {
 			"deDE": "Bei jedem Waffenwechsel erhaltet Ihr {2/4/6/8/10/12/14/16/18/20} Wut.\n\nTags: Wut.",
@@ -4369,7 +4600,8 @@ Tags: Fury.`,
 			"plPL": "Za każdym razem, gdy zmieniasz broń, zyskujesz {2/4/6/8/10/12/14/16/18/20} pkt. furii.\n\nTags: Furia.",
 			"ptBR": "Sempre que trocar de armas, recebe {2/4/6/8/10/12/14/16/18/20} de fúria.\n\nTags: Fúria.",
 			"ruRU": "При каждой смене оружия вы накапливаете {2/4/6/8/10/12/14/16/18/20} ед. ярости.\n\nTags: Ярость.",
-			"zhCN": "每次切换武器时获得 {2/4/6/8/10/12/14/16/18/20} 点怒气。\n\nTags: 怒气."
+			"zhCN": "每次切换武器时获得 {2/4/6/8/10/12/14/16/18/20} 点怒气。\n\nTags: 怒气.",
+			"zhTW": "每當你切換武器,可獲得 {2/4/6/8/10/12/14/16/18/20} 點怒氣。\n\nTags: 怒氣."
 },
 		id: 115,
 		maxPoints: 3,
@@ -4392,7 +4624,8 @@ Tags: Vulnerable, Crowd Control, Bludgeoning, Damage.`,
 			"plPL": "Walnięcie",
 			"ptBR": "Espancamento",
 			"ruRU": "Разгром",
-			"zhCN": "重击"
+			"zhCN": "重击",
+			"zhTW": "猛打"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Fertigkeiten mit Wuchtwaffen verursachen x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden, wenn der Gegner betäubt oder verwundbar ist.\n\nTags: Verwundbar, Kontrollverlust, Wuchtwaffe, Schaden.",
@@ -4405,7 +4638,8 @@ Tags: Vulnerable, Crowd Control, Bludgeoning, Damage.`,
 			"plPL": "Twoje umiejętności używania broni obuchowej zadają obrażenia zwiększone o x{5/10/15/20/25/30/35/40/45/50}%, jeśli wróg jest ogłuszony lub odsłonięty.\n\nTags: Odsłonięcie, Ograniczanie Kontroli, Obuchowe, Obrażenia.",
 			"ptBR": "Suas habilidades com armas de concussão causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado se o inimigo estiver atordoado ou vulnerável.\n\nTags: Vulnerável, Controle de Grupo, Concussão, Dano.",
 			"ruRU": "Умения, использующие дробящее оружие, наносят на x{5/10/15/20/25/30/35/40/45/50}% больше урона оглушенным или уязвимым противникам.\n\nTags: Уязвимость, Контроль, Дробящее оружие, Урон.",
-			"zhCN": "使用钝击武器的技能对处于昏迷或易伤状态的敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 易伤, 群控, 钝击, 伤害."
+			"zhCN": "使用钝击武器的技能对处于昏迷或易伤状态的敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 易伤, 群控, 钝击, 伤害.",
+			"zhTW": "鈍擊武器技能對昏迷或易傷敵人造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 易傷, 控場, 鈍擊, 傷害."
 },
 		id: 116,
 		maxPoints: 3,
@@ -4428,7 +4662,8 @@ Tags: Overpower, Damage, Two-Handed.`,
 			"plPL": "Brutalna Siła",
 			"ptBR": "Força Bruta",
 			"ruRU": "Грубая сила",
-			"zhCN": "残暴之力"
+			"zhCN": "残暴之力",
+			"zhTW": "蠻力"
 },
 		descriptionLocalized: {
 			"deDE": "Bei Verwendung einer Zweihandwaffe verursacht Euer Überwältigen x{15/30/45/60/75/90/105/120/135/150}% mehr Schaden.\n\nTags: Überwältigen, Schaden, Zweihändig.",
@@ -4441,7 +4676,8 @@ Tags: Overpower, Damage, Two-Handed.`,
 			"plPL": "Twoje obrażenia od przytłoczenia są zwiększone o x{15/30/45/60/75/90/105/120/135/150}%, gdy korzystasz z broni dwuręcznej.\n\nTags: Przytłoczenie, Obrażenia, Dwuręczne.",
 			"ptBR": "Seu Golpe Brutal causa {15/30/45/60/75/90/105/120/135/150}% de dano aumentado ao usar uma arma de duas mãos.\n\nTags: Golpe Brutal, Dano, Duas mãos.",
 			"ruRU": "При использовании двуручного оружия ваш подавляющий урон увеличивается на x{15/30/45/60/75/90/105/120/135/150}%.\n\nTags: Подавление, Урон, Двуручное.",
-			"zhCN": "使用双手武器时, 你的压制造成的伤害提高 x{15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 压制, 伤害, 双手."
+			"zhCN": "使用双手武器时, 你的压制造成的伤害提高 x{15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 压制, 伤害, 双手.",
+			"zhTW": "使用雙手武器時,你造成的壓制傷害提高 x{15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 壓制, 傷害, 雙手."
 },
 		id: 117,
 		maxPoints: 3,
@@ -4464,7 +4700,8 @@ Tags: Critical Strikes, Damage, Two-Handed.`,
 			"plPL": "Ciężka Ręka",
 			"ptBR": "Mão Pesada",
 			"ruRU": "Тяжелая рука",
-			"zhCN": "势大力沉"
+			"zhCN": "势大力沉",
+			"zhTW": "勁道威猛"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Zweihandwaffen verwendet, verursacht Ihr x{5/10/15/20/25/30/35/40/45/50}% mehr kritischen Trefferschaden.\n\nTags: Kritische Treffer, Schaden, Zweihändig.",
@@ -4477,7 +4714,8 @@ Tags: Critical Strikes, Damage, Two-Handed.`,
 			"plPL": "Kiedy korzystasz z broni dwuręcznej, zadajesz obrażenia od trafień krytycznych zwiększone o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Trafienia Krytyczne, Obrażenia, Dwuręczne.",
 			"ptBR": "Ao usar armas de duas mãos, você causa {5/10/15/20/25/30/35/40/45/50}% de dano de acerto crítico aumentado.\n\nTags: Acertos Críticos, Dano, Duas mãos.",
 			"ruRU": "При использовании двуручного оружия вы наносите на x{5/10/15/20/25/30/35/40/45/50}% больше критического урона.\n\nTags: Критические удары, Урон, Двуручное.",
-			"zhCN": "使用双手武器时, 你造成的暴击伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 暴击, 伤害, 双手."
+			"zhCN": "使用双手武器时, 你造成的暴击伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 暴击, 伤害, 双手.",
+			"zhTW": "使用雙手武器時造成的爆擊傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 爆擊, 傷害, 雙手."
 },
 		id: 118,
 		maxPoints: 3,
@@ -4500,7 +4738,8 @@ Tags: Crowd Control, Bludgeoning, Two-Handed, Lucky Hit.`,
 			"plPL": "Wstrząs",
 			"ptBR": "Concussão",
 			"ruRU": "Контузия",
-			"zhCN": "脑震荡"
+			"zhCN": "脑震荡",
+			"zhTW": "腦震盪"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Fertigkeiten mit Wuchtwaffen verfügen über eine Chance von {10/20/30/40/50/60/70/80/90/100}%, Gegner 3 Sek. lang zu betäuben. Mit zweihändigen Wuchtwaffen erhöht sich die Chance auf {15/30/45/60/75/90/105/120/135/150}%.\n\nTags: Kontrollverlust, Wuchtwaffe, Zweihändig, Glückstreffer.",
@@ -4513,7 +4752,8 @@ Tags: Crowd Control, Bludgeoning, Two-Handed, Lucky Hit.`,
 			"plPL": "Szczęśliwy traf: Umiejętności używające broni obuchowej mają {10/20/30/40/50/60/70/80/90/100}% szans na ogłuszenie trafionych wrogów na 3 sek. lub {15/30/45/60/75/90/105/120/135/150}% szans w przypadku dwuręcznej broni obuchowej.\n\nTags: Ograniczanie Kontroli, Obuchowe, Dwuręczne, Szczęśliwy Traf.",
 			"ptBR": "Golpe de Sorte: Habilidades que usam armas de concussão têm até {10/20/30/40/50/60/70/80/90/100}% de chance de atordoar inimigos por 3 segundos, ou até {15/30/45/60/75/90/105/120/135/150}% de chance ao usar uma arma de concussão de duas mãos.\n\nTags: Controle de Grupo, Concussão, Duas mãos, Golpe de Sorte.",
 			"ruRU": "Удачный удар: умения, использующие дробящее оружие, с вероятностью до {10/20/30/40/50/60/70/80/90/100}% оглушают противников на 3 сек. При использовании двуручного дробящего оружия – с вероятностью до {15/30/45/60/75/90/105/120/135/150}%.\n\nTags: Контроль, Дробящее оружие, Двуручное, Удачный удар.",
-			"zhCN": "幸运一击: 使用钝击武器的技能最多有 {10/20/30/40/50/60/70/80/90/100}% 几率使敌人昏迷 3 秒。使用双手钝击武器时, 该几率最多为 {15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 群控, 钝击, 双手, 幸运一击."
+			"zhCN": "幸运一击: 使用钝击武器的技能最多有 {10/20/30/40/50/60/70/80/90/100}% 几率使敌人昏迷 3 秒。使用双手钝击武器时, 该几率最多为 {15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 群控, 钝击, 双手, 幸运一击.",
+			"zhTW": "幸運觸發:使用鈍擊武器的技能最高有 {10/20/30/40/50/60/70/80/90/100}% 機率擊昏敵人,持續 3 秒。使用雙手鈍擊武器時機率最高為 {15/30/45/60/75/90/105/120/135/150}%。\n\nTags: 控場, 鈍擊, 雙手, 幸運觸發."
 },
 		id: 119,
 		maxPoints: 3,
@@ -4539,7 +4779,8 @@ Tags: Berserking, Damage.`,
 			"plPL": "Niepowstrzymana Siła",
 			"ptBR": "Força Implacável",
 			"ruRU": "Неудержимая сила",
-			"zhCN": "不羁怒火"
+			"zhCN": "不羁怒火",
+			"zhTW": "超越極限"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht die maximale Dauer des Berserkermodus um 5 Sek. und erhöht seinen Schadensbonus um +{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Berserkermodus, Schaden.",
@@ -4552,7 +4793,8 @@ Tags: Berserking, Damage.`,
 			"plPL": "Wydłużasz maksymalny czas działania berserkowania o 5 sek. i zwiększasz premię do jego obrażeń o +{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Berserkowanie, Obrażenia.",
 			"ptBR": "Aumenta a duração máxima de Berserk em 5 segundos e aumenta o bônus de dano em +{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Berserk, Dano.",
 			"ruRU": "Максимальное время действия берсерка увеличивается на 5 сек., а бонус к урону увеличивается на +{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Берсерк, Урон.",
-			"zhCN": "狂暴的最大持续时间延长 5 秒, 其伤害加成提高 +{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 狂暴, 伤害."
+			"zhCN": "狂暴的最大持续时间延长 5 秒, 其伤害加成提高 +{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 狂暴, 伤害.",
+			"zhTW": "狂暴的持續時間上限延長 5 秒,其傷害加成提高 +{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 狂暴, 傷害."
 },
 		id: 120,
 		maxPoints: 1,
@@ -4577,7 +4819,8 @@ Tags: Bleed, Critical Strikes, Overpower, Damage.`,
 			"plPL": "Tryskające Rany",
 			"ptBR": "Feridas Sangrentas",
 			"ruRU": "Кровоточащие раны",
-			"zhCN": "涌血创伤"
+			"zhCN": "涌血创伤",
+			"zhTW": "濺血重創"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr bei einem Gegner Blutung verursacht, besteht eine Chance in Höhe Eurer kritischen Trefferchance, die Blutungsmenge um 100% Eures Bonus auf kritischen Trefferschaden zu erhöhen.\n\nDas Überwältigen eines blutenden Gegners löst eine Explosion aus, die im Verlauf von 5 Sek. 11% Blutungsschaden verursacht.\n\nTags: Blutung, Kritische Treffer, Überwältigen, Schaden.",
@@ -4590,7 +4833,8 @@ Tags: Bleed, Critical Strikes, Overpower, Damage.`,
 			"plPL": "Kiedy wywołujesz u wroga krwawienie, masz szansę równą twojej szansie na trafienie krytyczne na zwiększenie krwawienia o równowartość 100% twojej premii do obrażeń od trafień krytycznych.\n\nPrzytłoczenie krwawiącego wroga wywołuje eksplozję, która zadaje 11% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Krwawienie, Trafienia Krytyczne, Przytłoczenie, Obrażenia.",
 			"ptBR": "Ao fazer um inimigo sangrar, você tem chance equivalente à sua chance de acerto crítico de aumentar o valor de sangramento dele em 100% do seu bônus de dano de acerto crítico.\n\nDesferir um Golpe Brutal contra um inimigo que está sangrando cria uma explosão que aplica 11% de dano de sangramento ao longo de 5 segundos.\n\nTags: Sangramento, Acertos Críticos, Golpe Brutal, Dano.",
 			"ruRU": "Когда вы вызываете у противника кровотечение, урон от кровотечения увеличивается на 100% бонуса к критическому урону с вероятностью, равной шансу критического удара.\n\nКогда вы наносите подавляющий урон кровоточащему противнику, происходит взрыв, наносящий врагам 11% ед. урона от кровотечения в течение 5 сек.\n\nTags: Кровотечение, Критические удары, Подавление, Урон.",
-			"zhCN": "使敌人流血时, 你有一定几率 (等同于你的暴击率) 提高流血量, 提高的具体数值为你的暴击伤害加成的 100%。\n\n压制一名流血的敌人会产生爆炸, 在 5 秒内造成 11% 点流血伤害。\n\nTags: 流血, 暴击, 压制, 伤害."
+			"zhCN": "使敌人流血时, 你有一定几率 (等同于你的暴击率) 提高流血量, 提高的具体数值为你的暴击伤害加成的 100%。\n\n压制一名流血的敌人会产生爆炸, 在 5 秒内造成 11% 点流血伤害。\n\nTags: 流血, 暴击, 压制, 伤害.",
+			"zhTW": "使敵人流血時有機率提高流血量,機率相當於你的爆擊機率,流血量相當於你爆擊傷害的 100%。\n\n壓制流血的敵人會產生爆炸,在 5 秒內造成 11% 點流血傷害。\n\nTags: 流血, 爆擊, 壓制, 傷害."
 },
 		id: 121,
 		maxPoints: 1,
@@ -4613,7 +4857,8 @@ Tags: Fury, Damage, Core.`,
 			"plPL": "Nieokiełznany Szał",
 			"ptBR": "Fúria Descontrolada",
 			"ruRU": "Необузданная свирепость",
-			"zhCN": "怒不可遏"
+			"zhCN": "怒不可遏",
+			"zhTW": "無拘狂怒"
 },
 		descriptionLocalized: {
 			"deDE": "Kernfertigkeiten verursachen x135% mehr Schaden, kosten aber x100% mehr Wut.\n\nTags: Wut, Schaden, Kern.",
@@ -4626,7 +4871,8 @@ Tags: Fury, Damage, Core.`,
 			"plPL": "Twoje umiejętności Główne zadają obrażenia zwiększone o x135%, ale kosztują o x100% więcej furii.\n\nTags: Furia, Obrażenia, Główne.",
 			"ptBR": "Habilidades principais causam 135% de dano aumentado, mas custam 100% mais fúria.\n\nTags: Fúria, Dano, Principal.",
 			"ruRU": "Основные умения наносят на x135% больше урона, но тратят на x100% больше ярости.\n\nTags: Ярость, Урон, Основное.",
-			"zhCN": "核心技能造成的伤害提高 x135%, 但额外消耗 x100% 怒气。\n\nTags: 怒气, 伤害, 核心."
+			"zhCN": "核心技能造成的伤害提高 x135%, 但额外消耗 x100% 怒气。\n\nTags: 怒气, 伤害, 核心.",
+			"zhTW": "核心技能造成的傷害提高 x135%,但會額外消耗 x100% 點怒氣。\n\nTags: 怒氣, 傷害, 核心."
 },
 		id: 122,
 		maxPoints: 1,
@@ -4651,7 +4897,8 @@ Tags: Damage, Two-Handed, Dual Wield, Bludgeoning, Slashing.`,
 			"plPL": "Kroczący Arsenał",
 			"ptBR": "Arsenal Ambulante",
 			"ruRU": "Живой арсенал",
-			"zhCN": "人形兵器"
+			"zhCN": "人形兵器",
+			"zhTW": "機動武裝"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr mit einer zweihändigen Wuchtwaffe, zweihändigen Hiebwaffe oder mit beidhändigen Waffen direkten Schaden verursacht, verursacht Ihr 6 Sek. lang x10% mehr Schaden.\n\nWenn alle drei Schadensboni aktiv sind, verursacht Ihr zusätzlich x15% mehr Schaden.\n\nTags: Schaden, Zweihändig, Zwei Waffen, Wuchtwaffe, Hiebwaffe.",
@@ -4664,7 +4911,8 @@ Tags: Damage, Two-Handed, Dual Wield, Bludgeoning, Slashing.`,
 			"plPL": "Zadawanie obrażeń dwuręczną bronią obuchową, dwuręczną bronią sieczną lub bronią w każdej ręce zapewnia premię x10% do obrażeń na 6 sek.\n\nKiedy aktywne są wszystkie trzy premie do obrażeń, zadawane przez ciebie obrażenia są zwiększone dodatkowo o x15%.\n\nTags: Obrażenia, Dwuręczne, Broń w Każdej Ręce, Obuchowe, Sieczne.",
 			"ptBR": "Causar dano direto com uma arma de concussão de duas mãos, arma de corte de duas mãos ou arma de empunhadura dupla concede 10% de dano aumentado por 6 segundos.\n\nEnquanto todos os três bônus de dano estiverem ativos, você receberá um adicional de 15% de dano aumentado.\n\nTags: Dano, Duas mãos, Empunhadura Dupla, Concussão, Corte.",
 			"ruRU": "Когда вы наносите прямой урон двуручным дробящим оружием, двуручным рубящим оружием или оружием в каждой руке, наносимый вами урон увеличивается на x10% на 6 сек.\n\nПока действуют все три прибавки к урону, наносимый вами урон увеличивается еще на x15%.\n\nTags: Урон, Двуручное, Оружие в каждой руке, Дробящее оружие, Рубящее.",
-			"zhCN": "使用双手钝击武器、双手劈砍武器或双持武器造成直接伤害时, 可以使造成的伤害提高 x10%, 持续 6 秒。\n\n当三种伤害加成全部激活时, 你造成的伤害额外提高 x15%。\n\nTags: 伤害, 双手, 双持, 钝击, 劈斩."
+			"zhCN": "使用双手钝击武器、双手劈砍武器或双持武器造成直接伤害时, 可以使造成的伤害提高 x10%, 持续 6 秒。\n\n当三种伤害加成全部激活时, 你造成的伤害额外提高 x15%。\n\nTags: 伤害, 双手, 双持, 钝击, 劈斩.",
+			"zhTW": "使用雙手鈍擊武器、雙手斬擊武器或雙持武器造成直接傷害時,傷害會提高 x10%,持續 6 秒。\n\n全部三種傷害加成效果均在作用中時,你的傷害會額外提高 x15%。\n\nTags: 傷害, 雙手, 雙持, 鈍擊, 斬擊."
 },
 		id: 123,
 		maxPoints: 1,

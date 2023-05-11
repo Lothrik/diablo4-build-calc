@@ -66,7 +66,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"plPL": "Ziemny Kolec",
 			"ptBR": "Espeto Terreno",
 			"ruRU": "Шип земли",
-			"zhCN": "大地尖刺"
+			"zhCN": "大地尖刺",
+			"zhTW": "大地尖刺"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Geisteskraft: 10\nGlückstrefferchance: 35%\nSpaltet die Erde, durchbohrt den ersten getroffenen Gegner und verursacht {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% Schaden.\n\nTags: Basis, Naturmagie, Erde, Schaden, Geisteskraft, Physisch.",
@@ -79,7 +80,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"plPL": "Generuje: 10 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 35%\nRozdzierasz ziemię i przebijasz pierwszego trafionego wroga, zadając mu {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% pkt. obrażeń.\n\nTags: Podstawowe, Magia Natury, Ziemia, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Gerar Espírito: 10\nChance de Golpe de Sorte: 35%\nRompe a terra, empalando o primeiro inimigo atingido e causando {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% de dano.\n\nTags: Básica, Magia da Natureza, Terra, Dano, Espírito, Física.",
 			"ruRU": "Дает дух: 10 ед.\nВероятность удачного удара: 35%.\nЗемля раскалывается, пронзая первого пораженного противника и нанося ему {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% ед. урона.\n\nTags: Базовое, Силы природы, Земля, Урон, Дух, Физический урон.",
-			"zhCN": "生成灵力: 10\n幸运一击几率: 35%\n击碎大地, 刺穿命中的第一名敌人, 造成 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% 点伤害。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理."
+			"zhCN": "生成灵力: 10\n幸运一击几率: 35%\n击碎大地, 刺穿命中的第一名敌人, 造成 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% 点伤害。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理.",
+			"zhTW": "產生靈力:10\n幸運觸發機率:35%\n改變地貌,刺穿第一個被擊中的敵人,造成 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% 點傷害。\n\nTags: 基本, 自然魔法, 大地, 傷害, 靈力, 物理."
 },
 		id: 162,
 		maxPoints: 5,
@@ -103,7 +105,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"plPL": "Wzmocniony Ziemny Kolec",
 			"ptBR": "Espeto Terreno Aperfeiçoado",
 			"ruRU": "Усиленный шип земли",
-			"zhCN": "强化大地尖刺"
+			"zhCN": "强化大地尖刺",
+			"zhTW": "強化大地尖刺"
 },
 		descriptionLocalized: {
 			"deDE": "Erdspieß verfügt über eine Chance von 10%, 2.5 Sek. lang zu betäuben.\n\nTags: Basis, Naturmagie, Erde, Schaden, Geisteskraft, Physisch.",
@@ -116,7 +119,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"plPL": "Istnieje 10% szans na to, że Ziemny Kolec ogłuszy wrogów na 2.5 sek.\n\nTags: Podstawowe, Magia Natury, Ziemia, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Espeto Terreno tem 10% de chance de atordoar por 2.5 segundos.\n\nTags: Básica, Magia da Natureza, Terra, Dano, Espírito, Física.",
 			"ruRU": "\"Шип земли\" с вероятностью 10% оглушает цели на 2.5 сек.\n\nTags: Базовое, Силы природы, Земля, Урон, Дух, Физический урон.",
-			"zhCN": "大地尖刺有 10% 几率使敌人昏迷 2.5 秒。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理."
+			"zhCN": "大地尖刺有 10% 几率使敌人昏迷 2.5 秒。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理.",
+			"zhTW": "大地尖刺有 10% 機率擊昏目標,持續 2.5 秒。\n\nTags: 基本, 自然魔法, 大地, 傷害, 靈力, 物理."
 },
 		id: 163,
 		maxPoints: 1,
@@ -140,7 +144,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"plPL": "Dziki Ziemny Kolec",
 			"ptBR": "Espeto Terreno Selvagem",
 			"ruRU": "Дикий шип земли",
-			"zhCN": "狂野大地尖刺"
+			"zhCN": "狂野大地尖刺",
+			"zhTW": "狂野大地尖刺"
 },
 		descriptionLocalized: {
 			"deDE": "Beschwört einen zweiten Erdspieß, wenn ein bewegungsunfähiger oder betäubter Gegner getroffen wird.\n\nTags: Basis, Naturmagie, Erde, Schaden, Geisteskraft, Physisch.",
@@ -153,7 +158,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"plPL": "Przywołujesz drugi Ziemny Kolec, kiedy trafisz unieruchomionego lub ogłuszonego wroga.\n\nTags: Podstawowe, Magia Natury, Ziemia, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Evoca um segundo Espeto Terreno ao atingir um inimigo imobilizado ou atordoado.\n\nTags: Básica, Magia da Natureza, Terra, Dano, Espírito, Física.",
 			"ruRU": "Поражая обездвиженного или оглушенного противника, вы создаете второй шип земли.\n\nTags: Базовое, Силы природы, Земля, Урон, Дух, Физический урон.",
-			"zhCN": "命中一名定身或昏迷的敌人时额外召唤一根大地尖刺。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理."
+			"zhCN": "命中一名定身或昏迷的敌人时额外召唤一根大地尖刺。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理.",
+			"zhTW": "擊中定身或昏迷的敵人時,召喚第二個大地尖刺。\n\nTags: 基本, 自然魔法, 大地, 傷害, 靈力, 物理."
 },
 		id: 164,
 		maxPoints: 1,
@@ -177,7 +183,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"plPL": "Zaciekły Ziemny Kolec",
 			"ptBR": "Espeto Terreno Feroz",
 			"ruRU": "Разрушительный шип земли",
-			"zhCN": "凶暴大地尖刺"
+			"zhCN": "凶暴大地尖刺",
+			"zhTW": "兇狠大地尖刺"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr erhaltet jedes Mal 4% Eures Basislebens als Stählung, wenn Erdspieß betäubten, bewegungsunfähigen oder zurückgestoßenen Gegnern Schaden zufügt.\n\nTags: Basis, Naturmagie, Erde, Schaden, Geisteskraft, Physisch.",
@@ -190,7 +197,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"plPL": "Otrzymujesz umocnienie równe 4% twojego podstawowego zdrowia za każdym razem, gdy Ziemny Kolec rani ogłuszonych, unieruchomionych lub odrzuconych wrogów.\n\nTags: Podstawowe, Magia Natury, Ziemia, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Fortifica em 4% da sua vida básica sempre que Espeto Terreno causar dano a inimigos atordoados, imobilizados ou repelidos.\n\nTags: Básica, Magia da Natureza, Terra, Dano, Espírito, Física.",
 			"ruRU": "Когда \"Шип земли\" поражает оглушенного, обездвиженного или отброшенного противника, вы получаете укрепление в объеме 4% базового запаса здоровья.\n\nTags: Базовое, Силы природы, Земля, Урон, Дух, Физический урон.",
-			"zhCN": "大地尖刺对被击晕、定身或击退的敌人造成伤害时可以强固你 4% 基础生命。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理."
+			"zhCN": "大地尖刺对被击晕、定身或击退的敌人造成伤害时可以强固你 4% 基础生命。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理.",
+			"zhTW": "每當大地尖刺對被擊昏、定身或擊退的敵人造成傷害時,賦予你相當於 4% 基礎生命值的強韌。\n\nTags: 基本, 自然魔法, 大地, 傷害, 靈力, 物理."
 },
 		id: 165,
 		maxPoints: 1,
@@ -215,7 +223,8 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Poturbowanie",
 			"ptBR": "Dilacerar",
 			"ruRU": "Трепка",
-			"zhCN": "重殴"
+			"zhCN": "重殴",
+			"zhTW": "槌擊"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Geisteskraft: 14\nGlückstrefferchance: 30%\nVerwandelt Euch in einen Werbären und fallt Gegner vor Euch an, wodurch Ihr {20/22/24/26/28/30/32/34/36/38}% Schaden verursacht.\n\nTags: Basis, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
@@ -228,7 +237,8 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Generuje: 14 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 30%\nPrzemieniasz się w niedźwiedziołaka i turbujesz pobliskich wrogów, zadając im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Gerar Espírito: 14\nChance de Golpe de Sorte: 30%\nTransforma-se em um urso e ataca inimigos à sua frente, causando {20/22/24/26/28/30/32/34/36/38}% de dano.\n\nTags: Básica, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "Дает дух: 14 ед.\nВероятность удачного удара: 30%.\nВы принимаете облик медведя и терзаете противников перед собой, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона.\n\nTags: Базовое, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "生成灵力: 14\n幸运一击几率: 30%\n变成熊人并重殴面前的敌人, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理."
+			"zhCN": "生成灵力: 14\n幸运一击几率: 30%\n变成熊人并重殴面前的敌人, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "產生靈力:14\n幸運觸發機率:30%\n變身為熊人,槌擊你前方的敵人,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。\n\nTags: 基本, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 4,
 		maxPoints: 5,
@@ -252,7 +262,8 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Wzmocnione Poturbowanie",
 			"ptBR": "Dilacerar Aperfeiçoado",
 			"ruRU": "Усиленная трепка",
-			"zhCN": "强化重殴"
+			"zhCN": "强化重殴",
+			"zhTW": "強化槌擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn ein Gegner von Anfallen getroffen wird, erhaltet Ihr Stählung in Höhe von 2% Eures Basislebens.\n\nTags: Basis, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
@@ -265,7 +276,8 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Jeśli wróg zostanie trafiony Poturbowaniem, zyskujesz umocnienie równe 2% twojego podstawowego zdrowia.\n\nTags: Podstawowe, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Se um inimigo é atingido por Dilacerar, fortifica você em 2% da sua vida básica.\n\nTags: Básica, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "Когда \"Трепка\" поражает противника, вы получаете укрепление в объеме 2% базового запаса здоровья.\n\nTags: Базовое, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "如果重殴命中敌人, 则强固你 2% 基础生命。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理."
+			"zhCN": "如果重殴命中敌人, 则强固你 2% 基础生命。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "槌擊擊中敵人時,會賦予你相當於 2% 基礎生命值的強韌。\n\nTags: 基本, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 5,
 		maxPoints: 1,
@@ -289,7 +301,8 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Dzikie Poturbowanie",
 			"ptBR": "Dilacerar Selvagem",
 			"ruRU": "Дикая трепка",
-			"zhCN": "狂野重殴"
+			"zhCN": "狂野重殴",
+			"zhTW": "狂野槌擊"
 },
 		descriptionLocalized: {
 			"deDE": "Anfallen verfügt über eine Chance von 20%, Gegner 1.5 Sek. lang niederzuschlagen.\n\nTags: Basis, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
@@ -302,7 +315,8 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Istnieje 20% szans na to, że Poturbowanie powali wrogów na 1.5 sek.\n\nTags: Podstawowe, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Dilacerar tem 20% de chance de nocautear inimigos por 1.5 segundos.\n\nTags: Básica, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "\"Трепка\" с вероятностью 20% сбивает противников с ног на 1.5 сек.\n\nTags: Базовое, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "重殴有 20% 几率击倒敌人, 持续 1.5 秒。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理."
+			"zhCN": "重殴有 20% 几率击倒敌人, 持续 1.5 秒。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "槌擊有 20% 機率擊倒敵人,持續 1.5 秒。\n\nTags: 基本, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 6,
 		maxPoints: 1,
@@ -326,7 +340,8 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Zaciekłe Poturbowanie",
 			"ptBR": "Dilacerar Feroz",
 			"ruRU": "Разрушительная трепка",
-			"zhCN": "凶暴重殴"
+			"zhCN": "凶暴重殴",
+			"zhTW": "兇狠槌擊"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht die Reichweite und den Radius von Anfallen um 25%.\n\nTags: Basis, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
@@ -339,7 +354,8 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Zasięg i promień Poturbowania jest zwiększony o 25%.\n\nTags: Podstawowe, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Aumenta o alcance e o raio de Dilacerar em 25%.\n\nTags: Básica, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "Увеличивает дальность действия и радиус \"Трепки\" на 25%.\n\nTags: Базовое, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "重殴的范围和半径提高 25%。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理."
+			"zhCN": "重殴的范围和半径提高 25%。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "槌擊的距離和半徑提高 25%。\n\nTags: 基本, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 7,
 		maxPoints: 1,
@@ -364,7 +380,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"plPL": "Kąsający Wicher",
 			"ptBR": "Corte de Vento",
 			"ruRU": "Ветрорез",
-			"zhCN": "风剪"
+			"zhCN": "风剪",
+			"zhTW": "削風剪"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugt Geisteskraft 12\nGlückstrefferchance: 20%\nBeschwört eine durchschlagende Windklinge, die {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% Schaden verursacht.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Geisteskraft, Physisch.",
@@ -377,7 +394,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"plPL": "Generuje: 12 pkt. siły duchowej\nSzansa na szczęśliwy traf: 20%\nPrzyzywasz przebijające ostrze wiatru, które zadaje {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% pkt. obrażeń.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Gerar Espírito: 12\nChance de Golpe de Sorte: 20%\nConjura uma lâmina de vento perfurante, causando {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% de dano.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Espírito, Física.",
 			"ruRU": "Дает дух: 12 ед.\nВероятность удачного удара: 20%.\nВы создаете рассекающий поток ветра, наносящий {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% ед. урона.\n\nTags: Базовое, Силы природы, Буря, Урон, Дух, Физический урон.",
-			"zhCN": "生成灵力: 12\n幸运一击几率: 20%\n召唤一道凛冽的风刃, 造成 {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% 点伤害。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理."
+			"zhCN": "生成灵力: 12\n幸运一击几率: 20%\n召唤一道凛冽的风刃, 造成 {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% 点伤害。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理.",
+			"zhTW": "產生靈力:12\n幸運觸發機率:20%\n呼喚一把銳利的風之刃,造成 {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% 點傷害。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 靈力, 物理."
 },
 		id: 8,
 		maxPoints: 5,
@@ -401,7 +419,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"plPL": "Wzmocniony Kąsający Wicher",
 			"ptBR": "Corte de Vento Aperfeiçoado",
 			"ruRU": "Усиленный ветрорез",
-			"zhCN": "强化风剪"
+			"zhCN": "强化风剪",
+			"zhTW": "強化削風剪"
 },
 		descriptionLocalized: {
 			"deDE": "Windschere verfügt über eine Chance von 20%, Gegner 4 Sek. lang verwundbar zu machen.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Geisteskraft, Physisch.",
@@ -414,7 +433,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"plPL": "Kąsający Wicher ma 20% szans na odsłonięcie wrogów na 4 sek.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Corte de Vento tem 20% de chance de tornar os inimigos vulneráveis por 4 segundos.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Espírito, Física.",
 			"ruRU": "\"Ветрорез\" с вероятностью 20% делает противников уязвимыми на 4 сек.\n\nTags: Базовое, Силы природы, Буря, Урон, Дух, Физический урон.",
-			"zhCN": "风剪有 20% 几率使敌人陷入易伤状态, 持续 4 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理."
+			"zhCN": "风剪有 20% 几率使敌人陷入易伤状态, 持续 4 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理.",
+			"zhTW": "削風剪有 20% 機率使敵人易傷,持續 4 秒。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 靈力, 物理."
 },
 		id: 9,
 		maxPoints: 1,
@@ -438,7 +458,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"plPL": "Zaciekły Kąsający Wicher",
 			"ptBR": "Corte de Vento Feroz",
 			"ruRU": "Разрушительный ветрорез",
-			"zhCN": "凶暴风剪"
+			"zhCN": "凶暴风剪",
+			"zhTW": "兇狠削風剪"
 },
 		descriptionLocalized: {
 			"deDE": "Mit jedem von Windschere getroffenen Gegner erhöht sich Eure Bewegungsgeschwindigkeit 5 Sek. lang um +5%, bis maximal +20%.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Geisteskraft, Physisch.",
@@ -451,7 +472,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"plPL": "Za każdego wroga trafionego Kąsającym Wichrem zyskujesz premię +5% do szybkości ruchu na 5 sek., maksymalnie do +20%.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Cada inimigo atingido por Corte de Vento aumenta sua velocidade de movimento em +5% por 5 segundos, até +20%.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Espírito, Física.",
 			"ruRU": "За каждого противника, пораженного \"Ветрорезом\", ваша скорость передвижения увеличивается на +5% на 5 сек. вплоть до +20%.\n\nTags: Базовое, Силы природы, Буря, Урон, Дух, Физический урон.",
-			"zhCN": "风剪每命中一名敌人, 你的移动速度就会提高 +5%, 持续 5 秒, 最多提高 +20%。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理."
+			"zhCN": "风剪每命中一名敌人, 你的移动速度就会提高 +5%, 持续 5 秒, 最多提高 +20%。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理.",
+			"zhTW": "削風剪每擊中一個敵人會使你的移動速度提高 +5%,持續 5 秒,最多提高至 +20%。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 靈力, 物理."
 },
 		id: 10,
 		maxPoints: 1,
@@ -475,7 +497,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"plPL": "Dziki Kąsający Wicher",
 			"ptBR": "Corte de Vento Selvagem",
 			"ruRU": "Дикий ветрорез",
-			"zhCN": "狂野风剪"
+			"zhCN": "狂野风剪",
+			"zhTW": "狂野削風剪"
 },
 		descriptionLocalized: {
 			"deDE": "Windschere verleiht 3 zusätzliche Geisteskraft für jeden weiteren getroffenen Gegner nach dem ersten.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Geisteskraft, Physisch.",
@@ -488,7 +511,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"plPL": "Kąsający Wicher zapewnia dodatkowo 3 pkt. siły duchowej za każdego trafionego wroga poza pierwszym.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Corte de Vento concede 3 de espírito adicional por cada inimigo atingido após o primeiro.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Espírito, Física.",
 			"ruRU": "Поразив одного противника, \"Ветрорез\" начинает восполнять еще 3 ед. духа за каждую последующую цель.\n\nTags: Базовое, Силы природы, Буря, Урон, Дух, Физический урон.",
-			"zhCN": "风剪命中第一名敌人后, 每额外命中一名敌人就会获得 3 点灵力。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理."
+			"zhCN": "风剪命中第一名敌人后, 每额外命中一名敌人就会获得 3 点灵力。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理.",
+			"zhTW": "削風剪在第一個擊中的敵人之外,每擊中一個敵人就會獲得 3 點額外靈力。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 靈力, 物理."
 },
 		id: 11,
 		maxPoints: 1,
@@ -515,7 +539,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"plPL": "Uderzenie Burzy",
 			"ptBR": "Ataque Tempestuoso",
 			"ruRU": "Удар бури",
-			"zhCN": "风暴打击"
+			"zhCN": "风暴打击",
+			"zhTW": "風暴雷擊"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Geisteskraft: 14\nGlückstrefferchance: 25%\nElektrizität sammelt sich um Eure Waffe, fügt Eurem Ziel {20/22/24/26/28/30/32/34/36/38}% Schaden zu und springt auf bis zu 3 Gegner in der Nähe über, wobei bei jedem Sprung 20% weniger Schaden verursacht wird.\n\nIhr erhaltet 3 Sek. lang 25% Schadensreduktion, nachdem Ihr mit Sturmschlag Schaden verursacht habt.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Schadensreduktion, Geisteskraft, Blitz.",
@@ -528,7 +553,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"plPL": "Generuje 14 pkt. siły duchowej\nSzansa na szczęśliwy traf: 25%\nTwoja broń gromadzi ładunek elektryczny i zadaje {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń twojemu celowi oraz do 3 dodatkowym wrogom wokół, zadając o 20% mniej obrażeń za każdym razem, gdy efekt przejdzie na wroga.\n\nZyskujesz premię 25% do redukcji obrażeń na 3 sek. po zadaniu obrażeń Uderzeniem Burzy.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Redukcja Obrażeń, Siła Duchowa, Błyskawica.",
 			"ptBR": "Gerar Espírito: 14\nChance de Golpe de Sorte: 25%\nEletricidade é acumulada ao redor da sua arma, causando {20/22/24/26/28/30/32/34/36/38}% de dano ao seu alvo e propagando-se para até 3 inimigos ao redor, causando 20% de dano reduzido cada vez que se propaga.\n\nVocê recebe 25% de redução de dano por 3 segundos depois de causar dano com Ataque Tempestuoso.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Redução de Dano, Espírito, Eletricidade.",
 			"ruRU": "Дает дух: 14 ед.\nВероятность удачного удара: 25%.\nВаше оружие окружает электрическая энергия, которая наносит {20/22/24/26/28/30/32/34/36/38}% ед. урона цели и поражает еще максимум 3 противников рядом с ней, нанося на 20% меньше урона с каждым переходом.\n\nКогда \"Удар бури\" наносит урон, вы получаете на 25% меньше урона в течение 3 сек.\n\nTags: Базовое, Силы природы, Буря, Урон, Уменьшение урона, Дух, Молния.",
-			"zhCN": "生成灵力: 14\n幸运一击几率: 25%\n电能聚集在你的武器周围, 对你的目标造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害并最多连锁攻击周围的 3 名敌人, 每次连锁攻击造成的伤害降低 20%。\n\n使用风暴打击造成伤害后, 你获得 25% 的伤害减免, 持续 3 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电."
+			"zhCN": "生成灵力: 14\n幸运一击几率: 25%\n电能聚集在你的武器周围, 对你的目标造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害并最多连锁攻击周围的 3 名敌人, 每次连锁攻击造成的伤害降低 20%。\n\n使用风暴打击造成伤害后, 你获得 25% 的伤害减免, 持续 3 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电.",
+			"zhTW": "產生靈力:14\n幸運觸發機率:25%\n你的武器聚集電能,對你的目標造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害,並最多連鎖攻擊 3 個附近的敵人,每次連鎖攻擊造成的傷害減少 20%。\n\n使用風暴雷擊造成傷害後,你獲得 25% 傷害減免,持續 3 秒。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 傷害減免, 靈力, 電擊."
 },
 		id: 12,
 		maxPoints: 5,
@@ -552,7 +578,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"plPL": "Wzmocnione Uderzenie Burzy",
 			"ptBR": "Ataque Tempestuoso Aperfeiçoado",
 			"ruRU": "Усиленный удар бури",
-			"zhCN": "强化风暴打击"
+			"zhCN": "强化风暴打击",
+			"zhTW": "強化風暴雷擊"
 },
 		descriptionLocalized: {
 			"deDE": "Sturmschlag verfügt über eine Chance von 15%, alle getroffenen Gegner 2.5 Sek. lang bewegungsunfähig zu machen.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Schadensreduktion, Geisteskraft, Blitz.",
@@ -565,7 +592,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"plPL": "Uderzenie Burzy ma 15% szans na unieruchomienie wszystkich trafionych wrogów na 2.5 sek.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Redukcja Obrażeń, Siła Duchowa, Błyskawica.",
 			"ptBR": "Ataque Tempestuoso tem 15% de chance de imobilizar todos os inimigos atingidos por 2.5 segundos.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Redução de Dano, Espírito, Eletricidade.",
 			"ruRU": "\"Удар бури\" с вероятностью 15% обездвиживает пораженных противников на 2.5 сек.\n\nTags: Базовое, Силы природы, Буря, Урон, Уменьшение урона, Дух, Молния.",
-			"zhCN": "风暴打击命中敌人时有 15% 几率使被命中的所有敌人定身 2.5 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电."
+			"zhCN": "风暴打击命中敌人时有 15% 几率使被命中的所有敌人定身 2.5 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电.",
+			"zhTW": "風暴雷擊有 15% 機率使擊中的所有敵人定身,持續 2.5 秒。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 傷害減免, 靈力, 電擊."
 },
 		id: 13,
 		maxPoints: 1,
@@ -589,7 +617,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"plPL": "Zaciekłe Uderzenie Burzy",
 			"ptBR": "Ataque Tempestuoso Feroz",
 			"ruRU": "Разрушительный удар бури",
-			"zhCN": "凶暴风暴打击"
+			"zhCN": "凶暴风暴打击",
+			"zhTW": "兇狠風暴雷擊"
 },
 		descriptionLocalized: {
 			"deDE": "Sturmschlag verfügt über eine Chance von 50%, Gegner 3 Sek. lang verwundbar zu machen.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Schadensreduktion, Geisteskraft, Blitz.",
@@ -602,7 +631,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"plPL": "Uderzenie Burzy ma 50% szans na odsłonięcie wrogów na 3 sek.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Redukcja Obrażeń, Siła Duchowa, Błyskawica.",
 			"ptBR": "Ataque Tempestuoso tem 50% de chance de tornar os inimigos vulneráveis por 3 segundos.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Redução de Dano, Espírito, Eletricidade.",
 			"ruRU": "\"Удар бури\" с вероятностью 50% делает противников уязвимыми на 3 сек.\n\nTags: Базовое, Силы природы, Буря, Урон, Уменьшение урона, Дух, Молния.",
-			"zhCN": "风暴打击有 50% 几率使敌人陷入易伤状态, 持续 3 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电."
+			"zhCN": "风暴打击有 50% 几率使敌人陷入易伤状态, 持续 3 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电.",
+			"zhTW": "風暴雷擊有 50% 機率使敵人易傷,持續 3 秒。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 傷害減免, 靈力, 電擊."
 },
 		id: 14,
 		maxPoints: 1,
@@ -626,7 +656,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"plPL": "Dzikie Uderzenie Burzy",
 			"ptBR": "Ataque Tempestuoso Selvagem",
 			"ruRU": "Дикий удар бури",
-			"zhCN": "狂野风暴打击"
+			"zhCN": "狂野风暴打击",
+			"zhTW": "狂野風暴雷擊"
 },
 		descriptionLocalized: {
 			"deDE": "Sturmschlag springt auf bis zu 2 zusätzliche Ziele über.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Schadensreduktion, Geisteskraft, Blitz.",
@@ -639,7 +670,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"plPL": "Uderzenie Burzy przechodzi na dodatkowe cele w liczbie 2.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Redukcja Obrażeń, Siła Duchowa, Błyskawica.",
 			"ptBR": "Ataque Tempestuoso propaga-se para 2 alvos adicionais.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Redução de Dano, Espírito, Eletricidade.",
 			"ruRU": "\"Удар бури\" переходит еще к 2 целям.\n\nTags: Базовое, Силы природы, Буря, Урон, Уменьшение урона, Дух, Молния.",
-			"zhCN": "风暴打击额外连锁攻击 2 个目标。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电."
+			"zhCN": "风暴打击额外连锁攻击 2 个目标。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电.",
+			"zhTW": "風暴雷擊 額外連鎖 2 個目標。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 傷害減免, 靈力, 電擊."
 },
 		id: 15,
 		maxPoints: 1,
@@ -664,7 +696,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"plPL": "Pazury",
 			"ptBR": "Garra",
 			"ruRU": "Удар когтями",
-			"zhCN": "爪击"
+			"zhCN": "爪击",
+			"zhTW": "爪擊"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Geisteskraft: 10\nGlückstrefferchance: 50%\nVerwandelt Euch in einen Werwolf und schlagt Eure Krallen in einen Gegner, um {20/22/24/26/28/30/32/34/36/38}% Schaden zu verursachen.\n\nTags: Basis, Gestaltwandeln, Werwolf, Schaden, Geisteskraft, Physisch.",
@@ -677,7 +710,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"plPL": "Generuje: 10 pkt. siły duchowej\nSzansa na szczęśliwy traf: 50%\nPrzemieniasz się w wilkołaka i atakujesz wroga pazurami, zadając {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Wilkołak, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Gerar Espírito: 10\nChance de Golpe de Sorte: 50%\nTransforma-se em um lobisomem e ataca um inimigo, causando {20/22/24/26/28/30/32/34/36/38}% de dano.\n\nTags: Básica, Metamorfose, Lobisomem, Dano, Espírito, Física.",
 			"ruRU": "Дает дух: 10 ед.\nВероятность удачного удара: 50%.\nВы принимаете облик волка и терзаете противника когтями, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона.\n\nTags: Базовое, Смена облика, Облик волка, Урон, Дух, Физический урон.",
-			"zhCN": "生成灵力: 10\n幸运一击几率: 50%\n变成狼人并爪击敌人, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理."
+			"zhCN": "生成灵力: 10\n幸运一击几率: 50%\n变成狼人并爪击敌人, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理.",
+			"zhTW": "產生靈力:10\n幸運觸發機率:50%\n變身為狼人並爪擊一名敵人,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。\n\nTags: 基本, 變形, 狼人, 傷害, 靈力, 物理."
 },
 		id: 16,
 		maxPoints: 5,
@@ -701,7 +735,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"plPL": "Wzmocnione Pazury",
 			"ptBR": "Garra Aperfeiçoada",
 			"ruRU": "Усиленный удар когтями",
-			"zhCN": "强化爪击"
+			"zhCN": "强化爪击",
+			"zhTW": "強化爪擊"
 },
 		descriptionLocalized: {
 			"deDE": "Die Angriffsgeschwindigkeit von Klaue ist um +10% erhöht.\n\nTags: Basis, Gestaltwandeln, Werwolf, Schaden, Geisteskraft, Physisch.",
@@ -714,7 +749,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"plPL": "Szybkość ataku Pazurów jest zwiększona o +10%.\n\nTags: Podstawowe, Zmiennokształtność, Wilkołak, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "A velocidade de ataque de Garra é aumentada em +10%.\n\nTags: Básica, Metamorfose, Lobisomem, Dano, Espírito, Física.",
 			"ruRU": "Скорость атаки \"Удара когтями\" повышается на +10%.\n\nTags: Базовое, Смена облика, Облик волка, Урон, Дух, Физический урон.",
-			"zhCN": "爪击的攻击速度提高 +10%。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理."
+			"zhCN": "爪击的攻击速度提高 +10%。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理.",
+			"zhTW": "爪擊攻擊速度提高 +10%.。\n\nTags: 基本, 變形, 狼人, 傷害, 靈力, 物理."
 },
 		id: 17,
 		maxPoints: 1,
@@ -738,7 +774,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"plPL": "Zaciekłe Pazury",
 			"ptBR": "Garra Feroz",
 			"ruRU": "Разрушительный удар когтями",
-			"zhCN": "凶暴爪击"
+			"zhCN": "凶暴爪击",
+			"zhTW": "兇狠爪擊"
 },
 		descriptionLocalized: {
 			"deDE": "Klaue verursacht im Verlauf von 6 Sek. 10.2% Giftschaden.\n\nTags: Basis, Gestaltwandeln, Werwolf, Schaden, Geisteskraft, Physisch.",
@@ -751,7 +788,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"plPL": "Pazury wywołują 10.2% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nTags: Podstawowe, Zmiennokształtność, Wilkołak, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Garra aplica 10.2% de dano venenoso ao longo de 6 segundos.\n\nTags: Básica, Metamorfose, Lobisomem, Dano, Espírito, Física.",
 			"ruRU": "\"Удар когтями\" отравляет противников, нанося 10.2% ед. урона от отравления за 6 сек.\n\nTags: Базовое, Смена облика, Облик волка, Урон, Дух, Физический урон.",
-			"zhCN": "爪击在 6 秒内持续造成 10.2% 点毒素伤害。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理."
+			"zhCN": "爪击在 6 秒内持续造成 10.2% 点毒素伤害。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理.",
+			"zhTW": "爪擊在 6 秒內造成 10.2% 點中毒傷害。\n\nTags: 基本, 變形, 狼人, 傷害, 靈力, 物理."
 },
 		id: 18,
 		maxPoints: 1,
@@ -775,7 +813,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"plPL": "Dzikie Pazury",
 			"ptBR": "Garra Selvagem",
 			"ruRU": "Дикий удар когтями",
-			"zhCN": "狂野爪击"
+			"zhCN": "狂野爪击",
+			"zhTW": "狂野爪擊"
 },
 		descriptionLocalized: {
 			"deDE": "Klaue hat eine Chance von 10%, doppelt anzugreifen.\n\nTags: Basis, Gestaltwandeln, Werwolf, Schaden, Geisteskraft, Physisch.",
@@ -788,7 +827,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"plPL": "Pazury mają 10% szans na podwójny atak.\n\nTags: Podstawowe, Zmiennokształtność, Wilkołak, Obrażenia, Siła Duchowa, Fizyczne.",
 			"ptBR": "Garra tem 10% de chance de atacar duas vezes.\n\nTags: Básica, Metamorfose, Lobisomem, Dano, Espírito, Física.",
 			"ruRU": "\"Удар когтями\" с вероятностью 10% поражает цель дважды.\n\nTags: Базовое, Смена облика, Облик волка, Урон, Дух, Физический урон.",
-			"zhCN": "爪击有 10% 几率触发两次。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理."
+			"zhCN": "爪击有 10% 几率触发两次。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理.",
+			"zhTW": "爪擊有 10% 機率攻擊兩次。\n\nTags: 基本, 變形, 狼人, 傷害, 靈力, 物理."
 },
 		id: 19,
 		maxPoints: 1,
@@ -816,7 +856,8 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"plPL": "Osuwisko",
 			"ptBR": "Deslizamento",
 			"ruRU": "Оползень",
-			"zhCN": "山崩"
+			"zhCN": "山崩",
+			"zhTW": "崩石裂土"
 },
 		descriptionLocalized: {
 			"deDE": "Geisteskraftkosten: {#}\nGlückstrefferchance: 20%\nZerschmettert Gegner zwischen 2 Erdsäulen und verursacht bis zu {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% Schaden.\n\nTags: Kern, Naturmagie, Erde, Geisteskraft, Schaden.",
@@ -829,7 +870,8 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"plPL": "Koszt: {#} pkt. siły duchowej.\nSzansa na szczęśliwy traf: 20%\nMiażdżysz wrogów 2 ziemnymi filarami i zadajesz do {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% pkt. obrażeń.\n\nTags: Główne, Magia Natury, Ziemia, Siła Duchowa, Obrażenia.",
 			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 20%\nEsmaga inimigos entre 2 pilares de terra, causando até {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de dano.\n\nTags: Principal, Magia da Natureza, Terra, Espírito, Dano.",
 			"ruRU": "Затраты духа: {#} ед.\nВероятность удачного удара: 20%.\n2 земляных столпа сокрушают противников, нанося до {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% ед. урона.\n\nTags: Основное, Силы природы, Земля, Дух, Урон.",
-			"zhCN": "灵力消耗: {#}\n幸运一击几率: 20%\n碾压 2 根大地之柱之间的敌人, 最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 点伤害。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害."
+			"zhCN": "灵力消耗: {#}\n幸运一击几率: 20%\n碾压 2 根大地之柱之间的敌人, 最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 点伤害。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害.",
+			"zhTW": "靈力消耗:{#}\n幸運觸發機率:20%\n召喚 2 道泥漿洪流淹沒敵人,最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 點傷害。\n\nTags: 核心, 自然魔法, 大地, 靈力, 傷害."
 },
 		id: 20,
 		maxPoints: 5,
@@ -854,7 +896,8 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"plPL": "Wzmocnione Osuwisko",
 			"ptBR": "Deslizamento Aperfeiçoado",
 			"ruRU": "Усиленный оползень",
-			"zhCN": "强化山崩"
+			"zhCN": "强化山崩",
+			"zhTW": "強化崩石裂土"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Erdrutsch Gegnern 4-mal Schaden zugefügt hat, macht der nächste Treffer Gegner 3 Sek. lang bewegungsunfähig.\n\nTags: Kern, Naturmagie, Erde, Geisteskraft, Schaden.",
@@ -867,7 +910,8 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"plPL": "Kiedy Osuwisko zada obrażenia wrogom 4 razy, następne trafienie unieruchomi przeciwników na 3 sek.\n\nTags: Główne, Magia Natury, Ziemia, Siła Duchowa, Obrażenia.",
 			"ptBR": "Depois de Deslizamento causar dano a inimigos 4 vezes, o próximo acerto imobilizará inimigos por 3 segundos.\n\nTags: Principal, Magia da Natureza, Terra, Espírito, Dano.",
 			"ruRU": "Когда \"Оползень\" поражает противников 4 раза:раз, следующий удар обездвиживает противников на 3 сек.\n\nTags: Основное, Силы природы, Земля, Дух, Урон.",
-			"zhCN": "山崩对敌人造成 4 次伤害后, 下一次命中会使敌人定身 3 秒。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害."
+			"zhCN": "山崩对敌人造成 4 次伤害后, 下一次命中会使敌人定身 3 秒。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害.",
+			"zhTW": "崩石裂土對敵人造成傷害 4 次後,下次擊中敵人會使其定身 3 秒。\n\nTags: 核心, 自然魔法, 大地, 靈力, 傷害."
 },
 		id: 21,
 		maxPoints: 1,
@@ -891,7 +935,8 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"plPL": "Szaleńcze Osuwisko",
 			"ptBR": "Deslizamento Raivoso",
 			"ruRU": "Бушующий оползень",
-			"zhCN": "暴怒山崩"
+			"zhCN": "暴怒山崩",
+			"zhTW": "盛怒崩石裂土"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen bewegungsunfähigen oder betäubten Gegner mit Erdrutsch trefft, bildet sich eine zusätzliche Erdsäule.\n\nTags: Kern, Naturmagie, Erde, Geisteskraft, Schaden.",
@@ -904,7 +949,8 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"plPL": "Kiedy uderzasz unieruchomionego lub ogłuszonego wroga za pomocą Osuwiska, powstaje dodatkowy słup ziemi.\n\nTags: Główne, Magia Natury, Ziemia, Siła Duchowa, Obrażenia.",
 			"ptBR": "Ao acertar um inimigo imobilizado ou atordoado com Deslizamento, é formado um pilar de terra adicional.\n\nTags: Principal, Magia da Natureza, Terra, Espírito, Dano.",
 			"ruRU": "Когда \"Оползень\" поражает обездвиженного или оглушенного противника, возникает дополнительный столб земли.\n\nTags: Основное, Силы природы, Земля, Дух, Урон.",
-			"zhCN": "当你使用山崩打击一名定身或昏迷的敌人时, 会额外形成一根大地之柱。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害."
+			"zhCN": "当你使用山崩打击一名定身或昏迷的敌人时, 会额外形成一根大地之柱。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害.",
+			"zhTW": "當你以崩石裂土擊中定身或昏迷的敵人時,額外形成一道巨石。\n\nTags: 核心, 自然魔法, 大地, 靈力, 傷害."
 },
 		id: 22,
 		maxPoints: 1,
@@ -928,7 +974,8 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"plPL": "Pierwotne Osuwisko",
 			"ptBR": "Deslizamento Primevo",
 			"ruRU": "Первозданный оползень",
-			"zhCN": "原始山崩"
+			"zhCN": "原始山崩",
+			"zhTW": "原始崩石裂土"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen Gegner bewegungsunfähig macht oder betäubt, erhaltet Ihr einen Terrapartikel. Jeder von Erdrutsch getroffene Gegner verbraucht einen Terrapartikel und garantiert einen kritischen Treffer mit x40% kritischem Trefferschaden. Getroffene Bosse verfügen immer über eine Chance von bis zu 10%, einen Terrapartikel zu verleihen.\n\nTags: Kern, Naturmagie, Erde, Geisteskraft, Schaden.",
@@ -941,7 +988,8 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"plPL": "Kiedy unieruchomisz lub ogłuszysz wroga, zyskujesz Osunięcie Ziemi. Każdy wróg trafiony przez Osuwisko zużywa Osunięcie Ziemi, wywołując gwarantowane trafienie krytyczne z premią x40% do obrażeń krytycznych. Trafienie bossa zawsze ma 10% szans na Osunięcie Ziemi.\n\nTags: Główne, Magia Natury, Ziemia, Siła Duchowa, Obrażenia.",
 			"ptBR": "Ao imobilizar ou atordoar um inimigo, você recebe um Terrátomo. Cada inimigo atingido por Deslizamento consome um Terrátomo, causando um acerto crítico garantido com 40% de dano de acerto crítico. Chefes sempre têm até 10% de chance de conceder um Terrátomo ao serem atingidos.\n\nTags: Principal, Magia da Natureza, Terra, Espírito, Dano.",
 			"ruRU": "Когда вы обездвиживаете или оглушаете противника, вы получаете частицу земли. \"Оползень\" поглощает частицу земли за каждого пораженного противника и гарантированно наносит критический урон, увеличенный на x40%. Поражая боссов, вы с вероятностью до 10% получаете частицу земли.\n\nTags: Основное, Силы природы, Земля, Дух, Урон.",
-			"zhCN": "当你定身或击晕一名敌人时, 你会获得一个大地微粒。每一个被山崩命中的敌人都会消耗一个大地微粒使之必定暴击, 造成 x40% 的暴击伤害。命中首领必定有最高 10% 几率获得大地微粒。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害."
+			"zhCN": "当你定身或击晕一名敌人时, 你会获得一个大地微粒。每一个被山崩命中的敌人都会消耗一个大地微粒使之必定暴击, 造成 x40% 的暴击伤害。命中首领必定有最高 10% 几率获得大地微粒。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害.",
+			"zhTW": "當你定身或擊昏一個敵人時,獲得一個大地微粒。崩石裂土每擊中一個敵人會消耗一個大地微粒,使其必定爆擊,並擁有 x40% 爆擊傷害加成。擊中首領時必定有最多 10% 機率獲得一個大地微粒。\n\nTags: 核心, 自然魔法, 大地, 靈力, 傷害."
 },
 		id: 23,
 		maxPoints: 1,
@@ -966,7 +1014,8 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Spustoszenie",
 			"ptBR": "Pulverizar",
 			"ruRU": "Сокрушение",
-			"zhCN": "粉碎"
+			"zhCN": "粉碎",
+			"zhTW": "粉碎"
 },
 		descriptionLocalized: {
 			"deDE": "Geisteskraftkosten: {#}\nGlückstrefferchance: 33%\nVerwandelt Euch in einen Werbären, schmettert auf den Boden und fügt Gegnern in der Nähe {50/55/60/65/70/75/80/85/90/95}% Schaden zu.\n\nTags: Kern, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
@@ -979,7 +1028,8 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Koszt: {#} pkt. siły duchowej.\nSzansa na szczęśliwy traf: 33%\nPrzemieniasz się w niedźwiedziołaka i uderzasz w ziemię, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń wrogom wokół.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 33%\nTransforma-se em um urso e bate no chão, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "Затраты духа: {#} ед.\nВероятность удачного удара: 33%.\nВы принимаете облик медведя и с силой бьете по земле, нанося противникам вокруг {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "灵力消耗: {#}\n幸运一击几率: 33%\n变成熊人并猛击地面, 对周围敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理."
+			"zhCN": "灵力消耗: {#}\n幸运一击几率: 33%\n变成熊人并猛击地面, 对周围敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "靈力消耗:{#}\n幸運觸發機率:33%\n變身為熊人猛擊地面,對附近的敵人造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 核心, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 24,
 		maxPoints: 5,
@@ -1004,7 +1054,8 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Wzmocnione Spustoszenie",
 			"ptBR": "Pulverizar Aperfeiçoado",
 			"ruRU": "Усиленное сокрушение",
-			"zhCN": "强化粉碎"
+			"zhCN": "强化粉碎",
+			"zhTW": "強化粉碎"
 },
 		descriptionLocalized: {
 			"deDE": "Euer nächstes Pulverisieren wird alle 12 Sek. überwältigen, solange Ihr gesund bleibt.\n\nTags: Kern, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
@@ -1017,7 +1068,8 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Twoje następne Spustoszenie będzie przytłaczać co 12 sek., kiedy będziesz w pełni sił.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Seu próximo Pulverizar desfere Golpe Brutal a cada 12 segundos enquanto você permanecer saudável.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "Следующее \"Сокрушение\" будет наносить подавляющий урон раз в 12 сек., пока у вас высокий уровень здоровья.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "健康状态每持续 12 秒, 你的下一次粉碎 就会造成压制。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理."
+			"zhCN": "健康状态每持续 12 秒, 你的下一次粉碎 就会造成压制。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "當你在健康狀態下,每 12 秒使你的下一個粉碎獲得壓制效果。\n\nTags: 核心, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 25,
 		maxPoints: 1,
@@ -1041,7 +1093,8 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Pierwotne Spustoszenie",
 			"ptBR": "Pulverizar Primevo",
 			"ruRU": "Первозданное сокрушение",
-			"zhCN": "原始粉碎"
+			"zhCN": "原始粉碎",
+			"zhTW": "原始粉碎"
 },
 		descriptionLocalized: {
 			"deDE": "Reduziert den verursachten Schaden von Gegnern, die mit Pulverisieren getroffen wurden, 4 Sek. lang um 20%.\n\nTags: Kern, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
@@ -1054,7 +1107,8 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Wrogowie trafieni Spustoszeniem zadają obrażenia zmniejszone o 20% przez 4 sek.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Inimigos atingidos por Pulverizar causam 20% de dano reduzido por 4 segundos.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "Противники, пораженные \"Сокрушением\", наносят на 20% меньше урона в течение 4 сек.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "粉碎命中敌人时使其造成的伤害降低 20%, 持续 4 秒。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理."
+			"zhCN": "粉碎命中敌人时使其造成的伤害降低 20%, 持续 4 秒。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "被粉碎擊中的敵人造成的傷害降低 20%,持續 4 秒。\n\nTags: 核心, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 26,
 		maxPoints: 1,
@@ -1078,7 +1132,8 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Szaleńcze Spustoszenie",
 			"ptBR": "Pulverizar Raivoso",
 			"ruRU": "Бушующее сокрушение",
-			"zhCN": "暴怒粉碎"
+			"zhCN": "暴怒粉碎",
+			"zhTW": "盛怒粉碎"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die von Pulverisieren überwältigt wurden, sind 2 Sek. lang betäubt.\n\nTags: Kern, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
@@ -1091,7 +1146,8 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"plPL": "Wrogowie przytłoczeni z użyciem Spustoszenia zostają ogłuszeni na 2 sek.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Inimigos que receberem Golpe Brutal com Pulverizar são atordoados por 2 segundos.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "Когда \"Сокрушение\" наносит противникам подавляющий урон, они оглушаются на 2 сек.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "敌人在被具有压制效果的粉碎 击中时昏迷 2 秒。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理."
+			"zhCN": "敌人在被具有压制效果的粉碎 击中时昏迷 2 秒。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "當敵人被有壓制效果的粉碎擊中時,會昏迷 2 秒。\n\nTags: 核心, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 27,
 		maxPoints: 1,
@@ -1116,7 +1172,8 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"plPL": "Tornado",
 			"ptBR": "Tornado",
 			"ruRU": "Смерч",
-			"zhCN": "龙卷风"
+			"zhCN": "龙卷风",
+			"zhTW": "龍捲風"
 },
 		descriptionLocalized: {
 			"deDE": "Geisteskraftkosten: {#}\nGlückstrefferchance: 8%\nBeschwört einen wirbelnden Tornado, der {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden verursacht.\n\nTags: Kern, Naturmagie, Sturm, Geisteskraft, Schaden, Physisch.",
@@ -1129,7 +1186,8 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"plPL": "Koszt: {#} pkt. siły duchowej\nSzansa na szczęśliwy traf: 8%\nPrzyzywasz wirujące tornado, które zadaje {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń.\n\nTags: Główne, Magia Natury, Burza, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 8%\nConjura um tornado rodopiante que causa {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano.\n\nTags: Principal, Magia da Natureza, Tempestade, Espírito, Dano, Física.",
 			"ruRU": "Затраты духа: {#} ед.\nВероятность удачного удара: 8%.\nВы создаете кружащийся смерч, который наносит {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона.\n\nTags: Основное, Силы природы, Буря, Дух, Урон, Физический урон.",
-			"zhCN": "灵力消耗: {#}\n幸运一击几率: 8%\n召唤旋转的龙卷风, 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理."
+			"zhCN": "灵力消耗: {#}\n幸运一击几率: 8%\n召唤旋转的龙卷风, 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理.",
+			"zhTW": "靈力消耗:{#}\n幸運觸發機率:8%\n呼喚旋轉的龍捲風,造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害。\n\nTags: 核心, 自然魔法, 風暴, 靈力, 傷害, 物理."
 },
 		id: 28,
 		maxPoints: 5,
@@ -1154,7 +1212,8 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"plPL": "Wzmocnione Tornado",
 			"ptBR": "Tornado Aperfeiçoado",
 			"ruRU": "Усиленный смерч",
-			"zhCN": "强化龙卷风"
+			"zhCN": "强化龙卷风",
+			"zhTW": "強化龍捲風"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Ihr Tornado wirkt, besteht eine Chance von 20%, einen zusätzlichen Tornado zu erschaffen.\n\nTags: Kern, Naturmagie, Sturm, Geisteskraft, Schaden, Physisch.",
@@ -1167,7 +1226,8 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"plPL": "Za każdym razem, gdy używasz Tornada, masz 20% szans na stworzenie dodatkowego Tornada.\n\nTags: Główne, Magia Natury, Burza, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Sempre que lançar Tornado, você tem 20% de chance de gerar um Tornado adicional.\n\nTags: Principal, Magia da Natureza, Tempestade, Espírito, Dano, Física.",
 			"ruRU": "Применяя умение \"Смерч\", вы с вероятностью 20% можете призвать еще один смерч.\n\nTags: Основное, Силы природы, Буря, Дух, Урон, Физический урон.",
-			"zhCN": "每次施放龙卷风时, 你都有 20% 几率额外召唤一股龙卷风。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理."
+			"zhCN": "每次施放龙卷风时, 你都有 20% 几率额外召唤一股龙卷风。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理.",
+			"zhTW": "每次施放龍捲風時,有 20% 機率額外生成一個龍捲風。\n\nTags: 核心, 自然魔法, 風暴, 靈力, 傷害, 物理."
 },
 		id: 29,
 		maxPoints: 1,
@@ -1191,7 +1251,8 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"plPL": "Szaleńcze Tornado",
 			"ptBR": "Tornado Raivoso",
 			"ruRU": "Бушующий смерч",
-			"zhCN": "暴怒龙卷风"
+			"zhCN": "暴怒龙卷风",
+			"zhTW": "盛怒龍捲風"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die von Tornado getroffen werden, haben eine Chance von 10%, 3 Sek. lang verwundbar zu werden.\n\nTags: Kern, Naturmagie, Sturm, Geisteskraft, Schaden, Physisch.",
@@ -1204,7 +1265,8 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"plPL": "Istnieje 10% szans, że wrogowie trafieni Tornadem zostaną odsłonięci na 3 sek.\n\nTags: Główne, Magia Natury, Burza, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Inimigos atingidos com Tornado têm 10% de chance de se tornarem vulneráveis por 3 segundos.\n\nTags: Principal, Magia da Natureza, Tempestade, Espírito, Dano, Física.",
 			"ruRU": "\"Смерч\" с вероятностью 10% делает пораженных противников уязвимыми на 3 сек.\n\nTags: Основное, Силы природы, Буря, Дух, Урон, Физический урон.",
-			"zhCN": "被龙卷风命中的敌人有 10% 几率陷入易伤状态, 持续 3 秒。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理."
+			"zhCN": "被龙卷风命中的敌人有 10% 几率陷入易伤状态, 持续 3 秒。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理.",
+			"zhTW": "被龍捲風擊中的敵人有 10% 機率易傷,持續 3 秒。\n\nTags: 核心, 自然魔法, 風暴, 靈力, 傷害, 物理."
 },
 		id: 30,
 		maxPoints: 1,
@@ -1228,7 +1290,8 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"plPL": "Pierwotne Tornado",
 			"ptBR": "Tornado Primevo",
 			"ruRU": "Первозданный смерч",
-			"zhCN": "原始龙卷风"
+			"zhCN": "原始龙卷风",
+			"zhTW": "原始龍捲風"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die durch Tornado Schaden erleiden, werden 3 Sek. lang um 8% verlangsamt, bis maximal 40%.\n\nTags: Kern, Naturmagie, Sturm, Geisteskraft, Schaden, Physisch.",
@@ -1241,7 +1304,8 @@ Tags: Core, Nature Magic, Storm, Spirit, Damage, Physical.`,
 			"plPL": "Wrogowie zranieni Tornadem zostają spowolnieni o 8% na 3 sek., maksymalnie do 40%.\n\nTags: Główne, Magia Natury, Burza, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Inimigos atingidos por Tornado são desacelerados em 8% por 3 segundos, acumulando até 40%.\n\nTags: Principal, Magia da Natureza, Tempestade, Espírito, Dano, Física.",
 			"ruRU": "Нанеся урон противникам, \"Смерч\" замедляет их на 8% на 3 сек. Эффект суммируется до 40%.\n\nTags: Основное, Силы природы, Буря, Дух, Урон, Физический урон.",
-			"zhCN": "龙卷风对敌人造成伤害会使其减速 8%, 持续 3 秒, 最多叠加至 40%。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理."
+			"zhCN": "龙卷风对敌人造成伤害会使其减速 8%, 持续 3 秒, 最多叠加至 40%。\n\nTags: 核心, 自然魔法, 风暴, 灵力, 伤害, 物理.",
+			"zhTW": "被龍捲風傷害的敵人會緩速 8%,持續 3 秒,最多可堆疊至 40%。\n\nTags: 核心, 自然魔法, 風暴, 靈力, 傷害, 物理."
 },
 		id: 31,
 		maxPoints: 1,
@@ -1269,7 +1333,8 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"plPL": "Rozszarpanie",
 			"ptBR": "Retalhar",
 			"ruRU": "Разрывание",
-			"zhCN": "利爪撕扯"
+			"zhCN": "利爪撕扯",
+			"zhTW": "撕碎"
 },
 		descriptionLocalized: {
 			"deDE": "Geisteskraftkosten: {#}\nGlückstrefferchance: 20%\nVerwandelt Euch in einen Werwolf und führt eine Kombo aus drei Angriffen:\n• 1. Angriff: Stürmt auf das Ziel zu und verursacht {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden.\n• 2. Angriff: Verursacht {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden.\n• 3. Angriff: Führt einen mächtigen Finishing-Move aus, der {60/66/72/78/84/90/96/102/108/114}% Schaden verursacht.\n\nTags: Kern, Gestaltwandeln, Werwolf, Geisteskraft, Schaden, Physisch.",
@@ -1282,7 +1347,8 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"plPL": "Koszt: {#} pkt. siły duchowej\nSzansa na szczęśliwy traf: 20%\nPrzemieniasz się w wilkołaka, pędzisz do celu i wykonujesz kombinację trzech ataków:\n• 1 atak: Pęd w kierunku celu i zadajesz {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń.\n• 2 atak: Zadajesz {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń.\n• 3 atak: Wykonujesz potężny cios kończący, który zadaje {60/66/72/78/84/90/96/102/108/114}% pkt. obrażeń.\n\nTags: Główne, Zmiennokształtność, Wilkołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 20%\nTransforma-se em um lobisomem e realiza três ataques em combo:\n• 1º ataque:Avança contra o alvo e causa {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano.\n• 2º ataque: Causa {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano.\n• 3º ataque: Realiza uma finalização maior, causando {60/66/72/78/84/90/96/102/108/114}% de dano.\n\nTags: Principal, Metamorfose, Lobisomem, Espírito, Dano, Física.",
 			"ruRU": "Затраты духа: {#}\nВероятность удачного удара: 20%\nВы принимаете облик волка и проводите серию из трех атак:\n• 1-я атака: совершает рывок к цели и наносит {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона.\n• 2-я атака: наносит {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона.\n• 3-я атака: мощный завершающий прием наносит {60/66/72/78/84/90/96/102/108/114}% ед. урона.\n\nTags: Основное, Смена облика, Облик волка, Дух, Урон, Физический урон.",
-			"zhCN": "灵力消耗: {#}\n幸运一击几率: 20%\n变成狼人并发动三连击:\n• 第一次攻击: 朝目标疾奔并造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n• 第二次攻击: 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n• 第三次攻击: 发动一次更强大的终结技能, 造成 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理."
+			"zhCN": "灵力消耗: {#}\n幸运一击几率: 20%\n变成狼人并发动三连击:\n• 第一次攻击: 朝目标疾奔并造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n• 第二次攻击: 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n• 第三次攻击: 发动一次更强大的终结技能, 造成 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理.",
+			"zhTW": "靈力消耗:{#}\n幸運觸發機率:20%\n變身為狼人並使出三連擊:\n• 第 1 次攻擊:衝向目標並造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。\n• 第 2 次攻擊:造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害。\n• 第 3 次攻擊:使出強力終結攻擊,造成 {60/66/72/78/84/90/96/102/108/114}% 點傷害。\n\nTags: 核心, 變形, 狼人, 靈力, 傷害, 物理."
 },
 		id: 33,
 		maxPoints: 5,
@@ -1307,7 +1373,8 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"plPL": "Wzmocnione Rozszarpanie",
 			"ptBR": "Retalhar Aperfeiçoado",
 			"ruRU": "Усиленное разрывание",
-			"zhCN": "强化利爪撕扯"
+			"zhCN": "强化利爪撕扯",
+			"zhTW": "強化撕碎"
 },
 		descriptionLocalized: {
 			"deDE": "Zerfetzen erhält +30% Angriffsgeschwindigkeit und heilt um 1% Eures maximalen Lebens, wenn ein Ziel getroffen wird.\n\nTags: Kern, Gestaltwandeln, Werwolf, Geisteskraft, Schaden, Physisch.",
@@ -1320,7 +1387,8 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"plPL": "Rozszarpanie zwiększa swoją szybkość ataku o +30% i przywraca ci 1% maksymalnego zdrowia, jeśli wróg zostanie trafiony.\n\nTags: Główne, Zmiennokształtność, Wilkołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Retalhar recebe +30% de velocidade de ataque e cura 1% da sua vida máxima se um inimigo for atingido.\n\nTags: Principal, Metamorfose, Lobisomem, Espírito, Dano, Física.",
 			"ruRU": "Скорость атаки \"Разрывания\" повышается на 30%. Поражая противника, умение восстанавливает 1% максимального запаса здоровья.\n\nTags: Основное, Смена облика, Облик волка, Дух, Урон, Физический урон.",
-			"zhCN": "利爪撕扯在命中一名敌人后攻击速度提高 +30%, 并为你恢复 1% 生命上限。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理."
+			"zhCN": "利爪撕扯在命中一名敌人后攻击速度提高 +30%, 并为你恢复 1% 生命上限。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理.",
+			"zhTW": "擊中敵人時,撕碎獲得 +30% 攻擊速度,並恢復生命值上限的 1%。\n\nTags: 核心, 變形, 狼人, 靈力, 傷害, 物理."
 },
 		id: 34,
 		maxPoints: 1,
@@ -1344,7 +1412,8 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"plPL": "Szaleńcze Rozszarpanie",
 			"ptBR": "Retalhar Raivoso",
 			"ruRU": "Бушующее разрывание",
-			"zhCN": "暴怒利爪撕扯"
+			"zhCN": "暴怒利爪撕扯",
+			"zhTW": "盛怒撕碎"
 },
 		descriptionLocalized: {
 			"deDE": "Der dritte Komboangriff von Zerfetzen ist größer und verursacht im Verlauf von 5 Sek. zusätzlich {51/56/61/66.5/71.5/76.5/81.5/86.5/92/97}% Giftschaden.\n\nTags: Kern, Gestaltwandeln, Werwolf, Geisteskraft, Schaden, Physisch.",
@@ -1357,7 +1426,8 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"plPL": "Trzeci atak w kombinacji Rozszarpania jest potężniejszy i wywołuje u wrogów {51/56/61/66.5/71.5/76.5/81.5/86.5/92/97}% obrażeń od zatrucia w ciągu 5 sek.\n\nTags: Główne, Zmiennokształtność, Wilkołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "O terceiro ataque de combo de Retalhar é maior e aplica dano venenoso de {51/56/61/66.5/71.5/76.5/81.5/86.5/92/97}% ao longo de 5 segundos.\n\nTags: Principal, Metamorfose, Lobisomem, Espírito, Dano, Física.",
 			"ruRU": "Третья атака \"Разрывания\" применяет к противникам мощный яд, наносящий еще {51/56/61/66.5/71.5/76.5/81.5/86.5/92/97}% ед. урона от отравления за 5 сек.\n\nTags: Основное, Смена облика, Облик волка, Дух, Урон, Физический урон.",
-			"zhCN": "利爪撕扯的第三次连击更强大, 并在 5 秒内额外造成 {51/56/61/66.5/71.5/76.5/81.5/86.5/92/97}% 点毒素伤害。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理."
+			"zhCN": "利爪撕扯的第三次连击更强大, 并在 5 秒内额外造成 {51/56/61/66.5/71.5/76.5/81.5/86.5/92/97}% 点毒素伤害。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理.",
+			"zhTW": "撕碎的第三次連擊攻擊傷害提高,並附帶在 5 秒內造成 {51/56/61/66.5/71.5/76.5/81.5/86.5/92/97}% 點中毒傷害。\n\nTags: 核心, 變形, 狼人, 靈力, 傷害, 物理."
 },
 		id: 36,
 		maxPoints: 1,
@@ -1381,7 +1451,8 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"plPL": "Pierwotne Rozszarpanie",
 			"ptBR": "Retalhar Primevo",
 			"ruRU": "Первозданное разрывание",
-			"zhCN": "原始利爪撕扯"
+			"zhCN": "原始利爪撕扯",
+			"zhTW": "原始撕碎"
 },
 		descriptionLocalized: {
 			"deDE": "Der zweite und dritte Angriff von Zerfetzen löst außerdem Stürmen aus. Zusätzlich wird der kritische Trefferschaden von Zerfetzen um x20% erhöht.\n\nTags: Kern, Gestaltwandeln, Werwolf, Geisteskraft, Schaden, Physisch.",
@@ -1394,7 +1465,8 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 			"plPL": "Drugi i trzeci atak Rozszarpania wywołuje również pęd. Ponadto obrażenia od trafień krytycznych Rozszarpania są zwiększone o x20%.\n\nTags: Główne, Zmiennokształtność, Wilkołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "O segundo e terceiro ataques de Retalhar também realizam uma disparada. Além disso, o dano de acerto crítico de Retalhar é aumentado em 20%.\n\nTags: Principal, Metamorfose, Lobisomem, Espírito, Dano, Física.",
 			"ruRU": "Вторая и третья атака \"Разрывания\" также происходят с рывком. Критический урон \"Разрывания\" увеличивается на x20%.\n\nTags: Основное, Смена облика, Облик волка, Дух, Урон, Физический урон.",
-			"zhCN": "利爪撕扯的第二、三次攻击也会发起猛冲。此外, 利爪撕扯的暴击伤害提高 x20%。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理."
+			"zhCN": "利爪撕扯的第二、三次攻击也会发起猛冲。此外, 利爪撕扯的暴击伤害提高 x20%。\n\nTags: 核心, 变形, 狼人, 灵力, 伤害, 物理.",
+			"zhTW": "撕碎的第二和第三次攻擊會附帶衝刺效果。此外,撕碎的爆擊傷害提高 x20%。\n\nTags: 核心, 變形, 狼人, 靈力, 傷害, 物理."
 },
 		id: 35,
 		maxPoints: 1,
@@ -1419,7 +1491,8 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Burza z Piorunami",
 			"ptBR": "Tempestade de Raios",
 			"ruRU": "Грозовой шторм",
-			"zhCN": "雷暴"
+			"zhCN": "雷暴",
+			"zhTW": "閃電風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Geisteskraftkosten: {#} pro Angriff\nGlückstrefferchance: 15%\nBeschwört einen wachsenden Gewittersturm, der {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% Schaden pro Angriff verursacht. Die Anzahl der Angriffe wird erhöht, solange der Sturm kanalisiert wird, bis zu einem Maximum von 5 gleichzeitig.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
@@ -1432,7 +1505,8 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Koszt: {#} pkt siy duchowej za kade trafienie\nSzansa na szczęśliwy traf: 15%\nPrzywołujesz rozrastającą się burzę z piorunami, które zadają {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń przy każdym uderzeniu. Liczba uderzeń wzrasta wraz z czasem podtrzymywania, maksymalnie do 5 naraz.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
 			"ptBR": "Custo de espírito: {#} por acerto\nChance de Golpe de Sorte: 15%\nConjura uma tempestade de raios crescente que causa {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de dano por raio. O número de raios aumenta conforme o tempo de canalização da tempestade, até o máximo de 5 ao mesmo tempo.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
 			"ruRU": "Затраты духа: {#} .\nВероятность удачного удара: 15%.\nПризывает растущий грозовой шторм, наносящий {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона за каждый удар. Количество ударов увеличивается с поддержанием умения вплоть до 5.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
-			"zhCN": "灵力消耗: 每次打击消耗{#}\n幸运一击几率: 15%\n召唤一阵不断变强的雷暴, 每一击造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害, 并且引导时间越长, 命中目标的数量越多, 最多可同时命中 5 个目标。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电."
+			"zhCN": "灵力消耗: 每次打击消耗{#}\n幸运一击几率: 15%\n召唤一阵不断变强的雷暴, 每一击造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害, 并且引导时间越长, 命中目标的数量越多, 最多可同时命中 5 个目标。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
+			"zhTW": "每次雷擊靈力消耗:{#}\n幸運觸發機率:15%\n呼喚不斷成長的閃電風暴,每次雷擊造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 點傷害。風暴引導的時間越長,雷擊的次數就越多,一次引導最多可提高至 5 次。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 電擊."
 },
 		id: 37,
 		maxPoints: 5,
@@ -1457,7 +1531,8 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Wzmocniona Burza z Piorunami",
 			"ptBR": "Tempestade de Raios Aperfeiçoada",
 			"ruRU": "Усиленный грозовой шторм",
-			"zhCN": "强化雷暴"
+			"zhCN": "强化雷暴",
+			"zhTW": "強化閃電風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Die Größe Eures Gewittersturms bleibt nach dem Kanalisieren 4 Sek. lang erhalten.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
@@ -1470,7 +1545,8 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Rozmiar twojej Burzy z Piorunami utrzymuje się przez 4 sek. po podtrzymywaniu.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
 			"ptBR": "O tamanho de Tempestade de Raios é mantido por 4 segundos após a canalização.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
 			"ruRU": "Размер области \"Грозового шторма\" сохраняется на 4 сек. после поддержания умения.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
-			"zhCN": "雷暴的大小会在引导结束后保留 4 秒。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电."
+			"zhCN": "雷暴的大小会在引导结束后保留 4 秒。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
+			"zhTW": "閃電風暴的大小會保留至引導後 4 秒。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 電擊."
 },
 		id: 38,
 		maxPoints: 1,
@@ -1494,7 +1570,8 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Pierwotna Burza z Piorunami",
 			"ptBR": "Tempestade de Raios Primeva",
 			"ruRU": "Первозданный грозовой шторм",
-			"zhCN": "原始雷暴"
+			"zhCN": "原始雷暴",
+			"zhTW": "原始閃電風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Gewittersturm verfügt über eine Chance von 8%, alle getroffenen Gegner 3 Sek. lang bewegungsunfähig zu machen.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
@@ -1507,7 +1584,8 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Burza z Piorunami ma 8% szans na unieruchomienie trafionych wrogów na 3 sek.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
 			"ptBR": "Tempestade de Raios tem 8% de chance de imobilizar inimigos atingidos por 3 segundos.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
 			"ruRU": "\"Грозовой шторм\" с вероятностью 8% обездвиживает пораженных противников на 3 сек.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
-			"zhCN": "雷暴命中敌人时有 8% 几率使其定身 3 秒。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电."
+			"zhCN": "雷暴命中敌人时有 8% 几率使其定身 3 秒。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
+			"zhTW": "閃電風暴有 8% 機率使擊中的敵人定身,持續 3 秒。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 電擊."
 },
 		id: 39,
 		maxPoints: 1,
@@ -1531,7 +1609,8 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Szaleńcza Burza z Piorunami",
 			"ptBR": "Tempestade de Raios Raivosa",
 			"ruRU": "Бушующий грозовой шторм",
-			"zhCN": "暴怒雷暴"
+			"zhCN": "暴怒雷暴",
+			"zhTW": "盛怒閃電風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Gewittersturm erhält 1 zusätzlichen Blitzschlag.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
@@ -1544,7 +1623,8 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Burza z Piorunami zyskuje 1 dodatkowe uderzenie pioruna.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
 			"ptBR": "Tempestade de Raios recebe 1 raio adicional.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
 			"ruRU": "\"Грозовой шторм\" ударяет разрядом молнии еще 1 раз.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
-			"zhCN": "雷暴额外造成 1 次闪电打击。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电."
+			"zhCN": "雷暴额外造成 1 次闪电打击。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
+			"zhTW": "閃電風暴獲得額外 1 次閃電強擊。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 電擊."
 },
 		id: 40,
 		maxPoints: 1,
@@ -1567,7 +1647,8 @@ Tags: Spirit.`,
 			"plPL": "Serce Dziczy",
 			"ptBR": "Coração da Selva",
 			"ruRU": "Сердце дикой природы",
-			"zhCN": "野性之心"
+			"zhCN": "野性之心",
+			"zhTW": "野性之心"
 },
 		descriptionLocalized: {
 			"deDE": "Maximale Geisteskraft erhöht sich um {3/6/9/12/15/18/21/24/27/30}.\n\nTags: Geisteskraft.",
@@ -1580,7 +1661,8 @@ Tags: Spirit.`,
 			"plPL": "Maksymalna wartość siły duchowej wzrasta o {3/6/9/12/15/18/21/24/27/30} pkt.\n\nTags: Siła Duchowa.",
 			"ptBR": "Espírito máximo aumentado em {3/6/9/12/15/18/21/24/27/30}.\n\nTags: Espírito.",
 			"ruRU": "Максимальный запас духа увеличивается на {3/6/9/12/15/18/21/24/27/30} ед.\n\nTags: Дух.",
-			"zhCN": "灵力上限提高 {3/6/9/12/15/18/21/24/27/30} 点。\n\nTags: 灵力."
+			"zhCN": "灵力上限提高 {3/6/9/12/15/18/21/24/27/30} 点。\n\nTags: 灵力.",
+			"zhTW": "靈力上限提高 {3/6/9/12/15/18/21/24/27/30}。\n\nTags: 靈力."
 },
 		id: 42,
 		maxPoints: 3,
@@ -1603,7 +1685,8 @@ Tags: Damage, Spirit, Core.`,
 			"plPL": "Dzikie Impulsy",
 			"ptBR": "Impulsos Selvagens",
 			"ruRU": "Дикие инстинкты",
-			"zhCN": "野性冲动"
+			"zhCN": "野性冲动",
+			"zhTW": "狂野衝動"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Kernfertigkeiten kosten x{3/6/9/12/15/18/21/24/27/30}% mehr Geisteskraft, aber verursachen x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden.\n\nTags: Schaden, Geisteskraft, Kern.",
@@ -1616,7 +1699,8 @@ Tags: Damage, Spirit, Core.`,
 			"plPL": "Twoje umiejętności Główne zużywają o x{3/6/9/12/15/18/21/24/27/30}% więcej siły duchowej, ale zadają obrażenia zwiększone o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Obrażenia, Siła Duchowa, Główne.",
 			"ptBR": "Suas habilidades principais custam {3/6/9/12/15/18/21/24/27/30}% mais espírito, mas causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado.\n\nTags: Dano, Espírito, Principal.",
 			"ruRU": "Основные умения расходуют на x{3/6/9/12/15/18/21/24/27/30}% больше духа, но наносят на x{5/10/15/20/25/30/35/40/45/50}% больше урона.\n\nTags: Урон, Дух, Основное.",
-			"zhCN": "你的核心技能消耗的灵力提高 x{3/6/9/12/15/18/21/24/27/30}%, 但造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害, 灵力, 核心."
+			"zhCN": "你的核心技能消耗的灵力提高 x{3/6/9/12/15/18/21/24/27/30}%, 但造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害, 灵力, 核心.",
+			"zhTW": "你的核心技能消耗的靈力提高 x{3/6/9/12/15/18/21/24/27/30}%,但造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 傷害, 靈力, 核心."
 },
 		id: 32,
 		maxPoints: 3,
@@ -1639,7 +1723,8 @@ Tags: Spirit, Basic.`,
 			"plPL": "Obfitość",
 			"ptBR": "Abundância",
 			"ruRU": "Изобилие",
-			"zhCN": "生机绽放"
+			"zhCN": "生机绽放",
+			"zhTW": "豐饒"
 },
 		descriptionLocalized: {
 			"deDE": "Basisfertigkeiten erzeugen x{6/12/18/24/30/36/42/48/54/60}% mehr Geisteskraft.\n\nTags: Geisteskraft, Basis.",
@@ -1652,7 +1737,8 @@ Tags: Spirit, Basic.`,
 			"plPL": "Umiejętności Podstawowe generują o x{6/12/18/24/30/36/42/48/54/60}% więcej siły duchowej.\n\nTags: Siła Duchowa, Podstawowe.",
 			"ptBR": "Habilidades básicas geram {6/12/18/24/30/36/42/48/54/60}% mais espírito.\n\nTags: Espírito, Básica.",
 			"ruRU": "Базовые умения позволяют накапливать на x{6/12/18/24/30/36/42/48/54/60}% больше духа.\n\nTags: Дух, Базовое.",
-			"zhCN": "基础技能生成的灵力提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 灵力, 基础."
+			"zhCN": "基础技能生成的灵力提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 灵力, 基础.",
+			"zhTW": "基本技能額外產生 x{6/12/18/24/30/36/42/48/54/60}% 靈力。\n\nTags: 靈力, 基本."
 },
 		id: 41,
 		maxPoints: 3,
@@ -1675,7 +1761,8 @@ Tags: Critical Strikes.`,
 			"plPL": "Instynkt Drapieżnika",
 			"ptBR": "Instinto Predatório",
 			"ruRU": "Инстинкт хищника",
-			"zhCN": "掠食本能"
+			"zhCN": "掠食本能",
+			"zhTW": "掠食本能"
 },
 		descriptionLocalized: {
 			"deDE": "Eure kritische Trefferchance erhöht sich bei Gegnern in der Nähe um +{2/4/6/8/10/12/14/16/18/20}%.\n\nTags: Kritische Treffer.",
@@ -1688,7 +1775,8 @@ Tags: Critical Strikes.`,
 			"plPL": "Szansa na zadanie pobliskim wrogom trafienia krytycznego jest zwiększona o +{2/4/6/8/10/12/14/16/18/20}%.\n\nTags: Trafienia Krytyczne.",
 			"ptBR": "A chance de acerto crítico contra inimigos próximos é aumentada em +{2/4/6/8/10/12/14/16/18/20}%.\n\nTags: Acertos Críticos.",
 			"ruRU": "Вероятность нанести критический удар находящимся рядом противникам повышается на +{2/4/6/8/10/12/14/16/18/20}%.\n\nTags: Критические удары.",
-			"zhCN": "对近距敌人造成暴击的几率提高 +{2/4/6/8/10/12/14/16/18/20}%。\n\nTags: 暴击."
+			"zhCN": "对近距敌人造成暴击的几率提高 +{2/4/6/8/10/12/14/16/18/20}%。\n\nTags: 暴击.",
+			"zhTW": "對近距離敵人的爆擊機率提高 +{2/4/6/8/10/12/14/16/18/20}%。\n\nTags: 爆擊."
 },
 		id: 136,
 		maxPoints: 3,
@@ -1713,7 +1801,8 @@ Tags: Werebear, Shapeshifting, Damage Reduction.`,
 			"plPL": "Żelazne Futro",
 			"ptBR": "Pelego de Ferro",
 			"ruRU": "Железный мех",
-			"zhCN": "钢铁皮毛"
+			"zhCN": "钢铁皮毛",
+			"zhTW": "鋼鐵毛皮"
 },
 		descriptionLocalized: {
 			"deDE": "In Werbärgestalt erhaltet Ihr {3/6/9/12/15/18/21/24/27/30}% Schadensreduktion.\n\nDieser Bonus hält 3 Sek. lang an, nachdem Ihr die Werbärgestalt verlassen habt.\n\nTags: Werbär, Gestaltwandeln, Schadensreduktion.",
@@ -1726,7 +1815,8 @@ Tags: Werebear, Shapeshifting, Damage Reduction.`,
 			"plPL": "Pod postacią niedźwiedziołaka zyskujesz premię {3/6/9/12/15/18/21/24/27/30}% do redukcji obrażeń.\nPremia ta utrzymuje się przez 3 sek. po wyjściu z postaci niedźwiedziołaka.\n\nTags: Niedźwiedziołak, Zmiennokształtność, Redukcja Obrażeń.",
 			"ptBR": "Você recebe {3/6/9/12/15/18/21/24/27/30}% de redução de dano enquanto está na forma de urso.\n\nEsse bônus continua por 3 segundos depois de sair da forma de urso.\n\nTags: Urso, Metamorfose, Redução de Dano.",
 			"ruRU": "Пока вы находитесь в облике медведя, получаемый вами урон уменьшается на {3/6/9/12/15/18/21/24/27/30}%.\n\nЭффект сохраняется в течение 3 сек. после принятия другого облика.\n\nTags: Медведь, Смена облика, Уменьшение урона.",
-			"zhCN": "熊人形态下获得 {3/6/9/12/15/18/21/24/27/30}% 的伤害减免。\n\n离开熊人形态后该加成还会持续 3 秒。\n\nTags: 熊人, 变形, 伤害减免."
+			"zhCN": "熊人形态下获得 {3/6/9/12/15/18/21/24/27/30}% 的伤害减免。\n\n离开熊人形态后该加成还会持续 3 秒。\n\nTags: 熊人, 变形, 伤害减免.",
+			"zhTW": "處於熊人形態時,你獲得 {3/6/9/12/15/18/21/24/27/30}% 傷害減免。\n\n此加成效果在離開熊人形態後會持續 3 秒。\n\nTags: 熊人, 變形, 傷害減免."
 },
 		id: 137,
 		maxPoints: 3,
@@ -1751,7 +1841,8 @@ Tags: Werewolf, Movement, Shapeshifting.`,
 			"plPL": "Leśne Opuszki",
 			"ptBR": "Andar Digitígrado",
 			"ruRU": "Прыть пальцеходящих",
-			"zhCN": "趾行步态"
+			"zhCN": "趾行步态",
+			"zhTW": "趾行步伐"
 },
 		descriptionLocalized: {
 			"deDE": "In Werwolfgestalt erhaltet Ihr +{3/6/9/12/15/18/21/24/27/30}% Bewegungsgeschwindigkeit.\n\nDieser Bonus hält 3 Sek. lang an, nachdem Ihr die Werwolfgestalt verlassen habt.\n\nTags: Werwolf, Bewegung, Gestaltwandeln.",
@@ -1764,7 +1855,8 @@ Tags: Werewolf, Movement, Shapeshifting.`,
 			"plPL": "Pod postacią wilkołaka zyskujesz premię +{3/6/9/12/15/18/21/24/27/30}% do szybkości ruchu.\n\nPremia ta utrzymuje się przez 3 sek. po wyjściu z postaci wilkołaka.\n\nTags: Wilkołak, Ruch, Zmiennokształtność.",
 			"ptBR": "Você recebe +{3/6/9/12/15/18/21/24/27/30}% de velocidade de movimento enquanto está na forma de lobisomem.\n\nEsse bônus continua por 3 segundos depois de sair da forma de lobisomem.\n\nTags: Lobisomem, Movimento, Metamorfose.",
 			"ruRU": "Пока вы находитесь в облике волка, ваша скорость передвижения повышается на +{3/6/9/12/15/18/21/24/27/30}%.\n\nЭффект сохраняется в течение 3 сек. после принятия другого облика.\n\nTags: Облик волка, Движение, Смена облика.",
-			"zhCN": "狼人形态下, 你的移动速度提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\n离开狼人形态后该加成还会持续 3 秒。\n\nTags: 狼人, 移动, 变形."
+			"zhCN": "狼人形态下, 你的移动速度提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\n离开狼人形态后该加成还会持续 3 秒。\n\nTags: 狼人, 移动, 变形.",
+			"zhTW": "處於狼人形態時,你獲得 +{3/6/9/12/15/18/21/24/27/30}% 移動速度。\n\n此加成效果在離開狼人形態後會持續 3 秒。\n\nTags: 狼人, 移動, 變形."
 },
 		id: 138,
 		maxPoints: 3,
@@ -1792,7 +1884,8 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"plPL": "Ziemny Szaniec",
 			"ptBR": "Baluarte Terreno",
 			"ruRU": "Земляной бастион",
-			"zhCN": "大地壁垒"
+			"zhCN": "大地壁垒",
+			"zhTW": "大地壁壘"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 30%\nFelsen umgeben Euch 3 Sek. lang und gewähren eine Barriere, die Schaden in Höhe von {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% Eures Basislebens absorbiert.\n\nTags: Defensiv, Naturmagie, Erde, Barriere, Abklingzeit.",
@@ -1805,7 +1898,8 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 30%\nOtaczają cię na 3 sek. skały, które zapewniają barierę pochłaniającą obrażenia równe {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% twojego podstawowego zdrowia.\n\nTags: Defensywa, Magia Natury, Ziemia, Bariera, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 30%\nRochas cercam você por 3 segundos, concedendo uma barreira que absorve {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% da sua vida básica em dano.\n\nTags: Defesa, Magia da Natureza, Terra, Barreira, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 30%.\nВас на 3 сек. окружает каменный барьер, поглощающий урон в объеме {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% базового запаса здоровья.\n\nTags: Защита, Силы природы, Земля, Барьер, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 30%\n岩石环绕在你的周围, 持续 3 秒, 给予你一层可以吸收相当于基础生命 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%伤害的屏障。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 30%\n岩石环绕在你的周围, 持续 3 秒, 给予你一层可以吸收相当于基础生命 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%伤害的屏障。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:30%\n岩石圍繞在你周圍,持續 3 秒,賦予你可吸收 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 基礎生命值傷害的屏障。\n\nTags: 防禦, 自然魔法, 大地, 屏障, 冷卻時間."
 },
 		id: 43,
 		maxPoints: 5,
@@ -1830,7 +1924,8 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"plPL": "Wzmocniony Ziemny Szaniec",
 			"ptBR": "Baluarte Terreno Aperfeiçoado",
 			"ruRU": "Усиленный земляной бастион",
-			"zhCN": "强化大地壁垒"
+			"zhCN": "强化大地壁垒",
+			"zhTW": "強化大地壁壘"
 },
 		descriptionLocalized: {
 			"deDE": "Irdenes Bollwerk macht Euch unaufhaltsam, solange die Fertigkeit aktiv ist.\n\nTags: Defensiv, Naturmagie, Erde, Barriere, Abklingzeit.",
@@ -1843,7 +1938,8 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"plPL": "Kiedy Ziemny Szaniec jest aktywny, zapewnia ci nieustępliwość.\n\nTags: Defensywa, Magia Natury, Ziemia, Bariera, Odnowienie.",
 			"ptBR": "Baluarte Terreno torna você implacável enquanto ativo.\n\nTags: Defesa, Magia da Natureza, Terra, Barreira, Recarga.",
 			"ruRU": "\"Земляной бастион\" также дает неудержимость.\n\nTags: Защита, Силы природы, Земля, Барьер, Время восстановления.",
-			"zhCN": "大地壁垒激活时使你获得不可阻挡。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间."
+			"zhCN": "大地壁垒激活时使你获得不可阻挡。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间.",
+			"zhTW": "大地壁壘啟動時可使你無阻。\n\nTags: 防禦, 自然魔法, 大地, 屏障, 冷卻時間."
 },
 		id: 44,
 		maxPoints: 1,
@@ -1867,7 +1963,8 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"plPL": "Wrodzony Ziemny Szaniec",
 			"ptBR": "Baluarte Terreno Inato",
 			"ruRU": "Исконный земляной бастион",
-			"zhCN": "天禀大地壁垒"
+			"zhCN": "天禀大地壁垒",
+			"zhTW": "固有大地壁壘"
 },
 		descriptionLocalized: {
 			"deDE": "Felssplitter fliegen nach außen, wenn Irdenes Bollwerk zerstört wird oder abläuft, und fügen Gegnern in der Nähe 30% Schaden zu. Dieser Schaden wird um Boni der Barriere erhöht.\n\nTags: Defensiv, Naturmagie, Erde, Barriere, Abklingzeit.",
@@ -1880,7 +1977,8 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"plPL": "Kiedy Ziemny Szaniec zostanie zniszczony lub przestanie działać, wylatują z niego skalne odłamki, które zadają 30% pkt. obrażeń wrogom wokół. Obrażenia te są zwiększone przez premie do barier.\n\nTags: Defensywa, Magia Natury, Ziemia, Bariera, Odnowienie.",
 			"ptBR": "Estilhaços de pedra voam quando Baluarte Terreno é destruído ou expira, causando 30% a inimigos ao redor. Esse dano é aumentado por bônus de barreira.\n\nTags: Defesa, Magia da Natureza, Terra, Barreira, Recarga.",
 			"ruRU": "Когда время действия \"Земляного бастиона\" заканчивается или барьер уничтожают, вокруг разлетаются осколки, наносящие ближайшим противникам 30% ед. урона. Бонусы к барьеру увеличивают этот урон.\n\nTags: Защита, Силы природы, Земля, Барьер, Время восстановления.",
-			"zhCN": "大地壁垒被摧毁或结束时, 岩石弹片会向外飞出, 对周围的敌人造成 30% 点伤害。该伤害会随着屏障加成的提高而提高。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间."
+			"zhCN": "大地壁垒被摧毁或结束时, 岩石弹片会向外飞出, 对周围的敌人造成 30% 点伤害。该伤害会随着屏障加成的提高而提高。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间.",
+			"zhTW": "大地壁壘遭到摧毀或持續時間結束時會噴射出岩石破片,對附近敵人造成 30% 點傷害。此傷害會受到屏障的加成而提高。\n\nTags: 防禦, 自然魔法, 大地, 屏障, 冷卻時間."
 },
 		id: 45,
 		maxPoints: 1,
@@ -1904,7 +2002,8 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"plPL": "Zachowawczy Ziemny Szaniec",
 			"ptBR": "Baluarte Terreno de Proteção",
 			"ruRU": "Оберегающий земляной бастион",
-			"zhCN": "固成大地壁垒"
+			"zhCN": "固成大地壁垒",
+			"zhTW": "護存大地壁壘"
 },
 		descriptionLocalized: {
 			"deDE": "Der Einsatz von Irdenes Bollwerk verleiht Euch 18% Basisleben als Stählung.\n\nTags: Defensiv, Naturmagie, Erde, Barriere, Abklingzeit.",
@@ -1917,7 +2016,8 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"plPL": "Użycie Ziemnego Szańca zapewnia 18% podstawowego zdrowia w postaci umocnienia.\n\nTags: Defensywa, Magia Natury, Ziemia, Bariera, Odnowienie.",
 			"ptBR": "Lançar Baluarte Terreno concede 18% de vida básica como fortificação.\n\nTags: Defesa, Magia da Natureza, Terra, Barreira, Recarga.",
 			"ruRU": "\"Земляной бастион\" дает вам укрепление в объеме 18% базового запаса здоровья.\n\nTags: Защита, Силы природы, Земля, Барьер, Время восстановления.",
-			"zhCN": "施放大地壁垒强固你 18% 基础生命。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间."
+			"zhCN": "施放大地壁垒强固你 18% 基础生命。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间.",
+			"zhTW": "施放大地壁壘可賦予你相當於 18% 基礎生命值的強韌。\n\nTags: 防禦, 自然魔法, 大地, 屏障, 冷卻時間."
 },
 		id: 46,
 		maxPoints: 1,
@@ -1941,7 +2041,8 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"plPL": "Obezwładniający Ryk",
 			"ptBR": "Rugido Debilitante",
 			"ruRU": "Изнуряющий рев",
-			"zhCN": "挫志咆哮"
+			"zhCN": "挫志咆哮",
+			"zhTW": "致衰狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nVerwandelt Euch in einen Werbären und stoßt ein mächtiges Gebrüll aus, das den von Gegnern in der Nähe verursachten Schaden 4 Sek. lang um 70% verringert.\n\nTags: Defensiv, Gestaltwandeln, Werbär, Abklingzeit, Schadensreduktion.",
@@ -1954,7 +2055,8 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"plPL": "Czas odnowienia: {#} sek.\nPrzemieniasz się w niedźwiedziołaka i wydajesz potężny ryk, który zmniejsza obrażenia zadawane przez pobliskich wrogów o 70% przez 4 sek.\n\nTags: Defensywa, Zmiennokształtność, Niedźwiedziołak, Odnowienie, Redukcja Obrażeń.",
 			"ptBR": "Recarga: {#} segundos\nTransforma-se em um urso e solta um rugido poderoso, reduzindo o dano causado por inimigos próximos em 70% por 4 segundos.\n\nTags: Defesa, Metamorfose, Urso, Recarga, Redução de Dano.",
 			"ruRU": "Время восстановления: {#} сек.\nВы принимаете облик медведя и издаете могучий рев, уменьшая наносимый ближайшими противниками урон на 70% на 4 сек.\n\nTags: Защита, Смена облика, Медведь, Время восстановления, Уменьшение урона.",
-			"zhCN": "冷却时间: {#} 秒\n变成熊人并发出猛烈的咆哮, 使附近敌人造成的伤害降低 70%, 持续 4 秒。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免."
+			"zhCN": "冷却时间: {#} 秒\n变成熊人并发出猛烈的咆哮, 使附近敌人造成的伤害降低 70%, 持续 4 秒。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免.",
+			"zhTW": "冷卻時間:{#} 秒\n變身為熊人發出巨大怒吼,使附近敵人造成的傷害降低 70%,持續 4 秒。\n\nTags: 防禦, 變形, 熊人, 冷卻時間, 傷害減免."
 },
 		id: 47,
 		maxPoints: 5,
@@ -1979,7 +2081,8 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"plPL": "Wzmocniony Obezwładniający Ryk",
 			"ptBR": "Rugido Debilitante Aperfeiçoado",
 			"ruRU": "Усиленный изнуряющий рев",
-			"zhCN": "强化挫志咆哮"
+			"zhCN": "强化挫志咆哮",
+			"zhTW": "強化致衰狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Schwächendes Gebrüll verleiht Euch außerdem Stählung in Höhe von 22% Basisleben.\n\nTags: Defensiv, Gestaltwandeln, Werbär, Abklingzeit, Schadensreduktion.",
@@ -1992,7 +2095,8 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"plPL": "Obezwładniający Ryk zapewnia ci również umocnienie równe 22% podstawowego zdrowia.\n\nTags: Defensywa, Zmiennokształtność, Niedźwiedziołak, Odnowienie, Redukcja Obrażeń.",
 			"ptBR": "Rugido Debilitante também fortifica você em 22% da vida básica.\n\nTags: Defesa, Metamorfose, Urso, Recarga, Redução de Dano.",
 			"ruRU": "\"Изнуряющий рев\" также дает вам укрепление в объеме 22% базового запаса здоровья.\n\nTags: Защита, Смена облика, Медведь, Время восстановления, Уменьшение урона.",
-			"zhCN": "挫志咆哮也会强固你 22% 基础生命。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免."
+			"zhCN": "挫志咆哮也会强固你 22% 基础生命。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免.",
+			"zhTW": "致衰狂吼會使你獲得相當於 22% 基礎生命值的強韌。\n\nTags: 防禦, 變形, 熊人, 冷卻時間, 傷害減免."
 },
 		id: 48,
 		maxPoints: 1,
@@ -2016,7 +2120,8 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"plPL": "Zachowawczy Obezwładniający Ryk",
 			"ptBR": "Rugido Debilitante de Proteção",
 			"ruRU": "Оберегающий изнуряющий рев",
-			"zhCN": "固成挫志咆哮"
+			"zhCN": "固成挫志咆哮",
+			"zhTW": "護存致衰狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Schwächendes Gebrüll heilt Euch außerdem um 4% Eures maximalen Lebens pro Sekunde, solange die Fertigkeit anhält.\n\nTags: Defensiv, Gestaltwandeln, Werbär, Abklingzeit, Schadensreduktion.",
@@ -2029,7 +2134,8 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"plPL": "Obezwładniający Ryk przywraca ci również co sekundę przez cały czas działania 4% twojego maksymalnego zdrowia.\n\nTags: Defensywa, Zmiennokształtność, Niedźwiedziołak, Odnowienie, Redukcja Obrażeń.",
 			"ptBR": "Rugido Debilitante também cura 4% da sua vida máxima a cada segundo durante o efeito.\n\nTags: Defesa, Metamorfose, Urso, Recarga, Redução de Dano.",
 			"ruRU": "\"Изнуряющий рев\" также восполняет вам 4% максимального запаса здоровья раз в сек.\n\nTags: Защита, Смена облика, Медведь, Время восстановления, Уменьшение урона.",
-			"zhCN": "挫志咆哮持续期间也会使你每秒恢复 4% 生命上限。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免."
+			"zhCN": "挫志咆哮持续期间也会使你每秒恢复 4% 生命上限。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免.",
+			"zhTW": "致衰狂吼在持續時間內每秒為你恢復生命值上限的4%。\n\nTags: 防禦, 變形, 熊人, 冷卻時間, 傷害減免."
 },
 		id: 49,
 		maxPoints: 1,
@@ -2053,7 +2159,8 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"plPL": "Wrodzony Obezwładniający Ryk",
 			"ptBR": "Rugido Debilitante Inato",
 			"ruRU": "Исконный изнуряющий рев",
-			"zhCN": "天禀挫志咆哮"
+			"zhCN": "天禀挫志咆哮",
+			"zhTW": "固有致衰狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Schwächendes Gebrüll verlangsamt außerdem Gegner um 65%, solange die Fertigkeit anhält.\n\nTags: Defensiv, Gestaltwandeln, Werbär, Abklingzeit, Schadensreduktion.",
@@ -2066,7 +2173,8 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"plPL": "Obezwładniający Ryk spowalnia również wrogów o 65% przez cały czas działania.\n\nTags: Defensywa, Zmiennokształtność, Niedźwiedziołak, Odnowienie, Redukcja Obrażeń.",
 			"ptBR": "Rugido Debilitante também desacelera inimigos em 65% durante o efeito.\n\nTags: Defesa, Metamorfose, Urso, Recarga, Redução de Dano.",
 			"ruRU": "\"Изнуряющий рев\" также замедляет противников на 65% до истечения времени действия.\n\nTags: Защита, Смена облика, Медведь, Время восстановления, Уменьшение урона.",
-			"zhCN": "挫志咆哮也会在持续期间内使敌人减速 65%。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免."
+			"zhCN": "挫志咆哮也会在持续期间内使敌人减速 65%。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免.",
+			"zhTW": "致衰狂吼在持續時間內會使敵人緩速65%。\n\nTags: 防禦, 變形, 熊人, 冷卻時間, 傷害減免."
 },
 		id: 50,
 		maxPoints: 1,
@@ -2089,7 +2197,8 @@ Tags: Non-Physical, Resistance.`,
 			"plPL": "Hart Przodków",
 			"ptBR": "Fortitude Ancestral",
 			"ruRU": "Стойкость предков",
-			"zhCN": "先祖坚韧"
+			"zhCN": "先祖坚韧",
+			"zhTW": "先祖剛毅"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht Eure nichtphysischen Widerstände um {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Nichtphysisch, Widerstand.",
@@ -2102,7 +2211,8 @@ Tags: Non-Physical, Resistance.`,
 			"plPL": "Twoje odporności niefizyczne są zwiększone o {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Niefizyczne, Odporność.",
 			"ptBR": "Aumenta suas resistências a dano não físico em {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Não física, Resistência.",
 			"ruRU": "Сопротивление нефизическому урону повышается на {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Нефизический урон, Сопротивление.",
-			"zhCN": "你的非物理抗性提高 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 非物理, 抗性."
+			"zhCN": "你的非物理抗性提高 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 非物理, 抗性.",
+			"zhTW": "你的非物理抗性提高 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 非物理, 抗性."
 },
 		id: 51,
 		maxPoints: 3,
@@ -2125,7 +2235,8 @@ Tags: Damage Reduction, Defensive.`,
 			"plPL": "Czujność",
 			"ptBR": "Vigilância",
 			"ruRU": "Бдительность",
-			"zhCN": "警戒者"
+			"zhCN": "警戒者",
+			"zhTW": "戒慎"
 },
 		descriptionLocalized: {
 			"deDE": "Nach der Verwendung einer defensiven Fertigkeit erhaltet Ihr 6 Sek. lang {5/10/15/20/25/30/35/40/45/50}% Schadensreduktion.\n\nTags: Schadensreduktion, Defensiv.",
@@ -2138,7 +2249,8 @@ Tags: Damage Reduction, Defensive.`,
 			"plPL": "Otrzymujesz premię {5/10/15/20/25/30/35/40/45/50}% do redukcji obrażeń na 6 sek. po użyciu umiejętności Defensywnej.\n\nTags: Redukcja Obrażeń, Defensywa.",
 			"ptBR": "Você recebe {5/10/15/20/25/30/35/40/45/50}% de redução de dano por 6 segundos depois de usar uma habilidade de Defesa.\n\nTags: Redução de Dano, Defesa.",
 			"ruRU": "Когда вы применяете умение категории \"Защита\", получаемый вами урон уменьшается на {5/10/15/20/25/30/35/40/45/50}% на 6 сек.\n\nTags: Уменьшение урона, Защита.",
-			"zhCN": "使用防御技能后, 你获得 {5/10/15/20/25/30/35/40/45/50}% 的伤害减免, 持续 6 秒。\n\nTags: 伤害减免, 防御."
+			"zhCN": "使用防御技能后, 你获得 {5/10/15/20/25/30/35/40/45/50}% 的伤害减免, 持续 6 秒。\n\nTags: 伤害减免, 防御.",
+			"zhTW": "使用防禦技能後,你獲得 {5/10/15/20/25/30/35/40/45/50}% 傷害減免,持續 6 秒。\n\nTags: 傷害減免, 防禦."
 },
 		id: 52,
 		maxPoints: 3,
@@ -2162,7 +2274,8 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"plPL": "Zew Krwi",
 			"ptBR": "Uivo Sangrento",
 			"ruRU": "Кровавый вой",
-			"zhCN": "血性狂吼"
+			"zhCN": "血性狂吼",
+			"zhTW": "血性狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nVerwandelt Euch in einen Werwolf und lasst ein wildes Heulen erschallen, das Euch um {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% Eures maximalen Lebens heilt.\n\nTags: Defensiv, Gestaltwandeln, Werwolf, Abklingzeit, Heilung.",
@@ -2175,7 +2288,8 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"plPL": "Czas odnowienia: {#} sek.\nPrzemieniasz się w wilkołaka i wydajesz przeraźliwy skowyt, który przywraca ci {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% maksymalnego zdrowia.\n\nTags: Defensywa, Zmiennokształtność, Wilkołak, Odnowienie, Leczenie.",
 			"ptBR": "Recarga: {#} segundos\nTransforma-se em um lobisomem e uiva furiosamente, curando {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% da sua vida máxima.\n\nTags: Defesa, Metamorfose, Lobisomem, Recarga, Cura.",
 			"ruRU": "Время восстановления: {#} сек.\nВы принимаете облик волка и яростно воете, восполняя {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% максимального запаса здоровья.\n\nTags: Защита, Смена облика, Облик волка, Время восстановления, Исцеление.",
-			"zhCN": "冷却时间: {#} 秒\n变成狼人并疯狂吼叫, 为你恢复 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% 生命上限。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗."
+			"zhCN": "冷却时间: {#} 秒\n变成狼人并疯狂吼叫, 为你恢复 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% 生命上限。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗.",
+			"zhTW": "冷卻時間:{#} 秒\n變身為狼人並憤怒嗥叫,為你恢復相當於生命值上限 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%的生命值。\n\nTags: 防禦, 變形, 狼人, 冷卻時間, 治療."
 },
 		id: 53,
 		maxPoints: 5,
@@ -2200,7 +2314,8 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"plPL": "Wzmocniony Zew Krwi",
 			"ptBR": "Uivo Sangrento Aperfeiçoado",
 			"ruRU": "Усиленный кровавый вой",
-			"zhCN": "强化血性狂吼"
+			"zhCN": "强化血性狂吼",
+			"zhTW": "強化血性狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Das Töten von Gegnern reduziert die Abklingzeit von Blutgeheul um 1 Sek.\n\nTags: Defensiv, Gestaltwandeln, Werwolf, Abklingzeit, Heilung.",
@@ -2213,7 +2328,8 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"plPL": "Zabijanie wrogów skraca czas odnowienia Zewu Krwi o 1 sek.\n\nTags: Defensywa, Zmiennokształtność, Wilkołak, Odnowienie, Leczenie.",
 			"ptBR": "Abates reduzem a recarga de Uivo Sangrento em 1 segundo.\n\nTags: Defesa, Metamorfose, Lobisomem, Recarga, Cura.",
 			"ruRU": "Убийства сокращают время восстановления \"Кровавого воя\" на 1 сек.\n\nTags: Защита, Смена облика, Облик волка, Время восстановления, Исцеление.",
-			"zhCN": "消灭敌人会使血性狂吼的冷却时间缩短 1 秒。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗."
+			"zhCN": "消灭敌人会使血性狂吼的冷却时间缩短 1 秒。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗.",
+			"zhTW": "殺死敵人使血性狂吼的冷卻時間縮短 1 秒。\n\nTags: 防禦, 變形, 狼人, 冷卻時間, 治療."
 },
 		id: 54,
 		maxPoints: 1,
@@ -2237,7 +2353,8 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"plPL": "Wrodzony Zew Krwi",
 			"ptBR": "Uivo Sangrento Inato",
 			"ruRU": "Исконный кровавый вой",
-			"zhCN": "天禀血性狂吼"
+			"zhCN": "天禀血性狂吼",
+			"zhTW": "固有血性狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Blutgeheul generiert außerdem 20 Geisteskraft.\n\nTags: Defensiv, Gestaltwandeln, Werwolf, Abklingzeit, Heilung.",
@@ -2250,7 +2367,8 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"plPL": "Zew Krwi generuje także 20 pkt. siły duchowej.\n\nTags: Defensywa, Zmiennokształtność, Wilkołak, Odnowienie, Leczenie.",
 			"ptBR": "Uivo Sangrento também gera 20 de espírito.\n\nTags: Defesa, Metamorfose, Lobisomem, Recarga, Cura.",
 			"ruRU": "\"Кровавый вой\" также дает 20 ед. духа.\n\nTags: Защита, Смена облика, Облик волка, Время восстановления, Исцеление.",
-			"zhCN": "血性狂吼也会生成 20 点灵力。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗."
+			"zhCN": "血性狂吼也会生成 20 点灵力。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗.",
+			"zhTW": "血性狂吼也會產生 20 點靈力。\n\nTags: 防禦, 變形, 狼人, 冷卻時間, 治療."
 },
 		id: 55,
 		maxPoints: 1,
@@ -2274,7 +2392,8 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"plPL": "Zachowawczy Zew Krwi",
 			"ptBR": "Uivo Sangrento de Proteção",
 			"ruRU": "Оберегающий кровавый вой",
-			"zhCN": "固成血性狂吼"
+			"zhCN": "固成血性狂吼",
+			"zhTW": "護存血性狂吼"
 },
 		descriptionLocalized: {
 			"deDE": "Blutgeheul erhöht außerdem 4 Sek. lang Eure Angriffsgeschwindigkeit um +15%.\n\nTags: Defensiv, Gestaltwandeln, Werwolf, Abklingzeit, Heilung.",
@@ -2287,7 +2406,8 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"plPL": "Zew Krwi zwiększa także twoją szybkość ataku o +15% przez 4 sek.\n\nTags: Defensywa, Zmiennokształtność, Wilkołak, Odnowienie, Leczenie.",
 			"ptBR": "Uivo Sangrento também aumenta sua velocidade de ataque em +15% por 4 segundos.\n\nTags: Defesa, Metamorfose, Lobisomem, Recarga, Cura.",
 			"ruRU": "\"Кровавый вой\" также повышает вашу скорость атаки на +15% на 4 сек.\n\nTags: Защита, Смена облика, Облик волка, Время восстановления, Исцеление.",
-			"zhCN": "血性狂吼也会使你的攻击速度提高 +15%, 持续 4 秒。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗."
+			"zhCN": "血性狂吼也会使你的攻击速度提高 +15%, 持续 4 秒。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗.",
+			"zhTW": "血性狂吼會使攻擊速度提高 +15%,持續 4 秒。\n\nTags: 防禦, 變形, 狼人, 冷卻時間, 治療."
 },
 		id: 56,
 		maxPoints: 1,
@@ -2314,7 +2434,8 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"plPL": "Zbroja Cyklonu",
 			"ptBR": "Armadura Ciclônica",
 			"ruRU": "Ураганный доспех",
-			"zhCN": "旋风甲"
+			"zhCN": "旋风甲",
+			"zhTW": "氣旋護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 25%\nPassiv: Mächtige Winde umgeben Euch und verringern Euren erlittenen nichtphysischen Schaden um {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nAktiv: Die Winde dehnen sich schnell aus, stoßen Gegner zurück und verursachen {30/33/36/39/42/45/48/51/54/57}% Schaden.\n\nTags: Defensiv, Naturmagie, Sturm, Abklingzeit, Schaden, Schadensreduktion, Nichtphysisch, Physisch, Kontrollverlust.",
@@ -2327,7 +2448,8 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 25%\nDziałanie pasywne: Otaczają cię potężne wichry, zapewniając {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% redukcji obrażeń niefizycznych.\n\nDziałanie aktywne: Wichry gwałtownie się rozszerzają, odrzucając wrogów i zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nTags: Defensywa, Magia Natury, Burza, Odnowienie, Obrażenia, Redukcja Obrażeń, Niefizyczne, Fizyczne, Ograniczanie Kontroli.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 25%\nPassiva: Ventos poderosos cercam você, concedendo {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de redução de dano não físico.\n\nAtiva: Os ventos intensificam-se rapidamente, repelindo inimigos e causando {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nTags: Defesa, Magia da Natureza, Tempestade, Recarga, Dano, Redução de Dano, Não física, Física, Controle de Grupo.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 25%.\nПассивный эффект: вас окружают мощные потоки ветра, которые уменьшают получаемый нефизический урон на {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nЭффект при активации: потоки ветра стремительно расширяются, нанося ближайшим противникам {30/33/36/39/42/45/48/51/54/57}% ед. урона и отбрасывая их.\n\nTags: Защита, Силы природы, Буря, Время восстановления, Урон, Уменьшение урона, Нефизический урон, Физический урон, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 25%\n被动: 强风环绕着你, 获得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理伤害减免。\n\n主动: 强风迅速膨胀, 对附近的敌人造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并将其击退。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 25%\n被动: 强风环绕着你, 获得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理伤害减免。\n\n主动: 强风迅速膨胀, 对附近的敌人造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并将其击退。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:25%\n被動效果:強勁的風環繞著你,獲得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理傷害減免。\n\n主動效果:風襲範圍快速擴張,擊退敵人並造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。\n\nTags: 防禦, 自然魔法, 風暴, 冷卻時間, 傷害, 傷害減免, 非物理, 物理, 控場."
 },
 		id: 57,
 		maxPoints: 5,
@@ -2352,7 +2474,8 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"plPL": "Wzmocniona Zbroja Cyklonu",
 			"ptBR": "Armadura Ciclônica Aperfeiçoada",
 			"ruRU": "Усиленный ураганный доспех",
-			"zhCN": "强化旋风甲"
+			"zhCN": "强化旋风甲",
+			"zhTW": "強化氣旋護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die von Zyklonrüstung zurückgestoßen werden, werden außerdem 2 Sek. lang um 70% verlangsamt.\n\nTags: Defensiv, Naturmagie, Sturm, Abklingzeit, Schaden, Schadensreduktion, Nichtphysisch, Physisch, Kontrollverlust.",
@@ -2365,7 +2488,8 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"plPL": "Wrogowie odrzuceni przez Zbroję Cyklonu są również spowolnieni o 70% na 2 sek.\n\nTags: Defensywa, Magia Natury, Burza, Odnowienie, Obrażenia, Redukcja Obrażeń, Niefizyczne, Fizyczne, Ograniczanie Kontroli.",
 			"ptBR": "Inimigos repelidos por Armadura Ciclônica também são desacelerados em 70% por 2 segundos.\n\nTags: Defesa, Magia da Natureza, Tempestade, Recarga, Dano, Redução de Dano, Não física, Física, Controle de Grupo.",
 			"ruRU": "Противники, отброшенные \"Ураганным доспехом\", также замедляются на 70% на 2 сек.\n\nTags: Защита, Силы природы, Буря, Время восстановления, Урон, Уменьшение урона, Нефизический урон, Физический урон, Контроль.",
-			"zhCN": "被旋风甲 击退的敌人也会被减速 70%, 持续 2 秒。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控."
+			"zhCN": "被旋风甲 击退的敌人也会被减速 70%, 持续 2 秒。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控.",
+			"zhTW": "被氣旋護甲擊退的敵人會緩速 70%,持續 2 秒。\n\nTags: 防禦, 自然魔法, 風暴, 冷卻時間, 傷害, 傷害減免, 非物理, 物理, 控場."
 },
 		id: 58,
 		maxPoints: 1,
@@ -2389,7 +2513,8 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"plPL": "Zachowawcza Zbroja Cyklonu",
 			"ptBR": "Armadura Ciclônica de Proteção",
 			"ruRU": "Оберегающий ураганный доспех",
-			"zhCN": "固成旋风甲"
+			"zhCN": "固成旋风甲",
+			"zhTW": "護存氣旋護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Alle 10 Sek. wird Zyklonrüstung stärker, wodurch erlittener Schaden 2 Sek. lang 30% Schadensreduktion gewährt.\n\nTags: Defensiv, Naturmagie, Sturm, Abklingzeit, Schaden, Schadensreduktion, Nichtphysisch, Physisch, Kontrollverlust.",
@@ -2402,7 +2527,8 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"plPL": "Co 10 sek. Zbroja Cyklonu wzmacnia się, powodując, że zadawane ci obrażenia zapewniają ci 30% redukcji obrażeń na 2 sek.\n\nTags: Defensywa, Magia Natury, Burza, Odnowienie, Obrażenia, Redukcja Obrażeń, Niefizyczne, Fizyczne, Ograniczanie Kontroli.",
 			"ptBR": "A cada 10 segundos, Armadura Ciclônica é potencializada, fazendo com que o dano recebido conceda 30% de redução de dano por 2 segundos.\n\nTags: Defesa, Magia da Natureza, Tempestade, Recarga, Dano, Redução de Dano, Não física, Física, Controle de Grupo.",
 			"ruRU": "Раз в 10 сек. \"Ураганный доспех\" усиливается, в результате чего когда вы получаете урон, весь получаемый вами урон уменьшается на 30% на 2 сек.\n\nTags: Защита, Силы природы, Буря, Время восстановления, Урон, Уменьшение урона, Нефизический урон, Физический урон, Контроль.",
-			"zhCN": "每隔 10 秒, 旋风甲的效果会加强, 受到伤害时使你获得 30% 伤害减免, 持续 2 秒。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控."
+			"zhCN": "每隔 10 秒, 旋风甲的效果会加强, 受到伤害时使你获得 30% 伤害减免, 持续 2 秒。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控.",
+			"zhTW": "每過 10 秒氣旋護甲會增強,受到傷害時會賦予你 30% 傷害減免,持續 2 秒。\n\nTags: 防禦, 自然魔法, 風暴, 冷卻時間, 傷害, 傷害減免, 非物理, 物理, 控場."
 },
 		id: 59,
 		maxPoints: 1,
@@ -2426,7 +2552,8 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"plPL": "Wrodzona Zbroja Cyklonu",
 			"ptBR": "Armadura Ciclônica Inata",
 			"ruRU": "Исконный ураганный доспех",
-			"zhCN": "天禀旋风甲"
+			"zhCN": "天禀旋风甲",
+			"zhTW": "固有氣旋護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die von Zyklonrüstung zurückgestoßen werden, sind 3 Sek. lang verwundbar.\n\nTags: Defensiv, Naturmagie, Sturm, Abklingzeit, Schaden, Schadensreduktion, Nichtphysisch, Physisch, Kontrollverlust.",
@@ -2439,7 +2566,8 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"plPL": "Wrogowie odrzuceni przez Zbroję Cyklonu zostają odsłonięci na 3 sek.\n\nTags: Defensywa, Magia Natury, Burza, Odnowienie, Obrażenia, Redukcja Obrażeń, Niefizyczne, Fizyczne, Ograniczanie Kontroli.",
 			"ptBR": "Inimigos repelidos por Armadura Ciclônica tornam-se vulneráveis por 3 segundos.\n\nTags: Defesa, Magia da Natureza, Tempestade, Recarga, Dano, Redução de Dano, Não física, Física, Controle de Grupo.",
 			"ruRU": "Противники, отброшенные \"Ураганным доспехом\", становятся уязвимыми на 3 сек.\n\nTags: Защита, Силы природы, Буря, Время восстановления, Урон, Уменьшение урона, Нефизический урон, Физический урон, Контроль.",
-			"zhCN": "被旋风甲 击退的敌人将陷入易伤状态, 持续 3 秒。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控."
+			"zhCN": "被旋风甲 击退的敌人将陷入易伤状态, 持续 3 秒。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控.",
+			"zhTW": "被氣旋護甲擊退的敵人會受易傷狀態影響,持續 3 秒。\n\nTags: 防禦, 自然魔法, 風暴, 冷卻時間, 傷害, 傷害減免, 非物理, 物理, 控場."
 },
 		id: 60,
 		maxPoints: 1,
@@ -2469,7 +2597,8 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"plPL": "Kruki",
 			"ptBR": "Corvos",
 			"ruRU": "Вороны",
-			"zhCN": "渡鸦"
+			"zhCN": "渡鸦",
+			"zhTW": "掠鴉"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 45%\nPassiv: 1 Raben kreisen über Euch, greifen wiederholt Eure Gegner an und fügen ihnen dabei alle 5 Sek. 13% Schaden zu.\n\nAktiv: Der Zielbereich wird von Raben umschwärmt, die Gegnern im Verlauf von 6 Sek. {160/176/192/208/224/240/256/272/288/304}% Schaden zufügen.\n\nTags: Gefährte, Physisch, Schaden, Abklingzeit.",
@@ -2482,7 +2611,8 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 45%\nDziałanie pasywne: 1 Kruki:Kruków krążą:krąży ci nad głową i co jakiś czas atakują:atakuje twoich wrogów, zadając im 13% pkt. obrażeń co 5 sek.\n\nDziałanie aktywne: Stado kruków atakuje wskazany obszar i zadaje {160/176/192/208/224/240/256/272/288/304}% pkt. obrażeń przez 6 sek.\n\nTags: Kompan, Fizyczne, Obrażenia, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 45%\nPassiva: 1 Corvos sobrevoam você e atacam seus inimigos periodicamente, causando 13% de dano a cada 5 segundos.\n\nAtiva: A área selecionada é tomada por corvos, causando {160/176/192/208/224/240/256/272/288/304}% de dano ao longo de 6 segundos.\n\nTags: Mascote, Física, Dano, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность критического удара: 45%\nПассивный эффект: 1 ворона:воронов кружат:кружат над вами и время от времени атакуют:атакуют противников, нанося 13% ед. урона раз в 5 сек.\n\nЭффект при активации: вороны атакуют цели в указанной области, нанося {160/176/192/208/224/240/256/272/288/304}% ед. урона за 6 сек.\n\nTags: Спутник, Физический урон, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 45%\n被动: 1 只渡鸦从你的头顶飞过并周期性地攻击敌人, 每 5 秒对敌人造成 13% 点伤害。\n\n主动: 目标区域渡鸦成群, 在 6 秒内造成 {160/176/192/208/224/240/256/272/288/304}% 点伤害。\n\nTags: 同伴, 物理, 伤害, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 45%\n被动: 1 只渡鸦从你的头顶飞过并周期性地攻击敌人, 每 5 秒对敌人造成 13% 点伤害。\n\n主动: 目标区域渡鸦成群, 在 6 秒内造成 {160/176/192/208/224/240/256/272/288/304}% 点伤害。\n\nTags: 同伴, 物理, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:45%\n被動效果:1 隻掠鴉在你上空飛翔並定期攻擊敵人,每 5 秒造成 13% 點傷害。\n\n主動效果:掠鴉圍攻指定地點,在 6 秒內造成 {160/176/192/208/224/240/256/272/288/304}% 點傷害。\n\nTags: 同伴, 物理, 傷害, 冷卻時間."
 },
 		id: 62,
 		maxPoints: 5,
@@ -2507,7 +2637,8 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"plPL": "Wzmocnione Kruki",
 			"ptBR": "Corvos Aperfeiçoados",
 			"ruRU": "Усиленные вороны",
-			"zhCN": "强化渡鸦"
+			"zhCN": "强化渡鸦",
+			"zhTW": "強化掠鴉"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr habt 6 Sek. lang eine +5% höhere kritische Trefferchance gegen Gegner, nachdem sie von Raben getroffen wurden.\n\nTags: Gefährte, Physisch, Schaden, Abklingzeit.",
@@ -2520,7 +2651,8 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"plPL": "Zyskujesz premię +5% do szansy na trafienie krytyczne na 6 sek., gdy atakujesz wrogów trafionych wcześniej przez Kruki.\n\nTags: Kompan, Fizyczne, Obrażenia, Odnowienie.",
 			"ptBR": "Você tem +5% de chance de acerto crítico contra inimigos aumentada por 6 segundos depois de eles serem atingidos por Corvos.\n\nTags: Mascote, Física, Dano, Recarga.",
 			"ruRU": "Вороны отвлекают пораженных врагов, в результате чего ваша вероятность критического удара против этих целей повышается на +5% на 6 сек.\n\nTags: Спутник, Физический урон, Урон, Время восстановления.",
-			"zhCN": "你对被渡鸦命中的敌人造成暴击的几率提高 +5%, 持续 6 秒。\n\nTags: 同伴, 物理, 伤害, 冷却时间."
+			"zhCN": "你对被渡鸦命中的敌人造成暴击的几率提高 +5%, 持续 6 秒。\n\nTags: 同伴, 物理, 伤害, 冷却时间.",
+			"zhTW": "你對被掠鴉擊中的敵人造成的爆擊機率提高 +5%,持續 6 秒。\n\nTags: 同伴, 物理, 傷害, 冷卻時間."
 },
 		id: 63,
 		maxPoints: 1,
@@ -2544,7 +2676,8 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"plPL": "Brutalne Kruki",
 			"ptBR": "Corvos Brutais",
 			"ruRU": "Безжалостные вороны",
-			"zhCN": "残忍渡鸦"
+			"zhCN": "残忍渡鸦",
+			"zhTW": "殘暴掠鴉"
 },
 		descriptionLocalized: {
 			"deDE": "2 zusätzliche Raben greifen in regelmäßigen Abständen Gegner an.\n\nTags: Gefährte, Physisch, Schaden, Abklingzeit.",
@@ -2557,7 +2690,8 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"plPL": "Co jakiś czas dodatkowe Kruki (2) atakują wrogów.\n\nTags: Kompan, Fizyczne, Obrażenia, Odnowienie.",
 			"ptBR": "2 corvos adicionais atacam inimigos periodicamente.\n\nTags: Mascote, Física, Dano, Recarga.",
 			"ruRU": "Призывает еще 2 воронов, периодически атакующих противников.\n\nTags: Спутник, Физический урон, Урон, Время восстановления.",
-			"zhCN": "额外有 2 只渡鸦周期性地攻击敌人。\n\nTags: 同伴, 物理, 伤害, 冷却时间."
+			"zhCN": "额外有 2 只渡鸦周期性地攻击敌人。\n\nTags: 同伴, 物理, 伤害, 冷却时间.",
+			"zhTW": "額外有 2 隻掠鴉定期攻擊敵人。\n\nTags: 同伴, 物理, 傷害, 冷卻時間."
 },
 		id: 64,
 		maxPoints: 1,
@@ -2581,7 +2715,8 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"plPL": "Zdziczałe Kruki",
 			"ptBR": "Corvos Ferozes",
 			"ruRU": "Свирепые вороны",
-			"zhCN": "暴躁渡鸦"
+			"zhCN": "暴躁渡鸦",
+			"zhTW": "兇猛掠鴉"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die sich bei der Aktivierung innerhalb des Rabenschwarms befinden, werden 3 Sek. lang verwundbar.\n\nTags: Gefährte, Physisch, Schaden, Abklingzeit.",
@@ -2594,7 +2729,8 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"plPL": "Wrogowie znajdujący się wewnątrz stada Kruków w chwili, gdy jest ono aktywowane, zostają odsłonięci na 3 sek.\n\nTags: Kompan, Fizyczne, Obrażenia, Odnowienie.",
 			"ptBR": "Inimigos dentro do bando de Corvos quando ativado tornam-se vulneráveis por 3 segundos.\n\nTags: Mascote, Física, Dano, Recarga.",
 			"ruRU": "Противники, находящиеся в стае воронов при активации умения, становятся уязвимыми на 3 сек.\n\nTags: Спутник, Физический урон, Урон, Время восстановления.",
-			"zhCN": "技能激活后, 位于渡鸦群内的敌人将陷入易伤状态, 持续 3 秒。\n\nTags: 同伴, 物理, 伤害, 冷却时间."
+			"zhCN": "技能激活后, 位于渡鸦群内的敌人将陷入易伤状态, 持续 3 秒。\n\nTags: 同伴, 物理, 伤害, 冷却时间.",
+			"zhTW": "在掠鴉啟動期間,在鴉群內的敵人會易傷,持續 3 秒。\n\nTags: 同伴, 物理, 傷害, 冷卻時間."
 },
 		id: 65,
 		maxPoints: 1,
@@ -2617,7 +2753,8 @@ Tags: Companion, Damage.`,
 			"plPL": "Zew Dziczy",
 			"ptBR": "Chamado da Selva",
 			"ruRU": "Зов дикой природы",
-			"zhCN": "野性呼唤"
+			"zhCN": "野性呼唤",
+			"zhTW": "野性呼喚"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Gefährtenfertigkeiten verursachen x{10/20/30/40/50/60/70/80/90/100}% Bonusschaden.\n\nTags: Gefährte, Schaden.",
@@ -2630,7 +2767,8 @@ Tags: Companion, Damage.`,
 			"plPL": "Twoje umiejętności Kompanów zadają dodatkowe x{10/20/30/40/50/60/70/80/90/100}% obrażeń.\n\nTags: Kompan, Obrażenia.",
 			"ptBR": "Suas habilidades de Mascote causam {10/20/30/40/50/60/70/80/90/100}% de bônus de dano.\n\nTags: Mascote, Dano.",
 			"ruRU": "Умения категории \"Питомец\" наносят на x{10/20/30/40/50/60/70/80/90/100}% больше урона.\n\nTags: Спутник, Урон.",
-			"zhCN": "你的同伴技能造成的伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 同伴, 伤害."
+			"zhCN": "你的同伴技能造成的伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 同伴, 伤害.",
+			"zhTW": "你的同伴技能造成的傷害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 同伴, 傷害."
 },
 		id: 66,
 		maxPoints: 3,
@@ -2657,7 +2795,8 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Trujący Pełzacz",
 			"ptBR": "Rastejante Venenoso",
 			"ruRU": "Ядовитая лоза",
-			"zhCN": "剧毒蔓藤"
+			"zhCN": "剧毒蔓藤",
+			"zhTW": "劇毒藤蔓"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 28%\nPassiv: Eine Giftranke schießt alle 7 Sek. aus dem Boden und fügt einem Gegner im Wirkungsbereich im Verlauf von 6 Sek. {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Giftschaden zu.\n\nAktiv: Die Ranken strangulieren alle vergifteten Gegner in der Nähe, machen sie 2 Sek. lang bewegungsunfähig, vergiften sie und verursachen dabei im Verlauf von 2 Sek. {90/99/108/117/126/135/144/153/162/171}% Schaden.\n\nTags: Gefährte, Gift, Schaden, Abklingzeit, Kontrollverlust.",
@@ -2670,7 +2809,8 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 28%\nDziałanie pasywne: Trujący pełzacz wyrasta z ziemi co 7 sek. i zadaje wrogowi na danym obszarze {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nDziałanie aktywne: Pnącze pęta wszystkich zatrutych wrogów znajdujących się wokół i unieruchamia ich na 2 sek. oraz zatruwa ich, zadając {90/99/108/117/126/135/144/153/162/171}% pkt. obrażeń w ciągu 2 sek.\n\nTags: Kompan, Trucizna, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 28%\nPassiva: Um rastejante venenoso emerge periodicamente do solo a cada 7 segundos e envenena um inimigo na área, causando {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano ao longo de 6 segundos.\n\nAtiva: Vinhas estrangulam todos os inimigos ao redor, imobilizando-os por 2 segundos e envenenando-os, causando {90/99/108/117/126/135/144/153/162/171}% de dano ao longo de 2 segundos.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 28%.\nПассивный эффект: раз в 7 сек. из-под земли появляется ядовитая лоза, которая отравляет ближайшего противника, нанося {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона от отравления за 6 сек.\n\nЭффект при активации: лозы-душители оплетают противников вокруг, обездвиживая их на 2 сек. и нанося {90/99/108/117/126/135/144/153/162/171}% ед. урона от отравления за 2 сек.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 28%\n被动: 一个剧毒蔓藤每隔 7 秒从地面出现, 并在 6 秒内对区域内的敌人造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点毒素伤害。\n\n主动: 蔓藤会绞杀周围所有敌人, 使其定身 2 秒并中毒, 在 2 秒内对其造成 {90/99/108/117/126/135/144/153/162/171}% 点伤害。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 28%\n被动: 一个剧毒蔓藤每隔 7 秒从地面出现, 并在 6 秒内对区域内的敌人造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点毒素伤害。\n\n主动: 蔓藤会绞杀周围所有敌人, 使其定身 2 秒并中毒, 在 2 秒内对其造成 {90/99/108/117/126/135/144/153/162/171}% 点伤害。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:28%\n被動效果:劇毒藤蔓每隔 7 秒會冒出地面,對附近的一名敵人在 6 秒內造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 點中毒傷害。\n\n主動效果:藤蔓會纏住附近所有敵人,使敵人定身 2 秒,並在 2 秒內造成 {90/99/108/117/126/135/144/153/162/171}% 點中毒傷害。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
 },
 		id: 167,
 		maxPoints: 5,
@@ -2695,7 +2835,8 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Wzmocniony Trujący Pełzacz",
 			"ptBR": "Rastejante Venenoso Aperfeiçoado",
 			"ruRU": "Усиленная ядовитая лоза",
-			"zhCN": "强化剧毒蔓藤"
+			"zhCN": "强化剧毒蔓藤",
+			"zhTW": "強化劇毒藤蔓"
 },
 		descriptionLocalized: {
 			"deDE": "Die Bewegungsunfähigkeit von Giftranke hält 1 Sek. länger an.\n\nTags: Gefährte, Gift, Schaden, Abklingzeit, Kontrollverlust.",
@@ -2708,7 +2849,8 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Czas działania efektu unieruchomienia zapewnianego przez Trującego Pełzacza jest wydłużony o 1 sek.\n\nTags: Kompan, Trucizna, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "A duração da imobilização de Rastejante Venenoso é aumentada em 1 segundo.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Обездвиживание от ядовитой лозы действует на 1 сек. дольше.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
-			"zhCN": "剧毒蔓藤的定身持续时间延长 1 秒。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控."
+			"zhCN": "剧毒蔓藤的定身持续时间延长 1 秒。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控.",
+			"zhTW": "劇毒藤蔓的定身持續時間延長 1 秒。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
 },
 		id: 168,
 		maxPoints: 1,
@@ -2732,7 +2874,8 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Zdziczały Trujący Pełzacz",
 			"ptBR": "Rastejante Venenoso Feroz",
 			"ruRU": "Свирепая ядовитая лоза",
-			"zhCN": "暴躁剧毒蔓藤"
+			"zhCN": "暴躁剧毒蔓藤",
+			"zhTW": "兇猛劇毒藤蔓"
 },
 		descriptionLocalized: {
 			"deDE": "Das aktive Gift von Giftranke hält 3 Sek. länger an.\n\nTags: Gefährte, Gift, Schaden, Abklingzeit, Kontrollverlust.",
@@ -2745,7 +2888,8 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Czas działania efektu zatrucia zapewnianego przez Trującego Pełzacza jest wydłużony o 3 sek.\n\nTags: Kompan, Trucizna, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "A duração do veneno ativo de Rastejante Venenoso é aumentada em 3 segundos.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Отравление от активного эффекта ядовитой лозы действует на 3 сек. дольше.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
-			"zhCN": "剧毒蔓藤的主动中毒持续时间延长 3 秒。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控."
+			"zhCN": "剧毒蔓藤的主动中毒持续时间延长 3 秒。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控.",
+			"zhTW": "劇毒藤蔓主動效果的中毒持續時間延長 3 秒。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
 },
 		id: 169,
 		maxPoints: 1,
@@ -2769,7 +2913,8 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Brutalny Trujący Pełzacz",
 			"ptBR": "Rastejante Venenoso Brutal",
 			"ruRU": "Безжалостная ядовитая лоза",
-			"zhCN": "残忍剧毒蔓藤"
+			"zhCN": "残忍剧毒蔓藤",
+			"zhTW": "殘暴劇毒藤蔓"
 },
 		descriptionLocalized: {
 			"deDE": "Eure kritische Trefferchance erhöht sich um +20% bei Gegnern, die von Giftranke stranguliert werden.\n\nTags: Gefährte, Gift, Schaden, Abklingzeit, Kontrollverlust.",
@@ -2782,7 +2927,8 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Szansa na trafienie krytyczne jest zwiększona o +20% przeciwko wrogom spętanym przez Trującego Pełzacza.\n\nTags: Kompan, Trucizna, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Sua chance de acerto crítico é aumentada em +20% contra inimigos estrangulados por Rastejante Venenoso.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Вероятность нанести противнику критический урон повышается на +20%, если его душит ядовитая лоза.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
-			"zhCN": "你对被剧毒蔓藤绞杀的敌人发动攻击时, 暴击几率提高 +20%。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控."
+			"zhCN": "你对被剧毒蔓藤绞杀的敌人发动攻击时, 暴击几率提高 +20%。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控.",
+			"zhTW": "對受到劇毒藤蔓糾纏的敵人造成爆擊的機率提高 +20%。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
 },
 		id: 170,
 		maxPoints: 1,
@@ -2809,7 +2955,8 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"plPL": "Wilki",
 			"ptBR": "Lobos",
 			"ruRU": "Волки",
-			"zhCN": "群狼"
+			"zhCN": "群狼",
+			"zhTW": "狼群"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 50%\nPassiv: Beschwört 2 Wolfsgefährten, die Gegner beißen und {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% Schaden verursachen.\n\nAktiv: Befehlt den Wölfen, einen Gegner anzufallen und ihm {110/121/132/143/154/165/176/187/198/209}% Schaden zuzufügen.\n\nTags: Gefährte, Abklingzeit, Schaden, Physisch.",
@@ -2822,7 +2969,8 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 50%\nDziałanie pasywne: Przywołujesz 2 wilczych kompanów, którzy kąsają wrogów, zadając im {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% pkt. obrażeń.\n\nDziałanie aktywne: Rozkazujesz wilkom, by skupiły ataki na jednym wrogu, doskoczyły do niego i zadały przy tym {110/121/132/143/154/165/176/187/198/209}% pkt. obrażeń.\n\nTags: Kompan, Odnowienie, Obrażenia, Fizyczne.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 50%\nPassiva: Evoca 2 mascotes lobos que mordem os inimigos, causando {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% de dano.\n\nAtiva: Direciona os lobos para focarem em um inimigo, saltando neles e causando {110/121/132/143/154/165/176/187/198/209}% de dano.\n\nTags: Mascote, Recarga, Dano, Física.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 50%.\nПассивный эффект: вы призываете 2 волков:волков, которые кусают противников, нанося {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% ед. урона.\n\nЭффект при активации: волки бросаются на выбранного противника и наносят ему {110/121/132/143/154/165/176/187/198/209}% ед. урона.\n\nTags: Спутник, Время восстановления, Урон, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n被动: 召唤 2 只狼同伴撕咬敌人, 造成 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% 点伤害。\n\n主动: 标记并指引你的群狼扑咬一名敌人, 造成 {110/121/132/143/154/165/176/187/198/209}% 点伤害。\n\nTags: 同伴, 冷却时间, 伤害, 物理."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n被动: 召唤 2 只狼同伴撕咬敌人, 造成 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% 点伤害。\n\n主动: 标记并指引你的群狼扑咬一名敌人, 造成 {110/121/132/143/154/165/176/187/198/209}% 点伤害。\n\nTags: 同伴, 冷却时间, 伤害, 物理.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:50%\n被動效果:召喚 2 隻惡狼同伴,咬擊敵人造成 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% 點傷害。\n\n主動效果:引導狼群鎖定攻擊一個敵人,撲襲敵人造成 {110/121/132/143/154/165/176/187/198/209}% 點傷害。\n\nTags: 同伴, 冷卻時間, 傷害, 物理."
 },
 		id: 71,
 		maxPoints: 5,
@@ -2847,7 +2995,8 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"plPL": "Wzmocniona Wataha",
 			"ptBR": "Alcateia Aperfeiçoada",
 			"ruRU": "Усиленная волчья стая",
-			"zhCN": "强化狼群"
+			"zhCN": "强化狼群",
+			"zhTW": "強化狼群"
 },
 		descriptionLocalized: {
 			"deDE": "Wölfe fügen bewegungsunfähigen, betäubten, verlangsamten oder vergifteten Gegnern x20% mehr Schaden zu.\n\nTags: Gefährte, Abklingzeit, Schaden, Physisch.",
@@ -2860,7 +3009,8 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"plPL": "Wilki zadają obrażenia zwiększone o x20% unieruchomionym, ogłuszonym, spowolnionym lub zatrutym celom.\n\nTags: Kompan, Odnowienie, Obrażenia, Fizyczne.",
 			"ptBR": "Lobos causam 20% de dano aumentado a inimigos imobilizados, atordoados, desacelerados ou envenenados.\n\nTags: Mascote, Recarga, Dano, Física.",
 			"ruRU": "Волки наносят на x20% больше урона обездвиженным, оглушенным, замедленным или отравленным противникам.\n\nTags: Спутник, Время восстановления, Урон, Физический урон.",
-			"zhCN": "群狼对处于定身、昏迷、减速或中毒状态的敌人造成的伤害提高 x20%。\n\nTags: 同伴, 冷却时间, 伤害, 物理."
+			"zhCN": "群狼对处于定身、昏迷、减速或中毒状态的敌人造成的伤害提高 x20%。\n\nTags: 同伴, 冷却时间, 伤害, 物理.",
+			"zhTW": "狼群對定身、擊昏、緩速或中毒的敵人造成的傷害提高 x20%。\n\nTags: 同伴, 冷卻時間, 傷害, 物理."
 },
 		id: 72,
 		maxPoints: 1,
@@ -2884,7 +3034,8 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"plPL": "Brutalna Wataha",
 			"ptBR": "Alcateia Brutal",
 			"ruRU": "Безжалостная волчья стая",
-			"zhCN": "残忍狼群"
+			"zhCN": "残忍狼群",
+			"zhTW": "殘暴狼群"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen kritischen Treffer erzielt, erhalten Eure Wölfe 3 Sek. lang +20% Angriffsgeschwindigkeit.\n\nTags: Gefährte, Abklingzeit, Schaden, Physisch.",
@@ -2897,7 +3048,8 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"plPL": "Po zadaniu trafienia krytycznego twoje Wilki zyskują premię +20% do szybkości ataku na 3 sek.\n\nTags: Kompan, Odnowienie, Obrażenia, Fizyczne.",
 			"ptBR": "Ao desferir um acerto crítico, seus lobos recebem +20% de velocidade de ataque por 3 segundos.\n\nTags: Mascote, Recarga, Dano, Física.",
 			"ruRU": "Когда вы наносите критический удар, скорость атаки ваших волков повышается на +20% на 3 сек.\n\nTags: Спутник, Время восстановления, Урон, Физический урон.",
-			"zhCN": "造成暴击后, 群狼的攻击速度提高 +20%, 持续 3 秒。\n\nTags: 同伴, 冷却时间, 伤害, 物理."
+			"zhCN": "造成暴击后, 群狼的攻击速度提高 +20%, 持续 3 秒。\n\nTags: 同伴, 冷却时间, 伤害, 物理.",
+			"zhTW": "當你爆擊時,你的狼群獲得 +20% 攻擊速度,持續 3 秒。\n\nTags: 同伴, 冷卻時間, 傷害, 物理."
 },
 		id: 74,
 		maxPoints: 1,
@@ -2921,7 +3073,8 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"plPL": "Zdziczała Wataha",
 			"ptBR": "Alcateia Feroz",
 			"ruRU": "Свирепая волчья стая",
-			"zhCN": "暴躁狼群"
+			"zhCN": "暴躁狼群",
+			"zhTW": "兇猛狼群"
 },
 		descriptionLocalized: {
 			"deDE": "Glücktreffer: Die Angriffe Eurer Wölfe haben eine Chance von bis zu 10%, Euch Stählung in Höhe von 5% Eures Basislebens zu verleihen.\n\nTags: Gefährte, Abklingzeit, Schaden, Physisch.",
@@ -2934,7 +3087,8 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"plPL": "Szczęśliwy traf: Ataki twoich Wilków mają do 10% szans na zapewnienie ci umocnienia równego 5% twojego podstawowego zdrowia.\n\nTags: Kompan, Odnowienie, Obrażenia, Fizyczne.",
 			"ptBR": "Golpe de Sorte: Os ataques de seus lobos têm até 10% de chance de fortificar você em 5% da vida básica.\n\nTags: Mascote, Recarga, Dano, Física.",
 			"ruRU": "Удачный удар: атаки ваших волков с вероятностью до 10% дают вам укрепление в объеме до 5% базового запаса здоровья.\n\nTags: Спутник, Время восстановления, Урон, Физический урон.",
-			"zhCN": "幸运一击: 你的群狼 攻击最多有 10% 几率强固你 5% 基础生命。\n\nTags: 同伴, 冷却时间, 伤害, 物理."
+			"zhCN": "幸运一击: 你的群狼 攻击最多有 10% 几率强固你 5% 基础生命。\n\nTags: 同伴, 冷却时间, 伤害, 物理.",
+			"zhTW": "幸運觸發:你的狼群攻擊最多有 10% 機率賦予你相當於 5% 基礎生命值的強韌。\n\nTags: 同伴, 冷卻時間, 傷害, 物理."
 },
 		id: 73,
 		maxPoints: 1,
@@ -2957,7 +3111,8 @@ Tags: Damage, Crowd Control.`,
 			"plPL": "Zasięg Natury",
 			"ptBR": "Alcance da Natureza",
 			"ruRU": "Власть природы",
-			"zhCN": "自然延伸"
+			"zhCN": "自然延伸",
+			"zhTW": "自然之觸"
 },
 		descriptionLocalized: {
 			"deDE": "Fügt entfernten Gegnern x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden zu. Wenn sie verlangsamt, betäubt, bewegungsunfähig oder zurückgestoßen sind, verdoppelt sich dieser Bonus.\n\nTags: Schaden, Kontrollverlust.",
@@ -2970,7 +3125,8 @@ Tags: Damage, Crowd Control.`,
 			"plPL": "Zadajesz odległym wrogom obrażenia zwiększone o x{3/6/9/12/15/18/21/24/27/30}%. Premia ta jest podwojona w przypadku wrogów spowolnionych, ogłuszonych, unieruchomionych lub odrzuconych.\n\nTags: Obrażenia, Ograniczanie Kontroli.",
 			"ptBR": "Causa {3/6/9/12/15/18/21/24/27/30}% de dano aumentado a inimigos distantes. O bônus é dobrado se eles também estiverem desacelerados, atordoados, imobilizados ou repelidos.\n\nTags: Dano, Controle de Grupo.",
 			"ruRU": "Вы наносите на x{3/6/9/12/15/18/21/24/27/30}% больше урона находящимся вдалеке противникам. Бонус удваивается, если ваша цель замедлена, оглушена, обездвижена или отброшена.\n\nTags: Урон, Контроль.",
-			"zhCN": "对远距敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。如果敌人处于减速、昏迷、定身或击退状态, 则该加成翻倍。\n\nTags: 伤害, 群控."
+			"zhCN": "对远距敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。如果敌人处于减速、昏迷、定身或击退状态, 则该加成翻倍。\n\nTags: 伤害, 群控.",
+			"zhTW": "對遠程敵人造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%。如果敵人也被緩速、擊昏、定身或擊退,則此加成效果加倍。\n\nTags: 傷害, 控場."
 },
 		id: 75,
 		maxPoints: 3,
@@ -2993,7 +3149,8 @@ Tags: Spirit, Shapeshifting.`,
 			"plPL": "Jasność",
 			"ptBR": "Clareza",
 			"ruRU": "Ясность",
-			"zhCN": "明澈"
+			"zhCN": "明澈",
+			"zhTW": "澄明"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet {2/4/6/8/10/12/14/16/18/20} Geisteskraft, wenn Ihr Menschengestalt annehmt.\n\nTags: Geisteskraft, Gestaltwandeln.",
@@ -3006,7 +3163,8 @@ Tags: Spirit, Shapeshifting.`,
 			"plPL": "Kiedy przemieniasz się w człowieka, zyskujesz {2/4/6/8/10/12/14/16/18/20} pkt. siły duchowej.\n\nTags: Siła Duchowa, Zmiennokształtność.",
 			"ptBR": "Recebe {2/4/6/8/10/12/14/16/18/20} de espírito ao se transformar em forma humana.\n\nTags: Espírito, Metamorfose.",
 			"ruRU": "Принимая облик человека, вы накапливаете {2/4/6/8/10/12/14/16/18/20} ед. духа.\n\nTags: Дух, Смена облика.",
-			"zhCN": "变成人类形态时获得 {2/4/6/8/10/12/14/16/18/20} 点灵力。\n\nTags: 灵力, 变形."
+			"zhCN": "变成人类形态时获得 {2/4/6/8/10/12/14/16/18/20} 点灵力。\n\nTags: 灵力, 变形.",
+			"zhTW": "變回人類形態時獲得 {2/4/6/8/10/12/14/16/18/20} 點靈力。\n\nTags: 靈力, 變形."
 },
 		id: 76,
 		maxPoints: 3,
@@ -3032,7 +3190,8 @@ Tags: Vulnerable, Lucky Hit, Storm, Nature Magic.`,
 			"plPL": "Potęga Żywiołów",
 			"ptBR": "Exposição Elemental",
 			"ruRU": "Сила стихий",
-			"zhCN": "元素易伤"
+			"zhCN": "元素易伤",
+			"zhTW": "元素暴露"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Eure Sturmfertigkeiten verfügen über eine Chance von 10%, Gegner {1/2/3/4/5/6/7/8/9/10} Sek. lang verwundbar zu machen.\n\nTags: Verwundbar, Glückstreffer, Sturm, Naturmagie.",
@@ -3045,7 +3204,8 @@ Tags: Vulnerable, Lucky Hit, Storm, Nature Magic.`,
 			"plPL": "Szczęśliwy traf: Twoje umiejętności Burzy mają 10% szans na odsłonięcie wrogów na {1/2/3/4/5/6/7/8/9/10} sek.\n\nTags: Odsłonięcie, Szczęśliwy Traf, Burza, Magia Natury.",
 			"ptBR": "Golpe de Sorte: Suas habilidades de Tempestade têm até 10% de chance de tornar os inimigos vulneráveis por {1/2/3/4/5/6/7/8/9/10} segundos.\n\nTags: Vulnerável, Golpe de Sorte, Tempestade, Magia da Natureza.",
 			"ruRU": "Удачный удар: ваши умения бури с вероятностью 10% делают противников уязвимыми на {1/2/3/4/5/6/7/8/9/10} сек.\n\nTags: Уязвимость, Удачный удар, Буря, Силы природы.",
-			"zhCN": "幸运一击: 你的风暴技能最多有 10% 几率使敌人陷入易伤状态, 持续 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 易伤, 幸运一击, 风暴, 自然魔法."
+			"zhCN": "幸运一击: 你的风暴技能最多有 10% 几率使敌人陷入易伤状态, 持续 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 易伤, 幸运一击, 风暴, 自然魔法.",
+			"zhTW": "幸運觸發:你的暴風技能最高有 10% 機率使敵人易傷,持續 {1/2/3/4/5/6/7/8/9/10} 秒。\n\nTags: 易傷, 幸運觸發, 風暴, 自然魔法."
 },
 		id: 80,
 		maxPoints: 3,
@@ -3068,7 +3228,8 @@ Tags: Storm, Nature Magic, Damage, Lightning.`,
 			"plPL": "Naelektryzowana Atmosfera",
 			"ptBR": "Atmosfera Carregada",
 			"ruRU": "Атмосферное напряжение",
-			"zhCN": "空气电场"
+			"zhCN": "空气电场",
+			"zhTW": "蓄電大氣"
 },
 		descriptionLocalized: {
 			"deDE": "Alle {18/15/12/9/6/3/0/-3/-6/-9} Sek. trifft ein Blitzschlag einen Gegner in der Nähe und verursacht 45% Schaden.\n\nTags: Sturm, Naturmagie, Schaden, Blitz.",
@@ -3081,7 +3242,8 @@ Tags: Storm, Nature Magic, Damage, Lightning.`,
 			"plPL": "Co {18/15/12/9/6/3/0/-3/-6/-9} sek. Uderzenie Błyskawicy razi pobliskiego wroga i zadaje mu 45% pkt. obrażeń.\n\nTags: Burza, Magia Natury, Obrażenia, Błyskawica.",
 			"ptBR": "A cada {18/15/12/9/6/3/0/-3/-6/-9} segundos, um Raio atinge um inimigo próximo, causando 45% de dano.\n\nTags: Tempestade, Magia da Natureza, Dano, Eletricidade.",
 			"ruRU": "Раз в {18/15/12/9/6/3/0/-3/-6/-9} сек. ближайшего противника поражает разряд молнии, наносящий 45% ед. урона.\n\nTags: Буря, Силы природы, Урон, Молния.",
-			"zhCN": "每隔 {18/15/12/9/6/3/0/-3/-6/-9} 秒对附近的敌人射出一支闪电箭, 造成 45% 点伤害。\n\nTags: 风暴, 自然魔法, 伤害, 闪电."
+			"zhCN": "每隔 {18/15/12/9/6/3/0/-3/-6/-9} 秒对附近的敌人射出一支闪电箭, 造成 45% 点伤害。\n\nTags: 风暴, 自然魔法, 伤害, 闪电.",
+			"zhTW": "每 {18/15/12/9/6/3/0/-3/-6/-9} 秒會以閃電擊中一名附近的敵人,造成 45% 點傷害。\n\nTags: 風暴, 自然魔法, 傷害, 電擊."
 },
 		id: 81,
 		maxPoints: 3,
@@ -3106,7 +3268,8 @@ Tags: Crowd Control, Lightning, Lucky Hit, Damage.`,
 			"plPL": "Porażenie Prądem",
 			"ptBR": "Choque Elétrico",
 			"ruRU": "Электрошок",
-			"zhCN": "电能冲击"
+			"zhCN": "电能冲击",
+			"zhTW": "電擊"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Wenn Ihr Gegnern Blitzschaden zufügt, besteht eine Chance von bis zu {5/10/15/20/25/30/35/40/45/50}%, sie 3 Sek. lang bewegungsunfähig zu machen.\n\nWenn das Ziel bereits bewegungsunfähig ist, erhöht sich sein erlittener Blitzschaden stattdessen um x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Kontrollverlust, Blitz, Glückstreffer, Schaden.",
@@ -3119,7 +3282,8 @@ Tags: Crowd Control, Lightning, Lucky Hit, Damage.`,
 			"plPL": "Szczęśliwy traf: Zadawanie wrogom obrażeń od Błyskawic ma maksymalnie {5/10/15/20/25/30/35/40/45/50}% szans na unieruchomienie ich na 3 sek.\n\nJeżeli cel jest już unieruchomiony, zadawane mu obrażenia od Błyskawic są zwiększone o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Ograniczanie Kontroli, Błyskawica, Szczęśliwy Traf, Obrażenia.",
 			"ptBR": "Golpe de Sorte: Causar dano elétrico a inimigos tem até {5/10/15/20/25/30/35/40/45/50}% de chance de imobilizá-los por 3 segundos.\n\nSe o alvo já estiver imobilizado, o dano elétrico recebido por ele é aumentado em {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Controle de Grupo, Eletricidade, Golpe de Sorte, Dano.",
 			"ruRU": "Удачный удар: когда вы наносите противникам урон от молнии, вы с вероятностью до {5/10/15/20/25/30/35/40/45/50}% обездвиживаете их на 3 сек.\n\nЕсли цель уже обездвижена, наносимый ей урон от молнии увеличивается на x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Контроль, Молния, Удачный удар, Урон.",
-			"zhCN": "幸运一击: 对敌人造成闪电伤害最多有 {5/10/15/20/25/30/35/40/45/50}% 几率使其定身 3 秒。\n\n如果目标已经处于定身状态, 则对其造成的闪电伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 群控, 闪电, 幸运一击, 伤害."
+			"zhCN": "幸运一击: 对敌人造成闪电伤害最多有 {5/10/15/20/25/30/35/40/45/50}% 几率使其定身 3 秒。\n\n如果目标已经处于定身状态, 则对其造成的闪电伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 群控, 闪电, 幸运一击, 伤害.",
+			"zhTW": "幸運觸發:對敵人造成電擊傷害有最多 {5/10/15/20/25/30/35/40/45/50}% 的機率使他們定身,持續 3 秒。\n\n如目標已被定身,對目標造成的電擊傷害則會提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 控場, 電擊, 幸運觸發, 傷害."
 },
 		id: 82,
 		maxPoints: 3,
@@ -3142,7 +3306,8 @@ Tags: Vulnerable, Lightning, Damage, Nature Magic, Storm, Lucky Hit, Crowd Contr
 			"plPL": "Zły Omen",
 			"ptBR": "Mau Presságio",
 			"ruRU": "Дурное знамение",
-			"zhCN": "恶兆"
+			"zhCN": "恶兆",
+			"zhTW": "不祥之兆"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Wenn Ihr einem verwundbaren, bewegungsunfähigen oder betäubten Gegner Schaden zufügt, besteht eine Chance von bis zu {10/20/30/40/50/60/70/80/90/100}%, dass ihn auch ein Blitzschlag trifft und ihm 55% Schaden zufügt.\n\nTags: Verwundbar, Blitz, Schaden, Naturmagie, Sturm, Glückstreffer, Kontrollverlust.",
@@ -3155,7 +3320,8 @@ Tags: Vulnerable, Lightning, Damage, Nature Magic, Storm, Lucky Hit, Crowd Contr
 			"plPL": "Szczęśliwy traf: Przy zranieniu odsłoniętego, unieruchomionego lub ogłuszonego wroga masz {10/20/30/40/50/60/70/80/90/100}% szans na wywołanie Uderzenia Błyskawicy, które zada 55% pkt. obrażeń.\n\nTags: Odsłonięcie, Błyskawica, Obrażenia, Magia Natury, Burza, Szczęśliwy Traf, Ograniczanie Kontroli.",
 			"ptBR": "Golpe de Sorte: Ao causar dano a inimigos vulneráveis, imobilizados ou atordoados, tem até {10/20/30/40/50/60/70/80/90/100}% de chance de também os atingir com um Raio, causando 55% de dano.\n\nTags: Vulnerável, Eletricidade, Dano, Magia da Natureza, Tempestade, Golpe de Sorte, Controle de Grupo.",
 			"ruRU": "Удачный удар: когда вы поражаете уязвимого, обездвиженного или оглушенного противника, с вероятностью {10/20/30/40/50/60/70/80/90/100}% создается разряд молнии, наносящий 55% ед. урона.\n\nTags: Уязвимость, Молния, Урон, Силы природы, Буря, Удачный удар, Контроль.",
-			"zhCN": "幸运一击: 对处于易伤、定身或昏迷状态的敌人造成伤害时, 最多有 {10/20/30/40/50/60/70/80/90/100}% 几率对其射出一支闪电箭, 造成 55% 点伤害。\n\nTags: 易伤, 闪电, 伤害, 自然魔法, 风暴, 幸运一击, 群控."
+			"zhCN": "幸运一击: 对处于易伤、定身或昏迷状态的敌人造成伤害时, 最多有 {10/20/30/40/50/60/70/80/90/100}% 几率对其射出一支闪电箭, 造成 55% 点伤害。\n\nTags: 易伤, 闪电, 伤害, 自然魔法, 风暴, 幸运一击, 群控.",
+			"zhTW": "幸運觸發:對易傷、定身或昏迷的敵人造成傷害時,最多有 {10/20/30/40/50/60/70/80/90/100}% 機率觸發閃電,命中時造成 55% 點傷害。\n\nTags: 易傷, 電擊, 傷害, 自然魔法, 風暴, 幸運觸發, 控場."
 },
 		id: 83,
 		maxPoints: 3,
@@ -3178,7 +3344,8 @@ Tags: Damage.`,
 			"plPL": "Wiekuista Nawałnica",
 			"ptBR": "Tormenta Infinita",
 			"ruRU": "Нескончаемый ураган",
-			"zhCN": "无尽风暴"
+			"zhCN": "无尽风暴",
+			"zhTW": "無盡風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht die Dauer von Hurrikan und Kataklysmus um x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Schaden.",
@@ -3191,7 +3358,8 @@ Tags: Damage.`,
 			"plPL": "Czas działania Huraganu oraz Kataklizmu jest wydłużony o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Obrażenia.",
 			"ptBR": "Aumenta a duração de Furacão e Cataclismo em {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Dano.",
 			"ruRU": "Время действия \"Урагана\" и \"Катаклизма\" увеличивается на x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Урон.",
-			"zhCN": "飓风和浩劫的持续时间延长 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害."
+			"zhCN": "飓风和浩劫的持续时间延长 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害.",
+			"zhTW": "颶風術與災變的持續時間延長 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 傷害."
 },
 		id: 84,
 		maxPoints: 3,
@@ -3216,7 +3384,8 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Głaz",
 			"ptBR": "Rochedo",
 			"ruRU": "Глыба",
-			"zhCN": "滚石"
+			"zhCN": "滚石",
+			"zhTW": "巨石"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 4%\nBringt einen großen Felsbrocken ins Rollen, der Gegner mehrfach zurückstößt und ihnen mit jedem Treffer {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
@@ -3229,7 +3398,8 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 4%\nWydobywasz z ziemi wielki, toczący się głaz, który wielokrotnie odrzuca wrogów, zadając im przy każdym trafieniu {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 4%\nDesenterra um grande rochedo rolante que repele inimigos várias vezes, causando {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano a cada acerto.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 4%\nПоднимает из-под земли огромный валун, который катится вперед и непрерывно отбрасывает противников, нанося им {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона каждым ударом.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#}秒\n幸运一击几率: 4%\n挖出一块巨大的滚石不断击退敌人, 每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控."
+			"zhCN": "冷却时间: {#}秒\n幸运一击几率: 4%\n挖出一块巨大的滚石不断击退敌人, 每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:4%\n挖出一顆滾動巨石,不斷擊退敵人,每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 85,
 		maxPoints: 5,
@@ -3254,7 +3424,8 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Wzmocniony Głaz",
 			"ptBR": "Rochedo Aperfeiçoado",
 			"ruRU": "Усиленная глыба",
-			"zhCN": "强化滚石"
+			"zhCN": "强化滚石",
+			"zhTW": "強化巨石"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Felsbrocken das Ende seines Pfads erreicht, werden getroffene Gegner 3 Sek. lang um 30% verlangsamt. Falls Felsbrocken überwältigt, werden Gegner stattdessen 4 Sek. lang betäubt.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
@@ -3267,7 +3438,8 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Kiedy Głaz dociera do końca swojej drogi, trafieni wrogowie zostają spowolnieni o 30% na 3 sek. Jeśli Głaz przytłoczy wrogów, zostaną zamiast tego ogłuszeni na 4 sek.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Quando Rochedo chega ao final da sua trajetória, os inimigos atingidos são desacelerados em 30% por 3 segundos. Se Rochedo desferir Golpe Brutal, os inimigos são atordoados por 4 segundos em vez disso.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Когда \"Глыба\" достигает конца пути, пораженные противники замедляются на 30% на 3 сек. Если \"Глыба\" наносит подавляющий урон, вместо этого противники оглушаются на 4 сек.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "滚石达到路径终点时, 被命中的敌人会被减速 30%, 持续 3 秒。如果滚石压制了目标, 则敌人会被击晕 4 秒。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控."
+			"zhCN": "滚石达到路径终点时, 被命中的敌人会被减速 30%, 持续 3 秒。如果滚石压制了目标, 则敌人会被击晕 4 秒。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "巨石抵達路徑終點時,其擊中的敵人會緩速 30%,持續 3 秒。若巨石有壓制效果,則敵人改為昏迷 4 秒。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 86,
 		maxPoints: 1,
@@ -3291,7 +3463,8 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Naturalny Głaz",
 			"ptBR": "Rochedo Natural",
 			"ruRU": "Природная глыба",
-			"zhCN": "自然滚石"
+			"zhCN": "自然滚石",
+			"zhTW": "自然巨石"
 },
 		descriptionLocalized: {
 			"deDE": "Während Ihr über Stählung verfügt, ist die kritische Trefferchance von Felsbrocken um +20% erhöht.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
@@ -3304,7 +3477,8 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Kiedy masz umocnienie, szansa na trafienie krytyczne Głazem jest zwiększona o +20%.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Enquanto você tem qualquer fortificação, Rochedo tem +20% de chance de acerto crítico aumentada.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Пока у вас есть эффект укрепления, вероятность критического эффекта \"Глыбы\" повышается на +20%.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "当你拥有任意强固效果时, 滚石的暴击几率提高 +20%。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控."
+			"zhCN": "当你拥有任意强固效果时, 滚石的暴击几率提高 +20%。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "當你有強韌效果時,巨石的爆擊機率提高 +20%。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 87,
 		maxPoints: 1,
@@ -3328,7 +3502,8 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Okrutny Głaz",
 			"ptBR": "Rochedo Selvagem",
 			"ruRU": "Неистовая глыба",
-			"zhCN": "野蛮滚石"
+			"zhCN": "野蛮滚石",
+			"zhTW": "野蠻巨石"
 },
 		descriptionLocalized: {
 			"deDE": "Die kritische Trefferchance von Felsbrocken erhöht sich jedes Mal, wenn er Schaden verursacht, um +3%.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
@@ -3341,7 +3516,8 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"plPL": "Szansa na trafienie krytyczne Głazu jest zwiększona o +3% za każde zadanie nim obrażeń.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "A chance de acerto crítico de Rochedo é aumentada em +3% sempre que causa dano.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Вероятность критического эффекта \"Глыбы\" повышается на +3%, когда она наносит урон.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "滚石每次造成伤害时, 其暴击几率提高 +3%。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控."
+			"zhCN": "滚石每次造成伤害时, 其暴击几率提高 +3%。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "巨石每次造成傷害時,其爆擊機率提高 +3%。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 88,
 		maxPoints: 1,
@@ -3368,7 +3544,8 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"plPL": "Tratowanie",
 			"ptBR": "Atropelo",
 			"ruRU": "Тяжелый шаг",
-			"zhCN": "践踏"
+			"zhCN": "践踏",
+			"zhTW": "踐踏"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 20%\nVerwandelt Euch in einen Werbären und werdet unaufhaltsam. Ihr stürmt nach vorn, verursacht {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% Schaden und stoßt Gegner zurück.\n\nGegner, die in Terrain gestoßen werden, erleiden zusätzlich {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% Schaden und sind 3 Sek. lang betäubt.\n\nTags: Zorn, Gestaltwandeln, Werbär, Unaufhaltsam, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
@@ -3381,7 +3558,8 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 20%\nPrzemieniasz się w niedźwiedziołaka, zyskujesz nieustępliwość i szarżujesz na wrogów, zadając im {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% pkt. obrażeń oraz ich odrzucając.\n\nOdrzuceni wrogowie, którzy zderzą się z przeszkodami terenu, otrzymują dodatkowo {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% pkt. obrażeń i zostają ogłuszeni na 3 sek.\n\nTags: Gniew, Zmiennokształtność, Niedźwiedziołak, Nieustępliwość, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 20%\nTransforma-se em um urso, torna-se implacável e avança, causando {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de dano e repelindo inimigos.\n\nInimigos repelidos ao chão recebem {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de dano adicional e ficam atordoados por 3 segundos.\n\nTags: Ira, Metamorfose, Urso, Implacável, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 20%.\nВы принимаете облик медведя, получаете неудержимость и устремляетесь вперед, нанося {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% ед. урона и отбрасывая противников.\n\nПри столкновении с препятствиями отброшенные противники получают {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% ед. урона и оглушаются на 3 сек.\n\nTags: Гнев, Смена облика, Медведь, Неудержимость, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n变成不可阻挡的熊人并向前冲锋, 造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害并将敌人击退。\n\n被击退到地形上的敌人将额外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 点伤害并昏迷 3 秒。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n变成不可阻挡的熊人并向前冲锋, 造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害并将敌人击退。\n\n被击退到地形上的敌人将额外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 点伤害并昏迷 3 秒。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:20%\n變身為熊人,進入無阻狀態並向前衝鋒,造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 點傷害並擊退敵人。\n\n敵人被擊退撞到地形時,會額外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 點傷害並被擊昏 3 秒。\n\nTags: 憤怒, 變形, 熊人, 無阻, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 89,
 		maxPoints: 5,
@@ -3406,7 +3584,8 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"plPL": "Wzmocnione Tratowanie",
 			"ptBR": "Atropelo Aperfeiçoado",
 			"ruRU": "Усиленный тяжелый шаг",
-			"zhCN": "强化践踏"
+			"zhCN": "强化践踏",
+			"zhTW": "強化踐踏"
 },
 		descriptionLocalized: {
 			"deDE": "Niedertrampeln fügt x150% Bonusschaden zu. Dieser Bonus wird für jeden getroffenen Gegner nach dem ersten Ziel um x50% reduziert.\n\nTags: Zorn, Gestaltwandeln, Werbär, Unaufhaltsam, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
@@ -3419,7 +3598,8 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"plPL": "Tratowanie zadaje x150% dodatkowych obrażeń. Premia jest obniżona o x50% za każdego kolejnego trafionego wroga.\n\nTags: Gniew, Zmiennokształtność, Niedźwiedziołak, Nieustępliwość, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Atropelo causa 150% de bônus de dano. Esse bônus é reduzido em 50% a cada inimigo atingido após o primeiro.\n\nTags: Ira, Metamorfose, Urso, Implacável, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "\"Тяжелый шаг\" наносит на x150% больше урона. Прибавка к урону уменьшается на x50% за каждого пораженного противника после первого.\n\nTags: Гнев, Смена облика, Медведь, Неудержимость, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "践踏造成的伤害提高 x150%。在首次命中后, 每命中一名敌人都会使该加成降低 x50%。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控."
+			"zhCN": "践踏造成的伤害提高 x150%。在首次命中后, 每命中一名敌人都会使该加成降低 x50%。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "踐踏造成 x150% 額外傷害。在擊中第一個敵人之後,每個敵人使此額外傷害降低 x50%。\n\nTags: 憤怒, 變形, 熊人, 無阻, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 90,
 		maxPoints: 1,
@@ -3443,7 +3623,8 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"plPL": "Naturalne Tratowanie",
 			"ptBR": "Atropelo Natural",
 			"ruRU": "Природный тяжелый шаг",
-			"zhCN": "自然践踏"
+			"zhCN": "自然践踏",
+			"zhTW": "自然踐踏"
 },
 		descriptionLocalized: {
 			"deDE": "Der Einsatz von Niedertrampeln verleiht Euch 20% Eures Basislebens als Stählung.\n\nTags: Zorn, Gestaltwandeln, Werbär, Unaufhaltsam, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
@@ -3456,7 +3637,8 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"plPL": "Użycie Tratowania zapewnia 20% podstawowego zdrowia w postaci umocnienia.\n\nTags: Gniew, Zmiennokształtność, Niedźwiedziołak, Nieustępliwość, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Lançar Atropelo concede 20% de vida básica como fortificação.\n\nTags: Ira, Metamorfose, Urso, Implacável, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "\"Тяжелый шаг\" дает вам укрепление в объеме 20% базового запаса здоровья.\n\nTags: Гнев, Смена облика, Медведь, Неудержимость, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "施放践踏强固你 20% 基础生命。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控."
+			"zhCN": "施放践踏强固你 20% 基础生命。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "施放踐踏可賦予你相當於 20% 基礎生命值的強韌。\n\nTags: 憤怒, 變形, 熊人, 無阻, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 91,
 		maxPoints: 1,
@@ -3480,7 +3662,8 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"plPL": "Okrutne Tratowanie",
 			"ptBR": "Atropelo Selvagem",
 			"ruRU": "Неистовый тяжелый шаг",
-			"zhCN": "野蛮践踏"
+			"zhCN": "野蛮践踏",
+			"zhTW": "野蠻踐踏"
 },
 		descriptionLocalized: {
 			"deDE": "Das Wirken von Niedertrampeln verleiht 20 Geisteskraft.\n\nTags: Zorn, Gestaltwandeln, Werbär, Unaufhaltsam, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
@@ -3493,7 +3676,8 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"plPL": "Użycie Tratowania zapewnia 20 pkt. siły duchowej.\n\nTags: Gniew, Zmiennokształtność, Niedźwiedziołak, Nieustępliwość, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Lançar Atropelo concede 20 de espírito.\n\nTags: Ira, Metamorfose, Urso, Implacável, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "\"Тяжелый шаг\" позволяет накопить 20 ед. духа.\n\nTags: Гнев, Смена облика, Медведь, Неудержимость, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "施放践踏获得 20 点灵力。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控."
+			"zhCN": "施放践踏获得 20 点灵力。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "施放踐踏會獲得 20 點靈力。\n\nTags: 憤怒, 變形, 熊人, 無阻, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 92,
 		maxPoints: 1,
@@ -3516,7 +3700,8 @@ Tags: Damage, Crowd Control, Earth, Nature Magic.`,
 			"plPL": "Miażdżąca Ziemia",
 			"ptBR": "Terra Esmagadora",
 			"ruRU": "Сокрушающая земля",
-			"zhCN": "破碎大地"
+			"zhCN": "破碎大地",
+			"zhTW": "粉碎大地"
 },
 		descriptionLocalized: {
 			"deDE": "Erdfertigkeiten fügen verlangsamten, betäubten, bewegungsunfähigen oder zurückgestoßenen Gegnern x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden zu.\n\nTags: Schaden, Kontrollverlust, Erde, Naturmagie.",
@@ -3529,7 +3714,8 @@ Tags: Damage, Crowd Control, Earth, Nature Magic.`,
 			"plPL": "Twoje umiejętności Ziemi zadają obrażenia zwiększone o x{5/10/15/20/25/30/35/40/45/50}% wrogom, którzy zostali spowolnieni, ogłuszeni, unieruchomieni lub odrzuceni.\n\nTags: Obrażenia, Ograniczanie Kontroli, Ziemia, Magia Natury.",
 			"ptBR": "Habilidades de Terra causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado a inimigos desacelerados, atordoados, imobilizados ou repelidos.\n\nTags: Dano, Controle de Grupo, Terra, Magia da Natureza.",
 			"ruRU": "Умения земли наносят на x{5/10/15/20/25/30/35/40/45/50}% больше урона замедленным, оглушенным, обездвиженным или отброшенным противникам.\n\nTags: Урон, Контроль, Земля, Силы природы.",
-			"zhCN": "大地技能对减速、昏迷、定身或击退的敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害, 群控, 大地, 自然魔法."
+			"zhCN": "大地技能对减速、昏迷、定身或击退的敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害, 群控, 大地, 自然魔法.",
+			"zhTW": "大地技能對被緩速、擊昏、定身或擊退的敵人造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 傷害, 控場, 大地, 自然魔法."
 },
 		id: 93,
 		maxPoints: 3,
@@ -3552,7 +3738,8 @@ Tags: Fortify, Critical Strikes, Earth, Nature Magic.`,
 			"plPL": "Opieka",
 			"ptBR": "Salvaguarda",
 			"ruRU": "Защитные меры",
-			"zhCN": "护卫"
+			"zhCN": "护卫",
+			"zhTW": "安全守護"
 },
 		descriptionLocalized: {
 			"deDE": "Kritische Treffer mit Erdfertigkeiten verleihen Euch Stählung in Höhe von {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}% Eures Basislebens.\n\nTags: Stählung, Kritische Treffer, Erde, Naturmagie.",
@@ -3565,7 +3752,8 @@ Tags: Fortify, Critical Strikes, Earth, Nature Magic.`,
 			"plPL": "Trafienie krytyczne wroga z użyciem umiejętności Ziemi zapewnia umocnienie równe {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}% podstawowego zdrowia.\n\nTags: Umocnienie, Trafienia Krytyczne, Ziemia, Magia Natury.",
 			"ptBR": "Acertos críticos com habilidades de Terra fortificam você em {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}% da vida básica.\n\nTags: Fortificação, Acertos Críticos, Terra, Magia da Natureza.",
 			"ruRU": "Критические удары умениями земли дают укрепление в объеме {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}% базового запаса здоровья.\n\nTags: Укрепление, Критические удары, Земля, Силы природы.",
-			"zhCN": "使用大地技能造成暴击可以强固你 {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}% 基础生命。\n\nTags: 强固, 暴击, 大地, 自然魔法."
+			"zhCN": "使用大地技能造成暴击可以强固你 {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}% 基础生命。\n\nTags: 强固, 暴击, 大地, 自然魔法.",
+			"zhTW": "以大地技能造成爆擊時,會賦予你相當於 {2.2/4.4/6.6/8.8/11/13.2/15.4/17.6/19.8/22}% 基礎生命值的強韌。\n\nTags: 強韌, 爆擊, 大地, 自然魔法."
 },
 		id: 94,
 		maxPoints: 3,
@@ -3588,7 +3776,8 @@ Tags: Fortify, Damage, Life, Earth, Nature Magic.`,
 			"plPL": "Kamienny Strażnik",
 			"ptBR": "Guarda Pétreo",
 			"ruRU": "Каменный страж",
-			"zhCN": "石土之御"
+			"zhCN": "石土之御",
+			"zhTW": "石衛士"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Ihr um mindestens 50% Eures maximalen Lebens gestählt seid, verursachen Eure Erdfertigkeiten x{4/8/12/16/20/24/28/32/36/40}% mehr Schaden.\n\nTags: Stählung, Schaden, Leben, Erde, Naturmagie.",
@@ -3601,7 +3790,8 @@ Tags: Fortify, Damage, Life, Earth, Nature Magic.`,
 			"plPL": "Kiedy masz umocnienie równe ponad 50% maksymalnego zdrowia, twoje umiejętności Ziemi zadają obrażenia zwiększone o x{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Umocnienie, Obrażenia, Zdrowie, Ziemia, Magia Natury.",
 			"ptBR": "Enquanto tiver fortificação em mais de 50% da sua vida máxima, suas habilidades de Terra causam {4/8/12/16/20/24/28/32/36/40}% de dano aumentado.\n\nTags: Fortificação, Dano, Vida, Terra, Magia da Natureza.",
 			"ruRU": "Пока ваш показатель укрепления превышает 50% максимального запаса здоровья, ваши умения земли наносят на x{4/8/12/16/20/24/28/32/36/40}% больше урона.\n\nTags: Укрепление, Урон, Здоровье, Земля, Силы природы.",
-			"zhCN": "当你获得的强固超过 50% 生命上限时, 你的大地技能造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 强固, 伤害, 生命, 大地, 自然魔法."
+			"zhCN": "当你获得的强固超过 50% 生命上限时, 你的大地技能造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 强固, 伤害, 生命, 大地, 自然魔法.",
+			"zhTW": "當你的強韌高於生命值上限的 50% 時,你的大地技能造成的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 強韌, 傷害, 生命值, 大地, 自然魔法."
 },
 		id: 95,
 		maxPoints: 3,
@@ -3626,7 +3816,8 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"plPL": "Huragan",
 			"ptBR": "Furacão",
 			"ruRU": "Ураган",
-			"zhCN": "飓风"
+			"zhCN": "飓风",
+			"zhTW": "颶風術"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 21.48%\nBildet einen Hurrikan um Euch herum, der Gegnern in der Nähe im Verlauf von 8 Sek. {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Sturm, Physisch, Schaden, Abklingzeit.",
@@ -3639,7 +3830,8 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 21.48%\nTworzysz wokół siebie huragan, który zadaje {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% pkt. obrażeń wrogom wokół w ciągu 8 sek.\n\nTags: Gniew, Magia Natury, Burza, Fizyczne, Obrażenia, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 21.48%\nForma um furacão ao seu redor que causa {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% de dano a inimigos ao redor ao longo de 8 segundos.\n\nTags: Ira, Magia da Natureza, Tempestade, Física, Dano, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 21.48%.\nВы создаете вокруг себя ураган, наносящий противникам {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% ед. урона за 8 сек.\n\nTags: Гнев, Силы природы, Буря, Физический урон, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 21.48%\n在你的身边生成一道飓风, 在 8 秒内对周围的敌人造成 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% 点伤害。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 21.48%\n在你的身边生成一道飓风, 在 8 秒内对周围的敌人造成 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% 点伤害。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:21.48%\n生成颶風環繞你周圍,在 8 秒內對附近的敵人造成 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% 點傷害。\n\nTags: 憤怒, 自然魔法, 風暴, 物理, 傷害, 冷卻時間."
 },
 		id: 99,
 		maxPoints: 5,
@@ -3664,7 +3856,8 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"plPL": "Wzmocniony Huragan",
 			"ptBR": "Furacão Aperfeiçoado",
 			"ruRU": "Усиленный ураган",
-			"zhCN": "强化飓风"
+			"zhCN": "强化飓风",
+			"zhTW": "強化颶風術"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die durch Hurrikan Schaden erleiden, werden 2 Sek. lang um 25% verlangsamt.\n\nTags: Zorn, Naturmagie, Sturm, Physisch, Schaden, Abklingzeit.",
@@ -3677,7 +3870,8 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"plPL": "Wrogowie zranieni przez Huragan są spowolnieni o 25% na 2 sek.\n\nTags: Gniew, Magia Natury, Burza, Fizyczne, Obrażenia, Odnowienie.",
 			"ptBR": "Inimigos atingidos por Furacão são desacelerados em 25% por 2 segundos.\n\nTags: Ira, Magia da Natureza, Tempestade, Física, Dano, Recarga.",
 			"ruRU": "Противники, получившие урон от \"Урагана\", замедляются на 25% на 2 сек.\n\nTags: Гнев, Силы природы, Буря, Физический урон, Урон, Время восстановления.",
-			"zhCN": "飓风命中敌人时会使其减速 25%, 持续 2 秒。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间."
+			"zhCN": "飓风命中敌人时会使其减速 25%, 持续 2 秒。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间.",
+			"zhTW": "被颶風術傷害的敵人會緩速 25%,持續 2 秒。\n\nTags: 憤怒, 自然魔法, 風暴, 物理, 傷害, 冷卻時間."
 },
 		id: 100,
 		maxPoints: 1,
@@ -3701,7 +3895,8 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"plPL": "Naturalny Huragan",
 			"ptBR": "Furacão Natural",
 			"ruRU": "Природный ураган",
-			"zhCN": "自然飓风"
+			"zhCN": "自然飓风",
+			"zhTW": "自然颶風術"
 },
 		descriptionLocalized: {
 			"deDE": "Hurrikan verfügt über eine Chance von 15%, Gegner 3 Sek. lang verwundbar zu machen.\n\nTags: Zorn, Naturmagie, Sturm, Physisch, Schaden, Abklingzeit.",
@@ -3714,7 +3909,8 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"plPL": "Huragan ma 15% szans na odsłonięcie wrogów na 3 sek.\n\nTags: Gniew, Magia Natury, Burza, Fizyczne, Obrażenia, Odnowienie.",
 			"ptBR": "Furacão tem 15% de chance de tornar os inimigos vulneráveis por 3 segundos.\n\nTags: Ira, Magia da Natureza, Tempestade, Física, Dano, Recarga.",
 			"ruRU": "\"Ураган\" с вероятностью 15% делает противников уязвимыми на 3 сек.\n\nTags: Гнев, Силы природы, Буря, Физический урон, Урон, Время восстановления.",
-			"zhCN": "飓风有 15% 几率使敌人陷入易伤状态, 持续 3 秒。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间."
+			"zhCN": "飓风有 15% 几率使敌人陷入易伤状态, 持续 3 秒。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间.",
+			"zhTW": "颶風術有 15% 機率使敵人易傷,持續 3 秒。\n\nTags: 憤怒, 自然魔法, 風暴, 物理, 傷害, 冷卻時間."
 },
 		id: 101,
 		maxPoints: 1,
@@ -3738,7 +3934,8 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"plPL": "Okrutny Huragan",
 			"ptBR": "Furado Selvagem",
 			"ruRU": "Неистовый ураган",
-			"zhCN": "野蛮飓风"
+			"zhCN": "野蛮飓风",
+			"zhTW": "野蠻颶風術"
 },
 		descriptionLocalized: {
 			"deDE": "Von Hurrikan betroffene Gegner verursachen 20% weniger Schaden.\n\nTags: Zorn, Naturmagie, Sturm, Physisch, Schaden, Abklingzeit.",
@@ -3751,7 +3948,8 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"plPL": "Wrogowie objęci działaniem Huraganu zadają obrażenia zmniejszone o 20%.\n\nTags: Gniew, Magia Natury, Burza, Fizyczne, Obrażenia, Odnowienie.",
 			"ptBR": "Inimigos afetados por Furacão causam 20% de dano reduzido.\n\nTags: Ira, Magia da Natureza, Tempestade, Física, Dano, Recarga.",
 			"ruRU": "Противники под действием \"Урагана\" наносят на x20% меньше урона.\n\nTags: Гнев, Силы природы, Буря, Физический урон, Урон, Время восстановления.",
-			"zhCN": "受飓风影响的敌人造成的伤害降低 20%。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间."
+			"zhCN": "受飓风影响的敌人造成的伤害降低 20%。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间.",
+			"zhTW": "受颶風術影響的敵人造成的傷害降低 20%。\n\nTags: 憤怒, 自然魔法, 風暴, 物理, 傷害, 冷卻時間."
 },
 		id: 102,
 		maxPoints: 1,
@@ -3778,7 +3976,8 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"plPL": "Wścieklizna",
 			"ptBR": "Raiva",
 			"ruRU": "Звериное бешенство",
-			"zhCN": "狂犬撕咬"
+			"zhCN": "狂犬撕咬",
+			"zhTW": "狂犬撕咬"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 50%\nVerwandelt Euch in einen Werwolf und fügt dem Ziel mit einem infektiösen Biss {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% Schaden zu und verursacht zusätzlich {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% Giftschaden im Verlauf von 6 Sek.\n\nInfizierte Gegner verbreiten Tollwut auf andere Ziele in der Nähe.\n\nTags: Zorn, Gestaltwandeln, Werwolf, Gift, Schaden, Abklingzeit.",
@@ -3791,7 +3990,8 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 50%\nPrzemieniasz się w wilkołaka i zarażasz wroga przez ugryzienie, zadając mu {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% pkt. obrażeń oraz dodatkowo {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nZarażeni wrogowie przekazują Wściekliznę innym celom wokół.\n\nTags: Gniew, Zmiennokształtność, Wilkołak, Trucizna, Obrażenia, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 50%\nTransforma-se em um lobisomem e atinge o alvo com uma mordida infecciosa, causando {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de dano e aplicando {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% de dano venenoso adicional ao longo de 6 segundos.\n\nInimigos infectados espalham Raiva para outros alvos ao redor.\n\nTags: Ira, Metamorfose, Lobisomem, Veneno, Dano, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 50%.\nВы принимаете облик волка и кусаете противника, нанося {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% ед. урона сразу и еще {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% ед. урона от отравления за 6 сек.\n\nЗараженные противники распространяют эффект \"Звериного бешенства\" на другие ближайшие цели.\n\nTags: Гнев, Смена облика, Облик волка, Яд, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n变成狼人对目标施加感染撕咬, 造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害, 并在 6 秒内造成 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% 点毒素伤害。\n\n被感染的敌人会向周围的其他目标传染狂犬撕咬。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n变成狼人对目标施加感染撕咬, 造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害, 并在 6 秒内造成 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% 点毒素伤害。\n\n被感染的敌人会向周围的其他目标传染狂犬撕咬。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:50%\n變身為狼人並施展會傳染疾病的咬擊,對目標造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 點傷害,並額外在 6 秒內造成 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% 點中毒傷害。\n\n被感染的敵人會把狂犬撕咬傳染給附近其他目標。\n\nTags: 憤怒, 變形, 狼人, 毒素, 傷害, 冷卻時間."
 },
 		id: 103,
 		maxPoints: 5,
@@ -3816,7 +4016,8 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"plPL": "Wzmocniona Wścieklizna",
 			"ptBR": "Raiva Aperfeiçoada",
 			"ruRU": "Усиленное звериное бешенство",
-			"zhCN": "强化狂犬撕咬"
+			"zhCN": "强化狂犬撕咬",
+			"zhTW": "強化狂犬撕咬"
 },
 		descriptionLocalized: {
 			"deDE": "Der Giftschaden von Tollwut erhöht sich zudem mit der Lebensdauer der Krankheit und fügt bei maximaler Dauer x30% Bonusschaden zu.\n\nTags: Zorn, Gestaltwandeln, Werwolf, Gift, Schaden, Abklingzeit.",
@@ -3829,7 +4030,8 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"plPL": "Obrażenia od zatrucia zadawane przez Wściekliznę rosną również z czasem działania choroby. Umiejętność zadaje dodatkowo x30% pkt. obrażeń przy maksymalnym czasie działania.\n\nTags: Gniew, Zmiennokształtność, Wilkołak, Trucizna, Obrażenia, Odnowienie.",
 			"ptBR": "O dano venenoso de Raiva também aumenta ao longo da duração da doença, causando 30% de bônus de dano na duração máxima.\n\nTags: Ira, Metamorfose, Lobisomem, Veneno, Dano, Recarga.",
 			"ruRU": "Наносимый \"Звериным бешенством\" урон от отравления постепенно увеличивается. В конце действия прибавка к урону достигает x30%.\n\nTags: Гнев, Смена облика, Облик волка, Яд, Урон, Время восстановления.",
-			"zhCN": "狂犬撕咬的毒素伤害也会随着时间提高, 持续时间达到上限时造成 x30% 的加成伤害。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间."
+			"zhCN": "狂犬撕咬的毒素伤害也会随着时间提高, 持续时间达到上限时造成 x30% 的加成伤害。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间.",
+			"zhTW": "狂犬撕咬的中毒傷害會隨持續時間提高,在持續時間結束時造成 x30% 額外傷害。\n\nTags: 憤怒, 變形, 狼人, 毒素, 傷害, 冷卻時間."
 },
 		id: 104,
 		maxPoints: 1,
@@ -3853,7 +4055,8 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"plPL": "Naturalna Wścieklizna",
 			"ptBR": "Raiva Natural",
 			"ruRU": "Природное звериное бешенство",
-			"zhCN": "自然狂犬撕咬"
+			"zhCN": "自然狂犬撕咬",
+			"zhTW": "自然狂犬撕咬"
 },
 		descriptionLocalized: {
 			"deDE": "Tollwut verbreitet sich 100% schneller.\n\nTags: Zorn, Gestaltwandeln, Werwolf, Gift, Schaden, Abklingzeit.",
@@ -3866,7 +4069,8 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"plPL": "Wścieklizna roznosi się 100% szybciej.\n\nTags: Gniew, Zmiennokształtność, Wilkołak, Trucizna, Obrażenia, Odnowienie.",
 			"ptBR": "Raiva espalha-se 100% mais rápido.\n\nTags: Ira, Metamorfose, Lobisomem, Veneno, Dano, Recarga.",
 			"ruRU": "Эффект \"Звериного бешенства\" распространяется на 100% быстрее.\n\nTags: Гнев, Смена облика, Облик волка, Яд, Урон, Время восстановления.",
-			"zhCN": "狂犬撕咬传播速度加快 100%。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间."
+			"zhCN": "狂犬撕咬传播速度加快 100%。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间.",
+			"zhTW": "狂犬撕咬擴散速度加快 100%。\n\nTags: 憤怒, 變形, 狼人, 毒素, 傷害, 冷卻時間."
 },
 		id: 105,
 		maxPoints: 1,
@@ -3890,7 +4094,8 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"plPL": "Okrutna Wścieklizna",
 			"ptBR": "Raiva Selvagem",
 			"ruRU": "Неистовое звериное бешенство",
-			"zhCN": "野蛮狂犬撕咬"
+			"zhCN": "野蛮狂犬撕咬",
+			"zhTW": "野蠻狂犬撕咬"
 },
 		descriptionLocalized: {
 			"deDE": "Tollwut verursacht den gesamten Giftschaden innerhalb von 4 Sek. anstatt 6 Sek.\n\nTags: Zorn, Gestaltwandeln, Werwolf, Gift, Schaden, Abklingzeit.",
@@ -3903,7 +4108,8 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"plPL": "Wścieklizna zadaje całkowite obrażenia od zatrucia w 4 sek. zamiast w 6 sek.\n\nTags: Gniew, Zmiennokształtność, Wilkołak, Trucizna, Obrażenia, Odnowienie.",
 			"ptBR": "Raiva causa o dano venenoso total em 4 segundos em vez de 6.\n\nTags: Ira, Metamorfose, Lobisomem, Veneno, Dano, Recarga.",
 			"ruRU": "\"Звериное бешенство\" наносит весь урон от отравления за 4, а не за 6 сек.\n\nTags: Гнев, Смена облика, Облик волка, Яд, Урон, Время восстановления.",
-			"zhCN": "狂犬撕咬会在 4 秒而不是 6 秒内造成全部的毒素伤害。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间."
+			"zhCN": "狂犬撕咬会在 4 秒而不是 6 秒内造成全部的毒素伤害。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间.",
+			"zhTW": "狂犬撕咬改為在 4 秒內造成全部的中毒傷害,而非 6 秒。\n\nTags: 憤怒, 變形, 狼人, 毒素, 傷害, 冷卻時間."
 },
 		id: 106,
 		maxPoints: 1,
@@ -3926,7 +4132,8 @@ Tags: Shapeshifting, Healing, Werebear.`,
 			"plPL": "Zasklepienie",
 			"ptBR": "Reparação",
 			"ruRU": "Исправление",
-			"zhCN": "疗愈"
+			"zhCN": "疗愈",
+			"zhTW": "癒合"
 },
 		descriptionLocalized: {
 			"deDE": "In Werbärgestalt erhaltet Ihr +{5/10/15/20/25/30/35/40/45/50}% zusätzliche Heilung aus allen Quellen.\n\nTags: Gestaltwandeln, Heilung, Werbär.",
@@ -3939,7 +4146,8 @@ Tags: Shapeshifting, Healing, Werebear.`,
 			"plPL": "Pod postacią niedźwiedziołaka otrzymujesz +{5/10/15/20/25/30/35/40/45/50}% dodatkowego leczenia ze wszystkich źródeł.\n\nTags: Zmiennokształtność, Leczenie, Niedźwiedziołak.",
 			"ptBR": "Enquanto está na forma de urso, você recebe +{5/10/15/20/25/30/35/40/45/50}% de cura adicional de todas as fontes.\n\nTags: Metamorfose, Cura, Urso.",
 			"ruRU": "В облике медведя вы получаете на +{5/10/15/20/25/30/35/40/45/50}% больше исцеления от любых источников.\n\nTags: Смена облика, Исцеление, Медведь.",
-			"zhCN": "熊人形态下, 你从所有来源获得的生命恢复效果提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 变形, 治疗, 熊人."
+			"zhCN": "熊人形态下, 你从所有来源获得的生命恢复效果提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 变形, 治疗, 熊人.",
+			"zhTW": "在熊人形態下,你從各種來源獲得的恢復效果提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 變形, 治療, 熊人."
 },
 		id: 97,
 		maxPoints: 3,
@@ -3962,7 +4170,8 @@ Tags: Overpower, Shapeshifting, Werebear.`,
 			"plPL": "Prowokacja",
 			"ptBR": "Provocação",
 			"ruRU": "Провокация",
-			"zhCN": "挑衅"
+			"zhCN": "挑衅",
+			"zhTW": "挑釁"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr mindestens {30/25/20/15/10/5/0/-5/-10/-15} Sek. lang in Werbärgestalt bleibt, wird Eure nächste Fertigkeit überwältigen.\n\nTags: Überwältigen, Gestaltwandeln, Werbär.",
@@ -3975,7 +4184,8 @@ Tags: Overpower, Shapeshifting, Werebear.`,
 			"plPL": "Kiedy pozostajesz w postaci niedźwiedziołaka przez przynajmniej {30/25/20/15/10/5/0/-5/-10/-15} sek., twoja następna umiejętność przytłacza.\n\nTags: Przytłoczenie, Zmiennokształtność, Niedźwiedziołak.",
 			"ptBR": "Quando você permanece na forma de urso por pelo menos {30/25/20/15/10/5/0/-5/-10/-15} segundos, sua próxima habilidade desfere Golpe Brutal.\n\nTags: Golpe Brutal, Metamorfose, Urso.",
 			"ruRU": "Когда вы проводите в облике медведя {30/25/20/15/10/5/0/-5/-10/-15} сек., ваше следующее умение наносит подавляющий урон.\n\nTags: Подавление, Смена облика, Медведь.",
-			"zhCN": "至少保持熊人形态 {30/25/20/15/10/5/0/-5/-10/-15} 秒, 则你的下一个技能必定压制敌人。\n\nTags: 压制, 变形, 熊人."
+			"zhCN": "至少保持熊人形态 {30/25/20/15/10/5/0/-5/-10/-15} 秒, 则你的下一个技能必定压制敌人。\n\nTags: 压制, 变形, 熊人.",
+			"zhTW": "當你停留在熊人形態下至少 {30/25/20/15/10/5/0/-5/-10/-15} 秒,你的下一個技能會 壓制。\n\nTags: 壓制, 變形, 熊人."
 },
 		id: 98,
 		maxPoints: 3,
@@ -3998,7 +4208,8 @@ Tags: Poison, Crowd Control.`,
 			"plPL": "Neurotoksyna",
 			"ptBR": "Neurotoxina",
 			"ruRU": "Нейротоксин",
-			"zhCN": "神经毒素"
+			"zhCN": "神经毒素",
+			"zhTW": "神經毒素"
 },
 		descriptionLocalized: {
 			"deDE": "Vergiftete Gegner werden um {8/16/24/32/40/48/56/64/72/80}% verlangsamt.\n\nTags: Gift, Kontrollverlust.",
@@ -4011,7 +4222,8 @@ Tags: Poison, Crowd Control.`,
 			"plPL": "Zatruci wrogowie zostają również spowolnieni o {8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Trucizna, Ograniczanie Kontroli.",
 			"ptBR": "Inimigos envenenados são desacelerados em {8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Veneno, Controle de Grupo.",
 			"ruRU": "Отравленные противники замедляются на {8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Яд, Контроль.",
-			"zhCN": "使中毒的敌人减速 {8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 毒素, 群控."
+			"zhCN": "使中毒的敌人减速 {8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 毒素, 群控.",
+			"zhTW": "中毒的敵人會緩速 {8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 毒素, 控場."
 },
 		id: 79,
 		maxPoints: 3,
@@ -4034,7 +4246,8 @@ Tags: Critical Strikes, Werewolf, Poison, Damage, Shapeshifting.`,
 			"plPL": "Toksyczne Pazury",
 			"ptBR": "Garras Tóxicas",
 			"ruRU": "Ядовитые когти",
-			"zhCN": "毒素之爪"
+			"zhCN": "毒素之爪",
+			"zhTW": "毒爪"
 },
 		descriptionLocalized: {
 			"deDE": "Kritische Treffer mit Werwolffertigkeiten verursachen im Verlauf von 4 Sek. {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% des Basisschadens als Giftschaden.\n\nTags: Kritische Treffer, Werwolf, Gift, Schaden, Gestaltwandeln.",
@@ -4047,7 +4260,8 @@ Tags: Critical Strikes, Werewolf, Poison, Damage, Shapeshifting.`,
 			"plPL": "Trafienia krytyczne wywołane przez umiejętności Wilkołaka zadają {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% swoich obrażeń podstawowych w postaci obrażeń od zatrucia w ciągu 4 sek.\n\nTags: Trafienia Krytyczne, Wilkołak, Trucizna, Obrażenia, Zmiennokształtność.",
 			"ptBR": "Acertos críticos com habilidades de Lobisomem causam {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% do dano-base como dano venenoso ao longo de 4 segundos.\n\nTags: Acertos Críticos, Lobisomem, Veneno, Dano, Metamorfose.",
 			"ruRU": "Критические удары умений волка наносят еще {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% базового урона как урон от отравления за 4 сек.\n\nTags: Критические удары, Облик волка, Яд, Урон, Смена облика.",
-			"zhCN": "狼人技能暴击时, 在 4 秒内持续造成 {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% 基础伤害的毒素伤害。\n\nTags: 暴击, 狼人, 毒素, 伤害, 变形."
+			"zhCN": "狼人技能暴击时, 在 4 秒内持续造成 {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% 基础伤害的毒素伤害。\n\nTags: 暴击, 狼人, 毒素, 伤害, 变形.",
+			"zhTW": "狼人技能爆擊會在 4 秒內造成等同其基礎傷害 {7.5/15/22.5/30/37.5/45/52.5/60/67.5/75}% 的中毒傷害。\n\nTags: 爆擊, 狼人, 毒素, 傷害, 變形."
 },
 		id: 78,
 		maxPoints: 3,
@@ -4070,7 +4284,8 @@ Tags: Poison, Critical Strikes, Damage.`,
 			"plPL": "Zatrucie Jadem",
 			"ptBR": "Envenenar",
 			"ruRU": "Наполнение ядом",
-			"zhCN": "毒伤"
+			"zhCN": "毒伤",
+			"zhTW": "毒化"
 },
 		descriptionLocalized: {
 			"deDE": "Vergiftete Gegner erleiden x{10/20/30/40/50/60/70/80/90/100}% zusätzlichen kritischen Trefferschaden.\n\nTags: Gift, Kritische Treffer, Schaden.",
@@ -4083,7 +4298,8 @@ Tags: Poison, Critical Strikes, Damage.`,
 			"plPL": "Zatruci wrogowie otrzymują obrażenia od trafień krytycznych zwiększone o x{10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Trucizna, Trafienia Krytyczne, Obrażenia.",
 			"ptBR": "Inimigos envenenados recebem {10/20/30/40/50/60/70/80/90/100}% de dano de acerto crítico adicional.\n\nTags: Veneno, Acertos Críticos, Dano.",
 			"ruRU": "Отравленные противники получают на x{10/20/30/40/50/60/70/80/90/100}% больше критического урона.\n\nTags: Яд, Критические удары, Урон.",
-			"zhCN": "中毒敌人受到的暴击伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 毒素, 暴击, 伤害."
+			"zhCN": "中毒敌人受到的暴击伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 毒素, 暴击, 伤害.",
+			"zhTW": "中毒的敵人受到 x{10/20/30/40/50/60/70/80/90/100}% 額外的爆擊傷害。\n\nTags: 毒素, 爆擊, 傷害."
 },
 		id: 166,
 		maxPoints: 3,
@@ -4112,7 +4328,8 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"plPL": "Niedźwiedzi Szał",
 			"ptBR": "Fúria do Urso",
 			"ruRU": "Ярость гризли",
-			"zhCN": "灰熊狂怒"
+			"zhCN": "灰熊狂怒",
+			"zhTW": "灰熊狂怒"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nVerwandelt Euch 10 Sek. lang in einen Todeswerbären. Ihr erhaltet x20% Bonusschaden und 20% Schadensreduktion. In dieser Gestalt erhöht sich der Bonusschaden jede Sek. um 3%.\n\nWenn Ihr Gegner tötet, verlängert sich die Dauer um 1 Sek. bis zu 10 zusätzlichen Sek.\n\nTags: Ultimativ, Gestaltwandeln, Werbär, Schadensreduktion, Schaden, Abklingzeit.",
@@ -4125,7 +4342,8 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nPrzemieniasz się upiornego niedźwiedziołaka na 10 sek. i zyskujesz premię x20% do obrażeń oraz 20% do redukcji obrażeń. Premia do obrażeń wzrasta o 3% co sekundę, kiedy jesteś w tej postaci.\n\nZabijanie wrogów wydłuża czas działania o 1 sek., maksymalnie do 10 dodatkowych sekund.\n\nTags: Specjalne, Zmiennokształtność, Niedźwiedziołak, Redukcja Obrażeń, Obrażenia, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nTransforma-se em um Urso Atroz por 10 segundos, recebendo 20% de bônus de dano e 20% de redução de dano. O bônus de dano é aumentado em 3% a cada segundo enquanto estiver nessa forma.\n\nAbates aumentam a duração em 1 segundo até 10 segundos adicionais.\n\nTags: Suprema, Metamorfose, Urso, Redução de Dano, Dano, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВы принимаете облик лютого медведя на 10 сек. Наносимый урон увеличивается на x20%, а получаемый урон уменьшается на 20%. Прибавка к урону увеличивается на 3% с каждой секундой, проведенной в этом облике.\n\nУбийства продлевают время действия эффекта на 1 сек. вплоть до 10 сек.\n\nTags: Мощное умение, Смена облика, Медведь, Уменьшение урона, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n变成一只恐怖熊人, 持续 10 秒, 获得 x20% 伤害加成和 20% 伤害减免。在该形态下, 伤害加成每秒提高 3%。\n\n消灭会使持续时间延长 1 秒, 最多延长 10 秒。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n变成一只恐怖熊人, 持续 10 秒, 获得 x20% 伤害加成和 20% 伤害减免。在该形态下, 伤害加成每秒提高 3%。\n\n消灭会使持续时间延长 1 秒, 最多延长 10 秒。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n變身為兇蠻熊人,持續 10 秒。獲得 x20% 傷害加成與 20% 傷害減免。在此形態下,每秒傷害加成提高 3%。\n\n擊殺可以使持續時間延長 1 秒,最多延長 10 秒。\n\nTags: 絕招, 變形, 熊人, 傷害減免, 傷害, 冷卻時間."
 },
 		id: 107,
 		maxPoints: 1,
@@ -4150,7 +4368,8 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"plPL": "Większy Niedźwiedzi Szał",
 			"ptBR": "Fúria do Urso Primordial",
 			"ruRU": "Первородная ярость гризли",
-			"zhCN": "至尊灰熊狂怒"
+			"zhCN": "至尊灰熊狂怒",
+			"zhTW": "強烈灰熊狂怒"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr seid unaufhaltsam, solange Euer Grizzlyzorn aktiv ist.\n\nTags: Ultimativ, Gestaltwandeln, Werbär, Schadensreduktion, Schaden, Abklingzeit.",
@@ -4163,7 +4382,8 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"plPL": "Kiedy aktywny jest twój Niedźwiedzi Szał, zyskujesz nieustępliwość.\n\nTags: Specjalne, Zmiennokształtność, Niedźwiedziołak, Redukcja Obrażeń, Obrażenia, Odnowienie.",
 			"ptBR": "Você fica implacável enquanto Fúria do Urso está ativa.\n\nTags: Suprema, Metamorfose, Urso, Redução de Dano, Dano, Recarga.",
 			"ruRU": "\"Ярость гризли\" также дает неудержимость.\n\nTags: Мощное умение, Смена облика, Медведь, Уменьшение урона, Урон, Время восстановления.",
-			"zhCN": "灰熊狂怒激活时, 你获得不可阻挡。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间."
+			"zhCN": "灰熊狂怒激活时, 你获得不可阻挡。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间.",
+			"zhTW": "在灰熊狂怒啟用期間,你將進入無阻狀態。\n\nTags: 絕招, 變形, 熊人, 傷害減免, 傷害, 冷卻時間."
 },
 		id: 108,
 		maxPoints: 1,
@@ -4187,7 +4407,8 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"plPL": "Największy Niedźwiedzi Szał",
 			"ptBR": "Fúria do Urso Suprema",
 			"ruRU": "Неотвратимая ярость гризли",
-			"zhCN": "至极灰熊狂怒"
+			"zhCN": "至极灰熊狂怒",
+			"zhTW": "終極灰熊狂怒"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet pro Sekunde 8% Eures Basislebens als Stählung, solange Grizzlyzorn aktiv ist.\n\nTags: Ultimativ, Gestaltwandeln, Werbär, Schadensreduktion, Schaden, Abklingzeit.",
@@ -4200,7 +4421,8 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"plPL": "Zyskujesz 8% podstawowego zdrowia jako umocnienie, kiedy Niedźwiedzi Szał jest aktywny.\n\nTags: Specjalne, Zmiennokształtność, Niedźwiedziołak, Redukcja Obrażeń, Obrażenia, Odnowienie.",
 			"ptBR": "Recebe 8% de vida básica por segundo como fortificação enquanto Fúria do Urso estiver ativa.\n\nTags: Suprema, Metamorfose, Urso, Redução de Dano, Dano, Recarga.",
 			"ruRU": "Пока действует \"Ярость гризли\", вы получаете укрепление в объеме 8% базового запаса здоровья раз в сек.\n\nTags: Мощное умение, Смена облика, Медведь, Уменьшение урона, Урон, Время восстановления.",
-			"zhCN": "灰熊狂怒激活时, 每秒强固你 8% 基础生命。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间."
+			"zhCN": "灰熊狂怒激活时, 每秒强固你 8% 基础生命。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间.",
+			"zhTW": "在灰熊狂怒啟動期間,每秒獲得相當於 8% 基礎生命值的強韌。\n\nTags: 絕招, 變形, 熊人, 傷害減免, 傷害, 冷卻時間."
 },
 		id: 109,
 		maxPoints: 1,
@@ -4226,7 +4448,8 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 			"plPL": "Petryfikacja",
 			"ptBR": "Petrificar",
 			"ruRU": "Окаменение",
-			"zhCN": "石化"
+			"zhCN": "石化",
+			"zhTW": "石化"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nHüllt alle Gegner in der Nähe in Stein und betäubt sie 3 Sek. lang. Ihr fügt Gegnern, die von Versteinern betroffen sind, x25% mehr kritischen Trefferschaden zu.\n\nGegen Bosse ist der Bonus auf kritischen Trefferschaden auf x50% und seine Dauer auf 6 Sek. erhöht.\n\nTags: Ultimativ, Naturmagie, Erde, Kontrollverlust, Abklingzeit, Kritische Treffer.",
@@ -4239,7 +4462,8 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 			"plPL": "Czas odnowienia: {#} sek.\nPrzemieniasz wszystkich wrogów w kamień i ogłuszasz ich na 3 sek. Zadajesz zwiększone o x25% obrażenia od trafień krytycznych celom pod działaniem Petryfikacji.\n\nW przypadku bossów premia do obrażeń od trafień krytycznych jest zwiększona do x50%, a czas jej działania jest wydłużony do 6 sek.\n\nTags: Specjalne, Magia Natury, Ziemia, Ograniczanie Kontroli, Odnowienie, Trafienia Krytyczne.",
 			"ptBR": "Recarga: {#} segundos\nEnvolve todos os inimigos próximos em pedra, atordoando-os por 3 segundos. Você causa 25% de dano de acerto crítico aumentado a inimigos afetados por Petrificar.\n\nContra chefes, o bônus de dano de acerto crítico é aumentado para 50% e sua duração é aumentada para 6 segundos.\n\nTags: Suprema, Magia da Natureza, Terra, Controle de Grupo, Recarga, Acertos Críticos.",
 			"ruRU": "Время восстановления: {#} сек.\nВы заключаете ближайших противников в камень, оглушая их на 3 сек. Цели под действием \"Окаменения\" получают от вас на x25% больше критического урона.\n\nПротив боссов бонус к критическому урону увеличивается до x50%, а время действия эффекта продлевается до 6 сек.\n\nTags: Мощное умение, Силы природы, Земля, Контроль, Время восстановления, Критические удары.",
-			"zhCN": "冷却时间: {#} 秒\n石化附近所有敌人, 使其昏迷 3 秒。你对被石化的敌人造成的暴击伤害提高 x25%。\n\n目标为首领时, 暴击伤害加成提高至 x50%, 并且其持续时间提高至 6 秒。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击."
+			"zhCN": "冷却时间: {#} 秒\n石化附近所有敌人, 使其昏迷 3 秒。你对被石化的敌人造成的暴击伤害提高 x25%。\n\n目标为首领时, 暴击伤害加成提高至 x50%, 并且其持续时间提高至 6 秒。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击.",
+			"zhTW": "冷卻時間:{#} 秒\n以岩石包覆附近所有敵人,使其昏迷 3 秒。你對石化敵人造成的爆擊傷害提高 x25%。\n\n對上首領時,此爆擊傷害加成提高至 x50%,持續時間延長至 6 秒。\n\nTags: 絕招, 自然魔法, 大地, 控場, 冷卻時間, 爆擊."
 },
 		id: 110,
 		maxPoints: 1,
@@ -4264,7 +4488,8 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 			"plPL": "Większa Petryfikacja",
 			"ptBR": "Petrificar Primordial",
 			"ruRU": "Первородное окаменение",
-			"zhCN": "至尊石化"
+			"zhCN": "至尊石化",
+			"zhTW": "強烈石化"
 },
 		descriptionLocalized: {
 			"deDE": "Die Dauer der Effekte von Versteinern erhöht sich um 1 Sek.\n\nTags: Ultimativ, Naturmagie, Erde, Kontrollverlust, Abklingzeit, Kritische Treffer.",
@@ -4277,7 +4502,8 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 			"plPL": "Czas działania efektu Petryfikacji jest wydłużony o 1 sek.\n\nTags: Specjalne, Magia Natury, Ziemia, Ograniczanie Kontroli, Odnowienie, Trafienia Krytyczne.",
 			"ptBR": "As durações de efeito de Petrificar são aumentadas em 1 segundo.\n\nTags: Suprema, Magia da Natureza, Terra, Controle de Grupo, Recarga, Acertos Críticos.",
 			"ruRU": "Время действия \"Окаменения\" увеличивается на 1 сек.\n\nTags: Мощное умение, Силы природы, Земля, Контроль, Время восстановления, Критические удары.",
-			"zhCN": "石化效果的持续时间延长 1 秒。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击."
+			"zhCN": "石化效果的持续时间延长 1 秒。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击.",
+			"zhTW": "石化效果的持續時間延長 1 秒。\n\nTags: 絕招, 自然魔法, 大地, 控場, 冷卻時間, 爆擊."
 },
 		id: 111,
 		maxPoints: 1,
@@ -4301,7 +4527,8 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 			"plPL": "Największa Petryfikacja",
 			"ptBR": "Petrificar Supremo",
 			"ruRU": "Неотвратимое окаменение",
-			"zhCN": "至极石化"
+			"zhCN": "至极石化",
+			"zhTW": "終極石化"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen Gegner tötet, der von Versteinern betroffen ist, erhaltet Ihr 25 Geisteskraft.\n\nTags: Ultimativ, Naturmagie, Erde, Kontrollverlust, Abklingzeit, Kritische Treffer.",
@@ -4314,7 +4541,8 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 			"plPL": "Zabicie wroga objętego działaniem petryfikacji zapewnia 25 pkt. siły duchowej.\n\nTags: Specjalne, Magia Natury, Ziemia, Ograniczanie Kontroli, Odnowienie, Trafienia Krytyczne.",
 			"ptBR": "Matar um inimigo afetado por Petrificar concede 25 de espírito.\n\nTags: Suprema, Magia da Natureza, Terra, Controle de Grupo, Recarga, Acertos Críticos.",
 			"ruRU": "Убив противника, пораженного \"Окаменением\", вы накапливаете 25 ед. духа.\n\nTags: Мощное умение, Силы природы, Земля, Контроль, Время восстановления, Критические удары.",
-			"zhCN": "消灭一名被石化的敌人可以获得 25 点灵力。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击."
+			"zhCN": "消灭一名被石化的敌人可以获得 25 点灵力。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击.",
+			"zhTW": "殺死石化的敵人可獲得 25 點靈力。\n\nTags: 絕招, 自然魔法, 大地, 控場, 冷卻時間, 爆擊."
 },
 		id: 112,
 		maxPoints: 1,
@@ -4337,7 +4565,8 @@ Tags: Fortify.`,
 			"plPL": "Postawa Obronna",
 			"ptBR": "Postura Defensiva",
 			"ruRU": "Защитная стойка",
-			"zhCN": "防御姿态"
+			"zhCN": "防御姿态",
+			"zhTW": "防禦態勢"
 },
 		descriptionLocalized: {
 			"deDE": "Erhöht die Menge an Stählung, die Ihr aus allen Quellen erhaltet, um +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Stählung.",
@@ -4350,7 +4579,8 @@ Tags: Fortify.`,
 			"plPL": "Siła umocnienia otrzymywanego ze wszystkich źródeł jest zwiększona o +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Umocnienie.",
 			"ptBR": "Aumenta a quantidade de fortificação que você recebe de todas as fontes em +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Fortificação.",
 			"ruRU": "Вы получаете на +{5/10/15/20/25/30/35/40/45/50}% больше укрепления от любых источников.\n\nTags: Укрепление.",
-			"zhCN": "你从所有来源获得的强固数值提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 强固."
+			"zhCN": "你从所有来源获得的强固数值提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 强固.",
+			"zhTW": "使你從各種來源獲得的強韌提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 強韌."
 },
 		id: 113,
 		maxPoints: 3,
@@ -4373,7 +4603,8 @@ Tags: Fortify, Crowd Control.`,
 			"plPL": "Gruboskórność",
 			"ptBR": "Couro Espesso",
 			"ruRU": "Плотная шкура",
-			"zhCN": "厚皮"
+			"zhCN": "厚皮",
+			"zhTW": "厚皮"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr betäubt, bewegungsunfähig oder niedergeschlagen werdet, erhaltet Ihr Stählung in Höhe von {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% Eures Basislebens.\n\nTags: Stählung, Kontrollverlust.",
@@ -4386,7 +4617,8 @@ Tags: Fortify, Crowd Control.`,
 			"plPL": "Kiedy znajdujesz się pod wpływem efektów ogłuszenia, unieruchomienia lub powalenia, zyskujesz umocnienie równe {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% podstawowego zdrowia.\n\nTags: Umocnienie, Ograniczanie Kontroli.",
 			"ptBR": "Sempre que estiver sob atordoamento, imobilização ou nocaute, você se fortifica em {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% da vida básica.\n\nTags: Fortificação, Controle de Grupo.",
 			"ruRU": "Когда вас оглушают, обездвиживают или сбивают с ног, вы получаете укрепление в объеме {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% базового запаса здоровья.\n\nTags: Укрепление, Контроль.",
-			"zhCN": "每当你被击晕、定身或击倒时, 强固你 {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% 基础生命。\n\nTags: 强固, 群控."
+			"zhCN": "每当你被击晕、定身或击倒时, 强固你 {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% 基础生命。\n\nTags: 强固, 群控.",
+			"zhTW": "每當你被擊昏、定身或擊倒時,會獲得相當於 {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% 基礎生命值的強韌。\n\nTags: 強韌, 控場."
 },
 		id: 114,
 		maxPoints: 3,
@@ -4409,7 +4641,8 @@ Tags: Fortify, Life, Crowd Control.`,
 			"plPL": "Powściągliwość",
 			"ptBR": "Irrestrito",
 			"ruRU": "Необузданная сила",
-			"zhCN": "狂野不羁"
+			"zhCN": "狂野不羁",
+			"zhTW": "無縛"
 },
 		descriptionLocalized: {
 			"deDE": "Verringert die Dauer von Kontrollverlusteffekten um {3/6/9/12/15/18/21/24/27/30}%. Solange Ihr um mindestens 50% Eures maximalen Lebens gestählt seid, verdreifacht sich dieser Effekt.\n\nTags: Stählung, Leben, Kontrollverlust.",
@@ -4422,7 +4655,8 @@ Tags: Fortify, Life, Crowd Control.`,
 			"plPL": "Czas działania ograniczenia kontroli jest skrócony o {3/6/9/12/15/18/21/24/27/30}%. Skuteczność efektu jest potrojona, jeśli wartość twojego umocnienia wynosi ponad 50% twojego maksymalnego zdrowia.\n\nTags: Umocnienie, Zdrowie, Ograniczanie Kontroli.",
 			"ptBR": "Reduz a duração dos efeitos de controle em {3/6/9/12/15/18/21/24/27/30}%. O efeito é triplicado enquanto você tiver fortificação em mais de 50% da sua vida máxima.\n\nTags: Fortificação, Vida, Controle de Grupo.",
 			"ruRU": "Время действия эффектов контроля сокращается на {3/6/9/12/15/18/21/24/27/30}%. Эффект утраивается, если у вас есть укрепление, превышающее 50% максимального запаса здоровья.\n\nTags: Укрепление, Здоровье, Контроль.",
-			"zhCN": "控制类限制效果的持续时间缩短 {3/6/9/12/15/18/21/24/27/30}%。当你获得的强固数值超过 50% 生命上限时, 此效果变为三倍。\n\nTags: 强固, 生命, 群控."
+			"zhCN": "控制类限制效果的持续时间缩短 {3/6/9/12/15/18/21/24/27/30}%。当你获得的强固数值超过 50% 生命上限时, 此效果变为三倍。\n\nTags: 强固, 生命, 群控.",
+			"zhTW": "控場效果的持續時間縮短 {3/6/9/12/15/18/21/24/27/30}%。當你具有高於生命值上限 50% 的強韌時,此效果變成三倍。\n\nTags: 強韌, 生命值, 控場."
 },
 		id: 115,
 		maxPoints: 3,
@@ -4445,7 +4679,8 @@ Tags: Fortify.`,
 			"plPL": "Determinacja Natury",
 			"ptBR": "Determinação da Natureza",
 			"ruRU": "Стойкость природы",
-			"zhCN": "自然意志"
+			"zhCN": "自然意志",
+			"zhTW": "自然決心"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr getroffen werdet, besteht eine Chance von {5/10/15/20/25/30/35/40/45/50}%, Stählung in Höhe von 4.4% Eures Basislebens zu erhalten.\n\nTags: Stählung.",
@@ -4458,7 +4693,8 @@ Tags: Fortify.`,
 			"plPL": "{5/10/15/20/25/30/35/40/45/50}% szans na umocnienie równe 4.4% podstawowego zdrowia przy otrzymaniu trafienia.\n\nTags: Umocnienie.",
 			"ptBR": "{5/10/15/20/25/30/35/40/45/50}% de chance de fortificar você em 4.4% da vida básica ao receber um golpe.\n\nTags: Fortificação.",
 			"ruRU": "Получив урон от атаки, вы с вероятностью {5/10/15/20/25/30/35/40/45/50}% получаете укрепление в объеме 4.4% базового запаса здоровья.\n\nTags: Укрепление.",
-			"zhCN": "受到攻击时有 {5/10/15/20/25/30/35/40/45/50}% 几率强固你 4.4% 基础生命。\n\nTags: 强固."
+			"zhCN": "受到攻击时有 {5/10/15/20/25/30/35/40/45/50}% 几率强固你 4.4% 基础生命。\n\nTags: 强固.",
+			"zhTW": "當你被擊中時,有 {5/10/15/20/25/30/35/40/45/50}% 機率賦予你相當於 4.4% 基礎生命值的強韌。\n\nTags: 強韌."
 },
 		id: 116,
 		maxPoints: 3,
@@ -4481,7 +4717,8 @@ Tags: Shapeshifting, Damage.`,
 			"plPL": "Szybka Przemiana",
 			"ptBR": "Mudança Rápida",
 			"ruRU": "Быстрое преображение",
-			"zhCN": "快速变形"
+			"zhCN": "快速变形",
+			"zhTW": "迅變"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn eine Verwandlungsfertigkeit Euch eine andere Gestalt verleiht, verursacht sie x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden.\n\nTags: Gestaltwandeln, Schaden.",
@@ -4494,7 +4731,8 @@ Tags: Shapeshifting, Damage.`,
 			"plPL": "Kiedy umiejętność Zmiennokształtności zmienia twoją formę, zadaje ona obrażenia zwiększone o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Zmiennokształtność, Obrażenia.",
 			"ptBR": "Quando uma habilidade de Metamorfose transforma você em uma forma diferente, ela causa {5/10/15/20/25/30/35/40/45/50}% de dano aumentado.\n\nTags: Metamorfose, Dano.",
 			"ruRU": "Если умение смены облика заставляет вас совершить превращение, оно наносит на x{5/10/15/20/25/30/35/40/45/50}% больше урона.\n\nTags: Смена облика, Урон.",
-			"zhCN": "当变形技能使你变为另一个形态, 该技能造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 变形, 伤害."
+			"zhCN": "当变形技能使你变为另一个形态, 该技能造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 变形, 伤害.",
+			"zhTW": "當你使用變形技能改變形態,該技能造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 變形, 傷害."
 },
 		id: 117,
 		maxPoints: 3,
@@ -4517,7 +4755,8 @@ Tags: Fortify, Shapeshifting.`,
 			"plPL": "Hart Natury",
 			"ptBR": "Fortitude Natural",
 			"ruRU": "Природная выносливость",
-			"zhCN": "自然坚毅"
+			"zhCN": "自然坚毅",
+			"zhTW": "自然剛毅"
 },
 		descriptionLocalized: {
 			"deDE": "Gestaltwandeln verleiht Euch Stählung in Höhe von {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}% Eures Basislebens.\n\nTags: Stählung, Gestaltwandeln.",
@@ -4530,7 +4769,8 @@ Tags: Fortify, Shapeshifting.`,
 			"plPL": "Zmiana kształtu zapewnia umocnienie równe {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}% twojego podstawowego zdrowia.\n\nTags: Umocnienie, Zmiennokształtność.",
 			"ptBR": "Metamorfose fortifica você em {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}% da vida básica.\n\nTags: Fortificação, Metamorfose.",
 			"ruRU": "При смене облика вы получаете укрепление в объеме {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}% базового запаса здоровья.\n\nTags: Укрепление, Смена облика.",
-			"zhCN": "变形强固你 {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}% 基础生命。\n\nTags: 强固, 变形."
+			"zhCN": "变形强固你 {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}% 基础生命。\n\nTags: 强固, 变形.",
+			"zhTW": "變形使你獲得相當於 {1.4/2.8/4.2/5.6/7/8.4/9.8/11.2/12.6/14}% 基礎生命值的強韌。\n\nTags: 強韌, 變形."
 },
 		id: 118,
 		maxPoints: 3,
@@ -4553,7 +4793,8 @@ Tags: Damage Reduction, Shapeshifting, Elite Monsters, Werebear, Werewolf.`,
 			"plPL": "Wyostrzone Zmysły",
 			"ptBR": "Sentidos Aguçados",
 			"ruRU": "Обостренные чувства",
-			"zhCN": "敏锐感知"
+			"zhCN": "敏锐感知",
+			"zhTW": "增強感官"
 },
 		descriptionLocalized: {
 			"deDE": "Bei der Verwandlung in einen Werwolf oder Werbären erhaltet Ihr 5 Sek. lang {4/8/12/16/20/24/28/32/36/40}% Schadensreduktion gegen Elitegegner.\n\nTags: Schadensreduktion, Gestaltwandeln, Elitemonster, Werbär, Werwolf.",
@@ -4566,7 +4807,8 @@ Tags: Damage Reduction, Shapeshifting, Elite Monsters, Werebear, Werewolf.`,
 			"plPL": "Po przemianie w wilkołaka lub niedźwiedziołaka otrzymujesz przez 5 sek. {4/8/12/16/20/24/28/32/36/40}% redukcji obrażeń od wrogów elitarnych.\n\nTags: Redukcja Obrażeń, Zmiennokształtność, Elitarne Potwory, Niedźwiedziołak, Wilkołak.",
 			"ptBR": "Ao se transformar em lobisomem ou urso, recebe {4/8/12/16/20/24/28/32/36/40}% de redução de dano contra elites por 5 segundos.\n\nTags: Redução de Dano, Metamorfose, Monstros de Elite, Urso, Lobisomem.",
 			"ruRU": "Когда вы принимаете облик волка или медведя, получаемый вами урон от особых противников уменьшается на {4/8/12/16/20/24/28/32/36/40}% на 5 сек.\n\nTags: Уменьшение урона, Смена облика, Особые монстры, Медведь, Облик волка.",
-			"zhCN": "变成狼人或熊人时, 获得 {4/8/12/16/20/24/28/32/36/40}%对精英怪的伤害减免, 持续 5 秒。\n\nTags: 伤害减免, 变形, 精英怪物, 熊人, 狼人."
+			"zhCN": "变成狼人或熊人时, 获得 {4/8/12/16/20/24/28/32/36/40}%对精英怪的伤害减免, 持续 5 秒。\n\nTags: 伤害减免, 变形, 精英怪物, 熊人, 狼人.",
+			"zhTW": "變形為狼人或熊人時,獲得對精英怪的 {4/8/12/16/20/24/28/32/36/40}% 傷害減免效果,持續 5 秒。\n\nTags: 傷害減免, 變形, 精英怪物, 熊人, 狼人."
 },
 		id: 119,
 		maxPoints: 3,
@@ -4591,7 +4833,8 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 			"plPL": "Rany Szarpane",
 			"ptBR": "Lacerar",
 			"ruRU": "Раздирание",
-			"zhCN": "疯狂撕咬"
+			"zhCN": "疯狂撕咬",
+			"zhTW": "割裂"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 7%\nVerwandelt Euch in einen Werwolf, werdet immun, springt 10-mal schnell zwischen Gegnern im Wirkungsbereich hin und her und verursacht bis zu 400% Schaden.\n\nTags: Ultimativ, Gestaltwandeln, Werwolf, Immun, Physisch, Schaden, Abklingzeit, Schadensreduktion.",
@@ -4604,7 +4847,8 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 7%\nPrzemieniasz się w wilkołaka, zyskujesz niewrażliwość i błyskawicznie przeskakujesz 10 razy między wrogami na obszarze oraz zadajesz im 400% pkt. obrażeń.\n\nTags: Specjalne, Zmiennokształtność, Wilkołak, Niewrażliwość, Fizyczne, Obrażenia, Odnowienie, Redukcja Obrażeń.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 7%\nTransforma-se em um lobisomem, fica imune e corre rapidamente 10 vezes entre inimigos na área, causando até 400% de dano.\n\nTags: Suprema, Metamorfose, Lobisomem, Imune, Física, Dano, Recarga, Redução de Dano.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 7%.\nВы принимаете облик волка, получаете невосприимчивость и совершаете 10 стремительных рывка:стремительных рывков между ближайшими противниками, нанося до 400% ед. урона.\n\nTags: Мощное умение, Смена облика, Облик волка, Невосприимчивость, Физический урон, Урон, Время восстановления, Уменьшение урона.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 7%\n变成狼人, 获得免疫并在区域内的敌人身边快速冲刺 10 次, 最多造成 400% 点伤害。\n\nTags: 终极技能, 变形, 狼人, 免疫, 物理, 伤害, 冷却时间, 伤害减免."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 7%\n变成狼人, 获得免疫并在区域内的敌人身边快速冲刺 10 次, 最多造成 400% 点伤害。\n\nTags: 终极技能, 变形, 狼人, 免疫, 物理, 伤害, 冷却时间, 伤害减免.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:7%\n變身為狼人,進入免疫狀態,並快速在範圍內的敵人之間衝刺 10 次,造成最多 400% 點傷害。\n\nTags: 絕招, 變形, 狼人, 免疫, 物理, 傷害, 冷卻時間, 傷害減免."
 },
 		id: 120,
 		maxPoints: 1,
@@ -4629,7 +4873,8 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 			"plPL": "Większe Rany Szarpane",
 			"ptBR": "Lacerar Primordial",
 			"ruRU": "Первородное раздирание",
-			"zhCN": "至尊疯狂撕咬"
+			"zhCN": "至尊疯狂撕咬",
+			"zhTW": "強烈割裂"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Zerreißen einen kritischen Treffer erzielt, werdet Ihr um 3% eures maximalen Lebens geheilt.\n\nTags: Ultimativ, Gestaltwandeln, Werwolf, Immun, Physisch, Schaden, Abklingzeit, Schadensreduktion.",
@@ -4642,7 +4887,8 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 			"plPL": "Za każdym razem, gdy Rany Szarpane wywołują trafienie krytyczne, odzyskujesz 3% maksymalnego zdrowia.\n\nTags: Specjalne, Zmiennokształtność, Wilkołak, Niewrażliwość, Fizyczne, Obrażenia, Odnowienie, Redukcja Obrażeń.",
 			"ptBR": "Sempre que Lacerar causa um acerto crítico, cura 3% da vida máxima.\n\nTags: Suprema, Metamorfose, Lobisomem, Imune, Física, Dano, Recarga, Redução de Dano.",
 			"ruRU": "Каждый раз, когда \"Раздирание\" наносит критический удар, вы восполняете 3% максимального запаса здоровья.\n\nTags: Мощное умение, Смена облика, Облик волка, Невосприимчивость, Физический урон, Урон, Время восстановления, Уменьшение урона.",
-			"zhCN": "疯狂撕咬每次对敌人造成暴击都会为你恢复 3% 生命上限。\n\nTags: 终极技能, 变形, 狼人, 免疫, 物理, 伤害, 冷却时间, 伤害减免."
+			"zhCN": "疯狂撕咬每次对敌人造成暴击都会为你恢复 3% 生命上限。\n\nTags: 终极技能, 变形, 狼人, 免疫, 物理, 伤害, 冷却时间, 伤害减免.",
+			"zhTW": "割裂每次造成爆擊時,使你恢復生命值上限的 3%。\n\nTags: 絕招, 變形, 狼人, 免疫, 物理, 傷害, 冷卻時間, 傷害減免."
 },
 		id: 121,
 		maxPoints: 1,
@@ -4666,7 +4912,8 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 			"plPL": "Największe Rany Szarpane",
 			"ptBR": "Lacerar Supremo",
 			"ruRU": "Неотвратимое раздирание",
-			"zhCN": "至极疯狂撕咬"
+			"zhCN": "至极疯狂撕咬",
+			"zhTW": "終極割裂"
 },
 		descriptionLocalized: {
 			"deDE": "Der erste Treffer mit Zerreißen erzielt garantiert einen kritischen Treffer und verursacht x150% mehr Schaden.\n\nTags: Ultimativ, Gestaltwandeln, Werwolf, Immun, Physisch, Schaden, Abklingzeit, Schadensreduktion.",
@@ -4679,7 +4926,8 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 			"plPL": "Pierwsze trafienie Ranami Szarpanymi jest gwarantowanym trafieniem krytycznym i zadaje obrażenia zwiększone o x150%.\n\nTags: Specjalne, Zmiennokształtność, Wilkołak, Niewrażliwość, Fizyczne, Obrażenia, Odnowienie, Redukcja Obrażeń.",
 			"ptBR": "O golpe inicial de Lacerar desfere um acerto crítico garantido e causa 150% de dano aumentado.\n\nTags: Suprema, Metamorfose, Lobisomem, Imune, Física, Dano, Recarga, Redução de Dano.",
 			"ruRU": "Первый удар \"Раздирания\" гарантированно наносит критический урон, увеличенный на x150%.\n\nTags: Мощное умение, Смена облика, Облик волка, Невосприимчивость, Физический урон, Урон, Время восстановления, Уменьшение урона.",
-			"zhCN": "疯狂撕咬的初始打击必定暴击并且造成的伤害提高 x150%。\n\nTags: 终极技能, 变形, 狼人, 免疫, 物理, 伤害, 冷却时间, 伤害减免."
+			"zhCN": "疯狂撕咬的初始打击必定暴击并且造成的伤害提高 x150%。\n\nTags: 终极技能, 变形, 狼人, 免疫, 物理, 伤害, 冷却时间, 伤害减免.",
+			"zhTW": "割裂的第一擊必定爆擊,且造成的傷害提高 x150%。\n\nTags: 絕招, 變形, 狼人, 免疫, 物理, 傷害, 冷卻時間, 傷害減免."
 },
 		id: 122,
 		maxPoints: 1,
@@ -4704,7 +4952,8 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"plPL": "Kataklizm",
 			"ptBR": "Cataclismo",
 			"ruRU": "Катаклизм",
-			"zhCN": "浩劫"
+			"zhCN": "浩劫",
+			"zhTW": "災變"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 62.175%\nEin massiver Sturm folgt Euch 8 Sek. lang. Wirbel stoßen Gegner zurück und wilde Blitzschläge verursachen 52% Schaden.\n\nTags: Ultimativ, Naturmagie, Sturm, Blitz, Schaden, Abklingzeit, Kontrollverlust.",
@@ -4717,7 +4966,8 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 62.175%\nPotężna burza podąża za tobą przez 8 sek. Tornada odrzucają wrogów, a wokół uderzają pioruny, zadając 52% pkt. obrażeń.\n\nTags: Specjalne, Magia Natury, Burza, Błyskawica, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 62.175%\nUma enorme tempestade segue você por 8 segundos. Ciclones repelem os inimigos e raios são lançados descontroladamente, causando 52% de dano.\n\nTags: Suprema, Magia da Natureza, Tempestade, Eletricidade, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 62.175%.\nПризывает разрушительную бурю, которая следует за вами в течение 8 сек. Появляющиеся вихри отбрасывают противников, а яростные разряды молнии наносят целям 52% ед. урона.\n\nTags: Мощное умение, Силы природы, Буря, Молния, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 62.175%\n一场巨大的风暴跟随着你, 持续 8 秒。龙卷风会击退敌人, 并用闪电狂野地打击敌人, 造成 52% 点伤害。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 62.175%\n一场巨大的风暴跟随着你, 持续 8 秒。龙卷风会击退敌人, 并用闪电狂野地打击敌人, 造成 52% 点伤害。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:62.175%\n巨大風暴會跟隨著你,持續 8 秒。旋風術會擊退敵人,並降下猛烈閃電造成 52% 點傷害。\n\nTags: 絕招, 自然魔法, 風暴, 電擊, 傷害, 冷卻時間, 控場."
 },
 		id: 123,
 		maxPoints: 1,
@@ -4742,7 +4992,8 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"plPL": "Większy Kataklizm",
 			"ptBR": "Cataclismo Primordial",
 			"ruRU": "Первозданный катаклизм",
-			"zhCN": "至尊浩劫"
+			"zhCN": "至尊浩劫",
+			"zhTW": "強烈災變"
 },
 		descriptionLocalized: {
 			"deDE": "Die Dauer von Kataklysmus wird um 2 Sek. erhöht.\n\nTags: Ultimativ, Naturmagie, Sturm, Blitz, Schaden, Abklingzeit, Kontrollverlust.",
@@ -4755,7 +5006,8 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"plPL": "Czas działania Kataklizmu jest wydłużony o 2 sek.\n\nTags: Specjalne, Magia Natury, Burza, Błyskawica, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "A duração de Cataclismo é aumentada em 2 segundos.\n\nTags: Suprema, Magia da Natureza, Tempestade, Eletricidade, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Время действия \"Катаклизма\" увеличивается на 2 сек.\n\nTags: Мощное умение, Силы природы, Буря, Молния, Урон, Время восстановления, Контроль.",
-			"zhCN": "浩劫的持续时间延长 2 秒。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控."
+			"zhCN": "浩劫的持续时间延长 2 秒。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控.",
+			"zhTW": "災變持續時間延長 2 秒。\n\nTags: 絕招, 自然魔法, 風暴, 電擊, 傷害, 冷卻時間, 控場."
 },
 		id: 124,
 		maxPoints: 1,
@@ -4779,7 +5031,8 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"plPL": "Największy Kataklizm",
 			"ptBR": "Cataclismo Supremo",
 			"ruRU": "Неотвратимый катаклизм",
-			"zhCN": "至极浩劫"
+			"zhCN": "至极浩劫",
+			"zhTW": "終極災變"
 },
 		descriptionLocalized: {
 			"deDE": "Von Kataklysmus verursachte Blitzschläge machen Gegner 2 Sek. lang verwundbar.\n\nTags: Ultimativ, Naturmagie, Sturm, Blitz, Schaden, Abklingzeit, Kontrollverlust.",
@@ -4792,7 +5045,8 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"plPL": "Uderzenia błyskawicy wywołane przez Kataklizm sprawiają, że wrogowie stają się odsłonięci na 2 sek.\n\nTags: Specjalne, Magia Natury, Burza, Błyskawica, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
 			"ptBR": "Os raios de Cataclismo tornam os inimigos vulneráveis por 2 segundos.\n\nTags: Suprema, Magia da Natureza, Tempestade, Eletricidade, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Удары молнии от \"Катаклизма\" делают противников уязвимыми на 2 сек.\n\nTags: Мощное умение, Силы природы, Буря, Молния, Урон, Время восстановления, Контроль.",
-			"zhCN": "浩劫造成的闪电打击会使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控."
+			"zhCN": "浩劫造成的闪电打击会使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控.",
+			"zhTW": "災變的閃電使敵人易傷 2 秒。\n\nTags: 絕招, 自然魔法, 風暴, 電擊, 傷害, 冷卻時間, 控場."
 },
 		id: 125,
 		maxPoints: 1,
@@ -4815,7 +5069,8 @@ Tags: Damage, Elite Monsters, Nature Magic.`,
 			"plPL": "Śmiałość",
 			"ptBR": "Desafio",
 			"ruRU": "Непокорность",
-			"zhCN": "蔑视"
+			"zhCN": "蔑视",
+			"zhTW": "反抗"
 },
 		descriptionLocalized: {
 			"deDE": "Naturmagiefertigkeiten fügen Elitegegnern x{4/8/12/16/20/24/28/32/36/40}% mehr Schaden zu.\n\nTags: Schaden, Elitemonster, Naturmagie.",
@@ -4828,7 +5083,8 @@ Tags: Damage, Elite Monsters, Nature Magic.`,
 			"plPL": "Umiejętności Magii Natury zadają wrogom elitarnym obrażenia zwiększone o x{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Obrażenia, Elitarne Potwory, Magia Natury.",
 			"ptBR": "Habilidades de Magia da Natureza causam {4/8/12/16/20/24/28/32/36/40}% de dano aumentado contra elites.\n\nTags: Dano, Monstros de Elite, Magia da Natureza.",
 			"ruRU": "Умения сил природы наносят на x{4/8/12/16/20/24/28/32/36/40}% больше урона особым противникам.\n\nTags: Урон, Особые монстры, Силы природы.",
-			"zhCN": "自然魔法技能对精英怪造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 伤害, 精英怪物, 自然魔法."
+			"zhCN": "自然魔法技能对精英怪造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 伤害, 精英怪物, 自然魔法.",
+			"zhTW": "自然魔法技能對精英怪的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 傷害, 精英怪物, 自然魔法."
 },
 		id: 126,
 		maxPoints: 3,
@@ -4851,7 +5107,8 @@ Tags: Healing, Nature Magic, Spirit.`,
 			"plPL": "Krąg Życia",
 			"ptBR": "Círculo da Vida",
 			"ruRU": "Круг жизни",
-			"zhCN": "生命循环"
+			"zhCN": "生命循环",
+			"zhTW": "生生不息"
 },
 		descriptionLocalized: {
 			"deDE": "Naturmagiefertigkeiten, die Geisteskraft verbrauchen, heilen Euch um {1/2/3/4/5/6/7/8/9/10}% Eures maximalen Lebens.\n\nTags: Heilung, Naturmagie, Geisteskraft.",
@@ -4864,7 +5121,8 @@ Tags: Healing, Nature Magic, Spirit.`,
 			"plPL": "Umiejętności Magii Natury, które zużywają siłę duchową, przywracają ci {1/2/3/4/5/6/7/8/9/10}% maksymalnego zdrowia.\n\nTags: Leczenie, Magia Natury, Siła Duchowa.",
 			"ptBR": "Habilidades de Magia da Natureza que consomem espírito curam {1/2/3/4/5/6/7/8/9/10}% da sua vida máxima.\n\nTags: Cura, Magia da Natureza, Espírito.",
 			"ruRU": "Умения сил природы, расходующие дух, восполняют вам {1/2/3/4/5/6/7/8/9/10}% максимального запаса здоровья.\n\nTags: Исцеление, Силы природы, Дух.",
-			"zhCN": "消耗灵力的自然魔法技能恢复你 {1/2/3/4/5/6/7/8/9/10}% 生命上限。\n\nTags: 治疗, 自然魔法, 灵力."
+			"zhCN": "消耗灵力的自然魔法技能恢复你 {1/2/3/4/5/6/7/8/9/10}% 生命上限。\n\nTags: 治疗, 自然魔法, 灵力.",
+			"zhTW": "消耗靈力的自然魔法技能可使你恢復生命值上限的 {1/2/3/4/5/6/7/8/9/10}%。\n\nTags: 治療, 自然魔法, 靈力."
 },
 		id: 127,
 		maxPoints: 3,
@@ -4887,7 +5145,8 @@ Tags: Damage, Nature Magic, Earth, Storm.`,
 			"plPL": "Rezonans",
 			"ptBR": "Ressonância",
 			"ruRU": "Резонанс",
-			"zhCN": "共鸣"
+			"zhCN": "共鸣",
+			"zhTW": "共鳴"
 },
 		descriptionLocalized: {
 			"deDE": "Naturmagiefertigkeiten verursachen x{2/4/6/8/10/12/14/16/18/20}% mehr Schaden. Dieser Bonus verdreifacht sich, wenn nach einer Sturmfertigkeit eine Erdfertigkeit gewirkt wird oder nach einer Erdfertigkeit eine Sturmfertigkeit gewirkt wird.\n\nTags: Schaden, Naturmagie, Erde, Sturm.",
@@ -4900,7 +5159,8 @@ Tags: Damage, Nature Magic, Earth, Storm.`,
 			"plPL": "Umiejętności Magii Natury zadają obrażenia zwiększone o x{2/4/6/8/10/12/14/16/18/20}%. Otrzymujesz trzykrotność tej premii, jeśli użyjesz umiejętności Ziemi po umiejętności Burzy lub na odwrót.\n\nTags: Obrażenia, Magia Natury, Ziemia, Burza.",
 			"ptBR": "Habilidades de Magia da Natureza causam {2/4/6/8/10/12/14/16/18/20}% de dano aumentado. O bônus é triplicado se uma habilidade de Terra for a próxima habilidade lançada após uma habilidade de Tempestade, ou se uma habilidade de Tempestade for a próxima habilidade lançada após uma habilidade de Terra.\n\nTags: Dano, Magia da Natureza, Terra, Tempestade.",
 			"ruRU": "Умения сил природы наносят на x{2/4/6/8/10/12/14/16/18/20}% больше урона. Бонус к урону утраивается, когда вы применяете умение земли сразу после умения бури или умение бури сразу после умения земли.\n\nTags: Урон, Силы природы, Земля, Буря.",
-			"zhCN": "自然魔法技能造成的伤害提高 x{2/4/6/8/10/12/14/16/18/20}%。在施放大地技能后施放风暴技能, 或在施放风暴技能之后施放大地技能, 可以使该加成变为原来的三倍。\n\nTags: 伤害, 自然魔法, 大地, 风暴."
+			"zhCN": "自然魔法技能造成的伤害提高 x{2/4/6/8/10/12/14/16/18/20}%。在施放大地技能后施放风暴技能, 或在施放风暴技能之后施放大地技能, 可以使该加成变为原来的三倍。\n\nTags: 伤害, 自然魔法, 大地, 风暴.",
+			"zhTW": "自然魔法技能的傷害提高 x{2/4/6/8/10/12/14/16/18/20}%。如果先施放風暴技能再施放大地技能,或先施放大地技能再施放風暴技能,此傷害加成將會變成三倍。\n\nTags: 傷害, 自然魔法, 大地, 風暴."
 },
 		id: 128,
 		maxPoints: 3,
@@ -4925,7 +5185,8 @@ Tags: Vulnerable, Damage, Crowd Control, Earth, Storm, Nature Magic.`,
 			"plPL": "Katastrofa Naturalna",
 			"ptBR": "Desastre Natural",
 			"ruRU": "Природная катастрофа",
-			"zhCN": "自然灾害"
+			"zhCN": "自然灾害",
+			"zhTW": "自然災害"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Erdfertigkeiten fügen verwundbaren Gegnern x{4/8/12/16/20/24/28/32/36/40}% mehr Schaden zu.\n\nEure Sturmfertigkeiten fügen betäubten, bewegungsunfähigen oder zurückgestoßenen Gegnern x{4/8/12/16/20/24/28/32/36/40}% mehr Schaden zu.\n\nTags: Verwundbar, Schaden, Kontrollverlust, Erde, Sturm, Naturmagie.",
@@ -4938,7 +5199,8 @@ Tags: Vulnerable, Damage, Crowd Control, Earth, Storm, Nature Magic.`,
 			"plPL": "Twoje umiejętności Ziemi zadają obrażenia zwiększone o x{4/8/12/16/20/24/28/32/36/40}% odsłoniętym wrogom.\n\nTwoje umiejętności Burzy zadają obrażenia zwiększone o x{4/8/12/16/20/24/28/32/36/40}% ogłuszonym, unieruchomionym lub odrzuconym wrogom.\n\nTags: Odsłonięcie, Obrażenia, Ograniczanie Kontroli, Ziemia, Burza, Magia Natury.",
 			"ptBR": "Suas habilidades de Terra causam {4/8/12/16/20/24/28/32/36/40}% de dano aumentado a inimigos vulneráveis.\n\nSuas habilidades de Tempestade causam {4/8/12/16/20/24/28/32/36/40}% de dano aumentado a inimigos atordoados, imobilizados ou repelidos.\n\nTags: Vulnerável, Dano, Controle de Grupo, Terra, Tempestade, Magia da Natureza.",
 			"ruRU": "Ваши умения земли наносят на x{4/8/12/16/20/24/28/32/36/40}% больше урона уязвимым противникам.\n\nВаши умения бури наносят на x{4/8/12/16/20/24/28/32/36/40}% больше урона оглушенным, обездвиженным и отброшенным противникам.\n\nTags: Уязвимость, Урон, Контроль, Земля, Буря, Силы природы.",
-			"zhCN": "你的大地技能对处于易伤状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\n你的风暴技能对处于昏迷、定身或击退状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易伤, 伤害, 群控, 大地, 风暴, 自然魔法."
+			"zhCN": "你的大地技能对处于易伤状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\n你的风暴技能对处于昏迷、定身或击退状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易伤, 伤害, 群控, 大地, 风暴, 自然魔法.",
+			"zhTW": "你的大地技能對易傷敵人造成的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\n你的風暴技能對被擊昏、定身或擊退的敵人造成的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易傷, 傷害, 控場, 大地, 風暴, 自然魔法."
 },
 		id: 129,
 		maxPoints: 3,
@@ -4966,7 +5228,8 @@ Tags: Earth, Storm, Damage, Nature Magic.`,
 			"plPL": "Gniew Natury",
 			"ptBR": "Fúria da Natureza",
 			"ruRU": "Гнев природы",
-			"zhCN": "自然之怒"
+			"zhCN": "自然之怒",
+			"zhTW": "自然之怒"
 },
 		descriptionLocalized: {
 			"deDE": "Beim Wirken einer Erdfertigkeit besteht eine Chance von 20%, eine kostenlose Sturmfertigkeit derselben Kategorie auszulösen.\n\nAußerdem besteht beim Wirken einer Sturmfertigkeit eine Chance von 20%, eine kostenlose Erdfertigkeit derselben Kategorie auszulösen.\n\nTags: Erde, Sturm, Schaden, Naturmagie.",
@@ -4979,7 +5242,8 @@ Tags: Earth, Storm, Damage, Nature Magic.`,
 			"plPL": "Użycie umiejętności Ziemi ma 20% szans na wywołanie darmowej umiejętności Burzy z tej samej kategorii.\n\nPonadto użycie umiejętności Burzy ma 20% szans na wywołanie darmowej umiejętności Ziemi z tej samej kategorii.\n\nTags: Ziemia, Burza, Obrażenia, Magia Natury.",
 			"ptBR": "Lançar uma habilidade de Terra tem 20% de chance de acionar uma habilidade de Tempestade gratuita da mesma categoria.\n\nAlém disso, lançar uma habilidade deTempestade tem 20% de chance de acionar uma habilidade de Terra gratuita da mesma categoria.\n\nTags: Terra, Tempestade, Dano, Magia da Natureza.",
 			"ruRU": "Ваши умения земли с вероятностью 20% также активируют умение бури той же категории без затрат ресурса.\n\nКроме того, ваши умения бури с вероятностью 20% активируют умение земли той же категории без затрат ресурса.\n\nTags: Земля, Буря, Урон, Силы природы.",
-			"zhCN": "施放一个大地技能有 20% 的几率触发一个免费的同类别风暴技能。\n\n此外, 施放一个风暴技能有 20% 的几率触发一个免费的同类别大地技能。\n\nTags: 大地, 风暴, 伤害, 自然魔法."
+			"zhCN": "施放一个大地技能有 20% 的几率触发一个免费的同类别风暴技能。\n\n此外, 施放一个风暴技能有 20% 的几率触发一个免费的同类别大地技能。\n\nTags: 大地, 风暴, 伤害, 自然魔法.",
+			"zhTW": "施展大地技能有 20% 機率觸發一次同類別的無消耗風暴技能。\n\n此外,施展風暴技能有 20% 機率觸發一次同類別的無消耗大地技能。\n\nTags: 大地, 風暴, 傷害, 自然魔法."
 },
 		id: 130,
 		maxPoints: 1,
@@ -5008,7 +5272,8 @@ Tags: Critical Strikes, Damage, Spirit, Lucky Hit, Earth, Crowd Control, Nature 
 			"plPL": "Potęga Ziemi",
 			"ptBR": "Poder Terreno",
 			"ruRU": "Мощь земли",
-			"zhCN": "大地之力"
+			"zhCN": "大地之力",
+			"zhTW": "大地之力"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Wenn Ihr Gegnern mit Erdfertigkeiten Schaden zufügt, besteht eine Chance von bis zu 5%, dass:\n• Eure gesamte Geisteskraft wiederhergestellt wird\n• Eure Angriffe 5 Sek. lang garantiert kritische Treffer erzielen\n\nDiese Chance erhöht sich um:\n• 10% für kritische Treffer\n• 10%, wenn das Ziel betäubt, bewegungsunfähig oder zurückgestoßen ist.\n\nTags: Kritische Treffer, Schaden, Geisteskraft, Glückstreffer, Erde, Kontrollverlust, Naturmagie.",
@@ -5021,7 +5286,8 @@ Tags: Critical Strikes, Damage, Spirit, Lucky Hit, Earth, Crowd Control, Nature 
 			"plPL": "Szczęśliwy traf: Zranienie wrogów przy pomocy umiejętności Ziemi zapewnia do 5% szans na wywołanie następujących efektów:\n• Przywrócenie całej siły duchowej\n• Sprawienie, że twoje ataki będą wywoływać gwarantowane trafienia krytyczne przez 5 sek.\n\nSzansa ta wzrasta o:\n• 10% dla trafień krytycznych\n• 10%, jeśli cel jest ogłuszony, unieruchomiony lub odrzucony.\n\nTags: Trafienia Krytyczne, Obrażenia, Siła Duchowa, Szczęśliwy Traf, Ziemia, Ograniczanie Kontroli, Magia Natury.",
 			"ptBR": "Golpe de Sorte: Causar dano a inimigos com habilidades de Terra tem até 5% de chance de:\n• Restaurar todo o seu espírito\n• Fazer com que seus ataques sejam acertos críticos garantidos por 5 segundos\n\nEssa chance é aumentada em:\n• 10% para acertos críticos\n• 10% se o alvo estiver atordoado, imobilizado ou repelido\n\nTags: Acertos Críticos, Dano, Espírito, Golpe de Sorte, Terra, Controle de Grupo, Magia da Natureza.",
 			"ruRU": "Удачный удар: когда вы наносите урон умениями земли, с вероятностью до 5% срабатывают следующие эффекты:\n• Вы полностью восполняете дух.\n• Ваши атаки гарантированно наносят критический урон в течение 5 сек.\n\nВероятность увеличивается:\n• На 10% в случае критического удара.\n• На 10%, если цель оглушена, обездвижена или отброшена.\n\nTags: Критические удары, Урон, Дух, Удачный удар, Земля, Контроль, Силы природы.",
-			"zhCN": "幸运一击: 使用大地技能对敌人造成伤害时, 最多有 5% 几率:\n• 恢复你的所有灵力\n• 使你的攻击必定暴击, 持续 5 秒\n\n该几率提高:\n• 造成暴击时, 几率提高 10%\n• 对处于昏迷、定身或击退状态的目标, 几率提高 10%\n\nTags: 暴击, 伤害, 灵力, 幸运一击, 大地, 群控, 自然魔法."
+			"zhCN": "幸运一击: 使用大地技能对敌人造成伤害时, 最多有 5% 几率:\n• 恢复你的所有灵力\n• 使你的攻击必定暴击, 持续 5 秒\n\n该几率提高:\n• 造成暴击时, 几率提高 10%\n• 对处于昏迷、定身或击退状态的目标, 几率提高 10%\n\nTags: 暴击, 伤害, 灵力, 幸运一击, 大地, 群控, 自然魔法.",
+			"zhTW": "幸運觸發:以大地技能對敵人造成傷害,最高有 5% 機率可以:\n• 恢復你所有靈力\n• 使你的攻擊必定爆擊,持續 5 秒\n\n此機率可提高:\n• 爆擊提高 10%\n• 目標遭擊昏、定身或擊退提高 10%\n\nTags: 爆擊, 傷害, 靈力, 幸運觸發, 大地, 控場, 自然魔法."
 },
 		id: 131,
 		maxPoints: 1,
@@ -5044,7 +5310,8 @@ Tags: Critical Strikes, Damage, Werewolf, Shapeshifting.`,
 			"plPL": "Wilcza Zajadłość",
 			"ptBR": "Ferocidade Lupina",
 			"ruRU": "Волчья свирепость",
-			"zhCN": "凶残狼性"
+			"zhCN": "凶残狼性",
+			"zhTW": "狼之怒"
 },
 		descriptionLocalized: {
 			"deDE": "Jeder 6. Treffer mit einer Werwolffertigkeit erzielt einen kritischen Treffer und verursacht x60% mehr Schaden.\n\nTags: Kritische Treffer, Schaden, Werwolf, Gestaltwandeln.",
@@ -5057,7 +5324,8 @@ Tags: Critical Strikes, Damage, Werewolf, Shapeshifting.`,
 			"plPL": "Co 6 trafienie umiejętnością Wilkołaka wywołuje trafienie krytyczne i zadaje obrażenia zwiększone o x60%.\n\nTags: Trafienia Krytyczne, Obrażenia, Wilkołak, Zmiennokształtność.",
 			"ptBR": "A cada 6º acerto, a habilidade de Lobisomem desfere um acerto crítico, causando 60% de dano aumentado.\n\nTags: Acertos Críticos, Dano, Lobisomem, Metamorfose.",
 			"ruRU": "Каждый 6-й удар умения волка становится критическим и наносит на x60% больше урона.\n\nTags: Критические удары, Урон, Облик волка, Смена облика.",
-			"zhCN": "每第 6 次狼人技能会暴击, 并且造成的伤害提高 x60%。\n\nTags: 暴击, 伤害, 狼人, 变形."
+			"zhCN": "每第 6 次狼人技能会暴击, 并且造成的伤害提高 x60%。\n\nTags: 暴击, 伤害, 狼人, 变形.",
+			"zhTW": "每第 6 個狼人技能會爆擊,造成的傷害提高 x60%。\n\nTags: 爆擊, 傷害, 狼人, 變形."
 },
 		id: 132,
 		maxPoints: 1,
@@ -5082,7 +5350,8 @@ Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 			"plPL": "Amok Bestii",
 			"ptBR": "Ira Bestial",
 			"ruRU": "Звериное буйство",
-			"zhCN": "兽性狂暴"
+			"zhCN": "兽性狂暴",
+			"zhTW": "野獸狂暴"
 },
 		descriptionLocalized: {
 			"deDE": "Nach 2.5 Sek. in Werwolfgestalt erhaltet Ihr 15 Sek. lang +20% Angriffsgeschwindigkeit.\n\nNach 2.5 Sek. in Werbärgestalt verursacht Ihr 15 Sek. lang x20% mehr Schaden.\n\nTags: Gestaltwandeln, Angriffsgeschwindigkeit, Schaden, Werwolf, Werbär.",
@@ -5095,7 +5364,8 @@ Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 			"plPL": "Po spędzeniu co najmniej 2.5 sek. pod postacią wilkołaka otrzymujesz premię +20% do szybkości ataku na 15 sek.\n\nPo spędzeniu co najmniej 2.5 sek. pod postacią niedźwiedziołaka zadajesz obrażenia zwiększone o x20% przez 15 sek.\n\nTags: Zmiennokształtność, Szybkość Ataku, Obrażenia, Wilkołak, Niedźwiedziołak.",
 			"ptBR": "Depois de ser um lobisomem por 2.5 segundos, recebe +20% de velocidade de ataque por 15 segundos.\n\nDepois de ser um urso por 2.5 segundos, causa 20% de dano aumentado por 15 segundos.\n\nTags: Metamorfose, Velocidade de Ataque, Dano, Lobisomem, Urso.",
 			"ruRU": "Если вы пробудете в облике волка в течение 2.5 сек., ваша скорость атаки повысится на +20% на 15 сек.\n\nПробыв в облике медведя в течение 2.5 сек., вы наносите на x20% больше урона в течение 15 сек.\n\nTags: Смена облика, Скорость атаки, Урон, Облик волка, Медведь.",
-			"zhCN": "变成狼人 2.5 秒后, 攻击速度提高 +20%, 持续 15 秒。\n\n变成熊人 2.5 秒后, 造成的伤害提高 x20%, 持续 15 秒。\n\nTags: 变形, 攻击速度, 伤害, 狼人, 熊人."
+			"zhCN": "变成狼人 2.5 秒后, 攻击速度提高 +20%, 持续 15 秒。\n\n变成熊人 2.5 秒后, 造成的伤害提高 x20%, 持续 15 秒。\n\nTags: 变形, 攻击速度, 伤害, 狼人, 熊人.",
+			"zhTW": "在變身狼人 2.5 秒後,獲得 +20% 攻擊速度,持續 15 秒。\n\n在變身熊人 2.5 秒後,造成的傷害提高 x20%,持續 15 秒。\n\nTags: 變形, 攻擊速度, 傷害, 狼人, 熊人."
 },
 		id: 133,
 		maxPoints: 1,
@@ -5118,7 +5388,8 @@ Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 			"plPL": "Gwałtowna Burza",
 			"ptBR": "Tempestade Perfeita",
 			"ruRU": "Буря в разгаре",
-			"zhCN": "完美风暴"
+			"zhCN": "完美风暴",
+			"zhTW": "完美風暴"
 },
 		descriptionLocalized: {
 			"deDE": "Von Euch gewirkte Sturmfertigkeiten verleihen 1 Geisteskraft und fügen einem verwundbaren, bewegungsunfähigen oder verlangsamten Gegner x15% mehr Schaden zu.\n\nTags: Verwundbar, Schaden, Geisteskraft, Sturm, Kontrollverlust, Naturmagie.",
@@ -5131,7 +5402,8 @@ Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 			"plPL": "Twoje umiejętności Burzy zapewniają 1 pkt. siły duchowej i zadają obrażenia zwiększone o x15%, gdy ranią cele odsłonięte, unieruchomione lub spowolnione.\n\nTags: Odsłonięcie, Obrażenia, Siła Duchowa, Burza, Ograniczanie Kontroli, Magia Natury.",
 			"ptBR": "As habilidades de Tempestade lançadas por você concedem 1 de espírito e causam 15% de dano aumentado ao atingir um inimigo vulnerável, imobilizado ou desacelerado.\n\nTags: Vulnerável, Dano, Espírito, Tempestade, Controle de Grupo, Magia da Natureza.",
 			"ruRU": "Примененные вами умения бури восполняют 1 ед. духа и наносят на x15% больше урона уязвимым, обездвиженным и замедленным противникам.\n\nTags: Уязвимость, Урон, Дух, Буря, Контроль, Силы природы.",
-			"zhCN": "你施放的风暴技能给予 1 点灵力, 并且对处于易伤、定身或减速状态的敌人造成的伤害提高 x15%。\n\nTags: 易伤, 伤害, 灵力, 风暴, 群控, 自然魔法."
+			"zhCN": "你施放的风暴技能给予 1 点灵力, 并且对处于易伤、定身或减速状态的敌人造成的伤害提高 x15%。\n\nTags: 易伤, 伤害, 灵力, 风暴, 群控, 自然魔法.",
+			"zhTW": "你施放的風暴技能會賦予 1 點靈力,並對易傷、定身或緩速敵人的傷害提高 x15%。\n\nTags: 易傷, 傷害, 靈力, 風暴, 控場, 自然魔法."
 },
 		id: 134,
 		maxPoints: 1,
@@ -5156,7 +5428,8 @@ Tags: Healthy, Shapeshifting, Life, Werebear, Damage.`,
 			"plPL": "Niedźwiedzia Siła",
 			"ptBR": "Força Ursina",
 			"ruRU": "Медвежья сила",
-			"zhCN": "巨熊之力"
+			"zhCN": "巨熊之力",
+			"zhTW": "熊之力"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet in Werbärgestalt sowie 3 Sek. nach dem Verlassen der Werbärgestalt zusätzlich x20% maximales Leben.\n\nWenn Ihr gesund seid, verursacht Ihr x30% mehr Schaden.\n\nTags: Gesund, Gestaltwandeln, Leben, Werbär, Schaden.",
@@ -5169,7 +5442,8 @@ Tags: Healthy, Shapeshifting, Life, Werebear, Damage.`,
 			"plPL": "Twoje maksymalne zdrowie jest zwiększone o x20%, kiedy jesteś pod postacią niedźwiedziołaka, oraz na 3 sek. po wyjściu z tej postaci.\n\nKiedy jesteś w pełni sił, zadajesz obrażenia zwiększone o x30%.\n\nTags: Pełnia Sił, Zmiennokształtność, Zdrowie, Niedźwiedziołak, Obrażenia.",
 			"ptBR": "Recebe 20% de vida máxima adicional enquanto está na forma de urso e por 3 segundos depois de sair da forma de urso.\n\nEnquanto você está saudável, causa 30% de dano aumentado.\n\nTags: Saudável, Metamorfose, Vida, Urso, Dano.",
 			"ruRU": "Ваш максимальный запас здоровья увеличивается на x20%, пока вы находитесь в облике медведя и еще в течение 3 сек. после смены облика.\n\nПока у вас высокий уровень здоровья, вы наносите на x30% больше урона.\n\nTags: Высокое здоровье, Смена облика, Здоровье, Медведь, Урон.",
-			"zhCN": "熊人形态下的生命上限额外提高 x20%, 离开熊人形态后, 该效果还会持续 3 秒。\n\n健康状态下, 造成的伤害提高 x30%。\n\nTags: 健康, 变形, 生命, 熊人, 伤害."
+			"zhCN": "熊人形态下的生命上限额外提高 x20%, 离开熊人形态后, 该效果还会持续 3 秒。\n\n健康状态下, 造成的伤害提高 x30%。\n\nTags: 健康, 变形, 生命, 熊人, 伤害.",
+			"zhTW": "在熊人形態下與解除熊人形態後 3 秒內,你的生命值上限提高 x20%。\n\n在健康狀態下,你造成的傷害提高 x30%。\n\nTags: 健康, 變形, 生命值, 熊人, 傷害."
 },
 		id: 135,
 		maxPoints: 1,

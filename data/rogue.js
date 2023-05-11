@@ -62,7 +62,8 @@ Tags: Basic, Cutthroat, Damage, Physical.`,
 			"plPL": "Taniec Ostrzy",
 			"ptBR": "Lâmina Ágil",
 			"ruRU": "Блуждающий клинок",
-			"zhCN": "锋刃闪转"
+			"zhCN": "锋刃闪转",
+			"zhTW": "移行之刃"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Kombopunkte: 1\nGlückstrefferchance: 35%\nStecht schnell auf Euer Ziel ein, fügt ihm {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% Schaden zu und gleitet, wodurch Ihr Euch 3 Sek. lang frei durch Gegner bewegen könnt.\n\nTags: Basis, Meucheln, Schaden, Physisch.",
@@ -75,7 +76,8 @@ Tags: Basic, Cutthroat, Damage, Physical.`,
 			"plPL": "Generuje: 1 pkt. kombinacji\nSzansa na szczęśliwy traf: 35%\nSzybko przebijasz ofiarę ostrzem i zadajesz jej {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% pkt. obrażeń, a następnie przemieniasz się, aby przenikać przez wrogów przez 3 sek.\n\nTags: Podstawowe, Napaść, Obrażenia, Fizyczne.",
 			"ptBR": "Gerar Ponto de Combo: 1\nChance de Golpe de Sorte: 35%\nApunhala rapidamente a vítima, causando {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de dano e deslocando-se, permitindo que você se mova livremente através de inimigos por 3 segundos.\n\nTags: Básica, Degola, Dano, Física.",
 			"ruRU": "Продлевает серию приемов на 1.\nВероятность удачного удара: 35%.\nВы стремительно пронзаете цель, нанося {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% ед. урона, и переходите в другое измерение, получая возможность проходить сквозь врагов в течение 3 сек.\n\nTags: Базовое, Головорез, Урон, Физический урон.",
-			"zhCN": "生成连击点数: 1\n幸运一击几率: 35%\n快速刺击你的受害者, 造成 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 点伤害并闪转腾挪, 使你可以自由地穿过敌人, 持续 3 秒。\n\nTags: 基础, 刺杀, 伤害, 物理."
+			"zhCN": "生成连击点数: 1\n幸运一击几率: 35%\n快速刺击你的受害者, 造成 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 点伤害并闪转腾挪, 使你可以自由地穿过敌人, 持续 3 秒。\n\nTags: 基础, 刺杀, 伤害, 物理.",
+			"zhTW": "產生連擊點數:1\n幸運觸發機率:35%\n快刀捅進被害者,造成 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 點傷害並移行,讓你可以自由穿越敵人,持續 3 秒。\n\nTags: 基本, 割喉, 傷害, 物理."
 },
 		id: 0,
 		maxPoints: 5,
@@ -99,7 +101,8 @@ Tags: Basic, Cutthroat, Damage, Physical.`,
 			"plPL": "Wzmocniony Taniec Ostrzy",
 			"ptBR": "Lâmina Ágil Aperfeiçoada",
 			"ruRU": "Усиленный блуждающий клинок",
-			"zhCN": "强化锋刃闪转"
+			"zhCN": "强化锋刃闪转",
+			"zhTW": "強化移行之刃"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem Gegner mit Gleitklinge Schaden zufügt, erhaltet Ihr +5% Bewegungsgeschwindigkeit, während Gleitklinge aktiv ist, bis maximal +20%.\n\nTags: Basis, Meucheln, Schaden, Physisch.",
@@ -112,7 +115,8 @@ Tags: Basic, Cutthroat, Damage, Physical.`,
 			"plPL": "Zranienie wroga przy użyciu Tańca Ostrzy zapewnia ci premię +5% do szybkości ruchu, kiedy Taniec Ostrzy jest aktywny, maksymalnie do +20%.\n\nTags: Podstawowe, Napaść, Obrażenia, Fizyczne.",
 			"ptBR": "Causar dano a um inimigo com Lâmina Ágil concede +5% de velocidade de movimento enquanto Lâmina Ágil está ativa, até +20%.\n\nTags: Básica, Degola, Dano, Física.",
 			"ruRU": "Когда \"Блуждающий клинок\" наносит противнику урон, ваша скорость передвижения повышается на +5% на время действия умения, вплоть до +20%.\n\nTags: Базовое, Головорез, Урон, Физический урон.",
-			"zhCN": "锋刃闪转激活时, 使用锋刃闪转对一名敌人造成伤害会使移动速度提高 +5%, 最多提高 +20%。\n\nTags: 基础, 刺杀, 伤害, 物理."
+			"zhCN": "锋刃闪转激活时, 使用锋刃闪转对一名敌人造成伤害会使移动速度提高 +5%, 最多提高 +20%。\n\nTags: 基础, 刺杀, 伤害, 物理.",
+			"zhTW": "以移行之刃對敵人造成傷害,會在移行之刃作用期間使你的移動速度提高 +5%,最多提高 +20%。\n\nTags: 基本, 割喉, 傷害, 物理."
 },
 		id: 1,
 		maxPoints: 1,
@@ -136,7 +140,8 @@ Tags: Basic, Cutthroat, Damage, Physical.`,
 			"plPL": "Fundamentalny Taniec Ostrzy",
 			"ptBR": "Lâmina Ágil Fundamental",
 			"ruRU": "Фундаментальный блуждающий клинок",
-			"zhCN": "基础锋刃闪转"
+			"zhCN": "基础锋刃闪转",
+			"zhTW": "基要移行之刃"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Euch durch Gegner hindurchbewegt, während Gleitklinge aktiv ist, wird ihre Dauer aktualisiert. Wenn Ihr Euch 5-mal durch Gegner hindurchbewegt habt, wird Eure nächste Gleitklinge Gegner 2 Sek. lang benommen machen.\n\nTags: Basis, Meucheln, Schaden, Physisch.",
@@ -149,7 +154,8 @@ Tags: Basic, Cutthroat, Damage, Physical.`,
 			"plPL": "Przenikanie przez wrogów, kiedy Taniec Ostrzy jest aktywny, odświeża czas jego działania. Po przeniknięciu wrogów 5 razy twój następny Taniec Ostrzy oszałamia wrogów na 2 sek.\n\nTags: Podstawowe, Napaść, Obrażenia, Fizyczne.",
 			"ptBR": "Mover-se através de inimigos enquanto Lâmina Ágil está ativa atualiza sua duração. Depois de se mover através de inimigos 5 vezes, sua próxima Lâmina Ágil aplicará torpor nos inimigos por 2 segundos.\n\nTags: Básica, Degola, Dano, Física.",
 			"ruRU": "Когда вы проходите сквозь противников во время действия \"Блуждающего клинка\" время действия умения обновляется. Когда вы проходите сквозь противников 5 раза:раз, следующий \"Блуждающий клинок\" вызывает у противников головокружение на 2 сек.\n\nTags: Базовое, Головорез, Урон, Физический урон.",
-			"zhCN": "锋刃闪转激活期间穿过敌人会刷新其持续时间。穿过敌人 5 次后, 你的下一次锋刃闪转会眩晕敌人 2 秒。\n\nTags: 基础, 刺杀, 伤害, 物理."
+			"zhCN": "锋刃闪转激活期间穿过敌人会刷新其持续时间。穿过敌人 5 次后, 你的下一次锋刃闪转会眩晕敌人 2 秒。\n\nTags: 基础, 刺杀, 伤害, 物理.",
+			"zhTW": "在移行之刃效果期間穿過敵人可重置其持續時間。穿過敵人 5 次後,你的下一個移行之刃會使敵人暈眩,持續 2 秒。\n\nTags: 基本, 割喉, 傷害, 物理."
 },
 		id: 2,
 		maxPoints: 1,
@@ -173,7 +179,8 @@ Tags: Basic, Cutthroat, Damage, Physical.`,
 			"plPL": "Podstawowy Taniec Ostrzy",
 			"ptBR": "Lâmina Ágil Primária",
 			"ruRU": "Основной блуждающий клинок",
-			"zhCN": "主要锋刃闪转"
+			"zhCN": "主要锋刃闪转",
+			"zhTW": "首要移行之刃"
 },
 		descriptionLocalized: {
 			"deDE": "Während Gleitklinge aktiv ist, werden all Eure nichtphysischen Widerstände um 15% erhöht und die Dauer von eingehenden Kontrollverlusteffekten um 20% reduziert.\n\nTags: Basis, Meucheln, Schaden, Physisch.",
@@ -186,7 +193,8 @@ Tags: Basic, Cutthroat, Damage, Physical.`,
 			"plPL": "Kiedy Taniec Ostrzy jest aktywny, zyskujesz premię 15% do wszystkich odporności niefizycznych i skracasz czas działania ograniczenia kontroli o 20%.\n\nTags: Podstawowe, Napaść, Obrażenia, Fizyczne.",
 			"ptBR": "Enquanto Lâmina Ágil está ativa, você recebe 15% para todas as resistências a dano não físico e reduz a duração de efeitos de controle recebidos em 20%.\n\nTags: Básica, Degola, Dano, Física.",
 			"ruRU": "Пока действует \"Блуждающий клинок\", сопротивление всем видам нефизического урона повышается на 15%, а время действия применяемых к вам эффектов контроля сокращается на 20%.\n\nTags: Базовое, Головорез, Урон, Физический урон.",
-			"zhCN": "锋刃闪转激活时, 你的所有非物理抗性提高 15%, 并使所有受到的控制类限制效果的持续时间缩短 20%。\n\nTags: 基础, 刺杀, 伤害, 物理."
+			"zhCN": "锋刃闪转激活时, 你的所有非物理抗性提高 15%, 并使所有受到的控制类限制效果的持续时间缩短 20%。\n\nTags: 基础, 刺杀, 伤害, 物理.",
+			"zhTW": "當移行之刃啟動時,你會獲得 15% 所有非物理抗性,並使所受到的控場效果持續時間降低 20%。\n\nTags: 基本, 割喉, 傷害, 物理."
 },
 		id: 3,
 		maxPoints: 1,
@@ -211,7 +219,8 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 			"plPL": "Ożywcze Uderzenie",
 			"ptBR": "Golpe Revigorante",
 			"ruRU": "Живительный удар",
-			"zhCN": "振奋打击"
+			"zhCN": "振奋打击",
+			"zhTW": "振奮之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Kombopunkte: 1\nGlückstrefferchance: 50%\nGreift einen Gegner im Nahkampf an, verursacht {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% Schaden und erhöht die Energieregeneration 3 Sek. lang um x20%.\n\nTags: Basis, Meucheln, Schaden, Physisch, Energie.",
@@ -224,7 +233,8 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 			"plPL": "Generuje: 1 pkt. kombinacji\nSzansa na szczęśliwy traf: 50%\nAtakujesz wroga wręcz, zadając {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% pkt. obrażeń i zwiększając regenerację energii o x20% przez 3 sek.\n\nTags: Podstawowe, Napaść, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Gerar Ponto de Combo: 1\nChance de Golpe de Sorte: 50%\nAtaca um inimigo em corpo a corpo, causando {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de dano e aumentando a regeneração de energia em 20% por 3 segundos.\n\nTags: Básica, Degola, Dano, Física, Energia.",
 			"ruRU": "Продлевает серию приемов на 1.\nВероятность удачного удара: 50%.\nВы атакуете противника в ближнем бою, нанося {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% ед. урона. При этом ваша скорость восстановления энергии увеличивается на x20% на 3 сек.\n\nTags: Базовое, Головорез, Урон, Физический урон, Энергия.",
-			"zhCN": "生成连击点数: 1\n幸运一击几率: 50%\n近战攻击一名敌人时造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害, 并且使能量回复速度提高 x20%, 持续 3 秒。\n\nTags: 基础, 刺杀, 伤害, 物理, 能量."
+			"zhCN": "生成连击点数: 1\n幸运一击几率: 50%\n近战攻击一名敌人时造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害, 并且使能量回复速度提高 x20%, 持续 3 秒。\n\nTags: 基础, 刺杀, 伤害, 物理, 能量.",
+			"zhTW": "產生連擊點數:1\n幸運觸發機率:50%\n對敵人施展近戰攻擊,造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 點傷害,並使能量恢復提高 x20%,持續 3 秒。\n\nTags: 基本, 割喉, 傷害, 物理, 能量."
 },
 		id: 4,
 		maxPoints: 5,
@@ -248,7 +258,8 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 			"plPL": "Wzmocnione Ożywcze Uderzenie",
 			"ptBR": "Golpe Revigorante Aperfeiçoado",
 			"ruRU": "Усиленный живительный удар",
-			"zhCN": "强化振奋打击"
+			"zhCN": "强化振奋打击",
+			"zhTW": "強化振奮之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem Gegner, der unter Kontrollverlusteffekten leidet oder verwundet ist, mit Belebender Schlag Schaden zufügt, erhöht sich der Bonus auf Energieregeneration auf x30%.\n\nTags: Basis, Meucheln, Schaden, Physisch, Energie.",
@@ -261,7 +272,8 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 			"plPL": "Zadawanie Ożywczym Uderzeniem obrażeń wrogowi okaleczonemu lub o ograniczonej kontroli zwiększa premię do regeneracji energii zapewnianą przez tę moc do x30%.\n\nTags: Podstawowe, Napaść, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Causar dano a um inimigo sob controle de grupo ou ferido com Golpe Revigorante aumenta o bônus de regeneração de energia em 30%.\n\nTags: Básica, Degola, Dano, Física, Energia.",
 			"ruRU": "Когда \"Живительный удар\" наносит урон противнику с низким уровнем здоровья или цели под действием эффектов контроля, бонус к скорости восстановления энергии этого умения повышается до x30%.\n\nTags: Базовое, Головорез, Урон, Физический урон, Энергия.",
-			"zhCN": "使用振奋打击对一名被群控或受伤的敌人造成伤害, 会使其能量回复速度加成提高至 x30%。\n\nTags: 基础, 刺杀, 伤害, 物理, 能量."
+			"zhCN": "使用振奋打击对一名被群控或受伤的敌人造成伤害, 会使其能量回复速度加成提高至 x30%。\n\nTags: 基础, 刺杀, 伤害, 物理, 能量.",
+			"zhTW": "以振奮之擊對受控場或受傷的敵人造成傷害時,會使其能量恢復加成提高 x30%。\n\nTags: 基本, 割喉, 傷害, 物理, 能量."
 },
 		id: 5,
 		maxPoints: 1,
@@ -285,7 +297,8 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 			"plPL": "Podstawowe Ożywcze Uderzenie",
 			"ptBR": "Golpe Revigorante Primário",
 			"ruRU": "Основной живительный удар",
-			"zhCN": "主要振奋打击"
+			"zhCN": "主要振奋打击",
+			"zhTW": "首要振奮之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Belebender Schlag verleiht außerdem +8% Glückstrefferchance. Wenn Ihr einen Gegner trefft, der unter Kontrollverlusteffekten leidet oder verwundet ist, wird dieser Bonus auf +16% Glückstrefferchance erhöht.\n\nTags: Basis, Meucheln, Schaden, Physisch, Energie.",
@@ -298,7 +311,8 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 			"plPL": "Ożywcze Uderzenie dodatkowo zapewnia premię +8% do szansy na szczęśliwy traf. Trafienie wroga okaleczonego lub o ograniczonej kontroli zwiększa tę premię do +16%.\n\nTags: Podstawowe, Napaść, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Golpe Revigorante também concede +8% de chance de Golpe de Sorte. Atingir um inimigo sob controle de grupo ou ferido aumenta esse bônus em +16% de chance de Golpe de Sorte.\n\nTags: Básica, Degola, Dano, Física, Energia.",
 			"ruRU": "\"Живительный удар\" дополнительно повышает вероятность удачного удара на +8%. Когда вы поражаете противника с низким уровнем здоровья или цель под действием эффектов контроля, этот бонус увеличивается до +16%.\n\nTags: Базовое, Головорез, Урон, Физический урон, Энергия.",
-			"zhCN": "振奋打击额外给予 +8% 的幸运一击几率。命中一名被群控或受伤的敌人时, 使该加成提高至 +16%。\n\nTags: 基础, 刺杀, 伤害, 物理, 能量."
+			"zhCN": "振奋打击额外给予 +8% 的幸运一击几率。命中一名被群控或受伤的敌人时, 使该加成提高至 +16%。\n\nTags: 基础, 刺杀, 伤害, 物理, 能量.",
+			"zhTW": "振奮之擊額外賦予 +8% 幸運觸發機率。擊中受控場或受傷的敵人可使此加成效果提升至 +16% 幸運觸發機率。\n\nTags: 基本, 割喉, 傷害, 物理, 能量."
 },
 		id: 7,
 		maxPoints: 1,
@@ -322,7 +336,8 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 			"plPL": "Fundamentalne Ożywcze Uderzenie",
 			"ptBR": "Golpe Revigorante Fundamental",
 			"ruRU": "Фундаментальный живительный удар",
-			"zhCN": "基础振奋打击"
+			"zhCN": "基础振奋打击",
+			"zhTW": "基要振奮之擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen Gegner mit Belebender Schlag trefft, während Ihr über weniger als 50% Energie verfügt, wird dieser 3 Sek. lang verwundbar.\n\nTags: Basis, Meucheln, Schaden, Physisch, Energie.",
@@ -335,7 +350,8 @@ Tags: Basic, Cutthroat, Damage, Physical, Energy.`,
 			"plPL": "Wróg trafiony Ożywczym Uderzeniem, kiedy twój poziom energii jest poniżej 50%, staje się odsłonięty na 3 sek.\n\nTags: Podstawowe, Napaść, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Acertar um inimigo com Golpe Revigorante enquanto você estiver abaixo de 50% de energia torna-o vulnerável por 3 segundos.\n\nTags: Básica, Degola, Dano, Física, Energia.",
 			"ruRU": "Когда вы поражаете противника \"Живительным ударом\", пока ваш запас энергии ниже 50%, он становится уязвимым на 3 сек.\n\nTags: Базовое, Головорез, Урон, Физический урон, Энергия.",
-			"zhCN": "能量低于 50% 时, 使用振奋打击命中一名敌人会使其陷入易伤状态, 持续 3 秒。\n\nTags: 基础, 刺杀, 伤害, 物理, 能量."
+			"zhCN": "能量低于 50% 时, 使用振奋打击命中一名敌人会使其陷入易伤状态, 持续 3 秒。\n\nTags: 基础, 刺杀, 伤害, 物理, 能量.",
+			"zhTW": "當你在低於 50% 點能量的情況下,以振奮之擊擊中敵人時,會使其易傷 3 秒。\n\nTags: 基本, 割喉, 傷害, 物理, 能量."
 },
 		id: 6,
 		maxPoints: 1,
@@ -360,7 +376,8 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 			"plPL": "Rana Kłuta",
 			"ptBR": "Puncionar",
 			"ruRU": "Колющий удар",
-			"zhCN": "穿刺飞刀"
+			"zhCN": "穿刺飞刀",
+			"zhTW": "穿刺飛刀"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Kombopunkte: 1\nGlückstrefferchance: 35%\nWerft Klingen über eine kurze Distanz und verursacht {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% Schaden. Jeder 3. Einsatz verlangsamt Gegner 2 Sek. lang um 20%. Kritische Treffer verlangsamen immer.\n\nTags: Basis, Präzision, Kontrollverlust, Kritische Treffer, Schaden, Physisch.",
@@ -373,7 +390,8 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 			"plPL": "Generuje: 1 pkt. kombinacji\nSzansa na szczęśliwy traf: 35%\nRzucasz ostrzami na niewielką odległość, zadając {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% pkt. obrażeń. Co 3 użycie spowalnia wrogów o 20% na 2 sek. Trafienia krytyczne zawsze spowalniają cele.\n\nTags: Podstawowe, Strzelectwo, Ograniczanie Kontroli, Trafienia Krytyczne, Obrażenia, Fizyczne.",
 			"ptBR": "Gerar Ponto de Combo: 1\nChance de Golpe de Sorte: 35%\nArremessa lâminas por uma curta distância, causando {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% de dano. Cada 3° lançamento desacelera inimigos em 20% por 2 segundos. Acertos críticos sempre aplicarão lentidão.\n\nTags: Básica, Atirador, Controle de Grupo, Acertos Críticos, Dano, Física.",
 			"ruRU": "Продлевает серию приемов на 1.\nВероятность удачного удара: 35%.\nВы бросаете на короткое расстояние клинки, наносящие {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% ед. урона. Каждое 3-е применение замедляет противников на 20% на 2 сек. Критические удары всегда замедляют цели.\n\nTags: Базовое, Стрелок, Контроль, Критические удары, Урон, Физический урон.",
-			"zhCN": "生成连击点数: 1\n幸运一击几率: 35%\n短距离扔出你的飞刀, 造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 点伤害。每第 3 次施放会使敌人减速 20%, 持续 2 秒。暴击必定造成减速。\n\nTags: 基础, 神射手, 群控, 暴击, 伤害, 物理."
+			"zhCN": "生成连击点数: 1\n幸运一击几率: 35%\n短距离扔出你的飞刀, 造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 点伤害。每第 3 次施放会使敌人减速 20%, 持续 2 秒。暴击必定造成减速。\n\nTags: 基础, 神射手, 群控, 暴击, 伤害, 物理.",
+			"zhTW": "產生連擊點數:1\n幸運觸發機率:35%\n丟出短距離飛行的刀刃,造成 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% 點傷害。每第 3 次施放會使敵人緩速 20%,持續 2 秒。爆擊時必定緩速。\n\nTags: 基本, 射手, 控場, 爆擊, 傷害, 物理."
 },
 		id: 8,
 		maxPoints: 5,
@@ -397,7 +415,8 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 			"plPL": "Wzmocniona Rana Kłuta",
 			"ptBR": "Puncionar Aperfeiçoado",
 			"ruRU": "Усиленный колющий удар",
-			"zhCN": "强化穿刺飞刀"
+			"zhCN": "强化穿刺飞刀",
+			"zhTW": "強化穿刺飛刀"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet 2 Energie, wenn Einstich einem Gegner Schaden zufügt, der unter Kontrollverlusteffekten leidet.\n\nTags: Basis, Präzision, Kontrollverlust, Kritische Treffer, Schaden, Physisch.",
@@ -410,7 +429,8 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 			"plPL": "Zyskujesz 2 pkt. energii, kiedy Rana Kłuta zada obrażenia wrogowi o ograniczonej kontroli.\n\nTags: Podstawowe, Strzelectwo, Ograniczanie Kontroli, Trafienia Krytyczne, Obrażenia, Fizyczne.",
 			"ptBR": "Recebe 2 de energia quando Puncionar causa dano a um inimigo sob controle de grupo.\n\nTags: Básica, Atirador, Controle de Grupo, Acertos Críticos, Dano, Física.",
 			"ruRU": "Вы накапливаете 2 ед. энергии, когда \"Колющий удар\" наносит урон противнику под действием эффектов контроля.\n\nTags: Базовое, Стрелок, Контроль, Критические удары, Урон, Физический урон.",
-			"zhCN": "穿刺飞刀对被群控的敌人造成伤害时获得 2 点能量。\n\nTags: 基础, 神射手, 群控, 暴击, 伤害, 物理."
+			"zhCN": "穿刺飞刀对被群控的敌人造成伤害时获得 2 点能量。\n\nTags: 基础, 神射手, 群控, 暴击, 伤害, 物理.",
+			"zhTW": "當穿刺飛刀對受控場效果影響的敵人造成傷害時,獲得 2 點能量。\n\nTags: 基本, 射手, 控場, 爆擊, 傷害, 物理."
 },
 		id: 9,
 		maxPoints: 1,
@@ -434,7 +454,8 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 			"plPL": "Fundamentalna Rana Kłuta",
 			"ptBR": "Puncionar Fundamental",
 			"ruRU": "Фундаментальный колющий удар",
-			"zhCN": "基础穿刺飞刀"
+			"zhCN": "基础穿刺飞刀",
+			"zhTW": "基要穿刺飛刀"
 },
 		descriptionLocalized: {
 			"deDE": "Einstich schleudert jetzt 3 Klingen in einer Fächerform, wobei jede 35% des Basisschadens verursacht. Wenn ein Gegner mit mindestens 2 Klingen gleichzeitig getroffen wird, wird er 2 Sek. lang verwundbar.\n\nTags: Basis, Präzision, Kontrollverlust, Kritische Treffer, Schaden, Physisch.",
@@ -447,7 +468,8 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 			"plPL": "Rana Kłuta powoduje teraz ciśnięcie 3 ostrzami na obszar w kształcie wachlarza. Każde z nich zadaje 35% podstawowych obrażeń od Rany Kłutej. Wróg trafiony co najmniej 2 ostrzami naraz staje się odsłonięty na 2 sek.\n\nTags: Podstawowe, Strzelectwo, Ograniczanie Kontroli, Trafienia Krytyczne, Obrażenia, Fizyczne.",
 			"ptBR": "Puncionar agora arremessa 3 lâminas em uma área. Cada uma causa 35% do dano-base. Atingir um inimigo com pelo menos 2 lâminas de uma vez torna-o vulnerável por 2 segundos.\n\nTags: Básica, Atirador, Controle de Grupo, Acertos Críticos, Dano, Física.",
 			"ruRU": "\"Колющий удар\" теперь выпускает веером 3 клинка, наносящие по 35% базового урона. Если хотя бы 2 клинка поражают одну цель, она становится уязвимой на 2 сек.\n\nTags: Базовое, Стрелок, Контроль, Критические удары, Урон, Физический урон.",
-			"zhCN": "现在穿刺飞刀会投掷 3 把散开的刀刃, 每把造成 35% 的基础伤害。一次至少用 2 把飞刀命中一名敌人将使其陷入易伤状态, 持续 2 秒。\n\nTags: 基础, 神射手, 群控, 暴击, 伤害, 物理."
+			"zhCN": "现在穿刺飞刀会投掷 3 把散开的刀刃, 每把造成 35% 的基础伤害。一次至少用 2 把飞刀命中一名敌人将使其陷入易伤状态, 持续 2 秒。\n\nTags: 基础, 神射手, 群控, 暴击, 伤害, 物理.",
+			"zhTW": "穿刺飛刀會散射出 3 把刀刃,每把造成相當於其基礎傷害的 35%。以至少 2 把刀刃擊中一名敵人時,會使其易傷 2 秒。\n\nTags: 基本, 射手, 控場, 爆擊, 傷害, 物理."
 },
 		id: 10,
 		maxPoints: 1,
@@ -471,7 +493,8 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 			"plPL": "Podstawowa Rana Kłuta",
 			"ptBR": "Puncionar Primário",
 			"ruRU": "Основной колющий удар",
-			"zhCN": "主要穿刺飞刀"
+			"zhCN": "主要穿刺飞刀",
+			"zhTW": "首要穿刺飛刀"
 },
 		descriptionLocalized: {
 			"deDE": "Jeder 3. Einsatz von Einstich prallt außerdem bis zu 2-mal ab. Kritische Treffer prallen immer ab.\n\nTags: Basis, Präzision, Kontrollverlust, Kritische Treffer, Schaden, Physisch.",
@@ -484,7 +507,8 @@ Tags: Basic, Marksman, Crowd Control, Critical Strikes, Damage, Physical.`,
 			"plPL": "Co 3 użycie Rany Kłutej rykoszetuje maksymalnie 2 razy. Trafienia krytyczne zawsze rykoszetują.\n\nTags: Podstawowe, Strzelectwo, Ograniczanie Kontroli, Trafienia Krytyczne, Obrażenia, Fizyczne.",
 			"ptBR": "Cada 3° lançamento de Puncionar também ricocheteará até 2 vezes. Acertos críticos sempre ricochetearão.\n\nTags: Básica, Atirador, Controle de Grupo, Acertos Críticos, Dano, Física.",
 			"ruRU": "При каждом 3-м применении \"Колющий удар\" рикошетит, поражая до 2 целей. При критических ударах эффект рикошета срабатывает гарантированно.\n\nTags: Базовое, Стрелок, Контроль, Критические удары, Урон, Физический урон.",
-			"zhCN": "每第 3 次施放穿刺飞刀也会弹射最多 2 次。暴击必定弹射。\n\nTags: 基础, 神射手, 群控, 暴击, 伤害, 物理."
+			"zhCN": "每第 3 次施放穿刺飞刀也会弹射最多 2 次。暴击必定弹射。\n\nTags: 基础, 神射手, 群控, 暴击, 伤害, 物理.",
+			"zhTW": "每第 3 次施放的穿刺飛刀會彈射,最多 2 次。爆擊時必定會彈射。\n\nTags: 基本, 射手, 控場, 爆擊, 傷害, 物理."
 },
 		id: 11,
 		maxPoints: 1,
@@ -509,7 +533,8 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 			"plPL": "Poszukiwanie Serc",
 			"ptBR": "Furacórdio",
 			"ruRU": "Пронзатель сердец",
-			"zhCN": "觅心箭"
+			"zhCN": "觅心箭",
+			"zhTW": "穿心箭"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Kombopunkte: 1\nGlückstrefferchance: 50%\nSchießt einen Pfeil ab, der einen Gegner sucht, {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% Schaden verursacht und Eure kritische Trefferchance gegen ihn 4 Sek. lang um +3% erhöht, bis maximal +15%.\n\nTags: Basis, Präzision, Kritische Treffer, Schaden, Physisch.",
@@ -522,7 +547,8 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 			"plPL": "Generuje: 1 pkt. kombinacji\nSzansa na szczęśliwy traf: 50%\nWypuszczasz strzałę, która wyszukuje wroga, zadaje mu {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% pkt. obrażeń i zwiększa szansę na zadanie mu trafienia krytycznego o +3% przez 4 sek., maksymalnie do +15%.\n\nTags: Podstawowe, Strzelectwo, Trafienia Krytyczne, Obrażenia, Fizyczne.",
 			"ptBR": "Gerar Ponto de Combo: 1\nChance de Golpe de Sorte: 50%\nDispara uma flecha que busca um inimigo, causando {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de dano e aumentando sua chance de acerto crítico contra ele em +3% por 4 segundos, até +15%.\n\nTags: Básica, Atirador, Acertos Críticos, Dano, Física.",
 			"ruRU": "Продлевает серию приемов на 1.\nВероятность удачного удара: 50%.\nВыпускает стрелу, которая сама находит и поражает противника. Стрела наносит {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% ед. урона и повышает вашу вероятность критического удара против этой цели на +3% на 4 сек. вплоть до +15%.\n\nTags: Базовое, Стрелок, Критические удары, Урон, Физический урон.",
-			"zhCN": "生成连击点数: 1\n幸运一击几率: 50%\n发射一支会追踪敌人的箭矢, 造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 点伤害, 并且使你对其造成暴击的几率提高 +3%, 持续 4 秒, 最多提高 +15%。\n\nTags: 基础, 神射手, 暴击, 伤害, 物理."
+			"zhCN": "生成连击点数: 1\n幸运一击几率: 50%\n发射一支会追踪敌人的箭矢, 造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 点伤害, 并且使你对其造成暴击的几率提高 +3%, 持续 4 秒, 最多提高 +15%。\n\nTags: 基础, 神射手, 暴击, 伤害, 物理.",
+			"zhTW": "產生連擊點數:1\n幸運觸發機率:50%\n射出會尋覓敵人的箭矢,造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 點傷害,對該敵人的爆擊機率提高 +3%,持續 4 秒,最多提高 +15%。\n\nTags: 基本, 射手, 爆擊, 傷害, 物理."
 },
 		id: 12,
 		maxPoints: 5,
@@ -546,7 +572,8 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 			"plPL": "Wzmocnione Poszukiwanie Serc",
 			"ptBR": "Furacórdio Aperfeiçoado",
 			"ruRU": "Усиленный пронзатель сердец",
-			"zhCN": "强化觅心箭"
+			"zhCN": "强化觅心箭",
+			"zhTW": "強化穿心箭"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Herzsucher einen kritischen Treffer erzielt, erhaltet Ihr 4 Sek. lang +8% Angriffsgeschwindigkeit. Dieser Wert verdoppelt sich, wenn der Gegner verwundbar ist.\n\nTags: Basis, Präzision, Kritische Treffer, Schaden, Physisch.",
@@ -559,7 +586,8 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 			"plPL": "Kiedy Poszukiwanie Serc zada trafienie krytyczne, zyskujesz +8% do szybkości ataku na 4 sek. Wartość ta jest podwojona, jeśli wróg jest odsłonięty.\n\nTags: Podstawowe, Strzelectwo, Trafienia Krytyczne, Obrażenia, Fizyczne.",
 			"ptBR": "Quando Furacórdio desfere um acerto crítico, recebe +8% de velocidade de ataque por 4 segundos. O valor é dobrado se o inimigo está vulnerável.\n\nTags: Básica, Atirador, Acertos Críticos, Dano, Física.",
 			"ruRU": "Когда \"Пронзатель сердец\" наносит критический урон, ваша скорость атаки повышается на +8% на 4 сек. Прибавка удваивается, если противник уязвим.\n\nTags: Базовое, Стрелок, Критические удары, Урон, Физический урон.",
-			"zhCN": "觅心箭暴击时, 攻击速度提高 +8%, 持续 4 秒。如果敌人处于易伤状态则该加成翻倍。\n\nTags: 基础, 神射手, 暴击, 伤害, 物理."
+			"zhCN": "觅心箭暴击时, 攻击速度提高 +8%, 持续 4 秒。如果敌人处于易伤状态则该加成翻倍。\n\nTags: 基础, 神射手, 暴击, 伤害, 物理.",
+			"zhTW": "穿心箭爆擊可使攻擊速度提高 +8%,持續 4 秒。敵人若處於易傷狀態則此效果加倍。\n\nTags: 基本, 射手, 爆擊, 傷害, 物理."
 },
 		id: 13,
 		maxPoints: 1,
@@ -583,7 +611,8 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 			"plPL": "Fundamentalne Poszukiwanie Serc",
 			"ptBR": "Furacórdio Fundamental",
 			"ruRU": "Фундаментальный пронзатель сердец",
-			"zhCN": "基础觅心箭"
+			"zhCN": "基础觅心箭",
+			"zhTW": "基要穿心箭"
 },
 		descriptionLocalized: {
 			"deDE": "Herzsucher erhöht außerdem 4 Sek. lang den durch Euch erlittenen kritischen Trefferschaden des Gegners um +5%, bis maximal +25%.\n\nTags: Basis, Präzision, Kritische Treffer, Schaden, Physisch.",
@@ -596,7 +625,8 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 			"plPL": "Poszukiwanie Serc zwiększa również obrażenia otrzymywane przez wroga od twoich trafień krytycznych o +5% na 4 sek., maksymalnie do +25%.\n\nTags: Podstawowe, Strzelectwo, Trafienia Krytyczne, Obrażenia, Fizyczne.",
 			"ptBR": "Furacórdio também aumenta o dano de acerto crítico que o inimigo recebe de você em +5% por 4 segundos, até +25%.\n\nTags: Básica, Atirador, Acertos Críticos, Dano, Física.",
 			"ruRU": "\"Пронзатель сердец\" также увеличивает критический урон, который противник получает от вас, на +5% на 4 сек. вплоть до +25%.\n\nTags: Базовое, Стрелок, Критические удары, Урон, Физический урон.",
-			"zhCN": "觅心箭也会使你对敌人的暴击伤害提高 +5%, 持续 4 秒, 最多提高 +25%。\n\nTags: 基础, 神射手, 暴击, 伤害, 物理."
+			"zhCN": "觅心箭也会使你对敌人的暴击伤害提高 +5%, 持续 4 秒, 最多提高 +25%。\n\nTags: 基础, 神射手, 暴击, 伤害, 物理.",
+			"zhTW": "穿心箭會使你對敵人造成的爆擊傷害提高 +5%,持續 4 秒,最多提高 +25%。\n\nTags: 基本, 射手, 爆擊, 傷害, 物理."
 },
 		id: 14,
 		maxPoints: 1,
@@ -620,7 +650,8 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 			"plPL": "Podstawowe Poszukiwanie Serc",
 			"ptBR": "Furacórdio Primário",
 			"ruRU": "Основной пронзатель сердец",
-			"zhCN": "主要觅心箭"
+			"zhCN": "主要觅心箭",
+			"zhTW": "首要穿心箭"
 },
 		descriptionLocalized: {
 			"deDE": "Herzsucher springt zu einem zusätzlichen Gegner und fügt ihm 30% des ursprünglichen Schadens zu.\n\nTags: Basis, Präzision, Kritische Treffer, Schaden, Physisch.",
@@ -633,7 +664,8 @@ Tags: Basic, Marksman, Critical Strikes, Damage, Physical.`,
 			"plPL": "Poszukiwanie Serc rykoszetuje do dodatkowego wroga i zadaje mu 30% pierwotnych obrażeń.\n\nTags: Podstawowe, Strzelectwo, Trafienia Krytyczne, Obrażenia, Fizyczne.",
 			"ptBR": "Furacórdio ricocheteia em um inimigo adicional, causando 30% do dano original.\n\nTags: Básica, Atirador, Acertos Críticos, Dano, Física.",
 			"ruRU": "\"Пронзатель сердец\" рикошетит в еще одного противника и наносит 30% изначального урона.\n\nTags: Базовое, Стрелок, Критические удары, Урон, Физический урон.",
-			"zhCN": "觅心箭弹射至一名额外的敌人, 造成 30% 初始伤害。\n\nTags: 基础, 神射手, 暴击, 伤害, 物理."
+			"zhCN": "觅心箭弹射至一名额外的敌人, 造成 30% 初始伤害。\n\nTags: 基础, 神射手, 暴击, 伤害, 物理.",
+			"zhTW": "穿心箭彈射至一名額外敵人身上,造成原始傷害的 30% 傷害。\n\nTags: 基本, 射手, 爆擊, 傷害, 物理."
 },
 		id: 15,
 		maxPoints: 1,
@@ -658,7 +690,8 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"plPL": "Mocarna Strzała",
 			"ptBR": "Flecha Contundente",
 			"ruRU": "Стрела силы",
-			"zhCN": "蓄力劲射"
+			"zhCN": "蓄力劲射",
+			"zhTW": "強力箭矢"
 },
 		descriptionLocalized: {
 			"deDE": "Erzeugte Kombopunkte: 1\nGlückstrefferchance: 40%\nFeuert einen kraftvollen Pfeil auf einen Gegner und fügt ihm {20/22/24/26/28/30/32/34/36/38}% Schaden zu. Jeder 3. Einsatz macht den Gegner 2 Sek. lang verwundbar.\n\nTags: Basis, Präzision, Verwundbar, Schaden, Physisch.",
@@ -671,7 +704,8 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"plPL": "Generuje: 1 pkt. kombinacji\nSzansa na szczęśliwy traf: 40%\nWystrzeliwujesz we wroga potężną strzałę, która zadaje {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń. Co 3 użycie odsłania wroga na 2 sek.\n\nTags: Podstawowe, Strzelectwo, Odsłonięcie, Obrażenia, Fizyczne.",
 			"ptBR": "Gerar Ponto de Combo: 1\nChance de Golpe de Sorte: 40%\nDispara uma flecha poderosa contra um inimigo, causando {20/22/24/26/28/30/32/34/36/38}% de dano. Cada 3º lançamento deixa o inimigo vulnerável por 2 segundos.\n\nTags: Básica, Atirador, Vulnerável, Dano, Física.",
 			"ruRU": "Продлевает серию приемов на 1.\nВероятность удачного удара: 40%.\nВыпускает в противника мощную стрелу, наносящую {20/22/24/26/28/30/32/34/36/38}% ед. урона. Каждое 3-е применение делает цель уязвимой на 2 сек.\n\nTags: Базовое, Стрелок, Уязвимость, Урон, Физический урон.",
-			"zhCN": "生成连击点数: 1\n幸运一击几率: 40%\n对一名敌人发射一支强力箭矢, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。每第 3 次施放会使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 基础, 神射手, 易伤, 伤害, 物理."
+			"zhCN": "生成连击点数: 1\n幸运一击几率: 40%\n对一名敌人发射一支强力箭矢, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。每第 3 次施放会使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 基础, 神射手, 易伤, 伤害, 物理.",
+			"zhTW": "產生連擊點數:1\n幸運觸發機率:40%\n朝敵人發射強力箭矢,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。每第 3 次施放此技能會使敵人易傷,持續 2 秒。\n\nTags: 基本, 射手, 易傷, 傷害, 物理."
 },
 		id: 16,
 		maxPoints: 5,
@@ -695,7 +729,8 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"plPL": "Wzmocniona Mocarna Strzała",
 			"ptBR": "Flecha Contundente Aperfeiçoada",
 			"ruRU": "Усиленная стрела силы",
-			"zhCN": "强化蓄力劲射"
+			"zhCN": "强化蓄力劲射",
+			"zhTW": "強化強力箭矢"
 },
 		descriptionLocalized: {
 			"deDE": "Jeder 3 Einsatz von Kraftvoller Pfeil hat außerdem eine um +15% erhöhte kritische Trefferchance.\n\nTags: Basis, Präzision, Verwundbar, Schaden, Physisch.",
@@ -708,7 +743,8 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"plPL": "Co 3 użycie Mocarnej Strzały ma dodatkowo premię +15% do szansy na trafienie krytyczne.\n\nTags: Podstawowe, Strzelectwo, Odsłonięcie, Obrażenia, Fizyczne.",
 			"ptBR": "Cada 3º lançamento de Flecha Contundente também tem +15% de chance de acerto crítico aumentada.\n\nTags: Básica, Atirador, Vulnerável, Dano, Física.",
 			"ruRU": "При каждом 3-м применении вероятность критического удара \"Стрелы силы\" повышена на +15%.\n\nTags: Базовое, Стрелок, Уязвимость, Урон, Физический урон.",
-			"zhCN": "每第 3 次施放蓄力劲射的暴击几率额外提高 +15%。\n\nTags: 基础, 神射手, 易伤, 伤害, 物理."
+			"zhCN": "每第 3 次施放蓄力劲射的暴击几率额外提高 +15%。\n\nTags: 基础, 神射手, 易伤, 伤害, 物理.",
+			"zhTW": "每第 3 次施放的強力箭矢有額外 +15% 爆擊機率。\n\nTags: 基本, 射手, 易傷, 傷害, 物理."
 },
 		id: 17,
 		maxPoints: 1,
@@ -732,7 +768,8 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"plPL": "Fundamentalna Mocarna Strzała",
 			"ptBR": "Flecha Contundente Fundamental",
 			"ruRU": "Фундаментальная стрела силы",
-			"zhCN": "基础蓄力劲射"
+			"zhCN": "基础蓄力劲射",
+			"zhTW": "基要強力箭矢"
 },
 		descriptionLocalized: {
 			"deDE": "Kraftvoller Pfeil stößt Nicht-Elitegegner in der Nähe zurück. Wenn dieser mit einem weiteren Gegner zusammenstößt, werden beide 1.5 Sek. lang niedergeschlagen.\n\nTags: Basis, Präzision, Verwundbar, Schaden, Physisch.",
@@ -745,7 +782,8 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"plPL": "Mocarna Strzała odrzuca pobliskich wrogów nieelitarnych. Jeśli odrzucony wróg zderzy się z innym, obaj zostają powaleni na 1.5 sek.\n\nTags: Podstawowe, Strzelectwo, Odsłonięcie, Obrażenia, Fizyczne.",
 			"ptBR": "Flecha Contundente repele inimigos não elite se estiverem próximos. Se colidirem com outro inimigo, ambos são nocauteados por 1.5 segundos.\n\nTags: Básica, Atirador, Vulnerável, Dano, Física.",
 			"ruRU": "\"Стрела силы\" отбрасывает находящихся рядом противников. Если отброшенный противник столкнется с другим врагом, они оба будут сбиты с ног на 1.5 сек. Не действует на особых противников.\n\nTags: Базовое, Стрелок, Уязвимость, Урон, Физический урон.",
-			"zhCN": "蓄力劲射会击退附近的非精英敌人。如果被击退的敌人撞到另一名敌人, 两者都会被击倒 1.5 秒。\n\nTags: 基础, 神射手, 易伤, 伤害, 物理."
+			"zhCN": "蓄力劲射会击退附近的非精英敌人。如果被击退的敌人撞到另一名敌人, 两者都会被击倒 1.5 秒。\n\nTags: 基础, 神射手, 易伤, 伤害, 物理.",
+			"zhTW": "若非精英敵人位於近距離,強力箭矢可擊退他們。若敵人因此相撞,雙方都會被擊倒,持續 1.5 秒。\n\nTags: 基本, 射手, 易傷, 傷害, 物理."
 },
 		id: 18,
 		maxPoints: 1,
@@ -769,7 +807,8 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"plPL": "Podstawowa Mocarna Strzała",
 			"ptBR": "Flecha Contundente Primária",
 			"ruRU": "Основная стрела силы",
-			"zhCN": "主要蓄力劲射"
+			"zhCN": "主要蓄力劲射",
+			"zhTW": "首要強力箭矢"
 },
 		descriptionLocalized: {
 			"deDE": "Kraftvoller Pfeil durchschlägt verwundbare Gegner.\n\nTags: Basis, Präzision, Verwundbar, Schaden, Physisch.",
@@ -782,7 +821,8 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"plPL": "Mocarna Strzała przebija odsłoniętych wrogów.\n\nTags: Podstawowe, Strzelectwo, Odsłonięcie, Obrażenia, Fizyczne.",
 			"ptBR": "Flecha Contundente atravessa inimigos vulneráveis.\n\nTags: Básica, Atirador, Vulnerável, Dano, Física.",
 			"ruRU": "\"Стрела силы\" проходит через уязвимых противников.\n\nTags: Базовое, Стрелок, Уязвимость, Урон, Физический урон.",
-			"zhCN": "蓄力劲射会穿透易伤的敌人。\n\nTags: 基础, 神射手, 易伤, 伤害, 物理."
+			"zhCN": "蓄力劲射会穿透易伤的敌人。\n\nTags: 基础, 神射手, 易伤, 伤害, 物理.",
+			"zhTW": "強力箭矢會貫穿易傷敵人。\n\nTags: 基本, 射手, 易傷, 傷害, 物理."
 },
 		id: 19,
 		maxPoints: 1,
@@ -815,7 +855,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Wirujące Ostrza",
 			"ptBR": "Lâminas Retorcidas",
 			"ruRU": "Вонзающиеся клинки",
-			"zhCN": "回旋刀锋"
+			"zhCN": "回旋刀锋",
+			"zhTW": "扭轉迴刃"
 },
 		descriptionLocalized: {
 			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 33%\nSpießt einen Gegner mit Euren Klingen auf, verursacht {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% Schaden und fügt ihm anschließend x8% mehr Schaden zu, solange er aufgespießt ist. Nach 1.5 Sek. kehren die Klingen zu Euch zurück, durchschlagen Gegner und verursachen dabei {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% Schaden.\n\nKombopunkte erhöhen den Schaden und verleihen einen Bonus auf Bewegungsgeschwindigkeit:\n • 1 Punkt: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% Schaden, +20% Bonus\n• 2 Punkte: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% Schaden, +40% Bonus\n • 3 Punkte: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% Schaden, +60% Bonus\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -828,7 +869,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 33%\nNabijasz wroga na swoje ostrza, zadając mu {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% pkt. obrażeń i sprawiając, że otrzymuje w tym stanie o x8% większe obrażenia. Po 1.5 sek. ostrza wracają do ciebie, przebijając wrogów i zadając im {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i zapewniają premię do szybkości ruchu:\n • 1 pkt.: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% pkt. obrażeń, +20% premii.\n • 2 pkt.: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% pkt. obrażeń, +40% premii.\n • 3 pkt.: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% pkt. obrażeń, +60% premii.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 33%\nEmpala um inimigo com suas lâminas, causando {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de dano e fazendo-o receber 8% de dano aumentado de você enquanto empalado. Após 1.5 segundos, as lâminas retornam até você, perfurando inimigos e causando {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de dano.\n\nPontos de combo aumentam o dano e concedem um bônus de velocidade de movimento:\n • 1 ponto: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% de dano, 20% de bônus\n • 2 pontos: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de dano, 40% de bônus\n • 3 pontos: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% de dano, +60% de bônus\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 33%\nВы пронзаете противника клинками, нанося {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% ед. урона. Пока действует эффект, вы наносите цели на x8% больше урона. Через 1.5 сек. клинки возвращаются к вам, пробивая противников и нанося им {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% ед. урона.\n\nДополнительные приемы серии увеличивают урон и повышают скорость передвижения:\n• 1 прием: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% ед. урона, +20% бонус\n• 2 приема: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% ед. урона, +40% бонус\n• 3 приема: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% ед. урона, +60% бонус\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "能量消耗: {#}\n幸运一击几率: 33%\n用你的剑刃刺穿一名敌人, 造成 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 点伤害并使其在被刺穿时受到来自你的伤害提高 x8%。 1.5 秒后, 剑刃会回到你身边, 穿透敌人并造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 点伤害。\n\n连击点数会提高伤害并给予移动速度加成:\n• 1点: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% 点伤害, +20% 加成\n• 2点: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 点伤害, +40% 加成\n• 3点: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% 点伤害, +60% 加成\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "能量消耗: {#}\n幸运一击几率: 33%\n用你的剑刃刺穿一名敌人, 造成 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 点伤害并使其在被刺穿时受到来自你的伤害提高 x8%。 1.5 秒后, 剑刃会回到你身边, 穿透敌人并造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 点伤害。\n\n连击点数会提高伤害并给予移动速度加成:\n• 1点: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% 点伤害, +20% 加成\n• 2点: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 点伤害, +40% 加成\n• 3点: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% 点伤害, +60% 加成\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "能量消耗:{#}\n幸運觸發機率:33%\n將刀刃插入敵人體內,造成 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 點傷害,並在插入期間使你對其造成的傷害提高 x8%。這些刀刃會在 1.5 秒後回到你身邊,貫穿敵人造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 點傷害。\n\n連擊點數會提高傷害並賦予移動速度加成:\n• 1 點:{58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% 點傷害,+20% 移動速度加成\n• 2 點:{72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 點傷害,+40% 移動速度加成\n• 3 點:{85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% 點傷害,+60% 移動速度加成\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 20,
 		maxPoints: 5,
@@ -853,7 +895,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Wzmocnione Wirujące Ostrza",
 			"ptBR": "Lâminas Retorcidas Aperfeiçoadas",
 			"ruRU": "Усиленные вонзающиеся клинки",
-			"zhCN": "强化回旋刀锋"
+			"zhCN": "强化回旋刀锋",
+			"zhTW": "強化扭轉迴刃"
 },
 		descriptionLocalized: {
 			"deDE": "Schraubklingen verursachen bei der Rückkehr x30% mehr Schaden.\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -866,7 +909,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "W drodze powrotnej Wirujące Ostrza zadają obrażenia zwiększone o x30%.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Lâminas Retorcidas causam 30% de dano aumentado ao retornarem.\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Возвращаясь к вам, \"Вонзающиеся клинки\" наносят на x30% больше урона.\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "回旋刀锋返回时造成的伤害提高 x30%。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "回旋刀锋返回时造成的伤害提高 x30%。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "扭轉迴刃返回時造成的傷害提高 x30%。\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 21,
 		maxPoints: 1,
@@ -890,7 +934,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Zaawansowane Wirujące Ostrza",
 			"ptBR": "Lâminas Retorcidas Avançadas",
 			"ruRU": "Передовые вонзающиеся клинки",
-			"zhCN": "进阶回旋刀锋"
+			"zhCN": "进阶回旋刀锋",
+			"zhTW": "進階扭轉迴刃"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Eure Schraubklingen zurückkehren, werden Eure aktiven Abklingzeiten um 0.25 Sek. pro durchschlagenem Gegner reduziert, bis maximal 3 Sek.\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -903,7 +948,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Kiedy twoje Wirujące Ostrza wracają do ciebie, twoje aktywne czasy odnowienia zostają skrócone o 0.25 sek. za każdego wroga, przez którego przeniknęły, do maksymalnie 3 sek.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Quando suas Lâminas Retorcidas retornam, suas recargas ativas são reduzidas em 0.25 segundos por inimigo atravessado por elas, até 3 segundos.\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Когда \"Вонзающиеся клинки\" возвращаются к вам, время восстановления умений сокращается на 0.25 сек. за каждого противника, через которого они прошли, вплоть до 3 сек.\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "回旋刀锋返回时每穿过一名敌人, 你的剩余冷却时间缩短 0.25 秒, 最多缩短 3 秒。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "回旋刀锋返回时每穿过一名敌人, 你的剩余冷却时间缩短 0.25 秒, 最多缩短 3 秒。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "扭轉迴刃在返回途中每穿過一個敵人,就會使現有冷卻時間縮短 0.25 秒,最多縮短 3 秒。\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 22,
 		maxPoints: 1,
@@ -927,7 +973,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Ulepszone Wirujące Ostrza",
 			"ptBR": "Lâminas Retorcidas Aprimoradas",
 			"ruRU": "Улучшенные вонзающиеся клинки",
-			"zhCN": "强力回旋刀锋"
+			"zhCN": "强力回旋刀锋",
+			"zhTW": "改良扭轉迴刃"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner sind benommen, solange sie von Schraubklingen aufgespießt sind.\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -940,7 +987,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Wrogowie są oszołomieni, kiedy przebijają ich Wirujące Ostrza.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Inimigos são atingidos por torpor enquanto empalados por Lâminas Retorcidas.\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Пока \"Вонзающиеся клинки\" пронзают цель, на нее действует головокружение.\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "回旋刀锋穿透敌人时使其眩晕。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "回旋刀锋穿透敌人时使其眩晕。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "被扭轉迴刃插中的敵人會暈眩。\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 23,
 		maxPoints: 1,
@@ -970,7 +1018,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Szybkie Natarcie",
 			"ptBR": "Turbilhão",
 			"ruRU": "Шквал",
-			"zhCN": "快刀乱刺"
+			"zhCN": "快刀乱刺",
+			"zhTW": "狂襲"
 },
 		descriptionLocalized: {
 			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 10%\nEntfesselt einen Sturm aus Klingenhieben, der Gegner vor Euch 4-mal trifft und jedem Gegner insgesamt {60/66/72/78/84/90/96/102/108/114}% Schaden zufügt.\n\nKombopunkte erhöhen den Schaden und verleihen einen Angriffsgeschwindigkeitsbonus:\n • 1 Punkt: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% Schaden, +15% Bonus\n • 2 Punkte: {90/99/108/117/126/135/144/153/162/171}% Schaden, +30% Bonus\n • 3 Punkte: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% Schaden, +45% Bonus\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -983,7 +1032,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 10%\nWyzwalasz nawałnicę cięć i ciosów, atakując wrogów przed tobą 4 razy i zadając każdemu z nich {60/66/72/78/84/90/96/102/108/114}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i zapewniają premię do szybkości ataku:\n• 1 pkt.: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% pkt. obrażeń, premia +15% sek.\n• 2 pkt.: {90/99/108/117/126/135/144/153/162/171}% pkt. obrażeń, premia +30% sek.\n• 3 pkt.: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% pkt. obrażeń, premia +45% sek.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 10%\nLibera um turbilhão de punhaladas e cortes, atingindo inimigos à sua frente 4 vezes e causando um total de {60/66/72/78/84/90/96/102/108/114}% de dano a cada um.\n\nPontos de combo aumentam o dano e concedem um bônus de velocidade de ataque:\n • 1 ponto: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de dano, +15% de bônus\n• 2 pontos: {90/99/108/117/126/135/144/153/162/171}% de dano, +30% de bônus\n• 3 pontos: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% de dano, +45% de bônus\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Затраты энергии: {#}\nВероятность удачного удар: 10%\nВы обрушиваете на противников перед собой шквал из 4 рубящих и режущих ударов, в общей сложности нанося {60/66/72/78/84/90/96/102/108/114}% ед. урона каждой цели.\n\nДополнительные приемы серии увеличивают урон и повышают скорость атаки:\n• 1 прием: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% ед. урона, +15% к скорости атаки\n• 2 приема: {90/99/108/117/126/135/144/153/162/171}% ед. урона, +30% к скорости атаки\n• 3 приема: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% ед. урона, +45% к скорости атаки\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "能量消耗: {#}\n幸运一击几率: 10%\n连续刺击并劈砍前方的敌人 4 次, 造成总计 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\n连击点数会提高伤害并给予攻击速度加成:\n• 1点: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害, +15% 加成\n• 2点: {90/99/108/117/126/135/144/153/162/171}%伤害, +30% 加成\n• 3点: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% 点伤害, +45% 加成\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "能量消耗: {#}\n幸运一击几率: 10%\n连续刺击并劈砍前方的敌人 4 次, 造成总计 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\n连击点数会提高伤害并给予攻击速度加成:\n• 1点: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害, +15% 加成\n• 2点: {90/99/108/117/126/135/144/153/162/171}%伤害, +30% 加成\n• 3点: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% 点伤害, +45% 加成\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "能量消耗:{#}\n幸運觸發機率:10%\n對你前方的敵人施展連環刺擊與斬擊 4 次,對每一個敵人造成共 {60/66/72/78/84/90/96/102/108/114}% 點傷害。\n\n連擊點數會提高傷害並賦予攻擊速度加成:\n• 1 點:{75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 點傷害,+15% 加成\n• 2 點:{90/99/108/117/126/135/144/153/162/171}% 點傷害,+30% 加成\n• 3 點:{105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% 點傷害,+45% 加成\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 24,
 		maxPoints: 5,
@@ -1008,7 +1058,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Wzmocnione Szybkie Natarcie",
 			"ptBR": "Turbilhão Aperfeiçoado",
 			"ruRU": "Усиленный шквал",
-			"zhCN": "强化快刀乱刺"
+			"zhCN": "强化快刀乱刺",
+			"zhTW": "強化狂襲"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Klingensturm einem Gegner Schaden zufügt, der unter Kontrollverlusteffekten leidet oder verwundbar ist, werdet Ihr um 1% Eures maximalen Lebens geheilt, bis zu 12% maximalem Leben pro Einsatz.\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1021,7 +1072,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Za każdym razem, gdy Szybkie Natarcie zadaje obrażenia wrogowi odsłoniętemu albo o ograniczonej kontroli, odzyskujesz 1% maksymalnego zdrowia, aż do 12% za każde użycie umiejętności.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Sempre que Turbilhão causa dano a um inimigo sob controle de grupo ou vulnerável, você recebe cura de 1% da sua vida máxima, até 12% da vida máxima por lançamento.\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Когда \"Шквал\" поражает уязвимого противника или цель под действием эффектов контроля, вы восполняете 1% максимального запаса здоровья вплоть до 12% максимального запаса здоровья за одно применение.\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "每次快刀乱刺对一名被群控或处于易伤状态的敌人造成伤害, 你会恢复 1%生命上限, 单次施法最多恢复 12%生命上限。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "每次快刀乱刺对一名被群控或处于易伤状态的敌人造成伤害, 你会恢复 1%生命上限, 单次施法最多恢复 12%生命上限。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "每次狂襲對受到控場或易傷的敵人造成傷害時,會使你恢復生命值上限的 1%,每次施放最多恢復生命值上限的 12%。\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 25,
 		maxPoints: 1,
@@ -1045,7 +1097,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Ulepszone Szybkie Natarcie",
 			"ptBR": "Turbilhão Aprimorado",
 			"ruRU": "Улучшенный шквал",
-			"zhCN": "强力快刀乱刺"
+			"zhCN": "强力快刀乱刺",
+			"zhTW": "改良狂襲"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Klingensturm einen verwundbaren Gegner trifft, werden alle Gegner, die von diesem Einsatz getroffen werden, 3 Sek. lang verwundbar.\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1058,7 +1111,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Jeśli Szybkie Natarcie trafi odsłoniętego wroga, wszyscy wrogowie trafieni tym użyciem staną się odsłonięci na 3 sek.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Se Turbilhão atingir qualquer inimigo vulnerável, ele deixará todos os inimigos atingidos por esse lançamento vulneráveis por 3 segundos.\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Когда \"Шквал\" поражает уязвимого противника, все противники, пораженные за это применение умения, становятся уязвимыми на 3 сек.\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "如果快刀乱刺命中任意易伤的敌人, 其会使所有被该次技能命中的敌人都陷入易伤状态, 持续 3 秒。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "如果快刀乱刺命中任意易伤的敌人, 其会使所有被该次技能命中的敌人都陷入易伤状态, 持续 3 秒。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "若狂襲擊中任何易傷的敵人,其會使該次施放所擊中的所有敵人均易傷,持續 3 秒。\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 26,
 		maxPoints: 1,
@@ -1082,7 +1136,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Zaawansowane Szybkie Natarcie",
 			"ptBR": "Turbilhão Avançado",
 			"ruRU": "Передовой шквал",
-			"zhCN": "高级快刀乱刺"
+			"zhCN": "高级快刀乱刺",
+			"zhTW": "進階狂襲"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr durch einen Gegner hindurch entrinnt, wird Euer nächster Klingensturm Gegner 2.5 Sek. lang betäuben.\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1095,7 +1150,8 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Przeniknięcie przez wroga przy użyciu Odskoku sprawi, że twoje następne Szybkie Natarcie ogłuszy wrogów na 2.5 sek.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Evadir através de um inimigo fará seu próximo Turbilhão atordoar inimigos por 2.5 segundos.\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Когда вы уклоняетесь через противника, ваш следующий \"Шквал\" оглушает противников на 2.5 сек.\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "闪避穿过敌人攻击将使你的下一个快刀乱刺击晕敌人 2.5 秒。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "闪避穿过敌人攻击将使你的下一个快刀乱刺击晕敌人 2.5 秒。\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "閃避穿過敵人會使你的下一個狂襲擊昏敵人 2.5 秒。\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 27,
 		maxPoints: 1,
@@ -1125,7 +1181,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Przebijający Strzał",
 			"ptBR": "Disparo Perfurante",
 			"ruRU": "Пробивающий выстрел",
-			"zhCN": "穿透射击"
+			"zhCN": "穿透射击",
+			"zhTW": "穿透射擊"
 },
 		descriptionLocalized: {
 			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 50%\nSchießt einen Pfeil ab, der alle Gegner in einer Linie durchschlägt und {70/77/84/91/98/105/112/119/126/133}% Schaden verursacht.\n\nKombopunkte erhöhen den Schaden und verbessern die Glückstrefferchance:\n • 1 Punkt: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% Schaden, Chance von +10%\n • 2 Punkte: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% Schaden, Chance von +20%\n • 3 Punkte: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% Schaden, Chance von +30%\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1138,7 +1195,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 50%\nWypuszczasz strzałę, która przebija wszystkich wrogów w linii prostej, zadając im {70/77/84/91/98/105/112/119/126/133}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają obrażenia i szansę na szczęśliwy traf:\n• 1 pkt.: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% pkt. obrażeń, +10% szans.\n • 2 pkt.: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% pkt. obrażeń, +20% szans.\n • 3 pkt.: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% pkt. obrażeń, +30% szans.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 50%\nDispara uma flecha que atravessa todos os inimigos em uma linha, causando {70/77/84/91/98/105/112/119/126/133}% de dano.\n\nPontos de combo aumentam o dano e melhoram a chance de Golpe de Sorte:\n• 1 ponto: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% de dano, +10% de chance\n• 2 pontos: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% de dano, +20% de chance\n• 3 pontos: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% de dano, +30% de chance\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 50%\nВы выпускаете стрелу, пронзающую всех противников на линии и наносящую {70/77/84/91/98/105/112/119/126/133}% ед. урона.\n\nДополнительные приемы серии увеличивают урон и повышают вероятность удачного удара:\n• 1 прием: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% ед. урона, +10% к вероятности\n• 2 приема: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% ед. урона, +20% к вероятности\n• 3 приема: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% ед. урона, +30% к вероятности\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "能量消耗: {#}\n幸运一击几率: 50%\n发射一支会穿透一条直线上所有敌人的箭矢, 造成 {70/77/84/91/98/105/112/119/126/133}% 点伤害。\n\n连击点数会提高伤害与幸运一击几率:\n• 1点: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% 点伤害, +10% 几率\n• 2点: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% 点伤害, +20% 几率\n• 3点: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% 点伤害, +30% 几率\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "能量消耗: {#}\n幸运一击几率: 50%\n发射一支会穿透一条直线上所有敌人的箭矢, 造成 {70/77/84/91/98/105/112/119/126/133}% 点伤害。\n\n连击点数会提高伤害与幸运一击几率:\n• 1点: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% 点伤害, +10% 几率\n• 2点: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% 点伤害, +20% 几率\n• 3点: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% 点伤害, +30% 几率\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "能量消耗:{#}\n幸運觸發機率:50%\n發射貫穿路線上所有敵人的箭矢,造成 {70/77/84/91/98/105/112/119/126/133}% 點傷害。\n\n連擊點數會提高傷害與幸運觸發機率:\n• 1 點:{91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% 點傷害,+10% 機率\n• 2 點:{112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% 點傷害,+20% 機率\n • 3 點:{133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% 點傷害,+30% 機率\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 28,
 		maxPoints: 5,
@@ -1163,7 +1221,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Wzmocniony Przebijający Strzał",
 			"ptBR": "Disparo Perfurante Aperfeiçoado",
 			"ruRU": "Усиленный пробивающий выстрел",
-			"zhCN": "强化穿透射击"
+			"zhCN": "强化穿透射击",
+			"zhTW": "強化穿透射擊"
 },
 		descriptionLocalized: {
 			"deDE": "Durchschlagender Schuss verursacht x10% mehr Schaden pro durchschlagenem Gegner.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1176,7 +1235,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Przebijający Strzał zadaje obrażenia zwiększone o x10% za każdego przebitego wroga.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Disparo Perfurante causa 10% de dano aumentado por inimigo perfurado.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Урон от \"Пробивающего выстрела\" увеличивается на x10% за каждого пронзенного противника.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "穿透射击每穿透一名敌人, 造成的伤害提高 x10%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "穿透射击每穿透一名敌人, 造成的伤害提高 x10%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "穿透射擊每貫穿一個敵人,造成的傷害提高 x10%。\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 29,
 		maxPoints: 1,
@@ -1200,7 +1260,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Zaawansowany Przebijający Strzał",
 			"ptBR": "Disparo Perfurante Avançado",
 			"ruRU": "Передовой пробивающий выстрел",
-			"zhCN": "进阶穿透射击"
+			"zhCN": "进阶穿透射击",
+			"zhTW": "進階穿透射擊"
 },
 		descriptionLocalized: {
 			"deDE": "Beim Einsatz mit voller Energie wird Durchschlagender Schuss alle getroffenen Gegner 3 Sek. um 50% verlangsamen. Elitegegner werden außerdem 1.5 Sek. lang niedergeschlagen.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1213,7 +1274,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Jeśli Przebijający Strzał zostanie użyty przy pełnym zasobie energii, spowolni wszystkich trafionych wrogów o 50% na 3 sek. Elitarni wrogowie zostaną dodatkowo powaleni na 1.5 sek.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Ao ser lançado com energia cheia, Disparo Perfurante aplicará lentidão a todos os inimigos atingidos em 50% por 3 segundos. Inimigos de elite também serão nocauteados por 1.5 segundos.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Когда вы применяете \"Пробивающий выстрел\" с полным запасом энергии, пораженные противники замедляются на 50% на 3 сек. Особые противники также сбиваются с ног на 1.5 сек.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "能量全满时, 穿透射击会使所有命中的敌人减速 50%, 持续 3 秒。精英敌人还会被击倒, 持续 1.5 秒。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "能量全满时, 穿透射击会使所有命中的敌人减速 50%, 持续 3 秒。精英敌人还会被击倒, 持续 1.5 秒。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "在能量全滿時施放穿透射擊,會使其擊中的所有敵人緩速 50%,持續 3 秒。精英怪同時會被擊倒 1.5 秒。\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 30,
 		maxPoints: 1,
@@ -1237,7 +1299,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Ulepszony Przebijający Strzał",
 			"ptBR": "Disparo Perfurante Aprimorado",
 			"ruRU": "Улучшенный пробивающий выстрел",
-			"zhCN": "强力穿透射击"
+			"zhCN": "强力穿透射击",
+			"zhTW": "改良穿透射擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Durchschlagender Schuss mindestens 3 Gegnern Schaden zufügt, verfügt Euer nächster Einsatz von Durchschlagender Schuss über eine +20% höhere kritische Trefferchance.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1250,7 +1313,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Jeśli Przebijający Strzał zada obrażenia co najmniej 3 wrogom, twój kolejny Przebijający Strzał będzie miał szansę na trafienie krytyczne zwiększoną o +20%.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Se Disparo Perfurante causar dano a pelo menos 3 inimigos, seu próximo Disparo Perfurante tem +20% de chance de acerto crítico aumentada.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Если \"Пробивающий выстрел\" поражает не менее 3 противников, вероятность критического эффекта следующего \"Пробивающего выстрела\" повышается на +20%.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "如果穿透射击至少对 3 名敌人造成伤害, 你的下一个穿透射击的暴击几率提高 +20%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "如果穿透射击至少对 3 名敌人造成伤害, 你的下一个穿透射击的暴击几率提高 +20%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "如果穿透射擊對至少 3 個敵人造成傷害,你下一次穿透射擊爆擊機率提高+20%。\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 31,
 		maxPoints: 1,
@@ -1280,7 +1344,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Szybki Ostrzał",
 			"ptBR": "Fogo Rápido",
 			"ruRU": "Скоростная стрельба",
-			"zhCN": "快速射击"
+			"zhCN": "快速射击",
+			"zhTW": "連射"
 },
 		descriptionLocalized: {
 			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 20%\nFeuert schnell 5 Pfeile ab, die jeweils {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% Schaden verursachen.\n\nKombopunkte erhöhen den Schaden und die Menge der abgeschossenen Pfeile::\n • 1 Punkt: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% Schaden, 6 Pfeile\n • 2 Punkte: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% Schaden, 7 Pfeile\n • 3 Punkte: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% Schaden, 8 Pfeile\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1293,7 +1358,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 20%\nSzybko wypuszczasz strzały (5), z których każda zadaje {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i liczbę wypuszczonych strzał:\n • 1 pkt.: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% pkt. obrażeń, strzały: 6.\n • 2 pkt.: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% pkt. obrażeń, strzały: 7.\n • 3 pkt.: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% pkt. obrażeń, strzały: 8.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 20%\nDispara 5 flechas rapidamente. Cada uma causa {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de dano.\n\nPontos de combo aumentam o dano e a quantidade de flechas disparadas:\n• 1: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% de dano, 6 flechas\n• 2: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% de dano, 7 flechas\n• 3: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% de dano, 8 flechas\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 20%\nВы стремительно выпускаете 5 стрелы, наносящие:стрел, наносящих по {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% ед. урона.\n\nДополнительные приемы серии увеличивают урон и количество стрел:\n• 1 прием: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% ед. урона, 6 стрелы:стрел\n• 2 приема: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% ед. урона, 7 стрелы:стрел\n• 3 приема: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% ед. урона, 8 стрелы:стрел\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "能量消耗: {#}\n幸运一击几率: 20%\n快速发射 5 支箭矢, 每支造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 点伤害。\n\n连击点数会提高伤害并增加箭矢数量:\n• 1点: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% 点伤害, 6 支箭矢\n• 2点: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% 点伤害, 7 支箭矢\n• 3点: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% 点伤害, 8 支箭矢\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "能量消耗: {#}\n幸运一击几率: 20%\n快速发射 5 支箭矢, 每支造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 点伤害。\n\n连击点数会提高伤害并增加箭矢数量:\n• 1点: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% 点伤害, 6 支箭矢\n• 2点: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% 点伤害, 7 支箭矢\n• 3点: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% 点伤害, 8 支箭矢\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "能量消耗:{#}\n幸運觸發機率:20%\n快速發射 5 支箭矢,每支造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 點傷害。\n\n連擊點數會提高傷害與射出的箭矢數量:\n• 1 點:{26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% 點傷害,6 支箭矢\n• 2 點:{29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% 點傷害,7 支箭矢\n• 3 點:{33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% 點傷害,8 支箭矢\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 32,
 		maxPoints: 5,
@@ -1318,7 +1384,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Wzmocniony Szybki Ostrzał",
 			"ptBR": "Fogo Rápido Aperfeiçoado",
 			"ruRU": "Усиленная скоростная стрельба",
-			"zhCN": "强化快速射击"
+			"zhCN": "强化快速射击",
+			"zhTW": "強化連射"
 },
 		descriptionLocalized: {
 			"deDE": "Jeder nachfolgende Pfeil von Schnellfeuer verfügt über eine +5% höhere kritische Trefferchance, bis maximal +40% für den 8. Pfeil.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1331,7 +1398,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Każda kolejna strzała wypuszczona przy użyciu Szybkiego Ostrzału ma szansę na trafienie krytyczne zwiększoną o +5%, maksymalnie do +40% w przypadku 8 strzały.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Cada flecha subsequente de Fogo Rápido tem +5% de chance de acerto crítico aumentada, até +40% para a 8ª flecha.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "При \"Скоростной стрельбе\" вероятность критического удара повышается на +5% для каждой последующей стрелы, вплоть до +40% для 8-й стрелы.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "快速射击的每一支后续箭矢都会使暴击几率提高 +5%, 在第 8 支箭矢时达到最高 +40%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "快速射击的每一支后续箭矢都会使暴击几率提高 +5%, 在第 8 支箭矢时达到最高 +40%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "連射後續的每枝箭矢爆擊機率都會提高 +5%,最多於第 8 根箭矢時提高 +40%\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 33,
 		maxPoints: 1,
@@ -1355,7 +1423,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Zaawansowany Szybki Ostrzał",
 			"ptBR": "Fogo Rápido Avançado",
 			"ruRU": "Передовая скоростная стрельба",
-			"zhCN": "进阶快速射击"
+			"zhCN": "进阶快速射击",
+			"zhTW": "進階連射"
 },
 		descriptionLocalized: {
 			"deDE": "Schnellfeuer verursacht 3 Sek. lang nach dem Entrinnen x30% mehr kritischen Trefferschaden.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1368,7 +1437,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Szybki Ostrzał zadaje obrażenia od trafień krytycznych zwiększone o x30% przez 3 sek. po wykonaniu Odskoku.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Fogo Rápido causa 30% de dano de acerto crítico aumentado por 3 segundos após uma evasão.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Когда вы ускользваете, \"Скоростная стрельба\" наносит на x30% больше критического урона в течение 3 сек.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "闪避后, 快速射击造成的的暴击伤害提高 x30%, 持续 3 秒。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "闪避后, 快速射击造成的的暴击伤害提高 x30%, 持续 3 秒。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "當你閃避後,連射造成的爆擊傷害提高 x30%,持續 3 秒。\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 34,
 		maxPoints: 1,
@@ -1392,7 +1462,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Ulepszony Szybki Ostrzał",
 			"ptBR": "Fogo Rápido Aprimorado",
 			"ruRU": "Улучшенная скоростная стрельба",
-			"zhCN": "强力快速射击"
+			"zhCN": "强力快速射击",
+			"zhTW": "改良連射"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet 15 Energie pro Einsatz von Schnellfeuer, wenn einem verwundbaren Gegner Schaden zugefügt wird.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1405,7 +1476,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Zyskujesz 15 pkt. energii za każde użycie umiejętności, kiedy Szybki Ostrzał zada obrażenia odsłoniętemu wrogowi.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Recebe 15 de energia por lançamento de Fogo Rápido ao causar dano a um inimigo vulnerável.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Вы накапливаете 15 ед. энергии за одно применение \"Скоростной стрельбы\", когда умение поражает уязвимого противника.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "每次施放快速射击对一名处于易伤状态的敌人造成伤害时获得 15 点能量。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "每次施放快速射击对一名处于易伤状态的敌人造成伤害时获得 15 点能量。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "每次施放連射並對易傷敵人造成傷害時,獲得 15 點能量。\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 35,
 		maxPoints: 1,
@@ -1435,7 +1507,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Salwa",
 			"ptBR": "Salva",
 			"ruRU": "Шквальный огонь",
-			"zhCN": "乱射"
+			"zhCN": "乱射",
+			"zhTW": "箭幕"
 },
 		descriptionLocalized: {
 			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 16%\nEntfesselt ein Sperrfeuer aus 5 Pfeilen, die sich ausdehnen und jeweils {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% Schaden verursachen. Jeder Pfeil verfügt über eine Chance von 20%, bis zu 1-mal von einem Gegner abzuprallen. Querschläger verursachen 40% des Basisschadens des Pfeils.\n\nKombopunkte erhöhen den Schaden und die Menge der abgeschossenen Pfeile:\n • 1 Punkt: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% Schaden, 6 Pfeile\n • 2 Punkte: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% Schaden, 7 Pfeile\n• 3 Punkte: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% Schaden, 8 Pfeile\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1448,7 +1521,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Koszt: {#} pkt. energii.\nSzansa na szczęśliwy traf: 16%\nWystrzeliwujesz salwę 5 strzał, która rozchodzi się na boki. Każda z nich zadaje {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% pkt. obrażeń i ma 20% szans na odbicie się rykoszetem od wroga maksymalnie 1 raz. Trafienie rykoszetem zadaje 40% obrażeń podstawowych strzały.\n\nPunkty kombinacji zwiększają zadawane obrażenia i liczbę wypuszczonych strzał:\n • 1 pkt.: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% pkt. obrażeń, strzały: 6.\n • 2 pkt.: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% pkt. obrażeń, strzały: 7.\n • 3 pkt.: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% pkt. obrażeń, strzały: 8.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 16%\nLibera uma salva de 5 flechas que se expande. Cada uma causa {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% de dano. Cada flecha tem 20% de chance de ricochetear em um inimigo até 1 vez. Os ricochetes causam 40% do dano-base da flecha.\n\nPontos de combo aumentam o dano e a quantidade de flechas disparadas:\n• 1 ponto: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% de dano, 6 flechas\n• 2 pontos: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% de dano, 7 flechas\n• 3 pontos: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% de dano, 8 flechas\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 16%\nВы выпускаете 5 стрелы:стрел, которые разлетаются веером и наносят по {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% ед. урона. Каждая стрела с вероятностью 20% может срикошетить до 1 раз:раз. Рикошетящие стрелы наносят 40% базового урона.\n\nДополнительные приемы серии увеличивают урон и количество стрел:\n• 1 прием: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% ед. урона, 6 стрелы:стрел\n• 2 приема: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% ед. урона, 7 стрелы:стрел\n• 3 приема: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% ед. урона, 8 стрелы:стрел\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "能量消耗: {#}\n幸运一击几率: 16%\n释放 5 支向外散射的箭矢, 每支箭矢造成 {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% 点伤害。每支有 20% 几率从敌人身上弹射最多 1 次。弹射造成箭矢 40% 基础伤害。\n\n连击点数会提高伤害和箭矢数量:\n• 1点: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% 点伤害, 6 支箭矢\n• 2点: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% 点伤害, 7 支箭矢\n• 3点: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% 点伤害, 8 支箭矢\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "能量消耗: {#}\n幸运一击几率: 16%\n释放 5 支向外散射的箭矢, 每支箭矢造成 {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% 点伤害。每支有 20% 几率从敌人身上弹射最多 1 次。弹射造成箭矢 40% 基础伤害。\n\n连击点数会提高伤害和箭矢数量:\n• 1点: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% 点伤害, 6 支箭矢\n• 2点: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% 点伤害, 7 支箭矢\n• 3点: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% 点伤害, 8 支箭矢\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "能量消耗:{#}\n幸運觸發機率:16%\n向外發射 5 根箭矢,每根造成 {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% 點傷害。每根箭矢有 20% 機率在敵人身上彈射 1 次。彈射的箭矢會造成原本箭矢基礎傷害的 40%。\n\n連擊點數可提高傷害和發射的箭矢數量:\n• 1 點: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% 點傷害,6 根箭矢\n• 2 點: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% 點傷害,7 根箭矢\n• 3 點: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% 點傷害,8 根箭矢\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 36,
 		maxPoints: 5,
@@ -1473,7 +1547,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Wzmocniona Salwa",
 			"ptBR": "Salva Aperfeiçoada",
 			"ruRU": "Усиленный шквальный огонь",
-			"zhCN": "强化乱射"
+			"zhCN": "强化乱射",
+			"zhTW": "強化箭幕"
 },
 		descriptionLocalized: {
 			"deDE": "Die Querschlägerchance von Sperrfeuer erhöht sich auf 100% für Pfeile, die einem verwundbaren Gegner Schaden zufügen oder einen kritischen Treffer erzielen.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1486,7 +1561,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Szansa Salwy na rykoszet jest zwiększona do 100% w przypadku strzał, które zranią odsłoniętego wroga lub zadadzą trafienie krytyczne dowolnemu wrogowi.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "A chance de ricochete de Salva é aumentada para 100% para flechas que causam dano a um inimigo vulnerável ou desferem um acerto crítico contra qualquer inimigo.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Если стрела \"Шквального огня\" поражает уязвимого противника или наносит любому противнику критический урон, ее вероятность рикошета повышается до 100%.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "乱射的箭矢对易伤敌人造成伤害, 或对任意敌人造成暴击时, 箭矢弹射几率提高至 100%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "乱射的箭矢对易伤敌人造成伤害, 或对任意敌人造成暴击时, 箭矢弹射几率提高至 100%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "箭幕的箭矢對易傷敵人造成傷害,或對任意敵人爆擊時,彈射的機率提高 100%。\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 37,
 		maxPoints: 1,
@@ -1510,7 +1586,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Zaawansowana Salwa",
 			"ptBR": "Salva Avançada",
 			"ruRU": "Передовой шквальный огонь",
-			"zhCN": "进阶乱射"
+			"zhCN": "进阶乱射",
+			"zhTW": "進階箭幕"
 },
 		descriptionLocalized: {
 			"deDE": "Immer, wenn ein Einsatz von Sperrfeuer mindestens 4-mal abprallt, erhält Euer nächster Einsatz eine um +20% erhöhte kritische Trefferchance.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1523,7 +1600,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Za każdym razem, gdy pojedyncze użycie Salwy rykoszetuje co najmniej 4 razy, następne użycie zyska premię +20% do szansy na trafienie krytyczne.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Sempre que um único lançamento de Salva ricocheteia pelo menos 4 vezes, seu próximo lançamento recebe +20% de chance de acerto crítico aumentada.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "Когда \"Шквальный огонь\" рикошетит хотя бы 4 раза:раз, вероятность нанести критический урон при следующем применении повышается на +20%.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "单次乱射弹射至少 4 次, 你的下一次施法的暴击几率提高 +20%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "单次乱射弹射至少 4 次, 你的下一次施法的暴击几率提高 +20%。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "在施放一次箭幕時,若箭矢彈射至少 4 次,你下一次施放的爆擊機率提高 +20%。\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 38,
 		maxPoints: 1,
@@ -1547,7 +1625,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Ulepszona Salwa",
 			"ptBR": "Salva Aprimorada",
 			"ruRU": "Улучшенный шквальный огонь",
-			"zhCN": "强力乱射"
+			"zhCN": "强力乱射",
+			"zhTW": "改良箭幕"
 },
 		descriptionLocalized: {
 			"deDE": "Jeder 3. Einsatz von Sperrfeuer macht Ziele 2 Sek. lang verwundbar.\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
@@ -1560,7 +1639,8 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"plPL": "Co 3 Salwa odsłania wrogów na 2 sek.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
 			"ptBR": "Cada 3º lançamento de Salva deixa os inimigos vulneráveis por 2 segundos.\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
 			"ruRU": "При каждом 3-м применении \"Шквальный огонь\" делает пораженных противников уязвимыми на 2 сек.\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"zhCN": "每第 3 次施放乱射会使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量."
+			"zhCN": "每第 3 次施放乱射会使敌人陷入易伤状态, 持续 2 秒。\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "每第 3 次施放的箭幕,會使被擊中的敵人易傷,持續 2 秒。\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 39,
 		maxPoints: 1,
@@ -1583,7 +1663,8 @@ Tags: Damage Reduction.`,
 			"plPL": "Solidność",
 			"ptBR": "Resistente",
 			"ruRU": "Прочность",
-			"zhCN": "坚韧"
+			"zhCN": "坚韧",
+			"zhTW": "結實"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr erhaltet {4/8/12/16/20/24/28/32/36/40}% Schadensreduktion im Nahkampf.\n\nTags: Schadensreduktion.",
@@ -1596,7 +1677,8 @@ Tags: Damage Reduction.`,
 			"plPL": "Twoja redukcja obrażeń z bliska jest zwiększona o {4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Redukcja Obrażeń.",
 			"ptBR": "Você recebe {4/8/12/16/20/24/28/32/36/40}% de redução de dano de curta distância.\n\nTags: Redução de Dano.",
 			"ruRU": "Вы получаете на x{4/8/12/16/20/24/28/32/36/40}% меньше урона в ближнем бою.\n\nTags: Уменьшение урона.",
-			"zhCN": "你获得 {4/8/12/16/20/24/28/32/36/40}% 近距伤害减免。\n\nTags: 伤害减免."
+			"zhCN": "你获得 {4/8/12/16/20/24/28/32/36/40}% 近距伤害减免。\n\nTags: 伤害减免.",
+			"zhTW": "你獲得 {4/8/12/16/20/24/28/32/36/40}% 近程傷害減免。\n\nTags: 傷害減免."
 },
 		id: 40,
 		maxPoints: 3,
@@ -1619,7 +1701,8 @@ Tags: Critical Strikes, Healing.`,
 			"plPL": "Wysysające Uderzenia",
 			"ptBR": "Golpes Drenantes",
 			"ruRU": "Вытягивающие удары",
-			"zhCN": "虹吸打击"
+			"zhCN": "虹吸打击",
+			"zhTW": "虹吸打擊"
 },
 		descriptionLocalized: {
 			"deDE": "Heilt Euch um {1/2/3/4/5/6/7/8/9/10}% Eures maximalen Lebens, wenn Ihr Gegner in der Nähe kritisch trefft.\n\nTags: Kritische Treffer, Heilung.",
@@ -1632,7 +1715,8 @@ Tags: Critical Strikes, Healing.`,
 			"plPL": "Odzyskujesz {1/2/3/4/5/6/7/8/9/10}% twojego maksymalnego zdrowia, gdy zadajesz pobliskim wrogom trafienia krytyczne.\n\nTags: Trafienia Krytyczne, Leczenie.",
 			"ptBR": "Cura {1/2/3/4/5/6/7/8/9/10}% da sua vida máxima ao desferir um acerto crítico contra inimigos próximos.\n\nTags: Acertos Críticos, Cura.",
 			"ruRU": "Вы восполняете {1/2/3/4/5/6/7/8/9/10}% максимального запаса здоровья, когда поражаете противников вблизи критическими ударами.\n\nTags: Критические удары, Исцеление.",
-			"zhCN": "对近距敌人造成暴击时, 为你恢复 {1/2/3/4/5/6/7/8/9/10}%生命上限。\n\nTags: 暴击, 治疗."
+			"zhCN": "对近距敌人造成暴击时, 为你恢复 {1/2/3/4/5/6/7/8/9/10}%生命上限。\n\nTags: 暴击, 治疗.",
+			"zhTW": "對近距離敵人使出爆擊時,恢復生命值上限的 {1/2/3/4/5/6/7/8/9/10}%。\n\nTags: 爆擊, 治療."
 },
 		id: 41,
 		maxPoints: 3,
@@ -1655,7 +1739,8 @@ Tags: Critical Strikes, Movement.`,
 			"plPL": "Przerywany Krok",
 			"ptBR": "Passo Hesitante",
 			"ruRU": "Перебежка",
-			"zhCN": "鬼步疾行"
+			"zhCN": "鬼步疾行",
+			"zhTW": "蹣跚步伐"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr bei Gegnern einen kritischen Treffer erzielt, erhaltet Ihr 4.0 Sek. lang +{5/10/15/20/25/30/35/40/45/50}% Bewegungsgeschwindigkeit.\n\nTags: Kritische Treffer, Bewegung.",
@@ -1668,7 +1753,8 @@ Tags: Critical Strikes, Movement.`,
 			"plPL": "Zadanie krytycznego trafienia wrogowi zapewnia +{5/10/15/20/25/30/35/40/45/50}% do szybkości ruchu na 4.0 sek.\n\nTags: Trafienia Krytyczne, Ruch.",
 			"ptBR": "Desferir um acerto crítico contra um inimigo concede +{5/10/15/20/25/30/35/40/45/50}% de velocidade de movimento por 4.0 segundos.\n\nTags: Acertos Críticos, Movimento.",
 			"ruRU": "Критический удар повышает скорость передвижения на +{5/10/15/20/25/30/35/40/45/50}% на 4.0 сек.\n\nTags: Критические удары, Движение.",
-			"zhCN": "对一名敌人造成暴击时, 移动速度提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 4.0 秒。\n\nTags: 暴击, 移动."
+			"zhCN": "对一名敌人造成暴击时, 移动速度提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 4.0 秒。\n\nTags: 暴击, 移动.",
+			"zhTW": "對敵人爆擊可獲得額外 +{5/10/15/20/25/30/35/40/45/50}% 移動速度,持續 4.0 秒。\n\nTags: 爆擊, 移動."
 },
 		id: 42,
 		maxPoints: 3,
@@ -1696,7 +1782,8 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"plPL": "Cienisty Krok",
 			"ptBR": "Passo Sombrio",
 			"ruRU": "Шаг сквозь тень",
-			"zhCN": "暗影步"
+			"zhCN": "暗影步",
+			"zhTW": "暗影步伐"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 100%\nWerdet unaufhaltsam, bewegt Euch schnell durch die Schatten und stecht aus dem Hinterhalt auf ein Opfer ein, wodurch Ihr {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% Schaden verursacht. Erhaltet danach 2 Sek. lang 50% mehr Bewegungsgeschwindigkeit.\n\nTags: Wendigkeit, Meucheln, Unaufhaltsam, Infusionsfähig, Schaden, Physisch, Abklingzeit, Bewegung.",
@@ -1709,7 +1796,8 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 100%\nZyskujesz nieustępliwość i przemykasz szybko wśród cieni, a następnie dźgasz od tyłu wroga i zadajesz mu {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% pkt. obrażeń. Zyskujesz następnie 50% do szybkości ruchu przez 2 sek.\n\nTags: Zwinność, Napaść, Nieustępliwość, Nasycalne, Obrażenia, Fizyczne, Odnowienie, Ruch.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 100%\nVocê fica implacável e move-se rapidamente pelas sombras para apunhalar a vítima por trás, causando {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de dano. Depois, recebe 50% de velocidade de movimento aumentada por 2 segundos.\n\nTags: Agilidade, Degola, Implacável, Imbuível, Dano, Física, Recarga, Movimento.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 100%\nВы становитесь неудержимым, быстро идете к цели сквозь тень и бьете ее в спину, нанося {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% ед. урона. После этого ваша скорость передвижения повышается на 50% на 2 сек.\n\nTags: Ловкость, Головорез, Неудержимость, Насыщение, Урон, Физический урон, Время восстановления, Движение.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 100%\n变得不可阻挡, 快速穿过暗影并从背后刺击受害者, 造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 点伤害。之后移动速度提高 50%, 持续 2 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 100%\n变得不可阻挡, 快速穿过暗影并从背后刺击受害者, 造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 点伤害。之后移动速度提高 50%, 持续 2 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动.",
+			"zhTW": "冷卻時間: {#} 秒\n幸運觸發機率:100%\n進入無阻狀態,快速穿越陰影並從後方刺擊敵人,造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 點傷害。移動速度提高 50%,持續 2 秒。\n\nTags: 靈巧, 割喉, 無阻, 可灌注, 傷害, 物理, 冷卻時間, 移動."
 },
 		id: 43,
 		maxPoints: 5,
@@ -1734,7 +1822,8 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"plPL": "Wzmocniony Cienisty Krok",
 			"ptBR": "Passo Sombrio Aperfeiçoado",
 			"ruRU": "Усиленный шаг сквозь тень",
-			"zhCN": "强化暗影步"
+			"zhCN": "强化暗影步",
+			"zhTW": "強化暗影步伐"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem Gegner mit Schattenschritt Schaden zufügt, wird Eure kritische Trefferchance gegen ihn 3 Sek. lang um +8% erhöht.\n\nTags: Wendigkeit, Meucheln, Unaufhaltsam, Infusionsfähig, Schaden, Physisch, Abklingzeit, Bewegung.",
@@ -1747,7 +1836,8 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"plPL": "Zranienie wroga Cienistym Krokiem zwiększa twoją szansę na zadanie mu trafienia krytycznego o +8% na 3 sek.\n\nTags: Zwinność, Napaść, Nieustępliwość, Nasycalne, Obrażenia, Fizyczne, Odnowienie, Ruch.",
 			"ptBR": "Causar dano a um inimigo com Passo Sombrio aumenta sua chance de acerto crítico contra ele em +8% por 3 segundos.\n\nTags: Agilidade, Degola, Implacável, Imbuível, Dano, Física, Recarga, Movimento.",
 			"ruRU": "Когда \"Шаг сквозь тень\" наносит противнику урон, вероятность нанести этой цели критический урон повышается на +8% на 3 сек.\n\nTags: Ловкость, Головорез, Неудержимость, Насыщение, Урон, Физический урон, Время восстановления, Движение.",
-			"zhCN": "暗影步对一名敌人造成伤害时, 你对其造成暴击的几率提高 +8%, 持续 3 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动."
+			"zhCN": "暗影步对一名敌人造成伤害时, 你对其造成暴击的几率提高 +8%, 持续 3 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动.",
+			"zhTW": "以暗影步伐對敵人造成傷害,會使你對其的爆擊機率提高 +8%,持續 3 秒。\n\nTags: 靈巧, 割喉, 無阻, 可灌注, 傷害, 物理, 冷卻時間, 移動."
 },
 		id: 44,
 		maxPoints: 1,
@@ -1771,7 +1861,8 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"plPL": "Metodyczny Cienisty Krok",
 			"ptBR": "Passo Sombrio Metódico",
 			"ruRU": "Методичный шаг сквозь тень",
-			"zhCN": "有序暗影步"
+			"zhCN": "有序暗影步",
+			"zhTW": "訓規暗影步伐"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die durch Schattenschritt Schaden erleiden, sind 2 Sek. lang betäubt.\n\nTags: Wendigkeit, Meucheln, Unaufhaltsam, Infusionsfähig, Schaden, Physisch, Abklingzeit, Bewegung.",
@@ -1784,7 +1875,8 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"plPL": "Wrogowie, którzy otrzymali obrażenia od Cienistego Kroku, zostają ogłuszeni na 2 sek.\n\nTags: Zwinność, Napaść, Nieustępliwość, Nasycalne, Obrażenia, Fizyczne, Odnowienie, Ruch.",
 			"ptBR": "Inimigos atingidos por Passo Sombrio ficam atordoados por 2 segundos.\n\nTags: Agilidade, Degola, Implacável, Imbuível, Dano, Física, Recarga, Movimento.",
 			"ruRU": "Когда \"Шаг сквозь тень\" наносит противникам урон, он оглушает их на 2 сек.\n\nTags: Ловкость, Головорез, Неудержимость, Насыщение, Урон, Физический урон, Время восстановления, Движение.",
-			"zhCN": "暗影步对敌人造成伤害时使其昏迷 2 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动."
+			"zhCN": "暗影步对敌人造成伤害时使其昏迷 2 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动.",
+			"zhTW": "受到暗影步伐傷害的敵人會昏迷 2 秒。\n\nTags: 靈巧, 割喉, 無阻, 可灌注, 傷害, 物理, 冷卻時間, 移動."
 },
 		id: 45,
 		maxPoints: 1,
@@ -1808,7 +1900,8 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"plPL": "Zdyscyplinowany Cienisty Krok",
 			"ptBR": "Passo Sombrio Disciplinado",
 			"ruRU": "Упорядоченный шаг сквозь тень",
-			"zhCN": "戒律暗影步"
+			"zhCN": "戒律暗影步",
+			"zhTW": "戒令暗影步伐"
 },
 		descriptionLocalized: {
 			"deDE": "Die Abklingzeit von Schattenschritt ist um 3 Sek. reduziert, wenn er einem Gegner Schaden zufügt, den Ihr in den letzten 4 Sek. nicht mit Schattenschritt getroffen habt.\n\nTags: Wendigkeit, Meucheln, Unaufhaltsam, Infusionsfähig, Schaden, Physisch, Abklingzeit, Bewegung.",
@@ -1821,7 +1914,8 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"plPL": "Czas odnowienia Cienistego Kroku jest skrócony o 3 sek., kiedy przy użyciu tej umiejętności ranisz wroga, który nie otrzymał od niej obrażeń w ciągu ostatnich 4 sek.\n\nTags: Zwinność, Napaść, Nieustępliwość, Nasycalne, Obrażenia, Fizyczne, Odnowienie, Ruch.",
 			"ptBR": "A recarga de Passo Sombrio é reduzida em 3 segundos ao causar dano a um inimigo que você não atingiu com Passo Sombrio nos últimos 4 segundos.\n\nTags: Agilidade, Degola, Implacável, Imbuível, Dano, Física, Recarga, Movimento.",
 			"ruRU": "Когда \"Шаг сквозь тень\" поражает противника, которому вы не наносили урон этим умением в течение последних 4 сек., время восстановления \"Шага сквозь тень\" сокращается на 3 сек.\n\nTags: Ловкость, Головорез, Неудержимость, Насыщение, Урон, Физический урон, Время восстановления, Движение.",
-			"zhCN": "在过去的 4 秒内当你用暗影步对一个未曾命中过的敌人造成伤害时, 暗影步的冷却时间缩短 3 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动."
+			"zhCN": "在过去的 4 秒内当你用暗影步对一个未曾命中过的敌人造成伤害时, 暗影步的冷却时间缩短 3 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动.",
+			"zhTW": "以暗影步伐對 4 秒內未被你的暗影步伐擊中的敵人造成傷害時,其冷卻時間降低3 秒。\n\nTags: 靈巧, 割喉, 無阻, 可灌注, 傷害, 物理, 冷卻時間, 移動."
 },
 		id: 46,
 		maxPoints: 1,
@@ -1847,7 +1941,8 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Pęd",
 			"ptBR": "Disparada",
 			"ruRU": "Рывок",
-			"zhCN": "疾行斩"
+			"zhCN": "疾行斩",
+			"zhTW": "疾衝"
 },
 		descriptionLocalized: {
 			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: 25%\nPrescht vorwärts und versetzt Gegnern Hiebe, die {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% Schaden verursachen.\n\nTags: Wendigkeit, Meucheln, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
@@ -1860,7 +1955,8 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: 25%\nPędzisz naprzód i tniesz wrogów, zadając {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń.\n\nTags: Zwinność, Napaść, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: 25%\nAvança e retalha os inimigos, causando {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de dano.\n\nTags: Agilidade, Degola, Imbuível, Dano, Física, Recarga.",
 			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: 25%.\nВы делаете рывок вперед и атакуете противников, нанося {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона.\n\nTags: Ловкость, Головорез, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n冲向前方并劈砍敌人, 造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间."
+			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n冲向前方并劈砍敌人, 造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "使用次數:2\n使用次數冷卻時間:{#} 秒\n幸運觸發機率:25%\n衝上前斬擊敵人,造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 點傷害。\n\nTags: 靈巧, 割喉, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 47,
 		maxPoints: 5,
@@ -1885,7 +1981,8 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocniony Pęd",
 			"ptBR": "Disparada Aperfeiçoada",
 			"ruRU": "Усиленный рывок",
-			"zhCN": "强化疾行斩"
+			"zhCN": "强化疾行斩",
+			"zhTW": "強化疾衝"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die durch Preschen Schaden erleiden, erleiden 5 Sek. lang x20% mehr kritischen Trefferschaden durch Euch.\n\nTags: Wendigkeit, Meucheln, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
@@ -1898,7 +1995,8 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Wrogowie, którym Pęd zadał obrażenia, otrzymują przez 5 sek. obrażenia od twoich trafień krytycznych zwiększone o x20%.\n\nTags: Zwinność, Napaść, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Inimigos atingidos por Disparada recebem 20% de dano de acerto crítico aumentado de você por 5 segundos.\n\nTags: Agilidade, Degola, Imbuível, Dano, Física, Recarga.",
 			"ruRU": "Противники, пораженные \"Рывком\", получают от вас на x20% больше критического урона в течение 5 сек.\n\nTags: Ловкость, Головорез, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "疾行斩对敌人造成伤害时, 你对其造成的暴击伤害提高 x20%, 持续 5 秒。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间."
+			"zhCN": "疾行斩对敌人造成伤害时, 你对其造成的暴击伤害提高 x20%, 持续 5 秒。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "你對遭疾衝傷害的敵人造成的爆擊傷害提高 x20%,持續 5 秒。\n\nTags: 靈巧, 割喉, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 48,
 		maxPoints: 1,
@@ -1922,7 +2020,8 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Metodyczny Pęd",
 			"ptBR": "Disparada Metódica",
 			"ruRU": "Методичный рывок",
-			"zhCN": "有序疾行斩"
+			"zhCN": "有序疾行斩",
+			"zhTW": "訓規疾衝"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr mit Preschen Gegnern Schaden zufügt, die unter Kontrollverlusteffekten leiden, wird die Aufladungsabklingzeit der Fertigkeit um 0.5 Sek. reduziert, bis maximal 3 Sek. pro Einsatz.\n\nTags: Wendigkeit, Meucheln, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
@@ -1935,7 +2034,8 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Zadawanie obrażeń Pędem wrogom o ograniczonej kontroli skraca czas odnowienia ładunku o 0.5 sek., maksymalnie do 3 sek. za każde użycie umiejętności.\n\nTags: Zwinność, Napaść, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Causar dano com Disparada a inimigos sob controle de grupo reduz a recarga de cargas em 0.5 segundos, até 3 segundos por lançamento.\n\nTags: Agilidade, Degola, Imbuível, Dano, Física, Recarga.",
 			"ruRU": "Когда \"Рывок\" наносит урон противникам под действием эффектов контроля, время восстановления его заряда сокращается на 0.5 сек. вплоть до 3 сек. за каждое применение.\n\nTags: Ловкость, Головорез, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用疾行斩对被群控的敌人造成伤害可以使其充能冷却时间缩短 0.5 秒, 每次施放最多缩短 3 秒。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间."
+			"zhCN": "使用疾行斩对被群控的敌人造成伤害可以使其充能冷却时间缩短 0.5 秒, 每次施放最多缩短 3 秒。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "以疾衝對受到控場效果的敵人造成傷害,可縮短使用次數冷卻時間 0.5 秒,每次施展最多縮短 3 秒。\n\nTags: 靈巧, 割喉, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 49,
 		maxPoints: 1,
@@ -1959,7 +2059,8 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Zdyscyplinowany Pęd",
 			"ptBR": "Disparada Disciplinada",
 			"ruRU": "Упорядоченный рывок",
-			"zhCN": "戒律疾行斩"
+			"zhCN": "戒律疾行斩",
+			"zhTW": "戒令疾衝"
 },
 		descriptionLocalized: {
 			"deDE": "Preschen verlangsamt getroffene Gegner 3 Sek. lang um 30%. Bereits verlangsamte Gegner werden stattdessen 2 Sek. lang benommen.\n\nTags: Wendigkeit, Meucheln, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
@@ -1972,7 +2073,8 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Pęd spowalnia trafionych wrogów o 30% na 3 sek. Cele spowolnione wcześniej zostaną zamiast tego oszołomione na 2 sek.\n\nTags: Zwinność, Napaść, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Disparada desacelera inimigos atingidos em 30% por 3 segundos. Qualquer inimigo já desacelerado ficará sob torpor por 2 segundos.\n\nTags: Agilidade, Degola, Imbuível, Dano, Física, Recarga.",
 			"ruRU": "\"Рывок\" замедляет пораженных противников на 30% на 3 сек. У уже замедленных противников вместо этого начинается головокружение, действующее 2 сек.\n\nTags: Ловкость, Головорез, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "疾行斩使命中的敌人减速 30%, 持续 3 秒。已被减速的敌人会被眩晕, 持续 2 秒。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间."
+			"zhCN": "疾行斩使命中的敌人减速 30%, 持续 3 秒。已被减速的敌人会被眩晕, 持续 2 秒。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "疾衝可使擊中的敵人緩速 30%,持續 3 秒。任何已遭緩速的敵人會改為暈眩 2 秒。\n\nTags: 靈巧, 割喉, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 50,
 		maxPoints: 1,
@@ -1999,7 +2101,8 @@ Tags: Vulnerable, Healthy, Critical Strikes, Damage.`,
 			"plPL": "Mistrzostwo Broni",
 			"ptBR": "Maestria em Armas",
 			"ruRU": "Мастер оружия",
-			"zhCN": "武器精通"
+			"zhCN": "武器精通",
+			"zhTW": "武器專精"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet je nach Waffentyp einen Angriffsbonus:\n• Dolche: x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden gegen gesunde Gegner.\n• Schwerter: x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden.\n• Bögen: x{4/8/12/16/20/24/28/32/36/40}% mehr Schaden gegen verwundbare Gegner.\n• Armbrüste: x{5/10/15/20/25/30/35/40/45/50}% mehr kritischer Trefferschaden.\n\nTags: Verwundbar, Gesund, Kritische Treffer, Schaden.",
@@ -2012,7 +2115,8 @@ Tags: Vulnerable, Healthy, Critical Strikes, Damage.`,
 			"plPL": "Zyskujesz premię w zależności od rodzaju używanej broni:\n• Sztylety: obrażenia są zwiększone o x{5/10/15/20/25/30/35/40/45/50}%, gdy atakujesz wroga będącego w pełni sił.\n• Miecze: obrażenia są zwiększone o x{3/6/9/12/15/18/21/24/27/30}%.\n• Łuki: obrażenia zadawane odsłoniętym wrogom są zwiększone o x{4/8/12/16/20/24/28/32/36/40}%.\n• Kusze: obrażenia od trafień krytycznych są zwiększone o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Odsłonięcie, Pełnia Sił, Trafienia Krytyczne, Obrażenia.",
 			"ptBR": "Recebe um bônus ao atacar com base no tipo de arma:\n• Adagas: {5/10/15/20/25/30/35/40/45/50}% de dano aumentado contra inimigos saudáveis.\n• Espadas: {3/6/9/12/15/18/21/24/27/30}% de dano aumentado.\n• Arcos: {4/8/12/16/20/24/28/32/36/40}% de dano aumentado contra inimigos vulneráveis.\n• Bestas: {5/10/15/20/25/30/35/40/45/50}% de dano de acerto crítico aumentado.\n\nTags: Vulnerável, Saudável, Acertos Críticos, Dano.",
 			"ruRU": "Ваши атаки усиливаются в зависимости от типа оружия:\n• Кинжалы: урон при атаке противников с высоким уровнем здоровья увеличивается на x{5/10/15/20/25/30/35/40/45/50}%.\n• Мечи: урон увеличивается на x{3/6/9/12/15/18/21/24/27/30}%.\n• Луки: урон увеличивается на x{4/8/12/16/20/24/28/32/36/40}% в бою с уязвимыми противниками.\n• Арбалеты: критический урон увеличивается на x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Уязвимость, Высокое здоровье, Критические удары, Урон.",
-			"zhCN": "攻击时根据武器类型获得加成:\n• 匕首: 对健康敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n• x剑: 造成的伤害提高 42001705.874%。\n• 弓: 对处于易伤状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n• 弩: 暴击伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 易伤, 健康, 暴击, 伤害."
+			"zhCN": "攻击时根据武器类型获得加成:\n• 匕首: 对健康敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n• x剑: 造成的伤害提高 42001705.874%。\n• 弓: 对处于易伤状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n• 弩: 暴击伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 易伤, 健康, 暴击, 伤害.",
+			"zhTW": "攻擊時會依照武器類型獲得加成:\n• 匕首:對健康敵人的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n• 劍:傷害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n• 弓:對易傷敵人的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n• 弩:爆擊傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 易傷, 健康, 爆擊, 傷害."
 },
 		id: 51,
 		maxPoints: 3,
@@ -2035,7 +2139,8 @@ Tags: Crowd Control, Critical Strikes.`,
 			"plPL": "Wstrząsy",
 			"ptBR": "Concussão",
 			"ruRU": "Фугасный снаряд",
-			"zhCN": "震荡打击"
+			"zhCN": "震荡打击",
+			"zhTW": "震盪"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Ihr einen Gegner zurückgestoßen oder niedergeschlagen habt, ist Eure kritische Trefferchance gegen diesen Gegner 3 Sek. lang um +{5/10/15/20/25/30/35/40/45/50}% erhöht.\n\nTags: Kontrollverlust, Kritische Treffer.",
@@ -2048,7 +2153,8 @@ Tags: Crowd Control, Critical Strikes.`,
 			"plPL": "Po odrzuceniu lub powaleniu wroga zyskujesz zwiększoną o +{5/10/15/20/25/30/35/40/45/50}% szansę na zadanie mu trafienia krytycznego przez 3 sek.\n\nTags: Ograniczanie Kontroli, Trafienia Krytyczne.",
 			"ptBR": "Depois de repelir ou nocautear um inimigo, você recebe +{5/10/15/20/25/30/35/40/45/50}% de chance de acerto crítico aumentada contra ele por 3 segundos.\n\nTags: Controle de Grupo, Acertos Críticos.",
 			"ruRU": "Когда вы отбрасываете противника или сбиваете его с ног, вероятность нанести ему критический удар повышается на +{5/10/15/20/25/30/35/40/45/50}% на 3 сек.\n\nTags: Контроль, Критические удары.",
-			"zhCN": "击退或击倒一名敌人后, 你对其造成暴击的几率提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 3 秒。\n\nTags: 群控, 暴击."
+			"zhCN": "击退或击倒一名敌人后, 你对其造成暴击的几率提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 3 秒。\n\nTags: 群控, 暴击.",
+			"zhTW": "在擊退或擊倒敵人後,你對其的爆擊機率提高 +{5/10/15/20/25/30/35/40/45/50}%,持續 3 秒。\n\nTags: 控場, 爆擊."
 },
 		id: 52,
 		maxPoints: 3,
@@ -2071,7 +2177,8 @@ Tags: Daze, Crowd Control, Critical Strikes.`,
 			"plPL": "Podstępny Atak",
 			"ptBR": "Ataque Ardiloso",
 			"ruRU": "Коварные удары",
-			"zhCN": "诡诈攻击"
+			"zhCN": "诡诈攻击",
+			"zhTW": "詭詐攻擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen kritischen Treffer gegen einen benommenen Gegner erzielt, wird er {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} Sek. lang niedergeschlagen.\n\nTags: Benommenheit, Kontrollverlust, Kritische Treffer.",
@@ -2084,7 +2191,8 @@ Tags: Daze, Crowd Control, Critical Strikes.`,
 			"plPL": "Po trafieniu krytycznym oszołomionego wroga zostaje on powalony na {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} sek.\n\nTags: Oszołomienie, Ograniczanie Kontroli, Trafienia Krytyczne.",
 			"ptBR": "Ao desferir um acerto crítico contra um inimigo atingido por torpor, ele é nocauteado por {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} segundos.\n\nTags: Torpor, Controle de Grupo, Acertos Críticos.",
 			"ruRU": "Нанося критический удар противнику с головокружением, вы сбиваете его с ног на {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} сек.\n\nTags: Головокружение, Контроль, Критические удары.",
-			"zhCN": "当你对被眩晕的敌人造成暴击时, 它们将被击倒 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 眩晕, 群控, 暴击."
+			"zhCN": "当你对被眩晕的敌人造成暴击时, 它们将被击倒 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 眩晕, 群控, 暴击.",
+			"zhTW": "當你對暈眩的敵人造成爆擊時,其會被擊倒 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 暈眩, 控場, 爆擊."
 },
 		id: 143,
 		maxPoints: 3,
@@ -2107,7 +2215,8 @@ Tags: Daze, Crowd Control, Cooldown.`,
 			"plPL": "Błyskawiczny Gambit",
 			"ptBR": "Manobras Rápidas",
 			"ruRU": "Быстрые хитрости",
-			"zhCN": "棋行险招"
+			"zhCN": "棋行险招",
+			"zhTW": "快手先機"
 },
 		descriptionLocalized: {
 			"deDE": "Die Abklingzeit von Entrinnen wird um {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} Sek. reduziert, wenn Ihr einen Gegner benommen macht.\n\nTags: Benommenheit, Kontrollverlust, Abklingzeit.",
@@ -2120,7 +2229,8 @@ Tags: Daze, Crowd Control, Cooldown.`,
 			"plPL": "Po oszołomieniu wroga czas odnowienia twojego Odskoku jest skrócony o {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} sek.\n\nTags: Oszołomienie, Ograniczanie Kontroli, Odnowienie.",
 			"ptBR": "Sua recarga de Evadir é reduzida em {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} segundos ao aplicar torpor em um inimigo.\n\nTags: Torpor, Controle de Grupo, Recarga.",
 			"ruRU": "Когда вы вызываете у противника головокружение, время восстановления \"Ускользания\" сокращается на {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} сек.\n\nTags: Головокружение, Контроль, Время восстановления.",
-			"zhCN": "当你眩晕一名敌人时, 你的闪避技能的冷却时间缩短 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 眩晕, 群控, 冷却时间."
+			"zhCN": "当你眩晕一名敌人时, 你的闪避技能的冷却时间缩短 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 眩晕, 群控, 冷却时间.",
+			"zhTW": "當你使敵人暈眩時,閃避冷卻時間降低 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 暈眩, 控場, 冷卻時間."
 },
 		id: 144,
 		maxPoints: 3,
@@ -2146,7 +2256,8 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Kolczatki",
 			"ptBR": "Estrepes",
 			"ruRU": "Шипы",
-			"zhCN": "铁蒺藜"
+			"zhCN": "铁蒺藜",
+			"zhTW": "釘爪刺"
 },
 		descriptionLocalized: {
 			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: 25%\nSpringt zurück und werft Krähenfüße auf den Boden, wodurch Ihr {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und Gegner um {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% verlangsamt. Hält 6 Sek. an.\n\nTags: Wendigkeit, Falle, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2159,7 +2270,8 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: 25%\nOdskakujesz do tyłu i rzucasz na ziemię kolczatki, które zadają {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i spowalniają wrogów o {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Czas działania: 6 sek.\n\nTags: Zwinność, Pułapki, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: 25%\nSalta para trás e arremessa estrepes no chão, causando {30/33/36/39/42/45/48/51/54/57}% de dano e desacelerando inimigos em {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidade, Armadilha, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: 25%.\nВы прыгаете назад, бросая на землю шипы, которые наносят {30/33/36/39/42/45/48/51/54/57}% ед. урона и замедляют противников на {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Время действия – 6 сек.\n\nTags: Ловкость, Ловушка, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n向后跳跃并向地面扔下铁蒺藜, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并使敌人减速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持续 6 秒。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n向后跳跃并向地面扔下铁蒺藜, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并使敌人减速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持续 6 秒。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "使用次數:2\n使用次數冷卻時間:{#} 秒\n幸運觸發機率:25%\n向後跳躍並將釘爪刺丟到地上,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並使敵人緩速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持續 6 秒。\n\nTags: 靈巧, 陷阱, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 53,
 		maxPoints: 5,
@@ -2184,7 +2296,8 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wzmocnione Kolczatki",
 			"ptBR": "Estrepes Aperfeiçoados",
 			"ruRU": "Усиленные шипы",
-			"zhCN": "强化铁蒺藜"
+			"zhCN": "强化铁蒺藜",
+			"zhTW": "強化釘爪刺"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die von Krähenfüße betroffen sind, erleiden jede Sekunde x3% mehr Schaden durch Euch.\n\nTags: Wendigkeit, Falle, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2197,7 +2310,8 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Wrogowie otrzymują od ciebie obrażenia zwiększone o x3% za każdą sekundę spędzoną pod wpływem Kolczatek.\n\nTags: Zwinność, Pułapki, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Inimigos recebem 3% de dano aumentado de você a cada segundo que estiverem em Estrepes.\n\nTags: Agilidade, Armadilha, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "За каждую секунду, проведенную в области действия \"Шипов\", противники получают от вас на x3% больше урона.\n\nTags: Ловкость, Ловушка, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "敌人在铁蒺藜范围内时, 受到来自你的伤害每秒提高 x3%。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "敌人在铁蒺藜范围内时, 受到来自你的伤害每秒提高 x3%。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "敵人在釘爪刺範圍內時,你對其造成的傷害每秒提高 x3%。\n\nTags: 靈巧, 陷阱, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 54,
 		maxPoints: 1,
@@ -2221,7 +2335,8 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Metodyczne Kolczatki",
 			"ptBR": "Estrepes Metódicos",
 			"ruRU": "Методичные шипы",
-			"zhCN": "有序铁蒺藜"
+			"zhCN": "有序铁蒺藜",
+			"zhTW": "訓規釘爪刺"
 },
 		descriptionLocalized: {
 			"deDE": "Krähenfüße verursacht jetzt Kälteschaden und unterkühlt Gegner in Höhe von bis zu 20% pro Sek.\n\nTags: Wendigkeit, Falle, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2234,7 +2349,8 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Kolczatki zadają teraz obrażenia od Zimna i wyziębiają wrogów o 20% na sekundę.\n\nTags: Zwinność, Pułapki, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Estrepes agora causa dano gélido e gela inimigos em 20% por segundo.\n\nTags: Agilidade, Armadilha, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "\"Шипы\" теперь наносят урон от холода и заставляют противников коченеть, уменьшая их подвижность на 20% раз в секунду.\n\nTags: Ловкость, Ловушка, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "铁蒺藜现在造成冰霜伤害并且每秒冻伤敌人 20%。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "铁蒺藜现在造成冰霜伤害并且每秒冻伤敌人 20%。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "釘爪刺會造成冰寒傷害,每秒附加 20% 冰冷效果。\n\nTags: 靈巧, 陷阱, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 55,
 		maxPoints: 1,
@@ -2258,7 +2374,8 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Zdyscyplinowane Kolczatki",
 			"ptBR": "Estrepes Disciplinados",
 			"ruRU": "Упорядоченные шипы",
-			"zhCN": "戒律铁蒺藜"
+			"zhCN": "戒律铁蒺藜",
+			"zhTW": "戒令釘爪刺"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr verfügt über eine kritische Trefferchance von +5% gegen Gegner, die von Krähenfüße betroffen sind. Der Wert verdoppelt sich bei verwundbaren Gegnern.\n\nTags: Wendigkeit, Falle, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
@@ -2271,7 +2388,8 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"plPL": "Twoja szansa na trafienie krytyczne wrogów pod wpływem twoich Kolczatek jest zwiększona o +5%. Wartość ta jest podwojona w przypadku odsłoniętych wrogów.\n\nTags: Zwinność, Pułapki, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Você tem +5% de chance de acerto crítico contra inimigos dentro dos seus Estrepes. O valor é dobrado contra inimigos vulneráveis.\n\nTags: Agilidade, Armadilha, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Вероятность критического удара повышается на +5% в бою с противниками в области действия ваших \"Шипов\". Это значение удваивается в бою с уязвимыми противниками.\n\nTags: Ловкость, Ловушка, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "你对铁蒺藜范围内的敌人造成暴击几率提高 +5%。该加成对处于易伤状态的敌人翻倍。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间."
+			"zhCN": "你对铁蒺藜范围内的敌人造成暴击几率提高 +5%。该加成对处于易伤状态的敌人翻倍。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "你對釘爪刺範圍內敵人的爆擊機率提高 +5%。對易傷的敵人此效果加倍。\n\nTags: 靈巧, 陷阱, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 56,
 		maxPoints: 1,
@@ -2294,7 +2412,8 @@ Tags: Damage Reduction.`,
 			"plPL": "Szorstkość",
 			"ptBR": "Robustez",
 			"ruRU": "Двужильность",
-			"zhCN": "糙皮"
+			"zhCN": "糙皮",
+			"zhTW": "強健體魄"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet {5/10/15/20/25/30/35/40/45/50}% Schadensreduktion gegen Effekte mit Schaden über Zeit.\n\nTags: Schadensreduktion.",
@@ -2307,7 +2426,8 @@ Tags: Damage Reduction.`,
 			"plPL": "Zyskujesz {5/10/15/20/25/30/35/40/45/50}% redukcji obrażeń względem efektów obrażeń z upływem czasu.\n\nTags: Redukcja Obrażeń.",
 			"ptBR": "Recebe {5/10/15/20/25/30/35/40/45/50}% de redução de dano contra efeitos de dano ao longo do tempo.\n\nTags: Redução de Dano.",
 			"ruRU": "Вы получаете на {5/10/15/20/25/30/35/40/45/50}% меньше периодического урона.\n\nTags: Уменьшение урона.",
-			"zhCN": "对持续性伤害效果获得 {5/10/15/20/25/30/35/40/45/50}% 伤害减免。\n\nTags: 伤害减免."
+			"zhCN": "对持续性伤害效果获得 {5/10/15/20/25/30/35/40/45/50}% 伤害减免。\n\nTags: 伤害减免.",
+			"zhTW": "對持續傷害效果獲得 {5/10/15/20/25/30/35/40/45/50}% 傷害減免。\n\nTags: 傷害減免."
 },
 		id: 57,
 		maxPoints: 3,
@@ -2330,7 +2450,8 @@ Tags: Damage Reduction.`,
 			"plPL": "Reaktywna Obrona",
 			"ptBR": "Defesa Reativa",
 			"ruRU": "Защитный импульс",
-			"zhCN": "被动防御"
+			"zhCN": "被动防御",
+			"zhTW": "反應防禦"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet {6/12/18/24/30/36/42/48/54/60}% Schadensreduktion, während Ihr unter Kontrollverlusteffekten leidet.\n\nTags: Schadensreduktion.",
@@ -2343,7 +2464,8 @@ Tags: Damage Reduction.`,
 			"plPL": "Zyskujesz {6/12/18/24/30/36/42/48/54/60}% do redukcji obrażeń, gdy masz ograniczoną kontrolę.\n\nTags: Redukcja Obrażeń.",
 			"ptBR": "Recebe {6/12/18/24/30/36/42/48/54/60}% de redução de dano enquanto sob efeitos de controle.\n\nTags: Redução de Dano.",
 			"ruRU": "Под действием эффектов контроля вы получаете на {6/12/18/24/30/36/42/48/54/60}% меньше урона.\n\nTags: Уменьшение урона.",
-			"zhCN": "受到控制类限制效果时获得 {6/12/18/24/30/36/42/48/54/60}% 伤害减免。\n\nTags: 伤害减免."
+			"zhCN": "受到控制类限制效果时获得 {6/12/18/24/30/36/42/48/54/60}% 伤害减免。\n\nTags: 伤害减免.",
+			"zhTW": "受到控場效果時,獲得 {6/12/18/24/30/36/42/48/54/60}% 傷害減免。\n\nTags: 傷害減免."
 },
 		id: 58,
 		maxPoints: 3,
@@ -2370,7 +2492,8 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"plPL": "Granat Dymny",
 			"ptBR": "Granada de Fumaça",
 			"ruRU": "Ослепляющий дым",
-			"zhCN": "烟雾手雷"
+			"zhCN": "烟雾手雷",
+			"zhTW": "煙霧彈"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nWerft ein rauchendes Gebräu auf Gegner, das sie {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} Sek. lang benommen macht.\n\nTags: Täuschung, Benommenheit, Granate, Kontrollverlust, Abklingzeit.",
@@ -2383,7 +2506,8 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nRzucasz we wrogów dymną miksturę, która oszałamia ich na {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} sek.\n\nTags: Podstęp, Oszołomienie, Granat, Ograniczanie Kontroli, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nArremessa uma mistura esfumaçada que aplica torpor nos inimigos por {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} segundos.\n\nTags: Subterfúgio, Torpor, Granada, Controle de Grupo, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВы бросаете в противников дымящийся отвар, вызывающий у них головокружение на {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} сек.\n\nTags: Уловки, Головокружение, Граната, Контроль, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n向敌人投掷烟雾缭绕的混合物, 眩晕敌人 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} 秒。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n向敌人投掷烟雾缭绕的混合物, 眩晕敌人 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} 秒。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n對敵人投擲會產生煙霧的藥劑,使其 暈眩 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} 秒。\n\nTags: 欺敵, 暈眩, 榴彈, 控場, 冷卻時間."
 },
 		id: 123,
 		maxPoints: 5,
@@ -2408,7 +2532,8 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"plPL": "Wzmocniony Granat Dymny",
 			"ptBR": "Granada de Fumaça Aperfeiçoada",
 			"ruRU": "Усиленный ослепляющий дым",
-			"zhCN": "强化烟雾手雷"
+			"zhCN": "强化烟雾手雷",
+			"zhTW": "強化煙霧彈"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die von Rauchgranate betroffen sind, erleiden durch Euch x15% mehr Schaden.\n\nTags: Täuschung, Benommenheit, Granate, Kontrollverlust, Abklingzeit.",
@@ -2421,7 +2546,8 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"plPL": "Wrogowie znajdujący się pod wpływem Granatu Dymnego otrzymują od ciebie obrażenia zwiększone o x15%.\n\nTags: Podstęp, Oszołomienie, Granat, Ograniczanie Kontroli, Odnowienie.",
 			"ptBR": "Inimigos afetados por Granada de Fumaça recebem 15% de dano aumentado de você.\n\nTags: Subterfúgio, Torpor, Granada, Controle de Grupo, Recarga.",
 			"ruRU": "Противники под действием \"Ослепляющего дыма\" получают от вас на x15% больше урона.\n\nTags: Уловки, Головокружение, Граната, Контроль, Время восстановления.",
-			"zhCN": "被烟雾手雷影响的敌人受到来自你的伤害提高 x15%。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间."
+			"zhCN": "被烟雾手雷影响的敌人受到来自你的伤害提高 x15%。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间.",
+			"zhTW": "受到煙霧彈影響的敵人,你對其造成的傷害提高 x15%。\n\nTags: 欺敵, 暈眩, 榴彈, 控場, 冷卻時間."
 },
 		id: 124,
 		maxPoints: 1,
@@ -2445,7 +2571,8 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"plPL": "Obalający Granat Dymny",
 			"ptBR": "Granada de Fumaça Destruidora",
 			"ruRU": "Коварный ослепляющий дым",
-			"zhCN": "颠覆烟雾手雷"
+			"zhCN": "颠覆烟雾手雷",
+			"zhTW": "顛覆煙霧彈"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn ein Gegner verwundbar, verlangsamt oder unterkühlt ist, macht Rauchgranate ihn x20% länger benommen.\n\nTags: Täuschung, Benommenheit, Granate, Kontrollverlust, Abklingzeit.",
@@ -2458,7 +2585,8 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"plPL": "Jeśli wróg jest odsłonięty, spowolniony albo wyziębiony, jego oszołomienie od Granatu Dymnego trwa o x20% dłużej.\n\nTags: Podstęp, Oszołomienie, Granat, Ograniczanie Kontroli, Odnowienie.",
 			"ptBR": "Se um inimigo está vulnerável, desacelerado ou com gelidez, então Granada de Fumaça aplicará torpor nele por 20% mais tempo.\n\nTags: Subterfúgio, Torpor, Granada, Controle de Grupo, Recarga.",
 			"ruRU": "\"Ослепляющий дым\" вызывает головокружение у уязвимых, замедленных или окоченевших противников на x20% дольше.\n\nTags: Уловки, Головокружение, Граната, Контроль, Время восстановления.",
-			"zhCN": "如果敌人处于易伤、减速或冻伤状态, 烟雾手雷的眩晕时间延长 x20%。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间."
+			"zhCN": "如果敌人处于易伤、减速或冻伤状态, 烟雾手雷的眩晕时间延长 x20%。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间.",
+			"zhTW": "若敵人處於易傷、緩速或冰冷狀態,則煙霧彈的對其造成的暈眩時間延長 x20%。\n\nTags: 欺敵, 暈眩, 榴彈, 控場, 冷卻時間."
 },
 		id: 125,
 		maxPoints: 1,
@@ -2482,7 +2610,8 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"plPL": "Kontrujący Granat Dymny",
 			"ptBR": "Granada de Fumaça Replicante",
 			"ruRU": "Ответный ослепляющий дым",
-			"zhCN": "反击烟雾手雷"
+			"zhCN": "反击烟雾手雷",
+			"zhTW": "反擊煙霧彈"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Bei direktem Schaden gegen Gegner, die unter Rauchgranate leiden, besteht eine Chance von 25%, die Abklingzeit um 1 Sek. zu reduzieren. Ist der Gegner verwundbar, wird die Abklingzeit stattdessen um 3 Sek. reduziert.\n\nTags: Täuschung, Benommenheit, Granate, Kontrollverlust, Abklingzeit.",
@@ -2495,7 +2624,8 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"plPL": "Szczęśliwy traf: Zadawanie bezpośrednich obrażeń wrogom pod wpływem Granatu Dymnego ma do 25% szans na skrócenie jego czasu odnowienia o 1 sek. albo o 3 sek., jeśli przeciwnik jest odsłonięty.\n\nTags: Podstęp, Oszołomienie, Granat, Ograniczanie Kontroli, Odnowienie.",
 			"ptBR": "Golpe de Sorte: Causar dano direto a inimigos afetados por Granada de Fumaça tem até 25% de chance de reduzir a recarga em 1 segundo, ou em 3 segundos se o inimigo estiver vulnerável.\n\nTags: Subterfúgio, Torpor, Granada, Controle de Grupo, Recarga.",
 			"ruRU": "Удачный удар: прямой урон противникам под действием \"Ослепляющего дыма\" с вероятностью до 25% снижает его время восстановления на 1 сек. Если противники уязвимы, время восстановления сокращается на 3 сек.\n\nTags: Уловки, Головокружение, Граната, Контроль, Время восстановления.",
-			"zhCN": "幸运一击: 对受烟雾手雷影响的敌人造成直接伤害时, 最多有 25% 几率使其冷却时间缩短 1 秒, 如果敌人处于易伤状态, 则冷却时间缩短 3 秒。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间."
+			"zhCN": "幸运一击: 对受烟雾手雷影响的敌人造成直接伤害时, 最多有 25% 几率使其冷却时间缩短 1 秒, 如果敌人处于易伤状态, 则冷却时间缩短 3 秒。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间.",
+			"zhTW": "幸運觸發:對受煙霧彈影響的敵人造成直接傷害有最高 25% 機率縮短其冷卻時間 1 秒,若敵人處於易傷狀態則縮短 3 秒。\n\nTags: 欺敵, 暈眩, 榴彈, 控場, 冷卻時間."
 },
 		id: 126,
 		maxPoints: 1,
@@ -2523,7 +2653,8 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"plPL": "Maskowanie",
 			"ptBR": "Dissimulação",
 			"ruRU": "Маскировка",
-			"zhCN": "隐蔽"
+			"zhCN": "隐蔽",
+			"zhTW": "隱匿"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nMacht Euch unsichtbar und geht 4 Sek. lang in eine fortgeschrittene Form von Verstohlenheit über, die nicht entfernt wird, wenn Ihr Schaden erleidet.\n\nVerschleierung lässt Euch zudem unaufhaltsam werden, gewährt Euch +30% Bewegungsgeschwindigkeit und ermöglicht es Euch, Euch während der Dauer ungehindert durch Gegner hindurchzubewegen.\n\nWenn Ihr während Verschleierung eine Angriffsfertigkeit einsetzt, endet Verschleierung.\n\nTags: Täuschung, Unaufhaltsam, Verstohlenheit, Abklingzeit, Bewegung.",
@@ -2536,7 +2667,8 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"plPL": "Czas odnowienia: {#} sek.\nZnikasz wrogom z oczu, zyskując zaawansowaną formę ukrycia na 4 sek. Efekt ten nie zostanie przerwany po otrzymaniu obrażeń.\n\nGdy Maskowanie jest aktywne, zapewnia ci również nieustępliwość i premię +30% do szybkości ruchu, a także pozwala swobodnie przenikać przez wrogów.\n\nUżycie umiejętności ataku w trakcie trwania Maskowania przerwie ten efekt.\n\nTags: Podstęp, Nieustępliwość, Ukrycie, Odnowienie, Ruch.",
 			"ptBR": "Recarga: {#} segundos\nVocê desaparece, recebendo uma forma avançada de Furtividade por 4 segundos que não será removida ao receber dano.\n\nDissimulação também torna você implacável, concede +30% de velocidade de movimento e permite mover-se livremente através de inimigos durante o efeito.\n\nUsar uma habilidade de ataque durante Dissimulação cancelará Dissimulação.\n\nTags: Subterfúgio, Implacável, Furtividade, Recarga, Movimento.",
 			"ruRU": "Время восстановления: {#} сек.\nВы скрываетесь из виду, переходя в совершенное состояние незаметности на 4 сек., которое не рассеивается при получении урона.\n\nПока действует маскировка, вы также получаете неудержимость, скорость передвижения повышается на +30% и вы можете свободно проходить сквозь врагов.\n\nПри применении наносящих урон умений маскировка снимается.\n\nTags: Уловки, Неудержимость, Незаметность, Время восстановления, Движение.",
-			"zhCN": "冷却时间: {#} 秒\n从视线中消失, 获得高级形式的潜行, 持续 4 秒, 不会因受到伤害而移除。\n\n隐蔽 还可以让你变得不可阻挡, 移动速度提高 +30%, 并使你可以在持续时间内自由穿过敌人。\n\n在隐蔽 期间使用攻击技能会打破隐蔽状态。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动."
+			"zhCN": "冷却时间: {#} 秒\n从视线中消失, 获得高级形式的潜行, 持续 4 秒, 不会因受到伤害而移除。\n\n隐蔽 还可以让你变得不可阻挡, 移动速度提高 +30%, 并使你可以在持续时间内自由穿过敌人。\n\n在隐蔽 期间使用攻击技能会打破隐蔽状态。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动.",
+			"zhTW": "冷卻時間:{#} 秒\n從視線中消失,進入進階匿蹤狀態,持續 4 秒,此狀態不會因受到傷害而解除。\n\n隱匿會使你無阻,賦予你 +30% 移動速度,並在其持續時間內讓你自由穿過敵人。\n\n在隱匿其間使用攻擊技能會解除隱匿。\n\nTags: 欺敵, 無阻, 匿蹤, 冷卻時間, 移動."
 },
 		id: 127,
 		maxPoints: 5,
@@ -2561,7 +2693,8 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"plPL": "Wzmocnione Ukrycie",
 			"ptBR": "Furtividade Aperfeiçoada",
 			"ruRU": "Усиленная незаметность",
-			"zhCN": "强化潜行"
+			"zhCN": "强化潜行",
+			"zhTW": "強化匿蹤"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr erhaltet 40 Energie, wenn Ihr Verschleierung aktiviert.\n\nTags: Täuschung, Unaufhaltsam, Verstohlenheit, Abklingzeit, Bewegung.",
@@ -2574,7 +2707,8 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"plPL": "Odzyskujesz 40 pkt. energii, kiedy wchodzisz w tryb maskowania.\n\nTags: Podstęp, Nieustępliwość, Ukrycie, Odnowienie, Ruch.",
 			"ptBR": "Você recebe 40 de energia ao ativar Dissimulação.\n\nTags: Subterfúgio, Implacável, Furtividade, Recarga, Movimento.",
 			"ruRU": "Вы накапливаете 40 ед. энергии после перехода в состояние маскировки.\n\nTags: Уловки, Неудержимость, Незаметность, Время восстановления, Движение.",
-			"zhCN": "你进入隐蔽时获得 40 点能量。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动."
+			"zhCN": "你进入隐蔽时获得 40 点能量。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动.",
+			"zhTW": "當你進入隱匿狀態時,獲得 40 點能量。\n\nTags: 欺敵, 無阻, 匿蹤, 冷卻時間, 移動."
 },
 		id: 75,
 		maxPoints: 1,
@@ -2598,7 +2732,8 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"plPL": "Obalające Ukrycie",
 			"ptBR": "Furtividade Destruidora",
 			"ruRU": "Коварная незаметность",
-			"zhCN": "颠覆潜行"
+			"zhCN": "颠覆潜行",
+			"zhTW": "顛覆匿蹤"
 },
 		descriptionLocalized: {
 			"deDE": "Die Fertigkeit, die Verschleierung beendet, macht Gegner immer 6 Sek. lang verwundbar.\n\nTags: Täuschung, Unaufhaltsam, Verstohlenheit, Abklingzeit, Bewegung.",
@@ -2611,7 +2746,8 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"plPL": "Umiejętność, która przerwie maskowanie, zawsze również sprawia, że wrogowie stają się odsłonięci przez 6 sek.\n\nTags: Podstęp, Nieustępliwość, Ukrycie, Odnowienie, Ruch.",
 			"ptBR": "A habilidade que cancelar Dissimulação sempre torna os inimigos vulneráveis por 6 segundos.\n\nTags: Subterfúgio, Implacável, Furtividade, Recarga, Movimento.",
 			"ruRU": "Умение, снимающее состояние маскировки, всегда делает противников уязвимыми на 6 сек.\n\nTags: Уловки, Неудержимость, Незаметность, Время восстановления, Движение.",
-			"zhCN": "技能打破隐蔽 的技能效果时必定会使敌人陷入易伤状态, 持续 6 秒。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动."
+			"zhCN": "技能打破隐蔽 的技能效果时必定会使敌人陷入易伤状态, 持续 6 秒。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动.",
+			"zhTW": "使隱匿狀態解除的技能必定會讓敵人易傷 6 秒。\n\nTags: 欺敵, 無阻, 匿蹤, 冷卻時間, 移動."
 },
 		id: 77,
 		maxPoints: 1,
@@ -2635,7 +2771,8 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"plPL": "Kontrujące Ukrycie",
 			"ptBR": "Furtividade Replicante",
 			"ruRU": "Ответная незаметность",
-			"zhCN": "反击潜行"
+			"zhCN": "反击潜行",
+			"zhTW": "反擊匿蹤"
 },
 		descriptionLocalized: {
 			"deDE": "Die Fertigkeit, die Verschleierung unterbricht, erzielt garantiert einen kritischen Treffer.\n\nTags: Täuschung, Unaufhaltsam, Verstohlenheit, Abklingzeit, Bewegung.",
@@ -2648,7 +2785,8 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"plPL": "Umiejętność, która przerwie maskowanie, ma zagwarantowane trafienie krytyczne.\n\nTags: Podstęp, Nieustępliwość, Ukrycie, Odnowienie, Ruch.",
 			"ptBR": "A habilidade que cancelar Dissimulação sempre será um acerto crítico garantido.\n\nTags: Subterfúgio, Implacável, Furtividade, Recarga, Movimento.",
 			"ruRU": "Умение, снимающее состояние маскировки, гарантированно наносит критический урон.\n\nTags: Уловки, Неудержимость, Незаметность, Время восстановления, Движение.",
-			"zhCN": "技能打破隐蔽的技能效果时必定暴击。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动."
+			"zhCN": "技能打破隐蔽的技能效果时必定暴击。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动.",
+			"zhTW": "使隱匿狀態解除的技能必定爆擊。\n\nTags: 欺敵, 無阻, 匿蹤, 冷卻時間, 移動."
 },
 		id: 76,
 		maxPoints: 1,
@@ -2675,7 +2813,8 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"plPL": "Trująca Pułapka",
 			"ptBR": "Armadilha Venenosa",
 			"ruRU": "Ловушка с ядом",
-			"zhCN": "剧毒陷阱"
+			"zhCN": "剧毒陷阱",
+			"zhTW": "劇毒陷阱"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 20%\nPlatziert eine Falle, die nach {#} Sek. scharf wird. Kommen Gegner ihr zu nahe, aktiviert sie sich und fügt Gegnern im Wirkungsbereich im Verlauf von 9 Sek. {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Giftschaden zu.\n\nIhr könnt 4 scharfe Fallen gleichzeitig haben.\n\nTags: Täuschung, Falle, Schaden, Gift, Abklingzeit.",
@@ -2688,7 +2827,8 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 20%\nTworzysz pułapkę, która uzbraja się po {#} sek. Gdy wróg zajdzie się w jej zasięgu, pułapka się aktywuje, a następnie zadaje wrogom na jej obszarze {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% pkt. obrażeń od zatrucia w ciągu 9 sek.\n\nMożesz mieć jednocześnie 4 uzbrojone pułapki:uzbrojonych pułapek.\n\nTags: Podstęp, Pułapki, Obrażenia, Trucizna, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 20%\nPosiciona uma armadilha que arma após {#} segundos. É ativada quando um inimigo entra em alcance, aplicando {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% de dano venenoso ao longo de 9 segundos a inimigos na área.\n\nVocê pode ter 4 armadilhas armadas de uma vez.\n\nTags: Subterfúgio, Armadilha, Dano, Veneno, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 20%.\nВы размещаете на земле ловушку, которая заряжается через {#} сек. Когда в область действия попадает противник, она срабатывает и отравляет цели в зоне поражения, нанося {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% ед. урона от отравления за 9 сек.\n\nМаксимальное количество заряженных размещенных ловушек – 4.\n\nTags: Уловки, Ловушка, Урон, Яд, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 在 9 秒内对范围内的敌人造成 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% 点毒素伤害。\n\n你在同一时间只能拥有 4 个部署的陷阱。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 在 9 秒内对范围内的敌人造成 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% 点毒素伤害。\n\n你在同一时间只能拥有 4 个部署的陷阱。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:20%\n放置一個 {#} 秒後設置完成的陷阱,於敵人進入範圍內時啟動,對範圍內的敵人在 9 秒內造成 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% 點中毒傷害。\n\n你同時只能有 4 個設置完成的陷阱。\n\nTags: 欺敵, 陷阱, 傷害, 毒素, 冷卻時間."
 },
 		id: 70,
 		maxPoints: 5,
@@ -2713,7 +2853,8 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"plPL": "Wzmocniona Trująca Pułapka",
 			"ptBR": "Armadilha Venenosa Aperfeiçoada",
 			"ruRU": "Усиленная ловушка с ядом",
-			"zhCN": "强化剧毒陷阱"
+			"zhCN": "强化剧毒陷阱",
+			"zhTW": "強化劇毒陷阱"
 },
 		descriptionLocalized: {
 			"deDE": "Giftfalle schlägt Gegner bei der Aktivierung 1.5 Sek. lang nieder.\n\nTags: Täuschung, Falle, Schaden, Gift, Abklingzeit.",
@@ -2726,7 +2867,8 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"plPL": "Przy aktywacji Trująca Pułapka powala wrogów na 1.5 sek.\n\nTags: Podstęp, Pułapki, Obrażenia, Trucizna, Odnowienie.",
 			"ptBR": "Armadilha Venenosa nocauteia inimigos por 1.5 segundos quando é ativada.\n\nTags: Subterfúgio, Armadilha, Dano, Veneno, Recarga.",
 			"ruRU": "При срабатывании \"Ловушка с ядом\" сбивает противников с ног на 1.5 сек.\n\nTags: Уловки, Ловушка, Урон, Яд, Время восстановления.",
-			"zhCN": "剧毒陷阱激活时击倒敌人, 持续 1.5 秒。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间."
+			"zhCN": "剧毒陷阱激活时击倒敌人, 持续 1.5 秒。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间.",
+			"zhTW": "劇毒陷阱啟動時會擊倒敵人 1.5 秒。\n\nTags: 欺敵, 陷阱, 傷害, 毒素, 冷卻時間."
 },
 		id: 71,
 		maxPoints: 1,
@@ -2750,7 +2892,8 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"plPL": "Kontrująca Trująca Pułapka",
 			"ptBR": "Armadilha Venenosa Replicante",
 			"ruRU": "Ответная ловушка с ядом",
-			"zhCN": "反击剧毒陷阱"
+			"zhCN": "反击剧毒陷阱",
+			"zhTW": "反擊劇毒陷阱"
 },
 		descriptionLocalized: {
 			"deDE": "Giftfalle verfügt über eine Chance von 30%, bei der Aktivierung Eure Infusionsabklingzeiten abzuschließen.\n\nTags: Täuschung, Falle, Schaden, Gift, Abklingzeit.",
@@ -2763,7 +2906,8 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"plPL": "Trująca Pułapka ma przy aktywacji 30% szans na wyzerowanie czasów odnowienia twoich umiejętności Nasycania.\n\nTags: Podstęp, Pułapki, Obrażenia, Trucizna, Odnowienie.",
 			"ptBR": "Armadilha Venenosa tem 30% de chance de reiniciar as recargas de habilidades de Imbuição quando ativada.\n\nTags: Subterfúgio, Armadilha, Dano, Veneno, Recarga.",
 			"ruRU": "При срабатывании \"Ловушка с ядом\" с вероятностью 30% обновляет ваши умения категории \"Насыщение\".\n\nTags: Уловки, Ловушка, Урон, Яд, Время восстановления.",
-			"zhCN": "剧毒陷阱激活时有 30% 几率重置你的灌注技能冷却时间。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间."
+			"zhCN": "剧毒陷阱激活时有 30% 几率重置你的灌注技能冷却时间。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间.",
+			"zhTW": "劇毒陷阱啟動時有 30% 機率重置你的灌注技能冷卻時間。\n\nTags: 欺敵, 陷阱, 傷害, 毒素, 冷卻時間."
 },
 		id: 72,
 		maxPoints: 1,
@@ -2787,7 +2931,8 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"plPL": "Obalająca Trująca Pułapka",
 			"ptBR": "Armadilha Venenosa Destruidora",
 			"ruRU": "Коварная ловушка с ядом",
-			"zhCN": "颠覆剧毒陷阱"
+			"zhCN": "颠覆剧毒陷阱",
+			"zhTW": "顛覆劇毒陷阱"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt Gegnern, die in Eurer Giftfalle stehen, x10% mehr Giftschaden zu.\n\nTags: Täuschung, Falle, Schaden, Gift, Abklingzeit.",
@@ -2800,7 +2945,8 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"plPL": "Zadajesz obrażenia od Trucizny zwiększone o x10% wrogom stojącym na Trującej Pułapce.\n\nTags: Podstęp, Pułapki, Obrażenia, Trucizna, Odnowienie.",
 			"ptBR": "Você causa 10% de dano venenoso aumentado a inimigos que estão dentro da sua Armadilha Venenosa.\n\nTags: Subterfúgio, Armadilha, Dano, Veneno, Recarga.",
 			"ruRU": "Вы наносите на x10% больше урона от яда противникам, находящимся в ловушке с ядом.\n\nTags: Уловки, Ловушка, Урон, Яд, Время восстановления.",
-			"zhCN": "你对站在剧毒陷阱中的敌人造成的毒素伤害提高 x10%。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间."
+			"zhCN": "你对站在剧毒陷阱中的敌人造成的毒素伤害提高 x10%。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间.",
+			"zhTW": "你對站立在你劇毒陷阱中的敵人,造成的毒素傷害提高 x10%。\n\nTags: 欺敵, 陷阱, 傷害, 毒素, 冷卻時間."
 },
 		id: 73,
 		maxPoints: 1,
@@ -2824,7 +2970,8 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"plPL": "Mroczny Całun",
 			"ptBR": "Véu Sombrio",
 			"ruRU": "Теневая завеса",
-			"zhCN": "暗影帷幕"
+			"zhCN": "暗影帷幕",
+			"zhTW": "黑暗籠罩"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nUmhüllt Euch mit bis zu 5 schützenden Schatten. Erhaltet {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Schadensreduktion pro aktivem Schatten. Jedes Mal, wenn Ihr direkten Schaden erleidet, wird dieser Schaden reduziert und ein Schatten wird verbraucht.\n\nTags: Täuschung, Schadensreduktion, Abklingzeit.",
@@ -2837,7 +2984,8 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nOtaczasz się ochronnymi cieniami (maksymalnie 5). Zyskujesz premię {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% do redukcji obrażeń za aktywny cień. Za każdym razem, gdy otrzymujesz bezpośrednie obrażenia, są one zredukowane, a jeden z cieni zostaje pochłonięty.\n\nTags: Podstęp, Redukcja Obrażeń, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nAté 5 sombras protetoras cercam você. Você recebe {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de redução de dano por sombra ativa. Sempre que você receber dano direto, esse dano é reduzido e uma sombra é consumida.\n\nTags: Subterfúgio, Redução de Dano, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВас окружает до 5 теней, каждая из которых уменьшает получаемый урон на {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%. Каждый раз, когда вы получаете прямой урон, этот урон уменьшается, а одна тень исчезает.\n\nTags: Уловки, Уменьшение урона, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n用最多 5 层防御性暗影环绕你。每有一层激活的暗影获得 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 伤害减免。每次受到直接伤害时, 该伤害都会降低并消耗一层暗影。\n\nTags: 诡诈, 伤害减免, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n用最多 5 层防御性暗影环绕你。每有一层激活的暗影获得 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 伤害减免。每次受到直接伤害时, 该伤害都会降低并消耗一层暗影。\n\nTags: 诡诈, 伤害减免, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n用最多 5 個防護暗影包圍自己。每個作用中的暗影會使傷害減免提高 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%。每次你受到直接傷害時,該傷害會降低並消耗一個暗影。\n\nTags: 欺敵, 傷害減免, 冷卻時間."
 },
 		id: 59,
 		maxPoints: 5,
@@ -2862,7 +3010,8 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"plPL": "Wzmocniony Mroczny Całun",
 			"ptBR": "Véu Sombrio Aperfeiçoado",
 			"ruRU": "Усиленная теневая завеса",
-			"zhCN": "强化暗影帷幕"
+			"zhCN": "强化暗影帷幕",
+			"zhTW": "強化黑暗籠罩"
 },
 		descriptionLocalized: {
 			"deDE": "Die Schatten von Dunkle Schleier verfügen über eine Chance von 10%, nicht verbraucht zu werden.\n\nTags: Täuschung, Schadensreduktion, Abklingzeit.",
@@ -2875,7 +3024,8 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"plPL": "Istnieje 10% szans na to, że cienie z Mrocznego Całunu nie zostaną pochłonięte.\n\nTags: Podstęp, Redukcja Obrażeń, Odnowienie.",
 			"ptBR": "As sombras de Véu Sombrio têm 10% de chance de não serem consumidas.\n\nTags: Subterfúgio, Redução de Dano, Recarga.",
 			"ruRU": "Тени \"Теневой завесы\" с вероятностью 10% не исчезают после принятия удара.\n\nTags: Уловки, Уменьшение урона, Время восстановления.",
-			"zhCN": "暗影帷幕的暗影有 10% 几率不被消耗。\n\nTags: 诡诈, 伤害减免, 冷却时间."
+			"zhCN": "暗影帷幕的暗影有 10% 几率不被消耗。\n\nTags: 诡诈, 伤害减免, 冷却时间.",
+			"zhTW": "黑暗籠罩的暗影有 10% 機率不會被消耗。\n\nTags: 欺敵, 傷害減免, 冷卻時間."
 },
 		id: 60,
 		maxPoints: 1,
@@ -2899,7 +3049,8 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"plPL": "Kontrujący Mroczny Całun",
 			"ptBR": "Véu Sombrio Replicante",
 			"ruRU": "Ответная теневая завеса",
-			"zhCN": "反击暗影帷幕"
+			"zhCN": "反击暗影帷幕",
+			"zhTW": "反擊黑暗籠罩"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Ihr mindestens 4 aktive Schatten von Dunkler Schleier habt, steigt Eure kritische Trefferchance um +8%.\n\nTags: Täuschung, Schadensreduktion, Abklingzeit.",
@@ -2912,7 +3063,8 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"plPL": "Kiedy masz aktywne cienie (co najmniej 4) z Mrocznego Całunu, zyskujesz premię +8% do szansy na trafienie krytyczne.\n\nTags: Podstęp, Redukcja Obrażeń, Odnowienie.",
 			"ptBR": "Enquanto você tiver pelo menos 4 sombras ativas de Véu Sombrio, recebe +8% de chance de acerto crítico.\n\nTags: Subterfúgio, Redução de Dano, Recarga.",
 			"ruRU": "Пока существует не менее 4 теней, созданных \"Теневой завесой\", ваша вероятность критического удара повышается на +8%.\n\nTags: Уловки, Уменьшение урона, Время восстановления.",
-			"zhCN": "暗影帷幕至少有 4 层激活的暗影时, 暴击几率提高 +8%。\n\nTags: 诡诈, 伤害减免, 冷却时间."
+			"zhCN": "暗影帷幕至少有 4 层激活的暗影时, 暴击几率提高 +8%。\n\nTags: 诡诈, 伤害减免, 冷却时间.",
+			"zhTW": "當你擁有至少 4 個由黑暗籠罩產生且作用中的暗影時,爆擊機率提高 +8%。\n\nTags: 欺敵, 傷害減免, 冷卻時間."
 },
 		id: 62,
 		maxPoints: 1,
@@ -2936,7 +3088,8 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"plPL": "Obalający Mroczny Całun",
 			"ptBR": "Véu Sombrio Destruidor",
 			"ruRU": "Коварная теневая завеса",
-			"zhCN": "颠覆暗影帷幕"
+			"zhCN": "颠覆暗影帷幕",
+			"zhTW": "顛覆黑暗籠罩"
 },
 		descriptionLocalized: {
 			"deDE": "Jeder aktive Schatten von Dunkler Schleier verleiht Euch +4% mehr Bewegungsgeschwindigkeit.\n\nTags: Täuschung, Schadensreduktion, Abklingzeit.",
@@ -2949,7 +3102,8 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"plPL": "Każdy aktywny cień z Mrocznego Całunu zapewnia ci +4% do szybkości ruchu.\n\nTags: Podstęp, Redukcja Obrażeń, Odnowienie.",
 			"ptBR": "Cada sombra ativa de Véu Sombrio concede a você +4% de velocidade de movimento aumentada.\n\nTags: Subterfúgio, Redução de Dano, Recarga.",
 			"ruRU": "Каждая активная тень \"Теневой завесы\" повышает скорость передвижения на +4%.\n\nTags: Уловки, Уменьшение урона, Время восстановления.",
-			"zhCN": "暗影帷幕每层激活的暗影都会使你的移动速度提高 +4%。\n\nTags: 诡诈, 伤害减免, 冷却时间."
+			"zhCN": "暗影帷幕每层激活的暗影都会使你的移动速度提高 +4%。\n\nTags: 诡诈, 伤害减免, 冷却时间.",
+			"zhTW": "黑暗籠罩產生的每個作用中暗影,會賦予你 +4% 移動速度。\n\nTags: 欺敵, 傷害減免, 冷卻時間."
 },
 		id: 61,
 		maxPoints: 1,
@@ -2972,7 +3126,8 @@ Tags: Healthy, Injured, Damage.`,
 			"plPL": "Nadużycie",
 			"ptBR": "Exploração",
 			"ruRU": "Уловка",
-			"zhCN": "利用"
+			"zhCN": "利用",
+			"zhTW": "剝削手段"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt gesunden und verletzten Gegnern x{6/12/18/24/30/36/42/48/54/60}% mehr Schaden zu.\n\nTags: Gesund, Verletzt, Schaden.",
@@ -2985,7 +3140,8 @@ Tags: Healthy, Injured, Damage.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{6/12/18/24/30/36/42/48/54/60}% wrogom w pełni sił i okaleczonym.\n\nTags: Pełnia Sił, Okaleczenie, Obrażenia.",
 			"ptBR": "Você causa {6/12/18/24/30/36/42/48/54/60}% de dano aumentado a inimigos saudáveis e feridos.\n\nTags: Saudável, Ferido, Dano.",
 			"ruRU": "Вы наносите на x{6/12/18/24/30/36/42/48/54/60}% больше урона противникам с высоким и низким уровнем здоровья.\n\nTags: Высокое здоровье, Ранение, Урон.",
-			"zhCN": "你对健康和受伤的敌人造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 健康, 受伤, 伤害."
+			"zhCN": "你对健康和受伤的敌人造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 健康, 受伤, 伤害.",
+			"zhTW": "你對健康和受傷的敵人造成的傷害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 健康, 受傷, 傷害."
 },
 		id: 68,
 		maxPoints: 3,
@@ -3008,7 +3164,8 @@ Tags: Vulnerable, Damage.`,
 			"plPL": "Złośliwość",
 			"ptBR": "Malícia",
 			"ruRU": "Злоба",
-			"zhCN": "恶意"
+			"zhCN": "恶意",
+			"zhTW": "惡意居心"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt verwundbaren Gegnern x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden zu.\n\nTags: Verwundbar, Schaden.",
@@ -3021,7 +3178,8 @@ Tags: Vulnerable, Damage.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{3/6/9/12/15/18/21/24/27/30}% odsłoniętym wrogom.\n\nTags: Odsłonięcie, Obrażenia.",
 			"ptBR": "Você causa {3/6/9/12/15/18/21/24/27/30}% de dano aumentado a inimigos vulneráveis.\n\nTags: Vulnerável, Dano.",
 			"ruRU": "Вы наносите на x{3/6/9/12/15/18/21/24/27/30}% больше урона уязвимым противникам.\n\nTags: Уязвимость, Урон.",
-			"zhCN": "你对处于易伤状态的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 易伤, 伤害."
+			"zhCN": "你对处于易伤状态的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 易伤, 伤害.",
+			"zhTW": "你對易傷的敵人造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 易傷, 傷害."
 },
 		id: 69,
 		maxPoints: 3,
@@ -3044,7 +3202,8 @@ Tags: Dodge, Cooldown.`,
 			"plPL": "Zwinność",
 			"ptBR": "Ágil",
 			"ruRU": "Изворотливость",
-			"zhCN": "敏捷"
+			"zhCN": "敏捷",
+			"zhTW": "輕靈身法"
 },
 		descriptionLocalized: {
 			"deDE": "Bei der Nutzung einer Abklingzeit erhöht sich Eure Ausweichchance 3 Sek. lang um {4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Ausweichen, Abklingzeit.",
@@ -3057,7 +3216,8 @@ Tags: Dodge, Cooldown.`,
 			"plPL": "Użycie umiejętności z czasem odnowienia zwiększa twoją szansę na unik o {4/8/12/16/20/24/28/32/36/40}% na 3 sek.\n\nTags: Unik, Odnowienie.",
 			"ptBR": "Usar uma recarga aumenta sua chance de esquiva em {4/8/12/16/20/24/28/32/36/40}% por 3 segundos.\n\nTags: Esquiva, Recarga.",
 			"ruRU": "Когда вы применяете умение с временем восстановления, ваша вероятность уклонения повышается на {4/8/12/16/20/24/28/32/36/40}% на 3 сек.\n\nTags: Уклонение, Время восстановления.",
-			"zhCN": "使用一个冷却技能会使你的躲闪几率提高 {4/8/12/16/20/24/28/32/36/40}%, 持续 3 秒。\n\nTags: 躲闪, 冷却时间."
+			"zhCN": "使用一个冷却技能会使你的躲闪几率提高 {4/8/12/16/20/24/28/32/36/40}%, 持续 3 秒。\n\nTags: 躲闪, 冷却时间.",
+			"zhTW": "使用有冷卻時間的技能會使你的閃躲機率提高 {4/8/12/16/20/24/28/32/36/40}%,持續 3 秒。\n\nTags: 閃躲, 冷卻時間."
 },
 		id: 67,
 		maxPoints: 3,
@@ -3080,7 +3240,8 @@ Tags: Stealth, Healing.`,
 			"plPL": "Leczące Zaciemnienie",
 			"ptBR": "Reparação Obscura",
 			"ruRU": "Целительная пелена",
-			"zhCN": "晦暗疗愈"
+			"zhCN": "晦暗疗愈",
+			"zhTW": "隱晦癒合"
 },
 		descriptionLocalized: {
 			"deDE": "Während Ihr verstohlen seid, werdet Ihr pro Sekunde um {3/6/9/12/15/18/21/24/27/30}% Eures maximalen Lebens geheilt.\n\nTags: Verstohlenheit, Heilung.",
@@ -3093,7 +3254,8 @@ Tags: Stealth, Healing.`,
 			"plPL": "Podczas trwania ukrycia przywracasz sobie {3/6/9/12/15/18/21/24/27/30}% maksymalnego zdrowia na sekundę.\n\nTags: Ukrycie, Leczenie.",
 			"ptBR": "Enquanto estiver em furtividade, você cura {3/6/9/12/15/18/21/24/27/30}% da vida máxima por segundo.\n\nTags: Furtividade, Cura.",
 			"ruRU": "В состоянии незаметности вы восполняете {3/6/9/12/15/18/21/24/27/30}% максимального запаса здоровья в секунду.\n\nTags: Незаметность, Исцеление.",
-			"zhCN": "在潜行状态下, 你每秒恢复 {3/6/9/12/15/18/21/24/27/30}% 生命上限。\n\nTags: 潜行, 治疗."
+			"zhCN": "在潜行状态下, 你每秒恢复 {3/6/9/12/15/18/21/24/27/30}% 生命上限。\n\nTags: 潜行, 治疗.",
+			"zhTW": "匿蹤時,每秒恢復生命值上限的 {3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 匿蹤, 治療."
 },
 		id: 145,
 		maxPoints: 3,
@@ -3119,7 +3281,8 @@ Tags: Damage, Poison.`,
 			"plPL": "Zabójczy Jad",
 			"ptBR": "Veneno Mortal",
 			"ruRU": "Смертельный яд",
-			"zhCN": "致命剧毒"
+			"zhCN": "致命剧毒",
+			"zhTW": "奪命劇毒"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr verursacht x{3/6/9/12/15/18/21/24/27/30}% mehr Giftschaden.\n\nTags: Schaden, Gift.",
@@ -3132,7 +3295,8 @@ Tags: Damage, Poison.`,
 			"plPL": "Zadajesz obrażenia od Trucizny zwiększone o x{3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Obrażenia, Trucizna.",
 			"ptBR": "Você causa {3/6/9/12/15/18/21/24/27/30}% de dano venenoso aumentado.\n\nTags: Dano, Veneno.",
 			"ruRU": "Вы наносите на x{3/6/9/12/15/18/21/24/27/30}% больше урона от отравления.\n\nTags: Урон, Яд.",
-			"zhCN": "你造成的毒素伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害, 毒素."
+			"zhCN": "你造成的毒素伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害, 毒素.",
+			"zhTW": "你造成的中毒傷害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 傷害, 毒素."
 },
 		id: 78,
 		maxPoints: 3,
@@ -3155,7 +3319,8 @@ Tags: Poison, Attack Speed.`,
 			"plPL": "Przewaga Alchemiczna",
 			"ptBR": "Vantagem Alquímica",
 			"ruRU": "Польза алхимии",
-			"zhCN": "炼金优势"
+			"zhCN": "炼金优势",
+			"zhTW": "鍊金優勢"
 },
 		descriptionLocalized: {
 			"deDE": "Für jeden von Euch vergifteten Gegner erhaltet Ihr +{1/2/3/4/5/6/7/8/9/10}% mehr Angriffsgeschwindigkeit, bis maximal +15%.\n\nTags: Gift, Angriffsgeschwindigkeit.",
@@ -3168,7 +3333,8 @@ Tags: Poison, Attack Speed.`,
 			"plPL": "Zyskujesz premię +{1/2/3/4/5/6/7/8/9/10}% do szybkości ataku za każdego zatrutego przez ciebie wroga, maksymalnie do +15%.\n\nTags: Trucizna, Szybkość Ataku.",
 			"ptBR": "Você recebe +{1/2/3/4/5/6/7/8/9/10}% de velocidade de ataque aumentada por cada inimigo que envenenou, até +15%.\n\nTags: Veneno, Velocidade de Ataque.",
 			"ruRU": "Ваша скорость атаки повышается на +{1/2/3/4/5/6/7/8/9/10}% за каждого отравленного противника, вплоть до +15%.\n\nTags: Яд, Скорость атаки.",
-			"zhCN": "你每使一名敌人中毒, 你的攻击速度就会提高 +{1/2/3/4/5/6/7/8/9/10}%, 最多提高 +15%。\n\nTags: 毒素, 攻击速度."
+			"zhCN": "你每使一名敌人中毒, 你的攻击速度就会提高 +{1/2/3/4/5/6/7/8/9/10}%, 最多提高 +15%。\n\nTags: 毒素, 攻击速度.",
+			"zhTW": "每使一位敵人中毒,你的攻擊速度提高 +{1/2/3/4/5/6/7/8/9/10}% 攻擊速度,最多提高 +15%。\n\nTags: 毒素, 攻擊速度."
 },
 		id: 79,
 		maxPoints: 3,
@@ -3191,7 +3357,8 @@ Tags: Poison, Damage Reduction.`,
 			"plPL": "Obezwładniające Toksyny",
 			"ptBR": "Toxinas Debilitantes",
 			"ruRU": "Изнуряющие яды",
-			"zhCN": "衰弱毒素"
+			"zhCN": "衰弱毒素",
+			"zhTW": "致衰毒素"
 },
 		descriptionLocalized: {
 			"deDE": "Vergiftete Gegner verursachen {5/10/15/20/25/30/35/40/45/50}% weniger Schaden.\n\nTags: Gift, Schadensreduktion.",
@@ -3204,7 +3371,8 @@ Tags: Poison, Damage Reduction.`,
 			"plPL": "Zatruci wrogowie zadają obrażenia zmniejszone o {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Trucizna, Redukcja Obrażeń.",
 			"ptBR": "Inimigos envenenados causam {5/10/15/20/25/30/35/40/45/50}% de dano reduzido.\n\nTags: Veneno, Redução de Dano.",
 			"ruRU": "Отравленные противники наносят на {5/10/15/20/25/30/35/40/45/50}% меньше урона.\n\nTags: Яд, Уменьшение урона.",
-			"zhCN": "中毒的敌人造成的伤害降低 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 毒素, 伤害减免."
+			"zhCN": "中毒的敌人造成的伤害降低 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 毒素, 伤害减免.",
+			"zhTW": "中毒的敵人造成的傷害降低 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 毒素, 傷害減免."
 },
 		id: 80,
 		maxPoints: 3,
@@ -3229,7 +3397,8 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"plPL": "Nasycenie Trucizną",
 			"ptBR": "Imbuição de Veneno",
 			"ruRU": "Насыщение ядом",
-			"zhCN": "毒素灌注"
+			"zhCN": "毒素灌注",
+			"zhTW": "毒素灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 33%\nErfüllt Eure Waffen mit tödlichem Gift. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Giftschaden und fügen zusätzliche {100/110/120/130/140/150/160/170/180/190}% ihres Basisschadens im Verlauf von 5 Sek. als Giftschaden zu.\n\nTags: Infusion, Schaden, Gift, Abklingzeit, Infusionsfähig.",
@@ -3242,7 +3411,8 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 33%\nNasycasz swoją broń śmiercionośną trucizną. Twoje następne 2 Nasycalne umiejętności zadają obrażenia od Trucizny oraz dodatkowo {100/110/120/130/140/150/160/170/180/190}% swoich obrażeń podstawowych w postaci obrażeń od zatrucia w ciągu 5 sek.\n\nTags: Nasycenie, Obrażenia, Trucizna, Odnowienie, Nasycalne.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 33%\nImbui suas armas com veneno letal. Suas próximas 2 habilidades Imbuíveis causam dano venenoso e aplicam {100/110/120/130/140/150/160/170/180/190}% do dano-base como dano venenoso adicional ao longo de 5 segundos.\n\nTags: Imbuição, Dano, Veneno, Recarga, Imbuível.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 33%.\nВы насыщаете оружие смертоносным ядом. Атаки 2 следующих насыщаемых умений наносят урон от яда и дополнительно отравляют цели, нанося {100/110/120/130/140/150/160/170/180/190}% базового урона за 5 сек.\n\nTags: Насыщение, Урон, Яд, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n用致命毒素灌注你的武器。你的下 2 次灌注技能造成毒素伤害并在 5 秒内额外造成 {100/110/120/130/140/150/160/170/180/190}% 基础伤害的毒素伤害。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n用致命毒素灌注你的武器。你的下 2 次灌注技能造成毒素伤害并在 5 秒内额外造成 {100/110/120/130/140/150/160/170/180/190}% 基础伤害的毒素伤害。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:33%\n以致命毒素灌注你的武器。你接下來 2 個可灌注技能會造成毒素傷害,並額外在 5 秒內造成等同其基礎傷害 {100/110/120/130/140/150/160/170/180/190}% 的中毒傷害。\n\nTags: 灌注, 傷害, 毒素, 冷卻時間, 可灌注."
 },
 		id: 128,
 		maxPoints: 5,
@@ -3267,7 +3437,8 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"plPL": "Wzmocnione Nasycenie Trucizną",
 			"ptBR": "Imbuição de Veneno Aperfeiçoada",
 			"ruRU": "Усиленное насыщение ядом",
-			"zhCN": "强化毒素灌注"
+			"zhCN": "强化毒素灌注",
+			"zhTW": "強化毒素灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Die Giftdauer von Giftinfusion wird um 1 Sek. erhöht.\n\nTags: Infusion, Schaden, Gift, Abklingzeit, Infusionsfähig.",
@@ -3280,7 +3451,8 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"plPL": "Czas trwania zatrucia wywołanego przez nasycenie Trucizną jest wydłużony o 1 sek.\n\nTags: Nasycenie, Obrażenia, Trucizna, Odnowienie, Nasycalne.",
 			"ptBR": "A duração do veneno de Imbuição de Veneno é aumentada em 1 segundo.\n\nTags: Imbuição, Dano, Veneno, Recarga, Imbuível.",
 			"ruRU": "Время действия эффекта отравления от \"Насыщения ядом\" увеличивается на 1 сек.\n\nTags: Насыщение, Урон, Яд, Время восстановления.",
-			"zhCN": "毒素灌注的中毒持续时间延长 1 秒。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注."
+			"zhCN": "毒素灌注的中毒持续时间延长 1 秒。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注.",
+			"zhTW": "毒素灌注的中毒持續時間延長 1 秒。\n\nTags: 灌注, 傷害, 毒素, 冷卻時間, 可灌注."
 },
 		id: 129,
 		maxPoints: 1,
@@ -3304,7 +3476,8 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"plPL": "Spojone Nasycenie Trucizną",
 			"ptBR": "Imbuição de Veneno Misturada",
 			"ruRU": "Смешанное насыщение ядом",
-			"zhCN": "混合毒素灌注"
+			"zhCN": "混合毒素灌注",
+			"zhTW": "混合毒素灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Fertigkeiten mit Giftinfusion verfügen über eine Chance von 30%, über Zeit die doppelte Menge an Giftschaden zu verursachen.\n\nTags: Infusion, Schaden, Gift, Abklingzeit, Infusionsfähig.",
@@ -3317,7 +3490,8 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"plPL": "Szczęśliwy traf: Umiejętności nasycone Trucizną mają 30% szans na nałożenie podwójnych obrażeń od zatrucia wraz z upływem czasu.\n\nTags: Nasycenie, Obrażenia, Trucizna, Odnowienie, Nasycalne.",
 			"ptBR": "Golpe de Sorte: Habilidades de Imbuição de Veneno têm até 30% de chance de aplicar o dobro de dano venenoso ao longo do tempo.\n\nTags: Imbuição, Dano, Veneno, Recarga, Imbuível.",
 			"ruRU": "Удачный удар: умения, насыщенные ядом, с вероятностью до 30% наносят двойной периодический урон от отравления.\n\nTags: Насыщение, Урон, Яд, Время восстановления.",
-			"zhCN": "幸运一击: 毒素灌注技能最多有 30% 几率使持续性毒素伤害翻倍。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注."
+			"zhCN": "幸运一击: 毒素灌注技能最多有 30% 几率使持续性毒素伤害翻倍。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注.",
+			"zhTW": "幸運觸發:毒素灌注強化的技能最高有 30% 機率使附加的中毒持續傷害加倍。\n\nTags: 灌注, 傷害, 毒素, 冷卻時間, 可灌注."
 },
 		id: 130,
 		maxPoints: 1,
@@ -3341,7 +3515,8 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"plPL": "Stopione Nasycenie Trucizną",
 			"ptBR": "Imbuição de Veneno Mesclada",
 			"ruRU": "Сопряженное насыщение ядом",
-			"zhCN": "交融毒素灌注"
+			"zhCN": "交融毒素灌注",
+			"zhTW": "調和毒素灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Kritische Treffer mit Fertigkeiten mit Giftinfusion verursachen x75% mehr Giftschaden.\n\nTags: Infusion, Schaden, Gift, Abklingzeit, Infusionsfähig.",
@@ -3354,7 +3529,8 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"plPL": "Trafienia krytyczne umiejętnościami nasyconymi Trucizną zadają x75% zwiększone obrażenia od zatrucia.\n\nTags: Nasycenie, Obrażenia, Trucizna, Odnowienie, Nasycalne.",
 			"ptBR": "Acertos críticos com habilidades de Imbuição de Veneno causam 75% de dano venenoso aumentado.\n\nTags: Imbuição, Dano, Veneno, Recarga, Imbuível.",
 			"ruRU": "Критические удары умений, насыщенных ядом, наносят на x75% больше урона от отравления.\n\nTags: Насыщение, Урон, Яд, Время восстановления.",
-			"zhCN": "使用毒素灌注技能暴击时造成的毒素伤害提高 x75%。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注."
+			"zhCN": "使用毒素灌注技能暴击时造成的毒素伤害提高 x75%。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注.",
+			"zhTW": "毒素灌注強化的技能爆擊時會額外造成 x75% 中毒傷害。\n\nTags: 灌注, 傷害, 毒素, 冷卻時間, 可灌注."
 },
 		id: 131,
 		maxPoints: 1,
@@ -3377,7 +3553,8 @@ Tags: Crowd Control, Shadow, Lucky Hit.`,
 			"plPL": "Zderzenie Cienia",
 			"ptBR": "Colisão de Sombras",
 			"ruRU": "Теневое сокрушение",
-			"zhCN": "暗影压制"
+			"zhCN": "暗影压制",
+			"zhTW": "暗影暴擊"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Schattenschaden verfügt über eine Chance von bis zu 10%, Gegner {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} Sek. lang zu betäuben.\n\nTags: Kontrollverlust, Schatten, Glückstreffer.",
@@ -3390,7 +3567,8 @@ Tags: Crowd Control, Shadow, Lucky Hit.`,
 			"plPL": "Szczęśliwy traf: Obrażenia Cienia mają do 10% szans na ogłuszenie wroga na {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} sek.\n\nTags: Ograniczanie Kontroli, Cień, Szczęśliwy Traf.",
 			"ptBR": "Golpe de Sorte: Dano de sombra tem até 10% de chance de atordoar por {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} segundos.\n\nTags: Controle de Grupo, Sombra, Golpe de Sorte.",
 			"ruRU": "Удачный удар: урон от темной магии с вероятностью до 10% оглушает цель на {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} сек.\n\nTags: Контроль, Темная магия, Удачный удар.",
-			"zhCN": "幸运一击: 暗影伤害最多有 10% 几率使敌人昏迷 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 群控, 暗影, 幸运一击."
+			"zhCN": "幸运一击: 暗影伤害最多有 10% 几率使敌人昏迷 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 群控, 暗影, 幸运一击.",
+			"zhTW": "幸運觸發:暗影傷害最多有 10% 機率擊昏敵人 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5} 秒。\n\nTags: 控場, 暗影, 幸運觸發."
 },
 		id: 85,
 		maxPoints: 3,
@@ -3413,7 +3591,8 @@ Tags: Shadow, Energy.`,
 			"plPL": "Pożerające Cienie",
 			"ptBR": "Sombras Debilitantes",
 			"ruRU": "Поглощающие теней",
-			"zhCN": "吞噬之影"
+			"zhCN": "吞噬之影",
+			"zhTW": "吞噬暗影"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Ihr einen Gegner mit Schattenschaden tötet, erzeugt Ihr {10/20/30/40/50/60/70/80/90/100} Energie.\n\nTags: Schatten, Energie.",
@@ -3426,7 +3605,8 @@ Tags: Shadow, Energy.`,
 			"plPL": "Za każdego wroga zabitego przy pomocy obrażeń od Cienia generujesz {10/20/30/40/50/60/70/80/90/100} pkt. energii.\n\nTags: Cień, Energia.",
 			"ptBR": "Cada vez que você mata um inimigo com dano de sombra, você gera {10/20/30/40/50/60/70/80/90/100} de energia.\n\nTags: Sombra, Energia.",
 			"ruRU": "Когда вы убиваете противника уроном от темной магии, вы накапливаете {10/20/30/40/50/60/70/80/90/100} ед. энергии.\n\nTags: Темная магия, Энергия.",
-			"zhCN": "每当你使用暗影伤害消灭敌人, 产生 {10/20/30/40/50/60/70/80/90/100} 点能量。\n\nTags: 暗影, 能量."
+			"zhCN": "每当你使用暗影伤害消灭敌人, 产生 {10/20/30/40/50/60/70/80/90/100} 点能量。\n\nTags: 暗影, 能量.",
+			"zhTW": "每次你以暗影傷害擊殺敵人時,產生 {10/20/30/40/50/60/70/80/90/100} 點能量。\n\nTags: 暗影, 能量."
 },
 		id: 86,
 		maxPoints: 3,
@@ -3453,7 +3633,8 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"plPL": "Nasycenie Cieniem",
 			"ptBR": "Imbuição de Sombra",
 			"ruRU": "Насыщение тенью",
-			"zhCN": "暗影灌注"
+			"zhCN": "暗影灌注",
+			"zhTW": "暗影灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 33%\nErfüllt Eure Waffen mit schwärenden Schatten. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Schattenschaden und infizieren Gegner 6 Sek. lang. Infizierte Gegner explodieren beim Tod und fügen allen Gegnern in der Nähe {40/44/48/52/56/60/64/68/72/76}% Schaden zu.\n\nWenn die Infektion vor dem Tod des Gegners abläuft, fügt sie nur diesem Gegner {40/44/48/52/56/60/64/68/72/76}% Schaden zu.\n\nTags: Infusion, Schaden, Schatten, Abklingzeit, Infusionsfähig.",
@@ -3466,7 +3647,8 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 33%\nNasycasz swoją broń jątrzącymi cieniami. Twoje następne (2) Nasycalne umiejętności zadają obrażenia Cienia i zakażają wrogów na 6 sek. Zakażeni wrogowie po śmierci wybuchają, zadając {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń wszystkim pobliskim celom.\n\nJeśli zakażenie dobiegnie końca, zanim wróg zginie, zada {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń tylko temu wrogowi.\n\nTags: Nasycenie, Obrażenia, Cień, Odnowienie, Nasycalne.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 33%\nImbui suas armas com sombras pútridas. Suas próximas 2 habilidades Imbuíveis causam dano de sombra e infectam inimigos por 6 segundos. Inimigos infectados explodem ao morrer, causando {40/44/48/52/56/60/64/68/72/76}% de dano a todos os inimigos ao redor.\n\nSe a infecção expirar antes de o inimigo morrer, causará {40/44/48/52/56/60/64/68/72/76}% de dano somente a esse inimigo.\n\nTags: Imbuição, Dano, Sombra, Recarga, Imbuível.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 33%.\nВы насыщаете оружие тлетворной силой тени. Атаки 2 следующих насыщаемых умений наносят урон от темной магии и заражают противников на 6 сек.\nЗараженные противники взрываются после смерти, нанося {40/44/48/52/56/60/64/68/72/76}% ед. урона окружающим противникам.\n\nЕсли действие заражения заканчивается до смерти противника, он получает {40/44/48/52/56/60/64/68/72/76}% ед. урона.\n\nTags: Насыщение, Урон, Темная магия, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n使用溃烂的暗影能量灌注你的武器。你接下来的 2 个 可灌注技能造成暗影伤害并感染敌人 6 秒。被感染的敌人死亡时爆炸, 对周围所有敌人造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\n如果感染在敌人死亡前结束, 它只会对那一名敌人造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n使用溃烂的暗影能量灌注你的武器。你接下来的 2 个 可灌注技能造成暗影伤害并感染敌人 6 秒。被感染的敌人死亡时爆炸, 对周围所有敌人造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\n如果感染在敌人死亡前结束, 它只会对那一名敌人造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:33%\n以潰膿暗影灌注你的武器。你接下來 2 個可灌注技能會造成暗影傷害並感染敵人 6 秒。受感染的敵人在死亡時會爆炸,對附近所有敵人造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害。\n\n若感染效果結束時該敵人尚未死亡,則只會對該敵人造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害。\n\nTags: 灌注, 傷害, 暗影, 冷卻時間, 可灌注."
 },
 		id: 132,
 		maxPoints: 5,
@@ -3491,7 +3673,8 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"plPL": "Wzmocnione Nasycenie Cieniem",
 			"ptBR": "Imbuição de Sombra Aperfeiçoada",
 			"ruRU": "Усиленное насыщение тенью",
-			"zhCN": "强化暗影灌注"
+			"zhCN": "强化暗影灌注",
+			"zhTW": "強化暗影灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr habt eine +15% höhere kritische Trefferchance gegen verwundete Gegner, die mit Schatteninfusion infiziert sind.\n\nTags: Infusion, Schaden, Schatten, Abklingzeit, Infusionsfähig.",
@@ -3504,7 +3687,8 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"plPL": "Masz premię +15% do szansy na trafienie krytyczne przeciwko okaleczonym wrogom pod wpływem Nasycenia Cieniem.\n\nTags: Nasycenie, Obrażenia, Cień, Odnowienie, Nasycalne.",
 			"ptBR": "Você tem +15% de chance de acerto crítico aumentada contra inimigos feridos infectados por Imbuição de Sombra.\n\nTags: Imbuição, Dano, Sombra, Recarga, Imbuível.",
 			"ruRU": "Вероятность нанести противнику критический урон повышается на +15%, если у цели низкий уровень здоровья и на нее действует эффект \"Насыщения тенью\".\n\nTags: Насыщение, Урон, Темная магия, Время восстановления.",
-			"zhCN": "你对受暗影灌注影响的受伤的敌人造成伤害时, 打出暴击的几率提高 +15%。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注."
+			"zhCN": "你对受暗影灌注影响的受伤的敌人造成伤害时, 打出暴击的几率提高 +15%。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注.",
+			"zhTW": "你對受傷且受暗影灌注感染的敵人爆擊機率提高 +15%。\n\nTags: 灌注, 傷害, 暗影, 冷卻時間, 可灌注."
 },
 		id: 133,
 		maxPoints: 1,
@@ -3528,7 +3712,8 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"plPL": "Spojone Nasycenie Cieniem",
 			"ptBR": "Imbuição de Sombra Misturada",
 			"ruRU": "Смешанное насыщение тенью",
-			"zhCN": "混合暗影灌注"
+			"zhCN": "混合暗影灌注",
+			"zhTW": "混合暗影灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner, die mit Schatteninfusion infiziert sind, erleiden 8 Sek. lang x12% mehr nichtphysischen Schaden von Euch.\n\nTags: Infusion, Schaden, Schatten, Abklingzeit, Infusionsfähig.",
@@ -3541,7 +3726,8 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"plPL": "Wrogowie zainfekowani Nasyceniem Cieniem otrzymują zwiększone o x12% obrażenia niefizyczne przez 8 sek.\n\nTags: Nasycenie, Obrażenia, Cień, Odnowienie, Nasycalne.",
 			"ptBR": "Inimigos infectados por Imbuição de Sombra recebem 12% de dano não físico aumentado por 8 segundos.\n\nTags: Imbuição, Dano, Sombra, Recarga, Imbuível.",
 			"ruRU": "Противники, зараженные насыщенным тенью умением, получают от вас на x12% больше нефизического урона в течение 8 сек.\n\nTags: Насыщение, Урон, Темная магия, Время восстановления.",
-			"zhCN": "敌人受暗影灌注影响时, 其受到来自你的非物理伤害提高 x12%, 持续 8 秒。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注."
+			"zhCN": "敌人受暗影灌注影响时, 其受到来自你的非物理伤害提高 x12%, 持续 8 秒。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注.",
+			"zhTW": "對受到暗影灌注影響的敵人造成的非物理傷害提高 x12%,持續 8 秒。\n\nTags: 灌注, 傷害, 暗影, 冷卻時間, 可灌注."
 },
 		id: 134,
 		maxPoints: 1,
@@ -3565,7 +3751,8 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"plPL": "Stopione Nasycenie Cieniem",
 			"ptBR": "Imbuição de Sombra Mesclada",
 			"ruRU": "Сопряженное насыщение тенью",
-			"zhCN": "交融暗影灌注"
+			"zhCN": "交融暗影灌注",
+			"zhTW": "調和暗影灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Die primäre Explosion von Schatteninfusion macht Gegner 2 Sek. lang verwundbar.\n\nTags: Infusion, Schaden, Schatten, Abklingzeit, Infusionsfähig.",
@@ -3578,7 +3765,8 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"plPL": "Główna eksplozja Nasycenia Cieniem sprawia, że wrogowie stają się odsłonięci na 2 sek.\n\nTags: Nasycenie, Obrażenia, Cień, Odnowienie, Nasycalne.",
 			"ptBR": "A explosão primária de Imbuição de Sombra torna os inimigos vulneráveis por 2 segundos.\n\nTags: Imbuição, Dano, Sombra, Recarga, Imbuível.",
 			"ruRU": "Первый взрыв \"Насыщения тенью\" делает противников уязвимыми на 2 сек.\n\nTags: Насыщение, Урон, Темная магия, Время восстановления.",
-			"zhCN": "暗影灌注的主要爆炸使敌人陷入易伤, 持续 2 秒。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注."
+			"zhCN": "暗影灌注的主要爆炸使敌人陷入易伤, 持续 2 秒。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注.",
+			"zhTW": "暗影灌注的主要爆發會使敵人易傷,持續 2 秒。\n\nTags: 灌注, 傷害, 暗影, 冷卻時間, 可灌注."
 },
 		id: 135,
 		maxPoints: 1,
@@ -3602,7 +3790,8 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"plPL": "Nasycenie Zimnem",
 			"ptBR": "Imbuição de Gelo",
 			"ruRU": "Насыщение холодом",
-			"zhCN": "冰霜灌注"
+			"zhCN": "冰霜灌注",
+			"zhTW": "冰寒灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nErfüllt Eure Waffen mit frostiger Energie. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Kälteschaden und unterkühlen Gegner um {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pro Treffer.\n\nTags: Infusion, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Infusionsfähig.",
@@ -3615,7 +3804,8 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"plPL": "Czas odnowienia: {#} sek.\nNasycasz swoją broń mroźnymi energiami. Twoje następne umiejętności Nasycalne (2) zadają obrażenia od Zimna oraz przy każdym trafieniu wyziębiają wrogów o {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%.\n\nTags: Nasycenie, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Nasycalne.",
 			"ptBR": "Recarga: {#} segundos\nImbui suas armas com energias gélidas. Suas próximas 2 habilidades Imbuíveis causam dano gélido e gelam inimigos, causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano por acerto.\n\nTags: Imbuição, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Imbuível.",
 			"ruRU": "Время восстановления: {#} сек.\nВы наделяете свое оружие силой мороза. Атаки 2 следующих насыщаемых умений наносят урон от холода и заставляют противников коченеть, уменьшая их подвижность на {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% за попадание.\n\nTags: Насыщение, Окоченение, Урон, Холод, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n为你的武器灌注冰冷的能量。你的下 2 个可灌注技能造成冰霜伤害, 每一击冻伤敌人 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注."
+			"zhCN": "冷却时间: {#} 秒\n为你的武器灌注冰冷的能量。你的下 2 个可灌注技能造成冰霜伤害, 每一击冻伤敌人 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注.",
+			"zhTW": "冷卻時間:{#} 秒\n以冰寒能量灌注你的武器。你的下 2 個可灌注技能會造成冰寒傷害,且每次擊中會使敵人冰冷 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%。\n\nTags: 灌注, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 可灌注."
 },
 		id: 136,
 		maxPoints: 5,
@@ -3640,7 +3830,8 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"plPL": "Wzmocnione Nasycenie Zimnem",
 			"ptBR": "Imbuição de Gelo Aperfeiçoada",
 			"ruRU": "Усиленное насыщение холодом",
-			"zhCN": "强化冰霜灌注"
+			"zhCN": "强化冰霜灌注",
+			"zhTW": "強化冰寒灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Fertigkeiten mit Kälteinfusion verfügen über eine Chance von 30%, Gegner 3 Sek. lang verwundbar zu machen.\n\nTags: Infusion, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Infusionsfähig.",
@@ -3653,7 +3844,8 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"plPL": "Szczęśliwy traf: Umiejętności nasycone Zimnem mają 30% szans na odsłonięcie wrogów na 3 sek.\n\nTags: Nasycenie, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Nasycalne.",
 			"ptBR": "Golpe de Sorte: Habilidades de Imbuição de Gelo têm até 30% de chance de tornar os inimigos vulneráveis por 3 segundos.\n\nTags: Imbuição, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Imbuível.",
 			"ruRU": "Удачный удар: умения, насыщенные силой холода, с вероятностью до 30% делают противников уязвимыми на 3 сек.\n\nTags: Насыщение, Окоченение, Урон, Холод, Время восстановления, Контроль.",
-			"zhCN": "幸运一击: 冰霜灌注技能最多有 30% 几率使敌人陷入易伤状态, 持续 3 秒。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注."
+			"zhCN": "幸运一击: 冰霜灌注技能最多有 30% 几率使敌人陷入易伤状态, 持续 3 秒。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注.",
+			"zhTW": "幸運觸發:冰寒灌注強化的技能最高有 30% 機率對敵人造成易傷,持續 3 秒。\n\nTags: 灌注, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 可灌注."
 },
 		id: 137,
 		maxPoints: 1,
@@ -3677,7 +3869,8 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"plPL": "Spojone Nasycenie Zimnem",
 			"ptBR": "Imbuição de Gelo Misturada",
 			"ruRU": "Смешанное насыщение холодом",
-			"zhCN": "混合冰霜灌注"
+			"zhCN": "混合冰霜灌注",
+			"zhTW": "混合冰寒灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Fertigkeiten mit Kälteinfusion fügen Gegnern, die unter Kontrollverlusteffekten leiden, x20% Schaden zu. Dieser Bonus verdoppelt sich gegen eingefrorene Gegner.\n\nTags: Infusion, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Infusionsfähig.",
@@ -3690,7 +3883,8 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"plPL": "Umiejętności nasycone Zimnem zadają x20% obrażeń wrogom o ograniczonej kontroli. Wartość ta jest podwojona w przypadku zamrożonych wrogów.\n\nTags: Nasycenie, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Nasycalne.",
 			"ptBR": "Habilidades de Imbuição de Gelo causam 20% de dano a inimigos sob controle de grupo. O bônus é dobrado contra inimigos congelados.\n\nTags: Imbuição, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Imbuível.",
 			"ruRU": "Умения, насыщенные силой холода, наносят на x20% больше урона противникам, на которых действуют эффекты контроля. Бонус удваивается, если цель заморожена.\n\nTags: Насыщение, Окоченение, Урон, Холод, Время восстановления, Контроль.",
-			"zhCN": "冰霜灌注技能对被群控敌人造成的伤害提高 x20%。该加成对被冻结的敌人翻倍。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注."
+			"zhCN": "冰霜灌注技能对被群控敌人造成的伤害提高 x20%。该加成对被冻结的敌人翻倍。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注.",
+			"zhTW": "冰寒灌注強化的技能對受到控場的敵人造成的傷害提高 x20%,對凍結的敵人則此效果加倍。\n\nTags: 灌注, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 可灌注."
 },
 		id: 138,
 		maxPoints: 1,
@@ -3714,7 +3908,8 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"plPL": "Stopione Nasycenie Zimnem",
 			"ptBR": "Imbuição de Gelo Mesclada",
 			"ruRU": "Сопряженное насыщение холодом",
-			"zhCN": "交融冰霜灌注"
+			"zhCN": "交融冰霜灌注",
+			"zhTW": "調和冰寒灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Kritische Treffer mit Fertigkeiten mit Kälteinfusion verfügen über eine Chance von bis zu 20%, Gegner sofort 3 Sek. lang einzufrieren.\n\nTags: Infusion, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Infusionsfähig.",
@@ -3727,7 +3922,8 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"plPL": "Szczęśliwy traf: Trafienia krytyczne zadane umiejętnościami nasyconymi Zimnem mają do 20% szans na natychmiastowe zamrożenie wrogów na 3 sek.\n\nTags: Nasycenie, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Nasycalne.",
 			"ptBR": "Golpe de Sorte: Acertos críticos com habilidades de Imbuição de Gelo têm até 20% de chance de congelar inimigos instantaneamente por 3 segundos.\n\nTags: Imbuição, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Imbuível.",
 			"ruRU": "Удачный удар: атаки, насыщенные силой холода, с вероятностью до 20% мгновенно замораживают цель на 3 сек.\n\nTags: Насыщение, Окоченение, Урон, Холод, Время восстановления, Контроль.",
-			"zhCN": "幸运一击: 使用冰霜灌注技能造成暴击最多有 20% 几率立即冻结敌人, 持续 3 秒。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注."
+			"zhCN": "幸运一击: 使用冰霜灌注技能造成暴击最多有 20% 几率立即冻结敌人, 持续 3 秒。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注.",
+			"zhTW": "幸運觸發:冰寒灌注強化的技能爆擊時最多有 20% 機率立即凍結敵人,持續 3 秒。\n\nTags: 灌注, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 可灌注."
 },
 		id: 139,
 		maxPoints: 1,
@@ -3750,7 +3946,8 @@ Tags: Chill, Frozen, Crowd Control, Damage.`,
 			"plPL": "Chłodna Finezja",
 			"ptBR": "Elegância Frígida",
 			"ruRU": "Ледяная точность",
-			"zhCN": "冰冷巧劲"
+			"zhCN": "冰冷巧劲",
+			"zhTW": "凜寒技藝"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt unterkühlten Gegnern x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden zu. Dieser Bonus erhöht sich bei eingefrorenen Gegnern auf x{10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Unterkühlen, Eingefroren, Kontrollverlust, Schaden.",
@@ -3763,7 +3960,8 @@ Tags: Chill, Frozen, Crowd Control, Damage.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{5/10/15/20/25/30/35/40/45/50}% wyziębionym wrogom. Premia ta wzrasta do x{10/20/30/40/50/60/70/80/90/100}% w przypadku zamrożonych wrogów.\n\nTags: Wyziębienie, Zamrożenie, Ograniczanie Kontroli, Obrażenia.",
 			"ptBR": "Você causa {5/10/15/20/25/30/35/40/45/50}% de dano aumentado a inimigos com gelidez. Esse bônus aumenta para {10/20/30/40/50/60/70/80/90/100}% contra inimigos congelados.\n\nTags: Gelidez, Congelado, Controle de Grupo, Dano.",
 			"ruRU": "Вы наносите на x{5/10/15/20/25/30/35/40/45/50}% больше урона окоченевшим противникам. Бонус усиливается до x{10/20/30/40/50/60/70/80/90/100}%, если ваша цель заморожена.\n\nTags: Окоченение, Заморозка, Контроль, Урон.",
-			"zhCN": "你对被冻伤的敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。该加成对被冻结的敌人提高至 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 冻伤, 冻结, 群控, 伤害."
+			"zhCN": "你对被冻伤的敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。该加成对被冻结的敌人提高至 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 冻伤, 冻结, 群控, 伤害.",
+			"zhTW": "你對冰冷敵人造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。對凍結的敵人此效果提高至 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 冰冷, 凍結, 控場, 傷害."
 },
 		id: 99,
 		maxPoints: 3,
@@ -3786,7 +3984,8 @@ Tags: Chill, Crowd Control, Movement.`,
 			"plPL": "Chłodny Ciężar",
 			"ptBR": "Peso Gélido",
 			"ruRU": "Обременяющий холод",
-			"zhCN": "寒冷之重"
+			"zhCN": "寒冷之重",
+			"zhTW": "冰冷重荷"
 },
 		descriptionLocalized: {
 			"deDE": "Die Bewegungsgeschwindigkeit von unterkühlten Gegnern verringert sich zusätzlich um {10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Unterkühlen, Kontrollverlust, Bewegung.",
@@ -3799,7 +3998,8 @@ Tags: Chill, Crowd Control, Movement.`,
 			"plPL": "Szybkość ruchu wyziębionych wrogów jest dodatkowo zmniejszona o maksymalnie {10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Wyziębienie, Ograniczanie Kontroli, Ruch.",
 			"ptBR": "Inimigos com gelidez têm a velocidade de movimento reduzida ainda mais em até {10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Gelidez, Controle de Grupo, Movimento.",
 			"ruRU": "Скорость передвижения окоченевших противников дополнительно снижается на {10/20/30/40/50/60/70/80/90/100}% или менее.\n\nTags: Окоченение, Контроль, Движение.",
-			"zhCN": "被冻伤敌人的移动速度最多额外降低 {10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 冻伤, 群控, 移动."
+			"zhCN": "被冻伤敌人的移动速度最多额外降低 {10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 冻伤, 群控, 移动.",
+			"zhTW": "受冰冷效果影響的敵人,其移動速度進一步降低,上限為 {10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 冰冷, 控場, 移動."
 },
 		id: 100,
 		maxPoints: 3,
@@ -3822,7 +4022,8 @@ Tags: Critical Strikes, Imbuement.`,
 			"plPL": "Precyzyjne Nasycenie",
 			"ptBR": "Imbuição de Precisão",
 			"ruRU": "Прицельное насыщение",
-			"zhCN": "精准灌注"
+			"zhCN": "精准灌注",
+			"zhTW": "精準灌注"
 },
 		descriptionLocalized: {
 			"deDE": "Fertigkeiten mit Infusionen erhalten eine um +{3/6/9/12/15/18/21/24/27/30}% erhöhte kritische Trefferchance.\n\nTags: Kritische Treffer, Infusion.",
@@ -3835,7 +4036,8 @@ Tags: Critical Strikes, Imbuement.`,
 			"plPL": "Umiejętności Nasycenia zyskują szansę na trafienie krytyczne zwiększoną o +{3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Trafienia Krytyczne, Nasycenie.",
 			"ptBR": "Habilidades de Imbuição recebem +{3/6/9/12/15/18/21/24/27/30}% de chance de acerto crítico aumentada.\n\nTags: Acertos Críticos, Imbuição.",
 			"ruRU": "Вероятность критического удара умения с эффектом насыщения повышается на +{3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Критические удары, Насыщение.",
-			"zhCN": "灌注技能的暴击几率提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 暴击, 灌注."
+			"zhCN": "灌注技能的暴击几率提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 暴击, 灌注.",
+			"zhTW": "灌注強化的技能爆擊機率額外提高 +{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 爆擊, 灌注."
 },
 		id: 94,
 		maxPoints: 3,
@@ -3861,7 +4063,8 @@ Tags: Energy, Lucky Hit.`,
 			"plPL": "Orzeźwienie",
 			"ptBR": "Inervação",
 			"ruRU": "Прилив энергии",
-			"zhCN": "神经兴奋"
+			"zhCN": "神经兴奋",
+			"zhTW": "心神開展"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer:Es besteht eine Chance von bis zu {10/20/30/40/50/60/70/80/90/100}%, 8 Energie zu erhalten.\n\nTags: Energie, Glückstreffer.",
@@ -3874,7 +4077,8 @@ Tags: Energy, Lucky Hit.`,
 			"plPL": "Szczęśliwy traf: Do {10/20/30/40/50/60/70/80/90/100}% szans na zyskanie 8 pkt. energii.\n\nTags: Energia, Szczęśliwy Traf.",
 			"ptBR": "Golpe de Sorte: Até {10/20/30/40/50/60/70/80/90/100}% de chance de receber 8 de energia.\n\nTags: Energia, Golpe de Sorte.",
 			"ruRU": "Удачный удар: вы с вероятностью до {10/20/30/40/50/60/70/80/90/100}% накапливаете 8 ед. энергии.\n\nTags: Энергия, Удачный удар.",
-			"zhCN": "幸运一击: 最多有 {10/20/30/40/50/60/70/80/90/100}% 几率获得 8 点能量。\n\nTags: 能量, 幸运一击."
+			"zhCN": "幸运一击: 最多有 {10/20/30/40/50/60/70/80/90/100}% 几率获得 8 点能量。\n\nTags: 能量, 幸运一击.",
+			"zhTW": "幸運觸發:最高有 {10/20/30/40/50/60/70/80/90/100}% 機率獲得 8 點能量。\n\nTags: 能量, 幸運觸發."
 },
 		id: 101,
 		maxPoints: 3,
@@ -3897,7 +4101,8 @@ Tags: Non-Physical, Lucky Hit.`,
 			"plPL": "Szczęście Alchemika",
 			"ptBR": "Fortuna do Alquimista",
 			"ruRU": "Удача алхимика",
-			"zhCN": "炼金师的幸运"
+			"zhCN": "炼金师的幸运",
+			"zhTW": "鍊金師的機運"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr nichtphysischen Schaden verursacht, besteht eine um +{5/10/15/20/25/30/35/40/45/50}% erhöhte Glückstrefferchance.\n\nTags: Nichtphysisch, Glückstreffer.",
@@ -3910,7 +4115,8 @@ Tags: Non-Physical, Lucky Hit.`,
 			"plPL": "Zadawane przez ciebie obrażenia niefizyczne zwiększają o +{5/10/15/20/25/30/35/40/45/50}% szansę na szczęśliwy traf.\n\nTags: Niefizyczne, Szczęśliwy Traf.",
 			"ptBR": "O dano não físico causado por você tem +{5/10/15/20/25/30/35/40/45/50}% de chance de Golpe de Sorte aumentada.\n\nTags: Não física, Golpe de Sorte.",
 			"ruRU": "Вероятность активировать удачный удар нефизической атакой повышается на +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Нефизический урон, Удачный удар.",
-			"zhCN": "你造成的非物理伤害出现幸运一击的几率提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 非物理, 幸运一击."
+			"zhCN": "你造成的非物理伤害出现幸运一击的几率提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 非物理, 幸运一击.",
+			"zhTW": "你造成的非物理傷害有 +{5/10/15/20/25/30/35/40/45/50}% 機率使幸運觸發機率提高。\n\nTags: 非物理, 幸運觸發."
 },
 		id: 103,
 		maxPoints: 3,
@@ -3933,7 +4139,8 @@ Tags: Energy, Lucky Hit.`,
 			"plPL": "Drugi Oddech",
 			"ptBR": "Fôlego Extra",
 			"ruRU": "Второе дыхание",
-			"zhCN": "复苏之风"
+			"zhCN": "复苏之风",
+			"zhTW": "重新振作"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Ihr 100 Energie verbraucht, erhaltet Ihr 5 Sek. lang eine +{5/10/15/20/25/30/35/40/45/50}% höhere Glückstrefferchance.\n\nTags: Energie, Glückstreffer.",
@@ -3946,7 +4153,8 @@ Tags: Energy, Lucky Hit.`,
 			"plPL": "Za każde wykorzystane 100 pkt. energii zyskujesz premię +{5/10/15/20/25/30/35/40/45/50}% do szansy na szczęśliwy traf przez 5 sek.\n\nTags: Energia, Szczęśliwy Traf.",
 			"ptBR": "Cada 100 de energia que você gasta concede +{5/10/15/20/25/30/35/40/45/50}% de chance de Golpe de Sorte aumentada por 5 segundos.\n\nTags: Energia, Golpe de Sorte.",
 			"ruRU": "За каждые потраченные 100 ед. энергии вероятность срабатывания удачного удара повышается на +{5/10/15/20/25/30/35/40/45/50}% на 5 сек.\n\nTags: Энергия, Удачный удар.",
-			"zhCN": "每花费 100 点能量都会使你的幸运一击几率提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 5 秒。\n\nTags: 能量, 幸运一击."
+			"zhCN": "每花费 100 点能量都会使你的幸运一击几率提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 5 秒。\n\nTags: 能量, 幸运一击.",
+			"zhTW": "你每花費 100 點能量,就使你的幸運觸發機率提高 +{5/10/15/20/25/30/35/40/45/50}%,持續 5 秒。\n\nTags: 能量, 幸運觸發."
 },
 		id: 102,
 		maxPoints: 3,
@@ -3970,7 +4178,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Klon Cienia",
 			"ptBR": "Clone de Sombras",
 			"ruRU": "Темное отражение",
-			"zhCN": "暗影分身"
+			"zhCN": "暗影分身",
+			"zhTW": "暗影分身"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nEuer Schatten ahmt Euch 15 Sek. lang nach. Der Schattenklon verursacht 60% Eures Schadens.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
@@ -3983,7 +4192,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nTwój Cień naśladuje twoje działania przez 15 sek.\nTen Klon Cienia zadaje równowartość 60% twoich obrażeń.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nSua sombra imita suas ações por 15 segundos. Este Clone de Sombras causa 60% do seu dano.\n\nTags: Suprema, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВаша тень копирует ваши действия в течение 15 сек. Темное отражение наносит 60% вашего урона.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n你的暗影分身会模仿你的行动, 持续 15 秒。\n暗影分身造成的伤害相当于你造成伤害的 60%。\n\nTags: 终极技能, 伤害, 物理, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n你的暗影分身会模仿你的行动, 持续 15 秒。\n暗影分身造成的伤害相当于你造成伤害的 60%。\n\nTags: 终极技能, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n你的影子會模仿你的動作,持續 15 秒。暗影分身會造成你傷害值 60% 的傷害。\n\nTags: 絕招, 傷害, 物理, 冷卻時間."
 },
 		id: 104,
 		maxPoints: 1,
@@ -4008,7 +4218,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Większy Klon Cienia",
 			"ptBR": "Clone de Sombras Primordial",
 			"ruRU": "Первородное темное отражение",
-			"zhCN": "至尊暗影分身"
+			"zhCN": "至尊暗影分身",
+			"zhTW": "強烈暗影分身"
 },
 		descriptionLocalized: {
 			"deDE": "Nach dem Wirken von Schattenklon werdet Ihr 5 Sek. lang unaufhaltsam.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
@@ -4021,7 +4232,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Zyskujesz nieustępliwość na 5 sek. po użyciu Klona Cienia.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Você fica implacável por 5 segundos depois de lançar Clone de Sombras.\n\nTags: Suprema, Dano, Física, Recarga.",
 			"ruRU": "Вы получаете неудержимость на 5 сек. после призыва темного отражения.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "施放暗影分身后, 你获得不可阻挡, 持续 5 秒。\n\nTags: 终极技能, 伤害, 物理, 冷却时间."
+			"zhCN": "施放暗影分身后, 你获得不可阻挡, 持续 5 秒。\n\nTags: 终极技能, 伤害, 物理, 冷却时间.",
+			"zhTW": "施放暗影分身後,你進入無阻狀態 5 秒。\n\nTags: 絕招, 傷害, 物理, 冷卻時間."
 },
 		id: 105,
 		maxPoints: 1,
@@ -4045,7 +4257,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Największy Klon Cienia",
 			"ptBR": "Clone de Sombras Supremo",
 			"ruRU": "Неотвратимое темное отражение",
-			"zhCN": "至极暗影分身"
+			"zhCN": "至极暗影分身",
+			"zhTW": "終極暗影分身"
 },
 		descriptionLocalized: {
 			"deDE": "Euer Schattenklon verursacht zusätzlich 20% Eures Schadens.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
@@ -4058,7 +4271,8 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"plPL": "Twój Klon Cienia zadaje dodatkowo równowartość 20% twoich obrażeń.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Seu Clone de Sombras causa um adicional de 20% do seu dano.\n\nTags: Suprema, Dano, Física, Recarga.",
 			"ruRU": "Ваше темное отражение наносит дополнительный урон в размере 20% наносимого вами урона.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "你的暗影分身额外造成你伤害的 20%。\n\nTags: 终极技能, 伤害, 物理, 冷却时间."
+			"zhCN": "你的暗影分身额外造成你伤害的 20%。\n\nTags: 终极技能, 伤害, 物理, 冷却时间.",
+			"zhTW": "你的暗影分身會額外造成你傷害值 20% 的傷害。\n\nTags: 絕招, 傷害, 物理, 冷卻時間."
 },
 		id: 106,
 		maxPoints: 1,
@@ -4081,7 +4295,8 @@ Tags: Energy, Ultimate.`,
 			"plPL": "Pokłosie",
 			"ptBR": "Epílogo",
 			"ruRU": "Итог",
-			"zhCN": "余劲尚存"
+			"zhCN": "余劲尚存",
+			"zhTW": "劫難後續"
 },
 		descriptionLocalized: {
 			"deDE": "Das Verwenden einer ultimativen Fertigkeit stellt {25/50/75/100/125/150/175/200/225/250} Energie wieder her.\n\nTags: Energie, Ultimativ.",
@@ -4094,7 +4309,8 @@ Tags: Energy, Ultimate.`,
 			"plPL": "Po użyciu Mocy Specjalnej odzyskujesz {25/50/75/100/125/150/175/200/225/250} pkt. energii.\n\nTags: Energia, Specjalne.",
 			"ptBR": "Depois de usar uma habilidade suprema, restaura {25/50/75/100/125/150/175/200/225/250} de energia.\n\nTags: Energia, Suprema.",
 			"ruRU": "После применения мощного умения вы восстанавливаете {25/50/75/100/125/150/175/200/225/250} ед. энергии.\n\nTags: Энергия, Мощное умение.",
-			"zhCN": "使用终极技能后, 恢复 {25/50/75/100/125/150/175/200/225/250} 点能量。\n\nTags: 能量, 终极技能."
+			"zhCN": "使用终极技能后, 恢复 {25/50/75/100/125/150/175/200/225/250} 点能量。\n\nTags: 能量, 终极技能.",
+			"zhTW": "使用絕招後,恢復 {25/50/75/100/125/150/175/200/225/250} 點能量。\n\nTags: 能量, 絕招."
 },
 		id: 107,
 		maxPoints: 3,
@@ -4119,7 +4335,8 @@ Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 			"plPL": "Zabójcza Pułapka",
 			"ptBR": "Armadilha da Morte",
 			"ruRU": "Смертоносная ловушка",
-			"zhCN": "索命陷阱"
+			"zhCN": "索命陷阱",
+			"zhTW": "死亡陷阱"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 4%\nPlatziert eine Falle, die nach {#} Sek. scharf wird. Kommen Gegner ihr zu nahe, aktiviert sie sich, explodiert und fügt jedem Gegner im Wirkungsbereich insgesamt 250% Schaden zu.\n\nTags: Ultimativ, Falle, Schaden, Schatten, Abklingzeit.",
@@ -4132,7 +4349,8 @@ Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 4%\nTworzysz pułapkę, która uzbraja się po {#} sek. Gdy wróg zajdzie się w jej zasięgu, pułapka się aktywuje, a następnie wybucha, zadając w sumie 250% pkt. obrażeń każdemu wrogowi w polu rażenia.\n\nTags: Specjalne, Pułapki, Obrażenia, Cień, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 4%\nPosiciona uma armadilha que arma após {#} segundos. É ativada quando um inimigo entra em alcance, causando um total de 250% de dano a cada inimigo na área.\n\nTags: Suprema, Armadilha, Dano, Sombra, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 4%.\nВы размещаете на земле ловушку, которая заряжается через {#} сек. Когда в область действия попадает противник, она срабатывает и наносит целям в зоне поражения по 250% ед. урона.\n\nTags: Мощное умение, Ловушка, Урон, Темная магия, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 4%\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 对范围内的每个敌人造成总共 250% 点伤害。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 4%\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 对范围内的每个敌人造成总共 250% 点伤害。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:4%\n放置一個 {#} 秒後設置完成的陷阱,於敵人進入範圍內時啟動,對範圍內每一個敵人累積造成 250% 點傷害。\n\nTags: 絕招, 陷阱, 傷害, 暗影, 冷卻時間."
 },
 		id: 108,
 		maxPoints: 1,
@@ -4157,7 +4375,8 @@ Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 			"plPL": "Większa Zabójcza Pułapka",
 			"ptBR": "Armadilha da Morte Primordial",
 			"ruRU": "Первородная смертоносная ловушка",
-			"zhCN": "至尊索命陷阱"
+			"zhCN": "至尊索命陷阱",
+			"zhTW": "強烈死亡陷阱"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner werden bei der Aktivierung von Todesfalle zur Falle gezogen.\n\nTags: Ultimativ, Falle, Schaden, Schatten, Abklingzeit.",
@@ -4170,7 +4389,8 @@ Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 			"plPL": "Wrogowie są przyciągani do Zabójczej Pułapki, kiedy ta się aktywuje.\n\nTags: Specjalne, Pułapki, Obrażenia, Cień, Odnowienie.",
 			"ptBR": "Inimigos são puxados para a Armadilha da Morte quando ela é ativada.\n\nTags: Suprema, Armadilha, Dano, Sombra, Recarga.",
 			"ruRU": "При срабатывании \"Смертоносная ловушка\" притягивает противников.\n\nTags: Мощное умение, Ловушка, Урон, Темная магия, Время восстановления.",
-			"zhCN": "索命陷阱激活时会将敌人拖拽至陷阱当中。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间."
+			"zhCN": "索命陷阱激活时会将敌人拖拽至陷阱当中。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间.",
+			"zhTW": "在死亡陷阱啟動期間,敵人會被拉進陷阱內。\n\nTags: 絕招, 陷阱, 傷害, 暗影, 冷卻時間."
 },
 		id: 109,
 		maxPoints: 1,
@@ -4194,7 +4414,8 @@ Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 			"plPL": "Największa Zabójcza Pułapka",
 			"ptBR": "Armadilha da Morte Suprema",
 			"ruRU": "Неотвратимая смертоносная ловушка",
-			"zhCN": "至极索命陷阱"
+			"zhCN": "至极索命陷阱",
+			"zhTW": "終極死亡陷阱"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Todesfalle einen Gegner tötet, wird die Abklingzeit um 10 Sek. reduziert.\n\nTags: Ultimativ, Falle, Schaden, Schatten, Abklingzeit.",
@@ -4207,7 +4428,8 @@ Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 			"plPL": "Jeśli Zabójcza Pułapka zabije wroga, jej czas odnowienia zostaje skrócony o 10 sek.\n\nTags: Specjalne, Pułapki, Obrażenia, Cień, Odnowienie.",
 			"ptBR": "Se Armadilha da Morte matar um inimigo, a recarga é reduzida em 10 segundos.\n\nTags: Suprema, Armadilha, Dano, Sombra, Recarga.",
 			"ruRU": "Когда \"Смертоносная ловушка\" убивает противника, ее время восстановления сокращается на 10 сек.\n\nTags: Мощное умение, Ловушка, Урон, Темная магия, Время восстановления.",
-			"zhCN": "如果索命陷阱 消灭一名敌人, 其冷却时间缩短 10 秒。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间."
+			"zhCN": "如果索命陷阱 消灭一名敌人, 其冷却时间缩短 10 秒。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间.",
+			"zhTW": "若死亡陷阱殺死一名敵人,其冷卻時間將縮短 10 秒。\n\nTags: 絕招, 陷阱, 傷害, 暗影, 冷卻時間."
 },
 		id: 110,
 		maxPoints: 1,
@@ -4230,7 +4452,8 @@ Tags: Vulnerable, Crowd Control, Critical Strikes, Trap.`,
 			"plPL": "Mistrzostwo Pułapek",
 			"ptBR": "Maestria em Armadilhas",
 			"ruRU": "Мастер ловушек",
-			"zhCN": "陷阱精通"
+			"zhCN": "陷阱精通",
+			"zhTW": "精通陷阱"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Giftfalle oder Todesfalle aktiviert werden, wird Eure kritische Trefferchance gegen Gegner, die verwundbar sind oder unter Kontrollverlusteffekten leiden, 4 Sek. lang um +{4/8/12/16/20/24/28/32/36/40}% erhöht.\n\nTags: Verwundbar, Kontrollverlust, Kritische Treffer, Falle.",
@@ -4243,7 +4466,8 @@ Tags: Vulnerable, Crowd Control, Critical Strikes, Trap.`,
 			"plPL": "Kiedy aktywuje się Trująca Pułapka lub Zabójcza Pułapka, przez 4 sek. szansa na trafienie krytyczne we wrogów odsłoniętych lub o ograniczonej kontroli jest zwiększona o +{4/8/12/16/20/24/28/32/36/40}%.\n\nTags: Odsłonięcie, Ograniczanie Kontroli, Trafienia Krytyczne, Pułapki.",
 			"ptBR": "Quando Armadilha Venenosa ou Armadilha da Morte é ativada, você recebe +{4/8/12/16/20/24/28/32/36/40}% de chance de acerto crítico aumentada contra inimigos vulneráveis e sob controle de grupo por 4 segundos.\n\nTags: Vulnerável, Controle de Grupo, Acertos Críticos, Armadilha.",
 			"ruRU": "При срабатывании \"Ловушки с ядом\" или \"Смертоносной ловушки\" вероятность критического удара повышается на +{4/8/12/16/20/24/28/32/36/40}% на 4 сек. в бою с уязвимыми противниками и целями под действием эффектов контроля.\n\nTags: Уязвимость, Контроль, Критические удары, Ловушка.",
-			"zhCN": "剧毒陷阱或索命陷阱激活时, 你对处于易伤状态和被群控的敌人造成暴击的几率提高 +{4/8/12/16/20/24/28/32/36/40}%, 持续 4 秒。\n\nTags: 易伤, 群控, 暴击, 陷阱."
+			"zhCN": "剧毒陷阱或索命陷阱激活时, 你对处于易伤状态和被群控的敌人造成暴击的几率提高 +{4/8/12/16/20/24/28/32/36/40}%, 持续 4 秒。\n\nTags: 易伤, 群控, 暴击, 陷阱.",
+			"zhTW": "劇毒陷阱或死亡陷阱生效時,你對易傷和受控場效果影響敵人的爆擊機率提高 +{4/8/12/16/20/24/28/32/36/40}%,持續 4 秒。\n\nTags: 易傷, 控場, 爆擊, 陷阱."
 },
 		id: 111,
 		maxPoints: 3,
@@ -4268,7 +4492,8 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Grad Strzał",
 			"ptBR": "Chuva de Flechas",
 			"ruRU": "Град стрел",
-			"zhCN": "箭雨"
+			"zhCN": "箭雨",
+			"zhTW": "箭雨"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 2%\nPfeile regnen 2-mal auf ein großes Gebiet herab, wobei jede Welle 100% Schaden verursacht.\n\nTags: Ultimativ, Präzision, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
@@ -4281,7 +4506,8 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 2%\nStrzały spadają falami na duży obszar 2 razy, a każda fala zadaje 100% pkt. obrażeń.\n\nTags: Specjalne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 2%\nFlechas são disparadas em uma grande área 2 vezes. Cada onda causa 100% de dano.\n\nTags: Suprema, Atirador, Imbuível, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 2%.\nГрад стрел поражает широкую область 2 залпами, которые наносят по 100% ед. урона.\n\nTags: Мощное умение, Стрелок, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 2%\n箭矢如雨一般在大范围内落下 2 次, 每波造成 100% 点伤害。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 2%\n箭矢如雨一般在大范围内落下 2 次, 每波造成 100% 点伤害。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:2%\n降下 2 波大範圍的箭雨,每波造成 100% 點傷害。\n\nTags: 絕招, 射手, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 112,
 		maxPoints: 1,
@@ -4306,7 +4532,8 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Większy Grad Strzał",
 			"ptBR": "Chuva de Flechas Primordial",
 			"ruRU": "Первородный град стрел",
-			"zhCN": "至尊箭雨"
+			"zhCN": "至尊箭雨",
+			"zhTW": "強烈箭雨"
 },
 		descriptionLocalized: {
 			"deDE": "Die Wirksamkeit von Infusionseffekten, die von Pfeilhagel erzeugt wurden, ist um x20% erhöht.\n\nTags: Ultimativ, Präzision, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
@@ -4319,7 +4546,8 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Efekty umiejętności Nasycenia nałożone przez Grad Strzał są silniejsze o x20%.\n\nTags: Specjalne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Efeitos de habilidades de Imbuição aplicados por Chuva de Flechas têm 20% de potência aumentada.\n\nTags: Suprema, Atirador, Imbuível, Dano, Física, Recarga.",
 			"ruRU": "Умения категории \"Насыщение\", активированные \"Градом стрел\", усиливаются на x20%.\n\nTags: Мощное умение, Стрелок, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "箭雨施加的灌注技能效果提高 x20%。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间."
+			"zhCN": "箭雨施加的灌注技能效果提高 x20%。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "使用在箭雨上的灌注技能效力提高 x20%。\n\nTags: 絕招, 射手, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 113,
 		maxPoints: 1,
@@ -4343,7 +4571,8 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Największy Grad Strzał",
 			"ptBR": "Chuva de Flechas Suprema",
 			"ruRU": "Неотвратимый град стрел",
-			"zhCN": "至极箭雨"
+			"zhCN": "至极箭雨",
+			"zhTW": "終極箭雨"
 },
 		descriptionLocalized: {
 			"deDE": "Die zweite Welle von Pfeilhagel schlägt Gegner 3 Sek. lang nieder.\n\nTags: Ultimativ, Präzision, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
@@ -4356,7 +4585,8 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 			"plPL": "Druga fala Gradu Strzał powala wrogów na 3 sek.\n\nTags: Specjalne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "A segunda onda de Chuva de Flechas nocauteia inimigos por 3 segundos.\n\nTags: Suprema, Atirador, Imbuível, Dano, Física, Recarga.",
 			"ruRU": "Второй залп \"Града стрел\" сбивает противников с ног на 3 сек.\n\nTags: Мощное умение, Стрелок, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "箭雨的第二波攻击会击倒敌人, 持续 3 秒。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间."
+			"zhCN": "箭雨的第二波攻击会击倒敌人, 持续 3 秒。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "箭雨的第二波攻擊會擊倒敵人,持續 3 秒。\n\nTags: 絕招, 射手, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 114,
 		maxPoints: 1,
@@ -4379,7 +4609,8 @@ Tags: Energy.`,
 			"plPL": "Przypływ Adrenaliny",
 			"ptBR": "Pico de Adrenalina",
 			"ruRU": "Выброс адреналина",
-			"zhCN": "狂血奔涌"
+			"zhCN": "狂血奔涌",
+			"zhTW": "能量刺激"
 },
 		descriptionLocalized: {
 			"deDE": "In Bewegung ist eure Energieregeneration um x{5/10/15/20/25/30/35/40/45/50}% erhöht.\n\nTags: Energie.",
@@ -4392,7 +4623,8 @@ Tags: Energy.`,
 			"plPL": "Podczas ruchu twoja regeneracja energii jest zwiększona o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Energia.",
 			"ptBR": "Enquanto se move, você recebe {5/10/15/20/25/30/35/40/45/50}% de regeneração de energia aumentada.\n\nTags: Energia.",
 			"ruRU": "Во время движения вы восстанавливаете энергию на x{5/10/15/20/25/30/35/40/45/50}% быстрее.\n\nTags: Энергия.",
-			"zhCN": "移动时, 你的能量回复速度提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 能量."
+			"zhCN": "移动时, 你的能量回复速度提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 能量.",
+			"zhTW": "移動時,你的能量恢復提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 能量."
 },
 		id: 115,
 		maxPoints: 3,
@@ -4415,7 +4647,8 @@ Tags: Damage.`,
 			"plPL": "Rozmach",
 			"ptBR": "Ímpeto",
 			"ruRU": "Сила движения",
-			"zhCN": "动量充沛"
+			"zhCN": "动量充沛",
+			"zhTW": "助攻衝力"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Ihr Euch 15 Meter bewegt habt, verursacht Euer nächster Angriff x{7/14/21/28/35/42/49/56/63/70}% mehr Schaden.\n\nTags: Schaden.",
@@ -4428,7 +4661,8 @@ Tags: Damage.`,
 			"plPL": "Po przejściu 15 m twój następny atak zadaje obrażenia zwiększone o x{7/14/21/28/35/42/49/56/63/70}%.\n\nTags: Obrażenia.",
 			"ptBR": "Depois de percorrer 15 metros, seu próximo ataque causa {7/14/21/28/35/42/49/56/63/70}% de dano aumentado.\n\nTags: Dano.",
 			"ruRU": "После того как вы перемещаетесь на 15 м, ваша следующая атака наносит на x{7/14/21/28/35/42/49/56/63/70}% больше урона.\n\nTags: Урон.",
-			"zhCN": "移动 15 米后, 你的下一次攻击造成的伤害提高 x{7/14/21/28/35/42/49/56/63/70}%。\n\nTags: 伤害."
+			"zhCN": "移动 15 米后, 你的下一次攻击造成的伤害提高 x{7/14/21/28/35/42/49/56/63/70}%。\n\nTags: 伤害.",
+			"zhTW": "移動 15 公尺後,你下次攻擊造成的傷害提高 x{7/14/21/28/35/42/49/56/63/70}%。\n\nTags: 傷害."
 },
 		id: 116,
 		maxPoints: 3,
@@ -4451,7 +4685,8 @@ Tags: Movement, Attack Speed, Energy.`,
 			"plPL": "Pośpiech",
 			"ptBR": "Agilidade",
 			"ruRU": "Спешка",
-			"zhCN": "急速"
+			"zhCN": "急速",
+			"zhTW": "迅捷動作"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr mindestens 50% maximale Energie habt, ist Eure Bewegungsgeschwindigkeit um +{5/10/15/20/25/30/35/40/45/50}% erhöht. Wenn Ihr weniger als 50% maximale Energie habt, ist Eure Angriffsgeschwindigkeit um +{5/10/15/20/25/30/35/40/45/50}% erhöht.\n\nTags: Bewegung, Angriffsgeschwindigkeit, Energie.",
@@ -4464,7 +4699,8 @@ Tags: Movement, Attack Speed, Energy.`,
 			"plPL": "Kiedy masz co najmniej 50% maksymalnej energii, otrzymujesz premię +{5/10/15/20/25/30/35/40/45/50}% do szybkości ruchu. Kiedy masz mniej niż 50% maksymalnej energii, zyskujesz premię +{5/10/15/20/25/30/35/40/45/50}% do szybkości ataku.\n\nTags: Ruch, Szybkość Ataku, Energia.",
 			"ptBR": "Enquanto estiver com 50% ou mais de energia máxima, recebe +{5/10/15/20/25/30/35/40/45/50}% de velocidade de movimento aumentada. Enquanto estiver abaixo de 50% de energia máxima, recebe +{5/10/15/20/25/30/35/40/45/50}% de velocidade de ataque aumentada.\n\nTags: Movimento, Velocidade de Ataque, Energia.",
 			"ruRU": "Пока ваш уровень энергии равен или превышает 50% от максимального, скорость передвижения повышается на +{5/10/15/20/25/30/35/40/45/50}%. Пока ваш уровень энергии ниже 50% максимального, скорость атаки повышается на +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Движение, Скорость атаки, Энергия.",
-			"zhCN": "能量在 50% 及以上时, 移动速度提高 +{5/10/15/20/25/30/35/40/45/50}%。在 50% 以下时, 攻击速度提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 移动, 攻击速度, 能量."
+			"zhCN": "能量在 50% 及以上时, 移动速度提高 +{5/10/15/20/25/30/35/40/45/50}%。在 50% 以下时, 攻击速度提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 移动, 攻击速度, 能量.",
+			"zhTW": "當能量等於或高於能量上限的 50% 時,使移動速度提高 +{5/10/15/20/25/30/35/40/45/50}%。當能量低於能量上限的 50%時,使攻擊速度提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 移動, 攻擊速度, 能量."
 },
 		id: 117,
 		maxPoints: 3,
@@ -4497,7 +4733,8 @@ Tags: Frozen, Daze, Cutthroat, Crowd Control, Damage, Energy, Damage Reduction, 
 			"plPL": "Impet",
 			"ptBR": "Impulsão",
 			"ruRU": "Импульс",
-			"zhCN": "乘胜追击"
+			"zhCN": "乘胜追击",
+			"zhTW": "趁勢強攻"
 },
 		descriptionLocalized: {
 			"deDE": "Meuchelfertigkeiten verleihen 8 Sek. lang einen Stapel von Schwung, wenn sie:\n• einen betäubten, benommenen oder eingefrorenen Gegner treffen\n• einen Gegner von hinten treffen\n\nWährend Ihr über 3 Stapel von Schwung verfügt, erhaltet Ihr:\n• 20% mehr Schadensreduktion\n• x30% mehr Energieregeneration\n• +15% mehr Bewegungsgeschwindigkeit\n\nTags: Eingefroren, Benommenheit, Meucheln, Kontrollverlust, Schaden, Energie, Schadensreduktion, Bewegung.",
@@ -4510,7 +4747,8 @@ Tags: Frozen, Daze, Cutthroat, Crowd Control, Damage, Energy, Damage Reduction, 
 			"plPL": "Umiejętności Napaści zapewniają poziom kumulacji Impetu na 8 sek., jeśli:\n• trafią ogłuszonego, oszołomionego lub zamrożonego wroga; albo\n• trafią dowolnego wroga od tyłu.\n\nPrzy 3 poziomach kumulacji Impetu zyskujesz:\n• premię 20% do redukcji obrażeń;\n• premię x30% do regeneracji energii;\n• premię +15% do szybkości ruchu.\n\nTags: Zamrożenie, Oszołomienie, Napaść, Ograniczanie Kontroli, Obrażenia, Energia, Redukcja Obrażeń, Ruch.",
 			"ptBR": "Habilidades de Degola concedem uma aplicação de Impulsão por 8 segundos se:\n• Atingirem um inimigo atordoado, sob torpor ou congelado\n• Atingirem um inimigo por trás\n\nEnquanto estiver com 3 aplicações de Impulsão, você recebe:\n• 20% de redução de dano aumentada\n• 30% de regeneração de energia aumentada\n• +15% de velocidade de movimento aumentada\n\nTags: Congelado, Torpor, Degola, Controle de Grupo, Dano, Energia, Redução de Dano, Movimento.",
 			"ruRU": "Умения головореза на 8 сек. дают эффект \"Импульса\", если:\n• Они поражают оглушенного, замороженного противника или цель с головокружением\n• Наносят противнику удар сзади\n\nКогда вы накапливаете 3 эффекта:эффектов \"Импульса\":\n• Получаемый урон уменьшается на 20%\n• Восстановление энергии ускоряется на x30%\n• Скорость передвижения повышается на +15%\n\nTags: Заморозка, Головокружение, Головорез, Контроль, Урон, Энергия, Уменьшение урона, Движение.",
-			"zhCN": "如果刺杀技能满足以下任意一个条件则获得一层乘胜追击, 持续 8 秒:\n• 命中一个昏迷、眩晕或冻结的敌人\n• 从背后命中任意敌人\n\n达到 3 层乘胜追击时你获得以下效果:\n• 提高 20% 伤害减免\n• 提高 x30% 能量回复速度\n• 提高 +15% 移动速度\n\nTags: 冻结, 眩晕, 刺杀, 群控, 伤害, 能量, 伤害减免, 移动."
+			"zhCN": "如果刺杀技能满足以下任意一个条件则获得一层乘胜追击, 持续 8 秒:\n• 命中一个昏迷、眩晕或冻结的敌人\n• 从背后命中任意敌人\n\n达到 3 层乘胜追击时你获得以下效果:\n• 提高 20% 伤害减免\n• 提高 x30% 能量回复速度\n• 提高 +15% 移动速度\n\nTags: 冻结, 眩晕, 刺杀, 群控, 伤害, 能量, 伤害减免, 移动.",
+			"zhTW": "若符合下列條件,割喉技能會賦予一層趁勢強攻,持續 8 秒:\n• 擊中昏迷、暈眩或凍結的敵人\n• 從後方擊中任何敵人\n\n有 3 層趁勢強攻效果時,你獲得:\n• 20% 傷害減免\n• x30% 能量恢復\n• +15% 移動速度\n\nTags: 凍結, 暈眩, 割喉, 控場, 傷害, 能量, 傷害減免, 移動."
 },
 		id: 118,
 		maxPoints: 1,
@@ -4535,7 +4773,8 @@ Tags: Marksman, Cutthroat, Crowd Control, Attack Speed, Damage.`,
 			"plPL": "Walka w Zwarciu",
 			"ptBR": "Combate Próximo",
 			"ruRU": "Ближний бой",
-			"zhCN": "近身格斗"
+			"zhCN": "近身格斗",
+			"zhTW": "近身戰鬥"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem Gegner in der Nähe mit einer Präzisionsfertigkeit oder einer Meuchelfertigkeit Schaden zufügt, erhaltet Ihr 8 Sek. lang +10% mehr Angriffsgeschwindigkeit.\n\nSolange beide Angriffsgeschwindigkeitsboni aktiv sind, fügt Ihr Gegnern, die unter Kontrollverlusteffekten leiden, x20% mehr Schaden zu.\n\nTags: Präzision, Meucheln, Kontrollverlust, Angriffsgeschwindigkeit, Schaden.",
@@ -4548,7 +4787,8 @@ Tags: Marksman, Cutthroat, Crowd Control, Attack Speed, Damage.`,
 			"plPL": "Zadawanie obrażeń pobliskiemu celowi przy użyciu umiejętności Strzelectwa lub Napaści zapewnia premię +10% do szybkości ataku na 8 sek.\n\nKiedy obie te premie do szybkości ataku są aktywne, zadajesz wrogom o ograniczonej kontroli obrażenia zwiększone o x20%.\n\nTags: Strzelectwo, Napaść, Ograniczanie Kontroli, Szybkość Ataku, Obrażenia.",
 			"ptBR": "Causar dano a um inimigo com habilidades de Atirador ou Degola concede +10% de bônus de velocidade de ataque por 8 segundos.\n\nEnquanto os dois bônus de velocidade de ataque estão ativos, você causa 20% de dano aumentado contra inimigos sob controle de grupo.\n\nTags: Atirador, Degola, Controle de Grupo, Velocidade de Ataque, Dano.",
 			"ruRU": "Когда вы наносите урон противникам поблизости умением стрелка или головореза, скорость атаки повышается на +10% на 8 сек. за оба типа умения.\n\nКогда действуют оба бонуса, вы наносите на x20% больше урона целям под действием эффектов контроля.\n\nTags: Стрелок, Головорез, Контроль, Скорость атаки, Урон.",
-			"zhCN": "使用神射手或刺杀技能对一名近距敌人造成伤害时, 每种技能都会使攻击速度提高 +10%, 持续 8 秒。\n\n两种攻击速度加成同时激活时, 你对被群控的敌人造成的伤害提高 x20%。\n\nTags: 神射手, 刺杀, 群控, 攻击速度, 伤害."
+			"zhCN": "使用神射手或刺杀技能对一名近距敌人造成伤害时, 每种技能都会使攻击速度提高 +10%, 持续 8 秒。\n\n两种攻击速度加成同时激活时, 你对被群控的敌人造成的伤害提高 x20%。\n\nTags: 神射手, 刺杀, 群控, 攻击速度, 伤害.",
+			"zhTW": "以射手或割喉技能對近距離敵人造成傷害時,每類技能可使攻擊速度提高 +10%,持續 8 秒。\n\n當同時獲得兩種攻擊速度加成效果時,你對受控場效果的敵人造成的傷害提高 x20%。\n\nTags: 射手, 割喉, 控場, 攻擊速度, 傷害."
 },
 		id: 119,
 		maxPoints: 1,
@@ -4571,7 +4811,8 @@ Tags: Vulnerable, Damage, Physical, Lucky Hit.`,
 			"plPL": "Krzywda",
 			"ptBR": "Vitimizar",
 			"ruRU": "Жестокая расправа",
-			"zhCN": "迫害"
+			"zhCN": "迫害",
+			"zhTW": "無情凌虐"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Wenn Ihr einem verwundbaren Gegner direkten Schaden zufügt, besteht eine Chance von bis zu 30%, eine Explosion auszulösen, die ihm und Gegnern in der Nähe 23% des ursprünglichen Schadens zufügt.\n\nTags: Verwundbar, Schaden, Physisch, Glückstreffer.",
@@ -4584,7 +4825,8 @@ Tags: Vulnerable, Damage, Physical, Lucky Hit.`,
 			"plPL": "Szczęśliwy traf: Zadanie bezpośrednich obrażeń odsłoniętemu wrogowi ma maksymalnie 30% szans na wywołanie eksplozji zadającej mu oraz pobliskim wrogom 23% pierwotnych obrażeń.\n\nTags: Odsłonięcie, Obrażenia, Fizyczne, Szczęśliwy Traf.",
 			"ptBR": "Golpe de Sorte: Causar dano direto a um inimigo vulnerável tem até 30% de chance de provocar uma explosão, causando 23% do dano original a ele e a inimigos ao redor.\n\nTags: Vulnerável, Dano, Física, Golpe de Sorte.",
 			"ruRU": "Удачный удар: прямой урон уязвимому противнику с вероятностью до 30% вызывает взрыв, наносящий 23% изначального урона цели и окружающим противникам.\n\nTags: Уязвимость, Урон, Физический урон, Удачный удар.",
-			"zhCN": "幸运一击: 对一名易伤状态下的敌人造成伤害最多有 30% 几率产生爆炸, 对该敌人和其周围的敌人造成初始伤害的 23%。\n\nTags: 易伤, 伤害, 物理, 幸运一击."
+			"zhCN": "幸运一击: 对一名易伤状态下的敌人造成伤害最多有 30% 几率产生爆炸, 对该敌人和其周围的敌人造成初始伤害的 23%。\n\nTags: 易伤, 伤害, 物理, 幸运一击.",
+			"zhTW": "幸運觸發:對易傷敵人造成直接傷害時,最高有 30% 機率引發爆炸,對其和周圍敵人造成原本傷害的 23%。\n\nTags: 易傷, 傷害, 物理, 幸運觸發."
 },
 		id: 120,
 		maxPoints: 1,
@@ -4609,7 +4851,8 @@ Tags: Trap, Grenade, Damage, Physical, Cooldown, Crowd Control, Lucky Hit.`,
 			"plPL": "Obnażenie",
 			"ptBR": "Exposição",
 			"ruRU": "Вредное воздействие",
-			"zhCN": "暴露"
+			"zhCN": "暴露",
+			"zhTW": "連環誘陷"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Wenn Ihr einem Gegner, der von einer Fallenfertigkeit betroffen ist, direkten Schaden zufügt, besteht eine Chance von 25%:\n• die aktiven Abklingzeiten Eurer Fallenfertigkeiten um 20% zu reduzieren\n• Blendgranaten zu hinterlassen, die explodieren, insgesamt 40% physischen Schaden verursachen und Gegner 0.5 Sek. lang betäuben\n\nTags: Falle, Granate, Schaden, Physisch, Abklingzeit, Kontrollverlust, Glückstreffer.",
@@ -4622,7 +4865,8 @@ Tags: Trap, Grenade, Damage, Physical, Cooldown, Crowd Control, Lucky Hit.`,
 			"plPL": "Szczęśliwy traf: Zadawanie bezpośrednich obrażeń wrogom pod wpływem umiejętności Pułapek ma do 25% szans na:\n• skrócenie aktywnych czasów odnowienia umiejętności Pułapek o 20%\n• upuszczenie wiązki Granatów Ogłuszających, które wybuchają, zadając 40% całkowitych obrażeń Fizycznych i ogłuszając wrogów na 0.5 sek.\n\nTags: Pułapki, Granat, Obrażenia, Fizyczne, Odnowienie, Ograniczanie Kontroli, Szczęśliwy Traf.",
 			"ptBR": "Golpe de Sorte: Causar dano direto a um inimigo afetado por uma habilidade de Armadilha tem até 25% de chance de:\n• Reduzir as recargas ativas das suas habilidades de Armadilha em 20%\n• Largar um conjunto de Granadas Atordoantes que explodem, causando 40% de dano físico total e atordoando inimigos por 0.5 segundos.\n\nTags: Armadilha, Granada, Dano, Física, Recarga, Controle de Grupo, Golpe de Sorte.",
 			"ruRU": "Удачный урон: когда вы наносите прямой урон противнику, находящемуся под действием ловушки, с вероятностью до 25% срабатывают эффекты:\n• Время восстановления ваших ловушек сокращается на 20%\n• Вы бросаете связку оглушающих гранат, наносящих 40% ед. физического урона и оглушающих противников на 0.5 сек.\n\nTags: Ловушка, Граната, Урон, Физический урон, Время восстановления, Контроль, Удачный удар.",
-			"zhCN": "幸运一击: 对一名受陷阱技能影响的敌人造成直接伤害时, 最多有 25% 几率\n• 使你的陷阱技能的剩余冷却时间缩短 20%\n• 留下一串会爆炸的昏迷手雷, 造成总计 40% 点物理伤害并击晕敌人 0.5 秒。\n\nTags: 陷阱, 手雷, 伤害, 物理, 冷却时间, 群控, 幸运一击."
+			"zhCN": "幸运一击: 对一名受陷阱技能影响的敌人造成直接伤害时, 最多有 25% 几率\n• 使你的陷阱技能的剩余冷却时间缩短 20%\n• 留下一串会爆炸的昏迷手雷, 造成总计 40% 点物理伤害并击晕敌人 0.5 秒。\n\nTags: 陷阱, 手雷, 伤害, 物理, 冷却时间, 群控, 幸运一击.",
+			"zhTW": "幸運觸發:對受陷阱技能影響的敵人造成直接傷害,最高有 25% 機率:\n• 你的陷阱技能現有冷卻時間縮短 20%\n• 掉下一堆會爆炸的震撼榴彈,造成 40% 點物理總傷害,並擊昏敵人 0.5 秒\n\nTags: 陷阱, 榴彈, 傷害, 物理, 冷卻時間, 控場, 幸運觸發."
 },
 		id: 121,
 		maxPoints: 1,
@@ -4647,7 +4891,8 @@ Tags: Marksman, Critical Strikes, Damage.`,
 			"plPL": "Precyzja",
 			"ptBR": "Precisão",
 			"ruRU": "Точность",
-			"zhCN": "精准"
+			"zhCN": "精准",
+			"zhTW": "精準射擊"
 },
 		descriptionLocalized: {
 			"deDE": "Kritische Treffer mit Präzisionsfertigkeiten verleihen Euch Präzision. Ihr erhaltet x4% höheren kritischen Trefferschaden pro Stapel Präzision, bis maximal x20%.\n\nWenn Ihr maximale Präzision erreicht habt, landet Eure nächste Präzisionsfertigkeit garantiert einen kritischen Treffer, der x40% höheren kritischen Trefferschaden verursacht und alle Stapel Präzision verbraucht.\n\nTags: Präzision, Kritische Treffer, Schaden.",
@@ -4660,7 +4905,8 @@ Tags: Marksman, Critical Strikes, Damage.`,
 			"plPL": "Trafienia krytyczne przy pomocy umiejętności Strzelectwa zapewniają ci precyzję. Zyskujesz premię x4% do obrażeń od trafień krytycznych za każdy poziom kumulacji precyzji, maksymalnie do x20%.\n\nPo osiągnięciu maksymalnej precyzji twoja kolejna umiejętność Strzelectwa wywoła gwarantowane trafienie krytyczne i zada przy tym obrażenia zwiększone o x40%, a następnie pochłonie wszystkie poziomy kumulacji precyzji.\n\nTags: Strzelectwo, Trafienia Krytyczne, Obrażenia.",
 			"ptBR": "Acertos críticos com habilidades de Atirador concedem Precisão. Você recebe 4% de dano de acerto crítico aumentado por aplicação de Precisão, até o máximo de 20%.\n\nQuando você atinge o máximo de Precisão, sua próxima habilidade de Atirador é um acerto crítico garantido que causa 40% de dano de acerto crítico aumentado e consome todas as aplicações de Precisão.\n\nTags: Atirador, Acertos Críticos, Dano.",
 			"ruRU": "Критические эффекты умений стрелка повышают вашу точность. За каждый эффект точности ваш критический урон увеличивается на x4% вплоть до x20%.\n\nКогда вы достигаете максимального показателя точности, ваше следующее умение стрелка гарантированно наносит критический урон, увеличенный на x40%. После этого все эффекты точности снимаются.\n\nTags: Стрелок, Критические удары, Урон.",
-			"zhCN": "神射手技能暴击时使你获得精准。每层精准使你的暴击伤害提高 x4%, 最多提高 x20%。\n\n精准 层数达到最大时, 你的下一个神射手技能必定暴击并且造成的暴击伤害提高 x40%, 并消耗所有精准 层数。\n\nTags: 神射手, 暴击, 伤害."
+			"zhCN": "神射手技能暴击时使你获得精准。每层精准使你的暴击伤害提高 x4%, 最多提高 x20%。\n\n精准 层数达到最大时, 你的下一个神射手技能必定暴击并且造成的暴击伤害提高 x40%, 并消耗所有精准 层数。\n\nTags: 神射手, 暴击, 伤害.",
+			"zhTW": "射手技能爆擊時會賦予你精準射擊效果。每層精準射擊可使你的爆擊傷害提高 x4%,最多可提高 x20%。\n\n當你達到精準射擊的堆疊上限時,你的下一個射手技能必定爆擊,且造成的爆擊傷害提高 x40%,之後消耗所有精準射擊的堆疊層數。\n\nTags: 射手, 爆擊, 傷害."
 },
 		id: 122,
 		maxPoints: 1,

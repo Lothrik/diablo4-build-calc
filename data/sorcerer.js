@@ -64,7 +64,8 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"plPL": "Lodowy Pocisk",
 			"ptBR": "Seta de Gelo",
 			"ruRU": "Ледяная стрела",
-			"zhCN": "冰霜弹"
+			"zhCN": "冰霜弹",
+			"zhTW": "冰霜彈"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstrefferchance: 40%\nSchleudert einen Frostblitz auf einen Gegner, der {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden verursacht und ihn für 15% unterkühlt.\n\nTags: Basis, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust.\n\n— Enchantment Effect —\nDirekter Schaden von Fertigkeiten verursacht bis zu {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% Unterkühlung.",
@@ -77,7 +78,8 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"plPL": "Szansa na szczęśliwy traf: 40%\nCiskasz we wroga lodowym pociskiem, który wyziębia ofiarę o 15% i zadaje jej {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń.\n\nTags: Podstawowe, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nObrażenia bezpośrednie od umiejętności wywołują dodatkowo {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% wyziębienia.",
 			"ptBR": "Chance de Golpe de Sorte: 40%\nArremessa uma seta de gelo em um inimigo, causando {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano e aplicando gelidez por 15%.\n\nTags: Básica, Geleira, Gelidez, Dano, Gelo, Controle de Grupo.\n\n— Enchantment Effect —\nO dano direto de habilidades aplica até {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de gelidez.",
 			"ruRU": "Вероятность удачного удара: 40%.\nВы запускаете морозный снаряд, наносящий цели {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона и заставляющий ее коченеть, уменьшая подвижность на 15%.\n\nTags: Базовое, Мороз, Окоченение, Урон, Холод, Контроль.\n\n— Enchantment Effect —\nПрямой урон от умений применяет к противникам эффект окоченения, замедляющий на {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%.",
-			"zhCN": "幸运一击几率: 40%\n对一名敌人投掷冰霜弹, 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害并使其冻伤 15%。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控.\n\n— Enchantment Effect —\n来自技能的直接伤害会施加最多 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 的冻伤效果。"
+			"zhCN": "幸运一击几率: 40%\n对一名敌人投掷冰霜弹, 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害并使其冻伤 15%。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控.\n\n— Enchantment Effect —\n来自技能的直接伤害会施加最多 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 的冻伤效果。",
+			"zhTW": "幸運觸發機率:40%\n對敵人施放冰霜彈,造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害與 15% 冰冷效果。\n\nTags: 基本, 冰霜, 冰冷, 傷害, 冰寒, 控場.\n\n— Enchantment Effect —\n技能的直接傷害最多會附加 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 冰冷。"
 },
 		id: 0,
 		maxPoints: 5,
@@ -101,7 +103,8 @@ Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.`,
 			"plPL": "Wzmocniony Lodowy Pocisk",
 			"ptBR": "Seta de Gelo Aperfeiçoada",
 			"ruRU": "Усиленная ледяная стрела",
-			"zhCN": "强化冰霜弹"
+			"zhCN": "强化冰霜弹",
+			"zhTW": "強化冰霜彈"
 },
 		descriptionLocalized: {
 			"deDE": "Frostblitz verfügt über eine Chance von 15%, auf unterkühlten Gegnern zu explodieren und Gegner in der Nähe zu treffen. Gegen eingefrorene Gegner erhöht sich diese Chance auf 100%.\n\nTags: Basis, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust.",
@@ -114,7 +117,8 @@ Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.`,
 			"plPL": "Lodowy Pocisk ma 15% szans na wybuch przy kontakcie z wyziębionymi wrogami. Eksplozja trafia pobliskich przeciwników. Szansa ta wzrasta do 100% w przypadku zamrożonych wrogów.\n\nTags: Podstawowe, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli.",
 			"ptBR": "Seta de Gelo tem 15% de chance de explodir em alvos com gelidez, atingindo inimigos ao redor. A chance é aumentada para 100% contra inimigos congelados.\n\nTags: Básica, Geleira, Gelidez, Dano, Gelo, Controle de Grupo.",
 			"ruRU": "\"Ледяная стрела\" с вероятностью 15% взрывается при попадании в окоченевшие цели, поражая окружающих противников. Эта вероятность повышается на 100%, если цель заморожена.\n\nTags: Базовое, Мороз, Окоченение, Урон, Холод, Контроль.",
-			"zhCN": "冰霜弹有 15% 几率在冻伤的敌人身上爆炸, 打击周围的敌人。对冻结的敌人几率提高至 100%。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控."
+			"zhCN": "冰霜弹有 15% 几率在冻伤的敌人身上爆炸, 打击周围的敌人。对冻结的敌人几率提高至 100%。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控.",
+			"zhTW": "冰霜彈擊中冰冷的敵人有 15% 機率爆炸,擊中其周圍的敵人。對凍結的敵人此機率提高為100%。\n\nTags: 基本, 冰霜, 冰冷, 傷害, 冰寒, 控場."
 },
 		id: 1,
 		maxPoints: 1,
@@ -138,7 +142,8 @@ Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.`,
 			"plPL": "Migoczący Lodowy Pocisk",
 			"ptBR": "Seta de Gelo Tremeluzente",
 			"ruRU": "Мерцающая ледяная стрела",
-			"zhCN": "闪烁冰霜弹"
+			"zhCN": "闪烁冰霜弹",
+			"zhTW": "閃動冰霜彈"
 },
 		descriptionLocalized: {
 			"deDE": "Frostblitz macht eingefrorene Gegner 3 Sek. lang verwundbar.\n\nTags: Basis, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust.",
@@ -151,7 +156,8 @@ Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.`,
 			"plPL": "Lodowy Pocisk sprawia, że zamrożeni wrogowie stają się odsłonięci na 3 sek.\n\nTags: Podstawowe, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli.",
 			"ptBR": "Seta de Gelo torna os inimigos congelados vulneráveis por 3 segundos.\n\nTags: Básica, Geleira, Gelidez, Dano, Gelo, Controle de Grupo.",
 			"ruRU": "\"Ледяная стрела\" делает замороженных противников уязвимыми на 3 сек.\n\nTags: Базовое, Мороз, Окоченение, Урон, Холод, Контроль.",
-			"zhCN": "冰霜弹会使冻结的敌人陷入易伤状态, 持续 3 秒。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控."
+			"zhCN": "冰霜弹会使冻结的敌人陷入易伤状态, 持续 3 秒。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控.",
+			"zhTW": "冰霜彈會使凍結的敵人易傷,持續 3 秒。\n\nTags: 基本, 冰霜, 冰冷, 傷害, 冰寒, 控場."
 },
 		id: 2,
 		maxPoints: 1,
@@ -175,7 +181,8 @@ Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.`,
 			"plPL": "Błyskający Lodowy Pocisk",
 			"ptBR": "Seta de Gelo Cintilante",
 			"ruRU": "Сияющая ледяная стрела",
-			"zhCN": "闪耀冰霜弹"
+			"zhCN": "闪耀冰霜弹",
+			"zhTW": "閃爍冰霜彈"
 },
 		descriptionLocalized: {
 			"deDE": "Frostblitz erzeugt 4 Mana, wenn Ihr unterkühlte oder eingefrorene Gegner trefft.\n\nTags: Basis, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust.",
@@ -188,7 +195,8 @@ Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.`,
 			"plPL": "Lodowy Pocisk generuje 4 pkt. many, kiedy trafia wyziębionych lub zamrożonych wrogów.\n\nTags: Podstawowe, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli.",
 			"ptBR": "Seta de Gelo gera 4 de mana ao atingir inimigos com gelidez ou congelados.\n\nTags: Básica, Geleira, Gelidez, Dano, Gelo, Controle de Grupo.",
 			"ruRU": "\"Ледяная стрела\" восстанавливает 4 ед. маны при попадании по окоченевшим или замороженным противникам.\n\nTags: Базовое, Мороз, Окоченение, Урон, Холод, Контроль.",
-			"zhCN": "冰霜弹命中冻伤或冻结的敌人时会生成 4 点法力。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控."
+			"zhCN": "冰霜弹命中冻伤或冻结的敌人时会生成 4 点法力。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控.",
+			"zhTW": "冰霜彈擊中冰冷或凍結的敵人時,產生 4 點法力。\n\nTags: 基本, 冰霜, 冰冷, 傷害, 冰寒, 控場."
 },
 		id: 3,
 		maxPoints: 1,
@@ -215,7 +223,8 @@ Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackli
 			"plPL": "Iskra",
 			"ptBR": "Faísca",
 			"ruRU": "Искра",
-			"zhCN": "电花"
+			"zhCN": "电花",
+			"zhTW": "電光彈"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstrefferchance: 9%\nEntsendet einen Blitz, der einen Gegner 4-mal schockt und bei jedem Treffer {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Schaden verursacht.\n\nTags: Basis, Schock, Schaden, Blitz.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner tötet, besteht eine Chance von {10/11/12/13/14/15/16/17/18/19}%, Knisternde Energie zu erzeugen.",
@@ -228,7 +237,8 @@ Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackli
 			"plPL": "Szansa na szczęśliwy traf: 9%\nWystrzeliwujesz błyskawicę, która poraża cel 4 razy, przy każdym trafieniu zadając {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% pkt. obrażeń.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica.\n\n— Enchantment Effect —\nZabicie wroga zapewnia {10/11/12/13/14/15/16/17/18/19}% szans na stworzenie Roziskrzonej Energii.",
 			"ptBR": "Chance de Golpe de Sorte: 9%\nLança um raio que eletrocuta um inimigo 4 vezes, causando {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de dano a cada acerto.\n\nTags: Básica, Choque, Dano, Eletricidade.\n\n— Enchantment Effect —\nMatar um inimigo tem {10/11/12/13/14/15/16/17/18/19}% de chance de formar uma Energia Crepitante.",
 			"ruRU": "Вероятность удачного удара: 9%.\nВы выпускаете разряд молнии, поражающий противника 4 раза:раз и наносящий {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% ед. урона за каждый удар.\n\nTags: Базовое, Шок, Урон, Молния.\n\n— Enchantment Effect —\nКогда вы убиваете противника, с вероятностью {10/11/12/13/14/15/16/17/18/19}% появляется искрящийся заряд энергии.",
-			"zhCN": "幸运一击几率: 9%\n发射一道闪电, 震击一名敌人 4 次, 每一击造成 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 点伤害。\n\nTags: 基础, 电冲, 伤害, 闪电.\n\n— Enchantment Effect —\n消灭敌人时有 {10/11/12/13/14/15/16/17/18/19}% 几率生成一个爆裂电花。"
+			"zhCN": "幸运一击几率: 9%\n发射一道闪电, 震击一名敌人 4 次, 每一击造成 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 点伤害。\n\nTags: 基础, 电冲, 伤害, 闪电.\n\n— Enchantment Effect —\n消灭敌人时有 {10/11/12/13/14/15/16/17/18/19}% 几率生成一个爆裂电花。",
+			"zhTW": "幸運觸發機率:9%\n放出一道閃電電擊敵人 4 次,每次擊中造成 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 點傷害。\n\nTags: 基本, 電能, 傷害, 電擊.\n\n— Enchantment Effect —\n擊殺敵人有 {10/11/12/13/14/15/16/17/18/19}% 機率形成電流能量。"
 },
 		id: 4,
 		maxPoints: 5,
@@ -252,7 +262,8 @@ Tags: Basic, Shock, Damage, Lightning.`,
 			"plPL": "Wzmocniona Iskra",
 			"ptBR": "Faísca Aperfeiçoada",
 			"ruRU": "Усиленная искра",
-			"zhCN": "强化电花"
+			"zhCN": "强化电花",
+			"zhTW": "強化電光彈"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Funke sein Primärziel trifft, besteht eine Chance von 40%, bis zu 3 zusätzliche Gegner zu treffen und {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% Schaden zu verursachen. Wenn es keine zusätzlichen Gegner gibt, fügt Funke dem Primärziel stattdessen x20% mehr Schaden zu.\n\nTags: Basis, Schock, Schaden, Blitz.",
@@ -265,7 +276,8 @@ Tags: Basic, Shock, Damage, Lightning.`,
 			"plPL": "Każde trafienie Iskrą głównego celu ma 40% szans na trafienie dodatkowo 3 wrogów i zadanie im {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% pkt. obrażeń. Jeśli nie ma innych wrogów do trafienia, Iskra zadaje głównemu celowi obrażenia zwiększone o x20% pkt.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica.",
 			"ptBR": "Sempre que Faísca acertar seu alvo primário, tem 40% de chance de atingir até 3 inimigos adicionais, causando {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% de dano. Se não houver outros inimigos para atingir, Faísca causa 20% de dano aumentado ao alvo principal.\n\nTags: Básica, Choque, Dano, Eletricidade.",
 			"ruRU": "Когда \"Искра\" поражает основную цель, она с вероятностью 40% поражает еще максимум 3 противников:противников, нанося {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% ед. урона. Если рядом нет подходящих противников, \"Искра\" наносит основной цели на x20% больше урона.\n\nTags: Базовое, Шок, Урон, Молния.",
-			"zhCN": "每次电花命中其主要目标, 都有 40% 几率额外命中最多 3 名敌人, 造成 {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% 点伤害。如果没有其他可以命中的敌人, 改为电花对其主要目标造成的伤害提高 x20%。\n\nTags: 基础, 电冲, 伤害, 闪电."
+			"zhCN": "每次电花命中其主要目标, 都有 40% 几率额外命中最多 3 名敌人, 造成 {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% 点伤害。如果没有其他可以命中的敌人, 改为电花对其主要目标造成的伤害提高 x20%。\n\nTags: 基础, 电冲, 伤害, 闪电.",
+			"zhTW": "每次電光彈擊中主要目標時,其有 40% 擊中額外 3 個敵人,造成 {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% 點傷害。如果沒有可額外擊中的敵人,電光彈會改為對其主要目標額外造成 x20% 傷害。\n\nTags: 基本, 電能, 傷害, 電擊."
 },
 		id: 5,
 		maxPoints: 1,
@@ -289,7 +301,8 @@ Tags: Basic, Shock, Damage, Lightning.`,
 			"plPL": "Migocząca Iskra",
 			"ptBR": "Faísca Tremeluzente",
 			"ruRU": "Мерцающая искра",
-			"zhCN": "闪烁电花"
+			"zhCN": "闪烁电花",
+			"zhTW": "閃動電光彈"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Funke einen Gegner trifft, besteht eine Chance von 3%, Knisternde Energie zu erzeugen.\n\nTags: Basis, Schock, Schaden, Blitz.",
@@ -302,7 +315,8 @@ Tags: Basic, Shock, Damage, Lightning.`,
 			"plPL": "Za każdym razem, gdy Iskra trafia wroga, istnieje 3% szans na stworzenie Roziskrzonej Energii.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica.",
 			"ptBR": "Sempre que Faísca atingir um inimigo, tem 3% de chance de formar uma Energia Crepitante.\n\nTags: Básica, Choque, Dano, Eletricidade.",
 			"ruRU": "Каждый раз, когда \"Искра\" поражает противника, она с вероятностью 3% создает искрящийся заряд энергии.\n\nTags: Базовое, Шок, Урон, Молния.",
-			"zhCN": "电花每次命中敌人时, 有 3% 几率生成一个爆裂电花。\n\nTags: 基础, 电冲, 伤害, 闪电."
+			"zhCN": "电花每次命中敌人时, 有 3% 几率生成一个爆裂电花。\n\nTags: 基础, 电冲, 伤害, 闪电.",
+			"zhTW": "電光彈每次擊中敵人時,有 3% 機率形成電流能量。\n\nTags: 基本, 電能, 傷害, 電擊."
 },
 		id: 6,
 		maxPoints: 1,
@@ -326,7 +340,8 @@ Tags: Basic, Shock, Damage, Lightning.`,
 			"plPL": "Błyskająca Iskra",
 			"ptBR": "Faísca Cintilante",
 			"ruRU": "Сияющая искра",
-			"zhCN": "闪耀电花"
+			"zhCN": "闪耀电花",
+			"zhTW": "閃爍電光彈"
 },
 		descriptionLocalized: {
 			"deDE": "Funke verleiht Euch pro getroffenem Gegner 5 Sek. lang eine +2% höhere kritische Trefferchance, bis maximal +8%.\n\nTags: Basis, Schock, Schaden, Blitz.",
@@ -339,7 +354,8 @@ Tags: Basic, Shock, Damage, Lightning.`,
 			"plPL": "Iskra zapewnia za każde użycie premię +2% do szansy na trafienie krytyczne na 5 sek., maksymalnie do +8%.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica.",
 			"ptBR": "Faísca concede +2% de chance de acerto crítico aumentada por lançamento por 5 segundos, até +8%.\n\nTags: Básica, Choque, Dano, Eletricidade.",
 			"ruRU": "\"Искра\" повышает вероятность критического удара на +2% на 5 сек. Максимальный бонус – +8%.\n\nTags: Базовое, Шок, Урон, Молния.",
-			"zhCN": "电花每次施放时, 暴击几率提高 +2%, 持续 5 秒, 最多提高 +8%。\n\nTags: 基础, 电冲, 伤害, 闪电."
+			"zhCN": "电花每次施放时, 暴击几率提高 +2%, 持续 5 秒, 最多提高 +8%。\n\nTags: 基础, 电冲, 伤害, 闪电.",
+			"zhTW": "每次施放電光彈,可使爆擊機率提高 +2%,持續 5 秒,最多可提高至 +8%。\n\nTags: 基本, 電能, 傷害, 電擊."
 },
 		id: 7,
 		maxPoints: 1,
@@ -366,7 +382,8 @@ When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0
 			"plPL": "Bicz Wyładowań",
 			"ptBR": "Açoite do Arco",
 			"ruRU": "Грозовая плеть",
-			"zhCN": "电弧鞭笞"
+			"zhCN": "电弧鞭笞",
+			"zhTW": "電弧鞭擊"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstrefferchance: 30%\nEntfesselt bogenförmige Blitze, die Gegnern vor Euch {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% Schaden zufügen. Mit jedem 10. Schwung der Elektropeitsche werden alle getroffenen Gegner 2 Sek. lang betäubt.\n\nTags: Basis, Schock, Schaden, Blitz, Kontrollverlust.\n\n— Enchantment Effect —\nWenn Ihr eine Abklingzeit verwendet, werden Gegner um Euch herum {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} Sek. lang betäubt.",
@@ -379,7 +396,8 @@ When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0
 			"plPL": "Szansa na szczęśliwy traf: 30%\nUwalniasz po łuku błyskawicę, która zadaje wrogom znajdującym się przed tobą {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% pkt. obrażeń. Co 10 smagnięcie Bicza Wyładowań ogłusza wszystkich trafionych wrogów na 2 sek.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nKiedy korzystasz z czasu odnowienia, wrogowie wokół ciebie zostają ogłuszeni na {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} sek.",
 			"ptBR": "Chance de Golpe de Sorte: 30%\nSolta raios em arco que causam {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de dano aos inimigos à sua frente. Cada 10 vezes que Açoite do Arco golpeia, atordoa todos os inimigos atingidos por 2 segundos.\n\nTags: Básica, Choque, Dano, Eletricidade, Controle de Grupo.\n\n— Enchantment Effect —\nAo usar uma recarga, os inimigos ao seu redor ficam atordoados por {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} segundos.",
 			"ruRU": "Вероятность удачного удара: 30%.\nВы поражаете противников перед собой дуговым разрядом молнии, наносящим {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% ед. урона. Каждый 10-й взмах \"Грозовой плети\" оглушает пораженных противников на 2 сек.\n\nTags: Базовое, Шок, Урон, Молния, Контроль.\n\n— Enchantment Effect —\nКогда вы применяете умение с временем восстановления, противники вокруг оглушаются на {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} сек.",
-			"zhCN": "幸运一击几率: 30%\n施放弧形闪电, 对你面前的敌人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 点伤害。每第 10 次施放电弧鞭笞, 击晕所有命中的敌人 2 秒。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.\n\n— Enchantment Effect —\n当你使用有冷却时间的技能时, 你周围的敌人会昏迷 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。"
+			"zhCN": "幸运一击几率: 30%\n施放弧形闪电, 对你面前的敌人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 点伤害。每第 10 次施放电弧鞭笞, 击晕所有命中的敌人 2 秒。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.\n\n— Enchantment Effect —\n当你使用有冷却时间的技能时, 你周围的敌人会昏迷 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。",
+			"zhTW": "幸運觸發機率:30%\n釋放電弧,對你面前的敵人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 點傷害。每使出 10 次電弧鞭擊,其會使擊中的所有敵人昏迷 2 秒。\n\nTags: 基本, 電能, 傷害, 電擊, 控場.\n\n— Enchantment Effect —\n每當你使用有冷卻時間的技能,會擊昏你附近的敵人 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。"
 },
 		id: 8,
 		maxPoints: 5,
@@ -403,7 +421,8 @@ Tags: Basic, Shock, Damage, Lightning, Crowd Control.`,
 			"plPL": "Wzmocniony Bicz Wyładowań",
 			"ptBR": "Açoite do Arco Aperfeiçoado",
 			"ruRU": "Усиленная грозовая плеть",
-			"zhCN": "强化电弧鞭笞"
+			"zhCN": "强化电弧鞭笞",
+			"zhTW": "強化電弧鞭擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn der erste Schwung von Elektropeitsche einen kritischen Treffer erzielt, schwingt Ihr sie erneut.\n\nTags: Basis, Schock, Schaden, Blitz, Kontrollverlust.",
@@ -416,7 +435,8 @@ Tags: Basic, Shock, Damage, Lightning, Crowd Control.`,
 			"plPL": "Jeśli pierwsze smagnięcie Biczem Wyładowań wywołuje trafienie krytyczne, uderza on ponownie.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica, Ograniczanie Kontroli.",
 			"ptBR": "Se o primeiro golpe de Açoite do Arco for um acerto crítico, golpeia mais uma vez.\n\nTags: Básica, Choque, Dano, Eletricidade, Controle de Grupo.",
 			"ruRU": "Если первый взмах \"Грозовой плети\" наносит критический удар, она срабатывает повторно.\n\nTags: Базовое, Шок, Урон, Молния, Контроль.",
-			"zhCN": "如果电弧鞭笞的初始扫击造成暴击, 则额外扫击一次。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控."
+			"zhCN": "如果电弧鞭笞的初始扫击造成暴击, 则额外扫击一次。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.",
+			"zhTW": "若電弧鞭擊的初始攻擊造成爆擊,其會額外攻擊一次。\n\nTags: 基本, 電能, 傷害, 電擊, 控場."
 },
 		id: 9,
 		maxPoints: 1,
@@ -440,7 +460,8 @@ Tags: Basic, Shock, Damage, Lightning, Crowd Control.`,
 			"plPL": "Błyskający Bicz Wyładowań",
 			"ptBR": "Açoite do Arco Cintilante",
 			"ruRU": "Сияющая грозовая плеть",
-			"zhCN": "闪耀电弧鞭笞"
+			"zhCN": "闪耀电弧鞭笞",
+			"zhTW": "閃爍電弧鞭擊"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen betäubten Gegner mit Elektropeitsche trefft, werden Eure Abklingzeiten um 0.25 Sek. reduziert.\n\nTags: Basis, Schock, Schaden, Blitz, Kontrollverlust.",
@@ -453,7 +474,8 @@ Tags: Basic, Shock, Damage, Lightning, Crowd Control.`,
 			"plPL": "Trafienie ogłuszonego wroga za pomocą Bicza Wyładowań skraca twoje czasy odnowienia o 0.25 sek.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica, Ograniczanie Kontroli.",
 			"ptBR": "Atingir um inimigo atordoado com Açoite do Arco reduz suas recargas em 0.25 segundos.\n\nTags: Básica, Choque, Dano, Eletricidade, Controle de Grupo.",
 			"ruRU": "Когда \"Грозовая плеть\" поражает оглушенного противника, время восстановления ваших умений сокращается на 0.25 сек.\n\nTags: Базовое, Шок, Урон, Молния, Контроль.",
-			"zhCN": "用电弧鞭笞命中昏迷的敌人会使你的冷却时间缩短 0.25 秒。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控."
+			"zhCN": "用电弧鞭笞命中昏迷的敌人会使你的冷却时间缩短 0.25 秒。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.",
+			"zhTW": "電弧鞭擊打中被擊昏的敵人時,會使你的冷卻時間縮短 0.25 秒。\n\nTags: 基本, 電能, 傷害, 電擊, 控場."
 },
 		id: 10,
 		maxPoints: 1,
@@ -477,7 +499,8 @@ Tags: Basic, Shock, Damage, Lightning, Crowd Control.`,
 			"plPL": "Migoczący Bicz Wyładowań",
 			"ptBR": "Açoite do Arco Tremeluzente",
 			"ruRU": "Мерцающая грозовая плеть",
-			"zhCN": "闪烁电弧鞭笞"
+			"zhCN": "闪烁电弧鞭笞",
+			"zhTW": "閃動電弧鞭擊"
 },
 		descriptionLocalized: {
 			"deDE": "Erhaltet 5 Sek. lang +6% Bewegungsgeschwindigkeit pro mit Elektropeitsche getroffenem Gegner, bis maximal +18%.\n\nTags: Basis, Schock, Schaden, Blitz, Kontrollverlust.",
@@ -490,7 +513,8 @@ Tags: Basic, Shock, Damage, Lightning, Crowd Control.`,
 			"plPL": "Zyskujesz premię +6% do szybkości ruchu na 5 sek. za każdego wroga trafionego Biczem Wyładowań, maksymalnie do +18%.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica, Ograniczanie Kontroli.",
 			"ptBR": "Recebe +6% de velocidade de movimento por 5 segundos por cada inimigo atingido com Açoite do Arco, até +18%.\n\nTags: Básica, Choque, Dano, Eletricidade, Controle de Grupo.",
 			"ruRU": "За каждого противника, пораженного \"Грозовой плетью\", скорость передвижения повышается на +6% на 5 сек. вплоть до +18%.\n\nTags: Базовое, Шок, Урон, Молния, Контроль.",
-			"zhCN": "电弧鞭笞每命中一名敌人, 移动速度提高 +6%, 持续 5 秒, 最多提高 +18%。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控."
+			"zhCN": "电弧鞭笞每命中一名敌人, 移动速度提高 +6%, 持续 5 秒, 最多提高 +18%。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.",
+			"zhTW": "電弧鞭擊每擊中一個敵人,移動速度提高 +6%,持續 5 秒,上限為 +18%。\n\nTags: 基本, 電能, 傷害, 電擊, 控場."
 },
 		id: 11,
 		maxPoints: 1,
@@ -517,7 +541,8 @@ Direct damage from Skills applies up to an additional {23.2/25.6/28/30.4/32.8/35
 			"plPL": "Ognista Wiązka",
 			"ptBR": "Seta de Fogo",
 			"ruRU": "Стрела огня",
-			"zhCN": "火焰弹"
+			"zhCN": "火焰弹",
+			"zhTW": "火焰彈"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstrefferchance: 35%\nSchleudert einen flammenden Blitz, der {10/11/12/13/14/15/16/17/18/19}% Schaden verursacht und Gegner verbrennt, wodurch sie im Verlauf von 8 Sek. {40/44/48/52/56/60/64/68/72/76}% Schaden erleiden.\n\nTags: Basis, Pyromanie, Schaden, Feuer, Verbrennung.\n\n— Enchantment Effect —\nDirekter Schaden von Fertigkeiten verursacht im Verlauf von 8 Sek. bis zu {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% zusätzlichen Verbrennungsschaden.",
@@ -530,7 +555,8 @@ Direct damage from Skills applies up to an additional {23.2/25.6/28/30.4/32.8/35
 			"plPL": "Szansa na szczęśliwy traf: 35%\nMiotasz płonącym piorunem, który zadaje {10/11/12/13/14/15/16/17/18/19}% pkt. obrażeń i podpala cel, zadając dodatkowo {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń w ciągu 8 sek.\n\nTags: Podstawowe, Piromancja, Obrażenia, Ogień, Podpalenie.\n\n— Enchantment Effect —\nObrażenia bezpośrednie od umiejętności wywołują dodatkowo {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% pkt. obrażeń od podpalenia w ciągu 8 sek.",
 			"ptBR": "Chance de Golpe de Sorte: 35%\nLança uma seta flamejante, causando {10/11/12/13/14/15/16/17/18/19}% de dano e queimando por {40/44/48/52/56/60/64/68/72/76}% de dano ao longo de 8 segundos.\n\nTags: Básica, Piromancia, Dano, Fogo, Queimadura.\n\n— Enchantment Effect —\nO dano direto de habilidades aplica até {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% de dano flamejante adicional ao longo de 8 segundos.",
 			"ruRU": "Вероятность удачного удара: 35%.\nВы запускаете огненную стрелу, наносящую {10/11/12/13/14/15/16/17/18/19}% ед. урона сразу и еще {40/44/48/52/56/60/64/68/72/76}% ед. урона от горения за 8 сек.\n\nTags: Базовое, Пиромантия, Урон, Огонь, Горение.\n\n— Enchantment Effect —\nПрямой урон от ваших умений поджигает противников, нанося {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% ед. урона от горения за 8 сек.",
-			"zhCN": "幸运一击几率: 35%\n投掷一枚火焰弹, 造成 {10/11/12/13/14/15/16/17/18/19}% 点伤害, 并使目标燃烧, 在 8 秒内造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧.\n\n— Enchantment Effect —\n来自技能的直接伤害会在 8 秒内额外施加最多 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% 点燃烧伤害。"
+			"zhCN": "幸运一击几率: 35%\n投掷一枚火焰弹, 造成 {10/11/12/13/14/15/16/17/18/19}% 点伤害, 并使目标燃烧, 在 8 秒内造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧.\n\n— Enchantment Effect —\n来自技能的直接伤害会在 8 秒内额外施加最多 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% 点燃烧伤害。",
+			"zhTW": "幸運觸發機率:35%\n投擲火焰彈,造成 {10/11/12/13/14/15/16/17/18/19}% 點傷害並在 8 秒內造成 {40/44/48/52/56/60/64/68/72/76}% 點燃燒傷害。\n\nTags: 基本, 焰術, 傷害, 火焰, 燃燒.\n\n— Enchantment Effect —\n技能的直接傷害會附加燃燒傷害,最多在 8 秒內額外造成 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% 點傷害。"
 },
 		id: 12,
 		maxPoints: 5,
@@ -554,7 +580,8 @@ Tags: Basic, Pyromancy, Damage, Fire, Burn.`,
 			"plPL": "Wzmocniona Ognista Wiązka",
 			"ptBR": "Seta de Fogo Aperfeiçoada",
 			"ruRU": "Усиленная стрела огня",
-			"zhCN": "强化火焰弹"
+			"zhCN": "强化火焰弹",
+			"zhTW": "強化火焰彈"
 },
 		descriptionLocalized: {
 			"deDE": "Feuerblitz durchschlägt brennende Gegner.\n\nTags: Basis, Pyromanie, Schaden, Feuer, Verbrennung.",
@@ -567,7 +594,8 @@ Tags: Basic, Pyromancy, Damage, Fire, Burn.`,
 			"plPL": "Ognista Wiązka przebija podpalonych wrogów.\n\nTags: Podstawowe, Piromancja, Obrażenia, Ogień, Podpalenie.",
 			"ptBR": "Seta de Fogo perfura inimigos em chamas.\n\nTags: Básica, Piromancia, Dano, Fogo, Queimadura.",
 			"ruRU": "\"Стрела огня\" пробивает подожженных противников.\n\nTags: Базовое, Пиромантия, Урон, Огонь, Горение.",
-			"zhCN": "火焰弹穿透燃烧的敌人。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧."
+			"zhCN": "火焰弹穿透燃烧的敌人。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧.",
+			"zhTW": "火焰彈可以穿過燃燒的敵人。\n\nTags: 基本, 焰術, 傷害, 火焰, 燃燒."
 },
 		id: 13,
 		maxPoints: 1,
@@ -591,7 +619,8 @@ Tags: Basic, Pyromancy, Damage, Fire, Burn.`,
 			"plPL": "Błyskająca Ognista Wiązka",
 			"ptBR": "Seta de Fogo Cintilante",
 			"ruRU": "Сияющая стрела огня",
-			"zhCN": "闪耀火焰弹"
+			"zhCN": "闪耀火焰弹",
+			"zhTW": "閃爍火焰彈"
 },
 		descriptionLocalized: {
 			"deDE": "Kritische Treffer mit Feuerblitz erhöhen jeglichen Verbrennungsschaden, den Ihr dem Gegner zufügt, 4 Sek. lang um x20%.\n\nTags: Basis, Pyromanie, Schaden, Feuer, Verbrennung.",
@@ -604,7 +633,8 @@ Tags: Basic, Pyromancy, Damage, Fire, Burn.`,
 			"plPL": "Trafienia krytyczne z użyciem Ognistej Wiązki zwiększają zadawane przez ciebie obrażenia od podpalenia o x20% na 4 sek.\n\nTags: Podstawowe, Piromancja, Obrażenia, Ogień, Podpalenie.",
 			"ptBR": "Acertos críticos com Seta de Fogo aumentam o dano flamejante recebido pelo alvo em 20% por 4 segundos.\n\nTags: Básica, Piromancia, Dano, Fogo, Queimadura.",
 			"ruRU": "Критические удары \"Стрелы огня\" увеличивают получаемый целью урон от горения на x20% на 4 сек.\n\nTags: Базовое, Пиромантия, Урон, Огонь, Горение.",
-			"zhCN": "火焰弹暴击会使你对敌人造成的燃烧伤害提高 x20%, 持续 4 秒。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧."
+			"zhCN": "火焰弹暴击会使你对敌人造成的燃烧伤害提高 x20%, 持续 4 秒。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧.",
+			"zhTW": "火焰彈爆擊會使你對該敵人造成的燃燒傷害提高 x20%,持續 4 秒。\n\nTags: 基本, 焰術, 傷害, 火焰, 燃燒."
 },
 		id: 14,
 		maxPoints: 1,
@@ -628,7 +658,8 @@ Tags: Basic, Pyromancy, Damage, Fire, Burn.`,
 			"plPL": "Migocząca Ognista Wiązka",
 			"ptBR": "Seta de Fogo Tremeluzente",
 			"ruRU": "Мерцающая стрела огня",
-			"zhCN": "闪烁火焰弹"
+			"zhCN": "闪烁火焰弹",
+			"zhTW": "閃動火焰彈"
 },
 		descriptionLocalized: {
 			"deDE": "Feuerblitz erzeugt 2 Mana, wenn die Fertigkeit einen brennenden Gegner trifft.\n\nTags: Basis, Pyromanie, Schaden, Feuer, Verbrennung.",
@@ -641,7 +672,8 @@ Tags: Basic, Pyromancy, Damage, Fire, Burn.`,
 			"plPL": "Ognista Wiązka generuje 2 pkt. many, kiedy trafia podpalonego wroga.\n\nTags: Podstawowe, Piromancja, Obrażenia, Ogień, Podpalenie.",
 			"ptBR": "Seta de Fogo gera 2 de mana ao atingir um inimigo que está queimando.\n\nTags: Básica, Piromancia, Dano, Fogo, Queimadura.",
 			"ruRU": "\"Стрела огня\" дает 2 ед. маны, когда поражает горящего противника.\n\nTags: Базовое, Пиромантия, Урон, Огонь, Горение.",
-			"zhCN": "火焰弹命中燃烧的敌人时, 会生成 2 点法力。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧."
+			"zhCN": "火焰弹命中燃烧的敌人时, 会生成 2 点法力。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧.",
+			"zhTW": "火焰彈擊中燃燒的敵人時,產生 2 點法力。\n\nTags: 基本, 焰術, 傷害, 火焰, 燃燒."
 },
 		id: 15,
 		maxPoints: 1,
@@ -672,7 +704,8 @@ When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from the
 			"plPL": "Wiązki Błyskawic",
 			"ptBR": "Setas Carregadas",
 			"ruRU": "Электрические разряды",
-			"zhCN": "电荷弹"
+			"zhCN": "电荷弹",
+			"zhTW": "電能彈"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 20%\nEntfesselt 5 Blitze, die sich in unvorhersehbarer Richtung über den Boden bewegen und jeweils {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% Schaden verursachen.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner betäubt, besteht eine Chance von 40%, 3 Comboblitze aus ihm zu entfesseln.",
@@ -685,7 +718,8 @@ When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from the
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 20%\nWyzwalasz wiązki błyskawic (5), które przemieszczają się po ziemi w nieregularny sposób. Każda z nich zadaje {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% pkt. obrażeń.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.\n\n— Enchantment Effect —\nPo ogłuszeniu wroga istnieje 40% szans na wyzwolenie z niego Wiązek Błyskawic (3).",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 20%\nLibera 5 setas elétricas que percorrem o solo em um padrão errático. Cada uma causa {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de dano.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nAo atordoar um inimigo, há 40% de chance de lançar 3 Setas Carregadas dele.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 20%.\nВы выпускаете 5 молнии:молний, которые хаотично перемещаются по земле, нанося по {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% ед. урона.\n\nTags: Основное, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\nКогда вы оглушаете противника, из его тела с вероятностью 40% вырывается 3 \"Электрических разряда\":\"Электрических разрядов\".",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 20%\n在地面上施放 5 枚轨迹不规则的闪电弹, 每枚造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n当你击晕一名敌人时, 有 40% 几率从其身上放出 3 枚电荷弹。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 20%\n在地面上施放 5 枚轨迹不规则的闪电弹, 每枚造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n当你击晕一名敌人时, 有 40% 几率从其身上放出 3 枚电荷弹。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:20%\n釋放 5 顆以不規則路線在地面行進的電能彈,每顆造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 點傷害。\n\nTags: 核心, 電能, 傷害, 電擊, 法力.\n\n— Enchantment Effect —\n每當你擊昏敵人時,有 40% 機率從其身上放出 3 個電能彈。"
 },
 		id: 16,
 		maxPoints: 5,
@@ -710,7 +744,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Wzmocnione Wiązki Błyskawic",
 			"ptBR": "Setas Carregadas Aperfeiçoadas",
 			"ruRU": "Усиленные электрические разряды",
-			"zhCN": "强化电荷弹"
+			"zhCN": "强化电荷弹",
+			"zhTW": "強化電能彈"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen Gegner mindestens 3-mal mit demselben Einsatz von Comboblitze trefft, wird eine Blitznova entfesselt, die Gegnern um ihn herum 24% Schaden zufügt.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.",
@@ -723,7 +758,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Trafienie wroga co najmniej 3 razy tym samym użyciem Wiązek Błyskawic uwalnia Novę Błyskawic, która zadaje celom wokół 24% pkt. obrażeń.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "Acertar um inimigo pelo menos 3 vezes com o mesmo lançamento de Setas Carregadas libera uma nova elétrica, causando 24% de dano a inimigos ao redor dele.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "Когда \"Электрические разряды\" поражают одного противника 3 раза:раз за одно применение, срабатывает вспышка молнии, наносящая врагам вокруг 24% ед. урона.\n\nTags: Основное, Шок, Урон, Молния, Мана.",
-			"zhCN": "使用同一次技能施放的电荷弹命中一个敌人至少 3 次, 会释放闪电新星, 对附近的敌人造成 24% 点伤害。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "使用同一次技能施放的电荷弹命中一个敌人至少 3 次, 会释放闪电新星, 对附近的敌人造成 24% 点伤害。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "施放一次電能彈時,若擊中一名敵人至少 3 次,會放出閃電新星,對其周圍的敵人造成 24% 點傷害。\n\nTags: 核心, 電能, 傷害, 電擊, 法力."
 },
 		id: 17,
 		maxPoints: 1,
@@ -747,7 +783,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Potężniejsze Wiązki Błyskawic",
 			"ptBR": "Setas Carregadas Superiores",
 			"ruRU": "Великие электрические разряды",
-			"zhCN": "强效电荷弹"
+			"zhCN": "强效电荷弹",
+			"zhTW": "強效電能彈"
 },
 		descriptionLocalized: {
 			"deDE": "Comboblitze fügt betäubten Gegnern x25% mehr Schaden zu.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.",
@@ -760,7 +797,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Wiązki Błyskawic zadają obrażenia zwiększone o x25% ogłuszonym celom.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "Setas Carregadas causam 25% de dano aumentado a inimigos atordoados.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "\"Электрические разряды\" наносят на x25% больше урона оглушенным противникам.\n\nTags: Основное, Шок, Урон, Молния, Мана.",
-			"zhCN": "电荷弹对昏迷的敌人造成的伤害提高 x25%。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "电荷弹对昏迷的敌人造成的伤害提高 x25%。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "電能彈對被擊昏的敵人造成的傷害提高 x25%。\n\nTags: 核心, 電能, 傷害, 電擊, 法力."
 },
 		id: 18,
 		maxPoints: 1,
@@ -784,7 +822,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Destrukcyjne Wiązki Błyskawic",
 			"ptBR": "Setas Carregadas Destrutivas",
 			"ruRU": "Разрушительные электрические разряды",
-			"zhCN": "毁灭电荷弹"
+			"zhCN": "毁灭电荷弹",
+			"zhTW": "毀滅電能彈"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen Gegner mit Comboblitzen trefft, wird dessen verursachter Schaden 3 Sek. lang um 20% reduziert.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.",
@@ -797,7 +836,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Trafienie wroga Wiązkami Błyskawic zmniejsza zadawane przez niego obrażenia o 20% na 3 sek.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "Acertar um inimigo com Setas Carregadas reduz o dano causado por ele em 20% por 3 segundos.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "Когда \"Электрические разряды\" поражают противника, наносимый им урон уменьшается на 20% на 3 сек.\n\nTags: Основное, Шок, Урон, Молния, Мана.",
-			"zhCN": "用电荷弹命中一名敌人会使其造成的伤害降低 20%, 持续 3 秒。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "用电荷弹命中一名敌人会使其造成的伤害降低 20%, 持续 3 秒。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "電能彈擊中敵人時,會使其造成的傷害降低 20%,持續 3 秒。\n\nTags: 核心, 電能, 傷害, 電擊, 法力."
 },
 		id: 19,
 		maxPoints: 1,
@@ -825,7 +865,8 @@ Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Or
 			"plPL": "Zamarznięta Kula",
 			"ptBR": "Orbe Congelado",
 			"ruRU": "Морозная сфера",
-			"zhCN": "冰霜球"
+			"zhCN": "冰霜球",
+			"zhTW": "冰封球"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 4%\nEntfesselt eine Kugel, die für 34% unterkühlt und durchschlagende Splitter ausstößt, die insgesamt {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% Schaden verursachen. Nach Ablauf explodiert Gefrorene Kugel, verursacht {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% Schaden und unterkühlt Gegner für 8.7%.\n\nTags: Kern, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust, Mana.\n\n— Enchantment Effect —\nJedes Mal, wenn Ihr eine Fertigkeit einsetzt, die keine Basisfertigkeit ist, verfügt Ihr über eine Chance von 20%, eine Gefrorene Kugel auf einen Gegner in der Nähe zu schleudern.",
@@ -838,7 +879,8 @@ Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Or
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 4%\nUwalniasz kulę, która wyziębia cel o 34% i wystrzeliwuje przeszywające odłamki, które zadają w sumie {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% pkt. obrażeń. Po zakończeniu działania Zamarznięta Kula wybucha i zadaje {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% pkt. obrażeń oraz wyziębia wrogów o 8.7%.\n\nTags: Główne, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli, Mana.\n\n— Enchantment Effect —\nZa każdym razem, gdy używasz umiejętności innej niż Podstawowa, masz 20% szans na wystrzelenie Zamarzniętej Kuli w pobliskiego wroga.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 4%\nLibera um orbe que gela por 34% e expele estilhaços perfurantes, causando um total de {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% de dano. Ao expirar, Orbe Congelado explode, causando {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% de dano e aplicando gelidez a inimigos por 8.7%.\n\nTags: Principal, Geleira, Gelidez, Dano, Gelo, Controle de Grupo, Mana.\n\n— Enchantment Effect —\nSempre que lançar uma habilidade não básica, você tem 20% de chance de lançar um Orbe Congelado em um inimigo próximo.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 4%.\nВы создаете морозную сферу, которая заставляет цели коченеть, замедляя на 34%, и выпускает пронзающие осколки, в совокупности наносящие {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% ед. урона. По завершении действия \"Морозная сфера\" взрывается, нанося {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% ед. урона, и заставляя противников коченеть, замедляя на 8.7%.\n\nTags: Основное, Мороз, Окоченение, Урон, Холод, Контроль, Мана.\n\n— Enchantment Effect —\nПри применении любых умений, кроме базовых, вы с вероятностью 20% выпускаете в ближайшего противника \"Морозную сферу\".",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 4%\n施放一颗冰球, 冻伤敌人 34%, 并放出尖锐碎片, 造成总计 {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% 点伤害。冰霜球会在持续时间结束后爆炸, 造成 {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% 点伤害, 并冻伤敌人 8.7%。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力.\n\n— Enchantment Effect —\n每当你施放非基础技能时, 有 20% 几率向一名附近的敌人发射一颗冰霜球。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 4%\n施放一颗冰球, 冻伤敌人 34%, 并放出尖锐碎片, 造成总计 {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% 点伤害。冰霜球会在持续时间结束后爆炸, 造成 {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% 点伤害, 并冻伤敌人 8.7%。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力.\n\n— Enchantment Effect —\n每当你施放非基础技能时, 有 20% 几率向一名附近的敌人发射一颗冰霜球。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:4%\n釋放會造成 34% 冰冷效果、散射穿透碎片的球體,總共造成 {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% 點傷害。冰封球會在效果結束時爆炸,造成 {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% 點傷害,並使敵人冰冷 8.7%。\n\nTags: 核心, 冰霜, 冰冷, 傷害, 冰寒, 控場, 法力.\n\n— Enchantment Effect —\n每當你施放非基本技能時,有 20% 機率對附近的一個敵人發射冰封球。"
 },
 		id: 20,
 		maxPoints: 5,
@@ -863,7 +905,8 @@ Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 			"plPL": "Wzmocniona Zamarznięta Kula",
 			"ptBR": "Orbe Congelado Aperfeiçoado",
 			"ruRU": "Усиленная морозная сфера",
-			"zhCN": "强化冰霜球"
+			"zhCN": "强化冰霜球",
+			"zhTW": "強化冰封球"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Gefrorene Kugel mit mehr als 50 Mana gewirkt wird, erhöht sich der Schaden der Explosion um x30%.\n\nTags: Kern, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust, Mana.",
@@ -876,7 +919,8 @@ Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 			"plPL": "Jeśli podczas użycia Zamarzniętej Kuli masz więcej niż 50 pkt. many, obrażenia od wybuchu są zwiększone o x30%.\n\nTags: Główne, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli, Mana.",
 			"ptBR": "Ao lançar com mais de 50 de mana, a explosão de Orbe Congelado é aumentada em 30%.\n\nTags: Principal, Geleira, Gelidez, Dano, Gelo, Controle de Grupo, Mana.",
 			"ruRU": "Если при применении \"Морозной сферы\" у вас больше 50 ед. маны, урон от взрыва увеличивается на x30%.\n\nTags: Основное, Мороз, Окоченение, Урон, Холод, Контроль, Мана.",
-			"zhCN": "法力大于 50 点时, 施放的冰霜球爆炸伤害提高 x30%。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力."
+			"zhCN": "法力大于 50 点时, 施放的冰霜球爆炸伤害提高 x30%。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力.",
+			"zhTW": "若在 50 點法力以上時施放冰封球,其爆炸傷害提高 x30%。\n\nTags: 核心, 冰霜, 冰冷, 傷害, 冰寒, 控場, 法力."
 },
 		id: 21,
 		maxPoints: 1,
@@ -900,7 +944,8 @@ Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 			"plPL": "Destrukcyjna Zamarznięta Kula",
 			"ptBR": "Orbe Congelado Destrutivo",
 			"ruRU": "Разрушительная морозная сфера",
-			"zhCN": "毁灭冰霜球"
+			"zhCN": "毁灭冰霜球",
+			"zhTW": "毀滅冰封球"
 },
 		descriptionLocalized: {
 			"deDE": "Die Explosion von Gefrorene Kugel stellt 5 Mana wieder her, wenn sie einen eingefrorenen Gegner trifft.\n\nTags: Kern, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust, Mana.",
@@ -913,7 +958,8 @@ Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 			"plPL": "Wybuch Zamarzniętej Kuli przywraca 5 pkt. many, kiedy trafia zamrożonego wroga.\n\nTags: Główne, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli, Mana.",
 			"ptBR": "A explosão de Orbe Congelado restaura 5 de mana ao atingir um inimigo congelado.\n\nTags: Principal, Geleira, Gelidez, Dano, Gelo, Controle de Grupo, Mana.",
 			"ruRU": "Взрыв \"Морозной сферы\" восполняет 5 ед. маны, когда поражает замороженного противника.\n\nTags: Основное, Мороз, Окоченение, Урон, Холод, Контроль, Мана.",
-			"zhCN": "冰霜球爆炸命中一名冻结的敌人时,你恢复 5 点法力。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力."
+			"zhCN": "冰霜球爆炸命中一名冻结的敌人时,你恢复 5 点法力。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力.",
+			"zhTW": "冰封球爆炸擊中凍結的敵人時,會恢復 5 點法力。\n\nTags: 核心, 冰霜, 冰冷, 傷害, 冰寒, 控場, 法力."
 },
 		id: 22,
 		maxPoints: 1,
@@ -937,7 +983,8 @@ Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 			"plPL": "Potężniejsza Zamarznięta Kula",
 			"ptBR": "Orbe Congelado Superior",
 			"ruRU": "Великая морозная сфера",
-			"zhCN": "强效冰霜球"
+			"zhCN": "强效冰霜球",
+			"zhTW": "強效冰封球"
 },
 		descriptionLocalized: {
 			"deDE": "Die Explosion von Gefrorene Kugel verfügt über eine Chance von 25%, alle getroffenen Gegner 2 Sek. lang verwundbar zu machen. Gefrorene Kugel macht eingefrorene Gegner immer verwundbar.\n\nTags: Kern, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust, Mana.",
@@ -950,7 +997,8 @@ Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.`,
 			"plPL": "Wybuch Zamarzniętej Kuli ma 25% szans na odsłonięcie wszystkich trafionych wrogów na 2 sek. Zamarznięta Kula sprawia, że zamrożeni wrogowie stają się odsłonięci.\n\nTags: Główne, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli, Mana.",
 			"ptBR": "A explosão de Orbe Congelado tem 25% de chance de tornar todos os inimigos atingidos vulneráveis por 2 segundos. Orbe Congelado sempre deixará os inimigos congelados vulneráveis.\n\nTags: Principal, Geleira, Gelidez, Dano, Gelo, Controle de Grupo, Mana.",
 			"ruRU": "Взрыв \"Морозной сферы\" с вероятностью 25% делает пораженных противников уязвимыми на 2 сек. \"Морозная сфера\" всегда делает уязвимыми замороженных противников.\n\nTags: Основное, Мороз, Окоченение, Урон, Холод, Контроль, Мана.",
-			"zhCN": "冰霜球 爆炸时有 25% 几率使命中的所有敌人陷入易伤状态, 持续 2 秒。冰霜球总是会使冻结的敌人陷入易伤状态。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力."
+			"zhCN": "冰霜球 爆炸时有 25% 几率使命中的所有敌人陷入易伤状态, 持续 2 秒。冰霜球总是会使冻结的敌人陷入易伤状态。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力.",
+			"zhTW": "冰封球的爆炸有 25% 機率使所有擊中的敵人易傷,持續 2 秒。冰封球必定使凍結的敵人易傷。\n\nTags: 核心, 冰霜, 冰冷, 傷害, 冰寒, 控場, 法力."
 },
 		id: 23,
 		maxPoints: 1,
@@ -978,7 +1026,8 @@ Every 18 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"plPL": "Spopielenie",
 			"ptBR": "Incinerar",
 			"ruRU": "Испепеление",
-			"zhCN": "焚烧"
+			"zhCN": "焚烧",
+			"zhTW": "熾焚烈焰"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#} pro Sekunde\nGlückstrefferchance: 16%\nKanalisiert einen Feuerstrahl, der Gegner verbrennt und ihnen {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% Schaden pro Sekunde zufügt. Der Schaden pro Sekunde erhöht sich im Verlauf von 4 Sek., bis maximal {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Kern, Pyromanie, Kanalisiert, Schaden, Verbrennung, Mana.\n\n— Enchantment Effect —\nAlle 18 Sek. erscheint eine Schlange und schickt Gegner 8 Sek. lang in den Flammentod.",
@@ -991,7 +1040,8 @@ Every 18 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"plPL": "Koszt: {#} pkt many na sekund\nSzansa na szczęśliwy traf: 16%\nWyzwalasz promień ognia, który podpala wrogów, zadając im {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% pkt. obrażeń na sekundę. Obrażenia na sekundę są zwiększone po upływie 4 sek., maksymalnie do {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Główne, Piromancja, Podtrzymanie, Obrażenia, Podpalenie, Mana.\n\n— Enchantment Effect —\nCo 18 sek. pojawia się wąż, który wymierza Spopielenie w pobliskiego wroga na 8 sek.",
 			"ptBR": "Custo de mana: {#} por segundo\nChance de Golpe de Sorte: 16%\nCanaliza um feixe de fogo, queimando os inimigos e causando {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% de dano por segundo. O dano por segundo aumenta ao longo de 4 segundos, até {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Principal, Piromancia, Canalizada, Dano, Queimadura, Mana.\n\n— Enchantment Effect —\nA cada 18 segundos, uma serpente surge e incinera inimigos próximos por 8 segundos.",
 			"ruRU": "Затраты маны: {#}\nВероятность удачного удара: 16%.\nВы поддерживаете поток пламени, наносящий противникам {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% ед. урона в секунду. Урон в секунду увеличивается в течение 4 сек., достигая {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}% ед.\n\nTags: Основное, Пиромантия, Поддерживаемое, Урон, Горение, Мана.\n\n— Enchantment Effect —\nРаз в 18 сек. появляется змей, поражающий ближайшего противника \"Испепелением\" в течение 8 сек.",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 16%\n引导一道火焰射线燃烧敌人, 每秒造成 {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% 点伤害。在 4 秒内, 伤害每秒都会提高, 最多 {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}% 点。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.\n\n— Enchantment Effect —\n每 18 秒, 召唤一条蛇并焚烧敌人, 持续 8 秒。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 16%\n引导一道火焰射线燃烧敌人, 每秒造成 {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% 点伤害。在 4 秒内, 伤害每秒都会提高, 最多 {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}% 点。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.\n\n— Enchantment Effect —\n每 18 秒, 召唤一条蛇并焚烧敌人, 持续 8 秒。",
+			"zhTW": "法力消耗:每秒 {#}\n幸運觸發機率16%\n引導一道火焰燃燒敵人,每秒造成 {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% 點傷害。每秒造成的傷害在 4 秒內會提高,最多提高 {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}% 點。\n\nTags: 核心, 焰術, 引導, 傷害, 燃燒, 法力.\n\n— Enchantment Effect —\n每 18 秒生成一條蛇,其會對敵人施放熾焚烈焰,持續 8 秒。"
 },
 		id: 24,
 		maxPoints: 5,
@@ -1016,7 +1066,8 @@ Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 			"plPL": "Wzmocnione Spopielenie",
 			"ptBR": "Incinerar Aperfeiçoado",
 			"ruRU": "Усиленное испепеление",
-			"zhCN": "强化焚烧"
+			"zhCN": "强化焚烧",
+			"zhTW": "強化熾焚烈焰"
 },
 		descriptionLocalized: {
 			"deDE": "Während des Kanalisierens von Flammentod verbrennt Ihr Gegner um Euch herum und fügt ihnen 15% des Schadens pro Sekunde zu.\n\nTags: Kern, Pyromanie, Kanalisiert, Schaden, Verbrennung, Mana.",
@@ -1029,7 +1080,8 @@ Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 			"plPL": "Podczas podtrzymywania Spopielenia podpalasz wrogów wokół siebie i zadajesz im 15% obrażeń na sekundę.\n\nTags: Główne, Piromancja, Podtrzymanie, Obrażenia, Podpalenie, Mana.",
 			"ptBR": "Enquanto canaliza Incinerar, você queima inimigos ao seu redor, causando 15% do dano por segundo.\n\nTags: Principal, Piromancia, Canalizada, Dano, Queimadura, Mana.",
 			"ruRU": "При поддержании \"Испепеления\" вы также опаляете противников вокруг себя, нанося 15% урона раз в сек.\n\nTags: Основное, Пиромантия, Поддерживаемое, Урон, Горение, Мана.",
-			"zhCN": "在引导焚烧时, 你会燃烧附近的敌人, 每秒造成伤害, 相当于焚烧的 15%。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力."
+			"zhCN": "在引导焚烧时, 你会燃烧附近的敌人, 每秒造成伤害, 相当于焚烧的 15%。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.",
+			"zhTW": "引導熾焚烈焰時,你會燃燒附近的敵人,每秒造成其傷害值 15% 的傷害。\n\nTags: 核心, 焰術, 引導, 傷害, 燃燒, 法力."
 },
 		id: 25,
 		maxPoints: 1,
@@ -1053,7 +1105,8 @@ Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 			"plPL": "Destrukcyjne Spopielenie",
 			"ptBR": "Incinerar Destrutivo",
 			"ruRU": "Разрушительное испепеление",
-			"zhCN": "毁灭焚烧"
+			"zhCN": "毁灭焚烧",
+			"zhTW": "毀滅熾焚烈焰"
 },
 		descriptionLocalized: {
 			"deDE": "Während Gegner durch Flammentod brennen, verursachen sie 20% weniger Schaden.\n\nTags: Kern, Pyromanie, Kanalisiert, Schaden, Verbrennung, Mana.",
@@ -1066,7 +1119,8 @@ Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 			"plPL": "Wrogowie podpaleni przez Spopielenie zadają obrażenia zmniejszone o 20%.\n\nTags: Główne, Piromancja, Podtrzymanie, Obrażenia, Podpalenie, Mana.",
 			"ptBR": "Inimigos causam 20% de dano reduzido enquanto queimam com Incinerar.\n\nTags: Principal, Piromancia, Canalizada, Dano, Queimadura, Mana.",
 			"ruRU": "Подожженные \"Испепелением\" противники наносят на 20% меньше урона.\n\nTags: Основное, Пиромантия, Поддерживаемое, Урон, Горение, Мана.",
-			"zhCN": "敌人因焚烧而燃烧时, 其造成的伤害降低 20%。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力."
+			"zhCN": "敌人因焚烧而燃烧时, 其造成的伤害降低 20%。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.",
+			"zhTW": "熾焚烈焰使敵人燃燒時,其造成的傷害降低 20%。\n\nTags: 核心, 焰術, 引導, 傷害, 燃燒, 法力."
 },
 		id: 26,
 		maxPoints: 1,
@@ -1090,7 +1144,8 @@ Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 			"plPL": "Potężniejsze Spopielenie",
 			"ptBR": "Incinerar Superior",
 			"ruRU": "Великое испепеление",
-			"zhCN": "强效焚烧"
+			"zhCN": "强效焚烧",
+			"zhTW": "強效熾焚烈焰"
 },
 		descriptionLocalized: {
 			"deDE": "Alle 4 Sek., die ein Gegner von Flammentod getroffen wurde, wird er 1 Sek. lang bewegungsunfähig.\n\nTags: Kern, Pyromanie, Kanalisiert, Schaden, Verbrennung, Mana.",
@@ -1103,7 +1158,8 @@ Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.`,
 			"plPL": "Za każde 4 sek., które wróg spędził pod wpływem Spopielenia, zostaje on unieruchomiony na 1 sek.\n\nTags: Główne, Piromancja, Podtrzymanie, Obrażenia, Podpalenie, Mana.",
 			"ptBR": "A cada 4 segundos que um inimigo for atingido por Incinerar, ele é imobilizado por 1 segundos.\n\nTags: Principal, Piromancia, Canalizada, Dano, Queimadura, Mana.",
 			"ruRU": "Пораженные противники, непрерывно получающие урон от \"Испепеления\", обездвиживаются на 1 сек. раз в 4 сек.\n\nTags: Основное, Пиромантия, Поддерживаемое, Урон, Горение, Мана.",
-			"zhCN": "每隔 4 秒, 会有一名被焚烧命中的敌人被定身 1 秒。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力."
+			"zhCN": "每隔 4 秒, 会有一名被焚烧命中的敌人被定身 1 秒。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.",
+			"zhTW": "熾焚烈焰每 4 秒可使其擊中的敵人定身 1 秒。\n\nTags: 核心, 焰術, 引導, 傷害, 燃燒, 法力."
 },
 		id: 27,
 		maxPoints: 1,
@@ -1131,7 +1187,8 @@ When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 			"plPL": "Kula Ognia",
 			"ptBR": "Bola de Fogo",
 			"ruRU": "Огненный шар",
-			"zhCN": "火球"
+			"zhCN": "火球",
+			"zhTW": "火球"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 33%\nSchleudert einen explodierenden Feuerball, der Gegnern in der Nähe {60/66/72/78/84/90/96/102/108/114}% Schaden zufügt.\n\nTags: Kern, Pyromanie, Schaden, Feuer, Mana.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner tötet, explodiert dieser in einem Feuerball, der 50% des Schadens verursacht.",
@@ -1144,7 +1201,8 @@ When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 33%\nCiskasz wybuchową kulą ognia, która zadaje {60/66/72/78/84/90/96/102/108/114}% pkt. obrażeń pobliskim wrogom.\n\nTags: Główne, Piromancja, Obrażenia, Ogień, Mana.\n\n— Enchantment Effect —\nKiedy zabijasz wroga, wybucha on w postaci Kuli Ognia, która zadaje równowartość 50% obrażeń od tej umiejętności.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 33%\nArremessa uma bola de fogo explosiva, causando {60/66/72/78/84/90/96/102/108/114}% de dano a inimigos ao redor.\n\nTags: Principal, Piromancia, Dano, Fogo, Mana.\n\n— Enchantment Effect —\nQuando você mata um inimigo, ele explode em uma Bola de Fogo, causando 50% do dano.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 33%.\nВы бросаете взрывающийся огненный шар, который наносит {60/66/72/78/84/90/96/102/108/114}% ед. урона окружающим противникам.\n\nTags: Основное, Пиромантия, Урон, Огонь, Мана.\n\n— Enchantment Effect —\nУбитые вами противники взрываются \"Огненными шарами\", наносящими 50% обычного урона.",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 33%\n施放一团会爆炸的火焰, 对周围的敌人造成 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力.\n\n— Enchantment Effect —\n当你消灭一名敌人时会使其爆炸成 火球, 造成伤害为火球初始伤害的 50%"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 33%\n施放一团会爆炸的火焰, 对周围的敌人造成 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力.\n\n— Enchantment Effect —\n当你消灭一名敌人时会使其爆炸成 火球, 造成伤害为火球初始伤害的 50%",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:33%\n投擲會爆炸的火球,對附近敵人造成 {60/66/72/78/84/90/96/102/108/114}% 點傷害。\n\nTags: 核心, 焰術, 傷害, 火焰, 法力.\n\n— Enchantment Effect —\n當你殺死敵人時,敵人會爆炸化為火球,造成其傷害 50% 的傷害值。"
 },
 		id: 28,
 		maxPoints: 5,
@@ -1169,7 +1227,8 @@ Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Wzmocniona Kula Ognia",
 			"ptBR": "Bola de Fogo Aperfeiçoada",
 			"ruRU": "Усиленный огненный шар",
-			"zhCN": "强化火球"
+			"zhCN": "强化火球",
+			"zhTW": "強化火球"
 },
 		descriptionLocalized: {
 			"deDE": "Der Radius von Feuerball erhöht sich anhand der zurückgelegten Distanz, bis maximal 50%.\n\nTags: Kern, Pyromanie, Schaden, Feuer, Mana.",
@@ -1182,7 +1241,8 @@ Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Promień Kuli Ognia zostaje zwiększony w oparciu o przebytą odległość, maksymalnie do 50%.\n\nTags: Główne, Piromancja, Obrażenia, Ogień, Mana.",
 			"ptBR": "O raio de Bola de Fogo é aumentado com base na distância percorrida, até 50%.\n\nTags: Principal, Piromancia, Dano, Fogo, Mana.",
 			"ruRU": "Радиус \"Огненного шара\" увеличивается с расстоянием вплоть до 50%.\n\nTags: Основное, Пиромантия, Урон, Огонь, Мана.",
-			"zhCN": "火球的半径随行进距离扩大, 最高可增加 50%。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力."
+			"zhCN": "火球的半径随行进距离扩大, 最高可增加 50%。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力.",
+			"zhTW": "火球的半徑依飛行距離提升,最多提高 50%。\n\nTags: 核心, 焰術, 傷害, 火焰, 法力."
 },
 		id: 29,
 		maxPoints: 1,
@@ -1206,7 +1266,8 @@ Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Potężniejsza Kula Ognia",
 			"ptBR": "Bola de Fogo Superior",
 			"ruRU": "Великий огненный шар",
-			"zhCN": "强效火球"
+			"zhCN": "强效火球",
+			"zhTW": "強效火球"
 },
 		descriptionLocalized: {
 			"deDE": "Feuerball verursacht 10% des Verbrennungsschadens, den Ihr Gegnern zugefügt habt, als zusätzlichen Direktschaden.\n\nTags: Kern, Pyromanie, Schaden, Feuer, Mana.",
@@ -1219,7 +1280,8 @@ Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Kula Ognia zadaje dodatkowo obrażenia bezpośrednie równe 10% obrażeń od podpalenia zadanych przez ciebie wrogom.\n\nTags: Główne, Piromancja, Obrażenia, Ogień, Mana.",
 			"ptBR": "Bola de Fogo causa 10% do dano flamejante causado por você a inimigos como dano direto adicional.\n\nTags: Principal, Piromancia, Dano, Fogo, Mana.",
 			"ruRU": "\"Огненный шар\" дополнительно наносит прямой урон, равный 10% примененного вами к противникам урона от горения.\n\nTags: Основное, Пиромантия, Урон, Огонь, Мана.",
-			"zhCN": "火球造成额外直接伤害, 数值相当于你已对敌人施加的燃烧伤害的 10%。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力."
+			"zhCN": "火球造成额外直接伤害, 数值相当于你已对敌人施加的燃烧伤害的 10%。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力.",
+			"zhTW": "火球會造成額外直接傷害,數值相當於你對敵人所造成燃燒傷害的 10%。\n\nTags: 核心, 焰術, 傷害, 火焰, 法力."
 },
 		id: 30,
 		maxPoints: 1,
@@ -1243,7 +1305,8 @@ Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Destrukcyjna Kula Ognia",
 			"ptBR": "Bola de Fogo Destrutiva",
 			"ruRU": "Разрушительный огненный шар",
-			"zhCN": "毁灭火球"
+			"zhCN": "毁灭火球",
+			"zhTW": "毀滅火球"
 },
 		descriptionLocalized: {
 			"deDE": "Der kritische Trefferschaden der Explosion von Feuerball erhöht sich um +10%. Jeder getroffene Gegner erhöht diesen Bonus um +5%, bis maximal +25%.\n\nTags: Kern, Pyromanie, Schaden, Feuer, Mana.",
@@ -1256,7 +1319,8 @@ Tags: Core, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Obrażenia od trafień krytycznych wybuchem wywołanym przez Kulę Ognia są zwiększone o +10%. Każdy wróg trafiony tą umiejętnością zwiększa premię o +5%, maksymalnie do +25%.\n\nTags: Główne, Piromancja, Obrażenia, Ogień, Mana.",
 			"ptBR": "O dano de acerto crítico da explosão de Bola de Fogo é aumentado em +10%. A cada inimigo atingido, o bônus é aumentado em +5%, até +25% do total.\n\nTags: Principal, Piromancia, Dano, Fogo, Mana.",
 			"ruRU": "Критический урон от взрыва \"Огненного шара\" увеличивается на +10%. За каждого пораженного взрывом противника этот бонус увеличивается на +5% вплоть до +25%.\n\nTags: Основное, Пиромантия, Урон, Огонь, Мана.",
-			"zhCN": "火球爆炸的暴击伤害提高 +10%。每命中一名敌人, 该加成都会提高 +5%, 总计提高最多 +25%。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力."
+			"zhCN": "火球爆炸的暴击伤害提高 +10%。每命中一名敌人, 该加成都会提高 +5%, 总计提高最多 +25%。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力.",
+			"zhTW": "火球爆炸的爆擊傷害提高 +10%。每擊中一個敵人,此加成提高 +5%,最多提高 +25%。\n\nTags: 核心, 焰術, 傷害, 火焰, 法力."
 },
 		id: 31,
 		maxPoints: 1,
@@ -1284,7 +1348,8 @@ Chain Lightning forms automatically after spending 100 Mana.`,
 			"plPL": "Seryjne Błyskawice",
 			"ptBR": "Cadeia de Raios",
 			"ruRU": "Цепная молния",
-			"zhCN": "连锁闪电"
+			"zhCN": "连锁闪电",
+			"zhTW": "連鎖閃電"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 25%\nEntfesselt einen Blitzstoß, der {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Schaden verursacht und bis zu 5-mal auf Euch und Gegner in der Nähe übergeht, wobei Gegner priorisiert werden.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.\n\n— Enchantment Effect —\nKettenblitz bildet sich automatisch, wenn Ihr 100 Mana verbraucht.",
@@ -1297,7 +1362,8 @@ Chain Lightning forms automatically after spending 100 Mana.`,
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 25%\nWyzwalasz strumień błyskawic, który zadaje {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń i przeskakuje pomiędzy pobliskimi wrogami a tobą do 5 razy, koncentrując się na wrogach.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.\n\n— Enchantment Effect —\nSeryjne Błyskawice tworzą się automatycznie po zużyciu 100 pkt. many.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 25%\nLibera uma torrente de raios que causa {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano e ricocheteia entre inimigos próximos e você até 5 vezes, priorizando inimigos.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nCadeia de Raios forma-se automaticamente depois de gastar 100 de mana.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 25%.\nВы выпускаете поток молний, наносящий {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона и перескакивающий между вами и ближайшими противниками до 5 раз, в первую очередь выбирая противников.\n\nTags: Основное, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\n\"Цепная молния\" срабатывает автоматически, когда вы расходуете 100 ед. маны.",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 25%\n施放一道闪电, 造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点伤害, 并最多在你和附近敌人之间连锁弹跳 5 次, 目标优先选择敌人。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n消耗 100 点法力后自动施放连锁闪电。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 25%\n施放一道闪电, 造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点伤害, 并最多在你和附近敌人之间连锁弹跳 5 次, 目标优先选择敌人。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n消耗 100 点法力后自动施放连锁闪电。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:25%\n釋放一股閃電,造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 點傷害,並在你和附近的敵人之間連鎖最多 5 次,優先連鎖敵人。\n\nTags: 核心, 電能, 傷害, 電擊, 法力.\n\n— Enchantment Effect —\n消耗 100 點法力後,自動生成連鎖閃電。"
 },
 		id: 32,
 		maxPoints: 5,
@@ -1322,7 +1388,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Wzmocnione Seryjne Błyskawice",
 			"ptBR": "Cadeia de Raios Aperfeiçoada",
 			"ruRU": "Усиленная цепная молния",
-			"zhCN": "强化连锁闪电"
+			"zhCN": "强化连锁闪电",
+			"zhTW": "強化連鎖閃電"
 },
 		descriptionLocalized: {
 			"deDE": "Kettenblitz erhält eine um +3% erhöhte kritische Trefferchance pro Sprung.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.",
@@ -1335,7 +1402,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Seryjne Błyskawice zyskują premię +3% do szansy na trafienie krytyczne za każde odbicie.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "Cadeia de Raios recebe +3% de acerto crítico aumentado por ricochete.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "С каждым переходом к новой цели вероятность критического удара \"Цепной молнии\" повышается на +3%.\n\nTags: Основное, Шок, Урон, Молния, Мана.",
-			"zhCN": "连锁闪电每次弹跳, 暴击几率提高 +3%。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "连锁闪电每次弹跳, 暴击几率提高 +3%。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "連鎖閃電每次跳躍會提高 +3% 爆擊機率。\n\nTags: 核心, 電能, 傷害, 電擊, 法力."
 },
 		id: 33,
 		maxPoints: 1,
@@ -1359,7 +1427,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Potężniejsze Seryjne Błyskawice",
 			"ptBR": "Cadeia de Raios Superior",
 			"ruRU": "Великая цепная молния",
-			"zhCN": "强效连锁闪电"
+			"zhCN": "强效连锁闪电",
+			"zhTW": "強效連鎖閃電"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Kettenblitz von Euch abspringt, fügt sein nächster Treffer x10% mehr Schaden zu.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.",
@@ -1372,7 +1441,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Jeśli Seryjne Błyskawice przeskoczą od ciebie, ich następne trafienie zada obrażenia zwiększone o x10%.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "Se Cadeia de Raios ricochetear em você, o próximo acerto causa 10% de dano aumentado.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "Когда \"Цепная молния\" переходит к цели от вас, ее следующий разряд наносит на x10% больше урона.\n\nTags: Основное, Шок, Урон, Молния, Мана.",
-			"zhCN": "如果连锁闪电 从你身上跳走, 其下一跳造成的伤害提高 x10%。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "如果连锁闪电 从你身上跳走, 其下一跳造成的伤害提高 x10%。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "若連鎖閃電從你身上彈出,其下次擊中目標時造成的傷害提高 x10%。\n\nTags: 核心, 電能, 傷害, 電擊, 法力."
 },
 		id: 34,
 		maxPoints: 1,
@@ -1396,7 +1466,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Destrukcyjne Seryjne Błyskawice",
 			"ptBR": "Cadeia de Raios Destrutiva",
 			"ruRU": "Разрушительная цепная молния",
-			"zhCN": "毁灭连锁闪电"
+			"zhCN": "毁灭连锁闪电",
+			"zhTW": "毀滅連鎖閃電"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Kettenblitz einen kritischen Treffer erzielt, besteht eine Chance von 25%, Knisternde Energie zu erzeugen.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.",
@@ -1409,7 +1480,8 @@ Tags: Core, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Za każdym razem, gdy Seryjne Błyskawice zadają trafienie krytyczne, istnieje 25% szans na stworzenie Roziskrzonej Energii.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "Quando Cadeia de Raios desfere um acerto crítico, tem 25% de chance de formar uma Energia Crepitante.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "Когда \"Цепная молния\" наносит критический удар, она с вероятностью 25% создает искрящийся заряд энергии.\n\nTags: Основное, Шок, Урон, Молния, Мана.",
-			"zhCN": "连锁闪电 暴击时, 有 25% 几率生成一个爆裂电花。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "连锁闪电 暴击时, 有 25% 几率生成一个爆裂电花。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "連鎖閃電爆擊時,有 25% 機率形成電流能量。\n\nTags: 核心, 電能, 傷害, 電擊, 法力."
 },
 		id: 35,
 		maxPoints: 1,
@@ -1437,7 +1509,8 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 			"plPL": "Lodowe Odłamki",
 			"ptBR": "Estilhaços de Gelo",
 			"ruRU": "Осколки льда",
-			"zhCN": "寒冰碎片"
+			"zhCN": "寒冰碎片",
+			"zhTW": "寒冰裂片"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 16%\nSchleudert 5 Splitter, die jeweils {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden verursachen. Der Schaden gegen eingefrorene Gegner ist um x25% erhöht.\n\nTags: Kern, Frost, Eingefroren, Schaden, Kälte, Mana.\n\n— Enchantment Effect —\nEissplitter bilden sich automatisch und fliegen auf eingefrorene Gegner.",
@@ -1450,7 +1523,8 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 16%\nWystrzeliwujesz odłamki (5), z których każdy zadaje {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń. Zamrożeni wrogowie otrzymują obrażenia zwiększone o x25%.\n\nTags: Główne, Lód, Zamrożenie, Obrażenia, Zimno, Mana.\n\n— Enchantment Effect —\nLodowe Odłamki tworzą się automatycznie i lecą w stronę zamrożonych wrogów.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 16%\nLança 5 estilhaços que causam {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano cada um. Causa 25% de dano aumentado a inimigos congelados.\n\nTags: Principal, Geleira, Congelado, Dano, Gelo, Mana.\n\n— Enchantment Effect —\nEstilhaços de Gelo são conjurados automaticamente e voam na direção dos inimigos congelados.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 16%.\nВы выпускаете 5 осколка:осколков, каждый из которых наносит {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона. \"Осколки льда\" наносят на x25% больше урона замороженным противникам.\n\nTags: Основное, Мороз, Заморозка, Урон, Холод, Мана.\n\n— Enchantment Effect —\n\"Осколки льда\" создаются автоматически и поражают замороженных противников.",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 16%\n射出 5 枚冰片, 每枚造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。对冻结的敌人造成的伤害提高 x25%。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力.\n\n— Enchantment Effect —\n自动召唤寒冰碎片, 并使其飞向冻结的敌人。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 16%\n射出 5 枚冰片, 每枚造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。对冻结的敌人造成的伤害提高 x25%。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力.\n\n— Enchantment Effect —\n自动召唤寒冰碎片, 并使其飞向冻结的敌人。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:16%\n發射 5 個裂片,每個裂片造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。對凍結敵人造成的傷害提高 x25%。\n\nTags: 核心, 冰霜, 凍結, 傷害, 冰寒, 法力.\n\n— Enchantment Effect —\n自動呼喚寒冰裂片,飛向凍結的敵人。"
 },
 		id: 36,
 		maxPoints: 5,
@@ -1475,7 +1549,8 @@ Tags: Core, Frost, Frozen, Damage, Cold, Mana.`,
 			"plPL": "Wzmocnione Lodowe Odłamki",
 			"ptBR": "Estilhaços de Gelo Aperfeiçoados",
 			"ruRU": "Усиленные осколки льда",
-			"zhCN": "强化寒冰碎片"
+			"zhCN": "强化寒冰碎片",
+			"zhTW": "強化寒冰裂片"
 },
 		descriptionLocalized: {
 			"deDE": "Eissplitter verfügt über eine Chance von 40%, zu einem weiteren Gegner zu springen. Eissplitter springt immer von eingefrorenen Gegnern ab.\n\nTags: Kern, Frost, Eingefroren, Schaden, Kälte, Mana.",
@@ -1488,7 +1563,8 @@ Tags: Core, Frost, Frozen, Damage, Cold, Mana.`,
 			"plPL": "Lodowe Odłamki mają 40% szans na zrykoszetowanie do kolejnego wroga. Lodowe Odłamki zawsze rykoszetują od zamrożonych wrogów.\n\nTags: Główne, Lód, Zamrożenie, Obrażenia, Zimno, Mana.",
 			"ptBR": "Estilhaços de Gelo têm 40% de chance de ricochetear para outro inimigo. Estilhaços de Gelo sempre ricocheteiam em inimigos congelados.\n\nTags: Principal, Geleira, Congelado, Dano, Gelo, Mana.",
 			"ruRU": "\"Осколки льда\" с вероятностью 40% рикошетят в другого противника. \"Осколки льда\" всегда рикошетят от замороженных противников.\n\nTags: Основное, Мороз, Заморозка, Урон, Холод, Мана.",
-			"zhCN": "寒冰碎片有 40% 几率弹射向其他敌人。射向冻结敌人的寒冰碎片总是会弹射。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力."
+			"zhCN": "寒冰碎片有 40% 几率弹射向其他敌人。射向冻结敌人的寒冰碎片总是会弹射。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力.",
+			"zhTW": "寒冰裂片有 40% 機率彈射到另一個敵人身上。寒冰裂片在凍結的敵人身上必定彈射。\n\nTags: 核心, 冰霜, 凍結, 傷害, 冰寒, 法力."
 },
 		id: 37,
 		maxPoints: 1,
@@ -1512,7 +1588,8 @@ Tags: Core, Frost, Frozen, Damage, Cold, Mana.`,
 			"plPL": "Potężniejsze Lodowe Odłamki",
 			"ptBR": "Estilhaços de Gelo Superiores",
 			"ruRU": "Великие осколки льда",
-			"zhCN": "强效寒冰碎片"
+			"zhCN": "强效寒冰碎片",
+			"zhTW": "強效寒冰裂片"
 },
 		descriptionLocalized: {
 			"deDE": "Solange eine Barriere aktiv ist, verhält sich Eissplitter, als wären Gegner eingefroren.\n\nTags: Kern, Frost, Eingefroren, Schaden, Kälte, Mana.",
@@ -1525,7 +1602,8 @@ Tags: Core, Frost, Frozen, Damage, Cold, Mana.`,
 			"plPL": "Kiedy masz aktywną barierę, użycie Lodowych Odłamków działa na wrogów tak, jakby byli zamrożeni.\n\nTags: Główne, Lód, Zamrożenie, Obrażenia, Zimno, Mana.",
 			"ptBR": "Enquanto você tiver uma barreira ativa, lançamentos de Estilhaços de Gelo tratam inimigos como se eles estivessem congelados.\n\nTags: Principal, Geleira, Congelado, Dano, Gelo, Mana.",
 			"ruRU": "Пока действует барьер, \"Осколки льда\" действуют на противников так, будто они заморожены.\n\nTags: Основное, Мороз, Заморозка, Урон, Холод, Мана.",
-			"zhCN": "当你有激活的屏障时, 寒冰碎片可以将敌人视作冻结状态。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力."
+			"zhCN": "当你有激活的屏障时, 寒冰碎片可以将敌人视作冻结状态。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力.",
+			"zhTW": "當你有作用中的屏障時,對敵人施放寒冰裂片會視同其已遭到凍結。\n\nTags: 核心, 冰霜, 凍結, 傷害, 冰寒, 法力."
 },
 		id: 38,
 		maxPoints: 1,
@@ -1549,7 +1627,8 @@ Tags: Core, Frost, Frozen, Damage, Cold, Mana.`,
 			"plPL": "Destrukcyjne Lodowe Odłamki",
 			"ptBR": "Estilhaços de Gelo Destrutivos",
 			"ruRU": "Разрушительные осколки льда",
-			"zhCN": "毁灭寒冰碎片"
+			"zhCN": "毁灭寒冰碎片",
+			"zhTW": "毀滅寒冰裂片"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen Gegner mit einem Einsatz von Eissplitter 5-mal trefft, wird dieser 2 Sek. lang verwundbar.\n\nTags: Kern, Frost, Eingefroren, Schaden, Kälte, Mana.",
@@ -1562,7 +1641,8 @@ Tags: Core, Frost, Frozen, Damage, Cold, Mana.`,
 			"plPL": "Wróg trafiony 5 Lodowymi Odłamkami przy jednorazowym użyciu umiejętności staje się odsłonięty na 2 sek.\n\nTags: Główne, Lód, Zamrożenie, Obrażenia, Zimno, Mana.",
 			"ptBR": "Acertar um inimigo com 5 Estilhaços de Gelo em um único lançamento torna-o vulnerável por 2 segundos.\n\nTags: Principal, Geleira, Congelado, Dano, Gelo, Mana.",
 			"ruRU": "Когда \"Осколки льда\" поражают противника 5 раза:раз за одно применение, он становится уязвимым на 2 сек.\n\nTags: Основное, Мороз, Заморозка, Урон, Холод, Мана.",
-			"zhCN": "单次施法中用 5 枚寒冰碎片命中一名敌人, 会使其陷入易伤状态, 持续 2 秒。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力."
+			"zhCN": "单次施法中用 5 枚寒冰碎片命中一名敌人, 会使其陷入易伤状态, 持续 2 秒。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力.",
+			"zhTW": "施放一次寒冰裂片並以 5 塊裂片擊中敵人時,會使其易傷,持續 2 秒。\n\nTags: 核心, 冰霜, 凍結, 傷害, 冰寒, 法力."
 },
 		id: 39,
 		maxPoints: 1,
@@ -1585,7 +1665,8 @@ Tags: Mana.`,
 			"plPL": "Dewastacja",
 			"ptBR": "Devastação",
 			"ruRU": "Опустошение",
-			"zhCN": "灭绝"
+			"zhCN": "灭绝",
+			"zhTW": "破滅"
 },
 		descriptionLocalized: {
 			"deDE": "Euer maximales Mana ist um {3/6/9/12/15/18/21/24/27/30} erhöht.\n\nTags: Mana.",
@@ -1598,7 +1679,8 @@ Tags: Mana.`,
 			"plPL": "Twoja maksymalna mana jest zwiększona o {3/6/9/12/15/18/21/24/27/30} pkt.\n\nTags: Mana.",
 			"ptBR": "Seu mana máximo é aumentado em {3/6/9/12/15/18/21/24/27/30}.\n\nTags: Mana.",
 			"ruRU": "Максимальный запас маны увеличивается на {3/6/9/12/15/18/21/24/27/30} ед.\n\nTags: Мана.",
-			"zhCN": "你的法力上限提高 {3/6/9/12/15/18/21/24/27/30} 点。\n\nTags: 法力."
+			"zhCN": "你的法力上限提高 {3/6/9/12/15/18/21/24/27/30} 点。\n\nTags: 法力.",
+			"zhTW": "你的法力上限提高 {3/6/9/12/15/18/21/24/27/30}。\n\nTags: 法力."
 },
 		id: 40,
 		maxPoints: 3,
@@ -1621,7 +1703,8 @@ Tags: Mana, Damage, Core.`,
 			"plPL": "Panowanie nad Żywiołami",
 			"ptBR": "Dominância Elemental",
 			"ruRU": "Власть над стихиями",
-			"zhCN": "元素统御"
+			"zhCN": "元素统御",
+			"zhTW": "元素主宰"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Kernfertigkeiten verursachen x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden, wenn sie mit mehr als 50 Mana gewirkt werden.\n\nTags: Mana, Schaden, Kern.",
@@ -1634,7 +1717,8 @@ Tags: Mana, Damage, Core.`,
 			"plPL": "Twoje umiejętności Główne zadają obrażenia zwiększone o x{3/6/9/12/15/18/21/24/27/30}%, jeśli podczas ich użycia masz ponad 50 pkt. many.\n\nTags: Mana, Obrażenia, Główne.",
 			"ptBR": "Suas habilidades principais causam {3/6/9/12/15/18/21/24/27/30}% de dano aumentado ao serem lançadas com mais de 50 de mana.\n\nTags: Mana, Dano, Principal.",
 			"ruRU": "Основные умения наносят на x{3/6/9/12/15/18/21/24/27/30}% больше урона, если в момент применения у вас больше 50 ед. маны.\n\nTags: Мана, Урон, Основное.",
-			"zhCN": "法力大于 50 点时, 你施放的核心技能伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 法力, 伤害, 核心."
+			"zhCN": "法力大于 50 点时, 你施放的核心技能伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 法力, 伤害, 核心.",
+			"zhTW": "你在 50 點法力以上施放核心技能時,其造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 法力, 傷害, 核心."
 },
 		id: 41,
 		maxPoints: 3,
@@ -1657,7 +1741,8 @@ Tags: Resistance, Non-Physical.`,
 			"plPL": "Potężny Znak Ochronny",
 			"ptBR": "Proteção Potente",
 			"ruRU": "Надежные обереги",
-			"zhCN": "强效咒护"
+			"zhCN": "强效咒护",
+			"zhTW": "強能結界"
 },
 		descriptionLocalized: {
 			"deDE": "Nach dem Wirken einer Fertigkeit, die keine Basisfertigkeit ist, erhaltet Ihr 3 Sek. lang {2/4/6/8/10/12/14/16/18/20}% Widerstand gegen alle Schadensarten und {1/2/3/4/5/6/7/8/9/10}% zusätzlichen Widerstand gegen die Schadensart dieser Fertigkeit.\n\nTags: Widerstand, Nichtphysisch.",
@@ -1670,7 +1755,8 @@ Tags: Resistance, Non-Physical.`,
 			"plPL": "Po użyciu umiejętności innej niż Podstawowa, zyskujesz premię {2/4/6/8/10/12/14/16/18/20}% do odporności na wszystkie żywioły oraz dodatkowo {1/2/3/4/5/6/7/8/9/10}% do odporności na żywioł tej umiejętności na 3 sek.\n\nTags: Odporność, Niefizyczne.",
 			"ptBR": "Depois de lançar uma habilidade não básica, você recebe {2/4/6/8/10/12/14/16/18/20}% de resistência a todos os elementos e {1/2/3/4/5/6/7/8/9/10}% de resistência adicional para o elemento dessa habilidade por 3 segundos.\n\nTags: Resistência, Não física.",
 			"ruRU": "Когда вы применяете умение, не являющийся базовым, ваше сопротивление всем стихиям повышается на {2/4/6/8/10/12/14/16/18/20}%, а сопротивление стихии этого умения – еще на {1/2/3/4/5/6/7/8/9/10}%. Время действия – 3 сек.\n\nTags: Сопротивление, Нефизический урон.",
-			"zhCN": "施放一个非基础技能后, 你获得 {2/4/6/8/10/12/14/16/18/20}% 全元素抗性和 {1/2/3/4/5/6/7/8/9/10}% 的该技能对应元素抗性, 持续 3 秒。\n\nTags: 抗性, 非物理."
+			"zhCN": "施放一个非基础技能后, 你获得 {2/4/6/8/10/12/14/16/18/20}% 全元素抗性和 {1/2/3/4/5/6/7/8/9/10}% 的该技能对应元素抗性, 持续 3 秒。\n\nTags: 抗性, 非物理.",
+			"zhTW": "施放非基本技能後,你獲得 {2/4/6/8/10/12/14/16/18/20}% 全元素抗性與 {1/2/3/4/5/6/7/8/9/10}% 該技能對應元素的額外抗性,持續 3 秒。\n\nTags: 抗性, 非物理."
 },
 		id: 42,
 		maxPoints: 3,
@@ -1703,7 +1789,8 @@ Flame Shield automatically activates when you take fatal damage. Can only happen
 			"plPL": "Tarcza Płomieni",
 			"ptBR": "Escudo Flamejante",
 			"ruRU": "Пламенный щит",
-			"zhCN": "火盾"
+			"zhCN": "火盾",
+			"zhTW": "火焰護盾"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 35%\nHüllt Euch {2/2.1/2.2/2.3/2.4/2.5/2.6/2.7/2.8/2.9} Sek. lang in Flammen, verbrennt Gegner in der Nähe und fügt ihnen {40/44/48/52/56/60/64/68/72/76}% Schaden pro Sekunde zu.\n\nSolange Flammenschild aktiv ist, seid Ihr immun.\n\nTags: Defensiv, Pyromanie, Immun, Schaden, Verbrennung, Abklingzeit.\n\n— Enchantment Effect —\nFlammenschild aktiviert sich automatisch, wenn Ihr tödlichen Schaden erleidet. Dieser Effekt kann nur einmal alle 120 Sek. auftreten.",
@@ -1716,7 +1803,8 @@ Flame Shield automatically activates when you take fatal damage. Can only happen
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 35%\nSpowijasz się w płomienie na {2/2.1/2.2/2.3/2.4/2.5/2.6/2.7/2.8/2.9} sek. i podpalasz pobliskich wrogów, zadając im {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń na sekundę.\n\nKiedy Tarcza Płomieni jest aktywna, zyskujesz niewrażliwość.\n\nTags: Defensywa, Piromancja, Niewrażliwość, Obrażenia, Podpalenie, Odnowienie.\n\n— Enchantment Effect —\nTarcza Płomieni aktywuje się automatycznie, gdy otrzymujesz śmiertelne obrażenia. Efekt ten może wystąpić tylko raz na 120 sek.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 35%\nEnvolve-se em chamas por {2/2.1/2.2/2.3/2.4/2.5/2.6/2.7/2.8/2.9} segundos, queimando inimigos ao redor e causando {40/44/48/52/56/60/64/68/72/76}% de dano por segundo.\n\nEnquanto Escudo Flamejante está ativo, você fica imune.\n\nTags: Defesa, Piromancia, Imune, Dano, Queimadura, Recarga.\n\n— Enchantment Effect —\nEscudo Flamejante é ativado automaticamente quando você recebe dano fatal. Só pode ocorrer uma vez a cada 120 segundos.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 35%.\nВы окутываете себя пламенем на {2/2.1/2.2/2.3/2.4/2.5/2.6/2.7/2.8/2.9} сек. и поджигаете противников вокруг, нанося {40/44/48/52/56/60/64/68/72/76}% ед. урона от огня в секунду.\n\nПока действует \"Пламенный щит\", вы невосприимчивы.\n\nTags: Защита, Пиромантия, Невосприимчивость, Урон, Горение, Время восстановления.\n\n— Enchantment Effect —\n\"Пламенный щит\" срабатывает автоматически, когда вы получаете смертельный урон. Срабатывает не чаще раза в 120 сек.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 35%\n用火焰笼罩你的身体, 持续 {2/2.1/2.2/2.3/2.4/2.5/2.6/2.7/2.8/2.9} 秒, 同时燃烧周围的敌人, 每秒造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\n在火盾激活时, 你获得免疫。\n\nTags: 防御, 爆焰, 免疫, 伤害, 燃烧, 冷却时间.\n\n— Enchantment Effect —\n火盾会在受到致命伤害时自动激活。每 120 秒只能触发一次。"
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 35%\n用火焰笼罩你的身体, 持续 {2/2.1/2.2/2.3/2.4/2.5/2.6/2.7/2.8/2.9} 秒, 同时燃烧周围的敌人, 每秒造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\n在火盾激活时, 你获得免疫。\n\nTags: 防御, 爆焰, 免疫, 伤害, 燃烧, 冷却时间.\n\n— Enchantment Effect —\n火盾会在受到致命伤害时自动激活。每 120 秒只能触发一次。",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:35%\n以火焰包覆自己 {2/2.1/2.2/2.3/2.4/2.5/2.6/2.7/2.8/2.9} 秒,燃燒附近的敵人,每秒造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害。\n\n你在火焰護盾持續期間免疫。\n\nTags: 防禦, 焰術, 免疫, 傷害, 燃燒, 冷卻時間.\n\n— Enchantment Effect —\n當你受到致命傷害時,火焰護盾會自動啟動。每 120 秒只能獲得一次。"
 },
 		id: 43,
 		maxPoints: 5,
@@ -1741,7 +1829,8 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 			"plPL": "Wzmocniona Tarcza Płomieni",
 			"ptBR": "Escudo Flamejante Aperfeiçoado",
 			"ruRU": "Усиленный пламенный щит",
-			"zhCN": "强化火盾"
+			"zhCN": "强化火盾",
+			"zhTW": "強化火焰護盾"
 },
 		descriptionLocalized: {
 			"deDE": "Flammenschild erhöht die Bewegungsgeschwindigkeit um +25%, solange die Fertigkeit aktiv ist.\n\nTags: Defensiv, Pyromanie, Immun, Schaden, Verbrennung, Abklingzeit.",
@@ -1754,7 +1843,8 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 			"plPL": "Kiedy Tarcza Płomieni jest aktywna, zapewnia premię +25% do szybkości ruchu.\n\nTags: Defensywa, Piromancja, Niewrażliwość, Obrażenia, Podpalenie, Odnowienie.",
 			"ptBR": "Escudo Flamejante concede +25% de velocidade de movimento enquanto ativo.\n\nTags: Defesa, Piromancia, Imune, Dano, Queimadura, Recarga.",
 			"ruRU": "\"Пламенный щит\" повышает скорость передвижения на +25%.\n\nTags: Защита, Пиромантия, Невосприимчивость, Урон, Горение, Время восстановления.",
-			"zhCN": "火盾激活时, 移动速度提高 +25%。\n\nTags: 防御, 爆焰, 免疫, 伤害, 燃烧, 冷却时间."
+			"zhCN": "火盾激活时, 移动速度提高 +25%。\n\nTags: 防御, 爆焰, 免疫, 伤害, 燃烧, 冷却时间.",
+			"zhTW": "在火焰護盾啟動期間賦予 +25% 移動速度。\n\nTags: 防禦, 焰術, 免疫, 傷害, 燃燒, 冷卻時間."
 },
 		id: 44,
 		maxPoints: 1,
@@ -1778,7 +1868,8 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 			"plPL": "Mistyczna Tarcza Płomieni",
 			"ptBR": "Escudo Flamejante Místico",
 			"ruRU": "Таинственный пламенный щит",
-			"zhCN": "神秘火盾"
+			"zhCN": "神秘火盾",
+			"zhTW": "神秘火焰護盾"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr erhaltet 25% Manakostenreduktion, während Flammenschild aktiv ist.\n\nTags: Defensiv, Pyromanie, Immun, Schaden, Verbrennung, Abklingzeit.",
@@ -1791,7 +1882,8 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 			"plPL": "Kiedy Tarcza Płomieni jest aktywna, zyskujesz premię 25% do redukcji kosztu many.\n\nTags: Defensywa, Piromancja, Niewrażliwość, Obrażenia, Podpalenie, Odnowienie.",
 			"ptBR": "Você recebe 25% de redução do custo de mana enquanto Escudo Flamejante está ativo.\n\nTags: Defesa, Piromancia, Imune, Dano, Queimadura, Recarga.",
 			"ruRU": "Пока действует \"Пламенный щит\", все затраты маны уменьшаются на 25%.\n\nTags: Защита, Пиромантия, Невосприимчивость, Урон, Горение, Время восстановления.",
-			"zhCN": "火盾激活时, 你获得 25% 法力消耗减免。\n\nTags: 防御, 爆焰, 免疫, 伤害, 燃烧, 冷却时间."
+			"zhCN": "火盾激活时, 你获得 25% 法力消耗减免。\n\nTags: 防御, 爆焰, 免疫, 伤害, 燃烧, 冷却时间.",
+			"zhTW": "火焰護盾持續期間,你的法力消耗降低 25%。\n\nTags: 防禦, 焰術, 免疫, 傷害, 燃燒, 冷卻時間."
 },
 		id: 45,
 		maxPoints: 1,
@@ -1815,7 +1907,8 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 			"plPL": "Lśniąca Tarcza Płomieni",
 			"ptBR": "Escudo Flamejante Reluzente",
 			"ruRU": "Переливчатый пламенный щит",
-			"zhCN": "微光火盾"
+			"zhCN": "微光火盾",
+			"zhTW": "閃耀火焰護盾"
 },
 		descriptionLocalized: {
 			"deDE": "Flammenschild heilt Euch um 50% Eures verlorenen Lebens.\n\nTags: Defensiv, Pyromanie, Immun, Schaden, Verbrennung, Abklingzeit.",
@@ -1828,7 +1921,8 @@ Tags: Defensive, Pyromancy, Immune, Damage, Burn, Cooldown.`,
 			"plPL": "Tarcza Płomieni przywraca ci równowartość 50% brakujących punktów zdrowia.\n\nTags: Defensywa, Piromancja, Niewrażliwość, Obrażenia, Podpalenie, Odnowienie.",
 			"ptBR": "Escudo Flamejante cura 50% da sua vida perdida.\n\nTags: Defesa, Piromancia, Imune, Dano, Queimadura, Recarga.",
 			"ruRU": "\"Пламенный щит\" восполняет вам 50% недостающего здоровья.\n\nTags: Защита, Пиромантия, Невосприимчивость, Урон, Горение, Время восстановления.",
-			"zhCN": "火盾会为你恢复已损失生命的 50%。\n\nTags: 防御, 爆焰, 免疫, 伤害, 燃烧, 冷却时间."
+			"zhCN": "火盾会为你恢复已损失生命的 50%。\n\nTags: 防御, 爆焰, 免疫, 伤害, 燃烧, 冷却时间.",
+			"zhTW": "火焰護盾會為你恢復失去生命值的 50%。\n\nTags: 防禦, 焰術, 免疫, 傷害, 燃燒, 冷卻時間."
 },
 		id: 46,
 		maxPoints: 1,
@@ -1855,7 +1949,8 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"plPL": "Nova Mrozu",
 			"ptBR": "Nova Gélida",
 			"ruRU": "Кольцо льда",
-			"zhCN": "冰霜新星"
+			"zhCN": "冰霜新星",
+			"zhTW": "冰霜新星"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\n\nEntfesselt einen Froststrom, der Gegner um Euch herum 3 Sek. lang einfriert.\n\nTags: Defensiv, Frost, Eingefroren, Kontrollverlust, Abklingzeit.\n\n— Enchantment Effect —\nGlückstreffer: Eure Beschwörungsfertigkeiten haben eine Chance von bis zu 30%, bei einem Treffer eine Frostnova auszulösen.",
@@ -1868,7 +1963,8 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"plPL": "Czas odnowienia: {#} sek.\n\nWyzwalasz mroźną nawałnicę, która zamraża wrogów wokół ciebie na 3 sek.\n\nTags: Defensywa, Lód, Zamrożenie, Ograniczanie Kontroli, Odnowienie.\n\n— Enchantment Effect —\nSzczęśliwy traf: Twoje umiejętności Przyzywania mają 30% szans na wyzwolenie Novy Mrozu przy trafieniu wroga.",
 			"ptBR": "Recarga: {#} segundos\n\nLibera uma torrente de gelo, congelando inimigos ao seu redor por 3 segundos.\n\nTags: Defesa, Geleira, Congelado, Controle de Grupo, Recarga.\n\n— Enchantment Effect —\nGolpe de Sorte: Suas habilidades de Conjuração têm até 30% de chance de lançar uma Nova Gélida ao atingir inimigos.",
 			"ruRU": "Время восстановления: {#} сек.\n\nВы выпускаете поток холода, замораживающий находящихся вокруг противников на 3 сек.\n\nTags: Защита, Мороз, Заморозка, Контроль, Время восстановления.\n\n— Enchantment Effect —\nУдачный удар: когда умения категории \"Колдовство\" поражают противников, с вероятностью до 30% срабатывает \"Кольцо льда\".",
-			"zhCN": "冷却时间: {#} 秒\n\n释放一股冰霜洪流, 冻结周围的敌人, 持续 3 秒。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间.\n\n— Enchantment Effect —\n幸运一击: 你的召唤魔法技能在命中敌人时最多有 30% 几率释放一次冰霜新星。"
+			"zhCN": "冷却时间: {#} 秒\n\n释放一股冰霜洪流, 冻结周围的敌人, 持续 3 秒。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间.\n\n— Enchantment Effect —\n幸运一击: 你的召唤魔法技能在命中敌人时最多有 30% 几率释放一次冰霜新星。",
+			"zhTW": "冷卻時間:{#} 秒\n\n散發一股強烈的冰霜能量,凍結附近的敵人,持續 3 秒。\n\nTags: 防禦, 冰霜, 凍結, 控場, 冷卻時間.\n\n— Enchantment Effect —\n幸運觸發:你的咒喚技能擊中敵人時,有最多 30% 的機率放出冰霜新星。"
 },
 		id: 47,
 		maxPoints: 5,
@@ -1893,7 +1989,8 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.`,
 			"plPL": "Wzmocniona Nova Mrozu",
 			"ptBR": "Nova Gélida Aperfeiçoada",
 			"ruRU": "Усиленное кольцо льда",
-			"zhCN": "强化冰霜新星"
+			"zhCN": "强化冰霜新星",
+			"zhTW": "強化冰霜新星"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Gegner tötet, die von Frostnova eingefroren wurden, wird die Abklingzeit um 1 Sek. reduziert, bis maximal 4 Sek. pro Einsatz.\n\nTags: Defensiv, Frost, Eingefroren, Kontrollverlust, Abklingzeit.",
@@ -1906,7 +2003,8 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.`,
 			"plPL": "Zabijanie wrogów zamrożonych Novą Mrozu skraca jej czas odnowienia o 1 sek., maksymalnie do 4 sek. za każde użycie umiejętności.\n\nTags: Defensywa, Lód, Zamrożenie, Ograniczanie Kontroli, Odnowienie.",
 			"ptBR": "Matar inimigos congelados por Nova Gélida reduz a recarga em 1 segundos, até 4 segundos por lançamento.\n\nTags: Defesa, Geleira, Congelado, Controle de Grupo, Recarga.",
 			"ruRU": "Когда вы убиваете противников, замороженных \"Кольцом льда\", время восстановления умения сокращается на 1 сек. вплоть до 4 сек. за применение.\n\nTags: Защита, Мороз, Заморозка, Контроль, Время восстановления.",
-			"zhCN": "消灭被冰霜新星冻结的敌人会使其冷却时间缩短 1 秒, 每次施放最多缩短 4 秒。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间."
+			"zhCN": "消灭被冰霜新星冻结的敌人会使其冷却时间缩短 1 秒, 每次施放最多缩短 4 秒。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间.",
+			"zhTW": "擊殺被冰霜新星凍結的敵人時,會使其冷卻時間降低 1 秒,每次施法最多降低 4 秒。\n\nTags: 防禦, 冰霜, 凍結, 控場, 冷卻時間."
 },
 		id: 48,
 		maxPoints: 1,
@@ -1930,7 +2028,8 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.`,
 			"plPL": "Mistyczna Nova Mrozu",
 			"ptBR": "Nova Gélida Mística",
 			"ruRU": "Таинственное кольцо льда",
-			"zhCN": "神秘冰霜新星"
+			"zhCN": "神秘冰霜新星",
+			"zhTW": "神秘冰霜新星"
 },
 		descriptionLocalized: {
 			"deDE": "Frostnova macht Gegner 4 Sek. lang und Bosse 6 Sek. lang verwundbar.\n\nTags: Defensiv, Frost, Eingefroren, Kontrollverlust, Abklingzeit.",
@@ -1943,7 +2042,8 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.`,
 			"plPL": "Nova Mrozu sprawia, że wrogowie są odsłonięci przez 4 sek. W przypadku bossów efekt ten trwa 6 sek.\n\nTags: Defensywa, Lód, Zamrożenie, Ograniczanie Kontroli, Odnowienie.",
 			"ptBR": "Nova Gélida torna os inimigos vulneráveis por 4 segundos. A duração é aumentada para 6 segundos contra chefes.\n\nTags: Defesa, Geleira, Congelado, Controle de Grupo, Recarga.",
 			"ruRU": "\"Кольцо льда\" делает противников уязвимыми на 4 сек. Действие эффекта продлевается до 6 сек., если цель является боссом.\n\nTags: Защита, Мороз, Заморозка, Контроль, Время восстановления.",
-			"zhCN": "冰霜新星会使敌人陷入易伤状态, 持续 4 秒。对首领提高至 6 秒。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间."
+			"zhCN": "冰霜新星会使敌人陷入易伤状态, 持续 4 秒。对首领提高至 6 秒。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间.",
+			"zhTW": "冰霜新星使敵人易傷,持續 4 秒。對首領持續時間提高為 6 秒。\n\nTags: 防禦, 冰霜, 凍結, 控場, 冷卻時間."
 },
 		id: 49,
 		maxPoints: 1,
@@ -1967,7 +2067,8 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.`,
 			"plPL": "Lśniąca Nova Mrozu",
 			"ptBR": "Nova Gélida Reluzente",
 			"ruRU": "Переливчатое кольцо льда",
-			"zhCN": "微光冰霜新星"
+			"zhCN": "微光冰霜新星",
+			"zhTW": "閃耀冰霜新星"
 },
 		descriptionLocalized: {
 			"deDE": "Frostnova erzeugt pro getroffenem Gegner 4 Mana.\n\nTags: Defensiv, Frost, Eingefroren, Kontrollverlust, Abklingzeit.",
@@ -1980,7 +2081,8 @@ Tags: Defensive, Frost, Frozen, Crowd Control, Cooldown.`,
 			"plPL": "Nova Mrozu generuje 4 pkt. many za każdego trafionego wroga.\n\nTags: Defensywa, Lód, Zamrożenie, Ograniczanie Kontroli, Odnowienie.",
 			"ptBR": "Nova Gélida gera 4 de mana por inimigo atingido.\n\nTags: Defesa, Geleira, Congelado, Controle de Grupo, Recarga.",
 			"ruRU": "\"Кольцо льда\" дает 4 ед. маны за каждого пораженного противника.\n\nTags: Защита, Мороз, Заморозка, Контроль, Время восстановления.",
-			"zhCN": "冰霜新星每命中一名敌人, 都会生成 4 点法力。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间."
+			"zhCN": "冰霜新星每命中一名敌人, 都会生成 4 点法力。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间.",
+			"zhTW": "每擊中一個敵人,冰霜新星產生 4 點法力。\n\nTags: 防禦, 冰霜, 凍結, 控場, 冷卻時間."
 },
 		id: 50,
 		maxPoints: 1,
@@ -2007,7 +2109,8 @@ Upon getting hit, you have a 5% chance to apply Ice Armor.`,
 			"plPL": "Pancerz Lodu",
 			"ptBR": "Armadura Gélida",
 			"ruRU": "Ледяной доспех",
-			"zhCN": "寒冰甲"
+			"zhCN": "寒冰甲",
+			"zhTW": "寒冰護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nUm Euch bildet sich 6 Sek. lang eine Eisbarriere, die Schaden in Höhe von {#}% Eures Basislebens absorbiert. Während Eisrüstung aktiv ist, wird 5% Eures verursachten Schadens der Barriere hinzugefügt.\n\nTags: Defensiv, Frost, Barriere, Abklingzeit, Schaden.\n\n— Enchantment Effect —\nWenn Ihr getroffen werdet, verfügt Ihr über eine Chance von 5%, Eisrüstung anzuwenden.",
@@ -2020,7 +2123,8 @@ Upon getting hit, you have a 5% chance to apply Ice Armor.`,
 			"plPL": "Czas odnowienia: {#} sek.\nWyrasta wokół ciebie lodowa bariera, która utrzymuje się przez 6 sek. i pochłania obrażenia równe {#}% twojego podstawowego zdrowia. Kiedy Pancerz Lodu jest aktywny, równowartość 5% zadawanych przez ciebie obrażeń dodawana jest do tej bariery.\n\nTags: Defensywa, Lód, Bariera, Odnowienie, Obrażenia.\n\n— Enchantment Effect —\nJeśli staniesz się celem ataku, masz 5% szans na użycie Pancerza Lodu.",
 			"ptBR": "Recarga: {#} segundos\nUma barreira de gelo forma-se ao seu redor por 6 segundos, absorvendo {#}% da sua vida básica em dano. Enquanto Armadura Gélida estiver ativa, 5% do dano causado por você é adicionado à barreira.\n\nTags: Defesa, Geleira, Barreira, Recarga, Dano.\n\n— Enchantment Effect —\nAo receber um golpe, você tem 5% de chance de aplicar Armadura Gélida.",
 			"ruRU": "Время восстановления: {#} сек.\nВас на 6 сек. окружает ледяной барьер, поглощающий урон в объеме {#}% базового запаса здоровья. Пока действует \"Ледяной доспех\", 5% наносимого вами урона укрепляет барьер.\n\nTags: Защита, Мороз, Барьер, Время восстановления, Урон.\n\n— Enchantment Effect —\nКогда вы получаете урон, с вероятностью 5% срабатывает \"Ледяной доспех\".",
-			"zhCN": "冷却时间: {#} 秒\n在你周围形成一个由寒冰形成的屏障, 持续 6 秒, 吸收相当于你基础生命 {#}%的伤害。寒冰甲激活时, 你造成伤害的 5%会被添加到屏障当中。\n\nTags: 防御, 寒霜, 屏障, 冷却时间, 伤害.\n\n— Enchantment Effect —\n被命中时, 你有 5% 的几率施加寒冰甲。"
+			"zhCN": "冷却时间: {#} 秒\n在你周围形成一个由寒冰形成的屏障, 持续 6 秒, 吸收相当于你基础生命 {#}%的伤害。寒冰甲激活时, 你造成伤害的 5%会被添加到屏障当中。\n\nTags: 防御, 寒霜, 屏障, 冷却时间, 伤害.\n\n— Enchantment Effect —\n被命中时, 你有 5% 的几率施加寒冰甲。",
+			"zhTW": "冷卻時間:{#} 秒\n在你身邊形成寒冰屏障,持續 6 秒,吸收相當於 {#}% 基礎生命值的傷害。寒冰護甲啟用時,你所造成傷害的 5% 會累積至其屏障上。\n\nTags: 防禦, 冰霜, 屏障, 冷卻時間, 傷害.\n\n— Enchantment Effect —\n當你被擊中時,有 5% 機率獲得寒冰護甲。"
 },
 		id: 51,
 		maxPoints: 5,
@@ -2045,7 +2149,8 @@ Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 			"plPL": "Wzmocniony Pancerz Lodu",
 			"ptBR": "Armadura Gélida Aperfeiçoada",
 			"ruRU": "Усиленный ледяной доспех",
-			"zhCN": "强化寒冰甲"
+			"zhCN": "强化寒冰甲",
+			"zhTW": "強化寒冰護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Eisrüstung aktiv ist, ist Eure Manaregeneration um x25% erhöht.\n\nTags: Defensiv, Frost, Barriere, Abklingzeit, Schaden.",
@@ -2058,7 +2163,8 @@ Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 			"plPL": "Kiedy Pancerz Lodu jest aktywny, masz regenerację many powiększoną o x25%.\n\nTags: Defensywa, Lód, Bariera, Odnowienie, Obrażenia.",
 			"ptBR": "Enquanto Armadura Gélida estiver ativa, sua regeneração de mana é aumentada em 25%.\n\nTags: Defesa, Geleira, Barreira, Recarga, Dano.",
 			"ruRU": "\"Ледяной доспех\" повышает скорость восстановления маны на x25%.\n\nTags: Защита, Мороз, Барьер, Время восстановления, Урон.",
-			"zhCN": "寒冰甲激活时, 你的法力回复速度提高 x25%。\n\nTags: 防御, 寒霜, 屏障, 冷却时间, 伤害."
+			"zhCN": "寒冰甲激活时, 你的法力回复速度提高 x25%。\n\nTags: 防御, 寒霜, 屏障, 冷却时间, 伤害.",
+			"zhTW": "寒冰護甲持續期間,你的法力恢復提高 x25%。\n\nTags: 防禦, 冰霜, 屏障, 冷卻時間, 傷害."
 },
 		id: 52,
 		maxPoints: 1,
@@ -2082,7 +2188,8 @@ Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 			"plPL": "Lśniący Pancerz Lodu",
 			"ptBR": "Armadura Gélida Reluzente",
 			"ruRU": "Переливчатый ледяной доспех",
-			"zhCN": "微光寒冰甲"
+			"zhCN": "微光寒冰甲",
+			"zhTW": "閃耀寒冰護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Gegner Euch treffen, während Eisrüstung aktiv ist, besteht eine Chance von 15%, dass sie 3 Sek. lang eingefroren werden.\n\nTags: Defensiv, Frost, Barriere, Abklingzeit, Schaden.",
@@ -2095,7 +2202,8 @@ Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 			"plPL": "Istnieje 15% szans na to, że wrogowie, których ataki trafią cię w czasie działania Pancerza Lodu, zostaną zamrożeni na 3 sek.\n\nTags: Defensywa, Lód, Bariera, Odnowienie, Obrażenia.",
 			"ptBR": "Inimigos que atingirem você enquanto Armadura Gélida estiver ativa têm 15% de chance de serem congelados por 3 segundos.\n\nTags: Defesa, Geleira, Barreira, Recarga, Dano.",
 			"ruRU": "Противники, атакующие вас, пока действует \"Ледяной доспех\", с вероятностью 15% замораживаются на 3 сек.\n\nTags: Защита, Мороз, Барьер, Время восстановления, Урон.",
-			"zhCN": "寒冰甲激活时, 攻击你的敌人有 15% 几率被冻结 3 秒。\n\nTags: 防御, 寒霜, 屏障, 冷却时间, 伤害."
+			"zhCN": "寒冰甲激活时, 攻击你的敌人有 15% 几率被冻结 3 秒。\n\nTags: 防御, 寒霜, 屏障, 冷却时间, 伤害.",
+			"zhTW": "敵人在寒冰護甲生效期間擊中你時,有 15% 機率遭到凍結 3 秒。\n\nTags: 防禦, 冰霜, 屏障, 冷卻時間, 傷害."
 },
 		id: 53,
 		maxPoints: 1,
@@ -2119,7 +2227,8 @@ Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 			"plPL": "Mistyczny Pancerz Lodu",
 			"ptBR": "Armadura Gélida Mística",
 			"ruRU": "Таинственный ледяной доспех",
-			"zhCN": "神秘寒冰甲"
+			"zhCN": "神秘寒冰甲",
+			"zhTW": "神秘寒冰護甲"
 },
 		descriptionLocalized: {
 			"deDE": "Schaden gegen verwundbare Gegner trägt 50% mehr zur Barriere von Eisrüstung bei.\n\nTags: Defensiv, Frost, Barriere, Abklingzeit, Schaden.",
@@ -2132,7 +2241,8 @@ Tags: Defensive, Frost, Barrier, Cooldown, Damage.`,
 			"plPL": "Obrażenia zadawane odsłoniętym wrogom zapewniają o 50% mocniejszą barierę za Pancerz Lodu.\n\nTags: Defensywa, Lód, Bariera, Odnowienie, Obrażenia.",
 			"ptBR": "Dano contra inimigos vulneráveis contribui 50% a mais para a barreira de Armadura de Gelo.\n\nTags: Defesa, Geleira, Barreira, Recarga, Dano.",
 			"ruRU": "Урон, который вы наносите уязвимым противникам, укрепляет барьер \"Ледяного доспеха\" с увеличенной на 50% эффективностью.\n\nTags: Защита, Мороз, Барьер, Время восстановления, Урон.",
-			"zhCN": "对易伤状态的敌人造成的伤害会额外为寒冰甲提供 50% 的屏障。\n\nTags: 防御, 寒霜, 屏障, 冷却时间, 伤害."
+			"zhCN": "对易伤状态的敌人造成的伤害会额外为寒冰甲提供 50% 的屏障。\n\nTags: 防御, 寒霜, 屏障, 冷却时间, 伤害.",
+			"zhTW": "對易傷敵人造成傷害會使寒冰護甲額外產生 50% 屏障。\n\nTags: 防禦, 冰霜, 屏障, 冷卻時間, 傷害."
 },
 		id: 54,
 		maxPoints: 1,
@@ -2160,7 +2270,8 @@ Evade is replaced with a short range Teleport on a {17/16.15/15.3/14.62/13.94/13
 			"plPL": "Teleportacja",
 			"ptBR": "Teleporte",
 			"ruRU": "Телепортация",
-			"zhCN": "传送术"
+			"zhCN": "传送术",
+			"zhTW": "傳送術"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 65%\nVerwandelt Euch in einen Blitz und werdet unaufhaltsam. Ihr schnellt zum Zielort und verursacht bei der Ankunft {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden um Euch herum.\n\nTags: Defensiv, Schock, Schaden, Blitz, Abklingzeit, Unaufhaltsam.\n\n— Enchantment Effect —\nEntrinnen wird durch eine Teleportation mit kurzer Reichweite und einer Abklingzeit von {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} Sek. ersetzt.",
@@ -2173,7 +2284,8 @@ Evade is replaced with a short range Teleport on a {17/16.15/15.3/14.62/13.94/13
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 65%\nPrzemieniasz się w błyskawicę, zyskujesz nieustępliwość i doskakujesz we wskazane miejsce, po czym zadajesz tam wokół siebie {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń.\n\nTags: Defensywa, Porażenie, Obrażenia, Błyskawica, Odnowienie, Nieustępliwość.\n\n— Enchantment Effect —\nOdskok zostaje zastąpiony Teleportacją na niewielką odległość, któej czas odnowienia wynosi {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} sek.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 65%\nTransforma-se em um raio, tornando-se implacável, avançando até o local selecionado e causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano ao seu redor ao chegar.\n\nTags: Defesa, Choque, Dano, Eletricidade, Recarga, Implacável.\n\n— Enchantment Effect —\nEvadir é substituída por Teleporte de curto alcance com uma recarga de {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} segundos.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 65%.\nВы превращаетесь в поток электричества, получаете неудержимость, устремляетесь в указанную область и по прибытии наносите {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона целям вокруг себя.\n\nTags: Защита, Шок, Урон, Молния, Время восстановления, Неудержимость.\n\n— Enchantment Effect —\n\"Ускользание\" заменяется \"Телепортацией\" с малым радиусом действия и временем восстановления {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} сек.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 65%\n化身闪电, 不可阻挡, 涌向目标位置并在抵达时对附近造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n\nTags: 防御, 电冲, 伤害, 闪电, 冷却时间, 不可阻挡.\n\n— Enchantment Effect —\n闪避被短距离传送术 取代, 拥有 {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} 秒的冷却时间。"
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 65%\n化身闪电, 不可阻挡, 涌向目标位置并在抵达时对附近造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n\nTags: 防御, 电冲, 伤害, 闪电, 冷却时间, 不可阻挡.\n\n— Enchantment Effect —\n闪避被短距离传送术 取代, 拥有 {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} 秒的冷却时间。",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:65%\n化身為閃電,進入無阻狀態,並以迅雷之勢前往指定地點。對抵達處附近造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。\n\nTags: 防禦, 電能, 傷害, 電擊, 冷卻時間, 無阻.\n\n— Enchantment Effect —\n閃避改為短距離的傳送術,有 {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} 秒冷卻時間。"
 },
 		id: 55,
 		maxPoints: 5,
@@ -2198,7 +2310,8 @@ Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.`,
 			"plPL": "Wzmocniona Teleportacja",
 			"ptBR": "Teleporte Aperfeiçoado",
 			"ruRU": "Усиленная телепортация",
-			"zhCN": "强化传送术"
+			"zhCN": "强化传送术",
+			"zhTW": "強化傳送術"
 },
 		descriptionLocalized: {
 			"deDE": "Die Abklingzeit von Teleportation wird pro getroffenem Gegner um 0.5 Sek. reduziert, bis maximal 3 Sek.\n\nTags: Defensiv, Schock, Schaden, Blitz, Abklingzeit, Unaufhaltsam.",
@@ -2211,7 +2324,8 @@ Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.`,
 			"plPL": "Czas odnowienia Teleportacji jest skrócony o 0.5 sek. za każdego trafionego wroga, maksymalnie do 3 sek.\n\nTags: Defensywa, Porażenie, Obrażenia, Błyskawica, Odnowienie, Nieustępliwość.",
 			"ptBR": "A recarga de Teleporte é reduzida em 0.5 segundos por inimigo atingido, até 3 segundos.\n\nTags: Defesa, Choque, Dano, Eletricidade, Recarga, Implacável.",
 			"ruRU": "Время восстановления \"Телепортации\" сокращается на 0.5 сек. за каждого пораженного противника вплоть до 3 сек.\n\nTags: Защита, Шок, Урон, Молния, Время восстановления, Неудержимость.",
-			"zhCN": "传送术每命中一名敌人, 其冷却时间就会缩短 0.5 秒, 最多缩短 3 秒。\n\nTags: 防御, 电冲, 伤害, 闪电, 冷却时间, 不可阻挡."
+			"zhCN": "传送术每命中一名敌人, 其冷却时间就会缩短 0.5 秒, 最多缩短 3 秒。\n\nTags: 防御, 电冲, 伤害, 闪电, 冷却时间, 不可阻挡.",
+			"zhTW": "每擊中一個敵人可使傳送術的冷卻時間縮短 0.5 秒,上限為 3 秒。\n\nTags: 防禦, 電能, 傷害, 電擊, 冷卻時間, 無阻."
 },
 		id: 56,
 		maxPoints: 1,
@@ -2235,7 +2349,8 @@ Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.`,
 			"plPL": "Mistyczna Teleportacja",
 			"ptBR": "Teleporte Místico",
 			"ruRU": "Таинственная телепортация",
-			"zhCN": "神秘传送术"
+			"zhCN": "神秘传送术",
+			"zhTW": "神秘傳送術"
 },
 		descriptionLocalized: {
 			"deDE": "Nach der Teleportation trifft Knisternde Energie 4 Sek. lang 2 zusätzliche Gegner.\n\nTags: Defensiv, Schock, Schaden, Blitz, Abklingzeit, Unaufhaltsam.",
@@ -2248,7 +2363,8 @@ Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.`,
 			"plPL": "Przez 4 sek. po Teleportacji Roziskrzona Energia trafia 2 dodatkowych wrogów.\n\nTags: Defensywa, Porażenie, Obrażenia, Błyskawica, Odnowienie, Nieustępliwość.",
 			"ptBR": "Por 4 segundos depois de Teleporte, Energia Crepitante atinge 2 inimigos adicionais.\n\nTags: Defesa, Choque, Dano, Eletricidade, Recarga, Implacável.",
 			"ruRU": "В течение 4 сек. после телепортации искрящиеся заряды энергии поражают еще 2 противников:противников.\n\nTags: Защита, Шок, Урон, Молния, Время восстановления, Неудержимость.",
-			"zhCN": "使用传送术后的 4 秒内, 爆裂电花额外命中 2 名敌人。\n\nTags: 防御, 电冲, 伤害, 闪电, 冷却时间, 不可阻挡."
+			"zhCN": "使用传送术后的 4 秒内, 爆裂电花额外命中 2 名敌人。\n\nTags: 防御, 电冲, 伤害, 闪电, 冷却时间, 不可阻挡.",
+			"zhTW": "傳送後 4 秒內電流能量會擊中 2 個額外的敵人。\n\nTags: 防禦, 電能, 傷害, 電擊, 冷卻時間, 無阻."
 },
 		id: 57,
 		maxPoints: 1,
@@ -2272,7 +2388,8 @@ Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.`,
 			"plPL": "Lśniąca Teleportacja",
 			"ptBR": "Teleporte Reluzente",
 			"ruRU": "Переливчатая телепортация",
-			"zhCN": "微光传送术"
+			"zhCN": "微光传送术",
+			"zhTW": "閃耀傳送術"
 },
 		descriptionLocalized: {
 			"deDE": "Nach der Teleportation erhaltet Ihr 5 Sek. lang 30% Schadensreduktion.\n\nTags: Defensiv, Schock, Schaden, Blitz, Abklingzeit, Unaufhaltsam.",
@@ -2285,7 +2402,8 @@ Tags: Defensive, Shock, Damage, Lightning, Cooldown, Unstoppable.`,
 			"plPL": "Po Teleportacji zyskujesz premię 30% do redukcji obrażeń na 5 sek.\n\nTags: Defensywa, Porażenie, Obrażenia, Błyskawica, Odnowienie, Nieustępliwość.",
 			"ptBR": "Após o Teleporte, você recebe 30% de redução de dano por 5 segundos.\n\nTags: Defesa, Choque, Dano, Eletricidade, Recarga, Implacável.",
 			"ruRU": "После телепортации вы получаете на 30% меньше урона в течение 5 сек.\n\nTags: Защита, Шок, Урон, Молния, Время восстановления, Неудержимость.",
-			"zhCN": "传送后, 你获得 30% 的伤害减免, 持续 5 秒。\n\nTags: 防御, 电冲, 伤害, 闪电, 冷却时间, 不可阻挡."
+			"zhCN": "传送后, 你获得 30% 的伤害减免, 持续 5 秒。\n\nTags: 防御, 电冲, 伤害, 闪电, 冷却时间, 不可阻挡.",
+			"zhTW": "傳送後,你獲得 30% 傷害減免,持續 5 秒。\n\nTags: 防禦, 電能, 傷害, 電擊, 冷卻時間, 無阻."
 },
 		id: 58,
 		maxPoints: 1,
@@ -2308,7 +2426,8 @@ Tags: Defensive, Lucky Hit, Critical Strikes, Cooldown.`,
 			"plPL": "Zestrojenie Żywiołów",
 			"ptBR": "Harmonização Elemental",
 			"ruRU": "Единство со стихиями",
-			"zhCN": "元素调和"
+			"zhCN": "元素调和",
+			"zhTW": "元素調諧"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Kritische Treffer verfügen über eine Chance von bis zu {5/10/15/20/25/30/35/40/45/50}%, die Abklingzeit einer Eurer defensiven Fertigkeiten abzuschließen. Kann nur einmal alle 10 Sek. auftreten.\n\nTags: Defensiv, Glückstreffer, Kritische Treffer, Abklingzeit.",
@@ -2321,7 +2440,8 @@ Tags: Defensive, Lucky Hit, Critical Strikes, Cooldown.`,
 			"plPL": "Szczęśliwy traf: Trafienia krytyczne mają maksymalnie {5/10/15/20/25/30/35/40/45/50}% szans na wyzerowanie czasu odnowienia jednej z twoich umiejętności Defensywnych. Efekt ten może wystąpić tylko raz na 10 sek.\n\nTags: Defensywa, Szczęśliwy Traf, Trafienia Krytyczne, Odnowienie.",
 			"ptBR": "Golpe de Sorte: Acertos críticos têm até {5/10/15/20/25/30/35/40/45/50}% de chance de reiniciar a recarga de uma das suas habilidades de Defesa. Só pode ocorrer uma vez a cada 10 segundos.\n\nTags: Defesa, Golpe de Sorte, Acertos Críticos, Recarga.",
 			"ruRU": "Удачный удар: критические удары с вероятностью до {5/10/15/20/25/30/35/40/45/50}% сбрасывают время восстановления умения категории \"Защита\". Срабатывает не чаще раза в 10 сек.\n\nTags: Защита, Удачный удар, Критические удары, Время восстановления.",
-			"zhCN": "幸运一击: 暴击最多有 {5/10/15/20/25/30/35/40/45/50}% 几率重置你的一个防御技能的冷却时间。该效果每 10 秒只能触发一次。\n\nTags: 防御, 幸运一击, 暴击, 冷却时间."
+			"zhCN": "幸运一击: 暴击最多有 {5/10/15/20/25/30/35/40/45/50}% 几率重置你的一个防御技能的冷却时间。该效果每 10 秒只能触发一次。\n\nTags: 防御, 幸运一击, 暴击, 冷却时间.",
+			"zhTW": "幸運觸發:爆擊有最多 {5/10/15/20/25/30/35/40/45/50}% 的機率重置你的一個防禦技能冷卻時間。每 10 秒只能觸發一次。\n\nTags: 防禦, 幸運觸發, 爆擊, 冷卻時間."
 },
 		id: 59,
 		maxPoints: 3,
@@ -2344,7 +2464,8 @@ Tags: Damage.`,
 			"plPL": "Krucha Potęga",
 			"ptBR": "Canhão de Vidro",
 			"ruRU": "Хрупкий разрушитель",
-			"zhCN": "玻璃大炮"
+			"zhCN": "玻璃大炮",
+			"zhTW": "棄防強攻"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr verursacht x{6/12/18/24/30/36/42/48/54/60}% mehr Schaden, aber erleidet x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden.\n\nTags: Schaden.",
@@ -2357,7 +2478,8 @@ Tags: Damage.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{6/12/18/24/30/36/42/48/54/60}%, ale otrzymujesz obrażenia zwiększone o x{3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Obrażenia.",
 			"ptBR": "Você causa {6/12/18/24/30/36/42/48/54/60}% de dano aumentado, mas recebe {3/6/9/12/15/18/21/24/27/30}% de dano aumentado.\n\nTags: Dano.",
 			"ruRU": "Вы наносите на x{6/12/18/24/30/36/42/48/54/60}% больше урона, но и получаете на x{3/6/9/12/15/18/21/24/27/30}% больше урона.\n\nTags: Урон.",
-			"zhCN": "你造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%, 但受到的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害."
+			"zhCN": "你造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%, 但受到的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 伤害.",
+			"zhTW": "你造成的傷害提高 x{6/12/18/24/30/36/42/48/54/60}%,但是受到的傷害也提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 傷害."
 },
 		id: 60,
 		maxPoints: 3,
@@ -2390,7 +2512,8 @@ After spending 300 Mana, a 5-headed Hydra spawns for 5 seconds.`,
 			"plPL": "Hydra",
 			"ptBR": "Hidra",
 			"ruRU": "Гидра",
-			"zhCN": "多头蛇"
+			"zhCN": "多头蛇",
+			"zhTW": "多頭蛇"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 53.212%\nBeschwört 10 Sek. lang eine 3-köpfige Hydra. Jeder Kopf speit Feuer auf Gegner und verursacht {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden.\n\nMaximal 1 aktive Hydras gleichzeitig.\n\nTags: Beschwörung, Pyromanie, Schaden, Feuer, Mana.\n\n— Enchantment Effect —\nWenn Ihr 300 Mana verbraucht, erscheint 5 Sek. lang eine 5-köpfige Hydra.",
@@ -2403,7 +2526,8 @@ After spending 300 Mana, a 5-headed Hydra spawns for 5 seconds.`,
 			"plPL": "Koszt: {#} pkt. many.\nSzansa na szczęśliwy traf: 53.212%\nPrzyzywasz Hydrę o 3 głowach na 10 sek. Każda głowa spluwa ogniem we wrogów i zadaje im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń.\n\nJednocześnie możesz mieć maksymalnie 1 aktywne Hydry:aktywnych Hydr.\n\nTags: Przyzywanie, Piromancja, Obrażenia, Ogień, Mana.\n\n— Enchantment Effect —\nPo zużyciu 300 pkt. many na 5 sek. pojawia się 5-głowa Hydra.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 53.212%\nEvoca uma hidra com 3 cabeças por 10 segundos. Cada cabeça cospe fogo em inimigos, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano.\n\nMáximo de 1 Hidras ativas por vez.\n\nTags: Conjuração, Piromancia, Dano, Fogo, Mana.\n\n— Enchantment Effect —\nDepois de gastar 300 de mana, uma Hidra com 5 cabeças surge por 5 segundos.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 53.212%.\nВы на 10 сек. призываете гидру с 3 головами:головами. Каждая голова изрыгает в противников пламя, наносящее {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона.\n\nОдновременно можно призвать 1 гидр:гидр.\n\nTags: Колдовство, Пиромантия, Урон, Огонь, Мана.\n\n— Enchantment Effect —\nПотратив 300 ед. маны, вы на 5 сек. призываете гидру с 5 головами:головами.",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 53.212%\n召唤一只有 3 个头的多头蛇, 持续 10 秒。每个头都会对敌人喷吐火焰, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害。\n\n同一时间最多可激活 1 只多头蛇。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力.\n\n— Enchantment Effect —\n消耗 300 点法力后, 召唤一只拥有 5 个头的多头蛇, 持续 5 秒。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 53.212%\n召唤一只有 3 个头的多头蛇, 持续 10 秒。每个头都会对敌人喷吐火焰, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害。\n\n同一时间最多可激活 1 只多头蛇。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力.\n\n— Enchantment Effect —\n消耗 300 点法力后, 召唤一只拥有 5 个头的多头蛇, 持续 5 秒。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:53.212%\n召喚出有 3 顆頭的多頭蛇,持續 10 秒。每顆蛇頭會對敵人噴火,造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 點傷害。\n\n最多可同時有 1 個作用中的|4多頭蛇:多頭蛇。\n\nTags: 咒喚, 焰術, 傷害, 火焰, 法力.\n\n— Enchantment Effect —\n花費 300 點法力後,會生成一隻 5 個頭的多頭蛇,持續 5 秒。"
 },
 		id: 61,
 		maxPoints: 5,
@@ -2428,7 +2552,8 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Wzmocniona Hydra",
 			"ptBR": "Hidra Aperfeiçoada",
 			"ruRU": "Усиленная гидра",
-			"zhCN": "强化多头蛇"
+			"zhCN": "强化多头蛇",
+			"zhTW": "強化多頭蛇"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Ihr beim Wirken gesund seid, erhöht sich die Kopfzahl Eurer Hydra um 1.\n\nTags: Beschwörung, Pyromanie, Schaden, Feuer, Mana.",
@@ -2441,7 +2566,8 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Kiedy jesteś w pełni sił, przyzwana przez ciebie Hydra zyskuje 1 dodatkową głowę.\n\nTags: Przyzywanie, Piromancja, Obrażenia, Ogień, Mana.",
 			"ptBR": "Enquanto estiver saudável, seus lançamentos de Hidra recebem 1 cabeça adicional.\n\nTags: Conjuração, Piromancia, Dano, Fogo, Mana.",
 			"ruRU": "Пока у вас высокий уровень здоровья, гидры призываются еще с 1 головами:головами.\n\nTags: Колдовство, Пиромантия, Урон, Огонь, Мана.",
-			"zhCN": "处于健康状态时, 你的多头蛇额外获得 1 个头。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力."
+			"zhCN": "处于健康状态时, 你的多头蛇额外获得 1 个头。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力.",
+			"zhTW": "處於健康狀態時,你施放多頭蛇會有 1 個額外的頭。\n\nTags: 咒喚, 焰術, 傷害, 火焰, 法力."
 },
 		id: 62,
 		maxPoints: 1,
@@ -2465,7 +2591,8 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Wywołana Hydra",
 			"ptBR": "Hidra Invocada",
 			"ruRU": "Пробужденная гидра",
-			"zhCN": "祈法多头蛇"
+			"zhCN": "祈法多头蛇",
+			"zhTW": "祈喚多頭蛇"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen kritischen Treffer erzielt, erhalten Eure Hydras 3 Sek. lang +30% kritische Trefferchance.\n\nTags: Beschwörung, Pyromanie, Schaden, Feuer, Mana.",
@@ -2478,7 +2605,8 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Po wykonaniu trafienia krytycznego twoje Hydry zyskują premię +30% do szansy na trafienie krytyczne na 3 sek.\n\nTags: Przyzywanie, Piromancja, Obrażenia, Ogień, Mana.",
 			"ptBR": "Depois de desferir um acerto crítico, suas Hidras recebem +30% de chance de acerto crítico por 3 segundos.\n\nTags: Conjuração, Piromancia, Dano, Fogo, Mana.",
 			"ruRU": "Когда вы наносите критический удар, вероятность критического удара гидр повышается на +30% на 3 сек.\n\nTags: Колдовство, Пиромантия, Урон, Огонь, Мана.",
-			"zhCN": "在你暴击后, 你的多头蛇的暴击几率提高 +30%, 持续 3 秒。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力."
+			"zhCN": "在你暴击后, 你的多头蛇的暴击几率提高 +30%, 持续 3 秒。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力.",
+			"zhTW": "你爆擊後,多頭蛇的爆擊機率提高 +30%,持續 3 秒。\n\nTags: 咒喚, 焰術, 傷害, 火焰, 法力."
 },
 		id: 63,
 		maxPoints: 1,
@@ -2502,7 +2630,8 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Przyzwana Hydra",
 			"ptBR": "Hidra Evocada",
 			"ruRU": "Призванная гидра",
-			"zhCN": "召唤多头蛇"
+			"zhCN": "召唤多头蛇",
+			"zhTW": "呼喚多頭蛇"
 },
 		descriptionLocalized: {
 			"deDE": "Hydra verbrennt Gegner außerdem und verursacht im Verlauf von 6 Sek. zusätzlichen Schaden in Höhe von 12% des verursachten Basisschadens.\n\nTags: Beschwörung, Pyromanie, Schaden, Feuer, Mana.",
@@ -2515,7 +2644,8 @@ Tags: Conjuration, Pyromancy, Damage, Fire, Mana.`,
 			"plPL": "Hydra podpala również wrogów, zadając im dodatkowo równowartość 12% podstawowych obrażeń w ciągu 6 sek.\n\nTags: Przyzywanie, Piromancja, Obrażenia, Ogień, Mana.",
 			"ptBR": "Hidra também queima os inimigos, causando um adicional de 12% do dano-base causado ao longo de 6 segundos.\n\nTags: Conjuração, Piromancia, Dano, Fogo, Mana.",
 			"ruRU": "Гидра также поджигает противников, нанося еще 12% базового урона за 6 сек.\n\nTags: Колдовство, Пиромантия, Урон, Огонь, Мана.",
-			"zhCN": "多头蛇还会使敌人燃烧, 在 6 秒内造成其基础伤害 12% 的额外伤害。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力."
+			"zhCN": "多头蛇还会使敌人燃烧, 在 6 秒内造成其基础伤害 12% 的额外伤害。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力.",
+			"zhTW": "多頭蛇也會燃燒敵人,在 6 秒內造成其基礎傷害 12% 的額外傷害。\n\nTags: 咒喚, 焰術, 傷害, 火焰, 法力."
 },
 		id: 64,
 		maxPoints: 1,
@@ -2543,7 +2673,8 @@ For every 40 seconds in Cooldowns you spend, you spawn an Ice Blades on a random
 			"plPL": "Lodowe Ostrza",
 			"ptBR": "Lâminas de Gelo",
 			"ruRU": "Ледяные клинки",
-			"zhCN": "冰刃"
+			"zhCN": "冰刃",
+			"zhTW": "寒冰之刃"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 70.801%\nBeschwört 6 Sek. lang Klingen aus Eis, die Gegner blitzschnell aufschlitzen, dabei {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% Schaden verursachen und über eine Chance von 30% verfügen, sie 2 Sek. lang verwundbar zu machen.\n\nTags: Beschwörung, Frost, Verwundbar, Schaden, Kälte, Abklingzeit.\n\n— Enchantment Effect —\nFür alle 40 Sek. Abklingzeit, die Ihr verbraucht, erschafft Ihr Eisklingen auf einem zufälligen Gegner.",
@@ -2556,7 +2687,8 @@ For every 40 seconds in Cooldowns you spend, you spawn an Ice Blades on a random
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 70.801%\nNa 6 sek. przyzywasz dwa lodowe ostrza, które szybko sieką przeciwników, zadając im {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% pkt. obrażeń i mają 30% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Przyzywanie, Lód, Odsłonięcie, Obrażenia, Zimno, Odnowienie.\n\n— Enchantment Effect —\nZa każde wykorzystane przez ciebie 40 sek. czasu odnowienia rzucasz Lodowe Ostrza na losowego wroga.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 70.801%\nConjura lâminas de gelo por 6 segundos que cortam os inimigos rapidamente, causando {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de dano, e têm 30% de chance de torná-los vulneráveis por 2 segundos.\n\nTags: Conjuração, Geleira, Vulnerável, Dano, Gelo, Recarga.\n\n— Enchantment Effect —\nPara cada 40 segundos em recargas que gastar, você gera Lâminas de Gelo em um inimigo aleatório.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 70.801%.\nВы на 6 сек. создаете два ледяных клинка, которые стремительно атакуют противников, нанося им {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% ед. урона и с вероятностью 30% делая их уязвимыми на 2 сек.\n\nTags: Колдовство, Мороз, Уязвимость, Урон, Холод, Время восстановления.\n\n— Enchantment Effect —\nКогда у вас восстанавливаются умения, вы раз в 40 сек. призываете ледяные клинки, атакующие случайного противника.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 70.801%\n召唤一对存在 6 秒的冰刃, 迅速劈砍敌人, 造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害并有 30% 几率使其陷入易伤状态, 持续 2 秒。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间.\n\n— Enchantment Effect —\n每度过 40 秒的冷却时间, 你就会对随机敌人召唤一把冰刃。"
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 70.801%\n召唤一对存在 6 秒的冰刃, 迅速劈砍敌人, 造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害并有 30% 几率使其陷入易伤状态, 持续 2 秒。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间.\n\n— Enchantment Effect —\n每度过 40 秒的冷却时间, 你就会对随机敌人召唤一把冰刃。",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:70.801%\n呼喚一對持續 6 秒的寒冰之刃,其會快速斬擊敵人,造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 點傷害,並有 30% 機率使其易傷 2 秒。\n\nTags: 咒喚, 冰霜, 易傷, 傷害, 冰寒, 冷卻時間.\n\n— Enchantment Effect —\n你每經過 40 秒冷卻時間,就會生成寒冰之刃攻擊隨機敵人。"
 },
 		id: 65,
 		maxPoints: 5,
@@ -2581,7 +2713,8 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 			"plPL": "Wzmocnione Lodowe Ostrza",
 			"ptBR": "Lâminas de Gelo Aperfeiçoadas",
 			"ruRU": "Усиленные ледяные клинки",
-			"zhCN": "强化冰刃"
+			"zhCN": "强化冰刃",
+			"zhTW": "強化寒冰之刃"
 },
 		descriptionLocalized: {
 			"deDE": "Die Abklingzeit von Eisklingen wird jedes Mal um 0.5 Sek. reduziert, wenn Ihr einen verwundbaren Gegner trefft.\n\nTags: Beschwörung, Frost, Verwundbar, Schaden, Kälte, Abklingzeit.",
@@ -2594,7 +2727,8 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 			"plPL": "Czas odnowienia Lodowych Ostrzy jest skrócony o 0.5 sek. za każdym razem, kiedy trafiają one odsłoniętego wroga.\n\nTags: Przyzywanie, Lód, Odsłonięcie, Obrażenia, Zimno, Odnowienie.",
 			"ptBR": "A recarga de Lâminas de Gelo é reduzida em 0.5 segundos sempre que atingir um inimigo vulnerável.\n\nTags: Conjuração, Geleira, Vulnerável, Dano, Gelo, Recarga.",
 			"ruRU": "Когда \"Ледяные клинки\" поражают уязвимого противника, их время восстановления сокращается на 0.5 сек.\n\nTags: Колдовство, Мороз, Уязвимость, Урон, Холод, Время восстановления.",
-			"zhCN": "冰刃每次命中一个易伤敌人, 其冷却时间缩短 0.5 秒。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间."
+			"zhCN": "冰刃每次命中一个易伤敌人, 其冷却时间缩短 0.5 秒。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间.",
+			"zhTW": "寒冰之刃每次擊中易傷敵人時,其冷卻時間降低 0.5 秒。\n\nTags: 咒喚, 冰霜, 易傷, 傷害, 冰寒, 冷卻時間."
 },
 		id: 66,
 		maxPoints: 1,
@@ -2618,7 +2752,8 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 			"plPL": "Przyzwane Lodowe Ostrza",
 			"ptBR": "Lâminas de Gelo Evocadas",
 			"ruRU": "Призванные ледяные клинки",
-			"zhCN": "召唤冰刃"
+			"zhCN": "召唤冰刃",
+			"zhTW": "呼喚寒冰之刃"
 },
 		descriptionLocalized: {
 			"deDE": "20% der Abklingzeitreduktion von Verbesserte Eisklingen wird auf Eure anderen Fertigkeiten angewendet.\n\nTags: Beschwörung, Frost, Verwundbar, Schaden, Kälte, Abklingzeit.",
@@ -2631,7 +2766,8 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 			"plPL": "20% równowartości redukcji czasu odnowienia Wzmocnionych Lodowych Ostrzy obejmuje twoje pozostałe umiejętności.\n\nTags: Przyzywanie, Lód, Odsłonięcie, Obrażenia, Zimno, Odnowienie.",
 			"ptBR": "20% da redução de recarga de Lâminas de Gelo Aperfeiçoadas é aplicada às suas outras habilidades.\n\nTags: Conjuração, Geleira, Vulnerável, Dano, Gelo, Recarga.",
 			"ruRU": "\"Усиленные ледяные клинки\" также сокращают время восстановления других ваших умений с эффективностью 20%.\n\nTags: Колдовство, Мороз, Уязвимость, Урон, Холод, Время восстановления.",
-			"zhCN": "你的其他技能也会获得强化冰刃冷却时间缩减效果的 20%。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间."
+			"zhCN": "你的其他技能也会获得强化冰刃冷却时间缩减效果的 20%。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间.",
+			"zhTW": "強化寒冰之刃的降低冷卻時間效果有 20% 會套用到你其他的技能上。\n\nTags: 咒喚, 冰霜, 易傷, 傷害, 冰寒, 冷卻時間."
 },
 		id: 67,
 		maxPoints: 1,
@@ -2655,7 +2791,8 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 			"plPL": "Wywołane Lodowe Ostrza",
 			"ptBR": "Lâminas de Gelo Invocadas",
 			"ruRU": "Пробужденные ледяные клинки",
-			"zhCN": "祈法冰刃"
+			"zhCN": "祈法冰刃",
+			"zhTW": "祈喚寒冰之刃"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Eisklingen erhalten +10% mehr Angriffsgeschwindigkeit pro aktiver Eisklinge.\n\nTags: Beschwörung, Frost, Verwundbar, Schaden, Kälte, Abklingzeit.",
@@ -2668,7 +2805,8 @@ Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.`,
 			"plPL": "Twoje Lodowe Ostrza zyskują premię +10% do szybkości ataku za każde aktywne Lodowe Ostrza.\n\nTags: Przyzywanie, Lód, Odsłonięcie, Obrażenia, Zimno, Odnowienie.",
 			"ptBR": "Suas Lâminas de Gelo recebem +10% de velocidade de ataque aumentada por Lâminas de Gelo ativas.\n\nTags: Conjuração, Geleira, Vulnerável, Dano, Gelo, Recarga.",
 			"ruRU": "Скорость атаки \"Ледяных клинков\" повышается на +10% за каждый активный клинок.\n\nTags: Колдовство, Мороз, Уязвимость, Урон, Холод, Время восстановления.",
-			"zhCN": "每有一个激活的冰刃, 你的冰刃的攻击速度就会提高 +10%。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间."
+			"zhCN": "每有一个激活的冰刃, 你的冰刃的攻击速度就会提高 +10%。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间.",
+			"zhTW": "每把作用中的寒冰之刃,會使你的寒冰之刃攻擊速度提高 +10%。\n\nTags: 咒喚, 冰霜, 易傷, 傷害, 冰寒, 冷卻時間."
 },
 		id: 68,
 		maxPoints: 1,
@@ -2696,7 +2834,8 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 			"plPL": "Włócznia Błyskawic",
 			"ptBR": "Lança Elétrica",
 			"ruRU": "Электрическое копье",
-			"zhCN": "闪电矛"
+			"zhCN": "闪电矛",
+			"zhTW": "閃電長矛"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 26.491%\nBeschwört einen Blitzspeer, der 6 Sek. lang Gegner aufspürt und pro Treffer {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% Schaden verursacht.\n\nTags: Beschwörung, Schock, Schaden, Blitz, Abklingzeit.\n\n— Enchantment Effect —\nWenn Ihr Knisternde Energie absorbiert, besteht eine Chance von 10%, einen Blitzspeer zu beschwören.",
@@ -2709,7 +2848,8 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 26.491%\nPrzyzywasz włócznię błyskawic, która wyszukuje wrogów przez 6 sek., zadając przy każdym trafieniu {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% pkt. obrażeń.\n\nTags: Przyzywanie, Porażenie, Obrażenia, Błyskawica, Odnowienie.\n\n— Enchantment Effect —\nPochłonięcie Roziskrzonej Energii zapewnia 10% szans na przyzwanie Włóczni Błyskawic.",
 			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 26.491%\nConjura uma lança de eletricidade que busca inimigos por 6 segundos, causando {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de dano por acerto.\n\nTags: Conjuração, Choque, Dano, Eletricidade, Recarga.\n\n— Enchantment Effect —\nAbsorver Energia Crepitante tem 10% de chance de conjurar uma Lança Elétrica.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 26.491%.\nВы создаете электрическое копье, которое преследует противников в течение 6 сек. и наносит {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% ед. урона при каждом попадании.\n\nTags: Колдовство, Шок, Урон, Молния, Время восстановления.\n\n— Enchantment Effect —\nКогда вы поглощаете искрящийся заряд энергии, вы с вероятностью 10% создаете электрическое копье.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 26.491%\n召唤一支搜寻敌人的闪电矛, 持续 6 秒, 每次命中造成 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 点伤害。\n\nTags: 召唤魔法, 电冲, 伤害, 闪电, 冷却时间.\n\n— Enchantment Effect —\n吸收爆裂电花有 10% 的几率召唤一柄闪电矛。"
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 26.491%\n召唤一支搜寻敌人的闪电矛, 持续 6 秒, 每次命中造成 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 点伤害。\n\nTags: 召唤魔法, 电冲, 伤害, 闪电, 冷却时间.\n\n— Enchantment Effect —\n吸收爆裂电花有 10% 的几率召唤一柄闪电矛。",
+			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:26.491%\n呼喚會追擊敵人的閃電之矛,持續 6 秒,每次擊中造成 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 點傷害。\n\nTags: 咒喚, 電能, 傷害, 電擊, 冷卻時間.\n\n— Enchantment Effect —\n吸收電流能量時有 10% 機率呼喚閃電長矛。"
 },
 		id: 69,
 		maxPoints: 5,
@@ -2734,7 +2874,8 @@ Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Wzmocniona Włócznia Błyskawic",
 			"ptBR": "Lança Elétrica Aperfeiçoada",
 			"ruRU": "Усиленное электрическое копье",
-			"zhCN": "强化闪电矛"
+			"zhCN": "强化闪电矛",
+			"zhTW": "強化閃電長矛"
 },
 		descriptionLocalized: {
 			"deDE": "Nach einem kritischen Treffer erhält Blitzspeer über seine gesamte Dauer über eine +5% höhere kritische Trefferchance.\n\nTags: Beschwörung, Schock, Schaden, Blitz, Abklingzeit.",
@@ -2747,7 +2888,8 @@ Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Po wykonaniu trafienia krytycznego Włócznia Błyskawic ma zwiększoną o +5% kumulującą się szansę na trafienie krytyczne podczas swojego działania.\n\nTags: Przyzywanie, Porażenie, Obrażenia, Błyskawica, Odnowienie.",
 			"ptBR": "Depois de desferir um acerto crítico, Lança Elétrica recebe +5% de chance de acerto crítico cumulativo aumentada durante o efeito.\n\nTags: Conjuração, Choque, Dano, Eletricidade, Recarga.",
 			"ruRU": "Когда \"Электрическое копье\" наносит критический удар, вероятность нанести критический удар этим умением повышается на +5% до завершения времени действия. Эффект суммируется.\n\nTags: Колдовство, Шок, Урон, Молния, Время восстановления.",
-			"zhCN": "造成暴击后, 闪电矛在持续时间内叠加暴击的几率提高 +5%。\n\nTags: 召唤魔法, 电冲, 伤害, 闪电, 冷却时间."
+			"zhCN": "造成暴击后, 闪电矛在持续时间内叠加暴击的几率提高 +5%。\n\nTags: 召唤魔法, 电冲, 伤害, 闪电, 冷却时间.",
+			"zhTW": "閃電長矛爆擊後,爆擊機率提高 +5%,此效果在持續時間內可堆疊。\n\nTags: 咒喚, 電能, 傷害, 電擊, 冷卻時間."
 },
 		id: 70,
 		maxPoints: 1,
@@ -2771,7 +2913,8 @@ Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Przyzwana Włócznia Błyskawic",
 			"ptBR": "Lança Elétrica Evocada",
 			"ruRU": "Призванное электрическое копье",
-			"zhCN": "召唤闪电矛"
+			"zhCN": "召唤闪电矛",
+			"zhTW": "呼喚閃電長矛"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Knisternde Energie sammelt, wird der Schaden Eures nächsten Blitzspeers um x20% erhöht, bis maximal x100%.\n\nTags: Beschwörung, Schock, Schaden, Blitz, Abklingzeit.",
@@ -2784,7 +2927,8 @@ Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Zbieranie Roziskrzonej Energii zwiększa obrażenia od twojej następnej Włóczni Błyskawic o x20%, maksymalnie do x100%.\n\nTags: Przyzywanie, Porażenie, Obrażenia, Błyskawica, Odnowienie.",
 			"ptBR": "Coletar Energia Crepitante aumenta o dano do seu próximo lançamento de Lança Elétrica em 20%, até 100%.\n\nTags: Conjuração, Choque, Dano, Eletricidade, Recarga.",
 			"ruRU": "Когда вы подбираете искрящийся заряд энергии, урон от следующего \"Электрического копья\" увеличивается на x20% вплоть до x100%.\n\nTags: Колдовство, Шок, Урон, Молния, Время восстановления.",
-			"zhCN": "拾取爆裂电花会使你施放的下一个闪电矛造成的伤害提高 x20%, 最多提高 x100%。\n\nTags: 召唤魔法, 电冲, 伤害, 闪电, 冷却时间."
+			"zhCN": "拾取爆裂电花会使你施放的下一个闪电矛造成的伤害提高 x20%, 最多提高 x100%。\n\nTags: 召唤魔法, 电冲, 伤害, 闪电, 冷却时间.",
+			"zhTW": "收集電流能量會使你下一次施放的閃電長矛傷害提高 x20%,最多提高 x100%。\n\nTags: 咒喚, 電能, 傷害, 電擊, 冷卻時間."
 },
 		id: 71,
 		maxPoints: 1,
@@ -2808,7 +2952,8 @@ Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Wywołana Włócznia Błyskawic",
 			"ptBR": "Lança Elétrica Invocada",
 			"ruRU": "Пробужденное электрическое копье",
-			"zhCN": "祈法闪电矛"
+			"zhCN": "祈法闪电矛",
+			"zhTW": "祈喚閃電長矛"
 },
 		descriptionLocalized: {
 			"deDE": "Bei einem kritischen Treffer betäubt Blitzspeer Gegner 2 Sek. lang.\n\nTags: Beschwörung, Schock, Schaden, Blitz, Abklingzeit.",
@@ -2821,7 +2966,8 @@ Tags: Conjuration, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Trafienie krytyczne przy użyciu Włóczni Błyskawic ogłusza wrogów na 2 sek.\n\nTags: Przyzywanie, Porażenie, Obrażenia, Błyskawica, Odnowienie.",
 			"ptBR": "Lança Elétrica atordoa inimigos por 2 segundos ao desferir acertos críticos.\n\nTags: Conjuração, Choque, Dano, Eletricidade, Recarga.",
 			"ruRU": "Нанося критический удар, \"Электрическое копье\" оглушает противника на 2 сек.\n\nTags: Колдовство, Шок, Урон, Молния, Время восстановления.",
-			"zhCN": "闪电矛会在暴击时击晕敌人 2 秒。\n\nTags: 召唤魔法, 电冲, 伤害, 闪电, 冷却时间."
+			"zhCN": "闪电矛会在暴击时击晕敌人 2 秒。\n\nTags: 召唤魔法, 电冲, 伤害, 闪电, 冷却时间.",
+			"zhTW": "閃電長矛爆擊時會擊昏敵人 2 秒。\n\nTags: 咒喚, 電能, 傷害, 電擊, 冷卻時間."
 },
 		id: 72,
 		maxPoints: 1,
@@ -2844,7 +2990,8 @@ Tags: Damage, Conjuration.`,
 			"plPL": "Mistrzostwo Przyzywania",
 			"ptBR": "Maestria da Conjuração",
 			"ruRU": "Мастер колдовства",
-			"zhCN": "召唤魔法精通"
+			"zhCN": "召唤魔法精通",
+			"zhTW": "咒喚精通"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr verursacht für jede aktive Beschwörung x{1/2/3/4/5/6/7/8/9/10}% mehr Schaden.\n\nTags: Schaden, Beschwörung.",
@@ -2857,7 +3004,8 @@ Tags: Damage, Conjuration.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{1/2/3/4/5/6/7/8/9/10}% za każde aktywne Przyzwanie.\n\nTags: Obrażenia, Przyzywanie.",
 			"ptBR": "Você causa {1/2/3/4/5/6/7/8/9/10}% de dano aumentado para cada Conjuração ativa.\n\nTags: Dano, Conjuração.",
 			"ruRU": "Вы наносите на x{1/2/3/4/5/6/7/8/9/10}% больше урона за каждый активный эффект колдовства.\n\nTags: Урон, Колдовство.",
-			"zhCN": "每有一个激活的召唤魔法, 你造成的伤害提高 x{1/2/3/4/5/6/7/8/9/10}%。\n\nTags: 伤害, 召唤魔法."
+			"zhCN": "每有一个激活的召唤魔法, 你造成的伤害提高 x{1/2/3/4/5/6/7/8/9/10}%。\n\nTags: 伤害, 召唤魔法.",
+			"zhTW": "每個作用中的咒喚可使你造成的傷害提高 x{1/2/3/4/5/6/7/8/9/10}%。\n\nTags: 傷害, 咒喚."
 },
 		id: 73,
 		maxPoints: 3,
@@ -2880,7 +3028,8 @@ Tags: Lucky Hit.`,
 			"plPL": "Magiczna Precyzja",
 			"ptBR": "Magia de Precisão",
 			"ruRU": "Точная магия",
-			"zhCN": "精准魔法"
+			"zhCN": "精准魔法",
+			"zhTW": "精準魔法"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Glückstrefferchance ist um +{5/10/15/20/25/30/35/40/45/50}% erhöht.\n\nTags: Glückstreffer.",
@@ -2893,7 +3042,8 @@ Tags: Lucky Hit.`,
 			"plPL": "Twoja szansa na szczęśliwy traf jest zwiększona o +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Szczęśliwy Traf.",
 			"ptBR": "Sua chance de Golpe de Sorte é aumentada em +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Golpe de Sorte.",
 			"ruRU": "Вероятность удачного удара повышается на {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Удачный удар.",
-			"zhCN": "你的幸运一击几率提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 幸运一击."
+			"zhCN": "你的幸运一击几率提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 幸运一击.",
+			"zhTW": "你的幸運觸發機率提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 幸運觸發."
 },
 		id: 74,
 		maxPoints: 3,
@@ -2916,7 +3066,8 @@ Tags: Damage Reduction, Elite Monsters.`,
 			"plPL": "Koniunkcja Żywiołów",
 			"ptBR": "Alinhar os Elementos",
 			"ruRU": "Баланс стихий",
-			"zhCN": "元素协调"
+			"zhCN": "元素协调",
+			"zhTW": "元素調和"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr erhaltet eine Schadensreduktion von {1/2/3/4/5/6/7/8/9/10}% gegen Elitegegner für jede Sekunde, in der Ihr keinen Schaden durch einen von ihnen erleidet, bis maximal 40%.\n\nTags: Schadensreduktion, Elitemonster.",
@@ -2929,7 +3080,8 @@ Tags: Damage Reduction, Elite Monsters.`,
 			"plPL": "Zyskujesz premię {1/2/3/4/5/6/7/8/9/10}% do redukcji obrażeń zadawanych przez wrogów elitarnych za każdą sekundę, kiedy nie otrzymujesz od nich obrażeń. Maksymalna premia wynosi 40%.\n\nTags: Redukcja Obrażeń, Elitarne Potwory.",
 			"ptBR": "Você recebe {1/2/3/4/5/6/7/8/9/10}% de redução de dano contra elites por cada segundo que não receber dano de algum, até 40%.\n\nTags: Redução de Dano, Monstros de Elite.",
 			"ruRU": "Урон, получаемый от особых противников, уменьшается на {1/2/3/4/5/6/7/8/9/10}% за каждую секунду, пока вы не получаете от них урон. Максимальная защита – 40%.\n\nTags: Уменьшение урона, Особые монстры.",
-			"zhCN": "当你对战精英怪且未受到其伤害时, 每秒获得 {1/2/3/4/5/6/7/8/9/10}%伤害减免, 最多获得 40%。\n\nTags: 伤害减免, 精英怪物."
+			"zhCN": "当你对战精英怪且未受到其伤害时, 每秒获得 {1/2/3/4/5/6/7/8/9/10}%伤害减免, 最多获得 40%。\n\nTags: 伤害减免, 精英怪物.",
+			"zhTW": "只要你沒有受到精英怪的傷害,每秒會獲得 {1/2/3/4/5/6/7/8/9/10}% 對精英怪的傷害減免效果,上限為 40%。\n\nTags: 傷害減免, 精英怪物."
 },
 		id: 75,
 		maxPoints: 3,
@@ -2952,7 +3104,8 @@ Tags: Mana, Damage Reduction.`,
 			"plPL": "Tarcza Many",
 			"ptBR": "Escudo de Mana",
 			"ruRU": "Щит маны",
-			"zhCN": "法力护盾"
+			"zhCN": "法力护盾",
+			"zhTW": "法力護盾"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Ihr 100 Mana verbraucht, erhaltet Ihr 5 Sek. lang {5/10/15/20/25/30/35/40/45/50}% Schadensreduktion.\n\nTags: Mana, Schadensreduktion.",
@@ -2965,7 +3118,8 @@ Tags: Mana, Damage Reduction.`,
 			"plPL": "Za każdym razem, gdy wydajesz 100 pkt. many, zyskujesz {5/10/15/20/25/30/35/40/45/50}% do redukcji obrażeń na 5 sek.\n\nTags: Mana, Redukcja Obrażeń.",
 			"ptBR": "Sempre que gasta 100 de mana, você recebe {5/10/15/20/25/30/35/40/45/50}% de redução de dano por 5 segundos.\n\nTags: Mana, Redução de Dano.",
 			"ruRU": "Когда вы тратите 100 ед. маны, получаемый урон уменьшается на {5/10/15/20/25/30/35/40/45/50}% на 5 сек.\n\nTags: Мана, Уменьшение урона.",
-			"zhCN": "你每消耗 100 点法力, 就会获得 {5/10/15/20/25/30/35/40/45/50}% 的伤害减免, 持续 5 秒。\n\nTags: 法力, 伤害减免."
+			"zhCN": "你每消耗 100 点法力, 就会获得 {5/10/15/20/25/30/35/40/45/50}% 的伤害减免, 持续 5 秒。\n\nTags: 法力, 伤害减免.",
+			"zhTW": "你每花費 100 點法力,就獲得 {5/10/15/20/25/30/35/40/45/50}% 傷害減免,持續 5 秒。\n\nTags: 法力, 傷害減免."
 },
 		id: 76,
 		maxPoints: 3,
@@ -2988,7 +3142,8 @@ Tags: Barrier, Cooldown.`,
 			"plPL": "Ochrona",
 			"ptBR": "Proteção",
 			"ruRU": "Защита",
-			"zhCN": "魔法防护"
+			"zhCN": "魔法防护",
+			"zhTW": "防護屏障"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr eine Abklingzeit nutzt, erhaltet Ihr 2 Sek. lang eine Barriere in Höhe von {10/20/30/40/50/60/70/80/90/100}% Eures maximalen Lebens.\n\nTags: Barriere, Abklingzeit.",
@@ -3001,7 +3156,8 @@ Tags: Barrier, Cooldown.`,
 			"plPL": "Użycie umiejętności z czasem odnowienia zapewnia ci barierę o mocy równej {10/20/30/40/50/60/70/80/90/100}% maksymalnego zdrowia na 2 sek.\n\nTags: Bariera, Odnowienie.",
 			"ptBR": "Usar uma recarga concede {10/20/30/40/50/60/70/80/90/100}% da sua vida máxima como uma barreira por 2 segundos.\n\nTags: Barreira, Recarga.",
 			"ruRU": "Когда вы применяете умение с временем восстановления, вас на 2 сек. защищает барьер с прочностью, равной {10/20/30/40/50/60/70/80/90/100}% максимального запаса здоровья.\n\nTags: Барьер, Время восстановления.",
-			"zhCN": "使用有冷却时间的技能可以获得一层相当于 {10/20/30/40/50/60/70/80/90/100}% 生命上限 的屏障, 持续 2 秒。\n\nTags: 屏障, 冷却时间."
+			"zhCN": "使用有冷却时间的技能可以获得一层相当于 {10/20/30/40/50/60/70/80/90/100}% 生命上限 的屏障, 持续 2 秒。\n\nTags: 屏障, 冷却时间.",
+			"zhTW": "使用有冷卻時間的技能可賦予你相當於生命值上限 {10/20/30/40/50/60/70/80/90/100}%的屏障,持續 2 秒。\n\nTags: 屏障, 冷卻時間."
 },
 		id: 77,
 		maxPoints: 3,
@@ -3032,7 +3188,8 @@ Lucky Hit: Up to a 8% chance for a Meteor to fall on enemies.`,
 			"plPL": "Meteoryt",
 			"ptBR": "Meteoro",
 			"ruRU": "Метеорит",
-			"zhCN": "陨石术"
+			"zhCN": "陨石术",
+			"zhTW": "隕石術"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 40%\nBeschwört einen Meteor, der am Zielort einschlägt und {80/88/96/104/112/120/128/136/144/152}% Schaden verursacht. Meteor verbrennt den Boden und verursacht im Verlauf von 3 Sek. {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden.\n\nTags: Beherrschung, Pyromanie, Schaden, Feuer, Mana, Verbrennung.\n\n— Enchantment Effect —\nGlückstreffer: Chance von bis zu 8%, dass ein Meteor auf Gegner fällt.",
@@ -3045,7 +3202,8 @@ Lucky Hit: Up to a 8% chance for a Meteor to fall on enemies.`,
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 40%\nPrzywołujesz meteoryt, który uderza we wskazane miejsce, zadając {80/88/96/104/112/120/128/136/144/152}% pkt. obrażeń. Meteoryt podpala ziemię, zadając {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń w ciągu 3 sek.\n\nTags: Mistrzostwo, Piromancja, Obrażenia, Ogień, Mana, Podpalenie.\n\n— Enchantment Effect —\nSzczęśliwy traf: Istnieje maksymalnie 8% szans, że na wrogów spadnie Meteoryt.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 40%\nEvoca um meteoro que atinge o local selecionado, causando {80/88/96/104/112/120/128/136/144/152}% de dano e queimando o chão, o que causa {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano ao longo de 3 segundos.\n\nTags: Maestria, Piromancia, Dano, Fogo, Mana, Queimadura.\n\n— Enchantment Effect —\nGolpe de Sorte: Até 8% de chance de um Meteoro cair nos inimigos.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 40%.\nВы обрушиваете на указанную область метеорит, наносящий {80/88/96/104/112/120/128/136/144/152}% ед. урона. Метеорит выжигает землю, нанося {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона от огня за 3 сек.\n\nTags: Искусность, Пиромантия, Урон, Огонь, Мана, Горение.\n\n— Enchantment Effect —\nУдачный удар: на противников с вероятностью до 8% обрушивается метеорит.",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 40%\n召唤一颗陨石打击目标位置, 造成 {80/88/96/104/112/120/128/136/144/152}% 点伤害并使地面燃烧, 在 3 秒内造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n\nTags: 掌控, 爆焰, 伤害, 火焰, 法力, 燃烧.\n\n— Enchantment Effect —\n幸运一击: 最多有 8% 几率对敌人施放陨石术。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 40%\n召唤一颗陨石打击目标位置, 造成 {80/88/96/104/112/120/128/136/144/152}% 点伤害并使地面燃烧, 在 3 秒内造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害。\n\nTags: 掌控, 爆焰, 伤害, 火焰, 法力, 燃烧.\n\n— Enchantment Effect —\n幸运一击: 最多有 8% 几率对敌人施放陨石术。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:40%\n召喚出一顆隕石落在指定位置,造成 {80/88/96/104/112/120/128/136/144/152}% 點傷害,點燃地面並在 3 秒內造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害。\n\nTags: 精通, 焰術, 傷害, 火焰, 法力, 燃燒.\n\n— Enchantment Effect —\n幸運觸發:有最多 8% 的機率呼喚隕石術落在敵人身上。"
 },
 		id: 78,
 		maxPoints: 5,
@@ -3070,7 +3228,8 @@ Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 			"plPL": "Wzmocniony Meteoryt",
 			"ptBR": "Meteoro Aperfeiçoado",
 			"ruRU": "Усиленный метеорит",
-			"zhCN": "强化陨石术"
+			"zhCN": "强化陨石术",
+			"zhTW": "強化隕石術"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn ein Wirken von Meteor mindestens 3 Gegner trifft, besteht eine Chance von 30%, dass ein zusätzlicher Meteor an derselben Stelle einschlägt.\n\nTags: Beherrschung, Pyromanie, Schaden, Feuer, Mana, Verbrennung.",
@@ -3083,7 +3242,8 @@ Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 			"plPL": "Jeśli jednym użyciem Meteorytu trafisz co najmniej 3 wrogów, istnieje 30% szans na uderzenie drugiego Meteorytu w tym samym miejscu.\n\nTags: Mistrzostwo, Piromancja, Obrażenia, Ogień, Mana, Podpalenie.",
 			"ptBR": "Se um lançamento de Meteoro atingir 3 ou mais inimigos, há 30% de chance de um Meteoro adicional cair no mesmo local.\n\nTags: Maestria, Piromancia, Dano, Fogo, Mana, Queimadura.",
 			"ruRU": "Если \"Метеорит\" поражает 3 или более противников за одно применение, на эту же область с вероятностью 30% обрушивается еще один Метеорит.\n\nTags: Искусность, Пиромантия, Урон, Огонь, Мана, Горение.",
-			"zhCN": "如果陨石术命中 3 名或更多敌人, 有 30% 几率对同一位置额外施放一次陨石术。\n\nTags: 掌控, 爆焰, 伤害, 火焰, 法力, 燃烧."
+			"zhCN": "如果陨石术命中 3 名或更多敌人, 有 30% 几率对同一位置额外施放一次陨石术。\n\nTags: 掌控, 爆焰, 伤害, 火焰, 法力, 燃烧.",
+			"zhTW": "若施放一次隕石術擊中 3 個以上的敵人,有 30% 機率在同一地點落下一顆額外的隕石。\n\nTags: 精通, 焰術, 傷害, 火焰, 法力, 燃燒."
 },
 		id: 79,
 		maxPoints: 1,
@@ -3107,7 +3267,8 @@ Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 			"plPL": "Magowski Meteoryt",
 			"ptBR": "Meteoro de Mago",
 			"ruRU": "Метеорит мага",
-			"zhCN": "法师陨石术"
+			"zhCN": "法师陨石术",
+			"zhTW": "魔法師的隕石術"
 },
 		descriptionLocalized: {
 			"deDE": "Meteor fällt 30% schneller.\n\nTags: Beherrschung, Pyromanie, Schaden, Feuer, Mana, Verbrennung.",
@@ -3120,7 +3281,8 @@ Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 			"plPL": "Meteoryt spada o 30% szybciej.\n\nTags: Mistrzostwo, Piromancja, Obrażenia, Ogień, Mana, Podpalenie.",
 			"ptBR": "Meteoro cai 30% mais rápido.\n\nTags: Maestria, Piromancia, Dano, Fogo, Mana, Queimadura.",
 			"ruRU": "\"Метеорит\" обрушивается на 30% быстрее.\n\nTags: Искусность, Пиромантия, Урон, Огонь, Мана, Горение.",
-			"zhCN": "陨石术坠落速度加快 30%。\n\nTags: 掌控, 爆焰, 伤害, 火焰, 法力, 燃烧."
+			"zhCN": "陨石术坠落速度加快 30%。\n\nTags: 掌控, 爆焰, 伤害, 火焰, 法力, 燃烧.",
+			"zhTW": "隕石術掉落速度提高 30%。\n\nTags: 精通, 焰術, 傷害, 火焰, 法力, 燃燒."
 },
 		id: 80,
 		maxPoints: 1,
@@ -3144,7 +3306,8 @@ Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 			"plPL": "Czarowniczy Meteoryt",
 			"ptBR": "Meteoro de Arcanista",
 			"ruRU": "Метеорит чародея",
-			"zhCN": "巫师陨石术"
+			"zhCN": "巫师陨石术",
+			"zhTW": "秘術師的隕石術"
 },
 		descriptionLocalized: {
 			"deDE": "Der Aufprall von Meteor macht Gegner 2 Sek. lang bewegungsunfähig.\n\nTags: Beherrschung, Pyromanie, Schaden, Feuer, Mana, Verbrennung.",
@@ -3157,7 +3320,8 @@ Tags: Mastery, Pyromancy, Damage, Fire, Mana, Burn.`,
 			"plPL": "Uderzenie Meteorytu unieruchamia wrogów na 2 sek.\n\nTags: Mistrzostwo, Piromancja, Obrażenia, Ogień, Mana, Podpalenie.",
 			"ptBR": "O impacto de Meteoro imobiliza os inimigos por 2 segundos.\n\nTags: Maestria, Piromancia, Dano, Fogo, Mana, Queimadura.",
 			"ruRU": "\"Метеорит\" обездвиживает пораженных противников на 2 сек.\n\nTags: Искусность, Пиромантия, Урон, Огонь, Мана, Горение.",
-			"zhCN": "陨石术命中时会使敌人定身 2 秒。\n\nTags: 掌控, 爆焰, 伤害, 火焰, 法力, 燃烧."
+			"zhCN": "陨石术命中时会使敌人定身 2 秒。\n\nTags: 掌控, 爆焰, 伤害, 火焰, 法力, 燃烧.",
+			"zhTW": "隕石術撞擊時會使敵人定身 2 秒。\n\nTags: 精通, 焰術, 傷害, 火焰, 法力, 燃燒."
 },
 		id: 81,
 		maxPoints: 1,
@@ -3185,7 +3349,8 @@ Every 15 seconds, a Blizzard forms over you and follows you for 6 seconds.`,
 			"plPL": "Zamieć",
 			"ptBR": "Nevasca",
 			"ruRU": "Снежная буря",
-			"zhCN": "暴风雪"
+			"zhCN": "暴风雪",
+			"zhTW": "暴風雪"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 33%\nBeschwört einen eisigen Blizzard, der {#} Schaden verursacht und Gegner kontinuierlich 8 Sek. lang für 18% unterkühlt.\n\nTags: Beherrschung, Frost, Unterkühlen, Schaden, Kälte, Mana, Kontrollverlust.\n\n— Enchantment Effect —\nAlle 15 Sek. bildet sich über Euch ein Blizzard, der Euch 6 Sek. lang folgt.",
@@ -3198,7 +3363,8 @@ Every 15 seconds, a Blizzard forms over you and follows you for 6 seconds.`,
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 33%\nPrzywołujesz lodowatą zamieć, która zadaje wrogom {#} pkt. obrażeń i stale wyziębia ich o 18% w ciągu 8 sek.\n\nTags: Mistrzostwo, Lód, Wyziębienie, Obrażenia, Zimno, Mana, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nCo 15 sek. nad twoją głową tworzy się Zamieć, która podąża za tobą przez 6 sek.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 33%\nEvoca uma nevasca gélida que causa {#} de dano e gela inimigos de forma contínua por 18% ao longo de 8 segundos.\n\nTags: Maestria, Geleira, Gelidez, Dano, Gelo, Mana, Controle de Grupo.\n\n— Enchantment Effect —\nA cada 15 segundos, uma Nevasca forma-se e segue você por 6 segundos.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 33%.\nВы призываете ледяную бурю, наносящую {#} ед. урона и заставляющую противников коченеть, замедляя их на 18% на 8 сек.\n\nTags: Искусность, Мороз, Окоченение, Урон, Холод, Мана, Контроль.\n\n— Enchantment Effect —\nРаз в 15 сек. над вами образуется снежная буря, которая следует за вами в течение 6 сек.",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 33%\n召唤一阵冰冷的暴风雪, 造成 {#} 点伤害并在 8 秒内持续冻伤敌人 18%。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控.\n\n— Enchantment Effect —\n每过 15 秒, 在头顶汇聚一阵暴风雪 并跟随你移动, 持续 6 秒。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 33%\n召唤一阵冰冷的暴风雪, 造成 {#} 点伤害并在 8 秒内持续冻伤敌人 18%。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控.\n\n— Enchantment Effect —\n每过 15 秒, 在头顶汇聚一阵暴风雪 并跟随你移动, 持续 6 秒。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:33%\n召喚出凜冽暴風雪,造成 {#} 點傷害,並在 8 秒內對敵人造成 18% 冰冷效果。\n\nTags: 精通, 冰霜, 冰冷, 傷害, 冰寒, 法力, 控場.\n\n— Enchantment Effect —\n每隔 15 秒,暴風雪會在你上方形成並跟隨你 6 秒。"
 },
 		id: 82,
 		maxPoints: 5,
@@ -3223,7 +3389,8 @@ Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 			"plPL": "Wzmocniona Zamieć",
 			"ptBR": "Nevasca Aperfeiçoada",
 			"ruRU": "Усиленная снежная буря",
-			"zhCN": "强化暴风雪"
+			"zhCN": "强化暴风雪",
+			"zhTW": "強化暴風雪"
 },
 		descriptionLocalized: {
 			"deDE": "Blizzard fügt eingefrorenen Gegnern x25% mehr Schaden zu.\n\nTags: Beherrschung, Frost, Unterkühlen, Schaden, Kälte, Mana, Kontrollverlust.",
@@ -3236,7 +3403,8 @@ Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 			"plPL": "Zamieć zadaje zamrożonym celom obrażenia zwiększone o x25%.\n\nTags: Mistrzostwo, Lód, Wyziębienie, Obrażenia, Zimno, Mana, Ograniczanie Kontroli.",
 			"ptBR": "Nevasca causa 25% de dano aumentado a inimigos congelados.\n\nTags: Maestria, Geleira, Gelidez, Dano, Gelo, Mana, Controle de Grupo.",
 			"ruRU": "\"Снежная буря\" наносит на x25% больше урона замороженным противникам.\n\nTags: Искусность, Мороз, Окоченение, Урон, Холод, Мана, Контроль.",
-			"zhCN": "暴风雪对被冻结敌人造成的伤害提高 x25%。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控."
+			"zhCN": "暴风雪对被冻结敌人造成的伤害提高 x25%。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控.",
+			"zhTW": "暴風雪對凍結敵人造成的傷害提高 x25%。\n\nTags: 精通, 冰霜, 冰冷, 傷害, 冰寒, 法力, 控場."
 },
 		id: 83,
 		maxPoints: 1,
@@ -3260,7 +3428,8 @@ Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 			"plPL": "Magowska Zamieć",
 			"ptBR": "Nevasca de Mago",
 			"ruRU": "Снежная буря мага",
-			"zhCN": "法师暴风雪"
+			"zhCN": "法师暴风雪",
+			"zhTW": "魔法師的暴風雪"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Blizzard mit mehr als 50 Mana gewirkt wird, erhöht sich die Dauer um 4 Sek.\n\nTags: Beherrschung, Frost, Unterkühlen, Schaden, Kälte, Mana, Kontrollverlust.",
@@ -3273,7 +3442,8 @@ Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 			"plPL": "Jeśli podczas użycia Zamieci masz powyżej 50 pkt. many, czas działania umiejętności jest wydłużony o 4 sek.\n\nTags: Mistrzostwo, Lód, Wyziębienie, Obrażenia, Zimno, Mana, Ograniczanie Kontroli.",
 			"ptBR": "Ao ser lançada com mais de 50 de mana, a duração de Nevasca é aumentada em 4 segundos.\n\nTags: Maestria, Geleira, Gelidez, Dano, Gelo, Mana, Controle de Grupo.",
 			"ruRU": "Если при применении \"Снежной бури\" у вас больше 50 ед. маны, время действия умения продлевается на 4 сек.\n\nTags: Искусность, Мороз, Окоченение, Урон, Холод, Мана, Контроль.",
-			"zhCN": "法力大于 50 点时, 施放的暴风雪持续时间延长 4 秒。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控."
+			"zhCN": "法力大于 50 点时, 施放的暴风雪持续时间延长 4 秒。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控.",
+			"zhTW": "在 50 點法力以上施放時,暴風雪的持續時間提高 4 秒。\n\nTags: 精通, 冰霜, 冰冷, 傷害, 冰寒, 法力, 控場."
 },
 		id: 84,
 		maxPoints: 1,
@@ -3297,7 +3467,8 @@ Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 			"plPL": "Czarownicza Zamieć",
 			"ptBR": "Nevasca de Arcanista",
 			"ruRU": "Снежная буря чародея",
-			"zhCN": "巫师暴风雪"
+			"zhCN": "巫师暴风雪",
+			"zhTW": "秘術師的暴風雪"
 },
 		descriptionLocalized: {
 			"deDE": "Solange Blizzard aktiv ist, kosten Eure Kernfertigkeiten 10% weniger Mana.\n\nTags: Beherrschung, Frost, Unterkühlen, Schaden, Kälte, Mana, Kontrollverlust.",
@@ -3310,7 +3481,8 @@ Tags: Mastery, Frost, Chill, Damage, Cold, Mana, Crowd Control.`,
 			"plPL": "Kiedy masz aktywną Zamieć, twoje umiejętności Główne zużywają o 10% mniej many.\n\nTags: Mistrzostwo, Lód, Wyziębienie, Obrażenia, Zimno, Mana, Ograniczanie Kontroli.",
 			"ptBR": "Enquanto tiver uma Nevasca ativa, suas habilidades principais custam 10% a menos de mana.\n\nTags: Maestria, Geleira, Gelidez, Dano, Gelo, Mana, Controle de Grupo.",
 			"ruRU": "Во время действия \"Снежной бури\" основные умения расходуют на 10% меньше маны.\n\nTags: Искусность, Мороз, Окоченение, Урон, Холод, Мана, Контроль.",
-			"zhCN": "当你有激活的暴风雪时, 你的核心技能消耗的法力降低 10%。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控."
+			"zhCN": "当你有激活的暴风雪时, 你的核心技能消耗的法力降低 10%。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控.",
+			"zhTW": "當你有作用中的暴風雪時,你的核心技能法力消耗降低 10%。\n\nTags: 精通, 冰霜, 冰冷, 傷害, 冰寒, 法力, 控場."
 },
 		id: 85,
 		maxPoints: 1,
@@ -3338,7 +3510,8 @@ Lucky Hit: Critical Strikes have up to a 25% chance to spawn a static Ball Light
 			"plPL": "Piorun Kulisty",
 			"ptBR": "Bola de Eletricidade",
 			"ruRU": "Шаровая молния",
-			"zhCN": "球状闪电"
+			"zhCN": "球状闪电",
+			"zhTW": "球狀閃電"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 5%\nEntlädt eine Blitzkugel, die sich langsam vorwärts bewegt und Gegnern mit ihren Stromstößen kontinuierlich {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% Schaden zufügt.\n\nTags: Beherrschung, Schock, Schaden, Blitz, Mana.\n\n— Enchantment Effect —\nGlückstreffer: Kritische Treffer verfügen über eine Chance von bis zu 25%, einen statischen Kugelblitz zu erzeugen.",
@@ -3351,7 +3524,8 @@ Lucky Hit: Critical Strikes have up to a 25% chance to spawn a static Ball Light
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 5%\nWyzwalasz kulę błyskawic, która powoli przemieszcza się do przodu, nieprzerwanie porażając wrogów i zadając im {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% pkt. obrażeń.\n\nTags: Mistrzostwo, Porażenie, Obrażenia, Błyskawica, Mana.\n\n— Enchantment Effect —\nSzczęśliwy traf: Trafienia krytyczne mają maksymalnie 25% szans na stworzenie statycznego Pioruna Kulistego.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte: 5%\nDispara uma bola de eletricidade que avança lentamente, atacando inimigos de forma contínua e causando {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% de dano.\n\nTags: Maestria, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nGolpe de Sorte: Acertos críticos têm até 25% de chance de gerar uma Bola de Eletricidade estática.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 5%.\nВы выпускаете шаровую молнию, которая медленно летит вперед, время от времени нанося противникам по {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% ед. урона.\n\nTags: Искусность, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\nУдачный удар: критические удары с вероятностью до 25% создают неподвижную \"Шаровую молнию\".",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 5%\n放出一个向前缓慢移动的闪电球持续电击敌人, 造成 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% 点伤害。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n幸运一击: 暴击最多有 25% 几率形成一团静止的球状闪电。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 5%\n放出一个向前缓慢移动的闪电球持续电击敌人, 造成 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% 点伤害。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n幸运一击: 暴击最多有 25% 几率形成一团静止的球状闪电。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:5%\n放出緩慢向前移動的閃電球,持續電擊敵人造成 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% 點傷害。\n\nTags: 精通, 電能, 傷害, 電擊, 法力.\n\n— Enchantment Effect —\n幸運觸發:爆擊有最多 25% 的機率生成一個靜態的球狀閃電。"
 },
 		id: 86,
 		maxPoints: 5,
@@ -3376,7 +3550,8 @@ Tags: Mastery, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Wzmocniony Piorun Kulisty",
 			"ptBR": "Bola de Eletricidade Aperfeiçoada",
 			"ruRU": "Усиленная шаровая молния",
-			"zhCN": "强化球状闪电"
+			"zhCN": "强化球状闪电",
+			"zhTW": "強化球狀閃電"
 },
 		descriptionLocalized: {
 			"deDE": "Der Schaden von Kugelblitz erhöht sich um 200% Eures Angriffsgeschwindigkeitsbonus.\n\nTags: Beherrschung, Schock, Schaden, Blitz, Mana.",
@@ -3389,7 +3564,8 @@ Tags: Mastery, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Tempo zadawania obrażeń przez Piorun Kulisty jest zwiększone o równowartość 200% twojej premii do szybkości ataku.\n\nTags: Mistrzostwo, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "A taxa de dano de Bola de Eletricidade é aumentada em 200% do seu bônus de velocidade de ataque.\n\nTags: Maestria, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "Частота срабатывания урона от \"Шаровой молнии\" повышается на 200% вашей прибавки к скорости атаки.\n\nTags: Искусность, Шок, Урон, Молния, Мана.",
-			"zhCN": "球状闪电造成伤害的速度提高, 程度相当于你攻击速度加成的 200%。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "球状闪电造成伤害的速度提高, 程度相当于你攻击速度加成的 200%。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "球狀閃電造成傷害的速率提高,相當於你攻擊速度加成的 200%。\n\nTags: 精通, 電能, 傷害, 電擊, 法力."
 },
 		id: 87,
 		maxPoints: 1,
@@ -3413,7 +3589,8 @@ Tags: Mastery, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Czarowniczy Piorun Kulisty",
 			"ptBR": "Bola de Eletricidade de Arcanista",
 			"ruRU": "Шаровая молния чародея",
-			"zhCN": "巫师球状闪电"
+			"zhCN": "巫师球状闪电",
+			"zhTW": "秘術師的球狀閃電"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn ein Gegner mit einem Einsatz von Kugelblitz mindestens 4-mal getroffen wird, bildet sich Knisternde Energie. Dieser Effekt kann nur einmal pro Einsatz auftreten.\n\nTags: Beherrschung, Schock, Schaden, Blitz, Mana.",
@@ -3426,7 +3603,8 @@ Tags: Mastery, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Jeśli wróg zostanie trafiony pojedynczym Piorunem Kulistym co najmniej 4 razy, powstaje Roziskrzona Energia. Efekt ten może wystąpić tylko raz na użycie zdolności.\n\nTags: Mistrzostwo, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "Se um inimigo for atingido pelo menos 4 vezes por um lançamento de Bola de Eletricidade, uma Energia Crepitante é formada. Só pode ocorrer uma vez por lançamento.\n\nTags: Maestria, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "Если одна и та же \"Шаровая молния\" поражает одного противника хотя бы 4 раза:раз, она создает искрящийся заряд энергии. Срабатывает один раз за применение.\n\nTags: Искусность, Шок, Урон, Молния, Мана.",
-			"zhCN": "如果一名敌人被单次球状闪电命中至少 4 次, 生成一个爆裂电花。该效果每次施法只能触发一次。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "如果一名敌人被单次球状闪电命中至少 4 次, 生成一个爆裂电花。该效果每次施法只能触发一次。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "如果敵人被單次施放的球狀閃電擊中至少 4 次,會形成一個電流能量。每次施放只能觸發一次。\n\nTags: 精通, 電能, 傷害, 電擊, 法力."
 },
 		id: 88,
 		maxPoints: 1,
@@ -3450,7 +3628,8 @@ Tags: Mastery, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Magowski Piorun Kulisty",
 			"ptBR": "Bola de Eletricidade de Mago",
 			"ruRU": "Шаровая молния мага",
-			"zhCN": "法师球状闪电"
+			"zhCN": "法师球状闪电",
+			"zhTW": "魔法師的球狀閃電"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Ihr Gegner 50-mal mit Kugelblitz getroffen habt, betäubt die Fertigkeit getroffene Gegner bei der nächsten Wirkung 1 Sek. lang.\n\nTags: Beherrschung, Schock, Schaden, Blitz, Mana.",
@@ -3463,7 +3642,8 @@ Tags: Mastery, Shock, Damage, Lightning, Mana.`,
 			"plPL": "Po trafieniu pobliskich wrogów 50 razy Piorunem Kulistym kolejny atak z użyciem tej umiejętności ogłusza trafionych wrogów na 1 sek.\n\nTags: Mistrzostwo, Porażenie, Obrażenia, Błyskawica, Mana.",
 			"ptBR": "Depois de acertar inimigos próximos 50 vezes com Bola de Eletricidade, seu próximo lançamento da habilidade atordoa inimigos atingidos por 1 segundos.\n\nTags: Maestria, Choque, Dano, Eletricidade, Mana.",
 			"ruRU": "Когда вы поражаете находящихся рядом противников \"Шаровой молнией\" 50 раза:раз, ваша следующая шаровая молния оглушает пораженные цели на 1 сек.\n\nTags: Искусность, Шок, Урон, Молния, Мана.",
-			"zhCN": "球状闪电命中近距敌人 50 次后, 你下一次施放会击晕其命中的敌人 1 秒。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力."
+			"zhCN": "球状闪电命中近距敌人 50 次后, 你下一次施放会击晕其命中的敌人 1 秒。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力.",
+			"zhTW": "球狀閃電擊中近距離敵人 50 次後,你下一次施放此法術,會使其擊中的敵人昏迷 1 秒。\n\nTags: 精通, 電能, 傷害, 電擊, 法力."
 },
 		id: 89,
 		maxPoints: 1,
@@ -3486,7 +3666,8 @@ Tags: Healthy, Pyromancy, Damage.`,
 			"plPL": "Wewnętrzne Płomienie",
 			"ptBR": "Chamas Interiores",
 			"ruRU": "Внутреннее пламя",
-			"zhCN": "心灵之火"
+			"zhCN": "心灵之火",
+			"zhTW": "怒火中燒"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Pyromaniefertigkeiten verursachen x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden, solange Ihr gesund seid.\n\nTags: Gesund, Pyromanie, Schaden.",
@@ -3499,7 +3680,8 @@ Tags: Healthy, Pyromancy, Damage.`,
 			"plPL": "Twoje umiejętności Piromancji zadają obrażenia zwiększone o x{3/6/9/12/15/18/21/24/27/30}%, kiedy jesteś w pełni sił.\n\nTags: Pełnia Sił, Piromancja, Obrażenia.",
 			"ptBR": "Suas habilidades de Piromancia causam {3/6/9/12/15/18/21/24/27/30}% de dano aumentado enquanto você estiver saudável.\n\nTags: Saudável, Piromancia, Dano.",
 			"ruRU": "Ваши умения категории \"Пиромантия\" наносят на x{3/6/9/12/15/18/21/24/27/30}% больше урона, пока у вас высокий уровень здоровья.\n\nTags: Высокое здоровье, Пиромантия, Урон.",
-			"zhCN": "健康状态下, 你的爆焰技能造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 健康, 爆焰, 伤害."
+			"zhCN": "健康状态下, 你的爆焰技能造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 健康, 爆焰, 伤害.",
+			"zhTW": "當你健康時,你的焰術技能傷害提高 x{3/6/9/12/15/18/21/24/27/30}%。\n\nTags: 健康, 焰術, 傷害."
 },
 		id: 90,
 		maxPoints: 3,
@@ -3522,7 +3704,8 @@ Tags: Healthy, Lucky Hit, Crowd Control, Pyromancy.`,
 			"plPL": "Okaleczające Płomienie",
 			"ptBR": "Chamas Incapacitantes",
 			"ruRU": "Увечащее пламя",
-			"zhCN": "致残烈焰"
+			"zhCN": "致残烈焰",
+			"zhTW": "致殘烈焰"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Eure Pyromaniefertigkeiten verfügen über eine Chance von bis zu {5/10/15/20/25/30/35/40/45/50}%, Gegner 2 Sek. lang bewegungsunfähig zu machen. Diese Chance verdoppelt sich, solange Ihr gesund seid.\n\nTags: Gesund, Glückstreffer, Kontrollverlust, Pyromanie.",
@@ -3535,7 +3718,8 @@ Tags: Healthy, Lucky Hit, Crowd Control, Pyromancy.`,
 			"plPL": "Szczęśliwy traf: Twoje umiejętności Piromancji mają maksymalnie {5/10/15/20/25/30/35/40/45/50}% szans na unieruchomienie wrogów na 2 sek. Szansa ta jest podwojona, kiedy jesteś w pełni sił.\n\nTags: Pełnia Sił, Szczęśliwy Traf, Ograniczanie Kontroli, Piromancja.",
 			"ptBR": "Golpe de Sorte: Suas habilidades de Piromancia têm até {5/10/15/20/25/30/35/40/45/50}% de chance de imobilizar inimigos por 2 segundos. Essa chance é dobrada enquanto você estiver saudável.\n\nTags: Saudável, Golpe de Sorte, Controle de Grupo, Piromancia.",
 			"ruRU": "Удачный удар: ваши умения категории \"Пиромантия\" с вероятностью до {5/10/15/20/25/30/35/40/45/50}% обездвиживают противников на 2 сек. Вероятность удваивается, пока у вас высокий уровень здоровья.\n\nTags: Высокое здоровье, Удачный удар, Контроль, Пиромантия.",
-			"zhCN": "幸运一击: 你的爆焰技能最多有 {5/10/15/20/25/30/35/40/45/50}% 几率使敌人定身 2 秒。该几率在你处于健康状态时翻倍。\n\nTags: 健康, 幸运一击, 群控, 爆焰."
+			"zhCN": "幸运一击: 你的爆焰技能最多有 {5/10/15/20/25/30/35/40/45/50}% 几率使敌人定身 2 秒。该几率在你处于健康状态时翻倍。\n\nTags: 健康, 幸运一击, 群控, 爆焰.",
+			"zhTW": "幸運觸發:你的焰術技能有最多 {5/10/15/20/25/30/35/40/45/50}% 的機率使敵人定身 2 秒。當你健康時,此機率加倍。\n\nTags: 健康, 幸運觸發, 控場, 焰術."
 },
 		id: 132,
 		maxPoints: 3,
@@ -3558,7 +3742,8 @@ Tags: Damage, Burn, Critical Strikes, Crowd Control.`,
 			"plPL": "Pochłaniająca Pożoga",
 			"ptBR": "Fogo Devorador",
 			"ruRU": "Всепоглощающее пламя",
-			"zhCN": "吞噬烈焰"
+			"zhCN": "吞噬烈焰",
+			"zhTW": "吞噬之火"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt brennenden Gegnern x{10/20/30/40/50/60/70/80/90/100}% mehr kritischen Trefferschaden zu. Wenn sie außerdem bewegungsunfähig sind, erhöht sich dieser Bonus auf x{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Schaden, Verbrennung, Kritische Treffer, Kontrollverlust.",
@@ -3571,7 +3756,8 @@ Tags: Damage, Burn, Critical Strikes, Crowd Control.`,
 			"plPL": "Zadajesz obrażenia od trafień krytycznych zwiększone o x{10/20/30/40/50/60/70/80/90/100}% podpalonym wrogom. Jeśli są także unieruchomieni, premia ta wzrasta do x{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Obrażenia, Podpalenie, Trafienia Krytyczne, Ograniczanie Kontroli.",
 			"ptBR": "Você causa {10/20/30/40/50/60/70/80/90/100}% de dano de acerto crítico aumentado contra inimigos que estão queimando. Se eles também estiverem imobilizados, esse bônus é aumentado para {25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Dano, Queimadura, Acertos Críticos, Controle de Grupo.",
 			"ruRU": "Вы наносите на x{10/20/30/40/50/60/70/80/90/100}% больше критического урона подожженным противникам. Если противники еще и обездвижены, прибавка увеличивается на x{25/50/75/100/125/150/175/200/225/250}%.\n\nTags: Урон, Горение, Критические удары, Контроль.",
-			"zhCN": "你对燃烧的敌人造成的暴击伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。如果该敌人还被定身, 则该加成提高至 x{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 伤害, 燃烧, 暴击, 群控."
+			"zhCN": "你对燃烧的敌人造成的暴击伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。如果该敌人还被定身, 则该加成提高至 x{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 伤害, 燃烧, 暴击, 群控.",
+			"zhTW": "你對燃燒敵人造成的爆擊傷害提高 x{10/20/30/40/50/60/70/80/90/100}%。若其同時處於定身狀態,此加成效果提高至 x{25/50/75/100/125/150/175/200/225/250}%。\n\nTags: 傷害, 燃燒, 爆擊, 控場."
 },
 		id: 133,
 		maxPoints: 3,
@@ -3594,7 +3780,8 @@ Tags: Crackling Energy, Shock, Lucky Hit, Critical Strikes.`,
 			"plPL": "Wyładowanie Statyczne",
 			"ptBR": "Descarga Estática",
 			"ruRU": "Статический разряд",
-			"zhCN": "静电释能"
+			"zhCN": "静电释能",
+			"zhTW": "靜電迸發"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Kritische Treffer mit Schockfertigkeiten verfügen über eine Chance von bis zu {5/10/15/20/25/30/35/40/45/50}%, Knisternde Energie zu erzeugen.\n\nTags: Knisternde Energie, Schock, Glückstreffer, Kritische Treffer.",
@@ -3607,7 +3794,8 @@ Tags: Crackling Energy, Shock, Lucky Hit, Critical Strikes.`,
 			"plPL": "Szczęśliwy traf: Trafienie wrogów umiejętnościami Porażenia ma do {5/10/15/20/25/30/35/40/45/50}% szans na stworzenie Roziskrzonej Energii.\n\nTags: Roziskrzona Energia, Porażenie, Szczęśliwy Traf, Trafienia Krytyczne.",
 			"ptBR": "Golpe de Sorte: Acertos críticos com habilidades de Choque têm até {5/10/15/20/25/30/35/40/45/50}% de chance de formar uma Energia Crepitante.\n\nTags: Energia Crepitante, Choque, Golpe de Sorte, Acertos Críticos.",
 			"ruRU": "Удачный удар: критические удары умениями шока с вероятностью до {5/10/15/20/25/30/35/40/45/50}% создают искрящиеся заряды энергии.\n\nTags: Искрящийся заряд энергии, Шок, Удачный удар, Критические удары.",
-			"zhCN": "幸运一击: 电冲技能暴击时, 有最高 {5/10/15/20/25/30/35/40/45/50}% 几率生成一个爆裂电花。\n\nTags: 爆裂电花, 电冲, 幸运一击, 暴击."
+			"zhCN": "幸运一击: 电冲技能暴击时, 有最高 {5/10/15/20/25/30/35/40/45/50}% 几率生成一个爆裂电花。\n\nTags: 爆裂电花, 电冲, 幸运一击, 暴击.",
+			"zhTW": "幸運觸發:電能技能爆擊有最高 {5/10/15/20/25/30/35/40/45/50}% 機率產生電流能量。\n\nTags: 電流能量, 電能, 幸運觸發, 爆擊."
 },
 		id: 94,
 		maxPoints: 3,
@@ -3630,7 +3818,8 @@ Tags: Crackling Energy, Mana.`,
 			"plPL": "Ożywcza Konduktywność",
 			"ptBR": "Condutor Revigorante",
 			"ruRU": "Бодрящий проводник",
-			"zhCN": "激发导体"
+			"zhCN": "激发导体",
+			"zhTW": "充能引導"
 },
 		descriptionLocalized: {
 			"deDE": "Bei der Absorption von Knisternde Energie erhaltet Ihr {4/8/12/16/20/24/28/32/36/40} Mana.\n\nTags: Knisternde Energie, Mana.",
@@ -3643,7 +3832,8 @@ Tags: Crackling Energy, Mana.`,
 			"plPL": "Pochłonięcie Roziskrzonej Energii zapewnia ci {4/8/12/16/20/24/28/32/36/40} pkt. many.\n\nTags: Roziskrzona Energia, Mana.",
 			"ptBR": "Ao absorver Energia Crepitante, você recebe {4/8/12/16/20/24/28/32/36/40} de mana.\n\nTags: Energia Crepitante, Mana.",
 			"ruRU": "При сборе искрящиеся заряды энергии восполняют {4/8/12/16/20/24/28/32/36/40} ед. маны.\n\nTags: Искрящийся заряд энергии, Мана.",
-			"zhCN": "吸收爆裂电花时, 你会获得 {4/8/12/16/20/24/28/32/36/40} 点法力。\n\nTags: 爆裂电花, 法力."
+			"zhCN": "吸收爆裂电花时, 你会获得 {4/8/12/16/20/24/28/32/36/40} 点法力。\n\nTags: 爆裂电花, 法力.",
+			"zhTW": "吸收電流能量時,你獲得 {4/8/12/16/20/24/28/32/36/40} 點法力。\n\nTags: 電流能量, 法力."
 },
 		id: 134,
 		maxPoints: 3,
@@ -3666,7 +3856,8 @@ Tags: Damage, Crowd Control, Lightning.`,
 			"plPL": "Porażające Zderzenie",
 			"ptBR": "Impacto Elétrico",
 			"ruRU": "Импульс шока",
-			"zhCN": "电冲震击"
+			"zhCN": "电冲震击",
+			"zhTW": "電能震擊"
 },
 		descriptionLocalized: {
 			"deDE": "Jedes Mal, wenn Ihr einen Gegner betäubt, fügt Ihr ihm {15/30/45/60/75/90/105/120/135/150}% Blitzschaden zu.\n\nTags: Schaden, Kontrollverlust, Blitz.",
@@ -3679,7 +3870,8 @@ Tags: Damage, Crowd Control, Lightning.`,
 			"plPL": "Za każdym razem, gdy ogłuszasz wroga, zadajesz mu {15/30/45/60/75/90/105/120/135/150}% obrażeń od Błyskawic.\n\nTags: Obrażenia, Ograniczanie Kontroli, Błyskawica.",
 			"ptBR": "Sempre que você atordoar um inimigo, você causa {15/30/45/60/75/90/105/120/135/150}% de dano elétrico a ele.\n\nTags: Dano, Controle de Grupo, Eletricidade.",
 			"ruRU": "Оглушая противника, вы наносите ему {15/30/45/60/75/90/105/120/135/150}% ед. урона от молнии.\n\nTags: Урон, Контроль, Молния.",
-			"zhCN": "每次你击晕一名敌人, 都会对其造成 {15/30/45/60/75/90/105/120/135/150}% 点闪电伤害。\n\nTags: 伤害, 群控, 闪电."
+			"zhCN": "每次你击晕一名敌人, 都会对其造成 {15/30/45/60/75/90/105/120/135/150}% 点闪电伤害。\n\nTags: 伤害, 群控, 闪电.",
+			"zhTW": "你每次擊昏敵人時,對其造成 {15/30/45/60/75/90/105/120/135/150}% 點電擊傷害。\n\nTags: 傷害, 控場, 電擊."
 },
 		id: 95,
 		maxPoints: 3,
@@ -3702,7 +3894,8 @@ Tags: Barrier.`,
 			"plPL": "Lodowy Całun",
 			"ptBR": "Véu Gélido",
 			"ruRU": "Ледяная завеса",
-			"zhCN": "寒冰帷幕"
+			"zhCN": "寒冰帷幕",
+			"zhTW": "寒冰帷幕"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Barrieren halten +{5/10/15/20/25/30/35/40/45/50}% länger an.\n\nTags: Barriere.",
@@ -3715,7 +3908,8 @@ Tags: Barrier.`,
 			"plPL": "Czas działania twoich barier jest wydłużony o +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Bariera.",
 			"ptBR": "Suas barreiras têm +{5/10/15/20/25/30/35/40/45/50}% de duração aumentada.\n\nTags: Barreira.",
 			"ruRU": "Ваши барьеры действуют на x{5/10/15/20/25/30/35/40/45/50}% дольше.\n\nTags: Барьер.",
-			"zhCN": "你的屏障持续时间延长 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 屏障."
+			"zhCN": "你的屏障持续时间延长 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 屏障.",
+			"zhTW": "你的屏障持續時間延長 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 屏障."
 },
 		id: 96,
 		maxPoints: 3,
@@ -3738,7 +3932,8 @@ Tags: Frozen, Lucky Hit, Crowd Control, Frost.`,
 			"plPL": "Nagły Mróz",
 			"ptBR": "Congelamento Súbito",
 			"ruRU": "Мгновенная заморозка",
-			"zhCN": "急速冻结"
+			"zhCN": "急速冻结",
+			"zhTW": "急速冷凍"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Frostfertigkeiten verfügen über eine Chance von bis zu {3/6/9/12/15/18/21/24/27/30}%, Gegner einzufrieren.\n\nTags: Eingefroren, Glückstreffer, Kontrollverlust, Frost.",
@@ -3751,7 +3946,8 @@ Tags: Frozen, Lucky Hit, Crowd Control, Frost.`,
 			"plPL": "Szczęśliwy traf: Twoje umiejętności Lodu mają maksymalnie {3/6/9/12/15/18/21/24/27/30}% szans na natychmiastowe zamrożenie celu.\n\nTags: Zamrożenie, Szczęśliwy Traf, Ograniczanie Kontroli, Lód.",
 			"ptBR": "Golpe de Sorte: Habilidades de Geleira têm até {3/6/9/12/15/18/21/24/27/30}% de chance de congelar instantaneamente.\n\nTags: Congelado, Golpe de Sorte, Controle de Grupo, Geleira.",
 			"ruRU": "Удачный удар: умения мороза с вероятностью до {3/6/9/12/15/18/21/24/27/30}% мгновенно замораживают цель.\n\nTags: Заморозка, Удачный удар, Контроль, Мороз.",
-			"zhCN": "幸运一击: 冰霜技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率立即冻结敌人。\n\nTags: 冻结, 幸运一击, 群控, 寒霜."
+			"zhCN": "幸运一击: 冰霜技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率立即冻结敌人。\n\nTags: 冻结, 幸运一击, 群控, 寒霜.",
+			"zhTW": "幸運觸發:冰霜技能有最多 {3/6/9/12/15/18/21/24/27/30}% 的機率立刻冰凍敵人。\n\nTags: 凍結, 幸運觸發, 控場, 冰霜."
 },
 		id: 135,
 		maxPoints: 3,
@@ -3774,7 +3970,8 @@ Tags: Barrier, Chill, Crowd Control.`,
 			"plPL": "Front Chłodu",
 			"ptBR": "Frente Fria",
 			"ruRU": "Холодный фронт",
-			"zhCN": "冰冷之锋"
+			"zhCN": "冰冷之锋",
+			"zhTW": "冷鋒侵襲"
 },
 		descriptionLocalized: {
 			"deDE": "Solange eine Barriere aktiv ist, belegt Ihr Gegner mit x{8/16/24/32/40/48/56/64/72/80}% mehr Unterkühlung.\n\nTags: Barriere, Unterkühlen, Kontrollverlust.",
@@ -3787,7 +3984,8 @@ Tags: Barrier, Chill, Crowd Control.`,
 			"plPL": "Kiedy masz aktywną barierę, powodujesz o x{8/16/24/32/40/48/56/64/72/80}% więcej wyziębienia.\n\nTags: Bariera, Wyziębienie, Ograniczanie Kontroli.",
 			"ptBR": "Enquanto tiver uma barreira ativa, você aplica {8/16/24/32/40/48/56/64/72/80}% a mais de gelidez.\n\nTags: Barreira, Gelidez, Controle de Grupo.",
 			"ruRU": "Пока действует барьер, ваши эффекты окоченения усиливаются на {8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Барьер, Окоченение, Контроль.",
-			"zhCN": "当你有激活的屏障时, 你施加的冻伤提高 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 屏障, 冻伤, 群控."
+			"zhCN": "当你有激活的屏障时, 你施加的冻伤提高 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 屏障, 冻伤, 群控.",
+			"zhTW": "當你擁有作用中的屏障時,你造成的冰冷效果提高 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 屏障, 冰冷, 控場."
 },
 		id: 98,
 		maxPoints: 3,
@@ -3815,7 +4013,8 @@ Each time an enemy takes Burning damage, there's a 5% chance to spawn 2 Firewall
 			"plPL": "Ściana Ognia",
 			"ptBR": "Parede de Chamas",
 			"ruRU": "Стена огня",
-			"zhCN": "火墙"
+			"zhCN": "火墙",
+			"zhTW": "火牆術"
 },
 		descriptionLocalized: {
 			"deDE": "Manakosten: {#}\nGlückstrefferchance: 30%\nErzeugt eine Feuerwand, die Gegner im Verlauf von 8 Sek. verbrennt und ihnen dabei {160/176/192/208/224/240/256/272/288/304}% Schaden zufügt.\n\nTags: Beherrschung, Pyromanie, Schaden, Verbrennung, Mana.\n\n— Enchantment Effect —\nJedes Mal, wenn ein Gegner Verbrennungsschaden erleidet, besteht eine Chance von 5%, dass 3 Sek. lang 2 Feuerwände unter ihm erscheinen.",
@@ -3828,7 +4027,8 @@ Each time an enemy takes Burning damage, there's a 5% chance to spawn 2 Firewall
 			"plPL": "Koszt: {#} pkt. many\nSzansa na szczęśliwy traf: 30%\nTworzysz ścianę płomieni, która podpala wrogów, zadając im {160/176/192/208/224/240/256/272/288/304}% pkt. obrażeń w ciągu 8 sek.\n\nTags: Mistrzostwo, Piromancja, Obrażenia, Podpalenie, Mana.\n\n— Enchantment Effect —\nZa każdym razem, gdy wróg otrzymuje obrażenia od podpalenia, istnieje 5% szans na utworzenie pod nim 2 Ścian Ognia na 3 sek.",
 			"ptBR": "Custo de mana: {#}\nChance de Golpe de Sorte:30%\nCria uma parede de chamas que queima inimigos por {160/176/192/208/224/240/256/272/288/304}% ao longo de 8 segundos.\n\nTags: Maestria, Piromancia, Dano, Queimadura, Mana.\n\n— Enchantment Effect —\nSempre que um inimigo recebe dano flamejante, há 5% de chance de gerar 2 Paredes de Chamas embaixo dele por 3 segundos.",
 			"ruRU": "Затраты маны: {#} ед.\nВероятность удачного удара: 30%.\nВы создаете стену огня, наносящую противникам {160/176/192/208/224/240/256/272/288/304}% ед. урона от огня за 8 сек.\n\nTags: Искусность, Пиромантия, Урон, Горение, Мана.\n\n— Enchantment Effect —\nКаждый раз, когда противник получает урон от горения, под ним с вероятностью 5% возникают 2 стены огня, существующие 3 сек.",
-			"zhCN": "法力消耗: {#}\n幸运一击几率: 30%\n制造一道烈焰墙使敌人燃烧, 在 8 秒内造成 {160/176/192/208/224/240/256/272/288/304}% 点伤害。\n\nTags: 掌控, 爆焰, 伤害, 燃烧, 法力.\n\n— Enchantment Effect —\n每次敌人受到燃烧伤害时, 都有 5% 几率在其脚下召唤 2 道火墙, 持续 3 秒。"
+			"zhCN": "法力消耗: {#}\n幸运一击几率: 30%\n制造一道烈焰墙使敌人燃烧, 在 8 秒内造成 {160/176/192/208/224/240/256/272/288/304}% 点伤害。\n\nTags: 掌控, 爆焰, 伤害, 燃烧, 法力.\n\n— Enchantment Effect —\n每次敌人受到燃烧伤害时, 都有 5% 几率在其脚下召唤 2 道火墙, 持续 3 秒。",
+			"zhTW": "法力消耗:{#}\n幸運觸發機率:30%\n創造一道焚燒敵人的火焰之牆,在 8 秒內造成 {160/176/192/208/224/240/256/272/288/304}% 點傷害。\n\nTags: 精通, 焰術, 傷害, 燃燒, 法力.\n\n— Enchantment Effect —\n敵人每次承受燃燒傷害時,有 5% 機率在其下方生成 2 道火牆,持續 3 秒。"
 },
 		id: 99,
 		maxPoints: 5,
@@ -3853,7 +4053,8 @@ Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 			"plPL": "Wzmocniona Ściana Ognia",
 			"ptBR": "Parede de Chamas Aperfeiçoada",
 			"ruRU": "Усиленная стена огня",
-			"zhCN": "强化火墙"
+			"zhCN": "强化火墙",
+			"zhTW": "強化火牆術"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner erleiden x25% mehr Verbrennungsschaden durch Euch, während sie im Wirkungsbereich der Feuerwand stehen.\n\nTags: Beherrschung, Pyromanie, Schaden, Verbrennung, Mana.",
@@ -3866,7 +4067,8 @@ Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 			"plPL": "Wrogowie stojący w Ścianie Ognia otrzymują zwiększone o x25% obrażenia od podpalenia ze wszystkich źródeł.\n\nTags: Mistrzostwo, Piromancja, Obrażenia, Podpalenie, Mana.",
 			"ptBR": "Inimigos recebem 25% de dano flamejante aumentado de você enquanto estiverem na Parede de Chamas.\n\nTags: Maestria, Piromancia, Dano, Queimadura, Mana.",
 			"ruRU": "Противники, находящиеся в области действия \"Стены огня\", получают от вас на x25% больше урона от горения.\n\nTags: Искусность, Пиромантия, Урон, Горение, Мана.",
-			"zhCN": "你对站在火墙内的敌人造成的燃烧伤害提高 x25%。\n\nTags: 掌控, 爆焰, 伤害, 燃烧, 法力."
+			"zhCN": "你对站在火墙内的敌人造成的燃烧伤害提高 x25%。\n\nTags: 掌控, 爆焰, 伤害, 燃烧, 法力.",
+			"zhTW": "站在火牆內的敵人,你對其造成的燃燒傷害提高 x25%。\n\nTags: 精通, 焰術, 傷害, 燃燒, 法力."
 },
 		id: 100,
 		maxPoints: 1,
@@ -3890,7 +4092,8 @@ Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 			"plPL": "Czarownicza Ściana Ognia",
 			"ptBR": "Parede de Chamas de Arcanista",
 			"ruRU": "Стена огня чародея",
-			"zhCN": "巫师火墙"
+			"zhCN": "巫师火墙",
+			"zhTW": "秘術師的火牆術"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr erhaltet x5% mehr Manaregeneration pro Feuerwand, bis maximal x25%.\n\nTags: Beherrschung, Pyromanie, Schaden, Verbrennung, Mana.",
@@ -3903,7 +4106,8 @@ Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 			"plPL": "Zyskujesz premię x5% do regeneracji many za każdą aktywną Ścianę Ognia, maksymalnie do x25%.\n\nTags: Mistrzostwo, Piromancja, Obrażenia, Podpalenie, Mana.",
 			"ptBR": "Você recebe 5% de regeneração de mana aumentada por Parede de Chamas ativa, até 25%.\n\nTags: Maestria, Piromancia, Dano, Queimadura, Mana.",
 			"ruRU": "Скорость восстановления маны повышается на x5% за каждую активную \"Стену огня\" вплоть до x25%.\n\nTags: Искусность, Пиромантия, Урон, Горение, Мана.",
-			"zhCN": "每道激活的火墙都会使你的法力回复速度提高 x5%, 最多提高 x25%。\n\nTags: 掌控, 爆焰, 伤害, 燃烧, 法力."
+			"zhCN": "每道激活的火墙都会使你的法力回复速度提高 x5%, 最多提高 x25%。\n\nTags: 掌控, 爆焰, 伤害, 燃烧, 法力.",
+			"zhTW": "每道作用中的火牆可使你的法力恢復率提高 x5%,最多提高 x25%。\n\nTags: 精通, 焰術, 傷害, 燃燒, 法力."
 },
 		id: 101,
 		maxPoints: 1,
@@ -3927,7 +4131,8 @@ Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 			"plPL": "Magowska Ściana Ognia",
 			"ptBR": "Parede de Chamas de Mago",
 			"ruRU": "Стена огня мага",
-			"zhCN": "法师火墙"
+			"zhCN": "法师火墙",
+			"zhTW": "魔法師的火牆術"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner brennen noch 3 Sek. lang, nachdem sie den Wirkungsbereich der Feuerwand verlassen.\n\nTags: Beherrschung, Pyromanie, Schaden, Verbrennung, Mana.",
@@ -3940,7 +4145,8 @@ Tags: Mastery, Pyromancy, Damage, Burn, Mana.`,
 			"plPL": "Wrogowie są podpaleni przez 3 sek. po opuszczeniu Ściany Ognia.\n\nTags: Mistrzostwo, Piromancja, Obrażenia, Podpalenie, Mana.",
 			"ptBR": "Os inimigos continuam queimando por 3 segundos depois de saírem da Parede de Chamas.\n\nTags: Maestria, Piromancia, Dano, Queimadura, Mana.",
 			"ruRU": "Противники, покинувшие область действия \"Стены огня\", продолжают гореть еще в течение 3 сек.\n\nTags: Искусность, Пиромантия, Урон, Горение, Мана.",
-			"zhCN": "敌人离开火墙后会继续燃烧 3 秒。\n\nTags: 掌控, 爆焰, 伤害, 燃烧, 法力."
+			"zhCN": "敌人离开火墙后会继续燃烧 3 秒。\n\nTags: 掌控, 爆焰, 伤害, 燃烧, 法力.",
+			"zhTW": "敵人離開火牆後會持續燃燒 3 秒。\n\nTags: 精通, 焰術, 傷害, 燃燒, 法力."
 },
 		id: 102,
 		maxPoints: 1,
@@ -3968,7 +4174,8 @@ Tags: Ultimate, Pyromancy, Damage, Burn, Cooldown.`,
 			"plPL": "Inferno",
 			"ptBR": "Inferno",
 			"ruRU": "Инферно",
-			"zhCN": "炼狱烈焰"
+			"zhCN": "炼狱烈焰",
+			"zhTW": "煉獄之火"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#}\nGlückstrefferchance: 10%\nBeschwört eine feurige Schlange, die den Zielbereich kontinuierlich einengt und Gegner verbrennt, wodurch sie im Verlauf von 8 Sek. 295% Schaden erleiden.\n\nTags: Ultimativ, Pyromanie, Schaden, Verbrennung, Abklingzeit.",
@@ -3981,7 +4188,8 @@ Tags: Ultimate, Pyromancy, Damage, Burn, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 10%\nPrzywołujesz ognistego węża, który zaciska się wokół wskazanego obszaru oraz podpala wrogów, zadając im 295% pkt. obrażeń w ciągu 8 sek.\n\nTags: Specjalne, Piromancja, Obrażenia, Podpalenie, Odnowienie.",
 			"ptBR": "Recarga: {#}\nChance de Golpe de Sorte: 10%\nEvoca uma serpente de fogo que restringe continuamente a área selecionada, queimando os inimigos e causando 295% de dano ao longo de 8 segundos.\n\nTags: Suprema, Piromancia, Dano, Queimadura, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 10%\nПризывает огненного змея, который обвивает указанную область, обжигая врагов и нанося им 295% ед. урона за 8 сек.\n\nTags: Мощное умение, Пиромантия, Урон, Горение, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 10%\n召唤一条不断向目标区域收紧的火蛇, 在 8 秒内燃烧敌人, 造成 295% 点伤害。\n\nTags: 终极技能, 爆焰, 伤害, 燃烧, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 10%\n召唤一条不断向目标区域收紧的火蛇, 在 8 秒内燃烧敌人, 造成 295% 点伤害。\n\nTags: 终极技能, 爆焰, 伤害, 燃烧, 冷却时间.",
+			"zhTW": "冷卻時間:{#}\n幸運觸發機率:10%\n召喚猛烈燃燒的火蛇持續束縛目標區域,在 8 秒內對敵人造成 295% 點燃燒傷害。\n\nTags: 絕招, 焰術, 傷害, 燃燒, 冷卻時間."
 },
 		id: 103,
 		maxPoints: 1,
@@ -4006,7 +4214,8 @@ Tags: Ultimate, Pyromancy, Damage, Burn, Cooldown.`,
 			"plPL": "Większe Inferno",
 			"ptBR": "Inferno Primordial",
 			"ruRU": "Первородный инферно",
-			"zhCN": "至尊炼狱烈焰"
+			"zhCN": "至尊炼狱烈焰",
+			"zhTW": "強烈煉獄之火"
 },
 		descriptionLocalized: {
 			"deDE": "Inferno zieht Gegner wiederholt in seine Mitte.\n\nTags: Ultimativ, Pyromanie, Schaden, Verbrennung, Abklingzeit.",
@@ -4019,7 +4228,8 @@ Tags: Ultimate, Pyromancy, Damage, Burn, Cooldown.`,
 			"plPL": "Inferno wielokrotnie przyciąga wrogów do środka.\n\nTags: Specjalne, Piromancja, Obrażenia, Podpalenie, Odnowienie.",
 			"ptBR": "Inferno puxa os inimigos para o centro várias vezes.\n\nTags: Suprema, Piromancia, Dano, Queimadura, Recarga.",
 			"ruRU": "\"Инферно\" время от времени притягивает противников в центр области поражения.\n\nTags: Мощное умение, Пиромантия, Урон, Горение, Время восстановления.",
-			"zhCN": "炼狱烈焰会不断将敌人牵引向其中心。\n\nTags: 终极技能, 爆焰, 伤害, 燃烧, 冷却时间."
+			"zhCN": "炼狱烈焰会不断将敌人牵引向其中心。\n\nTags: 终极技能, 爆焰, 伤害, 燃烧, 冷却时间.",
+			"zhTW": "煉獄之火會不停將敵人拉向其中心。\n\nTags: 絕招, 焰術, 傷害, 燃燒, 冷卻時間."
 },
 		id: 104,
 		maxPoints: 1,
@@ -4043,7 +4253,8 @@ Tags: Ultimate, Pyromancy, Damage, Burn, Cooldown.`,
 			"plPL": "Największe Inferno",
 			"ptBR": "Inferno Supremo",
 			"ruRU": "Неотвратимый инферно",
-			"zhCN": "至极炼狱烈焰"
+			"zhCN": "至极炼狱烈焰",
+			"zhTW": "終極煉獄之火"
 },
 		descriptionLocalized: {
 			"deDE": "Während Inferno aktiv ist, kosten Eure Pyromaniefertigkeiten kein Mana.\n\nTags: Ultimativ, Pyromanie, Schaden, Verbrennung, Abklingzeit.",
@@ -4056,7 +4267,8 @@ Tags: Ultimate, Pyromancy, Damage, Burn, Cooldown.`,
 			"plPL": "Kiedy Inferno jest aktywne, twoje umiejętności Piromancji nie zużywają many.\n\nTags: Specjalne, Piromancja, Obrażenia, Podpalenie, Odnowienie.",
 			"ptBR": "Enquanto Inferno está ativo, suas habilidades de Piromancia não custam mana.\n\nTags: Suprema, Piromancia, Dano, Queimadura, Recarga.",
 			"ruRU": "Пока действует \"Инферно\", умения категории \"Пиромантия\" не требуют затрат маны.\n\nTags: Мощное умение, Пиромантия, Урон, Горение, Время восстановления.",
-			"zhCN": "炼狱烈焰激活期间, 你的爆焰技能不消耗法力。\n\nTags: 终极技能, 爆焰, 伤害, 燃烧, 冷却时间."
+			"zhCN": "炼狱烈焰激活期间, 你的爆焰技能不消耗法力。\n\nTags: 终极技能, 爆焰, 伤害, 燃烧, 冷却时间.",
+			"zhTW": "煉獄之火持續期間,你的焰術技能不消耗法力。\n\nTags: 絕招, 焰術, 傷害, 燃燒, 冷卻時間."
 },
 		id: 105,
 		maxPoints: 1,
@@ -4080,7 +4292,8 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Niestabilne Prądy",
 			"ptBR": "Correntes Instáveis",
 			"ruRU": "Бурный поток",
-			"zhCN": "不稳电流"
+			"zhCN": "不稳电流",
+			"zhTW": "不穩電流"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#}\nBlitze durchströmen Euch 10 Sek. lang. Jedes Mal, wenn Ihr eine Schockfertigkeit wirkt, wird eine weitere zufällige Basis-, Beschwörungs-, Beherrschungs- oder Schockfertigkeit gewirkt.\n\nTags: Ultimativ, Schock, Schaden, Blitz, Abklingzeit.",
@@ -4093,7 +4306,8 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Czas odnowienia: {#} sek.\nWyzwalasz w sobie moc błyskawic na 10 sek. Za każdym razem, gdy używasz umiejętności Porażenia, towarzyszy jej inna losowa umiejętność Główna, Przyzywania, Mistrzostwa lub Porażenia.\n\nTags: Specjalne, Porażenie, Obrażenia, Błyskawica, Odnowienie.",
 			"ptBR": "Recarga: {#}\nA eletricidade aumenta em você por 10 segundos. Sempre que você lançar uma habilidade de Eletricidade, uma habilidade aleatória de Eletricidade também é lançada, podendo ser Principal, Conjuração ou Maestria.\n\nTags: Suprema, Choque, Dano, Eletricidade, Recarga.",
 			"ruRU": "Время восстановления: {#} сек.\nВас на 10 сек. наполняет сила молнии. Когда вы применяете умение шока, автоматически срабатывает другое случайное умение шока категории \"Основное\", \"Колдовство\" или \"Искусность\".\n\nTags: Мощное умение, Шок, Урон, Молния, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n闪电在你体内涌动, 持续 10 秒。每当你施放电冲技能时, 也会随机施放一个核心 、召唤魔法或掌控电冲技能。\n\nTags: 终极技能, 电冲, 伤害, 闪电, 冷却时间."
+			"zhCN": "冷却时间: {#} 秒\n闪电在你体内涌动, 持续 10 秒。每当你施放电冲技能时, 也会随机施放一个核心 、召唤魔法或掌控电冲技能。\n\nTags: 终极技能, 电冲, 伤害, 闪电, 冷却时间.",
+			"zhTW": "冷卻時間:{#}\n你的體內湧現閃電能量,持續 10 秒。每當你施放電能法術時,也會施放一個隨機的核心、咒喚或精通電能法術。\n\nTags: 絕招, 電能, 傷害, 電擊, 冷卻時間."
 },
 		id: 106,
 		maxPoints: 1,
@@ -4118,7 +4332,8 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Większe Niestabilne Prądy",
 			"ptBR": "Correntes Instáveis Primordiais",
 			"ruRU": "Первородный бурный поток",
-			"zhCN": "至尊不稳电流"
+			"zhCN": "至尊不稳电流",
+			"zhTW": "強烈不穩電流"
 },
 		descriptionLocalized: {
 			"deDE": "Instabile Strömung erhöht Eure Angriffsgeschwindigkeit um +25%, solange die Fertigkeit aktiv ist.\n\nTags: Ultimativ, Schock, Schaden, Blitz, Abklingzeit.",
@@ -4131,7 +4346,8 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Kiedy Niestabilne Prądy są aktywne, twoja szybkość ataku jest zwiększona o +25%.\n\nTags: Specjalne, Porażenie, Obrażenia, Błyskawica, Odnowienie.",
 			"ptBR": "Correntes Instáveis aumenta sua velocidade de ataque em +25% enquanto ativa.\n\nTags: Suprema, Choque, Dano, Eletricidade, Recarga.",
 			"ruRU": "\"Бурный поток\" повышает скорость атаки на +25%.\n\nTags: Мощное умение, Шок, Урон, Молния, Время восстановления.",
-			"zhCN": "不稳电流激活时, 你的攻击速度提高 +25%。\n\nTags: 终极技能, 电冲, 伤害, 闪电, 冷却时间."
+			"zhCN": "不稳电流激活时, 你的攻击速度提高 +25%。\n\nTags: 终极技能, 电冲, 伤害, 闪电, 冷却时间.",
+			"zhTW": "不穩電流啟動期間,你的攻擊速度提高 +25%。\n\nTags: 絕招, 電能, 傷害, 電擊, 冷卻時間."
 },
 		id: 107,
 		maxPoints: 1,
@@ -4155,7 +4371,8 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Największe Niestabilne Prądy",
 			"ptBR": "Correntes Instáveis Supremas",
 			"ruRU": "Неотвратимый бурный поток",
-			"zhCN": "至极不稳电流"
+			"zhCN": "至极不稳电流",
+			"zhTW": "終極不穩電流"
 },
 		descriptionLocalized: {
 			"deDE": "Während Instabile Strömung aktiv ist, pulsiert Knisternde Energie kontinuierlich und verbraucht keine Aufladungen.\n\nTags: Ultimativ, Schock, Schaden, Blitz, Abklingzeit.",
@@ -4168,7 +4385,8 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 			"plPL": "Kiedy Niestabilne Prądy są aktywne, Roziskrzona Energia nieprzerwanie pulsuje i nie zużywa ładunków.\n\nTags: Specjalne, Porażenie, Obrażenia, Błyskawica, Odnowienie.",
 			"ptBR": "Enquanto Correntes Instáveis está ativa, Energia Crepitante pulsa de forma contínua e não consome cargas.\n\nTags: Suprema, Choque, Dano, Eletricidade, Recarga.",
 			"ruRU": "Пока действует \"Бурный поток\", искрящийся заряд энергии непрерывно пульсирует и не поглощает заряды.\n\nTags: Мощное умение, Шок, Урон, Молния, Время восстановления.",
-			"zhCN": "不稳电流激活时, 爆裂电花持续脉冲而不消耗充能。\n\nTags: 终极技能, 电冲, 伤害, 闪电, 冷却时间."
+			"zhCN": "不稳电流激活时, 爆裂电花持续脉冲而不消耗充能。\n\nTags: 终极技能, 电冲, 伤害, 闪电, 冷却时间.",
+			"zhTW": "在不穩電流效果期間,電流能量會持續脈動,且不消耗使用次數。\n\nTags: 絕招, 電能, 傷害, 電擊, 冷卻時間."
 },
 		id: 108,
 		maxPoints: 1,
@@ -4195,7 +4413,8 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 			"plPL": "Głęboki Mróz",
 			"ptBR": "Congelamento Profundo",
 			"ruRU": "Глубокая заморозка",
-			"zhCN": "深度冻结"
+			"zhCN": "深度冻结",
+			"zhTW": "極度冰凍"
 },
 		descriptionLocalized: {
 			"deDE": "Abklingzeit: {#}\nGlückstrefferchance: 2%\nUmhüllt Euch mit Eis und werdet 4 Sek. lang immun, wobei Ihr kontinuierlich 25% Schaden verursacht und Gegner für 14% unterkühlt. Wenn Tieffrieren abläuft, verursacht es zusätzlich 100% Schaden.\n\nBei erneutem Wirken von Tieffrieren wird der Effekt frühzeitig beendet.\n\nTags: Ultimativ, Frost, Immun, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Schadensreduktion.",
@@ -4208,7 +4427,8 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 2%\nOtaczasz się lodem i zyskujesz niewrażliwość na 4 sek. W tym czasie stale zadajesz 25% pkt. obrażeń i wyziębiasz wrogów o 14%. Kiedy Głęboki Mróz dobiega końca, zadaje dodatkowo 100% pkt. obrażeń.\n\nPonowne użycie Głębokiego Mrozu kończy ten efekt wcześniej.\n\nTags: Specjalne, Lód, Niewrażliwość, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Redukcja Obrażeń.",
 			"ptBR": "Recarga: {#}\nChance de Golpe de Sorte: 2%\nCobre-se com gelo, tornando-se imune por 4 segundos, causando 25% de dano contínuo e aplicando gelidez aos inimigos por 14%. Quando Congelamento Profundo termina, causa 100% de dano adicional.\n\nLançar Congelamento Profundo novamente acaba com o efeito mais cedo.\n\nTags: Suprema, Geleira, Imune, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Redução de Dano.",
 			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 2%.\nВы заключаете себя в глыбу льда, получая невосприимчивость на 4 сек., непрерывно нанося противникам 25% ед. урона и применяя эффект окоченения, замедляющий на 14%. По окончании времени действия \"Глубокая заморозка\" наносит еще 100% ед. урона.\n\nЭффект можно завершить раньше времени, применив умение еще раз.\n\nTags: Мощное умение, Мороз, Невосприимчивость, Окоченение, Урон, Холод, Время восстановления, Контроль, Уменьшение урона.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 2%\n用冰块包裹自己, 获得免疫, 持续 4 秒, 持续造成 25% 点伤害并冻伤敌人 14%。深度冻结结束时, 额外造成 100% 点伤害。\n\n再次施放深度冻结会提前结束技能效果。\n\nTags: 终极技能, 寒霜, 免疫, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 伤害减免."
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 2%\n用冰块包裹自己, 获得免疫, 持续 4 秒, 持续造成 25% 点伤害并冻伤敌人 14%。深度冻结结束时, 额外造成 100% 点伤害。\n\n再次施放深度冻结会提前结束技能效果。\n\nTags: 终极技能, 寒霜, 免疫, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 伤害减免.",
+			"zhTW": "冷卻時間:{#}\n幸運觸發機率:2%\n將你包覆在寒冰中,免疫 4 秒,持續對敵人造成 25% 點傷害並使其 冰冷 14%。極度冰凍效果結束時,會造成額外 100% 點傷害。\n\n再次施放極度冰凍可提早結束效果。\n\nTags: 絕招, 冰霜, 免疫, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 傷害減免."
 },
 		id: 109,
 		maxPoints: 1,
@@ -4233,7 +4453,8 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 			"plPL": "Większy Głęboki Mróz",
 			"ptBR": "Congelamento Profundo Primordial",
 			"ruRU": "Первородная глубокая заморозка",
-			"zhCN": "至尊深度冻结"
+			"zhCN": "至尊深度冻结",
+			"zhTW": "強烈極度冰凍"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Tieffrieren endet, erhaltet Ihr für jeden während der Dauer eingefrorenen Gegner 6 Sek. lang eine Barriere in Höhe von 10% Eures Basislebens.\n\nTags: Ultimativ, Frost, Immun, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Schadensreduktion.",
@@ -4246,7 +4467,8 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 			"plPL": "Gdy działanie Głębokiego Mrozu dobiega końca, zyskujesz barierę o mocy równej 10% twojego podstawowego zdrowia na 6 sek. za każdego wroga zamrożonego przez ciebie w trakcie działania umiejętności.\n\nTags: Specjalne, Lód, Niewrażliwość, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Redukcja Obrażeń.",
 			"ptBR": "Quando Congelamento Profundo termina, você recebe 10% da sua vida básica como uma barreira por 6 segundos por cada inimigo que você congelou enquanto ele estava ativo.\n\nTags: Suprema, Geleira, Imune, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Redução de Dano.",
 			"ruRU": "По завершении действия \"Глубокой заморозки\" вы на 6 сек. получаете барьер с прочностью, равной 10% базового запаса здоровья за каждого противника, замороженного вами во время действия умения.\n\nTags: Мощное умение, Мороз, Невосприимчивость, Окоченение, Урон, Холод, Время восстановления, Контроль, Уменьшение урона.",
-			"zhCN": "深度冻结结束时, 技能激活期间每冻结一个敌人, 获得一层相当于你 10% 基础生命 的屏障, 持续 6 秒。\n\nTags: 终极技能, 寒霜, 免疫, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 伤害减免."
+			"zhCN": "深度冻结结束时, 技能激活期间每冻结一个敌人, 获得一层相当于你 10% 基础生命 的屏障, 持续 6 秒。\n\nTags: 终极技能, 寒霜, 免疫, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 伤害减免.",
+			"zhTW": "每個你在極度冰凍期間凍結的敵人,會在極度冰凍結束時,使你獲得 10% 基礎生命值 的屏障,持續 6 秒。\n\nTags: 絕招, 冰霜, 免疫, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 傷害減免."
 },
 		id: 110,
 		maxPoints: 1,
@@ -4270,7 +4492,8 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 			"plPL": "Największy Głęboki Mróz",
 			"ptBR": "Congelamento Profundo Supremo",
 			"ruRU": "Неотвратимая глубокая заморозка",
-			"zhCN": "至极深度冻结"
+			"zhCN": "至极深度冻结",
+			"zhTW": "終極極度冰凍"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Tieffrieren endet, werden Eure nicht-ultimativen Abklingzeiten um 50% reduziert.\n\nTags: Ultimativ, Frost, Immun, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Schadensreduktion.",
@@ -4283,7 +4506,8 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 			"plPL": "Kiedy kończy się działanie Głębokiego Mrozu, czasy odnowienia twoich umiejętności (poza Mocą Specjalną) zostają skrócone o 50%.\n\nTags: Specjalne, Lód, Niewrażliwość, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Redukcja Obrażeń.",
 			"ptBR": "Quando Congelamento Profundo termina, suas recargas não supremas são reduzidas em 50%.\n\nTags: Suprema, Geleira, Imune, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Redução de Dano.",
 			"ruRU": "По завершении действия \"Глубокой заморозки\" время восстановления ваших умений сокращается на 50%. Не действует на мощные умения.\n\nTags: Мощное умение, Мороз, Невосприимчивость, Окоченение, Урон, Холод, Время восстановления, Контроль, Уменьшение урона.",
-			"zhCN": "深度冻结结束时, 你的非终极技能冷却时间缩短 50%。\n\nTags: 终极技能, 寒霜, 免疫, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 伤害减免."
+			"zhCN": "深度冻结结束时, 你的非终极技能冷却时间缩短 50%。\n\nTags: 终极技能, 寒霜, 免疫, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 伤害减免.",
+			"zhTW": "當極度冰凍效果結束時,你的非絕招冷卻時間降低 50%。\n\nTags: 絕招, 冰霜, 免疫, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 傷害減免."
 },
 		id: 111,
 		maxPoints: 1,
@@ -4306,7 +4530,8 @@ Tags: Elite Monsters, Damage, Frost.`,
 			"plPL": "Wieczny Mróz",
 			"ptBR": "Permagelo",
 			"ruRU": "Вечная мерзлота",
-			"zhCN": "永冻之霜"
+			"zhCN": "永冻之霜",
+			"zhTW": "極寒冰霜"
 },
 		descriptionLocalized: {
 			"deDE": "Frostfertigkeiten fügen Elitegegnern x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden zu.\n\nTags: Elitemonster, Schaden, Frost.",
@@ -4319,7 +4544,8 @@ Tags: Elite Monsters, Damage, Frost.`,
 			"plPL": "Umiejętności Lodu zadają wrogom elitarnym obrażenia zwiększone o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Elitarne Potwory, Obrażenia, Lód.",
 			"ptBR": "Habilidades de Geleira causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado a elites.\n\nTags: Monstros de Elite, Dano, Geleira.",
 			"ruRU": "Умения мороза наносят на x{5/10/15/20/25/30/35/40/45/50}% больше урона особым противникам.\n\nTags: Особые монстры, Урон, Мороз.",
-			"zhCN": "冰霜技能对精英怪造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 精英怪物, 伤害, 寒霜."
+			"zhCN": "冰霜技能对精英怪造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 精英怪物, 伤害, 寒霜.",
+			"zhTW": "冰霜技能對精英怪造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 精英怪物, 傷害, 冰霜."
 },
 		id: 113,
 		maxPoints: 3,
@@ -4342,7 +4568,8 @@ Tags: Chill, Frozen, Damage, Crowd Control.`,
 			"plPL": "Szadź",
 			"ptBR": "Geada",
 			"ruRU": "Изморозь",
-			"zhCN": "寒霜之灾"
+			"zhCN": "寒霜之灾",
+			"zhTW": "白霜"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt unterkühlten Gegnern x{3/6/9/12/15/18/21/24/27/30}% mehr Schaden und eingefrorenen Gegnern x{6/12/18/24/30/36/42/48/54/60}% mehr Schaden zu.\n\nTags: Unterkühlen, Eingefroren, Schaden, Kontrollverlust.",
@@ -4355,7 +4582,8 @@ Tags: Chill, Frozen, Damage, Crowd Control.`,
 			"plPL": "Zadajesz obrażenia zwiększone o x{3/6/9/12/15/18/21/24/27/30}% wyziębionym wrogom oraz obrażenia zwiększone o x{6/12/18/24/30/36/42/48/54/60}% zamrożonym wrogom.\n\nTags: Wyziębienie, Zamrożenie, Obrażenia, Ograniczanie Kontroli.",
 			"ptBR": "Você causa {3/6/9/12/15/18/21/24/27/30}% de dano aumentado a inimigos com gelidez e {6/12/18/24/30/36/42/48/54/60}% de dano aumentado a inimigos congelados.\n\nTags: Gelidez, Congelado, Dano, Controle de Grupo.",
 			"ruRU": "Вы наносите на x{3/6/9/12/15/18/21/24/27/30}% больше урона окоченевшим противникам и на x{6/12/18/24/30/36/42/48/54/60}% больше урона замороженным.\n\nTags: Окоченение, Заморозка, Урон, Контроль.",
-			"zhCN": "你对冻伤的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%, 对冻结的敌人造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 冻伤, 冻结, 伤害, 群控."
+			"zhCN": "你对冻伤的敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%, 对冻结的敌人造成的伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 冻伤, 冻结, 伤害, 群控.",
+			"zhTW": "你對冰冷敵人造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%,對凍結敵人造成的傷害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 冰冷, 凍結, 傷害, 控場."
 },
 		id: 136,
 		maxPoints: 3,
@@ -4378,7 +4606,8 @@ Tags: Vulnerable, Cold, Lucky Hit, Mana.`,
 			"plPL": "Lodowaty Powiew",
 			"ptBR": "Brisa Frígida",
 			"ruRU": "Леденящий ветер",
-			"zhCN": "凛冽寒风"
+			"zhCN": "凛冽寒风",
+			"zhTW": "凜寒之息"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Kälteschaden gegen verwundbare Gegner verfügt über eine Chance von bis zu 20%, {5/10/15/20/25/30/35/40/45/50} Mana zu erzeugen.\n\nTags: Verwundbar, Kälte, Glückstreffer, Mana.",
@@ -4391,7 +4620,8 @@ Tags: Vulnerable, Cold, Lucky Hit, Mana.`,
 			"plPL": "Szczęśliwy traf: Obrażenia od Zimna zadawane odsłoniętym wrogom mają maksymalnie 20% szans na generowanie {5/10/15/20/25/30/35/40/45/50} pkt. many.\n\nTags: Odsłonięcie, Zimno, Szczęśliwy Traf, Mana.",
 			"ptBR": "Golpe de Sorte: Dano gélido contra inimigos vulneráveis tem até 20% de chance de gerar {5/10/15/20/25/30/35/40/45/50} de mana.\n\nTags: Vulnerável, Gelo, Golpe de Sorte, Mana.",
 			"ruRU": "Удачный удар: урон от холода, наносимый уязвимым противникам, с вероятностью до 20% восполняет {5/10/15/20/25/30/35/40/45/50} ед. маны.\n\nTags: Уязвимость, Холод, Удачный удар, Мана.",
-			"zhCN": "幸运一击: 对易伤敌人造成冰霜伤害最多有 20% 几率生成 {5/10/15/20/25/30/35/40/45/50} 点法力。\n\nTags: 易伤, 冰霜, 幸运一击, 法力."
+			"zhCN": "幸运一击: 对易伤敌人造成冰霜伤害最多有 20% 几率生成 {5/10/15/20/25/30/35/40/45/50} 点法力。\n\nTags: 易伤, 冰霜, 幸运一击, 法力.",
+			"zhTW": "幸運觸發:對易傷敵人造成的冰寒傷害有最多 20% 的機率產生 {5/10/15/20/25/30/35/40/45/50} 點法力。\n\nTags: 易傷, 冰寒, 幸運觸發, 法力."
 },
 		id: 137,
 		maxPoints: 3,
@@ -4414,7 +4644,8 @@ Tags: Vulnerable, Cold, Damage.`,
 			"plPL": "Lodowy Dotyk",
 			"ptBR": "Toque Gélido",
 			"ruRU": "Ледяное прикосновение",
-			"zhCN": "寒冰之触"
+			"zhCN": "寒冰之触",
+			"zhTW": "冰結之觸"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt verwundbaren Gegnern x{4/8/12/16/20/24/28/32/36/40}% mehr Kälteschaden zu.\n\nTags: Verwundbar, Kälte, Schaden.",
@@ -4427,7 +4658,8 @@ Tags: Vulnerable, Cold, Damage.`,
 			"plPL": "Zadajesz obrażenia od Zimna zwiększone o x{4/8/12/16/20/24/28/32/36/40}% odsłoniętym wrogom.\n\nTags: Odsłonięcie, Zimno, Obrażenia.",
 			"ptBR": "Você causa {4/8/12/16/20/24/28/32/36/40}% de dano gélido aumentado a inimigos vulneráveis.\n\nTags: Vulnerável, Gelo, Dano.",
 			"ruRU": "Вы наносите на x{4/8/12/16/20/24/28/32/36/40}% больше урона от холода уязвимым противникам.\n\nTags: Уязвимость, Холод, Урон.",
-			"zhCN": "你对易伤敌人造成的冰霜伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易伤, 冰霜, 伤害."
+			"zhCN": "你对易伤敌人造成的冰霜伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易伤, 冰霜, 伤害.",
+			"zhTW": "你對易傷敵人造成的冰寒傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易傷, 冰寒, 傷害."
 },
 		id: 115,
 		maxPoints: 3,
@@ -4450,7 +4682,8 @@ Tags: Critical Strikes, Shock.`,
 			"plPL": "Orzeźwiające Prądy",
 			"ptBR": "Correntes Elétricas",
 			"ruRU": "Текучие потоки",
-			"zhCN": "电流贯通"
+			"zhCN": "电流贯通",
+			"zhTW": "奔騰電流"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr Gegner mit Schockfertigkeiten trefft, erhöht sich Eure kritische Trefferchance um +{1/2/3/4/5/6/7/8/9/10}%. Wird bei einem kritischen Treffer zurückgesetzt.\n\nTags: Kritische Treffer, Schock.",
@@ -4463,7 +4696,8 @@ Tags: Critical Strikes, Shock.`,
 			"plPL": "Trafienie wrogów umiejętnościami Porażenia zwiększa twoją szansę na trafienie krytyczne o +{1/2/3/4/5/6/7/8/9/10}%. Premia zeruje się po wykonaniu trafienia krytycznego.\n\nTags: Trafienia Krytyczne, Porażenie.",
 			"ptBR": "Atingir inimigos com habilidades de Choque aumenta sua chance de acerto crítico em +{1/2/3/4/5/6/7/8/9/10}%. Reinicia ao receber um acerto crítico.\n\nTags: Acertos Críticos, Choque.",
 			"ruRU": "Когда вы поражаете противников умениями шока, вероятность критического удара повышается на +{1/2/3/4/5/6/7/8/9/10}%. Эффект сбрасывается после нанесения критического удара.\n\nTags: Критические удары, Шок.",
-			"zhCN": "电冲技能命中敌人会使你的暴击几率提高 +{1/2/3/4/5/6/7/8/9/10}%。打出暴击会重置该加成。\n\nTags: 暴击, 电冲."
+			"zhCN": "电冲技能命中敌人会使你的暴击几率提高 +{1/2/3/4/5/6/7/8/9/10}%。打出暴击会重置该加成。\n\nTags: 暴击, 电冲.",
+			"zhTW": "以電能技能擊中敵人會使你的爆擊機率提高 +{1/2/3/4/5/6/7/8/9/10}%。產生爆擊後會重置。\n\nTags: 爆擊, 電能."
 },
 		id: 116,
 		maxPoints: 3,
@@ -4486,7 +4720,8 @@ Tags: Critical Strikes, Damage Reduction, Shock.`,
 			"plPL": "Porażenie",
 			"ptBR": "Eletrocussão",
 			"ruRU": "Электрошок",
-			"zhCN": "电刑"
+			"zhCN": "电刑",
+			"zhTW": "觸電"
 },
 		descriptionLocalized: {
 			"deDE": "Gegner verursachen 5 Sek. lang {5/10/15/20/25/30/35/40/45/50}% weniger Schaden, nachdem sie von Euren Schockfertigkeiten kritisch getroffen wurden.\n\nTags: Kritische Treffer, Schadensreduktion, Schock.",
@@ -4499,7 +4734,8 @@ Tags: Critical Strikes, Damage Reduction, Shock.`,
 			"plPL": "Wrogowie zadają obrażenia zmniejszone o {5/10/15/20/25/30/35/40/45/50}% przez 5 sek. po otrzymaniu trafienia krytycznego od twoich umiejętności Porażenia.\n\nTags: Trafienia Krytyczne, Redukcja Obrażeń, Porażenie.",
 			"ptBR": "Inimigos causam {5/10/15/20/25/30/35/40/45/50}% de dano reduzido por 5 segundos depois de receberem um acerto crítico das suas habilidades de Choque.\n\nTags: Acertos Críticos, Redução de Dano, Choque.",
 			"ruRU": "Когда ваши умения шока поражают противника критическим эффектом, наносимый ими урон уменьшается на {5/10/15/20/25/30/35/40/45/50}% на 5 сек.\n\nTags: Критические удары, Уменьшение урона, Шок.",
-			"zhCN": "敌人被你的电冲技能暴击后, 其造成的伤害降低 {5/10/15/20/25/30/35/40/45/50}%, 持续 5 秒。\n\nTags: 暴击, 伤害减免, 电冲."
+			"zhCN": "敌人被你的电冲技能暴击后, 其造成的伤害降低 {5/10/15/20/25/30/35/40/45/50}%, 持续 5 秒。\n\nTags: 暴击, 伤害减免, 电冲.",
+			"zhTW": "你的電能技能對敵人爆擊後,敵人造成的傷害降低 {5/10/15/20/25/30/35/40/45/50}%,持續 5 秒。\n\nTags: 爆擊, 傷害減免, 電能."
 },
 		id: 117,
 		maxPoints: 3,
@@ -4522,7 +4758,8 @@ Tags: Shock, Lucky Hit, Crowd Control.`,
 			"plPL": "Konwulsje",
 			"ptBR": "Convulsões",
 			"ruRU": "Конвульсии",
-			"zhCN": "电击惊厥"
+			"zhCN": "电击惊厥",
+			"zhTW": "抽搐"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Schockfertigkeiten verfügen über eine Chance von bis zu {3/6/9/12/15/18/21/24/27/30}%, Gegner 3 Sek. lang zu betäuben.\n\nTags: Schock, Glückstreffer, Kontrollverlust.",
@@ -4535,7 +4772,8 @@ Tags: Shock, Lucky Hit, Crowd Control.`,
 			"plPL": "Szczęśliwy traf: Umiejętności Porażenia mają maksymalnie {3/6/9/12/15/18/21/24/27/30}% szans na ogłuszenie wrogów na 3 sek.\n\nTags: Porażenie, Szczęśliwy Traf, Ograniczanie Kontroli.",
 			"ptBR": "Golpe de Sorte: Habilidades de Choque têm até {3/6/9/12/15/18/21/24/27/30}% de chance de atordoar inimigos por 3 segundos.\n\nTags: Choque, Golpe de Sorte, Controle de Grupo.",
 			"ruRU": "Удачный удар: умения шока с вероятностью до {3/6/9/12/15/18/21/24/27/30}% оглушают противников на 3 сек.\n\nTags: Шок, Удачный удар, Контроль.",
-			"zhCN": "幸运一击: 电冲技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率击晕敌人 3 秒。\n\nTags: 电冲, 幸运一击, 群控."
+			"zhCN": "幸运一击: 电冲技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率击晕敌人 3 秒。\n\nTags: 电冲, 幸运一击, 群控.",
+			"zhTW": "幸運觸發:電能技能最高有 {3/6/9/12/15/18/21/24/27/30}% 的機率擊昏敵人,持續 3 秒。\n\nTags: 電能, 幸運觸發, 控場."
 },
 		id: 118,
 		maxPoints: 3,
@@ -4558,7 +4796,8 @@ Tags: Shock, Critical Strikes, Movement.`,
 			"plPL": "Przewodnictwo",
 			"ptBR": "Condutividade",
 			"ruRU": "Проводимость",
-			"zhCN": "导电"
+			"zhCN": "导电",
+			"zhTW": "傳導"
 },
 		descriptionLocalized: {
 			"deDE": "Kritische Treffer mit Schockfertigkeiten erhöhen Eure Bewegungsgeschwindigkeit 3 Sek. lang um +{3/6/9/12/15/18/21/24/27/30}%.\n\nTags: Schock, Kritische Treffer, Bewegung.",
@@ -4571,7 +4810,8 @@ Tags: Shock, Critical Strikes, Movement.`,
 			"plPL": "Trafienia krytyczne umiejętnościami Porażenia zwiększają twoją szybkość ruchu o +{3/6/9/12/15/18/21/24/27/30}% na 3 sek.\n\nTags: Porażenie, Trafienia Krytyczne, Ruch.",
 			"ptBR": "Acertos críticos com habilidades de Choque aumentam sua velocidade de movimento em +{3/6/9/12/15/18/21/24/27/30}% por 3 segundos.\n\nTags: Choque, Acertos Críticos, Movimento.",
 			"ruRU": "Когда вы наносите критический урон умением шока, скорость передвижения повышается на +{3/6/9/12/15/18/21/24/27/30}% на 3 сек.\n\nTags: Шок, Критические удары, Движение.",
-			"zhCN": "电冲技能暴击会使你的移动速度提高 +{3/6/9/12/15/18/21/24/27/30}%, 持续 3 秒。\n\nTags: 电冲, 暴击, 移动."
+			"zhCN": "电冲技能暴击会使你的移动速度提高 +{3/6/9/12/15/18/21/24/27/30}%, 持续 3 秒。\n\nTags: 电冲, 暴击, 移动.",
+			"zhTW": "以電能技能造成爆擊會使你的移動速度提高 +{3/6/9/12/15/18/21/24/27/30}%,持續 3 秒。\n\nTags: 電能, 爆擊, 移動."
 },
 		id: 119,
 		maxPoints: 3,
@@ -4594,7 +4834,8 @@ Tags: Burn, Mana.`,
 			"plPL": "Płomienne Uderzenie",
 			"ptBR": "Surto Incandescente",
 			"ruRU": "Вспышка огня",
-			"zhCN": "烈焰汹涌"
+			"zhCN": "烈焰汹涌",
+			"zhTW": "烈焰奔湧"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einen brennenden Gegner tötet, erhaltet Ihr 3 Sek. lang +{10/20/30/40/50/60/70/80/90/100}% mehr Manaregeneration.\n\nTags: Verbrennung, Mana.",
@@ -4607,7 +4848,8 @@ Tags: Burn, Mana.`,
 			"plPL": "Zabicie podpalonego wroga zapewnia ci premię +{10/20/30/40/50/60/70/80/90/100}% do regeneracji many na 3 sek.\n\nTags: Podpalenie, Mana.",
 			"ptBR": "Matar um inimigo que está queimando aumenta sua regeneração de mana em +{10/20/30/40/50/60/70/80/90/100}% por 3 segundos.\n\nTags: Queimadura, Mana.",
 			"ruRU": "Когда вы убиваете горящего противника, ваша скорость восстановления маны повышается на +{10/20/30/40/50/60/70/80/90/100}% на 3 сек.\n\nTags: Горение, Мана.",
-			"zhCN": "消灭一名燃烧的敌人可以使你的法力回复速度提高 +{10/20/30/40/50/60/70/80/90/100}%, 持续 3 秒。\n\nTags: 燃烧, 法力."
+			"zhCN": "消灭一名燃烧的敌人可以使你的法力回复速度提高 +{10/20/30/40/50/60/70/80/90/100}%, 持续 3 秒。\n\nTags: 燃烧, 法力.",
+			"zhTW": "殺死燃燒的敵人後,法力恢復提高 +{10/20/30/40/50/60/70/80/90/100}%,持續 3 秒。\n\nTags: 燃燒, 法力."
 },
 		id: 123,
 		maxPoints: 3,
@@ -4630,7 +4872,8 @@ Tags: Burn, Damage.`,
 			"plPL": "Stos Wiecznego Ognia",
 			"ptBR": "Pira Infinita",
 			"ruRU": "Нескончаемое сожжение",
-			"zhCN": "火葬不熄"
+			"zhCN": "火葬不熄",
+			"zhTW": "無盡火葬"
 },
 		descriptionLocalized: {
 			"deDE": "Ihr fügt Gegnern für jede Sekunde, die sie brennen, mehr Verbrennungsschaden zu, bis maximal x{5/10/15/20/25/30/35/40/45/50}% nach 5 Sek.\n\nTags: Verbrennung, Schaden.",
@@ -4643,7 +4886,8 @@ Tags: Burn, Damage.`,
 			"plPL": "Zadajesz wrogom zwiększone obrażenia od podpalenia za każdą sekundę spędzoną przez nich w stanie podpalenia, maksymalnie do x{5/10/15/20/25/30/35/40/45/50}% po upływie 5 sek.\n\nTags: Podpalenie, Obrażenia.",
 			"ptBR": "Você causa dano flamejante aumentado a cada segundo enquanto os inimigos permanecem queimando, até {5/10/15/20/25/30/35/40/45/50}% depois de 5 segundos.\n\nTags: Queimadura, Dano.",
 			"ruRU": "Получаемый противниками урон от горения увеличивается раз в секунду, пока они горят. Максимальная прибавка к урону – x{5/10/15/20/25/30/35/40/45/50}% за 5 сек.\n\nTags: Горение, Урон.",
-			"zhCN": "敌人每燃烧一秒, 你对其造成的燃烧伤害都会提高, 最多在 5 秒后提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 燃烧, 伤害."
+			"zhCN": "敌人每燃烧一秒, 你对其造成的燃烧伤害都会提高, 最多在 5 秒后提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 燃烧, 伤害.",
+			"zhTW": "敵人在燃燒狀態下每持續一秒,你對其造成的燃燒傷害就隨之提高,最多在 5 秒後提高至 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 燃燒, 傷害."
 },
 		id: 121,
 		maxPoints: 3,
@@ -4666,7 +4910,8 @@ Tags: Healing, Burn.`,
 			"plPL": "Ciepło",
 			"ptBR": "Calor",
 			"ruRU": "Тепло",
-			"zhCN": "急性高热"
+			"zhCN": "急性高热",
+			"zhTW": "暖流"
 },
 		descriptionLocalized: {
 			"deDE": "Alle 1 Sek. werdet Ihr für jeden brennenden Gegner in der Nähe um {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% Eures maximalen Lebens geheilt. Bei Bossen ist die Heilung um {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}% erhöht.\n\nTags: Heilung, Verbrennung.",
@@ -4679,7 +4924,8 @@ Tags: Healing, Burn.`,
 			"plPL": "Co 1 sek. odzyskujesz {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% maksymalnego zdrowia za każdego podpalonego wroga w pobliżu. Skuteczność leczenia jest zwiększona do {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}% w przypadku bossów.\n\nTags: Leczenie, Podpalenie.",
 			"ptBR": "A cada 1 segundo, você recebe {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% de cura da sua vida máxima por cada inimigo próximo que estiver queimando. Cura aumentada para {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}% por chefes.\n\nTags: Cura, Queimadura.",
 			"ruRU": "Раз в 1 сек. вы восполняете {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% максимального запаса здоровья за каждого подожженного противника рядом с вами. Исцеление усиливается на {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%, если цель является боссом.\n\nTags: Исцеление, Горение.",
-			"zhCN": "每隔 1 秒, 附近每有一名燃烧的敌人可以为你恢复 {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% 生命上限。敌人为首领时, 治疗效果提高至 {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%。\n\nTags: 治疗, 燃烧."
+			"zhCN": "每隔 1 秒, 附近每有一名燃烧的敌人可以为你恢复 {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% 生命上限。敌人为首领时, 治疗效果提高至 {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%。\n\nTags: 治疗, 燃烧.",
+			"zhTW": "你附近每個燃燒的敵人,使你每 1 秒恢復生命值上限的 {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}%。首領會使恢復效果提升 {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%。\n\nTags: 治療, 燃燒."
 },
 		id: 138,
 		maxPoints: 3,
@@ -4702,7 +4948,8 @@ Tags: Mana, Pyromancy.`,
 			"plPL": "Ogień Duszy",
 			"ptBR": "Fogo da Alma",
 			"ruRU": "Ожог души",
-			"zhCN": "灵魂之火"
+			"zhCN": "灵魂之火",
+			"zhTW": "靈魂之火"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr 1.5 Sek. lang stillsteht, kosten Eure Pyromaniefertigkeiten {5/10/15/20/25/30/35/40/45/50}% weniger Mana.\n\nTags: Mana, Pyromanie.",
@@ -4715,7 +4962,8 @@ Tags: Mana, Pyromancy.`,
 			"plPL": "Jeśli pozostaniesz w bezruchu przez 1.5 sek., koszt twoich umiejętności Piromancji będzie zmniejszony o {5/10/15/20/25/30/35/40/45/50}% many.\n\nTags: Mana, Piromancja.",
 			"ptBR": "Depois de permanecer imóvel por 1.5 segundos, suas habilidades de Piromancia custam {5/10/15/20/25/30/35/40/45/50}% a menos de mana.\n\nTags: Mana, Piromancia.",
 			"ruRU": "Когда вы стоите неподвижно в течение 1.5 сек., затраты маны на ваши умения категории \"Пиромантия\" сокращаются на {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Мана, Пиромантия.",
-			"zhCN": "站立不动 1.5 秒后, 你的爆焰技能消耗的法力降低 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 法力, 爆焰."
+			"zhCN": "站立不动 1.5 秒后, 你的爆焰技能消耗的法力降低 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 法力, 爆焰.",
+			"zhTW": "站立不動 1.5 秒後,你的焰術技能法力消耗降低 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 法力, 焰術."
 },
 		id: 139,
 		maxPoints: 3,
@@ -4741,7 +4989,8 @@ Tags: Frozen, Crowd Control, Damage.`,
 			"plPL": "Roztrzaskanie",
 			"ptBR": "Estilhaçar",
 			"ruRU": "Раскалывание",
-			"zhCN": "碎冰"
+			"zhCN": "碎冰",
+			"zhTW": "碎冰"
 },
 		descriptionLocalized: {
 			"deDE": "Sobald sie nicht mehr eingefroren sind, explodieren Gegner und verursachen dabei 25% des Schadens, den Ihr ihnen im eingefrorenen Zustand zugefügt habt.\n\nTags: Eingefroren, Kontrollverlust, Schaden.",
@@ -4754,7 +5003,8 @@ Tags: Frozen, Crowd Control, Damage.`,
 			"plPL": "Po zakończeniu działania zamrożenia wrogowie wybuchają, otrzymując 25% obrażeń, jakie zadała im twoja postać, gdy byli zamrożeni.\n\nTags: Zamrożenie, Ograniczanie Kontroli, Obrażenia.",
 			"ptBR": "Quando o congelamento expira, os inimigos explodem com 25% do dano que você causou a eles enquanto estavam congelados.\n\nTags: Congelado, Controle de Grupo, Dano.",
 			"ruRU": "Когда время действия заморозки истекает, противники взрываются. Взрыв наносит 25% урона, который вы нанесли цели во время заморозки.\n\nTags: Заморозка, Контроль, Урон.",
-			"zhCN": "敌人在其受到的冻结效果持续时间结束后会爆炸并受到伤害, 相当于你在其冻结期间对其造成伤害的 25%。\n\nTags: 冻结, 群控, 伤害."
+			"zhCN": "敌人在其受到的冻结效果持续时间结束后会爆炸并受到伤害, 相当于你在其冻结期间对其造成伤害的 25%。\n\nTags: 冻结, 群控, 伤害.",
+			"zhTW": "凍結結束後敵人會爆炸並受到傷害,數值相當於你在凍結期間對該名敵人造成傷害的 25%。\n\nTags: 凍結, 控場, 傷害."
 },
 		id: 124,
 		maxPoints: 1,
@@ -4777,7 +5027,8 @@ Tags: Vulnerable, Lucky Hit, Mana, Damage, Frost.`,
 			"plPL": "Lawina",
 			"ptBR": "Avalanche",
 			"ruRU": "Лавина",
-			"zhCN": "雪崩"
+			"zhCN": "雪崩",
+			"zhTW": "雪崩"
 },
 		descriptionLocalized: {
 			"deDE": "Glückstreffer: Eure Frostfertigkeiten verfügen über eine Chance von bis zu 10%, zu erwirken, dass der nächste Einsatz von Eissplitter, Gefrorene Kugel oder Blizzard kein Mana verbraucht und x40% mehr Schaden verursacht. Bei verwundbaren Gegnern ist die Chance doppelt so hoch.\n\nTags: Verwundbar, Glückstreffer, Mana, Schaden, Frost.",
@@ -4790,7 +5041,8 @@ Tags: Vulnerable, Lucky Hit, Mana, Damage, Frost.`,
 			"plPL": "Szczęśliwy traf: Twoje umiejętności Lodu mają do 10% szans na to, że twoje następne Lodowe Odłamki, Zamarznięta Kula albo Zamieć nie zużyją many i zadadzą obrażenia zwiększone o x40%. Szansa ta jest podwojona w przypadku odsłoniętych wrogów.\n\nTags: Odsłonięcie, Szczęśliwy Traf, Mana, Obrażenia, Lód.",
 			"ptBR": "Golpe de Sorte: Suas habilidades de Geleira têm até 10% de chance de fazer seu próximo lançamento de Estilhaços de Gelo, Orbe Congelado ou Nevasca não consumir mana e causar 40% de dano aumentado. A chance é dobrada contra inimigos vulneráveis.\n\nTags: Vulnerável, Golpe de Sorte, Mana, Dano, Geleira.",
 			"ruRU": "Удачный удар: ваши умения мороза с вероятностью до 10% позволяют применить \"Осколки льда\", \"Морозную сферу\" или \"Снежную бурю\" без затрат маны и с увеличенным на x40% уроном. Вероятность удваивается, если цель уязвима.\n\nTags: Уязвимость, Удачный удар, Мана, Урон, Мороз.",
-			"zhCN": "幸运一击: 你的冰霜技能有最高 10% 几率使你施放的下一个寒冰碎片 、冰霜球或暴风雪 不消耗法力并且造成的伤害提高 x40%。该几率对易伤敌人翻倍。\n\nTags: 易伤, 幸运一击, 法力, 伤害, 寒霜."
+			"zhCN": "幸运一击: 你的冰霜技能有最高 10% 几率使你施放的下一个寒冰碎片 、冰霜球或暴风雪 不消耗法力并且造成的伤害提高 x40%。该几率对易伤敌人翻倍。\n\nTags: 易伤, 幸运一击, 法力, 伤害, 寒霜.",
+			"zhTW": "幸運觸發:你的冰霜技能有最高 10% 機率使你下一次施放寒冰碎片、冰封球或暴風雪時不消耗法力,且造成的傷害提高 x40%。對易傷敵人的機率加倍。\n\nTags: 易傷, 幸運觸發, 法力, 傷害, 冰霜."
 },
 		id: 140,
 		maxPoints: 1,
@@ -4813,7 +5065,8 @@ Tags: Burn, Damage.`,
 			"plPL": "Zapłon",
 			"ptBR": "Combustão",
 			"ruRU": "Возгорание",
-			"zhCN": "爆燃"
+			"zhCN": "爆燃",
+			"zhTW": "烈焰爆發"
 },
 		descriptionLocalized: {
 			"deDE": "Eure Verbrennungseffekte verursachen x{2/4/6/8/10/12/14/16/18/20}% mehr Schaden für jede einzigartige Quelle, aus der Ihr den Gegner verbrannt habt. Wenn der Gegner aus 3 oder mehr Quellen brennt, verdoppelt sich dieser Bonus.\n\nTags: Verbrennung, Schaden.",
@@ -4826,7 +5079,8 @@ Tags: Burn, Damage.`,
 			"plPL": "Twoje efekty podpalenia zadają obrażenia zwiększone o x{2/4/6/8/10/12/14/16/18/20}% za każde niezależne źródło podpalenia użyte przez ciebie przeciwko celowi. Premia ta jest podwojona, jeśli wróg został podpalony przez 3 lub więcej źródeł.\n\nTags: Podpalenie, Obrażenia.",
 			"ptBR": "Seus efeitos flamejantes causam {2/4/6/8/10/12/14/16/18/20}% de dano aumentado por fonte única de dano flamejante causado por você ao inimigo. Se o inimigo estiver queimando de 3 ou mais fontes, esse bônus é dobrado.\n\nTags: Queimadura, Dano.",
 			"ruRU": "Эффекты горения наносят на x{2/4/6/8/10/12/14/16/18/20}% больше урона за каждый уникальный эффект горения, который вы применили к цели. Если таких эффектов 3 или более, бонус удваивается.\n\nTags: Горение, Урон.",
-			"zhCN": "你对敌人施加的每种不同来源的燃烧效果都会使你的伤害提高 x{2/4/6/8/10/12/14/16/18/20}%。如果敌人正受到 3 种或更多来源的燃烧效果, 此加成翻倍。\n\nTags: 燃烧, 伤害."
+			"zhCN": "你对敌人施加的每种不同来源的燃烧效果都会使你的伤害提高 x{2/4/6/8/10/12/14/16/18/20}%。如果敌人正受到 3 种或更多来源的燃烧效果, 此加成翻倍。\n\nTags: 燃烧, 伤害.",
+			"zhTW": "你每對敵人施加一個不同來源的燃燒效果,你的燃燒效果造成的傷害就提高 x{2/4/6/8/10/12/14/16/18/20}%。若此敵人身上有 3 個以上不同來源的燃燒效果,則此加成效果加倍。\n\nTags: 燃燒, 傷害."
 },
 		id: 141,
 		maxPoints: 1,
@@ -4851,7 +5105,8 @@ Tags: Damage, Critical Strikes, Life, Fire.`,
 			"plPL": "Zajadłość Esu",
 			"ptBR": "Ferocidade de Esu",
 			"ruRU": "Свирепость Эсу",
-			"zhCN": "艾苏的残暴"
+			"zhCN": "艾苏的残暴",
+			"zhTW": "艾蘇的凶暴"
 },
 		descriptionLocalized: {
 			"deDE": "Euer kritischer Trefferschaden mit Feuer erhöht sich gegen Gegner mit mehr als 50% Leben um x25%. Eure kritische Trefferchance mit Feuer erhöht sich gegen Gegner mit weniger als 50% Leben um +5%.\n\nWenn Ihr einen Gegner mit einem kritischen Treffer tötet, werden 3 Sek. lang beide Boni gegen alle Gegner gewährt.\n\nTags: Schaden, Kritische Treffer, Leben, Feuer.",
@@ -4864,7 +5119,8 @@ Tags: Damage, Critical Strikes, Life, Fire.`,
 			"plPL": "Twoje obrażenia od trafień krytycznych umiejętnościami Ognia są zwiększone o x25% przeciwko wrogom mającym ponad 50% zdrowia. Twoja szansa na trafienie krytyczne umiejętnościami Ognia jest zwiększona o +5% przeciwko wrogom mającym poniżej 50% zdrowia.\n\nZabicie celu trafieniem krytycznym zapewnia obie te premie przeciwko wszystkim wrogom na 3 sek.\n\nTags: Obrażenia, Trafienia Krytyczne, Zdrowie, Ogień.",
 			"ptBR": "Seu dano de acerto crítico ígneo é aumentado em 25% contra inimigos com vida acima de 50%. Seu dano de acerto crítico ígneo é aumentado em +5% contra inimigos com vida abaixo de 50%.\n\nMatar um inimigo com um acerto crítico concede os dois bônus contra todos os inimigos por 3 segundos.\n\nTags: Dano, Acertos Críticos, Vida, Fogo.",
 			"ruRU": "Критический урон от огня увеличивается на x25%, если уровень здоровья цели превышает 50%. Вероятность критического эффекта с уроном от огня повышается на +5%, если уровень здоровья цели меньше 50%.\n\nКогда критический удар убивает противника, оба эффекта применяются ко всем противникам на 3 сек.\n\nTags: Урон, Критические удары, Здоровье, Огонь.",
-			"zhCN": "对生命高于 50%的敌人, 你造成的火焰暴击伤害提高 x25%。对生命低于 50%的敌人, 你的火焰暴击几率提高 +5%。\n\n用暴击消灭一名敌人可以对所有敌人获得两种加成, 持续 3 秒。\n\nTags: 伤害, 暴击, 生命, 火焰."
+			"zhCN": "对生命高于 50%的敌人, 你造成的火焰暴击伤害提高 x25%。对生命低于 50%的敌人, 你的火焰暴击几率提高 +5%。\n\n用暴击消灭一名敌人可以对所有敌人获得两种加成, 持续 3 秒。\n\nTags: 伤害, 暴击, 生命, 火焰.",
+			"zhTW": "你的火焰爆擊傷害對生命值大於 50% 的敵人提高 x25%。你的火焰爆擊機率對生命值小於 50% 的敵人提高 +5%。\n\n以爆擊擊殺敵人可獲得這兩種加成效果,並適用於所有敵人,持續 3 秒。\n\nTags: 傷害, 爆擊, 生命值, 火焰."
 },
 		id: 127,
 		maxPoints: 1,
@@ -4887,7 +5143,8 @@ Tags: Crackling Energy, Cooldown, Elite Monsters, Damage, Shock.`,
 			"plPL": "Wszechobecna Energia",
 			"ptBR": "Energia Transbordante",
 			"ruRU": "Неудержимая энергия",
-			"zhCN": "电能满溢"
+			"zhCN": "电能满溢",
+			"zhTW": "豐沛能量"
 },
 		descriptionLocalized: {
 			"deDE": "Knisternde Energie trifft 1 zusätzliche Gegner. Jedes Mal, wenn Knisternde Energie einen Gegner trifft, wird die Abklingzeit Eurer Schockfertigkeiten um 0.1 Sek. reduziert, bzw. um 0.25 Sek. gegen Elitegegner.\n\nTags: Knisternde Energie, Abklingzeit, Elitemonster, Schaden, Schock.",
@@ -4900,7 +5157,8 @@ Tags: Crackling Energy, Cooldown, Elite Monsters, Damage, Shock.`,
 			"plPL": "Roziskrzona Energia trafia 1 dodatkowego wroga. Za każdym razem, gdy Roziskrzona Energia trafia przeciwnika, czasy odnowienia twoich umiejętności Porażenia zostają skrócone o 0.1 sek. albo 0.25 sek. w przypadku wrogów elitarnych.\n\nTags: Roziskrzona Energia, Odnowienie, Elitarne Potwory, Obrażenia, Porażenie.",
 			"ptBR": "Energia Crepitante atinge 1 inimigo adicional. Sempre que Energia Crepitante atinge um inimigo, suas recargas de habilidades de Choque são reduzidas em 0.1 segundos e aumentadas para 0.25 segundos contra elites.\n\nTags: Energia Crepitante, Recarga, Monstros de Elite, Dano, Choque.",
 			"ruRU": "Искрящиеся заряды энергии поражают еще 1 противника. Когда искрящийся заряд энергии поражает противника, время восстановления ваших умений шока сокращается на 0.1 сек. Если заряд поражает особого противника – то на 0.25 сек.\n\nTags: Искрящийся заряд энергии, Время восстановления, Особые монстры, Урон, Шок.",
-			"zhCN": "爆裂电花额外命中 1 名敌人。每次爆裂电花命中一名敌人, 你的电冲技能的冷却时间缩短 0.1 秒, 命中精英怪时缩短 0.25 秒。\n\nTags: 爆裂电花, 冷却时间, 精英怪物, 伤害, 电冲."
+			"zhCN": "爆裂电花额外命中 1 名敌人。每次爆裂电花命中一名敌人, 你的电冲技能的冷却时间缩短 0.1 秒, 命中精英怪时缩短 0.25 秒。\n\nTags: 爆裂电花, 冷却时间, 精英怪物, 伤害, 电冲.",
+			"zhTW": "電流能量可額外擊中 1 個敵人。每次電流能量擊中敵人時,你的電能技能冷卻時間縮短 0.1 秒,擊中精英怪時縮短 0.25 秒。\n\nTags: 電流能量, 冷卻時間, 精英怪物, 傷害, 電能."
 },
 		id: 128,
 		maxPoints: 1,
@@ -4923,7 +5181,8 @@ Tags: Shock, Damage, Damage Reduction, Critical Strikes.`,
 			"plPL": "Mistrzostwo Vyra",
 			"ptBR": "Maestria de Vyr",
 			"ruRU": "Мастерство Выра",
-			"zhCN": "维尔的御雷术"
+			"zhCN": "维尔的御雷术",
+			"zhTW": "維爾的精通"
 },
 		descriptionLocalized: {
 			"deDE": "Nahe Gegner erleiden durch Eure Schockfertigkeiten x10% mehr Schaden und fügen Euch 20% weniger Schaden zu. Kritische Treffer erhöhen diese Boni 3 Sek. lang um 25%.\n\nTags: Schock, Schaden, Schadensreduktion, Kritische Treffer.",
@@ -4936,7 +5195,8 @@ Tags: Shock, Damage, Damage Reduction, Critical Strikes.`,
 			"plPL": "Pobliscy wrogowie otrzymują obrażenia od twoich umiejętności Porażenia zwiększone o x10% i zadają ci o 20% mniej obrażeń. Trafienia krytyczne zwiększają te premie o 25% na 3 sek.\n\nTags: Porażenie, Obrażenia, Redukcja Obrażeń, Trafienia Krytyczne.",
 			"ptBR": "Inimigos próximos recebem 10% de dano aumentado das suas habilidades de Choque e causam 20% de dano reduzido a você. Acertos críticos aumentam esses bônus em 25% por 3 segundos.\n\nTags: Choque, Dano, Redução de Dano, Acertos Críticos.",
 			"ruRU": "Находящиеся рядом противники получают на x20% больше урона от ваших умений шока и наносят вам на 20% меньше урона. Критические эффекты усиливают эти бонусы на 25% на 3 сек.\n\nTags: Шок, Урон, Уменьшение урона, Критические удары.",
-			"zhCN": "近距敌人受到来自你的电冲技能的伤害提高 x10%, 对你造成的伤害降低 20%。暴击会使这些加成提高 25%, 持续 3 秒。\n\nTags: 电冲, 伤害, 伤害减免, 暴击."
+			"zhCN": "近距敌人受到来自你的电冲技能的伤害提高 x10%, 对你造成的伤害降低 20%。暴击会使这些加成提高 25%, 持续 3 秒。\n\nTags: 电冲, 伤害, 伤害减免, 暴击.",
+			"zhTW": "近距離敵人受到你電能技能的傷害提高 x10%,且對你造成的傷害降低 20%。爆擊會使此加成提高 25%,持續 3 秒。\n\nTags: 電能, 傷害, 傷害減免, 爆擊."
 },
 		id: 129,
 		maxPoints: 1,
