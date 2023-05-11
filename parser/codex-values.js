@@ -33,12 +33,16 @@ let codexValues = {
 			"Aspect of the Protector": {
 				"dungeon": "Lost Archives",
 				"region": "Fractured Peaks",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of the Crowded Sage": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Temerity": {
 				"values": []
@@ -94,19 +98,25 @@ let codexValues = {
 				"values": []
 			},
 			"Doombringer": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"The Grandfather": {
 				"values": []
 			},
 			"Razorplate": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Fists of Fate": {
 				"values": []
 			},
 			"Andariel's Visage": {
-				"values": []
+				"values": [
+					""
+				]
 			}
 		},
 		"Utility": {
@@ -180,7 +190,9 @@ let codexValues = {
 			"Aspect of Bul-Kathos": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of the Iron Warrior": {
 				"dungeon": "Carrion Fields",
@@ -190,12 +202,16 @@ let codexValues = {
 			"Aspect of Numbing Wrath": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Tempering Blows": {
 				"dungeon": "Defiled Catacomb",
 				"region": "Fractured Peaks",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Iron Blood Aspect": {
 				"dungeon": "Forgotten Ruins",
@@ -205,7 +221,9 @@ let codexValues = {
 			"Steadfast Berserker's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			}
 		},
 		"Offensive": {
@@ -227,12 +245,16 @@ let codexValues = {
 			"Brawler's Aspect": {
 				"dungeon": "",
 				"region": "Hawezar",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Death Wish Aspect": {
 				"dungeon": "",
 				"region": "Scosglen",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of the Dire Whirlwind": {
 				"dungeon": "Garan Hold",
@@ -252,12 +274,16 @@ let codexValues = {
 			"Aspect of Burning Rage": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Devilish Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Limitless Rage": {
 				"dungeon": "",
@@ -267,7 +293,9 @@ let codexValues = {
 			"Earthquake Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Skullbreaker's Aspect": {
 				"dungeon": "",
@@ -277,7 +305,9 @@ let codexValues = {
 			"Dust Devil's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Encroaching Wrath": {
 				"dungeon": "",
@@ -287,13 +317,17 @@ let codexValues = {
 			"Windlasher Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Ancients' Oath": {
 				"values": []
 			},
 			"Hellhammer": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Overkill": {
 				"values": []
@@ -397,7 +431,9 @@ let codexValues = {
 				"values": []
 			},
 			"Fields of Crimson": {
-				"values": []
+				"values": [
+					""
+				]
 			}
 		}
 	},
@@ -406,12 +442,16 @@ let codexValues = {
 			"Aspect of Mending Stone": {
 				"dungeon": "Sealed Archives",
 				"region": "Dry Steppes",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Skinwalker's Aspect": {
 				"dungeon": "Fading Echo",
 				"region": "Kehjistan",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Vigorous Aspect": {
 				"dungeon": "",
@@ -427,7 +467,9 @@ let codexValues = {
 				"values": []
 			},
 			"Vasily's Prayer": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Cyclonic Force": {
 				"dungeon": "",
@@ -449,7 +491,9 @@ let codexValues = {
 			"Overcharged Aspect": {
 				"dungeon": "Mariner's Refuge",
 				"region": "Scosglen",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of the Rampaging Werebeast": {
 				"dungeon": "Endless Gates",
@@ -474,7 +518,9 @@ let codexValues = {
 			"Aspect of the Ursine Horror": {
 				"dungeon": "Belfry Zakara",
 				"region": "Hawezar",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Stormclaw's Aspect": {
 				"dungeon": "Anica's Claim",
@@ -484,7 +530,9 @@ let codexValues = {
 			"Lightning Dancer's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Dire Wolf's Aspect": {
 				"dungeon": "",
@@ -544,13 +592,17 @@ let codexValues = {
 			"Runeworker's Conduit Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Greatstaff of the Crone": {
 				"values": []
 			},
 			"Hunter's Zenith": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Nature's Savagery": {
 				"dungeon": "",
@@ -674,7 +726,9 @@ let codexValues = {
 			"Aspect of Bursting Bones": {
 				"dungeon": "Path of the Blind",
 				"region": "Dry Steppes",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of the Damned": {
 				"dungeon": "Uldur's Cave",
@@ -714,7 +768,10 @@ let codexValues = {
 			"Aspect of Ultimate Shadow": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					"",
+					""
+				]
 			},
 			"Aspect of Frenzied Dead": {
 				"dungeon": "",
@@ -739,7 +796,9 @@ let codexValues = {
 			"Blood-soaked Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Grasping Veins": {
 				"dungeon": "Corrupted Grotto",
@@ -785,10 +844,14 @@ let codexValues = {
 				"values": []
 			},
 			"Deathspeaker's Pendant": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Greaves of the Empty Tomb": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Blood Artisan's Cuirass": {
 				"values": []
@@ -797,10 +860,14 @@ let codexValues = {
 				"values": []
 			},
 			"Deathless Visage": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Ring of Mendeln": {
-				"values": []
+				"values": [
+					""
+				]
 			}
 		},
 		"Utility": {
@@ -812,7 +879,9 @@ let codexValues = {
 			"Coldbringer's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Viscous Aspect": {
 				"dungeon": "",
@@ -893,7 +962,10 @@ let codexValues = {
 			"Snap Frozen Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					"",
+					""
+				]
 			},
 			"Aspect of Uncanny Treachery": {
 				"dungeon": "",
@@ -903,7 +975,10 @@ let codexValues = {
 			"Aspect of Cruel Sustenance": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					"",
+					""
+				]
 			},
 			"Escape Artist's Aspect": {
 				"dungeon": "",
@@ -913,7 +988,9 @@ let codexValues = {
 			"Aspect of Stolen Vigor": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Siphoned Victuals": {
 				"dungeon": "Leviathan's Maw",
@@ -940,7 +1017,9 @@ let codexValues = {
 			"Aspect of Arrow Storms": {
 				"dungeon": "Howling Warren",
 				"region": "Scosglen",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Blast-Trapper's Aspect": {
 				"dungeon": "",
@@ -965,7 +1044,9 @@ let codexValues = {
 			"Opportunist's Aspect": {
 				"dungeon": "",
 				"region": "Kehjistan",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Shadowslicer Aspect": {
 				"dungeon": "Twisted Hollow",
@@ -975,12 +1056,16 @@ let codexValues = {
 			"Trickster's Aspect": {
 				"dungeon": "",
 				"region": "Dry Steppes",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Unstable Imbuements": {
 				"dungeon": "",
 				"region": "Dry Steppes",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Vengeful Aspect": {
 				"dungeon": "Inferno",
@@ -990,7 +1075,9 @@ let codexValues = {
 			"Aspect of Volatile Shadows": {
 				"dungeon": "Ancient's Lament",
 				"region": "Dry Steppes",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Repeating Aspect": {
 				"dungeon": "",
@@ -1010,7 +1097,9 @@ let codexValues = {
 			"Aspect of Surprise": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Bladedancer's Aspect": {
 				"dungeon": "",
@@ -1020,17 +1109,23 @@ let codexValues = {
 			"Toxic Alchemist's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Icy Alchemist's Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Bursting Venoms": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Synergy": {
 				"dungeon": "",
@@ -1226,7 +1321,9 @@ let codexValues = {
 			"Aspect of Armageddon": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Ancient Flame": {
 				"dungeon": "",
@@ -1241,22 +1338,31 @@ let codexValues = {
 			"Aspect of Shattered Stars": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					"",
+					""
+				]
 			},
 			"Glacial Aspect": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of the Frozen Wake": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of the Frozen Tundra": {
 				"dungeon": "",
 				"region": "",
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Aspect of Overwhelming Currents": {
 				"dungeon": "",
@@ -1284,13 +1390,17 @@ let codexValues = {
 				"values": []
 			},
 			"Flamescar": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Staff of Lam Esen": {
 				"values": []
 			},
 			"Esadora's Overflowing Cameo": {
-				"values": []
+				"values": [
+					""
+				]
 			},
 			"Esu's Heirloom": {
 				"values": []

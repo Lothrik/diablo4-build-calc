@@ -4231,6 +4231,7 @@ let paragonData = {
 		},
 		"Node": {
 			"Barbarian_Legendary_001": {
+				"name": "{Placeholder}",
 				"description": "Bleeding enemies you kill explode, dealing 10% of their max life to surrounding enemies.",
 				"descriptionLocalized": {
 					"deDE": "Wenn Ihr blutende Gegner tötet, explodieren sie und fügen Gegnern in der Nähe Schaden in Höhe von 10% ihres maximalen Lebens zu.",
@@ -4367,6 +4368,7 @@ let paragonData = {
 				}
 			},
 			"Barbarian_Legendary_010": {
+				"name": "{Placeholder}",
 				"description": "While Berserk, your Defensive Skills recharge 50% faster.",
 				"descriptionLocalized": {
 					"deDE": "Im Berserkermodus laden sich Eure defensiven Fertigkeiten 50% schneller auf.",
@@ -4530,6 +4532,50 @@ let paragonData = {
 					"ptBR": "Trocar de armas concede 3 de fúria.\n\nTags: Fúria.",
 					"ruRU": "При смене оружия вы накапливаете 3 ед. ярости.\n\nTags: Ярость.",
 					"zhCN": "切换武器使你获得 3 点怒气。\n\nTags: 怒气."
+				}
+			},
+			"Barbarian_Magic_BerserkDamage": {
+				"name": "Berserk Damage",
+				"description": "+5% Damage while Berserking\n\nTags: Berserking, Damage.",
+				"descriptionLocalized": null
+			},
+			"Barbarian_Magic_BerserkDuration": {
+				"name": "Berserk Duration",
+				"description": "+7.5% Berserking Duration\n\nTags: Berserking.",
+				"descriptionLocalized": null
+			},
+			"Barbarian_Magic_Fury": {
+				"name": "Fury",
+				"description": "+4 Maximum Fury\n\nTags: Fury.",
+				"descriptionLocalized": {
+					"deDE": "+4 max. Fury\n\nTags: Wut.",
+					"esES": "+4 de máximo de Fury\n\nTags: Furia.",
+					"esMX": "+4 de Fury como máximo\n\nTags: Furia.",
+					"frFR": "+4 |2Fury maximum\n\nTags: Fureur.",
+					"itIT": "Fury max: +4\n\nTags: Furia.",
+					"jaJP": "最大Fury +4\n\nTags: 怒気.",
+					"koKR": "최대 Fury +4\n\nTags: 분노.",
+					"plPL": "+4 maksimum: Fury\n\nTags: Furia.",
+					"ptBR": "+4 de máximo de Fury\n\nTags: Fúria.",
+					"ruRU": "+4 к максимуму ресурса \"Fury \"\n\nTags: Ярость.",
+					"zhCN": "+4 Fury 上限\n\nTags: 怒气."
+				}
+			},
+			"Barbarian_Magic_FuryOnKill": {
+				"name": "Fury On Kill",
+				"description": "1 Fury On Kill\n\nTags: Fury.",
+				"descriptionLocalized": {
+					"deDE": "1 Fury beim Töten eines Gegners\n\nTags: Wut.",
+					"esES": "1 de Fury al matar\n\nTags: Furia.",
+					"esMX": "1 de Fury con cada eliminación\n\nTags: Furia.",
+					"frFR": "1 de ressource (Fury ) par victime\n\nTags: Fureur.",
+					"itIT": "Fury per uccisione: 1\n\nTags: Furia.",
+					"jaJP": "キル時に1のFury を獲得\n\nTags: 怒気.",
+					"koKR": "처치 시 1 Fury\n\nTags: 분노.",
+					"plPL": "Za zabicie zapewnia 1 pkt. zasobu: Fury\n\nTags: Furia.",
+					"ptBR": "1 de Fury ao matar\n\nTags: Fúria.",
+					"ruRU": "1 к ресурсу \"Fury \" за каждое убийство\n\nTags: Ярость.",
+					"zhCN": "消灭获得1 Fury\n\nTags: 怒气."
 				}
 			},
 			"Barbarian_Rare_001": {
@@ -10777,6 +10823,210 @@ let paragonData = {
 					"zhCN": "消耗 75 点灵力后, 你造成的伤害提高 x30%, 持续 5 秒。\n\nTags: 灵力, 伤害."
 				}
 			},
+			"Druid_Magic_CriticalDamageEarth": {
+				"name": "Critical Damage Earth",
+				"description": "+7.5% Critical Strike Damage with Earth Skills\n\nTags: Earth, Critical Strikes, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% kritischer Trefferschaden mit Erde -Fertigkeiten\n\nTags: Erde, Kritische Treffer, Schaden.",
+					"esES": "+7.5% de daño de golpe crítico con habilidades de Tierra\n\nTags: Tierra, Golpes críticos, Daño.",
+					"esMX": "+7.5% de daño de golpe crítico con habilidades de Tierra\n\nTags: Tierra, Golpes críticos, Daño.",
+					"frFR": "+7.5% de dégâts critiques avec les compétences de Terre\n\nTags: Terre, Coups critiques, Dégâts.",
+					"itIT": "Danni critici con abilità Terra: +7.5%\n\nTags: Terra, Colpi critici, Danni.",
+					"jaJP": "地 スキルのクリティカルヒットダメージ+7.5%\n\nTags: 地, クリティカルヒット, ダメージ.",
+					"koKR": "대지 기술의 극대화 피해 +7.5%\n\nTags: 대지, 극대화, 피해.",
+					"plPL": "+7.5% obrażeń od trafień krytycznych od umiejętności: Ziemia\n\nTags: Ziemia, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+7.5% de dano de acerto crítico com habilidades de Terra\n\nTags: Terra, Acertos Críticos, Dano.",
+					"ruRU": "+7.5% к критическому урону для умений категории \"Земля \"\n\nTags: Земля, Критические удары, Урон.",
+					"zhCN": "+7.5% 大地 技能的暴击伤害\n\nTags: 大地, 暴击, 伤害."
+				}
+			},
+			"Druid_Magic_DamageBasic": {
+				"name": "Damage Basic",
+				"description": "+17.5% Basic Skill Damage\n\nTags: Basic, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+17.5% Schaden für Fertigkeiten des Typs Basis\n\nTags: Basis, Schaden.",
+					"esES": "+17.5% de daño de habilidades de Básica\n\nTags: Básica, Daño.",
+					"esMX": "+17.5% de daño de habilidad Básica\n\nTags: Básica, Daño.",
+					"frFR": "+17.5% de dégâts de compétence (Basique )\n\nTags: Basique, Dégâts.",
+					"itIT": "Danni abilità Base: +17.5%\n\nTags: Base, Danni.",
+					"jaJP": "スキルダメージ+17.5% 基本\n\nTags: 基本, ダメージ.",
+					"koKR": "기본 기술 피해 +17.5%\n\nTags: 기본, 피해.",
+					"plPL": "+17.5% obrażeń od umiejętności (Podstawowe )\n\nTags: Podstawowe, Obrażenia.",
+					"ptBR": "+17.5% de dano de habilidade Básica\n\nTags: Básica, Dano.",
+					"ruRU": "+17.5% к урону от умений категории \"Базовое \"\n\nTags: Базовое, Урон.",
+					"zhCN": "+17.5% 基础 技能伤害\n\nTags: 基础, 伤害."
+				}
+			},
+			"Druid_Magic_DamageBear": {
+				"name": "Damage Bear",
+				"description": "+5% Werebear Skill Damage\n\nTags: Werebear, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden für Fertigkeiten des Typs Werbär\n\nTags: Werbär, Schaden.",
+					"esES": "+5% de daño de habilidades de Hombre oso\n\nTags: Hombre oso, Daño.",
+					"esMX": "+5% de daño de habilidad Hombre oso\n\nTags: Hombre oso, Daño.",
+					"frFR": "+5% de dégâts de compétence (Ursoïde )\n\nTags: Ursoïde, Dégâts.",
+					"itIT": "Danni abilità Orso Mannaro: +5%\n\nTags: Orso Mannaro, Danni.",
+					"jaJP": "スキルダメージ+5% 人熊\n\nTags: 人熊, ダメージ.",
+					"koKR": "곰인간 기술 피해 +5%\n\nTags: 곰인간, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Niedźwiedziołak )\n\nTags: Niedźwiedziołak, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Urso\n\nTags: Urso, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Медведь \"\n\nTags: Медведь, Урон.",
+					"zhCN": "+5% 熊人 技能伤害\n\nTags: 熊人, 伤害."
+				}
+			},
+			"Druid_Magic_DamageCore": {
+				"name": "Damage Core",
+				"description": "+7% Core Skill Damage\n\nTags: Core, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+7% Schaden für Fertigkeiten des Typs Kern\n\nTags: Kern, Schaden.",
+					"esES": "+7% de daño de habilidades de Principal\n\nTags: Principal, Daño.",
+					"esMX": "+7% de daño de habilidad Principal\n\nTags: Principal, Daño.",
+					"frFR": "+7% de dégâts de compétence (Principale )\n\nTags: Principale, Dégâts.",
+					"itIT": "Danni abilità Primaria: +7%\n\nTags: Primaria, Danni.",
+					"jaJP": "スキルダメージ+7% コア\n\nTags: コア, ダメージ.",
+					"koKR": "핵심 기술 피해 +7%\n\nTags: 핵심, 피해.",
+					"plPL": "+7% obrażeń od umiejętności (Główne )\n\nTags: Główne, Obrażenia.",
+					"ptBR": "+7% de dano de habilidade Principal\n\nTags: Principal, Dano.",
+					"ruRU": "+7% к урону от умений категории \"Основное \"\n\nTags: Основное, Урон.",
+					"zhCN": "+7% 核心 技能伤害\n\nTags: 核心, 伤害."
+				}
+			},
+			"Druid_Magic_DamageEarth": {
+				"name": "Damage Earth",
+				"description": "+5% Earth Skill Damage\n\nTags: Earth, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden für Fertigkeiten des Typs Erde\n\nTags: Erde, Schaden.",
+					"esES": "+5% de daño de habilidades de Tierra\n\nTags: Tierra, Daño.",
+					"esMX": "+5% de daño de habilidad Tierra\n\nTags: Tierra, Daño.",
+					"frFR": "+5% de dégâts de compétence (Terre )\n\nTags: Terre, Dégâts.",
+					"itIT": "Danni abilità Terra: +5%\n\nTags: Terra, Danni.",
+					"jaJP": "スキルダメージ+5% 地\n\nTags: 地, ダメージ.",
+					"koKR": "대지 기술 피해 +5%\n\nTags: 대지, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Ziemia )\n\nTags: Ziemia, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Terra\n\nTags: Terra, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Земля \"\n\nTags: Земля, Урон.",
+					"zhCN": "+5% 大地 技能伤害\n\nTags: 大地, 伤害."
+				}
+			},
+			"Druid_Magic_DamageNature": {
+				"name": "Damage Nature",
+				"description": "+5% Nature Magic Skill Damage\n\nTags: Nature Magic, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden für Fertigkeiten des Typs Naturmagie\n\nTags: Naturmagie, Schaden.",
+					"esES": "+5% de daño de habilidades de Magia de la naturaleza\n\nTags: Magia de la naturaleza, Daño.",
+					"esMX": "+5% de daño de habilidad Magia de la naturaleza\n\nTags: Magia de la naturaleza, Daño.",
+					"frFR": "+5% de dégâts de compétence (Magie naturelle )\n\nTags: Magie naturelle, Dégâts.",
+					"itIT": "Danni abilità Magia naturale: +5%\n\nTags: Magia naturale, Danni.",
+					"jaJP": "スキルダメージ+5% 自然魔法\n\nTags: 自然魔法, ダメージ.",
+					"koKR": "자연 마법 기술 피해 +5%\n\nTags: 자연 마법, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Magia Natury )\n\nTags: Magia Natury, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Magia da Natureza\n\nTags: Magia da Natureza, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Силы природы \"\n\nTags: Силы природы, Урон.",
+					"zhCN": "+5% 自然魔法 技能伤害\n\nTags: 自然魔法, 伤害."
+				}
+			},
+			"Druid_Magic_DamageShapeshifting": {
+				"name": "Damage Shapeshifting",
+				"description": "+5% Shapeshifting Skill Damage\n\nTags: Shapeshifting, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden für Fertigkeiten des Typs Gestaltwandeln\n\nTags: Gestaltwandeln, Schaden.",
+					"esES": "+5% de daño de habilidades de Cambio de forma\n\nTags: Cambio de forma, Daño.",
+					"esMX": "+5% de daño de habilidad Metamorfosis\n\nTags: Metamorfosis, Daño.",
+					"frFR": "+5% de dégâts de compétence (Métamorphose )\n\nTags: Métamorphose, Dégâts.",
+					"itIT": "Danni abilità Mutaforma: +5%\n\nTags: Mutaforma, Danni.",
+					"jaJP": "スキルダメージ+5% 変身\n\nTags: 変身, ダメージ.",
+					"koKR": "변신 기술 피해 +5%\n\nTags: 변신, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Zmiennokształtność )\n\nTags: Zmiennokształtność, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Metamorfose\n\nTags: Metamorfose, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Смена облика \"\n\nTags: Смена облика, Урон.",
+					"zhCN": "+5% 变形 技能伤害\n\nTags: 变形, 伤害."
+				}
+			},
+			"Druid_Magic_DamageStorm": {
+				"name": "Damage Storm",
+				"description": "+5% Storm Skill Damage\n\nTags: Storm, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden für Fertigkeiten des Typs Sturm\n\nTags: Sturm, Schaden.",
+					"esES": "+5% de daño de habilidades de Tormenta\n\nTags: Tormenta, Daño.",
+					"esMX": "+5% de daño de habilidad Tormenta\n\nTags: Tormenta, Daño.",
+					"frFR": "+5% de dégâts de compétence (Tempête )\n\nTags: Tempête, Dégâts.",
+					"itIT": "Danni abilità Tempesta: +5%\n\nTags: Tempesta, Danni.",
+					"jaJP": "スキルダメージ+5% 嵐\n\nTags: 嵐, ダメージ.",
+					"koKR": "폭풍 기술 피해 +5%\n\nTags: 폭풍, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Burza )\n\nTags: Burza, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Tempestade\n\nTags: Tempestade, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Буря \"\n\nTags: Буря, Урон.",
+					"zhCN": "+5% 风暴 技能伤害\n\nTags: 风暴, 伤害."
+				}
+			},
+			"Druid_Magic_DamageWhileBear": {
+				"name": "Damage While Bear",
+				"description": "+5% Damage while in Werebear Form\n\nTags: Werebear, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden in folgender Gestalt: Werebear Form\n\nTags: Werbär, Schaden.",
+					"esES": "+5% de daño durante Werebear Form\n\nTags: Hombre oso, Daño.",
+					"esMX": "+5% de daño mientras estás en Werebear Form\n\nTags: Hombre oso, Daño.",
+					"frFR": "+5% de dégâts sous Werebear Form\n\nTags: Ursoïde, Dégâts.",
+					"itIT": "Danni in Werebear Form: +5%\n\nTags: Orso Mannaro, Danni.",
+					"jaJP": "Werebear Form 内のダメージ+5%\n\nTags: 人熊, ダメージ.",
+					"koKR": "Werebear Form 일 때 공격력 +5%\n\nTags: 곰인간, 피해.",
+					"plPL": "+5% obrażeń podczas: Werebear Form\n\nTags: Niedźwiedziołak, Obrażenia.",
+					"ptBR": "+5% de dano enquanto na Werebear Form\n\nTags: Urso, Dano.",
+					"ruRU": "+5% к урону под действием эффекта \"Werebear Form \"\n\nTags: Медведь, Урон.",
+					"zhCN": "+5% 在Werebear Form 中时伤害\n\nTags: 熊人, 伤害."
+				}
+			},
+			"Druid_Magic_DamageWolf": {
+				"name": "Damage Wolf",
+				"description": "+5% Werewolf Skill Damage\n\nTags: Werewolf, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden für Fertigkeiten des Typs Werwolf\n\nTags: Werwolf, Schaden.",
+					"esES": "+5% de daño de habilidades de Hombre lobo\n\nTags: Hombre lobo, Daño.",
+					"esMX": "+5% de daño de habilidad Hombre lobo\n\nTags: Hombre lobo, Daño.",
+					"frFR": "+5% de dégâts de compétence (Lycanthrope )\n\nTags: Lycanthrope, Dégâts.",
+					"itIT": "Danni abilità Lupo Mannaro: +5%\n\nTags: Lupo Mannaro, Danni.",
+					"jaJP": "スキルダメージ+5% 人狼\n\nTags: 人狼, ダメージ.",
+					"koKR": "늑대인간 기술 피해 +5%\n\nTags: 늑대인간, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Wilkołak )\n\nTags: Wilkołak, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Lobisomem\n\nTags: Lobisomem, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Облик волка \"\n\nTags: Облик волка, Урон.",
+					"zhCN": "+5% 狼人 技能伤害\n\nTags: 狼人, 伤害."
+				}
+			},
+			"Druid_Magic_Spirit": {
+				"name": "Spirit",
+				"description": "+4 Maximum Spirit\n\nTags: Spirit.",
+				"descriptionLocalized": {
+					"deDE": "+4 max. Spirit\n\nTags: Geisteskraft.",
+					"esES": "+4 de máximo de Spirit\n\nTags: Espíritu.",
+					"esMX": "+4 de Spirit como máximo\n\nTags: Espíritu.",
+					"frFR": "+4 |2Spirit maximum\n\nTags: Esprit.",
+					"itIT": "Spirit max: +4\n\nTags: Spirito.",
+					"jaJP": "最大Spirit +4\n\nTags: 精神力.",
+					"koKR": "최대 Spirit +4\n\nTags: 영력.",
+					"plPL": "+4 maksimum: Spirit\n\nTags: Siła Duchowa.",
+					"ptBR": "+4 de máximo de Spirit\n\nTags: Espírito.",
+					"ruRU": "+4 к максимуму ресурса \"Spirit \"\n\nTags: Дух.",
+					"zhCN": "+4 Spirit 上限\n\nTags: 灵力."
+				}
+			},
+			"Druid_Magic_SpiritOnKill": {
+				"name": "Spirit On Kill",
+				"description": "1 Spirit On Kill\n\nTags: Spirit.",
+				"descriptionLocalized": {
+					"deDE": "1 Spirit beim Töten eines Gegners\n\nTags: Geisteskraft.",
+					"esES": "1 de Spirit al matar\n\nTags: Espíritu.",
+					"esMX": "1 de Spirit con cada eliminación\n\nTags: Espíritu.",
+					"frFR": "1 de ressource (Spirit ) par victime\n\nTags: Esprit.",
+					"itIT": "Spirit per uccisione: 1\n\nTags: Spirito.",
+					"jaJP": "キル時に1のSpirit を獲得\n\nTags: 精神力.",
+					"koKR": "처치 시 1 Spirit\n\nTags: 영력.",
+					"plPL": "Za zabicie zapewnia 1 pkt. zasobu: Spirit\n\nTags: Siła Duchowa.",
+					"ptBR": "1 de Spirit ao matar\n\nTags: Espírito.",
+					"ruRU": "1 к ресурсу \"Spirit \" за каждое убийство\n\nTags: Дух.",
+					"zhCN": "消灭获得1 Spirit\n\nTags: 灵力."
+				}
+			},
 			"Druid_Rare_003": {
 				"name": "Stormcaller",
 				"description": "+10% Storm Skill Damage\n+10 Willpower\n\nBonus: Another +10% Storm Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Storm, Damage, Willpower.",
@@ -12500,6 +12750,1405 @@ let paragonData = {
 					"ptBR": "+5 de Força\n+5 de Inteligência\n+5 de Determinação\n+5 de Destreza\n\nTags: Força, Inteligência, Determinação, Destreza.",
 					"ruRU": "+5 к силе\n+5 к интеллекту\n+5 к силе воли\n+5 к ловкости\n\nTags: Сила, Интеллект, Сила воли, Ловкость.",
 					"zhCN": "+5 点力量\n+5 点智力\n+5 点意力\n+5 点敏捷\n\nTags: 力量, 智力, 意力, 敏捷."
+				}
+			},
+			"Generic_Magic_Armor": {
+				"name": "Armor",
+				"description": "+50 Armor\n\nTags: Armor.",
+				"descriptionLocalized": {
+					"deDE": "+50 Rüstung\n\nTags: Rüstung.",
+					"esES": "+50 de armadura\n\nTags: Armadura.",
+					"esMX": "+50 de armadura\n\nTags: Armadura.",
+					"frFR": "+50 à l'armure\n\nTags: Armure.",
+					"itIT": "Armatura: +50\n\nTags: Armatura.",
+					"jaJP": "防御力+50\n\nTags: 防御力.",
+					"koKR": "방어도 +50\n\nTags: 방어도.",
+					"plPL": "+50 pancerza\n\nTags: Pancerz.",
+					"ptBR": "+50 de armadura\n\nTags: Armadura.",
+					"ruRU": "+50 ед. брони\n\nTags: Броня.",
+					"zhCN": "+50 护甲值\n\nTags: 护甲."
+				}
+			},
+			"Generic_Magic_ArmorWhileBear": {
+				"name": "Armor While Bear",
+				"description": "+1% Total Armor while in Werebear Form\n\nTags: Armor, Werebear.",
+				"descriptionLocalized": {
+					"deDE": "+1% gesamte Rüstung in Werbärgestalt\n\nTags: Rüstung, Werbär.",
+					"esES": "+1% de armadura total en forma de hombre oso\n\nTags: Armadura, Hombre oso.",
+					"esMX": "+1% de armadura total mientras estás en forma de hombre oso\n\nTags: Armadura, Hombre oso.",
+					"frFR": "+1% d'armure sous forme d'ursoïde\n\nTags: Armure, Ursoïde.",
+					"itIT": "Armatura totale in forma di Orso Mannaro: +1%\n\nTags: Armatura, Orso Mannaro.",
+					"jaJP": "人熊形態時の合計防御力+1%\n\nTags: 防御力, 人熊.",
+					"koKR": "곰인간 형상일 때 총 방어도 +1%\n\nTags: 방어도, 곰인간.",
+					"plPL": "+1% całkowitego pancerza w postaci niedźwiedziołaka\n\nTags: Pancerz, Niedźwiedziołak.",
+					"ptBR": "+1% de armadura total na forma de urso\n\nTags: Armadura, Urso.",
+					"ruRU": "+1% к общей броне в облике медведя\n\nTags: Броня, Медведь.",
+					"zhCN": "+1% 熊人形态时的总护甲\n\nTags: 护甲, 熊人."
+				}
+			},
+			"Generic_Magic_AttackSpeed": {
+				"name": "Attack Speed",
+				"description": "+2.5% Attack Speed\n\nTags: Attack Speed.",
+				"descriptionLocalized": {
+					"deDE": "+2.5% Angriffsgeschwindigkeit\n\nTags: Angriffsgeschwindigkeit.",
+					"esES": "+2.5% de velocidad de ataque\n\nTags: Velocidad de ataque.",
+					"esMX": "+2.5% de velocidad de ataque\n\nTags: Velocidad de ataque.",
+					"frFR": "+2.5% à la vitesse d'attaque\n\nTags: Vitesse d'attaque.",
+					"itIT": "Velocità d'attacco: +2.5%\n\nTags: Velocità d'attacco.",
+					"jaJP": "攻撃速度+2.5%\n\nTags: 攻撃速度.",
+					"koKR": "공격 속도 +2.5%\n\nTags: 공격 속도.",
+					"plPL": "+2.5% szybkości ataku\n\nTags: Szybkość Ataku.",
+					"ptBR": "+2.5% de velocidade de ataque\n\nTags: Velocidade de Ataque.",
+					"ruRU": "+2.5% к скорости атаки\n\nTags: Скорость атаки.",
+					"zhCN": "+2.5% 攻击速度\n\nTags: 攻击速度."
+				}
+			},
+			"Generic_Magic_BonusFortify": {
+				"name": "Bonus Fortify",
+				"description": "+3.2% Fortify Generation\n\nTags: Fortify.",
+				"descriptionLocalized": {
+					"deDE": "+3.2% Stählungserzeugung\n\nTags: Stählung.",
+					"esES": "+3.2% de generación de fortificación\n\nTags: Fortificación.",
+					"esMX": "+3.2% de generación de fortificación\n\nTags: Fortificar.",
+					"frFR": "+3.2% à la génération de fortification\n\nTags: Fortification.",
+					"itIT": "Generazione Fortificazione: +3.2%\n\nTags: Fortificazione.",
+					"jaJP": "強化生成量+3.2%\n\nTags: 強化.",
+					"koKR": "보강 재생량 +3.2%\n\nTags: 보강.",
+					"plPL": "+3.2% do generowania umocnienia\n\nTags: Umocnienie.",
+					"ptBR": "+3.2% de geração de fortificação\n\nTags: Fortificação.",
+					"ruRU": "+3.2% к укреплению\n\nTags: Укрепление.",
+					"zhCN": "+3.2% 强固生成量\n\nTags: 强固."
+				}
+			},
+			"Generic_Magic_CCDurationReduction": {
+				"name": "CC Duration Reduction",
+				"description": "4% Control Impaired Duration Reduction\n\nTags: Crowd Control.",
+				"descriptionLocalized": {
+					"deDE": "4% Verringerung der Dauer von Kontrollbeeinträchtigungen\n\nTags: Kontrollverlust.",
+					"esES": "4% de reducción de duración de pérdida de control\n\nTags: Control de masas.",
+					"esMX": "4% de reducción de la duración de pérdida de control\n\nTags: Control de multitudes.",
+					"frFR": "4% de réduction de la durée des effets de perte de contrôle\n\nTags: Perte de contrôle.",
+					"itIT": "Riduzione durata effetti debilitanti: 4%\n\nTags: Effetti debilitanti.",
+					"jaJP": "操作不能持続時間減少4%\n\nTags: 操作障害効果.",
+					"koKR": "제어 방해 지속시간 감소 4%\n\nTags: 군중 제어.",
+					"plPL": "4% redukcji trwania ograniczenia kontroli\n\nTags: Ograniczanie Kontroli.",
+					"ptBR": "4% de redução de duração de efeitos de controle\n\nTags: Controle de Grupo.",
+					"ruRU": "Снижение длительности эффектов контроля на 4%\n\nTags: Контроль.",
+					"zhCN": "4% 控制受限时间缩短\n\nTags: 群控."
+				}
+			},
+			"Generic_Magic_Chill": {
+				"name": "Chill",
+				"description": "4% Chill Application\n\nTags: Chill, Crowd Control.",
+				"descriptionLocalized": {
+					"deDE": "4% Unterkühlungsanwendung\n\nTags: Unterkühlen, Kontrollverlust.",
+					"esES": "4% de aplicación de helada\n\nTags: Helada, Control de masas.",
+					"esMX": "4% de aplicación de helamiento\n\nTags: Helar, Control de multitudes.",
+					"frFR": "4% d'application des effets glaçants\n\nTags: Glace, Perte de contrôle.",
+					"itIT": "Applicazione di raggelamento: 4%\n\nTags: Raggelamento, Effetti debilitanti.",
+					"jaJP": "冷気効果4%\n\nTags: 冷気, 操作障害効果.",
+					"koKR": "4%의 오한 적용\n\nTags: 오한, 군중 제어.",
+					"plPL": "4% stosowanego wyziębienia\n\nTags: Wyziębienie, Ograniczanie Kontroli.",
+					"ptBR": "+4% de bônus de gelidez\n\nTags: Gelidez, Controle de Grupo.",
+					"ruRU": "Вероятность вызвать окоченение – 4%\n\nTags: Окоченение, Контроль.",
+					"zhCN": "4% 冻伤程度\n\nTags: 冻伤, 群控."
+				}
+			},
+			"Generic_Magic_CriticalDamage": {
+				"name": "Critical Damage",
+				"description": "+7.5% Critical Strike Damage\n\nTags: Critical Strikes, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% kritischer Trefferschaden\n\nTags: Kritische Treffer, Schaden.",
+					"esES": "+7.5% de daño de golpe crítico\n\nTags: Golpes críticos, Daño.",
+					"esMX": "+7.5% de daño de golpe crítico\n\nTags: Golpes críticos, Daño.",
+					"frFR": "+7.5% de dégâts critiques\n\nTags: Coups critiques, Dégâts.",
+					"itIT": "Danni critici: +7.5%\n\nTags: Colpi critici, Danni.",
+					"jaJP": "クリティカルヒットダメージ+7.5%\n\nTags: クリティカルヒット, ダメージ.",
+					"koKR": "극대화 피해 +7.5%\n\nTags: 극대화, 피해.",
+					"plPL": "+7.5% obrażeń od trafień krytycznych\n\nTags: Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+7.5% de dano de acerto crítico\n\nTags: Acertos Críticos, Dano.",
+					"ruRU": "+7.5% к критическому урону\n\nTags: Критические удары, Урон.",
+					"zhCN": "+7.5% 暴击伤害\n\nTags: 暴击, 伤害."
+				}
+			},
+			"Generic_Magic_CriticalDamage1H": {
+				"name": "Critical Damage 1H",
+				"description": "+7.5% Critical Strike Damage with OneHanded\n\nTags: Critical Strikes, Damage, Dual Wield.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% kritischer Trefferschaden mit: OneHanded\n\nTags: Kritische Treffer, Schaden, Zwei Waffen.",
+					"esES": "+7.5% de daño de golpe crítico con OneHanded\n\nTags: Golpes críticos, Daño, Doble empuñadura.",
+					"esMX": "+7.5% de daño de golpe crítico con OneHanded\n\nTags: Golpes críticos, Daño, Ambidestreza.",
+					"frFR": "+7.5% de dégâts critiques (OneHanded )\n\nTags: Coups critiques, Dégâts, Deux armes.",
+					"itIT": "Danni critici con OneHanded: +7.5%\n\nTags: Colpi critici, Danni, Doppia arma.",
+					"jaJP": "OneHanded のクリティカルヒットダメージ+7.5%\n\nTags: クリティカルヒット, ダメージ, 二刀流.",
+					"koKR": "OneHanded 의 극대화 피해 +7.5%\n\nTags: 극대화, 피해, 쌍수 무기.",
+					"plPL": "+7.5% obrażeń od trafień krytycznych: OneHanded\n\nTags: Trafienia Krytyczne, Obrażenia, Broń w Każdej Ręce.",
+					"ptBR": "+7.5% de dano de acerto crítico com OneHanded\n\nTags: Acertos Críticos, Dano, Empunhadura Dupla.",
+					"ruRU": "+7.5% к критическому урону от эффекта \"OneHanded \"\n\nTags: Критические удары, Урон, Оружие в каждой руке.",
+					"zhCN": "+7.5% OneHanded 的暴击伤害\n\nTags: 暴击, 伤害, 双持."
+				}
+			},
+			"Generic_Magic_CriticalDamageToCC": {
+				"name": "Critical Damage To CC",
+				"description": "+10% Critical Strike Damage to Crowd Controlled Enemies\n\nTags: Critical Strikes, Damage, Crowd Control.",
+				"descriptionLocalized": {
+					"deDE": "+10% kritischer Trefferschaden bei Gegnern, die unter Kontrollverlust leiden\n\nTags: Kritische Treffer, Schaden, Kontrollverlust.",
+					"esES": "+10% de daño de golpe crítico a enemigos afectados por control de masas\n\nTags: Golpes críticos, Daño, Control de masas.",
+					"esMX": "+10% de daño de golpe crítico a enemigos bajo los efectos de control de multitudes\n\nTags: Golpes críticos, Daño, Control de multitudes.",
+					"frFR": "+10% de dégâts critiques contre les cibles subissant un effet de perte de contrôle\n\nTags: Coups critiques, Dégâts, Perte de contrôle.",
+					"itIT": "Danni critici ai nemici sotto effetti debilitanti: +10%\n\nTags: Colpi critici, Danni, Effetti debilitanti.",
+					"jaJP": "操作障害状態の敵へのクリティカルヒットダメージ+10%\n\nTags: クリティカルヒット, ダメージ, 操作障害効果.",
+					"koKR": "군중 제어 효과의 영향을 받는 적에게 주는 극대화 피해 +10%\n\nTags: 극대화, 피해, 군중 제어.",
+					"plPL": "+10% obrażeń od trafień krytycznych zadawanych wrogom z ograniczoną kontrolą\n\nTags: Trafienia Krytyczne, Obrażenia, Ograniczanie Kontroli.",
+					"ptBR": "+10% de dano de acerto crítico contra inimigos sob controle de grupo\n\nTags: Acertos Críticos, Dano, Controle de Grupo.",
+					"ruRU": "+10% к критическому урону противникам под действием эффектов контроля\n\nTags: Критические удары, Урон, Контроль.",
+					"zhCN": "+10% 对被群控敌人的暴击伤害\n\nTags: 暴击, 伤害, 群控."
+				}
+			},
+			"Generic_Magic_Damage": {
+				"name": "Damage",
+				"description": "+5% Damage\n\nTags: Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden\n\nTags: Schaden.",
+					"esES": "+5% de daño\n\nTags: Daño.",
+					"esMX": "+5% de daño\n\nTags: Daño.",
+					"frFR": "+5% de dégâts\n\nTags: Dégâts.",
+					"itIT": "Danni: +5%\n\nTags: Danni.",
+					"jaJP": "ダメージ+5%\n\nTags: ダメージ.",
+					"koKR": "공격력 +5%\n\nTags: 피해.",
+					"plPL": "+5% obrażeń\n\nTags: Obrażenia.",
+					"ptBR": "+5% de dano\n\nTags: Dano.",
+					"ruRU": "+5% к урону\n\nTags: Урон.",
+					"zhCN": "+5% 伤害\n\nTags: 伤害."
+				}
+			},
+			"Generic_Magic_Damage1H": {
+				"name": "Damage 1H",
+				"description": "+5% Damage with OneHanded\n\nTags: Damage, Dual Wield.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden mit: OneHanded\n\nTags: Schaden, Zwei Waffen.",
+					"esES": "+5% de daño con OneHanded\n\nTags: Daño, Doble empuñadura.",
+					"esMX": "+5% de daño con OneHanded\n\nTags: Daño, Ambidestreza.",
+					"frFR": "+5% de dégâts avec OneHanded\n\nTags: Dégâts, Deux armes.",
+					"itIT": "Danni con OneHanded: +5%\n\nTags: Danni, Doppia arma.",
+					"jaJP": "OneHanded でのダメージ+5%\n\nTags: ダメージ, 二刀流.",
+					"koKR": "OneHanded 의 공격력 +5%\n\nTags: 피해, 쌍수 무기.",
+					"plPL": "+5% obrażeń zadanych przy użyciu: OneHanded\n\nTags: Obrażenia, Broń w Każdej Ręce.",
+					"ptBR": "+5% de dano com OneHanded\n\nTags: Dano, Empunhadura Dupla.",
+					"ruRU": "+5% к урону от свойства \"OneHanded \"\n\nTags: Урон, Оружие в каждой руке.",
+					"zhCN": "+5% 使用OneHanded 的伤害\n\nTags: 伤害, 双持."
+				}
+			},
+			"Generic_Magic_Damage2HBludgeoning": {
+				"name": "Damage 2H Bludgeoning",
+				"description": "+5% Damage with TwoHandedBludgeoning\n\nTags: Damage, Bludgeoning, Two-Handed.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden mit: TwoHandedBludgeoning\n\nTags: Schaden, Wuchtwaffe, Zweihändig.",
+					"esES": "+5% de daño con TwoHandedBludgeoning\n\nTags: Daño, Contundente, Dos manos.",
+					"esMX": "+5% de daño con TwoHandedBludgeoning\n\nTags: Daño, Impacto, Dos manos.",
+					"frFR": "+5% de dégâts avec TwoHandedBludgeoning\n\nTags: Dégâts, Arme contondante, Arme à deux mains.",
+					"itIT": "Danni con TwoHandedBludgeoning: +5%\n\nTags: Danni, Contundente, A due mani.",
+					"jaJP": "TwoHandedBludgeoning でのダメージ+5%\n\nTags: ダメージ, 殴打, 両手用武器.",
+					"koKR": "TwoHandedBludgeoning 의 공격력 +5%\n\nTags: 피해, 둔기, 양손 무기.",
+					"plPL": "+5% obrażeń zadanych przy użyciu: TwoHandedBludgeoning\n\nTags: Obrażenia, Obuchowe, Dwuręczne.",
+					"ptBR": "+5% de dano com TwoHandedBludgeoning\n\nTags: Dano, Concussão, Duas mãos.",
+					"ruRU": "+5% к урону от свойства \"TwoHandedBludgeoning \"\n\nTags: Урон, Дробящее оружие, Двуручное.",
+					"zhCN": "+5% 使用TwoHandedBludgeoning 的伤害\n\nTags: 伤害, 钝击, 双手."
+				}
+			},
+			"Generic_Magic_Damage2HSlashing": {
+				"name": "Damage 2H Slashing",
+				"description": "+5% Damage with TwoHandedSlashing\n\nTags: Damage, Two-Handed, Slashing.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden mit: TwoHandedSlashing\n\nTags: Schaden, Zweihändig, Hiebwaffe.",
+					"esES": "+5% de daño con TwoHandedSlashing\n\nTags: Daño, Dos manos, Cortante.",
+					"esMX": "+5% de daño con TwoHandedSlashing\n\nTags: Daño, Dos manos, Corte.",
+					"frFR": "+5% de dégâts avec TwoHandedSlashing\n\nTags: Dégâts, Arme à deux mains, Tranchant.",
+					"itIT": "Danni con TwoHandedSlashing: +5%\n\nTags: Danni, A due mani, Tagliente.",
+					"jaJP": "TwoHandedSlashing でのダメージ+5%\n\nTags: ダメージ, 両手用武器, 斬撃.",
+					"koKR": "TwoHandedSlashing 의 공격력 +5%\n\nTags: 피해, 양손 무기, 베는 무기.",
+					"plPL": "+5% obrażeń zadanych przy użyciu: TwoHandedSlashing\n\nTags: Obrażenia, Dwuręczne, Sieczne.",
+					"ptBR": "+5% de dano com TwoHandedSlashing\n\nTags: Dano, Duas mãos, Corte.",
+					"ruRU": "+5% к урону от свойства \"TwoHandedSlashing \"\n\nTags: Урон, Двуручное, Рубящее.",
+					"zhCN": "+5% 使用TwoHandedSlashing 的伤害\n\nTags: 伤害, 双手, 劈斩."
+				}
+			},
+			"Generic_Magic_DamageAfterDodge": {
+				"name": "Damage After Dodge",
+				"description": "+6.2% Damage for {#} Seconds After Dodging an Attack\n\nTags: Dodge, Damage.",
+				"descriptionLocalized": {
+					"deDE": "{#} Sek. lang +6.2% Schaden nach Ausweichen eines Angriffs\n\nTags: Ausweichen, Schaden.",
+					"esES": "+6.2% de daño durante {#} s tras esquivar un ataque\n\nTags: Esquivar, Daño.",
+					"esMX": "+6.2% de daño durante {#} segundos después de esquivar un ataque\n\nTags: Evasión, Daño.",
+					"frFR": "+6.2% de dégâts pendant {#} s après avoir esquivé une attaque\n\nTags: Esquive, Dégâts.",
+					"itIT": "Danni per {#} s dopo la schivata di un attacco: +6.2%\n\nTags: Schivata, Danni.",
+					"jaJP": "攻撃を回避した後{#} 秒間、ダメージ+6.2%\n\nTags: 回避, ダメージ.",
+					"koKR": "공격 회피 후 {#} 초 동안 공격력 +6.2%\n\nTags: 회피, 피해.",
+					"plPL": "+6.2% obrażeń przez {#} sek. po uniknięciu ataku\n\nTags: Unik, Obrażenia.",
+					"ptBR": "+6.2% de dano por {#} segundos depois de se esquivar de um ataque\n\nTags: Esquiva, Dano.",
+					"ruRU": "+6.2% к урону на {#} сек. после удачного уклонения\n\nTags: Уклонение, Урон.",
+					"zhCN": "+6.2% 躲闪攻击后{#} 秒内获得的伤害加成\n\nTags: 躲闪, 伤害."
+				}
+			},
+			"Generic_Magic_DamageBleed": {
+				"name": "Damage Bleed",
+				"description": "+5% Physical Damage Over Time\n\nTags: Bleed, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden über Zeit des Typs Physical\n\nTags: Blutung, Schaden.",
+					"esES": "+5% de daño de Physical en el tiempo\n\nTags: Sangrado, Daño.",
+					"esMX": "+5% de daño con el tiempo de Physical\n\nTags: Sangrado, Daño.",
+					"frFR": "+5% de dégâts Physical sur la durée\n\nTags: Saignement, Dégâts.",
+					"itIT": "Danni periodici da Physical: +5%\n\nTags: Sanguinamento, Danni.",
+					"jaJP": "Physical 継続ダメージ+5%\n\nTags: 出血, ダメージ.",
+					"koKR": "지속 Physical 피해 +5%\n\nTags: 출혈, 피해.",
+					"plPL": "+5% obrażeń z upływem czasu typu: Physical\n\nTags: Krwawienie, Obrażenia.",
+					"ptBR": "+5% de dano Physical ao longo do tempo\n\nTags: Sangramento, Dano.",
+					"ruRU": "+5% к периодическому урону (Physical )\n\nTags: Кровотечение, Урон.",
+					"zhCN": "+5% Physical 持续性伤害\n\nTags: 流血, 伤害."
+				}
+			},
+			"Generic_Magic_DamageBurn": {
+				"name": "Damage Burn",
+				"description": "+5% Fire Damage Over Time\n\nTags: Burn, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden über Zeit des Typs Fire\n\nTags: Verbrennung, Schaden.",
+					"esES": "+5% de daño de Fire en el tiempo\n\nTags: Quemadura, Daño.",
+					"esMX": "+5% de daño con el tiempo de Fire\n\nTags: Quemadura, Daño.",
+					"frFR": "+5% de dégâts Fire sur la durée\n\nTags: Brûlure, Dégâts.",
+					"itIT": "Danni periodici da Fire: +5%\n\nTags: Bruciatura, Danni.",
+					"jaJP": "Fire 継続ダメージ+5%\n\nTags: 炎上, ダメージ.",
+					"koKR": "지속 Fire 피해 +5%\n\nTags: 불태우기, 피해.",
+					"plPL": "+5% obrażeń z upływem czasu typu: Fire\n\nTags: Podpalenie, Obrażenia.",
+					"ptBR": "+5% de dano Fire ao longo do tempo\n\nTags: Queimadura, Dano.",
+					"ruRU": "+5% к периодическому урону (Fire )\n\nTags: Горение, Урон.",
+					"zhCN": "+5% Fire 持续性伤害\n\nTags: 燃烧, 伤害."
+				}
+			},
+			"Generic_Magic_DamageCold": {
+				"name": "Damage Cold",
+				"description": "+5% Cold Damage\n\nTags: Cold, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden des Typs Cold\n\nTags: Kälte, Schaden.",
+					"esES": "+5% de daño de Cold\n\nTags: Frío, Daño.",
+					"esMX": "+5% de daño de Cold\n\nTags: Frío, Daño.",
+					"frFR": "+5% de dégâts Cold\n\nTags: Froid, Dégâts.",
+					"itIT": "Danni da Cold: +5%\n\nTags: Freddo, Danni.",
+					"jaJP": "Cold ダメージ+5%\n\nTags: 冷気, ダメージ.",
+					"koKR": "Cold 피해 +5%\n\nTags: 냉기, 피해.",
+					"plPL": "+5% obrażeń typu: Cold\n\nTags: Zimno, Obrażenia.",
+					"ptBR": "+5% de dano Cold\n\nTags: Gelo, Dano.",
+					"ruRU": "+5% к урону (Cold )\n\nTags: Холод, Урон.",
+					"zhCN": "+5% Cold 伤害\n\nTags: 冰霜, 伤害."
+				}
+			},
+			"Generic_Magic_DamageConjuration": {
+				"name": "Damage Conjuration",
+				"description": "+7.5% Conjuration Skill Damage\n\nTags: Damage, Conjuration.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% Schaden für Fertigkeiten des Typs Beschwörung\n\nTags: Schaden, Beschwörung.",
+					"esES": "+7.5% de daño de habilidades de Evocación\n\nTags: Daño, Evocación.",
+					"esMX": "+7.5% de daño de habilidad Conjuración\n\nTags: Daño, Conjuración.",
+					"frFR": "+7.5% de dégâts de compétence (Conjuration )\n\nTags: Dégâts, Conjuration.",
+					"itIT": "Danni abilità Invocazione: +7.5%\n\nTags: Danni, Invocazione.",
+					"jaJP": "スキルダメージ+7.5% 召喚\n\nTags: ダメージ, 召喚.",
+					"koKR": "구현 기술 피해 +7.5%\n\nTags: 피해, 구현.",
+					"plPL": "+7.5% obrażeń od umiejętności (Przyzywanie )\n\nTags: Obrażenia, Przyzywanie.",
+					"ptBR": "+7.5% de dano de habilidade Conjuração\n\nTags: Dano, Conjuração.",
+					"ruRU": "+7.5% к урону от умений категории \"Колдовство \"\n\nTags: Урон, Колдовство.",
+					"zhCN": "+7.5% 召唤魔法 技能伤害\n\nTags: 伤害, 召唤魔法."
+				}
+			},
+			"Generic_Magic_DamageElemental": {
+				"name": "Damage Elemental",
+				"description": "+5% Non-Physical Damage\n\nTags: Non-Physical, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% nichtphysischer Schaden\n\nTags: Nichtphysisch, Schaden.",
+					"esES": "+5% de daño no físico\n\nTags: No física, Daño.",
+					"esMX": "+5% de daño no físico\n\nTags: No física, Daño.",
+					"frFR": "+5% de dégâts non physiques\n\nTags: Non physique, Dégâts.",
+					"itIT": "Danni non fisici: +5%\n\nTags: Non fisico, Danni.",
+					"jaJP": "非物理ダメージ+5%\n\nTags: 非物理, ダメージ.",
+					"koKR": "비물리 피해 +5%\n\nTags: 비물리, 피해.",
+					"plPL": "+5% obrażeń niefizycznych\n\nTags: Niefizyczne, Obrażenia.",
+					"ptBR": "+5% de dano não físico\n\nTags: Não física, Dano.",
+					"ruRU": "+5% к нефизическому урону\n\nTags: Нефизический урон, Урон.",
+					"zhCN": "+5% 非物理伤害\n\nTags: 非物理, 伤害."
+				}
+			},
+			"Generic_Magic_DamageFire": {
+				"name": "Damage Fire",
+				"description": "+5% Fire Damage\n\nTags: Fire, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden des Typs Fire\n\nTags: Feuer, Schaden.",
+					"esES": "+5% de daño de Fire\n\nTags: Fuego, Daño.",
+					"esMX": "+5% de daño de Fire\n\nTags: Fuego, Daño.",
+					"frFR": "+5% de dégâts Fire\n\nTags: Feu, Dégâts.",
+					"itIT": "Danni da Fire: +5%\n\nTags: Fuoco, Danni.",
+					"jaJP": "Fire ダメージ+5%\n\nTags: 火炎, ダメージ.",
+					"koKR": "Fire 피해 +5%\n\nTags: 화염, 피해.",
+					"plPL": "+5% obrażeń typu: Fire\n\nTags: Ogień, Obrażenia.",
+					"ptBR": "+5% de dano Fire\n\nTags: Fogo, Dano.",
+					"ruRU": "+5% к урону (Fire )\n\nTags: Огонь, Урон.",
+					"zhCN": "+5% Fire 伤害\n\nTags: 火焰, 伤害."
+				}
+			},
+			"Generic_Magic_DamageLightning": {
+				"name": "Damage Lightning",
+				"description": "+5% Lightning Damage\n\nTags: Lightning, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden des Typs Lightning\n\nTags: Blitz, Schaden.",
+					"esES": "+5% de daño de Lightning\n\nTags: Rayos, Daño.",
+					"esMX": "+5% de daño de Lightning\n\nTags: Rayo, Daño.",
+					"frFR": "+5% de dégâts Lightning\n\nTags: Foudre, Dégâts.",
+					"itIT": "Danni da Lightning: +5%\n\nTags: Fulmine, Danni.",
+					"jaJP": "Lightning ダメージ+5%\n\nTags: 稲妻, ダメージ.",
+					"koKR": "Lightning 피해 +5%\n\nTags: 번개, 피해.",
+					"plPL": "+5% obrażeń typu: Lightning\n\nTags: Błyskawica, Obrażenia.",
+					"ptBR": "+5% de dano Lightning\n\nTags: Eletricidade, Dano.",
+					"ruRU": "+5% к урону (Lightning )\n\nTags: Молния, Урон.",
+					"zhCN": "+5% Lightning 伤害\n\nTags: 闪电, 伤害."
+				}
+			},
+			"Generic_Magic_DamagePhysical": {
+				"name": "Damage Physical",
+				"description": "+5% Physical Damage\n\nTags: Physical, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden des Typs Physical\n\nTags: Physisch, Schaden.",
+					"esES": "+5% de daño de Physical\n\nTags: Física, Daño.",
+					"esMX": "+5% de daño de Physical\n\nTags: Física, Daño.",
+					"frFR": "+5% de dégâts Physical\n\nTags: Dégâts physiques, Dégâts.",
+					"itIT": "Danni da Physical: +5%\n\nTags: Fisico, Danni.",
+					"jaJP": "Physical ダメージ+5%\n\nTags: 物理, ダメージ.",
+					"koKR": "Physical 피해 +5%\n\nTags: 물리, 피해.",
+					"plPL": "+5% obrażeń typu: Physical\n\nTags: Fizyczne, Obrażenia.",
+					"ptBR": "+5% de dano Physical\n\nTags: Física, Dano.",
+					"ruRU": "+5% к урону (Physical )\n\nTags: Физический урон, Урон.",
+					"zhCN": "+5% Physical 伤害\n\nTags: 物理, 伤害."
+				}
+			},
+			"Generic_Magic_DamagePoison": {
+				"name": "Damage Poison",
+				"description": "+5% Poison Damage\n\nTags: Poison, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden des Typs Poison\n\nTags: Gift, Schaden.",
+					"esES": "+5% de daño de Poison\n\nTags: Veneno, Daño.",
+					"esMX": "+5% de daño de Poison\n\nTags: Veneno, Daño.",
+					"frFR": "+5% de dégâts Poison\n\nTags: Poison, Dégâts.",
+					"itIT": "Danni da Poison: +5%\n\nTags: Veleno, Danni.",
+					"jaJP": "Poison ダメージ+5%\n\nTags: 毒, ダメージ.",
+					"koKR": "Poison 피해 +5%\n\nTags: 독, 피해.",
+					"plPL": "+5% obrażeń typu: Poison\n\nTags: Trucizna, Obrażenia.",
+					"ptBR": "+5% de dano Poison\n\nTags: Veneno, Dano.",
+					"ruRU": "+5% к урону (Poison )\n\nTags: Яд, Урон.",
+					"zhCN": "+5% Poison 伤害\n\nTags: 毒素, 伤害."
+				}
+			},
+			"Generic_Magic_DamageReductionFromBleedingTarget": {
+				"name": "Damage Reduction From Bleeding Target",
+				"description": "2% Damage Reduction from Enemies That Are Bleeding\n\nTags: Bleed, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2% weniger Schaden durch Gegner, die von Bleeding betroffen sind\n\nTags: Blutung, Schadensreduktion.",
+					"esES": "2% de reducción de daño de enemigos en estado Bleeding\n\nTags: Sangrado, Reducción de daño.",
+					"esMX": "2% de reducción de daño de enemigos que están en estado Bleeding\n\nTags: Sangrado, Reducción de daño.",
+					"frFR": "2% de réduction des dégâts infligés par les cibles sous l'effet « Bleeding »\n\nTags: Saignement, Réduction des dégâts.",
+					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Bleeding: 2%\n\nTags: Sanguinamento, Riduzione danni.",
+					"jaJP": "Bleeding 状態の敵から受けるダメージ減少率2%\n\nTags: 出血, ダメージ減少.",
+					"koKR": "Bleeding 적에게 받는 피해 감소 2%\n\nTags: 출혈, 피해 감소.",
+					"plPL": "2% redukcji obrażeń od wrogów w stanie: Bleeding\n\nTags: Krwawienie, Redukcja Obrażeń.",
+					"ptBR": "2% de redução de dano recebido de inimigos Bleeding\n\nTags: Sangramento, Redução de Dano.",
+					"ruRU": "-2% к урону от противников под действием эффекта \"Bleeding \"\n\nTags: Кровотечение, Уменьшение урона.",
+					"zhCN": "2% 对Bleeding 敌人的伤害减免\n\nTags: 流血, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromBurningTarget": {
+				"name": "Damage Reduction From Burning Target",
+				"description": "2% Damage Reduction from Enemies That Are Burning\n\nTags: Burn, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2% weniger Schaden durch Gegner, die von Burning betroffen sind\n\nTags: Verbrennung, Schadensreduktion.",
+					"esES": "2% de reducción de daño de enemigos en estado Burning\n\nTags: Quemadura, Reducción de daño.",
+					"esMX": "2% de reducción de daño de enemigos que están en estado Burning\n\nTags: Quemadura, Reducción de daño.",
+					"frFR": "2% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n\nTags: Brûlure, Réduction des dégâts.",
+					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Burning: 2%\n\nTags: Bruciatura, Riduzione danni.",
+					"jaJP": "Burning 状態の敵から受けるダメージ減少率2%\n\nTags: 炎上, ダメージ減少.",
+					"koKR": "Burning 적에게 받는 피해 감소 2%\n\nTags: 불태우기, 피해 감소.",
+					"plPL": "2% redukcji obrażeń od wrogów w stanie: Burning\n\nTags: Podpalenie, Redukcja Obrażeń.",
+					"ptBR": "2% de redução de dano recebido de inimigos Burning\n\nTags: Queimadura, Redução de Dano.",
+					"ruRU": "-2% к урону от противников под действием эффекта \"Burning \"\n\nTags: Горение, Уменьшение урона.",
+					"zhCN": "2% 对Burning 敌人的伤害减免\n\nTags: 燃烧, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromChilledTarget": {
+				"name": "Damage Reduction From Chilled Target",
+				"description": "3% Damage Reduction from Chilled Enemies\n\nTags: Chill, Damage Reduction, Crowd Control.",
+				"descriptionLocalized": {
+					"deDE": "3% weniger Schaden durch Gegner, die von Chilled betroffen sind\n\nTags: Unterkühlen, Schadensreduktion, Kontrollverlust.",
+					"esES": "3% de reducción de daño de enemigos con el estado Chilled\n\nTags: Helada, Reducción de daño, Control de masas.",
+					"esMX": "3% de reducción de daño de enemigos en estado Chilled\n\nTags: Helar, Reducción de daño, Control de multitudes.",
+					"frFR": "3% de réduction des dégâts infligés par les cibles sous l'effet « Chilled »\n\nTags: Glace, Réduction des dégâts, Perte de contrôle.",
+					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Chilled: 3%\n\nTags: Raggelamento, Riduzione danni, Effetti debilitanti.",
+					"jaJP": "Chilled の敵からのダメージ減少率3%\n\nTags: 冷気, ダメージ減少, 操作障害効果.",
+					"koKR": "Chilled 적에게 받는 피해 감소 3%\n\nTags: 오한, 피해 감소, 군중 제어.",
+					"plPL": "3% redukcji obrażeń od wrogów: Chilled\n\nTags: Wyziębienie, Redukcja Obrażeń, Ograniczanie Kontroli.",
+					"ptBR": "3% de redução de dano recebido de inimigos Chilled\n\nTags: Gelidez, Redução de Dano, Controle de Grupo.",
+					"ruRU": "-3% к урону от противников, находящихся под действием эффекта \"Chilled \"\n\nTags: Окоченение, Уменьшение урона, Контроль.",
+					"zhCN": "3% Chilled 敌人伤害减免\n\nTags: 冻伤, 伤害减免, 群控."
+				}
+			},
+			"Generic_Magic_DamageReductionFromDot": {
+				"name": "Damage Reduction From DoT",
+				"description": "3.2% Damage Taken Over Time Reduction\n\nTags: Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "3.2% Reduktion von erlittenem Schaden über Zeit des Typs\n\nTags: Schadensreduktion.",
+					"esES": "3.2% de reducción de daño de sufrido en el tiempo\n\nTags: Reducción de daño.",
+					"esMX": "3.2% de reducción de daño de recibido con el tiempo\n\nTags: Reducción de daño.",
+					"frFR": "3.2% de réduction des dégâts () subis sur la durée\n\nTags: Réduction des dégâts.",
+					"itIT": "Riduzione danni da periodici subiti: 3.2%\n\nTags: Riduzione danni.",
+					"jaJP": "の継続ダメージの減少率3.2%\n\nTags: ダメージ減少.",
+					"koKR": "지속 피해 감소 3.2%\n\nTags: 피해 감소.",
+					"plPL": "3.2% redukcji obrażeń z upływem czasu:\n\nTags: Redukcja Obrażeń.",
+					"ptBR": "3.2% de redução de dano recebido ao longo do tempo\n\nTags: Redução de Dano.",
+					"ruRU": "-3.2% к урону от эффектов с периодическим уроном ()\n\nTags: Уменьшение урона.",
+					"zhCN": "3.2% 受到的持续伤害减免\n\nTags: 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromElite": {
+				"name": "Damage Reduction From Elite",
+				"description": "3.2% Damage Reduction from Elites\n\nTags: Elite Monsters, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "3.2% weniger Schaden durch Elitegegner\n\nTags: Elitemonster, Schadensreduktion.",
+					"esES": "3.2% de reducción de daño de enemigos de élite\n\nTags: Enemigos de élite, Reducción de daño.",
+					"esMX": "3.2% de reducción de daño de enemigos de Élite\n\nTags: Monstruos de Élite, Reducción de daño.",
+					"frFR": "3.2% de réduction des dégâts infligés par les élites\n\nTags: Monstres élites, Réduction des dégâts.",
+					"itIT": "Riduzione danni subiti dagli élite: 3.2%\n\nTags: Mostri élite, Riduzione danni.",
+					"jaJP": "エリートからのダメージ減少率3.2%\n\nTags: エリートモンスター, ダメージ減少.",
+					"koKR": "정예에게 받는 피해 감소 3.2%\n\nTags: 정예 괴물, 피해 감소.",
+					"plPL": "3.2% redukcji obrażeń od elitarnych wrogów\n\nTags: Elitarne Potwory, Redukcja Obrażeń.",
+					"ptBR": "3.2% de redução de dano recebido de elites\n\nTags: Monstros de Elite, Redução de Dano.",
+					"ruRU": "-3.2% к урону от особых противников\n\nTags: Особые монстры, Уменьшение урона.",
+					"zhCN": "3.2% 精英怪伤害减免\n\nTags: 精英怪物, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromFar": {
+				"name": "Damage Reduction From Far",
+				"description": "3% Damage Reduction from Distant Enemies\n\nTags: Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "3% weniger Schaden durch entfernte Gegner\n\nTags: Schadensreduktion.",
+					"esES": "3% de reducción de daño de enemigos lejanos\n\nTags: Reducción de daño.",
+					"esMX": "3% de reducción de daño de enemigos lejanos\n\nTags: Reducción de daño.",
+					"frFR": "3% de réduction des dégâts infligés par les cibles à distance\n\nTags: Réduction des dégâts.",
+					"itIT": "Riduzione danni dai nemici lontani: 3%\n\nTags: Riduzione danni.",
+					"jaJP": "遠距離の敵からのダメージ減少率3%\n\nTags: ダメージ減少.",
+					"koKR": "원거리에 있는 적에게 받는 피해 감소 3%\n\nTags: 피해 감소.",
+					"plPL": "3% redukcji obrażeń od odległych wrogów\n\nTags: Redukcja Obrażeń.",
+					"ptBR": "3% de redução de dano recebido de inimigos distantes\n\nTags: Redução de Dano.",
+					"ruRU": "Уменьшение урона от противников на расстоянии: +3%\n\nTags: Уменьшение урона.",
+					"zhCN": "3% 来自远距敌人的伤害减免\n\nTags: 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromNear": {
+				"name": "Damage Reduction From Near",
+				"description": "2.2% Damage Reduction from Close Enemies\n\nTags: Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2.2% weniger Schaden durch Gegner in der Nähe\n\nTags: Schadensreduktion.",
+					"esES": "2.2% de reducción de daño de enemigos cercanos\n\nTags: Reducción de daño.",
+					"esMX": "2.2% de reducción de daño de enemigos cercanos\n\nTags: Reducción de daño.",
+					"frFR": "2.2% de réduction des dégâts infligés par les cibles à proximité\n\nTags: Réduction des dégâts.",
+					"itIT": "Riduzione danni da nemici vicini: 2.2%\n\nTags: Riduzione danni.",
+					"jaJP": "近距離の敵から受けるダメージ減少率2.2%\n\nTags: ダメージ減少.",
+					"koKR": "근거리에 있는 적에게 받는 피해 감소 2.2%\n\nTags: 피해 감소.",
+					"plPL": "2.2% redukcji obrażeń od pobliskich wrogów\n\nTags: Redukcja Obrażeń.",
+					"ptBR": "2.2% de redução de dano recebido de inimigos próximos\n\nTags: Redução de Dano.",
+					"ruRU": "-2.2% к урону от противников вблизи\n\nTags: Уменьшение урона.",
+					"zhCN": "2.2% 来自近距敌人的伤害减免\n\nTags: 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromPoisonedTarget": {
+				"name": "Damage Reduction From Poisoned Target",
+				"description": "2% Damage Reduction from Enemies That Are Poisoned\n\nTags: Poison, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2% weniger Schaden durch Gegner, die von Poisoned betroffen sind\n\nTags: Gift, Schadensreduktion.",
+					"esES": "2% de reducción de daño de enemigos en estado Poisoned\n\nTags: Veneno, Reducción de daño.",
+					"esMX": "2% de reducción de daño de enemigos que están en estado Poisoned\n\nTags: Veneno, Reducción de daño.",
+					"frFR": "2% de réduction des dégâts infligés par les cibles sous l'effet « Poisoned »\n\nTags: Poison, Réduction des dégâts.",
+					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Poisoned: 2%\n\nTags: Veleno, Riduzione danni.",
+					"jaJP": "Poisoned 状態の敵から受けるダメージ減少率2%\n\nTags: 毒, ダメージ減少.",
+					"koKR": "Poisoned 적에게 받는 피해 감소 2%\n\nTags: 독, 피해 감소.",
+					"plPL": "2% redukcji obrażeń od wrogów w stanie: Poisoned\n\nTags: Trucizna, Redukcja Obrażeń.",
+					"ptBR": "2% de redução de dano recebido de inimigos Poisoned\n\nTags: Veneno, Redução de Dano.",
+					"ruRU": "-2% к урону от противников под действием эффекта \"Poisoned \"\n\nTags: Яд, Уменьшение урона.",
+					"zhCN": "2% 对Poisoned 敌人的伤害减免\n\nTags: 毒素, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromShadowDoTed": {
+				"name": "Damage Reduction From Shadow DoTed",
+				"description": "2% Damage Reduction from Enemies That Are Taking Shadow DoT\n\nTags: Shadow Damage Over Time, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2% weniger Schaden durch Gegner, die von Taking Shadow DoT betroffen sind\n\nTags: Schattenschaden über Zeit, Schadensreduktion.",
+					"esES": "2% de reducción de daño de enemigos en estado Taking Shadow DoT\n\nTags: Daño de sombra en el tiempo, Reducción de daño.",
+					"esMX": "2% de reducción de daño de enemigos que están en estado Taking Shadow DoT\n\nTags: Daño de sombra con el tiempo, Reducción de daño.",
+					"frFR": "2% de réduction des dégâts infligés par les cibles sous l'effet « Taking Shadow DoT »\n\nTags: Dégâts d'ombre sur la durée, Réduction des dégâts.",
+					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Taking Shadow DoT: 2%\n\nTags: Danni da ombra periodici, Riduzione danni.",
+					"jaJP": "Taking Shadow DoT 状態の敵から受けるダメージ減少率2%\n\nTags: 継続影ダメージ, ダメージ減少.",
+					"koKR": "Taking Shadow DoT 적에게 받는 피해 감소 2%\n\nTags: 지속 암흑 피해, 피해 감소.",
+					"plPL": "2% redukcji obrażeń od wrogów w stanie: Taking Shadow DoT\n\nTags: Obrażenia Cienia z upływem czasu, Redukcja Obrażeń.",
+					"ptBR": "2% de redução de dano recebido de inimigos Taking Shadow DoT\n\nTags: Dano de Sombra ao Longo do Tempo, Redução de Dano.",
+					"ruRU": "-2% к урону от противников под действием эффекта \"Taking Shadow DoT \"\n\nTags: Периодический урон от темной магии, Уменьшение урона.",
+					"zhCN": "2% 对Taking Shadow DoT 敌人的伤害减免\n\nTags: 持续性暗影伤害, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromSlowedTarget": {
+				"name": "Damage Reduction From Slowed Target",
+				"description": "3% Damage Reduction from Slowed Enemies\n\nTags: Crowd Control, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "3% weniger Schaden durch Gegner, die von Slowed betroffen sind\n\nTags: Kontrollverlust, Schadensreduktion.",
+					"esES": "3% de reducción de daño de enemigos con el estado Slowed\n\nTags: Control de masas, Reducción de daño.",
+					"esMX": "3% de reducción de daño de enemigos en estado Slowed\n\nTags: Control de multitudes, Reducción de daño.",
+					"frFR": "3% de réduction des dégâts infligés par les cibles sous l'effet « Slowed »\n\nTags: Perte de contrôle, Réduction des dégâts.",
+					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Slowed: 3%\n\nTags: Effetti debilitanti, Riduzione danni.",
+					"jaJP": "Slowed の敵からのダメージ減少率3%\n\nTags: 操作障害効果, ダメージ減少.",
+					"koKR": "Slowed 적에게 받는 피해 감소 3%\n\nTags: 군중 제어, 피해 감소.",
+					"plPL": "3% redukcji obrażeń od wrogów: Slowed\n\nTags: Ograniczanie Kontroli, Redukcja Obrażeń.",
+					"ptBR": "3% de redução de dano recebido de inimigos Slowed\n\nTags: Controle de Grupo, Redução de Dano.",
+					"ruRU": "-3% к урону от противников, находящихся под действием эффекта \"Slowed \"\n\nTags: Контроль, Уменьшение урона.",
+					"zhCN": "3% Slowed 敌人伤害减免\n\nTags: 群控, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionFromVulnerable": {
+				"name": "Damage Reduction From Vulnerable",
+				"description": "2% Damage Reduction from Vulnerable Enemies\n\nTags: Vulnerable, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2% weniger Schaden durch verwundbare Gegner\n\nTags: Verwundbar, Schadensreduktion.",
+					"esES": "2% de reducción de daño de enemigos vulnerables\n\nTags: Vulnerable, Reducción de daño.",
+					"esMX": "2% de reducción de daño de enemigos vulnerables\n\nTags: Vulnerable, Reducción de daño.",
+					"frFR": "2% de réduction des dégâts infligés par les cibles vulnérables\n\nTags: Vulnérable, Réduction des dégâts.",
+					"itIT": "Riduzione danni da nemici vulnerabili: 2%\n\nTags: Vulnerabilità, Riduzione danni.",
+					"jaJP": "脆弱状態の敵からのダメージ減少率2%\n\nTags: 脆弱, ダメージ減少.",
+					"koKR": "취약한 적에게 받는 피해 감소 2%\n\nTags: 취약, 피해 감소.",
+					"plPL": "2% redukcji obrażeń od odsłoniętych wrogów\n\nTags: Odsłonięcie, Redukcja Obrażeń.",
+					"ptBR": "2% de redução de dano recebido de inimigos vulneráveis\n\nTags: Vulnerável, Redução de Dano.",
+					"ruRU": "-2% к урону от уязвимых противников\n\nTags: Уязвимость, Уменьшение урона.",
+					"zhCN": "2% 对易伤敌人的伤害减免\n\nTags: 易伤, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionWhileFortified": {
+				"name": "Damage Reduction While Fortified",
+				"description": "2% Damage Reduction while Fortified\n\nTags: Fortify, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2% Schadensreduktion, während Ihr gestählt seid\n\nTags: Stählung, Schadensreduktion.",
+					"esES": "2% de reducción de daño con fortificación\n\nTags: Fortificación, Reducción de daño.",
+					"esMX": "2% de reducción de daño mientras tengas fortificación\n\nTags: Fortificar, Reducción de daño.",
+					"frFR": "2% de réduction des dégâts pendant la fortification\n\nTags: Fortification, Réduction des dégâts.",
+					"itIT": "Riduzione danni durante Fortificazione: 2%\n\nTags: Fortificazione, Riduzione danni.",
+					"jaJP": "強化中のダメージ減少率2%\n\nTags: 強化, ダメージ減少.",
+					"koKR": "보강 상태에서 피해 감소 2%\n\nTags: 보강, 피해 감소.",
+					"plPL": "2% redukcji obrażeń podczas umocnienia\n\nTags: Umocnienie, Redukcja Obrażeń.",
+					"ptBR": "2% de redução de dano sob fortificação\n\nTags: Fortificação, Redução de Dano.",
+					"ruRU": "-2% к получаемому урону при действующем эффекте укрепления\n\nTags: Укрепление, Уменьшение урона.",
+					"zhCN": "2% 强固时伤害减免\n\nTags: 强固, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageReductionWhileHealthy": {
+				"name": "Damage Reduction While Healthy",
+				"description": "2.5% Damage Reduction while Healthy\n\nTags: Healthy, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2.5% Schadensreduktion im gesunden Zustand\n\nTags: Gesund, Schadensreduktion.",
+					"esES": "2.5% de reducción de daño en estado saludable\n\nTags: Saludable, Reducción de daño.",
+					"esMX": "2.5% de reducción de daño mientras estás saludable\n\nTags: Saludable, Reducción de daño.",
+					"frFR": "2.5% de réduction des dégâts lorsque vous êtes en bonne santé\n\nTags: En bonne santé, Réduction des dégâts.",
+					"itIT": "Riduzione danni mentre sei in salute: 2.5%\n\nTags: In salute, Riduzione danni.",
+					"jaJP": "健全状態時2.5%ダメージ減少\n\nTags: 健全, ダメージ減少.",
+					"koKR": "건강 상태에서 피해 감소 2.5%\n\nTags: 건강, 피해 감소.",
+					"plPL": "2.5% redukcji obrażeń w pełni sił\n\nTags: Pełnia Sił, Redukcja Obrażeń.",
+					"ptBR": "2.5% de redução de dano enquanto saudável\n\nTags: Saudável, Redução de Dano.",
+					"ruRU": "-2.5% к получаемому урону при высоком уровне здоровья\n\nTags: Высокое здоровье, Уменьшение урона.",
+					"zhCN": "2.5% 健康状态下的伤害减免\n\nTags: 健康, 伤害减免."
+				}
+			},
+			"Generic_Magic_DamageShadow": {
+				"name": "Damage Shadow",
+				"description": "+5% Shadow Damage\n\nTags: Shadow, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden des Typs Shadow\n\nTags: Schatten, Schaden.",
+					"esES": "+5% de daño de Shadow\n\nTags: Sombra, Daño.",
+					"esMX": "+5% de daño de Shadow\n\nTags: Sombra, Daño.",
+					"frFR": "+5% de dégâts Shadow\n\nTags: Ombre, Dégâts.",
+					"itIT": "Danni da Shadow: +5%\n\nTags: Ombra, Danni.",
+					"jaJP": "Shadow ダメージ+5%\n\nTags: 影, ダメージ.",
+					"koKR": "Shadow 피해 +5%\n\nTags: 암흑, 피해.",
+					"plPL": "+5% obrażeń typu: Shadow\n\nTags: Cień, Obrażenia.",
+					"ptBR": "+5% de dano Shadow\n\nTags: Sombra, Dano.",
+					"ruRU": "+5% к урону (Shadow )\n\nTags: Темная магия, Урон.",
+					"zhCN": "+5% Shadow 伤害\n\nTags: 暗影, 伤害."
+				}
+			},
+			"Generic_Magic_DamageShadowDoT": {
+				"name": "Damage Shadow DoT",
+				"description": "+5% Shadow Damage Over Time\n\nTags: Shadow Damage Over Time, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden über Zeit des Typs Shadow\n\nTags: Schattenschaden über Zeit, Schaden.",
+					"esES": "+5% de daño de Shadow en el tiempo\n\nTags: Daño de sombra en el tiempo, Daño.",
+					"esMX": "+5% de daño con el tiempo de Shadow\n\nTags: Daño de sombra con el tiempo, Daño.",
+					"frFR": "+5% de dégâts Shadow sur la durée\n\nTags: Dégâts d'ombre sur la durée, Dégâts.",
+					"itIT": "Danni periodici da Shadow: +5%\n\nTags: Danni da ombra periodici, Danni.",
+					"jaJP": "Shadow 継続ダメージ+5%\n\nTags: 継続影ダメージ, ダメージ.",
+					"koKR": "지속 Shadow 피해 +5%\n\nTags: 지속 암흑 피해, 피해.",
+					"plPL": "+5% obrażeń z upływem czasu typu: Shadow\n\nTags: Obrażenia Cienia z upływem czasu, Obrażenia.",
+					"ptBR": "+5% de dano Shadow ao longo do tempo\n\nTags: Dano de Sombra ao Longo do Tempo, Dano.",
+					"ruRU": "+5% к периодическому урону (Shadow )\n\nTags: Периодический урон от темной магии, Урон.",
+					"zhCN": "+5% Shadow 持续性伤害\n\nTags: 持续性暗影伤害, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToBleed": {
+				"name": "Damage To Bleed",
+				"description": "+5% Damage to Bleeding Enemies\n\nTags: Bleed, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden gegen Gegner, die von Bleeding betroffen sind\n\nTags: Blutung, Schaden.",
+					"esES": "+5% de daño a enemigos con el estado Bleeding\n\nTags: Sangrado, Daño.",
+					"esMX": "+5% de daño a enemigos en estado Bleeding\n\nTags: Sangrado, Daño.",
+					"frFR": "+5% de dégâts contre les cibles sous cet effet: Bleeding\n\nTags: Saignement, Dégâts.",
+					"itIT": "Danni ai nemici sotto l'effetto Bleeding: +5%\n\nTags: Sanguinamento, Danni.",
+					"jaJP": "Bleeding 状態の敵へのダメージ+5%\n\nTags: 出血, ダメージ.",
+					"koKR": "Bleeding 적에게 주는 피해 +5%\n\nTags: 출혈, 피해.",
+					"plPL": "+5% obrażeń zadawanych wrogom (Bleeding )\n\nTags: Krwawienie, Obrażenia.",
+					"ptBR": "+5% de dano contra inimigos Bleeding\n\nTags: Sangramento, Dano.",
+					"ruRU": "+5% к урону противникам под действием эффекта \"Bleeding \"\n\nTags: Кровотечение, Урон.",
+					"zhCN": "+5% 对Bleeding 敌人的伤害\n\nTags: 流血, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToBurning": {
+				"name": "Damage To Burning",
+				"description": "+5% Damage to Burning Enemies\n\nTags: Burn, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden gegen Gegner, die von Burning betroffen sind\n\nTags: Verbrennung, Schaden.",
+					"esES": "+5% de daño a enemigos con el estado Burning\n\nTags: Quemadura, Daño.",
+					"esMX": "+5% de daño a enemigos en estado Burning\n\nTags: Quemadura, Daño.",
+					"frFR": "+5% de dégâts contre les cibles sous cet effet: Burning\n\nTags: Brûlure, Dégâts.",
+					"itIT": "Danni ai nemici sotto l'effetto Burning: +5%\n\nTags: Bruciatura, Danni.",
+					"jaJP": "Burning 状態の敵へのダメージ+5%\n\nTags: 炎上, ダメージ.",
+					"koKR": "Burning 적에게 주는 피해 +5%\n\nTags: 불태우기, 피해.",
+					"plPL": "+5% obrażeń zadawanych wrogom (Burning )\n\nTags: Podpalenie, Obrażenia.",
+					"ptBR": "+5% de dano contra inimigos Burning\n\nTags: Queimadura, Dano.",
+					"ruRU": "+5% к урону противникам под действием эффекта \"Burning \"\n\nTags: Горение, Урон.",
+					"zhCN": "+5% 对Burning 敌人的伤害\n\nTags: 燃烧, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToCC": {
+				"name": "Damage To CC",
+				"description": "+7.5% Damage to Crowd Controlled Enemies\n\nTags: Crowd Control, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% Schaden gegen folgende Gegner: Crowd Controlled\n\nTags: Kontrollverlust, Schaden.",
+					"esES": "+7.5% de daño a enemigos con el estado Crowd Controlled\n\nTags: Control de masas, Daño.",
+					"esMX": "+7.5% de daño a enemigos en estado Crowd Controlled\n\nTags: Control de multitudes, Daño.",
+					"frFR": "+7.5% de dégâts contre les cibles sous cet effet: Crowd Controlled.\n\nTags: Perte de contrôle, Dégâts.",
+					"itIT": "Danni ai nemici sotto l'effetto Crowd Controlled: +7.5%\n\nTags: Effetti debilitanti, Danni.",
+					"jaJP": "Crowd Controlled の敵へのダメージ+7.5%\n\nTags: 操作障害効果, ダメージ.",
+					"koKR": "Crowd Controlled 적에게 주는 피해 +7.5%\n\nTags: 군중 제어, 피해.",
+					"plPL": "+7.5% obrażeń zadawanych wrogom w stanie: Crowd Controlled\n\nTags: Ograniczanie Kontroli, Obrażenia.",
+					"ptBR": "+7.5% de dano contra inimigos Crowd Controlled\n\nTags: Controle de Grupo, Dano.",
+					"ruRU": "+7.5% к урону противникам под действием эффекта \"Crowd Controlled \"\n\nTags: Контроль, Урон.",
+					"zhCN": "+7.5% 对Crowd Controlled 敌人的伤害\n\nTags: 群控, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToChill": {
+				"name": "Damage To Chill",
+				"description": "+7.5% Damage to Chilled Enemies\n\nTags: Chill, Damage, Crowd Control.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% Schaden gegen folgende Gegner: Chilled\n\nTags: Unterkühlen, Schaden, Kontrollverlust.",
+					"esES": "+7.5% de daño a enemigos con el estado Chilled\n\nTags: Helada, Daño, Control de masas.",
+					"esMX": "+7.5% de daño a enemigos en estado Chilled\n\nTags: Helar, Daño, Control de multitudes.",
+					"frFR": "+7.5% de dégâts contre les cibles sous cet effet: Chilled.\n\nTags: Glace, Dégâts, Perte de contrôle.",
+					"itIT": "Danni ai nemici sotto l'effetto Chilled: +7.5%\n\nTags: Raggelamento, Danni, Effetti debilitanti.",
+					"jaJP": "Chilled の敵へのダメージ+7.5%\n\nTags: 冷気, ダメージ, 操作障害効果.",
+					"koKR": "Chilled 적에게 주는 피해 +7.5%\n\nTags: 오한, 피해, 군중 제어.",
+					"plPL": "+7.5% obrażeń zadawanych wrogom w stanie: Chilled\n\nTags: Wyziębienie, Obrażenia, Ograniczanie Kontroli.",
+					"ptBR": "+7.5% de dano contra inimigos Chilled\n\nTags: Gelidez, Dano, Controle de Grupo.",
+					"ruRU": "+7.5% к урону противникам под действием эффекта \"Chilled \"\n\nTags: Окоченение, Урон, Контроль.",
+					"zhCN": "+7.5% 对Chilled 敌人的伤害\n\nTags: 冻伤, 伤害, 群控."
+				}
+			},
+			"Generic_Magic_DamageToElite": {
+				"name": "Damage To Elite",
+				"description": "+8% Damage to Elites\n\nTags: Elite Monsters, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+8% Schaden gegen Elitegegner\n\nTags: Elitemonster, Schaden.",
+					"esES": "+8% de daño contra enemigos de élite\n\nTags: Enemigos de élite, Daño.",
+					"esMX": "+8% de daño a enemigos de Élite\n\nTags: Monstruos de Élite, Daño.",
+					"frFR": "+8% de dégâts aux élites\n\nTags: Monstres élites, Dégâts.",
+					"itIT": "Danni a élite: +8%\n\nTags: Mostri élite, Danni.",
+					"jaJP": "エリートへのダメージ+8%\n\nTags: エリートモンスター, ダメージ.",
+					"koKR": "정예에게 주는 피해 +8%\n\nTags: 정예 괴물, 피해.",
+					"plPL": "+8% obrażeń zadawanych elitarnym wrogom\n\nTags: Elitarne Potwory, Obrażenia.",
+					"ptBR": "+8% de dano contra elites\n\nTags: Monstros de Elite, Dano.",
+					"ruRU": "+8% к урону особым противникам\n\nTags: Особые монстры, Урон.",
+					"zhCN": "+8% 对精英的伤害\n\nTags: 精英怪物, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToFar": {
+				"name": "Damage To Far",
+				"description": "+7.5% Damage to Distant Enemies\n\nTags: Damage.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% Schaden gegen entfernte Gegner\n\nTags: Schaden.",
+					"esES": "+7.5% de daño a enemigos lejanos\n\nTags: Daño.",
+					"esMX": "+7.5% de daño a enemigos lejanos\n\nTags: Daño.",
+					"frFR": "+7.5% de dégâts contre les cibles à distance\n\nTags: Dégâts.",
+					"itIT": "Danni ai nemici lontani: +7.5%\n\nTags: Danni.",
+					"jaJP": "遠距離の敵へのダメージ+7.5%\n\nTags: ダメージ.",
+					"koKR": "원거리에 있는 적에게 주는 피해 +7.5%\n\nTags: 피해.",
+					"plPL": "+7.5% obrażeń zadawanych odległym wrogom\n\nTags: Obrażenia.",
+					"ptBR": "+7.5% de dano contra inimigos distantes\n\nTags: Dano.",
+					"ruRU": "+7.5% к урону целям вдалеке\n\nTags: Урон.",
+					"zhCN": "+7.5% 对远距敌人的伤害\n\nTags: 伤害."
+				}
+			},
+			"Generic_Magic_DamageToHigh": {
+				"name": "Damage To High",
+				"description": "+12.5% Damage to Healthy Enemies\n\nTags: Healthy, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+12.5% Schaden gegen gesunde Gegner\n\nTags: Gesund, Schaden.",
+					"esES": "+12.5% de daño a enemigos saludables\n\nTags: Saludable, Daño.",
+					"esMX": "+12.5% de daño a enemigos saludables\n\nTags: Saludable, Daño.",
+					"frFR": "+12.5% de dégâts contre les cibles en bonne santé\n\nTags: En bonne santé, Dégâts.",
+					"itIT": "Danni ai nemici in salute: +12.5%\n\nTags: In salute, Danni.",
+					"jaJP": "健全状態の敵へのダメージ+12.5%\n\nTags: 健全, ダメージ.",
+					"koKR": "건강 상태의 적에게 주는 피해 +12.5%\n\nTags: 건강, 피해.",
+					"plPL": "+12.5% obrażeń zadawanych wrogom w pełni sił\n\nTags: Pełnia Sił, Obrażenia.",
+					"ptBR": "+12.5% de dano contra inimigos saudáveis\n\nTags: Saudável, Dano.",
+					"ruRU": "+12.5% к урону противникам с высоким уровнем здоровья\n\nTags: Высокое здоровье, Урон.",
+					"zhCN": "+12.5% 对健康敌人的伤害\n\nTags: 健康, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToLow": {
+				"name": "Damage To Low",
+				"description": "+12.5% Damage to Injured Enemies\n\nTags: Injured, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+12.5% Schaden gegen verletzte Gegner\n\nTags: Verletzt, Schaden.",
+					"esES": "+12.5% de daño a enemigos heridos\n\nTags: Herido, Daño.",
+					"esMX": "+12.5% de daño a enemigos heridos\n\nTags: Herido, Daño.",
+					"frFR": "+12.5% de dégâts contre les cibles blessées\n\nTags: Blessure, Dégâts.",
+					"itIT": "Danni ai nemici feriti: +12.5%\n\nTags: Ferita, Danni.",
+					"jaJP": "負傷した敵へのダメージ+12.5%\n\nTags: 負傷, ダメージ.",
+					"koKR": "부상당한 적에게 주는 피해 +12.5%\n\nTags: 부상, 피해.",
+					"plPL": "+12.5% obrażeń zadawanych okaleczonym wrogom\n\nTags: Okaleczenie, Obrażenia.",
+					"ptBR": "+12.5% de dano contra inimigos feridos\n\nTags: Ferido, Dano.",
+					"ruRU": "+12.5% к урону раненым противникам\n\nTags: Ранение, Урон.",
+					"zhCN": "+12.5% 对受伤敌人的伤害\n\nTags: 受伤, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToNear": {
+				"name": "Damage To Near",
+				"description": "+6% Damage to Close Enemies\n\nTags: Damage.",
+				"descriptionLocalized": {
+					"deDE": "+6% Schaden gegen Gegner in der Nähe\n\nTags: Schaden.",
+					"esES": "+6% de daño a enemigos cercanos\n\nTags: Daño.",
+					"esMX": "+6% de daño a enemigos cercanos\n\nTags: Daño.",
+					"frFR": "+6% de dégâts contre les cibles proches\n\nTags: Dégâts.",
+					"itIT": "Danni ai nemici vicini: +6%\n\nTags: Danni.",
+					"jaJP": "近距離の敵へのダメージ+6%\n\nTags: ダメージ.",
+					"koKR": "근거리에 있는 적에게 주는 피해 +6%\n\nTags: 피해.",
+					"plPL": "+6% obrażeń zadawanych pobliskim wrogom\n\nTags: Obrażenia.",
+					"ptBR": "+6% de dano contra inimigos próximos\n\nTags: Dano.",
+					"ruRU": "+6% к урону противникам вблизи\n\nTags: Урон.",
+					"zhCN": "+6% 对近距敌人的伤害\n\nTags: 伤害."
+				}
+			},
+			"Generic_Magic_DamageToPoison": {
+				"name": "Damage To Poison",
+				"description": "+5% Damage to Poisoned Enemies\n\nTags: Poison, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden gegen Gegner, die von Poisoned betroffen sind\n\nTags: Gift, Schaden.",
+					"esES": "+5% de daño a enemigos con el estado Poisoned\n\nTags: Veneno, Daño.",
+					"esMX": "+5% de daño a enemigos en estado Poisoned\n\nTags: Veneno, Daño.",
+					"frFR": "+5% de dégâts contre les cibles sous cet effet: Poisoned\n\nTags: Poison, Dégâts.",
+					"itIT": "Danni ai nemici sotto l'effetto Poisoned: +5%\n\nTags: Veleno, Danni.",
+					"jaJP": "Poisoned 状態の敵へのダメージ+5%\n\nTags: 毒, ダメージ.",
+					"koKR": "Poisoned 적에게 주는 피해 +5%\n\nTags: 독, 피해.",
+					"plPL": "+5% obrażeń zadawanych wrogom (Poisoned )\n\nTags: Trucizna, Obrażenia.",
+					"ptBR": "+5% de dano contra inimigos Poisoned\n\nTags: Veneno, Dano.",
+					"ruRU": "+5% к урону противникам под действием эффекта \"Poisoned \"\n\nTags: Яд, Урон.",
+					"zhCN": "+5% 对Poisoned 敌人的伤害\n\nTags: 毒素, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToShadowDoTed": {
+				"name": "Damage To Shadow DoTed",
+				"description": "+5% Damage to Taking Shadow DoT Enemies\n\nTags: Shadow Damage Over Time, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden gegen Gegner, die von Taking Shadow DoT betroffen sind\n\nTags: Schattenschaden über Zeit, Schaden.",
+					"esES": "+5% de daño a enemigos con el estado Taking Shadow DoT\n\nTags: Daño de sombra en el tiempo, Daño.",
+					"esMX": "+5% de daño a enemigos en estado Taking Shadow DoT\n\nTags: Daño de sombra con el tiempo, Daño.",
+					"frFR": "+5% de dégâts contre les cibles sous cet effet: Taking Shadow DoT\n\nTags: Dégâts d'ombre sur la durée, Dégâts.",
+					"itIT": "Danni ai nemici sotto l'effetto Taking Shadow DoT: +5%\n\nTags: Danni da ombra periodici, Danni.",
+					"jaJP": "Taking Shadow DoT 状態の敵へのダメージ+5%\n\nTags: 継続影ダメージ, ダメージ.",
+					"koKR": "Taking Shadow DoT 적에게 주는 피해 +5%\n\nTags: 지속 암흑 피해, 피해.",
+					"plPL": "+5% obrażeń zadawanych wrogom (Taking Shadow DoT )\n\nTags: Obrażenia Cienia z upływem czasu, Obrażenia.",
+					"ptBR": "+5% de dano contra inimigos Taking Shadow DoT\n\nTags: Dano de Sombra ao Longo do Tempo, Dano.",
+					"ruRU": "+5% к урону противникам под действием эффекта \"Taking Shadow DoT \"\n\nTags: Периодический урон от темной магии, Урон.",
+					"zhCN": "+5% 对Taking Shadow DoT 敌人的伤害\n\nTags: 持续性暗影伤害, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToStun": {
+				"name": "Damage To Stun",
+				"description": "+7.5% Damage to Stunned Enemies\n\nTags: Crowd Control, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% Schaden gegen folgende Gegner: Stunned\n\nTags: Kontrollverlust, Schaden.",
+					"esES": "+7.5% de daño a enemigos con el estado Stunned\n\nTags: Control de masas, Daño.",
+					"esMX": "+7.5% de daño a enemigos en estado Stunned\n\nTags: Control de multitudes, Daño.",
+					"frFR": "+7.5% de dégâts contre les cibles sous cet effet: Stunned.\n\nTags: Perte de contrôle, Dégâts.",
+					"itIT": "Danni ai nemici sotto l'effetto Stunned: +7.5%\n\nTags: Effetti debilitanti, Danni.",
+					"jaJP": "Stunned の敵へのダメージ+7.5%\n\nTags: 操作障害効果, ダメージ.",
+					"koKR": "Stunned 적에게 주는 피해 +7.5%\n\nTags: 군중 제어, 피해.",
+					"plPL": "+7.5% obrażeń zadawanych wrogom w stanie: Stunned\n\nTags: Ograniczanie Kontroli, Obrażenia.",
+					"ptBR": "+7.5% de dano contra inimigos Stunned\n\nTags: Controle de Grupo, Dano.",
+					"ruRU": "+7.5% к урону противникам под действием эффекта \"Stunned \"\n\nTags: Контроль, Урон.",
+					"zhCN": "+7.5% 对Stunned 敌人的伤害\n\nTags: 群控, 伤害."
+				}
+			},
+			"Generic_Magic_DamageToVulnerable": {
+				"name": "Damage To Vulnerable",
+				"description": "+5% Damage to Vulnerable Enemies\n\nTags: Vulnerable, Damage.",
+				"descriptionLocalized": null
+			},
+			"Generic_Magic_DamageWhileFortified": {
+				"name": "Damage While Fortified",
+				"description": "+5% Damage while Fortified\n\nTags: Fortify, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden, während Ihr gestählt seid\n\nTags: Stählung, Schaden.",
+					"esES": "+5% de daño con fortificación\n\nTags: Fortificación, Daño.",
+					"esMX": "+5% de daño mientras tengas fortificación\n\nTags: Fortificar, Daño.",
+					"frFR": "+5% de dégâts pendant la fortification\n\nTags: Fortification, Dégâts.",
+					"itIT": "Danni durante Fortificazione: +5%\n\nTags: Fortificazione, Danni.",
+					"jaJP": "強化中のダメージ+5%\n\nTags: 強化, ダメージ.",
+					"koKR": "보강 상태에서 공격력 +5%\n\nTags: 보강, 피해.",
+					"plPL": "+5% obrażeń podczas wzmocnienia\n\nTags: Umocnienie, Obrażenia.",
+					"ptBR": "+5% de dano sob fortificação\n\nTags: Fortificação, Dano.",
+					"ruRU": "+5% к урону при действующем эффекте укрепления\n\nTags: Укрепление, Урон.",
+					"zhCN": "+5% 强固时的伤害\n\nTags: 强固, 伤害."
+				}
+			},
+			"Generic_Magic_DamageWhileHealthy": {
+				"name": "Damage While Healthy",
+				"description": "+6.2% Damage while Healthy\n\nTags: Healthy, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+6.2% Schaden im gesunden Zustand\n\nTags: Gesund, Schaden.",
+					"esES": "+6.2% de daño en estado saludable\n\nTags: Saludable, Daño.",
+					"esMX": "+6.2% de daño mientras estás saludable\n\nTags: Saludable, Daño.",
+					"frFR": "+6.2% de dégâts lorsque vous êtes en bonne santé\n\nTags: En bonne santé, Dégâts.",
+					"itIT": "Danni mentre sei in salute: +6.2%\n\nTags: In salute, Danni.",
+					"jaJP": "健全状態時のダメージ+6.2%\n\nTags: 健全, ダメージ.",
+					"koKR": "건강 상태일 때 공격력 +6.2%\n\nTags: 건강, 피해.",
+					"plPL": "+6.2% zadawanych obrażeń, jeśli postać jest w pełni sił\n\nTags: Pełnia Sił, Obrażenia.",
+					"ptBR": "+6.2% de dano enquanto saudável\n\nTags: Saudável, Dano.",
+					"ruRU": "+6.2% к урону при высоком уровне здоровья\n\nTags: Высокое здоровье, Урон.",
+					"zhCN": "+6.2% 健康时伤害\n\nTags: 健康, 伤害."
+				}
+			},
+			"Generic_Magic_Dex": {
+				"name": "Dexterity",
+				"description": "+7 Dexterity\n\nTags: Dexterity.",
+				"descriptionLocalized": {
+					"deDE": "+7 Geschicklichkeit\n\nTags: Geschicklichkeit.",
+					"esES": "+7 de destreza\n\nTags: Destreza.",
+					"esMX": "+7 de Destreza\n\nTags: Destreza.",
+					"frFR": "+7 dextérité\n\nTags: Dextérité.",
+					"itIT": "Destrezza: +7\n\nTags: Destrezza.",
+					"jaJP": "敏捷性+7\n\nTags: 敏捷性.",
+					"koKR": "민첩 +7\n\nTags: 민첩.",
+					"plPL": "+7 zręczności\n\nTags: Zręczność.",
+					"ptBR": "+7 de Destreza\n\nTags: Destreza.",
+					"ruRU": "+7 к ловкости\n\nTags: Ловкость.",
+					"zhCN": "+7 点敏捷\n\nTags: 敏捷."
+				}
+			},
+			"Generic_Magic_Essence": {
+				"name": "Essence",
+				"description": "+4 Maximum Essence\n\nTags: Essence.",
+				"descriptionLocalized": {
+					"deDE": "+4 max. Essence\n\nTags: Essenz.",
+					"esES": "+4 de máximo de Essence\n\nTags: Esencia.",
+					"esMX": "+4 de Essence como máximo\n\nTags: Esencia.",
+					"frFR": "+4 |2Essence maximum\n\nTags: Essence.",
+					"itIT": "Essence max: +4\n\nTags: Essenza.",
+					"jaJP": "最大Essence +4\n\nTags: 精髄.",
+					"koKR": "최대 Essence +4\n\nTags: 정수.",
+					"plPL": "+4 maksimum: Essence\n\nTags: Esencja.",
+					"ptBR": "+4 de máximo de Essence\n\nTags: Essência.",
+					"ruRU": "+4 к максимуму ресурса \"Essence \"\n\nTags: Эссенция.",
+					"zhCN": "+4 Essence 上限\n\nTags: 精魂."
+				}
+			},
+			"Generic_Magic_EssenceOnKill": {
+				"name": "Essence On Kill",
+				"description": "1 Essence On Kill\n\nTags: Essence.",
+				"descriptionLocalized": {
+					"deDE": "1 Essence beim Töten eines Gegners\n\nTags: Essenz.",
+					"esES": "1 de Essence al matar\n\nTags: Esencia.",
+					"esMX": "1 de Essence con cada eliminación\n\nTags: Esencia.",
+					"frFR": "1 de ressource (Essence ) par victime\n\nTags: Essence.",
+					"itIT": "Essence per uccisione: 1\n\nTags: Essenza.",
+					"jaJP": "キル時に1のEssence を獲得\n\nTags: 精髄.",
+					"koKR": "처치 시 1 Essence\n\nTags: 정수.",
+					"plPL": "Za zabicie zapewnia 1 pkt. zasobu: Essence\n\nTags: Esencja.",
+					"ptBR": "1 de Essence ao matar\n\nTags: Essência.",
+					"ruRU": "1 к ресурсу \"Essence \" за каждое убийство\n\nTags: Эссенция.",
+					"zhCN": "消灭获得1 Essence\n\nTags: 精魂."
+				}
+			},
+			"Generic_Magic_Execute": {
+				"name": "Execute",
+				"description": "Lucky Hit: Up to a +5% Chance to Execute Injured Non-Elites\n\nTags: Execute, Injured, Lucky Hit.",
+				"descriptionLocalized": {
+					"deDE": "Glückstreffer: Chance von bis zu +5%, verletzte Nicht-Elitegegner hinzurichten\n\nTags: Hinrichten, Verletzt, Glückstreffer.",
+					"esES": "Golpe de suerte: Hasta un +5% de probabilidad de ejecutar a los enemigos heridos que no sean de élite\n\nTags: Ejecución, Herido, Golpe de suerte.",
+					"esMX": "Golpe afortunado: Tienes hasta un +5% de probabilidad de ejecutar a enemigos heridos que no son de Élite\n\nTags: Ejecutar, Herido, Golpe afortunado.",
+					"frFR": "Coup de chance: vous avez jusqu'à +5% de chances d'exécuter les cibles non élites blessées\n\nTags: Exécution, Blessure, Coup de chance.",
+					"itIT": "Colpo fortunato: fino al +5% di probabilità di uccidere istantaneamente i nemici non élite feriti\n\nTags: Esecuzione, Ferita, Colpo fortunato.",
+					"jaJP": "幸運の一撃: 最大+5%の確率で負傷した非エリートを処刑する\n\nTags: 処刑, 負傷, 幸運の一撃.",
+					"koKR": "행운의 적중: 부상당한 비정예 적 처형 확률 최대 +5%\n\nTags: 처형, 부상, 행운의 적중.",
+					"plPL": "Szczęśliwy traf: Maksymalnie +5% szansy na egzekucję okaleczonych wrogów nieelitarnych\n\nTags: Egzekucja, Okaleczenie, Szczęśliwy Traf.",
+					"ptBR": "Golpe de Sorte: Até +5% de chance de executar não elites feridos\n\nTags: Execução, Ferido, Golpe de Sorte.",
+					"ruRU": "Удачный удар: с вероятностью до +5% казнит раненых обычных противников\n\nTags: Казнь, Ранение, Удачный удар.",
+					"zhCN": "幸运一击: 最多有 +5% 几率斩杀受伤的非精英敌人\n\nTags: 斩杀, 受伤, 幸运一击."
+				}
+			},
+			"Generic_Magic_HPPercent": {
+				"name": "HP Percent",
+				"description": "+2% Life\n\nTags: Life.",
+				"descriptionLocalized": {
+					"deDE": "+2% Leben\n\nTags: Leben.",
+					"esES": "+2% de vida\n\nTags: Vida.",
+					"esMX": "+2% de vida\n\nTags: Vida.",
+					"frFR": "+2% de points de vie\n\nTags: Vie.",
+					"itIT": "Vita: +2%\n\nTags: Vita.",
+					"jaJP": "ライフ+2%\n\nTags: ライフ.",
+					"koKR": "생명력 +2%\n\nTags: 생명력.",
+					"plPL": "+2% zdrowia\n\nTags: Zdrowie.",
+					"ptBR": "+2% de vida\n\nTags: Vida.",
+					"ruRU": "+2% к здоровью\n\nTags: Здоровье.",
+					"zhCN": "+2% 生命\n\nTags: 生命."
+				}
+			},
+			"Generic_Magic_HPRegen": {
+				"name": "HP Regen",
+				"description": "0.7% Healing Over Time\n\nTags: Healing.",
+				"descriptionLocalized": {
+					"deDE": "0.7% Heilung über Zeit\n\nTags: Heilung.",
+					"esES": "0.7% de curación en el tiempo\n\nTags: Curación.",
+					"esMX": "0.7% de sanación con el tiempo\n\nTags: Sanación.",
+					"frFR": "0.7% de soins sur la durée\n\nTags: Soins.",
+					"itIT": "Guarigione periodica: 0.7%\n\nTags: Guarigione.",
+					"jaJP": "時間経過のライフ回復量0.7%\n\nTags: 回復.",
+					"koKR": "지속 치유량 0.7%\n\nTags: 치유.",
+					"plPL": "0.7% leczenia z upływem czasu\n\nTags: Leczenie.",
+					"ptBR": "0.7% de cura ao longo do tempo\n\nTags: Cura.",
+					"ruRU": "Периодическое исцеление – 0.7%\n\nTags: Исцеление.",
+					"zhCN": "0.7% 持续治疗效果\n\nTags: 治疗."
+				}
+			},
+			"Generic_Magic_HealingBonus": {
+				"name": "Healing Bonus",
+				"description": "+2% Healing Received\n\nTags: Healing.",
+				"descriptionLocalized": {
+					"deDE": "+2% erhaltene Heilung\n\nTags: Heilung.",
+					"esES": "+2% de curación recibida\n\nTags: Curación.",
+					"esMX": "+2% de sanación recibida\n\nTags: Sanación.",
+					"frFR": "+2% de soins reçus\n\nTags: Soins.",
+					"itIT": "Cure ricevute: +2%\n\nTags: Guarigione.",
+					"jaJP": "受ける回復量+2%\n\nTags: 回復.",
+					"koKR": "받는 치유량 +2%\n\nTags: 치유.",
+					"plPL": "+2% otrzymywanego leczenia\n\nTags: Leczenie.",
+					"ptBR": "+2% de cura recebida\n\nTags: Cura.",
+					"ruRU": "+2% к получаемому исцелению\n\nTags: Исцеление.",
+					"zhCN": "+2% 受到的治疗\n\nTags: 治疗."
+				}
+			},
+			"Generic_Magic_Int": {
+				"name": "Intelligence",
+				"description": "+7 Intelligence\n\nTags: Intelligence.",
+				"descriptionLocalized": {
+					"deDE": "+7 Intelligenz\n\nTags: Intelligenz.",
+					"esES": "+7 de inteligencia\n\nTags: Inteligencia.",
+					"esMX": "+7 de Inteligencia\n\nTags: Inteligencia.",
+					"frFR": "+7 intelligence\n\nTags: Intelligence.",
+					"itIT": "Intelligenza: +7\n\nTags: Intelligenza.",
+					"jaJP": "知力+7\n\nTags: 知力.",
+					"koKR": "지능 +7\n\nTags: 지능.",
+					"plPL": "+7 inteligencji\n\nTags: Inteligencja.",
+					"ptBR": "+7 de Inteligência\n\nTags: Inteligência.",
+					"ruRU": "+7 к интеллекту\n\nTags: Интеллект.",
+					"zhCN": "+7 点智力\n\nTags: 智力."
+				}
+			},
+			"Generic_Magic_LuckyHitBonus": {
+				"name": "Lucky Hit Bonus",
+				"description": "+2.5% Lucky Hit Chance\n\nTags: Lucky Hit.",
+				"descriptionLocalized": {
+					"deDE": "+2.5% Glückstrefferchance\n\nTags: Glückstreffer.",
+					"esES": "+2.5% de probabilidad de golpe de suerte\n\nTags: Golpe de suerte.",
+					"esMX": "+2.5% de probabilidad de golpe afortunado\n\nTags: Golpe afortunado.",
+					"frFR": "+2.5% de chances d'obtenir un Coup de chance\n\nTags: Coup de chance.",
+					"itIT": "Probabilità di colpo fortunato: +2.5%\n\nTags: Colpo fortunato.",
+					"jaJP": "幸運の一撃発生率+2.5%\n\nTags: 幸運の一撃.",
+					"koKR": "행운의 적중 확률 +2.5%\n\nTags: 행운의 적중.",
+					"plPL": "+2.5% szansy na szczęśliwy traf\n\nTags: Szczęśliwy Traf.",
+					"ptBR": "+2.5% de chance de Golpe de Sorte\n\nTags: Golpe de Sorte.",
+					"ruRU": "+2.5% к вероятности удачного удара\n\nTags: Удачный удар.",
+					"zhCN": "+2.5% 幸运一击几率\n\nTags: 幸运一击."
+				}
+			},
+			"Generic_Magic_Mana": {
+				"name": "Mana",
+				"description": "+4 Maximum Mana\n\nTags: Mana.",
+				"descriptionLocalized": {
+					"deDE": "+4 max. Mana\n\nTags: Mana.",
+					"esES": "+4 de máximo de Mana\n\nTags: Maná.",
+					"esMX": "+4 de Mana como máximo\n\nTags: Maná.",
+					"frFR": "+4 |2Mana maximum\n\nTags: Mana.",
+					"itIT": "Mana max: +4\n\nTags: Mana.",
+					"jaJP": "最大Mana +4\n\nTags: マナ.",
+					"koKR": "최대 Mana +4\n\nTags: 마나.",
+					"plPL": "+4 maksimum: Mana\n\nTags: Mana.",
+					"ptBR": "+4 de máximo de Mana\n\nTags: Mana.",
+					"ruRU": "+4 к максимуму ресурса \"Mana \"\n\nTags: Мана.",
+					"zhCN": "+4 Mana 上限\n\nTags: 法力."
+				}
+			},
+			"Generic_Magic_MinionArmor": {
+				"name": "Minion Armor",
+				"description": "+2% Minion Armor\n\nTags: Armor, Minion.",
+				"descriptionLocalized": {
+					"deDE": "+2% Dienerrüstung\n\nTags: Rüstung, Diener.",
+					"esES": "+2% de armadura de esbirros\n\nTags: Armadura, Esbirro.",
+					"esMX": "+2% de armadura de esbirros\n\nTags: Armadura, Esbirro.",
+					"frFR": "+2% à l'armure des serviteurs\n\nTags: Armure, Serviteur.",
+					"itIT": "Armatura servitori: +2%\n\nTags: Armatura, Servitori.",
+					"jaJP": "ミニオンのアーマー+2%\n\nTags: 防御力, ミニオン.",
+					"koKR": "하수인 방어도 +2%\n\nTags: 방어도, 하수인.",
+					"plPL": "+2% pancerza u sług\n\nTags: Pancerz, Sługa.",
+					"ptBR": "+2% de armadura de lacaios\n\nTags: Armadura, Lacaio.",
+					"ruRU": "+2% к броне прислужников\n\nTags: Броня, Прислужник.",
+					"zhCN": "+2% 仆从护甲\n\nTags: 护甲, 爪牙."
+				}
+			},
+			"Generic_Magic_MinionAttackSpeed": {
+				"name": "Minion Attack Speed",
+				"description": "+2.5% Minion Attack Speed\n\nTags: Minion, Attack Speed.",
+				"descriptionLocalized": {
+					"deDE": "+2.5% Angriffsgeschwindigkeit von Dienern\n\nTags: Diener, Angriffsgeschwindigkeit.",
+					"esES": "+2.5% de velocidad de ataque de esbirros\n\nTags: Esbirro, Velocidad de ataque.",
+					"esMX": "+2.5% de velocidad de ataque de esbirros\n\nTags: Esbirro, Velocidad de ataque.",
+					"frFR": "+2.5% à la vitesse d'attaque des serviteurs\n\nTags: Serviteur, Vitesse d'attaque.",
+					"itIT": "Velocità d'attacco dei servitori: +2.5%\n\nTags: Servitori, Velocità d'attacco.",
+					"jaJP": "ミニオンの攻撃速度+2.5%\n\nTags: ミニオン, 攻撃速度.",
+					"koKR": "하수인 공격 속도 +2.5%\n\nTags: 하수인, 공격 속도.",
+					"plPL": "+2.5% szybkości ataku sług\n\nTags: Sługa, Szybkość Ataku.",
+					"ptBR": "+2.5% de velocidade de ataque de lacaios\n\nTags: Lacaio, Velocidade de Ataque.",
+					"ruRU": "+2.5% к скорости атаки прислужников\n\nTags: Прислужник, Скорость атаки.",
+					"zhCN": "+2.5% 仆从攻击速度\n\nTags: 爪牙, 攻击速度."
+				}
+			},
+			"Generic_Magic_MinionDamage": {
+				"name": "Minion Damage",
+				"description": "+5% Minion Damage\n\nTags: Minion, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Dienerschaden\n\nTags: Diener, Schaden.",
+					"esES": "+5% de daño de esbirros\n\nTags: Esbirro, Daño.",
+					"esMX": "+5% de daño de esbirros\n\nTags: Esbirro, Daño.",
+					"frFR": "+5% aux dégâts des serviteurs\n\nTags: Serviteur, Dégâts.",
+					"itIT": "Danni dei servitori: +5%\n\nTags: Servitori, Danni.",
+					"jaJP": "ミニオンのダメージ+5%\n\nTags: ミニオン, ダメージ.",
+					"koKR": "하수인 공격력 +5%\n\nTags: 하수인, 피해.",
+					"plPL": "+5% obrażeń sług\n\nTags: Sługa, Obrażenia.",
+					"ptBR": "+5% de dano de lacaio\n\nTags: Lacaio, Dano.",
+					"ruRU": "+5% к урону прислужников\n\nTags: Прислужник, Урон.",
+					"zhCN": "+5% 仆从伤害\n\nTags: 爪牙, 伤害."
+				}
+			},
+			"Generic_Magic_MinionDamageReduction": {
+				"name": "Minion Damage Reduction",
+				"description": "5% Damage Reduction for Your Minions\n\nTags: Minion, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "5% Schadensreduktion für Eure Diener\n\nTags: Diener, Schadensreduktion.",
+					"esES": "5% de reducción de daño para tus esbirros\n\nTags: Esbirro, Reducción de daño.",
+					"esMX": "5% de reducción de daño para tus esbirros\n\nTags: Esbirro, Reducción de daño.",
+					"frFR": "5% de réduction des dégâts subis par vos serviteurs\n\nTags: Serviteur, Réduction des dégâts.",
+					"itIT": "Riduzione danni per i servitori: 5%\n\nTags: Servitori, Riduzione danni.",
+					"jaJP": "ミニオンへのダメージ減少率5%\n\nTags: ミニオン, ダメージ減少.",
+					"koKR": "하수인의 피해 감소 5%\n\nTags: 하수인, 피해 감소.",
+					"plPL": "5% redukcji obrażeń dla twoich sług\n\nTags: Sługa, Redukcja Obrażeń.",
+					"ptBR": "5% de redução de dano para seus lacaios\n\nTags: Lacaio, Redução de Dano.",
+					"ruRU": "-5% к урону, получаемому прислужниками\n\nTags: Прислужник, Уменьшение урона.",
+					"zhCN": "5% 仆从伤害减免\n\nTags: 爪牙, 伤害减免."
+				}
+			},
+			"Generic_Magic_MinionHP": {
+				"name": "Minion HP",
+				"description": "5% Maximum Minion Life\n\nTags: Minion, Life.",
+				"descriptionLocalized": {
+					"deDE": "5% maximales Leben für Diener\n\nTags: Diener, Leben.",
+					"esES": "5% de vida máxima de esbirro\n\nTags: Esbirro, Vida.",
+					"esMX": "5% de vida máxima de esbirro\n\nTags: Esbirro, Vida.",
+					"frFR": "5% de maximum de vie de vos serviteurs\n\nTags: Serviteur, Vie.",
+					"itIT": "Vita massima dei servitori: 5%\n\nTags: Servitori, Vita.",
+					"jaJP": "ミニオンの最大ライフ5%\n\nTags: ミニオン, ライフ.",
+					"koKR": "최대 하수인 생명력 5%\n\nTags: 하수인, 생명력.",
+					"plPL": "5% maksymalnego zdrowia sługi\n\nTags: Sługa, Zdrowie.",
+					"ptBR": "5% de vida máxima para lacaios\n\nTags: Lacaio, Vida.",
+					"ruRU": "Здоровье прислужников – 5%\n\nTags: Прислужник, Здоровье.",
+					"zhCN": "5% 仆从生命上限\n\nTags: 爪牙, 生命."
+				}
+			},
+			"Generic_Magic_MoveSpeedEliteKill": {
+				"name": "Move Speed Elite Kill",
+				"description": "+7% Movement Speed for {#} Seconds After Killing an Elite\n\nTags: Movement, Elite Monsters.",
+				"descriptionLocalized": {
+					"deDE": "{#} Sek. lang +7% Bewegungsgeschwindigkeit nach Töten eines Elitegegners\n\nTags: Bewegung, Elitemonster.",
+					"esES": "+7% de velocidad de movimiento durante {#} s tras matar a un enemigo de élite\n\nTags: Movimiento, Enemigos de élite.",
+					"esMX": "+7% de velocidad de movimiento durante {#} segundos después de matar a un enemigo de Élite\n\nTags: Movimiento, Monstruos de Élite.",
+					"frFR": "+7% à la vitesse de déplacement pendant {#} s après avoir tué une élite\n\nTags: Déplacement, Monstres élites.",
+					"itIT": "Velocità di movimento per {#} s dopo aver ucciso un élite: +7%\n\nTags: Movimento, Mostri élite.",
+					"jaJP": "エリートを倒した後の{#} 秒間、移動速度+7%\n\nTags: 移動, エリートモンスター.",
+					"koKR": "정예 처치 후 {#} 초 동안 이동 속도 +7%\n\nTags: 이동, 정예 괴물.",
+					"plPL": "+7% szybkości ruchu na {#} sek. po zabiciu elity\n\nTags: Ruch, Elitarne Potwory.",
+					"ptBR": "+7% de velocidade de movimento por {#} segundos depois de matar um elite\n\nTags: Movimento, Monstros de Elite.",
+					"ruRU": "+7% к скорости передвижения на {#} сек. после убийства особого противника\n\nTags: Движение, Особые монстры.",
+					"zhCN": "+7% 在消灭一个精英怪后的移动速度,持续{#} 秒\n\nTags: 移动, 精英怪物."
+				}
+			},
+			"Generic_Magic_OverpowerDamage": {
+				"name": "Overpower Damage",
+				"description": "+15% Overpower Damage\n\nTags: Overpower, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+15% Überwältigungsschaden\n\nTags: Überwältigen, Schaden.",
+					"esES": "+15% de daño de arrollamiento\n\nTags: Arrollamiento, Daño.",
+					"esMX": "+15% de daño abrumador\n\nTags: Abrumar, Daño.",
+					"frFR": "+15% de dégâts d'accablement\n\nTags: Accablement, Dégâts.",
+					"itIT": "Danni da Sopraffazione: +15%\n\nTags: Sopraffazione, Danni.",
+					"jaJP": "オーバーパワー・ダメージ+15%\n\nTags: オーバーパワー, ダメージ.",
+					"koKR": "제압 피해 +15%\n\nTags: 제압, 피해.",
+					"plPL": "+15% obrażeń od przytłoczenia\n\nTags: Przytłoczenie, Obrażenia.",
+					"ptBR": "+15% de dano de Golpe Brutal\n\nTags: Golpe Brutal, Dano.",
+					"ruRU": "+15% к подавляющему урону\n\nTags: Подавление, Урон.",
+					"zhCN": "+15% 压制伤害\n\nTags: 压制, 伤害."
+				}
+			},
+			"Generic_Magic_PotionHealing": {
+				"name": "Potion Healing",
+				"description": "+2% Potion Healing\n\nTags: Healing.",
+				"descriptionLocalized": {
+					"deDE": "+2% Heilung durch Tränke\n\nTags: Heilung.",
+					"esES": "+2% de curación de pociones\n\nTags: Curación.",
+					"esMX": "+2% de sanación de pociones\n\nTags: Sanación.",
+					"frFR": "+2% de soins de la potion\n\nTags: Soins.",
+					"itIT": "Cure pozione: +2%\n\nTags: Guarigione.",
+					"jaJP": "ポーションによる回復+2%\n\nTags: 回復.",
+					"koKR": "물약 치유량 +2%\n\nTags: 치유.",
+					"plPL": "+2% do leczenia miksturą\n\nTags: Leczenie.",
+					"ptBR": "+2% de cura de poção\n\nTags: Cura.",
+					"ruRU": "+2% к исцелению от зелий\n\nTags: Исцеление.",
+					"zhCN": "2% 药水恢复效果\n\nTags: 治疗."
+				}
+			},
+			"Generic_Magic_ResistanceAll": {
+				"name": "Resistance All",
+				"description": "2% Resistance to All Elements\n\nTags: Resistance, Non-Physical.",
+				"descriptionLocalized": {
+					"deDE": "2% Widerstand gegen alle Schadensarten\n\nTags: Widerstand, Nichtphysisch.",
+					"esES": "2% de resistencia a todos los elementos\n\nTags: Resistencia, No física.",
+					"esMX": "2% de resistencia a todos los elementos\n\nTags: Resistencia, No física.",
+					"frFR": "2% de résistance à tous les éléments\n\nTags: Résistance, Non physique.",
+					"itIT": "Resistenza a tutti gli elementi: 2%\n\nTags: Resistenza, Non fisico.",
+					"jaJP": "全属性耐性2%\n\nTags: 耐性, 非物理.",
+					"koKR": "모든 원소 저항 2%\n\nTags: 저항, 비물리.",
+					"plPL": "2% odporności na wszystkie żywioły\n\nTags: Odporność, Niefizyczne.",
+					"ptBR": "2% de resistência a todos os elementos\n\nTags: Resistência, Não física.",
+					"ruRU": "Сопротивление стихиям – 2%\n\nTags: Сопротивление, Нефизический урон.",
+					"zhCN": "2% 全元素抗性\n\nTags: 抗性, 非物理."
+				}
+			},
+			"Generic_Magic_ResistanceCold": {
+				"name": "Resistance Cold",
+				"description": "6% Cold Resistance\n\nTags: Resistance, Cold.",
+				"descriptionLocalized": {
+					"deDE": "6% Widerstand gegen: Cold\n\nTags: Widerstand, Kälte.",
+					"esES": "6% de resistencia a Cold\n\nTags: Resistencia, Frío.",
+					"esMX": "6% de resistencia al Cold\n\nTags: Resistencia, Frío.",
+					"frFR": "6% de résistance (Cold )\n\nTags: Résistance, Froid.",
+					"itIT": "Resistenza Cold: 6%\n\nTags: Resistenza, Freddo.",
+					"jaJP": "Cold 耐性6%\n\nTags: 耐性, 冷気.",
+					"koKR": "Cold 저항 6%\n\nTags: 저항, 냉기.",
+					"plPL": "6% odporności na Cold\n\nTags: Odporność, Zimno.",
+					"ptBR": "6% de resistência a Cold\n\nTags: Resistência, Gelo.",
+					"ruRU": "Сопротивление типу урона \"Cold \": 6%\n\nTags: Сопротивление, Холод.",
+					"zhCN": "6% Cold 抗性\n\nTags: 抗性, 冰霜."
+				}
+			},
+			"Generic_Magic_ResistanceFire": {
+				"name": "Resistance Fire",
+				"description": "6% Fire Resistance\n\nTags: Resistance, Fire.",
+				"descriptionLocalized": {
+					"deDE": "6% Widerstand gegen: Fire\n\nTags: Widerstand, Feuer.",
+					"esES": "6% de resistencia a Fire\n\nTags: Resistencia, Fuego.",
+					"esMX": "6% de resistencia al Fire\n\nTags: Resistencia, Fuego.",
+					"frFR": "6% de résistance (Fire )\n\nTags: Résistance, Feu.",
+					"itIT": "Resistenza Fire: 6%\n\nTags: Resistenza, Fuoco.",
+					"jaJP": "Fire 耐性6%\n\nTags: 耐性, 火炎.",
+					"koKR": "Fire 저항 6%\n\nTags: 저항, 화염.",
+					"plPL": "6% odporności na Fire\n\nTags: Odporność, Ogień.",
+					"ptBR": "6% de resistência a Fire\n\nTags: Resistência, Fogo.",
+					"ruRU": "Сопротивление типу урона \"Fire \": 6%\n\nTags: Сопротивление, Огонь.",
+					"zhCN": "6% Fire 抗性\n\nTags: 抗性, 火焰."
+				}
+			},
+			"Generic_Magic_ResistanceLightning": {
+				"name": "Resistance Lightning",
+				"description": "6% Lightning Resistance\n\nTags: Lightning, Resistance.",
+				"descriptionLocalized": {
+					"deDE": "6% Widerstand gegen: Lightning\n\nTags: Blitz, Widerstand.",
+					"esES": "6% de resistencia a Lightning\n\nTags: Rayos, Resistencia.",
+					"esMX": "6% de resistencia al Lightning\n\nTags: Rayo, Resistencia.",
+					"frFR": "6% de résistance (Lightning )\n\nTags: Foudre, Résistance.",
+					"itIT": "Resistenza Lightning: 6%\n\nTags: Fulmine, Resistenza.",
+					"jaJP": "Lightning 耐性6%\n\nTags: 稲妻, 耐性.",
+					"koKR": "Lightning 저항 6%\n\nTags: 번개, 저항.",
+					"plPL": "6% odporności na Lightning\n\nTags: Błyskawica, Odporność.",
+					"ptBR": "6% de resistência a Lightning\n\nTags: Eletricidade, Resistência.",
+					"ruRU": "Сопротивление типу урона \"Lightning \": 6%\n\nTags: Молния, Сопротивление.",
+					"zhCN": "6% Lightning 抗性\n\nTags: 闪电, 抗性."
+				}
+			},
+			"Generic_Magic_ResistancePoison": {
+				"name": "Resistance Poison",
+				"description": "6% Poison Resistance\n\nTags: Resistance, Poison.",
+				"descriptionLocalized": {
+					"deDE": "6% Widerstand gegen: Poison\n\nTags: Widerstand, Gift.",
+					"esES": "6% de resistencia a Poison\n\nTags: Resistencia, Veneno.",
+					"esMX": "6% de resistencia al Poison\n\nTags: Resistencia, Veneno.",
+					"frFR": "6% de résistance (Poison )\n\nTags: Résistance, Poison.",
+					"itIT": "Resistenza Poison: 6%\n\nTags: Resistenza, Veleno.",
+					"jaJP": "Poison 耐性6%\n\nTags: 耐性, 毒.",
+					"koKR": "Poison 저항 6%\n\nTags: 저항, 독.",
+					"plPL": "6% odporności na Poison\n\nTags: Odporność, Trucizna.",
+					"ptBR": "6% de resistência a Poison\n\nTags: Resistência, Veneno.",
+					"ruRU": "Сопротивление типу урона \"Poison \": 6%\n\nTags: Сопротивление, Яд.",
+					"zhCN": "6% Poison 抗性\n\nTags: 抗性, 毒素."
+				}
+			},
+			"Generic_Magic_ResistanceShadow": {
+				"name": "Resistance Shadow",
+				"description": "6% Shadow Resistance\n\nTags: Resistance, Shadow.",
+				"descriptionLocalized": {
+					"deDE": "6% Widerstand gegen: Shadow\n\nTags: Widerstand, Schatten.",
+					"esES": "6% de resistencia a Shadow\n\nTags: Resistencia, Sombra.",
+					"esMX": "6% de resistencia al Shadow\n\nTags: Resistencia, Sombra.",
+					"frFR": "6% de résistance (Shadow )\n\nTags: Résistance, Ombre.",
+					"itIT": "Resistenza Shadow: 6%\n\nTags: Resistenza, Ombra.",
+					"jaJP": "Shadow 耐性6%\n\nTags: 耐性, 影.",
+					"koKR": "Shadow 저항 6%\n\nTags: 저항, 암흑.",
+					"plPL": "6% odporności na Shadow\n\nTags: Odporność, Cień.",
+					"ptBR": "6% de resistência a Shadow\n\nTags: Resistência, Sombra.",
+					"ruRU": "Сопротивление типу урона \"Shadow \": 6%\n\nTags: Сопротивление, Темная магия.",
+					"zhCN": "6% Shadow 抗性\n\nTags: 抗性, 暗影."
+				}
+			},
+			"Generic_Magic_Str": {
+				"name": "Strength",
+				"description": "+7 Strength\n\nTags: Strength.",
+				"descriptionLocalized": {
+					"deDE": "+7 Stärke\n\nTags: Stärke.",
+					"esES": "+7 de fuerza\n\nTags: Fuerza.",
+					"esMX": "+7 de Fuerza\n\nTags: Fuerza.",
+					"frFR": "+7 force\n\nTags: Force.",
+					"itIT": "Forza: +7\n\nTags: Forza.",
+					"jaJP": "筋力+7\n\nTags: 筋力.",
+					"koKR": "힘 +7\n\nTags: 힘.",
+					"plPL": "+7 siły\n\nTags: Siła.",
+					"ptBR": "+7 de Força\n\nTags: Força.",
+					"ruRU": "+7 к силе\n\nTags: Сила.",
+					"zhCN": "+7 点力量\n\nTags: 力量."
+				}
+			},
+			"Generic_Magic_Will": {
+				"name": "Willpower",
+				"description": "+7 Willpower\n\nTags: Willpower.",
+				"descriptionLocalized": {
+					"deDE": "+7 Willenskraft\n\nTags: Willenskraft.",
+					"esES": "+7 de voluntad\n\nTags: Voluntad.",
+					"esMX": "+7 de Voluntad\n\nTags: Voluntad.",
+					"frFR": "+7 volonté\n\nTags: Volonté.",
+					"itIT": "Volontà: +7\n\nTags: Volontà.",
+					"jaJP": "意志力+7\n\nTags: 意志力.",
+					"koKR": "의지력 +7\n\nTags: 의지력.",
+					"plPL": "+7 siły woli\n\nTags: Siła Woli.",
+					"ptBR": "+7 de Determinação\n\nTags: Determinação.",
+					"ruRU": "+7 к силе воли\n\nTags: Сила воли.",
+					"zhCN": "+7 点意力\n\nTags: 意力."
+				}
+			},
+			"Generic_Normal_Dex": {
+				"name": "Dexterity",
+				"description": "+5 Dexterity\n\nTags: Dexterity.",
+				"descriptionLocalized": {
+					"deDE": "+5 Geschicklichkeit\n\nTags: Geschicklichkeit.",
+					"esES": "+5 de destreza\n\nTags: Destreza.",
+					"esMX": "+5 de Destreza\n\nTags: Destreza.",
+					"frFR": "+5 dextérité\n\nTags: Dextérité.",
+					"itIT": "Destrezza: +5\n\nTags: Destrezza.",
+					"jaJP": "敏捷性+5\n\nTags: 敏捷性.",
+					"koKR": "민첩 +5\n\nTags: 민첩.",
+					"plPL": "+5 zręczności\n\nTags: Zręczność.",
+					"ptBR": "+5 de Destreza\n\nTags: Destreza.",
+					"ruRU": "+5 к ловкости\n\nTags: Ловкость.",
+					"zhCN": "+5 点敏捷\n\nTags: 敏捷."
+				}
+			},
+			"Generic_Normal_Int": {
+				"name": "Intelligence",
+				"description": "+5 Intelligence\n\nTags: Intelligence.",
+				"descriptionLocalized": {
+					"deDE": "+5 Intelligenz\n\nTags: Intelligenz.",
+					"esES": "+5 de inteligencia\n\nTags: Inteligencia.",
+					"esMX": "+5 de Inteligencia\n\nTags: Inteligencia.",
+					"frFR": "+5 intelligence\n\nTags: Intelligence.",
+					"itIT": "Intelligenza: +5\n\nTags: Intelligenza.",
+					"jaJP": "知力+5\n\nTags: 知力.",
+					"koKR": "지능 +5\n\nTags: 지능.",
+					"plPL": "+5 inteligencji\n\nTags: Inteligencja.",
+					"ptBR": "+5 de Inteligência\n\nTags: Inteligência.",
+					"ruRU": "+5 к интеллекту\n\nTags: Интеллект.",
+					"zhCN": "+5 点智力\n\nTags: 智力."
+				}
+			},
+			"Generic_Normal_Str": {
+				"name": "Strength",
+				"description": "+5 Strength\n\nTags: Strength.",
+				"descriptionLocalized": {
+					"deDE": "+5 Stärke\n\nTags: Stärke.",
+					"esES": "+5 de fuerza\n\nTags: Fuerza.",
+					"esMX": "+5 de Fuerza\n\nTags: Fuerza.",
+					"frFR": "+5 force\n\nTags: Force.",
+					"itIT": "Forza: +5\n\nTags: Forza.",
+					"jaJP": "筋力+5\n\nTags: 筋力.",
+					"koKR": "힘 +5\n\nTags: 힘.",
+					"plPL": "+5 siły\n\nTags: Siła.",
+					"ptBR": "+5 de Força\n\nTags: Força.",
+					"ruRU": "+5 к силе\n\nTags: Сила.",
+					"zhCN": "+5 点力量\n\nTags: 力量."
+				}
+			},
+			"Generic_Normal_Will": {
+				"name": "Willpower",
+				"description": "+5 Willpower\n\nTags: Willpower.",
+				"descriptionLocalized": {
+					"deDE": "+5 Willenskraft\n\nTags: Willenskraft.",
+					"esES": "+5 de voluntad\n\nTags: Voluntad.",
+					"esMX": "+5 de Voluntad\n\nTags: Voluntad.",
+					"frFR": "+5 volonté\n\nTags: Volonté.",
+					"itIT": "Volontà: +5\n\nTags: Volontà.",
+					"jaJP": "意志力+5\n\nTags: 意志力.",
+					"koKR": "의지력 +5\n\nTags: 의지력.",
+					"plPL": "+5 siły woli\n\nTags: Siła Woli.",
+					"ptBR": "+5 de Determinação\n\nTags: Determinação.",
+					"ruRU": "+5 к силе воли\n\nTags: Сила воли.",
+					"zhCN": "+5 点意力\n\nTags: 意力."
 				}
 			},
 			"Generic_Rare_001": {
@@ -20266,6 +21915,261 @@ let paragonData = {
 					"zhCN": "使用白骨技能击中敌人令你造成的伤害提高 x1%, 精魂上限提高 3 点, 持续 8 秒, 最多可叠加至 x7.5% 增伤和 22.5 点精魂上限。\n\nTags: 白骨, 精魂, 伤害."
 				}
 			},
+			"Necromancer_Magic_ArmorWithActiveGolem": {
+				"name": "Armor With Active Golem",
+				"description": "+1% Total Armor while Golem are Active\n\nTags: Minion, Armor.",
+				"descriptionLocalized": {
+					"deDE": "+1% gesamte Rüstung, solange Golem aktiv sind\n\nTags: Diener, Rüstung.",
+					"esES": "+1% de armadura total mientras duran las mascotas Golem\n\nTags: Esbirro, Armadura.",
+					"esMX": "+1% de armadura total mientras Golem está activa\n\nTags: Esbirro, Armadura.",
+					"frFR": "+1% à l'armure totale tant que les serviteurs (Golem ) sont actifs\n\nTags: Serviteur, Armure.",
+					"itIT": "Armatura totale con Golem in attività: +1%\n\nTags: Servitori, Armatura.",
+					"jaJP": "Golem 発動中の合計防御力+1%\n\nTags: ミニオン, 防御力.",
+					"koKR": "Golem |1이;가; 활성화되어 있는 동안 총 방어도 +1%\n\nTags: 하수인, 방어도.",
+					"plPL": "+1% całkowitego pancerza, gdy aktywne jest: Golem\n\nTags: Sługa, Pancerz.",
+					"ptBR": "+1% de armadura total com Golem em atividade\n\nTags: Lacaio, Armadura.",
+					"ruRU": "+1% к общей броне во время активности прислужников \"Golem \"\n\nTags: Прислужник, Броня.",
+					"zhCN": "+1% 激活Golem 时的总护甲加成\n\nTags: 爪牙, 护甲."
+				}
+			},
+			"Necromancer_Magic_BloodOrbDamage": {
+				"name": "Blood Orb Damage",
+				"description": "+5% Damage\n\nTags: Blood Orb, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden\n\nTags: Blutkugel, Schaden.",
+					"esES": "+5% de daño\n\nTags: Orbe de sangre, Daño.",
+					"esMX": "+5% de daño\n\nTags: Orbe de Sangre, Daño.",
+					"frFR": "+5% de dégâts\n\nTags: Orbe de sang, Dégâts.",
+					"itIT": "Danni: +5%\n\nTags: Globo di Sangue, Danni.",
+					"jaJP": "ダメージ+5%\n\nTags: 血のオーブ, ダメージ.",
+					"koKR": "공격력 +5%\n\nTags: 피의 구슬, 피해.",
+					"plPL": "+5% obrażeń\n\nTags: Krwawa Kula, Obrażenia.",
+					"ptBR": "+5% de dano\n\nTags: Orbe de Sangue, Dano.",
+					"ruRU": "+5% к урону\n\nTags: Сфера крови, Урон.",
+					"zhCN": "+5% 伤害\n\nTags: 生命球, 伤害."
+				}
+			},
+			"Necromancer_Magic_BloodOrbHealing": {
+				"name": "Blood Orb Healing",
+				"description": "+2.5% Blood Orb Healing\n\nTags: Blood Orb, Healing.",
+				"descriptionLocalized": {
+					"deDE": "+2.5% Heilung durch Blutkugeln\n\nTags: Blutkugel, Heilung.",
+					"esES": "+2.5% de curación de Orbe de sangre\n\nTags: Orbe de sangre, Curación.",
+					"esMX": "+2.5% de sanación de Orbe de Sangre\n\nTags: Orbe de Sangre, Sanación.",
+					"frFR": "+2.5% de soins reçus des orbes de sang\n\nTags: Orbe de sang, Soins.",
+					"itIT": "Cura Globi di Sangue: +2.5%\n\nTags: Globo di Sangue, Guarigione.",
+					"jaJP": "血のオーブの回復量+2.5%\n\nTags: 血のオーブ, 回復.",
+					"koKR": "피의 구슬 치유량 +2.5%\n\nTags: 피의 구슬, 치유.",
+					"plPL": "+2.5% leczenia krwawą kulą\n\nTags: Krwawa Kula, Leczenie.",
+					"ptBR": "+2.5% de cura de orbes de sangue\n\nTags: Orbe de Sangue, Cura.",
+					"ruRU": "+2.5% к исцелению сферами крови\n\nTags: Сфера крови, Исцеление.",
+					"zhCN": "+2.5% 生命球治疗效果\n\nTags: 生命球, 治疗."
+				}
+			},
+			"Necromancer_Magic_CriticalDamageBone": {
+				"name": "Critical Damage Bone",
+				"description": "+7.5% Critical Strike Damage with Bone Skills\n\nTags: Bone, Critical Strikes, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% kritischer Trefferschaden mit Knochen -Fertigkeiten\n\nTags: Knochen, Kritische Treffer, Schaden.",
+					"esES": "+7.5% de daño de golpe crítico con habilidades de Hueso\n\nTags: Hueso, Golpes críticos, Daño.",
+					"esMX": "+7.5% de daño de golpe crítico con habilidades de Hueso\n\nTags: Hueso, Golpes críticos, Daño.",
+					"frFR": "+7.5% de dégâts critiques avec les compétences de Os\n\nTags: Os, Coups critiques, Dégâts.",
+					"itIT": "Danni critici con abilità Ossa: +7.5%\n\nTags: Ossa, Colpi critici, Danni.",
+					"jaJP": "骨 スキルのクリティカルヒットダメージ+7.5%\n\nTags: 骨, クリティカルヒット, ダメージ.",
+					"koKR": "뼈 기술의 극대화 피해 +7.5%\n\nTags: 뼈, 극대화, 피해.",
+					"plPL": "+7.5% obrażeń od trafień krytycznych od umiejętności: Kości\n\nTags: Kości, Trafienia Krytyczne, Obrażenia.",
+					"ptBR": "+7.5% de dano de acerto crítico com habilidades de Osso\n\nTags: Osso, Acertos Críticos, Dano.",
+					"ruRU": "+7.5% к критическому урону для умений категории \"Кости \"\n\nTags: Кости, Критические удары, Урон.",
+					"zhCN": "+7.5% 白骨 技能的暴击伤害\n\nTags: 白骨, 暴击, 伤害."
+				}
+			},
+			"Necromancer_Magic_DamageBone": {
+				"name": "Damage Bone",
+				"description": "+5% Bone Skill Damage\n\nTags: Bone, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden für Fertigkeiten des Typs Knochen\n\nTags: Knochen, Schaden.",
+					"esES": "+5% de daño de habilidades de Hueso\n\nTags: Hueso, Daño.",
+					"esMX": "+5% de daño de habilidad Hueso\n\nTags: Hueso, Daño.",
+					"frFR": "+5% de dégâts de compétence (Os )\n\nTags: Os, Dégâts.",
+					"itIT": "Danni abilità Ossa: +5%\n\nTags: Ossa, Danni.",
+					"jaJP": "スキルダメージ+5% 骨\n\nTags: 骨, ダメージ.",
+					"koKR": "뼈 기술 피해 +5%\n\nTags: 뼈, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Kości )\n\nTags: Kości, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Osso\n\nTags: Osso, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Кости \"\n\nTags: Кости, Урон.",
+					"zhCN": "+5% 白骨 技能伤害\n\nTags: 白骨, 伤害."
+				}
+			},
+			"Necromancer_Magic_DamageWithActiveGolem": {
+				"name": "Damage With Active Golem",
+				"description": "+5% Damage while Golem are Active\n\nTags: Minion, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden, solange Golem aktiv sind\n\nTags: Diener, Schaden.",
+					"esES": "+5% de daño mientras duran las mascotas Golem\n\nTags: Esbirro, Daño.",
+					"esMX": "+5% de daño mientras Golem está activa\n\nTags: Esbirro, Daño.",
+					"frFR": "+5% de dégâts tant que les serviteurs (Golem ) sont actifs\n\nTags: Serviteur, Dégâts.",
+					"itIT": "Danni mentre Golem è in attività: +5%\n\nTags: Servitori, Danni.",
+					"jaJP": "Golem 発動時のダメージ+5%\n\nTags: ミニオン, ダメージ.",
+					"koKR": "Golem |1이;가; 활성화되어 있는 동안 공격력 +5%\n\nTags: 하수인, 피해.",
+					"plPL": "+5% obrażeń, gdy aktywne jest: Golem\n\nTags: Sługa, Obrażenia.",
+					"ptBR": "+5% de dano com Golem em atividade\n\nTags: Lacaio, Dano.",
+					"ruRU": "+5% к урону во время активности прислужников категории \"Golem \"\n\nTags: Прислужник, Урон.",
+					"zhCN": "+5% Golem 激活时的伤害\n\nTags: 爪牙, 伤害."
+				}
+			},
+			"Necromancer_Magic_GolemArmor": {
+				"name": "Golem Armor",
+				"description": "+3.2% Golem Armor\n\nTags: Minion, Armor.",
+				"descriptionLocalized": {
+					"deDE": "+3.2% Rüstung für Golem\n\nTags: Diener, Rüstung.",
+					"esES": "+3.2% de armadura de Golem\n\nTags: Esbirro, Armadura.",
+					"esMX": "+3.2% de armadura de Golem\n\nTags: Esbirro, Armadura.",
+					"frFR": "+3.2% Golem à l'armure\n\nTags: Serviteur, Armure.",
+					"itIT": "Armatura Golem: +3.2%\n\nTags: Servitori, Armatura.",
+					"jaJP": "Golem アーマー+3.2%\n\nTags: ミニオン, 防御力.",
+					"koKR": "Golem 방어도 +3.2%\n\nTags: 하수인, 방어도.",
+					"plPL": "+3.2% pancerza: Golem\n\nTags: Sługa, Pancerz.",
+					"ptBR": "+3.2% de armadura de Golem\n\nTags: Lacaio, Armadura.",
+					"ruRU": "+3.2% к броне (Golem )\n\nTags: Прислужник, Броня.",
+					"zhCN": "+3.2% Golem 护甲\n\nTags: 爪牙, 护甲."
+				}
+			},
+			"Necromancer_Magic_GolemAttackSpeed": {
+				"name": "Golem Attack Speed",
+				"description": "+4% Golem Attack Speed\n\nTags: Minion, Attack Speed.",
+				"descriptionLocalized": {
+					"deDE": "+4% Angriffsgeschwindigkeit für: Golem\n\nTags: Diener, Angriffsgeschwindigkeit.",
+					"esES": "+4% de velocidad de ataque de Golem\n\nTags: Esbirro, Velocidad de ataque.",
+					"esMX": "+4% de velocidad de ataque de Golem\n\nTags: Esbirro, Velocidad de ataque.",
+					"frFR": "+4% à la vitesse d'attaque de Golem\n\nTags: Serviteur, Vitesse d'attaque.",
+					"itIT": "Velocità d'attacco Golem: +4%\n\nTags: Servitori, Velocità d'attacco.",
+					"jaJP": "Golem の攻撃速度+4%\n\nTags: ミニオン, 攻撃速度.",
+					"koKR": "Golem 공격 속도 +4%\n\nTags: 하수인, 공격 속도.",
+					"plPL": "+4% szybkości ataku: Golem\n\nTags: Sługa, Szybkość Ataku.",
+					"ptBR": "+4% de velocidade de ataque de Golem\n\nTags: Lacaio, Velocidade de Ataque.",
+					"ruRU": "+4% к скорости атаки (Golem )\n\nTags: Прислужник, Скорость атаки.",
+					"zhCN": "+4% Golem 攻击速度\n\nTags: 爪牙, 攻击速度."
+				}
+			},
+			"Necromancer_Magic_GolemDamage": {
+				"name": "Golem Damage",
+				"description": "+8.5% Golem Damage\n\nTags: Minion, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+8.5% Schaden für Golem\n\nTags: Diener, Schaden.",
+					"esES": "+8.5% de daño de Golem\n\nTags: Esbirro, Daño.",
+					"esMX": "+8.5% de daño de Golem\n\nTags: Esbirro, Daño.",
+					"frFR": "+8.5% de dégâts Golem\n\nTags: Serviteur, Dégâts.",
+					"itIT": "Danni da Golem: +8.5%\n\nTags: Servitori, Danni.",
+					"jaJP": "Golem のダメージ+8.5%\n\nTags: ミニオン, ダメージ.",
+					"koKR": "Golem 피해 +8.5%\n\nTags: 하수인, 피해.",
+					"plPL": "+8.5% obrażeń typu: Golem\n\nTags: Sługa, Obrażenia.",
+					"ptBR": "+8.5% de dano Golem\n\nTags: Lacaio, Dano.",
+					"ruRU": "+8.5% к урону (Golem )\n\nTags: Прислужник, Урон.",
+					"zhCN": "+8.5% Golem 伤害\n\nTags: 爪牙, 伤害."
+				}
+			},
+			"Necromancer_Magic_GolemHP": {
+				"name": "Golem HP",
+				"description": "7% Golem Maximum Life\n\nTags: Minion, Life.",
+				"descriptionLocalized": {
+					"deDE": "7% maximales Leben für Golem\n\nTags: Diener, Leben.",
+					"esES": "7% de vida máxima de Golem\n\nTags: Esbirro, Vida.",
+					"esMX": "7% de vida máxima de Golem\n\nTags: Esbirro, Vida.",
+					"frFR": "7% du maximum de vie (Golem )\n\nTags: Serviteur, Vie.",
+					"itIT": "Vita massima Golem: 7%\n\nTags: Servitori, Vita.",
+					"jaJP": "ライフ最大値+7% Golem\n\nTags: ミニオン, ライフ.",
+					"koKR": "Golem 최대 생명력 +7%\n\nTags: 하수인, 생명력.",
+					"plPL": "7% maksymalnego zdrowia: Golem\n\nTags: Sługa, Zdrowie.",
+					"ptBR": "7% de vida máxima para Golem\n\nTags: Lacaio, Vida.",
+					"ruRU": "Максимальный запас здоровья (Golem ) – 7%\n\nTags: Прислужник, Здоровье.",
+					"zhCN": "7% Golem 生命上限\n\nTags: 爪牙, 生命."
+				}
+			},
+			"Necromancer_Magic_GolemResistAll": {
+				"name": "Golem Resist All",
+				"description": "8% Golem Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical.",
+				"descriptionLocalized": {
+					"deDE": "8% Widerstand gegen alle Schadensarten für Golem\n\nTags: Diener, Widerstand, Nichtphysisch.",
+					"esES": "8% de resistencia de Golem a todos los elementos\n\nTags: Esbirro, Resistencia, No física.",
+					"esMX": "8% de resistencia de Golem a todos los elementos\n\nTags: Esbirro, Resistencia, No física.",
+					"frFR": "8% de résistance à tous les éléments (Golem )\n\nTags: Serviteur, Résistance, Non physique.",
+					"itIT": "Resistenza a tutti gli elementi per Golem: 8%\n\nTags: Servitori, Resistenza, Non fisico.",
+					"jaJP": "全属性に対するGolem 耐性8%\n\nTags: ミニオン, 耐性, 非物理.",
+					"koKR": "모든 원소에 대한 Golem 저항 8%\n\nTags: 하수인, 저항, 비물리.",
+					"plPL": "8% odporności na wszystkie żywioły: Golem\n\nTags: Sługa, Odporność, Niefizyczne.",
+					"ptBR": "8% de resistência a todos os elementos para Golem\n\nTags: Lacaio, Resistência, Não física.",
+					"ruRU": "Сопротивление стихиям – 8% (Golem )\n\nTags: Прислужник, Сопротивление, Нефизический урон.",
+					"zhCN": "8% Golem 全元素抗性\n\nTags: 爪牙, 抗性, 非物理."
+				}
+			},
+			"Necromancer_Magic_SkeletonMageDamage": {
+				"name": "Skeleton Mage Damage",
+				"description": "+8.5% SkeletonMage Damage\n\nTags: Minion, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+8.5% Schaden für SkeletonMage\n\nTags: Diener, Schaden.",
+					"esES": "+8.5% de daño de SkeletonMage\n\nTags: Esbirro, Daño.",
+					"esMX": "+8.5% de daño de SkeletonMage\n\nTags: Esbirro, Daño.",
+					"frFR": "+8.5% de dégâts SkeletonMage\n\nTags: Serviteur, Dégâts.",
+					"itIT": "Danni da SkeletonMage: +8.5%\n\nTags: Servitori, Danni.",
+					"jaJP": "SkeletonMage のダメージ+8.5%\n\nTags: ミニオン, ダメージ.",
+					"koKR": "SkeletonMage 피해 +8.5%\n\nTags: 하수인, 피해.",
+					"plPL": "+8.5% obrażeń typu: SkeletonMage\n\nTags: Sługa, Obrażenia.",
+					"ptBR": "+8.5% de dano SkeletonMage\n\nTags: Lacaio, Dano.",
+					"ruRU": "+8.5% к урону (SkeletonMage )\n\nTags: Прислужник, Урон.",
+					"zhCN": "+8.5% SkeletonMage 伤害\n\nTags: 爪牙, 伤害."
+				}
+			},
+			"Necromancer_Magic_SkeletonMageResistAll": {
+				"name": "Skeleton Mage Resist All",
+				"description": "8% SkeletonMage Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical.",
+				"descriptionLocalized": {
+					"deDE": "8% Widerstand gegen alle Schadensarten für SkeletonMage\n\nTags: Diener, Widerstand, Nichtphysisch.",
+					"esES": "8% de resistencia de SkeletonMage a todos los elementos\n\nTags: Esbirro, Resistencia, No física.",
+					"esMX": "8% de resistencia de SkeletonMage a todos los elementos\n\nTags: Esbirro, Resistencia, No física.",
+					"frFR": "8% de résistance à tous les éléments (SkeletonMage )\n\nTags: Serviteur, Résistance, Non physique.",
+					"itIT": "Resistenza a tutti gli elementi per SkeletonMage: 8%\n\nTags: Servitori, Resistenza, Non fisico.",
+					"jaJP": "全属性に対するSkeletonMage 耐性8%\n\nTags: ミニオン, 耐性, 非物理.",
+					"koKR": "모든 원소에 대한 SkeletonMage 저항 8%\n\nTags: 하수인, 저항, 비물리.",
+					"plPL": "8% odporności na wszystkie żywioły: SkeletonMage\n\nTags: Sługa, Odporność, Niefizyczne.",
+					"ptBR": "8% de resistência a todos os elementos para SkeletonMage\n\nTags: Lacaio, Resistência, Não física.",
+					"ruRU": "Сопротивление стихиям – 8% (SkeletonMage )\n\nTags: Прислужник, Сопротивление, Нефизический урон.",
+					"zhCN": "8% SkeletonMage 全元素抗性\n\nTags: 爪牙, 抗性, 非物理."
+				}
+			},
+			"Necromancer_Magic_SkeletonWarriorArmor": {
+				"name": "Skeleton Warrior Armor",
+				"description": "+3.2% SkeletonWarrior Armor\n\nTags: Minion, Armor.",
+				"descriptionLocalized": {
+					"deDE": "+3.2% Rüstung für SkeletonWarrior\n\nTags: Diener, Rüstung.",
+					"esES": "+3.2% de armadura de SkeletonWarrior\n\nTags: Esbirro, Armadura.",
+					"esMX": "+3.2% de armadura de SkeletonWarrior\n\nTags: Esbirro, Armadura.",
+					"frFR": "+3.2% SkeletonWarrior à l'armure\n\nTags: Serviteur, Armure.",
+					"itIT": "Armatura SkeletonWarrior: +3.2%\n\nTags: Servitori, Armatura.",
+					"jaJP": "SkeletonWarrior アーマー+3.2%\n\nTags: ミニオン, 防御力.",
+					"koKR": "SkeletonWarrior 방어도 +3.2%\n\nTags: 하수인, 방어도.",
+					"plPL": "+3.2% pancerza: SkeletonWarrior\n\nTags: Sługa, Pancerz.",
+					"ptBR": "+3.2% de armadura de SkeletonWarrior\n\nTags: Lacaio, Armadura.",
+					"ruRU": "+3.2% к броне (SkeletonWarrior )\n\nTags: Прислужник, Броня.",
+					"zhCN": "+3.2% SkeletonWarrior 护甲\n\nTags: 爪牙, 护甲."
+				}
+			},
+			"Necromancer_Magic_SkeletonWarriorDamage": {
+				"name": "Skeleton Warrior Damage",
+				"description": "+8.5% SkeletonWarrior Damage\n\nTags: Minion, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+8.5% Schaden für SkeletonWarrior\n\nTags: Diener, Schaden.",
+					"esES": "+8.5% de daño de SkeletonWarrior\n\nTags: Esbirro, Daño.",
+					"esMX": "+8.5% de daño de SkeletonWarrior\n\nTags: Esbirro, Daño.",
+					"frFR": "+8.5% de dégâts SkeletonWarrior\n\nTags: Serviteur, Dégâts.",
+					"itIT": "Danni da SkeletonWarrior: +8.5%\n\nTags: Servitori, Danni.",
+					"jaJP": "SkeletonWarrior のダメージ+8.5%\n\nTags: ミニオン, ダメージ.",
+					"koKR": "SkeletonWarrior 피해 +8.5%\n\nTags: 하수인, 피해.",
+					"plPL": "+8.5% obrażeń typu: SkeletonWarrior\n\nTags: Sługa, Obrażenia.",
+					"ptBR": "+8.5% de dano SkeletonWarrior\n\nTags: Lacaio, Dano.",
+					"ruRU": "+8.5% к урону (SkeletonWarrior )\n\nTags: Прислужник, Урон.",
+					"zhCN": "+8.5% SkeletonWarrior 伤害\n\nTags: 爪牙, 伤害."
+				}
+			},
 			"Necromancer_Rare_001": {
 				"name": "Shaper of Bone",
 				"description": "+10% Bone Skill Damage\n+10 Intelligence\n\nBonus: Another +10% Bone Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bone, Damage, Intelligence.",
@@ -26571,6 +28475,108 @@ let paragonData = {
 					"zhCN": "当你消耗 3 个连击点数时, 你的非伤害性连击点数的加成效果提高 33.334%。"
 				}
 			},
+			"Rogue_Magic_DamageImbued": {
+				"name": "Damage Imbued",
+				"description": "+7.5% Imbued Skill Damage\n\nTags: Imbuement, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+7.5% Schaden für Fertigkeiten mit Infusionen\n\nTags: Infusion, Schaden.",
+					"esES": "+7.5% de daño de habilidades imbuidas\n\nTags: Imbuición, Daño.",
+					"esMX": "+7.5% de daño de habilidades de Imbuición\n\nTags: Imbuición, Daño.",
+					"frFR": "+7.5% de dégâts des compétences imprégnées\n\nTags: Imprégnation, Dégâts.",
+					"itIT": "Danni delle abilità Infuse: +7.5%\n\nTags: Infusione, Danni.",
+					"jaJP": "注入スキルのダメージ+7.5%\n\nTags: 注入, ダメージ.",
+					"koKR": "주입 기술의 피해 +7.5%\n\nTags: 주입, 피해.",
+					"plPL": "+7.5% obrażeń od nasyconej umiejętności\n\nTags: Nasycenie, Obrażenia.",
+					"ptBR": "+7.5% de dano de habilidades de Imbuição\n\nTags: Imbuição, Dano.",
+					"ruRU": "+7.5% к урону от насыщенных силой умений\n\nTags: Насыщение, Урон.",
+					"zhCN": "+7.5% 灌注技能伤害\n\nTags: 灌注, 伤害."
+				}
+			},
+			"Rogue_Magic_DamageReductionFromTrapped": {
+				"name": "Damage Reduction From Trapped",
+				"description": "2% Damage Reduction from Enemies Affected By Trap Skills\n\nTags: Trap, Damage Reduction.",
+				"descriptionLocalized": {
+					"deDE": "2% Schadensreduktion gegen Gegner, die von Fertigkeiten des Typs Falle betroffen sind\n\nTags: Falle, Schadensreduktion.",
+					"esES": "2% de reducción de daño de los enemigos afectados por habilidades de Trampa\n\nTags: Trampa, Reducción de daño.",
+					"esMX": "2% de reducción de daño infligido por enemigos afectados por habilidades de Trampa\n\nTags: Trampa, Reducción de daño.",
+					"frFR": "2% de réduction des dégâts infligés par les cibles affectées par les compétences de Piège\n\nTags: Piège, Réduction des dégâts.",
+					"itIT": "Riduzione danni ricevuti dai nemici affetti da abilità Trappole: 2%\n\nTags: Trappole, Riduzione danni.",
+					"jaJP": "罠 スキルの影響を受けた敵からのダメージ減少率2%\n\nTags: 罠, ダメージ減少.",
+					"koKR": "덫 기술의 영향을 받은 적에게 받는 피해 감소 2%\n\nTags: 덫, 피해 감소.",
+					"plPL": "2% redukcji obrażeń od wroga pod wpływem umiejętności: Pułapki\n\nTags: Pułapki, Redukcja Obrażeń.",
+					"ptBR": "2% de redução de dano recebido de inimigos sob efeito de habilidades Armadilha\n\nTags: Armadilha, Redução de Dano.",
+					"ruRU": "На 2% меньше урона от противников, на которых действуют умения категории \"Ловушка \"\n\nTags: Ловушка, Уменьшение урона.",
+					"zhCN": "2% 对受陷阱 技能影响的敌人的伤害减免\n\nTags: 陷阱, 伤害减免."
+				}
+			},
+			"Rogue_Magic_DamageToTrapped": {
+				"name": "Damage To Trapped",
+				"description": "+5% Damage to Enemies Affected by Trap Skills\n\nTags: Trap, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden gegen Gegner, die von Fertigkeiten des Typs Falle betroffen sind\n\nTags: Falle, Schaden.",
+					"esES": "+5% de daño a enemigos afectados por habilidades de Trampa\n\nTags: Trampa, Daño.",
+					"esMX": "+5% de daño a enemigos afectados por habilidades de Trampa\n\nTags: Trampa, Daño.",
+					"frFR": "+5% de dégâts contre les cibles affectées par les compétences (Piège )\n\nTags: Piège, Dégâts.",
+					"itIT": "Danni ai nemici affetti da abilità Trappole: +5%\n\nTags: Trappole, Danni.",
+					"jaJP": "罠 スキルの影響を受けた敵へのダメージ+5%\n\nTags: 罠, ダメージ.",
+					"koKR": "덫 기술의 영향을 받는 적에게 주는 피해 +5%\n\nTags: 덫, 피해.",
+					"plPL": "+5% obrażeń zadawanych wrogom pod wpływem umiejętności: Pułapki\n\nTags: Pułapki, Obrażenia.",
+					"ptBR": "+5% de dano contra inimigos afetados por habilidades Armadilha\n\nTags: Armadilha, Dano.",
+					"ruRU": "+5% к урону противникам, на которых действуют умения категории \"Ловушка \"\n\nTags: Ловушка, Урон.",
+					"zhCN": "+5% 对受陷阱 技能影响敌人的伤害\n\nTags: 陷阱, 伤害."
+				}
+			},
+			"Rogue_Magic_DamageTrap": {
+				"name": "Damage Trap",
+				"description": "+5% Trap Skill Damage\n\nTags: Trap, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden für Fertigkeiten des Typs Falle\n\nTags: Falle, Schaden.",
+					"esES": "+5% de daño de habilidades de Trampa\n\nTags: Trampa, Daño.",
+					"esMX": "+5% de daño de habilidad Trampa\n\nTags: Trampa, Daño.",
+					"frFR": "+5% de dégâts de compétence (Piège )\n\nTags: Piège, Dégâts.",
+					"itIT": "Danni abilità Trappole: +5%\n\nTags: Trappole, Danni.",
+					"jaJP": "スキルダメージ+5% 罠\n\nTags: 罠, ダメージ.",
+					"koKR": "덫 기술 피해 +5%\n\nTags: 덫, 피해.",
+					"plPL": "+5% obrażeń od umiejętności (Pułapki )\n\nTags: Pułapki, Obrażenia.",
+					"ptBR": "+5% de dano de habilidade Armadilha\n\nTags: Armadilha, Dano.",
+					"ruRU": "+5% к урону от умений категории \"Ловушка \"\n\nTags: Ловушка, Урон.",
+					"zhCN": "+5% 陷阱 技能伤害\n\nTags: 陷阱, 伤害."
+				}
+			},
+			"Rogue_Magic_ImbueCDR": {
+				"name": "Imbue CDR",
+				"description": "1.2% Imbuement Cooldown Reduction\n\nTags: Imbuement, Cooldown.",
+				"descriptionLocalized": {
+					"deDE": "1.2% Abklingzeitreduktion für Infusion\n\nTags: Infusion, Abklingzeit.",
+					"esES": "1.2% de reducción de tiempo de reutilización de Imbuición\n\nTags: Imbuición, Tiempo de reutilización.",
+					"esMX": "1.2% de reducción de recuperación de Imbuición\n\nTags: Imbuición, Recuperación.",
+					"frFR": "1.2% de réduction du temps de recharge (Imprégnation )\n\nTags: Imprégnation, Temps de recharge.",
+					"itIT": "Riduzione tempo di recupero Infusione: 1.2%\n\nTags: Infusione, Tempo di recupero.",
+					"jaJP": "注入 のクールダウン時間短縮1.2%\n\nTags: 注入, クールダウン.",
+					"koKR": "주입 재사용 대기시간 감소 1.2%\n\nTags: 주입, 재사용 대기시간.",
+					"plPL": "1.2% redukcji czasu odnowienia: Nasycenie\n\nTags: Nasycenie, Odnowienie.",
+					"ptBR": "1.2% de redução de recarga de Imbuição\n\nTags: Imbuição, Recarga.",
+					"ruRU": "Время восстановления эффекта \"Насыщение \" снижается на 1.2%\n\nTags: Насыщение, Время восстановления.",
+					"zhCN": "1.2% 灌注 冷却时间缩减\n\nTags: 灌注, 冷却时间."
+				}
+			},
+			"Rogue_Magic_TrapCooldown": {
+				"name": "Trap Cooldown",
+				"description": "1.2% Trap Cooldown Reduction\n\nTags: Cooldown, Trap.",
+				"descriptionLocalized": {
+					"deDE": "1.2% Abklingzeitreduktion für Falle\n\nTags: Abklingzeit, Falle.",
+					"esES": "1.2% de reducción de tiempo de reutilización de Trampa\n\nTags: Tiempo de reutilización, Trampa.",
+					"esMX": "1.2% de reducción de recuperación de Trampa\n\nTags: Recuperación, Trampa.",
+					"frFR": "1.2% de réduction du temps de recharge (Piège )\n\nTags: Temps de recharge, Piège.",
+					"itIT": "Riduzione tempo di recupero Trappole: 1.2%\n\nTags: Tempo di recupero, Trappole.",
+					"jaJP": "罠 のクールダウン時間短縮1.2%\n\nTags: クールダウン, 罠.",
+					"koKR": "덫 재사용 대기시간 감소 1.2%\n\nTags: 재사용 대기시간, 덫.",
+					"plPL": "1.2% redukcji czasu odnowienia: Pułapki\n\nTags: Odnowienie, Pułapki.",
+					"ptBR": "1.2% de redução de recarga de Armadilha\n\nTags: Recarga, Armadilha.",
+					"ruRU": "Время восстановления эффекта \"Ловушка \" снижается на 1.2%\n\nTags: Время восстановления, Ловушка.",
+					"zhCN": "1.2% 陷阱 冷却时间缩减\n\nTags: 冷却时间, 陷阱."
+				}
+			},
 			"Rogue_Rare_005": {
 				"name": "Finisher",
 				"description": "+14% Core Skill Damage\n+10 Dexterity\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Dexterity.",
@@ -32394,6 +34400,11 @@ let paragonData = {
 					"ruRU": "Ваши чары усиливаются на 20%.",
 					"zhCN": "你的附魔效果增强 20%。"
 				}
+			},
+			"Sorcerer_Magic_CracklingEnergy": {
+				"name": "Crackling Energy",
+				"description": "+8.5% Damage with Crackling Energy\n\nTags: Crackling Energy, Damage.",
+				"descriptionLocalized": null
 			},
 			"Sorcerer_Rare_002": {
 				"name": "Cryomancy",
