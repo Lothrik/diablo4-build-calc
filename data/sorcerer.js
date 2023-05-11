@@ -693,7 +693,7 @@ When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from the
 },
 		id: 16,
 		maxPoints: 5,
-		values: [ "40", "25" ],
+		values: [ "30", "25" ],
 		x: 133.995,
 		y: 322.79
 	},

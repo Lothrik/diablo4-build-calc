@@ -408,7 +408,7 @@ let nodeValues = {
 		},
 		"Core": {
 			"Charged Bolts": [
-				"40",
+				"30",
 				"25"
 			],
 			"Frozen Orb": [
