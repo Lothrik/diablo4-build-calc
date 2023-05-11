@@ -1024,7 +1024,7 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"frFR": "Coût en esprit: {#}\nChances d'obtenir un coup de chance: 33%\nVous vous transformez en ursoïde et frappez le sol, ce qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts aux adversaires à proximité.\n\nTags: Principale, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
 			"itIT": "Costo in spirito: {#}\nProbabilità di colpo fortunato: 33%\nMuti in un Orso Mannaro e colpisci il terreno, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni ai nemici circostanti.\n\nTags: Primaria, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
 			"jaJP": "精神力消費量: {#}\n幸運の一撃発生率: 33%\n人熊に変身して地面を殴りつけ、周囲の敵に{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 変身, 人熊, 精神力, ダメージ, 物理.",
-			"koKR": "소모: {#}\n행운의 적중 확률: 33%\n곰인간으로 변신하고 땅을 내려쳐 주위 적들에게 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 변신, 곰인간, 영력, 피해, 물리.",
+			"koKR": "소모: 영력 {#}\n행운의 적중 확률: 33%\n곰인간으로 변신하고 땅을 내려쳐 주위 적들에게 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 변신, 곰인간, 영력, 피해, 물리.",
 			"plPL": "Koszt: {#} pkt. siły duchowej.\nSzansa na szczęśliwy traf: 33%\nPrzemieniasz się w niedźwiedziołaka i uderzasz w ziemię, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń wrogom wokół.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
 			"ptBR": "Custo de espírito: {#}\nChance de Golpe de Sorte: 33%\nTransforma-se em um urso e bate no chão, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
 			"ruRU": "Затраты духа: {#} ед.\nВероятность удачного удара: 33%.\nВы принимаете облик медведя и с силой бьете по земле, нанося противникам вокруг {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
@@ -1498,14 +1498,14 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"deDE": "Geisteskraftkosten: {#} pro Angriff\nGlückstrefferchance: 15%\nBeschwört einen wachsenden Gewittersturm, der {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% Schaden pro Angriff verursacht. Die Anzahl der Angriffe wird erhöht, solange der Sturm kanalisiert wird, bis zu einem Maximum von 5 gleichzeitig.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
 			"esES": "Coste de espíritu: {#} por golpe\nProbabilidad de golpe de suerte: 15%\nCreas una tormenta de rayos creciente que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizada, Espíritu, Daño, Rayos.",
 			"esMX": "Costo de Espíritu: {#} por golpe\nProbabilidad de golpe afortunado: 15%\nConjuras una tormenta eléctrica creciente que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizado, Espíritu, Daño, Rayo.",
-			"frFR": "Coût en esprit: {#}par frappe\nChances d'obtenir un coup de chance: 15%\nVous invoquez un orage grandissant qui inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% points de dégâts par coup de foudre. Le nombre de coups de foudre augmente avec la durée de canalisation de l'orage, jusqu'à un maximum de 5 coups à la fois.\n\nTags: Principale, Magie naturelle, Tempête, Canalisation, Esprit, Dégâts, Foudre.",
+			"frFR": "Coût en esprit: {#} par frappe.\nChances d'obtenir un coup de chance: 15%\nVous invoquez un orage grandissant qui inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% points de dégâts par coup de foudre. Le nombre de coups de foudre augmente avec la durée de canalisation de l'orage, jusqu'à un maximum de 5 coups à la fois.\n\nTags: Principale, Magie naturelle, Tempête, Canalisation, Esprit, Dégâts, Foudre.",
 			"itIT": "Costo in spirito: {#} per fulmine\nProbabilità di colpo fortunato: 15%\nInvochi una tempesta di fulmini crescente che infligge {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% danni per fulmine. Il numero di fulmini aumenta in base alla durata della canalizzazione della tempesta, fino a un massimo di 5 simultanei.\n\nTags: Primaria, Magia naturale, Tempesta, Canalizzazione, Spirito, Danni, Fulmine.",
 			"jaJP": "精神力消費量: 一撃ごとに{#}\n幸運の一撃発生率: 15%\n成長する稲妻の嵐を呼び出し、1撃ごとに{32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%のダメージを与える。嵐の召喚が長いほど命中回数が増加し、一度に最大5回まで命中する。\n\nTags: コア, 自然魔法, 嵐, 連続発動, 精神力, ダメージ, 稲妻.",
 			"koKR": "소모: 공격당 영력 {#}\n행운의 적중 확률: 15%\n점점 커지는 번개 폭풍을 생성하여 공격당 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%의 피해를 줍니다. 정신 집중이 계속되면 번개 폭풍의 공격 횟수가 한 번에 최대 5까지 증가합니다.\n\nTags: 핵심, 자연 마법, 폭풍, 정신 집중, 영력, 피해, 번개.",
-			"plPL": "Koszt: {#} pkt siy duchowej za kade trafienie\nSzansa na szczęśliwy traf: 15%\nPrzywołujesz rozrastającą się burzę z piorunami, które zadają {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń przy każdym uderzeniu. Liczba uderzeń wzrasta wraz z czasem podtrzymywania, maksymalnie do 5 naraz.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
+			"plPL": "Koszt: {#} pkt. siły duchowej za każde trafienie\nSzansa na szczęśliwy traf: 15%\nPrzywołujesz rozrastającą się burzę z piorunami, które zadają {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń przy każdym uderzeniu. Liczba uderzeń wzrasta wraz z czasem podtrzymywania, maksymalnie do 5 naraz.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
 			"ptBR": "Custo de espírito: {#} por acerto\nChance de Golpe de Sorte: 15%\nConjura uma tempestade de raios crescente que causa {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de dano por raio. O número de raios aumenta conforme o tempo de canalização da tempestade, até o máximo de 5 ao mesmo tempo.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
-			"ruRU": "Затраты духа: {#} .\nВероятность удачного удара: 15%.\nПризывает растущий грозовой шторм, наносящий {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона за каждый удар. Количество ударов увеличивается с поддержанием умения вплоть до 5.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
-			"zhCN": "灵力消耗: 每次打击消耗{#}\n幸运一击几率: 15%\n召唤一阵不断变强的雷暴, 每一击造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害, 并且引导时间越长, 命中目标的数量越多, 最多可同时命中 5 个目标。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
+			"ruRU": "Затраты духа: {#} ед. за удар.\nВероятность удачного удара: 15%.\nПризывает растущий грозовой шторм, наносящий {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона за каждый удар. Количество ударов увеличивается с поддержанием умения вплоть до 5.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
+			"zhCN": "灵力消耗: 每次打击消耗{#}点\n幸运一击几率: 15%\n召唤一阵不断变强的雷暴, 每一击造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害, 并且引导时间越长, 命中目标的数量越多, 最多可同时命中 5 个目标。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
 			"zhTW": "每次雷擊靈力消耗:{#}\n幸運觸發機率:15%\n呼喚不斷成長的閃電風暴,每次雷擊造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 點傷害。風暴引導的時間越長,雷擊的次數就越多,一次引導最多可提高至 5 次。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 電擊."
 },
 		id: 37,
@@ -1868,7 +1868,7 @@ Tags: Werewolf, Movement, Shapeshifting.`,
 druidData["Defensive"] = {
 	"Earthen Bulwark": {
 		connections: [ "Defensive", "Enhanced Earthen Bulwark" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 16 seconds
 Lucky Hit Chance: 30%
 Rocks surround you for 3 seconds, granting a Barrier that absorbs {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% of your Base Life in damage.
 
@@ -1888,22 +1888,21 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 			"zhTW": "大地壁壘"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 30%\nFelsen umgeben Euch 3 Sek. lang und gewähren eine Barriere, die Schaden in Höhe von {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% Eures Basislebens absorbiert.\n\nTags: Defensiv, Naturmagie, Erde, Barriere, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 30%\nDurante 3 s, te rodean unas rocas en forma de barrera que absorbe un daño equivalente a un {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de tu vida base.\n\nTags: Defensiva, Magia de la naturaleza, Tierra, Barrera, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 30%\nAparecen rocas a tu alrededor durante 3 segundos, que te otorgan una barrera que absorbe el daño equivalente a un {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de tu vida de base.\n\nTags: Defensivo, Magia de la naturaleza, Tierra, Barrera, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 30%\nDes rochers vous entourent pendant 3 s, ce qui vous octroie une barrière absorbant un montant de dégâts égal à {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de vos points de vie de base.\n\nTags: Défense, Magie naturelle, Terre, Barrière, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 30%\nDelle rocce ti circondano per 3 secondi, conferendoti una barriera che assorbe danni pari al {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% della tua Vita base.\n\nTags: Difesa, Magia naturale, Terra, Barriera, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 30%\n岩石で自身を取り囲み、3秒間、基本ライフの{45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%にあたるダメージを吸収する障壁を獲得する。\n\nTags: 防御, 自然魔法, 地, 障壁, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 30%\n3초 동안 바위가 자신을 둘러싸 기본 생명력의 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%에 해당하는 피해를 흡수하는 보호막을 얻습니다.\n\nTags: 방어, 자연 마법, 대지, 보호막, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 30%\nOtaczają cię na 3 sek. skały, które zapewniają barierę pochłaniającą obrażenia równe {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% twojego podstawowego zdrowia.\n\nTags: Defensywa, Magia Natury, Ziemia, Bariera, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 30%\nRochas cercam você por 3 segundos, concedendo uma barreira que absorve {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% da sua vida básica em dano.\n\nTags: Defesa, Magia da Natureza, Terra, Barreira, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 30%.\nВас на 3 сек. окружает каменный барьер, поглощающий урон в объеме {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% базового запаса здоровья.\n\nTags: Защита, Силы природы, Земля, Барьер, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 30%\n岩石环绕在你的周围, 持续 3 秒, 给予你一层可以吸收相当于基础生命 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%伤害的屏障。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:30%\n岩石圍繞在你周圍,持續 3 秒,賦予你可吸收 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 基礎生命值傷害的屏障。\n\nTags: 防禦, 自然魔法, 大地, 屏障, 冷卻時間."
+			"deDE": "Abklingzeit: 16 Sek.\nGlückstrefferchance: 30%\nFelsen umgeben Euch 3 Sek. lang und gewähren eine Barriere, die Schaden in Höhe von {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% Eures Basislebens absorbiert.\n\nTags: Defensiv, Naturmagie, Erde, Barriere, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 16 s\nProbabilidad de golpe de suerte: 30%\nDurante 3 s, te rodean unas rocas en forma de barrera que absorbe un daño equivalente a un {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de tu vida base.\n\nTags: Defensiva, Magia de la naturaleza, Tierra, Barrera, Tiempo de reutilización.",
+			"esMX": "Recuperación: 16 segundos\nProbabilidad de golpe afortunado: 30%\nAparecen rocas a tu alrededor durante 3 segundos, que te otorgan una barrera que absorbe el daño equivalente a un {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de tu vida de base.\n\nTags: Defensivo, Magia de la naturaleza, Tierra, Barrera, Recuperación.",
+			"frFR": "Temps de recharge: 16 s\nChances d'obtenir un coup de chance: 30%\nDes rochers vous entourent pendant 3 s, ce qui vous octroie une barrière absorbant un montant de dégâts égal à {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de vos points de vie de base.\n\nTags: Défense, Magie naturelle, Terre, Barrière, Temps de recharge.",
+			"itIT": "Tempo di recupero: 16 s\nProbabilità di colpo fortunato: 30%\nDelle rocce ti circondano per 3 secondi, conferendoti una barriera che assorbe danni pari al {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% della tua Vita base.\n\nTags: Difesa, Magia naturale, Terra, Barriera, Tempo di recupero.",
+			"jaJP": "クールダウン: 16秒\n幸運の一撃発生率: 30%\n岩石で自身を取り囲み、3秒間、基本ライフの{45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%にあたるダメージを吸収する障壁を獲得する。\n\nTags: 防御, 自然魔法, 地, 障壁, クールダウン.",
+			"koKR": "재사용 대기시간: 16초\n행운의 적중 확률: 30%\n3초 동안 바위가 자신을 둘러싸 기본 생명력의 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%에 해당하는 피해를 흡수하는 보호막을 얻습니다.\n\nTags: 방어, 자연 마법, 대지, 보호막, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 16 sek.\nSzansa na szczęśliwy traf: 30%\nOtaczają cię na 3 sek. skały, które zapewniają barierę pochłaniającą obrażenia równe {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% twojego podstawowego zdrowia.\n\nTags: Defensywa, Magia Natury, Ziemia, Bariera, Odnowienie.",
+			"ptBR": "Recarga: 16 segundos\nChance de Golpe de Sorte: 30%\nRochas cercam você por 3 segundos, concedendo uma barreira que absorve {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% da sua vida básica em dano.\n\nTags: Defesa, Magia da Natureza, Terra, Barreira, Recarga.",
+			"ruRU": "Время восстановления: 16 сек.\nВероятность удачного удара: 30%.\nВас на 3 сек. окружает каменный барьер, поглощающий урон в объеме {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% базового запаса здоровья.\n\nTags: Защита, Силы природы, Земля, Барьер, Время восстановления.",
+			"zhCN": "冷却时间: 16 秒\n幸运一击几率: 30%\n岩石环绕在你的周围, 持续 3 秒, 给予你一层可以吸收相当于基础生命 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%伤害的屏障。\n\nTags: 防御, 自然魔法, 大地, 屏障, 冷却时间.",
+			"zhTW": "冷卻時間:16 秒\n幸運觸發機率:30%\n岩石圍繞在你周圍,持續 3 秒,賦予你可吸收 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 基礎生命值傷害的屏障。\n\nTags: 防禦, 自然魔法, 大地, 屏障, 冷卻時間."
 },
 		id: 43,
 		maxPoints: 5,
-		values: [ "16" ],
 		x: -2.035,
 		y: -310.27
 	},
@@ -2026,7 +2025,7 @@ Tags: Defensive, Nature Magic, Earth, Barrier, Cooldown.`,
 	},
 	"Debilitating Roar": {
 		connections: [ "Defensive", "Enhanced Debilitating Roar" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} seconds
 Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by 70% for 4 seconds.
 
 Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
@@ -2045,22 +2044,21 @@ Tags: Defensive, Shapeshifting, Werebear, Cooldown, Damage Reduction.`,
 			"zhTW": "致衰狂吼"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nVerwandelt Euch in einen Werbären und stoßt ein mächtiges Gebrüll aus, das den von Gegnern in der Nähe verursachten Schaden 4 Sek. lang um 70% verringert.\n\nTags: Defensiv, Gestaltwandeln, Werbär, Abklingzeit, Schadensreduktion.",
-			"esES": "Tiempo de reutilización: {#} s\nTe transformas en un hombre oso y profieres un potente rugido, lo que reduce el daño infligido por los enemigos cercanos un 70% durante 4 s.\n\nTags: Defensiva, Cambio de forma, Hombre oso, Tiempo de reutilización, Reducción de daño.",
-			"esMX": "Recuperación: {#} segundos\nCambias de forma a un hombre oso y emites un rugido potente, que reduce el daño infligido de enemigos cercanos un 70% durante 4 segundos.\n\nTags: Defensivo, Metamorfosis, Hombre oso, Recuperación, Reducción de daño.",
-			"frFR": "Temps de recharge: {#} s\nVous vous transformez en ursoïde et poussez un puissant rugissement, réduisant les dégâts infligés par les adversaires à proximité de 70% pendant 4 s.\n\nTags: Défense, Métamorphose, Ursoïde, Temps de recharge, Réduction des dégâts.",
-			"itIT": "Tempo di recupero: {#} s\nMuti in un Orso Mannaro e rugli ferocemente, riducendo i danni inflitti dai nemici vicini del 70% per 4 s.\n\nTags: Difesa, Mutaforma, Orso Mannaro, Tempo di recupero, Riduzione danni.",
-			"jaJP": "クールダウン: {#}秒\n人熊に変身して強力な雄叫びを上げ、付近の敵から受けるダメージを4秒間70%軽減する。\n\nTags: 防御, 変身, 人熊, クールダウン, ダメージ減少.",
-			"koKR": "재사용 대기시간: {#}초\n곰인간으로 변신하고 강대한 포효를 내질러, 4초 동안 주위의 적들이 주는 피해를 70% 감소시킵니다.\n\nTags: 방어, 변신, 곰인간, 재사용 대기시간, 피해 감소.",
-			"plPL": "Czas odnowienia: {#} sek.\nPrzemieniasz się w niedźwiedziołaka i wydajesz potężny ryk, który zmniejsza obrażenia zadawane przez pobliskich wrogów o 70% przez 4 sek.\n\nTags: Defensywa, Zmiennokształtność, Niedźwiedziołak, Odnowienie, Redukcja Obrażeń.",
-			"ptBR": "Recarga: {#} segundos\nTransforma-se em um urso e solta um rugido poderoso, reduzindo o dano causado por inimigos próximos em 70% por 4 segundos.\n\nTags: Defesa, Metamorfose, Urso, Recarga, Redução de Dano.",
-			"ruRU": "Время восстановления: {#} сек.\nВы принимаете облик медведя и издаете могучий рев, уменьшая наносимый ближайшими противниками урон на 70% на 4 сек.\n\nTags: Защита, Смена облика, Медведь, Время восстановления, Уменьшение урона.",
-			"zhCN": "冷却时间: {#} 秒\n变成熊人并发出猛烈的咆哮, 使附近敌人造成的伤害降低 70%, 持续 4 秒。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免.",
-			"zhTW": "冷卻時間:{#} 秒\n變身為熊人發出巨大怒吼,使附近敵人造成的傷害降低 70%,持續 4 秒。\n\nTags: 防禦, 變形, 熊人, 冷卻時間, 傷害減免."
+			"deDE": "Abklingzeit: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} Sek.\nVerwandelt Euch in einen Werbären und stoßt ein mächtiges Gebrüll aus, das den von Gegnern in der Nähe verursachten Schaden 4 Sek. lang um 70% verringert.\n\nTags: Defensiv, Gestaltwandeln, Werbär, Abklingzeit, Schadensreduktion.",
+			"esES": "Tiempo de reutilización: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} s\nTe transformas en un hombre oso y profieres un potente rugido, lo que reduce el daño infligido por los enemigos cercanos un 70% durante 4 s.\n\nTags: Defensiva, Cambio de forma, Hombre oso, Tiempo de reutilización, Reducción de daño.",
+			"esMX": "Recuperación: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} segundos\nCambias de forma a un hombre oso y emites un rugido potente, que reduce el daño infligido de enemigos cercanos un 70% durante 4 segundos.\n\nTags: Defensivo, Metamorfosis, Hombre oso, Recuperación, Reducción de daño.",
+			"frFR": "Temps de recharge: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} s\nVous vous transformez en ursoïde et poussez un puissant rugissement, réduisant les dégâts infligés par les adversaires à proximité de 70% pendant 4 s.\n\nTags: Défense, Métamorphose, Ursoïde, Temps de recharge, Réduction des dégâts.",
+			"itIT": "Tempo di recupero: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} s\nMuti in un Orso Mannaro e rugli ferocemente, riducendo i danni inflitti dai nemici vicini del 70% per 4 s.\n\nTags: Difesa, Mutaforma, Orso Mannaro, Tempo di recupero, Riduzione danni.",
+			"jaJP": "クールダウン: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2}秒\n人熊に変身して強力な雄叫びを上げ、付近の敵から受けるダメージを4秒間70%軽減する。\n\nTags: 防御, 変身, 人熊, クールダウン, ダメージ減少.",
+			"koKR": "재사용 대기시간: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2}초\n곰인간으로 변신하고 강대한 포효를 내질러, 4초 동안 주위의 적들이 주는 피해를 70% 감소시킵니다.\n\nTags: 방어, 변신, 곰인간, 재사용 대기시간, 피해 감소.",
+			"plPL": "Czas odnowienia: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} sek.\nPrzemieniasz się w niedźwiedziołaka i wydajesz potężny ryk, który zmniejsza obrażenia zadawane przez pobliskich wrogów o 70% przez 4 sek.\n\nTags: Defensywa, Zmiennokształtność, Niedźwiedziołak, Odnowienie, Redukcja Obrażeń.",
+			"ptBR": "Recarga: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} segundos\nTransforma-se em um urso e solta um rugido poderoso, reduzindo o dano causado por inimigos próximos em 70% por 4 segundos.\n\nTags: Defesa, Metamorfose, Urso, Recarga, Redução de Dano.",
+			"ruRU": "Время восстановления: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} сек.\nВы принимаете облик медведя и издаете могучий рев, уменьшая наносимый ближайшими противниками урон на 70% на 4 сек.\n\nTags: Защита, Смена облика, Медведь, Время восстановления, Уменьшение урона.",
+			"zhCN": "冷却时间: {22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} 秒\n变成熊人并发出猛烈的咆哮, 使附近敌人造成的伤害降低 70%, 持续 4 秒。\n\nTags: 防御, 变形, 熊人, 冷却时间, 伤害减免.",
+			"zhTW": "冷卻時間:{22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4/14.96/14.52/14.3/14.08/13.86/13.64/13.53/13.42/13.31/13.2} 秒\n變身為熊人發出巨大怒吼,使附近敵人造成的傷害降低 70%,持續 4 秒。\n\nTags: 防禦, 變形, 熊人, 冷卻時間, 傷害減免."
 },
 		id: 47,
 		maxPoints: 5,
-		values: [ "{22/20.9/19.8/18.92/18.04/17.38/16.72/16.28/15.84/15.4}" ],
 		x: 4.69,
 		y: 314.825
 	},
@@ -2259,7 +2257,7 @@ Tags: Damage Reduction, Defensive.`,
 	},
 	"Blood Howl": {
 		connections: [ "Defensive", "Enhanced Blood Howl" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 15 seconds
 Shapeshift into a Werewolf and howl furiously, Healing you for {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% of your Maximum Life.
 
 Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
@@ -2278,22 +2276,21 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 			"zhTW": "血性狂吼"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nVerwandelt Euch in einen Werwolf und lasst ein wildes Heulen erschallen, das Euch um {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% Eures maximalen Lebens heilt.\n\nTags: Defensiv, Gestaltwandeln, Werwolf, Abklingzeit, Heilung.",
-			"esES": "Tiempo de reutilización: {#} s\nTe transformas en un hombre lobo y profieres un aullido furioso para curarte un {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% de tu vida máxima.\n\nTags: Defensiva, Cambio de forma, Hombre lobo, Tiempo de reutilización, Curación.",
-			"esMX": "Recuperación: {#} segundos\nCambias de forma a un hombre lobo, aúllas furiosamente y te sanas por un {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% de tu vida máxima.\n\nTags: Defensivo, Metamorfosis, Hombre lobo, Recuperación, Sanación.",
-			"frFR": "Temps de recharge: {#} s\nVous vous transformez en lycanthrope et hurlez furieusement, ce qui vous rend {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% de votre maximum de points de vie.\n\nTags: Défense, Métamorphose, Lycanthrope, Temps de recharge, Soins.",
-			"itIT": "Tempo di recupero: {#} s\nMuti in un Lupo Mannaro e ululi furiosamente, curandoti del {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% della tua Vita massima.\n\nTags: Difesa, Mutaforma, Lupo Mannaro, Tempo di recupero, Guarigione.",
-			"jaJP": "クールダウン: {#}秒\n人狼に変身して雄叫びを上げ、ライフが最大値の{20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%にあたる回復する。\n\nTags: 防御, 変身, 人狼, クールダウン, 回復.",
-			"koKR": "재사용 대기시간: {#}초\n늑대인간으로 변신하고 맹렬하게 포효하여 최대 생명력의 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%만큼 생명력을 회복합니다.\n\nTags: 방어, 변신, 늑대인간, 재사용 대기시간, 치유.",
-			"plPL": "Czas odnowienia: {#} sek.\nPrzemieniasz się w wilkołaka i wydajesz przeraźliwy skowyt, który przywraca ci {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% maksymalnego zdrowia.\n\nTags: Defensywa, Zmiennokształtność, Wilkołak, Odnowienie, Leczenie.",
-			"ptBR": "Recarga: {#} segundos\nTransforma-se em um lobisomem e uiva furiosamente, curando {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% da sua vida máxima.\n\nTags: Defesa, Metamorfose, Lobisomem, Recarga, Cura.",
-			"ruRU": "Время восстановления: {#} сек.\nВы принимаете облик волка и яростно воете, восполняя {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% максимального запаса здоровья.\n\nTags: Защита, Смена облика, Облик волка, Время восстановления, Исцеление.",
-			"zhCN": "冷却时间: {#} 秒\n变成狼人并疯狂吼叫, 为你恢复 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% 生命上限。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗.",
-			"zhTW": "冷卻時間:{#} 秒\n變身為狼人並憤怒嗥叫,為你恢復相當於生命值上限 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%的生命值。\n\nTags: 防禦, 變形, 狼人, 冷卻時間, 治療."
+			"deDE": "Abklingzeit: 15 Sek.\nVerwandelt Euch in einen Werwolf und lasst ein wildes Heulen erschallen, das Euch um {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% Eures maximalen Lebens heilt.\n\nTags: Defensiv, Gestaltwandeln, Werwolf, Abklingzeit, Heilung.",
+			"esES": "Tiempo de reutilización: 15 s\nTe transformas en un hombre lobo y profieres un aullido furioso para curarte un {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% de tu vida máxima.\n\nTags: Defensiva, Cambio de forma, Hombre lobo, Tiempo de reutilización, Curación.",
+			"esMX": "Recuperación: 15 segundos\nCambias de forma a un hombre lobo, aúllas furiosamente y te sanas por un {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% de tu vida máxima.\n\nTags: Defensivo, Metamorfosis, Hombre lobo, Recuperación, Sanación.",
+			"frFR": "Temps de recharge: 15 s\nVous vous transformez en lycanthrope et hurlez furieusement, ce qui vous rend {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% de votre maximum de points de vie.\n\nTags: Défense, Métamorphose, Lycanthrope, Temps de recharge, Soins.",
+			"itIT": "Tempo di recupero: 15 s\nMuti in un Lupo Mannaro e ululi furiosamente, curandoti del {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% della tua Vita massima.\n\nTags: Difesa, Mutaforma, Lupo Mannaro, Tempo di recupero, Guarigione.",
+			"jaJP": "クールダウン: 15秒\n人狼に変身して雄叫びを上げ、ライフが最大値の{20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%にあたる回復する。\n\nTags: 防御, 変身, 人狼, クールダウン, 回復.",
+			"koKR": "재사용 대기시간: 15초\n늑대인간으로 변신하고 맹렬하게 포효하여 최대 생명력의 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%만큼 생명력을 회복합니다.\n\nTags: 방어, 변신, 늑대인간, 재사용 대기시간, 치유.",
+			"plPL": "Czas odnowienia: 15 sek.\nPrzemieniasz się w wilkołaka i wydajesz przeraźliwy skowyt, który przywraca ci {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% maksymalnego zdrowia.\n\nTags: Defensywa, Zmiennokształtność, Wilkołak, Odnowienie, Leczenie.",
+			"ptBR": "Recarga: 15 segundos\nTransforma-se em um lobisomem e uiva furiosamente, curando {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% da sua vida máxima.\n\nTags: Defesa, Metamorfose, Lobisomem, Recarga, Cura.",
+			"ruRU": "Время восстановления: 15 сек.\nВы принимаете облик волка и яростно воете, восполняя {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% максимального запаса здоровья.\n\nTags: Защита, Смена облика, Облик волка, Время восстановления, Исцеление.",
+			"zhCN": "冷却时间: 15 秒\n变成狼人并疯狂吼叫, 为你恢复 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% 生命上限。\n\nTags: 防御, 变形, 狼人, 冷却时间, 治疗.",
+			"zhTW": "冷卻時間:15 秒\n變身為狼人並憤怒嗥叫,為你恢復相當於生命值上限 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%的生命值。\n\nTags: 防禦, 變形, 狼人, 冷卻時間, 治療."
 },
 		id: 53,
 		maxPoints: 5,
-		values: [ "15" ],
 		x: 445.755,
 		y: 169.805
 	},
@@ -2416,7 +2413,7 @@ Tags: Defensive, Shapeshifting, Werewolf, Cooldown, Healing.`,
 	},
 	"Cyclone Armor": {
 		connections: [ "Defensive", "Enhanced Cyclone Armor" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 18 seconds
 Lucky Hit Chance: 25%
 Passive: Powerful winds surround you, granting {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% Non-Physical Damage Reduction.
 
@@ -2438,22 +2435,21 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"zhTW": "氣旋護甲"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 25%\nPassiv: Mächtige Winde umgeben Euch und verringern Euren erlittenen nichtphysischen Schaden um {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nAktiv: Die Winde dehnen sich schnell aus, stoßen Gegner zurück und verursachen {30/33/36/39/42/45/48/51/54/57}% Schaden.\n\nTags: Defensiv, Naturmagie, Sturm, Abklingzeit, Schaden, Schadensreduktion, Nichtphysisch, Physisch, Kontrollverlust.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 25%\nPasiva: Te rodean vientos poderosos que te otorgan un {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de reducción de daño no físico.\n\nActiva: Los vientos se expanden rápidamente, repelen a los enemigos e infligen {30/33/36/39/42/45/48/51/54/57}% de daño.\n\nTags: Defensiva, Magia de la naturaleza, Tormenta, Tiempo de reutilización, Daño, Reducción de daño, No física, Física, Control de masas.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 25%\nPasiva: Te rodean vientos fuertes que otorgan un {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de reducción de daño no físico.\n\nActiva: Los vientos se expanden con rapidez, repelen a los enemigos e infligen {30/33/36/39/42/45/48/51/54/57}% de daño.\n\nTags: Defensivo, Magia de la naturaleza, Tormenta, Recuperación, Daño, Reducción de daño, No física, Física, Control de multitudes.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 25%\nCompétence passive: des vents puissants vous entourent, ce qui vous confère {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de réduction des dégâts non physiques.\n\nCompétence active: les vents se déchaînent, ce qui repousse les adversaires en leur infligeant {30/33/36/39/42/45/48/51/54/57}% points de dégâts.\n\nTags: Défense, Magie naturelle, Tempête, Temps de recharge, Dégâts, Réduction des dégâts, Non physique, Dégâts physiques, Perte de contrôle.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 25%\nPassiva: venti potenti ti circondano, riducendo i danni non fisici che subisci del {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nAttiva: i venti si espandono rapidamente, respingendo indietro i nemici e infliggendo {30/33/36/39/42/45/48/51/54/57}% danni.\n\nTags: Difesa, Magia naturale, Tempesta, Tempo di recupero, Danni, Riduzione danni, Non fisico, Fisico, Effetti debilitanti.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 25%\nパッシブ: 強力な風が周囲を取り巻き、非物理ダメージを{10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%軽減する。\n\nアクティブ: 風が猛烈な勢いで広がって、敵をノックバックして{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。\n\nTags: 防御, 自然魔法, 嵐, クールダウン, ダメージ, ダメージ減少, 非物理, 物理, 操作障害効果.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 25%\n지속 효과: 강력한 바람이 드루이드를 둘러싸 비물리 피해를 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 감소시킵니다.\n\n사용 효과: 바람이 빠르게 넓어지며 근처의 적에게 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고 밀쳐냅니다.\n\nTags: 방어, 자연 마법, 폭풍, 재사용 대기시간, 피해, 피해 감소, 비물리, 물리, 군중 제어.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 25%\nDziałanie pasywne: Otaczają cię potężne wichry, zapewniając {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% redukcji obrażeń niefizycznych.\n\nDziałanie aktywne: Wichry gwałtownie się rozszerzają, odrzucając wrogów i zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nTags: Defensywa, Magia Natury, Burza, Odnowienie, Obrażenia, Redukcja Obrażeń, Niefizyczne, Fizyczne, Ograniczanie Kontroli.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 25%\nPassiva: Ventos poderosos cercam você, concedendo {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de redução de dano não físico.\n\nAtiva: Os ventos intensificam-se rapidamente, repelindo inimigos e causando {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nTags: Defesa, Magia da Natureza, Tempestade, Recarga, Dano, Redução de Dano, Não física, Física, Controle de Grupo.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 25%.\nПассивный эффект: вас окружают мощные потоки ветра, которые уменьшают получаемый нефизический урон на {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nЭффект при активации: потоки ветра стремительно расширяются, нанося ближайшим противникам {30/33/36/39/42/45/48/51/54/57}% ед. урона и отбрасывая их.\n\nTags: Защита, Силы природы, Буря, Время восстановления, Урон, Уменьшение урона, Нефизический урон, Физический урон, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 25%\n被动: 强风环绕着你, 获得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理伤害减免。\n\n主动: 强风迅速膨胀, 对附近的敌人造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并将其击退。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:25%\n被動效果:強勁的風環繞著你,獲得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理傷害減免。\n\n主動效果:風襲範圍快速擴張,擊退敵人並造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。\n\nTags: 防禦, 自然魔法, 風暴, 冷卻時間, 傷害, 傷害減免, 非物理, 物理, 控場."
+			"deDE": "Abklingzeit: 18 Sek.\nGlückstrefferchance: 25%\nPassiv: Mächtige Winde umgeben Euch und verringern Euren erlittenen nichtphysischen Schaden um {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nAktiv: Die Winde dehnen sich schnell aus, stoßen Gegner zurück und verursachen {30/33/36/39/42/45/48/51/54/57}% Schaden.\n\nTags: Defensiv, Naturmagie, Sturm, Abklingzeit, Schaden, Schadensreduktion, Nichtphysisch, Physisch, Kontrollverlust.",
+			"esES": "Tiempo de reutilización: 18 s\nProbabilidad de golpe de suerte: 25%\nPasiva: Te rodean vientos poderosos que te otorgan un {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de reducción de daño no físico.\n\nActiva: Los vientos se expanden rápidamente, repelen a los enemigos e infligen {30/33/36/39/42/45/48/51/54/57}% de daño.\n\nTags: Defensiva, Magia de la naturaleza, Tormenta, Tiempo de reutilización, Daño, Reducción de daño, No física, Física, Control de masas.",
+			"esMX": "Recuperación: 18 segundos\nProbabilidad de golpe afortunado: 25%\nPasiva: Te rodean vientos fuertes que otorgan un {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de reducción de daño no físico.\n\nActiva: Los vientos se expanden con rapidez, repelen a los enemigos e infligen {30/33/36/39/42/45/48/51/54/57}% de daño.\n\nTags: Defensivo, Magia de la naturaleza, Tormenta, Recuperación, Daño, Reducción de daño, No física, Física, Control de multitudes.",
+			"frFR": "Temps de recharge: 18 s\nChances d'obtenir un coup de chance: 25%\nCompétence passive: des vents puissants vous entourent, ce qui vous confère {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de réduction des dégâts non physiques.\n\nCompétence active: les vents se déchaînent, ce qui repousse les adversaires en leur infligeant {30/33/36/39/42/45/48/51/54/57}% points de dégâts.\n\nTags: Défense, Magie naturelle, Tempête, Temps de recharge, Dégâts, Réduction des dégâts, Non physique, Dégâts physiques, Perte de contrôle.",
+			"itIT": "Tempo di recupero: 18 s\nProbabilità di colpo fortunato: 25%\nPassiva: venti potenti ti circondano, riducendo i danni non fisici che subisci del {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nAttiva: i venti si espandono rapidamente, respingendo indietro i nemici e infliggendo {30/33/36/39/42/45/48/51/54/57}% danni.\n\nTags: Difesa, Magia naturale, Tempesta, Tempo di recupero, Danni, Riduzione danni, Non fisico, Fisico, Effetti debilitanti.",
+			"jaJP": "クールダウン: 18秒\n幸運の一撃発生率: 25%\nパッシブ: 強力な風が周囲を取り巻き、非物理ダメージを{10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%軽減する。\n\nアクティブ: 風が猛烈な勢いで広がって、敵をノックバックして{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。\n\nTags: 防御, 自然魔法, 嵐, クールダウン, ダメージ, ダメージ減少, 非物理, 物理, 操作障害効果.",
+			"koKR": "재사용 대기시간: 18초\n행운의 적중 확률: 25%\n지속 효과: 강력한 바람이 드루이드를 둘러싸 비물리 피해를 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 감소시킵니다.\n\n사용 효과: 바람이 빠르게 넓어지며 근처의 적에게 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고 밀쳐냅니다.\n\nTags: 방어, 자연 마법, 폭풍, 재사용 대기시간, 피해, 피해 감소, 비물리, 물리, 군중 제어.",
+			"plPL": "Czas odnowienia: 18 sek.\nSzansa na szczęśliwy traf: 25%\nDziałanie pasywne: Otaczają cię potężne wichry, zapewniając {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% redukcji obrażeń niefizycznych.\n\nDziałanie aktywne: Wichry gwałtownie się rozszerzają, odrzucając wrogów i zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nTags: Defensywa, Magia Natury, Burza, Odnowienie, Obrażenia, Redukcja Obrażeń, Niefizyczne, Fizyczne, Ograniczanie Kontroli.",
+			"ptBR": "Recarga: 18 segundos\nChance de Golpe de Sorte: 25%\nPassiva: Ventos poderosos cercam você, concedendo {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de redução de dano não físico.\n\nAtiva: Os ventos intensificam-se rapidamente, repelindo inimigos e causando {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nTags: Defesa, Magia da Natureza, Tempestade, Recarga, Dano, Redução de Dano, Não física, Física, Controle de Grupo.",
+			"ruRU": "Время восстановления: 18 сек.\nВероятность удачного удара: 25%.\nПассивный эффект: вас окружают мощные потоки ветра, которые уменьшают получаемый нефизический урон на {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nЭффект при активации: потоки ветра стремительно расширяются, нанося ближайшим противникам {30/33/36/39/42/45/48/51/54/57}% ед. урона и отбрасывая их.\n\nTags: Защита, Силы природы, Буря, Время восстановления, Урон, Уменьшение урона, Нефизический урон, Физический урон, Контроль.",
+			"zhCN": "冷却时间: 18 秒\n幸运一击几率: 25%\n被动: 强风环绕着你, 获得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理伤害减免。\n\n主动: 强风迅速膨胀, 对附近的敌人造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并将其击退。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控.",
+			"zhTW": "冷卻時間:18 秒\n幸運觸發機率:25%\n被動效果:強勁的風環繞著你,獲得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理傷害減免。\n\n主動效果:風襲範圍快速擴張,擊退敵人並造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。\n\nTags: 防禦, 自然魔法, 風暴, 冷卻時間, 傷害, 傷害減免, 非物理, 物理, 控場."
 },
 		id: 57,
 		maxPoints: 5,
-		values: [ "18" ],
 		x: 415.99,
 		y: -192.375
 	},
@@ -2579,7 +2575,7 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 druidData["Companion"] = {
 	"Ravens": {
 		connections: [ "Companion", "Enhanced Ravens" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 15 seconds
 Lucky Hit Chance: 45%
 Passive: 1 Ravens fly above you and periodically attack your enemies for 13% damage every 5 seconds.
 
@@ -2601,22 +2597,21 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"zhTW": "掠鴉"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 45%\nPassiv: 1 Raben kreisen über Euch, greifen wiederholt Eure Gegner an und fügen ihnen dabei alle 5 Sek. 13% Schaden zu.\n\nAktiv: Der Zielbereich wird von Raben umschwärmt, die Gegnern im Verlauf von 6 Sek. {160/176/192/208/224/240/256/272/288/304}% Schaden zufügen.\n\nTags: Gefährte, Physisch, Schaden, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 45%\nPasiva: Te sobrevuelan 1 cuervos que atacan periódicamente a tus enemigos para infligirles 13% de daño cada 5 s.\n\nActiva: La bandada invade la zona seleccionada para infligir {160/176/192/208/224/240/256/272/288/304}% de daño durante 6 s.\n\nTags: Compañero, Física, Daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 45%\nPasiva: 1 cuervos te sobrevuelan y atacan periódicamente a los enemigos, lo que les inflige 13% de daño cada 5 segundos.\n\nActiva: Los cuervos atacan el área objetivo en bandada e infligen {160/176/192/208/224/240/256/272/288/304}% de daño durante 6 segundos.\n\nTags: Compañero, Física, Daño, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 45%\nCompétence passive: 1 corbeaux volent au-dessus de vous et attaquent régulièrement vos adversaires en leur infligeant 13% points de dégâts toutes les 5 s.\n\nCompétence active: la zone ciblée est assaillie de corbeaux, qui infligent {160/176/192/208/224/240/256/272/288/304}% points de dégâts en 6 s.\n\nTags: Compagnon, Dégâts physiques, Dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 45%\nPassiva:1 Corvi volano sopra di te attaccando periodicamente i nemici, infliggendo 13% danni ogni 5 s.\n\nAttiva: l'area bersaglio viene travolta da un nugolo di corvi che infliggono {160/176/192/208/224/240/256/272/288/304}% danni in 6 s.\n\nTags: Compagni, Fisico, Danni, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 45%\nパッシブ: 1羽のレイヴンが自らの頭上を飛び回って定期的に敵を攻撃し、5秒ごとに13%のダメージを与える。\n\nアクティブ: 標的エリアにレイヴンの群れが押し寄せ、6秒かけて{160/176/192/208/224/240/256/272/288/304}%のダメージを与える。\n\nTags: 使い魔, 物理, ダメージ, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 45%\n지속 효과: 큰까마귀 1마리가 머리 위를 날아다니며 주기적으로 적을 공격해 5초마다 13%의 피해를 줍니다.\n\n사용 효과: 대상 지역에 큰까마귀 떼가 몰려들어, 적에게 6초에 걸쳐 {160/176/192/208/224/240/256/272/288/304}%의 피해를 줍니다.\n\nTags: 동료, 물리, 피해, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 45%\nDziałanie pasywne: 1 Kruki:Kruków krążą:krąży ci nad głową i co jakiś czas atakują:atakuje twoich wrogów, zadając im 13% pkt. obrażeń co 5 sek.\n\nDziałanie aktywne: Stado kruków atakuje wskazany obszar i zadaje {160/176/192/208/224/240/256/272/288/304}% pkt. obrażeń przez 6 sek.\n\nTags: Kompan, Fizyczne, Obrażenia, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 45%\nPassiva: 1 Corvos sobrevoam você e atacam seus inimigos periodicamente, causando 13% de dano a cada 5 segundos.\n\nAtiva: A área selecionada é tomada por corvos, causando {160/176/192/208/224/240/256/272/288/304}% de dano ao longo de 6 segundos.\n\nTags: Mascote, Física, Dano, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность критического удара: 45%\nПассивный эффект: 1 ворона:воронов кружат:кружат над вами и время от времени атакуют:атакуют противников, нанося 13% ед. урона раз в 5 сек.\n\nЭффект при активации: вороны атакуют цели в указанной области, нанося {160/176/192/208/224/240/256/272/288/304}% ед. урона за 6 сек.\n\nTags: Спутник, Физический урон, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 45%\n被动: 1 只渡鸦从你的头顶飞过并周期性地攻击敌人, 每 5 秒对敌人造成 13% 点伤害。\n\n主动: 目标区域渡鸦成群, 在 6 秒内造成 {160/176/192/208/224/240/256/272/288/304}% 点伤害。\n\nTags: 同伴, 物理, 伤害, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:45%\n被動效果:1 隻掠鴉在你上空飛翔並定期攻擊敵人,每 5 秒造成 13% 點傷害。\n\n主動效果:掠鴉圍攻指定地點,在 6 秒內造成 {160/176/192/208/224/240/256/272/288/304}% 點傷害。\n\nTags: 同伴, 物理, 傷害, 冷卻時間."
+			"deDE": "Abklingzeit: 15 Sek.\nGlückstrefferchance: 45%\nPassiv: 1 Raben kreisen über Euch, greifen wiederholt Eure Gegner an und fügen ihnen dabei alle 5 Sek. 13% Schaden zu.\n\nAktiv: Der Zielbereich wird von Raben umschwärmt, die Gegnern im Verlauf von 6 Sek. {160/176/192/208/224/240/256/272/288/304}% Schaden zufügen.\n\nTags: Gefährte, Physisch, Schaden, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 15 s\nProbabilidad de golpe de suerte: 45%\nPasiva: Te sobrevuelan 1 cuervos que atacan periódicamente a tus enemigos para infligirles 13% de daño cada 5 s.\n\nActiva: La bandada invade la zona seleccionada para infligir {160/176/192/208/224/240/256/272/288/304}% de daño durante 6 s.\n\nTags: Compañero, Física, Daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 15 segundos\nProbabilidad de golpe afortunado: 45%\nPasiva: 1 cuervos te sobrevuelan y atacan periódicamente a los enemigos, lo que les inflige 13% de daño cada 5 segundos.\n\nActiva: Los cuervos atacan el área objetivo en bandada e infligen {160/176/192/208/224/240/256/272/288/304}% de daño durante 6 segundos.\n\nTags: Compañero, Física, Daño, Recuperación.",
+			"frFR": "Temps de recharge: 15 s\nChances d'obtenir un coup de chance: 45%\nCompétence passive: 1 corbeaux volent au-dessus de vous et attaquent régulièrement vos adversaires en leur infligeant 13% points de dégâts toutes les 5 s.\n\nCompétence active: la zone ciblée est assaillie de corbeaux, qui infligent {160/176/192/208/224/240/256/272/288/304}% points de dégâts en 6 s.\n\nTags: Compagnon, Dégâts physiques, Dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 15 s\nProbabilità di colpo fortunato: 45%\nPassiva:1 Corvi volano sopra di te attaccando periodicamente i nemici, infliggendo 13% danni ogni 5 s.\n\nAttiva: l'area bersaglio viene travolta da un nugolo di corvi che infliggono {160/176/192/208/224/240/256/272/288/304}% danni in 6 s.\n\nTags: Compagni, Fisico, Danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 15秒\n幸運の一撃発生率: 45%\nパッシブ: 1羽のレイヴンが自らの頭上を飛び回って定期的に敵を攻撃し、5秒ごとに13%のダメージを与える。\n\nアクティブ: 標的エリアにレイヴンの群れが押し寄せ、6秒かけて{160/176/192/208/224/240/256/272/288/304}%のダメージを与える。\n\nTags: 使い魔, 物理, ダメージ, クールダウン.",
+			"koKR": "재사용 대기시간: 15초\n행운의 적중 확률: 45%\n지속 효과: 큰까마귀 1마리가 머리 위를 날아다니며 주기적으로 적을 공격해 5초마다 13%의 피해를 줍니다.\n\n사용 효과: 대상 지역에 큰까마귀 떼가 몰려들어, 적에게 6초에 걸쳐 {160/176/192/208/224/240/256/272/288/304}%의 피해를 줍니다.\n\nTags: 동료, 물리, 피해, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 15 sek.\nSzansa na szczęśliwy traf: 45%\nDziałanie pasywne: 1 Kruki:Kruków krążą:krąży ci nad głową i co jakiś czas atakują:atakuje twoich wrogów, zadając im 13% pkt. obrażeń co 5 sek.\n\nDziałanie aktywne: Stado kruków atakuje wskazany obszar i zadaje {160/176/192/208/224/240/256/272/288/304}% pkt. obrażeń przez 6 sek.\n\nTags: Kompan, Fizyczne, Obrażenia, Odnowienie.",
+			"ptBR": "Recarga: 15 segundos\nChance de Golpe de Sorte: 45%\nPassiva: 1 Corvos sobrevoam você e atacam seus inimigos periodicamente, causando 13% de dano a cada 5 segundos.\n\nAtiva: A área selecionada é tomada por corvos, causando {160/176/192/208/224/240/256/272/288/304}% de dano ao longo de 6 segundos.\n\nTags: Mascote, Física, Dano, Recarga.",
+			"ruRU": "Время восстановления: 15 сек.\nВероятность критического удара: 45%\nПассивный эффект: 1 ворона:воронов кружат:кружат над вами и время от времени атакуют:атакуют противников, нанося 13% ед. урона раз в 5 сек.\n\nЭффект при активации: вороны атакуют цели в указанной области, нанося {160/176/192/208/224/240/256/272/288/304}% ед. урона за 6 сек.\n\nTags: Спутник, Физический урон, Урон, Время восстановления.",
+			"zhCN": "冷却时间: 15 秒\n幸运一击几率: 45%\n被动: 1 只渡鸦从你的头顶飞过并周期性地攻击敌人, 每 5 秒对敌人造成 13% 点伤害。\n\n主动: 目标区域渡鸦成群, 在 6 秒内造成 {160/176/192/208/224/240/256/272/288/304}% 点伤害。\n\nTags: 同伴, 物理, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:15 秒\n幸運觸發機率:45%\n被動效果:1 隻掠鴉在你上空飛翔並定期攻擊敵人,每 5 秒造成 13% 點傷害。\n\n主動效果:掠鴉圍攻指定地點,在 6 秒內造成 {160/176/192/208/224/240/256/272/288/304}% 點傷害。\n\nTags: 同伴, 物理, 傷害, 冷卻時間."
 },
 		id: 62,
 		maxPoints: 5,
-		values: [ "15" ],
 		x: 0.92,
 		y: 293.68
 	},
@@ -2777,7 +2772,7 @@ Tags: Companion, Damage.`,
 	},
 	"Poison Creeper": {
 		connections: [ "Companion", "Enhanced Poison Creeper" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 20 seconds
 Lucky Hit Chance: 28%
 Passive: A poison creeper periodically emerges from the ground every 7 seconds and applies {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Poisoning damage over 6 seconds to an enemy in the area.
 
@@ -2799,22 +2794,21 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"zhTW": "劇毒藤蔓"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 28%\nPassiv: Eine Giftranke schießt alle 7 Sek. aus dem Boden und fügt einem Gegner im Wirkungsbereich im Verlauf von 6 Sek. {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Giftschaden zu.\n\nAktiv: Die Ranken strangulieren alle vergifteten Gegner in der Nähe, machen sie 2 Sek. lang bewegungsunfähig, vergiften sie und verursachen dabei im Verlauf von 2 Sek. {90/99/108/117/126/135/144/153/162/171}% Schaden.\n\nTags: Gefährte, Gift, Schaden, Abklingzeit, Kontrollverlust.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 28%\nPasiva: Una enredadera venenosa emerge del suelo cada 7 s y aplica {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño de veneno durante 6 s a un enemigo en la zona.\n\nActiva: Las enredaderas estrangulan a todos los enemigos cercanos y los inmovilizan durante 2 s. Además, les aplican veneno, lo que les inflige {90/99/108/117/126/135/144/153/162/171}% de daño durante 2 s.\n\nTags: Compañero, Veneno, Daño, Tiempo de reutilización, Control de masas.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 28%\nPasiva: Una liana venenosa sale periódicamente del suelo cada 7 segundos y aplica {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño de veneno durante 6 segundos a un enemigo en el área.\n\nActiva: Las lianas estrangulan a todos los enemigos circundantes, los inmovilizan durante 2 segundos y los envenenan para infligir {90/99/108/117/126/135/144/153/162/171}% de daño durante 2 segundos.\n\nTags: Compañero, Veneno, Daño, Recuperación, Control de multitudes.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 28%\nCompétence passive: un lierre empoisonné surgit du sol toutes les 7 s et inflige à une cible dans la zone {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% points de dégâts de poison en 6 s.\n\nCompétence active: des lianes enserrent toutes les cibles à proximité, ce qui les immobilise pendant 2 s et les empoisonne à hauteur de {90/99/108/117/126/135/144/153/162/171}% points de dégâts en 2 s.\n\nTags: Compagnon, Poison, Dégâts, Temps de recharge, Perte de contrôle.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 28%\nPassiva: Un rampicante velenoso emerge periodicamente dal terreno ogni 7 s e infligge {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% danni da veleno a un nemico nell'area in 6 s.\n\nAttiva: Dei rampicanti strangolano tutti i nemici circostanti, immobilizzandoli per 2 s e avvelenandoli, infliggendo {90/99/108/117/126/135/144/153/162/171}% danni in 2 s.\n\nTags: Compagni, Veleno, Danni, Tempo di recupero, Effetti debilitanti.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 28%\nパッシブ: 有毒なるつる草が7秒ごとに地面から出現し、エリア内にいる敵1体に6秒かけて{36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%の毒ダメージを与える。\n\nアクティブ: つる草が周囲にいるすべての敵を絡め取って2秒間移動不能にしつつ毒状態にし、2秒間かけて{90/99/108/117/126/135/144/153/162/171}%の毒ダメージを与える。\n\nTags: 使い魔, 毒, ダメージ, クールダウン, 操作障害効果.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 28%\n지속 효과: 바닥에서 7초마다 맹독 덩굴이 솟구쳐 나와 해당 지역 내의 적에게 6초에 걸쳐 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%의 중독 피해를 줍니다.\n\n사용 효과: 덩굴이 주변 적들을 얽어, 2초 동안 이동 불가 상태로 만들고 중독시켜 2초에 걸쳐 {90/99/108/117/126/135/144/153/162/171}%의 피해를 줍니다.\n\nTags: 동료, 독, 피해, 재사용 대기시간, 군중 제어.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 28%\nDziałanie pasywne: Trujący pełzacz wyrasta z ziemi co 7 sek. i zadaje wrogowi na danym obszarze {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nDziałanie aktywne: Pnącze pęta wszystkich zatrutych wrogów znajdujących się wokół i unieruchamia ich na 2 sek. oraz zatruwa ich, zadając {90/99/108/117/126/135/144/153/162/171}% pkt. obrażeń w ciągu 2 sek.\n\nTags: Kompan, Trucizna, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 28%\nPassiva: Um rastejante venenoso emerge periodicamente do solo a cada 7 segundos e envenena um inimigo na área, causando {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano ao longo de 6 segundos.\n\nAtiva: Vinhas estrangulam todos os inimigos ao redor, imobilizando-os por 2 segundos e envenenando-os, causando {90/99/108/117/126/135/144/153/162/171}% de dano ao longo de 2 segundos.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 28%.\nПассивный эффект: раз в 7 сек. из-под земли появляется ядовитая лоза, которая отравляет ближайшего противника, нанося {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона от отравления за 6 сек.\n\nЭффект при активации: лозы-душители оплетают противников вокруг, обездвиживая их на 2 сек. и нанося {90/99/108/117/126/135/144/153/162/171}% ед. урона от отравления за 2 сек.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 28%\n被动: 一个剧毒蔓藤每隔 7 秒从地面出现, 并在 6 秒内对区域内的敌人造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点毒素伤害。\n\n主动: 蔓藤会绞杀周围所有敌人, 使其定身 2 秒并中毒, 在 2 秒内对其造成 {90/99/108/117/126/135/144/153/162/171}% 点伤害。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:28%\n被動效果:劇毒藤蔓每隔 7 秒會冒出地面,對附近的一名敵人在 6 秒內造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 點中毒傷害。\n\n主動效果:藤蔓會纏住附近所有敵人,使敵人定身 2 秒,並在 2 秒內造成 {90/99/108/117/126/135/144/153/162/171}% 點中毒傷害。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
+			"deDE": "Abklingzeit: 20 Sek.\nGlückstrefferchance: 28%\nPassiv: Eine Giftranke schießt alle 7 Sek. aus dem Boden und fügt einem Gegner im Wirkungsbereich im Verlauf von 6 Sek. {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Giftschaden zu.\n\nAktiv: Die Ranken strangulieren alle vergifteten Gegner in der Nähe, machen sie 2 Sek. lang bewegungsunfähig, vergiften sie und verursachen dabei im Verlauf von 2 Sek. {90/99/108/117/126/135/144/153/162/171}% Schaden.\n\nTags: Gefährte, Gift, Schaden, Abklingzeit, Kontrollverlust.",
+			"esES": "Tiempo de reutilización: 20 s\nProbabilidad de golpe de suerte: 28%\nPasiva: Una enredadera venenosa emerge del suelo cada 7 s y aplica {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño de veneno durante 6 s a un enemigo en la zona.\n\nActiva: Las enredaderas estrangulan a todos los enemigos cercanos y los inmovilizan durante 2 s. Además, les aplican veneno, lo que les inflige {90/99/108/117/126/135/144/153/162/171}% de daño durante 2 s.\n\nTags: Compañero, Veneno, Daño, Tiempo de reutilización, Control de masas.",
+			"esMX": "Recuperación: 20 segundos\nProbabilidad de golpe afortunado: 28%\nPasiva: Una liana venenosa sale periódicamente del suelo cada 7 segundos y aplica {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño de veneno durante 6 segundos a un enemigo en el área.\n\nActiva: Las lianas estrangulan a todos los enemigos circundantes, los inmovilizan durante 2 segundos y los envenenan para infligir {90/99/108/117/126/135/144/153/162/171}% de daño durante 2 segundos.\n\nTags: Compañero, Veneno, Daño, Recuperación, Control de multitudes.",
+			"frFR": "Temps de recharge: 20 s\nChances d'obtenir un coup de chance: 28%\nCompétence passive: un lierre empoisonné surgit du sol toutes les 7 s et inflige à une cible dans la zone {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% points de dégâts de poison en 6 s.\n\nCompétence active: des lianes enserrent toutes les cibles à proximité, ce qui les immobilise pendant 2 s et les empoisonne à hauteur de {90/99/108/117/126/135/144/153/162/171}% points de dégâts en 2 s.\n\nTags: Compagnon, Poison, Dégâts, Temps de recharge, Perte de contrôle.",
+			"itIT": "Tempo di recupero: 20 s\nProbabilità di colpo fortunato: 28%\nPassiva: Un rampicante velenoso emerge periodicamente dal terreno ogni 7 s e infligge {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% danni da veleno a un nemico nell'area in 6 s.\n\nAttiva: Dei rampicanti strangolano tutti i nemici circostanti, immobilizzandoli per 2 s e avvelenandoli, infliggendo {90/99/108/117/126/135/144/153/162/171}% danni in 2 s.\n\nTags: Compagni, Veleno, Danni, Tempo di recupero, Effetti debilitanti.",
+			"jaJP": "クールダウン: 20秒\n幸運の一撃発生率: 28%\nパッシブ: 有毒なるつる草が7秒ごとに地面から出現し、エリア内にいる敵1体に6秒かけて{36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%の毒ダメージを与える。\n\nアクティブ: つる草が周囲にいるすべての敵を絡め取って2秒間移動不能にしつつ毒状態にし、2秒間かけて{90/99/108/117/126/135/144/153/162/171}%の毒ダメージを与える。\n\nTags: 使い魔, 毒, ダメージ, クールダウン, 操作障害効果.",
+			"koKR": "재사용 대기시간: 20초\n행운의 적중 확률: 28%\n지속 효과: 바닥에서 7초마다 맹독 덩굴이 솟구쳐 나와 해당 지역 내의 적에게 6초에 걸쳐 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%의 중독 피해를 줍니다.\n\n사용 효과: 덩굴이 주변 적들을 얽어, 2초 동안 이동 불가 상태로 만들고 중독시켜 2초에 걸쳐 {90/99/108/117/126/135/144/153/162/171}%의 피해를 줍니다.\n\nTags: 동료, 독, 피해, 재사용 대기시간, 군중 제어.",
+			"plPL": "Czas odnowienia: 20 sek.\nSzansa na szczęśliwy traf: 28%\nDziałanie pasywne: Trujący pełzacz wyrasta z ziemi co 7 sek. i zadaje wrogowi na danym obszarze {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nDziałanie aktywne: Pnącze pęta wszystkich zatrutych wrogów znajdujących się wokół i unieruchamia ich na 2 sek. oraz zatruwa ich, zadając {90/99/108/117/126/135/144/153/162/171}% pkt. obrażeń w ciągu 2 sek.\n\nTags: Kompan, Trucizna, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
+			"ptBR": "Recarga: 20 segundos\nChance de Golpe de Sorte: 28%\nPassiva: Um rastejante venenoso emerge periodicamente do solo a cada 7 segundos e envenena um inimigo na área, causando {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano ao longo de 6 segundos.\n\nAtiva: Vinhas estrangulam todos os inimigos ao redor, imobilizando-os por 2 segundos e envenenando-os, causando {90/99/108/117/126/135/144/153/162/171}% de dano ao longo de 2 segundos.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
+			"ruRU": "Время восстановления: 20 сек.\nВероятность удачного удара: 28%.\nПассивный эффект: раз в 7 сек. из-под земли появляется ядовитая лоза, которая отравляет ближайшего противника, нанося {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона от отравления за 6 сек.\n\nЭффект при активации: лозы-душители оплетают противников вокруг, обездвиживая их на 2 сек. и нанося {90/99/108/117/126/135/144/153/162/171}% ед. урона от отравления за 2 сек.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
+			"zhCN": "冷却时间: 20 秒\n幸运一击几率: 28%\n被动: 一个剧毒蔓藤每隔 7 秒从地面出现, 并在 6 秒内对区域内的敌人造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点毒素伤害。\n\n主动: 蔓藤会绞杀周围所有敌人, 使其定身 2 秒并中毒, 在 2 秒内对其造成 {90/99/108/117/126/135/144/153/162/171}% 点伤害。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控.",
+			"zhTW": "冷卻時間:20 秒\n幸運觸發機率:28%\n被動效果:劇毒藤蔓每隔 7 秒會冒出地面,對附近的一名敵人在 6 秒內造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 點中毒傷害。\n\n主動效果:藤蔓會纏住附近所有敵人,使敵人定身 2 秒,並在 2 秒內造成 {90/99/108/117/126/135/144/153/162/171}% 點中毒傷害。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
 },
 		id: 167,
 		maxPoints: 5,
-		values: [ "20" ],
 		x: -535.155,
 		y: -0.594
 	},
@@ -2937,7 +2931,7 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 	},
 	"Wolves": {
 		connections: [ "Companion", "Enhanced Wolf Pack" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 14 seconds
 Lucky Hit Chance: 50%
 Passive: Summon 2 wolf companions that bite enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% damage.
 
@@ -2959,22 +2953,21 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"zhTW": "狼群"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 50%\nPassiv: Beschwört 2 Wolfsgefährten, die Gegner beißen und {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% Schaden verursachen.\n\nAktiv: Befehlt den Wölfen, einen Gegner anzufallen und ihm {110/121/132/143/154/165/176/187/198/209}% Schaden zuzufügen.\n\nTags: Gefährte, Abklingzeit, Schaden, Physisch.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 50%\nPasiva: Invocas 2 lobos que muerden a los enemigos e infligen {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% de daño.\n\nActiva: Azuzas a tus lobos para que se abalancen sobre un enemigo y le inflijan {110/121/132/143/154/165/176/187/198/209}% de daño.\n\nTags: Compañero, Tiempo de reutilización, Daño, Física.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 50%\nPasiva: Invocas 2 lobos compañeros que muerden a los enemigos y les infligen {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% de daño.\n\nActiva: Ordenas a tus lobos enfocarse en un enemigo, sobre quien se abalanzan y le infligen {110/121/132/143/154/165/176/187/198/209}% de daño.\n\nTags: Compañero, Recuperación, Daño, Física.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 50%\nCompétence passive: vous invoquez 2 compagnons loups qui mordent les adversaires et leur infligent {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% points de dégâts.\n\nCompétence active: vous ordonnez à vos loups de bondir sur une cible, qu'ils attaquent en infligeant {110/121/132/143/154/165/176/187/198/209}% points de dégâts.\n\nTags: Compagnon, Temps de recharge, Dégâts, Dégâts physiques.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 50%\nPassiva: evochi 2 compagni lupi che mordono i nemici, infliggendo {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% danni.\n\nAttiva: indichi ai tuoi lupi un nemico da prendere di mira, così che loro gli balzino sopra infliggendo {110/121/132/143/154/165/176/187/198/209}% danni.\n\nTags: Compagni, Tempo di recupero, Danni, Fisico.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 50%\nパッシブ: 召喚された2匹の狼が敵に噛み付いて{7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%のダメージを与える。\n\nアクティブ: 狼を1体の敵に集中して飛び掛からせ、{110/121/132/143/154/165/176/187/198/209}%のダメージを与える。\n\nTags: 使い魔, クールダウン, ダメージ, 物理.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 50%\n지속 효과: 적들을 물어 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%의 피해를 주는 늑대 동료 2마리를 소환합니다.\n\n사용 효과: 자신의 늑대들에게 적 한 마리를 집중 공격하라고 지시합니다. 늑대들이 해당 적을 덮쳐 {110/121/132/143/154/165/176/187/198/209}%의 피해를 줍니다.\n\nTags: 동료, 재사용 대기시간, 피해, 물리.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 50%\nDziałanie pasywne: Przywołujesz 2 wilczych kompanów, którzy kąsają wrogów, zadając im {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% pkt. obrażeń.\n\nDziałanie aktywne: Rozkazujesz wilkom, by skupiły ataki na jednym wrogu, doskoczyły do niego i zadały przy tym {110/121/132/143/154/165/176/187/198/209}% pkt. obrażeń.\n\nTags: Kompan, Odnowienie, Obrażenia, Fizyczne.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 50%\nPassiva: Evoca 2 mascotes lobos que mordem os inimigos, causando {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% de dano.\n\nAtiva: Direciona os lobos para focarem em um inimigo, saltando neles e causando {110/121/132/143/154/165/176/187/198/209}% de dano.\n\nTags: Mascote, Recarga, Dano, Física.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 50%.\nПассивный эффект: вы призываете 2 волков:волков, которые кусают противников, нанося {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% ед. урона.\n\nЭффект при активации: волки бросаются на выбранного противника и наносят ему {110/121/132/143/154/165/176/187/198/209}% ед. урона.\n\nTags: Спутник, Время восстановления, Урон, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n被动: 召唤 2 只狼同伴撕咬敌人, 造成 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% 点伤害。\n\n主动: 标记并指引你的群狼扑咬一名敌人, 造成 {110/121/132/143/154/165/176/187/198/209}% 点伤害。\n\nTags: 同伴, 冷却时间, 伤害, 物理.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:50%\n被動效果:召喚 2 隻惡狼同伴,咬擊敵人造成 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% 點傷害。\n\n主動效果:引導狼群鎖定攻擊一個敵人,撲襲敵人造成 {110/121/132/143/154/165/176/187/198/209}% 點傷害。\n\nTags: 同伴, 冷卻時間, 傷害, 物理."
+			"deDE": "Abklingzeit: 14 Sek.\nGlückstrefferchance: 50%\nPassiv: Beschwört 2 Wolfsgefährten, die Gegner beißen und {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% Schaden verursachen.\n\nAktiv: Befehlt den Wölfen, einen Gegner anzufallen und ihm {110/121/132/143/154/165/176/187/198/209}% Schaden zuzufügen.\n\nTags: Gefährte, Abklingzeit, Schaden, Physisch.",
+			"esES": "Tiempo de reutilización: 14 s\nProbabilidad de golpe de suerte: 50%\nPasiva: Invocas 2 lobos que muerden a los enemigos e infligen {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% de daño.\n\nActiva: Azuzas a tus lobos para que se abalancen sobre un enemigo y le inflijan {110/121/132/143/154/165/176/187/198/209}% de daño.\n\nTags: Compañero, Tiempo de reutilización, Daño, Física.",
+			"esMX": "Recuperación: 14 segundos\nProbabilidad de golpe afortunado: 50%\nPasiva: Invocas 2 lobos compañeros que muerden a los enemigos y les infligen {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% de daño.\n\nActiva: Ordenas a tus lobos enfocarse en un enemigo, sobre quien se abalanzan y le infligen {110/121/132/143/154/165/176/187/198/209}% de daño.\n\nTags: Compañero, Recuperación, Daño, Física.",
+			"frFR": "Temps de recharge: 14 s\nChances d'obtenir un coup de chance: 50%\nCompétence passive: vous invoquez 2 compagnons loups qui mordent les adversaires et leur infligent {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% points de dégâts.\n\nCompétence active: vous ordonnez à vos loups de bondir sur une cible, qu'ils attaquent en infligeant {110/121/132/143/154/165/176/187/198/209}% points de dégâts.\n\nTags: Compagnon, Temps de recharge, Dégâts, Dégâts physiques.",
+			"itIT": "Tempo di recupero: 14 s\nProbabilità di colpo fortunato: 50%\nPassiva: evochi 2 compagni lupi che mordono i nemici, infliggendo {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% danni.\n\nAttiva: indichi ai tuoi lupi un nemico da prendere di mira, così che loro gli balzino sopra infliggendo {110/121/132/143/154/165/176/187/198/209}% danni.\n\nTags: Compagni, Tempo di recupero, Danni, Fisico.",
+			"jaJP": "クールダウン: 14秒\n幸運の一撃発生率: 50%\nパッシブ: 召喚された2匹の狼が敵に噛み付いて{7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%のダメージを与える。\n\nアクティブ: 狼を1体の敵に集中して飛び掛からせ、{110/121/132/143/154/165/176/187/198/209}%のダメージを与える。\n\nTags: 使い魔, クールダウン, ダメージ, 物理.",
+			"koKR": "재사용 대기시간: 14초\n행운의 적중 확률: 50%\n지속 효과: 적들을 물어 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%의 피해를 주는 늑대 동료 2마리를 소환합니다.\n\n사용 효과: 자신의 늑대들에게 적 한 마리를 집중 공격하라고 지시합니다. 늑대들이 해당 적을 덮쳐 {110/121/132/143/154/165/176/187/198/209}%의 피해를 줍니다.\n\nTags: 동료, 재사용 대기시간, 피해, 물리.",
+			"plPL": "Czas odnowienia: 14 sek.\nSzansa na szczęśliwy traf: 50%\nDziałanie pasywne: Przywołujesz 2 wilczych kompanów, którzy kąsają wrogów, zadając im {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% pkt. obrażeń.\n\nDziałanie aktywne: Rozkazujesz wilkom, by skupiły ataki na jednym wrogu, doskoczyły do niego i zadały przy tym {110/121/132/143/154/165/176/187/198/209}% pkt. obrażeń.\n\nTags: Kompan, Odnowienie, Obrażenia, Fizyczne.",
+			"ptBR": "Recarga: 14 segundos\nChance de Golpe de Sorte: 50%\nPassiva: Evoca 2 mascotes lobos que mordem os inimigos, causando {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% de dano.\n\nAtiva: Direciona os lobos para focarem em um inimigo, saltando neles e causando {110/121/132/143/154/165/176/187/198/209}% de dano.\n\nTags: Mascote, Recarga, Dano, Física.",
+			"ruRU": "Время восстановления: 14 сек.\nВероятность удачного удара: 50%.\nПассивный эффект: вы призываете 2 волков:волков, которые кусают противников, нанося {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% ед. урона.\n\nЭффект при активации: волки бросаются на выбранного противника и наносят ему {110/121/132/143/154/165/176/187/198/209}% ед. урона.\n\nTags: Спутник, Время восстановления, Урон, Физический урон.",
+			"zhCN": "冷却时间: 14 秒\n幸运一击几率: 50%\n被动: 召唤 2 只狼同伴撕咬敌人, 造成 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% 点伤害。\n\n主动: 标记并指引你的群狼扑咬一名敌人, 造成 {110/121/132/143/154/165/176/187/198/209}% 点伤害。\n\nTags: 同伴, 冷却时间, 伤害, 物理.",
+			"zhTW": "冷卻時間:14 秒\n幸運觸發機率:50%\n被動效果:召喚 2 隻惡狼同伴,咬擊敵人造成 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% 點傷害。\n\n主動效果:引導狼群鎖定攻擊一個敵人,撲襲敵人造成 {110/121/132/143/154/165/176/187/198/209}% 點傷害。\n\nTags: 同伴, 冷卻時間, 傷害, 物理."
 },
 		id: 71,
 		maxPoints: 5,
-		values: [ "14" ],
 		x: 7.69,
 		y: -289.968
 	},
@@ -3368,7 +3361,7 @@ Tags: Damage.`,
 	},
 	"Boulder": {
 		connections: [ "Wrath", "Enhanced Boulder" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 10 seconds
 Lucky Hit Chance: 4%
 Unearth a large rolling boulder that repeatedly Knocks Back enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.
 
@@ -3388,22 +3381,21 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"zhTW": "巨石"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 4%\nBringt einen großen Felsbrocken ins Rollen, der Gegner mehrfach zurückstößt und ihnen mit jedem Treffer {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 4%\nDesentierras un gran peñasco rodante que repele repetidamente a los enemigos, lo que inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño con cada golpe.\n\nTags: Cólera, Magia de la naturaleza, Tierra, Física, Daño, Tiempo de reutilización, Control de masas.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 4%\nDesentierras una roca gigante que repele repetidamente a los enemigos y les inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño por cada golpe.\n\nTags: Ira, Magia de la naturaleza, Tierra, Física, Daño, Recuperación, Control de multitudes.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 4%\nVous déterrez un gros rocher qui roule en percutant et en repoussant les adversaires plusieurs fois de suite, leur infligeant {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts à chaque coup.\n\nTags: Colère, Magie naturelle, Terre, Dégâts physiques, Dégâts, Temps de recharge, Perte de contrôle.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 4%\nDissotterri un grosso macigno rotolante che respinge continuamente indietro i nemici, infliggendo {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni a ogni colpo.\n\nTags: Collera, Magia naturale, Terra, Fisico, Danni, Tempo di recupero, Effetti debilitanti.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 4%\n巨岩を掘り起こして転がし、敵をノックバックしつつ、命中するたびに{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%のダメージを与える。\n\nTags: 憤怒, 自然魔法, 地, 物理, ダメージ, クールダウン, 操作障害効果.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 4%\n땅에서 커다란 바위를 꺼내 굴려 보냅니다. 바위는 반복적으로 적을 밀쳐내며, 적중할 때마다 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%의 피해를 줍니다.\n\nTags: 진노, 자연 마법, 대지, 물리, 피해, 재사용 대기시간, 군중 제어.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 4%\nWydobywasz z ziemi wielki, toczący się głaz, który wielokrotnie odrzuca wrogów, zadając im przy każdym trafieniu {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 4%\nDesenterra um grande rochedo rolante que repele inimigos várias vezes, causando {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano a cada acerto.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 4%\nПоднимает из-под земли огромный валун, который катится вперед и непрерывно отбрасывает противников, нанося им {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона каждым ударом.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#}秒\n幸运一击几率: 4%\n挖出一块巨大的滚石不断击退敌人, 每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:4%\n挖出一顆滾動巨石,不斷擊退敵人,每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
+			"deDE": "Abklingzeit: 10 Sek.\nGlückstrefferchance: 4%\nBringt einen großen Felsbrocken ins Rollen, der Gegner mehrfach zurückstößt und ihnen mit jedem Treffer {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
+			"esES": "Tiempo de reutilización: 10 s\nProbabilidad de golpe de suerte: 4%\nDesentierras un gran peñasco rodante que repele repetidamente a los enemigos, lo que inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño con cada golpe.\n\nTags: Cólera, Magia de la naturaleza, Tierra, Física, Daño, Tiempo de reutilización, Control de masas.",
+			"esMX": "Recuperación: 10 segundos\nProbabilidad de golpe afortunado: 4%\nDesentierras una roca gigante que repele repetidamente a los enemigos y les inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño por cada golpe.\n\nTags: Ira, Magia de la naturaleza, Tierra, Física, Daño, Recuperación, Control de multitudes.",
+			"frFR": "Temps de recharge: 10 s\nChances d'obtenir un coup de chance: 4%\nVous déterrez un gros rocher qui roule en percutant et en repoussant les adversaires plusieurs fois de suite, leur infligeant {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts à chaque coup.\n\nTags: Colère, Magie naturelle, Terre, Dégâts physiques, Dégâts, Temps de recharge, Perte de contrôle.",
+			"itIT": "Tempo di recupero: 10 s\nProbabilità di colpo fortunato: 4%\nDissotterri un grosso macigno rotolante che respinge continuamente indietro i nemici, infliggendo {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni a ogni colpo.\n\nTags: Collera, Magia naturale, Terra, Fisico, Danni, Tempo di recupero, Effetti debilitanti.",
+			"jaJP": "クールダウン: 10秒\n幸運の一撃発生率: 4%\n巨岩を掘り起こして転がし、敵をノックバックしつつ、命中するたびに{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%のダメージを与える。\n\nTags: 憤怒, 自然魔法, 地, 物理, ダメージ, クールダウン, 操作障害効果.",
+			"koKR": "재사용 대기시간: 10초\n행운의 적중 확률: 4%\n땅에서 커다란 바위를 꺼내 굴려 보냅니다. 바위는 반복적으로 적을 밀쳐내며, 적중할 때마다 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%의 피해를 줍니다.\n\nTags: 진노, 자연 마법, 대지, 물리, 피해, 재사용 대기시간, 군중 제어.",
+			"plPL": "Czas odnowienia: 10 sek.\nSzansa na szczęśliwy traf: 4%\nWydobywasz z ziemi wielki, toczący się głaz, który wielokrotnie odrzuca wrogów, zadając im przy każdym trafieniu {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
+			"ptBR": "Recarga: 10 segundos\nChance de Golpe de Sorte: 4%\nDesenterra um grande rochedo rolante que repele inimigos várias vezes, causando {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano a cada acerto.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
+			"ruRU": "Время восстановления: 10 сек.\nВероятность удачного удара: 4%\nПоднимает из-под земли огромный валун, который катится вперед и непрерывно отбрасывает противников, нанося им {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона каждым ударом.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
+			"zhCN": "冷却时间: 10秒\n幸运一击几率: 4%\n挖出一块巨大的滚石不断击退敌人, 每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "冷卻時間:10 秒\n幸運觸發機率:4%\n挖出一顆滾動巨石,不斷擊退敵人,每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 85,
 		maxPoints: 5,
-		values: [ "10" ],
 		x: 528.095,
 		y: -212.19
 	},
@@ -3526,7 +3518,7 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 	},
 	"Trample": {
 		connections: [ "Wrath", "Enhanced Trample" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 14 seconds
 Lucky Hit Chance: 20%
 Shapeshift into a Werebear, become Unstoppable, and charge forward, dealing {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage and Knocking Back enemies.
 
@@ -3548,22 +3540,21 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"zhTW": "踐踏"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 20%\nVerwandelt Euch in einen Werbären und werdet unaufhaltsam. Ihr stürmt nach vorn, verursacht {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% Schaden und stoßt Gegner zurück.\n\nGegner, die in Terrain gestoßen werden, erleiden zusätzlich {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% Schaden und sind 3 Sek. lang betäubt.\n\nTags: Zorn, Gestaltwandeln, Werbär, Unaufhaltsam, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 20%\nTe transformas en un hombre oso, te vuelves imparable y cargas hacia delante, lo que inflige {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de daño y repele a los enemigos.\n\nLos enemigos repelidos contra el terreno sufren {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% más de daño y quedan aturdidos durante 3 s.\n\nTags: Cólera, Cambio de forma, Hombre oso, Imparable, Física, Daño, Tiempo de reutilización, Control de masas.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 20%\nCambias de forma a un hombre oso, te vuelves imparable, arremetes hacia adelante, infliges {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de daño y repeles a los enemigos.\n\nLos enemigos que se golpean contra el terreno reciben {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% más de daño y quedan aturdidos durante 3 segundos.\n\nTags: Ira, Metamorfosis, Hombre oso, Imparable, Física, Daño, Recuperación, Control de multitudes.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 20%\nVous vous transformez en ursoïde, devenez inarrêtable et chargez, ce qui inflige {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% points de dégâts et repousse les adversaires.\n\nLes cibles repoussées qui percutent des obstacles subissent {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% points de dégâts supplémentaires et sont étourdies pendant 3 s.\n\nTags: Colère, Métamorphose, Ursoïde, Inarrêtable, Dégâts physiques, Dégâts, Temps de recharge, Perte de contrôle.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 20%\nMuti in un Orso Mannaro, diventi inarrestabile e carichi in avanti, infliggendo {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% danni e respingendo indietro i nemici.\n\nI nemici che vengono respinti a terra subiscono {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% danni aggiuntivi e restano storditi per 3 s.\n\nTags: Collera, Mutaforma, Orso Mannaro, Inarrestabile, Fisico, Danni, Tempo di recupero, Effetti debilitanti.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 20%\n人熊に変身して抑圧不可状態になって前方に突撃し、敵に{75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%のダメージを与えてノックバックする。\n\nノックバックで地形に叩きつけられた敵は{45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%の追加ダメージを受け、3秒間スタンする。\n\nTags: 憤怒, 変身, 人熊, 抑圧不可, 物理, ダメージ, クールダウン, 操作障害効果.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 20%\n곰인간으로 변신하여 저지 불가 상태가 되고 앞으로 돌진합니다. 적에게 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%의 피해를 주고 밀쳐냅니다.\n\n밀려나서 지형지물에 부딪힌 적은 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%의 추가 피해를 받으며 3초 동안 기절합니다.\n\nTags: 진노, 변신, 곰인간, 저지 불가, 물리, 피해, 재사용 대기시간, 군중 제어.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 20%\nPrzemieniasz się w niedźwiedziołaka, zyskujesz nieustępliwość i szarżujesz na wrogów, zadając im {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% pkt. obrażeń oraz ich odrzucając.\n\nOdrzuceni wrogowie, którzy zderzą się z przeszkodami terenu, otrzymują dodatkowo {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% pkt. obrażeń i zostają ogłuszeni na 3 sek.\n\nTags: Gniew, Zmiennokształtność, Niedźwiedziołak, Nieustępliwość, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 20%\nTransforma-se em um urso, torna-se implacável e avança, causando {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de dano e repelindo inimigos.\n\nInimigos repelidos ao chão recebem {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de dano adicional e ficam atordoados por 3 segundos.\n\nTags: Ira, Metamorfose, Urso, Implacável, Física, Dano, Recarga, Controle de Grupo.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 20%.\nВы принимаете облик медведя, получаете неудержимость и устремляетесь вперед, нанося {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% ед. урона и отбрасывая противников.\n\nПри столкновении с препятствиями отброшенные противники получают {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% ед. урона и оглушаются на 3 сек.\n\nTags: Гнев, Смена облика, Медведь, Неудержимость, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n变成不可阻挡的熊人并向前冲锋, 造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害并将敌人击退。\n\n被击退到地形上的敌人将额外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 点伤害并昏迷 3 秒。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:20%\n變身為熊人,進入無阻狀態並向前衝鋒,造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 點傷害並擊退敵人。\n\n敵人被擊退撞到地形時,會額外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 點傷害並被擊昏 3 秒。\n\nTags: 憤怒, 變形, 熊人, 無阻, 物理, 傷害, 冷卻時間, 控場."
+			"deDE": "Abklingzeit: 14 Sek.\nGlückstrefferchance: 20%\nVerwandelt Euch in einen Werbären und werdet unaufhaltsam. Ihr stürmt nach vorn, verursacht {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% Schaden und stoßt Gegner zurück.\n\nGegner, die in Terrain gestoßen werden, erleiden zusätzlich {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% Schaden und sind 3 Sek. lang betäubt.\n\nTags: Zorn, Gestaltwandeln, Werbär, Unaufhaltsam, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
+			"esES": "Tiempo de reutilización: 14 s\nProbabilidad de golpe de suerte: 20%\nTe transformas en un hombre oso, te vuelves imparable y cargas hacia delante, lo que inflige {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de daño y repele a los enemigos.\n\nLos enemigos repelidos contra el terreno sufren {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% más de daño y quedan aturdidos durante 3 s.\n\nTags: Cólera, Cambio de forma, Hombre oso, Imparable, Física, Daño, Tiempo de reutilización, Control de masas.",
+			"esMX": "Recuperación: 14 segundos\nProbabilidad de golpe afortunado: 20%\nCambias de forma a un hombre oso, te vuelves imparable, arremetes hacia adelante, infliges {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de daño y repeles a los enemigos.\n\nLos enemigos que se golpean contra el terreno reciben {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% más de daño y quedan aturdidos durante 3 segundos.\n\nTags: Ira, Metamorfosis, Hombre oso, Imparable, Física, Daño, Recuperación, Control de multitudes.",
+			"frFR": "Temps de recharge: 14 s\nChances d'obtenir un coup de chance: 20%\nVous vous transformez en ursoïde, devenez inarrêtable et chargez, ce qui inflige {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% points de dégâts et repousse les adversaires.\n\nLes cibles repoussées qui percutent des obstacles subissent {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% points de dégâts supplémentaires et sont étourdies pendant 3 s.\n\nTags: Colère, Métamorphose, Ursoïde, Inarrêtable, Dégâts physiques, Dégâts, Temps de recharge, Perte de contrôle.",
+			"itIT": "Tempo di recupero: 14 s\nProbabilità di colpo fortunato: 20%\nMuti in un Orso Mannaro, diventi inarrestabile e carichi in avanti, infliggendo {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% danni e respingendo indietro i nemici.\n\nI nemici che vengono respinti a terra subiscono {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% danni aggiuntivi e restano storditi per 3 s.\n\nTags: Collera, Mutaforma, Orso Mannaro, Inarrestabile, Fisico, Danni, Tempo di recupero, Effetti debilitanti.",
+			"jaJP": "クールダウン: 14秒\n幸運の一撃発生率: 20%\n人熊に変身して抑圧不可状態になって前方に突撃し、敵に{75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%のダメージを与えてノックバックする。\n\nノックバックで地形に叩きつけられた敵は{45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%の追加ダメージを受け、3秒間スタンする。\n\nTags: 憤怒, 変身, 人熊, 抑圧不可, 物理, ダメージ, クールダウン, 操作障害効果.",
+			"koKR": "재사용 대기시간: 14초\n행운의 적중 확률: 20%\n곰인간으로 변신하여 저지 불가 상태가 되고 앞으로 돌진합니다. 적에게 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%의 피해를 주고 밀쳐냅니다.\n\n밀려나서 지형지물에 부딪힌 적은 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%의 추가 피해를 받으며 3초 동안 기절합니다.\n\nTags: 진노, 변신, 곰인간, 저지 불가, 물리, 피해, 재사용 대기시간, 군중 제어.",
+			"plPL": "Czas odnowienia: 14 sek.\nSzansa na szczęśliwy traf: 20%\nPrzemieniasz się w niedźwiedziołaka, zyskujesz nieustępliwość i szarżujesz na wrogów, zadając im {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% pkt. obrażeń oraz ich odrzucając.\n\nOdrzuceni wrogowie, którzy zderzą się z przeszkodami terenu, otrzymują dodatkowo {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% pkt. obrażeń i zostają ogłuszeni na 3 sek.\n\nTags: Gniew, Zmiennokształtność, Niedźwiedziołak, Nieustępliwość, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
+			"ptBR": "Recarga: 14 segundos\nChance de Golpe de Sorte: 20%\nTransforma-se em um urso, torna-se implacável e avança, causando {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de dano e repelindo inimigos.\n\nInimigos repelidos ao chão recebem {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de dano adicional e ficam atordoados por 3 segundos.\n\nTags: Ira, Metamorfose, Urso, Implacável, Física, Dano, Recarga, Controle de Grupo.",
+			"ruRU": "Время восстановления: 14 сек.\nВероятность удачного удара: 20%.\nВы принимаете облик медведя, получаете неудержимость и устремляетесь вперед, нанося {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% ед. урона и отбрасывая противников.\n\nПри столкновении с препятствиями отброшенные противники получают {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% ед. урона и оглушаются на 3 сек.\n\nTags: Гнев, Смена облика, Медведь, Неудержимость, Физический урон, Урон, Время восстановления, Контроль.",
+			"zhCN": "冷却时间: 14 秒\n幸运一击几率: 20%\n变成不可阻挡的熊人并向前冲锋, 造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害并将敌人击退。\n\n被击退到地形上的敌人将额外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 点伤害并昏迷 3 秒。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "冷卻時間:14 秒\n幸運觸發機率:20%\n變身為熊人,進入無阻狀態並向前衝鋒,造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 點傷害並擊退敵人。\n\n敵人被擊退撞到地形時,會額外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 點傷害並被擊昏 3 秒。\n\nTags: 憤怒, 變形, 熊人, 無阻, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 89,
 		maxPoints: 5,
-		values: [ "14" ],
 		x: -538.268,
 		y: 76.5
 	},
@@ -3800,7 +3791,7 @@ Tags: Fortify, Damage, Life, Earth, Nature Magic.`,
 	},
 	"Hurricane": {
 		connections: [ "Wrath", "Enhanced Hurricane" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 20 seconds
 Lucky Hit Chance: 21.48%
 Form a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8 seconds.
 
@@ -3820,22 +3811,21 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 			"zhTW": "颶風術"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 21.48%\nBildet einen Hurrikan um Euch herum, der Gegnern in der Nähe im Verlauf von 8 Sek. {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Sturm, Physisch, Schaden, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 21.48%\nFormas a tu alrededor un huracán que inflige {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% de daño a los enemigos cercanos durante 8 s.\n\nTags: Cólera, Magia de la naturaleza, Tormenta, Física, Daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 21.48%\nFormas un huracán a tu alrededor que inflige {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% de daño a los enemigos circundantes durante 8 segundos.\n\nTags: Ira, Magia de la naturaleza, Tormenta, Física, Daño, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 21.48%\nVous formez un ouragan autour de vous qui inflige {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% points de dégâts aux adversaires à proximité en 8 s.\n\nTags: Colère, Magie naturelle, Tempête, Dégâts physiques, Dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 21.48%\nIntorno a te si genera un uragano che infligge {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% danni ai nemici circostanti in 8 s.\n\nTags: Collera, Magia naturale, Tempesta, Fisico, Danni, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 21.48%\n自分の周囲にハリケーンを形成し、8秒かけて近くの敵に{97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}%のダメージを与える。\n\nTags: 憤怒, 自然魔法, 嵐, 物理, ダメージ, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 21.48%\n자신의 주위에 싹쓸바람을 생성하여 주위 적들에게 8초에 걸쳐 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}%의 피해를 줍니다.\n\nTags: 진노, 자연 마법, 폭풍, 물리, 피해, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 21.48%\nTworzysz wokół siebie huragan, który zadaje {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% pkt. obrażeń wrogom wokół w ciągu 8 sek.\n\nTags: Gniew, Magia Natury, Burza, Fizyczne, Obrażenia, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 21.48%\nForma um furacão ao seu redor que causa {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% de dano a inimigos ao redor ao longo de 8 segundos.\n\nTags: Ira, Magia da Natureza, Tempestade, Física, Dano, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 21.48%.\nВы создаете вокруг себя ураган, наносящий противникам {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% ед. урона за 8 сек.\n\nTags: Гнев, Силы природы, Буря, Физический урон, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 21.48%\n在你的身边生成一道飓风, 在 8 秒内对周围的敌人造成 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% 点伤害。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:21.48%\n生成颶風環繞你周圍,在 8 秒內對附近的敵人造成 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% 點傷害。\n\nTags: 憤怒, 自然魔法, 風暴, 物理, 傷害, 冷卻時間."
+			"deDE": "Abklingzeit: 20 Sek.\nGlückstrefferchance: 21.48%\nBildet einen Hurrikan um Euch herum, der Gegnern in der Nähe im Verlauf von 8 Sek. {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Sturm, Physisch, Schaden, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 20 s\nProbabilidad de golpe de suerte: 21.48%\nFormas a tu alrededor un huracán que inflige {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% de daño a los enemigos cercanos durante 8 s.\n\nTags: Cólera, Magia de la naturaleza, Tormenta, Física, Daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 20 segundos\nProbabilidad de golpe afortunado: 21.48%\nFormas un huracán a tu alrededor que inflige {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% de daño a los enemigos circundantes durante 8 segundos.\n\nTags: Ira, Magia de la naturaleza, Tormenta, Física, Daño, Recuperación.",
+			"frFR": "Temps de recharge: 20 s\nChances d'obtenir un coup de chance: 21.48%\nVous formez un ouragan autour de vous qui inflige {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% points de dégâts aux adversaires à proximité en 8 s.\n\nTags: Colère, Magie naturelle, Tempête, Dégâts physiques, Dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 20 s\nProbabilità di colpo fortunato: 21.48%\nIntorno a te si genera un uragano che infligge {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% danni ai nemici circostanti in 8 s.\n\nTags: Collera, Magia naturale, Tempesta, Fisico, Danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 20秒\n幸運の一撃発生率: 21.48%\n自分の周囲にハリケーンを形成し、8秒かけて近くの敵に{97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}%のダメージを与える。\n\nTags: 憤怒, 自然魔法, 嵐, 物理, ダメージ, クールダウン.",
+			"koKR": "재사용 대기시간: 20초\n행운의 적중 확률: 21.48%\n자신의 주위에 싹쓸바람을 생성하여 주위 적들에게 8초에 걸쳐 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}%의 피해를 줍니다.\n\nTags: 진노, 자연 마법, 폭풍, 물리, 피해, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 20 sek.\nSzansa na szczęśliwy traf: 21.48%\nTworzysz wokół siebie huragan, który zadaje {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% pkt. obrażeń wrogom wokół w ciągu 8 sek.\n\nTags: Gniew, Magia Natury, Burza, Fizyczne, Obrażenia, Odnowienie.",
+			"ptBR": "Recarga: 20 segundos\nChance de Golpe de Sorte: 21.48%\nForma um furacão ao seu redor que causa {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% de dano a inimigos ao redor ao longo de 8 segundos.\n\nTags: Ira, Magia da Natureza, Tempestade, Física, Dano, Recarga.",
+			"ruRU": "Время восстановления: 20 сек.\nВероятность удачного удара: 21.48%.\nВы создаете вокруг себя ураган, наносящий противникам {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% ед. урона за 8 сек.\n\nTags: Гнев, Силы природы, Буря, Физический урон, Урон, Время восстановления.",
+			"zhCN": "冷却时间: 20 秒\n幸运一击几率: 21.48%\n在你的身边生成一道飓风, 在 8 秒内对周围的敌人造成 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% 点伤害。\n\nTags: 愤怒, 自然魔法, 风暴, 物理, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:20 秒\n幸運觸發機率:21.48%\n生成颶風環繞你周圍,在 8 秒內對附近的敵人造成 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% 點傷害。\n\nTags: 憤怒, 自然魔法, 風暴, 物理, 傷害, 冷卻時間."
 },
 		id: 99,
 		maxPoints: 5,
-		values: [ "20" ],
 		x: 255.145,
 		y: -347.168
 	},
@@ -3958,7 +3948,7 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 	},
 	"Rabies": {
 		connections: [ "Wrath", "Enhanced Rabies" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 12 seconds
 Lucky Hit Chance: 50%
 Shapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and applying an additional {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% Poisoning damage over 6 seconds.
 
@@ -3980,22 +3970,21 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"zhTW": "狂犬撕咬"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 50%\nVerwandelt Euch in einen Werwolf und fügt dem Ziel mit einem infektiösen Biss {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% Schaden zu und verursacht zusätzlich {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% Giftschaden im Verlauf von 6 Sek.\n\nInfizierte Gegner verbreiten Tollwut auf andere Ziele in der Nähe.\n\nTags: Zorn, Gestaltwandeln, Werwolf, Gift, Schaden, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 50%\nTe transformas en hombre lobo y le das un mordisco infeccioso al objetivo, que sufre {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño y {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% de daño de veneno adicional durante 6 s.\n\nLos enemigos infectados contagian la Rabia a otros objetivos cercanos.\n\nTags: Cólera, Cambio de forma, Hombre lobo, Veneno, Daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado:50%\nCambias de forma a un hombre lobo, realizas una mordida infecciosa en el objetivo y le infliges {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño y {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% de daño de veneno adicional durante 6 segundos.\n\nLos enemigos infectados propagan Rabia a los demás objetivos circundantes.\n\nTags: Ira, Metamorfosis, Hombre lobo, Veneno, Daño, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 50%\nVous vous transformez en lycanthrope et infligez une morsure infectieuse à la cible, ce qui lui inflige {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% points de dégâts, puis {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% points de dégâts de poison supplémentaires en 6 s.\n\nLes cibles infectées propagent le virus de Morsure rabique aux autres cibles à proximité.\n\nTags: Colère, Métamorphose, Lycanthrope, Poison, Dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 50%\nMuti in un Lupo Mannaro e azzanni il bersaglio con un morso infetto, infliggendo {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% danni e {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% danni da veleno aggiuntivi in 6 s.\n\nI nemici infetti diffondono Idrofobia sugli altri bersagli nei dintorni.\n\nTags: Collera, Mutaforma, Lupo Mannaro, Veleno, Danni, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 50%\n人狼に変身して病を感染させる牙で標的に噛みつき{28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%のダメージを与え、さらに6秒かけて{52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}%の毒ダメージを追加で与える。\n\n感染した敵は〈狂犬病〉を周囲の敵に伝染させる。\n\nTags: 憤怒, 変身, 人狼, 毒, ダメージ, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 50%\n늑대인간으로 변신하고 대상을 물어뜯어 감염시킵니다. {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%의 피해를 주고, 추가로 6초에 걸친 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}%의 중독 피해를 적용합니다.\n\n감염된 적은 주위의 다른 대상들에게 광견병을 퍼뜨립니다.\n\nTags: 진노, 변신, 늑대인간, 독, 피해, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 50%\nPrzemieniasz się w wilkołaka i zarażasz wroga przez ugryzienie, zadając mu {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% pkt. obrażeń oraz dodatkowo {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nZarażeni wrogowie przekazują Wściekliznę innym celom wokół.\n\nTags: Gniew, Zmiennokształtność, Wilkołak, Trucizna, Obrażenia, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 50%\nTransforma-se em um lobisomem e atinge o alvo com uma mordida infecciosa, causando {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de dano e aplicando {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% de dano venenoso adicional ao longo de 6 segundos.\n\nInimigos infectados espalham Raiva para outros alvos ao redor.\n\nTags: Ira, Metamorfose, Lobisomem, Veneno, Dano, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 50%.\nВы принимаете облик волка и кусаете противника, нанося {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% ед. урона сразу и еще {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% ед. урона от отравления за 6 сек.\n\nЗараженные противники распространяют эффект \"Звериного бешенства\" на другие ближайшие цели.\n\nTags: Гнев, Смена облика, Облик волка, Яд, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n变成狼人对目标施加感染撕咬, 造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害, 并在 6 秒内造成 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% 点毒素伤害。\n\n被感染的敌人会向周围的其他目标传染狂犬撕咬。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:50%\n變身為狼人並施展會傳染疾病的咬擊,對目標造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 點傷害,並額外在 6 秒內造成 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% 點中毒傷害。\n\n被感染的敵人會把狂犬撕咬傳染給附近其他目標。\n\nTags: 憤怒, 變形, 狼人, 毒素, 傷害, 冷卻時間."
+			"deDE": "Abklingzeit: 12 Sek.\nGlückstrefferchance: 50%\nVerwandelt Euch in einen Werwolf und fügt dem Ziel mit einem infektiösen Biss {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% Schaden zu und verursacht zusätzlich {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% Giftschaden im Verlauf von 6 Sek.\n\nInfizierte Gegner verbreiten Tollwut auf andere Ziele in der Nähe.\n\nTags: Zorn, Gestaltwandeln, Werwolf, Gift, Schaden, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 12 s\nProbabilidad de golpe de suerte: 50%\nTe transformas en hombre lobo y le das un mordisco infeccioso al objetivo, que sufre {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño y {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% de daño de veneno adicional durante 6 s.\n\nLos enemigos infectados contagian la Rabia a otros objetivos cercanos.\n\nTags: Cólera, Cambio de forma, Hombre lobo, Veneno, Daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 12 segundos\nProbabilidad de golpe afortunado:50%\nCambias de forma a un hombre lobo, realizas una mordida infecciosa en el objetivo y le infliges {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño y {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% de daño de veneno adicional durante 6 segundos.\n\nLos enemigos infectados propagan Rabia a los demás objetivos circundantes.\n\nTags: Ira, Metamorfosis, Hombre lobo, Veneno, Daño, Recuperación.",
+			"frFR": "Temps de recharge: 12 s\nChances d'obtenir un coup de chance: 50%\nVous vous transformez en lycanthrope et infligez une morsure infectieuse à la cible, ce qui lui inflige {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% points de dégâts, puis {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% points de dégâts de poison supplémentaires en 6 s.\n\nLes cibles infectées propagent le virus de Morsure rabique aux autres cibles à proximité.\n\nTags: Colère, Métamorphose, Lycanthrope, Poison, Dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 12 s\nProbabilità di colpo fortunato: 50%\nMuti in un Lupo Mannaro e azzanni il bersaglio con un morso infetto, infliggendo {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% danni e {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% danni da veleno aggiuntivi in 6 s.\n\nI nemici infetti diffondono Idrofobia sugli altri bersagli nei dintorni.\n\nTags: Collera, Mutaforma, Lupo Mannaro, Veleno, Danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 12秒\n幸運の一撃発生率: 50%\n人狼に変身して病を感染させる牙で標的に噛みつき{28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%のダメージを与え、さらに6秒かけて{52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}%の毒ダメージを追加で与える。\n\n感染した敵は〈狂犬病〉を周囲の敵に伝染させる。\n\nTags: 憤怒, 変身, 人狼, 毒, ダメージ, クールダウン.",
+			"koKR": "재사용 대기시간: 12초\n행운의 적중 확률: 50%\n늑대인간으로 변신하고 대상을 물어뜯어 감염시킵니다. {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%의 피해를 주고, 추가로 6초에 걸친 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}%의 중독 피해를 적용합니다.\n\n감염된 적은 주위의 다른 대상들에게 광견병을 퍼뜨립니다.\n\nTags: 진노, 변신, 늑대인간, 독, 피해, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 12 sek.\nSzansa na szczęśliwy traf: 50%\nPrzemieniasz się w wilkołaka i zarażasz wroga przez ugryzienie, zadając mu {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% pkt. obrażeń oraz dodatkowo {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nZarażeni wrogowie przekazują Wściekliznę innym celom wokół.\n\nTags: Gniew, Zmiennokształtność, Wilkołak, Trucizna, Obrażenia, Odnowienie.",
+			"ptBR": "Recarga: 12 segundos\nChance de Golpe de Sorte: 50%\nTransforma-se em um lobisomem e atinge o alvo com uma mordida infecciosa, causando {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de dano e aplicando {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% de dano venenoso adicional ao longo de 6 segundos.\n\nInimigos infectados espalham Raiva para outros alvos ao redor.\n\nTags: Ira, Metamorfose, Lobisomem, Veneno, Dano, Recarga.",
+			"ruRU": "Время восстановления: 12 сек.\nВероятность удачного удара: 50%.\nВы принимаете облик волка и кусаете противника, нанося {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% ед. урона сразу и еще {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% ед. урона от отравления за 6 сек.\n\nЗараженные противники распространяют эффект \"Звериного бешенства\" на другие ближайшие цели.\n\nTags: Гнев, Смена облика, Облик волка, Яд, Урон, Время восстановления.",
+			"zhCN": "冷却时间: 12 秒\n幸运一击几率: 50%\n变成狼人对目标施加感染撕咬, 造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害, 并在 6 秒内造成 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% 点毒素伤害。\n\n被感染的敌人会向周围的其他目标传染狂犬撕咬。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:12 秒\n幸運觸發機率:50%\n變身為狼人並施展會傳染疾病的咬擊,對目標造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 點傷害,並額外在 6 秒內造成 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% 點中毒傷害。\n\n被感染的敵人會把狂犬撕咬傳染給附近其他目標。\n\nTags: 憤怒, 變形, 狼人, 毒素, 傷害, 冷卻時間."
 },
 		id: 103,
 		maxPoints: 5,
-		values: [ "12" ],
 		x: 522.33,
 		y: 283.86
 	},
@@ -4311,7 +4300,7 @@ Tags: Poison, Critical Strikes, Damage.`,
 druidData["Ultimate"] = {
 	"Grizzly Rage": {
 		connections: [ "Ultimate", "Prime Grizzly Rage" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 50 seconds
 Shapeshift into a Dire Werebear for 10 seconds gaining x20% bonus damage and 20% Damage Reduction. Damage bonus is increased by 3% each second while in this form.
 
 Kills extend the duration by 1 second up to 10 additional seconds.
@@ -4332,22 +4321,21 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"zhTW": "灰熊狂怒"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nVerwandelt Euch 10 Sek. lang in einen Todeswerbären. Ihr erhaltet x20% Bonusschaden und 20% Schadensreduktion. In dieser Gestalt erhöht sich der Bonusschaden jede Sek. um 3%.\n\nWenn Ihr Gegner tötet, verlängert sich die Dauer um 1 Sek. bis zu 10 zusätzlichen Sek.\n\nTags: Ultimativ, Gestaltwandeln, Werbär, Schadensreduktion, Schaden, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nTe transformas en un hombre oso atroz durante 10 s, lo que te otorga un x20% de daño adicional y un 20% de reducción de daño. El bonus de daño aumenta un 3% por cada segundo que mantengas esta forma.\n\nMatar amplía 1 s su duración hasta un máximo de 10 s adicionales.\n\nTags: Definitiva, Cambio de forma, Hombre oso, Reducción de daño, Daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nCambias de forma a un hombre oso temible durante 10 segundos, lo que te otorga un x20% más de daño y un 20% de reducción de daño. El daño adicional aumenta un 3% por cada segundo que permanezcas en esta forma.\n\nCada enemigo que elimines aumenta 1 segundo la duración, hasta 10 segundos adicionales.\n\nTags: Máxima, Metamorfosis, Hombre oso, Reducción de daño, Daño, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nVous vous transformez en ursoïde féroce pendant 10 s, ce qui augmente vos dégâts de x20% et votre réduction des dégâts de 20%. Ce bonus aux dégâts est augmenté de 3% par seconde passée sous cette forme.\n\nTuer une cible prolonge la durée de la transformation de 1 s, jusqu'à un maximum de 10 s supplémentaires.\n\nTags: Ultime, Métamorphose, Ursoïde, Réduction des dégâts, Dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nMuti in un Orso Mannaro Feroce per 10 s ottenendo un bonus ai danni del x20% e il 20% di riduzione danni. Il bonus ai danni aggiuntivi aumenta del 3% al secondo mentre rimani in questa forma.\n\nLe uccisioni estendono la durata della forma di 1 s fino a 10 s aggiuntivi.\n\nTags: Ultra, Mutaforma, Orso Mannaro, Riduzione danni, Danni, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n10秒間、のダイア・ウェアベアになり、x20%のダメージボーナスと20%のダメージ軽減を獲得する。この形態でいる間、ダメージボーナスは毎秒3%増加する。\n\n敵を倒すたびに持続時間が1秒延長される。合計延長時間は最大で10秒。\n\nTags: 奥義, 変身, 人熊, ダメージ減少, ダメージ, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n광포한 곰인간으로 10초 동안 변신하여 공격력이 x20% 증가하고 피해 감소가 20% 증가합니다. 이 형상을 유지하는 동안 매초 공격력이 3% 증가합니다.\n\n적을 처치하면 지속시간이 1초만큼, 최대 10초까지 추가로 증가합니다.\n\nTags: 궁극기, 변신, 곰인간, 피해 감소, 피해, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nPrzemieniasz się upiornego niedźwiedziołaka na 10 sek. i zyskujesz premię x20% do obrażeń oraz 20% do redukcji obrażeń. Premia do obrażeń wzrasta o 3% co sekundę, kiedy jesteś w tej postaci.\n\nZabijanie wrogów wydłuża czas działania o 1 sek., maksymalnie do 10 dodatkowych sekund.\n\nTags: Specjalne, Zmiennokształtność, Niedźwiedziołak, Redukcja Obrażeń, Obrażenia, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nTransforma-se em um Urso Atroz por 10 segundos, recebendo 20% de bônus de dano e 20% de redução de dano. O bônus de dano é aumentado em 3% a cada segundo enquanto estiver nessa forma.\n\nAbates aumentam a duração em 1 segundo até 10 segundos adicionais.\n\nTags: Suprema, Metamorfose, Urso, Redução de Dano, Dano, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВы принимаете облик лютого медведя на 10 сек. Наносимый урон увеличивается на x20%, а получаемый урон уменьшается на 20%. Прибавка к урону увеличивается на 3% с каждой секундой, проведенной в этом облике.\n\nУбийства продлевают время действия эффекта на 1 сек. вплоть до 10 сек.\n\nTags: Мощное умение, Смена облика, Медведь, Уменьшение урона, Урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n变成一只恐怖熊人, 持续 10 秒, 获得 x20% 伤害加成和 20% 伤害减免。在该形态下, 伤害加成每秒提高 3%。\n\n消灭会使持续时间延长 1 秒, 最多延长 10 秒。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n變身為兇蠻熊人,持續 10 秒。獲得 x20% 傷害加成與 20% 傷害減免。在此形態下,每秒傷害加成提高 3%。\n\n擊殺可以使持續時間延長 1 秒,最多延長 10 秒。\n\nTags: 絕招, 變形, 熊人, 傷害減免, 傷害, 冷卻時間."
+			"deDE": "Abklingzeit: 50 Sek.\nVerwandelt Euch 10 Sek. lang in einen Todeswerbären. Ihr erhaltet x20% Bonusschaden und 20% Schadensreduktion. In dieser Gestalt erhöht sich der Bonusschaden jede Sek. um 3%.\n\nWenn Ihr Gegner tötet, verlängert sich die Dauer um 1 Sek. bis zu 10 zusätzlichen Sek.\n\nTags: Ultimativ, Gestaltwandeln, Werbär, Schadensreduktion, Schaden, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 50 s\nTe transformas en un hombre oso atroz durante 10 s, lo que te otorga un x20% de daño adicional y un 20% de reducción de daño. El bonus de daño aumenta un 3% por cada segundo que mantengas esta forma.\n\nMatar amplía 1 s su duración hasta un máximo de 10 s adicionales.\n\nTags: Definitiva, Cambio de forma, Hombre oso, Reducción de daño, Daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 50 segundos\nCambias de forma a un hombre oso temible durante 10 segundos, lo que te otorga un x20% más de daño y un 20% de reducción de daño. El daño adicional aumenta un 3% por cada segundo que permanezcas en esta forma.\n\nCada enemigo que elimines aumenta 1 segundo la duración, hasta 10 segundos adicionales.\n\nTags: Máxima, Metamorfosis, Hombre oso, Reducción de daño, Daño, Recuperación.",
+			"frFR": "Temps de recharge: 50 s\nVous vous transformez en ursoïde féroce pendant 10 s, ce qui augmente vos dégâts de x20% et votre réduction des dégâts de 20%. Ce bonus aux dégâts est augmenté de 3% par seconde passée sous cette forme.\n\nTuer une cible prolonge la durée de la transformation de 1 s, jusqu'à un maximum de 10 s supplémentaires.\n\nTags: Ultime, Métamorphose, Ursoïde, Réduction des dégâts, Dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 50 s\nMuti in un Orso Mannaro Feroce per 10 s ottenendo un bonus ai danni del x20% e il 20% di riduzione danni. Il bonus ai danni aggiuntivi aumenta del 3% al secondo mentre rimani in questa forma.\n\nLe uccisioni estendono la durata della forma di 1 s fino a 10 s aggiuntivi.\n\nTags: Ultra, Mutaforma, Orso Mannaro, Riduzione danni, Danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 50秒\n10秒間、のダイア・ウェアベアになり、x20%のダメージボーナスと20%のダメージ軽減を獲得する。この形態でいる間、ダメージボーナスは毎秒3%増加する。\n\n敵を倒すたびに持続時間が1秒延長される。合計延長時間は最大で10秒。\n\nTags: 奥義, 変身, 人熊, ダメージ減少, ダメージ, クールダウン.",
+			"koKR": "재사용 대기시간: 50초\n광포한 곰인간으로 10초 동안 변신하여 공격력이 x20% 증가하고 피해 감소가 20% 증가합니다. 이 형상을 유지하는 동안 매초 공격력이 3% 증가합니다.\n\n적을 처치하면 지속시간이 1초만큼, 최대 10초까지 추가로 증가합니다.\n\nTags: 궁극기, 변신, 곰인간, 피해 감소, 피해, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 50 sek.\nPrzemieniasz się upiornego niedźwiedziołaka na 10 sek. i zyskujesz premię x20% do obrażeń oraz 20% do redukcji obrażeń. Premia do obrażeń wzrasta o 3% co sekundę, kiedy jesteś w tej postaci.\n\nZabijanie wrogów wydłuża czas działania o 1 sek., maksymalnie do 10 dodatkowych sekund.\n\nTags: Specjalne, Zmiennokształtność, Niedźwiedziołak, Redukcja Obrażeń, Obrażenia, Odnowienie.",
+			"ptBR": "Recarga: 50 segundos\nTransforma-se em um Urso Atroz por 10 segundos, recebendo 20% de bônus de dano e 20% de redução de dano. O bônus de dano é aumentado em 3% a cada segundo enquanto estiver nessa forma.\n\nAbates aumentam a duração em 1 segundo até 10 segundos adicionais.\n\nTags: Suprema, Metamorfose, Urso, Redução de Dano, Dano, Recarga.",
+			"ruRU": "Время восстановления: 50 сек.\nВы принимаете облик лютого медведя на 10 сек. Наносимый урон увеличивается на x20%, а получаемый урон уменьшается на 20%. Прибавка к урону увеличивается на 3% с каждой секундой, проведенной в этом облике.\n\nУбийства продлевают время действия эффекта на 1 сек. вплоть до 10 сек.\n\nTags: Мощное умение, Смена облика, Медведь, Уменьшение урона, Урон, Время восстановления.",
+			"zhCN": "冷却时间: 50 秒\n变成一只恐怖熊人, 持续 10 秒, 获得 x20% 伤害加成和 20% 伤害减免。在该形态下, 伤害加成每秒提高 3%。\n\n消灭会使持续时间延长 1 秒, 最多延长 10 秒。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:50 秒\n變身為兇蠻熊人,持續 10 秒。獲得 x20% 傷害加成與 20% 傷害減免。在此形態下,每秒傷害加成提高 3%。\n\n擊殺可以使持續時間延長 1 秒,最多延長 10 秒。\n\nTags: 絕招, 變形, 熊人, 傷害減免, 傷害, 冷卻時間."
 },
 		id: 107,
 		maxPoints: 1,
-		values: [ "50" ],
 		x: 4.395,
 		y: 301.055
 	},
@@ -4431,7 +4419,7 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 	},
 	"Petrify": {
 		connections: [ "Ultimate", "Prime Petrify" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 50 seconds
 Encase all Nearby enemies in stone, Stunning them for 3 seconds. You deal x25% increased Critical Strike Damage to enemies affected by Petrify.
 
 Against Bosses, the Critical Strike Damage bonus is increased to x50% and its duration is increased to 6 seconds.
@@ -4452,22 +4440,21 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 			"zhTW": "石化"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nHüllt alle Gegner in der Nähe in Stein und betäubt sie 3 Sek. lang. Ihr fügt Gegnern, die von Versteinern betroffen sind, x25% mehr kritischen Trefferschaden zu.\n\nGegen Bosse ist der Bonus auf kritischen Trefferschaden auf x50% und seine Dauer auf 6 Sek. erhöht.\n\nTags: Ultimativ, Naturmagie, Erde, Kontrollverlust, Abklingzeit, Kritische Treffer.",
-			"esES": "Tiempo de reutilización: {#} s\nEncierras a todos los enemigos cercanos en piedra, lo que los aturde durante 3 s. Infliges un x25% más de daño de golpe crítico a enemigos afectados por Petrificar.\n\nContra jefes, el bonus de daño de golpe crítico aumenta a un x50% y su duración aumenta a 6 s.\n\nTags: Definitiva, Magia de la naturaleza, Tierra, Control de masas, Tiempo de reutilización, Golpes críticos.",
-			"esMX": "Recuperación: {#} segundos\nEncierras a todos los enemigos cercanos en piedra y los aturdes durante 3 segundos. Infliges un x25% más de daño de golpe crítico a los enemigos afectados por Petrificación.\n\nContra los jefes, la bonificación de daño de golpe crítico aumenta al x50%, y su duración aumenta a 6 segundos.\n\nTags: Máxima, Magia de la naturaleza, Tierra, Control de multitudes, Recuperación, Golpes críticos.",
-			"frFR": "Temps de recharge: {#} s\nVous encastrez l'ensemble des adversaires à proximité dans de la pierre, ce qui les étourdit pendant 3 s. Vous infligez x25% de dégâts critiques supplémentaires aux cibles affectées par Pétrification.\n\nContre les boss, le bonus aux dégâts critiques est porté à x50% et sa durée à 6 s.\n\nTags: Ultime, Magie naturelle, Terre, Perte de contrôle, Temps de recharge, Coups critiques.",
-			"itIT": "Tempo di recupero: {#} s\nIntrappoli tutti i nemici vicini nella pietra, stordendoli per 3 s. Infliggi il x25% di danni critici aggiuntivi ai nemici affetti da Pietrificazione.\n\nContro i boss, il bonus ai danni critici viene aumentato al x50% e la sua durata è aumentata a 6 s.\n\nTags: Ultra, Magia naturale, Terra, Effetti debilitanti, Tempo di recupero, Colpi critici.",
-			"jaJP": "クールダウン: {#}秒\n周囲のすべての敵を岩で包み込み、3秒間スタンさせる。〈石化〉の影響を受けた敵へのクリティカルダメージがx25%増加する。\n\nボスに対しては、クリティカルダメージボーナスがx50%に増加し、持続時間が6秒に延長される。\n\nTags: 奥義, 自然魔法, 地, 操作障害効果, クールダウン, クリティカルヒット.",
-			"koKR": "재사용 대기시간: {#}초\n주위 모든 적을 돌로 감싸 3초 동안 기절시킵니다. 석화의 영향을 받는 적에게 주는 극대화 피해가 x25% 증가합니다.\n\n우두머리를 상대할 때는 극대화 피해 증가량이 x50%로, 지속시간이 6초로 증가합니다.\n\nTags: 궁극기, 자연 마법, 대지, 군중 제어, 재사용 대기시간, 극대화.",
-			"plPL": "Czas odnowienia: {#} sek.\nPrzemieniasz wszystkich wrogów w kamień i ogłuszasz ich na 3 sek. Zadajesz zwiększone o x25% obrażenia od trafień krytycznych celom pod działaniem Petryfikacji.\n\nW przypadku bossów premia do obrażeń od trafień krytycznych jest zwiększona do x50%, a czas jej działania jest wydłużony do 6 sek.\n\nTags: Specjalne, Magia Natury, Ziemia, Ograniczanie Kontroli, Odnowienie, Trafienia Krytyczne.",
-			"ptBR": "Recarga: {#} segundos\nEnvolve todos os inimigos próximos em pedra, atordoando-os por 3 segundos. Você causa 25% de dano de acerto crítico aumentado a inimigos afetados por Petrificar.\n\nContra chefes, o bônus de dano de acerto crítico é aumentado para 50% e sua duração é aumentada para 6 segundos.\n\nTags: Suprema, Magia da Natureza, Terra, Controle de Grupo, Recarga, Acertos Críticos.",
-			"ruRU": "Время восстановления: {#} сек.\nВы заключаете ближайших противников в камень, оглушая их на 3 сек. Цели под действием \"Окаменения\" получают от вас на x25% больше критического урона.\n\nПротив боссов бонус к критическому урону увеличивается до x50%, а время действия эффекта продлевается до 6 сек.\n\nTags: Мощное умение, Силы природы, Земля, Контроль, Время восстановления, Критические удары.",
-			"zhCN": "冷却时间: {#} 秒\n石化附近所有敌人, 使其昏迷 3 秒。你对被石化的敌人造成的暴击伤害提高 x25%。\n\n目标为首领时, 暴击伤害加成提高至 x50%, 并且其持续时间提高至 6 秒。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击.",
-			"zhTW": "冷卻時間:{#} 秒\n以岩石包覆附近所有敵人,使其昏迷 3 秒。你對石化敵人造成的爆擊傷害提高 x25%。\n\n對上首領時,此爆擊傷害加成提高至 x50%,持續時間延長至 6 秒。\n\nTags: 絕招, 自然魔法, 大地, 控場, 冷卻時間, 爆擊."
+			"deDE": "Abklingzeit: 50 Sek.\nHüllt alle Gegner in der Nähe in Stein und betäubt sie 3 Sek. lang. Ihr fügt Gegnern, die von Versteinern betroffen sind, x25% mehr kritischen Trefferschaden zu.\n\nGegen Bosse ist der Bonus auf kritischen Trefferschaden auf x50% und seine Dauer auf 6 Sek. erhöht.\n\nTags: Ultimativ, Naturmagie, Erde, Kontrollverlust, Abklingzeit, Kritische Treffer.",
+			"esES": "Tiempo de reutilización: 50 s\nEncierras a todos los enemigos cercanos en piedra, lo que los aturde durante 3 s. Infliges un x25% más de daño de golpe crítico a enemigos afectados por Petrificar.\n\nContra jefes, el bonus de daño de golpe crítico aumenta a un x50% y su duración aumenta a 6 s.\n\nTags: Definitiva, Magia de la naturaleza, Tierra, Control de masas, Tiempo de reutilización, Golpes críticos.",
+			"esMX": "Recuperación: 50 segundos\nEncierras a todos los enemigos cercanos en piedra y los aturdes durante 3 segundos. Infliges un x25% más de daño de golpe crítico a los enemigos afectados por Petrificación.\n\nContra los jefes, la bonificación de daño de golpe crítico aumenta al x50%, y su duración aumenta a 6 segundos.\n\nTags: Máxima, Magia de la naturaleza, Tierra, Control de multitudes, Recuperación, Golpes críticos.",
+			"frFR": "Temps de recharge: 50 s\nVous encastrez l'ensemble des adversaires à proximité dans de la pierre, ce qui les étourdit pendant 3 s. Vous infligez x25% de dégâts critiques supplémentaires aux cibles affectées par Pétrification.\n\nContre les boss, le bonus aux dégâts critiques est porté à x50% et sa durée à 6 s.\n\nTags: Ultime, Magie naturelle, Terre, Perte de contrôle, Temps de recharge, Coups critiques.",
+			"itIT": "Tempo di recupero: 50 s\nIntrappoli tutti i nemici vicini nella pietra, stordendoli per 3 s. Infliggi il x25% di danni critici aggiuntivi ai nemici affetti da Pietrificazione.\n\nContro i boss, il bonus ai danni critici viene aumentato al x50% e la sua durata è aumentata a 6 s.\n\nTags: Ultra, Magia naturale, Terra, Effetti debilitanti, Tempo di recupero, Colpi critici.",
+			"jaJP": "クールダウン: 50秒\n周囲のすべての敵を岩で包み込み、3秒間スタンさせる。〈石化〉の影響を受けた敵へのクリティカルダメージがx25%増加する。\n\nボスに対しては、クリティカルダメージボーナスがx50%に増加し、持続時間が6秒に延長される。\n\nTags: 奥義, 自然魔法, 地, 操作障害効果, クールダウン, クリティカルヒット.",
+			"koKR": "재사용 대기시간: 50초\n주위 모든 적을 돌로 감싸 3초 동안 기절시킵니다. 석화의 영향을 받는 적에게 주는 극대화 피해가 x25% 증가합니다.\n\n우두머리를 상대할 때는 극대화 피해 증가량이 x50%로, 지속시간이 6초로 증가합니다.\n\nTags: 궁극기, 자연 마법, 대지, 군중 제어, 재사용 대기시간, 극대화.",
+			"plPL": "Czas odnowienia: 50 sek.\nPrzemieniasz wszystkich wrogów w kamień i ogłuszasz ich na 3 sek. Zadajesz zwiększone o x25% obrażenia od trafień krytycznych celom pod działaniem Petryfikacji.\n\nW przypadku bossów premia do obrażeń od trafień krytycznych jest zwiększona do x50%, a czas jej działania jest wydłużony do 6 sek.\n\nTags: Specjalne, Magia Natury, Ziemia, Ograniczanie Kontroli, Odnowienie, Trafienia Krytyczne.",
+			"ptBR": "Recarga: 50 segundos\nEnvolve todos os inimigos próximos em pedra, atordoando-os por 3 segundos. Você causa 25% de dano de acerto crítico aumentado a inimigos afetados por Petrificar.\n\nContra chefes, o bônus de dano de acerto crítico é aumentado para 50% e sua duração é aumentada para 6 segundos.\n\nTags: Suprema, Magia da Natureza, Terra, Controle de Grupo, Recarga, Acertos Críticos.",
+			"ruRU": "Время восстановления: 50 сек.\nВы заключаете ближайших противников в камень, оглушая их на 3 сек. Цели под действием \"Окаменения\" получают от вас на x25% больше критического урона.\n\nПротив боссов бонус к критическому урону увеличивается до x50%, а время действия эффекта продлевается до 6 сек.\n\nTags: Мощное умение, Силы природы, Земля, Контроль, Время восстановления, Критические удары.",
+			"zhCN": "冷却时间: 50 秒\n石化附近所有敌人, 使其昏迷 3 秒。你对被石化的敌人造成的暴击伤害提高 x25%。\n\n目标为首领时, 暴击伤害加成提高至 x50%, 并且其持续时间提高至 6 秒。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击.",
+			"zhTW": "冷卻時間:50 秒\n以岩石包覆附近所有敵人,使其昏迷 3 秒。你對石化敵人造成的爆擊傷害提高 x25%。\n\n對上首領時,此爆擊傷害加成提高至 x50%,持續時間延長至 6 秒。\n\nTags: 絕招, 自然魔法, 大地, 控場, 冷卻時間, 爆擊."
 },
 		id: 110,
 		maxPoints: 1,
-		values: [ "50" ],
 		x: 3.895,
 		y: -279.14
 	},
@@ -4817,7 +4804,7 @@ Tags: Damage Reduction, Shapeshifting, Elite Monsters, Werebear, Werewolf.`,
 	},
 	"Lacerate": {
 		connections: [ "Ultimate", "Prime Lacerate" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 45 seconds
 Lucky Hit Chance: 7%
 Shapeshift into a Werewolf, become Immune and quickly dash 10 times between enemies in the area dealing up to 400% damage.
 
@@ -4837,22 +4824,21 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 			"zhTW": "割裂"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 7%\nVerwandelt Euch in einen Werwolf, werdet immun, springt 10-mal schnell zwischen Gegnern im Wirkungsbereich hin und her und verursacht bis zu 400% Schaden.\n\nTags: Ultimativ, Gestaltwandeln, Werwolf, Immun, Physisch, Schaden, Abklingzeit, Schadensreduktion.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 7%\nTe transformas en un hombre lobo, te vuelves inmune y te desplazas rápidamente 10 veces entre los enemigos cercanos para infligirles hasta 400% de daño.\n\nTags: Definitiva, Cambio de forma, Hombre lobo, Inmune, Física, Daño, Tiempo de reutilización, Reducción de daño.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 7%\nCambias de forma a un hombre lobo, te vuelves inmune, arremetes rápidamente 10 veces entre los enemigos en el área y les infliges hasta 400% de daño.\n\nTags: Máxima, Metamorfosis, Hombre lobo, Inmune, Física, Daño, Recuperación, Reducción de daño.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 7%\nVous vous transformez en lycanthrope, devenez insensible et bondissez 10 fois parmi les adversaires dans la zone, ce qui inflige jusqu'à 400% points de dégâts.\n\nTags: Ultime, Métamorphose, Lycanthrope, Insensible, Dégâts physiques, Dégâts, Temps de recharge, Réduction des dégâts.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 7%\nMuti in un Lupo Mannaro, diventando immune e scattando rapidamente 10 volte tra i nemici vicini, infliggendo fino a 400% danni.\n\nTags: Ultra, Mutaforma, Lupo Mannaro, Immunità, Fisico, Danni, Tempo di recupero, Riduzione danni.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 7%\n人狼に変身して無効状態になり、付近の敵の間を10回素早くダッシュして最大400%のダメージを与える。\n\nTags: 奥義, 変身, 人狼, 無効, 物理, ダメージ, クールダウン, ダメージ減少.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 7%\n늑대인간으로 변신하여 면역 상태가 됩니다. 해당 지역 내의 적 사이를 10회 빠르게 오가며 최대 400%의 피해를 줍니다.\n\nTags: 궁극기, 변신, 늑대인간, 면역, 물리, 피해, 재사용 대기시간, 피해 감소.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 7%\nPrzemieniasz się w wilkołaka, zyskujesz niewrażliwość i błyskawicznie przeskakujesz 10 razy między wrogami na obszarze oraz zadajesz im 400% pkt. obrażeń.\n\nTags: Specjalne, Zmiennokształtność, Wilkołak, Niewrażliwość, Fizyczne, Obrażenia, Odnowienie, Redukcja Obrażeń.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 7%\nTransforma-se em um lobisomem, fica imune e corre rapidamente 10 vezes entre inimigos na área, causando até 400% de dano.\n\nTags: Suprema, Metamorfose, Lobisomem, Imune, Física, Dano, Recarga, Redução de Dano.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 7%.\nВы принимаете облик волка, получаете невосприимчивость и совершаете 10 стремительных рывка:стремительных рывков между ближайшими противниками, нанося до 400% ед. урона.\n\nTags: Мощное умение, Смена облика, Облик волка, Невосприимчивость, Физический урон, Урон, Время восстановления, Уменьшение урона.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 7%\n变成狼人, 获得免疫并在区域内的敌人身边快速冲刺 10 次, 最多造成 400% 点伤害。\n\nTags: 终极技能, 变形, 狼人, 免疫, 物理, 伤害, 冷却时间, 伤害减免.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:7%\n變身為狼人,進入免疫狀態,並快速在範圍內的敵人之間衝刺 10 次,造成最多 400% 點傷害。\n\nTags: 絕招, 變形, 狼人, 免疫, 物理, 傷害, 冷卻時間, 傷害減免."
+			"deDE": "Abklingzeit: 45 Sek.\nGlückstrefferchance: 7%\nVerwandelt Euch in einen Werwolf, werdet immun, springt 10-mal schnell zwischen Gegnern im Wirkungsbereich hin und her und verursacht bis zu 400% Schaden.\n\nTags: Ultimativ, Gestaltwandeln, Werwolf, Immun, Physisch, Schaden, Abklingzeit, Schadensreduktion.",
+			"esES": "Tiempo de reutilización: 45 s\nProbabilidad de golpe de suerte: 7%\nTe transformas en un hombre lobo, te vuelves inmune y te desplazas rápidamente 10 veces entre los enemigos cercanos para infligirles hasta 400% de daño.\n\nTags: Definitiva, Cambio de forma, Hombre lobo, Inmune, Física, Daño, Tiempo de reutilización, Reducción de daño.",
+			"esMX": "Recuperación: 45 segundos\nProbabilidad de golpe afortunado: 7%\nCambias de forma a un hombre lobo, te vuelves inmune, arremetes rápidamente 10 veces entre los enemigos en el área y les infliges hasta 400% de daño.\n\nTags: Máxima, Metamorfosis, Hombre lobo, Inmune, Física, Daño, Recuperación, Reducción de daño.",
+			"frFR": "Temps de recharge: 45 s\nChances d'obtenir un coup de chance: 7%\nVous vous transformez en lycanthrope, devenez insensible et bondissez 10 fois parmi les adversaires dans la zone, ce qui inflige jusqu'à 400% points de dégâts.\n\nTags: Ultime, Métamorphose, Lycanthrope, Insensible, Dégâts physiques, Dégâts, Temps de recharge, Réduction des dégâts.",
+			"itIT": "Tempo di recupero: 45 s\nProbabilità di colpo fortunato: 7%\nMuti in un Lupo Mannaro, diventando immune e scattando rapidamente 10 volte tra i nemici vicini, infliggendo fino a 400% danni.\n\nTags: Ultra, Mutaforma, Lupo Mannaro, Immunità, Fisico, Danni, Tempo di recupero, Riduzione danni.",
+			"jaJP": "クールダウン: 45秒\n幸運の一撃発生率: 7%\n人狼に変身して無効状態になり、付近の敵の間を10回素早くダッシュして最大400%のダメージを与える。\n\nTags: 奥義, 変身, 人狼, 無効, 物理, ダメージ, クールダウン, ダメージ減少.",
+			"koKR": "재사용 대기시간: 45초\n행운의 적중 확률: 7%\n늑대인간으로 변신하여 면역 상태가 됩니다. 해당 지역 내의 적 사이를 10회 빠르게 오가며 최대 400%의 피해를 줍니다.\n\nTags: 궁극기, 변신, 늑대인간, 면역, 물리, 피해, 재사용 대기시간, 피해 감소.",
+			"plPL": "Czas odnowienia: 45 sek.\nSzansa na szczęśliwy traf: 7%\nPrzemieniasz się w wilkołaka, zyskujesz niewrażliwość i błyskawicznie przeskakujesz 10 razy między wrogami na obszarze oraz zadajesz im 400% pkt. obrażeń.\n\nTags: Specjalne, Zmiennokształtność, Wilkołak, Niewrażliwość, Fizyczne, Obrażenia, Odnowienie, Redukcja Obrażeń.",
+			"ptBR": "Recarga: 45 segundos\nChance de Golpe de Sorte: 7%\nTransforma-se em um lobisomem, fica imune e corre rapidamente 10 vezes entre inimigos na área, causando até 400% de dano.\n\nTags: Suprema, Metamorfose, Lobisomem, Imune, Física, Dano, Recarga, Redução de Dano.",
+			"ruRU": "Время восстановления: 45 сек.\nВероятность удачного удара: 7%.\nВы принимаете облик волка, получаете невосприимчивость и совершаете 10 стремительных рывка:стремительных рывков между ближайшими противниками, нанося до 400% ед. урона.\n\nTags: Мощное умение, Смена облика, Облик волка, Невосприимчивость, Физический урон, Урон, Время восстановления, Уменьшение урона.",
+			"zhCN": "冷却时间: 45 秒\n幸运一击几率: 7%\n变成狼人, 获得免疫并在区域内的敌人身边快速冲刺 10 次, 最多造成 400% 点伤害。\n\nTags: 终极技能, 变形, 狼人, 免疫, 物理, 伤害, 冷却时间, 伤害减免.",
+			"zhTW": "冷卻時間:45 秒\n幸運觸發機率:7%\n變身為狼人,進入免疫狀態,並快速在範圍內的敵人之間衝刺 10 次,造成最多 400% 點傷害。\n\nTags: 絕招, 變形, 狼人, 免疫, 物理, 傷害, 冷卻時間, 傷害減免."
 },
 		id: 120,
 		maxPoints: 1,
-		values: [ "45" ],
 		x: -581.85,
 		y: 142.205
 	},
@@ -4936,7 +4922,7 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 	},
 	"Cataclysm": {
 		connections: [ "Ultimate", "Prime Cataclysm" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 60 seconds
 Lucky Hit Chance: 62.175%
 A massive storm follows you for 8 seconds. Twisters Knock Back enemies, and lightning strikes wildly dealing 52% damage.
 
@@ -4956,22 +4942,21 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"zhTW": "災變"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 62.175%\nEin massiver Sturm folgt Euch 8 Sek. lang. Wirbel stoßen Gegner zurück und wilde Blitzschläge verursachen 52% Schaden.\n\nTags: Ultimativ, Naturmagie, Sturm, Blitz, Schaden, Abklingzeit, Kontrollverlust.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 62.175%\nDurante 8 s, te sigue una enorme tormenta con remolinos que repelen a los enemigos y violentos relámpagos que infligen 52% de daño.\n\nTags: Definitiva, Magia de la naturaleza, Tormenta, Rayos, Daño, Tiempo de reutilización, Control de masas.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 62.175%\nUna gran tormenta te sigue durante 8 segundos. Los torbellinos repelen a los enemigos, y caen relámpagos terribles que infligen 52% de daño.\n\nTags: Máxima, Magia de la naturaleza, Tormenta, Rayo, Daño, Recuperación, Control de multitudes.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 62.175%\nUne énorme tempête vous suit pendant 8 s. Des tornades repoussent les adversaires et des coups de foudre s'abattent violemment du ciel en infligeant 52% points de dégâts.\n\nTags: Ultime, Magie naturelle, Tempête, Foudre, Dégâts, Temps de recharge, Perte de contrôle.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 62.175%\nUna gigantesca tempesta ti segue per 8 s. I tornado respingono i nemici e i fulmini colpiscono selvaggiamente infliggendo 52% danni.\n\nTags: Ultra, Magia naturale, Tempesta, Fulmine, Danni, Tempo di recupero, Effetti debilitanti.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 62.175%\n巨大な嵐が8秒間、自分の後をついて来る。旋風が敵をノックバックさせ、強烈な稲妻が52%のダメージを与える。\n\nTags: 奥義, 自然魔法, 嵐, 稲妻, ダメージ, クールダウン, 操作障害効果.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 62.175%\n8초 동안 거대한 폭풍이 드루이드를 따라다닙니다. 돌개바람이 적을 밀쳐내고 번개가 마구 내리쳐 52%의 피해를 줍니다.\n\nTags: 궁극기, 자연 마법, 폭풍, 번개, 피해, 재사용 대기시간, 군중 제어.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 62.175%\nPotężna burza podąża za tobą przez 8 sek. Tornada odrzucają wrogów, a wokół uderzają pioruny, zadając 52% pkt. obrażeń.\n\nTags: Specjalne, Magia Natury, Burza, Błyskawica, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 62.175%\nUma enorme tempestade segue você por 8 segundos. Ciclones repelem os inimigos e raios são lançados descontroladamente, causando 52% de dano.\n\nTags: Suprema, Magia da Natureza, Tempestade, Eletricidade, Dano, Recarga, Controle de Grupo.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 62.175%.\nПризывает разрушительную бурю, которая следует за вами в течение 8 сек. Появляющиеся вихри отбрасывают противников, а яростные разряды молнии наносят целям 52% ед. урона.\n\nTags: Мощное умение, Силы природы, Буря, Молния, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 62.175%\n一场巨大的风暴跟随着你, 持续 8 秒。龙卷风会击退敌人, 并用闪电狂野地打击敌人, 造成 52% 点伤害。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:62.175%\n巨大風暴會跟隨著你,持續 8 秒。旋風術會擊退敵人,並降下猛烈閃電造成 52% 點傷害。\n\nTags: 絕招, 自然魔法, 風暴, 電擊, 傷害, 冷卻時間, 控場."
+			"deDE": "Abklingzeit: 60 Sek.\nGlückstrefferchance: 62.175%\nEin massiver Sturm folgt Euch 8 Sek. lang. Wirbel stoßen Gegner zurück und wilde Blitzschläge verursachen 52% Schaden.\n\nTags: Ultimativ, Naturmagie, Sturm, Blitz, Schaden, Abklingzeit, Kontrollverlust.",
+			"esES": "Tiempo de reutilización: 60 s\nProbabilidad de golpe de suerte: 62.175%\nDurante 8 s, te sigue una enorme tormenta con remolinos que repelen a los enemigos y violentos relámpagos que infligen 52% de daño.\n\nTags: Definitiva, Magia de la naturaleza, Tormenta, Rayos, Daño, Tiempo de reutilización, Control de masas.",
+			"esMX": "Recuperación: 60 segundos\nProbabilidad de golpe afortunado: 62.175%\nUna gran tormenta te sigue durante 8 segundos. Los torbellinos repelen a los enemigos, y caen relámpagos terribles que infligen 52% de daño.\n\nTags: Máxima, Magia de la naturaleza, Tormenta, Rayo, Daño, Recuperación, Control de multitudes.",
+			"frFR": "Temps de recharge: 60 s\nChances d'obtenir un coup de chance: 62.175%\nUne énorme tempête vous suit pendant 8 s. Des tornades repoussent les adversaires et des coups de foudre s'abattent violemment du ciel en infligeant 52% points de dégâts.\n\nTags: Ultime, Magie naturelle, Tempête, Foudre, Dégâts, Temps de recharge, Perte de contrôle.",
+			"itIT": "Tempo di recupero: 60 s\nProbabilità di colpo fortunato: 62.175%\nUna gigantesca tempesta ti segue per 8 s. I tornado respingono i nemici e i fulmini colpiscono selvaggiamente infliggendo 52% danni.\n\nTags: Ultra, Magia naturale, Tempesta, Fulmine, Danni, Tempo di recupero, Effetti debilitanti.",
+			"jaJP": "クールダウン: 60秒\n幸運の一撃発生率: 62.175%\n巨大な嵐が8秒間、自分の後をついて来る。旋風が敵をノックバックさせ、強烈な稲妻が52%のダメージを与える。\n\nTags: 奥義, 自然魔法, 嵐, 稲妻, ダメージ, クールダウン, 操作障害効果.",
+			"koKR": "재사용 대기시간: 60초\n행운의 적중 확률: 62.175%\n8초 동안 거대한 폭풍이 드루이드를 따라다닙니다. 돌개바람이 적을 밀쳐내고 번개가 마구 내리쳐 52%의 피해를 줍니다.\n\nTags: 궁극기, 자연 마법, 폭풍, 번개, 피해, 재사용 대기시간, 군중 제어.",
+			"plPL": "Czas odnowienia: 60 sek.\nSzansa na szczęśliwy traf: 62.175%\nPotężna burza podąża za tobą przez 8 sek. Tornada odrzucają wrogów, a wokół uderzają pioruny, zadając 52% pkt. obrażeń.\n\nTags: Specjalne, Magia Natury, Burza, Błyskawica, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
+			"ptBR": "Recarga: 60 segundos\nChance de Golpe de Sorte: 62.175%\nUma enorme tempestade segue você por 8 segundos. Ciclones repelem os inimigos e raios são lançados descontroladamente, causando 52% de dano.\n\nTags: Suprema, Magia da Natureza, Tempestade, Eletricidade, Dano, Recarga, Controle de Grupo.",
+			"ruRU": "Время восстановления: 60 сек.\nВероятность удачного удара: 62.175%.\nПризывает разрушительную бурю, которая следует за вами в течение 8 сек. Появляющиеся вихри отбрасывают противников, а яростные разряды молнии наносят целям 52% ед. урона.\n\nTags: Мощное умение, Силы природы, Буря, Молния, Урон, Время восстановления, Контроль.",
+			"zhCN": "冷却时间: 60 秒\n幸运一击几率: 62.175%\n一场巨大的风暴跟随着你, 持续 8 秒。龙卷风会击退敌人, 并用闪电狂野地打击敌人, 造成 52% 点伤害。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控.",
+			"zhTW": "冷卻時間:60 秒\n幸運觸發機率:62.175%\n巨大風暴會跟隨著你,持續 8 秒。旋風術會擊退敵人,並降下猛烈閃電造成 52% 點傷害。\n\nTags: 絕招, 自然魔法, 風暴, 電擊, 傷害, 冷卻時間, 控場."
 },
 		id: 123,
 		maxPoints: 1,
-		values: [ "60" ],
 		x: -581.665,
 		y: -104.025
 	},

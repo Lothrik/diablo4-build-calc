@@ -1860,7 +1860,7 @@ Tags: Thorns.`,
 	},
 	"Blood Mist": {
 		connections: [ "Enhanced Blood Mist", "Macabre" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} seconds
 Lucky Hit Chance: 8.733%
 Disperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 20% and you periodically deal 1.7% damage to enemies and Heal for {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% of your Maximum Life.
 
@@ -1880,22 +1880,21 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 			"zhTW": "血霧"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 8.733%\nLöst Euch in einen blutigen Nebel auf und werdet 3 Sek. lang immun. Eure Bewegungsgeschwindigkeit ist um 20% reduziert und Ihr fügt Gegnern in regelmäßigen Abständen 1.7% Schaden zu und heilt Euch um {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% Eures maximalen Lebens.\n\nTags: Makaber, Blut, Immun, Schaden, Physisch, Abklingzeit, Heilung, Schadensreduktion.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 8.733%\nTe dispersas en forma de bruma sangrienta para volverte inmune durante 3 s. Tu velocidad de movimiento se reduce un 20%, infliges 1.7% de daño periódicamente a los enemigos y te curas un {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% de tu vida máxima.\n\nTags: Macabra, Sangre, Inmune, Daño, Física, Tiempo de reutilización, Curación, Reducción de daño.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 8.733%\nTe disipas en una niebla sangrienta y te vuelves inmune durante 3 segundos. Tu velocidad de movimiento se reduce un 20%, infliges 1.7% de daño a los enemigos periódicamente y te sanas por un {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% de tu vida máxima.\n\nTags: Macabro, Sangre, Inmune, Daño, Física, Recuperación, Sanación, Reducción de daño.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 8.733%\nVotre enveloppe charnelle se sublime en une brume de sang, ce qui vous rend insensible pendant 3 s. Votre vitesse de déplacement est réduite de 20%, vous infligez régulièrement 1.7% points de dégâts aux adversaires et récupérez un montant de points de vie égal à {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% de votre maximum de points de vie.\n\nTags: Macabre, Sang, Insensible, Dégâts, Dégâts physiques, Temps de recharge, Soins, Réduction des dégâts.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 8.733%\nTi disperdi in una nebbia di sangue, diventando immune per 3 s. La tua velocità di movimento è ridotta del 20% e infliggi periodicamente 1.7% danni ai nemici, oltre a curarti del {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% della tua Vita massima.\n\nTags: Macabro, Sangue, Immunità, Danni, Fisico, Tempo di recupero, Guarigione, Riduzione danni.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 8.733%\n血の霧に変身して3秒間、無効状態になる。移動速度が20%低下し、敵に1.7%のダメージを与えて自身のライフ最大値の{0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% にあたるを回復する。\n\nTags: 妖気, 血, 無効, ダメージ, 物理, クールダウン, 回復, ダメージ減少.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 8.733%\n3초 동안 피의 안개로 변해 면역 상태가 됩니다. 이동 속도가 20% 감소하고, 주기적으로 적에게 1.7%의 피해를 주며, 최대 생명력의 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}%만큼 생명력을 회복합니다.\n\nTags: 섬뜩함, 피, 면역, 피해, 물리, 재사용 대기시간, 치유, 피해 감소.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 8.733%\nZamieniasz się w krwawą mgłę i otrzymujesz niewrażliwość na 3 sek. Twoja szybkość ruchu jest zmniejszona o 20% i co jakiś czas zadajesz wrogom 1.7% pkt. obrażeń oraz przywracasz sobie {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% maksymalnego zdrowia.\n\nTags: Makabra, Krew, Niewrażliwość, Obrażenia, Fizyczne, Odnowienie, Leczenie, Redukcja Obrażeń.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 8.733%\nDispersa-se em uma névoa sangrenta, tornando-se imune por 3 segundos. Sua velocidade de movimento é reduzida em 20%, você periodicamente causa 1.7% de dano aos inimigos e cura-se em {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% da sua vida máxima.\n\nTags: Macabra, Sangue, Imune, Dano, Física, Recarga, Cura, Redução de Dano.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 8.733%.\nВы превращаетесь в кровавый туман и получаете невосприимчивость на 3 сек. Ваша скорость передвижения снижается на 20%, вы время от времени наносите противникам 1.7% ед. урона и восполняете {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% максимального запаса здоровья.\n\nTags: Макабр, Кровь, Невосприимчивость, Урон, Физический урон, Время восстановления, Исцеление, Уменьшение урона.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 8.733%\n化作一片血雾, 在 3 秒内获得免疫。你的移动速度降低 20%, 并且周期性对敌人造成 1.7% 点伤害, 恢复你 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% 生命上限。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:8.733%\n化身為血霧,獲得免疫狀態,持續 3 秒。你的移動速度降低 20%,定期對敵人造成 1.7% 點傷害,並恢復生命值上限的 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}%。\n\nTags: 亡駭, 鮮血, 免疫, 傷害, 物理, 冷卻時間, 治療, 傷害減免."
+			"deDE": "Abklingzeit: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} Sek.\nGlückstrefferchance: 8.733%\nLöst Euch in einen blutigen Nebel auf und werdet 3 Sek. lang immun. Eure Bewegungsgeschwindigkeit ist um 20% reduziert und Ihr fügt Gegnern in regelmäßigen Abständen 1.7% Schaden zu und heilt Euch um {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% Eures maximalen Lebens.\n\nTags: Makaber, Blut, Immun, Schaden, Physisch, Abklingzeit, Heilung, Schadensreduktion.",
+			"esES": "Tiempo de reutilización: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} s\nProbabilidad de golpe de suerte: 8.733%\nTe dispersas en forma de bruma sangrienta para volverte inmune durante 3 s. Tu velocidad de movimiento se reduce un 20%, infliges 1.7% de daño periódicamente a los enemigos y te curas un {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% de tu vida máxima.\n\nTags: Macabra, Sangre, Inmune, Daño, Física, Tiempo de reutilización, Curación, Reducción de daño.",
+			"esMX": "Recuperación: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} segundos\nProbabilidad de golpe afortunado: 8.733%\nTe disipas en una niebla sangrienta y te vuelves inmune durante 3 segundos. Tu velocidad de movimiento se reduce un 20%, infliges 1.7% de daño a los enemigos periódicamente y te sanas por un {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% de tu vida máxima.\n\nTags: Macabro, Sangre, Inmune, Daño, Física, Recuperación, Sanación, Reducción de daño.",
+			"frFR": "Temps de recharge: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} s\nChances d'obtenir un coup de chance: 8.733%\nVotre enveloppe charnelle se sublime en une brume de sang, ce qui vous rend insensible pendant 3 s. Votre vitesse de déplacement est réduite de 20%, vous infligez régulièrement 1.7% points de dégâts aux adversaires et récupérez un montant de points de vie égal à {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% de votre maximum de points de vie.\n\nTags: Macabre, Sang, Insensible, Dégâts, Dégâts physiques, Temps de recharge, Soins, Réduction des dégâts.",
+			"itIT": "Tempo di recupero: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} s\nProbabilità di colpo fortunato: 8.733%\nTi disperdi in una nebbia di sangue, diventando immune per 3 s. La tua velocità di movimento è ridotta del 20% e infliggi periodicamente 1.7% danni ai nemici, oltre a curarti del {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% della tua Vita massima.\n\nTags: Macabro, Sangue, Immunità, Danni, Fisico, Tempo di recupero, Guarigione, Riduzione danni.",
+			"jaJP": "クールダウン: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8}秒\n幸運の一撃発生率: 8.733%\n血の霧に変身して3秒間、無効状態になる。移動速度が20%低下し、敵に1.7%のダメージを与えて自身のライフ最大値の{0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% にあたるを回復する。\n\nTags: 妖気, 血, 無効, ダメージ, 物理, クールダウン, 回復, ダメージ減少.",
+			"koKR": "재사용 대기시간: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8}초\n행운의 적중 확률: 8.733%\n3초 동안 피의 안개로 변해 면역 상태가 됩니다. 이동 속도가 20% 감소하고, 주기적으로 적에게 1.7%의 피해를 주며, 최대 생명력의 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}%만큼 생명력을 회복합니다.\n\nTags: 섬뜩함, 피, 면역, 피해, 물리, 재사용 대기시간, 치유, 피해 감소.",
+			"plPL": "Czas odnowienia: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} sek.\nSzansa na szczęśliwy traf: 8.733%\nZamieniasz się w krwawą mgłę i otrzymujesz niewrażliwość na 3 sek. Twoja szybkość ruchu jest zmniejszona o 20% i co jakiś czas zadajesz wrogom 1.7% pkt. obrażeń oraz przywracasz sobie {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% maksymalnego zdrowia.\n\nTags: Makabra, Krew, Niewrażliwość, Obrażenia, Fizyczne, Odnowienie, Leczenie, Redukcja Obrażeń.",
+			"ptBR": "Recarga: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} segundos\nChance de Golpe de Sorte: 8.733%\nDispersa-se em uma névoa sangrenta, tornando-se imune por 3 segundos. Sua velocidade de movimento é reduzida em 20%, você periodicamente causa 1.7% de dano aos inimigos e cura-se em {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% da sua vida máxima.\n\nTags: Macabra, Sangue, Imune, Dano, Física, Recarga, Cura, Redução de Dano.",
+			"ruRU": "Время восстановления: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} сек.\nВероятность удачного удара: 8.733%.\nВы превращаетесь в кровавый туман и получаете невосприимчивость на 3 сек. Ваша скорость передвижения снижается на 20%, вы время от времени наносите противникам 1.7% ед. урона и восполняете {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% максимального запаса здоровья.\n\nTags: Макабр, Кровь, Невосприимчивость, Урон, Физический урон, Время восстановления, Исцеление, Уменьшение урона.",
+			"zhCN": "冷却时间: {24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} 秒\n幸运一击几率: 8.733%\n化作一片血雾, 在 3 秒内获得免疫。你的移动速度降低 20%, 并且周期性对敌人造成 1.7% 点伤害, 恢复你 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}% 生命上限。\n\nTags: 骇术, 鲜血, 免疫, 伤害, 物理, 冷却时间, 治疗, 伤害减免.",
+			"zhTW": "冷卻時間:{24/23.1/22.2/21.48/20.76/20.22/19.68/19.32/18.96/18.6/18.24/17.88/17.7/17.52/17.34/17.16/17.07/16.98/16.89/16.8} 秒\n幸運觸發機率:8.733%\n化身為血霧,獲得免疫狀態,持續 3 秒。你的移動速度降低 20%,定期對敵人造成 1.7% 點傷害,並恢復生命值上限的 {0.5/0.6/0.6/0.7/0.7/0.8/0.8/0.8/0.9/1}%。\n\nTags: 亡駭, 鮮血, 免疫, 傷害, 物理, 冷卻時間, 治療, 傷害減免."
 },
 		id: 46,
 		maxPoints: 5,
-		values: [ "{20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14}" ],
 		x: 6.515,
 		y: -278.795
 	},
@@ -2018,7 +2017,7 @@ Tags: Macabre, Blood, Immune, Damage, Physical, Cooldown, Healing, Damage Reduct
 	},
 	"Bone Prison": {
 		connections: [ "Enhanced Bone Prison", "Macabre" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} seconds
 Unearth a prison of bone with {#} Life that surrounds the target area for 6 seconds.
 
 Tags: Macabre, Bone, Cooldown.`,
@@ -2037,22 +2036,22 @@ Tags: Macabre, Bone, Cooldown.`,
 			"zhTW": "骨牢"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nLasst ein Knochengefängnis mit {#} Leben aus dem Boden steigen, das den Zielbereich 6 Sek. lang umgibt.\n\nTags: Makaber, Knochen, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nDesentierras una prisión de huesos con {#} de vida que rodea la zona seleccionada durante 6 s.\n\nTags: Macabra, Hueso, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nDesentierras una prisión ósea con {#} de vida que rodea el área objetivo durante 6 segundos.\n\nTags: Macabro, Hueso, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nVous exhumez une prison d'os avec {#} points de vie qui entoure la zone ciblée pendant 6 s.\n\nTags: Macabre, Os, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nInnalzi una prigione d'ossa con {#} Vita che circonda l'area bersaglio per 6 s.\n\nTags: Macabro, Ossa, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n骨の檻を地面から出現させる。この檻はライフが{#}あり、標的エリアを6秒間取り囲む。\n\nTags: 妖気, 骨, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n땅에서 뼈의 감옥을 일으켜 세웁니다. 뼈의 감옥은 {#}의 생명력을 지니고 대상 지역을 6초 동안 둘러쌉니다.\n\nTags: 섬뜩함, 뼈, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nPrzywołujesz spod ziemi więzienie z kości, które ma {#} pkt. wytrzymałości i otacza wskazany obszar na 6 sek.\n\nTags: Makabra, Kości, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nDesenterra uma prisão de ossos com {#} de vida ao redor da área selecionada por 6 segundos.\n\nTags: Macabra, Osso, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nПоднимает из-под земли костяную тюрьму с {#} ед. прочности, которая огораживает указанную область в течение 6 сек.\n\nTags: Макабр, Кости, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n从地面召唤一道具有 {#} 点生命的骨牢包围目标区域, 持续 6 秒。\n\nTags: 骇术, 白骨, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n呼喚破土而出的骸骨牢籠,其擁有 {#} 點生命值,會包圍指定地點 6 秒。\n\nTags: 亡駭, 骸骨, 冷卻時間."
+			"deDE": "Abklingzeit: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} Sek.\nLasst ein Knochengefängnis mit {#} Leben aus dem Boden steigen, das den Zielbereich 6 Sek. lang umgibt.\n\nTags: Makaber, Knochen, Abklingzeit.",
+			"esES": "Tiempo de reutilización: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} s\nDesentierras una prisión de huesos con {#} de vida que rodea la zona seleccionada durante 6 s.\n\nTags: Macabra, Hueso, Tiempo de reutilización.",
+			"esMX": "Recuperación: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} segundos\nDesentierras una prisión ósea con {#} de vida que rodea el área objetivo durante 6 segundos.\n\nTags: Macabro, Hueso, Recuperación.",
+			"frFR": "Temps de recharge: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} s\nVous exhumez une prison d'os avec {#} points de vie qui entoure la zone ciblée pendant 6 s.\n\nTags: Macabre, Os, Temps de recharge.",
+			"itIT": "Tempo di recupero: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} s\nInnalzi una prigione d'ossa con {#} Vita che circonda l'area bersaglio per 6 s.\n\nTags: Macabro, Ossa, Tempo di recupero.",
+			"jaJP": "クールダウン: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12}秒\n骨の檻を地面から出現させる。この檻はライフが{#}あり、標的エリアを6秒間取り囲む。\n\nTags: 妖気, 骨, クールダウン.",
+			"koKR": "재사용 대기시간: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12}초\n땅에서 뼈의 감옥을 일으켜 세웁니다. 뼈의 감옥은 {#}의 생명력을 지니고 대상 지역을 6초 동안 둘러쌉니다.\n\nTags: 섬뜩함, 뼈, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} sek.\nPrzywołujesz spod ziemi więzienie z kości, które ma {#} pkt. wytrzymałości i otacza wskazany obszar na 6 sek.\n\nTags: Makabra, Kości, Odnowienie.",
+			"ptBR": "Recarga: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} segundos\nDesenterra uma prisão de ossos com {#} de vida ao redor da área selecionada por 6 segundos.\n\nTags: Macabra, Osso, Recarga.",
+			"ruRU": "Время восстановления: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} сек.\nПоднимает из-под земли костяную тюрьму с {#} ед. прочности, которая огораживает указанную область в течение 6 сек.\n\nTags: Макабр, Кости, Время восстановления.",
+			"zhCN": "冷却时间: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} 秒\n从地面召唤一道具有 {#} 点生命的骨牢包围目标区域, 持续 6 秒。\n\nTags: 骇术, 白骨, 冷却时间.",
+			"zhTW": "冷卻時間:{20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} 秒\n呼喚破土而出的骸骨牢籠,其擁有 {#} 點生命值,會包圍指定地點 6 秒。\n\nTags: 亡駭, 骸骨, 冷卻時間."
 },
 		id: 50,
 		maxPoints: 5,
-		values: [ "{20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14}", "" ],
+		values: [ "" ],
 		x: 411.49,
 		y: 218.61
 	},
@@ -2685,7 +2684,7 @@ Tags: Damage.`,
 necromancerData["Summoning"] = {
 	"Corpse Tendrils": {
 		connections: [ "Enhanced Corpse Tendrils", "Summoning" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} seconds
 Lucky Hit Chance: 20%
 Veins burst out of a Corpse, Pulling in enemies, Stunning them for 3 seconds, and dealing {20/22/24/26/28/30/32/34/36/38}% damage to them. Does not consume the Corpse.
 
@@ -2705,22 +2704,21 @@ Tags: Corpse, Corruption, Cooldown, Damage, Crowd Control, Physical.`,
 			"zhTW": "屍體觸鬚"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 20%\nAdern brechen aus einer Leiche hervor, ziehen Gegner zu sich, betäuben sie 3 Sek. lang und fügen ihnen {20/22/24/26/28/30/32/34/36/38}% Schaden zu. Dies verbraucht den Leichnam nicht.\n\nTags: Leiche, Verderbnis, Abklingzeit, Schaden, Kontrollverlust, Physisch.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 20%\nDe un cadáver brotan unas venas que atraen a los enemigos, los aturden durante 3 s y les infligen {20/22/24/26/28/30/32/34/36/38}% de daño. No consume el cadáver.\n\nTags: Cadáver, Corrupción, Tiempo de reutilización, Daño, Control de masas, Física.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 20%\nExpulsas las venas de un cadáver que succionan a los enemigos, los aturden durante 3 segundos y les infligen {20/22/24/26/28/30/32/34/36/38}% de daño. No consume el cadáver.\n\nTags: Cadáver, Corrupción, Recuperación, Daño, Control de multitudes, Física.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 20%\nDes veines jaillissent d'un cadavre, attirant les adversaires, les étourdissant pendant 3 s et leur infligeant {20/22/24/26/28/30/32/34/36/38}% points de dégâts. Ceci ne consomme pas le cadavre.\n\nTags: Cadavres, Corruption, Temps de recharge, Dégâts, Perte de contrôle, Dégâts physiques, Cadavre.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 20%\nLe vene di un cadavere fuoriescono, trascinando i nemici verso di te, stordendoli per 3 s e infliggendogli {20/22/24/26/28/30/32/34/36/38}% danni. Il cadavere non viene consumato.\n\nTags: Cadavere, Corruzione, Tempo di recupero, Danni, Effetti debilitanti, Fisico.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 20%\n死体を突き破って飛び出した血管が敵を引き寄せて3秒間スタンさせ、さらに{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。死体を消費しない。\n\nTags: 死体, 腐敗, クールダウン, ダメージ, 操作障害効果, 物理.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 20%\n시체에서 핏줄이 튀어나와 적을 끌어당겨 3초 동안 기절시키고 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다. 시체를 소모하지 않습니다.\n\nTags: 시체, 타락, 재사용 대기시간, 피해, 군중 제어, 물리.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 20%\nZe zwłok wystrzeliwują żyły przyciągające wrogów, które ogłuszają ich na 3 sek. oraz zadają im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń. Umiejętność nie pochłania zwłok.\n\nTags: Zwłoki, Spaczenie, Odnowienie, Obrażenia, Ograniczanie Kontroli, Fizyczne.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 20%\nVeias irrompem de um cadáver, puxando inimigos, atordoando-os por 3 segundos e causando {20/22/24/26/28/30/32/34/36/38}% de dano a eles. Não consome o cadáver.\n\nTags: Cadáver, Corrupção, Recarga, Dano, Controle de Grupo, Física.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 20%.\nИз трупа вырываются вены, притягивающие противников и оглушающие их на 3 сек., нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона. При этом труп не уничтожается.\n\nTags: Труп, Осквернение, Время восстановления, Урон, Контроль, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n亡骸迸发血脉并藉此拖拽敌人, 使其昏迷 3 秒并对其造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。不消耗亡骸。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:20%\n觸鬚穿出屍體,將敵人拉近並擊昏他們 3 秒,對其造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。不會消耗屍體。\n\nTags: 屍體, 腐化, 冷卻時間, 傷害, 控場, 物理."
+			"deDE": "Abklingzeit: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} Sek.\nGlückstrefferchance: 20%\nAdern brechen aus einer Leiche hervor, ziehen Gegner zu sich, betäuben sie 3 Sek. lang und fügen ihnen {20/22/24/26/28/30/32/34/36/38}% Schaden zu. Dies verbraucht den Leichnam nicht.\n\nTags: Leiche, Verderbnis, Abklingzeit, Schaden, Kontrollverlust, Physisch.",
+			"esES": "Tiempo de reutilización: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} s\nProbabilidad de golpe de suerte: 20%\nDe un cadáver brotan unas venas que atraen a los enemigos, los aturden durante 3 s y les infligen {20/22/24/26/28/30/32/34/36/38}% de daño. No consume el cadáver.\n\nTags: Cadáver, Corrupción, Tiempo de reutilización, Daño, Control de masas, Física.",
+			"esMX": "Recuperación: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} segundos\nProbabilidad de golpe afortunado: 20%\nExpulsas las venas de un cadáver que succionan a los enemigos, los aturden durante 3 segundos y les infligen {20/22/24/26/28/30/32/34/36/38}% de daño. No consume el cadáver.\n\nTags: Cadáver, Corrupción, Recuperación, Daño, Control de multitudes, Física.",
+			"frFR": "Temps de recharge: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} s\nChances d'obtenir un coup de chance: 20%\nDes veines jaillissent d'un cadavre, attirant les adversaires, les étourdissant pendant 3 s et leur infligeant {20/22/24/26/28/30/32/34/36/38}% points de dégâts. Ceci ne consomme pas le cadavre.\n\nTags: Cadavres, Corruption, Temps de recharge, Dégâts, Perte de contrôle, Dégâts physiques, Cadavre.",
+			"itIT": "Tempo di recupero: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} s\nProbabilità di colpo fortunato: 20%\nLe vene di un cadavere fuoriescono, trascinando i nemici verso di te, stordendoli per 3 s e infliggendogli {20/22/24/26/28/30/32/34/36/38}% danni. Il cadavere non viene consumato.\n\nTags: Cadavere, Corruzione, Tempo di recupero, Danni, Effetti debilitanti, Fisico.",
+			"jaJP": "クールダウン: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6}秒\n幸運の一撃発生率: 20%\n死体を突き破って飛び出した血管が敵を引き寄せて3秒間スタンさせ、さらに{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。死体を消費しない。\n\nTags: 死体, 腐敗, クールダウン, ダメージ, 操作障害効果, 物理.",
+			"koKR": "재사용 대기시간: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6}초\n행운의 적중 확률: 20%\n시체에서 핏줄이 튀어나와 적을 끌어당겨 3초 동안 기절시키고 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다. 시체를 소모하지 않습니다.\n\nTags: 시체, 타락, 재사용 대기시간, 피해, 군중 제어, 물리.",
+			"plPL": "Czas odnowienia: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} sek.\nSzansa na szczęśliwy traf: 20%\nZe zwłok wystrzeliwują żyły przyciągające wrogów, które ogłuszają ich na 3 sek. oraz zadają im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń. Umiejętność nie pochłania zwłok.\n\nTags: Zwłoki, Spaczenie, Odnowienie, Obrażenia, Ograniczanie Kontroli, Fizyczne.",
+			"ptBR": "Recarga: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} segundos\nChance de Golpe de Sorte: 20%\nVeias irrompem de um cadáver, puxando inimigos, atordoando-os por 3 segundos e causando {20/22/24/26/28/30/32/34/36/38}% de dano a eles. Não consome o cadáver.\n\nTags: Cadáver, Corrupção, Recarga, Dano, Controle de Grupo, Física.",
+			"ruRU": "Время восстановления: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} сек.\nВероятность удачного удара: 20%.\nИз трупа вырываются вены, притягивающие противников и оглушающие их на 3 сек., нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона. При этом труп не уничтожается.\n\nTags: Труп, Осквернение, Время восстановления, Урон, Контроль, Физический урон.",
+			"zhCN": "冷却时间: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} 秒\n幸运一击几率: 20%\n亡骸迸发血脉并藉此拖拽敌人, 使其昏迷 3 秒并对其造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。不消耗亡骸。\n\nTags: 亡骸, 腐蚀, 冷却时间, 伤害, 群控, 物理.",
+			"zhTW": "冷卻時間:{11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} 秒\n幸運觸發機率:20%\n觸鬚穿出屍體,將敵人拉近並擊昏他們 3 秒,對其造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。不會消耗屍體。\n\nTags: 屍體, 腐化, 冷卻時間, 傷害, 控場, 物理."
 },
 		id: 67,
 		maxPoints: 5,
-		values: [ "{11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7}" ],
 		x: 444.22,
 		y: -228.515
 	},
@@ -3185,7 +3183,7 @@ Tags: Fortify, Lucky Hit, Blood.`,
 	},
 	"Bone Spirit": {
 		connections: [ "Enhanced Bone Spirit", "Summoning" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 12 seconds
 Essence Cost: All Remaining Essence
 Lucky Hit Chance: 33%
 Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the target and all surrounding enemies. Damage is increased by x3% for each point of Essence spent casting Bone Spirit.
@@ -3206,22 +3204,21 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"zhTW": "骸骨之魂"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nEssenzkosten: Gesamte verbleibende Essenz\nGlückstrefferchance: 33%\nVerbraucht all Eure Essenz, um einen Knochengeist zu beschwören, der Gegner aufspürt. Wenn er einen Gegner erreicht, explodiert der Geist und fügt dem Ziel sowie allen Gegnern in der Nähe {80/88/96/104/112/120/128/136/144/152}% Schaden zu. Der Schaden erhöht sich für jeden bei der Wirkung von Knochengeist verbrauchten Essenzpunkt um x3%.\n\nTags: Makaber, Knochen, Schaden, Abklingzeit, Essenz, Physisch.",
-			"esES": "Tiempo de reutilización: {#} s\nCoste de esencia: Toda la esencia restante\nProbabilidad de golpe de suerte: 33%\nConsumes toda tu esencia para invocar un espíritu de hueso que busca enemigos. Al alcanzar uno, explota e inflige {80/88/96/104/112/120/128/136/144/152}% de daño al objetivo y a todos los enemigos cercanos. Este daño aumenta un x3% por cada punto de esencia gastado al lanzar Espíritu de hueso.\n\nTags: Macabra, Hueso, Daño, Tiempo de reutilización, Esencia, Física.",
-			"esMX": "Recuperación: {#} segundos\nCosto de Esencia: Toda tu Esencia restante\nProbabilidad de golpe afortunado: 33%\nConsume toda tu Esencia para conjurar un espíritu óseo que busca a los enemigos. Al llegar al enemigo, el espíritu explota y le inflige {80/88/96/104/112/120/128/136/144/152}% de daño al objetivo y a todos los enemigos circundantes. El daño aumenta un x3% por cada punto de Esencia usado para lanzar Espíritu Óseo.\n\nTags: Macabro, Hueso, Daño, Recuperación, Esencia, Física.",
-			"frFR": "Temps de recharge: {#} s\nCoût en essence: toute votre essence restante\nChances d'obtenir un coup de chance: 33%\nVous dépensez toute votre essence pour invoquer un esprit d'os qui traque les adversaires. Lorsqu'il atteint une cible adverse, l'esprit explose en infligeant {80/88/96/104/112/120/128/136/144/152}% points de dégâts à la cible et à l'ensemble des adversaires à proximité. Ces dégâts sont augmentés de x3% pour chaque point d'essence dépensé lors de l'utilisation d'Esprit d'os.\n\nTags: Macabre, Os, Dégâts, Temps de recharge, Essence, Dégâts physiques.",
-			"itIT": "Tempo di recupero: {#} s\nCosto in essenza: tutta l'essenza restante\nProbabilità di colpo fortunato: 33%\nConsumi tutti la tua essenza per invocare uno spirito d'ossa che insegue i nemici. Quando ne raggiunge uno, lo spirito esplode, infliggendo {80/88/96/104/112/120/128/136/144/152}% danni al bersaglio e a tutti i nemici circostanti. I danni aumentano del x3% per ogni punto di essenza consumato per lanciare Spirito d'Ossa.\n\nTags: Macabro, Ossa, Danni, Tempo di recupero, Essenza, Fisico.",
-			"jaJP": "クールダウン: {#}秒\n精髄消費量: 残りの全精髄\n幸運の一撃発生率: 33%\n精髄を残らず消費して、敵を追尾する〈ボーン・スピリット〉を呼び出す。敵に到達すると霊魂は爆発し、標的および周囲のすべての敵に{80/88/96/104/112/120/128/136/144/152}%のダメージを与える。ダメージは、〈ボーン・スピリット〉の召喚に使用した精髄1ポイントにつきx3%増加する。\n\nTags: 妖気, 骨, ダメージ, クールダウン, 精髄, 物理.",
-			"koKR": "재사용 대기시간: {#}초\n소모: 남아 있는 모든 정수\n행운의 적중 확률: 33%\n정수를 전부 소모하여 적을 찾아가는 뼈 영혼을 구현합니다. 뼈 영혼이 적에게 닿으면 폭발하여 대상과 주위 모든 적에게 {80/88/96/104/112/120/128/136/144/152}%의 피해를 줍니다. 뼈 영혼을 시전할 때 소모한 정수 하나당 피해가 x3% 증가합니다.\n\nTags: 섬뜩함, 뼈, 피해, 재사용 대기시간, 정수, 물리.",
-			"plPL": "Czas odnowienia: {#} sek.\nKoszt esencji: cała posiadana.\nSzansa na szczęśliwy traf: 33%\nPochłaniasz całą swoją esencję, by przyzwać kościanego ducha, który wyszukuje wrogów. Po dosięgnięciu przeciwnika duch wybucha, zadając {80/88/96/104/112/120/128/136/144/152}% pkt. obrażeń celowi i wszystkim wrogom wokół. Obrażenia te są zwiększone o x3% za każdy punkt esencji wydany na użycie Kościanego Widma.\n\nTags: Makabra, Kości, Obrażenia, Odnowienie, Esencja, Fizyczne.",
-			"ptBR": "Recarga: {#} segundos\nCusto de essência: Toda a essência restante\nChance de Golpe de Sorte: 33%\nConsome toda a sua essência para conjurar um espírito de ossos que busca inimigos. Ao alcançar um inimigo, o espírito explode, causando {80/88/96/104/112/120/128/136/144/152}% de dano ao alvo e a todos os inimigos ao redor. O dano é aumentado em 3% por cada ponto de essência gasto ao lançar Espírito de Ossos.\n\nTags: Macabra, Osso, Dano, Recarga, Essência, Física.",
-			"ruRU": "Время восстановления: {#} сек.\nЗатраты эссенции: весь оставшийся запас.\nВероятность удачного удара: 33%.\nВы расходуете весь запас эссенции и призываете костяного духа, преследующего противников. Достигнув цели, дух взрывается, нанося {80/88/96/104/112/120/128/136/144/152}% ед. урона ей и ближайшим противникам. Урон увеличивается на x3% за каждую ед. эссенции, затраченную на призыв \"Костяного духа\".\n\nTags: Макабр, Кости, Урон, Время восстановления, Эссенция, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n精魂消耗: 剩余所有精魂\n幸运一击几率: 33%\n消耗所有精魂召唤一只能够寻找敌人的骨灵。骨灵在到达敌人身边时发生爆炸, 对目标和周围所有敌人造成 {80/88/96/104/112/120/128/136/144/152}% 点伤害。施放骨灵时, 每消耗一点精魂都会使其伤害提高 x3%。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理.",
-			"zhTW": "冷卻時間:{#} 秒\n魂能消耗:耗盡剩下的魂能\n幸運觸發機率:33%\n消耗你的所有魂能,呼喚出一個會追擊敵人的骸骨之魂。骸骨之魂會在接觸敵人時爆炸,對目標與附近所有敵人造成 {80/88/96/104/112/120/128/136/144/152}% 點傷害。施放骸骨之魂時每消耗一點魂能,此傷害提高 x3%。\n\nTags: 亡駭, 骸骨, 傷害, 冷卻時間, 魂能, 物理."
+			"deDE": "Abklingzeit: 12 Sek.\nEssenzkosten: Gesamte verbleibende Essenz\nGlückstrefferchance: 33%\nVerbraucht all Eure Essenz, um einen Knochengeist zu beschwören, der Gegner aufspürt. Wenn er einen Gegner erreicht, explodiert der Geist und fügt dem Ziel sowie allen Gegnern in der Nähe {80/88/96/104/112/120/128/136/144/152}% Schaden zu. Der Schaden erhöht sich für jeden bei der Wirkung von Knochengeist verbrauchten Essenzpunkt um x3%.\n\nTags: Makaber, Knochen, Schaden, Abklingzeit, Essenz, Physisch.",
+			"esES": "Tiempo de reutilización: 12 s\nCoste de esencia: Toda la esencia restante\nProbabilidad de golpe de suerte: 33%\nConsumes toda tu esencia para invocar un espíritu de hueso que busca enemigos. Al alcanzar uno, explota e inflige {80/88/96/104/112/120/128/136/144/152}% de daño al objetivo y a todos los enemigos cercanos. Este daño aumenta un x3% por cada punto de esencia gastado al lanzar Espíritu de hueso.\n\nTags: Macabra, Hueso, Daño, Tiempo de reutilización, Esencia, Física.",
+			"esMX": "Recuperación: 12 segundos\nCosto de Esencia: Toda tu Esencia restante\nProbabilidad de golpe afortunado: 33%\nConsume toda tu Esencia para conjurar un espíritu óseo que busca a los enemigos. Al llegar al enemigo, el espíritu explota y le inflige {80/88/96/104/112/120/128/136/144/152}% de daño al objetivo y a todos los enemigos circundantes. El daño aumenta un x3% por cada punto de Esencia usado para lanzar Espíritu Óseo.\n\nTags: Macabro, Hueso, Daño, Recuperación, Esencia, Física.",
+			"frFR": "Temps de recharge: 12 s\nCoût en essence: toute votre essence restante\nChances d'obtenir un coup de chance: 33%\nVous dépensez toute votre essence pour invoquer un esprit d'os qui traque les adversaires. Lorsqu'il atteint une cible adverse, l'esprit explose en infligeant {80/88/96/104/112/120/128/136/144/152}% points de dégâts à la cible et à l'ensemble des adversaires à proximité. Ces dégâts sont augmentés de x3% pour chaque point d'essence dépensé lors de l'utilisation d'Esprit d'os.\n\nTags: Macabre, Os, Dégâts, Temps de recharge, Essence, Dégâts physiques.",
+			"itIT": "Tempo di recupero: 12 s\nCosto in essenza: tutta l'essenza restante\nProbabilità di colpo fortunato: 33%\nConsumi tutti la tua essenza per invocare uno spirito d'ossa che insegue i nemici. Quando ne raggiunge uno, lo spirito esplode, infliggendo {80/88/96/104/112/120/128/136/144/152}% danni al bersaglio e a tutti i nemici circostanti. I danni aumentano del x3% per ogni punto di essenza consumato per lanciare Spirito d'Ossa.\n\nTags: Macabro, Ossa, Danni, Tempo di recupero, Essenza, Fisico.",
+			"jaJP": "クールダウン: 12秒\n精髄消費量: 残りの全精髄\n幸運の一撃発生率: 33%\n精髄を残らず消費して、敵を追尾する〈ボーン・スピリット〉を呼び出す。敵に到達すると霊魂は爆発し、標的および周囲のすべての敵に{80/88/96/104/112/120/128/136/144/152}%のダメージを与える。ダメージは、〈ボーン・スピリット〉の召喚に使用した精髄1ポイントにつきx3%増加する。\n\nTags: 妖気, 骨, ダメージ, クールダウン, 精髄, 物理.",
+			"koKR": "재사용 대기시간: 12초\n소모: 남아 있는 모든 정수\n행운의 적중 확률: 33%\n정수를 전부 소모하여 적을 찾아가는 뼈 영혼을 구현합니다. 뼈 영혼이 적에게 닿으면 폭발하여 대상과 주위 모든 적에게 {80/88/96/104/112/120/128/136/144/152}%의 피해를 줍니다. 뼈 영혼을 시전할 때 소모한 정수 하나당 피해가 x3% 증가합니다.\n\nTags: 섬뜩함, 뼈, 피해, 재사용 대기시간, 정수, 물리.",
+			"plPL": "Czas odnowienia: 12 sek.\nKoszt esencji: cała posiadana.\nSzansa na szczęśliwy traf: 33%\nPochłaniasz całą swoją esencję, by przyzwać kościanego ducha, który wyszukuje wrogów. Po dosięgnięciu przeciwnika duch wybucha, zadając {80/88/96/104/112/120/128/136/144/152}% pkt. obrażeń celowi i wszystkim wrogom wokół. Obrażenia te są zwiększone o x3% za każdy punkt esencji wydany na użycie Kościanego Widma.\n\nTags: Makabra, Kości, Obrażenia, Odnowienie, Esencja, Fizyczne.",
+			"ptBR": "Recarga: 12 segundos\nCusto de essência: Toda a essência restante\nChance de Golpe de Sorte: 33%\nConsome toda a sua essência para conjurar um espírito de ossos que busca inimigos. Ao alcançar um inimigo, o espírito explode, causando {80/88/96/104/112/120/128/136/144/152}% de dano ao alvo e a todos os inimigos ao redor. O dano é aumentado em 3% por cada ponto de essência gasto ao lançar Espírito de Ossos.\n\nTags: Macabra, Osso, Dano, Recarga, Essência, Física.",
+			"ruRU": "Время восстановления: 12 сек.\nЗатраты эссенции: весь оставшийся запас.\nВероятность удачного удара: 33%.\nВы расходуете весь запас эссенции и призываете костяного духа, преследующего противников. Достигнув цели, дух взрывается, нанося {80/88/96/104/112/120/128/136/144/152}% ед. урона ей и ближайшим противникам. Урон увеличивается на x3% за каждую ед. эссенции, затраченную на призыв \"Костяного духа\".\n\nTags: Макабр, Кости, Урон, Время восстановления, Эссенция, Физический урон.",
+			"zhCN": "冷却时间: 12 秒\n精魂消耗: 剩余所有精魂\n幸运一击几率: 33%\n消耗所有精魂召唤一只能够寻找敌人的骨灵。骨灵在到达敌人身边时发生爆炸, 对目标和周围所有敌人造成 {80/88/96/104/112/120/128/136/144/152}% 点伤害。施放骨灵时, 每消耗一点精魂都会使其伤害提高 x3%。\n\nTags: 骇术, 白骨, 伤害, 冷却时间, 精魂, 物理.",
+			"zhTW": "冷卻時間:12 秒\n魂能消耗:耗盡剩下的魂能\n幸運觸發機率:33%\n消耗你的所有魂能,呼喚出一個會追擊敵人的骸骨之魂。骸骨之魂會在接觸敵人時爆炸,對目標與附近所有敵人造成 {80/88/96/104/112/120/128/136/144/152}% 點傷害。施放骸骨之魂時每消耗一點魂能,此傷害提高 x3%。\n\nTags: 亡駭, 骸骨, 傷害, 冷卻時間, 魂能, 物理."
 },
 		id: 80,
 		maxPoints: 5,
-		values: [ "12" ],
 		x: 441.425,
 		y: 214.93
 	},
@@ -3689,7 +3686,7 @@ Tags: Damage, Minion.`,
 	},
 	"Army of the Dead": {
 		connections: [ "Prime Army of the Dead", "Ultimate" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 90 seconds
 Lucky Hit Chance: 63.796%
 Call forth the deep buried dead. Volatile Skeletons emerge over the next 7 seconds that explode when around enemies, dealing 30% damage.
 
@@ -3709,22 +3706,21 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 			"zhTW": "死亡軍團"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 63.796%\nRuft die tief vergrabenen Toten herbei. Die nächsten 7 Sek. erscheinen unberechenbare Skelette, explodieren in der Nähe von Gegnern und verursachen 30% Schaden.\n\nTags: Ultimativ, Schaden, Abklingzeit, Physisch.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 63.796%\nInvocas a los muertos sepultados a gran profundidad. Durante los siguientes 7 s, emergen esqueletos volátiles que explotan al acercarse a los enemigos e infligen 30% de daño.\n\nTags: Definitiva, Daño, Tiempo de reutilización, Física.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 63.796%\nConvocas a los muertos enterrados en las profundidades. Los esqueletos volátiles emergen durante los siguientes 7 segundos, explotan cuando están alrededor de los enemigos e infligen 30% de daño.\n\nTags: Máxima, Daño, Recuperación, Física.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 63.796%\nVous réveillez les morts profondément enterrés. Des squelettes instables émergent du sol pendant 7 s et explosent lorsqu'ils sont à proximité des adversaires, leur infligeant 30% points de dégâts.\n\nTags: Ultime, Dégâts, Temps de recharge, Dégâts physiques.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 63.796%\nRichiami i morti sepolti. Scheletri instabili emergono nei successivi 7 s, esplodendo quando si trovano vicino ai nemici e infliggendo 30% danni.\n\nTags: Ultra, Danni, Tempo di recupero, Fisico.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 63.796%\n土中深く埋められた死者を呼び出す。次の7秒間にわたって不安定なスケルトンが現れ、敵が近くにいると爆発して30%のダメージを与える。\n\nTags: 奥義, ダメージ, クールダウン, 物理.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 63.796%\n깊이 파묻힌 망자를 불러 일으킵니다. 다음 7초에 걸쳐 불안정한 해골들이 나타나 적 주위에서 폭발하여 30%의 피해를 줍니다.\n\nTags: 궁극기, 피해, 재사용 대기시간, 물리.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 63.796%\nPrzyzywasz głęboko pogrzebane zwłoki. Przez następne 7 sek. pojawiają się rozszalałe szkielety, które wybuchają w pobliżu wrogów, zadając im 30% pkt. obrażeń.\n\nTags: Specjalne, Obrażenia, Odnowienie, Fizyczne.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 63.796%\nChama os mortos enterrados nas profundezas. Esqueletos voláteis emergem ao longo dos próximos 7 segundos e explodem quando inimigos estão ao redor, causando 30% de dano.\n\nTags: Suprema, Dano, Recarga, Física.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 63.796%.\nВы призываете мертвецов, погребенных глубоко под землей. Через 7 сек. из-под земли появляются нестабильные скелеты, которые взрываются рядом с противниками, нанося 30% ед. урона.\n\nTags: Мощное умение, Урон, Время восстановления, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 63.796%\n召唤深埋地下的亡灵。易爆骷髅会在接下来的 7 秒内出现并爆炸, 对附近的敌人造成 30% 点伤害。\n\nTags: 终极技能, 伤害, 冷却时间, 物理.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:63.796%\n召喚深埋地底的死者。在接下來的 7 秒內出現易爆骷髏,在附近有敵人時爆炸,造成 30% 點傷害。\n\nTags: 絕招, 傷害, 冷卻時間, 物理."
+			"deDE": "Abklingzeit: 90 Sek.\nGlückstrefferchance: 63.796%\nRuft die tief vergrabenen Toten herbei. Die nächsten 7 Sek. erscheinen unberechenbare Skelette, explodieren in der Nähe von Gegnern und verursachen 30% Schaden.\n\nTags: Ultimativ, Schaden, Abklingzeit, Physisch.",
+			"esES": "Tiempo de reutilización: 90 s\nProbabilidad de golpe de suerte: 63.796%\nInvocas a los muertos sepultados a gran profundidad. Durante los siguientes 7 s, emergen esqueletos volátiles que explotan al acercarse a los enemigos e infligen 30% de daño.\n\nTags: Definitiva, Daño, Tiempo de reutilización, Física.",
+			"esMX": "Recuperación: 90 segundos\nProbabilidad de golpe afortunado: 63.796%\nConvocas a los muertos enterrados en las profundidades. Los esqueletos volátiles emergen durante los siguientes 7 segundos, explotan cuando están alrededor de los enemigos e infligen 30% de daño.\n\nTags: Máxima, Daño, Recuperación, Física.",
+			"frFR": "Temps de recharge: 90 s\nChances d'obtenir un coup de chance: 63.796%\nVous réveillez les morts profondément enterrés. Des squelettes instables émergent du sol pendant 7 s et explosent lorsqu'ils sont à proximité des adversaires, leur infligeant 30% points de dégâts.\n\nTags: Ultime, Dégâts, Temps de recharge, Dégâts physiques.",
+			"itIT": "Tempo di recupero: 90 s\nProbabilità di colpo fortunato: 63.796%\nRichiami i morti sepolti. Scheletri instabili emergono nei successivi 7 s, esplodendo quando si trovano vicino ai nemici e infliggendo 30% danni.\n\nTags: Ultra, Danni, Tempo di recupero, Fisico.",
+			"jaJP": "クールダウン: 90秒\n幸運の一撃発生率: 63.796%\n土中深く埋められた死者を呼び出す。次の7秒間にわたって不安定なスケルトンが現れ、敵が近くにいると爆発して30%のダメージを与える。\n\nTags: 奥義, ダメージ, クールダウン, 物理.",
+			"koKR": "재사용 대기시간: 90초\n행운의 적중 확률: 63.796%\n깊이 파묻힌 망자를 불러 일으킵니다. 다음 7초에 걸쳐 불안정한 해골들이 나타나 적 주위에서 폭발하여 30%의 피해를 줍니다.\n\nTags: 궁극기, 피해, 재사용 대기시간, 물리.",
+			"plPL": "Czas odnowienia: 90 sek.\nSzansa na szczęśliwy traf: 63.796%\nPrzyzywasz głęboko pogrzebane zwłoki. Przez następne 7 sek. pojawiają się rozszalałe szkielety, które wybuchają w pobliżu wrogów, zadając im 30% pkt. obrażeń.\n\nTags: Specjalne, Obrażenia, Odnowienie, Fizyczne.",
+			"ptBR": "Recarga: 90 segundos\nChance de Golpe de Sorte: 63.796%\nChama os mortos enterrados nas profundezas. Esqueletos voláteis emergem ao longo dos próximos 7 segundos e explodem quando inimigos estão ao redor, causando 30% de dano.\n\nTags: Suprema, Dano, Recarga, Física.",
+			"ruRU": "Время восстановления: 90 сек.\nВероятность удачного удара: 63.796%.\nВы призываете мертвецов, погребенных глубоко под землей. Через 7 сек. из-под земли появляются нестабильные скелеты, которые взрываются рядом с противниками, нанося 30% ед. урона.\n\nTags: Мощное умение, Урон, Время восстановления, Физический урон.",
+			"zhCN": "冷却时间: 90 秒\n幸运一击几率: 63.796%\n召唤深埋地下的亡灵。易爆骷髅会在接下来的 7 秒内出现并爆炸, 对附近的敌人造成 30% 点伤害。\n\nTags: 终极技能, 伤害, 冷却时间, 物理.",
+			"zhTW": "冷卻時間:90 秒\n幸運觸發機率:63.796%\n召喚深埋地底的死者。在接下來的 7 秒內出現易爆骷髏,在附近有敵人時爆炸,造成 30% 點傷害。\n\nTags: 絕招, 傷害, 冷卻時間, 物理."
 },
 		id: 93,
 		maxPoints: 1,
-		values: [ "90" ],
 		x: -591.12,
 		y: -96.445
 	},
@@ -3808,7 +3804,7 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 	},
 	"Blood Wave": {
 		connections: [ "Prime Blood Wave", "Ultimate" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 50 seconds
 Lucky Hit Chance: 20%
 Conjure a tidal wave of blood that deals 90% damage and Knocks Back enemies.
 
@@ -3828,22 +3824,21 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 			"zhTW": "血浪"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 20%\nBeschwört eine Flutwelle aus Blut, die 90% Schaden verursacht und Gegner zurückstößt.\n\nTags: Ultimativ, Blut, Schaden, Abklingzeit, Kontrollverlust, Physisch.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 20%\nCreas un maremoto de sangre que inflige 90% de daño y repele a los enemigos.\n\nTags: Definitiva, Sangre, Daño, Tiempo de reutilización, Control de masas, Física.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 20%\nConjuras una ola sangrienta gigante que inflige 90% de daño y repele a los enemigos.\n\nTags: Máxima, Sangre, Daño, Recuperación, Control de multitudes, Física.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 20%\nVous créez une vague de sang qui inflige 90% points de dégâts aux adversaires et les repousse.\n\nTags: Ultime, Sang, Dégâts, Temps de recharge, Perte de contrôle, Dégâts physiques.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 20%\nInvochi un'ondata di sangue che infligge 90% danni e respinge indietro i nemici.\n\nTags: Ultra, Sangue, Danni, Tempo di recupero, Effetti debilitanti, Fisico.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 20%\n血の大波を呼び起こし、敵に90%のダメージを与えてノックバックする。\n\nTags: 奥義, 血, ダメージ, クールダウン, 操作障害効果, 物理.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 20%\n피의 파도를 구현해 90%의 피해를 주고 적들을 밀쳐냅니다.\n\nTags: 궁극기, 피, 피해, 재사용 대기시간, 군중 제어, 물리.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 20%\nTworzysz uderzeniową falę krwi, która zadaje 90% pkt. obrażeń i odrzuca wrogów.\n\nTags: Specjalne, Krew, Obrażenia, Odnowienie, Ograniczanie Kontroli, Fizyczne.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 20%\nConjura uma onda de sangue que causa 90% de dano e repele inimigos.\n\nTags: Suprema, Sangue, Dano, Recarga, Controle de Grupo, Física.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 20%.\nСоздает волну крови, наносящую 90% ед. урона и отбрасывающую противников.\n\nTags: Мощное умение, Кровь, Урон, Время восстановления, Контроль, Физический урон.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n召唤一道鲜血浪潮, 造成 90% 点伤害并将敌人击退。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:20%\n呼喚一波血浪,造成 90% 點傷害並擊退敵人。\n\nTags: 絕招, 鮮血, 傷害, 冷卻時間, 控場, 物理."
+			"deDE": "Abklingzeit: 50 Sek.\nGlückstrefferchance: 20%\nBeschwört eine Flutwelle aus Blut, die 90% Schaden verursacht und Gegner zurückstößt.\n\nTags: Ultimativ, Blut, Schaden, Abklingzeit, Kontrollverlust, Physisch.",
+			"esES": "Tiempo de reutilización: 50 s\nProbabilidad de golpe de suerte: 20%\nCreas un maremoto de sangre que inflige 90% de daño y repele a los enemigos.\n\nTags: Definitiva, Sangre, Daño, Tiempo de reutilización, Control de masas, Física.",
+			"esMX": "Recuperación: 50 segundos\nProbabilidad de golpe afortunado: 20%\nConjuras una ola sangrienta gigante que inflige 90% de daño y repele a los enemigos.\n\nTags: Máxima, Sangre, Daño, Recuperación, Control de multitudes, Física.",
+			"frFR": "Temps de recharge: 50 s\nChances d'obtenir un coup de chance: 20%\nVous créez une vague de sang qui inflige 90% points de dégâts aux adversaires et les repousse.\n\nTags: Ultime, Sang, Dégâts, Temps de recharge, Perte de contrôle, Dégâts physiques.",
+			"itIT": "Tempo di recupero: 50 s\nProbabilità di colpo fortunato: 20%\nInvochi un'ondata di sangue che infligge 90% danni e respinge indietro i nemici.\n\nTags: Ultra, Sangue, Danni, Tempo di recupero, Effetti debilitanti, Fisico.",
+			"jaJP": "クールダウン: 50秒\n幸運の一撃発生率: 20%\n血の大波を呼び起こし、敵に90%のダメージを与えてノックバックする。\n\nTags: 奥義, 血, ダメージ, クールダウン, 操作障害効果, 物理.",
+			"koKR": "재사용 대기시간: 50초\n행운의 적중 확률: 20%\n피의 파도를 구현해 90%의 피해를 주고 적들을 밀쳐냅니다.\n\nTags: 궁극기, 피, 피해, 재사용 대기시간, 군중 제어, 물리.",
+			"plPL": "Czas odnowienia: 50 sek.\nSzansa na szczęśliwy traf: 20%\nTworzysz uderzeniową falę krwi, która zadaje 90% pkt. obrażeń i odrzuca wrogów.\n\nTags: Specjalne, Krew, Obrażenia, Odnowienie, Ograniczanie Kontroli, Fizyczne.",
+			"ptBR": "Recarga: 50 segundos\nChance de Golpe de Sorte: 20%\nConjura uma onda de sangue que causa 90% de dano e repele inimigos.\n\nTags: Suprema, Sangue, Dano, Recarga, Controle de Grupo, Física.",
+			"ruRU": "Время восстановления: 50 сек.\nВероятность удачного удара: 20%.\nСоздает волну крови, наносящую 90% ед. урона и отбрасывающую противников.\n\nTags: Мощное умение, Кровь, Урон, Время восстановления, Контроль, Физический урон.",
+			"zhCN": "冷却时间: 50 秒\n幸运一击几率: 20%\n召唤一道鲜血浪潮, 造成 90% 点伤害并将敌人击退。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理.",
+			"zhTW": "冷卻時間:50 秒\n幸運觸發機率:20%\n呼喚一波血浪,造成 90% 點傷害並擊退敵人。\n\nTags: 絕招, 鮮血, 傷害, 冷卻時間, 控場, 物理."
 },
 		id: 96,
 		maxPoints: 1,
-		values: [ "50" ],
 		x: 0.355,
 		y: -282.205
 	},
@@ -4003,7 +3998,7 @@ Tags: Minion.`,
 	},
 	"Bone Storm": {
 		connections: [ "Prime Bone Storm", "Ultimate" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 60 seconds
 Lucky Hit Chance: 39.608%
 A swirling storm of bones appears around you and your Golem, dealing 180% to surrounding enemies over 10 seconds.
 
@@ -4023,22 +4018,21 @@ Tags: Ultimate, Bone, Physical, Cooldown, Damage, Minion.`,
 			"zhTW": "骸骨風暴"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 39.608%\nEin wirbelnder Sturm aus Knochen umgibt Euch und Euren Golem und fügt Gegnern in der Nähe im Verlauf von 10 Sek. 180% Schaden zu.\n\nTags: Ultimativ, Knochen, Physisch, Abklingzeit, Schaden, Diener.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 39.608%\nUna tormenta de huesos os rodea a ti y a tu gólem para infligir 180% de daño a los enemigos cercanos durante 10 s.\n\nTags: Definitiva, Hueso, Física, Tiempo de reutilización, Daño, Esbirro.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 39.608%\nUna tormenta arremolinada de huesos aparece en torno a ti y a tu Gólem e inflige 180% de daño a los enemigos circundantes durante 10 segundos.\n\nTags: Máxima, Hueso, Física, Recuperación, Daño, Esbirro.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 39.608%\nUne tempête d'ossements tourbillonnants se forme autour de votre golem et vous, ce qui inflige 180% points de dégâts aux adversaires à proximité en 10 s.\n\nTags: Ultime, Os, Dégâts physiques, Temps de recharge, Dégâts, Serviteur.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 39.608%\nUna tempesta di ossa turbinanti si materializza attorno a te e al tuo Golem, infliggendo 180% danni ai nemici circostanti in 10 s.\n\nTags: Ultra, Ossa, Fisico, Tempo di recupero, Danni, Servitori.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 39.608%\n自分と自分のゴーレムの周りに渦を巻く骨の嵐が出現し、10秒かけて180%のダメージを周囲の敵に与える。\n\nTags: 奥義, 骨, 物理, クールダウン, ダメージ, ミニオン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 39.608%\n휘몰아치는 뼈의 폭풍이 강령술사와 골렘의 주위에 나타나 주변 적들에게 10초에 걸쳐 180%의 피해를 줍니다.\n\nTags: 궁극기, 뼈, 물리, 재사용 대기시간, 피해, 하수인.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 39.608%\nWirująca nawałnica kości otacza ciebie i twojego golema, zadając 180% pkt. obrażeń wrogom wokół w ciągu 10 sek.\n\nTags: Specjalne, Kości, Fizyczne, Odnowienie, Obrażenia, Sługa.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 39.608%\nUma tempestade rodopiante de ossos cerca você e seu golem, causando 180% de dano a inimigos ao redor ao longo de 10 segundos.\n\nTags: Suprema, Osso, Física, Recarga, Dano, Lacaio.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 39.608%.\nВокруг вас и вашего голема образуется буря костей, наносящая противникам 180% ед. урона за 10 сек.\n\nTags: Мощное умение, Кости, Физический урон, Время восстановления, Урон, Прислужник.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 39.608%\n用一阵白骨风暴环绕你和你的傀儡, 在 10 秒内对周围敌人造成 180% 点伤害。\n\nTags: 终极技能, 白骨, 物理, 冷却时间, 伤害, 爪牙.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:39.608%\n一陣飛旋的骸骨圍繞著你和你的魔像,在 10 秒內對附近敵人造成 180% 點傷害。\n\nTags: 絕招, 骸骨, 物理, 冷卻時間, 傷害, 僕從."
+			"deDE": "Abklingzeit: 60 Sek.\nGlückstrefferchance: 39.608%\nEin wirbelnder Sturm aus Knochen umgibt Euch und Euren Golem und fügt Gegnern in der Nähe im Verlauf von 10 Sek. 180% Schaden zu.\n\nTags: Ultimativ, Knochen, Physisch, Abklingzeit, Schaden, Diener.",
+			"esES": "Tiempo de reutilización: 60 s\nProbabilidad de golpe de suerte: 39.608%\nUna tormenta de huesos os rodea a ti y a tu gólem para infligir 180% de daño a los enemigos cercanos durante 10 s.\n\nTags: Definitiva, Hueso, Física, Tiempo de reutilización, Daño, Esbirro.",
+			"esMX": "Recuperación: 60 segundos\nProbabilidad de golpe afortunado: 39.608%\nUna tormenta arremolinada de huesos aparece en torno a ti y a tu Gólem e inflige 180% de daño a los enemigos circundantes durante 10 segundos.\n\nTags: Máxima, Hueso, Física, Recuperación, Daño, Esbirro.",
+			"frFR": "Temps de recharge: 60 s\nChances d'obtenir un coup de chance: 39.608%\nUne tempête d'ossements tourbillonnants se forme autour de votre golem et vous, ce qui inflige 180% points de dégâts aux adversaires à proximité en 10 s.\n\nTags: Ultime, Os, Dégâts physiques, Temps de recharge, Dégâts, Serviteur.",
+			"itIT": "Tempo di recupero: 60 s\nProbabilità di colpo fortunato: 39.608%\nUna tempesta di ossa turbinanti si materializza attorno a te e al tuo Golem, infliggendo 180% danni ai nemici circostanti in 10 s.\n\nTags: Ultra, Ossa, Fisico, Tempo di recupero, Danni, Servitori.",
+			"jaJP": "クールダウン: 60秒\n幸運の一撃発生率: 39.608%\n自分と自分のゴーレムの周りに渦を巻く骨の嵐が出現し、10秒かけて180%のダメージを周囲の敵に与える。\n\nTags: 奥義, 骨, 物理, クールダウン, ダメージ, ミニオン.",
+			"koKR": "재사용 대기시간: 60초\n행운의 적중 확률: 39.608%\n휘몰아치는 뼈의 폭풍이 강령술사와 골렘의 주위에 나타나 주변 적들에게 10초에 걸쳐 180%의 피해를 줍니다.\n\nTags: 궁극기, 뼈, 물리, 재사용 대기시간, 피해, 하수인.",
+			"plPL": "Czas odnowienia: 60 sek.\nSzansa na szczęśliwy traf: 39.608%\nWirująca nawałnica kości otacza ciebie i twojego golema, zadając 180% pkt. obrażeń wrogom wokół w ciągu 10 sek.\n\nTags: Specjalne, Kości, Fizyczne, Odnowienie, Obrażenia, Sługa.",
+			"ptBR": "Recarga: 60 segundos\nChance de Golpe de Sorte: 39.608%\nUma tempestade rodopiante de ossos cerca você e seu golem, causando 180% de dano a inimigos ao redor ao longo de 10 segundos.\n\nTags: Suprema, Osso, Física, Recarga, Dano, Lacaio.",
+			"ruRU": "Время восстановления: 60 сек.\nВероятность удачного удара: 39.608%.\nВокруг вас и вашего голема образуется буря костей, наносящая противникам 180% ед. урона за 10 сек.\n\nTags: Мощное умение, Кости, Физический урон, Время восстановления, Урон, Прислужник.",
+			"zhCN": "冷却时间: 60 秒\n幸运一击几率: 39.608%\n用一阵白骨风暴环绕你和你的傀儡, 在 10 秒内对周围敌人造成 180% 点伤害。\n\nTags: 终极技能, 白骨, 物理, 冷却时间, 伤害, 爪牙.",
+			"zhTW": "冷卻時間:60 秒\n幸運觸發機率:39.608%\n一陣飛旋的骸骨圍繞著你和你的魔像,在 10 秒內對附近敵人造成 180% 點傷害。\n\nTags: 絕招, 骸骨, 物理, 冷卻時間, 傷害, 僕從."
 },
 		id: 101,
 		maxPoints: 1,
-		values: [ "60" ],
 		x: 3.41,
 		y: 307.975
 	},

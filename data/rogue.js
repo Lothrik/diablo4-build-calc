@@ -1766,7 +1766,7 @@ Tags: Critical Strikes, Movement.`,
 rogueData["Agility"] = {
 	"Shadow Step": {
 		connections: [ "Enhanced Shadow Step", "Agility" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 9 seconds
 Lucky Hit Chance: 100%
 Become Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50% increased Movement Speed for 2 seconds afterwards.
 
@@ -1786,22 +1786,21 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"zhTW": "暗影步伐"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 100%\nWerdet unaufhaltsam, bewegt Euch schnell durch die Schatten und stecht aus dem Hinterhalt auf ein Opfer ein, wodurch Ihr {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% Schaden verursacht. Erhaltet danach 2 Sek. lang 50% mehr Bewegungsgeschwindigkeit.\n\nTags: Wendigkeit, Meucheln, Unaufhaltsam, Infusionsfähig, Schaden, Physisch, Abklingzeit, Bewegung.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 100%\nTe vuelves imparable y te mueves con rapidez por las sombras para apuñalar por la espalda a tu víctima e infligir {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de daño. Después, obtienes un 50% más de velocidad de movimiento durante 2 s.\n\nTags: Agilidad, Degollación, Imparable, Imbuible, Daño, Física, Tiempo de reutilización, Movimiento.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 100%\nTe vuelves imparable, te mueves rápidamente entre las sombras, apuñalas a tu víctima por la espalda y le infliges {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de daño. Luego, obtienes un 50% más de velocidad de movimiento durante 2 segundos.\n\nTags: Agilidad, Degollador, Imparable, Imbuible, Daño, Física, Recuperación, Movimiento.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 100%\nVous devenez inarrêtable et vous vous déplacez rapidement à travers les ombres pour poignarder votre victime par-derrière, ce qui lui inflige {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% points de dégâts. Votre vitesse de déplacement est ensuite augmentée de 50% pendant 2 s.\n\nTags: Agilité, Coupe-jarret, Inarrêtable, Imprégnable, Dégâts, Dégâts physiques, Temps de recharge, Déplacement.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 100%\nDiventi inarrestabile e ti muovi rapidamente tra le ombre per pugnalare la tua vittima nella schiena, infliggendo {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% danni. La tua velocità di movimento aumenta del 50% per i 2 s successivi.\n\nTags: Agilità, Sgozzamento, Inarrestabile, Infondibile, Danni, Fisico, Tempo di recupero, Movimento.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 100%\n抑圧不可状態になって影を素早くすり抜けて移動し、背後から標的を突き刺して{72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%のダメージを与える。その後、移動速度が2秒間にわたり50%上昇する。\n\nTags: 神速, 喉かき, 抑圧不可, 注入可能, ダメージ, 物理, クールダウン, 移動.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 100%\n저지 불가 상태가 되어 그림자를 통해 빠르게 이동한 후 대상을 후방에서 찔러 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%의 피해를 줍니다. 이후 2초 동안 이동 속도가 50% 증가합니다.\n\nTags: 날쌘 몸놀림, 암살, 저지 불가, 주입 가능, 피해, 물리, 재사용 대기시간, 이동.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 100%\nZyskujesz nieustępliwość i przemykasz szybko wśród cieni, a następnie dźgasz od tyłu wroga i zadajesz mu {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% pkt. obrażeń. Zyskujesz następnie 50% do szybkości ruchu przez 2 sek.\n\nTags: Zwinność, Napaść, Nieustępliwość, Nasycalne, Obrażenia, Fizyczne, Odnowienie, Ruch.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 100%\nVocê fica implacável e move-se rapidamente pelas sombras para apunhalar a vítima por trás, causando {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de dano. Depois, recebe 50% de velocidade de movimento aumentada por 2 segundos.\n\nTags: Agilidade, Degola, Implacável, Imbuível, Dano, Física, Recarga, Movimento.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 100%\nВы становитесь неудержимым, быстро идете к цели сквозь тень и бьете ее в спину, нанося {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% ед. урона. После этого ваша скорость передвижения повышается на 50% на 2 сек.\n\nTags: Ловкость, Головорез, Неудержимость, Насыщение, Урон, Физический урон, Время восстановления, Движение.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 100%\n变得不可阻挡, 快速穿过暗影并从背后刺击受害者, 造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 点伤害。之后移动速度提高 50%, 持续 2 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动.",
-			"zhTW": "冷卻時間: {#} 秒\n幸運觸發機率:100%\n進入無阻狀態,快速穿越陰影並從後方刺擊敵人,造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 點傷害。移動速度提高 50%,持續 2 秒。\n\nTags: 靈巧, 割喉, 無阻, 可灌注, 傷害, 物理, 冷卻時間, 移動."
+			"deDE": "Abklingzeit: 9 Sek.\nGlückstrefferchance: 100%\nWerdet unaufhaltsam, bewegt Euch schnell durch die Schatten und stecht aus dem Hinterhalt auf ein Opfer ein, wodurch Ihr {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% Schaden verursacht. Erhaltet danach 2 Sek. lang 50% mehr Bewegungsgeschwindigkeit.\n\nTags: Wendigkeit, Meucheln, Unaufhaltsam, Infusionsfähig, Schaden, Physisch, Abklingzeit, Bewegung.",
+			"esES": "Tiempo de reutilización: 9 s\nProbabilidad de golpe de suerte: 100%\nTe vuelves imparable y te mueves con rapidez por las sombras para apuñalar por la espalda a tu víctima e infligir {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de daño. Después, obtienes un 50% más de velocidad de movimiento durante 2 s.\n\nTags: Agilidad, Degollación, Imparable, Imbuible, Daño, Física, Tiempo de reutilización, Movimiento.",
+			"esMX": "Recuperación: 9 segundos\nProbabilidad de golpe afortunado: 100%\nTe vuelves imparable, te mueves rápidamente entre las sombras, apuñalas a tu víctima por la espalda y le infliges {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de daño. Luego, obtienes un 50% más de velocidad de movimiento durante 2 segundos.\n\nTags: Agilidad, Degollador, Imparable, Imbuible, Daño, Física, Recuperación, Movimiento.",
+			"frFR": "Temps de recharge: 9 s\nChances d'obtenir un coup de chance: 100%\nVous devenez inarrêtable et vous vous déplacez rapidement à travers les ombres pour poignarder votre victime par-derrière, ce qui lui inflige {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% points de dégâts. Votre vitesse de déplacement est ensuite augmentée de 50% pendant 2 s.\n\nTags: Agilité, Coupe-jarret, Inarrêtable, Imprégnable, Dégâts, Dégâts physiques, Temps de recharge, Déplacement.",
+			"itIT": "Tempo di recupero: 9 s\nProbabilità di colpo fortunato: 100%\nDiventi inarrestabile e ti muovi rapidamente tra le ombre per pugnalare la tua vittima nella schiena, infliggendo {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% danni. La tua velocità di movimento aumenta del 50% per i 2 s successivi.\n\nTags: Agilità, Sgozzamento, Inarrestabile, Infondibile, Danni, Fisico, Tempo di recupero, Movimento.",
+			"jaJP": "クールダウン: 9秒\n幸運の一撃発生率: 100%\n抑圧不可状態になって影を素早くすり抜けて移動し、背後から標的を突き刺して{72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%のダメージを与える。その後、移動速度が2秒間にわたり50%上昇する。\n\nTags: 神速, 喉かき, 抑圧不可, 注入可能, ダメージ, 物理, クールダウン, 移動.",
+			"koKR": "재사용 대기시간: 9초\n행운의 적중 확률: 100%\n저지 불가 상태가 되어 그림자를 통해 빠르게 이동한 후 대상을 후방에서 찔러 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%의 피해를 줍니다. 이후 2초 동안 이동 속도가 50% 증가합니다.\n\nTags: 날쌘 몸놀림, 암살, 저지 불가, 주입 가능, 피해, 물리, 재사용 대기시간, 이동.",
+			"plPL": "Czas odnowienia: 9 sek.\nSzansa na szczęśliwy traf: 100%\nZyskujesz nieustępliwość i przemykasz szybko wśród cieni, a następnie dźgasz od tyłu wroga i zadajesz mu {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% pkt. obrażeń. Zyskujesz następnie 50% do szybkości ruchu przez 2 sek.\n\nTags: Zwinność, Napaść, Nieustępliwość, Nasycalne, Obrażenia, Fizyczne, Odnowienie, Ruch.",
+			"ptBR": "Recarga: 9 segundos\nChance de Golpe de Sorte: 100%\nVocê fica implacável e move-se rapidamente pelas sombras para apunhalar a vítima por trás, causando {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% de dano. Depois, recebe 50% de velocidade de movimento aumentada por 2 segundos.\n\nTags: Agilidade, Degola, Implacável, Imbuível, Dano, Física, Recarga, Movimento.",
+			"ruRU": "Время восстановления: 9 сек.\nВероятность удачного удара: 100%\nВы становитесь неудержимым, быстро идете к цели сквозь тень и бьете ее в спину, нанося {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% ед. урона. После этого ваша скорость передвижения повышается на 50% на 2 сек.\n\nTags: Ловкость, Головорез, Неудержимость, Насыщение, Урон, Физический урон, Время восстановления, Движение.",
+			"zhCN": "冷却时间: 9 秒\n幸运一击几率: 100%\n变得不可阻挡, 快速穿过暗影并从背后刺击受害者, 造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 点伤害。之后移动速度提高 50%, 持续 2 秒。\n\nTags: 敏捷, 刺杀, 不可阻挡, 可灌注, 伤害, 物理, 冷却时间, 移动.",
+			"zhTW": "冷卻時間: 9 秒\n幸運觸發機率:100%\n進入無阻狀態,快速穿越陰影並從後方刺擊敵人,造成 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% 點傷害。移動速度提高 50%,持續 2 秒。\n\nTags: 靈巧, 割喉, 無阻, 可灌注, 傷害, 物理, 冷卻時間, 移動."
 },
 		id: 43,
 		maxPoints: 5,
-		values: [ "9" ],
 		x: 5.42,
 		y: -278.485
 	},
@@ -1925,7 +1924,7 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 	"Dash": {
 		connections: [ "Enhanced Dash", "Agility" ],
 		description: `Charges: 2
-Charge Cooldown: {#} seconds
+Charge Cooldown: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} seconds
 Lucky Hit Chance: 25%
 Dash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage.
 
@@ -1945,22 +1944,21 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"zhTW": "疾衝"
 },
 		descriptionLocalized: {
-			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: 25%\nPrescht vorwärts und versetzt Gegnern Hiebe, die {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% Schaden verursachen.\n\nTags: Wendigkeit, Meucheln, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
-			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: {#} s\nProbabilidad de golpe de suerte: 25%\nCorres hacia delante y rajas a los enemigos, lo que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño.\n\nTags: Agilidad, Degollación, Imbuible, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Cargas: 2\nRecuperación de carga: {#} segundos\nProbabilidad de golpe afortunado: 25%\nArremetes hacia adelante, cortas a los enemigos y les infliges {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño.\n\nTags: Agilidad, Degollador, Imbuible, Daño, Física, Recuperación.",
-			"frFR": "Charges: 2\nTemps de recharge des charges: {#} s\nChances d'obtenir un coup de chance: 25%\nVous foncez sur les adversaires et les lacérez en infligeant {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% points de dégâts.\n\nTags: Agilité, Coupe-jarret, Imprégnable, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Cariche: 2\nTempo di recupero cariche: {#} s\nProbabilità di colpo fortunato: 25%\nScatti in avanti e colpisci i nemici, infliggendo {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% danni.\n\nTags: Agilità, Sgozzamento, Infondibile, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "チャージ: 2\nチャージのクールダウン: {#}秒\n幸運の一撃発生率: 25%\n前方に突進して敵を斬りつけ、{32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%のダメージを与える。\n\nTags: 神速, 喉かき, 注入可能, ダメージ, 物理, クールダウン.",
-			"koKR": "충전: 2\n충전 재사용 대기시간: {#}초\n행운의 적중 확률: 25%\n앞으로 질주하며 적을 베어 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%의 피해를 줍니다.\n\nTags: 날쌘 몸놀림, 암살, 주입 가능, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: 25%\nPędzisz naprzód i tniesz wrogów, zadając {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń.\n\nTags: Zwinność, Napaść, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: 25%\nAvança e retalha os inimigos, causando {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de dano.\n\nTags: Agilidade, Degola, Imbuível, Dano, Física, Recarga.",
-			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: 25%.\nВы делаете рывок вперед и атакуете противников, нанося {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона.\n\nTags: Ловкость, Головорез, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n冲向前方并劈砍敌人, 造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间.",
-			"zhTW": "使用次數:2\n使用次數冷卻時間:{#} 秒\n幸運觸發機率:25%\n衝上前斬擊敵人,造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 點傷害。\n\nTags: 靈巧, 割喉, 可灌注, 傷害, 物理, 冷卻時間."
+			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} Sek.\nGlückstrefferchance: 25%\nPrescht vorwärts und versetzt Gegnern Hiebe, die {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% Schaden verursachen.\n\nTags: Wendigkeit, Meucheln, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
+			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} s\nProbabilidad de golpe de suerte: 25%\nCorres hacia delante y rajas a los enemigos, lo que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño.\n\nTags: Agilidad, Degollación, Imbuible, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Cargas: 2\nRecuperación de carga: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} segundos\nProbabilidad de golpe afortunado: 25%\nArremetes hacia adelante, cortas a los enemigos y les infliges {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño.\n\nTags: Agilidad, Degollador, Imbuible, Daño, Física, Recuperación.",
+			"frFR": "Charges: 2\nTemps de recharge des charges: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} s\nChances d'obtenir un coup de chance: 25%\nVous foncez sur les adversaires et les lacérez en infligeant {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% points de dégâts.\n\nTags: Agilité, Coupe-jarret, Imprégnable, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Cariche: 2\nTempo di recupero cariche: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} s\nProbabilità di colpo fortunato: 25%\nScatti in avanti e colpisci i nemici, infliggendo {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% danni.\n\nTags: Agilità, Sgozzamento, Infondibile, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "チャージ: 2\nチャージのクールダウン: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2}秒\n幸運の一撃発生率: 25%\n前方に突進して敵を斬りつけ、{32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%のダメージを与える。\n\nTags: 神速, 喉かき, 注入可能, ダメージ, 物理, クールダウン.",
+			"koKR": "충전: 2\n충전 재사용 대기시간: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2}초\n행운의 적중 확률: 25%\n앞으로 질주하며 적을 베어 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%의 피해를 줍니다.\n\nTags: 날쌘 몸놀림, 암살, 주입 가능, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} sek.\nSzansa na szczęśliwy traf: 25%\nPędzisz naprzód i tniesz wrogów, zadając {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń.\n\nTags: Zwinność, Napaść, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Cargas: 2\nRecarga de cargas: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} segundos\nChance de Golpe de Sorte: 25%\nAvança e retalha os inimigos, causando {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de dano.\n\nTags: Agilidade, Degola, Imbuível, Dano, Física, Recarga.",
+			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} сек.\nВероятность удачного удара: 25%.\nВы делаете рывок вперед и атакуете противников, нанося {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона.\n\nTags: Ловкость, Головорез, Насыщение, Урон, Физический урон, Время восстановления.",
+			"zhCN": "使用次数: 2\n充能冷却时间: {12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} 秒\n幸运一击几率: 25%\n冲向前方并劈砍敌人, 造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害。\n\nTags: 敏捷, 刺杀, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "使用次數:2\n使用次數冷卻時間:{12/11.4/10.8/10.32/9.84/9.48/9.12/8.88/8.64/8.4/8.16/7.92/7.8/7.68/7.56/7.44/7.38/7.32/7.26/7.2} 秒\n幸運觸發機率:25%\n衝上前斬擊敵人,造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 點傷害。\n\nTags: 靈巧, 割喉, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 47,
 		maxPoints: 5,
-		values: [ "{10/9.5/9/8.6/8.2/7.9/7.6/7.4/7.2/7}" ],
 		x: 9.47,
 		y: 289.26
 	},
@@ -2240,7 +2238,7 @@ Tags: Daze, Crowd Control, Cooldown.`,
 	"Caltrops": {
 		connections: [ "Enhanced Caltrops", "Agility" ],
 		description: `Charges: 2
-Charge Cooldown: {#} seconds
+Charge Cooldown: 12 seconds
 Lucky Hit Chance: 25%
 Leap backwards and throw caltrops on the ground, dealing {30/33/36/39/42/45/48/51/54/57}% damage and Slowing enemies by {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Lasts 6 seconds.
 
@@ -2260,22 +2258,21 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhTW": "釘爪刺"
 },
 		descriptionLocalized: {
-			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: 25%\nSpringt zurück und werft Krähenfüße auf den Boden, wodurch Ihr {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und Gegner um {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% verlangsamt. Hält 6 Sek. an.\n\nTags: Wendigkeit, Falle, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
-			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: {#} s\nProbabilidad de golpe de suerte: 25%\nSaltas hacia atrás y lanzas al suelo unos abrojos que infligen {30/33/36/39/42/45/48/51/54/57}% de daño y ralentizan un {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% a los enemigos. Dura 6 s.\n\nTags: Agilidad, Trampa, Control de masas, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Cargas: 2\nRecuperación de carga: {#} segundos\nProbabilidad de golpe afortunado: 25%\nSaltas hacia atrás y sueltas abrojos en el suelo que infligen {30/33/36/39/42/45/48/51/54/57}% de daño y ralentizan a los enemigos un {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidad, Trampa, Control de multitudes, Daño, Física, Recuperación.",
-			"frFR": "Charges: 2\nTemps de recharge des charges: {#} s\nChances d'obtenir un coup de chance: 25%\nVous bondissez en arrière et lancez des chausse-trappes au sol qui infligent {30/33/36/39/42/45/48/51/54/57}% points de dégâts et ralentissent les adversaires de {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dure 6 s.\n\nTags: Agilité, Piège, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Cariche: 2\nTempo di recupero cariche: {#} s\nProbabilità di colpo fortunato: 25%\nBalzi indietro e lanci dei triboli sul terreno, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni e rallentando i nemici del {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 s.\n\nTags: Agilità, Trappole, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "チャージ: 2\nチャージのクールダウン: {#}秒\n幸運の一撃発生率: 25%\n後方に飛び退き、地面に鉄菱をばら撒いて敵に{30/33/36/39/42/45/48/51/54/57}%のダメージを与え、移動速度を{50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%低下させる。6秒間持続する。\n\nTags: 神速, 罠, 操作障害効果, ダメージ, 物理, クールダウン.",
-			"koKR": "충전: 2\n충전 재사용 대기시간: {#}초\n행운의 적중 확률: 25%\n뒤로 뛰어오르며 땅에 쇠못 덫을 던져 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고 적을 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% 감속시킵니다. 이 효과는 6초 동안 지속됩니다.\n\nTags: 날쌘 몸놀림, 덫, 군중 제어, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: 25%\nOdskakujesz do tyłu i rzucasz na ziemię kolczatki, które zadają {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i spowalniają wrogów o {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Czas działania: 6 sek.\n\nTags: Zwinność, Pułapki, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: 25%\nSalta para trás e arremessa estrepes no chão, causando {30/33/36/39/42/45/48/51/54/57}% de dano e desacelerando inimigos em {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidade, Armadilha, Controle de Grupo, Dano, Física, Recarga.",
-			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: 25%.\nВы прыгаете назад, бросая на землю шипы, которые наносят {30/33/36/39/42/45/48/51/54/57}% ед. урона и замедляют противников на {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Время действия – 6 сек.\n\nTags: Ловкость, Ловушка, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n向后跳跃并向地面扔下铁蒺藜, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并使敌人减速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持续 6 秒。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间.",
-			"zhTW": "使用次數:2\n使用次數冷卻時間:{#} 秒\n幸運觸發機率:25%\n向後跳躍並將釘爪刺丟到地上,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並使敵人緩速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持續 6 秒。\n\nTags: 靈巧, 陷阱, 控場, 傷害, 物理, 冷卻時間."
+			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: 12 Sek.\nGlückstrefferchance: 25%\nSpringt zurück und werft Krähenfüße auf den Boden, wodurch Ihr {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und Gegner um {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% verlangsamt. Hält 6 Sek. an.\n\nTags: Wendigkeit, Falle, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
+			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: 12 s\nProbabilidad de golpe de suerte: 25%\nSaltas hacia atrás y lanzas al suelo unos abrojos que infligen {30/33/36/39/42/45/48/51/54/57}% de daño y ralentizan un {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% a los enemigos. Dura 6 s.\n\nTags: Agilidad, Trampa, Control de masas, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Cargas: 2\nRecuperación de carga: 12 segundos\nProbabilidad de golpe afortunado: 25%\nSaltas hacia atrás y sueltas abrojos en el suelo que infligen {30/33/36/39/42/45/48/51/54/57}% de daño y ralentizan a los enemigos un {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidad, Trampa, Control de multitudes, Daño, Física, Recuperación.",
+			"frFR": "Charges: 2\nTemps de recharge des charges: 12 s\nChances d'obtenir un coup de chance: 25%\nVous bondissez en arrière et lancez des chausse-trappes au sol qui infligent {30/33/36/39/42/45/48/51/54/57}% points de dégâts et ralentissent les adversaires de {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dure 6 s.\n\nTags: Agilité, Piège, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Cariche: 2\nTempo di recupero cariche: 12 s\nProbabilità di colpo fortunato: 25%\nBalzi indietro e lanci dei triboli sul terreno, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni e rallentando i nemici del {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 s.\n\nTags: Agilità, Trappole, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "チャージ: 2\nチャージのクールダウン: 12秒\n幸運の一撃発生率: 25%\n後方に飛び退き、地面に鉄菱をばら撒いて敵に{30/33/36/39/42/45/48/51/54/57}%のダメージを与え、移動速度を{50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%低下させる。6秒間持続する。\n\nTags: 神速, 罠, 操作障害効果, ダメージ, 物理, クールダウン.",
+			"koKR": "충전: 2\n충전 재사용 대기시간: 12초\n행운의 적중 확률: 25%\n뒤로 뛰어오르며 땅에 쇠못 덫을 던져 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고 적을 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% 감속시킵니다. 이 효과는 6초 동안 지속됩니다.\n\nTags: 날쌘 몸놀림, 덫, 군중 제어, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: 12 sek.\nSzansa na szczęśliwy traf: 25%\nOdskakujesz do tyłu i rzucasz na ziemię kolczatki, które zadają {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i spowalniają wrogów o {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Czas działania: 6 sek.\n\nTags: Zwinność, Pułapki, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Cargas: 2\nRecarga de cargas: 12 segundos\nChance de Golpe de Sorte: 25%\nSalta para trás e arremessa estrepes no chão, causando {30/33/36/39/42/45/48/51/54/57}% de dano e desacelerando inimigos em {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidade, Armadilha, Controle de Grupo, Dano, Física, Recarga.",
+			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: 12 сек.\nВероятность удачного удара: 25%.\nВы прыгаете назад, бросая на землю шипы, которые наносят {30/33/36/39/42/45/48/51/54/57}% ед. урона и замедляют противников на {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Время действия – 6 сек.\n\nTags: Ловкость, Ловушка, Контроль, Урон, Физический урон, Время восстановления.",
+			"zhCN": "使用次数: 2\n充能冷却时间: 12 秒\n幸运一击几率: 25%\n向后跳跃并向地面扔下铁蒺藜, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并使敌人减速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持续 6 秒。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "使用次數:2\n使用次數冷卻時間:12 秒\n幸運觸發機率:25%\n向後跳躍並將釘爪刺丟到地上,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並使敵人緩速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持續 6 秒。\n\nTags: 靈巧, 陷阱, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 53,
 		maxPoints: 5,
-		values: [ "12" ],
 		x: 542.77,
 		y: -1.12
 	},
@@ -2477,7 +2474,7 @@ Tags: Damage Reduction.`,
 rogueData["Subterfuge"] = {
 	"Smoke Grenade": {
 		connections: [ "Enhanced Smoke Grenade", "Subterfuge" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 15 seconds
 Throw a smoky concoction at enemies that Dazes them for {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} seconds.
 
 Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
@@ -2496,22 +2493,21 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 			"zhTW": "煙霧彈"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nWerft ein rauchendes Gebräu auf Gegner, das sie {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} Sek. lang benommen macht.\n\nTags: Täuschung, Benommenheit, Granate, Kontrollverlust, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nLanzas a los enemigos un brebaje humeante que los atonta durante {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} s.\n\nTags: Subterfugio, Atontamiento, Granada, Control de masas, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nLanzas una bomba humeante a los enemigos que los atonta durante {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} segundos.\n\nTags: Subterfugio, Atontar, Granadas, Control de multitudes, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nVous lancez une concoction fumante sur vos adversaires, ce qui les hébète pendant {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} s.\n\nTags: Subterfuge, Hébétement, Grenade, Perte de contrôle, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nLanci una mistura fumogena sui nemici, infliggendo Frastornamento per {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} s.\n\nTags: Sotterfugio, Frastornamento, Bombe, Effetti debilitanti, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n煙を発する調合物を敵に投げつけ、{4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6}秒間にわたり朦朧状態にする。\n\nTags: 遁走, 朦朧, グレネード, 操作障害効果, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n적에게 연기가 피어오르는 혼합물을 던져 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6}초 동안 멍해지게 합니다.\n\nTags: 기만, 멍해짐, 수류탄, 군중 제어, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nRzucasz we wrogów dymną miksturę, która oszałamia ich na {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} sek.\n\nTags: Podstęp, Oszołomienie, Granat, Ograniczanie Kontroli, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nArremessa uma mistura esfumaçada que aplica torpor nos inimigos por {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} segundos.\n\nTags: Subterfúgio, Torpor, Granada, Controle de Grupo, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВы бросаете в противников дымящийся отвар, вызывающий у них головокружение на {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} сек.\n\nTags: Уловки, Головокружение, Граната, Контроль, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n向敌人投掷烟雾缭绕的混合物, 眩晕敌人 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} 秒。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n對敵人投擲會產生煙霧的藥劑,使其 暈眩 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} 秒。\n\nTags: 欺敵, 暈眩, 榴彈, 控場, 冷卻時間."
+			"deDE": "Abklingzeit: 15 Sek.\nWerft ein rauchendes Gebräu auf Gegner, das sie {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} Sek. lang benommen macht.\n\nTags: Täuschung, Benommenheit, Granate, Kontrollverlust, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 15 s\nLanzas a los enemigos un brebaje humeante que los atonta durante {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} s.\n\nTags: Subterfugio, Atontamiento, Granada, Control de masas, Tiempo de reutilización.",
+			"esMX": "Recuperación: 15 segundos\nLanzas una bomba humeante a los enemigos que los atonta durante {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} segundos.\n\nTags: Subterfugio, Atontar, Granadas, Control de multitudes, Recuperación.",
+			"frFR": "Temps de recharge: 15 s\nVous lancez une concoction fumante sur vos adversaires, ce qui les hébète pendant {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} s.\n\nTags: Subterfuge, Hébétement, Grenade, Perte de contrôle, Temps de recharge.",
+			"itIT": "Tempo di recupero: 15 s\nLanci una mistura fumogena sui nemici, infliggendo Frastornamento per {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} s.\n\nTags: Sotterfugio, Frastornamento, Bombe, Effetti debilitanti, Tempo di recupero.",
+			"jaJP": "クールダウン: 15秒\n煙を発する調合物を敵に投げつけ、{4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6}秒間にわたり朦朧状態にする。\n\nTags: 遁走, 朦朧, グレネード, 操作障害効果, クールダウン.",
+			"koKR": "재사용 대기시간: 15초\n적에게 연기가 피어오르는 혼합물을 던져 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6}초 동안 멍해지게 합니다.\n\nTags: 기만, 멍해짐, 수류탄, 군중 제어, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 15 sek.\nRzucasz we wrogów dymną miksturę, która oszałamia ich na {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} sek.\n\nTags: Podstęp, Oszołomienie, Granat, Ograniczanie Kontroli, Odnowienie.",
+			"ptBR": "Recarga: 15 segundos\nArremessa uma mistura esfumaçada que aplica torpor nos inimigos por {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} segundos.\n\nTags: Subterfúgio, Torpor, Granada, Controle de Grupo, Recarga.",
+			"ruRU": "Время восстановления: 15 сек.\nВы бросаете в противников дымящийся отвар, вызывающий у них головокружение на {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} сек.\n\nTags: Уловки, Головокружение, Граната, Контроль, Время восстановления.",
+			"zhCN": "冷却时间: 15 秒\n向敌人投掷烟雾缭绕的混合物, 眩晕敌人 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} 秒。\n\nTags: 诡诈, 眩晕, 手雷, 群控, 冷却时间.",
+			"zhTW": "冷卻時間:15 秒\n對敵人投擲會產生煙霧的藥劑,使其 暈眩 {4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6} 秒。\n\nTags: 欺敵, 暈眩, 榴彈, 控場, 冷卻時間."
 },
 		id: 123,
 		maxPoints: 5,
-		values: [ "15" ],
 		x: -603.97,
 		y: 4.535
 	},
@@ -2634,7 +2630,7 @@ Tags: Subterfuge, Daze, Grenade, Crowd Control, Cooldown.`,
 	},
 	"Concealment": {
 		connections: [ "Subterfuge", "Enhanced Stealth" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} seconds
 Vanish from sight, gaining an advanced form of Stealth for 4 seconds that will not be removed by taking damage.
 
 Concealment also makes you Unstoppable, grants +30% Movement Speed, and allows you to move freely through enemies for its duration.
@@ -2657,22 +2653,21 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 			"zhTW": "隱匿"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nMacht Euch unsichtbar und geht 4 Sek. lang in eine fortgeschrittene Form von Verstohlenheit über, die nicht entfernt wird, wenn Ihr Schaden erleidet.\n\nVerschleierung lässt Euch zudem unaufhaltsam werden, gewährt Euch +30% Bewegungsgeschwindigkeit und ermöglicht es Euch, Euch während der Dauer ungehindert durch Gegner hindurchzubewegen.\n\nWenn Ihr während Verschleierung eine Angriffsfertigkeit einsetzt, endet Verschleierung.\n\nTags: Täuschung, Unaufhaltsam, Verstohlenheit, Abklingzeit, Bewegung.",
-			"esES": "Tiempo de reutilización: {#} s\nTe esfumas y obtienes una forma avanzada de sigilo que no se elimina al sufrir daño durante 4 s.\n\nAdemás, Ocultación te vuelve imparable, te otorga un +30% de velocidad de movimiento y te permite atravesar a los enemigos libremente mientras dura.\n\nUsar una habilidad de ataque durante Ocultación interrumpe su efecto.\n\nTags: Subterfugio, Imparable, Sigilo, Tiempo de reutilización, Movimiento.",
-			"esMX": "Recuperación: {#} segundos\nDesapareces y obtienes una forma avanzada de Sigilo durante 4 segundos que no se quitará al recibir daño.\n\nOcultamiento también te vuelve imparable, te otorga un +30% de velocidad de movimiento y te permite moverte libremente a través de los enemigos en el transcurso de su duración.\n\nSi usas una habilidad de ataque mientras tienes Ocultamiento, el Ocultamiento se interrumpirá.\n\nTags: Subterfugio, Imparable, Sigilo, Recuperación, Movimiento.",
-			"frFR": "Temps de recharge: {#} s\nVous devenez invisible, ce qui vous confère pendant 4 s une forme avancée de Camouflage qui ne se dissipe pas lorsque vous subissez des dégâts.\n\nDissimulation vous rend aussi inarrêtable, augmente votre vitesse de déplacement de +30% et vous permet de vous mouvoir librement parmi les adversaires pendant toute sa durée.\n\nDissimulation prend fin lorsque vous utilisez une compétence d'attaque.\n\nTags: Subterfuge, Inarrêtable, Camouflage, Temps de recharge, Déplacement.",
-			"itIT": "Tempo di recupero: {#} s\nScompari, ottenendo una forma avanzata di Furtività per 4 s (il tempo non diminuirà quando subirai danni).\n\nOccultamento ti rende anche inarrestabile, aumenta la velocità di movimento del +30% e ti permette di spostarti più velocemente tra i nemici per tutta la sua durata.\n\nUsare un'abilità d'attacco durante Occultamento interromperà Occultamento.\n\nTags: Sotterfugio, Inarrestabile, Furtività, Tempo di recupero, Movimento.",
-			"jaJP": "クールダウン: {#}秒\n隠密の上位状態になり、4秒間にわたり認識されなくなる。この効果はダメージを受けても解除されない。\n\n〈隠密〉状態になると抑圧不可の効果も得る上に、移動速度が+30%増加し、持続時間中は敵をすり抜けて自由に移動できる。\n\n〈隠密〉中に攻撃スキルを使うと、〈隠密〉が解除される。\n\nTags: 遁走, 抑圧不可, 隠密, クールダウン, 移動.",
-			"koKR": "재사용 대기시간: {#}초\n시야에서 사라지며 4초 동안 향상된 방식으로 은폐 상태가 되어, 피해를 받아도 해당 효과가 사라지지 않습니다.\n\n은신의 지속시간 동안 저지 불가 상태가 되고, 이동 속도가 +30% 증가하고, 적을 자유롭게 통과합니다.\n\n은신 도중에 공격 기술을 사용하면 은신이 해제됩니다.\n\nTags: 기만, 저지 불가, 은폐, 재사용 대기시간, 이동.",
-			"plPL": "Czas odnowienia: {#} sek.\nZnikasz wrogom z oczu, zyskując zaawansowaną formę ukrycia na 4 sek. Efekt ten nie zostanie przerwany po otrzymaniu obrażeń.\n\nGdy Maskowanie jest aktywne, zapewnia ci również nieustępliwość i premię +30% do szybkości ruchu, a także pozwala swobodnie przenikać przez wrogów.\n\nUżycie umiejętności ataku w trakcie trwania Maskowania przerwie ten efekt.\n\nTags: Podstęp, Nieustępliwość, Ukrycie, Odnowienie, Ruch.",
-			"ptBR": "Recarga: {#} segundos\nVocê desaparece, recebendo uma forma avançada de Furtividade por 4 segundos que não será removida ao receber dano.\n\nDissimulação também torna você implacável, concede +30% de velocidade de movimento e permite mover-se livremente através de inimigos durante o efeito.\n\nUsar uma habilidade de ataque durante Dissimulação cancelará Dissimulação.\n\nTags: Subterfúgio, Implacável, Furtividade, Recarga, Movimento.",
-			"ruRU": "Время восстановления: {#} сек.\nВы скрываетесь из виду, переходя в совершенное состояние незаметности на 4 сек., которое не рассеивается при получении урона.\n\nПока действует маскировка, вы также получаете неудержимость, скорость передвижения повышается на +30% и вы можете свободно проходить сквозь врагов.\n\nПри применении наносящих урон умений маскировка снимается.\n\nTags: Уловки, Неудержимость, Незаметность, Время восстановления, Движение.",
-			"zhCN": "冷却时间: {#} 秒\n从视线中消失, 获得高级形式的潜行, 持续 4 秒, 不会因受到伤害而移除。\n\n隐蔽 还可以让你变得不可阻挡, 移动速度提高 +30%, 并使你可以在持续时间内自由穿过敌人。\n\n在隐蔽 期间使用攻击技能会打破隐蔽状态。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动.",
-			"zhTW": "冷卻時間:{#} 秒\n從視線中消失,進入進階匿蹤狀態,持續 4 秒,此狀態不會因受到傷害而解除。\n\n隱匿會使你無阻,賦予你 +30% 移動速度,並在其持續時間內讓你自由穿過敵人。\n\n在隱匿其間使用攻擊技能會解除隱匿。\n\nTags: 欺敵, 無阻, 匿蹤, 冷卻時間, 移動."
+			"deDE": "Abklingzeit: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} Sek.\nMacht Euch unsichtbar und geht 4 Sek. lang in eine fortgeschrittene Form von Verstohlenheit über, die nicht entfernt wird, wenn Ihr Schaden erleidet.\n\nVerschleierung lässt Euch zudem unaufhaltsam werden, gewährt Euch +30% Bewegungsgeschwindigkeit und ermöglicht es Euch, Euch während der Dauer ungehindert durch Gegner hindurchzubewegen.\n\nWenn Ihr während Verschleierung eine Angriffsfertigkeit einsetzt, endet Verschleierung.\n\nTags: Täuschung, Unaufhaltsam, Verstohlenheit, Abklingzeit, Bewegung.",
+			"esES": "Tiempo de reutilización: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} s\nTe esfumas y obtienes una forma avanzada de sigilo que no se elimina al sufrir daño durante 4 s.\n\nAdemás, Ocultación te vuelve imparable, te otorga un +30% de velocidad de movimiento y te permite atravesar a los enemigos libremente mientras dura.\n\nUsar una habilidad de ataque durante Ocultación interrumpe su efecto.\n\nTags: Subterfugio, Imparable, Sigilo, Tiempo de reutilización, Movimiento.",
+			"esMX": "Recuperación: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} segundos\nDesapareces y obtienes una forma avanzada de Sigilo durante 4 segundos que no se quitará al recibir daño.\n\nOcultamiento también te vuelve imparable, te otorga un +30% de velocidad de movimiento y te permite moverte libremente a través de los enemigos en el transcurso de su duración.\n\nSi usas una habilidad de ataque mientras tienes Ocultamiento, el Ocultamiento se interrumpirá.\n\nTags: Subterfugio, Imparable, Sigilo, Recuperación, Movimiento.",
+			"frFR": "Temps de recharge: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} s\nVous devenez invisible, ce qui vous confère pendant 4 s une forme avancée de Camouflage qui ne se dissipe pas lorsque vous subissez des dégâts.\n\nDissimulation vous rend aussi inarrêtable, augmente votre vitesse de déplacement de +30% et vous permet de vous mouvoir librement parmi les adversaires pendant toute sa durée.\n\nDissimulation prend fin lorsque vous utilisez une compétence d'attaque.\n\nTags: Subterfuge, Inarrêtable, Camouflage, Temps de recharge, Déplacement.",
+			"itIT": "Tempo di recupero: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} s\nScompari, ottenendo una forma avanzata di Furtività per 4 s (il tempo non diminuirà quando subirai danni).\n\nOccultamento ti rende anche inarrestabile, aumenta la velocità di movimento del +30% e ti permette di spostarti più velocemente tra i nemici per tutta la sua durata.\n\nUsare un'abilità d'attacco durante Occultamento interromperà Occultamento.\n\nTags: Sotterfugio, Inarrestabile, Furtività, Tempo di recupero, Movimento.",
+			"jaJP": "クールダウン: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12}秒\n隠密の上位状態になり、4秒間にわたり認識されなくなる。この効果はダメージを受けても解除されない。\n\n〈隠密〉状態になると抑圧不可の効果も得る上に、移動速度が+30%増加し、持続時間中は敵をすり抜けて自由に移動できる。\n\n〈隠密〉中に攻撃スキルを使うと、〈隠密〉が解除される。\n\nTags: 遁走, 抑圧不可, 隠密, クールダウン, 移動.",
+			"koKR": "재사용 대기시간: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12}초\n시야에서 사라지며 4초 동안 향상된 방식으로 은폐 상태가 되어, 피해를 받아도 해당 효과가 사라지지 않습니다.\n\n은신의 지속시간 동안 저지 불가 상태가 되고, 이동 속도가 +30% 증가하고, 적을 자유롭게 통과합니다.\n\n은신 도중에 공격 기술을 사용하면 은신이 해제됩니다.\n\nTags: 기만, 저지 불가, 은폐, 재사용 대기시간, 이동.",
+			"plPL": "Czas odnowienia: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} sek.\nZnikasz wrogom z oczu, zyskując zaawansowaną formę ukrycia na 4 sek. Efekt ten nie zostanie przerwany po otrzymaniu obrażeń.\n\nGdy Maskowanie jest aktywne, zapewnia ci również nieustępliwość i premię +30% do szybkości ruchu, a także pozwala swobodnie przenikać przez wrogów.\n\nUżycie umiejętności ataku w trakcie trwania Maskowania przerwie ten efekt.\n\nTags: Podstęp, Nieustępliwość, Ukrycie, Odnowienie, Ruch.",
+			"ptBR": "Recarga: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} segundos\nVocê desaparece, recebendo uma forma avançada de Furtividade por 4 segundos que não será removida ao receber dano.\n\nDissimulação também torna você implacável, concede +30% de velocidade de movimento e permite mover-se livremente através de inimigos durante o efeito.\n\nUsar uma habilidade de ataque durante Dissimulação cancelará Dissimulação.\n\nTags: Subterfúgio, Implacável, Furtividade, Recarga, Movimento.",
+			"ruRU": "Время восстановления: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} сек.\nВы скрываетесь из виду, переходя в совершенное состояние незаметности на 4 сек., которое не рассеивается при получении урона.\n\nПока действует маскировка, вы также получаете неудержимость, скорость передвижения повышается на +30% и вы можете свободно проходить сквозь врагов.\n\nПри применении наносящих урон умений маскировка снимается.\n\nTags: Уловки, Неудержимость, Незаметность, Время восстановления, Движение.",
+			"zhCN": "冷却时间: {20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} 秒\n从视线中消失, 获得高级形式的潜行, 持续 4 秒, 不会因受到伤害而移除。\n\n隐蔽 还可以让你变得不可阻挡, 移动速度提高 +30%, 并使你可以在持续时间内自由穿过敌人。\n\n在隐蔽 期间使用攻击技能会打破隐蔽状态。\n\nTags: 诡诈, 不可阻挡, 潜行, 冷却时间, 移动.",
+			"zhTW": "冷卻時間:{20/19/18/17.2/16.4/15.8/15.2/14.8/14.4/14/13.6/13.2/13/12.8/12.6/12.4/12.3/12.2/12.1/12} 秒\n從視線中消失,進入進階匿蹤狀態,持續 4 秒,此狀態不會因受到傷害而解除。\n\n隱匿會使你無阻,賦予你 +30% 移動速度,並在其持續時間內讓你自由穿過敵人。\n\n在隱匿其間使用攻擊技能會解除隱匿。\n\nTags: 欺敵, 無阻, 匿蹤, 冷卻時間, 移動."
 },
 		id: 127,
 		maxPoints: 5,
-		values: [ "{10/9.5/9/8.6/8.2/7.9/7.6/7.4/7.2/7}" ],
 		x: -390.71,
 		y: -209.637
 	},
@@ -2795,7 +2790,7 @@ Tags: Subterfuge, Unstoppable, Stealth, Cooldown, Movement.`,
 	},
 	"Poison Trap": {
 		connections: [ "Subterfuge", "Enhanced Poison Trap" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 10 seconds
 Lucky Hit Chance: 20%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, applying {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Poisoning damage over 9 seconds to enemies in the area.
 
@@ -2817,22 +2812,22 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 			"zhTW": "劇毒陷阱"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 20%\nPlatziert eine Falle, die nach {#} Sek. scharf wird. Kommen Gegner ihr zu nahe, aktiviert sie sich und fügt Gegnern im Wirkungsbereich im Verlauf von 9 Sek. {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Giftschaden zu.\n\nIhr könnt 4 scharfe Fallen gleichzeitig haben.\n\nTags: Täuschung, Falle, Schaden, Gift, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 20%\nColocas una trampa que se arma al cabo de {#} s. Cuando un enemigo se pone al alcance, se activa e inflige {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% de daño de veneno durante 9 s a los enemigos en la zona.\n\nPuedes tener 4 trampas armadas a la vez.\n\nTags: Subterfugio, Trampa, Daño, Veneno, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 20%\nColocas una trampa que se arma después de {#} segundos. Se activa cuando un enemigo se acerca e inflige {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% de daño de veneno durante 9 segundos a los enemigos en el área.\n\nPuedes tener 4 trampas armadas al mismo tiempo.\n\nTags: Subterfugio, Trampa, Daño, Veneno, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 20%\nVous placez un piège qui s'arme au bout de {#} s. Il s'active lorsqu'une cible passe à portée, ce qui applique {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% points de dégâts de poison en 9 s aux adversaires se trouvant dans la zone affectée.\n\nVous pouvez avoir jusqu'à 4 pièges armés à la fois.\n\nTags: Subterfuge, Piège, Dégâts, Poison, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 20%\nPiazzi una trappola che si arma dopo {#} s. Quando un nemico entra nel suo raggio d'azione, la trappola si attiva infliggendo {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% danni da veleno per 9 s ai nemici nell'area.\n\nPuoi armare 4 trappole simultaneamente.\n\nTags: Sotterfugio, Trappole, Danni, Veleno, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 20%\n{#}秒後に起動準備が完了する罠を仕掛ける。罠は範囲内で敵が動くと起動し、エリア内にいる敵に9秒間かけて{345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}%の毒ダメージを与える。\n\n罠は同時に4個まで起動可能状態にできる。\n\nTags: 遁走, 罠, ダメージ, 毒, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 20%\n{#}초 후 장전되는 덫을 설치합니다. 덫은 적이 범위 내에 들어오면 발동하며, 해당 범위에 있는 적들에게 9초에 걸쳐 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}%의 중독 피해를 줍니다.\n\n덫은 한 번에 4개까지 장전할 수 있습니다.\n\nTags: 기만, 덫, 피해, 독, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 20%\nTworzysz pułapkę, która uzbraja się po {#} sek. Gdy wróg zajdzie się w jej zasięgu, pułapka się aktywuje, a następnie zadaje wrogom na jej obszarze {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% pkt. obrażeń od zatrucia w ciągu 9 sek.\n\nMożesz mieć jednocześnie 4 uzbrojone pułapki:uzbrojonych pułapek.\n\nTags: Podstęp, Pułapki, Obrażenia, Trucizna, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 20%\nPosiciona uma armadilha que arma após {#} segundos. É ativada quando um inimigo entra em alcance, aplicando {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% de dano venenoso ao longo de 9 segundos a inimigos na área.\n\nVocê pode ter 4 armadilhas armadas de uma vez.\n\nTags: Subterfúgio, Armadilha, Dano, Veneno, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 20%.\nВы размещаете на земле ловушку, которая заряжается через {#} сек. Когда в область действия попадает противник, она срабатывает и отравляет цели в зоне поражения, нанося {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% ед. урона от отравления за 9 сек.\n\nМаксимальное количество заряженных размещенных ловушек – 4.\n\nTags: Уловки, Ловушка, Урон, Яд, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 20%\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 在 9 秒内对范围内的敌人造成 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% 点毒素伤害。\n\n你在同一时间只能拥有 4 个部署的陷阱。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:20%\n放置一個 {#} 秒後設置完成的陷阱,於敵人進入範圍內時啟動,對範圍內的敵人在 9 秒內造成 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% 點中毒傷害。\n\n你同時只能有 4 個設置完成的陷阱。\n\nTags: 欺敵, 陷阱, 傷害, 毒素, 冷卻時間."
+			"deDE": "Abklingzeit: 10 Sek.\nGlückstrefferchance: 20%\nPlatziert eine Falle, die nach {#} Sek. scharf wird. Kommen Gegner ihr zu nahe, aktiviert sie sich und fügt Gegnern im Wirkungsbereich im Verlauf von 9 Sek. {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Giftschaden zu.\n\nIhr könnt 4 scharfe Fallen gleichzeitig haben.\n\nTags: Täuschung, Falle, Schaden, Gift, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 10 s\nProbabilidad de golpe de suerte: 20%\nColocas una trampa que se arma al cabo de {#} s. Cuando un enemigo se pone al alcance, se activa e inflige {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% de daño de veneno durante 9 s a los enemigos en la zona.\n\nPuedes tener 4 trampas armadas a la vez.\n\nTags: Subterfugio, Trampa, Daño, Veneno, Tiempo de reutilización.",
+			"esMX": "Recuperación: 10 segundos\nProbabilidad de golpe afortunado: 20%\nColocas una trampa que se arma después de {#} segundos. Se activa cuando un enemigo se acerca e inflige {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% de daño de veneno durante 9 segundos a los enemigos en el área.\n\nPuedes tener 4 trampas armadas al mismo tiempo.\n\nTags: Subterfugio, Trampa, Daño, Veneno, Recuperación.",
+			"frFR": "Temps de recharge: 10 s\nChances d'obtenir un coup de chance: 20%\nVous placez un piège qui s'arme au bout de {#} s. Il s'active lorsqu'une cible passe à portée, ce qui applique {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% points de dégâts de poison en 9 s aux adversaires se trouvant dans la zone affectée.\n\nVous pouvez avoir jusqu'à 4 pièges armés à la fois.\n\nTags: Subterfuge, Piège, Dégâts, Poison, Temps de recharge.",
+			"itIT": "Tempo di recupero: 10 s\nProbabilità di colpo fortunato: 20%\nPiazzi una trappola che si arma dopo {#} s. Quando un nemico entra nel suo raggio d'azione, la trappola si attiva infliggendo {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% danni da veleno per 9 s ai nemici nell'area.\n\nPuoi armare 4 trappole simultaneamente.\n\nTags: Sotterfugio, Trappole, Danni, Veleno, Tempo di recupero.",
+			"jaJP": "クールダウン: 10秒\n幸運の一撃発生率: 20%\n{#}秒後に起動準備が完了する罠を仕掛ける。罠は範囲内で敵が動くと起動し、エリア内にいる敵に9秒間かけて{345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}%の毒ダメージを与える。\n\n罠は同時に4個まで起動可能状態にできる。\n\nTags: 遁走, 罠, ダメージ, 毒, クールダウン.",
+			"koKR": "재사용 대기시간: 10초\n행운의 적중 확률: 20%\n{#}초 후 장전되는 덫을 설치합니다. 덫은 적이 범위 내에 들어오면 발동하며, 해당 범위에 있는 적들에게 9초에 걸쳐 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}%의 중독 피해를 줍니다.\n\n덫은 한 번에 4개까지 장전할 수 있습니다.\n\nTags: 기만, 덫, 피해, 독, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 10 sek.\nSzansa na szczęśliwy traf: 20%\nTworzysz pułapkę, która uzbraja się po {#} sek. Gdy wróg zajdzie się w jej zasięgu, pułapka się aktywuje, a następnie zadaje wrogom na jej obszarze {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% pkt. obrażeń od zatrucia w ciągu 9 sek.\n\nMożesz mieć jednocześnie 4 uzbrojone pułapki:uzbrojonych pułapek.\n\nTags: Podstęp, Pułapki, Obrażenia, Trucizna, Odnowienie.",
+			"ptBR": "Recarga: 10 segundos\nChance de Golpe de Sorte: 20%\nPosiciona uma armadilha que arma após {#} segundos. É ativada quando um inimigo entra em alcance, aplicando {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% de dano venenoso ao longo de 9 segundos a inimigos na área.\n\nVocê pode ter 4 armadilhas armadas de uma vez.\n\nTags: Subterfúgio, Armadilha, Dano, Veneno, Recarga.",
+			"ruRU": "Время восстановления: 10 сек.\nВероятность удачного удара: 20%.\nВы размещаете на земле ловушку, которая заряжается через {#} сек. Когда в область действия попадает противник, она срабатывает и отравляет цели в зоне поражения, нанося {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% ед. урона от отравления за 9 сек.\n\nМаксимальное количество заряженных размещенных ловушек – 4.\n\nTags: Уловки, Ловушка, Урон, Яд, Время восстановления.",
+			"zhCN": "冷却时间: 10 秒\n幸运一击几率: 20%\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 在 9 秒内对范围内的敌人造成 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% 点毒素伤害。\n\n你在同一时间只能拥有 4 个部署的陷阱。\n\nTags: 诡诈, 陷阱, 伤害, 毒素, 冷却时间.",
+			"zhTW": "冷卻時間:10 秒\n幸運觸發機率:20%\n放置一個 {#} 秒後設置完成的陷阱,於敵人進入範圍內時啟動,對範圍內的敵人在 9 秒內造成 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% 點中毒傷害。\n\n你同時只能有 4 個設置完成的陷阱。\n\nTags: 欺敵, 陷阱, 傷害, 毒素, 冷卻時間."
 },
 		id: 70,
 		maxPoints: 5,
-		values: [ "10", "1.25" ],
+		values: [ "1.25" ],
 		x: -411.99,
 		y: 220.272
 	},
@@ -2955,7 +2950,7 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 	},
 	"Dark Shroud": {
 		connections: [ "Enhanced Dark Shroud", "Subterfuge" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 20 seconds
 Surround yourself with up to 5 protective shadows. Gain {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Damage Reduction per active shadow. Each time you take direct damage, that damage is reduced and a shadow is consumed.
 
 Tags: Subterfuge, Damage Reduction, Cooldown.`,
@@ -2974,22 +2969,21 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"zhTW": "黑暗籠罩"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nUmhüllt Euch mit bis zu 5 schützenden Schatten. Erhaltet {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Schadensreduktion pro aktivem Schatten. Jedes Mal, wenn Ihr direkten Schaden erleidet, wird dieser Schaden reduziert und ein Schatten wird verbraucht.\n\nTags: Täuschung, Schadensreduktion, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nTe rodeas con hasta 5 sombras protectoras. Obtienes un {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de reducción de daño por sombra activa. Cada vez que sufres daño directo, ese daño se reduce y se consume una sombra.\n\nTags: Subterfugio, Reducción de daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nTe envuelves con hasta 5 sombras protectoras. Obtienes un {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de reducción de daño por cada sombra activa. Cada vez que recibes daño directo, dicho daño se reduce, y se consume una sombra.\n\nTags: Subterfugio, Reducción de daño, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nVous vous entourez de 5 ombres protectrices au maximum. Vous obtenez {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de réduction des dégâts pour chaque ombre active. Chaque fois que vous subissez des dégâts directs, ces dégâts sont réduits et une ombre est consommée.\n\nTags: Subterfuge, Réduction des dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nTi circondi di massimo 5 ombre protettive. Ottieni il {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% di riduzione danni per ombra attiva. Ogni volta che subisci danni diretti, quei danni si riducono e un'ombra si consuma.\n\nTags: Sotterfugio, Riduzione danni, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n最大5個の防御用影で身を取り巻く。発動している影1個につき、受けるダメージが{8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%軽減される。直接ダメージを受けるたびに、影1個を消費してそのダメージを軽減する。\n\nTags: 遁走, ダメージ減少, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n자신을 최대 5개의 그림자로 둘러쌉니다. 활성화된 그림자 하나당 피해 감소가 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 증가합니다. 자신이 직접 피해를 받을 때마다 해당 피해가 감소하고 그림자 하나가 소모됩니다.\n\nTags: 기만, 피해 감소, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nOtaczasz się ochronnymi cieniami (maksymalnie 5). Zyskujesz premię {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% do redukcji obrażeń za aktywny cień. Za każdym razem, gdy otrzymujesz bezpośrednie obrażenia, są one zredukowane, a jeden z cieni zostaje pochłonięty.\n\nTags: Podstęp, Redukcja Obrażeń, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nAté 5 sombras protetoras cercam você. Você recebe {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de redução de dano por sombra ativa. Sempre que você receber dano direto, esse dano é reduzido e uma sombra é consumida.\n\nTags: Subterfúgio, Redução de Dano, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВас окружает до 5 теней, каждая из которых уменьшает получаемый урон на {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%. Каждый раз, когда вы получаете прямой урон, этот урон уменьшается, а одна тень исчезает.\n\nTags: Уловки, Уменьшение урона, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n用最多 5 层防御性暗影环绕你。每有一层激活的暗影获得 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 伤害减免。每次受到直接伤害时, 该伤害都会降低并消耗一层暗影。\n\nTags: 诡诈, 伤害减免, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n用最多 5 個防護暗影包圍自己。每個作用中的暗影會使傷害減免提高 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%。每次你受到直接傷害時,該傷害會降低並消耗一個暗影。\n\nTags: 欺敵, 傷害減免, 冷卻時間."
+			"deDE": "Abklingzeit: 20 Sek.\nUmhüllt Euch mit bis zu 5 schützenden Schatten. Erhaltet {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Schadensreduktion pro aktivem Schatten. Jedes Mal, wenn Ihr direkten Schaden erleidet, wird dieser Schaden reduziert und ein Schatten wird verbraucht.\n\nTags: Täuschung, Schadensreduktion, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 20 s\nTe rodeas con hasta 5 sombras protectoras. Obtienes un {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de reducción de daño por sombra activa. Cada vez que sufres daño directo, ese daño se reduce y se consume una sombra.\n\nTags: Subterfugio, Reducción de daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 20 segundos\nTe envuelves con hasta 5 sombras protectoras. Obtienes un {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de reducción de daño por cada sombra activa. Cada vez que recibes daño directo, dicho daño se reduce, y se consume una sombra.\n\nTags: Subterfugio, Reducción de daño, Recuperación.",
+			"frFR": "Temps de recharge: 20 s\nVous vous entourez de 5 ombres protectrices au maximum. Vous obtenez {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de réduction des dégâts pour chaque ombre active. Chaque fois que vous subissez des dégâts directs, ces dégâts sont réduits et une ombre est consommée.\n\nTags: Subterfuge, Réduction des dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 20 s\nTi circondi di massimo 5 ombre protettive. Ottieni il {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% di riduzione danni per ombra attiva. Ogni volta che subisci danni diretti, quei danni si riducono e un'ombra si consuma.\n\nTags: Sotterfugio, Riduzione danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 20秒\n最大5個の防御用影で身を取り巻く。発動している影1個につき、受けるダメージが{8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%軽減される。直接ダメージを受けるたびに、影1個を消費してそのダメージを軽減する。\n\nTags: 遁走, ダメージ減少, クールダウン.",
+			"koKR": "재사용 대기시간: 20초\n자신을 최대 5개의 그림자로 둘러쌉니다. 활성화된 그림자 하나당 피해 감소가 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 증가합니다. 자신이 직접 피해를 받을 때마다 해당 피해가 감소하고 그림자 하나가 소모됩니다.\n\nTags: 기만, 피해 감소, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 20 sek.\nOtaczasz się ochronnymi cieniami (maksymalnie 5). Zyskujesz premię {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% do redukcji obrażeń za aktywny cień. Za każdym razem, gdy otrzymujesz bezpośrednie obrażenia, są one zredukowane, a jeden z cieni zostaje pochłonięty.\n\nTags: Podstęp, Redukcja Obrażeń, Odnowienie.",
+			"ptBR": "Recarga: 20 segundos\nAté 5 sombras protetoras cercam você. Você recebe {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de redução de dano por sombra ativa. Sempre que você receber dano direto, esse dano é reduzido e uma sombra é consumida.\n\nTags: Subterfúgio, Redução de Dano, Recarga.",
+			"ruRU": "Время восстановления: 20 сек.\nВас окружает до 5 теней, каждая из которых уменьшает получаемый урон на {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%. Каждый раз, когда вы получаете прямой урон, этот урон уменьшается, а одна тень исчезает.\n\nTags: Уловки, Уменьшение урона, Время восстановления.",
+			"zhCN": "冷却时间: 20 秒\n用最多 5 层防御性暗影环绕你。每有一层激活的暗影获得 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 伤害减免。每次受到直接伤害时, 该伤害都会降低并消耗一层暗影。\n\nTags: 诡诈, 伤害减免, 冷却时间.",
+			"zhTW": "冷卻時間:20 秒\n用最多 5 個防護暗影包圍自己。每個作用中的暗影會使傷害減免提高 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%。每次你受到直接傷害時,該傷害會降低並消耗一個暗影。\n\nTags: 欺敵, 傷害減免, 冷卻時間."
 },
 		id: 59,
 		maxPoints: 5,
-		values: [ "20" ],
 		x: 546.385,
 		y: 3.375
 	},
@@ -3381,7 +3375,7 @@ Tags: Poison, Damage Reduction.`,
 	},
 	"Poison Imbuement": {
 		connections: [ "Enhanced Poison Imbuement", "Imbuements" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 13 seconds
 Lucky Hit Chance: 33%
 Imbue your weapons with lethal poison. Your next 2 Imbueable Skills deal Poison damage and apply {100/110/120/130/140/150/160/170/180/190}% of their Base damage as additional Poisoning damage over 5 seconds.
 
@@ -3401,22 +3395,21 @@ Tags: Imbuement, Damage, Poison, Cooldown, Imbueable.`,
 			"zhTW": "毒素灌注"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 33%\nErfüllt Eure Waffen mit tödlichem Gift. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Giftschaden und fügen zusätzliche {100/110/120/130/140/150/160/170/180/190}% ihres Basisschadens im Verlauf von 5 Sek. als Giftschaden zu.\n\nTags: Infusion, Schaden, Gift, Abklingzeit, Infusionsfähig.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 33%\nImbuyes tus armas de veneno letal. Tus 2 siguientes habilidades imbuibles infligen daño de veneno y aplican un {100/110/120/130/140/150/160/170/180/190}% de su daño base como daño de veneno adicional durante 5 s.\n\nTags: Imbuición, Daño, Veneno, Tiempo de reutilización, Imbuible.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 33%\nImbuyes tus armas con veneno letal. Tus próximas 2 habilidades imbuibles infligen daño de veneno y aplican un {100/110/120/130/140/150/160/170/180/190}% de su daño de base como daño de veneno adicional durante 5 segundos.\n\nTags: Imbuición, Daño, Veneno, Recuperación, Imbuible.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 33%\nVous imprégnez vos armes d'un poison mortel. Vos 2 prochaines compétences imprégnables infligent des dégâts de poison et appliquent {100/110/120/130/140/150/160/170/180/190}% de leurs dégâts de base sous forme de dégâts de poison supplémentaires en 5 s.\n\nTags: Imprégnation, Dégâts, Poison, Temps de recharge, Imprégnable.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 33%\nInfondi le tue armi con veleno letale. Le prossime 2 volte che utilizzerai delle abilità infondibili infliggerai danni da veleno e il {100/110/120/130/140/150/160/170/180/190}% dei relativi danni base sotto forma di danni da veleno aggiuntivi per 5 s.\n\nTags: Infusione, Danni, Veleno, Tempo di recupero, Infondibile.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 33%\n武器に猛毒を注入する。次の2回の注入対応 スキルは毒ダメージを与え、さらに5秒かけて基礎ダメージの{100/110/120/130/140/150/160/170/180/190}%の毒ダメージを追加で与える。\n\nTags: 注入, ダメージ, 毒, クールダウン, 注入可能.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 33%\n무기에 치명적인 독을 주입합니다. 다음 2번의 주입 가능 기술이 독 피해를 주고 5초에 걸쳐 기본 공격력의 {100/110/120/130/140/150/160/170/180/190}%에 해당하는 중독 피해를 추가로 부여합니다.\n\nTags: 주입, 피해, 독, 재사용 대기시간, 주입 가능.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 33%\nNasycasz swoją broń śmiercionośną trucizną. Twoje następne 2 Nasycalne umiejętności zadają obrażenia od Trucizny oraz dodatkowo {100/110/120/130/140/150/160/170/180/190}% swoich obrażeń podstawowych w postaci obrażeń od zatrucia w ciągu 5 sek.\n\nTags: Nasycenie, Obrażenia, Trucizna, Odnowienie, Nasycalne.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 33%\nImbui suas armas com veneno letal. Suas próximas 2 habilidades Imbuíveis causam dano venenoso e aplicam {100/110/120/130/140/150/160/170/180/190}% do dano-base como dano venenoso adicional ao longo de 5 segundos.\n\nTags: Imbuição, Dano, Veneno, Recarga, Imbuível.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 33%.\nВы насыщаете оружие смертоносным ядом. Атаки 2 следующих насыщаемых умений наносят урон от яда и дополнительно отравляют цели, нанося {100/110/120/130/140/150/160/170/180/190}% базового урона за 5 сек.\n\nTags: Насыщение, Урон, Яд, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n用致命毒素灌注你的武器。你的下 2 次灌注技能造成毒素伤害并在 5 秒内额外造成 {100/110/120/130/140/150/160/170/180/190}% 基础伤害的毒素伤害。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:33%\n以致命毒素灌注你的武器。你接下來 2 個可灌注技能會造成毒素傷害,並額外在 5 秒內造成等同其基礎傷害 {100/110/120/130/140/150/160/170/180/190}% 的中毒傷害。\n\nTags: 灌注, 傷害, 毒素, 冷卻時間, 可灌注."
+			"deDE": "Abklingzeit: 13 Sek.\nGlückstrefferchance: 33%\nErfüllt Eure Waffen mit tödlichem Gift. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Giftschaden und fügen zusätzliche {100/110/120/130/140/150/160/170/180/190}% ihres Basisschadens im Verlauf von 5 Sek. als Giftschaden zu.\n\nTags: Infusion, Schaden, Gift, Abklingzeit, Infusionsfähig.",
+			"esES": "Tiempo de reutilización: 13 s\nProbabilidad de golpe de suerte: 33%\nImbuyes tus armas de veneno letal. Tus 2 siguientes habilidades imbuibles infligen daño de veneno y aplican un {100/110/120/130/140/150/160/170/180/190}% de su daño base como daño de veneno adicional durante 5 s.\n\nTags: Imbuición, Daño, Veneno, Tiempo de reutilización, Imbuible.",
+			"esMX": "Recuperación: 13 segundos\nProbabilidad de golpe afortunado: 33%\nImbuyes tus armas con veneno letal. Tus próximas 2 habilidades imbuibles infligen daño de veneno y aplican un {100/110/120/130/140/150/160/170/180/190}% de su daño de base como daño de veneno adicional durante 5 segundos.\n\nTags: Imbuición, Daño, Veneno, Recuperación, Imbuible.",
+			"frFR": "Temps de recharge: 13 s\nChances d'obtenir un coup de chance: 33%\nVous imprégnez vos armes d'un poison mortel. Vos 2 prochaines compétences imprégnables infligent des dégâts de poison et appliquent {100/110/120/130/140/150/160/170/180/190}% de leurs dégâts de base sous forme de dégâts de poison supplémentaires en 5 s.\n\nTags: Imprégnation, Dégâts, Poison, Temps de recharge, Imprégnable.",
+			"itIT": "Tempo di recupero: 13 s\nProbabilità di colpo fortunato: 33%\nInfondi le tue armi con veleno letale. Le prossime 2 volte che utilizzerai delle abilità infondibili infliggerai danni da veleno e il {100/110/120/130/140/150/160/170/180/190}% dei relativi danni base sotto forma di danni da veleno aggiuntivi per 5 s.\n\nTags: Infusione, Danni, Veleno, Tempo di recupero, Infondibile.",
+			"jaJP": "クールダウン: 13秒\n幸運の一撃発生率: 33%\n武器に猛毒を注入する。次の2回の注入対応 スキルは毒ダメージを与え、さらに5秒かけて基礎ダメージの{100/110/120/130/140/150/160/170/180/190}%の毒ダメージを追加で与える。\n\nTags: 注入, ダメージ, 毒, クールダウン, 注入可能.",
+			"koKR": "재사용 대기시간: 13초\n행운의 적중 확률: 33%\n무기에 치명적인 독을 주입합니다. 다음 2번의 주입 가능 기술이 독 피해를 주고 5초에 걸쳐 기본 공격력의 {100/110/120/130/140/150/160/170/180/190}%에 해당하는 중독 피해를 추가로 부여합니다.\n\nTags: 주입, 피해, 독, 재사용 대기시간, 주입 가능.",
+			"plPL": "Czas odnowienia: 13 sek.\nSzansa na szczęśliwy traf: 33%\nNasycasz swoją broń śmiercionośną trucizną. Twoje następne 2 Nasycalne umiejętności zadają obrażenia od Trucizny oraz dodatkowo {100/110/120/130/140/150/160/170/180/190}% swoich obrażeń podstawowych w postaci obrażeń od zatrucia w ciągu 5 sek.\n\nTags: Nasycenie, Obrażenia, Trucizna, Odnowienie, Nasycalne.",
+			"ptBR": "Recarga: 13 segundos\nChance de Golpe de Sorte: 33%\nImbui suas armas com veneno letal. Suas próximas 2 habilidades Imbuíveis causam dano venenoso e aplicam {100/110/120/130/140/150/160/170/180/190}% do dano-base como dano venenoso adicional ao longo de 5 segundos.\n\nTags: Imbuição, Dano, Veneno, Recarga, Imbuível.",
+			"ruRU": "Время восстановления: 13 сек.\nВероятность удачного удара: 33%.\nВы насыщаете оружие смертоносным ядом. Атаки 2 следующих насыщаемых умений наносят урон от яда и дополнительно отравляют цели, нанося {100/110/120/130/140/150/160/170/180/190}% базового урона за 5 сек.\n\nTags: Насыщение, Урон, Яд, Время восстановления.",
+			"zhCN": "冷却时间: 13 秒\n幸运一击几率: 33%\n用致命毒素灌注你的武器。你的下 2 次灌注技能造成毒素伤害并在 5 秒内额外造成 {100/110/120/130/140/150/160/170/180/190}% 基础伤害的毒素伤害。\n\nTags: 灌注, 伤害, 毒素, 冷却时间, 可灌注.",
+			"zhTW": "冷卻時間:13 秒\n幸運觸發機率:33%\n以致命毒素灌注你的武器。你接下來 2 個可灌注技能會造成毒素傷害,並額外在 5 秒內造成等同其基礎傷害 {100/110/120/130/140/150/160/170/180/190}% 的中毒傷害。\n\nTags: 灌注, 傷害, 毒素, 冷卻時間, 可灌注."
 },
 		id: 128,
 		maxPoints: 5,
-		values: [ "13" ],
 		x: 500.35,
 		y: -114.65
 	},
@@ -3615,7 +3608,7 @@ Tags: Shadow, Energy.`,
 	},
 	"Shadow Imbuement": {
 		connections: [ "Enhanced Shadow Imbuement", "Imbuements" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 13 seconds
 Lucky Hit Chance: 33%
 Imbue your weapons with festering shadows. Your next 2 Imbueable Skills deal Shadow damage and infect enemies for 6 seconds. Infected enemies explode on death, dealing {40/44/48/52/56/60/64/68/72/76}% damage to all surrounding enemies.
 
@@ -3637,22 +3630,21 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 			"zhTW": "暗影灌注"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 33%\nErfüllt Eure Waffen mit schwärenden Schatten. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Schattenschaden und infizieren Gegner 6 Sek. lang. Infizierte Gegner explodieren beim Tod und fügen allen Gegnern in der Nähe {40/44/48/52/56/60/64/68/72/76}% Schaden zu.\n\nWenn die Infektion vor dem Tod des Gegners abläuft, fügt sie nur diesem Gegner {40/44/48/52/56/60/64/68/72/76}% Schaden zu.\n\nTags: Infusion, Schaden, Schatten, Abklingzeit, Infusionsfähig.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 33%\nImbuyes tus armas de sombras infectas. Tus 2 siguientes habilidades imbuibles infligen daño de sombra e infectan a los enemigos durante 6 s. Los enemigos infectados explotan al morir e infligen {40/44/48/52/56/60/64/68/72/76}% de daño a todos los enemigos cercanos.\n\nSi la infección termina antes de que el enemigo muera, infligirá {40/44/48/52/56/60/64/68/72/76}% de daño solo a ese enemigo.\n\nTags: Imbuición, Daño, Sombra, Tiempo de reutilización, Imbuible.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 33%\nImbuyes tus armas con sombras purulentas. Tus siguientes 2 habilidades imbuibles infligen daño de sombra e infectan a los enemigos durante 6 segundos. Los enemigos infectados explotan al morir e infligen {40/44/48/52/56/60/64/68/72/76}% de daño a todos los enemigos circundantes.\n\nSi la infección caduca antes de que el enemigo muera, infligirá {40/44/48/52/56/60/64/68/72/76}% de daño solo a ese enemigo.\n\nTags: Imbuición, Daño, Sombra, Recuperación, Imbuible.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 33%\nVous imprégnez vos armes d'ombres purulentes. Vos 2 prochaines compétences imprégnables infligent des dégâts d'ombre et infectent les cibles pendant 6 s. Les cibles infectées explosent en mourant, ce qui inflige {40/44/48/52/56/60/64/68/72/76}% points de dégâts à l'ensemble des adversaires à proximité.\n\nSi l'infection expire avant la mort d'une cible, celle-ci sera la seule à subir {40/44/48/52/56/60/64/68/72/76}% points de dégâts.\n\nTags: Imprégnation, Dégâts, Ombre, Temps de recharge, Imprégnable.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 33%\nInfondi le tue armi con ombre putrescenti. Le prossime 2 volte che utilizzerai delle abilità infondibili infliggerai danni da ombra e infetterai i nemici per 6 s. I nemici infettati esplodono alla morte, infliggendo {40/44/48/52/56/60/64/68/72/76}% danni a tutti i nemici vicini.\n\nSe l'infezione si esaurisce prima della morte del nemico, infligge {40/44/48/52/56/60/64/68/72/76}% danni solamente a quel nemico.\n\nTags: Infusione, Danni, Ombra, Tempo di recupero, Infondibile.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 33%\n武器に腐敗をもたらす闇を注入する。次の2回の注入対応スキルはシャドウダメージを与え、さらに6秒間にわたり敵を闇に感染させる。感染した敵は死亡時に爆発し、周囲にいるすべての敵に{40/44/48/52/56/60/64/68/72/76}%のダメージを与える。\n\n敵が死亡する前に感染が終了すると、その敵のみに{40/44/48/52/56/60/64/68/72/76}%のダメージを与える。\n\nTags: 注入, ダメージ, 影, クールダウン, 注入可能.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 33%\n무기에 부패한 암흑을 주입합니다. 다음 2번의 주입 가능 기술이 암흑 피해를 주고 적을 6초 동안 감염시킵니다. 감염된 적은 사망 시 폭발하여 주변 적들에게 {40/44/48/52/56/60/64/68/72/76}%의 피해를 줍니다.\n\n적이 죽기 전에 감염이 만료되면, 해당 적에게만 {40/44/48/52/56/60/64/68/72/76}%의 피해를 줍니다.\n\nTags: 주입, 피해, 암흑, 재사용 대기시간, 주입 가능.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 33%\nNasycasz swoją broń jątrzącymi cieniami. Twoje następne (2) Nasycalne umiejętności zadają obrażenia Cienia i zakażają wrogów na 6 sek. Zakażeni wrogowie po śmierci wybuchają, zadając {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń wszystkim pobliskim celom.\n\nJeśli zakażenie dobiegnie końca, zanim wróg zginie, zada {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń tylko temu wrogowi.\n\nTags: Nasycenie, Obrażenia, Cień, Odnowienie, Nasycalne.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 33%\nImbui suas armas com sombras pútridas. Suas próximas 2 habilidades Imbuíveis causam dano de sombra e infectam inimigos por 6 segundos. Inimigos infectados explodem ao morrer, causando {40/44/48/52/56/60/64/68/72/76}% de dano a todos os inimigos ao redor.\n\nSe a infecção expirar antes de o inimigo morrer, causará {40/44/48/52/56/60/64/68/72/76}% de dano somente a esse inimigo.\n\nTags: Imbuição, Dano, Sombra, Recarga, Imbuível.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 33%.\nВы насыщаете оружие тлетворной силой тени. Атаки 2 следующих насыщаемых умений наносят урон от темной магии и заражают противников на 6 сек.\nЗараженные противники взрываются после смерти, нанося {40/44/48/52/56/60/64/68/72/76}% ед. урона окружающим противникам.\n\nЕсли действие заражения заканчивается до смерти противника, он получает {40/44/48/52/56/60/64/68/72/76}% ед. урона.\n\nTags: Насыщение, Урон, Темная магия, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n使用溃烂的暗影能量灌注你的武器。你接下来的 2 个 可灌注技能造成暗影伤害并感染敌人 6 秒。被感染的敌人死亡时爆炸, 对周围所有敌人造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\n如果感染在敌人死亡前结束, 它只会对那一名敌人造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:33%\n以潰膿暗影灌注你的武器。你接下來 2 個可灌注技能會造成暗影傷害並感染敵人 6 秒。受感染的敵人在死亡時會爆炸,對附近所有敵人造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害。\n\n若感染效果結束時該敵人尚未死亡,則只會對該敵人造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害。\n\nTags: 灌注, 傷害, 暗影, 冷卻時間, 可灌注."
+			"deDE": "Abklingzeit: 13 Sek.\nGlückstrefferchance: 33%\nErfüllt Eure Waffen mit schwärenden Schatten. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Schattenschaden und infizieren Gegner 6 Sek. lang. Infizierte Gegner explodieren beim Tod und fügen allen Gegnern in der Nähe {40/44/48/52/56/60/64/68/72/76}% Schaden zu.\n\nWenn die Infektion vor dem Tod des Gegners abläuft, fügt sie nur diesem Gegner {40/44/48/52/56/60/64/68/72/76}% Schaden zu.\n\nTags: Infusion, Schaden, Schatten, Abklingzeit, Infusionsfähig.",
+			"esES": "Tiempo de reutilización: 13 s\nProbabilidad de golpe de suerte: 33%\nImbuyes tus armas de sombras infectas. Tus 2 siguientes habilidades imbuibles infligen daño de sombra e infectan a los enemigos durante 6 s. Los enemigos infectados explotan al morir e infligen {40/44/48/52/56/60/64/68/72/76}% de daño a todos los enemigos cercanos.\n\nSi la infección termina antes de que el enemigo muera, infligirá {40/44/48/52/56/60/64/68/72/76}% de daño solo a ese enemigo.\n\nTags: Imbuición, Daño, Sombra, Tiempo de reutilización, Imbuible.",
+			"esMX": "Recuperación: 13 segundos\nProbabilidad de golpe afortunado: 33%\nImbuyes tus armas con sombras purulentas. Tus siguientes 2 habilidades imbuibles infligen daño de sombra e infectan a los enemigos durante 6 segundos. Los enemigos infectados explotan al morir e infligen {40/44/48/52/56/60/64/68/72/76}% de daño a todos los enemigos circundantes.\n\nSi la infección caduca antes de que el enemigo muera, infligirá {40/44/48/52/56/60/64/68/72/76}% de daño solo a ese enemigo.\n\nTags: Imbuición, Daño, Sombra, Recuperación, Imbuible.",
+			"frFR": "Temps de recharge: 13 s\nChances d'obtenir un coup de chance: 33%\nVous imprégnez vos armes d'ombres purulentes. Vos 2 prochaines compétences imprégnables infligent des dégâts d'ombre et infectent les cibles pendant 6 s. Les cibles infectées explosent en mourant, ce qui inflige {40/44/48/52/56/60/64/68/72/76}% points de dégâts à l'ensemble des adversaires à proximité.\n\nSi l'infection expire avant la mort d'une cible, celle-ci sera la seule à subir {40/44/48/52/56/60/64/68/72/76}% points de dégâts.\n\nTags: Imprégnation, Dégâts, Ombre, Temps de recharge, Imprégnable.",
+			"itIT": "Tempo di recupero: 13 s\nProbabilità di colpo fortunato: 33%\nInfondi le tue armi con ombre putrescenti. Le prossime 2 volte che utilizzerai delle abilità infondibili infliggerai danni da ombra e infetterai i nemici per 6 s. I nemici infettati esplodono alla morte, infliggendo {40/44/48/52/56/60/64/68/72/76}% danni a tutti i nemici vicini.\n\nSe l'infezione si esaurisce prima della morte del nemico, infligge {40/44/48/52/56/60/64/68/72/76}% danni solamente a quel nemico.\n\nTags: Infusione, Danni, Ombra, Tempo di recupero, Infondibile.",
+			"jaJP": "クールダウン: 13秒\n幸運の一撃発生率: 33%\n武器に腐敗をもたらす闇を注入する。次の2回の注入対応スキルはシャドウダメージを与え、さらに6秒間にわたり敵を闇に感染させる。感染した敵は死亡時に爆発し、周囲にいるすべての敵に{40/44/48/52/56/60/64/68/72/76}%のダメージを与える。\n\n敵が死亡する前に感染が終了すると、その敵のみに{40/44/48/52/56/60/64/68/72/76}%のダメージを与える。\n\nTags: 注入, ダメージ, 影, クールダウン, 注入可能.",
+			"koKR": "재사용 대기시간: 13초\n행운의 적중 확률: 33%\n무기에 부패한 암흑을 주입합니다. 다음 2번의 주입 가능 기술이 암흑 피해를 주고 적을 6초 동안 감염시킵니다. 감염된 적은 사망 시 폭발하여 주변 적들에게 {40/44/48/52/56/60/64/68/72/76}%의 피해를 줍니다.\n\n적이 죽기 전에 감염이 만료되면, 해당 적에게만 {40/44/48/52/56/60/64/68/72/76}%의 피해를 줍니다.\n\nTags: 주입, 피해, 암흑, 재사용 대기시간, 주입 가능.",
+			"plPL": "Czas odnowienia: 13 sek.\nSzansa na szczęśliwy traf: 33%\nNasycasz swoją broń jątrzącymi cieniami. Twoje następne (2) Nasycalne umiejętności zadają obrażenia Cienia i zakażają wrogów na 6 sek. Zakażeni wrogowie po śmierci wybuchają, zadając {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń wszystkim pobliskim celom.\n\nJeśli zakażenie dobiegnie końca, zanim wróg zginie, zada {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń tylko temu wrogowi.\n\nTags: Nasycenie, Obrażenia, Cień, Odnowienie, Nasycalne.",
+			"ptBR": "Recarga: 13 segundos\nChance de Golpe de Sorte: 33%\nImbui suas armas com sombras pútridas. Suas próximas 2 habilidades Imbuíveis causam dano de sombra e infectam inimigos por 6 segundos. Inimigos infectados explodem ao morrer, causando {40/44/48/52/56/60/64/68/72/76}% de dano a todos os inimigos ao redor.\n\nSe a infecção expirar antes de o inimigo morrer, causará {40/44/48/52/56/60/64/68/72/76}% de dano somente a esse inimigo.\n\nTags: Imbuição, Dano, Sombra, Recarga, Imbuível.",
+			"ruRU": "Время восстановления: 13 сек.\nВероятность удачного удара: 33%.\nВы насыщаете оружие тлетворной силой тени. Атаки 2 следующих насыщаемых умений наносят урон от темной магии и заражают противников на 6 сек.\nЗараженные противники взрываются после смерти, нанося {40/44/48/52/56/60/64/68/72/76}% ед. урона окружающим противникам.\n\nЕсли действие заражения заканчивается до смерти противника, он получает {40/44/48/52/56/60/64/68/72/76}% ед. урона.\n\nTags: Насыщение, Урон, Темная магия, Время восстановления.",
+			"zhCN": "冷却时间: 13 秒\n幸运一击几率: 33%\n使用溃烂的暗影能量灌注你的武器。你接下来的 2 个 可灌注技能造成暗影伤害并感染敌人 6 秒。被感染的敌人死亡时爆炸, 对周围所有敌人造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\n如果感染在敌人死亡前结束, 它只会对那一名敌人造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\nTags: 灌注, 伤害, 暗影, 冷却时间, 可灌注.",
+			"zhTW": "冷卻時間:13 秒\n幸運觸發機率:33%\n以潰膿暗影灌注你的武器。你接下來 2 個可灌注技能會造成暗影傷害並感染敵人 6 秒。受感染的敵人在死亡時會爆炸,對附近所有敵人造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害。\n\n若感染效果結束時該敵人尚未死亡,則只會對該敵人造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害。\n\nTags: 灌注, 傷害, 暗影, 冷卻時間, 可灌注."
 },
 		id: 132,
 		maxPoints: 5,
-		values: [ "13" ],
 		x: 221.62,
 		y: -249.835
 	},
@@ -3775,7 +3767,7 @@ Tags: Imbuement, Damage, Shadow, Cooldown, Imbueable.`,
 	},
 	"Cold Imbuement": {
 		connections: [ "Enhanced Cold Imbuement", "Imbuements" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 13 seconds
 Imbue your weapons with frigid energies. Your next 2 Imbueable Skills deal Cold damage and Chill enemies for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% per hit.
 
 Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
@@ -3794,22 +3786,21 @@ Tags: Imbuement, Chill, Damage, Cold, Cooldown, Crowd Control, Imbueable.`,
 			"zhTW": "冰寒灌注"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nErfüllt Eure Waffen mit frostiger Energie. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Kälteschaden und unterkühlen Gegner um {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pro Treffer.\n\nTags: Infusion, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Infusionsfähig.",
-			"esES": "Tiempo de reutilización: {#} s\nImbuye tus armas de energías gélidas. Tus 2 siguientes habilidades imbuibles infligen daño de frío y aplican un {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de helada por golpe a los enemigos.\n\nTags: Imbuición, Helada, Daño, Frío, Tiempo de reutilización, Control de masas, Imbuible.",
-			"esMX": "Recuperación: {#} segundos\nImbuyes tus armas de energías frígidas. Tus próximas 2 habilidades imbuibles infligen daño de frío y hielan a los enemigos un {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% por golpe.\n\nTags: Imbuición, Helar, Daño, Frío, Recuperación, Control de multitudes, Imbuible.",
-			"frFR": "Temps de recharge: {#} s\nVous imprégnez vos armes d'énergie glaciale. Vos 2 prochaines compétences imprégnables infligent des dégâts de froid et glacent les adversaires à hauteur de {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% par coup.\n\nTags: Imprégnation, Glace, Dégâts, Froid, Temps de recharge, Perte de contrôle, Imprégnable.",
-			"itIT": "Tempo di recupero: {#} s\nInfondi le tue armi con energie gelide. Le prossime 2 volte che utilizzerai delle abilità infondibili infliggerai danni da freddo e raggelerai i nemici del {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% per colpo.\n\nTags: Infusione, Raggelamento, Danni, Freddo, Tempo di recupero, Effetti debilitanti, Infondibile.",
-			"jaJP": "クールダウン: {#}秒\n武器に極低温のエネルギーを注入する。次の2回の注入対応スキルは敵に冷気ダメージを与え、さらに命中するたびに{25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%の冷気効果を付与する。\n\nTags: 注入, 冷気, ダメージ, クールダウン, 操作障害効果, 注入可能.",
-			"koKR": "재사용 대기시간: {#}초\n무기에 혹한의 에너지를 주입합니다. 다음 2번의 주입 가능 기술이 냉기 피해를 주고 적들에게 적중당 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%의 오한을 느끼게 합니다.\n\nTags: 주입, 오한, 피해, 냉기, 재사용 대기시간, 군중 제어, 주입 가능.",
-			"plPL": "Czas odnowienia: {#} sek.\nNasycasz swoją broń mroźnymi energiami. Twoje następne umiejętności Nasycalne (2) zadają obrażenia od Zimna oraz przy każdym trafieniu wyziębiają wrogów o {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%.\n\nTags: Nasycenie, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Nasycalne.",
-			"ptBR": "Recarga: {#} segundos\nImbui suas armas com energias gélidas. Suas próximas 2 habilidades Imbuíveis causam dano gélido e gelam inimigos, causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano por acerto.\n\nTags: Imbuição, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Imbuível.",
-			"ruRU": "Время восстановления: {#} сек.\nВы наделяете свое оружие силой мороза. Атаки 2 следующих насыщаемых умений наносят урон от холода и заставляют противников коченеть, уменьшая их подвижность на {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% за попадание.\n\nTags: Насыщение, Окоченение, Урон, Холод, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: {#} 秒\n为你的武器灌注冰冷的能量。你的下 2 个可灌注技能造成冰霜伤害, 每一击冻伤敌人 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注.",
-			"zhTW": "冷卻時間:{#} 秒\n以冰寒能量灌注你的武器。你的下 2 個可灌注技能會造成冰寒傷害,且每次擊中會使敵人冰冷 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%。\n\nTags: 灌注, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 可灌注."
+			"deDE": "Abklingzeit: 13 Sek.\nErfüllt Eure Waffen mit frostiger Energie. Eure nächsten 2 infusionsfähigen Fertigkeiten verursachen Kälteschaden und unterkühlen Gegner um {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pro Treffer.\n\nTags: Infusion, Unterkühlen, Schaden, Kälte, Abklingzeit, Kontrollverlust, Infusionsfähig.",
+			"esES": "Tiempo de reutilización: 13 s\nImbuye tus armas de energías gélidas. Tus 2 siguientes habilidades imbuibles infligen daño de frío y aplican un {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de helada por golpe a los enemigos.\n\nTags: Imbuición, Helada, Daño, Frío, Tiempo de reutilización, Control de masas, Imbuible.",
+			"esMX": "Recuperación: 13 segundos\nImbuyes tus armas de energías frígidas. Tus próximas 2 habilidades imbuibles infligen daño de frío y hielan a los enemigos un {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% por golpe.\n\nTags: Imbuición, Helar, Daño, Frío, Recuperación, Control de multitudes, Imbuible.",
+			"frFR": "Temps de recharge: 13 s\nVous imprégnez vos armes d'énergie glaciale. Vos 2 prochaines compétences imprégnables infligent des dégâts de froid et glacent les adversaires à hauteur de {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% par coup.\n\nTags: Imprégnation, Glace, Dégâts, Froid, Temps de recharge, Perte de contrôle, Imprégnable.",
+			"itIT": "Tempo di recupero: 13 s\nInfondi le tue armi con energie gelide. Le prossime 2 volte che utilizzerai delle abilità infondibili infliggerai danni da freddo e raggelerai i nemici del {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% per colpo.\n\nTags: Infusione, Raggelamento, Danni, Freddo, Tempo di recupero, Effetti debilitanti, Infondibile.",
+			"jaJP": "クールダウン: 13秒\n武器に極低温のエネルギーを注入する。次の2回の注入対応スキルは敵に冷気ダメージを与え、さらに命中するたびに{25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%の冷気効果を付与する。\n\nTags: 注入, 冷気, ダメージ, クールダウン, 操作障害効果, 注入可能.",
+			"koKR": "재사용 대기시간: 13초\n무기에 혹한의 에너지를 주입합니다. 다음 2번의 주입 가능 기술이 냉기 피해를 주고 적들에게 적중당 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%의 오한을 느끼게 합니다.\n\nTags: 주입, 오한, 피해, 냉기, 재사용 대기시간, 군중 제어, 주입 가능.",
+			"plPL": "Czas odnowienia: 13 sek.\nNasycasz swoją broń mroźnymi energiami. Twoje następne umiejętności Nasycalne (2) zadają obrażenia od Zimna oraz przy każdym trafieniu wyziębiają wrogów o {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%.\n\nTags: Nasycenie, Wyziębienie, Obrażenia, Zimno, Odnowienie, Ograniczanie Kontroli, Nasycalne.",
+			"ptBR": "Recarga: 13 segundos\nImbui suas armas com energias gélidas. Suas próximas 2 habilidades Imbuíveis causam dano gélido e gelam inimigos, causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano por acerto.\n\nTags: Imbuição, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Imbuível.",
+			"ruRU": "Время восстановления: 13 сек.\nВы наделяете свое оружие силой мороза. Атаки 2 следующих насыщаемых умений наносят урон от холода и заставляют противников коченеть, уменьшая их подвижность на {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% за попадание.\n\nTags: Насыщение, Окоченение, Урон, Холод, Время восстановления, Контроль.",
+			"zhCN": "冷却时间: 13 秒\n为你的武器灌注冰冷的能量。你的下 2 个可灌注技能造成冰霜伤害, 每一击冻伤敌人 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%。\n\nTags: 灌注, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 可灌注.",
+			"zhTW": "冷卻時間:13 秒\n以冰寒能量灌注你的武器。你的下 2 個可灌注技能會造成冰寒傷害,且每次擊中會使敵人冰冷 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%。\n\nTags: 灌注, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 可灌注."
 },
 		id: 136,
 		maxPoints: 5,
-		values: [ "13" ],
 		x: 280.1,
 		y: 265.1
 	},
@@ -4163,7 +4154,7 @@ Tags: Energy, Lucky Hit.`,
 	},
 	"Shadow Clone": {
 		connections: [ "Prime Shadow Clone", "Ultimate" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 60 seconds
 Your shadow mimicks your actions for 15 seconds. This Shadow Clone deals 60% of your damage.
 
 Tags: Ultimate, Damage, Physical, Cooldown.`,
@@ -4182,22 +4173,21 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"zhTW": "暗影分身"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nEuer Schatten ahmt Euch 15 Sek. lang nach. Der Schattenklon verursacht 60% Eures Schadens.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nTu clon imita tus acciones durante 15 s. Este Clon tenebroso inflige un 60% de tu daño.\n\nTags: Definitiva, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nTu sombra copia tus acciones durante 15 segundos. Este Clon Umbrío inflige un 60% de tu daño.\n\nTags: Máxima, Daño, Física, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nVotre ombre imite vos faits et gestes pendant 15 s. Ce Clone d'ombre inflige 60% de vos dégâts.\n\nTags: Ultime, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nLa tua ombra copia le tue azioni per 15 s. Questo Clone d'Ombra infligge il 60% dei tuoi danni.\n\nTags: Ultra, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n15秒間、影が自分の行動を模倣する。このシャドウ・クローンは、自分の与えるダメージの60%のダメージを与える。\n\nTags: 奥義, ダメージ, 物理, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n15초 동안 그림자가 도적의 행동을 흉내냅니다. 복제된 그림자는 도적이 주는 피해의 60%에 해당하는 피해를 줍니다.\n\nTags: 궁극기, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nTwój Cień naśladuje twoje działania przez 15 sek.\nTen Klon Cienia zadaje równowartość 60% twoich obrażeń.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nSua sombra imita suas ações por 15 segundos. Este Clone de Sombras causa 60% do seu dano.\n\nTags: Suprema, Dano, Física, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВаша тень копирует ваши действия в течение 15 сек. Темное отражение наносит 60% вашего урона.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n你的暗影分身会模仿你的行动, 持续 15 秒。\n暗影分身造成的伤害相当于你造成伤害的 60%。\n\nTags: 终极技能, 伤害, 物理, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n你的影子會模仿你的動作,持續 15 秒。暗影分身會造成你傷害值 60% 的傷害。\n\nTags: 絕招, 傷害, 物理, 冷卻時間."
+			"deDE": "Abklingzeit: 60 Sek.\nEuer Schatten ahmt Euch 15 Sek. lang nach. Der Schattenklon verursacht 60% Eures Schadens.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 60 s\nTu clon imita tus acciones durante 15 s. Este Clon tenebroso inflige un 60% de tu daño.\n\nTags: Definitiva, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Recuperación: 60 segundos\nTu sombra copia tus acciones durante 15 segundos. Este Clon Umbrío inflige un 60% de tu daño.\n\nTags: Máxima, Daño, Física, Recuperación.",
+			"frFR": "Temps de recharge: 60 s\nVotre ombre imite vos faits et gestes pendant 15 s. Ce Clone d'ombre inflige 60% de vos dégâts.\n\nTags: Ultime, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Tempo di recupero: 60 s\nLa tua ombra copia le tue azioni per 15 s. Questo Clone d'Ombra infligge il 60% dei tuoi danni.\n\nTags: Ultra, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "クールダウン: 60秒\n15秒間、影が自分の行動を模倣する。このシャドウ・クローンは、自分の与えるダメージの60%のダメージを与える。\n\nTags: 奥義, ダメージ, 物理, クールダウン.",
+			"koKR": "재사용 대기시간: 60초\n15초 동안 그림자가 도적의 행동을 흉내냅니다. 복제된 그림자는 도적이 주는 피해의 60%에 해당하는 피해를 줍니다.\n\nTags: 궁극기, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 60 sek.\nTwój Cień naśladuje twoje działania przez 15 sek.\nTen Klon Cienia zadaje równowartość 60% twoich obrażeń.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Recarga: 60 segundos\nSua sombra imita suas ações por 15 segundos. Este Clone de Sombras causa 60% do seu dano.\n\nTags: Suprema, Dano, Física, Recarga.",
+			"ruRU": "Время восстановления: 60 сек.\nВаша тень копирует ваши действия в течение 15 сек. Темное отражение наносит 60% вашего урона.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
+			"zhCN": "冷却时间: 60 秒\n你的暗影分身会模仿你的行动, 持续 15 秒。\n暗影分身造成的伤害相当于你造成伤害的 60%。\n\nTags: 终极技能, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間:60 秒\n你的影子會模仿你的動作,持續 15 秒。暗影分身會造成你傷害值 60% 的傷害。\n\nTags: 絕招, 傷害, 物理, 冷卻時間."
 },
 		id: 104,
 		maxPoints: 1,
-		values: [ "60" ],
 		x: 2.07,
 		y: -283.5
 	},
@@ -4319,7 +4309,7 @@ Tags: Energy, Ultimate.`,
 	},
 	"Death Trap": {
 		connections: [ "Prime Death Trap", "Ultimate" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 50 seconds
 Lucky Hit Chance: 4%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing a total of 250% damage to each enemy in the area.
 
@@ -4339,22 +4329,22 @@ Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 			"zhTW": "死亡陷阱"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 4%\nPlatziert eine Falle, die nach {#} Sek. scharf wird. Kommen Gegner ihr zu nahe, aktiviert sie sich, explodiert und fügt jedem Gegner im Wirkungsbereich insgesamt 250% Schaden zu.\n\nTags: Ultimativ, Falle, Schaden, Schatten, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 4%\nColocas una trampa que se arma al cabo de {#} s. Cuando un enemigo se pone al alcance, se activa e inflige un total de 250% de daño a cada enemigo en la zona.\n\nTags: Definitiva, Trampa, Daño, Sombra, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 4%\nColocas una trampa que se arma después de {#} segundos. Se activa cuando un enemigo se mueve dentro del alcance e inflige un total de 250% de daño a cada enemigo en el área.\n\nTags: Máxima, Trampa, Daño, Sombra, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 4%\nVous placez un piège qui s'arme au bout de {#} s. Il s'active lorsqu'une cible adverse passe à portée, ce qui inflige un total de 250% points de dégâts à chaque adversaire se trouvant dans la zone affectée.\n\nTags: Ultime, Piège, Dégâts, Ombre, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 4%\nPiazzi una trappola che si arma dopo {#} s. Quando un nemico entra nel suo raggio d'azione, la trappola si attiva infliggendo un totale di 250% danni a ogni nemico nell'area.\n\nTags: Ultra, Trappole, Danni, Ombra, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 4%\n{#}秒後に起動準備が完了する罠を仕掛ける。罠は一定距離内で敵が動くと起動し、エリア内にいる敵それぞれに合計250%のダメージを与える。\n\nTags: 奥義, 罠, ダメージ, 影, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 4%\n{#}초 후 장전되는 덫을 설치합니다. 덫은 적이 범위 내에 들어오면 발동하며, 해당 범위 내에 있는 각각의 적에게 총 250%의 피해를 줍니다.\n\nTags: 궁극기, 덫, 피해, 암흑, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 4%\nTworzysz pułapkę, która uzbraja się po {#} sek. Gdy wróg zajdzie się w jej zasięgu, pułapka się aktywuje, a następnie wybucha, zadając w sumie 250% pkt. obrażeń każdemu wrogowi w polu rażenia.\n\nTags: Specjalne, Pułapki, Obrażenia, Cień, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 4%\nPosiciona uma armadilha que arma após {#} segundos. É ativada quando um inimigo entra em alcance, causando um total de 250% de dano a cada inimigo na área.\n\nTags: Suprema, Armadilha, Dano, Sombra, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 4%.\nВы размещаете на земле ловушку, которая заряжается через {#} сек. Когда в область действия попадает противник, она срабатывает и наносит целям в зоне поражения по 250% ед. урона.\n\nTags: Мощное умение, Ловушка, Урон, Темная магия, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 4%\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 对范围内的每个敌人造成总共 250% 点伤害。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:4%\n放置一個 {#} 秒後設置完成的陷阱,於敵人進入範圍內時啟動,對範圍內每一個敵人累積造成 250% 點傷害。\n\nTags: 絕招, 陷阱, 傷害, 暗影, 冷卻時間."
+			"deDE": "Abklingzeit: 50 Sek.\nGlückstrefferchance: 4%\nPlatziert eine Falle, die nach {#} Sek. scharf wird. Kommen Gegner ihr zu nahe, aktiviert sie sich, explodiert und fügt jedem Gegner im Wirkungsbereich insgesamt 250% Schaden zu.\n\nTags: Ultimativ, Falle, Schaden, Schatten, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 50 s\nProbabilidad de golpe de suerte: 4%\nColocas una trampa que se arma al cabo de {#} s. Cuando un enemigo se pone al alcance, se activa e inflige un total de 250% de daño a cada enemigo en la zona.\n\nTags: Definitiva, Trampa, Daño, Sombra, Tiempo de reutilización.",
+			"esMX": "Recuperación: 50 segundos\nProbabilidad de golpe afortunado: 4%\nColocas una trampa que se arma después de {#} segundos. Se activa cuando un enemigo se mueve dentro del alcance e inflige un total de 250% de daño a cada enemigo en el área.\n\nTags: Máxima, Trampa, Daño, Sombra, Recuperación.",
+			"frFR": "Temps de recharge: 50 s\nChances d'obtenir un coup de chance: 4%\nVous placez un piège qui s'arme au bout de {#} s. Il s'active lorsqu'une cible adverse passe à portée, ce qui inflige un total de 250% points de dégâts à chaque adversaire se trouvant dans la zone affectée.\n\nTags: Ultime, Piège, Dégâts, Ombre, Temps de recharge.",
+			"itIT": "Tempo di recupero: 50 s\nProbabilità di colpo fortunato: 4%\nPiazzi una trappola che si arma dopo {#} s. Quando un nemico entra nel suo raggio d'azione, la trappola si attiva infliggendo un totale di 250% danni a ogni nemico nell'area.\n\nTags: Ultra, Trappole, Danni, Ombra, Tempo di recupero.",
+			"jaJP": "クールダウン: 50秒\n幸運の一撃発生率: 4%\n{#}秒後に起動準備が完了する罠を仕掛ける。罠は一定距離内で敵が動くと起動し、エリア内にいる敵それぞれに合計250%のダメージを与える。\n\nTags: 奥義, 罠, ダメージ, 影, クールダウン.",
+			"koKR": "재사용 대기시간: 50초\n행운의 적중 확률: 4%\n{#}초 후 장전되는 덫을 설치합니다. 덫은 적이 범위 내에 들어오면 발동하며, 해당 범위 내에 있는 각각의 적에게 총 250%의 피해를 줍니다.\n\nTags: 궁극기, 덫, 피해, 암흑, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 50 sek.\nSzansa na szczęśliwy traf: 4%\nTworzysz pułapkę, która uzbraja się po {#} sek. Gdy wróg zajdzie się w jej zasięgu, pułapka się aktywuje, a następnie wybucha, zadając w sumie 250% pkt. obrażeń każdemu wrogowi w polu rażenia.\n\nTags: Specjalne, Pułapki, Obrażenia, Cień, Odnowienie.",
+			"ptBR": "Recarga: 50 segundos\nChance de Golpe de Sorte: 4%\nPosiciona uma armadilha que arma após {#} segundos. É ativada quando um inimigo entra em alcance, causando um total de 250% de dano a cada inimigo na área.\n\nTags: Suprema, Armadilha, Dano, Sombra, Recarga.",
+			"ruRU": "Время восстановления: 50 сек.\nВероятность удачного удара: 4%.\nВы размещаете на земле ловушку, которая заряжается через {#} сек. Когда в область действия попадает противник, она срабатывает и наносит целям в зоне поражения по 250% ед. урона.\n\nTags: Мощное умение, Ловушка, Урон, Темная магия, Время восстановления.",
+			"zhCN": "冷却时间: 50 秒\n幸运一击几率: 4%\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 对范围内的每个敌人造成总共 250% 点伤害。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间.",
+			"zhTW": "冷卻時間:50 秒\n幸運觸發機率:4%\n放置一個 {#} 秒後設置完成的陷阱,於敵人進入範圍內時啟動,對範圍內每一個敵人累積造成 250% 點傷害。\n\nTags: 絕招, 陷阱, 傷害, 暗影, 冷卻時間."
 },
 		id: 108,
 		maxPoints: 1,
-		values: [ "50", "40" ],
+		values: [ "1.25" ],
 		x: -543.29,
 		y: 2.23
 	},
@@ -4476,7 +4466,7 @@ Tags: Vulnerable, Crowd Control, Critical Strikes, Trap.`,
 	},
 	"Rain of Arrows": {
 		connections: [ "Prime Rain of Arrows", "Ultimate" ],
-		description: `Cooldown: {#} seconds
+		description: `Cooldown: 60 seconds
 Lucky Hit Chance: 2%
 Arrows rain down over a large area 2 times, each wave dealing 100% damage.
 
@@ -4496,22 +4486,21 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 			"zhTW": "箭雨"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 2%\nPfeile regnen 2-mal auf ein großes Gebiet herab, wobei jede Welle 100% Schaden verursacht.\n\nTags: Ultimativ, Präzision, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 2%\nCae una lluvia de flechas en una gran zona 2 veces. Cada oleada inflige 100% de daño.\n\nTags: Definitiva, Tirador, Imbuible, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 2%\nHaces llover flechas sobre un área grande 2 veces, y cada ola inflige 100% de daño.\n\nTags: Máxima, Tirador, Imbuible, Daño, Física, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 2%\nVous faites pleuvoir des flèches sur une large zone à 2 reprises, chaque vague infligeant 100% points de dégâts.\n\nTags: Ultime, Tir d'élite, Imprégnable, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 2%\nFrecce piovono su un'ampia area per 2 volte, infliggendo 100% danni a ogni ondata.\n\nTags: Ultra, Tiro di precisione, Infondibile, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 2%\n広範囲に矢の雨が2回にわたって降り注ぎ、1回ごとに100%のダメージを与える。\n\nTags: 奥義, 射手, 注入可能, ダメージ, 物理, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 2%\n넓은 지역에 화살비가 2번 쏟아져, 각각 100%의 피해를 줍니다.\n\nTags: 궁극기, 명사수, 주입 가능, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 2%\nStrzały spadają falami na duży obszar 2 razy, a każda fala zadaje 100% pkt. obrażeń.\n\nTags: Specjalne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 2%\nFlechas são disparadas em uma grande área 2 vezes. Cada onda causa 100% de dano.\n\nTags: Suprema, Atirador, Imbuível, Dano, Física, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 2%.\nГрад стрел поражает широкую область 2 залпами, которые наносят по 100% ед. урона.\n\nTags: Мощное умение, Стрелок, Насыщение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 2%\n箭矢如雨一般在大范围内落下 2 次, 每波造成 100% 点伤害。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间.",
-			"zhTW": "冷卻時間:{#} 秒\n幸運觸發機率:2%\n降下 2 波大範圍的箭雨,每波造成 100% 點傷害。\n\nTags: 絕招, 射手, 可灌注, 傷害, 物理, 冷卻時間."
+			"deDE": "Abklingzeit: 60 Sek.\nGlückstrefferchance: 2%\nPfeile regnen 2-mal auf ein großes Gebiet herab, wobei jede Welle 100% Schaden verursacht.\n\nTags: Ultimativ, Präzision, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 60 s\nProbabilidad de golpe de suerte: 2%\nCae una lluvia de flechas en una gran zona 2 veces. Cada oleada inflige 100% de daño.\n\nTags: Definitiva, Tirador, Imbuible, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Recuperación: 60 segundos\nProbabilidad de golpe afortunado: 2%\nHaces llover flechas sobre un área grande 2 veces, y cada ola inflige 100% de daño.\n\nTags: Máxima, Tirador, Imbuible, Daño, Física, Recuperación.",
+			"frFR": "Temps de recharge: 60 s\nChances d'obtenir un coup de chance: 2%\nVous faites pleuvoir des flèches sur une large zone à 2 reprises, chaque vague infligeant 100% points de dégâts.\n\nTags: Ultime, Tir d'élite, Imprégnable, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Tempo di recupero: 60 s\nProbabilità di colpo fortunato: 2%\nFrecce piovono su un'ampia area per 2 volte, infliggendo 100% danni a ogni ondata.\n\nTags: Ultra, Tiro di precisione, Infondibile, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "クールダウン: 60秒\n幸運の一撃発生率: 2%\n広範囲に矢の雨が2回にわたって降り注ぎ、1回ごとに100%のダメージを与える。\n\nTags: 奥義, 射手, 注入可能, ダメージ, 物理, クールダウン.",
+			"koKR": "재사용 대기시간: 60초\n행운의 적중 확률: 2%\n넓은 지역에 화살비가 2번 쏟아져, 각각 100%의 피해를 줍니다.\n\nTags: 궁극기, 명사수, 주입 가능, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 60 sek.\nSzansa na szczęśliwy traf: 2%\nStrzały spadają falami na duży obszar 2 razy, a każda fala zadaje 100% pkt. obrażeń.\n\nTags: Specjalne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Recarga: 60 segundos\nChance de Golpe de Sorte: 2%\nFlechas são disparadas em uma grande área 2 vezes. Cada onda causa 100% de dano.\n\nTags: Suprema, Atirador, Imbuível, Dano, Física, Recarga.",
+			"ruRU": "Время восстановления: 60 сек.\nВероятность удачного удара: 2%.\nГрад стрел поражает широкую область 2 залпами, которые наносят по 100% ед. урона.\n\nTags: Мощное умение, Стрелок, Насыщение, Урон, Физический урон, Время восстановления.",
+			"zhCN": "冷却时间: 60 秒\n幸运一击几率: 2%\n箭矢如雨一般在大范围内落下 2 次, 每波造成 100% 点伤害。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "冷卻時間:60 秒\n幸運觸發機率:2%\n降下 2 波大範圍的箭雨,每波造成 100% 點傷害。\n\nTags: 絕招, 射手, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 112,
 		maxPoints: 1,
-		values: [ "60" ],
 		x: 5.58,
 		y: 290.575
 	},
