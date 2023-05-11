@@ -47,7 +47,7 @@ barbarianData["Basic"] = {
 	"Bash": {
 		connections: [ "Basic", "Enhanced Bash" ],
 		description: `Generate Fury: 10
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 50%
 Bash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.
 
 Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
@@ -65,21 +65,20 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"zhCN": "猛击"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Wut: 10\nGlückstrefferchance: {#}%\nVersetzt dem Gegner einen Hieb mit Eurer Waffe und verursacht {30/33/36/39/42/45/48/51/54/57}% Schaden. Wenn Ihr Gegner 4 Mal getroffen habt, betäubt Euer nächster Hieb 1.25 Sek. lang. Wird auf 2 Sek. erhöht, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
-			"esES": "Generación de furia: 10\nProbabilidad de golpe de suerte: {#}%\nAporreas al enemigo con tu arma y le infliges {30/33/36/39/42/45/48/51/54/57}% de daño. Tras aporrear enemigos 4 veces, tu siguiente Porrazo aturdirá durante 1.25 s, que aumentarán a 2 s si usas un arma de dos manos.\n\nTags: Básica, Contundente, Furia, Física, Daño, Control de masas, Dos manos.",
-			"esMX": "Generación de Furia: 10\nProbabilidad de golpe afortunado: {#}%\nDas un porrazo al enemigo con tu arma e infliges {30/33/36/39/42/45/48/51/54/57}% de daño. Luego de dar porrazos a los enemigos 4 veces, tu próximo Porrazo aturdirá durante 1.25 segundos. Esto aumenta a 2 segundos si usas un arma de dos manos.\n\nTags: Básica, Impacto, Furia, Física, Daño, Control de multitudes, Dos manos.",
-			"frFR": "Fureur générée: 10\nChances d'obtenir un coup de chance: {#}%\nVous frappez l'adversaire avec votre arme et lui infligez {30/33/36/39/42/45/48/51/54/57}% points de dégâts. Après avoir frappé des adversaires 4 fois, votre prochaine Raclée étourdira pendant 1.25 s, cette durée passant à 2 s si vous utilisez une arme à deux mains.\n\nTags: Basique, Arme contondante, Fureur, Dégâts physiques, Dégâts, Perte de contrôle, Arme à deux mains.",
-			"itIT": "Generazione furia: 10\nProbabilità di colpo fortunato: {#}%\nColpisci il nemico con la tua arma, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni. Dopo aver colpito i nemici 4 volte, il tuo prossimo Colpo poderoso stordirà il nemico per 1.25 s, che aumenteranno a 2 s se usi un'arma a due mani.\n\nTags: Base, Contundente, Furia, Fisico, Danni, Effetti debilitanti, A due mani.",
-			"jaJP": "怒気生成量: 10\n幸運の一撃発生率: {#}%\n武器で敵を〈バッシュ〉し、{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。敵を4回〈バッシュ〉すると、次に繰り出した〈バッシュ〉に1.25秒間スタンさせる効果が加わる。両手武器を使用している場合、この効果は2秒に増加する。\n\nTags: 基本, 殴打, 怒気, 物理, ダメージ, 操作障害効果, 両手用武器.",
-			"koKR": "생성: 분노 10\n행운의 적중 확률: {#}%\n무기로 적을 후려쳐, {30/33/36/39/42/45/48/51/54/57}%의 피해를 줍니다. 적을 4번 후려친 후 다음 후려치기 공격은 적을 1.25초 동안 기절시키며, 양손 무기를 사용 중일 경우 기절 시간이 2초로 증가합니다.\n\nTags: 기본, 둔기, 분노, 물리, 피해, 군중 제어, 양손 무기.",
-			"plPL": "Generuje: 10 pkt. furii\nSzansa na szczęśliwy traf: {#}%\nGrzmotnij wroga bronią, zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń. Po grzmotnięciu wrogów 4 razy twoje następne Grzmotnięcie ogłuszy na 1.25 sek., a efekt wydłuży się do 2 sek., jeśli korzystasz z broni dwuręcznej.\n\nTags: Podstawowe, Obuchowe, Furia, Fizyczne, Obrażenia, Ograniczanie Kontroli, Dwuręczne.",
-			"ptBR": "Gerar Fúria: 10\nChance de Golpe de Sorte: {#}%\nGolpeia o inimigo com sua arma, causando {30/33/36/39/42/45/48/51/54/57}% de dano. Depois de golpear inimigos 4 vezes, seu próximo Trombar atordoará por 1.25 segundos. Isso aumenta para 2 segundos se estiver usando uma arma de duas mãos.\n\nTags: Básica, Concussão, Fúria, Física, Dano, Controle de Grupo, Duas mãos.",
-			"ruRU": "Дает ярость: 10 ед.\nВероятность удачного удара: {#}%.\nВы совершаете сокрушающий удар оружием, нанося противнику {30/33/36/39/42/45/48/51/54/57}% ед. урона. После 4 попаданий следующий \"Сокрушающий удар\" оглушает цель на 1.25 сек. Оглушение продлевается до 2 сек., если вы атакуете двуручным оружием.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
-			"zhCN": "生成怒气: 10\n幸运一击几率: {#}%\n使用你的武器猛击敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。猛击敌人 4 次后, 你的下一个猛击会击晕敌人 1.25 秒, 如果使用双手武器该效果提高至 2 秒。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手."
+			"deDE": "Erzeugte Wut: 10\nGlückstrefferchance: 50%\nVersetzt dem Gegner einen Hieb mit Eurer Waffe und verursacht {30/33/36/39/42/45/48/51/54/57}% Schaden. Wenn Ihr Gegner 4 Mal getroffen habt, betäubt Euer nächster Hieb 1.25 Sek. lang. Wird auf 2 Sek. erhöht, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
+			"esES": "Generación de furia: 10\nProbabilidad de golpe de suerte: 50%\nAporreas al enemigo con tu arma y le infliges {30/33/36/39/42/45/48/51/54/57}% de daño. Tras aporrear enemigos 4 veces, tu siguiente Porrazo aturdirá durante 1.25 s, que aumentarán a 2 s si usas un arma de dos manos.\n\nTags: Básica, Contundente, Furia, Física, Daño, Control de masas, Dos manos.",
+			"esMX": "Generación de Furia: 10\nProbabilidad de golpe afortunado: 50%\nDas un porrazo al enemigo con tu arma e infliges {30/33/36/39/42/45/48/51/54/57}% de daño. Luego de dar porrazos a los enemigos 4 veces, tu próximo Porrazo aturdirá durante 1.25 segundos. Esto aumenta a 2 segundos si usas un arma de dos manos.\n\nTags: Básica, Impacto, Furia, Física, Daño, Control de multitudes, Dos manos.",
+			"frFR": "Fureur générée: 10\nChances d'obtenir un coup de chance: 50%\nVous frappez l'adversaire avec votre arme et lui infligez {30/33/36/39/42/45/48/51/54/57}% points de dégâts. Après avoir frappé des adversaires 4 fois, votre prochaine Raclée étourdira pendant 1.25 s, cette durée passant à 2 s si vous utilisez une arme à deux mains.\n\nTags: Basique, Arme contondante, Fureur, Dégâts physiques, Dégâts, Perte de contrôle, Arme à deux mains.",
+			"itIT": "Generazione furia: 10\nProbabilità di colpo fortunato: 50%\nColpisci il nemico con la tua arma, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni. Dopo aver colpito i nemici 4 volte, il tuo prossimo Colpo poderoso stordirà il nemico per 1.25 s, che aumenteranno a 2 s se usi un'arma a due mani.\n\nTags: Base, Contundente, Furia, Fisico, Danni, Effetti debilitanti, A due mani.",
+			"jaJP": "怒気生成量: 10\n幸運の一撃発生率: 50%\n武器で敵を〈バッシュ〉し、{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。敵を4回〈バッシュ〉すると、次に繰り出した〈バッシュ〉に1.25秒間スタンさせる効果が加わる。両手武器を使用している場合、この効果は2秒に増加する。\n\nTags: 基本, 殴打, 怒気, 物理, ダメージ, 操作障害効果, 両手用武器.",
+			"koKR": "생성: 분노 10\n행운의 적중 확률: 50%\n무기로 적을 후려쳐, {30/33/36/39/42/45/48/51/54/57}%의 피해를 줍니다. 적을 4번 후려친 후 다음 후려치기 공격은 적을 1.25초 동안 기절시키며, 양손 무기를 사용 중일 경우 기절 시간이 2초로 증가합니다.\n\nTags: 기본, 둔기, 분노, 물리, 피해, 군중 제어, 양손 무기.",
+			"plPL": "Generuje: 10 pkt. furii\nSzansa na szczęśliwy traf: 50%\nGrzmotnij wroga bronią, zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń. Po grzmotnięciu wrogów 4 razy twoje następne Grzmotnięcie ogłuszy na 1.25 sek., a efekt wydłuży się do 2 sek., jeśli korzystasz z broni dwuręcznej.\n\nTags: Podstawowe, Obuchowe, Furia, Fizyczne, Obrażenia, Ograniczanie Kontroli, Dwuręczne.",
+			"ptBR": "Gerar Fúria: 10\nChance de Golpe de Sorte: 50%\nGolpeia o inimigo com sua arma, causando {30/33/36/39/42/45/48/51/54/57}% de dano. Depois de golpear inimigos 4 vezes, seu próximo Trombar atordoará por 1.25 segundos. Isso aumenta para 2 segundos se estiver usando uma arma de duas mãos.\n\nTags: Básica, Concussão, Fúria, Física, Dano, Controle de Grupo, Duas mãos.",
+			"ruRU": "Дает ярость: 10 ед.\nВероятность удачного удара: 50%.\nВы совершаете сокрушающий удар оружием, нанося противнику {30/33/36/39/42/45/48/51/54/57}% ед. урона. После 4 попаданий следующий \"Сокрушающий удар\" оглушает цель на 1.25 сек. Оглушение продлевается до 2 сек., если вы атакуете двуручным оружием.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
+			"zhCN": "生成怒气: 10\n幸运一击几率: 50%\n使用你的武器猛击敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。猛击敌人 4 次后, 你的下一个猛击会击晕敌人 1.25 秒, 如果使用双手武器该效果提高至 2 秒。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手."
 },
 		id: 0,
 		maxPoints: 5,
-		values: [ "50" ],
 		x: -205.484,
 		y: -249.495
 	},
@@ -197,7 +196,7 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 	"Lunging Strike": {
 		connections: [ "Basic", "Enhanced Lunging Strike" ],
 		description: `Generate Fury: 9
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 50%
 Lunge forward and strike an enemy for {30/33/36/39/42/45/48/51/54/57}% damage.
 
 Tags: Basic, Damage, Physical, Fury, Movement.`,
@@ -215,21 +214,20 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 			"zhCN": "突刺打击"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: {#}%\nStürzt Euch nach vorn, schlagt einen Gegner und fügt ihm {30/33/36/39/42/45/48/51/54/57}% Schaden zu.\n\nTags: Basis, Schaden, Physisch, Wut, Bewegung.",
-			"esES": "Generación de furia: 9\nProbabilidad de golpe de suerte: {#}%\nLanzas una acometida hacia delante y golpeas a un enemigo, lo que inflige {30/33/36/39/42/45/48/51/54/57}% de daño.\n\nTags: Básica, Daño, Física, Furia, Movimiento.",
-			"esMX": "Generación de Furia: 9\nProbabilidad de golpe afortunado: {#}%\nArremetes hacia adelante contra un enemigo y le infliges {30/33/36/39/42/45/48/51/54/57}% de daño.\n\nTags: Básica, Daño, Física, Furia, Movimiento.",
-			"frFR": "Fureur générée: 9\nChances d'obtenir un coup de chance: {#}%\nVous vous fendez et frappez votre adversaire, ce qui lui inflige {30/33/36/39/42/45/48/51/54/57}% points de dégâts.\n\nTags: Basique, Dégâts, Dégâts physiques, Fureur, Déplacement.",
-			"itIT": "Generazione furia: 9\nProbabilità di colpo fortunato: {#}%\nEsegui un affondo e colpisci un nemico, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni.\n\nTags: Base, Danni, Fisico, Furia, Movimento.",
-			"jaJP": "怒気生成量: 9\n幸運の一撃発生率: {#}%\n前方に突進して敵を攻撃し、{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。\n\nTags: 基本, ダメージ, 物理, 怒気, 移動.",
-			"koKR": "생성: 분노 9\n행운의 적중 확률: {#}%\n앞으로 달려들고 적 1마리를 공격하여 {30/33/36/39/42/45/48/51/54/57}%의 피해를 줍니다.\n\nTags: 기본, 피해, 물리, 분노, 이동.",
-			"plPL": "Generuje: 9 pkt. furii.\nSzansa na szczęśliwy traf: {#}%\nRzucasz się do przodu i atakujesz wroga, zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nTags: Podstawowe, Obrażenia, Fizyczne, Furia, Ruch.",
-			"ptBR": "Gerar Fúria: 9\nChance de Golpe de Sorte: {#}%\nGolpeia um inimigo à sua frente, causando {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nTags: Básica, Dano, Física, Fúria, Movimento.",
-			"ruRU": "Дает ярость: 9 ед.\nВероятность удачного удара: {#}%.\nВы делаете выпад и наносите противнику {30/33/36/39/42/45/48/51/54/57}% ед. урона.\n\nTags: Базовое, Урон, Физический урон, Ярость, Движение.",
-			"zhCN": "生成怒气: 9\n幸运一击几率: {#}%\n向前突刺并打击一名敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。\n\nTags: 基础, 伤害, 物理, 怒气, 移动."
+			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: 50%\nStürzt Euch nach vorn, schlagt einen Gegner und fügt ihm {30/33/36/39/42/45/48/51/54/57}% Schaden zu.\n\nTags: Basis, Schaden, Physisch, Wut, Bewegung.",
+			"esES": "Generación de furia: 9\nProbabilidad de golpe de suerte: 50%\nLanzas una acometida hacia delante y golpeas a un enemigo, lo que inflige {30/33/36/39/42/45/48/51/54/57}% de daño.\n\nTags: Básica, Daño, Física, Furia, Movimiento.",
+			"esMX": "Generación de Furia: 9\nProbabilidad de golpe afortunado: 50%\nArremetes hacia adelante contra un enemigo y le infliges {30/33/36/39/42/45/48/51/54/57}% de daño.\n\nTags: Básica, Daño, Física, Furia, Movimiento.",
+			"frFR": "Fureur générée: 9\nChances d'obtenir un coup de chance: 50%\nVous vous fendez et frappez votre adversaire, ce qui lui inflige {30/33/36/39/42/45/48/51/54/57}% points de dégâts.\n\nTags: Basique, Dégâts, Dégâts physiques, Fureur, Déplacement.",
+			"itIT": "Generazione furia: 9\nProbabilità di colpo fortunato: 50%\nEsegui un affondo e colpisci un nemico, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni.\n\nTags: Base, Danni, Fisico, Furia, Movimento.",
+			"jaJP": "怒気生成量: 9\n幸運の一撃発生率: 50%\n前方に突進して敵を攻撃し、{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。\n\nTags: 基本, ダメージ, 物理, 怒気, 移動.",
+			"koKR": "생성: 분노 9\n행운의 적중 확률: 50%\n앞으로 달려들고 적 1마리를 공격하여 {30/33/36/39/42/45/48/51/54/57}%의 피해를 줍니다.\n\nTags: 기본, 피해, 물리, 분노, 이동.",
+			"plPL": "Generuje: 9 pkt. furii.\nSzansa na szczęśliwy traf: 50%\nRzucasz się do przodu i atakujesz wroga, zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nTags: Podstawowe, Obrażenia, Fizyczne, Furia, Ruch.",
+			"ptBR": "Gerar Fúria: 9\nChance de Golpe de Sorte: 50%\nGolpeia um inimigo à sua frente, causando {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nTags: Básica, Dano, Física, Fúria, Movimento.",
+			"ruRU": "Дает ярость: 9 ед.\nВероятность удачного удара: 50%.\nВы делаете выпад и наносите противнику {30/33/36/39/42/45/48/51/54/57}% ед. урона.\n\nTags: Базовое, Урон, Физический урон, Ярость, Движение.",
+			"zhCN": "生成怒气: 9\n幸运一击几率: 50%\n向前突刺并打击一名敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。\n\nTags: 基础, 伤害, 物理, 怒气, 移动."
 },
 		id: 4,
 		maxPoints: 5,
-		values: [ "50" ],
 		x: -557.739,
 		y: -96.16
 	},
@@ -347,7 +345,7 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 	"Frenzy": {
 		connections: [ "Basic", "Enhanced Frenzy" ],
 		description: `Generate Fury: 4
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 30%
 Unleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits.
 
 If Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.
@@ -367,21 +365,20 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"zhCN": "狂乱"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Wut: 4\nGlückstrefferchance: {#}%\nÜberzieht Gegner mit vielen raschen Schlägen, die mit jedem Trefferpaar {20/22/24/26/28/30/32/34/36/38}% Schaden verursachen.\n\nWenn Raserei einen Gegner trifft, erhöht sich ihre Angriffsgeschwindigkeit 3 Sek. lang um +20% bis maximal +60%.\n\nTags: Basis, Zwei Waffen, Wut, Physisch, Schaden, Angriffsgeschwindigkeit.",
-			"esES": "Generación de furia: 4\nProbabilidad de golpe de suerte: {#}%\nDesatas un rápido aluvión de impactos que inflige {20/22/24/26/28/30/32/34/36/38}% de daño por cada par de golpes.\n\nSi Frenesí golpea a un enemigo, aumenta su velocidad de ataque un +20% durante 3 s, hasta un máximo de un +60%.\n\nTags: Básica, Doble empuñadura, Furia, Física, Daño, Velocidad de ataque.",
-			"esMX": "Generación de Furia: 4\nProbabilidad de golpe afortunado: {#}%\nDesatas una veloz ráfaga de golpes que inflige {20/22/24/26/28/30/32/34/36/38}% de daño cada dos golpes.\n\nSi Frenesí golpea a un enemigo, su velocidad de ataque aumenta un +20% durante 3 segundos, hasta un máximo del +60%.\n\nTags: Básica, Ambidestreza, Furia, Física, Daño, Velocidad de ataque.",
-			"frFR": "Fureur générée: 4\nChances d'obtenir un coup de chance: {#}%\nVous déclenchez une rafale de coups rapides qui inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts tous les deux coups portés.\n\nSi Frénésie touche une cible, sa vitesse d'attaque est augmentée de +20% pendant 3 s, jusqu'à un maximum de +60%.\n\nTags: Basique, Deux armes, Fureur, Dégâts physiques, Dégâts, Vitesse d'attaque.",
-			"itIT": "Generazione furia: 4\nProbabilità di colpo fortunato: {#}%\nScateni una rapida raffica di colpi, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni ogni due colpi.\n\nSe Frenesia colpisce un nemico, la sua velocità d'attacco aumenta del +20% per 3 s, fino a un massimo del +60%.\n\nTags: Base, Doppia arma, Furia, Fisico, Danni, Velocità d'attacco.",
-			"jaJP": "怒気生成量: 4\n幸運の一撃発生率: {#}%\n高速で連打を繰り出し、2連撃が命中するたびに{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。\n\n〈フレンジー〉が敵に命中すると、攻撃速度が3秒間、+20%増加する。増加量は最大+60%。\n\nTags: 基本, 二刀流, 怒気, 物理, ダメージ, 攻撃速度.",
-			"koKR": "생성: 분노 4\n행운의 적중 확률: {#}%\n빠르게 연속 공격을 가해 2번 적중할 때마다 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다.\n\n광분이 적에게 적중하면 광분의 공격 속도가 3초 동안 +20%만큼, 최대 +60%까지 증가합니다.\n\nTags: 기본, 쌍수 무기, 분노, 물리, 피해, 공격 속도.",
-			"plPL": "Generuje: 4 pkt. furii.\nSzansa na szczęśliwy traf: {#}%\nWyzwalasz błyskawiczną nawałnicę ciosów, zadając każdymi dwoma trafieniami {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nJeśli Amok trafi wroga, szybkość ataku umiejętności wzrasta o +20% na 3 sek., maksymalnie do +60%.\n\nTags: Podstawowe, Broń w Każdej Ręce, Furia, Fizyczne, Obrażenia, Szybkość Ataku.",
-			"ptBR": "Gerar Fúria: 4\nChance de Golpe de Sorte: {#}%\nLibera um rápido turbilhão de golpes, causando {20/22/24/26/28/30/32/34/36/38}% de dano com cada par de acertos.\n\nSe Frenesi atingir um inimigo, a velocidade de ataque é aumentada em +20% por 3 segundos, até +60%.\n\nTags: Básica, Empunhadura Dupla, Fúria, Física, Dano, Velocidade de Ataque.",
-			"ruRU": "Дает ярость: 4 ед.\nВероятность удачного удара: {#}%.\nВы обрушиваете на цель шквал стремительных ударов, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона за каждую пару ударов.\n\nКогда \"Бешенство\" поражает противника, скорость атаки этого умения повышается на +20% на 3 сек. вплоть до +60%.\n\nTags: Базовое, Оружие в каждой руке, Ярость, Физический урон, Урон, Скорость атаки.",
-			"zhCN": "生成怒气: 4\n幸运一击几率: {#}%\n发动一连串快速打击, 每一组攻击造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\n如果狂乱命中敌人, 其攻击速度提高 +20%, 持续 3 秒, 最多提高 +60%。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度."
+			"deDE": "Erzeugte Wut: 4\nGlückstrefferchance: 30%\nÜberzieht Gegner mit vielen raschen Schlägen, die mit jedem Trefferpaar {20/22/24/26/28/30/32/34/36/38}% Schaden verursachen.\n\nWenn Raserei einen Gegner trifft, erhöht sich ihre Angriffsgeschwindigkeit 3 Sek. lang um +20% bis maximal +60%.\n\nTags: Basis, Zwei Waffen, Wut, Physisch, Schaden, Angriffsgeschwindigkeit.",
+			"esES": "Generación de furia: 4\nProbabilidad de golpe de suerte: 30%\nDesatas un rápido aluvión de impactos que inflige {20/22/24/26/28/30/32/34/36/38}% de daño por cada par de golpes.\n\nSi Frenesí golpea a un enemigo, aumenta su velocidad de ataque un +20% durante 3 s, hasta un máximo de un +60%.\n\nTags: Básica, Doble empuñadura, Furia, Física, Daño, Velocidad de ataque.",
+			"esMX": "Generación de Furia: 4\nProbabilidad de golpe afortunado: 30%\nDesatas una veloz ráfaga de golpes que inflige {20/22/24/26/28/30/32/34/36/38}% de daño cada dos golpes.\n\nSi Frenesí golpea a un enemigo, su velocidad de ataque aumenta un +20% durante 3 segundos, hasta un máximo del +60%.\n\nTags: Básica, Ambidestreza, Furia, Física, Daño, Velocidad de ataque.",
+			"frFR": "Fureur générée: 4\nChances d'obtenir un coup de chance: 30%\nVous déclenchez une rafale de coups rapides qui inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts tous les deux coups portés.\n\nSi Frénésie touche une cible, sa vitesse d'attaque est augmentée de +20% pendant 3 s, jusqu'à un maximum de +60%.\n\nTags: Basique, Deux armes, Fureur, Dégâts physiques, Dégâts, Vitesse d'attaque.",
+			"itIT": "Generazione furia: 4\nProbabilità di colpo fortunato: 30%\nScateni una rapida raffica di colpi, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni ogni due colpi.\n\nSe Frenesia colpisce un nemico, la sua velocità d'attacco aumenta del +20% per 3 s, fino a un massimo del +60%.\n\nTags: Base, Doppia arma, Furia, Fisico, Danni, Velocità d'attacco.",
+			"jaJP": "怒気生成量: 4\n幸運の一撃発生率: 30%\n高速で連打を繰り出し、2連撃が命中するたびに{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。\n\n〈フレンジー〉が敵に命中すると、攻撃速度が3秒間、+20%増加する。増加量は最大+60%。\n\nTags: 基本, 二刀流, 怒気, 物理, ダメージ, 攻撃速度.",
+			"koKR": "생성: 분노 4\n행운의 적중 확률: 30%\n빠르게 연속 공격을 가해 2번 적중할 때마다 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다.\n\n광분이 적에게 적중하면 광분의 공격 속도가 3초 동안 +20%만큼, 최대 +60%까지 증가합니다.\n\nTags: 기본, 쌍수 무기, 분노, 물리, 피해, 공격 속도.",
+			"plPL": "Generuje: 4 pkt. furii.\nSzansa na szczęśliwy traf: 30%\nWyzwalasz błyskawiczną nawałnicę ciosów, zadając każdymi dwoma trafieniami {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nJeśli Amok trafi wroga, szybkość ataku umiejętności wzrasta o +20% na 3 sek., maksymalnie do +60%.\n\nTags: Podstawowe, Broń w Każdej Ręce, Furia, Fizyczne, Obrażenia, Szybkość Ataku.",
+			"ptBR": "Gerar Fúria: 4\nChance de Golpe de Sorte: 30%\nLibera um rápido turbilhão de golpes, causando {20/22/24/26/28/30/32/34/36/38}% de dano com cada par de acertos.\n\nSe Frenesi atingir um inimigo, a velocidade de ataque é aumentada em +20% por 3 segundos, até +60%.\n\nTags: Básica, Empunhadura Dupla, Fúria, Física, Dano, Velocidade de Ataque.",
+			"ruRU": "Дает ярость: 4 ед.\nВероятность удачного удара: 30%.\nВы обрушиваете на цель шквал стремительных ударов, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона за каждую пару ударов.\n\nКогда \"Бешенство\" поражает противника, скорость атаки этого умения повышается на +20% на 3 сек. вплоть до +60%.\n\nTags: Базовое, Оружие в каждой руке, Ярость, Физический урон, Урон, Скорость атаки.",
+			"zhCN": "生成怒气: 4\n幸运一击几率: 30%\n发动一连串快速打击, 每一组攻击造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\n如果狂乱命中敌人, 其攻击速度提高 +20%, 持续 3 秒, 最多提高 +60%。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度."
 },
 		id: 8,
 		maxPoints: 5,
-		values: [ "30" ],
 		x: 210.912,
 		y: -250.91
 	},
@@ -499,7 +496,7 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 	"Flay": {
 		connections: [ "Basic", "Enhanced Flay" ],
 		description: `Generate Fury: 9
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 50%
 Flay the enemy, dealing {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% damage and inflicting {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Bleeding damage over 5 seconds.
 
 Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
@@ -517,21 +514,20 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"zhCN": "剥皮"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: {#}%\nSchindet den Gegner und fügt ihm {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% Schaden zu. Fügt im Verlauf von 5 Sek. {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Blutungsschaden zu.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
-			"esES": "Generación de furia: 9\nProbabilidad de golpe de suerte: {#}%\nLe arrancas la piel al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y aplica {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 s.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Física.",
-			"esMX": "Generación de Furia: 9\nProbabilidad de golpe afortunado: {#}%\nDespellejas al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 segundos.\n\nTags: Básica, Sangrado, Corte, Furia, Daño, Física.",
-			"frFR": "Fureur générée: 9\nChances d'obtenir un coup de chance: {#}%\nVous écorchez l'adversaire, ce qui lui inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% points de dégâts à l'impact et {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% points de dégâts de saignement en 5 s.\n\nTags: Basique, Saignement, Tranchant, Fureur, Dégâts, Dégâts physiques.",
-			"itIT": "Generazione furia: 9\nProbabilità di colpo fortunato: {#}%\nScortica il nemico, infliggendo {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% danni. Infligge {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% danni da sanguinamento in 5 s.\n\nTags: Base, Sanguinamento, Tagliente, Furia, Danni, Fisico.",
-			"jaJP": "怒気生成量: 9\n幸運の一撃発生率: {#}%\n敵の皮を剥ぎ、{5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%のダメージを与える。また5秒間かけて{36/39.5/43/47/50.5/54/57.5/61/65/68.5}%の出血ダメージを与える。\n\nTags: 基本, 出血, 斬撃, 怒気, ダメージ, 物理.",
-			"koKR": "생성: 분노 9\n행운의 적중 확률: {#}%\n적을 도려내 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%의 피해를 줍니다. 5초에 걸쳐 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}%의 출혈 피해를 줍니다.\n\nTags: 기본, 출혈, 베는 무기, 분노, 피해, 물리.",
-			"plPL": "Generuje: 9 pkt. furii\nSzansa na szczęśliwy traf: {#}%\nObdzierasz wroga ze skóry, zadając {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% pkt. obrażeń i wywołując {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% pkt. obrażeń od krwawienia przez 5 sek.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
-			"ptBR": "Gerar Fúria: 9\nChance de Golpe de Sorte: {#}%\nEsfola o inimigo, causando {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de dano e aplicando {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
-			"ruRU": "Дает ярость: 9 ед.\nВероятность удачного удара: {#}%.\nВы сдираете с противника кожу, нанося {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% ед. урона мгновенно и еще {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
-			"zhCN": "生成怒气: 9\n幸运一击几率: {#}%\n剥掉敌人的皮, 造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 点伤害, 并在 5 秒内造成 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 点流血伤害。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理."
+			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: 50%\nSchindet den Gegner und fügt ihm {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% Schaden zu. Fügt im Verlauf von 5 Sek. {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Blutungsschaden zu.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
+			"esES": "Generación de furia: 9\nProbabilidad de golpe de suerte: 50%\nLe arrancas la piel al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y aplica {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 s.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Física.",
+			"esMX": "Generación de Furia: 9\nProbabilidad de golpe afortunado: 50%\nDespellejas al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 segundos.\n\nTags: Básica, Sangrado, Corte, Furia, Daño, Física.",
+			"frFR": "Fureur générée: 9\nChances d'obtenir un coup de chance: 50%\nVous écorchez l'adversaire, ce qui lui inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% points de dégâts à l'impact et {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% points de dégâts de saignement en 5 s.\n\nTags: Basique, Saignement, Tranchant, Fureur, Dégâts, Dégâts physiques.",
+			"itIT": "Generazione furia: 9\nProbabilità di colpo fortunato: 50%\nScortica il nemico, infliggendo {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% danni. Infligge {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% danni da sanguinamento in 5 s.\n\nTags: Base, Sanguinamento, Tagliente, Furia, Danni, Fisico.",
+			"jaJP": "怒気生成量: 9\n幸運の一撃発生率: 50%\n敵の皮を剥ぎ、{5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%のダメージを与える。また5秒間かけて{36/39.5/43/47/50.5/54/57.5/61/65/68.5}%の出血ダメージを与える。\n\nTags: 基本, 出血, 斬撃, 怒気, ダメージ, 物理.",
+			"koKR": "생성: 분노 9\n행운의 적중 확률: 50%\n적을 도려내 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%의 피해를 줍니다. 5초에 걸쳐 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}%의 출혈 피해를 줍니다.\n\nTags: 기본, 출혈, 베는 무기, 분노, 피해, 물리.",
+			"plPL": "Generuje: 9 pkt. furii\nSzansa na szczęśliwy traf: 50%\nObdzierasz wroga ze skóry, zadając {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% pkt. obrażeń i wywołując {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% pkt. obrażeń od krwawienia przez 5 sek.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
+			"ptBR": "Gerar Fúria: 9\nChance de Golpe de Sorte: 50%\nEsfola o inimigo, causando {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de dano e aplicando {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
+			"ruRU": "Дает ярость: 9 ед.\nВероятность удачного удара: 50%.\nВы сдираете с противника кожу, нанося {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% ед. урона мгновенно и еще {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
+			"zhCN": "生成怒气: 9\n幸运一击几率: 50%\n剥掉敌人的皮, 造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 点伤害, 并在 5 秒内造成 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 点流血伤害。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理."
 },
 		id: 12,
 		maxPoints: 5,
-		values: [ "50" ],
 		x: 561.736,
 		y: -94.605
 	},
@@ -652,7 +648,7 @@ barbarianData["Core"] = {
 	"Hammer of the Ancients": {
 		connections: [ "Core", "Enhanced Hammer of the Ancients" ],
 		description: `Fury Cost: {#}
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 50%
 Slam your hammer down with the fury of the Ancients, dealing {50/55/60/65/70/75/80/85/90/95}% damage to a concentrated area.
 
 Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
@@ -670,21 +666,21 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 			"zhCN": "先祖之锤"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}\nGlückstrefferchance: {#}%\nSchmettert Euren Hammer mit dem Zorn der Urahnen nach unten und verursacht {50/55/60/65/70/75/80/85/90/95}% Schaden in einem konzentrierten Bereich.\n\nTags: Kern, Wuchtwaffe, Wut, Physisch, Schaden, Zweihändig.",
-			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: {#}%\nTu martillo golpea con la furia de los Ancestros e inflige {50/55/60/65/70/75/80/85/90/95}% de daño en una zona concentrada.\n\nTags: Principal, Contundente, Furia, Física, Daño, Dos manos.",
-			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: {#}%\nGolpeas el suelo con tu arma con la furia de los Ancestros e infliges {50/55/60/65/70/75/80/85/90/95}% de daño en un área concentrada.\n\nTags: Principal, Impacto, Furia, Física, Daño, Dos manos.",
-			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: {#}%\nVous abattez votre marteau avec la fureur des Anciens et infligez {50/55/60/65/70/75/80/85/90/95}% points de dégâts dans une zone précise.\n\nTags: Principale, Arme contondante, Fureur, Dégâts physiques, Dégâts, Arme à deux mains.",
-			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: {#}%\nAbbatti il tuo martello con la furia degli Antichi, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni in un'area concentrata.\n\nTags: Primaria, Contundente, Furia, Fisico, Danni, A due mani.",
-			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: {#}%\n古代の民の怒りと共に武器を叩きつけ、集中したエリアに{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 殴打, 怒気, 物理, ダメージ, 両手用武器.",
-			"koKR": "소모: 분노 {#}\n행운의 적중 확률: {#}%\n무기에 선조의 분노를 담아 내려쳐 좁은 지역에 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 둔기, 분노, 물리, 피해, 양손 무기.",
-			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: {#}%\nUderzasz młotem z furią starożytnych, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń na konkretnym obszarze.\n\nTags: Główne, Obuchowe, Furia, Fizyczne, Obrażenia, Dwuręczne.",
-			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte:{#}%\nGolpeia com seu martelo com a fúria dos Ancestrais, causando {50/55/60/65/70/75/80/85/90/95}% de dano em uma área concentrada.\n\nTags: Principal, Concussão, Fúria, Física, Dano, Duas mãos.",
-			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: {#}%.\nВы обрушиваете свое оружие с яростью Древних, нанося {50/55/60/65/70/75/80/85/90/95}% ед. урона целям в небольшой области.\n\nTags: Основное, Дробящее оружие, Ярость, Физический урон, Урон, Двуручное.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: {#}%\n带着先祖的怒火砸下你的锤子, 对一片集中区域造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手."
+			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 50%\nSchmettert Euren Hammer mit dem Zorn der Urahnen nach unten und verursacht {50/55/60/65/70/75/80/85/90/95}% Schaden in einem konzentrierten Bereich.\n\nTags: Kern, Wuchtwaffe, Wut, Physisch, Schaden, Zweihändig.",
+			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: 50%\nTu martillo golpea con la furia de los Ancestros e inflige {50/55/60/65/70/75/80/85/90/95}% de daño en una zona concentrada.\n\nTags: Principal, Contundente, Furia, Física, Daño, Dos manos.",
+			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: 50%\nGolpeas el suelo con tu arma con la furia de los Ancestros e infliges {50/55/60/65/70/75/80/85/90/95}% de daño en un área concentrada.\n\nTags: Principal, Impacto, Furia, Física, Daño, Dos manos.",
+			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: 50%\nVous abattez votre marteau avec la fureur des Anciens et infligez {50/55/60/65/70/75/80/85/90/95}% points de dégâts dans une zone précise.\n\nTags: Principale, Arme contondante, Fureur, Dégâts physiques, Dégâts, Arme à deux mains.",
+			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: 50%\nAbbatti il tuo martello con la furia degli Antichi, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni in un'area concentrata.\n\nTags: Primaria, Contundente, Furia, Fisico, Danni, A due mani.",
+			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: 50%\n古代の民の怒りと共に武器を叩きつけ、集中したエリアに{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 殴打, 怒気, 物理, ダメージ, 両手用武器.",
+			"koKR": "소모: 분노 {#}\n행운의 적중 확률: 50%\n무기에 선조의 분노를 담아 내려쳐 좁은 지역에 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 둔기, 분노, 물리, 피해, 양손 무기.",
+			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 50%\nUderzasz młotem z furią starożytnych, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń na konkretnym obszarze.\n\nTags: Główne, Obuchowe, Furia, Fizyczne, Obrażenia, Dwuręczne.",
+			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte:50%\nGolpeia com seu martelo com a fúria dos Ancestrais, causando {50/55/60/65/70/75/80/85/90/95}% de dano em uma área concentrada.\n\nTags: Principal, Concussão, Fúria, Física, Dano, Duas mãos.",
+			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 50%.\nВы обрушиваете свое оружие с яростью Древних, нанося {50/55/60/65/70/75/80/85/90/95}% ед. урона целям в небольшой области.\n\nTags: Основное, Дробящее оружие, Ярость, Физический урон, Урон, Двуручное.",
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 50%\n带着先祖的怒火砸下你的锤子, 对一片集中区域造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 钝击, 怒气, 物理, 伤害, 双手."
 },
 		id: 16,
 		maxPoints: 5,
-		values: [ "35", "40" ],
+		values: [ "35" ],
 		x: -418.74,
 		y: -259.245
 	},
@@ -802,7 +798,7 @@ Tags: Core, Bludgeoning, Fury, Physical, Damage, Two-Handed.`,
 	"Upheaval": {
 		connections: [ "Core", "Enhanced Upheaval" ],
 		description: `Fury Cost: {#}
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 25%
 Tear into the ground with your weapon and fling debris forward, dealing {70/77/84/91/98/105/112/119/126/133}% damage.
 
 Tags: Core, Damage, Physical, Fury, Two-Handed.`,
@@ -820,21 +816,21 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 			"zhCN": "扬石飞沙"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}\nGlückstrefferchance: {#}%\nBohrt Eure Waffe in den Boden und schleudert Geröll nach vorn, das {70/77/84/91/98/105/112/119/126/133}% Schaden verursacht.\n\nTags: Kern, Schaden, Physisch, Wut, Zweihändig.",
-			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: {#}%\nDesgarras el suelo con tu arma y lanzas escombros hacia adelante, lo que inflige {70/77/84/91/98/105/112/119/126/133}% de daño.\n\nTags: Principal, Daño, Física, Furia, Dos manos.",
-			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: {#}%\nRompes el suelo con tu arma, lanzas restos hacia adelante e infliges {70/77/84/91/98/105/112/119/126/133}% de daño.\n\nTags: Principal, Daño, Física, Furia, Dos manos.",
-			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: {#}%\nVous déchirez le sol avec votre arme et projetez des débris vers l'avant, ce qui inflige {70/77/84/91/98/105/112/119/126/133}% points de dégâts.\n\nTags: Principale, Dégâts, Dégâts physiques, Fureur, Arme à deux mains.",
-			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: {#}%\nSpacchi il terreno con la tua arma e lanci i detriti in avanti, infliggendo {70/77/84/91/98/105/112/119/126/133}% danni.\n\nTags: Primaria, Danni, Fisico, Furia, A due mani.",
-			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: {#}%\n武器で地面を切り裂いて破片を前方に打ち出し、{70/77/84/91/98/105/112/119/126/133}%のダメージを与える。\n\nTags: コア, ダメージ, 物理, 怒気, 両手用武器.",
-			"koKR": "소모: 분노 {#}\n행운의 적중 확률: {#}%\n무기로 땅을 파고든 후 전방에 파편을 날려 {70/77/84/91/98/105/112/119/126/133}%의 피해를 줍니다.\n\nTags: 핵심, 피해, 물리, 분노, 양손 무기.",
-			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: {#}%\nRozdzierasz bronią grunt pod sobą i ciskasz grudami ziemi, zadając {70/77/84/91/98/105/112/119/126/133}% pkt. obrażeń.\n\nTags: Główne, Obrażenia, Fizyczne, Furia, Dwuręczne.",
-			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: {#}%\nVocê rasga o chão com sua arma e arremessa detritos para frente, causando {70/77/84/91/98/105/112/119/126/133}% de dano.\n\nTags: Principal, Dano, Física, Fúria, Duas mãos.",
-			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: {#}%.\nВы разрываете землю и запускаете вперед обломки, наносящие {70/77/84/91/98/105/112/119/126/133}% ед. урона.\n\nTags: Основное, Урон, Физический урон, Ярость, Двуручное.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: {#}%\n用你的武器撕裂大地并向前方扬起碎片, 造成 {70/77/84/91/98/105/112/119/126/133}% 点伤害。\n\nTags: 核心, 伤害, 物理, 怒气, 双手."
+			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 25%\nBohrt Eure Waffe in den Boden und schleudert Geröll nach vorn, das {70/77/84/91/98/105/112/119/126/133}% Schaden verursacht.\n\nTags: Kern, Schaden, Physisch, Wut, Zweihändig.",
+			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: 25%\nDesgarras el suelo con tu arma y lanzas escombros hacia adelante, lo que inflige {70/77/84/91/98/105/112/119/126/133}% de daño.\n\nTags: Principal, Daño, Física, Furia, Dos manos.",
+			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: 25%\nRompes el suelo con tu arma, lanzas restos hacia adelante e infliges {70/77/84/91/98/105/112/119/126/133}% de daño.\n\nTags: Principal, Daño, Física, Furia, Dos manos.",
+			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: 25%\nVous déchirez le sol avec votre arme et projetez des débris vers l'avant, ce qui inflige {70/77/84/91/98/105/112/119/126/133}% points de dégâts.\n\nTags: Principale, Dégâts, Dégâts physiques, Fureur, Arme à deux mains.",
+			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: 25%\nSpacchi il terreno con la tua arma e lanci i detriti in avanti, infliggendo {70/77/84/91/98/105/112/119/126/133}% danni.\n\nTags: Primaria, Danni, Fisico, Furia, A due mani.",
+			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: 25%\n武器で地面を切り裂いて破片を前方に打ち出し、{70/77/84/91/98/105/112/119/126/133}%のダメージを与える。\n\nTags: コア, ダメージ, 物理, 怒気, 両手用武器.",
+			"koKR": "소모: 분노 {#}\n행운의 적중 확률: 25%\n무기로 땅을 파고든 후 전방에 파편을 날려 {70/77/84/91/98/105/112/119/126/133}%의 피해를 줍니다.\n\nTags: 핵심, 피해, 물리, 분노, 양손 무기.",
+			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 25%\nRozdzierasz bronią grunt pod sobą i ciskasz grudami ziemi, zadając {70/77/84/91/98/105/112/119/126/133}% pkt. obrażeń.\n\nTags: Główne, Obrażenia, Fizyczne, Furia, Dwuręczne.",
+			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: 25%\nVocê rasga o chão com sua arma e arremessa detritos para frente, causando {70/77/84/91/98/105/112/119/126/133}% de dano.\n\nTags: Principal, Dano, Física, Fúria, Duas mãos.",
+			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 25%.\nВы разрываете землю и запускаете вперед обломки, наносящие {70/77/84/91/98/105/112/119/126/133}% ед. урона.\n\nTags: Основное, Урон, Физический урон, Ярость, Двуручное.",
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 25%\n用你的武器撕裂大地并向前方扬起碎片, 造成 {70/77/84/91/98/105/112/119/126/133}% 点伤害。\n\nTags: 核心, 伤害, 物理, 怒气, 双手."
 },
 		id: 20,
 		maxPoints: 5,
-		values: [ "40", "20" ],
+		values: [ "40" ],
 		x: -584.54,
 		y: 150.91
 	},
@@ -952,7 +948,7 @@ Tags: Core, Damage, Physical, Fury, Two-Handed.`,
 	"Double Swing": {
 		connections: [ "Core", "Enhanced Double Swing" ],
 		description: `Fury Cost: {#}
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 30%
 Sweep your weapons from opposite directions, dealing {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage with each weapon. Enemies caught in the center are damaged by both.
 
 Tags: Core, Dual Wield, Damage, Physical, Fury.`,
@@ -970,21 +966,21 @@ Tags: Core, Dual Wield, Damage, Physical, Fury.`,
 			"zhCN": "双重横扫"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}\nGlückstrefferchance: {#}%\nSchwingt Eure Waffen aus entgegengesetzten Richtungen und verursacht mit jeder Waffe {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Schaden. Gegner in der Mitte erleiden durch beide Waffen Schaden.\n\nTags: Kern, Zwei Waffen, Schaden, Physisch, Wut.",
-			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: {#}%\nAtacas con tus armas desde direcciones opuestas, lo que inflige {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño con cada arma. Los enemigos situados en el centro sufren daño de ambas.\n\nTags: Principal, Doble empuñadura, Daño, Física, Furia.",
-			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: {#}%\nArrasas con tus armas desde direcciones opuestas e infliges {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño con cada arma. Los enemigos que quedan atrapados en el centro reciben daño de ambas.\n\nTags: Principal, Ambidestreza, Daño, Física, Furia.",
-			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: {#}%\nVous frappez avec vos armes des deux côtés et infligez {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% points de dégâts avec chacune d'elles. Les cibles ainsi prises en tenaille sont blessées par les deux armes.\n\nTags: Principale, Deux armes, Dégâts, Dégâts physiques, Fureur.",
-			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: {#}%\nFai un affondo con le armi verso l'interno, infliggendo {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% danni con ogni arma. I nemici che si trovano in mezzo subiscono i danni di entrambe le armi.\n\nTags: Primaria, Doppia arma, Danni, Fisico, Furia.",
-			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: {#}%\n両手の武器をそれぞれの方向から振るって、各武器で敵に{36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%のダメージを与える。正面に立っていた敵は両方のダメージを受ける。\n\nTags: コア, 二刀流, ダメージ, 物理, 怒気.",
-			"koKR": "소모: 분노 {#}\n행운의 적중 확률: {#}%\n무기를 양쪽 방향에서 휘둘러 각 무기로 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%의 피해를 줍니다. 중앙에 있는 적은 두 무기의 피해를 모두 받습니다.\n\nTags: 핵심, 쌍수 무기, 피해, 물리, 분노.",
-			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: {#}%\nWykonujesz zamach z przeciwnych stron dwiema sztukami broni jednocześnie, zadając każdą z nich {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń. Wrogowie znajdujący się w centrum ciosu otrzymują obrażenia od obu.\n\nTags: Główne, Broń w Każdej Ręce, Obrażenia, Fizyczne, Furia.",
-			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: {#}%\nVocê golpeia com suas armas em direções opostas, causando {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano com cada arma. Inimigos presos no centro recebem dano das duas armas.\n\nTags: Principal, Empunhadura Dupla, Dano, Física, Fúria.",
-			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: {#}%.\nВы атакуете оружием в обеих руках, нанося по {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона каждым оружием. Противники в центре получают урон от обоих ударов.\n\nTags: Основное, Оружие в каждой руке, Урон, Физический урон, Ярость.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: {#}%\n从两侧挥动你的武器, 每把武器造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点伤害。在中间的敌人会同时受到两把武器的伤害。\n\nTags: 核心, 双持, 伤害, 物理, 怒气."
+			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 30%\nSchwingt Eure Waffen aus entgegengesetzten Richtungen und verursacht mit jeder Waffe {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Schaden. Gegner in der Mitte erleiden durch beide Waffen Schaden.\n\nTags: Kern, Zwei Waffen, Schaden, Physisch, Wut.",
+			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: 30%\nAtacas con tus armas desde direcciones opuestas, lo que inflige {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño con cada arma. Los enemigos situados en el centro sufren daño de ambas.\n\nTags: Principal, Doble empuñadura, Daño, Física, Furia.",
+			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: 30%\nArrasas con tus armas desde direcciones opuestas e infliges {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño con cada arma. Los enemigos que quedan atrapados en el centro reciben daño de ambas.\n\nTags: Principal, Ambidestreza, Daño, Física, Furia.",
+			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: 30%\nVous frappez avec vos armes des deux côtés et infligez {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% points de dégâts avec chacune d'elles. Les cibles ainsi prises en tenaille sont blessées par les deux armes.\n\nTags: Principale, Deux armes, Dégâts, Dégâts physiques, Fureur.",
+			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: 30%\nFai un affondo con le armi verso l'interno, infliggendo {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% danni con ogni arma. I nemici che si trovano in mezzo subiscono i danni di entrambe le armi.\n\nTags: Primaria, Doppia arma, Danni, Fisico, Furia.",
+			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: 30%\n両手の武器をそれぞれの方向から振るって、各武器で敵に{36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%のダメージを与える。正面に立っていた敵は両方のダメージを受ける。\n\nTags: コア, 二刀流, ダメージ, 物理, 怒気.",
+			"koKR": "소모: 분노 {#}\n행운의 적중 확률: 30%\n무기를 양쪽 방향에서 휘둘러 각 무기로 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%의 피해를 줍니다. 중앙에 있는 적은 두 무기의 피해를 모두 받습니다.\n\nTags: 핵심, 쌍수 무기, 피해, 물리, 분노.",
+			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 30%\nWykonujesz zamach z przeciwnych stron dwiema sztukami broni jednocześnie, zadając każdą z nich {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń. Wrogowie znajdujący się w centrum ciosu otrzymują obrażenia od obu.\n\nTags: Główne, Broń w Każdej Ręce, Obrażenia, Fizyczne, Furia.",
+			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: 30%\nVocê golpeia com suas armas em direções opostas, causando {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano com cada arma. Inimigos presos no centro recebem dano das duas armas.\n\nTags: Principal, Empunhadura Dupla, Dano, Física, Fúria.",
+			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 30%.\nВы атакуете оружием в обеих руках, нанося по {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона каждым оружием. Противники в центре получают урон от обоих ударов.\n\nTags: Основное, Оружие в каждой руке, Урон, Физический урон, Ярость.",
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 30%\n从两侧挥动你的武器, 每把武器造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点伤害。在中间的敌人会同时受到两把武器的伤害。\n\nTags: 核心, 双持, 伤害, 物理, 怒气."
 },
 		id: 24,
 		maxPoints: 5,
-		values: [ "25", "30" ],
+		values: [ "25" ],
 		x: -271.825,
 		y: 307.88
 	},
@@ -1138,7 +1134,7 @@ Tags: Vulnerable, Core, Lucky Hit.`,
 	"Rend": {
 		connections: [ "Core", "Enhanced Rend" ],
 		description: `Fury Cost: {#}
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 33%
 Cleave enemies in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage and inflicting {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Bleeding damage over 5 seconds.
 
 Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
@@ -1156,21 +1152,21 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"zhCN": "痛割"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}\nGlückstrefferchance: {#}%\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
-			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: {#}%\nAsestas un tajo a los enemigos frente a ti para infligir {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y aplicar {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 s.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Cortante.",
-			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: {#}%\nHiendes a los enemigos frente a ti, les infliges {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 segundos.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Corte.",
-			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: {#}%\nVous frappez les adversaires devant vous, ce qui leur inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% points de dégâts à l'impact et {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% points de dégâts de saignement en 5 s.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Tranchant.",
-			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: {#}%\nFendi i nemici frontali, infliggendo {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% danni e {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% danni da sanguinamento in 5 s.\n\nTags: Primaria, Sanguinamento, Danni, Fisico, Furia, Tagliente.",
-			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: {#}%\n前方の敵を切り払って{12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%のダメージを与え、さらに5秒かけて{96/105.5/115/125/134.5/144/153.5/163/173/182.5}%の出血ダメージを与える。\n\nTags: コア, 出血, ダメージ, 物理, 怒気, 斬撃.",
-			"koKR": "소모: 분노 {#}\n행운의 적중 확률: {#}%\n전방의 적을 한꺼번에 공격하여 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%의 피해를 주고 5초에 걸쳐 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}%의 출혈 피해를 줍니다.\n\nTags: 핵심, 출혈, 피해, 물리, 분노, 베는 무기.",
-			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: {#}%\nRozpłatujesz wrogów przed sobą, zadając im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń i powodując {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
-			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: {#}%\nCorta os inimigos à sua frente, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano e aplicando {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
-			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: {#}%.\nВы рубите противников перед собой, нанося им {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона мгновенно и еще {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: {#}%\n对面前的敌人发动顺劈斩, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害并在 5 秒内造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 点流血伤害。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩."
+			"deDE": "Wutkosten: {#}\nGlückstrefferchance: 33%\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
+			"esES": "Coste de furia: {#}\nProbabilidad de golpe de suerte: 33%\nAsestas un tajo a los enemigos frente a ti para infligir {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y aplicar {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 s.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Cortante.",
+			"esMX": "Costo de Furia: {#}\nProbabilidad de golpe afortunado: 33%\nHiendes a los enemigos frente a ti, les infliges {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 segundos.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Corte.",
+			"frFR": "Coût en fureur: {#}\nChances d'obtenir un coup de chance: 33%\nVous frappez les adversaires devant vous, ce qui leur inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% points de dégâts à l'impact et {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% points de dégâts de saignement en 5 s.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Tranchant.",
+			"itIT": "Costo in furia: {#}\nProbabilità di colpo fortunato: 33%\nFendi i nemici frontali, infliggendo {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% danni e {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% danni da sanguinamento in 5 s.\n\nTags: Primaria, Sanguinamento, Danni, Fisico, Furia, Tagliente.",
+			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: 33%\n前方の敵を切り払って{12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%のダメージを与え、さらに5秒かけて{96/105.5/115/125/134.5/144/153.5/163/173/182.5}%の出血ダメージを与える。\n\nTags: コア, 出血, ダメージ, 物理, 怒気, 斬撃.",
+			"koKR": "소모: 분노 {#}\n행운의 적중 확률: 33%\n전방의 적을 한꺼번에 공격하여 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%의 피해를 주고 5초에 걸쳐 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}%의 출혈 피해를 줍니다.\n\nTags: 핵심, 출혈, 피해, 물리, 분노, 베는 무기.",
+			"plPL": "Koszt: {#} pkt. furii.\nSzansa na szczęśliwy traf: 33%\nRozpłatujesz wrogów przed sobą, zadając im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń i powodując {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
+			"ptBR": "Custo de fúria: {#}\nChance de Golpe de Sorte: 33%\nCorta os inimigos à sua frente, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano e aplicando {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
+			"ruRU": "Затраты ярости: {#} ед.\nВероятность удачного удара: 33%.\nВы рубите противников перед собой, нанося им {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона мгновенно и еще {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 33%\n对面前的敌人发动顺劈斩, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害并在 5 秒内造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 点流血伤害。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩."
 },
 		id: 29,
 		maxPoints: 5,
-		values: [ "35", "33" ],
+		values: [ "35" ],
 		x: 517.835,
 		y: 0.645
 	},
@@ -1288,7 +1284,7 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 	"Whirlwind": {
 		connections: [ "Core", "Enhanced Whirlwind" ],
 		description: `Fury Cost: {#} per second
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 20%
 Rapidly attack surrounding enemies for {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% damage.
 
 Tags: Core, Channeled, Fury, Physical, Damage.`,
@@ -1306,21 +1302,21 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"zhCN": "旋风斩"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: {#}pro Sek\nGlückstrefferchance: {#}%\nGreift Gegner in der Nähe schnell an und verursacht {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% Schaden.\n\nTags: Kern, Kanalisiert, Wut, Physisch, Schaden.",
-			"esES": "Coste de furia: {#} por segundo\nProbabilidad de golpe de suerte: {#}%\nAtacas rápidamente a los enemigos cercanos y les infliges {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de daño.\n\nTags: Principal, Canalizada, Furia, Física, Daño.",
-			"esMX": "Costo de Furia: {#} por segundo\nProbabilidad de golpe afortunado: {#}%\nAtacas con rapidez a los enemigos circundantes y les infliges {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de daño.\n\nTags: Principal, Canalizado, Furia, Física, Daño.",
-			"frFR": "Coût en fureur: {#} par seconde\nChances d'obtenir un coup de chance: {#}%\nVous attaquez rapidement les adversaires à proximité et leur infligez {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% points de dégâts.\n\nTags: Principale, Canalisation, Fureur, Dégâts physiques, Dégâts.",
-			"itIT": "Costo in furia: {#} ogni secondo\nProbabilità di colpo fortunato: {#}%\nAttacchi rapidamente i nemici circostanti, infliggendo {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% danni.\n\nTags: Primaria, Canalizzazione, Furia, Fisico, Danni.",
-			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: {#}%\n付近の敵を高速で攻撃し、{17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}%のダメージを与える。\n\nTags: コア, 連続発動, 怒気, 物理, ダメージ.",
-			"koKR": "소모: 초당 분노 {#}\n행운의 적중 확률: {#}%\n주위 적들을 빠르게 공격하여 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}%의 피해를 줍니다.\n\nTags: 핵심, 정신 집중, 분노, 물리, 피해.",
-			"plPL": "Koszt: {#} pkt furii na sekund\nSzansa na szczęśliwy traf: {#}%\nBłyskawiczny atak na wrogów wokół, zadający {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% pkt. obrażeń.\n\nTags: Główne, Podtrzymanie, Furia, Fizyczne, Obrażenia.",
-			"ptBR": "Custo de fúria: {#} por segundo\nChance de Golpe de Sorte: {#}%\nAtaca rapidamente inimigos ao redor, causando {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de dano.\n\nTags: Principal, Canalizada, Fúria, Física, Dano.",
-			"ruRU": "Затраты ярости: {#} .\nВероятность удачного удара: {#}%.\nВы стремительно атакуете ближайших противников, нанося {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% ед. урона.\n\nTags: Основное, Поддерживаемое, Ярость, Физический урон, Урон.",
-			"zhCN": "怒气消耗: {#}\n幸运一击几率: {#}%\n快速攻击周围的敌人, 造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 点伤害。\n\nTags: 核心, 引导, 怒气, 物理, 伤害."
+			"deDE": "Wutkosten: {#}pro Sek\nGlückstrefferchance: 20%\nGreift Gegner in der Nähe schnell an und verursacht {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% Schaden.\n\nTags: Kern, Kanalisiert, Wut, Physisch, Schaden.",
+			"esES": "Coste de furia: {#} por segundo\nProbabilidad de golpe de suerte: 20%\nAtacas rápidamente a los enemigos cercanos y les infliges {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de daño.\n\nTags: Principal, Canalizada, Furia, Física, Daño.",
+			"esMX": "Costo de Furia: {#} por segundo\nProbabilidad de golpe afortunado: 20%\nAtacas con rapidez a los enemigos circundantes y les infliges {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de daño.\n\nTags: Principal, Canalizado, Furia, Física, Daño.",
+			"frFR": "Coût en fureur: {#} par seconde\nChances d'obtenir un coup de chance: 20%\nVous attaquez rapidement les adversaires à proximité et leur infligez {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% points de dégâts.\n\nTags: Principale, Canalisation, Fureur, Dégâts physiques, Dégâts.",
+			"itIT": "Costo in furia: {#} ogni secondo\nProbabilità di colpo fortunato: 20%\nAttacchi rapidamente i nemici circostanti, infliggendo {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% danni.\n\nTags: Primaria, Canalizzazione, Furia, Fisico, Danni.",
+			"jaJP": "怒気コスト: {#}\n幸運の一撃発生率: 20%\n付近の敵を高速で攻撃し、{17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}%のダメージを与える。\n\nTags: コア, 連続発動, 怒気, 物理, ダメージ.",
+			"koKR": "소모: 초당 분노 {#}\n행운의 적중 확률: 20%\n주위 적들을 빠르게 공격하여 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}%의 피해를 줍니다.\n\nTags: 핵심, 정신 집중, 분노, 물리, 피해.",
+			"plPL": "Koszt: {#} pkt furii na sekund\nSzansa na szczęśliwy traf: 20%\nBłyskawiczny atak na wrogów wokół, zadający {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% pkt. obrażeń.\n\nTags: Główne, Podtrzymanie, Furia, Fizyczne, Obrażenia.",
+			"ptBR": "Custo de fúria: {#} por segundo\nChance de Golpe de Sorte: 20%\nAtaca rapidamente inimigos ao redor, causando {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% de dano.\n\nTags: Principal, Canalizada, Fúria, Física, Dano.",
+			"ruRU": "Затраты ярости: {#} .\nВероятность удачного удара: 20%.\nВы стремительно атакуете ближайших противников, нанося {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% ед. урона.\n\nTags: Основное, Поддерживаемое, Ярость, Физический урон, Урон.",
+			"zhCN": "怒气消耗: {#}\n幸运一击几率: 20%\n快速攻击周围的敌人, 造成 {17.3/19.1/20.8/22.5/24.3/26/27.7/29.4/31.2/32.9}% 点伤害。\n\nTags: 核心, 引导, 怒气, 物理, 伤害."
 },
 		id: 33,
 		maxPoints: 5,
-		values: [ "25", "20" ],
+		values: [ "25" ],
 		x: -0.76,
 		y: -323.275
 	},
@@ -1847,7 +1843,7 @@ Tags: Bleed, Thorns, Damage.`,
 	"Ground Stomp": {
 		connections: [ "Defensive", "Enhanced Ground Stomp" ],
 		description: `Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 33%
 Smash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% damage and Stunning surrounding enemies for 3 seconds.
 
 Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
@@ -1865,21 +1861,21 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhCN": "大地践踏"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nStampft auf den Boden, verursacht {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% Schaden und betäubt 3 Sek. lang Gegner in der Nähe.\n\nTags: Defensiv, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: {#}%\nGolpeas el suelo para infligir {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% de daño y aturdir a los enemigos cercanos durante 3 s.\n\nTags: Defensiva, Control de masas, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nGolpeas el suelo, infliges {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% de daño y aturdes a los enemigos circundantes durante 3 segundos.\n\nTags: Defensivo, Control de multitudes, Daño, Física, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: {#}%\nVous frappez le sol, ce qui étourdit les adversaires à proximité pendant 3 s et leur inflige {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% points de dégâts.\n\nTags: Défense, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: {#}%\nColpisci il terreno, infliggendo {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% danni e stordendo i nemici circostanti per 3 s.\n\nTags: Difesa, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: {#}%\n地面を踏みつけて{9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%のダメージを与え、付近の敵を3秒間スタンさせる。\n\nTags: 防御, 操作障害効果, ダメージ, 物理, クールダウン.",
-			"koKR": "재사용 대기시간: {#} 초\n행운의 적중 확률: %{#}%\n땅을 내리쳐 주위 적들에게 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%의 피해를 주고 3초 동안 기절시킵니다.\n\nTags: 방어, 군중 제어, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: {#}%\nWstrząsasz ziemią, zadając {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% pkt. obrażeń i ogłuszając pobliskich wrogów na 3 sek.\n\nTags: Defensywa, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: {#}%\nGolpeia o chão, causando {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% de dano e atordoando inimigos ao redor por 3 segundos.\n\nTags: Defesa, Controle de Grupo, Dano, Física, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: {#}%.\nВы с силой бьете по земле, нанося ближайшим противникам {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% ед. урона и оглушая их на 3 сек.\n\nTags: Защита, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: {#}%\n砸击地面, 造成 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% 点伤害并使周围所有敌人昏迷 3 秒。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间."
+			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 33%\nStampft auf den Boden, verursacht {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% Schaden und betäubt 3 Sek. lang Gegner in der Nähe.\n\nTags: Defensiv, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
+			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 33%\nGolpeas el suelo para infligir {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% de daño y aturdir a los enemigos cercanos durante 3 s.\n\nTags: Defensiva, Control de masas, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 33%\nGolpeas el suelo, infliges {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% de daño y aturdes a los enemigos circundantes durante 3 segundos.\n\nTags: Defensivo, Control de multitudes, Daño, Física, Recuperación.",
+			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 33%\nVous frappez le sol, ce qui étourdit les adversaires à proximité pendant 3 s et leur inflige {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% points de dégâts.\n\nTags: Défense, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 33%\nColpisci il terreno, infliggendo {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% danni e stordendo i nemici circostanti per 3 s.\n\nTags: Difesa, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 33%\n地面を踏みつけて{9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%のダメージを与え、付近の敵を3秒間スタンさせる。\n\nTags: 防御, 操作障害効果, ダメージ, 物理, クールダウン.",
+			"koKR": "재사용 대기시간: {#} 초\n행운의 적중 확률: %33%\n땅을 내리쳐 주위 적들에게 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%의 피해를 주고 3초 동안 기절시킵니다.\n\nTags: 방어, 군중 제어, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 33%\nWstrząsasz ziemią, zadając {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% pkt. obrażeń i ogłuszając pobliskich wrogów na 3 sek.\n\nTags: Defensywa, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 33%\nGolpeia o chão, causando {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% de dano e atordoando inimigos ao redor por 3 segundos.\n\nTags: Defesa, Controle de Grupo, Dano, Física, Recarga.",
+			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 33%.\nВы с силой бьете по земле, нанося ближайшим противникам {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% ед. урона и оглушая их на 3 сек.\n\nTags: Защита, Контроль, Урон, Физический урон, Время восстановления.",
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n砸击地面, 造成 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% 点伤害并使周围所有敌人昏迷 3 秒。\n\nTags: 防御, 群控, 伤害, 物理, 冷却时间."
 },
 		id: 48,
 		maxPoints: 5,
-		values: [ "{16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6}", "33" ],
+		values: [ "{16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2}" ],
 		x: 4.675,
 		y: -306.735
 	},
@@ -2221,7 +2217,7 @@ barbarianData["Brawling"] = {
 	"Charge": {
 		connections: [ "Brawling", "Enhanced Charge" ],
 		description: `Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 33%
 Become Unstoppable and rush forward, pushing enemies with you then swinging through them for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking them Back.
 
 Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
@@ -2239,21 +2235,21 @@ Tags: Brawling, Unstoppable, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhCN": "冲锋"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nWerdet unaufhaltsam und stürmt nach vorn, wobei Ihr Gegner mitstoßt und ihnen dann einen Hieb in Höhe von {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden versetzt und sie zurückstoßt.\n\nTags: Raufbold, Unaufhaltsam, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: {#}%\nTe vuelves imparable, corres hacia delante para empujar a los enemigos contigo y atacas para infligir {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño y repelerlos.\n\nTags: Refriega, Imparable, Control de masas, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nTe vuelves imparable, arremetes contra los enemigos que tienes frente a ti y los atraviesas con tu arma para infligirles {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño y repelerlos.\n\nTags: Combate, Imparable, Control de multitudes, Daño, Física, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: {#}%\nVous devenez inarrêtable et vous vous précipitez en avant en poussant les adversaires dans votre élan, puis vous les frappez en leur infligeant {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% points de dégâts et en les repoussant.\n\nTags: Combat, Inarrêtable, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: {#}%\nDiventi inarrestabile e scatti in avanti, spingendo con te i nemici per poi infliggere {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% danni e respingerli.\n\nTags: Rissa, Inarrestabile, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: {#}%\n抑圧不可.になって前方に突進し、敵を押し戻す。その後、武器を振り回して{25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%のダメージを与えてノックバックさせる。\n\nTags: 決闘, 抑圧不可, 操作障害効果, ダメージ, 物理, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: {#}%\n저지 불가 상태가 되어 앞으로 돌진합니다. 적을 밀고 간 후 베어 넘겨 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%의 피해를 주고 뒤로 밀쳐냅니다.\n\nTags: 난투, 저지 불가, 군중 제어, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: {#}%\nZyskujesz nieustępliwość i pędzisz naprzód, popychając wrogów, a następnie wyprowadzasz zamaszysty cios, który zadaje {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń i ich odrzuca.\n\nTags: Bijatyka, Nieustępliwość, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: {#}%\nTorna-se implacável e avança, empurrando inimigos, causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano a eles e repelindo-os.\n\nTags: Briga, Implacável, Controle de Grupo, Dano, Física, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: {#}%.\nВы получаете неудержимость и устремляетесь вперед, толкая противников, а затем взмахиваете оружием, нанося врагам {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона и отбрасывая их.\n\nTags: Бой без правил, Неудержимость, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: {#}%\n变得不可阻挡并向前冲锋, 推动接触到的敌人然后从其中间穿过, 造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害并将其击退。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间."
+			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 33%\nWerdet unaufhaltsam und stürmt nach vorn, wobei Ihr Gegner mitstoßt und ihnen dann einen Hieb in Höhe von {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden versetzt und sie zurückstoßt.\n\nTags: Raufbold, Unaufhaltsam, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
+			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 33%\nTe vuelves imparable, corres hacia delante para empujar a los enemigos contigo y atacas para infligir {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño y repelerlos.\n\nTags: Refriega, Imparable, Control de masas, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 33%\nTe vuelves imparable, arremetes contra los enemigos que tienes frente a ti y los atraviesas con tu arma para infligirles {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño y repelerlos.\n\nTags: Combate, Imparable, Control de multitudes, Daño, Física, Recuperación.",
+			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 33%\nVous devenez inarrêtable et vous vous précipitez en avant en poussant les adversaires dans votre élan, puis vous les frappez en leur infligeant {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% points de dégâts et en les repoussant.\n\nTags: Combat, Inarrêtable, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 33%\nDiventi inarrestabile e scatti in avanti, spingendo con te i nemici per poi infliggere {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% danni e respingerli.\n\nTags: Rissa, Inarrestabile, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 33%\n抑圧不可.になって前方に突進し、敵を押し戻す。その後、武器を振り回して{25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%のダメージを与えてノックバックさせる。\n\nTags: 決闘, 抑圧不可, 操作障害効果, ダメージ, 物理, クールダウン.",
+			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 33%\n저지 불가 상태가 되어 앞으로 돌진합니다. 적을 밀고 간 후 베어 넘겨 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%의 피해를 주고 뒤로 밀쳐냅니다.\n\nTags: 난투, 저지 불가, 군중 제어, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 33%\nZyskujesz nieustępliwość i pędzisz naprzód, popychając wrogów, a następnie wyprowadzasz zamaszysty cios, który zadaje {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń i ich odrzuca.\n\nTags: Bijatyka, Nieustępliwość, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 33%\nTorna-se implacável e avança, empurrando inimigos, causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano a eles e repelindo-os.\n\nTags: Briga, Implacável, Controle de Grupo, Dano, Física, Recarga.",
+			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 33%.\nВы получаете неудержимость и устремляетесь вперед, толкая противников, а затем взмахиваете оружием, нанося врагам {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона и отбрасывая их.\n\nTags: Бой без правил, Неудержимость, Контроль, Урон, Физический урон, Время восстановления.",
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 33%\n变得不可阻挡并向前冲锋, 推动接触到的敌人然后从其中间穿过, 造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害并将其击退。\n\nTags: 搏斗, 不可阻挡, 群控, 伤害, 物理, 冷却时间."
 },
 		id: 58,
 		maxPoints: 5,
-		values: [ "{17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2}", "33" ],
+		values: [ "{17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9}" ],
 		x: -652.69,
 		y: 158.534
 	},
@@ -2628,7 +2624,7 @@ Tags: Damage Reduction, Shout.`,
 	"Leap": {
 		connections: [ "Brawling", "Enhanced Leap" ],
 		description: `Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 66%
 Leap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% damage and Knocking Back surrounding enemies on impact.
 
 Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
@@ -2646,21 +2642,21 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhCN": "腾空斩"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nSpringt nach vorn und schmettert nach unten, um Gegnern in der Nähe beim Aufprall {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% Schaden zuzufügen und sie zurückzustoßen.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: {#}%\nSaltas hacia delante y golpeas el suelo, lo que inflige {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% de daño y repele a los enemigos cercanos al impactar.\n\nTags: Refriega, Control de masas, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nSaltas hacia adelante y luego golpeas el suelo, infliges {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% de daño y repeles a los enemigos circundantes al impactar.\n\nTags: Combate, Control de multitudes, Daño, Física, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: {#}%\nVous bondissez vers l'avant et frappez le sol, ce qui inflige {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% points de dégâts et repousse les adversaires à proximité à l'impact.\n\nTags: Combat, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: {#}%\nBalzi in avanti e poi colpisci verso il basso, infliggendo {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% danni e respingendo indietro i nemici circostanti all'impatto.\n\nTags: Rissa, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: {#}%\n前方に跳躍して地面を強打し、付近の敵に{32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%のダメージを与えつつ衝撃でノックバックする。\n\nTags: 決闘, 操作障害効果, ダメージ, 物理, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: {#}%\n앞으로 도약하여 아래를 내리쳐, 충돌 시 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%의 피해를 주고 주위 적들을 밀쳐냅니다.\n\nTags: 난투, 군중 제어, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: {#}%\nSkaczesz do przodu i uderzasz z wielką siłą, zadając {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% pkt. obrażeń i odrzucając pobliskich wrogów przy trafieniu.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: {#}%\nSalta para frente e depois golpeia o chão, causando {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% de dano e repelindo inimigos ao redor no impacto.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: {#}%.\nВы прыгаете вперед и проводите удар, нанося {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% ед. урона и отбрасывая противников в точке приземления.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: {#}%\n向前跳跃然后落地猛击, 造成 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% 点伤害并在命中时击退周围的敌人。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 66%\nSpringt nach vorn und schmettert nach unten, um Gegnern in der Nähe beim Aufprall {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% Schaden zuzufügen und sie zurückzustoßen.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
+			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 66%\nSaltas hacia delante y golpeas el suelo, lo que inflige {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% de daño y repele a los enemigos cercanos al impactar.\n\nTags: Refriega, Control de masas, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 66%\nSaltas hacia adelante y luego golpeas el suelo, infliges {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% de daño y repeles a los enemigos circundantes al impactar.\n\nTags: Combate, Control de multitudes, Daño, Física, Recuperación.",
+			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 66%\nVous bondissez vers l'avant et frappez le sol, ce qui inflige {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% points de dégâts et repousse les adversaires à proximité à l'impact.\n\nTags: Combat, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 66%\nBalzi in avanti e poi colpisci verso il basso, infliggendo {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% danni e respingendo indietro i nemici circostanti all'impatto.\n\nTags: Rissa, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 66%\n前方に跳躍して地面を強打し、付近の敵に{32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%のダメージを与えつつ衝撃でノックバックする。\n\nTags: 決闘, 操作障害効果, ダメージ, 物理, クールダウン.",
+			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 66%\n앞으로 도약하여 아래를 내리쳐, 충돌 시 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%의 피해를 주고 주위 적들을 밀쳐냅니다.\n\nTags: 난투, 군중 제어, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 66%\nSkaczesz do przodu i uderzasz z wielką siłą, zadając {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% pkt. obrażeń i odrzucając pobliskich wrogów przy trafieniu.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 66%\nSalta para frente e depois golpeia o chão, causando {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% de dano e repelindo inimigos ao redor no impacto.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
+			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 66%.\nВы прыгаете вперед и проводите удар, нанося {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% ед. урона и отбрасывая противников в точке приземления.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 66%\n向前跳跃然后落地猛击, 造成 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% 点伤害并在命中时击退周围的敌人。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
 },
 		id: 69,
 		maxPoints: 5,
-		values: [ "{17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2}", "33" ],
+		values: [ "{17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9}" ],
 		x: -402.935,
 		y: 315.986
 	},
@@ -2779,7 +2775,7 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 		connections: [ "Enhanced Kick", "Brawling" ],
 		description: `Charges: 2
 Charge Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 40%
 Throw a powerful kick that deals 18% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54% damage and are Stunned for 3 seconds.
 
 Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
@@ -2797,21 +2793,21 @@ Tags: Brawling, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhCN": "踢击"
 },
 		descriptionLocalized: {
-			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nFührt einen kräftigen Tritt aus, der 18% Schaden verursacht und Gegner vor Euch zurückstößt. Gegner, die in Terrain gestoßen werden, erleiden 54% Schaden und sind 3 Sek. lang betäubt.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
-			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: {#} s\nProbabilidad de golpe de suerte: {#}%\nDas una potente patada que inflige 18% de daño y repele a los enemigos frente a ti. Los enemigos repelidos contra el terreno sufren 54% de daño más y quedan aturdidos durante 3 s.\n\nTags: Refriega, Control de masas, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Cargas: 2\nRecuperación de carga: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nLanzas una patada poderosa que inflige 18% de daño y repele a los enemigos frente a ti. Los enemigos que golpean contra el terreno reciben 54% de daño adicional y quedan aturdidos durante 3 segundos.\n\nTags: Combate, Control de multitudes, Daño, Física, Recuperación.",
-			"frFR": "Charges: 2\nTemps de recharge des charges: {#} s\nChances d'obtenir un coup de chance: {#}%\nVous donnez un puissant coup de pied qui inflige 18% points de dégâts et repousse les adversaires devant vous. Les cibles repoussées qui percutent des obstacles subissent 54% points de dégâts supplémentaires et sont étourdies pendant 3 s.\n\nTags: Combat, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Cariche: 2\nTempo di recupero cariche: {#} s\nProbabilità di colpo fortunato: {#}%\nSferri un potente calcio che infligge 18% danni e respinge i nemici frontali. I nemici che vengono respinti a terra subiscono 54% danni aggiuntivi e restano storditi per 3 s.\n\nTags: Rissa, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "チャージ: 2\nチャージのクールダウン: {#}秒\n幸運の一撃発生率: {#}%\n強力な蹴りを繰り出し、前方の敵に18%のダメージを与えてノックバックする。ノックバックで地形に叩きつけられた敵は追加で54%のダメージを受け、3秒間スタンする。\n\nTags: 決闘, 操作障害効果, ダメージ, 物理, クールダウン.",
-			"koKR": "충전: 2\n충전 재사용 대기시간: {#}초\n행운의 적중 확률: {#}%\n강력한 발차기로 전방의 적에게 18%의 피해를 주고 밀쳐냅니다. 밀려나서 지형지물에 부딪힌 적은 54%의 추가 피해를 받으며 3초 동안 기절합니다.\n\nTags: 난투, 군중 제어, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: {#}%\nWyprowadzasz potężne kopnięcie, które zadaje 18% pkt. obrażeń i odrzuca wrogów przez tobą. Odrzuceni wrogowie, którzy zderzą się z przeszkodami terenu, otrzymują dodatkowo 54% pkt. obrażeń i są ogłuszeni na 3 sek.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: {#}%\nDesfere um chute poderoso que causa 18% de dano e repele inimigos à sua frente. Inimigos repelidos ao chão recebem 54% de dano adicional e ficam atordoados por 3 segundos.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
-			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: {#}%.\nВы с силой бьете ногой, нанося 18% ед. урона и отбрасывая противников перед собой. При столкновении с препятствиями отброшенные противники получают еще 54% ед. урона и оглушаются на 3 сек.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: {#}%\n发起一次强力踢击, 对你面前的敌人造成 18% 点伤害并将其击退。被击退至地形上的敌人额外受到 54% 点伤害并陷入昏迷, 持续 3 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
+			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: 40%\nFührt einen kräftigen Tritt aus, der 18% Schaden verursacht und Gegner vor Euch zurückstößt. Gegner, die in Terrain gestoßen werden, erleiden 54% Schaden und sind 3 Sek. lang betäubt.\n\nTags: Raufbold, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
+			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: {#} s\nProbabilidad de golpe de suerte: 40%\nDas una potente patada que inflige 18% de daño y repele a los enemigos frente a ti. Los enemigos repelidos contra el terreno sufren 54% de daño más y quedan aturdidos durante 3 s.\n\nTags: Refriega, Control de masas, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Cargas: 2\nRecuperación de carga: {#} segundos\nProbabilidad de golpe afortunado: 40%\nLanzas una patada poderosa que inflige 18% de daño y repele a los enemigos frente a ti. Los enemigos que golpean contra el terreno reciben 54% de daño adicional y quedan aturdidos durante 3 segundos.\n\nTags: Combate, Control de multitudes, Daño, Física, Recuperación.",
+			"frFR": "Charges: 2\nTemps de recharge des charges: {#} s\nChances d'obtenir un coup de chance: 40%\nVous donnez un puissant coup de pied qui inflige 18% points de dégâts et repousse les adversaires devant vous. Les cibles repoussées qui percutent des obstacles subissent 54% points de dégâts supplémentaires et sont étourdies pendant 3 s.\n\nTags: Combat, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Cariche: 2\nTempo di recupero cariche: {#} s\nProbabilità di colpo fortunato: 40%\nSferri un potente calcio che infligge 18% danni e respinge i nemici frontali. I nemici che vengono respinti a terra subiscono 54% danni aggiuntivi e restano storditi per 3 s.\n\nTags: Rissa, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "チャージ: 2\nチャージのクールダウン: {#}秒\n幸運の一撃発生率: 40%\n強力な蹴りを繰り出し、前方の敵に18%のダメージを与えてノックバックする。ノックバックで地形に叩きつけられた敵は追加で54%のダメージを受け、3秒間スタンする。\n\nTags: 決闘, 操作障害効果, ダメージ, 物理, クールダウン.",
+			"koKR": "충전: 2\n충전 재사용 대기시간: {#}초\n행운의 적중 확률: 40%\n강력한 발차기로 전방의 적에게 18%의 피해를 주고 밀쳐냅니다. 밀려나서 지형지물에 부딪힌 적은 54%의 추가 피해를 받으며 3초 동안 기절합니다.\n\nTags: 난투, 군중 제어, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: 40%\nWyprowadzasz potężne kopnięcie, które zadaje 18% pkt. obrażeń i odrzuca wrogów przez tobą. Odrzuceni wrogowie, którzy zderzą się z przeszkodami terenu, otrzymują dodatkowo 54% pkt. obrażeń i są ogłuszeni na 3 sek.\n\nTags: Bijatyka, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: 40%\nDesfere um chute poderoso que causa 18% de dano e repele inimigos à sua frente. Inimigos repelidos ao chão recebem 54% de dano adicional e ficam atordoados por 3 segundos.\n\nTags: Briga, Controle de Grupo, Dano, Física, Recarga.",
+			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: 40%.\nВы с силой бьете ногой, нанося 18% ед. урона и отбрасывая противников перед собой. При столкновении с препятствиями отброшенные противники получают еще 54% ед. урона и оглушаются на 3 сек.\n\nTags: Бой без правил, Контроль, Урон, Физический урон, Время восстановления.",
+			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 40%\n发起一次强力踢击, 对你面前的敌人造成 18% 点伤害并将其击退。被击退至地形上的敌人额外受到 54% 点伤害并陷入昏迷, 持续 3 秒。\n\nTags: 搏斗, 群控, 伤害, 物理, 冷却时间."
 },
 		id: 73,
 		maxPoints: 5,
-		values: [ "{17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2}", "100" ],
+		values: [ "{17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9}" ],
 		x: -3.2,
 		y: -277.614
 	},
@@ -3113,7 +3109,7 @@ barbarianData["Weapon Mastery"] = {
 		connections: [ "Weapon Mastery", "Enhanced Steel Grasp" ],
 		description: `Charges: 2
 Charge Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 25%
 Throw out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and Pull In enemies.
 
 Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
@@ -3131,21 +3127,21 @@ Tags: Weapon Mastery, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhCN": "钢铁之握"
 },
 		descriptionLocalized: {
-			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nWerft drei Ketten aus, die {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% Schaden verursachen und Gegner heranziehen.\n\nTags: Waffenbeherrschung, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
-			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: {#} s\nProbabilidad de golpe de suerte: {#}%\nLanzas tres cadenas que infligen {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de daño y atraen a los enemigos.\n\nTags: Dominio de las armas, Control de masas, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Cargas: 2\nRecuperación de carga: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nArroja un trío de cadenas que infligen {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de daño y atraen a los enemigos.\n\nTags: Dominio de Arma, Control de multitudes, Daño, Física, Recuperación.",
-			"frFR": "Charges: 2\nTemps de recharge des charges: {#} s\nChances d'obtenir un coup de chance: {#}%\nVous lancez un trio de chaînes qui inflige {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% points de dégâts aux adversaires et les attire vers vous.\n\nTags: Maîtrise d'arme, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Cariche: 2\nTempo di recupero cariche: {#} s\nProbabilità di colpo fortunato: {#}%\nScagli tre catene che infliggono {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% danni e trascinano i nemici verso di te.\n\nTags: Dominio delle armi, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "チャージ: 2\nチャージのクールダウン: {#}秒\n幸運の一撃発生率: {#}%\n3本の鎖を投げつけて敵に{23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%のダメージを与え、さらに引き寄せる。\n\nTags: 武器の達人, 操作障害効果, ダメージ, 物理, クールダウン.",
-			"koKR": "충전: 2\n충전 재사용 대기시간: {#}초\n행운의 적중 확률: {#}%\n세 개의 사슬을 던져 적에게 각각 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%의 피해를 주고 끌어당깁니다.\n\nTags: 무기 숙련, 군중 제어, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: {#}%\nCiskasz trzema łańcuchami, które zadają {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% pkt. obrażeń i przyciągają wrogów.\n\nTags: Mistrzostwo Broni, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: {#}%\nLança um trio de correntes que causa {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de dano e puxa os inimigos.\n\nTags: Maestria em Armas, Controle de Grupo, Dano, Física, Recarga.",
-			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: {#}%.\nВы бросаете вперед три цепи, наносящие {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% ед. урона и притягивающие противников.\n\nTags: Мастер оружия, Контроль, Урон, Физический урон, Время восстановления.",
-			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: {#}%\n扔出三段锁链, 造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害并将敌人拉向你的位置。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间."
+			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: {#} Sek.\nGlückstrefferchance: 25%\nWerft drei Ketten aus, die {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% Schaden verursachen und Gegner heranziehen.\n\nTags: Waffenbeherrschung, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
+			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: {#} s\nProbabilidad de golpe de suerte: 25%\nLanzas tres cadenas que infligen {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de daño y atraen a los enemigos.\n\nTags: Dominio de las armas, Control de masas, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Cargas: 2\nRecuperación de carga: {#} segundos\nProbabilidad de golpe afortunado: 25%\nArroja un trío de cadenas que infligen {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de daño y atraen a los enemigos.\n\nTags: Dominio de Arma, Control de multitudes, Daño, Física, Recuperación.",
+			"frFR": "Charges: 2\nTemps de recharge des charges: {#} s\nChances d'obtenir un coup de chance: 25%\nVous lancez un trio de chaînes qui inflige {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% points de dégâts aux adversaires et les attire vers vous.\n\nTags: Maîtrise d'arme, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Cariche: 2\nTempo di recupero cariche: {#} s\nProbabilità di colpo fortunato: 25%\nScagli tre catene che infliggono {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% danni e trascinano i nemici verso di te.\n\nTags: Dominio delle armi, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "チャージ: 2\nチャージのクールダウン: {#}秒\n幸運の一撃発生率: 25%\n3本の鎖を投げつけて敵に{23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%のダメージを与え、さらに引き寄せる。\n\nTags: 武器の達人, 操作障害効果, ダメージ, 物理, クールダウン.",
+			"koKR": "충전: 2\n충전 재사용 대기시간: {#}초\n행운의 적중 확률: 25%\n세 개의 사슬을 던져 적에게 각각 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%의 피해를 주고 끌어당깁니다.\n\nTags: 무기 숙련, 군중 제어, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: {#} sek.\nSzansa na szczęśliwy traf: 25%\nCiskasz trzema łańcuchami, które zadają {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% pkt. obrażeń i przyciągają wrogów.\n\nTags: Mistrzostwo Broni, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Cargas: 2\nRecarga de cargas: {#} segundos\nChance de Golpe de Sorte: 25%\nLança um trio de correntes que causa {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de dano e puxa os inimigos.\n\nTags: Maestria em Armas, Controle de Grupo, Dano, Física, Recarga.",
+			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: {#} сек.\nВероятность удачного удара: 25%.\nВы бросаете вперед три цепи, наносящие {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% ед. урона и притягивающие противников.\n\nTags: Мастер оружия, Контроль, Урон, Физический урон, Время восстановления.",
+			"zhCN": "使用次数: 2\n充能冷却时间: {#} 秒\n幸运一击几率: 25%\n扔出三段锁链, 造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害并将敌人拉向你的位置。\n\nTags: 武器精通, 群控, 伤害, 物理, 冷却时间."
 },
 		id: 82,
 		maxPoints: 5,
-		values: [ "{11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}", "25" ],
+		values: [ "{11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7}" ],
 		x: 416.495,
 		y: 219.35
 	},
@@ -3371,7 +3367,7 @@ Tags: Fortify, Damage Reduction.`,
 	"Death Blow": {
 		connections: [ "Weapon Mastery", "Enhanced Death Blow" ],
 		description: `Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 50%
 Attempt a killing strike, dealing {120/132/144/156/168/180/192/204/216/228}% damage to enemies in front of you.
 
 If this kills an enemy, its Cooldown is reset.
@@ -3391,21 +3387,21 @@ Tags: Weapon Mastery, Damage, Physical, Cooldown.`,
 			"zhCN": "死亡重击"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nVersucht Euch an einem tödlichen Schlag, der Gegnern vor Euch {120/132/144/156/168/180/192/204/216/228}% Schaden zufügt.\n\nStirbt ein Gegner durch diese Fertigkeit, wird die Abklingzeit abgeschlossen.\n\nTags: Waffenbeherrschung, Schaden, Physisch, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: {#}%\nIntentas asestar un golpe letal que inflige {120/132/144/156/168/180/192/204/216/228}% de daño a los enemigos frente a ti.\n\nSi matas a un enemigo, se reinicia su tiempo de reutilización.\n\nTags: Dominio de las armas, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nIntentas realizar un golpe de gracia que inflige {120/132/144/156/168/180/192/204/216/228}% de daño a los enemigos frente a ti.\n\nSi eliminas a un enemigo, se restablece su recuperación.\n\nTags: Dominio de Arma, Daño, Física, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: {#}%\nVous tentez un coup mortel qui inflige {120/132/144/156/168/180/192/204/216/228}% points de dégâts aux cibles devant vous.\n\nSi ce coup tue une cible, son temps de recharge est réinitialisé.\n\nTags: Maîtrise d'arme, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: {#}%\nTenti di dare il colpo di grazia, infliggendo {120/132/144/156/168/180/192/204/216/228}% danni ai nemici frontali.\n\nSe il colpo uccide un nemico, il suo tempo di recupero si azzera.\n\nTags: Dominio delle armi, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: {#}%\n一撃必殺を狙って前方の敵に{120/132/144/156/168/180/192/204/216/228}%のダメージを与える。\n\nこのスキルで敵1体を倒すと、クールダウンがリセットされる。\n\nTags: 武器の達人, ダメージ, 物理, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: {#}%\n전방에 있는 적의 숨통을 노려 {120/132/144/156/168/180/192/204/216/228}%의 피해를 줍니다.\n\n이 기술로 적을 처치하면 이 기술의 재사용 대기시간이 초기화됩니다.\n\nTags: 무기 숙련, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: {#}%\nPróbujesz wykonać zabójczy cios i zadajesz {120/132/144/156/168/180/192/204/216/228}% pkt. obrażeń wrogom przed tobą.\n\nJeśli zabijesz w ten sposób wroga, czas odnowienia zostanie wyzerowany.\n\nTags: Mistrzostwo Broni, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: {#}%\nVocê tenta um golpe mortal, causando {120/132/144/156/168/180/192/204/216/228}% de dano aos inimigos à sua frente.\n\nSe isso matar um inimigo, a recarga será reiniciada.\n\nTags: Maestria em Armas, Dano, Física, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: {#}%.\nСмертельный удар наносит {120/132/144/156/168/180/192/204/216/228}% ед. урона целям в секторе перед вами.\n\nЕсли противник умирает, умение мгновенно восстанавливается.\n\nTags: Мастер оружия, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: {#}%\n试图发动一次致命攻击, 对面前的敌人造成 {120/132/144/156/168/180/192/204/216/228}% 点伤害。\n\n如果该技能消灭了一名敌人, 则重置其冷却时间。\n\nTags: 武器精通, 伤害, 物理, 冷却时间."
+			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 50%\nVersucht Euch an einem tödlichen Schlag, der Gegnern vor Euch {120/132/144/156/168/180/192/204/216/228}% Schaden zufügt.\n\nStirbt ein Gegner durch diese Fertigkeit, wird die Abklingzeit abgeschlossen.\n\nTags: Waffenbeherrschung, Schaden, Physisch, Abklingzeit.",
+			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 50%\nIntentas asestar un golpe letal que inflige {120/132/144/156/168/180/192/204/216/228}% de daño a los enemigos frente a ti.\n\nSi matas a un enemigo, se reinicia su tiempo de reutilización.\n\nTags: Dominio de las armas, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 50%\nIntentas realizar un golpe de gracia que inflige {120/132/144/156/168/180/192/204/216/228}% de daño a los enemigos frente a ti.\n\nSi eliminas a un enemigo, se restablece su recuperación.\n\nTags: Dominio de Arma, Daño, Física, Recuperación.",
+			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 50%\nVous tentez un coup mortel qui inflige {120/132/144/156/168/180/192/204/216/228}% points de dégâts aux cibles devant vous.\n\nSi ce coup tue une cible, son temps de recharge est réinitialisé.\n\nTags: Maîtrise d'arme, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 50%\nTenti di dare il colpo di grazia, infliggendo {120/132/144/156/168/180/192/204/216/228}% danni ai nemici frontali.\n\nSe il colpo uccide un nemico, il suo tempo di recupero si azzera.\n\nTags: Dominio delle armi, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 50%\n一撃必殺を狙って前方の敵に{120/132/144/156/168/180/192/204/216/228}%のダメージを与える。\n\nこのスキルで敵1体を倒すと、クールダウンがリセットされる。\n\nTags: 武器の達人, ダメージ, 物理, クールダウン.",
+			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 50%\n전방에 있는 적의 숨통을 노려 {120/132/144/156/168/180/192/204/216/228}%의 피해를 줍니다.\n\n이 기술로 적을 처치하면 이 기술의 재사용 대기시간이 초기화됩니다.\n\nTags: 무기 숙련, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 50%\nPróbujesz wykonać zabójczy cios i zadajesz {120/132/144/156/168/180/192/204/216/228}% pkt. obrażeń wrogom przed tobą.\n\nJeśli zabijesz w ten sposób wroga, czas odnowienia zostanie wyzerowany.\n\nTags: Mistrzostwo Broni, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 50%\nVocê tenta um golpe mortal, causando {120/132/144/156/168/180/192/204/216/228}% de dano aos inimigos à sua frente.\n\nSe isso matar um inimigo, a recarga será reiniciada.\n\nTags: Maestria em Armas, Dano, Física, Recarga.",
+			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 50%.\nСмертельный удар наносит {120/132/144/156/168/180/192/204/216/228}% ед. урона целям в секторе перед вами.\n\nЕсли противник умирает, умение мгновенно восстанавливается.\n\nTags: Мастер оружия, Урон, Физический урон, Время восстановления.",
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 50%\n试图发动一次致命攻击, 对面前的敌人造成 {120/132/144/156/168/180/192/204/216/228}% 点伤害。\n\n如果该技能消灭了一名敌人, 则重置其冷却时间。\n\nTags: 武器精通, 伤害, 物理, 冷却时间."
 },
 		id: 89,
 		maxPoints: 5,
-		values: [ "15", "50" ],
+		values: [ "15" ],
 		x: -528.139,
 		y: -0.735
 	},
@@ -3667,7 +3663,7 @@ Tags: Critical Strikes, Crowd Control.`,
 	"Rupture": {
 		connections: [ "Enhanced Rupture", "Weapon Mastery" ],
 		description: `Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 50%
 Skewer enemies in front of you, dealing 13% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.
 
 Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
@@ -3685,21 +3681,21 @@ Tags: Weapon Mastery, Bleed, Damage, Physical, Cooldown, Slashing.`,
 			"zhCN": "割裂"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\n\nGlückstrefferchance: {#}%\nSpießt Gegner vor Euch auf, verursacht dabei 13% Schaden und reißt dann Eure Waffe heraus, wobei Ihr Gegnern Schaden in Höhe ihrer gesamten Blutungsmenge zufügt und sie vom gesamten Blutungsschaden befreit.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Hiebwaffe.",
-			"esES": "Tiempo de reutilización: {#} s\n\nProbabilidad de golpe de suerte: {#}%\nEnsartas a los enemigos frente a ti y les infliges 13% de daño. Después, arrancas tu arma, lo que les inflige la cantidad total del daño de sangrado y elimina todo el daño de sangrado.\n\nTags: Dominio de las armas, Sangrado, Daño, Física, Tiempo de reutilización, Cortante.",
-			"esMX": "Recuperación: {#} segundos\n\nProbabilidad de golpe afortunado: {#}%\nEmpalas a los enemigos que están frente a ti y les infliges 13% de daño. Después, retiras el arma, los desgarras, infliges daño de sangrado y el desangrado concluye.\n\nTags: Dominio de Arma, Sangrado, Daño, Física, Recuperación, Corte.",
-			"frFR": "Temps de recharge: {#} s\n\nChances d'obtenir un coup de chance: {#}%\nVous embrochez les adversaires devant vous et leur infligez 13% points de dégâts, puis vous arrachez votre arme de leur corps, ce qui les blesse d'un montant égal à celui de leur saignement total et fait disparaître le saignement.\n\nTags: Maîtrise d'arme, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Tranchant.",
-			"itIT": "Tempo di recupero: {#} s\n\nProbabilità di colpo fortunato: {#}%\nTrafiggi i nemici frontali, infliggendo 13% danni; poi strappi via la tua arma, infliggendo danni pari al totale dei danni da sanguinamento e rimuovendo tutti gli effetti di sanguinamento dai nemici.\n\nTags: Dominio delle armi, Sanguinamento, Danni, Fisico, Tempo di recupero, Tagliente.",
-			"jaJP": "クールダウン: {#}秒\n\n幸運の一撃発生率: {#}%\n前方の敵を突き刺して13%のダメージを与えた後、貫通させた武器を引き抜いて出血ダメージの合計に相当するダメージを与え、敵が受けていたすべての出血ダメージを解除する。\n\nTags: 武器の達人, 出血, ダメージ, 物理, クールダウン, 斬撃.",
-			"koKR": "재사용 대기시간: {#}초\n\n행운의 적중 확률: {#}%\n전방의 적들을 꿰뚫어 13%의 피해를 준 후, 무기를 단숨에 빼내 적에게 총 출혈량만큼 피해를 주고 모든 출혈 피해를 제거합니다.\n\nTags: 무기 숙련, 출혈, 피해, 물리, 재사용 대기시간, 베는 무기.",
-			"plPL": "Czas odnowienia: {#} sek.\n\nSzansa na szczęśliwy traf: {#}%\nPrzeszywasz wrogów przed sobą, zadając im 13% pkt. obrażeń, po czym wyrywasz z nich broń, zadając wrogom pełne obrażenia od krwawienia i usuwając z nich krwawienie.\n\nTags: Mistrzostwo Broni, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Sieczne.",
-			"ptBR": "Recarga: {#} segundos\n\nChance de Golpe de Sorte: {#}%\nEspeta inimigos à sua frente, causando 13% de dano. Então você arranca a arma, causando aos inimigos dano equivalente ao valor total de sangramento e removendo todo o dano de sangramento deles.\n\nTags: Maestria em Armas, Sangramento, Dano, Física, Recarga, Corte.",
-			"ruRU": "Время восстановления: {#} сек.\n\nВероятность удачного удара: {#}%.\nВы пронзаете противников перед собой, нанося 13% ед. урона, а затем выдергиваете оружие, снимая действующие на врагов эффекты кровотечения и нанося оставшийся урон от этих эффектов.\n\nTags: Мастер оружия, Кровотечение, Урон, Физический урон, Время восстановления, Рубящее.",
-			"zhCN": "冷却时间: {#} 秒\n\n幸运一击几率: {#}%\n刺穿面前的敌人, 造成 13% 点伤害, 然后拔出你的武器, 结算敌人身上的全部流血伤害并移除所有流血效果。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩."
+			"deDE": "Abklingzeit: {#} Sek.\n\nGlückstrefferchance: 50%\nSpießt Gegner vor Euch auf, verursacht dabei 13% Schaden und reißt dann Eure Waffe heraus, wobei Ihr Gegnern Schaden in Höhe ihrer gesamten Blutungsmenge zufügt und sie vom gesamten Blutungsschaden befreit.\n\nTags: Waffenbeherrschung, Blutung, Schaden, Physisch, Abklingzeit, Hiebwaffe.",
+			"esES": "Tiempo de reutilización: {#} s\n\nProbabilidad de golpe de suerte: 50%\nEnsartas a los enemigos frente a ti y les infliges 13% de daño. Después, arrancas tu arma, lo que les inflige la cantidad total del daño de sangrado y elimina todo el daño de sangrado.\n\nTags: Dominio de las armas, Sangrado, Daño, Física, Tiempo de reutilización, Cortante.",
+			"esMX": "Recuperación: {#} segundos\n\nProbabilidad de golpe afortunado: 50%\nEmpalas a los enemigos que están frente a ti y les infliges 13% de daño. Después, retiras el arma, los desgarras, infliges daño de sangrado y el desangrado concluye.\n\nTags: Dominio de Arma, Sangrado, Daño, Física, Recuperación, Corte.",
+			"frFR": "Temps de recharge: {#} s\n\nChances d'obtenir un coup de chance: 50%\nVous embrochez les adversaires devant vous et leur infligez 13% points de dégâts, puis vous arrachez votre arme de leur corps, ce qui les blesse d'un montant égal à celui de leur saignement total et fait disparaître le saignement.\n\nTags: Maîtrise d'arme, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Tranchant.",
+			"itIT": "Tempo di recupero: {#} s\n\nProbabilità di colpo fortunato: 50%\nTrafiggi i nemici frontali, infliggendo 13% danni; poi strappi via la tua arma, infliggendo danni pari al totale dei danni da sanguinamento e rimuovendo tutti gli effetti di sanguinamento dai nemici.\n\nTags: Dominio delle armi, Sanguinamento, Danni, Fisico, Tempo di recupero, Tagliente.",
+			"jaJP": "クールダウン: {#}秒\n\n幸運の一撃発生率: 50%\n前方の敵を突き刺して13%のダメージを与えた後、貫通させた武器を引き抜いて出血ダメージの合計に相当するダメージを与え、敵が受けていたすべての出血ダメージを解除する。\n\nTags: 武器の達人, 出血, ダメージ, 物理, クールダウン, 斬撃.",
+			"koKR": "재사용 대기시간: {#}초\n\n행운의 적중 확률: 50%\n전방의 적들을 꿰뚫어 13%의 피해를 준 후, 무기를 단숨에 빼내 적에게 총 출혈량만큼 피해를 주고 모든 출혈 피해를 제거합니다.\n\nTags: 무기 숙련, 출혈, 피해, 물리, 재사용 대기시간, 베는 무기.",
+			"plPL": "Czas odnowienia: {#} sek.\n\nSzansa na szczęśliwy traf: 50%\nPrzeszywasz wrogów przed sobą, zadając im 13% pkt. obrażeń, po czym wyrywasz z nich broń, zadając wrogom pełne obrażenia od krwawienia i usuwając z nich krwawienie.\n\nTags: Mistrzostwo Broni, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Sieczne.",
+			"ptBR": "Recarga: {#} segundos\n\nChance de Golpe de Sorte: 50%\nEspeta inimigos à sua frente, causando 13% de dano. Então você arranca a arma, causando aos inimigos dano equivalente ao valor total de sangramento e removendo todo o dano de sangramento deles.\n\nTags: Maestria em Armas, Sangramento, Dano, Física, Recarga, Corte.",
+			"ruRU": "Время восстановления: {#} сек.\n\nВероятность удачного удара: 50%.\nВы пронзаете противников перед собой, нанося 13% ед. урона, а затем выдергиваете оружие, снимая действующие на врагов эффекты кровотечения и нанося оставшийся урон от этих эффектов.\n\nTags: Мастер оружия, Кровотечение, Урон, Физический урон, Время восстановления, Рубящее.",
+			"zhCN": "冷却时间: {#} 秒\n\n幸运一击几率: 50%\n刺穿面前的敌人, 造成 13% 点伤害, 然后拔出你的武器, 结算敌人身上的全部流血伤害并移除所有流血效果。\n\nTags: 武器精通, 流血, 伤害, 物理, 冷却时间, 劈斩."
 },
 		id: 97,
 		maxPoints: 5,
-		values: [ "{10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6}", "50" ],
+		values: [ "{10/9.5/9/8.6/8.2/7.9/7.6/7.4/7.2/7}" ],
 		x: 408.44,
 		y: -222.34
 	},
@@ -3892,7 +3888,7 @@ barbarianData["Ultimate"] = {
 	"Call of the Ancients": {
 		connections: [ "Ultimate", "Prime Call of the Ancients" ],
 		description: `Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 30%
 Call upon 3 Ancients to aid you in battle for 6 seconds.
 • Korlic leaps at enemies, dealing 104% damage and swings his weapons in a frenzy, dealing 39% damage per hit.
 • Talic spins in a whirlwind rapidly attacking enemies for 65% damage.
@@ -3913,21 +3909,21 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"zhCN": "先祖召唤"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nBeschwört 3 Urahnen, die Euch 6 Sek. lang im Kampf unterstützen.\n• Korlic springt Gegner an, verursacht 104% Schaden und schwingt wild seine Waffen, die 39% Schaden pro Treffer verursachen.\n• Talic wirbelt umher und fügt Gegnern dabei 65% Schaden zu.\n• Madawc wühlt den Boden auf und verursacht 195% Schaden.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: {#}%\nLlamas a 3 Ancestros para que te ayuden en combate durante 6 s.\n• Korlic salta sobre los enemigos, les inflige 104% de daño y blande frenéticamente sus armas para infligir 39% de daño por golpe.\n• Talic gira como un torbellino y ataca rápidamente para infligir 65% de daño a los enemigos.\n• Madawc levanta el suelo e inflige 195% de daño.\n\nTags: Definitiva, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nConvoca a 3 Ancestros para que te ayuden en la batalla durante 6 segundos.\n• Korlic salta sobre los enemigos, les inflige 104% de daño y golpea con sus armas en un frenesí, lo que inflige 39% de daño por golpe.\n• Talic gira en un remolino, ataca rápidamente a los enemigos e inflige 65% de daño.\n• Madawc levanta el terreno, lo que inflige 195% de daño.\n\nTags: Máxima, Daño, Física, Recuperación.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: {#}%\nVous faites appel à 3 Anciens qui viennent vous aider en combat pendant 6 s.\n• Korlic se jette sur les adversaires en infligeant 104% points de dégâts, et il les frappe frénétiquement avec ses armes en infligeant 39% points de dégâts par coup.\n• Talic attaque en tourbillonnant et inflige 65% points de dégâts aux adversaires.\n• Madawc soulève le sol, ce qui inflige 195% points de dégâts.\n\nTags: Ultime, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: {#}%\nRichiami 3 Antichi per aiutarti in battaglia per 6 s.\n• Korlic si lancia sui nemici, infliggendo 104% danni e agita la sua arma preso dalla frenesia, infliggendo 39% danni per colpo.\n• Talic gira su se stesso e attacca rapidamente i nemici infliggendo 65% danni.\n• Madawc solleva il terreno, infliggendo 195% danni.\n\nTags: Ultra, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: {#}%\n3人の古の民を6秒間戦闘に援軍として招集する。\n• コーリックは敵に飛びかかって104%のダメージを与え、猛烈に武器を振るって命中ごとに39%のダメージを与える。\n• タリックは回転して旋風を起こし、敵に素早く攻撃して65%のダメージを与える。\n• マドウクは地面を隆起させ、195%のダメージを与える。\n\nTags: 奥義, ダメージ, 物理, クールダウン.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: {#}%\n선조 3명을 소환하여 6초 동안 전투를 돕게 합니다.\n• 콜릭은 적에게 도약하여 104%의 피해를 주고, 광분하며 무기를 휘둘러 적중당 39%의 피해를 줍니다.\n• 탈릭은 소용돌이로 회전하며 적들을 빠르게 공격하여 65%의 피해를 줍니다.\n• 마도크는 지각 변동을 일으켜 195%의 피해를 줍니다.\n\nTags: 궁극기, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: {#}%\nWzywasz 3 starożytnych, którzy będą walczyć u twego boku przez 6 sek.\n• Korlik doskakuje do wrogów i zadaje im 104% pkt. obrażeń, a następnie wykonuje serię ciosów bronią, zadając przy każdym trafieniu 39% pkt. obrażeń.\n• Talik wiruje i wykonuje błyskawiczne ataki wymierzone we wrogów, zadając im 65% pkt. obrażeń.\n• Madok rozdziera ziemię pod nogami wrogów, zadając im 195% pkt. obrażeń.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: {#}%\nChama 3 Ancestrais para ajudar você em batalha por 6 segundos.\n• Korlic salta nos inimigos, causando 104% de dano e golpeia com suas armas em um frenesi, causando 39% de dano por acerto.\n• Talic gira em um redemoinho, atacando inimigos rapidamente e causando 65% de dano.\n• Madawc perturba o solo, causando 195% de dano.\n\nTags: Suprema, Dano, Física, Recarga.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: {#}%\nПризывает на помощь 3 Древних на 6 сек.\n• Корлик прыгает на врагов, нанося 104% ед. урона, и бешено размахивает оружием, нанося 39% ед. урона каждым ударом.\n• Талик крутится в вихре стали, быстро нанося врагам по 65% ед. урона.\n• Мадавк сотрясает землю, нанося врагам 195% ед. урона.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: {#}%\n召唤三位先祖协助你进行战斗, 持续 6 秒。\n• 科里克发动腾空斩跃向敌人, 造成 104% 点伤害并狂乱挥舞他的武器, 每一击造成 39% 点伤害。\n• 塔里克发动旋风斩快速攻击敌人, 造成 65% 点伤害。\n• 马道克发动扬石飞沙, 造成 195% 点伤害。\n\nTags: 终极技能, 伤害, 物理, 冷却时间."
+			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 30%\nBeschwört 3 Urahnen, die Euch 6 Sek. lang im Kampf unterstützen.\n• Korlic springt Gegner an, verursacht 104% Schaden und schwingt wild seine Waffen, die 39% Schaden pro Treffer verursachen.\n• Talic wirbelt umher und fügt Gegnern dabei 65% Schaden zu.\n• Madawc wühlt den Boden auf und verursacht 195% Schaden.\n\nTags: Ultimativ, Schaden, Physisch, Abklingzeit.",
+			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 30%\nLlamas a 3 Ancestros para que te ayuden en combate durante 6 s.\n• Korlic salta sobre los enemigos, les inflige 104% de daño y blande frenéticamente sus armas para infligir 39% de daño por golpe.\n• Talic gira como un torbellino y ataca rápidamente para infligir 65% de daño a los enemigos.\n• Madawc levanta el suelo e inflige 195% de daño.\n\nTags: Definitiva, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 30%\nConvoca a 3 Ancestros para que te ayuden en la batalla durante 6 segundos.\n• Korlic salta sobre los enemigos, les inflige 104% de daño y golpea con sus armas en un frenesí, lo que inflige 39% de daño por golpe.\n• Talic gira en un remolino, ataca rápidamente a los enemigos e inflige 65% de daño.\n• Madawc levanta el terreno, lo que inflige 195% de daño.\n\nTags: Máxima, Daño, Física, Recuperación.",
+			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 30%\nVous faites appel à 3 Anciens qui viennent vous aider en combat pendant 6 s.\n• Korlic se jette sur les adversaires en infligeant 104% points de dégâts, et il les frappe frénétiquement avec ses armes en infligeant 39% points de dégâts par coup.\n• Talic attaque en tourbillonnant et inflige 65% points de dégâts aux adversaires.\n• Madawc soulève le sol, ce qui inflige 195% points de dégâts.\n\nTags: Ultime, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 30%\nRichiami 3 Antichi per aiutarti in battaglia per 6 s.\n• Korlic si lancia sui nemici, infliggendo 104% danni e agita la sua arma preso dalla frenesia, infliggendo 39% danni per colpo.\n• Talic gira su se stesso e attacca rapidamente i nemici infliggendo 65% danni.\n• Madawc solleva il terreno, infliggendo 195% danni.\n\nTags: Ultra, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 30%\n3人の古の民を6秒間戦闘に援軍として招集する。\n• コーリックは敵に飛びかかって104%のダメージを与え、猛烈に武器を振るって命中ごとに39%のダメージを与える。\n• タリックは回転して旋風を起こし、敵に素早く攻撃して65%のダメージを与える。\n• マドウクは地面を隆起させ、195%のダメージを与える。\n\nTags: 奥義, ダメージ, 物理, クールダウン.",
+			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 30%\n선조 3명을 소환하여 6초 동안 전투를 돕게 합니다.\n• 콜릭은 적에게 도약하여 104%의 피해를 주고, 광분하며 무기를 휘둘러 적중당 39%의 피해를 줍니다.\n• 탈릭은 소용돌이로 회전하며 적들을 빠르게 공격하여 65%의 피해를 줍니다.\n• 마도크는 지각 변동을 일으켜 195%의 피해를 줍니다.\n\nTags: 궁극기, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 30%\nWzywasz 3 starożytnych, którzy będą walczyć u twego boku przez 6 sek.\n• Korlik doskakuje do wrogów i zadaje im 104% pkt. obrażeń, a następnie wykonuje serię ciosów bronią, zadając przy każdym trafieniu 39% pkt. obrażeń.\n• Talik wiruje i wykonuje błyskawiczne ataki wymierzone we wrogów, zadając im 65% pkt. obrażeń.\n• Madok rozdziera ziemię pod nogami wrogów, zadając im 195% pkt. obrażeń.\n\nTags: Specjalne, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 30%\nChama 3 Ancestrais para ajudar você em batalha por 6 segundos.\n• Korlic salta nos inimigos, causando 104% de dano e golpeia com suas armas em um frenesi, causando 39% de dano por acerto.\n• Talic gira em um redemoinho, atacando inimigos rapidamente e causando 65% de dano.\n• Madawc perturba o solo, causando 195% de dano.\n\nTags: Suprema, Dano, Física, Recarga.",
+			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 30%\nПризывает на помощь 3 Древних на 6 сек.\n• Корлик прыгает на врагов, нанося 104% ед. урона, и бешено размахивает оружием, нанося 39% ед. урона каждым ударом.\n• Талик крутится в вихре стали, быстро нанося врагам по 65% ед. урона.\n• Мадавк сотрясает землю, нанося врагам 195% ед. урона.\n\nTags: Мощное умение, Урон, Физический урон, Время восстановления.",
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 30%\n召唤三位先祖协助你进行战斗, 持续 6 秒。\n• 科里克发动腾空斩跃向敌人, 造成 104% 点伤害并狂乱挥舞他的武器, 每一击造成 39% 点伤害。\n• 塔里克发动旋风斩快速攻击敌人, 造成 65% 点伤害。\n• 马道克发动扬石飞沙, 造成 195% 点伤害。\n\nTags: 终极技能, 伤害, 物理, 冷却时间."
 },
 		id: 103,
 		maxPoints: 1,
-		values: [ "50", "30" ],
+		values: [ "50" ],
 		x: -2.535,
 		y: -280.23
 	},
@@ -4011,7 +4007,7 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 	"Iron Maelstrom": {
 		connections: [ "Ultimate", "Prime Iron Maelstrom" ],
 		description: `Cooldown: {#} seconds
-Lucky Hit Chance: {#}%
+Lucky Hit Chance: 24.167%
 Activate three times to attach chains to each of your weapons and perform an attack:
 • First, your Two-Handed Bludgeoning weapon slams into the ground, dealing 60% damage and Stunning enemies for 2 seconds.
 • Next, your Two-Handed Slashing weapon swipes in front of you, dealing 20% damage and inflicting 120% Bleeding damage over 5 seconds.
@@ -4032,21 +4028,21 @@ Tags: Ultimate, Crowd Control, Bleed, Damage, Physical, Cooldown, Two-Handed, Bl
 			"zhCN": "钢铁漩涡"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: {#}%\nAktiviert diese Fertigkeit dreimal, um Ketten an jeder Eurer Waffen zu befestigen und einen Angriff auszuführen:\n• Zuerst schmettert Ihr Eure zweihändige Wuchtwaffe auf den Boden, wobei Ihr 60% Schaden verursacht und Gegner 2 Sek. lang betäubt.\n• Danach schwingt Ihr Eure zweihändige Hiebwaffe vor Euch umher, wobei Ihr 20% Schaden und im Verlauf von 5 Sek. 120% Blutungsschaden verursacht.\n• Zuletzt schwingen Eure beidhändigen Waffen um Euch herum, wobei sie 32.5% Schaden pro Treffer verursachen.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Hiebwaffe.",
-			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: {#}%\nActiva la habilidad tres veces para acoplar cadenas a cada una de tus armas y ejecutar un ataque:\n• Primero, tu arma contundente de dos manos golpea el suelo para infligir 60% de daño y aturdir a los enemigos durante 2 s.\n• Después, tu arma cortante de dos manos da un tajo frente a ti para infligir 20% de daño y 120% de daño de sangrado durante 5 s.\n• Por último, atacas a tu alrededor con tus armas de doble empuñadura para infligir 32.5% de daño por golpe.\n\nTags: Definitiva, Control de masas, Sangrado, Daño, Física, Tiempo de reutilización, Dos manos, Contundente, Doble empuñadura, Cortante.",
-			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: {#}%\nActiva tres veces para enganchar cadenas a cada una de tus armas y realizar un ataque:\n• Primero, tu arma de impacto de dos manos golpea el suelo, lo que inflige 60% de daño y aturde a los enemigos durante 2 segundos.\n• Después, tu arma blanca de dos manos golpea frente a ti, lo que inflige 20% de daño y 120% de daño de sangrado durante 5 segundos.\n• Finalmente, tus armas de ambidestreza azotan frente a ti e infligen 32.5% de daño por golpe.\n\nTags: Máxima, Control de multitudes, Sangrado, Daño, Física, Recuperación, Dos manos, Impacto, Ambidestreza, Corte.",
-			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: {#}%\nActivez trois fois cette compétence pour attacher des chaînes à chacune de vos armes et effectuer une attaque.\n• D'abord, vous frappez le sol avec votre arme contondante à deux mains, ce qui inflige 60% points de dégâts et étourdit les adversaires pendant 2 s.\n• Ensuite, vous effectuez une attaque de taille devant vous avec votre arme tranchante à deux mains, ce qui inflige 20% points de dégâts à l'impact et 120% points de dégâts de saignement en 5 s.\n• Enfin, vous frappez les adversaires autour de vous avec vos deux armes, ce qui inflige 32.5% points de dégâts par coup.\n\nTags: Ultime, Perte de contrôle, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Arme à deux mains, Arme contondante, Deux armes, Tranchant.",
-			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: {#}%\nAttiva tre volte per mettere delle catene a tutte le tue armi ed eseguire un attacco:\n• Prima la tua arma contundente a due mani colpisce il terreno, infliggendo 60% danni e stordendo i nemici per 2 s.\n• Poi la tua arma tagliente a due mani affonda davanti a te, infliggendo 20% danni e 120% danni da sanguinamento per 5 s.\n• Infine, le tue doppie armi colpiscono attorno a te, infliggendo 32.5% danni per colpo.\n\nTags: Ultra, Effetti debilitanti, Sanguinamento, Danni, Fisico, Tempo di recupero, A due mani, Contundente, Doppia arma, Tagliente.",
-			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: {#}%\n3段階で発動し、各武器に鎖を取り付けて攻撃を行う:\n• 最初は両手持ちの殴打武器に鎖を取り付けて地面を殴りつけ、敵に60%のダメージを与えて2秒間スタンさせる。\n• 次は両手持ちの斬撃武器で前方を薙ぎ払い、20%のダメージを与え、5秒間かけて120%の出血ダメージを与える。•\n最後は二刀流武器を振り回し、命中するごとに32.5%のダメージを与える。\n\nTags: 奥義, 操作障害効果, 出血, ダメージ, 物理, クールダウン, 両手用武器, 殴打, 二刀流, 斬撃.",
-			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: {#}%\n세 번 활성화하여 각각의 무기에 사슬을 달아 공격을 가합니다.\n• 첫 번째로 양손 둔기로 바닥을 내리쳐 60%의 피해를 주고 적을 2초 동안 기절시킵니다.\n• 그 다음, 양손 베는 무기로 전방을 베어 20%의 피해를 주고 5초에 걸쳐 120%의 출혈 피해를 줍니다.\n• 마지막으로, 쌍수 무기를 주위에 휘둘러, 적중당 32.5%의 피해를 줍니다.\n\nTags: 궁극기, 군중 제어, 출혈, 피해, 물리, 재사용 대기시간, 양손 무기, 둔기, 쌍수 무기, 베는 무기.",
-			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: {#}%\nAktywuj 3 razy, aby przytwierdzić łańcuch do swojej broni i wykonać atak:\n• Najpierw uderzasz swoją dwuręczną bronią obuchową w ziemię i zadajesz wrogom 60% pkt. obrażeń oraz ogłuszasz ich na 2 sek.\n• Potem wykonujesz przed sobą zamach dwuręczną bronią sieczną, zadając wrogom 20% pkt. obrażeń i wywołując u nich 120% pkt. obrażeń od krwawienia w ciągu 5 sek.\n• Na koniec wykonujesz wokół siebie atak bronią w każdej ręce i zadajesz przy każdym trafieniu 32.5% pkt. obrażeń.\n\nTags: Specjalne, Ograniczanie Kontroli, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Dwuręczne, Obuchowe, Broń w Każdej Ręce, Sieczne.",
-			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: {#}%\nAtive três vezes para prender correntes a cada uma de suas armas e realizar um ataque:\n• Primeiro, sua arma de concussão de duas mãos golpeia o chão, causando 60% de dano e atordoando inimigos por 2 segundos.\n• Na ativação seguinte, sua arma de corte de duas mãos golpeia à sua frente, causando 20% de dano e aplicando 120% de dano de sangramento ao longo de 5 segundos.\n• Por fim, suas armas de empunhadura dupla golpeiam ao seu redor, causando 32.5% de dano por acerto.\n\nTags: Suprema, Controle de Grupo, Sangramento, Dano, Física, Recarga, Duas mãos, Concussão, Empunhadura Dupla, Corte.",
-			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: {#}%\nВы 3 раза прикрепляете цепи к оружию и атакуете:\n• Сперва вы бьете по земле двуручным дробящим оружием, нанося 60% ед. урона и оглушая врагов на 2 сек.\n• Затем вы раскручиваете двуручное рубящее оружие, нанося 20% ед. урона и нанося 120% ед. урона от кровотечения за 5 сек.\n• И наконец, вы раскручиваете одноручное оружие, нанося 32.5% ед. урона каждым попаданием.\n\nTags: Мощное умение, Контроль, Кровотечение, Урон, Физический урон, Время восстановления, Двуручное, Дробящее оружие, Оружие в каждой руке, Рубящее.",
-			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: {#}%\n在每把武器上附加锁链并实施攻击, 共计三次:\n• 第一次, 你的双手钝击武器猛砸地面, 造成 60% 点伤害并使敌人昏迷 2 秒。\n• 第二次, 你的双手劈砍武器挥向前方, 造成 20% 点伤害并在接下来的 5 秒内造成 120% 点流血伤害。\n• 第三次, 你的双持武器在身边挥舞, 每次命中造成 32.5% 点伤害。\n\nTags: 终极技能, 群控, 流血, 伤害, 物理, 冷却时间, 双手, 钝击, 双持, 劈斩."
+			"deDE": "Abklingzeit: {#} Sek.\nGlückstrefferchance: 24.167%\nAktiviert diese Fertigkeit dreimal, um Ketten an jeder Eurer Waffen zu befestigen und einen Angriff auszuführen:\n• Zuerst schmettert Ihr Eure zweihändige Wuchtwaffe auf den Boden, wobei Ihr 60% Schaden verursacht und Gegner 2 Sek. lang betäubt.\n• Danach schwingt Ihr Eure zweihändige Hiebwaffe vor Euch umher, wobei Ihr 20% Schaden und im Verlauf von 5 Sek. 120% Blutungsschaden verursacht.\n• Zuletzt schwingen Eure beidhändigen Waffen um Euch herum, wobei sie 32.5% Schaden pro Treffer verursachen.\n\nTags: Ultimativ, Kontrollverlust, Blutung, Schaden, Physisch, Abklingzeit, Zweihändig, Wuchtwaffe, Zwei Waffen, Hiebwaffe.",
+			"esES": "Tiempo de reutilización: {#} s\nProbabilidad de golpe de suerte: 24.167%\nActiva la habilidad tres veces para acoplar cadenas a cada una de tus armas y ejecutar un ataque:\n• Primero, tu arma contundente de dos manos golpea el suelo para infligir 60% de daño y aturdir a los enemigos durante 2 s.\n• Después, tu arma cortante de dos manos da un tajo frente a ti para infligir 20% de daño y 120% de daño de sangrado durante 5 s.\n• Por último, atacas a tu alrededor con tus armas de doble empuñadura para infligir 32.5% de daño por golpe.\n\nTags: Definitiva, Control de masas, Sangrado, Daño, Física, Tiempo de reutilización, Dos manos, Contundente, Doble empuñadura, Cortante.",
+			"esMX": "Recuperación: {#} segundos\nProbabilidad de golpe afortunado: 24.167%\nActiva tres veces para enganchar cadenas a cada una de tus armas y realizar un ataque:\n• Primero, tu arma de impacto de dos manos golpea el suelo, lo que inflige 60% de daño y aturde a los enemigos durante 2 segundos.\n• Después, tu arma blanca de dos manos golpea frente a ti, lo que inflige 20% de daño y 120% de daño de sangrado durante 5 segundos.\n• Finalmente, tus armas de ambidestreza azotan frente a ti e infligen 32.5% de daño por golpe.\n\nTags: Máxima, Control de multitudes, Sangrado, Daño, Física, Recuperación, Dos manos, Impacto, Ambidestreza, Corte.",
+			"frFR": "Temps de recharge: {#} s\nChances d'obtenir un coup de chance: 24.167%\nActivez trois fois cette compétence pour attacher des chaînes à chacune de vos armes et effectuer une attaque.\n• D'abord, vous frappez le sol avec votre arme contondante à deux mains, ce qui inflige 60% points de dégâts et étourdit les adversaires pendant 2 s.\n• Ensuite, vous effectuez une attaque de taille devant vous avec votre arme tranchante à deux mains, ce qui inflige 20% points de dégâts à l'impact et 120% points de dégâts de saignement en 5 s.\n• Enfin, vous frappez les adversaires autour de vous avec vos deux armes, ce qui inflige 32.5% points de dégâts par coup.\n\nTags: Ultime, Perte de contrôle, Saignement, Dégâts, Dégâts physiques, Temps de recharge, Arme à deux mains, Arme contondante, Deux armes, Tranchant.",
+			"itIT": "Tempo di recupero: {#} s\nProbabilità di colpo fortunato: 24.167%\nAttiva tre volte per mettere delle catene a tutte le tue armi ed eseguire un attacco:\n• Prima la tua arma contundente a due mani colpisce il terreno, infliggendo 60% danni e stordendo i nemici per 2 s.\n• Poi la tua arma tagliente a due mani affonda davanti a te, infliggendo 20% danni e 120% danni da sanguinamento per 5 s.\n• Infine, le tue doppie armi colpiscono attorno a te, infliggendo 32.5% danni per colpo.\n\nTags: Ultra, Effetti debilitanti, Sanguinamento, Danni, Fisico, Tempo di recupero, A due mani, Contundente, Doppia arma, Tagliente.",
+			"jaJP": "クールダウン: {#}秒\n幸運の一撃発生率: 24.167%\n3段階で発動し、各武器に鎖を取り付けて攻撃を行う:\n• 最初は両手持ちの殴打武器に鎖を取り付けて地面を殴りつけ、敵に60%のダメージを与えて2秒間スタンさせる。\n• 次は両手持ちの斬撃武器で前方を薙ぎ払い、20%のダメージを与え、5秒間かけて120%の出血ダメージを与える。•\n最後は二刀流武器を振り回し、命中するごとに32.5%のダメージを与える。\n\nTags: 奥義, 操作障害効果, 出血, ダメージ, 物理, クールダウン, 両手用武器, 殴打, 二刀流, 斬撃.",
+			"koKR": "재사용 대기시간: {#}초\n행운의 적중 확률: 24.167%\n세 번 활성화하여 각각의 무기에 사슬을 달아 공격을 가합니다.\n• 첫 번째로 양손 둔기로 바닥을 내리쳐 60%의 피해를 주고 적을 2초 동안 기절시킵니다.\n• 그 다음, 양손 베는 무기로 전방을 베어 20%의 피해를 주고 5초에 걸쳐 120%의 출혈 피해를 줍니다.\n• 마지막으로, 쌍수 무기를 주위에 휘둘러, 적중당 32.5%의 피해를 줍니다.\n\nTags: 궁극기, 군중 제어, 출혈, 피해, 물리, 재사용 대기시간, 양손 무기, 둔기, 쌍수 무기, 베는 무기.",
+			"plPL": "Czas odnowienia: {#} sek.\nSzansa na szczęśliwy traf: 24.167%\nAktywuj 3 razy, aby przytwierdzić łańcuch do swojej broni i wykonać atak:\n• Najpierw uderzasz swoją dwuręczną bronią obuchową w ziemię i zadajesz wrogom 60% pkt. obrażeń oraz ogłuszasz ich na 2 sek.\n• Potem wykonujesz przed sobą zamach dwuręczną bronią sieczną, zadając wrogom 20% pkt. obrażeń i wywołując u nich 120% pkt. obrażeń od krwawienia w ciągu 5 sek.\n• Na koniec wykonujesz wokół siebie atak bronią w każdej ręce i zadajesz przy każdym trafieniu 32.5% pkt. obrażeń.\n\nTags: Specjalne, Ograniczanie Kontroli, Krwawienie, Obrażenia, Fizyczne, Odnowienie, Dwuręczne, Obuchowe, Broń w Każdej Ręce, Sieczne.",
+			"ptBR": "Recarga: {#} segundos\nChance de Golpe de Sorte: 24.167%\nAtive três vezes para prender correntes a cada uma de suas armas e realizar um ataque:\n• Primeiro, sua arma de concussão de duas mãos golpeia o chão, causando 60% de dano e atordoando inimigos por 2 segundos.\n• Na ativação seguinte, sua arma de corte de duas mãos golpeia à sua frente, causando 20% de dano e aplicando 120% de dano de sangramento ao longo de 5 segundos.\n• Por fim, suas armas de empunhadura dupla golpeiam ao seu redor, causando 32.5% de dano por acerto.\n\nTags: Suprema, Controle de Grupo, Sangramento, Dano, Física, Recarga, Duas mãos, Concussão, Empunhadura Dupla, Corte.",
+			"ruRU": "Время восстановления: {#} сек.\nВероятность удачного удара: 24.167%\nВы 3 раза прикрепляете цепи к оружию и атакуете:\n• Сперва вы бьете по земле двуручным дробящим оружием, нанося 60% ед. урона и оглушая врагов на 2 сек.\n• Затем вы раскручиваете двуручное рубящее оружие, нанося 20% ед. урона и нанося 120% ед. урона от кровотечения за 5 сек.\n• И наконец, вы раскручиваете одноручное оружие, нанося 32.5% ед. урона каждым попаданием.\n\nTags: Мощное умение, Контроль, Кровотечение, Урон, Физический урон, Время восстановления, Двуручное, Дробящее оружие, Оружие в каждой руке, Рубящее.",
+			"zhCN": "冷却时间: {#} 秒\n幸运一击几率: 24.167%\n在每把武器上附加锁链并实施攻击, 共计三次:\n• 第一次, 你的双手钝击武器猛砸地面, 造成 60% 点伤害并使敌人昏迷 2 秒。\n• 第二次, 你的双手劈砍武器挥向前方, 造成 20% 点伤害并在接下来的 5 秒内造成 120% 点流血伤害。\n• 第三次, 你的双持武器在身边挥舞, 每次命中造成 32.5% 点伤害。\n\nTags: 终极技能, 群控, 流血, 伤害, 物理, 冷却时间, 双手, 钝击, 双持, 劈斩."
 },
 		id: 106,
 		maxPoints: 1,
-		values: [ "60", "40" ],
+		values: [ "60" ],
 		x: -539.3,
 		y: -1.915
 	},
