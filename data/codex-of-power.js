@@ -4858,8 +4858,8 @@ let codexData = {
 					"zhCN": "在非健康状态下被命中, 会在你周围召唤一个魔法泡, 持续 {3/5} 秒。站在该魔法泡中, 玩家免疫所有攻击。每 90.0 秒只能生效一次。",
 					"zhTW": "在不健康時被擊中,會在你周圍形成魔法護罩,持續 {3/5} 秒。玩家站在護罩內會獲得免疫。每 90.0 秒只能觸發一次。"
 				},
-				"dungeon": "Caldera Gate",
-				"region": "Fractured Peaks"
+				"dungeon": "",
+				"region": ""
 			},
 			"Aspect of Disobedience": {
 				"id": 1,

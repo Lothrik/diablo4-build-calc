@@ -26,8 +26,8 @@ let codexValues = {
 				"values": []
 			},
 			"Protecting Aspect": {
-				"dungeon": "Caldera Gate",
-				"region": "Fractured Peaks",
+				"dungeon": "",
+				"region": "",
 				"values": []
 			},
 			"Aspect of the Protector": {
