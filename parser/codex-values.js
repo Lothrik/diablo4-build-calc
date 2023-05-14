@@ -70,7 +70,7 @@ let codexValues = {
 				"values": []
 			},
 			"Rapid Aspect": {
-				"dungeon": "",
+				"dungeon": "Buried Halls",
 				"region": "Dry Steppes",
 				"values": []
 			},
@@ -188,7 +188,7 @@ let codexValues = {
 	"Barbarian": {
 		"Defensive": {
 			"Aspect of Bul-Kathos": {
-				"dungeon": "",
+				"dungeon": "Light's Refuge",
 				"region": "Hawezar",
 				"values": [
 					""
@@ -200,7 +200,7 @@ let codexValues = {
 				"values": []
 			},
 			"Aspect of Numbing Wrath": {
-				"dungeon": "",
+				"dungeon": "Heathen's Keep",
 				"region": "Hawezar",
 				"values": [
 					""
@@ -228,7 +228,7 @@ let codexValues = {
 		},
 		"Offensive": {
 			"Aspect of Ancestral Echoes": {
-				"dungeon": "",
+				"dungeon": "Ancient Reservoir",
 				"region": "Hawezar",
 				"values": []
 			},
@@ -243,7 +243,7 @@ let codexValues = {
 				"values": []
 			},
 			"Brawler's Aspect": {
-				"dungeon": "",
+				"dungeon": "Haunted Refuge",
 				"region": "Hawezar",
 				"values": [
 					""
@@ -374,7 +374,7 @@ let codexValues = {
 		},
 		"Resource": {
 			"Aspect of Echoing Fury": {
-				"dungeon": "",
+				"dungeon": "Sirocco Caverns",
 				"region": "Kehjistan",
 				"values": []
 			},
@@ -416,8 +416,8 @@ let codexValues = {
 		},
 		"Mobility": {
 			"Aspect of Perpetual Stomping": {
-				"dungeon": "",
-				"region": "",
+				"dungeon": "Charnel House",
+				"region": "Dry Steppes",
 				"values": []
 			}
 		},
@@ -454,7 +454,7 @@ let codexValues = {
 				]
 			},
 			"Vigorous Aspect": {
-				"dungeon": "",
+				"dungeon": "Steadfast Barracks",
 				"region": "Hawezar",
 				"values": []
 			},
@@ -472,8 +472,8 @@ let codexValues = {
 				]
 			},
 			"Aspect of Cyclonic Force": {
-				"dungeon": "",
-				"region": "",
+				"dungeon": "Collapsed Vault",
+				"region": "Kehjistan",
 				"values": []
 			}
 		},
@@ -709,7 +709,7 @@ let codexValues = {
 		},
 		"Offensive": {
 			"Blighted Aspect": {
-				"dungeon": "",
+				"dungeon": "Akkhan's Grasp",
 				"region": "Hawezar",
 				"values": []
 			},
@@ -872,7 +872,7 @@ let codexValues = {
 		},
 		"Utility": {
 			"Torturous Aspect": {
-				"dungeon": "",
+				"dungeon": "Deserted Underpass",
 				"region": "Kehjistan",
 				"values": []
 			},
@@ -909,7 +909,7 @@ let codexValues = {
 		},
 		"Resource": {
 			"Fastblood Aspect": {
-				"dungeon": "",
+				"dungeon": "Iron Hold",
 				"region": "Hawezar",
 				"values": []
 			},
@@ -934,8 +934,8 @@ let codexValues = {
 				"values": []
 			},
 			"Aspect of Torment": {
-				"dungeon": "",
-				"region": "",
+				"dungeon": "Black Asylum",
+				"region": "Fractured Peaks",
 				"values": []
 			},
 			"Aspect of Exposed Flesh": {
@@ -1054,7 +1054,7 @@ let codexValues = {
 				"values": []
 			},
 			"Trickster's Aspect": {
-				"dungeon": "",
+				"dungeon": "Bastion of Faith",
 				"region": "Dry Steppes",
 				"values": [
 					""

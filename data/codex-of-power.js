@@ -261,7 +261,7 @@ let codexData = {
 					"zhCN": "幸运一击: 使用腾空斩、扬石飞沙或旋风斩对敌人造成伤害时, 最多有 {40/50}% 几率召唤一位先祖施放相同的技能。该效果每 5.0 秒只能触发一次。",
 					"zhTW": "幸運觸發:使用躍擊、動盪震擊或旋風斬攻擊敵人時,最高有 {40/50}% 機率召喚先祖施展相同技能。每 5.0 秒只能觸發一次。"
 				},
-				"dungeon": "",
+				"dungeon": "Ancient Reservoir",
 				"region": "Hawezar"
 			},
 			"Brawler's Aspect": {
@@ -296,7 +296,7 @@ let codexData = {
 					"zhCN": "敌人在受到踢击或冲锋伤害后, 若在接下来的 2.0 秒内并死亡将会发生爆炸, 对周围敌人造成 {#} 点伤害。",
 					"zhTW": "敵人受到踢擊或衝鋒傷害後,若在 2.0 秒內死亡就會爆炸,對附近敵人造成 {#} 點傷害。"
 				},
-				"dungeon": "",
+				"dungeon": "Haunted Refuge",
 				"region": "Hawezar",
 				"values": [
 					""
@@ -1218,7 +1218,7 @@ let codexData = {
 					"zhCN": "怒气达到最大时, 每生成一点怒气, 给予 {#} 点强固。",
 					"zhTW": "怒氣全滿時,產生的每一點怒氣都會賦予 {#} 點強韌。"
 				},
-				"dungeon": "",
+				"dungeon": "Heathen's Keep",
 				"region": "Hawezar",
 				"values": [
 					""
@@ -1256,7 +1256,7 @@ let codexData = {
 					"zhCN": "腾空斩制造一次撼地重击, 在 4 秒内造成 {#} 点物理伤害。站在撼地重击范围内时, 你获得 {5/15}% 伤害减免。",
 					"zhTW": "躍擊會產生裂地之震,在 4 秒內造成 {#} 點物理傷害。當你處於裂地之震範圍內時,可獲得 {5/15}% 傷害減免。"
 				},
-				"dungeon": "",
+				"dungeon": "Light's Refuge",
 				"region": "Hawezar",
 				"values": [
 					""
@@ -1510,7 +1510,7 @@ let codexData = {
 					"zhCN": "你的怒吼技能激活时每秒生成 {2/4} 点怒气。",
 					"zhTW": "在你的怒吼技能持續期間內,每秒產生 {2/4} 點怒氣。"
 				},
-				"dungeon": "",
+				"dungeon": "Sirocco Caverns",
 				"region": "Kehjistan"
 			},
 			"Aspect of Giant Strides": {
@@ -1792,8 +1792,8 @@ let codexData = {
 					"zhCN": "使用踢击或大地践踏对一名敌人造成伤害会重置腾空斩的冷却时间。",
 					"zhTW": "使用踢擊或震地踐踏傷害敵人時,會重置躍擊冷卻時間。"
 				},
-				"dungeon": "",
-				"region": ""
+				"dungeon": "Charnel House",
+				"region": "Dry Steppes"
 			}
 		}
 	},
@@ -3447,8 +3447,8 @@ let codexData = {
 					"zhCN": "旋风甲也会提供物理伤害减免。此外, 你也会对所有附近盟友施加旋风甲。",
 					"zhTW": "氣旋護甲會提供物理傷害減免。此外,氣旋護甲也會施加於附近所有盟友。"
 				},
-				"dungeon": "",
-				"region": ""
+				"dungeon": "Collapsed Vault",
+				"region": "Kehjistan"
 			},
 			"Vigorous Aspect": {
 				"id": 40,
@@ -3482,7 +3482,7 @@ let codexData = {
 					"zhCN": "变形成狼人时, 获得 {10/15}% 伤害减免。",
 					"zhTW": "變形成狼人時,獲得 {10/15}% 傷害減免。"
 				},
-				"dungeon": "",
+				"dungeon": "Steadfast Barracks",
 				"region": "Hawezar"
 			},
 			"Earthguard Aspect": {
@@ -3797,7 +3797,7 @@ let codexData = {
 					"zhCN": "基础技能获得 +{15/30}% 攻击速度加成。",
 					"zhTW": "基本技能獲得 +{15/30}% 攻擊速度。"
 				},
-				"dungeon": "",
+				"dungeon": "Buried Halls",
 				"region": "Dry Steppes"
 			},
 			"Edgemaster's Aspect": {
@@ -5661,7 +5661,7 @@ let codexData = {
 					"zhCN": "暗影凋零关键被动效果对敌人造成 10.0 次伤害后, 你造成的伤害提高 x{50/120}%, 持续 6.0 秒。",
 					"zhTW": "在暗影荒疫關鍵被動技能對敵人造成傷害 10.0 次後,你造成的傷害提高 x{50/120}%,持續 6.0 秒。"
 				},
-				"dungeon": "",
+				"dungeon": "Akkhan's Grasp",
 				"region": "Hawezar"
 			},
 			"Aspect of the Damned": {
@@ -6546,7 +6546,7 @@ let codexData = {
 					"zhCN": "受你的铁处女影响的敌人在其造成直接伤害时, 有 {15/25}% 几率陷入昏迷, 持续 1.0 秒。",
 					"zhTW": "被你攻擊反噬影響的敵人在造成直接攻擊時,有 {15/25}% 機率被擊昏 1.0 秒。"
 				},
-				"dungeon": "",
+				"dungeon": "Deserted Underpass",
 				"region": "Kehjistan"
 			},
 			"Bloodless Scream": {
@@ -6667,8 +6667,8 @@ let codexData = {
 					"zhCN": "使用白骨技能造成暴击使你的精魂回复速度提高 x{20/30}%, 持续 [Affix.\"Affix Value 0\"] 秒。",
 					"zhTW": "骸骨技能爆擊時,魂能恢復提高 x{20/30}%,持續 [Affix.\"Affix Value 0\"] 秒。"
 				},
-				"dungeon": "",
-				"region": ""
+				"dungeon": "Black Asylum",
+				"region": "Fractured Peaks"
 			},
 			"Aspect of Exposed Flesh": {
 				"id": 212,
@@ -6737,7 +6737,7 @@ let codexData = {
 					"zhCN": "生命球使你的终极技能的冷却时间缩短 {0.5/1} 秒。",
 					"zhTW": "生命之球會縮短絕招冷卻時間 {0.5/1} 秒。"
 				},
-				"dungeon": "",
+				"dungeon": "Iron Hold",
 				"region": "Hawezar"
 			},
 			"Aspect of Potent Blood": {
@@ -7204,7 +7204,7 @@ let codexData = {
 					"zhCN": "铁蒺藜也会扔下一串会爆炸的昏迷手雷, 对敌人造成总计 {#} 点物理伤害, 并使其昏迷 0.5 秒。",
 					"zhTW": "釘爪刺會留下震撼榴彈,爆炸後總共造成 {#} 點物理傷害,並擊昏敵人 0.5 秒。"
 				},
-				"dungeon": "",
+				"dungeon": "Bastion of Faith",
 				"region": "Dry Steppes",
 				"values": [
 					""
