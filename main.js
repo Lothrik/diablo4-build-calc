@@ -1198,10 +1198,10 @@ function onDragAllMove(event) {
 	}
 	if (pixiTooltip.children.length > 0) repositionTooltip();
 }
-function onMouseOver(event) {
+function onMouseOverNode(event) {
 	if ($("#fadeOverlay").hasClass("disabled")) drawTooltip(this);
 }
-function onMouseOut(event) {
+function onMouseOverBackground(event) {
 	if (!pixiDragging) eraseTooltip();
 }
 function resetParagonBoard(boardHeader) {
@@ -2396,9 +2396,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			.on("touchendoutside", onDragEnd)
 			.on("mousemove", onDragMove)
 			.on("touchmove", onDragMove)
-			.on("mouseover", onMouseOver)
-			.on("mouseout", onMouseOut)
-			.on("tap", onMouseOver);
+			.on("mouseover", onMouseOverNode)
+			.on("tap", onMouseOverNode);
 
 		if (maxPoints == 1) {
 			if (nodeData.get("nodeType") == "Socket") {
@@ -3426,6 +3425,8 @@ function rebuildCanvas() {
 	pixiEventQueue = [];
 
 	pixiBackground = PIXI.Sprite.from(PIXI.Texture.EMPTY);
+	pixiBackground.on("mouseover", onMouseOverBackground);
+
 	pixiTooltip = new PIXI.Container();
 	pixiDragging = null;
 
