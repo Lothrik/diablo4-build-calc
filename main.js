@@ -941,6 +941,7 @@ function handleSearchInput(event) {
 				[nodeX, nodeY] = [nodeX + nodeMatch.parent.x, nodeY + nodeMatch.parent.y];
 			}
 
+			resetFrameTimer();
 			pixiJS.stage.pivot.set(nodeX - oldWidth / pixiJS.stage.scale.x * 0.5, nodeY - oldHeight / pixiJS.stage.scale.y * 0.5);
 			drawTooltip(nodeMatch);
 		}
