@@ -134,7 +134,7 @@ function levenshteinDistance(str1 = "", str2 = "") {
 		}
 	}
 	return track[len2][len1];
-};
+}
 
 function namedConnections(rawConnections, currentNode, classData, fallbackNode) {
 	let namedConnections = "";
