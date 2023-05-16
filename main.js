@@ -180,8 +180,8 @@ const COLOR_OVERRIDE = {
 	"Magic": 0x0077FF,
 	"Rare": 0xFFFF00,
 	"Legendary": 0xFF7700,
-	"Start": 0xFF0000,
-	"Gate": 0xFF0000,
+	"Start": 0xFFFF00,
+	"Gate": 0xFFFF00,
 	"Socket": 0xFF00FF,
 	"Allocated": 0xFF0000,
 	"Allocated Socket": 0xFF00FF
