@@ -135,6 +135,10 @@ const BUILD_LOAD_ERROR_SUFFIX = `"; have you tried reloading the page?`;
 const DESIRED_ZOOM_LEVEL_PROMPT = "Please enter your desired UI zoom level (min: 0.25, max: 4):\nThis applies mostly to buttons, including the one you just clicked.";
 const DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT = "Please enter your desired tooltip zoom level (min: 0.25, max: 4):\nThis applies exclusively to node tooltips drawn inside the canvas.";
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
+const UPDATE_AVAILABLE_TEXT = "An updated version is available, refresh the page (Ctrl+F5)!";
+const UPDATE_AVAILABLE_LABEL_TEXT = "[Update!]";
+const OVERCAPPED_TEXT = "Your build currently has too many points allocated somewhere and is considered invalid!";
+const OVERCAPPED_LABEL_TEXT = "[Error!]";
 const TOOLTIP_COPY_TEXT = "[Copy to Clipboard]";
 const TOOLTIP_COPIED_TEXT = "[Copied!]";
 const OPEN_MENU_TEXT = "Open Menu";
@@ -705,7 +709,7 @@ function handleVersionLabel(event) {
 function handleVersionInterval() {
 	$.get(`VERSION?t=${Date.now()}`, null, versionData => {
 		if (versionCompare(localVersion, versionData) == -1) {
-			$("#versionLabel").text(" [Update!]").css("cursor", "pointer");
+			$("#versionLabel").html(` <span class="green" title="${UPDATE_AVAILABLE_TEXT}">${UPDATE_AVAILABLE_LABEL_TEXT}</span>`).css("cursor", "pointer");
 			clearInterval(versionInterval);
 		} else {
 			$("#versionLabel").text(` [${localVersion.split("-")[0]}]`).css("cursor", "auto");
@@ -1101,28 +1105,20 @@ function handleReloadButton() {
 
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 				const maxPoints = curNode.nodeData.get("maxPoints");
+				const newPoints = Math.max(Math.min(savedPoints, maxPoints), 0);
 
-				let newPoints = Math.max(Math.min(savedPoints, maxPoints), 0);
 				if (curNode.groupName == PARAGON_BOARD) {
-					newPoints = Math.min(newPoints, getUnusedPoints(true) + allocatedPoints);
-				} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
-					newPoints = Math.min(newPoints, getUnusedPoints(false) + allocatedPoints);
-				}
-
-				if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
-					if (curNode.groupName == PARAGON_BOARD) {
-						let paragonNodeValue = 1;
-						if (curNode.nodeName == "Board Attachment Gate") {
-							paragonNodeValue = 0.5;
-						} else if (curNode.nodeName == "Paragon Starting Node") {
-							paragonNodeValue = 0;
-						}
-						pixiAllocatedParagonPoints += (newPoints - allocatedPoints) * paragonNodeValue;
-					} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
-						pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
+					let paragonNodeValue = 1;
+					if (curNode.nodeName == "Board Attachment Gate") {
+						paragonNodeValue = 0.5;
+					} else if (curNode.nodeName == "Paragon Starting Node") {
+						paragonNodeValue = 0;
 					}
-					updateNodePoints(curNode, newPoints);
+					pixiAllocatedParagonPoints += (newPoints - allocatedPoints) * paragonNodeValue;
+				} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+					pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 				}
+				updateNodePoints(curNode, newPoints);
 			}
 
 			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
@@ -1555,21 +1551,26 @@ function updateCharacterLevel() {
 	const maxRenownLevel = 10;
 
 	if (unusedPoints >= maxRenownLevel) {
-		charLevel = 1 + maxSkillPoints - unusedPoints;
+		charLevel = 1 + maxSkillPoints - Math.max(unusedPoints, 0);
 	} else {
 		charLevel = 50;
-		renownLevel = maxRenownLevel - unusedPoints;
+		renownLevel = maxRenownLevel - Math.max(unusedPoints, 0);
 	}
 
 	if (unusedParagonPoints < 21) {
 		charLevel = 100;
-		renownLevel += 20 - unusedParagonPoints;
+		renownLevel += 20 - Math.max(unusedParagonPoints, 0);
 	} else if (unusedParagonPoints < 221) {
 		charLevel = 49 + Math.ceil((221 - unusedParagonPoints) / 4);
 	}
 
+
 	$("#charLevel").text(charLevel);
-	$("#renownLevel").text(renownLevel > 0 ? " (Renown " + renownLevel + ")" : "");
+	if (unusedPoints < 0 || unusedParagonPoints < 0) {
+		$("#renownLevel").html((renownLevel > 0 ? ` (Renown ${renownLevel})` : "") + ` <span class="red" title="${OVERCAPPED_TEXT}">${OVERCAPPED_LABEL_TEXT}</span>`);
+	} else {
+		$("#renownLevel").text(renownLevel > 0 ? ` (Renown ${renownLevel})` : "");
+	}
 
 	refreshDetailsWindow();
 }
