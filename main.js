@@ -1599,7 +1599,13 @@ function canAllocate(curNode) {
 	if ([ULTIMATE, KEY_PASSIVE, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 		return true;
 	} else if (curNode.groupName == PARAGON_BOARD) {
-		return getUnusedPoints(true) > 0;
+		let paragonNodeValue = 1;
+		if (curNode.nodeName == "Board Attachment Gate") {
+			paragonNodeValue = 0.5;
+		} else if (curNode.nodeName == "Paragon Starting Node") {
+			paragonNodeValue = 0;
+		}
+		return getUnusedPoints(true) >= paragonNodeValue;
 	}
 	return true;
 }
