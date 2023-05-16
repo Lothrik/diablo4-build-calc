@@ -1117,7 +1117,7 @@ function handleReloadButton() {
 						} else if (curNode.nodeName == "Paragon Starting Node") {
 							paragonNodeValue = 0;
 						}
-						pixiAllocatedParagonPoints = pixiAllocatedParagonPoints - (allocatedPoints * paragonNodeValue) + (newPoints * paragonNodeValue);
+						pixiAllocatedParagonPoints += (newPoints - allocatedPoints) * paragonNodeValue;
 					} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 						pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 					}
