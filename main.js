@@ -276,7 +276,7 @@ var pixiTooltip = new PIXI.Container();
 var pixiDragging = null;
 
 var debugMode = false;
-var detailsMode = readCookie("detailsMode") == "true" ? true : false;
+var detailsMode = readCookie("detailsMode") == "false" ? false : true;
 var clampMode = readCookie("clampMode") == "true" ? true : false;
 
 var detailsWindowIsMoving = false;
