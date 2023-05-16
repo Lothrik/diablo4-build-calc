@@ -1564,7 +1564,6 @@ function updateCharacterLevel() {
 		charLevel = 49 + Math.ceil((221 - unusedParagonPoints) / 4);
 	}
 
-
 	$("#charLevel").text(charLevel);
 	if (unusedPoints < 0 || unusedParagonPoints < 0) {
 		$("#renownLevel").html((renownLevel > 0 ? ` (Renown ${renownLevel})` : "") + ` <span class="red" title="${OVERCAPPED_TEXT}">${OVERCAPPED_LABEL_TEXT}</span>`);
