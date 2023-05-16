@@ -696,7 +696,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-2";
+const localVersion = "0.9.0.41428-3";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1111,7 +1111,13 @@ function handleReloadButton() {
 
 				if (newPoints < allocatedPoints || (newPoints != allocatedPoints && canAllocate(curNode))) {
 					if (curNode.groupName == PARAGON_BOARD) {
-						pixiAllocatedParagonPoints = pixiAllocatedParagonPoints - allocatedPoints + newPoints;
+						let paragonNodeValue = 1;
+						if (curNode.nodeName == "Board Attachment Gate") {
+							paragonNodeValue = 0.5;
+						} else if (curNode.nodeName == "Paragon Starting Node") {
+							paragonNodeValue = 0;
+						}
+						pixiAllocatedParagonPoints = pixiAllocatedParagonPoints - (allocatedPoints * paragonNodeValue) + (newPoints * paragonNodeValue);
 					} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
 						pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 					}
@@ -1790,7 +1796,13 @@ function handlePlusButton(curNode) {
 			updateNodePoints(curNode, newPoints);
 			if (curNode.groupName == PARAGON_BOARD) {
 				updateParagonAttributes(curNode, newPoints - allocatedPoints);
-				pixiAllocatedParagonPoints++;
+				let paragonNodeValue = 1;
+				if (curNode.nodeName == "Board Attachment Gate") {
+					paragonNodeValue = 0.5;
+				} else if (curNode.nodeName == "Paragon Starting Node") {
+					paragonNodeValue = 0;
+				}
+				pixiAllocatedParagonPoints += paragonNodeValue;
 				updateCharacterLevel();
 				if (curNode.nodeData.get("nodeType") == "Gate") equipParagonBoard(curNode);
 			}
@@ -1879,7 +1891,13 @@ function handleMinusButton(curNode) {
 			updateNodePoints(curNode, newPoints);
 			if (curNode.groupName == PARAGON_BOARD) {
 				updateParagonAttributes(curNode, newPoints - allocatedPoints);
-				pixiAllocatedParagonPoints--;
+				let paragonNodeValue = 1;
+				if (curNode.nodeName == "Board Attachment Gate") {
+					paragonNodeValue = 0.5;
+				} else if (curNode.nodeName == "Paragon Starting Node") {
+					paragonNodeValue = 0;
+				}
+				pixiAllocatedParagonPoints -= paragonNodeValue;
 				updateCharacterLevel();
 			}
 		}
