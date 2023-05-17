@@ -2013,7 +2013,7 @@
 						"stat_dword": 955625
 					},
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
 								1.0,
@@ -2025,7 +2025,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage With TwoHandedSlashing\n+4% Damage to Vulnerable Enemies",
+				"desc": "+10% Damage With TwoHandedSlashing\n+4% Vulnerable Damage",
 				"name": "Destroyer",
 				"tags": [
 					"Keyword_Vulnerable"
@@ -2235,7 +2235,7 @@
 						"Skill_Primary_Basic",
 						"Skill_DualWield"
 					],
-					"skill_desc": "Generate Fury: 5\nLucky Hit Chance: 30%\nUnleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits.\n\nIf Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 5\nLucky Hit Chance: 30%\nUnleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits.\n\nIf Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.",
 					"skill_name": "Frenzy",
 					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%."
 				},
@@ -2320,7 +2320,7 @@
 					"power_tags": [
 						"Skill_Primary_Core"
 					],
-					"skill_desc": "Fury Cost: 40\nLucky Hit Chance: 20%\nTear into the ground with your weapon and fling debris forward, dealing {70/77/84/91/98/105/112/119/126/133}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.1\nFury Cost: 40\nLucky Hit Chance: 20%\nTear into the ground with your weapon and fling debris forward, dealing {70/77/84/91/98/105/112/119/126/133}% damage.",
 					"skill_name": "Upheaval",
 					"skill_rankup_desc": "• Damage 🡑 {70/77/84/91/98/105/112/119/126/133}%."
 				},
@@ -2348,7 +2348,7 @@
 					"power_tags": [
 						"Skill_Primary_Basic"
 					],
-					"skill_desc": "Generate Fury: 9\nLucky Hit Chance: 50%\nLunge forward and strike an enemy for {30/33/36/39/42/45/48/51/54/57}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 9\nLucky Hit Chance: 50%\nLunge forward and strike an enemy for {30/33/36/39/42/45/48/51/54/57}% damage.",
 					"skill_name": "Lunging Strike",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%."
 				},
@@ -2377,7 +2377,7 @@
 						"Skill_Primary_Core",
 						"Skill_Bludgeoning"
 					],
-					"skill_desc": "Fury Cost: 35\nLucky Hit Chance: 40%\nSlam your hammer down with the fury of the Ancients, dealing {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}% damage to a concentrated area.",
+					"skill_desc": "Attack Speed Multiplier: 1.1\nFury Cost: 35\nLucky Hit Chance: 40%\nSlam your hammer down with the fury of the Ancients, dealing {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}% damage to a concentrated area.",
 					"skill_name": "Hammer of the Ancients",
 					"skill_rankup_desc": "• Damage 🡑 {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}%."
 				},
@@ -2406,7 +2406,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Bludgeoning"
 					],
-					"skill_desc": "Generate Fury: 10\nLucky Hit Chance: 50%\nBash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 10\nLucky Hit Chance: 50%\nBash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.",
 					"skill_name": "Bash",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%."
 				},
@@ -5448,7 +5448,7 @@
 						"Skill_Primary_Brawling",
 						"Keyword_Unstoppable"
 					],
-					"skill_desc": "Cooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33%\nBecome Unstoppable and rush forward, pushing enemies with you then swinging through them for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking them Back.",
+					"skill_desc": "Attack Speed Multiplier: 1.5\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33%\nBecome Unstoppable and rush forward, pushing enemies with you then swinging through them for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking them Back.",
 					"skill_name": "Charge",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%.\n• Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds."
 				},
@@ -5476,7 +5476,7 @@
 					"power_tags": [
 						"Skill_Primary_Brawling"
 					],
-					"skill_desc": "Cooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33%\nLeap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% damage and Knocking Back surrounding enemies on impact.",
+					"skill_desc": "Attack Speed Multiplier: 1.3\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33%\nLeap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% damage and Knocking Back surrounding enemies on impact.",
 					"skill_name": "Leap",
 					"skill_rankup_desc": "• Damage 🡑 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%.\n• Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds."
 				},
@@ -6951,7 +6951,7 @@
 			"Druid_Rare_003": {
 				"attributes": {
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -6974,13 +6974,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage to Vulnerable Enemies\n+10 Willpower",
+				"desc": "+10% Vulnerable Damage\n+10 Willpower",
 				"name": "Deluge",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Vulnerable Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -7561,7 +7561,7 @@
 						"stat_dword": 1417890049
 					},
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
 								1.0,
@@ -7573,7 +7573,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Skill_Nature_Magic_Storm Skill Damage\n+4% Damage to Vulnerable Enemies",
+				"desc": "+10% Skill_Nature_Magic_Storm Skill Damage\n+4% Vulnerable Damage",
 				"name": "Stormcaller",
 				"tags": [
 					"Skill_Nature_Magic_Storm",
@@ -7932,7 +7932,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Earth"
 					],
-					"skill_desc": "Cooldown: 10 seconds\nLucky Hit Chance: 20%\nUnearth a large rolling boulder that Knocks Back and crushes enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nCooldown: 10 seconds\nLucky Hit Chance: 20%\nUnearth a large rolling boulder that Knocks Back and crushes enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.",
 					"skill_name": "Boulder",
 					"skill_rankup_desc": "• Damage 🡑 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%"
 				},
@@ -8254,7 +8254,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Earth"
 					],
-					"skill_desc": "Spirit Cost: 30\nLucky Hit Chance: 20%\nCrush enemies between 3 pillars of earth, dealing up to {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nSpirit Cost: 30\nLucky Hit Chance: 20%\nCrush enemies between 3 pillars of earth, dealing up to {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage.",
 					"skill_name": "Landslide",
 					"skill_rankup_desc": "• Damage 🡑 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%"
 				},
@@ -8313,7 +8313,7 @@
 						"Skill_Shapeshifting",
 						"Skill_Wolf"
 					],
-					"skill_desc": "Generate Spirit: 9\nLucky Hit Chance: 50%\nShapeshift into a Werewolf and claw at an enemy for {20/22/24/26/28/30/32/34/36/38}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.1\nGenerate Spirit: 9\nLucky Hit Chance: 50%\nShapeshift into a Werewolf and claw at an enemy for {20/22/24/26/28/30/32/34/36/38}% damage.",
 					"skill_name": "Claw",
 					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
@@ -8456,7 +8456,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Earth"
 					],
-					"skill_desc": "Generate Spirit: 8\nLucky Hit Chance: 25%\nSunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.5\nGenerate Spirit: 8\nLucky Hit Chance: 25%\nSunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.",
 					"skill_name": "Earthspike",
 					"skill_rankup_desc": "• Damage 🡑 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%"
 				},
@@ -16641,7 +16641,7 @@
 			"Generic_Magic_DamageToVulnerable": {
 				"attributes": {
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.0,
@@ -16653,7 +16653,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+5% Damage to Vulnerable Enemies",
+				"desc": "+5% Vulnerable Damage",
 				"name": "Damage To Vulnerable",
 				"tags": [
 					"Keyword_Vulnerable"
@@ -18277,7 +18277,7 @@
 						"stat_dword": 4294967295
 					},
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -18289,13 +18289,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage to Vulnerable Enemies\n+2% Armor",
+				"desc": "+10% Vulnerable Damage\n+2% Armor",
 				"name": "Pillage",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Armor"
 				],
-				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Vulnerable Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Strength and {170 + (90 * ParagonBoardEquipIndex)} Willpower"
@@ -18956,7 +18956,7 @@
 						"stat_dword": 4294967295
 					},
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMinorOffensive()": [
 								1.0,
@@ -18968,7 +18968,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+15% Critical Strike Damage\n+4% Damage to Vulnerable Enemies",
+				"desc": "+15% Critical Strike Damage\n+4% Vulnerable Damage",
 				"name": "Tempest",
 				"tags": [
 					"Search_Critical",
@@ -19142,7 +19142,7 @@
 			"Generic_Rare_049": {
 				"attributes": {
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -19166,13 +19166,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage to Vulnerable Enemies\n+10% Damage to Injured Enemies",
+				"desc": "+10% Vulnerable Damage\n+10% Damage to Injured Enemies",
 				"name": "Exploit",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Critical"
 				],
-				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Vulnerable Damage",
 				"threshold_requirements": {
 					"Rogue": [
 						"{220 + (130 * ParagonBoardEquipIndex)} Dexterity and {170 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -19849,7 +19849,7 @@
 			"Generic_Rare_070": {
 				"attributes": {
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -19872,13 +19872,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage to Vulnerable Enemies\n+10 Strength",
+				"desc": "+10% Vulnerable Damage\n+10 Strength",
 				"name": "Demolish",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Search_Strength"
 				],
-				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Vulnerable Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -24867,7 +24867,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Shadow"
 					],
-					"skill_desc": "Generate Essence: 4 per enemy hit\nLucky Hit Chance: 16.667%\nSweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15% for 2 seconds.",
+					"skill_desc": "Attack Speed Multiplier: 0.8\nGenerate Essence: 4 per enemy hit\nLucky Hit Chance: 16.667%\nSweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15% for 2 seconds.",
 					"skill_name": "Reap",
 					"skill_rankup_desc": "• Damage 🡑 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%"
 				},
@@ -33709,7 +33709,7 @@
 			"Sorcerer_Rare_015": {
 				"attributes": {
 					"609": {
-						"attribute_name": "+[{VALUE1}*100|1%|] Damage to Vulnerable Enemies",
+						"attribute_name": "Vulnerable_Health_Damage_Bonus",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -33733,13 +33733,13 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "+10% Damage to Vulnerable Enemies\n+6% Damage to Chilled Enemies",
+				"desc": "+10% Vulnerable Damage\n+6% Damage to Chilled Enemies",
 				"name": "Icebreaker",
 				"tags": [
 					"Keyword_Vulnerable",
 					"Keyword_Chill"
 				],
-				"threshold_bonus": "+10% Damage to Vulnerable Enemies",
+				"threshold_bonus": "+10% Vulnerable Damage",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -34438,7 +34438,7 @@
 						"Skill_Primary_Defensive",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}\nLucky Hit Chance: 40%\nTransform into lightning, becoming Unstoppable and surging to the target location dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage around you upon arrival.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nCooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}\nLucky Hit Chance: 40%\nTransform into lightning, becoming Unstoppable and surging to the target location dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage around you upon arrival.",
 					"skill_name": "Teleport",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}"
 				},
@@ -34745,7 +34745,7 @@
 						"Skill_Primary_Mastery",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Mana Cost: 50\nLucky Hit Chance: 20%\nConjure a ball of lightning that slowly moves forward, continually zapping enemies for {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 50\nLucky Hit Chance: 20%\nConjure a ball of lightning that slowly moves forward, continually zapping enemies for {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage",
 					"skill_name": "Ball Lightning",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
@@ -36096,7 +36096,7 @@
 						"Skill_Primary_Core",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Mana Cost: 40\nLucky Hit Chance: 25%\nRelease 5 bolts of lightning that course along the ground in an erratic pattern, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% each.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 40\nLucky Hit Chance: 25%\nRelease 5 bolts of lightning that course along the ground in an erratic pattern, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% each.",
 					"skill_name": "Charged Bolts",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
@@ -36605,7 +36605,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Lucky Hit Chance: 9%\nLaunch a bolt of lightning that shocks an enemy 4 times, dealing {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% damage each hit.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 9%\nLaunch a bolt of lightning that shocks an enemy 4 times, dealing {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% damage each hit.",
 					"skill_name": "Spark",
 					"skill_rankup_desc": "• Damage 🡑 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%"
 				},
@@ -36721,7 +36721,7 @@
 						"Skill_Lightning",
 						"Keyword_Resource_Pickup"
 					],
-					"skill_desc": "Lucky Hit Chance: 30%\nUnleash arcing lightning that shocks enemies in front of you for {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%. Every 10 times Arc Lash swipes, it Stuns all enemies hit for 2 seconds.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 30%\nUnleash arcing lightning that shocks enemies in front of you for {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%. Every 10 times Arc Lash swipes, it Stuns all enemies hit for 2 seconds.",
 					"skill_name": "Arc Lash",
 					"skill_rankup_desc": "• Damage 🡑 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%"
 				},
@@ -36778,7 +36778,7 @@
 						"Skill_Primary_Core",
 						"Skill_Fire"
 					],
-					"skill_desc": "Mana Cost: 50\nLucky Hit Chance: 33%\nHurl an exploding ball of fire, dealing {60/66/72/78/84/90/96/102/108/114}% damage to surrounding enemies.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 50\nLucky Hit Chance: 33%\nHurl an exploding ball of fire, dealing {60/66/72/78/84/90/96/102/108/114}% damage to surrounding enemies.",
 					"skill_name": "Fireball",
 					"skill_rankup_desc": "• Damage 🡑 {60/66/72/78/84/90/96/102/108/114}%"
 				},
@@ -36888,7 +36888,7 @@
 						"Skill_Cold",
 						"Keyword_Freeze"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: 25%\nLaunch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25% increased damage to Frozen enemies.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: {#}\nLucky Hit Chance: 25%\nLaunch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25% increased damage to Frozen enemies.",
 					"skill_name": "Ice Shards",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
@@ -36918,7 +36918,7 @@
 						"Skill_Cold",
 						"Keyword_Chill"
 					],
-					"skill_desc": "Lucky Hit Chance: 30%\nThrow a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage and Chilling them for 15%.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 30%\nThrow a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage and Chilling them for 15%.",
 					"skill_name": "Frost Bolt",
 					"skill_rankup_desc": "• Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},

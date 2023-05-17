@@ -50,7 +50,8 @@ druidData["Trunk Data"] = {
 druidData["Basic"] = {
 	"Earth Spike": {
 		connections: [ "Basic", "Enhanced Earth Spike" ],
-		description: `Generate Spirit: 10
+		description: `Attack Speed Multiplier: 1.5
+Generate Spirit: 10
 Lucky Hit Chance: 35%
 Sunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.
 
@@ -70,18 +71,18 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"zhTW": "大地尖刺"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Geisteskraft: 10\nGlückstrefferchance: 35%\nSpaltet die Erde, durchbohrt den ersten getroffenen Gegner und verursacht {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% Schaden.\n\nTags: Basis, Naturmagie, Erde, Schaden, Geisteskraft, Physisch.",
-			"esES": "Generación de espíritu: 10\nProbabilidad de golpe de suerte: 35%\nDestrozas la tierra y empalas al primer enemigo golpeado, que sufre {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tierra, Daño, Espíritu, Física.",
-			"esMX": "Generación de Espíritu: 10\nProbabilidad de golpe afortunado: 35%\nRompes la tierra, empalas al primer enemigo golpeado y le infliges {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tierra, Daño, Espíritu, Física.",
-			"frFR": "Esprit généré: 10\nChances d'obtenir un coup de chance: 35%\nVous fissurez la terre et empalez la première cible touchée, ce qui lui inflige {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% points de dégâts.\n\nTags: Basique, Magie naturelle, Terre, Dégâts, Esprit, Dégâts physiques.",
-			"itIT": "Generazione spirito: 10\nProbabilità di colpo fortunato: 35%\nSollevi la terra, impalando il primo nemico colpito e infliggendo {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% danni.\n\nTags: Base, Magia naturale, Terra, Danni, Spirito, Fisico.",
-			"jaJP": "精神力回復量: 10\n幸運の一撃発生率: 35%\n大地を砕き、最初に命中した敵を貫いて{16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%のダメージを与える。\n\nTags: 基本, 自然魔法, 地, ダメージ, 精神力, 物理.",
-			"koKR": "생성: 영력 10\n행운의 적중 확률: 35%\n대지를 가르고 처음 적중한 적을 꿰뚫어 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%의 피해를 줍니다.\n\nTags: 기본, 자연 마법, 대지, 피해, 영력, 물리.",
-			"plPL": "Generuje: 10 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 35%\nRozdzierasz ziemię i przebijasz pierwszego trafionego wroga, zadając mu {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% pkt. obrażeń.\n\nTags: Podstawowe, Magia Natury, Ziemia, Obrażenia, Siła Duchowa, Fizyczne.",
-			"ptBR": "Gerar Espírito: 10\nChance de Golpe de Sorte: 35%\nRompe a terra, empalando o primeiro inimigo atingido e causando {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% de dano.\n\nTags: Básica, Magia da Natureza, Terra, Dano, Espírito, Física.",
-			"ruRU": "Дает дух: 10 ед.\nВероятность удачного удара: 35%.\nЗемля раскалывается, пронзая первого пораженного противника и нанося ему {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% ед. урона.\n\nTags: Базовое, Силы природы, Земля, Урон, Дух, Физический урон.",
-			"zhCN": "生成灵力: 10\n幸运一击几率: 35%\n击碎大地, 刺穿命中的第一名敌人, 造成 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% 点伤害。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理.",
-			"zhTW": "產生靈力:10\n幸運觸發機率:35%\n改變地貌,刺穿第一個被擊中的敵人,造成 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% 點傷害。\n\nTags: 基本, 自然魔法, 大地, 傷害, 靈力, 物理."
+			"deDE": "Attack Speed Multiplier: 1.5\nErzeugte Geisteskraft: 10\nGlückstrefferchance: 35%\nSpaltet die Erde, durchbohrt den ersten getroffenen Gegner und verursacht {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% Schaden.\n\nTags: Basis, Naturmagie, Erde, Schaden, Geisteskraft, Physisch.",
+			"esES": "Attack Speed Multiplier: 1.5\nGeneración de espíritu: 10\nProbabilidad de golpe de suerte: 35%\nDestrozas la tierra y empalas al primer enemigo golpeado, que sufre {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tierra, Daño, Espíritu, Física.",
+			"esMX": "Attack Speed Multiplier: 1.5\nGeneración de Espíritu: 10\nProbabilidad de golpe afortunado: 35%\nRompes la tierra, empalas al primer enemigo golpeado y le infliges {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tierra, Daño, Espíritu, Física.",
+			"frFR": "Attack Speed Multiplier: 1.5\nEsprit généré: 10\nChances d'obtenir un coup de chance: 35%\nVous fissurez la terre et empalez la première cible touchée, ce qui lui inflige {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% points de dégâts.\n\nTags: Basique, Magie naturelle, Terre, Dégâts, Esprit, Dégâts physiques.",
+			"itIT": "Attack Speed Multiplier: 1.5\nGenerazione spirito: 10\nProbabilità di colpo fortunato: 35%\nSollevi la terra, impalando il primo nemico colpito e infliggendo {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% danni.\n\nTags: Base, Magia naturale, Terra, Danni, Spirito, Fisico.",
+			"jaJP": "Attack Speed Multiplier: 1.5\n精神力回復量: 10\n幸運の一撃発生率: 35%\n大地を砕き、最初に命中した敵を貫いて{16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%のダメージを与える。\n\nTags: 基本, 自然魔法, 地, ダメージ, 精神力, 物理.",
+			"koKR": "Attack Speed Multiplier: 1.5\n생성: 영력 10\n행운의 적중 확률: 35%\n대지를 가르고 처음 적중한 적을 꿰뚫어 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%의 피해를 줍니다.\n\nTags: 기본, 자연 마법, 대지, 피해, 영력, 물리.",
+			"plPL": "Attack Speed Multiplier: 1.5\nGeneruje: 10 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 35%\nRozdzierasz ziemię i przebijasz pierwszego trafionego wroga, zadając mu {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% pkt. obrażeń.\n\nTags: Podstawowe, Magia Natury, Ziemia, Obrażenia, Siła Duchowa, Fizyczne.",
+			"ptBR": "Attack Speed Multiplier: 1.5\nGerar Espírito: 10\nChance de Golpe de Sorte: 35%\nRompe a terra, empalando o primeiro inimigo atingido e causando {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% de dano.\n\nTags: Básica, Magia da Natureza, Terra, Dano, Espírito, Física.",
+			"ruRU": "Attack Speed Multiplier: 1.5\nДает дух: 10 ед.\nВероятность удачного удара: 35%.\nЗемля раскалывается, пронзая первого пораженного противника и нанося ему {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% ед. урона.\n\nTags: Базовое, Силы природы, Земля, Урон, Дух, Физический урон.",
+			"zhCN": "Attack Speed Multiplier: 1.5\n生成灵力: 10\n幸运一击几率: 35%\n击碎大地, 刺穿命中的第一名敌人, 造成 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% 点伤害。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理.",
+			"zhTW": "Attack Speed Multiplier: 1.5\n產生靈力:10\n幸運觸發機率:35%\n改變地貌,刺穿第一個被擊中的敵人,造成 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% 點傷害。\n\nTags: 基本, 自然魔法, 大地, 傷害, 靈力, 物理."
 },
 		id: 162,
 		maxPoints: 5,
@@ -207,7 +208,8 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 	},
 	"Maul": {
 		connections: [ "Basic", "Enhanced Maul" ],
-		description: `Generate Spirit: 14
+		description: `Attack Speed Multiplier: 1.1
+Generate Spirit: 14
 Lucky Hit Chance: 30%
 Shapeshift into a Werebear and maul enemies in front of you, dealing {20/22/24/26/28/30/32/34/36/38}% damage.
 
@@ -227,18 +229,18 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"zhTW": "槌擊"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Geisteskraft: 14\nGlückstrefferchance: 30%\nVerwandelt Euch in einen Werbären und fallt Gegner vor Euch an, wodurch Ihr {20/22/24/26/28/30/32/34/36/38}% Schaden verursacht.\n\nTags: Basis, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
-			"esES": "Generación de espíritu: 14\nProbabilidad de golpe de suerte: 30%\nTe transformas en hombre oso y vapuleas a los enemigos frente a ti para infligirles {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Cambio de forma, Hombre oso, Espíritu, Daño, Física.",
-			"esMX": "Generación de Espíritu: 14\nProbabilidad de golpe afortunado: 30%\nCambias de forma a un hombre oso, vapuleas a los enemigos que están frente a ti y les infliges {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Metamorfosis, Hombre oso, Espíritu, Daño, Física.",
-			"frFR": "Esprit généré: 14\nChances d'obtenir un coup de chance: 30%\nVous vous transformez en ursoïde et mutilez les adversaires devant vous, leur infligeant {20/22/24/26/28/30/32/34/36/38}% points de dégâts.\n\nTags: Basique, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
-			"itIT": "Generazione spirito: 14\nProbabilità di colpo fortunato: 30%\nMuti in un Orso Mannaro e graffi i nemici frontali, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni.\n\nTags: Base, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
-			"jaJP": "精神力回復量: 14\n幸運の一撃発生率: 30%\n人熊に変身して前方の敵を爪で切り裂き、{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。\n\nTags: 基本, 変身, 人熊, 精神力, ダメージ, 物理.",
-			"koKR": "생성: 영력 14\n행운의 적중 확률: 30%\n곰인간으로 변신하고 전방의 적을 후려쳐 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다.\n\nTags: 기본, 변신, 곰인간, 영력, 피해, 물리.",
-			"plPL": "Generuje: 14 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 30%\nPrzemieniasz się w niedźwiedziołaka i turbujesz pobliskich wrogów, zadając im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
-			"ptBR": "Gerar Espírito: 14\nChance de Golpe de Sorte: 30%\nTransforma-se em um urso e ataca inimigos à sua frente, causando {20/22/24/26/28/30/32/34/36/38}% de dano.\n\nTags: Básica, Metamorfose, Urso, Espírito, Dano, Física.",
-			"ruRU": "Дает дух: 14 ед.\nВероятность удачного удара: 30%.\nВы принимаете облик медведя и терзаете противников перед собой, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона.\n\nTags: Базовое, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"zhCN": "生成灵力: 14\n幸运一击几率: 30%\n变成熊人并重殴面前的敌人, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理.",
-			"zhTW": "產生靈力:14\n幸運觸發機率:30%\n變身為熊人,槌擊你前方的敵人,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。\n\nTags: 基本, 變形, 熊人, 靈力, 傷害, 物理."
+			"deDE": "Attack Speed Multiplier: 1.1\nErzeugte Geisteskraft: 14\nGlückstrefferchance: 30%\nVerwandelt Euch in einen Werbären und fallt Gegner vor Euch an, wodurch Ihr {20/22/24/26/28/30/32/34/36/38}% Schaden verursacht.\n\nTags: Basis, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
+			"esES": "Attack Speed Multiplier: 1.1\nGeneración de espíritu: 14\nProbabilidad de golpe de suerte: 30%\nTe transformas en hombre oso y vapuleas a los enemigos frente a ti para infligirles {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Cambio de forma, Hombre oso, Espíritu, Daño, Física.",
+			"esMX": "Attack Speed Multiplier: 1.1\nGeneración de Espíritu: 14\nProbabilidad de golpe afortunado: 30%\nCambias de forma a un hombre oso, vapuleas a los enemigos que están frente a ti y les infliges {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Metamorfosis, Hombre oso, Espíritu, Daño, Física.",
+			"frFR": "Attack Speed Multiplier: 1.1\nEsprit généré: 14\nChances d'obtenir un coup de chance: 30%\nVous vous transformez en ursoïde et mutilez les adversaires devant vous, leur infligeant {20/22/24/26/28/30/32/34/36/38}% points de dégâts.\n\nTags: Basique, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
+			"itIT": "Attack Speed Multiplier: 1.1\nGenerazione spirito: 14\nProbabilità di colpo fortunato: 30%\nMuti in un Orso Mannaro e graffi i nemici frontali, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni.\n\nTags: Base, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
+			"jaJP": "Attack Speed Multiplier: 1.1\n精神力回復量: 14\n幸運の一撃発生率: 30%\n人熊に変身して前方の敵を爪で切り裂き、{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。\n\nTags: 基本, 変身, 人熊, 精神力, ダメージ, 物理.",
+			"koKR": "Attack Speed Multiplier: 1.1\n생성: 영력 14\n행운의 적중 확률: 30%\n곰인간으로 변신하고 전방의 적을 후려쳐 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다.\n\nTags: 기본, 변신, 곰인간, 영력, 피해, 물리.",
+			"plPL": "Attack Speed Multiplier: 1.1\nGeneruje: 14 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 30%\nPrzemieniasz się w niedźwiedziołaka i turbujesz pobliskich wrogów, zadając im {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
+			"ptBR": "Attack Speed Multiplier: 1.1\nGerar Espírito: 14\nChance de Golpe de Sorte: 30%\nTransforma-se em um urso e ataca inimigos à sua frente, causando {20/22/24/26/28/30/32/34/36/38}% de dano.\n\nTags: Básica, Metamorfose, Urso, Espírito, Dano, Física.",
+			"ruRU": "Attack Speed Multiplier: 1.1\nДает дух: 14 ед.\nВероятность удачного удара: 30%.\nВы принимаете облик медведя и терзаете противников перед собой, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона.\n\nTags: Базовое, Смена облика, Медведь, Дух, Урон, Физический урон.",
+			"zhCN": "Attack Speed Multiplier: 1.1\n生成灵力: 14\n幸运一击几率: 30%\n变成熊人并重殴面前的敌人, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "Attack Speed Multiplier: 1.1\n產生靈力:14\n幸運觸發機率:30%\n變身為熊人,槌擊你前方的敵人,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。\n\nTags: 基本, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 4,
 		maxPoints: 5,
@@ -680,7 +682,8 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 	},
 	"Claw": {
 		connections: [ "Basic", "Enhanced Claw" ],
-		description: `Generate Spirit: 10
+		description: `Attack Speed Multiplier: 1.1
+Generate Spirit: 10
 Lucky Hit Chance: 50%
 Shapeshift into a Werewolf and claw at an enemy for {20/22/24/26/28/30/32/34/36/38}% damage.
 
@@ -700,18 +703,18 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"zhTW": "爪擊"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Geisteskraft: 10\nGlückstrefferchance: 50%\nVerwandelt Euch in einen Werwolf und schlagt Eure Krallen in einen Gegner, um {20/22/24/26/28/30/32/34/36/38}% Schaden zu verursachen.\n\nTags: Basis, Gestaltwandeln, Werwolf, Schaden, Geisteskraft, Physisch.",
-			"esES": "Generación de espíritu: 10\nProbabilidad de golpe de suerte: 50%\nTe transformas en un hombre lobo y atacas con tus garras a un enemigo, lo que inflige {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Cambio de forma, Hombre lobo, Daño, Espíritu, Física.",
-			"esMX": "Generación de Espíritu: 10\nProbabilidad de golpe afortunado: 50%\nCambias de forma a un hombre lobo y rasguñas a un enemigo para infligirle {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Metamorfosis, Hombre lobo, Daño, Espíritu, Física.",
-			"frFR": "Esprit généré: 10\nChances d'obtenir un coup de chance: 50%\nVous vous transformez en lycanthrope et griffez une cible, ce qui lui inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts.\n\nTags: Basique, Métamorphose, Lycanthrope, Dégâts, Esprit, Dégâts physiques.",
-			"itIT": "Generazione spirito: 10\nProbabilità di colpo fortunato: 50%\nMuti in un Lupo Mannaro e artigli un nemico, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni.\n\nTags: Base, Mutaforma, Lupo Mannaro, Danni, Spirito, Fisico.",
-			"jaJP": "精神力回復量: 10\n幸運の一撃発生率: 50%\n人狼に変身して爪で敵を切り裂き、{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。\n\nTags: 基本, 変身, 人狼, ダメージ, 精神力, 物理.",
-			"koKR": "생성: 영력 10\n행운의 적중 확률: 50%\n늑대인간으로 변신하고 발톱으로 적을 공격하여 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다.\n\nTags: 기본, 변신, 늑대인간, 피해, 영력, 물리.",
-			"plPL": "Generuje: 10 pkt. siły duchowej\nSzansa na szczęśliwy traf: 50%\nPrzemieniasz się w wilkołaka i atakujesz wroga pazurami, zadając {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Wilkołak, Obrażenia, Siła Duchowa, Fizyczne.",
-			"ptBR": "Gerar Espírito: 10\nChance de Golpe de Sorte: 50%\nTransforma-se em um lobisomem e ataca um inimigo, causando {20/22/24/26/28/30/32/34/36/38}% de dano.\n\nTags: Básica, Metamorfose, Lobisomem, Dano, Espírito, Física.",
-			"ruRU": "Дает дух: 10 ед.\nВероятность удачного удара: 50%.\nВы принимаете облик волка и терзаете противника когтями, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона.\n\nTags: Базовое, Смена облика, Облик волка, Урон, Дух, Физический урон.",
-			"zhCN": "生成灵力: 10\n幸运一击几率: 50%\n变成狼人并爪击敌人, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理.",
-			"zhTW": "產生靈力:10\n幸運觸發機率:50%\n變身為狼人並爪擊一名敵人,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。\n\nTags: 基本, 變形, 狼人, 傷害, 靈力, 物理."
+			"deDE": "Attack Speed Multiplier: 1.1\nErzeugte Geisteskraft: 10\nGlückstrefferchance: 50%\nVerwandelt Euch in einen Werwolf und schlagt Eure Krallen in einen Gegner, um {20/22/24/26/28/30/32/34/36/38}% Schaden zu verursachen.\n\nTags: Basis, Gestaltwandeln, Werwolf, Schaden, Geisteskraft, Physisch.",
+			"esES": "Attack Speed Multiplier: 1.1\nGeneración de espíritu: 10\nProbabilidad de golpe de suerte: 50%\nTe transformas en un hombre lobo y atacas con tus garras a un enemigo, lo que inflige {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Cambio de forma, Hombre lobo, Daño, Espíritu, Física.",
+			"esMX": "Attack Speed Multiplier: 1.1\nGeneración de Espíritu: 10\nProbabilidad de golpe afortunado: 50%\nCambias de forma a un hombre lobo y rasguñas a un enemigo para infligirle {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Metamorfosis, Hombre lobo, Daño, Espíritu, Física.",
+			"frFR": "Attack Speed Multiplier: 1.1\nEsprit généré: 10\nChances d'obtenir un coup de chance: 50%\nVous vous transformez en lycanthrope et griffez une cible, ce qui lui inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts.\n\nTags: Basique, Métamorphose, Lycanthrope, Dégâts, Esprit, Dégâts physiques.",
+			"itIT": "Attack Speed Multiplier: 1.1\nGenerazione spirito: 10\nProbabilità di colpo fortunato: 50%\nMuti in un Lupo Mannaro e artigli un nemico, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni.\n\nTags: Base, Mutaforma, Lupo Mannaro, Danni, Spirito, Fisico.",
+			"jaJP": "Attack Speed Multiplier: 1.1\n精神力回復量: 10\n幸運の一撃発生率: 50%\n人狼に変身して爪で敵を切り裂き、{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。\n\nTags: 基本, 変身, 人狼, ダメージ, 精神力, 物理.",
+			"koKR": "Attack Speed Multiplier: 1.1\n생성: 영력 10\n행운의 적중 확률: 50%\n늑대인간으로 변신하고 발톱으로 적을 공격하여 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다.\n\nTags: 기본, 변신, 늑대인간, 피해, 영력, 물리.",
+			"plPL": "Attack Speed Multiplier: 1.1\nGeneruje: 10 pkt. siły duchowej\nSzansa na szczęśliwy traf: 50%\nPrzemieniasz się w wilkołaka i atakujesz wroga pazurami, zadając {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Wilkołak, Obrażenia, Siła Duchowa, Fizyczne.",
+			"ptBR": "Attack Speed Multiplier: 1.1\nGerar Espírito: 10\nChance de Golpe de Sorte: 50%\nTransforma-se em um lobisomem e ataca um inimigo, causando {20/22/24/26/28/30/32/34/36/38}% de dano.\n\nTags: Básica, Metamorfose, Lobisomem, Dano, Espírito, Física.",
+			"ruRU": "Attack Speed Multiplier: 1.1\nДает дух: 10 ед.\nВероятность удачного удара: 50%.\nВы принимаете облик волка и терзаете противника когтями, нанося {20/22/24/26/28/30/32/34/36/38}% ед. урона.\n\nTags: Базовое, Смена облика, Облик волка, Урон, Дух, Физический урон.",
+			"zhCN": "Attack Speed Multiplier: 1.1\n生成灵力: 10\n幸运一击几率: 50%\n变成狼人并爪击敌人, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理.",
+			"zhTW": "Attack Speed Multiplier: 1.1\n產生靈力:10\n幸運觸發機率:50%\n變身為狼人並爪擊一名敵人,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。\n\nTags: 基本, 變形, 狼人, 傷害, 靈力, 物理."
 },
 		id: 16,
 		maxPoints: 5,
@@ -840,7 +843,8 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 druidData["Spirit"] = {
 	"Landslide": {
 		connections: [ "Spirit", "Enhanced Landslide" ],
-		description: `Spirit Cost: 30
+		description: `Attack Speed Multiplier: 1.25
+Spirit Cost: 30
 Lucky Hit Chance: 20%
 Crush enemies between 2 pillars of earth, dealing up to {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% damage.
 
@@ -860,18 +864,18 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 			"zhTW": "崩石裂土"
 },
 		descriptionLocalized: {
-			"deDE": "Geisteskraftkosten: 30\nGlückstrefferchance: 20%\nZerschmettert Gegner zwischen 2 Erdsäulen und verursacht bis zu {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% Schaden.\n\nTags: Kern, Naturmagie, Erde, Geisteskraft, Schaden.",
-			"esES": "Coste de espíritu: 30\nProbabilidad de golpe de suerte: 20%\nAplastas a los enemigos entre 2 pilares de tierra, lo que inflige hasta {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tierra, Espíritu, Daño.",
-			"esMX": "Costo de Espíritu: 30\nProbabilidad de golpe afortunado: 20%\nAplastas a los enemigos entre 2 pilares de tierra, que infligen hasta un máximo de {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tierra, Espíritu, Daño.",
-			"frFR": "Coût en esprit: 30\nChances d'obtenir un coup de chance: 20%\nVous écrasez les adversaires entre 2 piliers de terre, ce qui leur inflige jusqu'à {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% points de dégâts.\n\nTags: Principale, Magie naturelle, Terre, Esprit, Dégâts.",
-			"itIT": "Costo in spirito: 30\nProbabilità di colpo fortunato: 20%\nSchiacci i nemici tra 2 pilastri di terra, infliggendo fino a {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% danni.\n\nTags: Primaria, Magia naturale, Terra, Spirito, Danni.",
-			"jaJP": "精神力消費量: 30\n幸運の一撃発生率: 20%\n2本の土の柱で敵を挟み、最大{75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}%のダメージを与える。\n\nTags: コア, 自然魔法, 地, 精神力, ダメージ.",
-			"koKR": "소모: 영력 30\n행운의 적중 확률: 20%\n2개의 흙 기둥으로 적을 짓뭉개 최대 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}%의 피해를 줍니다.\n\nTags: 핵심, 자연 마법, 대지, 영력, 피해.",
-			"plPL": "Koszt: 30 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 20%\nMiażdżysz wrogów 2 ziemnymi filarami i zadajesz do {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% pkt. obrażeń.\n\nTags: Główne, Magia Natury, Ziemia, Siła Duchowa, Obrażenia.",
-			"ptBR": "Custo de espírito: 30\nChance de Golpe de Sorte: 20%\nEsmaga inimigos entre 2 pilares de terra, causando até {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de dano.\n\nTags: Principal, Magia da Natureza, Terra, Espírito, Dano.",
-			"ruRU": "Затраты духа: 30 ед.\nВероятность удачного удара: 20%.\n2 земляных столпа сокрушают противников, нанося до {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% ед. урона.\n\nTags: Основное, Силы природы, Земля, Дух, Урон.",
-			"zhCN": "灵力消耗: 30\n幸运一击几率: 20%\n碾压 2 根大地之柱之间的敌人, 最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 点伤害。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害.",
-			"zhTW": "靈力消耗:30\n幸運觸發機率:20%\n召喚 2 道泥漿洪流淹沒敵人,最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 點傷害。\n\nTags: 核心, 自然魔法, 大地, 靈力, 傷害."
+			"deDE": "Attack Speed Multiplier: 1.25\nGeisteskraftkosten: 30\nGlückstrefferchance: 20%\nZerschmettert Gegner zwischen 2 Erdsäulen und verursacht bis zu {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% Schaden.\n\nTags: Kern, Naturmagie, Erde, Geisteskraft, Schaden.",
+			"esES": "Attack Speed Multiplier: 1.25\nCoste de espíritu: 30\nProbabilidad de golpe de suerte: 20%\nAplastas a los enemigos entre 2 pilares de tierra, lo que inflige hasta {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tierra, Espíritu, Daño.",
+			"esMX": "Attack Speed Multiplier: 1.25\nCosto de Espíritu: 30\nProbabilidad de golpe afortunado: 20%\nAplastas a los enemigos entre 2 pilares de tierra, que infligen hasta un máximo de {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de daño.\n\nTags: Principal, Magia de la naturaleza, Tierra, Espíritu, Daño.",
+			"frFR": "Attack Speed Multiplier: 1.25\nCoût en esprit: 30\nChances d'obtenir un coup de chance: 20%\nVous écrasez les adversaires entre 2 piliers de terre, ce qui leur inflige jusqu'à {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% points de dégâts.\n\nTags: Principale, Magie naturelle, Terre, Esprit, Dégâts.",
+			"itIT": "Attack Speed Multiplier: 1.25\nCosto in spirito: 30\nProbabilità di colpo fortunato: 20%\nSchiacci i nemici tra 2 pilastri di terra, infliggendo fino a {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% danni.\n\nTags: Primaria, Magia naturale, Terra, Spirito, Danni.",
+			"jaJP": "Attack Speed Multiplier: 1.25\n精神力消費量: 30\n幸運の一撃発生率: 20%\n2本の土の柱で敵を挟み、最大{75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}%のダメージを与える。\n\nTags: コア, 自然魔法, 地, 精神力, ダメージ.",
+			"koKR": "Attack Speed Multiplier: 1.25\n소모: 영력 30\n행운의 적중 확률: 20%\n2개의 흙 기둥으로 적을 짓뭉개 최대 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}%의 피해를 줍니다.\n\nTags: 핵심, 자연 마법, 대지, 영력, 피해.",
+			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 30 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 20%\nMiażdżysz wrogów 2 ziemnymi filarami i zadajesz do {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% pkt. obrażeń.\n\nTags: Główne, Magia Natury, Ziemia, Siła Duchowa, Obrażenia.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de espírito: 30\nChance de Golpe de Sorte: 20%\nEsmaga inimigos entre 2 pilares de terra, causando até {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% de dano.\n\nTags: Principal, Magia da Natureza, Terra, Espírito, Dano.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты духа: 30 ед.\nВероятность удачного удара: 20%.\n2 земляных столпа сокрушают противников, нанося до {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% ед. урона.\n\nTags: Основное, Силы природы, Земля, Дух, Урон.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n灵力消耗: 30\n幸运一击几率: 20%\n碾压 2 根大地之柱之间的敌人, 最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 点伤害。\n\nTags: 核心, 自然魔法, 大地, 灵力, 伤害.",
+			"zhTW": "Attack Speed Multiplier: 1.25\n靈力消耗:30\n幸運觸發機率:20%\n召喚 2 道泥漿洪流淹沒敵人,最多造成 {75/82.6/90/97.6/105/112.4/120/127.6/135/142.4}% 點傷害。\n\nTags: 核心, 自然魔法, 大地, 靈力, 傷害."
 },
 		id: 20,
 		maxPoints: 5,
@@ -3356,7 +3360,8 @@ Tags: Damage.`,
 	},
 	"Boulder": {
 		connections: [ "Wrath", "Enhanced Boulder" ],
-		description: `Cooldown: 10 seconds
+		description: `Attack Speed Multiplier: 1.25
+Cooldown: 10 seconds
 Lucky Hit Chance: 4%
 Unearth a large rolling boulder that repeatedly Knocks Back enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.
 
@@ -3376,18 +3381,18 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"zhTW": "巨石"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 10 Sek.\nGlückstrefferchance: 4%\nBringt einen großen Felsbrocken ins Rollen, der Gegner mehrfach zurückstößt und ihnen mit jedem Treffer {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
-			"esES": "Tiempo de reutilización: 10 s\nProbabilidad de golpe de suerte: 4%\nDesentierras un gran peñasco rodante que repele repetidamente a los enemigos, lo que inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño con cada golpe.\n\nTags: Cólera, Magia de la naturaleza, Tierra, Física, Daño, Tiempo de reutilización, Control de masas.",
-			"esMX": "Recuperación: 10 segundos\nProbabilidad de golpe afortunado: 4%\nDesentierras una roca gigante que repele repetidamente a los enemigos y les inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño por cada golpe.\n\nTags: Ira, Magia de la naturaleza, Tierra, Física, Daño, Recuperación, Control de multitudes.",
-			"frFR": "Temps de recharge: 10 s\nChances d'obtenir un coup de chance: 4%\nVous déterrez un gros rocher qui roule en percutant et en repoussant les adversaires plusieurs fois de suite, leur infligeant {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts à chaque coup.\n\nTags: Colère, Magie naturelle, Terre, Dégâts physiques, Dégâts, Temps de recharge, Perte de contrôle.",
-			"itIT": "Tempo di recupero: 10 s\nProbabilità di colpo fortunato: 4%\nDissotterri un grosso macigno rotolante che respinge continuamente indietro i nemici, infliggendo {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni a ogni colpo.\n\nTags: Collera, Magia naturale, Terra, Fisico, Danni, Tempo di recupero, Effetti debilitanti.",
-			"jaJP": "クールダウン: 10秒\n幸運の一撃発生率: 4%\n巨岩を掘り起こして転がし、敵をノックバックしつつ、命中するたびに{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%のダメージを与える。\n\nTags: 憤怒, 自然魔法, 地, 物理, ダメージ, クールダウン, 操作障害効果.",
-			"koKR": "재사용 대기시간: 10초\n행운의 적중 확률: 4%\n땅에서 커다란 바위를 꺼내 굴려 보냅니다. 바위는 반복적으로 적을 밀쳐내며, 적중할 때마다 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%의 피해를 줍니다.\n\nTags: 진노, 자연 마법, 대지, 물리, 피해, 재사용 대기시간, 군중 제어.",
-			"plPL": "Czas odnowienia: 10 sek.\nSzansa na szczęśliwy traf: 4%\nWydobywasz z ziemi wielki, toczący się głaz, który wielokrotnie odrzuca wrogów, zadając im przy każdym trafieniu {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
-			"ptBR": "Recarga: 10 segundos\nChance de Golpe de Sorte: 4%\nDesenterra um grande rochedo rolante que repele inimigos várias vezes, causando {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano a cada acerto.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
-			"ruRU": "Время восстановления: 10 сек.\nВероятность удачного удара: 4%\nПоднимает из-под земли огромный валун, который катится вперед и непрерывно отбрасывает противников, нанося им {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона каждым ударом.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
-			"zhCN": "冷却时间: 10秒\n幸运一击几率: 4%\n挖出一块巨大的滚石不断击退敌人, 每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
-			"zhTW": "冷卻時間:10 秒\n幸運觸發機率:4%\n挖出一顆滾動巨石,不斷擊退敵人,每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
+			"deDE": "Attack Speed Multiplier: 1.25\nAbklingzeit: 10 Sek.\nGlückstrefferchance: 4%\nBringt einen großen Felsbrocken ins Rollen, der Gegner mehrfach zurückstößt und ihnen mit jedem Treffer {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
+			"esES": "Attack Speed Multiplier: 1.25\nTiempo de reutilización: 10 s\nProbabilidad de golpe de suerte: 4%\nDesentierras un gran peñasco rodante que repele repetidamente a los enemigos, lo que inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño con cada golpe.\n\nTags: Cólera, Magia de la naturaleza, Tierra, Física, Daño, Tiempo de reutilización, Control de masas.",
+			"esMX": "Attack Speed Multiplier: 1.25\nRecuperación: 10 segundos\nProbabilidad de golpe afortunado: 4%\nDesentierras una roca gigante que repele repetidamente a los enemigos y les inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño por cada golpe.\n\nTags: Ira, Magia de la naturaleza, Tierra, Física, Daño, Recuperación, Control de multitudes.",
+			"frFR": "Attack Speed Multiplier: 1.25\nTemps de recharge: 10 s\nChances d'obtenir un coup de chance: 4%\nVous déterrez un gros rocher qui roule en percutant et en repoussant les adversaires plusieurs fois de suite, leur infligeant {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts à chaque coup.\n\nTags: Colère, Magie naturelle, Terre, Dégâts physiques, Dégâts, Temps de recharge, Perte de contrôle.",
+			"itIT": "Attack Speed Multiplier: 1.25\nTempo di recupero: 10 s\nProbabilità di colpo fortunato: 4%\nDissotterri un grosso macigno rotolante che respinge continuamente indietro i nemici, infliggendo {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni a ogni colpo.\n\nTags: Collera, Magia naturale, Terra, Fisico, Danni, Tempo di recupero, Effetti debilitanti.",
+			"jaJP": "Attack Speed Multiplier: 1.25\nクールダウン: 10秒\n幸運の一撃発生率: 4%\n巨岩を掘り起こして転がし、敵をノックバックしつつ、命中するたびに{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%のダメージを与える。\n\nTags: 憤怒, 自然魔法, 地, 物理, ダメージ, クールダウン, 操作障害効果.",
+			"koKR": "Attack Speed Multiplier: 1.25\n재사용 대기시간: 10초\n행운의 적중 확률: 4%\n땅에서 커다란 바위를 꺼내 굴려 보냅니다. 바위는 반복적으로 적을 밀쳐내며, 적중할 때마다 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%의 피해를 줍니다.\n\nTags: 진노, 자연 마법, 대지, 물리, 피해, 재사용 대기시간, 군중 제어.",
+			"plPL": "Attack Speed Multiplier: 1.25\nCzas odnowienia: 10 sek.\nSzansa na szczęśliwy traf: 4%\nWydobywasz z ziemi wielki, toczący się głaz, który wielokrotnie odrzuca wrogów, zadając im przy każdym trafieniu {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nRecarga: 10 segundos\nChance de Golpe de Sorte: 4%\nDesenterra um grande rochedo rolante que repele inimigos várias vezes, causando {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano a cada acerto.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nВремя восстановления: 10 сек.\nВероятность удачного удара: 4%\nПоднимает из-под земли огромный валун, который катится вперед и непрерывно отбрасывает противников, нанося им {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона каждым ударом.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n冷却时间: 10秒\n幸运一击几率: 4%\n挖出一块巨大的滚石不断击退敌人, 每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
+			"zhTW": "Attack Speed Multiplier: 1.25\n冷卻時間:10 秒\n幸運觸發機率:4%\n挖出一顆滾動巨石,不斷擊退敵人,每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 85,
 		maxPoints: 5,

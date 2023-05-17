@@ -5433,7 +5433,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_030": {
 				"name": "Destroyer",
-				"description": "+10% Damage with TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
+				"description": "+10% Damage with TwoHandedSlashing\n+4% Vulnerable Damage\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
 				"nameLocalized": {
 					"deDE": "Zerstörer",
 					"esES": "Destructor",
@@ -5449,18 +5449,18 @@ let paragonData = {
 					"zhTW": "毀滅者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, Hiebwaffe, Zweihändig.",
-					"esES": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Cortante, Dos manos.",
-					"esMX": "+10% de daño con TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Corte, Dos manos.",
-					"frFR": "+10% de dégâts avec TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vulnérable, Tranchant, Arme à deux mains.",
-					"itIT": "Danni con TwoHandedSlashing: +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Vulnerabilità, Tagliente, A due mani.",
-					"jaJP": "TwoHandedSlashing でのダメージ+10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 脆弱, 斬撃, 両手用武器.",
-					"koKR": "TwoHandedSlashing 의 공격력 +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 취약, 베는 무기, 양손 무기.",
-					"plPL": "+10% obrażeń zadanych przy użyciu: TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Odsłonięcie, Sieczne, Dwuręczne.",
-					"ptBR": "+10% de dano com TwoHandedSlashing\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Vulnerável, Corte, Duas mãos.",
-					"ruRU": "+10% к урону от свойства \"TwoHandedSlashing \"\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уязвимость, Рубящее, Двуручное.",
-					"zhCN": "+10% 使用TwoHandedSlashing 的伤害\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 易伤, 劈斩, 双手.",
-					"zhTW": "TwoHandedSlashing 傷害 +10%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 傷害, 易傷, 斬擊, 雙手."
+					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Schaden gegen verwundbare Ziele\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, Hiebwaffe, Zweihändig.",
+					"esES": "+10% de daño con TwoHandedSlashing\n+4% de daño a enemigos vulnerables\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Cortante, Dos manos.",
+					"esMX": "+10% de daño con TwoHandedSlashing\n+4% de daño de vulnerabilidad\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Corte, Dos manos.",
+					"frFR": "+10% de dégâts avec TwoHandedSlashing\n+4% de dégâts contre les cibles vulnérables\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vulnérable, Tranchant, Arme à deux mains.",
+					"itIT": "Danni con TwoHandedSlashing: +10%\nDanni ai nemici vulnerabili: +4%\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Vulnerabilità, Tagliente, A due mani.",
+					"jaJP": "TwoHandedSlashing でのダメージ+10%\n脆弱ダメージ+4%\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 脆弱, 斬撃, 両手用武器.",
+					"koKR": "TwoHandedSlashing 의 공격력 +10%\n취약 피해 +4%\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 취약, 베는 무기, 양손 무기.",
+					"plPL": "+10% obrażeń zadanych przy użyciu: TwoHandedSlashing\n+4% obrażeń od odsłonięcia\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Odsłonięcie, Sieczne, Dwuręczne.",
+					"ptBR": "+10% de dano com TwoHandedSlashing\n+4% de dano de vulnerabilidade\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Vulnerável, Corte, Duas mãos.",
+					"ruRU": "+10% к урону от свойства \"TwoHandedSlashing \"\n+4% к урону уязвимым противникам\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уязвимость, Рубящее, Двуручное.",
+					"zhCN": "+10% 使用TwoHandedSlashing 的伤害\n+4% 易伤伤害\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 易伤, 劈斩, 双手.",
+					"zhTW": "TwoHandedSlashing 傷害 +10%\n易傷傷害 +4%\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 傷害, 易傷, 斬擊, 雙手."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13907,8 +13907,21 @@ let paragonData = {
 			},
 			"Generic_Magic_DamageToVulnerable": {
 				"name": "Damage To Vulnerable",
-				"description": "+5% Damage to Vulnerable Enemies\n\nTags: Vulnerable, Damage.",
-				"descriptionLocalized": null
+				"description": "+5% Vulnerable Damage\n\nTags: Vulnerable, Damage.",
+				"descriptionLocalized": {
+					"deDE": "+5% Schaden gegen verwundbare Ziele\n\nTags: Verwundbar, Schaden.",
+					"esES": "+5% de daño a enemigos vulnerables\n\nTags: Vulnerable, Daño.",
+					"esMX": "+5% de daño de vulnerabilidad\n\nTags: Vulnerable, Daño.",
+					"frFR": "+5% de dégâts contre les cibles vulnérables\n\nTags: Vulnérable, Dégâts.",
+					"itIT": "Danni ai nemici vulnerabili: +5%\n\nTags: Vulnerabilità, Danni.",
+					"jaJP": "脆弱ダメージ+5%\n\nTags: 脆弱, ダメージ.",
+					"koKR": "취약 피해 +5%\n\nTags: 취약, 피해.",
+					"plPL": "+5% obrażeń od odsłonięcia\n\nTags: Odsłonięcie, Obrażenia.",
+					"ptBR": "+5% de dano de vulnerabilidade\n\nTags: Vulnerável, Dano.",
+					"ruRU": "+5% к урону уязвимым противникам\n\nTags: Уязвимость, Урон.",
+					"zhCN": "+5% 易伤伤害\n\nTags: 易伤, 伤害.",
+					"zhTW": "易傷傷害 +5%\n\nTags: 易傷, 傷害."
+				}
 			},
 			"Generic_Magic_DamageWhileFortified": {
 				"name": "Damage While Fortified",
@@ -15298,7 +15311,7 @@ let paragonData = {
 			},
 			"Generic_Rare_025": {
 				"name": "Pillage",
-				"description": "+10% Damage to Vulnerable Enemies\n+100 Armor\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
+				"description": "+10% Vulnerable Damage\n+100 Armor\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Armor.",
 				"nameLocalized": {
 					"deDE": "Plünderung",
 					"esES": "Pillaje",
@@ -15314,18 +15327,18 @@ let paragonData = {
 					"zhTW": "掠奪"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+100 Rüstung\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Rüstung.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+100 de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Armadura.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+100 de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Armadura.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+100 à l'armure\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Armure.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nArmatura: +100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Armatura.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n防御力+100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 防御力.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n방어도 +100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 방어도.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+100 pancerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Pancerz.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+100 de armadura\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Armadura.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+100 ед. брони\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Броня.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+100 护甲值\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 护甲.",
-					"zhTW": "+10% Damage to Vulnerable Enemies\n護甲值 +100\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 防具."
+					"deDE": "+10% Schaden gegen verwundbare Ziele\n+100 Rüstung\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Rüstung.",
+					"esES": "+10% de daño a enemigos vulnerables\n+100 de armadura\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Armadura.",
+					"esMX": "+10% de daño de vulnerabilidad\n+100 de armadura\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Armadura.",
+					"frFR": "+10% de dégâts contre les cibles vulnérables\n+100 à l'armure\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Armure.",
+					"itIT": "Danni ai nemici vulnerabili: +10%\nArmatura: +100\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Armatura.",
+					"jaJP": "脆弱ダメージ+10%\n防御力+100\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 防御力.",
+					"koKR": "취약 피해 +10%\n방어도 +100\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 방어도.",
+					"plPL": "+10% obrażeń od odsłonięcia\n+100 pancerza\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Pancerz.",
+					"ptBR": "+10% de dano de vulnerabilidade\n+100 de armadura\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Armadura.",
+					"ruRU": "+10% к урону уязвимым противникам\n+100 ед. брони\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Броня.",
+					"zhCN": "+10% 易伤伤害\n+100 护甲值\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 护甲.",
+					"zhTW": "易傷傷害 +10%\n護甲值 +100\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 防具."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15940,7 +15953,7 @@ let paragonData = {
 			},
 			"Generic_Rare_044": {
 				"name": "Tempest",
-				"description": "+15% Critical Strike Damage\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
+				"description": "+15% Critical Strike Damage\n+4% Vulnerable Damage\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Vulnerable, Damage.",
 				"nameLocalized": {
 					"deDE": "Sturmjäger",
 					"esES": "Tempestad",
@@ -15956,18 +15969,18 @@ let paragonData = {
 					"zhTW": "暴風雨"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Verwundbar, Schaden.",
-					"esES": "+15% de daño de golpe crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Vulnerable, Daño.",
-					"esMX": "+15% de daño de golpe crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Vulnerable, Daño.",
-					"frFR": "+15% de dégâts critiques\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Vulnérable, Dégâts.",
-					"itIT": "Danni critici: +15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Vulnerabilità, Danni.",
-					"jaJP": "クリティカルヒットダメージ+15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: クリティカルヒット, 脆弱, ダメージ.",
-					"koKR": "극대화 피해 +15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 취약, 피해.",
-					"plPL": "+15% obrażeń od trafień krytycznych\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Odsłonięcie, Obrażenia.",
-					"ptBR": "+15% de dano de acerto crítico\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Vulnerável, Dano.",
-					"ruRU": "+15% к критическому урону\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Уязвимость, Урон.",
-					"zhCN": "+15% 暴击伤害\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 易伤, 伤害.",
-					"zhTW": "爆擊傷害 +15%\n+4% Damage to Vulnerable Enemies\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爆擊, 易傷, 傷害."
+					"deDE": "+15% kritischer Trefferschaden\n+4% Schaden gegen verwundbare Ziele\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Verwundbar, Schaden.",
+					"esES": "+15% de daño de golpe crítico\n+4% de daño a enemigos vulnerables\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Vulnerable, Daño.",
+					"esMX": "+15% de daño de golpe crítico\n+4% de daño de vulnerabilidad\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Vulnerable, Daño.",
+					"frFR": "+15% de dégâts critiques\n+4% de dégâts contre les cibles vulnérables\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Vulnérable, Dégâts.",
+					"itIT": "Danni critici: +15%\nDanni ai nemici vulnerabili: +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Vulnerabilità, Danni.",
+					"jaJP": "クリティカルヒットダメージ+15%\n脆弱ダメージ+4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: クリティカルヒット, 脆弱, ダメージ.",
+					"koKR": "극대화 피해 +15%\n취약 피해 +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 취약, 피해.",
+					"plPL": "+15% obrażeń od trafień krytycznych\n+4% obrażeń od odsłonięcia\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Odsłonięcie, Obrażenia.",
+					"ptBR": "+15% de dano de acerto crítico\n+4% de dano de vulnerabilidade\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Vulnerável, Dano.",
+					"ruRU": "+15% к критическому урону\n+4% к урону уязвимым противникам\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Уязвимость, Урон.",
+					"zhCN": "+15% 暴击伤害\n+4% 易伤伤害\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 易伤, 伤害.",
+					"zhTW": "爆擊傷害 +15%\n易傷傷害 +4%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爆擊, 易傷, 傷害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16075,7 +16088,7 @@ let paragonData = {
 			},
 			"Generic_Rare_049": {
 				"name": "Exploit",
-				"description": "+10% Damage to Vulnerable Enemies\n+10% Damage to Injured Enemies\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
+				"description": "+10% Vulnerable Damage\n+10% Damage to Injured Enemies\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Injured, Damage.",
 				"nameLocalized": {
 					"deDE": "Ausbeuten",
 					"esES": "Explotar",
@@ -16091,18 +16104,18 @@ let paragonData = {
 					"zhTW": "剝削手段"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+10% Schaden gegen verletzte Gegner\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Verletzt, Schaden.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+10% de daño a enemigos heridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Herido, Daño.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+10% de daño a enemigos heridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Herido, Daño.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+10% de dégâts contre les cibles blessées\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Blessure, Dégâts.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nDanni ai nemici feriti: +10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Ferita, Danni.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n負傷した敵へのダメージ+10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, 負傷, ダメージ.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n부상당한 적에게 주는 피해 +10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 부상, 피해.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+10% obrażeń zadawanych okaleczonym wrogom\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Okaleczenie, Obrażenia.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+10% de dano contra inimigos feridos\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Ferido, Dano.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+10% к урону раненым противникам\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Ранение, Урон.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+10% 对受伤敌人的伤害\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 受伤, 伤害.",
-					"zhTW": "+10% Damage to Vulnerable Enemies\n對受傷敵人傷害 +10%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 受傷, 傷害."
+					"deDE": "+10% Schaden gegen verwundbare Ziele\n+10% Schaden gegen verletzte Gegner\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Verletzt, Schaden.",
+					"esES": "+10% de daño a enemigos vulnerables\n+10% de daño a enemigos heridos\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Herido, Daño.",
+					"esMX": "+10% de daño de vulnerabilidad\n+10% de daño a enemigos heridos\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Herido, Daño.",
+					"frFR": "+10% de dégâts contre les cibles vulnérables\n+10% de dégâts contre les cibles blessées\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Blessure, Dégâts.",
+					"itIT": "Danni ai nemici vulnerabili: +10%\nDanni ai nemici feriti: +10%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Ferita, Danni.",
+					"jaJP": "脆弱ダメージ+10%\n負傷した敵へのダメージ+10%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, 負傷, ダメージ.",
+					"koKR": "취약 피해 +10%\n부상당한 적에게 주는 피해 +10%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 부상, 피해.",
+					"plPL": "+10% obrażeń od odsłonięcia\n+10% obrażeń zadawanych okaleczonym wrogom\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Okaleczenie, Obrażenia.",
+					"ptBR": "+10% de dano de vulnerabilidade\n+10% de dano contra inimigos feridos\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Ferido, Dano.",
+					"ruRU": "+10% к урону уязвимым противникам\n+10% к урону раненым противникам\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Ранение, Урон.",
+					"zhCN": "+10% 易伤伤害\n+10% 对受伤敌人的伤害\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 受伤, 伤害.",
+					"zhTW": "易傷傷害 +10%\n對受傷敵人傷害 +10%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 受傷, 傷害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -16696,7 +16709,7 @@ let paragonData = {
 			},
 			"Generic_Rare_070": {
 				"name": "Demolish",
-				"description": "+10% Damage to Vulnerable Enemies\n+10 Strength\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
+				"description": "+10% Vulnerable Damage\n+10 Strength\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Strength.",
 				"nameLocalized": {
 					"deDE": "Demolieren",
 					"esES": "Demoler",
@@ -16712,18 +16725,18 @@ let paragonData = {
 					"zhTW": "毀壞"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Stärke\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Stärke.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+10 de fuerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Fuerza.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Fuerza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Fuerza.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+10 force\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Force.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nForza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Forza.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n筋力+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 筋力.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n힘 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 힘.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+10 siły\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Siła.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Força\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Força.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к силе\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Сила.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+10 点力量\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 力量.",
-					"zhTW": "+10% Damage to Vulnerable Enemies\n力量 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 力量."
+					"deDE": "+10% Schaden gegen verwundbare Ziele\n+10 Stärke\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Stärke.",
+					"esES": "+10% de daño a enemigos vulnerables\n+10 de fuerza\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Fuerza.",
+					"esMX": "+10% de daño de vulnerabilidad\n+10 de Fuerza\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Fuerza.",
+					"frFR": "+10% de dégâts contre les cibles vulnérables\n+10 force\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Force.",
+					"itIT": "Danni ai nemici vulnerabili: +10%\nForza: +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Forza.",
+					"jaJP": "脆弱ダメージ+10%\n筋力+10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 筋力.",
+					"koKR": "취약 피해 +10%\n힘 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 힘.",
+					"plPL": "+10% obrażeń od odsłonięcia\n+10 siły\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Siła.",
+					"ptBR": "+10% de dano de vulnerabilidade\n+10 de Força\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Força.",
+					"ruRU": "+10% к урону уязвимым противникам\n+10 к силе\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Сила.",
+					"zhCN": "+10% 易伤伤害\n+10 点力量\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 力量.",
+					"zhTW": "易傷傷害 +10%\n力量 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -17786,7 +17799,7 @@ let paragonData = {
 			},
 			"Generic_Rare_095": {
 				"name": "Weakness",
-				"description": "+10% Damage to Vulnerable Enemies\n+10 Intelligence\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
+				"description": "+10% Vulnerable Damage\n+10 Intelligence\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Damage, Vulnerable.",
 				"nameLocalized": {
 					"deDE": "Schwäche",
 					"esES": "Debilidad",
@@ -17802,18 +17815,18 @@ let paragonData = {
 					"zhTW": "弱點"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Intelligenz\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligenz, Schaden, Verwundbar.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+10 de inteligencia\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencia, Daño, Vulnerable.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Inteligencia\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencia, Daño, Vulnerable.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+10 intelligence\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Dégâts, Vulnérable.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nIntelligenza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Intelligenza, Danni, Vulnerabilità.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n知力+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 知力, ダメージ, 脆弱.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n지능 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 지능, 피해, 취약.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+10 inteligencji\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencja, Obrażenia, Odsłonięcie.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Inteligência\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Inteligência, Dano, Vulnerável.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к интеллекту\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Интеллект, Урон, Уязвимость.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+10 点智力\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 智力, 伤害, 易伤.",
-					"zhTW": "+10% Damage to Vulnerable Enemies\n智力 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 智力, 傷害, 易傷."
+					"deDE": "+10% Schaden gegen verwundbare Ziele\n+10 Intelligenz\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Intelligenz, Schaden, Verwundbar.",
+					"esES": "+10% de daño a enemigos vulnerables\n+10 de inteligencia\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencia, Daño, Vulnerable.",
+					"esMX": "+10% de daño de vulnerabilidad\n+10 de Inteligencia\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencia, Daño, Vulnerable.",
+					"frFR": "+10% de dégâts contre les cibles vulnérables\n+10 intelligence\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Intelligence, Dégâts, Vulnérable.",
+					"itIT": "Danni ai nemici vulnerabili: +10%\nIntelligenza: +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Intelligenza, Danni, Vulnerabilità.",
+					"jaJP": "脆弱ダメージ+10%\n知力+10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 知力, ダメージ, 脆弱.",
+					"koKR": "취약 피해 +10%\n지능 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 지능, 피해, 취약.",
+					"plPL": "+10% obrażeń od odsłonięcia\n+10 inteligencji\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Inteligencja, Obrażenia, Odsłonięcie.",
+					"ptBR": "+10% de dano de vulnerabilidade\n+10 de Inteligência\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Inteligência, Dano, Vulnerável.",
+					"ruRU": "+10% к урону уязвимым противникам\n+10 к интеллекту\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Интеллект, Урон, Уязвимость.",
+					"zhCN": "+10% 易伤伤害\n+10 点智力\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 智力, 伤害, 易伤.",
+					"zhTW": "易傷傷害 +10%\n智力 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 智力, 傷害, 易傷."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -17829,7 +17842,7 @@ let paragonData = {
 			},
 			"Generic_Rare_096": {
 				"name": "Artifice",
-				"description": "+10% Damage to Vulnerable Enemies\n+10 Dexterity\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
+				"description": "+10% Vulnerable Damage\n+10 Dexterity\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Dexterity.",
 				"nameLocalized": {
 					"deDE": "Trick",
 					"esES": "Artificio",
@@ -17845,18 +17858,18 @@ let paragonData = {
 					"zhTW": "手段"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n+10 Geschicklichkeit\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Geschicklichkeit.",
-					"esES": "+10% Damage to Vulnerable Enemies\n+10 de destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Destreza.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n+10 de Destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Destreza.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n+10 dextérité\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Dextérité.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nDestrezza: +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Destrezza.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n敏捷性+10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 敏捷性.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n민첩 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 민첩.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n+10 zręczności\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Zręczność.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n+10 de Destreza\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Destreza.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n+10 к ловкости\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Ловкость.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n+10 点敏捷\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 敏捷.",
-					"zhTW": "+10% Damage to Vulnerable Enemies\n敏捷 +10\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 敏捷."
+					"deDE": "+10% Schaden gegen verwundbare Ziele\n+10 Geschicklichkeit\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Geschicklichkeit.",
+					"esES": "+10% de daño a enemigos vulnerables\n+10 de destreza\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Destreza.",
+					"esMX": "+10% de daño de vulnerabilidad\n+10 de Destreza\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Destreza.",
+					"frFR": "+10% de dégâts contre les cibles vulnérables\n+10 dextérité\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Dextérité.",
+					"itIT": "Danni ai nemici vulnerabili: +10%\nDestrezza: +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Destrezza.",
+					"jaJP": "脆弱ダメージ+10%\n敏捷性+10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, 敏捷性.",
+					"koKR": "취약 피해 +10%\n민첩 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 민첩.",
+					"plPL": "+10% obrażeń od odsłonięcia\n+10 zręczności\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Zręczność.",
+					"ptBR": "+10% de dano de vulnerabilidade\n+10 de Destreza\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Destreza.",
+					"ruRU": "+10% к урону уязвимым противникам\n+10 к ловкости\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Ловкость.",
+					"zhCN": "+10% 易伤伤害\n+10 点敏捷\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 敏捷.",
+					"zhTW": "易傷傷害 +10%\n敏捷 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -35632,7 +35645,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_015": {
 				"name": "Oppressive",
-				"description": "+10% Damage to Vulnerable Enemies\n4% Damage Reduction from Vulnerable Enemies\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
+				"description": "+10% Vulnerable Damage\n4% Damage Reduction from Vulnerable Enemies\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
 				"nameLocalized": {
 					"deDE": "Unterdrückend",
 					"esES": "Opresión",
@@ -35648,18 +35661,18 @@ let paragonData = {
 					"zhTW": "暴虐"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Damage to Vulnerable Enemies\n4% weniger Schaden durch verwundbare Gegner\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Schadensreduktion.",
-					"esES": "+10% Damage to Vulnerable Enemies\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
-					"esMX": "+10% Damage to Vulnerable Enemies\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
-					"frFR": "+10% Damage to Vulnerable Enemies\n4% de réduction des dégâts infligés par les cibles vulnérables\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Réduction des dégâts.",
-					"itIT": "+10% Damage to Vulnerable Enemies\nRiduzione danni da nemici vulnerabili: 4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Riduzione danni.",
-					"jaJP": "+10% Damage to Vulnerable Enemies\n脆弱状態の敵からのダメージ減少率4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, ダメージ減少.",
-					"koKR": "+10% Damage to Vulnerable Enemies\n취약한 적에게 받는 피해 감소 4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 피해 감소.",
-					"plPL": "+10% Damage to Vulnerable Enemies\n4% redukcji obrażeń od odsłoniętych wrogów\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Redukcja Obrażeń.",
-					"ptBR": "+10% Damage to Vulnerable Enemies\n4% de redução de dano recebido de inimigos vulneráveis\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Redução de Dano.",
-					"ruRU": "+10% Damage to Vulnerable Enemies\n-4% к урону от уязвимых противников\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Уменьшение урона.",
-					"zhCN": "+10% Damage to Vulnerable Enemies\n4% 对易伤敌人的伤害减免\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 伤害减免.",
-					"zhTW": "+10% Damage to Vulnerable Enemies\n易傷敵人的傷害減免 4%\n\nBonus: Another +10% Damage to Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 傷害減免."
+					"deDE": "+10% Schaden gegen verwundbare Ziele\n4% weniger Schaden durch verwundbare Gegner\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Schadensreduktion.",
+					"esES": "+10% de daño a enemigos vulnerables\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
+					"esMX": "+10% de daño de vulnerabilidad\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
+					"frFR": "+10% de dégâts contre les cibles vulnérables\n4% de réduction des dégâts infligés par les cibles vulnérables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Réduction des dégâts.",
+					"itIT": "Danni ai nemici vulnerabili: +10%\nRiduzione danni da nemici vulnerabili: 4%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Riduzione danni.",
+					"jaJP": "脆弱ダメージ+10%\n脆弱状態の敵からのダメージ減少率4%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, ダメージ減少.",
+					"koKR": "취약 피해 +10%\n취약한 적에게 받는 피해 감소 4%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 피해 감소.",
+					"plPL": "+10% obrażeń od odsłonięcia\n4% redukcji obrażeń od odsłoniętych wrogów\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Redukcja Obrażeń.",
+					"ptBR": "+10% de dano de vulnerabilidade\n4% de redução de dano recebido de inimigos vulneráveis\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Redução de Dano.",
+					"ruRU": "+10% к урону уязвимым противникам\n-4% к урону от уязвимых противников\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Уменьшение урона.",
+					"zhCN": "+10% 易伤伤害\n4% 对易伤敌人的伤害减免\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 伤害减免.",
+					"zhTW": "易傷傷害 +10%\n易傷敵人的傷害減免 4%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 傷害減免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
