@@ -1448,19 +1448,30 @@ function handleParagonGlyphSocket(curNode) {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 	$("#modalCancel").on("click", () => {
-		updateGlyphBonusesFromNodes(boardHeader, -1);
-
-		delete paragonBoardGlyphData[boardIndex];
-		delete paragonBoardGlyphRankData[boardIndex];
-		curNode.nodeData.delete("nameOverride");
-		handleMinusButton(curNode);
-
-		updateGlyphBonusesFromNodes(boardHeader, 1);
-
-		if (pixiTooltip.children.length > 0) eraseTooltip(); // force tooltip erase, mostly for mobile
-
+		unequipParagonGlyph(curNode, false);
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
+}
+function unequipParagonGlyph(curNode, redrawTooltip = false) {
+	const boardIndex = curNode.nodeData.get("_boardIndex");
+	const boardHeader = curNode.nodeData.get("_boardHeader");
+
+	updateGlyphBonusesFromNodes(boardHeader, -1);
+
+	delete paragonBoardGlyphData[boardIndex];
+	delete paragonBoardGlyphRankData[boardIndex];
+	curNode.nodeData.delete("nameOverride");
+	handleMinusButton(curNode);
+
+	updateGlyphBonusesFromNodes(boardHeader, 1);
+
+	if (pixiTooltip.children.length > 0) {
+		if (redrawTooltip) {
+			drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+		} else {
+			eraseTooltip();
+		}
+	}
 }
 function handleBoardAttachmentNode(curNode) {
 	const nodeData = curNode.nodeData;
@@ -1591,13 +1602,11 @@ function handleEquipmentPanelButton(curNode) {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 	$("#modalCancel").on("click", () => {
-		unequipPanelPower(nodeId);
+		unequipPanelPower(curNode);
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 }
 function equipPanelPower(nodeId, codexId) {
-	console.log(nodeId);
-	console.log(codexId);
 	const curNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == nodeId);
 	const nodeData = curNode.nodeData;
 
@@ -1628,11 +1637,11 @@ function equipPanelPower(nodeId, codexId) {
 	curNode.scaleFactor = -1; // force redraw
 	redrawNode(curNode);
 }
-function unequipPanelPower(nodeId) {
-	delete equipmentPanelData[nodeId];
-
-	const curNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == nodeId);
+function unequipPanelPower(curNode) {
 	const nodeData = curNode.nodeData;
+	const nodeId = nodeData.get("id");
+
+	delete equipmentPanelData[nodeId];
 
 	if (curNode.slotName != undefined) {
 		nodeData.set("description", EQUIPMENT_PANEL_ITEM_DESC);
@@ -2576,7 +2585,13 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		} else {
 			node.on("click", () => handlePlusButton(node));
 		}
-		if (nodeData.get("nodeType") != "Socket" && groupName != EQUIPMENT_PANEL) node.on("rightclick", () => handleMinusButton(node));
+		if (nodeData.get("nodeType") == "Socket") {
+			node.on("rightclick", () => unequipParagonGlyph(node, true));
+		} else if (groupName == EQUIPMENT_PANEL) {
+			node.on("rightclick", () => unequipPanelPower(node));
+		} else {
+			node.on("rightclick", () => handleMinusButton(node));
+		}
 
 		node.cullable = true;
 		node.cursor = maxPoints > 0 ? "pointer" : "auto";
