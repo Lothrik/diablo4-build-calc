@@ -1756,9 +1756,7 @@ function canAllocate(curNode) {
 function updateNodePoints(curNode, newPoints) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	const maxPoints = curNode.nodeData.get("maxPoints");
-	if (maxPoints == 0) {
-		curNode.children[1].style.fontWeight = "bold";
-	} else {
+	if (maxPoints > 0) {
 		//console.assert(newPoints != allocatedPoints);
 
 		curNode.nodeData.set("allocatedPoints", newPoints);
