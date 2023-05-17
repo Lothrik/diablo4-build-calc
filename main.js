@@ -1569,7 +1569,8 @@ function handleEquipmentPanelButton(curNode) {
 	}
 
 	$("#fadeOverlay").removeClass("disabled");
-	$("#modalBox").html(`<div id="modalDiv1">${EQUIPMENT_PANEL_PROMPT_HEADER_PREFIX}[${curNode.nodeName}]${EQUIPMENT_PANEL_PROMPT_HEADER_SUFFIX}</div>`
+	const slotName = "slotName" in curNode ? curNode.slotName : curNode.nodeName;
+	$("#modalBox").html(`<div id="modalDiv1">${EQUIPMENT_PANEL_PROMPT_HEADER_PREFIX}[${slotName}]${EQUIPMENT_PANEL_PROMPT_HEADER_SUFFIX}</div>`
 		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions.length > 0 ? modalOptions : modalOptionsAll}</select></div>`
 		+ `<div id="modalDiv5">These results are filtered based on what you have selected in your Codex of Power.</div>`
 		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
