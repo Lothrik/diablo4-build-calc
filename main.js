@@ -1637,7 +1637,7 @@ function equipPanelPower(curNode, codexId) {
 	curNode.localizedName = (codexData.get("nameLocalized") instanceof Map
 		&& codexData.get("nameLocalized").has(activeLocale))
 		?  codexData.get("nameLocalized").get(activeLocale) : codexNode.nodeName;
-	curNode.displayName = `${curNode.nodeName}`;
+	curNode.displayName = `${curNode.nodeName} (${curNode.slotName})`;
 
 	nodeData.set("allocatedPoints", 1);
 
@@ -3004,8 +3004,8 @@ function drawAllNodes() {
 		2: "Gloves",
 		3: "Pants",
 		4: "Boots",
-		5: className == "barbarian" ? "2H Slashing Weapon" : null,
-		6: className == "rogue" ? "Ranged Weapon" : className == "barbarian" ? "2H Bludgeoning Weapon" : "Mainhand",
+		5: className == "barbarian" ? "2H Slashing" : null,
+		6: className == "rogue" ? "Ranged Weapon" : className == "barbarian" ? "2H Bludgeoning" : "Mainhand",
 		7: null,
 		8: "Amulet",
 		9: "Ring",
@@ -3025,8 +3025,8 @@ function drawAllNodes() {
 		"Boots": ["Mobility", "Utility", "Boots"],
 		"Amulet": ["Defensive", "Mobility", "Offensive", "Utility", "Amulet"],
 		"Ring": ["Offensive", "Resource", "Ring"],
-		"2H Slashing Weapon": ["Offensive", "2H Polearm", "2H Scythe", "2H Sword"],
-		"2H Bludgeoning Weapon": ["Offensive", "2H Mace", "2H Staff"],
+		"2H Slashing": ["Offensive", "2H Polearm", "2H Scythe", "2H Sword"],
+		"2H Bludgeoning": ["Offensive", "2H Mace", "2H Staff"],
 		"1H Weapon": ["Offensive"].concat(allOneHandWeaponTypes),
 		"Ranged Weapon": ["Offensive", "2H Bow", "2H Crossbow"],
 		"Mainhand": ["Offensive"].concat(allOneHandWeaponTypes, allTwoHandWeaponTypes),
@@ -3041,10 +3041,10 @@ function drawAllNodes() {
 			["id", `equip-${equipSlotId}`],
 			["maxPoints", 1],
 			["validEquipment", validEquipmentPerSlot[equipSlotName]],
-			["widthOverride", 600],
+			["widthOverride", 850],
 			["shapeSize", 1],
 			["shapeType", "rectangle"],
-			["x", equipSlotId < 7 ? equipmentPanelX - 575 : equipmentPanelX + 575],
+			["x", equipSlotId < 7 ? equipmentPanelX - 450 : equipmentPanelX + 450],
 			["y", equipmentPanelY + 150 * ((equipSlotId % 7) + 1)]
 		]);
 		drawNode(equipSlotName, equipSlotNode, EQUIPMENT_PANEL);
