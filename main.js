@@ -3191,7 +3191,7 @@ function drawTooltip(curNode, forceDraw) {
 		}
 	} else {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
-		if (curNode.groupName == CODEX_OF_POWER) {
+		if ([EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchText, captureText) => {
 				const outputText = captureText.split("/");
 				return `[${outputText.join(" - ")}]`;
