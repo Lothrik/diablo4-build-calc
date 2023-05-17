@@ -169,6 +169,10 @@ const GLYPH_SELECT_PROMPT_PREFIX = "Please select a glyph to socket in ";
 const GLYPH_SELECT_PROMPT_SUFFIX = "(You cannot socket the same glyph multiple times.)";
 const ASSIGN_INDEX_LABEL_TEXT = "Assign Index";
 const RESET_BOARD_LABEL_TEXT = "Reset Board";
+const EQUIPMENT_PANEL_PROMPT_HEADER_PREFIX = "Please select a legendary aspect or unique item to equip in your ";
+const EQUIPMENT_PANEL_PROMPT_HEADER_SUFFIX = " slot:";
+const EQUIPMENT_PANEL = "Equipment Panel";
+const EQUIPMENT_PANEL_ITEM_DESC = "Click to see a list of legendary aspects and unique items.";
 const CODEX_OF_POWER = "Codex of Power";
 const CODEX_OF_POWER_DESC_BEFORE = "Legendary aspects in this category can be applied to: ";
 const CODEX_OF_POWER_DESC_AFTER = "Unique items are only listed here for convenience, and cannot have their powers extracted.";
@@ -700,7 +704,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-4";
+const localVersion = "0.9.0.41428-5";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1006,8 +1010,16 @@ function handleSaveButton() {
 			nodeData.boardData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.boardData).replace(/"/g, ""));
 		}
 
+		if (Object.keys(equipmentPanelData).length > 0) {
+			nodeData.equipData = {};
+			for (const [equipSlot, codexPower] of Object.entries(equipmentPanelData)) {
+				nodeData.equipData[convertNodeId(equipSlot, EQUIPMENT_PANEL)] = convertNodeId(codexPower, CODEX_OF_POWER);
+			}
+			nodeData.equipData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.equipData).replace(/"/g, ""));
+		}
+
 		pixiNodes.forEach(curNode => {
-			if (curNode.groupName != undefined) {
+			if (![undefined, EQUIPMENT_PANEL].includes(curNode.groupName)) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 				if (allocatedPoints > 0) {
 					const nodeId = convertNodeId(curNode.nodeData.get("id"), curNode.groupName);
@@ -1032,10 +1044,10 @@ function handleReloadButton() {
 		// valid JSON always requires quotes around key names; we strip those (and object "1-values") to increase compression
 		nodeData = jsonData.includes('"') ? JSON.parse(jsonData) :
 			JSON.parse(jsonData
-				.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')					// restore key double quotes
-				.replace(/","/g, '":1,"') 											// restore object "1-values"
-				.replace(/("(?:className|boardData)":)([^,\[\]{}]+)/g, '$1"$2"')	// restore class name and paragon board data double quotes
-				.replace(/(,"[^:,]+")}/g, '$1:1}')									// restore final object value
+				.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')							// restore key double quotes
+				.replace(/","/g, '":1,"') 													// restore object "1-values"
+				.replace(/("(?:className|boardData|equipData)":)([^,\[\]{}]+)/g, '$1"$2"')	// restore class name and paragon board data double quotes
+				.replace(/(,"[^:,]+")}/g, '$1:1}')											// restore final object value
 			);
 	}
 
@@ -1067,6 +1079,17 @@ function handleReloadButton() {
 				if (nodeData.boardData.length > 4) for (const [boardIndex, glyphRank] of Object.entries(nodeData.boardData[4])) paragonBoardGlyphRankData[Number(boardIndex)] = Number(glyphRank);
 
 				delete nodeData.boardData;
+			}
+
+			if ("equipData" in nodeData) {
+				nodeData.equipData = JSON.parse(LZString.decompressFromEncodedURIComponent(nodeData.equipData)
+					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
+					.replace(/:([\w]+)(,|})/g, ':"$1"$2'));
+
+				for (const [equipSlot, codexPower] of Object.entries(nodeData.equipData)) {
+					equipPanelPower(convertNodeId(equipSlot, EQUIPMENT_PANEL, true), convertNodeId(codexPower, CODEX_OF_POWER, true));
+				}
+				delete nodeData.equipData;
 			}
 
 			delete nodeData.className;
@@ -1122,7 +1145,7 @@ function handleReloadButton() {
 			}
 
 			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
-			const sortedNodes = [...pixiNodes].filter(pixiNode => pixiNode.groupName != undefined).sort(compareNodes);
+			const sortedNodes = [...pixiNodes].filter(pixiNode => ![undefined, EQUIPMENT_PANEL].includes(pixiNode.groupName)).sort(compareNodes);
 			for (let i = 0, n = sortedNodes.length; i < n; i++) processNode(sortedNodes[i]);
 
 			// recalculate paragon attribute totals
@@ -1315,7 +1338,7 @@ function setParagonBoardEquipIndex(boardIndex, forcedEquipIndex = null) {
 }
 let paragonBoardGlyphData = {};
 let paragonBoardGlyphRankData = {};
-function equipParagonBoardGlyph(curNode) {
+function handleParagonGlyphSocket(curNode) {
 	if (curNode.nodeData.get("allocatedPoints") == 0 && getUnusedPoints(true) == 0) return;
 	handlePlusButton(curNode);
 
@@ -1439,7 +1462,7 @@ function equipParagonBoardGlyph(curNode) {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 }
-function equipParagonBoard(curNode) {
+function handleBoardAttachmentNode(curNode) {
 	const nodeData = curNode.nodeData;
 
 	const boardIndex = nodeData.get("_boardIndex");
@@ -1489,9 +1512,9 @@ function equipParagonBoard(curNode) {
 			const legendaryNode = boardContainer.children.find(pixiNode => pixiNode.nodeData.get("nodeType") == "Legendary");
 			const legendaryDesc = legendaryNode.nodeDesc.split("\n")[0];
 			if (gridLocation == undefined) {
-				modalOptions += `<option value="${unsortedIndex}">${boardName} &mdash; ${legendaryDesc}</option>`;
+				modalOptions += `<option value="${unsortedIndex}">${boardName} — ${legendaryDesc}</option>`;
 			} else {
-				modalOptions += `<option value="${unsortedIndex}">${boardName} &mdash; ${legendaryDesc} (${CURRENT_GRID_LOCATION_TEXT}: [${gridLocation}])</option>`;
+				modalOptions += `<option value="${unsortedIndex}">${boardName} — ${legendaryDesc} (${CURRENT_GRID_LOCATION_TEXT}: [${gridLocation}])</option>`;
 			}
 		}
 		unsortedIndex++;
@@ -1515,7 +1538,118 @@ function equipParagonBoard(curNode) {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 }
+let equipmentPanelData = {};
+function handleEquipmentPanelButton(curNode) {
+	const nodeData = curNode.nodeData;
+	const nodeId = nodeData.get("id");
+	const validEquipment = nodeData.get("validEquipment");
 
+	let modalOptions = "";
+	let modalOptionsAll = "";
+	const codexNodes = pixiNodes.filter(pixiNode => pixiNode.groupName == CODEX_OF_POWER);
+	for (const codexNode of codexNodes) {
+		const codexData = codexNode.nodeData;
+		if (codexData.get("maxPoints") > 0) {
+			const codexCategory = codexData.get("codexCategory");
+			const itemSlot = codexData.get("itemSlot");
+			const itemType = codexData.get("itemType");
+
+			if (itemType == "Legendary" && !validEquipment.includes(codexCategory)) continue;
+			if (itemType == "Unique" && !validEquipment.includes(itemSlot)) continue;
+
+			const codexDesc = codexNode.localizedDesc.split("\n\n— Location —\n")[0].replace(/{(.+?)}/g, (matchText, captureText) => {
+				const outputText = captureText.split("/");
+				return `[${outputText.join(" - ")}]`;
+			}).replace(/\n+/g, "[br]");
+
+			const modalOption = `<option value="${codexData.get("id")}">${codexNode.localizedName} — ${codexDesc}</option>`;
+			modalOptionsAll += modalOption;
+			if (codexData.get("allocatedPoints") > 0) modalOptions += modalOption;
+		}
+	}
+
+	$("#fadeOverlay").removeClass("disabled");
+	$("#modalBox").html(`<div id="modalDiv1">${EQUIPMENT_PANEL_PROMPT_HEADER_PREFIX}[${curNode.nodeName}]${EQUIPMENT_PANEL_PROMPT_HEADER_SUFFIX}</div>`
+		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions.length > 0 ? modalOptions : modalOptionsAll}</select></div>`
+		+ `<div id="modalDiv5">These results are filtered based on what you have selected in your Codex of Power.</div>`
+		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
+		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
+
+	$("#modalSelect").select2({
+		dropdownParent: $("#modalDiv2"),
+		escapeMarkup: data => data,
+		templateResult: data => data.text.replaceAll("[br]", oldWidth < 1400 ? " " : "<br>"),
+		templateSelection: data => data.text.replaceAll("[br]", " ")
+	});
+	applyZoomLevel(); // hacky workaround for select2 transform bug
+
+	if (equipmentPanelData[nodeId] != undefined) $("#modalSelect").val(equipmentPanelData[nodeId]).trigger("change");
+
+	$("#modalConfirm").on("click", () => {
+		equipPanelPower(nodeId, $("#modalSelect").val());
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+	$("#modalCancel").on("click", () => {
+		unequipPanelPower(nodeId);
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+}
+function equipPanelPower(nodeId, codexId) {
+	console.log(nodeId);
+	console.log(codexId);
+	const curNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == nodeId);
+	const nodeData = curNode.nodeData;
+
+	equipmentPanelData[nodeId] = codexId;
+
+	const codexNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == codexId);
+	const codexData = codexNode.nodeData;
+
+	const activeLocale = readCookie("activeLocale", "enUS");
+
+	nodeData.set("description", codexData.get("description"));
+	nodeData.set("descriptionLocalized", codexData.get("descriptionLocalized"));
+	curNode.nodeDesc = codexData.get("description");
+	curNode.localizedDesc = (codexData.get("descriptionLocalized") instanceof Map
+		&& codexData.get("descriptionLocalized").has(activeLocale))
+		? codexData.get("descriptionLocalized").get(activeLocale) : codexNode.nodeDesc;
+
+	nodeData.set("nameLocalized", codexData.get("nameLocalized"));
+	if (curNode.slotName == undefined) curNode.slotName = curNode.nodeName;
+	curNode.nodeName = codexNode.nodeName;
+	curNode.localizedName = (codexData.get("nameLocalized") instanceof Map
+		&& codexData.get("nameLocalized").has(activeLocale))
+		?  codexData.get("nameLocalized").get(activeLocale) : codexNode.nodeName;
+	curNode.displayName = `${curNode.nodeName}`;
+
+	nodeData.set("allocatedPoints", 1);
+
+	curNode.scaleFactor = -1; // force redraw
+	redrawNode(curNode);
+}
+function unequipPanelPower(nodeId) {
+	delete equipmentPanelData[nodeId];
+
+	const curNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == nodeId);
+	const nodeData = curNode.nodeData;
+
+	if (curNode.slotName != undefined) {
+		nodeData.set("description", EQUIPMENT_PANEL_ITEM_DESC);
+		nodeData.set("descriptionLocalized", EQUIPMENT_PANEL_ITEM_DESC);
+		curNode.nodeDesc = EQUIPMENT_PANEL_ITEM_DESC;
+		curNode.localizedDesc = EQUIPMENT_PANEL_ITEM_DESC;
+
+		nodeData.delete("nameLocalized");
+		curNode.nodeName = curNode.slotName;
+		curNode.localizedName = curNode.slotName;
+		curNode.displayName = curNode.slotName;
+	}
+
+	nodeData.set("allocatedPoints", 0);
+
+	curNode.scaleFactor = -1; // force redraw
+	redrawNode(curNode);
+}
 // returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
 function getNodePosition(curNode) {
 	if (curNode.groupName == undefined) {
@@ -1810,7 +1944,7 @@ function handlePlusButton(curNode) {
 				}
 				pixiAllocatedParagonPoints += paragonNodeValue;
 				updateCharacterLevel();
-				if (curNode.nodeData.get("nodeType") == "Gate") equipParagonBoard(curNode);
+				if (curNode.nodeData.get("nodeType") == "Gate") handleBoardAttachmentNode(curNode);
 			}
 		}
 	} else {
@@ -2427,8 +2561,12 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		if (maxPoints == 1) {
 			if (nodeData.get("nodeType") == "Socket") {
 				node
-					.on("click", () => equipParagonBoardGlyph(node))
-					.on("tap", () => equipParagonBoardGlyph(node));
+					.on("click", () => handleParagonGlyphSocket(node))
+					.on("tap", () => handleParagonGlyphSocket(node));
+			} else if (groupName == EQUIPMENT_PANEL) {
+				node
+					.on("click", () => handleEquipmentPanelButton(node))
+					.on("tap", () => handleEquipmentPanelButton(node));
 			} else {
 				node
 					.on("click", () => handleToggleButton(node))
@@ -2437,7 +2575,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		} else {
 			node.on("click", () => handlePlusButton(node));
 		}
-		if (nodeData.get("nodeType") != "Socket") node.on("rightclick", () => handleMinusButton(node));
+		if (nodeData.get("nodeType") != "Socket" && groupName != EQUIPMENT_PANEL) node.on("rightclick", () => handleMinusButton(node));
 
 		node.cullable = true;
 		node.cursor = maxPoints > 0 ? "pointer" : "auto";
@@ -2599,7 +2737,7 @@ function drawAllNodes() {
 				groupNode.set("colorOverride", 0xFFFFFF);
 				groupNode.set("shapeSize", 1);
 				groupNode.set("shapeType", "rectangle");
-				groupNode.set("widthOverride", 1600);
+				groupNode.set("widthOverride", 1700);
 				drawNode(groupName, groupNode);
 				const nodeSpacingX = 150;
 				const nodeSpacingY = 150;
@@ -2614,7 +2752,7 @@ function drawAllNodes() {
 						["nameOverride", minionData.get("name")],
 						["shapeSize", 1],
 						["shapeType", "rectangle"],
-						["widthOverride", 400],
+						["widthOverride", 505],
 						["x", extraX],
 						["y", nodeSpacingY]
 					]);
@@ -2824,6 +2962,75 @@ function drawAllNodes() {
 		$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
 	}
 
+	const equipmentPanelX = -4000;
+	const equipmentPanelY = 0;
+
+	const equipmentPanelNode = new Map([
+		["colorOverride", 0xFFFFFF],
+		["requiredPoints", 0],
+		["widthOverride", 1750],
+		["shapeSize", 1],
+		["shapeType", "rectangle"],
+		["x", equipmentPanelX],
+		["y", equipmentPanelY]
+	]);
+
+	drawNode(EQUIPMENT_PANEL, equipmentPanelNode);
+
+	const equipmentSlots = {
+		0: "Helmet",
+		1: "Chest",
+		2: "Gloves",
+		3: "Pants",
+		4: "Boots",
+		5: className == "barbarian" ? "2H Slashing Weapon" : null,
+		6: className == "rogue" ? "Ranged Weapon" : className == "barbarian" ? "2H Bludgeoning Weapon" : "Mainhand",
+		7: null,
+		8: "Amulet",
+		9: "Ring",
+		10: "Ring",
+		11: null,
+		12: ["barbarian", "rogue"].includes(className) ? "1H Weapon" : null,
+		13: ["barbarian", "rogue"].includes(className) ? "1H Weapon" : "Offhand"
+	};
+
+	const allOneHandWeaponTypes = ["1H Axe", "1H Dagger", "1H Mace", "1H Scythe", "1H Sword", "1H Wand"];
+	const allTwoHandWeaponTypes = ["2H Axe", "2H Bow", "2H Crossbow", "2H Mace", "2H Polearm", "2H Scythe", "2H Staff", "2H Sword"];
+	const validEquipmentPerSlot = {
+		"Helmet": ["Defensive", "Utility", "Helm"],
+		"Chest": ["Defensive", "Utility", "Chest"],
+		"Gloves": ["Offensive", "Utility", "Gloves"],
+		"Pants": ["Defensive", "Pants"],
+		"Boots": ["Mobility", "Utility", "Boots"],
+		"Amulet": ["Defensive", "Mobility", "Offensive", "Utility", "Amulet"],
+		"Ring": ["Offensive", "Resource", "Ring"],
+		"2H Slashing Weapon": ["Offensive", "2H Polearm", "2H Scythe", "2H Sword"],
+		"2H Bludgeoning Weapon": ["Offensive", "2H Mace", "2H Staff"],
+		"1H Weapon": ["Offensive"].concat(allOneHandWeaponTypes),
+		"Ranged Weapon": ["Offensive", "2H Bow", "2H Crossbow"],
+		"Mainhand": ["Offensive"].concat(allOneHandWeaponTypes, allTwoHandWeaponTypes),
+		"Offhand": [className == "necromancer" ? "Defensive" : null, "Offensive", "Utility"].concat(allOneHandWeaponTypes)
+	};
+
+	for (let [equipSlotId, equipSlotName] of Object.entries(equipmentSlots)) {
+		if (equipSlotName == null) continue;
+		const equipSlotNode = new Map([
+			["allocatedPoints", 0],
+			["description", EQUIPMENT_PANEL_ITEM_DESC],
+			["id", `equip-${equipSlotId}`],
+			["maxPoints", 1],
+			["validEquipment", validEquipmentPerSlot[equipSlotName]],
+			["widthOverride", 600],
+			["shapeSize", 1],
+			["shapeType", "rectangle"],
+			["x", equipSlotId < 7 ? equipmentPanelX - 575 : equipmentPanelX + 575],
+			["y", equipmentPanelY + 150 * ((equipSlotId % 7) + 1)]
+		]);
+		drawNode(equipSlotName, equipSlotNode, EQUIPMENT_PANEL);
+	}
+
+	$("#groupSelector").append(`<option value="${EQUIPMENT_PANEL.replace(/\s/g, "").toLowerCase()}">${EQUIPMENT_PANEL}</option>`);
+
 	const sortedCodexItemTypeIndex = {
 		"Legendary": 0,
 		"Unique": 1
@@ -2843,7 +3050,7 @@ function drawAllNodes() {
 
 	if (Object.keys(unsortedCodex).length > 0) {
 		const startX = -4000;
-		const startY = 0;
+		const startY = 1200;
 		const nodeWidth = 400;
 		const nodeSpacingX = nodeWidth + 50;
 		const nodeSpacingY = 150;
@@ -3086,13 +3293,17 @@ function drawTooltip(curNode, forceDraw) {
 
 	let nodeHeader = curNode.nodeData.get("nameOverride");
 	if (nodeHeader == undefined) {
-		nodeHeader = curNode.localizedName;
-		const itemSlot = curNode.nodeData.get("itemSlot");
-		const itemType = curNode.nodeData.get("itemType");
-		if (itemSlot != undefined) {
-			nodeHeader += ` (${itemType} ${itemSlot})`;
-		} else if (itemType != undefined) {
-			nodeHeader += ` (${itemType})`;
+		if (curNode.groupName == EQUIPMENT_PANEL && curNode.slotName != undefined) {
+			nodeHeader = `${curNode.localizedName} (${curNode.slotName})`;
+		} else {
+			nodeHeader = curNode.localizedName;
+			const itemSlot = curNode.nodeData.get("itemSlot");
+			const itemType = curNode.nodeData.get("itemType");
+			if (itemSlot != undefined) {
+				nodeHeader += ` (${itemType} ${itemSlot})`;
+			} else if (itemType != undefined) {
+				nodeHeader += ` (${itemType})`;
+			}
 		}
 	}
 	const tooltipText1 = new PIXI.Text(nodeHeader, {
@@ -3413,6 +3624,17 @@ function convertNodeId(nodeData, groupName, decodeBase = false) {
 			const yPosition = convertBase(nodeData.slice(-1), 62, 10);
 			return `paragon-${boardIndex}-${xPosition}-${yPosition}`;
 		}
+	} else if (groupName == EQUIPMENT_PANEL) {
+		if (nodeData.includes("equip")) {
+			if (decodeBase) return nodeData;
+			const equipArray = nodeData.split("-");
+			const equipId = convertBase(equipArray[1], 10, 62);
+			return `e${equipId}`;
+		} else {
+			if (!decodeBase) return nodeData;
+			const equipId = convertBase(nodeData.slice(1), 62, 10);
+			return `equip-${equipId}`;
+		}
 	} else if (groupName == CODEX_OF_POWER) {
 		if (nodeData.includes("codex")) {
 			if (decodeBase) return nodeData;
@@ -3476,6 +3698,7 @@ function rebuildCanvas() {
 	paragonBoardRotationData = {};
 	paragonBoardGlyphData = {};
 	paragonBoardGlyphRankData = {};
+	equipmentPanelData = {};
 
 	drawBackground();
 	drawAllNodes();
