@@ -1086,8 +1086,15 @@ function handleReloadButton() {
 					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
 					.replace(/:([\w]+)(,|})/g, ':"$1"$2'));
 
-				for (const [equipSlot, codexPower] of Object.entries(nodeData.equipData)) {
-					equipPanelPower(convertNodeId(equipSlot, EQUIPMENT_PANEL, true), convertNodeId(codexPower, CODEX_OF_POWER, true));
+				for (let i = 0; i < 14; i++) {
+					const equipId = `equip-${i}`;
+					const equipNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == equipId);
+					const codexId = nodeData.equipData[convertNodeId(equipId, EQUIPMENT_PANEL)];
+					if (codexId == null) {
+						if (equipNode != null) unequipPanelPower(equipNode);
+					} else {
+						equipPanelPower(equipNode, convertNodeId(codexId, CODEX_OF_POWER, true));
+					}
 				}
 				delete nodeData.equipData;
 			}
@@ -1598,7 +1605,7 @@ function handleEquipmentPanelButton(curNode) {
 	if (equipmentPanelData[nodeId] != undefined) $("#modalSelect").val(equipmentPanelData[nodeId]).trigger("change");
 
 	$("#modalConfirm").on("click", () => {
-		equipPanelPower(nodeId, $("#modalSelect").val());
+		equipPanelPower(curNode, $("#modalSelect").val());
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 	$("#modalCancel").on("click", () => {
@@ -1606,9 +1613,9 @@ function handleEquipmentPanelButton(curNode) {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 }
-function equipPanelPower(nodeId, codexId) {
-	const curNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == nodeId);
+function equipPanelPower(curNode, codexId) {
 	const nodeData = curNode.nodeData;
+	const nodeId = nodeData.get("id");
 
 	equipmentPanelData[nodeId] = codexId;
 
