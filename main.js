@@ -640,9 +640,9 @@ function handleDetailsButton(event) {
 	detailsMode = !detailsMode;
 	$("#detailsButton span").text(`[${detailsMode ? HIDE_DETAILS_WINDOW_TEXT : SHOW_DETAILS_WINDOW_TEXT}]`);
 	writeCookie("detailsMode", detailsMode);
-	refreshDetailsWindow();
+	updateDetailsWindow();
 }
-function refreshDetailsWindow() {
+function updateDetailsWindow() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (detailsMode && className != "none") {
 		const savedScrollPosition = $("#detailsWindowBox").scrollTop();
@@ -1759,7 +1759,7 @@ function updateCharacterLevel() {
 		$("#renownLevel").text(renownLevel > 0 ? ` (Renown ${renownLevel})` : "");
 	}
 
-	refreshDetailsWindow();
+	updateDetailsWindow();
 }
 function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	const startPoints = startNode.nodeData.get("allocatedPoints") || 0;
@@ -1920,7 +1920,7 @@ function updateGlyphBonusesFromNodes(boardHeader, updateVector, validTypes) {
 		if (isNodeInGlyphRadius(pixiNode)) updateParagonStatTotals(pixiNode, pixiPoints * updateVector);
 	}
 
-	refreshDetailsWindow();
+	updateDetailsWindow();
 }
 var glyphRadiusAttributeTotals = {};
 var paragonStatTotals = {
@@ -2008,11 +2008,12 @@ function updateParagonStatTotals(curNode, diffPoints) {
 			statPrefix = `Conjuration Skills gain ${statPrefix}`;
 		}
 
-		const statNameFull = `${statPrefix}{#}${statSuffix}${statName}`;
-
+		let statNameFull;
 		if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) {
-			if (isNodeInGlyphRadius(curNode)) glyphRadiusAttributeTotals[boardIndex][statName] += statValue * diffPoints;
+			statNameFull = statName;
+			if (isNodeInGlyphRadius(curNode)) glyphRadiusAttributeTotals[boardIndex][statNameFull] += statValue * diffPoints;
 		} else if (!(statNameFull in paragonStatTotals)) {
+			statNameFull = `${statPrefix}{#}${statSuffix}${statName}`;
 			paragonStatTotals[statNameFull] = {
 				name: statName,
 				prefix: statPrefix,
@@ -2021,7 +2022,6 @@ function updateParagonStatTotals(curNode, diffPoints) {
 				maxValue: 0
 			};
 		}
-		if (!(statNameFull in paragonStatTotals)) continue;
 
 		if (descLine.includes("Damage Reduction")) {
 			if (!descMatch[4].includes(" if requirements met:")) {
@@ -3850,7 +3850,7 @@ function rebuildCanvas() {
 	$("#charLevel").text("1");
 	$("#renownLevel").empty();
 
-	refreshDetailsWindow();
+	updateDetailsWindow();
 }
 function resizeCanvas() {
 	$("#header, #footer").css("display", window.innerHeight < 400 ? "none" : "block");
@@ -3934,7 +3934,7 @@ $(document).ready(function() {
 		$(window).on("select2:open", e => $(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus()));
 	}
 
-	refreshDetailsWindow();
+	updateDetailsWindow();
 	try {
 		handleReloadButton();
 	} catch (e) {
