@@ -2012,15 +2012,17 @@ function updateParagonStatTotals(curNode, diffPoints) {
 		if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) {
 			statNameFull = statName;
 			if (isNodeInGlyphRadius(curNode)) glyphRadiusAttributeTotals[boardIndex][statNameFull] += statValue * diffPoints;
-		} else if (!(statNameFull in paragonStatTotals)) {
+		} else {
 			statNameFull = `${statPrefix}{#}${statSuffix}${statName}`;
-			paragonStatTotals[statNameFull] = {
-				name: statName,
-				prefix: statPrefix,
-				suffix: statSuffix,
-				minValue: 0,
-				maxValue: 0
-			};
+			if (!(statNameFull in paragonStatTotals)) {
+				paragonStatTotals[statNameFull] = {
+					name: statName,
+					prefix: statPrefix,
+					suffix: statSuffix,
+					minValue: 0,
+					maxValue: 0
+				};
+			}
 		}
 
 		if (descLine.includes("Damage Reduction")) {
