@@ -3096,7 +3096,7 @@ function drawAllNodes() {
 		"Boots": ["Mobility", "Utility", "Boots"],
 		"Amulet": ["Defensive", "Mobility", "Offensive", "Utility", "Amulet"],
 		"Ring": ["Offensive", "Resource", "Ring"],
-		"2H Slashing": ["Offensive", "2H Polearm", "2H Scythe", "2H Sword"],
+		"2H Slashing": ["Offensive", "2H Axe", "2H Polearm", "2H Scythe", "2H Sword"],
 		"2H Bludgeoning": ["Offensive", "2H Mace", "2H Staff"],
 		"1H Weapon": ["Offensive"].concat(allOneHandWeaponTypes),
 		"Ranged Weapon": ["Offensive", "2H Bow", "2H Crossbow"],
