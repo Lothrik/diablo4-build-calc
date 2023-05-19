@@ -1955,13 +1955,13 @@ function updateParagonStatTotals(curNode, diffPoints) {
 		if (descLines.length < 2) return;
 		descLines[1] = descLines[1].replace(/you(?: and your minions)? deal /, "").replace(/\.$/, "");
 		if (descLines[0].includes("Strength")) {
-			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Strength"] * 0.2 ];
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Strength"] * 0.2) ];
 		} else if (descLines[0].includes("Intelligence")) {
-			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 0.2 ];
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 0.2) ];
 		} else if (descLines[0].includes("Willpower")) {
-			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Willpower"] * 0.2 ];
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Willpower"] * 0.2) ];
 		} else if (descLines[0].includes("Dexterity")) {
-			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Dexterity"] * 0.2 ];
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Dexterity"] * 0.2) ];
 		}
 	} else {
 		descLines = curNode.nodeDesc.split(/\r?\n/);
