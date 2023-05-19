@@ -646,7 +646,11 @@ function refreshDetailsWindow() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (detailsMode && className != "none") {
 		const savedScrollPosition = $("#detailsWindowBox").scrollTop();
-		const sortedParagonStatTotals = Object.keys(paragonStatTotals).sort((a, b) => a.localeCompare(b));
+		const sortedParagonStatTotals = Object.keys(paragonStatTotals).sort((a, b) => {
+			const aName = "name" in paragonStatTotals[a] ? paragonStatTotals[a].name : a;
+			const bName = "name" in paragonStatTotals[b] ? paragonStatTotals[b].name : b;
+			return aName.localeCompare(bName);
+		});
 		function summarizeParagonStats(attributeMode = false, attributes) {
 			let outputHTML = "";
 			let baseStr = 7;
@@ -688,9 +692,9 @@ function refreshDetailsWindow() {
 					if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
 					if (statData.maxValue == 0) continue;
 					if (statData.maxValue > statData.minValue) {
-						outputHTML += `<div>${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statName}</div>`;
+						outputHTML += `<div>${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}</div>`;
 					} else {
-						outputHTML += `<div>${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statName}</div>`;
+						outputHTML += `<div>${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}</div>`;
 					}
 				}
 			}
@@ -730,7 +734,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-6";
+const localVersion = "0.9.0.41428-7";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1194,7 +1198,7 @@ function handleReloadButton() {
 			for (const pixiNode of pixiNodes) {
 				if (pixiNode.groupName != PARAGON_BOARD) continue;
 				const allocatedPoints = pixiNode.nodeData.get("allocatedPoints");
-				updateParagonStatTotals(pixiNode, allocatedPoints);
+				if (pixiNode.nodeData.get("nodeType") != "Socket") updateParagonStatTotals(pixiNode, allocatedPoints);
 			}
 
 			updateCharacterLevel();
@@ -1375,12 +1379,13 @@ function setParagonBoardEquipIndex(boardIndex, forcedEquipIndex = null) {
 let paragonBoardGlyphData = {};
 let paragonBoardGlyphRankData = {};
 function handleParagonGlyphSocket(curNode) {
-	if (curNode.nodeData.get("allocatedPoints") == 0 && getUnusedPoints(true) == 0) return;
+	const nodeData = curNode.nodeData;
+	if (nodeData.get("allocatedPoints") == 0 && getUnusedPoints(true) == 0) return;
 	handlePlusButton(curNode);
 
 	const activeLocale = readCookie("activeLocale", "enUS");
-	const boardIndex = curNode.nodeData.get("_boardIndex");
-	const boardHeader = curNode.nodeData.get("_boardHeader");
+	const boardIndex = nodeData.get("_boardIndex");
+	const boardHeader = nodeData.get("_boardHeader");
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
 
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
@@ -1465,7 +1470,8 @@ function handleParagonGlyphSocket(curNode) {
 	updateGlyphDescText();
 
 	$("#modalConfirm").on("click", () => {
-		updateGlyphBonusesFromNodes(boardHeader, -1);
+		updateGlyphBonusesFromNodes(boardHeader, -1, ["Magic", "Rare"]);
+		updateGlyphBonusesFromNodes(boardHeader, -1, ["Socket"]);
 
 		const glyphIndex = Number($("#modalSelect").val());
 		paragonBoardGlyphData[boardIndex] = glyphIndex;
@@ -1477,7 +1483,8 @@ function handleParagonGlyphSocket(curNode) {
 			delete paragonBoardGlyphRankData[boardIndex];
 		}
 
-		updateGlyphBonusesFromNodes(boardHeader, 1);
+		updateGlyphBonusesFromNodes(boardHeader, 1, ["Socket"]);
+		updateGlyphBonusesFromNodes(boardHeader, 1, ["Magic", "Rare"]);
 
 		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true); // force tooltip redraw, mostly for mobile
 
@@ -1489,17 +1496,18 @@ function handleParagonGlyphSocket(curNode) {
 	});
 }
 function unequipParagonGlyph(curNode, redrawTooltip = false) {
-	const boardIndex = curNode.nodeData.get("_boardIndex");
-	const boardHeader = curNode.nodeData.get("_boardHeader");
+	const nodeData = curNode.nodeData;
+	const boardIndex = nodeData.get("_boardIndex");
+	const boardHeader = nodeData.get("_boardHeader");
 
-	updateGlyphBonusesFromNodes(boardHeader, -1);
+	updateGlyphBonusesFromNodes(boardHeader, -1, ["Magic", "Rare", "Socket"]);
 
 	delete paragonBoardGlyphData[boardIndex];
 	delete paragonBoardGlyphRankData[boardIndex];
-	curNode.nodeData.delete("nameOverride");
+	nodeData.delete("nameOverride");
 	handleMinusButton(curNode);
 
-	updateGlyphBonusesFromNodes(boardHeader, 1);
+	updateGlyphBonusesFromNodes(boardHeader, 1, ["Magic", "Rare"]);
 
 	if (pixiTooltip.children.length > 0) {
 		if (redrawTooltip) {
@@ -1888,6 +1896,7 @@ function getNodeGlyphMultiplier(curNode) {
 		if (boardIndex in paragonBoardGlyphData && isNodeInGlyphRadius(curNode)) {
 			const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
 			const glyphData = getGlyphData(paragonBoardGlyphData[boardIndex]);
+			// TODO: add support for "bonus to their Non-physical damage and damage reduction modifiers" and similar effects
 			if (glyphData["desc"].toLowerCase().includes(`bonus to all ${nodeType.toLowerCase()} nodes`)) {
 				const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchText, captureText) => {
 					const outputText = captureText.split("/");
@@ -1899,13 +1908,13 @@ function getNodeGlyphMultiplier(curNode) {
 	}
 	return 1;
 }
-function updateGlyphBonusesFromNodes(boardHeader, updateVector) {
+function updateGlyphBonusesFromNodes(boardHeader, updateVector, validTypes) {
 	const boardContainer = boardHeader.nodeData.get("boardContainer");
 
 	for (let i = 0, n = boardContainer.children.length; i < n; i++) {
 		const pixiNode = boardContainer.children[i];
 		const pixiType = pixiNode.nodeData.get("nodeType");
-		if (pixiType != "Magic" && pixiType != "Rare") continue;
+		if (!validTypes.includes(pixiType)) continue;
 		const pixiPoints = pixiNode.nodeData.get("allocatedPoints");
 		if (pixiPoints == 0) continue;
 		if (isNodeInGlyphRadius(pixiNode)) updateParagonStatTotals(pixiNode, pixiPoints * updateVector);
@@ -1921,63 +1930,127 @@ var paragonStatTotals = {
 	"Dexterity": { minValue: 0, maxValue: 0 }
 };
 function updateParagonStatTotals(curNode, diffPoints) {
-	if (curNode.nodeDesc == undefined || diffPoints == 0 || curNode.nodeData.get("nodeType") == "Legendary") return;
+	if (diffPoints == 0) return;
+	const nodeType = curNode.nodeData.get("nodeType");
+	if (!["Normal", "Magic", "Rare", "Gate", "Socket"].includes(nodeType)) return;
 
+	const boardIndex = curNode.nodeData.get("_boardIndex");
+	const boardHeader = curNode.nodeData.get("_boardHeader");
+	const glyphSocket = boardHeader.nodeData.get("glyphSocket");
 	const glyphMultiplier = getNodeGlyphMultiplier(curNode);
 
-	const descLines = curNode.nodeDesc.split(/\r?\n/);
+	if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
+
+	let descLines = "";
+	if (nodeType == "Socket") {
+		const glyphIndex = paragonBoardGlyphData[boardIndex];
+		const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
+		const glyphData = getGlyphData(glyphIndex);
+		if (glyphData != undefined) {
+			descLines = glyphData.desc.replace(/{(.+?)}/g, (matchText, captureText) => {
+				const outputText = captureText.split("/");
+				return outputText[glyphRank > 0 ? Math.min(glyphRank, outputText.length) - 1 : 0];
+			}).split(/within range, /);
+		}
+		if (descLines.length < 2) return;
+		descLines[1] = descLines[1].replace(/you(?: and your minions)? deal /, "").replace(/\.$/, "");
+		if (descLines[0].includes("Strength")) {
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * Math.floor(glyphRadiusAttributeTotals[boardIndex]["Strength"] * 0.2)) ];
+		} else if (descLines[0].includes("Intelligence")) {
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * Math.floor(glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 0.2)) ];
+		} else if (descLines[0].includes("Willpower")) {
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * Math.floor(glyphRadiusAttributeTotals[boardIndex]["Willpower"] * 0.2)) ];
+		} else if (descLines[0].includes("Dexterity")) {
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * Math.floor(glyphRadiusAttributeTotals[boardIndex]["Dexterity"] * 0.2)) ];
+		}
+	} else {
+		descLines = curNode.nodeDesc.split(/\r?\n/);
+	}
+
+	if (nodeType != "Socket" && isNodeInGlyphRadius(curNode)) updateParagonStatTotals(glyphSocket, -1);
+
 	for (let i = 0, n = descLines.length; i < n; i++) {
 		const descLine = descLines[i];
 		if (descLine.length == 0) continue;
 
-		const descMatch = /(\+?)(\d*\.?\d+)([^A-Z]+)(.*)/.exec(descLine);
+		const descMatch = /(\+?)(\d*\.?\d+)([^a-zA-Z]+)(.*)/.exec(descLine);
 		if (descMatch == undefined) continue;
 
-		const statName = descMatch[4].split(" if requirements met:")[0];
 		const statValue = Math.round(parseFloat(descMatch[2]) * glyphMultiplier * 2) / 2;
 
-		if (!(statName in paragonStatTotals)) {
-			paragonStatTotals[statName] = {
-				prefix: descMatch[1],
-				suffix: descMatch[3],
+		let statName = descMatch[4].split(" if requirements met:")[0];
+		let statPrefix = descMatch[1];
+		let statSuffix = descMatch[3];
+
+		if (descLine.includes("Core Skills deal")) {
+			statPrefix = `Core Skills deal ${statPrefix}`;
+		} else if (descLine.includes("Skills that Swap")) {
+			statPrefix = `Skills that Swap to a different Weapon deal ${statPrefix}`;
+		} else if (descLine.includes("Companion Skills deal")) {
+			statPrefix = `Companion Skills deal ${statPrefix}`;
+		} else if (descLine.includes("Golems gain")) {
+			statPrefix = `Golems gain ${statPrefix}`;
+		} else if (descLine.includes("Skeleton Mages deal")) {
+			statPrefix = `Skeleton Mages deal ${statPrefix}`;
+		} else if (descLine.includes("Skeletal Warriors deal")) {
+			statPrefix = `Skeletal Warriors deal ${statPrefix}`;
+		} else if (descLine.includes("Cutthroat Skills deal")) {
+			statPrefix = `Cutthroat Skills deal ${statPrefix}`;
+		} else if (descLine.includes("Marksman Skills deal")) {
+			statPrefix = `Marksman Skills deal ${statPrefix}`;
+		} else if (descLine.includes("Trap Skills deal")) {
+			statPrefix = `Trap Skills deal ${statPrefix}`;
+		} else if (descLine.includes("Mastery Skills gain")) {
+			statPrefix = `Mastery Skills gain ${statPrefix}`;
+		} else if (descLine.includes("Crackling Energy deals")) {
+			statPrefix = `Crackling Energy deals ${statPrefix}`;
+		} else if (descLine.includes("Conjuration Skills gain")) {
+			statPrefix = `Conjuration Skills gain ${statPrefix}`;
+		}
+
+		const statNameFull = `${statPrefix}{#}${statSuffix}${statName}`;
+
+		if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) {
+			if (isNodeInGlyphRadius(curNode)) glyphRadiusAttributeTotals[boardIndex][statName] += statValue * diffPoints;
+		} else if (!(statNameFull in paragonStatTotals)) {
+			paragonStatTotals[statNameFull] = {
+				name: statName,
+				prefix: statPrefix,
+				suffix: statSuffix,
 				minValue: 0,
 				maxValue: 0
 			};
 		}
-
-
-		if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName) && isNodeInGlyphRadius(curNode)) {
-			const boardIndex = curNode.nodeData.get("_boardIndex");
-			if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
-			glyphRadiusAttributeTotals[boardIndex][statName] += statValue * diffPoints;
-		}
+		if (!(statNameFull in paragonStatTotals)) continue;
 
 		if (descLine.includes("Damage Reduction")) {
 			if (!descMatch[4].includes(" if requirements met:")) {
-				paragonStatTotals[statName].minValue = paragonStatTotals[statName].minValue > 0 ? 1 - paragonStatTotals[statName].minValue * 0.01 : 1;
+				paragonStatTotals[statNameFull].minValue = paragonStatTotals[statNameFull].minValue > 0 ? 1 - paragonStatTotals[statNameFull].minValue * 0.01 : 1;
 				if (diffPoints > 0) {
-					paragonStatTotals[statName].minValue *= 1 - statValue * 0.01;
+					paragonStatTotals[statNameFull].minValue *= 1 - statValue * 0.01;
 				} else {
-					paragonStatTotals[statName].minValue /= 1 - statValue * 0.01;
+					paragonStatTotals[statNameFull].minValue /= 1 - statValue * 0.01;
 				}
-				paragonStatTotals[statName].minValue = (1 - paragonStatTotals[statName].minValue) * 100;
+				paragonStatTotals[statNameFull].minValue = (1 - paragonStatTotals[statNameFull].minValue) * 100;
 			}
-			paragonStatTotals[statName].maxValue = paragonStatTotals[statName].maxValue > 0 ? 1 - paragonStatTotals[statName].maxValue * 0.01 : 1;
+			paragonStatTotals[statNameFull].maxValue = paragonStatTotals[statNameFull].maxValue > 0 ? 1 - paragonStatTotals[statNameFull].maxValue * 0.01 : 1;
 			if (diffPoints > 0) {
-				paragonStatTotals[statName].maxValue *= 1 - statValue * 0.01;
+				paragonStatTotals[statNameFull].maxValue *= 1 - statValue * 0.01;
 			} else {
-				paragonStatTotals[statName].maxValue /= 1 - statValue * 0.01;
+				paragonStatTotals[statNameFull].maxValue /= 1 - statValue * 0.01;
 			}
-			paragonStatTotals[statName].maxValue = (1 - paragonStatTotals[statName].maxValue) * 100;
+			paragonStatTotals[statNameFull].maxValue = (1 - paragonStatTotals[statNameFull].maxValue) * 100;
 		} else {
 			if (!descMatch[4].includes(" if requirements met:")) {
-				paragonStatTotals[statName].minValue += statValue * diffPoints;
+				paragonStatTotals[statNameFull].minValue += statValue * diffPoints;
 			}
-			paragonStatTotals[statName].maxValue += statValue * diffPoints;
+			paragonStatTotals[statNameFull].maxValue += statValue * diffPoints;
 		}
 
 		if (descMatch[4].includes(" if requirements met:")) break;
 	}
+
+	if (nodeType != "Socket" && isNodeInGlyphRadius(curNode)) updateParagonStatTotals(glyphSocket, 1);
 }
 function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
@@ -2021,6 +2094,7 @@ function handlePlusButton(curNode) {
 		if (newPoints != allocatedPoints) {
 			updateNodePoints(curNode, newPoints);
 			if (curNode.groupName == PARAGON_BOARD) {
+				const nodeType = curNode.nodeData.get("nodeType");
 				updateParagonStatTotals(curNode, newPoints - allocatedPoints);
 				let paragonNodeValue = 1;
 				if (curNode.nodeName == "Board Attachment Gate") {
@@ -2030,7 +2104,7 @@ function handlePlusButton(curNode) {
 				}
 				pixiAllocatedParagonPoints += paragonNodeValue;
 				updateCharacterLevel();
-				if (curNode.nodeData.get("nodeType") == "Gate") handleBoardAttachmentNode(curNode);
+				if (nodeType == "Gate") handleBoardAttachmentNode(curNode);
 			}
 		}
 	} else {
@@ -2116,7 +2190,8 @@ function handleMinusButton(curNode) {
 		if (newPoints != allocatedPoints) {
 			updateNodePoints(curNode, newPoints);
 			if (curNode.groupName == PARAGON_BOARD) {
-				updateParagonStatTotals(curNode, newPoints - allocatedPoints);
+				const nodeType = curNode.nodeData.get("nodeType");
+				if (nodeType != "Socket") updateParagonStatTotals(curNode, newPoints - allocatedPoints);
 				let paragonNodeValue = 1;
 				if (curNode.nodeName == "Board Attachment Gate") {
 					paragonNodeValue = 0.5;
@@ -3295,8 +3370,6 @@ function drawTooltip(curNode, forceDraw) {
 
 			const nodeType = curNode.nodeData.get("nodeType");
 			if (nodeType == "Socket") {
-				const boardHeader = curNode.nodeData.get("_boardHeader");
-				const boardContainer = boardHeader.nodeData.get("boardContainer");
 				const paragonGlyphs = paragonData[classText]["Glyph"];
 				if (boardIndex in paragonBoardGlyphData) {
 					const glyphIndex = paragonBoardGlyphData[boardIndex];
