@@ -141,6 +141,7 @@ const OVERCAPPED_TEXT = "Your build currently has too many points allocated some
 const OVERCAPPED_LABEL_TEXT = "[Error!]";
 const TOOLTIP_COPY_TEXT = "[Copy to Clipboard]";
 const TOOLTIP_COPIED_TEXT = "[Copied!]";
+const RESET_BUTTON_CONFIRM_TEXT = "Are you sure you want to reset? All of your changes will be lost.";
 const OPEN_MENU_TEXT = "Open Menu";
 const CLOSE_MENU_TEXT = "Close Menu";
 const COPY_BUILD_SUMMARY_TEXT = "Copy Summary";
@@ -987,8 +988,10 @@ function closeExtraInfo() {
 	$("#menuButton").text(OPEN_MENU_TEXT);
 }
 function handleResetButton() {
-	const className = $(classString).length == 0 ? "none" : $(classString).val();
-	return className == "none" ? handleClassSelection() : rebuildCanvas();
+	if (confirm(RESET_BUTTON_CONFIRM_TEXT)) {
+		const className = $(classString).length == 0 ? "none" : $(classString).val();
+		return className == "none" ? handleClassSelection() : rebuildCanvas();
+	}
 }
 function handleSaveButton() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
