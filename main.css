@@ -98,6 +98,23 @@ h1, h2, h3 {
 	z-index: 6!important;
 }
 
+#detailsWindowBox {
+	overflow-y: auto;
+	max-height: 150px;
+	max-width: 350px;
+	white-space: pre-line;
+}
+
+#detailsWindowBox > * {
+	text-align: justify;
+	text-align-last: center;
+	padding: 0 5px 5px;
+}
+
+#detailsWindowBox > :last-child {
+	padding-bottom: 0;
+}
+
 #detailsWindow > * {
 	padding: 10px;
 }

@@ -645,40 +645,65 @@ function handleDetailsButton(event) {
 function refreshDetailsWindow() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (detailsMode && className != "none") {
-		let baseStr = 7;
-		let baseInt = 7;
-		let baseWill = 7;
-		let baseDex = 7;
-		switch (className) {
-			case "barbarian":
-				baseStr = 10;
-				baseDex = 8;
-				break;
-			case "druid":
-				baseWill = 10;
-				baseInt = 8;
-				break;
-			case "necromancer":
-				baseInt = 10;
-				baseWill = 8;
-				break;
-			case "rogue":
-				baseDex = 10;
-				baseWill = 8;
-				break;
-			case "sorcerer":
-				baseInt = 10;
-				baseWill = 8;
-				break;
+		const savedScrollPosition = $("#detailsWindowBox").scrollTop();
+		const sortedParagonStatTotals = Object.keys(paragonStatTotals).sort((a, b) => a.localeCompare(b));
+		function summarizeParagonStats(attributeMode = false, attributes) {
+			let outputHTML = "";
+			let baseStr = 7;
+			let baseInt = 7;
+			let baseWill = 7;
+			let baseDex = 7;
+			let levelAttributes = Number($("#charLevel").text()) - 1;
+			if (attributeMode) {
+				switch (className) {
+					case "barbarian":
+						baseStr = 10;
+						baseDex = 8;
+						break;
+					case "druid":
+						baseWill = 10;
+						baseInt = 8;
+						break;
+					case "necromancer":
+						baseInt = 10;
+						baseWill = 8;
+						break;
+					case "rogue":
+						baseDex = 10;
+						baseWill = 8;
+						break;
+					case "sorcerer":
+						baseInt = 10;
+						baseWill = 8;
+						break;
+				}
+			}
+			for (const statName of sortedParagonStatTotals) {
+				const statData = paragonStatTotals[statName];
+				if (attributeMode) {
+					if (!["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
+					const baseAttribute = statName == "Strength" ? baseStr : statName == "Intelligence" ? baseInt : statName == "Willpower" ? baseWill : statName == "Dexterity" ? baseDex : 0;
+					outputHTML += `<div>${baseAttribute + levelAttributes + Math.floor(statData.minValue)} ${statName}</div>`;
+				} else {
+					if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
+					if (statData.maxValue == 0) continue;
+					if (statData.maxValue > statData.minValue) {
+						outputHTML += `<div>${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statName}</div>`;
+					} else {
+						outputHTML += `<div>${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statName}</div>`;
+					}
+				}
+			}
+			if (outputHTML.length > 0) {
+				if (attributeMode) return `<div title="[Base + Level + Paragon]">${outputHTML}</div>`;
+				return `<hr><div id="detailsWindowBox">${outputHTML}</div>`;
+			}
+			return "";
 		}
-		const levelAttributes = Number($("#charLevel").text()) - 1;
-		$("#detailsWindowContents").html(`<div>${Math.floor(baseStr + levelAttributes + paragonAttributeTotals["Strength"])} Strength</div>`
-			+ `<div>${Math.floor(baseInt + levelAttributes + paragonAttributeTotals["Intelligence"])} Intelligence</div>`
-			+ `<div>${Math.floor(baseWill + levelAttributes + paragonAttributeTotals["Willpower"])} Willpower</div>`
-			+ `<div>${Math.floor(baseDex + levelAttributes + paragonAttributeTotals["Dexterity"])} Dexterity</div>`
-			+ `<div>[Base + Level + Paragon]</div>`);
+		$("#detailsWindowContents").html(summarizeParagonStats(true) + summarizeParagonStats(false));
 		$("#detailsWindow").removeClass("disabled");
 		repositionDetailsWindow();
+		$("#detailsWindowBox").scrollTop(savedScrollPosition).on("scroll", resetFrameTimer);
 	} else {
 		$("#detailsWindow").addClass("disabled");
 		$("#detailsWindowContents").empty();
@@ -705,7 +730,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-5";
+const localVersion = "0.9.0.41428-6";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1158,17 +1183,17 @@ function handleReloadButton() {
 			const sortedNodes = [...pixiNodes].filter(pixiNode => ![undefined, EQUIPMENT_PANEL].includes(pixiNode.groupName)).sort(compareNodes);
 			for (let i = 0, n = sortedNodes.length; i < n; i++) processNode(sortedNodes[i]);
 
-			// recalculate paragon attribute totals
-			paragonAttributeTotals = {
-				"Strength": 0,
-				"Intelligence": 0,
-				"Willpower": 0,
-				"Dexterity": 0
+			// recalculate paragon stat totals
+			paragonStatTotals = {
+				"Strength": { minValue: 0, maxValue: 0 },
+				"Intelligence": { minValue: 0, maxValue: 0 },
+				"Willpower": { minValue: 0, maxValue: 0 },
+				"Dexterity": { minValue: 0, maxValue: 0 }
 			};
 			for (const pixiNode of pixiNodes) {
 				if (pixiNode.groupName != PARAGON_BOARD) continue;
 				const allocatedPoints = pixiNode.nodeData.get("allocatedPoints");
-				updateParagonAttributes(pixiNode, allocatedPoints);
+				updateParagonStatTotals(pixiNode, allocatedPoints);
 			}
 
 			updateCharacterLevel();
@@ -1882,34 +1907,68 @@ function updateGlyphBonusesFromNodes(boardHeader, updateVector) {
 		if (pixiType != "Magic" && pixiType != "Rare") continue;
 		const pixiPoints = pixiNode.nodeData.get("allocatedPoints");
 		if (pixiPoints == 0) continue;
-		if (isNodeInGlyphRadius(pixiNode)) updateParagonAttributes(pixiNode, pixiPoints * updateVector);
+		if (isNodeInGlyphRadius(pixiNode)) updateParagonStatTotals(pixiNode, pixiPoints * updateVector);
 	}
 
 	refreshDetailsWindow();
 }
-var paragonAttributeTotals = {
-	"Strength": 0,
-	"Intelligence": 0,
-	"Willpower": 0,
-	"Dexterity": 0
+var paragonStatTotals = {
+	"Strength": { minValue: 0, maxValue: 0 },
+	"Intelligence": { minValue: 0, maxValue: 0 },
+	"Willpower": { minValue: 0, maxValue: 0 },
+	"Dexterity": { minValue: 0, maxValue: 0 }
 };
-function updateParagonAttributes(curNode, diffPoints) {
-	if (curNode.nodeDesc == undefined || diffPoints == 0) return;
+function updateParagonStatTotals(curNode, diffPoints) {
+	if (curNode.nodeDesc == undefined || diffPoints == 0 || curNode.nodeData.get("nodeType") == "Legendary") return;
 
 	const glyphMultiplier = getNodeGlyphMultiplier(curNode);
-	const addFloats = (arg1, arg2) => parseFloat(arg1) + parseFloat(arg2);
 
-	const nodeStr = curNode.nodeDesc.match(/\+(\d*\.?\d+) Strength/ig);
-	if (nodeStr != undefined) paragonAttributeTotals["Strength"] += parseFloat(nodeStr.reduce(addFloats)) * diffPoints * glyphMultiplier;
+	const descLines = curNode.nodeDesc.split(/\r?\n/);
+	for (let i = 0, n = descLines.length; i < n; i++) {
+		const descLine = descLines[i];
+		if (descLine.length == 0) continue;
 
-	const nodeInt = curNode.nodeDesc.match(/\+(\d*\.?\d+) Intelligence/ig);
-	if (nodeInt != undefined) paragonAttributeTotals["Intelligence"] += parseFloat(nodeInt.reduce(addFloats)) * diffPoints * glyphMultiplier;
+		const descMatch = /(\+?)(\d*\.?\d+)([^A-Z]+)(.*)/.exec(descLine);
+		if (descMatch == undefined) continue;
 
-	const nodeWill = curNode.nodeDesc.match(/\+(\d*\.?\d+) Willpower/ig);
-	if (nodeWill != undefined) paragonAttributeTotals["Willpower"] += parseFloat(nodeWill.reduce(addFloats)) * diffPoints * glyphMultiplier;
+		const statName = descMatch[4].split(" if requirements met:")[0];
+		const statValue = Math.round(parseFloat(descMatch[2]) * glyphMultiplier * 2) / 2;
 
-	const nodeDex = curNode.nodeDesc.match(/\+(\d*\.?\d+) Dexterity/ig);
-	if (nodeDex != undefined) paragonAttributeTotals["Dexterity"] += parseFloat(nodeDex.reduce(addFloats)) * diffPoints * glyphMultiplier;
+		if (!(statName in paragonStatTotals)) {
+			paragonStatTotals[statName] = {
+				prefix: descMatch[1],
+				suffix: descMatch[3],
+				minValue: 0,
+				maxValue: 0
+			};
+		}
+
+		if (descLine.includes("Damage Reduction")) {
+			if (!descMatch[4].includes(" if requirements met:")) {
+				paragonStatTotals[statName].minValue = paragonStatTotals[statName].minValue > 0 ? 1 - paragonStatTotals[statName].minValue * 0.01 : 1;
+				if (diffPoints > 0) {
+					paragonStatTotals[statName].minValue *= 1 - statValue * 0.01;
+				} else {
+					paragonStatTotals[statName].minValue /= 1 - statValue * 0.01;
+				}
+				paragonStatTotals[statName].minValue = (1 - paragonStatTotals[statName].minValue) * 100;
+			}
+			paragonStatTotals[statName].maxValue = paragonStatTotals[statName].maxValue > 0 ? 1 - paragonStatTotals[statName].maxValue * 0.01 : 1;
+			if (diffPoints > 0) {
+				paragonStatTotals[statName].maxValue *= 1 - statValue * 0.01;
+			} else {
+				paragonStatTotals[statName].maxValue /= 1 - statValue * 0.01;
+			}
+			paragonStatTotals[statName].maxValue = (1 - paragonStatTotals[statName].maxValue) * 100;
+		} else {
+			if (!descMatch[4].includes(" if requirements met:")) {
+				paragonStatTotals[statName].minValue += statValue * diffPoints;
+			}
+			paragonStatTotals[statName].maxValue += statValue * diffPoints;
+		}
+
+		if (descMatch[4].includes(" if requirements met:")) break;
+	}
 }
 function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
@@ -1953,7 +2012,7 @@ function handlePlusButton(curNode) {
 		if (newPoints != allocatedPoints) {
 			updateNodePoints(curNode, newPoints);
 			if (curNode.groupName == PARAGON_BOARD) {
-				updateParagonAttributes(curNode, newPoints - allocatedPoints);
+				updateParagonStatTotals(curNode, newPoints - allocatedPoints);
 				let paragonNodeValue = 1;
 				if (curNode.nodeName == "Board Attachment Gate") {
 					paragonNodeValue = 0.5;
@@ -2048,7 +2107,7 @@ function handleMinusButton(curNode) {
 		if (newPoints != allocatedPoints) {
 			updateNodePoints(curNode, newPoints);
 			if (curNode.groupName == PARAGON_BOARD) {
-				updateParagonAttributes(curNode, newPoints - allocatedPoints);
+				updateParagonStatTotals(curNode, newPoints - allocatedPoints);
 				let paragonNodeValue = 1;
 				if (curNode.nodeName == "Board Attachment Gate") {
 					paragonNodeValue = 0.5;
@@ -3711,11 +3770,11 @@ function rebuildCanvas() {
 	oldWidth = 0;
 	oldHeight = 0;
 
-	paragonAttributeTotals = {
-		"Strength": 0,
-		"Intelligence": 0,
-		"Willpower": 0,
-		"Dexterity": 0
+	paragonStatTotals = {
+		"Strength": { minValue: 0, maxValue: 0 },
+		"Intelligence": { minValue: 0, maxValue: 0 },
+		"Willpower": { minValue: 0, maxValue: 0 },
+		"Dexterity": { minValue: 0, maxValue: 0 }
 	};
 
 	paragonBoardGridData = {};
