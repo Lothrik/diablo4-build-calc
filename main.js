@@ -1183,13 +1183,14 @@ function handleReloadButton() {
 			const sortedNodes = [...pixiNodes].filter(pixiNode => ![undefined, EQUIPMENT_PANEL].includes(pixiNode.groupName)).sort(compareNodes);
 			for (let i = 0, n = sortedNodes.length; i < n; i++) processNode(sortedNodes[i]);
 
-			// recalculate paragon stat totals
+			glyphRadiusAttributeTotals = {};
 			paragonStatTotals = {
 				"Strength": { minValue: 0, maxValue: 0 },
 				"Intelligence": { minValue: 0, maxValue: 0 },
 				"Willpower": { minValue: 0, maxValue: 0 },
 				"Dexterity": { minValue: 0, maxValue: 0 }
 			};
+			// recalculate glyph radius attribute totals and paragon stat totals
 			for (const pixiNode of pixiNodes) {
 				if (pixiNode.groupName != PARAGON_BOARD) continue;
 				const allocatedPoints = pixiNode.nodeData.get("allocatedPoints");
@@ -1912,6 +1913,7 @@ function updateGlyphBonusesFromNodes(boardHeader, updateVector) {
 
 	refreshDetailsWindow();
 }
+var glyphRadiusAttributeTotals = {};
 var paragonStatTotals = {
 	"Strength": { minValue: 0, maxValue: 0 },
 	"Intelligence": { minValue: 0, maxValue: 0 },
@@ -1945,16 +1947,16 @@ function updateParagonStatTotals(curNode, diffPoints) {
 
 
 		if (isNodeInGlyphRadius(curNode)) {
-			const boardHeader = curNode.nodeData.get("_boardHeader");
-			if (!("glyphRadiusAttributeTotals" in boardHeader)) boardHeader.glyphRadiusAttributeTotals = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
+			const boardIndex = curNode.nodeData.get("_boardIndex");
+			if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
 			if (statName == "Strength") {
-				boardHeader.glyphRadiusAttributeTotals["Strength"] += statValue * diffPoints;
+				glyphRadiusAttributeTotals[boardIndex]["Strength"] += statValue * diffPoints;
 			} else if (statName == "Intelligence") {
-				boardHeader.glyphRadiusAttributeTotals["Intelligence"] += statValue * diffPoints;
+				glyphRadiusAttributeTotals[boardIndex]["Intelligence"] += statValue * diffPoints;
 			} else if (statName == "Willpower") {
-				boardHeader.glyphRadiusAttributeTotals["Willpower"] += statValue * diffPoints;
+				glyphRadiusAttributeTotals[boardIndex]["Willpower"] += statValue * diffPoints;
 			} else if (statName == "Dexterity") {
-				boardHeader.glyphRadiusAttributeTotals["Dexterity"] += statValue * diffPoints;
+				glyphRadiusAttributeTotals[boardIndex]["Dexterity"] += statValue * diffPoints;
 			}
 		}
 
@@ -3295,13 +3297,13 @@ function drawTooltip(curNode, forceDraw) {
 			});
 		} else {
 			const boardIndex = curNode.nodeData.get("_boardIndex");
-			const boardHeader = curNode.nodeData.get("_boardHeader");
 
 			const className = $(classString).length == 0 ? "none" : $(classString).val();
 			const classText = className[0].toUpperCase() + className.slice(1);
 
 			const nodeType = curNode.nodeData.get("nodeType");
 			if (nodeType == "Socket") {
+				const boardHeader = curNode.nodeData.get("_boardHeader");
 				const boardContainer = boardHeader.nodeData.get("boardContainer");
 				const paragonGlyphs = paragonData[classText]["Glyph"];
 				if (boardIndex in paragonBoardGlyphData) {
@@ -3327,16 +3329,17 @@ function drawTooltip(curNode, forceDraw) {
 				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)/g, (matchText, captureText) => Math.round(parseFloat(captureText) * glyphMultiplier * 2) / 2);
 			}
 
+			if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchText, captureText) => {
 				if (captureText.includes("thresholdRequirements") && curNode.nodeData.has("thresholdRequirements")) {
 					captureText = curNode.nodeData.get("thresholdRequirements");
 					if (typeof captureText != "string") captureText = captureText[classText];
 					if (typeof captureText != "string") captureText = captureText.join("; or ");
 					if (nodeType == "Socket") {
-						captureText = captureText.replace(/(\d+ Strength)/gi, `${Math.round(boardHeader.glyphRadiusAttributeTotals["Strength"] * 2) / 2} Strength | $1`);
-						captureText = captureText.replace(/(\d+ Intelligence)/gi, `${Math.round(boardHeader.glyphRadiusAttributeTotals["Intelligence"] * 2) / 2} Intelligence | $1`);
-						captureText = captureText.replace(/(\d+ Willpower)/gi, `${Math.round(boardHeader.glyphRadiusAttributeTotals["Willpower"] * 2) / 2} Willpower | $1`);
-						captureText = captureText.replace(/(\d+ Dexterity)/gi, `${Math.round(boardHeader.glyphRadiusAttributeTotals["Dexterity"] * 2) / 2} Dexterity | $1`);
+						captureText = captureText.replace(/(\d+ Strength)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Strength"] * 2) / 2} Strength | $1`);
+						captureText = captureText.replace(/(\d+ Intelligence)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 2) / 2} Intelligence | $1`);
+						captureText = captureText.replace(/(\d+ Willpower)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Willpower"] * 2) / 2} Willpower | $1`);
+						captureText = captureText.replace(/(\d+ Dexterity)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Dexterity"] * 2) / 2} Dexterity | $1`);
 					}
 				}
 				if (captureText.includes("ParagonBoardEquipIndex")) {
@@ -3758,6 +3761,7 @@ function rebuildCanvas() {
 	oldWidth = 0;
 	oldHeight = 0;
 
+	glyphRadiusAttributeTotals = {};
 	paragonStatTotals = {
 		"Strength": { minValue: 0, maxValue: 0 },
 		"Intelligence": { minValue: 0, maxValue: 0 },
