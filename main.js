@@ -1946,18 +1946,10 @@ function updateParagonStatTotals(curNode, diffPoints) {
 		}
 
 
-		if (isNodeInGlyphRadius(curNode)) {
+		if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName) && isNodeInGlyphRadius(curNode)) {
 			const boardIndex = curNode.nodeData.get("_boardIndex");
 			if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
-			if (statName == "Strength") {
-				glyphRadiusAttributeTotals[boardIndex]["Strength"] += statValue * diffPoints;
-			} else if (statName == "Intelligence") {
-				glyphRadiusAttributeTotals[boardIndex]["Intelligence"] += statValue * diffPoints;
-			} else if (statName == "Willpower") {
-				glyphRadiusAttributeTotals[boardIndex]["Willpower"] += statValue * diffPoints;
-			} else if (statName == "Dexterity") {
-				glyphRadiusAttributeTotals[boardIndex]["Dexterity"] += statValue * diffPoints;
-			}
+			glyphRadiusAttributeTotals[boardIndex][statName] += statValue * diffPoints;
 		}
 
 		if (descLine.includes("Damage Reduction")) {
