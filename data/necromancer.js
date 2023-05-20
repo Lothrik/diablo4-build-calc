@@ -51,7 +51,7 @@ necromancerData["Basic"] = {
 	"Decompose": {
 		connections: [ "Enhanced Decompose", "Basic" ],
 		description: `Generate Essence: 7 per second
-Lucky Hit Chance: 40% (per hit)
+Lucky Hit Chance: 40% (per use)
 Tear the flesh from an enemy, dealing {30/33/36/39/42/45/48/51/54/57}% damage per second and forming a usable Corpse with the flesh every 2.5 seconds.
 
 Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corpse.`,
@@ -70,18 +70,18 @@ Tags: Basic, Darkness, Channeled, Damage, Shadow Damage Over Time, Essence, Corp
 			"zhTW": "分解"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Essenz: 7 pro Sekunde\nGlückstrefferchance: 40% (per hit)\nReißt das Fleisch von den Knochen eines Gegners, verursacht {30/33/36/39/42/45/48/51/54/57}% Schaden pro Sekunde und bildet aus dem Fleisch alle 2.5 Sek. eine nutzbare Leiche.\n\nTags: Basis, Dunkelheit, Kanalisiert, Schaden, Schattenschaden über Zeit, Essenz, Leiche.",
-			"esES": "Generación de esencia: 7 por segundo\nProbabilidad de golpe de suerte: 40% (per hit)\nDesgarras la carne de un enemigo, lo que inflige {30/33/36/39/42/45/48/51/54/57}% de daño por segundo y forma cada 2.5 s un cadáver que puedes usar.\n\nTags: Básica, Oscuridad, Canalizada, Daño, Daño de sombra en el tiempo, Esencia, Cadáver.",
-			"esMX": "Generación de Esencia: 7 por segundo\nProbabilidad de golpe afortunado: 40% (per hit)\nDesgarras la carne de un enemigo, le infliges {30/33/36/39/42/45/48/51/54/57}% de daño por segundo y formas un cadáver útil a partir de la carne cada 2.5 segundos.\n\nTags: Básica, Oscuridad, Canalizado, Daño, Daño de sombra con el tiempo, Esencia, Cadáver.",
-			"frFR": "Essence générée: 7 par seconde\nChances d'obtenir un coup de chance: 40% (per hit)\nVous arrachez la chair d'une cible, ce qui lui inflige {30/33/36/39/42/45/48/51/54/57}% points de dégâts par seconde et crée un cadavre utilisable à partir de sa chair toutes les 2.5 s.\n\nTags: Basique, Ténèbres, Canalisation, Dégâts, Dégâts d'ombre sur la durée, Essence, Cadavre.",
-			"itIT": "Generazione essenza: 7 ogni s\nProbabilità di colpo fortunato: 40% (per hit)\nStrappi la carne da un nemico, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni ogni secondo e creando con quella carne un cadavere utilizzabile ogni 2.5 s.\n\nTags: Base, Oscurità, Canalizzazione, Danni, Danni da ombra periodici, Essenza, Cadavere.",
-			"jaJP": "精髄生成量: 毎秒 7\n幸運の一撃発生率: 40% (per hit)\n敵から肉を引き剥がし、毎秒{30/33/36/39/42/45/48/51/54/57}%のダメージを与えつつ、2.5秒ごとに引き剥がした肉から利用可能な死体を作りだす。\n\nTags: 基本, 闇, 連続発動, ダメージ, 継続影ダメージ, 精髄, 死体.",
-			"koKR": "생성: 초당 정수 7\n행운의 적중 확률: 40% (per hit)\n적의 살점을 찢어 초당 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고 2.5초마다 살점으로 사용 가능한 시체를 만들어 냅니다.\n\nTags: 기본, 어둠, 정신 집중, 피해, 지속 암흑 피해, 정수, 시체.",
-			"plPL": "Generuje: 7 pkt. esencji na sek.\nSzansa na szczęśliwy traf: 40% (per hit)\nWydzierasz wrogowi płaty ciała, zadając mu {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń na sekundę. Z wydartego ciała co 2.5 sek. tworzysz możliwe do wykorzystania zwłoki.\n\nTags: Podstawowe, Ciemność, Podtrzymanie, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja, Zwłoki.",
-			"ptBR": "Gerar Essência: 7 por segundo\nChance de Golpe de Sorte: 40% (per hit)\nArranca a carne de um inimigo, causando {30/33/36/39/42/45/48/51/54/57}% de dano por segundo e formando um cadáver utilizável com a carne a cada 2.5 segundos.\n\nTags: Básica, Escuridão, Canalizada, Dano, Dano de Sombra ao Longo do Tempo, Essência, Cadáver.",
-			"ruRU": "Дает эссенцию: 7 ед. в сек.\nВероятность удачного удара: 40% (per hit)\nВы вырываете плоть противника, нанося {30/33/36/39/42/45/48/51/54/57}% ед. урона в секунду. Создает труп раз в 2.5 сек.\n\nTags: Базовое, Тьма, Поддерживаемое, Урон, Периодический урон от темной магии, Эссенция, Труп.",
-			"zhCN": "生成精魂: 每秒 7 点\n幸运一击几率: 40% (per hit)\n从敌人身上撕扯血肉, 每秒造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害, 并且每 2.5 秒用这些血肉塑成一具可以使用的亡骸。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸.",
-			"zhTW": "產生魂能:每秒 7 點\n幸運觸發機率:40% (per hit)\n撕裂敵人的血肉,每秒造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,且每 2.5 秒利用血肉生成一具可使用的屍體。\n\nTags: 基本, 黑暗, 引導, 傷害, 暗影持續傷害, 魂能, 屍體."
+			"deDE": "Erzeugte Essenz: 7 pro Sekunde\nGlückstrefferchance: 40% (per use)\nReißt das Fleisch von den Knochen eines Gegners, verursacht {30/33/36/39/42/45/48/51/54/57}% Schaden pro Sekunde und bildet aus dem Fleisch alle 2.5 Sek. eine nutzbare Leiche.\n\nTags: Basis, Dunkelheit, Kanalisiert, Schaden, Schattenschaden über Zeit, Essenz, Leiche.",
+			"esES": "Generación de esencia: 7 por segundo\nProbabilidad de golpe de suerte: 40% (per use)\nDesgarras la carne de un enemigo, lo que inflige {30/33/36/39/42/45/48/51/54/57}% de daño por segundo y forma cada 2.5 s un cadáver que puedes usar.\n\nTags: Básica, Oscuridad, Canalizada, Daño, Daño de sombra en el tiempo, Esencia, Cadáver.",
+			"esMX": "Generación de Esencia: 7 por segundo\nProbabilidad de golpe afortunado: 40% (per use)\nDesgarras la carne de un enemigo, le infliges {30/33/36/39/42/45/48/51/54/57}% de daño por segundo y formas un cadáver útil a partir de la carne cada 2.5 segundos.\n\nTags: Básica, Oscuridad, Canalizado, Daño, Daño de sombra con el tiempo, Esencia, Cadáver.",
+			"frFR": "Essence générée: 7 par seconde\nChances d'obtenir un coup de chance: 40% (per use)\nVous arrachez la chair d'une cible, ce qui lui inflige {30/33/36/39/42/45/48/51/54/57}% points de dégâts par seconde et crée un cadavre utilisable à partir de sa chair toutes les 2.5 s.\n\nTags: Basique, Ténèbres, Canalisation, Dégâts, Dégâts d'ombre sur la durée, Essence, Cadavre.",
+			"itIT": "Generazione essenza: 7 ogni s\nProbabilità di colpo fortunato: 40% (per use)\nStrappi la carne da un nemico, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni ogni secondo e creando con quella carne un cadavere utilizzabile ogni 2.5 s.\n\nTags: Base, Oscurità, Canalizzazione, Danni, Danni da ombra periodici, Essenza, Cadavere.",
+			"jaJP": "精髄生成量: 毎秒 7\n幸運の一撃発生率: 40% (per use)\n敵から肉を引き剥がし、毎秒{30/33/36/39/42/45/48/51/54/57}%のダメージを与えつつ、2.5秒ごとに引き剥がした肉から利用可能な死体を作りだす。\n\nTags: 基本, 闇, 連続発動, ダメージ, 継続影ダメージ, 精髄, 死体.",
+			"koKR": "생성: 초당 정수 7\n행운의 적중 확률: 40% (per use)\n적의 살점을 찢어 초당 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고 2.5초마다 살점으로 사용 가능한 시체를 만들어 냅니다.\n\nTags: 기본, 어둠, 정신 집중, 피해, 지속 암흑 피해, 정수, 시체.",
+			"plPL": "Generuje: 7 pkt. esencji na sek.\nSzansa na szczęśliwy traf: 40% (per use)\nWydzierasz wrogowi płaty ciała, zadając mu {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń na sekundę. Z wydartego ciała co 2.5 sek. tworzysz możliwe do wykorzystania zwłoki.\n\nTags: Podstawowe, Ciemność, Podtrzymanie, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja, Zwłoki.",
+			"ptBR": "Gerar Essência: 7 por segundo\nChance de Golpe de Sorte: 40% (per use)\nArranca a carne de um inimigo, causando {30/33/36/39/42/45/48/51/54/57}% de dano por segundo e formando um cadáver utilizável com a carne a cada 2.5 segundos.\n\nTags: Básica, Escuridão, Canalizada, Dano, Dano de Sombra ao Longo do Tempo, Essência, Cadáver.",
+			"ruRU": "Дает эссенцию: 7 ед. в сек.\nВероятность удачного удара: 40% (per use).\nВы вырываете плоть противника, нанося {30/33/36/39/42/45/48/51/54/57}% ед. урона в секунду. Создает труп раз в 2.5 сек.\n\nTags: Базовое, Тьма, Поддерживаемое, Урон, Периодический урон от темной магии, Эссенция, Труп.",
+			"zhCN": "生成精魂: 每秒 7 点\n幸运一击几率: 40% (per use)\n从敌人身上撕扯血肉, 每秒造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害, 并且每 2.5 秒用这些血肉塑成一具可以使用的亡骸。\n\nTags: 基础, 黑暗, 引导, 伤害, 持续性暗影伤害, 精魂, 亡骸.",
+			"zhTW": "產生魂能:每秒 7 點\n幸運觸發機率:40% (per use)\n撕裂敵人的血肉,每秒造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,且每 2.5 秒利用血肉生成一具可使用的屍體。\n\nTags: 基本, 黑暗, 引導, 傷害, 暗影持續傷害, 魂能, 屍體."
 },
 		id: 0,
 		maxPoints: 5,
@@ -683,7 +683,7 @@ necromancerData["Core"] = {
 	"Blight": {
 		connections: [ "Enhanced Blight", "Core" ],
 		description: `Essence Cost: 25
-Lucky Hit Chance: 40% (per hit)
+Lucky Hit Chance: 40% (per use)
 Unleash concentrated blight that deals {30/33/36/39/42/45/48/51/54/57}% damage and leaves behind a defiled area, dealing {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% damage over 6 seconds.
 
 Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
@@ -702,18 +702,18 @@ Tags: Core, Darkness, Damage, Shadow Damage Over Time, Essence.`,
 			"zhTW": "荒疫"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: 25\nGlückstrefferchance: 40% (per hit)\nEntfesselt eine konzentrierte Pest, die {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und ein verunreinigtes Gebiet zurücklässt, das im Verlauf von 6 Sek. {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% Schaden verursacht.\n\nTags: Kern, Dunkelheit, Schaden, Schattenschaden über Zeit, Essenz.",
-			"esES": "Coste de esencia: 25\nProbabilidad de golpe de suerte: 40% (per hit)\nLanzas una peste concentrada que inflige {30/33/36/39/42/45/48/51/54/57}% de daño y deja tras de sí una zona ultrajada que inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de daño durante 6 s.\n\nTags: Principal, Oscuridad, Daño, Daño de sombra en el tiempo, Esencia.",
-			"esMX": "Costo de Esencia: 25\nProbabilidad de golpea afortunado: 40% (per hit)\nLiberas una infestación concentrada que inflige {30/33/36/39/42/45/48/51/54/57}% de daño y contamina un área, lo que a su vez inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de daño durante 6 segundos.\n\nTags: Principal, Oscuridad, Daño, Daño de sombra con el tiempo, Esencia.",
-			"frFR": "Coût en essence: 25\nChances d'obtenir un coup de chance: 40% (per hit)\nVous libérez un chancre concentré qui inflige {30/33/36/39/42/45/48/51/54/57}% points de dégâts à l'impact et laisse derrière lui une zone souillée qui inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% points de dégâts en 6 s.\n\nTags: Principale, Ténèbres, Dégâts, Dégâts d'ombre sur la durée, Essence.",
-			"itIT": "Costo in essenza: 25\nProbabilità di colpo fortunato: 40% (per hit)\nScateni del morbo concentrato che infligge {30/33/36/39/42/45/48/51/54/57}% danni e lascia dietro di sé un'area corrotta, infliggendo {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% danni in 6 s.\n\nTags: Primaria, Oscurità, Danni, Danni da ombra periodici, Essenza.",
-			"jaJP": "精髄消費量: 25\n幸運の一撃発生率: 40% (per hit)\n濃縮した〈病害〉を解き放って{30/33/36/39/42/45/48/51/54/57}%のダメージを与え、さらに一帯を汚して6秒間かけて{79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%のダメージを与える。\n\nTags: コア, 闇, ダメージ, 継続影ダメージ, 精髄.",
-			"koKR": "소모: 정수 25\n행운의 적중 확률: 40% (per hit)\n집중된 마름병을 방출하여 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고, 부정한 지대를 남겨 6초에 걸쳐 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%의 피해를 줍니다.\n\nTags: 핵심, 어둠, 피해, 지속 암흑 피해, 정수.",
-			"plPL": "Koszt: 25 pkt. esencji\nSzansa na szczęśliwy traf: 40% (per hit)\nWyzwalasz skoncentrowaną energię moru, która zadaje {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i pozostawia skażony obszar zadający {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% pkt. obrażeń w ciągu 6 sek.\n\nTags: Główne, Ciemność, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja.",
-			"ptBR": "Custo de essência: 25\nChance de Golpe de Sorte: 40% (per hit)\nLibera uma praga concentrada que causa {30/33/36/39/42/45/48/51/54/57}% de dano e deixa para trás uma área corrompida, causando {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de dano ao longo de 6 segundos.\n\nTags: Principal, Escuridão, Dano, Dano de Sombra ao Longo do Tempo, Essência.",
-			"ruRU": "Затраты эссенции: 25 ед.\nВероятность удачного удара: 40% (per hit)\nВы выпускаете концентрированную гниль, наносящую {30/33/36/39/42/45/48/51/54/57}% ед. урона и оставляющую область порчи, которая наносит {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% ед. урона за 6 сек.\n\nTags: Основное, Тьма, Урон, Периодический урон от темной магии, Эссенция.",
-			"zhCN": "精魂消耗: 25\n幸运一击几率: 40% (per hit)\n释放浓缩枯萎, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并留下一片亵渎区域, 在 6 秒内造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂.",
-			"zhTW": "魂能消耗:25\n幸運觸發機率:40% (per hit)\n釋放一團強烈的凋萎能量,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並留下在 6 秒內造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 點傷害的汙染區域。\n\nTags: 核心, 黑暗, 傷害, 暗影持續傷害, 魂能."
+			"deDE": "Essenzkosten: 25\nGlückstrefferchance: 40% (per use)\nEntfesselt eine konzentrierte Pest, die {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und ein verunreinigtes Gebiet zurücklässt, das im Verlauf von 6 Sek. {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% Schaden verursacht.\n\nTags: Kern, Dunkelheit, Schaden, Schattenschaden über Zeit, Essenz.",
+			"esES": "Coste de esencia: 25\nProbabilidad de golpe de suerte: 40% (per use)\nLanzas una peste concentrada que inflige {30/33/36/39/42/45/48/51/54/57}% de daño y deja tras de sí una zona ultrajada que inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de daño durante 6 s.\n\nTags: Principal, Oscuridad, Daño, Daño de sombra en el tiempo, Esencia.",
+			"esMX": "Costo de Esencia: 25\nProbabilidad de golpea afortunado: 40% (per use)\nLiberas una infestación concentrada que inflige {30/33/36/39/42/45/48/51/54/57}% de daño y contamina un área, lo que a su vez inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de daño durante 6 segundos.\n\nTags: Principal, Oscuridad, Daño, Daño de sombra con el tiempo, Esencia.",
+			"frFR": "Coût en essence: 25\nChances d'obtenir un coup de chance: 40% (per use)\nVous libérez un chancre concentré qui inflige {30/33/36/39/42/45/48/51/54/57}% points de dégâts à l'impact et laisse derrière lui une zone souillée qui inflige {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% points de dégâts en 6 s.\n\nTags: Principale, Ténèbres, Dégâts, Dégâts d'ombre sur la durée, Essence.",
+			"itIT": "Costo in essenza: 25\nProbabilità di colpo fortunato: 40% (per use)\nScateni del morbo concentrato che infligge {30/33/36/39/42/45/48/51/54/57}% danni e lascia dietro di sé un'area corrotta, infliggendo {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% danni in 6 s.\n\nTags: Primaria, Oscurità, Danni, Danni da ombra periodici, Essenza.",
+			"jaJP": "精髄消費量: 25\n幸運の一撃発生率: 40% (per use)\n濃縮した〈病害〉を解き放って{30/33/36/39/42/45/48/51/54/57}%のダメージを与え、さらに一帯を汚して6秒間かけて{79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%のダメージを与える。\n\nTags: コア, 闇, ダメージ, 継続影ダメージ, 精髄.",
+			"koKR": "소모: 정수 25\n행운의 적중 확률: 40% (per use)\n집중된 마름병을 방출하여 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고, 부정한 지대를 남겨 6초에 걸쳐 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%의 피해를 줍니다.\n\nTags: 핵심, 어둠, 피해, 지속 암흑 피해, 정수.",
+			"plPL": "Koszt: 25 pkt. esencji\nSzansa na szczęśliwy traf: 40% (per use)\nWyzwalasz skoncentrowaną energię moru, która zadaje {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i pozostawia skażony obszar zadający {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% pkt. obrażeń w ciągu 6 sek.\n\nTags: Główne, Ciemność, Obrażenia, Obrażenia Cienia z upływem czasu, Esencja.",
+			"ptBR": "Custo de essência: 25\nChance de Golpe de Sorte: 40% (per use)\nLibera uma praga concentrada que causa {30/33/36/39/42/45/48/51/54/57}% de dano e deixa para trás uma área corrompida, causando {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% de dano ao longo de 6 segundos.\n\nTags: Principal, Escuridão, Dano, Dano de Sombra ao Longo do Tempo, Essência.",
+			"ruRU": "Затраты эссенции: 25 ед.\nВероятность удачного удара: 40% (per use).\nВы выпускаете концентрированную гниль, наносящую {30/33/36/39/42/45/48/51/54/57}% ед. урона и оставляющую область порчи, которая наносит {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% ед. урона за 6 сек.\n\nTags: Основное, Тьма, Урон, Периодический урон от темной магии, Эссенция.",
+			"zhCN": "精魂消耗: 25\n幸运一击几率: 40% (per use)\n释放浓缩枯萎, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并留下一片亵渎区域, 在 6 秒内造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 点伤害。\n\nTags: 核心, 黑暗, 伤害, 持续性暗影伤害, 精魂.",
+			"zhTW": "魂能消耗:25\n幸運觸發機率:40% (per use)\n釋放一團強烈的凋萎能量,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並留下在 6 秒內造成 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% 點傷害的汙染區域。\n\nTags: 核心, 黑暗, 傷害, 暗影持續傷害, 魂能."
 },
 		id: 16,
 		maxPoints: 5,
@@ -1586,7 +1586,7 @@ Tags: Lucky Hit, Corpse.`,
 necromancerData["Macabre"] = {
 	"Corpse Explosion": {
 		connections: [ "Enhanced Corpse Explosion", "Macabre" ],
-		description: `Lucky Hit Chance: 40% (per hit)
+		description: `Lucky Hit Chance: 40% (per use)
 Detonate a Corpse, dealing {50/55/60/65/70/75/80/85/90/95}% damage to surrounding enemies.
 
 Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
@@ -1605,18 +1605,18 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 			"zhTW": "屍爆"
 },
 		descriptionLocalized: {
-			"deDE": "Glückstrefferchance: 40% (per hit)\nSprengt eine Leiche und fügt Gegnern in der Nähe {50/55/60/65/70/75/80/85/90/95}% Schaden zu.\n\nTags: Leiche, Verderbnis, Schaden, Physisch, Abklingzeit.",
-			"esES": "Probabilidad de golpe de suerte: 40% (per hit)\nDetonas un cadáver para infligir {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos cercanos.\n\nTags: Cadáver, Corrupción, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Probabilidad de golpe afortunado: 40% (per hit)\nDetonas un cadáver e infliges {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos circundantes.\n\nTags: Cadáver, Corrupción, Daño, Física, Recuperación.",
-			"frFR": "Chances d'obtenir un coup de chance: 40% (per hit)\nVous faites exploser un cadavre, ce qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts aux adversaires à proximité.\n\nTags: Cadavres, Corruption, Dégâts, Dégâts physiques, Temps de recharge, Cadavre.",
-			"itIT": "Probabilità di colpo fortunato: 40% (per hit)\nFai esplodere un cadavere, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni ai nemici circostanti.\n\nTags: Cadavere, Corruzione, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "幸運の一撃発生率: 40% (per hit)\n死体を爆発させ、周囲の敵に{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: 死体, 腐敗, ダメージ, 物理, クールダウン.",
-			"koKR": "행운의 적중 확률: 40% (per hit)\n시체를 폭발시켜 주위 적들에게 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 시체, 타락, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Szansa na szczęśliwy traf: 40% (per hit)\nWybuchając, zwłoki zadają {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń pobliskim wrogom.\n\nTags: Zwłoki, Spaczenie, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Chance de Golpe de Sorte: 40% (per hit)\nExplode um cadáver, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Cadáver, Corrupção, Dano, Física, Recarga.",
-			"ruRU": "Вероятность удачного удара: 40% (per hit)\nВзрывает труп, нанося ближайшим противникам {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Труп, Осквернение, Урон, Физический урон, Время восстановления.",
-			"zhCN": "幸运一击几率: 40% (per hit)\n引爆一具亡骸, 对周围的敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间.",
-			"zhTW": "幸運觸發機率:40% (per hit)\n引爆一具屍體,對附近敵人造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 屍體, 腐化, 傷害, 物理, 冷卻時間."
+			"deDE": "Glückstrefferchance: 40% (per use)\nSprengt eine Leiche und fügt Gegnern in der Nähe {50/55/60/65/70/75/80/85/90/95}% Schaden zu.\n\nTags: Leiche, Verderbnis, Schaden, Physisch, Abklingzeit.",
+			"esES": "Probabilidad de golpe de suerte: 40% (per use)\nDetonas un cadáver para infligir {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos cercanos.\n\nTags: Cadáver, Corrupción, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Probabilidad de golpe afortunado: 40% (per use)\nDetonas un cadáver e infliges {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos circundantes.\n\nTags: Cadáver, Corrupción, Daño, Física, Recuperación.",
+			"frFR": "Chances d'obtenir un coup de chance: 40% (per use)\nVous faites exploser un cadavre, ce qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts aux adversaires à proximité.\n\nTags: Cadavres, Corruption, Dégâts, Dégâts physiques, Temps de recharge, Cadavre.",
+			"itIT": "Probabilità di colpo fortunato: 40% (per use)\nFai esplodere un cadavere, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni ai nemici circostanti.\n\nTags: Cadavere, Corruzione, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "幸運の一撃発生率: 40% (per use)\n死体を爆発させ、周囲の敵に{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: 死体, 腐敗, ダメージ, 物理, クールダウン.",
+			"koKR": "행운의 적중 확률: 40% (per use)\n시체를 폭발시켜 주위 적들에게 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 시체, 타락, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Szansa na szczęśliwy traf: 40% (per use)\nWybuchając, zwłoki zadają {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń pobliskim wrogom.\n\nTags: Zwłoki, Spaczenie, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Chance de Golpe de Sorte: 40% (per use)\nExplode um cadáver, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Cadáver, Corrupção, Dano, Física, Recarga.",
+			"ruRU": "Вероятность удачного удара: 40% (per use).\nВзрывает труп, нанося ближайшим противникам {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Труп, Осквернение, Урон, Физический урон, Время восстановления.",
+			"zhCN": "幸运一击几率: 40% (per use)\n引爆一具亡骸, 对周围的敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 亡骸, 腐蚀, 伤害, 物理, 冷却时间.",
+			"zhTW": "幸運觸發機率:40% (per use)\n引爆一具屍體,對附近敵人造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 屍體, 腐化, 傷害, 物理, 冷卻時間."
 },
 		id: 39,
 		maxPoints: 5,
