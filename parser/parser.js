@@ -342,7 +342,7 @@ function recursiveSkillTreeScan(connectionData, classData, className, rootNode, 
 					let currentDescription = nodeData["power"]["skill_desc"];
 					let currentDescriptionLocalized = "skill_desc_localized" in nodeData["power"] ? Object.assign({}, nodeData["power"]["skill_desc_localized"]) : null;
 					const localKeys = currentDescriptionLocalized == null ? [] : Object.keys(currentDescriptionLocalized);
-					if (nodeData["power"]["power_tags"] != undefined) {
+					if (baseSkillName == undefined && nodeData["power"]["power_tags"] != undefined) {
 						const filteredTags = nodeData["power"]["power_tags"].filter(tag => !tag.includes("_")).join(", ");
 						if (filteredTags.length > 0) {
 							if (currentDescription == undefined) {
@@ -643,7 +643,7 @@ function runParser(downloadMode) {
 					description: currentDescription,
 					nameLocalized: nodeData["name_localized"],
 					descriptionLocalized: currentDescriptionLocalized,
-					thresholdRequirements: nodeData["threshold_requirements"],
+					thresholdRequirements: nodeData["threshold_requirements"]
 				};
 			}
 		}
@@ -657,7 +657,7 @@ function runParser(downloadMode) {
 					nameLocalized: nodeData["name_localized"],
 					descLocalized: nodeData["desc_localized"],
 					bonusLocalized: nodeData["bonus_localized"],
-					thresholdRequirements: nodeData["threshold_requirements"],
+					thresholdRequirements: nodeData["threshold_requirements"]
 				};
 			}
 		}
