@@ -2552,7 +2552,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		fontWeight: useThickNodeStyle ? "bold" : "normal",
 		padding: 10
 	};
-	nodeText.eventMode = "auto";
+	nodeText.eventMode = "none";
 	nodeText.scale.set(1 / scaleFactor);
 	nodeText.anchor.set(0.5);
 
@@ -2569,7 +2569,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			fontWeight: useThickNodeStyle ? "bold" : "normal",
 			padding: 10
 		};
-		nodeText2.eventMode = "auto";
+		nodeText2.eventMode = "none";
 		nodeText2.scale.set(1 / scaleFactor);
 		nodeText2.anchor.set(1, 0);
 		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 - 10;
@@ -2642,7 +2642,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 	const nodeBorder = updateExistingNode ? pixiNodes[nodeIndex].children[pixiNodes[nodeIndex].children.length - 1] : new PIXI.Graphics();
 	nodeBorder.cursor = maxPoints > 0 ? "pointer" : "auto";
-	nodeBorder.eventMode = "auto";
+	nodeBorder.eventMode = "none";
 	nodeBorder.clear();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
@@ -2720,7 +2720,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		} else {
 			nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_SQUARE_ACTIVE : NODE_SQUARE_INACTIVE);
 		}
-		nodeImage.eventMode = "auto";
+		nodeImage.eventMode = "none";
 		if (nodeImage != undefined) {
 			nodeImage.anchor.set(0.5);
 			nodeContainer.addChild(nodeImage);
@@ -2736,12 +2736,20 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	if (!updateExistingNode) {
 		node = new PIXI.Container();
 
+		node._renderWithCullingHooked = node._renderWithCulling;
+		node._renderWithCulling = (...args) => {
+			node.interactiveChildren = false;
+			node.eventMode = "none";
+			node._renderWithCullingHooked(...args);
+		};
 		node._renderHooked = node._render;
 		node._render = (...args) => {
 			if (node.stale) {
 				node.stale = false;
 				pixiEventQueue.push(() => redrawNode(node));
 			} else {
+				node.interactiveChildren = maxPoints !== 0;
+				node.eventMode = maxPoints === 0 ? "none" : "static";
 				node._renderHooked(...args);
 			}
 		};
@@ -2785,7 +2793,6 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 		node.cullable = true;
 		node.cursor = maxPoints > 0 ? "pointer" : "auto";
-		node.eventMode = "static";
 
 		node.nodeName = nodeName;
 		node.nodeData = nodeData;
@@ -2846,7 +2853,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		} else {
 			node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
 		}
-		pixiNodes[nodeIndex] = pixiJS.stage.addChild(node);
+		pixiNodes[nodeIndex] = nodeData.has("_boardIndex") ? node : pixiJS.stage.addChild(node);
 	}
 
 	node.stale = false;
@@ -3157,8 +3164,8 @@ function drawAllNodes() {
 			}
 			if (socketData != null) {
 				drawNode(socketData[0], socketData[1], PARAGON_BOARD);
-				paragonBoardNode.set("glyphSocket", pixiNodes[pixiNodes.length - 1]);
 				boardContainer.addChild(pixiNodes[pixiNodes.length - 1]);
+				paragonBoardNode.set("glyphSocket", pixiNodes[pixiNodes.length - 1]);
 			}
 			boardContainer.startPosition = new PIXI.Point(boardX, boardY + nodeSpacingY * 11);
 			boardContainer.position.copyFrom(boardContainer.startPosition);
@@ -3699,6 +3706,7 @@ function drawConnector(startNode, endNode) {
 	connector.endNode = endNode;
 
 	connector.cullable = true;
+	connector.eventMode = "none";
 
 	pixiConnectors.push(pixiJS.stage.addChild(connector));
 }
@@ -3838,7 +3846,7 @@ function resizeSearchInput() {
 }
 function resetFrameTimer() {
 	frameTimer = Date.now();
-	pixiJS.ticker.maxFPS = 0;
+	pixiJS.ticker.maxFPS = 120;
 }
 function rebuildCanvas() {
 	while (pixiJS.stage.children[0]) pixiJS.stage.children[0].destroy(true);
