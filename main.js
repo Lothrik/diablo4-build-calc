@@ -3438,9 +3438,9 @@ function drawTooltip(curNode, forceDraw) {
 			} else if (nodeType == "Magic" || nodeType == "Rare") {
 				const glyphMultiplier = getNodeGlyphMultiplier(curNode);
 				const glyphMultiplierSpecial = getNodeGlyphMultiplierSpecial(curNode);
-				nodeDesc = nodeDesc.replace(/.+?(\-?\d*\.?\d+).*/g, (matchText, captureText) => {
+				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)(.*)/g, (matchText, captureText1, captureText2) => {
 					const _glyphMultiplier = glyphMultiplier * (["Strength", "Intelligence", "Willpower", "Dexterity"].some(element => matchText.includes(element)) ? 1 : glyphMultiplierSpecial);
-					return matchText.replace(captureText, Math.round(parseFloat(captureText) * _glyphMultiplier * 2) / 2);
+					return String(Math.round(parseFloat(captureText1) * _glyphMultiplier * 2) / 2) + captureText2;
 				});
 			}
 
