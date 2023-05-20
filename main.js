@@ -734,7 +734,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-9";
+const localVersion = "0.9.0.41428-10";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1889,20 +1889,54 @@ function isNodeInGlyphRadius(curNode) {
 	return inGlyphRadius;
 }
 function getNodeGlyphMultiplier(curNode) {
-	const nodeType = curNode.nodeData.get("nodeType");
+	const nodeData = curNode.nodeData;
+	const nodeType = nodeData.get("nodeType");
 	if (nodeType == "Magic" || nodeType == "Rare") {
-		const boardIndex = curNode.nodeData.get("_boardIndex");
-
+		const boardIndex = nodeData.get("_boardIndex");
 		if (boardIndex in paragonBoardGlyphData && isNodeInGlyphRadius(curNode)) {
 			const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
 			const glyphData = getGlyphData(paragonBoardGlyphData[boardIndex]);
-			// TODO: add support for "bonus to their Non-physical damage and damage reduction modifiers" and similar effects
-			if (glyphData["desc"].toLowerCase().includes(`bonus to all ${nodeType.toLowerCase()} nodes`)) {
+			const glyphDescLower = glyphData["desc"].toLowerCase();
+			if (glyphDescLower.includes(`bonus to all ${nodeType.toLowerCase()} nodes`)) {
 				const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchText, captureText) => {
 					const outputText = captureText.split("/");
 					return outputText[glyphRank > 0 ? Math.min(glyphRank, outputText.length) - 1 : 0];
 				});
 				return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to all/i)) / 100;
+			}
+		}
+	}
+	return 1;
+}
+function getNodeGlyphMultiplierSpecial(curNode) {
+	const nodeData = curNode.nodeData;
+	const nodeType = nodeData.get("nodeType");
+	if (nodeType == "Magic" || nodeType == "Rare") {
+		const boardIndex = nodeData.get("_boardIndex");
+		if (boardIndex in paragonBoardGlyphData && isNodeInGlyphRadius(curNode)) {
+			const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
+			const glyphData = getGlyphData(paragonBoardGlyphData[boardIndex]);
+			const glyphDesc = glyphData["desc"].replace(/{(.+?)}/g, (matchText, captureText) => {
+				const outputText = captureText.split("/");
+				return outputText[glyphRank > 0 ? Math.min(glyphRank, outputText.length) - 1 : 0];
+			});
+			const glyphDescLower = glyphData["desc"].toLowerCase();
+			if (glyphDescLower.includes(`bonus to their physical`)) {
+				if (curNode.nodeDesc.match("Tags:.*Physical") && !curNode.nodeDesc.match("Tags:.*Non-Physical")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their physical/i)) / 100;
+			} else if (glyphDescLower.includes(`bonus to their non-physical`)) {
+				if (curNode.nodeDesc.match("Tags:.*Non-Physical")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their non-physical/i)) / 100;
+			} else if (glyphDescLower.includes(`bonus to their fire`)) {
+				if (curNode.nodeDesc.match("Tags:.*Fire")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their fire/i)) / 100;
+			} else if (glyphDescLower.includes(`bonus to their lightning`)) {
+				if (curNode.nodeDesc.match("Tags:.*Lightning")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their lightning/i)) / 100;
+			} else if (glyphDescLower.includes(`bonus to their cold`)) {
+				if (curNode.nodeDesc.match("Tags:.*Cold")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their cold/i)) / 100;
+			} else if (glyphDescLower.includes(`bonus to their poison`)) {
+				if (curNode.nodeDesc.match("Tags:.*Poison")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their poison/i)) / 100;
+			} else if (glyphDescLower.includes(`bonus to their shadow`)) {
+				if (curNode.nodeDesc.match("Tags:.*Shadow")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their shadow/i)) / 100;
+			} else if (glyphDescLower.includes(`bonus to their minion`)) {
+				if (curNode.nodeDesc.match("Tags:.*Minion")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their minion/i)) / 100;
 			}
 		}
 	}
@@ -1938,6 +1972,7 @@ function updateParagonStatTotals(curNode, diffPoints) {
 	const boardHeader = curNode.nodeData.get("_boardHeader");
 	const glyphSocket = boardHeader.nodeData.get("glyphSocket");
 	const glyphMultiplier = getNodeGlyphMultiplier(curNode);
+	const glyphMultiplierSpecial = getNodeGlyphMultiplierSpecial(curNode);
 
 	if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
 
@@ -1976,7 +2011,8 @@ function updateParagonStatTotals(curNode, diffPoints) {
 		const descMatch = /(\+?)(\d*\.?\d+)([^a-zA-Z]+)(.*)/.exec(descLine);
 		if (descMatch == undefined) continue;
 
-		const statValue = Math.round(parseFloat(descMatch[2]) * glyphMultiplier * 2) / 2;
+		const _glyphMultiplier = glyphMultiplier * (["Strength", "Intelligence", "Willpower", "Dexterity"].some(element => descLine.includes(element)) ? 1 : glyphMultiplierSpecial);
+		const statValue = Math.round(parseFloat(descMatch[2]) * _glyphMultiplier * 2) / 2;
 
 		let statName = descMatch[4].split(" if requirements met:")[0];
 		let statPrefix = descMatch[1];
@@ -3393,7 +3429,11 @@ function drawTooltip(curNode, forceDraw) {
 				}
 			} else if (nodeType == "Magic" || nodeType == "Rare") {
 				const glyphMultiplier = getNodeGlyphMultiplier(curNode);
-				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)/g, (matchText, captureText) => Math.round(parseFloat(captureText) * glyphMultiplier * 2) / 2);
+				const glyphMultiplierSpecial = getNodeGlyphMultiplierSpecial(curNode);
+				nodeDesc = nodeDesc.replace(/.*(\-?\d*\.?\d+).*/g, (matchText, captureText) => {
+					const _glyphMultiplier = glyphMultiplier * (["Strength", "Intelligence", "Willpower", "Dexterity"].some(element => matchText.includes(element)) ? 1 : glyphMultiplierSpecial);
+					return matchText.replace(captureText, Math.round(parseFloat(captureText) * _glyphMultiplier * 2) / 2);
+				});
 			}
 
 			if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
