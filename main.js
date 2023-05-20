@@ -734,7 +734,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-14";
+const localVersion = "0.9.0.41428-15";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2403,6 +2403,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	const colorOverride = nodeData.get("colorOverride");
 	const _textColor = searchQueryMatch ? searchQueryMatchColor : colorOverride == undefined ? textColor : colorOverride;
 
+	const enableNodeInteraction = (maxPoints > 0) || (extraData != null && groupName == PARAGON_BOARD);
+
 	let extraContainer, extraContainer2, extraContainer3, extraContainer4, extraContainer5;
 	if (extraData != null) {
 		if (groupName == PARAGON_BOARD) {
@@ -2748,8 +2750,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				node.stale = false;
 				pixiEventQueue.push(() => redrawNode(node));
 			} else {
-				node.interactiveChildren = maxPoints !== 0;
-				node.eventMode = maxPoints === 0 ? "none" : "static";
+				node.interactiveChildren = enableNodeInteraction;
+				node.eventMode = enableNodeInteraction ? "static" : "none";
 				node._renderHooked(...args);
 			}
 		};
