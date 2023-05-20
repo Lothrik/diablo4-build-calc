@@ -523,7 +523,7 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 	"Flay": {
 		connections: [ "Basic", "Enhanced Flay" ],
 		description: `Generate Fury: 9
-Lucky Hit Chance: 50% (per hit)
+Lucky Hit Chance: 50% (per use)
 Flay the enemy, dealing {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% damage and inflicting {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Bleeding damage over 5 seconds.
 
 Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
@@ -542,18 +542,18 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"zhTW": "剝皮"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: 50% (per hit)\nSchindet den Gegner und fügt ihm {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% Schaden zu. Fügt im Verlauf von 5 Sek. {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Blutungsschaden zu.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
-			"esES": "Generación de furia: 9\nProbabilidad de golpe de suerte: 50% (per hit)\nLe arrancas la piel al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y aplica {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 s.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Física.",
-			"esMX": "Generación de Furia: 9\nProbabilidad de golpe afortunado: 50% (per hit)\nDespellejas al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 segundos.\n\nTags: Básica, Sangrado, Corte, Furia, Daño, Física.",
-			"frFR": "Fureur générée: 9\nChances d'obtenir un coup de chance: 50% (per hit)\nVous écorchez l'adversaire, ce qui lui inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% points de dégâts à l'impact et {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% points de dégâts de saignement en 5 s.\n\nTags: Basique, Saignement, Tranchant, Fureur, Dégâts, Dégâts physiques.",
-			"itIT": "Generazione furia: 9\nProbabilità di colpo fortunato: 50% (per hit)\nScortica il nemico, infliggendo {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% danni. Infligge {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% danni da sanguinamento in 5 s.\n\nTags: Base, Sanguinamento, Tagliente, Furia, Danni, Fisico.",
-			"jaJP": "怒気生成量: 9\n幸運の一撃発生率: 50% (per hit)\n敵の皮を剥ぎ、{5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%のダメージを与える。また5秒間かけて{36/39.5/43/47/50.5/54/57.5/61/65/68.5}%の出血ダメージを与える。\n\nTags: 基本, 出血, 斬撃, 怒気, ダメージ, 物理.",
-			"koKR": "생성: 분노 9\n행운의 적중 확률: 50% (per hit)\n적을 도려내 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%의 피해를 줍니다. 5초에 걸쳐 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}%의 출혈 피해를 줍니다.\n\nTags: 기본, 출혈, 베는 무기, 분노, 피해, 물리.",
-			"plPL": "Generuje: 9 pkt. furii\nSzansa na szczęśliwy traf: 50% (per hit)\nObdzierasz wroga ze skóry, zadając {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% pkt. obrażeń i wywołując {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% pkt. obrażeń od krwawienia przez 5 sek.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
-			"ptBR": "Gerar Fúria: 9\nChance de Golpe de Sorte: 50% (per hit)\nEsfola o inimigo, causando {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de dano e aplicando {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
-			"ruRU": "Дает ярость: 9 ед.\nВероятность удачного удара: 50% (per hit)\nВы сдираете с противника кожу, нанося {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% ед. урона мгновенно и еще {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
-			"zhCN": "生成怒气: 9\n幸运一击几率: 50% (per hit)\n剥掉敌人的皮, 造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 点伤害, 并在 5 秒内造成 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 点流血伤害。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理.",
-			"zhTW": "產生怒氣:9\n幸運觸發機率:50% (per hit)\n將敵人剝皮,造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 點傷害,並使其在 5 秒內受到 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 點流血傷害。\n\nTags: 基本, 流血, 斬擊, 怒氣, 傷害, 物理."
+			"deDE": "Erzeugte Wut: 9\nGlückstrefferchance: 50% (per use)\nSchindet den Gegner und fügt ihm {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% Schaden zu. Fügt im Verlauf von 5 Sek. {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Blutungsschaden zu.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
+			"esES": "Generación de furia: 9\nProbabilidad de golpe de suerte: 50% (per use)\nLe arrancas la piel al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y aplica {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 s.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Física.",
+			"esMX": "Generación de Furia: 9\nProbabilidad de golpe afortunado: 50% (per use)\nDespellejas al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de daño de sangrado durante 5 segundos.\n\nTags: Básica, Sangrado, Corte, Furia, Daño, Física.",
+			"frFR": "Fureur générée: 9\nChances d'obtenir un coup de chance: 50% (per use)\nVous écorchez l'adversaire, ce qui lui inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% points de dégâts à l'impact et {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% points de dégâts de saignement en 5 s.\n\nTags: Basique, Saignement, Tranchant, Fureur, Dégâts, Dégâts physiques.",
+			"itIT": "Generazione furia: 9\nProbabilità di colpo fortunato: 50% (per use)\nScortica il nemico, infliggendo {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% danni. Infligge {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% danni da sanguinamento in 5 s.\n\nTags: Base, Sanguinamento, Tagliente, Furia, Danni, Fisico.",
+			"jaJP": "怒気生成量: 9\n幸運の一撃発生率: 50% (per use)\n敵の皮を剥ぎ、{5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%のダメージを与える。また5秒間かけて{36/39.5/43/47/50.5/54/57.5/61/65/68.5}%の出血ダメージを与える。\n\nTags: 基本, 出血, 斬撃, 怒気, ダメージ, 物理.",
+			"koKR": "생성: 분노 9\n행운의 적중 확률: 50% (per use)\n적을 도려내 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%의 피해를 줍니다. 5초에 걸쳐 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}%의 출혈 피해를 줍니다.\n\nTags: 기본, 출혈, 베는 무기, 분노, 피해, 물리.",
+			"plPL": "Generuje: 9 pkt. furii\nSzansa na szczęśliwy traf: 50% (per use)\nObdzierasz wroga ze skóry, zadając {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% pkt. obrażeń i wywołując {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% pkt. obrażeń od krwawienia przez 5 sek.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
+			"ptBR": "Gerar Fúria: 9\nChance de Golpe de Sorte: 50% (per use)\nEsfola o inimigo, causando {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de dano e aplicando {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
+			"ruRU": "Дает ярость: 9 ед.\nВероятность удачного удара: 50% (per use)\nВы сдираете с противника кожу, нанося {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% ед. урона мгновенно и еще {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
+			"zhCN": "生成怒气: 9\n幸运一击几率: 50% (per use)\n剥掉敌人的皮, 造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 点伤害, 并在 5 秒内造成 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 点流血伤害。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理.",
+			"zhTW": "產生怒氣:9\n幸運觸發機率:50% (per use)\n將敵人剝皮,造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 點傷害,並使其在 5 秒內受到 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% 點流血傷害。\n\nTags: 基本, 流血, 斬擊, 怒氣, 傷害, 物理."
 },
 		id: 12,
 		maxPoints: 5,
@@ -1195,7 +1195,7 @@ Tags: Vulnerable, Core, Lucky Hit.`,
 	"Rend": {
 		connections: [ "Core", "Enhanced Rend" ],
 		description: `Fury Cost: 35
-Lucky Hit Chance: 33% (per hit)
+Lucky Hit Chance: 33% (per use)
 Cleave enemies in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage and inflicting {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Bleeding damage over 5 seconds.
 
 Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
@@ -1214,18 +1214,18 @@ Tags: Core, Bleed, Damage, Physical, Fury, Slashing.`,
 			"zhTW": "撕裂"
 },
 		descriptionLocalized: {
-			"deDE": "Wutkosten: 35\nGlückstrefferchance: 33% (per hit)\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
-			"esES": "Coste de furia: 35\nProbabilidad de golpe de suerte: 33% (per hit)\nAsestas un tajo a los enemigos frente a ti para infligir {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y aplicar {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 s.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Cortante.",
-			"esMX": "Costo de Furia: 35\nProbabilidad de golpe afortunado: 33% (per hit)\nHiendes a los enemigos frente a ti, les infliges {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 segundos.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Corte.",
-			"frFR": "Coût en fureur: 35\nChances d'obtenir un coup de chance: 33% (per hit)\nVous frappez les adversaires devant vous, ce qui leur inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% points de dégâts à l'impact et {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% points de dégâts de saignement en 5 s.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Tranchant.",
-			"itIT": "Costo in furia: 35\nProbabilità di colpo fortunato: 33% (per hit)\nFendi i nemici frontali, infliggendo {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% danni e {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% danni da sanguinamento in 5 s.\n\nTags: Primaria, Sanguinamento, Danni, Fisico, Furia, Tagliente.",
-			"jaJP": "怒気コスト: 35\n幸運の一撃発生率: 33% (per hit)\n前方の敵を切り払って{12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%のダメージを与え、さらに5秒かけて{96/105.5/115/125/134.5/144/153.5/163/173/182.5}%の出血ダメージを与える。\n\nTags: コア, 出血, ダメージ, 物理, 怒気, 斬撃.",
-			"koKR": "소모: 분노 35\n행운의 적중 확률: 33% (per hit)\n전방의 적을 한꺼번에 공격하여 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%의 피해를 주고 5초에 걸쳐 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}%의 출혈 피해를 줍니다.\n\nTags: 핵심, 출혈, 피해, 물리, 분노, 베는 무기.",
-			"plPL": "Koszt: 35 pkt. furii.\nSzansa na szczęśliwy traf: 33% (per hit)\nRozpłatujesz wrogów przed sobą, zadając im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń i powodując {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
-			"ptBR": "Custo de fúria: 35\nChance de Golpe de Sorte: 33% (per hit)\nCorta os inimigos à sua frente, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano e aplicando {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
-			"ruRU": "Затраты ярости: 35 ед.\nВероятность удачного удара: 33% (per hit)\nВы рубите противников перед собой, нанося им {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона мгновенно и еще {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
-			"zhCN": "怒气消耗: 35\n幸运一击几率: 33% (per hit)\n对面前的敌人发动顺劈斩, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害并在 5 秒内造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 点流血伤害。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩.",
-			"zhTW": "怒氣消耗:35\n幸運觸發機率:33% (per hit)\n劈斬你前方的敵人,造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 點傷害並在 5 秒內對敵人造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 點流血傷害。\n\nTags: 核心, 流血, 傷害, 物理, 怒氣, 斬擊."
+			"deDE": "Wutkosten: 35\nGlückstrefferchance: 33% (per use)\nSpaltet Gegner vor Euch, wodurch Ihr ihnen {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden zufügt und im Verlauf von 5 Sek. {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Blutungsschaden verursacht.\n\nTags: Kern, Blutung, Schaden, Physisch, Wut, Hiebwaffe.",
+			"esES": "Coste de furia: 35\nProbabilidad de golpe de suerte: 33% (per use)\nAsestas un tajo a los enemigos frente a ti para infligir {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y aplicar {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 s.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Cortante.",
+			"esMX": "Costo de Furia: 35\nProbabilidad de golpe afortunado: 33% (per use)\nHiendes a los enemigos frente a ti, les infliges {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño y {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de daño de sangrado durante 5 segundos.\n\nTags: Principal, Sangrado, Daño, Física, Furia, Corte.",
+			"frFR": "Coût en fureur: 35\nChances d'obtenir un coup de chance: 33% (per use)\nVous frappez les adversaires devant vous, ce qui leur inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% points de dégâts à l'impact et {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% points de dégâts de saignement en 5 s.\n\nTags: Principale, Saignement, Dégâts, Dégâts physiques, Fureur, Tranchant.",
+			"itIT": "Costo in furia: 35\nProbabilità di colpo fortunato: 33% (per use)\nFendi i nemici frontali, infliggendo {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% danni e {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% danni da sanguinamento in 5 s.\n\nTags: Primaria, Sanguinamento, Danni, Fisico, Furia, Tagliente.",
+			"jaJP": "怒気コスト: 35\n幸運の一撃発生率: 33% (per use)\n前方の敵を切り払って{12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%のダメージを与え、さらに5秒かけて{96/105.5/115/125/134.5/144/153.5/163/173/182.5}%の出血ダメージを与える。\n\nTags: コア, 出血, ダメージ, 物理, 怒気, 斬撃.",
+			"koKR": "소모: 분노 35\n행운의 적중 확률: 33% (per use)\n전방의 적을 한꺼번에 공격하여 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%의 피해를 주고 5초에 걸쳐 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}%의 출혈 피해를 줍니다.\n\nTags: 핵심, 출혈, 피해, 물리, 분노, 베는 무기.",
+			"plPL": "Koszt: 35 pkt. furii.\nSzansa na szczęśliwy traf: 33% (per use)\nRozpłatujesz wrogów przed sobą, zadając im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń i powodując {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% pkt. obrażeń od krwawienia w ciągu 5 sek.\n\nTags: Główne, Krwawienie, Obrażenia, Fizyczne, Furia, Sieczne.",
+			"ptBR": "Custo de fúria: 35\nChance de Golpe de Sorte: 33% (per use)\nCorta os inimigos à sua frente, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano e aplicando {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% de dano de sangramento ao longo de 5 segundos.\n\nTags: Principal, Sangramento, Dano, Física, Fúria, Corte.",
+			"ruRU": "Затраты ярости: 35 ед.\nВероятность удачного удара: 33% (per use)\nВы рубите противников перед собой, нанося им {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона мгновенно и еще {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Основное, Кровотечение, Урон, Физический урон, Ярость, Рубящее.",
+			"zhCN": "怒气消耗: 35\n幸运一击几率: 33% (per use)\n对面前的敌人发动顺劈斩, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害并在 5 秒内造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 点流血伤害。\n\nTags: 核心, 流血, 伤害, 物理, 怒气, 劈斩.",
+			"zhTW": "怒氣消耗:35\n幸運觸發機率:33% (per use)\n劈斬你前方的敵人,造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 點傷害並在 5 秒內對敵人造成 {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% 點流血傷害。\n\nTags: 核心, 流血, 傷害, 物理, 怒氣, 斬擊."
 },
 		id: 29,
 		maxPoints: 5,

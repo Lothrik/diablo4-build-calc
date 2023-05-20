@@ -2177,7 +2177,7 @@
 					"power_tags": [
 						"Skill_Primary_Basic"
 					],
-					"skill_desc": "Generate Fury: 9\nLucky Hit Chance: 50% (per hit)\nFlay the enemy, dealing {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% damage. Inflicts {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Bleeding damage over 5 seconds.",
+					"skill_desc": "Generate Fury: 9\nLucky Hit Chance: 50% (per use)\nFlay the enemy, dealing {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% damage. Inflicts {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Bleeding damage over 5 seconds.",
 					"skill_name": "Flay",
 					"skill_rankup_desc": "• Impact Damage 🡑 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%\n• Bleeding Damage 🡑 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}%"
 				},
@@ -5617,7 +5617,7 @@
 					"power_tags": [
 						"Skill_Primary_Core"
 					],
-					"skill_desc": "Fury Cost: 35\nLucky Hit Chance: 33% (per hit)\nCleave enemies in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage and inflicting {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Bleeding damage over 5 seconds.",
+					"skill_desc": "Fury Cost: 35\nLucky Hit Chance: 33% (per use)\nCleave enemies in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage and inflicting {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Bleeding damage over 5 seconds.",
 					"skill_name": "Rend",
 					"skill_rankup_desc": "• Impact Damage 🡑 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%\n• Bleeding Damage 🡑 {96/105.6/115.2/124.8/134.4/144/153.6/163.2/172.8/182.4}%"
 				},
@@ -7812,7 +7812,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Storm"
 					],
-					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 33.308% (per hit)\nForm a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8 seconds.",
+					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 33.308% (per use)\nForm a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8 seconds.",
 					"skill_name": "Hurricane",
 					"skill_rankup_desc": "• Damage 🡑 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}%"
 				},
@@ -10223,7 +10223,7 @@
 					"power_tags": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 40% (per hit)\nPassive: A vine creeper periodically emerges from the ground every 7 seconds and poisons an enemy in the area for {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage over 6 seconds.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for 2 seconds and poisoning them for {30/33/36/39/42/45/48/51/54/57}% damage over 2 seconds.",
+					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 40% (per use)\nPassive: A vine creeper periodically emerges from the ground every 7 seconds and poisons an enemy in the area for {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage over 6 seconds.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for 2 seconds and poisoning them for {30/33/36/39/42/45/48/51/54/57}% damage over 2 seconds.",
 					"skill_name": "Vine Creeper",
 					"skill_rankup_desc": "• Passive Damage 🡑 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%\n• Active Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
@@ -11329,7 +11329,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Storm"
 					],
-					"skill_desc": "Cooldown: 80 seconds\nLucky Hit Chance: 82.064% (per hit)\nA massive storm follows you for 8 seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing 52% damage.",
+					"skill_desc": "Cooldown: 80 seconds\nLucky Hit Chance: 82.064% (per use)\nA massive storm follows you for 8 seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing 52% damage.",
 					"skill_name": "Cataclysm"
 				},
 				"req_points": 0,
@@ -11440,7 +11440,7 @@
 						"Skill_Shapeshifting",
 						"Skill_Wolf"
 					],
-					"skill_desc": "Cooldown: 12 seconds\nLucky Hit Chance: 50% (per hit)\nShapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and an additional {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% damage over 6 seconds.\n\nInfected enemies spread Rabies to other surrounding targets.",
+					"skill_desc": "Cooldown: 12 seconds\nLucky Hit Chance: 50% (per use)\nShapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and an additional {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% damage over 6 seconds.\n\nInfected enemies spread Rabies to other surrounding targets.",
 					"skill_name": "Rabies",
 					"skill_rankup_desc": "• Initial Damage 🡑 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%\n• Poison Damage 🡑 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}%"
 				},
@@ -11614,7 +11614,7 @@
 					"power_tags": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: 25 seconds\nLucky Hit Chance: 33% (per hit)\n fly above you and periodically attack your enemies for 13% damage every 5 seconds.\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
+					"skill_desc": "Cooldown: 25 seconds\nLucky Hit Chance: 33% (per use)\n fly above you and periodically attack your enemies for 13% damage every 5 seconds.\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
 					"skill_name": "Ravens",
 					"skill_rankup_desc": "• Passive Damage 🡑 13%\n• Active Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
 				},
