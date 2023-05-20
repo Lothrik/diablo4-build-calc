@@ -822,6 +822,7 @@ function handleCanvasEvent(event) {
 	switch (event.type) {
 		case "mousedown":
 		case "touchstart":
+			window.getSelection().removeAllRanges();
 			$("#searchInput").blur();
 			if (event.type == "mousedown") return;
 

@@ -98,6 +98,10 @@ h1, h2, h3 {
 	z-index: 6!important;
 }
 
+#detailsWindow > :not(:first-child) {
+	user-select: text!important;
+}
+
 #detailsWindowBox {
 	overflow-y: auto;
 	max-height: 150px;
