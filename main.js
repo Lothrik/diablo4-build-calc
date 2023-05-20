@@ -2736,7 +2736,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	if (!updateExistingNode) {
 		node = new PIXI.Container();
 
-		const enableNodeInteraction = (maxPoints > 0) || (extraData != null && groupName == PARAGON_BOARD);
+		const enableNodeInteraction = (maxPoints > 0) || nodeData.has("description") || (extraData != null && groupName == PARAGON_BOARD);
 		node._renderWithCullingHooked = node._renderWithCulling;
 		node._renderWithCulling = (...args) => {
 			node.interactiveChildren = false;
@@ -3113,7 +3113,7 @@ function drawAllNodes() {
 				for (const [xPosition, nodeData] of Object.entries(rowData)) {
 					if (nodeData.length > 0) {
 						let nodeName = nodeData;
-						let nodeDesc = "";
+						let nodeDesc = null;
 						let nodeNameLocalized = null;
 						let nodeDescLocalized = null;
 						let thresholdRequirements = null;
