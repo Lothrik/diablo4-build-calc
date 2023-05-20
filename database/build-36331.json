@@ -2149,7 +2149,7 @@
 					"power_tags": [
 						"Skill_Primary_Brawling"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 100%\nThrow a powerful kick that deals 18% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54% damage and are Stunned for 3 seconds.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 100% (per hit)\nThrow a powerful kick that deals 18% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54% damage and are Stunned for 3 seconds.",
 					"skill_name": "Kick",
 					"skill_rankup_desc": "• Charge Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds"
 				},
@@ -2177,7 +2177,7 @@
 					"power_tags": [
 						"Skill_Primary_Basic"
 					],
-					"skill_desc": "Generate Fury: 9\nLucky Hit Chance: 50%\nFlay the enemy, dealing {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% damage. Inflicts {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Bleeding damage over 5 seconds.",
+					"skill_desc": "Generate Fury: 9\nLucky Hit Chance: 50% (per hit)\nFlay the enemy, dealing {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% damage. Inflicts {36/39.5/43/47/50.5/54/57.5/61/65/68.5}% Bleeding damage over 5 seconds.",
 					"skill_name": "Flay",
 					"skill_rankup_desc": "• Impact Damage 🡑 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%\n• Bleeding Damage 🡑 {36/39.5/43/47/50.5/54/57.5/61/65/68.5}%"
 				},
@@ -2235,7 +2235,7 @@
 						"Skill_Primary_Basic",
 						"Skill_DualWield"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 5\nLucky Hit Chance: 30%\nUnleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits.\n\nIf Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 5\nLucky Hit Chance: 30% (per hit)\nUnleash a rapid flurry of blows, dealing {20/22/24/26/28/30/32/34/36/38}% damage with each pair of hits.\n\nIf Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.",
 					"skill_name": "Frenzy",
 					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%."
 				},
@@ -2320,7 +2320,7 @@
 					"power_tags": [
 						"Skill_Primary_Core"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.1\nFury Cost: 40\nLucky Hit Chance: 20%\nTear into the ground with your weapon and fling debris forward, dealing {70/77/84/91/98/105/112/119/126/133}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.1\nFury Cost: 40\nLucky Hit Chance: 20% (per hit)\nTear into the ground with your weapon and fling debris forward, dealing {70/77/84/91/98/105/112/119/126/133}% damage.",
 					"skill_name": "Upheaval",
 					"skill_rankup_desc": "• Damage 🡑 {70/77/84/91/98/105/112/119/126/133}%."
 				},
@@ -2348,7 +2348,7 @@
 					"power_tags": [
 						"Skill_Primary_Basic"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 9\nLucky Hit Chance: 50%\nLunge forward and strike an enemy for {30/33/36/39/42/45/48/51/54/57}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 9\nLucky Hit Chance: 50% (per hit)\nLunge forward and strike an enemy for {30/33/36/39/42/45/48/51/54/57}% damage.",
 					"skill_name": "Lunging Strike",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%."
 				},
@@ -2377,7 +2377,7 @@
 						"Skill_Primary_Core",
 						"Skill_Bludgeoning"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.1\nFury Cost: 35\nLucky Hit Chance: 40%\nSlam your hammer down with the fury of the Ancients, dealing {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}% damage to a concentrated area.",
+					"skill_desc": "Attack Speed Multiplier: 1.1\nFury Cost: 35\nLucky Hit Chance: 40% (per hit)\nSlam your hammer down with the fury of the Ancients, dealing {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}% damage to a concentrated area.",
 					"skill_name": "Hammer of the Ancients",
 					"skill_rankup_desc": "• Damage 🡑 {56/61.6/67.2/72.8/78.4/84/89.6/95.2/100.8/106.4}%."
 				},
@@ -2406,7 +2406,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Bludgeoning"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 10\nLucky Hit Chance: 50%\nBash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nGenerate Fury: 10\nLucky Hit Chance: 50% (per hit)\nBash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.",
 					"skill_name": "Bash",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%."
 				},
@@ -2462,7 +2462,7 @@
 						"Skill_Primary_Core",
 						"Skill_DualWield"
 					],
-					"skill_desc": "Fury Cost: {#}\nLucky Hit Chance: 30%\nSweep your weapons from opposite directions, dealing {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage with each weapon. Enemies caught in the center are damaged by both.",
+					"skill_desc": "Fury Cost: {#}\nLucky Hit Chance: 30% (per hit)\nSweep your weapons from opposite directions, dealing {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage with each weapon. Enemies caught in the center are damaged by both.",
 					"skill_name": "Double Swing",
 					"skill_rankup_desc": "• Damage 🡑 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% with each weapon."
 				},
@@ -3205,7 +3205,7 @@
 						"Skill_Primary_Core",
 						"Skill_Channeled"
 					],
-					"skill_desc": "Fury Cost: 20 per second\nLucky Hit Chance: 20%\nRapidly attack surrounding enemies for {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage.",
+					"skill_desc": "Fury Cost: 20 per second\nLucky Hit Chance: 20% (per hit)\nRapidly attack surrounding enemies for {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage.",
 					"skill_name": "Whirlwind",
 					"skill_rankup_desc": "• Damage 🡑 {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}%."
 				},
@@ -5335,7 +5335,7 @@
 					"power_tags": [
 						"Skill_Primary_Ultimate"
 					],
-					"skill_desc": "Cooldown: 50 seconds\nLucky Hit Chance: 30%\nCall upon 3 Ancients to aid you in battle for 6 seconds.\n\nKorlic leaps at enemies, dealing 80% damage and swings his weapons in a frenzy, dealing 30% damage per hit.\n\nTalic spins in a whirlwind rapidly attacking enemies for 50% damage.\n\nMadawc upheaves the ground, dealing 150% damage.",
+					"skill_desc": "Cooldown: 50 seconds\nLucky Hit Chance: 30% (per hit)\nCall upon 3 Ancients to aid you in battle for 6 seconds.\n\nKorlic leaps at enemies, dealing 80% damage and swings his weapons in a frenzy, dealing 30% damage per hit.\n\nTalic spins in a whirlwind rapidly attacking enemies for 50% damage.\n\nMadawc upheaves the ground, dealing 150% damage.",
 					"skill_name": "Call of the Ancients"
 				},
 				"req_points": 0,
@@ -5391,7 +5391,7 @@
 					"power_tags": [
 						"Skill_Primary_Ultimate"
 					],
-					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 40%\nActivate to attach a chain to your Two-Handed Bludgeoning weapon and slam the ground, dealing 60% damage and Stunning them for 2 seconds.\n\nReactivate a second time to attach a chain to your Two-Handed Slashing weapon and swipe it in front of you, dealing 20% damage and 120% Bleeding damage over 5 seconds.\n\nReactivate a final time to attach a chain to your Dual Wield weapons and swing them around you, dealing 32.5% damage per hit.",
+					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 40% (per hit)\nActivate to attach a chain to your Two-Handed Bludgeoning weapon and slam the ground, dealing 60% damage and Stunning them for 2 seconds.\n\nReactivate a second time to attach a chain to your Two-Handed Slashing weapon and swipe it in front of you, dealing 20% damage and 120% Bleeding damage over 5 seconds.\n\nReactivate a final time to attach a chain to your Dual Wield weapons and swing them around you, dealing 32.5% damage per hit.",
 					"skill_name": "Iron Maelstrom"
 				},
 				"req_points": 0,
@@ -5420,7 +5420,7 @@
 						"Keyword_Unstoppable",
 						"Keyword_Berserk"
 					],
-					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 40%\nGain Berserking and Unstoppable for 5 seconds. For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.",
+					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 40% (per hit)\nGain Berserking and Unstoppable for 5 seconds. For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.",
 					"skill_name": "Wrath of the Berserker"
 				},
 				"req_points": 0,
@@ -5448,7 +5448,7 @@
 						"Skill_Primary_Brawling",
 						"Keyword_Unstoppable"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.5\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33%\nBecome Unstoppable and rush forward, pushing enemies with you then swinging through them for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking them Back.",
+					"skill_desc": "Attack Speed Multiplier: 1.5\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33% (per hit)\nBecome Unstoppable and rush forward, pushing enemies with you then swinging through them for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking them Back.",
 					"skill_name": "Charge",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%.\n• Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds."
 				},
@@ -5476,7 +5476,7 @@
 					"power_tags": [
 						"Skill_Primary_Brawling"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.3\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33%\nLeap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% damage and Knocking Back surrounding enemies on impact.",
+					"skill_desc": "Attack Speed Multiplier: 1.3\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33% (per hit)\nLeap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% damage and Knocking Back surrounding enemies on impact.",
 					"skill_name": "Leap",
 					"skill_rankup_desc": "• Damage 🡑 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%.\n• Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds."
 				},
@@ -5533,7 +5533,7 @@
 					"power_tags": [
 						"Skill_Primary_Defensive"
 					],
-					"skill_desc": "Cooldown: {16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6} seconds\nLucky Hit Chance: 33%\nSmash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% damage and Stunning surrounding enemies for 3 seconds.",
+					"skill_desc": "Cooldown: {16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6} seconds\nLucky Hit Chance: 33% (per hit)\nSmash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% damage and Stunning surrounding enemies for 3 seconds.",
 					"skill_name": "Ground Stomp",
 					"skill_rankup_desc": "• Damage 🡑 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%.\n• Cooldown 🡑 {16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6} seconds."
 				},
@@ -5561,7 +5561,7 @@
 					"power_tags": [
 						"Skill_Primary_Weapon_Mastery"
 					],
-					"skill_desc": "Cooldown: 15 seconds\nLucky Hit Chance: 50%\nAttempt a killing strike, dealing {120/132/144/156/168/180/192/204/216/228}% damage to enemies in front of you.\n\nIf this kills an enemy, the Cooldown is reset.",
+					"skill_desc": "Cooldown: 15 seconds\nLucky Hit Chance: 50% (per hit)\nAttempt a killing strike, dealing {120/132/144/156/168/180/192/204/216/228}% damage to enemies in front of you.\n\nIf this kills an enemy, the Cooldown is reset.",
 					"skill_name": "Death Blow",
 					"skill_rankup_desc": "• Damage 🡑 {120/132/144/156/168/180/192/204/216/228}%."
 				},
@@ -5589,7 +5589,7 @@
 					"power_tags": [
 						"Skill_Primary_Weapon_Mastery"
 					],
-					"skill_desc": "Cooldown: 15 seconds\nLucky Hit Chance: 50%\nSkewer enemies in front of you, dealing {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.",
+					"skill_desc": "Cooldown: 15 seconds\nLucky Hit Chance: 50% (per hit)\nSkewer enemies in front of you, dealing {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them.",
 					"skill_name": "Rupture",
 					"skill_rankup_desc": "• Damage 🡑 {13/14.3/15.6/16.9/18.2/19.5/20.8/22.1/23.4/24.7}%."
 				},
@@ -5617,7 +5617,7 @@
 					"power_tags": [
 						"Skill_Primary_Core"
 					],
-					"skill_desc": "Fury Cost: 35\nLucky Hit Chance: 33%\nCleave enemies in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage and inflicting {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Bleeding damage over 5 seconds.",
+					"skill_desc": "Fury Cost: 35\nLucky Hit Chance: 33% (per hit)\nCleave enemies in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage and inflicting {96/105.5/115/125/134.5/144/153.5/163/173/182.5}% Bleeding damage over 5 seconds.",
 					"skill_name": "Rend",
 					"skill_rankup_desc": "• Impact Damage 🡑 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%\n• Bleeding Damage 🡑 {96/105.6/115.2/124.8/134.4/144/153.6/163.2/172.8/182.4}%"
 				},
@@ -5645,7 +5645,7 @@
 					"power_tags": [
 						"Skill_Primary_Weapon_Mastery"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6} seconds\nLucky Hit Chance: 25%\nThrow out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and Pull In enemies.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6} seconds\nLucky Hit Chance: 25% (per hit)\nThrow out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and Pull In enemies.",
 					"skill_name": "Steel Grasp",
 					"skill_rankup_desc": "• Damage 🡑 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%\n• Charge Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}"
 				},
@@ -7812,7 +7812,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Storm"
 					],
-					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 33.308%\nForm a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8 seconds.",
+					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 33.308% (per hit)\nForm a hurricane around you that deals {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}% damage to surrounding enemies over 8 seconds.",
 					"skill_name": "Hurricane",
 					"skill_rankup_desc": "• Damage 🡑 {97.5/107.2/117/126.8/136.5/146.2/156/165.8/175.5/185.2}%"
 				},
@@ -7932,7 +7932,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Earth"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nCooldown: 10 seconds\nLucky Hit Chance: 20%\nUnearth a large rolling boulder that Knocks Back and crushes enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nCooldown: 10 seconds\nLucky Hit Chance: 20% (per hit)\nUnearth a large rolling boulder that Knocks Back and crushes enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.",
 					"skill_name": "Boulder",
 					"skill_rankup_desc": "• Damage 🡑 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%"
 				},
@@ -7992,7 +7992,7 @@
 						"Skill_Bear",
 						"Keyword_Healthy"
 					],
-					"skill_desc": "Generate Spirit: 11\nLucky Hit Chance: 33%\nShapeshift into a Werebear and maul enemies in front of you, dealing {20/22/24/26/28/30/32/34/36/38}% damage.",
+					"skill_desc": "Generate Spirit: 11\nLucky Hit Chance: 33% (per hit)\nShapeshift into a Werebear and maul enemies in front of you, dealing {20/22/24/26/28/30/32/34/36/38}% damage.",
 					"skill_name": "Maul",
 					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
@@ -8022,7 +8022,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Storm"
 					],
-					"skill_desc": "Generate Spirit: 15\nLucky Hit Chance: 25%\nElectricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to 3 surrounding enemies, dealing 20% less damage each time it chains.\n\nDealing damage with Storm Strike reduces your damage taken by 25% for 3 seconds.",
+					"skill_desc": "Generate Spirit: 15\nLucky Hit Chance: 25% (per hit)\nElectricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to 3 surrounding enemies, dealing 20% less damage each time it chains.\n\nDealing damage with Storm Strike reduces your damage taken by 25% for 3 seconds.",
 					"skill_name": "Storm Strike",
 					"skill_rankup_desc": "Damage increased to {20/22/24/26/28/30/32/34/36/38}%."
 				},
@@ -8194,7 +8194,7 @@
 						"Skill_Nature_Magic_Earth",
 						"Keyword_Barrier"
 					],
-					"skill_desc": "Cooldown: 16 seconds\nLucky Hit Chance: 50%\nRocks surround you for 3 seconds, granting a Barrier that absorbs {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% of your Base Life in damage.",
+					"skill_desc": "Cooldown: 16 seconds\nLucky Hit Chance: 50% (per hit)\nRocks surround you for 3 seconds, granting a Barrier that absorbs {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% of your Base Life in damage.",
 					"skill_name": "Earthen Bulwark",
 					"skill_rankup_desc": "• Barrier Amount 🡑 {#}"
 				},
@@ -8254,7 +8254,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Earth"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nSpirit Cost: 30\nLucky Hit Chance: 20%\nCrush enemies between 3 pillars of earth, dealing up to {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nSpirit Cost: 30\nLucky Hit Chance: 20% (per hit)\nCrush enemies between 3 pillars of earth, dealing up to {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage.",
 					"skill_name": "Landslide",
 					"skill_rankup_desc": "• Damage 🡑 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%"
 				},
@@ -8313,7 +8313,7 @@
 						"Skill_Shapeshifting",
 						"Skill_Wolf"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.1\nGenerate Spirit: 9\nLucky Hit Chance: 50%\nShapeshift into a Werewolf and claw at an enemy for {20/22/24/26/28/30/32/34/36/38}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.1\nGenerate Spirit: 9\nLucky Hit Chance: 50% (per hit)\nShapeshift into a Werewolf and claw at an enemy for {20/22/24/26/28/30/32/34/36/38}% damage.",
 					"skill_name": "Claw",
 					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
@@ -8402,7 +8402,7 @@
 						"Skill_Shapeshifting",
 						"Skill_Bear"
 					],
-					"skill_desc": "Spirit Cost: 35\nLucky Hit Chance: 33%\nShapeshift into a Werebear and slam the ground, dealing {50/55/60/65/70/75/80/85/90/95}% damage to surrounding enemies.",
+					"skill_desc": "Spirit Cost: 35\nLucky Hit Chance: 33% (per hit)\nShapeshift into a Werebear and slam the ground, dealing {50/55/60/65/70/75/80/85/90/95}% damage to surrounding enemies.",
 					"skill_name": "Pulverize",
 					"skill_rankup_desc": "• Damage 🡑 {50/55/60/65/70/75/80/85/90/95}%"
 				},
@@ -8456,7 +8456,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Earth"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.5\nGenerate Spirit: 8\nLucky Hit Chance: 25%\nSunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.",
+					"skill_desc": "Attack Speed Multiplier: 1.5\nGenerate Spirit: 8\nLucky Hit Chance: 25% (per hit)\nSunder the earth, impaling the first enemy hit for {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}% damage.",
 					"skill_name": "Earthspike",
 					"skill_rankup_desc": "• Damage 🡑 {16/17.6/19.2/20.8/22.4/24/25.6/27.2/28.8/30.4}%"
 				},
@@ -8486,7 +8486,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Storm"
 					],
-					"skill_desc": "Spirit Cost: 40\nLucky Hit Chance: 33%\nConjure a swirling tornado that deals {100/110/120/130/140/150/160/170/180/190}% damage.",
+					"skill_desc": "Spirit Cost: 40\nLucky Hit Chance: 33% (per hit)\nConjure a swirling tornado that deals {100/110/120/130/140/150/160/170/180/190}% damage.",
 					"skill_name": "Tornado",
 					"skill_rankup_desc": "• Damage 🡑 {100/110/120/130/140/150/160/170/180/190}%"
 				},
@@ -10223,7 +10223,7 @@
 					"power_tags": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 40%\nPassive: A vine creeper periodically emerges from the ground every 7 seconds and poisons an enemy in the area for {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage over 6 seconds.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for 2 seconds and poisoning them for {30/33/36/39/42/45/48/51/54/57}% damage over 2 seconds.",
+					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 40% (per hit)\nPassive: A vine creeper periodically emerges from the ground every 7 seconds and poisons an enemy in the area for {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage over 6 seconds.\n\nActive: Vines strangle all surrounding enemies, Immobilizing them for 2 seconds and poisoning them for {30/33/36/39/42/45/48/51/54/57}% damage over 2 seconds.",
 					"skill_name": "Vine Creeper",
 					"skill_rankup_desc": "• Passive Damage 🡑 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%\n• Active Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
@@ -10269,7 +10269,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Storm"
 					],
-					"skill_desc": "Generate Spirit: 12\nLucky Hit Chance: 33%\nConjure a piercing blade of wind, dealing {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% damage.",
+					"skill_desc": "Generate Spirit: 12\nLucky Hit Chance: 33% (per hit)\nConjure a piercing blade of wind, dealing {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% damage.",
 					"skill_name": "Wind Shear",
 					"skill_rankup_desc": "• Damage 🡑 {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}%"
 				},
@@ -10300,7 +10300,7 @@
 						"Skill_Nature_Magic_Storm",
 						"Skill_Channeled"
 					],
-					"skill_desc": "Spirit Cost: 15 per strike\nLucky Hit Chance: 15%\nConjure a growing lightning storm that deals {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of 5.",
+					"skill_desc": "Spirit Cost: 15 per strike\nLucky Hit Chance: 15% (per hit)\nConjure a growing lightning storm that deals {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage per strike and increases the number of strikes the longer it is channeled up to a maximum of 5.",
 					"skill_name": "Lightning Storm",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
@@ -11271,7 +11271,7 @@
 						"Skill_Wolf",
 						"Keyword_Immune"
 					],
-					"skill_desc": "Cooldown: 50 seconds\nLucky Hit Chance: 15%\nShapeshift into a Werewolf, become Immune and quickly dash 10 times between enemies in the area dealing up to 400% damage.",
+					"skill_desc": "Cooldown: 50 seconds\nLucky Hit Chance: 15% (per hit)\nShapeshift into a Werewolf, become Immune and quickly dash 10 times between enemies in the area dealing up to 400% damage.",
 					"skill_name": "Lacerate"
 				},
 				"req_points": 0,
@@ -11329,7 +11329,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Storm"
 					],
-					"skill_desc": "Cooldown: 80 seconds\nLucky Hit Chance: 82.064%\nA massive storm follows you for 8 seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing 52% damage.",
+					"skill_desc": "Cooldown: 80 seconds\nLucky Hit Chance: 82.064% (per hit)\nA massive storm follows you for 8 seconds. Tornadoes knock back enemies, and lightning strikes wildly dealing 52% damage.",
 					"skill_name": "Cataclysm"
 				},
 				"req_points": 0,
@@ -11440,7 +11440,7 @@
 						"Skill_Shapeshifting",
 						"Skill_Wolf"
 					],
-					"skill_desc": "Cooldown: 12 seconds\nLucky Hit Chance: 50%\nShapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and an additional {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% damage over 6 seconds.\n\nInfected enemies spread Rabies to other surrounding targets.",
+					"skill_desc": "Cooldown: 12 seconds\nLucky Hit Chance: 50% (per hit)\nShapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and an additional {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}% damage over 6 seconds.\n\nInfected enemies spread Rabies to other surrounding targets.",
 					"skill_name": "Rabies",
 					"skill_rankup_desc": "• Initial Damage 🡑 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%\n• Poison Damage 🡑 {52.8/58.2/63.6/69/74.4/79.2/84.6/90/95.4/100.8}%"
 				},
@@ -11528,7 +11528,7 @@
 						"Skill_Shapeshifting",
 						"Skill_Bear"
 					],
-					"skill_desc": "Cooldown: 14 seconds\nLucky Hit Chance: 33%\nShapeshift into a Werebear and charge forward, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking Back enemies.\n\nEnemies who are Knocked Back into terrain take an additional {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and are stunned for 3 seconds.",
+					"skill_desc": "Cooldown: 14 seconds\nLucky Hit Chance: 33% (per hit)\nShapeshift into a Werebear and charge forward, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking Back enemies.\n\nEnemies who are Knocked Back into terrain take an additional {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and are stunned for 3 seconds.",
 					"skill_name": "Trample",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• Terrain Impact Damage 🡑 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
 				},
@@ -11556,7 +11556,7 @@
 					"power_tags": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: 14 seconds\nLucky Hit Chance: 50%\nPassive: Summon 2 wolf companions that bite enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% damage.\n\nActive: Direct the wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
+					"skill_desc": "Cooldown: 14 seconds\nLucky Hit Chance: 50% (per hit)\nPassive: Summon 2 wolf companions that bite enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% damage.\n\nActive: Direct the wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
 					"skill_name": "Wolves",
 					"skill_rankup_desc": "• Passive Damage 🡑 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%\n• Active Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
@@ -11586,7 +11586,7 @@
 						"Skill_Nature_Magic",
 						"Skill_Nature_Magic_Storm"
 					],
-					"skill_desc": "Cooldown: 15 seconds\nLucky Hit Chance: 25%\nPassive: Powerful winds surround you, granting {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% non-Physical damage reduction.\n\nActive: The winds rapidly expand, Knocking Back enemies and dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage.",
+					"skill_desc": "Cooldown: 15 seconds\nLucky Hit Chance: 25% (per hit)\nPassive: Powerful winds surround you, granting {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}% non-Physical damage reduction.\n\nActive: The winds rapidly expand, Knocking Back enemies and dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage.",
 					"skill_name": "Cyclone Armor",
 					"skill_rankup_desc": "• Non-Physical Damage Reduction 🡑 {20/21.8/23.5/25.2/26.8/28.4/30/31.6/33.1/34.6}%\n• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
@@ -11614,7 +11614,7 @@
 					"power_tags": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: 25 seconds\nLucky Hit Chance: 33%\n fly above you and periodically attack your enemies for 13% damage every 5 seconds.\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
+					"skill_desc": "Cooldown: 25 seconds\nLucky Hit Chance: 33% (per hit)\n fly above you and periodically attack your enemies for 13% damage every 5 seconds.\nActive: The target area is swarmed with ravens, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage over 6 seconds.",
 					"skill_name": "Ravens",
 					"skill_rankup_desc": "• Passive Damage 🡑 13%\n• Active Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
 				},
@@ -11703,7 +11703,7 @@
 						"Skill_Shapeshifting",
 						"Skill_Wolf"
 					],
-					"skill_desc": "Spirit Cost: 35\nLucky Hit Chance: 20%\nShapeshift into a Werewolf and perform a 3-combo attack.\n\n• 1st Attack: Dash towards the target and deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.\n• 2nd Attack: Deal {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.\n• 3rd Attack: Perform a larger finishing move dealing {60/66/72/78/84/90/96/102/108/114}% damage.",
+					"skill_desc": "Spirit Cost: 35\nLucky Hit Chance: 20% (per hit)\nShapeshift into a Werewolf and perform a 3-combo attack.\n\n• 1st Attack: Dash towards the target and deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.\n• 2nd Attack: Deal {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.\n• 3rd Attack: Perform a larger finishing move dealing {60/66/72/78/84/90/96/102/108/114}% damage.",
 					"skill_name": "Shred",
 					"skill_rankup_desc": "• 1st Attack Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• 2nd Attack Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%\n• 3rd Attack Damage 🡑 {60/66/72/78/84/90/96/102/108/114}%"
 				},
@@ -23721,7 +23721,7 @@
 						"Skill_Primary_Core",
 						"Skill_Bone"
 					],
-					"skill_desc": "Essence Cost: 25\nLucky Hit Chance: 50%\nConjure a bone spear from the ground, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage and Piercing through enemies.",
+					"skill_desc": "Essence Cost: 25\nLucky Hit Chance: 50% (per hit)\nConjure a bone spear from the ground, dealing {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}% damage and Piercing through enemies.",
 					"skill_name": "Bone Spear",
 					"skill_rankup_desc": "• Damage 🡑 {85/93.5/102/110.5/119/127.5/136/144.5/153/161.5}%"
 				},
@@ -23750,7 +23750,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Bone"
 					],
-					"skill_desc": "Generate Essence: 5\nLucky Hit Chance: 17%\nFire 3 bone splinters, dealing {22.5/24.8/27/29.3/31.5/33.8/36/38.2/40.5/42.8}% damage each. Each subsequent time an enemy is hit by the same cast of Bone Splinters, you gain 1 Essence.",
+					"skill_desc": "Generate Essence: 5\nLucky Hit Chance: 17% (per hit)\nFire 3 bone splinters, dealing {22.5/24.8/27/29.3/31.5/33.8/36/38.2/40.5/42.8}% damage each. Each subsequent time an enemy is hit by the same cast of Bone Splinters, you gain 1 Essence.",
 					"skill_name": "Bone Splinters",
 					"skill_rankup_desc": "• Damage 🡑 {22.5/24.8/27/29.3/31.5/33.8/36/38.2/40.5/42.8}%"
 				},
@@ -24354,7 +24354,7 @@
 						"Skill_Primary_Core",
 						"Skill_Shadow"
 					],
-					"skill_desc": "Essence Cost: 20\nLucky Hit Chance: 20%\nA specter of you charges forward and attacks with its scythe for {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% damage then returns to you and attacks again for {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage.",
+					"skill_desc": "Essence Cost: 20\nLucky Hit Chance: 20% (per hit)\nA specter of you charges forward and attacks with its scythe for {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}% damage then returns to you and attacks again for {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage.",
 					"skill_name": "Sever",
 					"skill_rankup_desc": "• Initial Damage 🡑 {63/69.3/75.6/81.9/88.2/94.5/100.8/107.1/113.4/119.7}%\n• Return Damage 🡑 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%"
 				},
@@ -24411,7 +24411,7 @@
 						"Skill_Primary_Corruption",
 						"Skill_Corpse"
 					],
-					"skill_desc": "Lucky Hit Chance: 40%\nDetonate a Corpse, dealing {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage to surrounding enemies.",
+					"skill_desc": "Lucky Hit Chance: 40% (per hit)\nDetonate a Corpse, dealing {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage to surrounding enemies.",
 					"skill_name": "Corpse Explosion",
 					"skill_rankup_desc": "• Damage 🡑 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%"
 				},
@@ -24440,7 +24440,7 @@
 						"Skill_Primary_Macabre",
 						"Skill_Bone"
 					],
-					"skill_desc": "Cooldown: 12 seconds\nEssence Cost: All Remaining Essence\nLucky Hit Chance: 33%\nConsume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the target and all surrounding enemies. Damage is increased by 3% for each point of Essence spent casting Bone Spirit.",
+					"skill_desc": "Cooldown: 12 seconds\nEssence Cost: All Remaining Essence\nLucky Hit Chance: 33% (per hit)\nConsume all of your Essence to conjure a spirit of bone that seeks enemies. Upon reaching an enemy, the spirit explodes, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the target and all surrounding enemies. Damage is increased by 3% for each point of Essence spent casting Bone Spirit.",
 					"skill_name": "Bone Spirit",
 					"skill_rankup_desc": "• Damage 🡑 {80/88/96/104/112/120/128/136/144/152}%"
 				},
@@ -24469,7 +24469,7 @@
 						"Skill_Primary_Core",
 						"Skill_Blood"
 					],
-					"skill_desc": "Essence Cost: 30\nLucky Hit Chance: 20%\nDraw blood from enemies, dealing {20/22/24/26/28/30/32/34/36/38}% damage, and expel a blood nova, dealing {50/55/60/65/70/75/80/85/90/95}% damage. Blood Surge's nova damage is increased by x10% per enemy drained, up to x50%.",
+					"skill_desc": "Essence Cost: 30\nLucky Hit Chance: 20% (per hit)\nDraw blood from enemies, dealing {20/22/24/26/28/30/32/34/36/38}% damage, and expel a blood nova, dealing {50/55/60/65/70/75/80/85/90/95}% damage. Blood Surge's nova damage is increased by x10% per enemy drained, up to x50%.",
 					"skill_name": "Blood Surge",
 					"skill_rankup_desc": "• Initial Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%\n• Nova Damage 🡑 {50/55/60/65/70/75/80/85/90/95}%"
 				},
@@ -24499,7 +24499,7 @@
 						"Skill_Blood",
 						"Keyword_Blood_Orb"
 					],
-					"skill_desc": "Generate Essence: 8\nLucky Hit Chance: 40%\nBurst an enemy's blood, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage. Hemorrhage has a 20% chance to form a Blood Orb.",
+					"skill_desc": "Generate Essence: 8\nLucky Hit Chance: 40% (per hit)\nBurst an enemy's blood, dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage. Hemorrhage has a 20% chance to form a Blood Orb.",
 					"skill_name": "Hemorrhage",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
@@ -24727,7 +24727,7 @@
 						"Skill_Primary_Corruption",
 						"Skill_Corpse"
 					],
-					"skill_desc": "Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}\nLucky Hit Chance: 20%\nVeins burst out of a Corpse, pulling in enemies, Stunning them for 3 seconds, and dealing {20/22/24/26/28/30/32/34/36/38}% damage to them. Does not consume the Corpse.",
+					"skill_desc": "Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}\nLucky Hit Chance: 20% (per hit)\nVeins burst out of a Corpse, pulling in enemies, Stunning them for 3 seconds, and dealing {20/22/24/26/28/30/32/34/36/38}% damage to them. Does not consume the Corpse.",
 					"skill_name": "Corpse Tendrils",
 					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%\n• Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}"
 				},
@@ -24811,7 +24811,7 @@
 					"power_tags": [
 						"Skill_Primary_Ultimate"
 					],
-					"skill_desc": "Cooldown: 90 seconds\nLucky Hit Chance: 53.736%\nCall forth the deep buried dead. Volatile undead emerge over the next 7 seconds that explode when around enemies, dealing 30% damage.",
+					"skill_desc": "Cooldown: 90 seconds\nLucky Hit Chance: 53.736% (per use)\nCall forth the deep buried dead. Volatile undead emerge over the next 7 seconds that explode when around enemies, dealing 30% damage.",
 					"skill_name": "Army of the Dead"
 				},
 				"req_points": 0,
@@ -24839,7 +24839,7 @@
 						"Skill_Primary_Ultimate",
 						"Skill_Bone"
 					],
-					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 39.608%\nA swirling storm of bones appears around you and your Golem, dealing 180% to surrounding enemies over 10 seconds.",
+					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 39.608% (per use)\nA swirling storm of bones appears around you and your Golem, dealing 180% to surrounding enemies over 10 seconds.",
 					"skill_name": "Bone Storm"
 				},
 				"req_points": 0,
@@ -24867,7 +24867,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Shadow"
 					],
-					"skill_desc": "Attack Speed Multiplier: 0.8\nGenerate Essence: 4 per enemy hit\nLucky Hit Chance: 16.667%\nSweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15% for 2 seconds.",
+					"skill_desc": "Attack Speed Multiplier: 0.8\nGenerate Essence: 4 per enemy hit\nLucky Hit Chance: 16.667% (per hit)\nSweep an ethereal scythe in front of you, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage. Hitting an enemy with Reap increases your Damage Reduction by 15% for 2 seconds.",
 					"skill_name": "Reap",
 					"skill_rankup_desc": "• Damage 🡑 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%"
 				},
@@ -24896,7 +24896,7 @@
 						"Skill_Primary_Ultimate",
 						"Skill_Blood"
 					],
-					"skill_desc": "Cooldown: 50 seconds\nLucky Hit Chance: 30%\nConjure a tidal wave of blood that deals 90% damage and knocks enemies back.",
+					"skill_desc": "Cooldown: 50 seconds\nLucky Hit Chance: 30% (per hit)\nConjure a tidal wave of blood that deals 90% damage and knocks enemies back.",
 					"skill_name": "Blood Wave"
 				},
 				"req_points": 0,
@@ -25723,7 +25723,7 @@
 						"Skill_Blood",
 						"Keyword_Immune"
 					],
-					"skill_desc": "Cooldown: 19 seconds\nLucky Hit Chance: 8.733%\nDisperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 50% and you periodically deal {1.7/1.9/2.1/2.3/2.4/2.6/2.8/3/3.2/3.3}% damage to enemies, healing for 100% of the damage dealt.",
+					"skill_desc": "Cooldown: 19 seconds\nLucky Hit Chance: 8.733% (per use)\nDisperse into a bloody mist, becoming Immune for 3 seconds. Your Movement Speed is reduced by 50% and you periodically deal {1.7/1.9/2.1/2.3/2.4/2.6/2.8/3/3.2/3.3}% damage to enemies, healing for 100% of the damage dealt.",
 					"skill_name": "Blood Mist",
 					"skill_rankup_desc": "• Damage 🡑 {1.7/1.9/2.1/2.3/2.4/2.6/2.8/3/3.2/3.3}%"
 				},
@@ -25849,7 +25849,7 @@
 						"Skill_Primary_Core",
 						"Skill_Blood"
 					],
-					"skill_desc": "Essence Cost: 10\nLucky Hit Chance: 40%\nThrow a blood lance that lingers in an enemy for 3 seconds, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage to the enemy and all other lanced enemies.",
+					"skill_desc": "Essence Cost: 10\nLucky Hit Chance: 40% (per hit)\nThrow a blood lance that lingers in an enemy for 3 seconds, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage to the enemy and all other lanced enemies.",
 					"skill_name": "Blood Lance",
 					"skill_rankup_desc": "• Damage 🡑 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%"
 				},
@@ -26025,7 +26025,7 @@
 						"Skill_Primary_Core",
 						"Skill_Shadow"
 					],
-					"skill_desc": "Essence Cost: 25\nLucky Hit Chance: 40%\nUnleash concentrated blight that deals {30/33/36/39/42/45/48/51/54/57}% damage and leaves behind a defiled area, dealing {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% damage over 6 seconds.",
+					"skill_desc": "Essence Cost: 25\nLucky Hit Chance: 40% (per hit)\nUnleash concentrated blight that deals {30/33/36/39/42/45/48/51/54/57}% damage and leaves behind a defiled area, dealing {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}% damage over 6 seconds.",
 					"skill_name": "Blight",
 					"skill_rankup_desc": "• Impact Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%\n• Damage Over Time 🡑 {79.8/88.2/96/103.8/112.2/120/127.8/136.2/144/151.8}%"
 				},
@@ -26340,7 +26340,7 @@
 						"Skill_Shadow",
 						"Skill_Channeled"
 					],
-					"skill_desc": "Generate Essence: 6 per second\nLucky Hit Chance: 40%\nTear the flesh from an enemy, dealing {30/33/36/39/42/45/48/51/54/57}% damage per second and forming a usable Corpse with the flesh every 2.5 seconds.",
+					"skill_desc": "Generate Essence: 6 per second\nLucky Hit Chance: 40% (per hit)\nTear the flesh from an enemy, dealing {30/33/36/39/42/45/48/51/54/57}% damage per second and forming a usable Corpse with the flesh every 2.5 seconds.",
 					"skill_name": "Decompose",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
@@ -28437,7 +28437,7 @@
 						"Skill_Melee",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: 33%\nUnleash a flurry of stabs and slashes, dealing {60/66/72/78/84/90/96/102/108/114}% damage to enemies in front of you.\n\nCombo Points increase damage and grant a +30% Attack Speed bonus:\n 1: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, 1.5 second bonus\n 2: {90/99/108/117/126/135/144/153/162/171}% damage, 3 second bonus\n 3: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, 4.5 second bonus",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: 33% (per hit)\nUnleash a flurry of stabs and slashes, dealing {60/66/72/78/84/90/96/102/108/114}% damage to enemies in front of you.\n\nCombo Points increase damage and grant a +30% Attack Speed bonus:\n 1: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, 1.5 second bonus\n 2: {90/99/108/117/126/135/144/153/162/171}% damage, 3 second bonus\n 3: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, 4.5 second bonus",
 					"skill_name": "Flurry",
 					"skill_rankup_desc": "• Damage 🡑 {60/66/72/78/84/90/96/102/108/114}%"
 				},
@@ -28466,7 +28466,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Ranged"
 					],
-					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 50%\nFire an arrow that seeks an enemy, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage and increasing your Critical Strike Chance against them by +3% for 4 seconds, up to +15%.",
+					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 50% (per hit)\nFire an arrow that seeks an enemy, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage and increasing your Critical Strike Chance against them by +3% for 4 seconds, up to +15%.",
 					"skill_name": "Heartseeker",
 					"skill_rankup_desc": "• Damage 🡑 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%"
 				},
@@ -29479,7 +29479,7 @@
 						"Keyword_Unstoppable",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Cooldown: 9 seconds\nLucky Hit Chance: 100%\nBecome Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50% increased Movement Speed for 2 seconds afterwards.",
+					"skill_desc": "Cooldown: 9 seconds\nLucky Hit Chance: 100% (per hit)\nBecome Unstoppable and quickly move through the shadows to stab your victim from behind for {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage. Gain 50% increased Movement Speed for 2 seconds afterwards.",
 					"skill_name": "Shadow Step",
 					"skill_rankup_desc": "• Damage 🡑 {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}%"
 				},
@@ -29569,7 +29569,7 @@
 						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Energy Cost: 35\nLucky Hit Chance: 50%\nFire an arrow that pierces through all enemies in a line, dealing {70/77/84/91/98/105/112/119/126/133}% damage.\n\nCombo Points increase damage and grant a chance to Knock Down for 1.5 seconds:\n 1: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% damage, 10% chance\n 2: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% damage, 20% chance\n 3: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% damage, 30% chance",
+					"skill_desc": "Energy Cost: 35\nLucky Hit Chance: 50% (per hit)\nFire an arrow that pierces through all enemies in a line, dealing {70/77/84/91/98/105/112/119/126/133}% damage.\n\nCombo Points increase damage and grant a chance to Knock Down for 1.5 seconds:\n 1: {91/100.1/109.2/118.3/127.4/136.5/145.6/154.7/163.8/172.9}% damage, 10% chance\n 2: {112/123.2/134.4/145.6/156.8/168/179.2/190.4/201.6/212.8}% damage, 20% chance\n 3: {133/146.3/159.6/172.9/186.2/199.5/212.8/226.1/239.4/252.7}% damage, 30% chance",
 					"skill_name": "Penetrating Shot",
 					"skill_rankup_desc": "• Damage 🡑 {70/77/84/91/98/105/112/119/126/133}%"
 				},
@@ -29597,7 +29597,7 @@
 					"power_tags": [
 						"Skill_Primary_Imbuements"
 					],
-					"skill_desc": "Cooldown: 9 seconds\nLucky Hit Chance: 33%\nImbue your weapons with lethal poison. Your next 2 Imbueable Skills deal Poison damage and apply up to {83.5/91.5/100/108.5/116.5/125/133.5/141.5/150/158.5}% Poisoning damage over 5 seconds.",
+					"skill_desc": "Cooldown: 9 seconds\nLucky Hit Chance: 33% (per hit)\nImbue your weapons with lethal poison. Your next 2 Imbueable Skills deal Poison damage and apply up to {83.5/91.5/100/108.5/116.5/125/133.5/141.5/150/158.5}% Poisoning damage over 5 seconds.",
 					"skill_name": "Poison Imbuement",
 					"skill_rankup_desc": "• Poisoning Damage 🡑 {83.5/91.5/100/108.5/116.5/125/133.5/141.5/150/158.5}%"
 				},
@@ -29626,7 +29626,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Melee"
 					],
-					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 35%\nQuickly stab your victim for {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage and shift, allowing you to move freely through enemies for 3 seconds.",
+					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 35% (per hit)\nQuickly stab your victim for {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage and shift, allowing you to move freely through enemies for 3 seconds.",
 					"skill_name": "Blade Shift",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
@@ -29655,7 +29655,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Ranged"
 					],
-					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 50%\nThrow blades a short distance, dealing {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage. Every 3rd cast Slows enemies by 20% for 2 seconds. Critical Strikes will always Slow.",
+					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 50% (per hit)\nThrow blades a short distance, dealing {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}% damage. Every 3rd cast Slows enemies by 20% for 2 seconds. Critical Strikes will always Slow.",
 					"skill_name": "Puncture",
 					"skill_rankup_desc": "• Damage 🡑 {21/23.1/25.2/27.3/29.4/31.5/33.6/35.7/37.8/39.9}%"
 				},
@@ -29768,7 +29768,7 @@
 						"Skill_Primary_Subterfuge",
 						"Skill_Trap"
 					],
-					"skill_desc": "Cooldown: 10 seconds\nLucky Hit Chance: 33%\nPlace a trap that arms after {#} seconds. It activates when an enemy moves within range, applying {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Poisoning damage over 9 seconds to enemies in the area.",
+					"skill_desc": "Cooldown: 10 seconds\nLucky Hit Chance: 33% (per hit)\nPlace a trap that arms after {#} seconds. It activates when an enemy moves within range, applying {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Poisoning damage over 9 seconds to enemies in the area.",
 					"skill_name": "Poison Trap",
 					"skill_rankup_desc": "• Poisoning Damage 🡑 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}%"
 				},
@@ -29915,7 +29915,7 @@
 						"Skill_Melee",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: 33%\nImpale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8% increased damage while impaled. After 1.5 seconds the blades return to you, piercing enemies for {58.5/64.4/70.2/76.1/81.9/87.8/93.6/99.4/105.3/111.2}% damage.\n\nCombo Points increase damage and grant a Movement Speed bonus:\n 1: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, 20% bonus\n 2: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, 40% bonus\n 3: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, 60% bonus",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: 33% (per hit)\nImpale an enemy with your blades, dealing {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% damage and making them take x8% increased damage while impaled. After 1.5 seconds the blades return to you, piercing enemies for {58.5/64.4/70.2/76.1/81.9/87.8/93.6/99.4/105.3/111.2}% damage.\n\nCombo Points increase damage and grant a Movement Speed bonus:\n 1: {58.5/64.4/70.2/76/81.9/87.8/93.6/99.4/105.3/111.2}% damage, 20% bonus\n 2: {72/79.2/86.4/93.6/100.8/108/115.2/122.4/129.6/136.8}% damage, 40% bonus\n 3: {85.5/94/102.6/111.2/119.7/128.2/136.8/145.4/153.9/162.4}% damage, 60% bonus",
 					"skill_name": "Twisting Blades",
 					"skill_rankup_desc": "• Impact damage 🡑 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}%\n• Piercing damage 🡑 {58.5/64.4/70.2/76.1/81.9/87.8/93.6/99.4/105.3/111.2}%"
 				},
@@ -30087,7 +30087,7 @@
 						"Skill_Melee",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6} seconds\nLucky Hit Chance: 25%\nDash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6} seconds\nLucky Hit Chance: 25% (per hit)\nDash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage.",
 					"skill_name": "Dash",
 					"skill_rankup_desc": "• Charge Cooldown 🡑 {10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6} seconds\n• Damage 🡑 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%"
 				},
@@ -30143,7 +30143,7 @@
 					"power_tags": [
 						"Skill_Primary_Imbuements"
 					],
-					"skill_desc": "Cooldown: 9 seconds\nLucky Hit Chance: 33%\nImbue your weapons with festering shadows. Your next 2 Imbueable Skills deal Shadow damage and infect enemies such that they explode for up to {30.9/34/37.1/40.2/43.3/46.4/49.5/52.6/55.7/58.8}% damage on death. Direct damage to infected enemies deals an additional 4% Shadow damage.",
+					"skill_desc": "Cooldown: 9 seconds\nLucky Hit Chance: 33% (per hit)\nImbue your weapons with festering shadows. Your next 2 Imbueable Skills deal Shadow damage and infect enemies such that they explode for up to {30.9/34/37.1/40.2/43.3/46.4/49.5/52.6/55.7/58.8}% damage on death. Direct damage to infected enemies deals an additional 4% Shadow damage.",
 					"skill_name": "Shadow Imbuement",
 					"skill_rankup_desc": "• Explosion Damage 🡑 {30.9/34/37.1/40.2/43.3/46.4/49.5/52.6/55.7/58.8}%"
 				},
@@ -30231,7 +30231,7 @@
 						"Skill_Ranged",
 						"Keyword_Vulnerable"
 					],
-					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 50%\nFire a powerful arrow at an enemy, dealing {20/22/24/26/28/30/32/34/36/38}% damage. Every 3rd cast makes the enemy Vulnerable for 2 seconds.",
+					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 50% (per hit)\nFire a powerful arrow at an enemy, dealing {20/22/24/26/28/30/32/34/36/38}% damage. Every 3rd cast makes the enemy Vulnerable for 2 seconds.",
 					"skill_name": "Forceful Arrow",
 					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%"
 				},
@@ -30351,7 +30351,7 @@
 						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 20%\nArrows rain down over a large area 2 times, each wave dealing 100% damage.",
+					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 20% (per hit)\nArrows rain down over a large area 2 times, each wave dealing 100% damage.",
 					"skill_name": "Rain of Arrows"
 				},
 				"req_points": 0,
@@ -30406,7 +30406,7 @@
 						"Skill_Primary_Ultimate",
 						"Skill_Trap"
 					],
-					"skill_desc": "Cooldown: 45 seconds\nLucky Hit Chance: 40%\nPlace a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing 250% damage to enemies in the area.",
+					"skill_desc": "Cooldown: 45 seconds\nLucky Hit Chance: 40% (per hit)\nPlace a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing 250% damage to enemies in the area.",
 					"skill_name": "Death Trap"
 				},
 				"req_points": 0,
@@ -31151,7 +31151,7 @@
 						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Energy Cost: 30\nLucky Hit Chance: 20%\nUnleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20% chance to ricochet off an enemy up to 1 time. Ricochets deal 40% of the arrow's base damage.\n\nCombo Points increase damage and arrows fired:\n 1: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows\n 2: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows\n 3: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows",
+					"skill_desc": "Energy Cost: 30\nLucky Hit Chance: 20% (per hit)\nUnleash a barrage of 5 arrows that expands outwards, each dealing {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}% damage. Each arrow has a 20% chance to ricochet off an enemy up to 1 time. Ricochets deal 40% of the arrow's base damage.\n\nCombo Points increase damage and arrows fired:\n 1: {25/27.5/30/32.4/34.9/37.4/40/42.5/44.9/47.4}% damage, 6 arrows\n 2: {29.1/32.1/35/37.8/40.7/43.7/46.6/49.6/52.4/55.3}% damage, 7 arrows\n 3: {33.3/36.6/40/43.2/46.6/49.9/53.3/56.6/59.8/63.2}% damage, 8 arrows",
 					"skill_name": "Barrage",
 					"skill_rankup_desc": "• Damage 🡑 {20.8/22.9/25/27/29.1/31.2/33.3/35.4/37.4/39.5}%"
 				},
@@ -31181,7 +31181,7 @@
 						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: 20%\nRapidly fire 5 arrows, each dealing {15.7/17.3/18.8/20.4/22/23.6/25.1/26.7/28.3/29.8}% damage.\n\nCombo Points increase damage and arrows fired:\n 1: {17.3/19/20.7/22.4/24.2/26/27.6/29.4/31.1/32.8}% damage, 6 arrows\n 2: {19.2/21.2/23/25/27/28.9/30.7/32.7/34.7/36.5}% damage, 7 arrows\n 3: {22/24.2/26.3/28.6/30.8/33/35.1/37.4/39.6/41.7}% damage, 8 arrows",
+					"skill_desc": "Energy Cost: {#}\nLucky Hit Chance: 20% (per hit)\nRapidly fire 5 arrows, each dealing {15.7/17.3/18.8/20.4/22/23.6/25.1/26.7/28.3/29.8}% damage.\n\nCombo Points increase damage and arrows fired:\n 1: {17.3/19/20.7/22.4/24.2/26/27.6/29.4/31.1/32.8}% damage, 6 arrows\n 2: {19.2/21.2/23/25/27/28.9/30.7/32.7/34.7/36.5}% damage, 7 arrows\n 3: {22/24.2/26.3/28.6/30.8/33/35.1/37.4/39.6/41.7}% damage, 8 arrows",
 					"skill_name": "Rapid Fire",
 					"skill_rankup_desc": "• Damage 🡑 {15.7/17.3/18.8/20.4/22/23.6/25.1/26.7/28.3/29.8}%"
 				},
@@ -31456,7 +31456,7 @@
 						"Skill_Primary_Agility",
 						"Skill_Trap"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: 12 seconds\nLucky Hit Chance: 25%\nLeap backwards and throw caltrops on the ground, dealing {30/33/36/39/42/45/48/51/54/57}% damage and Slowing enemies by {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Lasts 6 seconds.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: 12 seconds\nLucky Hit Chance: 25% (per hit)\nLeap backwards and throw caltrops on the ground, dealing {30/33/36/39/42/45/48/51/54/57}% damage and Slowing enemies by {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Lasts 6 seconds.",
 					"skill_name": "Caltrops",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%\n• Slow Amount 🡑 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%"
 				},
@@ -31769,7 +31769,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Melee"
 					],
-					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 50%\nMelee attack an enemy, dealing {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and increasing Energy Regeneration by x20% for 3 seconds.",
+					"skill_desc": "Generate Combo Point: 1\nLucky Hit Chance: 50% (per hit)\nMelee attack an enemy, dealing {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and increasing Energy Regeneration by x20% for 3 seconds.",
 					"skill_name": "Invigorating Strike",
 					"skill_rankup_desc": "• Damage 🡑 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%"
 				},
@@ -34379,7 +34379,7 @@
 						"Skill_Fire",
 						"Keyword_Immune"
 					],
-					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 50%\nEngulf yourself in flames for {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8} seconds, Burning surrounding enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% per second.\n\nWhile Flame Shield is active, you are Immune.",
+					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 50% (per hit)\nEngulf yourself in flames for {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8} seconds, Burning surrounding enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% per second.\n\nWhile Flame Shield is active, you are Immune.",
 					"skill_name": "Flame Shield",
 					"skill_rankup_desc": "• Duration🡑 {2/2.2/2.4/2.6/2.8/3/3.2/3.4/3.6/3.8}\n• Burning Damage 🡑 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%"
 				},
@@ -34438,7 +34438,7 @@
 						"Skill_Primary_Defensive",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nCooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}\nLucky Hit Chance: 40%\nTransform into lightning, becoming Unstoppable and surging to the target location dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage around you upon arrival.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nCooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}\nLucky Hit Chance: 40% (per hit)\nTransform into lightning, becoming Unstoppable and surging to the target location dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage around you upon arrival.",
 					"skill_name": "Teleport",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}"
 				},
@@ -34745,7 +34745,7 @@
 						"Skill_Primary_Mastery",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 50\nLucky Hit Chance: 20%\nConjure a ball of lightning that slowly moves forward, continually zapping enemies for {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 50\nLucky Hit Chance: 20% (per hit)\nConjure a ball of lightning that slowly moves forward, continually zapping enemies for {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% damage",
 					"skill_name": "Ball Lightning",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
@@ -35033,7 +35033,7 @@
 						"Skill_Primary_Ultimate",
 						"Skill_Fire"
 					],
-					"skill_desc": "Cooldown: 45 seconds\nLucky Hit Chance: 37.5%\nIgnite a roaring inferno that pulses in and out of the target area, Burning enemies for 295% damage over 8 seconds, and then explodes, dealing 50% damage to enemies on the outer edge.",
+					"skill_desc": "Cooldown: 45 seconds\nLucky Hit Chance: 18.75% (per hit)\nIgnite a roaring inferno that pulses in and out of the target area, Burning enemies for 295% damage over 8 seconds, and then explodes, dealing 50% damage to enemies on the outer edge.",
 					"skill_name": "Inferno"
 				},
 				"req_points": 0,
@@ -35656,7 +35656,7 @@
 						"Keyword_Immune",
 						"Keyword_Chill"
 					],
-					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 45%\nEncase yourself in ice, becoming Immune for 4 seconds, continually Chilling enemies for 20%. When Deep Freeze ends, Frozen enemies shatter for 200%. Casting Deep Freeze again ends the effect early.",
+					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 45% (per hit)\nEncase yourself in ice, becoming Immune for 4 seconds, continually Chilling enemies for 20%. When Deep Freeze ends, Frozen enemies shatter for 200%. Casting Deep Freeze again ends the effect early.",
 					"skill_name": "Deep Freeze"
 				},
 				"req_points": 0,
@@ -36096,7 +36096,7 @@
 						"Skill_Primary_Core",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 40\nLucky Hit Chance: 25%\nRelease 5 bolts of lightning that course along the ground in an erratic pattern, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% each.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 40\nLucky Hit Chance: 25% (per hit)\nRelease 5 bolts of lightning that course along the ground in an erratic pattern, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% each.",
 					"skill_name": "Charged Bolts",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
@@ -36379,7 +36379,7 @@
 						"Skill_Primary_Conjuration",
 						"Skill_Fire"
 					],
-					"skill_desc": "Mana Cost: 20\nLucky Hit Chance: 62.459%\nSummon a 3 headed hydra for 8 seconds. Each head spits fire at a Nearby enemy, dealing {30/33/36/39/42/45/48/51/54/57}% damage.",
+					"skill_desc": "Mana Cost: 20\nLucky Hit Chance: 62.459% (per use)\nSummon a 3 headed hydra for 8 seconds. Each head spits fire at a Nearby enemy, dealing {30/33/36/39/42/45/48/51/54/57}% damage.",
 					"skill_name": "Hydra",
 					"skill_rankup_desc": "• Damage 🡑 {30/33/36/39/42/45/48/51/54/57}%"
 				},
@@ -36458,7 +36458,7 @@
 						"Skill_Fire",
 						"Skill_Channeled"
 					],
-					"skill_desc": "Mana Cost: 49995 per second\nLucky Hit Chance: 40%\nChannel a beam of fire, Burning enemies for {36.4/40/43.7/47.3/51/54.6/58.2/61.9/65.5/69.2}%. Damage increases by {17.5/19.2/21/22.8/24.5/26.2/28/29.8/31.5/33.2}% per second, up to {71.4/75/78.7/82.3/86/89.6/93.2/96.9/100.5/104.2}%.",
+					"skill_desc": "Mana Cost: 49995 per second\nLucky Hit Chance: 40% (per hit)\nChannel a beam of fire, Burning enemies for {36.4/40/43.7/47.3/51/54.6/58.2/61.9/65.5/69.2}%. Damage increases by {17.5/19.2/21/22.8/24.5/26.2/28/29.8/31.5/33.2}% per second, up to {71.4/75/78.7/82.3/86/89.6/93.2/96.9/100.5/104.2}%.",
 					"skill_name": "Incinerate",
 					"skill_rankup_desc": "• Burning Damage 🡑 {36.4/40/43.7/47.3/51/54.6/58.2/61.9/65.5/69.2}%\n• Burning Damage Maximum 🡑 {71.4/75/78.7/82.3/86/89.6/93.2/96.9/100.5/104.2}%"
 				},
@@ -36605,7 +36605,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 9%\nLaunch a bolt of lightning that shocks an enemy 4 times, dealing {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% damage each hit.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 9% (per hit)\nLaunch a bolt of lightning that shocks an enemy 4 times, dealing {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% damage each hit.",
 					"skill_name": "Spark",
 					"skill_rankup_desc": "• Damage 🡑 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%"
 				},
@@ -36635,7 +36635,7 @@
 						"Skill_Cold",
 						"Keyword_Vulnerable"
 					],
-					"skill_desc": "Cooldown: 12 seconds\nLucky Hit Chance: 70.801%\nConjure ice blades for 6 seconds that rapidly slashes enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and has a 20% chance to make them Vulnerable for 2 seconds.",
+					"skill_desc": "Cooldown: 12 seconds\nLucky Hit Chance: 70.801% (per use)\nConjure ice blades for 6 seconds that rapidly slashes enemies for {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}% damage and has a 20% chance to make them Vulnerable for 2 seconds.",
 					"skill_name": "Ice Blades",
 					"skill_rankup_desc": "• Damage 🡑 {30.7/33.7/36.8/39.9/42.9/46/49.1/52.1/55.2/58.3}%"
 				},
@@ -36691,7 +36691,7 @@
 						"Skill_Primary_Basic",
 						"Skill_Fire"
 					],
-					"skill_desc": "Lucky Hit Chance: 20%\nHurl a flaming bolt, dealing {10/11/12/13/14/15/16/17/18/19}% damage and Burning for {40/44/48/52/56/60/64/68/72/76}% over 8 seconds.",
+					"skill_desc": "Lucky Hit Chance: 20% (per hit)\nHurl a flaming bolt, dealing {10/11/12/13/14/15/16/17/18/19}% damage and Burning for {40/44/48/52/56/60/64/68/72/76}% over 8 seconds.",
 					"skill_name": "Fire Bolt",
 					"skill_rankup_desc": "• Damage 🡑 {10/11/12/13/14/15/16/17/18/19}%\n• Burning Damage 🡑 {40/44/48/52/56/60/64/68/72/76}%"
 				},
@@ -36721,7 +36721,7 @@
 						"Skill_Lightning",
 						"Keyword_Resource_Pickup"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 30%\nUnleash arcing lightning that shocks enemies in front of you for {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%. Every 10 times Arc Lash swipes, it Stuns all enemies hit for 2 seconds.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 30% (per hit)\nUnleash arcing lightning that shocks enemies in front of you for {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%. Every 10 times Arc Lash swipes, it Stuns all enemies hit for 2 seconds.",
 					"skill_name": "Arc Lash",
 					"skill_rankup_desc": "• Damage 🡑 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%"
 				},
@@ -36778,7 +36778,7 @@
 						"Skill_Primary_Core",
 						"Skill_Fire"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 50\nLucky Hit Chance: 33%\nHurl an exploding ball of fire, dealing {60/66/72/78/84/90/96/102/108/114}% damage to surrounding enemies.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: 50\nLucky Hit Chance: 33% (per hit)\nHurl an exploding ball of fire, dealing {60/66/72/78/84/90/96/102/108/114}% damage to surrounding enemies.",
 					"skill_name": "Fireball",
 					"skill_rankup_desc": "• Damage 🡑 {60/66/72/78/84/90/96/102/108/114}%"
 				},
@@ -36807,7 +36807,7 @@
 						"Skill_Primary_Core",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Mana Cost: 35\nLucky Hit Chance: 25%\nUnleash a stream of lightning that deals {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% damage and chains between Nearby enemies and you up to 4 times, prioritizing enemies.",
+					"skill_desc": "Mana Cost: 35\nLucky Hit Chance: 25% (per hit)\nUnleash a stream of lightning that deals {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% damage and chains between Nearby enemies and you up to 4 times, prioritizing enemies.",
 					"skill_name": "Chain Lightning",
 					"skill_rankup_desc": "• Damage 🡑 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%"
 				},
@@ -36888,7 +36888,7 @@
 						"Skill_Cold",
 						"Keyword_Freeze"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: {#}\nLucky Hit Chance: 25%\nLaunch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25% increased damage to Frozen enemies.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nMana Cost: {#}\nLucky Hit Chance: 25% (per hit)\nLaunch 5 shards that deal {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage each. Deals x25% increased damage to Frozen enemies.",
 					"skill_name": "Ice Shards",
 					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%"
 				},
@@ -36918,7 +36918,7 @@
 						"Skill_Cold",
 						"Keyword_Chill"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 30%\nThrow a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage and Chilling them for 15%.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nLucky Hit Chance: 30% (per hit)\nThrow a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage and Chilling them for 15%.",
 					"skill_name": "Frost Bolt",
 					"skill_rankup_desc": "• Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
@@ -36947,7 +36947,7 @@
 						"Skill_Primary_Mastery",
 						"Skill_Fire"
 					],
-					"skill_desc": "Mana Cost: 40\nLucky Hit Chance: 40%\nSummon a meteor that strikes the target location, dealing {50/55/60/65/70/75/80/85/90/95}% damage and Burning the ground for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage over 3 seconds.",
+					"skill_desc": "Mana Cost: 40\nLucky Hit Chance: 40% (per hit)\nSummon a meteor that strikes the target location, dealing {50/55/60/65/70/75/80/85/90/95}% damage and Burning the ground for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage over 3 seconds.",
 					"skill_name": "Meteor",
 					"skill_rankup_desc": "• Impact Damage 🡑 {50/55/60/65/70/75/80/85/90/95}%\n• Burning Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
@@ -36992,7 +36992,7 @@
 						"Skill_Primary_Mastery",
 						"Skill_Fire"
 					],
-					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: 40%\nCreate a wall of flames that Burns enemies for {160/176/192/208/224/240/256/272/288/304}% over 8 seconds.",
+					"skill_desc": "Mana Cost: {#}\nLucky Hit Chance: 40% (per hit)\nCreate a wall of flames that Burns enemies for {160/176/192/208/224/240/256/272/288/304}% over 8 seconds.",
 					"skill_name": "Firewall",
 					"skill_rankup_desc": "• Damage 🡑 {160/176/192/208/224/240/256/272/288/304}%"
 				},
@@ -37257,7 +37257,7 @@
 						"Skill_Cold",
 						"Keyword_Chill"
 					],
-					"skill_desc": "Mana Cost: 40\nLucky Hit Chance: 33%\nSummon a frigid blizzard that deals {#}% damage and continuously Chills enemies for 18% over 6 seconds.",
+					"skill_desc": "Mana Cost: 40\nLucky Hit Chance: 33% (per hit)\nSummon a frigid blizzard that deals {#}% damage and continuously Chills enemies for 18% over 6 seconds.",
 					"skill_name": "Blizzard",
 					"skill_rankup_desc": "• Damage 🡑 {#}"
 				},
@@ -37584,7 +37584,7 @@
 						"Skill_Cold",
 						"Keyword_Chill"
 					],
-					"skill_desc": "Mana Cost: 40\nLucky Hit Chance: 20%\nUnleash an orb that Chills for 34% and expels piercing shards dealing a total of {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% damage. Upon expiration, Frozen Orb explodes, dealing {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% damage and Chilling enemies for 8.7%.",
+					"skill_desc": "Mana Cost: 40\nLucky Hit Chance: 20% (per hit)\nUnleash an orb that Chills for 34% and expels piercing shards dealing a total of {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% damage. Upon expiration, Frozen Orb explodes, dealing {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% damage and Chilling enemies for 8.7%.",
 					"skill_name": "Frozen Orb",
 					"skill_rankup_desc": "• Shards Damage 🡑 {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}%\n• Explosion Damage 🡑 {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}%"
 				},
@@ -37906,7 +37906,7 @@
 						"Skill_Primary_Conjuration",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 35.301%\nConjure a crackling spear of lightning that seeks out enemies for 6 seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% per hit.",
+					"skill_desc": "Cooldown: 20 seconds\nLucky Hit Chance: 35.301% (per use)\nConjure a crackling spear of lightning that seeks out enemies for 6 seconds, dealing {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% per hit.",
 					"skill_name": "Lightning Spear",
 					"skill_rankup_desc": "• Damage 🡑 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%"
 				},
