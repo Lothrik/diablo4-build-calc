@@ -4806,7 +4806,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_008": {
 				"name": "Bludgeoner",
-				"description": "+10% Damage with TwoHandedBludgeoning\n+12% Overpower Damage\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
+				"description": "+10% Damage with Two-Handed Bludgeoning\n+12% Overpower Damage\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Overpower, Damage, Two-Handed, Bludgeoning.",
 				"nameLocalized": {
 					"deDE": "Prügler",
 					"esES": "Aporreador",
@@ -4822,18 +4822,18 @@ let paragonData = {
 					"zhTW": "鈍擊者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: TwoHandedBludgeoning\n+12% Überwältigungsschaden\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Überwältigen, Schaden, Zweihändig, Wuchtwaffe.",
-					"esES": "+10% de daño con TwoHandedBludgeoning\n+12% de daño de arrollamiento\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Arrollamiento, Daño, Dos manos, Contundente.",
-					"esMX": "+10% de daño con TwoHandedBludgeoning\n+12% de daño abrumador\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Abrumar, Daño, Dos manos, Impacto.",
-					"frFR": "+10% de dégâts avec TwoHandedBludgeoning\n+12% de dégâts d'accablement\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Accablement, Dégâts, Arme à deux mains, Arme contondante.",
-					"itIT": "Danni con TwoHandedBludgeoning: +10%\nDanni da Sopraffazione: +12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Sopraffazione, Danni, A due mani, Contundente.",
-					"jaJP": "TwoHandedBludgeoning でのダメージ+10%\nオーバーパワー・ダメージ+12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: オーバーパワー, ダメージ, 両手用武器, 殴打.",
-					"koKR": "TwoHandedBludgeoning 의 공격력 +10%\n제압 피해 +12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: 제압, 피해, 양손 무기, 둔기.",
-					"plPL": "+10% obrażeń zadanych przy użyciu: TwoHandedBludgeoning\n+12% obrażeń od przytłoczenia\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Przytłoczenie, Obrażenia, Dwuręczne, Obuchowe.",
-					"ptBR": "+10% de dano com TwoHandedBludgeoning\n+12% de dano de Golpe Brutal\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Golpe Brutal, Dano, Duas mãos, Concussão.",
-					"ruRU": "+10% к урону от свойства \"TwoHandedBludgeoning \"\n+12% к подавляющему урону\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Подавление, Урон, Двуручное, Дробящее оружие.",
-					"zhCN": "+10% 使用TwoHandedBludgeoning 的伤害\n+12% 压制伤害\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: 压制, 伤害, 双手, 钝击.",
-					"zhTW": "TwoHandedBludgeoning 傷害 +10%\n壓制傷害 +12%\n\nBonus: Another +10% Damage with TwoHandedBludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: 壓制, 傷害, 雙手, 鈍擊."
+					"deDE": "+10% Schaden mit: Two-Handed Bludgeoning\n+12% Überwältigungsschaden\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Überwältigen, Schaden, Zweihändig, Wuchtwaffe.",
+					"esES": "+10% de daño con Two-Handed Bludgeoning\n+12% de daño de arrollamiento\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Arrollamiento, Daño, Dos manos, Contundente.",
+					"esMX": "+10% de daño con Two-Handed Bludgeoning\n+12% de daño abrumador\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Abrumar, Daño, Dos manos, Impacto.",
+					"frFR": "+10% de dégâts avec Two-Handed Bludgeoning\n+12% de dégâts d'accablement\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Accablement, Dégâts, Arme à deux mains, Arme contondante.",
+					"itIT": "Danni con Two-Handed Bludgeoning: +10%\nDanni da Sopraffazione: +12%\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Sopraffazione, Danni, A due mani, Contundente.",
+					"jaJP": "Two-Handed Bludgeoning でのダメージ+10%\nオーバーパワー・ダメージ+12%\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: オーバーパワー, ダメージ, 両手用武器, 殴打.",
+					"koKR": "Two-Handed Bludgeoning 의 공격력 +10%\n제압 피해 +12%\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: 제압, 피해, 양손 무기, 둔기.",
+					"plPL": "+10% obrażeń zadanych przy użyciu: Two-Handed Bludgeoning\n+12% obrażeń od przytłoczenia\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Przytłoczenie, Obrażenia, Dwuręczne, Obuchowe.",
+					"ptBR": "+10% de dano com Two-Handed Bludgeoning\n+12% de dano de Golpe Brutal\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Golpe Brutal, Dano, Duas mãos, Concussão.",
+					"ruRU": "+10% к урону от свойства \"Two-Handed Bludgeoning \"\n+12% к подавляющему урону\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: Подавление, Урон, Двуручное, Дробящее оружие.",
+					"zhCN": "+10% 使用Two-Handed Bludgeoning 的伤害\n+12% 压制伤害\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: 压制, 伤害, 双手, 钝击.",
+					"zhTW": "Two-Handed Bludgeoning 傷害 +10%\n壓制傷害 +12%\n\nBonus: Another +10% Damage with Two-Handed Bludgeoning if requirements met:\n{thresholdRequirements}\n\nTags: 壓制, 傷害, 雙手, 鈍擊."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5292,7 +5292,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_024": {
 				"name": "Heavy Blows",
-				"description": "+15% Critical Strike Damage with OneHanded\n+10 Strength\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
+				"description": "+15% Critical Strike Damage with One-Handed\n+10 Strength\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Critical Strikes, Damage, Strength, Dual Wield.",
 				"nameLocalized": {
 					"deDE": "Schwere Schläge",
 					"esES": "Golpes pesados",
@@ -5308,18 +5308,18 @@ let paragonData = {
 					"zhTW": "重擊"
 				},
 				"descriptionLocalized": {
-					"deDE": "+15% kritischer Trefferschaden mit: OneHanded\n+10 Stärke\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Schaden, Stärke, Zwei Waffen.",
-					"esES": "+15% de daño de golpe crítico con OneHanded\n+10 de fuerza\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Fuerza, Doble empuñadura.",
-					"esMX": "+15% de daño de golpe crítico con OneHanded\n+10 de Fuerza\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Fuerza, Ambidestreza.",
-					"frFR": "+15% de dégâts critiques (OneHanded )\n+10 force\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Dégâts, Force, Deux armes.",
-					"itIT": "Danni critici con OneHanded: +15%\nForza: +10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Danni, Forza, Doppia arma.",
-					"jaJP": "OneHanded のクリティカルヒットダメージ+15%\n筋力+10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: クリティカルヒット, ダメージ, 筋力, 二刀流.",
-					"koKR": "OneHanded 의 극대화 피해 +15%\n힘 +10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 피해, 힘, 쌍수 무기.",
-					"plPL": "+15% obrażeń od trafień krytycznych: OneHanded\n+10 siły\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Obrażenia, Siła, Broń w Każdej Ręce.",
-					"ptBR": "+15% de dano de acerto crítico com OneHanded\n+10 de Força\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Dano, Força, Empunhadura Dupla.",
-					"ruRU": "+15% к критическому урону от эффекта \"OneHanded \"\n+10 к силе\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Урон, Сила, Оружие в каждой руке.",
-					"zhCN": "+15% OneHanded 的暴击伤害\n+10 点力量\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 伤害, 力量, 双持.",
-					"zhTW": "OneHanded 的爆擊傷害 +15%\n力量 +10\n\nBonus: Another +15% Critical Strike Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 爆擊, 傷害, 力量, 雙持."
+					"deDE": "+15% kritischer Trefferschaden mit: One-Handed\n+10 Stärke\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Kritische Treffer, Schaden, Stärke, Zwei Waffen.",
+					"esES": "+15% de daño de golpe crítico con One-Handed\n+10 de fuerza\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Fuerza, Doble empuñadura.",
+					"esMX": "+15% de daño de golpe crítico con One-Handed\n+10 de Fuerza\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Golpes críticos, Daño, Fuerza, Ambidestreza.",
+					"frFR": "+15% de dégâts critiques (One-Handed )\n+10 force\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Coups critiques, Dégâts, Force, Deux armes.",
+					"itIT": "Danni critici con One-Handed: +15%\nForza: +10\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Colpi critici, Danni, Forza, Doppia arma.",
+					"jaJP": "One-Handed のクリティカルヒットダメージ+15%\n筋力+10\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: クリティカルヒット, ダメージ, 筋力, 二刀流.",
+					"koKR": "One-Handed 의 극대화 피해 +15%\n힘 +10\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: 극대화, 피해, 힘, 쌍수 무기.",
+					"plPL": "+15% obrażeń od trafień krytycznych: One-Handed\n+10 siły\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Trafienia Krytyczne, Obrażenia, Siła, Broń w Każdej Ręce.",
+					"ptBR": "+15% de dano de acerto crítico com One-Handed\n+10 de Força\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Acertos Críticos, Dano, Força, Empunhadura Dupla.",
+					"ruRU": "+15% к критическому урону от эффекта \"One-Handed \"\n+10 к силе\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Урон, Сила, Оружие в каждой руке.",
+					"zhCN": "+15% One-Handed 的暴击伤害\n+10 点力量\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 伤害, 力量, 双持.",
+					"zhTW": "One-Handed 的爆擊傷害 +15%\n力量 +10\n\nBonus: Another +15% Critical Strike Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: 爆擊, 傷害, 力量, 雙持."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5338,7 +5338,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_025": {
 				"name": "Wild Force",
-				"description": "+10% Damage with OneHanded\n+2% Attack Speed\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
+				"description": "+10% Damage with One-Handed\n+2% Attack Speed\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Attack Speed, Dual Wield.",
 				"nameLocalized": {
 					"deDE": "Wilde Macht",
 					"esES": "Fuerza salvaje",
@@ -5354,18 +5354,18 @@ let paragonData = {
 					"zhTW": "狂野力量"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: OneHanded\n+2% Angriffsgeschwindigkeit\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Angriffsgeschwindigkeit, Zwei Waffen.",
-					"esES": "+10% de daño con OneHanded\n+2% de velocidad de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Velocidad de ataque, Doble empuñadura.",
-					"esMX": "+10% de daño con OneHanded\n+2% de velocidad de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Velocidad de ataque, Ambidestreza.",
-					"frFR": "+10% de dégâts avec OneHanded\n+2% à la vitesse d'attaque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vitesse d'attaque, Deux armes.",
-					"itIT": "Danni con OneHanded: +10%\nVelocità d'attacco: +2%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Velocità d'attacco, Doppia arma.",
-					"jaJP": "OneHanded でのダメージ+10%\n攻撃速度+2%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 攻撃速度, 二刀流.",
-					"koKR": "OneHanded 의 공격력 +10%\n공격 속도 +2%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 공격 속도, 쌍수 무기.",
-					"plPL": "+10% obrażeń zadanych przy użyciu: OneHanded\n+2% szybkości ataku\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Szybkość Ataku, Broń w Każdej Ręce.",
-					"ptBR": "+10% de dano com OneHanded\n+2% de velocidade de ataque\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Velocidade de Ataque, Empunhadura Dupla.",
-					"ruRU": "+10% к урону от свойства \"OneHanded \"\n+2% к скорости атаки\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Скорость атаки, Оружие в каждой руке.",
-					"zhCN": "+10% 使用OneHanded 的伤害\n+2% 攻击速度\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 攻击速度, 双持.",
-					"zhTW": "OneHanded 傷害 +10%\n攻擊速度 +2%\n\nBonus: Another +10% Damage with OneHanded if requirements met:\n{thresholdRequirements}\n\nTags: 傷害, 攻擊速度, 雙持."
+					"deDE": "+10% Schaden mit: One-Handed\n+2% Angriffsgeschwindigkeit\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Angriffsgeschwindigkeit, Zwei Waffen.",
+					"esES": "+10% de daño con One-Handed\n+2% de velocidad de ataque\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Velocidad de ataque, Doble empuñadura.",
+					"esMX": "+10% de daño con One-Handed\n+2% de velocidad de ataque\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Velocidad de ataque, Ambidestreza.",
+					"frFR": "+10% de dégâts avec One-Handed\n+2% à la vitesse d'attaque\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vitesse d'attaque, Deux armes.",
+					"itIT": "Danni con One-Handed: +10%\nVelocità d'attacco: +2%\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Velocità d'attacco, Doppia arma.",
+					"jaJP": "One-Handed でのダメージ+10%\n攻撃速度+2%\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 攻撃速度, 二刀流.",
+					"koKR": "One-Handed 의 공격력 +10%\n공격 속도 +2%\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 공격 속도, 쌍수 무기.",
+					"plPL": "+10% obrażeń zadanych przy użyciu: One-Handed\n+2% szybkości ataku\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Szybkość Ataku, Broń w Każdej Ręce.",
+					"ptBR": "+10% de dano com One-Handed\n+2% de velocidade de ataque\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Velocidade de Ataque, Empunhadura Dupla.",
+					"ruRU": "+10% к урону от свойства \"One-Handed \"\n+2% к скорости атаки\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Скорость атаки, Оружие в каждой руке.",
+					"zhCN": "+10% 使用One-Handed 的伤害\n+2% 攻击速度\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 攻击速度, 双持.",
+					"zhTW": "One-Handed 傷害 +10%\n攻擊速度 +2%\n\nBonus: Another +10% Damage with One-Handed if requirements met:\n{thresholdRequirements}\n\nTags: 傷害, 攻擊速度, 雙持."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5433,7 +5433,7 @@ let paragonData = {
 			},
 			"Barbarian_Rare_030": {
 				"name": "Destroyer",
-				"description": "+10% Damage with TwoHandedSlashing\n+4% Vulnerable Damage\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
+				"description": "+10% Damage with Two-Handed Slashing\n+4% Vulnerable Damage\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Damage, Vulnerable, Slashing, Two-Handed.",
 				"nameLocalized": {
 					"deDE": "Zerstörer",
 					"esES": "Destructor",
@@ -5449,18 +5449,18 @@ let paragonData = {
 					"zhTW": "毀滅者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden mit: TwoHandedSlashing\n+4% Schaden gegen verwundbare Ziele\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, Hiebwaffe, Zweihändig.",
-					"esES": "+10% de daño con TwoHandedSlashing\n+4% de daño a enemigos vulnerables\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Cortante, Dos manos.",
-					"esMX": "+10% de daño con TwoHandedSlashing\n+4% de daño de vulnerabilidad\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Corte, Dos manos.",
-					"frFR": "+10% de dégâts avec TwoHandedSlashing\n+4% de dégâts contre les cibles vulnérables\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vulnérable, Tranchant, Arme à deux mains.",
-					"itIT": "Danni con TwoHandedSlashing: +10%\nDanni ai nemici vulnerabili: +4%\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Vulnerabilità, Tagliente, A due mani.",
-					"jaJP": "TwoHandedSlashing でのダメージ+10%\n脆弱ダメージ+4%\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 脆弱, 斬撃, 両手用武器.",
-					"koKR": "TwoHandedSlashing 의 공격력 +10%\n취약 피해 +4%\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 취약, 베는 무기, 양손 무기.",
-					"plPL": "+10% obrażeń zadanych przy użyciu: TwoHandedSlashing\n+4% obrażeń od odsłonięcia\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Odsłonięcie, Sieczne, Dwuręczne.",
-					"ptBR": "+10% de dano com TwoHandedSlashing\n+4% de dano de vulnerabilidade\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Vulnerável, Corte, Duas mãos.",
-					"ruRU": "+10% к урону от свойства \"TwoHandedSlashing \"\n+4% к урону уязвимым противникам\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уязвимость, Рубящее, Двуручное.",
-					"zhCN": "+10% 使用TwoHandedSlashing 的伤害\n+4% 易伤伤害\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 易伤, 劈斩, 双手.",
-					"zhTW": "TwoHandedSlashing 傷害 +10%\n易傷傷害 +4%\n\nBonus: Another +10% Damage with TwoHandedSlashing if requirements met:\n{thresholdRequirements}\n\nTags: 傷害, 易傷, 斬擊, 雙手."
+					"deDE": "+10% Schaden mit: Two-Handed Slashing\n+4% Schaden gegen verwundbare Ziele\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Schaden, Verwundbar, Hiebwaffe, Zweihändig.",
+					"esES": "+10% de daño con Two-Handed Slashing\n+4% de daño a enemigos vulnerables\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Cortante, Dos manos.",
+					"esMX": "+10% de daño con Two-Handed Slashing\n+4% de daño de vulnerabilidad\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Daño, Vulnerable, Corte, Dos manos.",
+					"frFR": "+10% de dégâts avec Two-Handed Slashing\n+4% de dégâts contre les cibles vulnérables\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts, Vulnérable, Tranchant, Arme à deux mains.",
+					"itIT": "Danni con Two-Handed Slashing: +10%\nDanni ai nemici vulnerabili: +4%\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Danni, Vulnerabilità, Tagliente, A due mani.",
+					"jaJP": "Two-Handed Slashing でのダメージ+10%\n脆弱ダメージ+4%\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: ダメージ, 脆弱, 斬撃, 両手用武器.",
+					"koKR": "Two-Handed Slashing 의 공격력 +10%\n취약 피해 +4%\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: 피해, 취약, 베는 무기, 양손 무기.",
+					"plPL": "+10% obrażeń zadanych przy użyciu: Two-Handed Slashing\n+4% obrażeń od odsłonięcia\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Obrażenia, Odsłonięcie, Sieczne, Dwuręczne.",
+					"ptBR": "+10% de dano com Two-Handed Slashing\n+4% de dano de vulnerabilidade\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Dano, Vulnerável, Corte, Duas mãos.",
+					"ruRU": "+10% к урону от свойства \"Two-Handed Slashing \"\n+4% к урону уязвимым противникам\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уязвимость, Рубящее, Двуручное.",
+					"zhCN": "+10% 使用Two-Handed Slashing 的伤害\n+4% 易伤伤害\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 易伤, 劈斩, 双手.",
+					"zhTW": "Two-Handed Slashing 傷害 +10%\n易傷傷害 +4%\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: 傷害, 易傷, 斬擊, 雙手."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -13133,20 +13133,20 @@ let paragonData = {
 			},
 			"Generic_Magic_CriticalDamage1H": {
 				"name": "Critical Damage 1H",
-				"description": "+7.5% Critical Strike Damage with OneHanded\n\nTags: Critical Strikes, Damage, Dual Wield.",
+				"description": "+7.5% Critical Strike Damage with One-Handed\n\nTags: Critical Strikes, Damage, Dual Wield.",
 				"descriptionLocalized": {
-					"deDE": "+7.5% kritischer Trefferschaden mit: OneHanded\n\nTags: Kritische Treffer, Schaden, Zwei Waffen.",
-					"esES": "+7.5% de daño de golpe crítico con OneHanded\n\nTags: Golpes críticos, Daño, Doble empuñadura.",
-					"esMX": "+7.5% de daño de golpe crítico con OneHanded\n\nTags: Golpes críticos, Daño, Ambidestreza.",
-					"frFR": "+7.5% de dégâts critiques (OneHanded )\n\nTags: Coups critiques, Dégâts, Deux armes.",
-					"itIT": "Danni critici con OneHanded: +7.5%\n\nTags: Colpi critici, Danni, Doppia arma.",
-					"jaJP": "OneHanded のクリティカルヒットダメージ+7.5%\n\nTags: クリティカルヒット, ダメージ, 二刀流.",
-					"koKR": "OneHanded 의 극대화 피해 +7.5%\n\nTags: 극대화, 피해, 쌍수 무기.",
-					"plPL": "+7.5% obrażeń od trafień krytycznych: OneHanded\n\nTags: Trafienia Krytyczne, Obrażenia, Broń w Każdej Ręce.",
-					"ptBR": "+7.5% de dano de acerto crítico com OneHanded\n\nTags: Acertos Críticos, Dano, Empunhadura Dupla.",
-					"ruRU": "+7.5% к критическому урону от эффекта \"OneHanded \"\n\nTags: Критические удары, Урон, Оружие в каждой руке.",
-					"zhCN": "+7.5% OneHanded 的暴击伤害\n\nTags: 暴击, 伤害, 双持.",
-					"zhTW": "OneHanded 的爆擊傷害 +7.5%\n\nTags: 爆擊, 傷害, 雙持."
+					"deDE": "+7.5% kritischer Trefferschaden mit: One-Handed\n\nTags: Kritische Treffer, Schaden, Zwei Waffen.",
+					"esES": "+7.5% de daño de golpe crítico con One-Handed\n\nTags: Golpes críticos, Daño, Doble empuñadura.",
+					"esMX": "+7.5% de daño de golpe crítico con One-Handed\n\nTags: Golpes críticos, Daño, Ambidestreza.",
+					"frFR": "+7.5% de dégâts critiques (One-Handed )\n\nTags: Coups critiques, Dégâts, Deux armes.",
+					"itIT": "Danni critici con One-Handed: +7.5%\n\nTags: Colpi critici, Danni, Doppia arma.",
+					"jaJP": "One-Handed のクリティカルヒットダメージ+7.5%\n\nTags: クリティカルヒット, ダメージ, 二刀流.",
+					"koKR": "One-Handed 의 극대화 피해 +7.5%\n\nTags: 극대화, 피해, 쌍수 무기.",
+					"plPL": "+7.5% obrażeń od trafień krytycznych: One-Handed\n\nTags: Trafienia Krytyczne, Obrażenia, Broń w Każdej Ręce.",
+					"ptBR": "+7.5% de dano de acerto crítico com One-Handed\n\nTags: Acertos Críticos, Dano, Empunhadura Dupla.",
+					"ruRU": "+7.5% к критическому урону от эффекта \"One-Handed \"\n\nTags: Критические удары, Урон, Оружие в каждой руке.",
+					"zhCN": "+7.5% One-Handed 的暴击伤害\n\nTags: 暴击, 伤害, 双持.",
+					"zhTW": "One-Handed 的爆擊傷害 +7.5%\n\nTags: 爆擊, 傷害, 雙持."
 				}
 			},
 			"Generic_Magic_CriticalDamageToCC": {
@@ -13187,56 +13187,56 @@ let paragonData = {
 			},
 			"Generic_Magic_Damage1H": {
 				"name": "Damage 1H",
-				"description": "+5% Damage with OneHanded\n\nTags: Damage, Dual Wield.",
+				"description": "+5% Damage with One-Handed\n\nTags: Damage, Dual Wield.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden mit: OneHanded\n\nTags: Schaden, Zwei Waffen.",
-					"esES": "+5% de daño con OneHanded\n\nTags: Daño, Doble empuñadura.",
-					"esMX": "+5% de daño con OneHanded\n\nTags: Daño, Ambidestreza.",
-					"frFR": "+5% de dégâts avec OneHanded\n\nTags: Dégâts, Deux armes.",
-					"itIT": "Danni con OneHanded: +5%\n\nTags: Danni, Doppia arma.",
-					"jaJP": "OneHanded でのダメージ+5%\n\nTags: ダメージ, 二刀流.",
-					"koKR": "OneHanded 의 공격력 +5%\n\nTags: 피해, 쌍수 무기.",
-					"plPL": "+5% obrażeń zadanych przy użyciu: OneHanded\n\nTags: Obrażenia, Broń w Każdej Ręce.",
-					"ptBR": "+5% de dano com OneHanded\n\nTags: Dano, Empunhadura Dupla.",
-					"ruRU": "+5% к урону от свойства \"OneHanded \"\n\nTags: Урон, Оружие в каждой руке.",
-					"zhCN": "+5% 使用OneHanded 的伤害\n\nTags: 伤害, 双持.",
-					"zhTW": "OneHanded 傷害 +5%\n\nTags: 傷害, 雙持."
+					"deDE": "+5% Schaden mit: One-Handed\n\nTags: Schaden, Zwei Waffen.",
+					"esES": "+5% de daño con One-Handed\n\nTags: Daño, Doble empuñadura.",
+					"esMX": "+5% de daño con One-Handed\n\nTags: Daño, Ambidestreza.",
+					"frFR": "+5% de dégâts avec One-Handed\n\nTags: Dégâts, Deux armes.",
+					"itIT": "Danni con One-Handed: +5%\n\nTags: Danni, Doppia arma.",
+					"jaJP": "One-Handed でのダメージ+5%\n\nTags: ダメージ, 二刀流.",
+					"koKR": "One-Handed 의 공격력 +5%\n\nTags: 피해, 쌍수 무기.",
+					"plPL": "+5% obrażeń zadanych przy użyciu: One-Handed\n\nTags: Obrażenia, Broń w Każdej Ręce.",
+					"ptBR": "+5% de dano com One-Handed\n\nTags: Dano, Empunhadura Dupla.",
+					"ruRU": "+5% к урону от свойства \"One-Handed \"\n\nTags: Урон, Оружие в каждой руке.",
+					"zhCN": "+5% 使用One-Handed 的伤害\n\nTags: 伤害, 双持.",
+					"zhTW": "One-Handed 傷害 +5%\n\nTags: 傷害, 雙持."
 				}
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
 				"name": "Damage 2H Bludgeoning",
-				"description": "+5% Damage with TwoHandedBludgeoning\n\nTags: Damage, Bludgeoning, Two-Handed.",
+				"description": "+5% Damage with Two-Handed Bludgeoning\n\nTags: Damage, Bludgeoning, Two-Handed.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden mit: TwoHandedBludgeoning\n\nTags: Schaden, Wuchtwaffe, Zweihändig.",
-					"esES": "+5% de daño con TwoHandedBludgeoning\n\nTags: Daño, Contundente, Dos manos.",
-					"esMX": "+5% de daño con TwoHandedBludgeoning\n\nTags: Daño, Impacto, Dos manos.",
-					"frFR": "+5% de dégâts avec TwoHandedBludgeoning\n\nTags: Dégâts, Arme contondante, Arme à deux mains.",
-					"itIT": "Danni con TwoHandedBludgeoning: +5%\n\nTags: Danni, Contundente, A due mani.",
-					"jaJP": "TwoHandedBludgeoning でのダメージ+5%\n\nTags: ダメージ, 殴打, 両手用武器.",
-					"koKR": "TwoHandedBludgeoning 의 공격력 +5%\n\nTags: 피해, 둔기, 양손 무기.",
-					"plPL": "+5% obrażeń zadanych przy użyciu: TwoHandedBludgeoning\n\nTags: Obrażenia, Obuchowe, Dwuręczne.",
-					"ptBR": "+5% de dano com TwoHandedBludgeoning\n\nTags: Dano, Concussão, Duas mãos.",
-					"ruRU": "+5% к урону от свойства \"TwoHandedBludgeoning \"\n\nTags: Урон, Дробящее оружие, Двуручное.",
-					"zhCN": "+5% 使用TwoHandedBludgeoning 的伤害\n\nTags: 伤害, 钝击, 双手.",
-					"zhTW": "TwoHandedBludgeoning 傷害 +5%\n\nTags: 傷害, 鈍擊, 雙手."
+					"deDE": "+5% Schaden mit: Two-Handed Bludgeoning\n\nTags: Schaden, Wuchtwaffe, Zweihändig.",
+					"esES": "+5% de daño con Two-Handed Bludgeoning\n\nTags: Daño, Contundente, Dos manos.",
+					"esMX": "+5% de daño con Two-Handed Bludgeoning\n\nTags: Daño, Impacto, Dos manos.",
+					"frFR": "+5% de dégâts avec Two-Handed Bludgeoning\n\nTags: Dégâts, Arme contondante, Arme à deux mains.",
+					"itIT": "Danni con Two-Handed Bludgeoning: +5%\n\nTags: Danni, Contundente, A due mani.",
+					"jaJP": "Two-Handed Bludgeoning でのダメージ+5%\n\nTags: ダメージ, 殴打, 両手用武器.",
+					"koKR": "Two-Handed Bludgeoning 의 공격력 +5%\n\nTags: 피해, 둔기, 양손 무기.",
+					"plPL": "+5% obrażeń zadanych przy użyciu: Two-Handed Bludgeoning\n\nTags: Obrażenia, Obuchowe, Dwuręczne.",
+					"ptBR": "+5% de dano com Two-Handed Bludgeoning\n\nTags: Dano, Concussão, Duas mãos.",
+					"ruRU": "+5% к урону от свойства \"Two-Handed Bludgeoning \"\n\nTags: Урон, Дробящее оружие, Двуручное.",
+					"zhCN": "+5% 使用Two-Handed Bludgeoning 的伤害\n\nTags: 伤害, 钝击, 双手.",
+					"zhTW": "Two-Handed Bludgeoning 傷害 +5%\n\nTags: 傷害, 鈍擊, 雙手."
 				}
 			},
 			"Generic_Magic_Damage2HSlashing": {
 				"name": "Damage 2H Slashing",
-				"description": "+5% Damage with TwoHandedSlashing\n\nTags: Damage, Two-Handed, Slashing.",
+				"description": "+5% Damage with Two-Handed Slashing\n\nTags: Damage, Two-Handed, Slashing.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden mit: TwoHandedSlashing\n\nTags: Schaden, Zweihändig, Hiebwaffe.",
-					"esES": "+5% de daño con TwoHandedSlashing\n\nTags: Daño, Dos manos, Cortante.",
-					"esMX": "+5% de daño con TwoHandedSlashing\n\nTags: Daño, Dos manos, Corte.",
-					"frFR": "+5% de dégâts avec TwoHandedSlashing\n\nTags: Dégâts, Arme à deux mains, Tranchant.",
-					"itIT": "Danni con TwoHandedSlashing: +5%\n\nTags: Danni, A due mani, Tagliente.",
-					"jaJP": "TwoHandedSlashing でのダメージ+5%\n\nTags: ダメージ, 両手用武器, 斬撃.",
-					"koKR": "TwoHandedSlashing 의 공격력 +5%\n\nTags: 피해, 양손 무기, 베는 무기.",
-					"plPL": "+5% obrażeń zadanych przy użyciu: TwoHandedSlashing\n\nTags: Obrażenia, Dwuręczne, Sieczne.",
-					"ptBR": "+5% de dano com TwoHandedSlashing\n\nTags: Dano, Duas mãos, Corte.",
-					"ruRU": "+5% к урону от свойства \"TwoHandedSlashing \"\n\nTags: Урон, Двуручное, Рубящее.",
-					"zhCN": "+5% 使用TwoHandedSlashing 的伤害\n\nTags: 伤害, 双手, 劈斩.",
-					"zhTW": "TwoHandedSlashing 傷害 +5%\n\nTags: 傷害, 雙手, 斬擊."
+					"deDE": "+5% Schaden mit: Two-Handed Slashing\n\nTags: Schaden, Zweihändig, Hiebwaffe.",
+					"esES": "+5% de daño con Two-Handed Slashing\n\nTags: Daño, Dos manos, Cortante.",
+					"esMX": "+5% de daño con Two-Handed Slashing\n\nTags: Daño, Dos manos, Corte.",
+					"frFR": "+5% de dégâts avec Two-Handed Slashing\n\nTags: Dégâts, Arme à deux mains, Tranchant.",
+					"itIT": "Danni con Two-Handed Slashing: +5%\n\nTags: Danni, A due mani, Tagliente.",
+					"jaJP": "Two-Handed Slashing でのダメージ+5%\n\nTags: ダメージ, 両手用武器, 斬撃.",
+					"koKR": "Two-Handed Slashing 의 공격력 +5%\n\nTags: 피해, 양손 무기, 베는 무기.",
+					"plPL": "+5% obrażeń zadanych przy użyciu: Two-Handed Slashing\n\nTags: Obrażenia, Dwuręczne, Sieczne.",
+					"ptBR": "+5% de dano com Two-Handed Slashing\n\nTags: Dano, Duas mãos, Corte.",
+					"ruRU": "+5% к урону от свойства \"Two-Handed Slashing \"\n\nTags: Урон, Двуручное, Рубящее.",
+					"zhCN": "+5% 使用Two-Handed Slashing 的伤害\n\nTags: 伤害, 双手, 劈斩.",
+					"zhTW": "Two-Handed Slashing 傷害 +5%\n\nTags: 傷害, 雙手, 斬擊."
 				}
 			},
 			"Generic_Magic_DamageAfterDodge": {

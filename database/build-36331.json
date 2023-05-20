@@ -1362,12 +1362,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage With TwoHandedBludgeoning\n+12% Overpower Damage",
+				"desc": "+10% Damage With Two-Handed Bludgeoning\n+12% Overpower Damage",
 				"name": "Bludgeoner",
 				"tags": [
 					"Keyword_Overpower"
 				],
-				"threshold_bonus": "+10% Damage With TwoHandedBludgeoning",
+				"threshold_bonus": "+10% Damage With Two-Handed Bludgeoning",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{230 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -1875,13 +1875,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+15% Critical Strike Damage With OneHanded\n+10 Strength",
+				"desc": "+15% Critical Strike Damage With One-Handed\n+10 Strength",
 				"name": "Heavy Blows",
 				"tags": [
 					"Search_Critical",
 					"Search_DEXTERITY"
 				],
-				"threshold_bonus": "+15% Critical Strike Damage With OneHanded",
+				"threshold_bonus": "+15% Critical Strike Damage With One-Handed",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -1924,12 +1924,12 @@
 						"stat_dword": 955638
 					}
 				},
-				"desc": "+10% Damage With OneHanded\n+4% Attack Speed",
+				"desc": "+10% Damage With One-Handed\n+4% Attack Speed",
 				"name": "Wild Force",
 				"tags": [
 					"Search_AttackSpeed"
 				],
-				"threshold_bonus": "+10% Damage With OneHanded",
+				"threshold_bonus": "+10% Damage With One-Handed",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -2025,12 +2025,12 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage With TwoHandedSlashing\n+4% Vulnerable Damage",
+				"desc": "+10% Damage With Two-Handed Slashing\n+4% Vulnerable Damage",
 				"name": "Destroyer",
 				"tags": [
 					"Keyword_Vulnerable"
 				],
-				"threshold_bonus": "+10% Damage With TwoHandedSlashing",
+				"threshold_bonus": "+10% Damage With Two-Handed Slashing",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{215 + (130 * ParagonBoardEquipIndex)} Strength"
@@ -15728,7 +15728,7 @@
 						"stat_dword": 955638
 					}
 				},
-				"desc": "+7.5% Critical Strike Damage With OneHanded",
+				"desc": "+7.5% Critical Strike Damage With One-Handed",
 				"name": "Critical Damage 1H",
 				"tags": [
 					"Search_Critical"
@@ -15831,7 +15831,7 @@
 						"stat_dword": 955638
 					}
 				},
-				"desc": "+5% Damage With OneHanded",
+				"desc": "+5% Damage With One-Handed",
 				"name": "Damage 1H"
 			},
 			"Generic_Magic_Damage2HBludgeoning": {
@@ -15849,7 +15849,7 @@
 						"stat_dword": 955626
 					}
 				},
-				"desc": "+5% Damage With TwoHandedBludgeoning",
+				"desc": "+5% Damage With Two-Handed Bludgeoning",
 				"name": "Damage 2H Bludgeoning"
 			},
 			"Generic_Magic_Damage2HSlashing": {
@@ -15867,7 +15867,7 @@
 						"stat_dword": 955625
 					}
 				},
-				"desc": "+5% Damage With TwoHandedSlashing",
+				"desc": "+5% Damage With Two-Handed Slashing",
 				"name": "Damage 2H Slashing"
 			},
 			"Generic_Magic_DamageAfterDodge": {
