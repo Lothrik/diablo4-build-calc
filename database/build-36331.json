@@ -11556,7 +11556,7 @@
 					"power_tags": [
 						"Skill_Primary_Companion"
 					],
-					"skill_desc": "Cooldown: 14 seconds\nLucky Hit Chance: 50% (per hit)\nPassive: Summon 2 wolf companions that bite enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% damage.\n\nActive: Direct the wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
+					"skill_desc": "Cooldown: 14 seconds\nLucky Hit Chance: 50% (per use)\nPassive: Summon 2 wolf companions that bite enemies for {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}% damage.\n\nActive: Direct the wolves to focus an enemy, leaping to them and striking for {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage.",
 					"skill_name": "Wolves",
 					"skill_rankup_desc": "• Passive Damage 🡑 {7.8/8.6/9.4/10.1/10.9/11.7/12.5/13.3/14/14.8}%\n• Active Damage 🡑 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%"
 				},
@@ -29768,7 +29768,7 @@
 						"Skill_Primary_Subterfuge",
 						"Skill_Trap"
 					],
-					"skill_desc": "Cooldown: 10 seconds\nLucky Hit Chance: 33% (per hit)\nPlace a trap that arms after {#} seconds. It activates when an enemy moves within range, applying {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Poisoning damage over 9 seconds to enemies in the area.",
+					"skill_desc": "Cooldown: 10 seconds\nLucky Hit Chance: 33% (per use)\nPlace a trap that arms after {#} seconds. It activates when an enemy moves within range, applying {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}% Poisoning damage over 9 seconds to enemies in the area.",
 					"skill_name": "Poison Trap",
 					"skill_rankup_desc": "• Poisoning Damage 🡑 {345.6/378/414/446.4/482.4/514.8/550.8/586.8/619.2/655.2}%"
 				},
@@ -30351,7 +30351,7 @@
 						"Skill_Ranged",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 20% (per hit)\nArrows rain down over a large area 2 times, each wave dealing 100% damage.",
+					"skill_desc": "Cooldown: 60 seconds\nLucky Hit Chance: 20% (per use)\nArrows rain down over a large area 2 times, each wave dealing 100% damage.",
 					"skill_name": "Rain of Arrows"
 				},
 				"req_points": 0,
