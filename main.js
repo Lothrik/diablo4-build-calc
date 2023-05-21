@@ -783,7 +783,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-16";
+const localVersion = "0.9.0.41428-17";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -850,22 +850,37 @@ function handleDocumentEvent(event) {
 			case "mouseup":
 			case "touchend":
 				detailsWindowIsMoving = false;
-				$("#detailsWindowHeader").removeAttr("style");
+				$("#detailsWindowTitle").css("cursor", "");
 				detailsPreviousPosition = null;
 				break;
 		}
 	}
 	resetFrameTimer();
 }
-function handleDetailsEvent(event) {
+function handleDetailsWindowTitleEvent(event) {
 	detailsWindowIsMoving = true;
-	$("#detailsWindowHeader").css("cursor", "grabbing");
+	$("#detailsWindowTitle").css("cursor", "grabbing");
 	if (event.type == "mousedown") {
 		detailsPreviousPosition = [event.clientX, event.clientY];
 	} else if (event.type == "touchstart") {
 		const touchEvent = event.originalEvent.touches[0];
 		detailsPreviousPosition = [touchEvent.clientX, touchEvent.clientY];
 	}
+}
+function handleDetailsWindowToggleButton(event) {
+	const wasHidden = $("#detailsWindowContents").css("display") == "none";
+	if (wasHidden) {
+		$("#detailsWindowHeader").css("border-bottom", "1px solid #fff");
+		$("#detailsWindowTitle").removeAttr("style");
+		$("#detailsWindowToggle").attr("src", "images/collapse.svg");
+	}
+	$("#detailsWindowContents").slideToggle(400, () => {
+		if (!wasHidden) {
+			$("#detailsWindowHeader").css("border-bottom", "none");
+			$("#detailsWindowTitle").css("text-align", "left");
+			$("#detailsWindowToggle").attr("src", "images/expand.svg");
+		}
+	});
 }
 function handleCanvasEvent(event) {
 	switch (event.type) {
@@ -4036,7 +4051,8 @@ $(document).ready(function() {
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup focus blur", handleSearchInput);
 
-	$("#detailsWindowHeader").on("mousedown touchstart", handleDetailsEvent);
+	$("#detailsWindowTitle").on("mousedown touchstart", handleDetailsWindowTitleEvent);
+	$("#detailsWindowToggle").on("click", handleDetailsWindowToggleButton);
 	$(window).on("mousemove touchmove mouseup touchend", handleDocumentEvent);
 
 	$("#canvasContainer").append(pixiJS.renderer.view);

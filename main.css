@@ -93,13 +93,42 @@ h1, h2, h3 {
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 1px solid #fff;
-	text-align: center;
+	min-width: 200px;
 	white-space: nowrap;
 	z-index: 6!important;
 }
 
 #detailsWindow > :not(:first-child) {
-	user-select: text!important;
+	padding: 10px;
+}
+
+#detailsWindowHeader {
+	display: flex;
+	border-bottom: 1px solid #fff;
+	font-size: 28px;
+	font-variant: small-caps;
+	z-index: 7!important;
+	align-items: center;
+	justify-content: center;
+}
+
+#detailsWindowTitle {
+	cursor: grab;
+	flex-grow: 1;
+	padding: 10px;
+	margin-right: -4px;
+}
+
+#detailsWindowToggle {
+	float: right;
+	cursor: pointer;
+	margin: 0 4px 0 -32px;
+	height: 32px;
+	width: 32px;
+}
+
+#detailsWindowContents {
+	user-select: text;
 }
 
 #detailsWindowBox {
@@ -117,18 +146,6 @@ h1, h2, h3 {
 
 #detailsWindowBox > :last-child {
 	padding-bottom: 0;
-}
-
-#detailsWindow > * {
-	padding: 10px;
-}
-
-#detailsWindowHeader {
-	border-bottom: 1px solid #fff;
-	cursor: grab;
-	font-size: 28px;
-	font-variant: small-caps;
-	z-index: 7!important;
 }
 
 #canvasContainer {
