@@ -372,6 +372,12 @@ function setNodeStyleThick(curNode) {
 		_lineStyleThickSquare.color = colorOverride;
 	}
 
+	for (let i = 1, n = curNode.children[0].children.length; i < n; i++) {
+		const extraText = curNode.children[0].children[i].children[0];
+		if (extraText == undefined) continue;
+		extraText.style.fontWeight = "normal";
+		extraText.style.fill = _textColor;
+	}
 	curNode.children[1].style.fill = _textColor;
 	if (allocatedPoints > 0) curNode.children[1].style.fontWeight = "bold";
 	if (curNode.children.length > 3) {
@@ -405,6 +411,12 @@ function setNodeStyleThin(curNode) {
 		_lineStyleThinSquare.color = colorOverride;
 	}
 
+	for (let i = 1, n = curNode.children[0].children.length; i < n; i++) {
+		const extraText = curNode.children[0].children[i].children[0];
+		if (extraText == undefined) continue;
+		extraText.style.fontWeight = "normal";
+		extraText.style.fill = _textColor;
+	}
 	curNode.children[1].style.fill = _textColor;
 	if (allocatedPoints == 0) curNode.children[1].style.fontWeight = "normal";
 	if (curNode.children.length > 3) {
@@ -919,6 +931,7 @@ var oldSearchText = "";
 function handleSearchInput(event) {
 	const newSearchText = $("#searchInput").val().normalize("NFD").replace(/[\u0300-\u036F]/g, "").toLowerCase();
 
+	if (newSearchText.length >= 2) resetFrameTimer();
 	let nodeMatch = pixiNodes.filter(pixiNode => {
 		if (newSearchText.length >= 2) {
 			// search `nodeHeader` for `newSearchText`
@@ -980,7 +993,6 @@ function handleSearchInput(event) {
 				[nodeX, nodeY] = [nodeX + nodeMatch.parent.x, nodeY + nodeMatch.parent.y];
 			}
 
-			resetFrameTimer();
 			pixiJS.stage.pivot.set(nodeX - oldWidth / pixiJS.stage.scale.x * 0.5, nodeY - oldHeight / pixiJS.stage.scale.y * 0.5);
 			drawTooltip(nodeMatch);
 		}
@@ -2887,7 +2899,7 @@ function drawAllNodes() {
 			groupNode.set("x", branchData.get("x"));
 			groupNode.set("y", branchData.get("y"));
 			if (groupName == SPIRIT_BOONS) {
-				groupNode.set("colorOverride", 0xFFFFFF);
+				groupNode.set("colorOverride", textColor);
 				groupNode.set("shapeSize", 1);
 				groupNode.set("shapeType", "rectangle");
 				groupNode.set("widthOverride", 1700);
@@ -2948,7 +2960,7 @@ function drawAllNodes() {
 					extraY += nodeSpacingY * (nodeLimitY - 1);
 				}
 			} else if (groupName == BOOK_OF_THE_DEAD) {
-				groupNode.set("colorOverride", 0xFFFFFF);
+				groupNode.set("colorOverride", textColor);
 				groupNode.set("shapeSize", 1);
 				groupNode.set("shapeType", "rectangle");
 				groupNode.set("widthOverride", 1700);
@@ -3068,7 +3080,7 @@ function drawAllNodes() {
 		const nodeSpacingY = nodeHeight + 25;
 
 		const paragonNode = new Map([
-			["colorOverride", 0xFFFFFF],
+			["colorOverride", textColor],
 			["requiredPoints", 0],
 			["widthOverride", paragonBoardNodes * nodeSpacingX], // (paragonBoardCount * paragonBoardNodes * nodeSpacingX) + (nodeSpacingX * (paragonBoardCount - 1) * 0.5)
 			["shapeSize", 1],
@@ -3180,7 +3192,7 @@ function drawAllNodes() {
 	const equipmentPanelY = 0;
 
 	const equipmentPanelNode = new Map([
-		["colorOverride", 0xFFFFFF],
+		["colorOverride", textColor],
 		["requiredPoints", 0],
 		["widthOverride", 1750],
 		["shapeSize", 1],
@@ -3272,7 +3284,7 @@ function drawAllNodes() {
 		let [codexX, codexY] = [startX, startY];
 
 		const codexNode = new Map([
-			["colorOverride", 0xFFFFFF],
+			["colorOverride", textColor],
 			["requiredPoints", 0],
 			["widthOverride", nodeSpacingX * 4 - 50],
 			["shapeSize", 1],
