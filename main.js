@@ -621,17 +621,22 @@ function handleSummaryButton(event) {
 			const sortedRawParagonData = Object.keys(rawParagonData[boardName][0]).sort((a, b) => {
 				const aName = "name" in rawParagonData[boardName][0][a] ? rawParagonData[boardName][0][a].name : a;
 				const bName = "name" in rawParagonData[boardName][0][b] ? rawParagonData[boardName][0][b].name : b;
+				if (aName == "Strength" || (aName == "Intelligence" && bName != "Strength") || (aName == "Willpower" && bName != "Intelligence") || (aName == "Dexterity" && bName != "Willpower")) return -1;
+				if (bName == "Strength" || (bName == "Intelligence" && aName != "Strength") || (bName == "Willpower" && aName != "Intelligence") || (bName == "Dexterity" && aName != "Willpower")) return 1;
 				return aName.localeCompare(bName);
 			});
 			let paragonOutputList = [];
 			for (const statName of sortedRawParagonData) {
 				const statData = rawParagonData[boardName][0][statName];
-				if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
-				if (statData.maxValue == 0) continue;
-				if (statData.maxValue > statData.minValue) {
-					paragonOutputList.push(`${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}`);
+				if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) {
+					paragonOutputList.push(`${Math.floor(statData.minValue)} ${statName}`);
 				} else {
-					paragonOutputList.push(`${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}`);
+					if (statData.maxValue == 0) continue;
+					if (statData.maxValue > statData.minValue) {
+						paragonOutputList.push(`${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}`);
+					} else {
+						paragonOutputList.push(`${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}`);
+					}
 				}
 			}
 			if (paragonOutputList.length > 0) paragonOutput += `\n\t\t[Bonuses]: ${paragonOutputList.join(", ")}.`;
@@ -685,6 +690,33 @@ function handleDetailsButton(event) {
 	writeCookie("detailsMode", detailsMode);
 	updateDetailsWindow();
 }
+function getBaseAttributes() {
+	let [baseStr, baseInt, baseWill, baseDex] = [7, 7, 7, 7];
+	let levelAttributes = Number($("#charLevel").text()) - 1;
+	switch (className) {
+		case "barbarian":
+			baseStr = 10;
+			baseDex = 8;
+			break;
+		case "druid":
+			baseWill = 10;
+			baseInt = 8;
+			break;
+		case "necromancer":
+			baseInt = 10;
+			baseWill = 8;
+			break;
+		case "rogue":
+			baseDex = 10;
+			baseWill = 8;
+			break;
+		case "sorcerer":
+			baseInt = 10;
+			baseWill = 8;
+			break;
+	}
+	return [baseStr + levelAttributes, baseInt + levelAttributes, baseWill + levelAttributes, baseDex + levelAttributes];
+}
 function updateDetailsWindow() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (detailsMode && className != "none") {
@@ -692,45 +724,19 @@ function updateDetailsWindow() {
 		const sortedParagonStatTotals = Object.keys(paragonStatTotals).sort((a, b) => {
 			const aName = "name" in paragonStatTotals[a] ? paragonStatTotals[a].name : a;
 			const bName = "name" in paragonStatTotals[b] ? paragonStatTotals[b].name : b;
+			if (aName == "Strength" || (aName == "Intelligence" && bName != "Strength") || (aName == "Willpower" && bName != "Intelligence") || (aName == "Dexterity" && bName != "Willpower")) return -1;
+			if (bName == "Strength" || (bName == "Intelligence" && aName != "Strength") || (bName == "Willpower" && aName != "Intelligence") || (bName == "Dexterity" && aName != "Willpower")) return 1;
 			return aName.localeCompare(bName);
 		});
-		function summarizeParagonStats(attributeMode = false, attributes) {
+		function summarizeParagonStats(attributeMode = false) {
 			let outputHTML = "";
-			let baseStr = 7;
-			let baseInt = 7;
-			let baseWill = 7;
-			let baseDex = 7;
-			let levelAttributes = Number($("#charLevel").text()) - 1;
-			if (attributeMode) {
-				switch (className) {
-					case "barbarian":
-						baseStr = 10;
-						baseDex = 8;
-						break;
-					case "druid":
-						baseWill = 10;
-						baseInt = 8;
-						break;
-					case "necromancer":
-						baseInt = 10;
-						baseWill = 8;
-						break;
-					case "rogue":
-						baseDex = 10;
-						baseWill = 8;
-						break;
-					case "sorcerer":
-						baseInt = 10;
-						baseWill = 8;
-						break;
-				}
-			}
+			const [baseStr, baseInt, baseWill, baseDex] = getBaseAttributes();
 			for (const statName of sortedParagonStatTotals) {
 				const statData = paragonStatTotals[statName];
 				if (attributeMode) {
 					if (!["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
 					const baseAttribute = statName == "Strength" ? baseStr : statName == "Intelligence" ? baseInt : statName == "Willpower" ? baseWill : statName == "Dexterity" ? baseDex : 0;
-					outputHTML += `<div>${baseAttribute + levelAttributes + Math.floor(statData.minValue)} ${statName}</div>`;
+					outputHTML += `<div>${baseAttribute + Math.floor(statData.minValue)} ${statName}</div>`;
 				} else {
 					if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
 					if (statData.maxValue == 0) continue;
