@@ -1972,21 +1972,21 @@ function getNodeGlyphMultiplierSpecial(curNode) {
 			});
 			const glyphDescLower = glyphData["desc"].toLowerCase();
 			if (glyphDescLower.includes(`bonus to their physical`)) {
-				if (curNode.nodeDesc.match("Tags:.*Physical") && !curNode.nodeDesc.match("Tags:.*Non-Physical")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their physical/i)) / 100;
+				if (curNode.nodeDesc.match(/Physical|Bleed/) && !curNode.nodeDesc.match("Non-Physical")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their physical/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their non-physical`)) {
-				if (curNode.nodeDesc.match("Tags:.*Non-Physical")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their non-physical/i)) / 100;
+				if (curNode.nodeDesc.match("Non-Physical")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their non-physical/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their fire`)) {
-				if (curNode.nodeDesc.match("Tags:.*Fire")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their fire/i)) / 100;
+				if (curNode.nodeDesc.match("Fire")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their fire/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their lightning`)) {
-				if (curNode.nodeDesc.match("Tags:.*Lightning")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their lightning/i)) / 100;
+				if (curNode.nodeDesc.match("Lightning")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their lightning/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their cold`)) {
-				if (curNode.nodeDesc.match("Tags:.*Cold")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their cold/i)) / 100;
+				if (curNode.nodeDesc.match("Cold")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their cold/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their poison`)) {
-				if (curNode.nodeDesc.match("Tags:.*Poison")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their poison/i)) / 100;
+				if (curNode.nodeDesc.match("Poison")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their poison/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their shadow`)) {
-				if (curNode.nodeDesc.match("Tags:.*Shadow")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their shadow/i)) / 100;
+				if (curNode.nodeDesc.match("Shadow")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their shadow/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their minion`)) {
-				if (curNode.nodeDesc.match("Tags:.*Minion")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their minion/i)) / 100;
+				if (curNode.nodeDesc.match("Minion")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their minion/i)) / 100;
 			}
 		}
 	}
