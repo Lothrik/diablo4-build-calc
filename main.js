@@ -493,6 +493,7 @@ function handleTooltipCopy(event) {
 	}
 }
 function handleSummaryButton(event) {
+	let rawParagonData = {};
 	let allocatedTreeNodes = {};
 	let allocatedParagonNodes = {};
 	let allocatedCodexNodes = {};
@@ -511,6 +512,17 @@ function handleSummaryButton(event) {
 				if (!(boardName in allocatedParagonNodes)) allocatedParagonNodes[boardName] = {};
 				if (!(nodeType in allocatedParagonNodes[boardName])) allocatedParagonNodes[boardName][nodeType] = {};
 				allocatedParagonNodes[boardName][nodeType][nodeName] = nodeDesc;
+				if (allocatedPoints > 0 && ["Normal", "Magic", "Rare", "Gate"].includes(nodeType)) {
+					if (!(boardName in rawParagonData)) rawParagonData[boardName] = [
+						{
+							"Strength": { minValue: 0, maxValue: 0 },
+							"Intelligence": { minValue: 0, maxValue: 0 },
+							"Willpower": { minValue: 0, maxValue: 0 },
+							"Dexterity": { minValue: 0, maxValue: 0 }
+						}, {}
+					];
+					rawParagonData[boardName] = updateParagonStatTotals(pixiNode, allocatedPoints, rawParagonData[boardName], true);
+				}
 			} else if (groupName == CODEX_OF_POWER) {
 				const codexCategory = nodeData.get("codexCategory");
 				if (!(codexCategory in allocatedCodexNodes)) allocatedCodexNodes[codexCategory] = {};
@@ -581,6 +593,8 @@ function handleSummaryButton(event) {
 	}
 	let paragonOutput = `[${PARAGON_BOARD}]:`;
 	for (const [boardName, boardData] of Object.entries(allocatedParagonNodes)) {
+		const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeName == boardName);
+		const boardIndex = boardHeader.nodeData.get("boardIndex");
 		paragonOutput += `\n\t[${boardName}]:`;
 		for (const nodeType of sortedParagonNodeTypes) {
 			const nodeData = boardData[nodeType];
@@ -593,8 +607,6 @@ function handleSummaryButton(event) {
 				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: [${Object.keys(nodeData).join("], [")}].`;
 			} else if (nodeType == "Socket") {
 				paragonOutput += `\n\t\t${nodeTypeCount} glyph ${nodeType.toLowerCase()} allocated`;
-				const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeName == boardName);
-				const boardIndex = boardHeader.nodeData.get("boardIndex");
 				if (boardIndex in paragonBoardGlyphData) {
 					const glyphData = getGlyphData(paragonBoardGlyphData[boardIndex]);
 					paragonOutput += `: [${glyphData.name}] — "${glyphData.bonus}"`;
@@ -604,6 +616,25 @@ function handleSummaryButton(event) {
 			} else if (nodeType == "Legendary") {
 				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: "${Object.values(nodeData)[0].split("\n\nTags:")[0]}"`;
 			}
+		}
+		if (rawParagonData[boardName] != undefined && rawParagonData[boardName][0] != undefined) {
+			const sortedRawParagonData = Object.keys(rawParagonData[boardName][0]).sort((a, b) => {
+				const aName = "name" in rawParagonData[boardName][0][a] ? rawParagonData[boardName][0][a].name : a;
+				const bName = "name" in rawParagonData[boardName][0][b] ? rawParagonData[boardName][0][b].name : b;
+				return aName.localeCompare(bName);
+			});
+			let paragonOutputList = [];
+			for (const statName of sortedRawParagonData) {
+				const statData = rawParagonData[boardName][0][statName];
+				if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
+				if (statData.maxValue == 0) continue;
+				if (statData.maxValue > statData.minValue) {
+					paragonOutputList.push(`${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}`);
+				} else {
+					paragonOutputList.push(`${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}`);
+				}
+			}
+			if (paragonOutputList.length > 0) paragonOutput += `\n\t\t[Bonuses]: ${paragonOutputList.join(", ")}.`;
 		}
 	}
 	let finalOutput = "";
@@ -617,7 +648,7 @@ function handleSummaryButton(event) {
 	}
 	if (finalOutput.length > 0) {
 		navigator.clipboard.writeText(finalOutput);
-		console.log(finalOutput);
+		console.log(rawParagonData);
 		$("#summaryButton span").text(`[${COPY_BUILD_SUMMARY_SUCCESS_TEXT}]`);
 		setTimeout(() => $("#summaryButton span").text(`[${COPY_BUILD_SUMMARY_TEXT}]`), 2000);
 	}
@@ -746,7 +777,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-15";
+const localVersion = "0.9.0.41428-16";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1976,7 +2007,7 @@ var paragonStatTotals = {
 	"Willpower": { minValue: 0, maxValue: 0 },
 	"Dexterity": { minValue: 0, maxValue: 0 }
 };
-function updateParagonStatTotals(curNode, diffPoints) {
+function updateParagonStatTotals(curNode, diffPoints, outputData = [paragonStatTotals, glyphRadiusAttributeTotals], directOutputMode = false) {
 	if (diffPoints == 0) return;
 	const nodeType = curNode.nodeData.get("nodeType");
 	if (!["Normal", "Magic", "Rare", "Gate", "Socket"].includes(nodeType)) return;
@@ -1987,7 +2018,7 @@ function updateParagonStatTotals(curNode, diffPoints) {
 	const glyphMultiplier = getNodeGlyphMultiplier(curNode);
 	const glyphMultiplierSpecial = getNodeGlyphMultiplierSpecial(curNode);
 
-	if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
+	if (!(boardIndex in outputData[1])) outputData[1][boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
 
 	let descLines = "";
 	if (nodeType == "Socket") {
@@ -2003,19 +2034,22 @@ function updateParagonStatTotals(curNode, diffPoints) {
 		if (descLines.length < 2) return;
 		descLines[1] = descLines[1].replace(/you(?: and your minions)? deal /, "").replace(/\.$/, "");
 		if (descLines[0].includes("Strength")) {
-			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Strength"] * 0.2) ];
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * outputData[1][boardIndex]["Strength"] * 0.2) ];
 		} else if (descLines[0].includes("Intelligence")) {
-			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 0.2) ];
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * outputData[1][boardIndex]["Intelligence"] * 0.2) ];
 		} else if (descLines[0].includes("Willpower")) {
-			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Willpower"] * 0.2) ];
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * outputData[1][boardIndex]["Willpower"] * 0.2) ];
 		} else if (descLines[0].includes("Dexterity")) {
-			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * glyphRadiusAttributeTotals[boardIndex]["Dexterity"] * 0.2) ];
+			descLines = [ descLines[1].replace(/(\d*\.?\d+)/, parseFloat(descLines[1].match(/(\d*\.?\d+)/)) * outputData[1][boardIndex]["Dexterity"] * 0.2) ];
 		}
 	} else {
 		descLines = curNode.nodeDesc.split(/\r?\n/);
 	}
 
-	if (nodeType != "Socket" && isNodeInGlyphRadius(curNode)) updateParagonStatTotals(glyphSocket, -1);
+	if (nodeType != "Socket" && isNodeInGlyphRadius(curNode)) {
+		if (!directOutputMode) [paragonStatTotals, glyphRadiusAttributeTotals] = outputData;
+		updateParagonStatTotals(glyphSocket, -1, outputData, directOutputMode);
+	}
 
 	for (let i = 0, n = descLines.length; i < n; i++) {
 		const descLine = descLines[i];
@@ -2060,11 +2094,11 @@ function updateParagonStatTotals(curNode, diffPoints) {
 		let statNameFull;
 		if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) {
 			statNameFull = statName;
-			if (isNodeInGlyphRadius(curNode)) glyphRadiusAttributeTotals[boardIndex][statNameFull] += statValue * diffPoints;
+			if (isNodeInGlyphRadius(curNode)) outputData[1][boardIndex][statNameFull] += statValue * diffPoints;
 		} else {
 			statNameFull = `${statPrefix}{#}${statSuffix}${statName}`;
-			if (!(statNameFull in paragonStatTotals)) {
-				paragonStatTotals[statNameFull] = {
+			if (!(statNameFull in outputData[0])) {
+				outputData[0][statNameFull] = {
 					name: statName,
 					prefix: statPrefix,
 					suffix: statSuffix,
@@ -2076,32 +2110,41 @@ function updateParagonStatTotals(curNode, diffPoints) {
 
 		if (descLine.includes("Damage Reduction")) {
 			if (!descMatch[4].includes(" if requirements met:")) {
-				paragonStatTotals[statNameFull].minValue = paragonStatTotals[statNameFull].minValue > 0 ? 1 - paragonStatTotals[statNameFull].minValue * 0.01 : 1;
+				outputData[0][statNameFull].minValue = outputData[0][statNameFull].minValue > 0 ? 1 - outputData[0][statNameFull].minValue * 0.01 : 1;
 				if (diffPoints > 0) {
-					paragonStatTotals[statNameFull].minValue *= 1 - statValue * 0.01;
+					outputData[0][statNameFull].minValue *= 1 - statValue * 0.01;
 				} else {
-					paragonStatTotals[statNameFull].minValue /= 1 - statValue * 0.01;
+					outputData[0][statNameFull].minValue /= 1 - statValue * 0.01;
 				}
-				paragonStatTotals[statNameFull].minValue = (1 - paragonStatTotals[statNameFull].minValue) * 100;
+				outputData[0][statNameFull].minValue = (1 - outputData[0][statNameFull].minValue) * 100;
 			}
-			paragonStatTotals[statNameFull].maxValue = paragonStatTotals[statNameFull].maxValue > 0 ? 1 - paragonStatTotals[statNameFull].maxValue * 0.01 : 1;
+			outputData[0][statNameFull].maxValue = outputData[0][statNameFull].maxValue > 0 ? 1 - outputData[0][statNameFull].maxValue * 0.01 : 1;
 			if (diffPoints > 0) {
-				paragonStatTotals[statNameFull].maxValue *= 1 - statValue * 0.01;
+				outputData[0][statNameFull].maxValue *= 1 - statValue * 0.01;
 			} else {
-				paragonStatTotals[statNameFull].maxValue /= 1 - statValue * 0.01;
+				outputData[0][statNameFull].maxValue /= 1 - statValue * 0.01;
 			}
-			paragonStatTotals[statNameFull].maxValue = (1 - paragonStatTotals[statNameFull].maxValue) * 100;
+			outputData[0][statNameFull].maxValue = (1 - outputData[0][statNameFull].maxValue) * 100;
 		} else {
 			if (!descMatch[4].includes(" if requirements met:")) {
-				paragonStatTotals[statNameFull].minValue += statValue * diffPoints;
+				outputData[0][statNameFull].minValue += statValue * diffPoints;
 			}
-			paragonStatTotals[statNameFull].maxValue += statValue * diffPoints;
+			outputData[0][statNameFull].maxValue += statValue * diffPoints;
 		}
 
 		if (descMatch[4].includes(" if requirements met:")) break;
 	}
 
-	if (nodeType != "Socket" && isNodeInGlyphRadius(curNode)) updateParagonStatTotals(glyphSocket, 1);
+	if (nodeType != "Socket" && isNodeInGlyphRadius(curNode)) {
+		if (!directOutputMode) [paragonStatTotals, glyphRadiusAttributeTotals] = outputData;
+		updateParagonStatTotals(glyphSocket, 1, outputData, directOutputMode);
+	}
+
+	if (directOutputMode) {
+		return outputData;
+	} else {
+		[paragonStatTotals, glyphRadiusAttributeTotals] = outputData;
+	}
 }
 function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
