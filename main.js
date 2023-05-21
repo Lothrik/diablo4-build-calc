@@ -596,27 +596,6 @@ function handleSummaryButton(event) {
 		const boardHeader = pixiNodes.find(pixiNode => pixiNode.nodeName == boardName);
 		const boardIndex = boardHeader.nodeData.get("boardIndex");
 		paragonOutput += `\n\t[${boardName}]:`;
-		for (const nodeType of sortedParagonNodeTypes) {
-			const nodeData = boardData[nodeType];
-			if (nodeData == undefined) continue;
-			const nodeTypeCount = Object.keys(nodeData).length;
-			const nodeTypeSuffix = nodeTypeCount == 1 ? "node" : "nodes";
-			if (["Normal", "Magic"].includes(nodeType)) {
-				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated.`;
-			} else if (nodeType == "Rare") {
-				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: [${Object.keys(nodeData).join("], [")}].`;
-			} else if (nodeType == "Socket") {
-				paragonOutput += `\n\t\t${nodeTypeCount} glyph ${nodeType.toLowerCase()} allocated`;
-				if (boardIndex in paragonBoardGlyphData) {
-					const glyphData = getGlyphData(paragonBoardGlyphData[boardIndex]);
-					paragonOutput += `: [${glyphData.name}] — "${glyphData.bonus}"`;
-				} else {
-					paragonOutput += `.`;
-				}
-			} else if (nodeType == "Legendary") {
-				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: "${Object.values(nodeData)[0].split("\n\nTags:")[0]}"`;
-			}
-		}
 		if (rawParagonData[boardName] != undefined && rawParagonData[boardName][0] != undefined) {
 			const sortedRawParagonData = Object.keys(rawParagonData[boardName][0]).sort((a, b) => {
 				const aName = "name" in rawParagonData[boardName][0][a] ? rawParagonData[boardName][0][a].name : a;
@@ -639,7 +618,28 @@ function handleSummaryButton(event) {
 					}
 				}
 			}
-			if (paragonOutputList.length > 0) paragonOutput += `\n\t\t[Bonuses]: ${paragonOutputList.join(", ")}.`;
+			if (paragonOutputList.length > 0) paragonOutput += `\n\t\t${paragonOutputList.join(", ")}.`;
+		}
+		for (const nodeType of sortedParagonNodeTypes) {
+			const nodeData = boardData[nodeType];
+			if (nodeData == undefined) continue;
+			const nodeTypeCount = Object.keys(nodeData).length;
+			const nodeTypeSuffix = nodeTypeCount == 1 ? "node" : "nodes";
+			if (["Normal", "Magic"].includes(nodeType)) {
+				//paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated.`;
+			} else if (nodeType == "Rare") {
+				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: [${Object.keys(nodeData).join("], [")}].`;
+			} else if (nodeType == "Socket") {
+				paragonOutput += `\n\t\t${nodeTypeCount} glyph ${nodeType.toLowerCase()} allocated`;
+				if (boardIndex in paragonBoardGlyphData) {
+					const glyphData = getGlyphData(paragonBoardGlyphData[boardIndex]);
+					paragonOutput += `: [${glyphData.name}] — "${glyphData.bonus}"`;
+				} else {
+					paragonOutput += `.`;
+				}
+			} else if (nodeType == "Legendary") {
+				paragonOutput += `\n\t\t${nodeTypeCount} ${nodeType.toLowerCase()} ${nodeTypeSuffix} allocated: "${Object.values(nodeData)[0].split("\n\nTags:")[0]}"`;
+			}
 		}
 	}
 	let finalOutput = "";
