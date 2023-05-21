@@ -1989,7 +1989,7 @@ function getNodeGlyphMultiplierSpecial(curNode) {
 			if (glyphDescLower.includes(`bonus to their physical`)) {
 				if (curNode.nodeDesc.match(/Physical|Bleed/) && !curNode.nodeDesc.match("Non-Physical")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their physical/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their non-physical`)) {
-				if (curNode.nodeDesc.match("Non-Physical")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their non-physical/i)) / 100;
+				if (curNode.nodeDesc.match(/Non-Physical|Elemental/)) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their non-physical/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their fire`)) {
 				if (curNode.nodeDesc.match("Fire")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their fire/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their lightning`)) {
