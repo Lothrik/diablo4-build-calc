@@ -132,9 +132,12 @@ h1, h2, h3 {
 }
 
 #detailsWindowBox {
+	height: 24px;
+	min-height: 24px;
+	min-width: 178px;
 	overflow-y: auto;
-	max-height: 150px;
 	white-space: pre-line;
+	resize: both;
 }
 
 #detailsWindowBox > * {

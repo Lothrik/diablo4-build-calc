@@ -717,13 +717,6 @@ function getBaseAttributes() {
 	}
 	return [baseStr + levelAttributes, baseInt + levelAttributes, baseWill + levelAttributes, baseDex + levelAttributes];
 }
-const extraCanvas = document.createElement("canvas");
-function getTextWidth(text, font) {
-	const context = extraCanvas.getContext("2d");
-	context.font = font;
-	return context.measureText(text).width;
-}
-var detailsWindowBoxWidth = 170;
 function updateDetailsWindow() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (detailsMode && className != "none") {
@@ -735,7 +728,6 @@ function updateDetailsWindow() {
 			if (bName == "Strength" || (bName == "Intelligence" && aName != "Strength") || (bName == "Willpower" && aName != "Intelligence") || (bName == "Dexterity" && aName != "Willpower")) return 1;
 			return aName.localeCompare(bName);
 		});
-		detailsWindowBoxWidth = sortedParagonStatTotals.length > 9 ? 320 : 170;
 		function summarizeParagonStats(attributeMode = false) {
 			let outputHTML = "";
 			const [baseStr, baseInt, baseWill, baseDex] = getBaseAttributes();
@@ -748,14 +740,11 @@ function updateDetailsWindow() {
 				} else {
 					if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
 					if (statData.maxValue == 0) continue;
-					let outputText = "";
 					if (statData.maxValue > statData.minValue) {
-						outputText = `${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}`;
+						outputHTML += `<div>${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}</div>`;
 					} else {
-						outputText = `${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}`;
+						outputHTML += `<div>${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}</div>`;
 					}
-					if (detailsWindowBoxWidth < 320 && outputText.length > 20) detailsWindowBoxWidth = Math.max(detailsWindowBoxWidth, getTextWidth(outputText, $("#detailsWindowBox").css("font")));
-					outputHTML += `<div>${outputText}</div>`;
 				}
 			}
 			if (outputHTML.length > 0) {
@@ -766,7 +755,17 @@ function updateDetailsWindow() {
 		}
 		$("#detailsWindowContents").html(summarizeParagonStats(true) + summarizeParagonStats(false));
 		$("#detailsWindow").removeClass("disabled");
-		$("#detailsWindowBox").scrollTop(savedScrollPosition).on("scroll", resetFrameTimer);
+		if ($("#detailsWindowBox").length > 0) {
+			$("#detailsWindowBox")
+				.css({
+					"width": readCookie("detailsWindowBoxWidth", ""),
+					"height": readCookie("detailsWindowBoxHeight", ""),
+					"min-height": Math.min(28 * (sortedParagonStatTotals.length - 4), 112) - 5
+				})
+				.scrollTop(savedScrollPosition)
+				.on("scroll", resetFrameTimer);
+			new ResizeObserver(detailsWindowBoxResizeEvent).observe($("#detailsWindowBox")[0]);
+		}
 		repositionDetailsWindow();
 	} else {
 		$("#detailsWindow").addClass("disabled");
@@ -774,8 +773,6 @@ function updateDetailsWindow() {
 	}
 }
 function repositionDetailsWindow(detailsLeft = null, detailsTop = null) {
-	$("#detailsWindowBox").width(Math.max(Math.min(detailsWindowBoxWidth + 30, curWidth * 0.25, 350), 180));
-
 	const zoomLevel = Number(readCookie("zoomLevel", 1));
 	const detailsWidth = $("#detailsWindow").outerWidth(true) * zoomLevel;
 	const detailsHeight = $("#detailsWindow").outerHeight(true) * zoomLevel;
@@ -783,10 +780,19 @@ function repositionDetailsWindow(detailsLeft = null, detailsTop = null) {
 	detailsLeft = detailsLeft == null ? readCookie("detailsLeft", 0) : detailsLeft;
 	detailsTop = detailsTop == null ? readCookie("detailsTop", 0) : detailsTop;
 
+	$("#detailsWindowBox").css("max-width", curWidth - detailsLeft - 22);
+	$("#detailsWindowBox").css("max-height", curHeight - detailsTop - 180);
+
 	$("#detailsWindow").css({
 		"left": Math.max(Math.min(detailsLeft, $("body").width() - detailsWidth), 0),
 		"top": Math.max(Math.min(detailsTop, $("body").height() - detailsHeight), 0)
 	});
+}
+function detailsWindowBoxResizeEvent(event) {
+	if (event[0].contentRect.width == 0 || event[0].contentRect.height == 0) return;
+	const detailsWindowBox = $("#detailsWindowBox");
+	writeCookie("detailsWindowBoxWidth", detailsWindowBox.outerWidth());
+	writeCookie("detailsWindowBoxHeight", detailsWindowBox.outerHeight());
 }
 function handleClampButton(event) {
 	clampMode = !clampMode;
@@ -796,7 +802,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-17";
+const localVersion = "0.9.0.41428-18";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -887,7 +893,7 @@ function handleDetailsWindowToggleButton(event) {
 		$("#detailsWindowTitle").removeAttr("style");
 		$("#detailsWindowToggle").attr("src", "images/collapse.svg");
 	}
-	$("#detailsWindowContents").slideToggle(400, () => {
+	$("#detailsWindowContents").slideToggle(250, () => {
 		if (!wasHidden) {
 			$("#detailsWindowHeader").css("border-bottom", "none");
 			$("#detailsWindowTitle").css("text-align", "left");
