@@ -1435,11 +1435,15 @@ function setParagonBoardEquipIndex(boardIndex, forcedEquipIndex = null) {
 	if (isNaN(equipIndex)) return;
 	equipIndex = parseInt(equipIndex);
 
+	if (paragonBoardEquipIndices[boardIndex] == equipIndex) return;
 	if (equipIndex < 1 || equipIndex > 9) {
 		delete paragonBoardEquipIndices[boardIndex];
 	} else {
 		paragonBoardEquipIndices[boardIndex] = equipIndex;
 	}
+
+	boardHeader.scaleFactor = -1; // force redraw
+	redrawNode(boardHeader);
 }
 let paragonBoardGlyphData = {};
 let paragonBoardGlyphRankData = {};
@@ -2467,6 +2471,16 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		const maxLabelSize = Math.round(7.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
 		if (displayName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
 		if (displayName.length >= maxLabelSize - 2) displayNameSize = 32;
+	}
+	if (extraData != null && groupName == PARAGON_BOARD && extraData in paragonBoardEquipIndices) {
+		const equipIndex = paragonBoardEquipIndices[extraData];
+		const equipIndexText = ` [Equip Index: ${equipIndex}]`;
+		const equipIndexRegex = / \[Equip Index: [0-9]+\]/;
+		if (displayName.match(equipIndexRegex)) {
+			displayName = displayName.replace(equipIndexRegex, equipIndexText);
+		} else {
+			displayName += equipIndexText;
+		}
 	}
 
 	const allocatedPoints = nodeData.get("allocatedPoints");
