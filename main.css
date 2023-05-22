@@ -132,8 +132,8 @@ h1, h2, h3 {
 }
 
 #detailsWindowBox {
-	height: 24px;
-	min-height: 24px;
+	height: 23px;
+	min-height: 23px;
 	min-width: 178px;
 	overflow-y: auto;
 	white-space: pre-line;
