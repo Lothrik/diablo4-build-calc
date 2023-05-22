@@ -134,7 +134,6 @@ h1, h2, h3 {
 #detailsWindowBox {
 	overflow-y: auto;
 	max-height: 150px;
-	max-width: 350px;
 	white-space: pre-line;
 }
 

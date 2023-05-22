@@ -297,8 +297,8 @@ var newRenderScale = 1;
 
 var frameTimer = Date.now();
 
-var oldWidth = 0;
-var oldHeight = 0;
+var curWidth = 0;
+var curHeight = 0;
 
 PIXI.settings.RENDER_OPTIONS.resolution = devicePixelRatio;
 PIXI.settings.RENDER_OPTIONS.autoDensity = true;
@@ -717,6 +717,13 @@ function getBaseAttributes() {
 	}
 	return [baseStr + levelAttributes, baseInt + levelAttributes, baseWill + levelAttributes, baseDex + levelAttributes];
 }
+const extraCanvas = document.createElement("canvas");
+function getTextWidth(text, font) {
+	const context = extraCanvas.getContext("2d");
+	context.font = font;
+	return context.measureText(text).width;
+}
+var detailsWindowBoxWidth = 170;
 function updateDetailsWindow() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (detailsMode && className != "none") {
@@ -728,6 +735,7 @@ function updateDetailsWindow() {
 			if (bName == "Strength" || (bName == "Intelligence" && aName != "Strength") || (bName == "Willpower" && aName != "Intelligence") || (bName == "Dexterity" && aName != "Willpower")) return 1;
 			return aName.localeCompare(bName);
 		});
+		detailsWindowBoxWidth = sortedParagonStatTotals.length > 9 ? 320 : 170;
 		function summarizeParagonStats(attributeMode = false) {
 			let outputHTML = "";
 			const [baseStr, baseInt, baseWill, baseDex] = getBaseAttributes();
@@ -740,11 +748,14 @@ function updateDetailsWindow() {
 				} else {
 					if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
 					if (statData.maxValue == 0) continue;
+					let outputText = "";
 					if (statData.maxValue > statData.minValue) {
-						outputHTML += `<div>${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}</div>`;
+						outputText = `${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}`;
 					} else {
-						outputHTML += `<div>${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}</div>`;
+						outputText = `${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}`;
 					}
+					if (detailsWindowBoxWidth < 320 && outputText.length > 20) detailsWindowBoxWidth = Math.max(detailsWindowBoxWidth, getTextWidth(outputText, $("#detailsWindowBox").css("font")));
+					outputHTML += `<div>${outputText}</div>`;
 				}
 			}
 			if (outputHTML.length > 0) {
@@ -755,14 +766,16 @@ function updateDetailsWindow() {
 		}
 		$("#detailsWindowContents").html(summarizeParagonStats(true) + summarizeParagonStats(false));
 		$("#detailsWindow").removeClass("disabled");
-		repositionDetailsWindow();
 		$("#detailsWindowBox").scrollTop(savedScrollPosition).on("scroll", resetFrameTimer);
+		repositionDetailsWindow();
 	} else {
 		$("#detailsWindow").addClass("disabled");
 		$("#detailsWindowContents").empty();
 	}
 }
 function repositionDetailsWindow(detailsLeft = null, detailsTop = null) {
+	$("#detailsWindowBox").width(Math.max(Math.min(detailsWindowBoxWidth + 30, curWidth * 0.25, 350), 180));
+
 	const zoomLevel = Number(readCookie("zoomLevel", 1));
 	const detailsWidth = $("#detailsWindow").outerWidth(true) * zoomLevel;
 	const detailsHeight = $("#detailsWindow").outerHeight(true) * zoomLevel;
@@ -976,7 +989,7 @@ function handleClassSelection(event, postHookFunction = null) {
 function handleGroupSelection(event) {
 	const newGroupName = $("#groupSelector option:selected").text();
 	const newGroupNode = pixiNodes.find(pixiNode => pixiNode.nodeName == newGroupName);
-	if (newGroupNode != undefined) pixiJS.stage.pivot.set(newGroupNode.x - oldWidth / pixiJS.stage.scale.x * 0.5, newGroupNode.y - oldHeight / pixiJS.stage.scale.y * 0.5);
+	if (newGroupNode != undefined) pixiJS.stage.pivot.set(newGroupNode.x - curWidth / pixiJS.stage.scale.x * 0.5, newGroupNode.y - curHeight / pixiJS.stage.scale.y * 0.5);
 }
 var oldSearchIdx = -1;
 var oldSearchText = "";
@@ -1045,7 +1058,7 @@ function handleSearchInput(event) {
 				[nodeX, nodeY] = [nodeX + nodeMatch.parent.x, nodeY + nodeMatch.parent.y];
 			}
 
-			pixiJS.stage.pivot.set(nodeX - oldWidth / pixiJS.stage.scale.x * 0.5, nodeY - oldHeight / pixiJS.stage.scale.y * 0.5);
+			pixiJS.stage.pivot.set(nodeX - curWidth / pixiJS.stage.scale.x * 0.5, nodeY - curHeight / pixiJS.stage.scale.y * 0.5);
 			drawTooltip(nodeMatch);
 		}
 	}
@@ -1510,7 +1523,7 @@ function handleParagonGlyphSocket(curNode) {
 	$("#modalSelect").select2({
 		dropdownParent: $("#modalDiv2"),
 		escapeMarkup: data => data,
-		templateResult: data => data.text.replaceAll("[br]", oldWidth < 1400 ? " " : "<br>"),
+		templateResult: data => data.text.replaceAll("[br]", curWidth < 1400 ? " " : "<br>"),
 		templateSelection: data => {
 			const selectionText1 = data.text.split(" — ");
 			const selectionText2 = selectionText1[1].split("[br]");
@@ -1703,7 +1716,7 @@ function handleEquipmentPanelButton(curNode) {
 	$("#modalSelect").select2({
 		dropdownParent: $("#modalDiv2"),
 		escapeMarkup: data => data,
-		templateResult: data => data.text.replaceAll("[br]", oldWidth < 1400 ? " " : "<br>"),
+		templateResult: data => data.text.replaceAll("[br]", curWidth < 1400 ? " " : "<br>"),
 		templateSelection: data => data.text.replaceAll("[br]", " ")
 	});
 	applyZoomLevel(); // hacky workaround for select2 transform bug
@@ -3965,8 +3978,8 @@ function rebuildCanvas() {
 	curRenderScale = 1;
 	newRenderScale = 1;
 
-	oldWidth = 0;
-	oldHeight = 0;
+	curWidth = 0;
+	curHeight = 0;
 
 	glyphRadiusAttributeTotals = {};
 	paragonStatTotals = {
@@ -3997,7 +4010,7 @@ function rebuildCanvas() {
 function resizeCanvas() {
 	$("#header, #footer").css("display", window.innerHeight < 400 ? "none" : "block");
 	let [newWidth, newHeight] = [window.innerWidth, window.innerHeight];
-	if (oldWidth != newWidth || oldHeight != newHeight) {
+	if (curWidth != newWidth || curHeight != newHeight) {
 		const offsetTop = $("#header").outerHeight(true);
 		const offsetBottom = $("#extraInfo").outerHeight(true) + $("#extraButtons1").outerHeight(true) + $("#extraButtons2").outerHeight(true) + $("#footer").outerHeight(true);
 
@@ -4007,10 +4020,10 @@ function resizeCanvas() {
 
 		for (let i = 0, n = pixiJS.stage.children.length; i < n; i++) {
 			const pixiChild = pixiJS.stage.children[i];
-			pixiChild.position.x = pixiChild.position.x - oldWidth * 0.5 + newWidth * 0.5;
-			pixiChild.position.y = pixiChild.position.y - oldHeight * 0.5 + newHeight * 0.5;
+			pixiChild.position.x = pixiChild.position.x - curWidth * 0.5 + newWidth * 0.5;
+			pixiChild.position.y = pixiChild.position.y - curHeight * 0.5 + newHeight * 0.5;
 		}
-		[oldWidth, oldHeight] = [newWidth, newHeight];
+		[curWidth, curHeight] = [newWidth, newHeight];
 
 		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 
@@ -4077,7 +4090,6 @@ $(document).ready(function() {
 		$(window).on("select2:open", e => $(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus()));
 	}
 
-	updateDetailsWindow();
 	try {
 		handleReloadButton();
 	} catch (e) {
