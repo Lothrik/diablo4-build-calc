@@ -113,7 +113,6 @@ h1, h2, h3 {
 }
 
 #detailsWindowTitle {
-	cursor: grab;
 	flex-grow: 1;
 	padding: 10px;
 	margin-right: -4px;
@@ -132,12 +131,8 @@ h1, h2, h3 {
 }
 
 #detailsWindowBox {
-	height: 23px;
-	min-height: 23px;
-	min-width: 178px;
 	overflow-y: auto;
 	white-space: pre-line;
-	resize: both;
 }
 
 #detailsWindowBox > * {

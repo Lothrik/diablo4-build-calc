@@ -284,9 +284,6 @@ var debugMode = false;
 var detailsMode = readCookie("detailsMode") == "false" ? false : true;
 var clampMode = readCookie("clampMode") == "true" ? true : false;
 
-var detailsWindowIsMoving = false;
-var detailsPreviousPosition = null;
-
 var touchTimer = null;
 var isTouching = false;
 var initialTouchDistance = 0;
@@ -675,14 +672,11 @@ function applyZoomLevel() {
 	if (window.innerWidth < 450 * zoomLevel && zoomLevel > 1) zoomLevel = Math.max(window.innerWidth / 450, 1);
 	if (isNaN(zoomLevel) || zoomLevel < 0.25 || zoomLevel > 4) zoomLevel = 1;
 
-	$("#detailsWindow").css({ "transform": `scale(${zoomLevel})`, "transform-origin": "left top" });
 	$("#extraFooter").css({ "transform": `scale(${Math.max(zoomLevel, 1)})`, "transform-origin": "center bottom" });
 	$("#modalBox .select2-container").width((window.innerWidth * 0.9 - 22));
 
 	const zoomLevelTooltip = Number(readCookie("zoomLevelTooltip", 1));
 	if (!isNaN(zoomLevel) && zoomLevel >= 0.25 && zoomLevel <= 4) pixiTooltipZoomLevel = zoomLevelTooltip;
-
-	repositionDetailsWindow();
 }
 function handleDetailsButton(event) {
 	detailsMode = !detailsMode;
@@ -754,46 +748,77 @@ function updateDetailsWindow() {
 			return "";
 		}
 		$("#detailsWindowContents").html(summarizeParagonStats(true) + summarizeParagonStats(false));
-		$("#detailsWindow").removeClass("disabled");
-		if ($("#detailsWindowBox").length > 0) {
-			$("#detailsWindowBox")
-				.css({
-					"width": readCookie("detailsWindowBoxWidth", ""),
-					"height": readCookie("detailsWindowBoxHeight", ""),
-					"min-height": Math.min(28 * (sortedParagonStatTotals.length - 4), 112) - 5
-				})
-				.scrollTop(savedScrollPosition)
-				.on("scroll", resetFrameTimer);
-			new ResizeObserver(detailsWindowBoxResizeEvent).observe($("#detailsWindowBox")[0]);
-		}
-		repositionDetailsWindow();
+
+		$("#detailsWindow")
+			.removeClass("disabled")
+			.scrollTop(savedScrollPosition)
+			.on("scroll", resetFrameTimer);
+
+		handleDetailsWindowEvent();
 	} else {
 		$("#detailsWindow").addClass("disabled");
 		$("#detailsWindowContents").empty();
 	}
 }
-function repositionDetailsWindow(detailsLeft = null, detailsTop = null) {
-	const zoomLevel = Number(readCookie("zoomLevel", 1));
+function handleDetailsWindowEvent(event, eventType) {
+	const [detailsWindow, detailsWindowBox] = [$("#detailsWindow"), $("#detailsWindowBox")];
 
-	detailsLeft = detailsLeft == null ? readCookie("detailsLeft", 0) : detailsLeft;
-	detailsTop = detailsTop == null ? readCookie("detailsTop", 0) : detailsTop;
+	let [detailsLeft, detailsTop] = [readCookie("detailsLeft", 0), readCookie("detailsTop", 0)];
+	let [detailsWidth, detailsHeight] = [readCookie("detailsWidth", 160), readCookie("detailsHeight", 160)];
+	if (eventType == "drag") {
+		[detailsLeft, detailsTop] = [event.rect.left, event.rect.top];
+		writeCookie("detailsLeft", detailsLeft);
+		writeCookie("detailsTop", detailsTop);
+	} else if (eventType == "resize") {
+		detailsWidth = Math.max(event.rect.width, parseFloat(detailsWindow.css("min-width")) || 0)
+		if (!detailsWindow.data("no-resize")) detailsHeight = Math.max(event.rect.height, parseFloat(detailsWindow.css("min-height")) || 0);
+		writeCookie("detailsWidth", detailsWidth);
+		if (!detailsWindow.data("no-resize")) writeCookie("detailsHeight", detailsHeight);
+	}
 
-	$("#detailsWindowBox").css("max-width", curWidth - detailsLeft - 22);
-	$("#detailsWindowBox").css("max-height", curHeight - detailsTop - 180);
+	const detailsWindowChildrenLength = detailsWindowBox.children().length;
+	const detailsWindowBoxMinHeight = Math.min(28 * detailsWindowChildrenLength, 112) - 5;
 
-	const detailsWidth = $("#detailsWindow").outerWidth(true) * zoomLevel;
-	const detailsHeight = $("#detailsWindow").outerHeight(true) * zoomLevel;
-
-	$("#detailsWindow").css({
-		"left": Math.max(Math.min(detailsLeft, curWidth - detailsWidth), 0),
-		"top": Math.max(Math.min(detailsTop, curHeight - detailsHeight), 0)
+	detailsWindowBox.css({
+		"min-height": Math.max(0, detailsWindowBoxMinHeight),
+		"max-height": curHeight - 182,
+		"height": Math.max(detailsHeight - 180, detailsWindowBoxMinHeight)
 	});
+
+	detailsWindow
+		.css({
+			"min-width": 200,
+			"min-height": detailsWindow.data("no-resize") ? "" : detailsWindowChildrenLength > 0 ? 180 + detailsWindowBoxMinHeight : "",
+			"max-width": curWidth - 2,
+			"max-height": curHeight - 2,
+			"width": detailsWindowChildrenLength > 0 ? detailsWidth : 160,
+			"height": detailsWindow.data("no-resize") ? "" : detailsWindowChildrenLength > 0 ? detailsHeight : 160
+		})
+		.css({
+			"left": Math.max(Math.min(detailsLeft, curWidth - detailsWindow.outerWidth(true)), 0),
+			"top": Math.max(Math.min(detailsTop, curHeight - detailsWindow.outerHeight(true)), 0)
+		});
+
+	resetFrameTimer();
 }
-function detailsWindowBoxResizeEvent(event) {
-	if (event[0].contentRect.width == 0 || event[0].contentRect.height == 0) return;
-	const detailsWindowBox = $("#detailsWindowBox");
-	writeCookie("detailsWindowBoxWidth", detailsWindowBox.outerWidth());
-	writeCookie("detailsWindowBoxHeight", detailsWindowBox.outerHeight());
+function handleDetailsWindowToggleButton(event) {
+	const wasHidden = $("#detailsWindowContents").css("display") == "none";
+	if (wasHidden) {
+		$("#detailsWindowHeader").css("border-bottom", "1px solid #fff");
+		$("#detailsWindowToggle").attr("src", "images/collapse.svg");
+		$("#detailsWindow").removeData("no-resize");
+	} else {
+		$("#detailsWindow").css({ "height": "", "min-height": "" });
+	}
+	$("#detailsWindowContents").slideToggle(250, () => {
+		if (wasHidden) {
+			handleDetailsWindowEvent();
+		} else {
+			$("#detailsWindow").data("no-resize", "true");
+			$("#detailsWindowHeader").css("border-bottom", "none");
+			$("#detailsWindowToggle").attr("src", "images/expand.svg");
+		}
+	});
 }
 function handleClampButton(event) {
 	clampMode = !clampMode;
@@ -803,7 +828,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-18";
+const localVersion = "0.9.0.41428-19";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -844,63 +869,6 @@ function handleIntervalEvent() {
 		// skip `redrawAllNodes` on high pixel density devices
 		if (devicePixelRatio < 2) redrawAllNodes(true);
 	}
-}
-function handleDocumentEvent(event) {
-	if (detailsWindowIsMoving) {
-		switch (event.type) {
-			case "mousemove":
-			case "touchmove":
-				let currentPosition;
-				if (event.type == "mousemove") {
-					currentPosition = [detailsPreviousPosition[0] - event.clientX, detailsPreviousPosition[1] - event.clientY];
-					detailsPreviousPosition = [event.clientX, event.clientY];
-				} else if (event.type == "touchmove") {
-					const touchEvent = event.originalEvent.touches[0];
-					currentPosition = [detailsPreviousPosition[0] - touchEvent.clientX, detailsPreviousPosition[1] - touchEvent.clientY];
-					detailsPreviousPosition = [touchEvent.clientX, touchEvent.clientY];
-				}
-
-				let curOffset = $("#detailsWindow").offset();
-				repositionDetailsWindow(curOffset.left - currentPosition[0], curOffset.top - currentPosition[1]);
-
-				curOffset = $("#detailsWindow").offset();
-				writeCookie("detailsLeft", curOffset.left);
-				writeCookie("detailsTop", curOffset.top);
-				break;
-			case "mouseup":
-			case "touchend":
-				detailsWindowIsMoving = false;
-				$("#detailsWindowTitle").css("cursor", "");
-				detailsPreviousPosition = null;
-				break;
-		}
-	}
-	resetFrameTimer();
-}
-function handleDetailsWindowTitleEvent(event) {
-	detailsWindowIsMoving = true;
-	$("#detailsWindowTitle").css("cursor", "grabbing");
-	if (event.type == "mousedown") {
-		detailsPreviousPosition = [event.clientX, event.clientY];
-	} else if (event.type == "touchstart") {
-		const touchEvent = event.originalEvent.touches[0];
-		detailsPreviousPosition = [touchEvent.clientX, touchEvent.clientY];
-	}
-}
-function handleDetailsWindowToggleButton(event) {
-	const wasHidden = $("#detailsWindowContents").css("display") == "none";
-	if (wasHidden) {
-		$("#detailsWindowHeader").css("border-bottom", "1px solid #fff");
-		$("#detailsWindowTitle").removeAttr("style");
-		$("#detailsWindowToggle").attr("src", "images/collapse.svg");
-	}
-	$("#detailsWindowContents").slideToggle(250, () => {
-		if (!wasHidden) {
-			$("#detailsWindowHeader").css("border-bottom", "none");
-			$("#detailsWindowTitle").css("text-align", "left");
-			$("#detailsWindowToggle").attr("src", "images/expand.svg");
-		}
-	});
 }
 function handleCanvasEvent(event) {
 	switch (event.type) {
@@ -4085,9 +4053,15 @@ $(document).ready(function() {
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup focus blur", handleSearchInput);
 
-	$("#detailsWindowTitle").on("mousedown touchstart", handleDetailsWindowTitleEvent);
+	interact("#detailsWindow")
+		.resizable({
+			edges: { left: true, right: true, bottom: true, top: true },
+			listeners: { move: (event) => handleDetailsWindowEvent(event, "resize") }
+		})
+		.draggable({
+			listeners: { move: (event) => handleDetailsWindowEvent(event, "drag") }
+		});
 	$("#detailsWindowToggle").on("click", handleDetailsWindowToggleButton);
-	$(window).on("mousemove touchmove mouseup touchend", handleDocumentEvent);
 
 	$("#canvasContainer").append(pixiJS.renderer.view);
 	$("#canvasContainer").on("wheel mousedown touchstart mousemove touchmove mouseenter mouseleave mouseup touchend contextmenu", handleCanvasEvent);
