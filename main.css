@@ -132,14 +132,27 @@ h1, h2, h3 {
 }
 
 #detailsWindowBox {
-	overflow-y: auto;
+	overflow: auto;
 	white-space: pre-line;
 }
 
 #detailsWindowBox > * {
 	text-align: justify;
 	text-align-last: center;
+	margin: auto;
 	padding: 0 5px 5px;
+}
+
+#detailsWindowBox tr td {
+	text-align-last: left;
+}
+
+#detailsWindowBox tr td:nth-child(1) {
+	text-align-last: right;
+}
+
+#detailsWindowBox tr td:nth-child(3) {
+	white-space: pre;
 }
 
 #detailsWindowBox > :last-child {

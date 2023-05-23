@@ -724,6 +724,7 @@ function updateDetailsWindow() {
 		});
 		function summarizeParagonStats(attributeMode = false) {
 			let outputHTML = "";
+			let alternateHTML = "";
 			const [baseStr, baseInt, baseWill, baseDex] = getBaseAttributes();
 			for (const statName of sortedParagonStatTotals) {
 				const statData = paragonStatTotals[statName];
@@ -734,16 +735,27 @@ function updateDetailsWindow() {
 				} else {
 					if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
 					if (statData.maxValue == 0) continue;
+
+					let prefixSplit = [statData.prefix.slice(0, -1), statData.prefix.slice(-1)];
+					if (prefixSplit[1] != "+") prefixSplit = [statData.prefix, ""];
+
+					let suffixSplit = [statData.suffix.slice(0, 1), statData.suffix.slice(1)];
+					if (suffixSplit[0] != "%") suffixSplit = ["", statData.suffix];
+
+					const minValue = Math.round(statData.minValue * 10) / 10;
 					if (statData.maxValue > statData.minValue) {
-						outputHTML += `<div>${statData.prefix}[${Math.round(statData.minValue * 10) / 10} - ${Math.round(statData.maxValue * 10) / 10}]${statData.suffix}${statData.name}</div>`;
+						const maxValue = Math.round(statData.maxValue * 10) / 10;
+						alternateHTML += `<tr><td>${prefixSplit[0]}</td><td>${prefixSplit[1]}</td><td>[${minValue} - ${maxValue}]</td><td>${suffixSplit[0]}</td><td>${suffixSplit[1]}${statData.name}</td></tr>`;
+						outputHTML += `<div>${statData.prefix}[${minValue} - ${maxValue}]${statData.suffix}${statData.name}</div>`;
 					} else {
-						outputHTML += `<div>${statData.prefix}${Math.round(statData.minValue * 10) / 10}${statData.suffix}${statData.name}</div>`;
+						alternateHTML += `<tr><td>${prefixSplit[0]}</td><td>${prefixSplit[1]}</td><td>${minValue}</td><td>${suffixSplit[0]}</td><td>${suffixSplit[1]}${statData.name}</td></tr>`;
+						outputHTML += `<div>${statData.prefix}${minValue}${statData.suffix}${statData.name}</div>`;
 					}
 				}
 			}
 			if (outputHTML.length > 0) {
 				if (attributeMode) return `<div title="[Base + Level + Paragon]">${outputHTML}</div>`;
-				return `<hr><div id="detailsWindowBox">${outputHTML}</div>`;
+				return `<hr><div id="detailsWindowBox">${outputHTML}<table>${alternateHTML}</table></div>`;
 			}
 			return "";
 		}
@@ -799,6 +811,14 @@ function handleDetailsWindowEvent(event, eventType) {
 			"top": Math.max(Math.min(detailsTop, curHeight - detailsWindow.outerHeight(true)), 0)
 		});
 
+	if (detailsWindow.outerWidth(true) > 500) {
+		$("#detailsWindowBox > div").css("display", "none");
+		$("#detailsWindowBox > table").css("display", "");
+	} else {
+		$("#detailsWindowBox > table").css("display", "none");
+		$("#detailsWindowBox > div").css("display", "");
+	}
+
 	resetFrameTimer();
 }
 function handleDetailsWindowToggleButton(event) {
@@ -828,7 +848,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-19";
+const localVersion = "0.9.0.41428-20";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
