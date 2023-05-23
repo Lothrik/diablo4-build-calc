@@ -27,6 +27,13 @@ uint HashFunctionExample(string input)
 }
 ```
 
+## How do I run a copy of this site locally?
+Launch any web server with ``diablo4-build-calc`` as the root directory:
+```bat
+cd ./diablo4-build-calc/
+python3 -m http.server 8000
+```
+
 ## Can I give you money for this?
 You're free to do whatever you want, I do have a [Patreon](https://www.patreon.com/lothrik). I'm not selling you anything though.
 
