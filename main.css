@@ -95,6 +95,7 @@ h1, h2, h3 {
 	border: 1px solid #fff;
 	min-width: 200px;
 	white-space: nowrap;
+	touch-action: none;
 	z-index: 6!important;
 }
 

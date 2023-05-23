@@ -4059,10 +4059,10 @@ $(document).ready(function() {
 	interact("#detailsWindow")
 		.resizable({
 			edges: { left: true, right: true, bottom: true, top: true },
-			listeners: { move: (event) => handleDetailsWindowEvent(event, "resize") }
+			listeners: { move: e => handleDetailsWindowEvent(e, "resize") }
 		})
 		.draggable({
-			listeners: { move: (event) => handleDetailsWindowEvent(event, "drag") }
+			listeners: { move: e => handleDetailsWindowEvent(e, "drag") }
 		});
 	$("#detailsWindowToggle").on("click", handleDetailsWindowToggleButton);
 
