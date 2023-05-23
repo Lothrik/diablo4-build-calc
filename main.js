@@ -4062,7 +4062,8 @@ $(document).ready(function() {
 			listeners: { move: e => handleDetailsWindowEvent(e, "resize") }
 		})
 		.draggable({
-			listeners: { move: e => handleDetailsWindowEvent(e, "drag") }
+			listeners: { move: e => handleDetailsWindowEvent(e, "drag") },
+			ignoreFrom: "#detailsWindowBox"
 		});
 	$("#detailsWindowToggle").on("click", handleDetailsWindowToggleButton);
 
