@@ -4007,6 +4007,7 @@ function resizeCanvas() {
 		resetFrameTimer();
 		applyZoomLevel();
 		resizeSearchInput();
+		handleDetailsWindowEvent();
 	}
 }
 function readCookie(name, fallback = "") {
