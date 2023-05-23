@@ -3550,7 +3550,7 @@ function drawTooltip(curNode, forceDraw) {
 				if (captureText.includes("thresholdRequirements") && curNode.nodeData.has("thresholdRequirements")) {
 					captureText = curNode.nodeData.get("thresholdRequirements");
 					if (typeof captureText != "string") captureText = captureText[classText];
-					if (typeof captureText != "string") captureText = captureText.join("; or ");
+					if (typeof captureText != "string") captureText = captureText.join("\n");
 					if (nodeType == "Socket") {
 						captureText = captureText.replace(/(\d+ Strength)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Strength"] * 2) / 2} Strength | $1`);
 						captureText = captureText.replace(/(\d+ Intelligence)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 2) / 2} Intelligence | $1`);
@@ -3572,10 +3572,15 @@ function drawTooltip(curNode, forceDraw) {
 						} else {
 							captureText = String(eval(captureText));
 						}
+						const [baseStr, baseInt, baseWill, baseDex] = getBaseAttributes();
+						captureText = captureText.replace(/(\d+ Strength)/gi, `${baseStr + Math.floor(paragonStatTotals["Strength"].minValue)} Strength | $1`);
+						captureText = captureText.replace(/(\d+ Intelligence)/gi, `${baseInt + Math.floor(paragonStatTotals["Intelligence"].minValue)} Intelligence | $1`);
+						captureText = captureText.replace(/(\d+ Willpower)/gi, `${baseWill + Math.floor(paragonStatTotals["Willpower"].minValue)} Willpower | $1`);
+						captureText = captureText.replace(/(\d+ Dexterity)/gi, `${baseDex + Math.floor(paragonStatTotals["Dexterity"].minValue)} Dexterity | $1`);
 					}
 				}
 				let outputText = captureText.split("/");
-				return outputText[allocatedPoints > 0 ? Math.min(allocatedPoints, outputText.length) - 1 : 0].replace("|", "/");
+				return outputText[allocatedPoints > 0 ? Math.min(allocatedPoints, outputText.length) - 1 : 0].replaceAll("|", "/");
 			});
 		}
 	}
