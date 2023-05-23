@@ -774,8 +774,6 @@ function updateDetailsWindow() {
 }
 function repositionDetailsWindow(detailsLeft = null, detailsTop = null) {
 	const zoomLevel = Number(readCookie("zoomLevel", 1));
-	const detailsWidth = $("#detailsWindow").outerWidth(true) * zoomLevel;
-	const detailsHeight = $("#detailsWindow").outerHeight(true) * zoomLevel;
 
 	detailsLeft = detailsLeft == null ? readCookie("detailsLeft", 0) : detailsLeft;
 	detailsTop = detailsTop == null ? readCookie("detailsTop", 0) : detailsTop;
@@ -783,9 +781,12 @@ function repositionDetailsWindow(detailsLeft = null, detailsTop = null) {
 	$("#detailsWindowBox").css("max-width", curWidth - detailsLeft - 22);
 	$("#detailsWindowBox").css("max-height", curHeight - detailsTop - 180);
 
+	const detailsWidth = $("#detailsWindow").outerWidth(true) * zoomLevel;
+	const detailsHeight = $("#detailsWindow").outerHeight(true) * zoomLevel;
+
 	$("#detailsWindow").css({
-		"left": Math.max(Math.min(detailsLeft, $("body").width() - detailsWidth), 0),
-		"top": Math.max(Math.min(detailsTop, $("body").height() - detailsHeight), 0)
+		"left": Math.max(Math.min(detailsLeft, curWidth - detailsWidth), 0),
+		"top": Math.max(Math.min(detailsTop, curHeight - detailsHeight), 0)
 	});
 }
 function detailsWindowBoxResizeEvent(event) {
