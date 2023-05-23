@@ -901,6 +901,9 @@ function handleCanvasEvent(event) {
 			touchTimer = null;
 			isTouching = false;
 			return;
+		case "contextmenu":
+			event.preventDefault();
+			return;
 	}
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
 		if (event.type == "wheel") {
@@ -933,7 +936,6 @@ function handleCanvasEvent(event) {
 		}
 	}
 	resetFrameTimer();
-	event.preventDefault();
 }
 function handleClassSelection(event, postHookFunction = null) {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
