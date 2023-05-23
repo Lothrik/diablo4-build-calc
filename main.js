@@ -4094,6 +4094,12 @@ $(document).ready(function() {
 	if (window.matchMedia("(any-pointer:fine)").matches) {
 		$(window).on("select2:open", e => $(".select2-search__field[aria-controls='select2-" + e.target.id + "-results']").each((key, value) => value.focus()));
 	}
+	$(window).on("select2:open", e => {
+		const container = $(e.target).parent();
+		const position = container.offset().top;
+		const availableHeight = $(window).height() - position - container.outerHeight();
+		$(".select2-results__options").css("max-height", availableHeight - 80);
+	});
 
 	try {
 		handleReloadButton();
