@@ -2313,10 +2313,14 @@ function handlePlusButton(curNode) {
 		let minUnusedPoints = 0;
 		let isUltimateSkill = false;
 		if (curNode.groupName == KEY_PASSIVE) {
-			minUnusedPoints = -1;
+			const allocatedKeyPassives = pixiNodes.filter(pixiNode => pixiNode.groupName == KEY_PASSIVE && pixiNode.nodeData.get("allocatedPoints") > 0);
+			minUnusedPoints = -allocatedKeyPassives.length;
 		} else if (curNode.groupName == ULTIMATE) {
 			isUltimateSkill = curNode.nodeDesc.includes(COOLDOWN_PREFIX);
-			if (isUltimateSkill) minUnusedPoints = -1;
+			if (isUltimateSkill) {
+				const allocatedUltimateSkills = pixiNodes.filter(pixiNode => pixiNode.groupName == ULTIMATE && pixiNode.nodeData.get("allocatedPoints") > 0 && pixiNode.nodeDesc.includes(COOLDOWN_PREFIX));
+				minUnusedPoints = -allocatedUltimateSkills.length;
+			}
 		} else if (baseSkill != undefined) {
 			// this may need to change in the future if branching skill modifiers are added
 			const modifierCount = pixiNodes.filter(pixiNode => {
