@@ -155,7 +155,7 @@ h1, h2, h3 {
 	white-space: pre;
 }
 
-#detailsWindowBox > :last-child {
+#detailsWindowBox > div:last-of-type, #detailsWindowBox > table:last-of-type {
 	padding-bottom: 0;
 }
 
