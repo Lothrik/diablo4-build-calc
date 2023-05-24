@@ -3326,6 +3326,8 @@ function drawAllNodes() {
 		drawNode(zoneName, lilithAltarZoneNode, ALTARS_OF_LILITH);
 	}
 
+	$("#groupSelector").append(`<option value="${ALTARS_OF_LILITH.replace(/\s/g, "").toLowerCase()}">${ALTARS_OF_LILITH}</option>`);
+
 	const equipmentPanelX = -4000;
 	const equipmentPanelY = 0;
 
