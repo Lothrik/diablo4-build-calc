@@ -3255,7 +3255,7 @@ Every 15 seconds, a Blizzard forms over you and follows you for 6 seconds.`,
 },
 		id: 82,
 		maxPoints: 5,
-		values: [ "120" ],
+		values: [ "{120/132/144/156/168/180/192/204/216/228}" ],
 		x: 300.64,
 		y: -339.596
 	},
