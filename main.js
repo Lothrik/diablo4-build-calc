@@ -686,6 +686,7 @@ function handleDetailsButton(event) {
 	updateDetailsWindow();
 }
 function getBaseAttributes() {
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	let [baseStr, baseInt, baseWill, baseDex] = [7, 7, 7, 7];
 	let levelAttributes = Number($("#charLevel").text()) - 1;
 	switch (className) {
@@ -727,6 +728,16 @@ function updateDetailsWindow() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	if (detailsMode && className != "none") {
 		const savedScrollPosition = $("#detailsWindowBox").scrollTop();
+
+		if (!("+{#} Armor" in paragonStatTotals)) paragonStatTotals["+{#} Armor"] = { name: "Armor", prefix: "+", suffix: " ", minValue: 0, maxValue: 0 };
+		if (!("+{#}% Dodge Chance" in paragonStatTotals)) paragonStatTotals["+{#}% Dodge Chance"] = { name: "Dodge Chance", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("+{#}% Critical Strike Chance" in paragonStatTotals)) paragonStatTotals["+{#}% Critical Strike Chance"] = { name: "Critical Strike Chance", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("+{#}% Healing Received" in paragonStatTotals)) paragonStatTotals["+{#}% Healing Received"] = { name: "Healing Received", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("+{#}% Overpower Damage" in paragonStatTotals)) paragonStatTotals["+{#}% Overpower Damage"] = { name: "Overpower Damage", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("{#}% Resistance to All Elements" in paragonStatTotals)) paragonStatTotals["{#}% Resistance to All Elements"] = { name: "Resistance to All Elements", prefix: "", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("+{#}% Resource Generation" in paragonStatTotals)) paragonStatTotals["+{#}% Resource Generation"] = { name: "Resource Generation", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("+{#}% Skill Damage" in paragonStatTotals)) paragonStatTotals["+{#}% Skill Damage"] = { name: "Skill Damage", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
+
 		const sortedParagonStatTotals = Object.keys(paragonStatTotals).sort((a, b) => {
 			const aName = "name" in paragonStatTotals[a] ? paragonStatTotals[a].name : a;
 			const bName = "name" in paragonStatTotals[b] ? paragonStatTotals[b].name : b;
@@ -734,19 +745,71 @@ function updateDetailsWindow() {
 			if (bName == "Strength" || (bName == "Intelligence" && aName != "Strength") || (bName == "Willpower" && aName != "Intelligence") || (bName == "Dexterity" && aName != "Willpower")) return 1;
 			return aName.localeCompare(bName);
 		});
+
+		let [curStr, curInt, curWill, curDex] = getBaseAttributes();
+
 		function summarizeParagonStats(attributeMode = false) {
 			let outputHTML = "";
 			let alternateHTML = "";
-			const [baseStr, baseInt, baseWill, baseDex] = getBaseAttributes();
 			for (const statName of sortedParagonStatTotals) {
 				const statData = paragonStatTotals[statName];
+				if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName) != attributeMode) continue;
 				if (attributeMode) {
-					if (!["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
-					const baseAttribute = statName == "Strength" ? baseStr : statName == "Intelligence" ? baseInt : statName == "Willpower" ? baseWill : statName == "Dexterity" ? baseDex : 0;
-					outputHTML += `<div>${baseAttribute + Math.floor(statData.minValue)} ${statName}</div>`;
+					if (statName == "Strength") {
+						curStr += Math.floor(statData.minValue);
+						outputHTML += `<div>${curStr} ${statName}</div>`;
+					} else if (statName == "Intelligence") {
+						curInt += Math.floor(statData.minValue);
+						outputHTML += `<div>${curInt} ${statName}</div>`;
+					} else if (statName == "Willpower") {
+						curWill += Math.floor(statData.minValue);
+						outputHTML += `<div>${curWill} ${statName}</div>`;
+					} else {
+						curDex += Math.floor(statData.minValue);
+						outputHTML += `<div>${curDex} ${statName}</div>`;
+					}
 				} else {
-					if (["Strength", "Intelligence", "Willpower", "Dexterity"].includes(statName)) continue;
-					if (statData.maxValue == 0) continue;
+					let [minValue, maxValue] = [statData.minValue, statData.maxValue];
+
+					if (statData.name == "Armor") {
+						[minValue, maxValue] = [minValue + curStr, maxValue + curStr];
+					} else if (statData.name == "Dodge Chance") {
+						[minValue, maxValue] = [minValue + curDex * 0.025, maxValue + curDex * 0.025];
+					} else if (statData.name == "Critical Strike Chance") {
+						if (["barbarian", "druid", "necromancer", "sorcerer"].includes(className)) {
+							[minValue, maxValue] = [minValue + curDex * 0.02, maxValue + curDex * 0.02];
+						} else if (className == "rogue") {
+							[minValue, maxValue] = [minValue + curInt * 0.02, maxValue + curInt * 0.02];
+						}
+					} else if (statData.name == "Healing Received") {
+						[minValue, maxValue] = [minValue + curWill * 0.1, maxValue + curWill * 0.1];
+					} else if (statData.name == "Overpower Damage") {
+						[minValue, maxValue] = [minValue + curWill * 0.25, maxValue + curWill * 0.25];
+					} else if (statData.name == "Resistance to All Elements") {
+						[minValue, maxValue] = [minValue + curInt * 0.05, maxValue + curInt * 0.05];
+					} else if (statData.name == "Resource Generation") {
+						if (["barbarian", "necromancer", "sorcerer"].includes(className)) {
+							[minValue, maxValue] = [minValue + curWill * 0.1, maxValue + curWill * 0.1];
+						} else if (className == "druid") {
+							[minValue, maxValue] = [minValue + curInt * 0.1, maxValue + curInt * 0.1];
+						} else if (className == "rogue") {
+							[minValue, maxValue] = [minValue + curStr * 0.1, maxValue + curStr * 0.1];
+						}
+					} else if (statData.name == "Skill Damage") {
+						if (className == "barbarian") {
+							[minValue, maxValue] = [minValue + curStr * 0.1, maxValue + curStr * 0.1];
+						} else if (["necromancer", "sorcerer"].includes(className)) {
+							[minValue, maxValue] = [minValue + curInt * 0.1, maxValue + curInt * 0.1];
+						} else if (className == "druid") {
+							[minValue, maxValue] = [minValue + curWill * 0.1, maxValue + curWill * 0.1];
+						} else if (className == "rogue") {
+							[minValue, maxValue] = [minValue + curDex * 0.1, maxValue + curDex * 0.1];
+						}
+					}
+
+					[minValue, maxValue] = [Math.round(minValue * 10) / 10, Math.round(maxValue * 10) / 10];
+
+					if (maxValue == 0) continue;
 
 					let prefixSplit = [statData.prefix.slice(0, -1), statData.prefix.slice(-1)];
 					if (prefixSplit[1] != "+") prefixSplit = [statData.prefix, ""];
@@ -754,9 +817,7 @@ function updateDetailsWindow() {
 					let suffixSplit = [statData.suffix.slice(0, 1), statData.suffix.slice(1)];
 					if (suffixSplit[0] != "%") suffixSplit = ["", statData.suffix];
 
-					const minValue = Math.round(statData.minValue * 10) / 10;
 					if (statData.maxValue > statData.minValue) {
-						const maxValue = Math.round(statData.maxValue * 10) / 10;
 						alternateHTML += `<tr><td>${prefixSplit[0]}</td><td>${prefixSplit[1]}</td><td>[${minValue} - ${maxValue}]</td><td>${suffixSplit[0]}</td><td>${suffixSplit[1]}${statData.name}</td></tr>`;
 						outputHTML += `<div>${statData.prefix}[${minValue} - ${maxValue}]${statData.suffix}${statData.name}</div>`;
 					} else {
@@ -766,7 +827,7 @@ function updateDetailsWindow() {
 				}
 			}
 			if (outputHTML.length > 0) {
-				if (attributeMode) return `<div title="[Base + Level + Altars + Paragon]">${outputHTML}</div>`;
+				if (attributeMode) return `${outputHTML}`;
 				return `<hr><div id="detailsWindowBox">${outputHTML}<table>${alternateHTML}</table></div>`;
 			}
 			return "";
@@ -805,18 +866,18 @@ function handleDetailsWindowEvent(event, eventType) {
 
 	detailsWindowBox.css({
 		"min-height": Math.max(0, detailsWindowBoxMinHeight),
-		"max-height": curHeight - 182,
-		"height": Math.max(detailsHeight - 180, detailsWindowBoxMinHeight)
+		"max-height": curHeight - 202,
+		"height": Math.max(detailsHeight - 198, detailsWindowBoxMinHeight)
 	});
 
 	detailsWindow
 		.css({
 			"min-width": 200,
-			"min-height": detailsWindow.data("no-resize") ? "" : detailsWindowChildrenLength > 0 ? 180 + detailsWindowBoxMinHeight : "",
+			"min-height": detailsWindow.data("no-resize") ? "" : detailsWindowChildrenLength > 0 ? 195 + detailsWindowBoxMinHeight : 170,
 			"max-width": curWidth - 2,
 			"max-height": curHeight - 2,
-			"width": detailsWindowChildrenLength > 0 ? detailsWidth : 160,
-			"height": detailsWindow.data("no-resize") ? "" : detailsWindowChildrenLength > 0 ? detailsHeight : 160
+			"width": detailsWindowChildrenLength > 0 ? detailsWidth : 200,
+			"height": detailsWindow.data("no-resize") ? "" : detailsWindowChildrenLength > 0 ? detailsHeight : 170
 		})
 		.css({
 			"left": Math.max(Math.min(detailsLeft, curWidth - detailsWindow.outerWidth(true)), 0),
@@ -860,7 +921,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-22";
+const localVersion = "0.9.0.41428-23";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {

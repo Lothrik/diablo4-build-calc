@@ -93,7 +93,6 @@ h1, h2, h3 {
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 1px solid #fff;
-	min-width: 200px;
 	white-space: nowrap;
 	touch-action: none;
 	z-index: 6!important;
@@ -131,32 +130,36 @@ h1, h2, h3 {
 	user-select: text;
 }
 
+#detailsWindowContents div:not(#detailsWindowBox) {
+	width: fit-content;
+}
+
 #detailsWindowBox {
 	overflow: auto;
 	white-space: pre-line;
 }
 
-#detailsWindowBox > * {
+#detailsWindowContents > div, #detailsWindowBox > * {
 	text-align: justify;
 	text-align-last: center;
 	margin: auto;
 	padding: 0 5px 5px;
 }
 
-#detailsWindowBox tr td {
+#detailsWindowContents > div:nth-of-type(4), #detailsWindowBox > *:last-of-type {
+	padding-bottom: 0;
+}
+
+#detailsWindowBox td {
 	text-align-last: left;
 }
 
-#detailsWindowBox tr td:nth-child(1) {
+#detailsWindowBox td:nth-child(1) {
 	text-align-last: right;
 }
 
-#detailsWindowBox tr td:nth-child(3) {
+#detailsWindowBox td:nth-child(3) {
 	white-space: pre;
-}
-
-#detailsWindowBox > div:last-of-type, #detailsWindowBox > table:last-of-type {
-	padding-bottom: 0;
 }
 
 #canvasContainer {
@@ -528,4 +531,10 @@ button:active {
 }
 .select2-dropdown--above {
 	border-bottom: none!important;
+}
+
+.tippy-box {
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 1px solid #fff;
+	font-size: 28px;
 }
