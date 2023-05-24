@@ -172,6 +172,7 @@ const ASSIGN_INDEX_LABEL_TEXT = "Assign Index";
 const RESET_BOARD_LABEL_TEXT = "Reset Board";
 const EQUIPMENT_PANEL_PROMPT_HEADER_PREFIX = "Please select a legendary aspect or unique item to equip in your ";
 const EQUIPMENT_PANEL_PROMPT_HEADER_SUFFIX = " slot:";
+const ALTARS_OF_LILITH = "Altars of Lilith";
 const EQUIPMENT_PANEL = "Equipment Panel";
 const EQUIPMENT_PANEL_ITEM_DESC = "Click to see a list of legendary aspects and unique items.";
 const CODEX_OF_POWER = "Codex of Power";
@@ -709,6 +710,17 @@ function getBaseAttributes() {
 			baseWill = 8;
 			break;
 	}
+	const altarNodes = pixiNodes.filter(pixiNode => pixiNode.groupName == ALTARS_OF_LILITH);
+	for (const altarNode of altarNodes) {
+		const nodeData = altarNode.nodeData;
+		if (nodeData.get("allocatedPoints") == 0) continue;
+		const altarData = nodeData.get("altarData");
+
+		baseStr += altarData.strength;
+		baseInt += altarData.intelligence;
+		baseWill += altarData.willpower;
+		baseDex += altarData.dexterity;
+	}
 	return [baseStr + levelAttributes, baseInt + levelAttributes, baseWill + levelAttributes, baseDex + levelAttributes];
 }
 function updateDetailsWindow() {
@@ -754,7 +766,7 @@ function updateDetailsWindow() {
 				}
 			}
 			if (outputHTML.length > 0) {
-				if (attributeMode) return `<div title="[Base + Level + Paragon]">${outputHTML}</div>`;
+				if (attributeMode) return `<div title="[Base + Level + Altars + Paragon]">${outputHTML}</div>`;
 				return `<hr><div id="detailsWindowBox">${outputHTML}<table>${alternateHTML}</table></div>`;
 			}
 			return "";
@@ -848,7 +860,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-21";
+const localVersion = "0.9.0.41428-22";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1252,7 +1264,7 @@ function handleReloadButton() {
 						paragonNodeValue = 0;
 					}
 					pixiAllocatedParagonPoints += (newPoints - allocatedPoints) * paragonNodeValue;
-				} else if (![CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+				} else if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
 					pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 				}
 				updateNodePoints(curNode, newPoints);
@@ -1863,9 +1875,7 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	}
 }
 function canAllocate(curNode) {
-	if ([ULTIMATE, KEY_PASSIVE, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
-		return true;
-	} else if (curNode.groupName == PARAGON_BOARD) {
+	if (curNode.groupName == PARAGON_BOARD) {
 		let paragonNodeValue = 1;
 		if (curNode.nodeName == "Board Attachment Gate") {
 			paragonNodeValue = 0.5;
@@ -2185,7 +2195,7 @@ function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	if (allocatedPoints == 0) {
 		handlePlusButton(curNode);
-		if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
 			const exclusiveNodes = curNode.nodeData.get("exclusiveNodes");
 			if (exclusiveNodes != undefined) {
 				let allocatedBoons = [];
@@ -2211,11 +2221,12 @@ function handleToggleButton(curNode) {
 	} else {
 		handleMinusButton(curNode);
 	}
+	if (curNode.groupName == ALTARS_OF_LILITH) updateDetailsWindow();
 }
 function handlePlusButton(curNode) {
 	if (!canAllocate(curNode)) return;
 
-	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
@@ -2311,7 +2322,7 @@ function handlePlusButton(curNode) {
 	}
 }
 function handleMinusButton(curNode) {
-	if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(curNode.groupName)) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.max(allocatedPoints - 1, 0);
@@ -2657,7 +2668,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeText.anchor.set(0.5);
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName) && maxPoints > 1) {
+	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(groupName) && maxPoints > 1) {
 		nodeText2 = updateExistingNode ? pixiNodes[nodeIndex].children[2] : new PIXI.Text();
 		nodeText2.text = allocatedPoints + "/" + maxPoints;
 		nodeText2.style = {
@@ -2746,7 +2757,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeBorder.clear();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
-	if (([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
+	if (([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
 		let _lineStyleThickSquare = { ...lineStyleThickSquare };
 		if (searchQueryMatch) {
 			_lineStyleThickSquare.color = searchQueryMatchColor;
@@ -2811,7 +2822,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	/*
-	if (groupName != undefined && ![PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD].includes(groupName)) {
+	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(groupName)) {
 		let nodeImage;
 		if (shapeType == "circle") {
 			//nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_CIRCLE_ACTIVE : NODE_CIRCLE_INACTIVE);
@@ -2949,7 +2960,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	if (!updateExistingNode) {
-		if ([PARAGON_BOARD, CODEX_OF_POWER, SPIRIT_BOONS, BOOK_OF_THE_DEAD, undefined].includes(groupName) || maxPoints <= 1) {
+		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER, undefined].includes(groupName) || maxPoints <= 1) {
 			node.addChild(nodeContainer, nodeText, nodeBorder);
 		} else {
 			node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
@@ -3274,6 +3285,45 @@ function drawAllNodes() {
 			sortedIndex++;
 		}
 		$("#groupSelector").append(`<option value="${PARAGON_BOARD.replace(/\s/g, "").toLowerCase()}">${PARAGON_BOARD}</option>`);
+	}
+
+	const lilithAltarX = -4000;
+	const lilithAltarY = -300;
+
+	const lilithAltarNode = new Map([
+		["colorOverride", textColor],
+		["requiredPoints", 0],
+		["widthOverride", 1750],
+		["shapeSize", 1],
+		["shapeType", "rectangle"],
+		["x", lilithAltarX],
+		["y", lilithAltarY]
+	]);
+
+	drawNode(ALTARS_OF_LILITH, lilithAltarNode);
+
+	const lilithAltarZoneData = {
+		"Dry Steppes": { id: 0, strength: 12, intelligence: 18, willpower: 16, dexterity: 12 },
+		"Fractured Peaks": { id: 1, strength: 12, intelligence: 12, willpower: 12, dexterity: 12 },
+		"Hawezar": { id: 2, strength: 12, intelligence: 12, willpower: 12, dexterity: 12 },
+		"Kehjistan": { id: 3, strength: 12, intelligence: 12, willpower: 12, dexterity: 14 },
+		"Scosglen": { id: 4, strength: 20, intelligence: 14, willpower: 16, dexterity: 18 }
+	};
+
+	for (const [zoneName, zoneData] of Object.entries(lilithAltarZoneData)) {
+		const lilithAltarZoneNode = new Map([
+			["allocatedPoints", 0],
+			["altarData", zoneData],
+			["description", `+${zoneData.strength} Strength\n+${zoneData.intelligence} Intelligence\n+${zoneData.willpower} Willpower\n+${zoneData.dexterity} Dexterity`],
+			["id", `altar-${zoneData.id}`],
+			["maxPoints", 1],
+			["widthOverride", 305],
+			["shapeSize", 1],
+			["shapeType", "rectangle"],
+			["x", lilithAltarX + 360 * (zoneData.id - 2)],
+			["y", lilithAltarY + 150]
+		]);
+		drawNode(zoneName, lilithAltarZoneNode, ALTARS_OF_LILITH);
 	}
 
 	const equipmentPanelX = -4000;
@@ -3941,6 +3991,17 @@ function convertNodeId(nodeData, groupName, decodeBase = false) {
 			if (!decodeBase) return nodeData;
 			const codexId = convertBase(nodeData.slice(1), 62, 10);
 			return `codex-${codexId}`;
+		}
+	} else if (groupName == ALTARS_OF_LILITH) {
+		if (nodeData.includes("altar")) {
+			if (decodeBase) return nodeData;
+			const altarArray = nodeData.split("-");
+			const altarId = convertBase(altarArray[1], 10, 62);
+			return `a${altarId}`;
+		} else {
+			if (!decodeBase) return nodeData;
+			const altarId = convertBase(nodeData.slice(1), 62, 10);
+			return `altar-${altarId}`;
 		}
 	} else {
 		return nodeData;
