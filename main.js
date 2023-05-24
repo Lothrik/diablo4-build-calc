@@ -2167,7 +2167,7 @@ function updateParagonStatTotals(curNode, diffPoints, outputData = [paragonStatT
 		const _glyphMultiplier = glyphMultiplier * (["Strength", "Intelligence", "Willpower", "Dexterity"].some(element => descLine.includes(element)) ? 1 : glyphMultiplierSpecial);
 		const statValue = Math.round(parseFloat(descMatch[2]) * _glyphMultiplier * 2) / 2;
 
-		let statName = descMatch[4].split(" if requirements met:")[0];
+		let statName = descMatch[4].split(" if requirements met:")[0].replace("increased ", "").replace("damage", "Damage");
 		let statPrefix = descMatch[1];
 		let statSuffix = descMatch[3];
 
