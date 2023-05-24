@@ -834,18 +834,16 @@ function updateDetailsWindow() {
 		}
 		$("#detailsWindowContents").html(summarizeParagonStats(true) + summarizeParagonStats(false));
 
-		$("#detailsWindow")
-			.removeClass("disabled")
-			.scrollTop(savedScrollPosition)
-			.on("scroll", resetFrameTimer);
+		$("#detailsWindow").removeClass("disabled");
+		$("#detailsWindowBox").on("scroll", resetFrameTimer);
 
-		handleDetailsWindowEvent();
+		handleDetailsWindowEvent(null, null, savedScrollPosition);
 	} else {
 		$("#detailsWindow").addClass("disabled");
 		$("#detailsWindowContents").empty();
 	}
 }
-function handleDetailsWindowEvent(event, eventType) {
+function handleDetailsWindowEvent(event, eventType, savedScrollPosition) {
 	const [detailsWindow, detailsWindowBox] = [$("#detailsWindow"), $("#detailsWindowBox")];
 
 	let [detailsLeft, detailsTop] = [readCookie("detailsLeft", 0), readCookie("detailsTop", 0)];
@@ -892,7 +890,11 @@ function handleDetailsWindowEvent(event, eventType) {
 		$("#detailsWindowBox > div").css("display", "");
 	}
 
-	resetFrameTimer();
+	if (savedScrollPosition == null) {
+		resetFrameTimer();
+	} else {
+		$("#detailsWindowBox").scrollTop(savedScrollPosition);
+	}
 }
 function handleDetailsWindowToggleButton(event) {
 	const wasHidden = $("#detailsWindowContents").css("display") == "none";
