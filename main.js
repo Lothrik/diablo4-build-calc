@@ -3603,6 +3603,7 @@ function drawTooltip(curNode, forceDraw) {
 					captureText = curNode.nodeData.get("thresholdRequirements");
 					if (typeof captureText != "string") captureText = captureText[classText];
 					if (typeof captureText != "string") captureText = captureText.join("\n");
+					captureText = captureText.replace(" and ", "\n");
 					if (nodeType == "Socket") {
 						captureText = captureText.replace(/(\d+ Strength)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Strength"] * 2) / 2} Strength | $1`);
 						captureText = captureText.replace(/(\d+ Intelligence)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 2) / 2} Intelligence | $1`);
