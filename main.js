@@ -2719,7 +2719,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		align: "center",
 		fill: _textColor,
 		fontFamily: fontFamily,
-		fontSize: displayNameSize * scaleFactor * (_nodeWidth > 400 ? 1.5 : 1),
+		fontSize: displayNameSize * scaleFactor * (_nodeWidth > 400 ? 1.5 : _nodeWidth > 300 ? 1.25 : 1) * (groupName == ALTARS_OF_LILITH ? 1.2 : 1),
 		fontVariant: "small-caps",
 		fontWeight: useThickNodeStyle ? "bold" : "normal",
 		padding: 10
