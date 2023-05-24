@@ -731,12 +731,12 @@ function updateDetailsWindow() {
 
 		if (!("+{#} Armor" in paragonStatTotals)) paragonStatTotals["+{#} Armor"] = { name: "Armor", prefix: "+", suffix: " ", minValue: 0, maxValue: 0 };
 		if (!("+{#}% Dodge Chance" in paragonStatTotals)) paragonStatTotals["+{#}% Dodge Chance"] = { name: "Dodge Chance", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
-		if (!("+{#}% Critical Strike Chance" in paragonStatTotals)) paragonStatTotals["+{#}% Critical Strike Chance"] = { name: "Critical Strike Chance", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("x{#}% Critical Strike Chance" in paragonStatTotals)) paragonStatTotals["x{#}% Critical Strike Chance"] = { name: "Critical Strike Chance", prefix: "x", suffix: "% ", minValue: 0, maxValue: 0 };
 		if (!("+{#}% Healing Received" in paragonStatTotals)) paragonStatTotals["+{#}% Healing Received"] = { name: "Healing Received", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
 		if (!("+{#}% Overpower Damage" in paragonStatTotals)) paragonStatTotals["+{#}% Overpower Damage"] = { name: "Overpower Damage", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
 		if (!("{#}% Resistance to All Elements" in paragonStatTotals)) paragonStatTotals["{#}% Resistance to All Elements"] = { name: "Resistance to All Elements", prefix: "", suffix: "% ", minValue: 0, maxValue: 0 };
-		if (!("+{#}% Resource Generation" in paragonStatTotals)) paragonStatTotals["+{#}% Resource Generation"] = { name: "Resource Generation", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
-		if (!("+{#}% Skill Damage" in paragonStatTotals)) paragonStatTotals["+{#}% Skill Damage"] = { name: "Skill Damage", prefix: "+", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("x{#}% Resource Generation" in paragonStatTotals)) paragonStatTotals["x{#}% Resource Generation"] = { name: "Resource Generation", prefix: "x", suffix: "% ", minValue: 0, maxValue: 0 };
+		if (!("x{#}% Skill Damage" in paragonStatTotals)) paragonStatTotals["x{#}% Skill Damage"] = { name: "Skill Damage", prefix: "x", suffix: "% ", minValue: 0, maxValue: 0 };
 
 		const sortedParagonStatTotals = Object.keys(paragonStatTotals).sort((a, b) => {
 			const aName = "name" in paragonStatTotals[a] ? paragonStatTotals[a].name : a;
@@ -812,7 +812,7 @@ function updateDetailsWindow() {
 					if (maxValue == 0) continue;
 
 					let prefixSplit = [statData.prefix.slice(0, -1), statData.prefix.slice(-1)];
-					if (prefixSplit[1] != "+") prefixSplit = [statData.prefix, ""];
+					if (!["+", "x"].includes(prefixSplit[1])) prefixSplit = [statData.prefix, ""];
 
 					let suffixSplit = [statData.suffix.slice(0, 1), statData.suffix.slice(1)];
 					if (suffixSplit[0] != "%") suffixSplit = ["", statData.suffix];
