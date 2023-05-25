@@ -11508,7 +11508,7 @@ let paragonData = {
 			},
 			"Druid_Rare_013": {
 				"name": "Spiritual Power",
-				"description": "+14% Basic Skill Damage\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
+				"description": "+14% Core Skill Damage\n+14% Basic Skill Damage\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Damage, Basic.",
 				"nameLocalized": {
 					"deDE": "Spirituelle Kraft",
 					"esES": "Poder espiritual",
@@ -11524,18 +11524,18 @@ let paragonData = {
 					"zhTW": "精神之力"
 				},
 				"descriptionLocalized": {
-					"deDE": "+14% Schaden für Fertigkeiten des Typs Basis\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kern, Schaden, Basis.",
-					"esES": "+14% de daño de habilidades de Básica\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Daño, Básica.",
-					"esMX": "+14% de daño de habilidad Básica\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Daño, Básica.",
-					"frFR": "+14% de dégâts de compétence (Basique )\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principale, Dégâts, Basique.",
-					"itIT": "Danni abilità Base: +14%\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Primaria, Danni, Base.",
-					"jaJP": "スキルダメージ+14% 基本\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: コア, ダメージ, 基本.",
-					"koKR": "기본 기술 피해 +14%\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 핵심, 피해, 기본.",
-					"plPL": "+14% obrażeń od umiejętności (Podstawowe )\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Główne, Obrażenia, Podstawowe.",
-					"ptBR": "+14% de dano de habilidade Básica\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Dano, Básica.",
-					"ruRU": "+14% к урону от умений категории \"Базовое \"\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Основное, Урон, Базовое.",
-					"zhCN": "+14% 基础 技能伤害\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 伤害, 基础.",
-					"zhTW": "基本 技能傷害 +14%\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 傷害, 基本."
+					"deDE": "+14% Schaden für Fertigkeiten des Typs Kern\n+14% Schaden für Fertigkeiten des Typs Basis\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kern, Schaden, Basis.",
+					"esES": "+14% de daño de habilidades de Principal\n+14% de daño de habilidades de Básica\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Daño, Básica.",
+					"esMX": "+14% de daño de habilidad Principal\n+14% de daño de habilidad Básica\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Daño, Básica.",
+					"frFR": "+14% de dégâts de compétence (Principale )\n+14% de dégâts de compétence (Basique )\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principale, Dégâts, Basique.",
+					"itIT": "Danni abilità Primaria: +14%\nDanni abilità Base: +14%\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Primaria, Danni, Base.",
+					"jaJP": "スキルダメージ+14% コア\nスキルダメージ+14% 基本\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: コア, ダメージ, 基本.",
+					"koKR": "핵심 기술 피해 +14%\n기본 기술 피해 +14%\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 핵심, 피해, 기본.",
+					"plPL": "+14% obrażeń od umiejętności (Główne )\n+14% obrażeń od umiejętności (Podstawowe )\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Główne, Obrażenia, Podstawowe.",
+					"ptBR": "+14% de dano de habilidade Principal\n+14% de dano de habilidade Básica\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Dano, Básica.",
+					"ruRU": "+14% к урону от умений категории \"Основное \"\n+14% к урону от умений категории \"Базовое \"\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Основное, Урон, Базовое.",
+					"zhCN": "+14% 核心 技能伤害\n+14% 基础 技能伤害\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 伤害, 基础.",
+					"zhTW": "核心 技能傷害 +14%\n基本 技能傷害 +14%\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 傷害, 基本."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -29396,7 +29396,7 @@ let paragonData = {
 			},
 			"Rogue_Rare_011": {
 				"name": "Dominant",
-				"description": "+14% Basic Skill Damage\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
+				"description": "+14% Core Skill Damage\n+14% Basic Skill Damage\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Core, Basic, Damage.",
 				"nameLocalized": {
 					"deDE": "Dominanz",
 					"esES": "Dominante",
@@ -29412,18 +29412,18 @@ let paragonData = {
 					"zhTW": "主導"
 				},
 				"descriptionLocalized": {
-					"deDE": "+14% Schaden für Fertigkeiten des Typs Basis\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kern, Basis, Schaden.",
-					"esES": "+14% de daño de habilidades de Básica\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básica, Daño.",
-					"esMX": "+14% de daño de habilidad Básica\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básica, Daño.",
-					"frFR": "+14% de dégâts de compétence (Basique )\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principale, Basique, Dégâts.",
-					"itIT": "Danni abilità Base: +14%\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Primaria, Base, Danni.",
-					"jaJP": "スキルダメージ+14% 基本\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: コア, 基本, ダメージ.",
-					"koKR": "기본 기술 피해 +14%\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 핵심, 기본, 피해.",
-					"plPL": "+14% obrażeń od umiejętności (Podstawowe )\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Główne, Podstawowe, Obrażenia.",
-					"ptBR": "+14% de dano de habilidade Básica\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básica, Dano.",
-					"ruRU": "+14% к урону от умений категории \"Базовое \"\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Основное, Базовое, Урон.",
-					"zhCN": "+14% 基础 技能伤害\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 基础, 伤害.",
-					"zhTW": "基本 技能傷害 +14%\n\nBonus: Another +14% Basic Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 基本, 傷害."
+					"deDE": "+14% Schaden für Fertigkeiten des Typs Kern\n+14% Schaden für Fertigkeiten des Typs Basis\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kern, Basis, Schaden.",
+					"esES": "+14% de daño de habilidades de Principal\n+14% de daño de habilidades de Básica\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básica, Daño.",
+					"esMX": "+14% de daño de habilidad Principal\n+14% de daño de habilidad Básica\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básica, Daño.",
+					"frFR": "+14% de dégâts de compétence (Principale )\n+14% de dégâts de compétence (Basique )\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principale, Basique, Dégâts.",
+					"itIT": "Danni abilità Primaria: +14%\nDanni abilità Base: +14%\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Primaria, Base, Danni.",
+					"jaJP": "スキルダメージ+14% コア\nスキルダメージ+14% 基本\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: コア, 基本, ダメージ.",
+					"koKR": "핵심 기술 피해 +14%\n기본 기술 피해 +14%\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 핵심, 기본, 피해.",
+					"plPL": "+14% obrażeń od umiejętności (Główne )\n+14% obrażeń od umiejętności (Podstawowe )\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Główne, Podstawowe, Obrażenia.",
+					"ptBR": "+14% de dano de habilidade Principal\n+14% de dano de habilidade Básica\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Principal, Básica, Dano.",
+					"ruRU": "+14% к урону от умений категории \"Основное \"\n+14% к урону от умений категории \"Базовое \"\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Основное, Базовое, Урон.",
+					"zhCN": "+14% 核心 技能伤害\n+14% 基础 技能伤害\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 基础, 伤害.",
+					"zhTW": "核心 技能傷害 +14%\n基本 技能傷害 +14%\n\nBonus: Another +14% Core Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 核心, 基本, 傷害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
