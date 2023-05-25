@@ -1189,7 +1189,7 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+5% Damage while Berserking\n+6.7% Damage to Elites",
+				"desc": "+5% Damage while Berserking\n+16.7% Damage to Elites",
 				"name": "Berserker",
 				"tags": [
 					"Keyword_Berserk",
@@ -1235,7 +1235,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+10% Physical Damage Over Time\n+4% Damage To Bleeding Enemies",
+				"desc": "+10% Physical Damage Over Time\n+10% Damage To Bleeding Enemies",
 				"name": "Flayer",
 				"tags": [
 					"Search_Bleed"
@@ -1322,7 +1322,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+10% Physical Damage Over Time\n+4% Physical Damage",
+				"desc": "+10% Physical Damage Over Time\n+10% Physical Damage",
 				"name": "Lacerator",
 				"tags": [
 					"Search_Bleed",
@@ -1362,7 +1362,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage With Two-Handed Bludgeoning\n+12% Overpower Damage",
+				"desc": "+10% Damage With Two-Handed Bludgeoning\n+30% Overpower Damage",
 				"name": "Bludgeoner",
 				"tags": [
 					"Keyword_Overpower"
@@ -1924,7 +1924,7 @@
 						"stat_dword": 955638
 					}
 				},
-				"desc": "+10% Damage With One-Handed\n+4% Attack Speed",
+				"desc": "+10% Damage With One-Handed\n+10% Attack Speed",
 				"name": "Wild Force",
 				"tags": [
 					"Search_AttackSpeed"
@@ -2025,7 +2025,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage With Two-Handed Slashing\n+4% Vulnerable Damage",
+				"desc": "+10% Damage With Two-Handed Slashing\n+10% Vulnerable Damage",
 				"name": "Destroyer",
 				"tags": [
 					"Keyword_Vulnerable"
@@ -2064,7 +2064,7 @@
 						"stat_dword": 213812
 					}
 				},
-				"desc": "+10% Damage while Berserking\n+6% Berserking Duration",
+				"desc": "+10% Damage while Berserking\n+15% Berserking Duration",
 				"name": "Enraged",
 				"tags": [
 					"Keyword_Berserk"
@@ -7065,7 +7065,7 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "+10% Damage To Poisoned Enemies\n+4% Poison Damage",
+				"desc": "+10% Damage To Poisoned Enemies\n+10% Poison Damage",
 				"name": "Toxic Bane",
 				"tags": [
 					"Search_Poison"
@@ -7155,7 +7155,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Skill_Nature_Magic_Earth Skill Damage\n+6% Critical Strike Damage to Crowd-Controlled Enemies",
+				"desc": "+10% Skill_Nature_Magic_Earth Skill Damage\n+15% Critical Strike Damage to Crowd-Controlled Enemies",
 				"name": "Crushing Earth",
 				"tags": [
 					"Skill_Nature_Magic_Earth",
@@ -7280,7 +7280,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Skill_Nature_Magic Skill Damage\n+6.7% Damage to Elites",
+				"desc": "+10% Skill_Nature_Magic Skill Damage\n+16.7% Damage to Elites",
 				"name": "Devastation",
 				"tags": [
 					"Skill_Nature_Magic",
@@ -7323,7 +7323,7 @@
 						"stat_dword": 3340001955
 					}
 				},
-				"desc": "+14% Skill_Primary_Core Skill Damage\n+13.3% Skill_Primary_Basic Skill Damage",
+				"desc": "+14% Skill_Primary_Core Skill Damage\n+33.3% Skill_Primary_Basic Skill Damage",
 				"name": "Spiritual Power",
 				"tags": [
 					"Skill_Primary_Core",
@@ -7405,13 +7405,13 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+0.067 Maximum Spirit\n4% Life",
+				"desc": "+0.167 Maximum Spirit\n4% Life",
 				"name": "Natural Attunement",
 				"tags": [
 					"Search_Life",
 					"Search_ResourceSpirit"
 				],
-				"threshold_bonus": "+0.067 Maximum Spirit",
+				"threshold_bonus": "+0.167 Maximum Spirit",
 				"threshold_requirements": {
 					"Druid": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Intelligence"
@@ -7488,13 +7488,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+4% Damage To Poisoned Enemies\n+10 Willpower",
+				"desc": "+10% Damage To Poisoned Enemies\n+10 Willpower",
 				"name": "Sinking Fangs",
 				"tags": [
 					"Search_Poison",
 					"Search_Willpower"
 				],
-				"threshold_bonus": "+4% Damage To Poisoned Enemies",
+				"threshold_bonus": "+10% Damage To Poisoned Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -7585,7 +7585,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Skill_Nature_Magic_Storm Skill Damage\n+4% Vulnerable Damage",
+				"desc": "+10% Skill_Nature_Magic_Storm Skill Damage\n+10% Vulnerable Damage",
 				"name": "Stormcaller",
 				"tags": [
 					"Skill_Nature_Magic_Storm",
@@ -7625,7 +7625,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Skill_Bear Skill Damage\n+12% Overpower Damage",
+				"desc": "+10% Skill_Bear Skill Damage\n+30% Overpower Damage",
 				"name": "Ursine",
 				"tags": [
 					"Skill_Bear",
@@ -17436,7 +17436,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Attack Speed\n+4% Damage",
+				"desc": "+10% Attack Speed\n+10% Damage",
 				"name": "Nimble",
 				"tags": [
 					"Search_AttackSpeed"
@@ -17624,7 +17624,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+15% Damage to Crowd Controlled Enemies\n+6% Critical Strike Damage to Crowd-Controlled Enemies",
+				"desc": "+15% Damage to Crowd Controlled Enemies\n+15% Critical Strike Damage to Crowd-Controlled Enemies",
 				"name": "Oppress",
 				"tags": [
 					"Search_CrowdControl",
@@ -17781,7 +17781,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+15% Critical Strike Damage\n+4% Physical Damage",
+				"desc": "+15% Critical Strike Damage\n+10% Physical Damage",
 				"name": "Havoc",
 				"tags": [
 					"Search_Critical",
@@ -17834,7 +17834,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+25% Damage to Healthy Enemies\n+6% Critical Strike Damage",
+				"desc": "+25% Damage to Healthy Enemies\n+15% Critical Strike Damage",
 				"name": "Ruin",
 				"tags": [
 					"Search_Critical",
@@ -17883,7 +17883,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+25% Damage to Injured Enemies\n+6% Critical Strike Damage",
+				"desc": "+25% Damage to Injured Enemies\n+15% Critical Strike Damage",
 				"name": "Stifle",
 				"tags": [
 					"Keyword_Injured",
@@ -18344,7 +18344,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage While Fortified\n+5% Damage While Healthy",
+				"desc": "+10% Damage While Fortified\n+12.5% Damage While Healthy",
 				"name": "Inner Strength",
 				"tags": [
 					"Keyword_Fortify",
@@ -18393,7 +18393,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+12.5% Damage While Healthy\n+4% Damage",
+				"desc": "+12.5% Damage While Healthy\n+10% Damage",
 				"name": "Aggression",
 				"tags": [
 					"Keyword_Healthy"
@@ -18481,7 +18481,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "Lucky Hit: Up to +10% Chance to Execute Injured Non-Elites\n+4% Attack Speed",
+				"desc": "Lucky Hit: Up to +10% Chance to Execute Injured Non-Elites\n+10% Attack Speed",
 				"name": "Culler",
 				"tags": [
 					"Keyword_Execute",
@@ -18980,7 +18980,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+15% Critical Strike Damage\n+4% Vulnerable Damage",
+				"desc": "+15% Critical Strike Damage\n+10% Vulnerable Damage",
 				"name": "Tempest",
 				"tags": [
 					"Search_Critical",
@@ -19178,7 +19178,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Vulnerable Damage\n+10% Damage to Injured Enemies",
+				"desc": "+10% Vulnerable Damage\n+25% Damage to Injured Enemies",
 				"name": "Exploit",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -19394,7 +19394,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+10% Damage To Bleeding Enemies\n+6.7% Damage to Elites",
+				"desc": "+10% Damage To Bleeding Enemies\n+16.7% Damage to Elites",
 				"name": "Craving",
 				"tags": [
 					"Search_Bleed",
@@ -19535,7 +19535,7 @@
 						"stat_dword": 0
 					}
 				},
-				"desc": "+10% Physical Damage\n+4% Attack Speed",
+				"desc": "+10% Physical Damage\n+10% Attack Speed",
 				"name": "Brute",
 				"tags": [
 					"Search_Physical",
@@ -19667,7 +19667,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage for {#} Seconds After Dodging an Attack\n+6.7% Damage to Elites",
+				"desc": "+10% Damage for {#} Seconds After Dodging an Attack\n+16.7% Damage to Elites",
 				"name": "Discerning",
 				"tags": [
 					"Search_Elite",
@@ -20292,7 +20292,7 @@
 						"stat_dword": 4
 					}
 				},
-				"desc": "+10% Damage To Poisoned Enemies\n+6.7% Damage to Elites",
+				"desc": "+10% Damage To Poisoned Enemies\n+16.7% Damage to Elites",
 				"name": "Overturn",
 				"tags": [
 					"Search_Poison",
@@ -20836,7 +20836,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+10% Damage To Taking Shadow DoT Enemies\n+6.7% Damage to Elites",
+				"desc": "+10% Damage To Taking Shadow DoT Enemies\n+16.7% Damage to Elites",
 				"name": "Gnawing Darkness",
 				"tags": [
 					"Search_ShadowDOT",
@@ -22835,7 +22835,7 @@
 						"stat_dword": 1781953454
 					}
 				},
-				"desc": "+10% Skill_Blood Skill Damage\n+4% Physical Damage",
+				"desc": "+10% Skill_Blood Skill Damage\n+10% Physical Damage",
 				"name": "Crimson Power",
 				"tags": [
 					"Skill_Blood",
@@ -22878,7 +22878,7 @@
 						"stat_dword": 3828367010
 					}
 				},
-				"desc": "+15% Critical Strike Damage for Skill_Bone Skills\n+4% Skill_Bone Skill Damage",
+				"desc": "+15% Critical Strike Damage for Skill_Bone Skills\n+10% Skill_Bone Skill Damage",
 				"name": "Calcified",
 				"tags": [
 					"Skill_Bone",
@@ -22977,7 +22977,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage for {#} Seconds After Picking Up a Blood Orb\n+5% Damage While Healthy",
+				"desc": "+10% Damage for {#} Seconds After Picking Up a Blood Orb\n+12.5% Damage While Healthy",
 				"name": "Invigorated",
 				"tags": [
 					"Keyword_Blood_Orb",
@@ -23335,7 +23335,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+16.7% Golem Damage\n+6.7% Golem Attack Speed",
+				"desc": "+16.7% Golem Damage\n+16.7% Golem Attack Speed",
 				"name": "Frenzied Golem",
 				"tags": [
 					"Search_Minion",
@@ -23427,7 +23427,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Minion Damage\n+4% Minion Attack Speed",
+				"desc": "+10% Minion Damage\n+10% Minion Attack Speed",
 				"name": "Puppeteer",
 				"tags": [
 					"Search_Minion",
@@ -23700,7 +23700,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+10% Shadow Damage Over Time\n+4% Shadow Damage",
+				"desc": "+10% Shadow Damage Over Time\n+10% Shadow Damage",
 				"name": "Lingering Shadows",
 				"tags": [
 					"Search_Shadow",
@@ -28075,7 +28075,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+15% Damage for Imbued Skills\n+4% Non-Physical Damage",
+				"desc": "+15% Damage for Imbued Skills\n+10% Non-Physical Damage",
 				"name": "Imbuer",
 				"tags": [
 					"Skill_Primary_Imbuements",
@@ -28156,7 +28156,7 @@
 						"stat_dword": 3340001955
 					}
 				},
-				"desc": "+14% Skill_Primary_Core Skill Damage\n+13.3% Skill_Primary_Basic Skill Damage",
+				"desc": "+14% Skill_Primary_Core Skill Damage\n+33.3% Skill_Primary_Basic Skill Damage",
 				"name": "Dominant",
 				"tags": [
 					"Skill_Primary_Core",
@@ -28235,7 +28235,7 @@
 						"stat_dword": 3340001955
 					}
 				},
-				"desc": "+33.3% Skill_Primary_Basic Skill Damage\n+4% Damage",
+				"desc": "+33.3% Skill_Primary_Basic Skill Damage\n+10% Damage",
 				"name": "Fundamentals",
 				"tags": [
 					"Skill_Primary_Basic"
@@ -28430,7 +28430,7 @@
 						"stat_dword": 3829016725
 					}
 				},
-				"desc": "+15% Skill_Trap Skill Damage\n+4% Damage To Enemies Affected by Skill_Trap Skills",
+				"desc": "+15% Skill_Trap Skill Damage\n+10% Damage To Enemies Affected by Skill_Trap Skills",
 				"name": "Trapper",
 				"tags": [
 					"Skill_Trap"
@@ -33302,7 +33302,7 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "+15% Damage to Chilled Enemies\n+4% Non-Physical Damage",
+				"desc": "+15% Damage to Chilled Enemies\n+10% Non-Physical Damage",
 				"name": "Polar Rime",
 				"tags": [
 					"Search_NonPhysical",
@@ -33402,7 +33402,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+10% Fire Damage\n+4% Fire Damage Over Time",
+				"desc": "+10% Fire Damage\n+10% Fire Damage Over Time",
 				"name": "Pyromancy",
 				"tags": [
 					"Search_Fire",
@@ -33445,7 +33445,7 @@
 						"stat_dword": 1
 					}
 				},
-				"desc": "+10% Damage To Burning Enemies\n+6.7% Damage to Elites",
+				"desc": "+10% Damage To Burning Enemies\n+16.7% Damage to Elites",
 				"name": "Kindling",
 				"tags": [
 					"Search_Burn",
@@ -33530,7 +33530,7 @@
 						"stat_dword": 2
 					}
 				},
-				"desc": "+10% Lightning Damage\n+6% Critical Strike Damage",
+				"desc": "+10% Lightning Damage\n+15% Critical Strike Damage",
 				"name": "Electromancy",
 				"tags": [
 					"Search_Lightning",
@@ -33573,7 +33573,7 @@
 						"stat_dword": 918887
 					}
 				},
-				"desc": "+16.7% Damage with Crackling Energy\n+4% Lightning Damage",
+				"desc": "+16.7% Damage with Crackling Energy\n+10% Lightning Damage",
 				"name": "Conduit",
 				"tags": [
 					"Skill_Lightning",
@@ -33757,7 +33757,7 @@
 						"stat_dword": 9
 					}
 				},
-				"desc": "+10% Vulnerable Damage\n+6% Damage to Chilled Enemies",
+				"desc": "+10% Vulnerable Damage\n+15% Damage to Chilled Enemies",
 				"name": "Icebreaker",
 				"tags": [
 					"Keyword_Vulnerable",
@@ -34044,7 +34044,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Lightning Damage\n+6.7% Damage to Elites",
+				"desc": "+10% Lightning Damage\n+16.7% Damage to Elites",
 				"name": "Overpowering Current",
 				"tags": [
 					"Search_Lightning",
@@ -34133,7 +34133,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Fire Damage\n+6% Critical Strike Damage",
+				"desc": "+10% Fire Damage\n+15% Critical Strike Damage",
 				"name": "Combustion",
 				"tags": [
 					"Search_Fire",
