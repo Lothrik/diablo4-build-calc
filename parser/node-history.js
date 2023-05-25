@@ -126,7 +126,14 @@ let nodeHistory = {
 		"Key Passive: Walking Arsenal": 123,
 		"Basic: Barb_Mod_Bash_UpgradeA": 124,
 		"Brawling: Battle Fervor": 125,
-		"Weapon Mastery: Defensive Stance": 126
+		"Weapon Mastery: Defensive Stance": 126,
+		"Weapon Expertise: One-Handed Axe Expertise": 127,
+		"Weapon Expertise: One-Handed Mace Expertise": 128,
+		"Weapon Expertise: One-Handed Sword Expertise": 129,
+		"Weapon Expertise: Two-Handed Axe Expertise": 130,
+		"Weapon Expertise: Two-Handed Mace Expertise": 131,
+		"Weapon Expertise: Polearm Expertise": 132,
+		"Weapon Expertise: Two-Handed Sword Expertise": 133
 	},
 	"Druid": {
 		"Basic: Earthspike": 0,

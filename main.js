@@ -170,11 +170,14 @@ const GLYPH_SELECT_PROMPT_PREFIX = "Please select a glyph to socket in ";
 const GLYPH_SELECT_PROMPT_SUFFIX = "(You cannot socket the same glyph multiple times.)";
 const ASSIGN_INDEX_LABEL_TEXT = "Assign Index";
 const RESET_BOARD_LABEL_TEXT = "Reset Board";
+const ALTARS_OF_LILITH = "Altars of Lilith";
 const EQUIPMENT_PANEL_PROMPT_HEADER_PREFIX = "Please select a legendary aspect or unique item to equip in your ";
 const EQUIPMENT_PANEL_PROMPT_HEADER_SUFFIX = " slot:";
-const ALTARS_OF_LILITH = "Altars of Lilith";
 const EQUIPMENT_PANEL = "Equipment Panel";
 const EQUIPMENT_PANEL_ITEM_DESC = "Click to see a list of legendary aspects and unique items.";
+const TECHNIQUE_SLOT = "Technique Slot";
+const TECHNIQUE_SLOT_DESC = "Click to see a list of weapon expertise effects.";
+const TECHNIQUE_SLOT_PROMPT_HEADER = "Please select a weapon expertise type to use as your [Technique]:";
 const CODEX_OF_POWER = "Codex of Power";
 const CODEX_OF_POWER_DESC_BEFORE = "Legendary aspects in this category can be applied to: ";
 const CODEX_OF_POWER_DESC_AFTER = "Unique items are only listed here for convenience, and cannot have their powers extracted.";
@@ -923,7 +926,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-23";
+const localVersion = "0.9.0.41428-24";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1200,8 +1203,10 @@ function handleSaveButton() {
 			nodeData.equipData = LZString.compressToEncodedURIComponent(JSON.stringify(nodeData.equipData).replace(/"/g, ""));
 		}
 
+		if (techniqueSlotData != null) nodeData.techniqueData = techniqueSlotData;
+
 		pixiNodes.forEach(curNode => {
-			if (![undefined, EQUIPMENT_PANEL].includes(curNode.groupName)) {
+			if (![undefined, EQUIPMENT_PANEL, TECHNIQUE_SLOT].includes(curNode.groupName)) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 				if (allocatedPoints > 0) {
 					const nodeId = convertNodeId(curNode.nodeData.get("id"), curNode.groupName);
@@ -1209,8 +1214,14 @@ function handleSaveButton() {
 				}
 			}
 		});
-		if (debugMode) console.log(nodeData);
-		const jsonData = JSON.stringify(nodeData).replace(/("|:1)/g, "");
+		console.log(nodeData);
+		const jsonData = JSON.stringify(nodeData)
+			.replace(/("|:1)/g, "")
+			.replace(",className:", ",c:")
+			.replace(",boardData:", ",b:")
+			.replace(",equipData:", ",e:")
+			.replace(",techniqueData:", ",t:");
+		console.log(jsonData);
 		const compressedData = LZString.compressToEncodedURIComponent(jsonData);
 		const newURL = window.location.href.split(/[#?&]/)[0] + "#" + compressedData;
 		window.location.replace(newURL);
@@ -1226,10 +1237,14 @@ function handleReloadButton() {
 		// valid JSON always requires quotes around key names; we strip those (and object "1-values") to increase compression
 		nodeData = jsonData.includes('"') ? JSON.parse(jsonData) :
 			JSON.parse(jsonData
-				.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')							// restore key double quotes
-				.replace(/","/g, '":1,"') 													// restore object "1-values"
-				.replace(/("(?:className|boardData|equipData)":)([^,\[\]{}]+)/g, '$1"$2"')	// restore class name and paragon board data double quotes
-				.replace(/(,"[^:,]+")}/g, '$1:1}')											// restore final object value
+				.replace(",c:", ",className:")
+				.replace(",b:", ",boardData:")
+				.replace(",e:", ",equipData:")
+				.replace(",t:", ",techniqueData:")
+				.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')											// restore key double quotes
+				.replace(/","/g, '":1,"') 																	// restore object "1-values"
+				.replace(/("(?:className|boardData|equipData|techniqueData)":)([^,\[\]{}]+)/g, '$1"$2"')	// restore class name and paragon board data double quotes
+				.replace(/(,"[^:,]+")}/g, '$1:1}')															// restore final object value
 			);
 	}
 
@@ -1240,6 +1255,8 @@ function handleReloadButton() {
 		handleClassSelection(null, finishLoading);
 
 		function finishLoading() {
+			delete nodeData.className;
+
 			if ("boardData" in nodeData) {
 				nodeData.boardData = JSON.parse(LZString.decompressFromEncodedURIComponent(nodeData.boardData)
 					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
@@ -1281,7 +1298,13 @@ function handleReloadButton() {
 				delete nodeData.equipData;
 			}
 
-			delete nodeData.className;
+			if ("techniqueData" in nodeData) {
+				const techniqueId = nodeData.techniqueData;
+				equipTechnique(techniqueId);
+				delete nodeData.techniqueData;
+			} else {
+				unequipTechnique();
+			}
 
 			function compareNodes(firstNode, secondNode) {
 				let firstNodeId = firstNode.nodeData.get("id");
@@ -1327,14 +1350,14 @@ function handleReloadButton() {
 						paragonNodeValue = 0;
 					}
 					pixiAllocatedParagonPoints += (newPoints - allocatedPoints) * paragonNodeValue;
-				} else if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
+				} else if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(curNode.groupName)) {
 					pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 				}
 				updateNodePoints(curNode, newPoints);
 			}
 
 			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
-			const sortedNodes = [...pixiNodes].filter(pixiNode => ![undefined, EQUIPMENT_PANEL].includes(pixiNode.groupName)).sort(compareNodes);
+			const sortedNodes = [...pixiNodes].filter(pixiNode => ![undefined, EQUIPMENT_PANEL, TECHNIQUE_SLOT].includes(pixiNode.groupName)).sort(compareNodes);
 			for (let i = 0, n = sortedNodes.length; i < n; i++) processNode(sortedNodes[i]);
 
 			glyphRadiusAttributeTotals = {};
@@ -1804,20 +1827,20 @@ function handleEquipmentPanelButton(curNode) {
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 }
-function equipPanelPower(curNode, codexId) {
+function equipPanelPower(curNode, codexId, redrawTooltip = false) {
 	const nodeData = curNode.nodeData;
 	const nodeId = nodeData.get("id");
-
-	equipmentPanelData[nodeId] = codexId;
 
 	const codexNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == codexId);
 	const codexData = codexNode.nodeData;
 
 	const activeLocale = readCookie("activeLocale", "enUS");
 
+	equipmentPanelData[nodeId] = codexId;
+
 	nodeData.set("description", codexData.get("description"));
 	nodeData.set("descriptionLocalized", codexData.get("descriptionLocalized"));
-	curNode.nodeDesc = codexData.get("description");
+	curNode.nodeDesc = codexNode.nodeDesc;
 	curNode.localizedDesc = (codexData.get("descriptionLocalized") instanceof Map
 		&& codexData.get("descriptionLocalized").has(activeLocale))
 		? codexData.get("descriptionLocalized").get(activeLocale) : codexNode.nodeDesc;
@@ -1834,8 +1857,16 @@ function equipPanelPower(curNode, codexId) {
 
 	curNode.scaleFactor = -1; // force redraw
 	redrawNode(curNode);
+
+	if (pixiTooltip.children.length > 0) {
+		if (redrawTooltip) {
+			drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+		} else {
+			eraseTooltip();
+		}
+	}
 }
-function unequipPanelPower(curNode) {
+function unequipPanelPower(curNode, redrawTooltip = false) {
 	const nodeData = curNode.nodeData;
 	const nodeId = nodeData.get("id");
 
@@ -1844,19 +1875,156 @@ function unequipPanelPower(curNode) {
 	if (curNode.slotName != undefined) {
 		nodeData.set("description", EQUIPMENT_PANEL_ITEM_DESC);
 		nodeData.set("descriptionLocalized", EQUIPMENT_PANEL_ITEM_DESC);
-		curNode.nodeDesc = EQUIPMENT_PANEL_ITEM_DESC;
-		curNode.localizedDesc = EQUIPMENT_PANEL_ITEM_DESC;
+		[curNode.nodeDesc, curNode.localizedDesc] = [EQUIPMENT_PANEL_ITEM_DESC, EQUIPMENT_PANEL_ITEM_DESC];
 
 		nodeData.delete("nameLocalized");
-		curNode.nodeName = curNode.slotName;
-		curNode.localizedName = curNode.slotName;
-		curNode.displayName = curNode.slotName;
+		[curNode.nodeName, curNode.localizedName, curNode.displayName] = [curNode.slotName, curNode.slotName, curNode.slotName];
 	}
 
 	nodeData.set("allocatedPoints", 0);
 
 	curNode.scaleFactor = -1; // force redraw
 	redrawNode(curNode);
+
+	if (pixiTooltip.children.length > 0) {
+		if (redrawTooltip) {
+			drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+		} else {
+			eraseTooltip();
+		}
+	}
+}
+var techniqueSlotData = null;
+var techniqueSlotNode = null;
+function handleTechniqueSlotButton(curNode) {
+	const activeLocale = readCookie("activeLocale", "enUS");
+
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
+	const classData = classMap.get(className);
+	const techniqueDataFull = classData.get("Weapon Expertise");
+
+	let modalOptions = "";
+	for (const [techniqueName, techniqueData] of techniqueDataFull) {
+		const nameLocalized = (techniqueData.get("nameLocalized") instanceof Map
+			&& techniqueData.get("nameLocalized").has(activeLocale))
+			? techniqueData.get("nameLocalized").get(activeLocale) : techniqueName;
+		const descLocalized = ((techniqueData.get("descriptionLocalized") instanceof Map
+			&& techniqueData.get("descriptionLocalized").has(activeLocale))
+			? techniqueData.get("descriptionLocalized").get(activeLocale) : techniqueData.get("description"))
+			.replace(/{(.+?)}/g, (matchText, captureText) => captureText.split("/").at(-1));
+		const bonusLocalized = (techniqueData.get("descriptionLocalized") instanceof Map
+			&& techniqueData.get("bonusLocalized").has(activeLocale))
+			? techniqueData.get("bonusLocalized").get(activeLocale) : techniqueData.get("bonus");
+		modalOptions += `<option value="${techniqueData.get("id")}">${nameLocalized} — ${descLocalized}[br]${bonusLocalized}</option>`;
+	}
+
+	$("#fadeOverlay").removeClass("disabled");
+	$("#modalBox").html(`<div id="modalDiv1">${TECHNIQUE_SLOT_PROMPT_HEADER}</div>`
+		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions}</select></div>`
+		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
+		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
+
+	$("#modalSelect").select2({
+		dropdownParent: $("#modalDiv2"),
+		escapeMarkup: data => data,
+		templateResult: data => data.text.replaceAll("[br]", curWidth < 1400 ? " " : "<br>"),
+		templateSelection: data => data.text.replaceAll("[br]", " ")
+	});
+	applyZoomLevel(); // hacky workaround for select2 transform bug
+
+	if (techniqueSlotData != null) $("#modalSelect").val(techniqueSlotData).trigger("change");
+
+	$("#modalConfirm").on("click", () => {
+		equipTechnique($("#modalSelect").val());
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+	$("#modalCancel").on("click", () => {
+		unequipTechnique();
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+}
+function equipTechnique(techniqueId, redrawTooltip = false) {
+	if (techniqueSlotNode == null) return;
+
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
+	const classData = classMap.get(className);
+	const [techniqueName, techniqueData] = [...classData.get("Weapon Expertise")].find(([key, value]) => value.get("id") == techniqueId);
+	if (techniqueName == undefined) return;
+
+	const nodeData = techniqueSlotNode.nodeData;
+
+	const activeLocale = readCookie("activeLocale", "enUS");
+
+	techniqueSlotData = techniqueId;
+
+	nodeData.set("description", techniqueData.get("description"));
+	nodeData.set("descriptionLocalized", techniqueData.get("descriptionLocalized"));
+	techniqueSlotNode.nodeDesc = techniqueData.get("description");
+	techniqueSlotNode.localizedDesc = (techniqueData.get("descriptionLocalized") instanceof Map
+		&& techniqueData.get("descriptionLocalized").has(activeLocale))
+		? techniqueData.get("descriptionLocalized").get(activeLocale) : techniqueData.get("description");
+
+	nodeData.set("bonus", techniqueData.get("bonus"));
+	nodeData.set("bonusLocalized", techniqueData.get("bonusLocalized"));
+	techniqueSlotNode.nodeBonus = techniqueData.get("bonus");
+	techniqueSlotNode.localizedBonus = (techniqueData.get("bonusLocalized") instanceof Map
+		&& techniqueData.get("bonusLocalized").has(activeLocale))
+		? techniqueData.get("bonusLocalized").get(activeLocale) : techniqueData.get("bonus");
+
+	nodeData.set("nameLocalized", techniqueData.get("nameLocalized"));
+	if (techniqueSlotNode.slotName == undefined) techniqueSlotNode.slotName = techniqueSlotNode.nodeName;
+	techniqueSlotNode.nodeName = techniqueName;
+	techniqueSlotNode.localizedName = (techniqueData.get("nameLocalized") instanceof Map
+		&& techniqueData.get("nameLocalized").has(activeLocale))
+		?  techniqueData.get("nameLocalized").get(activeLocale) : techniqueName;
+	techniqueSlotNode.displayName = techniqueSlotNode.nodeName;
+
+	nodeData.set("allocatedPoints", 1);
+
+	techniqueSlotNode.scaleFactor = -1; // force redraw
+	redrawNode(techniqueSlotNode);
+
+	if (pixiTooltip.children.length > 0) {
+		if (redrawTooltip) {
+			drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+		} else {
+			eraseTooltip();
+		}
+	}
+}
+function unequipTechnique(redrawTooltip = false) {
+	if (techniqueSlotNode == null) return;
+	const nodeData = techniqueSlotNode.nodeData;
+
+	techniqueSlotData = null;
+
+	if (techniqueSlotNode.slotName != undefined) {
+		nodeData.set("description", TECHNIQUE_SLOT_DESC);
+		nodeData.set("descriptionLocalized", TECHNIQUE_SLOT_DESC);
+		techniqueSlotNode.nodeDesc = TECHNIQUE_SLOT_DESC;
+		techniqueSlotNode.localizedDesc = TECHNIQUE_SLOT_DESC;
+
+		nodeData.delete("bonus");
+		nodeData.delete("bonusLocalized");
+		delete techniqueSlotNode.nodeBonus;
+		delete techniqueSlotNode.localizedBonus;
+
+		nodeData.delete("nameLocalized");
+		[techniqueSlotNode.nodeName, techniqueSlotNode.localizedName, techniqueSlotNode.displayName] = [techniqueSlotNode.slotName, techniqueSlotNode.slotName, techniqueSlotNode.slotName];
+	}
+
+	nodeData.set("allocatedPoints", 0);
+
+	techniqueSlotNode.scaleFactor = -1; // force redraw
+	redrawNode(techniqueSlotNode);
+
+	if (pixiTooltip.children.length > 0) {
+		if (redrawTooltip) {
+			drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+		} else {
+			eraseTooltip();
+		}
+	}
 }
 // returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
 function getNodePosition(curNode) {
@@ -1985,7 +2153,6 @@ function updateNodePoints(curNode, newPoints) {
 
 		const className = $(classString).length == 0 ? "none" : $(classString).val();
 		const classData = classMap.get(className);
-		const trunkData = classData.get("Trunk Data");
 		pixiNodes.filter(pixiNode => pixiNode.groupName == undefined).forEach(groupNode => {
 			const requiredPoints = groupNode.nodeData.get("requiredPoints");
 			const validConnection = requiredPoints <= getAllocatedSkillPoints(groupNode.nodeName);
@@ -2258,7 +2425,7 @@ function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	if (allocatedPoints == 0) {
 		handlePlusButton(curNode);
-		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
+		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(curNode.groupName)) {
 			const exclusiveNodes = curNode.nodeData.get("exclusiveNodes");
 			if (exclusiveNodes != undefined) {
 				let allocatedBoons = [];
@@ -2289,7 +2456,7 @@ function handleToggleButton(curNode) {
 function handlePlusButton(curNode) {
 	if (!canAllocate(curNode)) return;
 
-	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
@@ -2389,7 +2556,7 @@ function handlePlusButton(curNode) {
 	}
 }
 function handleMinusButton(curNode) {
-	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.max(allocatedPoints - 1, 0);
@@ -2725,7 +2892,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		align: "center",
 		fill: _textColor,
 		fontFamily: fontFamily,
-		fontSize: displayNameSize * scaleFactor * (_nodeWidth > 400 ? 1.5 : _nodeWidth > 300 ? 1.25 : 1) * (groupName == ALTARS_OF_LILITH ? 1.2 : 1),
+		fontSize: displayNameSize * scaleFactor * (_nodeWidth > 400 ? 1.5 : _nodeWidth > 300 ? 1.15 : 1) * (groupName == ALTARS_OF_LILITH ? 1.3 : 1),
 		fontVariant: "small-caps",
 		fontWeight: useThickNodeStyle ? "bold" : "normal",
 		padding: 10
@@ -2735,7 +2902,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeText.anchor.set(0.5);
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(groupName) && maxPoints > 1) {
+	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName) && maxPoints > 1) {
 		nodeText2 = updateExistingNode ? pixiNodes[nodeIndex].children[2] : new PIXI.Text();
 		nodeText2.text = allocatedPoints + "/" + maxPoints;
 		nodeText2.style = {
@@ -2824,7 +2991,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeBorder.clear();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
-	if (([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
+	if (([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
 		let _lineStyleThickSquare = { ...lineStyleThickSquare };
 		if (searchQueryMatch) {
 			_lineStyleThickSquare.color = searchQueryMatchColor;
@@ -2889,7 +3056,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	/*
-	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER].includes(groupName)) {
+	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName)) {
 		let nodeImage;
 		if (shapeType == "circle") {
 			//nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_CIRCLE_ACTIVE : NODE_CIRCLE_INACTIVE);
@@ -2954,6 +3121,10 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				node
 					.on("click", () => handleEquipmentPanelButton(node))
 					.on("tap", () => handleEquipmentPanelButton(node));
+			} else if (groupName == TECHNIQUE_SLOT) {
+				node
+					.on("click", () => handleTechniqueSlotButton(node))
+					.on("tap", () => handleTechniqueSlotButton(node));
 			} else {
 				node
 					.on("click", () => handleToggleButton(node))
@@ -2965,7 +3136,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		if (nodeData.get("nodeType") == "Socket") {
 			node.on("rightclick", () => unequipParagonGlyph(node, true));
 		} else if (groupName == EQUIPMENT_PANEL) {
-			node.on("rightclick", () => unequipPanelPower(node));
+			node.on("rightclick", () => unequipPanelPower(node, true));
+		} else if (groupName == TECHNIQUE_SLOT) {
+			node.on("rightclick", () => unequipTechnique(true));
 		} else {
 			node.on("rightclick", () => handleMinusButton(node));
 		}
@@ -2983,7 +3156,10 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		node.displayNameSize = displayNameSize;
 	}
 
-	if (!updateExistingNode) node.nodeDesc = nodeData.get("description");
+	if (!updateExistingNode) {
+		node.nodeDesc = nodeData.get("description");
+		node.nodeBonus = nodeData.get("bonus");
+	}
 	if (node.activeLocale != activeLocale) {
 		node.localizedName = (nodeData.get("nameLocalized") instanceof Map
 			&& nodeData.get("nameLocalized").has(activeLocale))
@@ -2993,6 +3169,10 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		node.localizedDesc = (nodeData.get("descriptionLocalized") instanceof Map
 			&& nodeData.get("descriptionLocalized").has(activeLocale))
 			? nodeData.get("descriptionLocalized").get(activeLocale) : node.nodeDesc;
+
+		node.localizedBonus = (nodeData.get("bonusLocalized") instanceof Map
+			&& nodeData.get("bonusLocalized").has(activeLocale))
+			? nodeData.get("bonusLocalized").get(activeLocale) : node.nodeBonus;
 
 		node.activeLocale = activeLocale;
 	}
@@ -3027,7 +3207,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	if (!updateExistingNode) {
-		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, CODEX_OF_POWER, undefined].includes(groupName) || maxPoints <= 1) {
+		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER, undefined].includes(groupName) || maxPoints <= 1) {
 			node.addChild(nodeContainer, nodeText, nodeBorder);
 		} else {
 			node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
@@ -3464,6 +3644,41 @@ function drawAllNodes() {
 
 	$("#groupSelector").append(`<option value="${EQUIPMENT_PANEL.replace(/\s/g, "").toLowerCase()}">${EQUIPMENT_PANEL}</option>`);
 
+	if (className == "barbarian") {
+		const techniqueSlotGroupX = -5350;
+		const techniqueSlotGroupY = 900;
+
+		const techniqueSlotGroupNodeData = new Map([
+			["colorOverride", textColor],
+			["requiredPoints", 0],
+			["widthOverride", 850],
+			["shapeSize", 1],
+			["shapeType", "rectangle"],
+			["x", techniqueSlotGroupX],
+			["y", techniqueSlotGroupY]
+		]);
+
+		drawNode(TECHNIQUE_SLOT, techniqueSlotGroupNodeData);
+
+		const techniqueSlotNodeData = new Map([
+			["allocatedPoints", 0],
+			["description", TECHNIQUE_SLOT_DESC],
+			["id", `techniqueSlot`],
+			["maxPoints", 1],
+			["widthOverride", 850],
+			["shapeSize", 1],
+			["shapeType", "rectangle"],
+			["x", techniqueSlotGroupX],
+			["y", techniqueSlotGroupY + 150]
+		]);
+		drawNode("Weapon Expertise", techniqueSlotNodeData, TECHNIQUE_SLOT);
+
+		// rather than using `pixiNodes.filter(...)` constantly, we just create a pointer reference to the technique slot
+		techniqueSlotNode = pixiNodes[pixiNodes.length - 1];
+
+		$("#groupSelector").append(`<option value="${TECHNIQUE_SLOT.replace(/\s/g, "").toLowerCase()}">${TECHNIQUE_SLOT}</option>`);
+	}
+
 	const sortedCodexItemTypeIndex = {
 		"Legendary": 0,
 		"Unique": 1
@@ -3598,6 +3813,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	eraseTooltip();
 
+	const nodeData = curNode.nodeData;
 	let nodeDesc = debugMode
 		? `x: ${getNodePosition(curNode).join(" / y: ")}`
 		: (curNode.localizedDesc == undefined || curNode.localizedDesc.length == 0)
@@ -3605,7 +3821,7 @@ function drawTooltip(curNode, forceDraw) {
 		: curNode.localizedDesc;
 	if (nodeDesc == undefined) nodeDesc = "";
 
-	const requiredPoints = curNode.nodeData.get("requiredPoints");
+	const requiredPoints = nodeData.get("requiredPoints");
 	if (requiredPoints != undefined) {
 		let missingPoints = requiredPoints;
 		if (curNode.groupName == undefined) {
@@ -3622,26 +3838,29 @@ function drawTooltip(curNode, forceDraw) {
 			nodeDesc = "";
 		}
 	} else {
-		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
+		const allocatedPoints = nodeData.get("allocatedPoints");
+		const activeLocale = readCookie("activeLocale", "enUS");
 		if ([EQUIPMENT_PANEL, CODEX_OF_POWER].includes(curNode.groupName)) {
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchText, captureText) => {
 				const outputText = captureText.split("/");
 				return `[${outputText.join(" - ")}]`;
 			});
+		} else if (curNode.groupName == TECHNIQUE_SLOT) {
+			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchText, captureText) => captureText.split("/").at(-1));
+			if (curNode.localizedBonus != null) nodeDesc += `\n${curNode.localizedBonus}`;
 		} else {
-			const boardIndex = curNode.nodeData.get("_boardIndex");
+			const boardIndex = nodeData.get("_boardIndex");
 
 			const className = $(classString).length == 0 ? "none" : $(classString).val();
 			const classText = className[0].toUpperCase() + className.slice(1);
 
-			const nodeType = curNode.nodeData.get("nodeType");
+			const nodeType = nodeData.get("nodeType");
 			if (nodeType == "Socket") {
 				const paragonGlyphs = paragonData[classText]["Glyph"];
 				if (boardIndex in paragonBoardGlyphData) {
 					const glyphIndex = paragonBoardGlyphData[boardIndex];
 					const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
 					const glyphData = getGlyphData(glyphIndex);
-					const activeLocale = readCookie("activeLocale", "enUS");
 					const localizedGlyphName = activeLocale in glyphData.nameLocalized ? glyphData.nameLocalized[activeLocale] : glyphData.name;
 					const localizedGlyphDesc = (activeLocale in glyphData.descLocalized ? glyphData.descLocalized[activeLocale] : glyphData.desc)
 						.replace(/{(.+?)}/g, (matchText, captureText) => {
@@ -3649,8 +3868,8 @@ function drawTooltip(curNode, forceDraw) {
 						return outputText[glyphRank > 0 ? Math.min(glyphRank, outputText.length) - 1 : 0];
 					});
 					const localizedGlyphBonus = activeLocale in glyphData.bonusLocalized ? glyphData.bonusLocalized[activeLocale] : glyphData.bonus;
-					curNode.nodeData.set("nameOverride", `${curNode.localizedName} [${localizedGlyphName} — Rank ${glyphRank}]`);
-					curNode.nodeData.set("thresholdRequirements", glyphData.thresholdRequirements);
+					nodeData.set("nameOverride", `${curNode.localizedName} [${localizedGlyphName} — Rank ${glyphRank}]`);
+					nodeData.set("thresholdRequirements", glyphData.thresholdRequirements);
 					nodeDesc = `${localizedGlyphDesc}\n\nAdditional Bonus: (if requirements met)\n${localizedGlyphBonus}\n\nRequirements: (purchased in radius range)\n{thresholdRequirements}`;
 				} else {
 					nodeDesc = "Allocate this node to see a list of available glyphs.";
@@ -3666,8 +3885,8 @@ function drawTooltip(curNode, forceDraw) {
 
 			if (!(boardIndex in glyphRadiusAttributeTotals)) glyphRadiusAttributeTotals[boardIndex] = { "Strength": 0, "Intelligence": 0, "Willpower": 0, "Dexterity": 0 };
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchText, captureText) => {
-				if (captureText.includes("thresholdRequirements") && curNode.nodeData.has("thresholdRequirements")) {
-					captureText = curNode.nodeData.get("thresholdRequirements");
+				if (captureText.includes("thresholdRequirements") && nodeData.has("thresholdRequirements")) {
+					captureText = nodeData.get("thresholdRequirements");
 					if (typeof captureText != "string") captureText = captureText[classText];
 					if (typeof captureText != "string") captureText = captureText.join("\n");
 					captureText = captureText.replace(" and ", "\n");
@@ -3706,14 +3925,14 @@ function drawTooltip(curNode, forceDraw) {
 	}
 	if (curNode.displayName == curNode.localizedName && nodeDesc.length == 0) return;
 
-	let nodeHeader = curNode.nodeData.get("nameOverride");
+	let nodeHeader = nodeData.get("nameOverride");
 	if (nodeHeader == undefined) {
 		if (curNode.groupName == EQUIPMENT_PANEL && curNode.slotName != undefined) {
 			nodeHeader = `${curNode.localizedName} (${curNode.slotName})`;
 		} else {
 			nodeHeader = curNode.localizedName;
-			const itemSlot = curNode.nodeData.get("itemSlot");
-			const itemType = curNode.nodeData.get("itemType");
+			const itemSlot = nodeData.get("itemSlot");
+			const itemType = nodeData.get("itemType");
 			if (itemSlot != undefined) {
 				nodeHeader += ` (${itemType} ${itemSlot})`;
 			} else if (itemType != undefined) {
@@ -4040,6 +4259,17 @@ function convertNodeId(nodeData, groupName, decodeBase = false) {
 			const yPosition = convertBase(nodeData.slice(-1), 62, 10);
 			return `paragon-${boardIndex}-${xPosition}-${yPosition}`;
 		}
+	} else if (groupName == ALTARS_OF_LILITH) {
+		if (nodeData.includes("altar")) {
+			if (decodeBase) return nodeData;
+			const altarArray = nodeData.split("-");
+			const altarId = convertBase(altarArray[1], 10, 62);
+			return `a${altarId}`;
+		} else {
+			if (!decodeBase) return nodeData;
+			const altarId = convertBase(nodeData.slice(1), 62, 10);
+			return `altar-${altarId}`;
+		}
 	} else if (groupName == EQUIPMENT_PANEL) {
 		if (nodeData.includes("equip")) {
 			if (decodeBase) return nodeData;
@@ -4061,17 +4291,6 @@ function convertNodeId(nodeData, groupName, decodeBase = false) {
 			if (!decodeBase) return nodeData;
 			const codexId = convertBase(nodeData.slice(1), 62, 10);
 			return `codex-${codexId}`;
-		}
-	} else if (groupName == ALTARS_OF_LILITH) {
-		if (nodeData.includes("altar")) {
-			if (decodeBase) return nodeData;
-			const altarArray = nodeData.split("-");
-			const altarId = convertBase(altarArray[1], 10, 62);
-			return `a${altarId}`;
-		} else {
-			if (!decodeBase) return nodeData;
-			const altarId = convertBase(nodeData.slice(1), 62, 10);
-			return `altar-${altarId}`;
 		}
 	} else {
 		return nodeData;
@@ -4127,6 +4346,8 @@ function rebuildCanvas() {
 	paragonBoardGlyphData = {};
 	paragonBoardGlyphRankData = {};
 	equipmentPanelData = {};
+	techniqueSlotData = null;
+	techniqueSlotNode = null;
 
 	drawBackground();
 	drawAllNodes();

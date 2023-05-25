@@ -2,9 +2,9 @@
 	"Barbarian": {
 		"Expertise": {
 			"Barbarian_WeaponExpertise_1HAxe": {
-				"desc": "+[0.005 * Weapon_Expertise_Level#Axe * 100 ]% increased Critical Strike Chance against Injured enemies. Double this amount when using two Axes.",
+				"desc": "+{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% increased Critical Strike Chance against Injured enemies. Double this amount when using two Axes.",
 				"name": "One-Handed Axe Expertise",
-				"rankup_desc": "Critical Strike Chance against Injured enemies increased to +[0.005 * (1 + Weapon_Expertise_Level#Axe) * 100 ]%."
+				"rankup_desc": "Critical Strike Chance against Injured enemies increased to +{1/1.5/2/2.5/3/3.5/4/4.5/5/5.5}%."
 			},
 			"Barbarian_WeaponExpertise_1HAxe_Bonus_Rank10": {
 				"desc": "Lucky Hit: Critical Strikes have up to a 55% chance to grant +6% increased Attack Speed for 2 seconds. Double the Attack Speed bonus when using two Axes."
@@ -14,9 +14,9 @@
 				"name": "1-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_1HMace": {
-				"desc": "x[0.01 * Weapon_Expertise_Level#Mace * 100]% increased damage to Stunned enemies. Double this amount when using two Maces.",
+				"desc": "x{1/2/3/4/5/6/7/8/9/10}% increased damage to Stunned enemies. Double this amount when using two Maces.",
 				"name": "One-Handed Mace Expertise",
-				"rankup_desc": "Damage to Stunned increased to x[0.01 * (1 + Weapon_Expertise_Level#Mace) * 100]%."
+				"rankup_desc": "Damage to Stunned increased to x{2/3/4/5/6/7/8/9/10/11}%."
 			},
 			"Barbarian_WeaponExpertise_1HMace_Rank10": {
 				"desc": "Lucky Hit: Up to a 10% chance to gain Berserking for 1.5 seconds when you hit a Stunned enemy. Double this chance when using two Maces."
@@ -26,9 +26,9 @@
 				"name": "1-Handed Mace"
 			},
 			"Barbarian_WeaponExpertise_1HSword": {
-				"desc": "Lucky Hit: Up to a [1 * Weapon_Expertise_Level#Sword]% chance to gain 5 Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.",
+				"desc": "Lucky Hit: Up to a {1/2/3/4/5/6/7/8/9/10}% chance to gain 5 Fury when hitting a Crowd Controlled enemy. Double this chance when using two Swords.",
 				"name": "One-Handed Sword Expertise",
-				"rankup_desc": "Chance to activate Lucky Hit increased to [1 * (1 + Weapon_Expertise_Level#Sword)]%."
+				"rankup_desc": "Chance to activate Lucky Hit increased to {2/3/4/5/6/7/8/9/10/11}%."
 			},
 			"Barbarian_WeaponExpertise_1HSword_Rank10": {
 				"desc": "Killing a Crowd Controlled enemy grants +15% increased Attack Speed for 3 seconds. Double this amount for kills with two Swords."
@@ -38,9 +38,9 @@
 				"name": "1-Handed Sword"
 			},
 			"Barbarian_WeaponExpertise_2HAxe": {
-				"desc": "x[0.015 * Weapon_Expertise_Level#Axe2H * 100]% increased damage to Vulnerable enemies.",
+				"desc": "x{1.5/3/4.5/6/7.5/9/10.5/12/13.5/15}% increased damage to Vulnerable enemies.",
 				"name": "Two-Handed Axe Expertise",
-				"rankup_desc": "Damage to Vulnerable enemies increased to x[0.015 * (1 + Weapon_Expertise_Level#Axe2H) * 100]%."
+				"rankup_desc": "Damage to Vulnerable enemies increased to x{3/4.5/6/7.5/9/10.5/12/13.5/15/16.5}%."
 			},
 			"Barbarian_WeaponExpertise_2HAxe_Rank10": {
 				"desc": "+10% increased Critical Strike Chance against Vulnerable enemies."
@@ -50,9 +50,9 @@
 				"name": "2-Handed Axe"
 			},
 			"Barbarian_WeaponExpertise_2HMace": {
-				"desc": "Lucky Hit: Up to [1 * Weapon_Expertise_Level#Mace2H]% chance to gain 2 Fury when hitting an enemy. Double the amount of Fury gained while Berserking.",
+				"desc": "Lucky Hit: Up to {1/2/3/4/5/6/7/8/9/10}% chance to gain 2 Fury when hitting an enemy. Double the amount of Fury gained while Berserking.",
 				"name": "Two-Handed Mace Expertise",
-				"rankup_desc": "Chance to activate Lucky Hit increased to [1 * (1 + Weapon_Expertise_Level#Mace2H)]%."
+				"rankup_desc": "Chance to activate Lucky Hit increased to {2/3/4/5/6/7/8/9/10/11}%."
 			},
 			"Barbarian_WeaponExpertise_2HMace_Rank10": {
 				"desc": "You deal x15% increased Critical Strike Damage to Stunned and Vulnerable enemies while Berserking."
@@ -62,9 +62,9 @@
 				"name": "2-Handed Mace"
 			},
 			"Barbarian_WeaponExpertise_2HPolearm": {
-				"desc": "x[0.01 * Weapon_Expertise_Level#Polearm * 100]% increased Lucky Hit Chance.",
+				"desc": "x{1/2/3/4/5/6/7/8/9/10}% increased Lucky Hit Chance.",
 				"name": "Polearm Expertise",
-				"rankup_desc": "Bonus Lucky Hit Chance increased to x[0.01 * (1 + Weapon_Expertise_Level#Polearm) * 100]%."
+				"rankup_desc": "Bonus Lucky Hit Chance increased to x{2/3/4/5/6/7/8/9/10/11}%."
 			},
 			"Barbarian_WeaponExpertise_2HPolearm_Rank10": {
 				"desc": "You deal +10% increased damage while Healthy."
@@ -74,9 +74,9 @@
 				"name": "Polearm"
 			},
 			"Barbarian_WeaponExpertise_2HSword": {
-				"desc": "+[0.02 * Weapon_Expertise_Level#Sword2H * 100]% of direct damage you deal is inflicted as Bleeding damage over 5 seconds.",
+				"desc": "+{2/4/6/8/10/12/14/16/18/20}% of direct damage you deal is inflicted as Bleeding damage over 5 seconds.",
 				"name": "Two-Handed Sword Expertise",
-				"rankup_desc": "Bleeding damage is increased to +[0.02 * (1 + Weapon_Expertise_Level#Sword2H) * 100]%."
+				"rankup_desc": "Bleeding damage is increased to +{4/6/8/10/12/14/16/18/20/22}%."
 			},
 			"Barbarian_WeaponExpertise_2HSword_Rank10": {
 				"desc": "You deal x30% increased Bleeding damage for 5 seconds after killing an enemy."
