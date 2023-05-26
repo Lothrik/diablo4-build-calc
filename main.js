@@ -3578,7 +3578,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				});
 		}
 		nodeText3 = pixiNodes.length > nodeIndex ? minusContainer.children[0] : new PIXI.Text();
-		nodeText3.text = "-";
+		nodeText3.text = "–";
 		nodeText3.style = {
 			align: "left",
 			dropShadow: hasTextureEnabled,
