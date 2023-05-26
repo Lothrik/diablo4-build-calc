@@ -1525,7 +1525,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-25";
+const localVersion = "0.9.0.41428-26";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1985,7 +1985,8 @@ function onDragStart(event) {
 	pixiDragging = this;
 	this.offsetX = Math.floor(event.global.x / pixiJS.stage.scale.x - pixiDragging.x);
 	this.offsetY = Math.floor(event.global.y / pixiJS.stage.scale.y - pixiDragging.y);
-	this.zIndex = 3;
+	this.__zIndex = this.zIndex;
+	this.zIndex = 9;
 	pixiJS.stage.sortChildren();
 }
 function onDragAllStart(event) {
@@ -2001,7 +2002,8 @@ function onDragAllStart(event) {
 function onDragEnd(event) {
 	if (!debugMode) return onDragAllEnd(event);
 	pixiDragging = null;
-	this.zIndex = 1;
+	this.zIndex = this.__zIndex;
+	delete this.__zIndex;
 	pixiJS.stage.sortChildren();
 }
 function onDragAllEnd(event) {
@@ -3384,6 +3386,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	const _textColor = searchQueryMatch ? searchQueryMatchColor : colorOverride == undefined ? textColor : colorOverride;
 
 	const hasTextureEnabled = ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName);
+	const isActiveSkill = hasTextureEnabled && groupName != KEY_PASSIVE && [1, 5].includes(maxPoints) && nodeData.get("baseSkill") == undefined;
 
 	let extraContainer, extraContainer2, extraContainer3, extraContainer4, extraContainer5;
 	if (extraData != null) {
@@ -3524,7 +3527,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	const nodeText = updateExistingNode ? pixiNodes[nodeIndex].children[1] : new PIXI.Text();
-	nodeText.text = displayName;
+	nodeText.text = isActiveSkill ? nodeName : displayName;
 	nodeText.style = {
 		align: "center",
 		dropShadow: hasTextureEnabled,
@@ -3540,6 +3543,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeText.eventMode = "none";
 	nodeText.scale.set(1 / scaleFactor);
 	nodeText.anchor.set(0.5);
+	const nodeTextInvertAlignment = ["Rapid Fire"]; // ugly workaround, but whatever...
+	if (isActiveSkill) nodeText.y = nodeTextInvertAlignment.includes(nodeName) ? -90 : 90;
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
 	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName) && maxPoints > 1) {
@@ -3816,6 +3821,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 
 		node.cullable = true;
 		node.cursor = maxPoints > 0 ? "pointer" : "auto";
+
+		const forcedLowerIndex = ["Rapid Fire", "Ice Shards"]; // ugly workaround, but whatever...
+		node.zIndex = maxPoints > 0 && !forcedLowerIndex.includes(nodeName) ? maxPoints : 0;
 
 		node.nodeName = nodeName;
 		node.nodeData = nodeData;
@@ -4696,7 +4704,7 @@ function drawTooltip(curNode, forceDraw) {
 	}
 
 	pixiTooltip.nodeIndex = curNode.nodeIndex;
-	pixiTooltip.zIndex = 2;
+	pixiTooltip.zIndex = 9;
 
 	pixiTooltip.scale.set(clampScale);
 	pixiTooltip.addChild(tooltipBackground, tooltipText1, tooltipText2, tooltipCopyContainer, tooltipBorder, tooltipSeperator);
