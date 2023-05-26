@@ -3354,12 +3354,19 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeData.set("_nodeWidth", _nodeWidth);
 	nodeData.set("_nodeHeight", _nodeHeight);
 
+	const allocatedPoints = nodeData.get("allocatedPoints");
+	const maxPoints = nodeData.get("maxPoints");
+	const requiredPoints = nodeData.get("requiredPoints");
+
+	const hasTextureEnabled = ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName);
+	const isActiveSkill = hasTextureEnabled && groupName != KEY_PASSIVE && [1, 5].includes(maxPoints) && nodeData.get("baseSkill") == undefined;
+
 	let displayName = ["Strength", "Intelligence", "Willpower", "Dexterity"].includes(nodeName) ? nodeName[0] : nodeName;
 	let displayNameSize = 36;
 	if (updateExistingNode) {
 		displayName = node.displayName;
 		displayNameSize = node.displayNameSize;
-	} else {
+	} else if (!isActiveSkill) {
 		const maxLabelSize = Math.round(7.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
 		if (displayName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
 		if (displayName.length >= maxLabelSize - 2) displayNameSize = 32;
@@ -3375,18 +3382,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		}
 	}
 
-	const allocatedPoints = nodeData.get("allocatedPoints");
-	const maxPoints = nodeData.get("maxPoints");
-	const requiredPoints = nodeData.get("requiredPoints");
-
 	const searchQueryMatch = nodeData.get("searchQueryMatch");
 	const useThickNodeStyle = searchQueryMatch || (groupName == undefined ? requiredPoints <= getAllocatedSkillPoints(nodeName) : allocatedPoints > 0);
 
 	const colorOverride = nodeData.get("colorOverride");
 	const _textColor = searchQueryMatch ? searchQueryMatchColor : colorOverride == undefined ? textColor : colorOverride;
-
-	const hasTextureEnabled = ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName);
-	const isActiveSkill = hasTextureEnabled && groupName != KEY_PASSIVE && [1, 5].includes(maxPoints) && nodeData.get("baseSkill") == undefined;
 
 	let extraContainer, extraContainer2, extraContainer3, extraContainer4, extraContainer5;
 	if (extraData != null) {
@@ -3527,7 +3527,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	const nodeText = updateExistingNode ? pixiNodes[nodeIndex].children[1] : new PIXI.Text();
-	nodeText.text = isActiveSkill ? nodeName : displayName;
+	nodeText.text = displayName;
 	nodeText.style = {
 		align: "center",
 		dropShadow: hasTextureEnabled,
