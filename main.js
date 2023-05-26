@@ -2319,7 +2319,7 @@ function handleBoardAttachmentNode(curNode) {
 		if (xPosition == 0) {
 			if (gridY > 0) gridTarget = gridLocations[gridX][gridY - 1];
 		} else if (xPosition == 20) {
-			if (gridY < 7) gridTarget = gridLocations[gridX][gridY + 1];
+			if (gridY < 6) gridTarget = gridLocations[gridX][gridY + 1];
 		} else if (yPosition == 0) {
 			if (gridX > 0) gridTarget = gridLocations[gridX - 1][gridY];
 		} else {
