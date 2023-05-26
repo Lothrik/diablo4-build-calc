@@ -2062,11 +2062,11 @@ function resetParagonBoard(boardHeader) {
 	if (pixiTooltip.children.length > 0) eraseTooltip(); // force tooltip erase, mostly for mobile
 }
 const paragonBoardGridCoordinates = {
-	"E": [-6500, -16850], "F": [-3250, -16850], "G": [0, -16850], "H": [3250, -16850], "I": [6500, -16850],
-	"D": [-6500, -13500], "J": [-3250, -13500], "K": [0, -13500], "L": [3250, -13500], "M": [6500, -13500],
-	"C": [-6500, -10150], "7": [-3250, -10150], "8": [0, -10150], "9": [3250, -10150], "N": [6500, -10150],
-	"B": [-6500,  -6800], "4": [-3250,  -6800], "5": [0,  -6800], "6": [3250,  -6800], "O": [6500,  -6800],
-	"A": [-6500,  -3450], "1": [-3250,  -3450], "2": [0,  -3450], "3": [3250,  -3450], "P": [6500,  -3450],
+	"V": [-9750, -16850], "E": [-6500, -16850], "F": [-3250, -16850], "G": [0, -16850], "H": [3250, -16850], "I": [6500, -16850], "U": [9750, -16850],
+	"W": [-9750, -13500], "D": [-6500, -13500], "J": [-3250, -13500], "K": [0, -13500], "L": [3250, -13500], "M": [6500, -13500], "T": [9750, -13500],
+	"X": [-9750, -10150], "C": [-6500, -10150], "7": [-3250, -10150], "8": [0, -10150], "9": [3250, -10150], "N": [6500, -10150], "S": [9750, -10150],
+	"Y": [-9750,  -6800], "B": [-6500,  -6800], "4": [-3250,  -6800], "5": [0,  -6800], "6": [3250,  -6800], "O": [6500,  -6800], "R": [9750,  -6800],
+	"Z": [-9750,  -3450], "A": [-6500,  -3450], "1": [-3250,  -3450], "2": [0,  -3450], "3": [3250,  -3450], "P": [6500,  -3450], "Q": [9750,  -3450],
 };
 let paragonBoardGridData = {};
 function moveParagonBoard(boardIndex, forcedGridLocation = null) {
@@ -2077,11 +2077,11 @@ function moveParagonBoard(boardIndex, forcedGridLocation = null) {
 	if (forcedGridLocation == null) {
 		const currentGridLocation = paragonBoardGridData[boardIndex];
 		const promptInput = prompt(PARAGON_BOARD_GRID_PROMPT_PREFIX + `[${boardHeader.nodeName}]` + PARAGON_BOARD_GRID_PROMPT_SUFFIX
-			+ "E F G H I\n"
-			+ "D J K L M\n"
-			+ "C 7 8 9 N\n"
-			+ "B 4 5 6 O\n"
-			+ "A 1 2 3 P\n"
+			+ "V E F G H I U\n"
+			+ "W D J K L M T\n"
+			+ "X C 7 8 9 N S\n"
+			+ "Y B 4 5 6 O R\n"
+			+ "Z A 1 2 3 P Q\n"
 			+ PARAGON_BOARD_GRID_PROMPT_END, currentGridLocation == undefined ? "0" : currentGridLocation);
 		if (promptInput == null) return;
 		gridLocation = String(promptInput).toUpperCase();
@@ -2299,14 +2299,14 @@ function handleBoardAttachmentNode(curNode) {
 	const nodeData = curNode.nodeData;
 
 	const boardIndex = nodeData.get("_boardIndex");
-	const gridLocations = [["E", "F", "G", "H", "I"],
-						   ["D", "J", "K", "L", "M"],
-						   ["C", "7", "8", "9", "N"],
-						   ["B", "4", "5", "6", "O"],
-						   ["A", "1", "2", "3", "P"]];
+	const gridLocations = [["V", "E", "F", "G", "H", "I", "U"],
+						   ["W", "D", "J", "K", "L", "M", "T"],
+						   ["X", "C", "7", "8", "9", "N", "S"],
+						   ["Y", "B", "4", "5", "6", "O", "R"],
+						   ["Z", "A", "1", "2", "3", "P", "Q"]];
 	let gridTarget = null;
 	if (boardIndex == 0) {
-		gridTarget = gridLocations[4][2];
+		gridTarget = gridLocations[4][3];
 	} else if (boardIndex in paragonBoardGridData) {
 		const gridLocation = String(paragonBoardGridData[boardIndex]);
 		const _nodeId = nodeData.get("id").split("-");
@@ -2319,7 +2319,7 @@ function handleBoardAttachmentNode(curNode) {
 		if (xPosition == 0) {
 			if (gridY > 0) gridTarget = gridLocations[gridX][gridY - 1];
 		} else if (xPosition == 20) {
-			if (gridY < 4) gridTarget = gridLocations[gridX][gridY + 1];
+			if (gridY < 7) gridTarget = gridLocations[gridX][gridY + 1];
 		} else if (yPosition == 0) {
 			if (gridX > 0) gridTarget = gridLocations[gridX - 1][gridY];
 		} else {
