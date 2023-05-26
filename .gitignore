@@ -1,2 +1,5 @@
+images/blizzard/
+*.exe
+*.ps1
 *.py
 *.pyc

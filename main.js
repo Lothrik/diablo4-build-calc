@@ -237,15 +237,6 @@ const sortedCodexCategoryTypes = [
 	"Unknown"
 ];
 
-/*
-const NODE_CIRCLE_ACTIVE = PIXI.Texture.from("images/node_circle_active.png");
-const NODE_CIRCLE_INACTIVE = PIXI.Texture.from("images/node_circle_inactive.png");
-const NODE_DIAMOND_ACTIVE = PIXI.Texture.from("images/node_diamond_active.png");
-const NODE_DIAMOND_INACTIVE = PIXI.Texture.from("images/node_diamond_inactive.png");
-const NODE_SQUARE_ACTIVE = PIXI.Texture.from("images/node_square_active.png");
-const NODE_SQUARE_INACTIVE = PIXI.Texture.from("images/node_square_inactive.png");
-*/
-
 var pixiTooltipZoomLevel = 1; // configured via handleZoomButton
 
 const pixiScalingFloor = devicePixelRatio < 2 ? 0.15 : 0.1;
@@ -352,6 +343,614 @@ PIXI.Graphics.prototype.updateLineStyle = function({ alpha = null, cap = null, c
 	});
 	if (styleChanged) {
 		this.geometry.invalidate();
+	}
+}
+var PIXI_TEXTURES = {};
+function rebuildTextures() {
+	const className = $(classString).length == 0 ? "none" : $(classString).val();
+	PIXI_TEXTURES = {
+		NODE_PASSIVE: PIXI.Texture.from("images/tree/node_passive.png"),
+		NODE_PASSIVE_ALLOCATED: PIXI.Texture.from("images/tree/node_passive_allocated.png"),
+		NODE_ACTIVE_SKILL: PIXI.Texture.from("images/tree/node_active_skill.png"),
+		NODE_ACTIVE_SKILL_ALLOCATED: PIXI.Texture.from("images/tree/node_active_skill_allocated.png"),
+		NODE_ACTIVE_SKILL_MODIFIER: PIXI.Texture.from("images/tree/node_active_skill_modifier.png"),
+		NODE_ACTIVE_SKILL_MODIFIER_ALLOCATED: PIXI.Texture.from("images/tree/node_active_skill_modifier_allocated.png"),
+		NODE_GROUP: PIXI.Texture.from("images/tree/node_group.png"),
+		NODE_GROUP_ALLOCATED: PIXI.Texture.from("images/tree/node_group_allocated.png"),
+		NODE_KEY_PASSIVE: PIXI.Texture.from("images/tree/node_key_passive.png"),
+		NODE_KEY_PASSIVE_ALLOCATED: PIXI.Texture.from("images/tree/node_key_passive_allocated.png"),
+		GLYPH_RADIUS_INDICATOR: PIXI.Texture.from("images/tree/glyph_overlay.png"),
+	}
+	if (className == "barbarian") {
+		PIXI_TEXTURES = {
+			...PIXI_TEXTURES,
+			BASH: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_1.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_2.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_3.png")
+			},
+			GROUND_STOMP: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_5.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_6.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_7.png")
+			},
+			HAMMER_OF_THE_ANCIENTS: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_9.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_10.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_11.png")
+			},
+			CHARGE: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_18.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_19.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_17.png")
+			},
+			DOUBLE_SWING: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_22.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_23.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_21.png")
+			},
+			STEEL_GRASP: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_26.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_27.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_25.png")
+			},
+			KICK: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_30.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_31.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_29.png")
+			},
+			LEAP: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_34.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_35.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_33.png")
+			},
+			WHIRLWIND: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_38.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_39.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_37.png")
+			},
+			FRENZY: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_42.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_43.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_41.png")
+			},
+			DEATH_BLOW: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_46.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_47.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_45.png")
+			},
+			IRON_MAELSTROM: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_50.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_51.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_49.png")
+			},
+			REND: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_54.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_55.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_53.png")
+			},
+			WRATH_OF_THE_BERSERKER: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_58.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_59.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_57.png")
+			},
+			UPHEAVAL: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_62.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_63.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_61.png")
+			},
+			RUPTURE: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_66.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_67.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_65.png")
+			},
+			RALLYING_CRY: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_70.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_71.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_69.png")
+			},
+			FLAY: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_74.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_75.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_73.png")
+			},
+			LUNGING_STRIKE: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_78.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_79.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_77.png")
+			},
+			IRON_SKIN: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_82.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_83.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_81.png")
+			},
+			WAR_CRY: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_86.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_87.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_85.png")
+			},
+			CHALLENGING_SHOUT: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_89.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_88.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_90.png")
+			},
+			CALL_OF_THE_ANCIENTS: {
+				MAX: PIXI.Texture.from("images/tree/barbarian_93.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/barbarian_92.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/barbarian_94.png")
+			}
+		}
+	} else if (className == "druid") {
+		PIXI_TEXTURES = {
+			...PIXI_TEXTURES,
+			BOULDER: {
+				MAX: PIXI.Texture.from("images/tree/druid_2.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_3.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_1.png")
+			},
+			CATACLYSM: {
+				MAX: PIXI.Texture.from("images/tree/druid_6.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_7.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_5.png")
+			},
+			CYCLONE_ARMOR: {
+				MAX: PIXI.Texture.from("images/tree/druid_10.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_11.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_9.png")
+			},
+			DEBILITATING_ROAR: {
+				MAX: PIXI.Texture.from("images/tree/druid_14.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_15.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_13.png")
+			},
+			EARTHEN_BULWARK: {
+				MAX: PIXI.Texture.from("images/tree/druid_18.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_19.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_17.png")
+			},
+			EARTH_SPIKE: {
+				MAX: PIXI.Texture.from("images/tree/druid_22.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_23.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_21.png")
+			},
+			GRIZZLY_RAGE: {
+				MAX: PIXI.Texture.from("images/tree/druid_26.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_27.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_25.png")
+			},
+			HURRICANE: {
+				MAX: PIXI.Texture.from("images/tree/druid_30.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_31.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_29.png")
+			},
+			LACERATE: {
+				MAX: PIXI.Texture.from("images/tree/druid_34.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_35.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_33.png")
+			},
+			LANDSLIDE: {
+				MAX: PIXI.Texture.from("images/tree/druid_38.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_39.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_37.png")
+			},
+			MAUL: {
+				MAX: PIXI.Texture.from("images/tree/druid_42.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_43.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_41.png")
+			},
+			PETRIFY: {
+				MAX: PIXI.Texture.from("images/tree/druid_46.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_47.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_45.png")
+			},
+			PULVERIZE: {
+				MAX: PIXI.Texture.from("images/tree/druid_50.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_51.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_49.png")
+			},
+			RAVENS: {
+				MAX: PIXI.Texture.from("images/tree/druid_54.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_55.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_53.png")
+			},
+			STORM_STRIKE: {
+				MAX: PIXI.Texture.from("images/tree/druid_58.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_59.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_57.png")
+			},
+			TORNADO: {
+				MAX: PIXI.Texture.from("images/tree/druid_62.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_63.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_61.png")
+			},
+			TRAMPLE: {
+				MAX: PIXI.Texture.from("images/tree/druid_66.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_67.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_65.png")
+			},
+			POISON_CREEPER: {
+				MAX: PIXI.Texture.from("images/tree/druid_70.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_71.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_69.png")
+			},
+			WIND_SHEAR: {
+				MAX: PIXI.Texture.from("images/tree/druid_74.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_75.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_73.png")
+			},
+			WOLVES: {
+				MAX: PIXI.Texture.from("images/tree/druid_78.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_79.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_77.png")
+			},
+			CLAW: {
+				MAX: PIXI.Texture.from("images/tree/druid_82.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_83.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_81.png")
+			},
+			BLOOD_HOWL: {
+				MAX: PIXI.Texture.from("images/tree/druid_86.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_87.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_85.png")
+			},
+			RABIES: {
+				MAX: PIXI.Texture.from("images/tree/druid_90.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_91.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_89.png")
+			},
+			SHRED: {
+				MAX: PIXI.Texture.from("images/tree/druid_94.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_95.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_93.png")
+			},
+			LIGHTNING_STORM: {
+				MAX: PIXI.Texture.from("images/tree/druid_97.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/druid_96.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/druid_98.png")
+			}
+		}
+	} else if (className == "necromancer") {
+		PIXI_TEXTURES = {
+			...PIXI_TEXTURES,
+			ARMY_OF_THE_DEAD: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_2.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_3.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_1.png")
+			},
+			BLIGHT: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_6.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_7.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_5.png")
+			},
+			BLOOD_LANCE: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_10.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_11.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_9.png")
+			},
+			BLOOD_MIST: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_14.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_15.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_13.png")
+			},
+			BLOOD_SURGE: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_18.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_19.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_17.png")
+			},
+			BLOOD_WAVE: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_22.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_23.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_21.png")
+			},
+			BONE_SPEAR: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_26.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_27.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_25.png")
+			},
+			BONE_SPIRIT: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_30.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_31.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_29.png")
+			},
+			BONE_SPLINTERS: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_34.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_35.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_33.png")
+			},
+			BONE_STORM: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_38.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_39.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_37.png")
+			},
+			BONE_PRISON: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_42.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_43.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_41.png")
+			},
+			CORPSE_EXPLOSION: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_46.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_47.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_45.png")
+			},
+			CORPSE_TENDRILS: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_50.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_51.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_49.png")
+			},
+			DECOMPOSE: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_54.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_55.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_53.png")
+			},
+			DECREPIFY: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_58.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_59.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_57.png")
+			},
+			HEMORRHAGE: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_66.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_67.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_65.png")
+			},
+			IRON_MAIDEN: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_70.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_71.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_69.png")
+			},
+			REAP: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_74.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_75.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_73.png")
+			},
+			SEVER: {
+				MAX: PIXI.Texture.from("images/tree/necromancer_78.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/necromancer_79.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/necromancer_77.png")
+			}
+		}
+	} else if (className == "rogue") {
+		PIXI_TEXTURES = {
+			...PIXI_TEXTURES,
+			SMOKE_GRENADE: {
+				MAX: PIXI.Texture.from("images/tree/rogue_0.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_1.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_213.png")
+			},
+			DASH: {
+				MAX: PIXI.Texture.from("images/tree/rogue_4.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_5.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_3.png")
+			},
+			FLURRY: {
+				MAX: PIXI.Texture.from("images/tree/rogue_19.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_20.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_18.png")
+			},
+			HEARTSEEKER: {
+				MAX: PIXI.Texture.from("images/tree/rogue_35.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_36.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_34.png")
+			},
+			COLD_IMBUEMENT: {
+				MAX: PIXI.Texture.from("images/tree/rogue_51.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_52.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_50.png")
+			},
+			POISON_IMBUEMENT: {
+				MAX: PIXI.Texture.from("images/tree/rogue_55.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_56.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_54.png")
+			},
+			SHADOW_IMBUEMENT: {
+				MAX: PIXI.Texture.from("images/tree/rogue_59.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_60.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_58.png")
+			},
+			PENETRATING_SHOT: {
+				MAX: PIXI.Texture.from("images/tree/rogue_63.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_64.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_62.png")
+			},
+			PUNCTURE: {
+				MAX: PIXI.Texture.from("images/tree/rogue_79.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_80.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_78.png")
+			},
+			RAPID_FIRE: {
+				MAX: PIXI.Texture.from("images/tree/rogue_95.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_96.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_94.png")
+			},
+			SHADOW_CLONE: {
+				MAX: PIXI.Texture.from("images/tree/rogue_111.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_112.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_110.png")
+			},
+			SHADOW_STEP: {
+				MAX: PIXI.Texture.from("images/tree/rogue_115.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_116.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_114.png")
+			},
+			CALTROPS: {
+				MAX: PIXI.Texture.from("images/tree/rogue_131.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_132.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_130.png")
+			},
+			BLADE_SHIFT: {
+				MAX: PIXI.Texture.from("images/tree/rogue_135.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_136.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_134.png")
+			},
+			TWISTING_BLADES: {
+				MAX: PIXI.Texture.from("images/tree/rogue_151.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_152.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_150.png")
+			},
+			FORCEFUL_ARROW: {
+				MAX: PIXI.Texture.from("images/tree/rogue_167.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_168.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_166.png")
+			},
+			RAIN_OF_ARROWS: {
+				MAX: PIXI.Texture.from("images/tree/rogue_183.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_184.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_182.png")
+			},
+			INVIGORATING_STRIKE: {
+				MAX: PIXI.Texture.from("images/tree/rogue_199.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_200.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_198.png")
+			},
+			BARRAGE: {
+				MAX: PIXI.Texture.from("images/tree/rogue_217.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_218.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_216.png")
+			},
+			DEATH_TRAP: {
+				MAX: PIXI.Texture.from("images/tree/rogue_237.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_238.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_236.png")
+			},
+			POISON_TRAP: {
+				MAX: PIXI.Texture.from("images/tree/rogue_241.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_242.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_240.png")
+			},
+			CONCEALMENT: {
+				MAX: PIXI.Texture.from("images/tree/rogue_249.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_248.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_250.png")
+			},
+			DARK_SHROUD: {
+				MAX: PIXI.Texture.from("images/tree/rogue_253.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/rogue_252.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/rogue_254.png")
+			}
+		}
+	} else if (className == "sorcerer") {
+		PIXI_TEXTURES = {
+			...PIXI_TEXTURES,
+			CHARGED_BOLTS: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_2.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_3.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_1.png")
+			},
+			TELEPORT: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_6.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_7.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_5.png")
+			},
+			FIREWALL: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_10.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_11.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_9.png")
+			},
+			INFERNO: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_14.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_15.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_13.png")
+			},
+			SPARK: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_18.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_19.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_17.png")
+			},
+			FIREBALL: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_22.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_23.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_21.png")
+			},
+			LIGHTNING_SPEAR: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_26.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_27.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_25.png")
+			},
+			BALL_LIGHTNING: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_34.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_35.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_33.png")
+			},
+			CHAIN_LIGHTNING: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_38.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_39.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_37.png")
+			},
+			FLAME_SHIELD: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_42.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_43.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_41.png")
+			},
+			ICE_ARMOR: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_45.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_46.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_47.png")
+			},
+			BLIZZARD: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_50.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_51.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_49.png")
+			},
+			ARC_LASH: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_54.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_55.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_53.png")
+			},
+			DEEP_FREEZE: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_58.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_59.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_57.png")
+			},
+			FIRE_BOLT: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_66.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_67.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_65.png")
+			},
+			FROST_BOLT: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_70.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_71.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_69.png")
+			},
+			FROST_NOVA: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_74.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_75.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_73.png")
+			},
+			FROZEN_ORB: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_78.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_79.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_77.png")
+			},
+			HYDRA: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_82.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_83.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_81.png")
+			},
+			ICE_BLADES: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_86.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_87.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_85.png")
+			},
+			ICE_SHARDS: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_90.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_91.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_89.png")
+			},
+			INCINERATE: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_94.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_95.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_93.png")
+			},
+			METEOR: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_98.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_99.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_97.png")
+			},
+			UNSTABLE_CURRENTS: {
+				MAX: PIXI.Texture.from("images/tree/sorcerer_106.png"),
+				ALLOCATED: PIXI.Texture.from("images/tree/sorcerer_107.png"),
+				UNALLOCATED: PIXI.Texture.from("images/tree/sorcerer_105.png")
+			}
+		}
 	}
 }
 function setNodeStyleThick(curNode) {
@@ -926,7 +1525,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-24";
+const localVersion = "0.9.0.41428-25";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -961,14 +1560,15 @@ function handleIntervalEvent() {
 
 	while (pixiEventQueue.length > 0) (pixiEventQueue.shift())();
 
-	if (frameTimer != null && Date.now() - frameTimer > 800) {
+	if (frameTimer != null && Date.now() - frameTimer > 1200) {
 		frameTimer = null;
-		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
-		// skip `redrawAllNodes` on high pixel density devices
-		if (devicePixelRatio < 2) redrawAllNodes(true);
+		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [2, 2];
+		// disabled for now as it causes performance issues and doesn't really help much anyway, might be worth debugging later
+		//if (devicePixelRatio < 2) redrawAllNodes(true);
 	}
 }
 function handleCanvasEvent(event) {
+	resetFrameTimer();
 	switch (event.type) {
 		case "mousedown":
 		case "touchstart":
@@ -1033,7 +1633,6 @@ function handleCanvasEvent(event) {
 			stageScale = pixiJS.stage.scale.x;
 		}
 	}
-	resetFrameTimer();
 }
 function handleClassSelection(event, postHookFunction = null) {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
@@ -2087,15 +2686,28 @@ function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
 	const startPoints = startNode.nodeData.get("allocatedPoints") || 0;
 	const endPoints = endNode.nodeData.get("allocatedPoints") || 0;
 	if (startNode.groupName == undefined && endNode.groupName == undefined) {
-		const requiredPointsStart = startNode.nodeData.get("requiredPoints");
-		const requiredPointsEnd = endNode.nodeData.get("requiredPoints");
-		const validConnection = requiredPointsStart <= getAllocatedSkillPoints(startNode.nodeName) && requiredPointsEnd <= getAllocatedSkillPoints(endNode.nodeName);
-		if (validConnection) {
+		const startHasRequiredPointsAllocated = startNode.nodeData.get("requiredPoints") <= getAllocatedSkillPoints(startNode.nodeName);
+		const endHasRequiredPointsAllocated = endNode.nodeData.get("requiredPoints") <= getAllocatedSkillPoints(endNode.nodeName);
+
+		if (startHasRequiredPointsAllocated && endHasRequiredPointsAllocated) {
 			nodeConnector.lineStyle(lineStyleThickButt);
 			nodeConnector.updateLineStyle(lineStyleThickButt);
 		} else {
 			nodeConnector.lineStyle(lineStyleThinButt);
 			nodeConnector.updateLineStyle(lineStyleThinButt);
+		}
+
+		const startTexture = startHasRequiredPointsAllocated ? PIXI_TEXTURES.NODE_GROUP_ALLOCATED : PIXI_TEXTURES.NODE_GROUP;
+		if (startNode.children[0].children[1].texture != startTexture) {
+			startNode.children[0].children[1].texture = startTexture;
+			startNode.scaleFactor = -1; // force redraw
+			redrawNode(startNode);
+		}
+		const endTexture = endHasRequiredPointsAllocated ? PIXI_TEXTURES.NODE_GROUP_ALLOCATED : PIXI_TEXTURES.NODE_GROUP;
+		if (endNode.children[0].children[1].texture != endTexture) {
+			endNode.children[0].children[1].texture = endTexture;
+			endNode.scaleFactor = -1; // force redraw
+			redrawNode(endNode);
 		}
 	} else if ((startNode.groupName == undefined && endPoints > 0) || (endNode.groupName == undefined && startPoints > 0) || (startPoints > 0 && endPoints > 0)) {
 		nodeConnector.lineStyle(lineStyleThickButt);
@@ -2128,26 +2740,49 @@ function updateNodePoints(curNode, newPoints) {
 
 		const shapeType = curNode.nodeData.get("shapeType");
 		if (newPoints == 0) {
-			/*if (curNode.children[0].children.length > 1) {
-				if (shapeType == "circle") {
-					curNode.children[0].children[1].texture = NODE_CIRCLE_INACTIVE;
-				} else if (shapeType == "diamond") {
-					curNode.children[0].children[1].texture = NODE_DIAMOND_INACTIVE;
+			if (curNode.children[0].children.length > 1 && curNode.nodeData.get("nodeType") != "Socket") {
+				let [newTexture, newIcon] = [null, null];
+				if (curNode.nodeData.get("baseSkill") != undefined) {
+					newTexture = PIXI_TEXTURES.NODE_ACTIVE_SKILL_MODIFIER;
+				} else if (curNode.nodeData.get("maxPoints") == 3) {
+					newTexture = PIXI_TEXTURES.NODE_PASSIVE;
+				} else if (curNode.groupName == KEY_PASSIVE) {
+					newTexture = PIXI_TEXTURES.NODE_KEY_PASSIVE;
 				} else {
-					curNode.children[0].children[1].texture = NODE_SQUARE_INACTIVE;
+					newTexture = PIXI_TEXTURES.NODE_ACTIVE_SKILL;
+					const _nodeName = curNode.nodeName.toUpperCase().replaceAll(" ", "_");
+					if (_nodeName in PIXI_TEXTURES) newIcon = PIXI_TEXTURES[_nodeName].UNALLOCATED;
 				}
-			}*/
+				if (curNode.children[0].children[1].texture != newTexture) {
+					curNode.children[0].children[1].texture = newTexture;
+					if (newIcon != null) curNode.children[0].children[2].texture = newIcon;
+					curNode.scaleFactor = -1; // force redraw
+					redrawNode(curNode);
+				}
+			}
 			setNodeStyleThin(curNode);
 		} else {
-			/*if (curNode.children[0].children.length > 1) {
-				if (shapeType == "circle") {
-					curNode.children[0].children[1].texture = NODE_CIRCLE_ACTIVE;
-				} else if (shapeType == "diamond") {
-					curNode.children[0].children[1].texture = NODE_DIAMOND_ACTIVE;
+			if (curNode.children[0].children.length > 1 && curNode.nodeData.get("nodeType") != "Socket") {
+				let [newTexture, newIcon] = [null, null];
+				if (curNode.nodeData.get("baseSkill") != undefined) {
+					newTexture = PIXI_TEXTURES.NODE_ACTIVE_SKILL_MODIFIER_ALLOCATED;
+				} else if (curNode.nodeData.get("maxPoints") == 3) {
+					newTexture = PIXI_TEXTURES.NODE_PASSIVE_ALLOCATED;
+				} else if (curNode.groupName == KEY_PASSIVE) {
+					newTexture = PIXI_TEXTURES.NODE_KEY_PASSIVE_ALLOCATED;
 				} else {
-					curNode.children[0].children[1].texture = NODE_SQUARE_ACTIVE;
+					newTexture = PIXI_TEXTURES.NODE_ACTIVE_SKILL_ALLOCATED;
+					const _nodeName = curNode.nodeName.toUpperCase().replaceAll(" ", "_");
+					if (_nodeName in PIXI_TEXTURES) newIcon = newPoints == maxPoints ? PIXI_TEXTURES[_nodeName].MAX : PIXI_TEXTURES[_nodeName].ALLOCATED;
 				}
-			}*/
+				if (curNode.children[0].children[1].texture != newTexture
+					|| (newIcon != null && curNode.children[0].children[2].texture != newIcon)) {
+					curNode.children[0].children[1].texture = newTexture;
+					if (newIcon != null) curNode.children[0].children[2].texture = newIcon;
+					curNode.scaleFactor = -1; // force redraw
+					redrawNode(curNode);
+				}
+			}
 			setNodeStyleThick(curNode);
 		}
 
@@ -2748,6 +3383,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	const colorOverride = nodeData.get("colorOverride");
 	const _textColor = searchQueryMatch ? searchQueryMatchColor : colorOverride == undefined ? textColor : colorOverride;
 
+	const hasTextureEnabled = ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName);
+
 	let extraContainer, extraContainer2, extraContainer3, extraContainer4, extraContainer5;
 	if (extraData != null) {
 		if (groupName == PARAGON_BOARD) {
@@ -2890,6 +3527,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeText.text = displayName;
 	nodeText.style = {
 		align: "center",
+		dropShadow: hasTextureEnabled,
+		dropShadowBlur: 4,
+		dropShadowDistance: 0,
 		fill: _textColor,
 		fontFamily: fontFamily,
 		fontSize: displayNameSize * scaleFactor * (_nodeWidth > 400 ? 1.5 : _nodeWidth > 300 ? 1.15 : 1) * (groupName == ALTARS_OF_LILITH ? 1.3 : 1),
@@ -2907,6 +3547,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText2.text = allocatedPoints + "/" + maxPoints;
 		nodeText2.style = {
 			align: "right",
+			dropShadow: hasTextureEnabled,
+			dropShadowBlur: 4,
+			dropShadowDistance: 0,
 			fill: _textColor,
 			fontFamily: fontFamily,
 			fontSize: 24 * scaleFactor,
@@ -2917,7 +3560,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText2.eventMode = "none";
 		nodeText2.scale.set(1 / scaleFactor);
 		nodeText2.anchor.set(1, 0);
-		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 - 10;
+		nodeText2.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 - 8;
 		nodeText2.y = -(_nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? 1 : 7);
 
 		minusContainer = updateExistingNode ? pixiNodes[nodeIndex].children[3] : new PIXI.Container();
@@ -2935,9 +3578,12 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				});
 		}
 		nodeText3 = pixiNodes.length > nodeIndex ? minusContainer.children[0] : new PIXI.Text();
-		nodeText3.text = "–";
+		nodeText3.text = "-";
 		nodeText3.style = {
 			align: "left",
+			dropShadow: hasTextureEnabled,
+			dropShadowBlur: 4,
+			dropShadowDistance: 0,
 			fill: _textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleFactor,
@@ -2948,7 +3594,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText3.eventMode = "auto";
 		nodeText3.scale.set(1 / scaleFactor);
 		nodeText3.anchor.set(0, 1);
-		nodeText3.x = -(_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 9;
+		nodeText3.x = -(_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 8;
 		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? 3 : -5);
 		if (!updateExistingNode) minusContainer.addChild(nodeText3);
 
@@ -2970,6 +3616,9 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText4.text = "+";
 		nodeText4.style = {
 			align: "right",
+			dropShadow: hasTextureEnabled,
+			dropShadowBlur: 4,
+			dropShadowDistance: 0,
 			fill: _textColor,
 			fontFamily: fontFamilyOverride,
 			fontSize: 48 * scaleFactor,
@@ -2980,7 +3629,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText4.eventMode = "auto";
 		nodeText4.scale.set(1 / scaleFactor);
 		nodeText4.anchor.set(1, 1);
-		nodeText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 - 5;
+		nodeText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 - 2;
 		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? 7 : -1);
 		if (!updateExistingNode) plusContainer.addChild(nodeText4);
 	}
@@ -3048,30 +3697,52 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	if (nodeData.get("nodeType") == "Socket") {
-		const glyphOutline = updateExistingNode ? nodeContainer.children[nodeContainer.children.length - 1] : new PIXI.Sprite(PIXI.Texture.from("images/glyph_overlay.png"));
+		const glyphOutline = updateExistingNode ? nodeContainer.children[nodeContainer.children.length - 1] : new PIXI.Sprite(PIXI_TEXTURES.GLYPH_RADIUS_INDICATOR);
 		glyphOutline.pivot.x = 695;
 		glyphOutline.pivot.y = 695;
 		glyphOutline.eventMode = "none";
 		if (!updateExistingNode) nodeContainer.addChild(glyphOutline);
 	}
 
-	/*
-	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName)) {
-		let nodeImage;
-		if (shapeType == "circle") {
-			//nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_CIRCLE_ACTIVE : NODE_CIRCLE_INACTIVE);
-		} else if (shapeType == "diamond") {
-			nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_DIAMOND_ACTIVE : NODE_DIAMOND_INACTIVE);
+	if (hasTextureEnabled) {
+		let [nodeTexture, nodeIcon] = [null, null];
+		if (updateExistingNode) {
+			nodeTexture = nodeContainer.children[1];
+			nodeTexture = nodeContainer.children[2];
 		} else {
-			nodeImage = new PIXI.Sprite(allocatedPoints > 0 ? NODE_SQUARE_ACTIVE : NODE_SQUARE_INACTIVE);
+			if (nodeData.get("baseSkill") != undefined) {
+				nodeTexture = new PIXI.Sprite(PIXI_TEXTURES.NODE_ACTIVE_SKILL_MODIFIER);
+				nodeTexture.scale.set(1.1);
+			} else if (nodeData.get("maxPoints") == 3) {
+				nodeTexture = new PIXI.Sprite(PIXI_TEXTURES.NODE_PASSIVE);
+				nodeTexture.scale.set(1.25);
+			} else if (groupName == KEY_PASSIVE) {
+				nodeTexture = new PIXI.Sprite(PIXI_TEXTURES.NODE_KEY_PASSIVE);
+				nodeTexture.scale.set(0.9);
+			} else if (nodeData.get("shapeType") == "diamond") {
+				nodeTexture = new PIXI.Sprite(PIXI_TEXTURES.NODE_GROUP);
+				nodeTexture.scale.set(0.9);
+			} else if (groupName != undefined) {
+				nodeTexture = new PIXI.Sprite(PIXI_TEXTURES.NODE_ACTIVE_SKILL);
+				nodeTexture.scale.set(0.9);
+				const _nodeName = nodeName.toUpperCase().replaceAll(" ", "_");
+				if (_nodeName in PIXI_TEXTURES) {
+					nodeIcon = new PIXI.Sprite(PIXI_TEXTURES[_nodeName].UNALLOCATED);
+					nodeIcon.scale.set(0.95);
+				}
+			}
 		}
-		nodeImage.eventMode = "none";
-		if (nodeImage != undefined) {
-			nodeImage.anchor.set(0.5);
-			nodeContainer.addChild(nodeImage);
+		if (nodeTexture != null) {
+			nodeTexture.eventMode = "none";
+			nodeTexture.anchor.set(0.5);
+			nodeContainer.addChild(nodeTexture);
+		}
+		if (nodeIcon != null) {
+			nodeIcon.eventMode = "none";
+			nodeIcon.anchor.set(0.5);
+			nodeContainer.addChild(nodeIcon);
 		}
 	}
-	*/
 
 	if (shapeType == "diamond") {
 		nodeBackground.angle = 45;
@@ -3239,8 +3910,8 @@ function drawAllNodes() {
 			if (branchData.get("requiredPoints") != undefined) {
 				groupNode.set("description", REQUIRED_POINTS_DESC);
 			}
-			groupNode.set("shapeSize", 1 / Math.SQRT2 * 1.5);
-			groupNode.set("shapeType", "circle");
+			groupNode.set("shapeSize", 1.8);
+			groupNode.set("shapeType", "diamond");
 			groupNode.set("requiredPoints", branchData.get("requiredPoints") || 0);
 			groupNode.set("x", branchData.get("x"));
 			groupNode.set("y", branchData.get("y"));
@@ -3388,29 +4059,28 @@ function drawAllNodes() {
 				drawNode(groupName, groupNode);
 				pixiAllocatedPoints.set(groupName, 0);
 				for (const [nodeName, nodeData] of groupData) {
-					const curNode = groupData.get(nodeName);
-					curNode.set("allocatedPoints", 0);
-					if (curNode.get("baseSkill") != undefined) {
+					nodeData.set("allocatedPoints", 0);
+					if (nodeData.get("baseSkill") != undefined) {
 						// active skill modifier
-						curNode.set("shapeType", "diamond");
-						curNode.set("shapeSize", 0.75);
-					} else if (curNode.get("maxPoints") == 3) {
+						nodeData.set("shapeType", "diamond");
+						nodeData.set("shapeSize", 0.75);
+					} else if (nodeData.get("maxPoints") == 3) {
 						// passive skill
-						curNode.set("shapeType", "circle");
-						curNode.set("shapeSize", 1 / Math.SQRT2 * 0.9);
+						nodeData.set("shapeType", "circle");
+						nodeData.set("shapeSize", 1 / Math.SQRT2 * 0.9);
 					} else if (groupName == KEY_PASSIVE) {
-						curNode.set("shapeType", "circle");
-						curNode.set("shapeSize", 1 / Math.SQRT2 * 1.1);
+						nodeData.set("shapeType", "circle");
+						nodeData.set("shapeSize", 1 / Math.SQRT2 * 1.1);
 					} else {
 						// active skill
-						curNode.set("shapeType", "rectangle");
-						curNode.set("shapeSize", 1.3);
+						nodeData.set("shapeType", "rectangle");
+						nodeData.set("shapeSize", 1.3);
 					}
-					if (curNode.get("maxPoints") == undefined) {
+					if (nodeData.get("maxPoints") == undefined) {
 						// default to 5 max points, if unspecified
-						curNode.set("maxPoints", 5);
+						nodeData.set("maxPoints", 5);
 					}
-					drawNode(nodeName, curNode, groupName, branchData);
+					drawNode(nodeName, nodeData, groupName, branchData);
 				}
 			}
 		}
@@ -3428,7 +4098,7 @@ function drawAllNodes() {
 		const paragonNode = new Map([
 			["colorOverride", textColor],
 			["requiredPoints", 0],
-			["widthOverride", paragonBoardNodes * nodeSpacingX], // (paragonBoardCount * paragonBoardNodes * nodeSpacingX) + (nodeSpacingX * (paragonBoardCount - 1) * 0.5)
+			["widthOverride", paragonBoardNodes * nodeSpacingX],
 			["shapeSize", 1],
 			["shapeType", "rectangle"],
 			["x", 0],
@@ -4307,6 +4977,8 @@ function resetFrameTimer() {
 function rebuildCanvas() {
 	while (pixiJS.stage.children[0]) pixiJS.stage.children[0].destroy(true);
 
+	rebuildTextures();
+
 	pixiAllocatedPoints = new Map();
 	pixiAllocatedParagonPoints = 0;
 
@@ -4458,6 +5130,7 @@ $(document).ready(function() {
 		$(".select2-results__options").css("max-height", availableHeight - 80);
 	});
 
+	rebuildTextures();
 	try {
 		handleReloadButton();
 	} catch (e) {
@@ -4466,7 +5139,7 @@ $(document).ready(function() {
 		throw new Error(e);
 	}
 	resizeCanvas();
-	setInterval(handleIntervalEvent, 100);
+	setInterval(handleIntervalEvent, 200);
 
 	if (debugMode) {
 		let drawCount = 0;
