@@ -3544,7 +3544,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeText.scale.set(1 / scaleFactor);
 	nodeText.anchor.set(0.5);
 	const nodeTextInvertAlignment = ["Rapid Fire"]; // ugly workaround, but whatever...
-	if (isActiveSkill) nodeText.y = nodeTextInvertAlignment.includes(nodeName) ? -90 : 90;
+	if (isActiveSkill) nodeText.y = nodeTextInvertAlignment.includes(nodeName) ? -85 : 85;
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
 	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName) && maxPoints > 1) {
