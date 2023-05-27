@@ -4597,7 +4597,13 @@ function drawTooltip(curNode, forceDraw) {
 					}
 				}
 				let outputText = captureText.split("/");
-				return outputText[allocatedPoints > 0 ? Math.min(allocatedPoints, outputText.length) - 1 : 0].replaceAll("|", "/");
+				const baseSkill = nodeData.get("baseSkill");
+				if (baseSkill == undefined) {
+					return outputText[allocatedPoints > 0 ? Math.min(allocatedPoints, outputText.length) - 1 : 0].replaceAll("|", "/");
+				} else {
+					const baseAllocatedPoints = pixiNodes.find(pixiNode => pixiNode.nodeName == baseSkill).nodeData.get("allocatedPoints");
+					return outputText[baseAllocatedPoints > 0 ? Math.min(baseAllocatedPoints, outputText.length) - 1 : 0].replaceAll("|", "/");
+				}
 			});
 		}
 	}
