@@ -13437,6 +13437,601 @@
 				"flavor": "Fragmented whispers of long forgotten secrets.",
 				"name": "Whispering Key"
 			},
+			"Gem_Amethyst_01": {
+				"attributes": {
+					"DOT_DPS_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Damage Over Time",
+						"value": 0.04
+					},
+					"DOT_DPS_Reduction_Percent": {
+						"desc": "[VALUE*100]% Damage Over Time Reduction",
+						"value": 0.066
+					},
+					"Resistance#Shadow": {
+						"desc": "[VALUE*100]% Shadow Resistance",
+						"value": 0.115
+					}
+				},
+				"name": "Crude Amethyst"
+			},
+			"Gem_Amethyst_02": {
+				"attributes": {
+					"DOT_DPS_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Damage Over Time",
+						"value": 0.05
+					},
+					"DOT_DPS_Reduction_Percent": {
+						"desc": "[VALUE*100]% Damage Over Time Reduction",
+						"value": 0.082
+					},
+					"Resistance#Shadow": {
+						"desc": "[VALUE*100]% Shadow Resistance",
+						"value": 0.143
+					}
+				},
+				"name": "Chipped Amethyst"
+			},
+			"Gem_Amethyst_03": {
+				"attributes": {
+					"DOT_DPS_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Damage Over Time",
+						"value": 0.06
+					},
+					"DOT_DPS_Reduction_Percent": {
+						"desc": "[VALUE*100]% Damage Over Time Reduction",
+						"value": 0.098
+					},
+					"Resistance#Shadow": {
+						"desc": "[VALUE*100]% Shadow Resistance",
+						"value": 0.169
+					}
+				},
+				"name": "Amethyst"
+			},
+			"Gem_Amethyst_04": {
+				"attributes": {
+					"DOT_DPS_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Damage Over Time",
+						"value": 0.07
+					},
+					"DOT_DPS_Reduction_Percent": {
+						"desc": "[VALUE*100]% Damage Over Time Reduction",
+						"value": 0.114
+					},
+					"Resistance#Shadow": {
+						"desc": "[VALUE*100]% Shadow Resistance",
+						"value": 0.196
+					}
+				},
+				"name": "Flawless Amethyst"
+			},
+			"Gem_Amethyst_05": {
+				"attributes": {
+					"DOT_DPS_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Damage Over Time",
+						"value": 0.08
+					},
+					"DOT_DPS_Reduction_Percent": {
+						"desc": "[VALUE*100]% Damage Over Time Reduction",
+						"value": 0.13
+					},
+					"Resistance#Shadow": {
+						"desc": "[VALUE*100]% Shadow Resistance",
+						"value": 0.221
+					}
+				},
+				"name": "Royal Amethyst"
+			},
+			"Gem_Diamond_01": {
+				"attributes": {
+					"Barrier_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Barrier Potency",
+						"value": 0.04
+					},
+					"Damage_Percent_Bonus_Per_Skill_Tag#Ultimate": {
+						"desc": "+[VALUE*100]% Ultimate damage",
+						"value": 0.04
+					},
+					"Resistance_All": {
+						"desc": "[VALUE*100]% Resistance to All Elements",
+						"value": 0.04
+					}
+				},
+				"name": "Crude Diamond"
+			},
+			"Gem_Diamond_02": {
+				"attributes": {
+					"Barrier_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Barrier Potency",
+						"value": 0.05
+					},
+					"Damage_Percent_Bonus_Per_Skill_Tag#Ultimate": {
+						"desc": "+[VALUE*100]% Ultimate damage",
+						"value": 0.05
+					},
+					"Resistance_All": {
+						"desc": "[VALUE*100]% Resistance to All Elements",
+						"value": 0.05
+					}
+				},
+				"name": "Chipped Diamond"
+			},
+			"Gem_Diamond_03": {
+				"attributes": {
+					"Barrier_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Barrier Potency",
+						"value": 0.06
+					},
+					"Damage_Percent_Bonus_Per_Skill_Tag#Ultimate": {
+						"desc": "+[VALUE*100]% Ultimate damage",
+						"value": 0.06
+					},
+					"Resistance_All": {
+						"desc": "[VALUE*100]% Resistance to All Elements",
+						"value": 0.06
+					}
+				},
+				"name": "Diamond"
+			},
+			"Gem_Diamond_04": {
+				"attributes": {
+					"Barrier_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Barrier Potency",
+						"value": 0.07
+					},
+					"Damage_Percent_Bonus_Per_Skill_Tag#Ultimate": {
+						"desc": "+[VALUE*100]% Ultimate damage",
+						"value": 0.07
+					},
+					"Resistance_All": {
+						"desc": "[VALUE*100]% Resistance to All Elements",
+						"value": 0.07
+					}
+				},
+				"name": "Flawless Diamond"
+			},
+			"Gem_Diamond_05": {
+				"attributes": {
+					"Barrier_Bonus_Percent": {
+						"desc": "+[VALUE*100]% Barrier Potency",
+						"value": 0.08
+					},
+					"Damage_Percent_Bonus_Per_Skill_Tag#Ultimate": {
+						"desc": "+[VALUE*100]% Ultimate damage",
+						"value": 0.08
+					},
+					"Resistance_All": {
+						"desc": "[VALUE*100]% Resistance to All Elements",
+						"value": 0.08
+					}
+				},
+				"name": "Royal Diamond"
+			},
+			"Gem_Emerald_01": {
+				"attributes": {
+					"Damage_Percent_Bonus_Vs_Elites": {
+						"desc": "+[VALUE*100]% Damage to Elites",
+						"value": 0.067
+					},
+					"Resistance#Poison": {
+						"desc": "[VALUE*100]% Poison Resistance",
+						"value": 0.115
+					},
+					"Thorns_Flat": {
+						"desc": "+VALUE Thorns",
+						"value": 20.0
+					}
+				},
+				"name": "Crude Emerald"
+			},
+			"Gem_Emerald_02": {
+				"attributes": {
+					"Damage_Percent_Bonus_Vs_Elites": {
+						"desc": "+[VALUE*100]% Damage to Elites",
+						"value": 0.083
+					},
+					"Resistance#Poison": {
+						"desc": "[VALUE*100]% Poison Resistance",
+						"value": 0.143
+					},
+					"Thorns_Flat": {
+						"desc": "+VALUE Thorns",
+						"value": 30.0
+					}
+				},
+				"name": "Chipped Emerald"
+			},
+			"Gem_Emerald_03": {
+				"attributes": {
+					"Damage_Percent_Bonus_Vs_Elites": {
+						"desc": "+[VALUE*100]% Damage to Elites",
+						"value": 0.1
+					},
+					"Resistance#Poison": {
+						"desc": "[VALUE*100]% Poison Resistance",
+						"value": 0.169
+					},
+					"Thorns_Flat": {
+						"desc": "+VALUE Thorns",
+						"value": 50.0
+					}
+				},
+				"name": "Emerald"
+			},
+			"Gem_Emerald_04": {
+				"attributes": {
+					"Damage_Percent_Bonus_Vs_Elites": {
+						"desc": "+[VALUE*100]% Damage to Elites",
+						"value": 0.117
+					},
+					"Resistance#Poison": {
+						"desc": "[VALUE*100]% Poison Resistance",
+						"value": 0.196
+					},
+					"Thorns_Flat": {
+						"desc": "+VALUE Thorns",
+						"value": 65.0
+					}
+				},
+				"name": "Flawless Emerald"
+			},
+			"Gem_Emerald_05": {
+				"attributes": {
+					"Damage_Percent_Bonus_Vs_Elites": {
+						"desc": "+[VALUE*100]% Damage to Elites",
+						"value": 0.133
+					},
+					"Resistance#Poison": {
+						"desc": "[VALUE*100]% Poison Resistance",
+						"value": 0.221
+					},
+					"Thorns_Flat": {
+						"desc": "+VALUE Thorns",
+						"value": 75.0
+					}
+				},
+				"name": "Royal Emerald"
+			},
+			"Gem_Ruby_01": {
+				"attributes": {
+					"Hitpoints_Max_Percent_Bonus": {
+						"desc": "[VALUE*100]% Life",
+						"value": 0.05
+					},
+					"Resistance#Fire": {
+						"desc": "[VALUE*100]% Fire Resistance",
+						"value": 0.115
+					},
+					"Resource_Gain_Bonus_Percent_All_Primary": {
+						"desc": "+[VALUE*100]% Resource Generation",
+						"value": 0.0
+					}
+				},
+				"name": "Crude Ruby"
+			},
+			"Gem_Ruby_02": {
+				"attributes": {
+					"Hitpoints_Max_Percent_Bonus": {
+						"desc": "[VALUE*100]% Life",
+						"value": 0.055
+					},
+					"Resistance#Fire": {
+						"desc": "[VALUE*100]% Fire Resistance",
+						"value": 0.143
+					},
+					"Resource_Gain_Bonus_Percent_All_Primary": {
+						"desc": "+[VALUE*100]% Resource Generation",
+						"value": 0.0
+					}
+				},
+				"name": "Chipped Ruby"
+			},
+			"Gem_Ruby_03": {
+				"attributes": {
+					"Hitpoints_Max_Percent_Bonus": {
+						"desc": "[VALUE*100]% Life",
+						"value": 0.06
+					},
+					"Resistance#Fire": {
+						"desc": "[VALUE*100]% Fire Resistance",
+						"value": 0.169
+					},
+					"Resource_Gain_Bonus_Percent_All_Primary": {
+						"desc": "+[VALUE*100]% Resource Generation",
+						"value": 0.0
+					}
+				},
+				"name": "Ruby"
+			},
+			"Gem_Ruby_04": {
+				"attributes": {
+					"Hitpoints_Max_Percent_Bonus": {
+						"desc": "[VALUE*100]% Life",
+						"value": 0.07
+					},
+					"Resistance#Fire": {
+						"desc": "[VALUE*100]% Fire Resistance",
+						"value": 0.196
+					},
+					"Resource_Gain_Bonus_Percent_All_Primary": {
+						"desc": "+[VALUE*100]% Resource Generation",
+						"value": 0.0
+					}
+				},
+				"name": "Flawless Ruby"
+			},
+			"Gem_Ruby_05": {
+				"attributes": {
+					"Hitpoints_Max_Percent_Bonus": {
+						"desc": "[VALUE*100]% Life",
+						"value": 0.08
+					},
+					"Resistance#Fire": {
+						"desc": "[VALUE*100]% Fire Resistance",
+						"value": 0.221
+					},
+					"Resource_Gain_Bonus_Percent_All_Primary": {
+						"desc": "+[VALUE*100]% Resource Generation",
+						"value": 0.0
+					}
+				},
+				"name": "Royal Ruby"
+			},
+			"Gem_Sapphire_01": {
+				"attributes": {
+					"Crit_Damage_Percent_Bonus_Vs_CC_Target_Any": {
+						"desc": "+[VALUE*100]% Critical Strike Damage to Crowd-Controlled Enemies",
+						"value": 0.06
+					},
+					"Fortified_Health_Damage_Reduction_Bonus": {
+						"desc": "[VALUE*100]% Damage Reduction While Fortified",
+						"value": 0.04
+					},
+					"Resistance#Cold": {
+						"desc": "[VALUE*100]% Cold Resistance",
+						"value": 0.115
+					}
+				},
+				"name": "Crude Sapphire"
+			},
+			"Gem_Sapphire_02": {
+				"attributes": {
+					"Crit_Damage_Percent_Bonus_Vs_CC_Target_Any": {
+						"desc": "+[VALUE*100]% Critical Strike Damage to Crowd-Controlled Enemies",
+						"value": 0.075
+					},
+					"Fortified_Health_Damage_Reduction_Bonus": {
+						"desc": "[VALUE*100]% Damage Reduction While Fortified",
+						"value": 0.05
+					},
+					"Resistance#Cold": {
+						"desc": "[VALUE*100]% Cold Resistance",
+						"value": 0.143
+					}
+				},
+				"name": "Chipped Sapphire"
+			},
+			"Gem_Sapphire_03": {
+				"attributes": {
+					"Crit_Damage_Percent_Bonus_Vs_CC_Target_Any": {
+						"desc": "+[VALUE*100]% Critical Strike Damage to Crowd-Controlled Enemies",
+						"value": 0.09
+					},
+					"Fortified_Health_Damage_Reduction_Bonus": {
+						"desc": "[VALUE*100]% Damage Reduction While Fortified",
+						"value": 0.06
+					},
+					"Resistance#Cold": {
+						"desc": "[VALUE*100]% Cold Resistance",
+						"value": 0.169
+					}
+				},
+				"name": "Sapphire"
+			},
+			"Gem_Sapphire_04": {
+				"attributes": {
+					"Crit_Damage_Percent_Bonus_Vs_CC_Target_Any": {
+						"desc": "+[VALUE*100]% Critical Strike Damage to Crowd-Controlled Enemies",
+						"value": 0.105
+					},
+					"Fortified_Health_Damage_Reduction_Bonus": {
+						"desc": "[VALUE*100]% Damage Reduction While Fortified",
+						"value": 0.07
+					},
+					"Resistance#Cold": {
+						"desc": "[VALUE*100]% Cold Resistance",
+						"value": 0.196
+					}
+				},
+				"name": "Flawless Sapphire"
+			},
+			"Gem_Sapphire_05": {
+				"attributes": {
+					"Crit_Damage_Percent_Bonus_Vs_CC_Target_Any": {
+						"desc": "+[VALUE*100]% Critical Strike Damage to Crowd-Controlled Enemies",
+						"value": 0.12
+					},
+					"Fortified_Health_Damage_Reduction_Bonus": {
+						"desc": "[VALUE*100]% Damage Reduction While Fortified",
+						"value": 0.08
+					},
+					"Resistance#Cold": {
+						"desc": "[VALUE*100]% Cold Resistance",
+						"value": 0.221
+					}
+				},
+				"name": "Royal Sapphire"
+			},
+			"Gem_Skull_01": {
+				"attributes": {
+					"Armor_Bonus": {
+						"desc": "+VALUE Armor",
+						"value": 0.0
+					},
+					"Bonus_Healing_Received_Percent": {
+						"desc": "+[VALUE*100]% Healing Received",
+						"value": 0.04
+					},
+					"Flat_Hitpoints_On_Kill": {
+						"desc": "VALUE Life On Kill",
+						"value": 20.0
+					}
+				},
+				"name": "Crude Skull"
+			},
+			"Gem_Skull_02": {
+				"attributes": {
+					"Armor_Bonus": {
+						"desc": "+VALUE Armor",
+						"value": 0.0
+					},
+					"Bonus_Healing_Received_Percent": {
+						"desc": "+[VALUE*100]% Healing Received",
+						"value": 0.05
+					},
+					"Flat_Hitpoints_On_Kill": {
+						"desc": "VALUE Life On Kill",
+						"value": 30.0
+					}
+				},
+				"name": "Chipped Skull"
+			},
+			"Gem_Skull_03": {
+				"attributes": {
+					"Armor_Bonus": {
+						"desc": "+VALUE Armor",
+						"value": 0.0
+					},
+					"Bonus_Healing_Received_Percent": {
+						"desc": "+[VALUE*100]% Healing Received",
+						"value": 0.06
+					},
+					"Flat_Hitpoints_On_Kill": {
+						"desc": "VALUE Life On Kill",
+						"value": 50.0
+					}
+				},
+				"name": "Skull"
+			},
+			"Gem_Skull_04": {
+				"attributes": {
+					"Armor_Bonus": {
+						"desc": "+VALUE Armor",
+						"value": 0.0
+					},
+					"Bonus_Healing_Received_Percent": {
+						"desc": "+[VALUE*100]% Healing Received",
+						"value": 0.07
+					},
+					"Flat_Hitpoints_On_Kill": {
+						"desc": "VALUE Life On Kill",
+						"value": 65.0
+					}
+				},
+				"name": "Flawless Skull"
+			},
+			"Gem_Skull_05": {
+				"attributes": {
+					"Armor_Bonus": {
+						"desc": "+VALUE Armor",
+						"value": 0.0
+					},
+					"Bonus_Healing_Received_Percent": {
+						"desc": "+[VALUE*100]% Healing Received",
+						"value": 0.08
+					},
+					"Flat_Hitpoints_On_Kill": {
+						"desc": "VALUE Life On Kill",
+						"value": 80.0
+					}
+				},
+				"name": "Royal Skull"
+			},
+			"Gem_Topaz_01": {
+				"attributes": {
+					"Combat_Effect_Chance_Bonus": {
+						"desc": "+[VALUE*100]% Lucky Hit Chance",
+						"value": 0.03
+					},
+					"Damage_Reduction_While_Crowd_Controlled": {
+						"desc": "[VALUE*100]% Damage Reduction While Control Impaired",
+						"value": 0.066
+					},
+					"Resistance#Lightning": {
+						"desc": "[VALUE*100]% Lightning Resistance",
+						"value": 0.115
+					}
+				},
+				"name": "Crude Topaz"
+			},
+			"Gem_Topaz_02": {
+				"attributes": {
+					"Combat_Effect_Chance_Bonus": {
+						"desc": "+[VALUE*100]% Lucky Hit Chance",
+						"value": 0.04
+					},
+					"Damage_Reduction_While_Crowd_Controlled": {
+						"desc": "[VALUE*100]% Damage Reduction While Control Impaired",
+						"value": 0.082
+					},
+					"Resistance#Lightning": {
+						"desc": "[VALUE*100]% Lightning Resistance",
+						"value": 0.143
+					}
+				},
+				"name": "Chipped Topaz"
+			},
+			"Gem_Topaz_03": {
+				"attributes": {
+					"Combat_Effect_Chance_Bonus": {
+						"desc": "+[VALUE*100]% Lucky Hit Chance",
+						"value": 0.05
+					},
+					"Damage_Reduction_While_Crowd_Controlled": {
+						"desc": "[VALUE*100]% Damage Reduction While Control Impaired",
+						"value": 0.098
+					},
+					"Resistance#Lightning": {
+						"desc": "[VALUE*100]% Lightning Resistance",
+						"value": 0.169
+					}
+				},
+				"name": "Topaz"
+			},
+			"Gem_Topaz_04": {
+				"attributes": {
+					"Combat_Effect_Chance_Bonus": {
+						"desc": "+[VALUE*100]% Lucky Hit Chance",
+						"value": 0.06
+					},
+					"Damage_Reduction_While_Crowd_Controlled": {
+						"desc": "[VALUE*100]% Damage Reduction While Control Impaired",
+						"value": 0.114
+					},
+					"Resistance#Lightning": {
+						"desc": "[VALUE*100]% Lightning Resistance",
+						"value": 0.196
+					}
+				},
+				"name": "Flawless Topaz"
+			},
+			"Gem_Topaz_05": {
+				"attributes": {
+					"Combat_Effect_Chance_Bonus": {
+						"desc": "+[VALUE*100]% Lucky Hit Chance",
+						"value": 0.07
+					},
+					"Damage_Reduction_While_Crowd_Controlled": {
+						"desc": "[VALUE*100]% Damage Reduction While Control Impaired",
+						"value": 0.13
+					},
+					"Resistance#Lightning": {
+						"desc": "[VALUE*100]% Lightning Resistance",
+						"value": 0.221
+					}
+				},
+				"name": "Royal Topaz"
+			},
 			"Gloves_Rare_QST_Scos_Astaroth_02": {
 				"affixes": [
 					"Damage_to_Far"
