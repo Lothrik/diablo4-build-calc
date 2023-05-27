@@ -1,5 +1,5 @@
 const buildNumber = 41428;
-const localVersion = `0.9.0.${buildNumber}-27`;
+const localVersion = `0.9.0.${buildNumber}-28`;
 var remoteVersion = "";
 var versionInterval = null;
 

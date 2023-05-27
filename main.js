@@ -161,15 +161,17 @@ const KEY_PASSIVE = "Key Passive";
 const SKILL_TREE = "Skill Tree";
 const PARAGON_BOARD = "Paragon Board";
 const PARAGON_BOARD_RESET_PROMPT_PREFIX = "Are you sure you want to reset ";
+const PARAGON_BOARD_RESET_ALL_PROMPT = "Are you sure you want to completely reset every paragon board?";
 const PARAGON_BOARD_GRID_PROMPT_PREFIX = "Please select a grid location for the ";
 const PARAGON_BOARD_GRID_PROMPT_SUFFIX = " Paragon Board:\n";
-const PARAGON_BOARD_GRID_PROMPT_END = `If you're unsure what to enter, try 2 and look directly above [Start].`;
+const PARAGON_BOARD_GRID_PROMPT_END = `You can reset the position of this board by entering 0.\nIf you're unsure what to enter, try 2 and look directly above [Start].`;
 const PARAGON_BOARD_EQUIP_PROMPT_HEADER = "Please select a paragon board to attach to ";
 const CURRENT_GRID_LOCATION_TEXT = "Current grid location";
 const GLYPH_SELECT_PROMPT_PREFIX = "Please select a glyph to socket in ";
 const GLYPH_SELECT_PROMPT_SUFFIX = "(You cannot socket the same glyph multiple times.)";
 const ASSIGN_INDEX_LABEL_TEXT = "Assign Index";
 const RESET_BOARD_LABEL_TEXT = "Reset Board";
+const RESET_ALL_BOARDS_LABEL_TEXT = "Reset Everything";
 const ALTARS_OF_LILITH = "Altars of Lilith";
 const EQUIPMENT_PANEL_PROMPT_HEADER_PREFIX = "Please select a legendary aspect or unique item to equip in your ";
 const EQUIPMENT_PANEL_PROMPT_HEADER_SUFFIX = " slot:";
@@ -1525,7 +1527,7 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-27";
+const localVersion = "0.9.0.41428-28";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2059,6 +2061,24 @@ function resetParagonBoard(boardHeader) {
 	delete paragonBoardGlyphData[boardIndex];
 	delete paragonBoardGlyphRankData[boardIndex];
 	boardHeader.nodeData.get("glyphSocket").nodeData.delete("nameOverride");
+	if (pixiTooltip.children.length > 0) eraseTooltip(); // force tooltip erase, mostly for mobile
+}
+function resetAllParagonBoards() {
+	if (!confirm(`${PARAGON_BOARD_RESET_ALL_PROMPT}`)) return;
+
+	const paragonNodes = pixiNodes.filter(pixiNode => pixiNode.groupName == PARAGON_BOARD);
+	for (const paragonNode of paragonNodes) {
+		handleMinusButton(paragonNode);
+		const nodeData = paragonNode.nodeData;
+		if (nodeData.get("nodeType") == "Socket") nodeData.delete("nameOverride");
+	}
+
+	for (const [boardIndex, gridLocation] of Object.entries(paragonBoardGridData)) moveParagonBoard(Number(boardIndex), 0);
+	for (const [boardIndex, rotationAngle] of Object.entries(paragonBoardRotationData)) rotateParagonBoard(Number(boardIndex), 0);
+	for (const [boardIndex, equipIndex] of Object.entries(paragonBoardEquipIndices)) setParagonBoardEquipIndex(Number(boardIndex), 0);
+	paragonBoardGlyphData = {};
+	paragonBoardGlyphRankData = {};
+
 	if (pixiTooltip.children.length > 0) eraseTooltip(); // force tooltip erase, mostly for mobile
 }
 const paragonBoardGridCoordinates = {
@@ -3392,134 +3412,158 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	if (extraData != null) {
 		if (groupName == PARAGON_BOARD) {
 			const boardIndex = extraData;
+			if (boardIndex == 0) {
+				extraContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[1] : new PIXI.Container();
+				extraContainer.cursor = "pointer";
+				extraContainer.eventMode = "static";
+				if (!updateExistingNode) {
+					extraContainer
+						.on("click", () => resetAllParagonBoards())
+						.on("tap", () => resetAllParagonBoards());
+				}
+				const extraText = updateExistingNode ? extraContainer.children[0] : new PIXI.Text();
+				extraText.text = RESET_ALL_BOARDS_LABEL_TEXT;
+				extraText.style = {
+					align: "left",
+					fill: _textColor,
+					fontFamily: fontFamily,
+					fontSize: displayNameSize * scaleFactor * 1.5,
+					fontVariant: "small-caps",
+					fontWeight: useThickNodeStyle ? "bold" : "normal",
+					padding: 10
+				};
+				extraText.eventMode = "auto";
+				extraText.scale.set(1 / scaleFactor);
+				extraText.anchor.set(0.5);
+				extraText.x = (extraText.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 16;
+				if (!updateExistingNode) extraContainer.addChild(extraText);
+			} else {
+				extraContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[1] : new PIXI.Container();
+				extraContainer.cursor = "pointer";
+				extraContainer.eventMode = "static";
+				if (!updateExistingNode) {
+					extraContainer
+						.on("click", () => rotateParagonBoard(boardIndex, -90, true))
+						.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
+				}
+				const extraText = updateExistingNode ? extraContainer.children[0] : new PIXI.Text();
+				extraText.text = "↺";
+				extraText.style = {
+					align: "left",
+					fill: _textColor,
+					fontFamily: fontFamily,
+					fontSize: displayNameSize * scaleFactor * 2,
+					fontVariant: "small-caps",
+					fontWeight: useThickNodeStyle ? "bold" : "normal",
+					padding: 10
+				};
+				extraText.eventMode = "auto";
+				extraText.scale.set(1 / scaleFactor);
+				extraText.anchor.set(0.5);
+				extraText.x = (extraText.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 16;
+				if (!updateExistingNode) extraContainer.addChild(extraText);
 
-			extraContainer = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[1] : new PIXI.Container();
-			extraContainer.cursor = "pointer";
-			extraContainer.eventMode = "static";
-			if (!updateExistingNode) {
-				extraContainer
-					.on("click", () => rotateParagonBoard(boardIndex, -90, true))
-					.on("tap", () => rotateParagonBoard(boardIndex, -90, true));
-			}
-			const extraText = updateExistingNode ? extraContainer.children[0] : new PIXI.Text();
-			extraText.text = "↺";
-			extraText.style = {
-				align: "left",
-				fill: _textColor,
-				fontFamily: fontFamily,
-				fontSize: displayNameSize * scaleFactor * 2,
-				fontVariant: "small-caps",
-				fontWeight: useThickNodeStyle ? "bold" : "normal",
-				padding: 10
-			};
-			extraText.eventMode = "auto";
-			extraText.scale.set(1 / scaleFactor);
-			extraText.anchor.set(0.5);
-			extraText.x = (extraText.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 16;
-			if (!updateExistingNode) extraContainer.addChild(extraText);
+				extraContainer2 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[2] : new PIXI.Container();
+				extraContainer2.cursor = "pointer";
+				extraContainer2.eventMode = "static";
+				if (!updateExistingNode) {
+					extraContainer2
+						.on("click", () => setParagonBoardEquipIndex(boardIndex))
+						.on("tap", () => setParagonBoardEquipIndex(boardIndex));
+				}
+				const extraText2 = updateExistingNode ? extraContainer2.children[0] : new PIXI.Text();
+				extraText2.text = ASSIGN_INDEX_LABEL_TEXT;
+				extraText2.style = {
+					align: "right",
+					fill: _textColor,
+					fontFamily: fontFamily,
+					fontSize: displayNameSize * scaleFactor * 1.5,
+					fontVariant: "small-caps",
+					fontWeight: useThickNodeStyle ? "bold" : "normal",
+					padding: 10
+				};
+				extraText2.eventMode = "auto";
+				extraText2.scale.set(1 / scaleFactor);
+				extraText2.anchor.set(0.5);
+				extraText2.x = (extraText2.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 200;
+				if (!updateExistingNode) extraContainer2.addChild(extraText2);
 
-			extraContainer2 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[2] : new PIXI.Container();
-			extraContainer2.cursor = "pointer";
-			extraContainer2.eventMode = "static";
-			if (!updateExistingNode) {
-				extraContainer2
-					.on("click", () => setParagonBoardEquipIndex(boardIndex))
-					.on("tap", () => setParagonBoardEquipIndex(boardIndex));
-			}
-			const extraText2 = updateExistingNode ? extraContainer2.children[0] : new PIXI.Text();
-			extraText2.text = ASSIGN_INDEX_LABEL_TEXT;
-			extraText2.style = {
-				align: "right",
-				fill: _textColor,
-				fontFamily: fontFamily,
-				fontSize: displayNameSize * scaleFactor * 1.5,
-				fontVariant: "small-caps",
-				fontWeight: useThickNodeStyle ? "bold" : "normal",
-				padding: 10
-			};
-			extraText2.eventMode = "auto";
-			extraText2.scale.set(1 / scaleFactor);
-			extraText2.anchor.set(0.5);
-			extraText2.x = (extraText2.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 200;
-			extraText2.y = 0;
-			if (!updateExistingNode) extraContainer2.addChild(extraText2);
+				extraContainer3 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[3] : new PIXI.Container();
+				extraContainer3.cursor = "pointer";
+				extraContainer3.eventMode = "static";
+				if (!updateExistingNode) {
+					extraContainer3
+						.on("click", () => resetParagonBoard(node))
+						.on("tap", () => resetParagonBoard(node));
+				}
+				const extraText3 = updateExistingNode ? extraContainer3.children[0] : new PIXI.Text();
+				extraText3.text = RESET_BOARD_LABEL_TEXT;
+				extraText3.style = {
+					align: "right",
+					fill: _textColor,
+					fontFamily: fontFamily,
+					fontSize: displayNameSize * scaleFactor * 1.5,
+					fontVariant: "small-caps",
+					fontWeight: useThickNodeStyle ? "bold" : "normal",
+					padding: 10
+				};
+				extraText3.eventMode = "auto";
+				extraText3.scale.set(1 / scaleFactor);
+				extraText3.anchor.set(0.5);
+				extraText3.x = (extraText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 600;
+				if (!updateExistingNode) extraContainer3.addChild(extraText3);
 
-			extraContainer3 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[3] : new PIXI.Container();
-			extraContainer3.cursor = "pointer";
-			extraContainer3.eventMode = "static";
-			if (!updateExistingNode) {
-				extraContainer3
-					.on("click", () => resetParagonBoard(node))
-					.on("tap", () => resetParagonBoard(node));
-			}
-			const extraText3 = updateExistingNode ? extraContainer3.children[0] : new PIXI.Text();
-			extraText3.text = RESET_BOARD_LABEL_TEXT;
-			extraText3.style = {
-				align: "right",
-				fill: _textColor,
-				fontFamily: fontFamily,
-				fontSize: displayNameSize * scaleFactor * 1.5,
-				fontVariant: "small-caps",
-				fontWeight: useThickNodeStyle ? "bold" : "normal",
-				padding: 10
-			};
-			extraText3.eventMode = "auto";
-			extraText3.scale.set(1 / scaleFactor);
-			extraText3.anchor.set(0.5);
-			extraText3.x = (extraText3.width - _nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 600;
-			extraText3.y = 0;
-			if (!updateExistingNode) extraContainer3.addChild(extraText3);
+				extraContainer4 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[4] : new PIXI.Container();
+				extraContainer4.cursor = "pointer";
+				extraContainer4.eventMode = "static";
+				if (!updateExistingNode) {
+					extraContainer4
+						.on("click", () => moveParagonBoard(boardIndex))
+						.on("tap", () => moveParagonBoard(boardIndex));
+				}
+				const extraText4 = updateExistingNode ? extraContainer4.children[0] : new PIXI.Text();
+				extraText4.text = "←↕→";
+				extraText4.style = {
+					align: "right",
+					fill: _textColor,
+					fontFamily: fontFamily,
+					fontSize: displayNameSize * scaleFactor * 2,
+					fontVariant: "small-caps",
+					fontWeight: useThickNodeStyle ? "bold" : "normal",
+					padding: 10
+				};
+				extraText4.eventMode = "auto";
+				extraText4.scale.set(1 / scaleFactor);
+				extraText4.anchor.set(0.5);
+				extraText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText4.width) * 0.5 - 200;
+				extraText4.y = -8;
+				if (!updateExistingNode) extraContainer4.addChild(extraText4);
 
-			extraContainer4 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[4] : new PIXI.Container();
-			extraContainer4.cursor = "pointer";
-			extraContainer4.eventMode = "static";
-			if (!updateExistingNode) {
-				extraContainer4
-					.on("click", () => moveParagonBoard(boardIndex))
-					.on("tap", () => moveParagonBoard(boardIndex));
+				extraContainer5 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[5] : new PIXI.Container();
+				extraContainer5.cursor = "pointer";
+				extraContainer5.eventMode = "static";
+				if (!updateExistingNode) {
+					extraContainer5
+						.on("click", () => rotateParagonBoard(boardIndex, 90, true))
+						.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
+				}
+				const extraText5 = updateExistingNode ? extraContainer5.children[0] : new PIXI.Text();
+				extraText5.text = "↻";
+				extraText5.style = {
+					align: "right",
+					fill: _textColor,
+					fontFamily: fontFamily,
+					fontSize: displayNameSize * scaleFactor * 2,
+					fontVariant: "small-caps",
+					fontWeight: useThickNodeStyle ? "bold" : "normal",
+					padding: 10
+				};
+				extraText5.eventMode = "auto";
+				extraText5.scale.set(1 / scaleFactor);
+				extraText5.anchor.set(0.5);
+				extraText5.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText5.width) * 0.5 - 16;
+				if (!updateExistingNode) extraContainer5.addChild(extraText5);
 			}
-			const extraText4 = updateExistingNode ? extraContainer4.children[0] : new PIXI.Text();
-			extraText4.text = "←↕→";
-			extraText4.style = {
-				align: "right",
-				fill: _textColor,
-				fontFamily: fontFamily,
-				fontSize: displayNameSize * scaleFactor * 2,
-				fontVariant: "small-caps",
-				fontWeight: useThickNodeStyle ? "bold" : "normal",
-				padding: 10
-			};
-			extraText4.eventMode = "auto";
-			extraText4.scale.set(1 / scaleFactor);
-			extraText4.anchor.set(0.5);
-			extraText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText4.width) * 0.5 - 200;
-			extraText4.y = -8;
-			if (!updateExistingNode) extraContainer4.addChild(extraText4);
-
-			extraContainer5 = updateExistingNode ? pixiNodes[nodeIndex].children[0].children[5] : new PIXI.Container();
-			extraContainer5.cursor = "pointer";
-			extraContainer5.eventMode = "static";
-			if (!updateExistingNode) {
-				extraContainer5
-					.on("click", () => rotateParagonBoard(boardIndex, 90, true))
-					.on("tap", () => rotateParagonBoard(boardIndex, 90, true));
-			}
-			const extraText5 = updateExistingNode ? extraContainer5.children[0] : new PIXI.Text();
-			extraText5.text = "↻";
-			extraText5.style = {
-				align: "right",
-				fill: _textColor,
-				fontFamily: fontFamily,
-				fontSize: displayNameSize * scaleFactor * 2,
-				fontVariant: "small-caps",
-				fontWeight: useThickNodeStyle ? "bold" : "normal",
-				padding: 10
-			};
-			extraText5.eventMode = "auto";
-			extraText5.scale.set(1 / scaleFactor);
-			extraText5.anchor.set(0.5);
-			extraText5.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor - extraText5.width) * 0.5 - 16;
-			if (!updateExistingNode) extraContainer5.addChild(extraText5);
 		} else if (nodePosition == null) {
 			x += extraData.get("x");
 			y += extraData.get("y");
@@ -4141,7 +4185,7 @@ function drawAllNodes() {
 				["x", boardX],
 				["y", boardY]
 			]);
-			drawNode(boardName, paragonBoardNode, PARAGON_BOARD, unsortedIndex > 0 ? unsortedIndex : null);
+			drawNode(boardName, paragonBoardNode, PARAGON_BOARD, unsortedIndex);
 			const boardHeader = pixiNodes[pixiNodes.length - 1];
 
 			let socketData = null;
