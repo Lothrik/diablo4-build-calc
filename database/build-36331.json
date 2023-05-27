@@ -13704,7 +13704,7 @@
 					},
 					"Resource_Gain_Bonus_Percent_All_Primary": {
 						"desc": "+[VALUE*100]% Resource Generation",
-						"value": 0.0
+						"value": 0.06
 					}
 				},
 				"name": "Crude Ruby"
@@ -13721,7 +13721,7 @@
 					},
 					"Resource_Gain_Bonus_Percent_All_Primary": {
 						"desc": "+[VALUE*100]% Resource Generation",
-						"value": 0.0
+						"value": 0.07
 					}
 				},
 				"name": "Chipped Ruby"
@@ -13738,7 +13738,7 @@
 					},
 					"Resource_Gain_Bonus_Percent_All_Primary": {
 						"desc": "+[VALUE*100]% Resource Generation",
-						"value": 0.0
+						"value": 0.08
 					}
 				},
 				"name": "Ruby"
@@ -13755,7 +13755,7 @@
 					},
 					"Resource_Gain_Bonus_Percent_All_Primary": {
 						"desc": "+[VALUE*100]% Resource Generation",
-						"value": 0.0
+						"value": 0.09
 					}
 				},
 				"name": "Flawless Ruby"
@@ -13772,7 +13772,7 @@
 					},
 					"Resource_Gain_Bonus_Percent_All_Primary": {
 						"desc": "+[VALUE*100]% Resource Generation",
-						"value": 0.0
+						"value": 0.1
 					}
 				},
 				"name": "Royal Ruby"
@@ -13866,7 +13866,7 @@
 				"attributes": {
 					"Armor_Bonus": {
 						"desc": "+VALUE Armor",
-						"value": 0.0
+						"value": 100.0
 					},
 					"Bonus_Healing_Received_Percent": {
 						"desc": "+[VALUE*100]% Healing Received",
@@ -13883,7 +13883,7 @@
 				"attributes": {
 					"Armor_Bonus": {
 						"desc": "+VALUE Armor",
-						"value": 0.0
+						"value": 170.0
 					},
 					"Bonus_Healing_Received_Percent": {
 						"desc": "+[VALUE*100]% Healing Received",
@@ -13900,7 +13900,7 @@
 				"attributes": {
 					"Armor_Bonus": {
 						"desc": "+VALUE Armor",
-						"value": 0.0
+						"value": 230.0
 					},
 					"Bonus_Healing_Received_Percent": {
 						"desc": "+[VALUE*100]% Healing Received",
@@ -13917,7 +13917,7 @@
 				"attributes": {
 					"Armor_Bonus": {
 						"desc": "+VALUE Armor",
-						"value": 0.0
+						"value": 295.0
 					},
 					"Bonus_Healing_Received_Percent": {
 						"desc": "+[VALUE*100]% Healing Received",
@@ -13934,7 +13934,7 @@
 				"attributes": {
 					"Armor_Bonus": {
 						"desc": "+VALUE Armor",
-						"value": 0.0
+						"value": 340.0
 					},
 					"Bonus_Healing_Received_Percent": {
 						"desc": "+[VALUE*100]% Healing Received",
