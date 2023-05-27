@@ -294,7 +294,7 @@ var curHeight = 0;
 
 PIXI.settings.RENDER_OPTIONS.resolution = devicePixelRatio;
 PIXI.settings.RENDER_OPTIONS.autoDensity = true;
-PIXI.BaseTexture.defaultOptions.scaleMode = PIXI.SCALE_MODES.NEAREST;
+PIXI.BaseTexture.defaultOptions.scaleMode = PIXI.SCALE_MODES.LINEAR;
 
 // construct pixiJS custom application
 const pixiJS = (() => {
@@ -1548,7 +1548,7 @@ function versionCompare(a, b) {
 	return a.localeCompare(b, undefined, { numeric: true, sensitivity: "case", caseFirst: "upper" });
 }
 function handleIntervalEvent() {
-	newRenderScale = Math.min(pixiJS.stage.scale.x, 1);
+	newRenderScale = Math.min(pixiJS.stage.scale.x, 2);
 	if (newRenderScale != curRenderScale) {
 		// skip `redrawAllNodes` on high pixel density devices
 		if (devicePixelRatio < 2) {
@@ -3326,7 +3326,7 @@ function redrawAllNodes(idleMode = false) {
 	}
 }
 function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = pixiNodes.length, nodePosition = null) {
-	const scaleFactor = devicePixelRatio >= 2 ? 1 : (newRenderScale >= 0.45 ? 2 : 1) / devicePixelRatio * newRenderScale;
+	const scaleFactor = devicePixelRatio >= 2 ? 1 : 2 / devicePixelRatio * newRenderScale;
 	const activeLocale = readCookie("activeLocale", "enUS");
 
 	let node = null;
