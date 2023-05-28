@@ -346,9 +346,11 @@ h1, h2, h3 {
 	flex-wrap: wrap;
 }
 
-#extraInfo :last-child { /* :not(div) */
+/*
+#extraInfo :last-child {
 	margin: auto;
 }
+*/
 
 #extraInfo > div, #extraInfo > a {
 	text-decoration: none;

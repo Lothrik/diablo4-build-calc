@@ -151,6 +151,7 @@ const SHOW_DETAILS_WINDOW_TEXT = "Show Details";
 const HIDE_DETAILS_WINDOW_TEXT = "Hide Details";
 const ENABLE_TOOLTIP_CLAMP_TEXT = "Enable Tooltip Clamping";
 const DISABLE_TOOLTIP_CLAMP_TEXT = "Disable Tooltip Clamping";
+const VERSION_HISTORY_TEXT = "Version History";
 const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
@@ -1527,7 +1528,10 @@ function handleClampButton(event) {
 	repositionTooltip();
 	resizeSearchInput();
 }
-const localVersion = "0.9.0.41428-28";
+function handleHistoryButton(event) {
+	window.open("./history/");
+}
+const localVersion = "0.9.0.41428-29";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1753,13 +1757,15 @@ function handleMenuButton(event) {
 			+ `<div id="summaryButton"><img src="images/sigma.svg">&nbsp;<span>[${COPY_BUILD_SUMMARY_TEXT}]</span></div>`
 			+ `<div id="zoomButton"><img src="images/zoom.svg">&nbsp;<span>[${ADJUST_ZOOM_LEVEL_TEXT}]</span></div>`
 			+ `<div class="break"></div>`
-			+ `<div id="clampButton"><img src="images/clamp.svg">&nbsp;<span>[${clampMode ? DISABLE_TOOLTIP_CLAMP_TEXT : ENABLE_TOOLTIP_CLAMP_TEXT}]</span></div>`)
+			+ `<div id="clampButton"><img src="images/clamp.svg">&nbsp;<span>[${clampMode ? DISABLE_TOOLTIP_CLAMP_TEXT : ENABLE_TOOLTIP_CLAMP_TEXT}]</span></div>`
+			+ `<div id="historyButton"><img src="images/history.svg">&nbsp;<span>[${VERSION_HISTORY_TEXT}]</span></div>`)
 			.removeClass("disabled");
 
 		$("#detailsButton").on("click", handleDetailsButton);
 		$("#zoomButton").on("click", handleZoomButton);
 		$("#summaryButton").on("click", handleSummaryButton);
 		$("#clampButton").on("click", handleClampButton);
+		$("#historyButton").on("click", handleHistoryButton);
 
 		$("#menuButton").text(CLOSE_MENU_TEXT);
 	} else {
