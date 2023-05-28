@@ -1821,14 +1821,13 @@ function handleSaveButton() {
 				}
 			}
 		});
-		console.log(nodeData);
+		if (debugMode) console.log(nodeData);
 		const jsonData = JSON.stringify(nodeData)
 			.replace(/("|:1)/g, "")
 			.replace(",className:", ",c:")
 			.replace(",boardData:", ",b:")
 			.replace(",equipData:", ",e:")
 			.replace(",techniqueData:", ",t:");
-		console.log(jsonData);
 		const compressedData = LZString.compressToEncodedURIComponent(jsonData);
 		const newURL = window.location.href.split(/[#?&]/)[0] + "#" + compressedData;
 		window.location.replace(newURL);
