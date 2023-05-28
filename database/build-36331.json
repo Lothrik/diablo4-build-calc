@@ -2149,9 +2149,9 @@
 					"power_tags": [
 						"Skill_Primary_Brawling"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 100% (per hit)\nThrow a powerful kick that deals 18% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54% damage and are Stunned for 3 seconds.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2/9.945/9.69/9.435/9.18/8.925/8.84/8.755/8.67/8.585/8.5} seconds\nLucky Hit Chance: 100% (per hit)\nThrow a powerful kick that deals 18% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54% damage and are Stunned for 3 seconds.",
 					"skill_name": "Kick",
-					"skill_rankup_desc": "• Charge Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds"
+					"skill_rankup_desc": "• Charge Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2/9.945/9.69/9.435/9.18/8.925/8.84/8.755/8.67/8.585/8.5} seconds"
 				},
 				"req_points": 0,
 				"reward": {
@@ -5448,9 +5448,9 @@
 						"Skill_Primary_Brawling",
 						"Keyword_Unstoppable"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.5\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33% (per hit)\nBecome Unstoppable and rush forward, pushing enemies with you then swinging through them for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking them Back.",
+					"skill_desc": "Attack Speed Multiplier: 1.5\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2/9.945/9.69/9.435/9.18/8.925/8.84/8.755/8.67/8.585/8.5} seconds\nLucky Hit Chance: 33% (per hit)\nBecome Unstoppable and rush forward, pushing enemies with you then swinging through them for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage and Knocking them Back.",
 					"skill_name": "Charge",
-					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%.\n• Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds."
+					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%.\n• Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2/9.945/9.69/9.435/9.18/8.925/8.84/8.755/8.67/8.585/8.5} seconds."
 				},
 				"req_points": 0,
 				"reward": {
@@ -5476,9 +5476,9 @@
 					"power_tags": [
 						"Skill_Primary_Brawling"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.3\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds\nLucky Hit Chance: 33% (per hit)\nLeap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% damage and Knocking Back surrounding enemies on impact.",
+					"skill_desc": "Attack Speed Multiplier: 1.3\nCooldown: {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2/9.945/9.69/9.435/9.18/8.925/8.84/8.755/8.67/8.585/8.5} seconds\nLucky Hit Chance: 33% (per hit)\nLeap forward and then slam down, dealing {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}% damage and Knocking Back surrounding enemies on impact.",
 					"skill_name": "Leap",
-					"skill_rankup_desc": "• Damage 🡑 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%.\n• Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} seconds."
+					"skill_rankup_desc": "• Damage 🡑 {32.5/35.8/39/42.3/45.5/48.8/52/55.2/58.5/61.7}%.\n• Cooldown 🡑 {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2/9.945/9.69/9.435/9.18/8.925/8.84/8.755/8.67/8.585/8.5} seconds."
 				},
 				"req_points": 0,
 				"reward": {
@@ -5533,9 +5533,9 @@
 					"power_tags": [
 						"Skill_Primary_Defensive"
 					],
-					"skill_desc": "Cooldown: {16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6} seconds\nLucky Hit Chance: 33% (per hit)\nSmash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% damage and Stunning surrounding enemies for 3 seconds.",
+					"skill_desc": "Cooldown: {16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6/9.36/9.12/8.88/8.64/8.4/8.32/8.24/8.16/8.08/8} seconds\nLucky Hit Chance: 33% (per hit)\nSmash the ground, dealing {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% damage and Stunning surrounding enemies for 3 seconds.",
 					"skill_name": "Ground Stomp",
-					"skill_rankup_desc": "• Damage 🡑 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%.\n• Cooldown 🡑 {16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6} seconds."
+					"skill_rankup_desc": "• Damage 🡑 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%.\n• Cooldown 🡑 {16/15.2/14.4/13.6/12.8/12.16/11.52/10.88/10.24/9.6/9.36/9.12/8.88/8.64/8.4/8.32/8.24/8.16/8.08/8} seconds."
 				},
 				"req_points": 0,
 				"reward": {
@@ -5645,9 +5645,9 @@
 					"power_tags": [
 						"Skill_Primary_Weapon_Mastery"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6} seconds\nLucky Hit Chance: 25% (per hit)\nThrow out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and Pull In enemies.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6/6.435/6.27/6.105/5.94/5.775/5.72/5.665/5.61/5.555/5.5} seconds\nLucky Hit Chance: 25% (per hit)\nThrow out a trio of chains that deal {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and Pull In enemies.",
 					"skill_name": "Steel Grasp",
-					"skill_rankup_desc": "• Damage 🡑 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%\n• Charge Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}"
+					"skill_rankup_desc": "• Damage 🡑 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%\n• Charge Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6/6.435/6.27/6.105/5.94/5.775/5.72/5.665/5.61/5.555/5.5}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -10207,9 +10207,9 @@
 						"Skill_Shapeshifting",
 						"Skill_Bear"
 					],
-					"skill_desc": "Cooldown: {22/20.9/19.8/18.7/17.6/16.72/15.84/14.96/14.08/13.2}\nShapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Nearby enemies by 50% for 4 seconds.",
+					"skill_desc": "Cooldown: {22/20.9/19.8/18.7/17.6/16.72/15.84/14.96/14.08/13.2/12.87/12.54/12.21/11.88/11.55/11.44/11.33/11.22/11.11/11}\nShapeshift into a Werebear and bellow a mighty roar, reducing damage dealt of Nearby enemies by 50% for 4 seconds.",
 					"skill_name": "Debilitating Roar",
-					"skill_rankup_desc": "• Cooldown 🡑 {22/20.9/19.8/18.7/17.6/16.72/15.84/14.96/14.08/13.2}"
+					"skill_rankup_desc": "• Cooldown 🡑 {22/20.9/19.8/18.7/17.6/16.72/15.84/14.96/14.08/13.2/12.87/12.54/12.21/11.88/11.55/11.44/11.33/11.22/11.11/11}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25191,9 +25191,9 @@
 						"Skill_Primary_Macabre",
 						"Skill_Bone"
 					],
-					"skill_desc": "Cooldown: {20/19/18/17/16/15.2/14.4/13.6/12.8/12} seconds\nUnearth a prison of bone with {#} Life that surrounds the target area for 6 seconds.",
+					"skill_desc": "Cooldown: {20/19/18/17/16/15.2/14.4/13.6/12.8/12/11.7/11.4/11.1/10.8/10.5/10.4/10.3/10.2/10.1/10} seconds\nUnearth a prison of bone with {#} Life that surrounds the target area for 6 seconds.",
 					"skill_name": "Bone Prison",
-					"skill_rankup_desc": "• Bone Prison Life 🡑 {#}\n• Cooldown 🡑 {20/19/18/17/16/15.2/14.4/13.6/12.8/12}"
+					"skill_rankup_desc": "• Bone Prison Life 🡑 {#}\n• Cooldown 🡑 {20/19/18/17/16/15.2/14.4/13.6/12.8/12/11.7/11.4/11.1/10.8/10.5/10.4/10.3/10.2/10.1/10}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -25334,9 +25334,9 @@
 						"Skill_Primary_Corruption",
 						"Skill_Corpse"
 					],
-					"skill_desc": "Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}\nLucky Hit Chance: 20% (per hit)\nVeins burst out of a Corpse, pulling in enemies, Stunning them for 3 seconds, and dealing {20/22/24/26/28/30/32/34/36/38}% damage to them. Does not consume the Corpse.",
+					"skill_desc": "Cooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6/6.435/6.27/6.105/5.94/5.775/5.72/5.665/5.61/5.555/5.5}\nLucky Hit Chance: 20% (per hit)\nVeins burst out of a Corpse, pulling in enemies, Stunning them for 3 seconds, and dealing {20/22/24/26/28/30/32/34/36/38}% damage to them. Does not consume the Corpse.",
 					"skill_name": "Corpse Tendrils",
-					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%\n• Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}"
+					"skill_rankup_desc": "• Damage 🡑 {20/22/24/26/28/30/32/34/36/38}%\n• Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6/6.435/6.27/6.105/5.94/5.775/5.72/5.665/5.61/5.555/5.5}"
 				},
 				"req_points": 0,
 				"reward": {
@@ -29143,9 +29143,9 @@
 						"Keyword_Unstoppable",
 						"Keyword_Stealth"
 					],
-					"skill_desc": "Cooldown: {20/19/18/17/16/15.2/14.4/13.6/12.8/12} seconds\nVanish from sight, gaining Stealth for 4 seconds. During Concealment you additionally become Unstoppable, gain +25% Movement Speed, and can move through enemies freely.\n\nUsing an attack Skill during Concealment will break Concealment.",
+					"skill_desc": "Cooldown: {20/19/18/17/16/15.2/14.4/13.6/12.8/12/11.7/11.4/11.1/10.8/10.5/10.4/10.3/10.2/10.1/10} seconds\nVanish from sight, gaining Stealth for 4 seconds. During Concealment you additionally become Unstoppable, gain +25% Movement Speed, and can move through enemies freely.\n\nUsing an attack Skill during Concealment will break Concealment.",
 					"skill_name": "Concealment",
-					"skill_rankup_desc": "• Cooldown 🡑 {20/19/18/17/16/15.2/14.4/13.6/12.8/12} seconds."
+					"skill_rankup_desc": "• Cooldown 🡑 {20/19/18/17/16/15.2/14.4/13.6/12.8/12/11.7/11.4/11.1/10.8/10.5/10.4/10.3/10.2/10.1/10} seconds."
 				},
 				"req_points": 0,
 				"reward": {
@@ -30706,9 +30706,9 @@
 						"Skill_Melee",
 						"Skill_Imbueable"
 					],
-					"skill_desc": "Charges: 2\nCharge Cooldown: {10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6} seconds\nLucky Hit Chance: 25% (per hit)\nDash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage.",
+					"skill_desc": "Charges: 2\nCharge Cooldown: {10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6/5.85/5.7/5.55/5.4/5.25/5.2/5.15/5.1/5.05/5} seconds\nLucky Hit Chance: 25% (per hit)\nDash forward and slash enemies for {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage.",
 					"skill_name": "Dash",
-					"skill_rankup_desc": "• Charge Cooldown 🡑 {10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6} seconds\n• Damage 🡑 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%"
+					"skill_rankup_desc": "• Charge Cooldown 🡑 {10/9.5/9/8.5/8/7.6/7.2/6.8/6.4/6/5.85/5.7/5.55/5.4/5.25/5.2/5.15/5.1/5.05/5} seconds\n• Damage 🡑 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%"
 				},
 				"req_points": 0,
 				"reward": {
@@ -32861,7 +32861,7 @@
 				"desc": "Killing an enemy has a 10% chance to form a Crackling Energy."
 			},
 			"Sorcerer_Enchantment_Teleport": {
-				"desc": "Evade is replaced with Teleport on a {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2} second cooldown."
+				"desc": "Evade is replaced with Teleport on a {17/16.15/15.3/14.45/13.6/12.92/12.24/11.56/10.88/10.2/9.945/9.69/9.435/9.18/8.925/8.84/8.755/8.67/8.585/8.5} second cooldown."
 			},
 			"Sorcerer_Enchantment_Teleport_Active": {
 				"desc": "Teleport description here - since this is a skill that replaces your Evade button, you should never see this.",
@@ -35057,9 +35057,9 @@
 						"Skill_Primary_Defensive",
 						"Skill_Lightning"
 					],
-					"skill_desc": "Attack Speed Multiplier: 1.25\nCooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}\nLucky Hit Chance: 40% (per hit)\nTransform into lightning, becoming Unstoppable and surging to the target location dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage around you upon arrival.",
+					"skill_desc": "Attack Speed Multiplier: 1.25\nCooldown: {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6/6.435/6.27/6.105/5.94/5.775/5.72/5.665/5.61/5.555/5.5}\nLucky Hit Chance: 40% (per hit)\nTransform into lightning, becoming Unstoppable and surging to the target location dealing {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage around you upon arrival.",
 					"skill_name": "Teleport",
-					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6}"
+					"skill_rankup_desc": "• Damage 🡑 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%\n• Cooldown 🡑 {11/10.45/9.9/9.35/8.8/8.36/7.92/7.48/7.04/6.6/6.435/6.27/6.105/5.94/5.775/5.72/5.665/5.61/5.555/5.5}"
 				},
 				"req_points": 0,
 				"reward": {
