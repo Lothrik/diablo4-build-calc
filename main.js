@@ -155,7 +155,6 @@ const VERSION_HISTORY_TEXT = "Version History";
 const MATCH_FOUND_TEXT = " match found for query: ";
 const MATCHES_FOUND_TEXT = " matches found for query: ";
 const REQUIRED_POINTS_DESC = "Spend {requiredPoints} additional skill points to unlock.";
-const ENCHANTMENT_EFFECT_DESC = "— Enchantment Effect —";
 const COOLDOWN_PREFIX = "Cooldown: ";
 const ULTIMATE = "Ultimate";
 const KEY_PASSIVE = "Key Passive";
@@ -181,6 +180,14 @@ const EQUIPMENT_PANEL_ITEM_DESC = "Click to see a list of legendary aspects and 
 const TECHNIQUE_SLOT = "Technique Slot";
 const TECHNIQUE_SLOT_DESC = "Click to see a list of weapon expertise effects.";
 const TECHNIQUE_SLOT_PROMPT_HEADER = "Please select a weapon expertise type to use as your [Technique]:";
+const ENCHANT_EFFECT_DESC = "— Enchantment Effect —";
+const ENCHANT_SLOTS = "Enchantment Slots";
+const ENCHANT_SLOT = "Enchantment";
+const ENCHANT_SLOT_PROMPT_HEADER_PREFIX = "Please select a skill to use as your ";
+const ENCHANT_FIRST = "primary";
+const ENCHANT_SECOND = "secondary";
+const ENCHANT_SLOT_PROMPT_HEADER_SUFFIX = " [Enchantment]:";
+const ENCHANT_SLOT_DESC = "Click to see a list of enchantment effects.";
 const CODEX_OF_POWER = "Codex of Power";
 const CODEX_OF_POWER_DESC_BEFORE = "Legendary aspects in this category can be applied to: ";
 const CODEX_OF_POWER_DESC_AFTER = "Unique items are only listed here for convenience, and cannot have their powers extracted.";
@@ -1531,7 +1538,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "0.9.0.41428-29";
+const localVersion = "0.9.0.41428-30";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1812,8 +1819,10 @@ function handleSaveButton() {
 
 		if (techniqueSlotData != null) nodeData.techniqueData = techniqueSlotData;
 
+		if (Object.keys(enchantSlotData).length > 0) nodeData.enchantSlotData = LZString.compressToEncodedURIComponent(JSON.stringify(enchantSlotData).replace(/"/g, ""));
+
 		pixiNodes.forEach(curNode => {
-			if (![undefined, EQUIPMENT_PANEL, TECHNIQUE_SLOT].includes(curNode.groupName)) {
+			if (![undefined, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS].includes(curNode.groupName)) {
 				const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 				if (allocatedPoints > 0) {
 					const nodeId = convertNodeId(curNode.nodeData.get("id"), curNode.groupName);
@@ -1821,13 +1830,15 @@ function handleSaveButton() {
 				}
 			}
 		});
+
 		if (debugMode) console.log(nodeData);
 		const jsonData = JSON.stringify(nodeData)
 			.replace(/("|:1)/g, "")
-			.replace(",className:", ",c:")
-			.replace(",boardData:", ",b:")
-			.replace(",equipData:", ",e:")
-			.replace(",techniqueData:", ",t:");
+			.replace(/({|,)className:/, "$1c:")
+			.replace(/({|,)boardData:/, "$1b:")
+			.replace(/({|,)equipData:/, "$1e:")
+			.replace(/({|,)techniqueData:/, "$1t:")
+			.replace(/({|,)enchantSlotData:/, "$1E:");
 		const compressedData = LZString.compressToEncodedURIComponent(jsonData);
 		const newURL = window.location.href.split(/[#?&]/)[0] + "#" + compressedData;
 		window.location.replace(newURL);
@@ -1843,14 +1854,15 @@ function handleReloadButton() {
 		// valid JSON always requires quotes around key names; we strip those (and object "1-values") to increase compression
 		nodeData = jsonData.includes('"') ? JSON.parse(jsonData) :
 			JSON.parse(jsonData
-				.replace(",c:", ",className:")
-				.replace(",b:", ",boardData:")
-				.replace(",e:", ",equipData:")
-				.replace(",t:", ",techniqueData:")
-				.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')											// restore key double quotes
-				.replace(/","/g, '":1,"') 																	// restore object "1-values"
-				.replace(/("(?:className|boardData|equipData|techniqueData)":)([^,\[\]{}]+)/g, '$1"$2"')	// restore class name and paragon board data double quotes
-				.replace(/(,"[^:,]+")}/g, '$1:1}')															// restore final object value
+				.replace(/({|,)c:/, "$1className:")
+				.replace(/({|,)b:/, "$1boardData:")
+				.replace(/({|,)e:/, "$1equipData:")
+				.replace(/({|,)t:/, "$1techniqueData:")
+				.replace(/({|,)E:/, "$1enchantSlotData:")
+				.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')															// restore key double quotes
+				.replace(/","/g, '":1,"') 																					// restore object "1-values"
+				.replace(/("(?:className|boardData|equipData|techniqueData|enchantSlotData)":)([^,\[\]{}]+)/g, '$1"$2"')	// restore various data double quotes
+				.replace(/(,"[^:,]+")}/g, '$1:1}')																			// restore final object value
 			);
 	}
 
@@ -1912,6 +1924,23 @@ function handleReloadButton() {
 				unequipTechnique();
 			}
 
+			if ("enchantSlotData" in nodeData) {
+				nodeData.enchantSlotData = JSON.parse(LZString.decompressFromEncodedURIComponent(nodeData.enchantSlotData)
+					.replace(/([,\[\]{}])([^:,\[\]{}]+)/g, '$1"$2"')
+					.replace(/:([\w]+)(,|})/g, ':"$1"$2'));
+
+				for (let i = 0; i < 2; i++) {
+					const enchantNode = enchantSlotNodes[i];
+					const enchantId = nodeData.enchantSlotData[i];
+					if (enchantId == null) {
+						if (enchantNode != null) unequipEnchant(enchantNode);
+					} else {
+						equipEnchant(enchantNode, enchantId);
+					}
+				}
+				delete nodeData.enchantSlotData;
+			}
+
 			function compareNodes(firstNode, secondNode) {
 				let firstNodeId = firstNode.nodeData.get("id");
 				let firstSavedPoints = 0;
@@ -1956,14 +1985,14 @@ function handleReloadButton() {
 						paragonNodeValue = 0;
 					}
 					pixiAllocatedParagonPoints += (newPoints - allocatedPoints) * paragonNodeValue;
-				} else if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(curNode.groupName)) {
+				} else if (![SPIRIT_BOONS, BOOK_OF_THE_DEAD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS, CODEX_OF_POWER].includes(curNode.groupName)) {
 					pixiAllocatedPoints.set(curNode.groupName, pixiAllocatedPoints.get(curNode.groupName) - allocatedPoints + newPoints);
 				}
 				updateNodePoints(curNode, newPoints);
 			}
 
 			// sort nodes based on their saved points, so nodes get deallocated first (to free up unused points) before allocating new nodes
-			const sortedNodes = [...pixiNodes].filter(pixiNode => ![undefined, EQUIPMENT_PANEL, TECHNIQUE_SLOT].includes(pixiNode.groupName)).sort(compareNodes);
+			const sortedNodes = [...pixiNodes].filter(pixiNode => ![undefined, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS].includes(pixiNode.groupName)).sort(compareNodes);
 			for (let i = 0, n = sortedNodes.length; i < n; i++) processNode(sortedNodes[i]);
 
 			glyphRadiusAttributeTotals = {};
@@ -2652,6 +2681,130 @@ function unequipTechnique(redrawTooltip = false) {
 		}
 	}
 }
+var enchantSlotData = {};
+var enchantSlotNodes = [];
+function handleEnchantSlotButton(curNode) {
+	const nodeData = curNode.nodeData;
+	const nodeId = Number(nodeData.get("id").match(/\d+/)[0]);
+
+	const enchantNodes = pixiNodes.filter(pixiNode => pixiNode.nodeDesc != undefined && pixiNode.nodeDesc.includes(ENCHANT_EFFECT_DESC));
+
+	const activeLocale = readCookie("activeLocale", "enUS");
+
+	let modalOptions = "";
+	for (const enchantNode of enchantNodes) {
+		const enchantData = enchantNode.nodeData;
+		const enchantPoints = enchantData.get("allocatedPoints");
+
+		let nameLocalized = (enchantData.get("nameLocalized") instanceof Map
+			&& enchantData.get("nameLocalized").has(activeLocale))
+			? enchantData.get("nameLocalized").get(activeLocale) : enchantNode.nodeName;
+		if (nameLocalized.includes("[") && nameLocalized.includes("]")) nameLocalized = nameLocalized.split("]")[1].split("[")[0];
+
+		const descLocalized = ((enchantData.get("descriptionLocalized") instanceof Map
+			&& enchantData.get("descriptionLocalized").has(activeLocale))
+			? enchantData.get("descriptionLocalized").get(activeLocale) : enchantNode.nodeDesc)
+			.split(ENCHANT_EFFECT_DESC)[1].trim()
+			.replace(/{(.+?)}/g, (matchText, captureText) => {
+				const outputText = captureText.split("/");
+				return outputText[enchantPoints > 0 ? Math.min(enchantPoints, outputText.length) - 1 : 0];
+			});
+
+		modalOptions += `<option value="${enchantData.get("id")}">${nameLocalized} — ${descLocalized}</option>`;
+	}
+
+	$("#fadeOverlay").removeClass("disabled");
+	$("#modalBox").html(`<div id="modalDiv1">${ENCHANT_SLOT_PROMPT_HEADER_PREFIX}${nodeId == 0 ? ENCHANT_FIRST : ENCHANT_SECOND}${ENCHANT_SLOT_PROMPT_HEADER_SUFFIX}</div>`
+		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions}</select></div>`
+		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button> `
+		+ `<button id="modalCancel" type="button">Cancel</button></div>`).removeClass("disabled");
+
+	$("#modalSelect").select2({
+		dropdownParent: $("#modalDiv2"),
+		escapeMarkup: data => data,
+		templateResult: data => data.text.replaceAll("[br]", curWidth < 1400 ? " " : "<br>"),
+		templateSelection: data => data.text.replaceAll("[br]", " ")
+	});
+	applyZoomLevel(); // hacky workaround for select2 transform bug
+
+	if (enchantSlotData[nodeId] != undefined) $("#modalSelect").val(enchantSlotData[nodeId]).trigger("change");
+
+	$("#modalConfirm").on("click", () => {
+		equipEnchant(curNode, $("#modalSelect").val());
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+	$("#modalCancel").on("click", () => {
+		unequipEnchant(curNode);
+		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
+	});
+}
+function equipEnchant(curNode, enchantId, redrawTooltip = false) {
+	const nodeData = curNode.nodeData;
+	const nodeId = Number(nodeData.get("id").match(/\d+/)[0]);
+
+	const enchantNode = pixiNodes.find(pixiNode => pixiNode.nodeData.get("id") == enchantId);
+	const enchantData = enchantNode.nodeData;
+
+	const activeLocale = readCookie("activeLocale", "enUS");
+
+	enchantSlotData[nodeId] = enchantId;
+
+	nodeData.set("description", enchantData.get("description"));
+	nodeData.set("descriptionLocalized", enchantData.get("descriptionLocalized"));
+	curNode.nodeDesc = enchantNode.nodeDesc;
+	curNode.localizedDesc = (enchantData.get("descriptionLocalized") instanceof Map
+		&& enchantData.get("descriptionLocalized").has(activeLocale))
+		? enchantData.get("descriptionLocalized").get(activeLocale) : enchantNode.nodeDesc;
+
+	nodeData.set("nameLocalized", enchantData.get("nameLocalized"));
+	if (curNode.slotName == undefined) curNode.slotName = curNode.nodeName;
+	curNode.nodeName = enchantNode.nodeName;
+	curNode.localizedName = (enchantData.get("nameLocalized") instanceof Map
+		&& enchantData.get("nameLocalized").has(activeLocale))
+		?  enchantData.get("nameLocalized").get(activeLocale) : enchantNode.nodeName;
+	curNode.displayName = `${curNode.nodeName} (${curNode.slotName})`;
+
+	nodeData.set("allocatedPoints", 1);
+
+	curNode.scaleFactor = -1; // force redraw
+	redrawNode(curNode);
+
+	if (pixiTooltip.children.length > 0) {
+		if (redrawTooltip) {
+			drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+		} else {
+			eraseTooltip();
+		}
+	}
+}
+function unequipEnchant(curNode, redrawTooltip = false) {
+	const nodeData = curNode.nodeData;
+	const nodeId = Number(nodeData.get("id").match(/\d+/)[0]);
+
+	delete enchantSlotData[nodeId];
+
+	if (curNode.slotName != undefined) {
+		nodeData.set("description", ENCHANT_SLOT_DESC);
+		nodeData.set("descriptionLocalized", ENCHANT_SLOT_DESC);
+		[curNode.nodeDesc, curNode.localizedDesc] = [ENCHANT_SLOT_DESC, ENCHANT_SLOT_DESC];
+
+		nodeData.delete("nameLocalized");
+		[curNode.nodeName, curNode.localizedName, curNode.displayName] = [curNode.slotName, curNode.slotName, curNode.slotName];
+	}
+
+	nodeData.set("allocatedPoints", 0);
+
+	curNode.scaleFactor = -1; // force redraw
+	redrawNode(curNode);
+
+	if (pixiTooltip.children.length > 0) {
+		if (redrawTooltip) {
+			drawTooltip(pixiNodes[pixiTooltip.nodeIndex], true);
+		} else {
+			eraseTooltip();
+		}
+	}
+}
 // returns the current [x, y] position of curNode relative to pixiBackground or the parent groupNode
 function getNodePosition(curNode) {
 	if (curNode.groupName == undefined) {
@@ -3087,7 +3240,7 @@ function handleToggleButton(curNode) {
 	const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 	if (allocatedPoints == 0) {
 		handlePlusButton(curNode);
-		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(curNode.groupName)) {
+		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS, CODEX_OF_POWER].includes(curNode.groupName)) {
 			const exclusiveNodes = curNode.nodeData.get("exclusiveNodes");
 			if (exclusiveNodes != undefined) {
 				let allocatedBoons = [];
@@ -3118,7 +3271,7 @@ function handleToggleButton(curNode) {
 function handlePlusButton(curNode) {
 	if (!canAllocate(curNode)) return;
 
-	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(curNode.groupName)) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS, CODEX_OF_POWER].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.min(allocatedPoints + 1, maxPoints);
@@ -3218,7 +3371,7 @@ function handlePlusButton(curNode) {
 	}
 }
 function handleMinusButton(curNode) {
-	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(curNode.groupName)) {
+	if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS, CODEX_OF_POWER].includes(curNode.groupName)) {
 		const allocatedPoints = curNode.nodeData.get("allocatedPoints");
 		const maxPoints = curNode.nodeData.get("maxPoints");
 		const newPoints = Math.max(allocatedPoints - 1, 0);
@@ -3383,7 +3536,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	const maxPoints = nodeData.get("maxPoints");
 	const requiredPoints = nodeData.get("requiredPoints");
 
-	const hasTextureEnabled = ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName);
+	const hasTextureEnabled = ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS, CODEX_OF_POWER].includes(groupName);
 	const isActiveSkill = hasTextureEnabled && groupName != KEY_PASSIVE && [1, 5].includes(maxPoints) && nodeData.get("baseSkill") == undefined;
 
 	let displayName = ["Strength", "Intelligence", "Willpower", "Dexterity"].includes(nodeName) ? nodeName[0] : nodeName;
@@ -3596,7 +3749,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	if (isActiveSkill) nodeText.y = nodeTextInvertAlignment.includes(nodeName) ? -85 : 85;
 
 	let nodeText2, nodeText3, nodeText4, plusContainer, minusContainer;
-	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER].includes(groupName) && maxPoints > 1) {
+	if (groupName != undefined && ![SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS, CODEX_OF_POWER].includes(groupName) && maxPoints > 1) {
 		nodeText2 = updateExistingNode ? pixiNodes[nodeIndex].children[2] : new PIXI.Text();
 		nodeText2.text = allocatedPoints + "/" + maxPoints;
 		nodeText2.style = {
@@ -3694,7 +3847,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	nodeBorder.clear();
 	nodeBorder.pivot.x = _nodeWidth * 0.5 * shapeSize;
 	nodeBorder.pivot.y = _nodeHeight * 0.5 * shapeSize;
-	if (([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
+	if (([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS, CODEX_OF_POWER, undefined].includes(groupName) && requiredPoints == 0) || useThickNodeStyle) {
 		let _lineStyleThickSquare = { ...lineStyleThickSquare };
 		if (searchQueryMatch) {
 			_lineStyleThickSquare.color = searchQueryMatchColor;
@@ -3850,6 +4003,10 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				node
 					.on("click", () => handleTechniqueSlotButton(node))
 					.on("tap", () => handleTechniqueSlotButton(node));
+			} else if (groupName == ENCHANT_SLOTS) {
+				node
+					.on("click", () => handleEnchantSlotButton(node))
+					.on("tap", () => handleEnchantSlotButton(node));
 			} else {
 				node
 					.on("click", () => handleToggleButton(node))
@@ -3864,6 +4021,8 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			node.on("rightclick", () => unequipPanelPower(node, true));
 		} else if (groupName == TECHNIQUE_SLOT) {
 			node.on("rightclick", () => unequipTechnique(true));
+		} else if (groupName == ENCHANT_SLOTS) {
+			node.on("rightclick", () => unequipEnchant(node, true));
 		} else {
 			node.on("rightclick", () => handleMinusButton(node));
 		}
@@ -3912,20 +4071,20 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			if (curDesc == undefined || curDesc.length == 0) return curDesc;
 			let nodeValues = node.nodeData.get("values");
 			if (nodeValues != undefined) {
-				let [nodeDesc1, nodeDesc2] = curDesc.split(ENCHANTMENT_EFFECT_DESC);
+				let [nodeDesc1, nodeDesc2] = curDesc.split(ENCHANT_EFFECT_DESC);
 				nodeValues = nodeValues.values();
 				for (const nodeValue of nodeValues) {
-					nodeDesc1 = nodeDesc1.replace(/{#}/, nodeValue.length > 0 ? nodeValue: "#");
+					nodeDesc1 = nodeDesc1.replace(/{#}/, nodeValue.length > 0 ? nodeValue : "#");
 				}
 				if (nodeDesc2 != undefined) {
 					let extraValues = node.nodeData.get("extraValues");
 					if (extraValues != undefined) {
 						extraValues = extraValues.values();
 						for (const extraValue of extraValues) {
-							nodeDesc2 = nodeDesc2.replace(/{#}/, extraValue.length > 0 ? extraValue: "#");
+							nodeDesc2 = nodeDesc2.replace(/{#}/, extraValue.length > 0 ? extraValue : "#");
 						}
 					}
-					curDesc = nodeDesc1 + ENCHANTMENT_EFFECT_DESC + nodeDesc2;
+					curDesc = nodeDesc1 + ENCHANT_EFFECT_DESC + nodeDesc2;
 				} else {
 					curDesc = nodeDesc1;
 				}
@@ -3935,7 +4094,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 	}
 
 	if (!updateExistingNode) {
-		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, CODEX_OF_POWER, undefined].includes(groupName) || maxPoints <= 1) {
+		if ([SPIRIT_BOONS, BOOK_OF_THE_DEAD, PARAGON_BOARD, ALTARS_OF_LILITH, EQUIPMENT_PANEL, TECHNIQUE_SLOT, ENCHANT_SLOTS, CODEX_OF_POWER, undefined].includes(groupName) || maxPoints <= 1) {
 			node.addChild(nodeContainer, nodeText, nodeBorder);
 		} else {
 			node.addChild(nodeContainer, nodeText, nodeText2, minusContainer, plusContainer, nodeBorder);
@@ -4384,7 +4543,6 @@ function drawAllNodes() {
 			["x", techniqueSlotGroupX],
 			["y", techniqueSlotGroupY]
 		]);
-
 		drawNode(TECHNIQUE_SLOT, techniqueSlotGroupNodeData);
 
 		const techniqueSlotNodeData = new Map([
@@ -4400,10 +4558,45 @@ function drawAllNodes() {
 		]);
 		drawNode("Weapon Expertise", techniqueSlotNodeData, TECHNIQUE_SLOT);
 
-		// rather than using `pixiNodes.filter(...)` constantly, we just create a pointer reference to the technique slot
+		// rather than using `pixiNodes.filter(...)` constantly, we just create a reference to the technique slot
 		techniqueSlotNode = pixiNodes[pixiNodes.length - 1];
 
 		$("#groupSelector").append(`<option value="${TECHNIQUE_SLOT.replace(/\s/g, "").toLowerCase()}">${TECHNIQUE_SLOT}</option>`);
+	} else if (className == "sorcerer") {
+		const enchantSlotGroupX = -5350;
+		const enchantSlotGroupY = 750;
+
+		const enchantSlotGroupNodeData = new Map([
+			["colorOverride", textColor],
+			["requiredPoints", 0],
+			["widthOverride", 850],
+			["shapeSize", 1],
+			["shapeType", "rectangle"],
+			["x", enchantSlotGroupX],
+			["y", enchantSlotGroupY]
+		]);
+
+		drawNode(ENCHANT_SLOTS, enchantSlotGroupNodeData);
+
+		for (let i = 0; i < 2; i++) {
+			const enchantSlotNodeData = new Map([
+				["allocatedPoints", 0],
+				["description", ENCHANT_SLOT_DESC],
+				["id", `enchant-${i}`],
+				["maxPoints", 1],
+				["widthOverride", 850],
+				["shapeSize", 1],
+				["shapeType", "rectangle"],
+				["x", enchantSlotGroupX],
+				["y", enchantSlotGroupY + 150 * (i + 1)]
+			]);
+			drawNode(ENCHANT_SLOT, enchantSlotNodeData, ENCHANT_SLOTS);
+		}
+
+		// rather than using `pixiNodes.filter(...)` constantly, we just create a reference to each enchant slot
+		enchantSlotNodes = [pixiNodes[pixiNodes.length - 2], pixiNodes[pixiNodes.length - 1]];
+
+		$("#groupSelector").append(`<option value="${ENCHANT_SLOTS.replace(/\s/g, "").toLowerCase()}">${ENCHANT_SLOTS}</option>`);
 	}
 
 	const sortedCodexItemTypeIndex = {
@@ -4575,6 +4768,15 @@ function drawTooltip(curNode, forceDraw) {
 		} else if (curNode.groupName == TECHNIQUE_SLOT) {
 			nodeDesc = nodeDesc.replace(/{(.+?)}/g, (matchText, captureText) => captureText.split("/").at(-1));
 			if (curNode.localizedBonus != null) nodeDesc += `\n${curNode.localizedBonus}`;
+		} else if (curNode.groupName == ENCHANT_SLOTS) {
+			const nodeId = Number(nodeData.get("id").match(/\d+/)[0]);
+			const enchantId = enchantSlotData[nodeId];
+			if (enchantId != undefined) {
+				const enchantNode = pixiNodes.filter(pixiNode => pixiNode.nodeData.get("id") == enchantId)[0];
+				const enchantPoints = enchantNode.nodeData.get("allocatedPoints");
+				nodeDesc = nodeDesc.split(ENCHANT_EFFECT_DESC)[1].trim()
+					.replace(/{(.+?)}/g, (matchText, captureText) => captureText.split("/").at(enchantPoints > 0 ? enchantPoints - 1 : 0));
+			}
 		} else {
 			const boardIndex = nodeData.get("_boardIndex");
 
@@ -4660,7 +4862,7 @@ function drawTooltip(curNode, forceDraw) {
 
 	let nodeHeader = nodeData.get("nameOverride");
 	if (nodeHeader == undefined) {
-		if (curNode.groupName == EQUIPMENT_PANEL && curNode.slotName != undefined) {
+		if ([EQUIPMENT_PANEL, ENCHANT_SLOTS].includes(curNode.groupName) && curNode.slotName != undefined) {
 			nodeHeader = `${curNode.localizedName} (${curNode.slotName})`;
 		} else {
 			nodeHeader = curNode.localizedName;
@@ -5083,6 +5285,8 @@ function rebuildCanvas() {
 	equipmentPanelData = {};
 	techniqueSlotData = null;
 	techniqueSlotNode = null;
+	enchantSlotData = {};
+	enchantSlotNodes = [];
 
 	drawBackground();
 	drawAllNodes();
