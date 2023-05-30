@@ -3934,7 +3934,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 				nodeTexture.scale.set(1.25);
 			} else if (groupName == KEY_PASSIVE) {
 				nodeTexture = new PIXI.Sprite(PIXI_TEXTURES.NODE_KEY_PASSIVE);
-				nodeTexture.scale.set(0.9);
+				nodeTexture.scale.set(0.7);
 			} else if (nodeData.get("shapeType") == "diamond") {
 				nodeTexture = new PIXI.Sprite(PIXI_TEXTURES.NODE_GROUP);
 				nodeTexture.scale.set(0.9);
@@ -4292,10 +4292,10 @@ function drawAllNodes() {
 					} else if (nodeData.get("maxPoints") == 3) {
 						// passive skill
 						nodeData.set("shapeType", "circle");
-						nodeData.set("shapeSize", 1 / Math.SQRT2 * 0.9);
+						nodeData.set("shapeSize", 1 / Math.SQRT2 * 0.85);
 					} else if (groupName == KEY_PASSIVE) {
 						nodeData.set("shapeType", "circle");
-						nodeData.set("shapeSize", 1 / Math.SQRT2 * 1.1);
+						nodeData.set("shapeSize", 1 / Math.SQRT2 * 0.85);
 					} else {
 						// active skill
 						nodeData.set("shapeType", "rectangle");
