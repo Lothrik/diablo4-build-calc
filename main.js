@@ -3803,7 +3803,10 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText3.anchor.set(0, 1);
 		nodeText3.x = -(_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 + 8;
 		nodeText3.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? 3 : -5);
-		if (!updateExistingNode) minusContainer.addChild(nodeText3);
+		const nodeBackground3 = pixiNodes.length > nodeIndex ? minusContainer.children[1] : PIXI.Sprite.from(PIXI.Texture.EMPTY);
+		nodeBackground3.anchor.set(0, 1);
+		[nodeBackground3.width, nodeBackground3.height, nodeBackground3.x, nodeBackground3.y] = [50, 50, -60, 60];
+		if (!updateExistingNode) minusContainer.addChild(nodeText3, nodeBackground3);
 
 		plusContainer = updateExistingNode ? pixiNodes[nodeIndex].children[4] : new PIXI.Container();
 		plusContainer.cursor = "pointer";
@@ -3838,7 +3841,10 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		nodeText4.anchor.set(1, 1);
 		nodeText4.x = (_nodeWidth * shapeSize * circleFactor * diamondFactor) * 0.5 - 2;
 		nodeText4.y = (_nodeHeight * shapeSize * circleFactor * diamondFactor) * 0.5 + (shapeType == "circle" ? 7 : -1);
-		if (!updateExistingNode) plusContainer.addChild(nodeText4);
+		const nodeBackground4 = pixiNodes.length > nodeIndex ? plusContainer.children[1] : PIXI.Sprite.from(PIXI.Texture.EMPTY);
+		nodeBackground4.anchor.set(1, 1);
+		[nodeBackground4.width, nodeBackground4.height, nodeBackground4.x, nodeBackground4.y] = [50, 50, 60, 60];
+		if (!updateExistingNode) plusContainer.addChild(nodeText4, nodeBackground4);
 	}
 
 	const nodeBorder = updateExistingNode ? pixiNodes[nodeIndex].children[pixiNodes[nodeIndex].children.length - 1] : new PIXI.Graphics();
