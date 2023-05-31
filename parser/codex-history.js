@@ -292,7 +292,8 @@ let codexHistory = {
 	"Utility: Raiment of the Infinite": 290,
 	"Offensive: Gloves of the Illuminator": 291,
 	"Defensive: Iceheart Brais": 292,
-	"Utility: Aspect of Explosive Mist": 293
+	"Utility: Aspect of Explosive Mist": 293,
+	"Offensive: Aspect of the Changeling's Debt": 294
 }
 
 export { codexHistory };

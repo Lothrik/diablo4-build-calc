@@ -627,6 +627,11 @@ let codexValues = {
 			},
 			"Storm's Companion": {
 				"values": []
+			},
+			"Aspect of the Changeling's Debt": {
+				"dungeon": "Conclave",
+				"region": "Kehjistan",
+				"values": []
 			}
 		},
 		"Utility": {
@@ -657,11 +662,6 @@ let codexValues = {
 			}
 		},
 		"Resource": {
-			"Aspect of the Changeling's Debt": {
-				"dungeon": "Conclave",
-				"region": "Kehjistan",
-				"values": []
-			},
 			"Mangled Aspect": {
 				"dungeon": "Immortal Emanation",
 				"region": "Fractured Peaks",

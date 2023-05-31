@@ -1064,6 +1064,7 @@ const localeFlagPairs = {
 	"plPL": "pl",
 	"ptBR": "br",
 	"ruRU": "ru",
+	"trTR": "tr",
 	"zhCN": "cn",
 	"zhTW": "tw"
 };
@@ -1538,7 +1539,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "0.9.0.41428-30";
+const localVersion = "1.0.2.41917-1";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
