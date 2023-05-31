@@ -1539,7 +1539,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.0.2.41917-1";
+const localVersion = "1.0.2.41917-2";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2265,7 +2265,7 @@ function handleParagonGlyphSocket(curNode) {
 	$("#fadeOverlay").removeClass("disabled");
 	$("#modalBox").html(`<div id="modalDiv1">${GLYPH_SELECT_PROMPT_PREFIX}[${boardHeader.nodeName}]:</div>`
 		+ `<div id="modalDiv2"><select id="modalSelect">${modalOptions}</select></div>`
-		+ `<div id="modalDiv3"><input type="range" min="1" max="20" value="1" id="modalSlider"></div>`
+		+ `<div id="modalDiv3"><input type="range" min="1" max="21" value="1" id="modalSlider"></div>`
 		+ `<div id="modalDiv4"></div>`
 		+ `<div id="modalDiv5">${GLYPH_SELECT_PROMPT_SUFFIX}</div>`
 		+ `<div id="modalDiv6"><button id="modalConfirm" type="button">Confirm</button>`
@@ -2821,8 +2821,8 @@ function getNodePosition(curNode) {
 }
 function getUnusedPoints(paragonPoints = false) {
 	if (paragonPoints) {
-		// 1 paragon point gained at level 50, then 4 per level from 51-100 inclusive (level total: 201); plus 20 from renown (final total: 221)
-		const maxParagonPoints = 221;
+		// 1 paragon point gained at level 50, then 4 per level from 51-100 inclusive (level total: 201); plus 20 from renown; plus 4 from altars (final total: 225)
+		const maxParagonPoints = 225;
 		return maxParagonPoints - pixiAllocatedParagonPoints;
 	} else {
 		// 1 skill point per level from 2-49 inclusive (level total: 48); plus 10 from renown (final total: 58)
@@ -2837,21 +2837,28 @@ function updateCharacterLevel() {
 
 	let charLevel = 1;
 	let renownLevel = 0;
-	const maxSkillPoints = 58;
-	const maxRenownLevel = 10;
 
-	if (unusedPoints >= maxRenownLevel) {
+	const maxLevel = 50;
+	const maxRenown = 10;
+	const maxSkillPoints = 58;
+
+	const maxLevelParagon = 100;
+	const maxRenownParagon = 20;
+	const maxParagonPoints = 225;
+	const maxParagonPointsBase = 200;
+
+	if (unusedPoints >= maxRenown) {
 		charLevel = 1 + maxSkillPoints - Math.max(unusedPoints, 0);
 	} else {
-		charLevel = 50;
-		renownLevel = maxRenownLevel - Math.max(unusedPoints, 0);
+		charLevel = maxLevel;
+		renownLevel = maxRenown - Math.max(unusedPoints, 0);
 	}
 
-	if (unusedParagonPoints < 21) {
-		charLevel = 100;
-		renownLevel += 20 - Math.max(unusedParagonPoints, 0);
-	} else if (unusedParagonPoints < 221) {
-		charLevel = 49 + Math.ceil((221 - unusedParagonPoints) / 4);
+	if (unusedParagonPoints < maxParagonPoints - maxParagonPointsBase) {
+		charLevel = maxLevelParagon;
+		renownLevel += maxRenownParagon - Math.max(unusedParagonPoints, 0);
+	} else if (unusedParagonPoints < maxParagonPoints) {
+		charLevel = maxLevel - 1 + Math.ceil((maxParagonPoints - unusedParagonPoints) / 4);
 	}
 
 	$("#charLevel").text(charLevel);
