@@ -1571,10 +1571,10 @@ function handleIntervalEvent() {
 	newRenderScale = Math.min(pixiJS.stage.scale.x, 2);
 	if (newRenderScale == curRenderScale) {
 		const partialEventQueue = [...pixiEventQueue].slice(0, 199);
-		for (const curNode of partialEventQueue) {
-			if (pixiNodes[curNode].stale) {
-				redrawNode(pixiNodes[curNode]);
-				pixiEventQueue.delete(curNode);
+		for (const nodeIndex of partialEventQueue) {
+			if (pixiNodes[nodeIndex].stale) {
+				redrawNode(pixiNodes[nodeIndex]);
+				pixiEventQueue.delete(nodeIndex);
 			}
 			if (isEventHandlerBusy) break;
 		}
