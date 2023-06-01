@@ -95,7 +95,7 @@ h1, h2, h3 {
 	border: 1px solid #fff;
 	white-space: nowrap;
 	touch-action: none;
-	z-index: 6!important;
+	z-index: 5!important;
 }
 
 #detailsWindow > :not(:first-child) {
@@ -107,7 +107,7 @@ h1, h2, h3 {
 	border-bottom: 1px solid #fff;
 	font-size: 28px;
 	font-variant: small-caps;
-	z-index: 7!important;
+	z-index: 6!important;
 	align-items: center;
 	justify-content: center;
 }
@@ -124,6 +124,7 @@ h1, h2, h3 {
 	margin: 0 4px 0 -32px;
 	height: 32px;
 	width: 32px;
+	z-index: 7!important;
 }
 
 #detailsWindowContents {
@@ -224,6 +225,10 @@ h1, h2, h3 {
 	float: left;
 }
 
+#floatLeft, #floatLeft .select2-container:not(.select2-container--open) {
+	width: 60px!important;
+}
+
 #floatLeft .fi, .fi-dropdown {
 	background-size: cover;
 	border: 1px solid #fff;
@@ -233,14 +238,6 @@ h1, h2, h3 {
 
 .fi-dropdown {
 	float: right;
-}
-
-#floatLeft:has(.select2-container:not(.select2-container--open)), #floatLeft .select2-container:not(.select2-container--open) {
-	width: 60px!important;
-}
-
-#floatLeft:has(.select2-container--open), #floatLeft .select2-container--open, #floatLeft .select2-dropdown {
-	width: 160px!important;
 }
 
 .visible, .visible * {

@@ -5412,6 +5412,14 @@ $(document).ready(function() {
 		const position = container.offset().top;
 		const availableHeight = $(window).height() - position - container.outerHeight();
 		$(".select2-results__options").css("max-height", availableHeight - 80);
+		if (e.target.id == "localeSelector") {
+			$("#floatLeft, #floatLeft .select2-container").width(160);
+		}
+	});
+	$(window).on("select2:close", e => {
+		if (e.target.id == "localeSelector") {
+			$("#floatLeft, #floatLeft .select2-container").width(60);
+		}
 	});
 
 	rebuildTextures();
