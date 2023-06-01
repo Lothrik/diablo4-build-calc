@@ -279,7 +279,7 @@ var pixiNodes = [];
 var pixiConnectors = [];
 var pixiConnectorPairs = [];
 
-var pixiEventQueue = [];
+var pixiEventQueue = new Set();
 
 var pixiBackground = PIXI.Sprite.from(PIXI.Texture.EMPTY);
 var pixiTooltip = new PIXI.Container();
@@ -298,6 +298,7 @@ var curRenderScale = 1;
 var newRenderScale = 1;
 
 var frameTimer = Date.now();
+var isEventHandlerBusy = false;
 
 var curWidth = 0;
 var curHeight = 0;
@@ -1562,8 +1563,22 @@ function versionCompare(a, b) {
 	return a.localeCompare(b, undefined, { numeric: true, sensitivity: "case", caseFirst: "upper" });
 }
 function handleIntervalEvent() {
+	if (isEventHandlerBusy) return;
+
+	const idleTime = frameTimer == null ? 1000 : Date.now() - frameTimer;
+	if (idleTime < 200) return;
+
 	newRenderScale = Math.min(pixiJS.stage.scale.x, 2);
-	if (newRenderScale != curRenderScale) {
+	if (newRenderScale == curRenderScale) {
+		const partialEventQueue = [...pixiEventQueue].slice(0, 199);
+		for (const curNode of partialEventQueue) {
+			if (pixiNodes[curNode].stale) {
+				redrawNode(pixiNodes[curNode]);
+				pixiEventQueue.delete(curNode);
+			}
+			if (isEventHandlerBusy) break;
+		}
+	} else {
 		// skip `redrawAllNodes` on high pixel density devices
 		if (devicePixelRatio < 2) {
 			redrawAllNodes(false);
@@ -1572,17 +1587,16 @@ function handleIntervalEvent() {
 		curRenderScale = newRenderScale;
 	}
 
-	while (pixiEventQueue.length > 0) (pixiEventQueue.shift())();
-
-	if (frameTimer != null && Date.now() - frameTimer > 1200) {
+	if (idleTime > 3000) {
+		redrawAllNodes(true);
 		frameTimer = null;
 		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [2, 2];
-		// disabled for now as it causes performance issues and doesn't really help much anyway, might be worth debugging later
-		//if (devicePixelRatio < 2) redrawAllNodes(true);
 	}
 }
 function handleCanvasEvent(event) {
 	resetFrameTimer();
+	isEventHandlerBusy = true;
+
 	switch (event.type) {
 		case "mousedown":
 		case "touchstart":
@@ -1617,6 +1631,7 @@ function handleCanvasEvent(event) {
 			event.preventDefault();
 			return;
 	}
+
 	if (event.type == "wheel" || (event.type == "touchmove" && isTouching)) {
 		if (event.type == "wheel") {
 			const stepSize = pixiJS.stage.scale.x >= 1.5 ? 0.1 : 0.05;
@@ -1647,6 +1662,9 @@ function handleCanvasEvent(event) {
 			stageScale = pixiJS.stage.scale.x;
 		}
 	}
+
+	resetFrameTimer();
+	isEventHandlerBusy = false;
 }
 function handleClassSelection(event, postHookFunction = null) {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
@@ -3504,7 +3522,6 @@ function redrawNode(curNode) {
 	drawNode(curNode.nodeName, curNode.nodeData, curNode.groupName, curNode.extraData, curNode.nodeIndex, curNode.position);
 }
 function redrawAllNodes(idleMode = false) {
-	pixiEventQueue = [];
 	for (let i = 0, n = pixiNodes.length; i < n; i++) {
 		const pixiNode = pixiNodes[i];
 		if (idleMode) {
@@ -3985,12 +4002,11 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		};
 		node._renderHooked = node._render;
 		node._render = (...args) => {
+			node.interactiveChildren = enableNodeInteraction;
+			node.eventMode = enableNodeInteraction ? "static" : "none";
 			if (node.stale) {
-				node.stale = false;
-				pixiEventQueue.push(() => redrawNode(node));
+				pixiEventQueue.add(nodeIndex);
 			} else {
-				node.interactiveChildren = enableNodeInteraction;
-				node.eventMode = enableNodeInteraction ? "static" : "none";
 				node._renderHooked(...args);
 			}
 		};
@@ -5269,7 +5285,7 @@ function rebuildCanvas() {
 	pixiConnectors = [];
 	pixiConnectorPairs = [];
 
-	pixiEventQueue = [];
+	pixiEventQueue = new Set();
 
 	pixiBackground = PIXI.Sprite.from(PIXI.Texture.EMPTY);
 	pixiBackground.on("mouseover", onMouseOverBackground);
@@ -5431,7 +5447,7 @@ $(document).ready(function() {
 		throw new Error(e);
 	}
 	resizeCanvas();
-	setInterval(handleIntervalEvent, 200);
+	setInterval(handleIntervalEvent, 100);
 
 	if (debugMode) {
 		let drawCount = 0;
