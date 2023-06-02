@@ -5270,7 +5270,7 @@ function resizeSearchInput() {
 }
 function resetFrameTimer() {
 	frameTimer = Date.now();
-	pixiJS.ticker.maxFPS = 120;
+	[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, document.hasFocus() ? 120 : 1];
 }
 function rebuildCanvas() {
 	while (pixiJS.stage.children[0]) pixiJS.stage.children[0].destroy(true);
@@ -5436,9 +5436,6 @@ $(document).ready(function() {
 		if (e.target.id == "localeSelector") {
 			$("#floatLeft, #floatLeft .select2-container").width(60);
 		}
-	});
-	$(window).on("blur", e => {
-		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
 	});
 
 	rebuildTextures();
