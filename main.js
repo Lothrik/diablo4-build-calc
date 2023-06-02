@@ -1565,7 +1565,7 @@ function versionCompare(a, b) {
 function handleIntervalEvent() {
 	if (isEventHandlerBusy) return;
 
-	const idleTime = frameTimer == null ? 5000 : Date.now() - frameTimer;
+	const idleTime = frameTimer == null ? 1000 : Date.now() - frameTimer;
 	if (idleTime < 200) return;
 
 	newRenderScale = Math.min(pixiJS.stage.scale.x, 2);
@@ -1589,8 +1589,8 @@ function handleIntervalEvent() {
 
 	if (idleTime > 3000) {
 		redrawAllNodes(true);
+		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
 		frameTimer = null;
-		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [2, 2];
 	}
 }
 function handleCanvasEvent(event) {
@@ -5436,6 +5436,9 @@ $(document).ready(function() {
 		if (e.target.id == "localeSelector") {
 			$("#floatLeft, #floatLeft .select2-container").width(60);
 		}
+	});
+	$(window).on("blur", e => {
+		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
 	});
 
 	rebuildTextures();
