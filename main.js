@@ -1540,7 +1540,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.0.2.42016-1";
+const localVersion = "1.0.2.42016-2";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -1565,7 +1565,7 @@ function versionCompare(a, b) {
 function handleIntervalEvent() {
 	if (isEventHandlerBusy) return;
 
-	const idleTime = frameTimer == null ? 1000 : Date.now() - frameTimer;
+	const idleTime = frameTimer == null ? 5000 : Date.now() - frameTimer;
 	if (idleTime < 200) return;
 
 	newRenderScale = Math.min(pixiJS.stage.scale.x, 2);
