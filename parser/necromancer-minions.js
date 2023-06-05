@@ -61,7 +61,7 @@ let necromancerMinions = {
 			]
 		},
 		"Blood Golem": {
-			"Description": `Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing 40% damage and healing 4% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained. This has a 10 second cooldown.`,
+			"Description": `Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing 90% damage and healing 5% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained. This has a 10 second cooldown.`,
 			"Sacrifice": `Your Maximum Life is increased by x10%, but you lose the ability to summon a Golem.`,
 			"Upgrades": [
 				`Your Blood Golem absorbs 15% of damage you would take.`,
@@ -69,10 +69,10 @@ let necromancerMinions = {
 			]
 		},
 		"Iron Golem": {
-			"Description": `Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds. This has a 16 second cooldown.`,
+			"Description": `Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 175% damage and Stunning surrounding enemies for 3 seconds. This has a 16 second cooldown.`,
 			"Sacrifice": `You deal x30% increased Critical Strike Damage, but you lose the ability to summon a Golem.`,
 			"Upgrades": [
-				`Every 5th Iron Golem attack causes a shockwave, dealing 30% damage to the primary enemy and to enemies behind them.`,
+				`Every 5th Iron Golem attack causes a shockwave, dealing 40% damage to the primary enemy and to enemies behind them.`,
 				`Your Iron Golem's slam attack also makes enemies Vulnerable for 3 seconds.`
 			]
 		}

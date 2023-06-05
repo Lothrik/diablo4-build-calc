@@ -1169,7 +1169,7 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 		connections: [ "Enhanced Blood Lance", "Core" ],
 		description: `Essence Cost: 15
 Lucky Hit Chance: 33% (per hit)
-Throw a blood lance that lingers in an enemy for 3 seconds, dealing {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% damage to the enemy and all other lanced enemies.
+Throw a blood lance that lingers in an enemy for 3 seconds, dealing {80/88/96/104/112/120/128/136/144/152}% damage to the enemy and all other lanced enemies.
 
 Tags: Core, Blood, Damage, Physical, Essence.`,
 		nameLocalized: {
@@ -1188,19 +1188,19 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"zhTW": "鮮血之槍"
 },
 		descriptionLocalized: {
-			"deDE": "Essenzkosten: 15\nGlückstrefferchance: 33% (per hit)\nWerft eine Blutlanze, die 3 Sek. lang in einem Gegner verbleibt und diesem und allen anderen betroffenen Gegnern {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% Schaden zufügt.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
-			"esES": "Coste de esencia: 15\nProbabilidad de golpe de suerte: 33% (per hit)\nArrojas una lanza de sangre que permanece en el enemigo durante 3 s e inflige {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de daño al enemigo y al resto de enemigos atravesados.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
-			"esMX": "Costo de Esencia: 15\nProbabilidad de golpe afortunado: 33% (per hit)\nArrojas una lanza sangrienta que permanece clavada en un enemigo durante 3 segundos e inflige {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de daño al enemigo y a los demás enemigos atravesados por la lanza.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
-			"frFR": "Coût en essence: 15\nChances d'obtenir un coup de chance: 33% (per hit)\nVous projetez une lance de sang qui reste plantée dans l'adversaire pendant 3 s, infligeant {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% points de dégâts à cette cible ainsi qu'à toutes les autres cibles empalées.\n\nTags: Principale, Sang, Dégâts, Dégâts physiques, Essence.",
-			"itIT": "Costo in essenza: 15\nProbabilità di colpo fortunato: 33% (per hit)\nScagli una lancia di sangue che infilza un nemico per 3 s. La lancia infligge {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% danni al bersaglio e a tutti gli altri nemici infilzati.\n\nTags: Primaria, Sangue, Danni, Fisico, Essenza.",
-			"jaJP": "精髄消費量: 15\n幸運の一撃発生率: 33% (per hit)\n敵に3秒間残る〈ブラッドランス〉を放って、対象の敵および貫通したすべての敵に{67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}%のダメージを与える。\n\nTags: コア, 血, ダメージ, 物理, 精髄.",
-			"koKR": "소모: 정수 15\n행운의 적중 확률: 33% (per hit)\n피의 창을 던집니다. 창은 3초 동안 적에게 꽂혀 있으면서 해당 적과 창이 꽂힌 모든 적에게 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}%의 피해를 줍니다.\n\nTags: 핵심, 피, 피해, 물리, 정수.",
-			"plPL": "Koszt: 15 pkt. esencji\nSzansa na szczęśliwy traf: 33% (per hit)\nMiotasz krwawą lancą, która tkwi w przeciwniku przez 3 sek., zadając {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% pkt. obrażeń temu wrogowi i wszystkim pozostałym wrogom, którzy są przebici lancą.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
-			"ptBR": "Custo de essência: 15\nChance de Golpe de Sorte: 33% (per hit)\nArremessa uma lança de sangue que permanece em um inimigo por 3 segundos, causando {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% de dano ao inimigo e a todos os outros inimigos atingidos por lança.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
-			"ruRU": "Затраты эссенции: 15 ед.\nВероятность удачного удара: 33% (per hit)\nВы бросаете окровавленное копье, которое остается в теле противника в течение 3 сек. и наносит {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% ед. урона цели и остальным пронзенным противникам.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
-			"trTR": "Öz Bedeli: 15\nŞanslı Vuruş İhtimali: 33% (per hit)\n3 saniye boyunca bir düşmanın içinde kalarak düşmana ve diğer kargılanmış düşmanlara {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% hasar veren bir kanlı kargı fırlat.\n\nTags: Çekirdek, Kan, Hasar, Fiziksel, Öz.",
-			"zhCN": "精魂消耗: 15\n幸运一击几率: 33% (per hit)\n投掷一支留在敌人体内 3 秒的血矛, 对该敌人和所有其他被血矛刺中的敌人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 点伤害。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
-			"zhTW": "魂能消耗:15\n幸運觸發機率: 33% (per hit)\n投擲一把鮮血之槍,它會留在敵人身上 3 秒,對該敵人與其他被刺中的敵人造成 {67.5/74.3/81/87.8/94.5/101.3/108/114.8/121.5/128.2}% 點傷害。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
+			"deDE": "Essenzkosten: 15\nGlückstrefferchance: 33% (per hit)\nWerft eine Blutlanze, die 3 Sek. lang in einem Gegner verbleibt und diesem und allen anderen betroffenen Gegnern {80/88/96/104/112/120/128/136/144/152}% Schaden zufügt.\n\nTags: Kern, Blut, Schaden, Physisch, Essenz.",
+			"esES": "Coste de esencia: 15\nProbabilidad de golpe de suerte: 33% (per hit)\nArrojas una lanza de sangre que permanece en el enemigo durante 3 s e inflige {80/88/96/104/112/120/128/136/144/152}% de daño al enemigo y al resto de enemigos atravesados.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
+			"esMX": "Costo de Esencia: 15\nProbabilidad de golpe afortunado: 33% (per hit)\nArrojas una lanza sangrienta que permanece clavada en un enemigo durante 3 segundos e inflige {80/88/96/104/112/120/128/136/144/152}% de daño al enemigo y a los demás enemigos atravesados por la lanza.\n\nTags: Principal, Sangre, Daño, Física, Esencia.",
+			"frFR": "Coût en essence: 15\nChances d'obtenir un coup de chance: 33% (per hit)\nVous projetez une lance de sang qui reste plantée dans l'adversaire pendant 3 s, infligeant {80/88/96/104/112/120/128/136/144/152}% points de dégâts à cette cible ainsi qu'à toutes les autres cibles empalées.\n\nTags: Principale, Sang, Dégâts, Dégâts physiques, Essence.",
+			"itIT": "Costo in essenza: 15\nProbabilità di colpo fortunato: 33% (per hit)\nScagli una lancia di sangue che infilza un nemico per 3 s. La lancia infligge {80/88/96/104/112/120/128/136/144/152}% danni al bersaglio e a tutti gli altri nemici infilzati.\n\nTags: Primaria, Sangue, Danni, Fisico, Essenza.",
+			"jaJP": "精髄消費量: 15\n幸運の一撃発生率: 33% (per hit)\n敵に3秒間残る〈ブラッドランス〉を放って、対象の敵および貫通したすべての敵に{80/88/96/104/112/120/128/136/144/152}%のダメージを与える。\n\nTags: コア, 血, ダメージ, 物理, 精髄.",
+			"koKR": "소모: 정수 15\n행운의 적중 확률: 33% (per hit)\n피의 창을 던집니다. 창은 3초 동안 적에게 꽂혀 있으면서 해당 적과 창이 꽂힌 모든 적에게 {80/88/96/104/112/120/128/136/144/152}%의 피해를 줍니다.\n\nTags: 핵심, 피, 피해, 물리, 정수.",
+			"plPL": "Koszt: 15 pkt. esencji\nSzansa na szczęśliwy traf: 33% (per hit)\nMiotasz krwawą lancą, która tkwi w przeciwniku przez 3 sek., zadając {80/88/96/104/112/120/128/136/144/152}% pkt. obrażeń temu wrogowi i wszystkim pozostałym wrogom, którzy są przebici lancą.\n\nTags: Główne, Krew, Obrażenia, Fizyczne, Esencja.",
+			"ptBR": "Custo de essência: 15\nChance de Golpe de Sorte: 33% (per hit)\nArremessa uma lança de sangue que permanece em um inimigo por 3 segundos, causando {80/88/96/104/112/120/128/136/144/152}% de dano ao inimigo e a todos os outros inimigos atingidos por lança.\n\nTags: Principal, Sangue, Dano, Física, Essência.",
+			"ruRU": "Затраты эссенции: 15 ед.\nВероятность удачного удара: 33% (per hit)\nВы бросаете окровавленное копье, которое остается в теле противника в течение 3 сек. и наносит {80/88/96/104/112/120/128/136/144/152}% ед. урона цели и остальным пронзенным противникам.\n\nTags: Основное, Кровь, Урон, Физический урон, Эссенция.",
+			"trTR": "Öz Bedeli: 15\nŞanslı Vuruş İhtimali: 33% (per hit)\n3 saniye boyunca bir düşmanın içinde kalarak düşmana ve diğer kargılanmış düşmanlara {80/88/96/104/112/120/128/136/144/152}% hasar veren bir kanlı kargı fırlat.\n\nTags: Çekirdek, Kan, Hasar, Fiziksel, Öz.",
+			"zhCN": "精魂消耗: 15\n幸运一击几率: 33% (per hit)\n投掷一支留在敌人体内 3 秒的血矛, 对该敌人和所有其他被血矛刺中的敌人造成 {80/88/96/104/112/120/128/136/144/152}% 点伤害。\n\nTags: 核心, 鲜血, 伤害, 物理, 精魂.",
+			"zhTW": "魂能消耗:15\n幸運觸發機率: 33% (per hit)\n投擲一把鮮血之槍,它會留在敵人身上 3 秒,對該敵人與其他被刺中的敵人造成 {80/88/96/104/112/120/128/136/144/152}% 點傷害。\n\nTags: 核心, 鮮血, 傷害, 物理, 魂能."
 },
 		id: 28,
 		maxPoints: 5,
@@ -1768,7 +1768,7 @@ Tags: Corpse, Corruption, Damage, Physical, Cooldown.`,
 	},
 	"Grim Harvest": {
 		connections: [ "Fueled by Death", "Macabre" ],
-		description: `Consuming a Corpse generates {3/6/9/12/15/18/21/24/27/30} Essence.
+		description: `Consuming a Corpse generates {2/4/6/8/10/12/14/16/18/20} Essence.
 
 Tags: Essence, Corpse.`,
 		nameLocalized: {
@@ -1787,19 +1787,19 @@ Tags: Essence, Corpse.`,
 			"zhTW": "陰森收割"
 },
 		descriptionLocalized: {
-			"deDE": "Der Verbrauch einer Leiche erzeugt {3/6/9/12/15/18/21/24/27/30} Essenz.\n\nTags: Essenz, Leiche.",
-			"esES": "Consumir un cadáver genera {3/6/9/12/15/18/21/24/27/30} de esencia.\n\nTags: Esencia, Cadáver.",
-			"esMX": "Consumir un cadáver genera {3/6/9/12/15/18/21/24/27/30} de Esencia.\n\nTags: Esencia, Cadáver.",
-			"frFR": "Consommer un cadavre vous confère {3/6/9/12/15/18/21/24/27/30} points d'essence.\n\nTags: Essence, Cadavre.",
-			"itIT": "Consumare un cadavere genera {3/6/9/12/15/18/21/24/27/30} essenza.\n\nTags: Essenza, Cadavere.",
-			"jaJP": "死体を消費すると精髄を{3/6/9/12/15/18/21/24/27/30}生成する。\n\nTags: 精髄, 死体.",
-			"koKR": "시체 섭취 시 정수를 {3/6/9/12/15/18/21/24/27/30} 생성합니다.\n\nTags: 정수, 시체.",
-			"plPL": "Pochłanianie zwłok generuje {3/6/9/12/15/18/21/24/27/30} pkt. esencji.\n\nTags: Esencja, Zwłoki.",
-			"ptBR": "Consumir um cadáver gera {3/6/9/12/15/18/21/24/27/30} de essência.\n\nTags: Essência, Cadáver.",
-			"ruRU": "Расходуя труп, вы получаете {3/6/9/12/15/18/21/24/27/30} ед. эссенции.\n\nTags: Эссенция, Труп.",
-			"trTR": "Bir Cesedi tüketmek {3/6/9/12/15/18/21/24/27/30} Öz üretir.\n\nTags: Öz, Ceset.",
-			"zhCN": "消耗一具亡骸生成 {3/6/9/12/15/18/21/24/27/30} 点精魂。\n\nTags: 精魂, 亡骸.",
-			"zhTW": "消耗一具屍體會獲得 {3/6/9/12/15/18/21/24/27/30} 點魂能。\n\nTags: 魂能, 屍體."
+			"deDE": "Der Verbrauch einer Leiche erzeugt {2/4/6/8/10/12/14/16/18/20} Essenz.\n\nTags: Essenz, Leiche.",
+			"esES": "Consumir un cadáver genera {2/4/6/8/10/12/14/16/18/20} de esencia.\n\nTags: Esencia, Cadáver.",
+			"esMX": "Consumir un cadáver genera {2/4/6/8/10/12/14/16/18/20} de Esencia.\n\nTags: Esencia, Cadáver.",
+			"frFR": "Consommer un cadavre vous confère {2/4/6/8/10/12/14/16/18/20} points d'essence.\n\nTags: Essence, Cadavre.",
+			"itIT": "Consumare un cadavere genera {2/4/6/8/10/12/14/16/18/20} essenza.\n\nTags: Essenza, Cadavere.",
+			"jaJP": "死体を消費すると精髄を{2/4/6/8/10/12/14/16/18/20}生成する。\n\nTags: 精髄, 死体.",
+			"koKR": "시체 섭취 시 정수를 {2/4/6/8/10/12/14/16/18/20} 생성합니다.\n\nTags: 정수, 시체.",
+			"plPL": "Pochłanianie zwłok generuje {2/4/6/8/10/12/14/16/18/20} pkt. esencji.\n\nTags: Esencja, Zwłoki.",
+			"ptBR": "Consumir um cadáver gera {2/4/6/8/10/12/14/16/18/20} de essência.\n\nTags: Essência, Cadáver.",
+			"ruRU": "Расходуя труп, вы получаете {2/4/6/8/10/12/14/16/18/20} ед. эссенции.\n\nTags: Эссенция, Труп.",
+			"trTR": "Bir Cesedi tüketmek {2/4/6/8/10/12/14/16/18/20} Öz üretir.\n\nTags: Öz, Ceset.",
+			"zhCN": "消耗一具亡骸生成 {2/4/6/8/10/12/14/16/18/20} 点精魂。\n\nTags: 精魂, 亡骸.",
+			"zhTW": "消耗一具屍體會獲得 {2/4/6/8/10/12/14/16/18/20} 點魂能。\n\nTags: 魂能, 屍體."
 },
 		id: 43,
 		maxPoints: 3,
@@ -3407,7 +3407,7 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 	},
 	"Serration": {
 		connections: [ "Rapid Ossification", "Compound Fracture", "Summoning" ],
-		description: `Your Bone Skills have a +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% increased Critical Strike Chance for each 10 Essence you have upon cast.
+		description: `Your Bone Skills have a +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% increased Critical Strike Chance for each 10 Essence you have upon cast.
 
 Tags: Critical Strikes, Essence, Bone.`,
 		nameLocalized: {
@@ -3426,19 +3426,19 @@ Tags: Critical Strikes, Essence, Bone.`,
 			"zhTW": "鋒銳鋸齒"
 },
 		descriptionLocalized: {
-			"deDE": "Die kritische Trefferchance Eurer Knochenfertigkeiten erhöht sich je 10 Essenz, die Ihr beim Wirken besitzt, um +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%.\n\nTags: Kritische Treffer, Essenz, Knochen.",
-			"esES": "Tus habilidades de hueso tienen un +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% más de probabilidad de golpe crítico por cada 10 de esencia que tengas al lanzarlas.\n\nTags: Golpes críticos, Esencia, Hueso.",
-			"esMX": "Tus habilidades de Hueso tienen un +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% más de probabilidad de golpe crítico por cada 10 de Esencia que tengas al lanzarlas.\n\nTags: Golpes críticos, Esencia, Hueso.",
-			"frFR": "Vos compétences d'os ont +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% de chances supplémentaires d'infliger un coup critique pour chaque tranche de 10 points d'essence que vous avez lors de l'utilisation.\n\nTags: Coups critiques, Essence, Os.",
-			"itIT": "La probabilità di critico delle abilità d'ossa aumenta del +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% ogni 10 essenza accumulata al lancio dell'abilità.\n\nTags: Colpi critici, Essenza, Ossa.",
-			"jaJP": "骨スキルのクリティカルヒット率が、スキル使用時に持っている精髄10ポイント毎に+{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%上昇する。\n\nTags: クリティカルヒット, 精髄, 骨.",
-			"koKR": "뼈 기술을 시전할 때 보유한 정수 10당 해당 기술의 극대화 확률이 +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% 증가합니다.\n\nTags: 극대화, 정수, 뼈.",
-			"plPL": "Twoje umiejętności Kości mają o +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% większą szansę na trafienie krytyczne za każde 10 pkt. esencji posiadane w momencie użycia umiejętności.\n\nTags: Trafienia Krytyczne, Esencja, Kości.",
-			"ptBR": "Suas habilidades de Osso têm +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% de chance de acerto crítico aumentada por cada 10 de essência que você tiver ao lançar.\n\nTags: Acertos Críticos, Essência, Osso.",
-			"ruRU": "Вероятность нанести критический урон умениями костей увеличивается на +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% за каждые 10 ед. эссенции, накопленные на момент применения умения.\n\nTags: Критические удары, Эссенция, Кости.",
-			"trTR": "Kemik Yeteneklerin, kullanım sırasında sahip olduğun her 10 Öz başına +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% artırılmış Kritik Vuruş İhtimaline sahip olur.\n\nTags: Kritik Vuruşlar, Öz, Kemik.",
-			"zhCN": "施放白骨技能时, 每有 10 点精魂都能使你的白骨技能暴击几率提高 +{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%。\n\nTags: 暴击, 精魂, 白骨.",
-			"zhTW": "施放骸骨技能時,你每擁有 10 點魂能,可使骸骨技能爆擊機率提高 {0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}%。\n\nTags: 爆擊, 魂能, 骸骨."
+			"deDE": "Die kritische Trefferchance Eurer Knochenfertigkeiten erhöht sich je 10 Essenz, die Ihr beim Wirken besitzt, um +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}%.\n\nTags: Kritische Treffer, Essenz, Knochen.",
+			"esES": "Tus habilidades de hueso tienen un +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% más de probabilidad de golpe crítico por cada 10 de esencia que tengas al lanzarlas.\n\nTags: Golpes críticos, Esencia, Hueso.",
+			"esMX": "Tus habilidades de Hueso tienen un +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% más de probabilidad de golpe crítico por cada 10 de Esencia que tengas al lanzarlas.\n\nTags: Golpes críticos, Esencia, Hueso.",
+			"frFR": "Vos compétences d'os ont +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% de chances supplémentaires d'infliger un coup critique pour chaque tranche de 10 points d'essence que vous avez lors de l'utilisation.\n\nTags: Coups critiques, Essence, Os.",
+			"itIT": "La probabilità di critico delle abilità d'ossa aumenta del +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% ogni 10 essenza accumulata al lancio dell'abilità.\n\nTags: Colpi critici, Essenza, Ossa.",
+			"jaJP": "骨スキルのクリティカルヒット率が、スキル使用時に持っている精髄10ポイント毎に+{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}%上昇する。\n\nTags: クリティカルヒット, 精髄, 骨.",
+			"koKR": "뼈 기술을 시전할 때 보유한 정수 10당 해당 기술의 극대화 확률이 +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% 증가합니다.\n\nTags: 극대화, 정수, 뼈.",
+			"plPL": "Twoje umiejętności Kości mają o +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% większą szansę na trafienie krytyczne za każde 10 pkt. esencji posiadane w momencie użycia umiejętności.\n\nTags: Trafienia Krytyczne, Esencja, Kości.",
+			"ptBR": "Suas habilidades de Osso têm +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% de chance de acerto crítico aumentada por cada 10 de essência que você tiver ao lançar.\n\nTags: Acertos Críticos, Essência, Osso.",
+			"ruRU": "Вероятность нанести критический урон умениями костей увеличивается на +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% за каждые 10 ед. эссенции, накопленные на момент применения умения.\n\nTags: Критические удары, Эссенция, Кости.",
+			"trTR": "Kemik Yeteneklerin, kullanım sırasında sahip olduğun her 10 Öz başına +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% artırılmış Kritik Vuruş İhtimaline sahip olur.\n\nTags: Kritik Vuruşlar, Öz, Kemik.",
+			"zhCN": "施放白骨技能时, 每有 10 点精魂都能使你的白骨技能暴击几率提高 +{0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}%。\n\nTags: 暴击, 精魂, 白骨.",
+			"zhTW": "施放骸骨技能時,你每擁有 10 點魂能,可使骸骨技能爆擊機率提高 {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}%。\n\nTags: 爆擊, 魂能, 骸骨."
 },
 		id: 84,
 		maxPoints: 3,
@@ -3650,7 +3650,7 @@ Tags: Minion, Healing.`,
 	},
 	"Death's Defense": {
 		connections: [ "Bonded in Essence", "Inspiring Leader" ],
-		description: `Your Minions cannot lose more than {75/60/45/30/15/0/-15/-30/-45/-60}% of their Maximum Life from a single damage instance.
+		description: `Your Minions cannot lose more than {70/50/30/10/-10/-30/-50/-70/-90/-110}% of their Maximum Life from a single damage instance.
 
 Tags: Life, Damage Reduction, Minion.`,
 		nameLocalized: {
@@ -3669,19 +3669,19 @@ Tags: Life, Damage Reduction, Minion.`,
 			"zhTW": "死亡防禦"
 },
 		descriptionLocalized: {
-			"deDE": "Eure Diener können durch eine einzige Schadensinstanz nicht mehr als {75/60/45/30/15/0/-15/-30/-45/-60}% ihres maximalen Lebens verlieren.\n\nTags: Leben, Schadensreduktion, Diener.",
-			"esES": "Tus esbirros no pueden perder más de un {75/60/45/30/15/0/-15/-30/-45/-60}% de su vida máxima por un solo efecto de daño.\n\nTags: Vida, Reducción de daño, Esbirro.",
-			"esMX": "Tus esbirros no pueden perder más del {75/60/45/30/15/0/-15/-30/-45/-60}% de su vida máxima con una instancia de daño simple.\n\nTags: Vida, Reducción de daño, Esbirro.",
-			"frFR": "Vos serviteurs ne peuvent pas perdre plus de {75/60/45/30/15/0/-15/-30/-45/-60}% de leur maximum de points de vie en une seule instance de dégâts.\n\nTags: Vie, Réduction des dégâts, Serviteur.",
-			"itIT": "Le tue evocazioni non possono perdere più del {75/60/45/30/15/0/-15/-30/-45/-60}% della loro Vita massima per una singola istanza di danno.\n\nTags: Vita, Riduzione danni, Servitori.",
-			"jaJP": "ミニオンが1回の攻撃で受けるダメージがライフ最大値の{75/60/45/30/15/0/-15/-30/-45/-60}%以下になる。\n\nTags: ライフ, ダメージ減少, ミニオン.",
-			"koKR": "하수인이 피해를 1회 받을 때 최대 생명력의 {75/60/45/30/15/0/-15/-30/-45/-60}% 이상을 잃지 않습니다.\n\nTags: 생명력, 피해 감소, 하수인.",
-			"plPL": "Twoje sługi nie mogą stracić więcej niż {75/60/45/30/15/0/-15/-30/-45/-60}% swojego maksymalnego zdrowia od pojedynczego źródła obrażeń.\n\nTags: Zdrowie, Redukcja Obrażeń, Sługa.",
-			"ptBR": "Seus lacaios não podem perder mais do que {75/60/45/30/15/0/-15/-30/-45/-60}% da vida máxima a partir de uma única ocorrência de dano.\n\nTags: Vida, Redução de Dano, Lacaio.",
-			"ruRU": "Ваши прислужники не могут потерять больше {75/60/45/30/15/0/-15/-30/-45/-60}% максимального запаса здоровья от одного удара.\n\nTags: Здоровье, Уменьшение урона, Прислужник.",
-			"trTR": "Yardakçıların, tek bir hasar anında Maksimum Canlarının {75/60/45/30/15/0/-15/-30/-45/-60}% kadarından fazlasını kaybedemezler.\n\nTags: Can, Hasar Azaltma, Yardakçı.",
-			"zhCN": "你的仆从不会从单次攻命中受到超过生命上限 {75/60/45/30/15/0/-15/-30/-45/-60}% 的伤害。\n\nTags: 生命, 伤害减免, 爪牙.",
-			"zhTW": "你的僕從受到單次攻擊時,損失的生命值不會超過其生命值上限的 {75/60/45/30/15/0/-15/-30/-45/-60}%。\n\nTags: 生命值, 傷害減免, 僕從."
+			"deDE": "Eure Diener können durch eine einzige Schadensinstanz nicht mehr als {70/50/30/10/-10/-30/-50/-70/-90/-110}% ihres maximalen Lebens verlieren.\n\nTags: Leben, Schadensreduktion, Diener.",
+			"esES": "Tus esbirros no pueden perder más de un {70/50/30/10/-10/-30/-50/-70/-90/-110}% de su vida máxima por un solo efecto de daño.\n\nTags: Vida, Reducción de daño, Esbirro.",
+			"esMX": "Tus esbirros no pueden perder más del {70/50/30/10/-10/-30/-50/-70/-90/-110}% de su vida máxima con una instancia de daño simple.\n\nTags: Vida, Reducción de daño, Esbirro.",
+			"frFR": "Vos serviteurs ne peuvent pas perdre plus de {70/50/30/10/-10/-30/-50/-70/-90/-110}% de leur maximum de points de vie en une seule instance de dégâts.\n\nTags: Vie, Réduction des dégâts, Serviteur.",
+			"itIT": "Le tue evocazioni non possono perdere più del {70/50/30/10/-10/-30/-50/-70/-90/-110}% della loro Vita massima per una singola istanza di danno.\n\nTags: Vita, Riduzione danni, Servitori.",
+			"jaJP": "ミニオンが1回の攻撃で受けるダメージがライフ最大値の{70/50/30/10/-10/-30/-50/-70/-90/-110}%以下になる。\n\nTags: ライフ, ダメージ減少, ミニオン.",
+			"koKR": "하수인이 피해를 1회 받을 때 최대 생명력의 {70/50/30/10/-10/-30/-50/-70/-90/-110}% 이상을 잃지 않습니다.\n\nTags: 생명력, 피해 감소, 하수인.",
+			"plPL": "Twoje sługi nie mogą stracić więcej niż {70/50/30/10/-10/-30/-50/-70/-90/-110}% swojego maksymalnego zdrowia od pojedynczego źródła obrażeń.\n\nTags: Zdrowie, Redukcja Obrażeń, Sługa.",
+			"ptBR": "Seus lacaios não podem perder mais do que {70/50/30/10/-10/-30/-50/-70/-90/-110}% da vida máxima a partir de uma única ocorrência de dano.\n\nTags: Vida, Redução de Dano, Lacaio.",
+			"ruRU": "Ваши прислужники не могут потерять больше {70/50/30/10/-10/-30/-50/-70/-90/-110}% максимального запаса здоровья от одного удара.\n\nTags: Здоровье, Уменьшение урона, Прислужник.",
+			"trTR": "Yardakçıların, tek bir hasar anında Maksimum Canlarının {70/50/30/10/-10/-30/-50/-70/-90/-110}% kadarından fazlasını kaybedemezler.\n\nTags: Can, Hasar Azaltma, Yardakçı.",
+			"zhCN": "你的仆从不会从单次攻命中受到超过生命上限 {70/50/30/10/-10/-30/-50/-70/-90/-110}% 的伤害。\n\nTags: 生命, 伤害减免, 爪牙.",
+			"zhTW": "你的僕從受到單次攻擊時,損失的生命值不會超過其生命值上限的 {70/50/30/10/-10/-30/-50/-70/-90/-110}%。\n\nTags: 生命值, 傷害減免, 僕從."
 },
 		id: 90,
 		maxPoints: 3,
@@ -3770,9 +3770,9 @@ Tags: Damage, Minion.`,
 	},
 	"Army of the Dead": {
 		connections: [ "Prime Army of the Dead", "Ultimate" ],
-		description: `Cooldown: 90 seconds
+		description: `Cooldown: 70 seconds
 Lucky Hit Chance: 63.796% (per use)
-Call forth the deep buried dead. Volatile Skeletons emerge over the next 7 seconds that explode when around enemies, dealing 30% damage.
+Call forth the deep buried dead. Volatile Skeletons emerge over the next 7 seconds that explode when around enemies, dealing 45% damage.
 
 Tags: Ultimate, Damage, Cooldown, Physical.`,
 		nameLocalized: {
@@ -3791,19 +3791,19 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 			"zhTW": "死亡軍團"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 90 Sek.\nGlückstrefferchance: 63.796% (per use)\nRuft die tief vergrabenen Toten herbei. Die nächsten 7 Sek. erscheinen unberechenbare Skelette, explodieren in der Nähe von Gegnern und verursachen 30% Schaden.\n\nTags: Ultimativ, Schaden, Abklingzeit, Physisch.",
-			"esES": "Tiempo de reutilización: 90 s\nProbabilidad de golpe de suerte: 63.796% (per use)\nInvocas a los muertos sepultados a gran profundidad. Durante los siguientes 7 s, emergen esqueletos volátiles que explotan al acercarse a los enemigos e infligen 30% de daño.\n\nTags: Definitiva, Daño, Tiempo de reutilización, Física.",
-			"esMX": "Recuperación: 90 segundos\nProbabilidad de golpe afortunado: 63.796% (per use)\nConvocas a los muertos enterrados en las profundidades. Los esqueletos volátiles emergen durante los siguientes 7 segundos, explotan cuando están alrededor de los enemigos e infligen 30% de daño.\n\nTags: Máxima, Daño, Recuperación, Física.",
-			"frFR": "Temps de recharge: 90 s\nChances d'obtenir un coup de chance: 63.796% (per use)\nVous réveillez les morts profondément enterrés. Des squelettes instables émergent du sol pendant 7 s et explosent lorsqu'ils sont à proximité des adversaires, leur infligeant 30% points de dégâts.\n\nTags: Ultime, Dégâts, Temps de recharge, Dégâts physiques.",
-			"itIT": "Tempo di recupero: 90 s\nProbabilità di colpo fortunato: 63.796% (per use)\nRichiami i morti sepolti. Scheletri instabili emergono nei successivi 7 s, esplodendo quando si trovano vicino ai nemici e infliggendo 30% danni.\n\nTags: Ultra, Danni, Tempo di recupero, Fisico.",
-			"jaJP": "クールダウン: 90秒\n幸運の一撃発生率: 63.796% (per use)\n土中深く埋められた死者を呼び出す。次の7秒間にわたって不安定なスケルトンが現れ、敵が近くにいると爆発して30%のダメージを与える。\n\nTags: 奥義, ダメージ, クールダウン, 物理.",
-			"koKR": "재사용 대기시간: 90초\n행운의 적중 확률: 63.796% (per use)\n깊이 파묻힌 망자를 불러 일으킵니다. 다음 7초에 걸쳐 불안정한 해골들이 나타나 적 주위에서 폭발하여 30%의 피해를 줍니다.\n\nTags: 궁극기, 피해, 재사용 대기시간, 물리.",
-			"plPL": "Czas odnowienia: 90 sek.\nSzansa na szczęśliwy traf: 63.796% (per use)\nPrzyzywasz głęboko pogrzebane zwłoki. Przez następne 7 sek. pojawiają się rozszalałe szkielety, które wybuchają w pobliżu wrogów, zadając im 30% pkt. obrażeń.\n\nTags: Specjalne, Obrażenia, Odnowienie, Fizyczne.",
-			"ptBR": "Recarga: 90 segundos\nChance de Golpe de Sorte: 63.796% (per use)\nChama os mortos enterrados nas profundezas. Esqueletos voláteis emergem ao longo dos próximos 7 segundos e explodem quando inimigos estão ao redor, causando 30% de dano.\n\nTags: Suprema, Dano, Recarga, Física.",
-			"ruRU": "Время восстановления: 90 сек.\nВероятность удачного удара: 63.796% (per use)\nВы призываете мертвецов, погребенных глубоко под землей. Через 7 сек. из-под земли появляются нестабильные скелеты, которые взрываются рядом с противниками, нанося 30% ед. урона.\n\nTags: Мощное умение, Урон, Время восстановления, Физический урон.",
-			"trTR": "Bekleme Süresi: 90 saniye\nŞanslı Vuruş İhtimali: 63.796% (per use)\nDerinlere gömülmüş ölüleri çağır. Sonraki 7 saniye boyunca düşmanların etrafındayken patlayarak 30% hasar veren Patlayıcı İskeletler ortaya çıkar.\n\nTags: Ulti, Hasar, Bekleme Süresi, Fiziksel.",
-			"zhCN": "冷却时间: 90 秒\n幸运一击几率: 63.796% (per use)\n召唤深埋地下的亡灵。易爆骷髅会在接下来的 7 秒内出现并爆炸, 对附近的敌人造成 30% 点伤害。\n\nTags: 终极技能, 伤害, 冷却时间, 物理.",
-			"zhTW": "冷卻時間:90 秒\n幸運觸發機率:63.796% (per use)\n召喚深埋地底的死者。在接下來的 7 秒內出現易爆骷髏,在附近有敵人時爆炸,造成 30% 點傷害。\n\nTags: 絕招, 傷害, 冷卻時間, 物理."
+			"deDE": "Abklingzeit: 70 Sek.\nGlückstrefferchance: 63.796% (per use)\nRuft die tief vergrabenen Toten herbei. Die nächsten 7 Sek. erscheinen unberechenbare Skelette, explodieren in der Nähe von Gegnern und verursachen 45% Schaden.\n\nTags: Ultimativ, Schaden, Abklingzeit, Physisch.",
+			"esES": "Tiempo de reutilización: 70 s\nProbabilidad de golpe de suerte: 63.796% (per use)\nInvocas a los muertos sepultados a gran profundidad. Durante los siguientes 7 s, emergen esqueletos volátiles que explotan al acercarse a los enemigos e infligen 45% de daño.\n\nTags: Definitiva, Daño, Tiempo de reutilización, Física.",
+			"esMX": "Recuperación: 70 segundos\nProbabilidad de golpe afortunado: 63.796% (per use)\nConvocas a los muertos enterrados en las profundidades. Los esqueletos volátiles emergen durante los siguientes 7 segundos, explotan cuando están alrededor de los enemigos e infligen 45% de daño.\n\nTags: Máxima, Daño, Recuperación, Física.",
+			"frFR": "Temps de recharge: 70 s\nChances d'obtenir un coup de chance: 63.796% (per use)\nVous réveillez les morts profondément enterrés. Des squelettes instables émergent du sol pendant 7 s et explosent lorsqu'ils sont à proximité des adversaires, leur infligeant 45% points de dégâts.\n\nTags: Ultime, Dégâts, Temps de recharge, Dégâts physiques.",
+			"itIT": "Tempo di recupero: 70 s\nProbabilità di colpo fortunato: 63.796% (per use)\nRichiami i morti sepolti. Scheletri instabili emergono nei successivi 7 s, esplodendo quando si trovano vicino ai nemici e infliggendo 45% danni.\n\nTags: Ultra, Danni, Tempo di recupero, Fisico.",
+			"jaJP": "クールダウン: 70秒\n幸運の一撃発生率: 63.796% (per use)\n土中深く埋められた死者を呼び出す。次の7秒間にわたって不安定なスケルトンが現れ、敵が近くにいると爆発して45%のダメージを与える。\n\nTags: 奥義, ダメージ, クールダウン, 物理.",
+			"koKR": "재사용 대기시간: 70초\n행운의 적중 확률: 63.796% (per use)\n깊이 파묻힌 망자를 불러 일으킵니다. 다음 7초에 걸쳐 불안정한 해골들이 나타나 적 주위에서 폭발하여 45%의 피해를 줍니다.\n\nTags: 궁극기, 피해, 재사용 대기시간, 물리.",
+			"plPL": "Czas odnowienia: 70 sek.\nSzansa na szczęśliwy traf: 63.796% (per use)\nPrzyzywasz głęboko pogrzebane zwłoki. Przez następne 7 sek. pojawiają się rozszalałe szkielety, które wybuchają w pobliżu wrogów, zadając im 45% pkt. obrażeń.\n\nTags: Specjalne, Obrażenia, Odnowienie, Fizyczne.",
+			"ptBR": "Recarga: 70 segundos\nChance de Golpe de Sorte: 63.796% (per use)\nChama os mortos enterrados nas profundezas. Esqueletos voláteis emergem ao longo dos próximos 7 segundos e explodem quando inimigos estão ao redor, causando 45% de dano.\n\nTags: Suprema, Dano, Recarga, Física.",
+			"ruRU": "Время восстановления: 70 сек.\nВероятность удачного удара: 63.796% (per use)\nВы призываете мертвецов, погребенных глубоко под землей. Через 7 сек. из-под земли появляются нестабильные скелеты, которые взрываются рядом с противниками, нанося 45% ед. урона.\n\nTags: Мощное умение, Урон, Время восстановления, Физический урон.",
+			"trTR": "Bekleme Süresi: 70 saniye\nŞanslı Vuruş İhtimali: 63.796% (per use)\nDerinlere gömülmüş ölüleri çağır. Sonraki 7 saniye boyunca düşmanların etrafındayken patlayarak 45% hasar veren Patlayıcı İskeletler ortaya çıkar.\n\nTags: Ulti, Hasar, Bekleme Süresi, Fiziksel.",
+			"zhCN": "冷却时间: 70 秒\n幸运一击几率: 63.796% (per use)\n召唤深埋地下的亡灵。易爆骷髅会在接下来的 7 秒内出现并爆炸, 对附近的敌人造成 45% 点伤害。\n\nTags: 终极技能, 伤害, 冷却时间, 物理.",
+			"zhTW": "冷卻時間:70 秒\n幸運觸發機率:63.796% (per use)\n召喚深埋地底的死者。在接下來的 7 秒內出現易爆骷髏,在附近有敵人時爆炸,造成 45% 點傷害。\n\nTags: 絕招, 傷害, 冷卻時間, 物理."
 },
 		id: 93,
 		maxPoints: 1,
@@ -3892,7 +3892,7 @@ Tags: Ultimate, Damage, Cooldown, Physical.`,
 		connections: [ "Prime Blood Wave", "Ultimate" ],
 		description: `Cooldown: 50 seconds
 Lucky Hit Chance: 20% (per hit)
-Conjure a tidal wave of blood that deals 90% damage and Knocks Back enemies.
+Conjure a tidal wave of blood that deals 120% damage and Knocks Back enemies.
 
 Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 		nameLocalized: {
@@ -3911,19 +3911,19 @@ Tags: Ultimate, Blood, Damage, Cooldown, Crowd Control, Physical.`,
 			"zhTW": "血浪"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 50 Sek.\nGlückstrefferchance: 20% (per hit)\nBeschwört eine Flutwelle aus Blut, die 90% Schaden verursacht und Gegner zurückstößt.\n\nTags: Ultimativ, Blut, Schaden, Abklingzeit, Kontrollverlust, Physisch.",
-			"esES": "Tiempo de reutilización: 50 s\nProbabilidad de golpe de suerte: 20% (per hit)\nCreas un maremoto de sangre que inflige 90% de daño y repele a los enemigos.\n\nTags: Definitiva, Sangre, Daño, Tiempo de reutilización, Control de masas, Física.",
-			"esMX": "Recuperación: 50 segundos\nProbabilidad de golpe afortunado: 20% (per hit)\nConjuras una ola sangrienta gigante que inflige 90% de daño y repele a los enemigos.\n\nTags: Máxima, Sangre, Daño, Recuperación, Control de multitudes, Física.",
-			"frFR": "Temps de recharge: 50 s\nChances d'obtenir un coup de chance: 20% (per hit)\nVous créez une vague de sang qui inflige 90% points de dégâts aux adversaires et les repousse.\n\nTags: Ultime, Sang, Dégâts, Temps de recharge, Perte de contrôle, Dégâts physiques.",
-			"itIT": "Tempo di recupero: 50 s\nProbabilità di colpo fortunato: 20% (per hit)\nInvochi un'ondata di sangue che infligge 90% danni e respinge indietro i nemici.\n\nTags: Ultra, Sangue, Danni, Tempo di recupero, Effetti debilitanti, Fisico.",
-			"jaJP": "クールダウン: 50秒\n幸運の一撃発生率: 20% (per hit)\n血の大波を呼び起こし、敵に90%のダメージを与えてノックバックさせる。\n\nTags: 奥義, 血, ダメージ, クールダウン, 操作障害効果, 物理.",
-			"koKR": "재사용 대기시간: 50초\n행운의 적중 확률: 20% (per hit)\n피의 파도를 구현해 90%의 피해를 주고 적들을 밀쳐냅니다.\n\nTags: 궁극기, 피, 피해, 재사용 대기시간, 군중 제어, 물리.",
-			"plPL": "Czas odnowienia: 50 sek.\nSzansa na szczęśliwy traf: 20% (per hit)\nTworzysz uderzeniową falę krwi, która zadaje 90% pkt. obrażeń i odrzuca wrogów.\n\nTags: Specjalne, Krew, Obrażenia, Odnowienie, Ograniczanie Kontroli, Fizyczne.",
-			"ptBR": "Recarga: 50 segundos\nChance de Golpe de Sorte: 20% (per hit)\nConjura uma onda de sangue que causa 90% de dano e repele inimigos.\n\nTags: Suprema, Sangue, Dano, Recarga, Controle de Grupo, Física.",
-			"ruRU": "Время восстановления: 50 сек.\nВероятность удачного удара: 20% (per hit)\nСоздает волну крови, наносящую 90% ед. урона и отбрасывающую противников.\n\nTags: Мощное умение, Кровь, Урон, Время восстановления, Контроль, Физический урон.",
-			"trTR": "Bekleme Süresi: 50 saniye\nŞanslı Vuruş İhtimali: 20% (per hit)\n90% hasar veren ve düşmanları Geri Savuran bir kan dalgası oluştur.\n\nTags: Ulti, Kan, Hasar, Bekleme Süresi, Kitle Kontrolü, Fiziksel.",
-			"zhCN": "冷却时间: 50 秒\n幸运一击几率: 20% (per hit)\n召唤一道鲜血浪潮, 造成 90% 点伤害并将敌人击退。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理.",
-			"zhTW": "冷卻時間:50 秒\n幸運觸發機率: 20% (per hit)\n呼喚一波血浪,造成 90% 點傷害並擊退敵人。\n\nTags: 絕招, 鮮血, 傷害, 冷卻時間, 控場, 物理."
+			"deDE": "Abklingzeit: 50 Sek.\nGlückstrefferchance: 20% (per hit)\nBeschwört eine Flutwelle aus Blut, die 120% Schaden verursacht und Gegner zurückstößt.\n\nTags: Ultimativ, Blut, Schaden, Abklingzeit, Kontrollverlust, Physisch.",
+			"esES": "Tiempo de reutilización: 50 s\nProbabilidad de golpe de suerte: 20% (per hit)\nCreas un maremoto de sangre que inflige 120% de daño y repele a los enemigos.\n\nTags: Definitiva, Sangre, Daño, Tiempo de reutilización, Control de masas, Física.",
+			"esMX": "Recuperación: 50 segundos\nProbabilidad de golpe afortunado: 20% (per hit)\nConjuras una ola sangrienta gigante que inflige 120% de daño y repele a los enemigos.\n\nTags: Máxima, Sangre, Daño, Recuperación, Control de multitudes, Física.",
+			"frFR": "Temps de recharge: 50 s\nChances d'obtenir un coup de chance: 20% (per hit)\nVous créez une vague de sang qui inflige 120% points de dégâts aux adversaires et les repousse.\n\nTags: Ultime, Sang, Dégâts, Temps de recharge, Perte de contrôle, Dégâts physiques.",
+			"itIT": "Tempo di recupero: 50 s\nProbabilità di colpo fortunato: 20% (per hit)\nInvochi un'ondata di sangue che infligge 120% danni e respinge indietro i nemici.\n\nTags: Ultra, Sangue, Danni, Tempo di recupero, Effetti debilitanti, Fisico.",
+			"jaJP": "クールダウン: 50秒\n幸運の一撃発生率: 20% (per hit)\n血の大波を呼び起こし、敵に120%のダメージを与えてノックバックさせる。\n\nTags: 奥義, 血, ダメージ, クールダウン, 操作障害効果, 物理.",
+			"koKR": "재사용 대기시간: 50초\n행운의 적중 확률: 20% (per hit)\n피의 파도를 구현해 120%의 피해를 주고 적들을 밀쳐냅니다.\n\nTags: 궁극기, 피, 피해, 재사용 대기시간, 군중 제어, 물리.",
+			"plPL": "Czas odnowienia: 50 sek.\nSzansa na szczęśliwy traf: 20% (per hit)\nTworzysz uderzeniową falę krwi, która zadaje 120% pkt. obrażeń i odrzuca wrogów.\n\nTags: Specjalne, Krew, Obrażenia, Odnowienie, Ograniczanie Kontroli, Fizyczne.",
+			"ptBR": "Recarga: 50 segundos\nChance de Golpe de Sorte: 20% (per hit)\nConjura uma onda de sangue que causa 120% de dano e repele inimigos.\n\nTags: Suprema, Sangue, Dano, Recarga, Controle de Grupo, Física.",
+			"ruRU": "Время восстановления: 50 сек.\nВероятность удачного удара: 20% (per hit)\nСоздает волну крови, наносящую 120% ед. урона и отбрасывающую противников.\n\nTags: Мощное умение, Кровь, Урон, Время восстановления, Контроль, Физический урон.",
+			"trTR": "Bekleme Süresi: 50 saniye\nŞanslı Vuruş İhtimali: 20% (per hit)\n120% hasar veren ve düşmanları Geri Savuran bir kan dalgası oluştur.\n\nTags: Ulti, Kan, Hasar, Bekleme Süresi, Kitle Kontrolü, Fiziksel.",
+			"zhCN": "冷却时间: 50 秒\n幸运一击几率: 20% (per hit)\n召唤一道鲜血浪潮, 造成 120% 点伤害并将敌人击退。\n\nTags: 终极技能, 鲜血, 伤害, 冷却时间, 群控, 物理.",
+			"zhTW": "冷卻時間:50 秒\n幸運觸發機率: 20% (per hit)\n呼喚一波血浪,造成 120% 點傷害並擊退敵人。\n\nTags: 絕招, 鮮血, 傷害, 冷卻時間, 控場, 物理."
 },
 		id: 96,
 		maxPoints: 1,
@@ -4295,7 +4295,7 @@ Tags: Damage, Essence, Bone.`,
 		connections: [ "Key Passive" ],
 		description: `Shadow damage infects enemies with Shadowblight for 2 seconds. You and your Minions deal x10% bonus damage to enemies with Shadowblight.
 
-Every 10th time an enemy receives Shadow damage from you or your Minions while they are affected by Shadowblight, they take an additional 20% Shadow damage.
+Every 10th time an enemy receives Shadow damage from you or your Minions while they are affected by Shadowblight, they take an additional 22% Shadow damage.
 
 Tags: Damage, Shadow, Minion.`,
 		nameLocalized: {
@@ -4314,19 +4314,19 @@ Tags: Damage, Shadow, Minion.`,
 			"zhTW": "暗影荒疫"
 },
 		descriptionLocalized: {
-			"deDE": "Schattenschaden infiziert Gegner 2 Sek. lang mit Schattenseuche. Ihr und Eure Diener fügen Gegnern mit Schattenseuche x10% Bonusschaden zu.\n\nJedes 10. Mal, wenn ein von Schattenseuche betroffener Gegner durch Euch oder Eure Diener Schattenschaden erleidet, erleidet er zusätzlich 20% Schattenschaden.\n\nTags: Schaden, Schatten, Diener.",
-			"esES": "El daño de sombra infecta a los enemigos con Pestesombra durante 2 s. Tus esbirros y tú infligís un x10% de daño adicional a enemigos con Pestesombra.\n\nCada 10 veces que tus esbirros o tú le infligís daño de sombra a un enemigo mientras tiene Pestesombra, este sufre 20% más de daño de sombra.\n\nTags: Daño, Sombra, Esbirro.",
-			"esMX": "El daño de sombra infecta a los enemigos con Infestación Umbría durante 2 segundos. Tú y tus esbirros infligen un x10% más de daño a enemigos afectados por Infestación Umbría.\n\nCada 10 instancias de daño de sombra que tú o tus esbirros inflijan a un enemigo afectado por Infestación Umbría, recibirá un 20% de daño de sombra adicional.\n\nTags: Daño, Sombra, Esbirro.",
-			"frFR": "Vos dégâts d'ombre infectent les adversaires avec Chancre d'ombre pendant 2 s. Vous et vos serviteurs infligez x10% de dégâts supplémentaires aux cibles affectées par Chancre d'ombre.\n\nToutes les 10 fois qu'une cible subit des dégâts d'ombre de votre part ou de celle de vos serviteurs alors qu'elle est affectée par Chancre d'ombre, celle-ci subit 20% points de dégâts d'ombre supplémentaires.\n\nTags: Dégâts, Ombre, Serviteur.",
-			"itIT": "I danni da ombra infettano i nemici con Morbo d'Ombra per 2 s. Tu e i tuoi servitori evocati infliggete il x10% di danni aggiuntivi ai nemici affetti da Morbo d'Ombra.\n\nOgni 10 volte che un nemico subisce danni da ombra da te o dai tuoi servitori mentre è affetto da Morbo d'Ombra, subisce 20% ulteriori danni da ombra.\n\nTags: Danni, Ombra, Servitori.",
-			"jaJP": "シャドウダメージが敵を2秒間、影なる病魔に感染させる。影なる病魔状態の敵に自身またはミニオンが与えるシャドウダメージがx10%増加する。\n\n自身またはミニオンが影なる病魔を受けている敵にシャドウダメージを10回与えるたびに、追加で20%のシャドウダメージを与える。\n\nTags: ダメージ, 影, ミニオン.",
-			"koKR": "암흑 피해가 적에게 2초 동안 그림자 마름병을 감염시킵니다. 그림자 마름병에 감염된 적에게 자신과 자신의 하수인이 주는 피해가 x10% 증가합니다.\n\n그림자 마름병에 감염된 적이 자신 또는 자신의 하수인으로부터 암흑 피해를 10번 받을 때마다 추가로 20%의 암흑 피해를 받습니다.\n\nTags: 피해, 암흑, 하수인.",
-			"plPL": "Obrażenia Cienia zarażają wrogów Skazą Cienia na 2 sek. Ty i twoje sługi zadajecie dodatkowe x10% obrażeń wrogom ze Skazą Cienia.\n\nKiedy wróg jest objęty działaniem Skazy Cienia, co 10 otrzymane przezeń obrażenia od Cienia od ciebie lub twoich sług powoduje u niego eksplozję zadającą 20% pkt. obrażeń od Cienia.\n\nTags: Obrażenia, Cień, Sługa.",
-			"ptBR": "Dano de sombra infecta inimigos com Praga das Sombras por 2 segundos. Você e seus lacaios causam 10% de bônus de dano a inimigos com Praga das Sombras.\n\nA cada 10 vezes que um inimigo recebe dano de sombra de você ou dos seus lacaios enquanto afetado por Praga das Sombras, ele recebe 20% de dano de sombra adicional.\n\nTags: Dano, Sombra, Lacaio.",
-			"ruRU": "Урон от темной магии заражает противников \"Чумой тьмы\" на 2 сек. Вы и ваши прислужники наносите на x10% больше урона противникам, зараженным \"Чумой тьмы\".\n\nПротивники с эффектом \"Чума тьмы\" получают 20% ед. дополнительного урона от темной магии после того, как вы или ваши прислужники наносите им урон от темной магии 10 раз.\n\nTags: Урон, Темная магия, Прислужник.",
-			"trTR": "Gölge Hasarı düşmanlara 2 saniye boyunca Gölgemaraz bulaştırır. Sen ve yardakçıların Gölgemarazlı düşmanlara x10% bonus hasar verirsiniz.\n\nGölgemaraz bulaşmış bir düşman, senden veya Yardakçılarından her 10. kez Gölge hasarı alışında fazladan 20% Gölge hasarı alır.\n\nTags: Hasar, Gölge, Yardakçı.",
-			"zhCN": "暗影伤害使敌人感染暗影凋零, 持续 2 秒。你和你的仆从对受暗影凋零影响的敌人造成的伤害提高 x10%。\n\n受到暗影凋零影响的敌人每第 10 次受到来自你或你仆从的暗影伤害, 就会额外受到 20% 点暗影伤害。\n\nTags: 伤害, 暗影, 爪牙.",
-			"zhTW": "暗影傷害會使敵人感染暗影荒疫,持續 2 秒。你和你的僕從對感染暗影荒疫的敵人造成 x10% 額外傷害。\n\n你和你的僕從每第 10 次對感染暗影荒疫敵人造成暗影傷害時,該敵人會額外受到 20% 點暗影傷害。\n\nTags: 傷害, 暗影, 僕從."
+			"deDE": "Schattenschaden infiziert Gegner 2 Sek. lang mit Schattenseuche. Ihr und Eure Diener fügen Gegnern mit Schattenseuche x10% Bonusschaden zu.\n\nJedes 10. Mal, wenn ein von Schattenseuche betroffener Gegner durch Euch oder Eure Diener Schattenschaden erleidet, erleidet er zusätzlich 22% Schattenschaden.\n\nTags: Schaden, Schatten, Diener.",
+			"esES": "El daño de sombra infecta a los enemigos con Pestesombra durante 2 s. Tus esbirros y tú infligís un x10% de daño adicional a enemigos con Pestesombra.\n\nCada 10 veces que tus esbirros o tú le infligís daño de sombra a un enemigo mientras tiene Pestesombra, este sufre 22% más de daño de sombra.\n\nTags: Daño, Sombra, Esbirro.",
+			"esMX": "El daño de sombra infecta a los enemigos con Infestación Umbría durante 2 segundos. Tú y tus esbirros infligen un x10% más de daño a enemigos afectados por Infestación Umbría.\n\nCada 10 instancias de daño de sombra que tú o tus esbirros inflijan a un enemigo afectado por Infestación Umbría, recibirá un 22% de daño de sombra adicional.\n\nTags: Daño, Sombra, Esbirro.",
+			"frFR": "Vos dégâts d'ombre infectent les adversaires avec Chancre d'ombre pendant 2 s. Vous et vos serviteurs infligez x10% de dégâts supplémentaires aux cibles affectées par Chancre d'ombre.\n\nToutes les 10 fois qu'une cible subit des dégâts d'ombre de votre part ou de celle de vos serviteurs alors qu'elle est affectée par Chancre d'ombre, celle-ci subit 22% points de dégâts d'ombre supplémentaires.\n\nTags: Dégâts, Ombre, Serviteur.",
+			"itIT": "I danni da ombra infettano i nemici con Morbo d'Ombra per 2 s. Tu e i tuoi servitori evocati infliggete il x10% di danni aggiuntivi ai nemici affetti da Morbo d'Ombra.\n\nOgni 10 volte che un nemico subisce danni da ombra da te o dai tuoi servitori mentre è affetto da Morbo d'Ombra, subisce 22% ulteriori danni da ombra.\n\nTags: Danni, Ombra, Servitori.",
+			"jaJP": "シャドウダメージが敵を2秒間、影なる病魔に感染させる。影なる病魔状態の敵に自身またはミニオンが与えるシャドウダメージがx10%増加する。\n\n自身またはミニオンが影なる病魔を受けている敵にシャドウダメージを10回与えるたびに、追加で22%のシャドウダメージを与える。\n\nTags: ダメージ, 影, ミニオン.",
+			"koKR": "암흑 피해가 적에게 2초 동안 그림자 마름병을 감염시킵니다. 그림자 마름병에 감염된 적에게 자신과 자신의 하수인이 주는 피해가 x10% 증가합니다.\n\n그림자 마름병에 감염된 적이 자신 또는 자신의 하수인으로부터 암흑 피해를 10번 받을 때마다 추가로 22%의 암흑 피해를 받습니다.\n\nTags: 피해, 암흑, 하수인.",
+			"plPL": "Obrażenia Cienia zarażają wrogów Skazą Cienia na 2 sek. Ty i twoje sługi zadajecie dodatkowe x10% obrażeń wrogom ze Skazą Cienia.\n\nKiedy wróg jest objęty działaniem Skazy Cienia, co 10 otrzymane przezeń obrażenia od Cienia od ciebie lub twoich sług powoduje u niego eksplozję zadającą 22% pkt. obrażeń od Cienia.\n\nTags: Obrażenia, Cień, Sługa.",
+			"ptBR": "Dano de sombra infecta inimigos com Praga das Sombras por 2 segundos. Você e seus lacaios causam 10% de bônus de dano a inimigos com Praga das Sombras.\n\nA cada 10 vezes que um inimigo recebe dano de sombra de você ou dos seus lacaios enquanto afetado por Praga das Sombras, ele recebe 22% de dano de sombra adicional.\n\nTags: Dano, Sombra, Lacaio.",
+			"ruRU": "Урон от темной магии заражает противников \"Чумой тьмы\" на 2 сек. Вы и ваши прислужники наносите на x10% больше урона противникам, зараженным \"Чумой тьмы\".\n\nПротивники с эффектом \"Чума тьмы\" получают 22% ед. дополнительного урона от темной магии после того, как вы или ваши прислужники наносите им урон от темной магии 10 раз.\n\nTags: Урон, Темная магия, Прислужник.",
+			"trTR": "Gölge Hasarı düşmanlara 2 saniye boyunca Gölgemaraz bulaştırır. Sen ve yardakçıların Gölgemarazlı düşmanlara x10% bonus hasar verirsiniz.\n\nGölgemaraz bulaşmış bir düşman, senden veya Yardakçılarından her 10. kez Gölge hasarı alışında fazladan 22% Gölge hasarı alır.\n\nTags: Hasar, Gölge, Yardakçı.",
+			"zhCN": "暗影伤害使敌人感染暗影凋零, 持续 2 秒。你和你的仆从对受暗影凋零影响的敌人造成的伤害提高 x10%。\n\n受到暗影凋零影响的敌人每第 10 次受到来自你或你仆从的暗影伤害, 就会额外受到 22% 点暗影伤害。\n\nTags: 伤害, 暗影, 爪牙.",
+			"zhTW": "暗影傷害會使敵人感染暗影荒疫,持續 2 秒。你和你的僕從對感染暗影荒疫的敵人造成 x10% 額外傷害。\n\n你和你的僕從每第 10 次對感染暗影荒疫敵人造成暗影傷害時,該敵人會額外受到 22% 點暗影傷害。\n\nTags: 傷害, 暗影, 僕從."
 },
 		id: 106,
 		maxPoints: 1,
@@ -4483,7 +4483,7 @@ Once all of your Skeletons have been summoned, Raise Skeleton briefly summons a 
 		},
 	},
 	"Golem": {
-		description: `Passive: You are protected by a Golem with {#} Life that attacks for {26.9/29.6/32.3/35/37.7/40.4/43.1/45.8/48.5/51.2}% damage.
+		description: `Passive: You are protected by a Golem with {#} Life that attacks for {29.6/32.6/35.5/38.5/41.5/44.4/47.4/50.3/53.3/56.3}% damage.
 
 When your Golem dies, it respawns after 20 seconds.`,
 		name: `Golem`,
@@ -4497,7 +4497,7 @@ When your Golem dies, it respawns after 20 seconds.`,
 			]
 		},
 		"Blood Golem": {
-			description: `Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing 40% damage and healing 4% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained. This has a 10 second cooldown.`,
+			description: `Active: Your Golem becomes Unstoppable and drains the blood of enemies in the area, dealing 90% damage and healing 5% of its Life for each enemy drained. Damage and healing received are tripled if only one enemy is drained. This has a 10 second cooldown.`,
 			id: 117,
 			sacrifice: `Your Maximum Life is increased by x10%, but you lose the ability to summon a Golem.`,
 			upgrades: [
@@ -4506,11 +4506,11 @@ When your Golem dies, it respawns after 20 seconds.`,
 			]
 		},
 		"Iron Golem": {
-			description: `Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 25% damage and Stunning surrounding enemies for 3 seconds. This has a 16 second cooldown.`,
+			description: `Active: Command your Golem to go to the targeted area, they become Unstoppable and slam their fists into the ground, dealing 175% damage and Stunning surrounding enemies for 3 seconds. This has a 16 second cooldown.`,
 			id: 118,
 			sacrifice: `You deal x30% increased Critical Strike Damage, but you lose the ability to summon a Golem.`,
 			upgrades: [
-				`Every 5th Iron Golem attack causes a shockwave, dealing 30% damage to the primary enemy and to enemies behind them.`,
+				`Every 5th Iron Golem attack causes a shockwave, dealing 40% damage to the primary enemy and to enemies behind them.`,
 				`Your Iron Golem's slam attack also makes enemies Vulnerable for 3 seconds.`
 			]
 		},

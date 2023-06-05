@@ -371,7 +371,7 @@ Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackli
 	"Arc Lash": {
 		connections: [ "Basic", "Enhanced Arc Lash" ],
 		description: `Attack Speed Multiplier: 1.25
-Lucky Hit Chance: 30% (per hit)
+Lucky Hit Chance: 14% (per hit)
 Unleash arcing lightning that deals {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% damage to enemies in front of you. Every 10 times Arc Lash swipes, it Stuns all enemies hit for 2 seconds.
 
 Tags: Basic, Shock, Damage, Lightning, Crowd Control.
@@ -394,19 +394,19 @@ When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0
 			"zhTW": "電弧鞭擊"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nGlückstrefferchance: 30% (per hit)\nEntfesselt bogenförmige Blitze, die Gegnern vor Euch {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% Schaden zufügen. Mit jedem 10. Schwung der Elektropeitsche werden alle getroffenen Gegner 2 Sek. lang betäubt.\n\nTags: Basis, Schock, Schaden, Blitz, Kontrollverlust.\n\n— Enchantment Effect —\nWenn Ihr eine Abklingzeit verwendet, werden Gegner um Euch herum {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} Sek. lang betäubt.",
-			"esES": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe de suerte: 30% (per hit)\nCreas un arco eléctrico que inflige {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de daño a los enemigos frente a ti. Cada 10 pasadas de Arco eléctrico, aturdes a todos los enemigos golpeados durante 2 s.\n\nTags: Básica, Electrocución, Daño, Rayos, Control de masas.\n\n— Enchantment Effect —\nCuando usas un tiempo de reutilización, los enemigos que te rodean quedan aturdidos durante {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} s.",
-			"esMX": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe afortunado: 30% (per hit)\nDesatas un rayo en arco que inflige {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de daño a los enemigos frente a ti. Cada 10 golpes de Latigazo de Arco Eléctrico, aturde a todos los enemigos durante 2 segundos.\n\nTags: Básica, Rayo, Daño, Control de multitudes.\n\n— Enchantment Effect —\nCuando usas una habilidad con recuperación, los enemigos a tu alrededor quedan aturdidos durante {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} segundos.",
-			"frFR": "Attack Speed Multiplier: 1.25\nChances d'obtenir un coup de chance: 30% (per hit)\nVous libérez des arcs de foudre qui infligent {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% points de dégâts aux adversaires en face de vous. Toutes les 10 frappes de Fouet électrique, la compétence étourdit toutes les cibles touchées pendant 2 s.\n\nTags: Basique, Foudre, Dégâts, Perte de contrôle.\n\n— Enchantment Effect —\nLorsque vous utilisez une compétence avec un temps de recharge, les cibles autour de vous sont étourdies pendant {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} s.",
-			"itIT": "Attack Speed Multiplier: 1.25\nProbabilità di colpo fortunato: 30% (per hit)\nScateni un arco di elettricità che infligge {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% danni ai nemici frontali. Ogni 10 colpi di Sferzata ad Arco, i nemici colpiti vengono storditi per 2 s.\n\nTags: Base, Folgore, Danni, Fulmine, Effetti debilitanti.\n\n— Enchantment Effect —\nQuando lanci un'abilità con tempo di recupero, i nemici circostanti vengono storditi per {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} s.",
-			"jaJP": "Attack Speed Multiplier: 1.25\n幸運の一撃発生率: 30% (per hit)\n弧を描く稲妻を放ち、前方の敵に{42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%ダメージを与える。〈アークラッシュ〉は10回命中するたびに、当たったすべての敵を2秒間スタンさせる。\n\nTags: 基本, 電撃, ダメージ, 操作障害効果.\n\n— Enchantment Effect —\nクールダウンを使用すると、周囲の敵が{0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95}秒間スタンする。",
-			"koKR": "Attack Speed Multiplier: 1.25\n행운의 적중 확률: 30% (per hit)\n뻗어나가는 번개를 내뿜어 전방의 적들에게 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%의 피해를 줍니다. 전기 채찍을 10번 휘두를 때마다 적중한 모든 적을 2초 동안 기절시킵니다.\n\nTags: 기본, 감전, 피해, 번개, 군중 제어.\n\n— Enchantment Effect —\n재사용 대기시간이 있는 기술을 사용하면 주위의 적들이 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95}초 동안 기절합니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nSzansa na szczęśliwy traf: 30% (per hit)\nUwalniasz po łuku błyskawicę, która zadaje wrogom znajdującym się przed tobą {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% pkt. obrażeń. Co 10 smagnięcie Bicza Wyładowań ogłusza wszystkich trafionych wrogów na 2 sek.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nKiedy korzystasz z czasu odnowienia, wrogowie wokół ciebie zostają ogłuszeni na {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} sek.",
-			"ptBR": "Attack Speed Multiplier: 1.25\nChance de Golpe de Sorte: 30% (per hit)\nSolta raios em arco que causam {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de dano aos inimigos à sua frente. Cada 10 vezes que Açoite do Arco golpeia, atordoa todos os inimigos atingidos por 2 segundos.\n\nTags: Básica, Choque, Dano, Eletricidade, Controle de Grupo.\n\n— Enchantment Effect —\nAo usar uma recarga, os inimigos ao seu redor ficam atordoados por {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} segundos.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nВероятность удачного удара: 30% (per hit)\nВы поражаете противников перед собой дуговым разрядом молнии, наносящим {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% ед. урона. Каждый 10-й взмах \"Грозовой плети\" оглушает пораженных противников на 2 сек.\n\nTags: Базовое, Шок, Урон, Молния, Контроль.\n\n— Enchantment Effect —\nКогда вы применяете умение с временем восстановления, противники вокруг оглушаются на {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} сек.",
-			"trTR": "Attack Speed Multiplier: 1.25\nŞanslı Vuruş İhtimali: 30% (per hit)\nÖnündeki düşmanlara {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% hasar veren elektrik kırbaçları fırlat. Elektrik Kırbacı her 10 kez savrulduğunda vurduğu tüm düşmanları 2 saniyeliğine Sersemletir.\n\nTags: Temel, Şok, Hasar, Yıldırım, Kitle Kontrolü.\n\n— Enchantment Effect —\nBir Bekleme Süresi kullandığında etrafındaki düşmanlar {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} saniyeliğine Sersemletilir.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n幸运一击几率: 30% (per hit)\n施放弧形闪电, 对你面前的敌人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 点伤害。每第 10 次施放电弧鞭笞, 击晕所有命中的敌人 2 秒。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.\n\n— Enchantment Effect —\n当你使用有冷却时间的技能时, 你周围的敌人会昏迷 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。",
-			"zhTW": "Attack Speed Multiplier: 1.25\n幸運觸發機率: 30% (per hit)\n釋放電弧,對你面前的敵人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 點傷害。每使出 10 次電弧鞭擊,會使擊中的所有敵人昏迷 2 秒。\n\nTags: 基本, 電能, 傷害, 閃電, 控場.\n\n— Enchantment Effect —\n每當你使用有冷卻時間的技能,會擊昏附近的敵人 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。"
+			"deDE": "Attack Speed Multiplier: 1.25\nGlückstrefferchance: 14% (per hit)\nEntfesselt bogenförmige Blitze, die Gegnern vor Euch {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% Schaden zufügen. Mit jedem 10. Schwung der Elektropeitsche werden alle getroffenen Gegner 2 Sek. lang betäubt.\n\nTags: Basis, Schock, Schaden, Blitz, Kontrollverlust.\n\n— Enchantment Effect —\nWenn Ihr eine Abklingzeit verwendet, werden Gegner um Euch herum {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} Sek. lang betäubt.",
+			"esES": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe de suerte: 14% (per hit)\nCreas un arco eléctrico que inflige {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de daño a los enemigos frente a ti. Cada 10 pasadas de Arco eléctrico, aturdes a todos los enemigos golpeados durante 2 s.\n\nTags: Básica, Electrocución, Daño, Rayos, Control de masas.\n\n— Enchantment Effect —\nCuando usas un tiempo de reutilización, los enemigos que te rodean quedan aturdidos durante {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} s.",
+			"esMX": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe afortunado: 14% (per hit)\nDesatas un rayo en arco que inflige {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de daño a los enemigos frente a ti. Cada 10 golpes de Latigazo de Arco Eléctrico, aturde a todos los enemigos durante 2 segundos.\n\nTags: Básica, Rayo, Daño, Control de multitudes.\n\n— Enchantment Effect —\nCuando usas una habilidad con recuperación, los enemigos a tu alrededor quedan aturdidos durante {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} segundos.",
+			"frFR": "Attack Speed Multiplier: 1.25\nChances d'obtenir un coup de chance: 14% (per hit)\nVous libérez des arcs de foudre qui infligent {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% points de dégâts aux adversaires en face de vous. Toutes les 10 frappes de Fouet électrique, la compétence étourdit toutes les cibles touchées pendant 2 s.\n\nTags: Basique, Foudre, Dégâts, Perte de contrôle.\n\n— Enchantment Effect —\nLorsque vous utilisez une compétence avec un temps de recharge, les cibles autour de vous sont étourdies pendant {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} s.",
+			"itIT": "Attack Speed Multiplier: 1.25\nProbabilità di colpo fortunato: 14% (per hit)\nScateni un arco di elettricità che infligge {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% danni ai nemici frontali. Ogni 10 colpi di Sferzata ad Arco, i nemici colpiti vengono storditi per 2 s.\n\nTags: Base, Folgore, Danni, Fulmine, Effetti debilitanti.\n\n— Enchantment Effect —\nQuando lanci un'abilità con tempo di recupero, i nemici circostanti vengono storditi per {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} s.",
+			"jaJP": "Attack Speed Multiplier: 1.25\n幸運の一撃発生率: 14% (per hit)\n弧を描く稲妻を放ち、前方の敵に{42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%ダメージを与える。〈アークラッシュ〉は10回命中するたびに、当たったすべての敵を2秒間スタンさせる。\n\nTags: 基本, 電撃, ダメージ, 操作障害効果.\n\n— Enchantment Effect —\nクールダウンを使用すると、周囲の敵が{0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95}秒間スタンする。",
+			"koKR": "Attack Speed Multiplier: 1.25\n행운의 적중 확률: 14% (per hit)\n뻗어나가는 번개를 내뿜어 전방의 적들에게 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%의 피해를 줍니다. 전기 채찍을 10번 휘두를 때마다 적중한 모든 적을 2초 동안 기절시킵니다.\n\nTags: 기본, 감전, 피해, 번개, 군중 제어.\n\n— Enchantment Effect —\n재사용 대기시간이 있는 기술을 사용하면 주위의 적들이 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95}초 동안 기절합니다.",
+			"plPL": "Attack Speed Multiplier: 1.25\nSzansa na szczęśliwy traf: 14% (per hit)\nUwalniasz po łuku błyskawicę, która zadaje wrogom znajdującym się przed tobą {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% pkt. obrażeń. Co 10 smagnięcie Bicza Wyładowań ogłusza wszystkich trafionych wrogów na 2 sek.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nKiedy korzystasz z czasu odnowienia, wrogowie wokół ciebie zostają ogłuszeni na {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} sek.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nChance de Golpe de Sorte: 14% (per hit)\nSolta raios em arco que causam {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de dano aos inimigos à sua frente. Cada 10 vezes que Açoite do Arco golpeia, atordoa todos os inimigos atingidos por 2 segundos.\n\nTags: Básica, Choque, Dano, Eletricidade, Controle de Grupo.\n\n— Enchantment Effect —\nAo usar uma recarga, os inimigos ao seu redor ficam atordoados por {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} segundos.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nВероятность удачного удара: 14% (per hit)\nВы поражаете противников перед собой дуговым разрядом молнии, наносящим {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% ед. урона. Каждый 10-й взмах \"Грозовой плети\" оглушает пораженных противников на 2 сек.\n\nTags: Базовое, Шок, Урон, Молния, Контроль.\n\n— Enchantment Effect —\nКогда вы применяете умение с временем восстановления, противники вокруг оглушаются на {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} сек.",
+			"trTR": "Attack Speed Multiplier: 1.25\nŞanslı Vuruş İhtimali: 14% (per hit)\nÖnündeki düşmanlara {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% hasar veren elektrik kırbaçları fırlat. Elektrik Kırbacı her 10 kez savrulduğunda vurduğu tüm düşmanları 2 saniyeliğine Sersemletir.\n\nTags: Temel, Şok, Hasar, Yıldırım, Kitle Kontrolü.\n\n— Enchantment Effect —\nBir Bekleme Süresi kullandığında etrafındaki düşmanlar {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} saniyeliğine Sersemletilir.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n幸运一击几率: 14% (per hit)\n施放弧形闪电, 对你面前的敌人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 点伤害。每第 10 次施放电弧鞭笞, 击晕所有命中的敌人 2 秒。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.\n\n— Enchantment Effect —\n当你使用有冷却时间的技能时, 你周围的敌人会昏迷 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。",
+			"zhTW": "Attack Speed Multiplier: 1.25\n幸運觸發機率: 14% (per hit)\n釋放電弧,對你面前的敵人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 點傷害。每使出 10 次電弧鞭擊,會使擊中的所有敵人昏迷 2 秒。\n\nTags: 基本, 電能, 傷害, 閃電, 控場.\n\n— Enchantment Effect —\n每當你使用有冷卻時間的技能,會擊昏附近的敵人 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。"
 },
 		id: 8,
 		maxPoints: 5,
@@ -455,7 +455,7 @@ When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0
 	"Glinting Arc Lash": {
 		baseSkill: "Arc Lash",
 		connections: [ "Enhanced Arc Lash" ],
-		description: `Hitting a Stunned enemy with Arc Lash reduces your Cooldowns by 0.25 seconds.`,
+		description: `Hitting a Stunned enemy with Arc Lash reduces your Cooldowns by 0.15 seconds.`,
 		nameLocalized: {
 			"deDE": "Funkelnde Elektropeitsche",
 			"esES": "Arco eléctrico centelleante",
@@ -472,19 +472,19 @@ When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0
 			"zhTW": "閃爍電弧鞭擊"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr einen betäubten Gegner mit Elektropeitsche trefft, werden Eure Abklingzeiten um 0.25 Sek. reduziert.",
-			"esES": "Golpear a un enemigo aturdido con Arco eléctrico reduce 0.25 s tus tiempos de reutilización.",
-			"esMX": "Al golpear con Latigazo de Arco Eléctrico a un enemigo aturdido, tus recuperaciones se reducen 0.25 segundos.",
-			"frFR": "Toucher une cible étourdie avec Fouet électrique réduit vos temps de recharge de 0.25 s.",
-			"itIT": "Colpire un nemico stordito con Sferzata ad Arco riduce i tuoi tempi di recupero di 0.25 s.",
-			"jaJP": "スタン状態の敵に〈アークラッシュ〉が命中すると、クールダウンが0.25秒短くなる。",
-			"koKR": "기절한 적을 전기 채찍으로 적중하면 재사용 대기시간이 0.25초 감소합니다.",
-			"plPL": "Trafienie ogłuszonego wroga za pomocą Bicza Wyładowań skraca twoje czasy odnowienia o 0.25 sek.",
-			"ptBR": "Atingir um inimigo atordoado com Açoite do Arco reduz suas recargas em 0.25 segundos.",
-			"ruRU": "Когда \"Грозовая плеть\" поражает оглушенного противника, время восстановления ваших умений сокращается на 0.25 сек.",
-			"trTR": "Sersemletilmiş bir düşmana Elektrik Kırbacı ile vurmak, Bekleme Sürelerini 0.25 saniye azaltır.",
-			"zhCN": "用电弧鞭笞命中昏迷的敌人会使你的冷却时间缩短 0.25 秒。",
-			"zhTW": "電弧鞭擊打中被擊昏的敵人時,會使你的冷卻時間縮短 0.25 秒。"
+			"deDE": "Wenn Ihr einen betäubten Gegner mit Elektropeitsche trefft, werden Eure Abklingzeiten um 0.15 Sek. reduziert.",
+			"esES": "Golpear a un enemigo aturdido con Arco eléctrico reduce 0.15 s tus tiempos de reutilización.",
+			"esMX": "Al golpear con Latigazo de Arco Eléctrico a un enemigo aturdido, tus recuperaciones se reducen 0.15 segundos.",
+			"frFR": "Toucher une cible étourdie avec Fouet électrique réduit vos temps de recharge de 0.15 s.",
+			"itIT": "Colpire un nemico stordito con Sferzata ad Arco riduce i tuoi tempi di recupero di 0.15 s.",
+			"jaJP": "スタン状態の敵に〈アークラッシュ〉が命中すると、クールダウンが0.15秒短くなる。",
+			"koKR": "기절한 적을 전기 채찍으로 적중하면 재사용 대기시간이 0.15초 감소합니다.",
+			"plPL": "Trafienie ogłuszonego wroga za pomocą Bicza Wyładowań skraca twoje czasy odnowienia o 0.15 sek.",
+			"ptBR": "Atingir um inimigo atordoado com Açoite do Arco reduz suas recargas em 0.15 segundos.",
+			"ruRU": "Когда \"Грозовая плеть\" поражает оглушенного противника, время восстановления ваших умений сокращается на 0.15 сек.",
+			"trTR": "Sersemletilmiş bir düşmana Elektrik Kırbacı ile vurmak, Bekleme Sürelerini 0.15 saniye azaltır.",
+			"zhCN": "用电弧鞭笞命中昏迷的敌人会使你的冷却时间缩短 0.15 秒。",
+			"zhTW": "電弧鞭擊打中被擊昏的敵人時,會使你的冷卻時間縮短 0.15 秒。"
 },
 		id: 10,
 		maxPoints: 1,
@@ -2407,7 +2407,7 @@ Evade is replaced with a short range Teleport on a {17/16.15/15.3/14.62/13.94/13
 	"Shimmering Teleport": {
 		baseSkill: "Teleport",
 		connections: [ "Enhanced Teleport" ],
-		description: `After Teleporting, you gain 30% Damage Reduction for 5 seconds.`,
+		description: `After Teleporting, you gain 30% Damage Reduction for 3 seconds.`,
 		nameLocalized: {
 			"deDE": "Schimmernde Teleportation",
 			"esES": "Teletransporte reluciente",
@@ -2424,19 +2424,19 @@ Evade is replaced with a short range Teleport on a {17/16.15/15.3/14.62/13.94/13
 			"zhTW": "閃耀傳送術"
 },
 		descriptionLocalized: {
-			"deDE": "Nach der Teleportation erhaltet Ihr 5 Sek. lang 30% Schadensreduktion.",
-			"esES": "Después de Teletransportarte, obtienes un 30% de reducción de daño durante 5 s.",
-			"esMX": "Después de teletransportarte, obtienes un 30% de reducción de daño durante 5 segundos.",
-			"frFR": "Pendant les 5 s qui suivent la téléportation, vous bénéficiez de 30% de réduction des dégâts.",
-			"itIT": "Dopo aver usato Teletrasporto, ottieni il 30% di riduzione danni per 5 s.",
-			"jaJP": "〈テレポート〉後の5秒間は、受けるダメージが30%減少する。",
-			"koKR": "순간이동 후 5초 동안 30%의 피해 감소를 얻습니다.",
-			"plPL": "Po Teleportacji zyskujesz premię 30% do redukcji obrażeń na 5 sek.",
-			"ptBR": "Após o Teleporte, você recebe 30% de redução de dano por 5 segundos.",
-			"ruRU": "После телепортации вы получаете на 30% меньше урона в течение 5 сек.",
-			"trTR": "Işınlandıktan sonra 5 saniyeliğine 30% Hasar Azaltma kazanırsın.",
-			"zhCN": "传送后, 你获得 30% 的伤害减免, 持续 5 秒。",
-			"zhTW": "傳送後,你獲得 30% 傷害減免,持續 5 秒。"
+			"deDE": "Nach der Teleportation erhaltet Ihr 3 Sek. lang 30% Schadensreduktion.",
+			"esES": "Después de Teletransportarte, obtienes un 30% de reducción de daño durante 3 s.",
+			"esMX": "Después de teletransportarte, obtienes un 30% de reducción de daño durante 3 segundos.",
+			"frFR": "Pendant les 3 s qui suivent la téléportation, vous bénéficiez de 30% de réduction des dégâts.",
+			"itIT": "Dopo aver usato Teletrasporto, ottieni il 30% di riduzione danni per 3 s.",
+			"jaJP": "〈テレポート〉後の3秒間は、受けるダメージが30%減少する。",
+			"koKR": "순간이동 후 3초 동안 30%의 피해 감소를 얻습니다.",
+			"plPL": "Po Teleportacji zyskujesz premię 30% do redukcji obrażeń na 3 sek.",
+			"ptBR": "Após o Teleporte, você recebe 30% de redução de dano por 3 segundos.",
+			"ruRU": "После телепортации вы получаете на 30% меньше урона в течение 3 сек.",
+			"trTR": "Işınlandıktan sonra 3 saniyeliğine 30% Hasar Azaltma kazanırsın.",
+			"zhCN": "传送后, 你获得 30% 的伤害减免, 持续 3 秒。",
+			"zhTW": "傳送後,你獲得 30% 傷害減免,持續 3 秒。"
 },
 		id: 58,
 		maxPoints: 1,

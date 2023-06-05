@@ -438,7 +438,7 @@ let codexData = {
 			"Aspect of the Dire Whirlwind": {
 				"id": 25,
 				"type": "Legendary",
-				"description": "Whirlwind's Critical Strike Chance is increased by +{5/10}% for each second it is channeled, up to +{20/40}%.",
+				"description": "Whirlwind's Critical Strike Chance is increased by +{3/8}% for each second it is channeled, up to +{9/24}%.",
 				"nameLocalized": {
 					"deDE": "des schrecklichen Wirbelwinds",
 					"esES": "del torbellino atroz",
@@ -455,19 +455,19 @@ let codexData = {
 					"zhTW": "兇蠻旋風斬之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Die kritische Trefferchance von Wirbelwind wird pro Sekunde, die er kanalisiert wird, um +{5/10}% erhöht, bis maximal +{20/40}%.",
-					"esES": "La probabilidad de golpe crítico de Torbellino aumenta un +{5/10}% por cada segundo que se canalice, hasta un máximo de un +{20/40}%.",
-					"esMX": "La probabilidad de golpe crítico de Remolino aumenta un +{5/10}% por cada segundo en que se canaliza, hasta un +{20/40}%.",
-					"frFR": "Les chances d'infliger un coup critique de Tourbillon sont augmentées de +{5/10}% par seconde de canalisation de la compétence, jusqu'à un maximum de +{20/40}%.",
-					"itIT": "La probabilità di critico di Turbine aumenta del +{5/10}% per ogni secondo di canalizzazione, fino a un massimo del +{20/40}%.",
-					"jaJP": "〈ワールウィンド〉の発動中、1秒毎にクリティカルヒット率が +{5/10}%増加する。クリティカルヒット率は最大+{20/40}%。",
-					"koKR": "소용돌이에 정신을 집중하는 시간 1초당 극대화 확률이 +{5/10}%만큼, 최대 +{20/40}%까지 증가합니다.",
-					"plPL": "Szansa na trafienie krytyczne Trąbą Powietrzną wzrasta o +{5/10}% za każdą sekundę podtrzymywania umiejętności, maksymalnie do +{20/40}%.",
-					"ptBR": "A chance de acerto crítico de Redemoinho é aumentada em +{5/10}% por cada segundo de canalização, até o máximo de +{20/40}%.",
-					"ruRU": "Вероятность критического эффекта \"Вихря\" повышается на +{5/10}% за каждую секунду поддержания вплоть до +{20/40}%.",
-					"trTR": "Burgacın Kritik Vuruş İhtimali, en fazla +{20/40}% olmak üzere yönlendirildiği her saniye +{5/10}% artar.",
-					"zhCN": "旋风斩每引导一秒, 其暴击几率就会提高 +{5/10}%, 最多提高 +{20/40}%。",
-					"zhTW": "引導旋風斬時,每秒爆擊機率提高 +{5/10}%,最多提高 +{20/40}%。"
+					"deDE": "Die kritische Trefferchance von Wirbelwind wird pro Sekunde, die er kanalisiert wird, um +{3/8}% erhöht, bis maximal +{9/24}%.",
+					"esES": "La probabilidad de golpe crítico de Torbellino aumenta un +{3/8}% por cada segundo que se canalice, hasta un máximo de un +{9/24}%.",
+					"esMX": "La probabilidad de golpe crítico de Remolino aumenta un +{3/8}% por cada segundo en que se canaliza, hasta un +{9/24}%.",
+					"frFR": "Les chances d'infliger un coup critique de Tourbillon sont augmentées de +{3/8}% par seconde de canalisation de la compétence, jusqu'à un maximum de +{9/24}%.",
+					"itIT": "La probabilità di critico di Turbine aumenta del +{3/8}% per ogni secondo di canalizzazione, fino a un massimo del +{9/24}%.",
+					"jaJP": "〈ワールウィンド〉の発動中、1秒毎にクリティカルヒット率が +{3/8}%増加する。クリティカルヒット率は最大+{9/24}%。",
+					"koKR": "소용돌이에 정신을 집중하는 시간 1초당 극대화 확률이 +{3/8}%만큼, 최대 +{9/24}%까지 증가합니다.",
+					"plPL": "Szansa na trafienie krytyczne Trąbą Powietrzną wzrasta o +{3/8}% za każdą sekundę podtrzymywania umiejętności, maksymalnie do +{9/24}%.",
+					"ptBR": "A chance de acerto crítico de Redemoinho é aumentada em +{3/8}% por cada segundo de canalização, até o máximo de +{9/24}%.",
+					"ruRU": "Вероятность критического эффекта \"Вихря\" повышается на +{3/8}% за каждую секунду поддержания вплоть до +{9/24}%.",
+					"trTR": "Burgacın Kritik Vuruş İhtimali, en fazla +{9/24}% olmak üzere yönlendirildiği her saniye +{3/8}% artar.",
+					"zhCN": "旋风斩每引导一秒, 其暴击几率就会提高 +{3/8}%, 最多提高 +{9/24}%。",
+					"zhTW": "引導旋風斬時,每秒爆擊機率提高 +{3/8}%,最多提高 +{9/24}%。"
 				},
 				"dungeon": "Garan Hold",
 				"region": "Scosglen"
@@ -942,7 +942,7 @@ let codexData = {
 				"id": 144,
 				"type": "Unique",
 				"slot": "Gloves",
-				"description": "Whirlwind explodes after it ends, dealing {50/70}% of the total Base damage dealt to surrounding enemies as Fire damage.",
+				"description": "Whirlwind explodes after it ends, dealing {16/26}% of the total Base damage dealt to surrounding enemies as Fire damage.",
 				"flavor": "\"The brutish construction of these gloves belies the strength they bestow. Gohr was clearly no craftsman, but it would be foolish to ignore the triumph of his work.\"\n- Barrett's Book of Implements",
 				"nameLocalized": {
 					"deDE": "[p]Gohrs Vernichtende Greifer",
@@ -960,19 +960,19 @@ let codexData = {
 					"zhTW": "戈爾的摧殘護手"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wirbelwind explodiert bei Ablauf und fügt Gegnern in der Nähe {50/70}% des insgesamt verursachten Basisschadens als Feuerschaden zu.",
-					"esES": "Torbellino explota al acabar e inflige un {50/70}% del total del daño base infligido a los enemigos cercanos como daño de fuego.",
-					"esMX": "Remolino explota al terminar e inflige un {50/70}% del daño de base total infligido a los enemigos circundantes como daño de fuego.",
-					"frFR": "Tourbillon explose à la fin de son effet, infligeant aux adversaires à proximité un montant de dégâts de feu égal à {50/70}% du total des dégâts de base infligés.",
-					"itIT": "Turbine esplode non appena termina, infliggendo il {50/70}% dei danni base totali ai nemici circostanti come danni da fuoco.",
-					"jaJP": "ワールウィンドが終了後に爆発し、周囲の敵に合計基礎ダメージの{50/70}%を火炎ダメージとして与える。",
-					"koKR": "소용돌이가 끝난 후 폭발하며 주변 적들에게 총 기본 공격력의 {50/70}%를 화염 피해로 줍니다.",
-					"plPL": "Gdy Trąba Powietrzna dobiega końca, wybucha i zadaje pobliskim wrogom równowartość {50/70}% całkowitych obrażeń podstawowych w postaci obrażeń od Ognia.",
-					"ptBR": "Redemoinho explode ao terminar, causando {50/70}% do dano-base total aos inimigos ao redor como dano ígneo.",
-					"ruRU": "По окончании действия \"Вихрь\" вызывает взрыв, наносящий окружающим противникам урон от огня, равный {50/70}% общего нанесенного базового урона.",
-					"trTR": "Burgaç sona erdikten sonra patlayarak çevredeki düşmanlara verilen toplam Temel hasarın {50/70}% kadarını Ateş hasarı olarak verir.",
-					"zhCN": "旋风斩结束后发生爆炸, 对周围敌人造成总基础伤害 {50/70}% 的火焰伤害。",
-					"zhTW": "旋風斬結束時會爆炸,爆炸傷害為之前對附近敵人造成基礎傷害總和 {50/70}% 的火焰傷害。"
+					"deDE": "Wirbelwind explodiert bei Ablauf und fügt Gegnern in der Nähe {16/26}% des insgesamt verursachten Basisschadens als Feuerschaden zu.",
+					"esES": "Torbellino explota al acabar e inflige un {16/26}% del total del daño base infligido a los enemigos cercanos como daño de fuego.",
+					"esMX": "Remolino explota al terminar e inflige un {16/26}% del daño de base total infligido a los enemigos circundantes como daño de fuego.",
+					"frFR": "Tourbillon explose à la fin de son effet, infligeant aux adversaires à proximité un montant de dégâts de feu égal à {16/26}% du total des dégâts de base infligés.",
+					"itIT": "Turbine esplode non appena termina, infliggendo il {16/26}% dei danni base totali ai nemici circostanti come danni da fuoco.",
+					"jaJP": "ワールウィンドが終了後に爆発し、周囲の敵に合計基礎ダメージの{16/26}%を火炎ダメージとして与える。",
+					"koKR": "소용돌이가 끝난 후 폭발하며 주변 적들에게 총 기본 공격력의 {16/26}%를 화염 피해로 줍니다.",
+					"plPL": "Gdy Trąba Powietrzna dobiega końca, wybucha i zadaje pobliskim wrogom równowartość {16/26}% całkowitych obrażeń podstawowych w postaci obrażeń od Ognia.",
+					"ptBR": "Redemoinho explode ao terminar, causando {16/26}% do dano-base total aos inimigos ao redor como dano ígneo.",
+					"ruRU": "По окончании действия \"Вихрь\" вызывает взрыв, наносящий окружающим противникам урон от огня, равный {16/26}% общего нанесенного базового урона.",
+					"trTR": "Burgaç sona erdikten sonra patlayarak çevredeki düşmanlara verilen toplam Temel hasarın {16/26}% kadarını Ateş hasarı olarak verir.",
+					"zhCN": "旋风斩结束后发生爆炸, 对周围敌人造成总基础伤害 {16/26}% 的火焰伤害。",
+					"zhTW": "旋風斬結束時會爆炸,爆炸傷害為之前對附近敵人造成基礎傷害總和 {16/26}% 的火焰傷害。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Die grobe Konstruktion dieser Handschuhe täuscht darüber hinweg, welche Stärke sie verleihen. Gohr war eindeutig kein Handwerker, doch es wäre töricht, den Triumph seiner Arbeit zu leugnen.\"\n-Barretts Buch der Instrumentarien",
@@ -1749,7 +1749,7 @@ let codexData = {
 			"Bold Chieftain's Aspect": {
 				"id": 132,
 				"type": "Legendary",
-				"description": "Whenever you cast a Shout Skill, its Cooldown is reduced by {2.7/5.4} seconds per Nearby enemy, up to a maximum of 12.0 seconds.",
+				"description": "Whenever you cast a Shout Skill, its Cooldown is reduced by {1/1.9} seconds per Nearby enemy, up to a maximum of 6.0 seconds.",
 				"nameLocalized": {
 					"deDE": "[ms]Schlachthäuptlings[fs]Schlachthäuptlings[ns]Schlachthäuptlings[p]Schlachthäuptlings[c]Schlachthäuptlings-",
 					"esES": "de cacique osado",
@@ -1766,19 +1766,19 @@ let codexData = {
 					"zhTW": "勇敢酋長"
 				},
 				"descriptionLocalized": {
-					"deDE": "Jedes Mal, wenn Ihr eine Ruffertigkeit wirkt, wird ihre Abklingzeit pro Gegner in der Nähe um {2.7/5.4} Sek. reduziert, bis maximal 12.0 Sek.",
-					"esES": "Cada vez que lanzas una habilidad de grito, se reduce {2.7/5.4} s su tiempo de reutilización por cada enemigo cercano, hasta un máximo de 12.0 s.",
-					"esMX": "Cada vez que lanzas una habilidad de Grito, su recuperación se reduce {2.7/5.4} segundos por cada enemigo cercano, hasta un máximo de 12.0 segundos.",
-					"frFR": "Chaque fois que vous utilisez une compétence de cri, son temps de recharge est réduit de {2.7/5.4} s par adversaire proche, jusqu'à un maximum de 12.0 s.",
-					"itIT": "Ogni volta che attivi un'abilità di Urla, il suo tempo di recupero viene ridotto di {2.7/5.4} s per ogni nemico vicino, fino a un massimo di 12.0 s.",
-					"jaJP": "〈シャウト〉スキルの使用時、常にクールダウンが周囲の敵1体あたり{2.7/5.4}秒減少する。減少量は最大12.0秒。",
-					"koKR": "외침 기술을 시전할 때마다 주위에 있는 적 1마리당 해당 기술의 재사용 대기시간이 {2.7/5.4}초만큼, 최대 12.0초까지 감소합니다.",
-					"plPL": "Za każdym razem, kiedy używasz umiejętności Okrzyku, jej czas odnowienia zostaje skrócony o {2.7/5.4} sek. za każdego pobliskiego wroga, maksymalnie do 12.0 sek.",
-					"ptBR": "Sempre que você lança uma habilidade de Grito, sua recarga é reduzida em {2.7/5.4} segundos por inimigo próximo, até o máximo de 12.0 segundos.",
-					"ruRU": "Когда вы применяете умение категории \"Крик\", его время восстановления сокращается на {2.7/5.4} сек. за каждого противника поблизости, вплоть до 12.0 сек.",
-					"trTR": "Bir Çığlık Yeteneği kullandığında bu yeteneğin Bekleme Süresi, Yakındaki düşman başına {2.7/5.4} saniye azalır. Azalma en fazla 12.0 olabilir.",
-					"zhCN": "当你施放战吼技能时, 附近每有一名敌人, 该技能的冷却时间就会缩短 {2.7/5.4} 秒, 最多缩短 12.0 秒。",
-					"zhTW": "使用怒吼技能時,附近每有一名敵人,該技能的冷卻時間縮短 {2.7/5.4} 秒,最多縮短 12.0 秒。"
+					"deDE": "Jedes Mal, wenn Ihr eine Ruffertigkeit wirkt, wird ihre Abklingzeit pro Gegner in der Nähe um {1/1.9} Sek. reduziert, bis maximal 6.0 Sek.",
+					"esES": "Cada vez que lanzas una habilidad de grito, se reduce {1/1.9} s su tiempo de reutilización por cada enemigo cercano, hasta un máximo de 6.0 s.",
+					"esMX": "Cada vez que lanzas una habilidad de Grito, su recuperación se reduce {1/1.9} segundos por cada enemigo cercano, hasta un máximo de 6.0 segundos.",
+					"frFR": "Chaque fois que vous utilisez une compétence de cri, son temps de recharge est réduit de {1/1.9} s par adversaire proche, jusqu'à un maximum de 6.0 s.",
+					"itIT": "Ogni volta che attivi un'abilità di Urla, il suo tempo di recupero viene ridotto di {1/1.9} s per ogni nemico vicino, fino a un massimo di 6.0 s.",
+					"jaJP": "〈シャウト〉スキルの使用時、常にクールダウンが周囲の敵1体あたり{1/1.9}秒減少する。減少量は最大6.0秒。",
+					"koKR": "외침 기술을 시전할 때마다 주위에 있는 적 1마리당 해당 기술의 재사용 대기시간이 {1/1.9}초만큼, 최대 6.0초까지 감소합니다.",
+					"plPL": "Za każdym razem, kiedy używasz umiejętności Okrzyku, jej czas odnowienia zostaje skrócony o {1/1.9} sek. za każdego pobliskiego wroga, maksymalnie do 6.0 sek.",
+					"ptBR": "Sempre que você lança uma habilidade de Grito, sua recarga é reduzida em {1/1.9} segundos por inimigo próximo, até o máximo de 6.0 segundos.",
+					"ruRU": "Когда вы применяете умение категории \"Крик\", его время восстановления сокращается на {1/1.9} сек. за каждого противника поблизости, вплоть до 6.0 сек.",
+					"trTR": "Bir Çığlık Yeteneği kullandığında bu yeteneğin Bekleme Süresi, Yakındaki düşman başına {1/1.9} saniye azalır. Azalma en fazla 6.0 olabilir.",
+					"zhCN": "当你施放战吼技能时, 附近每有一名敌人, 该技能的冷却时间就会缩短 {1/1.9} 秒, 最多缩短 6.0 秒。",
+					"zhTW": "使用怒吼技能時,附近每有一名敵人,該技能的冷卻時間縮短 {1/1.9} 秒,最多縮短 6.0 秒。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -2128,7 +2128,7 @@ let codexData = {
 			"Crashstone Aspect": {
 				"id": 41,
 				"type": "Legendary",
-				"description": "Earth Skills deal x{40/50}% more Critical Strike Damage to Crowd Controlled enemies.",
+				"description": "Earth Skills deal x{30/40}% more Critical Strike Damage to Crowd Controlled enemies.",
 				"nameLocalized": {
 					"deDE": "[ms]Steinbrüchiger[fs]Steinbrüchige[ns]Steinbrüchiges[p]Steinbrüchige[c]Bruchstein-",
 					"esES": "de piedra destrozada",
@@ -2145,19 +2145,19 @@ let codexData = {
 					"zhTW": "墜石"
 				},
 				"descriptionLocalized": {
-					"deDE": "Erdfertigkeiten fügen Gegnern mit Kontrollverlusteffekten x{40/50}% mehr kritischen Trefferschaden zu.",
-					"esES": "Las habilidades de tierra infligen un x{40/50}% más de daño de golpe crítico a enemigos afectados por control de masas.",
-					"esMX": "Las habilidades de Tierra infligen un x{40/50}% más de daño crítico a los enemigos bajo los efectos de control de multitudes.",
-					"frFR": "Les compétences de terre infligent x{40/50}% de dégâts critiques supplémentaires contre les adversaires subissant une perte de contrôle.",
-					"itIT": "Le abilità di Terra infliggono il x{40/50}% di danni critici aggiuntivi ai nemici sotto effetti debilitanti.",
-					"jaJP": "操作障害状態の敵に土スキルが与えるクリティカルヒットダメージがx{40/50}%増加する。",
-					"koKR": "군중 제어의 영향을 받는 적에게 대지 기술이 주는 극대화 피해가 x{40/50}% 증가합니다.",
-					"plPL": "Umiejętności Ziemi zadają obrażenia od trafień krytycznych zwiększone o x{40/50}% wrogom o ograniczonej kontroli.",
-					"ptBR": "Habilidades de Terra causam {40/50}% de dano de acerto crítico aumentado a inimigos sob controle de grupo.",
-					"ruRU": "Умения земли наносят на x{40/50}% больше критического урона противникам под действием эффектов контроля.",
-					"trTR": "Toprak Yetenekleri, Kitle Kontrolü altındaki düşmanlara x{40/50}% daha fazla Kritik Vuruş Hasarı verir.",
-					"zhCN": "大地技能对被群控的敌人造成 x{40/50}%额外暴击伤害。",
-					"zhTW": "大地技能對受到控場效果的敵人,造成額外 x{40/50}% 爆擊傷害。"
+					"deDE": "Erdfertigkeiten fügen Gegnern mit Kontrollverlusteffekten x{30/40}% mehr kritischen Trefferschaden zu.",
+					"esES": "Las habilidades de tierra infligen un x{30/40}% más de daño de golpe crítico a enemigos afectados por control de masas.",
+					"esMX": "Las habilidades de Tierra infligen un x{30/40}% más de daño crítico a los enemigos bajo los efectos de control de multitudes.",
+					"frFR": "Les compétences de terre infligent x{30/40}% de dégâts critiques supplémentaires contre les adversaires subissant une perte de contrôle.",
+					"itIT": "Le abilità di Terra infliggono il x{30/40}% di danni critici aggiuntivi ai nemici sotto effetti debilitanti.",
+					"jaJP": "操作障害状態の敵に土スキルが与えるクリティカルヒットダメージがx{30/40}%増加する。",
+					"koKR": "군중 제어의 영향을 받는 적에게 대지 기술이 주는 극대화 피해가 x{30/40}% 증가합니다.",
+					"plPL": "Umiejętności Ziemi zadają obrażenia od trafień krytycznych zwiększone o x{30/40}% wrogom o ograniczonej kontroli.",
+					"ptBR": "Habilidades de Terra causam {30/40}% de dano de acerto crítico aumentado a inimigos sob controle de grupo.",
+					"ruRU": "Умения земли наносят на x{30/40}% больше критического урона противникам под действием эффектов контроля.",
+					"trTR": "Toprak Yetenekleri, Kitle Kontrolü altındaki düşmanlara x{30/40}% daha fazla Kritik Vuruş Hasarı verir.",
+					"zhCN": "大地技能对被群控的敌人造成 x{30/40}%额外暴击伤害。",
+					"zhTW": "大地技能對受到控場效果的敵人,造成額外 x{30/40}% 爆擊傷害。"
 				},
 				"dungeon": "",
 				"region": "Scosglen"
@@ -2504,7 +2504,7 @@ let codexData = {
 			"Shockwave Aspect": {
 				"id": 157,
 				"type": "Legendary",
-				"description": "Pulverize creates a shockwave that travels forward, dealing {90/130}% of its damage to targets in the path.",
+				"description": "Pulverize creates a shockwave that travels forward, dealing {60/100}% of its damage to targets in the path.",
 				"nameLocalized": {
 					"deDE": "[ms]Überrollender[fs]Überrollende[ns]Überrollendes[p]Überrollende[c]Schockwellen-",
 					"esES": "de onda de choque",
@@ -2521,19 +2521,19 @@ let codexData = {
 					"zhTW": "衝擊波"
 				},
 				"descriptionLocalized": {
-					"deDE": "Pulverisieren erzeugt eine Schockwelle, die sich nach vorne ausbreitet und Zielen in ihrem Weg {90/130}% des Schadens zufügt.",
-					"esES": "Pulverizar crea una onda de choque que se desplaza hacia delante e inflige un {90/130}% de su daño a los objetivos a su paso.",
-					"esMX": "Pulverizar genera una onda de choque que se desplaza hacia adelante e inflige un {90/130}% de su daño a los objetivos en su camino.",
-					"frFR": "Pulvérisation génère aussi une onde de choc qui se propage vers l'avant en infligeant {90/130}% de ses dégâts aux cibles sur son passage.",
-					"itIT": "Sminuzzamento crea un'onda d'urto che avanza di fronte a te, infliggendo il {90/130}% dei suoi danni ai bersagli che si trovano sulla traiettoria.",
-					"jaJP": "〈大地の怒り〉使用時に前方に衝撃波を放ち、その進路上に存在する標的に〈大地の怒り〉のダメージの{90/130}%を与える。",
-					"koKR": "쳐부수기가 전방으로 이동하는 충격파를 만들어, 경로에 있는 대상에게 쳐부수기 피해의 {90/130}%만큼 피해를 줍니다.",
-					"plPL": "Spustoszenie wywołuje teraz falę uderzeniową, która przemieszcza się do przodu, zadając celom po drodze {90/130}% obrażeń.",
-					"ptBR": "Pulverizar cria uma onda de choque que avança, causando {90/130}% do dano a alvos no caminho.",
-					"ruRU": "\"Сокрушение\" выпускает вперед ударную волну, наносящую целям {90/130}% урона этого умения.",
-					"trTR": "Ufala, yolundaki hedeflere hasarının {90/130}% kadarına eşit hasar verip ileriye doğru hareket eden bir şok dalgası oluşturur.",
-					"zhCN": "粉碎会制造一道向前方传导的震荡波, 对路径上的目标造成 {90/130}% 伤害。",
-					"zhTW": "粉碎會向前產生一道衝擊波,對路徑上的目標造成 {90/130}% 的傷害。"
+					"deDE": "Pulverisieren erzeugt eine Schockwelle, die sich nach vorne ausbreitet und Zielen in ihrem Weg {60/100}% des Schadens zufügt.",
+					"esES": "Pulverizar crea una onda de choque que se desplaza hacia delante e inflige un {60/100}% de su daño a los objetivos a su paso.",
+					"esMX": "Pulverizar genera una onda de choque que se desplaza hacia adelante e inflige un {60/100}% de su daño a los objetivos en su camino.",
+					"frFR": "Pulvérisation génère aussi une onde de choc qui se propage vers l'avant en infligeant {60/100}% de ses dégâts aux cibles sur son passage.",
+					"itIT": "Sminuzzamento crea un'onda d'urto che avanza di fronte a te, infliggendo il {60/100}% dei suoi danni ai bersagli che si trovano sulla traiettoria.",
+					"jaJP": "〈大地の怒り〉使用時に前方に衝撃波を放ち、その進路上に存在する標的に〈大地の怒り〉のダメージの{60/100}%を与える。",
+					"koKR": "쳐부수기가 전방으로 이동하는 충격파를 만들어, 경로에 있는 대상에게 쳐부수기 피해의 {60/100}%만큼 피해를 줍니다.",
+					"plPL": "Spustoszenie wywołuje teraz falę uderzeniową, która przemieszcza się do przodu, zadając celom po drodze {60/100}% obrażeń.",
+					"ptBR": "Pulverizar cria uma onda de choque que avança, causando {60/100}% do dano a alvos no caminho.",
+					"ruRU": "\"Сокрушение\" выпускает вперед ударную волну, наносящую целям {60/100}% урона этого умения.",
+					"trTR": "Ufala, yolundaki hedeflere hasarının {60/100}% kadarına eşit hasar verip ileriye doğru hareket eden bir şok dalgası oluşturur.",
+					"zhCN": "粉碎会制造一道向前方传导的震荡波, 对路径上的目标造成 {60/100}% 伤害。",
+					"zhTW": "粉碎會向前產生一道衝擊波,對路徑上的目標造成 {60/100}% 的傷害。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -7355,7 +7355,7 @@ let codexData = {
 			"Repeating Aspect": {
 				"id": 228,
 				"type": "Legendary",
-				"description": "Rapid Fire has a {15/30}% chance to ricochet to another target.",
+				"description": "Rapid Fire has a {30/45}% chance to ricochet to another target.",
 				"nameLocalized": {
 					"deDE": "[ms]Wiederholender[fs]Wiederholende[ns]Wiederholendes[p]Wiederholende[c]Wiederholungs-",
 					"esES": "de repetición",
@@ -7372,19 +7372,19 @@ let codexData = {
 					"zhTW": "反覆"
 				},
 				"descriptionLocalized": {
-					"deDE": "Schnellfeuer hat eine Chance von {15/30}%, auf ein weiteres Ziel überzuspringen.",
-					"esES": "Fuego rápido tiene un {15/30}% de probabilidad de rebotar a otro objetivo.",
-					"esMX": "Disparo Rápido tiene un {15/30}% de probabilidad de rebotar en otro objetivo.",
-					"frFR": "Tir rapide a {15/30}% de chances de ricocher sur une deuxième cible.",
-					"itIT": "Tiro Rapido ha il {15/30}% di probabilità di rimbalzare su un altro bersaglio.",
-					"jaJP": "〈速射〉が{15/30}%の確率で別の標的に跳飛する。",
-					"koKR": "연발 사격이 {15/30}% 확률로 다른 대상에게 튕깁니다.",
-					"plPL": "Szybki Ostrzał ma {15/30}% szans na odbicie się do innego celu.",
-					"ptBR": "Fogo Rápido tem {15/30}% de chance de ricochetear para outro alvo.",
-					"ruRU": "\"Скоростная стрельба\" с вероятностью {15/30}% рикошетит в другую цель.",
-					"trTR": "Hızlı Atış, {15/30}% ihtimalle başka bir hedefe seker.",
-					"zhCN": "快速射击有 {15/30}% 几率回弹至另一个目标。",
-					"zhTW": "連射有 {15/30}% 彈射到另一個目標。"
+					"deDE": "Schnellfeuer hat eine Chance von {30/45}%, auf ein weiteres Ziel überzuspringen.",
+					"esES": "Fuego rápido tiene un {30/45}% de probabilidad de rebotar a otro objetivo.",
+					"esMX": "Disparo Rápido tiene un {30/45}% de probabilidad de rebotar en otro objetivo.",
+					"frFR": "Tir rapide a {30/45}% de chances de ricocher sur une deuxième cible.",
+					"itIT": "Tiro Rapido ha il {30/45}% di probabilità di rimbalzare su un altro bersaglio.",
+					"jaJP": "〈速射〉が{30/45}%の確率で別の標的に跳飛する。",
+					"koKR": "연발 사격이 {30/45}% 확률로 다른 대상에게 튕깁니다.",
+					"plPL": "Szybki Ostrzał ma {30/45}% szans na odbicie się do innego celu.",
+					"ptBR": "Fogo Rápido tem {30/45}% de chance de ricochetear para outro alvo.",
+					"ruRU": "\"Скоростная стрельба\" с вероятностью {30/45}% рикошетит в другую цель.",
+					"trTR": "Hızlı Atış, {30/45}% ihtimalle başka bir hedefe seker.",
+					"zhCN": "快速射击有 {30/45}% 几率回弹至另一个目标。",
+					"zhTW": "連射有 {30/45}% 彈射到另一個目標。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -8145,7 +8145,7 @@ let codexData = {
 					"frFR": "Piège de poison ne dissipe plus le camouflage et ne déclenche pas de temps de recharge ou d'armement pendant le camouflage. Tous les pièges de poison s'activent quand vous quittez le camouflage et le temps de recharge des pièges de poison sera de {5/8} s par piège placé.",
 					"itIT": "Trappola Avvelenata non interrompe più Furtività e non attiva il tempo di recupero o il tempo di attivazione durante Furtività. Tutte le Trappole Avvelenate si attivano quando esci da Furtività e il tempo di recupero di Trappola Avvelenata sarà di {5/8} s per trappola piazzata.",
 					"jaJP": "〈ポイズントラップ〉で隠密が解除されず、隠密でいる間はクールダウンと起動準備時間が発生しなくなる。隠密状態ではなくなると、すべての〈ポイズントラップ〉が起動し、〈ポイズントラップ〉に設置されている罠1つあたり{5/8}秒のクールダウンが発生する。",
-					"koKR": "맹독 덫을 사용해도 은폐가 풀리지 않고, 은폐 상태일 때 재사용 대기시간이나 덫 충전 시간이 발동되지 않습니다. 은폐 상태에서 빠져나올 때 맹독 덫이 작동하고 맹독 덫의 재사용 대기시간은 설치한 덫 하나당 {5/8} 초가 됩니다.",
+					"koKR": "맹독 덫을 사용해도 은폐가 풀리지 않고, 은폐 상태일 때 재사용 대기시간이나 덫 충전 시간이 발동되지 않습니다. 은폐 상태에서 빠져나올 때 맹독 덫이 작동하고 맹독 덫의 재사용 대기시간은 설치한 덫 하나당 {5/8}초가 됩니다.",
 					"plPL": "Trująca Pułapka nie przerywa twojego ukrycia i nie aktywuje czasu odnowienia ani czasu uzbrojenia. Po twoim wyjściu z ukrycia wszystkie Trujące Pułapki aktywują się, a czas odnowienia Trującej Pułapki wyniesie {5/8} sek. za każdą zastawioną pułapkę.",
 					"ptBR": "Armadilha Venenosa não rompe mais Furtividade e não aciona recarga ou tempo de preparação enquanto você estiver sob Furtividade. Todas as Armadilhas Venenosas são ativadas quando você rompe Furtividade, e a recarga de Armadilha Venenosa será de {5/8} segundos por armadilha posicionada.",
 					"ruRU": "\"Ловушка с ядом\" больше не снимает незаметность, не требует восстановления и не тратит времени на установку, пока вы в состоянии незаметности. Все ловушки с ядом активируются, когда вы выходите из состояния незаметности. \"Ловушка с ядом\" будет восстанавливаться по {5/8} сек. за каждую установленную ловушку.",
@@ -10244,7 +10244,7 @@ let codexData = {
 			"Aspect of Control": {
 				"id": 101,
 				"type": "Legendary",
-				"description": "You deal x{30/40}% more damage to Immobilized, Stunned, or Frozen enemies.",
+				"description": "You deal x{25/35}% more damage to Immobilized, Stunned, or Frozen enemies.",
 				"nameLocalized": {
 					"deDE": "der Kontrolle",
 					"esES": "de control",
@@ -10261,19 +10261,19 @@ let codexData = {
 					"zhTW": "控制之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Ihr fügt bewegungsunfähigen, betäubten oder eingefrorenen Gegnern x{30/40}% mehr Schaden zu.",
-					"esES": "Infliges un x{30/40}% más de daño a enemigos inmovilizados, aturdidos o congelados.",
-					"esMX": "Infliges un x{30/40}% más de daño a los enemigos inmovilizados, aturdidos o congelados.",
-					"frFR": "Vous infligez x{30/40}% de dégâts supplémentaires aux cibles immobilisées, étourdies ou gelées.",
-					"itIT": "Infliggi il x{30/40}% di danni aggiuntivi ai nemici immobilizzati, storditi o congelati.",
-					"jaJP": "移動不能、スタン、または凍結状態の敵に与えるダメージがx{30/40}%増加する。",
-					"koKR": "이동 불가, 기절 또는 빙결 상태의 적에게 주는 피해가 x{30/40}% 증가합니다.",
-					"plPL": "Zadajesz obrażenia zwiększone o x{30/40}% unieruchomionym, ogłuszonym lub zamrożonym wrogom.",
-					"ptBR": "Você causa {30/40}% de dano aumentado a inimigos imobilizados, atordoados ou congelados.",
-					"ruRU": "Вы наносите на x{30/40}% больше урона обездвиженным, оглушенным или замороженным противникам.",
-					"trTR": "Sabitlenmiş, Sersemletilmiş veya Donmuş düşmanlara x{30/40}% daha fazla hasar verirsin.",
-					"zhCN": "你对被定身、昏迷或被冻结敌人造成的伤害提高 x{30/40}%。",
-					"zhTW": "你對定身、昏迷或凍結的敵人,造成的傷害提高 x{30/40}%。"
+					"deDE": "Ihr fügt bewegungsunfähigen, betäubten oder eingefrorenen Gegnern x{25/35}% mehr Schaden zu.",
+					"esES": "Infliges un x{25/35}% más de daño a enemigos inmovilizados, aturdidos o congelados.",
+					"esMX": "Infliges un x{25/35}% más de daño a los enemigos inmovilizados, aturdidos o congelados.",
+					"frFR": "Vous infligez x{25/35}% de dégâts supplémentaires aux cibles immobilisées, étourdies ou gelées.",
+					"itIT": "Infliggi il x{25/35}% di danni aggiuntivi ai nemici immobilizzati, storditi o congelati.",
+					"jaJP": "移動不能、スタン、または凍結状態の敵に与えるダメージがx{25/35}%増加する。",
+					"koKR": "이동 불가, 기절 또는 빙결 상태의 적에게 주는 피해가 x{25/35}% 증가합니다.",
+					"plPL": "Zadajesz obrażenia zwiększone o x{25/35}% unieruchomionym, ogłuszonym lub zamrożonym wrogom.",
+					"ptBR": "Você causa {25/35}% de dano aumentado a inimigos imobilizados, atordoados ou congelados.",
+					"ruRU": "Вы наносите на x{25/35}% больше урона обездвиженным, оглушенным или замороженным противникам.",
+					"trTR": "Sabitlenmiş, Sersemletilmiş veya Donmuş düşmanlara x{25/35}% daha fazla hasar verirsin.",
+					"zhCN": "你对被定身、昏迷或被冻结敌人造成的伤害提高 x{25/35}%。",
+					"zhTW": "你對定身、昏迷或凍結的敵人,造成的傷害提高 x{25/35}%。"
 				},
 				"dungeon": "Sunken Library",
 				"region": "Kehjistan"

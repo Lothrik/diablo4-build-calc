@@ -1014,7 +1014,7 @@ Tags: Core, Nature Magic, Earth, Spirit, Damage.`,
 	"Pulverize": {
 		connections: [ "Spirit", "Enhanced Pulverize" ],
 		description: `Spirit Cost: 35
-Lucky Hit Chance: 33% (per hit)
+Lucky Hit Chance: 25% (per hit)
 Shapeshift into a Werebear and slam the ground, dealing {50/55/60/65/70/75/80/85/90/95}% damage to surrounding enemies.
 
 Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
@@ -1034,19 +1034,19 @@ Tags: Core, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"zhTW": "粉碎"
 },
 		descriptionLocalized: {
-			"deDE": "Geisteskraftkosten: 35\nGlückstrefferchance: 33% (per hit)\nVerwandelt Euch in einen Werbären, schmettert auf den Boden und fügt Gegnern in der Nähe {50/55/60/65/70/75/80/85/90/95}% Schaden zu.\n\nTags: Kern, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
-			"esES": "Coste de espíritu: 35\nProbabilidad de golpe de suerte: 33% (per hit)\nTe transformas en un hombre oso y golpeas el suelo, lo que inflige {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos cercanos.\n\nTags: Principal, Cambio de forma, Hombre oso, Espíritu, Daño, Física.",
-			"esMX": "Costo de Espíritu: 35\nProbabilidad de golpe afortunado: 33% (per hit)\nCambias de forma a un hombre oso, golpeas el suelo e infliges {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos circundantes.\n\nTags: Principal, Metamorfosis, Hombre oso, Espíritu, Daño, Física.",
-			"frFR": "Coût en esprit: 35\nChances d'obtenir un coup de chance: 33% (per hit)\nVous vous transformez en ursoïde et frappez le sol, ce qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts aux adversaires à proximité.\n\nTags: Principale, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
-			"itIT": "Costo in spirito: 35\nProbabilità di colpo fortunato: 33% (per hit)\nMuti in un Orso Mannaro e colpisci il terreno, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni ai nemici circostanti.\n\nTags: Primaria, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
-			"jaJP": "精神力消費量: 35\n幸運の一撃発生率: 33% (per hit)\n人熊に変身して地面を殴りつけ、周囲の敵に{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 変身, 人熊, 精神力, ダメージ, 物理.",
-			"koKR": "소모: 영력 35\n행운의 적중 확률: 33% (per hit)\n곰인간으로 변신하고 땅을 내려쳐 주위 적들에게 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 변신, 곰인간, 영력, 피해, 물리.",
-			"plPL": "Koszt: 35 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 33% (per hit)\nPrzemieniasz się w niedźwiedziołaka i uderzasz w ziemię, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń wrogom wokół.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
-			"ptBR": "Custo de espírito: 35\nChance de Golpe de Sorte: 33% (per hit)\nTransforma-se em um urso e bate no chão, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
-			"ruRU": "Затраты духа: 35 ед.\nВероятность удачного удара: 33% (per hit)\nВы принимаете облик медведя и с силой бьете по земле, нанося противникам вокруг {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"trTR": "Ruh Bedeli: 35\nŞanslı Vuruş İhtimali: 33% (per hit)\nBir Ayı Adama dönüş ve yere vurarak {50/55/60/65/70/75/80/85/90/95}% hasar ver.\n\nTags: Çekirdek, Dönüşme, Ayı Adam, Ruh, Hasar, Fiziksel.",
-			"zhCN": "灵力消耗: 35\n幸运一击几率: 33% (per hit)\n变成熊人并猛击地面, 对周围敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理.",
-			"zhTW": "靈力消耗:35\n幸運觸發機率: 33% (per hit)\n變身為熊人猛擊地面,對附近的敵人造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 核心, 變形, 熊人, 靈力, 傷害, 物理."
+			"deDE": "Geisteskraftkosten: 35\nGlückstrefferchance: 25% (per hit)\nVerwandelt Euch in einen Werbären, schmettert auf den Boden und fügt Gegnern in der Nähe {50/55/60/65/70/75/80/85/90/95}% Schaden zu.\n\nTags: Kern, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
+			"esES": "Coste de espíritu: 35\nProbabilidad de golpe de suerte: 25% (per hit)\nTe transformas en un hombre oso y golpeas el suelo, lo que inflige {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos cercanos.\n\nTags: Principal, Cambio de forma, Hombre oso, Espíritu, Daño, Física.",
+			"esMX": "Costo de Espíritu: 35\nProbabilidad de golpe afortunado: 25% (per hit)\nCambias de forma a un hombre oso, golpeas el suelo e infliges {50/55/60/65/70/75/80/85/90/95}% de daño a los enemigos circundantes.\n\nTags: Principal, Metamorfosis, Hombre oso, Espíritu, Daño, Física.",
+			"frFR": "Coût en esprit: 35\nChances d'obtenir un coup de chance: 25% (per hit)\nVous vous transformez en ursoïde et frappez le sol, ce qui inflige {50/55/60/65/70/75/80/85/90/95}% points de dégâts aux adversaires à proximité.\n\nTags: Principale, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
+			"itIT": "Costo in spirito: 35\nProbabilità di colpo fortunato: 25% (per hit)\nMuti in un Orso Mannaro e colpisci il terreno, infliggendo {50/55/60/65/70/75/80/85/90/95}% danni ai nemici circostanti.\n\nTags: Primaria, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
+			"jaJP": "精神力消費量: 35\n幸運の一撃発生率: 25% (per hit)\n人熊に変身して地面を殴りつけ、周囲の敵に{50/55/60/65/70/75/80/85/90/95}%のダメージを与える。\n\nTags: コア, 変身, 人熊, 精神力, ダメージ, 物理.",
+			"koKR": "소모: 영력 35\n행운의 적중 확률: 25% (per hit)\n곰인간으로 변신하고 땅을 내려쳐 주위 적들에게 {50/55/60/65/70/75/80/85/90/95}%의 피해를 줍니다.\n\nTags: 핵심, 변신, 곰인간, 영력, 피해, 물리.",
+			"plPL": "Koszt: 35 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 25% (per hit)\nPrzemieniasz się w niedźwiedziołaka i uderzasz w ziemię, zadając {50/55/60/65/70/75/80/85/90/95}% pkt. obrażeń wrogom wokół.\n\nTags: Główne, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
+			"ptBR": "Custo de espírito: 35\nChance de Golpe de Sorte: 25% (per hit)\nTransforma-se em um urso e bate no chão, causando {50/55/60/65/70/75/80/85/90/95}% de dano a inimigos ao redor.\n\nTags: Principal, Metamorfose, Urso, Espírito, Dano, Física.",
+			"ruRU": "Затраты духа: 35 ед.\nВероятность удачного удара: 25% (per hit)\nВы принимаете облик медведя и с силой бьете по земле, нанося противникам вокруг {50/55/60/65/70/75/80/85/90/95}% ед. урона.\n\nTags: Основное, Смена облика, Медведь, Дух, Урон, Физический урон.",
+			"trTR": "Ruh Bedeli: 35\nŞanslı Vuruş İhtimali: 25% (per hit)\nBir Ayı Adama dönüş ve yere vurarak {50/55/60/65/70/75/80/85/90/95}% hasar ver.\n\nTags: Çekirdek, Dönüşme, Ayı Adam, Ruh, Hasar, Fiziksel.",
+			"zhCN": "灵力消耗: 35\n幸运一击几率: 25% (per hit)\n变成熊人并猛击地面, 对周围敌人造成 {50/55/60/65/70/75/80/85/90/95}% 点伤害。\n\nTags: 核心, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "靈力消耗:35\n幸運觸發機率: 25% (per hit)\n變身為熊人猛擊地面,對附近的敵人造成 {50/55/60/65/70/75/80/85/90/95}% 點傷害。\n\nTags: 核心, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 24,
 		maxPoints: 5,
@@ -1495,7 +1495,7 @@ Tags: Core, Shapeshifting, Werewolf, Spirit, Damage, Physical.`,
 		connections: [ "Spirit", "Enhanced Lightning Storm" ],
 		description: `Spirit Cost: 15 per strike
 Lucky Hit Chance: 15% (per hit)
-Conjure a growing lightning storm that deals {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% damage per strike. The number of strikes increase the longer the storm is channeled up to a maximum of 5 at once.
+Conjure a growing lightning storm that deals {40/44/48/52/56/60/64/68/72/76}% damage per strike. The number of strikes increase the longer the storm is channeled up to a maximum of 5 at once.
 
 Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 		nameLocalized: {
@@ -1514,19 +1514,19 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"zhTW": "閃電風暴"
 },
 		descriptionLocalized: {
-			"deDE": "Geisteskraftkosten: 15 pro Angriff\nGlückstrefferchance: 15% (per hit)\nBeschwört einen wachsenden Gewittersturm, der {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% Schaden pro Angriff verursacht. Die Anzahl der Angriffe wird erhöht, solange der Sturm kanalisiert wird, bis zu einem Maximum von 5 gleichzeitig.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
-			"esES": "Coste de espíritu: 15 por golpe\nProbabilidad de golpe de suerte: 15% (per hit)\nCreas una tormenta de rayos creciente que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizada, Espíritu, Daño, Rayos.",
-			"esMX": "Costo de Espíritu: 15 por golpe\nProbabilidad de golpe afortunado: 15% (per hit)\nConjuras una tormenta eléctrica creciente que inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizado, Espíritu, Daño, Rayo.",
-			"frFR": "Coût en esprit: 15 par frappe.\nChances d'obtenir un coup de chance: 15% (per hit)\nVous invoquez un orage grandissant qui inflige {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% points de dégâts par coup de foudre. Le nombre de coups de foudre augmente avec la durée de canalisation de l'orage, jusqu'à un maximum de 5 coups à la fois.\n\nTags: Principale, Magie naturelle, Tempête, Canalisation, Esprit, Dégâts, Foudre.",
-			"itIT": "Costo in spirito: 15 per fulmine\nProbabilità di colpo fortunato: 15% (per hit)\nInvochi una tempesta di fulmini crescente che infligge {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% danni per fulmine. Il numero di fulmini aumenta in base alla durata della canalizzazione della tempesta, fino a un massimo di 5 simultanei.\n\nTags: Primaria, Magia naturale, Tempesta, Canalizzazione, Spirito, Danni, Fulmine.",
-			"jaJP": "精神力消費量: 一撃ごとに15\n幸運の一撃発生率: 15% (per hit)\n成長する雷嵐を呼び出し、一撃ごとに{32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%のダメージを与える。嵐の召喚が長いほど命中回数が増加し、一度に最大5回まで命中する。\n\nTags: コア, 自然魔法, 嵐, 連続発動, 精神力, ダメージ, 電撃.",
-			"koKR": "소모: 공격당 영력 15\n행운의 적중 확률: 15% (per hit)\n점점 커지는 번개 폭풍을 생성하여 공격당 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}%의 피해를 줍니다. 정신 집중이 계속되면 번개 폭풍의 공격 횟수가 한 번에 최대 5까지 증가합니다.\n\nTags: 핵심, 자연 마법, 폭풍, 정신 집중, 영력, 피해, 번개.",
-			"plPL": "Koszt: 15 pkt. siły duchowej za każde trafienie\nSzansa na szczęśliwy traf: 15% (per hit)\nPrzywołujesz rozrastającą się burzę z piorunami, które zadają {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% pkt. obrażeń przy każdym uderzeniu. Liczba uderzeń wzrasta wraz z czasem podtrzymywania, maksymalnie do 5 naraz.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
-			"ptBR": "Custo de espírito: 15 por acerto\nChance de Golpe de Sorte: 15% (per hit)\nConjura uma tempestade de raios crescente que causa {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% de dano por raio. O número de raios aumenta conforme o tempo de canalização da tempestade, até o máximo de 5 ao mesmo tempo.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
-			"ruRU": "Затраты духа: 15 ед. за удар.\nВероятность удачного удара: 15% (per hit)\nПризывает растущий грозовой шторм, наносящий {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% ед. урона за каждый удар. Количество ударов увеличивается с поддержанием умения вплоть до 5.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
-			"trTR": "Ruh Bedeli: Darbe başına 15\nŞanslı Vuruş İhtimali: 15% (per hit)\nDarbe başına {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% hasar veren, büyüyen bir ışık fırtınası oluştur. Darbe sayısı, fırtına yönlendirildikçe artar ve aynı anda en fazla 5 darbe yapılabilir.\n\nTags: Çekirdek, Doğa Sihri, Fırtına, Yönlendirmeli, Ruh, Hasar, Yıldırım.",
-			"zhCN": "灵力消耗: 每次打击消耗15点\n幸运一击几率: 15% (per hit)\n召唤一阵不断变强的雷暴, 每一击造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 点伤害, 并且引导时间越长, 命中目标的数量越多, 最多可同时命中 5 个目标。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
-			"zhTW": "每次雷擊靈力消耗:15\n幸運觸發機率: 15% (per hit)\n呼喚不斷成長的閃電風暴,每次雷擊造成 {32/35.2/38.4/41.6/44.8/48/51.2/54.4/57.6/60.8}% 點傷害。風暴引導的時間越長,雷擊的次數就越多,一次引導最多可提高至 5 次。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 閃電."
+			"deDE": "Geisteskraftkosten: 15 pro Angriff\nGlückstrefferchance: 15% (per hit)\nBeschwört einen wachsenden Gewittersturm, der {40/44/48/52/56/60/64/68/72/76}% Schaden pro Angriff verursacht. Die Anzahl der Angriffe wird erhöht, solange der Sturm kanalisiert wird, bis zu einem Maximum von 5 gleichzeitig.\n\nTags: Kern, Naturmagie, Sturm, Kanalisiert, Geisteskraft, Schaden, Blitz.",
+			"esES": "Coste de espíritu: 15 por golpe\nProbabilidad de golpe de suerte: 15% (per hit)\nCreas una tormenta de rayos creciente que inflige {40/44/48/52/56/60/64/68/72/76}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizada, Espíritu, Daño, Rayos.",
+			"esMX": "Costo de Espíritu: 15 por golpe\nProbabilidad de golpe afortunado: 15% (per hit)\nConjuras una tormenta eléctrica creciente que inflige {40/44/48/52/56/60/64/68/72/76}% de daño por golpe. El número de golpes aumenta cuanto más tiempo se canaliza la tormenta, hasta un máximo de 5 a la vez.\n\nTags: Principal, Magia de la naturaleza, Tormenta, Canalizado, Espíritu, Daño, Rayo.",
+			"frFR": "Coût en esprit: 15 par frappe.\nChances d'obtenir un coup de chance: 15% (per hit)\nVous invoquez un orage grandissant qui inflige {40/44/48/52/56/60/64/68/72/76}% points de dégâts par coup de foudre. Le nombre de coups de foudre augmente avec la durée de canalisation de l'orage, jusqu'à un maximum de 5 coups à la fois.\n\nTags: Principale, Magie naturelle, Tempête, Canalisation, Esprit, Dégâts, Foudre.",
+			"itIT": "Costo in spirito: 15 per fulmine\nProbabilità di colpo fortunato: 15% (per hit)\nInvochi una tempesta di fulmini crescente che infligge {40/44/48/52/56/60/64/68/72/76}% danni per fulmine. Il numero di fulmini aumenta in base alla durata della canalizzazione della tempesta, fino a un massimo di 5 simultanei.\n\nTags: Primaria, Magia naturale, Tempesta, Canalizzazione, Spirito, Danni, Fulmine.",
+			"jaJP": "精神力消費量: 一撃ごとに15\n幸運の一撃発生率: 15% (per hit)\n成長する雷嵐を呼び出し、一撃ごとに{40/44/48/52/56/60/64/68/72/76}%のダメージを与える。嵐の召喚が長いほど命中回数が増加し、一度に最大5回まで命中する。\n\nTags: コア, 自然魔法, 嵐, 連続発動, 精神力, ダメージ, 電撃.",
+			"koKR": "소모: 공격당 영력 15\n행운의 적중 확률: 15% (per hit)\n점점 커지는 번개 폭풍을 생성하여 공격당 {40/44/48/52/56/60/64/68/72/76}%의 피해를 줍니다. 정신 집중이 계속되면 번개 폭풍의 공격 횟수가 한 번에 최대 5까지 증가합니다.\n\nTags: 핵심, 자연 마법, 폭풍, 정신 집중, 영력, 피해, 번개.",
+			"plPL": "Koszt: 15 pkt. siły duchowej za każde trafienie\nSzansa na szczęśliwy traf: 15% (per hit)\nPrzywołujesz rozrastającą się burzę z piorunami, które zadają {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń przy każdym uderzeniu. Liczba uderzeń wzrasta wraz z czasem podtrzymywania, maksymalnie do 5 naraz.\n\nTags: Główne, Magia Natury, Burza, Podtrzymanie, Siła Duchowa, Obrażenia, Błyskawica.",
+			"ptBR": "Custo de espírito: 15 por acerto\nChance de Golpe de Sorte: 15% (per hit)\nConjura uma tempestade de raios crescente que causa {40/44/48/52/56/60/64/68/72/76}% de dano por raio. O número de raios aumenta conforme o tempo de canalização da tempestade, até o máximo de 5 ao mesmo tempo.\n\nTags: Principal, Magia da Natureza, Tempestade, Canalizada, Espírito, Dano, Eletricidade.",
+			"ruRU": "Затраты духа: 15 ед. за удар.\nВероятность удачного удара: 15% (per hit)\nПризывает растущий грозовой шторм, наносящий {40/44/48/52/56/60/64/68/72/76}% ед. урона за каждый удар. Количество ударов увеличивается с поддержанием умения вплоть до 5.\n\nTags: Основное, Силы природы, Буря, Поддерживаемое, Дух, Урон, Молния.",
+			"trTR": "Ruh Bedeli: Darbe başına 15\nŞanslı Vuruş İhtimali: 15% (per hit)\nDarbe başına {40/44/48/52/56/60/64/68/72/76}% hasar veren, büyüyen bir ışık fırtınası oluştur. Darbe sayısı, fırtına yönlendirildikçe artar ve aynı anda en fazla 5 darbe yapılabilir.\n\nTags: Çekirdek, Doğa Sihri, Fırtına, Yönlendirmeli, Ruh, Hasar, Yıldırım.",
+			"zhCN": "灵力消耗: 每次打击消耗15点\n幸运一击几率: 15% (per hit)\n召唤一阵不断变强的雷暴, 每一击造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害, 并且引导时间越长, 命中目标的数量越多, 最多可同时命中 5 个目标。\n\nTags: 核心, 自然魔法, 风暴, 引导, 灵力, 伤害, 闪电.",
+			"zhTW": "每次雷擊靈力消耗:15\n幸運觸發機率: 15% (per hit)\n呼喚不斷成長的閃電風暴,每次雷擊造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害。風暴引導的時間越長,雷擊的次數就越多,一次引導最多可提高至 5 次。\n\nTags: 核心, 自然魔法, 風暴, 引導, 靈力, 傷害, 閃電."
 },
 		id: 37,
 		maxPoints: 5,
@@ -3306,7 +3306,7 @@ Tags: Storm, Nature Magic, Damage, Lightning.`,
 		connections: [ "Charged Atmosphere", "Bad Omen" ],
 		description: `Lucky Hit: Dealing Lightning damage to enemies has up to a {5/10/15/20/25/30/35/40/45/50}% chance to Immobilize them for 3 seconds.
 
-If the target is already Immobilized, the Lightning damage dealt to them is increased by x{5/10/15/20/25/30/35/40/45/50}% instead.
+If the target is already Immobilized, the Lightning damage dealt to them is increased by x{6/12/18/24/30/36/42/48/54/60}% instead.
 
 Tags: Crowd Control, Lightning, Lucky Hit, Damage.`,
 		nameLocalized: {
@@ -3325,19 +3325,19 @@ Tags: Crowd Control, Lightning, Lucky Hit, Damage.`,
 			"zhTW": "電擊"
 },
 		descriptionLocalized: {
-			"deDE": "Glückstreffer: Wenn Ihr Gegnern Blitzschaden zufügt, besteht eine Chance von bis zu {5/10/15/20/25/30/35/40/45/50}%, sie 3 Sek. lang bewegungsunfähig zu machen.\n\nWenn das Ziel bereits bewegungsunfähig ist, erhöht sich sein erlittener Blitzschaden stattdessen um x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Kontrollverlust, Blitz, Glückstreffer, Schaden.",
-			"esES": "Golpe de suerte: Infligir daño de rayos a enemigos tiene hasta un {5/10/15/20/25/30/35/40/45/50}% de probabilidad de inmovilizarlos durante 3 s.\n\nSi el objetivo ya está inmovilizado, sufre un x{5/10/15/20/25/30/35/40/45/50}% más de daño de rayos en su lugar.\n\nTags: Control de masas, Rayos, Golpe de suerte, Daño.",
-			"esMX": "Golpe afortunado: Infligir daño de rayo tiene hasta un {5/10/15/20/25/30/35/40/45/50}% de probabilidad de inmovilizar a los enemigos durante 3 segundos.\n\nSi el objetivo ya está inmovilizado, el daño de rayo infligido aumenta un x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Control de multitudes, Rayo, Golpe afortunado, Daño.",
-			"frFR": "Coup de chance: lorsque vous infligez des dégâts de foudre aux adversaires, vous avez jusqu'à {5/10/15/20/25/30/35/40/45/50}% de chances de les immobiliser pendant 3 s.\n\nSi la cible est déjà immobilisée, les dégâts de foudre qui lui sont infligés augmentent de x{5/10/15/20/25/30/35/40/45/50}% à la place.\n\nTags: Perte de contrôle, Foudre, Coup de chance, Dégâts.",
-			"itIT": "Colpo fortunato: infliggere danni da fulmine ai nemici fornisce fino al {5/10/15/20/25/30/35/40/45/50}% di probabilità di immobilizzarli per 3 s.\n\nSe il bersaglio è già immobilizzato, i danni da fulmine inflitti aumentano invece del x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Effetti debilitanti, Fulmine, Colpo fortunato, Danni.",
-			"jaJP": "幸運の一撃: 敵に電撃ダメージを与えると、最大{5/10/15/20/25/30/35/40/45/50}%の確率で敵を3秒間、移動不能にする。\n\n標的がすでに移動不能だった場合は、与える電撃ダメージがx{5/10/15/20/25/30/35/40/45/50}%増加する。\n\nTags: 操作障害効果, 電撃, 幸運の一撃, ダメージ.",
-			"koKR": "행운의 적중: 적에게 번개 피해를 주면 최대 {5/10/15/20/25/30/35/40/45/50}% 확률로 해당 적이 3초 동안 이동 불가 상태가 됩니다.\n\n대상이 이미 이동 불가 상태일 경우, 해당 적에게 주는 번개 피해가 x{5/10/15/20/25/30/35/40/45/50}% 증가합니다.\n\nTags: 군중 제어, 번개, 행운의 적중, 피해.",
-			"plPL": "Szczęśliwy traf: Zadawanie wrogom obrażeń od Błyskawic ma maksymalnie {5/10/15/20/25/30/35/40/45/50}% szans na unieruchomienie ich na 3 sek.\n\nJeżeli cel jest już unieruchomiony, zadawane mu obrażenia od Błyskawic są zwiększone o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Ograniczanie Kontroli, Błyskawica, Szczęśliwy Traf, Obrażenia.",
-			"ptBR": "Golpe de Sorte: Causar dano elétrico a inimigos tem até {5/10/15/20/25/30/35/40/45/50}% de chance de imobilizá-los por 3 segundos.\n\nSe o alvo já estiver imobilizado, o dano elétrico recebido por ele é aumentado em {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Controle de Grupo, Eletricidade, Golpe de Sorte, Dano.",
-			"ruRU": "Удачный удар: когда вы наносите противникам урон от молнии, вы с вероятностью до {5/10/15/20/25/30/35/40/45/50}% обездвиживаете их на 3 сек.\n\nЕсли цель уже обездвижена, наносимый ей урон от молнии увеличивается на x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Контроль, Молния, Удачный удар, Урон.",
-			"trTR": "Şanslı Vuruş: Düşmanlara Yıldırım hasarı vermek, en fazla %{5/10/15/20/25/30/35/40/45/50} ihtimalle onları 3 saniyeliğine Sabitler.\n\nHedef zaten Sabitlenmişse bunun yerine onlara verilen Yıldırım hasarı x{5/10/15/20/25/30/35/40/45/50}% artar.\n\nTags: Kitle Kontrolü, Yıldırım, Şanslı Vuruş, Hasar.",
-			"zhCN": "幸运一击: 对敌人造成闪电伤害最多有 {5/10/15/20/25/30/35/40/45/50}% 几率使其定身 3 秒。\n\n如果目标已经处于定身状态, 则对其造成的闪电伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 群控, 闪电, 幸运一击, 伤害.",
-			"zhTW": "幸運觸發:對敵人造成電擊傷害有最多 {5/10/15/20/25/30/35/40/45/50}% 的機率使其定身,持續 3 秒。\n\n如目標已被定身,對目標造成的電擊傷害則會提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 控場, 閃電, 幸運觸發, 傷害."
+			"deDE": "Glückstreffer: Wenn Ihr Gegnern Blitzschaden zufügt, besteht eine Chance von bis zu {5/10/15/20/25/30/35/40/45/50}%, sie 3 Sek. lang bewegungsunfähig zu machen.\n\nWenn das Ziel bereits bewegungsunfähig ist, erhöht sich sein erlittener Blitzschaden stattdessen um x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Kontrollverlust, Blitz, Glückstreffer, Schaden.",
+			"esES": "Golpe de suerte: Infligir daño de rayos a enemigos tiene hasta un {5/10/15/20/25/30/35/40/45/50}% de probabilidad de inmovilizarlos durante 3 s.\n\nSi el objetivo ya está inmovilizado, sufre un x{6/12/18/24/30/36/42/48/54/60}% más de daño de rayos en su lugar.\n\nTags: Control de masas, Rayos, Golpe de suerte, Daño.",
+			"esMX": "Golpe afortunado: Infligir daño de rayo tiene hasta un {5/10/15/20/25/30/35/40/45/50}% de probabilidad de inmovilizar a los enemigos durante 3 segundos.\n\nSi el objetivo ya está inmovilizado, el daño de rayo infligido aumenta un x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Control de multitudes, Rayo, Golpe afortunado, Daño.",
+			"frFR": "Coup de chance: lorsque vous infligez des dégâts de foudre aux adversaires, vous avez jusqu'à {5/10/15/20/25/30/35/40/45/50}% de chances de les immobiliser pendant 3 s.\n\nSi la cible est déjà immobilisée, les dégâts de foudre qui lui sont infligés augmentent de x{6/12/18/24/30/36/42/48/54/60}% à la place.\n\nTags: Perte de contrôle, Foudre, Coup de chance, Dégâts.",
+			"itIT": "Colpo fortunato: infliggere danni da fulmine ai nemici fornisce fino al {5/10/15/20/25/30/35/40/45/50}% di probabilità di immobilizzarli per 3 s.\n\nSe il bersaglio è già immobilizzato, i danni da fulmine inflitti aumentano invece del x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Effetti debilitanti, Fulmine, Colpo fortunato, Danni.",
+			"jaJP": "幸運の一撃: 敵に電撃ダメージを与えると、最大{5/10/15/20/25/30/35/40/45/50}%の確率で敵を3秒間、移動不能にする。\n\n標的がすでに移動不能だった場合は、与える電撃ダメージがx{6/12/18/24/30/36/42/48/54/60}%増加する。\n\nTags: 操作障害効果, 電撃, 幸運の一撃, ダメージ.",
+			"koKR": "행운의 적중: 적에게 번개 피해를 주면 최대 {5/10/15/20/25/30/35/40/45/50}% 확률로 해당 적이 3초 동안 이동 불가 상태가 됩니다.\n\n대상이 이미 이동 불가 상태일 경우, 해당 적에게 주는 번개 피해가 x{6/12/18/24/30/36/42/48/54/60}% 증가합니다.\n\nTags: 군중 제어, 번개, 행운의 적중, 피해.",
+			"plPL": "Szczęśliwy traf: Zadawanie wrogom obrażeń od Błyskawic ma maksymalnie {5/10/15/20/25/30/35/40/45/50}% szans na unieruchomienie ich na 3 sek.\n\nJeżeli cel jest już unieruchomiony, zadawane mu obrażenia od Błyskawic są zwiększone o x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Ograniczanie Kontroli, Błyskawica, Szczęśliwy Traf, Obrażenia.",
+			"ptBR": "Golpe de Sorte: Causar dano elétrico a inimigos tem até {5/10/15/20/25/30/35/40/45/50}% de chance de imobilizá-los por 3 segundos.\n\nSe o alvo já estiver imobilizado, o dano elétrico recebido por ele é aumentado em {6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Controle de Grupo, Eletricidade, Golpe de Sorte, Dano.",
+			"ruRU": "Удачный удар: когда вы наносите противникам урон от молнии, вы с вероятностью до {5/10/15/20/25/30/35/40/45/50}% обездвиживаете их на 3 сек.\n\nЕсли цель уже обездвижена, наносимый ей урон от молнии увеличивается на x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Контроль, Молния, Удачный удар, Урон.",
+			"trTR": "Şanslı Vuruş: Düşmanlara Yıldırım hasarı vermek, en fazla %{5/10/15/20/25/30/35/40/45/50} ihtimalle onları 3 saniyeliğine Sabitler.\n\nHedef zaten Sabitlenmişse bunun yerine onlara verilen Yıldırım hasarı x{6/12/18/24/30/36/42/48/54/60}% artar.\n\nTags: Kitle Kontrolü, Yıldırım, Şanslı Vuruş, Hasar.",
+			"zhCN": "幸运一击: 对敌人造成闪电伤害最多有 {5/10/15/20/25/30/35/40/45/50}% 几率使其定身 3 秒。\n\n如果目标已经处于定身状态, 则对其造成的闪电伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 群控, 闪电, 幸运一击, 伤害.",
+			"zhTW": "幸運觸發:對敵人造成電擊傷害有最多 {5/10/15/20/25/30/35/40/45/50}% 的機率使其定身,持續 3 秒。\n\n如目標已被定身,對目標造成的電擊傷害則會提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 控場, 閃電, 幸運觸發, 傷害."
 },
 		id: 82,
 		maxPoints: 3,
@@ -4393,7 +4393,7 @@ druidData["Ultimate"] = {
 		description: `Cooldown: 50 seconds
 Shapeshift into a Dire Werebear for 10 seconds gaining x20% bonus damage and 20% Damage Reduction. Damage bonus is increased by 3% each second while in this form.
 
-Kills extend the duration by 1 second up to 10 additional seconds.
+Kills extend the duration by 1 second up to 5 additional seconds.
 
 Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 		nameLocalized: {
@@ -4412,19 +4412,19 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"zhTW": "灰熊狂怒"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 50 Sek.\nVerwandelt Euch 10 Sek. lang in einen Todeswerbären. Ihr erhaltet x20% Bonusschaden und 20% Schadensreduktion. In dieser Gestalt erhöht sich der Bonusschaden jede Sek. um 3%.\n\nWenn Ihr Gegner tötet, verlängert sich die Dauer um 1 Sek. bis zu 10 zusätzlichen Sek.\n\nTags: Ultimativ, Gestaltwandeln, Werbär, Schadensreduktion, Schaden, Abklingzeit.",
-			"esES": "Tiempo de reutilización: 50 s\nTe transformas en un hombre oso atroz durante 10 s, lo que te otorga un x20% de daño adicional y un 20% de reducción de daño. El bonus de daño aumenta un 3% por cada segundo que mantengas esta forma.\n\nMatar amplía 1 s su duración hasta un máximo de 10 s adicionales.\n\nTags: Definitiva, Cambio de forma, Hombre oso, Reducción de daño, Daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: 50 segundos\nCambias de forma a un hombre oso temible durante 10 segundos, lo que te otorga un x20% más de daño y un 20% de reducción de daño. El daño adicional aumenta un 3% por cada segundo que permanezcas en esta forma.\n\nCada enemigo que elimines aumenta 1 segundo la duración, hasta 10 segundos adicionales.\n\nTags: Máxima, Metamorfosis, Hombre oso, Reducción de daño, Daño, Recuperación.",
-			"frFR": "Temps de recharge: 50 s\nVous vous transformez en ursoïde féroce pendant 10 s, ce qui augmente vos dégâts de x20% et votre réduction des dégâts de 20%. Ce bonus aux dégâts est augmenté de 3% par seconde passée sous cette forme.\n\nTuer une cible prolonge la durée de la transformation de 1 s, jusqu'à un maximum de 10 s supplémentaires.\n\nTags: Ultime, Métamorphose, Ursoïde, Réduction des dégâts, Dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: 50 s\nMuti in un Orso Mannaro Feroce per 10 s ottenendo un bonus ai danni del x20% e il 20% di riduzione danni. Il bonus ai danni aggiuntivi aumenta del 3% al secondo mentre rimani in questa forma.\n\nLe uccisioni estendono la durata della forma di 1 s fino a 10 s aggiuntivi.\n\nTags: Ultra, Mutaforma, Orso Mannaro, Riduzione danni, Danni, Tempo di recupero.",
-			"jaJP": "クールダウン:50秒\n10秒間、の暴れ狂う人熊になり、\nx20%のダメージボーナスと20%\nのダメージ減少を獲得する。この形態でいる間、ダメージボーナスは毎秒3%増加する。\n\n敵を倒すたびに持続時間が1秒延長される。合計延長時間は最大で10秒。\n\nTags: 奥義, 変身, 人熊, ダメージ減少, ダメージ, クールダウン.",
-			"koKR": "재사용 대기시간: 50초\n광포한 곰인간으로 10초 동안 변신하여 공격력이 x20% 증가하고 피해 감소가 20% 증가합니다. 이 형상을 유지하는 동안 매초 공격력이 3% 증가합니다.\n\n적을 처치하면 지속시간이 1초만큼, 최대 10초까지 추가로 증가합니다.\n\nTags: 궁극기, 변신, 곰인간, 피해 감소, 피해, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: 50 sek.\nPrzemieniasz się upiornego niedźwiedziołaka na 10 sek. i zyskujesz premię x20% do obrażeń oraz 20% do redukcji obrażeń. Premia do obrażeń wzrasta o 3% co sekundę, kiedy jesteś w tej postaci.\n\nZabijanie wrogów wydłuża czas działania o 1 sek., maksymalnie do 10 dodatkowych sekund.\n\nTags: Specjalne, Zmiennokształtność, Niedźwiedziołak, Redukcja Obrażeń, Obrażenia, Odnowienie.",
-			"ptBR": "Recarga: 50 segundos\nTransforma-se em um Urso Atroz por 10 segundos, recebendo 20% de bônus de dano e 20% de redução de dano. O bônus de dano é aumentado em 3% a cada segundo enquanto estiver nessa forma.\n\nAbates aumentam a duração em 1 segundo até 10 segundos adicionais.\n\nTags: Suprema, Metamorfose, Urso, Redução de Dano, Dano, Recarga.",
-			"ruRU": "Время восстановления: 50 сек.\nВы принимаете облик лютого медведя на 10 сек. Наносимый урон увеличивается на x20%, а получаемый урон уменьшается на 20%. Прибавка к урону увеличивается на 3% с каждой секундой, проведенной в этом облике.\n\nУбийства продлевают время действия эффекта на 1 сек. вплоть до 10 сек.\n\nTags: Мощное умение, Смена облика, Медведь, Уменьшение урона, Урон, Время восстановления.",
-			"trTR": "Bekleme Süresi: 50 saniye\n10 saniyeliğine bir Korkunç Ayı Adama dönüşüp x20% bonus hasar ve 20% Hasar Azaltma kazan. Hasar bonusu bu formdayken her saniye 3% artar.\n\nÖldürmeler süreyi 1 saniye artırır ve saniye artışı en fazla 10 olabilir.\n\nTags: Ulti, Dönüşme, Ayı Adam, Hasar Azaltma, Hasar, Bekleme Süresi.",
-			"zhCN": "冷却时间: 50 秒\n变成一只恐怖熊人, 持续 10 秒, 获得 x20% 伤害加成和 20% 伤害减免。在该形态下, 伤害加成每秒提高 3%。\n\n消灭会使持续时间延长 1 秒, 最多延长 10 秒。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间.",
-			"zhTW": "冷卻時間:50 秒\n變身為兇蠻熊人,持續 10 秒。獲得 x20% 傷害加成與 20% 傷害減免。在此形態下,每秒傷害加成提高 3%。\n\n擊殺可以使持續時間延長 1 秒,最多延長 10 秒。\n\nTags: 絕招, 變形, 熊人, 傷害減免, 傷害, 冷卻時間."
+			"deDE": "Abklingzeit: 50 Sek.\nVerwandelt Euch 10 Sek. lang in einen Todeswerbären. Ihr erhaltet x20% Bonusschaden und 20% Schadensreduktion. In dieser Gestalt erhöht sich der Bonusschaden jede Sek. um 3%.\n\nWenn Ihr Gegner tötet, verlängert sich die Dauer um 1 Sek. bis zu 5 zusätzlichen Sek.\n\nTags: Ultimativ, Gestaltwandeln, Werbär, Schadensreduktion, Schaden, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 50 s\nTe transformas en un hombre oso atroz durante 10 s, lo que te otorga un x20% de daño adicional y un 20% de reducción de daño. El bonus de daño aumenta un 3% por cada segundo que mantengas esta forma.\n\nMatar amplía 1 s su duración hasta un máximo de 5 s adicionales.\n\nTags: Definitiva, Cambio de forma, Hombre oso, Reducción de daño, Daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 50 segundos\nCambias de forma a un hombre oso temible durante 10 segundos, lo que te otorga un x20% más de daño y un 20% de reducción de daño. El daño adicional aumenta un 3% por cada segundo que permanezcas en esta forma.\n\nCada enemigo que elimines aumenta 1 segundo la duración, hasta 5 segundos adicionales.\n\nTags: Máxima, Metamorfosis, Hombre oso, Reducción de daño, Daño, Recuperación.",
+			"frFR": "Temps de recharge: 50 s\nVous vous transformez en ursoïde féroce pendant 10 s, ce qui augmente vos dégâts de x20% et votre réduction des dégâts de 20%. Ce bonus aux dégâts est augmenté de 3% par seconde passée sous cette forme.\n\nTuer une cible prolonge la durée de la transformation de 1 s, jusqu'à un maximum de 5 s supplémentaires.\n\nTags: Ultime, Métamorphose, Ursoïde, Réduction des dégâts, Dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 50 s\nMuti in un Orso Mannaro Feroce per 10 s ottenendo un bonus ai danni del x20% e il 20% di riduzione danni. Il bonus ai danni aggiuntivi aumenta del 3% al secondo mentre rimani in questa forma.\n\nLe uccisioni estendono la durata della forma di 1 s fino a 5 s aggiuntivi.\n\nTags: Ultra, Mutaforma, Orso Mannaro, Riduzione danni, Danni, Tempo di recupero.",
+			"jaJP": "クールダウン:50秒\n10秒間、の暴れ狂う人熊になり、\nx20%のダメージボーナスと20%\nのダメージ減少を獲得する。この形態でいる間、ダメージボーナスは毎秒3%増加する。\n\n敵を倒すたびに持続時間が1秒延長される。合計延長時間は最大で5秒。\n\nTags: 奥義, 変身, 人熊, ダメージ減少, ダメージ, クールダウン.",
+			"koKR": "재사용 대기시간: 50초\n광포한 곰인간으로 10초 동안 변신하여 공격력이 x20% 증가하고 피해 감소가 20% 증가합니다. 이 형상을 유지하는 동안 매초 공격력이 3% 증가합니다.\n\n적을 처치하면 지속시간이 1초만큼, 최대 5초까지 추가로 증가합니다.\n\nTags: 궁극기, 변신, 곰인간, 피해 감소, 피해, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 50 sek.\nPrzemieniasz się upiornego niedźwiedziołaka na 10 sek. i zyskujesz premię x20% do obrażeń oraz 20% do redukcji obrażeń. Premia do obrażeń wzrasta o 3% co sekundę, kiedy jesteś w tej postaci.\n\nZabijanie wrogów wydłuża czas działania o 1 sek., maksymalnie do 5 dodatkowych sekund.\n\nTags: Specjalne, Zmiennokształtność, Niedźwiedziołak, Redukcja Obrażeń, Obrażenia, Odnowienie.",
+			"ptBR": "Recarga: 50 segundos\nTransforma-se em um Urso Atroz por 10 segundos, recebendo 20% de bônus de dano e 20% de redução de dano. O bônus de dano é aumentado em 3% a cada segundo enquanto estiver nessa forma.\n\nAbates aumentam a duração em 1 segundo até 5 segundos adicionais.\n\nTags: Suprema, Metamorfose, Urso, Redução de Dano, Dano, Recarga.",
+			"ruRU": "Время восстановления: 50 сек.\nВы принимаете облик лютого медведя на 10 сек. Наносимый урон увеличивается на x20%, а получаемый урон уменьшается на 20%. Прибавка к урону увеличивается на 3% с каждой секундой, проведенной в этом облике.\n\nУбийства продлевают время действия эффекта на 1 сек. вплоть до 5 сек.\n\nTags: Мощное умение, Смена облика, Медведь, Уменьшение урона, Урон, Время восстановления.",
+			"trTR": "Bekleme Süresi: 50 saniye\n10 saniyeliğine bir Korkunç Ayı Adama dönüşüp x20% bonus hasar ve 20% Hasar Azaltma kazan. Hasar bonusu bu formdayken her saniye 3% artar.\n\nÖldürmeler süreyi 1 saniye artırır ve saniye artışı en fazla 5 olabilir.\n\nTags: Ulti, Dönüşme, Ayı Adam, Hasar Azaltma, Hasar, Bekleme Süresi.",
+			"zhCN": "冷却时间: 50 秒\n变成一只恐怖熊人, 持续 10 秒, 获得 x20% 伤害加成和 20% 伤害减免。在该形态下, 伤害加成每秒提高 3%。\n\n消灭会使持续时间延长 1 秒, 最多延长 5 秒。\n\nTags: 终极技能, 变形, 熊人, 伤害减免, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:50 秒\n變身為兇蠻熊人,持續 10 秒。獲得 x20% 傷害加成與 20% 傷害減免。在此形態下,每秒傷害加成提高 3%。\n\n擊殺可以使持續時間延長 1 秒,最多延長 5 秒。\n\nTags: 絕招, 變形, 熊人, 傷害減免, 傷害, 冷卻時間."
 },
 		id: 107,
 		maxPoints: 1,
@@ -5612,7 +5612,7 @@ druidData["Spirit Boons"] = {
 	"Snake": {
 		id: 161,
 		"Obsidian Slam": {
-			description: `Every 10th kill will cause your next Earth Skill to Overpower.`,
+			description: `Every 20th kill will cause your next Earth Skill to Overpower.`,
 			id: 154
 		},
 		"Overload": {
@@ -5624,7 +5624,7 @@ druidData["Spirit Boons"] = {
 			id: 156
 		},
 		"Calm Before the Storm": {
-			description: `Lucky Hit: Nature Magic Skills have up to a 15% chance to reduce the Cooldown of your Ultimate Skill by 2 seconds.`,
+			description: `Lucky Hit: Nature Magic Skills have up to a 10% chance to reduce the Cooldown of your Ultimate Skill by 2 seconds.`,
 			id: 157
 		}
 	},

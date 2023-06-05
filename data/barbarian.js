@@ -1572,7 +1572,7 @@ barbarianData["Defensive"] = {
 	"Challenging Shout": {
 		connections: [ "Defensive", "Enhanced Challenging Shout" ],
 		description: `Cooldown: 25 seconds
-Taunt Nearby enemies and gain {40/44/48/52/56/60/64/68/72/76}% Damage Reduction for 6 seconds.
+Taunt Nearby enemies and gain {40/42/44/46/48/50/52/54/56/58}% Damage Reduction for 6 seconds.
 
 Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 		nameLocalized: {
@@ -1591,19 +1591,19 @@ Tags: Defensive, Shout, Crowd Control, Damage Reduction, Cooldown.`,
 			"zhTW": "挑戰怒吼"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 25 Sek.\nVerspottet Gegner in der Nähe und erhaltet 6 Sek. lang {40/44/48/52/56/60/64/68/72/76}% Schadensreduktion.\n\nTags: Defensiv, Ruf, Kontrollverlust, Schadensreduktion, Abklingzeit.",
-			"esES": "Tiempo de reutilización: 25 s\nProvocas a los enemigos cercanos y obtienes un {40/44/48/52/56/60/64/68/72/76}% de reducción de daño durante 6 s.\n\nTags: Defensiva, Grito, Control de masas, Reducción de daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: 25 segundos\nAl provocar a enemigos cercanos, obtienes un {40/44/48/52/56/60/64/68/72/76}% de reducción de daño durante 6 segundos.\n\nTags: Defensivo, Grito, Control de multitudes, Reducción de daño, Recuperación.",
-			"frFR": "Temps de recharge: 25 s\nVous provoquez les adversaires à proximité et obtenez {40/44/48/52/56/60/64/68/72/76}% de réduction des dégâts pendant 6 s.\n\nTags: Défense, Cri, Perte de contrôle, Réduction des dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: 25 s\nProvochi i nemici vicini e ottieni il {40/44/48/52/56/60/64/68/72/76}% di riduzione danni per 6 s.\n\nTags: Difesa, Urla, Effetti debilitanti, Riduzione danni, Tempo di recupero.",
-			"jaJP": "クールダウン: 25秒\n付近の敵を挑発して、受けるダメージを6秒間{40/44/48/52/56/60/64/68/72/76}%減少させる。\n\nTags: 防御, シャウト, 操作障害効果, ダメージ減少, クールダウン.",
-			"koKR": "재사용 대기시간: 25초\n근처의 적을 도발하고 6초 동안 피해 감소를 {40/44/48/52/56/60/64/68/72/76}% 얻습니다.\n\nTags: 방어, 외침, 군중 제어, 피해 감소, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: 25 sek.\nProwokujesz pobliskich wrogów i zyskujesz {40/44/48/52/56/60/64/68/72/76}% do redukcji obrażeń przez 6 sek.\n\nTags: Defensywa, Okrzyk, Ograniczanie Kontroli, Redukcja Obrażeń, Odnowienie.",
-			"ptBR": "Recarga: 25 segundos\nProvoca inimigos próximos e recebe {40/44/48/52/56/60/64/68/72/76}% de redução de dano por 6 segundos.\n\nTags: Defesa, Grito, Controle de Grupo, Redução de Dano, Recarga.",
-			"ruRU": "Время восстановления: 25 сек.\nВы провоцируете ближайших противников и получаете на {40/44/48/52/56/60/64/68/72/76}% меньше урона в течение 6 сек.\n\nTags: Защита, Крик, Контроль, Уменьшение урона, Время восстановления.",
-			"trTR": "Bekleme Süresi: 25 saniye\nYakındaki düşmanları Kışkırt ve 6 saniyeliğine {40/44/48/52/56/60/64/68/72/76}% Hasar Azaltma kazan.\n\nTags: Savunma, Çığlık, Kitle Kontrolü, Hasar Azaltma, Bekleme Süresi.",
-			"zhCN": "冷却时间: 25 秒\n嘲讽附近的敌人并获得 {40/44/48/52/56/60/64/68/72/76}% 伤害减免, 持续 6 秒。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间.",
-			"zhTW": "冷卻時間:25 秒\n嘲諷附近的敵人,獲得 {40/44/48/52/56/60/64/68/72/76}% 傷害減免效果,持續 6 秒。\n\nTags: 防禦, 怒吼, 控場, 傷害減免, 冷卻時間."
+			"deDE": "Abklingzeit: 25 Sek.\nVerspottet Gegner in der Nähe und erhaltet 6 Sek. lang {40/42/44/46/48/50/52/54/56/58}% Schadensreduktion.\n\nTags: Defensiv, Ruf, Kontrollverlust, Schadensreduktion, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 25 s\nProvocas a los enemigos cercanos y obtienes un {40/42/44/46/48/50/52/54/56/58}% de reducción de daño durante 6 s.\n\nTags: Defensiva, Grito, Control de masas, Reducción de daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 25 segundos\nAl provocar a enemigos cercanos, obtienes un {40/42/44/46/48/50/52/54/56/58}% de reducción de daño durante 6 segundos.\n\nTags: Defensivo, Grito, Control de multitudes, Reducción de daño, Recuperación.",
+			"frFR": "Temps de recharge: 25 s\nVous provoquez les adversaires à proximité et obtenez {40/42/44/46/48/50/52/54/56/58}% de réduction des dégâts pendant 6 s.\n\nTags: Défense, Cri, Perte de contrôle, Réduction des dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 25 s\nProvochi i nemici vicini e ottieni il {40/42/44/46/48/50/52/54/56/58}% di riduzione danni per 6 s.\n\nTags: Difesa, Urla, Effetti debilitanti, Riduzione danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 25秒\n付近の敵を挑発して、受けるダメージを6秒間{40/42/44/46/48/50/52/54/56/58}%減少させる。\n\nTags: 防御, シャウト, 操作障害効果, ダメージ減少, クールダウン.",
+			"koKR": "재사용 대기시간: 25초\n근처의 적을 도발하고 6초 동안 피해 감소를 {40/42/44/46/48/50/52/54/56/58}% 얻습니다.\n\nTags: 방어, 외침, 군중 제어, 피해 감소, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 25 sek.\nProwokujesz pobliskich wrogów i zyskujesz {40/42/44/46/48/50/52/54/56/58}% do redukcji obrażeń przez 6 sek.\n\nTags: Defensywa, Okrzyk, Ograniczanie Kontroli, Redukcja Obrażeń, Odnowienie.",
+			"ptBR": "Recarga: 25 segundos\nProvoca inimigos próximos e recebe {40/42/44/46/48/50/52/54/56/58}% de redução de dano por 6 segundos.\n\nTags: Defesa, Grito, Controle de Grupo, Redução de Dano, Recarga.",
+			"ruRU": "Время восстановления: 25 сек.\nВы провоцируете ближайших противников и получаете на {40/42/44/46/48/50/52/54/56/58}% меньше урона в течение 6 сек.\n\nTags: Защита, Крик, Контроль, Уменьшение урона, Время восстановления.",
+			"trTR": "Bekleme Süresi: 25 saniye\nYakındaki düşmanları Kışkırt ve 6 saniyeliğine {40/42/44/46/48/50/52/54/56/58}% Hasar Azaltma kazan.\n\nTags: Savunma, Çığlık, Kitle Kontrolü, Hasar Azaltma, Bekleme Süresi.",
+			"zhCN": "冷却时间: 25 秒\n嘲讽附近的敌人并获得 {40/42/44/46/48/50/52/54/56/58}% 伤害减免, 持续 6 秒。\n\nTags: 防御, 战吼, 群控, 伤害减免, 冷却时间.",
+			"zhTW": "冷卻時間:25 秒\n嘲諷附近的敵人,獲得 {40/42/44/46/48/50/52/54/56/58}% 傷害減免效果,持續 6 秒。\n\nTags: 防禦, 怒吼, 控場, 傷害減免, 冷卻時間."
 },
 		id: 38,
 		maxPoints: 5,
@@ -1994,7 +1994,7 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"frFR": "Temps de recharge: {16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2/10.88/10.56/10.4/10.24/10.08/9.92/9.84/9.76/9.68/9.6} s\nChances d'obtenir un coup de chance: 33% (per hit)\nVous frappez le sol, ce qui étourdit les adversaires à proximité pendant 3 s et leur inflige {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% points de dégâts.\n\nTags: Défense, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
 			"itIT": "Tempo di recupero: {16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2/10.88/10.56/10.4/10.24/10.08/9.92/9.84/9.76/9.68/9.6} s\nProbabilità di colpo fortunato: 33% (per hit)\nColpisci il terreno, infliggendo {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% danni e stordendo i nemici circostanti per 3 s.\n\nTags: Difesa, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
 			"jaJP": "クールダウン: {16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2/10.88/10.56/10.4/10.24/10.08/9.92/9.84/9.76/9.68/9.6}秒\n幸運の一撃発生率: 33% (per hit)\n地面を踏みつけて{9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%のダメージを与え、付近の敵を3秒間スタンさせる。\n\nTags: 防御, 操作障害効果, ダメージ, 物理, クールダウン.",
-			"koKR": "재사용 대기시간: {16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2/10.88/10.56/10.4/10.24/10.08/9.92/9.84/9.76/9.68/9.6} 초\n행운의 적중 확률: % 33% (per hit)\n땅을 내리쳐 주위 적들에게 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%의 피해를 주고 3초 동안 기절시킵니다.\n\nTags: 방어, 군중 제어, 피해, 물리, 재사용 대기시간.",
+			"koKR": "재사용 대기시간: {16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2/10.88/10.56/10.4/10.24/10.08/9.92/9.84/9.76/9.68/9.6}초\n행운의 적중 확률: % 33% (per hit)\n땅을 내리쳐 주위 적들에게 {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}%의 피해를 주고 3초 동안 기절시킵니다.\n\nTags: 방어, 군중 제어, 피해, 물리, 재사용 대기시간.",
 			"plPL": "Czas odnowienia: {16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2/10.88/10.56/10.4/10.24/10.08/9.92/9.84/9.76/9.68/9.6} sek.\nSzansa na szczęśliwy traf: 33% (per hit)\nWstrząsasz ziemią, zadając {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% pkt. obrażeń i ogłuszając pobliskich wrogów na 3 sek.\n\nTags: Defensywa, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
 			"ptBR": "Recarga: {16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2/10.88/10.56/10.4/10.24/10.08/9.92/9.84/9.76/9.68/9.6} segundos\nChance de Golpe de Sorte: 33% (per hit)\nGolpeia o chão, causando {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% de dano e atordoando inimigos ao redor por 3 segundos.\n\nTags: Defesa, Controle de Grupo, Dano, Física, Recarga.",
 			"ruRU": "Время восстановления: {16/15.2/14.4/13.76/13.12/12.64/12.16/11.84/11.52/11.2/10.88/10.56/10.4/10.24/10.08/9.92/9.84/9.76/9.68/9.6} сек.\nВероятность удачного удара: 33% (per hit)\nВы с силой бьете по земле, нанося ближайшим противникам {9.5/10.5/11.4/12.4/13.3/14.3/15.2/16.2/17.1/18}% ед. урона и оглушая их на 3 сек.\n\nTags: Защита, Контроль, Урон, Физический урон, Время восстановления.",

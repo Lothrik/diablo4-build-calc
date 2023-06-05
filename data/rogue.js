@@ -932,7 +932,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 	"Advanced Twisting Blades": {
 		baseSkill: "Twisting Blades",
 		connections: [ "Enhanced Twisting Blades" ],
-		description: `When your Twisting Blades return, your active Cooldowns are reduced by 0.25 second per enemy they passed through, up to 3 seconds.`,
+		description: `When your Twisting Blades return, your active Cooldowns are reduced by 0.1 second per enemy they passed through, up to 2 seconds.`,
 		nameLocalized: {
 			"deDE": "Weiterentwickelte Schraubklingen",
 			"esES": "Hojas retorcidas avanzadas",
@@ -949,19 +949,19 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"zhTW": "進階迴鋒刀刃"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Eure Schraubklingen zurückkehren, werden Eure aktiven Abklingzeiten um 0.25 Sek. pro durchschlagenem Gegner reduziert, bis maximal 3 Sek.",
-			"esES": "Cuando vuelven las hojas retorcidas, tus tiempos de reutilización activos se reducen 0.25 s por cada enemigo atravesado, hasta un máximo de 3 s.",
-			"esMX": "Cuando tus Cuchillas Inteligentes vuelven, tus recuperaciones se reducen 0.25 segundo por cada enemigo que atravesaron, hasta un máximo de 3 segundos.",
-			"frFR": "Lorsque vos Lames sournoises reviennent, vos temps de recharge actifs sont réduits de 0.25 s par cible traversée par les lames, jusqu'à 3 s au maximum.",
-			"itIT": "Quando le tue Lame Serpeggianti tornano indietro, i tuoi tempi di recupero attivi si riducono di 0.25 s per ogni nemico trapassato, fino a 3 s.",
-			"jaJP": "〈ツイストブレード〉の戻り時にブレードが触れた敵1体ごとに、クールダウンが0.25秒短縮される。短縮量は最大で3秒。",
-			"koKR": "자신의 회전 칼날이 돌아오면 칼날이 통과한 적 하나당 재사용 대기 중인 기술들의 재사용 대기시간이 0.25초만큼, 최대 3초까지 감소합니다.",
-			"plPL": "Kiedy twoje Wirujące Ostrza wracają do ciebie, twoje aktywne czasy odnowienia zostają skrócone o 0.25 sek. za każdego wroga, przez którego przeniknęły, do maksymalnie 3 sek.",
-			"ptBR": "Quando suas Lâminas Retorcidas retornam, suas recargas ativas são reduzidas em 0.25 segundos por inimigo atravessado por elas, até 3 segundos.",
-			"ruRU": "Когда \"Вонзающиеся клинки\" возвращаются к вам, время восстановления умений сокращается на 0.25 сек. за каждого противника, через которого они прошли, вплоть до 3 сек.",
-			"trTR": "Dönen Bıçakların geri döndüğünde etkin Bekleme Sürelerin, bıçakların içinden geçtiği düşman başına 0.25 saniye azalır. Bekleme Süresi azaltması en fazla 3 saniye olabilir.",
-			"zhCN": "回旋刀锋返回时每穿过一名敌人, 你的剩余冷却时间缩短 0.25 秒, 最多缩短 3 秒。",
-			"zhTW": "迴鋒刀刃在返回途中每穿過一個敵人,就會使現有冷卻時間縮短 0.25 秒,最多縮短 3 秒。"
+			"deDE": "Wenn Eure Schraubklingen zurückkehren, werden Eure aktiven Abklingzeiten um 0.1 Sek. pro durchschlagenem Gegner reduziert, bis maximal 2 Sek.",
+			"esES": "Cuando vuelven las hojas retorcidas, tus tiempos de reutilización activos se reducen 0.1 s por cada enemigo atravesado, hasta un máximo de 2 s.",
+			"esMX": "Cuando tus Cuchillas Inteligentes vuelven, tus recuperaciones se reducen 0.1 segundo por cada enemigo que atravesaron, hasta un máximo de 2 segundos.",
+			"frFR": "Lorsque vos Lames sournoises reviennent, vos temps de recharge actifs sont réduits de 0.1 s par cible traversée par les lames, jusqu'à 2 s au maximum.",
+			"itIT": "Quando le tue Lame Serpeggianti tornano indietro, i tuoi tempi di recupero attivi si riducono di 0.1 s per ogni nemico trapassato, fino a 2 s.",
+			"jaJP": "〈ツイストブレード〉の戻り時にブレードが触れた敵1体ごとに、クールダウンが0.1秒短縮される。短縮量は最大で2秒。",
+			"koKR": "자신의 회전 칼날이 돌아오면 칼날이 통과한 적 하나당 재사용 대기 중인 기술들의 재사용 대기시간이 0.1초만큼, 최대 2초까지 감소합니다.",
+			"plPL": "Kiedy twoje Wirujące Ostrza wracają do ciebie, twoje aktywne czasy odnowienia zostają skrócone o 0.1 sek. za każdego wroga, przez którego przeniknęły, do maksymalnie 2 sek.",
+			"ptBR": "Quando suas Lâminas Retorcidas retornam, suas recargas ativas são reduzidas em 0.1 segundos por inimigo atravessado por elas, até 2 segundos.",
+			"ruRU": "Когда \"Вонзающиеся клинки\" возвращаются к вам, время восстановления умений сокращается на 0.1 сек. за каждого противника, через которого они прошли, вплоть до 2 сек.",
+			"trTR": "Dönen Bıçakların geri döndüğünde etkin Bekleme Sürelerin, bıçakların içinden geçtiği düşman başına 0.1 saniye azalır. Bekleme Süresi azaltması en fazla 2 saniye olabilir.",
+			"zhCN": "回旋刀锋返回时每穿过一名敌人, 你的剩余冷却时间缩短 0.1 秒, 最多缩短 2 秒。",
+			"zhTW": "迴鋒刀刃在返回途中每穿過一個敵人,就會使現有冷卻時間縮短 0.1 秒,最多縮短 2 秒。"
 },
 		id: 22,
 		maxPoints: 1,
@@ -1340,12 +1340,12 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		connections: [ "Enhanced Rapid Fire", "Core" ],
 		description: `Energy Cost: {#}
 Lucky Hit Chance: 20% (per hit)
-Rapidly fire 5 arrows, each dealing {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% damage.
+Rapidly fire 5 arrows, each dealing {30/33/36/39/42/45/48/51/54/57}% damage.
 
 Combo Points increase damage and arrows fired:
-• 1 Point: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% damage, 6 arrows
-• 2 Points: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% damage, 7 arrows
-• 3 Points: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% damage, 8 arrows
+• 1 Point: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage, 6 arrows
+• 2 Points: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% damage, 7 arrows
+• 3 Points: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% damage, 8 arrows
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		nameLocalized: {
@@ -1364,19 +1364,19 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"zhTW": "連射"
 },
 		descriptionLocalized: {
-			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 20% (per hit)\nFeuert schnell 5 Pfeile ab, die jeweils {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% Schaden verursachen.\n\nKombopunkte erhöhen den Schaden und die Menge der abgeschossenen Pfeile::\n • 1 Punkt: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% Schaden, 6 Pfeile\n • 2 Punkte: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% Schaden, 7 Pfeile\n • 3 Punkte: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% Schaden, 8 Pfeile\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
-			"esES": "Coste de energía: {#}\nProbabilidad de golpe de suerte: 20% (per hit)\nDisparas rápidamente 5 flechas que infligen {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de daño cada una.\n\nLos puntos de combo aumentan el daño y el número de flechas lanzadas:\n• 1 punto: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% de daño y 6 flechas\n• 2 puntos: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% de daño y 7 flechas\n• 3 puntos: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% de daño y 8 flechas\n\nTags: Principal, Tirador, Imbuible, Daño, Física, Energía.",
-			"esMX": "Costo de Energía: {#}\nProbabilidad de golpe afortunado: 20% (per hit)\nDisparas 5 flechas con rapidez que infligen {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de daño cada una.\n\nLos puntos de combo aumentan el daño y la cantidad de flechas disparadas:\n• 1 punto: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% de daño, 6 flechas\n• 2 puntos: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% de daño, 7 flechas\n• 3 puntos: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% de daño, 8 flechas\n\nTags: Principal, Tirador, Imbuible, Daño, Física, Energía.",
-			"frFR": "Coût en énergie: {#}\nChances d'obtenir un coup de chance: 20% (per hit)\nVous tirez rapidement 5 flèches qui infligent chacune {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% points de dégâts.\n\nLes points de combo augmentent les dégâts et le nombre de flèches tirées :\n• 1 point: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% points de dégâts, 6 flèches\n• 2 points: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% points de dégâts, 7 flèches\n• 3 points: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% points de dégâts, 8 flèches\n\nTags: Principale, Tir d'élite, Imprégnable, Dégâts, Dégâts physiques, Énergie.",
-			"itIT": "Costo in energia: {#}\nProbabilità di colpo fortunato: 20% (per hit)\nScagli rapidamente 5 frecce che infliggono {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% danni ciascuna.\n\nI punti combo aumentano i danni e le frecce scagliate:\n• 1 punto: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% danni, 6 frecce\n• 2 punti: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% danni, 7 frecce\n• 3 punti: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% danni, 8 frecce\n\nTags: Primaria, Tiro di precisione, Infondibile, Danni, Fisico, Energia.",
-			"jaJP": "エネルギー消費量: {#}\n幸運の一撃発生率: 20% (per hit)\n矢を5本連射し、それぞれの矢が{24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%のダメージを与える。\n\nコンボポイントでダメージと放たれる矢の数が増大:\n• 1ポイント: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}%ダメージ、6本の矢\n• 2ポイント: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}%ダメージ、7本の矢\n• 3ポイント: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}%ダメージ、8本の矢\n\nTags: コア, 射手, 注入可能, ダメージ, 物理, エネルギー.",
-			"koKR": "소모: 기력 {#}\n행운의 적중 확률: 20% (per hit)\n화살 5개를 빠르게 발사하여 각각 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%의 피해를 줍니다.\n\n연계 점수에 따라 주는 피해와 발사하는 화살 개수가 증가합니다.\n• 1점: 피해 {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}%, 화살 6개\n• 2점: 피해 {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}%, 화살 7개\n• 3점: 피해 {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}%, 화살 8개\n\nTags: 핵심, 명사수, 주입 가능, 피해, 물리, 기력.",
-			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 20% (per hit)\nSzybko wypuszczasz strzały (5), z których każda zadaje {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i liczbę wypuszczonych strzał:\n • 1 pkt.: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% pkt. obrażeń, strzały: 6.\n • 2 pkt.: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% pkt. obrażeń, strzały: 7.\n • 3 pkt.: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% pkt. obrażeń, strzały: 8.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
-			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 20% (per hit)\nDispara 5 flechas rapidamente. Cada uma causa {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de dano.\n\nPontos de combo aumentam o dano e a quantidade de flechas disparadas:\n• 1: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% de dano, 6 flechas\n• 2: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% de dano, 7 flechas\n• 3: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% de dano, 8 flechas\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
-			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 20% (per hit)\nВы стремительно выпускаете 5 стрелы, наносящие:стрел, наносящих по {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% ед. урона.\n\nДополнительные приемы серии увеличивают урон и количество стрел:\n• 1 прием: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% ед. урона, 6 стрелы:стрел\n• 2 приема: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% ед. урона, 7 стрелы:стрел\n• 3 приема: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% ед. урона, 8 стрелы:стрел\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"trTR": "Enerji Bedeli: {#}\nŞanslı Vuruş İhtimali: 20% (per hit)\nHızlıca her biri {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% hasar veren 5 ok at.\n\nKombo Puanları hasarı ve atılan ok sayısını artırır:\n• 1 Puan: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% hasar, 6 ok\n• 2 Puan: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% hasar, 7 ok\n• 3 Puan: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% hasar, 8 ok\n\nTags: Çekirdek, Nişancı, Aşılanabilir, Hasar, Fiziksel, Enerji.",
-			"zhCN": "能量消耗: {#}\n幸运一击几率: 20% (per hit)\n快速发射 5 支箭矢, 每支造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 点伤害。\n\n连击点数会提高伤害并增加箭矢数量:\n• 1点: {26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% 点伤害, 6 支箭矢\n• 2点: {29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% 点伤害, 7 支箭矢\n• 3点: {33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% 点伤害, 8 支箭矢\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
-			"zhTW": "能量消耗:{#}\n幸運觸發機率: 20% (per hit)\n連續發射 5 支箭矢,每支造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 點傷害。\n\n連擊點數會提高傷害與射出的箭矢數量:\n• 1 點:{26.4/29/31.7/34.3/37/39.6/42.2/44.9/47.5/50.2}% 點傷害,6 支箭矢\n• 2 點:{29.4/32.3/35.3/38.2/41.2/44.1/47/50/52.9/55.9}% 點傷害,7 支箭矢\n• 3 點:{33.6/37/40.3/43.7/47/50.4/53.8/57.1/60.5/63.8}% 點傷害,8 支箭矢\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
+			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 20% (per hit)\nFeuert schnell 5 Pfeile ab, die jeweils {30/33/36/39/42/45/48/51/54/57}% Schaden verursachen.\n\nKombopunkte erhöhen den Schaden und die Menge der abgeschossenen Pfeile::\n • 1 Punkt: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden, 6 Pfeile\n • 2 Punkte: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% Schaden, 7 Pfeile\n • 3 Punkte: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% Schaden, 8 Pfeile\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
+			"esES": "Coste de energía: {#}\nProbabilidad de golpe de suerte: 20% (per hit)\nDisparas rápidamente 5 flechas que infligen {30/33/36/39/42/45/48/51/54/57}% de daño cada una.\n\nLos puntos de combo aumentan el daño y el número de flechas lanzadas:\n• 1 punto: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño y 6 flechas\n• 2 puntos: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% de daño y 7 flechas\n• 3 puntos: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de daño y 8 flechas\n\nTags: Principal, Tirador, Imbuible, Daño, Física, Energía.",
+			"esMX": "Costo de Energía: {#}\nProbabilidad de golpe afortunado: 20% (per hit)\nDisparas 5 flechas con rapidez que infligen {30/33/36/39/42/45/48/51/54/57}% de daño cada una.\n\nLos puntos de combo aumentan el daño y la cantidad de flechas disparadas:\n• 1 punto: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño, 6 flechas\n• 2 puntos: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% de daño, 7 flechas\n• 3 puntos: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de daño, 8 flechas\n\nTags: Principal, Tirador, Imbuible, Daño, Física, Energía.",
+			"frFR": "Coût en énergie: {#}\nChances d'obtenir un coup de chance: 20% (per hit)\nVous tirez rapidement 5 flèches qui infligent chacune {30/33/36/39/42/45/48/51/54/57}% points de dégâts.\n\nLes points de combo augmentent les dégâts et le nombre de flèches tirées :\n• 1 point: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts, 6 flèches\n• 2 points: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% points de dégâts, 7 flèches\n• 3 points: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% points de dégâts, 8 flèches\n\nTags: Principale, Tir d'élite, Imprégnable, Dégâts, Dégâts physiques, Énergie.",
+			"itIT": "Costo in energia: {#}\nProbabilità di colpo fortunato: 20% (per hit)\nScagli rapidamente 5 frecce che infliggono {30/33/36/39/42/45/48/51/54/57}% danni ciascuna.\n\nI punti combo aumentano i danni e le frecce scagliate:\n• 1 punto: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni, 6 frecce\n• 2 punti: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% danni, 7 frecce\n• 3 punti: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% danni, 8 frecce\n\nTags: Primaria, Tiro di precisione, Infondibile, Danni, Fisico, Energia.",
+			"jaJP": "エネルギー消費量: {#}\n幸運の一撃発生率: 20% (per hit)\n矢を5本連射し、それぞれの矢が{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。\n\nコンボポイントでダメージと放たれる矢の数が増大:\n• 1ポイント: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%ダメージ、6本の矢\n• 2ポイント: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}%ダメージ、7本の矢\n• 3ポイント: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%ダメージ、8本の矢\n\nTags: コア, 射手, 注入可能, ダメージ, 物理, エネルギー.",
+			"koKR": "소모: 기력 {#}\n행운의 적중 확률: 20% (per hit)\n화살 5개를 빠르게 발사하여 각각 {30/33/36/39/42/45/48/51/54/57}%의 피해를 줍니다.\n\n연계 점수에 따라 주는 피해와 발사하는 화살 개수가 증가합니다.\n• 1점: 피해 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%, 화살 6개\n• 2점: 피해 {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}%, 화살 7개\n• 3점: 피해 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%, 화살 8개\n\nTags: 핵심, 명사수, 주입 가능, 피해, 물리, 기력.",
+			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 20% (per hit)\nSzybko wypuszczasz strzały (5), z których każda zadaje {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i liczbę wypuszczonych strzał:\n • 1 pkt.: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń, strzały: 6.\n • 2 pkt.: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% pkt. obrażeń, strzały: 7.\n • 3 pkt.: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% pkt. obrażeń, strzały: 8.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
+			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 20% (per hit)\nDispara 5 flechas rapidamente. Cada uma causa {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nPontos de combo aumentam o dano e a quantidade de flechas disparadas:\n• 1: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano, 6 flechas\n• 2: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% de dano, 7 flechas\n• 3: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de dano, 8 flechas\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
+			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 20% (per hit)\nВы стремительно выпускаете 5 стрелы, наносящие:стрел, наносящих по {30/33/36/39/42/45/48/51/54/57}% ед. урона.\n\nДополнительные приемы серии увеличивают урон и количество стрел:\n• 1 прием: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона, 6 стрелы:стрел\n• 2 приема: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% ед. урона, 7 стрелы:стрел\n• 3 приема: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% ед. урона, 8 стрелы:стрел\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
+			"trTR": "Enerji Bedeli: {#}\nŞanslı Vuruş İhtimali: 20% (per hit)\nHızlıca her biri {30/33/36/39/42/45/48/51/54/57}% hasar veren 5 ok at.\n\nKombo Puanları hasarı ve atılan ok sayısını artırır:\n• 1 Puan: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% hasar, 6 ok\n• 2 Puan: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% hasar, 7 ok\n• 3 Puan: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% hasar, 8 ok\n\nTags: Çekirdek, Nişancı, Aşılanabilir, Hasar, Fiziksel, Enerji.",
+			"zhCN": "能量消耗: {#}\n幸运一击几率: 20% (per hit)\n快速发射 5 支箭矢, 每支造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。\n\n连击点数会提高伤害并增加箭矢数量:\n• 1点: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害, 6 支箭矢\n• 2点: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% 点伤害, 7 支箭矢\n• 3点: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 点伤害, 8 支箭矢\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "能量消耗:{#}\n幸運觸發機率: 20% (per hit)\n連續發射 5 支箭矢,每支造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。\n\n連擊點數會提高傷害與射出的箭矢數量:\n• 1 點:{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害,6 支箭矢\n• 2 點:{36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% 點傷害,7 支箭矢\n• 3 點:{42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 點傷害,8 支箭矢\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 32,
 		maxPoints: 5,
@@ -1856,7 +1856,7 @@ Tags: Agility, Cutthroat, Unstoppable, Imbueable, Damage, Physical, Cooldown, Mo
 			"frFR": "Infliger des dégâts à une cible avec Pas de l'ombre augmente vos chances de lui infliger un coup critique de +8% pendant 3 s.",
 			"itIT": "Danneggiare un nemico con Passo d'Ombra aumenta le tue probabilità di critico contro di lui del +8% per 3 s.",
 			"jaJP": "敵に〈シャドウステップ〉のダメージを与えると、その敵へのクリティカルヒット率が3秒間にわたり+8%上昇する。",
-			"koKR": "그림자 걸음이 적에게 피해를 주면 3 초 동안 해당 적에 대한 극대화 확률이 +8% 증가합니다.",
+			"koKR": "그림자 걸음이 적에게 피해를 주면 3초 동안 해당 적에 대한 극대화 확률이 +8% 증가합니다.",
 			"plPL": "Zranienie wroga Cienistym Krokiem zwiększa twoją szansę na zadanie mu trafienia krytycznego o +8% na 3 sek.",
 			"ptBR": "Causar dano a um inimigo com Passo Sombrio aumenta sua chance de acerto crítico contra ele em +8% por 3 segundos.",
 			"ruRU": "Когда \"Шаг сквозь тень\" наносит противнику урон, вероятность нанести этой цели критический урон повышается на +8% на 3 сек.",
@@ -1993,7 +1993,7 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 	"Enhanced Dash": {
 		baseSkill: "Dash",
 		connections: [ "Dash", "Methodical Dash", "Disciplined Dash" ],
-		description: `Enemies damaged by Dash take x20% increased Critical Strike Damage from you for 5 seconds.`,
+		description: `Enemies damaged by Dash take x15% increased Critical Strike Damage from you for 5 seconds.`,
 		nameLocalized: {
 			"deDE": "Verbessertes Preschen",
 			"esES": "Carrera mejorada",
@@ -2010,19 +2010,19 @@ Tags: Agility, Cutthroat, Imbueable, Damage, Physical, Cooldown.`,
 			"zhTW": "強化疾衝"
 },
 		descriptionLocalized: {
-			"deDE": "Gegner, die durch Preschen Schaden erleiden, erleiden 5 Sek. lang x20% mehr kritischen Trefferschaden durch Euch.",
-			"esES": "Infliges un x20% más de daño de golpe crítico a los enemigos dañados por Carrera durante 5 s.",
-			"esMX": "Los enemigos dañados por Arremetida reciben un x20% más de daño de golpe crítico de ti durante 5 segundos.",
-			"frFR": "Les cibles blessées par Célérité subissent x20% de dégâts critiques supplémentaires de votre part pendant 5 s.",
-			"itIT": "I nemici colpiti da Scatto subiscono da te il x20% di danni critici aggiuntivi per 5 s.",
-			"jaJP": "〈ダッシュ〉で敵にダメージを与えると、自分がその敵に与えるクリティカルヒットダメージが5秒間にわたりx20%増加する。",
-			"koKR": "질주로 피해를 받은 적이 자신에게 5초 동안 받는 극대화 피해가 x20% 증가합니다.",
-			"plPL": "Wrogowie, którym Pęd zadał obrażenia, otrzymują przez 5 sek. obrażenia od twoich trafień krytycznych zwiększone o x20%.",
-			"ptBR": "Inimigos atingidos por Disparada recebem 20% de dano de acerto crítico aumentado de você por 5 segundos.",
-			"ruRU": "Противники, пораженные \"Рывком\", получают от вас на x20% больше критического урона в течение 5 сек.",
-			"trTR": "Atıl tarafından hasar alan düşmanlar senden 5 saniyeliğine x20% artırılmış Kritik Vuruş Hasarı alır.",
-			"zhCN": "疾行斩对敌人造成伤害时, 你对其造成的暴击伤害提高 x20%, 持续 5 秒。",
-			"zhTW": "你對受到疾衝傷害的敵人造成的爆擊傷害提高 x20%,持續 5 秒。"
+			"deDE": "Gegner, die durch Preschen Schaden erleiden, erleiden 5 Sek. lang x15% mehr kritischen Trefferschaden durch Euch.",
+			"esES": "Infliges un x15% más de daño de golpe crítico a los enemigos dañados por Carrera durante 5 s.",
+			"esMX": "Los enemigos dañados por Arremetida reciben un x15% más de daño de golpe crítico de ti durante 5 segundos.",
+			"frFR": "Les cibles blessées par Célérité subissent x15% de dégâts critiques supplémentaires de votre part pendant 5 s.",
+			"itIT": "I nemici colpiti da Scatto subiscono da te il x15% di danni critici aggiuntivi per 5 s.",
+			"jaJP": "〈ダッシュ〉で敵にダメージを与えると、自分がその敵に与えるクリティカルヒットダメージが5秒間にわたりx15%増加する。",
+			"koKR": "질주로 피해를 받은 적이 자신에게 5초 동안 받는 극대화 피해가 x15% 증가합니다.",
+			"plPL": "Wrogowie, którym Pęd zadał obrażenia, otrzymują przez 5 sek. obrażenia od twoich trafień krytycznych zwiększone o x15%.",
+			"ptBR": "Inimigos atingidos por Disparada recebem 15% de dano de acerto crítico aumentado de você por 5 segundos.",
+			"ruRU": "Противники, пораженные \"Рывком\", получают от вас на x15% больше критического урона в течение 5 сек.",
+			"trTR": "Atıl tarafından hasar alan düşmanlar senden 5 saniyeliğine x15% artırılmış Kritik Vuruş Hasarı alır.",
+			"zhCN": "疾行斩对敌人造成伤害时, 你对其造成的暴击伤害提高 x15%, 持续 5 秒。",
+			"zhTW": "你對受到疾衝傷害的敵人造成的爆擊傷害提高 x15%,持續 5 秒。"
 },
 		id: 48,
 		maxPoints: 1,
@@ -2153,7 +2153,7 @@ Tags: Vulnerable, Healthy, Critical Strikes, Damage.`,
 	},
 	"Concussive": {
 		connections: [ "Agility", "Trick Attacks" ],
-		description: `After Knocking Back or Knocking Down an enemy, you gain +{5/10/15/20/25/30/35/40/45/50}% increased Critical Strike Chance against them for 3 seconds.
+		description: `After Knocking Back or Knocking Down an enemy, you gain +{4/8/12/16/20/24/28/32/36/40}% increased Critical Strike Chance against them for 3 seconds.
 
 Tags: Crowd Control, Critical Strikes.`,
 		nameLocalized: {
@@ -2172,19 +2172,19 @@ Tags: Crowd Control, Critical Strikes.`,
 			"zhTW": "震盪"
 },
 		descriptionLocalized: {
-			"deDE": "Nachdem Ihr einen Gegner zurückgestoßen oder niedergeschlagen habt, ist Eure kritische Trefferchance gegen diesen Gegner 3 Sek. lang um +{5/10/15/20/25/30/35/40/45/50}% erhöht.\n\nTags: Kontrollverlust, Kritische Treffer.",
-			"esES": "Tras repeler o derribar a un enemigo, obtienes un +{5/10/15/20/25/30/35/40/45/50}% más de probabilidad de golpe crítico contra él durante 3 s.\n\nTags: Control de masas, Golpes críticos.",
-			"esMX": "Después de repeler o derribar a un enemigo, tienes un +{5/10/15/20/25/30/35/40/45/50}% más de probabilidad de asestarle un golpe crítico durante 3 segundos.\n\nTags: Control de multitudes, Golpes críticos.",
-			"frFR": "Après avoir repoussé ou renversé une cible, vos chances de lui infliger un coup critique sont augmentées de +{5/10/15/20/25/30/35/40/45/50}% pendant 3 s.\n\nTags: Perte de contrôle, Coups critiques.",
-			"itIT": "Dopo aver respinto indietro o fatto cadere un nemico, la probabilità di critico contro di lui aumenta del +{5/10/15/20/25/30/35/40/45/50}% per 3 s.\n\nTags: Effetti debilitanti, Colpi critici.",
-			"jaJP": "敵1体をノックバックまたはノックダウンさせた後、その敵に対するクリティカルヒット率が3秒間にわたり+{5/10/15/20/25/30/35/40/45/50}%上昇する。\n\nTags: 操作障害効果, クリティカルヒット.",
-			"koKR": "적을 밀쳐내거나 넘어뜨린 후, 3초 동안 해당 적을 상대로 극대화 확률이 +{5/10/15/20/25/30/35/40/45/50}% 증가합니다.\n\nTags: 군중 제어, 극대화.",
-			"plPL": "Po odrzuceniu lub powaleniu wroga zyskujesz zwiększoną o +{5/10/15/20/25/30/35/40/45/50}% szansę na zadanie mu trafienia krytycznego przez 3 sek.\n\nTags: Ograniczanie Kontroli, Trafienia Krytyczne.",
-			"ptBR": "Depois de repelir ou nocautear um inimigo, você recebe +{5/10/15/20/25/30/35/40/45/50}% de chance de acerto crítico aumentada contra ele por 3 segundos.\n\nTags: Controle de Grupo, Acertos Críticos.",
-			"ruRU": "Когда вы отбрасываете противника или сбиваете его с ног, вероятность нанести ему критический удар повышается на +{5/10/15/20/25/30/35/40/45/50}% на 3 сек.\n\nTags: Контроль, Критические удары.",
-			"trTR": "Bir düşmanı Geri Savurduğunda veya Yere Serdiğinde o düşmana karşı 3 saniyeliğine +{5/10/15/20/25/30/35/40/45/50}% artırılmış Kritik Vuruş İhtimali kazanırsın.\n\nTags: Kitle Kontrolü, Kritik Vuruşlar.",
-			"zhCN": "击退或击倒一名敌人后, 你对其造成暴击的几率提高 +{5/10/15/20/25/30/35/40/45/50}%, 持续 3 秒。\n\nTags: 群控, 暴击.",
-			"zhTW": "在擊退或擊倒敵人後,你對其爆擊機率提高 +{5/10/15/20/25/30/35/40/45/50}%,持續 3 秒。\n\nTags: 控場, 爆擊."
+			"deDE": "Nachdem Ihr einen Gegner zurückgestoßen oder niedergeschlagen habt, ist Eure kritische Trefferchance gegen diesen Gegner 3 Sek. lang um +{4/8/12/16/20/24/28/32/36/40}% erhöht.\n\nTags: Kontrollverlust, Kritische Treffer.",
+			"esES": "Tras repeler o derribar a un enemigo, obtienes un +{4/8/12/16/20/24/28/32/36/40}% más de probabilidad de golpe crítico contra él durante 3 s.\n\nTags: Control de masas, Golpes críticos.",
+			"esMX": "Después de repeler o derribar a un enemigo, tienes un +{4/8/12/16/20/24/28/32/36/40}% más de probabilidad de asestarle un golpe crítico durante 3 segundos.\n\nTags: Control de multitudes, Golpes críticos.",
+			"frFR": "Après avoir repoussé ou renversé une cible, vos chances de lui infliger un coup critique sont augmentées de +{4/8/12/16/20/24/28/32/36/40}% pendant 3 s.\n\nTags: Perte de contrôle, Coups critiques.",
+			"itIT": "Dopo aver respinto indietro o fatto cadere un nemico, la probabilità di critico contro di lui aumenta del +{4/8/12/16/20/24/28/32/36/40}% per 3 s.\n\nTags: Effetti debilitanti, Colpi critici.",
+			"jaJP": "敵1体をノックバックまたはノックダウンさせた後、その敵に対するクリティカルヒット率が3秒間にわたり+{4/8/12/16/20/24/28/32/36/40}%上昇する。\n\nTags: 操作障害効果, クリティカルヒット.",
+			"koKR": "적을 밀쳐내거나 넘어뜨린 후, 3초 동안 해당 적을 상대로 극대화 확률이 +{4/8/12/16/20/24/28/32/36/40}% 증가합니다.\n\nTags: 군중 제어, 극대화.",
+			"plPL": "Po odrzuceniu lub powaleniu wroga zyskujesz zwiększoną o +{4/8/12/16/20/24/28/32/36/40}% szansę na zadanie mu trafienia krytycznego przez 3 sek.\n\nTags: Ograniczanie Kontroli, Trafienia Krytyczne.",
+			"ptBR": "Depois de repelir ou nocautear um inimigo, você recebe +{4/8/12/16/20/24/28/32/36/40}% de chance de acerto crítico aumentada contra ele por 3 segundos.\n\nTags: Controle de Grupo, Acertos Críticos.",
+			"ruRU": "Когда вы отбрасываете противника или сбиваете его с ног, вероятность нанести ему критический удар повышается на +{4/8/12/16/20/24/28/32/36/40}% на 3 сек.\n\nTags: Контроль, Критические удары.",
+			"trTR": "Bir düşmanı Geri Savurduğunda veya Yere Serdiğinde o düşmana karşı 3 saniyeliğine +{4/8/12/16/20/24/28/32/36/40}% artırılmış Kritik Vuruş İhtimali kazanırsın.\n\nTags: Kitle Kontrolü, Kritik Vuruşlar.",
+			"zhCN": "击退或击倒一名敌人后, 你对其造成暴击的几率提高 +{4/8/12/16/20/24/28/32/36/40}%, 持续 3 秒。\n\nTags: 群控, 暴击.",
+			"zhTW": "在擊退或擊倒敵人後,你對其爆擊機率提高 +{4/8/12/16/20/24/28/32/36/40}%,持續 3 秒。\n\nTags: 控場, 爆擊."
 },
 		id: 52,
 		maxPoints: 3,
@@ -2276,7 +2276,7 @@ Tags: Daze, Crowd Control, Cooldown.`,
 		description: `Charges: 2
 Charge Cooldown: 12 seconds
 Lucky Hit Chance: 25% (per hit)
-Leap backwards and throw caltrops on the ground, dealing {30/33/36/39/42/45/48/51/54/57}% damage and Slowing enemies by {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Lasts 6 seconds.
+Leap backwards and throw caltrops on the ground, dealing {40/44/48/52/56/60/64/68/72/76}% damage and Slowing enemies by {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Lasts 6 seconds.
 
 Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 		nameLocalized: {
@@ -2295,19 +2295,19 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhTW": "釘爪刺"
 },
 		descriptionLocalized: {
-			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: 12 Sek.\nGlückstrefferchance: 25% (per hit)\nSpringt zurück und werft Krähenfüße auf den Boden, wodurch Ihr {30/33/36/39/42/45/48/51/54/57}% Schaden verursacht und Gegner um {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% verlangsamt. Hält 6 Sek. an.\n\nTags: Wendigkeit, Falle, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
-			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: 12 s\nProbabilidad de golpe de suerte: 25% (per hit)\nSaltas hacia atrás y lanzas al suelo unos abrojos que infligen {30/33/36/39/42/45/48/51/54/57}% de daño y ralentizan un {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% a los enemigos. Dura 6 s.\n\nTags: Agilidad, Trampa, Control de masas, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Cargas: 2\nRecuperación de carga: 12 segundos\nProbabilidad de golpe afortunado: 25% (per hit)\nSaltas hacia atrás y sueltas abrojos en el suelo que infligen {30/33/36/39/42/45/48/51/54/57}% de daño y ralentizan a los enemigos un {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidad, Trampa, Control de multitudes, Daño, Física, Recuperación.",
-			"frFR": "Charges: 2\nTemps de recharge des charges: 12 s\nChances d'obtenir un coup de chance: 25% (per hit)\nVous bondissez en arrière et lancez des chausse-trappes au sol qui infligent {30/33/36/39/42/45/48/51/54/57}% points de dégâts et ralentissent les adversaires de {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dure 6 s.\n\nTags: Agilité, Piège, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Cariche: 2\nTempo di recupero cariche: 12 s\nProbabilità di colpo fortunato: 25% (per hit)\nBalzi indietro e lanci dei triboli sul terreno, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni e rallentando i nemici del {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 s.\n\nTags: Agilità, Trappole, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "チャージ: 2\n〈チャージ〉のクールダウン: 12秒\n幸運の一撃発生率: 25% (per hit)\n後方に飛び退き、地面に鉄菱をばら撒いて敵に{30/33/36/39/42/45/48/51/54/57}%のダメージを与え、移動速度を{50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%低下させる。6秒間持続する。\n\nTags: 神速, 罠, 操作障害効果, ダメージ, 物理, クールダウン.",
-			"koKR": "충전: 2\n충전 재사용 대기시간: 12초\n행운의 적중 확률: 25% (per hit)\n뒤로 뛰어오르며 땅에 쇠못 덫을 던져 {30/33/36/39/42/45/48/51/54/57}%의 피해를 주고 적을 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% 감속시킵니다. 이 효과는 6초 동안 지속됩니다.\n\nTags: 날쌘 몸놀림, 덫, 군중 제어, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: 12 sek.\nSzansa na szczęśliwy traf: 25% (per hit)\nOdskakujesz do tyłu i rzucasz na ziemię kolczatki, które zadają {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń i spowalniają wrogów o {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Czas działania: 6 sek.\n\nTags: Zwinność, Pułapki, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Cargas: 2\nRecarga de cargas: 12 segundos\nChance de Golpe de Sorte: 25% (per hit)\nSalta para trás e arremessa estrepes no chão, causando {30/33/36/39/42/45/48/51/54/57}% de dano e desacelerando inimigos em {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidade, Armadilha, Controle de Grupo, Dano, Física, Recarga.",
-			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: 12 сек.\nВероятность удачного удара: 25% (per hit)\nВы прыгаете назад, бросая на землю шипы, которые наносят {30/33/36/39/42/45/48/51/54/57}% ед. урона и замедляют противников на {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Время действия – 6 сек.\n\nTags: Ловкость, Ловушка, Контроль, Урон, Физический урон, Время восстановления.",
-			"trTR": "Yük: 2\nYük Bekleme Süresi: 12 saniye\nŞanslı Vuruş İhtimali: 25% (per hit)\nArkaya doğru sıçrayıp yere iğne fırlatarak {30/33/36/39/42/45/48/51/54/57}% hasar ver ve düşmanları {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% Yavaşlat. 6 saniye sürer.\n\nTags: Çeviklik, Tuzak, Kitle Kontrolü, Hasar, Fiziksel, Bekleme Süresi.",
-			"zhCN": "使用次数: 2\n充能冷却时间: 12 秒\n幸运一击几率: 25% (per hit)\n向后跳跃并向地面扔下铁蒺藜, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并使敌人减速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持续 6 秒。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间.",
-			"zhTW": "使用次數:2\n使用次數恢復時間:12 秒\n幸運觸發機率: 25% (per hit)\n向後跳躍並在地上丟出釘爪刺,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害,並使敵人緩速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持續 6 秒。\n\nTags: 靈巧, 陷阱, 控場, 傷害, 物理, 冷卻時間."
+			"deDE": "Aufladungen: 2\nAufladungsabklingzeit: 12 Sek.\nGlückstrefferchance: 25% (per hit)\nSpringt zurück und werft Krähenfüße auf den Boden, wodurch Ihr {40/44/48/52/56/60/64/68/72/76}% Schaden verursacht und Gegner um {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% verlangsamt. Hält 6 Sek. an.\n\nTags: Wendigkeit, Falle, Kontrollverlust, Schaden, Physisch, Abklingzeit.",
+			"esES": "Cargas: 2\nTiempo de reutilización de las cargas: 12 s\nProbabilidad de golpe de suerte: 25% (per hit)\nSaltas hacia atrás y lanzas al suelo unos abrojos que infligen {40/44/48/52/56/60/64/68/72/76}% de daño y ralentizan un {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% a los enemigos. Dura 6 s.\n\nTags: Agilidad, Trampa, Control de masas, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Cargas: 2\nRecuperación de carga: 12 segundos\nProbabilidad de golpe afortunado: 25% (per hit)\nSaltas hacia atrás y sueltas abrojos en el suelo que infligen {40/44/48/52/56/60/64/68/72/76}% de daño y ralentizan a los enemigos un {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidad, Trampa, Control de multitudes, Daño, Física, Recuperación.",
+			"frFR": "Charges: 2\nTemps de recharge des charges: 12 s\nChances d'obtenir un coup de chance: 25% (per hit)\nVous bondissez en arrière et lancez des chausse-trappes au sol qui infligent {40/44/48/52/56/60/64/68/72/76}% points de dégâts et ralentissent les adversaires de {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dure 6 s.\n\nTags: Agilité, Piège, Perte de contrôle, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Cariche: 2\nTempo di recupero cariche: 12 s\nProbabilità di colpo fortunato: 25% (per hit)\nBalzi indietro e lanci dei triboli sul terreno, infliggendo {40/44/48/52/56/60/64/68/72/76}% danni e rallentando i nemici del {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 s.\n\nTags: Agilità, Trappole, Effetti debilitanti, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "チャージ: 2\n〈チャージ〉のクールダウン: 12秒\n幸運の一撃発生率: 25% (per hit)\n後方に飛び退き、地面に鉄菱をばら撒いて敵に{40/44/48/52/56/60/64/68/72/76}%のダメージを与え、移動速度を{50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%低下させる。6秒間持続する。\n\nTags: 神速, 罠, 操作障害効果, ダメージ, 物理, クールダウン.",
+			"koKR": "충전: 2\n충전 재사용 대기시간: 12초\n행운의 적중 확률: 25% (per hit)\n뒤로 뛰어오르며 땅에 쇠못 덫을 던져 {40/44/48/52/56/60/64/68/72/76}%의 피해를 주고 적을 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% 감속시킵니다. 이 효과는 6초 동안 지속됩니다.\n\nTags: 날쌘 몸놀림, 덫, 군중 제어, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Ładunki: 2\nCzas odnowienia ładunku: 12 sek.\nSzansa na szczęśliwy traf: 25% (per hit)\nOdskakujesz do tyłu i rzucasz na ziemię kolczatki, które zadają {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń i spowalniają wrogów o {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Czas działania: 6 sek.\n\nTags: Zwinność, Pułapki, Ograniczanie Kontroli, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Cargas: 2\nRecarga de cargas: 12 segundos\nChance de Golpe de Sorte: 25% (per hit)\nSalta para trás e arremessa estrepes no chão, causando {40/44/48/52/56/60/64/68/72/76}% de dano e desacelerando inimigos em {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Dura 6 segundos.\n\nTags: Agilidade, Armadilha, Controle de Grupo, Dano, Física, Recarga.",
+			"ruRU": "Количество зарядов: 2.\nВремя восстановления заряда: 12 сек.\nВероятность удачного удара: 25% (per hit)\nВы прыгаете назад, бросая на землю шипы, которые наносят {40/44/48/52/56/60/64/68/72/76}% ед. урона и замедляют противников на {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%. Время действия – 6 сек.\n\nTags: Ловкость, Ловушка, Контроль, Урон, Физический урон, Время восстановления.",
+			"trTR": "Yük: 2\nYük Bekleme Süresi: 12 saniye\nŞanslı Vuruş İhtimali: 25% (per hit)\nArkaya doğru sıçrayıp yere iğne fırlatarak {40/44/48/52/56/60/64/68/72/76}% hasar ver ve düşmanları {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}% Yavaşlat. 6 saniye sürer.\n\nTags: Çeviklik, Tuzak, Kitle Kontrolü, Hasar, Fiziksel, Bekleme Süresi.",
+			"zhCN": "使用次数: 2\n充能冷却时间: 12 秒\n幸运一击几率: 25% (per hit)\n向后跳跃并向地面扔下铁蒺藜, 造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害并使敌人减速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持续 6 秒。\n\nTags: 敏捷, 陷阱, 群控, 伤害, 物理, 冷却时间.",
+			"zhTW": "使用次數:2\n使用次數恢復時間:12 秒\n幸運觸發機率: 25% (per hit)\n向後跳躍並在地上丟出釘爪刺,造成 {40/44/48/52/56/60/64/68/72/76}% 點傷害,並使敵人緩速 {50/53.3/56.5/59.4/62.1/64.6/67/69.2/71.3/73.2}%。持續 6 秒。\n\nTags: 靈巧, 陷阱, 控場, 傷害, 物理, 冷卻時間."
 },
 		id: 53,
 		maxPoints: 5,
@@ -2999,7 +2999,7 @@ Tags: Subterfuge, Trap, Damage, Poison, Cooldown.`,
 	"Dark Shroud": {
 		connections: [ "Enhanced Dark Shroud", "Subterfuge" ],
 		description: `Cooldown: 20 seconds
-Surround yourself with up to 5 protective shadows. Gain {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Damage Reduction per active shadow. Each time you take direct damage, that damage is reduced and a shadow is consumed.
+Surround yourself with up to 5 protective shadows. Gain {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% Damage Reduction per active shadow. Each time you take direct damage, that damage is reduced and a shadow is consumed.
 
 Tags: Subterfuge, Damage Reduction, Cooldown.`,
 		nameLocalized: {
@@ -3018,19 +3018,19 @@ Tags: Subterfuge, Damage Reduction, Cooldown.`,
 			"zhTW": "黑暗籠罩"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 20 Sek.\nUmhüllt Euch mit bis zu 5 schützenden Schatten. Erhaltet {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Schadensreduktion pro aktivem Schatten. Jedes Mal, wenn Ihr direkten Schaden erleidet, wird dieser Schaden reduziert und ein Schatten wird verbraucht.\n\nTags: Täuschung, Schadensreduktion, Abklingzeit.",
-			"esES": "Tiempo de reutilización: 20 s\nTe rodeas con hasta 5 sombras protectoras. Obtienes un {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de reducción de daño por sombra activa. Cada vez que sufres daño directo, ese daño se reduce y se consume una sombra.\n\nTags: Subterfugio, Reducción de daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: 20 segundos\nTe envuelves con hasta 5 sombras protectoras. Obtienes un {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de reducción de daño por cada sombra activa. Cada vez que recibes daño directo, dicho daño se reduce, y se consume una sombra.\n\nTags: Subterfugio, Reducción de daño, Recuperación.",
-			"frFR": "Temps de recharge: 20 s\nVous vous entourez de 5 ombres protectrices au maximum. Vous obtenez {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de réduction des dégâts pour chaque ombre active. Chaque fois que vous subissez des dégâts directs, ces dégâts sont réduits et une ombre est consommée.\n\nTags: Subterfuge, Réduction des dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: 20 s\nTi circondi di massimo 5 ombre protettive. Ottieni il {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% di riduzione danni per ombra attiva. Ogni volta che subisci danni diretti, quei danni si riducono e un'ombra si consuma.\n\nTags: Sotterfugio, Riduzione danni, Tempo di recupero.",
-			"jaJP": "クールダウン: 20秒\n最大5個の防御用影で身を取り巻く。発動している影1個につき、受けるダメージが{8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%減少する。直接ダメージを受けるたびに、影1個を消費してそのダメージを軽減する。\n\nTags: 遁走, ダメージ減少, クールダウン.",
-			"koKR": "재사용 대기시간: 20초\n자신을 최대 5개의 그림자로 둘러쌉니다. 활성화된 그림자 하나당 피해 감소가 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 증가합니다. 자신이 직접 피해를 받을 때마다 해당 피해가 감소하고 그림자 하나가 소모됩니다.\n\nTags: 기만, 피해 감소, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: 20 sek.\nOtaczasz się ochronnymi cieniami (maksymalnie 5). Zyskujesz premię {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% do redukcji obrażeń za aktywny cień. Za każdym razem, gdy otrzymujesz bezpośrednie obrażenia, są one zredukowane, a jeden z cieni zostaje pochłonięty.\n\nTags: Podstęp, Redukcja Obrażeń, Odnowienie.",
-			"ptBR": "Recarga: 20 segundos\nAté 5 sombras protetoras cercam você. Você recebe {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de redução de dano por sombra ativa. Sempre que você receber dano direto, esse dano é reduzido e uma sombra é consumida.\n\nTags: Subterfúgio, Redução de Dano, Recarga.",
-			"ruRU": "Время восстановления: 20 сек.\nВас окружает до 5 теней, каждая из которых уменьшает получаемый урон на {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%. Каждый раз, когда вы получаете прямой урон, этот урон уменьшается, а одна тень исчезает.\n\nTags: Уловки, Уменьшение урона, Время восстановления.",
-			"trTR": "Bekleme Süresi: 20 saniye\nKendini en fazla 5 koruyucu gölgeyle sar. Etkin gölge başına {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Hasar Azaltma kazan. Her doğrudan hasar aldığında bu hasar azaltılır ve bir gölge tüketilir.\n\nTags: Hile, Hasar Azaltma, Bekleme Süresi.",
-			"zhCN": "冷却时间: 20 秒\n用最多 5 层防御性暗影环绕你。每有一层激活的暗影获得 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 伤害减免。每次受到直接伤害时, 该伤害都会降低并消耗一层暗影。\n\nTags: 诡诈, 伤害减免, 冷却时间.",
-			"zhTW": "冷卻時間:20 秒\n用最多 5 個防護暗影包圍自己。作用中的每個暗影會使傷害減免提高 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%。每次你受到直接傷害時,該傷害會降低並消耗一個暗影。\n\nTags: 欺敵, 傷害減免, 冷卻時間."
+			"deDE": "Abklingzeit: 20 Sek.\nUmhüllt Euch mit bis zu 5 schützenden Schatten. Erhaltet {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% Schadensreduktion pro aktivem Schatten. Jedes Mal, wenn Ihr direkten Schaden erleidet, wird dieser Schaden reduziert und ein Schatten wird verbraucht.\n\nTags: Täuschung, Schadensreduktion, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 20 s\nTe rodeas con hasta 5 sombras protectoras. Obtienes un {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% de reducción de daño por sombra activa. Cada vez que sufres daño directo, ese daño se reduce y se consume una sombra.\n\nTags: Subterfugio, Reducción de daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 20 segundos\nTe envuelves con hasta 5 sombras protectoras. Obtienes un {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% de reducción de daño por cada sombra activa. Cada vez que recibes daño directo, dicho daño se reduce, y se consume una sombra.\n\nTags: Subterfugio, Reducción de daño, Recuperación.",
+			"frFR": "Temps de recharge: 20 s\nVous vous entourez de 5 ombres protectrices au maximum. Vous obtenez {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% de réduction des dégâts pour chaque ombre active. Chaque fois que vous subissez des dégâts directs, ces dégâts sont réduits et une ombre est consommée.\n\nTags: Subterfuge, Réduction des dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 20 s\nTi circondi di massimo 5 ombre protettive. Ottieni il {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% di riduzione danni per ombra attiva. Ogni volta che subisci danni diretti, quei danni si riducono e un'ombra si consuma.\n\nTags: Sotterfugio, Riduzione danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 20秒\n最大5個の防御用影で身を取り巻く。発動している影1個につき、受けるダメージが{8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}%減少する。直接ダメージを受けるたびに、影1個を消費してそのダメージを軽減する。\n\nTags: 遁走, ダメージ減少, クールダウン.",
+			"koKR": "재사용 대기시간: 20초\n자신을 최대 5개의 그림자로 둘러쌉니다. 활성화된 그림자 하나당 피해 감소가 {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% 증가합니다. 자신이 직접 피해를 받을 때마다 해당 피해가 감소하고 그림자 하나가 소모됩니다.\n\nTags: 기만, 피해 감소, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 20 sek.\nOtaczasz się ochronnymi cieniami (maksymalnie 5). Zyskujesz premię {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% do redukcji obrażeń za aktywny cień. Za każdym razem, gdy otrzymujesz bezpośrednie obrażenia, są one zredukowane, a jeden z cieni zostaje pochłonięty.\n\nTags: Podstęp, Redukcja Obrażeń, Odnowienie.",
+			"ptBR": "Recarga: 20 segundos\nAté 5 sombras protetoras cercam você. Você recebe {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% de redução de dano por sombra ativa. Sempre que você receber dano direto, esse dano é reduzido e uma sombra é consumida.\n\nTags: Subterfúgio, Redução de Dano, Recarga.",
+			"ruRU": "Время восстановления: 20 сек.\nВас окружает до 5 теней, каждая из которых уменьшает получаемый урон на {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}%. Каждый раз, когда вы получаете прямой урон, этот урон уменьшается, а одна тень исчезает.\n\nTags: Уловки, Уменьшение урона, Время восстановления.",
+			"trTR": "Bekleme Süresi: 20 saniye\nKendini en fazla 5 koruyucu gölgeyle sar. Etkin gölge başına {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% Hasar Azaltma kazan. Her doğrudan hasar aldığında bu hasar azaltılır ve bir gölge tüketilir.\n\nTags: Hile, Hasar Azaltma, Bekleme Süresi.",
+			"zhCN": "冷却时间: 20 秒\n用最多 5 层防御性暗影环绕你。每有一层激活的暗影获得 {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}% 伤害减免。每次受到直接伤害时, 该伤害都会降低并消耗一层暗影。\n\nTags: 诡诈, 伤害减免, 冷却时间.",
+			"zhTW": "冷卻時間:20 秒\n用最多 5 個防護暗影包圍自己。作用中的每個暗影會使傷害減免提高 {8/8.4/8.8/9.2/9.6/10/10.4/10.8/11.2/11.6}%。每次你受到直接傷害時,該傷害會降低並消耗一個暗影。\n\nTags: 欺敵, 傷害減免, 冷卻時間."
 },
 		id: 59,
 		maxPoints: 5,
