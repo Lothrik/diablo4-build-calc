@@ -3086,11 +3086,11 @@ function getNodeGlyphMultiplierSpecial(curNode) {
 			} else if (glyphDescLower.includes(`bonus to their non-physical`)) {
 				if (curNode.nodeDesc.match(/Non-Physical|Elemental|Fire|Lightning|Cold|Poison|Shadow/)) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their non-physical/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their fire`)) {
-				if (curNode.nodeDesc.match("Fire")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their fire/i)) / 100;
+				if (curNode.nodeDesc.match(/Fire|Burn/)) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their fire/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their lightning`)) {
-				if (curNode.nodeDesc.match("Lightning")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their lightning/i)) / 100;
+				if (curNode.nodeDesc.match(/Lightning|Crackling/)) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their lightning/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their cold`)) {
-				if (curNode.nodeDesc.match("Cold")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their cold/i)) / 100;
+				if (curNode.nodeDesc.match(/Cold|Chill/)) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their cold/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their poison`)) {
 				if (curNode.nodeDesc.match("Poison")) return 1 + parseFloat(glyphDesc.match(/(\d+)% bonus to their poison/i)) / 100;
 			} else if (glyphDescLower.includes(`bonus to their shadow`)) {
@@ -3175,7 +3175,7 @@ function updateParagonStatTotals(curNode, diffPoints, outputData = [paragonStatT
 		if (descMatch == undefined) continue;
 
 		const _glyphMultiplier = glyphMultiplier * (["Strength", "Intelligence", "Willpower", "Dexterity"].some(element => descLine.includes(element)) ? 1 : glyphMultiplierSpecial);
-		const statValue = Math.round(parseFloat(descMatch[2]) * _glyphMultiplier * 2) / 2;
+		const statValue = Math.round(parseFloat(descMatch[2]) * _glyphMultiplier * 10) / 10;
 
 		let statName = descMatch[4].split(" if requirements met:")[0]
 			.replace("increased damage to Vulnerable targets", "Vulnerable Damage")
@@ -4841,7 +4841,7 @@ function drawTooltip(curNode, forceDraw) {
 				const glyphMultiplierSpecial = getNodeGlyphMultiplierSpecial(curNode);
 				nodeDesc = nodeDesc.replace(/(\-?\d*\.?\d+)(.*)/g, (matchText, captureText1, captureText2) => {
 					const _glyphMultiplier = glyphMultiplier * (["Strength", "Intelligence", "Willpower", "Dexterity"].some(element => matchText.includes(element)) ? 1 : glyphMultiplierSpecial);
-					return String(Math.round(parseFloat(captureText1) * _glyphMultiplier * 2) / 2) + captureText2;
+					return String(Math.round(parseFloat(captureText1) * _glyphMultiplier * 10) / 10) + captureText2;
 				});
 			}
 
@@ -4853,10 +4853,10 @@ function drawTooltip(curNode, forceDraw) {
 					if (typeof captureText != "string") captureText = captureText.join("\n");
 					captureText = captureText.replace(" and ", "\n");
 					if (nodeType == "Socket") {
-						captureText = captureText.replace(/(\d+ Strength)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Strength"] * 2) / 2} Strength | $1`);
-						captureText = captureText.replace(/(\d+ Intelligence)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 2) / 2} Intelligence | $1`);
-						captureText = captureText.replace(/(\d+ Willpower)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Willpower"] * 2) / 2} Willpower | $1`);
-						captureText = captureText.replace(/(\d+ Dexterity)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Dexterity"] * 2) / 2} Dexterity | $1`);
+						captureText = captureText.replace(/(\d+ Strength)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Strength"] * 10) / 10} Strength | $1`);
+						captureText = captureText.replace(/(\d+ Intelligence)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Intelligence"] * 10) / 10} Intelligence | $1`);
+						captureText = captureText.replace(/(\d+ Willpower)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Willpower"] * 10) / 10} Willpower | $1`);
+						captureText = captureText.replace(/(\d+ Dexterity)/gi, `${Math.round(glyphRadiusAttributeTotals[boardIndex]["Dexterity"] * 10) / 10} Dexterity | $1`);
 					}
 				}
 				if (captureText.includes("ParagonBoardEquipIndex")) {
