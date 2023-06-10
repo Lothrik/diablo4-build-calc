@@ -65,7 +65,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"ruRU": "Сокрушающий удар",
 			"trTR": "Darbe",
 			"zhCN": "猛击",
-			"zhTW": "猛擊"
+			"zhTW": "猛擊",
+			"thTH": "ไทย"
 },
 		descriptionLocalized: {
 			"deDE": "Attack Speed Multiplier: 1.25\nErzeugte Wut: 10\nGlückstrefferchance: 50% (per hit)\nVersetzt dem Gegner einen Hieb mit Eurer Waffe und verursacht {30/33/36/39/42/45/48/51/54/57}% Schaden. Wenn Ihr Gegner 4 Mal getroffen habt, betäubt Euer nächster Hieb 1.25 Sek. lang. Wird auf 2 Sek. erhöht, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
@@ -80,7 +81,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"ruRU": "Attack Speed Multiplier: 1.25\nДает ярость: 10 ед.\nВероятность удачного удара: 50% (per hit)\nВы совершаете сокрушающий удар оружием, нанося противнику {30/33/36/39/42/45/48/51/54/57}% ед. урона. После 4 попаданий следующий \"Сокрушающий удар\" оглушает цель на 1.25 сек. Оглушение продлевается до 2 сек., если вы атакуете двуручным оружием.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
 			"trTR": "Attack Speed Multiplier: 1.25\nHiddet Oluştur: 10\nŞanslı Vuruş İhtimali: 50% (per hit)\nSilahınla düşmana darbe indirerek {30/33/36/39/42/45/48/51/54/57}% hasar ver. Düşmanlara 4 kez darbe indirdikten sonra sonraki Darben, 1.25 saniyeliğine Sersemletir. Bir Çift El silah kullanılıyorsa bu süre artarak 2 saniye olur.\n\nTags: Temel, Ezici, Hiddet, Fiziksel, Hasar, Kitle Kontrolü, Çift El.",
 			"zhCN": "Attack Speed Multiplier: 1.25\n生成怒气: 10\n幸运一击几率: 50% (per hit)\n使用你的武器猛击敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。猛击敌人 4 次后, 你的下一个猛击会击晕敌人 1.25 秒, 如果使用双手武器该效果提高至 2 秒。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 群控, 双手.",
-			"zhTW": "Attack Speed Multiplier: 1.25\n產生怒氣:10\n幸運觸發機率: 50% (per hit)\n使用武器猛擊敵人時,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。猛擊敵人 4 次後,你的下一個猛擊會擊昏 1.25 秒,若使用雙手武器則提高至 2 秒。\n\nTags: 基本, 鈍擊, 怒氣, 物理, 傷害, 控場, 雙手."
+			"zhTW": "Attack Speed Multiplier: 1.25\n產生怒氣:10\n幸運觸發機率: 50% (per hit)\n使用武器猛擊敵人時,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。猛擊敵人 4 次後,你的下一個猛擊會擊昏 1.25 秒,若使用雙手武器則提高至 2 秒。\n\nTags: 基本, 鈍擊, 怒氣, 物理, 傷害, 控場, 雙手.",
+			"thTH": "ความเร็วในการโจมตี: 1.25\nเพิ่ม Fury: 10\nLucky Hit: 50% (ต่อครั้ง)\n ทำความเสียหาย {30/33/36/39/42/45/48/51/54/57}% . เมื่อทำความเสียหายได้ 4 ครั้ง Bash ครั้งต่อไปจะ Stun เป็นระยะเวลา 1.25 วินาที, เพิ่มเป็น 2 วินาที หากใช้อาวุธ 2 มือ.\n\nTags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed"
 },
 		id: 0,
 		maxPoints: 5,
@@ -104,7 +106,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"ruRU": "Усиленный сокрушающий удар",
 			"trTR": "Geliştirilmiş Darbe",
 			"zhCN": "强化猛击",
-			"zhTW": "強化猛擊"
+			"zhTW": "強化猛擊",
+			"thTH": "Bash",
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem betäubten Gegner mit Hieb Schaden zufügt, erhaltet Ihr 10% Eures Basislebens als Stählung. Diese Menge verdoppelt sich, wenn Ihr Zweihandwaffen verwendet.",
@@ -119,7 +122,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"ruRU": "Когда \"Сокрушающий удар\" наносит урон оглушенному противнику, вы получаете укрепление в объеме 10% базового запаса здоровья. Этот объем удваивается при использовании двуручного оружия.",
 			"trTR": "Sersemletilmiş bir düşmana Darbe ile hasar vermek sana 10% Temel Canı Güçlendirme olarak kazandırır. Çift El silah kullanırken bu miktar ikiye katlanır.",
 			"zhCN": "使用猛击对一名昏迷敌人造成伤害给予你 10% 基础生命 作为强固。使用双手武器时该数值翻倍。",
-			"zhTW": "以猛擊對昏迷的敵人造成傷害,可賦予你等同 10% 基礎生命值的強韌。使用雙手武器會使此效果加倍。"
+			"zhTW": "以猛擊對昏迷的敵人造成傷害,可賦予你等同 10% 基礎生命值的強韌。使用雙手武器會使此效果加倍。",
+			"thTH": "เมื่อใช้ Bash ทำความเสียหาย แก่ศัตรูที่ถูก Stun, จะได้รับ Fortify เป็นจำนวน 10% ของพลังชีวิต, เพิ่มจำนวนนี้เป็นสองเท่าเมื่อใช้อาวุธสองมือ"
 },
 		id: 1,
 		maxPoints: 1,
@@ -143,7 +147,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"ruRU": "Резкий сокрушающий удар",
 			"trTR": "Savaş Darbesi",
 			"zhCN": "战斗猛击",
-			"zhTW": "戰鬥猛擊"
+			"zhTW": "戰鬥猛擊",
+			"thTH": "Battle Bash"
 },
 		descriptionLocalized: {
 			"deDE": "Wenn Ihr einem betäubten Gegner mit Hieb Schaden zufügt, werden zusätzlich 3 Wut erzeugt oder 4 Wut, wenn Ihr Zweihandwaffen verwendet.",
@@ -158,7 +163,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"ruRU": "Когда \"Сокрушающий удар\" наносит урон оглушенному противнику, он дает на 3 ед. больше ярости – на 4, если вы атакуете двуручным оружием.",
 			"trTR": "Sersemletilmiş bir düşmana Darbe ile hasar vermek ilave 3 Hiddet veya bir Çift El silah kullanılıyorsa 4 Hiddet oluşturur.",
 			"zhCN": "使用猛击对一名昏迷敌人造成伤害可以额外生成 3 点怒气, 或者使用双手武器时生成 4 点怒气。",
-			"zhTW": "以猛擊對昏迷的敵人造成傷害,會產生額外 3 點怒氣,若使用雙手武器則為 4 點怒氣。"
+			"zhTW": "以猛擊對昏迷的敵人造成傷害,會產生額外 3 點怒氣,若使用雙手武器則為 4 點怒氣。",
+			"thTH": "เมื่อใช้ Bash ทำความเสียหาย แก่ศัตรูที่ถูก Stun, จะได้รับ 3 Fury, หรือ 4 Fury เมื่อใช้อาวุธสองมือ."
 },
 		id: 2,
 		maxPoints: 1,
@@ -182,7 +188,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"ruRU": "Сильный сокрушающий удар",
 			"trTR": "Çarpışma Darbesi",
 			"zhCN": "争斗猛击",
-			"zhTW": "作戰猛擊"
+			"zhTW": "作戰猛擊",
+			"thTH": "Combat Bash"
 },
 		descriptionLocalized: {
 			"deDE": "Nachdem Ihr 4-mal mit Hieb mit einer Zweihandwaffe einen kritischen Treffer verursacht habt, wird Eure nächste Basis- oder Waffenbeherrschungs-Fertigkeit überwältigen.",
@@ -197,7 +204,8 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"ruRU": "После 4 критических эффектов:критических эффектов \"Сокрушающего удара\" с двуручным оружием следующее основное умение или умение категории \"Мастер оружия\" наносит подавляющий урон.",
 			"trTR": "Çift El silah kullanıyorken Darbe ile 4 kez Kritik Vuruş gerçekleştirdiğinde sonraki Çekirdek veya Silah Ustalığı Yeteneğin Aşırı Güçlenir.",
 			"zhCN": "使用双手武器的猛击造成 4 次暴击后, 你接下来的核心或武器精通技能会造成压制。",
-			"zhTW": "使用雙手武器進行猛擊並爆擊 4 次後,你的下一個核心或武器專精技能將會壓制。"
+			"zhTW": "使用雙手武器進行猛擊並爆擊 4 次後,你的下一個核心或武器專精技能將會壓制。",
+			"thTH": "เมื่อใช้ Bash ทำความเสียหายแบบ Critical 4 ครั้งด้วยอาวุธสองมือ, สกิล Core หรือ Weapon Mastery ครั้งถัดไปจะ Overpower."
 },
 		id: 3,
 		maxPoints: 1,
