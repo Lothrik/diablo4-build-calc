@@ -42,7 +42,7 @@ Each skill has its own unique attack animation. Blizzard occasionally wants cert
 
 I datamine that multiplier as the "attack speed multiplier" you see on certain skills.
 
-One skill having a significantly higher multiplier than another doesn't necessarily mean that skill is faster, just that it was slower at some point in the past.
+One skill having a significantly higher multiplier than another doesn't necessarily mean that skill is faster, just that it was slower than it currently is at some point in the past.
 
 Just as an example, Maul was buffed between build 39858 and 41428 to be 10% faster — that change can be seen [here](https://lothrik.github.io/diablo4-build-calc/history/39858-41428.html).
 
