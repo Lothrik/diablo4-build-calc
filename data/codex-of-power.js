@@ -304,7 +304,7 @@ let codexData = {
 					"frFR": "Les cibles tuées dans les 2.0 s après avoir été touchées par Coup de pied ou Charge explosent en infligeant {#} points de dégâts aux adversaires à proximité.",
 					"itIT": "I nemici danneggiati con Calcio o Carica esplodono se vengono uccisi nei 2.0 s successivi, infliggendo {#} danni ai nemici circostanti.",
 					"jaJP": "敵が〈キック〉か〈チャージ〉を受けてから2.0秒以内に死亡すると爆発し、周囲の敵に{#}のダメージを与える。",
-					"koKR": "발차기 또는 돌격에 피해를 받은 후 2.0초 내에 죽은 적이 폭발하며 주변 적들에게 {#}의 피해를 줍니다.",
+					"koKR": "발차기 또는 돌진에 피해를 받은 후 2.0초 내에 죽은 적이 폭발하며 주변 적들에게 {#}의 피해를 줍니다.",
 					"plPL": "Jeśli wrogowie zranieni Kopnięciem lub Szarżą zostaną zabici w ciągu najbliższych 2.0 sek., wybuchną, zadając pobliskim wrogom {#} pkt. obrażeń.",
 					"ptBR": "Inimigos atingidos por Chute ou Investida explodirão se forem mortos nos próximos 2.0 segundos, causando {#} de dano aos inimigos ao redor.",
 					"ruRU": "Если противник, пораженный \"Ударом ногой\" или \"Натиском\", погибает в течение 2.0 сек., он взрывается, нанося {#} ед. урона другим окружающим противникам.",
@@ -1171,7 +1171,7 @@ let codexData = {
 					"ptBR": "Recebe {12/20}% de chance de Golpe de Sorte aumentada enquanto todos os bônus de dano da passiva principal de Arsenal Ambulante estão ativos.",
 					"ruRU": "Пока действуют все бонусы к урону от \"Живого арсенала\", вероятность удачного удара повышается на x{12/20}%.",
 					"trTR": "Yürüyen Cephanelik Temel Pasifinden gelen tüm hasar bonusları etkinken x{12/20}% artırılmış Şanslı Vuruş İhtimali kazan.",
-					"zhCN": "人形兵器的所有伤害加成激活时, 幸运一击的几率提高 x{12/20}%。",
+					"zhCN": "人形兵器关键被动的所有伤害加成激活时, 幸运一击的几率提高 x{12/20}%。",
 					"zhTW": "機動武裝關鍵被動技能的所有傷害加成都啟動時,幸運觸發機率提高 x{12/20}%。"
 				},
 				"dungeon": "",
@@ -1703,7 +1703,7 @@ let codexData = {
 					"ptBR": "Recebe {20/36}% de geração de fúria aumentada enquanto todos os bônus de dano da passiva principal de Arsenal Ambulante estão ativos.",
 					"ruRU": "Пока действуют все бонусы к урону \"Живого арсенала\", ярость восстанавливается на x{20/36}% быстрее.",
 					"trTR": "Yürüyen Cephanelik Temel Pasifinden gelen tüm hasar bonusları etkinken x{20/36}% artırılmış Hiddet Üretimi kazan.",
-					"zhCN": "从人形兵器关键被动中获得的所有伤害加成激活时, 怒气生成速度提高 x{20/36}%。",
+					"zhCN": "从人形兵器关键被动中获得的所有伤害加成激活时, 怒气生成量提高 x{20/36}%。",
 					"zhTW": "機動武裝關鍵被動技能的所有傷害加成都啟動時,怒氣產生提高 x{20/36}%。"
 				},
 				"dungeon": "Calibel's Mine",
@@ -2156,7 +2156,7 @@ let codexData = {
 					"ptBR": "Habilidades de Terra causam {30/40}% de dano de acerto crítico aumentado a inimigos sob controle de grupo.",
 					"ruRU": "Умения земли наносят на x{30/40}% больше критического урона противникам под действием эффектов контроля.",
 					"trTR": "Toprak Yetenekleri, Kitle Kontrolü altındaki düşmanlara x{30/40}% daha fazla Kritik Vuruş Hasarı verir.",
-					"zhCN": "大地技能对被群控的敌人造成 x{30/40}%额外暴击伤害。",
+					"zhCN": "大地技能对被控制的敌人造成 x{30/40}%额外暴击伤害。",
 					"zhTW": "大地技能對受到控場效果的敵人,造成額外 x{30/40}% 爆擊傷害。"
 				},
 				"dungeon": "",
@@ -2643,7 +2643,7 @@ let codexData = {
 					"ptBR": "Habilidades de Lobisomem funcionam como habilidades de Tempestade e habilidades de Urso funcionam como habilidades de Terra para a passiva principal de Fúria da Natureza.",
 					"ruRU": "Под действием \"Гнева природы\" умения волка считаются умениями бури, а умения медведя – умениями земли.",
 					"trTR": "Doğanın Hiddeti Temel Pasifleri için Kurt Adam Yetenekleri, Fırtına Yetenekleri gibi işler ve Ayı Adam Yetenekleri, Toprak Yetenekleri gibi işler.",
-					"zhCN": "狼人技能被视为风暴技能, 并且熊人技能被视为带有自然之怒关键被动效果的大地技能。",
+					"zhCN": "在自然之怒关键被动效果中, 狼人技能被视为风暴技能, 熊人技能被视为大地技能。",
 					"zhTW": "在自然之怒關鍵被動技能中,狼人技能視同風暴技能,熊人技能視同大地技能。"
 				},
 				"dungeon": "",
@@ -3281,7 +3281,7 @@ let codexData = {
 					"ptBR": "Aumenta seu espírito máximo em {30/50} e a geração de espírito em 20% enquanto Fúria do Urso está ativa.",
 					"ruRU": "Пока действует \"Ярость гризли\", ваш максимальный запас духа увеличивается на {30/50} ед., а скорость восстановления духа повышается на x20%.",
 					"trTR": "Bozayı Öfkesi etkinken Maksimum Ruhunu {30/50} ve Ruh Üretimini x20% artır.",
-					"zhCN": "灰熊狂怒激活时, 你的灵力上限提高 {30/50} 点, 灵力生成速度提高 x20%。",
+					"zhCN": "灰熊狂怒激活时, 你的灵力上限提高 {30/50} 点, 灵力生成量提高 x20%。",
 					"zhTW": "在灰熊狂怒效果期間,靈力上限增加 {30/50} 點,且靈力產生提高 x20%。"
 				},
 				"dungeon": "",
@@ -3713,7 +3713,7 @@ let codexData = {
 					"ptBR": "Recebe {15/25}% de valor de bônus para seu próximo Baluarte Terreno por cada inimigo que você coloca sob controle de grupo até o máximo de 100.0%.",
 					"ruRU": "Следующий \"Земляной бастион\" усиливается на {15/25}% за каждого противника под действием ваших эффектов контроля, вплоть до 100.0%.",
 					"trTR": "Kitle Kontrolü altındaki her düşman için bir sonraki Toprak Siperi için maksimum 100.0% olmak üzere {15/25}% bonus miktar kazan.",
-					"zhCN": "你每群控一名敌人, 你的下一个大地壁垒获得 {15/25}% 加成数值, 最多可获得 100.0%。",
+					"zhCN": "你每控制一名敌人, 你的下一个大地壁垒获得 {15/25}% 加成数值, 最多可获得 100.0%。",
 					"zhTW": "每讓一個敵人受到控場效果,可使下一次大地壁壘獲得 {15/25}% 加成效果,最多可提高 100.0%。"
 				},
 				"dungeon": "",
@@ -4157,7 +4157,7 @@ let codexData = {
 					"ptBR": "Você tem x{10/20}% de chance de acerto crítico aumentada contra inimigos feridos. Enquanto estiver saudável, você ganha x{20/40}% de duração de controle de grupo aumentada.",
 					"ruRU": "Когда вы атакуете противников с низким уровнем здоровья, ваша вероятность критического удара повышается на x{10/20}%. Когда у вас высокий уровень здоровья, длительность ваших эффектов контроля повышается на x{20/40}%.",
 					"trTR": "Yaralı düşmanlara karşı x{10/20}% artırılmış Kritik Vuruş İhtimaline sahip olursun. Sağlıklıyken x{20/40}% artırılmış Kitle Kontrolü Süresi kazanırsın.",
-					"zhCN": "你对受伤敌人造成暴击的几率提高 x{10/20}%。当你处于健康状态时, 你获得 x{20/40}%群控持续时间加成。",
+					"zhCN": "你对受伤敌人造成暴击的几率提高 x{10/20}%。当你处于健康状态时, 你获得 x{20/40}%控制持续时间加成。",
 					"zhTW": "對受傷敵人的爆擊機率提高 x{10/20}%。當你處於健康狀態時,控場效果持續時間延長 x{20/40}%。"
 				},
 				"dungeon": "",
@@ -4517,7 +4517,7 @@ let codexData = {
 					"ptBR": "Você tem +20.0% de duração do controle de grupo aumentada. Enquanto os inimigos estiverem implacáveis, você causa {20/50}% de dano aumentado a eles.",
 					"ruRU": "Длительность ваших эффектов контроля повышается на +20.0%. Вы наносите на x{20/50}% больше урона неудержимым противникам.",
 					"trTR": "+20.0% artırılmış Kitle Kontrolü Süresine sahip olursun. Düşmanlar Durdurulamazken onlara x{20/50}% artırılmış hasar verirsin.",
-					"zhCN": "你的群控持续时间延长 +20.0%。当敌人处于不可阻挡时, 你对他们造成的伤害提高 x{20/50}%。",
+					"zhCN": "你的控制持续时间延长 +20.0%。当敌人处于不可阻挡时, 你对他们造成的伤害提高 x{20/50}%。",
 					"zhTW": "你的控場效果持續時間延長 +20.0%,並且對無阻的敵人造成的傷害提高 x{20/50}%。"
 				},
 				"dungeon": "",
@@ -4554,7 +4554,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Quando você atinge um inimigo sob controle de grupo, há até {30/50}% de chance de que o efeito de controle de grupo se espalhe para outro inimigo não afetado.",
 					"ruRU": "Удачный удар: удары по противникам под действием эффектов контроля с вероятностью до {30/50}% также поражают другого противника.",
 					"trTR": "Şanslı Vuruş: Kitle Kontrolü etkisindeki bir düşmana vuruş yaptığında bu Kitle Kontrol etkisi {30/50}% ihtimalle etki altında olmayan başka bir düşmana yayılır.",
-					"zhCN": "幸运一击: 当你命中被群控的敌人时, 该群控效果有最多 {30/50}% 几率扩散至另一个未被影响的敌人。",
+					"zhCN": "幸运一击: 当你命中被控制的敌人时, 该控制效果有最多 {30/50}% 几率扩散至另一个未被影响的敌人。",
 					"zhTW": "幸運觸發:擊中受控場效果影響的敵人時,最高有 {30/50}% 機率將該控場效果擴散到其他未受影響的敵人。"
 				},
 				"dungeon": "Oblivion",
@@ -4591,7 +4591,7 @@ let codexData = {
 					"ptBR": "Se ficar ferido enquanto estiver sob controle de grupo, você se torna implacável por 4.0 segundos. Esse efeito tem uma recarga de {20/40} segundos.",
 					"ruRU": "Если на вас действуют эффекты контроля, то, когда ваш уровень здоровья падает до низкого, вы получаете неудержимость на 4.0 сек. Время восстановления эффекта – {20/40} секунд.",
 					"trTR": "Kitle Kontrolü etkisi altındayken Yaralı hâle gelmek seni 4.0 saniye boyunca Durdurulamaz yapar. Bu etkinin {20/40} saniyelik bir Bekleme Süresi vardır.",
-					"zhCN": "在被群控状态下变得受伤会给予你不可阻挡, 持续 4.0 秒。该效果有 {20/40} 秒冷却时间。",
+					"zhCN": "在被控制状态下变得受伤会给予你不可阻挡, 持续 4.0 秒。该效果有 {20/40} 秒冷却时间。",
 					"zhTW": "遭到控場時變成受傷狀態可獲得無阻效果,持續 4.0 秒。此效果冷卻時間為 {20/40} 秒。"
 				},
 				"dungeon": "Caldera Gate",
@@ -4875,7 +4875,7 @@ let codexData = {
 					"ptBR": "Recupera {1/4} do seu recurso primário ao aplicar controle de grupo a um inimigo.",
 					"ruRU": "Применяя к противнику эффект контроля, вы восполняете {1/4} ед. основного ресурса.",
 					"trTR": "Bir düşmana Kitle Kontrolü uyguladığında Birincil Kaynağını {1/4} kadar yenile.",
-					"zhCN": "当你群控敌人时, 恢复 {1/4} 点你的主要资源。",
+					"zhCN": "当你控制敌人时, 恢复 {1/4} 点你的主要资源。",
 					"zhTW": "對敵人造成控場效果時,恢復 {1/4} 點主要資源。"
 				},
 				"dungeon": "Champion's Demise",
@@ -5456,7 +5456,7 @@ let codexData = {
 					"ptBR": "Sempre que um dos seus lacaios de Evocação causa dano a um inimigo, ele recebe +{10/14}% de velocidade de ataque por 3.0 segundos, até +{30/42}%.",
 					"ruRU": "Когда призванные спутники наносят урон противнику, их скорость атаки повышается на +{10/14}% на 3.0 сек., вплоть до +{30/42}%.",
 					"trTR": "Çağırma Yardakçılarından biri bir düşmana her hasar verdiğinde 3.0 saniyeliğine en fazla +{30/42}% olmak üzere +{10/14}% Saldırı Hızı kazanır.",
-					"zhCN": "你的召唤 仆从每对敌人造成一次伤害, 它们获得 +{10/14}% 攻击速度加成, 持续 3.0 秒, 最多提高 +{30/42}%。",
+					"zhCN": "你的召唤仆从每对敌人造成一次伤害, 它们获得 +{10/14}% 攻击速度加成, 持续 3.0 秒, 最多提高 +{30/42}%。",
 					"zhTW": "每當召喚的僕從攻擊敵人時,僕從的攻擊速度提高 +{10/14}%,持續 3.0 秒,最多提高 +{30/42}%。"
 				},
 				"dungeon": "",
@@ -7494,7 +7494,7 @@ let codexData = {
 					"ptBR": "Turbilhão atinge inimigos em um círculo ao seu redor e causa {8/15}% de dano aumentado.",
 					"ruRU": "\"Шквал\" поражает цели со всех сторон вокруг вас и наносит на x{8/15}% больше урона.",
 					"trTR": "Coşku, çevrendeki düşmanlara hasar verir ve x{8/15}% artırılmış hasar verir.",
-					"zhCN": "快刀乱刺对你周围一圈内的敌人造成伤害, 并且造成 x{8/15}% 增伤伤害。",
+					"zhCN": "快刀乱刺对你周围一圈的敌人造成伤害, 并且造成 x{8/15}% 增伤伤害。",
 					"zhTW": "狂襲會環狀攻擊你附近的敵人,造成的傷害提高 x{8/15}%。"
 				},
 				"dungeon": "Forsaken Quarry",
@@ -7728,7 +7728,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Causar dano a um inimigo envenenado com uma habilidade de Imbuição de Sombra tem até 75% de chance de criar uma explosão tóxica que aplica {#} de dano venenoso ao longo de 5.0 segundos ao alvo e inimigos ao redor.",
 					"ruRU": "Удачный удар: поражая отравленных противников, насыщенные тенью умения с вероятностью до 75% вызывают ядовитый взрыв, наносящий цели и окружающим противникам {#} ед. урона от отравления за 5.0 сек.",
 					"trTR": "Şanslı Vuruş: Zehirlenmiş bir düşmana bir Gölge Aşılanmış Yetenek ile hasar vermek, en fazla 75% ihtimalle hedefe ve çevredeki düşmanlara 5.0 saniye boyunca {#} Zehirleme hasarı veren zehirli bir patlama oluşturur.",
-					"zhCN": "幸运一击: 使用暗影灌注技能对中毒的敌人造成伤害最多有 75% 几率产生一次毒素爆炸, 在 5.0 秒内对目标和周围敌人施加 {#} 点毒素伤害。",
+					"zhCN": "幸运一击: 使用被暗影灌注的技能对中毒的敌人造成伤害最多有75% 几率产生一次毒素爆炸, 在 5.0 秒内对目标和周围敌人施加 {#} 点毒素伤害。",
 					"zhTW": "幸運觸發:使用暗影灌注強化的技能攻擊中毒的敵人,最高有 75% 機率造成劇毒爆炸,在 5.0 秒內對目標和附近敵人造成 {#} 點中毒傷害。"
 				},
 				"dungeon": "",
@@ -7768,7 +7768,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Causar dano a um inimigo com gelidez ou congelado com uma habilidade de Imbuição de Sombra tem até 75.0% de chance de gerar uma explosão que causa {#} de dano gélido ao alvo e inimigos ao redor, aplicando gelidez por 15.0%.",
 					"ruRU": "Удачный удар: поражая окоченевших или замороженных противников, умения насыщения тенью с вероятностью до 75.0% вызывают взрыв, наносящий цели и окружающим противникам {#} ед. урона от льда. Эти противники коченеют и замедляются на 15.0%.",
 					"trTR": "Şanslı Vuruş: Soğutulmuş veya Donmuş bir düşmana bir Gölge Aşılanmış Yetenek ile hasar vermek, en fazla 75.0% ihtimalle hedefe ve çevredeki düşmanlara {#} Soğuk hasarı veren ve onları 15.0% kadar Soğutan bir patlama serbest bırakır.",
-					"zhCN": "幸运一击: 使用暗影灌注技能对被冻伤或被冻结敌人造成伤害最多有 75.0% 几率释放一次爆炸, 对目标和周围敌人造成 {#} 点冰霜伤害, 使其冻伤 15.0%。",
+					"zhCN": "幸运一击: 使用被暗影灌注的技能对被冻伤或被冻结敌人造成伤害最多有 75.0% 几率释放一次爆炸, 对目标和周围敌人造成 {#} 点冰霜伤害, 使其冻伤 15.0%。",
 					"zhTW": "幸運觸發:使用暗影灌注強化的技能攻擊冰冷或凍結的敵人,最高有 75.0% 機率引發爆炸,對目標和附近敵人造成 {#} 點冰寒傷害,以及 15.0% 冰冷效果。"
 				},
 				"dungeon": "",
@@ -7885,7 +7885,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Acertos críticos com habilidades de Imbuição de Veneno têm até 10.0% de chance de criar uma poça tóxica que causa {#} de dano venenoso ao longo de 3.0 segundos aos inimigos dentro dela. Enquanto estiver na poça, sua habilidade de Imbuição de Veneno não tem recarga nem limite de cargas.",
 					"ruRU": "Удачный удар: критические удары умений насыщения ядом с вероятностью до 10.0% создают отравленную область, наносящую {#} ед. урона от отравления за 3.0 сек. Пока вы стоите в отравленной области, умение насыщения ядом можно применять без времени восстановления и без ограничений по количеству зарядов.",
 					"trTR": "Şanslı Vuruş: Zehir Aşılanmış Yeteneklerin ile yaptığın Kritik Vuruşlar, en fazla 10.0% ihtimalle içindeki düşmanlara 3.0 saniyeliğine {#} Zehirleme hasarı veren bir zehir havuzu oluşturur. Havuzda dururken Zehir Aşılama Yeteneğinin Bekleme Süresi ve Yük sınırı yoktur.",
-					"zhCN": "幸运一击: 毒素灌注技能暴击时有最多 10.0% 几率生成一个毒池, 在 3.0 秒造成 {#} 点毒素伤害。当处于毒池中时, 你的毒素灌注技能没有冷却时间和使用次数限制。",
+					"zhCN": "幸运一击: 使用被毒素灌注的技能造成暴击时, 有最多 10.0% 几率生成一个毒池, 在 3.0 秒造成 {#} 点毒素伤害。当处于毒池中时, 你的毒素灌注技能没有冷却时间和使用次数限制。",
 					"zhTW": "幸運觸發:使用毒素灌注強化的技能造成爆擊時,最高有 10.0% 機率產生毒池,對待在其中的敵人在 3.0 秒內造成 {#} 點中毒傷害。當你待在毒池內時,毒素灌注技能沒有冷卻時間和使用次數限制。"
 				},
 				"dungeon": "",
@@ -8076,7 +8076,7 @@ let codexData = {
 					"ptBR": "Seus efeitos de habilidades de Imbuição têm {20/40}% de potência aumentada contra inimigos vulneráveis.",
 					"ruRU": "Ваши эффекты насыщения действуют на x{20/40}% сильнее на уязвимых противников.",
 					"trTR": "Aşılama Yeteneği etkilerin, Savunmasız düşmanlara karşı x{20/40}% artırılmış tesire sahiptir.",
-					"zhCN": "你的灌注技能对处于易伤状态的敌人效果提高 x{20/40}%。",
+					"zhCN": "你的灌注技能效果对易伤敌人提高 x{20/40}%。",
 					"zhTW": "你的灌注技能效果對易傷的敵人提高 x{20/40}%。"
 				},
 				"dungeon": "",
@@ -8150,7 +8150,7 @@ let codexData = {
 					"ptBR": "Armadilha Venenosa não rompe mais Furtividade e não aciona recarga ou tempo de preparação enquanto você estiver sob Furtividade. Todas as Armadilhas Venenosas são ativadas quando você rompe Furtividade, e a recarga de Armadilha Venenosa será de {5/8} segundos por armadilha posicionada.",
 					"ruRU": "\"Ловушка с ядом\" больше не снимает незаметность, не требует восстановления и не тратит времени на установку, пока вы в состоянии незаметности. Все ловушки с ядом активируются, когда вы выходите из состояния незаметности. \"Ловушка с ядом\" будет восстанавливаться по {5/8} сек. за каждую установленную ловушку.",
 					"trTR": "Zehir Tuzağı artık Saklanmayı bozmaz ve sen Saklanırken Bekleme Süresini veya devreye girme süresini tetiklemez. Saklanma durumundan çıktığında tüm Zehir Tuzakları etkinleşir ve Zehir Tuzağının Bekleme Süresi, yerleştirilen tuzak başına {5/8} saniye olur.",
-					"zhCN": "剧毒陷阱不再打破潜行, 并且当你处于潜行状态时不会触发冷却时间或部署时间。离开潜行状态后, 所有剧毒陷阱都会激活, 并且每放置一个陷阱会使剧毒陷阱的冷却时间为 {5/8} 秒。",
+					"zhCN": "剧毒陷阱不再打破潜行, 并且当你处于潜行状态时不会触发冷却时间或部署时间。离开潜行状态后, 所有剧毒陷阱都会激活, 并且每放置一个陷阱, 会使剧毒陷阱的冷却时间为 {5/8} 秒。",
 					"zhTW": "劇毒陷阱不會再中斷匿蹤,並且匿蹤時不會觸發冷卻時間或部署時間。當你脫離匿蹤後,觸發所有劇毒陷阱,並且每放置一個陷阱,會使劇毒陷阱的冷卻時間為 {5/8} 秒。"
 				},
 				"dungeon": "",
@@ -8345,7 +8345,7 @@ let codexData = {
 					"ptBR": "Sua Chuva de Flechas está sempre imbuída de todas as imbuições simultaneamente.",
 					"ruRU": "\"Град стрел\" всегда насыщен всеми видами насыщения одновременно.",
 					"trTR": "Ok Yağmuru daima tüm Aşılamalar ile Aşılıdır.",
-					"zhCN": "你的箭雨总是同时灌注有所有灌注效果。",
+					"zhCN": "你的箭雨总是同时灌注所有灌注效果。",
 					"zhTW": "你的箭雨會同時受到所有灌注技能的灌注強化效果。"
 				},
 				"flavorLocalized": {
@@ -8449,7 +8449,7 @@ let codexData = {
 					"ptBR": "Você recebe {15/25}% de chance de Golpe de Sorte aumentada contra inimigos sob controle de grupo.",
 					"ruRU": "В бою с противниками под действием эффектов контроля вероятность удачного удара повышается на x{15/25}%.",
 					"trTR": "Kitle Kontrolü Etkisindeki düşmanlara Karşı x{15/25}% artırılmış Şanslı Vuruş İhtimali kazanırsın.",
-					"zhCN": "对被群控敌人发动攻击时, 你获得 x{15/25}%幸运一击几率加成。",
+					"zhCN": "对被控制敌人发动攻击时, 你获得 x{15/25}%幸运一击几率加成。",
 					"zhTW": "對受控場效果影響的敵人幸運觸發機率提高 x{15/25}%。"
 				},
 				"flavorLocalized": {
@@ -8501,7 +8501,7 @@ let codexData = {
 					"ptBR": "Cada inimigo sob congelamento ou gelidez que você evadir concede uma barreira que absorve {#} de dano por 5.0 segundos, até o máximo de {#} de dano absorvido.",
 					"ruRU": "За каждого окоченевшего или замороженного противника, через которого вы ускользаете, вы получаете барьер, поглощающий {#} ед. урона в течение 5.0 сек. Максимальный запас прочности барьера – {#} ед.",
 					"trTR": "Kaçınarak içinden geçtiğin her Soğutulmuş veya Donmuş düşman, maksimum {#} olmak üzere 5.0 saniyeliğine {#} hasar soğuran bir Bariyer sağlar.",
-					"zhCN": "你每闪避 一次被冻伤或冻结的敌人对你发动的攻击, 即可获得一层可吸收 {#} 点伤害的屏障, 持续 5.0 秒, 最多可吸收 {#} 点伤害。",
+					"zhCN": "你每闪避并穿行一名冻伤或冻结的敌人, 即可获得一层可吸收 {#} 点伤害的屏障, 持续 5.0 秒, 最多可吸收 {#} 点伤害。",
 					"zhTW": "每個你閃避穿過的冰冷或凍結敵人會賦予你一道可吸收 {#} 點傷害的屏障,持續 5.0 秒,最多可吸收 {#} 點傷害。"
 				},
 				"dungeon": "",
@@ -8734,7 +8734,7 @@ let codexData = {
 					"ptBR": "Você recebe {15/25}% de dano reduzido de inimigos sob controle de grupo. Sempre que um inimigo sob controle de grupo causa dano direto a você, você recebe +15.0% de velocidade de movimento por 2.0 segundos.",
 					"ruRU": "Вы получаете на {15/25}% меньше урона от противников, находящихся под действием эффектов контроля. Когда противник под действием эффектов контроля наносит вам прямой урон, ваша скорость передвижения повышается на +15.0% на 2.0 сек.",
 					"trTR": "Kitle Kontrolü altındaki düşmanlardan {15/25}% daha az hasar alırsın. Kitle Kontrolü altındaki bir düşman sana doğrudan hasar verdiğinde 2.0 saniyeliğine +15.0% Hareket Hızı kazan.",
-					"zhCN": "被群控的敌人对你造成的伤害降低 {15/25}%。被群控的敌人对你造成直接伤害时, 你的移动速度提高 +15.0%, 持续 2.0 秒。",
+					"zhCN": "被控制的敌人对你造成的伤害降低 {15/25}%。被控制的敌人对你造成直接伤害时, 你的移动速度提高 +15.0%, 持续 2.0 秒。",
 					"zhTW": "受到控場效果的敵人對你造成的傷害降低 {15/25}%。每當受到控場效果的敵人對你造成直接傷害時,移動速度提高 +15.0%,持續 2.0 秒。"
 				},
 				"dungeon": "Luban's Rest",
@@ -8808,7 +8808,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Acertos críticos com habilidades de Atirador têm até {30/50}% de chance de conceder uma sombra gratuita de Véu Sombrio.",
 					"ruRU": "Удачный удар: критические удары умениями стрелка с вероятностью до {30/50}% создают тень \"Теневой завесы\" без затрат ресурсов.",
 					"trTR": "Şanslı Vuruş: Nişancı Yetenekleri ile yapılan Kritik Vuruşlar en fazla {30/50}% ihtimalle bedelsiz bir Karanlık Örtü gölgesi sağlar.",
-					"zhCN": "幸运一击: 使用神射手技能造成暴击有最多 {30/50}% 几率给予一个免费的暗影帷幕的暗影。",
+					"zhCN": "幸运一击: 使用神射手技能造成暴击时, 有最多 {30/50}% 几率给予一个免费的暗影帷幕的暗影。",
 					"zhTW": "幸運觸發:射手技能爆擊時,最高有 {30/50}% 機率獲得一個無消耗的黑暗籠罩的暗影。"
 				},
 				"dungeon": "",
@@ -9405,7 +9405,7 @@ let codexData = {
 					"ptBR": "Explosões da passiva principal de Estilhaçar causam {30/40}% de dano aumentado se inimigos morrerem enquanto congelados.",
 					"ruRU": "Взрывы \"Раскалывания\" наносят на x{30/40}% больше урона, если вы убиваете замороженных противников.",
 					"trTR": "Düşmanlar Donmuş durumdayken ölürse Dağıt Temel Pasifi patlamaları, x{30/40}% artırılmış hasar verir.",
-					"zhCN": "如果敌人在被冻结状态下死亡, 由碎冰关键被动导致的爆炸造成的伤害提高 x{30/40}%。",
+					"zhCN": "如果敌人在被冻结状态下死亡, 碎冰关键被动造成的爆炸伤害提高 x{30/40}%。",
 					"zhTW": "如果敵人在凍結狀態下死亡,碎冰關鍵被動技能造成的爆炸傷害提高 x{30/40}%。"
 				},
 				"dungeon": "",
@@ -9667,7 +9667,7 @@ let codexData = {
 					"ptBR": "Enquanto ambos os bônus da passiva principal de Ferocidade de Esu estiverem ativos, sua velocidade de ataque é aumentada em {40/50}%.",
 					"ruRU": "Пока действуют все бонусы от \"Свирепости Эсу\", ваша скорость атаки повышается на {40/50}%.",
 					"trTR": "Esu'nun Vahşiliği Temel Pasifinden gelen her iki bonus da etkinken Saldırı Hızın {40/50}% artar.",
-					"zhCN": "当来自艾苏的残暴关键被动的两种加成效果都激活时, 你的攻击速度提高 {40/50}%。",
+					"zhCN": "同时获得艾苏的残暴关键被动的两种加成效果时, 你的攻击速度提高 {40/50}%。",
 					"zhTW": "同時獲得艾蘇的凶暴關鍵被動技能的兩種加成時,攻擊速度提高 {40/50}%。"
 				},
 				"dungeon": "",
@@ -10979,7 +10979,7 @@ let codexData = {
 					"ptBR": "Você recebe {20/25}% a menos de dano de inimigos sob controle de grupo ou vulneráveis.",
 					"ruRU": "Вы получаете на {20/25}% меньше урона, если противники уязвимы или находятся под действием эффектов контроля.",
 					"trTR": "Kitle Kontrolü altındaki veya Savunmasız düşmanlardan {20/25}% daha az hasar alırsın.",
-					"zhCN": "被群控或易伤的敌人对你造成的伤害降低 {20/25}%。",
+					"zhCN": "被控制或易伤的敌人对你造成的伤害降低 {20/25}%。",
 					"zhTW": "受到控場或易傷敵人對你造成的傷害降低 {20/25}%。"
 				},
 				"dungeon": "",
@@ -11220,7 +11220,7 @@ let codexData = {
 					"ptBR": "Sempre que Cadeia de Raios ricocheteia em você, recebe {4/6} de mana.",
 					"ruRU": "Каждый раз, когда от вас отскакивает \"Цепная молния\", вы получаете {4/6} ед. маны.",
 					"trTR": "Zincirleme Yıldırım senden her sektiğinde {4/6} Mana kazan.",
-					"zhCN": "连锁闪电每次从你身上弹开, 获得 {4/6} 点法力。",
+					"zhCN": "连锁闪电每次从你身上弹跳, 获得 {4/6} 点法力。",
 					"zhTW": "每次連鎖閃電從你身上彈跳,可獲得 {4/6} 點法力。"
 				},
 				"dungeon": "Zenith",
@@ -11294,7 +11294,7 @@ let codexData = {
 					"ptBR": "Sua regeneração de mana é aumentada em {10/20}% se você não recebeu dano nos últimos 3.0 segundos.",
 					"ruRU": "Скорость восстановления маны повышается на x{10/20}%, если вы не получали урон за предыдущие 3.0 сек.",
 					"trTR": "Son 3.0] saniye içinde hasar almadıysan Mana Yenilemesi oranın x{10/20}% artar.",
-					"zhCN": "你在前 3.0 秒内未受到伤害, 你的法力回复速度提高 x{10/20}%。",
+					"zhCN": "你在 3.0 秒内未受到伤害, 你的法力回复速度提高 x{10/20}%。",
 					"zhTW": "若 3.0 秒內沒有受到傷害,法力恢復提高 x{10/20}%。"
 				},
 				"dungeon": "",

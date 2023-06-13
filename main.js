@@ -137,7 +137,7 @@ const DESIRED_ZOOM_LEVEL_TOOLTIP_PROMPT = "Please enter your desired tooltip zoo
 const DATABASE_LINK_HTML = `<a href="./database/" target="_blank">[Click here if you're looking for datamined information.]</a>`;
 const UPDATE_AVAILABLE_TEXT = "An updated version is available, refresh the page (Ctrl+F5)!";
 const UPDATE_AVAILABLE_LABEL_TEXT = "[Update!]";
-const OVERCAPPED_TEXT = "Your build currently has too many points allocated somewhere and is considered invalid!";
+const OVERCAPPED_TEXT = "Your build currently has too many points allocated and is considered invalid!";
 const OVERCAPPED_LABEL_TEXT = "[Error!]";
 const TOOLTIP_COPY_TEXT = "[Copy to Clipboard]";
 const TOOLTIP_COPIED_TEXT = "[Copied!]";
@@ -1540,7 +1540,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.0.2.42167-1";
+const localVersion = "1.0.2.42338-1";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2850,7 +2850,7 @@ function getUnusedPoints(paragonPoints = false) {
 	}
 }
 function updateCharacterLevel() {
-	const unusedPoints = getUnusedPoints(false);
+	const unusedSkillPoints = getUnusedPoints(false);
 	const unusedParagonPoints = getUnusedPoints(true);
 
 	let charLevel = 1;
@@ -2865,11 +2865,14 @@ function updateCharacterLevel() {
 	const maxParagonPoints = 225;
 	const maxParagonPointsBase = 200;
 
-	if (unusedPoints >= maxRenown) {
-		charLevel = 1 + maxSkillPoints - Math.max(unusedPoints, 0);
+	const spentSkillPoints = maxSkillPoints - unusedSkillPoints;
+	const spentParagonPoints = maxParagonPoints - unusedParagonPoints;
+
+	if (unusedSkillPoints >= maxRenown) {
+		charLevel = 1 + maxSkillPoints - Math.max(unusedSkillPoints, 0);
 	} else {
 		charLevel = maxLevel;
-		renownLevel = maxRenown - Math.max(unusedPoints, 0);
+		renownLevel = maxRenown - Math.max(unusedSkillPoints, 0);
 	}
 
 	if (unusedParagonPoints < maxParagonPoints - maxParagonPointsBase) {
@@ -2879,11 +2882,24 @@ function updateCharacterLevel() {
 		charLevel = maxLevel - 1 + Math.ceil((maxParagonPoints - unusedParagonPoints) / 4);
 	}
 
-	$("#charLevel").text(charLevel);
-	if (unusedPoints < 0 || unusedParagonPoints < 0) {
-		$("#renownLevel").html((renownLevel > 0 ? ` (Renown ${renownLevel})` : "") + ` <span class="red" title="${OVERCAPPED_TEXT}">${OVERCAPPED_LABEL_TEXT}</span>`);
+	if (spentSkillPoints > 0) {
+		if (spentParagonPoints > 0) {
+			$("#pointsLabel").text(` (${spentSkillPoints} Skill Point${spentSkillPoints == 1 ? "" : "s"}; ${spentParagonPoints} Paragon Point${spentParagonPoints == 1 ? "" : "s"})`);
+		} else {
+			$("#pointsLabel").text(` (${spentSkillPoints} Skill Point${spentSkillPoints == 1 ? "" : "s"})`);
+		}
 	} else {
-		$("#renownLevel").text(renownLevel > 0 ? ` (Renown ${renownLevel})` : "");
+		if (spentParagonPoints > 0) {
+			$("#pointsLabel").text(` (${spentParagonPoints} Paragon Point${spentParagonPoints == 1 ? "" : "s"})`);
+		} else {
+			$("#pointsLabel").empty();
+		}
+	}
+
+	if (unusedSkillPoints < 0 || unusedParagonPoints < 0) {
+		$("#errorLabel").html(` <span class="red" title="${OVERCAPPED_TEXT}">${OVERCAPPED_LABEL_TEXT}</span>`);
+	} else {
+		$("#errorLabel").empty();
 	}
 
 	updateDetailsWindow();

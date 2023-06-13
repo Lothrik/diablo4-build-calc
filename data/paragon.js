@@ -10893,7 +10893,7 @@ let paragonData = {
 					"ptBR": "Suas habilidades de Terra causam 30% de dano aumentado a inimigos atingidos por controle de grupo.\n\nTags: Terra, Controle de Grupo, Dano.",
 					"ruRU": "Ваши умения земли наносят на x30% больше урона целям, находящимся под действием эффектов контроля.\n\nTags: Земля, Контроль, Урон.",
 					"trTR": "Toprak Yeteneklerin, Kitle Kontrol etkisi altındaki düşmanlara x30% artırılmış hasar verir.\n\nTags: Toprak, Kitle Kontrolü, Hasar.",
-					"zhCN": "你的大地技能对被群控的目标造成的伤害提高 x30%。\n\nTags: 大地, 群控, 伤害.",
+					"zhCN": "你的大地技能对被控制的目标造成的伤害提高 x30%。\n\nTags: 大地, 群控, 伤害.",
 					"zhTW": "你的大地技能對受到控場效果影響的敵人造成的傷害提高 x30%。\n\nTags: 大地, 控場, 傷害."
 				}
 			},
@@ -11539,7 +11539,7 @@ let paragonData = {
 					"ptBR": "+10% de dano de habilidade Terra\n+15% de dano de acerto crítico contra inimigos sob controle de grupo\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Terra, Controle de Grupo, Dano, Acertos Críticos.",
 					"ruRU": "+10% к урону от умений категории \"Земля \"\n+15% к критическому урону противникам под действием эффектов контроля\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Земля, Контроль, Урон, Критические удары.",
 					"trTR": "+10% Toprak Yeteneklerinin Hasarı\nKitle Kontrolü Etkisindeki Düşmanlara +15% Kritik Vuruş Hasarı\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Toprak, Kitle Kontrolü, Hasar, Kritik Vuruşlar.",
-					"zhCN": "+10% 大地 技能伤害\n+15% 对被群控敌人的暴击伤害\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 大地, 群控, 伤害, 暴击.",
+					"zhCN": "+10% 大地 技能伤害\n+15% 对被控制敌人的暴击伤害\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 大地, 群控, 伤害, 暴击.",
 					"zhTW": "大地 技能傷害 +10%\n對受控場敵人爆擊傷害 +15%\n\nBonus: Another +10% Earth Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 大地, 控場, 傷害, 爆擊."
 				},
 				"thresholdRequirements": {
@@ -12656,7 +12656,7 @@ let paragonData = {
 					"ptBR": "Habilidades de Magia da Natureza causam 10% de dano aumentado a inimigos sob controle de grupo ou vulneráveis.",
 					"ruRU": "Умения сил природы наносят на x10% больше урона уязвимым целям или целям, находящимся под действием эффектов контроля.",
 					"trTR": "Doğa Sihri Yetenekleri, Kitle Kontrolü etkisindeki veya Savunmasız düşmanlara x10% artırılmış hasar verir.",
-					"zhCN": "自然魔法技能对被群控或易伤的目标造成的伤害提高 x10%。",
+					"zhCN": "自然魔法技能对被控制或易伤的目标造成的伤害提高 x10%。",
 					"zhTW": "自然魔法技能對受到控場與易傷效果的敵人造成的傷害提高 x10%。"
 				},
 				"thresholdRequirements": "40 Willpower"
@@ -13427,7 +13427,7 @@ let paragonData = {
 					"ptBR": "+10% de dano de acerto crítico contra inimigos sob controle de grupo\n\nTags: Acertos Críticos, Dano, Controle de Grupo.",
 					"ruRU": "+10% к критическому урону противникам под действием эффектов контроля\n\nTags: Критические удары, Урон, Контроль.",
 					"trTR": "Kitle Kontrolü Etkisindeki Düşmanlara +10% Kritik Vuruş Hasarı\n\nTags: Kritik Vuruşlar, Hasar, Kitle Kontrolü.",
-					"zhCN": "+10% 对被群控敌人的暴击伤害\n\nTags: 暴击, 伤害, 群控.",
+					"zhCN": "+10% 对被控制敌人的暴击伤害\n\nTags: 暴击, 伤害, 群控.",
 					"zhTW": "對受控場敵人爆擊傷害 +10%\n\nTags: 爆擊, 傷害, 控場."
 				}
 			},
@@ -14340,7 +14340,7 @@ let paragonData = {
 					"ruRU": "Удачный удар: с вероятностью до +5% казнит раненых обычных противников\n\nTags: Казнь, Ранение, Удачный удар.",
 					"trTR": "Şanslı Vuruş: En Fazla +5% İhtimalle Seçkin Olmayan Yaralı Düşmanları İnfaz Eder\n\nTags: İnfaz, Yaralı, Şanslı Vuruş.",
 					"zhCN": "幸运一击: 最多有 +5% 几率斩杀受伤的非精英敌人\n\nTags: 斩杀, 受伤, 幸运一击.",
-					"zhTW": "幸運觸發:最高有 +5% 機率處決受傷的精英怪物\n\nTags: 處決, 受傷, 幸運觸發."
+					"zhTW": "幸運觸發:最高有 +5% 機率處決受傷的非精英怪\n\nTags: 處決, 受傷, 幸運觸發."
 				}
 			},
 			"Generic_Magic_HPPercent": {
@@ -14567,7 +14567,7 @@ let paragonData = {
 					"ptBR": "+7% de velocidade de movimento por {#} segundos depois de matar um elite\n\nTags: Movimento, Monstros de Elite.",
 					"ruRU": "+7% к скорости передвижения на {#} сек. после убийства особого противника\n\nTags: Движение, Особые монстры.",
 					"trTR": "Bir Seçkini Öldürdükten Sonra {#} Saniyeliğine +7% Hareket Hızı\n\nTags: Hareket, Seçkin Canavarlar.",
-					"zhCN": "+7% 在消灭一个精英怪后的移动速度,持续{#} 秒\n\nTags: 移动, 精英怪物.",
+					"zhCN": "+7% 在消灭一个精英怪后的移动速度,持续 {#} 秒\n\nTags: 移动, 精英怪物.",
 					"zhTW": "擊殺精英怪物後移動速度 +7%,持續 {#} 秒\n\nTags: 移動, 精英怪物."
 				}
 			},
@@ -15064,7 +15064,7 @@ let paragonData = {
 					"ptBR": "+15% de dano contra inimigos Crowd Controlled\n+15% de dano de acerto crítico contra inimigos sob controle de grupo\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Controle de Grupo, Acertos Críticos, Dano.",
 					"ruRU": "+15% к урону противникам под действием эффекта \"Crowd Controlled \"\n+15% к критическому урону противникам под действием эффектов контроля\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Контроль, Критические удары, Урон.",
 					"trTR": "Crowd Controlled Etkisindeki Düşmana +15% Hasar\nKitle Kontrolü Etkisindeki Düşmanlara +15% Kritik Vuruş Hasarı\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Kitle Kontrolü, Kritik Vuruşlar, Hasar.",
-					"zhCN": "+15% 对Crowd Controlled 敌人的伤害\n+15% 对被群控敌人的暴击伤害\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 群控, 暴击, 伤害.",
+					"zhCN": "+15% 对Crowd Controlled 敌人的伤害\n+15% 对被控制敌人的暴击伤害\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 群控, 暴击, 伤害.",
 					"zhTW": "對Crowd Controlled 敵人傷害 +15%\n對受控場敵人爆擊傷害 +15%\n\nBonus: Another +15% Damage to Crowd Controlled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 控場, 爆擊, 傷害."
 				},
 				"thresholdRequirements": {
@@ -15608,7 +15608,7 @@ let paragonData = {
 					"ptBR": "+16% de dano contra elites\n+14% de velocidade de movimento por {#} segundos depois de matar um elite\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Monstros de Elite, Dano, Movimento.",
 					"ruRU": "+16% к урону особым противникам\n+14% к скорости передвижения на {#} сек. после убийства особого противника\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Особые монстры, Урон, Движение.",
 					"trTR": "Seçkinlere +16% Hasar\nBir Seçkini Öldürdükten Sonra {#} Saniyeliğine +14% Hareket Hızı\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: Seçkin Canavarlar, Hasar, Hareket.",
-					"zhCN": "+16% 对精英的伤害\n+14% 在消灭一个精英怪后的移动速度,持续{#} 秒\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 伤害, 移动.",
+					"zhCN": "+16% 对精英的伤害\n+14% 在消灭一个精英怪后的移动速度,持续 {#} 秒\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 伤害, 移动.",
 					"zhTW": "對精英的傷害 +16%\n擊殺精英怪物後移動速度 +14%,持續 {#} 秒\n\nBonus: Another +16% Damage to Elites if requirements met:\n{thresholdRequirements}\n\nTags: 精英怪物, 傷害, 移動."
 				},
 				"thresholdRequirements": {
@@ -15889,7 +15889,7 @@ let paragonData = {
 					"ruRU": "Удачный удар: с вероятностью до +10% казнит раненых обычных противников\n+2.5% к скорости атаки\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Казнь, Скорость атаки, Ранение, Удачный удар.",
 					"trTR": "Şanslı Vuruş: En Fazla +10% İhtimalle Seçkin Olmayan Yaralı Düşmanları İnfaz Eder\n+2.5% Saldırı Hızı\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: İnfaz, Saldırı Hızı, Yaralı, Şanslı Vuruş.",
 					"zhCN": "幸运一击: 最多有 +10% 几率斩杀受伤的非精英敌人\n+2.5% 攻击速度\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 斩杀, 攻击速度, 受伤, 幸运一击.",
-					"zhTW": "幸運觸發:最高有 +10% 機率處決受傷的精英怪物\n攻擊速度 +2.5%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 處決, 攻擊速度, 受傷, 幸運觸發."
+					"zhTW": "幸運觸發:最高有 +10% 機率處決受傷的非精英怪\n攻擊速度 +2.5%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 處決, 攻擊速度, 受傷, 幸運觸發."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -22798,7 +22798,7 @@ let paragonData = {
 					"frFR": "Lorsque vous consommez 5 cadavres, vous infligez x40% de dégâts supplémentaires pendant 6 s.\n\nTags: Dégâts, Cadavre.",
 					"itIT": "Consumare 5 cadaveri fornisce il x40% di danni aggiuntivi per 6 s.\n\nTags: Danni, Cadavere.",
 					"jaJP": "5体の死体を消費すると6秒間、与えるダメージがx40%増加する。\n\nTags: ダメージ, 死体.",
-					"koKR": "시체를 5구 섭취하면 6초 동안 공격력이 x40% 증가합니다.\n\nTags: 피해, 시체.",
+					"koKR": "시체를 5구 소모하면 6초 동안 공격력이 x40% 증가합니다.\n\nTags: 피해, 시체.",
 					"plPL": "Pochłonięcie 5 zwłok zwiększa obrażenia o x40% na 6 sek.\n\nTags: Obrażenia, Zwłoki.",
 					"ptBR": "Consumir 5 cadáveres concede 40% de dano aumentado por 6 segundos.\n\nTags: Dano, Cadáver.",
 					"ruRU": "Когда вы расходуете 5 трупа:трупов, наносимый вами урон увеличивается на x40% на 6 сек.\n\nTags: Урон, Труп.",
@@ -29537,7 +29537,7 @@ let paragonData = {
 					"ptBR": "Ao atacar com uma habilidade de Imbuição, você recebe 20% de resistência e 20% de dano aumentado para o elemento da Imbuição por 6 segundos.\n\nTags: Imbuição, Resistência, Dano, Não física.",
 					"ruRU": "Когда вы атакуете насыщенным умением, вы получаете +20% к соответствующему сопротивлению и наносите на x20% больше соответствующего урона, связанного с этим насыщением. Время действия – 6 сек.\n\nTags: Насыщение, Сопротивление, Урон, Нефизический урон.",
 					"trTR": "Bir Aşılı Yetenekle saldırdığında 6 saniyeliğine o Aşılamanın elementi için 20% Direnç ve x20% artırılmış hasar kazanırsın.\n\nTags: Aşılama, Direnç, Hasar, Fiziksel Olmayan.",
-					"zhCN": "当使用灌注技能攻击时, 你获得 20% 的抗性, 所灌注元素的伤害提高 x20%, 持续 6 秒。\n\nTags: 灌注, 抗性, 伤害, 非物理.",
+					"zhCN": "当使用被灌注的技能攻击时, 你获得该灌注元素的 20% 抗性, 并且该元素伤害提高 x20%, 持续 6 秒。\n\nTags: 灌注, 抗性, 伤害, 非物理.",
 					"zhTW": "當你以灌注強化的技能攻擊時,你會獲得該灌注元素的 20% 抗性,並使該元素傷害提高 x20%,持續 6 秒。\n\nTags: 灌注, 抗性, 傷害, 非物理."
 				}
 			},
@@ -29605,7 +29605,7 @@ let paragonData = {
 					"ptBR": "Você causa 5% de dano aumentado por cada inimigo próximo sob controle de grupo, até 25%.\n\nTags: Controle de Grupo, Dano.",
 					"ruRU": "Наносимый вами урон увеличивается на x5% за каждого находящегося рядом противника под действием эффекта контроля. Максимальный бонус – x25%.\n\nTags: Контроль, Урон.",
 					"trTR": "Yakındaki Kitle Kontrolü etkisindeki düşman başına x5% artırılmış hasar verirsin. Artırılmış hasar en fazla x25% olabilir.\n\nTags: Kitle Kontrolü, Hasar.",
-					"zhCN": "附近每有一个被群控的敌人, 你造成的伤害就提高 x5%, 最多提高 x25%。\n\nTags: 群控, 伤害.",
+					"zhCN": "附近每有一个被控制的敌人, 你造成的伤害就提高 x5%, 最多提高 x25%。\n\nTags: 群控, 伤害.",
 					"zhTW": "每個你附近受控場效果影響的敵人,可使你造成的傷害提高 x5%,最多提高 x25%。\n\nTags: 控場, 傷害."
 				}
 			},
@@ -29794,7 +29794,7 @@ let paragonData = {
 					"ptBR": "+7.5% de dano de habilidades de Imbuição\n\nTags: Imbuição, Dano.",
 					"ruRU": "+7.5% к урону от насыщенных силой умений\n\nTags: Насыщение, Урон.",
 					"trTR": "+7.5% Aşılanmış Yetenek Hasarı\n\nTags: Aşılama, Hasar.",
-					"zhCN": "+7.5% 灌注技能伤害\n\nTags: 灌注, 伤害.",
+					"zhCN": "+7.5% 被灌注的技能伤害\n\nTags: 灌注, 伤害.",
 					"zhTW": "灌注強化的技能傷害 +7.5%\n\nTags: 灌注, 傷害."
 				}
 			},
@@ -30007,7 +30007,7 @@ let paragonData = {
 					"ptBR": "+15% de dano de habilidades de Imbuição\n+10% de dano não físico\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuição, Não física, Dano.",
 					"ruRU": "+15% к урону от насыщенных силой умений\n+10% к нефизическому урону\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Насыщение, Нефизический урон, Урон.",
 					"trTR": "+15% Aşılanmış Yetenek Hasarı\n+10% Fiziksel Olmayan Hasar\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Aşılama, Fiziksel Olmayan, Hasar.",
-					"zhCN": "+15% 灌注技能伤害\n+10% 非物理伤害\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 灌注, 非物理, 伤害.",
+					"zhCN": "+15% 被灌注的技能伤害\n+10% 非物理伤害\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 灌注, 非物理, 伤害.",
 					"zhTW": "灌注強化的技能傷害 +15%\n非物理傷害 +10%\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 灌注, 非物理, 傷害."
 				},
 				"thresholdRequirements": {
@@ -30124,7 +30124,7 @@ let paragonData = {
 					"ptBR": "+15% de dano de habilidades de Imbuição\n+10 de Destreza\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Imbuição, Dano, Destreza.",
 					"ruRU": "+15% к урону от насыщенных силой умений\n+10 к ловкости\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Насыщение, Урон, Ловкость.",
 					"trTR": "+15% Aşılanmış Yetenek Hasarı\n+10 Maharet\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: Aşılama, Hasar, Maharet.",
-					"zhCN": "+15% 灌注技能伤害\n+10 点敏捷\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 灌注, 伤害, 敏捷.",
+					"zhCN": "+15% 被灌注的技能伤害\n+10 点敏捷\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 灌注, 伤害, 敏捷.",
 					"zhTW": "灌注強化的技能傷害 +15%\n敏捷 +10\n\nBonus: Another +15% Imbued Skill Damage if requirements met:\n{thresholdRequirements}\n\nTags: 灌注, 傷害, 敏捷."
 				},
 				"thresholdRequirements": {
@@ -30986,7 +30986,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Inteligência comprados em alcance, habilidades de Imbuição causam +{4.5/5.4/6.3/7.2/8.1/9/9.9/10.8/11.7/12.6/13.5/14.4/15.3/16.2/17.1/18/18.9/19.8/20.7/21.6/22.5}% de dano aumentado.",
 					"ruRU": "За каждые 5 интеллекта, открытые в радиусе действия, урон от умений с эффектом насыщения увеличивается на +{4.5/5.4/6.3/7.2/8.1/9/9.9/10.8/11.7/12.6/13.5/14.4/15.3/16.2/17.1/18/18.9/19.8/20.7/21.6/22.5}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına Aşılı Yetenekler +{4.5/5.4/6.3/7.2/8.1/9/9.9/10.8/11.7/12.6/13.5/14.4/15.3/16.2/17.1/18/18.9/19.8/20.7/21.6/22.5}% artırılmış hasar verir.",
-					"zhCN": "每购买辐射范围内 5 点智力,灌注的技能造成的伤害提高 +{4.5/5.4/6.3/7.2/8.1/9/9.9/10.8/11.7/12.6/13.5/14.4/15.3/16.2/17.1/18/18.9/19.8/20.7/21.6/22.5}%。",
+					"zhCN": "每购买辐射范围内 5 点智力,被灌注的技能造成的伤害提高 +{4.5/5.4/6.3/7.2/8.1/9/9.9/10.8/11.7/12.6/13.5/14.4/15.3/16.2/17.1/18/18.9/19.8/20.7/21.6/22.5}%。",
 					"zhTW": "在範圍內每購買 5 點智力,灌注強化的技能造成的傷害提高 {4.5/5.4/6.3/7.2/8.1/9/9.9/10.8/11.7/12.6/13.5/14.4/15.3/16.2/17.1/18/18.9/19.8/20.7/21.6/22.5}%。"
 				},
 				"bonusLocalized": {
@@ -31052,7 +31052,7 @@ let paragonData = {
 					"ptBR": "Quando você atinge um inimigo com um ataque que aplica um efeito de controle de grupo, ele recebe 2% de dano aumentado de você, até 10%, por 20 segundos.",
 					"ruRU": "Когда ваша атака применяет к цели эффект контроля, весь урон, который цель получает от вас, увеличивается на x2% на 20 сек. Бонус суммируется до x10%.",
 					"trTR": "Bir düşmana bir Kitle Kontrolü Etkisiyle vurduğunda düşman 20 saniyeliğine x2% artırılmış hasar alır. Artırılmış hasar en fazla x10% olabilir.",
-					"zhCN": "当你用带有群控效果的攻击命中一个敌人时, 其受到来自你的伤害提高 x2%, 最多提高 x10%, 持续 20 秒。",
+					"zhCN": "当你用带有控制效果的攻击命中一个敌人时, 其受到来自你的伤害提高 x2%, 最多提高 x10%, 持续 20 秒。",
 					"zhTW": "當你以帶有控場效果的攻擊擊中敵人時,你對其造成的傷害提高 x2%,最多提高 x10%,持續 20 秒。"
 				},
 				"thresholdRequirements": "40 Dexterity"
