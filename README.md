@@ -37,5 +37,14 @@ python3 -m http.server 8000
 ## Can I give you money for this?
 You're free to do whatever you want, I do have a [Patreon](https://www.patreon.com/lothrik). I'm not selling you anything though.
 
+## What are the attack speed multipliers I see listed on some skills?
+Each skill has its own unique attack animation. Blizzard occasionally wants certain skills to be faster, or slower. Rather than rework the animation directly they simply multiply how quickly your character executes that specific skill.
+
+I datamine that multiplier as the "attack speed multiplier" you see on certain skills.
+
+One skill having a significantly higher multiplier than another doesn't necessarily mean that skill is faster, just that it was slower at some point in the past.
+
+Just as an example, Maul was buffed between build 39858 and 41428 to be 10% faster — that change can be seen [here](https://lothrik.github.io/diablo4-build-calc/history/39858-41428.html).
+
 ## I found a bug or want to request a feature, what should I do?
 You can [open an issue](https://github.com/Lothrik/diablo4-build-calc/issues/new) or message me on Discord.
