@@ -1431,6 +1431,8 @@ function updateDetailsWindow() {
 					let suffixSplit = [statData.suffix.slice(0, 1), statData.suffix.slice(1)];
 					if (suffixSplit[0] != "%") suffixSplit = ["", statData.suffix];
 
+					statData.name = statData.name.replace(/[{}]/g, ""); // strip unnecessary stat formatting
+
 					if (statData.maxValue > statData.minValue) {
 						alternateHTML += `<tr><td>${prefixSplit[0]}</td><td>${prefixSplit[1]}</td><td>[${minValue} - ${maxValue}]</td><td>${suffixSplit[0]}</td><td>${suffixSplit[1]}${statData.name}</td></tr>`;
 						outputHTML += `<div>${statData.prefix}[${minValue} - ${maxValue}]${statData.suffix}${statData.name}</div>`;
