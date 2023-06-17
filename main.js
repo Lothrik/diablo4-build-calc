@@ -2495,7 +2495,12 @@ function handleEquipmentPanelButton(curNode) {
 	if (equipmentPanelData[nodeId] != undefined) $("#modalSelect").val(equipmentPanelData[nodeId]).trigger("change");
 
 	$("#modalConfirm").on("click", () => {
-		equipPanelPower(curNode, $("#modalSelect").val());
+		const modalValue = $("#modalSelect").val();
+		if (modalValue == null) {
+			unequipPanelPower(curNode);
+		} else {
+			equipPanelPower(curNode, modalValue);
+		}
 		$("#fadeOverlay, #modalBox").empty().addClass("disabled");
 	});
 	$("#modalCancel").on("click", () => {
