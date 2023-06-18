@@ -2638,20 +2638,6 @@ function equipTechnique(techniqueId, redrawTooltip = false) {
 
 	techniqueSlotData = techniqueId;
 
-	nodeData.set("description", techniqueData.get("description"));
-	nodeData.set("descriptionLocalized", techniqueData.get("descriptionLocalized"));
-	techniqueSlotNode.nodeDesc = techniqueData.get("description");
-	techniqueSlotNode.localizedDesc = (techniqueData.get("descriptionLocalized") instanceof Map
-		&& techniqueData.get("descriptionLocalized").has(activeLocale))
-		? techniqueData.get("descriptionLocalized").get(activeLocale) : techniqueData.get("description");
-
-	nodeData.set("bonus", techniqueData.get("bonus"));
-	nodeData.set("bonusLocalized", techniqueData.get("bonusLocalized"));
-	techniqueSlotNode.nodeBonus = techniqueData.get("bonus");
-	techniqueSlotNode.localizedBonus = (techniqueData.get("bonusLocalized") instanceof Map
-		&& techniqueData.get("bonusLocalized").has(activeLocale))
-		? techniqueData.get("bonusLocalized").get(activeLocale) : techniqueData.get("bonus");
-
 	nodeData.set("nameLocalized", techniqueData.get("nameLocalized"));
 	if (techniqueSlotNode.slotName == undefined) techniqueSlotNode.slotName = techniqueSlotNode.nodeName;
 	techniqueSlotNode.nodeName = techniqueName;
@@ -2659,6 +2645,20 @@ function equipTechnique(techniqueId, redrawTooltip = false) {
 		&& techniqueData.get("nameLocalized").has(activeLocale))
 		?  techniqueData.get("nameLocalized").get(activeLocale) : techniqueName;
 	techniqueSlotNode.displayName = techniqueSlotNode.nodeName;
+
+	nodeData.set("description", techniqueData.get("description"));
+	nodeData.set("descriptionLocalized", techniqueData.get("descriptionLocalized"));
+	techniqueSlotNode.nodeDesc = `When using any weapon:\n${techniqueData.get("description")}`;
+	techniqueSlotNode.localizedDesc = (techniqueData.get("descriptionLocalized") instanceof Map
+		&& techniqueData.get("descriptionLocalized").has(activeLocale))
+		? `When using any weapon:\n${techniqueData.get("descriptionLocalized").get(activeLocale)}` : techniqueSlotNode.nodeDesc;
+
+	nodeData.set("bonus", techniqueData.get("bonus"));
+	nodeData.set("bonusLocalized", techniqueData.get("bonusLocalized"));
+	techniqueSlotNode.nodeBonus = `\nWhen using a ${techniqueName.replace(/ [^ ]+$/, "")}:\n${techniqueData.get("bonus")}`;
+	techniqueSlotNode.localizedBonus = (techniqueData.get("bonusLocalized") instanceof Map
+		&& techniqueData.get("bonusLocalized").has(activeLocale))
+		? `\nWhen using a ${techniqueName.replace(/ [^ ]+$/, "")}:\n${techniqueData.get("bonusLocalized").get(activeLocale)}` : techniqueSlotNode.nodeBonus;
 
 	nodeData.set("allocatedPoints", 1);
 
@@ -4109,13 +4109,23 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 			? nodeData.get("nameLocalized").get(activeLocale) : node.nodeName;
 		if (node.localizedName.includes("[") && node.localizedName.includes("]")) node.localizedName = node.localizedName.split("]")[1].split("[")[0];
 
-		node.localizedDesc = (nodeData.get("descriptionLocalized") instanceof Map
-			&& nodeData.get("descriptionLocalized").has(activeLocale))
-			? nodeData.get("descriptionLocalized").get(activeLocale) : node.nodeDesc;
+		if (node == techniqueSlotNode) {
+			node.localizedDesc = (nodeData.get("descriptionLocalized") instanceof Map
+				&& nodeData.get("descriptionLocalized").has(activeLocale))
+				? `When using any weapon:\n${nodeData.get("descriptionLocalized").get(activeLocale)}` : node.nodeDesc;
 
-		node.localizedBonus = (nodeData.get("bonusLocalized") instanceof Map
-			&& nodeData.get("bonusLocalized").has(activeLocale))
-			? nodeData.get("bonusLocalized").get(activeLocale) : node.nodeBonus;
+			node.localizedBonus = (nodeData.get("bonusLocalized") instanceof Map
+				&& nodeData.get("bonusLocalized").has(activeLocale))
+				? `\nWhen using a ${node.nodeName.replace(/ [^ ]+$/, "")}:\n${nodeData.get("bonusLocalized").get(activeLocale)}` : node.nodeBonus;
+		} else {
+			node.localizedDesc = (nodeData.get("descriptionLocalized") instanceof Map
+				&& nodeData.get("descriptionLocalized").has(activeLocale))
+				? nodeData.get("descriptionLocalized").get(activeLocale) : node.nodeDesc;
+
+			node.localizedBonus = (nodeData.get("bonusLocalized") instanceof Map
+				&& nodeData.get("bonusLocalized").has(activeLocale))
+				? nodeData.get("bonusLocalized").get(activeLocale) : node.nodeBonus;
+		}
 
 		node.activeLocale = activeLocale;
 	}
