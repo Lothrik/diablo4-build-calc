@@ -17415,7 +17415,7 @@
 			"Generic_Magic_HPRegen": {
 				"attributes": {
 					"537-0": {
-						"attribute_name": "Hitpoints_Regen_Bonus_Percent",
+						"attribute_name": "No_Damage_Taken_Flat_Hitpoints_Regen_Per_Second",
 						"formula_data": {
 							"0.3333 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								0.3333,
@@ -17427,7 +17427,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "0.7% Bonus Hitpoint Regeneration",
+				"desc": "+5 Life Regeneration per Second",
 				"name": "HP Regen",
 				"tags": [
 					"Search_Healing"
@@ -19206,7 +19206,7 @@
 			"Generic_Rare_033": {
 				"attributes": {
 					"110-1": {
-						"attribute_name": "Hitpoints_Regen_Bonus_Percent",
+						"attribute_name": "No_Damage_Taken_Flat_Hitpoints_Regen_Per_Second",
 						"formula_data": {
 							"0.3333 * ParagonPowerBudgetMultiplierNodeRareMinorDefensive()": [
 								0.3333,
@@ -19230,7 +19230,7 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "4% Potion Healing\n1.3% Bonus Hitpoint Regeneration",
+				"desc": "4% Potion Healing\n+10 Life Regeneration per Second",
 				"name": "Recuperate",
 				"tags": [
 					"Search_Healing"

@@ -14364,21 +14364,21 @@ let paragonData = {
 			},
 			"Generic_Magic_HPRegen": {
 				"name": "HP Regen",
-				"description": "0.7% Healing Over Time\n\nTags: Healing.",
+				"description": "+5 Life Regeneration while Not Damaged Recently\n\nTags: Healing.",
 				"descriptionLocalized": {
-					"deDE": "0.7% Heilung über Zeit\n\nTags: Heilung.",
-					"esES": "0.7% de curación en el tiempo\n\nTags: Curación.",
-					"esMX": "0.7% de sanación con el tiempo\n\nTags: Sanación.",
-					"frFR": "0.7% de soins sur la durée\n\nTags: Soins.",
-					"itIT": "Guarigione periodica: 0.7%\n\nTags: Guarigione.",
-					"jaJP": "時間経過時のライフ回復量0.7%\n\nTags: 回復.",
-					"koKR": "지속 치유량 0.7%\n\nTags: 치유.",
-					"plPL": "0.7% leczenia z upływem czasu\n\nTags: Leczenie.",
-					"ptBR": "0.7% de cura ao longo do tempo\n\nTags: Cura.",
-					"ruRU": "Периодическое исцеление – 0.7%\n\nTags: Исцеление.",
-					"trTR": "0.7% Zamanla İyileşme\n\nTags: İyileşme.",
-					"zhCN": "0.7% 持续治疗效果\n\nTags: 治疗.",
-					"zhTW": "持續治療效果 0.7%\n\nTags: 治療."
+					"deDE": "+5 Lebensregeneration, wenn Ihr kürzlich keinen Schaden erlitten habt\n\nTags: Heilung.",
+					"esES": "+5 de regeneración de vida si no se ha sufrido daño hace poco\n\nTags: Curación.",
+					"esMX": "+5 de regeneración de vida mientras no hayas recibido daño recientemente\n\nTags: Sanación.",
+					"frFR": "+5 à la régénération de vie lorsque vous n'avez subi aucun dégât récent\n\nTags: Soins.",
+					"itIT": "Rigenerazione vitale se non hai subito danni di recente: +5\n\nTags: Guarigione.",
+					"jaJP": "ダメージを受けていない間の毎秒のライフ回復量+5\n\nTags: 回復.",
+					"koKR": "최근 피해를 받지 않았을 때 생명력 재생량 +5\n\nTags: 치유.",
+					"plPL": "+5 regeneracji zdrowia, jeśli nie odniesiono ostatnio obrażeń\n\nTags: Leczenie.",
+					"ptBR": "+5 de regeneração de vida sem ter recebido dano recentemente\n\nTags: Cura.",
+					"ruRU": "+5 к восполнению здоровья, если вы какое-то время не получаете урон\n\nTags: Исцеление.",
+					"trTR": "Yakın Zamanda Hasar Görmemişken +5 Can Yenilemesi\n\nTags: İyileşme.",
+					"zhCN": "+5 近期未受任何伤害时的生命回复速度\n\nTags: 治疗.",
+					"zhTW": "近期未受傷害時生命值恢復 +5\n\nTags: 治療."
 				}
 			},
 			"Generic_Magic_HealingBonus": {
@@ -16013,7 +16013,7 @@ let paragonData = {
 			},
 			"Generic_Rare_033": {
 				"name": "Recuperate",
-				"description": "+4% Potion Healing\n1.3% Healing Over Time\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
+				"description": "+4% Potion Healing\n+10 Life Regeneration while Not Damaged Recently\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Healing.",
 				"nameLocalized": {
 					"deDE": "Gesundung",
 					"esES": "Recuperar",
@@ -16030,19 +16030,19 @@ let paragonData = {
 					"zhTW": "養精蓄銳"
 				},
 				"descriptionLocalized": {
-					"deDE": "+4% Heilung durch Tränke\n1.3% Heilung über Zeit\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Heilung.",
-					"esES": "+4% de curación de pociones\n1.3% de curación en el tiempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Curación.",
-					"esMX": "+4% de sanación de pociones\n1.3% de sanación con el tiempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Sanación.",
-					"frFR": "+4% de soins de la potion\n1.3% de soins sur la durée\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Soins.",
-					"itIT": "Cure pozione: +4%\nGuarigione periodica: 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione.",
-					"jaJP": "ポーションによる回復量+4%\n時間経過時のライフ回復量1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 回復.",
-					"koKR": "물약 치유량 +4%\n지속 치유량 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 치유.",
-					"plPL": "+4% do leczenia miksturą\n1.3% leczenia z upływem czasu\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie.",
-					"ptBR": "+4% de cura de poção\n1.3% de cura ao longo do tempo\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Cura.",
-					"ruRU": "+4% к исцелению от зелий\nПериодическое исцеление – 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление.",
-					"trTR": "+4% İksir İyileştirmesi\n1.3% Zamanla İyileşme\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: İyileşme.",
-					"zhCN": "4% 药水恢复效果\n1.3% 持续治疗效果\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 治疗.",
-					"zhTW": "藥水治療效果 +4%\n持續治療效果 1.3%\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 治療."
+					"deDE": "+4% Heilung durch Tränke\n+10 Lebensregeneration, wenn Ihr kürzlich keinen Schaden erlitten habt\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Heilung.",
+					"esES": "+4% de curación de pociones\n+10 de regeneración de vida si no se ha sufrido daño hace poco\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Curación.",
+					"esMX": "+4% de sanación de pociones\n+10 de regeneración de vida mientras no hayas recibido daño recientemente\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Sanación.",
+					"frFR": "+4% de soins de la potion\n+10 à la régénération de vie lorsque vous n'avez subi aucun dégât récent\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Soins.",
+					"itIT": "Cure pozione: +4%\nRigenerazione vitale se non hai subito danni di recente: +10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Guarigione.",
+					"jaJP": "ポーションによる回復量+4%\nダメージを受けていない間の毎秒のライフ回復量+10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 回復.",
+					"koKR": "물약 치유량 +4%\n최근 피해를 받지 않았을 때 생명력 재생량 +10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 치유.",
+					"plPL": "+4% do leczenia miksturą\n+10 regeneracji zdrowia, jeśli nie odniesiono ostatnio obrażeń\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Leczenie.",
+					"ptBR": "+4% de cura de poção\n+10 de regeneração de vida sem ter recebido dano recentemente\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Cura.",
+					"ruRU": "+4% к исцелению от зелий\n+10 к восполнению здоровья, если вы какое-то время не получаете урон\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: Исцеление.",
+					"trTR": "+4% İksir İyileştirmesi\nYakın Zamanda Hasar Görmemişken +10 Can Yenilemesi\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: İyileşme.",
+					"zhCN": "4% 药水恢复效果\n+10 近期未受任何伤害时的生命回复速度\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 治疗.",
+					"zhTW": "藥水治療效果 +4%\n近期未受傷害時生命值恢復 +10\n\nBonus: Another +4% Potion Healing if requirements met:\n{thresholdRequirements}\n\nTags: 治療."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
