@@ -1388,7 +1388,7 @@ function updateDetailsWindow() {
 					if (statData.name == "Armor") {
 						[minValue, maxValue] = [minValue + curStr, maxValue + curStr];
 					} else if (statData.name == "Dodge Chance") {
-						[minValue, maxValue] = [minValue + curDex * 0.025, maxValue + curDex * 0.025];
+						[minValue, maxValue] = [minValue + curDex * 0.01, maxValue + curDex * 0.01];
 					} else if (statData.name == "Critical Strike Chance") {
 						if (["barbarian", "druid", "necromancer", "sorcerer"].includes(className)) {
 							[minValue, maxValue] = [minValue + curDex * 0.02, maxValue + curDex * 0.02];
@@ -1403,11 +1403,11 @@ function updateDetailsWindow() {
 						[minValue, maxValue] = [minValue + curInt * 0.05, maxValue + curInt * 0.05];
 					} else if (statData.name == "Resource Generation") {
 						if (["barbarian", "necromancer", "sorcerer"].includes(className)) {
-							[minValue, maxValue] = [minValue + curWill * 0.1, maxValue + curWill * 0.1];
+							[minValue, maxValue] = [minValue + curWill * 0.03, maxValue + curWill * 0.03];
 						} else if (className == "druid") {
-							[minValue, maxValue] = [minValue + curInt * 0.1, maxValue + curInt * 0.1];
+							[minValue, maxValue] = [minValue + curInt * 0.03, maxValue + curInt * 0.03];
 						} else if (className == "rogue") {
-							[minValue, maxValue] = [minValue + curStr * 0.1, maxValue + curStr * 0.1];
+							[minValue, maxValue] = [minValue + curStr * 0.03, maxValue + curStr * 0.03];
 						}
 					} else if (statData.name == "Skill Damage") {
 						if (className == "barbarian") {
