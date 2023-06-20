@@ -2856,7 +2856,7 @@ function getUnusedPoints(paragonPoints = false) {
 		return maxSkillPoints - curSkillPoints;
 	}
 }
-var characterLevel = 0;
+var characterLevel = 1;
 function updateCharacterLevel() {
 	const unusedSkillPoints = getUnusedPoints(false);
 	const unusedParagonPoints = getUnusedPoints(true);
