@@ -1302,7 +1302,7 @@ function handleDetailsButton(event) {
 function getBaseAttributes() {
 	const className = $(classString).length == 0 ? "none" : $(classString).val();
 	let [baseStr, baseInt, baseWill, baseDex] = [7, 7, 7, 7];
-	let levelAttributes = Number($("#charLevel").text()) - 1;
+	let levelAttributes = Number(characterLevel) - 1;
 	switch (className) {
 		case "barbarian":
 			baseStr = 10;
@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.0.2.42338-4";
+const localVersion = "1.0.2.42338-5";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2856,6 +2856,7 @@ function getUnusedPoints(paragonPoints = false) {
 		return maxSkillPoints - curSkillPoints;
 	}
 }
+var characterLevel = 0;
 function updateCharacterLevel() {
 	const unusedSkillPoints = getUnusedPoints(false);
 	const unusedParagonPoints = getUnusedPoints(true);
@@ -2909,6 +2910,7 @@ function updateCharacterLevel() {
 		$("#errorLabel").empty();
 	}
 
+	characterLevel = charLevel;
 	updateDetailsWindow();
 }
 function updateConnectorLineStyle(nodeConnector, startNode, endNode) {
@@ -5361,8 +5363,8 @@ function rebuildCanvas() {
 
 	resizeCanvas();
 
-	$("#charLevel").text("1");
-	$("#renownLevel").empty();
+	$("#pointsLabel, #errorLabel").empty();
+	characterLevel = 1;
 
 	updateDetailsWindow();
 }
