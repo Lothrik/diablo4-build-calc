@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.0.2.42338-6";
+const localVersion = "1.0.2.42338-7";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -4752,14 +4752,17 @@ function drawAllNodes() {
 					let powerDescription = codexPower.description;
 					let powerDescriptionLocalized = codexPower.descriptionLocalized;
 
-					let powerDropWeight = codexPower.dropWeight;
-					if (powerDropWeight != undefined) {
-						const dropWeightText = `\n\n— Drop Weight —\n${powerDropWeight} (Lower Drop Weight = Higher Item Rarity)`;
-						powerDescription += dropWeightText;
+					const powerDropLevel = codexPower.dropLevel;
+					const powerDropWeight = codexPower.dropWeight;
+					if (powerDropLevel != undefined || powerDropWeight != undefined) {
+						let dropDetailsText = `\n\n— Details —`;
+						if (powerDropLevel != undefined) dropDetailsText += `\nDrop Level: ${powerDropLevel} (Monster Level Requirement)`;
+						if (powerDropWeight != undefined) dropDetailsText += `\nDrop Weight: ${powerDropWeight} (Lower Weight = Higher Rarity)`;
+						powerDescription += dropDetailsText;
 						if (powerDescriptionLocalized != null) {
 							const localKeys = Object.keys(powerDescriptionLocalized);
 							for (const localKey of localKeys) {
-								powerDescriptionLocalized[localKey] += dropWeightText;
+								powerDescriptionLocalized[localKey] += dropDetailsText;
 							}
 						}
 					}

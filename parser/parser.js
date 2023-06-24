@@ -726,7 +726,6 @@ function runParser(downloadMode) {
 				codexData[className][codexCategoryName][codexPowerName] = {
 					id: getCodexId(codexPowerName, codexCategoryName, className),
 					type: "Legendary",
-					dropWeight: nodeData["drop_weight"],
 					description: currentDescription,
 					flavor: nodeData["flavor"],
 					nameLocalized: nodeData["name_localized"],
@@ -754,6 +753,7 @@ function runParser(downloadMode) {
 					id: getCodexId(codexPowerName, codexCategoryName, className),
 					type: "Unique",
 					slot: nodeName.split("_")[0].replace(/(1H?|2H?)(.+)/gi, "$1 $2").trim(),
+					dropLevel: nodeData["drop_level"],
 					dropWeight: nodeData["drop_weight"],
 					description: currentDescription,
 					flavor: nodeData["flavor"],
