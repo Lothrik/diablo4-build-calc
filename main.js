@@ -1197,9 +1197,9 @@ function handleSummaryButton(event) {
 		codexOutput += `\n\t[${codexCategory}]:`;
 		for (const [nodeName, nodeData] of Object.entries(categoryData)) {
 			if (nodeData.itemSlot == undefined) {
-				codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+				codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType})]: ${nodeData.nodeDesc.split("\n\n—")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
 			} else {
-				codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType} ${nodeData.itemSlot})]: ${nodeData.nodeDesc.split("\n\n— Location —")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
+				codexOutput += `\n\t\t[${nodeName} (${nodeData.itemType} ${nodeData.itemSlot})]: ${nodeData.nodeDesc.split("\n\n—")[0].replace(/\n/g, " ").replace(/  /g, " ")}`;
 			}
 		}
 	}
@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.0.2.42338-5";
+const localVersion = "1.0.2.42338-6";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -2465,7 +2465,7 @@ function handleEquipmentPanelButton(curNode) {
 			if (itemType == "Legendary" && !validEquipment.includes(codexCategory)) continue;
 			if (itemType == "Unique" && !validEquipment.includes(itemSlot)) continue;
 
-			const codexDesc = codexNode.localizedDesc.split("\n\n— Location —\n")[0].replace(/{(.+?)}/g, (matchText, captureText) => {
+			const codexDesc = codexNode.localizedDesc.split("\n\n—")[0].replace(/{(.+?)}/g, (matchText, captureText) => {
 				const outputText = captureText.split("/");
 				return `[${outputText.join(" - ")}]`;
 			}).replace(/\n+/g, "[br]");
@@ -4751,6 +4751,19 @@ function drawAllNodes() {
 
 					let powerDescription = codexPower.description;
 					let powerDescriptionLocalized = codexPower.descriptionLocalized;
+
+					let powerDropWeight = codexPower.dropWeight;
+					if (powerDropWeight != undefined) {
+						const dropWeightText = `\n\n— Drop Weight —\n${powerDropWeight} (Lower Drop Weight = Higher Item Rarity)`;
+						powerDescription += dropWeightText;
+						if (powerDescriptionLocalized != null) {
+							const localKeys = Object.keys(powerDescriptionLocalized);
+							for (const localKey of localKeys) {
+								powerDescriptionLocalized[localKey] += dropWeightText;
+							}
+						}
+					}
+
 					let powerLocation = [];
 					if (codexPower.dungeon) powerLocation.push(codexPower.dungeon);
 					if (codexPower.region) powerLocation.push(codexPower.region);
