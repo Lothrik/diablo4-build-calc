@@ -4500,7 +4500,7 @@ let paragonData = {
 					"ptBR": "Desferir Golpes Brutais com sua arma de concussão de duas mãos atordoa inimigos por {#} segundos e concede a você {#}% da sua vida máxima como fortificação.\n\nTags: Golpe Brutal, Controle de Grupo, Fortificação, Duas mãos, Concussão.",
 					"ruRU": "Подавляющий урон двуручным дробящим оружием оглушает противников на {#} сек. И дает вам укрепление в объеме {#}% максимального запаса здоровья.\n\nTags: Подавление, Контроль, Укрепление, Двуручное, Дробящее оружие.",
 					"trTR": "Çift El Ezici Silahınla gerçekleştirilen Aşırı Güç, düşmanları {#} saniyeliğine Sersemletir ve Maksimum Canının {#}% kadarını Güçlendirme olarak kazandırır.\n\nTags: Aşırı Güç, Kitle Kontrolü, Güçlendirme, Çift El, Ezici.",
-					"zhCN": "使用双手钝击武器攻击造成的压制击晕敌人 {#} 秒, 并强固你 {#}% 生命上限。\n\nTags: 压制, 群控, 强固, 双手, 钝击.",
+					"zhCN": "使用双手钝击武器造成的压制击昏敌人 {#} 秒, 并强固你 {#}% 生命上限。\n\nTags: 压制, 群控, 强固, 双手, 钝击.",
 					"zhTW": "使用雙手鈍擊武器壓制時,會擊昏敵人,持續 {#} 秒。同時賦予你等同生命值上限 {#}%的強韌。\n\nTags: 壓制, 控場, 強韌, 雙手, 鈍擊."
 				}
 			},
@@ -4953,7 +4953,7 @@ let paragonData = {
 					"ptBR": "12% de resistência a Cold\n+100 de armadura\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Gelo, Resistência, Armadura.",
 					"ruRU": "Сопротивление типу урона \"Cold \": 12%\n+100 ед. брони\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Холод, Сопротивление, Броня.",
 					"trTR": "12% Cold Direnci\n+100 Zırh\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Soğuk, Direnç, Zırh.",
-					"zhCN": "12% Cold 抗性\n+100 护甲值\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 冰霜, 抗性, 护甲.",
+					"zhCN": "12% Cold 抗性\n+100 护甲值\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 寒冰, 抗性, 护甲.",
 					"zhTW": "Cold 抗性 12%\n護甲值 +100\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 冰寒, 抗性, 防具."
 				},
 				"thresholdRequirements": {
@@ -5235,7 +5235,7 @@ let paragonData = {
 					"itIT": "Resistenza Lightning: 12%\nArmatura: +100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fulmine, Armatura.",
 					"jaJP": "Lightning 耐性12%\n防御力+100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 電撃, 装甲.",
 					"koKR": "Lightning 저항 12%\n방어도 +100\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 번개, 방어도.",
-					"plPL": "12% odporności na Lightning\n+100 pancerza\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Błyskawica, Pancerz.",
+					"plPL": "12% odporności na Lightning\n+100 pancerza\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Błyskawice, Pancerz.",
 					"ptBR": "12% de resistência a Lightning\n+100 de armadura\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Eletricidade, Armadura.",
 					"ruRU": "Сопротивление типу урона \"Lightning \": 12%\n+100 ед. брони\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Броня.",
 					"trTR": "12% Lightning Direnci\n+100 Zırh\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Yıldırım, Zırh.",
@@ -6270,7 +6270,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% de bônus para modificadores de dano físico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения физического урона усиливаются на +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Fiziksel hasar ve hasar azaltma düzenleyicilerine +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点获得 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% 加成至物理伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的物理伤害和伤害减免的变化效果获得 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% 加成。",
 					"zhTW": "範圍內顛峰節點的物理傷害和傷害減免屬性 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}%。"
 				},
 				"bonusLocalized": {
@@ -6474,7 +6474,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Determinação comprados em alcance, você causa +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}% de dano de Golpe Brutal aumentado.",
 					"ruRU": "За каждые 5 силы воли, открытые в радиусе действия, подавляющий урон увеличивается на +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%.",
 					"trTR": "Menzilde satın alınan her 5 İrade başına +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}% artırılmış Aşırı Güç hasarı verirsin.",
-					"zhCN": "每购买辐射范围内 5 点意力,你造成的压制伤害提高 +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。",
+					"zhCN": "每购买辐射范围内 5 点意力,你造成的压制伤害提高提高 +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。",
 					"zhTW": "在範圍內每購買 5 點意志,你造成的壓制傷害就會提高 {6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。"
 				},
 				"bonusLocalized": {
@@ -6576,7 +6576,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% de bônus para modificadores de dano físico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения физического урона усиливаются на +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Fiziksel hasar ve hasar azaltma düzenleyicilerine +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点获得 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% 加成至物理伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的物理伤害和伤害减免的变化效果获得 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% 加成。",
 					"zhTW": "範圍內顛峰節點的物理傷害和傷害減免屬性 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}%。"
 				},
 				"bonusLocalized": {
@@ -12299,7 +12299,7 @@ let paragonData = {
 					"ptBR": "Você recebe 10% de redução de dano enquanto tiver uma barreira ativa.",
 					"ruRU": "Пока вас защищает барьер, вы получаете на 10% меньше урона.",
 					"trTR": "Etkin bir Bariyerin varken 10% Hasar Azaltma kazanırsın.",
-					"zhCN": "拥有激活的屏障时, 你获得 10% 伤害减免。",
+					"zhCN": "你有激活的屏障时, 你获得 10% 伤害减免。",
 					"zhTW": "當你有作用中的屏障,你獲得 10% 傷害減免。"
 				},
 				"thresholdRequirements": "25 Intelligence"
@@ -12539,7 +12539,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Inteligência comprados em alcance, você causa +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}% de dano de Golpe Brutal aumentado.",
 					"ruRU": "За каждые 5 интеллекта, открытые в радиусе действия, подавляющий урон увеличивается на +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}% artırılmış Aşırı Güç hasarı verirsin.",
-					"zhCN": "每购买辐射范围内 5 点智力,你造成的压制伤害提高 +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。",
+					"zhCN": "每购买辐射范围内 5 点智力,你造成的压制伤害提高提高 +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。",
 					"zhTW": "在範圍內每購買 5 點智力你造成的壓制傷害就會提高 {6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。"
 				},
 				"bonusLocalized": {
@@ -12876,7 +12876,7 @@ let paragonData = {
 					"frFR": "Fléau",
 					"itIT": "Sventura",
 					"jaJP": "破滅",
-					"koKR": "골칫거리",
+					"koKR": "파멸",
 					"plPL": "Zguba",
 					"ptBR": "Flagelo",
 					"ruRU": "Бич",
@@ -13579,7 +13579,7 @@ let paragonData = {
 					"ptBR": "+5% de dano Cold\n\nTags: Gelo, Dano.",
 					"ruRU": "+5% к урону (Cold )\n\nTags: Холод, Урон.",
 					"trTR": "+5% Cold Hasarı\n\nTags: Soğuk, Hasar.",
-					"zhCN": "+5% Cold 伤害\n\nTags: 冰霜, 伤害.",
+					"zhCN": "+5% Cold 伤害\n\nTags: 寒冰, 伤害.",
 					"zhTW": "Cold 傷害 +5%\n\nTags: 冰寒, 傷害."
 				}
 			},
@@ -13651,7 +13651,7 @@ let paragonData = {
 					"itIT": "Danni da Lightning: +5%\n\nTags: Fulmine, Danni.",
 					"jaJP": "Lightning ダメージ+5%\n\nTags: 電撃, ダメージ.",
 					"koKR": "Lightning 피해 +5%\n\nTags: 번개, 피해.",
-					"plPL": "+5% obrażeń typu: Lightning\n\nTags: Błyskawica, Obrażenia.",
+					"plPL": "+5% obrażeń typu: Lightning\n\nTags: Błyskawice, Obrażenia.",
 					"ptBR": "+5% de dano Lightning\n\nTags: Eletricidade, Dano.",
 					"ruRU": "+5% к урону (Lightning )\n\nTags: Молния, Урон.",
 					"trTR": "+5% Lightning Hasarı\n\nTags: Yıldırım, Hasar.",
@@ -14340,7 +14340,7 @@ let paragonData = {
 					"ruRU": "Удачный удар: с вероятностью до +5% казнит раненых обычных противников\n\nTags: Казнь, Ранение, Удачный удар.",
 					"trTR": "Şanslı Vuruş: En Fazla +5% İhtimalle Seçkin Olmayan Yaralı Düşmanları İnfaz Eder\n\nTags: İnfaz, Yaralı, Şanslı Vuruş.",
 					"zhCN": "幸运一击: 最多有 +5% 几率斩杀受伤的非精英敌人\n\nTags: 斩杀, 受伤, 幸运一击.",
-					"zhTW": "幸運觸發:最高有 +5% 機率處決受傷的非精英怪\n\nTags: 處決, 受傷, 幸運觸發."
+					"zhTW": "幸運觸發:最高有 +5% 機率處決受傷的非精英怪物\n\nTags: 處決, 受傷, 幸運觸發."
 				}
 			},
 			"Generic_Magic_HPPercent": {
@@ -14643,7 +14643,7 @@ let paragonData = {
 					"ptBR": "6% de resistência a Cold\n\nTags: Resistência, Gelo.",
 					"ruRU": "Сопротивление типу урона \"Cold \": 6%\n\nTags: Сопротивление, Холод.",
 					"trTR": "6% Cold Direnci\n\nTags: Direnç, Soğuk.",
-					"zhCN": "6% Cold 抗性\n\nTags: 抗性, 冰霜.",
+					"zhCN": "6% Cold 抗性\n\nTags: 抗性, 寒冰.",
 					"zhTW": "Cold 抗性 6%\n\nTags: 抗性, 冰寒."
 				}
 			},
@@ -14677,7 +14677,7 @@ let paragonData = {
 					"itIT": "Resistenza Lightning: 6%\n\nTags: Fulmine, Resistenza.",
 					"jaJP": "Lightning 耐性6%\n\nTags: 電撃, 耐性.",
 					"koKR": "Lightning 저항 6%\n\nTags: 번개, 저항.",
-					"plPL": "6% odporności na Lightning\n\nTags: Błyskawica, Odporność.",
+					"plPL": "6% odporności na Lightning\n\nTags: Błyskawice, Odporność.",
 					"ptBR": "6% de resistência a Lightning\n\nTags: Eletricidade, Resistência.",
 					"ruRU": "Сопротивление типу урона \"Lightning \": 6%\n\nTags: Молния, Сопротивление.",
 					"trTR": "6% Lightning Direnci\n\nTags: Yıldırım, Direnç.",
@@ -15166,7 +15166,7 @@ let paragonData = {
 					"ptBR": "12% de resistência a Cold\n+4% de vida\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Gelo, Vida.",
 					"ruRU": "Сопротивление типу урона \"Cold \": 12%\n+4% к здоровью\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Холод, Здоровье.",
 					"trTR": "12% Cold Direnci\n+4% Can\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Soğuk, Can.",
-					"zhCN": "12% Cold 抗性\n+4% 生命\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰霜, 生命.",
+					"zhCN": "12% Cold 抗性\n+4% 生命\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 寒冰, 生命.",
 					"zhTW": "Cold 抗性 12%\n生命值 +4%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰寒, 生命值."
 				},
 				"thresholdRequirements": {
@@ -15889,7 +15889,7 @@ let paragonData = {
 					"ruRU": "Удачный удар: с вероятностью до +10% казнит раненых обычных противников\n+2.5% к скорости атаки\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: Казнь, Скорость атаки, Ранение, Удачный удар.",
 					"trTR": "Şanslı Vuruş: En Fazla +10% İhtimalle Seçkin Olmayan Yaralı Düşmanları İnfaz Eder\n+2.5% Saldırı Hızı\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: İnfaz, Saldırı Hızı, Yaralı, Şanslı Vuruş.",
 					"zhCN": "幸运一击: 最多有 +10% 几率斩杀受伤的非精英敌人\n+2.5% 攻击速度\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 斩杀, 攻击速度, 受伤, 幸运一击.",
-					"zhTW": "幸運觸發:最高有 +10% 機率處決受傷的非精英怪\n攻擊速度 +2.5%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 處決, 攻擊速度, 受傷, 幸運觸發."
+					"zhTW": "幸運觸發:最高有 +10% 機率處決受傷的非精英怪物\n攻擊速度 +2.5%\n\nBonus: Another Lucky Hit: Up to a +10% Chance to Execute Injured Non-Elites if requirements met:\n{thresholdRequirements}\n\nTags: 處決, 攻擊速度, 受傷, 幸運觸發."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16089,7 +16089,7 @@ let paragonData = {
 					"itIT": "Resistenza Lightning: 12%\nVita: +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fulmine, Vita.",
 					"jaJP": "Lightning 耐性12%\nライフ+4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 電撃, ライフ.",
 					"koKR": "Lightning 저항 12%\n생명력 +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 번개, 생명력.",
-					"plPL": "12% odporności na Lightning\n+4% zdrowia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Błyskawica, Zdrowie.",
+					"plPL": "12% odporności na Lightning\n+4% zdrowia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Błyskawice, Zdrowie.",
 					"ptBR": "12% de resistência a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Eletricidade, Vida.",
 					"ruRU": "Сопротивление типу урона \"Lightning \": 12%\n+4% к здоровью\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Здоровье.",
 					"trTR": "12% Lightning Direnci\n+4% Can\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Yıldırım, Can.",
@@ -18271,7 +18271,7 @@ let paragonData = {
 					"ptBR": "12% de resistência a Cold\n+5% de chance de Golpe de Sorte\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Gelo, Golpe de Sorte.",
 					"ruRU": "Сопротивление типу урона \"Cold \": 12%\n+5% к вероятности удачного удара\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Холод, Удачный удар.",
 					"trTR": "12% Cold Direnci\n+5% Şanslı Vuruş İhtimali\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Soğuk, Şanslı Vuruş.",
-					"zhCN": "12% Cold 抗性\n+5% 幸运一击几率\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰霜, 幸运一击.",
+					"zhCN": "12% Cold 抗性\n+5% 幸运一击几率\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 寒冰, 幸运一击.",
 					"zhTW": "Cold 抗性 12%\n幸運觸發機率 +5%\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰寒, 幸運觸發."
 				},
 				"thresholdRequirements": {
@@ -22679,7 +22679,7 @@ let paragonData = {
 					"esES": "Líder del Culto",
 					"esMX": "Líder del Culto",
 					"frFR": "Guide de la secte",
-					"itIT": "Capo del culto",
+					"itIT": "Capo del Culto",
 					"jaJP": "カルトの指導者",
 					"koKR": "이교 우두머리",
 					"plPL": "Przewodnictwo Kultu",
@@ -22838,7 +22838,7 @@ let paragonData = {
 					"ruRU": "Атаки, гарантированно подавляющие врагов, наносят на x50% больше подавляющего урона.\n\nTags: Подавление, Урон.",
 					"trTR": "Garanti olarak Aşırı Güçlenen saldırılar x50% artırılmış Aşırı Güç hasarı verir.\n\nTags: Aşırı Güç, Hasar.",
 					"zhCN": "必定压制的攻击造成的压制伤害提高 x50%。\n\nTags: 压制, 伤害.",
-					"zhTW": "攻擊必定造成壓制,壓制傷害提高 x50%。\n\nTags: 壓制, 傷害."
+					"zhTW": "必定造成壓制的攻擊會造成 x50% 額外的壓制傷害。\n\nTags: 壓制, 傷害."
 				}
 			},
 			"Necromancer_Legendary_011": {
@@ -24387,7 +24387,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Inteligência comprados em alcance, você causa +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dano aumentado contra alvos sob controle de grupo.",
 					"ruRU": "За каждые 5 интеллекта, открытые в радиусе действия, урон, наносимый целям под действием эффектов контроля, увеличивается на +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına Kitle Kontrolü etkisindeki hedeflere +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% artırılmış hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点智力,你对被群控的目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
+					"zhCN": "每购买辐射范围内 5 点智力,你对被控制目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
 					"zhTW": "在範圍內每購買 5 點智力,你對受控場目標造成的傷害提高 {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。"
 				},
 				"bonusLocalized": {
@@ -24402,7 +24402,7 @@ let paragonData = {
 					"ptBR": "Você e seus lacaios causam 10% de dano aumentado a inimigos sob lentidão ou gelidez ou, em vez disso, 20% de dano aumentado a inimigos atordoados ou congelados.",
 					"ruRU": "Вы и ваши прислужники наносите на x10% больше урона замедленным и окоченевшим целям или на x20% больше урона оглушенным и замороженным целям.",
 					"trTR": "Sen ve Yardakçıların Yavaşlatılmış veya Soğutma uygulanmış düşmanlara x10% artırılmış hasar verirsiniz veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsiniz.",
-					"zhCN": "你和你的仆从对减速或冻伤的敌人造成的伤害提高 x10%, 或者对昏迷或冻结的敌人造成的伤害提高 x20%。",
+					"zhCN": "你和你的仆从对被减速或被冻伤的敌人造成的伤害提高 x10%, 或者对被击昏或被冻结的敌人造成的伤害提高 x20%。",
 					"zhTW": "你和僕從對緩速或冰冷目標造成的傷害提高 x10%,或是對昏迷或凍結目標造成的傷害提高 x20%。"
 				},
 				"thresholdRequirements": "40 Intelligence"
@@ -24540,7 +24540,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Determinação comprados em alcance, você causa +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}% de dano de Golpe Brutal aumentado.",
 					"ruRU": "За каждые 5 силы воли, открытые в радиусе действия, подавляющий урон увеличивается на +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%.",
 					"trTR": "Menzilde satın alınan her 5 İrade başına +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}% artırılmış Aşırı Güç hasarı verirsin.",
-					"zhCN": "每购买辐射范围内 5 点意力,你造成的压制伤害提高 +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。",
+					"zhCN": "每购买辐射范围内 5 点意力,你造成的压制伤害提高提高 +{6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。",
 					"zhTW": "在範圍內每購買 5 點意志,你造成的壓制傷害就會提高 {6/7.2/8.4/9.6/10.8/12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8/24/25.2/26.4/27.6/28.8/30}%。"
 				},
 				"bonusLocalized": {
@@ -24591,7 +24591,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% de bônus para modificadores de dano físico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения физического урона усиливаются на +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Fiziksel hasar ve hasar azaltma düzenleyicilerine +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% bonus kazanır.",
-					"zhCN": "范围内的巅峰节点获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成至物理伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的物理伤害和伤害减免的各种变化效果获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成。",
 					"zhTW": "範圍內顛峰節點的物理傷害和物理傷害減免特性效果額外提高 {15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}%。"
 				},
 				"bonusLocalized": {
@@ -24642,7 +24642,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% de bônus para modificadores de dano não físico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения нефизического урона усиливаются на +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Fiziksel Olmayan hasar ve hasar azaltma düzenleyicilerine +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成至非物理伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的非物理伤害和伤害减免的各种变化效果获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成。",
 					"zhTW": "範圍內顛峰節點的非物理傷害和非物理傷害減免特性效果額外提高 {15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}%。"
 				},
 				"bonusLocalized": {
@@ -24693,7 +24693,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Destreza comprados em alcance, guerreiros esqueletos causam +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% de dano aumentado.",
 					"ruRU": "За каждые 5 ловкости, открытые в радиусе действия, урон скелетов-воинов увеличивается на +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%.",
 					"trTR": "Menzilde satın alınan her 5 Maharet başına İskelet Savaşçıları +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% artırılmış hasar verir.",
-					"zhCN": "每购买辐射范围内 5 点敏捷,骷髅战士获得 +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% 增伤。",
+					"zhCN": "每购买辐射范围内 5 点敏捷,骷髅战士造成的伤害提高 +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。",
 					"zhTW": "在範圍內每購買 5 點敏捷,骷髏戰士技能造成的傷害就會提高 {4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。"
 				},
 				"bonusLocalized": {
@@ -24948,7 +24948,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{20/24/28/32/36/40/44/48/52/56/60/64/68/72/76/80/84/88/92/96/100}% de bônus para modificadores de dano de lacaio e redução de dano.",
 					"ruRU": "Модификации урона прислужников и уменьшения урона усиливаются на +{20/24/28/32/36/40/44/48/52/56/60/64/68/72/76/80/84/88/92/96/100}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Yardakçı hasarı ve hasar azaltma düzenleyicilerine +{20/24/28/32/36/40/44/48/52/56/60/64/68/72/76/80/84/88/92/96/100}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点获得 +{20/24/28/32/36/40/44/48/52/56/60/64/68/72/76/80/84/88/92/96/100}% 加成至仆从伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的仆从伤害和伤害减免的各种变化效果获得 +{20/24/28/32/36/40/44/48/52/56/60/64/68/72/76/80/84/88/92/96/100}% 加成。",
 					"zhTW": "範圍內顛峰節點的僕從傷害和僕從傷害減免特性效果額外提高 {20/24/28/32/36/40/44/48/52/56/60/64/68/72/76/80/84/88/92/96/100}%"
 				},
 				"bonusLocalized": {
@@ -24999,7 +24999,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Inteligência comprados em alcance, magos esqueletos causam +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% de dano aumentado.",
 					"ruRU": "За каждые 5 интеллекта, открытые в радиусе действия, урон скелетов-магов увеличивается на +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına İskelet Sihirbazları +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% artırılmış hasar verir.",
-					"zhCN": "每购买辐射范围内 5 点智力,骷髅法师获得 +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% 增伤。",
+					"zhCN": "每购买辐射范围内 5 点智力,骷髅法师造成的伤害提高 +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。",
 					"zhTW": "在範圍內每購買 5 點智力,骷髏法師技能造成的傷害就會提高 {4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。"
 				},
 				"bonusLocalized": {
@@ -25101,7 +25101,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Determinação comprados em alcance, golens recebem +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% de dano aumentado.",
 					"ruRU": "За каждые 5 силы воли, открытые в радиусе действия, урон големов увеличивается на +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%.",
 					"trTR": "Menzilde satın alınan her 5 İrade başına Golemler +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% artırılmış hasar kazanır.",
-					"zhCN": "每购买辐射范围内 5 点意力,傀儡获得 +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% 增伤。",
+					"zhCN": "每购买辐射范围内 5 点意力,傀儡造成的伤害提高 +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。",
 					"zhTW": "在範圍內每購買 5 點意志,魔像造成的傷害就會提高 {4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。"
 				},
 				"bonusLocalized": {
@@ -30527,7 +30527,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Inteligência comprados em alcance, você causa +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dano aumentado contra alvos sob controle de grupo.",
 					"ruRU": "За каждые 5 интеллекта, открытые в радиусе действия, урон, наносимый целям под действием эффектов контроля, увеличивается на +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına Kitle Kontrolü etkisindeki hedeflere +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% artırılmış hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点智力,你对被群控的目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
+					"zhCN": "每购买辐射范围内 5 点智力,你对被控制目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
 					"zhTW": "在範圍內每購買 5 點智力,你對受控場目標造成的傷害提高 {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。"
 				},
 				"bonusLocalized": {
@@ -30542,7 +30542,7 @@ let paragonData = {
 					"ptBR": "Você causa 10% de dano aumentado a inimigos sob lentidão ou gelidez ou, em vez disso, 20% de dano aumentado a inimigos atordoados ou congelados.",
 					"ruRU": "Вы наносите на x10% больше урона замедленным или окоченевшим целям. Если цель оглушена или заморожена, урон вместо этого увеличивается на x20%.",
 					"trTR": "Yavaşlatılmış veya Soğutma uygulanmış düşmanlara x10% artırılmış hasar verirsin veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsin.",
-					"zhCN": "你对减速或冻伤的敌人造成的伤害提高 x10%, 或者对昏迷或冻结的敌人造成的伤害提高 x20%。",
+					"zhCN": "你对被减速或被冻伤的敌人造成的伤害提高 x10%, 或者对被击昏或被冻结的敌人造成的伤害提高 x20%。",
 					"zhTW": "你對緩速或冰冷目標的傷害提高 x10%,或是對昏迷或凍結目標的傷害提高 x20%。"
 				},
 				"thresholdRequirements": "25 Intelligence"
@@ -30558,7 +30558,7 @@ let paragonData = {
 					"frFR": "Fléau",
 					"itIT": "Sventura",
 					"jaJP": "破滅",
-					"koKR": "골칫거리",
+					"koKR": "파멸",
 					"plPL": "Zguba",
 					"ptBR": "Flagelo",
 					"ruRU": "Бич",
@@ -30869,7 +30869,7 @@ let paragonData = {
 					"ptBR": "Nutregelo",
 					"ruRU": "Питающий лед",
 					"trTR": "Buzla Beslenen",
-					"zhCN": "冰霜喂食者",
+					"zhCN": "寒霜喂食者",
 					"zhTW": "沃霜"
 				},
 				"descLocalized": {
@@ -30884,7 +30884,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Destreza comprados em alcance, você causa +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dano aumentado contra alvos com gelidez.",
 					"ruRU": "За каждые 5 ловкости, открытые в радиусе действия, урон, наносимый окоченевшим целям, увеличивается на +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%.",
 					"trTR": "Menzilde satın alınan her 5 Maharet başına Soğutma uygulanmış hedeflere +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% artırılmış hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点敏捷,你对冻伤目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
+					"zhCN": "每购买辐射范围内 5 点敏捷,你对被冻伤目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
 					"zhTW": "在範圍內每購買 5 點敏捷,你對冰冷目標造成的傷害提高 {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。"
 				},
 				"bonusLocalized": {
@@ -31292,7 +31292,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% de bônus para modificadores de dano físico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения физического урона усиливаются на +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Fiziksel hasar ve hasar azaltma düzenleyicilerine +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% bonus kazanır.",
-					"zhCN": "范围内的巅峰节点获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成至物理伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的物理伤害和伤害减免的各种变化效果获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成。",
 					"zhTW": "範圍內顛峰節點的物理傷害和物理傷害減免特性效果額外提高 {15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}%。"
 				},
 				"bonusLocalized": {
@@ -35666,19 +35666,19 @@ let paragonData = {
 					"zhTW": "燃燒直覺"
 				},
 				"descriptionLocalized": {
-					"deDE": "Euer Verbrennungsschaden wird um 40% Eures kritischen Trefferschadens und um 5% pro 20 Intelligenz erhöht. (Aktueller Bonus: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Verbrennung, Schaden, Kritische Treffer, Intelligenz.",
-					"esES": "Tu daño de quemadura aumenta una cantidad equivalente a un 40% de tu daño de golpe crítico y aumenta un 5% más por cada 20 de inteligencia que tengas. (Bonus actual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
-					"esMX": "Tu daño de quemadura aumenta un 40% de tu daño de golpe crítico, y se incrementa aún más un 5% por cada 20 de Inteligencia que tengas. (Bonificación actual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
-					"frFR": "Vos dégâts de brûlure sont augmentés d'un montant égal à 40% vos dégâts critiques. Ce montant est augmenté de 5% supplémentaires par tranche de 20 points d'intelligence que vous avez. (Bonus actuel: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Brûlure, Dégâts, Coups critiques, Intelligence.",
-					"itIT": "I tuoi danni da fiamme sono aumentati del 40% dei tuoi danni critici e vengono aumentati ulteriormente del 5% per ogni 20 Intelligenza. (Bonus attuale: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Bruciatura, Danni, Colpi critici, Intelligenza.",
-					"jaJP": "与える炎上ダメージがクリティカルヒットダメージの40%分増加する。知力20ごとに、ダメージがさらに5%増加する。(現在のボーナス: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 炎上, ダメージ, クリティカルヒット, 知力.",
-					"koKR": "연소 피해가 극대화 피해의 40%만큼 증가하고, 지능 20당 5% 추가로 증가합니다. (현재 증가량: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 불태우기, 피해, 극대화, 지능.",
-					"plPL": "Zadawane przez ciebie obrażenia od podpalenia są zwiększone o równowartość 40% twoich obrażeń od trafień krytycznych oraz dodatkowo o 5% za każde posiadane 20 pkt. inteligencji. (Aktualna premia: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Podpalenie, Obrażenia, Trafienia Krytyczne, Inteligencja.",
-					"ptBR": "Seu dano flamejante é aumentado em 40% do seu dano de acerto crítico, sendo aumentado ainda mais em 5% para cada 20 de Inteligência que você tenha (bônus atual: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Queimadura, Dano, Acertos Críticos, Inteligência.",
-					"ruRU": "Наносимый вами урон от горения увеличивается на 40% от вашего бонуса к критическому урону, а также на 5% за каждые 20 ед. интеллекта героя. (Текущий бонус: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Горение, Урон, Критические удары, Интеллект.",
-					"trTR": "Yanma hasarın, Kritik Vuruş Hasarının 40% kadarı artar ve sahip olduğun her 20 Zekâ başına 5% daha artar. (Mevcut Bonus: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Yakma, Hasar, Kritik Vuruşlar, Zekâ.",
-					"zhCN": "你的燃烧伤害提高, 相当于暴击伤害的 40%, 每有 20 点智力进一步提高 5%。 (当前加成: [Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 燃烧, 伤害, 暴击, 智力.",
-					"zhTW": "你的燃燒傷害提高等同你爆擊傷害的 40%,每擁有 20 點智力可再提高 5%。(目前加成:[Crit_Damage_Percent * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 燃燒, 傷害, 爆擊, 智力."
+					"deDE": "Euer Verbrennungsschaden wird um 40% Eures kritischen Trefferschadens und um 5% pro 20 Intelligenz erhöht. (Aktueller Bonus: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Verbrennung, Schaden, Kritische Treffer, Intelligenz.",
+					"esES": "Tu daño de quemadura aumenta una cantidad equivalente a un 40% de tu daño de golpe crítico y aumenta un 5% más por cada 20 de inteligencia que tengas. (Bonus actual: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
+					"esMX": "Tu daño de quemadura aumenta un 40% de tu daño de golpe crítico, y se incrementa aún más un 5% por cada 20 de Inteligencia que tengas. (Bonificación actual: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
+					"frFR": "Vos dégâts de brûlure sont augmentés d'un montant égal à 40% vos dégâts critiques. Ce montant est augmenté de 5% supplémentaires par tranche de 20 points d'intelligence que vous avez. (Bonus actuel: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Brûlure, Dégâts, Coups critiques, Intelligence.",
+					"itIT": "I tuoi danni da fiamme sono aumentati del 40% dei tuoi danni critici e vengono aumentati ulteriormente del 5% per ogni 20 Intelligenza. (Bonus attuale: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Bruciatura, Danni, Colpi critici, Intelligenza.",
+					"jaJP": "与える炎上ダメージがクリティカルヒットダメージの40%分増加する。知力20ごとに、ダメージがさらに5%増加する。(現在のボーナス: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 炎上, ダメージ, クリティカルヒット, 知力.",
+					"koKR": "연소 피해가 극대화 피해의 40%만큼 증가하고, 지능 20당 5% 추가로 증가합니다. (현재 증가량: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 불태우기, 피해, 극대화, 지능.",
+					"plPL": "Zadawane przez ciebie obrażenia od podpalenia są zwiększone o równowartość 40% twoich obrażeń od trafień krytycznych oraz dodatkowo o 5% za każde posiadane 20 pkt. inteligencji. (Aktualna premia: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Podpalenie, Obrażenia, Trafienia Krytyczne, Inteligencja.",
+					"ptBR": "Seu dano flamejante é aumentado em 40% do seu dano de acerto crítico, sendo aumentado ainda mais em 5% para cada 20 de Inteligência que você tenha (bônus atual: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Queimadura, Dano, Acertos Críticos, Inteligência.",
+					"ruRU": "Наносимый вами урон от горения увеличивается на 40% от вашего бонуса к критическому урону, а также на 5% за каждые 20 ед. интеллекта героя. (Текущий бонус: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Горение, Урон, Критические удары, Интеллект.",
+					"trTR": "Yanma hasarın, Kritik Vuruş Hasarının 40% kadarı artar ve sahip olduğun her 20 Zekâ başına 5% daha artar. (Mevcut Bonus: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Yakma, Hasar, Kritik Vuruşlar, Zekâ.",
+					"zhCN": "你的燃烧伤害提高, 相当于暴击伤害的 40%, 每有 20 点智力进一步提高 5%。 (当前加成: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 燃烧, 伤害, 暴击, 智力.",
+					"zhTW": "你的燃燒傷害提高等同你爆擊傷害的 40%,每擁有 20 點智力可再提高 5%。(目前加成:[ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 燃燒, 傷害, 爆擊, 智力."
 				}
 			},
 			"Sorcerer_Legendary_002": {
@@ -35745,7 +35745,7 @@ let paragonData = {
 					"ptBR": "Causar dano gélido a inimigos vulneráveis aumenta sua chance de Golpe de Sorte em +1% por 5 segundos, até +15%.\n\nTags: Vulnerável, Gelo, Golpe de Sorte.",
 					"ruRU": "Когда вы наносите урон от холода уязвимым противникам, вероятность удачного удара повышается на +1% на 5 сек. вплоть до +15%.\n\nTags: Уязвимость, Холод, Удачный удар.",
 					"trTR": "Savunmasız düşmanlara Soğuk hasarı vermek, Şanslı Vuruş İhtimalini 5 saniyeliğine +1% artırır. Artış en fazla +15% olabilir.\n\nTags: Savunmasız, Soğuk, Şanslı Vuruş.",
-					"zhCN": "对易伤敌人造成冰霜伤害将使你的幸运一击几率提高 +1%, 持续 5 秒, 最多提高 +15%。\n\nTags: 易伤, 冰霜, 幸运一击.",
+					"zhCN": "对易伤敌人造成寒冰伤害将使你的幸运一击几率提高 +1%, 持续 5 秒, 最多提高 +15%。\n\nTags: 易伤, 寒冰, 幸运一击.",
 					"zhTW": "對易傷敵人造成冰寒傷害時,會使你的幸運觸發機率提高 +1%,持續 5 秒,最多提高 +15%。\n\nTags: 易傷, 冰寒, 幸運觸發."
 				}
 			},
@@ -35779,7 +35779,7 @@ let paragonData = {
 					"ptBR": "Matar um inimigo congelado concede 15% da sua vida máxima como barreira por 5 segundos.\n\nTags: Congelado, Barreira.",
 					"ruRU": "Убивая замороженных противников, вы получаете барьер с прочностью, равной 15% максимального запаса здоровья. Время действия – 5 сек.\n\nTags: Заморозка, Барьер.",
 					"trTR": "Donmuş bir düşmanı öldürmek sana 5 saniyeliğine Maksimum Canının 15% kadarına eşit bir Bariyer kazandırır.\n\nTags: Donuk, Bariyer.",
-					"zhCN": "消灭一个被冻结的敌人使你获得一层 15% 生命上限 的屏障 , 持续 5 秒。\n\nTags: 冻结, 屏障.",
+					"zhCN": "消灭被冻结的敌人使你获得一层 15% 生命上限 的屏障 , 持续 5 秒。\n\nTags: 冻结, 屏障.",
 					"zhTW": "殺死凍結的敵人會賦予你等同生命值上限 15%的屏障,持續 5 秒。\n\nTags: 凍結, 屏障."
 				}
 			},
@@ -35813,7 +35813,7 @@ let paragonData = {
 					"ptBR": "Atordoar inimigos próximos restaura 10 de mana.\n\nTags: Controle de Grupo, Mana.",
 					"ruRU": "Оглушая находящихся рядом противников, вы восполняете 10 ед. маны.\n\nTags: Контроль, Мана.",
 					"trTR": "Yakın düşmanları Sersemletmek 10 Mana yeniler.\n\nTags: Kitle Kontrolü, Mana.",
-					"zhCN": "击晕近距敌人恢复 10 点法力。\n\nTags: 群控, 法力.",
+					"zhCN": "击昏近距敌人恢复 10 点法力。\n\nTags: 群控, 法力.",
 					"zhTW": "擊昏近距離敵人會恢復 10 點法力。\n\nTags: 控場, 法力."
 				}
 			},
@@ -35954,7 +35954,7 @@ let paragonData = {
 					"ptBR": "+10% de dano Cold\n+4% de bônus de gelidez\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Gelo, Dano, Gelidez, Controle de Grupo.",
 					"ruRU": "+10% к урону (Cold )\nВероятность вызвать окоченение – 4%\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Холод, Урон, Окоченение, Контроль.",
 					"trTR": "+10% Cold Hasarı\n4% Soğutma Uygulama\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: Soğuk, Hasar, Soğutma, Kitle Kontrolü.",
-					"zhCN": "+10% Cold 伤害\n4% 冻伤程度\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: 冰霜, 伤害, 冻伤, 群控.",
+					"zhCN": "+10% Cold 伤害\n4% 冻伤程度\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: 寒冰, 伤害, 冻伤, 群控.",
 					"zhTW": "Cold 傷害 +10%\n冰冷施加 4%\n\nBonus: Another +10% Cold Damage if requirements met:\n{thresholdRequirements}\n\nTags: 冰寒, 傷害, 冰冷, 控場."
 				},
 				"thresholdRequirements": {
@@ -36047,7 +36047,7 @@ let paragonData = {
 					"ptBR": "12% de resistência a Cold\n+10 de Inteligência\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Inteligência, Gelo.",
 					"ruRU": "Сопротивление типу урона \"Cold \": 12%\n+10 к интеллекту\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Интеллект, Холод.",
 					"trTR": "12% Cold Direnci\n+10 Zekâ\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Zekâ, Soğuk.",
-					"zhCN": "12% Cold 抗性\n+10 点智力\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 智力, 冰霜.",
+					"zhCN": "12% Cold 抗性\n+10 点智力\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 智力, 寒冰.",
 					"zhTW": "Cold 抗性 12%\n智力 +10\n\nBonus: Another 12% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 智力, 冰寒."
 				},
 				"thresholdRequirements": {
@@ -36400,7 +36400,7 @@ let paragonData = {
 					"itIT": "Resistenza Lightning: 12%\nIntelligenza: +10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Fulmine, Resistenza, Intelligenza.",
 					"jaJP": "Lightning 耐性12%\n知力+10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 電撃, 耐性, 知力.",
 					"koKR": "Lightning 저항 12%\n지능 +10\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 번개, 저항, 지능.",
-					"plPL": "12% odporności na Lightning\n+10 inteligencji\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Błyskawica, Odporność, Inteligencja.",
+					"plPL": "12% odporności na Lightning\n+10 inteligencji\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Błyskawice, Odporność, Inteligencja.",
 					"ptBR": "12% de resistência a Lightning\n+10 de Inteligência\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Eletricidade, Resistência, Inteligência.",
 					"ruRU": "Сопротивление типу урона \"Lightning \": 12%\n+10 к интеллекту\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Молния, Сопротивление, Интеллект.",
 					"trTR": "12% Lightning Direnci\n+10 Zekâ\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Yıldırım, Direnç, Zekâ.",
@@ -36545,7 +36545,7 @@ let paragonData = {
 					"ptBR": "6% de redução de dano recebido de inimigos Chilled\n12% de resistência a Cold\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gelidez, Redução de Dano, Resistência, Gelo, Controle de Grupo.",
 					"ruRU": "-6% к урону от противников, находящихся под действием эффекта \"Chilled \"\nСопротивление типу урона \"Cold \": 12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Окоченение, Уменьшение урона, Сопротивление, Холод, Контроль.",
 					"trTR": "Chilled Etkisindeki Düşmandan 6% Hasar Azaltma\n12% Cold Direnci\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Soğutma, Hasar Azaltma, Direnç, Soğuk, Kitle Kontrolü.",
-					"zhCN": "6% Chilled 敌人伤害减免\n12% Cold 抗性\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冻伤, 伤害减免, 抗性, 冰霜, 群控.",
+					"zhCN": "6% Chilled 敌人伤害减免\n12% Cold 抗性\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冻伤, 伤害减免, 抗性, 寒冰, 群控.",
 					"zhTW": "Chilled 敵人的傷害減免 6%\nCold 抗性 12%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冰冷, 傷害減免, 抗性, 冰寒, 控場."
 				},
 				"thresholdRequirements": {
@@ -36839,7 +36839,7 @@ let paragonData = {
 					"ptBR": "Geada",
 					"ruRU": "Холода",
 					"trTR": "Buzlar",
-					"zhCN": "冰霜",
+					"zhCN": "寒霜",
 					"zhTW": "寒霜"
 				},
 				"descriptionLocalized": {
@@ -37094,7 +37094,7 @@ let paragonData = {
 					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n12% de resistência a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Redução de Dano, Gelo, Resistência.",
 					"ruRU": "-4% к урону от уязвимых противников\nСопротивление типу урона \"Cold \": 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Уменьшение урона, Холод, Сопротивление.",
 					"trTR": "Savunmasız Düşmanlardan 4% Hasar Azaltma\n12% Cold Direnci\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar Azaltma, Soğuk, Direnç.",
-					"zhCN": "4% 对易伤敌人的伤害减免\n12% Cold 抗性\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 冰霜, 抗性.",
+					"zhCN": "4% 对易伤敌人的伤害减免\n12% Cold 抗性\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 寒冰, 抗性.",
 					"zhTW": "易傷敵人的傷害減免 4%\nCold 抗性 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害減免, 冰寒, 抗性."
 				},
 				"thresholdRequirements": {
@@ -37317,7 +37317,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% de bônus para modificadores de dano não físico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения нефизического урона усиливаются на +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Fiziksel Olmayan hasar ve hasar azaltma düzenleyicilerine +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成至非物理伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的非物理伤害和伤害减免的各种变化效果获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成。",
 					"zhTW": "範圍內顛峰節點的非物理傷害和非物理傷害減免特性效果額外提高 {15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}%。"
 				},
 				"bonusLocalized": {
@@ -37327,12 +37327,12 @@ let paragonData = {
 					"frFR": "Infliger des dégâts de feu, de froid ou de foudre à une cible augmente tous les dégâts que vous lui infligez de x5% pendant 10 s, cumulable une fois par élément.",
 					"itIT": "Infliggere danni da fuoco, da freddo o da fulmine a un nemico aumenta tutti i danni che gli infliggi del x5% per 10 s. Si accumula una volta per elemento.",
 					"jaJP": "敵に対して火炎、冷気、または電撃ダメージを与えると10秒間にわたり、自分がその敵に与えるダメージがx5%増加する。蓄積は属性1種につき1つ。",
-					"koKR": "적에게 화염, 냉기 또는 번개 피해를 주면 10초 동안 해당 적에게 주는 모든 피해가 x5% 증가합니다.",
+					"koKR": "적에게 화염, 냉기 또는 번개 피해를 주면 10초 동안 해당 적에게 주는 모든 피해가 x5% 증가합니다. 이 효과는 원소마다 한 번씩 중첩됩니다.",
 					"plPL": "Zadawanie wrogowi obrażeń od Ognia, Zimna lub Błyskawic zwiększa wszystkie zadawane mu przez ciebie obrażenia o x5% na 10 sek. Efekt ten kumuluje się raz dla każdego żywiołu.",
 					"ptBR": "Causar dano ígneo, gélido ou elétrico a um inimigo aumenta todo o dano causado a ele em 5% por 10 segundos, acumulando uma vez por elemento.",
 					"ruRU": "Когда вы наносите противнику урон от огня, холода или молнии, весь урон, который вы наносите этой цели, увеличивается на x5% на 10 сек. Суммируется один раз для каждой стихии.",
 					"trTR": "Bir düşmana Ateş, Soğuk veya Yıldırım Hasarı vermek, bu düşmana verdiğin tüm hasarı 10 saniyeliğine x5% artırır. Element başına bir kez biriktirilebilir.",
-					"zhCN": "对一名敌人造成火焰、冰霜或闪电伤害会使你对其造成的所有伤害提高 x5%, 持续 10 秒, 每种元素可叠加一次。",
+					"zhCN": "对一名敌人造成火焰、寒冰或闪电伤害会使你对其造成的所有伤害提高 x5%, 持续 10 秒, 每种元素可叠加一次。",
 					"zhTW": "對敵人造成火焰、冰寒與電擊傷害,會使你對其造成的所有傷害提高 x5%,持續 10 秒。每種元素可堆疊一層此效果。"
 				},
 				"thresholdRequirements": "40 Intelligence"
@@ -37470,7 +37470,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Inteligência comprados em alcance, Energia Crepitante causa +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% de dano aumentado.",
 					"ruRU": "За каждые 5 интеллекта, открытые в радиусе действия, урон от искрящихся зарядов энергии увеличивается на +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına Çatırtı Enerjisi +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}% artırılmış hasar verir.",
-					"zhCN": "每购买辐射范围内 5 点智力,爆裂电花造成的伤害提高 +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。",
+					"zhCN": "每购买辐射范围内 5 点智力,你的爆裂电花造成的伤害提高 +{4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。",
 					"zhTW": "在範圍內每購買 5 點智力,電流能量造成的傷害就會提高 {4/4.8/5.6/6.4/7.2/8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2/16/16.8/17.6/18.4/19.2/20}%。"
 				},
 				"bonusLocalized": {
@@ -37572,7 +37572,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% de bônus para modificadores de dano ígneo e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения урона от огня усиливаются на +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Ateş hasarı ve hasar azaltma düzenleyicilerine +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成至火焰伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的火焰伤害和伤害减免的各种变化效果获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成。",
 					"zhTW": "範圍內顛峰節點的火焰傷害和火焰傷害減免特性效果額外提高 {15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}%"
 				},
 				"bonusLocalized": {
@@ -37623,7 +37623,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Determinação comprados em alcance, você causa +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dano aumentado contra alvos com gelidez.",
 					"ruRU": "За каждые 5 силы воли, открытые в радиусе действия, урон, наносимый окоченевшим целям, увеличивается на +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%.",
 					"trTR": "Menzilde satın alınan her 5 İrade başına Soğutma uygulanmış hedeflere +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% artırılmış hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点意力,你对冻伤目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
+					"zhCN": "每购买辐射范围内 5 点意力,你对被冻伤目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
 					"zhTW": "在範圍內每購買 5 點意志,你對冰冷目標造成的傷害提高 {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。"
 				},
 				"bonusLocalized": {
@@ -37791,7 +37791,7 @@ let paragonData = {
 					"ptBR": "Você recebe 10% de redução de dano enquanto tiver uma barreira ativa.",
 					"ruRU": "Пока вас защищает барьер, вы получаете на 10% меньше урона.",
 					"trTR": "Etkin bir Bariyerin varken 10% Hasar Azaltma kazanırsın.",
-					"zhCN": "拥有激活的屏障时, 你获得 10% 伤害减免。",
+					"zhCN": "你有激活的屏障时, 你获得 10% 伤害减免。",
 					"zhTW": "當你有作用中的屏障,你獲得 10% 傷害減免。"
 				},
 				"thresholdRequirements": "25 Willpower"
@@ -37929,7 +37929,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% de bônus para modificadores de dano gélido e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения урона от холода усиливаются на +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Soğuk hasarı ve hasar azaltma düzenleyicilerine +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成至冰霜伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的寒冰伤害和伤害减免的各种变化效果获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成。",
 					"zhTW": "範圍內顛峰節點的冰寒傷害和冰寒傷害減免特性效果額外提高 {15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}%"
 				},
 				"bonusLocalized": {
@@ -37944,7 +37944,7 @@ let paragonData = {
 					"ptBR": "Sempre que você aplicar gelidez a um inimigo, você causa 3% de dano gélido aumentado por 10 segundos, até 15%.",
 					"ruRU": "Когда вы применяете к противнику эффект окоченения, он получает от вас на x3% больше урона от холода в течение 10 сек. Максимальная прибавка к урону – x15%.",
 					"trTR": "Bir düşmana her Soğutma uyguladığında 10 saniyeliğine x3% artırılmış Soğuk Hasarı uygularsın. Artırılmış soğuk hasarı en fazla x15% olabilir.",
-					"zhCN": "每当你冻伤敌人时, 你造成的冰霜伤害提高 x3%, 持续 10 秒, 最多提高 x15%。",
+					"zhCN": "每当你冻伤敌人时, 你造成的寒冰伤害提高 x3%, 持续 10 秒, 最多提高 x15%。",
 					"zhTW": "每當你對敵人造成冰冷效果,你造成的冰寒傷害提高 x3%,持續 10 秒,最多提高 x15%。"
 				},
 				"thresholdRequirements": "25 Dexterity"
@@ -37980,7 +37980,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% de bônus para modificadores de dano elétrico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения урона от молнии усиливаются на +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Yıldırım hasarı ve hasar azaltma düzenleyicilerine +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% bonus kazanır.",
-					"zhCN": "范围内的巅峰节点获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成至闪电伤害和伤害减免。",
+					"zhCN": "辐射范围内的巅峰节点使它们的闪电伤害和伤害减免的各种变化效果获得 +{15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}% 加成。",
 					"zhTW": "範圍內顛峰節點的電擊傷害和電擊傷害減免特性效果額外提高 {15/18/21/24/27/30/33/36/39/42/45/48/51/54/57/60/63/66/69/72/75}%"
 				},
 				"bonusLocalized": {
@@ -37995,7 +37995,7 @@ let paragonData = {
 					"ptBR": "Seu dano elétrico tem +5% de chance aumentada de acerto crítico contra inimigos que estejam atordoados, imobilizados ou congelados.",
 					"ruRU": "Умения, наносящие урон от молнии, с увеличенной на +5% вероятностью наносят критический урон оглушенным, обездвиженным и замороженным целям.",
 					"trTR": "Şimşek hasarının Sersemletilmiş, Sabitlenmiş veya Donmuş düşmanlara Kritik Vuruş Yapma ihtimali +5% artar.",
-					"zhCN": "对昏迷 、定身或冻结状态的敌人造成闪电伤害时, 暴击几率提高 +5%。",
+					"zhCN": "对被击昏 、被定身或被冻结的敌人造成闪电伤害时, 暴击几率提高 +5%。",
 					"zhTW": "你的電擊傷害對昏迷、定身或凍結敵人有額外 +5% 爆擊機率。"
 				},
 				"thresholdRequirements": "25 Dexterity"
@@ -38082,7 +38082,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Destreza comprados em alcance, você causa +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dano aumentado contra alvos sob controle de grupo.",
 					"ruRU": "За каждые 5 ловкости, открытые в радиусе действия, урон, наносимый целям под действием эффектов контроля, увеличивается на +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%.",
 					"trTR": "Menzilde satın alınan her 5 Maharet başına Kitle Kontrolü etkisindeki hedeflere +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% artırılmış hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点敏捷,你对被群控的目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
+					"zhCN": "每购买辐射范围内 5 点敏捷,你对被控制目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
 					"zhTW": "在範圍內每購買 5 點敏捷,你對受控場目標造成的傷害提高 {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。"
 				},
 				"bonusLocalized": {
@@ -38097,7 +38097,7 @@ let paragonData = {
 					"ptBR": "Você causa 10% de dano aumentado a inimigos sob lentidão ou gelidez ou, em vez disso, 20% de dano aumentado a inimigos atordoados ou congelados.",
 					"ruRU": "Вы наносите на x10% больше урона замедленным или окоченевшим целям. Если цель оглушена или заморожена, урон вместо этого увеличивается на x20%.",
 					"trTR": "Yavaşlatılmış veya Soğutma uygulanmış düşmanlara x10% artırılmış hasar verirsin veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsin.",
-					"zhCN": "你对减速或冻伤的敌人造成的伤害提高 x10%, 或者对昏迷或冻结的敌人造成的伤害提高 x20%。",
+					"zhCN": "你对被减速或被冻伤的敌人造成的伤害提高 x10%, 或者对被击昏或被冻结的敌人造成的伤害提高 x20%。",
 					"zhTW": "你對緩速或冰冷目標的傷害提高 x10%,或是對昏迷或凍結目標的傷害提高 x20%。"
 				},
 				"thresholdRequirements": "25 Dexterity"

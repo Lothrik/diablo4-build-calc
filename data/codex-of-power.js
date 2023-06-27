@@ -76,7 +76,7 @@ let codexData = {
 					"frFR": "Après avoir généré 100.0 points de fureur, votre prochaine compétence principale génère un tourbillon de poussière qui inflige {#} points de dégâts aux adversaires derrière la cible.",
 					"itIT": "Dopo aver generato 100.0 furia, la tua prossima abilità Primaria crea un Diavolo di Sabbia che infligge {#} danni ai nemici dietro al bersaglio.",
 					"jaJP": "100.0の怒気を生成した後、次のコアスキルがダスト・デビルを生み出して標的の背後にいる敵に{#}のダメージを与える。",
-					"koKR": "다음 핵심 기술로 분노를 100.0 생성하면 먼지 돌풍이 일어나 대상 뒤의 적들에게 {#}의 피해를 줍니다.",
+					"koKR": "분노를 100.0 생성하면 다음 핵심 기술이 먼지 돌풍을 일으켜 대상 뒤의 적들에게 {#}의 피해를 줍니다.",
 					"plPL": "Po wygenerowaniu 100.0 pkt. furii twoja następna umiejętność Główna tworzy zawieruchę, która zadaje {#} pkt. obrażeń wrogom znajdującym się za celem.",
 					"ptBR": "Depois de gerar 100.0 de fúria, sua próxima habilidade principal cria um demônio de poeira que causa {#} de dano a inimigos atrás do alvo.",
 					"ruRU": "После накопления 100.0 ед. ярости ваше следующее основное умение создает пылевого демона, который наносит {#} ед. урона противникам позади цели.",
@@ -235,7 +235,7 @@ let codexData = {
 					"ptBR": "Atordoar um inimigo que está sangrando causa {22/40}% do valor total de sangramento ao inimigo como dano físico.",
 					"ruRU": "Оглушенные противники с кровотечением мгновенно получают {22/40}% всего урона от кровотечения в виде физического урона.",
 					"trTR": "Kanayan bir düşmanı Sersemletmek, düşmana toplam Kanama miktarının {22/40}% kadarı Fiziksel hasar verir.",
-					"zhCN": "击晕一名流血的敌人会对其造成总流血伤害的 {22/40}% (作为物理伤害)。",
+					"zhCN": "击昏流血的敌人会对其造成总流血伤害的 {22/40}% (作为物理伤害)。",
 					"zhTW": "擊昏受到流血效果的敵人時,會對敵人造成其身上總流血傷害 {22/40}% 的物理傷害。"
 				},
 				"dungeon": "",
@@ -267,7 +267,7 @@ let codexData = {
 					"frFR": "Coup de chance: lorsqu'Appel des anciens est sur votre barre d'actions et que vous infligez des dégâts aux adversaires avec Bond, Soulèvement ou Tourbillon, vous avez jusqu'à {40/50}% de chances d'invoquer un Ancien qui répétera la même compétence.",
 					"itIT": "Colpo fortunato: se hai inserito Richiamo degli Antichi nella barra delle azioni, infliggere danni ai nemici con Balzo, Tumulto o Turbine ha una probabilità massima del {40/50}% di evocare un Antico che utilizza la stessa abilità.",
 					"jaJP": "幸運の一撃: 〈古の民の呼び声〉をアクション・バーに割り当て、Leap、UpheavalもしくはWhirlwindで敵にダメージを与える際、最大{40/50}%の確率で古の民を召喚し、同スキルを発動させる。",
-					"koKR": "행운의 적중: 선조의 부름이 행동막대에 지정되어 있는 동안 도약, 지각 변동 또는 소용돌이로 적에게 피해를 주면 최대 {40/50}% 확률로 선조가 소환되어 같은 기술을 사용합니다.",
+					"koKR": "행운의 적중: 선조의 귀환이 행동막대에 지정되어 있는 동안 도약, 지각 변동 또는 소용돌이로 적에게 피해를 주면 최대 {40/50}% 확률로 선조가 소환되어 같은 기술을 사용합니다.",
 					"plPL": "Szczęśliwy traf: Gdy na twoim pasku akcji znajduje się Zew Starożytnych, ranienie wrogów Skokiem, Wypiętrzeniem lub Trąbą Powietrzną ma maksymalnie {40/50}% szans na przywołanie starożytnego, który skorzysta z tej samej umiejętności.",
 					"ptBR": "Golpe de Sorte: Enquanto Chamado dos Ancestrais estiver na sua barra de ações, causar dano a inimigos com Salto, Revolta ou Redemoinho tem até {40/50}% de chance de evocar um Ancestral para usar a mesma habilidade.",
 					"ruRU": "Удачный удар: пока \"Зов Древних\" находится на панели команд, при поражении противника \"Прыжок\", \"Выброс земли\" или \"Вихрь\" с вероятностью до {40/50}% призывает Древнего, применяющего такой же навык.",
@@ -309,7 +309,7 @@ let codexData = {
 					"ptBR": "Inimigos atingidos por Chute ou Investida explodirão se forem mortos nos próximos 2.0 segundos, causando {#} de dano aos inimigos ao redor.",
 					"ruRU": "Если противник, пораженный \"Ударом ногой\" или \"Натиском\", погибает в течение 2.0 сек., он взрывается, нанося {#} ед. урона другим окружающим противникам.",
 					"trTR": "Tekme veya Hücum ile hasar verilen düşmanlar sonraki 2.0 saniye içinde öldürülürse çevredeki düşmanlara {#} hasar vererek patlar.",
-					"zhCN": "敌人在受到踢击或冲锋伤害后, 若在接下来的 2.0 秒内并死亡将会发生爆炸, 对周围敌人造成 {#} 点伤害。",
+					"zhCN": "敌人在受到踢击或冲锋伤害后, 若在接下来的 2.0 秒内死亡,就会发生爆炸, 对周围敌人造成 {#} 点伤害。",
 					"zhTW": "敵人受到踢擊或衝鋒傷害後,若在 2.0 秒內死亡就會爆炸,對附近敵人造成 {#} 點傷害。"
 				},
 				"dungeon": "Haunted Refuge",
@@ -672,7 +672,7 @@ let codexData = {
 					"plPL": "\"Oręż dzierżony przez najgroźniejszych wojowników przyciąga często uwagę pradawnych duchów. Jeśli właściciel uznany zostanie za godnego, duchy mogą pobłogosławić stal swoją siłą\".\n– Gerti, mistrzyni kowalstwa Plemienia Wołu",
 					"ptBR": "\"Armas empunhadas pelos guerreiros mais ferozes muitas vezes chamam a atenção dos espíritos ancestrais. Se o portador for digno, os espíritos podem abençoar o aço com sua força.\"\n- Gerti, mestre da forja da Tribo do Boi",
 					"ruRU": "\"Оружие в руках свирепых воинов часто привлекает внимание духов Древних. Если они сочтут владельца достойным, то благословят клинок своей силой\".\nГерти, кузнец племени Быка",
-					"trTR": "\"En amansız savaşçılar tarafından kullanılan silahlar genellikle Kadim ruhların dikkatini çeker. Eğer kullanıcı buna layıksa ruhlar, güçleriyle silahın çeliğini kutsayabilir.\"\n- Gerti, Öküz Kabilesi Demir Ustası",
+					"trTR": "\"En amansız savaşçılar tarafından kullanılan silahlar genellikle Kadim ruhların dikkatini çeker. Eğer kullanıcı buna layıksa ruhlar, güçleriyle silahın çeliğini kutsayabilir.\"\n- Gerti, Öküzler Kabilesi Demir Ustası",
 					"zhCN": "\"最骁勇的战士所挥舞的武器经常会引起先祖之灵的关注。如果武器持有者是真正的勇士,众灵会用他们的力量祝福这把武器。\" - 格蒂,牛族锻造大师",
 					"zhTW": "「最勇猛的戰士使用的武器往往能引起祖靈的注意。若這名戰士有資格,手中的武器便能獲得祖靈力量的加持。」\n- 公牛部族鍛造大師葛提"
 				}
@@ -740,7 +740,7 @@ let codexData = {
 				"slot": "2H Mace",
 				"dropLevel": 60,
 				"dropWeight": 400000,
-				"description": "Death Blow creates a shockwave, dealing {16/30}% of its Base damage to enemies. Enemies who die to this effect also reset Death Blow's Cooldown.",
+				"description": "Death Blow creates a shockwave, dealing {24/38}% of its Base damage to enemies. Enemies who die to this effect also reset Death Blow's Cooldown.",
 				"flavor": "The malformed snake creatures that live in the swamps are not content with simply killing their prey. They seem to take a malicious pleasure from inflicting as much suffering as possible before death.",
 				"nameLocalized": {
 					"deDE": "[ms]Auslöscher",
@@ -758,19 +758,19 @@ let codexData = {
 					"zhTW": "虐殺"
 				},
 				"descriptionLocalized": {
-					"deDE": "Todesstoß erzeugt eine Schockwelle, die Gegnern {16/30}% des Basisschadens zufügt. Gegner, die durch diesen Effekt sterben, schließen die Abklingzeit von Todesstoß ab.",
-					"esES": "Golpe mortal crea una onda de choque que inflige un {16/30}% de su daño base a los enemigos. Los enemigos que mueren a causa de este efecto reinician el tiempo de reutilización de Golpe mortal.",
-					"esMX": "Golpe Letal genera una onda de choque que inflige un {16/30}% de su daño de base a los enemigos. Además, los enemigos que mueren por este efecto restablecen la recuperación de Golpe Letal.",
-					"frFR": "Coup de grâce génère une onde de choc infligeant {16/30}% de ses dégâts de base aux adversaires. Les cibles tuées par cet effet réinitialisent le temps de recharge de Coup de grâce.",
-					"itIT": "Colpo di Grazia crea un'onda d'urto che infligge il {16/30}% dei suoi danni base. I nemici che muoiono per questo effetto ripristinano il tempo di recupero di Colpo di Grazia.",
-					"jaJP": "〈死の一撃〉が衝撃波を作り出し、基礎ダメージの{16/30}%を敵に与える。また、この効果で敵を倒すと〈死の一撃〉のクールダウンがリセットされる。",
-					"koKR": "결정타가 충격파를 일으켜, 적들에게 기본 공격력의 {16/30}%만큼 피해를 줍니다. 이 효과에 적이 죽으면 결정타의 재사용 대기시간이 초기화됩니다.",
-					"plPL": "Śmiertelny Cios tworzy falę uderzeniową, która zadaje wrogom równowartość {16/30}% obrażeń podstawowych od tej umiejętności. Przeciwnicy, którzy zginą pod wpływem tego efektu, powodują wyzerowanie czasu odnowienia Śmiertelnego Ciosu.",
-					"ptBR": "Golpe Mortal cria uma onda de choque, causando {16/30}% do dano-base aos inimigos. Inimigos que morrem devido a esse efeito também reiniciam a recarga de Golpe Mortal.",
-					"ruRU": "\"Смертельный удар\" выпускает ударную волну, наносящую противникам {16/30}% базового урона. Если противники погибают от волны, \"Смертельный удар\" восстанавливается.",
-					"trTR": "Ölüm Darbesi, düşmanlara Temel hasarının {16/30}% kadarı hasar veren bir şok dalgası oluşturur. Bu etkiyle ölen düşmanlar, Ölüm Darbesi Bekleme Süresini de sıfırlar.",
-					"zhCN": "死亡重击制造一道震荡波, 对敌人造成其基础伤害的 {16/30}%。该效果消灭敌人也会重置死亡重击的冷却时间。",
-					"zhTW": "死亡之擊會產生衝擊波,對敵人造成 {16/30}% 基礎傷害。敵人被此效果擊殺會重置死亡之擊的冷卻時間。"
+					"deDE": "Todesstoß erzeugt eine Schockwelle, die Gegnern {24/38}% des Basisschadens zufügt. Gegner, die durch diesen Effekt sterben, schließen die Abklingzeit von Todesstoß ab.",
+					"esES": "Golpe mortal crea una onda de choque que inflige un {24/38}% de su daño base a los enemigos. Los enemigos que mueren a causa de este efecto reinician el tiempo de reutilización de Golpe mortal.",
+					"esMX": "Golpe Letal genera una onda de choque que inflige un {24/38}% de su daño de base a los enemigos. Además, los enemigos que mueren por este efecto restablecen la recuperación de Golpe Letal.",
+					"frFR": "Coup de grâce génère une onde de choc infligeant {24/38}% de ses dégâts de base aux adversaires. Les cibles tuées par cet effet réinitialisent le temps de recharge de Coup de grâce.",
+					"itIT": "Colpo di Grazia crea un'onda d'urto che infligge il {24/38}% dei suoi danni base. I nemici che muoiono per questo effetto ripristinano il tempo di recupero di Colpo di Grazia.",
+					"jaJP": "〈死の一撃〉が衝撃波を作り出し、基礎ダメージの{24/38}%を敵に与える。また、この効果で敵を倒すと〈死の一撃〉のクールダウンがリセットされる。",
+					"koKR": "결정타가 충격파를 일으켜, 적들에게 기본 공격력의 {24/38}%만큼 피해를 줍니다. 이 효과에 적이 죽으면 결정타의 재사용 대기시간이 초기화됩니다.",
+					"plPL": "Śmiertelny Cios tworzy falę uderzeniową, która zadaje wrogom równowartość {24/38}% obrażeń podstawowych od tej umiejętności. Przeciwnicy, którzy zginą pod wpływem tego efektu, powodują wyzerowanie czasu odnowienia Śmiertelnego Ciosu.",
+					"ptBR": "Golpe Mortal cria uma onda de choque, causando {24/38}% do dano-base aos inimigos. Inimigos que morrem devido a esse efeito também reiniciam a recarga de Golpe Mortal.",
+					"ruRU": "\"Смертельный удар\" выпускает ударную волну, наносящую противникам {24/38}% базового урона. Если противники погибают от волны, \"Смертельный удар\" восстанавливается.",
+					"trTR": "Ölüm Darbesi, düşmanlara Temel hasarının {24/38}% kadarı hasar veren bir şok dalgası oluşturur. Bu etkiyle ölen düşmanlar, Ölüm Darbesi Bekleme Süresini de sıfırlar.",
+					"zhCN": "死亡重击制造一道震荡波, 对敌人造成其基础伤害的 {24/38}%。该效果消灭敌人也会重置死亡重击的冷却时间。",
+					"zhTW": "死亡之擊會產生衝擊波,對敵人造成 {24/38}% 基礎傷害。敵人被此效果擊殺會重置死亡之擊的冷卻時間。"
 				},
 				"flavorLocalized": {
 					"deDE": "Diese missgebildeten Schlangenkreaturen, die in den Sümpfen hausen, geben sich nicht damit zufrieden, ihre Beute einfach zu töten. Es scheint ihnen hämisches Vergnügen zu bereiten, ihr vorher so viel Leid wie möglich zuzufügen.",
@@ -891,7 +891,7 @@ let codexData = {
 					"plPL": "\"Choć wielu barbarzyńców pozostało na Ponurych Ziemiach, nieduże grupy z Plemion Wołu, Żurawia i Niedźwiedzia odłączyły się w poszukiwaniu nowego domu\".\n– Historia dzieci Bul-Kathosa",
 					"ptBR": "\"Embora muitos bárbaros tenham permanecido nas Terras do Medo, pequenos grupos das tribos do Boi, Garça e Urso optaram por procurar um novo lar.\"\n- História dos Filhos de Bul-Kathos",
 					"ruRU": "\"Хотя многие варвары остались в Мертвых землях, небольшие общины из племен Быка, Журавля и Медведя отправились на поиски нового дома\".\nИстория детей Бул-Катоса",
-					"trTR": "\"Çoğu barbar, Dehşetdiyar'da kalsa da küçük Öküz, Turna ve Ayı Kabilesi grupları yeni bir yuva için arayışa çıkmayı tercih etti.\"\n- Bul-Kathos'un Çocuklarının Tarihi",
+					"trTR": "\"Çoğu barbar, Dehşetdiyar'da kalsa da Öküzler, Turna ve Ayı Kabilelerinden küçük gruplar yeni bir yuva için arayışa çıkmayı tercih etti.\"\n- Bul-Kathos'un Çocuklarının Tarihi",
 					"zhCN": "\"虽然许多野蛮人留在了恐惧之地,但来自牛族、鹤族和熊族部落的小部分人反而选择在这片土地上寻找一个新的家园。\" - 布尔凯索之子的历史",
 					"zhTW": "「野蠻人多數留在恐懼之地,但有一小群公牛、靈鶴和大熊部落的同胞選擇另覓家園。」\n- 《布爾凱索之子列傳》"
 				}
@@ -1037,7 +1037,7 @@ let codexData = {
 					"ptBR": "Suas habilidades de Maestria em Armas têm uma carga adicional.\n\nGolpe de Sorte: Causar dano a um inimigo com uma habilidade de Maestria em Armas tem até {32/50}% de chance de atordoá-lo por 2 segundos.",
 					"ruRU": "Умения категории \"Мастер оружия\" получают дополнительный заряд.\n\nУдачный удар: при попадании умения категории \"Мастер оружия\" с вероятностью до {32/50}% оглушают противника на 2 сек.",
 					"trTR": "Silah Ustalığı Yeteneklerin ek bir Yüke sahiptir.\n\nŞanslı Vuruş: Bir düşmana Silah Ustalığı Yeteneği ile hasar vermek, onu en fazla {32/50}% ihtimalle 2 saniye boyunca Sersemletir.",
-					"zhCN": "你的武器精通技能获得额外一次使用次数。\n\n幸运一击: 使用武器精通技能对一名敌人造成伤害最多有 {32/50}% 几率击晕目标, 持续 2 秒。",
+					"zhCN": "你的武器精通技能获得额外一次使用次数。\n\n幸运一击: 使用武器精通技能对敌人造成伤害最多有 {32/50}% 几率击昏目标, 持续 2 秒。",
 					"zhTW": "武器專精技能有一次額外使用次數。\n\n幸運觸發:使用武器專精技能傷害敵人時,有最高 {32/50}% 機率造成敵人昏迷,持續 2 秒。"
 				},
 				"dungeon": "",
@@ -1148,7 +1148,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Dano direto contra inimigos sangrando tem até {20/30}% de chance de atordoá-los por 2.0 segundos.",
 					"ruRU": "Удачный удар: прямой урон противникам с кровотечением с вероятностью {20/30}% оглушает их на 2.0 сек.",
 					"trTR": "Şanslı Vuruş: Kanayan düşmanlara doğrudan hasar vermek, onları 2.0 saniyeliğine en fazla {20/30}% ihtimalle Sersemletir.",
-					"zhCN": "幸运一击: 对流血敌人造成直接伤害最高有 {20/30}% 几率击晕他们 2.0 秒。",
+					"zhCN": "幸运一击: 对流血敌人造成直接伤害最高有 {20/30}% 几率击昏他们 2.0 秒。",
 					"zhTW": "幸運觸發:對流血敵人造成直接傷害時,最高有 {20/30}% 機率擊昏該敵人,持續 2.0 秒。"
 				},
 				"dungeon": "Kor Dragan Barracks",
@@ -1233,7 +1233,7 @@ let codexData = {
 			"Aspect of the Iron Warrior": {
 				"id": 17,
 				"type": "Legendary",
-				"description": "Iron Skin grants Unstoppable, and {10/20}% Damage Reduction.",
+				"description": "Iron Skin grants Unstoppable, and {15/25}% Damage Reduction.",
 				"nameLocalized": {
 					"deDE": "des eisernen Kriegers",
 					"esES": "del guerrero férreo",
@@ -1250,19 +1250,19 @@ let codexData = {
 					"zhTW": "鋼鐵戰士之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eisenhaut verleiht Unaufhaltsamkeit und {10/20}% Schadensreduktion.",
-					"esES": "Piel férrea te vuelve imparable y te otorga un {10/20}% de reducción de daño.",
-					"esMX": "Piel de Hierro te vuelve imparable y te otorga un {10/20}% de reducción de daño.",
-					"frFR": "Galvanisation octroie l'état inarrêtable, ainsi que {10/20}% de réduction des dégâts.",
-					"itIT": "Pelle di Ferro ti rende inarrestabile e conferisce il {10/20}% di riduzione danni.",
-					"jaJP": "〈アイアンスキン〉に抑圧不可状態と{10/20}%のダメージ減少効果が加わる。",
-					"koKR": "철갑 피부가 저지 불가와 {10/20}%의 피해 감소를 부여합니다.",
-					"plPL": "Żelazna Skóra zapewnia Nieustępliwość i redukcję obrażeń o {10/20}%.",
-					"ptBR": "Pele de Ferro concede implacável, e {10/20}% de redução de dano.",
-					"ruRU": "\"Железная кожа\" дает вам неудержимость. Кроме того, вы получаете на {10/20}% меньше урона.",
-					"trTR": "Demir Deri, Durdurulamaz ve {10/20}% Hasar Azaltma sağlar.",
-					"zhCN": "钢铁之肤也会使你获得不可阻挡, 以及 {10/20}%伤害减免。",
-					"zhTW": "鋼鐵之膚會提供無阻效果和 {10/20}% 傷害減免。"
+					"deDE": "Eisenhaut verleiht Unaufhaltsamkeit und {15/25}% Schadensreduktion.",
+					"esES": "Piel férrea te vuelve imparable y te otorga un {15/25}% de reducción de daño.",
+					"esMX": "Piel de Hierro te vuelve imparable y te otorga un {15/25}% de reducción de daño.",
+					"frFR": "Galvanisation octroie l'état inarrêtable, ainsi que {15/25}% de réduction des dégâts.",
+					"itIT": "Pelle di Ferro ti rende inarrestabile e conferisce il {15/25}% di riduzione danni.",
+					"jaJP": "〈アイアンスキン〉に抑圧不可状態と{15/25}%のダメージ減少効果が加わる。",
+					"koKR": "철갑 피부가 저지 불가와 {15/25}%의 피해 감소를 부여합니다.",
+					"plPL": "Żelazna Skóra zapewnia Nieustępliwość i redukcję obrażeń o {15/25}%.",
+					"ptBR": "Pele de Ferro concede implacável, e {15/25}% de redução de dano.",
+					"ruRU": "\"Железная кожа\" дает вам неудержимость. Кроме того, вы получаете на {15/25}% меньше урона.",
+					"trTR": "Demir Deri, Durdurulamaz ve {15/25}% Hasar Azaltma sağlar.",
+					"zhCN": "钢铁之肤也会使你获得不可阻挡, 以及 {15/25}%伤害减免。",
+					"zhTW": "鋼鐵之膚會提供無阻效果和 {15/25}% 傷害減免。"
 				},
 				"dungeon": "Carrion Fields",
 				"region": "Dry Steppes"
@@ -2072,7 +2072,7 @@ let codexData = {
 			"Aspect of the Blurred Beast": {
 				"id": 149,
 				"type": "Legendary",
-				"description": "While dashing, Shred seeks out Nearby Poisoned enemies instantly dealing {60/90}% of the Poisoning damage to them.",
+				"description": "While dashing, Shred seeks out Nearby Poisoned enemies instantly dealing {70/100}% of the Poisoning damage to them.",
 				"nameLocalized": {
 					"deDE": "der verschwommenen Bestie",
 					"esES": "de la bestia borrosa",
@@ -2089,19 +2089,19 @@ let codexData = {
 					"zhTW": "獸影殘像之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Während Ihr stürmt, sucht Zerfetzen nach vergifteten Gegnern in der Nähe und fügt ihnen sofort {60/90}% des Giftschadens zu.",
-					"esES": "Mientras usas una carrera, Despedazar busca a enemigos envenenados cercanos y les inflige al instante un {60/90}% del daño de veneno.",
-					"esMX": "Al arremeter, Despedazar busca a los enemigos envenenados cercanos y les inflige un {60/90}% de daño de veneno.",
-					"frFR": "Pendant Célérité, Déchiquetage recherche les adversaires empoisonnés à proximité et leur inflige instantanément {60/90}% des dégâts de poison.",
-					"itIT": "Durante lo scatto, Dilaniamento ricerca i nemici avvelenati vicini, infliggendo istantaneamente il {60/90}% dei danni da veleno.",
-					"jaJP": "〈切り裂き〉のダッシュ中に付近にいる毒状態の敵を追尾し、その敵が受けている毒の{60/90}%のダメージを即座に与える。",
-					"koKR": "질주하는 동안 칼날 발톱이 주위의 중독된 적을 찾아 즉시 {60/90}%의 중독 피해를 줍니다.",
-					"plPL": "Kiedy pędzisz, Rozszarpanie wyszukuje pobliskich zatrutych wrogów i natychmiast zadaje im {60/90}% obrażeń od zatrucia.",
-					"ptBR": "Durante uma disparada, Retalhar busca inimigos envenenados próximos e instantaneamente causa {60/90}% de dano venenoso a eles.",
-					"ruRU": "Во время рывка \"Разрывание\" в первую очередь атакует окружающих отравленных противников и мгновенно наносит им {60/90}% урона от яда.",
-					"trTR": "Doğra, ileri atılırken Zehirlenmiş Yakın düşmanları arar ve onlara anında Zehirleme hasarının {60/90}% kadarını uygular.",
-					"zhCN": "疾奔时, 利爪撕扯会寻找附近中毒的敌人, 立即对其造成毒素伤害的 {60/90}%。",
-					"zhTW": "衝刺時,撕碎會尋找附近的中毒敵人,立即對其造成 {60/90}% 中毒傷害。"
+					"deDE": "Während Ihr stürmt, sucht Zerfetzen nach vergifteten Gegnern in der Nähe und fügt ihnen sofort {70/100}% des Giftschadens zu.",
+					"esES": "Mientras usas una carrera, Despedazar busca a enemigos envenenados cercanos y les inflige al instante un {70/100}% del daño de veneno.",
+					"esMX": "Al arremeter, Despedazar busca a los enemigos envenenados cercanos y les inflige un {70/100}% de daño de veneno.",
+					"frFR": "Pendant Célérité, Déchiquetage recherche les adversaires empoisonnés à proximité et leur inflige instantanément {70/100}% des dégâts de poison.",
+					"itIT": "Durante lo scatto, Dilaniamento ricerca i nemici avvelenati vicini, infliggendo istantaneamente il {70/100}% dei danni da veleno.",
+					"jaJP": "〈切り裂き〉のダッシュ中に付近にいる毒状態の敵を追尾し、その敵が受けている毒の{70/100}%のダメージを即座に与える。",
+					"koKR": "질주하는 동안 칼날 발톱이 주위의 중독된 적을 찾아 즉시 {70/100}%의 중독 피해를 줍니다.",
+					"plPL": "Kiedy pędzisz, Rozszarpanie wyszukuje pobliskich zatrutych wrogów i natychmiast zadaje im {70/100}% obrażeń od zatrucia.",
+					"ptBR": "Durante uma disparada, Retalhar busca inimigos envenenados próximos e instantaneamente causa {70/100}% de dano venenoso a eles.",
+					"ruRU": "Во время рывка \"Разрывание\" в первую очередь атакует окружающих отравленных противников и мгновенно наносит им {70/100}% урона от яда.",
+					"trTR": "Doğra, ileri atılırken Zehirlenmiş Yakın düşmanları arar ve onlara anında Zehirleme hasarının {70/100}% kadarını uygular.",
+					"zhCN": "疾奔时, 利爪撕扯会寻找附近中毒的敌人, 立即对其造成毒素伤害的 {70/100}%。",
+					"zhTW": "衝刺時,撕碎會尋找附近的中毒敵人,立即對其造成 {70/100}% 中毒傷害。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -2297,7 +2297,7 @@ let codexData = {
 			"Seismic-shift Aspect": {
 				"id": 152,
 				"type": "Legendary",
-				"description": "Earth Spike launches spikes in a line and has a {1.5/2.5} second Cooldown.",
+				"description": "Earth Spike launches spikes in a line and has a {1/2} second Cooldown.",
 				"nameLocalized": {
 					"deDE": "[ms]Seismischer[fs]Seismische[ns]Seismisches[p]Seismische[c]Seismik-",
 					"esES": "de movimiento sísmico",
@@ -2314,19 +2314,19 @@ let codexData = {
 					"zhTW": "猛震轉移"
 				},
 				"descriptionLocalized": {
-					"deDE": "Erdspieß erzeugt Stacheln in einer Linie und hat eine Abklingzeit von {1.5/2.5} Sek.",
-					"esES": "Aguja de tierra lanza agujas en una línea y tiene un tiempo de reutilización de {1.5/2.5} s.",
-					"esMX": "Púa Terrestre lanza púas en una línea y tiene una recuperación de {1.5/2.5} segundos.",
-					"frFR": "Lance de terre projette une ligne de pointes acérées et a désormais un temps de recharge de {1.5/2.5} s.",
-					"itIT": "Spuntone di Terra lancia degli spuntoni in fila e ha un tempo di recupero di {1.5/2.5} s.",
-					"jaJP": "大地の牙を使用時、一列になった棘を発射する。クールダウンは{1.5/2.5}秒。",
-					"koKR": "대지의 쐐기가 일직선상으로 쐐기를 날리고 {1.5/2.5}초의 재사용 대기시간이 적용됩니다.",
-					"plPL": "Ziemny Kolec wystrzeliwuje pociski w linii prostej, a jego czas odnowienia wynosi {1.5/2.5} sek.",
-					"ptBR": "Espeto Terreno lança espetos em uma linha e tem uma recarga de {1.5/2.5} segundos.",
-					"ruRU": "\"Шип земли\" запускает цепь шипов по прямой линии и восстанавливается за {1.5/2.5} сек.",
-					"trTR": "Toprak Dikeni, bir çizgi boyunca sivri dikenler fırlatır ve {1.5/2.5} saniyelik bir Bekleme Süresine sahiptir.",
-					"zhCN": "大地尖刺会在一条直线上发射尖刺, 并且有 {1.5/2.5} 秒的冷却时间。",
-					"zhTW": "大地尖刺會直線發射尖刺,冷卻時間為 {1.5/2.5} 秒。"
+					"deDE": "Erdspieß erzeugt Stacheln in einer Linie und hat eine Abklingzeit von {1/2} Sek.",
+					"esES": "Aguja de tierra lanza agujas en una línea y tiene un tiempo de reutilización de {1/2} s.",
+					"esMX": "Púa Terrestre lanza púas en una línea y tiene una recuperación de {1/2} segundos.",
+					"frFR": "Lance de terre projette une ligne de pointes acérées et a désormais un temps de recharge de {1/2} s.",
+					"itIT": "Spuntone di Terra lancia degli spuntoni in fila e ha un tempo di recupero di {1/2} s.",
+					"jaJP": "大地の牙を使用時、一列になった棘を発射する。クールダウンは{1/2}秒。",
+					"koKR": "대지의 쐐기가 일직선상으로 쐐기를 날리고 {1/2}초의 재사용 대기시간이 적용됩니다.",
+					"plPL": "Ziemny Kolec wystrzeliwuje pociski w linii prostej, a jego czas odnowienia wynosi {1/2} sek.",
+					"ptBR": "Espeto Terreno lança espetos em uma linha e tem uma recarga de {1/2} segundos.",
+					"ruRU": "\"Шип земли\" запускает цепь шипов по прямой линии и восстанавливается за {1/2} сек.",
+					"trTR": "Toprak Dikeni, bir çizgi boyunca sivri dikenler fırlatır ve {1/2} saniyelik bir Bekleme Süresine sahiptir.",
+					"zhCN": "大地尖刺会在一条直线上发射尖刺, 并且有 {1/2} 秒的冷却时间。",
+					"zhTW": "大地尖刺會直線發射尖刺,冷卻時間為 {1/2} 秒。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -3207,7 +3207,7 @@ let codexData = {
 			"Mangled Aspect": {
 				"id": 50,
 				"type": "Legendary",
-				"description": "When you are struck as a Werebear you have a {20/30}% chance to gain 1.0 Spirit.",
+				"description": "When you are struck as a Werebear you have a {30/40}% chance to gain 1.0 Spirit.",
 				"nameLocalized": {
 					"deDE": "[ms]Verstümmelter[fs]Verstümmelte[ns]Verstümmeltes[p]Verstümmelte[c]Verstümmlungs-",
 					"esES": "[fs]mutilada[ms]mutilado[fp]mutiladas[mp]mutilados",
@@ -3224,19 +3224,19 @@ let codexData = {
 					"zhTW": "割裂"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr in Werbärgestalt getroffen werdet, besteht eine Chance von {20/30}%, dass Ihr 1.0 Geisteskraft erhaltet.",
-					"esES": "Tienes un {20/30}% de probabilidad de obtener 1.0 de espíritu cuando te golpean en forma de hombre oso.",
-					"esMX": "Cuando te atacan mientras estás en forma de hombre oso, tienes un {20/30}% de probabilidad de obtener 1.0 de Espíritu.",
-					"frFR": "Vous avez {20/30}% de chances de gagner 1.0 points d'esprit chaque fois que l'on vous touche lorsque vous êtes sous forme d'ursoïde.",
-					"itIT": "Quando vieni colpito in forma di Orso Mannaro hai una probabilità del {20/30}% di ottenere 1.0 spirito.",
-					"jaJP": "人熊形態になっている間に攻撃を受けると{20/30}%の確率で精神力を1.0獲得する。",
-					"koKR": "곰인간일 때 적중당하면 {20/30}% 확률로 영력을 1.0 얻습니다.",
-					"plPL": "Masz {20/30}% szans na zyskanie 1.0 pkt. do siły duchowej, kiedy otrzymasz trafienie jako niedźwiedziołak.",
-					"ptBR": "Quando receber um golpe na forma de urso, você tem {20/30}% de chance de ganhar 1.0 de espírito.",
-					"ruRU": "При получении урона в облике медведя вы с вероятностью {20/30}% накапливаете 1.0 ед. духа.",
-					"trTR": "Bir Ayı Adam olarak vurulduğunda {20/30}% ihtimalle 1.0 Ruh kazanırsın.",
-					"zhCN": "当你在熊人状态下被击中时, 你有 {20/30}% 几率获得 1.0 点灵力。",
-					"zhTW": "於熊人形態被擊中時有 {20/30}% 機率獲得 1.0 點靈力。"
+					"deDE": "Wenn Ihr in Werbärgestalt getroffen werdet, besteht eine Chance von {30/40}%, dass Ihr 1.0 Geisteskraft erhaltet.",
+					"esES": "Tienes un {30/40}% de probabilidad de obtener 1.0 de espíritu cuando te golpean en forma de hombre oso.",
+					"esMX": "Cuando te atacan mientras estás en forma de hombre oso, tienes un {30/40}% de probabilidad de obtener 1.0 de Espíritu.",
+					"frFR": "Vous avez {30/40}% de chances de gagner 1.0 points d'esprit chaque fois que l'on vous touche lorsque vous êtes sous forme d'ursoïde.",
+					"itIT": "Quando vieni colpito in forma di Orso Mannaro hai una probabilità del {30/40}% di ottenere 1.0 spirito.",
+					"jaJP": "人熊形態になっている間に攻撃を受けると{30/40}%の確率で精神力を1.0獲得する。",
+					"koKR": "곰인간일 때 적중당하면 {30/40}% 확률로 영력을 1.0 얻습니다.",
+					"plPL": "Masz {30/40}% szans na zyskanie 1.0 pkt. do siły duchowej, kiedy otrzymasz trafienie jako niedźwiedziołak.",
+					"ptBR": "Quando receber um golpe na forma de urso, você tem {30/40}% de chance de ganhar 1.0 de espírito.",
+					"ruRU": "При получении урона в облике медведя вы с вероятностью {30/40}% накапливаете 1.0 ед. духа.",
+					"trTR": "Bir Ayı Adam olarak vurulduğunda {30/40}% ihtimalle 1.0 Ruh kazanırsın.",
+					"zhCN": "当你在熊人状态下被击中时, 你有 {30/40}% 几率获得 1.0 点灵力。",
+					"zhTW": "於熊人形態被擊中時有 {30/40}% 機率獲得 1.0 點靈力。"
 				},
 				"dungeon": "Immortal Emanation",
 				"region": "Fractured Peaks"
@@ -3350,7 +3350,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Habilidades de Tempestade têm até {15/25}% de chance de conceder 4.0 de espírito.\nSuas habilidades de Tempestade básicas agora também são habilidades de Lobisomem.",
 					"ruRU": "Удачный удар: умения бури с вероятностью до {15/25}% дают 4.0 ед. духа.\n\nБазовые умения бури теперь также считаются умениями волка.",
 					"trTR": "Şanslı Vuruş: Fırtına Yetenekleri, en fazla {15/25}% ihtimalle 4.0 Ruh sağlar.\n\nTemel Fırtına Yeteneklerin artık aynı zamanda Kurt Adam Yetenekleri olur.",
-					"zhCN": "幸运一击: 风暴技能有最多 {15/25}% 几率产生 4.0 点灵力。\n\n你的基础风暴技能现在也是狼人技能",
+					"zhCN": "幸运一击: 风暴技能有最多 {15/25}% 几率产生 4.0 点灵力。\n\n你的本身属于风暴类的技能现在也是狼人技能",
 					"zhTW": "幸運觸發: 風暴技能最高有 {15/25}% 機率賦予 4.0 點靈力。\n\n你的基礎風暴技能也屬於狼人技能。"
 				},
 				"flavorLocalized": {
@@ -3589,7 +3589,7 @@ let codexData = {
 					"ptBR": "A duração de Baluarte Terreno é aumentada em 6 segundos. Além disso, matar um inimigo com habilidades de Terra restaura {#} da sua barreira ativa de Baluarte Terreno.",
 					"ruRU": "Время действия \"Земляного бастиона\" продлевается на 6 сек. Кроме того, когда вы убиваете противника умением земли, прочность активного барьера от \"Земляного бастиона\" восполняется на {#} ед.",
 					"trTR": "Toprak Siperi süresi 6 saniye artar. Ek olarak Toprak Yetenekleri ile bir düşman öldürmek, etkin Toprak Siperi Bariyerinin {#} kadarını yeniler.",
-					"zhCN": "大地壁垒的持续时间延长 6 秒。此外, 用大地技能消灭一名敌人会为你已激活的大地壁垒的屏障补充 {#} 点护盾值。",
+					"zhCN": "大地壁垒的持续时间延长 6 秒。此外, 用大地技能消灭一名敌人会为你激活的大地壁垒的屏障补充 {#} 点护盾值。",
 					"zhTW": "大地壁壘持續時間延長 6 秒。此外,使用大地技能擊殺敵人時,會使你恢復 {#} 點已擁有的大地壁壘 屏障。"
 				},
 				"dungeon": "Sealed Archives",
@@ -3969,7 +3969,7 @@ let codexData = {
 					"ptBR": "Causa {15/25}% de dano aumentado enquanto tem uma barreira ativa.",
 					"ruRU": "Пока вы защищены барьером, вы наносите на x{15/25}% больше урона.",
 					"trTR": "Etkin bir Bariyere sahipken x{15/25}% artırılmış hasar ver.",
-					"zhCN": "你有一面激活的屏障时, 你造成 x{15/25}% 增伤伤害。",
+					"zhCN": "你有激活的屏障时, 你造成 x{15/25}% 增伤伤害。",
 					"zhTW": "擁有屏障時,造成的傷害提高 x{15/25}%。"
 				},
 				"dungeon": "",
@@ -4006,7 +4006,7 @@ let codexData = {
 					"ptBR": "Inimigos distantes têm 8.0% de chance de serem atordoados por 2.0 segundos ao atingirem você. Você causa x{20/40}% de dano aumentado a inimigos atordoados.",
 					"ruRU": "Противники, наносящие вам урон в дальнем бою, с вероятностью 8.0% оглушаются на 2.0 сек. Оглушенные цели получают на x{20/40}% больше урона от ваших атак.",
 					"trTR": "Uzak düşmanlar sana vurduklarında 2.0 saniye boyunca 8.0% ihtimalle Sersemler. Sersemlemiş düşmanlara x{20/40}% artırılmış hasar verirsin.",
-					"zhCN": "远距敌人在命中你时有 8.0% 几率被击晕 2.0 秒。你对被击晕的敌人造成 x{20/40}% 增伤伤害。",
+					"zhCN": "远距敌人在命中你时有 8.0% 几率被击昏 2.0 秒。你对被击昏的敌人造成 x{20/40}% 增伤伤害。",
 					"zhTW": "遠距離敵人擊中你時,有 8.0% 機率使其昏迷 2.0 秒。你對昏迷的敵人造成的傷害提高 x{20/40}%。"
 				},
 				"dungeon": "Abandoned Mineworks",
@@ -4732,7 +4732,7 @@ let codexData = {
 					"ptBR": "Você deixa um rastro de gelo que gela inimigos. Você causa {7/10}% de dano adicional a inimigos com gelidez.",
 					"ruRU": "Вы оставляете морозный след, на котором противники коченеют. Вы наносите на x{7/10}% больше урона окоченевшим целям.",
 					"trTR": "Arkanda düşmanları Soğutan bir buz izi bırakırsın. Soğutulmuş düşmanlara x{7/10}% daha fazla hasar verirsin.",
-					"zhCN": "留下一道可以冻伤敌人的冰霜痕迹。你对被冻伤的敌人造成的伤害提高 x{7/10}%。",
+					"zhCN": "留下一道可以冻伤敌人的寒霜痕迹。你对被冻伤的敌人造成的伤害提高 x{7/10}%。",
 					"zhTW": "留下冰霜痕跡對敵人造成冰冷效果。對受到冰冷效果的敵人造成的傷害提高 x{7/10}%。"
 				},
 				"flavorLocalized": {
@@ -5022,7 +5022,7 @@ let codexData = {
 					"ptBR": "\"Cada tomo, cada pergaminho, cada livro neste templo produz a mesma resposta. O único ser disposto a enfrentar o Conflito Eterno, os Males Supremos, era Lilith.\"\n- Elias",
 					"ruRU": "\"Каждый манускрипт, свиток, книга в этом храме хранят один и тот же ответ. Единственной, кто хотела остановить Вечное противостояние и великие воплощения зла, была Лилит\".\nЭлиас",
 					"trTR": "\"Bu tapınaktaki her büyük kitap, her parşömen ve her kitap aynı cevabı veriyor. Baş Şeytanlara ve Ebedî Çatışmaya karşı gelmeye cesaret edebilen tek varlık Lilith olmuş.\"\n- Elias",
-					"zhCN": "\"这座神殿内的每部典籍、每个卷轴、每一本书都给出同样的答案。唯一愿意对抗永恒之战、对抗魔神的,只有莉莉丝。\" - 厄莱亚斯",
+					"zhCN": "\"每本巨著,每册书卷,神殿中的每一本书都是相同的答案。愿意抵抗永恒之战、反抗魔神的——唯有莉莉丝。\" - 厄莱亚斯",
 					"zhTW": "「這座神殿中的所有聖典、卷軸和書冊,全都歸納出相同的答案:莉莉絲。唯有她願意阻止永恆之戰與三大罪惡之源。」\n- 伊萊亞斯"
 				}
 			},
@@ -5223,7 +5223,7 @@ let codexData = {
 					"itIT": "Ottieni il x{0.25/0.5}% di armatura aggiuntiva per 4.0 s quando infliggi qualsiasi forma di danno, fino a un massimo del x{25/50}%.",
 					"jaJP": "なんらかのダメージを与えると4.0秒間、防御力がx{0.25/0.5}%上昇する。効果は最大x{25/50}%まで蓄積する。",
 					"koKR": "어떤 형태로든 피해를 주면 방어도가 4.0초 동안 x{0.25/0.5}% 증가합니다. 이 효과는 최대 x{25/50}%까지 중첩됩니다.",
-					"plPL": "Gdy zadasz jakiekolwiek obrażenia, zyskujesz premię x{0.25/0.5}% do pancerza na 4.0 sek. Efekt kumuluje się maksymalnie x{25/50}% razy.",
+					"plPL": "Gdy zadasz jakiekolwiek obrażenia, zyskujesz premię x{0.25/0.5}% do pancerza na 4.0 sek. Efekt kumuluje się maksymalnie do x{25/50}%.",
 					"ptBR": "Você recebe x{0.25/0.5}% de armadura aumentada por 4.0 segundos quando causa qualquer forma de dano, acumulando até x{25/50}%.",
 					"ruRU": "Когда вы наносите урон, ваша броня усиливается на x{0.25/0.5}% на 4.0 сек. Эффект суммируется до x{25/50}%.",
 					"trTR": "Herhangi bir türden hasar verdiğinde 4.0 saniye boyunca en fazla x{25/50}% kadar birikebilen x{0.25/0.5}% artırılmış Zırh kazanırsın.",
@@ -5304,7 +5304,7 @@ let codexData = {
 					"ptBR": "Enquanto você tem uma barreira ativa, há {7/13}% de chance de ignorar dano direto recebido de inimigos distantes.",
 					"ruRU": "Пока на вас действует барьер, вы с вероятностью {7/13}% игнорируете прямой урон от атак дальнего боя.",
 					"trTR": "Etkin bir Bariyere sahipken Uzak düşmanlardan gelen doğrudan hasarı {7/13}% ihtimalle yok sayarsın.",
-					"zhCN": "当你有屏障激活时, 有 {7/13}% 几率无视来自远距敌人的直接伤害。",
+					"zhCN": "你有激活的屏障时, 有 {7/13}% 几率无视来自远距敌人的直接伤害。",
 					"zhTW": "擁有屏障時,有 {7/13}% 機率無視遠距離敵人的直接傷害。"
 				},
 				"dungeon": "Lost Keep",
@@ -5548,7 +5548,7 @@ let codexData = {
 					"frFR": "L'attaque principale de Lance d'os rend vulnérables les cibles touchées après la première cible pendant {1.5/2.5} s. Les éclats osseux de Lance d'os infligent {50/100}% de dégâts supplémentaires aux adversaires vulnérables et les transpercent.",
 					"itIT": "L'attacco primario di Lancia d'Ossa rende vulnerabili i nemici colpiti dopo il primo per {1.5/2.5} s. I frammenti d'ossa di Lancia d'Ossa infliggono il {50/100}% di danni aggiuntivi ai nemici vulnerabili e li trapassano.",
 					"jaJP": "〈ボーンスピア〉のメイン攻撃が命中した2体目以降の敵を{1.5/2.5}秒間、脆弱にする。〈ボーンスピア〉から出る骨の欠片が、脆弱状態の敵に{50/100}%のボーナスダメージを与え、貫通する。",
-					"koKR": "뼈 창의 주 공격이 첫 번째 공격 후에 적중한 적을 {1.5/2.5}초 동안 취약하게 합니다. 뼈 창의 뼈 파편이 취약한 적에게 {50/100}%의 추가 피해를 주고 관통합니다.",
+					"koKR": "뼈 창의 주 공격이 첫 타격 이후 적중한 적을 {1.5/2.5}초 동안 취약하게 만듭니다. 뼈 창의 뼈 파편이 취약한 적에게 {50/100}%의 추가 피해를 주고 관통합니다.",
 					"plPL": "Atak podstawowy Włóczni z Kości sprawia, że wszyscy trafieni wrogowie poza pierwszym stają się odsłonięci na {1.5/2.5} sek. Odłamki Włóczni z Kości przebijają odsłoniętych przeciwników i zadają im {50/100}% dodatkowych obrażeń.",
 					"ptBR": "O ataque primário de Lança de Ossos torna os inimigos atingidos vulneráveis por {1.5/2.5} segundos. Os estilhaços ósseos de Lança de Ossos causam {50/100}% de bônus de dano a inimigos vulneráveis e os atravessa.",
 					"ruRU": "\"Костяное копье\" делает каждую последующую цель уязвимой на {1.5/2.5} сек. Костяные осколки пронзают уязвимых противников и наносят им на {50/100}% больше урона.",
@@ -6582,7 +6582,7 @@ let codexData = {
 					"ptBR": "Ao pegar {5/10} orbes de sangue, um Espírito de Ossos gratuito é evocado, causando bônus de dano com base na sua porcentagem de vida atual.",
 					"ruRU": "Когда вы подбираете {5/10} сферы крови:сфер крови, без затрат ресурса появляется костяной дух, наносящий дополнительный урон в зависимости от вашего текущего уровня здоровья.",
 					"trTR": "{5/10} Kan Küresi topladığında mevcut Can yüzdene göre bonus hasar veren bedelsiz bir Kemik Ruh ortaya çıkar.",
-					"zhCN": "当你拾取 {5/10}个生命球时, 生成一个免费的骨灵, 造成基于你当前生命值百分比的加成伤害。",
+					"zhCN": "当你拾取 {5/10} 个生命球时, 生成一个免费的骨灵, 造成基于你当前生命值百分比的加成伤害。",
 					"zhTW": "拾取 {5/10} 個生命之球後,會生成一個骸骨之魂,造成的傷害會依照你目前的生命值比例獲得加成。"
 				},
 				"flavorLocalized": {
@@ -6861,7 +6861,7 @@ let codexData = {
 					"ptBR": "do Arauto do Frio",
 					"ruRU": "[ms]хладоносный[fs]хладоносная[ns]хладоносное[p]хладоносные",
 					"trTR": "Soğuk Getirenin",
-					"zhCN": "冰霜使者的",
+					"zhCN": "寒冰使者的",
 					"zhTW": "冰寒使者"
 				},
 				"descriptionLocalized": {
@@ -6876,7 +6876,7 @@ let codexData = {
 					"ptBR": "A cada 10.0 segundos, seus Magos Esqueletos Gélidos lançam uma nevasca que causa {#} de dano gélido e gela inimigos de forma contínua por 8% ao longo de 6.0 segundos.",
 					"ruRU": "Раз в 10.0 сек. ваши скелеты-маги льда вызывают снежную бурю, наносящую {#} ед. урона от льда. Противники в области бури коченеют, в результате чего их скорость передвижения снижается на 8%. Действует в течение 6.0 сек.",
 					"trTR": "Soğuk İskelet Sihirbazların her 10.0 saniyede bir {#} Soğuk hasarı veren ve düşmanları 6.0 saniye boyunca 8% kadar sürekli olarak Soğutan bir kar fırtınası yaratır.",
-					"zhCN": "每隔 10.0 秒, 你的冰霜骷髅法师施放一阵暴风雪, 在 6.0 秒内造成 {#} 点冰霜伤害并持续冻伤敌人 8%。",
+					"zhCN": "每隔 10.0 秒, 你的寒冰骷髅法师施放一阵暴风雪, 在 6.0 秒内造成 {#} 点寒冰伤害并持续冻伤敌人 8%。",
 					"zhTW": "每 10.0 秒,你的冰寒骷髏法師會施放暴風雪,在 6.0 秒內造成 {#} 點冰寒傷害,並持續對敵人造成 8% 冰冷效果。"
 				},
 				"dungeon": "",
@@ -6990,7 +6990,7 @@ let codexData = {
 					"ptBR": "Inimigos afetados por Dama de Ferro têm {15/25}% de chance de serem atordoados por 1.0 segundo ao causarem dano direto.",
 					"ruRU": "\"Железная дева\" с вероятностью {15/25}% оглушает пораженных противников на 1.0 сек., когда они наносят прямой урон.",
 					"trTR": "Çivili Tabuttan etkilenen düşmanlar, doğrudan hasar verdiklerinde {15/25}% ihtimalle 1.0 saniye boyunca Sersemler.",
-					"zhCN": "受你的铁处女影响的敌人在其造成直接伤害时, 有 {15/25}% 几率陷入昏迷, 持续 1.0 秒。",
+					"zhCN": "受你的铁处女影响的敌人在其造成直接伤害时, 有 {15/25}% 几率被击昏, 持续 1.0 秒。",
 					"zhTW": "被你攻擊反噬影響的敵人在造成直接攻擊時,有 {15/25}% 機率被擊昏 1.0 秒。"
 				},
 				"dungeon": "Deserted Underpass",
@@ -7055,7 +7055,7 @@ let codexData = {
 			"Flesh-Rending Aspect": {
 				"id": 69,
 				"type": "Legendary",
-				"description": "After Decompose spawns a Corpse, gain {10/20} Essence.",
+				"description": "After Decompose spawns a Corpse, gain {20/40} Essence.",
 				"nameLocalized": {
 					"deDE": "[ms]Zerfleischender[fs]Zerfleischende[ns]Zerfleischendes[p]Zerfleischende[c]Zerfleischungs-",
 					"esES": "de desgarracarne",
@@ -7072,19 +7072,19 @@ let codexData = {
 					"zhTW": "撕裂血肉"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Zersetzen eine Leiche erzeugt, erhaltet Ihr {10/20} Essenz.",
-					"esES": "Cuando Descomponer genera un cadáver, obtienes {10/20} de esencia.",
-					"esMX": "Después de que Descomponer genera un cadáver, obtienes {10/20} de Esencia.",
-					"frFR": "Lorsque Décomposition génère un cadavre, vous gagnez {10/20} points d'essence.",
-					"itIT": "Dopo che Decomposizione fa apparire un cadavere, ottieni {10/20} essenza.",
-					"jaJP": "〈腐敗〉が死体を出現させると、精髄を{10/20}獲得する。",
-					"koKR": "부패가 시체를 생성할 때 정수를 {10/20} 얻습니다.",
-					"plPL": "Kiedy Rozkład tworzy Zwłoki, otrzymujesz {10/20} pkt. esencji.",
-					"ptBR": "Depois que Decomposição gera um cadáver, você recebe {10/20} de essência.",
-					"ruRU": "Когда \"Распад\" создает труп, вы получаете {10/20} ед. эссенции.",
-					"trTR": "Çürüme bir Ceset oluşturduktan sonra {10/20} Öz kazan.",
-					"zhCN": "使用分解生成亡骸时获得 {10/20} 点精魂。",
-					"zhTW": "使用分解生成屍體時,獲得 {10/20} 點魂能。"
+					"deDE": "Wenn Zersetzen eine Leiche erzeugt, erhaltet Ihr {20/40} Essenz.",
+					"esES": "Cuando Descomponer genera un cadáver, obtienes {20/40} de esencia.",
+					"esMX": "Después de que Descomponer genera un cadáver, obtienes {20/40} de Esencia.",
+					"frFR": "Lorsque Décomposition génère un cadavre, vous gagnez {20/40} points d'essence.",
+					"itIT": "Dopo che Decomposizione fa apparire un cadavere, ottieni {20/40} essenza.",
+					"jaJP": "〈腐敗〉が死体を出現させると、精髄を{20/40}獲得する。",
+					"koKR": "부패가 시체를 생성할 때 정수를 {20/40} 얻습니다.",
+					"plPL": "Kiedy Rozkład tworzy Zwłoki, otrzymujesz {20/40} pkt. esencji.",
+					"ptBR": "Depois que Decomposição gera um cadáver, você recebe {20/40} de essência.",
+					"ruRU": "Когда \"Распад\" создает труп, вы получаете {20/40} ед. эссенции.",
+					"trTR": "Çürüme bir Ceset oluşturduktan sonra {20/40} Öz kazan.",
+					"zhCN": "使用分解生成亡骸时获得 {20/40} 点精魂。",
+					"zhTW": "使用分解生成屍體時,獲得 {20/40} 點魂能。"
 				},
 				"dungeon": "Nostrava",
 				"region": "Fractured Peaks"
@@ -7166,7 +7166,7 @@ let codexData = {
 			"Fastblood Aspect": {
 				"id": 68,
 				"type": "Legendary",
-				"description": "Blood Orbs reduce your Ultimate Cooldown by {0.5/1} seconds.",
+				"description": "Blood Orbs reduce your Ultimate Cooldown by {1/1.5} seconds.",
 				"nameLocalized": {
 					"deDE": "[ms]Schnellblütiger[fs]Schnellblütige[ns]Schnellblütiges[p]Schnellblütige[c]Schnellblut-",
 					"esES": "de sangre rápida",
@@ -7183,19 +7183,19 @@ let codexData = {
 					"zhTW": "迅血"
 				},
 				"descriptionLocalized": {
-					"deDE": "Blutkugeln verringern die Abklingzeit Eurer ultimativen Fertigkeit um {0.5/1} Sek.",
-					"esES": "Los orbes de sangre reducen {0.5/1} s el tiempo de reutilización de tu definitiva.",
-					"esMX": "Los Orbes de Sangre reducen la recuperación de tu habilidad máxima {0.5/1} segundos.",
-					"frFR": "Les orbes de sang réduisent le temps de recharge de votre compétence ultime de {0.5/1} s.",
-					"itIT": "I Globi di Sangue riducono il tempo di recupero delle tue abilità Ultra di {0.5/1} s.",
-					"jaJP": "血のオーブが奥義のクールダウンを{0.5/1}秒短縮する。",
-					"koKR": "피의 구슬이 궁극기의 재사용 대기시간을 {0.5/1}초 감소시킵니다.",
-					"plPL": "Krwawe kule skracają czas odnowienia twojej Mocy Specjalnej o {0.5/1} sek.",
-					"ptBR": "Orbes de sangue reduzem a recarga de habilidade suprema em {0.5/1} segundos.",
-					"ruRU": "Сферы крови сокращают время восстановления мощного умения на {0.5/1} сек.",
-					"trTR": "Kan Küresi, UltiBekleme Süresini {0.5/1} saniye azaltır.",
-					"zhCN": "生命球使你的终极技能的冷却时间缩短 {0.5/1} 秒。",
-					"zhTW": "生命之球會縮短絕招冷卻時間 {0.5/1} 秒。"
+					"deDE": "Blutkugeln verringern die Abklingzeit Eurer ultimativen Fertigkeit um {1/1.5} Sek.",
+					"esES": "Los orbes de sangre reducen {1/1.5} s el tiempo de reutilización de tu definitiva.",
+					"esMX": "Los Orbes de Sangre reducen la recuperación de tu habilidad máxima {1/1.5} segundos.",
+					"frFR": "Les orbes de sang réduisent le temps de recharge de votre compétence ultime de {1/1.5} s.",
+					"itIT": "I Globi di Sangue riducono il tempo di recupero delle tue abilità Ultra di {1/1.5} s.",
+					"jaJP": "血のオーブが奥義のクールダウンを{1/1.5}秒短縮する。",
+					"koKR": "피의 구슬이 궁극기의 재사용 대기시간을 {1/1.5}초 감소시킵니다.",
+					"plPL": "Krwawe kule skracają czas odnowienia twojej Mocy Specjalnej o {1/1.5} sek.",
+					"ptBR": "Orbes de sangue reduzem a recarga de habilidade suprema em {1/1.5} segundos.",
+					"ruRU": "Сферы крови сокращают время восстановления мощного умения на {1/1.5} сек.",
+					"trTR": "Kan Küresi, UltiBekleme Süresini {1/1.5} saniye azaltır.",
+					"zhCN": "生命球使你的终极技能的冷却时间缩短 {1/1.5} 秒。",
+					"zhTW": "生命之球會縮短絕招冷卻時間 {1/1.5} 秒。"
 				},
 				"dungeon": "Iron Hold",
 				"region": "Hawezar"
@@ -7344,7 +7344,7 @@ let codexData = {
 					"ptBR": "Sempre que Tempestade de Ossos causa dano a um inimigo, você recebe uma barreira equivalente a{2/5}% da sua vida básica por 10.0 segundos.",
 					"ruRU": "Когда \"Буря костей\" наносит урон противнику, вас на 10.0 сек. окружает барьер с прочностью в объеме {2/5}% вашего базового запаса здоровья.",
 					"trTR": "Kemik Fırtınası bir düşmana her hasar verdiğinde 10.0 saniyeliğine Temel Canının {2/5}% kadarına eşit bir Bariyer kazan.",
-					"zhCN": "白骨风暴每次对敌人造成伤害, 获得一层相当于你基础生命 {2/5}% 的屏障, 持续 10.0 秒。",
+					"zhCN": "白骨风暴每次对敌人造成伤害, 获得一个相当于你基础生命 {2/5}% 的屏障, 持续 10.0 秒。",
 					"zhTW": "骸骨風暴每次傷害敵人時,會獲得等同你基礎生命值 {2/5}% 的屏障,持續 10.0 秒。"
 				},
 				"dungeon": "",
@@ -7647,7 +7647,7 @@ let codexData = {
 					"ptBR": "Ao usar Evadir ou Passo Sombrio, você deixa para trás um conjunto de Granadas Atordoantes que causam {#} de dano físico total e atordoam inimigos por 0.5 segundos.",
 					"ruRU": "При \"Ускользании\" или \"Шаге сквозь тень\" вы оставляете после себя оглушающие гранаты, которые наносят при взрыве {#} ед. физического урона в целом и оглушают противников на 0.5 сек.",
 					"trTR": "Kaçın veya Gölge Adımı yaptığında arkanda toplamda {#} Fiziksel hasar veren ve düşmanları 0.5 saniyeliğine Sersemleten bir dizi patlayan Sersemletme Bombası bırakırsın.",
-					"zhCN": "使用闪避或暗影步时, 你会扔下一串会爆炸的昏迷手雷, 对敌人造成总计 {#} 点物理伤害, 并使其昏迷 0.5 秒。",
+					"zhCN": "使用闪避或暗影步时, 你会扔下一串会爆炸的昏迷手雷, 对敌人造成总计 {#} 点物理伤害, 并将其击昏 0.5 秒。",
 					"zhTW": "使用閃避或暗影步伐時,會留下震撼榴彈,爆炸後總共造成 {#} 點物理傷害,並擊昏敵人 0.5 秒。"
 				},
 				"dungeon": "",
@@ -7687,7 +7687,7 @@ let codexData = {
 					"ptBR": "Estrepes também arremessa um conjunto de Granadas Atordoantes explosivas que causam {#} de dano físico total e atordoam inimigos por 0.5 segundos.",
 					"ruRU": "Выбрасывая \"Шипы\", вы также бросаете оглушающие гранаты, которые наносят при взрыве {#} ед. физического урона в целом и оглушают противников на 0.5 сек.",
 					"trTR": "İğneler ayrıca toplamda {#} Fiziksel hasar veren ve düşmanları 0.5 saniyeliğine Sersemleten bir dizi patlayan Sersemletme Bombası fırlatır.",
-					"zhCN": "铁蒺藜也会扔下一串会爆炸的昏迷手雷, 对敌人造成总计 {#} 点物理伤害, 并使其昏迷 0.5 秒。",
+					"zhCN": "铁蒺藜也会扔下一串会爆炸的昏迷手雷, 对敌人造成总计 {#} 点物理伤害, 并将其击昏 0.5 秒。",
 					"zhTW": "釘爪刺會留下震撼榴彈,爆炸後總共造成 {#} 點物理傷害,並擊昏敵人 0.5 秒。"
 				},
 				"dungeon": "Bastion of Faith",
@@ -7844,7 +7844,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Causar dano a um inimigo com gelidez ou congelado com uma habilidade de Imbuição de Sombra tem até 75.0% de chance de gerar uma explosão que causa {#} de dano gélido ao alvo e inimigos ao redor, aplicando gelidez por 15.0%.",
 					"ruRU": "Удачный удар: поражая окоченевших или замороженных противников, умения насыщения тенью с вероятностью до 75.0% вызывают взрыв, наносящий цели и окружающим противникам {#} ед. урона от льда. Эти противники коченеют и замедляются на 15.0%.",
 					"trTR": "Şanslı Vuruş: Soğutulmuş veya Donmuş bir düşmana bir Gölge Aşılanmış Yetenek ile hasar vermek, en fazla 75.0% ihtimalle hedefe ve çevredeki düşmanlara {#} Soğuk hasarı veren ve onları 15.0% kadar Soğutan bir patlama serbest bırakır.",
-					"zhCN": "幸运一击: 使用被暗影灌注的技能对被冻伤或被冻结敌人造成伤害最多有 75.0% 几率释放一次爆炸, 对目标和周围敌人造成 {#} 点冰霜伤害, 使其冻伤 15.0%。",
+					"zhCN": "幸运一击: 使用被暗影灌注的技能对被冻伤或被冻结敌人造成伤害最多有 75.0% 几率释放一次爆炸, 对目标和周围敌人造成 {#} 点寒冰伤害, 使其冻伤 15.0%。",
 					"zhTW": "幸運觸發:使用暗影灌注強化的技能攻擊冰冷或凍結的敵人,最高有 75.0% 機率引發爆炸,對目標和附近敵人造成 {#} 點冰寒傷害,以及 15.0% 冰冷效果。"
 				},
 				"dungeon": "",
@@ -7921,7 +7921,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Suas habilidades de Precisão têm até 10.0% de chance de criar uma tempestade de flechas na posição do inimigo, causando {#} de dano físico ao longo de 3.0 segundos. Você pode ter até 5.0 tempestades de flechas ativas.",
 					"ruRU": "Удачный удар: ваши умения стрелка с вероятностью до 10.0% вызывают над противником град стрел, наносящий {#} ед. физического урона за 3.0 сек. Максимальное количество эффектов – 5.0.",
 					"trTR": "Şanslı Vuruş: Nişancı Yeteneklerin düşmanın konumunda en fazla 10.0% ihtimalle 3.0 saniyeliğine {#} Fiziksel hasar veren bir ok fırtınası oluşturur. En fazla 5.0 etkin ok fırtınan olabilir.",
-					"zhCN": "幸运一击: 你的神射手技能最多有 10.0% 几率在敌人所在位置降下箭雨, 在 3.0 秒内造成 {#} 点物理伤害。你最多同时存在 5.0 个激活的箭雨。",
+					"zhCN": "幸运一击: 你的神射手技能最多有 10.0% 几率在敌人所在位置降下箭簇风暴, 在 3.0 秒内造成 {#} 点物理伤害。你最多同时存在 5.0 个激活的箭簇风暴。",
 					"zhTW": "幸運觸發:射手技能最高有 10.0% 機率在敵人位置產生箭矢風暴,在 3.0 秒內造成 {#} 點物理傷害。最多可同時擁有 5.0 個箭矢風暴。"
 				},
 				"dungeon": "Howling Warren",
@@ -8112,7 +8112,7 @@ let codexData = {
 					"ptBR": "Ao romper Furtividade com um ataque, você larga ao redor da sua posição um conjunto de Granadas Atordoantes explosivas que causam {#} de dano físico total e atordoando inimigos por 0.5 segundos.",
 					"ruRU": "Атакуя из состояния незаметности, вы разбрасываете вокруг себя оглушающие гранаты, которые наносят при взрыве {#} ед. физического урона в целом и оглушают противников на 0.5 сек.",
 					"trTR": "Saklanmayı bir saldırı yaparak bozduğunda olduğun yerin etrafına toplam {#} Fiziksel hasar veren ve 0.5 saniye boyunca düşmanları Sersemleten bir dizi patlayan Sersemletme Bombası bırakırsın.",
-					"zhCN": "打破潜行时, 你会在自身周围扔下一串会爆炸的昏迷手雷, 对敌人造成总计 {#} 点物理伤害, 并使其昏迷 0.5 秒。",
+					"zhCN": "打破潜行时, 你会在自身周围扔下一串会爆炸的昏迷手雷, 对敌人造成总计 {#} 点物理伤害, 并将其击昏 0.5 秒。",
 					"zhTW": "使用攻擊中斷匿蹤時,會在附近掉落震撼榴彈,爆炸後總共造成 {#} 點物理傷害,並擊昏敵人 0.5 秒。"
 				},
 				"dungeon": "",
@@ -8589,7 +8589,7 @@ let codexData = {
 					"ptBR": "Cada inimigo sob congelamento ou gelidez que você evadir concede uma barreira que absorve {#} de dano por 5.0 segundos, até o máximo de {#} de dano absorvido.",
 					"ruRU": "За каждого окоченевшего или замороженного противника, через которого вы ускользаете, вы получаете барьер, поглощающий {#} ед. урона в течение 5.0 сек. Максимальный запас прочности барьера – {#} ед.",
 					"trTR": "Kaçınarak içinden geçtiğin her Soğutulmuş veya Donmuş düşman, maksimum {#} olmak üzere 5.0 saniyeliğine {#} hasar soğuran bir Bariyer sağlar.",
-					"zhCN": "你每闪避并穿行一名冻伤或冻结的敌人, 即可获得一层可吸收 {#} 点伤害的屏障, 持续 5.0 秒, 最多可吸收 {#} 点伤害。",
+					"zhCN": "你每闪避并穿行一名冻伤或冻结的敌人, 即可获得一个可吸收 {#} 点伤害的屏障, 持续 5.0 秒, 最多吸收 {#} 点伤害。",
 					"zhTW": "每個你閃避穿過的冰冷或凍結敵人會賦予你一道可吸收 {#} 點傷害的屏障,持續 5.0 秒,最多可吸收 {#} 點傷害。"
 				},
 				"dungeon": "",
@@ -8667,7 +8667,7 @@ let codexData = {
 					"ptBR": "Causar dano direto a um inimigo sob torpor com uma habilidade de Agilidade concede Furtividade por 4.0 segundos. Romper Furtividade com um ataque concede {15/45}% redução de duração de efeitos de controle por 4.0 segundos.",
 					"ruRU": "Когда умение категории \"Ловкость\" наносит прямой урон противнику с головокружением, вы становитесь незаметны на 4.0 сек. Атакуя из состояния незаметности, вы получаете + {15/45}% к снижению длительности эффектов контроля на 4.0 сек.",
 					"trTR": "Çeviklik Yeteneğiyle Afallamış bir Düşmana doğrudan hasar vermek, 4.0 saniye boyunca Saklanma kazandırır. Saklanmayı bir saldırı ile bozmak, sana 4.0 saniye boyunca {15/45}% Kontrol Engelleme Süresi Azaltma sağlar.",
-					"zhCN": "使用敏捷技能对眩晕敌人造成直接伤害可获得潜行效果, 持续 4.0 秒。发动攻击打破潜行效果给予你 {15/45}% 控制受限类效果持续时间缩减加成, 持续 4.0 秒。",
+					"zhCN": "使用敏捷技能对迷惑敌人造成直接伤害可获得潜行效果, 持续 4.0 秒。发动攻击打破潜行效果给予你 {15/45}% 控制受限类效果持续时间缩减加成, 持续 4.0 秒。",
 					"zhTW": "使用靈巧技能對暈眩敵人造成直接攻擊時,可獲得匿蹤效果,持續 4.0 秒。使用攻擊中斷匿蹤效果時,可獲得 {15/45}% 控場影響時效減免,持續 4.0 秒。"
 				},
 				"dungeon": "",
@@ -8717,7 +8717,7 @@ let codexData = {
 			"Escape Artist's Aspect": {
 				"id": 239,
 				"type": "Legendary",
-				"description": "Upon taking damage from surrounding enemies, you drop a Smoke Grenade and Dodge the next {2/7} attacks within 10.0 seconds. This effect can only occur once every 100.0 seconds.",
+				"description": "Upon taking damage from surrounding enemies, you drop a Smoke Grenade and Dodge the next {2/7} attacks within 10.0 seconds. This effect can only occur once every 45.0 seconds.",
 				"nameLocalized": {
 					"deDE": "[ms]Entfesselnder[fs]Entfesselnde[ns]Entfesselndes[p]Entfesselnde[c]Entfesslungskünstler-",
 					"esES": "de artista del escapismo",
@@ -8734,19 +8734,19 @@ let codexData = {
 					"zhTW": "逃脫專家"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Gegner in der Nähe Euch Schaden zufügen, lasst Ihr eine Rauchgranate fallen und weicht den nächsten {2/7} Angriffen innerhalb von 10.0 Sek. aus. Dieser Effekt kann nur einmal alle 100.0 Sek. auftreten.",
-					"esES": "Al sufrir daño de enemigos cercanos, lanzas una granada de humo y esquivas los siguientes {2/7} ataques durante 10.0 s. Este efecto solo puede ocurrir una vez cada 100.0 s.",
-					"esMX": "Tras recibir daño de enemigos circundantes, sueltas una Granada de Humo y evades los siguientes {2/7} ataques dentro de un lapso de 10.0 segundos. Este efecto solo puede ocurrir una vez cada 100.0 segundos.",
-					"frFR": "Lorsque vous subissez des dégâts de la part d'adversaires proches, vous lâchez une bombe fumigène et esquivez les {2/7} prochaines attaques dans les 10.0 s qui suivent. Cet effet ne peut se produire qu'une fois toutes les 100.0 s.",
-					"itIT": "Dopo aver subito danni dai nemici circostanti, rilasci una Bomba Fumogena e schivi i {2/7} attacchi successivi entro 10.0 s. Questo effetto può verificarsi solo una volta ogni 100.0 s.",
-					"jaJP": "自分を取り囲む敵からダメージを受けると、煙幕を投下し、10.0秒にわたって攻撃を{2/7}度回避する。効果が発動するのは100.0秒に1回のみ。",
-					"koKR": "주변 적에게 피해를 받으면 연막 수류탄을 떨어뜨려 10.0초 내 다음 공격 100.0번을 회피합니다. 이 효과는 {2/7}초에 한 번씩만 발동합니다.",
-					"plPL": "Po otrzymaniu obrażeń od pobliskich wrogów, upuszczasz Granat Dymny i unikasz kolejnych {2/7} ataków w ciągu 10.0 sek. Efekt ten może wystąpić tylko raz na 100.0 sek.",
-					"ptBR": "Ao receber dano de inimigos ao redor, você larga uma Granada de Fumaça e se esquiva dos próximos {2/7} ataques dentro de 10.0 segundos. Esse efeito só pode ocorrer uma vez a cada 100.0 segundos.",
-					"ruRU": "Получив урон от одного из окружающих противников, вы выпускаете \"Ослепляющий дым\" и уклоняетесь от следующих {2/7} атак в течение 10.0 сек. Срабатывает не чаще раза в 100.0 сек.",
-					"trTR": "Çevredeki düşmanlardan hasar aldıktan sonra bir Sis Bombası atar ve 10.0 saniye içinde sonraki {2/7} saldırıdan Sıyrılırsın. Bu etki sadece her 100.0 saniyede bir gerçekleşebilir.",
-					"zhCN": "受到周围敌人的伤害后, 你丢出一枚烟雾手雷, 在 10.0 秒内躲闪接下来的 {2/7} 次攻击。该效果每 100.0 秒只能生效一次。",
-					"zhTW": "受到附近敵人的傷害後,會釋放一枚煙霧彈,並閃躲接下來 {2/7} 次攻擊,持續 10.0 秒。此效果每 100.0 秒只能觸發一次。"
+					"deDE": "Wenn Gegner in der Nähe Euch Schaden zufügen, lasst Ihr eine Rauchgranate fallen und weicht den nächsten {2/7} Angriffen innerhalb von 10.0 Sek. aus. Dieser Effekt kann nur einmal alle 45.0 Sek. auftreten.",
+					"esES": "Al sufrir daño de enemigos cercanos, lanzas una granada de humo y esquivas los siguientes {2/7} ataques durante 10.0 s. Este efecto solo puede ocurrir una vez cada 45.0 s.",
+					"esMX": "Tras recibir daño de enemigos circundantes, sueltas una Granada de Humo y evades los siguientes {2/7} ataques dentro de un lapso de 10.0 segundos. Este efecto solo puede ocurrir una vez cada 45.0 segundos.",
+					"frFR": "Lorsque vous subissez des dégâts de la part d'adversaires proches, vous lâchez une bombe fumigène et esquivez les {2/7} prochaines attaques dans les 10.0 s qui suivent. Cet effet ne peut se produire qu'une fois toutes les 45.0 s.",
+					"itIT": "Dopo aver subito danni dai nemici circostanti, rilasci una Bomba Fumogena e schivi i {2/7} attacchi successivi entro 10.0 s. Questo effetto può verificarsi solo una volta ogni 45.0 s.",
+					"jaJP": "自分を取り囲む敵からダメージを受けると、煙幕を投下し、10.0秒にわたって攻撃を{2/7}度回避する。効果が発動するのは45.0秒に1回のみ。",
+					"koKR": "주변 적에게 피해를 받으면 연막 수류탄을 떨어뜨려 10.0초 내 다음 공격 {2/7}번을 회피합니다. 이 효과는 45.0초에 한 번씩만 발동합니다.",
+					"plPL": "Po otrzymaniu obrażeń od pobliskich wrogów, upuszczasz Granat Dymny i unikasz kolejnych {2/7} ataków w ciągu 10.0 sek. Efekt ten może wystąpić tylko raz na 45.0 sek.",
+					"ptBR": "Ao receber dano de inimigos ao redor, você larga uma Granada de Fumaça e se esquiva dos próximos {2/7} ataques dentro de 10.0 segundos. Esse efeito só pode ocorrer uma vez a cada 45.0 segundos.",
+					"ruRU": "Получив урон от одного из окружающих противников, вы выпускаете \"Ослепляющий дым\" и уклоняетесь от следующих {2/7} атак в течение 10.0 сек. Срабатывает не чаще раза в 45.0 сек.",
+					"trTR": "Çevredeki düşmanlardan hasar aldıktan sonra bir Sis Bombası atar ve 10.0 saniye içinde sonraki {2/7} saldırıdan Sıyrılırsın. Bu etki sadece her 45.0 saniyede bir gerçekleşebilir.",
+					"zhCN": "受到周围敌人的伤害后, 你丢出一枚烟雾手雷, 在 10.0 秒内躲闪接下来的 {2/7} 次攻击。该效果每 45.0 秒只能生效一次。",
+					"zhTW": "受到附近敵人的傷害後,會釋放一枚煙霧彈,並閃躲接下來 {2/7} 次攻擊,持續 10.0 秒。此效果每 45.0 秒只能觸發一次。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -8868,7 +8868,7 @@ let codexData = {
 			"Umbrous Aspect": {
 				"id": 244,
 				"type": "Legendary",
-				"description": "Lucky Hit: Critical Strikes with Marksman Skills have up to a {30/50}% chance to grant a free Dark Shroud shadow.",
+				"description": "Lucky Hit: Critical Strikes with Marksman Skills have up to a {40/60}% chance to grant a free Dark Shroud shadow.",
 				"nameLocalized": {
 					"deDE": "[ms]Schattiger[fs]Schattige[ns]Schattiges[p]Schattige[c]Schatten-",
 					"esES": "[fs]umbría[ms]umbrío[fp]umbrías[mp]umbríos",
@@ -8885,19 +8885,19 @@ let codexData = {
 					"zhTW": "晦暗"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Kritische Treffer mit Präzisionsfertigkeiten haben eine Chance von bis zu {30/50}%, einen kostenlosen Schatten von Dunkler Schleier zu verleihen.",
-					"esES": "Golpe de suerte: Los golpes críticos con habilidades de tirador tienen hasta un {30/50}% de probabilidad de otorgar una sombra de Embozo oscuro gratis.",
-					"esMX": "Golpe afortunado: Los golpes críticos con habilidades de Tirador tienen un {30/50}% de probabilidad de otorgar una sombra de Sudario Oscuro gratuita.",
-					"frFR": "Coup de chance: les coups critiques infligés avec des compétences de tir d'élite ont jusqu'à {30/50}% de chances de générer gratuitement une ombre de Sombre voile.",
-					"itIT": "Colpo fortunato: i colpi critici con le abilità di Tiro di precisione hanno una probabilità massima del {30/50}% di fornire un'ombra di Manto Oscuro gratuita.",
-					"jaJP": "幸運の一撃: 射手スキルでクリティカルヒットを出すと、最大{30/50}%の確率でマナを消費しない〈ダークシュラウド〉の影を得る。",
-					"koKR": "행운의 적중: 명사수 기술이 극대화로 적중하면 최대 {30/50}% 확률로 어둠의 장막 그림자 하나를 자원 소모 없이 생성합니다.",
-					"plPL": "Szczęśliwy traf: Trafienia krytyczne zadane umiejętnościami Strzelectwa mają maksymalnie {30/50}% szans na przywołanie darmowego cienia z Mrocznego Całunu.",
-					"ptBR": "Golpe de Sorte: Acertos críticos com habilidades de Atirador têm até {30/50}% de chance de conceder uma sombra gratuita de Véu Sombrio.",
-					"ruRU": "Удачный удар: критические удары умениями стрелка с вероятностью до {30/50}% создают тень \"Теневой завесы\" без затрат ресурсов.",
-					"trTR": "Şanslı Vuruş: Nişancı Yetenekleri ile yapılan Kritik Vuruşlar en fazla {30/50}% ihtimalle bedelsiz bir Karanlık Örtü gölgesi sağlar.",
-					"zhCN": "幸运一击: 使用神射手技能造成暴击时, 有最多 {30/50}% 几率给予一个免费的暗影帷幕的暗影。",
-					"zhTW": "幸運觸發:射手技能爆擊時,最高有 {30/50}% 機率獲得一個無消耗的黑暗籠罩的暗影。"
+					"deDE": "Glückstreffer: Kritische Treffer mit Präzisionsfertigkeiten haben eine Chance von bis zu {40/60}%, einen kostenlosen Schatten von Dunkler Schleier zu verleihen.",
+					"esES": "Golpe de suerte: Los golpes críticos con habilidades de tirador tienen hasta un {40/60}% de probabilidad de otorgar una sombra de Embozo oscuro gratis.",
+					"esMX": "Golpe afortunado: Los golpes críticos con habilidades de Tirador tienen un {40/60}% de probabilidad de otorgar una sombra de Sudario Oscuro gratuita.",
+					"frFR": "Coup de chance: les coups critiques infligés avec des compétences de tir d'élite ont jusqu'à {40/60}% de chances de générer gratuitement une ombre de Sombre voile.",
+					"itIT": "Colpo fortunato: i colpi critici con le abilità di Tiro di precisione hanno una probabilità massima del {40/60}% di fornire un'ombra di Manto Oscuro gratuita.",
+					"jaJP": "幸運の一撃: 射手スキルでクリティカルヒットを出すと、最大{40/60}%の確率でマナを消費しない〈ダークシュラウド〉の影を得る。",
+					"koKR": "행운의 적중: 명사수 기술이 극대화로 적중하면 최대 {40/60}% 확률로 어둠의 장막 그림자 하나를 자원 소모 없이 생성합니다.",
+					"plPL": "Szczęśliwy traf: Trafienia krytyczne zadane umiejętnościami Strzelectwa mają maksymalnie {40/60}% szans na przywołanie darmowego cienia z Mrocznego Całunu.",
+					"ptBR": "Golpe de Sorte: Acertos críticos com habilidades de Atirador têm até {40/60}% de chance de conceder uma sombra gratuita de Véu Sombrio.",
+					"ruRU": "Удачный удар: критические удары умениями стрелка с вероятностью до {40/60}% создают тень \"Теневой завесы\" без затрат ресурсов.",
+					"trTR": "Şanslı Vuruş: Nişancı Yetenekleri ile yapılan Kritik Vuruşlar en fazla {40/60}% ihtimalle bedelsiz bir Karanlık Örtü gölgesi sağlar.",
+					"zhCN": "幸运一击: 使用神射手技能造成暴击时, 有最多 {40/60}% 几率给予一个免费的暗影帷幕的暗影。",
+					"zhTW": "幸運觸發:射手技能爆擊時,最高有 {40/60}% 機率獲得一個無消耗的黑暗籠罩的暗影。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -9122,7 +9122,7 @@ let codexData = {
 					"ptBR": "Você larga uma Granada de Fumaça automaticamente ao final de Disparada. A recarga deDisparada é reduzida em {0.25/0.35} segundos por cada inimigo atingido por torpor dessa forma, até {0.75/1.05} segundos.",
 					"ruRU": "Завершая \"Рывок\", вы автоматически применяете \"Ослепляющий дым\". За каждого противника с головокружением из-за дыма время восстановления \"Рывка\" сокращается на {0.25/0.35} сек., вплоть до {0.75/1.05} сек.",
 					"trTR": "Atıl bittiğinde otomatik olarak bir Sis Bombası bırakırsın. Atılın Bekleme Süresi, en fazla {0.75/1.05} saniye olmak üzere bu şekilde Afallayan her düşman için {0.25/0.35} saniye azalır.",
-					"zhCN": "你在疾行斩结束后自动丢出一枚烟雾手雷。用该方式每眩晕一名敌人, 疾行斩的冷却时间就会缩短 {0.25/0.35} 秒, 最多缩短 {0.75/1.05} 秒。",
+					"zhCN": "你在疾行斩结束后自动丢出一枚烟雾手雷。用该方式每迷惑一名敌人, 疾行斩的冷却时间就会缩短 {0.25/0.35} 秒, 最多缩短 {0.75/1.05} 秒。",
 					"zhTW": "疾衝結束時會自動掉落一枚煙霧彈。此方式每對一名敵人造成暈眩效果,疾衝的冷卻時間便會縮短 {0.25/0.35} 秒,最多縮短 {0.75/1.05} 秒。"
 				},
 				"dungeon": "",
@@ -9159,7 +9159,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Causar dano direto a um inimigo vulnerável tem até {25/45}% de chance de aplicar torpor por 2.0 segundos.",
 					"ruRU": "Удачный удар: прямой урон по уязвимому противнику с вероятностью до {25/45}% вызывает у него головокружение на 2.0 сек.",
 					"trTR": "Şanslı Vuruş: Savunmasız bir düşmana doğrudan hasar vermek, onu en fazla {25/45}% ihtimalle 2.0 saniye boyunca Afallatır.",
-					"zhCN": "幸运一击: 对处于易伤状态的敌人造成直接伤害最多有 {25/45}% 几率眩晕他们 2.0 秒。",
+					"zhCN": "幸运一击: 对处于易伤状态的敌人造成直接伤害最多有 {25/45}% 几率迷惑他们 2.0 秒。",
 					"zhTW": "幸運觸發:對易傷的敵人造成直接攻擊時,最高有 {25/45}% 機率使其暈眩 2.0 秒。"
 				},
 				"dungeon": "",
@@ -9245,7 +9245,7 @@ let codexData = {
 				"slot": "Pants",
 				"dropLevel": 50,
 				"dropWeight": 800000,
-				"description": "Unless it hits a Boss or Player, Death Trap will continue to re-arm itself until it kills an enemy. However, Death Trap's Cooldown is increased by {15/30}%.",
+				"description": "Unless it hits a Boss or Player, Death Trap will continue to re-arm itself until it kills an enemy. However, Death Trap's Cooldown is increased by {15/20}%.",
 				"flavor": "\"And so, when the sun dipped behind the hills each night, he knew that Ashen Jack would soon be near. Watching, and waiting.\"\n- Greenslade's Tales, Chapter 2: \"Each Long Night\"",
 				"nameLocalized": {
 					"deDE": "[p]Augen in der Dunkelheit",
@@ -9263,19 +9263,19 @@ let codexData = {
 					"zhTW": "暗夜凝望"
 				},
 				"descriptionLocalized": {
-					"deDE": "Todesfalle wird immer wieder scharf gemacht, solange sie keinen Boss oder Spieler trifft oder einen Gegner tötet. Allerdings steigt die Abklingzeit von Todesfalle um {15/30}%.",
-					"esES": "Salvo que golpee a un jefe o a un jugador, Trampa mortal seguirá rearmándose hasta que mate a un enemigo. Sin embargo, el tiempo de reutilización de Trampa mortal aumenta un {15/30}%.",
-					"esMX": "A menos que golpee a un jefe o jugador, Trampa Mortal seguirá rearmándose hasta matar a un enemigo. Sin embargo, la recuperación de Trampa Mortal se incrementará un {15/30}%.",
-					"frFR": "À moins qu'il touche un boss ou un personnage-joueur, Piège mortel continuera à se réarmer jusqu'à ce qu'il tue une cible ennemie. Cependant, son temps de recharge est augmenté de {15/30}%.",
-					"itIT": "A meno che non con colpisca un boss o un giocatore, Trappola Mortale continua ad armarsi finché non uccide un nemico. Tuttavia, il tempo di recupero di Trappola Mortale è aumentato del {15/30}%.",
-					"jaJP": "ボスかプレイヤーに当たった場合を除き、〈デストラップ〉が敵を倒すまで自動的に再起動する。ただし、〈デストラップ〉のクールダウンが{15/30}%増加する。",
-					"koKR": "죽음의 덫이 우두머리 또는 플레이어에게 적중하지 않을 경우 적을 처치할 때까지 계속 자동으로 충전됩니다. 하지만 죽음의 덫의 재사용 대기시간이 {15/30}% 증가합니다.",
-					"plPL": "Jeśli Zabójcza Pułapka nie trafi bossa ani gracza, będzie nadal się uzbrajać, aż zabije wroga. Czas odnowienia Zabójczej Pułapki zostaje wydłużony o {15/30}%.",
-					"ptBR": "A menos que atinja um chefe ou jogador, Armadilha da Morte continuará a se rearmar até que mate um inimigo. No entanto, a recarga de Armadilha da Morte é aumentada em {15/30}%.",
-					"ruRU": "После срабатывания \"Смертоносная ловушка\" автоматически взводится заново, пока не убьет противника (не действует с боссами или другими игроками). Однако время восстановления \"Смертоносной ловушки\" увеличивается до {15/30}%.",
-					"trTR": "Ölüm Tuzağı bir Patrona veya Oyuncuya çarpmadığı sürece bir düşmanı öldürene kadar etkin kalmaya devam eder. Ancak Ölüm Tuzağının Bekleme Süresi {15/30}% artar.",
-					"zhCN": "除非命中首领或是玩家, 否则索命陷阱会一直不断地自我重新装填, 直至其消灭敌人。但是索命陷阱的冷却时间延长 {15/30}%。",
-					"zhTW": "除非擊中首領或玩家,否則死亡陷阱會持續重新部署,直到殺死敵人為止。但死亡陷阱的冷卻時間延長 {15/30}%。"
+					"deDE": "Todesfalle wird immer wieder scharf gemacht, solange sie keinen Boss oder Spieler trifft oder einen Gegner tötet. Allerdings steigt die Abklingzeit von Todesfalle um {15/20}%.",
+					"esES": "Salvo que golpee a un jefe o a un jugador, Trampa mortal seguirá rearmándose hasta que mate a un enemigo. Sin embargo, el tiempo de reutilización de Trampa mortal aumenta un {15/20}%.",
+					"esMX": "A menos que golpee a un jefe o jugador, Trampa Mortal seguirá rearmándose hasta matar a un enemigo. Sin embargo, la recuperación de Trampa Mortal se incrementará un {15/20}%.",
+					"frFR": "À moins qu'il touche un boss ou un personnage-joueur, Piège mortel continuera à se réarmer jusqu'à ce qu'il tue une cible ennemie. Cependant, son temps de recharge est augmenté de {15/20}%.",
+					"itIT": "A meno che non con colpisca un boss o un giocatore, Trappola Mortale continua ad armarsi finché non uccide un nemico. Tuttavia, il tempo di recupero di Trappola Mortale è aumentato del {15/20}%.",
+					"jaJP": "ボスかプレイヤーに当たった場合を除き、〈デストラップ〉が敵を倒すまで自動的に再起動する。ただし、〈デストラップ〉のクールダウンが{15/20}%増加する。",
+					"koKR": "죽음의 덫이 우두머리 또는 플레이어에게 적중하지 않을 경우 적을 처치할 때까지 계속 자동으로 충전됩니다. 하지만 죽음의 덫의 재사용 대기시간이 {15/20}% 증가합니다.",
+					"plPL": "Jeśli Zabójcza Pułapka nie trafi bossa ani gracza, będzie nadal się uzbrajać, aż zabije wroga. Czas odnowienia Zabójczej Pułapki zostaje wydłużony o {15/20}%.",
+					"ptBR": "A menos que atinja um chefe ou jogador, Armadilha da Morte continuará a se rearmar até que mate um inimigo. No entanto, a recarga de Armadilha da Morte é aumentada em {15/20}%.",
+					"ruRU": "После срабатывания \"Смертоносная ловушка\" автоматически взводится заново, пока не убьет противника (не действует с боссами или другими игроками). Однако время восстановления \"Смертоносной ловушки\" увеличивается до {15/20}%.",
+					"trTR": "Ölüm Tuzağı bir Patrona veya Oyuncuya çarpmadığı sürece bir düşmanı öldürene kadar etkin kalmaya devam eder. Ancak Ölüm Tuzağının Bekleme Süresi {15/20}% artar.",
+					"zhCN": "除非命中首领或是玩家, 否则索命陷阱会一直不断地自我重新装填, 直至其消灭敌人。但是索命陷阱的冷却时间延长 {15/20}%。",
+					"zhTW": "除非擊中首領或玩家,否則死亡陷阱會持續重新部署,直到殺死敵人為止。但死亡陷阱的冷卻時間延長 {15/20}%。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Und so wusste er, wenn die Sonne jede Nacht hinter den Hügeln versank, dass der Aschene Jack bald in der Nähe sein würde und ihn wartend beobachtete.\"\n-Grüntals Geschichten, Kapitel 2: In jeder langen Nacht",
@@ -9432,7 +9432,7 @@ let codexData = {
 			"Aspect of Abundant Energy": {
 				"id": 261,
 				"type": "Legendary",
-				"description": "Crackling Energy has a {20/30}% chance to chain to an additional enemy.",
+				"description": "Crackling Energy has a {30/40}% chance to chain to an additional enemy.",
 				"nameLocalized": {
 					"deDE": "der Energiefülle",
 					"esES": "de energía abundante",
@@ -9449,19 +9449,19 @@ let codexData = {
 					"zhTW": "滿溢能量之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Knisternde Energie hat eine Chance von {20/30}%, auf einen zusätzlichen Gegner überzuspringen.",
-					"esES": "La energía crepitante tiene un {20/30}% de probabilidad de saltar a un enemigo más.",
-					"esMX": "Energía Crepitante tiene un {20/30}% de probabilidad de encadenar a un enemigo adicional.",
-					"frFR": "L'énergie crépitante a {20/30}% de chances de se propager à une cible supplémentaire.",
-					"itIT": "Energia Crepitante ha il {20/30}% di probabilità di rimbalzare su un nemico aggiuntivo.",
-					"jaJP": "帯び出す電気が{20/30}%の確率で追加の敵1体に連鎖する。",
-					"koKR": "짜릿한 에너지가 {20/30}% 확률로 추가 적에게 연쇄됩니다.",
-					"plPL": "Roziskrzona Energia ma {20/30}% szans na przeskoczenie do dodatkowego wroga.",
-					"ptBR": "Energia Crepitante tem {20/30}% de chance de se propagar para um inimigo adicional.",
-					"ruRU": "Искрящиеся заряды энергии с вероятностью {20/30}% перескакивают на еще одного противника.",
-					"trTR": "Çatırtı Enerjisi, {20/30}% ihtimalle ilave bir düşmana daha zincirlenir.",
-					"zhCN": "爆裂电花有 {20/30}% 几率传递至额外一名敌人。",
-					"zhTW": "電流能量有 {20/30}% 機率連鎖到另一個敵人身上。"
+					"deDE": "Knisternde Energie hat eine Chance von {30/40}%, auf einen zusätzlichen Gegner überzuspringen.",
+					"esES": "La energía crepitante tiene un {30/40}% de probabilidad de saltar a un enemigo más.",
+					"esMX": "Energía Crepitante tiene un {30/40}% de probabilidad de encadenar a un enemigo adicional.",
+					"frFR": "L'énergie crépitante a {30/40}% de chances de se propager à une cible supplémentaire.",
+					"itIT": "Energia Crepitante ha il {30/40}% di probabilità di rimbalzare su un nemico aggiuntivo.",
+					"jaJP": "帯び出す電気が{30/40}%の確率で追加の敵1体に連鎖する。",
+					"koKR": "짜릿한 에너지가 {30/40}% 확률로 추가 적에게 연쇄됩니다.",
+					"plPL": "Roziskrzona Energia ma {30/40}% szans na przeskoczenie do dodatkowego wroga.",
+					"ptBR": "Energia Crepitante tem {30/40}% de chance de se propagar para um inimigo adicional.",
+					"ruRU": "Искрящиеся заряды энергии с вероятностью {30/40}% перескакивают на еще одного противника.",
+					"trTR": "Çatırtı Enerjisi, {30/40}% ihtimalle ilave bir düşmana daha zincirlenir.",
+					"zhCN": "爆裂电花有 {30/40}% 几率传递至额外一名敌人。",
+					"zhTW": "電流能量有 {30/40}% 機率連鎖到另一個敵人身上。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -10028,7 +10028,7 @@ let codexData = {
 					"ptBR": "Você causa {11/20}% de dano aumentado a inimigos vulneráveis enquanto tem uma barreira.",
 					"ruRU": "Пока вы защищены барьером, вы наносите на x{11/20}% больше урона уязвимым противникам.",
 					"trTR": "Bir Bariyere sahipken Savunmasız düşmanlara x{11/20}% artırılmış hasar verirsin.",
-					"zhCN": "当你有屏障时, 你对易伤敌人造成的伤害提高 x{11/20}%。",
+					"zhCN": "你有激活的屏障时, 你对易伤敌人造成的伤害提高 x{11/20}%。",
 					"zhTW": "擁有屏障時,對易傷敵人造成的傷害提高 x{11/20}%。"
 				},
 				"dungeon": "Onyx Hold",
@@ -10065,7 +10065,7 @@ let codexData = {
 					"ptBR": "Enquanto Congelamento Profundo está ativo, Espetos de Gelo explosivos se formam na área, causando {#} de dano gélido. Seus Espetos de Gelo têm 50% de raio de explosão aumentado.",
 					"ruRU": "Пока действует \"Глубокая заморозка\", вокруг появляются ледяные шипы, которые взрываются и наносят {#} ед. урона от льда. Радиус взрыва ваших ледяных шипов увеличивается на 50%.",
 					"trTR": "Derin Dondurma etkinken bölgede {#}Soğuk hasarı vererek patlayan Buz Dikenler oluşur. Buz Dikenlerin 50% artırılmış patlama yarıçapına sahiptir.",
-					"zhCN": "当深度冻结激活时, 在范围内形成会爆炸的冰刺, 造成 {#} 点冰霜伤害。你的冰刺 爆炸范围扩大 50%。",
+					"zhCN": "当深度冻结激活时, 在范围内形成会爆炸的冰刺, 造成 {#} 点寒冰伤害。你的冰刺 爆炸范围扩大 50%。",
 					"zhTW": "使用極度冰凍時,會在區域內生成會爆炸的冰刺,造成 {#} 點冰寒傷害。冰刺爆炸半徑增加 50%。"
 				},
 				"dungeon": "",
@@ -10364,7 +10364,7 @@ let codexData = {
 					"ptBR": "Você causa {25/35}% de dano aumentado a inimigos imobilizados, atordoados ou congelados.",
 					"ruRU": "Вы наносите на x{25/35}% больше урона обездвиженным, оглушенным или замороженным противникам.",
 					"trTR": "Sabitlenmiş, Sersemletilmiş veya Donmuş düşmanlara x{25/35}% daha fazla hasar verirsin.",
-					"zhCN": "你对被定身、昏迷或被冻结敌人造成的伤害提高 x{25/35}%。",
+					"zhCN": "你对被定身、被击昏或被冻结敌人造成的伤害提高 x{25/35}%。",
 					"zhTW": "你對定身、昏迷或凍結的敵人,造成的傷害提高 x{25/35}%。"
 				},
 				"dungeon": "Sunken Library",
@@ -10487,7 +10487,7 @@ let codexData = {
 				"slot": "2H Staff",
 				"dropLevel": 50,
 				"dropWeight": 800000,
-				"description": "Charged Bolts pierce, but deal x{30/40}% less damage.",
+				"description": "Charged Bolts pierce, but deal x{25/35}% less damage.",
 				"flavor": "\"Also known as the Greatstaff of the Old Religion, this powerful relic is one of only a small handful of Skatsimi artifacts that have survived to this day.\"\n- Barrett's Book of Implements",
 				"nameLocalized": {
 					"deDE": "[ms]Stab von Lam Esen",
@@ -10505,19 +10505,19 @@ let codexData = {
 					"zhTW": "藍伊森法杖"
 				},
 				"descriptionLocalized": {
-					"deDE": "Comboblitze durchschlagen Gegner, aber verursachen x{30/40}% weniger Schaden.",
-					"esES": "Descarga de energía perfora, pero inflige un x{30/40}% menos de daño.",
-					"esMX": "Las Centellas perforan, pero infligen un {30/40}% menos de daño.",
-					"frFR": "Décharge électrique transperce les adversaires, mais inflige {30/40}% de dégâts en moins.",
-					"itIT": "Le Scariche Elettriche perforano i bersagli, ma infliggono il x{30/40}% di danni in meno.",
-					"jaJP": "〈チャージボルト〉が貫通するが、与えるダメージがx{30/40}%減る。",
-					"koKR": "번개 줄기가 적을 관통하지만 주는 피해가 x{30/40}% 감소합니다.",
-					"plPL": "Wiązki Błyskawic przebijają cele, ale zadają obrażenia zmniejszone o x{30/40}%.",
-					"ptBR": "Setas Carregadas perfuram, mas causam {30/40}% de dano reduzido.",
-					"ruRU": "\"Электрические разряды\" пронзают цели, но наносят на x{30/40}% меньше урона.",
-					"trTR": "Yüklü Yıldırımler delme uygular ancak x{30/40}% daha az hasar verir.",
-					"zhCN": "电荷弹会穿透, 但造成的伤害降低 x{30/40}%。",
-					"zhTW": "電能彈會貫穿敵人,但造成的傷害降低 x{30/40}%。"
+					"deDE": "Comboblitze durchschlagen Gegner, aber verursachen x{25/35}% weniger Schaden.",
+					"esES": "Descarga de energía perfora, pero inflige un x{25/35}% menos de daño.",
+					"esMX": "Las Centellas perforan, pero infligen un {25/35}% menos de daño.",
+					"frFR": "Décharge électrique transperce les adversaires, mais inflige {25/35}% de dégâts en moins.",
+					"itIT": "Le Scariche Elettriche perforano i bersagli, ma infliggono il x{25/35}% di danni in meno.",
+					"jaJP": "〈チャージボルト〉が貫通するが、与えるダメージがx{25/35}%減る。",
+					"koKR": "번개 줄기가 적을 관통하지만 주는 피해가 x{25/35}% 감소합니다.",
+					"plPL": "Wiązki Błyskawic przebijają cele, ale zadają obrażenia zmniejszone o x{25/35}%.",
+					"ptBR": "Setas Carregadas perfuram, mas causam {25/35}% de dano reduzido.",
+					"ruRU": "\"Электрические разряды\" пронзают цели, но наносят на x{25/35}% меньше урона.",
+					"trTR": "Yüklü Yıldırımler delme uygular ancak x{25/35}% daha az hasar verir.",
+					"zhCN": "电荷弹会穿透, 但造成的伤害降低 x{25/35}%。",
+					"zhTW": "電能彈會貫穿敵人,但造成的傷害降低 x{25/35}%。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Dieses mächtige Relikt ist auch als Großstab der alten Religion bekannt und gehört zu den wenigen Skatsim-Artefakten, die bis zum heutigen Tag überdauert haben.\"\n-Barretts Buch der Instrumentarien",
@@ -10742,7 +10742,7 @@ let codexData = {
 			"Aspect of Singed Extremities": {
 				"id": 271,
 				"type": "Legendary",
-				"description": "After Immobilize wears off, enemies are Slowed by {25/35}% for 4.0 seconds.",
+				"description": "After Immobilize wears off, enemies are Slowed by {40/60}% for 4.0 seconds.",
 				"nameLocalized": {
 					"deDE": "der versengten Extremitäten",
 					"esES": "de extremidades chamuscadas",
@@ -10759,19 +10759,19 @@ let codexData = {
 					"zhTW": "焦黑肢體之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Nach Abklingen der Bewegungsunfähigkeit werden Gegner 4.0 Sek. lang um {25/35}% verlangsamt.",
-					"esES": "Cuando termina el efecto de inmovilización, los enemigos quedan ralentizados un {25/35}% durante 4.0 s.",
-					"esMX": "Cuando la inmovilización desaparece, los enemigos son ralentizados un {25/35}% durante 4.0 segundos.",
-					"frFR": "Une fois que l'effet d'immobilisation se dissipe, les cibles sont ralenties de {25/35}% pendant 4.0 s.",
-					"itIT": "Al termine dell'immobilizzazione, i nemici sono rallentati del {25/35}% per 4.0 s.",
-					"jaJP": "移動不能状態が消えた後、敵の速度が4.0秒間{25/35}%低下する。",
-					"koKR": "이동 불가 효과가 끝난 후, 적들이 4.0초 동안 {25/35}% 감속됩니다.",
-					"plPL": "Po ustąpieniu unieruchomienia wrogowie są spowolnieni o {25/35}% na 4.0 sek.",
-					"ptBR": "Depois que a imobilização acaba, os inimigos são desacelerados em {25/35}% por 4.0 segundos.",
-					"ruRU": "Когда заканчивается действие обездвиживания, противники замедляются на {25/35}% на 4.0 сек.",
-					"trTR": "Sabitlenin etkisi geçtikten sonra düşmanlar 4.0 saniye boyunca {25/35}% Yavaşlatılır.",
-					"zhCN": "定身结束后, 敌人被减速 {25/35}%, 持续 4.0 秒。",
-					"zhTW": "敵人的定身解除後,會緩速 {25/35}%,持續 4.0 秒。"
+					"deDE": "Nach Abklingen der Bewegungsunfähigkeit werden Gegner 4.0 Sek. lang um {40/60}% verlangsamt.",
+					"esES": "Cuando termina el efecto de inmovilización, los enemigos quedan ralentizados un {40/60}% durante 4.0 s.",
+					"esMX": "Cuando la inmovilización desaparece, los enemigos son ralentizados un {40/60}% durante 4.0 segundos.",
+					"frFR": "Une fois que l'effet d'immobilisation se dissipe, les cibles sont ralenties de {40/60}% pendant 4.0 s.",
+					"itIT": "Al termine dell'immobilizzazione, i nemici sono rallentati del {40/60}% per 4.0 s.",
+					"jaJP": "移動不能状態が消えた後、敵の速度が4.0秒間{40/60}%低下する。",
+					"koKR": "이동 불가 효과가 끝난 후, 적들이 4.0초 동안 {40/60}% 감속됩니다.",
+					"plPL": "Po ustąpieniu unieruchomienia wrogowie są spowolnieni o {40/60}% na 4.0 sek.",
+					"ptBR": "Depois que a imobilização acaba, os inimigos são desacelerados em {40/60}% por 4.0 segundos.",
+					"ruRU": "Когда заканчивается действие обездвиживания, противники замедляются на {40/60}% на 4.0 сек.",
+					"trTR": "Sabitlenin etkisi geçtikten sonra düşmanlar 4.0 saniye boyunca {40/60}% Yavaşlatılır.",
+					"zhCN": "定身结束后, 敌人被减速 {40/60}%, 持续 4.0 秒。",
+					"zhTW": "敵人的定身解除後,會緩速 {40/60}%,持續 4.0 秒。"
 				},
 				"dungeon": "Earthen Wound",
 				"region": "Hawezar"
@@ -10807,7 +10807,7 @@ let codexData = {
 					"ptBR": "Sua chance de Golpe de Sorte é aumentada em +{10/20}% enquanto tem uma barreira ativa.",
 					"ruRU": "Вероятность удачного удара повышается на +{10/20}%, пока на вас действует барьер.",
 					"trTR": "Etkin bir Bariyere sahipken Şanslı Vuruş İhtimalin +{10/20}% artar.",
-					"zhCN": "当你有激活的屏障时, 你的幸运一击几率提高 +{10/20}%。",
+					"zhCN": "你有激活的屏障时, 你的幸运一击几率提高 +{10/20}%。",
 					"zhTW": "擁有屏障時,幸運觸發機率提高 +{10/20}%。"
 				},
 				"dungeon": "",
@@ -10848,7 +10848,7 @@ let codexData = {
 					"ptBR": "Depois de usar Teleporte, inimigos próximos são puxados até você e atordoados por {2/3} segundos, mas a recarga de Teleporte é aumentada em 20.0%.",
 					"ruRU": "После \"Телепортации\" вы притягиваете к себе ближайших противников и оглушаете их на {2/3} сек., но время восстановления \"Телепортации\" увеличивается на x20.0%.",
 					"trTR": "Işınlanmayı kullandıktan sonra Yakın düşmanlar sana Çekilir ve {2/3} saniye Sersemletilir ancak Işınlanmanın Bekleme Süresi x20.0% artar.",
-					"zhCN": "使用传送术后, 近距敌人会被拉向你并昏迷 {2/3} 秒, 但传送术的冷却时间增加 x20.0%。",
+					"zhCN": "使用传送术后, 近距敌人会被拉向你并被击昏 {2/3} 秒, 但传送术的冷却时间增加 x20.0%。",
 					"zhTW": "使用傳送術後,近距離敵人會被拉向你並被擊昏 {2/3} 秒,但傳送術的冷卻時間延長 x20.0%。"
 				},
 				"flavorLocalized": {
@@ -10872,7 +10872,7 @@ let codexData = {
 			"Snowguard's Aspect": {
 				"id": 96,
 				"type": "Legendary",
-				"description": "While within your own Blizzard, you take {10/15}% less damage.",
+				"description": "While within your own Blizzard, you take {20/25}% less damage.",
 				"nameLocalized": {
 					"deDE": "[ms]Schneewachender[fs]Schneewachende[ns]Schneewachendes[p]Schneewachende[c]Schneewächter-",
 					"esES": "de guardanieves",
@@ -10889,19 +10889,19 @@ let codexData = {
 					"zhTW": "雪衛"
 				},
 				"descriptionLocalized": {
-					"deDE": "Solange Ihr innerhalb Eures Blizzards steht, erleidet Ihr {10/15}% weniger Schaden.",
-					"esES": "Mientras estás dentro de tu propia Ventisca, sufres un {10/15}% menos de daño.",
-					"esMX": "Mientras estás dentro de tu propia Ventisca, recibes un {10/15}% menos de daño.",
-					"frFR": "Tant que vous êtes dans votre Blizzard, vous subissez {10/15}% de dégâts en moins.",
-					"itIT": "Mentre sei all'interno della tua Tormenta, subisci il {10/15}% di danni in meno.",
-					"jaJP": "自身が発生させた〈ブリザード〉の中にいると、被ダメージが{10/15}%減少する。",
-					"koKR": "자신의 눈보라 안에 있는 동안 받는 피해가 {10/15}% 감소합니다.",
-					"plPL": "Kiedy znajdujesz się na obszarze własnej Zamieci, otrzymujesz obrażenia zmniejszone o {10/15}%.",
-					"ptBR": "Dentro da sua própria Nevasca, você recebe {10/15}% de dano reduzido.",
-					"ruRU": "Находясь в своей \"Снежной буре\", вы получаете на {10/15}% меньше урона.",
-					"trTR": "Kendi Kar Fırtınanın içindeyken {10/15}% daha az hasar alırsın.",
-					"zhCN": "在你自己的暴风雪中时, 你受到的伤害降低 {10/15}%。",
-					"zhTW": "處於自己施展的暴風雪中時,受到的傷害降低 {10/15}%。"
+					"deDE": "Solange Ihr innerhalb Eures Blizzards steht, erleidet Ihr {20/25}% weniger Schaden.",
+					"esES": "Mientras estás dentro de tu propia Ventisca, sufres un {20/25}% menos de daño.",
+					"esMX": "Mientras estás dentro de tu propia Ventisca, recibes un {20/25}% menos de daño.",
+					"frFR": "Tant que vous êtes dans votre Blizzard, vous subissez {20/25}% de dégâts en moins.",
+					"itIT": "Mentre sei all'interno della tua Tormenta, subisci il {20/25}% di danni in meno.",
+					"jaJP": "自身が発生させた〈ブリザード〉の中にいると、被ダメージが{20/25}%減少する。",
+					"koKR": "자신의 눈보라 안에 있는 동안 받는 피해가 {20/25}% 감소합니다.",
+					"plPL": "Kiedy znajdujesz się na obszarze własnej Zamieci, otrzymujesz obrażenia zmniejszone o {20/25}%.",
+					"ptBR": "Dentro da sua própria Nevasca, você recebe {20/25}% de dano reduzido.",
+					"ruRU": "Находясь в своей \"Снежной буре\", вы получаете на {20/25}% меньше урона.",
+					"trTR": "Kendi Kar Fırtınanın içindeyken {20/25}% daha az hasar alırsın.",
+					"zhCN": "在你自己的暴风雪中时, 你受到的伤害降低 {20/25}%。",
+					"zhTW": "處於自己施展的暴風雪中時,受到的傷害降低 {20/25}%。"
 				},
 				"dungeon": "",
 				"region": "Hawezar"
@@ -10922,7 +10922,7 @@ let codexData = {
 					"ptBR": "da Blitz de Gelo",
 					"ruRU": "[ms]пронизывающий холодом[fs]пронизывающая холодом[ns]пронизывающее холодом[p]пронизывающие холодом",
 					"trTR": "Buz Fırtınası",
-					"zhCN": "冰霜闪击",
+					"zhCN": "寒霜闪击",
 					"zhTW": "冰霜閃擊"
 				},
 				"descriptionLocalized": {
@@ -10937,7 +10937,7 @@ let codexData = {
 					"ptBR": "Nova Gélida recebe uma carga adicional, mas a recarga por carga é aumentada em {30/40}%.",
 					"ruRU": "Количество зарядов \"Кольца льда\" увеличивается на 1, но каждый заряд восстанавливается на {30/40}% дольше.",
 					"trTR": "Buz Novası ek bir Yük kazanır ancak Yük başına Bekleme Süresi {30/40}% artar.",
-					"zhCN": "冰霜新星获得额外一层使用次数, 但每有一层, 冷却时间延长 {30/40}%。",
+					"zhCN": "寒霜新星获得额外一层使用次数, 但每有一层, 冷却时间延长 {30/40}%。",
 					"zhTW": "冰霜新星獲得一次額外使用次數,但每次使用次數的冷卻時間延長 {30/40}%。"
 				},
 				"dungeon": "",
@@ -11126,7 +11126,7 @@ let codexData = {
 					"ptBR": "Inimigos que morrem enquanto congelados têm {11/20}% de chance de lançarem uma Nova Gélida.",
 					"ruRU": "Когда замороженные противники умирают, они с вероятностью {11/20}% выпускают \"Кольцо льда\".",
 					"trTR": "Donmuş hâlde ölen düşmanlar {11/20}% ihtimalle bir Buz Novası serbest bırakır.",
-					"zhCN": "敌人在被冻结状态下死亡有 {11/20}% 几率施放冰霜新星。",
+					"zhCN": "敌人在被冻结状态下死亡有 {11/20}% 几率施放寒霜新星。",
 					"zhTW": "在凍結狀態下死亡的敵人,有 {11/20}% 機率釋放冰霜新星。"
 				},
 				"flavorLocalized": {
@@ -11263,7 +11263,7 @@ let codexData = {
 			"Incendiary Aspect": {
 				"id": 110,
 				"type": "Legendary",
-				"description": "Lucky Hit: Burning damage has up to a {5/10}% chance to restore 10.0 Mana.",
+				"description": "Lucky Hit: Burning damage has up to a {12/17}% chance to restore 10.0 Mana.",
 				"nameLocalized": {
 					"deDE": "[ms]Zündelnder[fs]Zündelnde[ns]Zündelndes[p]Zündelnde[c]Zündel-",
 					"esES": "[fs]incendiaria[ms]incendiario[fp]incendiarias[mp]incendiarios",
@@ -11280,19 +11280,19 @@ let codexData = {
 					"zhTW": "煽火"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Verbrennungsschaden hat eine Chance von bis zu {5/10}%, 10.0 Mana wiederherzustellen.",
-					"esES": "Golpe de suerte: El daño de quemadura tiene hasta un {5/10}% de probabilidad de restaurar 10.0 de maná.",
-					"esMX": "Golpe afortunado: El daño de quemadura tiene hasta un {5/10}% de probabilidad de restaurar 10.0 de maná.",
-					"frFR": "Coup de chance: lorsque vous infligez des dégâts de brûlure, vous avez jusqu'à {5/10}% de chances de récupérer 10.0 points de mana.",
-					"itIT": "Colpo fortunato: i danni da fiamme hanno fino al {5/10}% di probabilità di rigenerare 10.0 mana.",
-					"jaJP": "幸運の一撃: 炎上ダメージを与えると最大{5/10}%の確率でマナが10.0回復する。",
-					"koKR": "행운의 적중: 연소 피해를 주면 최대 {5/10}% 확률로 마나가 10.0 회복됩니다.",
-					"plPL": "Szczęśliwy traf: Obrażenia od podpalenia mają maksymalnie {5/10}% szans na przywrócenie 10.0 pkt. many.",
-					"ptBR": "Golpe de Sorte: Dano flamejante tem até {5/10}% de chance de recuperar 10.0 de mana.",
-					"ruRU": "Удачный удар: когда вы наносите урон от горения, вы с вероятностью до {5/10}% восполняете 10.0 ед. маны.",
-					"trTR": "Şanslı Vuruş: Yanma hasarı en fazla {5/10}% ihtimalle 10.0 Mana yeniler.",
-					"zhCN": "幸运一击: 燃烧伤害有最多 {5/10}% 几率恢复 10.0 点法力。",
-					"zhTW": "幸運觸發:燃燒傷害最高有 {5/10}% 機率恢復 10.0 點法力。"
+					"deDE": "Glückstreffer: Verbrennungsschaden hat eine Chance von bis zu {12/17}%, 10.0 Mana wiederherzustellen.",
+					"esES": "Golpe de suerte: El daño de quemadura tiene hasta un {12/17}% de probabilidad de restaurar 10.0 de maná.",
+					"esMX": "Golpe afortunado: El daño de quemadura tiene hasta un {12/17}% de probabilidad de restaurar 10.0 de maná.",
+					"frFR": "Coup de chance: lorsque vous infligez des dégâts de brûlure, vous avez jusqu'à {12/17}% de chances de récupérer 10.0 points de mana.",
+					"itIT": "Colpo fortunato: i danni da fiamme hanno fino al {12/17}% di probabilità di rigenerare 10.0 mana.",
+					"jaJP": "幸運の一撃: 炎上ダメージを与えると最大{12/17}%の確率でマナが10.0回復する。",
+					"koKR": "행운의 적중: 연소 피해를 주면 최대 {12/17}% 확률로 마나가 10.0 회복됩니다.",
+					"plPL": "Szczęśliwy traf: Obrażenia od podpalenia mają maksymalnie {12/17}% szans na przywrócenie 10.0 pkt. many.",
+					"ptBR": "Golpe de Sorte: Dano flamejante tem até {12/17}% de chance de recuperar 10.0 de mana.",
+					"ruRU": "Удачный удар: когда вы наносите урон от горения, вы с вероятностью до {12/17}% восполняете 10.0 ед. маны.",
+					"trTR": "Şanslı Vuruş: Yanma hasarı en fazla {12/17}% ihtimalle 10.0 Mana yeniler.",
+					"zhCN": "幸运一击: 燃烧伤害有最多 {12/17}% 几率恢复 10.0 点法力。",
+					"zhTW": "幸運觸發:燃燒傷害最高有 {12/17}% 機率恢復 10.0 點法力。"
 				},
 				"dungeon": "Tomb of the Saints",
 				"region": "Kehjistan"
@@ -11374,7 +11374,7 @@ let codexData = {
 			"Aspect of Concentration": {
 				"id": 283,
 				"type": "Legendary",
-				"description": "Your Mana Regeneration is increased by x{10/20}% if you have not taken damage in the last 3.0 seconds.",
+				"description": "Your Mana Regeneration is increased by x{20/30}% if you have not taken damage in the last 3.0 seconds.",
 				"nameLocalized": {
 					"deDE": "der Konzentration",
 					"esES": "de concentración",
@@ -11391,19 +11391,19 @@ let codexData = {
 					"zhTW": "專注之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Manaregeneration wird um x{10/20}% erhöht, wenn Ihr in den letzten 3.0 Sek. keinen Schaden erlitten habt.",
-					"esES": "Tu regeneración de maná aumenta un x{10/20}% si no has sufrido daño en los últimos 3.0 s.",
-					"esMX": "Tu regeneración de maná aumenta un x{10/20}% si no recibiste daño en los últimos 3.0 segundos.",
-					"frFR": "Votre régénération de mana augmente de x{10/20}% lorsque vous ne subissez pas de dégâts pendant 3.0 s.",
-					"itIT": "La tua rigenerazione di mana aumenta del x{10/20}% se non hai subito danni negli ultimi 3.0 s.",
-					"jaJP": "3.0秒間ダメージを受けずにいるとマナ生成がx{10/20}%増加する。",
-					"koKR": "3.0초 동안 피해를 받지 않으면 마나 재생량이 x{10/20}% 증가합니다.",
-					"plPL": "Twoja regeneracja many jest zwiększona o x{10/20}%, jeśli twoja postać nie odniosła obrażeń w ciągu ostatnich 3.0 sek.",
-					"ptBR": "Sua regeneração de mana é aumentada em {10/20}% se você não recebeu dano nos últimos 3.0 segundos.",
-					"ruRU": "Скорость восстановления маны повышается на x{10/20}%, если вы не получали урон за предыдущие 3.0 сек.",
-					"trTR": "Son 3.0] saniye içinde hasar almadıysan Mana Yenilemesi oranın x{10/20}% artar.",
-					"zhCN": "你在 3.0 秒内未受到伤害, 你的法力回复速度提高 x{10/20}%。",
-					"zhTW": "若 3.0 秒內沒有受到傷害,法力恢復提高 x{10/20}%。"
+					"deDE": "Eure Manaregeneration wird um x{20/30}% erhöht, wenn Ihr in den letzten 3.0 Sek. keinen Schaden erlitten habt.",
+					"esES": "Tu regeneración de maná aumenta un x{20/30}% si no has sufrido daño en los últimos 3.0 s.",
+					"esMX": "Tu regeneración de maná aumenta un x{20/30}% si no recibiste daño en los últimos 3.0 segundos.",
+					"frFR": "Votre régénération de mana augmente de x{20/30}% lorsque vous ne subissez pas de dégâts pendant 3.0 s.",
+					"itIT": "La tua rigenerazione di mana aumenta del x{20/30}% se non hai subito danni negli ultimi 3.0 s.",
+					"jaJP": "3.0秒間ダメージを受けずにいるとマナ生成がx{20/30}%増加する。",
+					"koKR": "3.0초 동안 피해를 받지 않으면 마나 재생량이 x{20/30}% 증가합니다.",
+					"plPL": "Twoja regeneracja many jest zwiększona o x{20/30}%, jeśli twoja postać nie odniosła obrażeń w ciągu ostatnich 3.0 sek.",
+					"ptBR": "Sua regeneração de mana é aumentada em {20/30}% se você não recebeu dano nos últimos 3.0 segundos.",
+					"ruRU": "Скорость восстановления маны повышается на x{20/30}%, если вы не получали урон за предыдущие 3.0 сек.",
+					"trTR": "Son 3.0] saniye içinde hasar almadıysan Mana Yenilemesi oranın x{20/30}% artar.",
+					"zhCN": "你在 3.0 秒内未受到伤害, 你的法力回复速度提高 x{20/30}%。",
+					"zhTW": "若 3.0 秒內沒有受到傷害,法力恢復提高 x{20/30}%。"
 				},
 				"dungeon": "",
 				"region": ""

@@ -48,7 +48,7 @@ sorcererData["Basic"] = {
 		connections: [ "Basic", "Enhanced Frost Bolt" ],
 		description: `Attack Speed Multiplier: 1.25
 Lucky Hit Chance: 40% (per hit)
-Throw a bolt of frost at an enemy, dealing {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% damage and Chilling them for 15%.
+Throw a bolt of frost at an enemy, dealing {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% damage and Chilling them for 15%.
 
 Tags: Basic, Frost, Chill, Damage, Cold, Crowd Control.
 
@@ -66,23 +66,23 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"ptBR": "Seta de Gelo",
 			"ruRU": "Ледяная стрела",
 			"trTR": "Buz Oku",
-			"zhCN": "冰霜弹",
+			"zhCN": "寒霜弹",
 			"zhTW": "冰霜彈"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nGlückstrefferchance: 40% (per hit)\nSchleudert einen Frostblitz auf einen Gegner, der {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% Schaden verursacht und ihn für 15% unterkühlt.\n\nTags: Basis, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust.\n\n— Enchantment Effect —\nDirekter Schaden von Fertigkeiten verursacht bis zu {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% Unterkühlung.",
-			"esES": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe de suerte: 40% (per hit)\nLanzas a un enemigo una descarga de escarcha que inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño y lo hiela un 15%.\n\nTags: Básica, Escarcha, Helada, Daño, Frío, Control de masas.\n\n— Enchantment Effect —\nEl daño directo de las habilidades aplica hasta un {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de helada.",
-			"esMX": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe afortunado: 40% (per hit)\nLanzas una descarga gélida a un enemigo, lo que le inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de daño y lo hiela un 15%.\n\nTags: Básica, Hielo, Helar, Daño, Frío, Control de multitudes.\n\n— Enchantment Effect —\nEl daño directo de las habilidades aplica hasta un {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de helamiento.",
-			"frFR": "Attack Speed Multiplier: 1.25\nChances d'obtenir un coup de chance: 40% (per hit)\nVous lancez un éclair de givre sur une cible, ce qui lui inflige {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% points de dégâts et la glace à hauteur de 15%.\n\nTags: Basique, Givre, Glace, Dégâts, Froid, Perte de contrôle.\n\n— Enchantment Effect —\nLes dégâts directs que vous infligez avec des compétences appliquent jusqu'à {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% d'effets glaçants.",
-			"itIT": "Attack Speed Multiplier: 1.25\nProbabilità di colpo fortunato: 40% (per hit)\nLanci un dardo di gelo contro un nemico, infliggendo {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% danni e raggelandolo del 15%.\n\nTags: Base, Gelo, Raggelamento, Danni, Freddo, Effetti debilitanti.\n\n— Enchantment Effect —\nI danni diretti delle abilità infliggono fino al {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% di raggelamento.",
-			"jaJP": "Attack Speed Multiplier: 1.25\n幸運の一撃発生率: 40% (per hit)\n敵1体に氷の矢を放ち、{35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%のダメージと15%の冷気効果を与える。\n\nTags: 基本, 凍結, 冷気, ダメージ, 操作障害効果.\n\n— Enchantment Effect —\nスキルによる直接ダメージを与えると、最大{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%の冷気効果を付与する。",
-			"koKR": "Attack Speed Multiplier: 1.25\n행운의 적중 확률: 40% (per hit)\n적에게 서리의 화살을 날려 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}%의 피해를 주고 15%의 오한을 느끼게 합니다.\n\nTags: 기본, 서리, 오한, 피해, 냉기, 군중 제어.\n\n— Enchantment Effect —\n기술로 직접 피해를 주면 대상이 최대 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%의 오한을 느낍니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nSzansa na szczęśliwy traf: 40% (per hit)\nCiskasz we wroga lodowym pociskiem, który wyziębia ofiarę o 15% i zadaje jej {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% pkt. obrażeń.\n\nTags: Podstawowe, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nObrażenia bezpośrednie od umiejętności wywołują dodatkowo {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% wyziębienia.",
-			"ptBR": "Attack Speed Multiplier: 1.25\nChance de Golpe de Sorte: 40% (per hit)\nArremessa uma seta de gelo em um inimigo, causando {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% de dano e aplicando gelidez por 15%.\n\nTags: Básica, Geleira, Gelidez, Dano, Gelo, Controle de Grupo.\n\n— Enchantment Effect —\nO dano direto de habilidades aplica até {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de gelidez.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nВероятность удачного удара: 40% (per hit)\nВы запускаете морозный снаряд, наносящий цели {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% ед. урона и заставляющий ее коченеть, уменьшая подвижность на 15%.\n\nTags: Базовое, Мороз, Окоченение, Урон, Холод, Контроль.\n\n— Enchantment Effect —\nПрямой урон от умений применяет к противникам эффект окоченения, замедляющий на {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%.",
-			"trTR": "Attack Speed Multiplier: 1.25\nŞanslı Vuruş İhtimali: 40% (per hit)\nBir düşmana bir buz oku fırlatarak {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% hasar ver ve 15% Soğutma uygula.\n\nTags: Temel, Soğuk, Soğutma, Hasar, Kitle Kontrolü.\n\n— Enchantment Effect —\nYeteneklerin verdiği doğrudan hasar en fazla {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% olmak üzere Soğutma uygular.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n幸运一击几率: 40% (per hit)\n对一名敌人投掷冰霜弹, 造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 点伤害并使其冻伤 15%。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 冰霜, 群控.\n\n— Enchantment Effect —\n来自技能的直接伤害会施加最多 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 的冻伤效果。",
-			"zhTW": "Attack Speed Multiplier: 1.25\n幸運觸發機率: 40% (per hit)\n對敵人施放冰霜彈,造成 {35/38.5/42/45.5/49/52.5/56/59.5/63/66.5}% 點傷害與 15% 冰冷效果。\n\nTags: 基本, 冰霜, 冰冷, 傷害, 冰寒, 控場.\n\n— Enchantment Effect —\n技能的直接傷害最多會附加 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 冰冷效果。"
+			"deDE": "Attack Speed Multiplier: 1.25\nGlückstrefferchance: 40% (per hit)\nSchleudert einen Frostblitz auf einen Gegner, der {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% Schaden verursacht und ihn für 15% unterkühlt.\n\nTags: Basis, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust.\n\n— Enchantment Effect —\nDirekter Schaden von Fertigkeiten verursacht bis zu {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% Unterkühlung.",
+			"esES": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe de suerte: 40% (per hit)\nLanzas a un enemigo una descarga de escarcha que inflige {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% de daño y lo hiela un 15%.\n\nTags: Básica, Escarcha, Helada, Daño, Frío, Control de masas.\n\n— Enchantment Effect —\nEl daño directo de las habilidades aplica hasta un {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de helada.",
+			"esMX": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe afortunado: 40% (per hit)\nLanzas una descarga gélida a un enemigo, lo que le inflige {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% de daño y lo hiela un 15%.\n\nTags: Básica, Hielo, Helar, Daño, Frío, Control de multitudes.\n\n— Enchantment Effect —\nEl daño directo de las habilidades aplica hasta un {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de helamiento.",
+			"frFR": "Attack Speed Multiplier: 1.25\nChances d'obtenir un coup de chance: 40% (per hit)\nVous lancez un éclair de givre sur une cible, ce qui lui inflige {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% points de dégâts et la glace à hauteur de 15%.\n\nTags: Basique, Givre, Glace, Dégâts, Froid, Perte de contrôle.\n\n— Enchantment Effect —\nLes dégâts directs que vous infligez avec des compétences appliquent jusqu'à {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% d'effets glaçants.",
+			"itIT": "Attack Speed Multiplier: 1.25\nProbabilità di colpo fortunato: 40% (per hit)\nLanci un dardo di gelo contro un nemico, infliggendo {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% danni e raggelandolo del 15%.\n\nTags: Base, Gelo, Raggelamento, Danni, Freddo, Effetti debilitanti.\n\n— Enchantment Effect —\nI danni diretti delle abilità infliggono fino al {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% di raggelamento.",
+			"jaJP": "Attack Speed Multiplier: 1.25\n幸運の一撃発生率: 40% (per hit)\n敵1体に氷の矢を放ち、{38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}%のダメージと15%の冷気効果を与える。\n\nTags: 基本, 凍結, 冷気, ダメージ, 操作障害効果.\n\n— Enchantment Effect —\nスキルによる直接ダメージを与えると、最大{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%の冷気効果を付与する。",
+			"koKR": "Attack Speed Multiplier: 1.25\n행운의 적중 확률: 40% (per hit)\n적에게 서리의 화살을 날려 {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}%의 피해를 주고 15%의 오한을 느끼게 합니다.\n\nTags: 기본, 서리, 오한, 피해, 냉기, 군중 제어.\n\n— Enchantment Effect —\n기술로 직접 피해를 주면 대상이 최대 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%의 오한을 느낍니다.",
+			"plPL": "Attack Speed Multiplier: 1.25\nSzansa na szczęśliwy traf: 40% (per hit)\nCiskasz we wroga lodowym pociskiem, który wyziębia ofiarę o 15% i zadaje jej {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% pkt. obrażeń.\n\nTags: Podstawowe, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nObrażenia bezpośrednie od umiejętności wywołują dodatkowo {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% wyziębienia.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nChance de Golpe de Sorte: 40% (per hit)\nArremessa uma seta de gelo em um inimigo, causando {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% de dano e aplicando gelidez por 15%.\n\nTags: Básica, Geleira, Gelidez, Dano, Gelo, Controle de Grupo.\n\n— Enchantment Effect —\nO dano direto de habilidades aplica até {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de gelidez.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nВероятность удачного удара: 40% (per hit)\nВы запускаете морозный снаряд, наносящий цели {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% ед. урона и заставляющий ее коченеть, уменьшая подвижность на 15%.\n\nTags: Базовое, Мороз, Окоченение, Урон, Холод, Контроль.\n\n— Enchantment Effect —\nПрямой урон от умений применяет к противникам эффект окоченения, замедляющий на {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%.",
+			"trTR": "Attack Speed Multiplier: 1.25\nŞanslı Vuruş İhtimali: 40% (per hit)\nBir düşmana bir buz oku fırlatarak {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% hasar ver ve 15% Soğutma uygula.\n\nTags: Temel, Soğuk, Soğutma, Hasar, Kitle Kontrolü.\n\n— Enchantment Effect —\nYeteneklerin verdiği doğrudan hasar en fazla {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% olmak üzere Soğutma uygular.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n幸运一击几率: 40% (per hit)\n对一名敌人投掷寒霜弹, 造成 {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% 点伤害并使其冻伤 15%。\n\nTags: 基础, 寒霜, 冻伤, 伤害, 寒冰, 群控.\n\n— Enchantment Effect —\n来自技能的直接伤害会施加最多 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 的冻伤效果。",
+			"zhTW": "Attack Speed Multiplier: 1.25\n幸運觸發機率: 40% (per hit)\n對敵人施放冰霜彈,造成 {38/41.8/45.6/49.4/53.2/57/60.8/64.6/68.4/72.2}% 點傷害與 15% 冰冷效果。\n\nTags: 基本, 冰霜, 冰冷, 傷害, 冰寒, 控場.\n\n— Enchantment Effect —\n技能的直接傷害最多會附加 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% 冰冷效果。"
 },
 		id: 0,
 		maxPoints: 5,
@@ -105,7 +105,7 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"ptBR": "Seta de Gelo Aperfeiçoada",
 			"ruRU": "Усиленная ледяная стрела",
 			"trTR": "Geliştirilmiş Buz Oku",
-			"zhCN": "强化冰霜弹",
+			"zhCN": "强化寒霜弹",
 			"zhTW": "強化冰霜彈"
 },
 		descriptionLocalized: {
@@ -120,7 +120,7 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"ptBR": "Seta de Gelo tem 15% de chance de explodir em alvos com gelidez, atingindo inimigos ao redor. A chance é aumentada para 100% contra inimigos congelados.",
 			"ruRU": "\"Ледяная стрела\" с вероятностью 15% взрывается при попадании в окоченевшие цели, поражая окружающих противников. Эта вероятность повышается на 100%, если цель заморожена.",
 			"trTR": "Buz Oku 15% ihtimalle Soğutma uygulanmış düşmanlarda patlayarak etraftaki düşmanlara vurur. Bu ihtimal Donmuş düşmanlara karşı artarak %100 olur.",
-			"zhCN": "冰霜弹有 15% 几率在冻伤的敌人身上爆炸, 打击周围的敌人。对冻结的敌人几率提高至 100%。",
+			"zhCN": "寒霜弹有 15% 几率在冻伤的敌人身上爆炸, 打击周围的敌人。对冻结的敌人几率提高至 100%。",
 			"zhTW": "冰霜彈擊中冰冷的敵人有 15% 機率爆炸,擊中其周圍的敵人。對凍結的敵人此機率提高為100%。"
 },
 		id: 1,
@@ -144,7 +144,7 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"ptBR": "Seta de Gelo Tremeluzente",
 			"ruRU": "Мерцающая ледяная стрела",
 			"trTR": "Titreşen Buz Oku",
-			"zhCN": "闪烁冰霜弹",
+			"zhCN": "闪烁寒霜弹",
 			"zhTW": "閃動冰霜彈"
 },
 		descriptionLocalized: {
@@ -159,7 +159,7 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"ptBR": "Seta de Gelo torna os inimigos congelados vulneráveis por 3 segundos.",
 			"ruRU": "\"Ледяная стрела\" делает замороженных противников уязвимыми на 3 сек.",
 			"trTR": "Buz Oku, Donmuş düşmanları 3 saniyeliğine Savunmasız hâle getirir.",
-			"zhCN": "冰霜弹会使冻结的敌人陷入易伤状态, 持续 3 秒。",
+			"zhCN": "寒霜弹会使冻结的敌人陷入易伤状态, 持续 3 秒。",
 			"zhTW": "冰霜彈會對凍結的敵人造成易傷,持續 3 秒。"
 },
 		id: 2,
@@ -183,7 +183,7 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"ptBR": "Seta de Gelo Cintilante",
 			"ruRU": "Сияющая ледяная стрела",
 			"trTR": "Parıldayan Buz Oku",
-			"zhCN": "闪耀冰霜弹",
+			"zhCN": "闪耀寒霜弹",
 			"zhTW": "閃爍冰霜彈"
 },
 		descriptionLocalized: {
@@ -198,7 +198,7 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 			"ptBR": "Seta de Gelo gera 4 de mana ao atingir inimigos com gelidez ou congelados.",
 			"ruRU": "\"Ледяная стрела\" восстанавливает 4 ед. маны при попадании по окоченевшим или замороженным противникам.",
 			"trTR": "Buz Oku, Soğutma uygulanmış veya Donmuş düşmanlara vururken 4 Mana üretir.",
-			"zhCN": "冰霜弹命中冻伤或冻结的敌人时会生成 4 点法力。",
+			"zhCN": "寒霜弹命中冻伤或冻结的敌人时会生成 4 点法力。",
 			"zhTW": "冰霜彈擊中冰冷或凍結的敵人時,產生 4 點法力。"
 },
 		id: 3,
@@ -210,7 +210,7 @@ Direct damage from Skills applies up to {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5
 		connections: [ "Basic", "Enhanced Spark" ],
 		description: `Attack Speed Multiplier: 1.25
 Lucky Hit Chance: 9% (per hit)
-Launch a bolt of lightning that shocks an enemy 4 times, dealing {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% damage each hit.
+Launch a bolt of lightning that shocks an enemy 4 times, dealing {10/11/12/13/14/15/16/17/18/19}% damage each hit.
 
 Tags: Basic, Shock, Damage, Lightning.
 
@@ -232,19 +232,19 @@ Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackli
 			"zhTW": "電光彈"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nGlückstrefferchance: 9% (per hit)\nEntsendet einen Blitz, der einen Gegner 4-mal schockt und bei jedem Treffer {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% Schaden verursacht.\n\nTags: Basis, Schock, Schaden, Blitz.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner tötet, besteht eine Chance von {10/11/12/13/14/15/16/17/18/19}%, Knisternde Energie zu erzeugen.",
-			"esES": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe de suerte: 9% (per hit)\nLanzas una descarga de rayos que electrocuta 4 veces a un enemigo e inflige {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de daño con cada golpe.\n\nTags: Básica, Electrocución, Daño, Rayos.\n\n— Enchantment Effect —\nMatar a un enemigo tiene un {10/11/12/13/14/15/16/17/18/19}% de probabilidad de formar una energía crepitante.",
-			"esMX": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe afortunado: 9% (per hit)\nLanza un rayo que electrocuta a un enemigo 4 veces e inflige {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de daño por golpe.\n\nTags: Básica, Rayo, Daño.\n\n— Enchantment Effect —\nMatar a un enemigo tiene un {10/11/12/13/14/15/16/17/18/19}% de probabilidad de generar Energía Crepitante.",
-			"frFR": "Attack Speed Multiplier: 1.25\nChances d'obtenir un coup de chance: 9% (per hit)\nVous lancez un éclair de foudre qui électrocute une cible 4 fois, infligeant {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% points de dégâts par coup.\n\nTags: Basique, Foudre, Dégâts.\n\n— Enchantment Effect —\nVous avez {10/11/12/13/14/15/16/17/18/19}% de chances de générer de l'énergie crépitante en tuant une cible.",
-			"itIT": "Attack Speed Multiplier: 1.25\nProbabilità di colpo fortunato: 9% (per hit)\nLancia un dardo di fulmini che folgora un nemico 4 volte, infliggendo {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% danni a ogni colpo.\n\nTags: Base, Folgore, Danni, Fulmine.\n\n— Enchantment Effect —\nUccidere un nemico ha una probabilità del {10/11/12/13/14/15/16/17/18/19}% di generare Energia Crepitante.",
-			"jaJP": "Attack Speed Multiplier: 1.25\n幸運の一撃発生率: 9% (per hit)\n稲妻を放って敵1体を4回感電させ、1回命中するごとに{8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%のダメージを与える。\n\nTags: 基本, 電撃, ダメージ.\n\n— Enchantment Effect —\n敵1体を倒すと{10/11/12/13/14/15/16/17/18/19}%の確率で帯び出す電気が発生する。",
-			"koKR": "Attack Speed Multiplier: 1.25\n행운의 적중 확률: 9% (per hit)\n번개 화살을 발사하여 적을 4번 감전시키고, 각각 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}%의 피해를 줍니다.\n\nTags: 기본, 감전, 피해, 번개.\n\n— Enchantment Effect —\n적을 처치하면 {10/11/12/13/14/15/16/17/18/19}% 확률로 짜릿한 에너지가 남습니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nSzansa na szczęśliwy traf: 9% (per hit)\nWystrzeliwujesz błyskawicę, która poraża cel 4 razy, przy każdym trafieniu zadając {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% pkt. obrażeń.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica.\n\n— Enchantment Effect —\nZabicie wroga zapewnia {10/11/12/13/14/15/16/17/18/19}% szans na stworzenie Roziskrzonej Energii.",
-			"ptBR": "Attack Speed Multiplier: 1.25\nChance de Golpe de Sorte: 9% (per hit)\nLança um raio que eletrocuta um inimigo 4 vezes, causando {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% de dano a cada acerto.\n\nTags: Básica, Choque, Dano, Eletricidade.\n\n— Enchantment Effect —\nMatar um inimigo tem {10/11/12/13/14/15/16/17/18/19}% de chance de formar uma Energia Crepitante.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nВероятность удачного удара: 9% (per hit)\nВы выпускаете разряд молнии, поражающий противника 4 раза:раз и наносящий {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% ед. урона за каждый удар.\n\nTags: Базовое, Шок, Урон, Молния.\n\n— Enchantment Effect —\nКогда вы убиваете противника, с вероятностью {10/11/12/13/14/15/16/17/18/19}% появляется искрящийся заряд энергии.",
-			"trTR": "Attack Speed Multiplier: 1.25\nŞanslı Vuruş İhtimali: 9% (per hit)\nBir düşmanı 4 kez şoklayarak vuruş başına {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% hasar veren bir şimşek fırlat.\n\nTags: Temel, Şok, Hasar, Yıldırım.\n\n— Enchantment Effect —\nBir düşman öldürdüğünde {10/11/12/13/14/15/16/17/18/19}% ihtimalle bir Çatırtı Enerjisi oluşturulur.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n幸运一击几率: 9% (per hit)\n发射一道闪电, 震击一名敌人 4 次, 每一击造成 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 点伤害。\n\nTags: 基础, 电冲, 伤害, 闪电.\n\n— Enchantment Effect —\n消灭敌人时有 {10/11/12/13/14/15/16/17/18/19}% 几率生成一个爆裂电花。",
-			"zhTW": "Attack Speed Multiplier: 1.25\n幸運觸發機率: 9% (per hit)\n放出一道閃電電擊敵人 4 次,每次擊中造成 {8/8.8/9.6/10.4/11.2/12/12.8/13.6/14.4/15.2}% 點傷害。\n\nTags: 基本, 電能, 傷害, 閃電.\n\n— Enchantment Effect —\n擊殺敵人有 {10/11/12/13/14/15/16/17/18/19}% 機率形成電流能量。"
+			"deDE": "Attack Speed Multiplier: 1.25\nGlückstrefferchance: 9% (per hit)\nEntsendet einen Blitz, der einen Gegner 4-mal schockt und bei jedem Treffer {10/11/12/13/14/15/16/17/18/19}% Schaden verursacht.\n\nTags: Basis, Schock, Schaden, Blitz.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner tötet, besteht eine Chance von {10/11/12/13/14/15/16/17/18/19}%, Knisternde Energie zu erzeugen.",
+			"esES": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe de suerte: 9% (per hit)\nLanzas una descarga de rayos que electrocuta 4 veces a un enemigo e inflige {10/11/12/13/14/15/16/17/18/19}% de daño con cada golpe.\n\nTags: Básica, Electrocución, Daño, Rayos.\n\n— Enchantment Effect —\nMatar a un enemigo tiene un {10/11/12/13/14/15/16/17/18/19}% de probabilidad de formar una energía crepitante.",
+			"esMX": "Attack Speed Multiplier: 1.25\nProbabilidad de golpe afortunado: 9% (per hit)\nLanza un rayo que electrocuta a un enemigo 4 veces e inflige {10/11/12/13/14/15/16/17/18/19}% de daño por golpe.\n\nTags: Básica, Rayo, Daño.\n\n— Enchantment Effect —\nMatar a un enemigo tiene un {10/11/12/13/14/15/16/17/18/19}% de probabilidad de generar Energía Crepitante.",
+			"frFR": "Attack Speed Multiplier: 1.25\nChances d'obtenir un coup de chance: 9% (per hit)\nVous lancez un éclair de foudre qui électrocute une cible 4 fois, infligeant {10/11/12/13/14/15/16/17/18/19}% points de dégâts par coup.\n\nTags: Basique, Foudre, Dégâts.\n\n— Enchantment Effect —\nVous avez {10/11/12/13/14/15/16/17/18/19}% de chances de générer de l'énergie crépitante en tuant une cible.",
+			"itIT": "Attack Speed Multiplier: 1.25\nProbabilità di colpo fortunato: 9% (per hit)\nLancia un dardo di fulmini che folgora un nemico 4 volte, infliggendo {10/11/12/13/14/15/16/17/18/19}% danni a ogni colpo.\n\nTags: Base, Folgore, Danni, Fulmine.\n\n— Enchantment Effect —\nUccidere un nemico ha una probabilità del {10/11/12/13/14/15/16/17/18/19}% di generare Energia Crepitante.",
+			"jaJP": "Attack Speed Multiplier: 1.25\n幸運の一撃発生率: 9% (per hit)\n稲妻を放って敵1体を4回感電させ、1回命中するごとに{10/11/12/13/14/15/16/17/18/19}%のダメージを与える。\n\nTags: 基本, 電撃, ダメージ.\n\n— Enchantment Effect —\n敵1体を倒すと{10/11/12/13/14/15/16/17/18/19}%の確率で帯び出す電気が発生する。",
+			"koKR": "Attack Speed Multiplier: 1.25\n행운의 적중 확률: 9% (per hit)\n번개 화살을 발사하여 적을 4번 감전시키고, 각각 {10/11/12/13/14/15/16/17/18/19}%의 피해를 줍니다.\n\nTags: 기본, 감전, 피해, 번개.\n\n— Enchantment Effect —\n적을 처치하면 {10/11/12/13/14/15/16/17/18/19}% 확률로 짜릿한 에너지가 남습니다.",
+			"plPL": "Attack Speed Multiplier: 1.25\nSzansa na szczęśliwy traf: 9% (per hit)\nWystrzeliwujesz błyskawicę, która poraża cel 4 razy, przy każdym trafieniu zadając {10/11/12/13/14/15/16/17/18/19}% pkt. obrażeń.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawice.\n\n— Enchantment Effect —\nZabicie wroga zapewnia {10/11/12/13/14/15/16/17/18/19}% szans na stworzenie Roziskrzonej Energii.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nChance de Golpe de Sorte: 9% (per hit)\nLança um raio que eletrocuta um inimigo 4 vezes, causando {10/11/12/13/14/15/16/17/18/19}% de dano a cada acerto.\n\nTags: Básica, Choque, Dano, Eletricidade.\n\n— Enchantment Effect —\nMatar um inimigo tem {10/11/12/13/14/15/16/17/18/19}% de chance de formar uma Energia Crepitante.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nВероятность удачного удара: 9% (per hit)\nВы выпускаете разряд молнии, поражающий противника 4 раза:раз и наносящий {10/11/12/13/14/15/16/17/18/19}% ед. урона за каждый удар.\n\nTags: Базовое, Шок, Урон, Молния.\n\n— Enchantment Effect —\nКогда вы убиваете противника, с вероятностью {10/11/12/13/14/15/16/17/18/19}% появляется искрящийся заряд энергии.",
+			"trTR": "Attack Speed Multiplier: 1.25\nŞanslı Vuruş İhtimali: 9% (per hit)\nBir düşmanı 4 kez şoklayarak vuruş başına {10/11/12/13/14/15/16/17/18/19}% hasar veren bir şimşek fırlat.\n\nTags: Temel, Şok, Hasar, Yıldırım.\n\n— Enchantment Effect —\nBir düşman öldürdüğünde {10/11/12/13/14/15/16/17/18/19}% ihtimalle bir Çatırtı Enerjisi oluşturulur.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n幸运一击几率: 9% (per hit)\n发射一道闪电, 震击一名敌人 4 次, 每一击造成 {10/11/12/13/14/15/16/17/18/19}% 点伤害。\n\nTags: 基础, 电冲, 伤害, 闪电.\n\n— Enchantment Effect —\n消灭敌人时有 {10/11/12/13/14/15/16/17/18/19}% 几率生成一个爆裂电花。",
+			"zhTW": "Attack Speed Multiplier: 1.25\n幸運觸發機率: 9% (per hit)\n放出一道閃電電擊敵人 4 次,每次擊中造成 {10/11/12/13/14/15/16/17/18/19}% 點傷害。\n\nTags: 基本, 電能, 傷害, 閃電.\n\n— Enchantment Effect —\n擊殺敵人有 {10/11/12/13/14/15/16/17/18/19}% 機率形成電流能量。"
 },
 		id: 4,
 		maxPoints: 5,
@@ -254,7 +254,7 @@ Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackli
 	"Enhanced Spark": {
 		baseSkill: "Spark",
 		connections: [ "Spark", "Flickering Spark", "Glinting Spark" ],
-		description: `Each time Spark hits its primary target, it has a 40% chance to hit up to 3 additional enemies, dealing {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% damage. If there are no other enemies to hit, Spark instead deals x20% increased damage to its primary target.`,
+		description: `Each time Spark hits its primary target, it has a 40% chance to hit up to 3 additional enemies, dealing {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% damage. If there are no other enemies to hit, Spark instead deals x20% increased damage to its primary target.`,
 		nameLocalized: {
 			"deDE": "Verbesserter Funke",
 			"esES": "Chispa mejorada",
@@ -271,19 +271,19 @@ Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackli
 			"zhTW": "強化電光彈"
 },
 		descriptionLocalized: {
-			"deDE": "Jedes Mal, wenn Funke sein Primärziel trifft, besteht eine Chance von 40%, bis zu 3 zusätzliche Gegner zu treffen und {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% Schaden zu verursachen. Wenn es keine zusätzlichen Gegner gibt, fügt Funke dem Primärziel stattdessen x20% mehr Schaden zu.",
-			"esES": "Cada vez que Chispa golpea a su objetivo principal, hay un 40% de probabilidad de que golpee a hasta 3 enemigos más, lo que inflige {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% de daño. Si no hay más enemigos, Chispa inflige x20% más de daño a su objetivo principal en su lugar.",
-			"esMX": "Cada vez que Chispa golpea a su objetivo principal, tiene un 40% de probabilidad de golpear a hasta 3 enemigos más e infligir {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% de daño. Si no hay más enemigos que golpear, Chispa inflige un x20% más de daño a su objetivo principal.",
-			"frFR": "Chaque fois qu'Étincelle touche sa cible principale, il y a 40% de chances qu'elle touche jusqu'à 3 cibles supplémentaires en infligeant {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% points de dégâts. S'il n'y a aucune autre cible à toucher, alors Étincelle inflige x20% de dégâts supplémentaires à sa cible principale.",
-			"itIT": "Ogni volta che Scintilla colpisce il suo bersaglio principale, ha il 40% di probabilità di colpire fino a 3 nemici aggiuntivi, infliggendo {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% danni. Se non restano altri nemici da colpire, Scintilla infligge x20% di danni aggiuntivi al suo bersaglio principale.",
-			"jaJP": "〈スパーク〉がメインの標的に命中するたびに40%の確率で最大3体の敵に追加で命中し、{5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}%のダメージを与える。〈スパーク〉の攻撃対象がほかにいなかった場合は、メインの標的に与えるダメージがx20%増加する。",
-			"koKR": "벼락불이 주 대상에게 적중할 때마다 40% 확률로 3마리의 추가 적에게 적중하여 {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}%의 피해를 줍니다. 적중할 다른 적이 없으면 벼락불이 주 대상에게 주는 피해가 x20% 증가합니다.",
-			"plPL": "Każde trafienie Iskrą głównego celu ma 40% szans na trafienie dodatkowo 3 wrogów i zadanie im {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% pkt. obrażeń. Jeśli nie ma innych wrogów do trafienia, Iskra zadaje głównemu celowi obrażenia zwiększone o x20% pkt.",
-			"ptBR": "Sempre que Faísca acertar seu alvo primário, tem 40% de chance de atingir até 3 inimigos adicionais, causando {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% de dano. Se não houver outros inimigos para atingir, Faísca causa 20% de dano aumentado ao alvo principal.",
-			"ruRU": "Когда \"Искра\" поражает основную цель, она с вероятностью 40% поражает еще максимум 3 противников:противников, нанося {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% ед. урона. Если рядом нет подходящих противников, \"Искра\" наносит основной цели на x20% больше урона.",
-			"trTR": "Kıvılcım birincil hedefine her vurduğunda 40% ihtimalle en fazla 3 ilave hedefe vurarak {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% hasar verir. Vuracak başka bir düşman yoksa Kıvılcım bunun yerine birincil hedefine x20% artırılmış hasar verir.",
-			"zhCN": "每次电花命中其主要目标, 都有 40% 几率额外命中最多 3 名敌人, 造成 {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% 点伤害。如果没有其他可以命中的敌人, 改为电花对其主要目标造成的伤害提高 x20%。",
-			"zhTW": "每次電光彈擊中主要目標時,有 40% 機率額外擊中最多 3 個敵人,造成 {5.6/6.2/6.7/7.3/7.8/8.4/9/9.5/10.1/10.6}% 點傷害。如果沒有可額外擊中的敵人,電光彈會改為對主要目標額外造成 x20% 傷害。"
+			"deDE": "Jedes Mal, wenn Funke sein Primärziel trifft, besteht eine Chance von 40%, bis zu 3 zusätzliche Gegner zu treffen und {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% Schaden zu verursachen. Wenn es keine zusätzlichen Gegner gibt, fügt Funke dem Primärziel stattdessen x20% mehr Schaden zu.",
+			"esES": "Cada vez que Chispa golpea a su objetivo principal, hay un 40% de probabilidad de que golpee a hasta 3 enemigos más, lo que inflige {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% de daño. Si no hay más enemigos, Chispa inflige x20% más de daño a su objetivo principal en su lugar.",
+			"esMX": "Cada vez que Chispa golpea a su objetivo principal, tiene un 40% de probabilidad de golpear a hasta 3 enemigos más e infligir {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% de daño. Si no hay más enemigos que golpear, Chispa inflige un x20% más de daño a su objetivo principal.",
+			"frFR": "Chaque fois qu'Étincelle touche sa cible principale, il y a 40% de chances qu'elle touche jusqu'à 3 cibles supplémentaires en infligeant {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% points de dégâts. S'il n'y a aucune autre cible à toucher, alors Étincelle inflige x20% de dégâts supplémentaires à sa cible principale.",
+			"itIT": "Ogni volta che Scintilla colpisce il suo bersaglio principale, ha il 40% di probabilità di colpire fino a 3 nemici aggiuntivi, infliggendo {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% danni. Se non restano altri nemici da colpire, Scintilla infligge il x20% di danni aggiuntivi al suo bersaglio principale.",
+			"jaJP": "〈スパーク〉がメインの標的に命中するたびに40%の確率で最大3体の敵に追加で命中し、{7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}%のダメージを与える。〈スパーク〉の攻撃対象がほかにいなかった場合は、メインの標的に与えるダメージがx20%増加する。",
+			"koKR": "벼락불이 주 대상에게 적중할 때마다 40% 확률로 3마리의 추가 적에게 적중하여 {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}%의 피해를 줍니다. 적중할 다른 적이 없으면 벼락불이 주 대상에게 주는 피해가 x20% 증가합니다.",
+			"plPL": "Każde trafienie Iskrą głównego celu ma 40% szans na trafienie dodatkowo 3 wrogów i zadanie im {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% pkt. obrażeń. Jeśli nie ma innych wrogów do trafienia, Iskra zadaje głównemu celowi obrażenia zwiększone o x20% pkt.",
+			"ptBR": "Sempre que Faísca acertar seu alvo primário, tem 40% de chance de atingir até 3 inimigos adicionais, causando {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% de dano. Se não houver outros inimigos para atingir, Faísca causa 20% de dano aumentado ao alvo principal.",
+			"ruRU": "Когда \"Искра\" поражает основную цель, она с вероятностью 40% поражает еще максимум 3 противников:противников, нанося {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% ед. урона. Если рядом нет подходящих противников, \"Искра\" наносит основной цели на x20% больше урона.",
+			"trTR": "Kıvılcım birincil hedefine her vurduğunda 40% ihtimalle en fazla 3 ilave hedefe vurarak {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% hasar verir. Vuracak başka bir düşman yoksa Kıvılcım bunun yerine birincil hedefine x20% artırılmış hasar verir.",
+			"zhCN": "每次电花命中其主要目标, 都有 40% 几率额外命中最多 3 名敌人, 造成 {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% 点伤害。如果没有其他可以命中的敌人, 改为电花对其主要目标造成的伤害提高 x20%。",
+			"zhTW": "每次電光彈擊中主要目標時,有 40% 機率額外擊中最多 3 個敵人,造成 {7/7.7/8.4/9.1/9.8/10.5/11.2/11.9/12.6/13.3}% 點傷害。如果沒有可額外擊中的敵人,電光彈會改為對主要目標額外造成 x20% 傷害。"
 },
 		id: 5,
 		maxPoints: 1,
@@ -293,7 +293,7 @@ Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackli
 	"Flickering Spark": {
 		baseSkill: "Spark",
 		connections: [ "Enhanced Spark" ],
-		description: `Each time Spark hits an enemy it has a 3% chance to form a Crackling Energy.`,
+		description: `Each time Spark hits an enemy it has a 4% chance to form a Crackling Energy.`,
 		nameLocalized: {
 			"deDE": "Flackernder Funke",
 			"esES": "Chispa trémula",
@@ -310,19 +310,19 @@ Killing an enemy has a {10/11/12/13/14/15/16/17/18/19}% chance to form a Crackli
 			"zhTW": "閃動電光彈"
 },
 		descriptionLocalized: {
-			"deDE": "Jedes Mal, wenn Funke einen Gegner trifft, besteht eine Chance von 3%, Knisternde Energie zu erzeugen.",
-			"esES": "Cada vez que Chispa golpea a un enemigo, tiene un 3% de probabilidad de formar una energía crepitante.",
-			"esMX": "Cada vez que Chispa golpea a un enemigo, tiene un 3% de probabilidad de formar una Energía Crepitante.",
-			"frFR": "Chaque fois qu'Étincelle touche une cible, vous avez 3% de chances qu'elle génère de l'énergie crépitante.",
-			"itIT": "Ogni volta che Scintilla colpisce un nemico, ha una probabilità del 3% di generare Energia Crepitante.",
-			"jaJP": "〈スパーク〉が敵に命中するたびに3%の確率で帯び出す電気が発生する。",
-			"koKR": "벼락불이 적에게 적중할 때마다 3% 확률로 짜릿한 에너지를 생성합니다.",
-			"plPL": "Za każdym razem, gdy Iskra trafia wroga, istnieje 3% szans na stworzenie Roziskrzonej Energii.",
-			"ptBR": "Sempre que Faísca atingir um inimigo, tem 3% de chance de formar uma Energia Crepitante.",
-			"ruRU": "Каждый раз, когда \"Искра\" поражает противника, она с вероятностью 3% создает искрящийся заряд энергии.",
-			"trTR": "Kıvılcım bir düşmana her vurduğunda 3% ihtimalle bir Çatırtı Enerjisi oluşturulur.",
-			"zhCN": "电花每次命中敌人时, 有 3% 几率生成一个爆裂电花。",
-			"zhTW": "電光彈每次擊中敵人時,有 3% 機率形成電流能量。"
+			"deDE": "Jedes Mal, wenn Funke einen Gegner trifft, besteht eine Chance von 4%, Knisternde Energie zu erzeugen.",
+			"esES": "Cada vez que Chispa golpea a un enemigo, tiene un 4% de probabilidad de formar una energía crepitante.",
+			"esMX": "Cada vez que Chispa golpea a un enemigo, tiene un 4% de probabilidad de formar una Energía Crepitante.",
+			"frFR": "Chaque fois qu'Étincelle touche une cible, vous avez 4% de chances qu'elle génère de l'énergie crépitante.",
+			"itIT": "Ogni volta che Scintilla colpisce un nemico, ha una probabilità del 4% di generare Energia Crepitante.",
+			"jaJP": "〈スパーク〉が敵に命中するたびに4%の確率で帯び出す電気が発生する。",
+			"koKR": "벼락불이 적에게 적중할 때마다 4% 확률로 짜릿한 에너지를 생성합니다.",
+			"plPL": "Za każdym razem, gdy Iskra trafia wroga, istnieje 4% szans na stworzenie Roziskrzonej Energii.",
+			"ptBR": "Sempre que Faísca atingir um inimigo, tem 4% de chance de formar uma Energia Crepitante.",
+			"ruRU": "Каждый раз, когда \"Искра\" поражает противника, она с вероятностью 4% создает искрящийся заряд энергии.",
+			"trTR": "Kıvılcım bir düşmana her vurduğunda 4% ihtimalle bir Çatırtı Enerjisi oluşturulur.",
+			"zhCN": "电花每次命中敌人时, 有 4% 几率生成一个爆裂电花。",
+			"zhTW": "電光彈每次擊中敵人時,有 4% 機率形成電流能量。"
 },
 		id: 6,
 		maxPoints: 1,
@@ -401,11 +401,11 @@ When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0
 			"itIT": "Attack Speed Multiplier: 1.25\nProbabilità di colpo fortunato: 14% (per hit)\nScateni un arco di elettricità che infligge {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% danni ai nemici frontali. Ogni 10 colpi di Sferzata ad Arco, i nemici colpiti vengono storditi per 2 s.\n\nTags: Base, Folgore, Danni, Fulmine, Effetti debilitanti.\n\n— Enchantment Effect —\nQuando lanci un'abilità con tempo di recupero, i nemici circostanti vengono storditi per {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} s.",
 			"jaJP": "Attack Speed Multiplier: 1.25\n幸運の一撃発生率: 14% (per hit)\n弧を描く稲妻を放ち、前方の敵に{42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%ダメージを与える。〈アークラッシュ〉は10回命中するたびに、当たったすべての敵を2秒間スタンさせる。\n\nTags: 基本, 電撃, ダメージ, 操作障害効果.\n\n— Enchantment Effect —\nクールダウンを使用すると、周囲の敵が{0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95}秒間スタンする。",
 			"koKR": "Attack Speed Multiplier: 1.25\n행운의 적중 확률: 14% (per hit)\n뻗어나가는 번개를 내뿜어 전방의 적들에게 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%의 피해를 줍니다. 전기 채찍을 10번 휘두를 때마다 적중한 모든 적을 2초 동안 기절시킵니다.\n\nTags: 기본, 감전, 피해, 번개, 군중 제어.\n\n— Enchantment Effect —\n재사용 대기시간이 있는 기술을 사용하면 주위의 적들이 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95}초 동안 기절합니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nSzansa na szczęśliwy traf: 14% (per hit)\nUwalniasz po łuku błyskawicę, która zadaje wrogom znajdującym się przed tobą {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% pkt. obrażeń. Co 10 smagnięcie Bicza Wyładowań ogłusza wszystkich trafionych wrogów na 2 sek.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawica, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nKiedy korzystasz z czasu odnowienia, wrogowie wokół ciebie zostają ogłuszeni na {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} sek.",
+			"plPL": "Attack Speed Multiplier: 1.25\nSzansa na szczęśliwy traf: 14% (per hit)\nUwalniasz po łuku błyskawicę, która zadaje wrogom znajdującym się przed tobą {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% pkt. obrażeń. Co 10 smagnięcie Bicza Wyładowań ogłusza wszystkich trafionych wrogów na 2 sek.\n\nTags: Podstawowe, Porażenie, Obrażenia, Błyskawice, Ograniczanie Kontroli.\n\n— Enchantment Effect —\nKiedy korzystasz z czasu odnowienia, wrogowie wokół ciebie zostają ogłuszeni na {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} sek.",
 			"ptBR": "Attack Speed Multiplier: 1.25\nChance de Golpe de Sorte: 14% (per hit)\nSolta raios em arco que causam {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de dano aos inimigos à sua frente. Cada 10 vezes que Açoite do Arco golpeia, atordoa todos os inimigos atingidos por 2 segundos.\n\nTags: Básica, Choque, Dano, Eletricidade, Controle de Grupo.\n\n— Enchantment Effect —\nAo usar uma recarga, os inimigos ao seu redor ficam atordoados por {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} segundos.",
 			"ruRU": "Attack Speed Multiplier: 1.25\nВероятность удачного удара: 14% (per hit)\nВы поражаете противников перед собой дуговым разрядом молнии, наносящим {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% ед. урона. Каждый 10-й взмах \"Грозовой плети\" оглушает пораженных противников на 2 сек.\n\nTags: Базовое, Шок, Урон, Молния, Контроль.\n\n— Enchantment Effect —\nКогда вы применяете умение с временем восстановления, противники вокруг оглушаются на {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} сек.",
 			"trTR": "Attack Speed Multiplier: 1.25\nŞanslı Vuruş İhtimali: 14% (per hit)\nÖnündeki düşmanlara {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% hasar veren elektrik kırbaçları fırlat. Elektrik Kırbacı her 10 kez savrulduğunda vurduğu tüm düşmanları 2 saniyeliğine Sersemletir.\n\nTags: Temel, Şok, Hasar, Yıldırım, Kitle Kontrolü.\n\n— Enchantment Effect —\nBir Bekleme Süresi kullandığında etrafındaki düşmanlar {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} saniyeliğine Sersemletilir.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n幸运一击几率: 14% (per hit)\n施放弧形闪电, 对你面前的敌人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 点伤害。每第 10 次施放电弧鞭笞, 击晕所有命中的敌人 2 秒。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.\n\n— Enchantment Effect —\n当你使用有冷却时间的技能时, 你周围的敌人会昏迷 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。",
+			"zhCN": "Attack Speed Multiplier: 1.25\n幸运一击几率: 14% (per hit)\n施放弧形闪电, 对你面前的敌人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 点伤害。每第 10 次施放电弧鞭笞, 击昏所有命中的敌人 2 秒。\n\nTags: 基础, 电冲, 伤害, 闪电, 群控.\n\n— Enchantment Effect —\n当你使用有冷却时间的技能时, 你周围的敌人会被击昏 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。",
 			"zhTW": "Attack Speed Multiplier: 1.25\n幸運觸發機率: 14% (per hit)\n釋放電弧,對你面前的敵人造成 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 點傷害。每使出 10 次電弧鞭擊,會使擊中的所有敵人昏迷 2 秒。\n\nTags: 基本, 電能, 傷害, 閃電, 控場.\n\n— Enchantment Effect —\n每當你使用有冷卻時間的技能,會擊昏附近的敵人 {0.5/0.55/0.6/0.65/0.7/0.75/0.8/0.85/0.9/0.95} 秒。"
 },
 		id: 8,
@@ -483,7 +483,7 @@ When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0
 			"ptBR": "Atingir um inimigo atordoado com Açoite do Arco reduz suas recargas em 0.15 segundos.",
 			"ruRU": "Когда \"Грозовая плеть\" поражает оглушенного противника, время восстановления ваших умений сокращается на 0.15 сек.",
 			"trTR": "Sersemletilmiş bir düşmana Elektrik Kırbacı ile vurmak, Bekleme Sürelerini 0.15 saniye azaltır.",
-			"zhCN": "用电弧鞭笞命中昏迷的敌人会使你的冷却时间缩短 0.15 秒。",
+			"zhCN": "用电弧鞭笞命中被击昏的敌人会使你的冷却时间缩短 0.15 秒。",
 			"zhTW": "電弧鞭擊打中被擊昏的敵人時,會使你的冷卻時間縮短 0.15 秒。"
 },
 		id: 10,
@@ -533,7 +533,7 @@ When you use a Cooldown, enemies around you are Stunned for {0.5/0.55/0.6/0.65/0
 	"Fire Bolt": {
 		connections: [ "Basic", "Enhanced Fire Bolt" ],
 		description: `Lucky Hit Chance: 35% (per use)
-Hurl a flaming bolt, dealing {10/11/12/13/14/15/16/17/18/19}% damage and Burning for {40/44/48/52/56/60/64/68/72/76}% damage over 8 seconds.
+Hurl a flaming bolt, dealing {10/11/12/13/14/15/16/17/18/19}% damage and Burning for {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% damage over 8 seconds.
 
 Tags: Basic, Pyromancy, Damage, Fire, Burn.
 
@@ -555,19 +555,19 @@ Direct damage from Skills applies up to an additional {23.2/25.6/28/30.4/32.8/35
 			"zhTW": "火焰彈"
 },
 		descriptionLocalized: {
-			"deDE": "Glückstrefferchance: 35% (per use)\nSchleudert einen flammenden Blitz, der {10/11/12/13/14/15/16/17/18/19}% Schaden verursacht und Gegner verbrennt, wodurch sie im Verlauf von 8 Sek. {40/44/48/52/56/60/64/68/72/76}% Schaden erleiden.\n\nTags: Basis, Pyromanie, Schaden, Feuer, Verbrennung.\n\n— Enchantment Effect —\nDirekter Schaden von Fertigkeiten verursacht im Verlauf von 8 Sek. bis zu {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% zusätzlichen Verbrennungsschaden.",
-			"esES": "Probabilidad de golpe de suerte: 35% (per use)\nArrojas una descarga flamígera que inflige {10/11/12/13/14/15/16/17/18/19}% de daño y {40/44/48/52/56/60/64/68/72/76}% de daño de quemadura durante 8 s.\n\nTags: Básica, Piromancia, Daño, Fuego, Quemadura.\n\n— Enchantment Effect —\nEl daño directo de las habilidades aplica hasta {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% más de daño de quemadura durante 8 s.",
-			"esMX": "Probabilidad de golpe afortunado: 35% (per use)\nLanzas una descarga ígnea que inflige {10/11/12/13/14/15/16/17/18/19}% de daño e inflige {40/44/48/52/56/60/64/68/72/76}% de daño de quemadura durante 8 segundos.\n\nTags: Básica, Piromancia, Daño, Fuego, Quemadura.\n\n— Enchantment Effect —\nEl daño directo de las habilidades inflige hasta {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% más de daño de quemadura durante 8 segundos.",
-			"frFR": "Chances d'obtenir un coup de chance: 35% (per use)\nVous lancez un éclair enflammé qui inflige {10/11/12/13/14/15/16/17/18/19}% points de dégâts à l'impact et brûle les adversaires sur la durée en infligeant {40/44/48/52/56/60/64/68/72/76}% points de dégâts en 8 s.\n\nTags: Basique, Pyromancie, Dégâts, Feu, Brûlure.\n\n— Enchantment Effect —\nLes dégâts directs que vous infligez avec des compétences appliquent jusqu'à {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% points de dégâts de brûlure supplémentaires en 8 s.",
-			"itIT": "Probabilità di colpo fortunato: 35% (per use)\nScagli un dardo infuocato, infliggendo {10/11/12/13/14/15/16/17/18/19}% danni, e mandi in fiamme il bersaglio, infliggendo {40/44/48/52/56/60/64/68/72/76}% danni in 8 s.\n\nTags: Base, Piromanzia, Danni, Fuoco, Bruciatura.\n\n— Enchantment Effect —\nI danni diretti delle abilità infliggono fino a {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% danni da fiamme aggiuntivi per 8 s.",
-			"jaJP": "幸運の一撃発生率: 35% (per use)\n炎の矢を発射し、{10/11/12/13/14/15/16/17/18/19}%のダメージを与え、8秒間炎上させて{40/44/48/52/56/60/64/68/72/76}%のダメージを与える。\n\nTags: 基本, 火術, ダメージ, 火炎, 炎上.\n\n— Enchantment Effect —\nスキルによる直接ダメージを与えると、8秒間かけて最大{23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}%の炎上ダメージを追加で与える。",
-			"koKR": "행운의 적중 확률: 35% (per use)\n불타는 화살을 날려 {10/11/12/13/14/15/16/17/18/19}%의 피해를 주고 대상을 불태워 8초에 걸쳐 {40/44/48/52/56/60/64/68/72/76}%의 피해를 줍니다.\n\nTags: 기본, 방화, 피해, 화염, 불태우기.\n\n— Enchantment Effect —\n기술로 직접 피해를 주면 8초에 걸쳐 최대 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}%의 추가 연소 피해를 줍니다.",
-			"plPL": "Szansa na szczęśliwy traf: 35% (per use)\nMiotasz płonącym piorunem, który zadaje {10/11/12/13/14/15/16/17/18/19}% pkt. obrażeń i podpala cel, zadając dodatkowo {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń w ciągu 8 sek.\n\nTags: Podstawowe, Piromancja, Obrażenia, Ogień, Podpalenie.\n\n— Enchantment Effect —\nObrażenia bezpośrednie od umiejętności wywołują dodatkowo {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% pkt. obrażeń od podpalenia w ciągu 8 sek.",
-			"ptBR": "Chance de Golpe de Sorte: 35% (per use)\nLança uma seta flamejante, causando {10/11/12/13/14/15/16/17/18/19}% de dano e queimando por {40/44/48/52/56/60/64/68/72/76}% de dano ao longo de 8 segundos.\n\nTags: Básica, Piromancia, Dano, Fogo, Queimadura.\n\n— Enchantment Effect —\nO dano direto de habilidades aplica até {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% de dano flamejante adicional ao longo de 8 segundos.",
-			"ruRU": "Вероятность удачного удара: 35% (per use)\nВы запускаете огненную стрелу, наносящую {10/11/12/13/14/15/16/17/18/19}% ед. урона сразу и еще {40/44/48/52/56/60/64/68/72/76}% ед. урона от горения за 8 сек.\n\nTags: Базовое, Пиромантия, Урон, Огонь, Горение.\n\n— Enchantment Effect —\nПрямой урон от ваших умений поджигает противников, нанося {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% ед. урона от горения за 8 сек.",
-			"trTR": "Şanslı Vuruş İhtimali: 35% (per use)\nAlevli bir ok atarak {10/11/12/13/14/15/16/17/18/19}% hasar ve 8 saniye boyunca Yakarak {40/44/48/52/56/60/64/68/72/76}% hasar ver.\n\nTags: Temel, Alev Büyüsü, Hasar, Ateş, Yakma.\n\n— Enchantment Effect —\nYeteneklerin verdiği doğrudan hasar 8 saniye boyunca en fazla {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% olmak üzere ilave Yanma hasarı verir.",
-			"zhCN": "幸运一击几率: 35% (per use)\n投掷一枚火焰弹, 造成 {10/11/12/13/14/15/16/17/18/19}% 点伤害, 并使目标燃烧, 在 8 秒内造成 {40/44/48/52/56/60/64/68/72/76}% 点伤害。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧.\n\n— Enchantment Effect —\n来自技能的直接伤害会在 8 秒内额外施加最多 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% 点燃烧伤害。",
-			"zhTW": "幸運觸發機率:35% (per use)\n投擲火焰彈,造成 {10/11/12/13/14/15/16/17/18/19}% 點傷害,並在 8 秒內造成 {40/44/48/52/56/60/64/68/72/76}% 點燃燒傷害。\n\nTags: 基本, 焰術, 傷害, 火焰, 燃燒.\n\n— Enchantment Effect —\n技能的直接傷害會附加燃燒傷害,最多在 8 秒內額外造成 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% 點傷害。"
+			"deDE": "Glückstrefferchance: 35% (per use)\nSchleudert einen flammenden Blitz, der {10/11/12/13/14/15/16/17/18/19}% Schaden verursacht und Gegner verbrennt, wodurch sie im Verlauf von 8 Sek. {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% Schaden erleiden.\n\nTags: Basis, Pyromanie, Schaden, Feuer, Verbrennung.\n\n— Enchantment Effect —\nDirekter Schaden von Fertigkeiten verursacht im Verlauf von 8 Sek. bis zu {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% zusätzlichen Verbrennungsschaden.",
+			"esES": "Probabilidad de golpe de suerte: 35% (per use)\nArrojas una descarga flamígera que inflige {10/11/12/13/14/15/16/17/18/19}% de daño y {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% de daño de quemadura durante 8 s.\n\nTags: Básica, Piromancia, Daño, Fuego, Quemadura.\n\n— Enchantment Effect —\nEl daño directo de las habilidades aplica hasta {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% más de daño de quemadura durante 8 s.",
+			"esMX": "Probabilidad de golpe afortunado: 35% (per use)\nLanzas una descarga ígnea que inflige {10/11/12/13/14/15/16/17/18/19}% de daño e inflige {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% de daño de quemadura durante 8 segundos.\n\nTags: Básica, Piromancia, Daño, Fuego, Quemadura.\n\n— Enchantment Effect —\nEl daño directo de las habilidades inflige hasta {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% más de daño de quemadura durante 8 segundos.",
+			"frFR": "Chances d'obtenir un coup de chance: 35% (per use)\nVous lancez un éclair enflammé qui inflige {10/11/12/13/14/15/16/17/18/19}% points de dégâts à l'impact et brûle les adversaires sur la durée en infligeant {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% points de dégâts en 8 s.\n\nTags: Basique, Pyromancie, Dégâts, Feu, Brûlure.\n\n— Enchantment Effect —\nLes dégâts directs que vous infligez avec des compétences appliquent jusqu'à {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% points de dégâts de brûlure supplémentaires en 8 s.",
+			"itIT": "Probabilità di colpo fortunato: 35% (per use)\nScagli un dardo infuocato, infliggendo {10/11/12/13/14/15/16/17/18/19}% danni, e mandi in fiamme il bersaglio, infliggendo {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% danni in 8 s.\n\nTags: Base, Piromanzia, Danni, Fuoco, Bruciatura.\n\n— Enchantment Effect —\nI danni diretti delle abilità infliggono fino a {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% danni da fiamme aggiuntivi per 8 s.",
+			"jaJP": "幸運の一撃発生率: 35% (per use)\n炎の矢を発射し、{10/11/12/13/14/15/16/17/18/19}%のダメージを与え、8秒間炎上させて{44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}%のダメージを与える。\n\nTags: 基本, 火術, ダメージ, 火炎, 炎上.\n\n— Enchantment Effect —\nスキルによる直接ダメージを与えると、8秒間かけて最大{23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}%の炎上ダメージを追加で与える。",
+			"koKR": "행운의 적중 확률: 35% (per use)\n불타는 화살을 날려 {10/11/12/13/14/15/16/17/18/19}%의 피해를 주고 대상을 불태워 8초에 걸쳐 {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}%의 피해를 줍니다.\n\nTags: 기본, 방화, 피해, 화염, 불태우기.\n\n— Enchantment Effect —\n기술로 직접 피해를 주면 8초에 걸쳐 최대 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}%의 추가 연소 피해를 줍니다.",
+			"plPL": "Szansa na szczęśliwy traf: 35% (per use)\nMiotasz płonącym piorunem, który zadaje {10/11/12/13/14/15/16/17/18/19}% pkt. obrażeń i podpala cel, zadając dodatkowo {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% pkt. obrażeń w ciągu 8 sek.\n\nTags: Podstawowe, Piromancja, Obrażenia, Ogień, Podpalenie.\n\n— Enchantment Effect —\nObrażenia bezpośrednie od umiejętności wywołują dodatkowo {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% pkt. obrażeń od podpalenia w ciągu 8 sek.",
+			"ptBR": "Chance de Golpe de Sorte: 35% (per use)\nLança uma seta flamejante, causando {10/11/12/13/14/15/16/17/18/19}% de dano e queimando por {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% de dano ao longo de 8 segundos.\n\nTags: Básica, Piromancia, Dano, Fogo, Queimadura.\n\n— Enchantment Effect —\nO dano direto de habilidades aplica até {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% de dano flamejante adicional ao longo de 8 segundos.",
+			"ruRU": "Вероятность удачного удара: 35% (per use)\nВы запускаете огненную стрелу, наносящую {10/11/12/13/14/15/16/17/18/19}% ед. урона сразу и еще {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% ед. урона от горения за 8 сек.\n\nTags: Базовое, Пиромантия, Урон, Огонь, Горение.\n\n— Enchantment Effect —\nПрямой урон от ваших умений поджигает противников, нанося {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% ед. урона от горения за 8 сек.",
+			"trTR": "Şanslı Vuruş İhtimali: 35% (per use)\nAlevli bir ok atarak {10/11/12/13/14/15/16/17/18/19}% hasar ve 8 saniye boyunca Yakarak {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% hasar ver.\n\nTags: Temel, Alev Büyüsü, Hasar, Ateş, Yakma.\n\n— Enchantment Effect —\nYeteneklerin verdiği doğrudan hasar 8 saniye boyunca en fazla {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% olmak üzere ilave Yanma hasarı verir.",
+			"zhCN": "幸运一击几率: 35% (per use)\n投掷一枚火焰弹, 造成 {10/11/12/13/14/15/16/17/18/19}% 点伤害, 并使目标燃烧, 在 8 秒内造成 {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% 点伤害。\n\nTags: 基础, 爆焰, 伤害, 火焰, 燃烧.\n\n— Enchantment Effect —\n来自技能的直接伤害会在 8 秒内额外施加最多 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% 点燃烧伤害。",
+			"zhTW": "幸運觸發機率:35% (per use)\n投擲火焰彈,造成 {10/11/12/13/14/15/16/17/18/19}% 點傷害,並在 8 秒內造成 {44/48.8/52.8/57.6/61.6/65.6/70.4/75.2/79.2/83.2}% 點燃燒傷害。\n\nTags: 基本, 焰術, 傷害, 火焰, 燃燒.\n\n— Enchantment Effect —\n技能的直接傷害會附加燃燒傷害,最多在 8 秒內額外造成 {23.2/25.6/28/30.4/32.8/35.2/37.6/40/42.4/44.8}% 點傷害。"
 },
 		id: 12,
 		maxPoints: 5,
@@ -699,7 +699,7 @@ sorcererData["Core"] = {
 		description: `Attack Speed Multiplier: 1.25
 Mana Cost: 30
 Lucky Hit Chance: 20% (per hit)
-Release 5 bolts of lightning that course along the ground in an erratic pattern, dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage each.
+Release 5 bolts of lightning that course along the ground in an erratic pattern, dealing {30/33/36/39/42/45/48/51/54/57}% damage each.
 
 Tags: Core, Shock, Damage, Lightning, Mana.
 
@@ -721,19 +721,19 @@ When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from the
 			"zhTW": "電能彈"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nManakosten: 30\nGlückstrefferchance: 20% (per hit)\nEntfesselt 5 Blitze, die sich in unvorhersehbarer Richtung über den Boden bewegen und jeweils {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% Schaden verursachen.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner betäubt, besteht eine Chance von 40%, 3 Comboblitze aus ihm zu entfesseln.",
-			"esES": "Attack Speed Multiplier: 1.25\nCoste de maná: 30\nProbabilidad de golpe de suerte: 20% (per hit)\nLiberas 5 descargas de rayos que recorren el suelo de forma errática e infligen {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño cada una.\n\nTags: Principal, Electrocución, Daño, Rayos, Maná.\n\n— Enchantment Effect —\nCuando aturdes a un enemigo, hay un 40% de probabilidad de que libere una 3 Descarga de energía.",
-			"esMX": "Attack Speed Multiplier: 1.25\nCosto de maná: 30\nProbabilidad de golpe afortunado: 20% (per hit)\nLiberas 5 rayos que circulan por el suelo de forma errática e infligen {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño cada uno.\n\nTags: Principal, Rayo, Daño, Maná.\n\n— Enchantment Effect —\nCuando aturdes a un enemigo, hay un 40% de probabilidad de lanzar 3 Centellas.",
-			"frFR": "Attack Speed Multiplier: 1.25\nCoût en mana: 30\nChances d'obtenir un coup de chance: 20% (per hit)\nVous libérez 5 éclairs foudroyants qui se propagent sur le sol de manière erratique et infligent chacun {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% points de dégâts.\n\nTags: Principale, Foudre, Dégâts, Mana.\n\n— Enchantment Effect —\nLorsque vous étourdissez une cible, il y a 40% de chances qu'elle libère 3 traits de foudre.",
-			"itIT": "Attack Speed Multiplier: 1.25\nCosto in mana: 30\nProbabilità di colpo fortunato: 20% (per hit)\nRilasci 5 scariche elettriche che corrono lungo il terreno secondo uno schema casuale, infliggendo {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% danni ciascuna.\n\nTags: Primaria, Folgore, Danni, Fulmine, Mana.\n\n— Enchantment Effect —\nQuando stordisci un nemico, c'è il 40% di probabilità che sprigioni 3 Scariche Elettriche.",
-			"jaJP": "Attack Speed Multiplier: 1.25\nマナ消費量: 30\n幸運の一撃発生率: 20% (per hit)\nランダムなパターンで地面を走る稲妻を5本放ち、それぞれが{28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%のダメージを与える。\n\nTags: コア, 電撃, ダメージ, マナ.\n\n— Enchantment Effect —\n敵をスタンさせると、その敵から40%の確率で3本の〈チャージボルト〉が放たれる。",
-			"koKR": "Attack Speed Multiplier: 1.25\n소모: 마나 30\n행운의 적중 확률: 20% (per hit)\n바닥을 따라 종잡을 수 없는 양상으로 흐르는 번개 줄기를 5개 방출합니다. 번개 줄기는 각각 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%의 피해를 줍니다.\n\nTags: 핵심, 감전, 피해, 번개, 마나.\n\n— Enchantment Effect —\n적을 기절시킬 때마다 40% 확률로 해당 적으로부터 번개 줄기를 3개 내뿜습니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 30 pkt. many\nSzansa na szczęśliwy traf: 20% (per hit)\nWyzwalasz wiązki błyskawic (5), które przemieszczają się po ziemi w nieregularny sposób. Każda z nich zadaje {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% pkt. obrażeń.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.\n\n— Enchantment Effect —\nPo ogłuszeniu wroga istnieje 40% szans na wyzwolenie z niego Wiązek Błyskawic (3).",
-			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de mana: 30\nChance de Golpe de Sorte: 20% (per hit)\nLibera 5 setas elétricas que percorrem o solo em um padrão errático. Cada uma causa {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de dano.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nAo atordoar um inimigo, há 40% de chance de lançar 3 Setas Carregadas dele.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты маны: 30 ед.\nВероятность удачного удара: 20% (per hit)\nВы выпускаете 5 молнии:молний, которые хаотично перемещаются по земле, нанося по {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% ед. урона.\n\nTags: Основное, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\nКогда вы оглушаете противника, из его тела с вероятностью 40% вырывается 3 \"Электрических разряда\":\"Электрических разрядов\".",
-			"trTR": "Attack Speed Multiplier: 1.25\nMana Bedeli: 30\nŞanslı Vuruş İhtimali: 20% (per hit)\nBelirsiz bir şekilde yerde ilerleyen, her biri {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% hasar veren 5 şimşek fırlat.\n\nTags: Çekirdek, Şok, Hasar, Yıldırım, Mana.\n\n— Enchantment Effect —\nBir düşmanı Sersemlettiğinde 40% ihtimalle düşmandan 3 Yüklü Şimşek fırlatılır.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n法力消耗: 30\n幸运一击几率: 20% (per hit)\n在地面上施放 5 枚轨迹不规则的闪电弹, 每枚造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n当你击晕一名敌人时, 有 40% 几率从其身上放出 3 枚电荷弹。",
-			"zhTW": "Attack Speed Multiplier: 1.25\n法力消耗:30\n幸運觸發機率: 20% (per hit)\n釋放 5 顆以不規則路線在地面行進的電能彈,每顆造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 點傷害。\n\nTags: 核心, 電能, 傷害, 閃電, 法力.\n\n— Enchantment Effect —\n每當你擊昏敵人時,有 40% 機率從其身上放出 3 個電能彈。"
+			"deDE": "Attack Speed Multiplier: 1.25\nManakosten: 30\nGlückstrefferchance: 20% (per hit)\nEntfesselt 5 Blitze, die sich in unvorhersehbarer Richtung über den Boden bewegen und jeweils {30/33/36/39/42/45/48/51/54/57}% Schaden verursachen.\n\nTags: Kern, Schock, Schaden, Blitz, Mana.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner betäubt, besteht eine Chance von 40%, 3 Comboblitze aus ihm zu entfesseln.",
+			"esES": "Attack Speed Multiplier: 1.25\nCoste de maná: 30\nProbabilidad de golpe de suerte: 20% (per hit)\nLiberas 5 descargas de rayos que recorren el suelo de forma errática e infligen {30/33/36/39/42/45/48/51/54/57}% de daño cada una.\n\nTags: Principal, Electrocución, Daño, Rayos, Maná.\n\n— Enchantment Effect —\nCuando aturdes a un enemigo, hay un 40% de probabilidad de que libere una 3 Descarga de energía.",
+			"esMX": "Attack Speed Multiplier: 1.25\nCosto de maná: 30\nProbabilidad de golpe afortunado: 20% (per hit)\nLiberas 5 rayos que circulan por el suelo de forma errática e infligen {30/33/36/39/42/45/48/51/54/57}% de daño cada uno.\n\nTags: Principal, Rayo, Daño, Maná.\n\n— Enchantment Effect —\nCuando aturdes a un enemigo, hay un 40% de probabilidad de lanzar 3 Centellas.",
+			"frFR": "Attack Speed Multiplier: 1.25\nCoût en mana: 30\nChances d'obtenir un coup de chance: 20% (per hit)\nVous libérez 5 éclairs foudroyants qui se propagent sur le sol de manière erratique et infligent chacun {30/33/36/39/42/45/48/51/54/57}% points de dégâts.\n\nTags: Principale, Foudre, Dégâts, Mana.\n\n— Enchantment Effect —\nLorsque vous étourdissez une cible, il y a 40% de chances qu'elle libère 3 traits de foudre.",
+			"itIT": "Attack Speed Multiplier: 1.25\nCosto in mana: 30\nProbabilità di colpo fortunato: 20% (per hit)\nRilasci 5 scariche elettriche che corrono lungo il terreno secondo uno schema casuale, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni ciascuna.\n\nTags: Primaria, Folgore, Danni, Fulmine, Mana.\n\n— Enchantment Effect —\nQuando stordisci un nemico, c'è il 40% di probabilità che sprigioni 3 Scariche Elettriche.",
+			"jaJP": "Attack Speed Multiplier: 1.25\nマナ消費量: 30\n幸運の一撃発生率: 20% (per hit)\nランダムなパターンで地面を走る稲妻を5本放ち、それぞれが{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。\n\nTags: コア, 電撃, ダメージ, マナ.\n\n— Enchantment Effect —\n敵をスタンさせると、その敵から40%の確率で3本の〈チャージボルト〉が放たれる。",
+			"koKR": "Attack Speed Multiplier: 1.25\n소모: 마나 30\n행운의 적중 확률: 20% (per hit)\n바닥을 따라 종잡을 수 없는 양상으로 흐르는 번개 줄기를 5개 방출합니다. 번개 줄기는 각각 {30/33/36/39/42/45/48/51/54/57}%의 피해를 줍니다.\n\nTags: 핵심, 감전, 피해, 번개, 마나.\n\n— Enchantment Effect —\n적을 기절시킬 때마다 40% 확률로 해당 적으로부터 번개 줄기를 3개 내뿜습니다.",
+			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 30 pkt. many\nSzansa na szczęśliwy traf: 20% (per hit)\nWyzwalasz wiązki błyskawic (5), które przemieszczają się po ziemi w nieregularny sposób. Każda z nich zadaje {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawice, Mana.\n\n— Enchantment Effect —\nPo ogłuszeniu wroga istnieje 40% szans na wyzwolenie z niego Wiązek Błyskawic (3).",
+			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de mana: 30\nChance de Golpe de Sorte: 20% (per hit)\nLibera 5 setas elétricas que percorrem o solo em um padrão errático. Cada uma causa {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nAo atordoar um inimigo, há 40% de chance de lançar 3 Setas Carregadas dele.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты маны: 30 ед.\nВероятность удачного удара: 20% (per hit)\nВы выпускаете 5 молнии:молний, которые хаотично перемещаются по земле, нанося по {30/33/36/39/42/45/48/51/54/57}% ед. урона.\n\nTags: Основное, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\nКогда вы оглушаете противника, из его тела с вероятностью 40% вырывается 3 \"Электрических разряда\":\"Электрических разрядов\".",
+			"trTR": "Attack Speed Multiplier: 1.25\nMana Bedeli: 30\nŞanslı Vuruş İhtimali: 20% (per hit)\nBelirsiz bir şekilde yerde ilerleyen, her biri {30/33/36/39/42/45/48/51/54/57}% hasar veren 5 şimşek fırlat.\n\nTags: Çekirdek, Şok, Hasar, Yıldırım, Mana.\n\n— Enchantment Effect —\nBir düşmanı Sersemlettiğinde 40% ihtimalle düşmandan 3 Yüklü Şimşek fırlatılır.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n法力消耗: 30\n幸运一击几率: 20% (per hit)\n在地面上施放 5 枚轨迹不规则的闪电弹, 每枚造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。\n\nTags: 核心, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n当你击昏敌人时, 有 40% 几率从其身上放出 3 枚电荷弹。",
+			"zhTW": "Attack Speed Multiplier: 1.25\n法力消耗:30\n幸運觸發機率: 20% (per hit)\n釋放 5 顆以不規則路線在地面行進的電能彈,每顆造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。\n\nTags: 核心, 電能, 傷害, 閃電, 法力.\n\n— Enchantment Effect —\n每當你擊昏敵人時,有 40% 機率從其身上放出 3 個電能彈。"
 },
 		id: 16,
 		maxPoints: 5,
@@ -810,7 +810,7 @@ When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from the
 			"ptBR": "Setas Carregadas causam 25% de dano aumentado a inimigos atordoados.",
 			"ruRU": "\"Электрические разряды\" наносят на x25% больше урона оглушенным противникам.",
 			"trTR": "Yüklü Şimşekler Sersemletilmiş düşmanlara x25% artırılmış hasar verir.",
-			"zhCN": "电荷弹对昏迷的敌人造成的伤害提高 x25%。",
+			"zhCN": "电荷弹对被击昏的敌人造成的伤害提高 x25%。",
 			"zhTW": "電能彈對被擊昏的敵人造成的傷害提高 x25%。"
 },
 		id: 18,
@@ -861,7 +861,7 @@ When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from the
 		connections: [ "Core", "Enhanced Frozen Orb" ],
 		description: `Mana Cost: 40
 Lucky Hit Chance: 4% (per hit)
-Unleash an orb that Chills for 34% and expels piercing shards, dealing a total of {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% damage. Upon expiration, Frozen Orb explodes, dealing {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% damage and Chilling enemies for 8.7%.
+Unleash an orb that Chills for 34% and expels piercing shards, dealing a total of {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% damage. Upon expiration, Frozen Orb explodes, dealing {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% damage and Chilling enemies for 8.7%.
 
 Tags: Core, Frost, Chill, Damage, Cold, Crowd Control, Mana.
 
@@ -883,19 +883,19 @@ Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Or
 			"zhTW": "冰封球"
 },
 		descriptionLocalized: {
-			"deDE": "Manakosten: 40\nGlückstrefferchance: 4% (per hit)\nEntfesselt eine Kugel, die für 34% unterkühlt und durchschlagende Splitter ausstößt, die insgesamt {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% Schaden verursachen. Nach Ablauf explodiert Gefrorene Kugel, verursacht {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% Schaden und unterkühlt Gegner für 8.7%.\n\nTags: Kern, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust, Mana.\n\n— Enchantment Effect —\nJedes Mal, wenn Ihr eine Fertigkeit einsetzt, die keine Basisfertigkeit ist, verfügt Ihr über eine Chance von 20%, eine Gefrorene Kugel auf einen Gegner in der Nähe zu schleudern.",
-			"esES": "Coste de maná: 40\nProbabilidad de golpe de suerte: 4% (per hit)\nLanzas un orbe que hiela un 34% y expele unas esquirlas perforadoras que infligen un total de {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% de daño. Cuando expira, Orbe congelado explota, inflige {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% de daño y hiela un 8.7% a los enemigos.\n\nTags: Principal, Escarcha, Helada, Daño, Frío, Control de masas, Maná.\n\n— Enchantment Effect —\nCuando lanzas una habilidad no básica, tienes un 20% de probabilidad de lanzar un Orbe congelado a un enemigo cercano.",
-			"esMX": "Costo de maná: 40\nProbabilidad de golpe afortunado: 4% (per hit)\nLiberas un orbe que hiela un 34% y expulsa fragmentos perforantes que infligen {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% de daño total. Al caducar, Orbe Gélido explota, inflige {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% de daño y hiela a los enemigos un 8.7%.\n\nTags: Principal, Hielo, Helar, Daño, Frío, Control de multitudes, Maná.\n\n— Enchantment Effect —\nCuando lanzas una habilidad no básica, tienes un 20% de probabilidad de lanzar un Orbe Gélido a un enemigo cercano.",
-			"frFR": "Coût en mana: 40\nChances d'obtenir un coup de chance: 4% (per hit)\nVous lancez un orbe qui glace à hauteur de 34% et projette des éclats perçants qui infligent {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% points de dégâts au total. À son terme, Orbe gelé explose, ce qui inflige {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% points de dégâts aux adversaires et les glace à hauteur de 8.7%.\n\nTags: Principale, Givre, Glace, Dégâts, Froid, Perte de contrôle, Mana.\n\n— Enchantment Effect —\nChaque fois que vous utilisez une compétence, hors compétences de base, vous avez 20% de chances de lancer un orbe gelé sur une cible à proximité.",
-			"itIT": "Costo in mana: 40\nProbabilità di colpo fortunato: 4% (per hit)\nRilasci un globo che raggela del 34% ed espelle schegge perforanti, infliggendo un totale di {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% danni. Al termine, il Globo di Gelo esplode, infliggendo {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% danni e raggelando i nemici del 8.7%.\n\nTags: Primaria, Gelo, Raggelamento, Danni, Freddo, Effetti debilitanti, Mana.\n\n— Enchantment Effect —\nQuando lanci un'abilità non base, hai una probabilità del 20% di lanciare un Globo di Gelo contro un nemico vicino.",
-			"jaJP": "マナ消費量: 40\n幸運の一撃発生率: 4% (per hit)\n34%の冷気効果を与える球体を放ち、貫通能力のある欠片を放出させ、合計で{31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}%のダメージを与える。効果時間が終了した〈フローズンオーブ〉は爆発し、敵に{29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}%のダメージと、8.7%の冷気効果を与える。\n\nTags: コア, 凍結, 冷気, ダメージ, 操作障害効果, マナ.\n\n— Enchantment Effect —\n非基本スキルを使うと、20%の確率で付近の敵に〈フローズンオーブ〉を放つ。",
-			"koKR": "소모: 마나 40\n행운의 적중 확률: 4% (per hit)\n적에게 34%의 오한을 느끼게 하고 관통하는 파편을 내뿜어 총 {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}%의 피해를 주는 보주를 발사합니다. 지속시간이 끝나면 얼음 보주가 폭발하여 {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}%의 피해를 주고 적에게 8.7%의 오한을 느끼게 합니다.\n\nTags: 핵심, 서리, 오한, 피해, 냉기, 군중 제어, 마나.\n\n— Enchantment Effect —\n기본 기술이 아닌 기술을 시전할 때마다 20% 확률로 근처의 적에게 얼음 보주를 발사합니다.",
-			"plPL": "Koszt: 40 pkt. many\nSzansa na szczęśliwy traf: 4% (per hit)\nUwalniasz kulę, która wyziębia cel o 34% i wystrzeliwuje przeszywające odłamki, które zadają w sumie {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% pkt. obrażeń. Po zakończeniu działania Zamarznięta Kula wybucha i zadaje {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% pkt. obrażeń oraz wyziębia wrogów o 8.7%.\n\nTags: Główne, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli, Mana.\n\n— Enchantment Effect —\nZa każdym razem, gdy używasz umiejętności innej niż Podstawowa, masz 20% szans na wystrzelenie Zamarzniętej Kuli w pobliskiego wroga.",
-			"ptBR": "Custo de mana: 40\nChance de Golpe de Sorte: 4% (per hit)\nLibera um orbe que gela por 34% e expele estilhaços perfurantes, causando um total de {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% de dano. Ao expirar, Orbe Congelado explode, causando {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% de dano e aplicando gelidez a inimigos por 8.7%.\n\nTags: Principal, Geleira, Gelidez, Dano, Gelo, Controle de Grupo, Mana.\n\n— Enchantment Effect —\nSempre que lançar uma habilidade não básica, você tem 20% de chance de lançar um Orbe Congelado em um inimigo próximo.",
-			"ruRU": "Затраты маны: 40 ед.\nВероятность удачного удара: 4% (per hit)\nВы создаете морозную сферу, которая заставляет цели коченеть, замедляя на 34%, и выпускает пронзающие осколки, в совокупности наносящие {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% ед. урона. По завершении действия \"Морозная сфера\" взрывается, нанося {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% ед. урона, и заставляя противников коченеть, замедляя на 8.7%.\n\nTags: Основное, Мороз, Окоченение, Урон, Холод, Контроль, Мана.\n\n— Enchantment Effect —\nПри применении любых умений, кроме базовых, вы с вероятностью 20% выпускаете в ближайшего противника \"Морозную сферу\".",
-			"trTR": "Mana Bedeli: 40\nŞanslı Vuruş İhtimali: 4% (per hit)\n34% Soğutma uygulayan ve delici parçalar fırlatarak toplamda {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% hasar veren bir küre fırlat. Donmuş Küre süresi dolduğunda patlayarak {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% hasar verir ve düşmanlara 8.7% Soğutma uygular.\n\nTags: Çekirdek, Soğuk, Soğutma, Hasar, Kitle Kontrolü, Mana.\n\n— Enchantment Effect —\nHer Temel Olmayan Yetenek kullandığında 20% ihtimalle Yakındaki bir düşmana bir Donmuş Küre fırlatırsın.",
-			"zhCN": "法力消耗: 40\n幸运一击几率: 4% (per hit)\n施放一颗冰球, 冻伤敌人 34%, 并放出尖锐碎片, 造成总计 {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% 点伤害。冰霜球会在持续时间结束后爆炸, 造成 {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% 点伤害, 并冻伤敌人 8.7%。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 冰霜, 群控, 法力.\n\n— Enchantment Effect —\n每当你施放非基础技能时, 有 20% 几率向一名附近的敌人发射一颗冰霜球。",
-			"zhTW": "法力消耗:40\n幸運觸發機率: 4% (per hit)\n釋放會造成 34% 冰冷效果、散射穿透碎片的冰球,總共造成 {31.7/34.9/38/41.2/44.4/47.5/50.7/53.9/57/60.2}% 點傷害。冰封球會在效果結束時爆炸,造成 {29.2/32.2/35.1/38/41/43.9/46.8/49.7/52.6/55.6}% 點傷害,並使敵人冰冷 8.7%。\n\nTags: 核心, 冰霜, 冰冷, 傷害, 冰寒, 控場, 法力.\n\n— Enchantment Effect —\n每當你施放非基本技能時,有 20% 機率對附近的一個敵人發射冰封球。"
+			"deDE": "Manakosten: 40\nGlückstrefferchance: 4% (per hit)\nEntfesselt eine Kugel, die für 34% unterkühlt und durchschlagende Splitter ausstößt, die insgesamt {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Schaden verursachen. Nach Ablauf explodiert Gefrorene Kugel, verursacht {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% Schaden und unterkühlt Gegner für 8.7%.\n\nTags: Kern, Frost, Unterkühlen, Schaden, Kälte, Kontrollverlust, Mana.\n\n— Enchantment Effect —\nJedes Mal, wenn Ihr eine Fertigkeit einsetzt, die keine Basisfertigkeit ist, verfügt Ihr über eine Chance von 20%, eine Gefrorene Kugel auf einen Gegner in der Nähe zu schleudern.",
+			"esES": "Coste de maná: 40\nProbabilidad de golpe de suerte: 4% (per hit)\nLanzas un orbe que hiela un 34% y expele unas esquirlas perforadoras que infligen un total de {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño. Cuando expira, Orbe congelado explota, inflige {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% de daño y hiela un 8.7% a los enemigos.\n\nTags: Principal, Escarcha, Helada, Daño, Frío, Control de masas, Maná.\n\n— Enchantment Effect —\nCuando lanzas una habilidad no básica, tienes un 20% de probabilidad de lanzar un Orbe congelado a un enemigo cercano.",
+			"esMX": "Costo de maná: 40\nProbabilidad de golpe afortunado: 4% (per hit)\nLiberas un orbe que hiela un 34% y expulsa fragmentos perforantes que infligen {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño total. Al caducar, Orbe Gélido explota, inflige {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% de daño y hiela a los enemigos un 8.7%.\n\nTags: Principal, Hielo, Helar, Daño, Frío, Control de multitudes, Maná.\n\n— Enchantment Effect —\nCuando lanzas una habilidad no básica, tienes un 20% de probabilidad de lanzar un Orbe Gélido a un enemigo cercano.",
+			"frFR": "Coût en mana: 40\nChances d'obtenir un coup de chance: 4% (per hit)\nVous lancez un orbe qui glace à hauteur de 34% et projette des éclats perçants qui infligent {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% points de dégâts au total. À son terme, Orbe gelé explose, ce qui inflige {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% points de dégâts aux adversaires et les glace à hauteur de 8.7%.\n\nTags: Principale, Givre, Glace, Dégâts, Froid, Perte de contrôle, Mana.\n\n— Enchantment Effect —\nChaque fois que vous utilisez une compétence, hors compétences de base, vous avez 20% de chances de lancer un orbe gelé sur une cible à proximité.",
+			"itIT": "Costo in mana: 40\nProbabilità di colpo fortunato: 4% (per hit)\nRilasci un globo che raggela del 34% ed espelle schegge perforanti, infliggendo un totale di {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% danni. Al termine, il Globo di Gelo esplode, infliggendo {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% danni e raggelando i nemici del 8.7%.\n\nTags: Primaria, Gelo, Raggelamento, Danni, Freddo, Effetti debilitanti, Mana.\n\n— Enchantment Effect —\nQuando lanci un'abilità non base, hai una probabilità del 20% di lanciare un Globo di Gelo contro un nemico vicino.",
+			"jaJP": "マナ消費量: 40\n幸運の一撃発生率: 4% (per hit)\n34%の冷気効果を与える球体を放ち、貫通能力のある欠片を放出させ、合計で{36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%のダメージを与える。効果時間が終了した〈フローズンオーブ〉は爆発し、敵に{34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}%のダメージと、8.7%の冷気効果を与える。\n\nTags: コア, 凍結, 冷気, ダメージ, 操作障害効果, マナ.\n\n— Enchantment Effect —\n非基本スキルを使うと、20%の確率で付近の敵に〈フローズンオーブ〉を放つ。",
+			"koKR": "소모: 마나 40\n행운의 적중 확률: 4% (per hit)\n적에게 34%의 오한을 느끼게 하고 관통하는 파편을 내뿜어 총 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%의 피해를 주는 보주를 발사합니다. 지속시간이 끝나면 얼음 보주가 폭발하여 {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}%의 피해를 주고 적에게 8.7%의 오한을 느끼게 합니다.\n\nTags: 핵심, 서리, 오한, 피해, 냉기, 군중 제어, 마나.\n\n— Enchantment Effect —\n기본 기술이 아닌 기술을 시전할 때마다 20% 확률로 근처의 적에게 얼음 보주를 발사합니다.",
+			"plPL": "Koszt: 40 pkt. many\nSzansa na szczęśliwy traf: 4% (per hit)\nUwalniasz kulę, która wyziębia cel o 34% i wystrzeliwuje przeszywające odłamki, które zadają w sumie {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń. Po zakończeniu działania Zamarznięta Kula wybucha i zadaje {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% pkt. obrażeń oraz wyziębia wrogów o 8.7%.\n\nTags: Główne, Lód, Wyziębienie, Obrażenia, Zimno, Ograniczanie Kontroli, Mana.\n\n— Enchantment Effect —\nZa każdym razem, gdy używasz umiejętności innej niż Podstawowa, masz 20% szans na wystrzelenie Zamarzniętej Kuli w pobliskiego wroga.",
+			"ptBR": "Custo de mana: 40\nChance de Golpe de Sorte: 4% (per hit)\nLibera um orbe que gela por 34% e expele estilhaços perfurantes, causando um total de {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano. Ao expirar, Orbe Congelado explode, causando {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% de dano e aplicando gelidez a inimigos por 8.7%.\n\nTags: Principal, Geleira, Gelidez, Dano, Gelo, Controle de Grupo, Mana.\n\n— Enchantment Effect —\nSempre que lançar uma habilidade não básica, você tem 20% de chance de lançar um Orbe Congelado em um inimigo próximo.",
+			"ruRU": "Затраты маны: 40 ед.\nВероятность удачного удара: 4% (per hit)\nВы создаете морозную сферу, которая заставляет цели коченеть, замедляя на 34%, и выпускает пронзающие осколки, в совокупности наносящие {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона. По завершении действия \"Морозная сфера\" взрывается, нанося {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% ед. урона, и заставляя противников коченеть, замедляя на 8.7%.\n\nTags: Основное, Мороз, Окоченение, Урон, Холод, Контроль, Мана.\n\n— Enchantment Effect —\nПри применении любых умений, кроме базовых, вы с вероятностью 20% выпускаете в ближайшего противника \"Морозную сферу\".",
+			"trTR": "Mana Bedeli: 40\nŞanslı Vuruş İhtimali: 4% (per hit)\n34% Soğutma uygulayan ve delici parçalar fırlatarak toplamda {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% hasar veren bir küre fırlat. Donmuş Küre süresi dolduğunda patlayarak {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% hasar verir ve düşmanlara 8.7% Soğutma uygular.\n\nTags: Çekirdek, Soğuk, Soğutma, Hasar, Kitle Kontrolü, Mana.\n\n— Enchantment Effect —\nHer Temel Olmayan Yetenek kullandığında 20% ihtimalle Yakındaki bir düşmana bir Donmuş Küre fırlatırsın.",
+			"zhCN": "法力消耗: 40\n幸运一击几率: 4% (per hit)\n施放一颗冰球, 冻伤敌人 34%, 并放出尖锐碎片, 造成总计 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点伤害。寒霜球会在持续时间结束后爆炸, 造成 {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% 点伤害, 并冻伤敌人 8.7%。\n\nTags: 核心, 寒霜, 冻伤, 伤害, 寒冰, 群控, 法力.\n\n— Enchantment Effect —\n每当你施放非基础技能时, 有 20% 几率向一名附近的敌人发射一颗冰霜球。",
+			"zhTW": "法力消耗:40\n幸運觸發機率: 4% (per hit)\n釋放會造成 34% 冰冷效果、散射穿透碎片的冰球,總共造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 點傷害。冰封球會在效果結束時爆炸,造成 {34/37.4/40.8/44.2/47.6/51/54.4/57.8/61.2/64.6}% 點傷害,並使敵人冰冷 8.7%。\n\nTags: 核心, 冰霜, 冰冷, 傷害, 冰寒, 控場, 法力.\n\n— Enchantment Effect —\n每當你施放非基本技能時,有 20% 機率對附近的一個敵人發射冰封球。"
 },
 		id: 20,
 		maxPoints: 5,
@@ -983,7 +983,7 @@ Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Or
 	"Greater Frozen Orb": {
 		baseSkill: "Frozen Orb",
 		connections: [ "Enhanced Frozen Orb" ],
-		description: `Frozen Orb's explosion has a 25% chance to make all enemies hit Vulnerable for 2 seconds. Frozen Orb always makes Frozen enemies Vulnerable.`,
+		description: `Frozen Orb's explosion has a 30% chance to make all enemies hit Vulnerable for 2 seconds. Frozen Orb always makes Frozen enemies Vulnerable.`,
 		nameLocalized: {
 			"deDE": "Große Gefrorene Kugel",
 			"esES": "Orbe congelado superior",
@@ -1000,19 +1000,19 @@ Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Or
 			"zhTW": "強效冰封球"
 },
 		descriptionLocalized: {
-			"deDE": "Die Explosion von Gefrorene Kugel verfügt über eine Chance von 25%, alle getroffenen Gegner 2 Sek. lang verwundbar zu machen. Gefrorene Kugel macht eingefrorene Gegner immer verwundbar.",
-			"esES": "La explosión de Orbe congelado tiene un 25% de probabilidad de volver vulnerables a todos los enemigos golpeados durante 2 s. Orbe congelado siempre vuelve vulnerables a los enemigos congelados.",
-			"esMX": "La explosión de Orbe Gélido tiene un 25% de probabilidad de volver vulnerables a todos los enemigos golpeados durante 2 segundos. Orbe Gélido siempre vuelve vulnerables a los enemigos congelados.",
-			"frFR": "L'explosion d'Orbe gelé a 25% de chances de rendre toutes les cibles touchées vulnérables pendant 2 s. Orbe gelé rend toujours vulnérables les cibles qui sont gelées.",
-			"itIT": "L'esplosione di Globo di Gelo ha una probabilità del 25% di rendere tutti i nemici colpiti vulnerabili per 2 s. Sfera di Gelo rende sempre i nemici congelati vulnerabili.",
-			"jaJP": "〈フローズンオーブ〉の爆発が25%の確率で、命中したすべての敵を2秒間にわたり脆弱状態にする。〈フローズンオーブ〉は凍結状態の敵を必ず脆弱状態にする。",
-			"koKR": "얼음 보주의 폭발이 25% 확률로 적을 2초 동안 취약하게 만듭니다. 얼음 보주가 빙결 상태의 적을 언제나 취약하게 만듭니다.",
-			"plPL": "Wybuch Zamarzniętej Kuli ma 25% szans na odsłonięcie wszystkich trafionych wrogów na 2 sek. Zamarznięta Kula sprawia, że zamrożeni wrogowie stają się odsłonięci.",
-			"ptBR": "A explosão de Orbe Congelado tem 25% de chance de tornar todos os inimigos atingidos vulneráveis por 2 segundos. Orbe Congelado sempre deixará os inimigos congelados vulneráveis.",
-			"ruRU": "Взрыв \"Морозной сферы\" с вероятностью 25% делает пораженных противников уязвимыми на 2 сек. \"Морозная сфера\" всегда делает уязвимыми замороженных противников.",
-			"trTR": "Donmuş Kürenin patlaması 25% ihtimalle vurulan tüm düşmanları 2 saniyeliğine Savunmasız hâle getirir. Donmuş Küre her zaman Donmuş düşmanları Savunmasız hâle getirir.",
-			"zhCN": "冰霜球 爆炸时有 25% 几率使命中的所有敌人陷入易伤状态, 持续 2 秒。冰霜球总是会使冻结的敌人陷入易伤状态。",
-			"zhTW": "冰封球的爆炸有 25% 機率對所有擊中的敵人造成易傷,持續 2 秒。冰封球必定會對凍結的敵人造成易傷。"
+			"deDE": "Die Explosion von Gefrorene Kugel verfügt über eine Chance von 30%, alle getroffenen Gegner 2 Sek. lang verwundbar zu machen. Gefrorene Kugel macht eingefrorene Gegner immer verwundbar.",
+			"esES": "La explosión de Orbe congelado tiene un 30% de probabilidad de volver vulnerables a todos los enemigos golpeados durante 2 s. Orbe congelado siempre vuelve vulnerables a los enemigos congelados.",
+			"esMX": "La explosión de Orbe Gélido tiene un 30% de probabilidad de volver vulnerables a todos los enemigos golpeados durante 2 segundos. Orbe Gélido siempre vuelve vulnerables a los enemigos congelados.",
+			"frFR": "L'explosion d'Orbe gelé a 30% de chances de rendre toutes les cibles touchées vulnérables pendant 2 s. Orbe gelé rend toujours vulnérables les cibles qui sont gelées.",
+			"itIT": "L'esplosione di Globo di Gelo ha una probabilità del 30% di rendere tutti i nemici colpiti vulnerabili per 2 s. Sfera di Gelo rende sempre i nemici congelati vulnerabili.",
+			"jaJP": "〈フローズンオーブ〉の爆発が30%の確率で、命中したすべての敵を2秒間にわたり脆弱状態にする。〈フローズンオーブ〉は凍結状態の敵を必ず脆弱状態にする。",
+			"koKR": "얼음 보주의 폭발이 30% 확률로 적을 2초 동안 취약하게 만듭니다. 얼음 보주가 빙결 상태의 적을 언제나 취약하게 만듭니다.",
+			"plPL": "Wybuch Zamarzniętej Kuli ma 30% szans na odsłonięcie wszystkich trafionych wrogów na 2 sek. Zamarznięta Kula sprawia, że zamrożeni wrogowie stają się odsłonięci.",
+			"ptBR": "A explosão de Orbe Congelado tem 30% de chance de tornar todos os inimigos atingidos vulneráveis por 2 segundos. Orbe Congelado sempre deixará os inimigos congelados vulneráveis.",
+			"ruRU": "Взрыв \"Морозной сферы\" с вероятностью 30% делает пораженных противников уязвимыми на 2 сек. \"Морозная сфера\" всегда делает уязвимыми замороженных противников.",
+			"trTR": "Donmuş Kürenin patlaması 30% ihtimalle vurulan tüm düşmanları 2 saniyeliğine Savunmasız hâle getirir. Donmuş Küre her zaman Donmuş düşmanları Savunmasız hâle getirir.",
+			"zhCN": "冰霜球 爆炸时有 30% 几率使命中的所有敌人陷入易伤状态, 持续 2 秒。冰霜球总是会使冻结的敌人陷入易伤状态。",
+			"zhTW": "冰封球的爆炸有 30% 機率對所有擊中的敵人造成易傷,持續 2 秒。冰封球必定會對凍結的敵人造成易傷。"
 },
 		id: 23,
 		maxPoints: 1,
@@ -1023,7 +1023,7 @@ Whenever you cast a Non-Basic Skill, you have a 20% chance to launch a Frozen Or
 		connections: [ "Core", "Enhanced Incinerate" ],
 		description: `Mana Cost: 25 per second
 Lucky Hit Chance: 16% (per use)
-Channel a beam of fire, Burning enemies for {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% damage per second. Damage per second increases over 4 seconds, up to {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.
+Channel a beam of fire, Burning enemies for {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% damage per second. Damage per second increases over 4 seconds, up to {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.
 
 Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.
 
@@ -1045,19 +1045,19 @@ Every 18 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"zhTW": "熾焚烈焰"
 },
 		descriptionLocalized: {
-			"deDE": "Manakosten: 25 pro Sekunde\nGlückstrefferchance: 16% (per use)\nKanalisiert einen Feuerstrahl, der Gegner verbrennt und ihnen {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% Schaden pro Sekunde zufügt. Der Schaden pro Sekunde erhöht sich im Verlauf von 4 Sek., bis maximal {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Kern, Pyromanie, Kanalisiert, Schaden, Verbrennung, Mana.\n\n— Enchantment Effect —\nAlle 18 Sek. erscheint eine Schlange und schickt Gegner 8 Sek. lang in den Flammentod.",
-			"esES": "Coste de maná: 25 por segundo\nProbabilidad de golpe de suerte: 16% (per use)\nCanalizas un haz de fuego que inflige {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% de daño de quemadura por segundo a los enemigos. El daño por segundo aumenta a lo largo de 4 s, hasta un máximo de {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Principal, Piromancia, Canalizada, Daño, Quemadura, Maná.\n\n— Enchantment Effect —\nCada 18 s aparece una sierpe e Incinera a los enemigos durante 8 s.",
-			"esMX": "Costo de maná: 25 por segundo\nProbabilidad de golpe afortunado: 16% (per use)\nCanalizas un rayo de fuego que quema a los enemigos y les inflige {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% de daño por segundo. El daño por segundo aumenta durante 4 segundos, hasta un máximo de {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Principal, Piromancia, Canalizado, Daño, Quemadura, Maná.\n\n— Enchantment Effect —\nCada 18 segundos, aparece una serpiente e incinera a los enemigos durante 8 segundos.",
-			"frFR": "Coût en mana: 25 par seconde\nChances d'obtenir un coup de chance: 16% (per use)\nVous canalisez un rayon de feu et brûlez les adversaires, ce qui leur inflige {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% points de dégâts par seconde. Les dégâts infligés par seconde augmentent sur une durée de 4 s, jusqu'à un maximum de {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Principale, Pyromancie, Canalisation, Dégâts, Brûlure, Mana.\n\n— Enchantment Effect —\nToutes les 18 s, un serpent apparaît et incinère les adversaires pendant 8 s.",
-			"itIT": "Costo in mana: 25 al secondo\nProbabilità di colpo fortunato: 16% (per use)\nCanalizzi un raggio di fuoco che manda in fiamme i nemici infliggendo {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% danni al secondo. I danni al secondo aumentano per 4 s, fino a un massimo di {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Primaria, Piromanzia, Canalizzazione, Danni, Bruciatura, Mana.\n\n— Enchantment Effect —\nOgni 18 s, generi un serpente che incenerisce i nemici per 8 s.",
-			"jaJP": "マナ消費量: 25 毎秒\n幸運の一撃発生率: 16% (per use)\n一直線の炎を継続的に放って敵を炎上させ、毎秒{12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}%のダメージを与える。秒間ダメージは4秒間かけて増加し、最大{66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%に到達する。\n\nTags: コア, 火術, 連続発動, ダメージ, 炎上, マナ.\n\n— Enchantment Effect —\n18秒ごとに大蛇が出現し、8秒間にわたって敵に〈インシネレート〉を放つ。",
-			"koKR": "소모: 초당 마나 25\n행운의 적중 확률: 16% (per use)\n불의 광선을 집중하여 적을 불태우고 초당 {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}%의 피해를 줍니다. 초당 피해는 4초에 걸쳐 최대 {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%까지 증가합니다.\n\nTags: 핵심, 방화, 정신 집중, 피해, 불태우기, 마나.\n\n— Enchantment Effect —\n18초마다 뱀이 생성되어 적들을 8초 동안 소각합니다.",
-			"plPL": "Koszt: 25 pkt. many na sekundę.\nSzansa na szczęśliwy traf: 16% (per use)\nWyzwalasz promień ognia, który podpala wrogów, zadając im {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% pkt. obrażeń na sekundę. Obrażenia na sekundę są zwiększone po upływie 4 sek., maksymalnie do {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Główne, Piromancja, Podtrzymanie, Obrażenia, Podpalenie, Mana.\n\n— Enchantment Effect —\nCo 18 sek. pojawia się wąż, który wymierza Spopielenie w pobliskiego wroga na 8 sek.",
-			"ptBR": "Custo de mana: 25 por segundo\nChance de Golpe de Sorte: 16% (per use)\nCanaliza um feixe de fogo, queimando os inimigos e causando {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% de dano por segundo. O dano por segundo aumenta ao longo de 4 segundos, até {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}%.\n\nTags: Principal, Piromancia, Canalizada, Dano, Queimadura, Mana.\n\n— Enchantment Effect —\nA cada 18 segundos, uma serpente surge e incinera inimigos próximos por 8 segundos.",
-			"ruRU": "Затраты маны: 25 ед. в сек.\nВероятность удачного удара: 16% (per use)\nВы поддерживаете поток пламени, наносящий противникам {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% ед. урона в секунду. Урон в секунду увеличивается в течение 4 сек., достигая {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}% ед.\n\nTags: Основное, Пиромантия, Поддерживаемое, Урон, Горение, Мана.\n\n— Enchantment Effect —\nРаз в 18 сек. появляется змей, поражающий ближайшего противника \"Испепелением\" в течение 8 сек.",
-			"trTR": "Mana Bedeli: Saniyede 25\nŞanslı Vuruş İhtimali: 16% (per use)\nBir ateş akımını yönlendirip düşmanları Yakarak saniyede {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% hasar ver. Saniye başına hasar 4 saniye boyunca artarak en fazla {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}% olur.\n\nTags: Çekirdek, Alev Büyüsü, Yönlendirmeli, Hasar, Yakma, Mana.\n\n— Enchantment Effect —\nHer 18 saniyede bir yılan ortaya çıkar ve düşmanları 8 saniyeliğine Yakar.",
-			"zhCN": "法力消耗: 25每秒\n幸运一击几率: 16% (per use)\n引导一道火焰射线燃烧敌人, 每秒造成 {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% 点伤害。在 4 秒内, 伤害每秒都会提高, 最多 {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}% 点。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.\n\n— Enchantment Effect —\n每 18 秒, 召唤一条蛇并焚烧敌人, 持续 8 秒。",
-			"zhTW": "法力消耗:每秒 25\n幸運觸發機率16% (per use)\n引導一道火焰燃燒敵人,每秒造成 {12.25/13.475/14.7/15.925/17.15/18.375/19.6/20.825/22.05/23.275}% 點傷害。每秒造成的傷害在 4 秒內會逐漸提高,最多提高 {66.2/72.8/79.4/86/92.6/99.2/105.8/112.5/119.1/125.7}% 點。\n\nTags: 核心, 焰術, 引導, 傷害, 燃燒, 法力.\n\n— Enchantment Effect —\n每 18 秒生成一條火蛇,它會對敵人施放熾焚烈焰,持續 8 秒。"
+			"deDE": "Manakosten: 25 pro Sekunde\nGlückstrefferchance: 16% (per use)\nKanalisiert einen Feuerstrahl, der Gegner verbrennt und ihnen {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% Schaden pro Sekunde zufügt. Der Schaden pro Sekunde erhöht sich im Verlauf von 4 Sek., bis maximal {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Kern, Pyromanie, Kanalisiert, Schaden, Verbrennung, Mana.\n\n— Enchantment Effect —\nAlle 18 Sek. erscheint eine Schlange und schickt Gegner 8 Sek. lang in den Flammentod.",
+			"esES": "Coste de maná: 25 por segundo\nProbabilidad de golpe de suerte: 16% (per use)\nCanalizas un haz de fuego que inflige {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% de daño de quemadura por segundo a los enemigos. El daño por segundo aumenta a lo largo de 4 s, hasta un máximo de {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Principal, Piromancia, Canalizada, Daño, Quemadura, Maná.\n\n— Enchantment Effect —\nCada 18 s aparece una sierpe e Incinera a los enemigos durante 8 s.",
+			"esMX": "Costo de maná: 25 por segundo\nProbabilidad de golpe afortunado: 16% (per use)\nCanalizas un rayo de fuego que quema a los enemigos y les inflige {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% de daño por segundo. El daño por segundo aumenta durante 4 segundos, hasta un máximo de {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Principal, Piromancia, Canalizado, Daño, Quemadura, Maná.\n\n— Enchantment Effect —\nCada 18 segundos, aparece una serpiente e incinera a los enemigos durante 8 segundos.",
+			"frFR": "Coût en mana: 25 par seconde\nChances d'obtenir un coup de chance: 16% (per use)\nVous canalisez un rayon de feu et brûlez les adversaires, ce qui leur inflige {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% points de dégâts par seconde. Les dégâts infligés par seconde augmentent sur une durée de 4 s, jusqu'à un maximum de {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Principale, Pyromancie, Canalisation, Dégâts, Brûlure, Mana.\n\n— Enchantment Effect —\nToutes les 18 s, un serpent apparaît et incinère les adversaires pendant 8 s.",
+			"itIT": "Costo in mana: 25 al secondo\nProbabilità di colpo fortunato: 16% (per use)\nCanalizzi un raggio di fuoco che manda in fiamme i nemici infliggendo {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% danni al secondo. I danni al secondo aumentano per 4 s, fino a un massimo di {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Primaria, Piromanzia, Canalizzazione, Danni, Bruciatura, Mana.\n\n— Enchantment Effect —\nOgni 18 s, generi un serpente che incenerisce i nemici per 8 s.",
+			"jaJP": "マナ消費量: 25 毎秒\n幸運の一撃発生率: 16% (per use)\n一直線の炎を継続的に放って敵を炎上させ、毎秒{13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}%のダメージを与える。秒間ダメージは4秒間かけて増加し、最大{72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%に到達する。\n\nTags: コア, 火術, 連続発動, ダメージ, 炎上, マナ.\n\n— Enchantment Effect —\n18秒ごとに大蛇が出現し、8秒間にわたって敵に〈インシネレート〉を放つ。",
+			"koKR": "소모: 초당 마나 25\n행운의 적중 확률: 16% (per use)\n불의 광선을 집중하여 적을 불태우고 초당 {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}%의 피해를 줍니다. 초당 피해는 4초에 걸쳐 최대 {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%까지 증가합니다.\n\nTags: 핵심, 방화, 정신 집중, 피해, 불태우기, 마나.\n\n— Enchantment Effect —\n18초마다 뱀이 생성되어 적들을 8초 동안 소각합니다.",
+			"plPL": "Koszt: 25 pkt. many na sekundę.\nSzansa na szczęśliwy traf: 16% (per use)\nWyzwalasz promień ognia, który podpala wrogów, zadając im {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% pkt. obrażeń na sekundę. Obrażenia na sekundę są zwiększone po upływie 4 sek., maksymalnie do {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Główne, Piromancja, Podtrzymanie, Obrażenia, Podpalenie, Mana.\n\n— Enchantment Effect —\nCo 18 sek. pojawia się wąż, który wymierza Spopielenie w pobliskiego wroga na 8 sek.",
+			"ptBR": "Custo de mana: 25 por segundo\nChance de Golpe de Sorte: 16% (per use)\nCanaliza um feixe de fogo, queimando os inimigos e causando {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% de dano por segundo. O dano por segundo aumenta ao longo de 4 segundos, até {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Principal, Piromancia, Canalizada, Dano, Queimadura, Mana.\n\n— Enchantment Effect —\nA cada 18 segundos, uma serpente surge e incinera inimigos próximos por 8 segundos.",
+			"ruRU": "Затраты маны: 25 ед. в сек.\nВероятность удачного удара: 16% (per use)\nВы поддерживаете поток пламени, наносящий противникам {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% ед. урона в секунду. Урон в секунду увеличивается в течение 4 сек., достигая {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}% ед.\n\nTags: Основное, Пиромантия, Поддерживаемое, Урон, Горение, Мана.\n\n— Enchantment Effect —\nРаз в 18 сек. появляется змей, поражающий ближайшего противника \"Испепелением\" в течение 8 сек.",
+			"trTR": "Mana Bedeli: Saniyede 25\nŞanslı Vuruş İhtimali: 16% (per use)\nBir ateş akımını yönlendirip düşmanları Yakarak saniyede {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% hasar ver. Saniye başına hasar 4 saniye boyunca artarak en fazla {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}% olur.\n\nTags: Çekirdek, Alev Büyüsü, Yönlendirmeli, Hasar, Yakma, Mana.\n\n— Enchantment Effect —\nHer 18 saniyede bir yılan ortaya çıkar ve düşmanları 8 saniyeliğine Yakar.",
+			"zhCN": "法力消耗: 25每秒\n幸运一击几率: 16% (per use)\n引导一道火焰射线燃烧敌人, 每秒造成 {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% 点伤害。在 4 秒内, 伤害每秒都会提高, 最多 {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}% 点。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.\n\n— Enchantment Effect —\n每 18 秒, 召唤一条蛇并焚烧敌人, 持续 8 秒。",
+			"zhTW": "法力消耗:每秒 25\n幸運觸發機率16% (per use)\n引導一道火焰燃燒敵人,每秒造成 {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% 點傷害。每秒造成的傷害在 4 秒內會逐漸提高,最多提高 {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}% 點。\n\nTags: 核心, 焰術, 引導, 傷害, 燃燒, 法力.\n\n— Enchantment Effect —\n每 18 秒生成一條火蛇,它會對敵人施放熾焚烈焰,持續 8 秒。"
 },
 		id: 24,
 		maxPoints: 5,
@@ -1067,7 +1067,7 @@ Every 18 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 	"Enhanced Incinerate": {
 		baseSkill: "Incinerate",
 		connections: [ "Incinerate", "Destructive Incinerate", "Greater Incinerate" ],
-		description: `While channeling Incinerate, you Burn enemies around you for 15% of the damage per second.`,
+		description: `While channeling Incinerate, you Burn enemies around you for 25% of the damage per second.`,
 		nameLocalized: {
 			"deDE": "Verbesserter Flammentod",
 			"esES": "Incinerar mejorado",
@@ -1084,19 +1084,19 @@ Every 18 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"zhTW": "強化熾焚烈焰"
 },
 		descriptionLocalized: {
-			"deDE": "Während des Kanalisierens von Flammentod verbrennt Ihr Gegner um Euch herum und fügt ihnen 15% des Schadens pro Sekunde zu.",
-			"esES": "Mientras se canaliza Incinerar, quemas a los enemigos que te rodean e infliges un 15% del daño de la habilidad por segundo.",
-			"esMX": "Mientras canalizas Incinerar, infliges un 15% de daño de quemadura por segundo a los enemigos a tu alrededor.",
-			"frFR": "Pendant la canalisation d'Incinération, vous brûlez les adversaires autour de vous en leur infligeant 15% des dégâts par seconde.",
-			"itIT": "Durante la canalizzazione di Incenerimento, mandi in fiamme i nemici circostanti, infliggendo il 15% dei danni ogni secondo.",
-			"jaJP": "〈インシネレート〉を使用している間、付近の敵を炎上させて毎秒15%のダメージを与える。",
-			"koKR": "소각에 정신을 집중하는 동안 주위의 적들을 불태워 초당 피해의 15%만큼 피해를 줍니다.",
-			"plPL": "Podczas podtrzymywania Spopielenia podpalasz wrogów wokół siebie i zadajesz im 15% obrażeń na sekundę.",
-			"ptBR": "Enquanto canaliza Incinerar, você queima inimigos ao seu redor, causando 15% do dano por segundo.",
-			"ruRU": "При поддержании \"Испепеления\" вы также опаляете противников вокруг себя, нанося 15% урона раз в сек.",
-			"trTR": "Yakmayı yönlendirirken etrafındaki düşmanları Yakarak saniye başına hasarın 15% kadarına eşit hasar verirsin.",
-			"zhCN": "在引导焚烧时, 你会燃烧附近的敌人, 每秒造成伤害, 相当于焚烧的 15%。",
-			"zhTW": "引導熾焚烈焰時,你會燃燒附近的敵人,每秒造成其傷害值的 15%。"
+			"deDE": "Während des Kanalisierens von Flammentod verbrennt Ihr Gegner um Euch herum und fügt ihnen 25% des Schadens pro Sekunde zu.",
+			"esES": "Mientras se canaliza Incinerar, quemas a los enemigos que te rodean e infliges un 25% del daño de la habilidad por segundo.",
+			"esMX": "Mientras canalizas Incinerar, infliges un 25% de daño de quemadura por segundo a los enemigos a tu alrededor.",
+			"frFR": "Pendant la canalisation d'Incinération, vous brûlez les adversaires autour de vous en leur infligeant 25% des dégâts par seconde.",
+			"itIT": "Durante la canalizzazione di Incenerimento, mandi in fiamme i nemici circostanti, infliggendo il 25% dei danni ogni secondo.",
+			"jaJP": "〈インシネレート〉を使用している間、付近の敵を炎上させて毎秒25%のダメージを与える。",
+			"koKR": "소각에 정신을 집중하는 동안 주위의 적들을 불태워 초당 피해의 25%만큼 피해를 줍니다.",
+			"plPL": "Podczas podtrzymywania Spopielenia podpalasz wrogów wokół siebie i zadajesz im 25% obrażeń na sekundę.",
+			"ptBR": "Enquanto canaliza Incinerar, você queima inimigos ao seu redor, causando 25% do dano por segundo.",
+			"ruRU": "При поддержании \"Испепеления\" вы также опаляете противников вокруг себя, нанося 25% урона раз в сек.",
+			"trTR": "Yakmayı yönlendirirken etrafındaki düşmanları Yakarak saniye başına hasarın 25% kadarına eşit hasar verirsin.",
+			"zhCN": "在引导焚烧时, 你会燃烧附近的敌人, 每秒造成伤害, 相当于焚烧的 25%。",
+			"zhTW": "引導熾焚烈焰時,你會燃燒附近的敵人,每秒造成其傷害值的 25%。"
 },
 		id: 25,
 		maxPoints: 1,
@@ -1145,7 +1145,7 @@ Every 18 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 	"Greater Incinerate": {
 		baseSkill: "Incinerate",
 		connections: [ "Enhanced Incinerate" ],
-		description: `Every 4 seconds an enemy has been hit by Incinerate, they are Immobilized for 1 seconds.`,
+		description: `Every 3 seconds an enemy has been hit by Incinerate, they are Immobilized for 1 seconds.`,
 		nameLocalized: {
 			"deDE": "Großer Flammentod",
 			"esES": "Incinerar superior",
@@ -1162,19 +1162,19 @@ Every 18 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"zhTW": "強效熾焚烈焰"
 },
 		descriptionLocalized: {
-			"deDE": "Alle 4 Sek., die ein Gegner von Flammentod getroffen wurde, wird er 1 Sek. lang bewegungsunfähig.",
-			"esES": "Por cada 4 s que ha pasado un enemigo afectado por Incinerar, queda inmovilizado durante 1 s.",
-			"esMX": "Por cada 4 segundos que un enemigo es golpeado por Incinerar, queda inmovilizado durante 1 segundos.",
-			"frFR": "Chaque fois qu'une cible est touchée par Incinération pendant 4 s, elle est immobilisée pendant 1 s.",
-			"itIT": "I nemici colpiti da Incenerimento ogni 4 s vengono immobilizzati per 1 s.",
-			"jaJP": "〈インシネレート〉が4秒間敵に命中するごとに、その敵が1秒間にわたり移動不能になる。",
-			"koKR": "적이 4초 동안 소각에 적중될 때마다 해당 적이 1초 동안 이동 불가 상태가 됩니다.",
-			"plPL": "Za każde 4 sek., które wróg spędził pod wpływem Spopielenia, zostaje on unieruchomiony na 1 sek.",
-			"ptBR": "A cada 4 segundos que um inimigo for atingido por Incinerar, ele é imobilizado por 1 segundos.",
-			"ruRU": "Пораженные противники, непрерывно получающие урон от \"Испепеления\", обездвиживаются на 1 сек. раз в 4 сек.",
-			"trTR": "Bir düşman Yakma ile vurulduğu her 4 saniyede 1 saniyeliğine Sabitlenir.",
-			"zhCN": "每隔 4 秒, 会有一名被焚烧命中的敌人被定身 1 秒。",
-			"zhTW": "熾焚烈焰每持續擊中敵人 4 秒,可使其定身 1 秒。"
+			"deDE": "Alle 3 Sek., die ein Gegner von Flammentod getroffen wurde, wird er 1 Sek. lang bewegungsunfähig.",
+			"esES": "Por cada 3 s que ha pasado un enemigo afectado por Incinerar, queda inmovilizado durante 1 s.",
+			"esMX": "Por cada 3 segundos que un enemigo es golpeado por Incinerar, queda inmovilizado durante 1 segundos.",
+			"frFR": "Chaque fois qu'une cible est touchée par Incinération pendant 3 s, elle est immobilisée pendant 1 s.",
+			"itIT": "I nemici colpiti da Incenerimento ogni 3 s vengono immobilizzati per 1 s.",
+			"jaJP": "〈インシネレート〉が3秒間敵に命中するごとに、その敵が1秒間にわたり移動不能になる。",
+			"koKR": "적이 3초 동안 소각에 적중될 때마다 해당 적이 1초 동안 이동 불가 상태가 됩니다.",
+			"plPL": "Za każde 3 sek., które wróg spędził pod wpływem Spopielenia, zostaje on unieruchomiony na 1 sek.",
+			"ptBR": "A cada 3 segundos que um inimigo for atingido por Incinerar, ele é imobilizado por 1 segundos.",
+			"ruRU": "Пораженные противники, непрерывно получающие урон от \"Испепеления\", обездвиживаются на 1 сек. раз в 3 сек.",
+			"trTR": "Bir düşman Yakma ile vurulduğu her 3 saniyede 1 saniyeliğine Sabitlenir.",
+			"zhCN": "每隔 3 秒, 会有一名被焚烧命中的敌人被定身 1 秒。",
+			"zhTW": "熾焚烈焰每持續擊中敵人 3 秒,可使其定身 1 秒。"
 },
 		id: 27,
 		maxPoints: 1,
@@ -1184,7 +1184,7 @@ Every 18 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 	"Fireball": {
 		connections: [ "Core", "Enhanced Fireball" ],
 		description: `Attack Speed Multiplier: 1.25
-Mana Cost: 40
+Mana Cost: 35
 Lucky Hit Chance: 33% (per hit)
 Hurl an exploding ball of fire, dealing {60/66/72/78/84/90/96/102/108/114}% damage to surrounding enemies.
 
@@ -1208,19 +1208,19 @@ When you kill an enemy, they explode in a Fireball for 50% of its damage.`,
 			"zhTW": "火球"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nManakosten: 40\nGlückstrefferchance: 33% (per hit)\nSchleudert einen explodierenden Feuerball, der Gegnern in der Nähe {60/66/72/78/84/90/96/102/108/114}% Schaden zufügt.\n\nTags: Kern, Pyromanie, Schaden, Feuer, Mana.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner tötet, explodiert dieser in einem Feuerball, der 50% des Schadens verursacht.",
-			"esES": "Attack Speed Multiplier: 1.25\nCoste de maná: 40\nProbabilidad de golpe de suerte: 33% (per hit)\nArrojas una bola de fuego explosiva que inflige {60/66/72/78/84/90/96/102/108/114}% de daño a los enemigos cercanos.\n\nTags: Principal, Piromancia, Daño, Fuego, Maná.\n\n— Enchantment Effect —\nCuando matas a un enemigo, explota y sufre un 50% del daño de Bola de fuego.",
-			"esMX": "Attack Speed Multiplier: 1.25\nCosto de maná: 40\nProbabilidad de golpe afortunado: 33% (per hit)\nLanzas una bola de fuego explosiva que inflige {60/66/72/78/84/90/96/102/108/114}% de daño a los enemigos circundantes.\n\nTags: Principal, Piromancia, Daño, Fuego, Maná.\n\n— Enchantment Effect —\nCuando eliminas a un enemigo, este explota en una Bola de Fuego que inflige un 50% de su daño.",
-			"frFR": "Attack Speed Multiplier: 1.25\nCoût en mana: 40\nChances d'obtenir un coup de chance: 33% (per hit)\nVous lancez une boule de feu explosive qui inflige {60/66/72/78/84/90/96/102/108/114}% points de dégâts aux adversaires à proximité.\n\nTags: Principale, Pyromancie, Dégâts, Feu, Mana.\n\n— Enchantment Effect —\nLorsque vous tuez une cible, celle-ci explose en une boule de feu qui inflige 50% de ses dégâts.",
-			"itIT": "Attack Speed Multiplier: 1.25\nCosto in mana: 40\nProbabilità di colpo fortunato: 33% (per hit)\nLanci una palla di fuoco esplosiva, infliggendo {60/66/72/78/84/90/96/102/108/114}% danni ai nemici circostanti.\n\nTags: Primaria, Piromanzia, Danni, Fuoco, Mana.\n\n— Enchantment Effect —\nQuando uccidi un nemico, esplode in una Palla di fuoco, subendo il 50% dei suoi danni.",
-			"jaJP": "Attack Speed Multiplier: 1.25\nマナ消費量: 40\n幸運の一撃発生率: 33% (per hit)\n爆発する〈火の玉〉を投げつけ、周囲の敵に {60/66/72/78/84/90/96/102/108/114}%のダメージを与える。\n\nTags: コア, 火術, ダメージ, 火炎, マナ.\n\n— Enchantment Effect —\n倒した敵が〈ファイアボール〉となって爆発し、そのダメージの50%を与える。",
-			"koKR": "Attack Speed Multiplier: 1.25\n소모: 마나 40\n행운의 적중 확률: 33% (per hit)\n폭발하는 불덩이를 날려 주위 적들에게 {60/66/72/78/84/90/96/102/108/114}%의 피해를 줍니다.\n\nTags: 핵심, 방화, 피해, 화염, 마나.\n\n— Enchantment Effect —\n처치한 적이 화염구 속에서 폭발하여 화염구 피해의 50%만큼 피해를 줍니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 40 pkt. many\nSzansa na szczęśliwy traf: 33% (per hit)\nCiskasz wybuchową kulą ognia, która zadaje {60/66/72/78/84/90/96/102/108/114}% pkt. obrażeń pobliskim wrogom.\n\nTags: Główne, Piromancja, Obrażenia, Ogień, Mana.\n\n— Enchantment Effect —\nKiedy zabijasz wroga, wybucha on w postaci Kuli Ognia, która zadaje równowartość 50% obrażeń od tej umiejętności.",
-			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de mana: 40\nChance de Golpe de Sorte: 33% (per hit)\nArremessa uma bola de fogo explosiva, causando {60/66/72/78/84/90/96/102/108/114}% de dano a inimigos ao redor.\n\nTags: Principal, Piromancia, Dano, Fogo, Mana.\n\n— Enchantment Effect —\nQuando você mata um inimigo, ele explode em uma Bola de Fogo, causando 50% do dano.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты маны: 40 ед.\nВероятность удачного удара: 33% (per hit)\nВы бросаете взрывающийся огненный шар, который наносит {60/66/72/78/84/90/96/102/108/114}% ед. урона окружающим противникам.\n\nTags: Основное, Пиромантия, Урон, Огонь, Мана.\n\n— Enchantment Effect —\nУбитые вами противники взрываются \"Огненными шарами\", наносящими 50% обычного урона.",
-			"trTR": "Attack Speed Multiplier: 1.25\nMana Bedeli: 40\nŞanslı Vuruş İhtimali: 33% (per hit)\nEtraftaki düşmanlara {60/66/72/78/84/90/96/102/108/114}% hasar veren patlayıcı bir Ateş Topu fırlat.\n\nTags: Çekirdek, Alev Büyüsü, Hasar, Ateş, Mana.\n\n— Enchantment Effect —\nBir düşmanı öldürdüğünde düşman bir Ateş Topu şeklinde patlayarak hasarının 50% kadarına eşit hasar verir.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n法力消耗: 40\n幸运一击几率: 33% (per hit)\n施放一团会爆炸的火焰, 对周围的敌人造成 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力.\n\n— Enchantment Effect —\n当你消灭一名敌人时会使其爆炸成 火球, 造成伤害为火球初始伤害的 50%",
-			"zhTW": "Attack Speed Multiplier: 1.25\n法力消耗:40\n幸運觸發機率: 33% (per hit)\n投擲會爆炸的火球,對附近敵人造成 {60/66/72/78/84/90/96/102/108/114}% 點傷害。\n\nTags: 核心, 焰術, 傷害, 火焰, 法力.\n\n— Enchantment Effect —\n當你殺死敵人時,敵人會產生火球爆炸,造成其傷害的 50%。"
+			"deDE": "Attack Speed Multiplier: 1.25\nManakosten: 35\nGlückstrefferchance: 33% (per hit)\nSchleudert einen explodierenden Feuerball, der Gegnern in der Nähe {60/66/72/78/84/90/96/102/108/114}% Schaden zufügt.\n\nTags: Kern, Pyromanie, Schaden, Feuer, Mana.\n\n— Enchantment Effect —\nWenn Ihr einen Gegner tötet, explodiert dieser in einem Feuerball, der 50% des Schadens verursacht.",
+			"esES": "Attack Speed Multiplier: 1.25\nCoste de maná: 35\nProbabilidad de golpe de suerte: 33% (per hit)\nArrojas una bola de fuego explosiva que inflige {60/66/72/78/84/90/96/102/108/114}% de daño a los enemigos cercanos.\n\nTags: Principal, Piromancia, Daño, Fuego, Maná.\n\n— Enchantment Effect —\nCuando matas a un enemigo, explota y sufre un 50% del daño de Bola de fuego.",
+			"esMX": "Attack Speed Multiplier: 1.25\nCosto de maná: 35\nProbabilidad de golpe afortunado: 33% (per hit)\nLanzas una bola de fuego explosiva que inflige {60/66/72/78/84/90/96/102/108/114}% de daño a los enemigos circundantes.\n\nTags: Principal, Piromancia, Daño, Fuego, Maná.\n\n— Enchantment Effect —\nCuando eliminas a un enemigo, este explota en una Bola de Fuego que inflige un 50% de su daño.",
+			"frFR": "Attack Speed Multiplier: 1.25\nCoût en mana: 35\nChances d'obtenir un coup de chance: 33% (per hit)\nVous lancez une boule de feu explosive qui inflige {60/66/72/78/84/90/96/102/108/114}% points de dégâts aux adversaires à proximité.\n\nTags: Principale, Pyromancie, Dégâts, Feu, Mana.\n\n— Enchantment Effect —\nLorsque vous tuez une cible, celle-ci explose en une boule de feu qui inflige 50% de ses dégâts.",
+			"itIT": "Attack Speed Multiplier: 1.25\nCosto in mana: 35\nProbabilità di colpo fortunato: 33% (per hit)\nLanci una palla di fuoco esplosiva, infliggendo {60/66/72/78/84/90/96/102/108/114}% danni ai nemici circostanti.\n\nTags: Primaria, Piromanzia, Danni, Fuoco, Mana.\n\n— Enchantment Effect —\nQuando uccidi un nemico, esplode in una Palla di fuoco, subendo il 50% dei suoi danni.",
+			"jaJP": "Attack Speed Multiplier: 1.25\nマナ消費量: 35\n幸運の一撃発生率: 33% (per hit)\n爆発する〈火の玉〉を投げつけ、周囲の敵に {60/66/72/78/84/90/96/102/108/114}%のダメージを与える。\n\nTags: コア, 火術, ダメージ, 火炎, マナ.\n\n— Enchantment Effect —\n倒した敵が〈ファイアボール〉となって爆発し、そのダメージの50%を与える。",
+			"koKR": "Attack Speed Multiplier: 1.25\n소모: 마나 35\n행운의 적중 확률: 33% (per hit)\n폭발하는 불덩이를 날려 주위 적들에게 {60/66/72/78/84/90/96/102/108/114}%의 피해를 줍니다.\n\nTags: 핵심, 방화, 피해, 화염, 마나.\n\n— Enchantment Effect —\n처치한 적이 화염구 속에서 폭발하여 화염구 피해의 50%만큼 피해를 줍니다.",
+			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 35 pkt. many\nSzansa na szczęśliwy traf: 33% (per hit)\nCiskasz wybuchową kulą ognia, która zadaje {60/66/72/78/84/90/96/102/108/114}% pkt. obrażeń pobliskim wrogom.\n\nTags: Główne, Piromancja, Obrażenia, Ogień, Mana.\n\n— Enchantment Effect —\nKiedy zabijasz wroga, wybucha on w postaci Kuli Ognia, która zadaje równowartość 50% obrażeń od tej umiejętności.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de mana: 35\nChance de Golpe de Sorte: 33% (per hit)\nArremessa uma bola de fogo explosiva, causando {60/66/72/78/84/90/96/102/108/114}% de dano a inimigos ao redor.\n\nTags: Principal, Piromancia, Dano, Fogo, Mana.\n\n— Enchantment Effect —\nQuando você mata um inimigo, ele explode em uma Bola de Fogo, causando 50% do dano.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты маны: 35 ед.\nВероятность удачного удара: 33% (per hit)\nВы бросаете взрывающийся огненный шар, который наносит {60/66/72/78/84/90/96/102/108/114}% ед. урона окружающим противникам.\n\nTags: Основное, Пиромантия, Урон, Огонь, Мана.\n\n— Enchantment Effect —\nУбитые вами противники взрываются \"Огненными шарами\", наносящими 50% обычного урона.",
+			"trTR": "Attack Speed Multiplier: 1.25\nMana Bedeli: 35\nŞanslı Vuruş İhtimali: 33% (per hit)\nEtraftaki düşmanlara {60/66/72/78/84/90/96/102/108/114}% hasar veren patlayıcı bir Ateş Topu fırlat.\n\nTags: Çekirdek, Alev Büyüsü, Hasar, Ateş, Mana.\n\n— Enchantment Effect —\nBir düşmanı öldürdüğünde düşman bir Ateş Topu şeklinde patlayarak hasarının 50% kadarına eşit hasar verir.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n法力消耗: 35\n幸运一击几率: 33% (per hit)\n施放一团会爆炸的火焰, 对周围的敌人造成 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\nTags: 核心, 爆焰, 伤害, 火焰, 法力.\n\n— Enchantment Effect —\n当你消灭一名敌人时会使其爆炸成 火球, 造成伤害为火球初始伤害的 50%",
+			"zhTW": "Attack Speed Multiplier: 1.25\n法力消耗:35\n幸運觸發機率: 33% (per hit)\n投擲會爆炸的火球,對附近敵人造成 {60/66/72/78/84/90/96/102/108/114}% 點傷害。\n\nTags: 核心, 焰術, 傷害, 火焰, 法力.\n\n— Enchantment Effect —\n當你殺死敵人時,敵人會產生火球爆炸,造成其傷害的 50%。"
 },
 		id: 28,
 		maxPoints: 5,
@@ -1377,7 +1377,7 @@ Chain Lightning forms automatically after spending 100 Mana.`,
 			"itIT": "Costo in mana: 35\nProbabilità di colpo fortunato: 25% (per hit)\nScatena un flusso di fulmini che infligge {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% danni e rimbalza tra te e i nemici vicini fino a 5 volte, dando la priorità ai nemici.\n\nTags: Primaria, Folgore, Danni, Fulmine, Mana.\n\n— Enchantment Effect —\nCatena di Fulmini si genera automaticamente dopo aver consumato 100 mana.",
 			"jaJP": "マナ消費量: 35\n幸運の一撃発生率: 25% (per hit)\n稲妻の激流を解き放ち、{36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%のダメージを与える。また、敵に優先順位をつけながら付近の敵と自分の間で最大5回まで連鎖する。\n\nTags: コア, 電撃, ダメージ, マナ.\n\n— Enchantment Effect —\nマナを100消費した後、自動的に〈チェインライトニング〉が発動する。",
 			"koKR": "소모: 마나 35\n행운의 적중 확률: 25% (per hit)\n번개 줄기를 방출하여 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%의 피해를 주고 근처의 적과 자신을 최대 5번까지 연쇄 가격합니다. 적을 우선 공격합니다.\n\nTags: 핵심, 감전, 피해, 번개, 마나.\n\n— Enchantment Effect —\n마나를 100 소모하면 연쇄 번개가 자동으로 생겨납니다.",
-			"plPL": "Koszt: 35 pkt. many\nSzansa na szczęśliwy traf: 25% (per hit)\nWyzwalasz strumień błyskawic, który zadaje {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń i przeskakuje pomiędzy pobliskimi wrogami a tobą do 5 razy, koncentrując się na wrogach.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawica, Mana.\n\n— Enchantment Effect —\nSeryjne Błyskawice tworzą się automatycznie po zużyciu 100 pkt. many.",
+			"plPL": "Koszt: 35 pkt. many\nSzansa na szczęśliwy traf: 25% (per hit)\nWyzwalasz strumień błyskawic, który zadaje {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń i przeskakuje pomiędzy pobliskimi wrogami a tobą do 5 razy, koncentrując się na wrogach.\n\nTags: Główne, Porażenie, Obrażenia, Błyskawice, Mana.\n\n— Enchantment Effect —\nSeryjne Błyskawice tworzą się automatycznie po zużyciu 100 pkt. many.",
 			"ptBR": "Custo de mana: 35\nChance de Golpe de Sorte: 25% (per hit)\nLibera uma torrente de raios que causa {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano e ricocheteia entre inimigos próximos e você até 5 vezes, priorizando inimigos.\n\nTags: Principal, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nCadeia de Raios forma-se automaticamente depois de gastar 100 de mana.",
 			"ruRU": "Затраты маны: 35 ед.\nВероятность удачного удара: 25% (per hit)\nВы выпускаете поток молний, наносящий {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона и перескакивающий между вами и ближайшими противниками до 5 раз, в первую очередь выбирая противников.\n\nTags: Основное, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\n\"Цепная молния\" срабатывает автоматически, когда вы расходуете 100 ед. маны.",
 			"trTR": "Mana Bedeli: 35\nŞanslı Vuruş İhtimali: 25% (per hit)\n{36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% hasar veren ve Yakın düşmanlarla senin aranda en fazla 5 kez seken bir şimşek akışı fırlat. Düşmanlara öncelik verir.\n\nTags: Çekirdek, Şok, Hasar, Yıldırım, Mana.\n\n— Enchantment Effect —\n100 Mana harcadıktan sonra otomatik olarak Zincirleme Yıldırım oluşur.",
@@ -1544,7 +1544,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de mana: {#}\nChance de Golpe de Sorte: 16% (per hit)\nLança 5 estilhaços que causam {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano cada um. Causa 25% de dano aumentado a inimigos congelados.\n\nTags: Principal, Geleira, Congelado, Dano, Gelo, Mana.\n\n— Enchantment Effect —\nEstilhaços de Gelo são conjurados automaticamente e voam na direção dos inimigos congelados.",
 			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты маны: {#} ед.\nВероятность удачного удара: 16% (per hit)\nВы выпускаете 5 осколка:осколков, каждый из которых наносит {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона. \"Осколки льда\" наносят на x25% больше урона замороженным противникам.\n\nTags: Основное, Мороз, Заморозка, Урон, Холод, Мана.\n\n— Enchantment Effect —\n\"Осколки льда\" создаются автоматически и поражают замороженных противников.",
 			"trTR": "Attack Speed Multiplier: 1.25\nMana Bedeli: {#}\nŞanslı Vuruş İhtimali: 16% (per hit)\nHer biri {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% hasar veren 5 parça fırlat. Donmuş düşmanlara x25% artırılmış hasar verir.\n\nTags: Çekirdek, Soğuk, Donuk, Hasar, Mana.\n\n— Enchantment Effect —\nBuz Parçaları otomatik olarak çağrılır ve Donmuş düşmanlara doğru uçar.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n法力消耗: {#}\n幸运一击几率: 16% (per hit)\n射出 5 枚冰片, 每枚造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。对冻结的敌人造成的伤害提高 x25%。\n\nTags: 核心, 寒霜, 冻结, 伤害, 冰霜, 法力.\n\n— Enchantment Effect —\n自动召唤寒冰碎片, 并使其飞向冻结的敌人。",
+			"zhCN": "Attack Speed Multiplier: 1.25\n法力消耗: {#}\n幸运一击几率: 16% (per hit)\n射出 5 枚冰片, 每枚造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。对冻结的敌人造成的伤害提高 x25%。\n\nTags: 核心, 寒霜, 冻结, 伤害, 寒冰, 法力.\n\n— Enchantment Effect —\n自动召唤寒冰碎片, 并使其飞向冻结的敌人。",
 			"zhTW": "Attack Speed Multiplier: 1.25\n法力消耗:{#}\n幸運觸發機率: 16% (per hit)\n發射 5 個裂片,每個裂片造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。對凍結敵人造成的傷害提高 x25%。\n\nTags: 核心, 冰霜, 凍結, 傷害, 冰寒, 法力.\n\n— Enchantment Effect —\n自動呼喚寒冰裂片飛向凍結的敵人。"
 },
 		id: 36,
@@ -1623,7 +1623,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 			"ptBR": "Enquanto você tiver uma barreira ativa, lançamentos de Estilhaços de Gelo tratam inimigos como se eles estivessem congelados.",
 			"ruRU": "Пока действует барьер, \"Осколки льда\" действуют на противников так, будто они заморожены.",
 			"trTR": "Bir Bariyer etkinken Buz Parçaları kullanımı, düşmanlarla onlar Donmuş gibi etkileşime girer.",
-			"zhCN": "当你有激活的屏障时, 寒冰碎片可以将敌人视作冻结状态。",
+			"zhCN": "你有激活的屏障时, 寒冰碎片可以将敌人视作冻结状态。",
 			"zhTW": "當你擁有屏障時,施放的寒冰裂片會視同敵人已遭到凍結。"
 },
 		id: 38,
@@ -1979,7 +1979,7 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"ptBR": "Nova Gélida",
 			"ruRU": "Кольцо льда",
 			"trTR": "Buz Novası",
-			"zhCN": "冰霜新星",
+			"zhCN": "寒霜新星",
 			"zhTW": "冰霜新星"
 },
 		descriptionLocalized: {
@@ -1994,7 +1994,7 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"ptBR": "Recarga: {24/22.8/21.6/20.64/19.68/18.96/18.24/17.76/17.28/16.8/16.32/15.84/15.6/15.36/15.12/14.88/14.76/14.64/14.52/14.4} segundos\n\nLibera uma torrente de gelo, congelando inimigos ao seu redor por 3 segundos.\n\nTags: Defesa, Geleira, Congelado, Controle de Grupo, Recarga.\n\n— Enchantment Effect —\nGolpe de Sorte: Suas habilidades de Conjuração têm até 30% de chance de lançar uma Nova Gélida ao atingir inimigos.",
 			"ruRU": "Время восстановления: {24/22.8/21.6/20.64/19.68/18.96/18.24/17.76/17.28/16.8/16.32/15.84/15.6/15.36/15.12/14.88/14.76/14.64/14.52/14.4} сек.\n\nВы выпускаете поток холода, замораживающий находящихся вокруг противников на 3 сек.\n\nTags: Защита, Мороз, Заморозка, Контроль, Время восстановления.\n\n— Enchantment Effect —\nУдачный удар: когда умения категории \"Колдовство\" поражают противников, с вероятностью до 30% срабатывает \"Кольцо льда\".",
 			"trTR": "Bekleme Süresi: {24/22.8/21.6/20.64/19.68/18.96/18.24/17.76/17.28/16.8/16.32/15.84/15.6/15.36/15.12/14.88/14.76/14.64/14.52/14.4} saniye\n\nBir buz sağanağı fırlatarak etrafındaki düşmanları 3 saniyeliğine Dondur.\n\nTags: Savunma, Soğuk, Donuk, Kitle Kontrolü, Bekleme Süresi.\n\n— Enchantment Effect —\nŞanslı Vuruş: Büyü Yeteneklerin düşmanlara vururken en fazla 30% ihtimalle bir Buz Novası fırlatır.",
-			"zhCN": "冷却时间: {24/22.8/21.6/20.64/19.68/18.96/18.24/17.76/17.28/16.8/16.32/15.84/15.6/15.36/15.12/14.88/14.76/14.64/14.52/14.4} 秒\n\n释放一股冰霜洪流, 冻结周围的敌人, 持续 3 秒。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间.\n\n— Enchantment Effect —\n幸运一击: 你的召唤魔法技能在命中敌人时最多有 30% 几率释放一次冰霜新星。",
+			"zhCN": "冷却时间: {24/22.8/21.6/20.64/19.68/18.96/18.24/17.76/17.28/16.8/16.32/15.84/15.6/15.36/15.12/14.88/14.76/14.64/14.52/14.4} 秒\n\n释放一股寒霜洪流, 冻结周围的敌人, 持续 3 秒。\n\nTags: 防御, 寒霜, 冻结, 群控, 冷却时间.\n\n— Enchantment Effect —\n幸运一击: 你的召唤魔法技能在命中敌人时最多有 30% 几率释放一次寒霜新星。",
 			"zhTW": "冷卻時間:{24/22.8/21.6/20.64/19.68/18.96/18.24/17.76/17.28/16.8/16.32/15.84/15.6/15.36/15.12/14.88/14.76/14.64/14.52/14.4} 秒\n\n散發一股強烈的冰霜能量,凍結附近的敵人,持續 3 秒。\n\nTags: 防禦, 冰霜, 凍結, 控場, 冷卻時間.\n\n— Enchantment Effect —\n幸運觸發:你的咒喚技能擊中敵人時,有最多 30% 的機率釋放冰霜新星。"
 },
 		id: 47,
@@ -2018,7 +2018,7 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"ptBR": "Nova Gélida Aperfeiçoada",
 			"ruRU": "Усиленное кольцо льда",
 			"trTR": "Geliştirilmiş Buz Novası",
-			"zhCN": "强化冰霜新星",
+			"zhCN": "强化寒霜新星",
 			"zhTW": "強化冰霜新星"
 },
 		descriptionLocalized: {
@@ -2033,7 +2033,7 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"ptBR": "Matar inimigos congelados por Nova Gélida reduz a recarga em 1 segundos, até 4 segundos por lançamento.",
 			"ruRU": "Когда вы убиваете противников, замороженных \"Кольцом льда\", время восстановления умения сокращается на 1 сек. вплоть до 4 сек. за применение.",
 			"trTR": "Buz Novasının Dondurduğu düşmanları öldürmek, Bekleme Süresini kullanım başına 1 saniye azaltır. Bekleme Süresi azaltması en fazla 4 saniye olabilir.",
-			"zhCN": "消灭被冰霜新星冻结的敌人会使其冷却时间缩短 1 秒, 每次施放最多缩短 4 秒。",
+			"zhCN": "消灭被寒霜新星冻结的敌人会使其冷却时间缩短 1 秒, 每次施放最多缩短 4 秒。",
 			"zhTW": "擊殺被冰霜新星凍結的敵人時,會使其冷卻時間縮短 1 秒,每次施法最多縮短 4 秒。"
 },
 		id: 48,
@@ -2057,7 +2057,7 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"ptBR": "Nova Gélida Mística",
 			"ruRU": "Таинственное кольцо льда",
 			"trTR": "Mistik Buz Novası",
-			"zhCN": "神秘冰霜新星",
+			"zhCN": "神秘寒霜新星",
 			"zhTW": "神秘冰霜新星"
 },
 		descriptionLocalized: {
@@ -2072,7 +2072,7 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"ptBR": "Nova Gélida torna os inimigos vulneráveis por 4 segundos. A duração é aumentada para 6 segundos contra chefes.",
 			"ruRU": "\"Кольцо льда\" делает противников уязвимыми на 4 сек. Действие эффекта продлевается до 6 сек., если цель является боссом.",
 			"trTR": "Buz Novası düşmanları 4 saniyeliğine Savunmasız hâle getirir. Bu değer Patronlara karşı artarak 6 saniye olur.",
-			"zhCN": "冰霜新星会使敌人陷入易伤状态, 持续 4 秒。对首领提高至 6 秒。",
+			"zhCN": "寒霜新星会使敌人陷入易伤状态, 持续 4 秒。对首领提高至 6 秒。",
 			"zhTW": "冰霜新星會對敵人造成易傷,持續 4 秒。對首領持續時間提高為 6 秒。"
 },
 		id: 49,
@@ -2096,7 +2096,7 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"ptBR": "Nova Gélida Reluzente",
 			"ruRU": "Переливчатое кольцо льда",
 			"trTR": "Işıltılı Buz Novası",
-			"zhCN": "微光冰霜新星",
+			"zhCN": "微光寒霜新星",
 			"zhTW": "閃耀冰霜新星"
 },
 		descriptionLocalized: {
@@ -2111,7 +2111,7 @@ Lucky Hit: Your Conjuration Skills have up to a 30% chance to unleash a Frost No
 			"ptBR": "Nova Gélida gera 4 de mana por inimigo atingido.",
 			"ruRU": "\"Кольцо льда\" дает 4 ед. маны за каждого пораженного противника.",
 			"trTR": "Buz Novası vurulan düşman başına 4 Mana üretir.",
-			"zhCN": "冰霜新星每命中一名敌人, 都会生成 4 点法力。",
+			"zhCN": "寒霜新星每命中一名敌人, 都会生成 4 点法力。",
 			"zhTW": "冰霜新星每擊中一個敵人,會產生 4 點法力。"
 },
 		id: 50,
@@ -2314,7 +2314,7 @@ Evade is replaced with a short range Teleport on a {17/16.15/15.3/14.62/13.94/13
 			"itIT": "Attack Speed Multiplier: 1.25\nTempo di recupero: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} s\nProbabilità di colpo fortunato: 65% (per hit)\nTi trasformi in un fulmine, diventando inarrestabile e comparendo sulla posizione bersaglio per infliggere {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% danni attorno a te all'arrivo.\n\nTags: Difesa, Folgore, Danni, Fulmine, Tempo di recupero, Inarrestabile.\n\n— Enchantment Effect —\nElusione viene sostituita da Teletrasporto a corto raggio con un tempo di recupero di {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} s.",
 			"jaJP": "Attack Speed Multiplier: 1.25\nクールダウン: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6}秒\n幸運の一撃発生率: 65% (per hit)\n稲妻に姿を変え、抑圧不可状態になって目標地点に高速移動し、到達時に周囲に{25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%のダメージを与える。\n\nTags: 防御, 電撃, ダメージ, クールダウン, 抑圧不可.\n\n— Enchantment Effect —\n回避が{17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2}秒のクールダウンで短距離の〈テレポート〉と入れ替わる。",
 			"koKR": "Attack Speed Multiplier: 1.25\n재사용 대기시간: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6}초\n행운의 적중 확률: 65% (per hit)\n번개로 변하여 저지 불가 상태가 되고 대상 지점으로 쇄도하며, 도착 시 주위에 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%의 피해를 줍니다.\n\nTags: 방어, 감전, 피해, 번개, 재사용 대기시간, 저지 불가.\n\n— Enchantment Effect —\n피하기가 재사용 대기시간 {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2}초의 단거리 순간이동으로 대체됩니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nCzas odnowienia: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} sek.\nSzansa na szczęśliwy traf: 65% (per hit)\nPrzemieniasz się w błyskawicę, zyskujesz nieustępliwość i doskakujesz we wskazane miejsce, po czym zadajesz tam wokół siebie {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń.\n\nTags: Defensywa, Porażenie, Obrażenia, Błyskawica, Odnowienie, Nieustępliwość.\n\n— Enchantment Effect —\nOdskok zostaje zastąpiony Teleportacją na niewielką odległość, któej czas odnowienia wynosi {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} sek.",
+			"plPL": "Attack Speed Multiplier: 1.25\nCzas odnowienia: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} sek.\nSzansa na szczęśliwy traf: 65% (per hit)\nPrzemieniasz się w błyskawicę, zyskujesz nieustępliwość i doskakujesz we wskazane miejsce, po czym zadajesz tam wokół siebie {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń.\n\nTags: Defensywa, Porażenie, Obrażenia, Błyskawice, Odnowienie, Nieustępliwość.\n\n— Enchantment Effect —\nOdskok zostaje zastąpiony Teleportacją na niewielką odległość, któej czas odnowienia wynosi {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} sek.",
 			"ptBR": "Attack Speed Multiplier: 1.25\nRecarga: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} segundos\nChance de Golpe de Sorte: 65% (per hit)\nTransforma-se em um raio, tornando-se implacável, avançando até o local selecionado e causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano ao seu redor ao chegar.\n\nTags: Defesa, Choque, Dano, Eletricidade, Recarga, Implacável.\n\n— Enchantment Effect —\nEvadir é substituída por Teleporte de curto alcance com uma recarga de {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} segundos.",
 			"ruRU": "Attack Speed Multiplier: 1.25\nВремя восстановления: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} сек.\nВероятность удачного удара: 65% (per hit)\nВы превращаетесь в поток электричества, получаете неудержимость, устремляетесь в указанную область и по прибытии наносите {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона целям вокруг себя.\n\nTags: Защита, Шок, Урон, Молния, Время восстановления, Неудержимость.\n\n— Enchantment Effect —\n\"Ускользание\" заменяется \"Телепортацией\" с малым радиусом действия и временем восстановления {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} сек.",
 			"trTR": "Attack Speed Multiplier: 1.25\nBekleme Süresi: {11/10.45/9.9/9.46/9.02/8.69/8.36/8.14/7.92/7.7/7.48/7.26/7.15/7.04/6.93/6.82/6.765/6.71/6.655/6.6} saniye\nŞanslı Vuruş İhtimali: 65% (per hit)\nŞimşeğe dönüşerek Durdurulamaz ol ve hedef konuma giderek vardığında etrafına {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% hasar ver.\n\nTags: Savunma, Şok, Hasar, Yıldırım, Bekleme Süresi, Durdurulamaz.\n\n— Enchantment Effect —\nKaçın, {17/16.15/15.3/14.62/13.94/13.43/12.92/12.58/12.24/11.9/11.56/11.22/11.05/10.88/10.71/10.54/10.455/10.37/10.285/10.2} saniye Bekleme Süresi bulunan kısa menzilli bir Işınlan ile değiştirilir.",
@@ -2694,7 +2694,7 @@ After spending 300 Mana, a 5-headed Hydra spawns for 5 seconds.`,
 		connections: [ "Conjuration", "Enhanced Ice Blades" ],
 		description: `Cooldown: 16 seconds
 Lucky Hit Chance: 70.801% (per use)
-Conjure a pair of ice blades for 6 seconds that rapidly slash enemies for {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and have a 30% chance to make them Vulnerable for 2 seconds.
+Conjure a pair of ice blades for 6 seconds that rapidly slash enemies for {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% damage and have a 40% chance to make them Vulnerable for 2 seconds.
 
 Tags: Conjuration, Frost, Vulnerable, Damage, Cold, Cooldown.
 
@@ -2716,19 +2716,19 @@ For every 40 seconds in Cooldowns you spend, you spawn an Ice Blades on a random
 			"zhTW": "寒冰之刃"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 16 Sek.\nGlückstrefferchance: 70.801% (per use)\nBeschwört 6 Sek. lang Klingen aus Eis, die Gegner blitzschnell aufschlitzen, dabei {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% Schaden verursachen und über eine Chance von 30% verfügen, sie 2 Sek. lang verwundbar zu machen.\n\nTags: Beschwörung, Frost, Verwundbar, Schaden, Kälte, Abklingzeit.\n\n— Enchantment Effect —\nFür alle 40 Sek. Abklingzeit, die Ihr verbraucht, erschafft Ihr Eisklingen auf einem zufälligen Gegner.",
-			"esES": "Tiempo de reutilización: 16 s\nProbabilidad de golpe de suerte: 70.801% (per use)\nCreas durante 6 s un par de hojas de hielo que atacan rápidamente a los enemigos, les infligen {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de daño y tienen un 30% de probabilidad de volverlos vulnerables durante 2 s.\n\nTags: Evocación, Escarcha, Vulnerable, Daño, Frío, Tiempo de reutilización.\n\n— Enchantment Effect —\nPor cada 40 s que pasas en tiempo de reutilización, se genera unas Hojas de hielo sobre un enemigo aleatorio.",
-			"esMX": "Recuperación: 16 segundos\nProbabilidad de golpe afortunado: 70.801% (per use)\nConjuras un par de cuchillas gélidas durante 6 segundos que acuchillan rápidamente a los enemigos, les infligen {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de daño y tienen un 30% de probabilidad de volverlos vulnerables durante 2 segundos.\n\nTags: Conjuración, Hielo, Vulnerable, Daño, Frío, Recuperación.\n\n— Enchantment Effect —\nPor cada 40 segundos de habilidades con recuperación que gastas, generas unas Cuchillas Gélidas en un enemigo al azar.",
-			"frFR": "Temps de recharge: 16 s\nChances d'obtenir un coup de chance: 70.801% (per use)\nVous invoquez deux lames de glace pendant 6 s qui lacèrent rapidement les adversaires, ce qui leur inflige {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% points de dégâts et a 30% de chances de les rendre vulnérables pendant 2 s.\n\nTags: Conjuration, Givre, Vulnérable, Dégâts, Froid, Temps de recharge.\n\n— Enchantment Effect —\nPour chaque tranche de 40 s passée en temps de recharge, vous lancez des lames de glace sur une cible aléatoire.",
-			"itIT": "Tempo di recupero: 16 s\nProbabilità di colpo fortunato: 70.801% (per use)\nInvochi due lame di ghiaccio per 6 s che rapidamente feriscono i nemici, infliggendo {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% danni, e hanno una probabilità del 30% di renderli vulnerabili per 2 s.\n\nTags: Invocazione, Gelo, Vulnerabilità, Danni, Freddo, Tempo di recupero.\n\n— Enchantment Effect —\nOgni 40 s trascorsi con abilità in fase di recupero, lanci Lame di Ghiaccio su un nemico a caso.",
-			"jaJP": "クールダウン: 16秒\n幸運の一撃発生率: 70.801% (per use)\n一組の氷の刃を6秒間呼び出して敵を素早く斬りつけ、{23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%のダメージを与える。また、その敵を30%の確率で2秒間にわたり脆弱状態にする。\n\nTags: 召喚, 凍結, 脆弱, ダメージ, 冷気, クールダウン.\n\n— Enchantment Effect —\nクールダウン中に40秒経過するごとに、ランダムな敵に対して〈アイスブレイド〉を生み出す。",
-			"koKR": "재사용 대기시간: 16초\n행운의 적중 확률: 70.801% (per use)\n6초 동안 얼음 칼날 한 쌍을 구현하고 빠르게 적을 베어 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%의 피해를 주고, 30% 확률로 2초 동안 대상을 취약하게 만듭니다.\n\nTags: 구현, 서리, 취약, 피해, 냉기, 재사용 대기시간.\n\n— Enchantment Effect —\n재사용 대기시간이 있는 기술을 40초 사용할 때마다 무작위 적의 위치에 얼음 칼날을 생성합니다.",
-			"plPL": "Czas odnowienia: 16 sek.\nSzansa na szczęśliwy traf: 70.801% (per use)\nNa 6 sek. przyzywasz dwa lodowe ostrza, które szybko sieką przeciwników, zadając im {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% pkt. obrażeń i mają 30% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Przyzywanie, Lód, Odsłonięcie, Obrażenia, Zimno, Odnowienie.\n\n— Enchantment Effect —\nZa każde wykorzystane przez ciebie 40 sek. czasu odnowienia rzucasz Lodowe Ostrza na losowego wroga.",
-			"ptBR": "Recarga: 16 segundos\nChance de Golpe de Sorte: 70.801% (per use)\nConjura lâminas de gelo por 6 segundos que cortam os inimigos rapidamente, causando {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de dano, e têm 30% de chance de torná-los vulneráveis por 2 segundos.\n\nTags: Conjuração, Geleira, Vulnerável, Dano, Gelo, Recarga.\n\n— Enchantment Effect —\nPara cada 40 segundos em recargas que gastar, você gera Lâminas de Gelo em um inimigo aleatório.",
-			"ruRU": "Время восстановления: 16 сек.\nВероятность удачного удара: 70.801% (per use)\nВы на 6 сек. создаете два ледяных клинка, которые стремительно атакуют противников, нанося им {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% ед. урона и с вероятностью 30% делая их уязвимыми на 2 сек.\n\nTags: Колдовство, Мороз, Уязвимость, Урон, Холод, Время восстановления.\n\n— Enchantment Effect —\nКогда у вас восстанавливаются умения, вы раз в 40 сек. призываете ледяные клинки, атакующие случайного противника.",
-			"trTR": "Bekleme Süresi: 16 saniye\nŞanslı Vuruş İhtimali: 70.801% (per use)\n6 saniye boyunca düşmanları hızlıca keserek {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% hasar veren ve 30% ihtimalle düşmanları 2 saniyeliğine Savunmasız hâle getiren bir çift buz kılıcı çağır.\n\nTags: Büyü, Soğuk, Savunmasız, Hasar, Bekleme Süresi.\n\n— Enchantment Effect —\nBekleme Sürelerinde harcadığın her 40 saniyede bir kez rastgele bir düşmanın üzerinde Buz Kılıçları oluşturursun.",
-			"zhCN": "冷却时间: 16 秒\n幸运一击几率: 70.801 (per use) %\n召唤一对存在 6 秒的冰刃, 迅速劈砍敌人, 造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害并有 30% 几率使其陷入易伤状态, 持续 2 秒。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 冰霜, 冷却时间.\n\n— Enchantment Effect —\n每度过 40 秒的冷却时间, 你就会对随机敌人召唤一把冰刃。",
-			"zhTW": "冷卻時間:16 秒\n幸運觸發機率:70.801% (per use)\n呼喚一對持續 6 秒的寒冰之刃,它們會快速斬擊敵人,造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 點傷害,並有 30% 機率對敵人造成易傷 2 秒。\n\nTags: 咒喚, 冰霜, 易傷, 傷害, 冰寒, 冷卻時間.\n\n— Enchantment Effect —\n你每觸發 40 秒冷卻時間,就會對一名隨機敵人生成寒冰之刃。"
+			"deDE": "Abklingzeit: 16 Sek.\nGlückstrefferchance: 70.801% (per use)\nBeschwört 6 Sek. lang Klingen aus Eis, die Gegner blitzschnell aufschlitzen, dabei {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% Schaden verursachen und über eine Chance von 40% verfügen, sie 2 Sek. lang verwundbar zu machen.\n\nTags: Beschwörung, Frost, Verwundbar, Schaden, Kälte, Abklingzeit.\n\n— Enchantment Effect —\nFür alle 40 Sek. Abklingzeit, die Ihr verbraucht, erschafft Ihr Eisklingen auf einem zufälligen Gegner.",
+			"esES": "Tiempo de reutilización: 16 s\nProbabilidad de golpe de suerte: 70.801% (per use)\nCreas durante 6 s un par de hojas de hielo que atacan rápidamente a los enemigos, les infligen {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de daño y tienen un 40% de probabilidad de volverlos vulnerables durante 2 s.\n\nTags: Evocación, Escarcha, Vulnerable, Daño, Frío, Tiempo de reutilización.\n\n— Enchantment Effect —\nPor cada 40 s que pasas en tiempo de reutilización, se genera unas Hojas de hielo sobre un enemigo aleatorio.",
+			"esMX": "Recuperación: 16 segundos\nProbabilidad de golpe afortunado: 70.801% (per use)\nConjuras un par de cuchillas gélidas durante 6 segundos que acuchillan rápidamente a los enemigos, les infligen {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de daño y tienen un 40% de probabilidad de volverlos vulnerables durante 2 segundos.\n\nTags: Conjuración, Hielo, Vulnerable, Daño, Frío, Recuperación.\n\n— Enchantment Effect —\nPor cada 40 segundos de habilidades con recuperación que gastas, generas unas Cuchillas Gélidas en un enemigo al azar.",
+			"frFR": "Temps de recharge: 16 s\nChances d'obtenir un coup de chance: 70.801% (per use)\nVous invoquez deux lames de glace pendant 6 s qui lacèrent rapidement les adversaires, ce qui leur inflige {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% points de dégâts et a 40% de chances de les rendre vulnérables pendant 2 s.\n\nTags: Conjuration, Givre, Vulnérable, Dégâts, Froid, Temps de recharge.\n\n— Enchantment Effect —\nPour chaque tranche de 40 s passée en temps de recharge, vous lancez des lames de glace sur une cible aléatoire.",
+			"itIT": "Tempo di recupero: 16 s\nProbabilità di colpo fortunato: 70.801% (per use)\nInvochi due lame di ghiaccio per 6 s che rapidamente feriscono i nemici, infliggendo {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% danni, e hanno una probabilità del 40% di renderli vulnerabili per 2 s.\n\nTags: Invocazione, Gelo, Vulnerabilità, Danni, Freddo, Tempo di recupero.\n\n— Enchantment Effect —\nOgni 40 s trascorsi con abilità in fase di recupero, lanci Lame di Ghiaccio su un nemico a caso.",
+			"jaJP": "クールダウン: 16秒\n幸運の一撃発生率: 70.801% (per use)\n一組の氷の刃を6秒間呼び出して敵を素早く斬りつけ、{23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%のダメージを与える。また、その敵を40%の確率で2秒間にわたり脆弱状態にする。\n\nTags: 召喚, 凍結, 脆弱, ダメージ, 冷気, クールダウン.\n\n— Enchantment Effect —\nクールダウン中に40秒経過するごとに、ランダムな敵に対して〈アイスブレイド〉を生み出す。",
+			"koKR": "재사용 대기시간: 16초\n행운의 적중 확률: 70.801% (per use)\n6초 동안 얼음 칼날 한 쌍을 구현하고 빠르게 적을 베어 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}%의 피해를 주고, 40% 확률로 2초 동안 대상을 취약하게 만듭니다.\n\nTags: 구현, 서리, 취약, 피해, 냉기, 재사용 대기시간.\n\n— Enchantment Effect —\n재사용 대기시간이 있는 기술을 40초 사용할 때마다 무작위 적의 위치에 얼음 칼날을 생성합니다.",
+			"plPL": "Czas odnowienia: 16 sek.\nSzansa na szczęśliwy traf: 70.801% (per use)\nNa 6 sek. przyzywasz dwa lodowe ostrza, które szybko sieką przeciwników, zadając im {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% pkt. obrażeń i mają 40% szans na odsłonięcie wrogów na 2 sek.\n\nTags: Przyzywanie, Lód, Odsłonięcie, Obrażenia, Zimno, Odnowienie.\n\n— Enchantment Effect —\nZa każde wykorzystane przez ciebie 40 sek. czasu odnowienia rzucasz Lodowe Ostrza na losowego wroga.",
+			"ptBR": "Recarga: 16 segundos\nChance de Golpe de Sorte: 70.801% (per use)\nConjura lâminas de gelo por 6 segundos que cortam os inimigos rapidamente, causando {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% de dano, e têm 40% de chance de torná-los vulneráveis por 2 segundos.\n\nTags: Conjuração, Geleira, Vulnerável, Dano, Gelo, Recarga.\n\n— Enchantment Effect —\nPara cada 40 segundos em recargas que gastar, você gera Lâminas de Gelo em um inimigo aleatório.",
+			"ruRU": "Время восстановления: 16 сек.\nВероятность удачного удара: 70.801% (per use)\nВы на 6 сек. создаете два ледяных клинка, которые стремительно атакуют противников, нанося им {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% ед. урона и с вероятностью 40% делая их уязвимыми на 2 сек.\n\nTags: Колдовство, Мороз, Уязвимость, Урон, Холод, Время восстановления.\n\n— Enchantment Effect —\nКогда у вас восстанавливаются умения, вы раз в 40 сек. призываете ледяные клинки, атакующие случайного противника.",
+			"trTR": "Bekleme Süresi: 16 saniye\nŞanslı Vuruş İhtimali: 70.801% (per use)\n6 saniye boyunca düşmanları hızlıca keserek {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% hasar veren ve 40% ihtimalle düşmanları 2 saniyeliğine Savunmasız hâle getiren bir çift buz kılıcı çağır.\n\nTags: Büyü, Soğuk, Savunmasız, Hasar, Bekleme Süresi.\n\n— Enchantment Effect —\nBekleme Sürelerinde harcadığın her 40 saniyede bir kez rastgele bir düşmanın üzerinde Buz Kılıçları oluşturursun.",
+			"zhCN": "冷却时间: 16 秒\n幸运一击几率: 70.801 (per use) %\n召唤一对存在 6 秒的冰刃, 迅速劈砍敌人, 造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 点伤害并有 40% 几率使其陷入易伤状态, 持续 2 秒。\n\nTags: 召唤魔法, 寒霜, 易伤, 伤害, 寒冰, 冷却时间.\n\n— Enchantment Effect —\n每度过 40 秒的冷却时间, 你就会对随机敌人召唤一把冰刃。",
+			"zhTW": "冷卻時間:16 秒\n幸運觸發機率:70.801% (per use)\n呼喚一對持續 6 秒的寒冰之刃,它們會快速斬擊敵人,造成 {23/25.3/27.6/29.9/32.2/34.5/36.8/39.1/41.4/43.7}% 點傷害,並有 40% 機率對敵人造成易傷 2 秒。\n\nTags: 咒喚, 冰霜, 易傷, 傷害, 冰寒, 冷卻時間.\n\n— Enchantment Effect —\n你每觸發 40 秒冷卻時間,就會對一名隨機敵人生成寒冰之刃。"
 },
 		id: 65,
 		maxPoints: 5,
@@ -2885,7 +2885,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 			"itIT": "Tempo di recupero: 20 s\nProbabilità di colpo fortunato: 26.491% (per use)\nInvochi una lancia di fulmini che insegue i nemici per 6 s, infliggendo {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% danni per colpo.\n\nTags: Invocazione, Folgore, Danni, Fulmine, Tempo di recupero.\n\n— Enchantment Effect —\nAssorbire Energia Crepitante fornisce una probabilità del 10% di invocare una Lancia Fulminante.",
 			"jaJP": "クールダウン: 20秒\n幸運の一撃発生率: 26.491% (per use)\n敵を6追尾する稲妻の槍を召喚し、命中するごとに{15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%のダメージを与える。\n\nTags: 召喚, 電撃, ダメージ, クールダウン.\n\n— Enchantment Effect —\n帯び出す電気を吸収すると10%の確率で〈ライトニングスピア〉を召喚する。",
 			"koKR": "재사용 대기시간: 20초\n행운의 적중 확률: 26.491% (per use)\n6초 동안 적을 추적하며 적중할 때마다 {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}%의 피해를 주는 번개의 창을 구현합니다.\n\nTags: 구현, 감전, 피해, 번개, 재사용 대기시간.\n\n— Enchantment Effect —\n짜릿한 에너지를 흡수하면 10% 확률로 번개 창을 구현합니다.",
-			"plPL": "Czas odnowienia: 20 sek.\nSzansa na szczęśliwy traf: 26.491% (per use)\nPrzyzywasz włócznię błyskawic, która wyszukuje wrogów przez 6 sek., zadając przy każdym trafieniu {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% pkt. obrażeń.\n\nTags: Przyzywanie, Porażenie, Obrażenia, Błyskawica, Odnowienie.\n\n— Enchantment Effect —\nPochłonięcie Roziskrzonej Energii zapewnia 10% szans na przyzwanie Włóczni Błyskawic.",
+			"plPL": "Czas odnowienia: 20 sek.\nSzansa na szczęśliwy traf: 26.491% (per use)\nPrzyzywasz włócznię błyskawic, która wyszukuje wrogów przez 6 sek., zadając przy każdym trafieniu {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% pkt. obrażeń.\n\nTags: Przyzywanie, Porażenie, Obrażenia, Błyskawice, Odnowienie.\n\n— Enchantment Effect —\nPochłonięcie Roziskrzonej Energii zapewnia 10% szans na przyzwanie Włóczni Błyskawic.",
 			"ptBR": "Recarga: 20 segundos\nChance de Golpe de Sorte: 26.491% (per use)\nConjura uma lança de eletricidade que busca inimigos por 6 segundos, causando {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% de dano por acerto.\n\nTags: Conjuração, Choque, Dano, Eletricidade, Recarga.\n\n— Enchantment Effect —\nAbsorver Energia Crepitante tem 10% de chance de conjurar uma Lança Elétrica.",
 			"ruRU": "Время восстановления: 20 сек.\nВероятность удачного удара: 26.491% (per use)\nВы создаете электрическое копье, которое преследует противников в течение 6 сек. и наносит {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% ед. урона при каждом попадании.\n\nTags: Колдовство, Шок, Урон, Молния, Время восстановления.\n\n— Enchantment Effect —\nКогда вы поглощаете искрящийся заряд энергии, вы с вероятностью 10% создаете электрическое копье.",
 			"trTR": "Bekleme Süresi: 20 saniye\nŞanslı Vuruş İhtimali: 26.491% (per use)\n6 saniye boyunca düşmanları avlayan ve vuruş başına {15/16.5/18/19.5/21/22.5/24/25.5/27/28.5}% hasar veren bir şimşek mızrağı çağır.\n\nTags: Büyü, Şok, Hasar, Yıldırım, Bekleme Süresi.\n\n— Enchantment Effect —\nÇatırtı Enerjisi soğurmak 10% ihtimalle bir Yıldırım Mızrağı çağırır.",
@@ -2939,7 +2939,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 	"Summoned Lightning Spear": {
 		baseSkill: "Lightning Spear",
 		connections: [ "Enhanced Lightning Spear" ],
-		description: `Collecting Crackling Energy increases the damage of your next Lightning Spear cast by x20%, up to x100%.`,
+		description: `Collecting Crackling Energy increases the damage of your next Lightning Spear cast by x20%, up to x160%.`,
 		nameLocalized: {
 			"deDE": "Beschworener Blitzspeer",
 			"esES": "Lanza de rayos llamada",
@@ -2956,19 +2956,19 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 			"zhTW": "呼喚閃電長矛"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr Knisternde Energie sammelt, wird der Schaden Eures nächsten Blitzspeers um x20% erhöht, bis maximal x100%.",
-			"esES": "Absorber energía crepitante aumenta un x20% el daño de la siguiente Lanza de rayos que lances, hasta un máximo de un x100%.",
-			"esMX": "Recolectar Energía Crepitante aumenta un x20% el daño de tu siguiente lanzamiento de Lanza de Rayo, hasta un x100%.",
-			"frFR": "Lorsque vous ramassez de l'énergie crépitante, les dégâts de votre prochaine Lance de foudre augmentent de x20%, jusqu'à un maximum de x100%.",
-			"itIT": "Raccogliere Energia Crepitante aumenta i danni del successivo utilizzo di Lancia Fulminante del x20%, fino a un massimo del x100%.",
-			"jaJP": "帯び出す電気を入手すると、次に使用した〈ライトニングスピア〉のダメージがx20%増加する。増加量は最大x100%。",
-			"koKR": "짜릿한 에너지를 습득하면 다음 번개 창 시전으로 주는 피해가 x20%만큼, 최대 x100%까지 증가합니다.",
-			"plPL": "Zbieranie Roziskrzonej Energii zwiększa obrażenia od twojej następnej Włóczni Błyskawic o x20%, maksymalnie do x100%.",
-			"ptBR": "Coletar Energia Crepitante aumenta o dano do seu próximo lançamento de Lança Elétrica em 20%, até 100%.",
-			"ruRU": "Когда вы подбираете искрящийся заряд энергии, урон от следующего \"Электрического копья\" увеличивается на x20% вплоть до x100%.",
-			"trTR": "Çatırtı Enerjisi toplamak, sonraki Yıldırım Mızrağı kullanımının hasarını x20% artırır. Artış en fazla x100% olabilir.",
-			"zhCN": "拾取爆裂电花会使你施放的下一个闪电矛造成的伤害提高 x20%, 最多提高 x100%。",
-			"zhTW": "收集電流能量會使你下一次施放的閃電長矛傷害提高 x20%,最多提高 x100%。"
+			"deDE": "Wenn Ihr Knisternde Energie sammelt, wird der Schaden Eures nächsten Blitzspeers um x20% erhöht, bis maximal x160%.",
+			"esES": "Absorber energía crepitante aumenta un x20% el daño de la siguiente Lanza de rayos que lances, hasta un máximo de un x160%.",
+			"esMX": "Recolectar Energía Crepitante aumenta un x20% el daño de tu siguiente lanzamiento de Lanza de Rayo, hasta un x160%.",
+			"frFR": "Lorsque vous ramassez de l'énergie crépitante, les dégâts de votre prochaine Lance de foudre augmentent de x20%, jusqu'à un maximum de x160%.",
+			"itIT": "Raccogliere Energia Crepitante aumenta i danni del successivo utilizzo di Lancia Fulminante del x20%, fino a un massimo del x160%.",
+			"jaJP": "帯び出す電気を入手すると、次に使用した〈ライトニングスピア〉のダメージがx20%増加する。増加量は最大x160%。",
+			"koKR": "짜릿한 에너지를 습득하면 다음 번개 창 시전으로 주는 피해가 x20%만큼, 최대 x160%까지 증가합니다.",
+			"plPL": "Zbieranie Roziskrzonej Energii zwiększa obrażenia od twojej następnej Włóczni Błyskawic o x20%, maksymalnie do x160%.",
+			"ptBR": "Coletar Energia Crepitante aumenta o dano do seu próximo lançamento de Lança Elétrica em 20%, até 160%.",
+			"ruRU": "Когда вы подбираете искрящийся заряд энергии, урон от следующего \"Электрического копья\" увеличивается на x20% вплоть до x160%.",
+			"trTR": "Çatırtı Enerjisi toplamak, sonraki Yıldırım Mızrağı kullanımının hasarını x20% artırır. Artış en fazla x160% olabilir.",
+			"zhCN": "拾取爆裂电花会使你施放的下一个闪电矛造成的伤害提高 x20%, 最多提高 x160%。",
+			"zhTW": "收集電流能量會使你下一次施放的閃電長矛傷害提高 x20%,最多提高 x160%。"
 },
 		id: 71,
 		maxPoints: 1,
@@ -3006,7 +3006,7 @@ Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.`,
 			"ptBR": "Lança Elétrica atordoa inimigos por 2 segundos ao desferir acertos críticos.",
 			"ruRU": "Нанося критический удар, \"Электрическое копье\" оглушает противника на 2 сек.",
 			"trTR": "Şimşek Mızrağı Kritik Vuruş gerçekleştirirken düşmanları 2 saniyeliğine Sersemletir.",
-			"zhCN": "闪电矛会在暴击时击晕敌人 2 秒。",
+			"zhCN": "闪电矛会在暴击时击昏敌人 2 秒。",
 			"zhTW": "閃電長矛爆擊時會擊昏敵人 2 秒。"
 },
 		id: 72,
@@ -3121,7 +3121,7 @@ Tags: Damage Reduction, Elite Monsters.`,
 			"frFR": "Vous bénéficiez de {1/2/3/4/5/6/7/8/9/10}% de réduction des dégâts contre les élites pour chaque seconde où vous ne subissez aucun dégât de leur part, jusqu'à un maximum de 40%.\n\nTags: Réduction des dégâts, Monstres élites.",
 			"itIT": "Ottieni il {1/2/3/4/5/6/7/8/9/10}% di riduzione danni contro élite per ogni secondo trascorso senza subire danni da un nemico élite, fino a un massimo del 40%.\n\nTags: Riduzione danni, Mostri élite.",
 			"jaJP": "エリートからダメージを受けずにいると、その状態が1秒続くごとにエリートから受けるダメージが{1/2/3/4/5/6/7/8/9/10}%減少する。減少量は最大40%。\n\nTags: ダメージ減少, エリートモンスター.",
-			"koKR": "정예 괴물로부터 피해를 받지 않는 동안 정예에 대한 피해 감소가 초당 {1/2/3/4/5/6/7/8/9/10}% 감소하여, 최대 40% 감소합니다.\n\nTags: 피해 감소, 정예 괴물.",
+			"koKR": "정예 괴물로부터 피해를 받지 않는 동안 1초마다 정예에 대한 피해 감소를 {1/2/3/4/5/6/7/8/9/10}%만큼, 최대 40%까지 얻습니다.\n\nTags: 피해 감소, 정예 괴물.",
 			"plPL": "Zyskujesz premię {1/2/3/4/5/6/7/8/9/10}% do redukcji obrażeń zadawanych przez wrogów elitarnych za każdą sekundę, kiedy nie otrzymujesz od nich obrażeń. Maksymalna premia wynosi 40%.\n\nTags: Redukcja Obrażeń, Elitarne Potwory.",
 			"ptBR": "Você recebe {1/2/3/4/5/6/7/8/9/10}% de redução de dano contra elites por cada segundo que não receber dano de algum, até 40%.\n\nTags: Redução de Dano, Monstros de Elite.",
 			"ruRU": "Урон, получаемый от особых противников, уменьшается на {1/2/3/4/5/6/7/8/9/10}% за каждую секунду, пока вы не получаете от них урон. Максимальная защита – 40%.\n\nTags: Уменьшение урона, Особые монстры.",
@@ -3416,7 +3416,7 @@ Every 15 seconds, a Blizzard forms over you and follows you for 6 seconds.`,
 			"ptBR": "Custo de mana: 40\nChance de Golpe de Sorte: 33% (per use)\nEvoca uma nevasca gélida que causa {#} de dano e gela inimigos de forma contínua por 18% ao longo de 8 segundos.\n\nTags: Maestria, Geleira, Gelidez, Dano, Gelo, Mana, Controle de Grupo.\n\n— Enchantment Effect —\nA cada 15 segundos, uma Nevasca forma-se e segue você por 6 segundos.",
 			"ruRU": "Затраты маны: 40 ед.\nВероятность удачного удара: 33% (per use)\nВы призываете ледяную бурю, наносящую {#} ед. урона и заставляющую противников коченеть, замедляя их на 18% на 8 сек.\n\nTags: Искусность, Мороз, Окоченение, Урон, Холод, Мана, Контроль.\n\n— Enchantment Effect —\nРаз в 15 сек. над вами образуется снежная буря, которая следует за вами в течение 6 сек.",
 			"trTR": "Mana Bedeli: 40\nŞanslı Vuruş İhtimali: 33% (per use)\n8 saniye boyunca {#} hasar veren ve devamlı olarak düşmanlara 18% Soğutma uygulayan buz gibi bir Kar Fırtınası çağır.\n\nTags: Ustalık, Soğuk, Soğutma, Hasar, Mana, Kitle Kontrolü.\n\n— Enchantment Effect —\nHer 15 saniyede bir kez üzerinde bir Kar Fırtınası oluşur ve 6 saniye boyunca seni takip eder.",
-			"zhCN": "法力消耗: 40\n幸运一击几率: 33% (per use)\n召唤一阵冰冷的暴风雪, 造成 {#} 点伤害并在 8 秒内持续冻伤敌人 18%。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 冰霜, 法力, 群控.\n\n— Enchantment Effect —\n每过 15 秒, 在头顶汇聚一阵暴风雪 并跟随你移动, 持续 6 秒。",
+			"zhCN": "法力消耗: 40\n幸运一击几率: 33% (per use)\n召唤一阵冰冷的暴风雪, 造成 {#} 点伤害并在 8 秒内持续冻伤敌人 18%。\n\nTags: 掌控, 寒霜, 冻伤, 伤害, 寒冰, 法力, 群控.\n\n— Enchantment Effect —\n每过 15 秒, 在头顶汇聚一阵暴风雪 并跟随你移动, 持续 6 秒。",
 			"zhTW": "法力消耗:40\n幸運觸發機率:33% (per use)\n召喚出凜冽暴風雪,造成 {#} 點傷害,並在 8 秒內對敵人造成 18% 冰冷效果。\n\nTags: 精通, 冰霜, 冰冷, 傷害, 冰寒, 法力, 控場.\n\n— Enchantment Effect —\n每隔 15 秒,暴風雪會在你上方形成並跟隨你 6 秒。"
 },
 		id: 82,
@@ -3576,7 +3576,7 @@ Lucky Hit: Critical Strikes have up to a 25% chance to spawn a static Ball Light
 			"itIT": "Attack Speed Multiplier: 1.25\nCosto in mana: 50\nProbabilità di colpo fortunato: 5% (per hit)\nScateni una palla di fulmini che avanza lentamente, fulminando continuamente i nemici e infliggendo {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% danni.\n\nTags: Dominio, Folgore, Danni, Fulmine, Mana.\n\n— Enchantment Effect —\nColpo fortunato: i colpi critici hanno fino al 25% di probabilità di generare una Palla Fulminante statica.",
 			"jaJP": "Attack Speed Multiplier: 1.25\nマナ消費量: 50\n幸運の一撃発生率: 5% (per hit)\nゆっくりと前進する球電を放ち、敵を感電させ続け{18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}%のダメージを与える。\n\nTags: マスター, 電撃, ダメージ, マナ.\n\n— Enchantment Effect —\n幸運の一撃: クリティカルヒット時、最大25%の確率で静電気を帯びた〈ボールライトニング〉が発生する。",
 			"koKR": "Attack Speed Multiplier: 1.25\n소모: 마나 50\n행운의 적중 확률: 5% (per hit)\n전방으로 천천히 움직이는 번개의 구체를 방출합니다. 구체는 계속해서 적을 감전시켜 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}%의 피해를 줍니다.\n\nTags: 숙련, 감전, 피해, 번개, 마나.\n\n— Enchantment Effect —\n행운의 적중: 극대화 시 최대 25%의 확률로 정지해 있는 구상 번개가 생성됩니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 50 pkt. many\nSzansa na szczęśliwy traf: 5% (per hit)\nWyzwalasz kulę błyskawic, która powoli przemieszcza się do przodu, nieprzerwanie porażając wrogów i zadając im {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% pkt. obrażeń.\n\nTags: Mistrzostwo, Porażenie, Obrażenia, Błyskawica, Mana.\n\n— Enchantment Effect —\nSzczęśliwy traf: Trafienia krytyczne mają maksymalnie 25% szans na stworzenie statycznego Pioruna Kulistego.",
+			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 50 pkt. many\nSzansa na szczęśliwy traf: 5% (per hit)\nWyzwalasz kulę błyskawic, która powoli przemieszcza się do przodu, nieprzerwanie porażając wrogów i zadając im {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% pkt. obrażeń.\n\nTags: Mistrzostwo, Porażenie, Obrażenia, Błyskawice, Mana.\n\n— Enchantment Effect —\nSzczęśliwy traf: Trafienia krytyczne mają maksymalnie 25% szans na stworzenie statycznego Pioruna Kulistego.",
 			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de mana: 50\nChance de Golpe de Sorte: 5% (per hit)\nDispara uma bola de eletricidade que avança lentamente, atacando inimigos de forma contínua e causando {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% de dano.\n\nTags: Maestria, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nGolpe de Sorte: Acertos críticos têm até 25% de chance de gerar uma Bola de Eletricidade estática.",
 			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты маны: 50 ед.\nВероятность удачного удара: 5% (per hit)\nВы выпускаете шаровую молнию, которая медленно летит вперед, время от времени нанося противникам по {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% ед. урона.\n\nTags: Искусность, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\nУдачный удар: критические удары с вероятностью до 25% создают неподвижную \"Шаровую молнию\".",
 			"trTR": "Attack Speed Multiplier: 1.25\nMana Bedeli: 50\nŞanslı Vuruş İhtimali: 5% (per hit)\nYavaşça ilerleyerek düşmanları çarpan ve {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% hasar veren bir şimşek topu fırlat.\n\nTags: Ustalık, Şok, Hasar, Yıldırım, Mana.\n\n— Enchantment Effect —\nŞanslı Vuruş: Kritik Vuruşlar en fazla 25% ihtimalle sabit bir Yıldırım Topu oluşturur.",
@@ -3697,7 +3697,7 @@ Lucky Hit: Critical Strikes have up to a 25% chance to spawn a static Ball Light
 			"ptBR": "Depois de acertar inimigos próximos 50 vezes com Bola de Eletricidade, seu próximo lançamento da habilidade atordoa inimigos atingidos por 1 segundos.",
 			"ruRU": "Когда вы поражаете находящихся рядом противников \"Шаровой молнией\" 50 раза:раз, ваша следующая шаровая молния оглушает пораженные цели на 1 сек.",
 			"trTR": "Yakın düşmanlara Yıldırım Topuyla 50 kez vurduktan sonraki kullanımın, vurulan düşmanları 1 saniyeliğine Sersemletir.",
-			"zhCN": "球状闪电命中近距敌人 50 次后, 你下一次施放会击晕其命中的敌人 1 秒。",
+			"zhCN": "球状闪电命中近距敌人 50 次后, 你下一次施放该技能会击昏其命中的敌人 1 秒。",
 			"zhTW": "球狀閃電擊中近距離敵人 50 次後,你下一次施放此法術,會使其擊中的敵人昏迷 1 秒。"
 },
 		id: 89,
@@ -3933,11 +3933,11 @@ Tags: Damage, Crowd Control, Lightning.`,
 			"itIT": "Infliggi {15/30/45/60/75/90/105/120/135/150}% danni da fulmine a un nemico ogni volta che lo stordisci.\n\nTags: Danni, Effetti debilitanti, Fulmine.",
 			"jaJP": "敵1体をスタンさせるごとに、敵に与える電撃ダメージが{15/30/45/60/75/90/105/120/135/150}%増加する。\n\nTags: ダメージ, 操作障害効果, 電撃.",
 			"koKR": "적을 기절시킬 때마다 적에게 {15/30/45/60/75/90/105/120/135/150}%의 번개 피해를 줍니다.\n\nTags: 피해, 군중 제어, 번개.",
-			"plPL": "Za każdym razem, gdy ogłuszasz wroga, zadajesz mu {15/30/45/60/75/90/105/120/135/150}% obrażeń od Błyskawic.\n\nTags: Obrażenia, Ograniczanie Kontroli, Błyskawica.",
+			"plPL": "Za każdym razem, gdy ogłuszasz wroga, zadajesz mu {15/30/45/60/75/90/105/120/135/150}% obrażeń od Błyskawic.\n\nTags: Obrażenia, Ograniczanie Kontroli, Błyskawice.",
 			"ptBR": "Sempre que você atordoar um inimigo, você causa {15/30/45/60/75/90/105/120/135/150}% de dano elétrico a ele.\n\nTags: Dano, Controle de Grupo, Eletricidade.",
 			"ruRU": "Оглушая противника, вы наносите ему {15/30/45/60/75/90/105/120/135/150}% ед. урона от молнии.\n\nTags: Урон, Контроль, Молния.",
 			"trTR": "Bir düşmanı her Sersemlettiğinde düşmana {15/30/45/60/75/90/105/120/135/150}% Şimşek hasarı verirsin.\n\nTags: Hasar, Kitle Kontrolü, Yıldırım.",
-			"zhCN": "每次你击晕一名敌人, 都会对其造成 {15/30/45/60/75/90/105/120/135/150}% 点闪电伤害。\n\nTags: 伤害, 群控, 闪电.",
+			"zhCN": "每次你击昏一名敌人, 都会对其造成 {15/30/45/60/75/90/105/120/135/150}% 点闪电伤害。\n\nTags: 伤害, 群控, 闪电.",
 			"zhTW": "你每次擊昏敵人時,對其造成 {15/30/45/60/75/90/105/120/135/150}% 點電擊傷害。\n\nTags: 傷害, 控場, 閃電."
 },
 		id: 95,
@@ -4017,7 +4017,7 @@ Tags: Frozen, Lucky Hit, Crowd Control, Frost.`,
 			"ptBR": "Golpe de Sorte: Habilidades de Geleira têm até {3/6/9/12/15/18/21/24/27/30}% de chance de congelar instantaneamente.\n\nTags: Congelado, Golpe de Sorte, Controle de Grupo, Geleira.",
 			"ruRU": "Удачный удар: умения мороза с вероятностью до {3/6/9/12/15/18/21/24/27/30}% мгновенно замораживают цель.\n\nTags: Заморозка, Удачный удар, Контроль, Мороз.",
 			"trTR": "Şanslı Vuruş: Buz Yetenekleri en fazla %{3/6/9/12/15/18/21/24/27/30} ihtimalle anında Dondurur.\n\nTags: Donuk, Şanslı Vuruş, Kitle Kontrolü, Soğuk.",
-			"zhCN": "幸运一击: 冰霜技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率立即冻结敌人。\n\nTags: 冻结, 幸运一击, 群控, 寒霜.",
+			"zhCN": "幸运一击: 寒霜技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率立即冻结敌人。\n\nTags: 冻结, 幸运一击, 群控, 寒霜.",
 			"zhTW": "幸運觸發:冰霜技能有最多 {3/6/9/12/15/18/21/24/27/30}% 的機率立刻凍結敵人。\n\nTags: 凍結, 幸運觸發, 控場, 冰霜."
 },
 		id: 135,
@@ -4057,7 +4057,7 @@ Tags: Barrier, Chill, Crowd Control.`,
 			"ptBR": "Enquanto tiver uma barreira ativa, você aplica {8/16/24/32/40/48/56/64/72/80}% a mais de gelidez.\n\nTags: Barreira, Gelidez, Controle de Grupo.",
 			"ruRU": "Пока действует барьер, ваши эффекты окоченения усиливаются на {8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Барьер, Окоченение, Контроль.",
 			"trTR": "Bir Bariyer etkinken x{8/16/24/32/40/48/56/64/72/80}% daha fazla Soğutma uygularsın.\n\nTags: Bariyer, Soğutma, Kitle Kontrolü.",
-			"zhCN": "当你有激活的屏障时, 你施加的冻伤提高 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 屏障, 冻伤, 群控.",
+			"zhCN": "你有激活的屏障时, 你施加的冻伤提高 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 屏障, 冻伤, 群控.",
 			"zhTW": "當你擁有屏障時,你造成的冰冷效果提高 x{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 屏障, 冰冷, 控場."
 },
 		id: 98,
@@ -4379,8 +4379,8 @@ Tags: Ultimate, Shock, Damage, Lightning, Cooldown.`,
 			"frFR": "Temps de recharge: 70 s\nLa foudre vous habite pendant 10 s. Chaque fois que vous lancez une compétence de foudre, une autre compétence principale, de conjuration ou de maîtrise de foudre aléatoire est également lancée.\n\nTags: Ultime, Foudre, Dégâts, Temps de recharge.",
 			"itIT": "Tempo di recupero: 70\nIl fulmine cresce dentro di te per 10 s. Quando lanci un'abilità di fulmine, lanci anche un'altra abilità primaria, d'invocazione o di dominio della folgore.\n\nTags: Ultra, Folgore, Danni, Fulmine, Tempo di recupero.",
 			"jaJP": "クールダウン: 70秒\n10秒間にわたり、体内で稲妻が急発生する。感電スキルを使用すると、ランダムでコア、召喚、またはマスターの 感電スキルが発動する。\n\nTags: 奥義, 電撃, ダメージ, クールダウン.",
-			"koKR": "재사용 대기시간: 70\n10초 동안 몸 안에 번개가 몰아칩니다. 충격 기술을 시전할 때마다, 무작위 핵심 또는 구현 또는 숙련 충격 기술이 시전됩니다.\n\nTags: 궁극기, 감전, 피해, 번개, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: 70 sek.\nWyzwalasz w sobie moc błyskawic na 10 sek. Za każdym razem, gdy używasz umiejętności Porażenia, towarzyszy jej inna losowa umiejętność Główna, Przyzywania, Mistrzostwa lub Porażenia.\n\nTags: Specjalne, Porażenie, Obrażenia, Błyskawica, Odnowienie.",
+			"koKR": "재사용 대기시간: 70\n10초 동안 몸 안에 번개가 몰아칩니다. 감전 기술을 시전할 때마다, 무작위 핵심 또는 구현 또는 숙련 감전 기술이 시전됩니다.\n\nTags: 궁극기, 감전, 피해, 번개, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 70 sek.\nWyzwalasz w sobie moc błyskawic na 10 sek. Za każdym razem, gdy używasz umiejętności Porażenia, towarzyszy jej inna losowa umiejętność Główna, Przyzywania, Mistrzostwa lub Porażenia.\n\nTags: Specjalne, Porażenie, Obrażenia, Błyskawice, Odnowienie.",
 			"ptBR": "Recarga: 70\nA eletricidade aumenta em você por 10 segundos. Sempre que você lançar uma habilidade de Eletricidade, uma habilidade aleatória de Eletricidade também é lançada, podendo ser Principal, Conjuração ou Maestria.\n\nTags: Suprema, Choque, Dano, Eletricidade, Recarga.",
 			"ruRU": "Время восстановления: 70 сек.\nВас на 10 сек. наполняет сила молнии. Когда вы применяете умение шока, автоматически срабатывает другое случайное умение шока категории \"Основное\", \"Колдовство\" или \"Искусность\".\n\nTags: Мощное умение, Шок, Урон, Молния, Время восстановления.",
 			"trTR": "Bekleme Süresi: 70\nŞimşek 10 saniyeliğine içinde dolaşır. Her Şok Yeteneği kullandığında rastgele bir Çekirdek, Büyü veya Ustalık Şok Yeteneği de kullanılır.\n\nTags: Ulti, Şok, Hasar, Yıldırım, Bekleme Süresi.",
@@ -4506,7 +4506,7 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 			"ptBR": "Recarga: 60\nChance de Golpe de Sorte: 2% (per hit)\nCobre-se com gelo, tornando-se imune por 4 segundos, causando 25% de dano contínuo e aplicando gelidez aos inimigos por 14%. Quando Congelamento Profundo termina, causa 100% de dano adicional.\n\nLançar Congelamento Profundo novamente acaba com o efeito mais cedo.\n\nTags: Suprema, Geleira, Imune, Gelidez, Dano, Gelo, Recarga, Controle de Grupo, Redução de Dano.",
 			"ruRU": "Время восстановления: 60 сек.\nВероятность удачного удара: 2% (per hit)\nВы заключаете себя в глыбу льда, получая невосприимчивость на 4 сек., непрерывно нанося противникам 25% ед. урона и применяя эффект окоченения, замедляющий на 14%. По окончании времени действия \"Глубокая заморозка\" наносит еще 100% ед. урона.\n\nЭффект можно завершить раньше времени, применив умение еще раз.\n\nTags: Мощное умение, Мороз, Невосприимчивость, Окоченение, Урон, Холод, Время восстановления, Контроль, Уменьшение урона.",
 			"trTR": "Bekleme Süresi: 60\nŞanslı Vuruş İhtimali: 2% (per hit)\nKendini buzla sarıp 4 saniyeliğine Bağışık hâle gelerek sürekli olarak 25% hasar ver ve düşmanlara 14% Soğutma uygula. Derin Dondurma sona erdiğinde ilave 100% hasar verir.\n\nDerin Dondurmayı yeniden kullanmak, etkiyi erken sonlandırır.\n\nTags: Ulti, Soğuk, Bağışık, Soğutma, Hasar, Bekleme Süresi, Kitle Kontrolü, Hasar Azaltma.",
-			"zhCN": "冷却时间: 60 秒\n幸运一击几率: 2% (per hit)\n用冰块包裹自己, 获得免疫, 持续 4 秒, 持续造成 25% 点伤害并冻伤敌人 14%。深度冻结结束时, 额外造成 100% 点伤害。\n\n再次施放深度冻结会提前结束技能效果。\n\nTags: 终极技能, 寒霜, 免疫, 冻伤, 伤害, 冰霜, 冷却时间, 群控, 伤害减免.",
+			"zhCN": "冷却时间: 60 秒\n幸运一击几率: 2% (per hit)\n用冰块包裹自己, 获得免疫, 持续 4 秒, 持续造成 25% 点伤害并冻伤敌人 14%。深度冻结结束时, 额外造成 100% 点伤害。\n\n再次施放深度冻结会提前结束技能效果。\n\nTags: 终极技能, 寒霜, 免疫, 冻伤, 伤害, 寒冰, 冷却时间, 群控, 伤害减免.",
 			"zhTW": "冷卻時間:60\n幸運觸發機率: 2% (per hit)\n將你包覆在寒冰中,獲得免疫 4 秒,持續對敵人造成 25% 點傷害並對其造成 14% 冰冷效果。極度冰凍效果結束時,會造成額外 100% 點傷害。\n\n再次施放極度冰凍可提早結束效果。\n\nTags: 絕招, 冰霜, 免疫, 冰冷, 傷害, 冰寒, 冷卻時間, 控場, 傷害減免."
 },
 		id: 109,
@@ -4545,7 +4545,7 @@ Tags: Ultimate, Frost, Immune, Chill, Damage, Cold, Cooldown, Crowd Control, Dam
 			"ptBR": "Quando Congelamento Profundo termina, você recebe 10% da sua vida básica como uma barreira por 6 segundos por cada inimigo que você congelou enquanto ele estava ativo.",
 			"ruRU": "По завершении действия \"Глубокой заморозки\" вы на 6 сек. получаете барьер с прочностью, равной 10% базового запаса здоровья за каждого противника, замороженного вами во время действия умения.",
 			"trTR": "Derin Dondurma sona erdiğinde, etkinken Dondurduğun her bir düşman başına 6 saniyeliğine Temel Canının 10% kadarına eşit bir Bariyer kazan.",
-			"zhCN": "深度冻结结束时, 技能激活期间每冻结一个敌人, 获得一层相当于你 10% 基础生命 的屏障, 持续 6 秒。",
+			"zhCN": "深度冻结结束时, 技能激活期间每冻结一个敌人, 获得一个相当于你 10% 基础生命 的屏障, 持续 6 秒。",
 			"zhTW": "每個你在極度冰凍期間凍結的敵人,會在極度冰凍結束時使你獲得 10% 基礎生命值 的屏障,持續 6 秒。"
 },
 		id: 110,
@@ -4624,7 +4624,7 @@ Tags: Elite Monsters, Damage, Frost.`,
 			"ptBR": "Habilidades de Geleira causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado a elites.\n\nTags: Monstros de Elite, Dano, Geleira.",
 			"ruRU": "Умения мороза наносят на x{5/10/15/20/25/30/35/40/45/50}% больше урона особым противникам.\n\nTags: Особые монстры, Урон, Мороз.",
 			"trTR": "Buz Yetenekleri Seçkinlere x{5/10/15/20/25/30/35/40/45/50}% artırılmış hasar verir.\n\nTags: Seçkin Canavarlar, Hasar, Soğuk.",
-			"zhCN": "冰霜技能对精英怪造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 精英怪物, 伤害, 寒霜.",
+			"zhCN": "寒霜技能对精英怪造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 精英怪物, 伤害, 寒霜.",
 			"zhTW": "冰霜技能對精英怪物造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 精英怪物, 傷害, 冰霜."
 },
 		id: 113,
@@ -4704,7 +4704,7 @@ Tags: Vulnerable, Cold, Lucky Hit, Mana.`,
 			"ptBR": "Golpe de Sorte: Dano gélido contra inimigos vulneráveis tem até 20% de chance de gerar {5/10/15/20/25/30/35/40/45/50} de mana.\n\nTags: Vulnerável, Gelo, Golpe de Sorte, Mana.",
 			"ruRU": "Удачный удар: урон от холода, наносимый уязвимым противникам, с вероятностью до 20% восполняет {5/10/15/20/25/30/35/40/45/50} ед. маны.\n\nTags: Уязвимость, Холод, Удачный удар, Мана.",
 			"trTR": "Şanslı Vuruş: Savunmasız düşmanlara karşı Soğuk hasarı en fazla 20% ihtimalle {5/10/15/20/25/30/35/40/45/50} Mana üretir.\n\nTags: Savunmasız, Soğuk, Şanslı Vuruş, Mana.",
-			"zhCN": "幸运一击: 对易伤敌人造成冰霜伤害最多有 20% 几率生成 {5/10/15/20/25/30/35/40/45/50} 点法力。\n\nTags: 易伤, 冰霜, 幸运一击, 法力.",
+			"zhCN": "幸运一击: 对易伤敌人造成寒冰伤害最多有 20% 几率生成 {5/10/15/20/25/30/35/40/45/50} 点法力。\n\nTags: 易伤, 寒冰, 幸运一击, 法力.",
 			"zhTW": "幸運觸發:對易傷敵人造成的冰寒傷害有最多 20% 的機率產生 {5/10/15/20/25/30/35/40/45/50} 點法力。\n\nTags: 易傷, 冰寒, 幸運觸發, 法力."
 },
 		id: 137,
@@ -4744,7 +4744,7 @@ Tags: Vulnerable, Cold, Damage.`,
 			"ptBR": "Você causa {4/8/12/16/20/24/28/32/36/40}% de dano gélido aumentado a inimigos vulneráveis.\n\nTags: Vulnerável, Gelo, Dano.",
 			"ruRU": "Вы наносите на x{4/8/12/16/20/24/28/32/36/40}% больше урона от холода уязвимым противникам.\n\nTags: Уязвимость, Холод, Урон.",
 			"trTR": "Savunmasız düşmanlara x{4/8/12/16/20/24/28/32/36/40}% artırılmış Soğuk hasarı verirsin.\n\nTags: Savunmasız, Soğuk, Hasar.",
-			"zhCN": "你对易伤敌人造成的冰霜伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易伤, 冰霜, 伤害.",
+			"zhCN": "你对易伤敌人造成的寒冰伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易伤, 寒冰, 伤害.",
 			"zhTW": "你對易傷敵人造成的冰寒傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易傷, 冰寒, 傷害."
 },
 		id: 115,
@@ -4864,7 +4864,7 @@ Tags: Shock, Lucky Hit, Crowd Control.`,
 			"ptBR": "Golpe de Sorte: Habilidades de Choque têm até {3/6/9/12/15/18/21/24/27/30}% de chance de atordoar inimigos por 3 segundos.\n\nTags: Choque, Golpe de Sorte, Controle de Grupo.",
 			"ruRU": "Удачный удар: умения шока с вероятностью до {3/6/9/12/15/18/21/24/27/30}% оглушают противников на 3 сек.\n\nTags: Шок, Удачный удар, Контроль.",
 			"trTR": "Şanslı Vuruş: Şok Yetenekleri en fazla {3/6/9/12/15/18/21/24/27/30}% ihtimalle düşmanları 3 saniyeliğine Sersemletir.\n\nTags: Şok, Şanslı Vuruş, Kitle Kontrolü.",
-			"zhCN": "幸运一击: 电冲技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率击晕敌人 3 秒。\n\nTags: 电冲, 幸运一击, 群控.",
+			"zhCN": "幸运一击: 电冲技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率击昏敌人 3 秒。\n\nTags: 电冲, 幸运一击, 群控.",
 			"zhTW": "幸運觸發:電能技能最高有 {3/6/9/12/15/18/21/24/27/30}% 機率擊昏敵人,持續 3 秒。\n\nTags: 電能, 幸運觸發, 控場."
 },
 		id: 118,
@@ -5147,7 +5147,7 @@ Tags: Vulnerable, Lucky Hit, Mana, Damage, Frost.`,
 			"ptBR": "Golpe de Sorte: Suas habilidades de Geleira têm até 10% de chance de fazer seu próximo lançamento de Estilhaços de Gelo, Orbe Congelado ou Nevasca não consumir mana e causar 40% de dano aumentado. A chance é dobrada contra inimigos vulneráveis.\n\nTags: Vulnerável, Golpe de Sorte, Mana, Dano, Geleira.",
 			"ruRU": "Удачный удар: ваши умения мороза с вероятностью до 10% позволяют применить \"Осколки льда\", \"Морозную сферу\" или \"Снежную бурю\" без затрат маны и с увеличенным на x40% уроном. Вероятность удваивается, если цель уязвима.\n\nTags: Уязвимость, Удачный удар, Мана, Урон, Мороз.",
 			"trTR": "Şanslı Vuruş: Buz Yeteneklerin en fazla 10% ihtimalle bir sonraki Buz Parçaları, Donmuş Küre veya Kar Fırtınası kullanımının hiç Mana harcamamasını ve x40% artırılmış hasar vermesini sağlar. Bu ihtimal Savunmasız düşmanlara karşı ikiye katlanır.\n\nTags: Savunmasız, Şanslı Vuruş, Mana, Hasar, Soğuk.",
-			"zhCN": "幸运一击: 你的冰霜技能有最高 10% 几率使你施放的下一个寒冰碎片 、冰霜球或暴风雪 不消耗法力并且造成的伤害提高 x40%。该几率对易伤敌人翻倍。\n\nTags: 易伤, 幸运一击, 法力, 伤害, 寒霜.",
+			"zhCN": "幸运一击: 你的寒霜技能有最高 10% 几率使你施放的下一个寒冰碎片 、寒霜球或暴风雪 不消耗法力并且造成的伤害提高 x40%。该几率对易伤敌人翻倍。\n\nTags: 易伤, 幸运一击, 法力, 伤害, 寒霜.",
 			"zhTW": "幸運觸發:你的冰霜技能有最高 10% 機率使你下一次施放寒冰裂片、冰封球或暴風雪時不消耗法力,且造成的傷害提高 x40%。對易傷敵人的機率加倍。\n\nTags: 易傷, 幸運觸發, 法力, 傷害, 冰霜."
 },
 		id: 140,
@@ -5157,7 +5157,7 @@ Tags: Vulnerable, Lucky Hit, Mana, Damage, Frost.`,
 	},
 	"Combustion": {
 		connections: [ "Key Passive" ],
-		description: `Your Burning effects deal x{2/4/6/8/10/12/14/16/18/20}% increased damage per unique source of Burning you have applied to the enemy. If the enemy is Burning from 3 or more sources, this bonus is doubled.
+		description: `Your Burning effects deal x2% increased damage per unique source of Burning you have applied to the enemy. If the enemy is Burning from 3 or more sources, this bonus is doubled.
 
 Tags: Burn, Damage.`,
 		nameLocalized: {
@@ -5176,19 +5176,19 @@ Tags: Burn, Damage.`,
 			"zhTW": "烈焰爆發"
 },
 		descriptionLocalized: {
-			"deDE": "Eure Verbrennungseffekte verursachen x{2/4/6/8/10/12/14/16/18/20}% mehr Schaden für jede einzigartige Quelle, aus der Ihr den Gegner verbrannt habt. Wenn der Gegner aus 3 oder mehr Quellen brennt, verdoppelt sich dieser Bonus.\n\nTags: Verbrennung, Schaden.",
-			"esES": "Tus efectos de quemadura infligen un x{2/4/6/8/10/12/14/16/18/20}% más de daño por cada fuente única de quemadura que hayas aplicado al enemigo. Si tiene quemaduras activas de 3 o más fuentes, el bonus se duplica.\n\nTags: Quemadura, Daño.",
-			"esMX": "Tus efectos de quemadura infligen un x{2/4/6/8/10/12/14/16/18/20}% más de daño por cada fuente única de quemadura que aplicas al enemigo. Si el enemigo está quemado por 3 o más fuentes, esta bonificación se duplica.\n\nTags: Quemadura, Daño.",
-			"frFR": "Vos effets de brûlure infligent x{2/4/6/8/10/12/14/16/18/20}% de dégâts supplémentaires par source de brûlure unique que vous avez appliquée à l'adversaire. Si l'adversaire subit des brûlures de la part d'au moins 3 sources, ce bonus est doublé.\n\nTags: Brûlure, Dégâts.",
-			"itIT": "I danni degli effetti di fiamme che infliggi aumentano del x{2/4/6/8/10/12/14/16/18/20}% per ogni effetto di fiamme inferto al nemico. Se il nemico è in fiamme a causa di 3 o più fonti di danno, il bonus raddoppia.\n\nTags: Bruciatura, Danni.",
-			"jaJP": "敵に与えた炎上の原因となる要素が1種類増えるごとに、炎上効果のダメージがx{2/4/6/8/10/12/14/16/18/20}%増加する。3個以上の要素が原因で敵が炎上している場合、ボーナス量が2倍になる。\n\nTags: 炎上, ダメージ.",
-			"koKR": "자신이 적에게 건 연소 효과의 근원 하나당 자신의 연소 효과로 해당 적에게 주는 피해가 x{2/4/6/8/10/12/14/16/18/20}% 증가합니다. 적이 3개 이상의 근원으로부터 연소 효과를 받고 있을 때는 이 효과가 2배로 증가합니다.\n\nTags: 불태우기, 피해.",
-			"plPL": "Twoje efekty podpalenia zadają obrażenia zwiększone o x{2/4/6/8/10/12/14/16/18/20}% za każde niezależne źródło podpalenia użyte przez ciebie przeciwko celowi. Premia ta jest podwojona, jeśli wróg został podpalony przez 3 lub więcej źródeł.\n\nTags: Podpalenie, Obrażenia.",
-			"ptBR": "Seus efeitos flamejantes causam {2/4/6/8/10/12/14/16/18/20}% de dano aumentado por fonte única de dano flamejante causado por você ao inimigo. Se o inimigo estiver queimando de 3 ou mais fontes, esse bônus é dobrado.\n\nTags: Queimadura, Dano.",
-			"ruRU": "Эффекты горения наносят на x{2/4/6/8/10/12/14/16/18/20}% больше урона за каждый уникальный эффект горения, который вы применили к цели. Если таких эффектов 3 или более, бонус удваивается.\n\nTags: Горение, Урон.",
-			"trTR": "Yanma etkilerin, düşmana uyguladığın farklı Yanma etkisi kaynağı başına x{2/4/6/8/10/12/14/16/18/20}% artırılmış hasar verir. Düşman 3 veya daha fazla kaynak ile Yakıldıysa bu bonus ikiye katlanır.\n\nTags: Yakma, Hasar.",
-			"zhCN": "你对敌人施加的每种不同来源的燃烧效果都会使你的伤害提高 x{2/4/6/8/10/12/14/16/18/20}%。如果敌人正受到 3 种或更多来源的燃烧效果, 此加成翻倍。\n\nTags: 燃烧, 伤害.",
-			"zhTW": "你每對敵人施加一個不同來源的燃燒效果,你的燃燒效果造成的傷害就會提高 x{2/4/6/8/10/12/14/16/18/20}%。若敵人身上有 3 個以上不同來源的燃燒效果,則此加成效果加倍。\n\nTags: 燃燒, 傷害."
+			"deDE": "Eure Verbrennungseffekte verursachen x2% mehr Schaden für jede einzigartige Quelle, aus der Ihr den Gegner verbrannt habt. Wenn der Gegner aus 3 oder mehr Quellen brennt, verdoppelt sich dieser Bonus.\n\nTags: Verbrennung, Schaden.",
+			"esES": "Tus efectos de quemadura infligen un x2% más de daño por cada fuente única de quemadura que hayas aplicado al enemigo. Si tiene quemaduras activas de 3 o más fuentes, el bonus se duplica.\n\nTags: Quemadura, Daño.",
+			"esMX": "Tus efectos de quemadura infligen un x2% más de daño por cada fuente única de quemadura que aplicas al enemigo. Si el enemigo está quemado por 3 o más fuentes, esta bonificación se duplica.\n\nTags: Quemadura, Daño.",
+			"frFR": "Vos effets de brûlure infligent x2% de dégâts supplémentaires par source de brûlure unique que vous avez appliquée à l'adversaire. Si l'adversaire subit des brûlures de la part d'au moins 3 sources, ce bonus est doublé.\n\nTags: Brûlure, Dégâts.",
+			"itIT": "I danni degli effetti di fiamme che infliggi aumentano del x2% per ogni effetto di fiamme inferto al nemico. Se il nemico è in fiamme a causa di 3 o più fonti di danno, il bonus raddoppia.\n\nTags: Bruciatura, Danni.",
+			"jaJP": "敵に与えた炎上の原因となる要素が1種類増えるごとに、炎上効果のダメージがx2%増加する。3個以上の要素が原因で敵が炎上している場合、ボーナス量が2倍になる。\n\nTags: 炎上, ダメージ.",
+			"koKR": "자신이 적에게 건 연소 효과의 근원 하나당 자신의 연소 효과로 해당 적에게 주는 피해가 x2% 증가합니다. 적이 3개 이상의 근원으로부터 연소 효과를 받고 있을 때는 이 효과가 2배로 증가합니다.\n\nTags: 불태우기, 피해.",
+			"plPL": "Twoje efekty podpalenia zadają obrażenia zwiększone o x2% za każde niezależne źródło podpalenia użyte przez ciebie przeciwko celowi. Premia ta jest podwojona, jeśli wróg został podpalony przez 3 lub więcej źródeł.\n\nTags: Podpalenie, Obrażenia.",
+			"ptBR": "Seus efeitos flamejantes causam 2% de dano aumentado por fonte única de dano flamejante causado por você ao inimigo. Se o inimigo estiver queimando de 3 ou mais fontes, esse bônus é dobrado.\n\nTags: Queimadura, Dano.",
+			"ruRU": "Эффекты горения наносят на x2% больше урона за каждый уникальный эффект горения, который вы применили к цели. Если таких эффектов 3 или более, бонус удваивается.\n\nTags: Горение, Урон.",
+			"trTR": "Yanma etkilerin, düşmana uyguladığın farklı Yanma etkisi kaynağı başına x2% artırılmış hasar verir. Düşman 3 veya daha fazla kaynak ile Yakıldıysa bu bonus ikiye katlanır.\n\nTags: Yakma, Hasar.",
+			"zhCN": "你对敌人施加的每种不同来源的燃烧效果都会使你的伤害提高 x2%。如果敌人正受到 3 种或更多来源的燃烧效果, 此加成翻倍。\n\nTags: 燃烧, 伤害.",
+			"zhTW": "你每對敵人施加一個不同來源的燃燒效果,你的燃燒效果造成的傷害就會提高 x2%。若敵人身上有 3 個以上不同來源的燃燒效果,則此加成效果加倍。\n\nTags: 燃燒, 傷害."
 },
 		id: 141,
 		maxPoints: 1,
