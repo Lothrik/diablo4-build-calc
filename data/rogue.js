@@ -4400,7 +4400,7 @@ Tags: Energy, Ultimate.`,
 	"Death Trap": {
 		connections: [ "Prime Death Trap", "Ultimate" ],
 		description: `Cooldown: 50 seconds
-Lucky Hit Chance: 4% (per hit)
+Lucky Hit Chance: 8% (per hit)
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing a total of 250% damage to each enemy in the area.
 
 Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
@@ -4420,19 +4420,19 @@ Tags: Ultimate, Trap, Damage, Shadow, Cooldown.`,
 			"zhTW": "死亡陷阱"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 50 Sek.\nGlückstrefferchance: 4% (per hit)\nPlatziert eine Falle, die nach {#} Sek. scharf wird. Kommen Gegner ihr zu nahe, aktiviert sie sich, explodiert und fügt jedem Gegner im Wirkungsbereich insgesamt 250% Schaden zu.\n\nTags: Ultimativ, Falle, Schaden, Schatten, Abklingzeit.",
-			"esES": "Tiempo de reutilización: 50 s\nProbabilidad de golpe de suerte: 4% (per hit)\nColocas una trampa que se arma al cabo de {#} s. Cuando un enemigo se pone al alcance, se activa e inflige un total de 250% de daño a cada enemigo en la zona.\n\nTags: Definitiva, Trampa, Daño, Sombra, Tiempo de reutilización.",
-			"esMX": "Recuperación: 50 segundos\nProbabilidad de golpe afortunado: 4% (per hit)\nColocas una trampa que se arma después de {#} segundos. Se activa cuando un enemigo se mueve dentro del alcance e inflige un total de 250% de daño a cada enemigo en el área.\n\nTags: Máxima, Trampa, Daño, Sombra, Recuperación.",
-			"frFR": "Temps de recharge: 50 s\nChances d'obtenir un coup de chance: 4% (per hit)\nVous placez un piège qui s'arme au bout de {#} s. Il s'active lorsqu'une cible adverse passe à portée, ce qui inflige un total de 250% points de dégâts à chaque adversaire se trouvant dans la zone affectée.\n\nTags: Ultime, Piège, Dégâts, Ombre, Temps de recharge.",
-			"itIT": "Tempo di recupero: 50 s\nProbabilità di colpo fortunato: 4% (per hit)\nPiazzi una trappola che si arma dopo {#} s. Quando un nemico entra nel suo raggio d'azione, la trappola si attiva infliggendo un totale di 250% danni a ogni nemico nell'area.\n\nTags: Ultra, Trappole, Danni, Ombra, Tempo di recupero.",
-			"jaJP": "クールダウン: 50秒\n幸運の一撃発生率: 4% (per hit)\n{#}秒後に起動準備が完了する罠を仕掛ける。罠は一定距離内で敵が動くと起動し、エリア内にいる敵それぞれに合計250%のダメージを与える。\n\nTags: 奥義, 罠, ダメージ, 影, クールダウン.",
-			"koKR": "재사용 대기시간: 50초\n행운의 적중 확률: 4% (per hit)\n{#}초 후 장전되는 덫을 설치합니다. 덫은 적이 범위 내에 들어오면 발동하며, 해당 범위 내에 있는 각각의 적에게 총 250%의 피해를 줍니다.\n\nTags: 궁극기, 덫, 피해, 암흑, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: 50 sek.\nSzansa na szczęśliwy traf: 4% (per hit)\nTworzysz pułapkę, która uzbraja się po {#} sek. Gdy wróg zajdzie się w jej zasięgu, pułapka się aktywuje, a następnie wybucha, zadając w sumie 250% pkt. obrażeń każdemu wrogowi w polu rażenia.\n\nTags: Specjalne, Pułapki, Obrażenia, Cień, Odnowienie.",
-			"ptBR": "Recarga: 50 segundos\nChance de Golpe de Sorte: 4% (per hit)\nPosiciona uma armadilha que arma após {#} segundos. É ativada quando um inimigo entra em alcance, causando um total de 250% de dano a cada inimigo na área.\n\nTags: Suprema, Armadilha, Dano, Sombra, Recarga.",
-			"ruRU": "Время восстановления: 50 сек.\nВероятность удачного удара: 4% (per hit)\nВы размещаете на земле ловушку, которая заряжается через {#} сек. Когда в область действия попадает противник, она срабатывает и наносит целям в зоне поражения по 250% ед. урона.\n\nTags: Мощное умение, Ловушка, Урон, Темная магия, Время восстановления.",
-			"trTR": "Bekleme Süresi: 50 saniye\nŞanslı Vuruş İhtimali: 4% (per hit)\n{#} saniye sonra kurulan bir tuzak yerleştir. Tuzak, düşmanlar menziline girdiğinde etkinleştirilip bölgedeki her bir düşmana toplamda 250% hasar verir.\n\nTags: Ulti, Tuzak, Hasar, Gölge, Bekleme Süresi.",
-			"zhCN": "冷却时间: 50 秒\n幸运一击几率: 4% (per hit)\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 对范围内的每个敌人造成总共 250% 点伤害。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间.",
-			"zhTW": "冷卻時間:50 秒\n幸運觸發機率: 4% (per hit)\n放置一個 {#} 秒後設置完成的陷阱,於敵人進入範圍內時啟動,對範圍內每一個敵人造成總計 250% 點傷害。\n\nTags: 絕招, 陷阱, 傷害, 暗影, 冷卻時間."
+			"deDE": "Abklingzeit: 50 Sek.\nGlückstrefferchance: 8% (per hit)\nPlatziert eine Falle, die nach {#} Sek. scharf wird. Kommen Gegner ihr zu nahe, aktiviert sie sich, explodiert und fügt jedem Gegner im Wirkungsbereich insgesamt 250% Schaden zu.\n\nTags: Ultimativ, Falle, Schaden, Schatten, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 50 s\nProbabilidad de golpe de suerte: 8% (per hit)\nColocas una trampa que se arma al cabo de {#} s. Cuando un enemigo se pone al alcance, se activa e inflige un total de 250% de daño a cada enemigo en la zona.\n\nTags: Definitiva, Trampa, Daño, Sombra, Tiempo de reutilización.",
+			"esMX": "Recuperación: 50 segundos\nProbabilidad de golpe afortunado: 8% (per hit)\nColocas una trampa que se arma después de {#} segundos. Se activa cuando un enemigo se mueve dentro del alcance e inflige un total de 250% de daño a cada enemigo en el área.\n\nTags: Máxima, Trampa, Daño, Sombra, Recuperación.",
+			"frFR": "Temps de recharge: 50 s\nChances d'obtenir un coup de chance: 8% (per hit)\nVous placez un piège qui s'arme au bout de {#} s. Il s'active lorsqu'une cible adverse passe à portée, ce qui inflige un total de 250% points de dégâts à chaque adversaire se trouvant dans la zone affectée.\n\nTags: Ultime, Piège, Dégâts, Ombre, Temps de recharge.",
+			"itIT": "Tempo di recupero: 50 s\nProbabilità di colpo fortunato: 8% (per hit)\nPiazzi una trappola che si arma dopo {#} s. Quando un nemico entra nel suo raggio d'azione, la trappola si attiva infliggendo un totale di 250% danni a ogni nemico nell'area.\n\nTags: Ultra, Trappole, Danni, Ombra, Tempo di recupero.",
+			"jaJP": "クールダウン: 50秒\n幸運の一撃発生率: 8% (per hit)\n{#}秒後に起動準備が完了する罠を仕掛ける。罠は一定距離内で敵が動くと起動し、エリア内にいる敵それぞれに合計250%のダメージを与える。\n\nTags: 奥義, 罠, ダメージ, 影, クールダウン.",
+			"koKR": "재사용 대기시간: 50초\n행운의 적중 확률: 8% (per hit)\n{#}초 후 장전되는 덫을 설치합니다. 덫은 적이 범위 내에 들어오면 발동하며, 해당 범위 내에 있는 각각의 적에게 총 250%의 피해를 줍니다.\n\nTags: 궁극기, 덫, 피해, 암흑, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 50 sek.\nSzansa na szczęśliwy traf: 8% (per hit)\nTworzysz pułapkę, która uzbraja się po {#} sek. Gdy wróg zajdzie się w jej zasięgu, pułapka się aktywuje, a następnie wybucha, zadając w sumie 250% pkt. obrażeń każdemu wrogowi w polu rażenia.\n\nTags: Specjalne, Pułapki, Obrażenia, Cień, Odnowienie.",
+			"ptBR": "Recarga: 50 segundos\nChance de Golpe de Sorte: 8% (per hit)\nPosiciona uma armadilha que arma após {#} segundos. É ativada quando um inimigo entra em alcance, causando um total de 250% de dano a cada inimigo na área.\n\nTags: Suprema, Armadilha, Dano, Sombra, Recarga.",
+			"ruRU": "Время восстановления: 50 сек.\nВероятность удачного удара: 8% (per hit)\nВы размещаете на земле ловушку, которая заряжается через {#} сек. Когда в область действия попадает противник, она срабатывает и наносит целям в зоне поражения по 250% ед. урона.\n\nTags: Мощное умение, Ловушка, Урон, Темная магия, Время восстановления.",
+			"trTR": "Bekleme Süresi: 50 saniye\nŞanslı Vuruş İhtimali: 8% (per hit)\n{#} saniye sonra kurulan bir tuzak yerleştir. Tuzak, düşmanlar menziline girdiğinde etkinleştirilip bölgedeki her bir düşmana toplamda 250% hasar verir.\n\nTags: Ulti, Tuzak, Hasar, Gölge, Bekleme Süresi.",
+			"zhCN": "冷却时间: 50 秒\n幸运一击几率: 8% (per hit)\n放置一个在 {#} 秒后完成部署的陷阱。陷阱会在敌人进入范围时激活, 对范围内的每个敌人造成总共 250% 点伤害。\n\nTags: 终极技能, 陷阱, 伤害, 暗影, 冷却时间.",
+			"zhTW": "冷卻時間:50 秒\n幸運觸發機率: 8% (per hit)\n放置一個 {#} 秒後設置完成的陷阱,於敵人進入範圍內時啟動,對範圍內每一個敵人造成總計 250% 點傷害。\n\nTags: 絕招, 陷阱, 傷害, 暗影, 冷卻時間."
 },
 		id: 108,
 		maxPoints: 1,
