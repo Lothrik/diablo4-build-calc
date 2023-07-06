@@ -1519,7 +1519,7 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 			"ruRU": "Когда время действия \"Вихря\" достигает 2 сек., наносимый им урон увеличивается на x30% до отмены умения.",
 			"trTR": "2 saniye boyunca Burgaç kullandıktan sonra Burgaç iptal edilene kadar x30% artırılmış hasar verir.",
 			"zhCN": "使用旋风斩持续 2 秒后, 旋风斩造成的伤害提高 x30%, 该效果会一直持续到取消该技能。",
-			"zhTW": "使用旋風斬後的 2 秒內,旋風斬造成的傷害提高 x30%,直到解除為止。"
+			"zhTW": "使用旋風斬的 2 秒後,旋風斬造成的傷害提高 x30%,直到解除為止。"
 },
 		id: 36,
 		maxPoints: 1,

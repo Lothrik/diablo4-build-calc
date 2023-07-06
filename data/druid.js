@@ -4663,7 +4663,7 @@ Tags: Fortify.`,
 			"ruRU": "Вы получаете на +{5/10/15/20/25/30/35/40/45/50}% больше укрепления от любых источников.\n\nTags: Укрепление.",
 			"trTR": "Tüm kaynaklardan kazandığın Güçlendirmeyi +{5/10/15/20/25/30/35/40/45/50}% artırır.\n\nTags: Güçlendirme.",
 			"zhCN": "你从所有来源获得的强固数值提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 强固.",
-			"zhTW": "使你從各種所有獲得的強韌提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 強韌."
+			"zhTW": "使你從所有來源獲得的強韌提高 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 強韌."
 },
 		id: 113,
 		maxPoints: 3,
@@ -5065,7 +5065,7 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"ruRU": "Время восстановления: 60 сек.\nВероятность удачного удара: 62.175% (per use)\nПризывает разрушительную бурю, которая следует за вами в течение 8 сек. Появляющиеся вихри отбрасывают противников, а яростные разряды молнии наносят целям 64% ед. урона.\n\nTags: Мощное умение, Силы природы, Буря, Молния, Урон, Время восстановления, Контроль.",
 			"trTR": "Bekleme Süresi: 60 saniye\nŞanslı Vuruş İhtimali: 62.175% (per use)\nBüyük bir fırtına 8 saniye boyunca seni takip eder. Hortumlar düşmanları Geri Savurur ve şimşek darbeleri vahşice 64% hasar verir.\n\nTags: Ulti, Doğa Sihri, Fırtına, Yıldırım, Hasar, Bekleme Süresi, Kitle Kontrolü.",
 			"zhCN": "冷却时间: 60 秒\n幸运一击几率: 62.175% (per use)\n一场巨大的风暴跟随着你, 持续 8 秒。龙卷风会击退敌人, 并用闪电狂野地打击敌人, 造成 64% 点伤害。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控.",
-			"zhTW": "冷卻時間:60 秒\n幸運觸發機率:62.175% (per use)\n巨大風暴會跟隨你,持續 8 秒。旋風術會擊退敵人,並降下猛烈閃電造成 64% 點傷害。\n\nTags: 絕招, 自然魔法, 風暴, 閃電, 傷害, 冷卻時間, 控場."
+			"zhTW": "冷卻時間:60 秒\n幸運觸發機率:62.175% (per use)\n巨大風暴會跟隨你,持續 8 秒。巨大風暴會產生擊退敵人的旋風,並降下猛烈閃電造成 64% 點傷害。\n\nTags: 絕招, 自然魔法, 風暴, 閃電, 傷害, 冷卻時間, 控場."
 },
 		id: 123,
 		maxPoints: 1,
