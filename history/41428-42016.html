@@ -16,15 +16,13 @@
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Expertise&#x27;: {</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Barbarian_WeaponExpertise_1HAxe&#x27;: {</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;+{0.5/1/1.5/2/2.5/3/3.5/4/4.5/5}% increased Critical Strike Chance against Injured enemies. Double this amount when using two Axes.&#x27;,</span><br>
-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 180,</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SkillRankBonus_Generic_Category_Defensive&#x27;: {</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 180,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name_prefix&#x27;: &#x27;Defensive&#x27;,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name_suffix&#x27;: &#x27;of Defense&#x27;,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_0" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;DamageReduction_Burning_Lesser&#x27;: {</span><br>
-<span id="change_0" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_0" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_0" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 625,</span><br>
+<span id="change_0" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 625,</span><br>
 <span id="change_0" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Legendary&#x27;: {</span><br>
@@ -119,115 +117,68 @@
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Item Affix&#x27;: {</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Armor&#x27;: {</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 119253633,</span><br>
-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 3,</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 150,</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30,</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;You take 30% less damage when you are below half Life.\nYou deal 50% more damage to enemies below half Life.&#x27;,</span><br>
-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_15" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;AttackSpeed_Greater&#x27;: {</span><br>
 <span id="change_15" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1647315560,</span><br>
-<span id="change_15" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_15" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_15" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
 <span id="change_15" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Health_Greater&#x27;: {</span><br>
-<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
+<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Indestructible&#x27;: {</span><br>
+<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1304397498,</span><br>
+<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,</span><br>
+<span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_16" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Indestructible&#x27;: {</span><br>
-<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1304397498,</span><br>
-<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 36,</span><br>
-<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
-<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,</span><br>
-<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
+<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Lucky_Hit_Fear&#x27;: {</span><br>
+<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 805302519,</span><br>
+<span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 725,</span><br>
 <span id="change_17" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Lucky_Hit_Fear&#x27;: {</span><br>
-<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 805302519,</span><br>
-<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 12,</span><br>
-<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 725,</span><br>
+<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SMP_WishingWell_Stat_Dex&#x27;: {</span><br>
+<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,</span><br>
+<span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_18" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;MountArmor&#x27;: {</span><br>
-<span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
+<span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SMP_WishingWell_Stat_Int&#x27;: {</span><br>
+<span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,</span><br>
+<span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_19" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Mount_MovementSpeed_Common&#x27;: {</span><br>
-<span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
+<span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SMP_WishingWell_Stat_Str&#x27;: {</span><br>
+<span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,</span><br>
+<span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_20" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Movement_Speed_Lesser&#x27;: {</span><br>
-<span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
+<span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SMP_WishingWell_Stat_Wil&#x27;: {</span><br>
+<span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,</span><br>
+<span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_21" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SMP_WishingWell_Stat_Dex&#x27;: {</span><br>
-<span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
+<span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Shield_Damage_Bonus&#x27;: {</span><br>
+<span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 3396802493,</span><br>
 <span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
-<span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,</span><br>
+<span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.8,</span><br>
 <span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
 <span id="change_22" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SMP_WishingWell_Stat_Int&#x27;: {</span><br>
-<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
-<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,</span><br>
-<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
+<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;UtilityFind&#x27;: {</span><br>
+<span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 725,</span><br>
 <span id="change_23" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SMP_WishingWell_Stat_Str&#x27;: {</span><br>
-<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
-<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,</span><br>
-<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
-<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_25" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SMP_WishingWell_Stat_Wil&#x27;: {</span><br>
-<span id="change_25" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_25" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
-<span id="change_25" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,</span><br>
-<span id="change_25" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_25" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_25" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
-<span id="change_25" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Shield_Damage_Bonus&#x27;: {</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 3396802493,</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.8,</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 1,</span><br>
-<span id="change_26" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_27" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;UtilityFind&#x27;: {</span><br>
-<span id="change_27" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 4,</span><br>
-<span id="change_27" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_27" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 725,</span><br>
-<span id="change_27" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Legendary&#x27;: {</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Legendary_Generic_110&#x27;: {</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;category&#x27;: 0,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Critical Strikes with Core Skills increase your Attack Speed by +{15/25}% for 5.0 seconds.&#x27;,</span><br>
-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 180,</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;SkillRankBonus_Sorc_Special_Teleport&#x27;: {</span><br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 180,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name_prefix&#x27;: &#x27;Warping&#x27;,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name_suffix&#x27;: &#x27;of Warping&#x27;,</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
-<span id="change_28" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;PassiveRankBonus_Sorc_Fire_T1_N2_InnerFlames_Scaled2H&#x27;: {</span><br>
-<span id="change_28" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 2197632257,</span><br>
-<span id="change_28" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_flag&#x27;: 12,</span><br>
-<span id="change_28" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;max_power&#x27;: 2000,</span><br>
-<span id="change_28" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_power&#x27;: 625,</span><br>
-<span id="change_28" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;PassiveRankBonus_Sorc_Fire_T1_N2_InnerFlames_Scaled2H&#x27;: {</span><br>
+<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 2197632257,</span><br>
+<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 625,</span><br>
+<span id="change_24" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Legendary&#x27;: {</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Legendary_Sorc_133&#x27;: {</span><br>
