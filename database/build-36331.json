@@ -90,6 +90,404 @@
 				"name": "Shield"
 			}
 		},
+		"Item Affix": {
+			"Barrier_Strength_Percent": {
+				"affix_family": 1204680589,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Reinforcing",
+				"name_suffix": "of Reinforcing"
+			},
+			"DamageReduction_Bleeding": {
+				"affix_family": 2493841406,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Gorewall",
+				"name_suffix": "of the Gorewall"
+			},
+			"Damage_Tag_Brawling": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Brawler's",
+				"name_suffix": "of the Brawler"
+			},
+			"Damage_Type_Bonus_Physical": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Painful",
+				"name_suffix": "of Pain"
+			},
+			"Damage_WeaponSwap": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Grandmaster's",
+				"name_suffix": "of the Grandmaster"
+			},
+			"Damage_Weapon_2HBludgeon": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Brute's",
+				"name_suffix": "of the Brute"
+			},
+			"Damage_Weapon_2HSlash": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Carver's",
+				"name_suffix": "of the Carver"
+			},
+			"Damage_Weapon_DualWield": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Cutthroat",
+				"name_suffix": "of the Cutthroat"
+			},
+			"Damage_to_Bleeding": {
+				"affix_family": 2059507876,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Executor's",
+				"name_suffix": "of Execution"
+			},
+			"FireDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Ember",
+				"name_suffix": "of Embers"
+			},
+			"FortifyBonus": {
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Fortifying",
+				"name_suffix": "of Fortitude",
+				"tags": [
+					"Keyword_Fortify"
+				]
+			},
+			"FortifyDamageReduction": {
+				"affix_family": 3860131651,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Secure",
+				"name_suffix": "of Secured",
+				"tags": [
+					"Keyword_Fortify"
+				]
+			},
+			"LightningDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Lightning",
+				"name_suffix": "of Lightning"
+			},
+			"Lucky_Hit_Bleed": {
+				"affix_family": 805302519,
+				"affix_flag": 4,
+				"affix_formulas": [
+					0.3,
+					0,
+					5
+				],
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Sharp",
+				"name_suffix": "of Sharpness"
+			},
+			"MaxFury": {
+				"affix_family": 659039693,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Furious",
+				"name_suffix": "of Fury"
+			},
+			"OverpowerDamage_Weapon_2HBludgeon": {
+				"affix_family": 2256840246,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Decimating",
+				"name_suffix": "of Decimating"
+			},
+			"Paragon_Node_Test": {
+				"affix_family": 2550454408,
+				"affix_flag": 4,
+				"affix_formulas": [
+					0.1
+				],
+				"desc": "Bleeding enemy you kill explodes, dealing 10% of their max life to nearby enemies.",
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"PassiveRankBonus_Barb_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Countering",
+				"name_suffix": "of Countering"
+			},
+			"PassiveRankBonus_Barb_10": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Walloping",
+				"name_suffix": "of Walloping"
+			},
+			"PassiveRankBonus_Barb_Berserker_T2_N4": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Oppressive",
+				"name_suffix": "of Oppression"
+			},
+			"PassiveRankBonus_Barb_Berserker_T3_N3": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Slayer's",
+				"name_suffix": "of the Slayer"
+			},
+			"PassiveRankBonus_Barb_Berserker_T4_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Carving",
+				"name_suffix": "of Carving"
+			},
+			"PassiveRankBonus_Barb_Warlord_T2_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Concussive",
+				"name_suffix": "of Concussions"
+			},
+			"PassiveRankBonus_Barb_Warlord_T4_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Prowessed",
+				"name_suffix": "of Prowess"
+			},
+			"Resource_Cost_Reduction_Barbarian": {
+				"affix_family": 2124142309,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Efficient",
+				"name_suffix": "of Efficiency"
+			},
+			"SkillRankBonus_Barb_Brawling": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Brawling",
+				"name_suffix": "of Brawling"
+			},
+			"SkillRankBonus_Barb_Primary_01_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 76,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Bashing",
+				"name_suffix": "(PH) of Bashing"
+			},
+			"SkillRankBonus_Barb_Primary_02_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 76,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Flaying",
+				"name_suffix": "(PH) of Flaying"
+			},
+			"SkillRankBonus_Barb_Primary_03_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 76,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Frenzying",
+				"name_suffix": "(PH) of Frenzying"
+			},
+			"SkillRankBonus_Barb_Primary_04_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 76,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Lunging",
+				"name_suffix": "(PH) of Lunging"
+			},
+			"SkillRankBonus_Barb_Secondary_01_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Ancients'",
+				"name_suffix": "(PH) of Ancients"
+			},
+			"SkillRankBonus_Barb_Secondary_02_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Rending",
+				"name_suffix": "(PH) of Rending"
+			},
+			"SkillRankBonus_Barb_Secondary_03_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Eviscerating",
+				"name_suffix": "(PH) of Eviscerating"
+			},
+			"SkillRankBonus_Barb_Secondary_04_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Upheavaling",
+				"name_suffix": "(PH) of Upheavaling"
+			},
+			"SkillRankBonus_Barb_Secondary_05_Slot01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Whirlwinding",
+				"name_suffix": "(PH) of Whirlwinding"
+			},
+			"SkillRankBonus_Barb_Special1_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Stomping",
+				"name_suffix": "(PH) of Stomping"
+			},
+			"SkillRankBonus_Barb_Special1_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Rallying",
+				"name_suffix": "(PH) of Rallying"
+			},
+			"SkillRankBonus_Barb_Special1_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Iron",
+				"name_suffix": "(PH) of Iron"
+			},
+			"SkillRankBonus_Barb_Special1_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Challenging",
+				"name_suffix": "(PH) of Challenging"
+			},
+			"SkillRankBonus_Barb_Special2_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Kicking",
+				"name_suffix": "(PH) of Kicking"
+			},
+			"SkillRankBonus_Barb_Special2_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Warring",
+				"name_suffix": "(PH) of Warring"
+			},
+			"SkillRankBonus_Barb_Special2_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Leaping",
+				"name_suffix": "(PH) of Leaping"
+			},
+			"SkillRankBonus_Barb_Special2_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Charging",
+				"name_suffix": "(PH) of Charging"
+			},
+			"SkillRankBonus_Barb_Special3_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Grasping",
+				"name_suffix": "of Grasping"
+			},
+			"SkillRankBonus_Barb_Special3_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Killing",
+				"name_suffix": "(PH) of Killing"
+			},
+			"SkillRankBonus_Barb_Special3_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Rupturing",
+				"name_suffix": "(PH) of Rupturing"
+			},
+			"SkillRankBonus_Barb_WeaponMastery": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Weapon Master's",
+				"name_suffix": "of Weapon Master"
+			},
+			"SkillRankBonus_Defensive": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Defensive",
+				"name_suffix": "of Defense"
+			}
+		},
 		"Legendary": {
 			"legendary_barb_001": {
 				"category": 0,
@@ -5820,6 +6218,445 @@
 		}
 	},
 	"Druid": {
+		"Item Affix": {
+			"Barrier_Strength_Percent": {
+				"affix_family": 1204680589,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Reinforcing",
+				"name_suffix": "of Reinforcing"
+			},
+			"DamageReduction_Poisoned": {
+				"affix_family": 2493841406,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Venomwall",
+				"name_suffix": "of the Venomwall"
+			},
+			"Damage_Tag_Companion": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Familiars'",
+				"name_suffix": "of Familiars"
+			},
+			"Damage_Tag_Earth": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Earthcaller's",
+				"name_suffix": "of the Earthcaller"
+			},
+			"Damage_Tag_Storm": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Stormcaller's",
+				"name_suffix": "of the Stormcaller"
+			},
+			"Damage_Tag_Werebear": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Ursine",
+				"name_suffix": "of the Ursine"
+			},
+			"Damage_Tag_Werewolf": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Lupine",
+				"name_suffix": "of the Lupine"
+			},
+			"Damage_Type_Bonus_Lightning": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Lightning",
+				"name_suffix": "of Lightning"
+			},
+			"Damage_Type_Bonus_Physical": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Painful",
+				"name_suffix": "of Pain"
+			},
+			"Damage_Type_Bonus_Poison": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Venomous",
+				"name_suffix": "of Venom"
+			},
+			"Damage_to_Poisoned": {
+				"affix_family": 2059507876,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Festering",
+				"name_suffix": "of Festering"
+			},
+			"FortifyBonus": {
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Fortifying",
+				"name_suffix": "of Fortitude",
+				"tags": [
+					"Keyword_Fortify"
+				]
+			},
+			"FortifyDamageReduction": {
+				"affix_family": 3860131651,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Secure",
+				"name_suffix": "of Secured",
+				"tags": [
+					"Keyword_Fortify"
+				]
+			},
+			"FrostDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Frost",
+				"name_suffix": "of Frost"
+			},
+			"INHERENT_Resource_Cost_Reduction_Druid": {
+				"affix_family": 2124142309,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Efficient",
+				"name_suffix": "of Efficiency"
+			},
+			"LightningDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Lightning",
+				"name_suffix": "of Lightning"
+			},
+			"MaxSpirit": {
+				"affix_family": 659039693,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Spiritual",
+				"name_suffix": "of Spirits"
+			},
+			"PassiveRankBonus_Druid_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Bolstered",
+				"name_suffix": "of the Bolstered"
+			},
+			"PassiveRankBonus_Druid_06": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Branching",
+				"name_suffix": "of Branching"
+			},
+			"PassiveRankBonus_Druid_10": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Impulsive",
+				"name_suffix": "of Impulses"
+			},
+			"PassiveRankBonus_Druid_NatureMagic_T2_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Crushing",
+				"name_suffix": "of Crushing"
+			},
+			"PassiveRankBonus_Druid_NatureMagic_T3_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Resonating",
+				"name_suffix": "of Resonance"
+			},
+			"PassiveRankBonus_Druid_NatureMagic_T4_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Defiant",
+				"name_suffix": "of Defiance"
+			},
+			"PassiveRankBonus_Druid_NatureMagic_T4_N3": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Disastrous",
+				"name_suffix": "of Disasters"
+			},
+			"PassiveRankBonus_Druid_Shapeshifting_T2_N3": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "The Wild's",
+				"name_suffix": "of the Wild"
+			},
+			"PassiveRankBonus_Druid_Shapeshifting_T4_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Shifting",
+				"name_suffix": "of Shifting"
+			},
+			"PassiveRankBonus_Druid_Shapeshifting_T4_N3": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Toxic",
+				"name_suffix": "of Toxicity"
+			},
+			"Resource_Cost_Reduction_Druid": {
+				"affix_family": 2124142309,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Efficient",
+				"name_suffix": "of Efficiency"
+			},
+			"SkillRankBonus_Defensive": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Defensive",
+				"name_suffix": "of Defense"
+			},
+			"SkillRankBonus_Druid_Companion": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Companion's",
+				"name_suffix": "of the Companion"
+			},
+			"SkillRankBonus_Druid_Primary_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Earthen",
+				"name_suffix": "(PH) of Earthen"
+			},
+			"SkillRankBonus_Druid_Primary_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Clawing",
+				"name_suffix": "(PH) of Clawing"
+			},
+			"SkillRankBonus_Druid_Primary_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Storming",
+				"name_suffix": "(PH) of Storming"
+			},
+			"SkillRankBonus_Druid_Primary_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Shearing",
+				"name_suffix": "(PH) of Shearing"
+			},
+			"SkillRankBonus_Druid_Primary_05": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Mauling",
+				"name_suffix": "(PH) of Mauling"
+			},
+			"SkillRankBonus_Druid_Secondary_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Earthmover's",
+				"name_suffix": "(PH) of Earthmover"
+			},
+			"SkillRankBonus_Druid_Secondary_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Pulverizing",
+				"name_suffix": "(PH) of Pulverizing"
+			},
+			"SkillRankBonus_Druid_Secondary_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Twisting",
+				"name_suffix": "(PH) of Twisting"
+			},
+			"SkillRankBonus_Druid_Secondary_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Fulminating",
+				"name_suffix": "of Fulmination"
+			},
+			"SkillRankBonus_Druid_Secondary_05": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Tearing",
+				"name_suffix": "(PH) of Tearing"
+			},
+			"SkillRankBonus_Druid_Special1_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Bulwark",
+				"name_suffix": "(PH) of Bulwark"
+			},
+			"SkillRankBonus_Druid_Special1_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Debilitating",
+				"name_suffix": "(PH) of Debilitation"
+			},
+			"SkillRankBonus_Druid_Special1_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Cyclonic",
+				"name_suffix": "(PH) of Cyclonic"
+			},
+			"SkillRankBonus_Druid_Special1_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Howling",
+				"name_suffix": "(PH) of Howling"
+			},
+			"SkillRankBonus_Druid_Special2_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Trampling",
+				"name_suffix": "(PH) of Trampling"
+			},
+			"SkillRankBonus_Druid_Special2_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Tempest's",
+				"name_suffix": "(PH) of Tempest"
+			},
+			"SkillRankBonus_Druid_Special2_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Stonebringer's",
+				"name_suffix": "(PH) of Stonebringer"
+			},
+			"SkillRankBonus_Druid_Special2_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Infectious",
+				"name_suffix": "(PH) of Infection"
+			},
+			"SkillRankBonus_Druid_Special3_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Birdkeeper's",
+				"name_suffix": "(PH) of Birdkeeping"
+			},
+			"SkillRankBonus_Druid_Special3_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Entangling",
+				"name_suffix": "(PH) of Entangling"
+			},
+			"SkillRankBonus_Druid_Special3_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Pack Leader's",
+				"name_suffix": "(PH) of Pack Leader"
+			},
+			"SkillRankBonus_Druid_Wrath": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Wrathful",
+				"name_suffix": "(PH) of Wrath"
+			},
+			"Werebear_Armor": {
+				"affix_family": 119253633,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Ironhide",
+				"name_suffix": "of the Ironhide"
+			},
+			"Werewolf_Armor": {
+				"affix_family": 119253633,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Ironcoat",
+				"name_suffix": "of the Ironcoat"
+			}
+		},
 		"Legendary": {
 			"legendary_druid_002": {
 				"category": 3,
@@ -15835,6 +16672,1126 @@
 				"name": "Reyna's Wedding Ring"
 			}
 		},
+		"Item Affix": {
+			"Armor": {
+				"affix_family": 119253633,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 150,
+				"name_prefix": "(PH) Mighty",
+				"name_suffix": "(PH) of Might"
+			},
+			"AttackSpeed": {
+				"affix_family": 1647315560,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Keen",
+				"name_suffix": "of Keenness"
+			},
+			"Block": {
+				"affix_family": 120225707,
+				"affix_flag": 4,
+				"affix_formulas": [
+					0.2,
+					0
+				],
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Blocking",
+				"name_suffix": "of Blocking"
+			},
+			"CC_Duration": {
+				"affix_family": 3862682955,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 200,
+				"name_prefix": "Ensnaring",
+				"name_suffix": "of Ensnaring"
+			},
+			"CC_Duration_Reduction": {
+				"affix_family": 98079159,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 340,
+				"name_prefix": "Unbound",
+				"name_suffix": "of Unbounding"
+			},
+			"CD_Reduction": {
+				"affix_family": 3314500755,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Swift",
+				"name_suffix": "of Swiftness"
+			},
+			"CoreStat_Dexterity": {
+				"affix_family": 2350006583,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Adroit",
+				"name_suffix": "(PH) of Adroitness"
+			},
+			"CoreStat_DexterityPercent": {
+				"affix_family": 2350006583,
+				"affix_flag": 12,
+				"affix_formulas": [
+					0.02
+				],
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Nimble",
+				"name_suffix": "(PH) of Nimbleness"
+			},
+			"CoreStat_Intelligence": {
+				"affix_family": 2350006583,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Acute",
+				"name_suffix": "(PH) of Acuteness"
+			},
+			"CoreStat_IntelligencePercent": {
+				"affix_family": 2350006583,
+				"affix_flag": 12,
+				"affix_formulas": [
+					0.02
+				],
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Astute",
+				"name_suffix": "(PH) of Astuteness"
+			},
+			"CoreStat_Strength": {
+				"affix_family": 2350006583,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Brute",
+				"name_suffix": "(PH) of Brawn"
+			},
+			"CoreStat_StrengthPercent": {
+				"affix_family": 2350006583,
+				"affix_flag": 12,
+				"affix_formulas": [
+					0.02
+				],
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Sturdy",
+				"name_suffix": "(PH) of Bulk"
+			},
+			"CoreStat_Willpower": {
+				"affix_family": 2350006583,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Tough",
+				"name_suffix": "(PH) of Toughness"
+			},
+			"CoreStat_WillpowerPercent": {
+				"affix_family": 2350006583,
+				"affix_flag": 12,
+				"affix_formulas": [
+					0.02
+				],
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Tenacious",
+				"name_suffix": "(PH) of Tenacity"
+			},
+			"CoreStats_All": {
+				"affix_family": 2350006583,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH) Stable",
+				"name_suffix": "(PH) of Stability"
+			},
+			"CritChance": {
+				"affix_family": 3016347731,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Adept",
+				"name_suffix": "of the Adept"
+			},
+			"CritChanceJewelry": {
+				"affix_family": 3016347731,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Adept",
+				"name_suffix": "of the Adept"
+			},
+			"CritDamage": {
+				"affix_family": 2651786116,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Malicious",
+				"name_suffix": "of Malice"
+			},
+			"Damage": {
+				"affix_family": 3396802493,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Ferocious",
+				"name_suffix": "of Ferocity"
+			},
+			"DamageHealthy": {
+				"affix_family": 1461963396,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Potent",
+				"name_suffix": "of Potency"
+			},
+			"DamageReduction": {
+				"affix_family": 3860131651,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sturdy",
+				"name_suffix": "of Sturdiness"
+			},
+			"DamageReductionClose": {
+				"affix_family": 2493841406,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Guarding",
+				"name_suffix": "of Guarding"
+			},
+			"DamageReductionDistant": {
+				"affix_family": 2493841406,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sheltering",
+				"name_suffix": "of Sheltering"
+			},
+			"Damage_Basics": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Fundamental",
+				"name_suffix": "of Fundamentals"
+			},
+			"Damage_BasicsAxe": {
+				"affix_family": 2297663765,
+				"affix_flag": 67,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Fundamental",
+				"name_suffix": "of Fundamentals"
+			},
+			"Damage_BasicsMace": {
+				"affix_family": 2297663765,
+				"affix_flag": 67,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Fundamental",
+				"name_suffix": "of Fundamentals"
+			},
+			"Damage_BasicsScythe": {
+				"affix_family": 2297663765,
+				"affix_flag": 67,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Fundamental",
+				"name_suffix": "of Fundamentals"
+			},
+			"Damage_BasicsSword": {
+				"affix_family": 2297663765,
+				"affix_flag": 67,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Fundamental",
+				"name_suffix": "of Fundamentals"
+			},
+			"Damage_DoT": {
+				"affix_family": 3396802493,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 200,
+				"name_prefix": "Lingering",
+				"name_suffix": "of Lingering"
+			},
+			"Damage_Spenders": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Brutal",
+				"name_suffix": "of Brutality"
+			},
+			"Damage_Ultimate": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Pinnacle",
+				"name_suffix": "of the Pinnacle"
+			},
+			"Damage_to_CCd": {
+				"affix_family": 2651786116,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 85,
+				"name_prefix": "Exploitive",
+				"name_suffix": "of Exploit"
+			},
+			"Damage_to_Elite": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Hunter's",
+				"name_suffix": "of Hunters"
+			},
+			"Damage_to_Far": {
+				"affix_family": 1148002577,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Reaching",
+				"name_suffix": "of Reach"
+			},
+			"Damage_to_HighLife": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Opportunist's",
+				"name_suffix": "of Opportunity"
+			},
+			"Damage_to_Immobilized": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 85,
+				"name_prefix": "Advantageous",
+				"name_suffix": "of Advantage"
+			},
+			"Damage_to_LowLife": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Favorable",
+				"name_suffix": "of Favorable",
+				"tags": [
+					"Keyword_Injured"
+				]
+			},
+			"Damage_to_Near": {
+				"affix_family": 1148002577,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Riposting",
+				"name_suffix": "of Riposte"
+			},
+			"Damage_to_Slowed": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 85,
+				"name_prefix": "Poacher's",
+				"name_suffix": "of Poaching"
+			},
+			"Damage_to_Stunned": {
+				"affix_family": 2651786116,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Imposing",
+				"name_suffix": "of Imposing"
+			},
+			"Damage_to_Vulnerable": {
+				"affix_family": 2651786116,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 85,
+				"name_prefix": "Cruel",
+				"name_suffix": "of Cruelty"
+			},
+			"Dodge": {
+				"affix_family": 122693507,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Evasive",
+				"name_suffix": "of Evasion"
+			},
+			"ElementalDamageReduction": {
+				"affix_family": 832469704,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH)Elemental Resistance",
+				"name_suffix": "(PH)of Elemental Resistance"
+			},
+			"EliteDamageReduction": {
+				"affix_family": 3860131651,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 115,
+				"name_prefix": "Fortified",
+				"name_suffix": "of Fortifying"
+			},
+			"Elite_Kill_Damage": {
+				"affix_family": 1745575496,
+				"affix_flag": 3,
+				"affix_formulas": [
+					0,
+					4
+				],
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Conqueror's",
+				"name_suffix": "of the Conqueror"
+			},
+			"Elite_Kill_Movement_Speed": {
+				"affix_family": 3415069083,
+				"affix_flag": 4,
+				"affix_formulas": [
+					0,
+					6
+				],
+				"max_power": 2000,
+				"min_power": 150,
+				"name_prefix": "Triumphant",
+				"name_suffix": "of Triumph"
+			},
+			"Evade_Attack_Reset": {
+				"affix_family": 718312459,
+				"affix_flag": 4,
+				"affix_formulas": [
+					1
+				],
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "(PH) Weaving",
+				"name_suffix": "(PH) of Weaving"
+			},
+			"Evade_Charges": {
+				"affix_family": 718312459,
+				"affix_flag": 4,
+				"affix_formulas": [
+					1
+				],
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "(PH) Nimble",
+				"name_suffix": "(PH) of Nimbleness"
+			},
+			"Evade_Dodge": {
+				"affix_family": 718312459,
+				"affix_flag": 4,
+				"affix_formulas": [
+					0.4
+				],
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "(PH) Elusive",
+				"name_suffix": "(PH) of Elusiveness"
+			},
+			"Execute": {
+				"affix_family": 1461963396,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Executing",
+				"name_suffix": "of Execution"
+			},
+			"GemPower1Socket": {
+				"affix_family": 1940031846,
+				"affix_flag": 36,
+				"max_power": 2000,
+				"min_power": 215,
+				"name_prefix": "Augmented",
+				"name_suffix": "of Augmentation"
+			},
+			"GemPower2Socket": {
+				"affix_family": 1940031846,
+				"affix_flag": 36,
+				"max_power": 2000,
+				"min_power": 215,
+				"name_prefix": "Jeweled",
+				"name_suffix": "of Jewels"
+			},
+			"HealingPercent": {
+				"affix_family": 945423608,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Coalescent",
+				"name_suffix": "of Coalescence"
+			},
+			"Health": {
+				"affix_family": 3778712518,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Vigorous",
+				"name_suffix": "of Vigor"
+			},
+			"INHERENT_CD_Reduction": {
+				"affix_family": 3314500755,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Swift",
+				"name_suffix": "of Swiftness"
+			},
+			"INHERENT_CritDamage": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Malicious",
+				"name_suffix": "of Malice"
+			},
+			"INHERENT_Damage_to_CCd": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 85,
+				"name_prefix": "Exploitive",
+				"name_suffix": "of Exploit"
+			},
+			"INHERENT_Damage_to_Far": {
+				"affix_family": 1148002577,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Reaching",
+				"name_suffix": "of Reach"
+			},
+			"INHERENT_Damage_to_HighLife": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Opportunist's",
+				"name_suffix": "of Opportunity"
+			},
+			"INHERENT_Damage_to_LowLife": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Favorable",
+				"name_suffix": "of Favorable",
+				"tags": [
+					"Keyword_Injured"
+				]
+			},
+			"INHERENT_Damage_to_Near": {
+				"affix_family": 1148002577,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Riposting",
+				"name_suffix": "of Riposte"
+			},
+			"INHERENT_Damage_to_Vulnerable": {
+				"affix_family": 2651786116,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 85,
+				"name_prefix": "Cruel",
+				"name_suffix": "of Cruelty"
+			},
+			"INHERENT_Luck": {
+				"affix_family": 4011983,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 10,
+				"name_prefix": "Lucky",
+				"name_suffix": "of Luck"
+			},
+			"INHERENT_On_Kill_Health": {
+				"affix_family": 945423608,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 150,
+				"name_prefix": "Harvesting",
+				"name_suffix": "of Harvesting"
+			},
+			"INHERENT_OverpowerDamage": {
+				"affix_family": 2256840246,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Pulverizing",
+				"name_suffix": "of Pulverizing",
+				"tags": [
+					"Keyword_Overpower"
+				]
+			},
+			"INHERENT_Thorns": {
+				"affix_family": 372190974,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Thorned",
+				"name_suffix": "of Thorns"
+			},
+			"Indestructible": {
+				"affix_family": 1304397498,
+				"affix_flag": 36,
+				"affix_formulas": [
+					1
+				],
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"LifeRegen": {
+				"affix_family": 945423608,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 250,
+				"name_prefix": "Regenerating",
+				"name_suffix": "of Regeneration"
+			},
+			"Luck": {
+				"affix_family": 4011983,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 10,
+				"name_prefix": "Lucky",
+				"name_suffix": "of Luck"
+			},
+			"LuckJewelry": {
+				"affix_family": 1647315560,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 10,
+				"name_prefix": "Lucky",
+				"name_suffix": "of Luck"
+			},
+			"Lucky_Crit_Immobilize": {
+				"affix_family": 805302519,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Crippling",
+				"name_suffix": "of Crippling"
+			},
+			"Lucky_Crit_Slow": {
+				"affix_family": 805302519,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Impeding",
+				"name_suffix": "of Impeding"
+			},
+			"Lucky_Crit_Stun": {
+				"affix_family": 805302519,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Paralyzing",
+				"name_suffix": "of Paralysis"
+			},
+			"Lucky_Hit_Immobilize": {
+				"affix_family": 805302519,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Immobilizing",
+				"name_suffix": "of Immobilizing"
+			},
+			"Lucky_Hit_Resource": {
+				"affix_family": 2124142309,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Resourceful",
+				"name_suffix": "of Resource"
+			},
+			"Lucky_Hit_Slow": {
+				"affix_family": 805302519,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Slowing",
+				"name_suffix": "of Slowing"
+			},
+			"Lucky_Hit_Stun": {
+				"affix_family": 805302519,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Halting",
+				"name_suffix": "of Halting"
+			},
+			"Lucky_Hit_Vulnerable": {
+				"affix_family": 805302519,
+				"affix_flag": 4,
+				"affix_formulas": [
+					2
+				],
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sundering",
+				"name_suffix": "of Sundering",
+				"tags": [
+					"Keyword_Vulnerable"
+				]
+			},
+			"MountArmor": {
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"Mount_MovementSpeed_Common": {
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"Movement_Speed": {
+				"affix_family": 3415069083,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Speedy",
+				"name_suffix": "of Speed"
+			},
+			"On_Kill_Health": {
+				"affix_family": 945423608,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 150,
+				"name_prefix": "Harvesting",
+				"name_suffix": "of Harvesting"
+			},
+			"OverpowerChance": {
+				"affix_family": 2256840246,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Overpowering",
+				"name_suffix": "of Overpowering",
+				"tags": [
+					"Keyword_Overpower"
+				]
+			},
+			"OverpowerDamage": {
+				"affix_family": 2256840246,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Pulverizing",
+				"name_suffix": "of Pulverizing",
+				"tags": [
+					"Keyword_Overpower"
+				]
+			},
+			"PotionBarrier": {
+				"affix_family": 2964756154,
+				"affix_flag": 4,
+				"affix_formulas": [
+					0.3
+				],
+				"max_power": 2000,
+				"min_power": 200,
+				"name_prefix": "(PH)",
+				"name_suffix": "(PH)"
+			},
+			"PotionCharges": {
+				"affix_family": 224120761,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Carrying",
+				"name_suffix": "of Carrying"
+			},
+			"PotionDropBonus": {
+				"affix_family": 224120761,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Siphoning",
+				"name_suffix": "of Siphoning"
+			},
+			"PotionGrantsMoveSpeed": {
+				"affix_family": 2964756154,
+				"affix_flag": 4,
+				"affix_formulas": [
+					0.3
+				],
+				"max_power": 2000,
+				"min_power": 200,
+				"name_prefix": "Vaporous",
+				"name_suffix": "of Vapor"
+			},
+			"PotionGrantsResource": {
+				"affix_family": 2964756154,
+				"affix_flag": 4,
+				"affix_formulas": [
+					30
+				],
+				"max_power": 2000,
+				"min_power": 200,
+				"name_prefix": "Invigorating",
+				"name_suffix": "of Invigoration"
+			},
+			"Resistance_All": {
+				"affix_family": 832469704,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH)Elemental Resistance",
+				"name_suffix": "(PH)of Elemental Resistance"
+			},
+			"Resistance_Dual_ColdLightning": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Insulating",
+				"name_suffix": "of Insulation"
+			},
+			"Resistance_Dual_ColdPoison": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Insulating",
+				"name_suffix": "of Insulation"
+			},
+			"Resistance_Dual_ColdShadow": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sanctified",
+				"name_suffix": "of Sanctified"
+			},
+			"Resistance_Dual_FireCold": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Dampening",
+				"name_suffix": "of Dampening"
+			},
+			"Resistance_Dual_FireLightning": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Dampening",
+				"name_suffix": "of Dampening"
+			},
+			"Resistance_Dual_FirePoison": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Neutralizing",
+				"name_suffix": "of Neutralizing"
+			},
+			"Resistance_Dual_FireShadow": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sanctified",
+				"name_suffix": "of Sanctified"
+			},
+			"Resistance_Dual_LightningPoison": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Grounding",
+				"name_suffix": "of Grounding"
+			},
+			"Resistance_Dual_LightningShadow": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Grounding",
+				"name_suffix": "of Grounding"
+			},
+			"Resistance_Dual_PoisonShadow": {
+				"affix_family": 1986188908,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Neutralizing",
+				"name_suffix": "of Neutralizing"
+			},
+			"Resistance_Jewelry_All": {
+				"affix_family": 832469704,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "(PH)Elemental Resistance",
+				"name_suffix": "(PH)of Elemental Resistance"
+			},
+			"Resistance_Jewelry_Dual_ColdLightning": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Insulating",
+				"name_suffix": "of Insulation"
+			},
+			"Resistance_Jewelry_Dual_ColdPoison": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Insulating",
+				"name_suffix": "of Insulation"
+			},
+			"Resistance_Jewelry_Dual_ColdShadow": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sanctified",
+				"name_suffix": "of Sanctified"
+			},
+			"Resistance_Jewelry_Dual_FireCold": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Dampening",
+				"name_suffix": "of Dampening"
+			},
+			"Resistance_Jewelry_Dual_FireLightning": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Dampening",
+				"name_suffix": "of Dampening"
+			},
+			"Resistance_Jewelry_Dual_FirePoison": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Neutralizing",
+				"name_suffix": "of Neutralizing"
+			},
+			"Resistance_Jewelry_Dual_FireShadow": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sanctified",
+				"name_suffix": "of Sanctified"
+			},
+			"Resistance_Jewelry_Dual_LightningPoison": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Grounding",
+				"name_suffix": "of Grounding"
+			},
+			"Resistance_Jewelry_Dual_LightningShadow": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Grounding",
+				"name_suffix": "of Grounding"
+			},
+			"Resistance_Jewelry_Dual_PoisonShadow": {
+				"affix_family": 1671385645,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Neutralizing",
+				"name_suffix": "of Neutralizing"
+			},
+			"Resistance_Jewelry_Single_Cold": {
+				"affix_family": 3878850185,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Insulating",
+				"name_suffix": "of Insulation"
+			},
+			"Resistance_Jewelry_Single_Fire": {
+				"affix_family": 3878850185,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Dampening",
+				"name_suffix": "of Dampening"
+			},
+			"Resistance_Jewelry_Single_Lightning": {
+				"affix_family": 3878850185,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Grounding",
+				"name_suffix": "of Grounding"
+			},
+			"Resistance_Jewelry_Single_Poison": {
+				"affix_family": 3878850185,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Neutralizing",
+				"name_suffix": "of Neutralizing"
+			},
+			"Resistance_Jewelry_Single_Shadow": {
+				"affix_family": 3878850185,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sanctified",
+				"name_suffix": "of Sanctified"
+			},
+			"Resistance_Single_Fire": {
+				"affix_family": 3164436168,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Dampening",
+				"name_suffix": "of Dampening"
+			},
+			"Resistance_Single_Frost": {
+				"affix_family": 3164436168,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Insulating",
+				"name_suffix": "of Insulation"
+			},
+			"Resistance_Single_Lightning": {
+				"affix_family": 3164436168,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Grounding",
+				"name_suffix": "of Grounding"
+			},
+			"Resistance_Single_Poison": {
+				"affix_family": 3164436168,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Neutralizing",
+				"name_suffix": "of Neutralizing"
+			},
+			"Resistance_Single_Shadow": {
+				"affix_family": 3164436168,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Sanctified",
+				"name_suffix": "of Sanctity"
+			},
+			"Shield_Damage_Bonus": {
+				"affix_family": 3396802493,
+				"affix_flag": 4,
+				"affix_formulas": [
+					0.8
+				],
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"ShrineDuration": {
+				"affix_family": 3609353917,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Blessed",
+				"name_suffix": "of Blessings"
+			},
+			"SkillRankBonus_Basic": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Skillful",
+				"name_suffix": "of the Skillful"
+			},
+			"SkillRankBonus_Core": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Principal",
+				"name_suffix": "of Principals"
+			},
+			"Thorns": {
+				"affix_family": 372190974,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Thorned",
+				"name_suffix": "of Thorns"
+			},
+			"Thorns_Shields": {
+				"affix_family": 372190974,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Thorned",
+				"name_suffix": "of Thorns"
+			},
+			"UtilityFind": {
+				"affix_family": 1304397498,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"performance_test_rogue_imbue_cold": {
+				"affix_flag": 0,
+				"affix_formulas": [
+					"array([4,6])"
+				],
+				"desc": "You are permanently Cold Imbued.",
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"performance_test_rogue_imbue_poison": {
+				"affix_flag": 0,
+				"affix_formulas": [
+					"array([4,6])"
+				],
+				"desc": "You are permanently Poison Imbued.",
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"performance_test_rogue_imbue_shadow": {
+				"affix_flag": 0,
+				"affix_formulas": [
+					"array([4,6])"
+				],
+				"desc": "You are permanently Shadow Imbued.",
+				"max_power": 2000,
+				"min_power": 1
+			},
+			"set_barb_002": {
+				"affix_flag": 0,
+				"affix_formulas": [
+					30,
+					50
+				],
+				"desc": "You take 30% less damage when you are below half Life.\nYou deal 50% more damage to enemies below half Life.",
+				"max_power": 2000,
+				"min_power": 1
+			}
+		},
 		"Legendary": {
 			"legendary_generic_006": {
 				"category": 3,
@@ -22015,6 +23972,349 @@
 				"name": "Upgrade B"
 			}
 		},
+		"Item Affix": {
+			"Damage_Tag_Blood": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Drowned",
+				"name_suffix": "of the Drowned"
+			},
+			"Damage_Tag_Bone": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Withered",
+				"name_suffix": "of the Withered"
+			},
+			"Damage_Tag_Darkness": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Corrupted",
+				"name_suffix": "of the Corrupted"
+			},
+			"Damage_Type_Bonus_Cold": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Frost",
+				"name_suffix": "of Frost"
+			},
+			"Damage_Type_Bonus_Pet_Necro": {
+				"affix_family": 1182249615,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Commanding",
+				"name_suffix": "of Command"
+			},
+			"Damage_Type_Bonus_Physical": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Painful",
+				"name_suffix": "of Pain"
+			},
+			"Damage_Type_Bonus_Shadow": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Dark",
+				"name_suffix": "of Darkness"
+			},
+			"FortifyBonus": {
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Fortifying",
+				"name_suffix": "of Fortitude",
+				"tags": [
+					"Keyword_Fortify"
+				]
+			},
+			"FortifyDamageReduction": {
+				"affix_family": 3860131651,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 300,
+				"name_prefix": "Secure",
+				"name_suffix": "of Secured",
+				"tags": [
+					"Keyword_Fortify"
+				]
+			},
+			"FrostDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Frost",
+				"name_suffix": "of Frost"
+			},
+			"MaxEssence": {
+				"affix_family": 659039693,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Ritual",
+				"name_suffix": "of Rituals"
+			},
+			"PassiveRankBonus_Necro_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Gloomy",
+				"name_suffix": "of Gloom"
+			},
+			"PassiveRankBonus_Necro_05": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Pursuing",
+				"name_suffix": "of Pursuit"
+			},
+			"PassiveRankBonus_Necro_Caster_T2_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Engulfing",
+				"name_suffix": "of Engulfing"
+			},
+			"PassiveRankBonus_Necro_Caster_T3_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Imbalanced",
+				"name_suffix": "of Imbalance"
+			},
+			"PassiveRankBonus_Necro_Caster_T3_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Skewering",
+				"name_suffix": "of Skewering"
+			},
+			"PassiveRankBonus_Necro_Playstyle_T1_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Drowning",
+				"name_suffix": "of Drowning"
+			},
+			"PassiveRankBonus_Necro_Summoning_T1_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Impaling",
+				"name_suffix": "of Impaling"
+			},
+			"PassiveRankBonus_Necro_Summoning_T2_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Swarming",
+				"name_suffix": "of Swarming"
+			},
+			"PassiveRankBonus_Necro_Summoning_T3_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Tormenting",
+				"name_suffix": "of Tormenting"
+			},
+			"PassiveRankBonus_Necro_Summoning_T3_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Power-Hungry",
+				"name_suffix": "of the Power-Hungry"
+			},
+			"PetAttackSpeed_Necro": {
+				"affix_family": 1182249615,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Horde's",
+				"name_suffix": "of the Horde"
+			},
+			"PetHealth_Necro": {
+				"affix_family": 1048963433,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Ominous",
+				"name_suffix": "of Omens"
+			},
+			"Resource_Cost_Reduction_Necromancer": {
+				"affix_family": 2124142309,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Efficient",
+				"name_suffix": "of Efficiency"
+			},
+			"SkillRankBonus_Necro_Corruption": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Corrupted",
+				"name_suffix": "of Corruption"
+			},
+			"SkillRankBonus_Necro_Macabre": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "The Macabre",
+				"name_suffix": "of the Macabre"
+			},
+			"SkillRankBonus_Necro_Primary_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Splintering",
+				"name_suffix": "(PH) of Splintering"
+			},
+			"SkillRankBonus_Necro_Primary_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Decomposing",
+				"name_suffix": "(PH) of Decomposing"
+			},
+			"SkillRankBonus_Necro_Primary_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Reaper's",
+				"name_suffix": "(PH) of Reaper"
+			},
+			"SkillRankBonus_Necro_Primary_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Hemorrhaging",
+				"name_suffix": "(PH) of Hemorrhaging"
+			},
+			"SkillRankBonus_Necro_Secondary_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Spearing",
+				"name_suffix": "(PH) of Spearing"
+			},
+			"SkillRankBonus_Necro_Secondary_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Blighting",
+				"name_suffix": "(PH) of Blighting"
+			},
+			"SkillRankBonus_Necro_Secondary_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Severing",
+				"name_suffix": "(PH) of Severing"
+			},
+			"SkillRankBonus_Necro_Secondary_05": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Surging",
+				"name_suffix": "(PH) of Surging"
+			},
+			"SkillRankBonus_Necro_Secondary_06": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Lancing",
+				"name_suffix": "(PH) of Lancing"
+			},
+			"SkillRankBonus_Necro_Special2_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Misty",
+				"name_suffix": "(PH) of Mist"
+			},
+			"SkillRankBonus_Necro_Special2_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Haunting",
+				"name_suffix": "(PH) of Haunting"
+			},
+			"SkillRankBonus_Necro_Special2_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Walling",
+				"name_suffix": "(PH) of Walling"
+			},
+			"SkillRankBonus_Necro_Special3_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Explosive",
+				"name_suffix": "(PH) of Explosion"
+			},
+			"SkillRankBonus_Necro_Special3_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Enervating",
+				"name_suffix": "(PH) of Enervating"
+			},
+			"SkillRankBonus_Necro_Special3_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Coiling",
+				"name_suffix": "(PH) of Coiling"
+			},
+			"SkillRankBonus_Necro_Special3_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Incarcerating",
+				"name_suffix": "(PH) of Incarceration"
+			}
+		},
 		"Legendary": {
 			"legendary_necro_002": {
 				"category": 0,
@@ -27604,6 +29904,416 @@
 		}
 	},
 	"Rogue": {
+		"Item Affix": {
+			"DamageReduction_Poisoned": {
+				"affix_family": 2493841406,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Venomwall",
+				"name_suffix": "of the Venomwall"
+			},
+			"Damage_Tag_Imbuements": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Alchemic",
+				"name_suffix": "of Alchemy"
+			},
+			"Damage_Tag_Melee": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Assassin's",
+				"name_suffix": "of the Assassin"
+			},
+			"Damage_Tag_Ranged": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Ranger's",
+				"name_suffix": "of the Ranger"
+			},
+			"Damage_Tag_Trap": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Beguiled",
+				"name_suffix": "of Guile"
+			},
+			"Damage_Type_Bonus_Cold": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Frost",
+				"name_suffix": "of Frost"
+			},
+			"Damage_Type_Bonus_Physical": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Painful",
+				"name_suffix": "of Pain"
+			},
+			"Damage_Type_Bonus_Poison": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Venomous",
+				"name_suffix": "of Venom"
+			},
+			"Damage_Type_Bonus_Shadow": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Dark",
+				"name_suffix": "of Darkness"
+			},
+			"Damage_WeaponSwap": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Grandmaster's",
+				"name_suffix": "of the Grandmaster"
+			},
+			"Damage_Weapon_DualWield": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Cutthroat",
+				"name_suffix": "of the Cutthroat"
+			},
+			"Damage_Weapon_Ranged": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Marksman's",
+				"name_suffix": "of the Marksman"
+			},
+			"Damage_to_Frozen": {
+				"affix_family": 2651786116,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Glacial",
+				"name_suffix": "of the Glacier"
+			},
+			"Damage_to_Poisoned": {
+				"affix_family": 2059507876,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Festering",
+				"name_suffix": "of Festering"
+			},
+			"Dodge_Gives_AttackSpeed": {
+				"affix_family": 1926968134,
+				"affix_flag": 3,
+				"affix_formulas": [
+					0,
+					2
+				],
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Swindler's",
+				"name_suffix": "of Swindling"
+			},
+			"Dodge_Gives_Damage": {
+				"affix_family": 1926968134,
+				"affix_flag": 3,
+				"affix_formulas": [
+					0,
+					2
+				],
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Rogue's",
+				"name_suffix": "of the Rogue"
+			},
+			"FireDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Ember",
+				"name_suffix": "of Embers"
+			},
+			"FrostDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Frost",
+				"name_suffix": "of Frost"
+			},
+			"MaxEnergy": {
+				"affix_family": 659039693,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Flowing",
+				"name_suffix": "of Flowing"
+			},
+			"PassiveRankBonus_Rogue_Cunning_T2_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Debilitating",
+				"name_suffix": "of Debilitation"
+			},
+			"PassiveRankBonus_Rogue_Cunning_T3_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Exploiting",
+				"name_suffix": "of Exploits"
+			},
+			"PassiveRankBonus_Rogue_Cunning_T4_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Shattering",
+				"name_suffix": "of Shattering"
+			},
+			"PassiveRankBonus_Rogue_Cunning_T4_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Malicious",
+				"name_suffix": "of Malice"
+			},
+			"PassiveRankBonus_Rogue_Discipline_T2_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Brandishing",
+				"name_suffix": "of Brandishing"
+			},
+			"PassiveRankBonus_Rogue_Discipline_T3_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Impetuous",
+				"name_suffix": "of Impetus"
+			},
+			"Resource_Cost_Reduction_Rogue": {
+				"affix_family": 2124142309,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Efficient",
+				"name_suffix": "of Efficiency"
+			},
+			"SkillRankBonus_Rogue_Agility": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Agile",
+				"name_suffix": "of Agility"
+			},
+			"SkillRankBonus_Rogue_Imbuements": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Imbued",
+				"name_suffix": "of Imbuements"
+			},
+			"SkillRankBonus_Rogue_Primary_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Heartseeking",
+				"name_suffix": "(PH) of Heartseeking"
+			},
+			"SkillRankBonus_Rogue_Primary_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Puncturing",
+				"name_suffix": "(PH) of Puncturing"
+			},
+			"SkillRankBonus_Rogue_Primary_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Invigorating",
+				"name_suffix": "(PH) of Invigorating"
+			},
+			"SkillRankBonus_Rogue_Primary_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Forcing",
+				"name_suffix": "(PH) of Forcing"
+			},
+			"SkillRankBonus_Rogue_Primary_05": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Shifting",
+				"name_suffix": "(PH) of Shifting"
+			},
+			"SkillRankBonus_Rogue_Secondary_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Rapid",
+				"name_suffix": "(PH) of Rapid"
+			},
+			"SkillRankBonus_Rogue_Secondary_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Bursting",
+				"name_suffix": "(PH) of Bursting"
+			},
+			"SkillRankBonus_Rogue_Secondary_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Barraging",
+				"name_suffix": "(PH) of Barraging"
+			},
+			"SkillRankBonus_Rogue_Secondary_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Twisting",
+				"name_suffix": "(PH) of Twisting"
+			},
+			"SkillRankBonus_Rogue_Secondary_05": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Penetrating",
+				"name_suffix": "(PH) of Penetrating"
+			},
+			"SkillRankBonus_Rogue_Special1_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Blinding",
+				"name_suffix": "(PH) of Blinding"
+			},
+			"SkillRankBonus_Rogue_Special1_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Spiked",
+				"name_suffix": "(PH) of Spikes"
+			},
+			"SkillRankBonus_Rogue_Special1_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Hazardous",
+				"name_suffix": "(PH) of Hazard"
+			},
+			"SkillRankBonus_Rogue_Special2_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Poisonmixer's",
+				"name_suffix": "(PH) of Poisonmixer"
+			},
+			"SkillRankBonus_Rogue_Special2_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Coldmixer's",
+				"name_suffix": "(PH) of Coldmixer"
+			},
+			"SkillRankBonus_Rogue_Special2_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Shadowmixer's",
+				"name_suffix": "(PH) of Shadowmixer"
+			},
+			"SkillRankBonus_Rogue_Special3_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Shrouding",
+				"name_suffix": "(PH) of Shrouding"
+			},
+			"SkillRankBonus_Rogue_Special3_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Dashing",
+				"name_suffix": "(PH) of Dashing"
+			},
+			"SkillRankBonus_Rogue_Special3_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Assassin's",
+				"name_suffix": "(PH) of Assassin"
+			},
+			"SkillRankBonus_Rogue_Special3_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Silent",
+				"name_suffix": "(PH) of Silence"
+			},
+			"SkillRankBonus_Rogue_Subterfuge": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Subtle",
+				"name_suffix": "of Subtlety"
+			},
+			"Trap_Arm_Time": {
+				"affix_family": 3405288461,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Schemer's",
+				"name_suffix": "of the Schemer"
+			}
+		},
 		"Legendary": {
 			"legendary_rogue_003": {
 				"category": 0,
@@ -32866,6 +35576,424 @@
 			"Sorcerer_Enchantment_Teleport_Active": {
 				"desc": "Teleport description here - since this is a skill that replaces your Evade button, you should never see this.",
 				"name": "Teleport - Evade Version"
+			}
+		},
+		"Item Affix": {
+			"Barrier_Strength_Percent": {
+				"affix_family": 1204680589,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Reinforcing",
+				"name_suffix": "of Reinforcing"
+			},
+			"DamageReduction_Burning": {
+				"affix_family": 2493841406,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Cinderwall",
+				"name_suffix": "of the Cinderwall"
+			},
+			"Damage_CracklingEnergy": {
+				"affix_family": 3405288461,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Galvanized",
+				"name_suffix": "of Galvanizing"
+			},
+			"Damage_Tag_Conjuration": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Conjurer's",
+				"name_suffix": "of the Conjurer"
+			},
+			"Damage_Tag_Frost": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Iceborne",
+				"name_suffix": "of the Iceborne"
+			},
+			"Damage_Tag_Pyromancy": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Flameborne",
+				"name_suffix": "of the Flameborne"
+			},
+			"Damage_Tag_Shock": {
+				"affix_family": 2297663765,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 350,
+				"name_prefix": "Thunderborne",
+				"name_suffix": "of the Thunderborne"
+			},
+			"Damage_Type_Bonus_Cold": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Frost",
+				"name_suffix": "of Frost"
+			},
+			"Damage_Type_Bonus_Fire": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Ember",
+				"name_suffix": "of Embers"
+			},
+			"Damage_Type_Bonus_Lightning": {
+				"affix_family": 4271356283,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Lightning",
+				"name_suffix": "of Lightning"
+			},
+			"Damage_to_Burning": {
+				"affix_family": 2059507876,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Conflagrating",
+				"name_suffix": "of Conflagration"
+			},
+			"Damage_to_Frozen": {
+				"affix_family": 2651786116,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Glacial",
+				"name_suffix": "of the Glacier"
+			},
+			"FireDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Ember",
+				"name_suffix": "of Embers"
+			},
+			"FrostDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Frost",
+				"name_suffix": "of Frost"
+			},
+			"LightningDamage_MaxLevelOnly": {
+				"affix_family": 4271356283,
+				"affix_flag": 4,
+				"max_power": 2000,
+				"min_power": 600,
+				"name_prefix": "Lightning",
+				"name_suffix": "of Lightning"
+			},
+			"MaxMana": {
+				"affix_family": 659039693,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Conjuring",
+				"name_suffix": "of Conjuration"
+			},
+			"PassiveRankBonus_Sorc_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Frostbitten",
+				"name_suffix": "of Frostbite"
+			},
+			"PassiveRankBonus_Sorc_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Conjurer's",
+				"name_suffix": "of the Conjurer"
+			},
+			"PassiveRankBonus_Sorc_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Dominating",
+				"name_suffix": "of Dominance"
+			},
+			"PassiveRankBonus_Sorc_08": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Pyromanic",
+				"name_suffix": "of Pyromania"
+			},
+			"PassiveRankBonus_Sorc_Cold_T2_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Permafrosted",
+				"name_suffix": "of Permafrost"
+			},
+			"PassiveRankBonus_Sorc_Elemental_T1_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Devastating",
+				"name_suffix": "of Devastation"
+			},
+			"PassiveRankBonus_Sorc_Elemental_T2_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Reckless",
+				"name_suffix": "of Reckless Magic"
+			},
+			"PassiveRankBonus_Sorc_Elemental_T2_N3": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Precise",
+				"name_suffix": "of Precision"
+			},
+			"PassiveRankBonus_Sorc_Fire_T1_N2": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Flameborne",
+				"name_suffix": "of the Flameborne"
+			},
+			"PassiveRankBonus_Sorc_Fire_T2_N3": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Combusted",
+				"name_suffix": "of Combusting"
+			},
+			"PassiveRankBonus_Sorc_Lightning_T2_N1": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 500,
+				"name_prefix": "Shocking",
+				"name_suffix": "of Shocks"
+			},
+			"Resource_Cost_Reduction_Sorcerer": {
+				"affix_family": 2124142309,
+				"affix_flag": 3,
+				"max_power": 2000,
+				"min_power": 1,
+				"name_prefix": "Efficient",
+				"name_suffix": "of Efficiency"
+			},
+			"SkillRankBonus_Defensive": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Defensive",
+				"name_suffix": "of Defense"
+			},
+			"SkillRankBonus_Sorc_Conjuration": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "Conjuror's",
+				"name_suffix": "of the Conjuror"
+			},
+			"SkillRankBonus_Sorc_Mastery": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "The Master's",
+				"name_suffix": "of the Master"
+			},
+			"SkillRankBonus_Sorc_Primary_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Lightning",
+				"name_suffix": "(PH) of Lightning"
+			},
+			"SkillRankBonus_Sorc_Primary_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Flame",
+				"name_suffix": "(PH) of Flame"
+			},
+			"SkillRankBonus_Sorc_Primary_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Frost",
+				"name_suffix": "(PH) of Frost"
+			},
+			"SkillRankBonus_Sorc_Primary_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 12,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Arcing",
+				"name_suffix": "(PH) of Arcing"
+			},
+			"SkillRankBonus_Sorc_Secondary_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Fireball",
+				"name_suffix": "(PH) of Fireball"
+			},
+			"SkillRankBonus_Sorc_Secondary_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Shards",
+				"name_suffix": "(PH) of Shards"
+			},
+			"SkillRankBonus_Sorc_Secondary_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Chaining",
+				"name_suffix": "(PH) of Chaining"
+			},
+			"SkillRankBonus_Sorc_Secondary_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Charged",
+				"name_suffix": "(PH) of Charged"
+			},
+			"SkillRankBonus_Sorc_Secondary_05": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Incinerating",
+				"name_suffix": "(PH) of Incinerating"
+			},
+			"SkillRankBonus_Sorc_Secondary_06": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Orb",
+				"name_suffix": "(PH) of Orb"
+			},
+			"SkillRankBonus_Sorc_Special1_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Flamebound",
+				"name_suffix": "(PH) of Flamebound"
+			},
+			"SkillRankBonus_Sorc_Special1_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Freezing",
+				"name_suffix": "(PH) of Freezing"
+			},
+			"SkillRankBonus_Sorc_Special1_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Icebound",
+				"name_suffix": "(PH) of Icebound"
+			},
+			"SkillRankBonus_Sorc_Special1_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Teleporting",
+				"name_suffix": "(PH) of Teleporting"
+			},
+			"SkillRankBonus_Sorc_Special2_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Slicing",
+				"name_suffix": "(PH) of Slicing"
+			},
+			"SkillRankBonus_Sorc_Special2_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Hydra",
+				"name_suffix": "(PH) of Hydra"
+			},
+			"SkillRankBonus_Sorc_Special2_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Spearing",
+				"name_suffix": "(PH) of Spearing"
+			},
+			"SkillRankBonus_Sorc_Special3_01": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Flameriser's",
+				"name_suffix": "(PH) of Flameriser"
+			},
+			"SkillRankBonus_Sorc_Special3_02": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Sleetcaller's",
+				"name_suffix": "(PH) of Sleetcaller"
+			},
+			"SkillRankBonus_Sorc_Special3_03": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Starcaller's",
+				"name_suffix": "(PH) of Starcaller"
+			},
+			"SkillRankBonus_Sorc_Special3_04": {
+				"affix_family": 2197632257,
+				"affix_flag": 11,
+				"max_power": 2000,
+				"min_power": 180,
+				"name_prefix": "(PH) Conductor's",
+				"name_suffix": "(PH) of Conductor"
 			}
 		},
 		"Legendary": {
