@@ -11255,21 +11255,21 @@ let paragonData = {
 			},
 			"Druid_Magic_DamageWhileBear": {
 				"name": "Damage While Bear",
-				"description": "+5% Damage\n\nTags: Werebear, Damage.",
+				"description": "+5% Damage while in Werebear Form\n\nTags: Werebear, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden\n\nTags: Werbär, Schaden.",
-					"esES": "+5% de daño\n\nTags: Hombre oso, Daño.",
-					"esMX": "+5% de daño\n\nTags: Hombre oso, Daño.",
-					"frFR": "+5% de dégâts\n\nTags: Ursoïde, Dégâts.",
-					"itIT": "Danni: +5%\n\nTags: Orso Mannaro, Danni.",
-					"jaJP": "ダメージ+5%\n\nTags: 人熊, ダメージ.",
-					"koKR": "공격력 +5%\n\nTags: 곰인간, 피해.",
-					"plPL": "+5% obrażeń\n\nTags: Niedźwiedziołak, Obrażenia.",
-					"ptBR": "+5% de dano\n\nTags: Urso, Dano.",
-					"ruRU": "+5% к урону\n\nTags: Медведь, Урон.",
-					"trTR": "+5% Hasar\n\nTags: Ayı Adam, Hasar.",
-					"zhCN": "+5% 伤害\n\nTags: 熊人, 伤害.",
-					"zhTW": "傷害 +5%\n\nTags: 熊人, 傷害."
+					"deDE": "+5% Schaden in folgender Gestalt: Werebear Form\n\nTags: Werbär, Schaden.",
+					"esES": "+5% de daño durante Werebear Form\n\nTags: Hombre oso, Daño.",
+					"esMX": "+5% de daño mientras estás en Werebear Form\n\nTags: Hombre oso, Daño.",
+					"frFR": "+5% de dégâts sous Werebear Form\n\nTags: Ursoïde, Dégâts.",
+					"itIT": "Danni in Werebear Form: +5%\n\nTags: Orso Mannaro, Danni.",
+					"jaJP": "Werebear Form 内のダメージ+5%\n\nTags: 人熊, ダメージ.",
+					"koKR": "Werebear Form 일 때 공격력 +5%\n\nTags: 곰인간, 피해.",
+					"plPL": "+5% obrażeń podczas: Werebear Form\n\nTags: Niedźwiedziołak, Obrażenia.",
+					"ptBR": "+5% de dano enquanto na Werebear Form\n\nTags: Urso, Dano.",
+					"ruRU": "+5% к урону под действием эффекта \"Werebear Form \"\n\nTags: Медведь, Урон.",
+					"trTR": "Werebear Form durumundayken +5% Hasar\n\nTags: Ayı Adam, Hasar.",
+					"zhCN": "+5% 在Werebear Form 中时伤害\n\nTags: 熊人, 伤害.",
+					"zhTW": "Werebear Form 時傷害 +5%\n\nTags: 熊人, 傷害."
 				}
 			},
 			"Druid_Magic_DamageWolf": {
@@ -11715,7 +11715,7 @@ let paragonData = {
 			},
 			"Druid_Rare_014": {
 				"name": "Grizzly",
-				"description": "+10% Damage\n+10 Willpower\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
+				"description": "+10% Damage while in Werebear Form\n+10 Willpower\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werebear, Damage, Willpower.",
 				"nameLocalized": {
 					"deDE": "Grizzly",
 					"esES": "Pardo",
@@ -11732,19 +11732,19 @@ let paragonData = {
 					"zhTW": "灰熊"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden\n+10 Willenskraft\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Werbär, Schaden, Willenskraft.",
-					"esES": "+10% de daño\n+10 de voluntad\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hombre oso, Daño, Voluntad.",
-					"esMX": "+10% de daño\n+10 de Voluntad\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Hombre oso, Daño, Voluntad.",
-					"frFR": "+10% de dégâts\n+10 volonté\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ursoïde, Dégâts, Volonté.",
-					"itIT": "Danni: +10%\nVolontà: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Orso Mannaro, Danni, Volontà.",
-					"jaJP": "ダメージ+10%\n意志力+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 人熊, ダメージ, 意志力.",
-					"koKR": "공격력 +10%\n의지력 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 곰인간, 피해, 의지력.",
-					"plPL": "+10% obrażeń\n+10 siły woli\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Niedźwiedziołak, Obrażenia, Siła Woli.",
-					"ptBR": "+10% de dano\n+10 de Determinação\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Urso, Dano, Determinação.",
-					"ruRU": "+10% к урону\n+10 к силе воли\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Медведь, Урон, Сила воли.",
-					"trTR": "+10% Hasar\n+10 İrade\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Ayı Adam, Hasar, İrade.",
-					"zhCN": "+10% 伤害\n+10 点意力\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 熊人, 伤害, 意力.",
-					"zhTW": "傷害 +10%\n意志 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 熊人, 傷害, 意志."
+					"deDE": "+10% Schaden in folgender Gestalt: Werebear Form\n+10 Willenskraft\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Werbär, Schaden, Willenskraft.",
+					"esES": "+10% de daño durante Werebear Form\n+10 de voluntad\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Hombre oso, Daño, Voluntad.",
+					"esMX": "+10% de daño mientras estás en Werebear Form\n+10 de Voluntad\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Hombre oso, Daño, Voluntad.",
+					"frFR": "+10% de dégâts sous Werebear Form\n+10 volonté\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Ursoïde, Dégâts, Volonté.",
+					"itIT": "Danni in Werebear Form: +10%\nVolontà: +10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Orso Mannaro, Danni, Volontà.",
+					"jaJP": "Werebear Form 内のダメージ+10%\n意志力+10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 人熊, ダメージ, 意志力.",
+					"koKR": "Werebear Form 일 때 공격력 +10%\n의지력 +10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 곰인간, 피해, 의지력.",
+					"plPL": "+10% obrażeń podczas: Werebear Form\n+10 siły woli\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Niedźwiedziołak, Obrażenia, Siła Woli.",
+					"ptBR": "+10% de dano enquanto na Werebear Form\n+10 de Determinação\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Urso, Dano, Determinação.",
+					"ruRU": "+10% к урону под действием эффекта \"Werebear Form \"\n+10 к силе воли\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Медведь, Урон, Сила воли.",
+					"trTR": "Werebear Form durumundayken +10% Hasar\n+10 İrade\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: Ayı Adam, Hasar, İrade.",
+					"zhCN": "+10% 在Werebear Form 中时伤害\n+10 点意力\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 熊人, 伤害, 意力.",
+					"zhTW": "Werebear Form 時傷害 +10%\n意志 +10\n\nBonus: Another +10% Damage while in Werebear Form if requirements met:\n{thresholdRequirements}\n\nTags: 熊人, 傷害, 意志."
 				},
 				"thresholdRequirements": {
 					"Druid": [
@@ -11841,7 +11841,7 @@ let paragonData = {
 			},
 			"Druid_Rare_018": {
 				"name": "Sinking Fangs",
-				"description": "+10% Damage\n+10 Willpower\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
+				"description": "+10% Damage to Poisoned Enemies\n+10 Willpower\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Damage, Willpower.",
 				"nameLocalized": {
 					"deDE": "Tödliche Reißzähne",
 					"esES": "Colmillos hincados",
@@ -11858,19 +11858,19 @@ let paragonData = {
 					"zhTW": "咬合尖牙"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden\n+10 Willenskraft\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schaden, Willenskraft.",
-					"esES": "+10% de daño\n+10 de voluntad\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño, Voluntad.",
-					"esMX": "+10% de daño\n+10 de Voluntad\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño, Voluntad.",
-					"frFR": "+10% de dégâts\n+10 volonté\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Dégâts, Volonté.",
-					"itIT": "Danni: +10%\nVolontà: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Veleno, Danni, Volontà.",
-					"jaJP": "ダメージ+10%\n意志力+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 毒, ダメージ, 意志力.",
-					"koKR": "공격력 +10%\n의지력 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 독, 피해, 의지력.",
-					"plPL": "+10% obrażeń\n+10 siły woli\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Trucizna, Obrażenia, Siła Woli.",
-					"ptBR": "+10% de dano\n+10 de Determinação\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Dano, Determinação.",
-					"ruRU": "+10% к урону\n+10 к силе воли\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Яд, Урон, Сила воли.",
-					"trTR": "+10% Hasar\n+10 İrade\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Zehir, Hasar, İrade.",
-					"zhCN": "+10% 伤害\n+10 点意力\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 毒素, 伤害, 意力.",
-					"zhTW": "傷害 +10%\n意志 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 毒素, 傷害, 意志."
+					"deDE": "+10% Schaden gegen Gegner, die von Poisoned betroffen sind\n+10 Willenskraft\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schaden, Willenskraft.",
+					"esES": "+10% de daño a enemigos con el estado Poisoned\n+10 de voluntad\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño, Voluntad.",
+					"esMX": "+10% de daño a enemigos en estado Poisoned\n+10 de Voluntad\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño, Voluntad.",
+					"frFR": "+10% de dégâts contre les cibles sous cet effet: Poisoned\n+10 volonté\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Dégâts, Volonté.",
+					"itIT": "Danni ai nemici sotto l'effetto Poisoned: +10%\nVolontà: +10\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veleno, Danni, Volontà.",
+					"jaJP": "Poisoned の敵へのダメージ+10%\n意志力+10\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒, ダメージ, 意志力.",
+					"koKR": "Poisoned 적에게 주는 피해 +10%\n의지력 +10\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 독, 피해, 의지력.",
+					"plPL": "+10% obrażeń zadawanych wrogom (Poisoned )\n+10 siły woli\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Trucizna, Obrażenia, Siła Woli.",
+					"ptBR": "+10% de dano contra inimigos Poisoned\n+10 de Determinação\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Dano, Determinação.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Poisoned \"\n+10 к силе воли\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Яд, Урон, Сила воли.",
+					"trTR": "Poisoned Etkisindeki Düşmana +10% Hasar\n+10 İrade\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Zehir, Hasar, İrade.",
+					"zhCN": "+10% 对Poisoned 敌人的伤害\n+10 点意力\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒素, 伤害, 意力.",
+					"zhTW": "對Poisoned 敵人傷害 +10%\n意志 +10\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 毒素, 傷害, 意志."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -23135,21 +23135,21 @@ let paragonData = {
 			},
 			"Necromancer_Magic_GolemResistAll": {
 				"name": "Golem Resist All",
-				"description": "+8% Golem Attack Speed\n\nTags: Minion, Resistance, Non-Physical.",
+				"description": "8% Golem Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical.",
 				"descriptionLocalized": {
-					"deDE": "+8% Angriffsgeschwindigkeit für: Golem\n\nTags: Diener, Widerstand, Nichtphysisch.",
-					"esES": "+8% de velocidad de ataque de Golem\n\nTags: Esbirro, Resistencia, No física.",
-					"esMX": "+8% de velocidad de ataque de Golem\n\nTags: Esbirro, Resistencia, No física.",
-					"frFR": "+8% à la vitesse d'attaque de Golem\n\nTags: Serviteur, Résistance, Non physique.",
-					"itIT": "Velocità d'attacco Golem: +8%\n\nTags: Servitori, Resistenza, Non fisico.",
-					"jaJP": "Golem の攻撃速度+8%\n\nTags: ミニオン, 耐性, 非物理.",
-					"koKR": "Golem 공격 속도 +8%\n\nTags: 하수인, 저항, 비물리.",
-					"plPL": "+8% szybkości ataku: Golem\n\nTags: Sługa, Odporność, Niefizyczne.",
-					"ptBR": "+8% de velocidade de ataque de Golem\n\nTags: Lacaio, Resistência, Não física.",
-					"ruRU": "+8% к скорости атаки (Golem )\n\nTags: Прислужник, Сопротивление, Нефизический урон.",
-					"trTR": "+8% Golem Saldırı Hızı\n\nTags: Yardakçı, Direnç, Fiziksel Olmayan.",
-					"zhCN": "+8% Golem 攻击速度\n\nTags: 爪牙, 抗性, 非物理.",
-					"zhTW": "Golem 攻擊速度 +8%\n\nTags: 僕從, 抗性, 非物理."
+					"deDE": "8% Widerstand gegen alle Schadensarten für Golem\n\nTags: Diener, Widerstand, Nichtphysisch.",
+					"esES": "8% de resistencia de Golem a todos los elementos\n\nTags: Esbirro, Resistencia, No física.",
+					"esMX": "8% de resistencia de Golem a todos los elementos\n\nTags: Esbirro, Resistencia, No física.",
+					"frFR": "8% de résistance à tous les éléments (Golem )\n\nTags: Serviteur, Résistance, Non physique.",
+					"itIT": "Resistenza a tutti gli elementi per Golem: 8%\n\nTags: Servitori, Resistenza, Non fisico.",
+					"jaJP": "全属性に対するGolem の耐性8%\n\nTags: ミニオン, 耐性, 非物理.",
+					"koKR": "모든 원소에 대한 Golem 저항 8%\n\nTags: 하수인, 저항, 비물리.",
+					"plPL": "8% odporności na wszystkie żywioły: Golem\n\nTags: Sługa, Odporność, Niefizyczne.",
+					"ptBR": "8% de resistência a todos os elementos para Golem\n\nTags: Lacaio, Resistência, Não física.",
+					"ruRU": "Сопротивление стихиям – 8% (Golem )\n\nTags: Прислужник, Сопротивление, Нефизический урон.",
+					"trTR": "8% Tüm Elementlere Golem Direnci\n\nTags: Yardakçı, Direnç, Fiziksel Olmayan.",
+					"zhCN": "8% Golem 全元素抗性\n\nTags: 爪牙, 抗性, 非物理.",
+					"zhTW": "Golem 的全元素抗性 8%\n\nTags: 僕從, 抗性, 非物理."
 				}
 			},
 			"Necromancer_Magic_SkeletonMageDamage": {
@@ -23173,21 +23173,21 @@ let paragonData = {
 			},
 			"Necromancer_Magic_SkeletonMageResistAll": {
 				"name": "Skeleton Mage Resist All",
-				"description": "+8% SkeletonMage Attack Speed\n\nTags: Minion, Resistance, Non-Physical.",
+				"description": "8% SkeletonMage Resistance to All Elements\n\nTags: Minion, Resistance, Non-Physical.",
 				"descriptionLocalized": {
-					"deDE": "+8% Angriffsgeschwindigkeit für: SkeletonMage\n\nTags: Diener, Widerstand, Nichtphysisch.",
-					"esES": "+8% de velocidad de ataque de SkeletonMage\n\nTags: Esbirro, Resistencia, No física.",
-					"esMX": "+8% de velocidad de ataque de SkeletonMage\n\nTags: Esbirro, Resistencia, No física.",
-					"frFR": "+8% à la vitesse d'attaque de SkeletonMage\n\nTags: Serviteur, Résistance, Non physique.",
-					"itIT": "Velocità d'attacco SkeletonMage: +8%\n\nTags: Servitori, Resistenza, Non fisico.",
-					"jaJP": "SkeletonMage の攻撃速度+8%\n\nTags: ミニオン, 耐性, 非物理.",
-					"koKR": "SkeletonMage 공격 속도 +8%\n\nTags: 하수인, 저항, 비물리.",
-					"plPL": "+8% szybkości ataku: SkeletonMage\n\nTags: Sługa, Odporność, Niefizyczne.",
-					"ptBR": "+8% de velocidade de ataque de SkeletonMage\n\nTags: Lacaio, Resistência, Não física.",
-					"ruRU": "+8% к скорости атаки (SkeletonMage )\n\nTags: Прислужник, Сопротивление, Нефизический урон.",
-					"trTR": "+8% SkeletonMage Saldırı Hızı\n\nTags: Yardakçı, Direnç, Fiziksel Olmayan.",
-					"zhCN": "+8% SkeletonMage 攻击速度\n\nTags: 爪牙, 抗性, 非物理.",
-					"zhTW": "SkeletonMage 攻擊速度 +8%\n\nTags: 僕從, 抗性, 非物理."
+					"deDE": "8% Widerstand gegen alle Schadensarten für SkeletonMage\n\nTags: Diener, Widerstand, Nichtphysisch.",
+					"esES": "8% de resistencia de SkeletonMage a todos los elementos\n\nTags: Esbirro, Resistencia, No física.",
+					"esMX": "8% de resistencia de SkeletonMage a todos los elementos\n\nTags: Esbirro, Resistencia, No física.",
+					"frFR": "8% de résistance à tous les éléments (SkeletonMage )\n\nTags: Serviteur, Résistance, Non physique.",
+					"itIT": "Resistenza a tutti gli elementi per SkeletonMage: 8%\n\nTags: Servitori, Resistenza, Non fisico.",
+					"jaJP": "全属性に対するSkeletonMage の耐性8%\n\nTags: ミニオン, 耐性, 非物理.",
+					"koKR": "모든 원소에 대한 SkeletonMage 저항 8%\n\nTags: 하수인, 저항, 비물리.",
+					"plPL": "8% odporności na wszystkie żywioły: SkeletonMage\n\nTags: Sługa, Odporność, Niefizyczne.",
+					"ptBR": "8% de resistência a todos os elementos para SkeletonMage\n\nTags: Lacaio, Resistência, Não física.",
+					"ruRU": "Сопротивление стихиям – 8% (SkeletonMage )\n\nTags: Прислужник, Сопротивление, Нефизический урон.",
+					"trTR": "8% Tüm Elementlere SkeletonMage Direnci\n\nTags: Yardakçı, Direnç, Fiziksel Olmayan.",
+					"zhCN": "8% SkeletonMage 全元素抗性\n\nTags: 爪牙, 抗性, 非物理.",
+					"zhTW": "SkeletonMage 的全元素抗性 8%\n\nTags: 僕從, 抗性, 非物理."
 				}
 			},
 			"Necromancer_Magic_SkeletonWarriorArmor": {
@@ -23803,7 +23803,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_024": {
 				"name": "Frenzied Golem",
-				"description": "+17% Golem Damage\n+17% Golem Damage\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
+				"description": "+17% Golem Damage\n+17% Golem Attack Speed\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Attack Speed.",
 				"nameLocalized": {
 					"deDE": "Rasender Golem",
 					"esES": "Gólem frenético",
@@ -23820,19 +23820,19 @@ let paragonData = {
 					"zhTW": "狂亂魔像"
 				},
 				"descriptionLocalized": {
-					"deDE": "+17% Schaden für Golem\n+17% Schaden für Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Angriffsgeschwindigkeit.",
-					"esES": "+17% de daño de Golem\n+17% de daño de Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Velocidad de ataque.",
-					"esMX": "+17% de daño de Golem\n+17% de daño de Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Velocidad de ataque.",
-					"frFR": "+17% de dégâts des Golem\n+17% de dégâts des Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Vitesse d'attaque.",
-					"itIT": "Danni da Golem: +17%\nDanni da Golem: +17%\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Velocità d'attacco.",
-					"jaJP": "Golem のダメージ+17%\nGolem のダメージ+17%\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 攻撃速度.",
-					"koKR": "Golem 피해 +17%\nGolem 피해 +17%\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 공격 속도.",
-					"plPL": "+17% obrażeń typu: Golem\n+17% obrażeń typu: Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Szybkość Ataku.",
-					"ptBR": "+17% de dano Golem\n+17% de dano Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Velocidade de Ataque.",
-					"ruRU": "+17% к урону (Golem )\n+17% к урону (Golem )\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Скорость атаки.",
-					"trTR": "+17% Golem Hasarı\n+17% Golem Hasarı\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Yardakçı, Hasar, Saldırı Hızı.",
-					"zhCN": "+17% Golem 伤害\n+17% Golem 伤害\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 攻击速度.",
-					"zhTW": "Golem 傷害 +17%\nGolem 傷害 +17%\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 僕從, 傷害, 攻擊速度."
+					"deDE": "+17% Schaden für Golem\n+17% Angriffsgeschwindigkeit für: Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Angriffsgeschwindigkeit.",
+					"esES": "+17% de daño de Golem\n+17% de velocidad de ataque de Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Velocidad de ataque.",
+					"esMX": "+17% de daño de Golem\n+17% de velocidad de ataque de Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Velocidad de ataque.",
+					"frFR": "+17% de dégâts des Golem\n+17% à la vitesse d'attaque de Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Vitesse d'attaque.",
+					"itIT": "Danni da Golem: +17%\nVelocità d'attacco Golem: +17%\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Velocità d'attacco.",
+					"jaJP": "Golem のダメージ+17%\nGolem の攻撃速度+17%\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 攻撃速度.",
+					"koKR": "Golem 피해 +17%\nGolem 공격 속도 +17%\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 공격 속도.",
+					"plPL": "+17% obrażeń typu: Golem\n+17% szybkości ataku: Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Szybkość Ataku.",
+					"ptBR": "+17% de dano Golem\n+17% de velocidade de ataque de Golem\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Velocidade de Ataque.",
+					"ruRU": "+17% к урону (Golem )\n+17% к скорости атаки (Golem )\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Скорость атаки.",
+					"trTR": "+17% Golem Hasarı\n+17% Golem Saldırı Hızı\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: Yardakçı, Hasar, Saldırı Hızı.",
+					"zhCN": "+17% Golem 伤害\n+17% Golem 攻击速度\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 攻击速度.",
+					"zhTW": "Golem 傷害 +17%\nGolem 攻擊速度 +17%\n\nBonus: Another +17% Golem Damage if requirements met:\n{thresholdRequirements}\n\nTags: 僕從, 傷害, 攻擊速度."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -23935,7 +23935,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_027": {
 				"name": "Infused Caster",
-				"description": "+17% SkeletonMage Damage\n+16% SkeletonMage Attack Speed\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
+				"description": "+17% SkeletonMage Damage\n16% SkeletonMage Resistance to All Elements\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Damage, Resistance, Non-Physical.",
 				"nameLocalized": {
 					"deDE": "Erfüllter Beschwörer",
 					"esES": "Taumaturgo infundido",
@@ -23952,19 +23952,19 @@ let paragonData = {
 					"zhTW": "灌能術師"
 				},
 				"descriptionLocalized": {
-					"deDE": "+17% Schaden für SkeletonMage\n+16% Angriffsgeschwindigkeit für: SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Widerstand, Nichtphysisch.",
-					"esES": "+17% de daño de SkeletonMage\n+16% de velocidad de ataque de SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Resistencia, No física.",
-					"esMX": "+17% de daño de SkeletonMage\n+16% de velocidad de ataque de SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Resistencia, No física.",
-					"frFR": "+17% de dégâts des SkeletonMage\n+16% à la vitesse d'attaque de SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Résistance, Non physique.",
-					"itIT": "Danni da SkeletonMage: +17%\nVelocità d'attacco SkeletonMage: +16%\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Resistenza, Non fisico.",
-					"jaJP": "SkeletonMage のダメージ+17%\nSkeletonMage の攻撃速度+16%\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 耐性, 非物理.",
-					"koKR": "SkeletonMage 피해 +17%\nSkeletonMage 공격 속도 +16%\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 저항, 비물리.",
-					"plPL": "+17% obrażeń typu: SkeletonMage\n+16% szybkości ataku: SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Odporność, Niefizyczne.",
-					"ptBR": "+17% de dano SkeletonMage\n+16% de velocidade de ataque de SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Resistência, Não física.",
-					"ruRU": "+17% к урону (SkeletonMage )\n+16% к скорости атаки (SkeletonMage )\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Сопротивление, Нефизический урон.",
-					"trTR": "+17% SkeletonMage Hasarı\n+16% SkeletonMage Saldırı Hızı\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Yardakçı, Hasar, Direnç, Fiziksel Olmayan.",
-					"zhCN": "+17% SkeletonMage 伤害\n+16% SkeletonMage 攻击速度\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 抗性, 非物理.",
-					"zhTW": "SkeletonMage 傷害 +17%\nSkeletonMage 攻擊速度 +16%\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: 僕從, 傷害, 抗性, 非物理."
+					"deDE": "+17% Schaden für SkeletonMage\n16% Widerstand gegen alle Schadensarten für SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Schaden, Widerstand, Nichtphysisch.",
+					"esES": "+17% de daño de SkeletonMage\n16% de resistencia de SkeletonMage a todos los elementos\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Resistencia, No física.",
+					"esMX": "+17% de daño de SkeletonMage\n16% de resistencia de SkeletonMage a todos los elementos\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Daño, Resistencia, No física.",
+					"frFR": "+17% de dégâts des SkeletonMage\n16% de résistance à tous les éléments (SkeletonMage )\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Dégâts, Résistance, Non physique.",
+					"itIT": "Danni da SkeletonMage: +17%\nResistenza a tutti gli elementi per SkeletonMage: 16%\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Danni, Resistenza, Non fisico.",
+					"jaJP": "SkeletonMage のダメージ+17%\n全属性に対するSkeletonMage の耐性16%\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, ダメージ, 耐性, 非物理.",
+					"koKR": "SkeletonMage 피해 +17%\n모든 원소에 대한 SkeletonMage 저항 16%\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 피해, 저항, 비물리.",
+					"plPL": "+17% obrażeń typu: SkeletonMage\n16% odporności na wszystkie żywioły: SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Obrażenia, Odporność, Niefizyczne.",
+					"ptBR": "+17% de dano SkeletonMage\n16% de resistência a todos os elementos para SkeletonMage\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Dano, Resistência, Não física.",
+					"ruRU": "+17% к урону (SkeletonMage )\nСопротивление стихиям – 16% (SkeletonMage )\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Урон, Сопротивление, Нефизический урон.",
+					"trTR": "+17% SkeletonMage Hasarı\n16% Tüm Elementlere SkeletonMage Direnci\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: Yardakçı, Hasar, Direnç, Fiziksel Olmayan.",
+					"zhCN": "+17% SkeletonMage 伤害\n16% SkeletonMage 全元素抗性\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 伤害, 抗性, 非物理.",
+					"zhTW": "SkeletonMage 傷害 +17%\nSkeletonMage 的全元素抗性 16%\n\nBonus: Another +17% SkeletonMage Damage if requirements met:\n{thresholdRequirements}\n\nTags: 僕從, 傷害, 抗性, 非物理."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -24052,7 +24052,7 @@ let paragonData = {
 			},
 			"Necromancer_Rare_031": {
 				"name": "Flesh-horror",
-				"description": "+6.5% Golem Armor\n+16% Golem Attack Speed\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
+				"description": "+6.5% Golem Armor\n16% Golem Resistance to All Elements\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Minion, Resistance, Non-Physical, Armor.",
 				"nameLocalized": {
 					"deDE": "Fleischschrecken",
 					"esES": "Horror carnal",
@@ -24069,19 +24069,19 @@ let paragonData = {
 					"zhTW": "血肉懼怪"
 				},
 				"descriptionLocalized": {
-					"deDE": "+6.5% Rüstung für Golem\n+16% Angriffsgeschwindigkeit für: Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Widerstand, Nichtphysisch, Rüstung.",
-					"esES": "+6.5% de armadura de Golem\n+16% de velocidad de ataque de Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Resistencia, No física, Armadura.",
-					"esMX": "+6.5% de armadura de Golem\n+16% de velocidad de ataque de Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Resistencia, No física, Armadura.",
-					"frFR": "+6.5% à l'armure des Golem\n+16% à la vitesse d'attaque de Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Résistance, Non physique, Armure.",
-					"itIT": "Armatura Golem: +6.5%\nVelocità d'attacco Golem: +16%\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Resistenza, Non fisico, Armatura.",
-					"jaJP": "Golem 防御力+6.5%\nGolem の攻撃速度+16%\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, 耐性, 非物理, 装甲.",
-					"koKR": "Golem 방어도 +6.5%\nGolem 공격 속도 +16%\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 저항, 비물리, 방어도.",
-					"plPL": "+6.5% pancerza: Golem\n+16% szybkości ataku: Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Odporność, Niefizyczne, Pancerz.",
-					"ptBR": "+6.5% de armadura de Golem\n+16% de velocidade de ataque de Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Resistência, Não física, Armadura.",
-					"ruRU": "+6.5% к броне (Golem )\n+16% к скорости атаки (Golem )\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Сопротивление, Нефизический урон, Броня.",
-					"trTR": "+6.5% Golem Zırhı\n+16% Golem Saldırı Hızı\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Yardakçı, Direnç, Fiziksel Olmayan, Zırh.",
-					"zhCN": "+6.5% Golem 护甲\n+16% Golem 攻击速度\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 抗性, 非物理, 护甲.",
-					"zhTW": "Golem 護甲值 +6.5%\nGolem 攻擊速度 +16%\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 僕從, 抗性, 非物理, 防具."
+					"deDE": "+6.5% Rüstung für Golem\n16% Widerstand gegen alle Schadensarten für Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Diener, Widerstand, Nichtphysisch, Rüstung.",
+					"esES": "+6.5% de armadura de Golem\n16% de resistencia de Golem a todos los elementos\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Resistencia, No física, Armadura.",
+					"esMX": "+6.5% de armadura de Golem\n16% de resistencia de Golem a todos los elementos\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Esbirro, Resistencia, No física, Armadura.",
+					"frFR": "+6.5% à l'armure des Golem\n16% de résistance à tous les éléments (Golem )\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Serviteur, Résistance, Non physique, Armure.",
+					"itIT": "Armatura Golem: +6.5%\nResistenza a tutti gli elementi per Golem: 16%\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Servitori, Resistenza, Non fisico, Armatura.",
+					"jaJP": "Golem 防御力+6.5%\n全属性に対するGolem の耐性16%\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: ミニオン, 耐性, 非物理, 装甲.",
+					"koKR": "Golem 방어도 +6.5%\n모든 원소에 대한 Golem 저항 16%\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 하수인, 저항, 비물리, 방어도.",
+					"plPL": "+6.5% pancerza: Golem\n16% odporności na wszystkie żywioły: Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Sługa, Odporność, Niefizyczne, Pancerz.",
+					"ptBR": "+6.5% de armadura de Golem\n16% de resistência a todos os elementos para Golem\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Lacaio, Resistência, Não física, Armadura.",
+					"ruRU": "+6.5% к броне (Golem )\nСопротивление стихиям – 16% (Golem )\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Прислужник, Сопротивление, Нефизический урон, Броня.",
+					"trTR": "+6.5% Golem Zırhı\n16% Tüm Elementlere Golem Direnci\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: Yardakçı, Direnç, Fiziksel Olmayan, Zırh.",
+					"zhCN": "+6.5% Golem 护甲\n16% Golem 全元素抗性\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 爪牙, 抗性, 非物理, 护甲.",
+					"zhTW": "Golem 護甲值 +6.5%\nGolem 的全元素抗性 16%\n\nBonus: Another +6.5% Golem Armor if requirements met:\n{thresholdRequirements}\n\nTags: 僕從, 抗性, 非物理, 防具."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -36781,7 +36781,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_025": {
 				"name": "Cinders",
-				"description": "+10% Damage\n+10 Intelligence\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
+				"description": "+10% Damage to Burning Enemies\n+10 Intelligence\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage, Intelligence.",
 				"nameLocalized": {
 					"deDE": "Glut",
 					"esES": "Cenizas",
@@ -36798,19 +36798,19 @@ let paragonData = {
 					"zhTW": "燼火"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden\n+10 Intelligenz\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schaden, Intelligenz.",
-					"esES": "+10% de daño\n+10 de inteligencia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Daño, Inteligencia.",
-					"esMX": "+10% de daño\n+10 de Inteligencia\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Daño, Inteligencia.",
-					"frFR": "+10% de dégâts\n+10 intelligence\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Dégâts, Intelligence.",
-					"itIT": "Danni: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Danni, Intelligenza.",
-					"jaJP": "ダメージ+10%\n知力+10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ, 知力.",
-					"koKR": "공격력 +10%\n지능 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해, 지능.",
-					"plPL": "+10% obrażeń\n+10 inteligencji\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Obrażenia, Inteligencja.",
-					"ptBR": "+10% de dano\n+10 de Inteligência\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Dano, Inteligência.",
-					"ruRU": "+10% к урону\n+10 к интеллекту\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Урон, Интеллект.",
-					"trTR": "+10% Hasar\n+10 Zekâ\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: Yakma, Hasar, Zekâ.",
-					"zhCN": "+10% 伤害\n+10 点智力\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害, 智力.",
-					"zhTW": "傷害 +10%\n智力 +10\n\nBonus: Another +10% Damage if requirements met:\n{thresholdRequirements}\n\nTags: 燃燒, 傷害, 智力."
+					"deDE": "+10% Schaden gegen Gegner, die von Burning betroffen sind\n+10 Intelligenz\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schaden, Intelligenz.",
+					"esES": "+10% de daño a enemigos con el estado Burning\n+10 de inteligencia\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Daño, Inteligencia.",
+					"esMX": "+10% de daño a enemigos en estado Burning\n+10 de Inteligencia\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Daño, Inteligencia.",
+					"frFR": "+10% de dégâts contre les cibles sous cet effet: Burning\n+10 intelligence\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Dégâts, Intelligence.",
+					"itIT": "Danni ai nemici sotto l'effetto Burning: +10%\nIntelligenza: +10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Danni, Intelligenza.",
+					"jaJP": "Burning の敵へのダメージ+10%\n知力+10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ, 知力.",
+					"koKR": "Burning 적에게 주는 피해 +10%\n지능 +10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해, 지능.",
+					"plPL": "+10% obrażeń zadawanych wrogom (Burning )\n+10 inteligencji\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Obrażenia, Inteligencja.",
+					"ptBR": "+10% de dano contra inimigos Burning\n+10 de Inteligência\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Dano, Inteligência.",
+					"ruRU": "+10% к урону противникам под действием эффекта \"Burning \"\n+10 к интеллекту\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Урон, Интеллект.",
+					"trTR": "Burning Etkisindeki Düşmana +10% Hasar\n+10 Zekâ\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Yakma, Hasar, Zekâ.",
+					"zhCN": "+10% 对Burning 敌人的伤害\n+10 点智力\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害, 智力.",
+					"zhTW": "對Burning 敵人傷害 +10%\n智力 +10\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 燃燒, 傷害, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
