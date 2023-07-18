@@ -293,7 +293,22 @@ let codexHistory = {
 	"Offensive: Gloves of the Illuminator": 291,
 	"Defensive: Iceheart Brais": 292,
 	"Utility: Aspect of Explosive Mist": 293,
-	"Offensive: Aspect of the Changeling's Debt": 294
+	"Offensive: Aspect of the Changeling's Debt": 294,
+	"Offensive: Aspect of Ancestral Charge": 295,
+	"Other: Azurewrath": 296,
+	"Offensive: Subterranean Aspect": 297,
+	"Offensive: Fleshrender": 298,
+	"Mobility: Craven Aspect": 299,
+	"Utility: Aspect of Audacity": 300,
+	"Offensive: Ahavarion, Spear of Lycander": 301,
+	"Offensive: Aspect of Gore Quills": 302,
+	"Offensive: Lidless Wall": 303,
+	"Offensive: Aspect of Pestilent Points": 304,
+	"Offensive: Eaglehorn": 305,
+	"Offensive: (PH) of Ensnaring Current Aspect": 306,
+	"Defensive: Mage-Lord's Aspect": 307,
+	"Defensive: Aspect of Searing Wards": 308,
+	"Offensive: The Oculus": 309
 }
 
 export { codexHistory };

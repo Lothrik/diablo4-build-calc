@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.0.4.42942-1";
+const localVersion = "1.1.0.43333-1";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -4784,12 +4784,12 @@ function drawAllNodes() {
 						["allocatedPoints", 0],
 						["codexCategory", codexCategoryName],
 						["description", powerDescription],
-						["descriptionLocalized", new Map(Object.entries(powerDescriptionLocalized))],
+						["descriptionLocalized", new Map(powerDescriptionLocalized == null ? null : Object.entries(powerDescriptionLocalized))],
 						["id", `codex-${codexPower.id}`],
 						["itemSlot", codexPower.slot],
 						["itemType", codexPower.type],
 						["maxPoints", 1],
-						["nameLocalized", new Map(Object.entries(codexPower.nameLocalized))],
+						["nameLocalized", new Map(codexPower.nameLocalized == null ? null : Object.entries(codexPower.nameLocalized))],
 						["widthOverride", nodeWidth],
 						["shapeSize", 1],
 						["shapeType", "rectangle"],

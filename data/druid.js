@@ -533,7 +533,7 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 Lucky Hit Chance: 25% (per hit)
 Electricity gathers around your weapon, dealing {20/22/24/26/28/30/32/34/36/38}% damage to your target and chaining to up to 3 surrounding enemies, dealing 20% less damage each time it chains.
 
-You gain 25% Damage Reduction for 3 seconds after dealing damage with Storm Strike.
+You gain 15% Damage Reduction for 3 seconds after dealing damage with Storm Strike.
 
 Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 		nameLocalized: {
@@ -552,19 +552,19 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 			"zhTW": "風暴雷擊"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Geisteskraft: 14\nGlückstrefferchance: 25% (per hit)\nElektrizität sammelt sich um Eure Waffe, fügt Eurem Ziel {20/22/24/26/28/30/32/34/36/38}% Schaden zu und springt auf bis zu 3 Gegner in der Nähe über, wobei bei jedem Sprung 20% weniger Schaden verursacht wird.\n\nIhr erhaltet 3 Sek. lang 25% Schadensreduktion, nachdem Ihr mit Sturmschlag Schaden verursacht habt.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Schadensreduktion, Geisteskraft, Blitz.",
-			"esES": "Generación de espíritu: 14\nProbabilidad de golpe de suerte: 25% (per hit)\nTu arma se rodea de una electricidad que inflige {20/22/24/26/28/30/32/34/36/38}% de daño a tu objetivo, salta a los enemigos cercanos hasta 3 veces e inflige un 20% menos de daño cada vez que salta.\n\nObtienes un 25% de reducción de daño durante 3 s tras infligir daño con Golpe de tormenta.\n\nTags: Básica, Magia de la naturaleza, Tormenta, Daño, Reducción de daño, Espíritu, Rayos.",
-			"esMX": "Generación de Espíritu: 14\nProbabilidad de golpe afortunado: 25% (per hit)\nConcentras electricidad alrededor de tu arma, lo que inflige {20/22/24/26/28/30/32/34/36/38}% de daño a tu objetivo, rebota hasta en 3 enemigos circundantes e inflige un 20% menos de daño cada vez que rebota.\n\nObtienes 25% de reducción de daño durante 3 segundos después de infligir daño con Golpe de Tormenta.\n\nTags: Básica, Magia de la naturaleza, Tormenta, Daño, Reducción de daño, Espíritu, Rayo.",
-			"frFR": "Esprit généré: 14\nChances d'obtenir un coup de chance: 25% (per hit)\nDe l'électricité se concentre autour de votre arme et inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts à votre cible, puis se propage à un maximum de 3 adversaires à proximité en infligeant 20% de dégâts en moins à chaque propagation.\n\nAprès avoir infligé des dégâts avec Coup de tonnerre, vous obtenez 25% de réduction des dégâts pendant 3 s.\n\nTags: Basique, Magie naturelle, Tempête, Dégâts, Réduction des dégâts, Esprit, Foudre.",
-			"itIT": "Generazione spirito: 14\nProbabilità di colpo fortunato: 25% (per hit)\nL'elettricità si concentra intorno alla tua arma, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni al bersaglio e generando una catena di fulmini che colpisce fino a 3 nemici circostanti, infliggendo il 20% di danni in meno a ogni nuovo bersaglio colpito.\n\nOttieni una riduzione danni del 25% per 3 s dopo aver inflitto danni con Assalto della Tempesta.\n\nTags: Base, Magia naturale, Tempesta, Danni, Riduzione danni, Spirito, Fulmine.",
-			"jaJP": "精神力回復量: 14\n幸運の一撃発生率: 25% (per hit)\n武器が電気を帯びて標的に{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。また、標的の周囲にいる最大3体の敵に連鎖ダメージを与えるが、このダメージは1回連鎖する毎に20%減少していく。\n\n〈嵐の一撃〉でダメージを与えると、被ダメージが3秒間にわたり25%減少する。\n\nTags: 基本, 自然魔法, 嵐, ダメージ, ダメージ減少, 精神力, 電撃.",
-			"koKR": "생성: 영력 14\n행운의 적중 확률: 25% (per hit)\n무기 주위에 전기를 끌어모아 대상에게 {20/22/24/26/28/30/32/34/36/38}%의 피해를 주고, 주위의 적 최대 3마리를 연쇄 공격하여 적중할 때마다 20% 감소한 피해를 줍니다.\n\n폭풍 강타로 피해를 준 후 3초 동안 25%의 피해 감소를 얻습니다.\n\nTags: 기본, 자연 마법, 폭풍, 피해, 피해 감소, 영력, 번개.",
-			"plPL": "Generuje 14 pkt. siły duchowej\nSzansa na szczęśliwy traf: 25% (per hit)\nTwoja broń gromadzi ładunek elektryczny i zadaje {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń twojemu celowi oraz do 3 dodatkowym wrogom wokół, zadając o 20% mniej obrażeń za każdym razem, gdy efekt przejdzie na wroga.\n\nZyskujesz premię 25% do redukcji obrażeń na 3 sek. po zadaniu obrażeń Uderzeniem Burzy.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Redukcja Obrażeń, Siła Duchowa, Błyskawice.",
-			"ptBR": "Gerar Espírito: 14\nChance de Golpe de Sorte: 25% (per hit)\nEletricidade é acumulada ao redor da sua arma, causando {20/22/24/26/28/30/32/34/36/38}% de dano ao seu alvo e propagando-se para até 3 inimigos ao redor, causando 20% de dano reduzido cada vez que se propaga.\n\nVocê recebe 25% de redução de dano por 3 segundos depois de causar dano com Ataque Tempestuoso.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Redução de Dano, Espírito, Eletricidade.",
-			"ruRU": "Дает дух: 14 ед.\nВероятность удачного удара: 25% (per hit)\nВаше оружие окружает электрическая энергия, которая наносит {20/22/24/26/28/30/32/34/36/38}% ед. урона цели и поражает еще максимум 3 противников рядом с ней, нанося на 20% меньше урона с каждым переходом.\n\nКогда \"Удар бури\" наносит урон, вы получаете на 25% меньше урона в течение 3 сек.\n\nTags: Базовое, Силы природы, Буря, Урон, Уменьшение урона, Дух, Молния.",
-			"trTR": "Ruh Üret: 14\nŞanslı Vuruş İhtimali: 25% (per hit)\nElektrik silahının etrafında toplanarak hedefine {20/22/24/26/28/30/32/34/36/38}% hasar verir ve etraftaki en fazla 3 düşmana zincirlenerek her zincirlendiğinde 20% daha az hasar verir.\n\nFırtına Vuruşu ile hasar verdikten sonra 3 saniyeliğine 25% Hasar Azaltma kazanırsın.\n\nTags: Temel, Doğa Sihri, Fırtına, Hasar, Hasar Azaltma, Ruh, Yıldırım.",
-			"zhCN": "生成灵力: 14\n幸运一击几率: 25% (per hit)\n电能聚集在你的武器周围, 对你的目标造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害并最多连锁攻击周围的 3 名敌人, 每次连锁攻击造成的伤害降低 20%。\n\n使用风暴打击造成伤害后, 你获得 25% 的伤害减免, 持续 3 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电.",
-			"zhTW": "產生靈力:14\n幸運觸發機率: 25% (per hit)\n你的武器聚集電能,對你的目標造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害,並最多連鎖攻擊 3 個附近的敵人,每次連鎖攻擊造成的傷害減少 20%。\n\n使用風暴雷擊造成傷害後,你獲得 25% 傷害減免,持續 3 秒。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 傷害減免, 靈力, 閃電."
+			"deDE": "Erzeugte Geisteskraft: 14\nGlückstrefferchance: 25% (per hit)\nElektrizität sammelt sich um Eure Waffe, fügt Eurem Ziel {20/22/24/26/28/30/32/34/36/38}% Schaden zu und springt auf bis zu 3 Gegner in der Nähe über, wobei bei jedem Sprung 20% weniger Schaden verursacht wird.\n\nIhr erhaltet 3 Sek. lang 15% Schadensreduktion, nachdem Ihr mit Sturmschlag Schaden verursacht habt.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Schadensreduktion, Geisteskraft, Blitz.",
+			"esES": "Generación de espíritu: 14\nProbabilidad de golpe de suerte: 25% (per hit)\nTu arma se rodea de una electricidad que inflige {20/22/24/26/28/30/32/34/36/38}% de daño a tu objetivo, salta a los enemigos cercanos hasta 3 veces e inflige un 20% menos de daño cada vez que salta.\n\nObtienes un 15% de reducción de daño durante 3 s tras infligir daño con Golpe de tormenta.\n\nTags: Básica, Magia de la naturaleza, Tormenta, Daño, Reducción de daño, Espíritu, Rayos.",
+			"esMX": "Generación de Espíritu: 14\nProbabilidad de golpe afortunado: 25% (per hit)\nConcentras electricidad alrededor de tu arma, lo que inflige {20/22/24/26/28/30/32/34/36/38}% de daño a tu objetivo, rebota hasta en 3 enemigos circundantes e inflige un 20% menos de daño cada vez que rebota.\n\nObtienes 15% de reducción de daño durante 3 segundos después de infligir daño con Golpe de Tormenta.\n\nTags: Básica, Magia de la naturaleza, Tormenta, Daño, Reducción de daño, Espíritu, Rayo.",
+			"frFR": "Esprit généré: 14\nChances d'obtenir un coup de chance: 25% (per hit)\nDe l'électricité se concentre autour de votre arme et inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts à votre cible, puis se propage à un maximum de 3 adversaires à proximité en infligeant 20% de dégâts en moins à chaque propagation.\n\nAprès avoir infligé des dégâts avec Coup de tonnerre, vous obtenez 15% de réduction des dégâts pendant 3 s.\n\nTags: Basique, Magie naturelle, Tempête, Dégâts, Réduction des dégâts, Esprit, Foudre.",
+			"itIT": "Generazione spirito: 14\nProbabilità di colpo fortunato: 25% (per hit)\nL'elettricità si concentra intorno alla tua arma, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni al bersaglio e generando una catena di fulmini che colpisce fino a 3 nemici circostanti, infliggendo il 20% di danni in meno a ogni nuovo bersaglio colpito.\n\nOttieni una riduzione danni del 15% per 3 s dopo aver inflitto danni con Assalto della Tempesta.\n\nTags: Base, Magia naturale, Tempesta, Danni, Riduzione danni, Spirito, Fulmine.",
+			"jaJP": "精神力回復量: 14\n幸運の一撃発生率: 25% (per hit)\n武器が電気を帯びて標的に{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。また、標的の周囲にいる最大3体の敵に連鎖ダメージを与えるが、このダメージは1回連鎖する毎に20%減少していく。\n\n〈嵐の一撃〉でダメージを与えると、被ダメージが3秒間にわたり15%減少する。\n\nTags: 基本, 自然魔法, 嵐, ダメージ, ダメージ減少, 精神力, 電撃.",
+			"koKR": "생성: 영력 14\n행운의 적중 확률: 25% (per hit)\n무기 주위에 전기를 끌어모아 대상에게 {20/22/24/26/28/30/32/34/36/38}%의 피해를 주고, 주위의 적 최대 3마리를 연쇄 공격하여 적중할 때마다 20% 감소한 피해를 줍니다.\n\n폭풍 강타로 피해를 준 후 3초 동안 15%의 피해 감소를 얻습니다.\n\nTags: 기본, 자연 마법, 폭풍, 피해, 피해 감소, 영력, 번개.",
+			"plPL": "Generuje 14 pkt. siły duchowej\nSzansa na szczęśliwy traf: 25% (per hit)\nTwoja broń gromadzi ładunek elektryczny i zadaje {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń twojemu celowi oraz do 3 dodatkowym wrogom wokół, zadając o 20% mniej obrażeń za każdym razem, gdy efekt przejdzie na wroga.\n\nZyskujesz premię 15% do redukcji obrażeń na 3 sek. po zadaniu obrażeń Uderzeniem Burzy.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Redukcja Obrażeń, Siła Duchowa, Błyskawice.",
+			"ptBR": "Gerar Espírito: 14\nChance de Golpe de Sorte: 25% (per hit)\nEletricidade é acumulada ao redor da sua arma, causando {20/22/24/26/28/30/32/34/36/38}% de dano ao seu alvo e propagando-se para até 3 inimigos ao redor, causando 20% de dano reduzido cada vez que se propaga.\n\nVocê recebe 15% de redução de dano por 3 segundos depois de causar dano com Ataque Tempestuoso.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Redução de Dano, Espírito, Eletricidade.",
+			"ruRU": "Дает дух: 14 ед.\nВероятность удачного удара: 25% (per hit)\nВаше оружие окружает электрическая энергия, которая наносит {20/22/24/26/28/30/32/34/36/38}% ед. урона цели и поражает еще максимум 3 противников рядом с ней, нанося на 20% меньше урона с каждым переходом.\n\nКогда \"Удар бури\" наносит урон, вы получаете на 15% меньше урона в течение 3 сек.\n\nTags: Базовое, Силы природы, Буря, Урон, Уменьшение урона, Дух, Молния.",
+			"trTR": "Ruh Üret: 14\nŞanslı Vuruş İhtimali: 25% (per hit)\nElektrik silahının etrafında toplanarak hedefine {20/22/24/26/28/30/32/34/36/38}% hasar verir ve etraftaki en fazla 3 düşmana zincirlenerek her zincirlendiğinde 20% daha az hasar verir.\n\nFırtına Vuruşu ile hasar verdikten sonra 3 saniyeliğine 15% Hasar Azaltma kazanırsın.\n\nTags: Temel, Doğa Sihri, Fırtına, Hasar, Hasar Azaltma, Ruh, Yıldırım.",
+			"zhCN": "生成灵力: 14\n幸运一击几率: 25% (per hit)\n电能聚集在你的武器周围, 对你的目标造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害并最多连锁攻击周围的 3 名敌人, 每次连锁攻击造成的伤害降低 20%。\n\n使用风暴打击造成伤害后, 你获得 15% 的伤害减免, 持续 3 秒。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 伤害减免, 灵力, 闪电.",
+			"zhTW": "產生靈力:14\n幸運觸發機率: 25% (per hit)\n你的武器聚集電能,對你的目標造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害,並最多連鎖攻擊 3 個附近的敵人,每次連鎖攻擊造成的傷害減少 20%。\n\n使用風暴雷擊造成傷害後,你獲得 15% 傷害減免,持續 3 秒。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 傷害減免, 靈力, 閃電."
 },
 		id: 12,
 		maxPoints: 5,
@@ -734,7 +734,7 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 	"Enhanced Claw": {
 		baseSkill: "Claw",
 		connections: [ "Claw", "Fierce Claw", "Wild Claw" ],
-		description: `Claw's Attack Speed is increased by +10%.`,
+		description: `Claw's Attack Speed is increased by +15%.`,
 		nameLocalized: {
 			"deDE": "Verbesserte Klaue",
 			"esES": "Desgarrar mejorado",
@@ -751,19 +751,19 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"zhTW": "強化爪擊"
 },
 		descriptionLocalized: {
-			"deDE": "Die Angriffsgeschwindigkeit von Klaue ist um +10% erhöht.",
-			"esES": "La velocidad de ataque de Desgarrar aumenta un +10%.",
-			"esMX": "La velocidad de ataque de Rasguño aumenta un +10%.",
-			"frFR": "La vitesse d'attaque de Griffe est augmentée de +10%.",
-			"itIT": "La velocità d'attacco di Artigliata aumenta del +10%.",
-			"jaJP": "〈狼爪〉の攻撃速度が+10%上昇する。",
-			"koKR": "발톱의 공격 속도가 +10% 증가합니다.",
-			"plPL": "Szybkość ataku Pazurów jest zwiększona o +10%.",
-			"ptBR": "A velocidade de ataque de Garra é aumentada em +10%.",
-			"ruRU": "Скорость атаки \"Удара когтями\" повышается на +10%.",
-			"trTR": "Pençenin Saldırı Hızı +10% artar.",
-			"zhCN": "爪击的攻击速度提高 +10%。",
-			"zhTW": "爪擊攻擊速度提高 +10%.。"
+			"deDE": "Die Angriffsgeschwindigkeit von Klaue ist um +15% erhöht.",
+			"esES": "La velocidad de ataque de Desgarrar aumenta un +15%.",
+			"esMX": "La velocidad de ataque de Rasguño aumenta un +15%.",
+			"frFR": "La vitesse d'attaque de Griffe est augmentée de +15%.",
+			"itIT": "La velocità d'attacco di Artigliata aumenta del +15%.",
+			"jaJP": "〈狼爪〉の攻撃速度が+15%上昇する。",
+			"koKR": "발톱의 공격 속도가 +15% 증가합니다.",
+			"plPL": "Szybkość ataku Pazurów jest zwiększona o +15%.",
+			"ptBR": "A velocidade de ataque de Garra é aumentada em +15%.",
+			"ruRU": "Скорость атаки \"Удара когтями\" повышается на +15%.",
+			"trTR": "Pençenin Saldırı Hızı +15% artar.",
+			"zhCN": "爪击的攻击速度提高 +15%。",
+			"zhTW": "爪擊攻擊速度提高 +15%.。"
 },
 		id: 17,
 		maxPoints: 1,
@@ -1509,7 +1509,7 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Burza z Piorunami",
 			"ptBR": "Tempestade de Raios",
 			"ruRU": "Грозовой шторм",
-			"trTR": "Şimşek Fırtınası",
+			"trTR": "Yıldırım Fırtınası",
 			"zhCN": "雷暴",
 			"zhTW": "閃電風暴"
 },
@@ -1548,7 +1548,7 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Wzmocniona Burza z Piorunami",
 			"ptBR": "Tempestade de Raios Aperfeiçoada",
 			"ruRU": "Усиленный грозовой шторм",
-			"trTR": "Geliştirilmiş Şimşek Fırtınası",
+			"trTR": "Geliştirilmiş Yıldırım Fırtınası",
 			"zhCN": "强化雷暴",
 			"zhTW": "強化閃電風暴"
 },
@@ -1563,7 +1563,7 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Rozmiar twojej Burzy z Piorunami utrzymuje się przez 6 sek. po podtrzymywaniu.",
 			"ptBR": "O tamanho de Tempestade de Raios é mantido por 6 segundos após a canalização.",
 			"ruRU": "Размер области \"Грозового шторма\" сохраняется на 6 сек. после поддержания умения.",
-			"trTR": "Şimşek Fırtınasının boyutu, yönlendirme sonrasında 6 saniye boyunca korunur.",
+			"trTR": "Yıldırım Fırtınasının boyutu, yönlendirme sonrasında 6 saniye boyunca korunur.",
 			"zhCN": "雷暴的大小会在引导结束后保留 6 秒。",
 			"zhTW": "閃電風暴的大小會保留至引導後 6 秒。"
 },
@@ -1587,7 +1587,7 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Pierwotna Burza z Piorunami",
 			"ptBR": "Tempestade de Raios Primeva",
 			"ruRU": "Первозданный грозовой шторм",
-			"trTR": "İlkel Şimşek Fırtınası",
+			"trTR": "İlkel Yıldırım Fırtınası",
 			"zhCN": "原始雷暴",
 			"zhTW": "原始閃電風暴"
 },
@@ -1602,7 +1602,7 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Burza z Piorunami ma 12% szans na unieruchomienie trafionych wrogów na 3 sek.",
 			"ptBR": "Tempestade de Raios tem 12% de chance de imobilizar inimigos atingidos por 3 segundos.",
 			"ruRU": "\"Грозовой шторм\" с вероятностью 12% обездвиживает пораженных противников на 3 сек.",
-			"trTR": "Şimşek Fırtınası 12% ihtimalle vurduğu düşmanları 3 saniyeliğine Sabitler.",
+			"trTR": "Yıldırım Fırtınası 12% ihtimalle vurduğu düşmanları 3 saniyeliğine Sabitler.",
 			"zhCN": "雷暴命中敌人时有 12% 几率使其定身 3 秒。",
 			"zhTW": "閃電風暴有 12% 機率使擊中的敵人定身,持續 3 秒。"
 },
@@ -1626,7 +1626,7 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Szaleńcza Burza z Piorunami",
 			"ptBR": "Tempestade de Raios Raivosa",
 			"ruRU": "Бушующий грозовой шторм",
-			"trTR": "Öfkeli Şimşek Fırtınası",
+			"trTR": "Öfkeli Yıldırım Fırtınası",
 			"zhCN": "暴怒雷暴",
 			"zhTW": "盛怒閃電風暴"
 },
@@ -1641,7 +1641,7 @@ Tags: Core, Nature Magic, Storm, Channeled, Spirit, Damage, Lightning.`,
 			"plPL": "Burza z Piorunami zyskuje 1 dodatkowe uderzenie pioruna.",
 			"ptBR": "Tempestade de Raios recebe 1 raio adicional.",
 			"ruRU": "\"Грозовой шторм\" ударяет разрядом молнии еще 1 раз.",
-			"trTR": "Şimşek Fırtınası 1 ilave şimşek darbesi kazanır.",
+			"trTR": "Yıldırım Fırtınası 1 ilave yıldırım darbesi kazanır.",
 			"zhCN": "雷暴额外造成 1 次闪电打击。",
 			"zhTW": "閃電風暴獲得額外 1 次閃電強擊。"
 },
@@ -1696,7 +1696,7 @@ Tags: Spirit.`,
 
 Tags: Damage, Spirit, Core.`,
 		nameLocalized: {
-			"deDE": "Wildes Impulse",
+			"deDE": "Wilde Impulse",
 			"esES": "Impulsos salvajes",
 			"esMX": "Impulsos Salvajes",
 			"frFR": "Pulsions sauvages",
@@ -2488,7 +2488,7 @@ Tags: Defensive, Nature Magic, Storm, Cooldown, Damage, Damage Reduction, Non-Ph
 			"ptBR": "Recarga: 18 segundos\nChance de Golpe de Sorte: 25% (per hit)\nPassiva: Ventos poderosos cercam você, concedendo {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% de redução de dano não físico.\n\nAtiva: Os ventos intensificam-se rapidamente, repelindo inimigos e causando {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nTags: Defesa, Magia da Natureza, Tempestade, Recarga, Dano, Redução de Dano, Não física, Física, Controle de Grupo.",
 			"ruRU": "Время восстановления: 18 сек.\nВероятность удачного удара: 25% (per hit)\nПассивный эффект: вас окружают мощные потоки ветра, которые уменьшают получаемый нефизический урон на {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}%.\n\nЭффект при активации: потоки ветра стремительно расширяются, нанося ближайшим противникам {30/33/36/39/42/45/48/51/54/57}% ед. урона и отбрасывая их.\n\nTags: Защита, Силы природы, Буря, Время восстановления, Урон, Уменьшение урона, Нефизический урон, Физический урон, Контроль.",
 			"trTR": "Bekleme Süresi: 18 saniye\nŞanslı Vuruş İhtimali: 25% (per hit)\nPasif: Güçlü rüzgârlar etrafını sararak {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% Fiziksel Olmayan Hasar Azaltma kazandırır.\n\nAktif: Rüzgârlar hızlıca genişleyerek düşmanları Geri Savurur ve {30/33/36/39/42/45/48/51/54/57}% hasar verir.\n\nTags: Savunma, Doğa Sihri, Fırtına, Bekleme Süresi, Hasar, Hasar Azaltma, Fiziksel Olmayan, Fiziksel, Kitle Kontrolü.",
-			"zhCN": "冷却时间: 18 秒\n幸运一击几率: 25% (per hit)\n被动: 强风环绕着你, 获得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理伤害减免。\n\n主动: 强风迅速膨胀, 对附近的敌人造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并将其击退。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 群控.",
+			"zhCN": "冷却时间: 18 秒\n幸运一击几率: 25% (per hit)\n被动: 强风环绕着你, 获得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理伤害减免。\n\n主动: 强风迅速膨胀, 对附近的敌人造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害并将其击退。\n\nTags: 防御, 自然魔法, 风暴, 冷却时间, 伤害, 伤害减免, 非物理, 物理, 控制.",
 			"zhTW": "冷卻時間:18 秒\n幸運觸發機率: 25% (per hit)\n被動效果:強勁的風環繞你,獲得 {10/10.9/11.9/12.8/13.7/14.6/15.5/16.4/17.3/18.1}% 非物理傷害減免。\n\n主動效果:風襲範圍快速擴張,擊退敵人並造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。\n\nTags: 防禦, 自然魔法, 風暴, 冷卻時間, 傷害, 傷害減免, 非物理, 物理, 控場."
 },
 		id: 57,
@@ -2853,7 +2853,7 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"ptBR": "Recarga: 20 segundos\nChance de Golpe de Sorte: 28% (per use)\nPassiva: Um rastejante venenoso emerge periodicamente do solo a cada 7 segundos e envenena um inimigo na área, causando {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano ao longo de 6 segundos.\n\nAtiva: Vinhas estrangulam todos os inimigos ao redor, imobilizando-os por 2 segundos e envenenando-os, causando {90/99/108/117/126/135/144/153/162/171}% de dano ao longo de 2 segundos.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Время восстановления: 20 сек.\nВероятность удачного удара: 28% (per use)\nПассивный эффект: раз в 7 сек. из-под земли появляется ядовитая лоза, которая отравляет ближайшего противника, нанося {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона от отравления за 6 сек.\n\nЭффект при активации: лозы-душители оплетают противников вокруг, обездвиживая их на 2 сек. и нанося {90/99/108/117/126/135/144/153/162/171}% ед. урона от отравления за 2 сек.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
 			"trTR": "Bekleme Süresi: 20 saniye\nŞanslı Vuruş İhtimali: 28% (per use)\nPasif: Yerden 7 saniyede bir sürüngen bir asma yükselerek bölgedeki bir düşmana 6 saniye boyunca {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Zehir hasarı uygular.\n\nAktif: Asmalar etraftaki tüm düşmanları boğarak 2 saniyeliğine Sabitler ve 2 saniye boyunca {90/99/108/117/126/135/144/153/162/171}% Zehir hasarı verir.\n\nTags: Yoldaş, Zehir, Hasar, Bekleme Süresi, Kitle Kontrolü.",
-			"zhCN": "冷却时间: 20 秒\n幸运一击几率: 28% (per use)\n被动: 一个剧毒藤蔓每隔 7 秒从地面出现, 并在 6 秒内对区域内的敌人造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点毒素伤害。\n\n主动: 藤蔓会绞杀周围所有敌人, 使其定身 2 秒并中毒, 在 2 秒内对其造成 {90/99/108/117/126/135/144/153/162/171}% 点伤害。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 群控.",
+			"zhCN": "冷却时间: 20 秒\n幸运一击几率: 28% (per use)\n被动: 一个剧毒藤蔓每隔 7 秒从地面出现, 并在 6 秒内对区域内的敌人造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点毒素伤害。\n\n主动: 藤蔓会绞杀周围所有敌人, 使其定身 2 秒并中毒, 在 2 秒内对其造成 {90/99/108/117/126/135/144/153/162/171}% 点伤害。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 控制.",
 			"zhTW": "冷卻時間:20 秒\n幸運觸發機率:28% (per use)\n被動效果:劇毒藤蔓每隔 7 秒會冒出地面,對附近的一名敵人在 6 秒內造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 點中毒傷害。\n\n主動效果:藤蔓會纏住附近所有敵人,使敵人定身 2 秒,並在 2 秒內造成 {90/99/108/117/126/135/144/153/162/171}% 點中毒傷害。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
 },
 		id: 167,
@@ -3171,7 +3171,7 @@ Tags: Damage, Crowd Control.`,
 			"ptBR": "Causa {3/6/9/12/15/18/21/24/27/30}% de dano aumentado a inimigos distantes. O bônus é dobrado se eles também estiverem desacelerados, atordoados, imobilizados ou repelidos.\n\nTags: Dano, Controle de Grupo.",
 			"ruRU": "Вы наносите на x{3/6/9/12/15/18/21/24/27/30}% больше урона находящимся вдалеке противникам. Бонус удваивается, если ваша цель замедлена, оглушена, обездвижена или отброшена.\n\nTags: Урон, Контроль.",
 			"trTR": "Uzak düşmanlara x{3/6/9/12/15/18/21/24/27/30}% artırılmış hasar ver. Düşmanlar ayrıca Yavaşlatılmış, Sersemletilmiş, Sabitlenmiş veya Geri Savrulmuşsa bu bonusu ikiye katla.\n\nTags: Hasar, Kitle Kontrolü.",
-			"zhCN": "对远距敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。如果敌人处于被减速、被击昏、被定身或被击退状态, 则该加成翻倍。\n\nTags: 伤害, 群控.",
+			"zhCN": "对远距敌人造成的伤害提高 x{3/6/9/12/15/18/21/24/27/30}%。如果敌人处于被减速、被击昏、被定身或被击退状态, 则该加成翻倍。\n\nTags: 伤害, 控制.",
 			"zhTW": "對遠程敵人造成的傷害提高 x{3/6/9/12/15/18/21/24/27/30}%。如果敵人也被緩速、擊昏、定身或擊退,則此加成效果加倍。\n\nTags: 傷害, 控場."
 },
 		id: 75,
@@ -3336,7 +3336,7 @@ Tags: Crowd Control, Lightning, Lucky Hit, Damage.`,
 			"ptBR": "Golpe de Sorte: Causar dano elétrico a inimigos tem até {5/10/15/20/25/30/35/40/45/50}% de chance de imobilizá-los por 3 segundos.\n\nSe o alvo já estiver imobilizado, o dano elétrico recebido por ele é aumentado em {6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Controle de Grupo, Eletricidade, Golpe de Sorte, Dano.",
 			"ruRU": "Удачный удар: когда вы наносите противникам урон от молнии, вы с вероятностью до {5/10/15/20/25/30/35/40/45/50}% обездвиживаете их на 3 сек.\n\nЕсли цель уже обездвижена, наносимый ей урон от молнии увеличивается на x{6/12/18/24/30/36/42/48/54/60}%.\n\nTags: Контроль, Молния, Удачный удар, Урон.",
 			"trTR": "Şanslı Vuruş: Düşmanlara Yıldırım hasarı vermek, en fazla %{5/10/15/20/25/30/35/40/45/50} ihtimalle onları 3 saniyeliğine Sabitler.\n\nHedef zaten Sabitlenmişse bunun yerine onlara verilen Yıldırım hasarı x{6/12/18/24/30/36/42/48/54/60}% artar.\n\nTags: Kitle Kontrolü, Yıldırım, Şanslı Vuruş, Hasar.",
-			"zhCN": "幸运一击: 对敌人造成闪电伤害最多有 {5/10/15/20/25/30/35/40/45/50}% 几率使其定身 3 秒。\n\n如果目标已经处于定身状态, 则对其造成的闪电伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 群控, 闪电, 幸运一击, 伤害.",
+			"zhCN": "幸运一击: 对敌人造成闪电伤害最多有 {5/10/15/20/25/30/35/40/45/50}% 几率使其定身 3 秒。\n\n如果目标已经处于定身状态, 则对其造成的闪电伤害提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 控制, 闪电, 幸运一击, 伤害.",
 			"zhTW": "幸運觸發:對敵人造成電擊傷害有最多 {5/10/15/20/25/30/35/40/45/50}% 的機率使其定身,持續 3 秒。\n\n如目標已被定身,對目標造成的電擊傷害則會提高 x{6/12/18/24/30/36/42/48/54/60}%。\n\nTags: 控場, 閃電, 幸運觸發, 傷害."
 },
 		id: 82,
@@ -3376,7 +3376,7 @@ Tags: Vulnerable, Lightning, Damage, Nature Magic, Storm, Lucky Hit, Crowd Contr
 			"ptBR": "Golpe de Sorte: Ao causar dano a inimigos vulneráveis, imobilizados ou atordoados, tem até {10/20/30/40/50/60/70/80/90/100}% de chance de também os atingir com um Raio, causando 55% de dano.\n\nTags: Vulnerável, Eletricidade, Dano, Magia da Natureza, Tempestade, Golpe de Sorte, Controle de Grupo.",
 			"ruRU": "Удачный удар: когда вы поражаете уязвимого, обездвиженного или оглушенного противника, с вероятностью {10/20/30/40/50/60/70/80/90/100}% создается разряд молнии, наносящий 55% ед. урона.\n\nTags: Уязвимость, Молния, Урон, Силы природы, Буря, Удачный удар, Контроль.",
 			"trTR": "Şanslı Vuruş: En fazla %{10/20/30/40/50/60/70/80/90/100} ihtimalle Savunmasız, Sabitlenmiş veya Sersemletilmiş bir düşmana hasar verirken bunun yanında bir Yıldırım darbesi vurup 55% hasar verir.\n\nTags: Savunmasız, Yıldırım, Hasar, Doğa Sihri, Fırtına, Şanslı Vuruş, Kitle Kontrolü.",
-			"zhCN": "幸运一击: 对处于易伤、被定身或被击昏状态的敌人造成伤害时, 最多有 {10/20/30/40/50/60/70/80/90/100}% 几率对其射出一支闪电箭, 造成 55% 点伤害。\n\nTags: 易伤, 闪电, 伤害, 自然魔法, 风暴, 幸运一击, 群控.",
+			"zhCN": "幸运一击: 对处于易伤、被定身或被击昏状态的敌人造成伤害时, 最多有 {10/20/30/40/50/60/70/80/90/100}% 几率对其射出一支闪电箭, 造成 55% 点伤害。\n\nTags: 易伤, 闪电, 伤害, 自然魔法, 风暴, 幸运一击, 控制.",
 			"zhTW": "幸運觸發:對易傷、定身或昏迷的敵人造成傷害時,最多有 {10/20/30/40/50/60/70/80/90/100}% 機率觸發閃電,命中時造成 55% 點傷害。\n\nTags: 易傷, 閃電, 傷害, 自然魔法, 風暴, 幸運觸發, 控場."
 },
 		id: 83,
@@ -3429,7 +3429,7 @@ Tags: Damage.`,
 		description: `Attack Speed Multiplier: 1.25
 Cooldown: 10 seconds
 Lucky Hit Chance: 4% (per hit)
-Unearth a large rolling boulder that repeatedly Knocks Back enemies, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage with each hit.
+Unearth a large rolling boulder that repeatedly Knocks Back enemies, dealing {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% damage with each hit.
 
 Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 		nameLocalized: {
@@ -3448,19 +3448,19 @@ Tags: Wrath, Nature Magic, Earth, Physical, Damage, Cooldown, Crowd Control.`,
 			"zhTW": "巨石"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nAbklingzeit: 10 Sek.\nGlückstrefferchance: 4% (per hit)\nBringt einen großen Felsbrocken ins Rollen, der Gegner mehrfach zurückstößt und ihnen mit jedem Treffer {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
-			"esES": "Attack Speed Multiplier: 1.25\nTiempo de reutilización: 10 s\nProbabilidad de golpe de suerte: 4% (per hit)\nDesentierras un gran peñasco rodante que repele repetidamente a los enemigos, lo que inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño con cada golpe.\n\nTags: Cólera, Magia de la naturaleza, Tierra, Física, Daño, Tiempo de reutilización, Control de masas.",
-			"esMX": "Attack Speed Multiplier: 1.25\nRecuperación: 10 segundos\nProbabilidad de golpe afortunado: 4% (per hit)\nDesentierras una roca gigante que repele repetidamente a los enemigos y les inflige {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño por cada golpe.\n\nTags: Ira, Magia de la naturaleza, Tierra, Física, Daño, Recuperación, Control de multitudes.",
-			"frFR": "Attack Speed Multiplier: 1.25\nTemps de recharge: 10 s\nChances d'obtenir un coup de chance: 4% (per hit)\nVous déterrez un gros rocher qui roule en percutant et en repoussant les adversaires plusieurs fois de suite, leur infligeant {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts à chaque coup.\n\nTags: Colère, Magie naturelle, Terre, Dégâts physiques, Dégâts, Temps de recharge, Perte de contrôle.",
-			"itIT": "Attack Speed Multiplier: 1.25\nTempo di recupero: 10 s\nProbabilità di colpo fortunato: 4% (per hit)\nDissotterri un grosso macigno rotolante che respinge continuamente indietro i nemici, infliggendo {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni a ogni colpo.\n\nTags: Collera, Magia naturale, Terra, Fisico, Danni, Tempo di recupero, Effetti debilitanti.",
-			"jaJP": "Attack Speed Multiplier: 1.25\nクールダウン: 10秒\n幸運の一撃発生率: 4% (per hit)\n巨大な岩を掘り起こして転がし、敵をノックバックしつつ、命中するたびに{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%のダメージを与える。\n\nTags: 憤怒, 自然魔法, 土, 物理, ダメージ, クールダウン, 操作障害効果.",
-			"koKR": "Attack Speed Multiplier: 1.25\n재사용 대기시간: 10초\n행운의 적중 확률: 4% (per hit)\n땅에서 커다란 바위를 꺼내 굴려 보냅니다. 바위는 반복적으로 적을 밀쳐내며, 적중할 때마다 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%의 피해를 줍니다.\n\nTags: 진노, 자연 마법, 대지, 물리, 피해, 재사용 대기시간, 군중 제어.",
-			"plPL": "Attack Speed Multiplier: 1.25\nCzas odnowienia: 10 sek.\nSzansa na szczęśliwy traf: 4% (per hit)\nWydobywasz z ziemi wielki, toczący się głaz, który wielokrotnie odrzuca wrogów, zadając im przy każdym trafieniu {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
-			"ptBR": "Attack Speed Multiplier: 1.25\nRecarga: 10 segundos\nChance de Golpe de Sorte: 4% (per hit)\nDesenterra um grande rochedo rolante que repele inimigos várias vezes, causando {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano a cada acerto.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nВремя восстановления: 10 сек.\nВероятность удачного удара: 4% (per hit)\nПоднимает из-под земли огромный валун, который катится вперед и непрерывно отбрасывает противников, нанося им {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона каждым ударом.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
-			"trTR": "Attack Speed Multiplier: 1.25\nBekleme Süresi: 10 saniye\nŞanslı Vuruş İhtimali: 4% (per hit)\nTopraktan düşmanları tekrar tekrar Geri Savurarak her vuruşta {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% hasar veren büyük bir kaya çıkar.\n\nTags: Gazap, Doğa Sihri, Toprak, Fiziksel, Hasar, Bekleme Süresi, Kitle Kontrolü.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n冷却时间: 10秒\n幸运一击几率: 4% (per hit)\n挖出一块巨大的滚石不断击退敌人, 每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 群控.",
-			"zhTW": "Attack Speed Multiplier: 1.25\n冷卻時間:10 秒\n幸運觸發機率: 4% (per hit)\n挖出一顆滾動巨石,不斷擊退敵人,每次命中造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
+			"deDE": "Attack Speed Multiplier: 1.25\nAbklingzeit: 10 Sek.\nGlückstrefferchance: 4% (per hit)\nBringt einen großen Felsbrocken ins Rollen, der Gegner mehrfach zurückstößt und ihnen mit jedem Treffer {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% Schaden zufügt.\n\nTags: Zorn, Naturmagie, Erde, Physisch, Schaden, Abklingzeit, Kontrollverlust.",
+			"esES": "Attack Speed Multiplier: 1.25\nTiempo de reutilización: 10 s\nProbabilidad de golpe de suerte: 4% (per hit)\nDesentierras un gran peñasco rodante que repele repetidamente a los enemigos, lo que inflige {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% de daño con cada golpe.\n\nTags: Cólera, Magia de la naturaleza, Tierra, Física, Daño, Tiempo de reutilización, Control de masas.",
+			"esMX": "Attack Speed Multiplier: 1.25\nRecuperación: 10 segundos\nProbabilidad de golpe afortunado: 4% (per hit)\nDesentierras una roca gigante que repele repetidamente a los enemigos y les inflige {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% de daño por cada golpe.\n\nTags: Ira, Magia de la naturaleza, Tierra, Física, Daño, Recuperación, Control de multitudes.",
+			"frFR": "Attack Speed Multiplier: 1.25\nTemps de recharge: 10 s\nChances d'obtenir un coup de chance: 4% (per hit)\nVous déterrez un gros rocher qui roule en percutant et en repoussant les adversaires plusieurs fois de suite, leur infligeant {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% points de dégâts à chaque coup.\n\nTags: Colère, Magie naturelle, Terre, Dégâts physiques, Dégâts, Temps de recharge, Perte de contrôle.",
+			"itIT": "Attack Speed Multiplier: 1.25\nTempo di recupero: 10 s\nProbabilità di colpo fortunato: 4% (per hit)\nDissotterri un grosso macigno rotolante che respinge continuamente indietro i nemici, infliggendo {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% danni a ogni colpo.\n\nTags: Collera, Magia naturale, Terra, Fisico, Danni, Tempo di recupero, Effetti debilitanti.",
+			"jaJP": "Attack Speed Multiplier: 1.25\nクールダウン: 10秒\n幸運の一撃発生率: 4% (per hit)\n巨大な岩を掘り起こして転がし、敵をノックバックしつつ、命中するたびに{46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}%のダメージを与える。\n\nTags: 憤怒, 自然魔法, 土, 物理, ダメージ, クールダウン, 操作障害効果.",
+			"koKR": "Attack Speed Multiplier: 1.25\n재사용 대기시간: 10초\n행운의 적중 확률: 4% (per hit)\n땅에서 커다란 바위를 꺼내 굴려 보냅니다. 바위는 반복적으로 적을 밀쳐내며, 적중할 때마다 {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}%의 피해를 줍니다.\n\nTags: 진노, 자연 마법, 대지, 물리, 피해, 재사용 대기시간, 군중 제어.",
+			"plPL": "Attack Speed Multiplier: 1.25\nCzas odnowienia: 10 sek.\nSzansa na szczęśliwy traf: 4% (per hit)\nWydobywasz z ziemi wielki, toczący się głaz, który wielokrotnie odrzuca wrogów, zadając im przy każdym trafieniu {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% pkt. obrażeń.\n\nTags: Gniew, Magia Natury, Ziemia, Fizyczne, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nRecarga: 10 segundos\nChance de Golpe de Sorte: 4% (per hit)\nDesenterra um grande rochedo rolante que repele inimigos várias vezes, causando {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% de dano a cada acerto.\n\nTags: Ira, Magia da Natureza, Terra, Física, Dano, Recarga, Controle de Grupo.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nВремя восстановления: 10 сек.\nВероятность удачного удара: 4% (per hit)\nПоднимает из-под земли огромный валун, который катится вперед и непрерывно отбрасывает противников, нанося им {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% ед. урона каждым ударом.\n\nTags: Гнев, Силы природы, Земля, Физический урон, Урон, Время восстановления, Контроль.",
+			"trTR": "Attack Speed Multiplier: 1.25\nBekleme Süresi: 10 saniye\nŞanslı Vuruş İhtimali: 4% (per hit)\nTopraktan düşmanları tekrar tekrar Geri Savurarak her vuruşta {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% hasar veren büyük bir kaya çıkar.\n\nTags: Gazap, Doğa Sihri, Toprak, Fiziksel, Hasar, Bekleme Süresi, Kitle Kontrolü.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n冷却时间: 10秒\n幸运一击几率: 4% (per hit)\n挖出一块巨大的滚石不断击退敌人, 每次命中造成 {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% 点伤害。\n\nTags: 愤怒, 自然魔法, 大地, 物理, 伤害, 冷却时间, 控制.",
+			"zhTW": "Attack Speed Multiplier: 1.25\n冷卻時間:10 秒\n幸運觸發機率: 4% (per hit)\n挖出一顆滾動巨石,不斷擊退敵人,每次命中造成 {46/50.6/55.2/59.8/64.4/69/73.6/78.2/82.8/87.4}% 點傷害。\n\nTags: 憤怒, 自然魔法, 大地, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 85,
 		maxPoints: 5,
@@ -3620,7 +3620,7 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"ptBR": "Recarga: 14 segundos\nChance de Golpe de Sorte: 20% (per hit)\nTransforma-se em um urso, torna-se implacável e avança, causando {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de dano e repelindo inimigos.\n\nInimigos repelidos ao chão recebem {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% de dano adicional e ficam atordoados por 3 segundos.\n\nTags: Ira, Metamorfose, Urso, Implacável, Física, Dano, Recarga, Controle de Grupo.",
 			"ruRU": "Время восстановления: 14 сек.\nВероятность удачного удара: 20% (per hit)\nВы принимаете облик медведя, получаете неудержимость и устремляетесь вперед, нанося {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% ед. урона и отбрасывая противников.\n\nПри столкновении с препятствиями отброшенные противники получают {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% ед. урона и оглушаются на 3 сек.\n\nTags: Гнев, Смена облика, Медведь, Неудержимость, Физический урон, Урон, Время восстановления, Контроль.",
 			"trTR": "Bekleme Süresi: 14 saniye\nŞanslı Vuruş İhtimali: 20% (per hit)\nBir Ayı Adama dönüş, Durdurulamaz ol ve ileriye hücum ederek {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% hasar verip düşmanları Geriye Savur.\n\nGeriye Savrularak yere çarpan düşmanlar ilave {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% hasar alır ve 3 saniyeliğine Sersemletilir.\n\nTags: Gazap, Dönüşme, Ayı Adam, Durdurulamaz, Fiziksel, Hasar, Bekleme Süresi, Kitle Kontrolü.",
-			"zhCN": "冷却时间: 14 秒\n幸运一击几率: 20% (per hit)\n变成不可阻挡的熊人并向前冲锋, 造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害并将敌人击退。\n\n被击退到地形上的敌人将额外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 点伤害, 并被击昏 3 秒。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 群控.",
+			"zhCN": "冷却时间: 14 秒\n幸运一击几率: 20% (per hit)\n变成不可阻挡的熊人并向前冲锋, 造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害并将敌人击退。\n\n被击退到地形上的敌人将额外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 点伤害, 并被击昏 3 秒。\n\nTags: 愤怒, 变形, 熊人, 不可阻挡, 物理, 伤害, 冷却时间, 控制.",
 			"zhTW": "冷卻時間:14 秒\n幸運觸發機率: 20% (per hit)\n變身為熊人,進入無阻狀態並向前衝鋒,造成 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 點傷害並擊退敵人。\n\n敵人被擊退撞到地形時,會額外受到 {45/49.5/54/58.5/63/67.5/72/76.5/81/85.5}% 點傷害並昏迷 3 秒。\n\nTags: 憤怒, 變形, 熊人, 無阻, 物理, 傷害, 冷卻時間, 控場."
 },
 		id: 89,
@@ -3709,7 +3709,7 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 	"Savage Trample": {
 		baseSkill: "Trample",
 		connections: [ "Enhanced Trample" ],
-		description: `Casting Trample grants 20 Spirit.`,
+		description: `Casting Trample grants 40 Spirit.`,
 		nameLocalized: {
 			"deDE": "Primitives Niedertrampeln",
 			"esES": "Atropellar salvaje",
@@ -3726,19 +3726,19 @@ Tags: Wrath, Shapeshifting, Werebear, Unstoppable, Physical, Damage, Cooldown, C
 			"zhTW": "野蠻踐踏"
 },
 		descriptionLocalized: {
-			"deDE": "Das Wirken von Niedertrampeln verleiht 20 Geisteskraft.",
-			"esES": "Lanzar Atropellar otorga 20 de espíritu.",
-			"esMX": "Lanzar Arrollar otorga 20 de Espíritu.",
-			"frFR": "Utiliser Piétinement confère 20 points d'esprit.",
-			"itIT": "Lanciare Calpestamento genera 20 spirito.",
-			"jaJP": "〈突進〉を使用すると精神力を20獲得する。",
-			"koKR": "짓밟기를 시전하면 영력을 20 얻습니다.",
-			"plPL": "Użycie Tratowania zapewnia 20 pkt. siły duchowej.",
-			"ptBR": "Lançar Atropelo concede 20 de espírito.",
-			"ruRU": "\"Тяжелый шаг\" позволяет накопить 20 ед. духа.",
-			"trTR": "Ez kullanmak, 20 Ruh kazandırır.",
-			"zhCN": "施放践踏获得 20 点灵力。",
-			"zhTW": "施放踐踏會獲得 20 點靈力。"
+			"deDE": "Das Wirken von Niedertrampeln verleiht 40 Geisteskraft.",
+			"esES": "Lanzar Atropellar otorga 40 de espíritu.",
+			"esMX": "Lanzar Arrollar otorga 40 de Espíritu.",
+			"frFR": "Utiliser Piétinement confère 40 points d'esprit.",
+			"itIT": "Lanciare Calpestamento genera 40 spirito.",
+			"jaJP": "〈突進〉を使用すると精神力を40獲得する。",
+			"koKR": "짓밟기를 시전하면 영력을 40 얻습니다.",
+			"plPL": "Użycie Tratowania zapewnia 40 pkt. siły duchowej.",
+			"ptBR": "Lançar Atropelo concede 40 de espírito.",
+			"ruRU": "\"Тяжелый шаг\" позволяет накопить 40 ед. духа.",
+			"trTR": "Ez kullanmak, 40 Ruh kazandırır.",
+			"zhCN": "施放践踏获得 40 点灵力。",
+			"zhTW": "施放踐踏會獲得 40 點靈力。"
 },
 		id: 92,
 		maxPoints: 1,
@@ -3777,7 +3777,7 @@ Tags: Damage, Crowd Control, Earth, Nature Magic.`,
 			"ptBR": "Habilidades de Terra causam {5/10/15/20/25/30/35/40/45/50}% de dano aumentado a inimigos desacelerados, atordoados, imobilizados ou repelidos.\n\nTags: Dano, Controle de Grupo, Terra, Magia da Natureza.",
 			"ruRU": "Умения земли наносят на x{5/10/15/20/25/30/35/40/45/50}% больше урона замедленным, оглушенным, обездвиженным или отброшенным противникам.\n\nTags: Урон, Контроль, Земля, Силы природы.",
 			"trTR": "Toprak Yetenekleri Yavaşlatılmış, Sersemletilmiş, Sabitlenmiş veya Geri Savrulmuş düşmanlara x{5/10/15/20/25/30/35/40/45/50}% artırılmış hasar verir.\n\nTags: Hasar, Kitle Kontrolü, Toprak, Doğa Sihri.",
-			"zhCN": "大地技能对被减速、被击昏、被定身或被击退的敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害, 群控, 大地, 自然魔法.",
+			"zhCN": "大地技能对被减速、被击昏、被定身或被击退的敌人造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 伤害, 控制, 大地, 自然魔法.",
 			"zhTW": "大地技能對被緩速、擊昏、定身或擊退的敵人造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 傷害, 控場, 大地, 自然魔法."
 },
 		id: 93,
@@ -4028,7 +4028,7 @@ Tags: Wrath, Nature Magic, Storm, Physical, Damage, Cooldown.`,
 		connections: [ "Wrath", "Enhanced Rabies" ],
 		description: `Cooldown: 12 seconds
 Lucky Hit Chance: 50% (per use)
-Shapeshift into a Werewolf and perform an infectious bite on the target dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage, and applying an additional {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% Poisoning damage over 6 seconds.
+Shapeshift into a Werewolf and perform an infectious bite against enemies in front of you, dealing {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% damage and applying an additional {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% Poisoning damage over 6 seconds.
 
 Infected enemies spread Rabies to other surrounding targets.
 
@@ -4049,19 +4049,19 @@ Tags: Wrath, Shapeshifting, Werewolf, Poison, Damage, Cooldown.`,
 			"zhTW": "狂犬撕咬"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 12 Sek.\nGlückstrefferchance: 50% (per use)\nVerwandelt Euch in einen Werwolf und fügt dem Ziel mit einem infektiösen Biss {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% Schaden zu und verursacht zusätzlich {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% Giftschaden im Verlauf von 6 Sek.\n\nInfizierte Gegner verbreiten Tollwut auf andere Ziele in der Nähe.\n\nTags: Zorn, Gestaltwandeln, Werwolf, Gift, Schaden, Abklingzeit.",
-			"esES": "Tiempo de reutilización: 12 s\nProbabilidad de golpe de suerte: 50% (per use)\nTe transformas en hombre lobo y le das un mordisco infeccioso al objetivo, que sufre {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño y {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% de daño de veneno adicional durante 6 s.\n\nLos enemigos infectados contagian la Rabia a otros objetivos cercanos.\n\nTags: Cólera, Cambio de forma, Hombre lobo, Veneno, Daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: 12 segundos\nProbabilidad de golpe afortunado:50% (per use)\nCambias de forma a un hombre lobo, realizas una mordida infecciosa en el objetivo y le infliges {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño y {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% de daño de veneno adicional durante 6 segundos.\n\nLos enemigos infectados propagan Rabia a los demás objetivos circundantes.\n\nTags: Ira, Metamorfosis, Hombre lobo, Veneno, Daño, Recuperación.",
-			"frFR": "Temps de recharge: 12 s\nChances d'obtenir un coup de chance: 50% (per use)\nVous vous transformez en lycanthrope et infligez une morsure infectieuse à la cible, ce qui lui inflige {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% points de dégâts, puis {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% points de dégâts de poison supplémentaires en 6 s.\n\nLes cibles infectées propagent le virus de Morsure rabique aux autres cibles à proximité.\n\nTags: Colère, Métamorphose, Lycanthrope, Poison, Dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: 12 s\nProbabilità di colpo fortunato: 50% (per use)\nMuti in un Lupo Mannaro e azzanni il bersaglio con un morso infetto, infliggendo {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% danni e {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% danni da veleno aggiuntivi in 6 s.\n\nI nemici infetti diffondono Idrofobia sugli altri bersagli nei dintorni.\n\nTags: Collera, Mutaforma, Lupo Mannaro, Veleno, Danni, Tempo di recupero.",
-			"jaJP": "クールダウン: 12秒\n幸運の一撃発生率: 50% (per use)\n人狼に変身して病を感染させる牙で標的に噛みつき{28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%のダメージを与え、さらに6秒かけて{76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}%の毒ダメージを追加で与える。\n\n感染した敵は〈狼の毒牙〉を周囲の敵に伝播させる。\n\nTags: 憤怒, 変身, 人狼, 毒, ダメージ, クールダウン.",
-			"koKR": "재사용 대기시간: 12초\n행운의 적중 확률: 50% (per use)\n늑대인간으로 변신하고 대상을 물어뜯어 감염시킵니다. {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%의 피해를 주고, 추가로 6초에 걸친 {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}%의 중독 피해를 적용합니다.\n\n감염된 적은 주위의 다른 대상들에게 광견병을 퍼뜨립니다.\n\nTags: 진노, 변신, 늑대인간, 독, 피해, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: 12 sek.\nSzansa na szczęśliwy traf: 50% (per use)\nPrzemieniasz się w wilkołaka i zarażasz wroga przez ugryzienie, zadając mu {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% pkt. obrażeń oraz dodatkowo {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nZarażeni wrogowie przekazują Wściekliznę innym celom wokół.\n\nTags: Gniew, Zmiennokształtność, Wilkołak, Trucizna, Obrażenia, Odnowienie.",
-			"ptBR": "Recarga: 12 segundos\nChance de Golpe de Sorte: 50% (per use)\nTransforma-se em um lobisomem e atinge o alvo com uma mordida infecciosa, causando {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de dano e aplicando {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% de dano venenoso adicional ao longo de 6 segundos.\n\nInimigos infectados espalham Raiva para outros alvos ao redor.\n\nTags: Ira, Metamorfose, Lobisomem, Veneno, Dano, Recarga.",
-			"ruRU": "Время восстановления: 12 сек.\nВероятность удачного удара: 50% (per use)\nВы принимаете облик волка и кусаете противника, нанося {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% ед. урона сразу и еще {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% ед. урона от отравления за 6 сек.\n\nЗараженные противники распространяют эффект \"Звериного бешенства\" на другие ближайшие цели.\n\nTags: Гнев, Смена облика, Облик волка, Яд, Урон, Время восстановления.",
-			"trTR": "Bekleme Süresi: 12 saniye\nŞanslı Vuruş İhtimali: 50% (per use)\nBir Kurt Adama dönüşüp bulaşıcı bir ısırıkla hedefe saldırarak {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% hasar ver ve 6 saniye boyunca ilave {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% Zehirleme hasarı uygula.\n\nEnfekte düşmanlar Kuduzu etraftaki diğer hedeflere yayarlar.\n\nTags: Gazap, Dönüşme, Kurt Adam, Zehir, Hasar, Bekleme Süresi.",
-			"zhCN": "冷却时间: 12 秒\n幸运一击几率: 50% (per use)\n变成狼人对目标施加感染撕咬, 造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害, 并在 6 秒内造成 {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% 点毒素伤害。\n\n被感染的敌人会向周围的其他目标传染狂犬撕咬。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间.",
-			"zhTW": "冷卻時間:12 秒\n幸運觸發機率:50% (per use)\n變身為狼人並施展會傳染疾病的咬擊,對目標造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 點傷害,並額外在 6 秒內造成 {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% 點中毒傷害。\n\n被感染的敵人會把狂犬撕咬傳染給附近其他目標。\n\nTags: 憤怒, 變形, 狼人, 毒素, 傷害, 冷卻時間."
+			"deDE": "Abklingzeit: 12 Sek.\nGlückstrefferchance: 50% (per use)\nVerwandelt Euch in einen Werwolf, fügt Gegnern vor Euch mit einem infektiösen Biss {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% Schaden zu und verursacht zusätzlich {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% Giftschaden im Verlauf von 6 Sek.\n\nInfizierte Gegner verbreiten Tollwut auf andere Ziele in der Nähe.\n\nTags: Zorn, Gestaltwandeln, Werwolf, Gift, Schaden, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 12 s\nProbabilidad de golpe de suerte: 50% (per use)\nTe transformas en hombre lobo y le das un mordisco infeccioso a los enemigos frente a ti, lo que inflige {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño y {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% de daño de veneno adicional durante 6 s.\n\nLos enemigos infectados contagian la Rabia a otros objetivos cercanos.\n\nTags: Cólera, Cambio de forma, Hombre lobo, Veneno, Daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 12 segundos\nProbabilidad de golpe afortunado:50% (per use)\nCambias de forma a un hombre lobo, realizas una mordida infecciosa contra los enemigos frente a ti y les infliges {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de daño y {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% de daño de veneno adicional durante 6 segundos.\n\nLos enemigos infectados propagan Rabia a los demás objetivos circundantes.\n\nTags: Ira, Metamorfosis, Hombre lobo, Veneno, Daño, Recuperación.",
+			"frFR": "Temps de recharge: 12 s\nChances d'obtenir un coup de chance: 50% (per use)\nVous vous transformez en lycanthrope et infligez une morsure infectieuse aux adversaires devant vous, ce qui leur inflige {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% points de dégâts, puis {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% points de dégâts de poison supplémentaires en 6 s.\n\nLes cibles infectées propagent le virus de Morsure rabique aux autres cibles à proximité.\n\nTags: Colère, Métamorphose, Lycanthrope, Poison, Dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 12 s\nProbabilità di colpo fortunato: 50% (per use)\nMuti in un Lupo Mannaro e azzanni i nemici frontali con un morso infetto, infliggendo {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% danni e {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% danni da veleno aggiuntivi in 6 s.\n\nI nemici infetti diffondono Idrofobia sugli altri bersagli nei dintorni.\n\nTags: Collera, Mutaforma, Lupo Mannaro, Veleno, Danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 12秒\n幸運の一撃発生率: 50% (per use)\n人狼に変身して病を感染させる牙で前方の敵に噛みつき{28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%のダメージを与え、さらに6秒かけて{76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}%の毒ダメージを追加で与える。\n\n感染した敵は〈狼の毒牙〉を周囲の敵に伝播させる。\n\nTags: 憤怒, 変身, 人狼, 毒, ダメージ, クールダウン.",
+			"koKR": "재사용 대기시간: 12초\n행운의 적중 확률: 50% (per use)\n늑대인간으로 변신하고 전방의 적들을 물어뜯어 감염시킵니다. {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}%의 피해를 주고, 추가로 6초에 걸친 {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}%의 중독 피해를 적용합니다.\n\n감염된 적은 주위의 다른 대상들에게 광견병을 퍼뜨립니다.\n\nTags: 진노, 변신, 늑대인간, 독, 피해, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 12 sek.\nSzansa na szczęśliwy traf: 50% (per use)\nPrzemieniasz się w wilkołaka i zarażasz wrogów przed sobą przez ugryzienie, zadając {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% pkt. obrażeń oraz dodatkowo {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nZarażeni wrogowie przekazują Wściekliznę innym celom wokół.\n\nTags: Gniew, Zmiennokształtność, Wilkołak, Trucizna, Obrażenia, Odnowienie.",
+			"ptBR": "Recarga: 12 segundos\nChance de Golpe de Sorte: 50% (per use)\nTransforma-se em um lobisomem e atinge inimigos à sua frente com uma mordida infecciosa, causando {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% de dano e aplicando {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% de dano venenoso adicional ao longo de 6 segundos.\n\nInimigos infectados espalham Raiva para outros alvos ao redor.\n\nTags: Ira, Metamorfose, Lobisomem, Veneno, Dano, Recarga.",
+			"ruRU": "Время восстановления: 12 сек.\nВероятность удачного удара: 50% (per use)\nВы принимаете облик волка и кусаете противников перед собой, нанося {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% ед. урона сразу и еще {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% ед. урона от отравления за 6 сек.\n\nЗараженные противники распространяют эффект \"Звериного бешенства\" на другие ближайшие цели.\n\nTags: Гнев, Смена облика, Облик волка, Яд, Урон, Время восстановления.",
+			"trTR": "Bekleme Süresi: 12 saniye\nŞanslı Vuruş İhtimali: 50% (per use)\nKurt Adama dönüşüp bulaşıcı bir ısırıkla önündeki düşmanlara saldırarak {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% hasar ver ve 6 saniye boyunca ilave {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% Zehirleme hasarı uygula.\n\nEnfekte düşmanlar Kuduzu etraftaki diğer hedeflere yayar.\n\nTags: Gazap, Dönüşme, Kurt Adam, Zehir, Hasar, Bekleme Süresi.",
+			"zhCN": "冷却时间: 12 秒\n幸运一击几率: 50% (per use)\n变成狼人对你前方的敌人施加感染撕咬, 造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 点伤害, 并在 6 秒内造成 {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% 点毒素伤害。\n\n被感染的敌人会向周围的其他目标传染狂犬撕咬。\n\nTags: 愤怒, 变形, 狼人, 毒素, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:12 秒\n幸運觸發機率:50% (per use)\n變身為狼人並施展會傳染疾病的咬擊,對你面前的敵人造成 {28/30.8/33.6/36.4/39.2/42/44.8/47.6/50.4/53.2}% 點傷害,並額外在 6 秒內造成 {76.2/83.4/91.2/99/106.2/114/121.8/129/136.8/144.6}% 點中毒傷害。\n\n被感染的敵人會把狂犬撕咬傳染給附近其他目標。\n\nTags: 憤怒, 變形, 狼人, 毒素, 傷害, 冷卻時間."
 },
 		id: 103,
 		maxPoints: 5,
@@ -4227,7 +4227,7 @@ Tags: Shapeshifting, Healing, Werebear.`,
 	},
 	"Provocation": {
 		connections: [ "Mending" ],
-		description: `When you remain in Werebear form for at least {30/25/20/15/10/5/0/-5/-10/-15} seconds, your next Skill will Overpower.
+		description: `When you remain in Werebear form for at least {24/20/16/12/8/4/0/-4/-8/-12} seconds, your next Skill will Overpower.
 
 Tags: Overpower, Shapeshifting, Werebear.`,
 		nameLocalized: {
@@ -4246,19 +4246,19 @@ Tags: Overpower, Shapeshifting, Werebear.`,
 			"zhTW": "挑釁"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr mindestens {30/25/20/15/10/5/0/-5/-10/-15} Sek. lang in Werbärgestalt bleibt, wird Eure nächste Fertigkeit überwältigen.\n\nTags: Überwältigen, Gestaltwandeln, Werbär.",
-			"esES": "Si permaneces en forma de hombre oso durante al menos {30/25/20/15/10/5/0/-5/-10/-15} s, tu siguiente habilidad arrollará.\n\nTags: Arrollamiento, Cambio de forma, Hombre oso.",
-			"esMX": "Si permaneces en forma de hombre oso durante al menos {30/25/20/15/10/5/0/-5/-10/-15} segundos, tu siguiente habilidad abrumará.\n\nTags: Abrumar, Metamorfosis, Hombre oso.",
-			"frFR": "Si vous restez sous forme ursoïde pendant au moins {30/25/20/15/10/5/0/-5/-10/-15} s, votre prochaine compétence accablera les adversaires.\n\nTags: Accablement, Métamorphose, Ursoïde.",
-			"itIT": "Se ti trovi in forma di Orso Mannaro per almeno {30/25/20/15/10/5/0/-5/-10/-15} s, la tua abilità successiva causerà Sopraffazione.\n\nTags: Sopraffazione, Mutaforma, Orso Mannaro.",
-			"jaJP": "{30/25/20/15/10/5/0/-5/-10/-15}秒以上人熊形態でいると、次のスキルがオーバーパワーになる。\n\nTags: オーバーパワー, 変身, 人熊.",
-			"koKR": "곰인간 형태를 {30/25/20/15/10/5/0/-5/-10/-15}초 이상 유지하면 다음 기술이 제압합니다.\n\nTags: 제압, 변신, 곰인간.",
-			"plPL": "Kiedy pozostajesz w postaci niedźwiedziołaka przez przynajmniej {30/25/20/15/10/5/0/-5/-10/-15} sek., twoja następna umiejętność przytłacza.\n\nTags: Przytłoczenie, Zmiennokształtność, Niedźwiedziołak.",
-			"ptBR": "Quando você permanece na forma de urso por pelo menos {30/25/20/15/10/5/0/-5/-10/-15} segundos, sua próxima habilidade desfere Golpe Brutal.\n\nTags: Golpe Brutal, Metamorfose, Urso.",
-			"ruRU": "Когда вы проводите в облике медведя {30/25/20/15/10/5/0/-5/-10/-15} сек., ваше следующее умение наносит подавляющий урон.\n\nTags: Подавление, Смена облика, Медведь.",
-			"trTR": "En az {30/25/20/15/10/5/0/-5/-10/-15} saniye boyunca Ayı Adam formunda kaldığında sonraki Yeteneğin Aşırı Güçlenir.\n\nTags: Aşırı Güç, Dönüşme, Ayı Adam.",
-			"zhCN": "至少保持熊人形态 {30/25/20/15/10/5/0/-5/-10/-15} 秒, 则你的下一个技能必定压制敌人。\n\nTags: 压制, 变形, 熊人.",
-			"zhTW": "當你維持在熊人形態下至少 {30/25/20/15/10/5/0/-5/-10/-15} 秒,你的下一個技能會 壓制。\n\nTags: 壓制, 變形, 熊人."
+			"deDE": "Wenn Ihr mindestens {24/20/16/12/8/4/0/-4/-8/-12} Sek. lang in Werbärgestalt bleibt, wird Eure nächste Fertigkeit überwältigen.\n\nTags: Überwältigen, Gestaltwandeln, Werbär.",
+			"esES": "Si permaneces en forma de hombre oso durante al menos {24/20/16/12/8/4/0/-4/-8/-12} s, tu siguiente habilidad arrollará.\n\nTags: Arrollamiento, Cambio de forma, Hombre oso.",
+			"esMX": "Si permaneces en forma de hombre oso durante al menos {24/20/16/12/8/4/0/-4/-8/-12} segundos, tu siguiente habilidad abrumará.\n\nTags: Abrumar, Metamorfosis, Hombre oso.",
+			"frFR": "Si vous restez sous forme ursoïde pendant au moins {24/20/16/12/8/4/0/-4/-8/-12} s, votre prochaine compétence accablera les adversaires.\n\nTags: Accablement, Métamorphose, Ursoïde.",
+			"itIT": "Se ti trovi in forma di Orso Mannaro per almeno {24/20/16/12/8/4/0/-4/-8/-12} s, la tua abilità successiva causerà Sopraffazione.\n\nTags: Sopraffazione, Mutaforma, Orso Mannaro.",
+			"jaJP": "{24/20/16/12/8/4/0/-4/-8/-12}秒以上人熊形態でいると、次のスキルがオーバーパワーになる。\n\nTags: オーバーパワー, 変身, 人熊.",
+			"koKR": "곰인간 형태를 {24/20/16/12/8/4/0/-4/-8/-12}초 이상 유지하면 다음 기술이 제압합니다.\n\nTags: 제압, 변신, 곰인간.",
+			"plPL": "Kiedy pozostajesz w postaci niedźwiedziołaka przez przynajmniej {24/20/16/12/8/4/0/-4/-8/-12} sek., twoja następna umiejętność przytłacza.\n\nTags: Przytłoczenie, Zmiennokształtność, Niedźwiedziołak.",
+			"ptBR": "Quando você permanece na forma de urso por pelo menos {24/20/16/12/8/4/0/-4/-8/-12} segundos, sua próxima habilidade desfere Golpe Brutal.\n\nTags: Golpe Brutal, Metamorfose, Urso.",
+			"ruRU": "Когда вы проводите в облике медведя {24/20/16/12/8/4/0/-4/-8/-12} сек., ваше следующее умение наносит подавляющий урон.\n\nTags: Подавление, Смена облика, Медведь.",
+			"trTR": "En az {24/20/16/12/8/4/0/-4/-8/-12} saniye boyunca Ayı Adam formunda kaldığında sonraki Yeteneğin Aşırı Güçlenir.\n\nTags: Aşırı Güç, Dönüşme, Ayı Adam.",
+			"zhCN": "至少保持熊人形态 {24/20/16/12/8/4/0/-4/-8/-12} 秒, 则你的下一个技能必定压制敌人。\n\nTags: 压制, 变形, 熊人.",
+			"zhTW": "當你維持在熊人形態下至少 {24/20/16/12/8/4/0/-4/-8/-12} 秒,你的下一個技能會 壓制。\n\nTags: 壓制, 變形, 熊人."
 },
 		id: 98,
 		maxPoints: 3,
@@ -4297,7 +4297,7 @@ Tags: Poison, Crowd Control.`,
 			"ptBR": "Inimigos envenenados são desacelerados em {8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Veneno, Controle de Grupo.",
 			"ruRU": "Отравленные противники замедляются на {8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Яд, Контроль.",
 			"trTR": "Zehirlenmiş düşmanlar {8/16/24/32/40/48/56/64/72/80}% yavaşlatılır.\n\nTags: Zehir, Kitle Kontrolü.",
-			"zhCN": "使中毒的敌人减速 {8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 毒素, 群控.",
+			"zhCN": "使中毒的敌人减速 {8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 毒素, 控制.",
 			"zhTW": "中毒的敵人會緩速 {8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 毒素, 控場."
 },
 		id: 79,
@@ -4347,7 +4347,7 @@ Tags: Critical Strikes, Werewolf, Poison, Damage, Shapeshifting.`,
 	},
 	"Envenom": {
 		connections: [ "Neurotoxin" ],
-		description: `Poisoned enemies take x{10/20/30/40/50/60/70/80/90/100}% additional Critical Strike Damage.
+		description: `You and your Companions gain +{10/20/30/40/50/60/70/80/90/100}% bonus Critical Strike Damage against Poisoned enemies.
 
 Tags: Poison, Critical Strikes, Damage.`,
 		nameLocalized: {
@@ -4366,19 +4366,19 @@ Tags: Poison, Critical Strikes, Damage.`,
 			"zhTW": "毒化"
 },
 		descriptionLocalized: {
-			"deDE": "Vergiftete Gegner erleiden x{10/20/30/40/50/60/70/80/90/100}% zusätzlichen kritischen Trefferschaden.\n\nTags: Gift, Kritische Treffer, Schaden.",
-			"esES": "Los enemigos envenenados sufren un x{10/20/30/40/50/60/70/80/90/100}% más de daño de golpe crítico.\n\nTags: Veneno, Golpes críticos, Daño.",
-			"esMX": "Los enemigos envenenados reciben un x{10/20/30/40/50/60/70/80/90/100}% más de daño de golpe crítico.\n\nTags: Veneno, Golpes críticos, Daño.",
-			"frFR": "Les cibles empoisonnées subissent x{10/20/30/40/50/60/70/80/90/100}% de dégâts critiques supplémentaires.\n\nTags: Poison, Coups critiques, Dégâts.",
-			"itIT": "I danni critici dei nemici avvelenati aumentano del x{10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Veleno, Colpi critici, Danni.",
-			"jaJP": "毒状態の敵は受けるクリティカルヒットダメージがx{10/20/30/40/50/60/70/80/90/100}%増加する。\n\nTags: 毒, クリティカルヒット, ダメージ.",
-			"koKR": "중독된 적이 추가로 x{10/20/30/40/50/60/70/80/90/100}%의 극대화 피해를 받습니다.\n\nTags: 독, 극대화, 피해.",
-			"plPL": "Zatruci wrogowie otrzymują obrażenia od trafień krytycznych zwiększone o x{10/20/30/40/50/60/70/80/90/100}%.\n\nTags: Trucizna, Trafienia Krytyczne, Obrażenia.",
-			"ptBR": "Inimigos envenenados recebem {10/20/30/40/50/60/70/80/90/100}% de dano de acerto crítico adicional.\n\nTags: Veneno, Acertos Críticos, Dano.",
-			"ruRU": "Отравленные противники получают на x{10/20/30/40/50/60/70/80/90/100}% больше критического урона.\n\nTags: Яд, Критические удары, Урон.",
-			"trTR": "Zehirlenmiş düşmanlar ilave x{10/20/30/40/50/60/70/80/90/100}% Kritik Vuruş Hasarı alır.\n\nTags: Zehir, Kritik Vuruşlar, Hasar.",
-			"zhCN": "中毒敌人受到的暴击伤害提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 毒素, 暴击, 伤害.",
-			"zhTW": "中毒的敵人受到 x{10/20/30/40/50/60/70/80/90/100}% 額外的爆擊傷害。\n\nTags: 毒素, 爆擊, 傷害."
+			"deDE": "Ihr und Eure Gefährten erhalten +{10/20/30/40/50/60/70/80/90/100}% Bonus auf kritischen Trefferschaden gegen vergiftete Gegner.\n\nTags: Gift, Kritische Treffer, Schaden.",
+			"esES": "Tus compañeros y tú obtenéis un +{10/20/30/40/50/60/70/80/90/100}% de daño de golpe crítico adicional contra enemigos envenenados.\n\nTags: Veneno, Golpes críticos, Daño.",
+			"esMX": "Tú y tus compañeros obtienen un +{10/20/30/40/50/60/70/80/90/100}% de bonificación de daño de golpe crítico contra enemigos envenenados.\n\nTags: Veneno, Golpes críticos, Daño.",
+			"frFR": "Vos dégâts critiques et ceux de vos compagnons augmentent de +{10/20/30/40/50/60/70/80/90/100}% contre les cibles empoisonnées.\n\nTags: Poison, Coups critiques, Dégâts.",
+			"itIT": "Tu e i tuoi compagni infliggete il +{10/20/30/40/50/60/70/80/90/100}% di danni critici aggiuntivi ai nemici avvelenati.\n\nTags: Veleno, Colpi critici, Danni.",
+			"jaJP": "自身と使い魔が毒状態の敵に与えるクリティカルヒットダメージがx{10/20/30/40/50/60/70/80/90/100}%増加する。\n\nTags: 毒, クリティカルヒット, ダメージ.",
+			"koKR": "자신과 동료가 중독된 적에게 주는 극대화 피해가 추가로 +{10/20/30/40/50/60/70/80/90/100}% 증가합니다.\n\nTags: 독, 극대화, 피해.",
+			"plPL": "Ty i twoi kompani zyskujecie premię +{10/20/30/40/50/60/70/80/90/100}% do obrażeń od trafień krytycznych zadawanych zatrutym wrogom.\n\nTags: Trucizna, Trafienia Krytyczne, Obrażenia.",
+			"ptBR": "Você e suas mascotes recebem +{10/20/30/40/50/60/70/80/90/100}% de bônus de dano de acerto crítico contra inimigos envenenados.\n\nTags: Veneno, Acertos Críticos, Dano.",
+			"ruRU": "Вы и ваши питомцы наносите на +{10/20/30/40/50/60/70/80/90/100}% больше критического урона отравленным противникам.\n\nTags: Яд, Критические удары, Урон.",
+			"trTR": "Sen ve Yoldaşların, Zehirlenen düşmanlara karşı +{10/20/30/40/50/60/70/80/90/100}% fazladan Kritik Vuruş Hasarı kazanırsınız.\n\nTags: Zehir, Kritik Vuruşlar, Hasar.",
+			"zhCN": "你和你的同伴对中毒敌人造成暴击伤害的几率提高 +{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 毒素, 暴击, 伤害.",
+			"zhTW": "你和同伴對中毒的敵人能額外造成 x{10/20/30/40/50/60/70/80/90/100}% 的爆擊傷害。\n\nTags: 毒素, 爆擊, 傷害."
 },
 		id: 166,
 		maxPoints: 3,
@@ -4434,7 +4434,7 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 	"Prime Grizzly Rage": {
 		baseSkill: "Grizzly Rage",
 		connections: [ "Supreme Grizzly Rage", "Grizzly Rage" ],
-		description: `You are Unstoppable while Grizzly Rage is active.`,
+		description: `Grizzly Rage makes you Unstoppable for 6 seconds.`,
 		nameLocalized: {
 			"deDE": "Oberster Grizzlyzorn",
 			"esES": "Ira de oso pardo mayor",
@@ -4451,19 +4451,19 @@ Tags: Ultimate, Shapeshifting, Werebear, Damage Reduction, Damage, Cooldown.`,
 			"zhTW": "強烈灰熊狂怒"
 },
 		descriptionLocalized: {
-			"deDE": "Ihr seid unaufhaltsam, solange Euer Grizzlyzorn aktiv ist.",
-			"esES": "Eres imparable mientras dura Ira de oso pardo.",
-			"esMX": "Mientras Furia Parda está activa, eres imparable.",
-			"frFR": "Vous êtes inarrêtable tant que Rage du grizzly est active.",
-			"itIT": "Sei inarrestabile mentre Rabbia del Grizzly è attiva.",
-			"jaJP": "〈灰色熊の憤怒〉発動中は抑圧不可状態になる。",
-			"koKR": "회색곰의 격노가 활성화되어 있는 동안 저지 불가 상태가 됩니다.",
-			"plPL": "Kiedy aktywny jest twój Niedźwiedzi Szał, zyskujesz nieustępliwość.",
-			"ptBR": "Você fica implacável enquanto Fúria do Urso está ativa.",
-			"ruRU": "\"Ярость гризли\" также дает неудержимость.",
-			"trTR": "Bozayı Öfkesi etkinken Durdurulamaz olursun.",
-			"zhCN": "灰熊狂怒激活时, 你获得不可阻挡。",
-			"zhTW": "在灰熊狂怒啟動期間,你將進入無阻狀態。"
+			"deDE": "Grizzlyzorn macht Euch 6 Sek. lang unaufhaltsam.",
+			"esES": "Ira de oso pardo te vuelve imparable durante 6 s.",
+			"esMX": "Furia Parda te vuelve imparable durante 6 segundos.",
+			"frFR": "Lancer Rage du grizzly vous rend inarrêtable pendant 6 s.",
+			"itIT": "Rabbia del Grizzly ti rende inarrestabile per 6 s.",
+			"jaJP": "〈灰色熊の憤怒〉によって6秒間、抑圧不可になる。",
+			"koKR": "회색곰의 격노 시전 시 6초 동안 저지 불가 상태가 됩니다.",
+			"plPL": "Niedźwiedzi Szał zapewnia ci nieustępliwość na 6 sek.",
+			"ptBR": "Fúria do Urso torna você implacável por 6 segundos.",
+			"ruRU": "\"Ярость гризли\" дает вам неудержимость на 6 сек.",
+			"trTR": "Bozayı Öfkesi seni 6 saniyeliğine Durdurulamaz hâle getirir.",
+			"zhCN": "灰熊狂怒使你不可阻挡, 持续 6 秒。",
+			"zhTW": "灰熊狂怒會使你獲得無阻效果,持續 6 秒。"
 },
 		id: 108,
 		maxPoints: 1,
@@ -4544,7 +4544,7 @@ Tags: Ultimate, Nature Magic, Earth, Crowd Control, Cooldown, Critical Strikes.`
 			"ptBR": "Recarga: 50 segundos\nEnvolve todos os inimigos próximos em pedra, atordoando-os por 3 segundos. Você causa 30% de dano de acerto crítico aumentado a inimigos afetados por Petrificar.\n\nContra chefes, o bônus de dano de acerto crítico é aumentado para 50% e sua duração é aumentada para 6 segundos.\n\nTags: Suprema, Magia da Natureza, Terra, Controle de Grupo, Recarga, Acertos Críticos.",
 			"ruRU": "Время восстановления: 50 сек.\nВы заключаете ближайших противников в камень, оглушая их на 3 сек. Цели под действием \"Окаменения\" получают от вас на x30% больше критического урона.\n\nПротив боссов бонус к критическому урону увеличивается до x50%, а время действия эффекта продлевается до 6 сек.\n\nTags: Мощное умение, Силы природы, Земля, Контроль, Время восстановления, Критические удары.",
 			"trTR": "Bekleme Süresi: 50 saniye\nYakındaki tüm düşmanları taşlaştırarak 3 saniyeliğine Sersemlet. Taşlaştırma etkisi altındaki düşmanlara x30% artırılmış Kritik Vuruş Hasarı verirsin.\n\nPatronlara karşı Kritik Vuruş Hasarı bonusu artarak x50%, süresi ise artarak 6 saniye olur.\n\nTags: Ulti, Doğa Sihri, Toprak, Kitle Kontrolü, Bekleme Süresi, Kritik Vuruşlar.",
-			"zhCN": "冷却时间: 50 秒\n石化附近所有敌人, 将其击昏 3 秒。你对被石化的敌人造成的暴击伤害提高 x30%。\n\n目标为首领时, 暴击伤害加成提高至 x50%, 并且其持续时间延长至 6 秒。\n\nTags: 终极技能, 自然魔法, 大地, 群控, 冷却时间, 暴击.",
+			"zhCN": "冷却时间: 50 秒\n石化附近所有敌人, 将其击昏 3 秒。你对被石化的敌人造成的暴击伤害提高 x30%。\n\n目标为首领时, 暴击伤害加成提高至 x50%, 并且其持续时间延长至 6 秒。\n\nTags: 终极技能, 自然魔法, 大地, 控制, 冷却时间, 暴击.",
 			"zhTW": "冷卻時間:50 秒\n以岩石包覆附近所有敵人,使其昏迷 3 秒。你對石化敵人造成的爆擊傷害提高 x30%。\n\n對上首領時,此爆擊傷害加成提高至 x50%,持續時間延長至 6 秒。\n\nTags: 絕招, 自然魔法, 大地, 控場, 冷卻時間, 爆擊."
 },
 		id: 110,
@@ -4672,7 +4672,7 @@ Tags: Fortify.`,
 	},
 	"Thick Hide": {
 		connections: [ "Unrestrained", "Defensive Posture" ],
-		description: `Whenever you are Stunned, Immobilized, or Knocked Down, Fortify for {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% Base Life.
+		description: `Whenever you are Stunned, Immobilized or Knocked Down, Fortify for {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% Base Life.
 
 Tags: Fortify, Crowd Control.`,
 		nameLocalized: {
@@ -4696,13 +4696,13 @@ Tags: Fortify, Crowd Control.`,
 			"esMX": "Cuando te aturden, inmovilizan o repelen, te fortificas con un {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% de tu vida de base.\n\nTags: Fortificar, Control de multitudes.",
 			"frFR": "Chaque fois que vous subissez un étourdissement, une immobilisation ou un renversement, vous obtenez un montant de fortification égal à {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% de vos points de vie de base.\n\nTags: Fortification, Perte de contrôle.",
 			"itIT": "Quando si è storditi, immobilizzati o caduti, si ottiene Fortificazione per il {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% della Vita base.\n\nTags: Fortificazione, Effetti debilitanti.",
-			"jaJP": "スタン、移動不能、またはノックダウン状態になると、基本ライフの{6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}%にあたるの強化を獲得する。\n\nTags: 強化, 操作障害効果.",
+			"jaJP": "スタン、移動不能またはノックダウン状態になると、基本ライフの{6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}%にあたるの強化を獲得する。\n\nTags: 強化, 操作障害効果.",
 			"koKR": "기절하거나, 이동 불가 상태가 되거나, 넘어질 때마다 기본 생명력의 {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}%만큼 보강됩니다.\n\nTags: 보강, 군중 제어.",
 			"plPL": "Kiedy znajdujesz się pod wpływem efektów ogłuszenia, unieruchomienia lub powalenia, zyskujesz umocnienie równe {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% podstawowego zdrowia.\n\nTags: Umocnienie, Ograniczanie Kontroli.",
 			"ptBR": "Sempre que estiver sob atordoamento, imobilização ou nocaute, você se fortifica em {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% da vida básica.\n\nTags: Fortificação, Controle de Grupo.",
 			"ruRU": "Когда вас оглушают, обездвиживают или сбивают с ног, вы получаете укрепление в объеме {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% базового запаса здоровья.\n\nTags: Укрепление, Контроль.",
 			"trTR": "Her Sersemletildiğinde, Sabitlendiğinde veya Yere Serildiğinde Temel Canının {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% kadarına eşit Güçlendirme kazan.\n\nTags: Güçlendirme, Kitle Kontrolü.",
-			"zhCN": "每当你被击昏、被定身或被击倒时, 强固你 {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% 基础生命。\n\nTags: 强固, 群控.",
+			"zhCN": "每当你被击昏、被定身或被击倒时, 强固你 {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% 基础生命。\n\nTags: 强固, 控制.",
 			"zhTW": "每當你被擊昏、定身或擊倒時,會獲得等同 {6.4/12.8/19.2/25.6/32/38.4/44.8/51.2/57.6/64}% 基礎生命值的強韌。\n\nTags: 強韌, 控場."
 },
 		id: 114,
@@ -4742,7 +4742,7 @@ Tags: Fortify, Life, Crowd Control.`,
 			"ptBR": "Reduz a duração dos efeitos de controle em {3/6/9/12/15/18/21/24/27/30}%. O efeito é triplicado enquanto você tiver fortificação em mais de 50% da sua vida máxima.\n\nTags: Fortificação, Vida, Controle de Grupo.",
 			"ruRU": "Время действия эффектов контроля сокращается на {3/6/9/12/15/18/21/24/27/30}%. Эффект утраивается, если у вас есть укрепление, превышающее 50% максимального запаса здоровья.\n\nTags: Укрепление, Здоровье, Контроль.",
 			"trTR": "Kontrol Engelleyici Etkilerin süresini {3/6/9/12/15/18/21/24/27/30}% azalt. Maksimum Canının 50% kadarının üstünde Güçlendirmeye sahip olduğunda bu etki üçe katlanır.\n\nTags: Güçlendirme, Can, Kitle Kontrolü.",
-			"zhCN": "控制类限制效果的持续时间缩短 {3/6/9/12/15/18/21/24/27/30}%。当你获得的强固数值超过 50% 生命上限时, 此效果变为三倍。\n\nTags: 强固, 生命, 群控.",
+			"zhCN": "控制类限制效果的持续时间缩短 {3/6/9/12/15/18/21/24/27/30}%。当你获得的强固数值超过 50% 生命上限时, 此效果变为三倍。\n\nTags: 强固, 生命, 控制.",
 			"zhTW": "控場效果的持續時間縮短 {3/6/9/12/15/18/21/24/27/30}%。當你具有高於生命值上限 50% 的強韌時,此效果變成三倍。\n\nTags: 強韌, 生命值, 控場."
 },
 		id: 115,
@@ -4811,7 +4811,7 @@ Tags: Shapeshifting, Damage.`,
 			"zhTW": "迅變"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn eine Verwandlungsfertigkeit Euch eine andere Gestalt verleiht, verursacht sie x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden.\n\nTags: Gestaltwandeln, Schaden.",
+			"deDE": "Wenn eine Gestaltwandelfertigkeit Euch eine andere Gestalt verleiht, verursacht sie x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden.\n\nTags: Gestaltwandeln, Schaden.",
 			"esES": "Cuando una habilidad de cambio de forma te transforma, inflige un x{5/10/15/20/25/30/35/40/45/50}% más de daño.\n\nTags: Cambio de forma, Daño.",
 			"esMX": "Cuando una habilidad de Metamorfosis te cambia a una forma distinta, inflige un x{5/10/15/20/25/30/35/40/45/50}% más de daño.\n\nTags: Metamorfosis, Daño.",
 			"frFR": "Lorsqu'une compétence de métamorphose vous fait prendre une autre forme, celle-ci inflige x{5/10/15/20/25/30/35/40/45/50}% de dégâts supplémentaires.\n\nTags: Métamorphose, Dégâts.",
@@ -4955,7 +4955,7 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 	"Prime Lacerate": {
 		baseSkill: "Lacerate",
 		connections: [ "Supreme Lacerate", "Lacerate" ],
-		description: `Each time Lacerate deals a Critical Strike, Heal for 3% Maximum Life.`,
+		description: `Each time Lacerate deals a Critical Strike, Heal for 5% Maximum Life.`,
 		nameLocalized: {
 			"deDE": "Oberstes Zerreißen",
 			"esES": "Lacerar mayor",
@@ -4972,19 +4972,19 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 			"zhTW": "強烈割裂"
 },
 		descriptionLocalized: {
-			"deDE": "Jedes Mal, wenn Zerreißen einen kritischen Treffer erzielt, werdet Ihr um 3% eures maximalen Lebens geheilt.",
-			"esES": "Cada vez que Lacerar asesta un golpe crítico, te curas un 3% de tu vida máxima.",
-			"esMX": "Cada vez que asestas un golpe crítico con Lacerar, te sanas por un 3% de tu vida máxima.",
-			"frFR": "Chaque fois que Lacération inflige un coup critique, vous récupérez 3% de votre maximum de points de vie.",
-			"itIT": "Ogni volta che Lacerazione infligge danni critici, ti cura del 3% della tua Vita massima.",
-			"jaJP": "〈人狼の怒り〉で敵にクリティカルヒットを与えるたびに、ライフ最大値の3%にあたるを回復する。",
-			"koKR": "찢어발기기로 적에게 극대화 피해를 줄 때마다 최대 생명력의 3%만큼 생명력을 회복합니다.",
-			"plPL": "Za każdym razem, gdy Rany Szarpane wywołują trafienie krytyczne, odzyskujesz 3% maksymalnego zdrowia.",
-			"ptBR": "Sempre que Lacerar causa um acerto crítico, cura 3% da vida máxima.",
-			"ruRU": "Каждый раз, когда \"Раздирание\" наносит критический удар, вы восполняете 3% максимального запаса здоровья.",
-			"trTR": "Tırmala her Kritik Vuruş gerçekleştirdiğinde Maksimum Canının 3% kadarına eşit İyileş.",
-			"zhCN": "疯狂撕咬每次对敌人造成暴击都会为你恢复 3% 生命上限。",
-			"zhTW": "割裂每次造成爆擊時,使你恢復生命值上限的 3%。"
+			"deDE": "Jedes Mal, wenn Zerreißen einen kritischen Treffer erzielt, werdet Ihr um 5% eures maximalen Lebens geheilt.",
+			"esES": "Cada vez que Lacerar asesta un golpe crítico, te curas un 5% de tu vida máxima.",
+			"esMX": "Cada vez que asestas un golpe crítico con Lacerar, te sanas por un 5% de tu vida máxima.",
+			"frFR": "Chaque fois que Lacération inflige un coup critique, vous récupérez 5% de votre maximum de points de vie.",
+			"itIT": "Ogni volta che Lacerazione infligge danni critici, ti cura del 5% della tua Vita massima.",
+			"jaJP": "〈人狼の怒り〉で敵にクリティカルヒットを与えるたびに、ライフ最大値の5%にあたるを回復する。",
+			"koKR": "찢어발기기로 적에게 극대화 피해를 줄 때마다 최대 생명력의 5%만큼 생명력을 회복합니다.",
+			"plPL": "Za każdym razem, gdy Rany Szarpane wywołują trafienie krytyczne, odzyskujesz 5% maksymalnego zdrowia.",
+			"ptBR": "Sempre que Lacerar causa um acerto crítico, cura 5% da vida máxima.",
+			"ruRU": "Каждый раз, когда \"Раздирание\" наносит критический удар, вы восполняете 5% максимального запаса здоровья.",
+			"trTR": "Tırmala her Kritik Vuruş gerçekleştirdiğinde Maksimum Canının 5% kadarına eşit İyileş.",
+			"zhCN": "疯狂撕咬每次对敌人造成暴击都会为你恢复 5% 生命上限。",
+			"zhTW": "割裂每次造成爆擊時,使你恢復生命值上限的 5%。"
 },
 		id: 121,
 		maxPoints: 1,
@@ -5034,7 +5034,7 @@ Tags: Ultimate, Shapeshifting, Werewolf, Immune, Physical, Damage, Cooldown, Dam
 		connections: [ "Ultimate", "Prime Cataclysm" ],
 		description: `Cooldown: 60 seconds
 Lucky Hit Chance: 62.175% (per use)
-A massive storm follows you for 8 seconds. Twisters Knock Back enemies, and lightning strikes wildly dealing 64% damage.
+A massive storm follows you for 8 seconds. Twisters Knock Back enemies, and lightning strikes wildly dealing 77% damage.
 
 Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.`,
 		nameLocalized: {
@@ -5053,19 +5053,19 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"zhTW": "災變"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 60 Sek.\nGlückstrefferchance: 62.175% (per use)\nEin massiver Sturm folgt Euch 8 Sek. lang. Wirbel stoßen Gegner zurück und wilde Blitzschläge verursachen 64% Schaden.\n\nTags: Ultimativ, Naturmagie, Sturm, Blitz, Schaden, Abklingzeit, Kontrollverlust.",
-			"esES": "Tiempo de reutilización: 60 s\nProbabilidad de golpe de suerte: 62.175% (per use)\nDurante 8 s, te sigue una enorme tormenta con remolinos que repelen a los enemigos y violentos relámpagos que infligen 64% de daño.\n\nTags: Definitiva, Magia de la naturaleza, Tormenta, Rayos, Daño, Tiempo de reutilización, Control de masas.",
-			"esMX": "Recuperación: 60 segundos\nProbabilidad de golpe afortunado: 62.175% (per use)\nUna gran tormenta te sigue durante 8 segundos. Los torbellinos repelen a los enemigos, y caen relámpagos terribles que infligen 64% de daño.\n\nTags: Máxima, Magia de la naturaleza, Tormenta, Rayo, Daño, Recuperación, Control de multitudes.",
-			"frFR": "Temps de recharge: 60 s\nChances d'obtenir un coup de chance: 62.175% (per use)\nUne énorme tempête vous suit pendant 8 s. Des tornades repoussent les adversaires et des coups de foudre s'abattent violemment du ciel en infligeant 64% points de dégâts.\n\nTags: Ultime, Magie naturelle, Tempête, Foudre, Dégâts, Temps de recharge, Perte de contrôle.",
-			"itIT": "Tempo di recupero: 60 s\nProbabilità di colpo fortunato: 62.175% (per use)\nUna gigantesca tempesta ti segue per 8 s. I tornado respingono i nemici e i fulmini colpiscono selvaggiamente infliggendo 64% danni.\n\nTags: Ultra, Magia naturale, Tempesta, Fulmine, Danni, Tempo di recupero, Effetti debilitanti.",
-			"jaJP": "クールダウン: 60秒\n幸運の一撃発生率: 62.175% (per use)\n巨大な嵐が8秒間、自分の後をついて来る。旋風が敵をノックバックさせ、強烈な稲妻が64%のダメージを与える。\n\nTags: 奥義, 自然魔法, 嵐, 電撃, ダメージ, クールダウン, 操作障害効果.",
-			"koKR": "재사용 대기시간: 60초\n행운의 적중 확률: 62.175% (per use)\n8초 동안 거대한 폭풍이 드루이드를 따라다닙니다. 돌개바람이 적을 밀쳐내고 번개가 마구 내리쳐 64%의 피해를 줍니다.\n\nTags: 궁극기, 자연 마법, 폭풍, 번개, 피해, 재사용 대기시간, 군중 제어.",
-			"plPL": "Czas odnowienia: 60 sek.\nSzansa na szczęśliwy traf: 62.175% (per use)\nPotężna burza podąża za tobą przez 8 sek. Tornada odrzucają wrogów, a wokół uderzają pioruny, zadając 64% pkt. obrażeń.\n\nTags: Specjalne, Magia Natury, Burza, Błyskawice, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
-			"ptBR": "Recarga: 60 segundos\nChance de Golpe de Sorte: 62.175% (per use)\nUma enorme tempestade segue você por 8 segundos. Ciclones repelem os inimigos e raios são lançados descontroladamente, causando 64% de dano.\n\nTags: Suprema, Magia da Natureza, Tempestade, Eletricidade, Dano, Recarga, Controle de Grupo.",
-			"ruRU": "Время восстановления: 60 сек.\nВероятность удачного удара: 62.175% (per use)\nПризывает разрушительную бурю, которая следует за вами в течение 8 сек. Появляющиеся вихри отбрасывают противников, а яростные разряды молнии наносят целям 64% ед. урона.\n\nTags: Мощное умение, Силы природы, Буря, Молния, Урон, Время восстановления, Контроль.",
-			"trTR": "Bekleme Süresi: 60 saniye\nŞanslı Vuruş İhtimali: 62.175% (per use)\nBüyük bir fırtına 8 saniye boyunca seni takip eder. Hortumlar düşmanları Geri Savurur ve şimşek darbeleri vahşice 64% hasar verir.\n\nTags: Ulti, Doğa Sihri, Fırtına, Yıldırım, Hasar, Bekleme Süresi, Kitle Kontrolü.",
-			"zhCN": "冷却时间: 60 秒\n幸运一击几率: 62.175% (per use)\n一场巨大的风暴跟随着你, 持续 8 秒。龙卷风会击退敌人, 并用闪电狂野地打击敌人, 造成 64% 点伤害。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 群控.",
-			"zhTW": "冷卻時間:60 秒\n幸運觸發機率:62.175% (per use)\n巨大風暴會跟隨你,持續 8 秒。巨大風暴會產生擊退敵人的旋風,並降下猛烈閃電造成 64% 點傷害。\n\nTags: 絕招, 自然魔法, 風暴, 閃電, 傷害, 冷卻時間, 控場."
+			"deDE": "Abklingzeit: 60 Sek.\nGlückstrefferchance: 62.175% (per use)\nEin massiver Sturm folgt Euch 8 Sek. lang. Wirbel stoßen Gegner zurück und wilde Blitzschläge verursachen 77% Schaden.\n\nTags: Ultimativ, Naturmagie, Sturm, Blitz, Schaden, Abklingzeit, Kontrollverlust.",
+			"esES": "Tiempo de reutilización: 60 s\nProbabilidad de golpe de suerte: 62.175% (per use)\nDurante 8 s, te sigue una enorme tormenta con remolinos que repelen a los enemigos y violentos relámpagos que infligen 77% de daño.\n\nTags: Definitiva, Magia de la naturaleza, Tormenta, Rayos, Daño, Tiempo de reutilización, Control de masas.",
+			"esMX": "Recuperación: 60 segundos\nProbabilidad de golpe afortunado: 62.175% (per use)\nUna gran tormenta te sigue durante 8 segundos. Los torbellinos repelen a los enemigos, y caen relámpagos terribles que infligen 77% de daño.\n\nTags: Máxima, Magia de la naturaleza, Tormenta, Rayo, Daño, Recuperación, Control de multitudes.",
+			"frFR": "Temps de recharge: 60 s\nChances d'obtenir un coup de chance: 62.175% (per use)\nUne énorme tempête vous suit pendant 8 s. Des tornades repoussent les adversaires et des coups de foudre s'abattent violemment du ciel en infligeant 77% points de dégâts.\n\nTags: Ultime, Magie naturelle, Tempête, Foudre, Dégâts, Temps de recharge, Perte de contrôle.",
+			"itIT": "Tempo di recupero: 60 s\nProbabilità di colpo fortunato: 62.175% (per use)\nUna gigantesca tempesta ti segue per 8 s. I tornado respingono i nemici e i fulmini colpiscono selvaggiamente infliggendo 77% danni.\n\nTags: Ultra, Magia naturale, Tempesta, Fulmine, Danni, Tempo di recupero, Effetti debilitanti.",
+			"jaJP": "クールダウン: 60秒\n幸運の一撃発生率: 62.175% (per use)\n巨大な嵐が8秒間、自分の後をついて来る。旋風が敵をノックバックさせ、強烈な稲妻が77%のダメージを与える。\n\nTags: 奥義, 自然魔法, 嵐, 電撃, ダメージ, クールダウン, 操作障害効果.",
+			"koKR": "재사용 대기시간: 60초\n행운의 적중 확률: 62.175% (per use)\n8초 동안 거대한 폭풍이 드루이드를 따라다닙니다. 돌개바람이 적을 밀쳐내고 번개가 마구 내리쳐 77%의 피해를 줍니다.\n\nTags: 궁극기, 자연 마법, 폭풍, 번개, 피해, 재사용 대기시간, 군중 제어.",
+			"plPL": "Czas odnowienia: 60 sek.\nSzansa na szczęśliwy traf: 62.175% (per use)\nPotężna burza podąża za tobą przez 8 sek. Tornada odrzucają wrogów, a wokół uderzają pioruny, zadając 77% pkt. obrażeń.\n\nTags: Specjalne, Magia Natury, Burza, Błyskawice, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
+			"ptBR": "Recarga: 60 segundos\nChance de Golpe de Sorte: 62.175% (per use)\nUma enorme tempestade segue você por 8 segundos. Ciclones repelem os inimigos e raios são lançados descontroladamente, causando 77% de dano.\n\nTags: Suprema, Magia da Natureza, Tempestade, Eletricidade, Dano, Recarga, Controle de Grupo.",
+			"ruRU": "Время восстановления: 60 сек.\nВероятность удачного удара: 62.175% (per use)\nПризывает разрушительную бурю, которая следует за вами в течение 8 сек. Появляющиеся вихри отбрасывают противников, а яростные разряды молнии наносят целям 77% ед. урона.\n\nTags: Мощное умение, Силы природы, Буря, Молния, Урон, Время восстановления, Контроль.",
+			"trTR": "Bekleme Süresi: 60 saniye\nŞanslı Vuruş İhtimali: 62.175% (per use)\nBüyük bir fırtına 8 saniye boyunca seni takip eder. Hortumlar düşmanları Geri Savurur ve yıldırım darbeleri vahşice 77% hasar verir.\n\nTags: Ulti, Doğa Sihri, Fırtına, Yıldırım, Hasar, Bekleme Süresi, Kitle Kontrolü.",
+			"zhCN": "冷却时间: 60 秒\n幸运一击几率: 62.175% (per use)\n一场巨大的风暴跟随着你, 持续 8 秒。龙卷风会击退敌人, 并用闪电狂野地打击敌人, 造成 77% 点伤害。\n\nTags: 终极技能, 自然魔法, 风暴, 闪电, 伤害, 冷却时间, 控制.",
+			"zhTW": "冷卻時間:60 秒\n幸運觸發機率:62.175% (per use)\n巨大風暴會跟隨你,持續 8 秒。巨大風暴會產生擊退敵人的旋風,並降下猛烈閃電造成 77% 點傷害。\n\nTags: 絕招, 自然魔法, 風暴, 閃電, 傷害, 冷卻時間, 控場."
 },
 		id: 123,
 		maxPoints: 1,
@@ -5075,7 +5075,7 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 	"Prime Cataclysm": {
 		baseSkill: "Cataclysm",
 		connections: [ "Supreme Cataclysm", "Cataclysm" ],
-		description: `Cataclysm's duration is increased by 2 seconds.`,
+		description: `Cataclysm's duration is increased by 4 seconds.`,
 		nameLocalized: {
 			"deDE": "Oberster Kataklysmus",
 			"esES": "Cataclismo mayor",
@@ -5092,19 +5092,19 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"zhTW": "強烈災變"
 },
 		descriptionLocalized: {
-			"deDE": "Die Dauer von Kataklysmus wird um 2 Sek. erhöht.",
-			"esES": "La duración de Cataclismo aumenta 2 s.",
-			"esMX": "La duración de Cataclismo aumenta 2 segundos.",
-			"frFR": "La durée de Cataclysme est augmentée de 2 s.",
-			"itIT": "La durata di Cataclisma aumenta di 2 s.",
-			"jaJP": "〈荒れ狂う雷雲〉の持続時間が2秒増加する。",
-			"koKR": "대격변의 지속시간이 2초 증가합니다.",
-			"plPL": "Czas działania Kataklizmu jest wydłużony o 2 sek.",
-			"ptBR": "A duração de Cataclismo é aumentada em 2 segundos.",
-			"ruRU": "Время действия \"Катаклизма\" увеличивается на 2 сек.",
-			"trTR": "Afetin süresi 2 saniye artar.",
-			"zhCN": "浩劫的持续时间延长 2 秒。",
-			"zhTW": "災變持續時間延長 2 秒。"
+			"deDE": "Die Dauer von Kataklysmus wird um 4 Sek. erhöht.",
+			"esES": "La duración de Cataclismo aumenta 4 s.",
+			"esMX": "La duración de Cataclismo aumenta 4 segundos.",
+			"frFR": "La durée de Cataclysme est augmentée de 4 s.",
+			"itIT": "La durata di Cataclisma aumenta di 4 s.",
+			"jaJP": "〈荒れ狂う雷雲〉の持続時間が4秒増加する。",
+			"koKR": "대격변의 지속시간이 4초 증가합니다.",
+			"plPL": "Czas działania Kataklizmu jest wydłużony o 4 sek.",
+			"ptBR": "A duração de Cataclismo é aumentada em 4 segundos.",
+			"ruRU": "Время действия \"Катаклизма\" увеличивается на 4 сек.",
+			"trTR": "Afetin süresi 4 saniye artar.",
+			"zhCN": "浩劫的持续时间延长 4 秒。",
+			"zhTW": "災變持續時間延長 4 秒。"
 },
 		id: 124,
 		maxPoints: 1,
@@ -5114,7 +5114,7 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 	"Supreme Cataclysm": {
 		baseSkill: "Cataclysm",
 		connections: [ "Prime Cataclysm" ],
-		description: `Lightning strikes from Cataclysm make enemies Vulnerable for 2 seconds.`,
+		description: `Lightning strikes from Cataclysm make enemies Vulnerable for 3 seconds.`,
 		nameLocalized: {
 			"deDE": "Überlegener Kataklysmus",
 			"esES": "Cataclismo supremo",
@@ -5131,19 +5131,19 @@ Tags: Ultimate, Nature Magic, Storm, Lightning, Damage, Cooldown, Crowd Control.
 			"zhTW": "終極災變"
 },
 		descriptionLocalized: {
-			"deDE": "Von Kataklysmus verursachte Blitzschläge machen Gegner 2 Sek. lang verwundbar.",
-			"esES": "Los relámpagos de Cataclismo hacen que los enemigos se vuelvan vulnerables durante 2 s.",
-			"esMX": "Los relámpagos de Cataclismo vuelven a los enemigos vulnerables durante 2 segundos.",
-			"frFR": "Les coups de foudre de Cataclysme rendent les adversaires vulnérables pendant 2 s.",
-			"itIT": "I fulmini di Cataclisma rendono i nemici vulnerabili per 2 s.",
-			"jaJP": "〈荒れ狂う雷雲〉から放たれた稲妻が敵を2秒間、脆弱状態にする。",
-			"koKR": "대격변의 번개가 적을 2초 동안 취약하게 만듭니다.",
-			"plPL": "Uderzenia błyskawicy wywołane przez Kataklizm sprawiają, że wrogowie stają się odsłonięci na 2 sek.",
-			"ptBR": "Os raios de Cataclismo tornam os inimigos vulneráveis por 2 segundos.",
-			"ruRU": "Удары молнии от \"Катаклизма\" делают противников уязвимыми на 2 сек.",
-			"trTR": "Afetin şimşek darbeleri düşmanları 2 saniyeliğine Savunmasız hâle getirir.",
-			"zhCN": "浩劫造成的闪电打击会使敌人陷入易伤状态, 持续 2 秒。",
-			"zhTW": "災變的閃電使敵人易傷 2 秒。"
+			"deDE": "Von Kataklysmus verursachte Blitzschläge machen Gegner 3 Sek. lang verwundbar.",
+			"esES": "Los relámpagos de Cataclismo hacen que los enemigos se vuelvan vulnerables durante 3 s.",
+			"esMX": "Los relámpagos de Cataclismo vuelven a los enemigos vulnerables durante 3 segundos.",
+			"frFR": "Les coups de foudre de Cataclysme rendent les adversaires vulnérables pendant 3 s.",
+			"itIT": "I fulmini di Cataclisma rendono i nemici vulnerabili per 3 s.",
+			"jaJP": "〈荒れ狂う雷雲〉から放たれた稲妻が敵を3秒間、脆弱状態にする。",
+			"koKR": "대격변의 번개가 적을 3초 동안 취약하게 만듭니다.",
+			"plPL": "Uderzenia błyskawicy wywołane przez Kataklizm sprawiają, że wrogowie stają się odsłonięci na 3 sek.",
+			"ptBR": "Os raios de Cataclismo tornam os inimigos vulneráveis por 3 segundos.",
+			"ruRU": "Удары молнии от \"Катаклизма\" делают противников уязвимыми на 3 сек.",
+			"trTR": "Afetin yıldırım darbeleri, düşmanları 3 saniyeliğine Savunmasız hâle getirir.",
+			"zhCN": "浩劫造成的闪电打击会使敌人陷入易伤状态, 持续 3 秒。",
+			"zhTW": "災變的閃電會使敵人易傷 3 秒。"
 },
 		id: 125,
 		maxPoints: 1,
@@ -5192,7 +5192,7 @@ Tags: Damage, Elite Monsters, Nature Magic.`,
 	},
 	"Circle of Life": {
 		connections: [ "Defiance", "Resonance" ],
-		description: `Nature Magic Skills that consume Spirit Heal you for {1/2/3/4/5/6/7/8/9/10}% of your Maximum Life.
+		description: `Nature Magic Skills that consume Spirit, Heal you for {1/2/3/4/5/6/7/8/9/10}% of your Maximum Life.
 
 Tags: Healing, Nature Magic, Spirit.`,
 		nameLocalized: {
@@ -5221,9 +5221,9 @@ Tags: Healing, Nature Magic, Spirit.`,
 			"plPL": "Umiejętności Magii Natury, które zużywają siłę duchową, przywracają ci {1/2/3/4/5/6/7/8/9/10}% maksymalnego zdrowia.\n\nTags: Leczenie, Magia Natury, Siła Duchowa.",
 			"ptBR": "Habilidades de Magia da Natureza que consomem espírito curam {1/2/3/4/5/6/7/8/9/10}% da sua vida máxima.\n\nTags: Cura, Magia da Natureza, Espírito.",
 			"ruRU": "Умения сил природы, расходующие дух, восполняют вам {1/2/3/4/5/6/7/8/9/10}% максимального запаса здоровья.\n\nTags: Исцеление, Силы природы, Дух.",
-			"trTR": "Ruh tüketen Doğa Sihri Yetenekleri seni Maksimum Canının {1/2/3/4/5/6/7/8/9/10}% kadarına eşit İyileştirir.\n\nTags: İyileşme, Doğa Sihri, Ruh.",
+			"trTR": "Ruh tüketen Doğa Sihri Yetenekleri, Maksimum Canının {1/2/3/4/5/6/7/8/9/10}% kadarına eşit iyileştirir.\n\nTags: İyileşme, Doğa Sihri, Ruh.",
 			"zhCN": "消耗灵力的自然魔法技能恢复你 {1/2/3/4/5/6/7/8/9/10}% 生命上限。\n\nTags: 治疗, 自然魔法, 灵力.",
-			"zhTW": "消耗靈力的自然魔法技能可使你恢復生命值上限的 {1/2/3/4/5/6/7/8/9/10}%。\n\nTags: 治療, 自然魔法, 靈力."
+			"zhTW": "消耗靈力的自然魔法技能,可使你恢復生命值上限的 {1/2/3/4/5/6/7/8/9/10}%。\n\nTags: 治療, 自然魔法, 靈力."
 },
 		id: 127,
 		maxPoints: 3,
@@ -5274,7 +5274,7 @@ Tags: Damage, Nature Magic, Earth, Storm.`,
 		connections: [ "Defiance", "Resonance" ],
 		description: `Your Earth Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage to Vulnerable enemies.
 
-Your Storm Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage to enemies that are Stunned, Immobilized, or Knocked Back.
+Your Storm Skills deal x{4/8/12/16/20/24/28/32/36/40}% increased damage to enemies that are Stunned, Immobilized or Knocked Back.
 
 Tags: Vulnerable, Damage, Crowd Control, Earth, Storm, Nature Magic.`,
 		nameLocalized: {
@@ -5301,10 +5301,10 @@ Tags: Vulnerable, Damage, Crowd Control, Earth, Storm, Nature Magic.`,
 			"jaJP": "脆弱状態の敵に土スキルが与えるダメージがx{4/8/12/16/20/24/28/32/36/40}%増加する。\n\nスタン、移動不能またはノックバック状態の敵に嵐スキルが与えるダメージがx{4/8/12/16/20/24/28/32/36/40}%増加する。\n\nTags: 脆弱, ダメージ, 操作障害効果, 土, 嵐, 自然魔法.",
 			"koKR": "취약 상태의 적에게 대지 기술로 주는 피해가 x{4/8/12/16/20/24/28/32/36/40}% 증가합니다.\n\n기절 또는 이동 불가 상태이거나 밀려난 적에게 폭풍 기술로 주는 피해가 x{4/8/12/16/20/24/28/32/36/40}% 증가합니다.\n\nTags: 취약, 피해, 군중 제어, 대지, 폭풍, 자연 마법.",
 			"plPL": "Twoje umiejętności Ziemi zadają obrażenia zwiększone o x{4/8/12/16/20/24/28/32/36/40}% odsłoniętym wrogom.\n\nTwoje umiejętności Burzy zadają obrażenia zwiększone o x{4/8/12/16/20/24/28/32/36/40}% ogłuszonym, unieruchomionym lub odrzuconym wrogom.\n\nTags: Odsłonięcie, Obrażenia, Ograniczanie Kontroli, Ziemia, Burza, Magia Natury.",
-			"ptBR": "Suas habilidades de Terra causam {4/8/12/16/20/24/28/32/36/40}% de dano aumentado a inimigos vulneráveis.\n\nSuas habilidades de Tempestade causam {4/8/12/16/20/24/28/32/36/40}% de dano aumentado a inimigos atordoados, imobilizados ou repelidos.\n\nTags: Vulnerável, Dano, Controle de Grupo, Terra, Tempestade, Magia da Natureza.",
+			"ptBR": "Suas habilidades de Terra causam x{4/8/12/16/20/24/28/32/36/40}% de dano aumentado a inimigos vulneráveis.\n\nSuas habilidades de Tempestade causam x{4/8/12/16/20/24/28/32/36/40}% de dano aumentado a inimigos atordoados, imobilizados ou repelidos.\n\nTags: Vulnerável, Dano, Controle de Grupo, Terra, Tempestade, Magia da Natureza.",
 			"ruRU": "Ваши умения земли наносят на x{4/8/12/16/20/24/28/32/36/40}% больше урона уязвимым противникам.\n\nВаши умения бури наносят на x{4/8/12/16/20/24/28/32/36/40}% больше урона оглушенным, обездвиженным и отброшенным противникам.\n\nTags: Уязвимость, Урон, Контроль, Земля, Буря, Силы природы.",
-			"trTR": "Toprak Yeteneklerin Savunmasız düşmanlara x{4/8/12/16/20/24/28/32/36/40}% hasar verir.\n\nFırtına Yetenekleri Sersemletilmiş, Sabitlenmiş veya Geri Savrulmuş düşmanlara x{4/8/12/16/20/24/28/32/36/40}% artırılmış hasar verir.\n\nTags: Savunmasız, Hasar, Kitle Kontrolü, Toprak, Fırtına, Doğa Sihri.",
-			"zhCN": "你的大地技能对处于易伤状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\n你的风暴技能对被击昏、被定身或被击退状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易伤, 伤害, 群控, 大地, 风暴, 自然魔法.",
+			"trTR": "Toprak Yeteneklerin, Savunmasız düşmanlara x{4/8/12/16/20/24/28/32/36/40}% hasar verir.\n\nFırtına Yetenekleri; Sersemletilmiş, Sabitlenmiş veya Geri Savrulmuş düşmanlara x{4/8/12/16/20/24/28/32/36/40}% artırılmış hasar verir.\n\nTags: Savunmasız, Hasar, Kitle Kontrolü, Toprak, Fırtına, Doğa Sihri.",
+			"zhCN": "你的大地技能对处于易伤状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\n你的风暴技能对处于昏迷、定身或击退状态的敌人造成的伤害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易伤, 伤害, 控制, 大地, 风暴, 自然魔法.",
 			"zhTW": "你的大地技能對易傷敵人造成的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\n你的風暴技能對被擊昏、定身或擊退的敵人造成的傷害提高 x{4/8/12/16/20/24/28/32/36/40}%。\n\nTags: 易傷, 傷害, 控場, 大地, 風暴, 自然魔法."
 },
 		id: 129,
@@ -5395,7 +5395,7 @@ Tags: Critical Strikes, Damage, Spirit, Lucky Hit, Earth, Crowd Control, Nature 
 			"ptBR": "Golpe de Sorte: Causar dano a inimigos com habilidades de Terra tem até 5% de chance de:\n• Restaurar todo o seu espírito\n• Fazer com que seus ataques sejam acertos críticos garantidos por 5 segundos\n\nEssa chance é aumentada em:\n• 10% para acertos críticos\n• 10% se o alvo estiver atordoado, imobilizado ou repelido\n\nTags: Acertos Críticos, Dano, Espírito, Golpe de Sorte, Terra, Controle de Grupo, Magia da Natureza.",
 			"ruRU": "Удачный удар: когда вы наносите урон умениями земли, с вероятностью до 5% срабатывают следующие эффекты:\n• Вы полностью восполняете дух.\n• Ваши атаки гарантированно наносят критический урон в течение 5 сек.\n\nВероятность увеличивается:\n• На 10% в случае критического удара.\n• На 10%, если цель оглушена, обездвижена или отброшена.\n\nTags: Критические удары, Урон, Дух, Удачный удар, Земля, Контроль, Силы природы.",
 			"trTR": "Şanslı Vuruş: Düşmanlara Toprak Yetenekleriyle hasar vermek en fazla %5 ihtimalle:\n• Tüm Ruhlarını yeniler\n• 5 saniyeliğine tüm saldırılarının garanti olarak Kritik Vuruş gerçekleştirmesini sağlar\n\nBu ihtimal şu şekilde artar:\n• Kritik Vuruşlar için %10\n• Hedef Sersemletilmiş, Sabitlenmiş veya Geri Savrulmuşsa %10\n\nTags: Kritik Vuruşlar, Hasar, Ruh, Şanslı Vuruş, Toprak, Kitle Kontrolü, Doğa Sihri.",
-			"zhCN": "幸运一击: 使用大地技能对敌人造成伤害时, 最多有 5% 几率:\n• 恢复你的所有灵力\n• 使你的攻击必定暴击, 持续 5 秒\n\n该几率提高:\n• 造成暴击时, 几率提高 10%\n• 对被击昏、被定身或被击退的目标, 几率提高 10%\n\nTags: 暴击, 伤害, 灵力, 幸运一击, 大地, 群控, 自然魔法.",
+			"zhCN": "幸运一击: 使用大地技能对敌人造成伤害时, 最多有 5% 几率:\n• 恢复你的所有灵力\n• 使你的攻击必定暴击, 持续 5 秒\n\n该几率提高:\n• 造成暴击时, 几率提高 10%\n• 对被击昏、被定身或被击退的目标, 几率提高 10%\n\nTags: 暴击, 伤害, 灵力, 幸运一击, 大地, 控制, 自然魔法.",
 			"zhTW": "幸運觸發:以大地技能對敵人造成傷害,最高有 5% 機率可以:\n• 恢復你所有靈力\n• 使你的攻擊必定爆擊,持續 5 秒\n\n此機率可提高:\n• 爆擊提高 10%\n• 目標遭擊昏、定身或擊退提高 10%\n\nTags: 爆擊, 傷害, 靈力, 幸運觸發, 大地, 控場, 自然魔法."
 },
 		id: 131,
@@ -5517,7 +5517,7 @@ Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 			"ptBR": "As habilidades de Tempestade lançadas por você concedem 1 de espírito e causam 15% de dano aumentado ao atingir um inimigo vulnerável, imobilizado ou desacelerado.\n\nTags: Vulnerável, Dano, Espírito, Tempestade, Controle de Grupo, Magia da Natureza.",
 			"ruRU": "Примененные вами умения бури восполняют 1 ед. духа и наносят на x15% больше урона уязвимым, обездвиженным и замедленным противникам.\n\nTags: Уязвимость, Урон, Дух, Буря, Контроль, Силы природы.",
 			"trTR": "Kullandığın Fırtına Yetenekleri 1 Ruh kazandırır ve Savunmasız, Sabitlenmiş veya Yavaşlatılmış düşmanlara verilen hasarı x15% artırır.\n\nTags: Savunmasız, Hasar, Ruh, Fırtına, Kitle Kontrolü, Doğa Sihri.",
-			"zhCN": "你施放的风暴技能给予 1 点灵力, 并且对处于易伤、定身或减速状态的敌人造成的伤害提高 x15%。\n\nTags: 易伤, 伤害, 灵力, 风暴, 群控, 自然魔法.",
+			"zhCN": "你施放的风暴技能给予 1 点灵力, 并且对处于易伤、定身或减速状态的敌人造成的伤害提高 x15%。\n\nTags: 易伤, 伤害, 灵力, 风暴, 控制, 自然魔法.",
 			"zhTW": "你施放的風暴技能會賦予 1 點靈力,對易傷、定身或緩速敵人的傷害提高 x15%。\n\nTags: 易傷, 傷害, 靈力, 風暴, 控場, 自然魔法."
 },
 		id: 134,
@@ -5597,7 +5597,7 @@ druidData["Spirit Boons"] = {
 			id: 146
 		},
 		"Iron Feather": {
-			description: `Gain x10% Maximum Life.`,
+			description: `Gain x14% Maximum Life.`,
 			id: 147
 		},
 		"Swooping Attacks": {
@@ -5616,11 +5616,11 @@ druidData["Spirit Boons"] = {
 			id: 154
 		},
 		"Overload": {
-			description: `Lucky Hit: Dealing Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 20% Lightning damage to surrounding enemies.`,
+			description: `Lucky Hit: Dealing Lightning damage has up to a 20% chance to cause the target to emit a static discharge, dealing 25% Lightning damage to surrounding enemies.`,
 			id: 155
 		},
 		"Masochistic": {
-			description: `Critical Strikes with Shapeshifting Skills Heal you for 3% Maximum Life.`,
+			description: `Lucky Hit: Critical Strikes with Shapeshifting Skills have up to a 75% chance to Heal you for 3% Maximum Life.`,
 			id: 156
 		},
 		"Calm Before the Storm": {
@@ -5639,7 +5639,7 @@ druidData["Spirit Boons"] = {
 			id: 151
 		},
 		"Bolster": {
-			description: `Fortify for 10% of your Maximum Life when you use a Defensive Skill.`,
+			description: `Fortify for 15% of your Maximum Life when you use a Defensive Skill.`,
 			id: 152
 		},
 		"Calamity": {

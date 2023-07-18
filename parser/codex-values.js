@@ -117,6 +117,9 @@ let codexValues = {
 				"values": [
 					""
 				]
+			},
+			"Ahavarion, Spear of Lycander": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -145,6 +148,11 @@ let codexValues = {
 				"values": []
 			},
 			"Harlequin Crest": {
+				"values": []
+			},
+			"Aspect of Audacity": {
+				"dungeon": "",
+				"region": "",
 				"values": []
 			}
 		},
@@ -180,6 +188,11 @@ let codexValues = {
 			"Wind Striker Aspect": {
 				"dungeon": "Shivta Ruins",
 				"region": "Kehjistan",
+				"values": []
+			},
+			"Craven Aspect": {
+				"dungeon": "",
+				"region": "",
 				"values": []
 			}
 		},
@@ -343,6 +356,11 @@ let codexValues = {
 			},
 			"Gohr's Devastating Grips": {
 				"values": []
+			},
+			"Aspect of Ancestral Charge": {
+				"dungeon": "",
+				"region": "",
+				"values": []
 			}
 		},
 		"Utility": {
@@ -431,6 +449,11 @@ let codexValues = {
 				"values": []
 			},
 			"Fields of Crimson": {
+				"values": [
+					""
+				]
+			},
+			"Azurewrath": {
 				"values": [
 					""
 				]
@@ -632,6 +655,16 @@ let codexValues = {
 				"dungeon": "Conclave",
 				"region": "Kehjistan",
 				"values": []
+			},
+			"Subterranean Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Fleshrender": {
+				"values": [
+					""
+				]
 			}
 		},
 		"Utility": {
@@ -868,6 +901,14 @@ let codexValues = {
 				"values": [
 					""
 				]
+			},
+			"Aspect of Gore Quills": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Lidless Wall": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -1154,6 +1195,14 @@ let codexValues = {
 			},
 			"Word of Hakan": {
 				"values": []
+			},
+			"Aspect of Pestilent Points": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Eaglehorn": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -1244,6 +1293,16 @@ let codexValues = {
 				"values": []
 			},
 			"Iceheart Brais": {
+				"values": []
+			},
+			"Mage-Lord's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Aspect of Searing Wards": {
+				"dungeon": "",
+				"region": "",
 				"values": []
 			}
 		},
@@ -1374,11 +1433,6 @@ let codexValues = {
 				"region": "",
 				"values": []
 			},
-			"Mage-Lord's Aspect": {
-				"dungeon": "",
-				"region": "",
-				"values": []
-			},
 			"Aspect of the Unbroken Tether": {
 				"dungeon": "",
 				"region": "",
@@ -1409,6 +1463,14 @@ let codexValues = {
 				"values": []
 			},
 			"Staff of Endless Rage": {
+				"values": []
+			},
+			"(PH) of Ensnaring Current Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"The Oculus": {
 				"values": []
 			}
 		},
