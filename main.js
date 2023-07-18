@@ -3598,6 +3598,7 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		displayName = node.displayName;
 		displayNameSize = node.displayNameSize;
 	} else if (!isActiveSkill) {
+		displayName = displayName.replace("(PH)", "").replace(/^ ?of (.+)$/, "$1");
 		const maxLabelSize = Math.round(7.5 * _nodeWidth * shapeSize * circleFactor / nodeWidth);
 		if (displayName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
 		if (displayName.length >= maxLabelSize - 2) displayNameSize = 32;
