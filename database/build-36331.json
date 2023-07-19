@@ -12570,6 +12570,1600 @@
 		}
 	},
 	"Generic": {
+		"Achievement": {
+			"Achievement_Challenge_III_EquipAllLegendaries": {
+				"Desc": "Equip a Legendary or higher quality item in every slot.",
+				"Name": "Legendary Hero"
+			},
+			"Achievement_Challenge_III_KillQuickly45": {
+				"Desc": "Kill 45 monsters within 8 seconds.",
+				"Name": "Swift Destroyer"
+			},
+			"Achievement_Challenge_III_Level50KillNoCritters": {
+				"Desc": "Reach level 50 without killing any wildlife.",
+				"Name": "Nature's Ally"
+			},
+			"Achievement_Challenge_III_QuickDungeon": {
+				"Desc": "Complete a dungeon within 2 minutes.",
+				"Name": "Swift Delver"
+			},
+			"Achievement_Challenge_II_AllRareGear": {
+				"Desc": "Equip a Rare or higher quality item in every slot.",
+				"Name": "Geared for Battle"
+			},
+			"Achievement_Challenge_II_CollectObols": {
+				"Desc": "Collect 100,000 Obols.",
+				"Name": "Deeper Pockets"
+			},
+			"Achievement_Challenge_II_DestroyTimedObjects": {
+				"Desc": "Destroy 50 objects within 60 seconds.",
+				"Name": "Juggernaut"
+			},
+			"Achievement_Challenge_II_EveryClassMaxLevel": {
+				"Crit_174011": "Barbarian",
+				"Crit_174012": "Druid",
+				"Crit_174013": "Necromancer",
+				"Crit_174014": "Rogue",
+				"Crit_174015": "Sorcerer",
+				"Desc": "Reach level 100 with every class.",
+				"Name": "The Heroic Roster"
+			},
+			"Achievement_Challenge_II_FullyUpgradeGlyph": {
+				"Desc": "Fully upgrade a paragon glyph.",
+				"Name": "Glyph Master"
+			},
+			"Achievement_Challenge_II_KillQuickly30": {
+				"Desc": "Kill 30 monsters within 5 seconds.",
+				"Name": "Swift Slayer"
+			},
+			"Achievement_Challenge_II_KillTimedElites": {
+				"Desc": "Kill 3 elite monsters within 30 seconds.",
+				"Name": "Champions No More"
+			},
+			"Achievement_Challenge_II_KillWildlife": {
+				"Crit_174017": "Brown Chicken",
+				"Crit_174018": "Scosglen Cow",
+				"Crit_174019": "Crab",
+				"Crit_174020": "Grey Doe",
+				"Crit_174022": "Donkey",
+				"Crit_174023": "Egret",
+				"Crit_174024": "Fox",
+				"Crit_174026": "Black Goat",
+				"Crit_174027": "Horse",
+				"Crit_174028": "Meerkat",
+				"Crit_174029": "Large Pig",
+				"Crit_174030": "Small Pig",
+				"Crit_174032": "Raven",
+				"Crit_174033": "Seagull",
+				"Crit_174037": "Fawn",
+				"Crit_174038": "Brown Doe",
+				"Crit_174039": "Stag",
+				"Crit_174040": "Dry Steppes Cow",
+				"Crit_174042": "Brown Rooster",
+				"Crit_174043": "Rooster",
+				"Crit_174044": "White Chicken",
+				"Crit_235326": "Brown Goat",
+				"Crit_235327": "White Goat",
+				"Crit_235331": "Rabbit",
+				"Crit_235334": "Snake",
+				"Crit_235551": "Sheep",
+				"Desc": "Kill one of each wildlife listed below.",
+				"Name": "Endangered Species"
+			},
+			"Achievement_Challenge_II_Level15KillNoCritters": {
+				"Desc": "Reach level 15 without killing a wildlife.",
+				"Name": "Nature's Friend"
+			},
+			"Achievement_Challenge_II_PickupGold": {
+				"Desc": "Pick up 1,500 gold within 30 seconds.",
+				"Name": "Deep Pockets"
+			},
+			"Achievement_Challenge_II_Unlock100ParagonNodes": {
+				"Desc": "Unlock 100 paragon nodes.",
+				"Name": "Paragon Pro"
+			},
+			"Achievement_Challenge_I_AllMagicGear": {
+				"Desc": "Equip a Magic or higher quality item in every slot.",
+				"Name": "Fully Equipped"
+			},
+			"Achievement_Challenge_I_KillQuickly15": {
+				"Desc": "Kill 15 monsters within 3 seconds.",
+				"Name": "Swift Hunter"
+			},
+			"Achievement_Class_Barbarian_Challenge_III_SpendFury": {
+				"Desc": "Spend 110 Fury in a single attack.",
+				"Name": "Fury Frenzy"
+			},
+			"Achievement_Class_Barbarian_Challenge_III_UseDeathblow": {
+				"Desc": "Use Death Blow 7 times within 20 seconds.",
+				"Name": "Victory March"
+			},
+			"Achievement_Class_Barbarian_General_I_Arsenal2": {
+				"Desc": "Kill enemies with Two-Handed Bludgeoning, Two-Handed Slashing, and Dual Wielded Weapons within 5 seconds.",
+				"Name": "(PH) Barbarian: Arsenal Kills"
+			},
+			"Achievement_Class_Barbarian_General_I_Berserk": {
+				"Desc": "Go Berserk 40 times.",
+				"Name": "Rampage"
+			},
+			"Achievement_Class_Barbarian_General_I_Shouts": {
+				"Desc": "Use your Shouts 30 times.",
+				"Name": "Battle Cry"
+			},
+			"Achievement_Class_Barbarian_Progression_II_Paragon": {
+				"Desc": "Unlock 2 Legendary Paragon nodes as a Barbarian.",
+				"Name": "(PH) Barbarian: Paragon"
+			},
+			"Achievement_Class_Barbarian_Progression_I_Level50": {
+				"Desc": "Reach level 50 as a Barbarian.",
+				"Name": "Champion of Mount Arreat"
+			},
+			"Achievement_Class_Druid_Challenge_III_Shapeshifting": {
+				"Desc": "Transform 30 times without going back to Human form.",
+				"Name": "(PH) Druid: Shapeshifting"
+			},
+			"Achievement_Class_Druid_Challenge_III_Tornadoes": {
+				"Desc": "Kill 50 enemies with Tornadoes in a single dungeon as a Druid.",
+				"Name": "(PH) Druid: Tornadoes"
+			},
+			"Achievement_Class_Druid_General_I_Storm": {
+				"Desc": "Kill 30 Vulnerable enemies with Lightning Storm.",
+				"Name": "(PH) Druid: Storm"
+			},
+			"Achievement_Class_Druid_General_I_Werewolf": {
+				"Desc": "Kill 30 enemies infected with Rabies while in Werewolf form.",
+				"Name": "Animalistic Fury"
+			},
+			"Achievement_Class_Druid_I_Level50": {
+				"Desc": "Reach level 50 as a Druid.",
+				"Name": "Champion of Scosglen"
+			},
+			"Achievement_Class_Druid_Progression_II_Paragon": {
+				"Desc": "Unlock 2 Legendary Paragon Nodes as a Druid.",
+				"Name": "(PH) Druid: Paragon"
+			},
+			"Achievement_Class_Necromancer_Challenge_III_Challenge1": {
+				"Desc": "Maintain Bonestorm for 20 seconds.",
+				"Name": "(PH) Necromance: Challenge 1"
+			},
+			"Achievement_Class_Necromancer_General_I_Blood": {
+				"Desc": "Pick up 10 Blood Orbs in 20 seconds.",
+				"Name": "(PH) Necromancer: Blood Orbs"
+			},
+			"Achievement_Class_Necromancer_General_I_Corpse": {
+				"Desc": "Kill 40 enemies with Corpse Explosion.",
+				"Name": "(PH) Necromancer: Corpse"
+			},
+			"Achievement_Class_Necromancer_General_I_Shadow": {
+				"Desc": "Kill 20 enemies with Shadow damage in 30 seconds as a Necromancer.",
+				"Name": "(PH) Necromancer: Shadow"
+			},
+			"Achievement_Class_Necromancer_I_Level50": {
+				"Desc": "Reach level 50 as a Necromancer.",
+				"Name": "Follower of Rathma"
+			},
+			"Achievement_Class_Necromancer_Progression_II_Paragon": {
+				"Desc": "Unlock 2 Legendary Paragon Nodes as a Necromancer.",
+				"Name": "Priest of Rathma"
+			},
+			"Achievement_Class_Rogue_Challenge_III_Dodge": {
+				"Desc": "Kill 25 enemies in melee range and 25 enemies outside of melee range in a single dungeon as a Rogue.",
+				"Name": "(PH) Rogue: Dungeon"
+			},
+			"Achievement_Class_Rogue_General_II_Stealth": {
+				"Desc": "Kill 25 enemies with attacks from Stealth.",
+				"Name": "The Unseen Assassin"
+			},
+			"Achievement_Class_Rogue_General_I_InnerSight": {
+				"Desc": "Kill 30 enemies marked with Inner Sight.",
+				"Name": "Fatal Flaw"
+			},
+			"Achievement_Class_Rogue_General_I_Preparation": {
+				"Desc": "Use your Ultimate 3 times in 60 seconds as a Rogue.",
+				"Name": "(PH) Rogue: Preparation"
+			},
+			"Achievement_Class_Rogue_General_I_Traps": {
+				"Desc": "Kill 30 enemies with your Traps.",
+				"Name": "(PH) Rogue: Traps"
+			},
+			"Achievement_Class_Rogue_Progression_II_Paragon": {
+				"Desc": "Unlock 2 Legendary Paragon Nodes as a Rogue.",
+				"Name": "(PH) Rogue: Paragon"
+			},
+			"Achievement_Class_Rogue_Progression_I_Level50": {
+				"Desc": "Reach level 50 as a Rogue.",
+				"Name": "Champion of the Sightless Eye"
+			},
+			"Achievement_Class_Sorcerer_General_II_Enchant1": {
+				"Desc": "Equip a Skill in every Enchantment Slot.",
+				"Name": "Master of Magic"
+			},
+			"Achievement_Class_Sorcerer_General_II_Enchant2": {
+				"Desc": "Kill 20 enemies with your Enchantments.",
+				"Name": "Enchanting"
+			},
+			"Achievement_Class_Sorcerer_General_I_Frost": {
+				"Desc": "Freeze 30 enemies.",
+				"Name": "Icy Grip"
+			},
+			"Achievement_Class_Sorcerer_General_I_Lightning": {
+				"Desc": "Kill 15 enemies with Ball Lightning in 5 seconds.",
+				"Name": "Shocking"
+			},
+			"Achievement_Class_Sorcerer_Progression_II_Paragon": {
+				"Desc": "Unlock 2 Legendary Paragon Nodes as a Sorcerer.",
+				"Name": "(PH) Sorcerer: Paragon"
+			},
+			"Achievement_Class_Sorcerer_Progression_I_Level50": {
+				"Desc": "Reach level 50 as a Sorcerer.",
+				"Name": "Champion of the Vizjerei"
+			},
+			"Achievement_Crafting_III_CompleteNMDungeonElixir": {
+				"Desc": "Complete a Nightmare Dungeon under the effects of any elixir.",
+				"Name": "Alchemically Enhanced"
+			},
+			"Achievement_Crafting_III_CompleteNMDungeonIncense": {
+				"Desc": "Complete a Nightmare Dungeon under the effects of any incense.",
+				"Name": "Empowering Vapors"
+			},
+			"Achievement_Crafting_II_CraftEveryElixir": {
+				"Crit_233348": "Acrobatics Elixir",
+				"Crit_233363": "Assault Elixir",
+				"Crit_233368": "Elixir of Cold Resistance",
+				"Crit_233370": "Crushing Elixir",
+				"Crit_233371": "Elixir of Fire Resistance",
+				"Crit_233373": "Ironbarb Elixir",
+				"Crit_233374": "Elixir of Lightning Resistance",
+				"Crit_233375": "Elixir of Shadow Resistance",
+				"Crit_234763": "Elixir of Precision",
+				"Crit_234764": "Elixir of Poison Resistance",
+				"Crit_234765": "Third Eye Elixir",
+				"Desc": "Craft every type of Elixir.",
+				"Name": "Master Mixology"
+			},
+			"Achievement_Crafting_II_CraftEveryIncense": {
+				"Crit_233345": "Storm of the Wilds",
+				"Crit_233350": "Desert Escape",
+				"Crit_233351": "Song of the Mountain",
+				"Crit_233352": "Spirit Dance",
+				"Crit_233353": "Ancient Times",
+				"Crit_233354": "Sage's Whisper",
+				"Crit_233355": "Queen's Supreme",
+				"Crit_233356": "Blessed Guide",
+				"Crit_233357": "Reddamine Buzz",
+				"Crit_233359": "Spiral Morning",
+				"Desc": "Craft every type of Incense.",
+				"Name": "The Experienced Blender"
+			},
+			"Achievement_Crafting_II_CraftEveryPotion": {
+				"Desc": "Fully Upgrade your Healing Vial.",
+				"Name": "Master Potion Brewer"
+			},
+			"Achievement_Crafting_II_GatherAllLegendaryMats": {
+				"Crit_234992": "Coiling Ward",
+				"Crit_234993": "Abstruse Sigil",
+				"Crit_234994": "Baleful Fragment",
+				"Desc": "Gather all legendary crafting materials.",
+				"Name": "Legendary Supplies"
+			},
+			"Achievement_Crafting_II_GatherAngelbreathFiendRose": {
+				"Crit_235013": "Angelbreath",
+				"Crit_235014": "Fiend Rose",
+				"Desc": "Gather an Angelbreath and a Fiend Rose.",
+				"Name": "Expert Herbalist"
+			},
+			"Achievement_Crafting_II_GatherMonsterParts": {
+				"Crit_234947": "Demon's Heart",
+				"Crit_234948": "Paletongue",
+				"Crit_234949": "Gravedust",
+				"Crit_234950": "Crushed Beast Bone",
+				"Desc": "Gather 100 of each Monster Part.",
+				"Name": "(PH) Crafting: Monster Parts"
+			},
+			"Achievement_Crafting_I_AddSocket": {
+				"Desc": "Add a socket to an item.",
+				"Name": "(PH) Crafting: Sockets"
+			},
+			"Achievement_Crafting_I_BreakAllOreTypes": {
+				"Crit_233315": "Iron Ore",
+				"Crit_234716": "Silver Ore",
+				"Desc": "Collect 500 Iron Ore and 175 Silver Ore.",
+				"Name": "Miner"
+			},
+			"Achievement_Crafting_I_CraftElixir": {
+				"Desc": "Craft an elixir at the Alchemist.",
+				"Name": "Concoction"
+			},
+			"Achievement_Crafting_I_CraftIncense": {
+				"Desc": "Craft an Incense at the Alchemist.",
+				"Name": "Pleasing Vapors"
+			},
+			"Achievement_Crafting_I_CraftPotion": {
+				"Desc": "Upgrade your Healing Vial at the Alchemist.",
+				"Name": "Mixology"
+			},
+			"Achievement_Crafting_I_ExtractAspectCrystal": {
+				"Desc": "Extract an Aspect Crystal from a legendary item.",
+				"Name": "Aspect Apprentice"
+			},
+			"Achievement_Crafting_I_GatherAllCommonMats": {
+				"Crit_234969": "Iron Ore",
+				"Crit_234970": "Rawhide",
+				"Crit_234971": "Gallowvine",
+				"Crit_234972": "Biteberry",
+				"Crit_234973": "Howler Moss",
+				"Crit_234974": "Reddamine",
+				"Crit_234975": "Blightshade",
+				"Crit_234976": "Lifesbane",
+				"Crit_234977": "Demon's Heart",
+				"Crit_234978": "Paletongue",
+				"Crit_234979": "Grave Dust",
+				"Crit_234981": "Crushed Beast Bones",
+				"Crit_234988": "Silver Ore",
+				"Crit_234989": "Superior Leather",
+				"Crit_234990": "Veiled Crystal",
+				"Crit_234991": "Scattered Prism",
+				"Crit_234995": "Angelbreath",
+				"Desc": "Collect every common, uncommon, and rare crafting material.",
+				"Name": "Well Supplied"
+			},
+			"Achievement_Crafting_I_GatherCommonHerbs": {
+				"Crit_233306": "Gallowvine",
+				"Crit_233308": "Reddamine",
+				"Crit_233309": "Biteberry",
+				"Crit_233310": "Blightshade",
+				"Crit_233311": "Lifesbane",
+				"Crit_233313": "Howler Moss",
+				"Desc": "Collect 250 Gallowvine and 75 of all other common and uncommon herbs.",
+				"Name": "Herbalism"
+			},
+			"Achievement_Crafting_I_GatherLeather": {
+				"Crit_234944": "Rawhide",
+				"Crit_234945": "Superior Leather",
+				"Desc": "Collect 250 Rawhide and 100 Superior Leather",
+				"Name": "Skinner"
+			},
+			"Achievement_Crafting_I_ImprintItem": {
+				"Desc": "Imprint an item at the Occultist with an Aspect from the Codex of Power.",
+				"Name": "Codex Commander"
+			},
+			"Achievement_Crafting_I_Salvage": {
+				"Crit_234952": "Normal",
+				"Crit_234957": "Magic",
+				"Crit_234967": "Rare",
+				"Crit_234968": "Legendary",
+				"Desc": "Salvage a Common, Magic, Rare, and Legendary Item",
+				"Name": "Salvager"
+			},
+			"Achievement_Exploration_III_AllLegendaryNMDungeons": {
+				"Crit_235193": "Abandoned Mineworks",
+				"Crit_235194": "Ancient's Lament",
+				"Crit_235195": "Champion's Demise",
+				"Crit_235196": "Crusader's Cathedral",
+				"Crit_235197": "Dark Ravine",
+				"Crit_235198": "Defiled Catacomb",
+				"Crit_235199": "Demon's Wake",
+				"Crit_235200": "Deserted Underpass",
+				"Crit_235201": "Earthen Wound",
+				"Crit_235202": "Guulrahn Slums",
+				"Crit_235203": "Immortal Emanation",
+				"Crit_235204": "Jalal's Vigil",
+				"Crit_235205": "Maugan's Works",
+				"Crit_235206": "Maulwood",
+				"Crit_235207": "Prison of Caldeum",
+				"Crit_235208": "Raethwind Wilds",
+				"Crit_235209": "Ritual Tower",
+				"Crit_235210": "Shadowed Plunge",
+				"Crit_235211": "Serpent's Lair",
+				"Crit_235212": "Stockades",
+				"Desc": "Complete all Legendary tier Nightmare Dungeons.",
+				"Name": "Nightmare Conqueror"
+			},
+			"Achievement_Exploration_III_CapstoneDungeon3": {
+				"Desc": "Complete the Archives of Issalia.",
+				"Name": "Master Archivist"
+			},
+			"Achievement_Exploration_III_HelltideChest100": {
+				"Desc": "Open 100 Tortured Gifts.",
+				"Name": "Helltide Riches"
+			},
+			"Achievement_Exploration_II_AllDrySteppesAspects": {
+				"Crit_235403": "Aspect of Unstable Imbuements",
+				"Crit_235404": "Aspect of Volatile Shadows",
+				"Crit_235405": "Aspect of Potent Blood",
+				"Crit_235406": "Aspect of Bursting Bones",
+				"Crit_235407": "Shepherd's Aspect",
+				"Crit_235408": "Rapid Aspect",
+				"Crit_235409": "Aspect of the Umbral",
+				"Crit_235410": "Aspect of the Iron Warrior",
+				"Crit_235411": "Aspect of Perpetual Stomping",
+				"Crit_235412": "Aspect of Might",
+				"Crit_235413": "Storm Beat's Aspect",
+				"Crit_235414": "Aspect of Biting Cold",
+				"Crit_235415": "Trickster's Aspect",
+				"Crit_235416": "Aspect of Possessed Blood",
+				"Crit_235417": "Aspect of the Bounding Conduit",
+				"Crit_235418": "Aspect of Berserk Ripping",
+				"Crit_235419": "Storm Swell Aspect",
+				"Crit_235420": "Elementalist's Aspect",
+				"Crit_235421": "Aspect of Mending Stone",
+				"Crit_235422": "Aspect of Retaliation",
+				"Crit_235423": "Ravenous Aspect",
+				"Desc": "Unlock all Codex of Power Aspects in Dry Steppes.",
+				"Name": "Dry Steppes Delver"
+			},
+			"Achievement_Exploration_II_AllFracturedPeaksAspects": {
+				"Crit_235339": "Aspect of the Unsatiated",
+				"Crit_235347": "Aspect of the Protector",
+				"Crit_235348": "Flamewalker's Aspect",
+				"Crit_235349": "Aspect of Explosive Verve",
+				"Crit_235350": "Flesh-Rending Aspect",
+				"Crit_235351": "Protecting Aspect",
+				"Crit_235352": "Aspect of Conflagration",
+				"Crit_235353": "Slaking Aspect",
+				"Crit_235354": "Aspect of Piercing Cold",
+				"Crit_235355": "Mangled Aspect",
+				"Crit_235356": "Aspect of Encircling Blades",
+				"Crit_235357": "Stalking Beast Aspect",
+				"Crit_235358": "Aspect of the Void",
+				"Crit_235359": "Aspect of Torment",
+				"Crit_235360": "Aspect of Unrelenting Fury",
+				"Crit_235361": "Blast-Trapper's Aspect",
+				"Crit_235362": "Energizing Aspect",
+				"Crit_235363": "Blood-bathed Aspect",
+				"Crit_235364": "Aspect of Anemia",
+				"Crit_235365": "Nighthowler's Aspect",
+				"Crit_235366": "Aspect of Blood by Blood",
+				"Crit_235367": "Aspect of Tempering Blows",
+				"Crit_235368": "Recharging Aspect",
+				"Desc": "Unlock all of the Codex of Power Aspects available in Fractured Peaks.",
+				"Name": "Fractured Peaks Delver"
+			},
+			"Achievement_Exploration_II_AllHawezarAspects": {
+				"Crit_235447": "Prodigy's Aspect",
+				"Crit_235448": "Blighted Aspect",
+				"Crit_235449": "Aspect of Ancestral Echoes",
+				"Crit_235450": "Aspect of Sleeting Imbuements",
+				"Crit_235451": "Aspect of Ursine Horror",
+				"Crit_235452": "Aspect of the Tempst",
+				"Crit_235453": "Aspect of Seared Flesh",
+				"Crit_235454": "Unyielding Commander's Aspect",
+				"Crit_235455": "Snowguard's Aspect",
+				"Crit_235456": "Enshrouding Aspect",
+				"Crit_235457": "Aspect of the Rampaging Manbeast",
+				"Crit_235458": "Brawler's Aspect",
+				"Crit_235459": "Aspect of Numbing Wrath",
+				"Crit_235460": "Fastblood Aspect",
+				"Crit_235461": "Aspect of Siphoned Protection",
+				"Crit_235462": "Aspect of Bul-Kathos",
+				"Crit_235463": "Aspect of the Deflecting Barrier",
+				"Crit_235464": "Windstriker's Aspect",
+				"Crit_235465": "Aspect of Shared Misery",
+				"Crit_235466": "Sacrificial Aspect",
+				"Crit_235467": "Aspect of Three Curses",
+				"Crit_235468": "Aspect of the Umbral Fusillade",
+				"Crit_235469": "Vigorous Aspect",
+				"Desc": "Unlock all of the Codex of Power Aspects available in Hawezar.",
+				"Name": "Hawezar Delver"
+			},
+			"Achievement_Exploration_II_AllKehjistanAspects": {
+				"Crit_235424": "Needleflare Aspect",
+				"Crit_235425": "Pummeling Aspect",
+				"Crit_235426": "Aspect of Cyclonic Force",
+				"Crit_235427": "Aspect of the Changeling's Debt",
+				"Crit_235428": "Aspect of Grasping Veins",
+				"Crit_235429": "Aspect of Splintering Energy",
+				"Crit_235430": "Opportunist's Aspect",
+				"Crit_235431": "Wind Striker Aspect",
+				"Crit_235432": "Aspect of Disobedience",
+				"Crit_235433": "Torturous Aspect",
+				"Crit_235434": "Skinwalker's Aspect",
+				"Crit_235435": "Aspect of Quickening Pulse",
+				"Crit_235436": "Relentless Berserker's Aspect",
+				"Crit_235437": "Veteran Brawler's Aspect",
+				"Crit_235438": "Vengeful Aspect",
+				"Crit_235439": "Stormshifter's Aspect",
+				"Crit_235440": "Aspect of the Unwavering",
+				"Crit_235441": "Aspect of Corruption",
+				"Crit_235442": "Hulking Aspect",
+				"Crit_235443": "Aspect of Echoing Fury",
+				"Crit_235444": "Aspect of Control",
+				"Crit_235445": "Incendiary Aspect",
+				"Crit_235446": "Aspect of the Damned",
+				"Desc": "Unlock all of the Codex of Power Aspects available in Kehjistan.",
+				"Name": "Kehjistan Delver"
+			},
+			"Achievement_Exploration_II_AllRareNMDungeons": {
+				"Crit_235178": "Aldurwood",
+				"Crit_235179": "Ancient's Lament",
+				"Crit_235180": "Black Asylum",
+				"Crit_235181": "Blind Burrows",
+				"Crit_235182": "Crusader's Cathedral",
+				"Crit_235183": "Guulrahn Canals",
+				"Crit_235184": "Maugan's Works",
+				"Crit_235185": "Maulwood",
+				"Crit_235186": "Onyx Hold",
+				"Crit_235187": "Shivta Ruins",
+				"Crit_235188": "Steadfast Barracks",
+				"Crit_235189": "Stockades",
+				"Crit_235190": "Sunken Ruins",
+				"Crit_235191": "Zenith",
+				"Crit_235192": "Conclave",
+				"Desc": "Complete all Rare tier Nightmare Dungeons.",
+				"Name": "Nightmare Explorer"
+			},
+			"Achievement_Exploration_II_AllScosglenAspects": {
+				"Crit_235378": "Rolling Thunder Aspect",
+				"Crit_235379": "Aspect of Reanimation",
+				"Crit_235380": "Ghostwalker Aspect",
+				"Crit_235381": "Aspect of the Relentless Armsmaster",
+				"Crit_235382": "Aspect of Uncanny Resistance",
+				"Crit_235383": "Aspect of Efficiency",
+				"Crit_235384": "Aspect of Quicksand",
+				"Crit_235385": "Aspect of Empowering Reaper",
+				"Crit_235386": "Aspect of the Dire Whirlwind",
+				"Crit_235387": "Aspect of Swelling Curse",
+				"Crit_235388": "Aspect of Arrow Storms",
+				"Crit_235389": "Aspect of Volatile Blades",
+				"Crit_235390": "Cheat's Aspect",
+				"Crit_235391": "Charged Aspect",
+				"Crit_235392": "Overcharged Aspect",
+				"Crit_235393": "Edgemaster's Aspect",
+				"Crit_235394": "Death Wish Aspect",
+				"Crit_235395": "Aspect of Inner Calm",
+				"Crit_235396": "Snowveiled Aspect",
+				"Crit_235397": "Crashstone Aspect",
+				"Crit_235398": "Aspect of Ancestral Force",
+				"Crit_235399": "Shadowslicer Aspect",
+				"Crit_235400": "Aspect of the Expectant",
+				"Crit_235401": "Requiem Aspect",
+				"Crit_235402": "Ballistic Aspect",
+				"Desc": "Unlock all Codex of Power Aspects in Scosglen.",
+				"Name": "Scosglen Delver"
+			},
+			"Achievement_Exploration_II_CapstoneDungeon2": {
+				"Desc": "Complete the Fallen Temple.",
+				"Name": "Bane of the Fallen"
+			},
+			"Achievement_Exploration_II_HelltideChest10": {
+				"Desc": "Open 10 Tortured Gifts.",
+				"Name": "Helltide Spoils"
+			},
+			"Achievement_Exploration_I_AlMagicNMDungeons": {
+				"Crit_235168": "Abandoned Mineworks",
+				"Crit_235169": "Conclave",
+				"Crit_235170": "Dark Ravine",
+				"Crit_235171": "Defiled Catacomb",
+				"Crit_235172": "Demon's Wake",
+				"Crit_235173": "Earthen Wound",
+				"Crit_235174": "Guulrahn Canals",
+				"Crit_235175": "Steadfast Barracks",
+				"Crit_235176": "Sunken Ruins",
+				"Crit_235177": "Zenith",
+				"Desc": "Complete all Magic tier Nightmare Dungeons.",
+				"Name": "Nightmare Delver"
+			},
+			"Achievement_Exploration_I_CapstoneDungeon1": {
+				"Desc": "Complete the Cathedral of Light.",
+				"Name": "Cathedral Conqueror"
+			},
+			"Achievement_Exploration_I_HelltideChest1": {
+				"Desc": "Open 1 Tortured Gift.",
+				"Name": "Helltide Loot"
+			},
+			"Achievement_Hardcore_Enemies_III_KillAllWorldBosses": {
+				"Crit_234533": "Ashava Slain",
+				"Crit_234535": "Avarice Slain",
+				"Crit_234536": "Wandering Death Slain",
+				"Desc": "Kill every World Boss in Hardcore mode.",
+				"Name": "Hardcore World Boss Slayer"
+			},
+			"Achievement_Hardcore_Enemies_III_KillLilith": {
+				"Desc": "Kill Lilith in Hardcore mode.",
+				"Name": "(PH) Slayer of the First Mother"
+			},
+			"Achievement_Hardcore_Enemies_III_KillTheButcher": {
+				"Desc": "Kill The Butcher in Hardcore mode.",
+				"Name": "(PH) The Butcher Slayer"
+			},
+			"Achievement_Hardcore_Enemies_II_KillDuriel": {
+				"Desc": "Kill Duriel in Hardcore mode.",
+				"Name": "(PH) Slayer of Pain"
+			},
+			"Achievement_Hardcore_Enemies_II_KillWorldBoss1": {
+				"Crit_234524": "Ashava Slain",
+				"Crit_234837": "Avarice Slain",
+				"Crit_234838": "Wandering Death Slain",
+				"Desc": "Kill a World Boss in Hardcore mode.",
+				"Name": "Hardcore Slayer"
+			},
+			"Achievement_Hardcore_Enemies_I_KillAndariel": {
+				"Desc": "Kill Andariel in Hardcore mode.",
+				"Name": "(PH) Slayer of Anguish"
+			},
+			"Achievement_Hardcore_Enemies_I_KillAstaroth": {
+				"Desc": "Kill Astaroth in Hardcore mode.",
+				"Name": "(PH) Slayer of Vanity"
+			},
+			"Achievement_Hardcore_General_III_FinishCampaignAllClasses": {
+				"Crit_234510": "Barbarian",
+				"Crit_234546": "Druid",
+				"Crit_234547": "Necromancer",
+				"Crit_234548": "Rogue",
+				"Crit_234549": "Sorcerer",
+				"Desc": "Complete the Campaign in Hardcore Mode with each class.",
+				"Name": "(PH) Hardcore Campaign"
+			},
+			"Achievement_Hardcore_General_III_NightmareDungeonLegendary": {
+				"Desc": "Complete a Legendary tier Nightmare Dungeon in Hardcore Mode.",
+				"Name": "(PH) Hardcore Nightmare Dungeon III"
+			},
+			"Achievement_Hardcore_General_III_PVP": {
+				"Desc": "Get 10 PvP kills in Hardcore.",
+				"Name": "(PH) Hardcore PvP III"
+			},
+			"Achievement_Hardcore_General_II_Helltide": {
+				"Desc": "Open a Tortured Gift in Hardcore.",
+				"Name": "(PH) Hardcore Helltide"
+			},
+			"Achievement_Hardcore_General_II_NightmareDungeonRare": {
+				"Desc": "Complete a Rare tier Nightmare Dungeon in Hardcore Mode.",
+				"Name": "(PH) Hardcore Nightmare Dungeon II"
+			},
+			"Achievement_Hardcore_General_II_PVP": {
+				"Desc": "Get 5 PvP kills in Hardcore.",
+				"Name": "(PH) Hardcore PvP II"
+			},
+			"Achievement_Hardcore_General_II_Whispers": {
+				"Desc": "Complete a Silent Offering in Hardcore.",
+				"Name": "(PH) Hardcore Tree of Whispers"
+			},
+			"Achievement_Hardcore_General_I_NightmareDungeonMagic": {
+				"Desc": "Complete a Magic tier Nightmare Dungeon in Hardcore Mode.",
+				"Name": "(PH) Hardcore Nightmare Dungeon I"
+			},
+			"Achievement_Hardcore_General_I_PVP": {
+				"Desc": "Get 1 PvP kill in Hardcore.",
+				"Name": "(PH) Hardcore PvP I"
+			},
+			"Achievement_Hardcore_Progression_III_Level100": {
+				"Desc": "Reach Level 100 in Hardcore Mode.",
+				"Name": "(PH) Hardcore - Level 100"
+			},
+			"Achievement_Hardcore_Progression_II_LegendaryParagonNode": {
+				"Desc": "Unlock 2 Legendary Paragon Node in Hardcore Mode.",
+				"Name": "Hardcore Paragon"
+			},
+			"Achievement_Hardcore_Progression_II_Level50": {
+				"Desc": "Reach Level 50 in Hardcore Mode.",
+				"Name": "(PH) Hardcore - Level 50"
+			},
+			"Achievement_Hardcore_Progression_I_Level25": {
+				"Desc": "Reach Level 25 in Hardcore Mode.",
+				"Name": "(PH) Hardcore - Level 25"
+			},
+			"Achievement_Journey_Companion_DemonSummoning30_TEST": {
+				"Desc": "Gain +1 All Stats for each demon summoning",
+				"Name": "Complete 30 Demon Summonings"
+			},
+			"Achievement_Journey_Companion_DemonSummoningLegendary_TEST": {
+				"Desc": "Gain +125 Max Life",
+				"Name": "Complete a Legendary Demon Summoning"
+			},
+			"Achievement_Journey_Companion_DemonSummoningRare_TEST": {
+				"Desc": "Gain +125 Max Life",
+				"Name": "Complete a Rare Demon Summoning"
+			},
+			"Achievement_Journey_Companion_DemonSummoningUnique_TEST": {
+				"Desc": "Gain +20 All Stats",
+				"Name": "Complete a Unique Demon Summoning"
+			},
+			"Achievement_Journey_Companion_LostCacheFrac": {
+				"Desc": "Gain 1 Strength per Altar of Lilith",
+				"Name": "Claim all Altars of Lilith in Fractured Peaks"
+			},
+			"Achievement_Journey_Companion_LostCacheHawe": {
+				"Desc": "Gain 5 Max Life per Altar of Lilith",
+				"Name": "Claim all Altars of Lilith in Hawezaar"
+			},
+			"Achievement_Journey_Companion_LostCacheKhej": {
+				"Desc": "Gain 1 Willpower per Altar of Lilith",
+				"Name": "Claim all Altars of Lilith in Kehjistan"
+			},
+			"Achievement_Journey_Companion_LostCacheScos": {
+				"Desc": "Gain 1 Dexterity per Altar of Lilith",
+				"Name": "Claim all Altars of Lilith in Scosglen"
+			},
+			"Achievement_Journey_Companion_LostCacheSteppes": {
+				"Desc": "Gain 1 Intelligence per Altar of Lilith",
+				"Name": "Claim all Altars of Lilith in Dry Steppes"
+			},
+			"Achievement_Journey_Crafting_Extract15": {
+				"Desc": "Legendary powers can be extracted at the Occultist in major towns.",
+				"Name": "Extract 15 Legendary Powers"
+			},
+			"Achievement_Journey_Crafting_Extract5": {
+				"Desc": "Legendary powers can be extracted at the Occultist in major towns.",
+				"Name": "Extract 5 Legendary Powers"
+			},
+			"Achievement_Journey_Crafting_GambleLegendary1": {
+				"Desc": "The gambler can be found in major towns.",
+				"Name": "Obtain a legendary item from the gambler"
+			},
+			"Achievement_Journey_Crafting_Gem1_Tier4": {
+				"Desc": "Faceted gems can be crafted at Jewelers.",
+				"Name": "Craft a Faceted Gem"
+			},
+			"Achievement_Journey_Crafting_Gem1_Tier5": {
+				"Desc": "Marquise gems can be crafted at Jewelers once the recipe is obtained.",
+				"Name": "Craft a Marquise Gem"
+			},
+			"Achievement_Journey_Crafting_Ore20": {
+				"Desc": "These can be found by destroying ore veins marked on your map.",
+				"Name": "Collect 20 iron chunks"
+			},
+			"Achievement_Journey_Crafting_Potion10": {
+				"Desc": "Potions can be crafted at the alchemist.",
+				"Name": "Craft 10 potions"
+			},
+			"Achievement_Journey_Crafting_Rare1": {
+				"Desc": "Items can be crafted at the Blacksmith or the Jeweler.",
+				"Name": "Craft a Rare Item"
+			},
+			"Achievement_Journey_Crafting_Recipe5": {
+				"Desc": "Recipes can be found as drops and then taught to their respective crafter.",
+				"Name": "Teach 5 Recipes"
+			},
+			"Achievement_Journey_Crafting_Socket1": {
+				"Desc": "Sockets can be added at the jeweler using a Scattered Prism.",
+				"Name": "Add a socket to one of your items"
+			},
+			"Achievement_Journey_Crafting_Transmog1": {
+				"Desc": "Transmogrifying item slots can be done at the Wardrobe found in major cities.",
+				"Name": "Transmogrify an item slot"
+			},
+			"Achievement_Journey_DemonSummoning_Demon10_TEST": {
+				"Desc": "This is a dummy achievement to test out Seasonal Journey.",
+				"Name": "Complete 10 Demon Summonings"
+			},
+			"Achievement_Journey_DemonSummoning_Demon20_TEST": {
+				"Desc": "This is a dummy achievement to test out Seasonal Journey.",
+				"Name": "Complete 20 Demon Summonings"
+			},
+			"Achievement_Journey_Dungeon_Any10_WorldTier2": {
+				"Desc": "Dungeon entrances are marked on your map.",
+				"Name": "Complete 10 dungeons in Nightmare World Tier"
+			},
+			"Achievement_Journey_Dungeon_Any15": {
+				"Desc": "Dungeon entrances are marked on your map.",
+				"Name": "Complete 15 dungeons"
+			},
+			"Achievement_Journey_Dungeon_Any3": {
+				"Desc": "Dungeon entrances are marked on your map.",
+				"Name": "Complete 3 dungeons"
+			},
+			"Achievement_Journey_Dungeon_Any30": {
+				"Desc": "Dungeon entrances are marked on your map.",
+				"Name": "Complete 30 dungeons"
+			},
+			"Achievement_Journey_Dungeon_Any7": {
+				"Desc": "Dungeon entrances are marked on your map.",
+				"Name": "Complete 7 dungeons"
+			},
+			"Achievement_Journey_Dungeon_Event2": {
+				"Desc": "Dungeon Events spawn randomly inside dungeons.",
+				"Name": "Complete 2 Dungeon Events"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Nightmare Dungeon"
+			},
+			"Achievement_Journey_Dungeon_Nightmare10": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete 10 Nightmare Dungeons"
+			},
+			"Achievement_Journey_Dungeon_Nightmare10_Legendary": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete 10 Legendary Nightmare Dungeons"
+			},
+			"Achievement_Journey_Dungeon_Nightmare10_Rare": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete 10 Rare Nightmare Dungeons"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1_Tier10": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Nightmare Dungeon Tier 10 or higher"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1_Tier12_Rare": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Rare Nightmare Dungeon Tier 12 or higher"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1_Tier15_Rare": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Rare Nightmare Dungeon Tier 15 or higher"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1_Tier2": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Nightmare Dungeon Tier 2 or higher"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1_Tier21_Legendary": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Legendary Nightmare Dungeon Tier 21 or higher"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1_Tier30_Legendary": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Legendary Nightmare Dungeon Tier 30 or higher"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1_Tier5": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Nightmare Dungeon Tier 5 or higher"
+			},
+			"Achievement_Journey_Dungeon_Nightmare1_Tier7": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete a Nightmare Dungeon Tier 7 or higher"
+			},
+			"Achievement_Journey_Dungeon_Nightmare20": {
+				"Desc": "Nightmare Dungeons are created using Nightmare Sigils.",
+				"Name": "Complete 20 Nightmare Dungeons"
+			},
+			"Achievement_Journey_Eternal_Chapter01": {
+				"Desc": "Chapter 1",
+				"Name": "Chapter 1"
+			},
+			"Achievement_Journey_Eternal_Chapter02": {
+				"Desc": "Chapter 2",
+				"Name": "Chapter 2"
+			},
+			"Achievement_Journey_Eternal_Chapter03": {
+				"Desc": "Chapter 3",
+				"Name": "Chapter 3"
+			},
+			"Achievement_Journey_Eternal_Chapter04": {
+				"Desc": "Chapter 4",
+				"Name": "Chapter 4"
+			},
+			"Achievement_Journey_Eternal_Chapter05": {
+				"Desc": "Chapter 5",
+				"Name": "Chapter 5"
+			},
+			"Achievement_Journey_Eternal_Chapter06": {
+				"Desc": "Chapter 6",
+				"Name": "Chapter 6"
+			},
+			"Achievement_Journey_Eternal_Chapter07": {
+				"Desc": "Chapter 7",
+				"Name": "Chapter 7"
+			},
+			"Achievement_Journey_Eternal_Chapter08": {
+				"Desc": "Chapter 8",
+				"Name": "Chapter 8"
+			},
+			"Achievement_Journey_Eternal_Chapter09": {
+				"Desc": "Chapter 9",
+				"Name": "Chapter 9"
+			},
+			"Achievement_Journey_OpenWorld_BountyCache1": {
+				"Desc": "Bounty caches can obtained after completing enough bounties.",
+				"Name": "Obtain a bounty cache"
+			},
+			"Achievement_Journey_OpenWorld_BountyCache3_WorldTier2": {
+				"Desc": "Bounty caches can obtained after completing enough bounties.",
+				"Name": "Obtain a bounty cache in Nightmare World Tier"
+			},
+			"Achievement_Journey_OpenWorld_BountyCache5_WorldTier3": {
+				"Desc": "Bounty caches can obtained after completing enough bounties.",
+				"Name": "Obtain a bounty cache in Hell World Tier"
+			},
+			"Achievement_Journey_OpenWorld_BountyCacheEach1": {
+				"Crit_234006": "Victory",
+				"Crit_234007": "Avarice",
+				"Crit_234008": "Chaos",
+				"Crit_234009": "Ornaments",
+				"Desc": "Bounty caches can obtained after completing enough bounties.",
+				"Name": "Obtain one of each bounty cache"
+			},
+			"Achievement_Journey_OpenWorld_LocalEvent30": {
+				"Desc": "Local Events spawn randomly in the open world and inside dungeons.",
+				"Name": "Complete 30 Local Events"
+			},
+			"Achievement_Journey_OpenWorld_LocalEvent5_WorldTier2": {
+				"Desc": "Local Events spawn randomly in the open world and inside dungeons.",
+				"Name": "Complete 5 Local Events in Nightmare World Tier"
+			},
+			"Achievement_Journey_OpenWorld_LocalEvent7": {
+				"Desc": "Local Events spawn randomly in the open world and inside dungeons.",
+				"Name": "Complete 7 Local Events"
+			},
+			"Achievement_Journey_OpenWorld_LocalEvent8_WorldTier3": {
+				"Desc": "Local Events spawn randomly in the open world and inside dungeons.",
+				"Name": "Complete 8 Local Events in Hell World Tier"
+			},
+			"Achievement_Journey_OpenWorld_LocalEventMastery10": {
+				"Desc": "Local Events spawn randomly in the open world and inside dungeons.",
+				"Name": "Complete 10 Local Events with mastery"
+			},
+			"Achievement_Journey_OpenWorld_LostWaypoint1": {
+				"Desc": "Strongholds are scattered across the world.",
+				"Name": "Restore a Stronghold"
+			},
+			"Achievement_Journey_OpenWorld_LostWaypoint10": {
+				"Desc": "Strongholds are scattered across the world.",
+				"Name": "Restore 10 Strongholds"
+			},
+			"Achievement_Journey_OpenWorld_LostWaypoint5": {
+				"Desc": "Strongholds are scattered across the world.",
+				"Name": "Restore 5 Strongholds"
+			},
+			"Achievement_Journey_OpenWorld_MountObtain": {
+				"Desc": "Mounts can be found for sale at the stable master in major cities.",
+				"Name": "Obtain a mount"
+			},
+			"Achievement_Journey_OpenWorld_WorldBoss1_WorldTier2": {
+				"Desc": "World Bosses spawn as World Events in the open world.",
+				"Name": "Defeat a World Boss in Nightmare World Tier"
+			},
+			"Achievement_Journey_OpenWorld_WorldBoss1_WorldTier3": {
+				"Desc": "World Bosses spawn as World Events in the open world.",
+				"Name": "Defeat a World Boss in Hell World Tier"
+			},
+			"Achievement_Journey_OpenWorld_WorldBoss1_WorldTier4": {
+				"Desc": "World Bosses spawn as World Events in the open world.",
+				"Name": "Defeat a World Boss in Torment World Tier"
+			},
+			"Achievement_Journey_OpenWorld_WorldBoss3": {
+				"Crit_233732": "Ashava",
+				"Crit_233734": "Avarice",
+				"Crit_233735": "Wandering Death",
+				"Desc": "World Bosses spawn as World Events in the open world.",
+				"Name": "Defeat 3 unique World Bosses"
+			},
+			"Achievement_Journey_OpenWorld_WorldEvent1_WorldTier2": {
+				"Desc": "World Events randomly spawn in the open world.",
+				"Name": "Complete a World Event in Nightmare World Tier"
+			},
+			"Achievement_Journey_OpenWorld_WorldEvent2": {
+				"Desc": "World Events randomly spawn in the open world.",
+				"Name": "Complete 2 World Events"
+			},
+			"Achievement_Journey_OpenWorld_WorldEvent3_WorldTier2": {
+				"Desc": "World Events randomly spawn in the open world.",
+				"Name": "Complete 3 World Events in Nightmare World Tier"
+			},
+			"Achievement_Journey_OpenWorld_WorldEvent3_WorldTier3": {
+				"Desc": "World Events randomly spawn in the open world.",
+				"Name": "Complete 3 World Event in Hell World Tier"
+			},
+			"Achievement_Journey_OpenWorld_WorldEvent3_WorldTier4": {
+				"Desc": "World Events randomly spawn in the open world.",
+				"Name": "Complete 3 World Event in Torment World Tier"
+			},
+			"Achievement_Journey_Progression_Barb_TechniqueEquip": {
+				"Desc": "You can find your weapon expertise next to your Character and Skills panes. The Technique slot becomes available at Level 15.",
+				"Name": "(NYI)Equip a weapon expertise in your Technique slot"
+			},
+			"Achievement_Journey_Progression_Druid_MinorPassiveUnlock1": {
+				"Desc": "To unlock a passive, turn in druid reputation items at druid spirits located in Scosglen.",
+				"Name": "(NYI)Unlock a minor passive"
+			},
+			"Achievement_Journey_Progression_Elite30": {
+				"Desc": "Elites are stronger versions of monsters that give more experience points and loot.",
+				"Name": "Defeat 30 elites"
+			},
+			"Achievement_Journey_Progression_Level25": {
+				"Name": "Reach Level 25 (Required)"
+			},
+			"Achievement_Journey_Progression_Level40": {
+				"Name": "Reach Level 40 (Required)"
+			},
+			"Achievement_Journey_Progression_Level50": {
+				"Name": "Reach Level 50 (Required)"
+			},
+			"Achievement_Journey_Progression_Rogue_SpecializationLearn1": {
+				"Desc": "To learn the specialization, complete the Rogue quest in Kyovashad that unlocks at Level 15.",
+				"Name": "(NYI)Learn the Combo Points specialization"
+			},
+			"Achievement_Journey_Progression_Sorc_EnchantmentEquip1": {
+				"Desc": "Your Enchantment Slots can be found in the Skills pane.  Your first one unlocks at Level 15.",
+				"Name": "(NYI)Equip a skill as your Enchantment"
+			},
+			"Achievement_Journey_PvP_CurrencyCleanse100K": {
+				"Desc": "Seeds of Hatred can be found and purified in Fields of Hatred.",
+				"Name": "Purify 100,000 Seeds of Hatred"
+			},
+			"Achievement_Journey_PvP_CurrencyCleanse1M": {
+				"Desc": "Seeds of Hatred can be found and purified in Fields of Hatred.",
+				"Name": "Purify 1,000,000 Seeds of Hatred"
+			},
+			"Achievement_Journey_PvP_CurrencyCleanse500K": {
+				"Desc": "Seeds of Hatred can be found and purified in Fields of Hatred.",
+				"Name": "Purify 500,000 Seeds of Hatred"
+			},
+			"Achievement_Journey_PvP_LocalEvent20": {
+				"Desc": "Local Events can be found inside PvP zones.",
+				"Name": "Complete 20 Local PvP events"
+			},
+			"Achievement_Journey_PvP_LocalEvent50": {
+				"Desc": "Local Events can be found inside PvP zones.",
+				"Name": "Complete 50 Local PvP events"
+			},
+			"Achievement_Journey_PvP_Player10": {
+				"Desc": "Players can be killed inside PvP zones.",
+				"Name": "Kill 10 Players"
+			},
+			"Achievement_Journey_Quest_CampaignArc2": {
+				"Crit_234016": "Fractured Peaks",
+				"Crit_234017": "Scosglen",
+				"Name": "Complete 2 Campaign Quest arcs{icon:Quest_Main_Available, 3}"
+			},
+			"Achievement_Journey_Quest_CampaignArc4": {
+				"Crit_233685": "Kehjistan",
+				"Crit_233686": "Hawezar",
+				"Crit_234014": "Scosglen",
+				"Crit_234015": "Fractured Peaks",
+				"Name": "Complete 4 Campaign Quest arcs{icon:Quest_Main_Available, 3}"
+			},
+			"Achievement_Journey_Quest_FinalBoss": {
+				"Name": "Defeat the Final Campaign Boss{icon:Quest_Main_Available, 3}"
+			},
+			"Achievement_Journey_Quest_Prologue": {
+				"Name": "Complete the Prologue{icon:Quest_Main_Available, 3}"
+			},
+			"Achievement_Journey_Quest_SideQuest1": {
+				"Name": "Complete a side quest{icon:Quest_Side_Available, 3}"
+			},
+			"Achievement_Journey_Quest_SideQuest10": {
+				"Name": "Complete 10 side quests{icon:Quest_Side_Available, 3}"
+			},
+			"Achievement_Journey_Quest_SideQuest4": {
+				"Name": "Complete 4 side quests{icon:Quest_Side_Available, 3}"
+			},
+			"Achievement_Monsters_III_Bandits2000": {
+				"Desc": "Slay 2000 Bandits.",
+				"Name": "Bandit Massacre"
+			},
+			"Achievement_Monsters_III_Cannibal2000": {
+				"Desc": "Slay 2000 Cannibals.",
+				"Name": "Cannibal Massacre"
+			},
+			"Achievement_Monsters_III_Cultists2000": {
+				"Desc": "Slay 2000 Cultists.",
+				"Name": "Cultist Massacre"
+			},
+			"Achievement_Monsters_III_Demons2000": {
+				"Desc": "Slay 2000 Demons.",
+				"Name": "Demon Massacre"
+			},
+			"Achievement_Monsters_III_Drowned2000": {
+				"Desc": "Slay 2000 Drowned.",
+				"Name": "Drowned Massacre"
+			},
+			"Achievement_Monsters_III_Fallen2000": {
+				"Desc": "Slay 2000 Fallen.",
+				"Name": "Fallen Massacre"
+			},
+			"Achievement_Monsters_III_Ghosts2000": {
+				"Desc": "Slay 2000 Ghosts.",
+				"Name": "Ghost Massacre"
+			},
+			"Achievement_Monsters_III_Goatmen2000": {
+				"Desc": "Slay 2000 Goatmen.",
+				"Name": "Goatman Massacre"
+			},
+			"Achievement_Monsters_III_Knights2000": {
+				"Desc": "Slay 2000 Knights.",
+				"Name": "Knight Massacre"
+			},
+			"Achievement_Monsters_III_Skeletons2000": {
+				"Desc": "Slay 2000 Skeletons.",
+				"Name": "Skeleton Massacre"
+			},
+			"Achievement_Monsters_III_Snakes2000": {
+				"Desc": "Slay 2000 Snakes.",
+				"Name": "Snake Massacre"
+			},
+			"Achievement_Monsters_III_Spiders2000": {
+				"Desc": "Slay 2000 Spiders.",
+				"Name": "Spider Massacre"
+			},
+			"Achievement_Monsters_III_Vampires2000": {
+				"Desc": "Slay 2000 Vampires.",
+				"Name": "Vampire Massacre"
+			},
+			"Achievement_Monsters_III_Werewolves2000": {
+				"Desc": "Slay 2000 Werewolves.",
+				"Name": "Werewolf Massacre"
+			},
+			"Achievement_Monsters_III_Zombies2000": {
+				"Desc": "Slay 2000 Zombies.",
+				"Name": "Zombie Massacre"
+			},
+			"Achievement_Monsters_II_Bandits500": {
+				"Desc": "Slay 500 Bandits.",
+				"Name": "Bandit Destroyer"
+			},
+			"Achievement_Monsters_II_Cannibal500": {
+				"Desc": "Slay 500 Cannibals.",
+				"Name": "Cannibal Destroyer"
+			},
+			"Achievement_Monsters_II_Cultists500": {
+				"Desc": "Slay 500 Cultists.",
+				"Name": "Cultist Destroyer"
+			},
+			"Achievement_Monsters_II_Demons500": {
+				"Desc": "Slay 500 Demons.",
+				"Name": "Demon Destroyer"
+			},
+			"Achievement_Monsters_II_Drowned500": {
+				"Desc": "Slay 500 Drowned.",
+				"Name": "Drowned Destroyer"
+			},
+			"Achievement_Monsters_II_Fallen500": {
+				"Desc": "Slay 500 Fallen.",
+				"Name": "Fallen Destroyer"
+			},
+			"Achievement_Monsters_II_Ghosts500": {
+				"Desc": "Slay 500 Ghosts.",
+				"Name": "Ghost Destroyer"
+			},
+			"Achievement_Monsters_II_Goatmen500": {
+				"Desc": "Slay 500 Goatmen.",
+				"Name": "Goatman Destroyer"
+			},
+			"Achievement_Monsters_II_Knights500": {
+				"Desc": "Slay 500 Knights.",
+				"Name": "Knight Destroyer"
+			},
+			"Achievement_Monsters_II_Skeletons500": {
+				"Desc": "Slay 500 Skeletons.",
+				"Name": "Skeleton Destroyer"
+			},
+			"Achievement_Monsters_II_Snakes500": {
+				"Desc": "Slay 500 Snakes.",
+				"Name": "Snake Destroyer"
+			},
+			"Achievement_Monsters_II_Spiders500": {
+				"Desc": "Slay 500 Spiders.",
+				"Name": "Spider Destroyer"
+			},
+			"Achievement_Monsters_II_Vampires500": {
+				"Desc": "Slay 500 Vampires.",
+				"Name": "Vampire Destroyer"
+			},
+			"Achievement_Monsters_II_Werewolves500": {
+				"Desc": "Slay 500 Werewolves.",
+				"Name": "Werewolf Destroyer"
+			},
+			"Achievement_Monsters_II_Zombies500": {
+				"Desc": "Slay 500 Zombies.",
+				"Name": "Zombie Destroyer"
+			},
+			"Achievement_Monsters_I_Bandits200": {
+				"Desc": "Slay 200 Bandits.",
+				"Name": "Bandit Slayer"
+			},
+			"Achievement_Monsters_I_Cannibal200": {
+				"Desc": "Slay 200 Cannibals.",
+				"Name": "Cannibal Slayer"
+			},
+			"Achievement_Monsters_I_Cultists200": {
+				"Desc": "Slay 200 Cultists.",
+				"Name": "Cultist Slayer"
+			},
+			"Achievement_Monsters_I_Demons200": {
+				"Desc": "Slay 200 Demons.",
+				"Name": "Demon Slayer"
+			},
+			"Achievement_Monsters_I_Drowned200": {
+				"Desc": "Slay 200 Drowned.",
+				"Name": "Drowned Slayer"
+			},
+			"Achievement_Monsters_I_Fallen200": {
+				"Desc": "Slay 200 Fallen.",
+				"Name": "Fallen Slayer"
+			},
+			"Achievement_Monsters_I_Ghosts200": {
+				"Desc": "Slay 200 Ghosts.",
+				"Name": "Ghost Slayer"
+			},
+			"Achievement_Monsters_I_Goatmen200": {
+				"Desc": "Slay 200 Goatmen.",
+				"Name": "Goatman Slayer"
+			},
+			"Achievement_Monsters_I_Knights200": {
+				"Desc": "Slay 200 Knights.",
+				"Name": "Knight Slayer"
+			},
+			"Achievement_Monsters_I_Skeletons200": {
+				"Desc": "Slay 200 Skeletons.",
+				"Name": "Skeleton Slayer"
+			},
+			"Achievement_Monsters_I_Snakes200": {
+				"Desc": "Slay 200 Snakes.",
+				"Name": "Snake Slayer"
+			},
+			"Achievement_Monsters_I_Spiders200": {
+				"Desc": "Slay 200 Spiders.",
+				"Name": "Spider Slayer"
+			},
+			"Achievement_Monsters_I_Vampires200": {
+				"Desc": "Slay 200 Vampires.",
+				"Name": "Vampire Slayer"
+			},
+			"Achievement_Monsters_I_Werewolves200": {
+				"Desc": "Slay 200 Werewolves.",
+				"Name": "Werewolf Slayer"
+			},
+			"Achievement_Monsters_I_Zombies200": {
+				"Desc": "Slay 200 Zombies.",
+				"Name": "Zombie Slayer"
+			},
+			"Achievement_Multiplayer_III_PartyNMDungeonLegendary": {
+				"Desc": "Complete a Legendary tier Nightmare Dungeon while in a party.",
+				"Name": "Nightmare Ally"
+			},
+			"Achievement_Multiplayer_III_PvPKill100": {
+				"Desc": "Get 100 PvP kills.",
+				"Name": "Enemy of Sanctuary"
+			},
+			"Achievement_Multiplayer_III_PvPKillParty": {
+				"Desc": "Get a PvP kill while in a party.",
+				"Name": "(PH) Coop: PvP"
+			},
+			"Achievement_Multiplayer_III_WorldBossParty": {
+				"Crit_235156": "Abyss Lord",
+				"Crit_235161": "Treasure Beast",
+				"Crit_235162": "Wandering Death",
+				"Desc": "Defeat a World Boss while in a party.",
+				"Name": "World Boss Ally"
+			},
+			"Achievement_Multiplayer_III_ZoneEventParty": {
+				"Desc": "Complete a Zone Event while in a party.",
+				"Name": "Zone Event Ally"
+			},
+			"Achievement_Multiplayer_II_BountyParty": {
+				"Desc": "Complete a Whisper while in a party.",
+				"Name": "Whisper Ally"
+			},
+			"Achievement_Multiplayer_II_HelltideChestParty": {
+				"Desc": "Open a Tortured Gift while in a party.",
+				"Name": "Helltide Ally"
+			},
+			"Achievement_Multiplayer_II_KillLilithParty": {
+				"Desc": "Defeat Lilith while in a party.",
+				"Name": "(PH) Stand Together"
+			},
+			"Achievement_Multiplayer_II_LocalEventParty": {
+				"Desc": "Complete a Local Event while in a party.",
+				"Name": "Local Event Ally"
+			},
+			"Achievement_Multiplayer_II_PartyNMDungeonRare": {
+				"Desc": "Complete a Rare tier Nightmare Dungeon while in a party.",
+				"Name": "Team Effort"
+			},
+			"Achievement_Multiplayer_II_PvPKill25": {
+				"Desc": "Get 25 PvP kills.",
+				"Name": "Enemy of the County"
+			},
+			"Achievement_Multiplayer_I_PartyNMDungeonMagic": {
+				"Desc": "Complete a Magic tier Nightmare Dungeon while in a party.",
+				"Name": "Delving with Friends"
+			},
+			"Achievement_Multiplayer_I_PvPKill": {
+				"Desc": "Get 1 PvP kill.",
+				"Name": "Enemy of the People"
+			},
+			"Achievement_OpenWorld_III_AllCamps": {
+				"Crit_234429": "Dry Steppes Strongholds",
+				"Crit_234487": "Fractured Peaks Strongholds",
+				"Crit_234488": "Hawezar Strongholds",
+				"Crit_234489": "Kehjistan Strongholds",
+				"Crit_234490": "Scosglen Strongholds",
+				"Desc": "Complete all Strongholds.",
+				"Name": "Stronghold Champion"
+			},
+			"Achievement_OpenWorld_III_AllLostCaches": {
+				"Crit_1": "Fractured Peaks Altars of Lilith",
+				"Crit_234416": "Dry Steppes Altars of Lilith",
+				"Crit_234663": "Hawezar Altars of Lilith",
+				"Crit_234664": "Kehjistan Altars of Lilith",
+				"Crit_234665": "Scosglen Altars of Lilith",
+				"Desc": "Claim all Altars of Lilith.",
+				"Name": "Open World: All Altars of Lilith"
+			},
+			"Achievement_OpenWorld_III_AllWorldBossKill": {
+				"Crit_234424": "Ashava Slain",
+				"Crit_234426": "Avarice Slain",
+				"Crit_234427": "Wandering Death Slain",
+				"Desc": "Kill every World Boss.",
+				"Name": "World Boss Slayer"
+			},
+			"Achievement_OpenWorld_III_BountyMetaQuest100": {
+				"Desc": "Complete 100 Silent Offerings for the Tree of Whispers.",
+				"Name": "Tree of Whispers Devotee"
+			},
+			"Achievement_OpenWorld_III_BountyMetaQuest25": {
+				"Desc": "Complete 25 Silent Offerings for the Tree of Whispers.",
+				"Name": "Tree of Whispers Aspirant"
+			},
+			"Achievement_OpenWorld_III_LocalEvent300": {
+				"Desc": "Complete 300 Local Events with Mastery.",
+				"Name": "Local Event Master"
+			},
+			"Achievement_OpenWorld_II_AllBountyTypes": {
+				"Crit_234396": "Assassination",
+				"Crit_235032": "Dungeon",
+				"Crit_235033": "Harvest Anima",
+				"Crit_235034": "Local Events",
+				"Crit_235035": "PvP",
+				"Crit_235036": "World Events",
+				"Crit_235506": "Culling",
+				"Desc": "Complete a Whisper of each type.",
+				"Name": "Whisper Expert"
+			},
+			"Achievement_OpenWorld_II_AnyWorldBossKill": {
+				"Desc": "Kill a World Boss.",
+				"Name": "World Boss Challenger"
+			},
+			"Achievement_OpenWorld_II_BountyMetaQuest": {
+				"Desc": "Complete a Silent Offering for the Tree of Whispers.",
+				"Name": "Tree of Whispers Supplicant"
+			},
+			"Achievement_OpenWorld_II_CompleteCampEachZone": {
+				"Crit_234410": "Dry Steppes Stronghold",
+				"Crit_234411": "Fractured Peaks Stronghold",
+				"Crit_234412": "Hawezar Stronghold",
+				"Crit_234413": "Kehjistan Stronghold",
+				"Crit_234414": "Scosglen Stronghold",
+				"Desc": "Complete a Stronghold in each region.",
+				"Name": "Stronghold Hero"
+			},
+			"Achievement_OpenWorld_II_EveryBountyCache": {
+				"Crit_235037": "1 Handed Weapons",
+				"Crit_235047": "2 Handed Weapons",
+				"Crit_235048": "Amulets",
+				"Crit_235049": "Chaos",
+				"Crit_235050": "Chest Armors",
+				"Crit_235051": "Gloves",
+				"Crit_235052": "Helms",
+				"Crit_235053": "Leg Armors",
+				"Crit_235054": "Rings",
+				"Crit_235055": "Boots",
+				"Desc": "Receive each type of cache from the Tree of Whispers.",
+				"Name": "Just Reward"
+			},
+			"Achievement_OpenWorld_II_LocalEvent100": {
+				"Desc": "Complete 100 Local Events with Mastery.",
+				"Name": "Local Event Expert"
+			},
+			"Achievement_OpenWorld_II_LostCacheEachZone": {
+				"Crit_234391": "Dry Steppes Altar of Lilith",
+				"Crit_234392": "Fractured Peaks Altar of Lilith",
+				"Crit_234393": "Hawezar Altar of Lilith",
+				"Crit_234394": "Kehjistan Altar of Lilith",
+				"Crit_234395": "Scosglen Altar of Lilith",
+				"Desc": "Claim an Altar of Lilith in each region.",
+				"Name": "Altar of Lilith Seeker"
+			},
+			"Achievement_OpenWorld_II_ZoneEventEachZone": {
+				"Crit_235077": "Fractured Peaks",
+				"Crit_235082": "Scosglen",
+				"Crit_235083": "Dry Steppes",
+				"Crit_235084": "Kehjistan",
+				"Crit_235086": "Hawezar",
+				"Desc": "Complete a Zone Event in each zone.",
+				"Name": "Zone Event Expert"
+			},
+			"Achievement_OpenWorld_I_CompleteBounty": {
+				"Desc": "Complete a Whisper.",
+				"Name": "Whisper Novice"
+			},
+			"Achievement_OpenWorld_I_CompleteCamp": {
+				"Desc": "Complete 1 Stronghold.",
+				"Name": "Stronghold Liberator"
+			},
+			"Achievement_OpenWorld_I_EquipAllMountItems": {
+				"Crit_234376": "Trophy",
+				"Crit_235026": "Mount Armor",
+				"Desc": "Acquire Mount Armor and a Trophy to unlock new customizations for your mount.",
+				"Name": "Full Tack"
+			},
+			"Achievement_OpenWorld_I_LocalEvent": {
+				"Desc": "Complete a Local Event with Mastery.",
+				"Name": "Local Event Novice"
+			},
+			"Achievement_OpenWorld_I_LostCache": {
+				"Desc": "Claim an Altar of Lilith",
+				"Name": "Open World: Altar of Lilith"
+			},
+			"Achievement_OpenWorld_I_ObtainMount": {
+				"Desc": "Obtain a mount.",
+				"Name": "Mount Up"
+			},
+			"Achievement_OpenWorld_I_VisitEachZone": {
+				"Crit_234368": "Dry Steppes Visited",
+				"Crit_234369": "Fractured Peaks Visited",
+				"Crit_234370": "Hawezar Visited",
+				"Crit_234371": "Kehjistan Visited",
+				"Crit_234372": "Scosglen Visited",
+				"Desc": "Visit each region of Sanctuary.",
+				"Name": "World Traveler"
+			},
+			"Achievement_OpenWorld_I_ZoneEvent": {
+				"Desc": "Complete a Zone Event.",
+				"Name": "Zone Event Novice"
+			},
+			"Achievement_OpenWorld_LostCacheTracking_DrySteppes": {
+				"Desc": "This achievement tracks when all Altars of Lilith have been claimed in Dry Steppes.",
+				"Name": "All Altars of Lilith Dry Steppes"
+			},
+			"Achievement_OpenWorld_LostCacheTracking_FracturedPeaks": {
+				"Desc": "This achievement tracks when all Altars of Lilith have been claimed in Fractured Peaks.",
+				"Name": "All Altars of Lilith Fractured Peaks"
+			},
+			"Achievement_OpenWorld_LostCacheTracking_Hawezar": {
+				"Desc": "This achievement tracks when all Altars of Lilith have been claimed in Hawezar.",
+				"Name": "All Altars of Lilith Hawezar"
+			},
+			"Achievement_OpenWorld_LostCacheTracking_Kehjistan": {
+				"Desc": "This achievement tracks when all Altars of Lilith have been claimed in Kehjistan.",
+				"Name": "All Altars of Lilith Kehjistan"
+			},
+			"Achievement_OpenWorld_LostCacheTracking_Scosglen": {
+				"Desc": "This achievement tracks when all Altars of Lilith have been claimed in Scosglen.",
+				"Name": "All Altars of Lilith Scosglen"
+			},
+			"Achievement_Quest_II_Frac_BearTribeQuests": {
+				"Crit_235626": "Shattered Tribute",
+				"Crit_235627": "Hammer of the Grizzly",
+				"Crit_235628": "The Beast's Challenge",
+				"Crit_236047": "Call of the Ancients",
+				"Desc": "Complete quests for the Bear Tribe in Fractured Peaks.",
+				"Name": "Ally of the Bear Tribe"
+			},
+			"Achievement_Quest_II_Hawe_ToWalkADarkPath": {
+				"Crit_236104": "To Walk a Dark Path",
+				"Crit_236105": "At Any Cost",
+				"Crit_236106": "Turbulent Waters",
+				"Crit_236107": "ByThree They Come",
+				"Desc": "Complete the To Walk a Dark Path questline in Hawezar.",
+				"Name": "To Walk a Dark Path"
+			},
+			"Achievement_Quest_II_Kehj_WolvesintheDesert": {
+				"Crit_236083": "A Wolf's Armor",
+				"Crit_236084": "Seeking Refuge",
+				"Crit_236085": "On the Hunt",
+				"Crit_236086": "Providing Refuge",
+				"Crit_236087": "More Value Than Gold",
+				"Crit_236088": "Head of the Snake",
+				"Crit_236089": "Donning the Mantle",
+				"Desc": "Complete the Wolves in the Desert questline in Kehjistan.",
+				"Name": "Wolves in the Desert"
+			},
+			"Achievement_Quest_II_Scos_ASoddenPact": {
+				"Crit_236055": "Whispers from Below",
+				"Crit_236056": "A Sodden Pact",
+				"Crit_236057": "Untangling Truths",
+				"Crit_236058": "Threads of Envy",
+				"Desc": "Complete the A Sodden Pact questline in Scosglen",
+				"Name": "A Sodden Pact"
+			},
+			"Achievement_Quest_II_Step_AFiendSoFamiliar": {
+				"Crit_236070": "Hunting the Relic Hunter",
+				"Crit_236071": "More Than Meets the Eyes",
+				"Crit_236072": "Curious Curios",
+				"Desc": "Complete the A Fiend So Familiar questline in Dry Steppes.",
+				"Name": "A Fiend So Familiar"
+			},
+			"Achievement_Quest_I_Frac_BoundByBlood": {
+				"Desc": "Complete the quest Bound by Blood in Fractured Peaks.",
+				"Name": "Bound by Blood"
+			},
+			"Achievement_Quest_I_Frac_FaithinBlood": {
+				"Crit_236051": "Faith in Blood",
+				"Crit_236052": "Malady of the Soul",
+				"Crit_236053": "Depths of Despair",
+				"Desc": "Complete the Faith in Blood quests in Fractured Peaks.",
+				"Name": "Faith in Blood"
+			},
+			"Achievement_Quest_I_Frac_WoodsmanofNevesk": {
+				"Crit_236048": "The Woodsman of Nevesk",
+				"Crit_236049": "Inheritance",
+				"Crit_236050": "Legacy of Ruin",
+				"Desc": "Complete the Woodsman of Nevesk quests in Fractured Peaks.",
+				"Name": "The Woodsman of Nevesk"
+			},
+			"Achievement_Quest_I_Hawe_DiscretionarySpending": {
+				"Crit_236112": "Discretionary Spending",
+				"Crit_236113": "Bait the Trap",
+				"Crit_236114": "Red Handed",
+				"Desc": "Complete the Discretionary Spending questline in Hawezar.",
+				"Name": "Discretionary Spending"
+			},
+			"Achievement_Quest_I_Hawe_LostLegacy": {
+				"Desc": "Complete the Lost Legacy quest in Hawezar.",
+				"Name": "Lost Legacy"
+			},
+			"Achievement_Quest_I_Hawe_TheHeretic": {
+				"Crit_236108": "The Heretic",
+				"Crit_236109": "A Price to Pay",
+				"Crit_236110": "Poisoned Hearts",
+				"Desc": "Complete The Heretic questline in Hawezar.",
+				"Name": "The Heretic"
+			},
+			"Achievement_Quest_I_Kehj_FateofCaldeum": {
+				"Crit_236090": "An Errant Flock",
+				"Crit_236091": "Acts of Atonement",
+				"Crit_236092": "Justice Delayed",
+				"Crit_236093": "An Unlawful Order",
+				"Crit_236094": "Remnants",
+				"Desc": "Complete the Fate of Caldeum quests in Kehjistan.",
+				"Name": "Fate of Caldeum"
+			},
+			"Achievement_Quest_I_Kehj_SecretBeneathCaldeum": {
+				"Desc": "Complete the Triune Ritual quest.",
+				"Name": "Secret Beneath Caldeum"
+			},
+			"Achievement_Quest_I_Kehj_SeersofKehjistan": {
+				"Crit_236095": "Mirage",
+				"Crit_236096": "Lady of the Oasis",
+				"Crit_236097": "Lady of the Oasis, pt. 2",
+				"Desc": "Complete the Seers of Kehjistan quests.",
+				"Name": "Seers of Kehjistan"
+			},
+			"Achievement_Quest_I_Kehjistan_UnsafeTravels": {
+				"Crit_236098": "When the Tide Comes In",
+				"Crit_236099": "Desiccation",
+				"Crit_236100": "Unsafe Travels",
+				"Crit_236101": "Road to Ruin",
+				"Crit_236102": "The Only Cure",
+				"Desc": "Complete quests about perils to travelers in Kehjistan.",
+				"Name": "Unsafe Travels"
+			},
+			"Achievement_Quest_I_Scos_ClawsatheThroat": {
+				"Crit_236066": "Claws at the Throat",
+				"Crit_236067": "A Pyre of Ash",
+				"Crit_236068": "Chasing Embers",
+				"Crit_236069": "The Bear of Blackweald",
+				"Desc": "Complete the Claws at the Throat questline in Scosglen.",
+				"Name": "Claws at the Throat"
+			},
+			"Achievement_Quest_I_Scos_TheCrone": {
+				"Crit_236059": "A Deepening Shadow",
+				"Crit_236060": "The Old Ways",
+				"Crit_236061": "A Sliver of Light",
+				"Desc": "Complete The Crone questline in Scosglen.",
+				"Name": "The Crone"
+			},
+			"Achievement_Quest_I_Scos_UnholyBloodlines": {
+				"Crit_236063": "First Among Wolves",
+				"Crit_236064": "The Snare",
+				"Crit_236065": "With Fangs Bared",
+				"Desc": "Complete the Unholy Bloodlines quests in Scosglen.",
+				"Name": "Unholy Bloodlines"
+			},
+			"Achievement_Quest_I_Step_FuryAgainstFate": {
+				"Crit_236073": "Consumed by Pride",
+				"Crit_236074": "Raising Spears",
+				"Crit_236075": "Fury Against Fate",
+				"Desc": "Complete the Fury Against Fate questline in Dry Steppes.",
+				"Name": "Fury Against Fate"
+			},
+			"Achievement_Quest_I_Step_HubrisSmilesBack": {
+				"Crit_236076": "Augury of Bones",
+				"Crit_236077": "Hubris Smiles Back",
+				"Desc": "Complete the Hubris Smiles Back questline in Dry Steppes.",
+				"Name": "Hubris Smiles Back"
+			},
+			"Achievement_Quest_I_Step_Loremaster": {
+				"Crit_236078": "Forging the Maul",
+				"Crit_236079": "The Scholar's Dilemma",
+				"Crit_236080": "Sentimental Value",
+				"Crit_236081": "A Pound of Flesh",
+				"Crit_236082": "Scorched Debts",
+				"Desc": "Complete these quests in Dry Steppes.",
+				"Name": "Dry Steppes Loremaster"
+			}
+		},
 		"Attribute": {
 			"Amplify_Damage_From_Pets_Per_Player_Percent": "+[{VALUE}*100|%|] Minion Damage",
 			"Arcanum_Restriction": "(Wizard Only)",
@@ -13114,7 +14708,6 @@
 			"Fire Resistance": "Fire Resistance: {#}\n• Reduces incoming Fire damage by {#}.\n• Makes up 50% of your initial damage reduction from Fire, with the remainder contributed by Armor.\n• As this stat increases, additional bonuses become less effective.",
 			"Fortify Bonus": "Fortify Bonus: {#}\n• Increases the Fortified Life generated from your Fortify effects.",
 			"Frozen Damage Bonus": "Frozen Damage Bonus: {#}\n• Increases damage to Frozen enemies.\n• You have +{#} of stat from items and Paragon.",
-			"Gold": "",
 			"Healing Bonus": "Healing Bonus: {#}\n• Increases healing received from all sources.",
 			"Healthy Damage Bonus": "Damage Bonus While Healthy: {#}\n• Increases your damage while above 80% Life.\n• You have +{#} of this stat from items and Paragon.",
 			"Healthy Enemy Damage Bonus": "Damage Bonus Against Healthy Enemies: {#}\n• Increases damage to enemies who are above 80% Life.\n• You have +{#} of this stat from items and Paragon.",
@@ -13147,7 +14740,6 @@
 			"Minion Damage Bonus": "Minion Damage Bonus: {#}\n• Increases damage dealt by your summoned Minions.\n• You have +{#} of this stat from items and Paragon.",
 			"Minion Life Bonus": "Minion Life Bonus: {#}\n• Increases the Life of your summoned Minions.",
 			"Movement Speed": "Movement Speed: {#}\n• You run at {#} of base Movement Speed.\n• You may have a maximum of 125.0% Movement Speed as a basic stat. \n• Temporary buffs may exceed this limit.",
-			"Obols": "",
 			"Overpower Chance": "Overpower Chance: {#}\n• Overpower deals bonus damage based on the sum of your current health and fortified health.\n• Damage over time, passive abilities, and channeled abilities cannot Overpower.\n• Cannot increase as a basic stat, but can be manipulated by certain skills.",
 			"Overpower Damage": "Overpower Damage Bonus: {#}\n• Extra damage granted to your Overpowers.\n• Capped at {#} against other players.",
 			"Passive Life Regeneration": "Passive Life Regeneration: {#}\n• You will recover {#} Life per second outside of combat.",
@@ -13156,7 +14748,6 @@
 			"Poison Resistance": "Poison Resistance: {#}\n• Reduces incoming Poison damage by {#}.\n• Makes up 50% of your initial damage reduction from Poison, with the remainder contributed by Armor.\n• As this stat increases, additional bonuses become less effective.",
 			"Potion Healing Bonus": "Potion Healing Bonus: {#}\n• Increases healing received from potions.",
 			"Ranged Weapon Damage": "Ranged Damage: ({#} - {#})\n• The base damage of your Two-Handed Ranged Weapon.\n• Skills wielding this weapon scale their base damage using this value.\n• Equal to the weapon's base attack value.",
-			"Red Dust": "",
 			"Shadow Damage Bonus": "Shadow Damage Bonus: {#}\n• Increases your Shadow damage dealt.\n• You have +{#} of this stat from items and Paragon.",
 			"Shadow Resistance": "Shadow Resistance: {#}\n• Reduces incoming Shadow damage by {#}.\n• Makes up 50% of your initial damage reduction from Shadow, with the remainder contributed by Armor.\n• As this stat increases, additional bonuses become less effective.",
 			"Shrine Duration Bonus": "Shrine Duration Bonus: {#}\n• Increases the duration of Shrine buffs.",
@@ -16926,8 +18517,6 @@
 					"Keyword_Vulnerable"
 				]
 			},
-			"MountArmor": {},
-			"Mount_MovementSpeed_Common": {},
 			"Movement_Speed": {
 				"affix_family": 3415069083,
 				"name_prefix": "Speedy",
@@ -17581,7 +19170,6 @@
 			"Generic_Magic_BarrierPotency": {
 				"attributes": {
 					"1006-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								1.0,
@@ -17772,7 +19360,6 @@
 			"Generic_Magic_DRStandStill": {
 				"attributes": {
 					"931-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1.3333 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								1.3333,
@@ -17876,7 +19463,6 @@
 						"stat_dword": 4294967295
 					},
 					"770-1": {
-						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -18325,7 +19911,6 @@
 			"Generic_Magic_DamageReductionWithBarrier": {
 				"attributes": {
 					"929-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								1.0,
@@ -18387,7 +19972,6 @@
 			"Generic_Magic_DamageStandStill": {
 				"attributes": {
 					"932-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1.3333 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.3333,
@@ -18736,7 +20320,6 @@
 			"Generic_Magic_EssenceRegen": {
 				"attributes": {
 					"134-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"2.5 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								2.5,
@@ -18882,7 +20465,6 @@
 			"Generic_Magic_ManaRegen": {
 				"attributes": {
 					"134-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.0,
@@ -19022,7 +20604,6 @@
 						"stat_dword": 4294967295
 					},
 					"759-1": {
-						"attribute_name": null,
 						"formula_data": {
 							"6": [
 								6.0
@@ -19442,7 +21023,6 @@
 			"Generic_Rare_004": {
 				"attributes": {
 					"1006-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
 								1.0,
@@ -19952,7 +21532,6 @@
 						"stat_dword": 4294967295
 					},
 					"770-1": {
-						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -20152,7 +21731,6 @@
 						"stat_dword": 4294967295
 					},
 					"759-2": {
-						"attribute_name": null,
 						"formula_data": {
 							"6": [
 								6.0
@@ -21046,7 +22624,6 @@
 						"stat_dword": 4294967295
 					},
 					"931-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1.3333 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
 								1.3333,
@@ -21099,7 +22676,6 @@
 						"stat_dword": 4294967295
 					},
 					"932-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1.3333 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.3333,
@@ -21315,7 +22891,6 @@
 						"stat_dword": 4294967295
 					},
 					"929-0": {
-						"attribute_name": null,
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
 								1.0,
@@ -21623,7 +23198,6 @@
 						"stat_dword": 4294967295
 					},
 					"770-1": {
-						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -25185,7 +26759,6 @@
 						"stat_dword": 4294967295
 					},
 					"257-1": {
-						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
@@ -25860,7 +27433,6 @@
 						"stat_dword": 4294967295
 					},
 					"257-1": {
-						"attribute_name": null,
 						"formula_data": {
 							"5": [
 								5.0
