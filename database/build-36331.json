@@ -13593,29 +13593,29 @@
 			"Achievement_Journey_Quest_CampaignArc2": {
 				"Crit_234016": "Fractured Peaks",
 				"Crit_234017": "Scosglen",
-				"Name": "Complete 2 Campaign Quest arcs{icon:Quest_Main_Available, 3}"
+				"Name": "Complete 2 Campaign Quest arcs"
 			},
 			"Achievement_Journey_Quest_CampaignArc4": {
 				"Crit_233685": "Kehjistan",
 				"Crit_233686": "Hawezar",
 				"Crit_234014": "Scosglen",
 				"Crit_234015": "Fractured Peaks",
-				"Name": "Complete 4 Campaign Quest arcs{icon:Quest_Main_Available, 3}"
+				"Name": "Complete 4 Campaign Quest arcs"
 			},
 			"Achievement_Journey_Quest_FinalBoss": {
-				"Name": "Defeat the Final Campaign Boss{icon:Quest_Main_Available, 3}"
+				"Name": "Defeat the Final Campaign Boss"
 			},
 			"Achievement_Journey_Quest_Prologue": {
-				"Name": "Complete the Prologue{icon:Quest_Main_Available, 3}"
+				"Name": "Complete the Prologue"
 			},
 			"Achievement_Journey_Quest_SideQuest1": {
-				"Name": "Complete a side quest{icon:Quest_Side_Available, 3}"
+				"Name": "Complete a side quest"
 			},
 			"Achievement_Journey_Quest_SideQuest10": {
-				"Name": "Complete 10 side quests{icon:Quest_Side_Available, 3}"
+				"Name": "Complete 10 side quests"
 			},
 			"Achievement_Journey_Quest_SideQuest4": {
-				"Name": "Complete 4 side quests{icon:Quest_Side_Available, 3}"
+				"Name": "Complete 4 side quests"
 			},
 			"Achievement_Monsters_III_Bandits2000": {
 				"Desc": "Slay 2000 Bandits.",
@@ -19032,16 +19032,16 @@
 		},
 		"Loadscreen Tips": {
 			"TIP001": "Remember to spend your skill points when you level up to unlock new skills or improve old ones!",
-			"TIP003": "Be sure to fill up your healing vials at the Healer {icon:Marker_HealWell, 2.0} before leaving town.",
-			"TIP004": "Salvaging your items will produce materials used for crafting, and can also unlock new looks in your wardrobe {icon:Marker_Wardrobe, 2.0}",
-			"TIP005": "Items lose durability and become less effective when you revive from death. You can repair your equipment at a Blacksmith {icon:Marker_Blacksmith, 2.0}",
+			"TIP003": "Be sure to fill up your healing vials at the Healer before leaving town.",
+			"TIP004": "Salvaging your items will produce materials used for crafting, and can also unlock new looks in your wardrobe",
+			"TIP005": "Items lose durability and become less effective when you revive from death. You can repair your equipment at a Blacksmith",
 			"TIP006": "You can revive other players by clicking on their spirits. They can rejoin the fight immediately!",
-			"TIP007": "Activate any waypoints {icon:Marker_Waypoint, 2.0} that you encounter on your travels to unlock a new fast travel location.",
-			"TIP008": "When you grow powerful enough an Occultist {icon:Marker_Essence, 2.0} can extract and replace the powers on your legendary items.",
+			"TIP007": "Activate any waypoints that you encounter on your travels to unlock a new fast travel location.",
+			"TIP008": "When you grow powerful enough an Occultist can extract and replace the powers on your legendary items.",
 			"TIP009": "Realm Rewards are shared with every character of yours on that realm. Open your map and check out the Renown panel to see what you can earn while exploring Sanctuary!",
 			"TIP010": "The state of Sanctuary is based on the party leader's progress.",
 			"TIP011": "Combat damage text is colored to mean different things: Critical Strike, Overpower, and Critical Hit combined with Overpower.",
-			"TIP012": "You can increase the potency of your Healing Potion by visiting the Alchemist {icon:Marker_Crafter_Alchemist, 2.0}",
+			"TIP012": "You can increase the potency of your Healing Potion by visiting the Alchemist",
 			"TIP013": "After finishing the campaign, new challenges and rewards await in the Nightmare, Hell and Torment world tiers!",
 			"TIP014": "Elite enemies include Champions, Elites, Bosses, and hostile Players.",
 			"TIP015": "Higher World Tiers grant you much higher experience bonus from killing monsters."
