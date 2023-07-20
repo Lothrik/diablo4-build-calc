@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.1.0.43333-4";
+const localVersion = "1.1.0.43333-5";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -4577,7 +4577,7 @@ function drawAllNodes() {
 		"1H Weapon": ["Offensive"].concat(allOneHandWeaponTypes),
 		"Ranged Weapon": ["Offensive", "2H Bow", "2H Crossbow"],
 		"Mainhand": ["Offensive"].concat(allOneHandWeaponTypes, allTwoHandWeaponTypes),
-		"Offhand": [className == "necromancer" ? "Defensive" : null, "Offensive", "Utility"].concat(allOneHandWeaponTypes)
+		"Offhand": [className == "necromancer" ? ["Defensive", "1H Shield"] : null, "Offensive", "Utility"].concat(allOneHandWeaponTypes)
 	};
 
 	for (let [equipSlotId, equipSlotName] of Object.entries(equipmentSlots)) {
@@ -4678,7 +4678,7 @@ function drawAllNodes() {
 	const validSlotTypes = {
 		"barbarian": validSlotTypesGeneric.concat(["2H Polearm", "2H Axe", "2H Sword", "2H Mace", "1H Axe", "1H Mace", "1H Sword"]),
 		"druid": validSlotTypesGeneric.concat(["2H Staff", "2H Axe", "2H Mace", "1H Axe", "1H Mace", "Totem"]),
-		"necromancer": validSlotTypesGeneric.concat(["2H Scythe", "1H Scythe", "2H Sword", "1H Sword", "1H Dagger", "1H Wand", "Shield", "Focus"]),
+		"necromancer": validSlotTypesGeneric.concat(["2H Scythe", "1H Scythe", "2H Sword", "1H Sword", "1H Dagger", "1H Wand", "1H Shield", "Focus"]),
 		"rogue": validSlotTypesGeneric.concat(["2H Bow", "2H Crossbow", "1H Dagger", "1H Sword"]),
 		"sorcerer": validSlotTypesGeneric.concat(["2H Staff", "1H Wand", "Focus"]),
 	};

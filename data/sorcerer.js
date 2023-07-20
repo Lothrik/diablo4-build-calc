@@ -5023,7 +5023,7 @@ Tags: Healing, Burn.`,
 			"plPL": "Co 1 sek. odzyskujesz {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% maksymalnego zdrowia za każdego podpalonego wroga w pobliżu. Skuteczność leczenia jest zwiększona do {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}% w przypadku bossów.\n\nTags: Leczenie, Podpalenie.",
 			"ptBR": "A cada 1 segundo, você recebe {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% de cura da sua vida máxima por cada inimigo próximo que estiver queimando. Cura aumentada para {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}% por chefes.\n\nTags: Cura, Queimadura.",
 			"ruRU": "Раз в 1 сек. вы восполняете {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% максимального запаса здоровья за каждого подожженного противника рядом с вами. Исцеление усиливается на {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%, если цель является боссом.\n\nTags: Исцеление, Горение.",
-			"trTR": "Her 1 saniye Yakında Yanan düşman başına Maksimum Canının {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% kadarına eşit ([PlayerHealthMax() * 0.003/0.006/0.009/0.012/0.015/0.018/0.021/0.024/0.027/0.03]) İyileş. Patronlardan kazandığın İyileşme artarak {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}% olur.\n\nTags: İyileşme, Yakma.",
+			"trTR": "Her 1 saniye Yakında Yanan düşman başına Maksimum Canının {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% kadarına eşit İyileş. Patronlardan kazandığın İyileşme artarak {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}% olur.\n\nTags: İyileşme, Yakma.",
 			"zhCN": "每隔 1 秒, 附近每有一名燃烧的敌人可以为你恢复 {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}% 生命上限。敌人为首领时, 治疗效果提高至 {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%。\n\nTags: 治疗, 燃烧.",
 			"zhTW": "每 1 秒,你附近每個燃燒的敵人會使你恢復生命值上限的 {0.3/0.6/0.9/1.2/1.5/1.8/2.1/2.4/2.7/3}%。從首領獲得的恢復效果提高至 {0.6/1.2/1.8/2.4/3/3.6/4.2/4.8/5.4/6}%。\n\nTags: 治療, 燃燒."
 },

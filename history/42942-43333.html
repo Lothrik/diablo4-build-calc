@@ -112,23 +112,26 @@
 <span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_defensive_barbarian_001&#x27;: {</span><br>
 <span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([40,60])&#x27;,</span><br>
 <span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(10, 50+(Malignant_Cage_Level*2), 60+(Malignant_Cage_Level*2))&#x27;,</span><br>
 <span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;While below FloatRandomRangeWithInterval(10, 50+(Malignant_Cage_Level*2), 60+(Malignant_Cage_Level*2))]% Life, you receive +[FloatRandomRangeWithInterval(10, 50+(Malignant_Cage_Level*2), 60+(Malignant_Cage_Level*2))% more Healing from all sources.&#x27;,</span><br>
+<span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;While below {40/60}% Life, you receive +[FloatRandomRangeWithInterval(10, 50+(Malignant_Cage_Level*2), 60+(Malignant_Cage_Level*2))]% more Healing from all sources.&#x27;,</span><br>
 <span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Resurgent Life&#x27;,</span><br>
 <span id="change_9" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_offensive_barbarian_001&#x27;: {</span><br>
 <span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;RandomInt(20 + (Malignant_Cage_Level * 2), 30 + (Malignant_Cage_Level * 2))&#x27;,</span><br>
+<span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([ 60,100])&#x27;,</span><br>
 <span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &quot;After spending RandomInt(20 + (Malignant_Cage_Level * 2), 30 + (Malignant_Cage_Level * 2))] Fury within 2.0 seconds, your next Non-Basic Skill&#x27;s Critical Strike Chance is increased by x[RandomInt(20 + (Malignant_Cage_Level * 2), 30 + (Malignant_Cage_Level * 2))%.&quot;,</span><br>
+<span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &quot;After spending {60/100} Fury within 2.0 seconds, your next Non-Basic Skill&#x27;s Critical Strike Chance is increased by x[RandomInt(20 + (Malignant_Cage_Level * 2), 30 + (Malignant_Cage_Level * 2))]%.&quot;,</span><br>
 <span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Focused Rage&#x27;,</span><br>
 <span id="change_10" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_11" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_rare_barbarian_001&#x27;: {</span><br>
 <span id="change_11" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_11" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_11" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([ 5,15])&#x27;,</span><br>
+<span id="change_11" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, (5+Malignant_Cage_Level)/100, (20+Malignant_Cage_Level)/100)&#x27;,</span><br>
 <span id="change_11" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_11" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Incoming damage has a {5/15}% chance of being ignored and instead Healing you for [(FloatRandomRangeWithInterval(20, (5+Malignant_Cage_Level)/100, (20+Malignant_Cage_Level)/100) * 500)].&#x27;,</span><br>
 <span id="change_11" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 600,</span><br>
@@ -2878,6 +2881,10 @@
 <span id="change_415" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_defensive_generic_001&#x27;: {</span><br>
 <span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
+<span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([10,20])&#x27;,</span><br>
+<span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, 4+Malignant_Cage_Level, 6+Malignant_Cage_Level)&#x27;,</span><br>
+<span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;{10/20}% of incoming damage is instead suppressed. When you use a Defensive, Subterfuge or a Macabre skill, all suppressed damage is amplified by x250.0% and explodes, dealing up to {5000/10000} Fire damage to Nearby enemies.&#x27;,</span><br>
 <span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 500,</span><br>
 <span id="change_416" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Revenge&#x27;,</span><br>
@@ -2885,23 +2892,29 @@
 <span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_defensive_generic_002&#x27;: {</span><br>
 <span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([2.,4.])&#x27;,</span><br>
 <span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;110-(Malignant_Cage_Level*10)&#x27;,</span><br>
 <span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;You become Immune for 110-(Malignant_Cage_Level*10)] seconds after you lose more than 20.0% Life in a single hit. This effect can only occur once every [110-(Malignant_Cage_Level*10) seconds.&#x27;,</span><br>
+<span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;You become Immune for {2/4} seconds after you lose more than 20.0% Life in a single hit. This effect can only occur once every [110-(Malignant_Cage_Level*10)] seconds.&#x27;,</span><br>
 <span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 500,</span><br>
 <span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of the Prudent Heart&#x27;,</span><br>
 <span id="change_417" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_defensive_generic_003&#x27;: {</span><br>
 <span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
-<span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;You gain +10+Malignant_Cage_Level]% Barrier Generation. You Heal [(10+Malignant_Cage_Level * 500) Life per second while you have an active Barrier.&#x27;,</span><br>
+<span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;10+Malignant_Cage_Level&#x27;,</span><br>
+<span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([0.01,0.02])&#x27;,</span><br>
+<span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
+<span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;You gain +[10+Malignant_Cage_Level]% Barrier Generation. You Heal [(10+Malignant_Cage_Level * 500)] Life per second while you have an active Barrier.&#x27;,</span><br>
 <span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of the Lionheart&#x27;,</span><br>
 <span id="change_418" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_offensive_generic_001&#x27;: {</span><br>
 <span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([0.15,0.2 ])&#x27;,</span><br>
 <span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(10, 10+(Malignant_Cage_Level*2), 20+(Malignant_Cage_Level*2))&#x27;,</span><br>
 <span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Every 5.0 seconds while above 60.0% Life, Core Skills cost {75/100} Life instead of your Primary Resource. Skills that consume Life deal [FloatRandomRangeWithInterval(10, 10+(Malignant_Cage_Level*2), 20+(Malignant_Cage_Level*2))]% increased damage.&#x27;,</span><br>
+<span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Every 5.0 seconds while above 60.0% Life, Core Skills cost {75/100} Life instead of your Primary Resource. Skills that consume Life deal {0.15/0.2}% increased damage.&#x27;,</span><br>
 <span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 500,</span><br>
 <span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of the Dark Dance&#x27;,</span><br>
 <span id="change_419" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
@@ -2909,6 +2922,7 @@
 <span id="change_420" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_420" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_420" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, 0.75+(Malignant_Cage_Level/2), 2.5+(Malignant_Cage_Level/2))&#x27;,</span><br>
+<span id="change_420" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([0.2,0.4])&#x27;,</span><br>
 <span id="change_420" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_420" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Critical Strikes electrically charge the enemy for [FloatRandomRangeWithInterval(20, 0.75+(Malignant_Cage_Level/2), 2.5+(Malignant_Cage_Level/2))] seconds, causing lightning to arc between them and any other charged enemies dealing {100/200} Lightning damage.&#x27;,</span><br>
 <span id="change_420" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of the Picana&#x27;,</span><br>
@@ -2917,8 +2931,9 @@
 <span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, 40+(Malignant_Cage_Level*5), 60+(Malignant_Cage_Level*5))&#x27;,</span><br>
+<span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(5, 15+(Malignant_Cage_Level*5), 20+(Malignant_Cage_Level*5))&#x27;,</span><br>
 <span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;You gain +FloatRandomRangeWithInterval(20, 40+(Malignant_Cage_Level*5), 60+(Malignant_Cage_Level*5))]% Critical Strike Damage but your Non-Critical Strikes deal x[FloatRandomRangeWithInterval(20, 40+(Malignant_Cage_Level*5), 60+(Malignant_Cage_Level*5))% less damage.&#x27;,</span><br>
+<span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;You gain +[FloatRandomRangeWithInterval(20, 40+(Malignant_Cage_Level*5), 60+(Malignant_Cage_Level*5))]% Critical Strike Damage but your Non-Critical Strikes deal x[FloatRandomRangeWithInterval(5, 15+(Malignant_Cage_Level*5), 20+(Malignant_Cage_Level*5))]% less damage.&#x27;,</span><br>
 <span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 500,</span><br>
 <span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Tempting Fate&#x27;,</span><br>
 <span id="change_421" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
@@ -2926,6 +2941,8 @@
 <span id="change_422" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_422" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_422" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Malignant_Cage_Level&#x27;,</span><br>
+<span id="change_422" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([0.25,0.3 ])&#x27;,</span><br>
+<span id="change_422" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([0.3,0.6])&#x27;,</span><br>
 <span id="change_422" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_422" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Cycle through a Malignant bonus every 20.0 kills.\n\nVicious: Gain +20.0+Malignant_Cage_Level]% Attack Speed.\nDevious: Core and Basic Skills have a 15.0+Malignant_Cage_Level]% chance to fully restore your Primary Resource.\nBrutal: Every 21.0-Malignant_Cage_Level] seconds, gain a Barrier absorbing {125/150} damage.&#x27;,</span><br>
 <span id="change_422" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of the Malignant Pact&#x27;,</span><br>
@@ -2946,7 +2963,7 @@
 <span id="change_424" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, 30+(Malignant_Cage_Level*2), 40+(Malignant_Cage_Level*2))&#x27;,</span><br>
 <span id="change_424" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, 110+(Malignant_Cage_Level*4), 130+(Malignant_Cage_Level*4))&#x27;,</span><br>
 <span id="change_424" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_424" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Your damage over time effects are increased by xFloatRandomRangeWithInterval(20, 30+(Malignant_Cage_Level*2), 40+(Malignant_Cage_Level*2))]% for each different Crowd Control effect on the target. Unstoppable monsters and Staggered bosses instead take x[FloatRandomRangeWithInterval(20, 110+(Malignant_Cage_Level*4), 130+(Malignant_Cage_Level*4))% increased damage from your damage over time effects.&#x27;,</span><br>
+<span id="change_424" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Your damage over time effects are increased by x[FloatRandomRangeWithInterval(20, 30+(Malignant_Cage_Level*2), 40+(Malignant_Cage_Level*2))]% for each different Crowd Control effect on the target. Unstoppable monsters and Staggered bosses instead take x[FloatRandomRangeWithInterval(20, 110+(Malignant_Cage_Level*4), 130+(Malignant_Cage_Level*4))]% increased damage from your damage over time effects.&#x27;,</span><br>
 <span id="change_424" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Creeping Death&#x27;,</span><br>
 <span id="change_424" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_425" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_utility_generic_001&#x27;: {</span><br>
@@ -2960,6 +2977,9 @@
 <span id="change_425" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_426" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_utility_generic_002&#x27;: {</span><br>
 <span id="change_426" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
+<span id="change_426" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
+<span id="change_426" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, 1.5+(Malignant_Cage_Level/10), 2.0+(Malignant_Cage_Level/10))&#x27;,</span><br>
+<span id="change_426" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_426" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Deal [(FloatRandomRangeWithInterval(20, 1.5+(Malignant_Cage_Level/10), 2.0+(Malignant_Cage_Level/10)) * 500)] Fire damage to surrounding enemies whenever a Crowd Control effect is removed from you.&#x27;,</span><br>
 <span id="change_426" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 500,</span><br>
 <span id="change_426" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Retaliation&#x27;,</span><br>
@@ -3786,6 +3806,7 @@
 <span id="change_520" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_520" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_520" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;6 - (Malignant_Cage_Level / 2)&#x27;,</span><br>
+<span id="change_520" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([2.,3.])&#x27;,</span><br>
 <span id="change_520" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
 <span id="change_520" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;When you use a Subterfuge Skill, leave behind an unstable Shadow Decoy Trap that Taunts enemies. The Shadow Decoy Trap will explode after 6 - (Malignant_Cage_Level / 2) seconds dealing {1000/1500} Shadow damage. Cannot occur more than once every 5.0 seconds.&#x27;,</span><br>
 <span id="change_520" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Trickery&#x27;,</span><br>
@@ -3796,7 +3817,7 @@
 <span id="change_521" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;1 + Malignant_Cage_Level&#x27;,</span><br>
 <span id="change_521" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([0.6,0.8])&#x27;,</span><br>
 <span id="change_521" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_521" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Lucky Hit: You have up to a 20.0% chance to launch 1 + Malignant_Cage_Level] Stun Grenades that deal [(1 + Malignant_Cage_Level * 500) Physical damage and Stun enemies for 0.5 seconds.&#x27;,</span><br>
+<span id="change_521" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Lucky Hit: You have up to a 20.0% chance to launch [1 + Malignant_Cage_Level] Stun Grenades that deal [(1 + Malignant_Cage_Level * 500)] Physical damage and Stun enemies for 0.5 seconds.&#x27;,</span><br>
 <span id="change_521" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Cluster Munitions&#x27;,</span><br>
 <span id="change_521" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_522" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_rare_rogue_001&#x27;: {</span><br>
@@ -3813,8 +3834,9 @@
 <span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([20,40])&#x27;,</span><br>
+<span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;Malignant_Cage_Level&#x27;,</span><br>
 <span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Lucky Hit: Up to a {20/40}% chance for your Cutthroat Skills to Slow by 40.0% for {23/43} seconds and your Marksman Skills to Knock Back enemies.&#x27;,</span><br>
+<span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Lucky Hit: Up to a {20/40}% chance for your Cutthroat Skills to Slow by 40.0% for 3.0 + Malignant_Cage_Level] seconds and your Marksman Skills to Knock Back enemies.&#x27;,</span><br>
 <span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of the Clipshot&#x27;,</span><br>
 <span id="change_523" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
@@ -4398,24 +4420,27 @@
 <span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, 20+(Malignant_Cage_Level * 5), 40+(Malignant_Cage_Level * 5))&#x27;,</span><br>
+<span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;5 + Malignant_Cage_Level&#x27;,</span><br>
 <span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;After taking Elemental damage, gain xFloatRandomRangeWithInterval(20, 20+(Malignant_Cage_Level * 5), 40+(Malignant_Cage_Level * 5))]% Resistance to that element for [FloatRandomRangeWithInterval(20, 20+(Malignant_Cage_Level * 5), 40+(Malignant_Cage_Level * 5)) seconds.&#x27;,</span><br>
+<span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;After taking Elemental damage, gain x[FloatRandomRangeWithInterval(20, 20+(Malignant_Cage_Level * 5), 40+(Malignant_Cage_Level * 5))]% Resistance to that element for [5 + Malignant_Cage_Level] seconds.&#x27;,</span><br>
 <span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Spellbreaking&#x27;,</span><br>
 <span id="change_578" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_offensive_sorcerer_001&#x27;: {</span><br>
 <span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([ 7,12])&#x27;,</span><br>
+<span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;RandomInt(1+Malignant_Cage_Level,7+Malignant_Cage_Level)&#x27;,</span><br>
 <span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;For each unique element you deal damage with, you deal x{7/12}% increased damage for {7/12} seconds.&#x27;,</span><br>
+<span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;For each unique element you deal damage with, you deal x{7/12}% increased damage for [RandomInt(1+Malignant_Cage_Level,7+Malignant_Cage_Level)] seconds.&#x27;,</span><br>
 <span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &quot;of Tal&#x27;Rasha&quot;,</span><br>
 <span id="change_579" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;s01_orb_rare_sorcerer_001&#x27;: {</span><br>
 <span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([35,45])&#x27;,</span><br>
+<span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;FloatRandomRangeWithInterval(20, 3+(Malignant_Cage_Level*2), 5+(Malignant_Cage_Level*2))&#x27;,</span><br>
 <span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Core Skills that launch a projectile consume all of your Mana. For every {35/45} extra Mana consumed, you launch an additional projectile and the damage is increased by x{35/45}%.&#x27;,</span><br>
+<span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;Core Skills that launch a projectile consume all of your Mana. For every {35/45} extra Mana consumed, you launch an additional projectile and the damage is increased by x[FloatRandomRangeWithInterval(20, 3+(Malignant_Cage_Level*2), 5+(Malignant_Cage_Level*2))]%.&#x27;,</span><br>
 <span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;min_ipower&#x27;: 600,</span><br>
 <span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Omnipower&#x27;,</span><br>
 <span id="change_580" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
@@ -4423,8 +4448,9 @@
 <span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_family&#x27;: 1186933627,</span><br>
 <span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;affix_formulas&#x27;: [</span><br>
 <span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;array([20,40])&#x27;,</span><br>
+<span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;1+(Malignant_Cage_Level*0.5)&#x27;,</span><br>
 <span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],</span><br>
-<span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;When you are afflicted with a Crowd Control effect, there is a {20/40}% chance that the same enemy and enemies around you are also afflicted with the same effect for {20/40} seconds.&#x27;,</span><br>
+<span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;desc&#x27;: &#x27;When you are afflicted with a Crowd Control effect, there is a {20/40}% chance that the same enemy and enemies around you are also afflicted with the same effect for [1+(Malignant_Cage_Level*0.5)] seconds.&#x27;,</span><br>
 <span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x27;name&#x27;: &#x27;of Spite&#x27;,</span><br>
 <span id="change_581" class="text-added">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
 <span>&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>

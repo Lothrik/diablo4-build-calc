@@ -35666,19 +35666,19 @@ let paragonData = {
 					"zhTW": "燃燒直覺"
 				},
 				"descriptionLocalized": {
-					"deDE": "Euer Verbrennungsschaden wird um 40% Eures kritischen Trefferschadens und um 5% pro 20 Intelligenz erhöht. (Aktueller Bonus: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Verbrennung, Schaden, Kritische Treffer, Intelligenz.",
-					"esES": "Tu daño de quemadura aumenta una cantidad equivalente a un 40% de tu daño de golpe crítico y aumenta un 5% más por cada 20 de inteligencia que tengas. (Bonus actual: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
-					"esMX": "Tu daño de quemadura aumenta un 40% de tu daño de golpe crítico, y se incrementa aún más un 5% por cada 20 de Inteligencia que tengas. (Bonificación actual: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
-					"frFR": "Vos dégâts de brûlure sont augmentés d'un montant égal à 40% vos dégâts critiques. Ce montant est augmenté de 5% supplémentaires par tranche de 20 points d'intelligence que vous avez. (Bonus actuel: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Brûlure, Dégâts, Coups critiques, Intelligence.",
-					"itIT": "I tuoi danni da fiamme sono aumentati del 40% dei tuoi danni critici e vengono aumentati ulteriormente del 5% per ogni 20 Intelligenza. (Bonus attuale: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Bruciatura, Danni, Colpi critici, Intelligenza.",
-					"jaJP": "与える炎上ダメージがクリティカルヒットダメージの40%分増加する。知力20ごとに、ダメージがさらに5%増加する。(現在のボーナス: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 炎上, ダメージ, クリティカルヒット, 知力.",
-					"koKR": "연소 피해가 극대화 피해의 40%만큼 증가하고, 지능 20당 5% 추가로 증가합니다. (현재 증가량: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 불태우기, 피해, 극대화, 지능.",
-					"plPL": "Zadawane przez ciebie obrażenia od podpalenia są zwiększone o równowartość 40% twoich obrażeń od trafień krytycznych oraz dodatkowo o 5% za każde posiadane 20 pkt. inteligencji. (Aktualna premia: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Podpalenie, Obrażenia, Trafienia Krytyczne, Inteligencja.",
-					"ptBR": "Seu dano flamejante é aumentado em 40% do seu dano de acerto crítico, sendo aumentado ainda mais em 5% para cada 20 de Inteligência que você tenha (bônus atual: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%).\n\nTags: Queimadura, Dano, Acertos Críticos, Inteligência.",
-					"ruRU": "Наносимый вами урон от горения увеличивается на 40% от вашего бонуса к критическому урону, а также на 5% за каждые 20 ед. интеллекта героя. (Текущий бонус: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Горение, Урон, Критические удары, Интеллект.",
-					"trTR": "Yanma hasarın, Kritik Vuruş Hasarının 40% kadarı artar ve sahip olduğun her 20 Zekâ başına 5% daha artar. (Mevcut Bonus: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: Yakma, Hasar, Kritik Vuruşlar, Zekâ.",
-					"zhCN": "你的燃烧伤害提高, 相当于暴击伤害的 40%, 每有 20 点智力进一步提高 5%。 (当前加成: [ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 燃烧, 伤害, 暴击, 智力.",
-					"zhTW": "你的燃燒傷害提高等同你爆擊傷害的 40%,每擁有 20 點智力可再提高 5%。(目前加成:[ComputeCritDamageScalar() + (-1) * 0.4 + (floor(Intelligence_Total / 20) * 0.05) * 100]%)\n\nTags: 燃燒, 傷害, 爆擊, 智力."
+					"deDE": "Euer Verbrennungsschaden wird um 40% Eures kritischen Trefferschadens und um 5% pro 20 Intelligenz erhöht.\n\nTags: Verbrennung, Schaden, Kritische Treffer, Intelligenz.",
+					"esES": "Tu daño de quemadura aumenta una cantidad equivalente a un 40% de tu daño de golpe crítico y aumenta un 5% más por cada 20 de inteligencia que tengas..\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
+					"esMX": "Tu daño de quemadura aumenta un 40% de tu daño de golpe crítico, y se incrementa aún más un 5% por cada 20 de Inteligencia que tengas.\n\nTags: Quemadura, Daño, Golpes críticos, Inteligencia.",
+					"frFR": "Vos dégâts de brûlure sont augmentés d'un montant égal à 40% vos dégâts critiques. Ce montant est augmenté de 5% supplémentaires par tranche de 20 points d'intelligence que vous avez.\n\nTags: Brûlure, Dégâts, Coups critiques, Intelligence.",
+					"itIT": "I tuoi danni da fiamme sono aumentati del 40% dei tuoi danni critici e vengono aumentati ulteriormente del 5% per ogni 20 Intelligenza.\n\nTags: Bruciatura, Danni, Colpi critici, Intelligenza.",
+					"jaJP": "与える炎上ダメージがクリティカルヒットダメージの40%分増加する。知力20ごとに、ダメージがさらに5%増加する。\n\nTags: 炎上, ダメージ, クリティカルヒット, 知力.",
+					"koKR": "연소 피해가 극대화 피해의 40%만큼 증가하고, 지능 20당 5% 추가로 증가합니다.\n\nTags: 불태우기, 피해, 극대화, 지능.",
+					"plPL": "Zadawane przez ciebie obrażenia od podpalenia są zwiększone o równowartość 40% twoich obrażeń od trafień krytycznych oraz dodatkowo o 5% za każde posiadane 20 pkt. inteligencji.\n\nTags: Podpalenie, Obrażenia, Trafienia Krytyczne, Inteligencja.",
+					"ptBR": "Seu dano flamejante é aumentado em 40% do seu dano de acerto crítico, sendo aumentado ainda mais em 5% para cada 20 de Inteligência que você tenha.\n\nTags: Queimadura, Dano, Acertos Críticos, Inteligência.",
+					"ruRU": "Наносимый вами урон от горения увеличивается на 40% от вашего бонуса к критическому урону, а также на 5% за каждые 20 ед. интеллекта героя.\n\nTags: Горение, Урон, Критические удары, Интеллект.",
+					"trTR": "Yanma hasarın, Kritik Vuruş Hasarının 40% kadarı artar ve sahip olduğun her 20 Zekâ başına 5% daha artar.\n\nTags: Yakma, Hasar, Kritik Vuruşlar, Zekâ.",
+					"zhCN": "你的燃烧伤害提高, 相当于暴击伤害的 40%, 每有 20 点智力进一步提高 5%。\n\nTags: 燃烧, 伤害, 暴击, 智力.",
+					"zhTW": "你的燃燒傷害提高等同你爆擊傷害的 40%,每擁有 20 點智力可再提高 5%。\n\nTags: 燃燒, 傷害, 爆擊, 智力."
 				}
 			},
 			"Sorcerer_Legendary_002": {
@@ -35836,19 +35836,19 @@ let paragonData = {
 					"zhTW": "無限導體"
 				},
 				"descriptionLocalized": {
-					"deDE": "Knisternde Energie verfügt über eine Chance von 25%, bei Auslösung keine Ladung zu verbrauchen. Der Schaden von Knisternde Energie wird pro 20 Eurer Gesamtintelligenz um x2% erhöht (Aktueller Bonus: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Knisternde Energie, Schaden, Intelligenz.",
-					"esES": "La energía crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de la energía crepitante aumenta un x2% por cada 20 de inteligencia total que tengas. (Bonus actual: x[floor(Intelligence_Total / 20) * 0.02 * 100]%).\n\nTags: Energía crepitante, Daño, Inteligencia.",
-					"esMX": "Energía Crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de Energía Crepitante aumenta un x2% por 20 de la Inteligencia total que tengas. (Bonificación actual: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Energía Crepitante, Daño, Inteligencia.",
-					"frFR": "L'énergie crépitante a 25% de chances de ne pas consommer de charges lorsqu'elle est déclenchée. Les dégâts de l'énergie crépitante augmentent de x2% par tranche de 20 points d'intelligence que vous avez. (Bonus actuel: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Énergie crépitante, Dégâts, Intelligence.",
-					"itIT": "Energia Crepitante ha il 25% di probabilità di non consumare una carica quando viene utilizzata. I danni inflitti da Energia Crepitante sono aumentati del x2% per ogni 20 Intelligenza. (Bonus attuale: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Energia Crepitante, Danni, Intelligenza.",
-					"jaJP": "帯び出す電気発動時、25%の確率でチャージを消費しない。自分の合計知力20ごとに帯び出す電気のダメージがx2%増加する。(現在のボーナス: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: 帯び出す電気, ダメージ, 知力.",
-					"koKR": "짜릿한 에너지가 발동했을 때 25% 확률로 중첩이 소모되지 않습니다. 짜릿한 에너지가 주는 피해가 총 지능 20당 x2% 증가합니다. (현재 증가량: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: 짜릿한 에너지, 피해, 지능.",
-					"plPL": "Istnieje 25% szans na to, że aktywacja Roziskrzonej Energii nie zużyje ładunku. Obrażenia od Roziskrzonej Energii wzrastają o x2% za każde posiadane przez ciebie 20 pkt. inteligencji. (Aktualna premia: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Roziskrzona Energia, Obrażenia, Inteligencja.",
-					"ptBR": "Energia Crepitante tem 25% de chance de não consumir uma carga ao ser acionada. O dano de Energia Crepitante é aumentado em 2% por 20 de Inteligência total que você tiver (bônus atual: [floor(Intelligence_Total / 20) * 0.02 * 100]%).\n\nTags: Energia Crepitante, Dano, Inteligência.",
-					"ruRU": "Искрящийся заряд энергии с вероятностью 25% не поглощает заряд при активации. Урон от Искрящегося заряда энергии увеличивается на x2% за каждые 20 ед. интеллекта героя. (Текущий бонус: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: Искрящийся заряд энергии, Урон, Интеллект.",
-					"trTR": "Çatırtı Enerjisi tetiklendiğinde 25% ihtimalle bir Yük tüketmez. Çatırtı Enerjisinin hasarı, sahip olduğun 20 toplam Zekâ başına x2% artar. (Mevcut Bonus: x[floor(Intelligence_Total / 20) * 0.02*100]%)\n\nTags: Çatırtı Enerjisi, Hasar, Zekâ.",
-					"zhCN": "爆裂电花有 25% 几率在触发时不消耗层数。你每拥有 20 点总智力, 爆裂电花的伤害就提高 x2%。 (当前加成: x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: 爆裂电花, 伤害, 智力.",
-					"zhTW": "電流能量觸發時有 25% 機率不消耗使用次數。你每擁有 20 點總智力會使你的電流能量傷害提高 x2%。(目前加成:x[floor(Intelligence_Total / 20) * 0.02 * 100]%)\n\nTags: 電流能量, 傷害, 智力."
+					"deDE": "Knisternde Energie verfügt über eine Chance von 25%, bei Auslösung keine Ladung zu verbrauchen. Der Schaden von Knisternde Energie wird pro 20 Eurer Gesamtintelligenz um x2% erhöht\n\nTags: Knisternde Energie, Schaden, Intelligenz.",
+					"esES": "La energía crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de la energía crepitante aumenta un x2% por cada 20 de inteligencia total que tengas..\n\nTags: Energía crepitante, Daño, Inteligencia.",
+					"esMX": "Energía Crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de Energía Crepitante aumenta un x2% por 20 de la Inteligencia total que tengas.\n\nTags: Energía Crepitante, Daño, Inteligencia.",
+					"frFR": "L'énergie crépitante a 25% de chances de ne pas consommer de charges lorsqu'elle est déclenchée. Les dégâts de l'énergie crépitante augmentent de x2% par tranche de 20 points d'intelligence que vous avez.\n\nTags: Énergie crépitante, Dégâts, Intelligence.",
+					"itIT": "Energia Crepitante ha il 25% di probabilità di non consumare una carica quando viene utilizzata. I danni inflitti da Energia Crepitante sono aumentati del x2% per ogni 20 Intelligenza.\n\nTags: Energia Crepitante, Danni, Intelligenza.",
+					"jaJP": "帯び出す電気発動時、25%の確率でチャージを消費しない。自分の合計知力20ごとに帯び出す電気のダメージがx2%増加する。\n\nTags: 帯び出す電気, ダメージ, 知力.",
+					"koKR": "짜릿한 에너지가 발동했을 때 25% 확률로 중첩이 소모되지 않습니다. 짜릿한 에너지가 주는 피해가 총 지능 20당 x2% 증가합니다.\n\nTags: 짜릿한 에너지, 피해, 지능.",
+					"plPL": "Istnieje 25% szans na to, że aktywacja Roziskrzonej Energii nie zużyje ładunku. Obrażenia od Roziskrzonej Energii wzrastają o x2% za każde posiadane przez ciebie 20 pkt. inteligencji.\n\nTags: Roziskrzona Energia, Obrażenia, Inteligencja.",
+					"ptBR": "Energia Crepitante tem 25% de chance de não consumir uma carga ao ser acionada. O dano de Energia Crepitante é aumentado em 2% por 20 de Inteligência total que você tiver.\n\nTags: Energia Crepitante, Dano, Inteligência.",
+					"ruRU": "Искрящийся заряд энергии с вероятностью 25% не поглощает заряд при активации. Урон от Искрящегося заряда энергии увеличивается на x2% за каждые 20 ед. интеллекта героя.\n\nTags: Искрящийся заряд энергии, Урон, Интеллект.",
+					"trTR": "Çatırtı Enerjisi tetiklendiğinde 25% ihtimalle bir Yük tüketmez. Çatırtı Enerjisinin hasarı, sahip olduğun 20 toplam Zekâ başına x2% artar.\n\nTags: Çatırtı Enerjisi, Hasar, Zekâ.",
+					"zhCN": "爆裂电花有 25% 几率在触发时不消耗层数。你每拥有 20 点总智力, 爆裂电花的伤害就提高 x2%。\n\nTags: 爆裂电花, 伤害, 智力.",
+					"zhTW": "電流能量觸發時有 25% 機率不消耗使用次數。你每擁有 20 點總智力會使你的電流能量傷害提高 x2%。\n\nTags: 電流能量, 傷害, 智力."
 				}
 			},
 			"Sorcerer_Legendary_011": {
