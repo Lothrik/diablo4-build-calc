@@ -1591,7 +1591,7 @@ function handleIntervalEvent() {
 
 	if (idleTime > 3000) {
 		redrawAllNodes(true);
-		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, 1];
+		[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [2, 2];
 		frameTimer = null;
 	}
 }
