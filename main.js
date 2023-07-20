@@ -5322,7 +5322,7 @@ function resizeSearchInput() {
 }
 function resetFrameTimer() {
 	frameTimer = Date.now();
-	[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [1, document.hasFocus() ? 120 : 1];
+	[pixiJS.ticker.minFPS, pixiJS.ticker.maxFPS] = [2, document.hasFocus() ? 120 : 2];
 }
 function rebuildCanvas() {
 	while (pixiJS.stage.children[0]) pixiJS.stage.children[0].destroy(true);
