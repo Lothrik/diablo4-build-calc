@@ -1916,6 +1916,12 @@ function handleReloadButton() {
 				paragonBoardGlyphRankData = {};
 				if (nodeData.boardData.length > 4) for (const [boardIndex, glyphRank] of Object.entries(nodeData.boardData[4])) paragonBoardGlyphRankData[Number(boardIndex)] = Number(glyphRank);
 
+				const boardHeaders = pixiNodes.filter(pixiNode => pixiNode.nodeData.has("boardIndex"));
+				for (const boardHeader of boardHeaders) {
+					boardHeader.scaleFactor = -1; // force redraw, to update glyph header label
+					redrawNode(boardHeader);
+				}
+
 				delete nodeData.boardData;
 			}
 
@@ -2115,7 +2121,11 @@ function resetParagonBoard(boardHeader) {
 
 	delete paragonBoardGlyphData[boardIndex];
 	delete paragonBoardGlyphRankData[boardIndex];
+
 	boardHeader.nodeData.get("glyphSocket").nodeData.delete("nameOverride");
+	boardHeader.scaleFactor = -1; // force redraw, to update glyph header label
+	redrawNode(boardHeader);
+
 	if (pixiTooltip.children.length > 0) eraseTooltip(); // force tooltip erase, mostly for mobile
 }
 function resetAllParagonBoards() {
@@ -2133,6 +2143,12 @@ function resetAllParagonBoards() {
 	for (const [boardIndex, equipIndex] of Object.entries(paragonBoardEquipIndices)) setParagonBoardEquipIndex(Number(boardIndex), 0);
 	paragonBoardGlyphData = {};
 	paragonBoardGlyphRankData = {};
+
+	const boardHeaders = pixiNodes.filter(pixiNode => pixiNode.nodeData.has("boardIndex"));
+	for (const boardHeader of boardHeaders) {
+		boardHeader.scaleFactor = -1; // force redraw, to update glyph header label
+		redrawNode(boardHeader);
+	}
 
 	if (pixiTooltip.children.length > 0) eraseTooltip(); // force tooltip erase, mostly for mobile
 }
@@ -2336,6 +2352,9 @@ function handleParagonGlyphSocket(curNode) {
 			delete paragonBoardGlyphRankData[boardIndex];
 		}
 
+		boardHeader.scaleFactor = -1; // force redraw, to update glyph header label
+		redrawNode(boardHeader);
+
 		updateGlyphBonusesFromNodes(boardHeader, 1, ["Socket"]);
 		updateGlyphBonusesFromNodes(boardHeader, 1, ["Magic", "Rare"]);
 
@@ -2357,6 +2376,10 @@ function unequipParagonGlyph(curNode, redrawTooltip = false) {
 
 	delete paragonBoardGlyphData[boardIndex];
 	delete paragonBoardGlyphRankData[boardIndex];
+
+	boardHeader.scaleFactor = -1; // force redraw, to update glyph header label
+	redrawNode(boardHeader);
+
 	nodeData.delete("nameOverride");
 	handleMinusButton(curNode);
 
@@ -3603,14 +3626,24 @@ function drawNode(nodeName, nodeData, groupName, extraData = null, nodeIndex = p
 		if (displayName.length > maxLabelSize) displayName = nodeName.split([" ", "—"]).map((n) => n[0]).join("");
 		if (displayName.length >= maxLabelSize - 2) displayNameSize = 32;
 	}
-	if (extraData != null && groupName == PARAGON_BOARD && extraData in paragonBoardEquipIndices) {
-		const equipIndex = paragonBoardEquipIndices[extraData];
-		const equipIndexText = ` [Equip Index: ${equipIndex}]`;
-		const equipIndexRegex = / \[Equip Index: [0-9]+\]/;
-		if (displayName.match(equipIndexRegex)) {
-			displayName = displayName.replace(equipIndexRegex, equipIndexText);
-		} else {
-			displayName += equipIndexText;
+	if (extraData != null && groupName == PARAGON_BOARD) {
+		const boardIndex = extraData;
+		if (boardIndex in paragonBoardGlyphData) {
+			const glyphIndex = paragonBoardGlyphData[boardIndex];
+			const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
+			const glyphData = getGlyphData(glyphIndex);
+			const localizedGlyphName = activeLocale in glyphData.nameLocalized ? glyphData.nameLocalized[activeLocale] : glyphData.name;
+			displayName += ` [${localizedGlyphName}]`;
+		}
+		if (boardIndex in paragonBoardEquipIndices) {
+			const equipIndex = paragonBoardEquipIndices[boardIndex];
+			const equipIndexText = ` [Equip Index: ${equipIndex}]`;
+			const equipIndexRegex = / \[Equip Index: [0-9]+\]/;
+			if (displayName.match(equipIndexRegex)) {
+				displayName = displayName.replace(equipIndexRegex, equipIndexText);
+			} else {
+				displayName += equipIndexText;
+			}
 		}
 	}
 
@@ -4870,7 +4903,6 @@ function drawTooltip(curNode, forceDraw) {
 
 			const nodeType = nodeData.get("nodeType");
 			if (nodeType == "Socket") {
-				const paragonGlyphs = paragonData[classText]["Glyph"];
 				if (boardIndex in paragonBoardGlyphData) {
 					const glyphIndex = paragonBoardGlyphData[boardIndex];
 					const glyphRank = boardIndex in paragonBoardGlyphRankData ? paragonBoardGlyphRankData[boardIndex] : 1;
@@ -5363,10 +5395,13 @@ function rebuildCanvas() {
 		"Dexterity": { minValue: 0, maxValue: 0 }
 	};
 
+
 	paragonBoardGridData = {};
 	paragonBoardRotationData = {};
+	paragonBoardEquipIndices = {};
 	paragonBoardGlyphData = {};
 	paragonBoardGlyphRankData = {};
+
 	equipmentPanelData = {};
 	techniqueSlotData = null;
 	techniqueSlotNode = null;
