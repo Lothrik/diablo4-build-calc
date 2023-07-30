@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.1.0.43487-2";
+const localVersion = "1.1.0.43487-3";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -3275,7 +3275,7 @@ function updateParagonStatTotals(curNode, diffPoints, outputData = [paragonStatT
 			}
 		}
 
-		if (descLine.includes("Damage Reduction")) {
+		if (descLine.includes("% Damage Reduction")) {
 			if (!descMatch[4].includes(" if requirements met:")) {
 				outputData[0][statNameFull].minValue = outputData[0][statNameFull].minValue > 0 ? 1 - outputData[0][statNameFull].minValue * 0.01 : 1;
 				if (diffPoints > 0) {
@@ -3292,6 +3292,31 @@ function updateParagonStatTotals(curNode, diffPoints, outputData = [paragonStatT
 				outputData[0][statNameFull].maxValue /= 1 - statValue * 0.01;
 			}
 			outputData[0][statNameFull].maxValue = (1 - outputData[0][statNameFull].maxValue) * 100;
+		} else if (descLine.includes("% Life")) {
+			if (!descMatch[4].includes(" if requirements met:")) {
+				if (outputData[0][statNameFull].minValue == 0) {
+					outputData[0][statNameFull].minValue = statValue;
+				} else if (diffPoints > 0) {
+					outputData[0][statNameFull].minValue = ((1 + outputData[0][statNameFull].minValue * 0.01) * (1 + statValue * 0.01) - 1) * 100;
+				} else {
+					if (outputData[0][statNameFull].minValue == statValue) {
+						outputData[0][statNameFull].minValue = 0;
+					} else {
+						outputData[0][statNameFull].minValue = ((1 + outputData[0][statNameFull].minValue * 0.01) / (1 + statValue * 0.01) - 1) * 100;
+					}
+				}
+			}
+			if (outputData[0][statNameFull].maxValue == 0) {
+				outputData[0][statNameFull].maxValue = statValue;
+			} else if (diffPoints > 0) {
+				outputData[0][statNameFull].maxValue = ((1 + outputData[0][statNameFull].maxValue * 0.01) * (1 + statValue * 0.01) - 1) * 100;
+			} else {
+				if (outputData[0][statNameFull].maxValue == statValue) {
+					outputData[0][statNameFull].maxValue = 0;
+				} else {
+					outputData[0][statNameFull].maxValue = ((1 + outputData[0][statNameFull].maxValue * 0.01) / (1 + statValue * 0.01) - 1) * 100;
+				}
+			}
 		} else {
 			if (!descMatch[4].includes(" if requirements met:")) {
 				outputData[0][statNameFull].minValue += statValue * diffPoints;
