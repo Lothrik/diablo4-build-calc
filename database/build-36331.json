@@ -25408,7 +25408,7 @@
 			},
 			"legendary_necro_100": {
 				"category": 3,
-				"desc": "Critical Strikes with Bone Skills increase your Essence Regeneration by x{20/30}% for [Affix.\"Affix Value 0\"] seconds.",
+				"desc": "Critical Strikes with Bone Skills increase your Essence Regeneration by x{20/30}% for 4.0 seconds.",
 				"name": "of Torment",
 				"tags": [
 					"FILTER_Legendary_Resource",

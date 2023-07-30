@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.1.0.43487-1";
+const localVersion = "1.1.0.43487-2";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
@@ -5394,7 +5394,6 @@ function rebuildCanvas() {
 		"Willpower": { minValue: 0, maxValue: 0 },
 		"Dexterity": { minValue: 0, maxValue: 0 }
 	};
-
 
 	paragonBoardGridData = {};
 	paragonBoardRotationData = {};
