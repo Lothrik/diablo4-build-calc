@@ -946,6 +946,11 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": []
+			},
+			"Hulking Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
 			}
 		},
 		"Resource": {
@@ -957,11 +962,6 @@ let codexValues = {
 			"Flesh-Rending Aspect": {
 				"dungeon": "Nostrava",
 				"region": "Fractured Peaks",
-				"values": []
-			},
-			"Hulking Aspect": {
-				"dungeon": "Sepulcher of The Forsworn",
-				"region": "Kehjistan",
 				"values": []
 			},
 			"Aspect of Potent Blood": {

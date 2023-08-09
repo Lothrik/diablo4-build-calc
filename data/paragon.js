@@ -6270,7 +6270,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% de bônus para modificadores de dano físico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения физического урона усиливаются на +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Fiziksel hasar ve hasar azaltma düzenleyicilerine +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点使它们的物理伤害和伤害减免的变化效果获得 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% 加成。",
+					"zhCN": "辐射范围内的巅峰节点使它们的物理伤害和伤害减免的各种变化效果获得 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% 加成。",
 					"zhTW": "範圍內顛峰節點的物理傷害和傷害減免屬性 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}%。"
 				},
 				"bonusLocalized": {
@@ -6576,7 +6576,7 @@ let paragonData = {
 					"ptBR": "Nódulos de Excelência em alcance recebem +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% de bônus para modificadores de dano físico e redução de dano.",
 					"ruRU": "Модификации увеличения и уменьшения физического урона усиливаются на +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% для узлов совершенствования в радиусе действия.",
 					"trTR": "Menzildeki mükemmeliyet düğümleri, Fiziksel hasar ve hasar azaltma düzenleyicilerine +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% bonus kazanır.",
-					"zhCN": "辐射范围内的巅峰节点使它们的物理伤害和伤害减免的变化效果获得 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% 加成。",
+					"zhCN": "辐射范围内的巅峰节点使它们的物理伤害和伤害减免的各种变化效果获得 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}% 加成。",
 					"zhTW": "範圍內顛峰節點的物理傷害和傷害減免屬性 +{11/13.2/15.4/17.6/19.8/22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8/44/46.2/48.4/50.6/52.8/55}%。"
 				},
 				"bonusLocalized": {
@@ -12932,7 +12932,7 @@ let paragonData = {
 					"ptBR": "Guardião",
 					"ruRU": "Хранитель",
 					"trTR": "Koruyucu",
-					"zhCN": "护卫",
+					"zhCN": "守卫",
 					"zhTW": "守護者"
 				},
 				"descLocalized": {
@@ -15049,7 +15049,7 @@ let paragonData = {
 					"ptBR": "Oprimir",
 					"ruRU": "Угнетение",
 					"trTR": "Baskıla",
-					"zhCN": "压制",
+					"zhCN": "欺压",
 					"zhTW": "壓制"
 				},
 				"descriptionLocalized": {
@@ -16065,7 +16065,7 @@ let paragonData = {
 			},
 			"Generic_Rare_034": {
 				"name": "Lightning Resilience",
-				"description": "12% Lightning Resistance\n+4% Life\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
+				"description": "12% Lightning Resistance\n+6% Life\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
 				"nameLocalized": {
 					"deDE": "Blitzabhärtung",
 					"esES": "Resiliencia ante los rayos",
@@ -16082,19 +16082,19 @@ let paragonData = {
 					"zhTW": "閃電韌性"
 				},
 				"descriptionLocalized": {
-					"deDE": "12% Widerstand gegen: Lightning\n+4% Leben\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Blitz, Leben.",
-					"esES": "12% de resistencia a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayos, Vida.",
-					"esMX": "12% de resistencia a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayo, Vida.",
-					"frFR": "12% de résistance (Lightning )\n+4% de points de vie\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Foudre, Vie.",
-					"itIT": "Resistenza Lightning: 12%\nVita: +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fulmine, Vita.",
-					"jaJP": "Lightning 耐性12%\nライフ+4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 電撃, ライフ.",
-					"koKR": "Lightning 저항 12%\n생명력 +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 번개, 생명력.",
-					"plPL": "12% odporności na Lightning\n+4% zdrowia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Błyskawice, Zdrowie.",
-					"ptBR": "12% de resistência a Lightning\n+4% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Eletricidade, Vida.",
-					"ruRU": "Сопротивление типу урона \"Lightning \": 12%\n+4% к здоровью\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Здоровье.",
-					"trTR": "12% Lightning Direnci\n+4% Can\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Yıldırım, Can.",
-					"zhCN": "12% Lightning 抗性\n+4% 生命\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 闪电, 生命.",
-					"zhTW": "Lightning 抗性 12%\n生命值 +4%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 閃電, 生命值."
+					"deDE": "12% Widerstand gegen: Lightning\n+6% Leben\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Blitz, Leben.",
+					"esES": "12% de resistencia a Lightning\n+6% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayos, Vida.",
+					"esMX": "12% de resistencia a Lightning\n+6% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayo, Vida.",
+					"frFR": "12% de résistance (Lightning )\n+6% de points de vie\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Foudre, Vie.",
+					"itIT": "Resistenza Lightning: 12%\nVita: +6%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fulmine, Vita.",
+					"jaJP": "Lightning 耐性12%\nライフ+6%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 電撃, ライフ.",
+					"koKR": "Lightning 저항 12%\n생명력 +6%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 번개, 생명력.",
+					"plPL": "12% odporności na Lightning\n+6% zdrowia\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Błyskawice, Zdrowie.",
+					"ptBR": "12% de resistência a Lightning\n+6% de vida\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Eletricidade, Vida.",
+					"ruRU": "Сопротивление типу урона \"Lightning \": 12%\n+6% к здоровью\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Здоровье.",
+					"trTR": "12% Lightning Direnci\n+6% Can\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Yıldırım, Can.",
+					"zhCN": "12% Lightning 抗性\n+6% 生命\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 闪电, 生命.",
+					"zhTW": "Lightning 抗性 12%\n生命值 +6%\n\nBonus: Another 12% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 閃電, 生命值."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16366,7 +16366,7 @@ let paragonData = {
 					"ptBR": "Tormenta",
 					"ruRU": "Буря",
 					"trTR": "Fırtına",
-					"zhCN": "雷暴",
+					"zhCN": "暴风",
 					"zhTW": "暴風雨"
 				},
 				"descriptionLocalized": {
@@ -17569,7 +17569,7 @@ let paragonData = {
 					"ptBR": "Feral",
 					"ruRU": "Звериная свирепость",
 					"trTR": "Yabani",
-					"zhCN": "狂野",
+					"zhCN": "野性",
 					"zhTW": "野性"
 				},
 				"descriptionLocalized": {
@@ -22877,7 +22877,7 @@ let paragonData = {
 			},
 			"Necromancer_Legendary_016": {
 				"name": "Wither",
-				"description": "Your Shadow damage over time effects have a x5% chance to deal x50% bonus damage each time they deal damage. This chance is increased by x1% and bonus damage is increased by x2.5% for each 50 Willpower you have.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
+				"description": "Your Shadow damage over time effects have a x5% chance to deal x50% bonus damage each time they deal damage. This chance is increased by x1% and bonus damage is increased by x4% for each 40 Willpower you have.\n\nTags: Shadow Damage Over Time, Damage, Willpower.",
 				"nameLocalized": {
 					"deDE": "Verkümmern",
 					"esES": "Marchitar",
@@ -22894,19 +22894,19 @@ let paragonData = {
 					"zhTW": "枯萎凋零"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Schattenschaden-über-Zeit-Effekte haben eine Chance von x5%, mit jedem Treffer x50% Bonusschaden zu verursachen. Pro x1% Willenskraft, die Ihr besitzt, wird diese Chance um x2.5% und der Bonusschaden um 50 erhöht.\n\nTags: Schattenschaden über Zeit, Schaden, Willenskraft.",
-					"esES": "Tus efectos de daño de sombra en el tiempo tienen un x5% de probabilidad de infligir un x50% de daño adicional cada vez que infligen daño. Esta probabilidad aumenta un x1% y el daño adicional aumenta un x2.5% por cada 50 de voluntad que tengas.\n\nTags: Daño de sombra en el tiempo, Daño, Voluntad.",
-					"esMX": "Tus efectos de daño de sombra con el tiempo tienen un x5% de probabilidad de infligir un x50% de daño bonificado cada vez que infligen daño. Esta probabilidad aumenta un x1% y el daño bonificado aumenta un x2.5% por cada 50 de Voluntad que tengas.\n\nTags: Daño de sombra con el tiempo, Daño, Voluntad.",
-					"frFR": "Vos effets infligeant des dégâts d'ombre sur la durée ont x5% de chances d'infliger x50% de dégâts supplémentaires chaque fois qu'ils infligent des dégâts. Ces chances sont augmentées de x1% et les dégâts supplémentaires de x2.5% par tranche de 50 points de volonté dont vous disposez.\n\nTags: Dégâts d'ombre sur la durée, Dégâts, Volonté.",
-					"itIT": "Gli effetti dei tuoi danni da ombra periodici hanno una probabilità del x5% di infliggere il x50% danni aggiuntivi ogni volta che infliggono danni. Questa probabilità aumenta del x1% e i danni aggiuntivi aumentano del x2.5% per ogni 50 Volontà.\n\nTags: Danni da ombra periodici, Danni, Volontà.",
-					"jaJP": "継続シャドウダメージ効果が、ダメージを与えるたびにx5%の確率でx50%のボーナスダメージを与える。意志力50ごとに発生率がx1%、ボーナスダメージがx2.5%増加する。\n\nTags: 継続シャドウダメージ, ダメージ, 意志力.",
-					"koKR": "지속 암흑 피해 효과가 피해를 줄 때마다 x5% 확률로 x50%의 추가 피해를 줍니다. 의지력 50당 확률이 x1%, 추가 피해가 x2.5% 증가합니다.\n\nTags: 지속 암흑 피해, 피해, 의지력.",
-					"plPL": "Twoje efekty wywołujące obrażenia Cienia z upływem czasu mają x5% szans na zadanie dodatkowo x50% pkt. obrażeń za każdym razem, gdy wywołują obrażenia. Szansa ta wzrasta o x1%, a premia do obrażeń o x2.5% za każde posiadane przez ciebie 50 pkt. siły woli.\n\nTags: Obrażenia Cienia z upływem czasu, Obrażenia, Siła Woli.",
-					"ptBR": "Os efeitos de dano de sombra ao longo do tempo têm 5% de chance de causar 50% de bônus de dano cada vez que causam dano. Essa chance é aumentada em 1% e o bônus de dano é aumentado em 2.5% para cada 50 de Determinação que você tiver.\n\nTags: Dano de Sombra ao Longo do Tempo, Dano, Determinação.",
-					"ruRU": "Ваши эффекты периодического урона от темной магии с вероятностью x5% наносят x50% дополнительного урона каждым тактом. Вероятность повышается на x1%, а бонус к урону – на x2.5% за каждые 50 ед. силы воли героя.\n\nTags: Периодический урон от темной магии, Урон, Сила воли.",
-					"trTR": "Zamanla Gölge hasarı etkilerin x5% ihtimalle her hasar verdiklerinde x50% bonus hasar verirler. Sahip olduğun her 50 İrade başına bu ihtimal x1% ve bonus hasar x2.5% artar.\n\nTags: Zamanla Gölge Hasarı, Hasar, İrade.",
-					"zhCN": "你的持续性暗影伤害效果每次造成伤害时都有 x5% 几率造成 x50% 额外伤害。你每拥有 50 点意力, 该几率就会提高 x1% 且伤害额外提高 x2.5%。\n\nTags: 持续性暗影伤害, 伤害, 意力.",
-					"zhTW": "你的暗影持續傷害每次造成傷害時,有 x5% 機率造成 x50% 額外傷害。你每擁有 50 點意志,此機率提高 x1%,額外傷害提高 x2.5%。\n\nTags: 暗影持續傷害, 傷害, 意志."
+					"deDE": "Eure Schattenschaden-über-Zeit-Effekte haben eine Chance von x5%, mit jedem Treffer x50% Bonusschaden zu verursachen. Pro x1% Willenskraft, die Ihr besitzt, wird diese Chance um x4% und der Bonusschaden um 40 erhöht.\n\nTags: Schattenschaden über Zeit, Schaden, Willenskraft.",
+					"esES": "Tus efectos de daño de sombra en el tiempo tienen un x5% de probabilidad de infligir un x50% de daño adicional cada vez que infligen daño. Esta probabilidad aumenta un x1% y el daño adicional aumenta un x4% por cada 40 de voluntad que tengas.\n\nTags: Daño de sombra en el tiempo, Daño, Voluntad.",
+					"esMX": "Tus efectos de daño de sombra con el tiempo tienen un x5% de probabilidad de infligir un x50% de daño bonificado cada vez que infligen daño. Esta probabilidad aumenta un x1% y el daño bonificado aumenta un x4% por cada 40 de Voluntad que tengas.\n\nTags: Daño de sombra con el tiempo, Daño, Voluntad.",
+					"frFR": "Vos effets infligeant des dégâts d'ombre sur la durée ont x5% de chances d'infliger x50% de dégâts supplémentaires chaque fois qu'ils infligent des dégâts. Ces chances sont augmentées de x1% et les dégâts supplémentaires de x4% par tranche de 40 points de volonté dont vous disposez.\n\nTags: Dégâts d'ombre sur la durée, Dégâts, Volonté.",
+					"itIT": "Gli effetti dei tuoi danni da ombra periodici hanno una probabilità del x5% di infliggere il x50% di danni aggiuntivi ogni volta che infliggono danni. Questa probabilità aumenta del x1% e i danni aggiuntivi aumentano del x4% per ogni 40 Volontà.\n\nTags: Danni da ombra periodici, Danni, Volontà.",
+					"jaJP": "継続シャドウダメージ効果が、ダメージを与えるたびにx5%の確率でx50%のボーナスダメージを与える。意志力40ごとに発生率がx1%、ボーナスダメージがx4%増加する。\n\nTags: 継続シャドウダメージ, ダメージ, 意志力.",
+					"koKR": "지속 암흑 피해 효과가 피해를 줄 때마다 x5% 확률로 x50%의 추가 피해를 줍니다. 의지력 40당 확률이 x1%, 추가 피해가 x4% 증가합니다.\n\nTags: 지속 암흑 피해, 피해, 의지력.",
+					"plPL": "Twoje efekty wywołujące obrażenia Cienia z upływem czasu mają x5% szans na zadanie dodatkowo x50% pkt. obrażeń za każdym razem, gdy wywołują obrażenia. Szansa ta wzrasta o x1%, a premia do obrażeń o x4% za każde posiadane przez ciebie 40 pkt. siły woli.\n\nTags: Obrażenia Cienia z upływem czasu, Obrażenia, Siła Woli.",
+					"ptBR": "Os efeitos de dano de sombra ao longo do tempo têm x5% de chance de causar x50% de dano extra cada vez que causam dano. Essa chance é aumentada em x1% e o bônus de dano é aumentado em x4% para cada 40 de Determinação que você tiver.\n\nTags: Dano de Sombra ao Longo do Tempo, Dano, Determinação.",
+					"ruRU": "Ваши эффекты периодического урона от темной магии с вероятностью x5% наносят x50% дополнительного урона каждым тактом. Вероятность повышается на x1%, а бонус к урону – на x4% за каждые 40 ед. силы воли героя.\n\nTags: Периодический урон от темной магии, Урон, Сила воли.",
+					"trTR": "Zamanla Gölge hasarı etkilerin her hasar verdiklerinde x5% ihtimalle x50% bonus hasar kazanır. Sahip olduğun 40 İrade başına bu ihtimal x1%, bonus hasar ise x4% artar.\n\nTags: Zamanla Gölge Hasarı, Hasar, İrade.",
+					"zhCN": "你的持续性暗影伤害效果每次造成伤害时都有 x5% 几率造成 x50% 额外伤害。你每拥有 40 点意力, 该几率就会提高 x1% 且伤害额外提高 x4%。\n\nTags: 持续性暗影伤害, 伤害, 意力.",
+					"zhTW": "你的暗影持續傷害每次造成傷害時,有 x5% 機率造成 x50% 額外傷害。你每擁有 40 點意志,此機率提高 x1%,額外傷害提高 x4%。\n\nTags: 暗影持續傷害, 傷害, 意志."
 				}
 			},
 			"Necromancer_Legendary_017": {
@@ -35683,7 +35683,7 @@ let paragonData = {
 			},
 			"Sorcerer_Legendary_002": {
 				"name": "Searing Heat",
-				"description": "Casting Fireball or Meteor increases the Critical Strike Chance of further casts of that Skill by +5% for 5 seconds, up to +15%. Additional stacks do not refresh this timer.\n\nTags: Critical Strikes.",
+				"description": "Casting Fireball or Meteor increases your Critical Strike Chance by +5% for 5 seconds, up to +15%.\n\nTags: Critical Strikes.",
 				"nameLocalized": {
 					"deDE": "Sengende Hitze",
 					"esES": "Calor abrasador",
@@ -35700,19 +35700,19 @@ let paragonData = {
 					"zhTW": "熾烈高溫"
 				},
 				"descriptionLocalized": {
-					"deDE": "Das Wirken von Feuerball oder Meteor erhöht die kritische Trefferchance bei weiteren Einsätzen dieser Fertigkeit 5 Sek. lang um +5%, bis maximal +15%. Zusätzliche Stapel setzen diesen Timer nicht zurück.\n\nTags: Kritische Treffer.",
-					"esES": "Lanzar Bola de fuego o Meteorito aumenta la probabilidad de golpe crítico de los siguientes lanzamientos de dicha habilidad un +5% durante 5 s, hasta un máximo de un +15%. Las acumulaciones adicionales no reinician este temporizador.\n\nTags: Golpes críticos.",
-					"esMX": "Lanzar Bola de Fuego o Meteoro aumenta la probabilidad de golpe crítico de próximos lanzamientos de esa habilidad un +5% durante 5 segundos, hasta un +15%. Acumulaciones adicionales no actualizan este temporizador.\n\nTags: Golpes críticos.",
-					"frFR": "Lancer Boule de feu ou Météore augmente les chances d'infliger un coup critique des prochaines utilisations de cette compétence de +5% pendant 5 s, jusqu'à un maximum de +15%. Les cumuls supplémentaires ne réinitialisent pas cette durée.\n\nTags: Coups critiques.",
-					"itIT": "Lanciare Palla di Fuoco o Meteora aumenta la probabilità di critico dei lanci successivi di quell'abilità del +5% per 5 s, fino a un massimo del +15%. Gli accumuli aggiuntivi non ripristinano questo periodo di tempo.\n\nTags: Colpi critici.",
-					"jaJP": "〈ファイアボール〉か〈メテオ〉を使用すると、5秒間にわたり、当該スキルを次回使用した際にクリティカルヒット率が+5%増加する。増加量は最大+15%。効果が蓄積しても効果時間は延長されない。\n\nTags: クリティカルヒット.",
-					"koKR": "화염구 또는 운석 낙하를 시전하면 해당 기술 추가 시전 시 극대화 확률이 5초 동안 +5%만큼, 최대 +15%까지 증가합니다. 추가 중첩이 발생해도 이 타이머가 초기화되지 않습니다.\n\nTags: 극대화.",
-					"plPL": "Użycie Kuli Ognia lub Meteorytu zwiększa szansę na trafienie krytyczne przy kolejnym użyciu tych umiejętności o +5% na 5 sek., maksymalnie do +15%. Dodatkowe poziomy kumulacji nie odświeżają tego czasu.\n\nTags: Trafienia Krytyczne.",
-					"ptBR": "Lançar Bola de Fogo ou Meteoro aumenta a chance de acerto crítico de lançamentos adicionais da habilidade em +5% por 5 segundos, até +15%. Aplicações adicionais não reiniciam o contador.\n\nTags: Acertos Críticos.",
-					"ruRU": "\"Огненный шар\" и \"Метеорит\" повышают вероятность критического удара того же умения на +5% на 5 сек. вплоть до +15%. Новые эффекты не обновляют время действия уже полученных.\n\nTags: Критические удары.",
-					"trTR": "Ateş Topu veya Meteor kullanımı, bu Yeteneğin sonraki kullanımlarındaki Kritik Vuruş İhtimalini 5 saniyeliğine +5% artırır. Artış en fazla +15% olabilir. Ek birikmeler bu zamanlayıcıyı sıfırlamaz.\n\nTags: Kritik Vuruşlar.",
-					"zhCN": "施放火球或陨石术使后续施放该技能的暴击几率提高 +5%, 持续 5 秒, 最多提高 +15%。额外的层数不会刷新此计时器。\n\nTags: 暴击.",
-					"zhTW": "施放火球或隕石術會使你後續施放該技能的爆擊機率提高 +5%,持續 5 秒,最多提高 +15%。額外層數不會使持續時間重置。\n\nTags: 爆擊."
+					"deDE": "Beim Wirken von Feuerball oder Meteor erhöht sich Eure kritische Trefferchance für 5 Sek. um +5%, bis zu maximal +15%.\n\nTags: Kritische Treffer.",
+					"esES": "Lanzar Bola de fuego o Meteorito aumenta tu probabilidad de golpe crítico un +5% durante 5 s, hasta un máximo de un +15%.\n\nTags: Golpes críticos.",
+					"esMX": "Lanzar Bola de Fuego o Meteoro aumenta la probabilidad de golpe crítico en +5% durante 5 segundos hasta +15%.\n\nTags: Golpes críticos.",
+					"frFR": "Lancer Boule de feu ou Météore augmente vos chances d'infliger un coup critique de +5% pendant 5 s, jusqu'à un maximum de +15%.\n\nTags: Coups critiques.",
+					"itIT": "Lanciare Palla di Fuoco o Meteora aumenta la tua probabilità di critico del +5% per 5 s, fino a un massimo del +15%.\n\nTags: Colpi critici.",
+					"jaJP": "〈ファイアボール〉または〈メテオ〉使用時、5秒間にわたってクリティカルヒット率が+5%増加する。増加量は最大+15%。\n\nTags: クリティカルヒット.",
+					"koKR": "화염구 또는 운석 낙하를 시전하면 극대화 확률이 5초 동안 +5%만큼, 최대 +15%까지 증가합니다.\n\nTags: 극대화.",
+					"plPL": "Użycie Kuli Ognia lub Meteorytu zwiększa szansę na trafienie krytyczne o +5% na 5 sek., maksymalnie do +15%.\n\nTags: Trafienia Krytyczne.",
+					"ptBR": "Lançar Bola de Fogo ou Meteoro aumenta sua chance de acerto crítico em +5% por 5 s, até um máximo de +15%.\n\nTags: Acertos Críticos.",
+					"ruRU": "Когда вы применяете \"Огненный шар\" или \"Метеорит\", вероятность критического удара повышается на +5% на 5 сек., вплоть до +15%.\n\nTags: Критические удары.",
+					"trTR": "Ateş Topu veya Meteor kullanmak, Kritik Vuruş İhtimalini 5 saniye boyunca +5% artırır. Bu artış en fazla +15% olabilir.\n\nTags: Kritik Vuruşlar.",
+					"zhCN": "施放火球或陨石术使你的暴击几率提高 +5%, 持续 5 秒, 最多提高 +15%。\n\nTags: 暴击.",
+					"zhTW": "施放火球或隕石術會使爆擊機率提高 +5%,持續 5 秒,最多可提高 +15%。\n\nTags: 爆擊."
 				}
 			},
 			"Sorcerer_Legendary_005": {
@@ -35779,7 +35779,7 @@ let paragonData = {
 					"ptBR": "Matar um inimigo congelado concede 15% da sua vida máxima como barreira por 5 segundos.\n\nTags: Congelado, Barreira.",
 					"ruRU": "Убивая замороженных противников, вы получаете барьер с прочностью, равной 15% максимального запаса здоровья. Время действия – 5 сек.\n\nTags: Заморозка, Барьер.",
 					"trTR": "Donmuş bir düşmanı öldürmek sana 5 saniyeliğine Maksimum Canının 15% kadarına eşit bir Bariyer kazandırır.\n\nTags: Donuk, Bariyer.",
-					"zhCN": "消灭被冻结的敌人使你获得一层 15% 生命上限 的屏障 , 持续 5 秒。\n\nTags: 冻结, 屏障.",
+					"zhCN": "消灭被冻结的敌人使你获得一层 15% 生命上限 的屏障, 持续 5 秒。\n\nTags: 冻结, 屏障.",
 					"zhTW": "殺死凍結的敵人會賦予你等同生命值上限 15%的屏障,持續 5 秒。\n\nTags: 凍結, 屏障."
 				}
 			},
@@ -35819,7 +35819,7 @@ let paragonData = {
 			},
 			"Sorcerer_Legendary_008": {
 				"name": "Ceaseless Conduit",
-				"description": "Crackling Energy has a 25% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x2% per 20 total Intelligence you have.\n\nTags: Crackling Energy, Damage, Intelligence.",
+				"description": "Crackling Energy has a 25% chance to not consume a Charge when triggered. Crackling Energy's damage is increased by x3% per 20 total Intelligence you have.\n\nTags: Crackling Energy, Damage, Intelligence.",
 				"nameLocalized": {
 					"deDE": "Ununterbrochene Verbindung",
 					"esES": "Conducto incesante",
@@ -35836,19 +35836,19 @@ let paragonData = {
 					"zhTW": "無限導體"
 				},
 				"descriptionLocalized": {
-					"deDE": "Knisternde Energie verfügt über eine Chance von 25%, bei Auslösung keine Ladung zu verbrauchen. Der Schaden von Knisternde Energie wird pro 20 Eurer Gesamtintelligenz um x2% erhöht\n\nTags: Knisternde Energie, Schaden, Intelligenz.",
-					"esES": "La energía crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de la energía crepitante aumenta un x2% por cada 20 de inteligencia total que tengas..\n\nTags: Energía crepitante, Daño, Inteligencia.",
-					"esMX": "Energía Crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de Energía Crepitante aumenta un x2% por 20 de la Inteligencia total que tengas.\n\nTags: Energía Crepitante, Daño, Inteligencia.",
-					"frFR": "L'énergie crépitante a 25% de chances de ne pas consommer de charges lorsqu'elle est déclenchée. Les dégâts de l'énergie crépitante augmentent de x2% par tranche de 20 points d'intelligence que vous avez.\n\nTags: Énergie crépitante, Dégâts, Intelligence.",
-					"itIT": "Energia Crepitante ha il 25% di probabilità di non consumare una carica quando viene utilizzata. I danni inflitti da Energia Crepitante sono aumentati del x2% per ogni 20 Intelligenza.\n\nTags: Energia Crepitante, Danni, Intelligenza.",
-					"jaJP": "帯び出す電気発動時、25%の確率でチャージを消費しない。自分の合計知力20ごとに帯び出す電気のダメージがx2%増加する。\n\nTags: 帯び出す電気, ダメージ, 知力.",
-					"koKR": "짜릿한 에너지가 발동했을 때 25% 확률로 중첩이 소모되지 않습니다. 짜릿한 에너지가 주는 피해가 총 지능 20당 x2% 증가합니다.\n\nTags: 짜릿한 에너지, 피해, 지능.",
-					"plPL": "Istnieje 25% szans na to, że aktywacja Roziskrzonej Energii nie zużyje ładunku. Obrażenia od Roziskrzonej Energii wzrastają o x2% za każde posiadane przez ciebie 20 pkt. inteligencji.\n\nTags: Roziskrzona Energia, Obrażenia, Inteligencja.",
-					"ptBR": "Energia Crepitante tem 25% de chance de não consumir uma carga ao ser acionada. O dano de Energia Crepitante é aumentado em 2% por 20 de Inteligência total que você tiver.\n\nTags: Energia Crepitante, Dano, Inteligência.",
-					"ruRU": "Искрящийся заряд энергии с вероятностью 25% не поглощает заряд при активации. Урон от Искрящегося заряда энергии увеличивается на x2% за каждые 20 ед. интеллекта героя.\n\nTags: Искрящийся заряд энергии, Урон, Интеллект.",
-					"trTR": "Çatırtı Enerjisi tetiklendiğinde 25% ihtimalle bir Yük tüketmez. Çatırtı Enerjisinin hasarı, sahip olduğun 20 toplam Zekâ başına x2% artar.\n\nTags: Çatırtı Enerjisi, Hasar, Zekâ.",
-					"zhCN": "爆裂电花有 25% 几率在触发时不消耗层数。你每拥有 20 点总智力, 爆裂电花的伤害就提高 x2%。\n\nTags: 爆裂电花, 伤害, 智力.",
-					"zhTW": "電流能量觸發時有 25% 機率不消耗使用次數。你每擁有 20 點總智力會使你的電流能量傷害提高 x2%。\n\nTags: 電流能量, 傷害, 智力."
+					"deDE": "Knisternde Energie verfügt über eine Chance von 25%, bei Auslösung keine Ladung zu verbrauchen. Der Schaden von Knisternde Energie wird pro 20 Eurer Gesamtintelligenz um x3% erhöht\n\nTags: Knisternde Energie, Schaden, Intelligenz.",
+					"esES": "La energía crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de la energía crepitante aumenta un x3% por cada 20 de inteligencia total que tengas..\n\nTags: Energía crepitante, Daño, Inteligencia.",
+					"esMX": "Energía Crepitante tiene un 25% de probabilidad de no consumir una carga al activarse. El daño de Energía Crepitante aumenta un x3% por 20 de la Inteligencia total que tengas.\n\nTags: Energía Crepitante, Daño, Inteligencia.",
+					"frFR": "L'énergie crépitante a 25% de chances de ne pas consommer de charges lorsqu'elle est déclenchée. Les dégâts de l'énergie crépitante augmentent de x3% par tranche de 20 points d'intelligence que vous avez.\n\nTags: Énergie crépitante, Dégâts, Intelligence.",
+					"itIT": "Energia Crepitante ha il 25% di probabilità di non consumare una carica quando viene utilizzata. I danni inflitti da Energia Crepitante sono aumentati del x3% per ogni 20 Intelligenza.\n\nTags: Energia Crepitante, Danni, Intelligenza.",
+					"jaJP": "帯び出す電気発動時、25%の確率でチャージを消費しない。自分の合計知力20ごとに帯び出す電気のダメージがx3%増加する。\n\nTags: 帯び出す電気, ダメージ, 知力.",
+					"koKR": "짜릿한 에너지가 발동했을 때 25% 확률로 중첩이 소모되지 않습니다. 짜릿한 에너지가 주는 피해가 총 지능 20당 x3% 증가합니다.\n\nTags: 짜릿한 에너지, 피해, 지능.",
+					"plPL": "Istnieje 25% szans na to, że aktywacja Roziskrzonej Energii nie zużyje ładunku. Obrażenia od Roziskrzonej Energii wzrastają o x3% za każde posiadane przez ciebie 20 pkt. inteligencji.\n\nTags: Roziskrzona Energia, Obrażenia, Inteligencja.",
+					"ptBR": "Energia Crepitante tem 25% de chance de não consumir uma carga ao ser acionada. O dano de Energia Crepitante é aumentado em 3% por 20 de Inteligência total que você tiver.\n\nTags: Energia Crepitante, Dano, Inteligência.",
+					"ruRU": "Искрящийся заряд энергии с вероятностью 25% не поглощает заряд при активации. Урон от Искрящегося заряда энергии увеличивается на x3% за каждые 20 ед. интеллекта героя.\n\nTags: Искрящийся заряд энергии, Урон, Интеллект.",
+					"trTR": "Çatırtı Enerjisi tetiklendiğinde 25% ihtimalle bir Yük tüketmez. Çatırtı Enerjisinin hasarı, sahip olduğun 20 toplam Zekâ başına x3% artar.\n\nTags: Çatırtı Enerjisi, Hasar, Zekâ.",
+					"zhCN": "爆裂电花有 25% 几率在触发时不消耗层数。你每拥有 20 点总智力, 爆裂电花的伤害就提高 x3%。\n\nTags: 爆裂电花, 伤害, 智力.",
+					"zhTW": "電流能量觸發時有 25% 機率不消耗使用次數。你每擁有 20 點總智力會使你的電流能量傷害提高 x3%。\n\nTags: 電流能量, 傷害, 智力."
 				}
 			},
 			"Sorcerer_Legendary_011": {
@@ -36337,7 +36337,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_013": {
 				"name": "Keeper of Flames",
-				"description": "4% Damage Reduction from Enemies That Are Burning\n12% Fire Resistance\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
+				"description": "5% Damage Reduction from Enemies That Are Burning\n12% Fire Resistance\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Fire, Resistance.",
 				"nameLocalized": {
 					"deDE": "Hüter der Flammen",
 					"esES": "Guardia de las llamas",
@@ -36354,19 +36354,19 @@ let paragonData = {
 					"zhTW": "火焰守護者"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% weniger Schaden durch Gegner, die von Burning betroffen sind\n12% Widerstand gegen: Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schadensreduktion, Feuer, Widerstand.",
-					"esES": "4% de reducción de daño de enemigos en estado Burning\n12% de resistencia a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Fuego, Resistencia.",
-					"esMX": "4% de reducción de daño de enemigos que están en estado Burning\n12% de resistencia a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Fuego, Resistencia.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n12% de résistance (Fire )\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Réduction des dégâts, Feu, Résistance.",
-					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Burning: 4%\nResistenza Fire: 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Riduzione danni, Fuoco, Resistenza.",
-					"jaJP": "Burning 状態の敵から受けるダメージ減少率4%\nFire 耐性12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ減少, 火炎, 耐性.",
-					"koKR": "Burning 적에게 받는 피해 감소 4%\nFire 저항 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해 감소, 화염, 저항.",
-					"plPL": "4% redukcji obrażeń od wrogów w stanie: Burning\n12% odporności na Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Redukcja Obrażeń, Ogień, Odporność.",
-					"ptBR": "4% de redução de dano recebido de inimigos Burning\n12% de resistência a Fire\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Redução de Dano, Fogo, Resistência.",
-					"ruRU": "-4% к урону от противников под действием эффекта \"Burning \"\nСопротивление типу урона \"Fire \": 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Уменьшение урона, Огонь, Сопротивление.",
-					"trTR": "Burning Etkisindeki Düşmanlardan 4% Hasar Azaltma\n12% Fire Direnci\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Yakma, Hasar Azaltma, Ateş, Direnç.",
-					"zhCN": "4% 对Burning 敌人的伤害减免\n12% Fire 抗性\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害减免, 火焰, 抗性.",
-					"zhTW": "Burning 敵人的傷害減免 4%\nFire 抗性 12%\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃燒, 傷害減免, 火焰, 抗性."
+					"deDE": "5% weniger Schaden durch Gegner, die von Burning betroffen sind\n12% Widerstand gegen: Fire\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schadensreduktion, Feuer, Widerstand.",
+					"esES": "5% de reducción de daño de enemigos en estado Burning\n12% de resistencia a Fire\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Fuego, Resistencia.",
+					"esMX": "5% de reducción de daño de enemigos que están en estado Burning\n12% de resistencia a Fire\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Fuego, Resistencia.",
+					"frFR": "5% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n12% de résistance (Fire )\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Réduction des dégâts, Feu, Résistance.",
+					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Burning: 5%\nResistenza Fire: 12%\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Riduzione danni, Fuoco, Resistenza.",
+					"jaJP": "Burning 状態の敵から受けるダメージ減少率5%\nFire 耐性12%\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ減少, 火炎, 耐性.",
+					"koKR": "Burning 적에게 받는 피해 감소 5%\nFire 저항 12%\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해 감소, 화염, 저항.",
+					"plPL": "5% redukcji obrażeń od wrogów w stanie: Burning\n12% odporności na Fire\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Redukcja Obrażeń, Ogień, Odporność.",
+					"ptBR": "5% de redução de dano recebido de inimigos Burning\n12% de resistência a Fire\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Redução de Dano, Fogo, Resistência.",
+					"ruRU": "-5% к урону от противников под действием эффекта \"Burning \"\nСопротивление типу урона \"Fire \": 12%\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Уменьшение урона, Огонь, Сопротивление.",
+					"trTR": "Burning Etkisindeki Düşmanlardan 5% Hasar Azaltma\n12% Fire Direnci\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Yakma, Hasar Azaltma, Ateş, Direnç.",
+					"zhCN": "5% 对Burning 敌人的伤害减免\n12% Fire 抗性\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害减免, 火焰, 抗性.",
+					"zhTW": "Burning 敵人的傷害減免 5%\nFire 抗性 12%\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃燒, 傷害減免, 火焰, 抗性."
 				},
 				"thresholdRequirements": {
 					"Sorcerer": [
@@ -36421,7 +36421,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_015": {
 				"name": "Oppressive",
-				"description": "+10% Vulnerable Damage\n4% Damage Reduction from Vulnerable Enemies\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
+				"description": "+10% Vulnerable Damage\n5% Damage Reduction from Vulnerable Enemies\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage, Damage Reduction.",
 				"nameLocalized": {
 					"deDE": "Unterdrückend",
 					"esES": "Opresión",
@@ -36438,19 +36438,19 @@ let paragonData = {
 					"zhTW": "暴虐"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen verwundbare Ziele\n4% weniger Schaden durch verwundbare Gegner\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Schadensreduktion.",
-					"esES": "+10% de daño a enemigos vulnerables\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
-					"esMX": "+10% de daño de vulnerabilidad\n4% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
-					"frFR": "+10% de dégâts contre les cibles vulnérables\n4% de réduction des dégâts infligés par les cibles vulnérables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Réduction des dégâts.",
-					"itIT": "Danni ai nemici vulnerabili: +10%\nRiduzione danni da nemici vulnerabili: 4%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Riduzione danni.",
-					"jaJP": "脆弱ダメージ+10%\n脆弱状態の敵からのダメージ減少率4%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, ダメージ減少.",
-					"koKR": "취약 피해 +10%\n취약한 적에게 받는 피해 감소 4%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 피해 감소.",
-					"plPL": "+10% obrażeń od odsłonięcia\n4% redukcji obrażeń od odsłoniętych wrogów\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Redukcja Obrażeń.",
-					"ptBR": "+10% de dano de vulnerabilidade\n4% de redução de dano recebido de inimigos vulneráveis\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Redução de Dano.",
-					"ruRU": "+10% к урону уязвимым противникам\n-4% к урону от уязвимых противников\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Уменьшение урона.",
-					"trTR": "+10% Savunmasız Hasarı\nSavunmasız Düşmanlardan 4% Hasar Azaltma\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar, Hasar Azaltma.",
-					"zhCN": "+10% 易伤伤害\n4% 对易伤敌人的伤害减免\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 伤害减免.",
-					"zhTW": "易傷傷害 +10%\n易傷敵人的傷害減免 4%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 傷害減免."
+					"deDE": "+10% Schaden gegen verwundbare Ziele\n5% weniger Schaden durch verwundbare Gegner\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schaden, Schadensreduktion.",
+					"esES": "+10% de daño a enemigos vulnerables\n5% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
+					"esMX": "+10% de daño de vulnerabilidad\n5% de reducción de daño de enemigos vulnerables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Daño, Reducción de daño.",
+					"frFR": "+10% de dégâts contre les cibles vulnérables\n5% de réduction des dégâts infligés par les cibles vulnérables\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Dégâts, Réduction des dégâts.",
+					"itIT": "Danni ai nemici vulnerabili: +10%\nRiduzione danni da nemici vulnerabili: 5%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Danni, Riduzione danni.",
+					"jaJP": "脆弱ダメージ+10%\n脆弱状態の敵からのダメージ減少率5%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ, ダメージ減少.",
+					"koKR": "취약 피해 +10%\n취약한 적에게 받는 피해 감소 5%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해, 피해 감소.",
+					"plPL": "+10% obrażeń od odsłonięcia\n5% redukcji obrażeń od odsłoniętych wrogów\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Obrażenia, Redukcja Obrażeń.",
+					"ptBR": "+10% de dano de vulnerabilidade\n5% de redução de dano recebido de inimigos vulneráveis\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Dano, Redução de Dano.",
+					"ruRU": "+10% к урону уязвимым противникам\n-5% к урону от уязвимых противников\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Уменьшение урона.",
+					"trTR": "+10% Savunmasız Hasarı\nSavunmasız Düşmanlardan 5% Hasar Azaltma\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar, Hasar Azaltma.",
+					"zhCN": "+10% 易伤伤害\n5% 对易伤敌人的伤害减免\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 伤害减免.",
+					"zhTW": "易傷傷害 +10%\n易傷敵人的傷害減免 5%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 傷害減免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -36469,7 +36469,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_016": {
 				"name": "Smoldering Embers",
-				"description": "4% Damage Reduction from Enemies That Are Burning\n+10 Intelligence\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
+				"description": "5% Damage Reduction from Enemies That Are Burning\n+10 Intelligence\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Burn, Damage Reduction, Intelligence.",
 				"nameLocalized": {
 					"deDE": "Glimmende Überreste",
 					"esES": "Ascuas humeantes",
@@ -36486,19 +36486,19 @@ let paragonData = {
 					"zhTW": "悶燒餘燼"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% weniger Schaden durch Gegner, die von Burning betroffen sind\n+10 Intelligenz\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schadensreduktion, Intelligenz.",
-					"esES": "4% de reducción de daño de enemigos en estado Burning\n+10 de inteligencia\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Inteligencia.",
-					"esMX": "4% de reducción de daño de enemigos que están en estado Burning\n+10 de Inteligencia\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Inteligencia.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n+10 intelligence\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Réduction des dégâts, Intelligence.",
-					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Burning: 4%\nIntelligenza: +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Riduzione danni, Intelligenza.",
-					"jaJP": "Burning 状態の敵から受けるダメージ減少率4%\n知力+10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ減少, 知力.",
-					"koKR": "Burning 적에게 받는 피해 감소 4%\n지능 +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해 감소, 지능.",
-					"plPL": "4% redukcji obrażeń od wrogów w stanie: Burning\n+10 inteligencji\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Redukcja Obrażeń, Inteligencja.",
-					"ptBR": "4% de redução de dano recebido de inimigos Burning\n+10 de Inteligência\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Redução de Dano, Inteligência.",
-					"ruRU": "-4% к урону от противников под действием эффекта \"Burning \"\n+10 к интеллекту\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Уменьшение урона, Интеллект.",
-					"trTR": "Burning Etkisindeki Düşmanlardan 4% Hasar Azaltma\n+10 Zekâ\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Yakma, Hasar Azaltma, Zekâ.",
-					"zhCN": "4% 对Burning 敌人的伤害减免\n+10 点智力\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害减免, 智力.",
-					"zhTW": "Burning 敵人的傷害減免 4%\n智力 +10\n\nBonus: Another 4% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃燒, 傷害減免, 智力."
+					"deDE": "5% weniger Schaden durch Gegner, die von Burning betroffen sind\n+10 Intelligenz\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schadensreduktion, Intelligenz.",
+					"esES": "5% de reducción de daño de enemigos en estado Burning\n+10 de inteligencia\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Inteligencia.",
+					"esMX": "5% de reducción de daño de enemigos que están en estado Burning\n+10 de Inteligencia\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Reducción de daño, Inteligencia.",
+					"frFR": "5% de réduction des dégâts infligés par les cibles sous l'effet « Burning »\n+10 intelligence\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Réduction des dégâts, Intelligence.",
+					"itIT": "Riduzione danni subiti dai nemici sotto l'effetto Burning: 5%\nIntelligenza: +10\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Bruciatura, Riduzione danni, Intelligenza.",
+					"jaJP": "Burning 状態の敵から受けるダメージ減少率5%\n知力+10\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 炎上, ダメージ減少, 知力.",
+					"koKR": "Burning 적에게 받는 피해 감소 5%\n지능 +10\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 불태우기, 피해 감소, 지능.",
+					"plPL": "5% redukcji obrażeń od wrogów w stanie: Burning\n+10 inteligencji\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Podpalenie, Redukcja Obrażeń, Inteligencja.",
+					"ptBR": "5% de redução de dano recebido de inimigos Burning\n+10 de Inteligência\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Queimadura, Redução de Dano, Inteligência.",
+					"ruRU": "-5% к урону от противников под действием эффекта \"Burning \"\n+10 к интеллекту\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Уменьшение урона, Интеллект.",
+					"trTR": "Burning Etkisindeki Düşmanlardan 5% Hasar Azaltma\n+10 Zekâ\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: Yakma, Hasar Azaltma, Zekâ.",
+					"zhCN": "5% 对Burning 敌人的伤害减免\n+10 点智力\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害减免, 智力.",
+					"zhTW": "Burning 敵人的傷害減免 5%\n智力 +10\n\nBonus: Another 5% Damage Reduction from Enemies That Are Burning if requirements met:\n{thresholdRequirements}\n\nTags: 燃燒, 傷害減免, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -37066,7 +37066,7 @@ let paragonData = {
 			},
 			"Sorcerer_Rare_035": {
 				"name": "Guarded",
-				"description": "4% Damage Reduction from Vulnerable Enemies\n12% Cold Resistance\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
+				"description": "5% Damage Reduction from Vulnerable Enemies\n12% Cold Resistance\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Damage Reduction, Cold, Resistance.",
 				"nameLocalized": {
 					"deDE": "Geschützt",
 					"esES": "Protegido",
@@ -37083,19 +37083,19 @@ let paragonData = {
 					"zhTW": "守護"
 				},
 				"descriptionLocalized": {
-					"deDE": "4% weniger Schaden durch verwundbare Gegner\n12% Widerstand gegen: Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schadensreduktion, Kälte, Widerstand.",
-					"esES": "4% de reducción de daño de enemigos vulnerables\n12% de resistencia a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Frío, Resistencia.",
-					"esMX": "4% de reducción de daño de enemigos vulnerables\n12% de resistencia a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Frío, Resistencia.",
-					"frFR": "4% de réduction des dégâts infligés par les cibles vulnérables\n12% de résistance (Cold )\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Réduction des dégâts, Froid, Résistance.",
-					"itIT": "Riduzione danni da nemici vulnerabili: 4%\nResistenza Cold: 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Riduzione danni, Freddo, Resistenza.",
-					"jaJP": "脆弱状態の敵からのダメージ減少率4%\nCold 耐性12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ減少, 冷気, 耐性.",
-					"koKR": "취약한 적에게 받는 피해 감소 4%\nCold 저항 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해 감소, 냉기, 저항.",
-					"plPL": "4% redukcji obrażeń od odsłoniętych wrogów\n12% odporności na Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Redukcja Obrażeń, Zimno, Odporność.",
-					"ptBR": "4% de redução de dano recebido de inimigos vulneráveis\n12% de resistência a Cold\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Redução de Dano, Gelo, Resistência.",
-					"ruRU": "-4% к урону от уязвимых противников\nСопротивление типу урона \"Cold \": 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Уменьшение урона, Холод, Сопротивление.",
-					"trTR": "Savunmasız Düşmanlardan 4% Hasar Azaltma\n12% Cold Direnci\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar Azaltma, Soğuk, Direnç.",
-					"zhCN": "4% 对易伤敌人的伤害减免\n12% Cold 抗性\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 冰霜, 抗性.",
-					"zhTW": "易傷敵人的傷害減免 4%\nCold 抗性 12%\n\nBonus: Another 4% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害減免, 冰寒, 抗性."
+					"deDE": "5% weniger Schaden durch verwundbare Gegner\n12% Widerstand gegen: Cold\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verwundbar, Schadensreduktion, Kälte, Widerstand.",
+					"esES": "5% de reducción de daño de enemigos vulnerables\n12% de resistencia a Cold\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Frío, Resistencia.",
+					"esMX": "5% de reducción de daño de enemigos vulnerables\n12% de resistencia a Cold\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerable, Reducción de daño, Frío, Resistencia.",
+					"frFR": "5% de réduction des dégâts infligés par les cibles vulnérables\n12% de résistance (Cold )\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnérable, Réduction des dégâts, Froid, Résistance.",
+					"itIT": "Riduzione danni da nemici vulnerabili: 5%\nResistenza Cold: 12%\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerabilità, Riduzione danni, Freddo, Resistenza.",
+					"jaJP": "脆弱状態の敵からのダメージ減少率5%\nCold 耐性12%\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 脆弱, ダメージ減少, 冷気, 耐性.",
+					"koKR": "취약한 적에게 받는 피해 감소 5%\nCold 저항 12%\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 취약, 피해 감소, 냉기, 저항.",
+					"plPL": "5% redukcji obrażeń od odsłoniętych wrogów\n12% odporności na Cold\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Odsłonięcie, Redukcja Obrażeń, Zimno, Odporność.",
+					"ptBR": "5% de redução de dano recebido de inimigos vulneráveis\n12% de resistência a Cold\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Vulnerável, Redução de Dano, Gelo, Resistência.",
+					"ruRU": "-5% к урону от уязвимых противников\nСопротивление типу урона \"Cold \": 12%\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Уменьшение урона, Холод, Сопротивление.",
+					"trTR": "Savunmasız Düşmanlardan 5% Hasar Azaltma\n12% Cold Direnci\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar Azaltma, Soğuk, Direnç.",
+					"zhCN": "5% 对易伤敌人的伤害减免\n12% Cold 抗性\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 冰霜, 抗性.",
+					"zhTW": "易傷敵人的傷害減免 5%\nCold 抗性 12%\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害減免, 冰寒, 抗性."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -37633,7 +37633,7 @@ let paragonData = {
 					"frFR": "Les forces adverses qui étaient gelées vous infligent 13.3% de dégâts en moins durant les 5 s suivant leur décongélation.",
 					"itIT": "I nemici ti infliggono il 13.3% di danni in meno per 5 s dopo che escono dal congelamento.",
 					"jaJP": "敵が凍結状態から解放されると、そこから5秒間にわたり自分がその敵から受けるダメージが13.3%減少する。",
-					"koKR": "적의 빙결 상태가 풀리고 5초 후에 적이 주는 피해가 13.3% 감소합니다.",
+					"koKR": "적의 빙결 상태가 풀린 후 5초 동안 적이 주는 피해가 13.3% 감소합니다.",
 					"plPL": "Po zakończeniu działania Zamrożenia wrogowie zadają ci obrażenia zmniejszone o 13.3% przez 5 sek.",
 					"ptBR": "Inimigos causam 13.3% de dano reduzido por 5 segundos depois de não estarem mais congelados.",
 					"ruRU": "Противники наносят вам на 13.3% меньше урона в течение 5 сек. после снятия эффекта заморозки.",
@@ -37748,7 +37748,7 @@ let paragonData = {
 			"ParagonGlyph_012": {
 				"name": "Reinforced",
 				"desc": "Grants +{25/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125}% bonus to all Rare nodes within range.",
-				"bonus": "You gain 10% Damage Reduction while you have an active Barrier.",
+				"bonus": "You gain 15% Damage Reduction while you have an active Barrier.",
 				"nameLocalized": {
 					"deDE": "Verstärkt",
 					"esES": "Reforzado",
@@ -37780,26 +37780,26 @@ let paragonData = {
 					"zhTW": "範圍內所有稀有節點的效果額外提高 {25/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Ihr erhaltet 10% Schadensreduktion, solange Ihr eine aktive Barriere habt.",
-					"esES": "Obtienes un 10% de reducción de daño mientras tienes una barrera activa.",
-					"esMX": "Obtienes un 10% de reducción de daño mientras tienes una barrera activa.",
-					"frFR": "Vous obtenez 10% de réduction des dégâts lorsque vous avez une barrière active.",
-					"itIT": "I danni sono ridotti del 10% quando hai una barriera attiva.",
-					"jaJP": "障壁発動中、受けるダメージが10%減少する。",
-					"koKR": "활성화되어 있는 보호막이 있는 동안 10%의 피해 감소를 얻습니다.",
-					"plPL": "Zyskujesz premię 10% do redukcji obrażeń, kiedy masz aktywną barierę.",
-					"ptBR": "Você recebe 10% de redução de dano enquanto tiver uma barreira ativa.",
-					"ruRU": "Пока вас защищает барьер, вы получаете на 10% меньше урона.",
-					"trTR": "Etkin bir Bariyerin varken 10% Hasar Azaltma kazanırsın.",
-					"zhCN": "你有激活的屏障时, 你获得 10% 伤害减免。",
-					"zhTW": "當你有作用中的屏障,你獲得 10% 傷害減免。"
+					"deDE": "Ihr erhaltet 15% Schadensreduktion, solange Ihr eine aktive Barriere habt.",
+					"esES": "Obtienes un 15% de reducción de daño mientras tienes una barrera activa.",
+					"esMX": "Obtienes un 15% de reducción de daño mientras tienes una barrera activa.",
+					"frFR": "Vous obtenez 15% de réduction des dégâts lorsque vous avez une barrière active.",
+					"itIT": "I danni sono ridotti del 15% quando hai una barriera attiva.",
+					"jaJP": "障壁発動中、受けるダメージが15%減少する。",
+					"koKR": "활성화되어 있는 보호막이 있는 동안 15%의 피해 감소를 얻습니다.",
+					"plPL": "Zyskujesz premię 15% do redukcji obrażeń, kiedy masz aktywną barierę.",
+					"ptBR": "Você recebe 15% de redução de dano enquanto tiver uma barreira ativa.",
+					"ruRU": "Пока вас защищает барьер, вы получаете на 15% меньше урона.",
+					"trTR": "Etkin bir Bariyerin varken 15% Hasar Azaltma kazanırsın.",
+					"zhCN": "你有激活的屏障时, 你获得 15% 伤害减免。",
+					"zhTW": "當你有作用中的屏障,你獲得 15% 傷害減免。"
 				},
 				"thresholdRequirements": "25 Willpower"
 			},
 			"ParagonGlyph_014": {
 				"name": "Territorial",
 				"desc": "For every 5 Dexterity purchased within range, you deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% increased damage to Close targets.",
-				"bonus": "You gain 10% Damage Reduction against Close enemies.",
+				"bonus": "You gain 15% Damage Reduction against Close enemies.",
 				"nameLocalized": {
 					"deDE": "Territorial",
 					"esES": "Territorial",
@@ -37831,19 +37831,19 @@ let paragonData = {
 					"zhTW": "在範圍內每購買 5 點敏捷,你對近距離目標造成的傷害提高 {2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Ihr erhaltet Sek. lang 10% Schadensreduktion gegen Gegner in der Nähe.",
-					"esES": "Obtienes un 10% de reducción de daño contra enemigos cercanos.",
-					"esMX": "Obtienes un 10% de reducción de daño contra enemigos cercanos.",
-					"frFR": "Vous obtenez 10% de réduction des dégâts contre les adversaires à proximité.",
-					"itIT": "I danni sono ridotti del 10% contro i nemici vicini.",
-					"jaJP": "付近の敵から受けるダメージが10%減少する。",
-					"koKR": "근거리에 있는 적에게 받는 피해가 10% 감소합니다.",
-					"plPL": "Zyskujesz premię 10% do redukcji obrażeń od pobliskich wrogów.",
-					"ptBR": "Você recebe 10% de redução de dano contra inimigos próximos.",
-					"ruRU": "Вы получаете на 10% меньше урона от находящихся рядом противников.",
-					"trTR": "Yakın düşmanlara karşı 10% Hasar Azaltma kazanırsın.",
-					"zhCN": "你从近距敌人处受到的伤害降低 10%。",
-					"zhTW": "你對上近距離敵人時,獲得 10% 傷害減免。"
+					"deDE": "Ihr erhaltet Sek. lang 15% Schadensreduktion gegen Gegner in der Nähe.",
+					"esES": "Obtienes un 15% de reducción de daño contra enemigos cercanos.",
+					"esMX": "Obtienes un 15% de reducción de daño contra enemigos cercanos.",
+					"frFR": "Vous obtenez 15% de réduction des dégâts contre les adversaires à proximité.",
+					"itIT": "I danni sono ridotti del 15% contro i nemici vicini.",
+					"jaJP": "付近の敵から受けるダメージが15%減少する。",
+					"koKR": "근거리에 있는 적에게 받는 피해가 15% 감소합니다.",
+					"plPL": "Zyskujesz premię 15% do redukcji obrażeń od pobliskich wrogów.",
+					"ptBR": "Você recebe 15% de redução de dano contra inimigos próximos.",
+					"ruRU": "Вы получаете на 15% меньше урона от находящихся рядом противников.",
+					"trTR": "Yakın düşmanlara karşı 15% Hasar Azaltma kazanırsın.",
+					"zhCN": "你从近距敌人处受到的伤害降低 15%。",
+					"zhTW": "你對上近距離敵人時,獲得 15% 傷害減免。"
 				},
 				"thresholdRequirements": "25 Dexterity"
 			},
@@ -38105,7 +38105,7 @@ let paragonData = {
 			"ParagonGlyph_077": {
 				"name": "Warding",
 				"desc": "Grants +{25/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125}% bonus to all Rare nodes within range.",
-				"bonus": "You take reduced damage the less Mana you have, up to 13.3%.",
+				"bonus": "You take reduced damage the less Mana you have, up to 25%.",
 				"nameLocalized": {
 					"deDE": "Abschirmend",
 					"esES": "Custodia",
@@ -38137,19 +38137,19 @@ let paragonData = {
 					"zhTW": "範圍內所有稀有節點的效果額外提高 {25/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Ihr erleidet weniger Schaden, je weniger Mana Ihr besitzt, bis maximal 13.3%.",
-					"esES": "Sufres menos daño cuanto menos maná tienes, hasta un máximo de un 13.3%.",
-					"esMX": "Recibes menos daño cuanto menos maná tengas, hasta un 13.3%.",
-					"frFR": "Moins vous avez de mana, moins vous subissez de dégâts, jusqu'à une réduction maximale de 13.3%.",
-					"itIT": "Subisci danni ridotti quando hai meno mana, fino al 13.3%.",
-					"jaJP": "現在のマナが少ないほど被ダメージが減少する。減少率は最大13.3%。",
-					"koKR": "마나가 적을수록 받는 피해가 감소하여, 최대 13.3%까지 감소합니다.",
-					"plPL": "Im mniej many posiadasz, tym mniejsze otrzymujesz obrażenia. Maksymalna premia do redukcji obrażeń: 13.3%.",
-					"ptBR": "Você recebe dano reduzido por quanto menos mana tiver, até 13.3%.",
-					"ruRU": "Вы получаете уменьшенный урон по мере уменьшения запаса маны. Максимальная защита от урона – 13.3%.",
-					"trTR": "En fazla 13.3% olmak üzere Manan azaldıkça azaltılmış hasar alırsın.",
-					"zhCN": "你拥有的法力越低, 受到的伤害就越低, 最多降低 13.3%。",
-					"zhTW": "你的法力越少,傷害減免越高,最多 13.3%。"
+					"deDE": "Ihr erleidet weniger Schaden, je weniger Mana Ihr besitzt, bis maximal 25%.",
+					"esES": "Sufres menos daño cuanto menos maná tienes, hasta un máximo de un 25%.",
+					"esMX": "Recibes menos daño cuanto menos maná tengas, hasta un 25%.",
+					"frFR": "Moins vous avez de mana, moins vous subissez de dégâts, jusqu'à une réduction maximale de 25%.",
+					"itIT": "Subisci danni ridotti quando hai meno mana, fino al 25%.",
+					"jaJP": "現在のマナが少ないほど被ダメージが減少する。減少率は最大25%。",
+					"koKR": "마나가 적을수록 받는 피해가 감소하여, 최대 25%까지 감소합니다.",
+					"plPL": "Im mniej many posiadasz, tym mniejsze otrzymujesz obrażenia. Maksymalna premia do redukcji obrażeń: 25%.",
+					"ptBR": "Você recebe dano reduzido por quanto menos mana tiver, até 25%.",
+					"ruRU": "Вы получаете уменьшенный урон по мере уменьшения запаса маны. Максимальная защита от урона – 25%.",
+					"trTR": "En fazla 25% olmak üzere Manan azaldıkça azaltılmış hasar alırsın.",
+					"zhCN": "你拥有的法力越低, 受到的伤害就越低, 最多降低 25%。",
+					"zhTW": "你的法力越少,傷害減免越高,最多 25%。"
 				},
 				"thresholdRequirements": "25 Willpower"
 			},

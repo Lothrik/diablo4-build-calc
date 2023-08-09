@@ -308,7 +308,8 @@ let codexHistory = {
 	"Offensive: (PH) of Ensnaring Current Aspect": 306,
 	"Defensive: Mage-Lord's Aspect": 307,
 	"Defensive: Aspect of Searing Wards": 308,
-	"Offensive: The Oculus": 309
+	"Offensive: The Oculus": 309,
+	"Utility: Hulking Aspect": 310
 }
 
 export { codexHistory };
